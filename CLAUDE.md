@@ -73,17 +73,34 @@ Auf neuen Stationen: `.mcp.json` vom bestehenden Setup kopieren oder manuell ers
 
 ## Netzwerk
 - **Firewall**: OPNsense (rjgate.localdomain) @ 192.168.1.1
-- **NAS**: Synology DiskStation918 @ 192.168.1.10, SMB-Mount: /Volumes/daten
+- **NAS**: Synology DiskStation918, SMB-Mount: /Volumes/daten
+  - Im Büro: 192.168.1.10
+  - Extern: smb://diskstation918.tail8265aa.ts.net (via Tailscale)
 - **Drucker**: Konica Minolta bizhub c300i (im LAN, IP wird konfiguriert)
 - **Mac Mini**: 192.168.1.210
-- **VPN**: WireGuard via OPNsense für externen Zugriff
+- **VPN**: Tailscale für externen Zugriff auf NAS und Büro-LAN
 - **GitHub SSH**: Port 443 via ssh.github.com (Port 22 durch Firewall blockiert)
+
+## Output-Ablage
+
+Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgelegt:
+
+```
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/
+  AD - 01 Geschaeftsfuerung/
+    JANS AI/
+      30 JANS AI HUB OUTPUT/
+```
+
+- Wird über OneDrive automatisch auf alle Stationen synchronisiert
+- Agents (Baurecht-Checker, CI-Formatter etc.) legen ihre Ergebnisse hier ab
+- Unterordner pro Agent/Thema nach Bedarf erstellen
 
 ## Datenquellen
 - **NAS**: /Volumes/daten (Architektur-Archiv, Bürodaten)
 - **Microsoft 365**: OneDrive + SharePoint (~/Library/CloudStorage/OneDrive-*)
 - **Dropbox**: ~/Library/CloudStorage/Dropbox
-- **Lokal**: ~/Developer/claude-code (dieses Projekt)
+- **Lokal**: ~/Developer/jans-ai-hub (dieses Projekt)
 
 ## Wichtige Regeln
 - Projekt IMMER lokal auf SSD (`~/Developer/claude-code`), NIEMALS über SMB-Mount bearbeiten

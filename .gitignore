@@ -11,5 +11,7 @@ package-lock.json
 # macOS
 .DS_Store
 
-# Claude
-.claude/
+# Claude (pro Maschine, nicht synchronisieren)
+.claude/*
+# Skills werden synchronisiert (sind Code, nicht Config)
+!.claude/skills/
