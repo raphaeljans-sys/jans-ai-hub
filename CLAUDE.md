@@ -62,6 +62,15 @@ git push                    # Synchronisieren
 | `node_modules/` | Nein | Wird per `npm install` erzeugt |
 | `~/.claude/` | Nein | Globale Config, pro Maschine |
 
+## Connectoren pro Station
+
+| Connector | Verfügbarkeit | Hinweis |
+|---|---|---|
+| Gmail, Calendar, Drive | Automatisch auf jeder Station | Cloud-basiert, keine lokale Config nötig |
+| M365 (SharePoint, Outlook) | Manuell pro Station | `.mcp.json` + Credentials aus `.env` einrichten |
+
+Auf neuen Stationen: `.mcp.json` vom bestehenden Setup kopieren oder manuell erstellen (gleiche Credentials wie in `.env`).
+
 ## Netzwerk
 - **Firewall**: OPNsense (rjgate.localdomain) @ 192.168.1.1
 - **NAS**: Synology DiskStation918 @ 192.168.1.10, SMB-Mount: /Volumes/daten
