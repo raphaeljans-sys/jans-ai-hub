@@ -5,9 +5,35 @@
 - **AI Hub**: Privates GitHub-Repo (github.com/raphaeljans-sys/jans-ai-hub)
 - **Sprache**: Deutsch (Schweiz) bevorzugt, technische Begriffe Englisch OK
 
+## Konzept
+
+Der JANS AI Hub ist ein **Git-Repository als zentrale Quelle der Wahrheit**.
+Jede Workstation arbeitet lokal und synchronisiert über Git.
+
+```
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│   MacBook   │     │  Mac Mini   │     │  Externer   │
+│   Pro       │     │  (Büro)     │     │  Mitarbeiter│
+│             │     │             │     │             │
+│ ~/Developer/│     │ ~/Developer/│     │ ~/Developer/│
+│ claude-code │     │ claude-code │     │ claude-code │
+│   (lokal)   │     │   (lokal)   │     │   (lokal)   │
+└──────┬──────┘     └──────┬──────┘     └──────┬──────┘
+       │                   │                   │
+       └───────────┬───────┴───────────────────┘
+                   │
+          ┌────────▼────────┐
+          │     GitHub      │
+          │  (Private Repo) │
+          │  jans-ai-hub    │
+          └─────────────────┘
+```
+
 ## Multi-Workstation Setup
+
 Jede Workstation hat eine **lokale Kopie** des Repos. Synchronisation über Git.
 
+### Alltags-Workflow
 ```
 git pull                    # Vor dem Arbeiten
 git add -A && git commit    # Nach Änderungen
@@ -15,11 +41,26 @@ git push                    # Synchronisieren
 ```
 
 ### Neue Station einrichten
-1. SSH-Key erstellen und bei GitHub hinterlegen
-2. `~/.ssh/config` mit Port 443 für github.com (falls Firewall Port 22 blockt)
-3. `git clone git@github.com:raphaeljans-sys/jans-ai-hub.git ~/Developer/claude-code`
-4. `cp .env.example .env` → Credentials eintragen
-5. `npm install`
+1. GitHub-Account erstellen / zum Repo eingeladen werden
+2. SSH-Key erstellen und bei GitHub hinterlegen
+3. `~/.ssh/config` mit Port 443 für github.com (falls Firewall Port 22 blockt)
+4. `git clone git@github.com:raphaeljans-sys/jans-ai-hub.git ~/Developer/claude-code`
+5. `cp .env.example .env` → Credentials eintragen
+6. `npm install`
+7. Claude Code installieren und starten → `~/.claude/` wird automatisch angelegt
+
+### Was wird synchronisiert?
+| Datei | Im Repo | Grund |
+|---|---|---|
+| `CLAUDE.md` | Ja | Projektanweisungen, gleich für alle |
+| `docs/` | Ja | Dokumentation |
+| `package.json` | Ja | Dependencies |
+| `.gitignore` | Ja | Regeln für alle gleich |
+| `.env.example` | Ja | Template für Credentials (ohne echte Werte) |
+| `.env` | Nein | Credentials, nie committen |
+| `.mcp.json` | Nein | Enthält Azure/Tenant IDs |
+| `node_modules/` | Nein | Wird per `npm install` erzeugt |
+| `~/.claude/` | Nein | Globale Config, pro Maschine |
 
 ## Netzwerk
 - **Firewall**: OPNsense (rjgate.localdomain) @ 192.168.1.1
