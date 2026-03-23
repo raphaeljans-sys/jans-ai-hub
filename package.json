@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@pnp/cli-microsoft365": "^11.5.0",
+    "@pnp/cli-microsoft365-mcp-server": "^0.1.17",
     "docx": "^9.6.1"
   }
 }
