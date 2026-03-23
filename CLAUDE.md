@@ -44,7 +44,7 @@ git push                    # Synchronisieren
 1. GitHub-Account erstellen / zum Repo eingeladen werden
 2. SSH-Key erstellen und bei GitHub hinterlegen
 3. `~/.ssh/config` mit Port 443 für github.com (falls Firewall Port 22 blockt)
-4. `git clone git@github.com:raphaeljans-sys/jans-ai-hub.git ~/Developer/claude-code`
+4. `git clone git@github.com:raphaeljans-sys/jans-ai-hub.git ~/Developer/jans-ai-hub`
 5. `cp .env.example .env` → Credentials eintragen
 6. `npm install`
 7. Claude Code installieren und starten → `~/.claude/` wird automatisch angelegt
@@ -83,10 +83,24 @@ Auf neuen Stationen: `.mcp.json` vom bestehenden Setup kopieren oder manuell ers
 - **NAS**: /Volumes/daten (Architektur-Archiv, Bürodaten)
 - **Microsoft 365**: OneDrive + SharePoint (~/Library/CloudStorage/OneDrive-*)
 - **Dropbox**: ~/Library/CloudStorage/Dropbox
-- **Lokal**: ~/Developer/claude-code (dieses Projekt)
+- **Lokal**: ~/Developer/jans-ai-hub (dieses Projekt)
+
+## Skills / Agenten
+
+| Skill | Pfad | Beschreibung |
+|---|---|---|
+| `baurecht` | `skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH. Wissensbasis: `docs/baurecht/` |
+
+### Baurecht-Wissensbasis
+- `docs/baurecht/begriffe.md` — Glossar baurechtliche Begriffe
+- `docs/baurecht/pbg_zh.md` — Planungs- und Baugesetz ZH (Kernpunkte)
+- `docs/baurecht/bzo_zh.md` — Bau- und Zonenordnung Systematik
+- `docs/baurecht/verfahren.md` — Baubewilligungsverfahren Ablauf
+- `docs/baurecht/praxisfaelle.md` — Praxisfälle (wird laufend ergänzt)
+- `docs/baurecht/fritzsche_bosch_band2.pdf` — Standardwerk (wenn verfügbar)
 
 ## Wichtige Regeln
-- Projekt IMMER lokal auf SSD (`~/Developer/claude-code`), NIEMALS über SMB-Mount bearbeiten
+- Projekt IMMER lokal auf SSD (`~/Developer/jans-ai-hub`), NIEMALS über SMB-Mount bearbeiten
 - `~/.claude/` Config ist pro Maschine, wird NICHT synchronisiert
 - NAS-Zugriff über SMB-Mount /Volumes/daten
 - Passwörter und Credentials NIEMALS committen
