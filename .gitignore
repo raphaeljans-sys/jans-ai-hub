@@ -1,0 +1,15 @@
+# Secrets - NIEMALS committen
+.mcp.json
+.env
+*.secret
+*.key
+
+# Node
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/
