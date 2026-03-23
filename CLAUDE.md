@@ -106,7 +106,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 
 | Skill | Pfad | Beschreibung |
 |---|---|---|
-| `baurecht` | `.claude/skills/baurecht-agent.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ. Quellen: SharePoint-Gesetze + `docs/baurecht/` |
+| `baurecht` | `.claude/skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ. Quellen: SharePoint-Gesetze + `docs/baurecht/` |
 
 ### Baurecht-Wissensbasis
 - `docs/baurecht/begriffe.md` — Glossar baurechtliche Begriffe
