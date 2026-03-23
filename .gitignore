@@ -11,7 +11,12 @@ package-lock.json
 # macOS
 .DS_Store
 
-# Claude (pro Maschine, nicht synchronisieren)
+# Claude - Projekt-Config wird versioniert (Backup)
 .claude/*
-# Skills werden synchronisiert (sind Code, nicht Config)
 !.claude/skills/
+!.claude/agents/
+!.claude/commands/
+!.claude/settings.json
+# Lokale Overrides NICHT committen
+.claude/settings.local.json
+.claude/session.log

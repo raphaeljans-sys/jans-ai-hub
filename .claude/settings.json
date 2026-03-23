@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "NotebookEdit(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "mcp__microsoft-365__m365_run_command(*)",
+      "mcp__microsoft-365__m365_search_commands(*)",
+      "mcp__microsoft-365__m365_get_command_docs(*)",
+      "mcp__1a28d9f5-8536-4b08-824a-f1226379edf0__*(*)",
+      "mcp__980c678b-631c-4930-9836-163192146737__*(*)",
+      "mcp__cbeac91d-1db6-4f9d-b70f-3160dc44ceec__*(*)",
+      "mcp__c1fc4002-5f49-5f9d-a4e5-93c4ef5d6a75__*(*)",
+      "mcp__Claude_in_Chrome__*(*)",
+      "mcp__Claude_Preview__*(*)",
+      "mcp__mcp-registry__*(*)",
+      "mcp__scheduled-tasks__*(*)"
+    ],
+    "deny": []
+  }
+}
