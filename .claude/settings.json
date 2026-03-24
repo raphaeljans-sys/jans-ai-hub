@@ -21,5 +21,19 @@
       "mcp__scheduled-tasks__*"
     ],
     "deny": []
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Volumes/daten/jans-ai-hub/scripts/sync-task-check.sh --notify 2>/dev/null || true",
+            "timeout": 10,
+            "statusMessage": "Prüfe Sync-Tasks..."
+          }
+        ]
+      }
+    ]
   }
 }
