@@ -107,10 +107,36 @@ Raphael Jans nutzt folgende E-Mail-Konten (NICHT Gmail):
 
 ## Datenquellen
 - **NAS**: /Volumes/daten (Architektur-Archiv, Buerodaten, Skill-Bibliothek)
-- **Microsoft 365**: SharePoint + OneDrive via M365-Connector (Graph API)
+- **Microsoft 365**: SharePoint + OneDrive + Outlook via M365-Connector (Certificate-Auth)
 - **Google**: Calendar, Drive via Google-Connectoren (Gmail wird NICHT als Haupt-Mail genutzt)
 - **Dropbox**: ~/Library/CloudStorage/Dropbox
 - **Lokal**: ~/Developer/jans-ai-hub (Projekt-Repo)
+
+## M365 Connector — Certificate-Auth
+
+Die M365-Anbindung nutzt **Certificate-based Authentication** (noetig fuer SharePoint SPO-Befehle).
+
+| Einstellung | Wert |
+|---|---|
+| App Registration | SharePoint MCP Connector (JANS) |
+| App ID | `80c24101-4597-48db-8388-c6e8bdc75f5f` |
+| Tenant ID | `d3ea8e1a-8ecc-479d-b831-6c0784ee0b51` |
+| Auth-Typ | Certificate (PEM) |
+| Zertifikat-Pfad | `~/.cli-m365-cert-combined.pem` (lokal pro Station) |
+| Zertifikat gueltig bis | 23. Maerz 2028 |
+
+### API-Berechtigungen (Application)
+- Microsoft Graph: Files.Read.All, Mail.Read, Mail.Send, Sites.Read.All, User.Read.All
+- SharePoint: Sites.FullControl.All
+
+### Zertifikat erneuern (alle 2 Jahre)
+```bash
+openssl req -x509 -newkey rsa:2048 -keyout ~/.cli-m365-cert-key.pem -out ~/.cli-m365-cert.pem -days 730 -nodes -subj '/CN=JANS-AI-Hub-M365'
+cat ~/.cli-m365-cert-key.pem ~/.cli-m365-cert.pem > ~/.cli-m365-cert-combined.pem
+chmod 600 ~/.cli-m365-cert-combined.pem ~/.cli-m365-cert-key.pem
+# Public-Cert in Azure Portal hochladen (App Registration > Certificates)
+# Auf Mac Mini kopieren: scp ~/.cli-m365-cert-combined.pem raphaeljans@100.120.219.12:~/.cli-m365-cert-combined.pem
+```
 
 ## Multi-Station Connector-Architektur
 
