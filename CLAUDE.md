@@ -42,6 +42,7 @@ Alle Workstations verbinden sich per **SSH** auf den Mac Mini — keine lokale S
 
 ## Warum SSH statt Git-Sync?
 
+<<<<<<< Updated upstream
 | Kriterium | Alt (Git-Sync) | Neu (SSH) |
 |---|---|---|
 | Merge-Konflikte | Ja, bei paralleler Arbeit | Keine — eine Kopie |
@@ -49,6 +50,52 @@ Alle Workstations verbinden sich per **SSH** auf den Mac Mini — keine lokale S
 | Connectoren | Pro Station einrichten | Einmal, zentral |
 | Config/Memory | Pro Station separat | Einmal, zentral |
 | Offline-Arbeit | Möglich | Nur mit Netzwerk |
+=======
+Jede Workstation hat eine **lokale Kopie** des Repos. Synchronisation über Git.
+
+### Alltags-Workflow
+
+Auto-Sync ist aktiv (alle 5 Min via launchd). Manuell bei Bedarf:
+```
+git pull                    # Vor dem Arbeiten
+git add -A && git commit    # Nach Änderungen
+git push                    # Synchronisieren
+```
+
+### Auto-Sync einrichten
+```
+bash scripts/install-auto-sync.sh
+```
+Synchronisiert alle 5 Minuten automatisch (pull, commit, push).
+Log: `.git/auto-sync.log` | Stoppen: `launchctl unload ~/Library/LaunchAgents/com.jans.git-auto-sync.plist`
+
+### Neue Station einrichten
+1. GitHub-Account erstellen / zum Repo eingeladen werden
+2. SSH-Key erstellen und bei GitHub hinterlegen
+3. `~/.ssh/config` mit Port 443 für github.com (falls Firewall Port 22 blockt)
+4. `git clone git@github.com:raphaeljans-sys/jans-ai-hub.git ~/Developer/claude-code`
+5. `cp .env.example .env` → Credentials eintragen
+6. `npm install`
+7. Claude Code installieren und starten → `~/.claude/` wird automatisch angelegt
+
+### Was wird synchronisiert?
+| Datei | Im Repo | Grund |
+|---|---|---|
+| `CLAUDE.md` | Ja | Projektanweisungen, gleich für alle |
+| `docs/` | Ja | Dokumentation |
+| `package.json` | Ja | Dependencies |
+| `.gitignore` | Ja | Regeln für alle gleich |
+| `.env.example` | Ja | Template für Credentials (ohne echte Werte) |
+| `.env` | Nein | Credentials, nie committen |
+| `.mcp.json` | Nein | Enthält Azure/Tenant IDs |
+| `node_modules/` | Nein | Wird per `npm install` erzeugt |
+| `~/.claude/` | Nein | Globale Config, pro Maschine |
+| `.claude/skills/` | Ja | Skills, werden synchronisiert |
+| `agents/` | Ja | Agent-Definitionen |
+| `plugins/` | Ja | Shared Plugins |
+| `templates/` | Ja | Dokument-Vorlagen |
+| `scripts/` | Ja | Sync- und Setup-Scripts |
+>>>>>>> Stashed changes
 
 GitHub wird nur noch für **Backup und Versionierung** genutzt, nicht mehr zur Synchronisation.
 
