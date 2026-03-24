@@ -16,6 +16,20 @@
 
 set -o pipefail
 
+# macOS hat kein 'timeout' — eigene Implementierung
+_timeout() {
+    local SECS="$1"; shift
+    ("$@") &
+    local PID=$!
+    (sleep "$SECS" && kill -9 $PID 2>/dev/null) &
+    local WATCHDOG=$!
+    wait $PID 2>/dev/null
+    local RET=$?
+    kill $WATCHDOG 2>/dev/null
+    wait $WATCHDOG 2>/dev/null
+    return $RET
+}
+
 NAS_MOUNT="/Volumes/daten"
 NAS_LAN_IP="192.168.1.10"
 NAS_TAILSCALE_IP="100.92.246.28"
@@ -39,7 +53,7 @@ fi
 # -------------------------------------------
 if mount | grep -q "$NAS_MOUNT"; then
     # Pruefe ob Mount noch lebt (SMB kann haengen bleiben)
-    if timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
+    if _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
         exit 0  # Alles OK
     else
         log "WARN" "Mount haengt — wird getrennt und neu verbunden"
@@ -126,11 +140,11 @@ end try
 " 2>&1)
 
 # -------------------------------------------
-# 5. Verifizieren
+# 5. Verifizieren (warten bis Mount bereit)
 # -------------------------------------------
-sleep 2
+sleep 3
 
-if mount | grep -q "$NAS_MOUNT" && timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
+if mount | grep -q "$NAS_MOUNT" && _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
     log "OK" "NAS gemountet via $CONNECTION_TYPE ($NAS_HOST)"
 
     # Symlinks pruefen
