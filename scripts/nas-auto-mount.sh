@@ -142,7 +142,17 @@ end try
 # -------------------------------------------
 # 5. Verifizieren (warten bis Mount bereit)
 # -------------------------------------------
-sleep 3
+
+# Pruefen ob osascript selbst einen Fehler gemeldet hat
+if [[ "$MOUNT_RESULT" == ERROR:* ]]; then
+    log "ERROR" "Mount-Befehl fehlgeschlagen via $CONNECTION_TYPE ($NAS_HOST): $MOUNT_RESULT"
+    exit 1
+fi
+
+# Warten bis Mount bereit — Tailscale braucht laenger
+WAIT_SECS=3
+[ "$CONNECTION_TYPE" = "Tailscale" ] && WAIT_SECS=6
+sleep "$WAIT_SECS"
 
 if mount | grep -q "$NAS_MOUNT" && _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
     log "OK" "NAS gemountet via $CONNECTION_TYPE ($NAS_HOST)"
@@ -161,5 +171,5 @@ if mount | grep -q "$NAS_MOUNT" && _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; 
         osascript -e "display notification \"NAS verbunden via ${CONNECTION_TYPE} — Symlinks repariert\" with title \"JANS AI Hub\"" 2>/dev/null || true
     fi
 else
-    log "ERROR" "Mount fehlgeschlagen via $CONNECTION_TYPE ($NAS_HOST): $MOUNT_RESULT"
+    log "ERROR" "Mount-Verifizierung fehlgeschlagen via $CONNECTION_TYPE ($NAS_HOST) — Mount-Punkt nicht bereit nach ${WAIT_SECS}s"
 fi
