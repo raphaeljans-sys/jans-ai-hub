@@ -91,12 +91,68 @@ bash ~/Developer/jans-ai-hub/scripts/setup-nas-skills.sh
   - Im Buero: `open smb://192.168.1.10/daten`
   - Extern: `open smb://diskstation918.tail8265aa.ts.net/daten`
 
+## E-Mail-Konten
+
+Raphael Jans nutzt folgende E-Mail-Konten (NICHT Gmail):
+
+| Konto | Adresse | Typ | Verwendung |
+|---|---|---|---|
+| Geschaeft (Haupt) | rj@raphaeljans.ch | Microsoft 365 | Geschaeftliche Korrespondenz |
+| Geschaeft 2 | mail@raphaeljans.ch | Microsoft 365 | Geschaeftliche Korrespondenz |
+| Privat | raphaeljans@me.com | Apple/iCloud | Private Korrespondenz |
+
+- **Gmail wird NICHT verwendet** — der Gmail-Connector ist nur technisch vorhanden
+- E-Mails werden ueber **Apple Mail** (via osascript) versendet
+- Standard-Absender fuer geschaeftliche Mails: `rj@raphaeljans.ch`
+
 ## Datenquellen
 - **NAS**: /Volumes/daten (Architektur-Archiv, Buerodaten, Skill-Bibliothek)
 - **Microsoft 365**: SharePoint + OneDrive via M365-Connector (Graph API)
-- **Google**: Gmail, Calendar, Drive via Google-Connectoren
+- **Google**: Calendar, Drive via Google-Connectoren (Gmail wird NICHT als Haupt-Mail genutzt)
 - **Dropbox**: ~/Library/CloudStorage/Dropbox
 - **Lokal**: ~/Developer/jans-ai-hub (Projekt-Repo)
+
+## Multi-Station Connector-Architektur
+
+Jede Station hat unterschiedliche Connectoren. Die Unterscheidung erfolgt ueber
+lokale vs. geteilte Konfigurationen:
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│                    GETEILTE LAYER (via Git + NAS)                │
+│                                                                  │
+│  .mcp.json              → M365-Connector (beide Stationen)       │
+│  .claude/settings.json  → Gemeinsame Permissions                 │
+│  NAS: skills/agents/    → Gemeinsame Skills & Agents             │
+│  CLAUDE.md              → Projekt-Dokumentation                  │
+└──────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────┐     ┌──────────────────────┐
+│   MacBook Pro        │     │   Mac Mini            │
+│   (mobil)            │     │   (Buero, Always-On)  │
+│                      │     │                       │
+│ LOKAL (nicht in Git):│     │ LOKAL (nicht in Git): │
+│ • settings.local.json│     │ • settings.local.json │
+│ • .env (Credentials) │     │ • .env (Credentials)  │
+│ • Claude Desktop     │     │ • Claude Desktop      │
+│   Config (Cowork)    │     │   Config (Cowork)     │
+│                      │     │                       │
+│ CONNECTOREN:         │     │ CONNECTOREN:          │
+│ • M365 (via .mcp)    │     │ • M365 (via .mcp)     │
+│ • Google (Cloudflare)│     │ • Google (Cloudflare)  │
+│ • Figma (Cloudflare) │     │ • Figma (Cloudflare)   │
+│ • Chrome (Cloudflare)│     │ • Chrome (Cloudflare)  │
+│ • Apple Mail (lokal) │     │ • Apple Mail (lokal)   │
+└──────────────────────┘     └──────────────────────┘
+```
+
+### Regeln fuer Multi-Station
+- **Geteilte Config** (`.mcp.json`, `settings.json`, `CLAUDE.md`): Wird via Git synchronisiert, identisch auf beiden Stationen
+- **Lokale Config** (`settings.local.json`, `.env`): Stations-spezifisch, NICHT in Git
+- **Cloudflare-Connectoren** (Google, Figma, Chrome): Werden pro Station ueber den Browser/Account eingerichtet, nicht ueber Git
+- **Claude Desktop Config**: Lokal pro Station (`~/Library/Application Support/Claude/`), nicht synchronisiert
+- **Apple Mail**: Lokal verfuegbar auf beiden Stationen (gleicher iCloud-Account)
+- Bei Aenderungen an geteilten Configs: `/sync` ausfuehren, damit beide Stationen aktuell sind
 
 ## Output-Ablage
 
