@@ -23,7 +23,29 @@ Fuehre folgendes Setup fuer die gemeinsame NAS Skill-Bibliothek durch:
    Das synchronisiert alle 5 Minuten automatisch mit GitHub (pull, commit, push).
    Log ansehen: `tail -f ~/Developer/jans-ai-hub/.git/auto-sync.log`
 
-5. **CLAUDE.md aktualisieren**: Die CLAUDE.md im Repo muss den NAS-basierten Ansatz beschreiben (nicht mehr Git-Sync oder SSH). Falls sie noch Merge-Konflikte oder veraltete Abschnitte hat, bereinige sie.
+5. **Claude-Alias einrichten**: Fuege den Claude-Alias in die `.zshrc` ein, damit `claude` immer im richtigen Projektordner startet:
+   ```bash
+   # Pruefen ob Alias schon existiert
+   if ! grep -q "alias claude=" ~/.zshrc 2>/dev/null; then
+     cat >> ~/.zshrc << 'EOF'
+
+# ── JANS AI Hub ────────────────────────────────────────
+# "claude" startet immer im Projektordner
+alias claude='cd ~/Developer/jans-ai-hub && command claude'
+# ───────────────────────────────────────────────────────
+EOF
+     echo "Claude-Alias hinzugefuegt. Lade .zshrc neu..."
+     source ~/.zshrc
+   else
+     echo "Claude-Alias existiert bereits."
+   fi
+   ```
+
+6. **Terminal-Berechtigungen**: In den macOS Systemeinstellungen sicherstellen:
+   - **Datenschutz & Sicherheit → Festplattenvollzugriff → Terminal** aktivieren
+   - **Datenschutz & Sicherheit → Automation → Terminal** alle Apps erlauben
+
+7. **CLAUDE.md aktualisieren**: Die CLAUDE.md im Repo muss den NAS-basierten Ansatz beschreiben (nicht mehr Git-Sync oder SSH). Falls sie noch Merge-Konflikte oder veraltete Abschnitte hat, bereinige sie.
 
 ## Architektur
 
