@@ -51,7 +51,7 @@ fi
 # -------------------------------------------
 # 1. Bereits gemountet und funktional?
 # -------------------------------------------
-if mount | grep -q "$NAS_MOUNT"; then
+if mount | grep -q " on ${NAS_MOUNT} "; then
     # Pruefe ob Mount noch lebt (SMB kann haengen bleiben)
     if _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
         exit 0  # Alles OK
@@ -154,7 +154,7 @@ WAIT_SECS=3
 [ "$CONNECTION_TYPE" = "Tailscale" ] && WAIT_SECS=6
 sleep "$WAIT_SECS"
 
-if mount | grep -q "$NAS_MOUNT" && _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
+if mount | grep -q " on ${NAS_MOUNT} " && _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
     log "OK" "NAS gemountet via $CONNECTION_TYPE ($NAS_HOST)"
 
     # Symlinks pruefen
@@ -168,7 +168,8 @@ if mount | grep -q "$NAS_MOUNT" && _timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; 
     done
 
     if [ "$BROKEN" = true ]; then
-        osascript -e "display notification \"NAS verbunden via ${CONNECTION_TYPE} — Symlinks repariert\" with title \"JANS AI Hub\"" 2>/dev/null || true
+        log "WARN" "Kaputte Symlinks erkannt — Notification angezeigt"
+        osascript -e "display notification \"NAS verbunden via ${CONNECTION_TYPE} — Symlinks pruefen\" with title \"JANS AI Hub\"" 2>/dev/null || true
     fi
 else
     log "ERROR" "Mount-Verifizierung fehlgeschlagen via $CONNECTION_TYPE ($NAS_HOST) — Mount-Punkt nicht bereit nach ${WAIT_SECS}s"
