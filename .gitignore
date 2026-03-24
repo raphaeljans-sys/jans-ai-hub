@@ -3,6 +3,8 @@
 .env
 *.secret
 *.key
+*.pem
+*.pfx
 
 # Node
 node_modules/
