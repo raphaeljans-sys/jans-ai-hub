@@ -180,6 +180,24 @@ lokale vs. geteilte Konfigurationen:
 - **Apple Mail**: Lokal verfuegbar auf beiden Stationen (gleicher iCloud-Account)
 - Bei Aenderungen an geteilten Configs: `/sync` ausfuehren, damit beide Stationen aktuell sind
 
+### Station-Sync (automatische Task-Queue)
+
+Wenn auf einer Station eine Aenderung gemacht wird, die die andere Station betrifft,
+wird ein Sync-Task auf dem NAS hinterlegt. Beim Start auf der anderen Station wird
+dieser automatisch erkannt und ausgefuehrt.
+
+```
+/Volumes/daten/jans-ai-hub/sync-tasks/
+  macbook-pro/   ← Tasks fuer MacBook Pro
+  mac-mini/      ← Tasks fuer Mac Mini
+  done/          ← Erledigte Tasks (Archiv)
+```
+
+- **Task erstellen**: `bash /Volumes/daten/jans-ai-hub/scripts/sync-task-create.sh <ziel> <titel> <script>`
+- **Tasks pruefen**: `/station-sync` oder `bash /Volumes/daten/jans-ai-hub/scripts/sync-task-check.sh`
+- **WICHTIG**: Wenn Claude auf einer Station gestartet wird und das NAS gemountet ist,
+  IMMER zuerst `/station-sync` pruefen ob offene Tasks von der anderen Station vorliegen.
+
 ## Output-Ablage
 
 Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgelegt:
@@ -216,6 +234,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `/nas` | NAS-Mount pruefen und reparieren |
 | `/m365` | Microsoft 365 Connector testen |
 | `/morgen` | Morgen-Briefing (Kalender, E-Mails, System) |
+| `/station-sync` | Sync-Tasks von der anderen Station pruefen und ausfuehren |
 
 ### Baurecht-Wissensbasis
 - `docs/baurecht/begriffe.md` — Glossar baurechtliche Begriffe
