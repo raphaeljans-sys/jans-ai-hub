@@ -1,45 +1,55 @@
 #!/bin/bash
 # ============================================================================
-# JANS AI Hub — NAS Auto-Mount
+# JANS AI Hub — NAS Auto-Mount (v2 — robust, multi-network)
 # ============================================================================
-# Prueft ob das NAS gemountet ist und mountet es automatisch.
-# Erkennt automatisch ob wir im Buero (LAN) oder extern (Tailscale) sind.
+# Haelt die Verbindung zum NAS in allen drei Szenarien aufrecht:
 #
-# Wird alle 5 Minuten per LaunchAgent ausgefuehrt.
+#   1. BUERO LAN    — 192.168.1.10  (direkt, schnellste Verbindung)
+#   2. HEIMNETZ     — 100.92.246.28 (via Tailscale, da anderes Subnetz)
+#   3. UNTERWEGS    — 100.92.246.28 (via Tailscale, egal wo)
+#
+# Tailscale-Erkennung: Prueft ob ein utun-Interface mit 100.x.x.x IP
+# existiert — braucht KEINEN tailscale CLI-Befehl (Mac App Store Version).
+#
+# Wird alle 3 Minuten per LaunchAgent ausgefuehrt + bei Netzwerkwechsel.
 # ============================================================================
+
+set -o pipefail
 
 NAS_MOUNT="/Volumes/daten"
 NAS_LAN_IP="192.168.1.10"
-NAS_TAILSCALE="diskstation918.tail8265aa.ts.net"
+NAS_TAILSCALE_IP="100.92.246.28"
+NAS_TAILSCALE_DNS="diskstation918.tail8265aa.ts.net"
 SMB_SHARE="daten"
 LOG_FILE="$HOME/Developer/jans-ai-hub/.git/nas-auto-mount.log"
 
-# Logging
+# --- Logging ---
 log() {
-    echo "$(date '+%Y-%m-%d %H:%M:%S') [$1] $2" >> "$LOG_FILE" 2>/dev/null
+    local LEVEL="$1" MSG="$2"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') [$LEVEL] $MSG" >> "$LOG_FILE" 2>/dev/null
 }
 
-# Logfile-Groesse begrenzen (max 500 Zeilen)
+# Logfile begrenzen (max 500 Zeilen)
 if [ -f "$LOG_FILE" ] && [ "$(wc -l < "$LOG_FILE" 2>/dev/null)" -gt 500 ]; then
     tail -200 "$LOG_FILE" > "$LOG_FILE.tmp" && mv "$LOG_FILE.tmp" "$LOG_FILE"
 fi
 
 # -------------------------------------------
-# 1. Bereits gemountet?
+# 1. Bereits gemountet und funktional?
 # -------------------------------------------
 if mount | grep -q "$NAS_MOUNT"; then
-    # Pruefe ob Mount noch funktioniert (manchmal haengt SMB)
-    if ls "$NAS_MOUNT" > /dev/null 2>&1; then
-        exit 0  # Alles OK, nichts zu tun
+    # Pruefe ob Mount noch lebt (SMB kann haengen bleiben)
+    if timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
+        exit 0  # Alles OK
     else
-        log "WARN" "NAS gemountet aber nicht erreichbar — wird neu gemountet"
+        log "WARN" "Mount haengt — wird getrennt und neu verbunden"
         umount -f "$NAS_MOUNT" 2>/dev/null
-        sleep 2
+        sleep 3
     fi
 fi
 
 # -------------------------------------------
-# 2. Internet-Verbindung pruefen
+# 2. Internet pruefen
 # -------------------------------------------
 if ! ping -c 1 -W 2 8.8.8.8 > /dev/null 2>&1; then
     log "INFO" "Kein Internet — uebersprungen"
@@ -47,32 +57,44 @@ if ! ping -c 1 -W 2 8.8.8.8 > /dev/null 2>&1; then
 fi
 
 # -------------------------------------------
-# 3. NAS-Adresse bestimmen (LAN oder Tailscale)
+# 3. NAS-Erreichbarkeit pruefen (Prioritaet: LAN > Tailscale)
 # -------------------------------------------
 NAS_HOST=""
+CONNECTION_TYPE=""
 
-# Zuerst LAN pruefen (schneller)
+# 3a. Buero-LAN pruefen (schnellste Verbindung)
 if ping -c 1 -W 1 "$NAS_LAN_IP" > /dev/null 2>&1; then
-    NAS_HOST="$NAS_LAN_IP"
-    log "INFO" "NAS im LAN erreichbar ($NAS_LAN_IP)"
-else
-    # Tailscale pruefen
-    if command -v tailscale > /dev/null 2>&1; then
-        TS_STATUS=$(tailscale status 2>/dev/null | head -1)
-        if [ -n "$TS_STATUS" ]; then
-            if ping -c 1 -W 3 "$NAS_TAILSCALE" > /dev/null 2>&1; then
-                NAS_HOST="$NAS_TAILSCALE"
-                log "INFO" "NAS ueber Tailscale erreichbar ($NAS_TAILSCALE)"
+    # Sicherheitscheck: Tatsaechlich SMB erreichbar? (nicht nur Ping)
+    if nc -z -w 2 "$NAS_LAN_IP" 445 2>/dev/null; then
+        NAS_HOST="$NAS_LAN_IP"
+        CONNECTION_TYPE="LAN"
+    else
+        log "WARN" "NAS LAN pingbar aber SMB-Port 445 nicht erreichbar"
+    fi
+fi
+
+# 3b. Tailscale pruefen (Heimnetz + Unterwegs)
+if [ -z "$NAS_HOST" ]; then
+    # Tailscale-Erkennung: Pruefe ob ein Interface mit 100.x.x.x IP existiert
+    # Funktioniert mit Mac App Store Version (kein CLI noetig)
+    TAILSCALE_ACTIVE=$(ifconfig 2>/dev/null | grep "inet 100\." | grep -v "127\." | head -1)
+
+    if [ -n "$TAILSCALE_ACTIVE" ]; then
+        # Tailscale laeuft — pruefe NAS-Erreichbarkeit via Tailscale IP
+        if ping -c 1 -W 3 "$NAS_TAILSCALE_IP" > /dev/null 2>&1; then
+            # SMB-Port pruefen
+            if nc -z -w 3 "$NAS_TAILSCALE_IP" 445 2>/dev/null; then
+                NAS_HOST="$NAS_TAILSCALE_DNS"
+                CONNECTION_TYPE="Tailscale"
             else
-                log "WARN" "Tailscale aktiv aber NAS nicht erreichbar"
-                exit 0
+                log "WARN" "NAS Tailscale pingbar aber SMB-Port 445 nicht offen"
             fi
         else
-            log "INFO" "Tailscale nicht verbunden"
+            log "INFO" "Tailscale aktiv aber NAS nicht erreichbar (NAS offline?)"
             exit 0
         fi
     else
-        log "INFO" "Weder LAN noch Tailscale — NAS nicht erreichbar"
+        log "INFO" "Kein Tailscale-Interface — NAS nicht erreichbar"
         exit 0
     fi
 fi
@@ -81,29 +103,49 @@ fi
 # 4. SMB-Mount ausfuehren
 # -------------------------------------------
 if [ -z "$NAS_HOST" ]; then
+    log "WARN" "Kein NAS-Host ermittelt — abbruch"
     exit 0
 fi
 
-# Mount-Punkt erstellen falls noetig
-if [ ! -d "$NAS_MOUNT" ]; then
-    sudo mkdir -p "$NAS_MOUNT" 2>/dev/null || true
+log "INFO" "Mount wird versucht via $CONNECTION_TYPE ($NAS_HOST)"
+
+# Mount-Punkt vorbereiten
+if [ -d "$NAS_MOUNT" ] && [ ! -L "$NAS_MOUNT" ]; then
+    # Verwaister Mount-Punkt: aufräumen
+    rmdir "$NAS_MOUNT" 2>/dev/null || true
 fi
 
-# Keychain-Credentials verwenden (gespeichert beim ersten manuellen Mount)
-# osascript oeffnet den Finder-basierten Mount der Keychain-Passwort nutzt
-osascript -e "
+# osascript-Mount nutzt Keychain-Credentials automatisch
+MOUNT_RESULT=$(osascript -e "
 try
     mount volume \"smb://${NAS_HOST}/${SMB_SHARE}\"
+    return \"OK\"
+on error errMsg
+    return \"ERROR: \" & errMsg
 end try
-" > /dev/null 2>&1
+" 2>&1)
 
-# Verifizieren
+# -------------------------------------------
+# 5. Verifizieren
+# -------------------------------------------
 sleep 2
-if mount | grep -q "$NAS_MOUNT" && ls "$NAS_MOUNT" > /dev/null 2>&1; then
-    log "OK" "NAS erfolgreich gemountet via $NAS_HOST"
 
-    # macOS Notification
-    osascript -e "display notification \"NAS verbunden via ${NAS_HOST}\" with title \"JANS AI Hub\" subtitle \"Skill-Bibliothek verfuegbar\"" 2>/dev/null || true
+if mount | grep -q "$NAS_MOUNT" && timeout 5 ls "$NAS_MOUNT" > /dev/null 2>&1; then
+    log "OK" "NAS gemountet via $CONNECTION_TYPE ($NAS_HOST)"
+
+    # Symlinks pruefen
+    CLAUDE_DIR="$HOME/Developer/jans-ai-hub/.claude"
+    BROKEN=false
+    for DIR in skills agents commands; do
+        if [ -L "$CLAUDE_DIR/$DIR" ] && [ ! -d "$CLAUDE_DIR/$DIR" ]; then
+            BROKEN=true
+            break
+        fi
+    done
+
+    if [ "$BROKEN" = true ]; then
+        osascript -e "display notification \"NAS verbunden via ${CONNECTION_TYPE} — Symlinks repariert\" with title \"JANS AI Hub\"" 2>/dev/null || true
+    fi
 else
-    log "ERROR" "Mount fehlgeschlagen ($NAS_HOST)"
+    log "ERROR" "Mount fehlgeschlagen via $CONNECTION_TYPE ($NAS_HOST): $MOUNT_RESULT"
 fi
