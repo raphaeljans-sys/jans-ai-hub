@@ -16,12 +16,12 @@ Fuehre folgendes Setup fuer die gemeinsame NAS Skill-Bibliothek durch:
    - `.claude/agents/` → `/Volumes/daten/jans-ai-hub/agents/`
    - `.claude/commands/` → `/Volumes/daten/jans-ai-hub/commands/`
 
-4. **Auto-Sync deaktivieren**: Falls der launchd-Job `com.jans.git-auto-sync` laeuft, stoppe ihn:
+4. **GitHub Auto-Sync einrichten**: Richte den automatischen Git-Push/Pull fuer GitHub-Backup ein:
    ```
-   launchctl unload ~/Library/LaunchAgents/com.jans.git-auto-sync.plist 2>/dev/null
-   rm -f ~/Library/LaunchAgents/com.jans.git-auto-sync.plist
+   bash ~/Developer/jans-ai-hub/scripts/install-auto-sync.sh
    ```
-   Der Git-Sync wird nicht mehr gebraucht — die Stationen teilen Skills ueber das NAS.
+   Das synchronisiert alle 5 Minuten automatisch mit GitHub (pull, commit, push).
+   Log ansehen: `tail -f ~/Developer/jans-ai-hub/.git/auto-sync.log`
 
 5. **CLAUDE.md aktualisieren**: Die CLAUDE.md im Repo muss den NAS-basierten Ansatz beschreiben (nicht mehr Git-Sync oder SSH). Falls sie noch Merge-Konflikte oder veraltete Abschnitte hat, bereinige sie.
 
