@@ -203,7 +203,7 @@ dieser automatisch erkannt und ausgefuehrt.
 Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgelegt:
 
 ```
-~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/
   AD - 01 Geschaeftsfuerung/
     JANS AI/
       30 JANS AI HUB OUTPUT/
