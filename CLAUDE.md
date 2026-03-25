@@ -218,6 +218,22 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | Skill | Pfad (auf NAS) | Beschreibung |
 |---|---|---|
 | `baurecht` | `skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ |
+| `kostenschaetzung` | `skills/kostenschaetzung/SKILL.md` | Healthcare-Kostenkennwerte, Grobschaetzungen |
+
+### Skill-Referenzen (Konvention)
+Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
+```
+skills/<skill-name>/
+  SKILL.md              ← Skill-Definition
+  referenzen/           ← PDFs mit hoechster Prioritaet
+    README.md           ← Was gehoert hierhin + Inhaltsverzeichnis
+    JJJJMMTT-Titel.pdf  ← Validierte Fachquellen
+```
+
+| Skill | Referenzen-Ordner | Beispiel-Inhalt |
+|---|---|---|
+| `baurecht` | `skills/baurecht/referenzen/` | Blaues Buch PBG ZH, Kommentare |
+| `kostenschaetzung` | `skills/kostenschaetzung/referenzen/` | Wuest Partner Kostenkennwerte |
 
 ### Agents (Sub-Agents)
 | Agent | Pfad (auf NAS) | Beschreibung |
