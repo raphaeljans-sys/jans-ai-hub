@@ -99,6 +99,8 @@ Raphael Jans nutzt folgende E-Mail-Konten (NICHT Gmail):
 |---|---|---|---|
 | Geschaeft (Haupt) | rj@raphaeljans.ch | Microsoft 365 | Geschaeftliche Korrespondenz |
 | Geschaeft 2 | mail@raphaeljans.ch | Microsoft 365 | Geschaeftliche Korrespondenz |
+| Gruppe KISPI | kispi@raphaeljans.ch | M365 Group | Fachplaner Kinderspital (alle Mitglieder erhalten Mails) |
+| Gruppe HLEB | HLEBWEB@raphaeljans.ch | M365 Group | Website-Projekt |
 | Privat | raphaeljans@me.com | Apple/iCloud | Private Korrespondenz |
 
 - **Gmail wird NICHT verwendet** — der Gmail-Connector ist nur technisch vorhanden
@@ -126,8 +128,20 @@ Die M365-Anbindung nutzt **Certificate-based Authentication** (noetig fuer Share
 | Zertifikat gueltig bis | 23. Maerz 2028 |
 
 ### API-Berechtigungen (Application)
-- Microsoft Graph: Files.Read.All, Mail.Read, Mail.Send, Sites.Read.All, User.Read.All
+- Microsoft Graph: Files.Read.All, Group.Create, Group.Read.All, Group.ReadWrite.All, Mail.Read, Mail.Send, Sites.Read.All, User.Read.All
 - SharePoint: Sites.FullControl.All
+
+### M365 Gruppen (Teams/Gruppenpostfaecher)
+
+| Gruppe | Mail | Typ | Beschreibung |
+|---|---|---|---|
+| JANS - 2619-KISPI | kispi@raphaeljans.ch | M365 Group (Unified) | Fachplaner KISPI (Kinderspital) |
+| HLEB WEB | HLEBWEB@raphaeljans.ch | M365 Group (Unified) | Website-Projekt |
+
+- Gruppen-Mails erreichen **alle Mitglieder** der Gruppe
+- Verwaltung ueber Outlook Web (outlook.office.com) unter "Gruppen"
+- Jede Gruppe hat automatisch eine SharePoint-Dokumentbibliothek
+- Outlook for Mac (neue Version) zeigt Gruppen NICHT als separaten Sidebar-Bereich
 
 ### Zertifikat erneuern (alle 2 Jahre)
 ```bash
