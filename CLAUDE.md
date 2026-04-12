@@ -233,6 +233,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 |---|---|---|
 | `baurecht` | `skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ |
 | `kostenschaetzung` | `skills/kostenschaetzung/SKILL.md` | Healthcare-Kostenkennwerte, Grobschaetzungen |
+| `website-content` | `skills/website-content/SKILL.md` | WordPress Content-Upload fuer raphaeljans.ch |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -255,6 +256,7 @@ skills/<skill-name>/
 | `recherche` | `agents/recherche.md` | Systematische Recherche ueber alle Quellen |
 | `dokument` | `agents/dokument.md` | Professionelle Dokumente erstellen (Word/PDF) |
 | `email` | `agents/email.md` | E-Mails im JANS-Stil verfassen |
+| `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 
 ### Custom Commands (Slash-Commands)
 | Command | Beschreibung |
@@ -265,6 +267,7 @@ skills/<skill-name>/
 | `/m365` | Microsoft 365 Connector testen |
 | `/morgen` | Morgen-Briefing (Kalender, E-Mails, System) |
 | `/station-sync` | Sync-Tasks von der anderen Station pruefen und ausfuehren |
+| `/website` | Website-Content: Projekte hochladen, Status pruefen |
 
 ### Baurecht-Wissensbasis
 - `docs/baurecht/begriffe.md` — Glossar baurechtliche Begriffe
