@@ -57,6 +57,7 @@ Das NAS ist die stabile Loesung: Jede Station arbeitet lokal, teilt aber Skills 
   skills/        ← Shared Skills (z.B. baurecht/)
   agents/        ← Shared Agents (recherche, dokument, email)
   commands/      ← Shared Slash-Commands (/status, /morgen, etc.)
+  rules/         ← Shared Verhaltensregeln (immer aktiv via @-Import)
   plugins/       ← Shared Plugins
   templates/     ← Dokument-Vorlagen
 ```
@@ -308,3 +309,13 @@ jans-ai-hub/                          (Git-Repo, auf jeder Station lokal)
 - Passwoerter und Credentials NIEMALS committen
 - GitHub nur fuer Backup/Versionierung
 - Fuer sensible Daten: `.env` (in .gitignore) oder macOS Keychain
+
+## Geteilte Verhaltensregeln (Rules)
+
+Verhaltens- und Stil-Regeln liegen auf dem NAS unter `/Volumes/daten/jans-ai-hub/rules/` und werden hier per `@`-Import eingebunden. So sind Aenderungen sofort auf allen Stationen aktiv — analog zur Skill-/Agent-/Command-Architektur.
+
+Aktive Rules:
+
+@/Volumes/daten/jans-ai-hub/rules/antwort-formatierung.md
+
+Details zur Rules-Architektur und wie neue Regeln angelegt werden: siehe `/Volumes/daten/jans-ai-hub/rules/README.md`.
