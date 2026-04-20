@@ -317,5 +317,6 @@ Verhaltens- und Stil-Regeln liegen auf dem NAS unter `/Volumes/daten/jans-ai-hub
 Aktive Rules:
 
 @/Volumes/daten/jans-ai-hub/rules/antwort-formatierung.md
+@/Volumes/daten/jans-ai-hub/rules/dateinamen-konvention.md
 
 Details zur Rules-Architektur und wie neue Regeln angelegt werden: siehe `/Volumes/daten/jans-ai-hub/rules/README.md`.
