@@ -235,6 +235,8 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `baurecht` | `skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ |
 | `kostenschaetzung` | `skills/kostenschaetzung/SKILL.md` | Healthcare-Kostenkennwerte, Grobschaetzungen |
 | `website-content` | `skills/website-content/SKILL.md` | WordPress Content-Upload fuer raphaeljans.ch |
+| `offertenpruefung` | `skills/offertenpruefung/SKILL.md` | Strukturierte Pruefung von Offerten/Angeboten (Factsheet, Risiken, Reduktionsstrategie) |
+| `terminplanung` | `skills/terminplanung/SKILL.md` | Bauprogramme und Ausfuehrungsterminplaene |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -250,6 +252,7 @@ skills/<skill-name>/
 |---|---|---|
 | `baurecht` | `skills/baurecht/referenzen/` | Blaues Buch PBG ZH, Kommentare |
 | `kostenschaetzung` | `skills/kostenschaetzung/referenzen/` | Wuest Partner Kostenkennwerte |
+| `offertenpruefung` | `skills/offertenpruefung/referenzen/` | KBOB-Tarife, SIA 118/1024, Vergleichsofferten (anonymisiert), Marktreports |
 
 ### Agents (Sub-Agents)
 | Agent | Pfad (auf NAS) | Beschreibung |
