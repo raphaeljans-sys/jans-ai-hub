@@ -236,6 +236,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `kostenschaetzung` | `skills/kostenschaetzung/SKILL.md` | Healthcare-Kostenkennwerte, Grobschaetzungen |
 | `website-content` | `skills/website-content/SKILL.md` | WordPress Content-Upload fuer raphaeljans.ch |
 | `offertenpruefung` | `skills/offertenpruefung/SKILL.md` | Strukturierte Pruefung von Offerten/Angeboten (Factsheet, Risiken, Reduktionsstrategie) |
+| `ausschreibung` | `skills/ausschreibung/SKILL.md` | Submissions-/Devis-Erstellung fuer Spezialplaner und Unternehmer (Gegenstueck zu offertenpruefung); 3-Phasen-Workflow LV-Erstellung / Versand / Auswertung |
 | `terminplanung` | `skills/terminplanung/SKILL.md` | Bauprogramme und Ausfuehrungsterminplaene |
 
 ### Skill-Referenzen (Konvention)
@@ -253,6 +254,7 @@ skills/<skill-name>/
 | `baurecht` | `skills/baurecht/referenzen/` | Blaues Buch PBG ZH, Kommentare |
 | `kostenschaetzung` | `skills/kostenschaetzung/referenzen/` | Wuest Partner Kostenkennwerte |
 | `offertenpruefung` | `skills/offertenpruefung/referenzen/` | KBOB-Tarife, SIA 118/1024, Vergleichsofferten (anonymisiert), Marktreports |
+| `ausschreibung` | `skills/ausschreibung/referenzen/` | Goldstandard-Beispiel-Offerten, SIA 118/1024, AGB-Vorlagen, Branchen-Marktreports |
 
 ### Agents (Sub-Agents)
 | Agent | Pfad (auf NAS) | Beschreibung |
@@ -322,5 +324,6 @@ Aktive Rules:
 @/Volumes/daten/jans-ai-hub/rules/antwort-formatierung.md
 @/Volumes/daten/jans-ai-hub/rules/dateinamen-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/dokument-layout-standard.md
+@/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
 
 Details zur Rules-Architektur und wie neue Regeln angelegt werden: siehe `/Volumes/daten/jans-ai-hub/rules/README.md`.
