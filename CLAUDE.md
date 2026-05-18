@@ -307,6 +307,7 @@ jans-ai-hub/                          (Git-Repo, auf jeder Station lokal)
 ```
 
 ## Wichtige Regeln
+- **Echte Umlaute**: Alle Texterzeugnisse (DOCX, PDF, MD, E-Mails, Antworten zum Kopieren) verwenden echte Umlaute ä/ö/ü — niemals die ASCII-Ersatzform ae/oe/ue. Ausnahme: Datei-/Ordnernamen und Code-Variablen bleiben ASCII. Siehe `rules/umlaute-konvention.md`.
 - **Jede Station arbeitet lokal** mit Claude Code — Skills werden ueber NAS geteilt
 - Repo auf SSD (`~/Developer/jans-ai-hub`), NIEMALS ueber SMB-Mount bearbeiten
 - Skills/Agents/Commands liegen auf dem NAS und sind per Symlink eingebunden
