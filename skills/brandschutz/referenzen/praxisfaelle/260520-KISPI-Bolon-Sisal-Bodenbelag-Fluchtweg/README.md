@@ -85,7 +85,31 @@ Der Lieferant uebernimmt damit ausdruecklich keine Verantwortung fuer die Eignun
 
 ## Ablage Original-Unterlagen
 
-Die Original-Unterlagen (Rechnung-PDF, DoP-PDF, Datenblatt-PDF, Mail-EML) liegen im Projekt-Ordner KISPI bzw. sollten gemaess Hinweis INEVO auch beim TU/GU vorhanden sein. Hier in diesem Praxisfall sind die wesentlichen Daten extrahiert, um den Sachverhalt nachvollziehbar zu dokumentieren.
+**Single Source of Truth (OneDrive/SharePoint):**
+```
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/06_Reglemente/Brandschutz Fluchtweg/_Bologn/
+```
+
+Enthaelt: Rechnung Bolon, DoP, Produktspezifikation, Original-Mail INEVO.
+
+**Snapshot in dieser Wissensbasis (NAS, fuer offline-Zugriff auf allen Stationen):**
+- `260520-Bolon-Leistungserklaerung-005DoP2016-02-10.pdf`
+- `260520-Bolon-Produktspezifikation-BKB-2026.pdf`
+- `260520-Bolon-Rechnung-142659.pdf`
+- `260520-Mail-INEVO-Baldauf.eml`
+
+## Querverweise im Projekt KISPI
+
+Im KISPI-Projektordner liegen weitere relevante Unterlagen zum Brandschutz-Fluchtweg:
+
+```
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/06_Reglemente/Brandschutz Fluchtweg/
+```
+
+- `260519 Besprechung Feuerpolizei/` — Fotos/Notizen einer Besprechung mit der Feuerpolizei vom Vortag der INEVO-Mail (IMG_4769..4774.jpeg). **Hochrelevant** — moeglicherweise wurde der Bolon-Belag dort bereits angesprochen oder die Anforderungen geklaert. Vor Versand der Mail an Gruner pruefen, ob die Bestaetigung schon vorliegt.
+- `_Baustoffe und Bauteile_einzelseiten/` — Auszuege BSR 13-15
+- `_Verwenden von Baustoffen/` — projektspezifische Verwendungs-Dokumentation
+- `IMG_3185.jpeg` — Foto Fluchtweg-Situation
 
 ## Lessons Learned / Wiederverwendung
 
