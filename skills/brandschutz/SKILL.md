@@ -13,6 +13,62 @@ Zielgruppe: Raphael Jans Architekten ETH (JANS) — Healthcare-Architektur (Kind
 
 Vorstufe zum Skill `ausschreibung`: Bevor ein LV (z.B. BKP 271.10 / 271.13 Trockenbau) erstellt wird, klaert dieser Skill die Brandschutz-Anforderungen und liefert die Beilage zur Submission.
 
+## Verbindliche Kontextquellen (immer konsultieren)
+
+Bei jeder Brandschutz-Anfrage sind diese beiden Quellen primaer auszuwerten — sie sind die JANS-eigene Wissensbasis und gehen vor allgemeinen Internetquellen. Beide liegen in SharePoint via OneDrive-Sync und sind auf allen Stationen mit OneDrive-Sync verfuegbar.
+
+### 1) Bueroweite Brandschutz-Wissensbasis
+
+**Pfad (lokal, alle Stationen):**
+```
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 03 Brandschutz/
+```
+
+**Struktur:**
+- `00 Brandschutznachweis.ch/` — Online-Tool Brandschutznachweise (Snapshots, Logins)
+- `00 Brandschutzplaene bsvonline.ch/` — Online-Tool Brandschutzplaene (BSV)
+- `01 Brandschutznorm 2015/` — VKF-Brandschutznorm 2015 (Stammdokument)
+- `02 Brandschutzrichtlinien 2015-17-22/` — alle VKF-BSR inkl. Aktualisierungen 2017/2022 (z.B. BSR 13-15 Baustoffe und Bauteile, BSR 14-15 Flucht- und Rettungswege, BSR 16-15 Brandschutzabschluesse)
+- `03 Verzeichnisse Brandschutz 2015/` — VKF-Verzeichnisse anerkannter Produkte
+- `04 Erlaeuterungen Brandschutz 2015/` — VKF-Erlaeuterungen
+- `05 Arbeitshilfen Brandschutz 2015/` — VKF-Arbeitshilfen / Pruefraster
+- `06 Lignum Brandschutz/` — Lignum-Dokumentationen Holzbau-Brandschutz
+- `07 Blaues Buch/` — Kommentar PBG/BZO Kanton Zuerich (auch brandschutzrelevant)
+- `08 QS/` — Qualitaetssicherung Brandschutz (Vorlagen JANS)
+- `11 Projekte/` — Projektbezogene Brandschutz-Querverweise
+- `_LINK.docx` — Linksammlung Online-Quellen
+- `_Projekte Themen/` — Themenbezogene Sammlungen (uebergreifend)
+- `z_Administration/` — Admin / Logins
+
+**Verwendung:** Bei Fragen zu VKF-Vorschriften, RF-Klassen, EI-Stufen, Flucht- und Rettungswegen, Baustoff-Zulassungen, QS-Vorlagen — IMMER zuerst hier nachschauen.
+
+### 2) Projekt-spezifische Brandschutz-Quelle (Beispiel KISPI 2619)
+
+**Pfad (lokal, alle Stationen):**
+```
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/06_Reglemente/
+```
+
+**Struktur:**
+- `Brandschutz Fluchtweg/` — alles zur Fluchtweg-Thematik (inkl. `260519 Besprechung Feuerpolizei/`, `_Bologn/` Bodenbelag-Dokumentation, `_Baustoffe und Bauteile_einzelseiten/`, `_Verwenden von Baustoffen/`)
+- `Brandschutz Nachweis/` — Brandschutznachweise (Vorlage MFH-5g-RF1 V.2/V.3, BS-Symbole, projektspezifische Abklaerungen)
+- `Brandschutz Normen Auszug/` — relevante BSPUB-Auszuege (Verwendung von Baustoffen, Flucht- und Rettungswege)
+- `SIA Normen/` — projektrelevante SIA-Normen
+- `_Notizen/` — projektspezifische Notizen
+
+**Verwendung als Muster:** Andere Projekte folgen demselben `06_Reglemente`-Schema. Pfadschema fuer andere Projekte:
+```
+~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/<NNNN_PROJEKT>/06_Reglemente/
+```
+
+### Suchstrategie bei Brandschutz-Anfragen
+
+1. **Bei normativen/grundsaetzlichen Fragen** (VKF-Norm, RF-Klassen, EI-Stufen, BSR XX-15) → `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/` und `01 Brandschutznorm 2015/`
+2. **Bei produktbezogenen Fragen** (Anerkennungen, DoP, Konformitaet) → `PL - 03 Brandschutz/03 Verzeichnisse Brandschutz 2015/` plus Hersteller-DoP
+3. **Bei projektbezogenen Fragen** → zuerst `AR - 01 Projekte/<Projekt>/06_Reglemente/` (Brandschutzkonzept, Plaene, Korrespondenz), dann ergaenzend `PL - 03 Brandschutz/`
+4. **Bei QS- und Vorlagen-Fragen** → `PL - 03 Brandschutz/08 QS/`
+5. **Bei Holzbau-Brandschutz** → `PL - 03 Brandschutz/06 Lignum Brandschutz/`
+
 ## Kernprinzipien
 
 1. **VKF-Hoheit anerkennen.** Brandschutz-Klassifizierung ist Sache des Brandschutz-Fachplaners (z.B. Gruner). Du dokumentierst, klaerst und uebersetzt — du klassifizierst nicht selbststaendig. Vor Versand von Factsheets immer Visum des Brandschutz-Fachplaners einholen lassen.
