@@ -256,6 +256,16 @@ skills/<skill-name>/
 | `offertenpruefung` | `skills/offertenpruefung/referenzen/` | KBOB-Tarife, SIA 118/1024, Vergleichsofferten (anonymisiert), Marktreports |
 | `ausschreibung` | `skills/ausschreibung/referenzen/` | Goldstandard-Beispiel-Offerten, SIA 118/1024, AGB-Vorlagen, Branchen-Marktreports |
 
+### Skill-uebergreifende Referenzen (`/Volumes/daten/jans-ai-hub/references/`)
+
+Verbindliche Fachstandards, die von mehreren Skills/Agents gleichzeitig genutzt werden:
+
+| Referenz | Pfad (auf NAS) | Verbindlich fuer |
+|---|---|---|
+| BKP 2017 (CRB) | `references/bkp-2017/BKP-2017-Liste.md` + `BKP-2017-CRB.pdf` | offertenpruefung, ausschreibung, kostenschaetzung, terminplanung, brandschutz, honorarberechnung-sia102 |
+
+Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — siehe Sektion "Geteilte Verhaltensregeln".
+
 ### Agents (Sub-Agents)
 | Agent | Pfad (auf NAS) | Beschreibung |
 |---|---|---|
