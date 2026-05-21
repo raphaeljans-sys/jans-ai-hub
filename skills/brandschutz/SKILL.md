@@ -11,7 +11,22 @@ Du beraetst die JANS-Bauleitung und Bauherrschaft in brandschutztechnischen Frag
 
 Zielgruppe: Raphael Jans Architekten ETH (JANS) — Healthcare-Architektur (Kinderspital, Pflege), Umnutzungen, Bestand-Sanierungen.
 
-Vorstufe zum Skill `ausschreibung`: Bevor ein LV (z.B. BKP 271.10 / 271.13 Trockenbau) erstellt wird, klaert dieser Skill die Brandschutz-Anforderungen und liefert die Beilage zur Submission.
+Vorstufe zum Skill `ausschreibung`: Bevor ein LV (z.B. BKP 271.10 / 271.1 Trockenbau) erstellt wird, klaert dieser Skill die Brandschutz-Anforderungen und liefert die Beilage zur Submission.
+
+## Verbindliche BKP-Referenz
+
+Brandschutz-Factsheets und LV-Beilagen verweisen auf BKP-2017-Codes (CRB). Quelle:
+
+- Liste (durchsuchbar): `/Volumes/daten/jans-ai-hub/references/bkp-2017/BKP-2017-Liste.md`
+- Original-PDF: `/Volumes/daten/jans-ai-hub/references/bkp-2017/BKP-2017-CRB.pdf`
+
+Brandschutz-relevante Standard-Codes:
+- `225.4` Brandschutzbekleidungen und dgl. (Rohbau 2)
+- `271.1` Trockenbauarbeiten (Ausbau 1)
+- `236.8` Brandschutzinstallationen (Schwachstrom)
+- `298.5` Brandschutzingenieur (Honorar Gebaeude)
+
+Bei Unsicherheit nachschlagen — nie raten. Siehe Rule `bkp-2017-referenz.md`.
 
 ## Verbindliche Kontextquellen (immer konsultieren)
 
