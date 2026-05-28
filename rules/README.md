@@ -23,6 +23,7 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 - `bkp-2017-referenz.md` — BKP-Nummern immer aus der offiziellen Liste in `references/bkp-2017/` nachschlagen, nie raten
 - `dateinamen-konvention.md` — Datum-Prefix XXYYZZ (YYMMDD) für alle abgelegten Dokumente
 - `dokument-layout-standard.md` — Cambria 11 pt, A4, schwarz, keine Farben/Linien (mit Generator-Vorlage in `templates/dokument-layout/`)
+- `git-auto-push.md` — Nach jedem `git commit` immer direkt pushen (GitHub als Backup-Layer), ohne nachzufragen
 - `mail-formatierung.md` — Aptos 12 pt als Standardschrift für alle E-Mails (Apple Mail, M365)
 - `osascript-apple-apps.md` — Apple-Apps (Mail, Calendar) immer über Bundle-ID ansprechen (Tahoe-Workaround)
 - `umlaute-konvention.md` — Immer ä/ö/ü statt ae/oe/ue in allen Outputs (E-Mails, Dokumente, Antworten)
