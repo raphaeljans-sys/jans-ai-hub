@@ -238,7 +238,8 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `offertenpruefung` | `skills/offertenpruefung/SKILL.md` | Strukturierte Pruefung von Offerten/Angeboten (Factsheet, Risiken, Reduktionsstrategie) |
 | `ausschreibung` | `skills/ausschreibung/SKILL.md` | Submissions-/Devis-Erstellung fuer Spezialplaner und Unternehmer (Gegenstueck zu offertenpruefung); 3-Phasen-Workflow LV-Erstellung / Versand / Auswertung |
 | `terminplanung` | `skills/terminplanung/SKILL.md` | Bauprogramme und Ausfuehrungsterminplaene |
-| `pendenzenliste` | `skills/pendenzenliste/SKILL.md` | Pendenzenlisten fuer Bauprojekte mit Uebersichts-Deckblatt (Statustabelle) + neutral formulierter Detailteil; aus Mails/Protokollen/Sitzungen destillierbar |
+| `pendenzenliste` | `skills/pendenzenliste/SKILL.md` | Pendenzenlisten fuer Bauprojekte mit Uebersicht je Fachplanung (gruppiert), Personen-Legende und blockartig formuliertem Detailteil; aus Mails/Protokollen/Sitzungen destillierbar |
+| `protokoll` | `skills/protokoll/SKILL.md` | Sitzungsprotokolle fuer Bauprojekte mit Stamm, Personen-Legende, themenbasierten Sektionen (Sprinkleranlage, BMA, Schliessplan, Brandfallmatrix als eigene Bloecke) und Terminen sechsstellig; Schwesterskill von `pendenzenliste` |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
