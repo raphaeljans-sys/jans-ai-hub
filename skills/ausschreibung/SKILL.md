@@ -75,6 +75,16 @@ Jedes LV/Devis traegt im Titel und in der Positionsstruktur BKP-2017-Codes (CRB)
 
 Konvention im LV-Titel: `BKP <Code> — <Bezeichnung>` (z.B. `BKP 271.10 — Innenputze`). Bei Spezialplaner-Honoraren den Spezialisten-Code der entsprechenden Hauptgruppe nutzen (z.B. Brandschutzingenieur in Phase Gebaeude = 298.5). Niemals BKP-Nummern erfinden — bei Unsicherheit nachschlagen oder rueckfragen. Siehe Rule `bkp-2017-referenz.md`.
 
+### Gewerk-Ordnernamen — Stadt-Zürich-BKP 2008 (VERBINDLICH)
+
+Die **übergeordneten Gewerk-Ordner** in der JANS-Projektablage (`03 BKP/<Gewerk>/`) werden nach
+dem **Baukostenplan BKP Hochbau der Stadt Zürich (Stand 2008)** benannt: die **3-stellige
+BKP-Gruppen-Position „… gesamt"** mit Gruppentitel — **nicht** eine feinere Unterposition.
+
+- Beispiel Sanitär: Ordner heisst **`250 Sanitäranlagen`** (nicht `251.00 Sanitärarmaturen`).
+- Feinere Positionen (251 Allgemeine Sanitärapparate usw.) erscheinen im **LV**, nicht im Ordnernamen.
+- Katalog + Gruppen-/Feinstruktur: `referenzen/bkp-stadt-zuerich-2008/` (PDF + README).
+
 ## Kernprinzipien
 
 1. **Schlanker Stil** — Format wie marktuebliche Spezialplaner-Offerten (z.B. Gastro-Online), nicht aufgeblaehte SIA-118-Vorbemerkungen. Pragmatisch, lesbar, marktnah.
@@ -93,6 +103,14 @@ Konvention im LV-Titel: `BKP <Code> — <Bezeichnung>` (z.B. `BKP 271.10 — Inn
 - Bauseitige Leistungen separat im Anschreiben listen
 
 Output: Word-LV (zum Eintragen) + PDF (Verbindlichkeitsstand).
+
+**DOCX→PDF immer ueber das geteilte Werkzeug** — nie soffice/convert/gs von Hand
+zusammenstecken (das schlug bisher still fehl und kostete pro Dossier viel Zeit):
+```
+bash /Volumes/daten/jans-ai-hub/scripts/docx2pdf.sh <datei.docx> [ziel-ordner]
+bash /Volumes/daten/jans-ai-hub/scripts/docx2pdf.sh <ordner>   # Batch: alle *.docx
+```
+Lock-sicher (Parallel-Laeufe), mit Retry und Output-Verifikation (Exit-Code != 0 bei Fehlschlag).
 
 ### Phase 2: Versand
 - Pro Anbieter: Anschreiben + LV + Antwortformular + Beilagen (Plaene)
@@ -185,6 +203,21 @@ Stammdaten der bekannten Anbieter pro Gewerk:
 ```
 
 Dateien pro Gewerk (z.B. `gastrokuechen.md`, `schreiner.md`, `sanitaer.md`).
+
+## Projekt-Stammdaten (Bauherrschaft pro Projekt — VERBINDLICH)
+
+Verbindliche Stammdaten pro Bauprojekt (Bauherrschaft, Objektbezeichnung):
+```
+/Volumes/daten/jans-ai-hub/skills/ausschreibung/projekte/
+```
+Eine Datei pro Projekt (`<projektnr>-<kurzname>.md`, z.B. `2620-albertstrasse-7.md`).
+
+**PFLICHT:** Vor jeder Ausschreibung fuer ein Projekt zuerst die passende Projekt-Stammdatei
+lesen und **Bauherrschaft + Objektbezeichnung exakt daraus uebernehmen** — in LV-Stammzeile
+und (falls genannt) Vergabeempfehlung. Innerhalb eines Projekts ist die Bauherrschaft in
+**jedem** Los **identisch**. Niemals die Bauherrschaft raten oder aus Datei-/Ordnernamen
+ableiten. Existiert noch keine Stammdatei, Bauherrschaft aus bereits erstellten Losen
+(LV-Stammzeile) verifizieren und dort festhalten. Details: `projekte/README.md`.
 
 ## Templates
 

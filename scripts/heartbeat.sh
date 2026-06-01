@@ -17,6 +17,20 @@ if [[ "$1" == "--json" ]]; then
     JSON_MODE=true
 fi
 
+# -----------------------------------------------------------------------------
+# Tageslauf-Lock: verhindert 2-3 redundante Heartbeats pro Tag.
+# (Analyse 06/2026: an mehreren Tagen lief der Heartbeat 3x.)
+# Mit --force erzwingbar; im --json-Modus deaktiviert (maschinelle Aufrufe).
+# -----------------------------------------------------------------------------
+LOCK_FILE="$HOME/.claude/.heartbeat-lastrun"
+if [[ "$1" != "--force" && "$JSON_MODE" == false ]]; then
+    if [[ -f "$LOCK_FILE" && "$(cat "$LOCK_FILE" 2>/dev/null)" == "$(date '+%Y-%m-%d')" ]]; then
+        echo "🟢 Heartbeat heute bereits gelaufen — übersprungen (bash heartbeat.sh --force zum Erzwingen)."
+        exit 0
+    fi
+    date '+%Y-%m-%d' > "$LOCK_FILE" 2>/dev/null || true
+fi
+
 # Status-Variablen
 nas_ok=false
 nas_msg=""
@@ -172,6 +186,23 @@ else
 fi
 
 # =============================================================================
+# Produktions-Bereitschaft (Dokument-Pipeline) — die häufigste echte Stör-Ursache
+# =============================================================================
+prod_ok=true
+prod_msg=""
+if command -v soffice >/dev/null 2>&1 || [ -x "/Applications/LibreOffice.app/Contents/MacOS/soffice" ]; then
+    if python3 -c "import docx" >/dev/null 2>&1; then
+        prod_msg="✅ DOCX→PDF-Pipeline bereit (soffice + python-docx)"
+    else
+        prod_ok=false
+        prod_msg="⚠️  python-docx fehlt → pip3 install python-docx"
+    fi
+else
+    prod_ok=false
+    prod_msg="⚠️  soffice fehlt → brew install --cask libreoffice"
+fi
+
+# =============================================================================
 # Gesamt-Status ermitteln
 # =============================================================================
 CRITICAL_FAIL=false
@@ -224,6 +255,7 @@ else
     printf "Disk Space:     %s\n" "$disk_msg"
     printf "Sync-Tasks:     %s\n" "$sync_msg"
     printf "Symlinks:       %s\n" "$symlinks_msg"
+    printf "Dok-Pipeline:   %s\n" "$prod_msg"
     echo "─────────────────────────────────────────────"
     echo "STATUS: $OVERALL"
     echo ""
