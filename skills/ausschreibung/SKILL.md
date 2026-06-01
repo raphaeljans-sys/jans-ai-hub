@@ -199,25 +199,32 @@ Alle Templates folgen dem **JANS Dokument-Layout-Standard**:
 | Anschreiben-Absender | rj@raphaeljans.ch | je nach Projekt-Lead |
 | CC im Versand | Bauleitung intern | konfigurierbar |
 
-## Output-Ablage
+## Output-Ablage (VERBINDLICH — jedes LV immer DOPPELT ablegen)
 
-**Phase 1 (Pruefung durch Architekt):**
+Jedes erstellte LV/Devis wird an **beiden** Orten abgelegt:
+
+**1. JANS AI Hub Output:**
 ```
 ~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/
   AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/
     submission/<projekt-nr>-<projekt>-<gewerk>/<YYMMDD>-versand/
-      YYMMDD_Anschreiben_<Projekt>_<Gewerk>.docx + .pdf
       YYMMDD_LV_<Projekt>_<Gewerk>.docx + .pdf
-      YYMMDD_Antwortformular_<Projekt>_<Gewerk>.docx + .pdf
+      YYMMDD_Anschreiben_<Projekt>_<Gewerk>.docx + .pdf
+      YYMMDD_Antwortformular_<Projekt>_<Gewerk>.docx + .pdf   (falls separat)
 ```
 
-**Phase 2 (nach Freigabe — Versand):**
+**2. Projektspezifisch im Ausschreibungsordner (Versand):**
 ```
-~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/
-  AR - 01 Projekte/<projekt-nr>_<projekt>/
-    02_Korrespondenz/5_Spezialplaner/<gewerk>/
-      Submission/Versand/<YYMMDD>-<anbieter>/
+<Projektordner>/03 BKP/<BKP> <Gewerk> <Anbieter>/
+    <Projektnr> 221.6 03 AS versand/
+      YYMMDD_LV_<Projekt>_<Gewerk>.docx + .pdf
 ```
+
+**Konstante Struktur & Nomenklatur (projektuebergreifend identisch):**
+- Die Phasen-Unterordner je Gewerk im `03 BKP`-Ordner sind in jedem Projekt gleich:
+  `01 Grundlagen · 02 Richtofferten · 03 AS versand · 04 Offerte UN · 05 Vergabe · 06 WV · 08 Korrespondenz · 10 Rechnungen, NT, Regie · 11 SR · archiv`.
+- Benennung der Phasen-Unterordner: `<Projektnr> 221.6 <NN> <Phase>` — der Token `221.6` und die Phasennummern bleiben **konstant**, **nur die Projektnummer aendert** sich (z.B. `2620 221.6 03 AS versand`).
+- Versand-Fassung (LV, Anschreiben, Antwortformular) → in `…03 AS versand/`.
 
 Dateinamen-Konvention nach JANS-Rule (YYMMDD).
 
