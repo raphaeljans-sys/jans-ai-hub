@@ -29,6 +29,8 @@ Status: `offen` · `in Klärung` · `geschlossen`.
 | — | Goldstandard-LVs Gipser/Maler/Sonnenschutz/Türen/Unterlagsboden/Plattenbeläge | `referenzen/goldstandard-lv/` | Juni 2026 |
 | — | Fachbegriffe-Glossar | `06_glossar.md` | Juni 2026 |
 | — | Werkvertrag/Unternehmerkontrolle-Methodik | `07_werkvertrag-unternehmerkontrolle.md` | Juni 2026 |
+| — | Parser-Header bei alten CRB-Layouts fehlerhaft (Gewerk/Objekt) | Gewerk aus Dateiname ableiten + Code-Tokens verwerfen (`crbx_parser.py`) | Juni 2026 |
+| L12a | Goldstandards 66/67/68 konvertiert: +221 Garagentor, +272 Metallbau, +281 Parkett/Holz, +282 Plattenarbeiten | `goldstandard-lv/` (12 LVs, 7/18 Gewerke) | Juni 2026 |
 
 ## Vorhandene .crbx im Archiv (Konvertierungs-Backlog für L07/L12)
 

@@ -3,16 +3,16 @@ typ: lv-vorlage
 quelle: 228_Sonnenschutz_WW_LV347.crbx
 format: SIA 451 / CRB (.crbx)
 objekt: Neubau am Wasser, Bäch
-gewerk: BKP 228 Sonnenschutz
+gewerk: Sonnenschutz
 npk_version: 2020.Vers2020_10.1(10047)
 npk_kapitel: [103, 111, 113, 347]
 reifegrad: R2
 hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage
 ---
 
-# LV-Vorlage — BKP 228 Sonnenschutz
+# LV-Vorlage — Sonnenschutz
 
-> Objekt: Neubau am Wasser, Bäch · Referenz-Unternehmer: Messerli AG
+> Objekt: Neubau am Wasser, Bäch · Referenz-Unternehmer: 
 
 ## Konditionen
 

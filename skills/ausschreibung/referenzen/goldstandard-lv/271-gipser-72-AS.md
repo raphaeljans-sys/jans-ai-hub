@@ -2,16 +2,16 @@
 typ: lv-vorlage
 quelle: 72 271 AS LV Gipser.crbx
 format: SIA 451 / CRB (.crbx)
-objekt: Marco Wintsc1049041
-gewerk: 1 BCGI
+objekt: 1 BCGI
+gewerk: Gipser
 npk_kapitel: [103, 113, 643, 651, 671]
 reifegrad: R2
 hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage
 ---
 
-# LV-Vorlage — 1 BCGI
+# LV-Vorlage — Gipser
 
-> Objekt: Marco Wintsc1049041 · Referenz-Unternehmer: Ryhner
+> Objekt: 1 BCGI · Referenz-Unternehmer: PMS Informatik AG
 
 ## Konditionen
 

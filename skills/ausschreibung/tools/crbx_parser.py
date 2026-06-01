@@ -62,12 +62,30 @@ def text_tokens(s):
 
 
 def _is_codelike(t):
-    """True fuer technische Codes (CRBX-Marker, ziffernlastige Tokens, Versionsstrings)."""
+    """True fuer technische Codes (CRBX-Marker, ziffernlastige/gemischte Tokens, Versionsstrings)."""
     if "CRBX" in t or "Vers" in t:
+        return True
+    if re.search(r"\d{3,}", t):          # 3+ Ziffern am Stueck → Code (z.B. Wintsc1049041)
         return True
     letters = sum(c.isalpha() for c in t)
     digits = sum(c.isdigit() for c in t)
-    return digits > letters or letters < 3
+    if digits > letters or letters < 4:  # zu kurz/ziffernlastig (z.B. "1 BCTO")
+        return True
+    # reine Grossbuchstaben-Codes ohne Vokal (z.B. "BCTO")
+    if t.isupper() and not re.search(r"[AEIOUÄÖÜ]", t):
+        return True
+    return False
+
+
+def _gewerk_aus_dateiname(path):
+    """Leitet das Gewerk aus dem Dateinamen ab (Fallback fuer fehlerhaften A-Satz)."""
+    name = os.path.splitext(os.path.basename(path))[0]
+    name = name.replace("_", " ")
+    name = re.sub(r"\bLV\s*\d+\b", " ", name, flags=re.I)   # LV643, LV 622 …
+    name = re.sub(r"\b(AS|LV|Devi|WW|UE|KP|AMS)\b", " ", name, flags=re.I)
+    name = re.sub(r"\d+", " ", name)                        # restliche Zahlen (BKP/NPK)
+    name = re.sub(r"\s{2,}", " ", name).strip()
+    return name
 
 
 def parse_header(line):
@@ -114,12 +132,19 @@ def parse(path):
     e1s, _tmp = find_e1s(path)
     lines = read_lines(e1s)
     doc = {"quelle": os.path.basename(path), "kopf": {}, "konditionen": [], "kapitel": {}}
+    gewerk_fn = _gewerk_aus_dateiname(path)
     for ln in lines:
         if not ln:
             continue
         rt = ln[0]
         if rt == "A":
             doc["kopf"] = parse_header(ln)
+            # Gewerk: Dateiname ist verlaesslicher als der A-Satz (alte CRB-Layouts)
+            if gewerk_fn:
+                doc["kopf"]["gewerk"] = gewerk_fn
+            # Objekt verwerfen, wenn es wie ein Code aussieht
+            if _is_codelike(doc["kopf"].get("objekt", "")):
+                doc["kopf"]["objekt"] = ""
         elif rt == "C" and ln[:4] != "C000":
             k = parse_kondition(ln)
             if k["label"]:

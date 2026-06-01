@@ -3,14 +3,14 @@ typ: lv-vorlage
 quelle: 272_3 Tueren_WW_LV622.crbx
 format: SIA 451 / CRB (.crbx)
 objekt: Neubau MFH Palm-Fischbacher
-gewerk: Innentüren aus Holz
+gewerk: Tueren
 npk_version: 2020.Vers2020_10.1(10047)
 npk_kapitel: [103, 111, 113, 622]
 reifegrad: R2
 hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage
 ---
 
-# LV-Vorlage — Innentüren aus Holz
+# LV-Vorlage — Tueren
 
 > Objekt: Neubau MFH Palm-Fischbacher · Referenz-Unternehmer: Messerli AG
 

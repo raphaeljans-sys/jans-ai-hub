@@ -3,16 +3,16 @@ typ: lv-vorlage
 quelle: 281_Unterlagsboden_WW_LV661.crbx
 format: SIA 451 / CRB (.crbx)
 objekt: Neubau am Wasser, Bäch
-gewerk: BKP 281.0 Unterlagsböden
+gewerk: Unterlagsboden
 npk_version: 2020.Vers2020_10.1(10047)
 npk_kapitel: [103, 111, 113, 661]
 reifegrad: R2
 hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage
 ---
 
-# LV-Vorlage — BKP 281.0 Unterlagsböden
+# LV-Vorlage — Unterlagsboden
 
-> Objekt: Neubau am Wasser, Bäch · Referenz-Unternehmer: Messerli AG
+> Objekt: Neubau am Wasser, Bäch · Referenz-Unternehmer: 
 
 ## Konditionen
 
