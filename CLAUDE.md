@@ -237,6 +237,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `website-content` | `skills/website-content/SKILL.md` | WordPress Content-Upload fuer raphaeljans.ch |
 | `offertenpruefung` | `skills/offertenpruefung/SKILL.md` | Strukturierte Pruefung von Offerten/Angeboten (Factsheet, Risiken, Reduktionsstrategie) |
 | `ausschreibung` | `skills/ausschreibung/SKILL.md` | Submissions-/Devis-Erstellung fuer Spezialplaner und Unternehmer (Gegenstueck zu offertenpruefung); 3-Phasen-Workflow LV-Erstellung / Versand / Auswertung |
+| `unternehmerfindung` | `skills/unternehmerfindung/SKILL.md` | Findet zu LV/Gewerk (BKP) + Bauort + Bauaufgabe die bestgeeigneten Unternehmer und gibt eine gerankte Shortlist aus; Stufe VOR `ausschreibung`. Nutzt Stammdaten-DB (`ausschreibung/anbieter/stammdaten/`), macOS-Kontakte, Projekt-Archiv, regionale Web-Suche; Fan-out via Agent `unternehmer-scout` |
 | `terminplanung` | `skills/terminplanung/SKILL.md` | Bauprogramme und Ausfuehrungsterminplaene |
 | `pendenzenliste` | `skills/pendenzenliste/SKILL.md` | Pendenzenlisten fuer Bauprojekte mit Uebersicht je Fachplanung (gruppiert), Personen-Legende und blockartig formuliertem Detailteil; aus Mails/Protokollen/Sitzungen destillierbar |
 | `protokoll` | `skills/protokoll/SKILL.md` | Sitzungsprotokolle fuer Bauprojekte mit Stamm, Personen-Legende, themenbasierten Sektionen (Sprinkleranlage, BMA, Schliessplan, Brandfallmatrix als eigene Bloecke) und Terminen sechsstellig; Schwesterskill von `pendenzenliste` |
@@ -274,6 +275,7 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `recherche` | `agents/recherche.md` | Systematische Recherche ueber alle Quellen |
 | `dokument` | `agents/dokument.md` | Professionelle Dokumente erstellen (Word/PDF) |
 | `email` | `agents/email.md` | E-Mails im JANS-Stil verfassen |
+| `unternehmer-scout` | `agents/unternehmer-scout.md` | Durchsucht je eine Quelle (Stammdaten/Kontakte/Archiv/Web) nach Unternehmern fuer ein Gewerk + Bauort; liefert belegte Kandidaten zurueck (Fan-out fuer Skill `unternehmerfindung`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 
 ### Custom Commands (Slash-Commands)
