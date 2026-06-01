@@ -32,6 +32,7 @@ bei Bedarf `.crbx`, PDF oder XLSX erzeugt.
 | [09_datenaufbereitung-pipeline.md](09_datenaufbereitung-pipeline.md) | Reifegrade R0–R5, fortlaufende Veredelung der Grundlagendaten |
 | [wissensluecken.md](wissensluecken.md) | **Lebende Lücken-Registry** (offen/geschlossen) |
 | [wochenplan-bauleitung.md](wochenplan-bauleitung.md) | Alternierender Wochenplan für den Harness-Aufbau |
+| [grundlagen-ablage.md](grundlagen-ablage.md) | **Wohin mit Grundlagen?** Ablage-System (Projekt / NAS-Referenzen / Eingang) |
 
 ## Referenzen (Goldstandard)
 
