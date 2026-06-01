@@ -32,16 +32,26 @@ Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
     07_werkvertrag-unternehmerkontrolle.md ← Werkvertrag + Realisierung (Ausmass/NT/SR/Abnahme)
     08_selbsttraining-mecano.md       ← Wissensluecken erkennen → schliessen → integrieren
     09_datenaufbereitung-pipeline.md  ← Reifegrade R0–R5, fortlaufende Veredelung
+    10_dokumente-standard.md          ← PFLICHT-Standard LV/Begleitschreiben/Mail (immer anwenden!)
+    grundlagen-ablage.md              ← wohin mit Grundlagen (Input)
     wissensluecken.md                 ← LEBENDE Luecken-Registry (bei Unsicherheit eintragen!)
     wochenplan-bauleitung.md          ← alternierender Wochenplan
   referenzen/
-    goldstandard-lv/              ← echte JANS-LVs als .md (228/271/272/281/282/285) — FORMAT-VORBILD
+    goldstandard-lv/              ← echte JANS-LVs als .md (221/228/271/272/281/282/285) — FORMAT-VORBILD
     npk-struktur/                 ← NPK-2000-Gliederung (nur Struktur, Preise 1996 veraltet)
+    produkt-kataloge/             ← Hersteller-Kataloge/Referenzofferten je Gewerk (z.B. RENZ)
   tools/
+    jans_docx.py                  ← Wiederverwendbarer DOCX-Baukasten (Layout, Seitenzahlen,
+                                     korrekte Adresse, Standard-Begleitschreiben) — FUER DOKUMENTE NUTZEN
     crbx_parser.py                ← SIA-451/.crbx → .md/.json
     npk2000_struktur.py           ← NPK-2000-.xls → Struktur-.md
     reifegrad.py                  ← Abdeckungs-/Luecken-Report (vor Session ausfuehren)
 ```
+
+**PFLICHT bei jeder Dokumenterstellung:** `wissensbasis/10_dokumente-standard.md` befolgen
+(korrekte JANS-Adresse, Seitenzahlen, Plan-/Dokumentengrundlagen konkret benennen,
+Besichtigungstermin, Beilagen pro Zeile, Antwortblock, MWST 8,1 %, doppelte Ablage,
+Mail-Entwurf mit allen Beilagen + Kalendertermine). Dafuer `tools/jans_docx.py` verwenden.
 
 **Selbstlernend:** Bei jeder Unsicherheit (geratene BKP/NPK, fehlende Vorlage, unklarer
 Wert) → Luecke in `wissensbasis/wissensluecken.md` eintragen und nach dem Mecano
