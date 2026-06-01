@@ -216,15 +216,18 @@ Jedes erstellte LV/Devis wird an **beiden** Orten abgelegt:
 **2. Projektspezifisch im Ausschreibungsordner (Versand):**
 ```
 <Projektordner>/03 BKP/<BKP> <Gewerk> <Anbieter>/
-    <Projektnr> 221.6 03 AS versand/
-      YYMMDD_LV_<Projekt>_<Gewerk>.docx + .pdf
+    <Projektnr> <BKP> 03 AS versand/<ANBIETER>/
+      LOS <BKP2> <GEWERK GROSS> <Projektnr>_<Objekt>_LV.docx + .pdf
+      LOS <BKP2> <GEWERK GROSS> <Projektnr>_<Objekt>_Begleitschreiben.docx + .pdf
+      ... + Plan-/Dokumentengrundlagen (Objektplan, Grobtermine, Katalog, Skizze)
 ```
 
 **Konstante Struktur & Nomenklatur (projektuebergreifend identisch):**
 - Die Phasen-Unterordner je Gewerk im `03 BKP`-Ordner sind in jedem Projekt gleich:
   `01 Grundlagen · 02 Richtofferten · 03 AS versand · 04 Offerte UN · 05 Vergabe · 06 WV · 08 Korrespondenz · 10 Rechnungen, NT, Regie · 11 SR · archiv`.
-- Benennung der Phasen-Unterordner: `<Projektnr> 221.6 <NN> <Phase>` — der Token `221.6` und die Phasennummern bleiben **konstant**, **nur die Projektnummer aendert** sich (z.B. `2620 221.6 03 AS versand`).
-- Versand-Fassung (LV, Anschreiben, Antwortformular) → in `…03 AS versand/`.
+- Benennung der Phasen-Unterordner: `<Projektnr> <BKP> <NN> <Phase>` — die **echte BKP-Nummer** des Gewerks (z.B. `2620 272.5 03 AS versand`), **nur die Projektnummer aendert** sich zwischen Projekten.
+- In `…03 AS versand/` pro Anbieter ein **Anbieter-Unterordner** (Name in GROSS) mit dem kompletten Versand-Paket; Paket-Dateien: `LOS <BKP> <GEWERK> <Projektnr>_<Objekt>_<Dokument>`.
+- Plan-/Dokumentengrundlagen im LV ("Grundlagen des Angebots") und im Begleitschreiben ("Beilagen") konkret benennen.
 
 Dateinamen-Konvention nach JANS-Rule (YYMMDD).
 
