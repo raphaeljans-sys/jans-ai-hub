@@ -13,6 +13,38 @@ Zielgruppe: Raphael Jans Architekten ETH (JANS) — Healthcare-Architektur, Wohn
 
 Das Gegenstueck zum Skill `offertenpruefung`: Dort kommen Offerten rein, hier gehen Devis raus. Beide nutzen dieselbe Datenstruktur (Positionen, Mengen, Bauseits-Leistungen, Termine, Konditionen).
 
+## Wissensbasis Bauleitung (ZUERST LESEN)
+
+Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
+(aus dem JANS-Archiv `08_Bauleitung` aufbereitet):
+
+```
+/Volumes/daten/jans-ai-hub/skills/ausschreibung/
+  wissensbasis/
+    README.md                     ← Index + Format-Leitprinzip
+    00_ordnerstruktur-bauleitung.md   ← Projektablage (SIA-Phasen C/D/F/G/H/I)
+    01_workflow-ausschreibung.md      ← 11-Phasen-Pipeline + Versand-Checkliste
+    02_gewerksliste-bkp-npk.md        ← BKP ↔ NPK Zuordnung je Gewerk
+    03_sia451-crbx-format.md          ← .crbx-Format + Parser
+    04_konditionen.md                 ← KBOB/ESTV, Abzuege, MWST 8,1 %
+    05_knowhow-gewerke.md             ← Fachregeln je Gewerk (Gipser, WDVS, Maler, Metallbau)
+  referenzen/
+    goldstandard-lv/              ← echte JANS-LVs als .md (Gipser, Maler) — FORMAT-VORBILD
+    npk-struktur/                 ← NPK-2000-Gliederung (nur Struktur, Preise 1996 veraltet)
+  tools/
+    crbx_parser.py                ← SIA-451/.crbx → .md/.json
+    npk2000_struktur.py           ← NPK-2000-.xls → Struktur-.md
+```
+
+**Grundregel Dateiformate:** `.md` ist die Source-of-Truth (was du liest/schreibst);
+`.crbx`/SIA 451 ist das maschinelle LV-Austauschformat fuer Unternehmer; PDF ist der
+Verbindlichkeitsstand; `.xlsx` die Vergleichsmatrix.
+
+**LV-Grundlagen-Rangfolge:** (1) `.crbx`-Goldstandard → (2) NPK-Wegleitung 2020 →
+(3) NPK-2000-Struktur (nur Geruest) → (4) BUB5BN-Beschriebe.
+
+**.crbx einlesen:** `python3 tools/crbx_parser.py "<datei.crbx>" -o out.md`
+
 ## Verbindliche BKP-Referenz
 
 Jedes LV/Devis traegt im Titel und in der Positionsstruktur BKP-2017-Codes (CRB). Quelle:
