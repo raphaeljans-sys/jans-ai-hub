@@ -1,0 +1,44 @@
+{
+  "_hinweis": "Config-Schema fuer dossier_build.py. Felder mit * sind Pflicht. Datum sechsstellig im Dateinamen (YYMMDD).",
+
+  "los_prefix":            "LOS <BKP> <Gewerk> <ProjNr>_<Ort>   (*) — Datei-Praefix, exakt wie Nomenklatur",
+  "los_titel":             "LOS <BKP> — <Gewerk>   (*) — Ueberschrift in den Dokumenten",
+  "betreff":               "Submission LOS <BKP> <Gewerk> — <Projekt>",
+  "projekt_adresse":       "<ProjNr> <Strasse>, <PLZ Ort>   (*)",
+  "datum_ort":             "Zürich, <Tag>. <Monat> <Jahr>",
+
+  "bauherr_zeilen":        ["Bauherrschaft Zeile 1", "Zeile 2"],
+
+  "anschreiben_einleitung":"Einleitungsabsatz Begleitschreiben   (*)",
+  "grundlagen_satz":       "Satz, der die Plan-/Dokumentengrundlagen konkret benennt   (*)",
+  "gleichwertig_bauseits": "optional — sonst Standardsatz",
+  "eingabefrist_satz":     "Wir bitten um Ihr Angebot bis <Datum>.   (*)",
+  "besichtigung":          "optional — Satz zum Besichtigungstermin (mit Bitte um Bestaetigung)",
+
+  "lv_einleitung":         "optional — Einleitungssatz im LV",
+  "bauseits":              ["Bauseitige Leistung 1", "..."],
+
+  "positionen": [
+    {
+      "bereich": "Bereichstitel",
+      "items": [
+        {"pos": "273.10", "bez": "Bezeichnung", "menge": "1", "einheit": "Stk", "spez": "optionaler Vermerk"}
+      ]
+    }
+  ],
+
+  "beilagen_namen":        ["Leistungsverzeichnis", "Antwortformular", "Grobtermine", "Plaene"],
+  "beilagen_files":        ["/absoluter/pfad/zu/Grobtermine.pdf", "/pfad/zu/Plan.pdf"],
+
+  "anbieter": [
+    {
+      "kurzname": "FIRMA-KURZ",
+      "zeilen":   ["Firma AG", "Strasse 1", "8000 Ort"],
+      "empfaenger": ["Firma AG", "z.H. Herr Muster", "Strasse 1", "8000 Ort"],
+      "anrede":   "Sehr geehrter Herr Muster"
+    }
+  ],
+
+  "output_aihub_versand":  "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/submission/<projekt-gewerk>/<YYMMDD>-versand   (*)",
+  "projekt_versand_dir":   "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 03 Studien/<PROJEKT>/03 BKP/<BKP Gewerk>/<… AS versand>   (optional, Doppel-Ablage)"
+}

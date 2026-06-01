@@ -1,0 +1,84 @@
+{
+  "los_prefix":            "LOS 273 Schreinerarbeiten 2620_Albertstrasse7",
+  "los_titel":             "LOS 273 — Schreinerarbeiten",
+  "betreff":               "Submission LOS 273 Schreinerarbeiten — 2620 Albertstrasse 7, Zürich",
+  "projekt_adresse":       "2620 Albertstrasse 7, 8008 Zürich",
+  "datum_ort":             "Zürich, 1. Juni 2026",
+
+  "bauherr_zeilen": [
+    "Nova Property Fund Management AG",
+    "Swiss Central City Real Estate Fund",
+    "8001 Zürich"
+  ],
+
+  "anschreiben_einleitung": "Für das obengenannte Bauvorhaben laden wir Sie ein, ein Angebot für die Schreinerarbeiten einzureichen. Die Submission erfolgt im offenen Verfahren; alle Anbieter erhalten dieselben Unterlagen, dieselbe Frist und dasselbe Antwortformular.",
+  "grundlagen_satz":        "Massgebend sind das beiliegende Leistungsverzeichnis, der Objektplan/Grundriss 1. UG sowie der Objektspiegel. Mengen sind ab Plan ermittelt und vor Ausführung am Bau zu prüfen.",
+  "eingabefrist_satz":      "Wir bitten Sie, uns Ihr vollständiges Angebot (bepreistes Leistungsverzeichnis und ausgefülltes Antwortformular) bis spätestens Freitag, 26. Juni 2026, zukommen zu lassen.",
+  "besichtigung":           "Eine gemeinsame Objektbesichtigung findet am Freitag, 12. Juni 2026, um 13:30 Uhr vor Ort statt. Wir bitten um kurze Bestätigung Ihrer Teilnahme.",
+
+  "lv_einleitung":          "Schreinerarbeiten für den Umbau an der Albertstrasse 7. Sämtliche Positionen umfassen Lieferung, Montage und Befestigung am Bau, soweit nicht anders vermerkt.",
+
+  "bauseits": [
+    "Maler- und Gipserarbeiten an angrenzenden Bauteilen",
+    "Elektroanschlüsse für motorisierte Elemente",
+    "Bauseitige Wandöffnungen und statische Ertüchtigungen"
+  ],
+
+  "positionen": [
+    {
+      "bereich": "Türen und Zargen",
+      "items": [
+        {"pos": "273.10", "bez": "Innentür einflüglig, Vollspan, inkl. Stahlzarge und Beschlag", "menge": "6", "einheit": "Stk", "spez": "Oberfläche weiss RAL 9010, Höhe 2.10 m"},
+        {"pos": "273.11", "bez": "Brandschutztür EI30, einflüglig, mit Obentürschliesser", "menge": "2", "einheit": "Stk", "spez": "VKF-konform, inkl. Kennzeichnung"},
+        {"pos": "273.12", "bez": "Anpassung / Ersatz bestehende Zarge", "menge": "3", "einheit": "Stk", "spez": "bestehend, Mass am Bau"}
+      ]
+    },
+    {
+      "bereich": "Einbaumöbel und Korpusse",
+      "items": [
+        {"pos": "273.20", "bez": "Einbauschrank raumhoch, Melamin, inkl. Tablare und Beschläge", "menge": "4.50", "einheit": "m2", "spez": "Korpus weiss, Fronten dekorbeschichtet"},
+        {"pos": "273.21", "bez": "Küchenzeile inkl. Abdeckung, ohne Geräte", "menge": "2", "einheit": "Stk", "spez": "Geräte bauseits"},
+        {"pos": "273.22", "bez": "Garderobennische mit Hutablage und Garderobenstange", "menge": "1", "einheit": "Stk"}
+      ]
+    },
+    {
+      "bereich": "Diverses und Regiearbeiten",
+      "items": [
+        {"pos": "273.90", "bez": "Anpassungsarbeiten an bestehenden Schreinerelementen", "menge": "1", "einheit": "pausch", "spez": "nach Aufwand, Detail vor Ort"},
+        {"pos": "273.91", "bez": "Regiearbeiten Schreiner (Stundenansatz)", "menge": "20", "einheit": "Std", "spez": "nur auf Anordnung Bauleitung"}
+      ]
+    }
+  ],
+
+  "beilagen_namen": [
+    "Leistungsverzeichnis (zum Bepreisen)",
+    "Antwortformular",
+    "Grobterminplan",
+    "Objektplan / Grundriss 1. UG"
+  ],
+  "beilagen_files": [],
+
+  "anbieter": [
+    {
+      "kurzname": "ZUERI-BAU",
+      "zeilen":   ["Züri-Bau Schreinerei AG", "Musterstrasse 12", "8048 Zürich"],
+      "empfaenger": ["Züri-Bau Schreinerei AG", "Musterstrasse 12", "8048 Zürich"],
+      "anrede":   "Sehr geehrte Damen und Herren"
+    },
+    {
+      "kurzname": "SAVARIN",
+      "zeilen":   ["Mario Savarin Schreinerei", "Werkstrasse 5", "8045 Zürich"],
+      "empfaenger": ["Mario Savarin Schreinerei", "z.H. Herrn Mario Savarin", "Werkstrasse 5", "8045 Zürich"],
+      "anrede":   "Sehr geehrter Herr Savarin"
+    },
+    {
+      "kurzname": "HOLZWERK-AG",
+      "zeilen":   ["Holzwerk Zürich AG", "Industriestrasse 88", "8005 Zürich"],
+      "empfaenger": ["Holzwerk Zürich AG", "Industriestrasse 88", "8005 Zürich"],
+      "anrede":   "Sehr geehrte Damen und Herren"
+    }
+  ],
+
+  "output_aihub_versand": "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/submission/_engine-test/2620-273-schreiner/260601-versand",
+  "projekt_versand_dir": ""
+}

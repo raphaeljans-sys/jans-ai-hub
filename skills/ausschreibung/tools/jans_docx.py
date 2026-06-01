@@ -84,24 +84,47 @@ def _set_grid(tbl, widths_mm):
         col.set(qn('w:w'), str(int(w * 56.6929)))
 
 
-def _set_cell(cell, text, size=10, bold=False):
+_ALIGN = {"l": WD_ALIGN_PARAGRAPH.LEFT, "r": WD_ALIGN_PARAGRAPH.RIGHT, "c": WD_ALIGN_PARAGRAPH.CENTER}
+
+
+def _tight_margins(tbl, lr=0.6):
+    """Schmale Zell-Innenraender (Standard-Word: 1.9 mm L/R) -> mehr nutzbare Spaltenbreite,
+    damit Einheiten/Zahlen/Header nicht unnoetig umbrechen (Lesbarkeits-Standard)."""
+    tblPr = tbl._tbl.tblPr
+    mar = OxmlElement('w:tblCellMar')
+    for edge, val in (('top', 0), ('bottom', 0), ('left', lr), ('right', lr)):
+        e = OxmlElement(f'w:{edge}')
+        e.set(qn('w:w'), str(int(val * 56.6929))); e.set(qn('w:type'), 'dxa')
+        mar.append(e)
+    tblPr.append(mar)
+
+
+def _set_cell(cell, text, size=10, bold=False, align=None):
     cell.text = ""
     p = cell.paragraphs[0]
     p.paragraph_format.space_after = Pt(1); p.paragraph_format.line_spacing = 1.2
+    if align in _ALIGN:
+        p.alignment = _ALIGN[align]
     r = p.add_run(text)
     r.font.name = FONT; r.font.size = Pt(size); r.font.bold = bold; r.font.color.rgb = BLACK
 
 
-def table(d, rows, widths, header=True):
-    """Rahmenlose, fixbreite Tabelle (Summe widths <= 170 mm). header=True -> Zeile 0 fett."""
+def table(d, rows, widths, header=True, aligns=None):
+    """Rahmenlose, fixbreite Tabelle (Summe widths <= 170 mm). header=True -> Zeile 0 fett.
+
+    aligns: optionale Liste je Spalte ('l'/'r'/'c'), z.B. Zahlenspalten rechtsbuendig.
+    Spalten so breit waehlen, dass Inhalt (inkl. Header und Einheiten) NICHT umbricht
+    — fehlerhafte Umbrueche sind dem Lesbarkeits-Standard abtraeglich.
+    """
     tbl = d.add_table(rows=0, cols=len(widths))
     tbl.alignment = WD_TABLE_ALIGNMENT.LEFT
     tbl.autofit = False; tbl.allow_autofit = False
-    _no_borders(tbl); _set_grid(tbl, widths)
+    _no_borders(tbl); _set_grid(tbl, widths); _tight_margins(tbl)
     for ri, r in enumerate(rows):
         cells = tbl.add_row().cells
         for i, val in enumerate(r):
-            _set_cell(cells[i], val, size=10, bold=(header and ri == 0))
+            a = aligns[i] if aligns and i < len(aligns) else None
+            _set_cell(cells[i], val, size=10, bold=(header and ri == 0), align=a)
             cells[i].width = Mm(widths[i])
     return tbl
 
@@ -166,6 +189,113 @@ def build_anschreiben(path, *, empfaenger, betreff, anrede, absatz_einleitung,
     for b in beilagen:
         para(d, "– " + b, size=10)
     jans_footer(d, "Begleitschreiben", page_numbers=False)
+    d.save(path)
+
+
+def build_lv(path, *, projekt, los_titel, bauherr_zeilen, positionen,
+             einleitung=None, bauseits=None, datum_ort="Zürich, 1. Juni 2026"):
+    """Baut ein Leistungsverzeichnis (DOCX) mit leeren Preisspalten fuer den Anbieter.
+
+    projekt:        z.B. "2620 Albertstrasse 7, 8008 Zürich"
+    los_titel:      z.B. "LOS 273 — Schreinerarbeiten"
+    bauherr_zeilen: Liste Adresszeilen Bauherrschaft
+    positionen:     Liste von Bereichen, je dict:
+                      {"bereich": "...", "items": [
+                          {"pos": "273.10", "bez": "...", "menge": "1", "einheit": "Stk",
+                           "spez": "optional Spezifikation/Vermerk"}, ...]}
+    einleitung:     optionaler Einleitungssatz. bauseits: Liste bauseitiger Leistungen.
+    """
+    d = base_doc()
+    h1(d, "Leistungsverzeichnis")
+    para(d, los_titel, bold=True, after=2)
+    para(d, projekt, after=8)
+    para(d, "Bauherrschaft:", bold=True, size=10, after=1)
+    for z in bauherr_zeilen:
+        para(d, z, size=10)
+    para(d, datum_ort, size=10, before=6, after=8)
+    if einleitung:
+        para(d, einleitung, after=8)
+    para(d, "Die Einheits- und Gesamtpreise sind in den leeren Spalten einzutragen "
+            "(exkl. MwSt). Mengen sind verbindlich, sofern nicht als 'ca.' bezeichnet.",
+         size=10, after=8)
+
+    # Spalten: Pos | Bezeichnung | Menge | Einh. | EP CHF | GP CHF  (Summe 170 mm)
+    widths = [18, 84, 14, 14, 20, 20]
+    aligns = ["l", "l", "r", "c", "r", "r"]
+    for bereich in positionen:
+        h2(d, bereich["bereich"])
+        rows = [["Pos.", "Bezeichnung", "Menge", "Einh.", "EP CHF", "GP CHF"]]
+        for it in bereich["items"]:
+            bez = it["bez"]
+            if it.get("spez"):
+                bez = f"{bez}\n{it['spez']}"
+            rows.append([it.get("pos", ""), bez, it.get("menge", ""),
+                         it.get("einheit", ""), "", ""])
+        table(d, rows, widths, header=True, aligns=aligns)
+
+    # Summenblock
+    para(d, "", before=4)
+    sum_rows = [
+        ["Total Positionen netto exkl. MwSt", ""],
+        ["Rabatt / Skonto (falls gewährt)", ""],
+        ["Zwischentotal exkl. MwSt", ""],
+        [f"MwSt {MWST}", ""],
+        ["Total inkl. MwSt", ""],
+    ]
+    table(d, sum_rows, [130, 40], header=False, aligns=["l", "r"])
+
+    if bauseits:
+        h2(d, "Bauseitige Leistungen (nicht im Auftrag enthalten)")
+        for b in bauseits:
+            para(d, "– " + b, size=10)
+
+    para(d, "Gleichwertige Produkte sind zugelassen, sofern die technischen "
+            "Spezifikationen vollumfänglich erfüllt werden.", size=10, before=10)
+    jans_footer(d, los_titel)
+    d.save(path)
+
+
+def build_adressblatt(path, *, anbieter_zeilen):
+    """Einseitiges Adressblatt fuer Fenstercouvert (pro Submittent). Adresse auf
+    Hoehe des Sichtfensters positioniert (Rule adressblatt-submittent)."""
+    d = base_doc()
+    para(d, JANS_NAME, size=9)
+    para(d, f"{JANS_STREET} · {JANS_CITY}", size=9, after=2)
+    # Vertikaler Abstand bis Sichtfenster
+    for _ in range(6):
+        para(d, "", after=4)
+    for z in anbieter_zeilen:
+        para(d, z, size=12)
+    d.save(path)
+
+
+def build_antwortformular(path, *, projekt, los_titel, datum_ort="Zürich, 1. Juni 2026"):
+    """Einheitliches Antwortformular, das jeder Anbieter ausfuellt — vereinfacht
+    den spaeteren Offertenvergleich (gleiche Felder bei allen)."""
+    d = base_doc()
+    h1(d, "Antwortformular")
+    para(d, los_titel, bold=True, after=2)
+    para(d, projekt, after=8)
+    para(d, "Bitte vollständig ausgefüllt mit dem bepreisten Leistungsverzeichnis "
+            "retournieren.", size=10, after=8)
+    felder = [
+        ["Firma / Anbieter", ""],
+        ["Kontaktperson", ""],
+        ["Telefon / E-Mail", ""],
+        ["Angebotssumme exkl. MwSt (CHF)", ""],
+        [f"MwSt {MWST} (CHF)", ""],
+        ["Angebotssumme inkl. MwSt (CHF)", ""],
+        ["Rabatt / Skonto", ""],
+        ["Verbindliche Lieferfrist / Termine", ""],
+        ["Gewährleistung (Jahre)", ""],
+        ["Zahlungskonditionen", ""],
+        ["Referenzobjekte (vergleichbar)", ""],
+        ["Vorbehalte / Bemerkungen", ""],
+    ]
+    table(d, felder, [70, 100], header=False, aligns=["l", "l"])
+    para(d, "Ort / Datum:", size=10, before=14)
+    para(d, "Rechtsverbindliche Unterschrift / Firmenstempel:", size=10, before=10)
+    jans_footer(d, los_titel)
     d.save(path)
 
 

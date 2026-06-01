@@ -104,6 +104,21 @@ BKP-Gruppen-Position „… gesamt"** mit Gruppentitel — **nicht** eine feiner
 
 Output: Word-LV (zum Eintragen) + PDF (Verbindlichkeitsstand).
 
+**Kanonischer Weg — Dossier-Engine (NICHT von Hand bauen):**
+Phase 1+2 laufen ueber den deterministischen Generator `tools/dossier_build.py`.
+Er erzeugt pro Anbieter ein vollstaendiges, Rule-konformes Paket (Begleitschreiben
+mit Empfaenger, LV, Antwortformular, Adressblatt fuer Fenstercouvert) als DOCX+PDF,
+kopiert die Beilagen, macht die Doppel-Ablage (AI-Hub-Output + Projekt-Versandordner)
+und konvertiert lock-sicher zu PDF.
+```
+python3 /Volumes/daten/jans-ai-hub/skills/ausschreibung/tools/dossier_build.py <config.json>
+python3 .../dossier_build.py <config.json> --no-pdf   # nur DOCX (Schnell-Vorschau)
+```
+- Config-Schema: `tools/configs/_TEMPLATE.json`
+- Durchgerechnetes Beispiel: `tools/configs/2620-273-schreiner.example.json`
+- Vorgehen: Positionen/Anbieter/Texte in eine neue Config je Los eintragen, Engine laufen
+  lassen, PDFs sichten. Nur die Projektnummer/Positionen aendern — Struktur bleibt konstant.
+
 **DOCX→PDF immer ueber das geteilte Werkzeug** — nie soffice/convert/gs von Hand
 zusammenstecken (das schlug bisher still fehl und kostete pro Dossier viel Zeit):
 ```
