@@ -192,6 +192,7 @@ def to_markdown(doc):
     if k.get("npk_version"):
         L.append(f"npk_version: {k['npk_version']}")
     L.append(f"npk_kapitel: [{', '.join(sorted(doc['kapitel'].keys()))}]")
+    L.append("reifegrad: R2")
     L.append("hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage")
     L.append("---")
     L.append("")

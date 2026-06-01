@@ -28,13 +28,24 @@ Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
     03_sia451-crbx-format.md          ← .crbx-Format + Parser
     04_konditionen.md                 ← KBOB/ESTV, Abzuege, MWST 8,1 %
     05_knowhow-gewerke.md             ← Fachregeln je Gewerk (Gipser, WDVS, Maler, Metallbau)
+    06_glossar.md                     ← Fachbegriffe (Abgebot, Vergabeeinheit, OVG, Regie …)
+    07_werkvertrag-unternehmerkontrolle.md ← Werkvertrag + Realisierung (Ausmass/NT/SR/Abnahme)
+    08_selbsttraining-mecano.md       ← Wissensluecken erkennen → schliessen → integrieren
+    09_datenaufbereitung-pipeline.md  ← Reifegrade R0–R5, fortlaufende Veredelung
+    wissensluecken.md                 ← LEBENDE Luecken-Registry (bei Unsicherheit eintragen!)
+    wochenplan-bauleitung.md          ← alternierender Wochenplan
   referenzen/
-    goldstandard-lv/              ← echte JANS-LVs als .md (Gipser, Maler) — FORMAT-VORBILD
+    goldstandard-lv/              ← echte JANS-LVs als .md (228/271/272/281/282/285) — FORMAT-VORBILD
     npk-struktur/                 ← NPK-2000-Gliederung (nur Struktur, Preise 1996 veraltet)
   tools/
     crbx_parser.py                ← SIA-451/.crbx → .md/.json
     npk2000_struktur.py           ← NPK-2000-.xls → Struktur-.md
+    reifegrad.py                  ← Abdeckungs-/Luecken-Report (vor Session ausfuehren)
 ```
+
+**Selbstlernend:** Bei jeder Unsicherheit (geratene BKP/NPK, fehlende Vorlage, unklarer
+Wert) → Luecke in `wissensbasis/wissensluecken.md` eintragen und nach dem Mecano
+(`08_selbsttraining-mecano.md`) schliessen. Vor groesseren Aufgaben `python3 tools/reifegrad.py`.
 
 **Grundregel Dateiformate:** `.md` ist die Source-of-Truth (was du liest/schreibst);
 `.crbx`/SIA 451 ist das maschinelle LV-Austauschformat fuer Unternehmer; PDF ist der

@@ -26,6 +26,12 @@ bei Bedarf `.crbx`, PDF oder XLSX erzeugt.
 | [03_sia451-crbx-format.md](03_sia451-crbx-format.md) | SIA-451-/.crbx-Format + Parser-Nutzung |
 | [04_konditionen.md](04_konditionen.md) | Konditionenmodelle KBOB/ESTV, Abzuege, MWST |
 | [05_knowhow-gewerke.md](05_knowhow-gewerke.md) | Fachregeln je Gewerk (aus JANS-Praxis) |
+| [06_glossar.md](06_glossar.md) | Schweizer Bauleitungs-Fachbegriffe |
+| [07_werkvertrag-unternehmerkontrolle.md](07_werkvertrag-unternehmerkontrolle.md) | Werkvertrag + Realisierungsphase (Ausmass/NT/Regie/SR/Abnahme/Garantie) |
+| [08_selbsttraining-mecano.md](08_selbsttraining-mecano.md) | Selbsttrainings-Mechanismus: Lücken erkennen → schliessen → integrieren |
+| [09_datenaufbereitung-pipeline.md](09_datenaufbereitung-pipeline.md) | Reifegrade R0–R5, fortlaufende Veredelung der Grundlagendaten |
+| [wissensluecken.md](wissensluecken.md) | **Lebende Lücken-Registry** (offen/geschlossen) |
+| [wochenplan-bauleitung.md](wochenplan-bauleitung.md) | Alternierender Wochenplan für den Harness-Aufbau |
 
 ## Referenzen (Goldstandard)
 
