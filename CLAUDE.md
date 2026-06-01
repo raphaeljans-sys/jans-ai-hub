@@ -341,6 +341,7 @@ Aktive Rules:
 
 @/Volumes/daten/jans-ai-hub/rules/anrede-kontakte.md
 @/Volumes/daten/jans-ai-hub/rules/antwort-formatierung.md
+@/Volumes/daten/jans-ai-hub/rules/auto-verbesserungen.md
 @/Volumes/daten/jans-ai-hub/rules/bkp-2017-referenz.md
 @/Volumes/daten/jans-ai-hub/rules/dateinamen-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/dokument-layout-standard.md
