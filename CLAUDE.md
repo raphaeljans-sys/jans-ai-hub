@@ -237,9 +237,15 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `website-content` | `skills/website-content/SKILL.md` | WordPress Content-Upload fuer raphaeljans.ch |
 | `offertenpruefung` | `skills/offertenpruefung/SKILL.md` | Strukturierte Pruefung von Offerten/Angeboten (Factsheet, Risiken, Reduktionsstrategie) |
 | `ausschreibung` | `skills/ausschreibung/SKILL.md` | Submissions-/Devis-Erstellung fuer Spezialplaner und Unternehmer (Gegenstueck zu offertenpruefung); 3-Phasen-Workflow LV-Erstellung / Versand / Auswertung |
+| `unternehmerfindung` | `skills/unternehmerfindung/SKILL.md` | Findet zu LV/Gewerk (BKP) + Bauort + Bauaufgabe die bestgeeigneten Unternehmer und gibt eine gerankte Shortlist aus; Stufe VOR `ausschreibung`. Nutzt Stammdaten-DB (`ausschreibung/anbieter/stammdaten/`), macOS-Kontakte, Projekt-Archiv, regionale Web-Suche; Fan-out via Agent `unternehmer-scout` |
+| `werkvertrag` | `skills/werkvertrag/SKILL.md` | Bauleitungs-Back-End **Phase G**: Werkvertrag nach SIA 118 in 3 Verguetungsmodellen (Einheitspreis/Pauschal/Kostendach) inkl. 22 Allgemeine Bedingungen; Stufe NACH Vergabe, VOR `unternehmerkontrolle` |
+| `unternehmerkontrolle` | `skills/unternehmerkontrolle/SKILL.md` | Bauleitungs-Back-End **Phase H** (Realisierung): Ausmass, Akonto, Nachtrag, Regie, Abnahme, Maengel, Garantie; Vorlagen Abnahme-/Maengelprotokoll, Garantieschein, NT-/Regie-Formular |
+| `kostenkontrolle` | `skills/kostenkontrolle/SKILL.md` | Bauleitungs-Back-End **Phase I**: BKP-gegliederte Baubuchhaltung (Budget/Verpflichtung/Zahlung), Kostenrapporte, Schlussabrechnungs-Pruefung, Garantieverfalldaten; Fortsetzung von `kostenschaetzung` |
 | `terminplanung` | `skills/terminplanung/SKILL.md` | Bauprogramme und Ausfuehrungsterminplaene |
 | `pendenzenliste` | `skills/pendenzenliste/SKILL.md` | Pendenzenlisten fuer Bauprojekte mit Uebersicht je Fachplanung (gruppiert), Personen-Legende und blockartig formuliertem Detailteil; aus Mails/Protokollen/Sitzungen destillierbar |
 | `protokoll` | `skills/protokoll/SKILL.md` | Sitzungsprotokolle fuer Bauprojekte mit Stamm, Personen-Legende, themenbasierten Sektionen (Sprinkleranlage, BMA, Schliessplan, Brandfallmatrix als eigene Bloecke) und Terminen sechsstellig; Schwesterskill von `pendenzenliste` |
+| `marketing` | `skills/marketing/SKILL.md` | LinkedIn-Marketing-Harness (polarisierender Stakkato-Stil) fuer Healthcare-Architektur; orchestriert die drei Sub-Agenten linkedin-stratege / linkedin-texter / linkedin-engagement; Sog-Gegenstueck zum telesales-Skill |
+| `korrektur` | `skills/korrektur/SKILL.md` | **QS-Harness vor jedem Versand**: jagt JEDES Texterzeugnis (Mail, DOCX/PDF, LV, Protokoll, Post, Web-Text, Chat-Antwort zum Kopieren) parallel durch die Agenten `rechtschreibung` (echte Umlaute ä/ö/ü, ss statt ß, Tippfehler) und `layout` (Dokument-/Mail-Standard, Umbrueche, sechsstellige Daten); gibt korrigierte Fassung + Ampel zurueck. Letzte Stufe vor der Ausgabe — erzwingt die `umlaute-konvention.md` |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -274,7 +280,13 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `recherche` | `agents/recherche.md` | Systematische Recherche ueber alle Quellen |
 | `dokument` | `agents/dokument.md` | Professionelle Dokumente erstellen (Word/PDF) |
 | `email` | `agents/email.md` | E-Mails im JANS-Stil verfassen |
+| `unternehmer-scout` | `agents/unternehmer-scout.md` | Durchsucht je eine Quelle (Stammdaten/Kontakte/Archiv/Web) nach Unternehmern fuer ein Gewerk + Bauort; liefert belegte Kandidaten zurueck (Fan-out fuer Skill `unternehmerfindung`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
+| `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
+| `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
+| `linkedin-engagement` | `agents/linkedin-engagement.md` | Marketing-Harness: Kommentare, Reaktionen, Vernetzungsnachrichten, Post-Recycling |
+| `rechtschreibung` | `agents/rechtschreibung.md` | Korrektur-Harness: Orthografie-Pruefer — erzwingt echte Umlaute ä/ö/ü (nie blind ersetzen), ss statt ß, Tippfehler/Grammatik; laeuft parallel zu `layout` (Skill `korrektur`) |
+| `layout` | `agents/layout.md` | Korrektur-Harness: Layout-/Formatierungs-Pruefer — Dokument-/Mail-Standard, fehlerhafte Umbrueche, Tabellen-Header, sechsstellige Daten, Dateinamen-Konvention; laeuft parallel zu `rechtschreibung` (Skill `korrektur`) |
 
 ### Custom Commands (Slash-Commands)
 | Command | Beschreibung |
@@ -286,6 +298,7 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `/morgen` | Morgen-Briefing (Kalender, E-Mails, System) |
 | `/station-sync` | Sync-Tasks von der anderen Station pruefen und ausfuehren |
 | `/website` | Website-Content: Projekte hochladen, Status pruefen |
+| `/korrektur` | Korrektur-Harness: Erzeugnis durch `rechtschreibung` + `layout` jagen, versandfertige Fassung + Ampel zurueck |
 
 ### Baurecht-Wissensbasis
 - `docs/baurecht/begriffe.md` — Glossar baurechtliche Begriffe
@@ -335,10 +348,13 @@ Aktive Rules:
 
 @/Volumes/daten/jans-ai-hub/rules/anrede-kontakte.md
 @/Volumes/daten/jans-ai-hub/rules/antwort-formatierung.md
+@/Volumes/daten/jans-ai-hub/rules/auftrags-dekomposition.md
+@/Volumes/daten/jans-ai-hub/rules/auto-verbesserungen.md
 @/Volumes/daten/jans-ai-hub/rules/bkp-2017-referenz.md
 @/Volumes/daten/jans-ai-hub/rules/dateinamen-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/dokument-layout-standard.md
 @/Volumes/daten/jans-ai-hub/rules/git-auto-push.md
+@/Volumes/daten/jans-ai-hub/rules/identifikatoren-verifizieren.md
 @/Volumes/daten/jans-ai-hub/rules/jans-absenderadresse.md
 @/Volumes/daten/jans-ai-hub/rules/mail-formatierung.md
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
