@@ -356,7 +356,8 @@ wissen/
   laesst das Wiki wachsen — Antwort Nr. 50 baut auf 1–49 auf.
 - **Health-Check:** Skill `wissenscheck` (monatlich, 7 Audits, 2 Phasen) haelt die KB sauber.
 - **Aktuelle KBs:** `baurecht/` (Pilot, Seed aus `docs/baurecht/`), `projekt-lessons/`
-  (projektübergreifende Erfahrungen, frisch angelegt).
+  (projektübergreifende Erfahrungen, frisch angelegt), `firmengruendung-ch/`
+  (Firmengründung CH, AG-Fokus; 8 Artikel + Vorgehens-Set neue AG).
 - **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
   07:00) auditiert alle KBs unbeaufsichtigt (Phase 1) und committet die Reports.
 - Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).

@@ -20,6 +20,8 @@ zurück. Ein monatlicher Health-Check (`wissenscheck`) hält alles sauber.
 - `baurecht/` — Schweizer Baurecht (Fokus ZH/SZ). Pilot, Seed aus `docs/baurecht/`.
 - `projekt-lessons/` — projektübergreifende Erfahrungen/Lessons (Bauleitung, Healthcare).
   Frisch angelegt, bereit zur Befüllung.
+- `firmengruendung-ch/` — Firmengründung Schweiz (AG-Fokus, rechtsform-übergreifend).
+  8 Artikel + Vorgehens-Set für eine neue AG; Seed aus dem Gründungsdossier 2022.
 
 ## Geregelt durch
 
