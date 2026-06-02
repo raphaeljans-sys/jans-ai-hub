@@ -10,7 +10,8 @@ links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]]
 
 Grundsatz: Bauten und Anlagen bedürfen einer Bewilligung (§§ 309 ff. PBG).
 Zuständig ist im Regelfall die kommunale Baubehörde; Rechtsmittelinstanz ist das
-Baurekursgericht, danach das Verwaltungsgericht.
+Baurekursgericht, danach das Verwaltungsgericht. Die materielle Beurteilung stützt
+sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltung]]).
 
 ## Verfahrensarten
 - **Ordentliches Verfahren:** mit Baugespann und öffentlicher Auflage.
@@ -42,10 +43,12 @@ Brandschutznachweis (ab bestimmter Grösse), Grundbuchauszug, Katasterplan,
 ggf. Lärm-/Altlastennachweis.
 
 ## Häufige Stolpersteine
-Unvollständige Unterlagen (Nachforderung → Zeitverlust), Baugespann nicht
-fristgerecht, Waldabstand 30 m nicht eingehalten (siehe [[abstaende-und-hoehen]]),
+Unvollständige Unterlagen (Nachforderung mit Zeitverlust), Baugespann nicht
+fristgerecht, Waldabstand 30 m nicht eingehalten — führt zu Verzögerung (siehe [[abstaende-und-hoehen]]),
 fehlende Nachbar-Zustimmung beim Näherbaurecht, Denkmalschutz/ISOS übersehen,
 Gewässerabstand vergessen.
 
 ## Gebühren
-Abhängig von Gemeinde und Bausumme, typisch 1–3 ‰ der Bausumme.
+Abhängig von Gemeinde und Bausumme, als grober Richtwert 1–3 ‰ der Bausumme.
+> *needs-verification:* Richtwert ohne Gewähr — verbindlich ist die kommunale
+> Gebührenordnung der jeweiligen Gemeinde. Quelle noch nicht hinterlegt.

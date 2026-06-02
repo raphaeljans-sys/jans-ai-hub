@@ -28,6 +28,9 @@ Erker, Balkone (unter Bedingungen). Rechtsgrundlage: § 260 Abs. 3 PBG, § 14 AB
 ## Waldabstand
 Mindestens 30 m ab Waldrand (§ 18b Waldgesetz, § 268 PBG). Ausnahmen in besonderen
 Fällen bis 20 m möglich; Reduktion bis 10 m nur durch kantonalen Gestaltungsplan.
+> *needs-verification:* Die konkreten Ausnahme-Schwellen (20 m / 10 m) sind gegen den
+> aktuellen Gesetzestext (zh.lex.ch) und die kantonale Praxis zu verifizieren; der
+> Grund-§ (§ 268 PBG, § 18b Waldgesetz) ist belegt, die Schwellenwerte noch nicht präzise gepinnt.
 
 ## Höhenbegriffe
 - **Gebäudehöhe:** ab gewachsenem Terrain bis Schnittpunkt Fassade/Dach (§ 279 PBG, § 12 ABV).

@@ -17,15 +17,18 @@ oder umbenannten Artikel aktualisieren.
 ### Verfahren
 - [[baubewilligungsverfahren]] — Verfahrensarten, Ablauf, Fristen, Unterlagen · *established*
 
+### Planung & Gestaltung
+- [[raumplanung-und-gestaltung]] — Richtplan, Nutzungsplanung, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
+
 ## Noch nicht angelegt (Backlog / Lücken)
 Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Bauen im Bestand / im Betrieb (Healthcare-Spezifika)
 - Bestandesschutz & Besitzstandsgarantie
 - Dispens / Ausnahmebewilligung
-- Gewässerabstand
-- Praxisfälle aus JANS-Projekten (raw/260602_docs-baurecht-praxisfaelle.md noch nicht eingearbeitet)
+- Gewässerabstand (in baubewilligungsverfahren erwähnt, eigener Artikel offen)
+- Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-02)
-- Artikel im Wiki: 4
-- Offene Coverage-Lücken (raw/ nicht eingearbeitet): 1 (praxisfaelle)
-- Letzter Health-Check: noch keiner
+## Statistik (Stand 2026-06-02, nach 1. Health-Check)
+- Artikel im Wiki: 5
+- Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (pbg-zh eingearbeitet; praxisfaelle ist leer)
+- Letzter Health-Check: 2026-06-02 (A0 B0 C3 D1 E0 F1 G0) → outputs/2026-06-02_health-check.md

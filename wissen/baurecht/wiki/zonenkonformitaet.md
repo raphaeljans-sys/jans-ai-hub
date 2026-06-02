@@ -10,7 +10,9 @@ links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren
 
 Die Bau- und Zonenordnung (BZO) ist das kommunale Regelwerk, das pro Zone die
 spezifischen Bauvorschriften festlegt (Nutzung, Masse, Gestaltung). **Jede Gemeinde
-im Kanton Zürich hat eine eigene BZO** — Werte nie als allgemeingültig behandeln.
+im Kanton Zürich hat eine eigene BZO** — Werte nie als allgemeingültig behandeln. Die
+übergeordnete Planungssystematik (Richtplan, Nutzungsplanung, Sondernutzung) und das
+Einordnungsgebot stehen in [[raumplanung-und-gestaltung]].
 
 ## Zonenarten (Stadt Zürich)
 W2–W5 (Wohnzonen 2–5 Geschosse), WG (Wohn-Gewerbe), Z (Zentrum), I (Industrie),
@@ -19,6 +21,9 @@ F (Freihaltung), R (Reserve).
 
 ## Typische Richtwerte BZO Stadt Zürich
 Nur Orientierung — Abweichungen durch Lage, Quartierplan, Sonderbauvorschriften möglich.
+> *needs-verification:* Die Einzelwerte (AZ / GA / Gebäudehöhe je Zone) sind nicht gegen
+> die aktuelle BZO Stadt Zürich einzeln verifiziert. Vor verbindlicher Verwendung immer
+> die geltende BZO/Zonenplan der Gemeinde (maps.zh.ch) prüfen.
 
 | Zone | Vollgeschosse | AZ | Grosser GA | Kleiner GA | Gebäudehöhe |
 |---|---|---|---|---|---|
