@@ -358,6 +358,7 @@ Aktive Rules:
 @/Volumes/daten/jans-ai-hub/rules/jans-absenderadresse.md
 @/Volumes/daten/jans-ai-hub/rules/mail-formatierung.md
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
+@/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
 
 Details zur Rules-Architektur und wie neue Regeln angelegt werden: siehe `/Volumes/daten/jans-ai-hub/rules/README.md`.

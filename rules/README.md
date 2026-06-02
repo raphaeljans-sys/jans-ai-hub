@@ -29,6 +29,7 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 - `identifikatoren-verifizieren.md` — Projektnr./Bauherrschaft/Adressen/Termine/Firmennamen/BKP, die in ein Dokument wandern, immer aus kanonischer Quelle verifizieren, nie raten
 - `mail-formatierung.md` — Aptos 12 pt als Standardschrift für alle E-Mails (Apple Mail, M365)
 - `osascript-apple-apps.md` — Apple-Apps (Mail, Calendar) immer über Bundle-ID ansprechen (Tahoe-Workaround)
+- `sync-kanonische-quelle.md` — NAS ist die einzige Wahrheit fuer geteilte Inhalte; nur auf NAS editieren, NAS-Repo commit+push; kein Git-Job ueber SMB
 - `umlaute-konvention.md` — Immer ä/ö/ü statt ae/oe/ue in allen Outputs (E-Mails, Dokumente, Antworten)
 
 ## Neue Rule anlegen

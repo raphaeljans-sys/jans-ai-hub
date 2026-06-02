@@ -30,6 +30,11 @@ eine Dauerregel handelt.
 
 <!-- Neue Einträge werden unterhalb dieser Linie angehängt — neueste zuoberst. -->
 
+## 260602 — NAS ist kanonische Quelle (Sync-Disziplin)
+- **Auslöser:** Analyse ergab drei divergente Kopien (NAS, SSD-top-level, GitHub); der Auto-Sync sicherte die falsche (SSD-)Kopie, während Claude den NAS editierte. Benutzer wählte Ziel-Topologie «benigner Spiegel» mit NAS als Wahrheit.
+- **Regel:** Geteilte Inhalte (skills/rules/agents/commands/scripts/templates/CLAUDE.md) NUR auf dem NAS-Pfad `/Volumes/daten/jans-ai-hub/` editieren — nie im SSD-top-level oder in Worktrees. Nach Änderung das NAS-Repo committen und nach GitHub pushen (so erreicht es Backup + zweite Station via Pull). KEIN automatischer Git-Job über den SMB-Mount (verursacht index.lock-Kollisionen/Index-Korruption — am 260602 live aufgetreten). Reconcile-Stand: alle drei Kopien auf `1d566d0` zusammengeführt.
+- **Gilt für:** alle Sessions/Stationen. Eigene Rule `sync-kanonische-quelle.md` (registriert, @-Import in CLAUDE.md). Siehe Memory `project_sync_architektur` + `docs/sync-reconcile-plan.md`.
+
 ## 260602 — Harness lernt zu lernen (Meta-Lern-Loop + Skill-Contract)
 - **Auslöser:** Benutzer will den Code-Harness ganzheitlich/integriert statt Cowork-Offload; Aufgaben konsistent mit Skills/Agenten trainieren, Stil-Verbesserungen langzeitfähig integrieren, «lernen zu lernen». Basis: Analyse von 43 Sessions / 2061 Prompts.
 - **Regel:** (1) Jeder Skill folgt dem verbindlichen `skills/SKILL-CONTRACT.md` (Contract-Kopfblock: Trigger / Inputs / Output-Ablage / abhängige Rules / vor-+nachgelagerte Skills). (2) Bei Mehrfach-Aufträgen zuerst Deliverable-Checkliste via TaskCreate (Rule `auftrags-dekomposition.md`). (3) Identifikatoren (Projektnr./Adresse/Termin/Firma/BKP) immer aus kanonischer Quelle verifizieren, nie raten (Rule `identifikatoren-verifizieren.md`). (4) Der reaktive Lern-Loop (Hook → `auto-verbesserungen.md`) wird durch den wiederkehrenden Meta-Loop `skills/masterclass/harness-review.md` geschlossen: Consolidate → Promote (Log→Rule/Skill) → Rückfall messen (Text-Rule reicht nicht → Guard-Hook) → Prune. Werkzeug: `scripts/session-insights.sh`.
