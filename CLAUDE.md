@@ -246,6 +246,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `protokoll` | `skills/protokoll/SKILL.md` | Sitzungsprotokolle fuer Bauprojekte mit Stamm, Personen-Legende, themenbasierten Sektionen (Sprinkleranlage, BMA, Schliessplan, Brandfallmatrix als eigene Bloecke) und Terminen sechsstellig; Schwesterskill von `pendenzenliste` |
 | `marketing` | `skills/marketing/SKILL.md` | LinkedIn-Marketing-Harness (polarisierender Stakkato-Stil) fuer Healthcare-Architektur; orchestriert die drei Sub-Agenten linkedin-stratege / linkedin-texter / linkedin-engagement; Sog-Gegenstueck zum telesales-Skill |
 | `korrektur` | `skills/korrektur/SKILL.md` | **QS-Harness vor jedem Versand**: jagt JEDES Texterzeugnis (Mail, DOCX/PDF, LV, Protokoll, Post, Web-Text, Chat-Antwort zum Kopieren) parallel durch die Agenten `rechtschreibung` (echte Umlaute ä/ö/ü, ss statt ß, Tippfehler) und `layout` (Dokument-/Mail-Standard, Umbrueche, sechsstellige Daten); gibt korrigierte Fassung + Ampel zurueck. Letzte Stufe vor der Ausgabe — erzwingt die `umlaute-konvention.md` |
+| `wissenscheck` | `skills/wissenscheck/SKILL.md` | **Wissens-Health-Check** fuer den Wissens-Layer (`wissen/`): auditiert eine Wissensbasis in 7 Audits (Widersprueche, kaputte Backlinks, unbelegte Claims, RAW-Coverage, veraltete Artikel, Schreibregel-Verstoesse, Promotion-Kandidaten), schreibt Report nach `outputs/` und protokolliert im `CHANGELOG.md`. Zwei Phasen: Phase 1 (Audit) laeuft immer/unbeaufsichtigt (Scheduled Task), Phase 2 (Aktionen) nur interaktiv. Schwester von `heartbeat` (System- statt Wissens-Health); nutzt `korrektur` fuer Audit F |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -331,6 +332,32 @@ jans-ai-hub/                          (Git-Repo, auf jeder Station lokal)
 └── .gitignore
 ```
 
+## Wissens-Layer (`wissen/`)
+
+Die dritte Schicht des Hub neben **Skills** (Fähigkeiten) und **Rules** (Verhalten):
+eine sich selbst verbessernde, kompoundierende Wissensbasis, in der Claude als
+**KI-Bibliothekar** arbeitet (Prinzip nach Karpathy / Corey Ganim, an die JANS-Harness
+angepasst). Statt dass Raphael Wissen von Hand ordnet, kippt er Rohmaterial rein und
+Claude kompiliert, verlinkt und pflegt es.
+
+```
+wissen/
+  WISSEN-CLAUDE.md     ← Meta-Schema (zuerst lesen)
+  <domäne>/
+    raw/   ← Quell-Dump (reinkippen, nie ordnen; Claude liest, editiert nie)
+    wiki/  ← kompilierte Artikel + INDEX.md + QUESTIONS.md (Claudes Domäne; nie von Hand editieren)
+    outputs/ ← erzeugte Reports; die guten fliessen zurueck ins Wiki (Compounding)
+    CLAUDE.md / CHANGELOG.md
+```
+
+- **Bibliothekar-Rolle:** Rule `wissens-bibliothekar.md` (Autonomie *active-with-flagging*:
+  schreibt/verlinkt ohne Rueckfrage, loggt alles im CHANGELOG, fragt nur vor Destruktivem).
+- **Compounding-Loop:** jede inhaltliche Frage erzeugt einen Output in `outputs/` und
+  laesst das Wiki wachsen — Antwort Nr. 50 baut auf 1–49 auf.
+- **Health-Check:** Skill `wissenscheck` (monatlich, 7 Audits, 2 Phasen) haelt die KB sauber.
+- **Aktuelle KBs:** `baurecht/` (Pilot, Seed aus `docs/baurecht/`).
+- Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).
+
 ## Wichtige Regeln
 - **Jede Station arbeitet lokal** mit Claude Code — Skills werden ueber NAS geteilt
 - Repo auf SSD (`~/Developer/jans-ai-hub`), NIEMALS ueber SMB-Mount bearbeiten
@@ -360,5 +387,6 @@ Aktive Rules:
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
 @/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
+@/Volumes/daten/jans-ai-hub/rules/wissens-bibliothekar.md
 
 Details zur Rules-Architektur und wie neue Regeln angelegt werden: siehe `/Volumes/daten/jans-ai-hub/rules/README.md`.

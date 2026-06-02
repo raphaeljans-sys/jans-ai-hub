@@ -31,6 +31,7 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 - `osascript-apple-apps.md` — Apple-Apps (Mail, Calendar) immer über Bundle-ID ansprechen (Tahoe-Workaround)
 - `sync-kanonische-quelle.md` — NAS ist die einzige Wahrheit fuer geteilte Inhalte; nur auf NAS editieren, NAS-Repo commit+push; kein Git-Job ueber SMB
 - `umlaute-konvention.md` — Immer ä/ö/ü statt ae/oe/ue in allen Outputs (E-Mails, Dokumente, Antworten)
+- `wissens-bibliothekar.md` — KI-Bibliothekar-Rolle fuer den Wissens-Layer (`wissen/`): active-with-flagging, raw→wiki→outputs, CHANGELOG-Pflicht, Compounding-Loop; Health-Check via Skill `wissenscheck`
 
 ## Neue Rule anlegen
 
