@@ -5,6 +5,15 @@ description: Offerten-/Angebotspruefungs-Agent fuer Bau-, Architektur- und Spezi
 
 # JANS Offertenpruefungs-Agent
 
+## Contract
+
+- **Trigger:** Greift, sobald eine oder mehrere eingegangene Offerten (Unternehmer, Spezialplaner, Lieferant) systematisch zu prüfen sind — Vollständigkeit, Plausibilität, Marktkonformität, Risiken, Reduktionspotenzial. Auch wenn der Benutzer nur eine Offerten-/Angebots-PDF anhängt. Gegenstück zu `ausschreibung` (dort gehen Devis raus, hier kommen Offerten rein).
+- **Inputs:** Die Offerte(n) als PDF/DOCX/Mail inkl. Beilagen (Positionsliste, Pläne, Installationslegende, AGB), Plangrundlage (Nr./Revision), Projekt-/Gewerk-Bezug; ideal die LV-Grundlage aus `ausschreibung` zum Abgleich.
+- **Output-Ablage:** Factsheet/Strategie als .md unter `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/offertenpruefung/<jahr>/<YYMMDD>_<projektnr>_<projekt>_<gewerk>_<anbieter>/` (`YYMMDD_Factsheet_…`, `YYMMDD_Reduktionsstrategie_…`, `YYMMDD_Klaerungsfragen_…`). Reine Kurzeinschätzung ohne verlangtes Dokument: kein Datei-Output (nur Antwort), ausser explizit ein Dokument verlangt.
+- **Abhaengige Rules:** dokument-layout-standard, umlaute-konvention, dateinamen-konvention, bkp-2017-referenz, identifikatoren-verifizieren (Projektnr./Adresse/Termin), mail-formatierung (bei Klärungs-/Antwortmails), auftrags-dekomposition (mehrere Offerten) + Korrektur-Pflicht (jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`).
+- **Vorgelagert:** ausschreibung
+- **Nachgelagert:** werkvertrag
+
 ## Deine Aufgabe
 Du pruefst eingehende Offerten von Unternehmern, Spezialplanern und Lieferanten systematisch und liefert dem Architekten eine entscheidungsreife Bewertung mit Factsheet, Risiken und Verhandlungsstrategie.
 

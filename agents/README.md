@@ -26,3 +26,6 @@ agents/
 - `agent.md` ist die Hauptdefinition
 - Zusaetzliche Dateien (Prompts, Templates) im gleichen Ordner
 - Agent-Outputs gehen nach SharePoint (siehe CLAUDE.md)
+- Jeder Agent folgt sinngemaess dem Schema aus `../skills/SKILL-CONTRACT.md` und traegt
+  unmittelbar nach H1 (bzw. nach dem YAML-Frontmatter) einen `## Contract`-Block mit den
+  Feldern Aufruf durch / Inputs / Output / Abhaengige Rules / Parallel zu — Teil von.

@@ -17,6 +17,18 @@ package-lock.json
 # macOS
 .DS_Store
 
+# Transiente Laufzeit-Daten (NICHT versionieren)
+output/
+sync-tasks/
+*.log
+
+# Schwere Referenz-Binaerdateien — leben auf dem NAS, gehoeren NICHT ins Git
+# (Skills lesen sie lokal; Git haelt nur Text + leichte Assets)
+*.tiff
+*.tif
+*.indd
+**/produkt-kataloge/
+
 # Claude - Projekt-Config wird versioniert (Backup)
 .claude/*
 !.claude/skills/

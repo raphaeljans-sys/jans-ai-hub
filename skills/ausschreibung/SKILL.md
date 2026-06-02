@@ -5,6 +5,15 @@ description: Submissions-/Ausschreibungs-Agent fuer Bauleitung. Erstellt struktu
 
 # JANS Ausschreibungs-Agent
 
+## Contract
+
+- **Trigger:** Greift, sobald für ein vergebbares Gewerk (BKP) ein Devis/Leistungsverzeichnis erstellt, anonymisiert, pro Anbieter verpackt, versendet oder die Rückmeldungen ausgewertet werden sollen. Gegenstück zu `offertenpruefung` (dort kommen Offerten rein, hier gehen Devis raus).
+- **Inputs:** Gewerk/BKP, Projekt-Stammdaten (Bauherrschaft/Objekt aus `projekte/<projektnr>-*.md`), Grundlage (Spezialplaner-Offerte, Pläne, Bestandsaufnahme, Ausschreibungstext), Submittenten-Shortlist (Output von `unternehmerfindung`), Termine; bei Brandschutz-Losen die Grundlage aus `brandschutz`.
+- **Output-Ablage:** LV/Devis-Pakete immer DOPPELT — (1) AI-Hub-Output `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/submission/<projektnr>-<projekt>-<gewerk>/<YYMMDD>-versand/` und (2) Projekt-Versandordner `<Projektordner>/03 BKP/<BKP> <Gewerk>/<Projektnr> <BKP> 03 AS versand/<ANBIETER>/`. Auswertung (Phase 3) unter `.../submission/<projekt>/auswertung/`. DOCX+PDF, Namensschema YYMMDD (Rule `dateinamen-konvention`).
+- **Abhaengige Rules:** dokument-layout-standard, mail-formatierung, umlaute-konvention, dateinamen-konvention, bkp-2017-referenz, identifikatoren-verifizieren (Projektnr./Adresse/Termin), auftrags-dekomposition (Mehr-Los-Versand) + Korrektur-Pflicht (jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`).
+- **Vorgelagert:** unternehmerfindung, brandschutz
+- **Nachgelagert:** offertenpruefung
+
 ## Deine Aufgabe
 
 Du erstellst strukturierte Submissionen (Devis / Leistungsverzeichnisse) fuer die JANS-Bauleitung und unterstuetzt den gesamten Submissionsprozess von der LV-Erstellung ueber den Versand bis zur Auswertung der Rueckmeldungen.
@@ -309,7 +318,7 @@ Hier gehoeren hin:
 - **Plan-Versionen einheitlich**: Alle Beilagen (Projektplan, Installationsplan, Legende) muessen auf derselben Revision sein. Vor Versand pruefen!
 - **Eingabefrist realistisch**: 2 Wochen = sportlich, 3 Wochen = marktueblich, 4 Wochen = grosszuegig. Bei Ferien (Weihnachten, Sommer) Puffer.
 - **Anzahl Anbieter**: 3-6 pro Submission. Weniger = wenig Konkurrenz, mehr = Aufwand fuer alle Beteiligten unverhaeltnismaessig.
-- **Sprache**: Deutsch (Schweiz), Schweizer Hochdeutsch, sz statt ss.
+- **Sprache**: Deutsch (Schweiz), Schweizer Hochdeutsch, ss statt ß.
 
 ## Verknuepfung mit anderen Skills
 

@@ -21,7 +21,10 @@
 - Ordnername = Skill-Name (Kleinbuchstaben, Bindestrich statt Leerschlag)
 - Datei muss exakt `SKILL.md` heissen (Grossbuchstaben)
 - Ein Skill pro Ordner
-- Skills liegen zentral auf dem Mac Mini — alle Workstations profitieren sofort via SSH
+- **Jeder Skill folgt dem verbindlichen `SKILL-CONTRACT.md`** (Front-Matter +
+  Contract-Kopfblock: Trigger / Inputs / Output-Ablage / abhaengige Rules /
+  vor-+nachgelagerte Skills). Goldstandard-Vorbild: `ausschreibung/SKILL.md`.
+- Skills liegen zentral auf dem NAS — alle Workstations profitieren sofort via Symlink
 
 ## Skill von einem Kollegen erhalten?
 ```bash

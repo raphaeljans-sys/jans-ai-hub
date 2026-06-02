@@ -9,7 +9,7 @@ const FONT_SIZE_SUBTITLE = 26; // 13pt
 const FONT_SIZE_H1 = 28;     // 14pt
 const FONT_SIZE_H2 = 24;     // 12pt
 
-const FOOTER_TEXT = "Raphael Jans Architekten ETH, Birmensdorferstrasse 55, 8004 Zuerich | E-Mail: rj@raphaeljans.ch | Tel.: +41 76 367 73 06";
+const FOOTER_TEXT = "Raphael Jans Architekten ETH/SIA · Grubenstrasse 37 · 8045 Zürich · rj@raphaeljans.ch · +41 79 846 11 65 · www.raphaeljans.ch";
 
 function p(text, options = {}) {
   const { bold, size, spacing, alignment, indent, color } = options;

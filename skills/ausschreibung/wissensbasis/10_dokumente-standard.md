@@ -46,6 +46,14 @@ Umgesetzt im Tool `tools/jans_docx.py` (wiederverwendbarer DOCX-Baukasten).
 - Als **Entwurf** erstellen (visible) — niemals automatisch senden.
 - Begleitende Termine: Eingabefrist + ggf. Besichtigung als Kalendereintrag (Kalender „Arbeit", Erinnerungen).
 
+## Adressblatt je Submittent (Anbieter-Ordner) — Pflicht
+
+In **jedem** Anbieter-Unterordner unter `…03 AS versand/<ANBIETER>/` zusaetzlich ein
+**Adressblatt des Submittenten** ablegen: **nur `…_Adresse.docx`** (KEIN PDF — Ausnahme von
+der Regel „DOCX immer mit PDF"), JANS-Layout, fuer Fenstercouvert positioniert (kleine
+JANS-Absenderzeile oben ~70 pt Abstand, dann Empfaengerblock: Firma, ggf. Ansprechperson,
+Strasse, ggf. Postfach, PLZ Ort). **Immer mit Telefonnummer und E-Mail** des Submittenten.
+
 ## Werkzeug
 
 `tools/jans_docx.py` stellt `base_doc, para, h1, h2, table, jans_footer, build_anschreiben`

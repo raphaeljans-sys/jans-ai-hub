@@ -1,0 +1,56 @@
+# Regel: Auto-erfasste Verbesserungen (verbindlich)
+
+Diese Datei wird automatisch gepflegt. Jede dauerhafte Verbesserung oder Korrektur,
+die der Benutzer im Gespräch äussert («ab jetzt immer …», «nie …», «künftig …»,
+«merk dir …»), wird hier als datierter Eintrag hinterlegt und ist damit sofort auf
+allen Stationen aktiv (MacBook Pro, Mac Mini) — ohne Git-Commit.
+
+Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh`
+(`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
+eine Dauerregel handelt.
+
+## Eintrags-Format (beim Anhängen genau so verwenden, neueste zuoberst)
+
+```
+## YYMMDD — <Kurztitel>
+- **Auslöser:** <was der Benutzer gesagt hat, knapp>
+- **Regel:** <die dauerhafte Anweisung, imperativ formuliert>
+- **Gilt für:** <Kontext / Anwendungsbereich>
+```
+
+## Hinweise
+
+- Widerspricht eine neue Verbesserung einem bestehenden Eintrag: alten Eintrag
+  korrigieren statt doppelt anlegen.
+- Wächst ein Thema zu einer eigenständigen, grösseren Regel heran: in eine eigene
+  Rule-Datei auslagern (in README.md registrieren, @-Import in CLAUDE.md ergänzen)
+  und den Eintrag hier durch einen Verweis ersetzen.
+
+---
+
+<!-- Neue Einträge werden unterhalb dieser Linie angehängt — neueste zuoberst. -->
+
+## 260602 — Harness lernt zu lernen (Meta-Lern-Loop + Skill-Contract)
+- **Auslöser:** Benutzer will den Code-Harness ganzheitlich/integriert statt Cowork-Offload; Aufgaben konsistent mit Skills/Agenten trainieren, Stil-Verbesserungen langzeitfähig integrieren, «lernen zu lernen». Basis: Analyse von 43 Sessions / 2061 Prompts.
+- **Regel:** (1) Jeder Skill folgt dem verbindlichen `skills/SKILL-CONTRACT.md` (Contract-Kopfblock: Trigger / Inputs / Output-Ablage / abhängige Rules / vor-+nachgelagerte Skills). (2) Bei Mehrfach-Aufträgen zuerst Deliverable-Checkliste via TaskCreate (Rule `auftrags-dekomposition.md`). (3) Identifikatoren (Projektnr./Adresse/Termin/Firma/BKP) immer aus kanonischer Quelle verifizieren, nie raten (Rule `identifikatoren-verifizieren.md`). (4) Der reaktive Lern-Loop (Hook → `auto-verbesserungen.md`) wird durch den wiederkehrenden Meta-Loop `skills/masterclass/harness-review.md` geschlossen: Consolidate → Promote (Log→Rule/Skill) → Rückfall messen (Text-Rule reicht nicht → Guard-Hook) → Prune. Werkzeug: `scripts/session-insights.sh`.
+- **Gilt für:** den gesamten Harness. Verbindet `SKILL-CONTRACT.md`, Rules `auftrags-dekomposition`/`identifikatoren-verifizieren`, Skill `masterclass` (harness-review), Script `session-insights.sh`. Ausführen via «Harness-Review» / «Lern-Loop».
+
+## 260602 — Korrektur-Harness vor jedem Versand (Pflicht)
+- **Auslöser:** Trotz Regel `umlaute-konvention.md` gingen Mails mit «fuer/Rueckmeldung/Gruesse» raus; Benutzer fordert, dass künftig garantiert echte Umlaute ä/ö/ü verwendet werden — und ein Harness mit Prüf-Agenten für alle Erzeugnisse.
+- **Regel:** Jedes Texterzeugnis (Mail-Body, DOCX/PDF, LV, Protokoll, Pendenzenliste, LinkedIn-Post, Website-Text, Chat-Antwort zum Kopieren) MUSS vor der Ausgabe durch den Korrektur-Harness (Skill `korrektur`) — Fan-out auf die Agenten `rechtschreibung` (echte Umlaute ä/ö/ü, ss statt ß, Tippfehler/Grammatik) und `layout` (Dokument-/Mail-Standard, fehlerhafte Umbrüche, sechsstellige Daten). Erst die korrigierte Fassung ausgeben, nie das Rohprodukt. Umlaute nie mechanisch ersetzen — nur dort, wo ae/oe/ue wirklich ein Umlaut ist.
+- **Gilt für:** alle von Claude erzeugten JANS-Texte. Verbindet `umlaute-konvention.md`, `dokument-layout-standard.md`, `mail-formatierung.md`. Skill `korrektur`, Command `/korrektur`, Agenten `rechtschreibung` + `layout`. Zusätzlich deterministische Absicherung: Stop-Hook `scripts/umlaut-guard.sh` (in `.claude/settings.json`) blockiert das Beenden, wenn die letzte Antwort hochsichere ASCII-Umlaut-Stämme (fuer, rueck, gruess, koenn, moeglich, …) enthält, und erzwingt die Korrektur.
+
+## 260601 — Keine dekorativen Symbole in JANS-Dokumenten
+- **Auslöser:** Haken «✔» in der Submittentenliste entfernen — kein JANS-Grafikelement.
+- **Regel:** In JANS-Dokumenten (Word/Excel/PDF) keine dekorativen Symbole, Sonderzeichen oder Emojis verwenden (z.B. ✔, ●, ★, ✎). Status/Hervorhebung rein über Text und Schriftschnitt (fett/kursiv) lösen — passend zum zurückhaltenden, schwarz-weissen JANS-Layout.
+- **Gilt für:** alle von Claude erstellten JANS-Dokumente. Ergänzt `dokument-layout-standard.md`.
+
+## 260601 — Excel/Tabellen im JANS-Layout + 3 Unternehmen je Gewerk
+- **Auslöser:** Excel-Submittentenliste sollte dem JANS-Vorgabelayout entsprechen, pro Gewerk genau drei Unternehmen zeigen und die Gewerke klar voneinander abgetrennt darstellen.
+- **Regel:** Auch Excel-/Tabellen-Outputs folgen dem JANS-Vorgabelayout (Cambria, durchgehend schwarz, keine Farbflächen; Struktur/Whitespace statt bunter Hervorhebung). In Submittentenlisten je Gewerk genau drei Unternehmen darstellen und die Gewerk-Blöcke optisch klar voneinander trennen (Gruppen-Label + Abstand/dezente Linie), sodass auf einen Blick erkennbar ist, welche Firmen zu welchem Gewerk gehören.
+- **Gilt für:** Skill `unternehmerfindung`, alle Submittenten-/Unternehmerlisten und tabellarischen Excel-Outputs. Ergänzt `dokument-layout-standard.md` (gilt nun auch für Excel).
+
+## 260601 — Submittentenlisten: Kontaktperson + Abgleich Postausgang
+- **Auslöser:** Bei der Submittentenliste 2620 Albertstrasse 7 sollten alle Firmen Kontaktperson/E-Mail/Telefon tragen (Platzhalterlinie wenn Zuständige unklar), und die Liste gegen die real versendeten Devis im Mail-Postausgang verifiziert werden.
+- **Regel:** In Submittenten-/Unternehmerlisten je Firma Kontaktperson, E-Mail und Telefon ausweisen; ist die zuständige Person unklar, eine ausfüllbare Platzhalterlinie («________________») setzen statt zu raten. Vor Fertigstellung die Liste gegen die tatsächlich versendeten Devis im Mail-Postausgang (Gesendete Elemente) abgleichen und die effektiv angefragten Unternehmer als solche markieren.
+- **Gilt für:** Skill `unternehmerfindung` und alle Submittenten-/Unternehmerlisten (Word/Excel/PDF).
