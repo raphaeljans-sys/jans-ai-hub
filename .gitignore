@@ -1,10 +1,14 @@
 # Secrets - NIEMALS committen
 .mcp.json
 .env
+*.env
 *.secret
 *.key
 *.pem
 *.pfx
+# Shared Secrets (NAS) + Geo-Connector Cache
+secrets/
+**/.geocache.json
 
 # Node
 node_modules/
