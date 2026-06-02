@@ -355,7 +355,10 @@ wissen/
 - **Compounding-Loop:** jede inhaltliche Frage erzeugt einen Output in `outputs/` und
   laesst das Wiki wachsen — Antwort Nr. 50 baut auf 1–49 auf.
 - **Health-Check:** Skill `wissenscheck` (monatlich, 7 Audits, 2 Phasen) haelt die KB sauber.
-- **Aktuelle KBs:** `baurecht/` (Pilot, Seed aus `docs/baurecht/`).
+- **Aktuelle KBs:** `baurecht/` (Pilot, Seed aus `docs/baurecht/`), `projekt-lessons/`
+  (projektübergreifende Erfahrungen, frisch angelegt).
+- **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
+  07:00) auditiert alle KBs unbeaufsichtigt (Phase 1) und committet die Reports.
 - Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).
 
 ## Wichtige Regeln

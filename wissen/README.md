@@ -18,6 +18,8 @@ zurück. Ein monatlicher Health-Check (`wissenscheck`) hält alles sauber.
 ## Aktuelle KBs
 
 - `baurecht/` — Schweizer Baurecht (Fokus ZH/SZ). Pilot, Seed aus `docs/baurecht/`.
+- `projekt-lessons/` — projektübergreifende Erfahrungen/Lessons (Bauleitung, Healthcare).
+  Frisch angelegt, bereit zur Befüllung.
 
 ## Geregelt durch
 
