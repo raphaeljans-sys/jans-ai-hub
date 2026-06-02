@@ -45,6 +45,17 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Volumes/daten/jans-ai-hub/scripts/umlaut-guard.sh 2>/dev/null || true",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   }
 }

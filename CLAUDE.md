@@ -245,6 +245,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `pendenzenliste` | `skills/pendenzenliste/SKILL.md` | Pendenzenlisten fuer Bauprojekte mit Uebersicht je Fachplanung (gruppiert), Personen-Legende und blockartig formuliertem Detailteil; aus Mails/Protokollen/Sitzungen destillierbar |
 | `protokoll` | `skills/protokoll/SKILL.md` | Sitzungsprotokolle fuer Bauprojekte mit Stamm, Personen-Legende, themenbasierten Sektionen (Sprinkleranlage, BMA, Schliessplan, Brandfallmatrix als eigene Bloecke) und Terminen sechsstellig; Schwesterskill von `pendenzenliste` |
 | `marketing` | `skills/marketing/SKILL.md` | LinkedIn-Marketing-Harness (polarisierender Stakkato-Stil) fuer Healthcare-Architektur; orchestriert die drei Sub-Agenten linkedin-stratege / linkedin-texter / linkedin-engagement; Sog-Gegenstueck zum telesales-Skill |
+| `korrektur` | `skills/korrektur/SKILL.md` | **QS-Harness vor jedem Versand**: jagt JEDES Texterzeugnis (Mail, DOCX/PDF, LV, Protokoll, Post, Web-Text, Chat-Antwort zum Kopieren) parallel durch die Agenten `rechtschreibung` (echte Umlaute ä/ö/ü, ss statt ß, Tippfehler) und `layout` (Dokument-/Mail-Standard, Umbrueche, sechsstellige Daten); gibt korrigierte Fassung + Ampel zurueck. Letzte Stufe vor der Ausgabe — erzwingt die `umlaute-konvention.md` |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -284,6 +285,8 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
 | `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
 | `linkedin-engagement` | `agents/linkedin-engagement.md` | Marketing-Harness: Kommentare, Reaktionen, Vernetzungsnachrichten, Post-Recycling |
+| `rechtschreibung` | `agents/rechtschreibung.md` | Korrektur-Harness: Orthografie-Pruefer — erzwingt echte Umlaute ä/ö/ü (nie blind ersetzen), ss statt ß, Tippfehler/Grammatik; laeuft parallel zu `layout` (Skill `korrektur`) |
+| `layout` | `agents/layout.md` | Korrektur-Harness: Layout-/Formatierungs-Pruefer — Dokument-/Mail-Standard, fehlerhafte Umbrueche, Tabellen-Header, sechsstellige Daten, Dateinamen-Konvention; laeuft parallel zu `rechtschreibung` (Skill `korrektur`) |
 
 ### Custom Commands (Slash-Commands)
 | Command | Beschreibung |
@@ -295,6 +298,7 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `/morgen` | Morgen-Briefing (Kalender, E-Mails, System) |
 | `/station-sync` | Sync-Tasks von der anderen Station pruefen und ausfuehren |
 | `/website` | Website-Content: Projekte hochladen, Status pruefen |
+| `/korrektur` | Korrektur-Harness: Erzeugnis durch `rechtschreibung` + `layout` jagen, versandfertige Fassung + Ampel zurueck |
 
 ### Baurecht-Wissensbasis
 - `docs/baurecht/begriffe.md` — Glossar baurechtliche Begriffe
