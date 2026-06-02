@@ -46,6 +46,18 @@
         ]
       }
     ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|mcp__Control_your_Mac__osascript",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Volumes/daten/jans-ai-hub/scripts/mail-draft-guard.sh 2>/dev/null || true",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
