@@ -18,6 +18,11 @@ eine Dauerregel handelt.
 - **Gilt für:** <Kontext / Anwendungsbereich>
 ```
 
+## 260603 — Word + PDF immer neben MD ablegen, in Ordner strukturieren
+- **Auslöser:** "lege immer auch word und pdf neben md files mit ab, strukturiere in ordner"
+- **Regel:** Wenn ein inhaltliches Erzeugnis als Markdown (.md) entsteht (Analyse, Bericht, Auswertung, Memo, Factsheet, To-do, Mail-Entwurf), erzeuge IMMER zusätzlich eine DOCX- und eine PDF-Fassung mit gleichem Namensstamm und lege alle drei im selben, thematisch benannten Unterordner ab — nie lose Dateien im Root. Konvertierung: MD → DOCX via `skills/studien-generator/tools/md2docx.py` (python-docx, JANS-Layout Cambria 11pt) → PDF via `soffice --headless --convert-to pdf`. Ergänzt [[feedback_docx_pdf]] (DOCX immer mit PDF) und [[feedback_ablage_immer_in_ordner]].
+- **Gilt für:** Alle erzeugten Deliverables/Outputs (Skills, Wissens-Layer-outputs, Studien), auf allen Stationen.
+
 ## Hinweise
 
 - Widerspricht eine neue Verbesserung einem bestehenden Eintrag: alten Eintrag
