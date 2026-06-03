@@ -43,6 +43,13 @@ ausarbeiten") — z.B. Auswirkung einer BZO-Revision / neuen Baulinie auf das Ba
   (Wissensbasis `04_baurecht-bestandesschutz-usecase.md`).
 Reale Auftraege sind oft Mischformen — die Bauherrenfragen bestimmen den Scope.
 
+**Abgrenzung zu `immobilienbewertung`:** Hier (Typ B) die *studientaugliche* Wirtschaftlichkeit
+(Residualwert/Marge/Sensitivitaet) als Entscheidungsgrundlage einer **Entwicklung** ("lohnt sich
+Kauf/Bau"). Der *formale Verkehrswert/Marktwert* eines Objekts (Realwert/Ertragswert/Vergleichswert,
+Bewertungs-Gutachten) liegt beim Skill `immobilienbewertung`. Der Agent `wirtschaftlichkeit-rechner`
+ist der **gemeinsame Residualwert-Motor** beider Skills — bei einer formalen Bewertung fuehrt
+`immobilienbewertung`.
+
 ### Wissensbasis (verbindlich — das destillierte JANS-Vorgehen aus 16 realen Studien)
 - `wissensbasis/00_studientypen.md` — Typologie A/B/C, Querschnitt-Muster.
 - `wissensbasis/01_flaechen-volumen-faktoren.md` — SIA-416-Faktorenset, Baufeld, Volumenrechnung,
