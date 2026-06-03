@@ -21,6 +21,7 @@ Juni 2026. **Aktualitaetsregel:** alles >18 Monate → ⚠, in `wiki/wissensluec
 | BFS Baupreisindex | `IMMO-04/bfs.admin.ch` | nationale/regionale Indizes | 2024 | ⭐ aktuell, amtlich |
 | Zuerich Stadt | `IMMO-04/Zuerich Stadt` | Wohnbaupreis-Index, Honorare | 2024 | gut (nur ZH Stadt) |
 | CRB eBKP-H / OAK | `IMMO-04/crb.ch` | Kostengliederung, Objektkatalog, Spital-Referenzen | OAK 2011, Spital 2021 | Standard, aber ⚠ alt |
+| Popety.io Land-Analyse | (Kundenreport, z.B. via Nova Property) | je Parzelle: EGRID/Zone/Bestand/**Ausnuetzungsreserve** (BMZ/BVm/UeZ)/Lage-Score/Kauf-+Mietpreise | aktuell (pro Report) | ⭐ stark fuer Einzelparzelle; Servitute fehlen |
 | werk-material.online | `IMMO-04/werk-material.online` | Materialpreise nach BKP | 2026 | aktuell |
 | comparis / realadvisor / keevalue / immoverkauf24 | `IMMO-04/*` | Inserate, Screenshots, eml | 2023-2024 | qualitativ, meist Screenshots |
 
