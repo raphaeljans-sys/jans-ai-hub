@@ -72,6 +72,39 @@ Pro Dimension: **Befund** (Zustand, belegt/Annahme) · **Risiko** (gering/mittel
 ausgewiesen — keine Zustaende oder Schadstoffbefunde erfinden. Laborpflichtige Themen (Asbest,
 Statik) als Abklaerungsbedarf kennzeichnen, nicht abschliessend beurteilen.
 
+## JANS-Goldstandard-Methodik (Beleg: reale TDD 2513 BAAR, Zugerstrasse 49)
+
+Destilliert aus der realen JANS-TDD. Vorlagen-Pfade im Projekt-Archiv
+(`OneDrive/AR - 03 Studien/2513 BAAR/`, indexiert in `skills/machbarkeit/referenzen/README.md`).
+
+- **Berichts-Skelett = Bauherren-Fragenkatalog:** Der Bericht ist als Beantwortung der konkreten,
+  **durchnummerierten Bauherrenfragen** organisiert — je Frage **"ANTWORT" + "VORGEHEN"**, und je
+  Frage ein **Best-/Worst-Szenario** (z.B. "kein Steigzonenersatz noetig" vs. "Steigzonensanierung
+  noetig"). Das ist das tragende Strukturprinzip, nicht eine generische Kapitelfolge.
+- **JANS als Gesamtplaner, Fan-out auf Fachpartner:** Architektur/Bauphysik/Energie (JANS) +
+  Gebaeudetechnik HLKS/Sanitaer (z.B. 38 Grad Gebaeudetechnik) + Brandschutz/QS VKF (z.B.
+  Schmitter). Leistungsumfang nach SIA-Normen (112, 102, 108, 118/300, 118/380) je Themenfeld.
+- **Zustandsbewertung BKP-gegliedert** (240 Heizung, 250 Sanitaer, 244 Lueftung, 230 Elektro …):
+  je Bauteil Materialbeschrieb · Installationsjahr/Alter · Mangelbefund · **Prioritaet (3-Ampel)**.
+- **Restnutzungsdauer** = Installationsjahr + erwartete Lebensdauer + Wartungszustand (Bsp.
+  Wassererwaermer 2005 "Lebensdauer erreicht"; Gasheizung 1990 "Ersatz empfohlen"; Materialwechsel
+  FE/Mepla/verzinkt "schwaecht das System"). Ermittlung per Begehung mit **Rohrschnitten/Proben +
+  visuell, ohne Labor** (Messwerkzeug Leica DISTO). Abgrenzung: keine Labortests/Thermografie/
+  Statikpruefung/Druckpruefung — als Abklaerungsbedarf kennzeichnen.
+- **3-stufige Prioritaeten-Ampel** mit Schadensdefinition: gering / **mittel** ("bei einem Ereignis
+  koennen bereits Personen-/Sachschaeden entstehen") / **hoch** (zusaetzlich "Feuerwehr-Intervention
+  beeintraechtigt").
+- **CapEx-Fahrplan = Zeithorizont-Split:** **mittelfristig 10 Jahre** vs. **langfristig 20–40 Jahre**
+  ("10-Jahres-Massnahmen"-Konzept), Massnahmenkatalog je BKP/Gewerk.
+- **Hochhaus-/Hoeheneinstufung:** Brandschutzhoehe (gewachsenes Terrain, GVZ/Brandschutzfachstelle)
+  und baurechtliche Hoehe (BO/PBG) **methodisch trennen** (Bsp. Ergebnis "kein Hochhaus, mittlere
+  Hoehe 11–30 m"). Vertiefung ueber Skill `brandschutz`/`baurecht`.
+- **Begehungs-Logistik (Auftraggeber-Leistung):** Wasser am Begehungstag abstellen, Mieter
+  informieren, HV/UV (Elektro-Verteiler) zugaenglich. Honorarofferte als Scope-/Abgrenzungsvorlage.
+- **Wirtschaftliche Kopplung (optional):** ergaenze die technische TDD um die Kauf-Marge ueber den
+  Agenten `wirtschaftlichkeit-rechner` (Controlling Fact Sheet, Beleg Niederhasli) — dann wird aus
+  der reinen Zustands-TDD eine vollwertige Ankaufsentscheidung.
+
 ## Output
 
 1. **TDD-Bericht (DOCX+PDF)** mit:
