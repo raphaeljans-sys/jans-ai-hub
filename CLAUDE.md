@@ -254,6 +254,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `nutzungsstrategie` | `skills/nutzungsstrategie/SKILL.md` | **Use-Case-/Causa-Harness** (Goldstandard 2620 Albertstrasse): vergleicht Nutzungsszenarien im Kriterienraster (Zonenkonformitaet/Brandschutz/Kosten/Risiko/Markt), prueft Bestandesschutz §357, Empfehlung als Sequenz. Fan-out `nutzungsszenario-pruefer`; Schwester zu `machbarkeit` |
 | `healthcare-wirtschaftlichkeit` | `skills/healthcare-wirtschaftlichkeit/SKILL.md` | **Healthcare-Rendite-Harness** (Goldstandard 2410 WALD/Nova): Pflegeplatzkosten, Hotellerie-Taxe, Brutto-/Nettorendite via Annuitaet (BWO-Zins, CURAVIVA-Abschreibung), Raumprogramm-Verifizierung. Healthcare-Spezialisierung von `machbarkeit` Typ B; nutzt `wirtschaftlichkeit-rechner` + `kostenschaetzung` |
 | `behoerden-vorabklaerung` | `skills/behoerden-vorabklaerung/SKILL.md` | **Vorabklaerungs-Harness** (Goldstandard QA_Baurecht 2306 WOMA): generiert je Parzelle die richtigen Behördenfragen (gummige Punkte: Abstaende/Messweise/UG-Anrechnung/Bestandesschutz) und strukturiert Antworten beweissicher. Querschnitt fuer `machbarkeit`/`nutzungsstrategie`/`ankaufspruefung` |
+| `immobilienbewertung` | `skills/immobilienbewertung/SKILL.md` | **Immobilienbewertungs-Harness** (Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"): Verkehrs-/Marktwert einer Liegenschaft ueber 3 Verfahren — Realwert/Sachwert, Ertragswert/DCF, Vergleichswert/hedonisch — synthetisiert zum Marktwert; bei Entwicklung Landwert via Residual. Deliverables LB/MA/RW/CS. Fan-out `realwert-rechner` / `ertragswert-rechner` / `vergleichswert-analyst`; nutzt KB `wissen/immobilienbewertung/` + `kostenschaetzung`; Dach des 2-taegigen Trainings-Loops. Ergaenzt `machbarkeit` (Volumen) / `ankaufspruefung` (Zustand) / `stockwerkeigentum` (Quoten) |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -296,6 +297,9 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `nutzungsszenario-pruefer` | `agents/nutzungsszenario-pruefer.md` | Bewertet EIN Nutzungsszenario gegen den Kriterienraster (Zonenkonformitaet/Brandschutz/Kosten/Risiko/Markt) + Bestandesschutz §357 (Fan-out fuer Skill `nutzungsstrategie`) |
 | `wertquoten-rechner` | `agents/wertquoten-rechner.md` | Berechnet/prueft **STWEG-Wertquoten** aus gewichteten Flaechen, normiert auf 1000/1000 (Fan-out fuer Skill `stockwerkeigentum`) |
 | `stweg-begruender` | `agents/stweg-begruender.md` | Formuliert **Begruendungsurkunde + Reglement** und die Sonderrecht-/Gemeinschafts-Abgrenzung (ZGB 712a ff.), mit Notar-/Grundbuch-Vorbehalt (Fan-out fuer Skill `stockwerkeigentum`) |
+| `realwert-rechner` | `agents/realwert-rechner.md` | **Realwert/Sachwert**: Bodenwert + Gebaeude-Zeitwert (Neuwert − Alterswertminderung − Sanierungsstau) (Fan-out fuer Skill `immobilienbewertung`) |
+| `ertragswert-rechner` | `agents/ertragswert-rechner.md` | **Ertragswert/DCF**: Kapitalisierung/DCF aus Mietertrag, Diskontsatz, Terminalwert; bei Entwicklung der **Landwert** (Residual) (Fan-out fuer Skill `immobilienbewertung`) |
+| `vergleichswert-analyst` | `agents/vergleichswert-analyst.md` | **Vergleichswert/hedonisch**: Markteinordnung via UBS-FS-Quantile + Lageklasse (Fan-out fuer Skill `immobilienbewertung`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 | `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
 | `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
@@ -373,7 +377,11 @@ wissen/
   (projektübergreifende Erfahrungen, frisch angelegt), `firmengruendung-ch/`
   (Firmengründung CH, AG-Fokus; 8 Artikel + Vorgehens-Set neue AG), `kunde-bopp/`
   (Kunden-Kontext-KB Christoph Bopp — Profil/Rollen/Projekte/Auftrags-Muster; Prototyp eines
-  pro-Kunde-KB `kunde-<name>/`, speist die Skills `machbarkeit`/`stockwerkeigentum`/`ankaufspruefung`).
+  pro-Kunde-KB `kunde-<name>/`, speist die Skills `machbarkeit`/`stockwerkeigentum`/`ankaufspruefung`),
+  `immobilienbewertung/` (Bewertungs-Methodik Verkehrs-/Markt-/Ertrags-/Real-/Vergleichswert;
+  Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"; speist den Skill `immobilienbewertung`).
+- **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
+  10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
 - **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
   07:00) auditiert alle KBs unbeaufsichtigt (Phase 1) und committet die Reports.
 - Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).
