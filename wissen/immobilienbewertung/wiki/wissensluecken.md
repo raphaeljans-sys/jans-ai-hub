@@ -8,7 +8,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Luecke | Art | Prioritaet | Was konkret |
 |---|---|---|---|---|
-| D1 | **UBS Fact Sheets veraltet** | D | hoch | Waedenswil (2022), Einsiedeln/Regensdorf/Wald (12.2023) neu bestellen; relevante Kerngemeinden ergaenzen (deine aktiven Maerkte) |
+| D1 | **UBS Fact Sheets veraltet**  (zudem Langnau am Albis ganz fehlend) | D | hoch | Waedenswil (2022), Einsiedeln/Regensdorf/Wald (12.2023) neu bestellen; relevante Kerngemeinden ergaenzen (deine aktiven Maerkte) |
 | D2 | **Bodenpreise nur Screenshots** | D | hoch | Strukturierte Bodenpreis-Quelle: Zugang Handaenderungs-/Bodenpreisstatistik (Kanton ZH/SZ), oder Wuest-/IAZI-Bodenpreis-Abo. Heute nicht maschinenlesbar |
 | D3 | **Diskontsatz-Herleitung undokumentiert** | D/T | hoch | Deine Faustregeln/Bandbreiten je Nutzung+Lage+Risiko (real vs. nominal) — als Input fuer eine JANS-Diskontsatz-Tabelle |
 | D4 | **Excel-Tool-Logik (Residualwert/Pre-Check)** | D/T | hoch | Freigabe, die `Immo-02-P23D-*.xlsx` zu oeffnen/auszulesen, damit die Formel-Logik (Diskontierung, Terminal Value, Margen) reverse-engineered und dokumentiert wird |
