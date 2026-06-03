@@ -247,6 +247,9 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `marketing` | `skills/marketing/SKILL.md` | LinkedIn-Marketing-Harness (polarisierender Stakkato-Stil) fuer Healthcare-Architektur; orchestriert die drei Sub-Agenten linkedin-stratege / linkedin-texter / linkedin-engagement; Sog-Gegenstueck zum telesales-Skill |
 | `korrektur` | `skills/korrektur/SKILL.md` | **QS-Harness vor jedem Versand**: jagt JEDES Texterzeugnis (Mail, DOCX/PDF, LV, Protokoll, Post, Web-Text, Chat-Antwort zum Kopieren) parallel durch die Agenten `rechtschreibung` (echte Umlaute ä/ö/ü, ss statt ß, Tippfehler) und `layout` (Dokument-/Mail-Standard, Umbrueche, sechsstellige Daten); gibt korrigierte Fassung + Ampel zurueck. Letzte Stufe vor der Ausgabe — erzwingt die `umlaute-konvention.md` |
 | `wissenscheck` | `skills/wissenscheck/SKILL.md` | **Wissens-Health-Check** fuer den Wissens-Layer (`wissen/`): auditiert eine Wissensbasis in 7 Audits (Widersprueche, kaputte Backlinks, unbelegte Claims, RAW-Coverage, veraltete Artikel, Schreibregel-Verstoesse, Promotion-Kandidaten), schreibt Report nach `outputs/` und protokolliert im `CHANGELOG.md`. Zwei Phasen: Phase 1 (Audit) laeuft immer/unbeaufsichtigt (Scheduled Task), Phase 2 (Aktionen) nur interaktiv. Schwester von `heartbeat` (System- statt Wissens-Health); nutzt `korrektur` fuer Audit F |
+| `machbarkeit` | `skills/machbarkeit/SKILL.md` | **Bauentwicklungs-Harness**: strategische Machbarkeitsstudie — aus Zone/BZO, Baulinien, Abstaenden, Ausnuetzung und Dienstbarkeiten das zulaessige Baufeld und das Bauvolumen (aGF/m3/Geschosse), inkl. Vorher/Nachher-Delta bei BZO-Revision/Baulinien-Aenderung. Fan-out auf Agenten `baulinien-analyst` / `dienstbarkeiten-pruefer` / `volumen-rechner`; nutzt `baurecht`; Vorstufe zu `kostenschaetzung` |
+| `stockwerkeigentum` | `skills/stockwerkeigentum/SKILL.md` | **STWEG-Harness**: Begruendung/Verwaltung von Stockwerkeigentum (ZGB 712a ff.) — Wertquoten, Aufteilungsplan, Begruendungsurkunde, Reglement, Sonderrecht-/Gemeinschafts-Abgrenzung. Fan-out auf Agenten `wertquoten-rechner` / `stweg-begruender`; liefert Notar/Grundbuch zu |
+| `ankaufspruefung` | `skills/ankaufspruefung/SKILL.md` | **TDD-Harness**: technische Due Diligence / Ankaufspruefung einer Liegenschaft vor dem Kauf — Zustand, Sanierungsstau, Risiken (Baurecht/Altlasten/Energie/Brandschutz), CapEx-Fahrplan nach BKP. Nutzt `kostenschaetzung`, `baurecht` (+ `dienstbarkeiten-pruefer`), `brandschutz`; Gegenstueck zu `offertenpruefung` |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -282,6 +285,11 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `dokument` | `agents/dokument.md` | Professionelle Dokumente erstellen (Word/PDF) |
 | `email` | `agents/email.md` | E-Mails im JANS-Stil verfassen |
 | `unternehmer-scout` | `agents/unternehmer-scout.md` | Durchsucht je eine Quelle (Stammdaten/Kontakte/Archiv/Web) nach Unternehmern fuer ein Gewerk + Bauort; liefert belegte Kandidaten zurueck (Fan-out fuer Skill `unternehmerfindung`) |
+| `baulinien-analyst` | `agents/baulinien-analyst.md` | Bestimmt das oeffentlich-rechtliche **Baufeld** aus Zone, Baulinien und Abstaenden (Grenz-/Strassen-/Gewaesser-/Wald); im Aenderungsfall Vorher UND Nachher (Fan-out fuer Skill `machbarkeit`) |
+| `dienstbarkeiten-pruefer` | `agents/dienstbarkeiten-pruefer.md` | Prueft Grundbuch-**Dienstbarkeiten/Servitute** und uebersetzt sie in ihre Wirkung aufs Baufeld (Naeher-/Wegrecht, Bauverbot etc.); fuer Skills `machbarkeit` und `ankaufspruefung` |
+| `volumen-rechner` | `agents/volumen-rechner.md` | Rechnet aus Baufeld × Ausnuetzung/Hoehe das **Bauvolumen** (aGF/BGF/m3/Geschosse) und das Delta Vorher/Nachher; benennt die bindende Restriktion (Fan-out fuer Skill `machbarkeit`) |
+| `wertquoten-rechner` | `agents/wertquoten-rechner.md` | Berechnet/prueft **STWEG-Wertquoten** aus gewichteten Flaechen, normiert auf 1000/1000 (Fan-out fuer Skill `stockwerkeigentum`) |
+| `stweg-begruender` | `agents/stweg-begruender.md` | Formuliert **Begruendungsurkunde + Reglement** und die Sonderrecht-/Gemeinschafts-Abgrenzung (ZGB 712a ff.), mit Notar-/Grundbuch-Vorbehalt (Fan-out fuer Skill `stockwerkeigentum`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 | `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
 | `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
@@ -357,7 +365,9 @@ wissen/
 - **Health-Check:** Skill `wissenscheck` (monatlich, 7 Audits, 2 Phasen) haelt die KB sauber.
 - **Aktuelle KBs:** `baurecht/` (Pilot, Seed aus `docs/baurecht/`), `projekt-lessons/`
   (projektübergreifende Erfahrungen, frisch angelegt), `firmengruendung-ch/`
-  (Firmengründung CH, AG-Fokus; 8 Artikel + Vorgehens-Set neue AG).
+  (Firmengründung CH, AG-Fokus; 8 Artikel + Vorgehens-Set neue AG), `kunde-bopp/`
+  (Kunden-Kontext-KB Christoph Bopp — Profil/Rollen/Projekte/Auftrags-Muster; Prototyp eines
+  pro-Kunde-KB `kunde-<name>/`, speist die Skills `machbarkeit`/`stockwerkeigentum`/`ankaufspruefung`).
 - **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
   07:00) auditiert alle KBs unbeaufsichtigt (Phase 1) und committet die Reports.
 - Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).
