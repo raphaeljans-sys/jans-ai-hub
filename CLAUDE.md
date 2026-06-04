@@ -255,6 +255,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `healthcare-wirtschaftlichkeit` | `skills/healthcare-wirtschaftlichkeit/SKILL.md` | **Healthcare-Rendite-Harness** (Goldstandard 2410 WALD/Nova): Pflegeplatzkosten, Hotellerie-Taxe, Brutto-/Nettorendite via Annuitaet (BWO-Zins, CURAVIVA-Abschreibung), Raumprogramm-Verifizierung. Healthcare-Spezialisierung von `machbarkeit` Typ B; nutzt `wirtschaftlichkeit-rechner` + `kostenschaetzung` |
 | `behoerden-vorabklaerung` | `skills/behoerden-vorabklaerung/SKILL.md` | **Vorabklaerungs-Harness** (Goldstandard QA_Baurecht 2306 WOMA): generiert je Parzelle die richtigen Behördenfragen (gummige Punkte: Abstaende/Messweise/UG-Anrechnung/Bestandesschutz) und strukturiert Antworten beweissicher. Querschnitt fuer `machbarkeit`/`nutzungsstrategie`/`ankaufspruefung` |
 | `immobilienbewertung` | `skills/immobilienbewertung/SKILL.md` | **Immobilienbewertungs-Harness** (Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"): Verkehrs-/Marktwert einer Liegenschaft ueber 3 Verfahren — Realwert/Sachwert, Ertragswert/DCF, Vergleichswert/hedonisch — synthetisiert zum Marktwert; bei Entwicklung Landwert via Residual. Deliverables LB/MA/RW/CS. Fan-out `realwert-rechner` / `ertragswert-rechner` / `vergleichswert-analyst`; nutzt KB `wissen/immobilienbewertung/` + `kostenschaetzung`; Dach des 2-taegigen Trainings-Loops. Ergaenzt `machbarkeit` (Volumen) / `ankaufspruefung` (Zustand) / `stockwerkeigentum` (Quoten) |
+| `auflagebereinigung` | `skills/auflagebereinigung/SKILL.md` | **Auflagebereinigungs-Harness** (Seed aus Fall 2619-KISPI, Lenggstrasse 30): destilliert die Bedingungen/Auflagen eines (Vorabzug-)Bauentscheids zu einer nachfuehrbaren **Plan- und Dokumentenliste** (XLSX-Tracking), gruppiert nach Planer/Gewerk (BRA/HLK/SAN/ELE/FKO/ARC/BAU), mit «fuer Amt» (AfB/FP/GVZ/UGZ/StB/TBA/StaPo/GSZ) und «Frist» (vor Baubeginn/Arbeitsvergabe/Inbetriebnahme) je Deliverable. Fan-out `auflagen-extraktor` / `planer-zuteiler` / `amts-fristen-zuordner` / `auflagen-tracker`; nutzt KB `wissen/auflagebereinigung/` + Generator `tools/build_auflagenliste.py`; Faktenbasis `baurecht` + `brandschutz`. Gegenstueck/Fortsetzung zu `behoerden-vorabklaerung` (Fragen VOR dem Entscheid); speist `pendenzenliste`/`protokoll`/`terminplanung` und die Ausfuehrungs-Skills `unternehmerkontrolle`/`kostenkontrolle` |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -300,6 +301,10 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `realwert-rechner` | `agents/realwert-rechner.md` | **Realwert/Sachwert**: Bodenwert + Gebaeude-Zeitwert (Neuwert − Alterswertminderung − Sanierungsstau) (Fan-out fuer Skill `immobilienbewertung`) |
 | `ertragswert-rechner` | `agents/ertragswert-rechner.md` | **Ertragswert/DCF**: Kapitalisierung/DCF aus Mietertrag, Diskontsatz, Terminalwert; bei Entwicklung der **Landwert** (Residual) (Fan-out fuer Skill `immobilienbewertung`) |
 | `vergleichswert-analyst` | `agents/vergleichswert-analyst.md` | **Vergleichswert/hedonisch**: Markteinordnung via UBS-FS-Quantile + Lageklasse (Fan-out fuer Skill `immobilienbewertung`) |
+| `auflagen-extraktor` | `agents/auflagen-extraktor.md` | **Auflagen-Extraktion**: liest einen (Vorabzug-)Bauentscheid und erfasst jede Auflage + die Vorbemerkungen (Ziff. II.1–3) beweissicher strukturiert (Ziffer/Kurztext/Frist-/Amt-Hinweis/SRZ-Marker) — Schritt 1 (Fan-out fuer Skill `auflagebereinigung`) |
+| `planer-zuteiler` | `agents/planer-zuteiler.md` | **Gewerk-Zuteilung**: ordnet jede Auflage dem zustaendigen Planer/Gewerk (BRA/HLK/SAN/ELE/FKO/ARC/BAU) zu und benennt die konkreten Deliverables (eine Zeile pro Plan/Dokument) — Schritt 2 (Fan-out fuer Skill `auflagebereinigung`) |
+| `amts-fristen-zuordner` | `agents/amts-fristen-zuordner.md` | **Amt + Frist**: setzt je Deliverable den einreichenden Adressaten und die Frist anhand der Vorbemerkungen-Mechanik; vermerkt Doppel-Adressierung (Fachstelle + Bestaetigung an AfB) — Schritt 3 (Fan-out fuer Skill `auflagebereinigung`) |
+| `auflagen-tracker` | `agents/auflagen-tracker.md` | **Nachfuehrung + Compounding**: pflegt Status/Fristen der Plan-/Dokumentenliste, meldet Faelliges, diff't Vorabzug↔definitiv und schreibt Erkenntnisse ins Wiki zurueck (Fan-out fuer Skill `auflagebereinigung`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 | `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
 | `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
@@ -379,7 +384,10 @@ wissen/
   (Kunden-Kontext-KB Christoph Bopp — Profil/Rollen/Projekte/Auftrags-Muster; Prototyp eines
   pro-Kunde-KB `kunde-<name>/`, speist die Skills `machbarkeit`/`stockwerkeigentum`/`ankaufspruefung`),
   `immobilienbewertung/` (Bewertungs-Methodik Verkehrs-/Markt-/Ertrags-/Real-/Vergleichswert;
-  Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"; speist den Skill `immobilienbewertung`).
+  Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"; speist den Skill `immobilienbewertung`),
+  `auflagebereinigung/` (Bauentscheid-Auflagen → Plan-/Dokumentenliste: Aemter-Mapping Stadt ZH,
+  Gewerk-Zuteilung, Fristenlogik, Brandschutz-QSS; Seed aus Fall 2619-KISPI; speist den Skill
+  `auflagebereinigung`).
 - **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
   10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
 - **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
