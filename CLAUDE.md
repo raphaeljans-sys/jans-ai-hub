@@ -392,12 +392,17 @@ wissen/
   Gewerk-Zuteilung, Fristenlogik, Brandschutz-QSS; Seed aus Fall 2619-KISPI; speist den Skill
   `auflagebereinigung`), `planungsgrundlagen/` (Planungsgrundlagen-Beschaffung: vier Domaenen
   kartenportale/recht-norm/brandschutz/energie aus den PL-Grundordnern; OEREB-/EGRID-Bezugskette
-  validiert; speist den Skill `planungsgrundlagen`).
+  validiert; speist den Skill `planungsgrundlagen`), `energie/` (**strategische Energie-KB** mit
+  Destillate-Layer PDF→MD + `BAUHERREN-FAQ`; Seed aus PL-04 Energie, 120 PDF; Ziel: bessere
+  belegte Bauherren-Antworten zu Nachhaltigkeit/Klima; speist den Agent `energie-berater`).
 - **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
   10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
 - **Planungsgrundlagen-Training:** Scheduled Task `planungsgrundlagen-training` (alle 2 Tage)
   arbeitet je Lauf eine PL-Domaene + 6–10 Selbstfragen in die KB `planungsgrundlagen` ein und
   verbessert den Connector `geo-zh.mjs` (`training/PROGRAMM.md` + `training/curriculum.md`).
+- **Energie-Training (taeglich):** Scheduled Task `energie-training` (jeden Tag) ueberfuehrt
+  3–5 PL-04-PDFs in lesbare Destillate (`wissen/energie/destillate/`) und verdichtet sie zu
+  belegten `BAUHERREN-FAQ`-Antworten — der strategische Energie-Loop fuer das Buero.
 - **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
   07:00) auditiert alle KBs unbeaufsichtigt (Phase 1) und committet die Reports.
 - Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).
