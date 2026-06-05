@@ -256,6 +256,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 | `behoerden-vorabklaerung` | `skills/behoerden-vorabklaerung/SKILL.md` | **Vorabklaerungs-Harness** (Goldstandard QA_Baurecht 2306 WOMA): generiert je Parzelle die richtigen Behördenfragen (gummige Punkte: Abstaende/Messweise/UG-Anrechnung/Bestandesschutz) und strukturiert Antworten beweissicher. Querschnitt fuer `machbarkeit`/`nutzungsstrategie`/`ankaufspruefung` |
 | `immobilienbewertung` | `skills/immobilienbewertung/SKILL.md` | **Immobilienbewertungs-Harness** (Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"): Verkehrs-/Marktwert einer Liegenschaft ueber 3 Verfahren — Realwert/Sachwert, Ertragswert/DCF, Vergleichswert/hedonisch — synthetisiert zum Marktwert; bei Entwicklung Landwert via Residual. Deliverables LB/MA/RW/CS. Fan-out `realwert-rechner` / `ertragswert-rechner` / `vergleichswert-analyst`; nutzt KB `wissen/immobilienbewertung/` + `kostenschaetzung`; Dach des 2-taegigen Trainings-Loops. Ergaenzt `machbarkeit` (Volumen) / `ankaufspruefung` (Zustand) / `stockwerkeigentum` (Quoten) |
 | `auflagebereinigung` | `skills/auflagebereinigung/SKILL.md` | **Auflagebereinigungs-Harness** (Seed aus Fall 2619-KISPI, Lenggstrasse 30): destilliert die Bedingungen/Auflagen eines (Vorabzug-)Bauentscheids zu einer nachfuehrbaren **Plan- und Dokumentenliste** (XLSX-Tracking), gruppiert nach Planer/Gewerk (BRA/HLK/SAN/ELE/FKO/ARC/BAU), mit «fuer Amt» (AfB/FP/GVZ/UGZ/StB/TBA/StaPo/GSZ) und «Frist» (vor Baubeginn/Arbeitsvergabe/Inbetriebnahme) je Deliverable. Fan-out `auflagen-extraktor` / `planer-zuteiler` / `amts-fristen-zuordner` / `auflagen-tracker`; nutzt KB `wissen/auflagebereinigung/` + Generator `tools/build_auflagenliste.py`; Faktenbasis `baurecht` + `brandschutz`. Gegenstueck/Fortsetzung zu `behoerden-vorabklaerung` (Fragen VOR dem Entscheid); speist `pendenzenliste`/`protokoll`/`terminplanung` und die Ausfuehrungs-Skills `unternehmerkontrolle`/`kostenkontrolle` |
+| `planungsgrundlagen` | `skills/planungsgrundlagen/SKILL.md` | **Planungsgrundlagen-Harness** (Seed aus den vier PL-Grundordnern auf SharePoint): beschafft und buendelt zu Parzelle/Adresse die planerischen Grundlagen. Kernfaehigkeit Geodaten-Beschaffung — **OEREB-Auszug, EGRID, Kataster, Zonenplan, Hoehenmodell, Orthofoto** (Kt. ZH via maps.zh.ch/geo.admin.ch, kein Login) ueber den Connector `connectors/geo-zh.mjs` (validierte Kette Adresse→EGRID→OEREB-PDF). Fan-out `geodaten-beschaffer` (PL-01) + `energie-berater` (PL-04); Recht/Norm (PL-02) → Skill `baurecht`, Brandschutz (PL-03) → Skill `brandschutz` (kein Doppel). Nutzt KB `wissen/planungsgrundlagen/`; Vorstufe/Grundlagenlieferant fuer `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` |
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann einen `referenzen/`-Ordner haben fuer hochprioritaere PDFs:
@@ -305,6 +306,8 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `planer-zuteiler` | `agents/planer-zuteiler.md` | **Gewerk-Zuteilung**: ordnet jede Auflage dem zustaendigen Planer/Gewerk (BRA/HLK/SAN/ELE/FKO/ARC/BAU) zu und benennt die konkreten Deliverables (eine Zeile pro Plan/Dokument) — Schritt 2 (Fan-out fuer Skill `auflagebereinigung`) |
 | `amts-fristen-zuordner` | `agents/amts-fristen-zuordner.md` | **Amt + Frist**: setzt je Deliverable den einreichenden Adressaten und die Frist anhand der Vorbemerkungen-Mechanik; vermerkt Doppel-Adressierung (Fachstelle + Bestaetigung an AfB) — Schritt 3 (Fan-out fuer Skill `auflagebereinigung`) |
 | `auflagen-tracker` | `agents/auflagen-tracker.md` | **Nachfuehrung + Compounding**: pflegt Status/Fristen der Plan-/Dokumentenliste, meldet Faelliges, diff't Vorabzug↔definitiv und schreibt Erkenntnisse ins Wiki zurueck (Fan-out fuer Skill `auflagebereinigung`) |
+| `geodaten-beschaffer` | `agents/geodaten-beschaffer.md` | **Geodaten-Beschaffung** (PL-01): ermittelt zu Adresse/Parzelle den **EGRID**, zieht den **OEREB-Auszug** und weitere amtliche Produkte (Kataster/Zonenplan/Hoehenmodell/Orthofoto) und legt sie projektgerecht ab; nutzt Connector `geo-zh.mjs`, erfindet nie eine EGRID/Parzelle (Fan-out fuer Skill `planungsgrundlagen`) |
+| `energie-berater` | `agents/energie-berater.md` | **Energie-Fachagent** (PL-04): PV-/Solar-Eignung (Indach/Ziegel/transparent/Fassade/Aufdach), U-Wert/Bauteilkatalog (SIA 380/1), Energienachweis-Vorpruefung, ZH-Baueingabe-Energieformulare; Kennwerte belegt, nie erfunden (Fan-out fuer Skill `planungsgrundlagen`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 | `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
 | `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
@@ -387,9 +390,14 @@ wissen/
   Seed aus IMMO-01..06 + Wuest-Kurs "Immobilien entwickeln"; speist den Skill `immobilienbewertung`),
   `auflagebereinigung/` (Bauentscheid-Auflagen → Plan-/Dokumentenliste: Aemter-Mapping Stadt ZH,
   Gewerk-Zuteilung, Fristenlogik, Brandschutz-QSS; Seed aus Fall 2619-KISPI; speist den Skill
-  `auflagebereinigung`).
+  `auflagebereinigung`), `planungsgrundlagen/` (Planungsgrundlagen-Beschaffung: vier Domaenen
+  kartenportale/recht-norm/brandschutz/energie aus den PL-Grundordnern; OEREB-/EGRID-Bezugskette
+  validiert; speist den Skill `planungsgrundlagen`).
 - **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
   10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
+- **Planungsgrundlagen-Training:** Scheduled Task `planungsgrundlagen-training` (alle 2 Tage)
+  arbeitet je Lauf eine PL-Domaene + 6–10 Selbstfragen in die KB `planungsgrundlagen` ein und
+  verbessert den Connector `geo-zh.mjs` (`training/PROGRAMM.md` + `training/curriculum.md`).
 - **Monatlicher Health-Check:** Scheduled Task `wissenscheck-monatlich` (1. des Monats,
   07:00) auditiert alle KBs unbeaufsichtigt (Phase 1) und committet die Reports.
 - Kanonisch auf dem NAS (`sync-kanonische-quelle.md`).
