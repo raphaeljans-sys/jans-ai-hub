@@ -11,6 +11,11 @@ links: [[recht-norm-quellenlandkarte]]
 Einstieg in die Domaene Energie (Quelle: **PL - 04 Energie**). Bedient vom Agent
 `energie-berater`. Aufbau-Artikel — Kennwerte werden im Trainings-Loop belegt nachgezogen.
 
+> **Bruecke:** Energie ist zur strategischen Prioritaet erhoben und hat eine **eigene KB
+> `wissen/energie/`** mit Destillate-Layer (PDF→MD) + `BAUHERREN-FAQ` und einem **taeglichen**
+> Lern-Loop (`energie-training`). Fuer Tiefe und Bauherren-Antworten **dort** nachschlagen;
+> dieser Artikel bleibt der Kurz-Einstieg im Planungsgrundlagen-Kontext.
+
 ## PV / Solar — Typen (PL-04/Solaranlage)
 
 | Typ | Kurz | Einsatz |
