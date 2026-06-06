@@ -7,12 +7,12 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 ## Prioritaet 1 — Fachgrundlagen (hoechster Bauherren-Nutzen)
 | Status | Quelle (PL-04/...) | KB-Datenstand |
 |---|---|---|
-| [ ] `Solaranlage/EN104/26_EN-104.pdf` | — |
+| [x] `Solaranlage/EN104/26_EN-104.pdf` | 2026-06-06 (vollst., 1 S.) |
 | [ ] `Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` | — |
 | [ ] `Solaranlage/_Literatur/Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` | — |
-| [ ] `Solaranlage/_Literatur/planer_d.pdf` | — |
+| [x] `Solaranlage/_Literatur/planer_d.pdf` | 2026-06-06 (S. 1-16, Minergie-Wissen) |
 | [ ] `U Wert berechnung/2001_2005_d.pdf` | — |
-| [ ] `U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` | — |
+| [x] `U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` | 2026-06-06 (S. 1-16, vollst.) |
 | [ ] `U Wert berechnung/Energienachweis 380-1 Muster.pdf` | — |
 | [ ] `U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung.pdf` | — |
 | [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-06-05 (S.1-10) |
@@ -21,7 +21,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [ ] `_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` | — |
 | [ ] `_Heizwaermebedarf/Betriebsenergie.pdf` | — |
 | [x] `_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf` | — |
-| [ ] `_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf` | — |
+| [x] `_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf` | 2026-06-06 (S. 146-147) |
 | [ ] `_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf` | — |
 | [ ] `_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf` | — |
 | [ ] `_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf` | — |

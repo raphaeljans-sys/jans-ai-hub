@@ -3,8 +3,8 @@ quelle: PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.
 herausgeber: Kursauszug «Energetische Gesamtoptimierung», Bezeichnungen nach SIA 380/1 (Klimadaten SIA 381/2)
 gelesen: vollstaendig (1 S.)
 datenstand: ⚠ Formelwerk nach SIA 380/1; Versionsjahr im Auszug nicht genannt — gegen aktuelle Fassung pruefen.
-status: emerging
-last_updated: 2026-06-05
+status: established
+last_updated: 2026-06-06
 ---
 
 # Destillat — Heizwaermebedarf Qh berechnen (SIA 380/1)
@@ -56,6 +56,12 @@ Die Formel zeigt die **vier Stellschrauben** eines energieeffizienten Hauses, in
 3. **Fenster richtig orientieren/verschatten** (Qs nutzen, Ueberhitzung vermeiden) ·
 4. **kompakt bauen** (kleine Huellflaeche je AE). → siehe `wiki/BAUHERREN-FAQ`.
 
+## Grenzwerte (jetzt belegt → EN-102)
+Die konkreten Q_H,li-Grenzwerte je Gebaeudekategorie (kWh/m²) und die U-Wert-Grenzwerte stehen
+in `[[enfk-en-102-waermeschutz-2018]]` (Tab. 2/4/5). Die kategorienspezifischen Q_h-Kennwerte in
+MJ/m²·a inkl. **Gebaeudehuellzahl A_th/A_E** und Ziel- vs. Grenzwert in
+`[[bauphysik-heizwaermebedarf-kennwerte]]`.
+
 ## Offen (→ wiki/QUESTIONS)
-- Aktuelle Grenzwerte Qh,li (SIA 380/1 aktuelle Fassung) + MuKEn-/ZH-Anforderung mit Datum.
 - λ-/U-Werte-Tabelle aus dem Bauteilekatalog-Destillat verknuepfen (`[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`).
+- ⚠ MuKEn 2025 (EnDK 08/2025): kantonale Umsetzung ZH abwarten und Grenzwerte aktualisieren.
