@@ -1,9 +1,9 @@
 ---
 title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
-status: emerging
-last_updated: 2026-06-05
-sources: [PL - 04 Energie (SharePoint), SIA 380/1, swissolar, uvek-gis.admin.ch]
-links: [[recht-norm-quellenlandkarte]]
+status: established
+last_updated: 2026-06-06
+sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise, SIA 380/1]
+links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]]
 ---
 
 # Energie — Uebersicht (PV, U-Wert, Energienachweis)
@@ -16,32 +16,47 @@ Einstieg in die Domaene Energie (Quelle: **PL - 04 Energie**). Bedient vom Agent
 > Lern-Loop (`energie-training`). Fuer Tiefe und Bauherren-Antworten **dort** nachschlagen;
 > dieser Artikel bleibt der Kurz-Einstieg im Planungsgrundlagen-Kontext.
 
-## PV / Solar — Typen (PL-04/Solaranlage)
+## PV / Solar — Typen, Eignung, Ertrag
 
-| Typ | Kurz | Einsatz |
-|---|---|---|
-| Indach-PV | dachintegriert, ersetzt Eindeckung | Neubau/Sanierung Steildach, gestalterisch |
-| Dachziegel-PV | ziegelfoermige Module | Ortsbild-/denkmalsensible Lagen |
-| Transparente PV | semitransparent (z.B. Saphir-Module) | Terrassendach, Wintergarten |
-| Fassaden-PV | vertikal, Gebaeudehuelle | Stadt, hoher Fassadenanteil |
-| Aufdach/Flachdach | aufgestaendert | Flachdach, schnelle Nachruestung |
+Eigener Artikel: **`[[energie-pv-eignung-typenwahl]]`** — Typen-Entscheidungsbaum (A–E),
+Eignungs-/Ertragswerkzeuge (sonnendach.ch, EnergieSchweiz-Solarrechner, uvek-gis, sonnenverlauf,
+PVSOL) und der JANS-Benchmark ewzWHH (spez. Ertrag, Kosten/kWp, Lebensdauer). Brandschutz Solar
+→ Skill `brandschutz` (VKF-Merkblatt 2001-15).
 
-Hilfsmittel in PL-04: `sonnenverlauf.de` (Verschattung), `uvek-gis.admin.ch` (Eignung/Ertrag),
-Swissolar-Merkblatt Brandschutz (`stp_solaranlagen`), Hersteller (megasol, prefa.solar).
-Brandschutz-Tiefe → Skill `brandschutz` (VKF-Solar-Merkblatt 2001-15).
+## U-Wert / Heizwaermebedarf (PL-04/U Wert berechnung)
 
-## U-Wert / Bauteile (PL-04/U Wert berechnung)
+Grenzwerte, Q_H und Bauteilkatalog liegen **belegt in der KB `wissen/energie/`** — nicht hier
+duplizieren:
+- U-Wert-Grenzwerte je Bauteil (Einzelbauteil- vs. Systemnachweis) → `[[u-werte-grenzwerte-ch]]`
+  (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2009).
+- Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Daemmstoffwahl, CLT/Holz
+  (Stora Enso) → PL-04/`U Wert berechnung`.
 
-- U-Wert-Berechnung und **Bauteilkatalog** nach **SIA 380/1** (Norm 380-1).
-- Daemmstoffwahl, CLT/Holz-Aufbauten (Stora Enso Doku), Waermebruecken qualitativ.
+## Energienachweis ZH — EN-ZH Hauptformular
 
-## Energienachweis (ZH)
+Im Kt. ZH ist das **Hauptformular EN-ZH** (EnDK-Vorlage) das zentrale Gesuchsformular fuer den
+Energienachweis. Quelle: PL-04/`_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` + Buero-Notiz
+`_Du kannst das EN.docx` (mit Quellen zh.ch/energienachweise, endk.ch).
 
-- Massnahmenpaket vs. Einzelbauteilnachweis; MuKEn-/kantonale ZH-Vorgaben.
-- ZH-Baueingabe-**Energieformulare** liegen in `PL - 04 Energie/_Formulare Kanton ZH Baueingabe`.
-- ⚠ Datenstand zwingend pruefen (Normversion/kantonale Fassung) — siehe `wiki/QUESTIONS.md`.
+- **Wer/wo:** rechtzeitig **vor Baubeginn** beim **DLZ Planung, Bau und Werke** (Gemeinde) das
+  vollstaendig ausgefuellte EN-ZH **plus** die einschlaegigen Fachformulare einreichen.
+- **Bezug:** EN-ZH-Hauptformular ueber EnDK (`endk.ch` → Kantonale Hauptformulare → EN-ZH.pdf)
+  bzw. `zh.ch/.../energienachweise`. ⚠ Lokal mit **Adobe Reader** ausfuellen (Browser-Darstellung
+  fehlerhaft).
+- **Inhalt EN-ZH:** allg. Projektangaben (Adresse/Parzelle, Bauherrschaft, Planverfasser),
+  Projektorganisation (wer macht Brandschutz/Energie/Nachhaltigkeit, **QS-Stufe**), Checkliste der
+  betroffenen Nachweise (Energie nach MuKEn, Nachhaltigkeit/Minergie/GEAK, Brandschutz mit
+  QSS-Verweis, Schallschutz, Bauphysik, Erdbeben, Umwelt, Denkmal, Entwaesserung), Beilagen-
+  uebersicht, Unterschriften.
+- **Geringfuegige Umbauten:** separate **Energienutzungs-Deklaration fuer geringfuegige Umbauten**
+  (PL-04/`_Formulare …/Energienutzungs-Deklaration … 2022.pdf`).
+- **Nachweiswege** (Massnahmenpaket/System- vs. Einzelbauteilnachweis): Logik → `[[u-werte-grenzwerte-ch]]`.
+
+⚠ **Datenstand:** Kt. ZH operativ ueber EnerG seit 1.9.2022 (MuKEn 2014); **MuKEn 2025** von der
+EnDK 08/2025 verabschiedet, ZH-Umsetzung (Stand 06/2026) ausstehend → aktuelle Formularversion
+vor Einreichung pruefen (`endk.ch`).
 
 ## Offen (→ QUESTIONS)
-- Aktuelle ZH-Energievorgaben (MuKEn-Umsetzung) auf Stand bringen, mit Datum.
-- U-Wert-Grenzwerte SIA 380/1 als belegte Kennwert-Tabelle nachziehen.
+- E4-Detail: EN-ZH Fachformular-Liste je Fachbereich (Inhalt der einzelnen Beilagen) noch
+  unbelegt → naechster Energie-Lauf.
 - Kandidat: eigenes Skill `energie-nachweis`, sobald die Domaene traegt.

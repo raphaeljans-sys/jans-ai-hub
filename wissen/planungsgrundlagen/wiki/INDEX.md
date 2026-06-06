@@ -13,7 +13,9 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - _(verweist auf Skill `brandschutz` — kein eigener Artikel, Stand 2026-06-05)_
 
 ## Energie (PL-04)
-- [[energie-uebersicht]] — PV-Typen, U-Wert/SIA 380-1, Energienachweis ZH · emerging
+- [[energie-uebersicht]] — Einstieg: U-Wert (→ KB energie), Energienachweis ZH/EN-ZH · **established**
+- [[energie-pv-eignung-typenwahl]] — PV-Typen A–E, Eignung/Ertrag-Werkzeuge, ewzWHH-Benchmark · **established**
+- _Tiefe Physik/Kennwerte → eigene KB `wissen/energie/` (U-Werte, Minergie, Q_H, Bauherren-FAQ)_
 
 ---
 Status-Legende: `speculative` (unbelegt) → `emerging` (teilbelegt) → `established` (mehrfach belegt/validiert).
