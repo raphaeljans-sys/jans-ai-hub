@@ -5,6 +5,11 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
 ## 2026-06-07
+- [harness] **Buch-Layer + Buch-Training angelegt** fuer das Standardwerk «Zuercher Planungs- und Baurecht, Bd 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019). Neu: `buecher/` (CLAUDE.md, INDEX.md, seiten-inventar.md mit allen 780 Screenshot-Doppelseiten, band-1/ band-2/), `training/` (PROGRAMM.md mit degressiver Lernkurve, curriculum.md 23-Kapitel-Map, drills.md). Quell-Screenshots auf SharePoint `PL - 02_Recht_Norm/.../SM Planungs und Baurecht/`.
+- [distill] Erstes Destillat [[14-nutzungsdichte-ausnuetzung]] (Bd 2, Kap. 14, S. 919-961): AZ/BMZ/UEZ/FFZ (§§ 254-260 PBG), anrechenbare Geschossflaeche, **Dach-/UG-Mehrflaechenregel § 255 Abs. 2** (S. 950 f.), Wohntauglichkeit S. 944 f. 9 Shots im Inventar als distilliert markiert.
+- [wire] Skill `baurecht` (Stufe 0b + Zitierschema Band/Kap/Seite) und Legacy-Agent `baurecht-agent` an den Buch-Layer angebunden.
+- [schedule] Scheduled Task `baurecht-buch-training` erstellt (Phase 1 taeglich 07:34; degressiv auf 2-taegig/woechentlich).
+- [output] Anwendungsfall [[2026-06-07_buch-run0_dachausbau-wangen-chaled]] (Trainingsmodell B): Dachgeschoss-Analyse MFH Wangen Bahnhofstrasse 27 (Mail David Chaled) auf Buchbasis. Offen: Kanton (Wangen SZ vs. Wangen-Bruettisellen ZH) + Kennwerte (Zone/AZ/Parzellenflaeche).
 - [tooling] Connector `skills/baurecht/connectors/recht-ch.mjs` gebaut: zieht amtliche, konsolidierte Gesetzes-Volltexte (ZH-Lex; Bund-v2 offen) als Markdown mit Provenienz-Frontmatter nach raw/. ZH-Kette verifiziert (Open&Ordnr → kanonische Erlassseite → notes.zh.ch $File-PDF → pdftotext).
 - [ingest] 5 amtliche ZH-Volltexte als Primärquelle in raw/ abgelegt: PBG (LS 700.1), ABV (700.2), BVV (700.6), BBV I (700.21), BBV II (700.22) — gemeinfrei Art. 5 URG, Direktkonsultation. In _INGESTED.md registriert (kein Coverage-Flag).
 - [compile] Quellenregister [[QUELLEN]] angelegt (wiki/QUELLEN.md); in INDEX verlinkt; Statistik nachgeführt.
