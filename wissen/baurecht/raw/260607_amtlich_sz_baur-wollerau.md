@@ -17,4 +17,4 @@ Baureglement Wollerau (Stand 20.05.2024)
 Amtlicher Volltext (ÖREB OEREBlex Kt. SZ), abgerufen 2026-06-07.
 Quelle: https://oereblex.sz.ch/api/attachments/4086
 
-[HINWEIS: Bild-PDF ohne Textebene — Volltext konnte nicht extrahiert werden. OCR noetig (ocrmypdf/tesseract). Quelle siehe Frontmatter.]
+[HINWEIS: Bild-PDF ohne Textebene — Volltext konnte nicht extrahiert werden. Mit Flag --ocr per ocrmypdf/tesseract nachholbar. Quelle siehe Frontmatter.]

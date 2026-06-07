@@ -65,6 +65,32 @@ BZO/Baureglement (Werte)** zusammen lesen. Neue Gemeinde hinzufügen / Stand pr�
 siehe `QUELLEN.md`. Bund (RPG/RPV/USG) und Kt. SG sind noch nicht als Volltext hinterlegt
 → dafür SharePoint-Gesetzessammlung bzw. fedlex.admin.ch.
 
+### 0b. Standardkommentar «Zürcher Planungs- und Baurecht» (Buch-Layer — direkt nach dem Volltext)
+
+Das massgebliche **Standardwerk** für das Zürcher Bau- und Planungsrecht ist als
+durchsuchbarer Destillate-Layer in der Wissensbasis hinterlegt:
+
+> **Fritzsche / Bösch / Wipf / Kunz, «Zürcher Planungs- und Baurecht», Band 1 + 2,
+> 6. Auflage 2019** (Hrsg. vzgv, Stutz Medien). Band 1 = Planungsrecht, Verfahren,
+> Rechtsschutz; Band 2 = Bau- und Umweltrecht.
+
+- **Destillate:** `wissen/baurecht/buecher/band-1/` und `…/band-2/` — pro Kapitel eine
+  zitierbare Synthese (Begriffe, §§, Formeln, Praxis). Index: `wissen/baurecht/buecher/INDEX.md`.
+- **Seiten-Manifest:** `wissen/baurecht/buecher/seiten-inventar.md` (alle 780 Doppelseiten;
+  Quell-Screenshots auf SharePoint `PL - 02_Recht_Norm/.../SM Planungs und Baurecht/`).
+- **Kapitel-Landkarte:** `wissen/baurecht/training/curriculum.md` (23 Kapitel + Seiten).
+
+**Arbeitsregel:** Bei jeder ZH-Sachfrage (Ausnützung, Abstände, Höhen, Dachausbau,
+Vollgeschoss, Verfahren, Bestandesschutz) **zuerst das einschlägige Buch-Destillat
+konsultieren** und mit **Band/Kapitel/Seite** zitieren — zusammen mit dem amtlichen § aus
+Stufe 0. Fehlt das Kapitel noch als Destillat, die betreffenden Screenshot-Doppelseiten
+(Inventar → Pfad) direkt lesen **und das Ergebnis als Destillat ablegen** (Compounding).
+Das Werk wächst laufend ein über das **Buch-Training** (`wissen/baurecht/training/PROGRAMM.md`,
+Scheduled Task `baurecht-buch-training`).
+
+> Hinweis Kanton: Das Werk kommentiert **Zürcher** Recht. Für SZ-Fälle gelten die Aussagen
+> nur sinngemäss (gleiche Methodik, andere §§) — Kanton immer prüfen und kennzeichnen.
+
 ### 1. Gesetzessammlung auf SharePoint (Primärquelle)
 
 Der Quellenordner mit allen relevanten Originaldokumenten:
@@ -117,7 +143,7 @@ Gib bei jeder rechtlichen Aussage die Rechtsgrundlage an:
 - Kantonales Recht SZ: **§ [Nummer] PBG SZ**, **§ [Nummer] PBV SZ**
 - Bundesrecht: **Art. [Nummer] RPG**, **Art. [Nummer] USG**
 - SIA-Normen: **SIA [Nummer]**
-- Standardwerk: **Fritzsche/Bösch/Wipf/Kunz, Band 2, [Kapitel/Seite]**
+- Standardwerk: **Fritzsche/Bösch/Wipf/Kunz, «Zürcher Planungs- und Baurecht», Bd [1/2], Kap. [Nr], S. [Seite]** (Buch-Destillat `wissen/baurecht/buecher/`)
 - SharePoint-Dokument: Nenne den Dateinamen aus der Gesetzessammlung
 
 ## Unsicherheiten transparent machen

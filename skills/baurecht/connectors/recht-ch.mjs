@@ -45,7 +45,7 @@
  *        Abbruch statt Raten), umlaute-konvention, dateinamen-konvention (JJMMTT-Praefix).
  */
 
-import { writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { writeFileSync, mkdirSync, existsSync, readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
@@ -189,19 +189,39 @@ function htmlToText(html) {
   return s.trim();
 }
 
+let OCR_ENABLED = false; // via --ocr aktivierbar (siehe Main)
+
+function ocrToText(pdfTmp) {
+  // ocrmypdf legt eine Textebene an und schreibt den OCR-Text als Sidecar.
+  const outPdf = pdfTmp.replace(/\.pdf$/, ".ocr.pdf");
+  const side = pdfTmp.replace(/\.pdf$/, ".ocr.txt");
+  execFileSync("ocrmypdf", [
+    "-l", "deu", "--force-ocr", "--optimize", "0", "--sidecar", side,
+    pdfTmp, outPdf,
+  ], { stdio: "ignore", timeout: 600000 });
+  return readFileSync(side, "utf8");
+}
+
 function pdfBufferToText(buf) {
   const tmp = join(tmpdir(), `rechtch-${process.pid}-${Math.round(buf.length)}.pdf`);
   writeFileSync(tmp, buf);
   // -nopgbrk: keine Seitenumbruch-Steuerzeichen; default-Layout (gute Lesereihenfolge)
   const out = execFileSync("pdftotext", ["-enc", "UTF-8", "-nopgbrk", tmp, "-"]);
   const text = out.toString("utf8");
-  // Bild-PDF ohne Textebene: pdftotext liefert (fast) nichts -> ehrlich markieren statt
-  // leeren "Volltext" vorzutaeuschen. OCR (ocrmypdf/tesseract) waere v2.
-  if (text.replace(/\s+/g, "").length < 200) {
-    return "[HINWEIS: Bild-PDF ohne Textebene — Volltext konnte nicht extrahiert werden. "
-      + "OCR noetig (ocrmypdf/tesseract). Quelle siehe Frontmatter.]";
+  // Bild-PDF ohne Textebene: pdftotext liefert (fast) nichts.
+  if (text.replace(/\s+/g, "").length >= 200) return text;
+  if (OCR_ENABLED) {
+    try {
+      const ocr = ocrToText(tmp);
+      if (ocr.replace(/\s+/g, "").length >= 200) {
+        return `[HINWEIS: Text via OCR (ocrmypdf/tesseract deu) gewonnen — Bild-PDF ohne `
+          + `native Textebene. Kann OCR-Fehler enthalten.]\n\n${ocr}`;
+      }
+    } catch (e) { /* faellt unten auf Marker zurueck */ }
   }
-  return text;
+  // ehrlich markieren statt leeren "Volltext" vorzutaeuschen
+  return "[HINWEIS: Bild-PDF ohne Textebene — Volltext konnte nicht extrahiert werden. "
+    + "Mit Flag --ocr per ocrmypdf/tesseract nachholbar. Quelle siehe Frontmatter.]";
 }
 
 // --- ZH-Kette: LS-Nr -> PDF ----------------------------------------------------
@@ -330,6 +350,7 @@ async function holeBaureglementSz(e, L) {
 (async () => {
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
+  OCR_ENABLED = !!a.ocr; // Bild-PDFs bei leerer Extraktion per ocrmypdf nachholen
 
   if (a.list) {
     process.stdout.write("ERLASSE (kantonal/Bund)\nKEY    Ebene           Ordnung    Titel\n");
