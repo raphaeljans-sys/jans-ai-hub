@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: emerging
-last_updated: 2026-06-06
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md]
+last_updated: 2026-06-07
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md]
 links: [[INDEX]]
 ---
 
@@ -80,6 +80,33 @@ umgesetzt — vor dem Zitieren konkreter Grenzwerte aktuellen ZH-Stand pruefen.
 
 ---
 
+## F4 — «Welcher PV-Typ passt zu meinem Dach (kristallin / Duennschicht / farbig / Hybrid)?»
+
+**Kurz:** Gut besonntes Dach → **kristalline Module** (hoechster Ertrag). Schlecht orientierte oder
+grosse Sicht-/Fassadenflaeche → **Duennschicht** (guenstiger, schwachlichttauglich, gestaltbar).
+Soll man die Anlage sehen oder farbig in die Glasfassade integrieren → **Graetzel/transluzente**
+Zellen. Strom **und** Warmwasser auf knapper Flaeche → **Hybridkollektor (PVT)**.
+
+**Fachlich:**
+
+| Typ | Wirkungsgrad* | Eignung |
+|---|---|---|
+| Kristallin (mono-/poly) | bis ~20 % | Standard auf gut besonnten Daechern; hoechster Ertrag/m² |
+| Duennschicht | bis ~12 % | Nordlagen, grosse All-over-Flaechen; bessere Schwachlicht-Ertraege, tiefere graue Energie, guenstiger |
+| Graetzel / transluzent / farbig | tiefer | transparente, farbige Glasfassaden; schuetzt zugleich vor Erhitzung |
+| Hybrid (PVT) | hoeher als reines PV | PV + Solarthermie kombiniert, Zellkuehlung steigert Ertrag |
+
+*Wirkungsgrade Stand 2012 — heutige kristalline Module liegen hoeher; konkrete % am Datenblatt
+pruefen. Faustregel Flaeche: kristallin ~8 m²/kW, Duennschicht ~16 m²/kW. Entscheidend ist die
+**Integration**: ein Solarbauteil sollte eine zweite Funktion uebernehmen (Eindeckung, Verschattung,
+Bruestung, Laermschutz) — Indach/Solardachplatten erfuellen die PV-Pflicht gestalterisch am saubersten.
+
+**Quelle:** TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) →
+`[[tec21-solares-bauen-pv-typen-2012]]`. PV-Pflicht/Groesse siehe F10; Brandschutz dachintegrierter
+PV → Skill `brandschutz`.
+
+---
+
 ## F5 — «Was bringt Minergie / Minergie-P / -A gegenueber dem gesetzlichen Minimum?»
 
 **Kurz:** Minergie ist ein **freiwilliges Qualitaetslabel** ueber dem Gesetz: garantierter
@@ -116,12 +143,38 @@ unwirtschaftlich. Die Pflicht ist klein; fuer Eigenverbrauch/Minergie lohnt oft 
 Anlage. Indach-/Solardachplatten erfuellen die Pflicht gestalterisch sauber.
 
 **Quelle:** Formular EnFK EN-104 «Eigenstromerzeugung bei Neubauten» (Version Juni 2019) →
-`[[enfk-en-104-eigenstromerzeugung]]`. Brandschutz dachintegrierter PV → Skill `brandschutz`.
+`[[enfk-en-104-eigenstromerzeugung]]`. PV-Typ-Wahl siehe F4; Brandschutz dachintegrierter PV →
+Skill `brandschutz`.
+
+---
+
+## F12 — «Welche Energienachweise brauche ich fuer meine Baueingabe im Kanton Zuerich?»
+
+**Kurz:** Im Kt. ZH wird der Energienachweis seit **1.1.2026 elektronisch ueber EVEN**
+(`energievollzug.ch`) gefuehrt — die fruehere EN-ZH-PDF-Sammlung ist abgeloest. Welche Einzel-
+nachweise noetig sind, haengt von der Bauaufgabe ab: ein **Neubau** braucht praktisch immer
+Energiebedarf (EN-101), Waermedaemmung (EN-102), keine fossile Heizung, eine **PV-Anlage**
+(EN-104, ≥10 W/m² EBF) und ggf. Lueftung/Beleuchtung; ein **Heizungsersatz** im Bestand braucht den
+Erneuerbare-Waerme-Nachweis (EN-120 / EN-LCC-ZH).
+
+**Fachlich:** Das EN-ZH-Deckblatt (heute EVEN) ist die Checkliste der Einzelnachweise:
+- **Energiebedarf** EN-101 — Neubau ohne CO₂ aus fossilen Brennstoffen (§10a EnerG).
+- **Waermedaemmung Huelle** EN-102 (Einzelbauteil/System) nach **SIA 380/1:2016**.
+- **Heizung/WW** EN-103; bei Erzeugerersatz im Bestand erneuerbare Waerme (EN-120) bzw.
+  Wirtschaftlichkeit (EN-LCC-ZH) — neues fossiles System nur mit Zusatznachweisen.
+- **Eigenstrom Neubau** EN-104-ZH: PV ≥ 10 W/m² EBF (oder Energiebedarf ≥20 % unterschreiten).
+- **Lueftung/Kuehlung** EN-105/EN-110; **Beleuchtung** EN-111 (Nichtwohnbau >1000 m² EBF);
+  **Laermschutz Waermepumpe** LN-1. Mit **Minergie-Label** entfallen EN-101–EN-111.
+- Bei Minergie/Grossbezuegern zusaetzlich Betriebsoptimierung (>200'000 kWh Strom/a).
+
+**Quelle:** Baudirektion ZH / AWEL, Formular EN-ZH-005 (Version Juli 2022, gueltig bis 31.12.2025)
+→ `[[en-zh-nachweis-uebersicht]]`; ⚠ **Datenstand 2026-06-07:** seit 1.1.2026 elektronischer
+Vollzug EVEN (`energievollzug.ch`), PDF-Formulare abgeloest — vor der Eingabe aktuellen
+EVEN-Stand auf `zh.ch` pruefen. Energierecht → Skill `baurecht`.
 
 ---
 
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
-- F4 Welcher PV-Typ passt zu meinem Dach (Indach/Aufdach/Ziegel/Fassade)? (→ Solar-Destillate; F10 deckt die Pflicht)
 - F6 Waermepumpe vs. Fernwaerme vs. Pellets — was passt zu meinem Objekt?
 - F7 Welche Foerderbeitraege gibt es aktuell (Bund/Kt. ZH) und wie hole ich sie? (Datenstand!)
 - F8 Was heisst «Netto-Null»/Klimaziel konkret fuer einen Neubau/Umbau heute?
