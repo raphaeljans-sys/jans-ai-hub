@@ -16,8 +16,8 @@ jeder Eintrag von mindestens einem Wiki-Artikel zitiert wird.
 | 260607_amtlich_zh_bvv.md | 260607 | ZH-Lex LS 700.6 (amtlich, via Connector) | direkt konsultiert | Primärquelle-Volltext (gemeinfrei) — Direktkonsultation |
 | 260607_amtlich_zh_bbv1.md | 260607 | ZH-Lex LS 700.21 (amtlich, via Connector) | direkt konsultiert | Primärquelle-Volltext (gemeinfrei) — Direktkonsultation |
 | 260607_amtlich_zh_bbv2.md | 260607 | ZH-Lex LS 700.22 (amtlich, via Connector) | direkt konsultiert | Primärquelle-Volltext (gemeinfrei) — Direktkonsultation |
-| 260607_amtlich_zh_bzo-zurich-stadt.md | 260607 | oerebdocs.zh.ch docid 6 (BZO 2016, via Connector) | direkt konsultiert | Kommunale BZO-Volltext (gemeinfrei) — Direktkonsultation |
-| 260607_amtlich_zh_bzo-langnau-am-albis.md | 260607 | oerebdocs.zh.ch docid 5501 (via Connector) | direkt konsultiert | Kommunale BZO-Volltext (gemeinfrei) — Direktkonsultation |
+| 260607_amtlich_zh_bzo-*.md (44 Dateien) | 260607 | oerebdocs.zh.ch (BZO je Gemeinde, via Connector) | direkt konsultiert | Kommunale BZO-Volltexte ZH (gemeinfrei) — Direktkonsultation; Register siehe [[QUELLEN]] |
+| 260607_amtlich_sz_baur-*.md (4 Dateien) | 260607 | oereblex.sz.ch (Baureglement je Gemeinde, via Connector) | direkt konsultiert | Kommunale Baureglemente SZ (gemeinfrei); Wollerau = OCR-Pendenz (Bild-PDF) |
 
 **Hinweis Primärquelle-Volltexte (`*_amtlich_*`):** amtliche, konsolidierte Gesetzes-Volltexte
 (gemeinfrei nach Art. 5 URG), gezogen mit `skills/baurecht/connectors/recht-ch.mjs`. Sie sind die

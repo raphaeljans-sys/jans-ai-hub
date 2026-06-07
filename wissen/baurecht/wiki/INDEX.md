@@ -4,7 +4,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Vom Bibliothekar gepflegt; bei jedem neue
 oder umbenannten Artikel aktualisieren.
 
 ## Amtliche Quellen (erste Konsultationsstufe)
-- [[QUELLEN]] — Register der amtlichen Gesetzes-Volltexte in `raw/` (PBG, ABV, BVV, BBV I/II; gemeinfrei Art. 5 URG, via Connector `recht-ch.mjs`) · *established*
+- [[QUELLEN]] — Register der amtlichen Volltexte in `raw/`: kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente; gemeinfrei Art. 5 URG, via Connector `recht-ch.mjs` · *established*
 
 ## Fokus-Bereiche & Artikel
 
@@ -33,6 +33,7 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 
 ## Statistik (Stand 2026-06-07)
 - Artikel im Wiki: 5 + QUELLEN-Register
-- Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 (PBG, ABV, BVV, BBV I, BBV II)
+- Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
+- Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)
 - Letzter Health-Check: 2026-06-02 (A0 B0 C3 D1 E0 F1 G0) → outputs/2026-06-02_health-check.md

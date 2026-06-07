@@ -194,7 +194,14 @@ function pdfBufferToText(buf) {
   writeFileSync(tmp, buf);
   // -nopgbrk: keine Seitenumbruch-Steuerzeichen; default-Layout (gute Lesereihenfolge)
   const out = execFileSync("pdftotext", ["-enc", "UTF-8", "-nopgbrk", tmp, "-"]);
-  return out.toString("utf8");
+  const text = out.toString("utf8");
+  // Bild-PDF ohne Textebene: pdftotext liefert (fast) nichts -> ehrlich markieren statt
+  // leeren "Volltext" vorzutaeuschen. OCR (ocrmypdf/tesseract) waere v2.
+  if (text.replace(/\s+/g, "").length < 200) {
+    return "[HINWEIS: Bild-PDF ohne Textebene — Volltext konnte nicht extrahiert werden. "
+      + "OCR noetig (ocrmypdf/tesseract). Quelle siehe Frontmatter.]";
+  }
+  return text;
 }
 
 // --- ZH-Kette: LS-Nr -> PDF ----------------------------------------------------
@@ -335,6 +342,10 @@ async function holeBaureglementSz(e, L) {
     for (const e of BZO_ZH) {
       process.stdout.write(`${e.key.padEnd(20)} ${String(e.docid).padEnd(7)} ${e.gemeinde}\n`);
     }
+    process.stdout.write("\nKOMMUNALE BAUREGLEMENTE (Kt. SZ, via oereblex.sz.ch)\nKEY                  att     Gemeinde\n");
+    for (const e of BAUREGL_SZ) {
+      process.stdout.write(`${e.key.padEnd(20)} ${String(e.attachmentId).padEnd(7)} ${e.gemeinde}\n`);
+    }
     process.exit(0);
   }
 
@@ -361,14 +372,15 @@ async function holeBaureglementSz(e, L) {
     }
   } else if (a.seed) wahl = REGISTER.filter((e) => e.seed);
 
-  // Auswahl der kommunalen BZO
+  // Auswahl der kommunalen BZO/Baureglemente (ZH + SZ)
+  const KOMMUNAL = [...BZO_ZH, ...BAUREGL_SZ];
   let bzoWahl = [];
-  if (a["all-bzo"]) bzoWahl = BZO_ZH.slice();
+  if (a["all-bzo"]) bzoWahl = KOMMUNAL.slice();
   else if (a.bzo) {
     const keys = a.bzo === true ? [] : String(a.bzo).split(",");
     for (const k of keys) {
-      const e = BZO_ZH.find((x) => x.key.toLowerCase() === k.toLowerCase());
-      if (!e) { process.stderr.write(`FEHLER: Unbekannte BZO "${k}". --list zeigt das Register.\n`); process.exit(1); }
+      const e = KOMMUNAL.find((x) => x.key.toLowerCase() === k.toLowerCase());
+      if (!e) { process.stderr.write(`FEHLER: Unbekannte Gemeinde "${k}". --list zeigt das Register.\n`); process.exit(1); }
       bzoWahl.push(e);
     }
   }
@@ -403,8 +415,11 @@ async function holeBaureglementSz(e, L) {
   }
   for (const e of bzoWahl) {
     try {
-      const { md, pdf } = await holeBzo(e, L);
-      const base = `${yymmdd()}_amtlich_zh_bzo-${slug(e.gemeinde)}`;
+      const isSz = e.attachmentId !== undefined;
+      const { md, pdf } = isSz ? await holeBaureglementSz(e, L) : await holeBzo(e, L);
+      const base = isSz
+        ? `${yymmdd()}_amtlich_sz_baur-${slug(e.gemeinde)}`
+        : `${yymmdd()}_amtlich_zh_bzo-${slug(e.gemeinde)}`;
       const mdPath = join(outDir, `${base}.md`);
       writeFileSync(mdPath, md);
       result.files.push(mdPath);

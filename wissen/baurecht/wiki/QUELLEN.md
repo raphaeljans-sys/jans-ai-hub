@@ -65,10 +65,31 @@ node skills/baurecht/connectors/recht-ch.mjs --resolve-bzo --egrid <EGRID>
 node skills/baurecht/connectors/recht-ch.mjs --bzo <gemeinde-key>
 ```
 
-**Offen / anderer Kanton:** Wangen beim Obersee (SZ) und die Zürichsee-Gemeinden in
-Kt. Schwyz (Freienbach, Wollerau, Feusisberg) bzw. Kt. St. Gallen (Rapperswil-Jona,
-Schmerikon) liegen NICHT im ZH-ÖREB — sie brauchen die ÖREB-Dienste ihrer Kantone
-(eigene Bezugskette, noch nicht verifiziert).
+## Kommunale Baureglemente (Kanton SZ)
+
+Kt. Schwyz hält die kommunalen Baureglemente in **OEREBlex**
+(`oereblex.sz.ch/api/attachments/<id>`); die attachmentId je Gemeinde stammt aus dem
+SZ-ÖREB-Auszug (`map.geo.sz.ch/oereb/extract/json?EGRID=`). Register `BAUREGL_SZ` im
+Connector. Bestand (Stand 2026-06-07):
+
+| Gemeinde | OEREBlex att | Datei in `raw/` | Status |
+|---|---|---|---|
+| Wangen (SZ) | 2544 | `260607_amtlich_sz_baur-wangen-sz.md` | Volltext |
+| Freienbach | 3036 | `260607_amtlich_sz_baur-freienbach.md` | Volltext (Basis 1994; Änderungen att 3037/3449/3896 separat) |
+| Feusisberg | 3915 | `260607_amtlich_sz_baur-feusisberg.md` | Volltext (Stand 2022) |
+| Wollerau | 4086 | `260607_amtlich_sz_baur-wollerau.md` | **OCR-Pendenz** — Bild-PDF ohne Textebene; OCR (ocrmypdf/tesseract) nötig |
+
+## Offen / Pendenzen
+
+- **Wollerau (SZ):** OEREBlex-PDF ist ein Scan ohne Textebene → OCR nachziehen
+  (ocrmypdf installieren, dann erneut extrahieren).
+- **Freienbach (SZ):** SZ-OEREBlex führt Baureglement als Basis + separate
+  Änderungsdokumente (keine konsolidierte Einzel-PDF). Bei Detailfragen Änderungen
+  att 3037/3449/3896 mitlesen.
+- **Kanton SG (Rapperswil-Jona, Schmerikon):** OEREBlex-Host `oereblex.sg.ch` existiert,
+  aber der SG-ÖREB-M2M-Extrakt-Endpunkt liegt hinter der Viewer-SPA (`oereb.geo.sg.ch`)
+  und ist noch nicht gefunden → attachmentId je Gemeinde noch offen. Sobald der
+  SG-Extrakt-Endpunkt steht, analog SZ ins Register `BAUREGL_SG` aufnehmen.
 
 ## Lücken / offen
 

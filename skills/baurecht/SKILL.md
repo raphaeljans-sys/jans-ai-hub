@@ -53,8 +53,17 @@ mit Stand/Fassung steht in `wissen/baurecht/wiki/QUELLEN.md`. Aktuelle Fassung n
 `node skills/baurecht/connectors/recht-ch.mjs --seed`. Danach die Wiki-Artikel
 (`wissen/baurecht/wiki/`) für Einordnung/Praxis und erst dann die übrigen Quellen.
 
-Bund (RPG/RPV/USG) und Kt. SZ sind hier noch nicht als Volltext hinterlegt → dafür
-SharePoint-Gesetzessammlung (Stufe 1) bzw. fedlex.admin.ch nutzen.
+**Kommunale Bauvorschriften** (zonenspezifische Werte: Ausnützung, Höhen, Zonenart) liegen
+ebenfalls in `raw/` — als amtliche Volltexte (gemeinfrei):
+- `*_amtlich_zh_bzo-<gemeinde>.md` — **44 ZH-Gemeinden** (Stadt Zürich, Langnau a.A.,
+  Zürichsee-Ufer, Agglo-Ring; via oerebdocs.zh.ch)
+- `*_amtlich_sz_baur-<gemeinde>.md` — **Kt. SZ**: Wangen SZ, Freienbach, Feusisberg
+  (Wollerau = OCR-Pendenz); via OEREBlex
+
+Bei einer konkreten Parzelle also: **kantonales PBG/ABV/BBV (Regeln) + kommunale
+BZO/Baureglement (Werte)** zusammen lesen. Neue Gemeinde hinzufügen / Stand prüfen:
+siehe `QUELLEN.md`. Bund (RPG/RPV/USG) und Kt. SG sind noch nicht als Volltext hinterlegt
+→ dafür SharePoint-Gesetzessammlung bzw. fedlex.admin.ch.
 
 ### 1. Gesetzessammlung auf SharePoint (Primärquelle)
 
