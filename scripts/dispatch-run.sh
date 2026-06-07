@@ -41,6 +41,14 @@ PERM_MODE="${DISPATCH_PERMISSION_MODE:-acceptEdits}"
 # Kostendeckel je Lauf (schuetzt vor Handy-Vertipper / Endlosschleife).
 MAX_BUDGET="${DISPATCH_MAX_BUDGET_USD:-5}"
 
+# --- Lokale Secrets laden (NICHT in Git) ------------------------------------
+# Ermoeglicht headless-Betrieb via ANTHROPIC_API_KEY ohne OAuth-Login. Die Datei
+# liegt NUR lokal auf der Station (chmod 600), nie auf NAS/GitHub. Inhalt z.B.:
+#   ANTHROPIC_API_KEY=sk-ant-...
+if [ -f "$HOME/.jans-dispatch.env" ]; then
+    set -a; . "$HOME/.jans-dispatch.env"; set +a
+fi
+
 # Log-/Audit-Verzeichnis: NAS (von jeder Station + Handy einsehbar), Fallback lokal.
 # Direkt das NAS-Verzeichnis anlegen versuchen; nur bei Fehlschlag (NAS nicht
 # gemountet) lokal ausweichen.
