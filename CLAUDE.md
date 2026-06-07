@@ -234,6 +234,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 |---|---|---|
 | `baurecht` | `skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ |
 | `kostenschaetzung` | `skills/kostenschaetzung/SKILL.md` | Healthcare-Kostenkennwerte, Grobschaetzungen |
+| `grobkosten-onepager` | `skills/grobkosten-onepager/SKILL.md` | **Grobkosten-Onepager**: eine A4-Seite, **Volumen × Kennwert (BKP 1–5)**, praesentierwuerdig mit grossen Kosten-Kennzahlen je Variante. Schlankes Gegenstueck zu `kostenschaetzung` (dort detailliert m2-NF). Generator `tools/build_grobkosten_onepager.py`; nutzt Lernmodell `wissen/grobkosten/` (Kennwerte-DB, kompoundierend) + Agent `grobkosten-rechner`; vorgelagert `machbarkeit`/Variantenstudie |
 | `website-content` | `skills/website-content/SKILL.md` | WordPress Content-Upload fuer raphaeljans.ch |
 | `offertenpruefung` | `skills/offertenpruefung/SKILL.md` | Strukturierte Pruefung von Offerten/Angeboten (Factsheet, Risiken, Reduktionsstrategie) |
 | `ausschreibung` | `skills/ausschreibung/SKILL.md` | Submissions-/Devis-Erstellung fuer Spezialplaner und Unternehmer (Gegenstueck zu offertenpruefung); 3-Phasen-Workflow LV-Erstellung / Versand / Auswertung |
@@ -308,6 +309,7 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `auflagen-tracker` | `agents/auflagen-tracker.md` | **Nachfuehrung + Compounding**: pflegt Status/Fristen der Plan-/Dokumentenliste, meldet Faelliges, diff't Vorabzug↔definitiv und schreibt Erkenntnisse ins Wiki zurueck (Fan-out fuer Skill `auflagebereinigung`) |
 | `geodaten-beschaffer` | `agents/geodaten-beschaffer.md` | **Geodaten-Beschaffung** (PL-01): ermittelt zu Adresse/Parzelle den **EGRID**, zieht den **OEREB-Auszug** und weitere amtliche Produkte (Kataster/Zonenplan/Hoehenmodell/Orthofoto) und legt sie projektgerecht ab; nutzt Connector `geo-zh.mjs`, erfindet nie eine EGRID/Parzelle (Fan-out fuer Skill `planungsgrundlagen`) |
 | `energie-berater` | `agents/energie-berater.md` | **Energie-Fachagent** (PL-04): PV-/Solar-Eignung (Indach/Ziegel/transparent/Fassade/Aufdach), U-Wert/Bauteilkatalog (SIA 380/1), Energienachweis-Vorpruefung, ZH-Baueingabe-Energieformulare; Kennwerte belegt, nie erfunden (Fan-out fuer Skill `planungsgrundlagen`) |
+| `grobkosten-rechner` | `agents/grobkosten-rechner.md` | **Grobkosten-Rechner**: uebersetzt ein Gebaeudevolumen ueber einen **belegten Kennwert** (KB `wissen/grobkosten`) in Erstellungskosten BKP 1–5 (Volumen × Kennwert + Band), weist Herkunft/Reife des Kennwerts aus und stoesst die Lernschleife an (Fan-out fuer Skill `grobkosten-onepager`) |
 | `website-content` | `agents/website-content.md` | WordPress Projekt-Upload fuer raphaeljans.ch |
 | `linkedin-stratege` | `agents/linkedin-stratege.md` | Marketing-Harness: Positionierung + Redaktionsplan (WAS gepostet wird) |
 | `linkedin-texter` | `agents/linkedin-texter.md` | Marketing-Harness: schreibt fertige LinkedIn-Posts im polarisierenden JANS-Stil |
@@ -394,7 +396,10 @@ wissen/
   kartenportale/recht-norm/brandschutz/energie aus den PL-Grundordnern; OEREB-/EGRID-Bezugskette
   validiert; speist den Skill `planungsgrundlagen`), `energie/` (**strategische Energie-KB** mit
   Destillate-Layer PDF→MD + `BAUHERREN-FAQ`; Seed aus PL-04 Energie, 120 PDF; Ziel: bessere
-  belegte Bauherren-Antworten zu Nachhaltigkeit/Klima; speist den Agent `energie-berater`).
+  belegte Bauherren-Antworten zu Nachhaltigkeit/Klima; speist den Agent `energie-berater`),
+  `grobkosten/` (**Kennwerte-Lernmodell** Grobkosten CHF/m3 GV nach BKP 1-5: Seed-Kennwerte
+  Wohnbau-Neubau Region ZH, kompoundierend ueber reale Realabrechnungen via `raw/`→`wiki/`; speist
+  den Skill `grobkosten-onepager` + Agent `grobkosten-rechner`).
 - **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
   10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
 - **Planungsgrundlagen-Training:** Scheduled Task `planungsgrundlagen-training` (alle 2 Tage)
