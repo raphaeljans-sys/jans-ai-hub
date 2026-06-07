@@ -3,12 +3,24 @@ name: 2026-06-07_buch-run0_dachausbau-wangen-chaled
 typ: Anwendungsfall (Trainingsmodell B — Fall-Nachrechnung)
 fall: Dachgeschoss-Analyse Mehrfamilienhaus mit Arztpraxis, Wangen SZ, Bahnhofstrasse 27, Parz. 25
 anfrage: David Chaled (drdavidchaled@gmail.com), Mail «Ausbau Dachgeschoss» 2026-06-07
-kanton: SZ (Wangen, Bezirk March, 8855) — hergeleitet, siehe Punkt 0
+kanton: SZ (Wangen, BFS 1349, 8855) — BESTAETIGT via OEREB-Auszug
+egrid: CH379377805305
+parzelle: "25 (751 m²)"
+zone: "WG3 — Wohn- und Gewerbezone 3 Geschosse, ES III"
 quellen_buch: ["Bd 2, Kap. 14, S. 919-961 (Methodik Ausnuetzung/Anrechnung)"]
-quellen_recht: ["BauR Wangen SZ Art. 27 (Dachausbau), Art. 31 (Geschosszahl/Vollgeschoss), Art. 28; § 60 PBG SZ"]
-status: belastbare Ersteinschaetzung — Zone + DG-Flaeche ≥1.80 m noch zu verifizieren
+quellen_recht: ["BauR Wangen SZ Art. 27 (Dachausbau), Art. 31 (Geschosszahl), Art. 46 (WG-Zonen), Art. 54 (Grundmasse); § 60 PBG SZ"]
+status: belastbar — Zone/Parzelle via OEREB bestaetigt; offen nur W3-AZ-Wert + DG-Flaeche ≥1.80 m
+finale_fassung: "Studie 2622 (OneDrive AR - 03 Studien), 09_Dokumente/260607_Baurecht_Einschätzung_Dachausbau.md"
 last_updated: 2026-06-07
 ---
+
+> **Update 2026-06-07 (Daten bestaetigt):** OEREB-Auszug liegt vor — **Wangen SZ** (BFS 1349),
+> Parz. 25, **751 m²**, EGRID CH379377805305, Zone **WG3** (3 Vollgeschosse Einzelbauweise,
+> ES III). Damit ist der Fall belegt: Bestand EG+OG1+OG2 = **3 Vollgeschosse = ausgeschoepft**;
+> 2/3-Schwelle = 2/3 × OG2 152.3 m² = **101.5 m²** (Art. 27/31 BauR). Dachausbau **im Volumen
+> unter dem Deckel** = anrechnungs- und geschosszahlneutral. Finale, datengestuetzte Fassung
+> in der **Studie 2622** (`09_Dokumente/260607_Baurecht_Einschätzung_Dachausbau.md`). Der
+> Abschnitt unten ist die urspruengliche Bootstrap-Fassung (Kanton noch offen).
 
 # Dachgeschoss Wangen SZ, Bahnhofstrasse 27 — baurechtliche Ersteinschaetzung
 
