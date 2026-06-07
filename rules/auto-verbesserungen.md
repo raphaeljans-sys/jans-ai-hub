@@ -18,9 +18,19 @@ eine Dauerregel handelt.
 - **Gilt für:** <Kontext / Anwendungsbereich>
 ```
 
+## 260605 — Keine Boilerplate-Disclaimer in Erzeugnissen
+- **Auslöser:** "hey kannst du solche formulierungen weglassen" (zur Verfasser-/Haftungszeile «Verfasst durch Raphael Jans Architekten ETH (JANS) im Auftrag der Eigentümerschaft. … ersetzt keine Rechtsberatung …»)
+- **Regel:** In JANS-Erzeugnissen (Briefe, Stellungnahmen, Berichte, Memos, Dokumente) KEINE Standard-Boilerplate anhängen — insbesondere nicht «Verfasst durch … im Auftrag …» und nicht generische Haftungsausschlüsse wie «ersetzt keine Rechtsberatung / verbindliche Auskunft bei der Behörde einholen». Substanzielle, fallbezogene Vorbehalte (z.B. "Klassifizierung ist strittig", "BO noch zu verifizieren") bleiben erlaubt; nur die formelhaften Floskeln weglassen. Nur einsetzen, wenn der Benutzer es ausdrücklich verlangt.
+- **Gilt für:** Alle erzeugten Texterzeugnisse/Deliverables (Skills, Agenten, Dokumente), auf allen Stationen.
+
+## 260604 — Deliverable-Ordner nach Benennungsprinzip benennen
+- **Auslöser:** "bitte immer in ordner anlegen und benennung analog bennenungsprinzip als regeln und skill ablegen"
+- **Regel:** Jedes Erzeugnis kommt in einen EIGENEN Unterordner (nie lose abgelegt), und der ORDNER folgt demselben Benennungsprinzip wie die Dateien: 6-stelliges Datum (YYMMDD) + Bindestrich + sprechender Titel = identisch zum Namensstamm der enthaltenen MD/DOCX/PDF. Beispiel: Ordner `260604-AfB-Fristen-Stadt-ZH/` enthält `260604-AfB-Fristen-Stadt-ZH.{md,docx,pdf}`. Verbindlich verankert in `rules/dateinamen-konvention.md` (Sektion "Ordner-Ablage"). Schärft den Eintrag 260603 (dort "thematisch benannt" → jetzt präzise: Datums-Prefix-Namensstamm).
+- **Gilt für:** Alle erzeugten Deliverables/Outputs (Skills, Agenten, Wissens-Layer-outputs, Studien), auf allen Stationen.
+
 ## 260603 — Word + PDF immer neben MD ablegen, in Ordner strukturieren
 - **Auslöser:** "lege immer auch word und pdf neben md files mit ab, strukturiere in ordner"
-- **Regel:** Wenn ein inhaltliches Erzeugnis als Markdown (.md) entsteht (Analyse, Bericht, Auswertung, Memo, Factsheet, To-do, Mail-Entwurf), erzeuge IMMER zusätzlich eine DOCX- und eine PDF-Fassung mit gleichem Namensstamm und lege alle drei im selben, thematisch benannten Unterordner ab — nie lose Dateien im Root. Konvertierung: MD → DOCX via `skills/studien-generator/tools/md2docx.py` (python-docx, JANS-Layout Cambria 11pt) → PDF via `soffice --headless --convert-to pdf`. Ergänzt [[feedback_docx_pdf]] (DOCX immer mit PDF) und [[feedback_ablage_immer_in_ordner]].
+- **Regel:** Wenn ein inhaltliches Erzeugnis als Markdown (.md) entsteht (Analyse, Bericht, Auswertung, Memo, Factsheet, To-do, Mail-Entwurf), erzeuge IMMER zusätzlich eine DOCX- und eine PDF-Fassung mit gleichem Namensstamm und lege alle drei im selben Unterordner ab — der Ordner ist nach dem Datums-Prefix-Benennungsprinzip benannt (siehe Eintrag 260604), nie lose Dateien im Root. Konvertierung: MD → DOCX via `skills/studien-generator/tools/md2docx.py` (python-docx, JANS-Layout Cambria 11pt) → PDF via `soffice --headless --convert-to pdf`. Ergänzt [[feedback_docx_pdf]] (DOCX immer mit PDF) und [[feedback_ablage_immer_in_ordner]].
 - **Gilt für:** Alle erzeugten Deliverables/Outputs (Skills, Wissens-Layer-outputs, Studien), auf allen Stationen.
 
 ## Hinweise

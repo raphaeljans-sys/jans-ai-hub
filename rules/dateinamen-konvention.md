@@ -27,6 +27,28 @@ Falsch:
 - Todo-Pflanzplan-260420.docx (Datum am Ende)
 - 26-04-20-Todo.docx (Bindestriche im Datum)
 
+## Ordner-Ablage (verbindlich)
+
+Erzeugnisse werden **nie lose** abgelegt, sondern immer in einem **eigenen Unterordner**.
+Der Ordner folgt demselben Benennungsprinzip wie die Dateien: **6-stelliges Datum (YYMMDD),
+Bindestrich, sprechender Titel** — identisch zum Namensstamm der enthaltenen Dateien.
+
+- Ordnername = Namensstamm der Deliverables (z.B. Ordner `260604-AfB-Fristen-Stadt-ZH/`
+  enthaelt `260604-AfB-Fristen-Stadt-ZH.docx` + `.pdf` + `.md`).
+- Alle Fassungen desselben Erzeugnisses (MD/DOCX/PDF) liegen zusammen in diesem Ordner.
+- Gilt auch fuer Outputs aus Skills, Agenten und dem Wissens-Layer.
+
+Richtig:
+```
+09_Dokumente/
+  260604-AfB-Fristen-Stadt-ZH/
+    260604-AfB-Fristen-Stadt-ZH.docx
+    260604-AfB-Fristen-Stadt-ZH.pdf
+    260604-AfB-Fristen-Stadt-ZH.md
+```
+
+Falsch: die drei Dateien lose direkt in `09_Dokumente/`.
+
 ## Gilt fuer
 
 - Alle Dokumente in der JANS-Ablage (SharePoint, NAS, OneDrive)

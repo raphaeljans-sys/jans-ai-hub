@@ -20,6 +20,7 @@ wiederverwendbare Zuteilungsschlüssel — sie wächst mit jedem Projekt.
 | BRA | Brandschutzexperte | Jens Ziegel | Gruner AG |
 | HLK | Heizung-, Lüftung-, Kälteplaner | Cekdar Duran | Gruner AG |
 | SAN | Sanitärplaner | Mustafa Eren | Gruner AG |
+| SPR | Sprinklerplaner | Tim Harder | JOMOS Brandschutz AG |
 | ELE | Elektroplaner | Yasarcan Cetin | Gruner AG |
 | FKO | Fachkoordination | Benjamin Kübler | Gruner AG |
 | ARC | Architekt | Raphael Jans | Raphael Jans Architekten ETH |
@@ -34,7 +35,8 @@ wiederverwendbare Zuteilungsschlüssel — sie wächst mit jedem Projekt.
 |---|---|---|
 | Brandschutzkonzept / -pläne, Brandabschnitte EI30, Schiebetüren, Innenwand-Details, Abschottungskonzept, QSS, Übereinstimmungserklärung | «Brandschutz», «EI30», «VKF-Anerkennung», «Feuerpolizei» | **BRA** |
 | Lüftung/Klima: mech. Lüftung, Fortluft, Aussenluftansaugung, Lüftungskonzept, lufttechn. Anlagen, Energienachweis (EN-ZH/Lüftung/Kühlung), Abwärmenutzung, SIA 180/382 | «Lüftung», «Klima», «luft-/kältetechnisch», «Energie», «Abwärme» | **HLK** |
-| Sprinkleranlage (SPA), Sanitär-Leitungsabschottung | «Sprinkler», «Sanitär» | **SAN** |
+| Sprinkleranlage (SPA): Anpassung nach VKF-RL/GVZ-Weisung, Projektunterlagen an GVZ | «Sprinkler», «Sprinkleranlage», «SPA» | **SPR** (wenn eigener Sprinklerplaner; sonst SAN) |
+| Sanitär-Leitungsabschottung, sanitäre Installationen | «Sanitär», «Leitung» | **SAN** |
 | Brandmeldeanlage (BMA), Brandfallsteuerung (elektroseitig), Elektro-Leitungsabschottung | «Brandmeldeanlage», «BMA», «Steuerung», «Elektro» | **ELE** |
 | Gewerkeübergreifende Koordination, Integral-Test-Organisation, Schnittstellen Brandschutzkonzept, Schottkonzept-Koordination | «Schnittstellen», «integrale Tests», «Koordination» | **FKO** |
 | Abgeänderte Architektur-Pläne (Fluchtweg, Raumgeometrie), Hindernisfreiheit SIA 500, Schallschutz SIA 181 (Bau), Ausführung gemäss bewilligten Plänen | «abgeänderte Pläne», «hindernisfrei», «Schallschutz Bauteile», «bewilligte Pläne» | **ARC** |

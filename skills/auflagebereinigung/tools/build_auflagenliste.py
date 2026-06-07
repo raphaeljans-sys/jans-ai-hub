@@ -12,19 +12,17 @@ PLANER = {
     "BRA": ("BRA", "Brandschutzexperte", "Jens Ziegel", "Gruner AG"),
     "HLK": ("HLK", "Heizung-, Lüftung-, Kälteplaner", "Cekdar Duran", "Gruner AG"),
     "SAN": ("SAN", "Sanitärplaner", "Mustafa Eren", "Gruner AG"),
+    "SPR": ("SPR", "Sprinklerplaner", "Tim Harder", "JOMOS Brandschutz AG"),
     "ELE": ("ELE", "Elektroplaner", "Yasarcan Cetin", "Gruner AG"),
     "FKO": ("FKO", "Fachkoordination", "Benjamin Kübler", "Gruner AG"),
     "ARC": ("ARC", "Architekt", "Raphael Jans", "Raphael Jans Architekten ETH"),
     "BAU": ("BAU", "Bauleitung", "Albin Spahic", "KISPI"),
 }
-ORDER = ["BRA", "HLK", "SAN", "ELE", "FKO", "ARC", "BAU"]
+ORDER = ["BRA", "HLK", "SAN", "SPR", "ELE", "FKO", "ARC", "BAU"]
 
 # Datenzeilen: (planer, dokument, auflagepunkt, fuer_amt, frist)
 ROWS = {
 "BRA": [
- ("Bestätigung VKF-anerkannte/r QS-Verantwortliche/r Brandschutz (Benennung Person)", "Ziff. II.12 – QS-Begleitung Planung + Ausführung", "FP", "vor Baubeginn"),
- ("QS-Konzept / Nachweis Qualitätssicherung Stufe QSS 3 (Dokumente vorgängig QS-geprüft, digitale Einreichung)", "Ziff. II.11 – Qualitätssicherung QSS 3", "FP", "vor Baubeginn"),
- ("Meldung Mutation QS-Verantwortliche/r Brandschutz mit Namensnennung (nur bei Wechsel)", "Ziff. II.13 – Mutation QS-Brandschutz", "FP", "laufend"),
  ("Überarbeitetes Brandschutzkonzept (gesamter Umbaubereich)", "Ziff. II.16 / II.1b – BSK-Genehmigung (FP-Bestätigung an AfB)", "FP", "vor Baubeginn"),
  ("Überarbeitete Brandschutzpläne (gesamter Umbaubereich)", "Ziff. II.16 / II.1b", "FP", "vor Baubeginn"),
  ("Brandabschnittsplan EI30 + Türenliste EI30 (Patienten-/Personalzimmer, betriebstechn./Untersuchungs-/Behandlungs-/Technikräume)", "Ziff. II.14 – Brandabschnitte EI30", "FP", "vor Baubeginn"),
@@ -50,8 +48,10 @@ ROWS = {
  ("Nachweis Klimatisierungsanforderungen SIA 180 / 382-1 (g-Wert + Sonnenschutz, Dichtigkeit, Wärmespeicher ≥ 30 Wh/m²K, Nutzungstrennung, kein gleichzeitiges Heizen/Kühlen)", "Erwägung e) / Ziff. II.8", "UGZ", "Ausführungsplanung"),
 ],
 "SAN": [
- ("Anpassung Sprinkleranlage gemäss VKF-RL + Weisung 'Sprinkleranlagen' GVZ + Stand der Technik; Projektunterlagen einreichen + genehmigen lassen", "Ziff. II.26 / II.3", "GVZ", "vor Arbeitsvergabe"),
  ("Abschottungen Sanitärleitungen durch Brandabschnitte (RF1/EI30) – Beitrag zum Schottkonzept", "Ziff. II.20", "FP (via BRA)", "vor Ausführungsbeginn"),
+],
+"SPR": [
+ ("Anpassung Sprinkleranlage gemäss VKF-RL + Weisung 'Sprinkleranlagen' GVZ + Stand der Technik; Projektunterlagen einreichen + genehmigen lassen", "Ziff. II.26 / II.3", "GVZ", "vor Arbeitsvergabe"),
 ],
 "ELE": [
  ("Anpassung Brandmeldeanlage gemäss VKF-RL + Weisung 'Brandmeldeanlagen' GVZ + Stand der Technik; Projektunterlagen einreichen + genehmigen lassen", "Ziff. II.25 / II.3", "GVZ", "vor Arbeitsvergabe"),
@@ -208,10 +208,23 @@ legend_block("Hinweise", [
  "• Adress-Hinweis: offizielle Bauherrenadresse «Lenggstrasse 30» (GRUNER-Adressliste); Bauentscheid-Titel nennt «Lengstrasse 30» – bei Behörde verifizieren.",
  "• Status-Werte: offen / in Arbeit / eingereicht / genehmigt / erledigt / hinfällig.",
 ])
+legend_block("Planerverzeichnis (Kontakte)", [
+ "BRA  Jens Ziegel · Gruner AG · +41 43 299 74 32 · jens.ziegel@gruner.ch",
+ "HLK  Cekdar Duran · Gruner AG · +41 61 367 96 46 · cekdar.duran@gruner.ch",
+ "SAN  Mustafa Eren · Gruner AG · +41 61 367 95 96 · mustafa.eren@gruner.ch",
+ "SPR  Tim Harder · JOMOS Brandschutz AG, Sagmattstrasse 5, CH-4710 Balsthal · "
+ "+41 62 386 17 61 (Zentrale +41 62 386 17 17), Mobile +41 79 571 61 08 · tim.harder@jomos.ch",
+ "ELE  Yasarcan Cetin · Gruner AG · +41 61 367 96 34 · yasarcan.cetin@gruner.ch",
+ "FKO  Benjamin Kübler · Gruner AG · +41 61 367 96 44 · benjamin.kuebler@gruner.ch",
+ "ARC  Raphael Jans · Raphael Jans Architekten ETH, Grubenstrasse 37, 8045 Zürich · +41 79 846 11 65 · rj@raphaeljans.ch",
+ "BAU  Albin Spahic · Universitäts-Kinderspital Zürich (Leiter Technischer Dienst) · "
+ "+41 44 249 31 50, Mobile +41 76 838 31 50 · albin.spahic@kispi.uzh.ch",
+])
 
 # ------------------------------------------------------------------ Speichern
 OUT_PROJEKT = ("/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/"
- "JANS - 2619-KISPI - Dokumente/3 Umbauprojekt Neu/33.01_JANS/01 Dokumente Auflagebereinigung")
+ "JANS - 2619-KISPI - Dokumente/3 Umbauprojekt Neu/33.01_JANS/01 Dokumente Auflagebereinigung/"
+ "_Checklisten Architekt Plan und Dokumentenliste Komplette Auflagen Insgesamt")
 OUT_HUB = ("/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/"
  "AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/auflagebereinigung/2619-KISPI")
 FNAME = "260604-Plan-und-Dokumentenliste-Auflagebereinigung-2619-KISPI.xlsx"
