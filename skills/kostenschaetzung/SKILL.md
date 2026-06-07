@@ -71,6 +71,18 @@ Ergaenzend verfuegt JANS ueber eine interne Auswertung von 8 Referenzobjekten
 (mehrheitlich Altersheime & Gesundheitszentren). Diese wurde Wuest Partner zur
 Verfuegung gestellt und ist im E-Mail-Verlauf dokumentiert.
 
+### Wuest-Kostenbenchmarks WOHNBAU (CHF/m², Stand 2022/23)
+Quelle: `referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` (aufbereitet aus Wüest
+Academy P23D S. 32–34, Wüest Dimensions 2022 + SIA 2020 + BfS). Fuer **Wohnbau** (nicht Healthcare):
+- **Median Erstellungskosten BKP 1–5 ≈ CHF 4'360/m² HNF** (Wüest 2022); inkl. Teuerung mind. **4'800/m² HNF**.
+- Quantile Q1.0–Q5.0 fuer BKP 1–5 und BKP 2, je m² HNF und m² GF — siehe Referenz.
+- Bauweise: Massivbau 2023 Median ≈ 4'500, Holzbau ≈ 5'400 CHF/m² HNF (Holz +10–20 %).
+- JANS-Richtwert Wohnen MFH Neubau: **≈ 4'800 CHF/m² HNF** (Massiv), **≈ 5'400** (Holz); GF ≈ 3'100.
+- Teuerung-Pflicht: aeltere Benchmarks +10 %; +10–15 % hoehere Standards; ZH-Neubau +8.3 % (21/22).
+
+Schnelle m³-GV-Variante (eine A4-Seite, Volumen × Kennwert): Skill `grobkosten-onepager`
++ KB `wissen/grobkosten` (deren m³-Kennwerte sind an diese m²-Benchmarks angekoppelt).
+
 ### Bauteilkennwerte (Stueck-/Positions-Preise)
 ```
 skills/kostenschaetzung/bauteilkennwerte/
