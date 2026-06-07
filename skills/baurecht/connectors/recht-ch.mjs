@@ -73,6 +73,20 @@ const REGISTER = [
   { key: "RPG",   eli: "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de", titel: "Raumplanungsgesetz", sr: "SR 700", ebene: "Bund", seed: false, manuell: true },
 ];
 
+// --- Kommunale BZO (Kanton ZH) -------------------------------------------------
+// Der Kanton ZH haelt die amtlichen kommunalen Bau- und Zonenordnungen zentral im
+// OEREB-Dokumentdienst: https://oerebdocs.zh.ch/getDoc?docid=<n>  (amtlich, gemeinfrei).
+// Die docid je Gemeinde steht im OEREB-Auszug; mit `--resolve-bzo --egrid <E>` ermittelbar.
+// Hier nur VERIFIZIERTE docids (Rule identifikatoren-verifizieren — nie raten).
+const BZO_ZH = [
+  { key: "zuerich",          gemeinde: "Zürich (Stadt)",     docid: 6,    titel: "Bau- und Zonenordnung (BZO 2016)" },
+  { key: "langnau-am-albis", gemeinde: "Langnau am Albis",   docid: 5501, titel: "Bauordnung Langnau a. A." },
+];
+const OEREBDOC = (docid) => `https://oerebdocs.zh.ch/getDoc?docid=${docid}`;
+const OEREB_JSON = (egrid) => `https://maps.zh.ch/oereb/v2/extract/json?EGRID=${encodeURIComponent(egrid)}`;
+const slug = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 // --- Util ----------------------------------------------------------------------
 function parseArgs(argv) {
   const a = { erlass: [], out: [] };
@@ -175,32 +189,115 @@ async function holeErlass(e, L) {
   return { md, pdf, file };
 }
 
+// --- Kommunale BZO: aus OEREB-JSON die BZO-docid ermitteln ---------------------
+async function resolveBzoCandidates(egrid) {
+  const r = await fetch(OEREB_JSON(egrid), { headers: { "User-Agent": UA, Accept: "application/json" } });
+  if (!r.ok) throw new Error(`OEREB-JSON HTTP ${r.status} (EGRID ${egrid})`);
+  const d = await r.json();
+  const seen = new Map();
+  const walk = (o) => {
+    if (Array.isArray(o)) return o.forEach(walk);
+    if (o && typeof o === "object") {
+      const t = o.Title || o.OfficialTitle;
+      const title = typeof t === "string" ? t
+        : Array.isArray(t) ? t.map((x) => x && x.Text).filter(Boolean).join(" ") : "";
+      const web = o.TextAtWeb;
+      const url = typeof web === "string" ? web
+        : Array.isArray(web) ? (web.find((x) => x && x.Text) || {}).Text || "" : "";
+      const m = String(url).match(/getDoc\?docid=(\d+)/);
+      // BZO/Bauordnung-Textdokumente, keine Plaene
+      if (m && /Bauordnung|Bau-?\s*und\s*Zonenordnung|BZO/i.test(title) && !/plan\b/i.test(title)) {
+        seen.set(m[1], { docid: Number(m[1]), titel: title.trim(), url: String(url) });
+      }
+      Object.values(o).forEach(walk);
+    }
+  };
+  walk(d);
+  return [...seen.values()];
+}
+
+async function holeBzo(e, L) {
+  L(`· BZO ${e.gemeinde} (docid ${e.docid}) — oerebdocs.zh.ch ...`);
+  const url = OEREBDOC(e.docid);
+  const pdf = await fetchBuffer(url);
+  if (!pdf.slice(0, 5).toString().startsWith("%PDF")) {
+    throw new Error(`BZO ${e.gemeinde}: Antwort ist kein PDF (docid ${e.docid}).`);
+  }
+  const body = pdfBufferToText(pdf);
+  const fm = frontmatter({
+    quelle: "amtlich",
+    ebene: "Gemeinde (Kanton Zürich)",
+    erlass: `Bau- und Zonenordnung — ${e.gemeinde}`,
+    kuerzel: "BZO",
+    gemeinde: e.gemeinde,
+    docid: e.docid,
+    titel: e.titel || "",
+    quelle_url: url,
+    abgerufen: isoDate(),
+    lizenz: "Amtlicher Text — gemeinfrei (Art. 5 URG)",
+  });
+  const md = fm + `\n# Bau- und Zonenordnung — ${e.gemeinde}\n\n${e.titel || ""}\nAmtlicher Volltext (OEREB-Dokumentdienst Kt. ZH), abgerufen ${isoDate()}.\nQuelle: ${url}\n\n${body}\n`;
+  return { md, pdf };
+}
+
 // --- Main ----------------------------------------------------------------------
 (async () => {
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
 
   if (a.list) {
-    process.stdout.write("KEY    Ebene           Ordnung    Titel\n");
+    process.stdout.write("ERLASSE (kantonal/Bund)\nKEY    Ebene           Ordnung    Titel\n");
     for (const e of REGISTER) {
       process.stdout.write(
         `${e.key.padEnd(6)} ${e.ebene.padEnd(15)} ${(e.ls ? "LS " + e.ls : e.sr).padEnd(10)} ${e.titel}${e.seed ? "  [seed]" : ""}\n`
       );
     }
+    process.stdout.write("\nKOMMUNALE BZO (Kt. ZH, via oerebdocs.zh.ch)\nKEY                  docid   Gemeinde\n");
+    for (const e of BZO_ZH) {
+      process.stdout.write(`${e.key.padEnd(20)} ${String(e.docid).padEnd(7)} ${e.gemeinde}\n`);
+    }
     process.exit(0);
   }
 
-  let wahl;
-  if (a.all) wahl = REGISTER;
+  // BZO-Auflösung: aus einem EGRID die kommunale BZO-docid ermitteln (Hilfsmodus).
+  if (a["resolve-bzo"]) {
+    if (!a.egrid) { process.stderr.write("FEHLER: --resolve-bzo braucht --egrid <CHxx…>. EGRID per geo-zh.mjs aus einer Adresse holen.\n"); process.exit(1); }
+    try {
+      const cands = await resolveBzoCandidates(String(a.egrid).toUpperCase());
+      if (a.json) process.stdout.write(JSON.stringify(cands, null, 2) + "\n");
+      else if (!cands.length) process.stdout.write("Keine BZO-/Bauordnungs-Dokumente im OEREB-Auszug gefunden.\n");
+      else cands.forEach((c) => process.stdout.write(`docid ${c.docid}  ${c.titel}\n  ${c.url}\n`));
+      process.exit(0);
+    } catch (e) { process.stderr.write(`FEHLER: ${e.message}\n`); process.exit(1); }
+  }
+
+  // Auswahl der Erlasse (kantonal/Bund)
+  let wahl = [];
+  if (a.all) wahl = REGISTER.slice();
   else if (a.erlass.length) {
-    wahl = [];
     for (const k of a.erlass) {
       const e = REGISTER.find((x) => x.key.toLowerCase() === String(k).toLowerCase());
       if (!e) { process.stderr.write(`FEHLER: Unbekannter Erlass "${k}". --list zeigt das Register.\n`); process.exit(1); }
       wahl.push(e);
     }
   } else if (a.seed) wahl = REGISTER.filter((e) => e.seed);
-  else { process.stderr.write("Nichts gewaehlt. --seed, --all oder --erlass <KEY> (siehe --list).\n"); process.exit(1); }
+
+  // Auswahl der kommunalen BZO
+  let bzoWahl = [];
+  if (a["all-bzo"]) bzoWahl = BZO_ZH.slice();
+  else if (a.bzo) {
+    const keys = a.bzo === true ? [] : String(a.bzo).split(",");
+    for (const k of keys) {
+      const e = BZO_ZH.find((x) => x.key.toLowerCase() === k.toLowerCase());
+      if (!e) { process.stderr.write(`FEHLER: Unbekannte BZO "${k}". --list zeigt das Register.\n`); process.exit(1); }
+      bzoWahl.push(e);
+    }
+  }
+
+  if (!wahl.length && !bzoWahl.length) {
+    process.stderr.write("Nichts gewaehlt. --seed, --all, --erlass <KEY>, --bzo <key[,key]> oder --all-bzo (siehe --list).\n");
+    process.exit(1);
+  }
 
   const outDir = a.out.length ? a.out[0] : DEFAULT_OUT;
   if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true });
@@ -219,6 +316,24 @@ async function holeErlass(e, L) {
         writeFileSync(pdfPath, pdf);
         result.files.push(pdfPath);
         L(`  -> ${pdfPath} (PDF behalten)`);
+      }
+    } catch (err) {
+      result.fehler.push({ key: e.key, error: err.message });
+      L(`  ! ${e.key}: ${err.message}`);
+    }
+  }
+  for (const e of bzoWahl) {
+    try {
+      const { md, pdf } = await holeBzo(e, L);
+      const base = `${yymmdd()}_amtlich_zh_bzo-${slug(e.gemeinde)}`;
+      const mdPath = join(outDir, `${base}.md`);
+      writeFileSync(mdPath, md);
+      result.files.push(mdPath);
+      L(`  -> ${mdPath} (${(md.length / 1024).toFixed(0)} KB Text)`);
+      if (a["keep-pdf"] && pdf) {
+        const pdfPath = join(outDir, `${base}.pdf`);
+        writeFileSync(pdfPath, pdf);
+        result.files.push(pdfPath);
       }
     } catch (err) {
       result.fehler.push({ key: e.key, error: err.message });

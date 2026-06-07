@@ -31,6 +31,33 @@ zitiert, nie reproduziert). Der konsolidierte Gesetzestext ist die verlässlichs
 Im Connector-Register zusätzlich verfügbar (nicht im Seed): VErV (LS 700.4),
 SGV (LS 700.3), VKaB (LS 700.11) — bei Bedarf mit `--erlass <KEY>` ziehen.
 
+## Kommunale BZO (Kanton ZH)
+
+Der Kanton hält die amtlichen kommunalen Bau- und Zonenordnungen zentral im
+ÖREB-Dokumentdienst `oerebdocs.zh.ch/getDoc?docid=<n>` (gemeinfrei). Die `docid` je
+Gemeinde steht im ÖREB-Auszug und wird automatisch aufgelöst.
+
+| Gemeinde | docid | Datei in `raw/` |
+|---|---|---|
+| Zürich (Stadt) — BZO 2016 | 6 | `260607_amtlich_zh_bzo-zurich-stadt.md` |
+| Langnau am Albis | 5501 | `260607_amtlich_zh_bzo-langnau-am-albis.md` |
+
+**Neue ZH-Gemeinde hinzufügen** (nur eine Adresse nötig):
+
+```bash
+# 1) EGRID aus einer Adresse der Gemeinde holen:
+node skills/planungsgrundlagen/connectors/geo-zh.mjs --adresse "<Strasse Nr Ort>" --quiet
+# 2) BZO-docid aus dem ÖREB-Auszug ermitteln:
+node skills/baurecht/connectors/recht-ch.mjs --resolve-bzo --egrid <EGRID>
+# 3) docid ins Register BZO_ZH im Connector eintragen, dann:
+node skills/baurecht/connectors/recht-ch.mjs --bzo <gemeinde-key>
+```
+
+**Offen / anderer Kanton:** Wangen beim Obersee (SZ) und die Zürichsee-Gemeinden in
+Kt. Schwyz (Freienbach, Wollerau, Feusisberg) bzw. Kt. St. Gallen (Rapperswil-Jona,
+Schmerikon) liegen NICHT im ZH-ÖREB — sie brauchen die ÖREB-Dienste ihrer Kantone
+(eigene Bezugskette, noch nicht verifiziert).
+
 ## Lücken / offen
 
 - **Bund (Fedlex):** RPG (SR 700), RPV (SR 700.1), USG, GSchG etc. — Fedlex liefert den

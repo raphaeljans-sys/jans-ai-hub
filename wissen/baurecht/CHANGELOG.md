@@ -9,6 +9,9 @@ Format: `- [aktion] Beschreibung (Artikel/Datei)`
 - [ingest] 5 amtliche ZH-Volltexte als Primärquelle in raw/ abgelegt: PBG (LS 700.1), ABV (700.2), BVV (700.6), BBV I (700.21), BBV II (700.22) — gemeinfrei Art. 5 URG, Direktkonsultation. In _INGESTED.md registriert (kein Coverage-Flag).
 - [compile] Quellenregister [[QUELLEN]] angelegt (wiki/QUELLEN.md); in INDEX verlinkt; Statistik nachgeführt.
 - [flag] Bund-Volltexte (RPG/RPV/USG) offen: Fedlex JS-gerendert → Auto-Fetch v2; bis dahin SharePoint/fedlex.admin.ch. In QUELLEN.md notiert.
+- [tooling] Connector um kommunale BZO (Kt. ZH) erweitert: Bezug via ÖREB-Dokumentdienst oerebdocs.zh.ch/getDoc?docid; Auto-Auflösung Gemeinde→docid über ÖREB-JSON-Extrakt (--resolve-bzo --egrid). Register BZO_ZH (nur verifizierte docids).
+- [ingest] 2 kommunale BZO-Volltexte als Primärquelle: Zürich Stadt (BZO 2016, docid 6) + Langnau am Albis (docid 5501) — gemeinfrei, Direktkonsultation. In _INGESTED + QUELLEN registriert.
+- [flag] Wangen b. Obersee (SZ) + Zürichsee-Gemeinden SZ/SG offen: ausserhalb ZH-ÖREB, eigene Kantons-Dienste nötig (noch nicht verifiziert).
 
 ## 2026-06-02
 - [compile] Neuer Artikel raumplanung-und-gestaltung (aus pbg-zh: Richtplan, Nutzungsplanung, Sondernutzung, §238 Einordnung, Denkmalschutz); gegenseitig verlinkt mit zonenkonformitaet + baubewilligungsverfahren; INDEX + _INGESTED nachgefuehrt. [Phase-2-Aktion D]
