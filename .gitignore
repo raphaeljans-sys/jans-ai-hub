@@ -20,6 +20,7 @@ package-lock.json
 # Transiente Laufzeit-Daten (NICHT versionieren)
 output/
 sync-tasks/
+dispatch/
 *.log
 
 # Schwere Referenz-Binaerdateien — leben auf dem NAS, gehoeren NICHT ins Git
