@@ -145,10 +145,17 @@ def cmd_search(args):
 def cmd_read(args):
     M = connect_imap(args.user)
     M.select(f'"{args.folder}"', readonly=True)
-    typ, msgdata = M.uid("fetch", str(args.uid), "(RFC822)")
-    if typ != "OK" or not msgdata or msgdata[0] is None:
+    typ, msgdata = M.uid("fetch", str(args.uid), "(BODY.PEEK[])")
+    if typ != "OK" or not msgdata:
         sys.exit(f"UID {args.uid} in '{args.folder}' nicht gefunden.")
-    msg = email.message_from_bytes(msgdata[0][1])
+    raw = None
+    for part in msgdata:
+        if isinstance(part, tuple) and len(part) >= 2 and isinstance(part[1], (bytes, bytearray)):
+            raw = part[1]
+            break
+    if raw is None:
+        sys.exit(f"UID {args.uid}: keine Rohdaten im Fetch-Response.")
+    msg = email.message_from_bytes(raw)
     print("=" * 70)
     print(f"Von:     {_dec(msg.get('From'))}")
     print(f"An:      {_dec(msg.get('To'))}")

@@ -4,6 +4,12 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-07
+- [tooling] Connector `skills/baurecht/connectors/recht-ch.mjs` gebaut: zieht amtliche, konsolidierte Gesetzes-Volltexte (ZH-Lex; Bund-v2 offen) als Markdown mit Provenienz-Frontmatter nach raw/. ZH-Kette verifiziert (Open&Ordnr → kanonische Erlassseite → notes.zh.ch $File-PDF → pdftotext).
+- [ingest] 5 amtliche ZH-Volltexte als Primärquelle in raw/ abgelegt: PBG (LS 700.1), ABV (700.2), BVV (700.6), BBV I (700.21), BBV II (700.22) — gemeinfrei Art. 5 URG, Direktkonsultation. In _INGESTED.md registriert (kein Coverage-Flag).
+- [compile] Quellenregister [[QUELLEN]] angelegt (wiki/QUELLEN.md); in INDEX verlinkt; Statistik nachgeführt.
+- [flag] Bund-Volltexte (RPG/RPV/USG) offen: Fedlex JS-gerendert → Auto-Fetch v2; bis dahin SharePoint/fedlex.admin.ch. In QUELLEN.md notiert.
+
 ## 2026-06-02
 - [compile] Neuer Artikel raumplanung-und-gestaltung (aus pbg-zh: Richtplan, Nutzungsplanung, Sondernutzung, §238 Einordnung, Denkmalschutz); gegenseitig verlinkt mit zonenkonformitaet + baubewilligungsverfahren; INDEX + _INGESTED nachgefuehrt. [Phase-2-Aktion D]
 - [flag] needs-verification gesetzt: Gebuehren 1-3‰ (baubewilligungsverfahren), Waldabstand-Ausnahmen 20/10m (abstaende-und-hoehen), BZO-Richtwerte (zonenkonformitaet); in QUESTIONS.md gefuehrt. [Phase-2-Aktion C]

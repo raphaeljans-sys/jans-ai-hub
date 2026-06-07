@@ -3,6 +3,9 @@
 Inhaltsverzeichnis aller Wiki-Artikel. Vom Bibliothekar gepflegt; bei jedem neuen
 oder umbenannten Artikel aktualisieren.
 
+## Amtliche Quellen (erste Konsultationsstufe)
+- [[QUELLEN]] — Register der amtlichen Gesetzes-Volltexte in `raw/` (PBG, ABV, BVV, BBV I/II; gemeinfrei Art. 5 URG, via Connector `recht-ch.mjs`) · *established*
+
 ## Fokus-Bereiche & Artikel
 
 ### Mass der Nutzung
@@ -28,7 +31,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Gewässerabstand (in baubewilligungsverfahren erwähnt, eigener Artikel offen)
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-02, nach 1. Health-Check)
-- Artikel im Wiki: 5
-- Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (pbg-zh eingearbeitet; praxisfaelle ist leer)
+## Statistik (Stand 2026-06-07)
+- Artikel im Wiki: 5 + QUELLEN-Register
+- Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 (PBG, ABV, BVV, BBV I, BBV II)
+- Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)
 - Letzter Health-Check: 2026-06-02 (A0 B0 C3 D1 E0 F1 G0) → outputs/2026-06-02_health-check.md

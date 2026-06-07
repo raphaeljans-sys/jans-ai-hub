@@ -69,8 +69,8 @@ const REGISTER = [
   { key: "VErV",  ls: "700.4",  titel: "Verkehrserschliessungsverordnung",        ebene: "Kanton Zürich", seed: false },
   { key: "SGV",   ls: "700.3",  titel: "Sondergebrauchsverordnung",               ebene: "Kanton Zürich", seed: false },
   { key: "VKaB",  ls: "700.11", titel: "Verordnung über Kleinsiedlungen ausserhalb der Bauzonen", ebene: "Kanton Zürich", seed: false },
-  // Bund (Fedlex) — ELI verifiziert
-  { key: "RPG",   eli: "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de", titel: "Raumplanungsgesetz", sr: "SR 700", ebene: "Bund", seed: true },
+  // Bund (Fedlex) — ELI verifiziert, aber Volltext nur JS-gerendert (manuell/v2, kein Auto-Fetch)
+  { key: "RPG",   eli: "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de", titel: "Raumplanungsgesetz", sr: "SR 700", ebene: "Bund", seed: false, manuell: true },
 ];
 
 // --- Util ----------------------------------------------------------------------
@@ -146,20 +146,9 @@ function frontmatter(obj) {
 
 async function holeErlass(e, L) {
   if (e.ebene === "Bund") {
-    L(`· ${e.key} (${e.sr}) — Fedlex ...`);
-    const { text: html, finalUrl } = await fetchText(e.eli);
-    const body = htmlToText(html);
-    const fm = frontmatter({
-      quelle: "amtlich",
-      ebene: e.ebene,
-      erlass: `${e.titel} (${e.key})`,
-      kuerzel: e.key,
-      ordnungsnummer: e.sr,
-      quelle_url: e.eli,
-      abgerufen: isoDate(),
-      lizenz: "Amtlicher Text — gemeinfrei (Art. 5 URG)",
-    });
-    return { md: fm + `\n# ${e.titel} (${e.key}) — ${e.sr}\n\nAmtlicher Volltext (Bund), abgerufen ${isoDate()} via Fedlex.\nQuelle: ${finalUrl}\n\n${body}\n`, pdf: null };
+    // Fedlex liefert den Volltext nur JS-gerendert; ein reiner fetch() bekommt nur die Huelle.
+    // Bis die Fedlex-Manifestations-Aufloesung (SPARQL/Filestore) steht, kein Auto-Fetch.
+    throw new Error(`Bund-Volltext (${e.sr}) aktuell nur manuell beziehbar — Fedlex ist JS-gerendert. Quelle: ${e.eli} (v2-Aufgabe).`);
   }
   // Kanton ZH
   L(`· ${e.key} (LS ${e.ls}) — ZH-Lex aufloesen ...`);
@@ -204,11 +193,12 @@ async function holeErlass(e, L) {
   let wahl;
   if (a.all) wahl = REGISTER;
   else if (a.erlass.length) {
-    wahl = a.erlass.map((k) => {
+    wahl = [];
+    for (const k of a.erlass) {
       const e = REGISTER.find((x) => x.key.toLowerCase() === String(k).toLowerCase());
-      if (!e) throw new Error(`Unbekannter Erlass "${k}". --list zeigt das Register.`);
-      return e;
-    });
+      if (!e) { process.stderr.write(`FEHLER: Unbekannter Erlass "${k}". --list zeigt das Register.\n`); process.exit(1); }
+      wahl.push(e);
+    }
   } else if (a.seed) wahl = REGISTER.filter((e) => e.seed);
   else { process.stderr.write("Nichts gewaehlt. --seed, --all oder --erlass <KEY> (siehe --list).\n"); process.exit(1); }
 
