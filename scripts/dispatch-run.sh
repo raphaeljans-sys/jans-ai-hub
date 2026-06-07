@@ -42,9 +42,13 @@ PERM_MODE="${DISPATCH_PERMISSION_MODE:-acceptEdits}"
 MAX_BUDGET="${DISPATCH_MAX_BUDGET_USD:-5}"
 
 # Log-/Audit-Verzeichnis: NAS (von jeder Station + Handy einsehbar), Fallback lokal.
+# Direkt das NAS-Verzeichnis anlegen versuchen; nur bei Fehlschlag (NAS nicht
+# gemountet) lokal ausweichen.
 LOG_DIR="${DISPATCH_LOG_DIR:-/Volumes/daten/jans-ai-hub/dispatch/log}"
-[ -d "$(dirname "$LOG_DIR")" ] 2>/dev/null || LOG_DIR="$HOME/.jans-dispatch-log"
-mkdir -p "$LOG_DIR" 2>/dev/null || { LOG_DIR="$HOME/.jans-dispatch-log"; mkdir -p "$LOG_DIR"; }
+if ! mkdir -p "$LOG_DIR" 2>/dev/null; then
+    LOG_DIR="$HOME/.jans-dispatch-log"
+    mkdir -p "$LOG_DIR"
+fi
 
 # --- Auftrag einlesen (Argumente ODER stdin) --------------------------------
 if [ "$#" -gt 0 ]; then
