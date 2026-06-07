@@ -23,16 +23,18 @@ oder umbenannten Artikel aktualisieren.
 ### Planung & Gestaltung
 - [[raumplanung-und-gestaltung]] — Richtplan, Nutzungsplanung, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
 
+### Bauen im Bestand
+- [[bestandsumbau-eingriffstiefe]] — Grundprinzip: Eingriffstiefe entscheidet über die Baueingabe; was eine Baueingabe auslöst (Brandschutz/Treppenhaus, Schallschutz SIA 181, Ausnützungsnachweis); Besitzstandsgarantie schützt nur Erhalt (nicht Ausweitung), behördlicher Ermessensspielraum; bewilligungsfreier Umbau = sicherste Variante · *established*
+
 ## Noch nicht angelegt (Backlog / Lücken)
 Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
-- Bauen im Bestand / im Betrieb (Healthcare-Spezifika)
-- Bestandesschutz & Besitzstandsgarantie
+- Bauen im Bestand / im Betrieb (Healthcare-Spezifika; Grundprinzip steht in [[bestandsumbau-eingriffstiefe]])
 - Dispens / Ausnahmebewilligung
 - Gewässerabstand (in baubewilligungsverfahren erwähnt, eigener Artikel offen)
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
 ## Statistik (Stand 2026-06-07)
-- Artikel im Wiki: 5 + QUELLEN-Register
+- Artikel im Wiki: 6 + QUELLEN-Register
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)
