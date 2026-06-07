@@ -44,7 +44,10 @@ const UA = "jans-ai-hub-geozh/1.0 (rj@raphaeljans.ch)";
 // BFS-Bereiche dienen nur der Auto-Erkennung des Kantons aus der amtlichen Vermessung.
 const OEREB_SERVICE = {
   zh: (egrid) => `https://maps.zh.ch/oereb/v2/extract/pdf.pdf?EGRID=${encodeURIComponent(egrid)}`,
-  // sz: (egrid) => `...`,   // TODO: Schwyz-Endpunkt ergaenzen (eigener Service)
+  // SZ validiert 07.06.2026 (Fall 2304 Reckholdern). Achtung: SZ-Server liefert nur einen
+  // Timestamp-Dateinamen — fuer SZ besser den dedizierten Connector geo-sz.mjs nutzen
+  // (Parzellensuche + JANS-Umbenennung). Hier nur fuer den EGRID-Direktbezug hinterlegt.
+  sz: (egrid) => `https://map.geo.sz.ch/oereb/extract/pdf?EGRID=${encodeURIComponent(egrid)}`,
 };
 // grobe BFS->Kanton-Zuordnung (nur die fuer JANS relevanten Kantone; sonst undefined)
 function kantonFromBfs(bfs) {
