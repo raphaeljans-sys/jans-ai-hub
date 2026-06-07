@@ -77,19 +77,22 @@ Connector. Bestand (Stand 2026-06-07):
 | Wangen (SZ) | 2544 | `260607_amtlich_sz_baur-wangen-sz.md` | Volltext |
 | Freienbach | 3036 | `260607_amtlich_sz_baur-freienbach.md` | Volltext (Basis 1994; Änderungen att 3037/3449/3896 separat) |
 | Feusisberg | 3915 | `260607_amtlich_sz_baur-feusisberg.md` | Volltext (Stand 2022) |
-| Wollerau | 4086 | `260607_amtlich_sz_baur-wollerau.md` | **OCR-Pendenz** — Bild-PDF ohne Textebene; OCR (ocrmypdf/tesseract) nötig |
+| Wollerau | 4086 | `260607_amtlich_sz_baur-wollerau.md` | Volltext via **OCR** (Bild-PDF; ocrmypdf/tesseract deu — kann OCR-Fehler enthalten) |
+
+Bild-PDFs (Scans ohne Textebene) lassen sich mit dem Flag `--ocr` per ocrmypdf/tesseract
+(Sprachpaket `deu`) extrahieren — z.B. Wollerau wurde so gewonnen.
 
 ## Offen / Pendenzen
 
-- **Wollerau (SZ):** OEREBlex-PDF ist ein Scan ohne Textebene → OCR nachziehen
-  (ocrmypdf installieren, dann erneut extrahieren).
-- **Freienbach (SZ):** SZ-OEREBlex führt Baureglement als Basis + separate
+- **Freienbach (SZ):** SZ-OEREBlex führt Baureglement als Basis (att 3036) + separate
   Änderungsdokumente (keine konsolidierte Einzel-PDF). Bei Detailfragen Änderungen
   att 3037/3449/3896 mitlesen.
-- **Kanton SG (Rapperswil-Jona, Schmerikon):** OEREBlex-Host `oereblex.sg.ch` existiert,
-  aber der SG-ÖREB-M2M-Extrakt-Endpunkt liegt hinter der Viewer-SPA (`oereb.geo.sg.ch`)
-  und ist noch nicht gefunden → attachmentId je Gemeinde noch offen. Sobald der
-  SG-Extrakt-Endpunkt steht, analog SZ ins Register `BAUREGL_SG` aufnehmen.
+- **Kanton SG (Rapperswil-Jona, Schmerikon):** SG-ÖREB läuft über `geoportal.ch`
+  (Viewer `oereb.geo.sg.ch`). Der M2M-Extrakt `geoportal.ch/services/oereb/extract/*`
+  ist **403-gesperrt** (IP-/Token-Gating) — ohne Freischaltung kein Auto-Bezug.
+  Bis dahin die 2 Baureglemente manuell (Gemeinde/Viewer) beziehen. Sobald der Endpunkt
+  offen ist, analog SZ ins Register `BAUREGL_SG` aufnehmen.
+- **Bund (Fedlex):** RPG/RPV/USG nur JS-gerendert → Manifestations-Auflösung v2.
 
 ## Lücken / offen
 

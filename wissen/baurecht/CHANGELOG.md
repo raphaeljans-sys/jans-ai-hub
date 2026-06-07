@@ -14,7 +14,9 @@ Format: `- [aktion] Beschreibung (Artikel/Datei)`
 - [ingest] ZH-Batch: 42 weitere kommunale BZO-Volltexte (Zürichsee-Ufer + Agglo-Ring) via ÖREB-Auto-Resolver (Name→EGRID→ÖREB-JSON→docid) gezogen; docids verifiziert, Fusionsgemeinden (Wädenswil) per Adress-Anker geprüft. Total 44 ZH-Gemeinden. Register BZO_ZH + QUELLEN nachgeführt.
 - [tooling] SZ-Track gebaut: kommunale Baureglemente Kt. SZ via OEREBlex (oereblex.sz.ch/api/attachments), Auflösung über map.geo.sz.ch/oereb/extract/json. Register BAUREGL_SZ.
 - [ingest] SZ-Batch: Baureglemente Wangen SZ, Freienbach, Feusisberg als Volltext; Wollerau als OCR-Pendenz markiert (Bild-PDF ohne Textebene). Schutzlogik im Connector: leere Extraktion wird ehrlich gekennzeichnet statt als Volltext getarnt.
-- [flag] SG-Track offen: oereblex.sg.ch existiert, aber SG-ÖREB-M2M-Endpunkt hinter Viewer-SPA noch nicht gefunden → Rapperswil-Jona/Schmerikon pendent (in QUELLEN notiert).
+- [tooling] OCR-Fallback im Connector (`--ocr`): leere Extraktion (Bild-PDF) wird via ocrmypdf/tesseract (deu) nachgeholt und als OCR-Text gekennzeichnet.
+- [ingest] Wollerau (SZ) Baureglement via OCR gewonnen (81 KB) — nicht mehr Pendenz. Damit alle 4 SZ-Gemeinden Volltext.
+- [flag] SG-Track (Rapperswil-Jona/Schmerikon): SG-ÖREB läuft über geoportal.ch; M2M-Extrakt 403-gesperrt (IP/Token) → ohne Freischaltung kein Auto-Bezug, bleibt Pendenz (in QUELLEN notiert).
 
 ## 2026-06-02
 - [compile] Neuer Artikel raumplanung-und-gestaltung (aus pbg-zh: Richtplan, Nutzungsplanung, Sondernutzung, §238 Einordnung, Denkmalschutz); gegenseitig verlinkt mit zonenkonformitaet + baubewilligungsverfahren; INDEX + _INGESTED nachgefuehrt. [Phase-2-Aktion D]
