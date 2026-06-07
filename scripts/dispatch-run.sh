@@ -131,10 +131,12 @@ echo "    Log     : $LOG_FILE"
 echo "────────────────────────────────────────────────────────────"
 
 # --- Headless-Lauf durch den JANS-Harness -----------------------------------
+# stdin auf /dev/null: der Auftrag steckt im Argument; claude soll nicht 3s auf
+# pipe-stdin warten (Warnung "no stdin data received in 3s").
 "$CLAUDE_BIN" -p "$TASK" \
     --permission-mode "$PERM_MODE" \
     --max-budget-usd "$MAX_BUDGET" \
-    --output-format text 2>&1 | tee -a "$LOG_FILE"
+    --output-format text < /dev/null 2>&1 | tee -a "$LOG_FILE"
 RC=${PIPESTATUS[0]}
 
 {
