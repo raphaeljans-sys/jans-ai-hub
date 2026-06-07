@@ -1,116 +1,112 @@
 ---
 name: 2026-06-07_buch-run0_dachausbau-wangen-chaled
 typ: Anwendungsfall (Trainingsmodell B — Fall-Nachrechnung)
-fall: Dachgeschoss-Analyse Mehrfamilienhaus mit Arztpraxis, Wangen, Bahnhofstrasse 27, Parz. 25
+fall: Dachgeschoss-Analyse Mehrfamilienhaus mit Arztpraxis, Wangen SZ, Bahnhofstrasse 27, Parz. 25
 anfrage: David Chaled (drdavidchaled@gmail.com), Mail «Ausbau Dachgeschoss» 2026-06-07
-quellen_buch: ["Bd 2, Kap. 14, S. 919-961 (Ausnuetzung/Anrechnung)"]
-status: erste Einschaetzung (Buch-Bootstrap) — Kanton + Kennwerte offen
+kanton: SZ (Wangen, Bezirk March, 8855) — hergeleitet, siehe Punkt 0
+quellen_buch: ["Bd 2, Kap. 14, S. 919-961 (Methodik Ausnuetzung/Anrechnung)"]
+quellen_recht: ["BauR Wangen SZ Art. 27 (Dachausbau), Art. 31 (Geschosszahl/Vollgeschoss), Art. 28; § 60 PBG SZ"]
+status: belastbare Ersteinschaetzung — Zone + DG-Flaeche ≥1.80 m noch zu verifizieren
 last_updated: 2026-06-07
 ---
 
-# Dachgeschoss Wangen, Bahnhofstrasse 27 — baurechtliche Ersteinschaetzung
+# Dachgeschoss Wangen SZ, Bahnhofstrasse 27 — baurechtliche Ersteinschaetzung
 
-> Erster Anwendungsfall des Buch-Trainings. Methodik + § aus dem Standardwerk
-> «Zuercher Planungs- und Baurecht» (Bd 1+2). **Achtung Kanton:** siehe Punkt 0.
+> Erster Anwendungsfall des Buch-Trainings. **Buch = Methodik** (Zuercher Standardwerk),
+> **binding = Schwyzer Recht** (BauR Wangen SZ + PBG SZ), weil das Objekt in Wangen **SZ** liegt.
 
-## 0. Entscheidender Vorbehalt — welcher Kanton / welche Gemeinde?
+## 0. Kanton — hergeleitet (das Dokument nennt ihn nicht ausdruecklich)
 
-«Wangen, Bahnhofstrasse 27» ist nicht eindeutig. In der KB liegen **zwei** Baureglemente:
-- **Wangen SZ** (Bezirk March) — `raw/…_amtlich_sz_baur-wangen-sz.md`
-- **Wangen-Bruettisellen ZH** (Bezirk Buelach) — `raw/…_amtlich_zh_bzo-wangen-bruttisellen.md`
+Die GRULÉR-Vermessung nennt nur «Wangen, Bahnhofstrasse 27, Parz. 25» — **ohne Kanton/PLZ**.
+Hergeleitet ueber den **Vermesser**: GRULÉR GmbH sitzt in **Richterswil ZH** (Seestrasse 53,
+8805), am oberen Zuerichsee an der Grenze zur March/Hoefe. Das naheliegende «Wangen» ist
+**Wangen SZ** (Bezirk March, PLZ **8855**, mit Bahnhofstrasse) — nicht das ~40 km entfernte
+Wangen-Bruettisellen ZH im Glattal. Bestaetigt: Wangen SZ hat eine Bahnhofstrasse (local.ch)
+und Arztpraxen. **→ Es gilt Schwyzer Recht.** (Letzte Bestaetigung: Parzelle 25 im SZ-GIS.)
 
-Das ist **entscheidend**: Liegt das Objekt in **SZ**, gelten das SZ-PlanungsG/PBV und das
-Baureglement Wangen SZ — die hier zitierten Zuercher §§ gelten dann nur **sinngemaess
-(gleiche Methodik, andere Paragraphen/Werte)**. **Vor jeder verbindlichen Aussage Kanton
-+ Gemeinde + Parzelle 25 (Zone, Ausnuetzungsmass, Parzellenflaeche) klaeren.**
+Folge: Das Zuercher Standardwerk liefert **Begriffe und Methodik**; die **verbindlichen Werte**
+stehen im **Baureglement Wangen SZ** (in der KB: `raw/…_amtlich_sz_baur-wangen-sz.md`) und im
+**PBG/PBV SZ**.
 
 ## 1. Bestand (aus GRULÉR-Gebaeudevermessung, 14.01.26, SIA 416)
 
 | Geschoss | GF (m²) | HNF (m²) | Nutzung |
 |----------|---------|----------|---------|
 | UG | 298.8 | — | Garagen (3+), Keller, Heizung/Tank, Luftschutz |
-| EG | 240.1 | 175.4 | **Arztpraxis** (Sprech-/Untersuchung/Roentgen/Labor) |
+| EG | 240.1 | 175.4 | **Arztpraxis** |
 | OG1 | 223.9 | 166.9 | **2 Wohnungen**: WHG 1 4.5-Zi 105.0 m², WHG 2 2.5-Zi 61.9 m² |
 | OG2 | 152.3 | 117.7 | Teil von WHG 3 |
 | DG | 107.3 | 78.0 | Teil von WHG 3 (Wohnessküche, 3 Zimmer, Wirtschaftsraum, Estrich) |
 | **Total** | **1'022.4** | **538.0** | |
 
-- **WHG 3** = 7.5-Zi-**Maisonette OG2 + DG**, 195.7 m² — das ist die «grosse, in die Jahre
-  gekommene Wohnung», um die es geht.
-- **Schnitt:** DG-Boden +7.93, First +12.05; Aufbau-Hoehe DG ~4.1 m, aber unter Dachschraege
-  teils nur **1.90-1.94 m** lichte Hoehe; im Plan die **1.50-m-Hoehenlinie** (Grenze nutzbarer
-  Flaeche) eingezeichnet. Gebaeude hat **Lift** (Maschinenraum im DG).
-- Geschossigkeit: EG + OG1 + OG2 als Vollgeschosse, **DG als echtes Dachgeschoss** (Schraege) —
-  zu verifizieren am Vollgeschoss-/Dachgeschoss-Begriff (§ 276 PBG, Kap. 16).
+- «Grosse, veraltete Wohnung» = **WHG 3**, 7.5-Zi-**Maisonette OG2 + DG**, 195.7 m².
+- Schnitt: DG-Boden +7.93, First +12.05; Gebaeude hat **Lift**. Unter der Dachschraege teils
+  nur ~1.90 m; im Plan die **1.50-m-Hoehenlinie** (Orientierung) eingezeichnet.
 
-## 2. Frage «Ausbau/Umbau ja oder nein?» — die Ausnuetzung entscheidet
+## 2. Kernregel Wangen SZ — Dachausbau ist anrechnungsfrei bis 2/3 (Art. 27 BauR)
 
-Massgeblich ist die **Ausnuetzungsziffer** (Bd 2, Kap. 14, S. 938):
-`AZ = anrechenbare Wohn-/Arbeitsraeume in Vollgeschossen / massgebliche Grundstuecksflaeche`
-(§ 254 Abs. 1 PBG ZH).
+> **Art. 27 BauR Wangen SZ:** In Wohnbauten in den Wohn-/Wohn-Gewerbezonen kann das
+> Dachgeschoss ausgebaut werden, **ohne dass die Geschossflaeche zur anrechenbaren
+> Bruttogeschossflaeche (BGF) gezaehlt wird**, sofern:
+> - a) die **BGF ≤ 2/3 der Grundflaeche des darunterliegenden Vollgeschosses** (bei
+>   **Satteldach nur Bodenflaechen mit lichter Raumhoehe ab 1.80 m** angerechnet);
+> - b) **Kniestockhoehe ≤ 1.20 m** (bei Satteldach, ab OK rohe Decke bis Schnittlinie Fassade);
+> - c) der Ausbau die **Projektionslinie zwischen zulaessiger Gebaeude- und Firsthoehe** an den
+>   Laengsfassaden **nicht schneidet** (§ 60 Abs. 3 lit. c PBG SZ);
+> - d) uebrige Bauvorschriften (Art. 32 BauR etc.) eingehalten.
 
-**Schluessel fuer Dachausbau — Mehrflaechenregel (§ 255 Abs. 2 PBG ZH, S. 950 f.):**
-Raeume im **Dachgeschoss** zaehlen **nicht voll** zur Ausnuetzung. Anrechenbar ist nur die
-**Mehrflaeche** ueber der Schwelle
-`gesamte zulaessige Ausnuetzung ÷ Zahl der zulaessigen Vollgeschosse` je Geschoss.
-→ Ein bestehendes, bereits wohngenutztes DG ist also ausnuetzungsmaessig **privilegiert**;
-ein blosser **Innenausbau ohne Flaechen-/Volumenvermehrung** belastet die AZ kaum zusaetzlich.
+**Nachrechnung der Schwelle:** darunterliegendes Vollgeschoss = **OG2 (Grundflaeche 152.3 m²)**.
+`2/3 × 152.3 = 101.5 m²`. Anrechenbar ist die **DG-Bodenflaeche mit lichter Hoehe ≥ 1.80 m**
+(nicht die volle GF 107.3): liegt diese **≤ 101.5 m²**, ist der Ausbau **anrechnungsfrei**.
+- DG-HNF ist 78.0 m² → die ≥1.80-m-Flaeche duerfte **unter 101.5 m²** liegen → **gute Chance,
+  dass der Ausbau ohne Ausnuetzungsbelastung zulaessig ist.** Genau zu ermitteln aus den
+  Plaenen (Flaeche innerhalb der 1.80-m-Linie) — die GRULÉR-Plaene liefern die 1.50-m-Linie;
+  fuer Art. 27 ist die **1.80-m-Linie** massgebend.
 
-**Damit ist die Kernfrage:** Wie viel **AZ-Reserve** hat Parz. 25 noch?
-- Dazu fehlen: **Zone**, **zulaessige AZ** (bzw. das kantonale Mass), **Parzellenflaeche**,
-  und die heute **ausgeschoepfte** anrechenbare GF. (Reserve = zulaessig − bestehend.)
-- Bezugsquellen: Baureglement/BZO der richtigen Gemeinde (in KB vorhanden), GIS (maps.zh.ch
-  bzw. SZ-GIS), Grundbuch/Parzellenflaeche.
+## 3. Die Vollgeschoss-Falle (Art. 31 BauR) — wichtigste Restriktion
 
-**Vorlaeufige Tendenz:** Ein **Ausbau/Umbau im bestehenden Volumen ist baurechtlich i.d.R.
-gut machbar** (Bestandesbauten mit DG-Wohnnutzung sind ausnuetzungsmaessig beguenstigt).
-Verbindlich erst nach AZ-Reserve-Rechnung.
+> **Art. 31 Abs. 3 BauR:** Dach-/Attikageschosse **gelten als Vollgeschoss**, wenn ihre
+> anrechenbare BGF **mehr als 2/3 derjenigen des darunterliegenden Vollgeschosses** betraegt.
 
-## 3. «Welche Moeglichkeiten beim Ausbauen?»
+Dieselbe ~101.5-m²-Schwelle: Ueberschreitet die anrechenbare DG-BGF sie, **zaehlt das DG als
+Vollgeschoss** und damit zur **Geschosszahl** der Zone. Dann droht eine Verletzung der
+zulaessigen Geschosszahl (Wangen SZ kennt Kernzone, W2, W2NS, W2O, W3, W4). **→ Vor dem Ausbau
+die Zone von Parz. 25 und die zulaessige Geschosszahl klaeren.** Heute: EG + OG1 + OG2 = 3
+Vollgeschosse + DG. Bleibt das DG unter 2/3, ist es **kein** Vollgeschoss — unkritisch.
 
-| Variante | Baurechtlich | Hinweis |
-|----------|--------------|---------|
-| **A — Innensanierung im Volumen** (gleiche Aussenhuelle) | am unkompliziertesten; nur wo Aufenthaltsraeume tangiert: **Raumhoehen/Wohnhygiene** (Kap. 17) | bewilligungspflichtig sobald aussen sichtbar/strukturell; sonst meldearm |
-| **B — Dachaufbauten/Lukarnen, neue Dachflaechenfenster** | gewinnt Kopfhoehe + nutzbare Flaeche, loest aber **Dachgestaltung/Gebaeudehoehe** (Kap. 16) aus; allenfalls **AZ-Mehrflaeche** | Mass der zulaessigen Aufbauten je Gemeinde sehr unterschiedlich |
-| **C — Vollausbau Estrich/Wirtschaftsraum zu Wohnen** | Flaeche kann ueber die Mehrflaechen-Schwelle treten → **AZ-relevant** | Eignung (Belichtung/Hoehe) noetig — vgl. S. 944 f. |
+## 4. «Welche Moeglichkeiten?» und «Zwei Wohnungen?»
 
-**Wohntauglichkeit unter der Schraege** (Bd 2, S. 944 f.): Raeume sind nur «anrechenbar/
-nutzbar», wenn sie zum Wohnen **geeignet** sind — genuegende **Belichtung/Belueftung** und
-**Raumhoehe**. Reduit-/Lagerflaechen mit ~1.8 m Hoehe oder zu wenig Fensterflaeche gelten
-nicht als Wohnflaeche (BEZ-/VB-Praxis). Die 1.50-m-Linie im Plan zeigt, wo es eng wird.
+**Ausbau-Varianten** (alle unter dem 2/3-Deckel + Kniestock ≤1.20 m + Hoehen-Projektionslinie):
+- **A Innensanierung im Volumen** — unkompliziert; Aufenthaltsraeume brauchen **lichte Raumhoehe
+  ≥ 2.25 m** (BauR/Wohnhygiene; DG-Schraege beachten).
+- **B Dachflaechenfenster/Lukarnen** — mehr Kopfhoehe/Flaeche, darf 2/3-Deckel + Hoehenlinie
+  nicht sprengen; Lukarnenbreite gesamthaft ≤ 2/3 der Fassadenlaenge (Art. ~ BauR, Zeile 227).
+- **C Vollausbau Wirtschaftsraum/Estrich** — kann die anrechenbare Flaeche ueber 101.5 m² treiben
+  → Vollgeschoss-/Ausnuetzungsfolge (Art. 31) — sorgfaeltig rechnen.
 
-## 4. «Aus der grossen Wohnung zwei machen?» — Nutzungsart/Teilung
+**Aufteilung WHG 3 → 2 Wohnungen:** aendert die Ausnuetzung **nicht**. Auszuloesen:
+Pflichtparkplaetze (zusaetzliche Wohnung; Reserve durch 3 Garagen + Vorplatz vorhanden),
+Erschliessung je Einheit (**Treppenhaus + Lift vorhanden** → guenstig), Schall-/Brandschutz
+(2. Rettungsweg), Wohnhygiene je Einheit. Die DG-Einheit allein (78 m² HNF, tiefe Raeume) ist
+als eigenstaendige Wohnung **grenzwertig** — steht/faellt mit Belichtung + Raumhoehe.
 
-Eine **Wohnungsteilung** aendert die **Ausnuetzung nicht** (gleiche Flaeche, andere Aufteilung).
-Auszuloesen/zu pruefen sind aber:
-- **Erschliessung je Einheit**: separater, abschliessbarer Zugang. Treppenhaus **und Lift**
-  sind vorhanden → guenstige Ausgangslage.
-- **Wohnhygiene je Einheit** (Kap. 17): Mindest-Raumhoehen, Belichtung, Kueche/Nasszelle —
-  im DG wegen der Schraege (1.90-1.94 m) genau zu pruefen.
-- **Brand-/Fluchtweg** (2. Rettungsweg) und **Schallschutz** zwischen den Einheiten (SIA 181).
-- **Pflichtparkplaetze**: zusaetzliche Wohnung → zusaetzlicher PP-Bedarf; Reserve durch
-  Garagen + Aussenparkfelder vorhanden (UG 3 Garagen + Vorplatz).
-- **Praxis im EG** bleibt bestehen → gemischte Nutzung; keine Mischrechnung der Zonen-
-  ausnuetzung noetig (ein Grundstueck, eine Zone — Mischrechnungsverbot betrifft Zonen, S. 921).
+## 5. Empfehlung / vor dem Rueckruf an Chaled
 
-**Tendenz:** Teilung der 195.7-m²-Maisonette in z.B. eine OG2-Wohnung + eine kleinere
-DG-(Attika-)Wohnung ist konzeptionell moeglich; die **DG-Einheit allein** (78 m² HNF, tiefe
-Raeume) ist als eigenstaendige Wohnung **grenzwertig** und steht/faellt mit Belichtung+Hoehe.
+1. **Zone von Parz. 25** (Wangen SZ-GIS/OEREBlex) → zulaessige Geschosszahl + AZ.
+2. **Anrechenbare DG-Flaeche ≥ 1.80 m** aus den Plaenen ausmessen → gegen **101.5 m²** halten
+   (Art. 27/31). Darunter: Ausbau anrechnungsfrei und DG kein Vollgeschoss.
+3. **Kniestock ≤ 1.20 m** und **First-/Gebaeudehoehen-Projektionslinie** (§ 60 PBG SZ) pruefen.
+4. **Telefonat:** Bestand hochwertig (Lift, Praxismieter, viel Parkierung). Innensanierung gut
+   machbar; Mehrflaeche/Teilung nach 2/3-Check und Wohnhygiene. Saubere Variante: Ausbau
+   **unter** dem 2/3-Deckel halten → anrechnungs- und geschosszahlneutral.
 
-## 5. Empfehlung / naechste Schritte (vor dem Rueckruf an Chaled)
+## Belege
 
-1. **Kanton + Gemeinde + Zone + Parzellenflaeche (Parz. 25) feststellen** → richtiges
-   Baureglement waehlen (beide in KB), AZ-Reserve rechnen.
-2. **AZ-Reserve** = zulaessige anrechenbare GF − heute anrechenbare GF (Vollgeschosse +
-   DG-Mehrflaeche). Erst dann ist «Ausbau ja/nein» belastbar.
-3. **Vollgeschoss-/Dachgeschoss-Status** des DG klaeren (§ 276 PBG bzw. SZ-Pendant).
-4. **Telefonat** mit Chaled: Bestand ist hochwertig (Lift, Praxis-Mieter, viel Parkierung).
-   Innensanierung gut machbar; Mehrflaeche/Teilung nach AZ-Reserve und Wohnhygiene-Check.
+- Recht (binding): **BauR Wangen SZ** Art. 27 (Dachausbau, 2/3-Regel, Kniestock 1.20 m),
+  Art. 31 (Vollgeschoss-Schwelle 2/3), Art. 28 (anrechenbare Landflaeche); **§ 60 PBG SZ**.
+  Quelle: `wissen/baurecht/raw/260607_amtlich_sz_baur-wangen-sz.md`.
+- Methodik (Buch): [[14-nutzungsdichte-ausnuetzung]] — AZ-Formel, anrechenbare Geschossflaeche,
+  Dach-/UG-Anrechnung, Wohntauglichkeit (Belichtung/Raumhoehe).
 
-## Belege (Buch-Destillat)
-
-- [[14-nutzungsdichte-ausnuetzung]] — § 254/255/256/257/259/260/276 PBG; Mehrflaechenregel
-  S. 950 f.; Wohntauglichkeit S. 944 f.; AZ-Formel S. 938.
-
-> *Hinweis: Ersteinschaetzung, ersetzt keine Rechtsberatung. Kanton/Gemeinde, aktuelle
-> Baureglements-Fassung und Parzellendaten sind vor verbindlicher Aussage zu verifizieren.*
+> *Hinweis: Ersteinschaetzung, ersetzt keine Rechtsberatung. Zone/Parzellenflaeche und die
+> exakte DG-Flaeche ≥ 1.80 m sind vor verbindlicher Aussage zu verifizieren.*
