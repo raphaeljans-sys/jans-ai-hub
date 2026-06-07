@@ -24,8 +24,15 @@ Harness automatisch laedt. Cowork wird damit zur Fernbedienung, der Harness mach
 
 1. **Cowork-Desktop-App laeuft auf dem Mac Mini** (Always-On → Dispatch immer erreichbar).
    Schlaeft der Mac oder ist die App zu, steht Dispatch still.
-2. **Claude Code CLI** auf dem Mac Mini installiert (`claude --version`).
-3. Dieses Skript ist auf dem Mac Mini vorhanden (kommt via `git pull` vom NAS-Repo).
+2. **Claude Code CLI** auf dem Mac Mini installiert (`claude --version`, hier `/opt/homebrew/bin/claude`).
+3. **CLI EINMALIG authentifiziert** — die Standalone-CLI hat eine *eigene* Anmeldung,
+   getrennt von der Cowork-Desktop-App. Einmal ausfuehren (nutzt das Claude-Abo):
+   `claude setup-token`  (interaktiv: oeffnet Browser, Code zurueckgeben). Ohne das
+   bricht jeder Lauf mit „Not logged in" ab. Alternative: `ANTHROPIC_API_KEY` setzen
+   (rechnet aber per API statt ueber das Abo).
+4. Dieses Skript ist auf dem Mac Mini vorhanden (kommt via `git pull` vom NAS-Repo).
+   Der Launcher haertet den PATH selbst ab (Homebrew/node), damit Coworks magerer
+   GUI-PATH die node-basierte CLI trotzdem findet.
 
 ## So loest Du einen Auftrag aus (vom Handy)
 

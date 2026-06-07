@@ -50,6 +50,12 @@ if ! mkdir -p "$LOG_DIR" 2>/dev/null; then
     mkdir -p "$LOG_DIR"
 fi
 
+# --- PATH abhaerten ---------------------------------------------------------
+# Cowork (GUI-App) und nicht-interaktive Shells haben oft kein Homebrew/node im
+# PATH. claude ist ein node-Skript (#!/usr/bin/env node) → ohne node => Exit 127.
+# Homebrew/Node-/lokale Bin-Pfade voranstellen, damit claude UND node gefunden werden.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.bun/bin:$HOME/.claude/local:$PATH"
+
 # --- Auftrag einlesen (Argumente ODER stdin) --------------------------------
 if [ "$#" -gt 0 ]; then
     TASK="$*"
