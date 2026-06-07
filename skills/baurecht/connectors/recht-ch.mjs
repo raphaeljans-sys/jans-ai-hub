@@ -128,6 +128,17 @@ const BZO_ZH = [
 ];
 const OEREBDOC = (docid) => `https://oerebdocs.zh.ch/getDoc?docid=${docid}`;
 const OEREB_JSON = (egrid) => `https://maps.zh.ch/oereb/v2/extract/json?EGRID=${encodeURIComponent(egrid)}`;
+
+// Kanton Schwyz: ÖREB-Auszug via map.geo.sz.ch; kommunale Baureglemente liegen in
+// OEREBlex (oereblex.sz.ch/api/attachments/<id>). attachmentId je Gemeinde verifiziert.
+const BAUREGL_SZ = [
+  { key: "wangen-sz",  gemeinde: "Wangen (SZ)",  attachmentId: 2544, titel: "Baureglement Wangen SZ" },
+  { key: "freienbach", gemeinde: "Freienbach",   attachmentId: 3036, titel: "Baureglement Freienbach (Basis; Änderungen 3037/3449/3896)" },
+  { key: "wollerau",   gemeinde: "Wollerau",     attachmentId: 4086, titel: "Baureglement Wollerau (Stand 20.05.2024)" },
+  { key: "feusisberg", gemeinde: "Feusisberg",   attachmentId: 3915, titel: "Baureglement Feusisberg (Stand 06.09.2022)" },
+];
+const OEREB_JSON_SZ = (egrid) => `https://map.geo.sz.ch/oereb/extract/json?EGRID=${encodeURIComponent(egrid)}`;
+const OEREBLEX_SZ = (id) => `https://oereblex.sz.ch/api/attachments/${id}`;
 const slug = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
   .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
@@ -281,6 +292,30 @@ async function holeBzo(e, L) {
     lizenz: "Amtlicher Text — gemeinfrei (Art. 5 URG)",
   });
   const md = fm + `\n# Bau- und Zonenordnung — ${e.gemeinde}\n\n${e.titel || ""}\nAmtlicher Volltext (OEREB-Dokumentdienst Kt. ZH), abgerufen ${isoDate()}.\nQuelle: ${url}\n\n${body}\n`;
+  return { md, pdf };
+}
+
+async function holeBaureglementSz(e, L) {
+  L(`· Baureglement ${e.gemeinde} (OEREBlex att ${e.attachmentId}) ...`);
+  const url = OEREBLEX_SZ(e.attachmentId);
+  const pdf = await fetchBuffer(url);
+  if (!pdf.slice(0, 5).toString().startsWith("%PDF")) {
+    throw new Error(`Baureglement ${e.gemeinde}: Antwort ist kein PDF (att ${e.attachmentId}).`);
+  }
+  const body = pdfBufferToText(pdf);
+  const fm = frontmatter({
+    quelle: "amtlich",
+    ebene: "Gemeinde (Kanton Schwyz)",
+    erlass: `Baureglement — ${e.gemeinde}`,
+    kuerzel: "BauR",
+    gemeinde: e.gemeinde,
+    attachment_id: e.attachmentId,
+    titel: e.titel || "",
+    quelle_url: url,
+    abgerufen: isoDate(),
+    lizenz: "Amtlicher Text — gemeinfrei (Art. 5 URG)",
+  });
+  const md = fm + `\n# Baureglement — ${e.gemeinde}\n\n${e.titel || ""}\nAmtlicher Volltext (ÖREB OEREBlex Kt. SZ), abgerufen ${isoDate()}.\nQuelle: ${url}\n\n${body}\n`;
   return { md, pdf };
 }
 

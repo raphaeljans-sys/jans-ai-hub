@@ -37,10 +37,22 @@ Der Kanton hält die amtlichen kommunalen Bau- und Zonenordnungen zentral im
 ÖREB-Dokumentdienst `oerebdocs.zh.ch/getDoc?docid=<n>` (gemeinfrei). Die `docid` je
 Gemeinde steht im ÖREB-Auszug und wird automatisch aufgelöst.
 
-| Gemeinde | docid | Datei in `raw/` |
-|---|---|---|
-| Zürich (Stadt) — BZO 2016 | 6 | `260607_amtlich_zh_bzo-zurich-stadt.md` |
-| Langnau am Albis | 5501 | `260607_amtlich_zh_bzo-langnau-am-albis.md` |
+**Bestand (Stand 2026-06-07): 44 ZH-Gemeinden** als BZO-Volltext in `raw/`
+(`*_amtlich_zh_bzo-<gemeinde>.md`). Massgebliches Register: `BZO_ZH` im Connector bzw.
+`recht-ch.mjs --list`.
+
+- **Stadt/Kern:** Zürich (BZO 2016, docid 6), Langnau am Albis (5501)
+- **Zürichsee-Ufer:** Zollikon, Küsnacht, Erlenbach, Herrliberg, Meilen, Uetikon am See,
+  Männedorf, Stäfa, Hombrechtikon, Kilchberg, Rüschlikon, Thalwil, Oberrieden, Horgen,
+  Wädenswil, Richterswil
+- **Agglo-Ring:** Adliswil, Zumikon, Maur, Egg, Fällanden, Greifensee, Schwerzenbach,
+  Volketswil, Dübendorf, Wallisellen, Opfikon, Kloten, Wangen-Brüttisellen, Bassersdorf,
+  Dietikon, Schlieren, Urdorf, Uitikon, Birmensdorf, Bonstetten, Stallikon, Regensdorf,
+  Rümlang, Oberengstringen, Unterengstringen, Weiningen
+
+Jede docid wurde über den ÖREB-Auszug verifiziert; bei Fusionsgemeinden (z.B. Wädenswil)
+per Adress-Anker auf die richtige Gemeinde-Bauordnung geprüft (nicht die fusionierte
+Alt-Gemeinde). Aktualisieren: `recht-ch.mjs --all-bzo`.
 
 **Neue ZH-Gemeinde hinzufügen** (nur eine Adresse nötig):
 
