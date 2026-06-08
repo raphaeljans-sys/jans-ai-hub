@@ -1,62 +1,81 @@
 #!/bin/bash
 # ============================================================================
-# JANS AI Hub — Sync-Task erstellen
+# JANS AI Hub — Sync-Task (Pendenz) erstellen
 # ============================================================================
-# Erstellt eine Aufgabe fuer die andere Station auf dem NAS.
+# Legt eine Pendenz fuer eine Station in deren NAS-Queue ab. Der Sync-Task-Runner
+# (launchd, alle 30 Min) bzw. /station-sync arbeitet sie auf der Zielstation ab.
 #
 # Verwendung:
-#   bash sync-task-create.sh <ziel> <titel> <script-inhalt>
+#   bash sync-task-create.sh <ziel> <titel> <inhalt> [typ]
+#
+#   typ = shell  (Default) → <inhalt> ist ein Bash-Script
+#   typ = prompt           → <inhalt> ist eine Anweisung in Worten; sie laeuft via
+#                            dispatch-run.sh (headless claude -p, voller Harness).
+#                            prompt-Pendenzen werden NUR auf dem Mac Mini ausgefuehrt
+#                            (Host-Weiche im dispatch-run.sh) → fuer rechenintensive,
+#                            urteilende Aufgaben die Zielstation mac-mini waehlen.
 #
 # Beispiele:
 #   bash sync-task-create.sh mac-mini "Zertifikat kopieren" "scp ~/.cert.pem user@host:~/"
-#   bash sync-task-create.sh macbook-pro "npm update" "cd ~/Developer/jans-ai-hub && npm install"
+#   bash sync-task-create.sh mac-mini "Trainings-Tasks pruefen" \
+#        "Lies docs/RUNBOOK-trainings-tasks.md und fuehre TEIL A aus." prompt
 # ============================================================================
 
 ZIEL="$1"
 TITEL="$2"
-SCRIPT="$3"
+INHALT="$3"
+TYP="${4:-shell}"
 
-if [ -z "$ZIEL" ] || [ -z "$TITEL" ]; then
-    echo "Verwendung: $0 <mac-mini|macbook-pro> <titel> <script>"
+if [ -z "$ZIEL" ] || [ -z "$TITEL" ] || [ -z "$INHALT" ]; then
+    echo "Verwendung: $0 <mac-mini|macbook-pro> <titel> <inhalt> [shell|prompt]"
     exit 1
 fi
 
-NAS_QUEUE="/Volumes/daten/jans-ai-hub/sync-tasks/$ZIEL"
+case "$TYP" in
+    shell|prompt) ;;
+    *) echo "FEHLER: typ muss 'shell' oder 'prompt' sein (war: '$TYP')"; exit 1 ;;
+esac
 
+NAS_QUEUE="/Volumes/daten/jans-ai-hub/sync-tasks/$ZIEL"
 if [ ! -d "$NAS_QUEUE" ]; then
     echo "FEHLER: Queue-Verzeichnis nicht gefunden: $NAS_QUEUE"
     echo "Ist das NAS gemountet?"
     exit 1
 fi
 
-# Hostname der Quell-Station
 QUELLE=$(hostname -s)
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
 FILENAME="${TIMESTAMP}_${TITEL// /-}.md"
 
-cat > "$NAS_QUEUE/$FILENAME" << EOF
----
-von: $QUELLE
-fuer: $ZIEL
-erstellt: $(date -Iseconds)
-status: pending
-titel: $TITEL
----
+{
+    echo "---"
+    echo "von: $QUELLE"
+    echo "fuer: $ZIEL"
+    echo "erstellt: $(date -Iseconds)"
+    echo "status: pending"
+    echo "typ: $TYP"
+    echo "titel: $TITEL"
+    echo "---"
+    echo ""
+    echo "# Sync-Task: $TITEL"
+    echo ""
+    echo "Erstellt von **$QUELLE** am $(date '+%d.%m.%Y %H:%M')"
+    echo ""
+    if [ "$TYP" = "prompt" ]; then
+        echo "## Anweisung (laeuft via dispatch-run.sh / claude -p, nur Mac Mini)"
+        echo ""
+        echo "$INHALT"
+    else
+        echo "## Auszufuehrendes Script"
+        echo ""
+        echo '```bash'
+        echo "$INHALT"
+        echo '```'
+    fi
+    echo ""
+    echo "## Kontext"
+    echo ""
+    echo "Automatisch erstellt auf $QUELLE — nachzuziehen/auszufuehren auf $ZIEL."
+} > "$NAS_QUEUE/$FILENAME"
 
-# Sync-Task: $TITEL
-
-Erstellt von **$QUELLE** am $(date '+%d.%m.%Y %H:%M')
-
-## Auszufuehrendes Script
-
-\`\`\`bash
-$SCRIPT
-\`\`\`
-
-## Kontext
-
-Diese Aufgabe wurde automatisch erstellt, weil auf $QUELLE eine Aenderung
-vorgenommen wurde, die auf $ZIEL nachgezogen werden muss.
-EOF
-
-echo "✅ Sync-Task erstellt: $NAS_QUEUE/$FILENAME"
+echo "Pendenz erstellt [$TYP]: $NAS_QUEUE/$FILENAME"
