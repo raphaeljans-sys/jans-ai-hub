@@ -7,7 +7,8 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-geoportale-uebersicht]] — welches Portal liefert was · emerging
 
 ## Recht & Norm (PL-02)
-- [[recht-norm-quellenlandkarte]] — Wegweiser PL-02, verlinkt Skill/KB `baurecht` · emerging
+- [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-Bezug, Datenstand RPG 2 2026 · **established**
+- [[recht-norm-baurechtsanalysen-benchmarks]] — reale JANS-Faelle (08_) als Struktur-/Praezedenz-Benchmark · emerging
 
 ## Brandschutz (PL-03)
 - _(verweist auf Skill `brandschutz` — kein eigener Artikel, Stand 2026-06-05)_

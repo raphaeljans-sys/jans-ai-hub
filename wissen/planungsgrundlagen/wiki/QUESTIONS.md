@@ -11,7 +11,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
 - [ ] **A5** Eigentumsabfrage ObjektwesenZH per EGRID: Ablauf + ob automatisierbar.
 
 ## B — Recht & Norm
-- [ ] **B1** Aktualitaet der Bundeserlasse in PL-02 gegen fedlex pruefen (Datenstand setzen).
+- [~] **B1** Aktualitaet der Bundeserlasse in PL-02 gegen fedlex pruefen (Datenstand setzen).
+  ✓ Teil-erledigt 2026-06-08: fedlex-Bezugsschema belegt; **RPG 2 in Kraft 01.01./01.07.2026**
+  (Ordner-PDF 700/700.1 veraltet), **EnG SR 730.0 Stand 01.01.2026**. Offen: restliche `01_Bund`-
+  SR (451/NHG, 814.20/GSchG, 814.41/LSV, 151.3/BehiG) je Stand-Datum nachziehen.
+- [ ] **B2** ZH-Umsetzung **RPG 2** (PBG-/BZO-Folgen) belegt erfassen — verlinkt Skill `baurecht`.
+  (neu 2026-06-08; zh.ch "Umsetzung RPG 2")
+- [ ] **B3** `06_Richtlinien` (Behoerden-Richtlinien ZH/Stadt ZH, Minergie, GVZ, BfU) als
+  Wegweiser-Block ergaenzen, wenn ein Projekt sie braucht. (neu 2026-06-08)
 
 ## C — Brandschutz
 - [ ] **C1** Klaeren, ob ein duenner Verweis-Artikel auf `brandschutz` reicht oder PL-03-

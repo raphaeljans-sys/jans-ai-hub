@@ -25,10 +25,10 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [ ] E6 Brandschutz bei Solaranlagen (VKF 2001-15) — Kernregeln (Verweis Skill brandschutz).
 
 ## Domaene 3 — Recht & Norm (PL-02)
-- [ ] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex).
-- [ ] R2 SZ vs. ZH: die haeufigsten Messweisen-Unterschiede (Hoehe, Abstand, Ausnuetzung).
-- [ ] R3 Dispensrecht: typische Faelle aus `05_Dispensrecht` als Muster (Verweis baurecht).
-- [ ] R4 Reale JANS-Baurechtsanalysen (`08_`) als anonymisierte Benchmarks erschliessen.
+- [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])
+- [~] R2 SZ vs. ZH: die haeufigsten Messweisen-Unterschiede (Hoehe, Abstand, Ausnuetzung). (2026-06-08, ZH=IVHB / SZ=PBG-Art. belegt verlinkt; Tiefe → `baurecht`)
+- [~] R3 Dispensrecht: typische Faelle aus `05_Dispensrecht` als Muster (Verweis baurecht). (2026-06-08, BRKE-Beispiel verortet; Detail → `baurecht`)
+- [x] R4 Reale JANS-Baurechtsanalysen (`08_`) als anonymisierte Benchmarks erschliessen. (2026-06-08, Fall-Index + Maur-Geruest, → [[recht-norm-baurechtsanalysen-benchmarks]])
 
 ## Domaene 4 — Brandschutz (PL-03)
 - [ ] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen).
