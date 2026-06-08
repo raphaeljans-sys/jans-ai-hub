@@ -41,6 +41,11 @@ PERM_MODE="${DISPATCH_PERMISSION_MODE:-acceptEdits}"
 # Kostendeckel je Lauf (schuetzt vor Handy-Vertipper / Endlosschleife).
 MAX_BUDGET="${DISPATCH_MAX_BUDGET_USD:-5}"
 
+# Designierter Dispatch-Endpunkt: NUR diese Station fuehrt Handy-Auftraege aus.
+# Der Mac Mini ist Always-On (sleep 0) → die Strecke steht nicht still, wenn das
+# MacBook unterwegs zugeklappt ist. Bewusste Ausnahme: DISPATCH_ALLOW_ANY_HOST=1.
+PRIMARY_HOST="${DISPATCH_PRIMARY_HOST:-Macmini}"
+
 # --- Lokale Secrets laden (NICHT in Git) ------------------------------------
 # Ermoeglicht headless-Betrieb via ANTHROPIC_API_KEY ohne OAuth-Login. Die Datei
 # liegt NUR lokal auf der Station (chmod 600), nie auf NAS/GitHub. Inhalt z.B.:
@@ -100,6 +105,18 @@ if [ ! -d "$REPO/.claude" ]; then
 fi
 cd "$REPO" || { echo "❌ cd $REPO fehlgeschlagen"; exit 3; }
 
+# --- Designierter-Endpunkt-Check (die entscheidende Abzweigung) -------------
+# Nur der designierte Host (Default: Macmini) fuehrt Handy-Auftraege aus. Laeuft
+# das Skript woanders (z.B. wieder am MacBook Pro), bricht es hier ab — damit nie
+# zwei Stationen denselben Dispatch-Thread bedienen. Override: DISPATCH_ALLOW_ANY_HOST=1.
+CURRENT_HOST="$(hostname -s)"
+if [ "$CURRENT_HOST" != "$PRIMARY_HOST" ] && [ "${DISPATCH_ALLOW_ANY_HOST:-0}" != "1" ]; then
+    echo "⛔ Dispatch-Endpunkt ist '$PRIMARY_HOST', nicht '$CURRENT_HOST'."
+    echo "   Diese Station fuehrt keine Handy-Auftraege mehr aus."
+    echo "   Bewusste Ausnahme: DISPATCH_ALLOW_ANY_HOST=1 voranstellen."
+    exit 5
+fi
+
 # --- Lauf-ID + Logfile ------------------------------------------------------
 RUN_ID="$(date +%Y%m%d-%H%M%S)-$$"
 LOG_FILE="$LOG_DIR/${RUN_ID}.md"
@@ -109,6 +126,8 @@ HOST="$(hostname -s)"
     echo "---"
     echo "run_id: $RUN_ID"
     echo "host: $HOST"
+    echo "primary_host: $PRIMARY_HOST"
+    echo "host_match: $([ "$HOST" = "$PRIMARY_HOST" ] && echo ja || echo NEIN)"
     echo "repo: $REPO"
     echo "gestartet: $(date -Iseconds)"
     echo "permission_mode: $PERM_MODE"
