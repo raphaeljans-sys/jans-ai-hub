@@ -8,8 +8,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   λ-Bandbreiten Daemmstoffe belegt 2026-06-07 via SIA 2001 → `[[daemmstoffe-lambda]]`;
   offen: Bauteilekatalog Kap. 4 (Standardaufbauten).
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
-  Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`.
-  Offen nur noch: konkrete Beispielrechnung (`Heizwärmebedarf_Berechnung_Beispiel.pdf`).
+  Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
+  Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
+  → `[[sia-380-1-beispiel-monatsbilanz]]`, `[[sia-380-1-standardnutzungswerte-tab24-25]]`. **vollstaendig.**
 - [~] A3 Waermedaemmstoffe waehlen — λ/ρ/μ/BKZ je Materialklasse belegt 2026-06-07 via SIA 2001
   → `[[daemmstoffe-lambda]]`; offen: Naturdaemmstoffe/VIP (SIA 2001 S. 15-17), `Auswahl_Waermedaemmstoffe.docx`.
 - [~] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt 2026-06-06 via EN-102;
@@ -26,7 +27,8 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Minergie-Wissen «Besser planen» → `[[minergie-standards]]` (FAQ F5). Offen: minergiewissen_planer_d_2023 (Update).
 - [~] B4 MuKEn-Umsetzung Kt. ZH — EnerG seit 1.9.2022 (MuKEn 2014); Vollzug seit 1.1.2026 ueber
   EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025.
-- [ ] B5 Waermeerzeugerleistung dimensionieren (`_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf`).
+- [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
+  → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13). Offen: WP-Dimensionierung (JAZ).
 - [ ] B6 Waermetechnische Anlagen WTA-Formular (`endk.ch/.../2024_01_08_WTA_Formular`).
 
 ## Block C — Solar / PV
@@ -39,10 +41,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 ## Block D — Nachhaltigkeit / Klima (strategisch)
 - [ ] D1 Netto-Null im Gebaeude: was heisst das fuer Neubau/Umbau konkret?
 - [ ] D2 Graue Energie / CO2 im Bauteil — Sanieren vs. Neubau (Entscheidkriterien).
-- [ ] D3 Foerderprogramme Bund/Kt. ZH — aktueller Stand + Antrag (Datenstand zwingend, Web).
+- [x] D3 Foerderprogramme Kt. ZH — belegt 2026-06-08 (Stand 01.01.2026, Web)
+  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). Offen: Minergie-ECO/Solarthermie-Saetze, Bund.
 - [ ] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus.
 
 ## Meta
-- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — 7 belegt (F1-F5, F10, F12);
-  offen F6-F9, F11.
+- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — 9 belegt (F1-F5, F7, F10, F12, F13);
+  offen F6 (WP-Vergleich), F8, F9, F11.
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.)

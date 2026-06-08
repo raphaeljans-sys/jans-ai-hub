@@ -14,3 +14,8 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[tec21-solares-bauen-pv-typen-2012]] | Solaranlage/_Literatur/Final_Dossier_Solararchitekur | established (S. 1-13) | ⚠ 2012 (Technologie) |
 | [[en-zh-nachweis-uebersicht]] | _Formulare Kanton ZH Baueingabe/EN-ZH | established (vollst., 5 S.) | ⚠ Juli 2022; seit 1.1.2026 EVEN |
 | [[sia-2001-waermedaemmstoffe-lambda]] | U Wert berechnung/2001_2005_d | emerging (S. 1-14/20) | ⚠ 2005 |
+| [[bfe-waermeerzeugerleistung-2015]] | _Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung | established (vollst., 5 S.) | ⚠ 12.2015 / SIA 384/1:2009 |
+| [[sia-380-1-standardnutzungswerte-tab24-25]] | _Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1 | established (1 S., Tab. 24/25) | SIA 380/1 Anhang A |
+| [[sia-380-1-beispiel-monatsbilanz]] | _Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel | established (1 S., Rechenbsp.) | SIA 380/1 / SIA 381/2 |
+| [[grundsaetze-energieeffizientes-bauen]] | _Heizwaermebedarf/U-Wert_Gebäudehülle | emerging (1 S., Grundsaetze) | ⚠ Lehrbuch-Niveau |
+| [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 | established (S. 1-29) | 2026-06-08 / Version 01.01.2026 |

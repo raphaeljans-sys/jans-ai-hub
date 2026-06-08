@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: emerging
-last_updated: 2026-06-07
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md]
+last_updated: 2026-06-08
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md]
 links: [[INDEX]]
 ---
 
@@ -174,9 +174,73 @@ EVEN-Stand auf `zh.ch` pruefen. Energierecht → Skill `baurecht`.
 
 ---
 
+## F7 — «Welche Foerderbeitraege bekomme ich im Kanton Zuerich — und wie hole ich sie?»
+
+**Kurz:** Der Kanton ZH zahlt 2026 **Pauschalen je Massnahme**: rund **CHF 2'900** fuer eine
+Luft-Wasser-Waermepumpe, **CHF 6'800** fuer eine Erdsonden-/Grundwasser-WP, **CHF 5'200** fuer
+einen Fernwaerme-Anschluss und **CHF 40 je m²** Daemmung (bei Vollsanierung +CHF 60/m² Bonus).
+**Wichtigste Regel: zuerst das Gesuch, dann bauen** — wer zuerst baut, verliert die Foerderung.
+
+**Fachlich (Foerderprogramm Energie ZH 2026, Stand 01.01.2026):**
+
+| Massnahme | Beitrag 2026 |
+|---|---|
+| Luft-Wasser-WP | CHF 2'900 (≤15 kWth) · +160/zusaetzl. kWth |
+| Sole-Wasser-WP (Erdsonde) | CHF 6'800 (≤15 kWth) · +420/zusaetzl. kWth |
+| Wasser-Wasser-WP (Grundwasser) | CHF 6'800 (≤15 kWth) · +420/zusaetzl. kWth |
+| Anschluss Waermenetz (Fernwaerme) | CHF 5'200 (≤15 kWth) · +100/zusaetzl. kWth |
+| Erstinstallation Waermeverteilung (Ersatz dezentral Elektro/fossil) | CHF 15'000 (≤250 m² EBF) bzw. CHF 60/m² |
+| Daemmung Dach/Wand/Boden | CHF 40/m² Bauteil (+20/m² bei gleichzeitiger PV) |
+| Bonus Gebaeudehuelle (≥90 % gedaemmt) | zusaetzlich CHF 60/m² → total bis 100/m² |
+| GEAK-Plus-Beratungsbericht | CHF 1'000 (EFH/ZFH) / CHF 1'500 (uebrige) |
+
+Bedingungen: **Gesuch vor Baubeginn** (`portal.dasgebaeudeprogramm.ch/zh`), nur **Gebaeude
+Baujahr < 2000**, max. **50 % der Investitionskosten**, max. **CHF 500'000/Gesuch**, Daemm-
+Beitraege unter CHF 2'000 entfallen. WP nur Elektromotor; Daemmung nur U ≤ 0,20 W/m²K (kein
+Fenster/Tueren). **Gemeinden zahlen oft on top** → `energiefranken.ch` pruefen. Hotline 0800 93 93 93.
+
+**Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026 → `[[foerderprogramm-energie-zh-2026]]`;
+Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand 2026-06-08:** Saetze 2026 = 2025
+unveraendert; Rahmenkredit 2026–2029, Bundes-Sparprogramm koennte tangieren — vor Zusage auf
+`zh.ch` pruefen. Energierecht/Heizverbot → Skill `baurecht`.
+
+---
+
+## F13 — «Wie gross muss meine Heizung sein?»
+
+**Kurz:** Als grobe Faustregel braucht ein **Neubau ~25–40 Watt je m²** beheizte Flaeche, ein
+**Minergie-Haus nur 20–30**, ein **Minergie-P-Haus 8–20** — ein **schlecht gedaemmter Altbau
+50–70**. Ein 150-m²-Neubau-EFH liegt also bei rund **4–6 kW**. Beim Heizungsersatz laesst sich
+die Leistung serioes aus dem bisherigen Brennstoffverbrauch zurueckrechnen.
+
+**Fachlich:** Es gibt zwei Wege. Bei der **Sanierung** rechnet man aus dem mehrjaehrigen
+Brennstoffverbrauch zurueck (Φ = (man·GCV/tan)·(ηalt/ηneu)·ηneu; Volllaststunden 2300 h Heizung
+bzw. 2700 h mit Warmwasser). Beim **Neubau** ueber die Norm-Heizlast SIA 384.201
+(Φ = ΦHeizlast + ΦWarmwasser + Φverbundene Systeme; WW-Zuschlag MFH 3 / EFH 2 W/m²). Kontrollwert
+ist die **spezifische Heizleistung** (W/m² EBF):
+
+| Gebaeudetyp | spez. Heizleistung |
+|---|---|
+| Bestand, schlecht gedaemmt | 50–70 W/m² |
+| Bestand, gut gedaemmt | 40–50 W/m² |
+| Neubau nach Vorschrift | 25–40 W/m² |
+| Minergie | 20–30 W/m² |
+| Minergie-P | 8–20 W/m² |
+
+Alte Heizungen waren oft **1,5–2× ueberdimensioniert** — beim Ersatz nicht einfach die alte
+kW-Zahl uebernehmen. Wer **vorher die Huelle daemmt**, kauft einen kleineren (und guenstigeren)
+Erzeuger; bei Waermepumpen sinkt zudem die noetige Vorlauftemperatur → hoehere Jahresarbeitszahl.
+
+**Quelle:** EnergieSchweiz/BFE «Ermittlung der Waermeerzeugerleistung» (Nr. 2781, 12.2015,
+SIA 384/1) → `[[bfe-waermeerzeugerleistung-2015]]`; Themenartikel → `[[heizleistung-und-waermeerzeuger]]`.
+⚠ Die **Wahl** des Heizsystems (WP ↔ Fernwaerme ↔ Pellets) und das fossile Heizverbot → Skill `baurecht`;
+WP-Dimensionierung (JAZ) braucht eigene Detailgrundlage.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
-- F6 Waermepumpe vs. Fernwaerme vs. Pellets — was passt zu meinem Objekt?
-- F7 Welche Foerderbeitraege gibt es aktuell (Bund/Kt. ZH) und wie hole ich sie? (Datenstand!)
+- F6 Waermepumpe vs. Fernwaerme vs. Pellets — Systemwahl (Brennwerte/Nutzungsgrade Holz/Pellet/
+  Oel/Gas jetzt belegt → `[[bfe-waermeerzeugerleistung-2015]]`; offen: WP-Vergleich/JAZ, Entscheidungsmatrix).
 - F8 Was heisst «Netto-Null»/Klimaziel konkret fuer einen Neubau/Umbau heute?
 - F9 Graue Energie / CO2 im Bauteil — ab wann ist Sanieren besser als Neubau?
 - F11 Wie hitzefest ist mein Haus im Sommer (g-Wert, Beschattung)? (Teilbeleg in EN-102)
