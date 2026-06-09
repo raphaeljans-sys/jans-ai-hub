@@ -65,6 +65,8 @@ hinterlegen (Cowork-Config ist lokal auf dem Mac Mini):
 | `DISPATCH_MAX_BUDGET_USD` | `5` | Kostendeckel je Lauf |
 | `DISPATCH_LOG_DIR` | `…/dispatch/log` | Audit-Logs (NAS, Fallback lokal) |
 | `DISPATCH_CLAUDE_BIN` | `claude` | Pfad zur Claude-CLI (falls nicht im PATH) |
+| `DISPATCH_PRIMARY_HOST` | `Macmini` | Designierter Endpunkt — nur diese Station fuehrt aus |
+| `DISPATCH_ALLOW_ANY_HOST` | `0` | Auf `1` setzen, um den Host-Check bewusst zu umgehen |
 
 ## Sicherheit — der eigentliche Trichter
 
@@ -82,6 +84,29 @@ Mail senden, Browser steuern). Zwei Schutzschichten:
 `bypassPermissions` (= alles ohne Rueckfrage, auch nicht-gelistete Tools) nur
 setzen, wenn Du der Handy-Strecke voll vertraust:
 `DISPATCH_PERMISSION_MODE=bypassPermissions bash …/dispatch-run.sh "…"`
+
+## Designierter Endpunkt (Mac Mini)
+
+Nur **eine** Station darf Handy-Auftraege ausfuehren — sonst bedienen zwei Cowork-Apps
+denselben Dispatch-Thread und es ist unklar, wo gearbeitet wird. Designiert ist der
+**Mac Mini** (`hostname -s` = `Macmini`), weil er Always-On ist (`pmset … sleep 0`):
+so steht die Strecke nicht still, wenn das MacBook unterwegs zugeklappt/offline ist.
+
+Der Launcher prueft das nach dem Repo-Wechsel: laeuft er auf einer anderen Station,
+bricht er mit **Exit-Code 5** und der Meldung „Dispatch-Endpunkt ist 'Macmini'…" ab,
+ohne den Harness zu starten. Jedes Log fuehrt zusaetzlich `primary_host` und
+`host_match: ja|NEIN` — so ist beweissicher, von wo ein Lauf kam.
+
+Eine andere Station bewusst freischalten (z.B. zum Testen am MacBook):
+```bash
+DISPATCH_ALLOW_ANY_HOST=1 bash ~/Developer/jans-ai-hub/scripts/dispatch-run.sh "…"
+# oder dauerhaft umziehen: DISPATCH_PRIMARY_HOST=<hostname -s> setzen
+```
+
+> Wichtig: Das ist die **Repo-Schicht**. Welche Cowork-Desktop-App den Dispatch-Thread
+> tatsaechlich bedient, ist eine Einstellung in der Claude-Desktop-App selbst (App/Cloud-
+> Schicht) — die wird dort gekoppelt, nicht hier. Der Host-Check ist das Sicherheitsnetz,
+> falls doch die falsche Station ausloest.
 
 ## Bekannte Grenzen
 
