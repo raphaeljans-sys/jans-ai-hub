@@ -16,7 +16,8 @@ Juni 2026. **Aktualitaetsregel:** alles >18 Monate → ⚠, in `wiki/wissensluec
 
 | Quelle | Ordner | Inhalt | Stand | Bewertung |
 |---|---|---|---|---|
-| UBS Real Estate Fact Sheets | `IMMO-02 UBSFS` | Gemeinde-Profile, Preis-/Mietquantile (8 Gemeinden: ZH Waedenswil/Thalwil/Maur/Regensdorf/Wald, LU Luzern, SZ Einsiedeln, AG Muri) | 2212-2411 | gut, aber selektiv + teils ⚠ veraltet |
+| UBS Real Estate Fact Sheets | `IMMO-02 UBSFS` | Gemeinde-Profile, Preis-/Mietquantile (10 Gemeinden: ZH Waedenswil/Thalwil/Maur/Regensdorf/Wald/**Zollikon**, LU Luzern, SZ Einsiedeln/**Wangen**, AG Muri). **Kompiliert** in `wiki/marktdaten-gemeinden/`: Wangen (SZ) 12/2025, Zollikon (ZH) 12/2025 | 2212-2512 | gut; neueste (Wangen/Zollikon 12/2025) aktuell, aeltere teils ⚠ veraltet |
+| UBS Swiss Real Estate Bubble Index | `IMMO-02 UBSFS/srebi-q2-2024-de.pdf` | nationaler Blasenrisiko-Index, regionale Risikokarte | Q2-2024 | Makro-Kontext; ⚠ >18 Mt. → aktualisieren |
 | Wuest Partner | `IMMO-04 Marktpreise/wuest partner` | Praesentationen, Kostenbenchmarks, Monitoring | 2023-2025 | ⭐ aktuell, Primaerquelle Indizes |
 | BFS Baupreisindex | `IMMO-04/bfs.admin.ch` | nationale/regionale Indizes | 2024 | ⭐ aktuell, amtlich |
 | Zuerich Stadt | `IMMO-04/Zuerich Stadt` | Wohnbaupreis-Index, Honorare | 2024 | gut (nur ZH Stadt) |
@@ -46,5 +47,6 @@ gemeindescharfe Statistik. → strukturierte Bodenpreis-Quelle aufbauen (Wissens
 
 1. Fuer Indizes/Trend: Wuest + BFS (aktuell) vor CRB 2011.
 2. Fuer Gemeinde-Marktwert: UBS-FS wenn vorhanden und <18 Mt., sonst Web/Nachbargemeinde.
+   Kompilierte Blaetter in `wiki/marktdaten-gemeinden/` zuerst konsultieren.
 3. Jeden uebernommenen Kennwert mit **Quelle + Stand** im Output zitieren.
 4. Veraltete Quelle nie stillschweigend verwenden — Stand ausweisen, ggf. Aktualisierung anstossen.

@@ -56,9 +56,11 @@ Verfahrenswahl + Marktwert-Gewichtung: `wiki/bewertungsverfahren-ueberblick.md`.
 1. **Wissens-KB `wissen/immobilienbewertung/`** — Methodik, Kennwerte, Datenquellen-Registry.
    Immer zuerst; sie buendelt die geprueften IMMO-Inhalte.
 2. **Objekt-Unterlagen des Kunden** — Mietzinsliste, Plaene, Oereb-Auszug. Vorrang vor Allgemeinem.
-3. **Markt-/Referenzdaten** (`wiki/datenquellen-registry.md`): UBS Fact Sheets (`IMMO-02`),
-   Wuest/BFS-Indizes, Bodenpreise (`IMMO-05`), Baukosten-Kennwerte (`IMMO-06`, Skill
-   `kostenschaetzung`). **Stand jeder Zahl ausweisen**; >18 Mt. → als veraltet kennzeichnen.
+3. **Markt-/Referenzdaten** (`wiki/datenquellen-registry.md`): UBS Fact Sheets (`IMMO-02`) —
+   kompilierte Gemeinde-Blaetter zuerst in `wiki/marktdaten-gemeinden/` pruefen (z.B. Wangen SZ,
+   Zollikon ZH), sonst Roh-PDF im IMMO-02-Ordner; Wuest/BFS-Indizes, Bodenpreise (`IMMO-05`),
+   Baukosten-Kennwerte (`IMMO-06`, Skill `kostenschaetzung`). **Stand jeder Zahl ausweisen**;
+   >18 Mt. → als veraltet kennzeichnen.
 4. **Reale JANS-Faelle** (`IMMO-01 BEWERTUNG PROJEKTE`) als Referenz-Benchmark.
 5. **Web-Recherche** nur bei Luecken (Stand + Quelle notieren).
 

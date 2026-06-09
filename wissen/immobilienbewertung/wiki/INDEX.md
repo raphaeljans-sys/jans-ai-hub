@@ -18,6 +18,12 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
 - [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention · *established*
 
+## Marktdaten Gemeinden (UBS Fact Sheets, kompiliert)
+
+- `marktdaten-gemeinden/README.md` — Sammel-Index + Lesehilfe UBS-FS · *established*
+- [[marktdaten-gemeinden/sz-wangen-8854]] — Wangen (SZ), Stand 12/2025 · *established*
+- [[marktdaten-gemeinden/zh-zollikon-8125]] — Zollikon (ZH), Stand 12/2025 · *established*
+
 ## Markt & Konzept (Wuest-Kurs Module 2-4)
 
 - [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *emerging*

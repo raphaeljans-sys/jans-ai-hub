@@ -19,7 +19,8 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | Hedonik-Beispielreport | `03 KNOW-HOW/05 Hedonistische_Berechnungsweise/Standortinformation_Beispiel_Report.pdf` | PDF | — | offen | vergleichswert-hedonisch |
 | Abzinsung/Diskontierung | `03 KNOW-HOW/03 Abzinsung/Disskontierung/` | docx+png | 2023 | teilweise | ertragswert-dcf |
 | Flaechenbezeichnung SIA | `03 KNOW-HOW/07 FLÄCHENBEZEICHNUNG/sia/` | div. | — | teilweise | flaechendefinitionen-sia |
-| UBS Fact Sheets (8 Gemeinden) | `02 UBSFS/` | PDF | 2212-2411 | teilweise | datenquellen-registry, vergleichswert-hedonisch |
+| UBS Fact Sheets (10 Gemeinden) | `02 UBSFS/` | PDF | 2212-2512 | teilweise — Wangen (SZ) 8854 + Zollikon (ZH) 8125 **eingearbeitet** (kompiliert in wiki/marktdaten-gemeinden/) | datenquellen-registry, vergleichswert-hedonisch, marktdaten-gemeinden/* |
+| UBS Swiss Real Estate Bubble Index | `02 UBSFS/srebi-q2-2024-de.pdf` | PDF | Q2-2024 | offen | datenquellen-registry, investorenmarkt-makro |
 | Marktpreis-Quellen | `04 Marktpreise/` (12 Quellen) | div. | 2011-2026 | teilweise | datenquellen-registry |
 | Bodenpreise | `05 Bodenpreise/` | png+pdf | 2023-2025 | teilweise | datenquellen-registry, lageklasse-landwertanteil |
 | Kennwerte (Wohnen/Healthcare/Buero) | `06 Kennwerte/` | docx+pdf+png | 2024-2025 | teilweise | datenquellen-registry |
