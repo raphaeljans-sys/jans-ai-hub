@@ -18,7 +18,12 @@
       "mcp__Claude_in_Chrome__*",
       "mcp__Claude_Preview__*",
       "mcp__mcp-registry__*",
-      "mcp__scheduled-tasks__*"
+      "mcp__scheduled-tasks__*",
+      "mcp__c5e16058-9852-4f16-bf31-99b3f0be0c4c__*",
+      "mcp__figma__*",
+      "mcp__Control_your_Mac__*",
+      "mcp__computer-use__*",
+      "mcp__ccd_session__*"
     ],
     "deny": []
   },
