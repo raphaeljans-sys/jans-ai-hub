@@ -2,12 +2,12 @@
 name: 14-nutzungsdichte-ausnuetzung
 kapitel: "14 — Nutzungsdichte und Nutzungsart"
 band: 2
-seiten: "919-961 (Kapitelanfang + Ausnuetzungsziffer/Anrechnung/Ueberbauungsziffer)"
-shots: "462-495 (Auswahl: 462, 463, 472, 477, 482-485)"
-paragraphen: ["§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 259 PBG", "§ 260 PBG", "§ 276 PBG", "§ 10 ABV", "§ 13 ABV"]
+seiten: "919-993 (Ausnuetzung, massgebl. Grundstuecksflaeche, Ausnuetzungsuebertragung, erhoehte Nutzungsziffern, Nutzungsart/Immissionen, Wohnanteil, Harmonisierungsvorlage)"
+shots: "462-499 (distilliert: 462-464, 472, 477, 478, 482-485; 465-471, 496-498)"
+paragraphen: ["§ 49a PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 72 PBG", "§ 251 PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 276 PBG", "§ 10 ABV", "§ 13 ABV", "Art. 646 ZGB"]
 status: emerging
-gelesen: 2026-06-07
-last_updated: 2026-06-07
+gelesen: 2026-06-09
+last_updated: 2026-06-09
 ---
 
 # Kap. 14 — Nutzungsdichte und Nutzungsart (Ausnuetzung)
@@ -67,6 +67,110 @@ Vollgeschosse` (§ 255 Abs. 2 PBG).
   Tiefe sowie Balkone als Abzug; Erker/Laubengaenge bis Drittel der Fassadenlaenge privilegiert
   (§ 256 Abs. 2 PBG, Anhang ABV).
 
+## Massgebliche Grundstuecksflaeche im Detail (§ 259 PBG, S. 920-929)
+
+Die **massgebliche Grundstuecksflaeche** (Bezugsgroesse aller Ziffern) wird in § 259 PBG und
+ueber den **Anhang ABV** (Beispielzeichnung «anrechenbare bzw. nicht anrechenbare
+Grundstuecksflaechen», S. 922 f.) praezisiert. Nicht / nur teilweise anrechenbar sind u.a.:
+
+- **Wald / Waldabstand** (§ 259 Abs. 2 PBG, S. 924): Waldabstandsflaechen Richtung Wald sind in
+  einem Streifen von **15 m** hinter der Waldabstandslinie abzuziehen, soweit sie mehr als 15 m
+  hinter der Linie liegen; ausnahmsweise naeher als 15 m bei Abgrenzung gegen Boeschung.
+- **Gewaesser** (§ 259 Abs. 2 PBG, S. 924): offene Gewaesser (Seen, Weiher, Teiche, oeffentlich
+  zugaengliche Baeche) sind **nicht** anrechenbar.
+- **Uebergeordnete Strassen / Verkehrsanlagen** (S. 924-927): Flaechen, die der Planung
+  Verkehrszwecken zugewiesen sind und der baulichen Nutzung entzogen werden, fallen ausser
+  Ansatz; **grundstuecksinterne** Erschliessungswege bleiben dagegen anrechenbar.
+- **Oeffentliche Fusswege** (S. 926): nicht anrechenbar, soweit die Wegparzelle im Eigentum der
+  Gemeinde steht; **Ueberbreite** (ueber das fuer die Erschliessung Noetige hinaus) bleibt
+  anrechenbar.
+- **Eisenbahnanlagen** (S. 926 f.): dem Bahnbetrieb dienende Anlagen (Art. 18 EBG) sind nicht
+  anrechenbar; aufgehobenes Gleisareal kann nach Umzonung wieder anrechenbar werden.
+
+## Ausnuetzungsuebertragung (14.1.2.5, § 251 lit. a i.V.m. § 254 PBG, S. 928-935)
+
+**Begriff** (S. 928): Noch nicht genutzte Grundstuecksflaeche einer **benachbarten** Parzelle
+wird dem bebauten Grundstueck angerechnet — die Ausnuetzungsreserve wird also von Parzelle A
+auf Parzelle B verschoben, damit B dichter bebaut werden darf.
+
+**Zwei harte Schranken:**
+
+1. **Gleiche Zone** — keine Uebertragung **ueber Zonengrenzen hinweg** (§ 72 Abs. 3 PBG, S. 929):
+   intra- statt interzonal; eine Verschiebung von W2 nach W3 (oder Wohn- nach Gewerbezone) ist
+   unzulaessig (Regelbauweise; BGer 1P.256/2006). Innerhalb des **Arealflaeche**-Verfahrens sind
+   zonenuebergreifende Verschiebungen ausnahmsweise zulaessig (S. 930).
+2. **Verbot der unerwuenschten Bauverdichte** (S. 930 f.): Ausnuetzungsziffern duerfen **nicht im
+   grossflaechigen Rahmen** verschoben werden; solange das ZH-Baupolizeirecht keine Regelung zur
+   maximal uebertragbaren Grenze enthaelt, gilt das **raeumliche Naehe-Erfordernis** (Uebertragung
+   nur ueber zaehlbare, der gleichen Zone zugehoerige, zusammenhaengende Flaeche).
+
+**Kommunale Konkretisierung — konkreter Schwellenwert** (S. 932): Art. 40 BO Erlenbach woertlich —
+> «Die Ausnuetzungsuebertragung innerhalb der gleichen Zone ist gegen Revers gestattet, wenn die
+> betroffenen Grundstuecke direkt aneinandergrenzen. Die Erhoehung der Ausnuetzung in den
+> beguenstigten Parzellen darf **ein Fuenftel der Grundausnuetzung** nicht uebersteigen.»
+
+Das Bundesgericht (ZBl 1999 S. 218 f.; § 72 Abs. 3 PBG) anerkennt **strengere kommunale**
+Regelungen zur interzonalen Uebertragung; eine **lockernde** kommunale Regelung waere dagegen
+problematisch (Rechtsgleichheit, Transparenz).
+
+**Verfahren / Sicherung** (S. 932-934): Die Uebertragung beduerfen der **Zustimmung des
+belasteten Eigentuemers**; Sicherung als **Dienstbarkeit (Ausnuetzungsrevers)** im Grundbuch
+(belastetes Grundstueck darf die uebertragene Reserve nicht mehr selbst beanspruchen). Bei
+Miteigentum: Verfuegung ueber die Quote nach **Art. 646 ZGB**. Reine zivilrechtliche Wirkung —
+das Grundbuch dokumentiert die baurechtliche Reduktion.
+
+## Erhoehte Nutzungsziffern / Boni (14.1.3, S. 934-937)
+
+- **Gewerbebonus / Familienwohnungen** (§ 49a Abs. 3 PBG, S. 935): Die Gemeinde kann fuer ganze
+  Zonen/Geschosse die Nutzung zu Wohnzwecken **oder** gewerblichen Zwecken zulassen,
+  vorschreiben oder beschraenken und dafuer eine **erhoehte Nutzungsziffer** festsetzen
+  (Gewerbebonus). Der Bonus darf nur die gewerbliche/wohnähnliche Mehrflaeche betreffen.
+- **Arealueberbauung** (S. 935): erhoehte Nutzungsziffer als Anreiz fuer qualitätvolle
+  Gesamtueberbauung; Bonus fuer Gewerbe **und** Areal koennen kumuliert werden, sofern BZO dies
+  vorsieht (S. 936).
+- **Bueroge­baeude in Industriezonen** (14.1.3.2, S. 936): Industriezonen sind frei, Nutzungs­ziffern
+  festzulegen oder darauf zu verzichten (§ 58 PBG).
+- **Altrechtliche Ausnuetzungserhoehung** (14.1.3.3, S. 936): Seit der **§-255-Aenderung 1992** sind
+  Dach-/Untergeschosse sowie Aussenwandquerschnitte nicht mehr anrechenbar → bei Altbauten kann
+  dadurch eine **nachtraegliche Ausnuetzungsreserve** entstehen (relevant bei Stockwerkeigentum-
+  und Umbaufragen; BEZ 1992 Nr. 35).
+
+## Nutzungsart / Immissionsschutz (14.2, S. 980-985)
+
+Die Zone bestimmt nicht nur die Dichte, sondern auch die **zulaessige Nutzungsart** (Wohnen,
+Gewerbe, Industrie) ueber die **zonenbedingten Immissionsvorschriften** (§ 51/52/57 PBG):
+
+- **Maessig stoerende Betriebe** (§ 52 Abs. 3 BO, S. 980): in Wohn-/Gewerbezonen zulaessig —
+  Beispiel maessig stoerend: Handwerks- und Gewerbebetriebe, leichte industrielle Betriebe,
+  Tankstelle mit Shop (werktags 16 h / sonntags 18 h Betrieb).
+- **Stark stoerende Betriebe** (S. 980 f.): grosse Handels-/Dienstleistungsunternehmen mit starkem
+  Zubringerverkehr, Betriebe der Schwerindustrie → nur in **Industriezonen**.
+- Massgeblich ist die **zonenkonforme** Vertraeglichkeit (funktionale Betrachtungsweise), nicht die
+  Berufung auf Bundesumweltrecht allein (BEZ 2010 Nr. 2; § 57 PBG raeumt der Gemeinde
+  Spielraum fuer zonenbezogene, ueber das USG hinausgehende **Empfindlichkeitsstufen** ein).
+
+## Wohnanteil (14.2.5.2, § 49a Abs. 3 PBG, S. 984 f.)
+
+Die Gemeinde kann gebietsweise einen **minimalen** (oder ausnahmsweise maximalen) **Wohnanteil**
+vorschreiben (Beziehungs- bzw. Bauordnungs-Wohnanteil). Berechnung: in der Regel **alle fuer
+Wohn- oder Arbeitszwecke nutzbaren Geschossflaechen** (§ 52 Abs. 1 PBG). Hotelzimmer und
+wohnaehnliche Nutzungen (Heime, Geriatrie/**Healthcare**) zaehlen unter Umstaenden **nicht** zum
+Wohnanteil — Abgrenzung ueber Zweckbestimmung und Eigenstaendigkeit der Nutzungseinheit
+(BEZ 1988 Nr. 14, S. 984 f.).
+
+## Nutzungsdichte nach der Harmonisierungsvorlage (14.3, § 255/256/257/258 nPBG, S. 988 f.)
+
+Die **Harmonisierungsvorlage (IVHB / nPBG)** kennt vier abschliessende Nutzungsziffern:
+**Ausnuetzungsziffer (§ 255 nPBG)** beschraenkt die zulaessige Geschossflaeche, **Baumassenziffer
+(§ 258 nPBG)** den zulaessigen Baukubus, **Ueberbauungsziffer (§ 256 nPBG)** die ueberbaute
+Grundstuecksflaeche, **Gruenflaechenziffer (§ 257 nPBG)** den vor Ueberbauung/Versiegelung zu
+bewahrenden Anteil.
+
+> **Wichtige ZH-Besonderheit (S. 988):** Die in der **IVHB vorgesehene Geschossflaechenziffer
+> (GFZ) steht im Kanton Zuerich NICHT zur Verfuegung.** ZH steuert die Dichte ueber AZ/BMZ/UEZ/
+> GruenflZ — nicht ueber die GFZ. (Gegenprobe-Korrektur eines frueheren Wiki-Eintrags, der die
+> GFZ als ZH-Instrument bezeichnete — siehe [[nutzungsziffern]].)
+
 ## Anwendungs-Transfer JANS (eigene Einordnung)
 
 - Bei **Dachausbau-Fragen** zuerst klaeren: (1) Ist das Dachgeschoss ein **Vollgeschoss** oder
@@ -77,6 +181,16 @@ Vollgeschosse` (§ 255 Abs. 2 PBG).
   fuer Ausnuetzung **und** SIA-416-Flaechen.
 - Bei **Wohnungsteilung** (1 → 2 Wohnungen) aendert sich die Ausnuetzung nicht per se; relevant
   werden Erschliessung, Wohnhygiene (Kap. 17), Schall-/Brandschutz und Pflichtparkplaetze.
+- **Ausnuetzungsuebertragung** als Hebel bei knapper Reserve: nur **gleiche Zone**, **direkt
+  benachbart**, gegen **Ausnuetzungsrevers im Grundbuch** — Daumenwert kommunaler Praxis (BO
+  Erlenbach) **max. 1/5 (20 %) der Grundausnuetzung**. Vor Annahme einer «kaufbaren» Reserve immer
+  die konkrete BZO/BO der Gemeinde pruefen (Schwelle ist kommunal, nicht kantonal einheitlich).
+- **Healthcare/Beherbergung & Wohnanteil:** Pflege-/Heimzimmer und Hotelzimmer zaehlen **nicht
+  automatisch** zum vorgeschriebenen Wohnanteil — bei Healthcare-Umnutzungen (vgl. Skill
+  `nutzungsstrategie`) Wohnanteilsregelung der Gemeinde fruehzeitig klaeren.
+- **Altbau-Reserve durch §-255-Aenderung 1992:** bei Bestandsbauten vor 1992 lohnt die Pruefung,
+  ob nicht mehr anrechenbare Dach-/UG-Flaechen + Aussenwandquerschnitte eine nachtraegliche
+  AZ-Reserve fuer Aufstockung/Ausbau eroeffnen.
 
 ## Offene Punkte / zu verifizieren
 
@@ -84,5 +198,7 @@ Vollgeschosse` (§ 255 Abs. 2 PBG).
   `wissen/baurecht/raw/260607_amtlich_zh_pbg.md` abgleichen.
 - § 10 ABV (Liste anrechenbarer Raeume) und § 13 ABV im Detail distillieren (eigene Seiten).
 - Vollgeschoss-/Dachgeschoss-Abgrenzung (§ 276 PBG) → Kap. 16 distillieren und [[backlink]].
-- Restliche Doppelseiten Kap. 14 (Nutzungsart, Mischrechnungsverbot, Ausnuetzungsuebertragung)
-  in Folgelaeufen erfassen.
+- Mischrechnungsverbot (Verbot der Quervergueterung verschiedener Ziffern) noch nicht
+  belegt — gezielt in den Restseiten Kap. 14 (Shots 486-495) suchen.
+- **Erledigt diesem Lauf:** massgebliche Grundstuecksflaeche im Detail, Ausnuetzungsuebertragung,
+  erhoehte Nutzungsziffern, Nutzungsart/Immissionen, Wohnanteil, Harmonisierungsvorlage.

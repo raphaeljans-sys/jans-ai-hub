@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-07
+last_updated: 2026-06-09
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -88,9 +88,14 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 ## Fortschritts-Tracker
 
 - **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07.
-- **Seiten distilliert:** ~8 / 1550 (Bootstrap Kap. 14 Ausnuetzung).
-- **Kapitel-Destillate:** 1 (Kap. 14, `emerging`).
-- **Naechster Lauf:** Kap. 14 abschliessen (Nutzungsart, § 10/13 ABV), dann Kap. 16
-  (Gebaeudehoehe/Vollgeschoss/Dach) — Shots ~565-590.
+- **Seiten distilliert:** ~40 / 1550 (20 Doppelseiten; Kap. 14 weitgehend).
+- **Kapitel-Destillate:** 1 (Kap. 14, `emerging` — Ausnuetzung, massgebl. Grundstuecks-
+  flaeche, Ausnuetzungsuebertragung, erhoehte Ziffern, Nutzungsart, Wohnanteil, IVHB).
+- **Wiki:** 7 Artikel (+ [[ausnuetzungsuebertragung]] 2026-06-09; [[nutzungsziffern]]
+  korrigiert: Freiflaechenziffer § 257 statt § 259, GFZ in ZH nicht verfuegbar).
+- **Letzter Lauf:** Run 1, 2026-06-09 — Kap. 14 abgeschlossen (Shots 464-471, 494, 496, 498).
+- **Naechster Lauf:** **Kap. 16** Gebaeudedimensionen (Gebaeude-/Firsthoehe, Vollgeschoss,
+  Dachgestaltung, Dachaufbauten/Lukarnen, Kniestock) — Shots ~570-590.
+- **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).

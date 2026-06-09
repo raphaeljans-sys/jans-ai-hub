@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-06-07
+last_updated: 2026-06-09
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -479,14 +479,14 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 461 | 2 | ~917 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.14.jpg` |  |
 | 462 | 2 | ~919 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.16.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 463 | 2 | ~921 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.17.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 464 | 2 | ~923 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.19.jpg` |  |
-| 465 | 2 | ~925 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.21.jpg` |  |
-| 466 | 2 | ~927 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.22.jpg` |  |
-| 467 | 2 | ~929 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.24.jpg` |  |
-| 468 | 2 | ~931 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.25.jpg` |  |
-| 469 | 2 | ~933 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.27.jpg` |  |
-| 470 | 2 | ~935 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.29.jpg` |  |
-| 471 | 2 | ~937 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.30.jpg` |  |
+| 464 | 2 | 922 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.19.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 465 | 2 | 924 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.21.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 466 | 2 | 926 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.22.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 467 | 2 | 928 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.24.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 468 | 2 | 930 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.25.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 469 | 2 | 932 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.27.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 470 | 2 | 934 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.29.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 471 | 2 | 936 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.30.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 472 | 2 | ~939 | [x] | `Bildschirmfoto 2026-06-07 um 11.55.32.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 473 | 2 | ~941 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.34.jpg` |  |
 | 474 | 2 | ~943 | [ ] | `Bildschirmfoto 2026-06-07 um 11.55.36.jpg` |  |
@@ -509,11 +509,11 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 491 | 2 | ~977 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.45.jpg` |  |
 | 492 | 2 | ~979 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.47.jpg` |  |
 | 493 | 2 | ~981 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.48.jpg` |  |
-| 494 | 2 | ~983 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.50.jpg` |  |
+| 494 | 2 | 980 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.50.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 495 | 2 | ~985 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.51.jpg` |  |
-| 496 | 2 | ~987 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.53.jpg` |  |
+| 496 | 2 | 984 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.53.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 497 | 2 | ~989 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.55.jpg` |  |
-| 498 | 2 | ~991 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.56.jpg` |  |
+| 498 | 2 | 988 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.56.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 499 | 2 | ~993 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.58.jpg` |  |
 | 500 | 2 | ~995 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.00.jpg` |  |
 | 501 | 2 | ~997 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.01.jpg` |  |

@@ -23,7 +23,19 @@ wurden.
 - **BZO-Richtwert-Tabelle** ([[zonenkonformitaet]]): Einzelwerte gegen aktuelle BZO prüfen.
 
 ## Cross-Article-Spannungen (worth resolving)
-- Noch keine erfasst (erst 4 Artikel).
+- Noch keine erfasst.
 
-## Beantwortete Fragen (Archiv)
-- (leer)
+## Offene Wissenslücken — neu (2026-06-09, aus Buch-Run Kap. 14)
+- **Mischrechnungsverbot** (Verbot der Quervergütung zwischen verschiedenen Nutzungs-
+  ziffern): im Buch erwähnt, aber im Destillat noch nicht belegt — gezielt in Shots
+  486-495 (Kap. 14 Restseiten) suchen.
+- **§ 10 ABV** (Liste anrechenbarer Wohn-/Arbeitsräume) und **§ 13 ABV** noch nicht im
+  Detail distilliert.
+
+## Beantwortete Fragen / Korrekturen (Archiv)
+- **2026-06-09 (Gegenprobe, Modell D):** [[nutzungsziffern]] nannte für die
+  **Freiflächenziffer** fälschlich § 259 PBG — § 259 regelt die *massgebliche
+  Grundstücksfläche*; die Freiflächenziffer ist **§ 257 PBG** (Buch Bd 2 S. 920/949).
+  Ebenso behauptete der Artikel, die **Geschossflächenziffer (GFZ)** werde «in neueren
+  Planungen anstelle der AZ verwendet» — falsch für ZH: die **IVHB-GFZ steht im Kanton
+  Zürich NICHT zur Verfügung** (Buch Bd 2 S. 988). Beides korrigiert.

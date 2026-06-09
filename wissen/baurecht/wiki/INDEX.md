@@ -9,7 +9,9 @@ oder umbenannten Artikel aktualisieren.
 ## Fokus-Bereiche & Artikel
 
 ### Mass der Nutzung
-- [[nutzungsziffern]] — AZ, ÜZ, BMZ, GFZ, Freiflächenziffer · *established*
+- [[nutzungsziffern]] — AZ (§ 254/255), ÜZ (§ 256), BMZ (§ 254/258 nPBG), Freiflächenziffer (§ 257), massgebliche Grundstücksfläche (§ 259), Boni; **GFZ in ZH nicht verfügbar** · *established*
+- [[ausnuetzungsuebertragung]] — Verschiebung der Ausnützungsreserve aufs Nachbargrundstück: gleiche Zone (§ 72 Abs. 3 PBG), Revers im Grundbuch, kommunaler Daumenwert max. 1/5 · *emerging*
+- [[14-nutzungsdichte-ausnuetzung]] (Destillat Bd 2) — Buchsynthese Kap. 14, Belegquelle der beiden Artikel · *emerging*
 
 ### Abstände & Höhen
 - [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand, Näherbaurecht, Wald-/Höhen · *established*
@@ -33,8 +35,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Gewässerabstand (in baubewilligungsverfahren erwähnt, eigener Artikel offen)
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-07)
-- Artikel im Wiki: 6 + QUELLEN-Register
+## Statistik (Stand 2026-06-09)
+- Artikel im Wiki: 7 + QUELLEN-Register (+ [[ausnuetzungsuebertragung]] 2026-06-09)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)
