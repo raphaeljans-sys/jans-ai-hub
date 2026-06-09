@@ -1,8 +1,8 @@
 ---
 title: U-Werte & Heizwaermebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-06-06
-sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
+last_updated: 2026-06-09
+sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -45,6 +45,23 @@ Umbau/Umnutzung: Grenzwert = 1,5 × Neubau.
 ## Gebaeudehuellzahl A_th/A_E (Kompaktheit)
 Therm. Huellflaeche je m² EBF. Kleinbauten ~3, kompakte Grossbauten ~0,8 → Verlustflaeche beim
 Kleinbau bis 4× groesser. **Kompakt bauen ist die billigste Energiemassnahme.**
+
+## Energiebezugsflaeche EBF (A_E) — der Nenner aller Kennzahlen
+EBF (SIA 416/1:2007) = Summe aller Geschossflaechen, deren Nutzung **Beheizen/Klimatisieren**
+erfordert, **brutto** gemessen; lichte Raumhoehe < 1,0 m zaehlt nicht. **Dazu** (auch unbeheizt,
+falls in der therm. Huelle): HNF, abgeschlossene Treppenhaeuser/Korridore, Sanitaer/Garderoben,
+Schaechte/Abstellraeume < 10 m². **Nicht dazu:** Garagen/Fahrzeugflaechen, Schutzraeume,
+betriebstechnische Raeume, Abstellraeume (auch wenn beheizt). Wer die EBF falsch abgrenzt, rechnet
+Q_H, Minergie-Kennzahl **und** PV-Pflicht (10 W/m² EBF) falsch. Detail → `[[enfk-en-02-waermeschutz-2013]]`.
+
+## ⚠ Versionsabgleich EN-2 (2013, SIA 380/1:2009) ↔ EN-102 (2018)
+Zwischen den EnFK-Vollzugshilfen-Ausgaben gibt es Abweichungen — fuer den Nachweis gilt die im
+Kanton aktuell verbindliche Ausgabe (ZH heute SIA 380/1:2016 / EVEN):
+- **Fenster-Grenzwert Neubau:** EN-2 (2013) **1,3** → EN-102 (2018) **1,0** (verschaerft).
+- **Umbau-Heizwaermebedarf Q_h,li:** EN-2 (2013) **1,25 × Neubau** ↔ oben gefuehrt 1,5 × (EN-102 2018);
+  vor dem Zitieren konkret gegen die geltende Ausgabe pruefen.
+- **Waermebruecke Fensteranschlag Ψ (Typ 5):** EN-2 (2013) **0,10** ↔ 0,15 (EN-102 2018).
+Die **Q_h,li-Grundwerte** (Wohnen MFH 55 / EFH 65 / Verwaltung 65 … MJ/m²) sind in beiden Ausgaben identisch.
 
 ## Datenstand / Aktualitaet
 ⚠ Werte SIA 380/1:2009 / EN-102 2018. Kt. ZH operativ ueber EnerG seit **1.9.2022** (MuKEn 2014).

@@ -6,14 +6,15 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | Destillat | Quelle (PL-04) | Status | Datenstand |
 |---|---|---|---|
 | [[enfk-en-102-waermeschutz-2018]] | U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez | established (S. 1-16, vollst.) | Dez 2018 / SIA 380/1:2009 |
+| [[enfk-en-02-waermeschutz-2013]] | U Wert berechnung/VoHi_EN02_de | established (S. 1-12, vollst.) | ⚠ Feb 2013 / SIA 380/1:2009 |
 | [[enfk-en-104-eigenstromerzeugung]] | Solaranlage/EN104/26_EN-104 | established | ⚠ Formular bis 31.12.2024 |
-| [[minergie-besser-planen-bauen]] | Solaranlage/_Literatur/planer_d | established (S. 1-16) | ⚠ ~2017 / MuKEn 2014 |
+| [[minergie-besser-planen-bauen]] | wissen.minergie.ch/minergiewissen_planer_d_2023 | established (S. 1-16, Ausg. 2023) | Ueberarbeitung 09/2023 / MuKEn 2014 |
 | [[bauphysik-heizwaermebedarf-kennwerte]] | _Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF | emerging (S. 146-147) | SIA 380/1:2009 |
 | [[sia-380-1-heizwaermebedarf-berechnung]] | _Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1 | established | SIA 380/1 |
 | [[bfe-u-wert-bauteilekatalog-neubauten-2002]] | U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten | emerging (S. 1-10/~75) | ⚠ 2002 |
 | [[tec21-solares-bauen-pv-typen-2012]] | Solaranlage/_Literatur/Final_Dossier_Solararchitekur | established (S. 1-13) | ⚠ 2012 (Technologie) |
 | [[en-zh-nachweis-uebersicht]] | _Formulare Kanton ZH Baueingabe/EN-ZH | established (vollst., 5 S.) | ⚠ Juli 2022; seit 1.1.2026 EVEN |
-| [[sia-2001-waermedaemmstoffe-lambda]] | U Wert berechnung/2001_2005_d | emerging (S. 1-14/20) | ⚠ 2005 |
+| [[sia-2001-waermedaemmstoffe-lambda]] | U Wert berechnung/2001_2005_d | established (S. 1-17, vollst.) | ⚠ 2005 |
 | [[bfe-waermeerzeugerleistung-2015]] | _Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung | established (vollst., 5 S.) | ⚠ 12.2015 / SIA 384/1:2009 |
 | [[sia-380-1-standardnutzungswerte-tab24-25]] | _Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1 | established (1 S., Tab. 24/25) | SIA 380/1 Anhang A |
 | [[sia-380-1-beispiel-monatsbilanz]] | _Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel | established (1 S., Rechenbsp.) | SIA 380/1 / SIA 381/2 |

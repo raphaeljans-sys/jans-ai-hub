@@ -6,7 +6,7 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 14 Destillate erstellt; ~16 Prioritaets-PDFs offen (siehe pdf-inventar) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 15 Destillate erstellt; ~13 Prioritaets-PDFs offen (siehe pdf-inventar) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10) | Rest Kap. 4 offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
@@ -15,7 +15,9 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | Bauphysik Heizwaermebedarf-Kennwerte | PL-04/_Heizwaermebedarf | destilliert (S.146-147) | Tab. 6.2 Gebaeudehuellzahl |
 | TEC21-Dossier «Solares Bauen» 5/2012 | PL-04/Solaranlage/_Literatur | destilliert (S.1-13) | PV-Typen + Integration (F4) |
 | EN-ZH Nachweis-Deckblatt (Baudir. ZH, Juli 2022) | PL-04/_Formulare Kanton ZH | destilliert (vollst.) | Nachweis-Uebersicht; ⚠ seit 1.1.2026 EVEN |
-| SIA 2001 Waermedaemmstoffe (Ausgabe 2005) | PL-04/U Wert berechnung | destilliert (S.1-14) | λ-Bandbreiten Daemmstoffe (E1) |
+| SIA 2001 Waermedaemmstoffe (Ausgabe 2005) | PL-04/U Wert berechnung | destilliert (vollst. S.1-17) | λ-Bandbreiten + Naturdaemmst./VIP/WDVS (E1) |
+| EN-2 Waermeschutz von Gebaeuden (EnFK, Feb 2013) | PL-04/U Wert berechnung | destilliert (vollst.) | Nachweiswege, Waermebruecken Ψ, EBF-Def., sommerl. Waermeschutz |
+| Minergie «Besser planen» Ueberarbeitung 09/2023 | PL-04/wissen.minergie.ch | destilliert (S.1-16) | neue Kennzahlen 51/46/29 + THGE 11 kg/m² (F5) |
 | Waermeerzeugerleistung (BFE/EnergieSchweiz Nr. 2781, 12.2015) | PL-04/_Heizwaermebedarf | destilliert (vollst.) | Dimensionierung + Brennwerte (F13) |
 | SIA 380/1 Standardnutzungswerte Tab. 24/25 | PL-04/_Heizwaermebedarf | destilliert (vollst.) | Gebaeudekat. + Warmwasser Qww |
 | Rechenbeispiel Monatsbilanz Heizwaermebedarf | PL-04/_Heizwaermebedarf | destilliert (vollst.) | Buero ZH Januar, Qh durchgerechnet |

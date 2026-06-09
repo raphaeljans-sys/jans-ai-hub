@@ -2,10 +2,10 @@
 quelle: "SIA Merkblatt 2001 «Waermedaemmstoffe — Deklarierte Werte der Waermeleitfaehigkeit und weitere Angaben der Lieferanten und Hersteller»"
 herausgeber: "SIA — Schweizerischer Ingenieur- und Architektenverein, Zürich"
 ausgabe: "Ausgabe 2005 (1. Auflage 2005-04)"
-gelesen: 2026-06-07
+gelesen: "2026-06-07 (S. 1-14); 2026-06-09 (S. 15-17, Naturdaemmstoffe/VIP/WDVS)"
 datenstand: "⚠ 2005 — Produkt-Nennwerte/Bestaetigungen galten bis 31.12.2006; veraltet (>18 Mt.). Materialklassen-λ-Bandbreiten physikalisch weiterhin als Orientierung gueltig; konkrete Produktwerte = aktuelle Herstellerdeklaration / aktuelle SIA-2001-Ausgabe."
-status: emerging
-last_updated: 2026-06-07
+status: established
+last_updated: 2026-06-09
 quelle_pfad: "PL - 04 Energie/U Wert berechnung/2001_2005_d.pdf"
 ---
 
@@ -37,9 +37,23 @@ PUR/PIR und Phenolharz (~0,022–0,024).
 | **PUR / PIR** (Polyurethan/Polyisocyanurat) | 0,022–0,029 | 0,024–0,028 | 30–40 | 5.2/5.3 | hohe Daemmleistung bei geringer Dicke; diffusionsdicht o. -offen erhaeltlich |
 | **Phenolharzschaum** | 0,021–0,024 | 0,022–0,023 | ≥40 | 5.3 | tiefste λ der gaengigen Schaeume |
 
-> Im Heft zusaetzlich gelistet (S. 15–17, hier nicht im Detail erfasst): Holzwolle-Leichtbauplatten,
-> Holzfaserplatten, Zellulose, Verbundplatten, **Vakuum-Isolationspaneele (VIP)** und verputzte
-> Aussenwaermedaemm-Systeme (Kompaktfassade) → offen fuer Folgelauf.
+## Natur-/Faserdaemmstoffe + VIP + Kompaktfassade (S. 15–17, Ausgabe 2005)
+| Daemmstoff | λ_D-Bereich [W/(m·K)] | typisch | ρ [kg/m³] | BKZ | Bemerkung |
+|---|---|---|---|---|---|
+| **Holzfaserplatten** | 0,038–0,051 | 0,038–0,044 | 45–270 | **4.3** (brennbar) | diffusionsoffen, gute Speichermasse (c ~0,58–0,59 Wh/kg·K); Steico flex 0,038 / Pavatherm 0,042 / Steico universal 0,051 |
+| **Zellulose** (Einblas/Platten) | 0,039–0,040 | 0,040 | 30–80 | 5.3 / 5(200°C).3 | in-situ-Einblasdaemmung (Hohlraeume), oekologisch; isofloc/Isocell/Warmcel 0,040, flexCL 040 0,039 |
+| **Holzwolle-Leichtbauplatten** | 0,090 | 0,090 | 240–600 | **6q.3** (quasi nicht brennbar) | Heraklith — v.a. als Putztraeger/Deckschicht, nicht als Hauptdaemmung (hohes λ) |
+| **Vakuum-Isolationspaneele (VIP)** | **0,009** | 0,009 | 180–220 | — | Hoechstleistung: ~3–4× besser als Schaeume; nur grossflaechig & fachgerecht ohne konstruktive Waermebruecken; nicht schneidbar/durchbohrbar → fuer schlanke Aufbauten (Terrasse, Innendaemmung, Bruestung) |
+| **WDVS / Kompaktfassade — EPS** | 0,031–0,040 | 0,033–0,038 | 15–20 | 5.1 (brennbar) | verputzte Aussendaemmung; Lambdapor (graphit) bis 0,031; Systemhalter haftet fuer deklariertes λ |
+| **WDVS / Kompaktfassade — Steinwolle** | 0,036–0,040 | 0,036–0,040 | 90–150 | **6q.3** (nicht brennbar) | nicht brennbare Kompaktfassade (Brandschutz, Hochhaus) → Skill `brandschutz` |
+
+**Verbundplatten (Holzwolle-Deckschicht + Daemmkern):** fuer die Holzwolle-Deckschicht sind feste
+Rechenwerte λ_r einzusetzen — 5 mm = **0,15**, 7,5 mm = **0,125**, 10 mm = **0,10**, >15 mm = λ_D
+des Holzwolle-Produkts; der Kern (EPS/Steinwolle) zaehlt mit seinem eigenen λ_D.
+
+> Merke fuer den U-Wert: Bei VIP, Kompaktfassade und Verbundplatten gilt der gute λ-Wert **nur bei
+> fachgerechter, waermebrueckenfreier Ausfuehrung** — Stoesse, Duebel, Anschluesse verschlechtern
+> den effektiven U-Wert deutlich (→ Detailplanung, [[u-werte-grenzwerte-ch]]).
 
 ## Bemessungswerte — Grundsatz
 λ_D gilt fuer mittlere Temperatur 10 °C, Ausgleichsfeuchte 23 °C/50 % r.F., gealterten Zustand;
@@ -59,5 +73,5 @@ bzw. tabellierte Werte aus Vornorm **SIA 279**.
   Liste (2005) dient der **Orientierung der Klassenbandbreite**, nicht als aktuelle Produktdeklaration.
 
 ## Offene Punkte
-- Naturdaemmstoffe (Holzfaser/Zellulose), VIP und Kompaktfassade (S. 15–17) noch zu destillieren.
-- Aktuelle SIA-2001-Ausgabe / Umstellung auf SN-EN-Bemessungswerte abzugleichen.
+- Aktuelle SIA-2001-Ausgabe / Umstellung auf SN-EN-Bemessungswerte abzugleichen (Produktwerte 2005 veraltet).
+- Bemessungswerte-Zuschlag (λ_D → λ_Bemessung) je Materialklasse aus aktueller SIA 279 nachtragen.

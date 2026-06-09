@@ -11,20 +11,21 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
   → `[[sia-380-1-beispiel-monatsbilanz]]`, `[[sia-380-1-standardnutzungswerte-tab24-25]]`. **vollstaendig.**
-- [~] A3 Waermedaemmstoffe waehlen — λ/ρ/μ/BKZ je Materialklasse belegt 2026-06-07 via SIA 2001
-  → `[[daemmstoffe-lambda]]`; offen: Naturdaemmstoffe/VIP (SIA 2001 S. 15-17), `Auswahl_Waermedaemmstoffe.docx`.
-- [~] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt 2026-06-06 via EN-102;
-  offen: BFE-Waermebrueckenkatalog (warum mit dicker Daemmung wichtiger).
-- [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot-Anforderung/Beispieltabelle belegt 2026-06-06 via
-  EN-102 (sommerl. Waermeschutz); offen: eigener Fenster-Themenartikel + Zielkonflikt Verlust/Gewinn.
+- [x] A3 Waermedaemmstoffe waehlen — λ/ρ/μ/BKZ je Materialklasse + Naturdaemmstoffe/VIP/WDVS belegt
+  (2026-06-07 + 2026-06-09) via SIA 2001 vollst. → `[[daemmstoffe-lambda]]`. **vollstaendig** (Bemessungswerte-Zuschlag SIA 279 offen).
+- [~] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt via EN-102 + EN-2 (Versionsabgleich
+  2013↔2018 dokumentiert) → `[[u-werte-grenzwerte-ch]]`; offen: BFE-Waermebrueckenkatalog.
+- [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
+  Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
 - [ ] A6 CLT/Holzbau-Bauphysik (`clt/CLT by Stora Enso ... Building physics`).
 
 ## Block B — Nachweis & Recht (ZH)
 - [x] B1 ZH-Energienachweis EN-ZH: welches Formular wann — belegt 2026-06-07 via EN-ZH-005
   → `[[energienachweis-zh]]` (FAQ F12). ⚠ Vollzug seit 1.1.2026 elektronisch (EVEN, energievollzug.ch).
 - [ ] B2 Energienutzungs-Deklaration bei geringfuegigen Umbauten (wann genuegt sie?).
-- [x] B3 Minergie / Minergie-P / -A / -ECO: Stufen, Nutzen, Aufwand — belegt 2026-06-06 via
-  Minergie-Wissen «Besser planen» → `[[minergie-standards]]` (FAQ F5). Offen: minergiewissen_planer_d_2023 (Update).
+- [x] B3 Minergie / Minergie-P / -A / -ECO: Stufen, Nutzen, Aufwand — belegt + auf Stand 2023
+  aktualisiert 2026-06-09 via Minergie-Ueberarbeitung 09/2023 (Kennzahl 51/46/29, THGE 11 kg/m²,
+  Wetterdaten 2035) → `[[minergie-standards]]` (FAQ F5). **vollstaendig.**
 - [~] B4 MuKEn-Umsetzung Kt. ZH — EnerG seit 1.9.2022 (MuKEn 2014); Vollzug seit 1.1.2026 ueber
   EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025.
 - [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
@@ -46,6 +47,6 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [ ] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus.
 
 ## Meta
-- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — 9 belegt (F1-F5, F7, F10, F12, F13);
-  offen F6 (WP-Vergleich), F8, F9, F11.
+- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — 10 belegt (F1-F5, F7, F10, F11, F12, F13);
+  offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null), F9 (graue Energie).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.)

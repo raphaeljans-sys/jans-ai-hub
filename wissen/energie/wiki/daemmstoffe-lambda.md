@@ -1,7 +1,7 @@
 ---
 title: Dämmstoffe & λ-Werte — Schnellreferenz
-status: emerging
-last_updated: 2026-06-07
+status: established
+last_updated: 2026-06-09
 sources: [destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
 links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[BAUHERREN-FAQ]]
 ---
@@ -27,6 +27,21 @@ desto besser daemmt das Material bei gleicher Dicke. Er geht direkt in den U-Wer
 Materialklassen-Bandbreiten sind physikalisch weiterhin als Orientierung brauchbar; **konkrete
 Produktwerte** stammen aus der aktuellen Herstellerdeklaration / aktuellen SIA-2001-Ausgabe.
 
+## Natur-/Faserdaemmstoffe + Hochleistung (VIP) + Kompaktfassade
+| Daemmstoff | λ_D [W/(m·K)] | typisch | BKZ (VKF) | Einsatz |
+|---|---|---|---|---|
+| Holzfaserplatten | 0,038–0,051 | 0,038–0,044 | 4.3 brennbar | diffusionsoffen, gute Speichermasse (Hitzeschutz) |
+| Zellulose (Einblas) | 0,039–0,040 | 0,040 | 5.3 | Hohlraumdaemmung, oekologisch, guenstig |
+| Holzwolle-Leichtbauplatten | 0,090 | 0,090 | 6q.3 nicht brennbar | nur Putztraeger/Deckschicht (hohes λ) |
+| **VIP** (Vakuum-Paneele) | **0,009** | 0,009 | — | 3–4× besser als Schaeume; nur grossflaechig & waermebrueckenfrei; nicht schneidbar/bohrbar → schlanke Aufbauten |
+| WDVS/Kompaktfassade EPS | 0,031–0,040 | 0,033–0,038 | 5.1 brennbar | verputzte Aussendaemmung Standard |
+| WDVS/Kompaktfassade Steinwolle | 0,036–0,040 | 0,036–0,040 | 6q.3 nicht brennbar | nicht brennbare Kompaktfassade (Hochhaus) → Skill `brandschutz` |
+
+> **Verbundplatten** (Holzwolle-Deckschicht + Kern): Holzwolle-Deckschicht mit Rechenwert λ_r
+> (5 mm = 0,15 · 7,5 mm = 0,125 · 10 mm = 0,10 · >15 mm = λ_D), Kern mit eigenem λ_D rechnen.
+> **Merke:** Bei VIP/Kompaktfassade gilt das gute λ **nur waermebrueckenfrei ausgefuehrt** —
+> Duebel/Stoesse/Anschluesse verschlechtern den effektiven U-Wert.
+
 ## Begriffe
 λ_D deklarierter Nennwert (10 °C, gealtert, 90-%-Vertrauen) · ρ Rohdichte · μ Diffusionswiderstand
 (tief = diffusionsoffen) · c Waermekapazitaet (Speichermasse) · **BKZ** Brandkennziffer (3 leicht
@@ -36,11 +51,13 @@ brennbar … 6 nicht brennbar, 6q quasi nicht brennbar; Qualmgrad 1–3) → Ski
 - Knapper Platz/Dicke → PUR/PIR oder Phenolharz (tiefstes λ).
 - Standardfassade/Dach → Stein-/Glaswolle, EPS (Preis-Leistung).
 - Feucht/druckbelastet (Perimeter, UG, Umkehrdach) → XPS/Schaumglas.
-- Brandschutz/Schall → Mineralwolle (nicht brennbar).
-- Oekologisch/diffusionsoffen → Holzfaser/Zellulose (offen, Folgelauf).
+- Brandschutz/Schall → Mineralwolle (nicht brennbar); nicht brennbare Fassade → Steinwoll-WDVS.
+- Oekologisch/diffusionsoffen → Holzfaser/Zellulose.
+- Extrem schlank (Terrasse, Innendaemmung, Bruestung) → **VIP** (λ 0,009), aber waermebrueckenfrei.
 
 ## Offen
-Naturdaemmstoffe (Holzfaser/Zellulose), VIP, Kompaktfassade (SIA 2001 S. 15–17) noch zu erfassen.
+- Bemessungswerte-Zuschlag (λ_D → λ_Bemessung) je Materialklasse aus aktueller SIA 279.
+- Umstellung SIA 2001 auf SN-EN-Bemessungswerte / aktuelle Produktdeklarationen.
 
 ## Quelle
 SIA Merkblatt 2001 (Ausgabe 2005) → `[[sia-2001-waermedaemmstoffe-lambda]]`.

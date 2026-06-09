@@ -11,12 +11,12 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [ ] `Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` | — |
 | [x] `Solaranlage/_Literatur/Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` | 2026-06-07 (S. 1-13, PV-Typen) |
 | [x] `Solaranlage/_Literatur/planer_d.pdf` | 2026-06-06 (S. 1-16, Minergie-Wissen) |
-| [x] `U Wert berechnung/2001_2005_d.pdf` | 2026-06-07 (S. 1-14, λ-Werte; SIA 2001:2005) |
+| [x] `U Wert berechnung/2001_2005_d.pdf` | 2026-06-09 (vollst. S. 1-17, λ-Werte + Naturdaemmst./VIP/WDVS; SIA 2001:2005) |
 | [x] `U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` | 2026-06-06 (S. 1-16, vollst.) |
 | [ ] `U Wert berechnung/Energienachweis 380-1 Muster.pdf` | — |
 | [ ] `U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung.pdf` | — |
 | [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-06-05 (S.1-10) |
-| [ ] `U Wert berechnung/VoHi_EN02_de.pdf` | — |
+| [x] `U Wert berechnung/VoHi_EN02_de.pdf` | 2026-06-09 (vollst. S. 1-12; EnFK EN-2 Feb 2013, SIA 380/1:2009) |
 | [ ] `U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf` | — |
 | [x] `_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` | 2026-06-07 (vollst., 5 S.; ⚠ seit 1.1.2026 EVEN) |
 | [ ] `_Heizwaermebedarf/Betriebsenergie.pdf` | — |
@@ -37,7 +37,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_TN_Liste_Minergie_Nachweis_20230926-230921-104712.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/fez_energie_events_2023_24_WEB-230913-120622.pdf` | — |
-| [ ] `wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf` | — |
+| [x] `wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf` | 2026-06-09 (S. 1-16; Minergie-Ueberarbeitung 09/2023 — neue Kennzahlen + THGE) |
 
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)
 | Status | Quelle | Datenstand |

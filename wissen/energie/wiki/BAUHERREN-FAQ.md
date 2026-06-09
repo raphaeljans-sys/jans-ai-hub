@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: emerging
-last_updated: 2026-06-08
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md]
+last_updated: 2026-06-09
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md]
 links: [[INDEX]]
 ---
 
@@ -112,22 +112,29 @@ PV → Skill `brandschutz`.
 **Kurz:** Minergie ist ein **freiwilliges Qualitaetslabel** ueber dem Gesetz: garantierter
 Komfort durch **Komfortlueftung**, **keine fossile Heizung**, **PV-Pflicht** und ein geprueftes
 Gesamtergebnis (Minergie-Kennzahl). **-P** = tiefster Verbrauch/hoechster Komfort, **-A** =
-deckt den Strombedarf selbst (Plusenergie), **ECO** = zusaetzlich gesund/oekologisch.
+deckt den Strombedarf selbst (Plusenergie), **ECO** = zusaetzlich gesund/oekologisch. **Neu seit
+2023:** Minergie begrenzt auch den **CO₂-Fussabdruck der Erstellung** (graue Energie).
 
-**Fachlich:** Minergie baut auf der MuKEn 2014 auf und verschaerft. Richtwerte Wohnen (Neubau):
+**Fachlich:** Minergie baut auf der MuKEn 2014 auf und verschaerft. Richtwerte Wohnen MFH
+(Neubau, Ueberarbeitung 09/2023):
 
 | Kriterium | Minergie | Minergie-P | Minergie-A |
 |---|---|---|---|
-| Minergie-Kennzahl | 55 kWh/m² | 50 kWh/m² | 35 kWh/m² |
-| Heizwaermebedarf | MuKEn 2014 | 70 % MuKEn | MuKEn 2014 |
-| Luftdichtheit q_a50 | 1,2 | 0,8 (gemessen) | 0,8 |
+| Minergie-Kennzahl | 51 kWh/m² | 46 kWh/m² | 29 kWh/m² |
+| Heizwaermebedarf | 90 % MuKEn 2014 | 70 % MuKEn 2014 | 90 % MuKEn 2014 |
+| THGE Erstellung (graue Energie) | 11 kg CO₂/m²·a | 11 | 11 |
+| Luftdichtheit q_a50 | 1,2 | 0,8 (gemessen) | 0,8 (gemessen) |
 
-Immer dabei: kontrollierte Lufterneuerung, sommerlicher Waermeschutz, keine fossilen Brennstoffe
-(Neubau), PV ab 10 W/m² EBF, Leerrohre fuer E-Mobilitaet. Der Mehrpreis steckt in Huelle +
-Lueftung + PV und zahlt sich ueber Betriebskosten, Wohnwert und Verkaeuflichkeit zurueck.
+Immer dabei: kontrollierte Lufterneuerung, **klimaangepasster sommerlicher Waermeschutz (Wetterdaten
+2035)**, keine fossilen Brennstoffe, **Dach voll mit PV** (Neubau ≥ 60 % der Dachflaeche), Leerrohre
+fuer E-Mobilitaet. Der Mehrpreis steckt in Huelle + Lueftung + PV und zahlt sich ueber Betriebskosten,
+Wohnwert, Verkaeuflichkeit — und Schutz vor kuenftiger CO₂-Regulierung — zurueck. (Gegenueber der
+Vorgaenger-Ausgabe ~2017 wurde die Kennzahl von 55/50/35 auf 51/46/29 gesenkt und die graue Energie
+neu limitiert.)
 
-**Quelle:** Minergie Schweiz «Besser planen, besser bauen» (~2017, Basis MuKEn 2014) →
-`[[minergie-besser-planen-bauen]]`. ⚠ Kennzahlen periodisch revidiert — aktuell auf minergie.ch.
+**Quelle:** Verein Minergie «Besser planen, besser bauen», Ueberarbeitung September 2023 →
+`[[minergie-besser-planen-bauen]]`; Themenartikel → `[[minergie-standards]]`. ⚠ **Datenstand
+2026-06-09:** Reglement/Kennzahlen periodisch revidiert — konkrete Limiten auf minergie.ch pruefen.
 
 ---
 
@@ -238,9 +245,40 @@ WP-Dimensionierung (JAZ) braucht eigene Detailgrundlage.
 
 ---
 
+## F11 — «Wie hitzefest ist mein Haus im Sommer — was schuetzt vor Ueberhitzung?»
+
+**Kurz:** Entscheidend ist nicht die Klimaanlage, sondern **aussenliegender, beweglicher Sonnenschutz**
+(Storen/Raffstoren) plus **Speichermasse** und **Nachtauskuehlung**. Faustregel fuer den
+Gesamtenergiedurchlass von Glas + Beschattung: **g-Wert 0,1–0,15** — dann bleiben im Sommer rund
+85–90 % der Sonnenwaerme draussen. Wer modern plant, rechnet bereits mit dem **Klima von 2035**.
+
+**Fachlich:** Solare Eintraege durch transparente Bauteile sind die Hauptursache sommerlicher
+Ueberhitzung. Vier Stellschrauben:
+- **Sonnenschutz aussenliegend, beweglich, windfest und gesteuert** — innenliegender Blendschutz
+  bringt fuer die Hitze fast nichts (die Waerme ist dann schon im Raum). Blend- und Sonnenschutz
+  nicht in **einem** Behang kombinieren.
+- **g-Wert (Verglasung + Beschattung) 0,1–0,15** als Zielwert; bei gekuehlten Raeumen gelten
+  zusaetzlich normierte Anforderungen an Steuerung und Windfestigkeit (EnFK EN-2, Kap. 8).
+- **Speichermasse** (Massivdecken/-waende) puffert Tagesspitzen; in Kombination mit **Freecooling /
+  Nachtauskuehlung** (Lueftung, oeffenbare Fenster) wird die Waerme nachts abgefuehrt.
+- **Fensterflaeche/-orientierung**: grosse Sued-/Ostwest-Glasflaechen ohne wirksame Verschattung sind
+  das Hauptrisiko; der Verschattungsfaktor Horizont wird im Nachweis beruecksichtigt.
+
+Minergie verlangt seit 2023 **erhoehte Anforderungen an den sommerlichen Waermeschutz auf Basis
+modellierter Wetterdaten 2035** — d.h. das Gebaeude muss auch im kuenftig heisseren Klima ohne aktive
+Kuehlung komfortabel bleiben. Im gesetzlichen Vollzug (EN-2) ist mindestens der g-Wert des Sonnen-
+schutzes nach Stand der Technik einzuhalten.
+
+**Quelle:** Verein Minergie «Besser planen, besser bauen» (Ueberarbeitung 09/2023) →
+`[[minergie-besser-planen-bauen]]`; EnFK Vollzugshilfe EN-2 Kap. 8 (2013/SIA 380/1) →
+`[[enfk-en-02-waermeschutz-2013]]`; g-Wert-Tabelle Verglasung → `[[enfk-en-102-waermeschutz-2018]]`.
+Themenartikel → `[[sommerlicher-waermeschutz]]`.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - F6 Waermepumpe vs. Fernwaerme vs. Pellets — Systemwahl (Brennwerte/Nutzungsgrade Holz/Pellet/
   Oel/Gas jetzt belegt → `[[bfe-waermeerzeugerleistung-2015]]`; offen: WP-Vergleich/JAZ, Entscheidungsmatrix).
 - F8 Was heisst «Netto-Null»/Klimaziel konkret fuer einen Neubau/Umbau heute?
-- F9 Graue Energie / CO2 im Bauteil — ab wann ist Sanieren besser als Neubau?
-- F11 Wie hitzefest ist mein Haus im Sommer (g-Wert, Beschattung)? (Teilbeleg in EN-102)
+- F9 Graue Energie / CO2 im Bauteil — ab wann ist Sanieren besser als Neubau? (Ansatz: Minergie THGE
+  11 kg CO₂/m²·a → `[[minergie-besser-planen-bauen]]`; KBOB-Bilanzierung noch offen.)
