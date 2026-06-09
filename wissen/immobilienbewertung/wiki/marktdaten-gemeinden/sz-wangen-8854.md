@@ -114,6 +114,10 @@ Erster bewerteter JANS-Fall in dieser Gemeinde: gemischtes **MFH** (EG Arztpraxi
 uebertragbare Benchmarks → [[outputs/2026-06-09_bewertung-bahnhofstrasse27-wangen]].
 
 Aus dem Fall verifizierte/abgeleitete Kennwerte fuer Wangen:
+- **Lageklasse-Befund Bahnhofstrasse 27: «Mittel»** (Bauland 2'702 CHF/m²). Methodik: UBS-FS gibt
+  nur die 3 Bauland-Stufen (Schlecht 2'358 / Mittel 2'702 / Top 3'891), keine parzellenscharfe
+  Zuordnung → Lagebeurteilung. Bahnhof-/Zentrumslage + top ÖV ziehen nach oben, Verkehrslaerm +
+  ES III + kein See-/Aussichtsbonus deckeln nach «Mittel». Top = ruhige Aussichts-/Seelagen March.
 - **Mietansaetze (Annahme):** Wohnen Altbau ~235–255 CHF/m²/J (unter Median 265), Gewerbe/Praxis
   ~200 CHF/m²/J. Median-Miete 265, Band 205–334 — siehe [[ertragswert-dcf]].
 - **Brutto-Kapitalisierungssatz gemischtes MFH, periphere SZ-Gemeinde, Altbau: ~5.0 %** (4.75–5.5 %).

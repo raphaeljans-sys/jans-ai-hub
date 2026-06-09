@@ -18,6 +18,12 @@ wiederverwendbarer Benchmark fuer Methode, Mietansaetze und Umbaukennwerte.
 ## Objekt & Flaechen (SIA 416, GRULER)
 
 - Parzelle 751 m², Zone **WG3** (3 VG ausgeschoepft, altrechtlich/besitzstandsgeschuetzt, AZ ~0.9).
+- **Lageklasse (UBS-FS-Befund): «Mittel»** (Bauland 2'702 CHF/m²; Schlecht 2'358 / Top 3'891).
+  Begruendung: zentral + top ÖV (Bahnhofnaehe) → +, aber Verkehrslaerm + ES III + kein See-/
+  Aussichtsbonus → deckelt nach «Mittel» (kein «Top»). UBS-FS klassifiziert nicht parzellenscharf —
+  Zuordnung = JANS-Lagebeurteilung. ÖREB Parz. 25 sauber: keine belasteten Standorte/Gefahren/
+  Gewaesserraum/Baulinien. Landwert 751 × 2'702 ≈ **2.03 Mio** (Unterkante; WG3-Ausnuetzung ~0.9
+  ≫ EFH → real eher hoeher; reine Bauland-CHF/m² gelten fuer *unueberbautes* EFH-Land).
 - GF oberirdisch 723.6 m² · **HNF total 538.0 m²**: EG Arztpraxis (Gewerbe) 175.4 · OG1 2 Whg 166.9 ·
   WHG3 Maisonette OG2+DG (7.5-Zi, veraltet) 195.7. UG: 3 Garagen + Keller (298.8 m² GF).
 
