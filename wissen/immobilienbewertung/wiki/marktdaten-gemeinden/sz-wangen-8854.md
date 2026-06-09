@@ -105,23 +105,19 @@ Preisniveau Mittelsegment EFH/EW/Miete im **oberen Bereich des Kantons** (Naehe 
 Pfaeffikon-Korridor, March). Nachfrage/Angebot: Bevoelkerungswachstum hoch, Leerstand tief
 (0.7 %). Bevoelkerungswachstum als Treiber; Wachstumsbeitrag 2022–2024 > MS/KT/CH.
 
-## Anwendungshinweis — Fall Bahnhofstrasse 27, Wangen SZ (offen)
+## Referenzfall — Bahnhofstrasse 27, Wangen SZ (bewertet 09.06.2026)
 
-Erwartete Folgeanfrage: Plausibilisierung eines **Verkaufspreises 3.1 Mio.** gegen eine
-**Bankschaetzung 2.8 Mio.** (Δ +0.3 Mio. / +10.7 %). Objekt gemaess Strassenansicht ein
-aelteres **Mehrfamilienhaus** (3 Vollgeschosse + Dachgeschoss), Lage an der Bahnhofstrasse/
-Kapellstrasse nahe Bahnhof. Relevante Referenzwerte aus diesem Blatt:
+Erster bewerteter JANS-Fall in dieser Gemeinde: gemischtes **MFH** (EG Arztpraxis + 2 Whg OG1
++ Maisonette OG2/DG), Parz. 25, HNF 538 m². Kaufpreispruefung **3.1 Mio (Angebot) vs. 2.8 Mio
+(Bank)** → Ergebnis: **Marktwert JANS 2.6–2.8 Mio**; 3.1 als Renditekauf ~10 % zu hoch
+(Bruttorendite nur 4.2 %, Bank 2.8 → 4.6 %, Ertragswert → 5.0 %). Volle Herleitung +
+uebertragbare Benchmarks → [[outputs/2026-06-09_bewertung-bahnhofstrasse27-wangen]].
 
-- **MFH/Ertragswert** (Hauptverfahren): Median-Miete **265 CHF/m²/Jahr** (Band 205–334);
-  ueber Sollmiete × Wohnflaeche und einen marktgerechten Kapitalisierungssatz (Annahme,
-  belegen) ergibt sich der Ertragswert — siehe [[ertragswert-dcf]].
-- **Substanz/Realwert**: EFH-Median 10'690, EW-Median 9'616 CHF/m² als Plausi-Anker fuer
-  Wohnflaechenwert; Baulandanteil Lageklasse Mittel ~2'700 CHF/m² Land — siehe
-  [[realwert-sachwert]].
-- **Preis-Miet-Verhaeltnis** Wangen-Median 38.3 (EFH) als grobe Plausi der Kaufpreis-zu-
-  Miete-Relation.
-- Markttrend EW zuletzt -2.8 % (1 J), Miete +2.3 % (1 J): kein ausgepraegter
-  Aufwaertsdruck auf Eigentumswerte, Mietseite leicht positiv.
-
-Bewertung noch **nicht** durchgefuehrt — erst auf konkrete Anfrage (Flaechen, Mieterspiegel,
-Zustand/Sanierungsstau, Grundstuecksflaeche, Baujahr) mit Skill `immobilienbewertung`.
+Aus dem Fall verifizierte/abgeleitete Kennwerte fuer Wangen:
+- **Mietansaetze (Annahme):** Wohnen Altbau ~235–255 CHF/m²/J (unter Median 265), Gewerbe/Praxis
+  ~200 CHF/m²/J. Median-Miete 265, Band 205–334 — siehe [[ertragswert-dcf]].
+- **Brutto-Kapitalisierungssatz gemischtes MFH, periphere SZ-Gemeinde, Altbau: ~5.0 %** (4.75–5.5 %).
+- **Substanz/Vergleich:** EW-Median 9'616, EFH-Median 10'690 CHF/m² als STWE-/Sum-of-parts-Oberkante;
+  Bauland Lageklasse Mittel ~2'700 CHF/m² — siehe [[vergleichswert-hedonisch]] / [[realwert-sachwert]].
+- **Umbaukennwerte (Wuest-abgeleitet, ±25 %):** leichte Innensanierung ~1'800, Aufteilung/Umbau mit
+  Baueingabe ~3'200 CHF/m² HNF.
