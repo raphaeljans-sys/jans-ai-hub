@@ -18,17 +18,24 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 ## Inhaltliche Luecken
 - [x] **E1** λ-Wert-Bandbreiten Daemmstoffe inkl. **Naturdaemmstoffe/VIP/WDVS** belegt ✓ 2026-06-09
   → `[[daemmstoffe-lambda]]`, `[[sia-2001-waermedaemmstoffe-lambda]]` (vollst. S.1-17). Offen: Bemessungswerte-Zuschlag SIA 279.
-- [ ] **E2** Bauteilekatalog Kap. 4 (homogene/inhomogene Standardaufbauten) destillieren.
+- [x] **E2** Bauteilekatalog Kap. 4 (homogene Standardaufbauten Boeden B1-B21 / Waende W1-W26) belegt
+  ✓ 2026-06-10 → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (Kap.-4-Abschnitt). Offen: inhomogene
+  Bauteile (Sparrendach/Holzbau) + Daecher (Buchseiten 44+).
 - [~] **E3** Fenster/g-Wert: sommerlicher Waermeschutz + g_tot 0,1-0,15 belegt ✓ 2026-06-09
   → `[[sommerlicher-waermeschutz]]` (FAQ F11). Offen: eigener Fenster-Artikel U_w/Aw + Winter-Zielkonflikt solarer Gewinn.
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   Offen: Ertrags-Kennzahlen je Ausrichtung/Neigung (kWh/kWp).
-- [ ] **E6** Netto-Null + graue Energie: Sanieren-vs-Neubau-Kriterien.
+- [~] **E6** Netto-Null + graue Energie: Sanieren-vs-Neubau-Kriterien. **Graue Energie belegt**
+  ✓ 2026-06-10 → `[[graue-energie]]`, `[[graue-energie-betriebsenergie]]`, FAQ F9 (Groessenordnung
+  20-30 % Betriebsenergie, Tragstruktur-Hebel, THGE 11 kg). Offen: KBOB/SIA 2032-Kennwerte,
+  konkrete Sanieren-vs-Neubau-Schwelle, Netto-Null-Definition (F8).
+- [x] **E7** Heizungsersatz Kt. ZH — Verfahren + Beilagen je Waermequelle + fossil-Verbot belegt
+  ✓ 2026-06-10 → `[[wta-formular-zh-waermetechnische-anlagen]]`, FAQ F14. Offen: WP-JAZ-Vergleich (F6).
 
 ## FAQ-Backlog
-- [~] **E-F** BAUHERREN-FAQ: F1-F5/F7/F10/F11/F12/F13 belegt (F5 auf Stand 2023 geschaerft + F11 neu
-  ✓ 2026-06-09); offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null), F9 (graue Energie — Ansatz THGE 11 kg/m²).
+- [~] **E-F** BAUHERREN-FAQ: 12 Antworten belegt (F1-F5/F7/F9/F10/F11/F12/F13/F14; **F9 graue Energie
+  + F14 Heizungsersatz neu ✓ 2026-06-10**); offen **F6** (WP-Vergleich/JAZ-Matrix), **F8** (Netto-Null-Definition).
 - [x] **E-H1** Heizleistung/Waermeerzeuger-Dimensionierung belegt ✓ 2026-06-08
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]`, FAQ F13.
 - [x] **E-H2** Rechenbeispiel Heizwaermebedarf (Monatsbilanz) belegt ✓ 2026-06-08

@@ -11,7 +11,7 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[minergie-besser-planen-bauen]] | wissen.minergie.ch/minergiewissen_planer_d_2023 | established (S. 1-16, Ausg. 2023) | Ueberarbeitung 09/2023 / MuKEn 2014 |
 | [[bauphysik-heizwaermebedarf-kennwerte]] | _Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF | emerging (S. 146-147) | SIA 380/1:2009 |
 | [[sia-380-1-heizwaermebedarf-berechnung]] | _Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1 | established | SIA 380/1 |
-| [[bfe-u-wert-bauteilekatalog-neubauten-2002]] | U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten | emerging (S. 1-10/~75) | ⚠ 2002 |
+| [[bfe-u-wert-bauteilekatalog-neubauten-2002]] | U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten | established (S. 1-10 + Kap. 4 Boeden/Waende) | ⚠ 2002 |
 | [[tec21-solares-bauen-pv-typen-2012]] | Solaranlage/_Literatur/Final_Dossier_Solararchitekur | established (S. 1-13) | ⚠ 2012 (Technologie) |
 | [[en-zh-nachweis-uebersicht]] | _Formulare Kanton ZH Baueingabe/EN-ZH | established (vollst., 5 S.) | ⚠ Juli 2022; seit 1.1.2026 EVEN |
 | [[sia-2001-waermedaemmstoffe-lambda]] | U Wert berechnung/2001_2005_d | established (S. 1-17, vollst.) | ⚠ 2005 |
@@ -20,3 +20,6 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[sia-380-1-beispiel-monatsbilanz]] | _Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel | established (1 S., Rechenbsp.) | SIA 380/1 / SIA 381/2 |
 | [[grundsaetze-energieeffizientes-bauen]] | _Heizwaermebedarf/U-Wert_Gebäudehülle | emerging (1 S., Grundsaetze) | ⚠ Lehrbuch-Niveau |
 | [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 | established (S. 1-29) | 2026-06-08 / Version 01.01.2026 |
+| [[graue-energie-betriebsenergie]] | _Heizwaermebedarf/Betriebsenergie | emerging (vollst., 1 S.) | ⚠ Lehrmittel-Grobwerte |
+| [[wta-formular-zh-waermetechnische-anlagen]] | endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular | established (vollst., 5 S.) | 2024-01; seit 1.1.2026 EVEN |
+| [[enerhaus-minergie-nachweis-efh-umbau]] | U Wert berechnung/Energienachweis 380-1 Muster | emerging (vollst., 9 S.) | ⚠ 2010 / SIA 380/1:2009 |

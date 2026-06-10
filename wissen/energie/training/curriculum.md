@@ -4,9 +4,10 @@ Themenfahrplan fuer den taeglichen Loop. Jede Lektion = beantwortbares Bauherren
 Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge = Prioritaet.
 
 ## Block A — Fachgrundlagen Gebaeudehuelle
-- [~] A1 U-Wert verstehen & bestimmen (BFE-Bauteilekatalog) — Grundlagen destilliert 2026-06-05;
+- [x] A1 U-Wert verstehen & bestimmen (BFE-Bauteilekatalog) — Grundlagen destilliert 2026-06-05;
   λ-Bandbreiten Daemmstoffe belegt 2026-06-07 via SIA 2001 → `[[daemmstoffe-lambda]]`;
-  offen: Bauteilekatalog Kap. 4 (Standardaufbauten).
+  **Bauteilekatalog Kap. 4 (Standardaufbauten Boeden B1-B21 / Waende W1-W26) belegt 2026-06-10**
+  → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`. **vollstaendig** (inhomogene Bauteile/Daecher offen).
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
@@ -30,7 +31,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025.
 - [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13). Offen: WP-Dimensionierung (JAZ).
-- [ ] B6 Waermetechnische Anlagen WTA-Formular (`endk.ch/.../2024_01_08_WTA_Formular`).
+- [x] B6 Waermetechnische Anlagen WTA-Formular — belegt 2026-06-10 via Kt.-ZH-Formular 01-2024
+  → `[[wta-formular-zh-waermetechnische-anlagen]]` (FAQ F14: Heizungsersatz-Verfahren/Beilagen je
+  Waermequelle + fossil-Verbot §10a). **vollstaendig.**
 
 ## Block C — Solar / PV
 - [x] C1 PV-Typen-Entscheidungsbaum (kristallin/Duennschicht/Graetzel/Hybrid + Integration) —
@@ -41,12 +44,16 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 
 ## Block D — Nachhaltigkeit / Klima (strategisch)
 - [ ] D1 Netto-Null im Gebaeude: was heisst das fuer Neubau/Umbau konkret?
-- [ ] D2 Graue Energie / CO2 im Bauteil — Sanieren vs. Neubau (Entscheidkriterien).
+- [~] D2 Graue Energie / CO2 im Bauteil — Sanieren vs. Neubau — Groessenordnung + Tragstruktur-Hebel
+  + THGE belegt 2026-06-10 via Lehrmittel «Betriebsenergie» → `[[graue-energie]]` (FAQ F9). Offen:
+  KBOB/SIA 2032-Kennwerte, konkrete Sanieren-vs-Neubau-Schwelle.
 - [x] D3 Foerderprogramme Kt. ZH — belegt 2026-06-08 (Stand 01.01.2026, Web)
   → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). Offen: Minergie-ECO/Solarthermie-Saetze, Bund.
-- [ ] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus.
+- [~] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus — Verhaeltnis 50 J belegt
+  2026-06-10 → `[[graue-energie]]` (Betrieb dominiert, graue Energie 20-30 %; bei Minergie kehrt sich
+  Gewicht um). Offen: vollstaendige Lebenszyklus-CO₂-Bilanz inkl. Energietraeger.
 
 ## Meta
-- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — 10 belegt (F1-F5, F7, F10, F11, F12, F13);
-  offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null), F9 (graue Energie).
+- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **12 belegt** (F1-F5, F7, F9, F10, F11,
+  F12, F13, F14; F9 graue Energie + F14 Heizungsersatz neu 2026-06-10); offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.)

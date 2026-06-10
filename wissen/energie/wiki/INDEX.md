@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **emerging** (F1–F5, F7, F10, F11, F12, F13 belegt; F6/F8/F9 offen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **emerging** (F1–F5, F7, F9, F10, F11, F12, F13, F14 belegt = 12; F6/F8 offen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -14,7 +14,8 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte · **established**
 - [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme) · **established**
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null/graue Energie, Minergie-ECO-Foerderung)_
+- [[graue-energie]] — graue Energie & THGE, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **emerging**
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null-Definition, WP-Systemvergleich F6, Minergie-ECO-Foerderung)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

@@ -13,13 +13,13 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [x] `Solaranlage/_Literatur/planer_d.pdf` | 2026-06-06 (S. 1-16, Minergie-Wissen) |
 | [x] `U Wert berechnung/2001_2005_d.pdf` | 2026-06-09 (vollst. S. 1-17, λ-Werte + Naturdaemmst./VIP/WDVS; SIA 2001:2005) |
 | [x] `U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` | 2026-06-06 (S. 1-16, vollst.) |
-| [ ] `U Wert berechnung/Energienachweis 380-1 Muster.pdf` | — |
+| [x] `U Wert berechnung/Energienachweis 380-1 Muster.pdf` | 2026-06-10 (vollst., 9 S.; Enerhaus Minergie-Systemnachweis EFH Umbau Luzern → enerhaus-minergie-nachweis-efh-umbau) |
 | [ ] `U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung.pdf` | — |
-| [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-06-05 (S.1-10) |
+| [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-06-10 (S.1-10 + Kap.4 Boeden/Waende S.26-42; Rest inhomogen/Daecher offen) |
 | [x] `U Wert berechnung/VoHi_EN02_de.pdf` | 2026-06-09 (vollst. S. 1-12; EnFK EN-2 Feb 2013, SIA 380/1:2009) |
 | [ ] `U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf` | — |
 | [x] `_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` | 2026-06-07 (vollst., 5 S.; ⚠ seit 1.1.2026 EVEN) |
-| [ ] `_Heizwaermebedarf/Betriebsenergie.pdf` | — |
+| [x] `_Heizwaermebedarf/Betriebsenergie.pdf` | 2026-06-10 (vollst., 1 S.; graue Energie vs. Betriebsenergie → graue-energie-betriebsenergie) |
 | [x] `_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf` | — |
 | [x] `_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf` | 2026-06-06 (S. 146-147) |
 | [x] `_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf` | 2026-06-08 (vollst., Rechenbsp. Buero ZH) |
@@ -29,7 +29,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [ ] `_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (weitere Buchseiten)` | — |
 | [ ] `_Private Kontrolle/zh_komplett.pdf` | — |
 | [x] `endk.ch/Allgemein Nachweis der energetischen und schlltechnischen Massnahmen/EN-ZH.pdf` | 2026-06-07 (Dublette → en-zh-nachweis-uebersicht) |
-| [ ] `endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular_Version_01-2024.pdf` | — |
+| [x] `endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular_Version_01-2024.pdf` | 2026-06-10 (vollst., 5 S.; Heizungsersatz-Verfahren/Beilagen je Quelle → wta-formular-zh-waermetechnische-anlagen) |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Fallstudie_Nachweiskurs-230925-172638.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Nachweiskurs-230925-172638.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Flyer_ENERGIE_VorOrt_2023_WEB-230913-120608.pdf` | — |

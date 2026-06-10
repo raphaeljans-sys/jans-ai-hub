@@ -6,8 +6,8 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 15 Destillate erstellt; ~13 Prioritaets-PDFs offen (siehe pdf-inventar) |
-| U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10) | Rest Kap. 4 offen |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 18 Destillate erstellt; ~10 Prioritaets-PDFs offen (siehe pdf-inventar) |
+| U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
 | EN-104 Eigenstromerzeugung (EnFK) | PL-04/Solaranlage/EN104 | destilliert (vollst.) | 10 W/m²-Regel, JANS-Beispiel |
@@ -23,3 +23,6 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | Rechenbeispiel Monatsbilanz Heizwaermebedarf | PL-04/_Heizwaermebedarf | destilliert (vollst.) | Buero ZH Januar, Qh durchgerechnet |
 | Grundsaetze energieeffizientes Bauen | PL-04/_Heizwaermebedarf | destilliert (vollst.) | Huelle + sanfte Haustechnik (S.88/89) |
 | Foerderprogramm Energie Kt. ZH 2026 | Web zh.ch (PDF) | destilliert (S.1-29) | Foerdersaetze 2026 (F7); ⚠ Datenstand 2026-06-08 |
+| Betriebsenergie / graue Energie (Lehrmittel S.116) | PL-04/_Heizwaermebedarf | destilliert (vollst.) | graue vs. Betriebsenergie 20-30 %; THGE-Anker (F9) |
+| WTA-Formular waermetechn. Anlagen (Kt. ZH 01-2024) | PL-04/endk.ch | destilliert (vollst., 5 S.) | Heizungsersatz-Verfahren/Beilagen + fossil-Verbot (F14) |
+| Enerhaus Minergie-Musternachweis (EFH Umbau, 2010) | PL-04/U Wert berechnung | destilliert (vollst., 9 S.) | Systemnachweis + WRG-Hebel (⚠ 2010) |
