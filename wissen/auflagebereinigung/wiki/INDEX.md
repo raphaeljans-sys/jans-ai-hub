@@ -7,6 +7,7 @@ Inhaltsverzeichnis aller kompilierten Artikel.
 
 ## Zuteilung
 - [[auflagentypen-gewerkzuteilung]] — Auflagen-Thema → zuständiges Gewerk (BRA/HLK/SAN/ELE/FKO/ARC/BAU) + Standard-Deliverables.
+- [[formular-verifizierung]] — Auflage → amtliches Formular (EN-ZH/EN-105/…): wörtlich extrahieren, gegen Fach-KB verifizieren, nie raten.
 
 ## Fristen
 - [[fristenlogik-bauentscheid-zh]] — Einreichungszeitpunkte und die Vorbemerkungen-Mechanik (Ziff. II.1–3).

@@ -1,7 +1,7 @@
 ---
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
-last_updated: 2026-06-07
+last_updated: 2026-06-10
 sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[u-werte-grenzwerte-ch]] [[minergie-standards]]
 ---
@@ -43,7 +43,26 @@ Eigenverbrauch (PV gemeinschaftlich erfuellbar) · **Private Kontrolle** (Fachpe
 Neubau ZH = keine fossile Heizung + PV-Pflicht; Heizungsersatz = Weg Richtung Waermepumpe/erneuerbar.
 Praktischer Einstieg 2026: `energievollzug.ch` (EVEN). Antwort fuer Bauherren → [[BAUHERREN-FAQ]] F12.
 
+## Fallanwendung — KISPI 2619 (Bauentscheid-Auflage II.8)
+**Datenstand 2026-06-10.** Im Auflagen-Fall 2619-KISPI (Lenggstrasse 30) verlangt der Bauentscheid
+unter Ziffer **II.8.a/b/c** den Energienachweis. Verifizierte Zuordnung der Unterpunkte auf die
+EN-ZH-Formulare:
+
+| Auflage | Formular | Was |
+|---|---|---|
+| II.8.a | **EN-ZH** | Nachweisuebersicht/Deckblatt (heute EVEN) — Inhaltsverzeichnis der Einzelnachweise |
+| II.8.b | **EN-105** | Lueftungs-/Klimaanlagen (neue Anlagen) |
+| II.8.c | **EN-110-ZH** | Kuehlung/Befeuchtung bzw. vom Umbau betroffene Lueftungs-/Klimaanlagen |
+
+**Lehrstueck (warum verifizieren):** Der spezialisierte Sub-Agent hatte zunaechst plausibel
+klingende, aber **falsche Formularnummern erfunden**. Erst der Abgleich mit dieser KB und den
+amtlichen ZH-Quellen (Tabelle «Welche Nachweise wann» oben) hat die korrekte Zuordnung
+EN-ZH/EN-105/EN-110-ZH ergeben. Modellstaerke ersetzt die Gegenkontrolle nicht — bei
+Formular-/Identifikatorangaben gilt Rule `identifikatoren-verifizieren`. Der Auflagen-Wortlaut
+selbst ist hier bewusst **nicht** reproduziert (nur die belegte Formularzuordnung). Speist den
+Skill `auflagebereinigung` (Fall 2619).
+
 ## Quelle / Abgrenzung
 EN-ZH-005 (Baudirektion ZH/AWEL, Juli 2022) → `[[en-zh-nachweis-uebersicht]]`; EVEN-Stand via
 Web (`zh.ch`, 2026-06-07). U-Wert-Grenzwerte → [[u-werte-grenzwerte-ch]]. Energierecht (EnerG/BBV)
-→ Skill `baurecht` (nicht doppeln).
+→ Skill `baurecht` (nicht doppeln). Fallanwendung KISPI → Skill `auflagebereinigung`.

@@ -2,6 +2,21 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-10 — Muster «Auflage → amtliches Formular (verifiziert, nie geraten)»
+- **Neuer Artikel** `wiki/formular-verifizierung.md` (emerging): Verifizierungs-Muster für
+  Formular-/Nachweisnummern. Seed = Lehrstück KISPI 2619 Ziff. II.8 — ein Sub-Agent hatte
+  plausible, aber falsche Energieformular-Nummern erfunden; KB-Abgleich (`wissen/energie`) +
+  amtliche ZH-Quellen korrigierten auf **II.8.a → EN-ZH**, **II.8.b → EN-105**,
+  **II.8.c → EN-110-ZH**. Enthält den 4-Schritt-Workflow (wörtlich extrahieren → als
+  «zu verifizieren» markieren → gegen Fach-KB auflösen → sonst QUESTIONS) + wachsende
+  Zuordnungstabelle.
+- **Agent `auflagen-extraktor` geschärft** (NAS): neuer Arbeitsschritt 6 «Formular-/
+  Nachweisnummern NIE erfinden» — nur wörtliches Schlüsselwort + Ziffer extrahieren,
+  Nummer nur bei wörtlicher Nennung übernehmen, sonst «zu verifizieren»; Verweis auf den
+  neuen Artikel. Verschärft Rule `identifikatoren-verifizieren`.
+- **Register:** INDEX (+1 unter «Zuteilung»). Gegenstück-Vermerk in
+  `wissen/energie/wiki/energienachweis-zh.md` (Fallanwendung KISPI).
+
 ## 2026-06-04 — Gewerk SPR (Sprinklerplaner) ergänzt
 
 - `wiki/auflagentypen-gewerkzuteilung.md`: neues Kürzel **SPR — Sprinklerplaner**
