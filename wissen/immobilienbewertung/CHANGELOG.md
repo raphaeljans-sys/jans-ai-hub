@@ -62,3 +62,10 @@ Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 - `training/PROGRAMM.md` (Lern-Loop alle 2 Tage, 10 Themen/Lauf) und
   `training/curriculum.md` (Lektionsplan aus dem 236-seitigen Wuest-Kurs) angelegt.
 - `raw/_INGESTED.md` als Quellen-Register angelegt.
+
+## 2026-06-10
+- Referenzfall Bahnhofstrasse 27 Wangen SZ: Bankschaetzung von 2.8 auf **2.9 Mio** korrigiert
+  (Quelle: Mail David Chaled 09.06.2026, PS im Thread «Bahnhofstrasse 27»). Kaufpreisempfehlung
+  JANS 3.0 Mio ergaenzt. Datei: outputs/2026-06-09_bewertung-bahnhofstrasse27-wangen.md
+- Sitzungspraesentation 11.06.2026 (6 Folien, JANS-CI monochrom) erstellt; Ablage Studie 2622
+  (02_Korrespondenz/260611_Sitzung Chaled) + AI Hub Output immobilienbewertung/2622-bahnhofstrasse-27

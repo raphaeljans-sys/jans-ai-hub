@@ -4,7 +4,7 @@ typ: LB Liegenschaftsbewertung (Kurzfassung A4)
 datum: 2026-06-09
 objekt: Bahnhofstrasse 27, 8855 Wangen SZ · Parz. 25 · EGRID CH379377805305
 gemeinde: Wangen (SZ)
-zweck: Kaufpreispruefung (Angebot 3.1 Mio vs. Bankschaetzung 2.8 Mio)
+zweck: Kaufpreispruefung (Angebot 3.1 Mio vs. Bankschaetzung 2.9 Mio — korrigiert; urspruenglich 2.8 angenommen)
 sources: ["GRULER Gebaeudevermessung 14.01.2026 (SIA 416)", "UBS Real Estate Local Fact Sheet Wangen 12/2025", "JANS-Factsheet Baurecht 2622 (07.06.2026)", "Wuest-Kostenbenchmarks Wohnen"]
 links: [[marktdaten-gemeinden/sz-wangen-8854]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]], [[realwert-sachwert]]
 ---
@@ -37,10 +37,11 @@ wiederverwendbarer Benchmark fuer Methode, Mietansaetze und Umbaukennwerte.
 | STWE-Einzelverkauf Wohnteil | ~3.5 Mio | 362.6 m² × EW-Median 9'616 — Potenzial-/Oberkante |
 | **Marktwert JANS (Halten)** | **CHF 2.6–2.8 Mio** | — |
 
-**Kaufpreispruefung:** Bankschaetzung **2.8 Mio = vernuenftig** (am oberen, ertragsgestuetzten
-Rand). Angebot **3.1 Mio ~10 % zu hoch** als reiner Renditekauf → impl. Bruttorendite nur **4.2 %**
-(2.8 Mio → 4.6 %; Ertragswert → 5.0 %). 3.1 nur gerechtfertigt bei Mietpotenzial-Hebung oder
-STWE-Einzelverkauf. Empfehlung: Richtung 2.8 verhandeln.
+**Kaufpreispruefung:** Bankschaetzung **2.9 Mio** (korrigiert per Mail Chaled 09.06.2026; zuvor
+2.8 angenommen) = leicht ueber dem JANS-Band, vertretbar. Angebot **3.1 Mio ~10 % zu hoch** als
+reiner Renditekauf → impl. Bruttorendite nur **4.2 %** (2.9 Mio → 4.4 %; Ertragswert → 5.0 %).
+3.1 nur gerechtfertigt bei Mietpotenzial-Hebung oder STWE-Einzelverkauf. Kaufpreisempfehlung
+JANS (Mail 09.06.2026): **3.0 Mio**, Verhandlungsziel Richtung Bankwert 2.9.
 
 ## DG-/Maisonetten-Ausbau (Rendite-Check)
 
