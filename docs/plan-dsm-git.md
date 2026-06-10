@@ -1,5 +1,13 @@
 # Umbauplan: Git nativ auf der Synology (DSM) — Selbst-committendes NAS
 
+> **UMGESETZT am 10.06.2026, ~03:30 Uhr.** Git 2.39.1 via Paket-Zentrum, Deploy Key
+> «synology-jans-hub» (Read/write) auf GitHub, Cron alle 15 Min als raphaeljans,
+> erster Push verifiziert (NAS=GitHub=SSD auf 3dd00c4). Besonderheiten der
+> Umsetzung: Remote heisst `github` (nicht origin, Script erkennt dynamisch);
+> Synology-`@eaDir`-Ordner korrumpieren .git → Script bereinigt jeden Lauf,
+> `.gitignore` um `@eaDir/` ergaenzt. Runner v2 auf dem Mac Mini bleibt als
+> Fallback installiert. Log: `sync-tasks/log/selfcommit-JJJJMM.log`.
+
 Entscheid Raphael 10.06.2026 (Systemaudit): JA, angehen.
 Ziel: Das NAS committet und pusht sein eigenes Repo **selbst** — nativ auf ext4,
 ohne SMB (keine index.lock-Gefahr). Der Single-Committer-Umweg ueber den Mac Mini

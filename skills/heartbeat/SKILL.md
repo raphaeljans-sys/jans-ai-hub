@@ -69,12 +69,16 @@ ls -la ~/Developer/jans-ai-hub/.claude/commands 2>/dev/null
 
 ### 7. Sync-Health (Wissens-Kette NAS → GitHub → Stationen)
 
-Die Kette, die alle Stationen aktuell haelt: NAS (kanonisch) → Commit auf dem
-Mac Mini (Runner, 30 Min) → GitHub → `git pull` aller SSD-Spiegel (5 Min).
-Dieser Check erkennt, wenn die Kette stockt:
+Die Kette, die alle Stationen aktuell haelt: NAS (kanonisch) → **NAS-Selfcommit**
+(DSM-Cron, 15 Min, seit 260610) → GitHub → `git pull` aller SSD-Spiegel (5 Min).
+Fallback: Runner auf dem Mac Mini konsumiert commit-*.task. Dieser Check erkennt,
+wenn die Kette stockt:
 
 ```bash
-# a) Commit-Anfragen: aelteste offene commit-*.task (sollte < 1 h alt sein)
+# a) Selfcommit-Puls: letzter Log-Eintrag sollte < 1 h alt sein
+tail -2 /Volumes/daten/jans-ai-hub/sync-tasks/log/selfcommit-$(date +%Y%m).log 2>/dev/null
+
+# a2) Fallback-Queue: aelteste offene commit-*.task (sollte leer sein)
 ls -t /Volumes/daten/jans-ai-hub/sync-tasks/mac-mini/commit-*.task 2>/dev/null | tail -1
 
 # b) NAS-Repo dirty count (read-only, kein Lock ueber SMB!)

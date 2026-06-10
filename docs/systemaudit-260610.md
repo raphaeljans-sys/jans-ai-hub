@@ -50,9 +50,10 @@ Morgen-Heartbeat am Folgetag.
 
 ### 5. Inhaber-Entscheide (eingeholt 10.06.2026)
 - **NAS-Backup:** laeuft bereits (Hyper Backup/Snapshots vorhanden) → kein Handlungsbedarf. ✅
-- **Git nativ auf der Synology:** ENTSCHIEDEN: angehen. Umbauplan liegt vor:
-  `docs/plan-dsm-git.md` (selbst-committendes NAS via DSM Task Scheduler,
-  Runner v2 bleibt Fallback). Braucht ~10 Min DSM-Zugang mit Raphael.
+- **Git nativ auf der Synology:** UMGESETZT 10.06.2026 (gleiche Nacht):
+  selbst-committendes NAS, Cron 15 Min, erster Push verifiziert — Details in
+  `docs/plan-dsm-git.md`. Wissens-Latenz sinkt von ~35 auf ~20 Min;
+  Runner v2 (Mac Mini) bleibt Fallback.
 - **Mitarbeiter-Stationen:** voller Zugriff fuer alle (Entscheid Raphael) —
   neue-station.sh deckt das ab, kein Berechtigungsmodell noetig.
 - **Claude-Konten:** zentral ueber Raphaels Account auf allen Stationen.
