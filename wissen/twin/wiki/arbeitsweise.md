@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -87,6 +87,29 @@ Zweck verlangt.
 Delegiert klar und höflich-imperativ an Bauherr/Team: «**Darf ich Euch bitten** … zu
 beauftragen und beizuziehen», «**Bitte ich Dich** die Vergabegespräche … aufzugleisen».
 Benennt Zuständigkeit und nächsten Schritt explizit.
+
+## Telefonat mit Dritten schriftlich fixieren + Liste — auch im Behörden-Sie (belegt Mailbatch 02, authentisch)
+Das «vom Gespräch zur schriftlichen Fixierung»-Prinzip wirkt über alle Register, nicht nur
+im Du. Nach einem Telefonat mit der Kreisarchitektin hält er gegenüber der Denkmalpflege
+schriftlich fest: «**Ich hatte heute eine telefonische Besprechung mit Frau Müller wo wir
+den Umfang der Baueingabe wie folg definiert haben:**» + Unterstrich-Bullet-Liste
+(«_ Katasterplan 1:500, A4 / _ Grundbuchauszug … / _ Z3 Formular SRZ»), gefolgt von einer
+zweiten Liste «**Was ich an den Plänen angepasst habe:** _ … _ …» (14.07.2025). Das
+Zustands-/Änderungs-Listenmuster («Was ich umgeplant habe») aus dem KISPI-Du erscheint
+identisch im förmlichen Behörden-Sie — gleiche Methodik, anderes Register.
+
+## Proaktiv terminierte Erreichbarkeit (belegt Mailbatch 02, authentisch)
+Kündigt Anrufe mit **Uhrzeit** an und macht sich aktiv erreichbar, statt auf Rückruf zu
+warten: «**Ich werde Sie morgen 9.30 Uhr auf +41 44 412 44 67 anrufen**», «**Ich werde Sie
+morgen bis 11:00 Uhr versuchen zu erreichen**», «**Ich bin unter der Nummer 0798461165 gut
+erreichbar**» (10./14.07.2025). Treibt den Prozess am Telefon voran und legt den nächsten
+Kontaktpunkt selbst fest — Variante der «Kurzbestätigung mit konkretem Termin».
+
+## Parallele Koordination sichtbar machen (belegt Mailbatch 02)
+Signalisiert der einen Amtsstelle, dass die andere schon im Boot ist: «**Mit der
+Denkmalpflege bin ich in Kontakt.**» (an Kreisarchitektin AfB, 10.07.2025). Macht die
+eigene Orchestrierung transparent, damit die Behörde den Stand der Abstimmung kennt — der
+Architekt führt sichtbar Regie zwischen den Fachstellen.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft.

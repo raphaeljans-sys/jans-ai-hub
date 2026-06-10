@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -60,6 +60,16 @@ in der Ausbildung («**als gelernter Schreiner** finde ich die Projektaufgabe in
 - **Baurechts-Detailtiefe im Du-Register:** 50-cm-Gebäudebegriff, Umgebungsbauwerk,
   Attika- vs. Vollgeschoss-Privilegierung, Abänderungseingabe ohne neues Ausstecken
   (→ [[denken]], Re-Klassifizierung).
+
+## Baueingabe-Verfahrenssignatur Stadt ZH (belegt Mailbatch 02, authentisch)
+Kennt den **Aktenumfang einer (denkmalrelevanten) Baueingabe** in der Stadt ZH aus der
+Praxis und benennt ihn als Deliverable-Liste: «_ Katasterplan 1:500, A4 / _ Grundbuchauszug,
+A4 / _ Schreiben Einverständnis Stockwerkeigentum, A4 / _ Projektplan Architektur 1:100, A4 /
+_ Z3 Formular SRZ» (Wartstrasse 8, 14.07.2025). Verfahrensrealismus im Detail: weiss, dass
+«**nur noch Baueingaben digital eingegeben werden**» (Begründung gegenüber dem Grundbuchamt,
+warum der Auszug digital gebraucht wird, 10.07.2025), und holt bei Denkmalschutz **vorab die
+denkmalpflegerische Machbarkeit** ein, bevor formell eingegeben wird (→ [[denken]]). Fachkürzel
+verfahrensnah: SRZ-Formular Z3, AfB/AfS, Katasterplan, Massstäbe 1:100/1:500.
 
 ## Präzision & Beleg
 Zahlen/Kennwerte/Identifikatoren werden belegt, nie erfunden (Rule

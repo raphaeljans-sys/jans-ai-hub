@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -94,6 +94,26 @@ ABER der Gruss folgt letztlich dem **Mail-Typ**, nicht mechanisch der Anrede (�
 - Persönlicher Bezug (Dank, Verweis aufs Gespräch) auch in Sachmails.
 - Fachliche Präzision unabhängig vom Register.
 - **Hoeflich-imperative Bitte über alle Stufen:** «Darf ich Dich/Euch/Sie bitten …».
+
+## Behörden-/Amts-Register folgt der Vertrautheit — Datenpunkte (belegt Mailbatch 02, authentisch)
+Bestätigt und präzisiert «nach Vertrautheit, nicht pauschal Sehr geehrte»:
+- **NEUER AfB-Kontakt startet förmlich:** die Kreisarchitektin AfB Stadt ZH bekommt im
+  Erstkontakt «**Sehr geehrte Frau <Name>**», NICHT «Geschätzte» — obwohl dieselbe Rolle
+  (Kreisarchitektin) bei bestehender Beziehung «Geschätzte Frau» erhielte (vgl. Hottinger).
+  Das «Geschätzte» ist also **erarbeitete Vertrautheit**, kein Rollen-Automatismus
+  (Wartstrasse 8, 10.07.2025).
+- **Denkmalpflege / Bauberatung (AfS):** unbekannter PL Bauberatung → «**Sehr geehrter
+  Herr <Name>**».
+- **Notariat/Grundbuchamt-Sammelpostfach:** Erstmail ans generische Amts-Postfach mit
+  neutralem «**Guten Tag**» (statt «Grüezi»); sobald die Sachbearbeiterin namentlich
+  antwortet, in der Folge «**Sehr geehrte Frau <Name>**» (Notariat Hottingen, 10.07.2025).
+  → Service-/Datenstelle: neutral-formeller Erstgruss, danach namentlich-förmlich.
+
+## Architekt als Sachwalter: Rechnung/Kosten an die Bauherrschaft (belegt Mailbatch 02)
+Lenkt Drittrechnungen aktiv an den Bauherrn: «**Darf ich Sie bitten die Rechnung z.H. der
+Bauherrschaft mit folgender Rechnungsanschrift zu stellen**» (Grundbuchauszug-Gebühr ans
+Notariat, 10.07.2025). Verstärkt «handelt im Auftrag der Bauherrschaft» (→ oben): der
+Architekt bestellt/koordiniert, die Kosten laufen direkt auf die Bauherrschaft.
 
 ## Beziehungsgedächtnis (Start-Mapping, belegt)
 - KISPI-Bauherr/Betreiber (Albin Spahic, Stefi Sonderegger): Du — «Hoi/Lieber/Geschätzter»

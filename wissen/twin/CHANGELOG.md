@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-10 — twin-mail-training: Mailbatch 02 (Sent Items rj@, 2025-07-09 bis 2025-07-14)
+- Sequentieller Sweep fortgesetzt: Offset 15–29/1'014, 15 Mails gesichtet, 5 Volltexte via
+  M365 `read_resource` destilliert, 4 MS-Support ignoriert. Gewichtung **authentisch** (klar
+  vor-Claude). Projekt Wartstrasse 8 (Baueingabe Balkontüre; Denkmalpflege AfS / Kreisarchi-
+  tektin AfB / Notariat-Grundbuchamt Stadt ZH). Mikro-Metrik (327 W, Sie-lastig): Du-Gross 1.0,
+  Gruss 7/7 «Freundliche Grüsse», Satzlänge ø 17.2.
+- Neue belegte Marker: [[stimme]] — «Freundliche Grüsse» + voller Block = Geschäfts-Default
+  (auch kurze Hoi-Du-Mail), höfliche Schluss-Wunschformel «schönen Nachmittag», Flüchtigkeits-
+  Slips Du→Ihnen / Genus / Binnen-Gross. [[beziehungsregister]] — Behörden-Register nach
+  Vertrautheit (neuer AfB-Kontakt → «Sehr geehrte», nicht «Geschätzte»; Notariat-Sammelpostfach
+  «Guten Tag» → namentlich «Sehr geehrte Frau»); Rechnung z.H. Bauherrschaft (Sachwalter).
+  [[arbeitsweise]] — Telefonat schriftlich fixieren + «_»-Listen auch im Behörden-Sie;
+  terminierte Erreichbarkeit/Anruf-Ankündigung mit Uhrzeit; parallele Koordination sichtbar
+  machen. [[fachsignatur]] — Baueingabe-Aktenumfang Stadt ZH (Katasterplan 1:500, Grundbuch,
+  STWEG-Einverständnis, Projektplan 1:100, Z3 SRZ; «nur noch digital»). [[denken]] — weiche
+  Machbarkeits-Voranfrage an die Denkmalpflege vor formeller Eingabe.
+- Register `raw/_INGESTED.md` bis 2025-07-14 nachgeführt; keine Volltexte gehortet.
+
 ## 2026-06-10 — Fidelity-Review (twin-chef): Gesamt 85/100
 - Selbsttest gegen 3 frische Goldproben (authentisch, vor-Claude, Sent Items rj@, Okt 2025):
   Handelsregister-Kanzlei-Sie 2025-10-31 / warm-soziales Du (Tourismus/Design) 2025-10-09 /
