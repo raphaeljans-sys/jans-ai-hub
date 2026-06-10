@@ -1,8 +1,8 @@
 ---
 title: Vergleichswert / hedonische Bewertung
 status: emerging
-last_updated: 2026-06-03
-sources: [IMMO-03 Hedonistische_Berechnungsweise (Standortinformation Beispiel-Report), IMMO-02 UBS Real Estate Fact Sheets, IMMO-01 MA Marktwertanalyse-Projekte]
+last_updated: 2026-06-09
+sources: [IMMO-03 Hedonistische_Berechnungsweise (Standortinformation Beispiel-Report), IMMO-02 UBS Real Estate Fact Sheets, IMMO-01 MA Marktwertanalyse-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64)]
 links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]]
 ---
 
@@ -29,6 +29,27 @@ Hedonische Reports liefern **Quantile** (z.B. 10/30/50/70/90 %) der Miet- bzw.
 Verkaufspreise pro m2. Der Median (50 %) ist der erwartete Wert; die Spannweite zeigt das
 Marktrisiko. Die Einordnung eines konkreten Objekts ins Quantil ist Bewertungsleistung
 (Lage, Zustand, Ausbau gegenueber dem Median).
+
+WP-Begruendung (Wuest-Kurs S. 44): Ein Durchschnittspreis erlaubt nur «ueber-/unter-
+durchschnittlich»; erst das Preisspektrum erlaubt differenzierte Positionierung. Quantile
+zaehlen Beobachtungen statt Masse — der Median reagiert weit weniger auf extreme
+Einzelobjekte. Segmente: <30 % guenstig, 30-50 % unteres Mittelfeld, 50-70 % oberes
+Mittelfeld, >70 % teuer. **Neubauten sind generell in den oberen Quantilen anzusiedeln**,
+da die Spektren saemtliche Mietvertraege (gross­teils Altbauten) enthalten (S. 43).
+
+## Mikrolage und Marktanspannung (Wuest-Kurs S. 47/48)
+
+- **Mikrolage** = relative Lagequalitaet im Bezug aufs restliche Gemeindegebiet; die
+  Gemeinde selbst wird per **Makrolage-Rating** schweizweit eingeordnet. Das WP-Mikro-
+  lagenmodell ist GIS-gestuetzt (Noten 1.0-5.0; Variablen: Zentralitaet, Hanglage, Laerm,
+  OeV-Anschluss, Naehe Schulen/Laeden u.v.m.). Im Residualwert-Tool steuert die Mikrolage
+  die Quantil-Positionierung der Marktmiete (50-90 %).
+- **Marktanspannung**: Abgleich Angebote (Inserate) vs. Suchabos (Realmatch360) pro
+  Preissegment und Zimmerzahl — zeigt Nachfrage-Ueberhaenge je Segment.
+- Weitere Marktdaten-Werkzeuge (S. 43-46, 63/64): Wuest Reports (wuest.io/reports),
+  WP Market & Location Info (MLI), Immo-Monitoring (halbjaehrlich), comparis
+  «Was zahlt die Nachbarschaft», BFS (Leerwohnungsziffer, LIK), GIS-Browser (maps.zh.ch),
+  SNB data.snb.ch.
 
 ## Lage als staerkster Treiber
 

@@ -1,8 +1,8 @@
 ---
 title: Bewertungsverfahren — Ueberblick und Wahl
 status: established
-last_updated: 2026-06-03
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023, IMMO-01 BEWERTUNG PROJEKTE (LB/RW/MA), SIA 416]
+last_updated: 2026-06-09
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (inkl. Marktwert-Definition S. 56 nach Schaetzerhandbuch SVKG/SEK/SVIT 2012), IMMO-01 BEWERTUNG PROJEKTE (LB/RW/MA), SIA 416]
 links: [[residualwertmethode]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[projektstruktur-deliverables]]
 ---
 
@@ -30,6 +30,35 @@ Auch architektonische Qualitaeten (Wohnqualitaet, Materialitaet, Raumbeziehungen
 Nachhaltigkeit) werden im Idealfall **monetaer eingewertet** — jedem Aspekt wird ein Teil
 des positiven oder negativen Geldflusses zugeordnet (S. 10). Die Projektbewertung hat zum
 Ziel, das architektonische Projekt **wirtschaftlich zu plausibilisieren und zu optimieren**.
+
+## Marktwert — Definition (Schaetzerhandbuch)
+
+> Der Marktwert ist der **geschaetzte** Betrag, zu dem eine Immobilie in einem
+> funktionierenden Immobilienmarkt zwischen einem verkaufsbereiten Verkaeufer und einem
+> kaufbereiten Erwerber **nach angemessenem Vermarktungszeitraum** in einer Transaktion im
+> gewoehnlichen Geschaeftsverkehr **zum Bewertungsstichtag** verkauft werden **koennte** —
+> Parteien handeln mit Sachkenntnis, Umsicht und ohne Zwang; persoenliche/ungewoehnliche
+> Verhaeltnisse bleiben unberuecksichtigt.
+> (SVKG/SEK/SVIT (Hrsg.) 2012: Das Schweizerische Schaetzerhandbuch, S. 367; zit. nach
+> Wuest-Kurs S. 56)
+
+**Marktwert und Verkehrswert sind in der Schweiz synonym** (ebd.).
+
+## Bewertungsparameter eines Projekts (Wuest-Kurs S. 15)
+
+Quantitativ-primaer: **Mengen & Flaechen** (max. Flaechenausnuetzung), **Effizienz**
+(Flaechen-/Volumenkennwerte, Kompaktheit), **Ertragspotenzial** (Mietertrag nach Lage &
+Standard), **Erstellungskosten**, **Betrieb & Unterhalt**. Sekundaer/qualitativ:
+Flexibilitaet (Nutzungsflexibilitaet/Umbaukosten), Nutzung (architektonisch-aesthetisch),
+Nachhaltigkeit (Label-Indikatoren).
+
+## Phasenmodell der Projektentwicklung (Wuest-Kurs S. 13)
+
+Kreislauf Betrieb ↔ Projektentwicklung: Bewertung & Beratung → strategische Planung →
+Projektkonzeption → Projektkonkretisierung → Projektrealisierung; im Betrieb Instand-
+haltung (IH, Zyklus 20-30 Jahre), Instandsetzung (IS), Ersatzbau (E). Bewertungsleistungen
+darin: Marktwert-/Mietzins-/Landwertschaetzungen, Potenzialabschaetzungen, Zustands-
+analysen, Betriebskostenanalysen.
 
 ## Marktwert als Synthese
 

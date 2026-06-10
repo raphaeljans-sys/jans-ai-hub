@@ -22,10 +22,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T1 | Wuest-Kurs Modul 1 (Projektbewertung/Landwert) vollstaendig durcharbeiten | `Immo_02_P23D_Praesentation_Nextcloud.pdf` S. 13 ff. | [[residualwertmethode]], [[ertragswert-dcf]] |
-| T2 | Wuest-Kurs Modul 2 (Nutzungskonzeption) | dito, S. ~60-120 | [[nutzungskonzepte]] |
-| T3 | Wuest-Kurs Modul 3 (Investorenmarkt/Makro) | dito | [[investorenmarkt-makro]] |
-| T4 | Wuest-Kurs Modul 4 + DXMA-Erfolgsfaktoren | DXMA-PDF | [[erfolgsfaktoren-wettbewerb]] |
+| T4 | DXMA-Erfolgsfaktoren (= komplettes Kursmodul 4; im Hauptsatz nur Titelblatt) | DXMA-PDF | [[erfolgsfaktoren-wettbewerb]] |
 | T5 | LK→Landwertanteil-Tabelle sauber extrahieren | `schaetzungsanleitung_kap5.pdf` | [[lageklasse-landwertanteil]] |
 | T6 | Neuwert-Kennwerte je Nutzung/Standard belegen | Schaetzungsanleitung, IMMO-06 | [[realwert-sachwert]] |
 | T7 | Hedonik-Methodik + UBS-FS-Quantile je Gemeinde extrahieren | IMMO-02, Standortreport | [[vergleichswert-hedonisch]] |
@@ -37,4 +34,15 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
-- (noch nichts — KB am 2026-06-03 angelegt)
+- ✓ 2026-06-09 **T1** Wuest-Kurs Modul 1 (Projektbewertung/Landwert, S. 13-72) vollstaendig
+  eingearbeitet → [[residualwertmethode]], [[ertragswert-dcf]] (Training-Run 1).
+- ✓ 2026-06-09 **T2** Wuest-Kurs Modul 2 (Nutzungskonzeption, S. 73-161) vollstaendig
+  eingearbeitet → [[nutzungskonzepte]] (Training-Run 1).
+- ✓ 2026-06-09 **T3** Wuest-Kurs Modul 3 (Investorenmarkt/Makro, S. 162-229) vollstaendig
+  eingearbeitet → [[investorenmarkt-makro]] (Training-Run 1).
+- ✓ 2026-06-09 **T6 (teilweise)** Erstellungskosten-Benchmarks je Nutzung/Standard
+  (BKP 1-5, CHF/m2 HNF, WP-Kurs S. 31-38) belegt → [[realwert-sachwert]]; offen bleiben
+  CHF/m3-Werte und die Schaetzungsanleitungs-Tabellen.
+- ✓ 2026-06-09 **D3 (Grundstein)** Diskontsatz-Anker belegt (WP-Empfehlung Sommer 2023
+  2.2-3.0 % Wohnen, Gewerbe +0.6-1.5 Pp; Erfahrungswerte) → [[ertragswert-dcf]];
+  JANS-Kalibrierung + Aktualisierung 2026 weiterhin offen.

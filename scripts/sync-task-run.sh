@@ -25,21 +25,31 @@ set -uo pipefail
 REPO_NAS="/Volumes/daten/jans-ai-hub"
 [ -d "$REPO_NAS/sync-tasks" ] || exit 0   # NAS nicht gemountet → still beenden
 
-# --- Station erkennen (identisch zu sync-task-check.sh) ----------------------
-MODEL=$(sysctl -n hw.model 2>/dev/null || echo unknown)
-case "$MODEL" in
-    Macmini*)                STATION="mac-mini" ;;
-    MacBookPro*|MacBookAir*) STATION="macbook-pro" ;;
-    *) case "$(hostname -s)" in
-           *[Mm]ini*) STATION="mac-mini" ;;
-           *)         STATION="macbook-pro" ;;
-       esac ;;
-esac
+# --- Station erkennen ---------------------------------------------------------
+# 1. Prioritaet: explizite Identitaet in ~/.jans-station (gesetzt von neue-station.sh)
+#    → skaliert auf beliebig viele Stationen ohne Hardware-Raterei.
+# 2. Fallback: Hardware-Modell (Bestandsstationen Mac Mini / MacBook Pro).
+if [ -f "$HOME/.jans-station" ]; then
+    STATION=$(head -1 "$HOME/.jans-station" | tr -cd 'a-z0-9-')
+fi
+if [ -z "${STATION:-}" ]; then
+    MODEL=$(sysctl -n hw.model 2>/dev/null || echo unknown)
+    case "$MODEL" in
+        Macmini*)                STATION="mac-mini" ;;
+        MacBookPro*|MacBookAir*) STATION="macbook-pro" ;;
+        *) case "$(hostname -s)" in
+               *[Mm]ini*) STATION="mac-mini" ;;
+               *)         STATION="macbook-pro" ;;
+           esac ;;
+    esac
+fi
 
 QUEUE="$REPO_NAS/sync-tasks/$STATION"
 DONE="$REPO_NAS/sync-tasks/done"
 LOGDIR="$REPO_NAS/sync-tasks/log"
 DISPATCH="$HOME/Developer/jans-ai-hub/scripts/dispatch-run.sh"
+
+mkdir -p "$QUEUE" 2>/dev/null   # Queue der eigenen Station existiert immer (neue Stationen)
 
 mkdir -p "$LOGDIR" 2>/dev/null
 LOG="$LOGDIR/runner-$(date +%Y%m).log"
@@ -53,8 +63,29 @@ if ! mkdir "$LOCK" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
-# --- Offene Pendenzen sammeln -----------------------------------------------
+# --- Commit-Anfragen konsumieren (NUR Committer-Station) ---------------------
+# Nicht-Committer-Stationen legen via nas-git-commit.sh eine commit-*.task ab.
+# Die Committer-Station (Mac Mini, always-on) arbeitet sie hier automatisch ab:
+# EIN serialisierter Commit+Push des NAS-Repos deckt alle Anfragen ab.
+# → Wissen (wissen/, rules/, skills/, agents/) ist max. ~30 Min nach Entstehung
+#   auf GitHub gesichert und via git pull auf allen Stationen aktuell.
 shopt -s nullglob
+if [ "$STATION" = "mac-mini" ] && [ ! -f "$HOME/.jans-git-committer" ]; then
+    touch "$HOME/.jans-git-committer"   # Mini ist designierter Committer (Architektur-Entscheid 260602)
+fi
+CTASKS=("$QUEUE"/commit-*.task)
+if [ ${#CTASKS[@]} -gt 0 ] && [ -f "$HOME/.jans-git-committer" ]; then
+    log "Commit-Anfragen: ${#CTASKS[@]} — fuehre nas-git-commit.sh aus"
+    MSGS=$(grep -h '^Message:' "${CTASKS[@]}" 2>/dev/null | cut -d: -f2- | sed 's/^ *//' | sort -u | head -5 | paste -sd '; ' -)
+    if bash "$REPO_NAS/scripts/nas-git-commit.sh" "sync: ${MSGS:-gesammelte Commit-Anfragen}" >> "$LOG" 2>&1; then
+        for CT in "${CTASKS[@]}"; do mv "$CT" "$DONE/$(basename "$CT")" 2>/dev/null; done
+        log "Commit-Anfragen erledigt → done/"
+    else
+        log "nas-git-commit.sh fehlgeschlagen — Anfragen bleiben in Queue"
+    fi
+fi
+
+# --- Offene Pendenzen sammeln -----------------------------------------------
 TASKS=("$QUEUE"/*.md)
 [ ${#TASKS[@]} -eq 0 ] && exit 0
 

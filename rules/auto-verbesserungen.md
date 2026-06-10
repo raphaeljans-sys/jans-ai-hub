@@ -18,6 +18,16 @@ eine Dauerregel handelt.
 - **Gilt für:** <Kontext / Anwendungsbereich>
 ```
 
+## 260610 — Inhaber-Auftraege als Lernsignal fuer den Hub nutzen
+- **Auslöser:** Systemaudit-Auftrag: "hinterlege dass solche Eingaben in das digitale Gedaechtnis von JANS AI HUB aufgenommen werden und jede von mir gestellte Aufgabe genutzt wird, besser zu werden und systematische Komplettloesungen zu bilden"
+- **Regel:** Jeder groessere Auftrag von Raphael ist zugleich Lernmaterial fuer den Hub. Nach Abschluss eines substanziellen Auftrags: (1) verallgemeinerbare Erkenntnisse in die passende Wissens-KB zurueckschreiben (Systemarchitektur/Infrastruktur → `wissen/projekt-lessons/raw/`, fachliche Erkenntnisse → jeweilige Domaenen-KB); (2) wiederkehrende Auftragsmuster als Skill-/Rule-Verbesserung vorschlagen; (3) Systemaudits und deren Befunde unter `docs/` versionieren, damit der naechste Audit auf dem letzten aufbaut (kompoundierend). Nicht jede Kleinanfrage dokumentieren — nur Auftraege mit Wiederverwendungswert.
+- **Gilt für:** Alle Sessions auf allen Stationen, inkl. Scheduled Tasks.
+
+## 260609 — Tool-Berechtigungen immer erlauben (keine Permission-Prompts)
+- **Auslöser:** "immer erlauben" (nach Hintergrund-Trainings, die auf M365-Connector-Prompts blockierten)
+- **Regel:** Claude darf alle eingerichteten Werkzeuge und Connectoren ohne Rückfrage nutzen. Umgesetzt in `.claude/settings.json` (permissions.allow): zusätzlich zu `Bash(*)`/`Write(*)` etc. neu auch der M365-Such-Connector (`mcp__c5e16058-…__*`), `mcp__figma__*`, `mcp__Control_your_Mac__*` (osascript/Apple Mail), `mcp__computer-use__*` und `mcp__ccd_session__*`. Wird via Git auf beide Stationen synchronisiert. Fehlt künftig ein neuer Connector in der Allowlist, direkt ergänzen statt wiederholt prompten.
+- **Gilt für:** Alle Sessions und Hintergrund-Agenten (Scheduled Tasks, Trainings), auf allen Stationen.
+
 ## 260605 — Keine Boilerplate-Disclaimer in Erzeugnissen
 - **Auslöser:** "hey kannst du solche formulierungen weglassen" (zur Verfasser-/Haftungszeile «Verfasst durch Raphael Jans Architekten ETH (JANS) im Auftrag der Eigentümerschaft. … ersetzt keine Rechtsberatung …»)
 - **Regel:** In JANS-Erzeugnissen (Briefe, Stellungnahmen, Berichte, Memos, Dokumente) KEINE Standard-Boilerplate anhängen — insbesondere nicht «Verfasst durch … im Auftrag …» und nicht generische Haftungsausschlüsse wie «ersetzt keine Rechtsberatung / verbindliche Auskunft bei der Behörde einholen». Substanzielle, fallbezogene Vorbehalte (z.B. "Klassifizierung ist strittig", "BO noch zu verifizieren") bleiben erlaubt; nur die formelhaften Floskeln weglassen. Nur einsetzen, wenn der Benutzer es ausdrücklich verlangt.

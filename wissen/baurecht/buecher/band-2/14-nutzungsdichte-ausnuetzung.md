@@ -2,9 +2,9 @@
 name: 14-nutzungsdichte-ausnuetzung
 kapitel: "14 — Nutzungsdichte und Nutzungsart"
 band: 2
-seiten: "919-993 (Ausnuetzung, massgebl. Grundstuecksflaeche, Ausnuetzungsuebertragung, erhoehte Nutzungsziffern, Nutzungsart/Immissionen, Wohnanteil, Harmonisierungsvorlage)"
-shots: "462-499 (distilliert: 462-464, 472, 477, 478, 482-485; 465-471, 496-498)"
-paragraphen: ["§ 49a PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 72 PBG", "§ 251 PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 276 PBG", "§ 10 ABV", "§ 13 ABV", "Art. 646 ZGB"]
+seiten: "919-992 (Ausnuetzung, massgebl. Grundstuecksflaeche, Ausnuetzungsuebertragung, erhoehte Nutzungsziffern, BMZ-Detail/Witterungsbereich, Freiflaechenziffer, Nutzungsart komplett, Wohnanteil, Harmonisierungsvorlage komplett)"
+shots: "462-500 (distilliert: 462-472, 477, 478, 482-500; offen nur 473-476, 479-481)"
+paragraphen: ["§ 49 PBG", "§ 49a PBG", "§ 50 PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 58 PBG", "§ 72 PBG", "§ 251 PBG", "§ 253 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 269 PBG", "§ 276 PBG", "§ 5 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 18 ABV", "§ 11 nABV", "§ 13 nABV", "Art. 22 RPG", "Art. 646 ZGB"]
 status: emerging
 gelesen: 2026-06-09
 last_updated: 2026-06-09
@@ -66,6 +66,71 @@ Vollgeschosse` (§ 255 Abs. 2 PBG).
 - **Ueberbauungsziffer/Vorspruenge** (S. 960 f.): oberirdische geschlossene Vorspruenge bis 1.5 m
   Tiefe sowie Balkone als Abzug; Erker/Laubengaenge bis Drittel der Fassadenlaenge privilegiert
   (§ 256 Abs. 2 PBG, Anhang ABV).
+
+## Baumassenziffer im Detail (14.1.7, § 258 PBG, S. 964-971)
+
+- **Aussenwärmedämmung** (S. 964): Ist die Konstruktionsstärke von Fassade und Dach aufgrund
+  der Wärmedämmung **grösser als 35 cm**, wird sie für die Berechnung der Baumasse **nur bis zu
+  diesem Mass** berücksichtigt (**§ 12 Abs. 3 ABV**) — dickere Dämmung führt zu keinem Verlust
+  an zulässiger Nutzfläche. Für **Umbauten** gilt **§ 253a Abs. 2 PBG** (in Kraft seit 2013):
+  nachträglich angebrachte Aussenwärmedämmung ist für Überbauungs- und Freiflächenziffer
+  **unbeachtlich**; im Unterschied zu Abständen/Längen/Höhen (§ 253a Abs. 1 PBG) dort ohne
+  35-cm-Deckel.
+- **Begriff «oberirdisch»** (S. 964 f.): Nach **§ 12 ABV** gelten als oberirdisch — und damit
+  BMZ-anrechenbar — alle Gebäudeteile **über dem gewachsenen Boden** (BEZ 2017 Nr. 35).
+  Analog zu **§ 269 PBG** (Befreiung von Abstandsvorschriften) hat das Verwaltungsgericht
+  Gebäudeteile, die den gewachsenen Boden um **nicht mehr als 50 cm** überragen, auch bei der
+  Überbauungsziffer ausser Acht gelassen (VB.2013.00598, E. 3.4).
+- **Gewachsener Boden** (S. 965): beurteilt sich nach **§ 5 ABV**; bei bestehenden Bauten oft
+  schwer festzustellen. Buchempfehlung (hervorgehoben): Lage des massgeblichen gewachsenen
+  Terrains **vorgängig durch Geometer oder Bauamt ermitteln lassen** und einen Entscheid der
+  Baubehörde abringen.
+- **Abzüge** (14.1.7.3, S. 965): Nach **§ 258 Abs. 2 PBG** werden nicht angerechnet: Räume, die
+  als **öffentliche Verkehrsflächen** benutzt werden oder sich **innerhalb des Witterungsbereichs
+  unter vorspringenden freitragenden Bauteilen** befinden. Die Aufzählung ist **abschliessend**.
+  Öffentliche Verkehrsfläche = rechtlich (z. B. Wegrecht zugunsten der Gemeinde) gesichert UND
+  tatsächlich dem Gemeingebrauch dienend (Arkaden, gebäudeinterne Rad-/Fusswege); interne
+  Erschliessung (Zufahrt Unterniveaugarage, Hauseingänge) bleibt **anrechenbar** (S. 965 f.).
+- **Witterungsbereich** (14.1.7.4, S. 966-971): ausser Ansatz fällt der äussere Teil eines
+  **offenen** Raums **bis zur Tiefe der halben Raumhöhe** (**§ 12 Abs. 2 ABV**); bei Schrägdächern
+  ab durchschnittlicher Raumhöhe (S. 970). Drei kumulative Begriffe:
+  - **«vorspringend»** = durchsticht die Fassadenebene nach aussen (Dachvorsprünge, Vordächer,
+    Balkone, Erker); innen liegende Balkone gehören zum umbauten Raum (S. 967).
+  - **«freitragend»** = reicht **nicht bis zum gestalteten Boden** und ist nicht darauf
+    abgestützt; schon **ein einziger Pfosten** auf einer Seite beseitigt den Abzug (BEZ 2013
+    Nr. 40; VB.2010.00528; Kritik Walker Späh: stossend, aber geltende Praxis) (S. 968 f.).
+  - **«offener Raum»** = nicht vollständig gegen Witterung geschützt; Brüstung/äusserer Abschluss
+    höchstens **1.3 m geschlossene Höhe** (analog Fassadenlinie, § 27 Abs. 1 ABV); gemauerte
+    raumhohe Abschlüsse > 1.3 m → Anrechnung wie umbauter Raum; **dünne Glas-/Windschutzwände
+    schaden nicht** (BEZ 2013 Nr. 40) (S. 969).
+- **Verglaste Vorbauten** (S. 966): bei der BMZ — anders als bei der AZ — **nicht** generell
+  ausgenommen. Seit 2004 können die Gemeinden über **§ 13 ABV** die BMZ aufteilen und für
+  verglaste Balkone/Veranden ohne heiztechnische Installationen (Energiesparen) gesonderte
+  Baumasse festlegen — reine **Kompetenznorm**, nicht direkt anwendbar (BEZ 2006 Nr. 31).
+- **Hauptgebäude vs. Besondere Gebäude** (14.1.7.5, S. 970 f.): Gemeinden können die BMZ
+  getrennt erfassen, z. B. zusätzliche Baumasse **0.2 m³/m²** für Besondere Gebäude (§ 273 PBG);
+  § 13 ABV ist dabei **nicht abschliessend** (BEZ 2012 Nr. 2 — Autolift in Zollikon;
+  VB.2005.00518, E. 4). Ein **Balkon** ist Bestandteil des Hauptgebäudes und kann die für
+  Besondere Gebäude statuierte Zusatz-Baumasse **nicht** beanspruchen (BEZ 2000 Nr. 33).
+
+## Freiflaechenziffer (14.1.8, § 257 PBG, S. 972 f.)
+
+**Formel (S. 972):** `Freiflächenziffer = Spiel-/Ruheflächen und Gärten (m²) / massgebliche
+Grundstücksfläche (m²)` (§ 257 Abs. 1 PBG). Zweck: Flächen für die **Erholung** sichern
+(Wohnzonen mit Gewerbeerleichterung, Industrie-/Gewerbezonen); wirkt zugleich
+ausnützungsbeschränkend (§ 251 lit. a PBG; VB.2010.00258, E. 3.1).
+
+- **Anrechenbar** (S. 972): «freie» Flächen = nicht durch massiv mit dem Boden verankerte Bauten
+  überstellt und keinem besonderen Zweck dienend; minimale Begrünung genügt (BEZ 2012 Nr. 42);
+  auch Gartensitzplätze, Gartenwege, asphaltierte Spielflächen. Ergänzend **§ 11 ABV**: einfache
+  Garten-/kleine Gerätehäuschen und überdeckte, seitlich mindestens zur Hälfte offene
+  Gartensitzplätze (lit. a); **Spiel-/Ruhe-/Gartenanlagen auf Dachflächen** mit freiem Zugang
+  (lit. b) — § 11 ABV ist mit dem übergeordneten Recht vereinbar (BEZ 2012 Nr. 42) (S. 973).
+- **Ausser Ansatz** (14.1.8.3, S. 973): Flächen von **Gebäuden, Wald und Gewässern** (§ 257
+  Abs. 2 PBG). Abgrenzung zur ÜZ: bei der FFZ fällt nur die flächenmässige Ausdehnung des
+  **Hauptgebäudes** ausser Ansatz — **vorspringende Gebäudeteile sind hier anzurechnen**
+  (anders als bei § 256 Abs. 2 PBG) (BEZ 2012 Nr. 42).
+- Nachträgliche Aussenwärmedämmung ist auch für die FFZ unbeachtlich (§ 253a Abs. 2 PBG, S. 973).
 
 ## Massgebliche Grundstuecksflaeche im Detail (§ 259 PBG, S. 920-929)
 

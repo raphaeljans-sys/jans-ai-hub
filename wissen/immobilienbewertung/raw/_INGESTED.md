@@ -10,8 +10,8 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 
 | Quelle | Pfad (ab IMMO) | Typ | Stand | Status | Ziel-Artikel |
 |---|---|---|---|---|---|
-| Wuest-Kurs "Immobilien entwickeln" | `03 KNOW-HOW/05 Residualwert/Folien WuestPartner/Immo_02_P23D_Praesentation_Nextcloud.pdf` (236 S.) | PDF | 06.2023 | teilweise (S. 1-12) | residualwertmethode, nutzungskonzepte, investorenmarkt-makro, erfolgsfaktoren-wettbewerb |
-| DXMA Erfolgsfaktoren | `03 KNOW-HOW/05 Residualwert/Folien DXMA/Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf` | PDF | 06.2023 | offen | erfolgsfaktoren-wettbewerb |
+| Wuest-Kurs "Immobilien entwickeln" | `03 KNOW-HOW/05 Residualwert/Folien WuestPartner/Immo_02_P23D_Praesentation_Nextcloud.pdf` (236 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-236, Training-Run 1 am 2026-06-09; Modul 4 = nur Titelblatt, Inhalt im DXMA-PDF) | residualwertmethode, ertragswert-dcf, realwert-sachwert, nutzungskonzepte, investorenmarkt-makro, vergleichswert-hedonisch, bewertungsverfahren-ueberblick |
+| DXMA Erfolgsfaktoren | `03 KNOW-HOW/05 Residualwert/Folien DXMA/Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf` | PDF | 06.2023 | offen — **naechste Prioritaet** (enthaelt das komplette Kursmodul 4) | erfolgsfaktoren-wettbewerb |
 | Pre-Check-Tool Wuest | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/wp/Immo-02-P23D-Pre-Check_Tool_WuestPartner.xlsx` | XLSX | 2023 | offen | residualwertmethode |
 | Residualwert-Tool JANS | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Residualwert_Projektbewertung.xlsx` | XLSX | 2024 | offen | residualwertmethode, ertragswert-dcf |
 | Kursnotizen (handschriftlich) | `03 KNOW-HOW/05 Residualwert/Kursnotizen/IMG_7064-7067.jpeg` | Foto | 06.2023 | offen | residualwertmethode |

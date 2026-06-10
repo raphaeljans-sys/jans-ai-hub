@@ -39,3 +39,8 @@ dispatch/
 # Lokale Overrides NICHT committen
 .claude/settings.local.json
 .claude/session.log
+
+# Synology-Indexdienst
+@eaDir/
+**/@eaDir/
+Thumbs.db

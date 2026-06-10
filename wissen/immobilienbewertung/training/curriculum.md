@@ -19,22 +19,28 @@ Status: `offen` · `teilweise` · `✓ eingearbeitet (Datum)`.
 | Lekt. | Seiten (ca.) | Thema | Ziel-Artikel | Status |
 |---|---|---|---|---|
 | W0 | 1-12 | Einfuehrung, Investorendenkweise, Renditeliegenschaft | bewertungsverfahren-ueberblick, investorenmarkt-makro | ✓ 2026-06-03 |
-| W1 | 13-30 | Projektbewertung: Geldfluss-Logik, Bewertungsgroessen | residualwertmethode | offen |
-| W2 | 31-50 | Landwert-Herleitung Schritt fuer Schritt (typ. MFH) | residualwertmethode, lageklasse-landwertanteil | offen |
-| W3 | 51-70 | Ertrag/Miete, Kapitalisierung, Diskontierung | ertragswert-dcf | offen |
-| W4 | 71-90 | Erstellungskosten, Margen, Sensitivitaet | residualwertmethode, realwert-sachwert | offen |
-| W5 | 91-110 | Nutzungskonzeption: Positionierung, Mehrwert | nutzungskonzepte | offen |
-| W6 | 111-130 | Wohnkonzepte: Serviced/Co-Living/Alterswohnen | nutzungskonzepte | offen |
-| W7 | 131-150 | Investorenmarkt: Interessen, Ertrag vs. Wertsteigerung | investorenmarkt-makro | offen |
-| W8 | 151-175 | Wertentwicklung MFH: Mieten & Zinsen, Makrooekonomie | investorenmarkt-makro, ertragswert-dcf | offen |
-| W9 | 176-200 | Erfolgsfaktoren: Markttauglichkeit im Wettbewerb | erfolgsfaktoren-wettbewerb | offen |
-| W10 | 201-236 | Kosteneffizienz vs. Entwurfsqualitaet, Fazit, Q&A | erfolgsfaktoren-wettbewerb | offen |
+| W1 | 13-30 | Projektbewertung: Phasen, Risikokomponente, RW-Schema, Anwendungsfaelle, Excel-Tool | residualwertmethode | ✓ 2026-06-09 |
+| W2 | 31-50 | Erstellungskosten-Benchmarks, Risiko-/Gewinnanteil, Marktmiete, Betriebskosten | residualwertmethode, realwert-sachwert, vergleichswert-hedonisch | ✓ 2026-06-09 |
+| W3 | 51-70 | Diskontierung (WP-Empfehlung 2023), Barwert-Mathematik, Resultat/Abzuege, Sensitivitaet, Pre-Check, DCF | ertragswert-dcf, residualwertmethode | ✓ 2026-06-09 |
+| W4 | 71-90 | Mehrinvestitions-Rentabilitaet; Start Modul 2 (Positionierungs-Kreislauf, Standort-/Marktanalyse) | ertragswert-dcf, nutzungskonzepte | ✓ 2026-06-09 |
+| W5 | 91-110 | Standort/Nachfrage/Angebot/Konkurrenz-Raster, Konkurrenzanalyse makro/mikro, 5 strategische Fragen | nutzungskonzepte | ✓ 2026-06-09 |
+| W6 | 111-130 | Zielgruppensegmentierung, Sinus-Geo-Milieus, Zielgruppen-Steckbriefe, Nutzermix | nutzungskonzepte | ✓ 2026-06-09 |
+| W7 | 131-150 | Megatrends/7 Wohntrends, Nutzungskonzeptionen (Schwamendingen, Regensdorf BLOOM) | nutzungskonzepte | ✓ 2026-06-09 |
+| W8 | 151-175 | Varianten-Wirtschaftlichkeit (Landwert-Lehrstueck); Start Modul 3 (Preise, Leerstand, Baumarkt) | residualwertmethode, investorenmarkt-makro | ✓ 2026-06-09 |
+| W9 | 176-200 | Baupreisteuerung, Zinsen/SNB, Kapitalisierungssatz/Anfangsrendite, Referenzzinssatz | investorenmarkt-makro, ertragswert-dcf | ✓ 2026-06-09 |
+| W10 | 201-236 | Zins-Wirkungskette, Eigentuemer/Renditen, Teilmaerkte/4-Quadranten-Modell, Fazit | investorenmarkt-makro, erfolgsfaktoren-wettbewerb | ✓ 2026-06-09 |
+
+**Befund Seitenraster (2026-06-09):** Die tatsaechlichen Modulgrenzen weichen vom
+urspruenglichen Plan ab — Modul 1 endet S. 72, Modul 2 (Waeckerlin) S. 73-161, Modul 3
+(Schlaepfer) S. 162-229, Modul 4 (Lehmann/DXMA) ist im Hauptsatz **nur Titelblatt S. 230**;
+der Erfolgsfaktoren-Inhalt liegt komplett im separaten DXMA-PDF → **E1 hat jetzt oberste
+Prioritaet**. Der Hauptfoliensatz (236 S.) ist damit vollstaendig eingearbeitet.
 
 ## Ergaenzende Quellen (nach dem Kurs)
 
 | Lekt. | Quelle | Thema | Ziel-Artikel | Status |
 |---|---|---|---|---|
-| E1 | DXMA-Folien Erfolgsfaktoren | Erfolgsfaktoren-Detail | erfolgsfaktoren-wettbewerb | offen |
+| E1 | DXMA-Folien Erfolgsfaktoren | Erfolgsfaktoren-Detail (= komplettes Modul 4!) | erfolgsfaktoren-wettbewerb | offen — **naechste Prioritaet** |
 | E2 | Pre-Check-/Residualwert-XLSX (mit Freigabe) | Formel-Logik Tool | residualwertmethode, ertragswert-dcf | offen |
 | E3 | schaetzungsanleitung_kap5.pdf | LK-Tabelle, Neuwert-Richtwerte, Abbruch | lageklasse-landwertanteil, realwert-sachwert | offen |
 | E4 | Hedonik-Standortreport + UBS-FS | Hedonik-Methodik, Quantile je Gemeinde | vergleichswert-hedonisch | offen |

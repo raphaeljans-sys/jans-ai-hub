@@ -67,6 +67,35 @@ ls -la ~/Developer/jans-ai-hub/.claude/commands 2>/dev/null
 - ✅ Alle Symlinks intakt und zeigen auf NAS
 - ❌ Symlink fehlt oder broken → `bash ~/Developer/jans-ai-hub/scripts/setup-nas-skills.sh`
 
+### 7. Sync-Health (Wissens-Kette NAS → GitHub → Stationen)
+
+Die Kette, die alle Stationen aktuell haelt: NAS (kanonisch) → Commit auf dem
+Mac Mini (Runner, 30 Min) → GitHub → `git pull` aller SSD-Spiegel (5 Min).
+Dieser Check erkennt, wenn die Kette stockt:
+
+```bash
+# a) Commit-Anfragen: aelteste offene commit-*.task (sollte < 1 h alt sein)
+ls -t /Volumes/daten/jans-ai-hub/sync-tasks/mac-mini/commit-*.task 2>/dev/null | tail -1
+
+# b) NAS-Repo dirty count (read-only, kein Lock ueber SMB!)
+GIT_OPTIONAL_LOCKS=0 git -C /Volumes/daten/jans-ai-hub status --porcelain 2>/dev/null | wc -l
+
+# c) HEAD-Abgleich NAS vs SSD
+GIT_OPTIONAL_LOCKS=0 git -C /Volumes/daten/jans-ai-hub rev-parse --short HEAD
+git -C ~/Developer/jans-ai-hub rev-parse --short HEAD
+
+# d) Runner aktiv?
+launchctl list | grep ch.jans.synctask-runner
+```
+
+- ✅ Keine commit-*.task aelter als 1 h, NAS dirty < 20, HEADs gleich (oder NAS minimal voraus), Runner geladen
+- ⚠️ commit-*.task aelter als 24 h ODER NAS dirty > 50 → Mac-Mini-Runner pruefen
+  (`tail sync-tasks/log/runner-*.log`), notfalls dort manuell `bash scripts/nas-git-commit.sh "catch-up"`
+- ❌ HEADs weichen um viele Commits ab → `git pull` auf der Station; Runner-Log lesen
+
+**Wichtig:** Auf dem NAS-Repo NIE git-Befehle ohne `GIT_OPTIONAL_LOCKS=0` und NIE
+schreibende git-Befehle von einer Nicht-Committer-Station (SMB-index.lock-Gefahr).
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
@@ -80,6 +109,7 @@ M365-Connector: ✅ Connected as rj@raphaeljans.ch
 Disk Space:     ✅ 47 GB frei (von 500 GB)
 Sync-Tasks:     ✅ Keine offenen Tasks
 Symlinks:       ✅ skills / agents / commands OK
+Sync-Health:    ✅ Wissens-Kette fliesst (0 Commit-Anfragen offen, NAS↔SSD gleichauf)
 
 STATUS: ✅ Alles OK
 ```
