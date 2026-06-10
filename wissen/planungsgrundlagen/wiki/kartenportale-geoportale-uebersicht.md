@@ -1,9 +1,9 @@
 ---
 title: Geoportale — welches Portal liefert was
-status: emerging
-last_updated: 2026-06-05
-sources: [PL - 01 Kartenportale (SharePoint), map.geo.admin.ch, maps.zh.ch, geodienste.ch]
-links: [[kartenportale-oereb-egrid-bezug]]
+status: established
+last_updated: 2026-06-10
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch]
+links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]]
 ---
 
 # Geoportale — welches Portal liefert was
@@ -27,12 +27,15 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
 
 ## Kernprodukte fuer eine Studie (Checkliste)
 
-- **OEREB-Auszug** → siehe `[[kartenportale-oereb-egrid-bezug]]`
-- **Zonenplan / BZO-Ausschnitt** → maps.zh.ch (ZH) bzw. kommunales GIS
-- **Situationsplan amtliche Vermessung** → geodienste.ch OGD / Geoshop
-- **Hoehenmodell (DTM) + Orthofoto** → map.geo.admin.ch
+- **OEREB-Auszug** (inkl. rechtsverbindliche Grundnutzung/BZO) → `[[kartenportale-oereb-egrid-bezug]]`
+- **Punkthoehe / Hoehenmodell (DTM) / Orthofoto / Bauzonen CH** → **belegte Endpunkte + Connector
+  `--produkt`** in `[[kartenportale-bund-geodaten]]` (validiert 2026-06-10)
+- **Zonenplan / BZO-Ausschnitt (kommunal, rechtsverbindlich)** → im OEREB enthalten; separater
+  login-freier ZH-Zonenplan-WMS noch offen (wms.zh.ch = 401, → QUESTIONS A2)
+- **Situationsplan amtliche Vermessung** → geodienste.ch OGD / Geoshop (offen, A4)
 - **Baulinien / Abstandslinien** → OEREB-Kataster + kommunale Baulinienplaene
 
 ## Offen (→ QUESTIONS)
-- Genaue Download-Endpunkte je Produkt (Zonenplan-PDF, DTM-Kachel) automatisierbar machen.
-- Nicht-ZH-Kantone (SZ): Portale + OEREB-Service kartieren.
+- A2: rechtsverbindlicher kommunaler ZH-Zonenplan-WMS login-frei (wms.zh.ch geschuetzt).
+- A4: Situationsplan amtl. Vermessung (geodienste.ch OGD) als Bezugsskript.
+- A1/A7: Nicht-ZH-Kantone — SZ-OEREB ist via `geo-sz.mjs` geloest (siehe Skill `oereb-schwyz`).

@@ -3,10 +3,16 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
-- [ ] **A1** Nicht-ZH-Kantone: OEREB-Service-Endpunkte kartieren (zuerst SZ), dann in
-  `geo-zh.mjs` (`OEREB_SERVICE`) hinterlegen + validieren.
-- [ ] **A2** Zonenplan-/BZO-Ausschnitt automatisiert beziehen (maps.zh.ch Endpunkt finden).
-- [ ] **A3** Hoehenmodell (swissALTI3D) + Orthofoto (SWISSIMAGE) Kachel-Download je Parzelle.
+- [x] **A1** Nicht-ZH-Kantone: OEREB-Service-Endpunkte kartieren (zuerst SZ). ✓ SZ via
+  `geo-sz.mjs` / Skill `oereb-schwyz` geloest; `geo-zh.mjs` `OEREB_SERVICE.sz` hinterlegt.
+- [~] **A2** Zonenplan-/BZO-Ausschnitt automatisiert beziehen. ✓ Teil 2026-06-10: Bundes-Bauzonen
+  `ch.are.bauzonen` als WMS-PNG validiert + im Connector (`--produkt bauzonen`). **Offen:**
+  rechtsverbindlicher **kommunaler ZH-Zonenplan-WMS** login-frei — `wms.zh.ch` = HTTP 401
+  (Referer-/Auth-Schutz), geodienste.ch-Nutzungsplanung-Pfad noch nicht getroffen. Bis dahin:
+  Grundnutzung aus dem OEREB-Auszug.
+- [x] **A3** Hoehenmodell (swissALTI3D) + Orthofoto (SWISSIMAGE) je Parzelle. ✓ 2026-06-10:
+  `height`-Service + STAC `swissimage-dop10`/`swissalti3d` validiert, im Connector `--produkt
+  height,orthofoto,dtm` (+`--download`) → [[kartenportale-bund-geodaten]].
 - [ ] **A4** Situationsplan amtliche Vermessung (geodienste OGD) als Bezugsskript.
 - [ ] **A5** Eigentumsabfrage ObjektwesenZH per EGRID: Ablauf + ob automatisierbar.
 
@@ -37,4 +43,10 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   2019) — Bandbreite CHF/kWp und kWh/kWp nachziehen. (neu 2026-06-06)
 
 ## E — Connector/Tooling
-- [ ] **E1** `geo-zh.mjs` um `--produkt zonenplan|dtm|orthofoto` erweitern (folgt aus A2–A4).
+- [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt
+  height,orthofoto,dtm,bauzonen` + `--download` implementiert, end-to-end an Kat. 3338 getestet
+  (graceful skip bei EGRID-only ohne Koordinate). → [[kartenportale-bund-geodaten]].
+- [ ] **E2** `--produkt zonenplan` (kommunaler ZH-Zonenplan-WMS) — blockiert durch A2 (wms.zh.ch 401).
+  (neu 2026-06-10)
+- [ ] **E3** STAC-bbox-Radius adaptiv (grosse Parzellen → mehrere Nachbarkacheln einsammeln statt
+  fixem ~0.0008-Grad-Fenster). (neu 2026-06-10)

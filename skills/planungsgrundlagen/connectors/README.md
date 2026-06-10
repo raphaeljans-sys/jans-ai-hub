@@ -38,6 +38,11 @@ node geo-zh.mjs --adresse "Giebelweg 12 Langnau am Albis" --oereb \
 
 # Direkt per bekanntem EGRID
 node geo-zh.mjs --egrid CH879777718909 --oereb --out "/pfad/Ziel"
+
+# Zusatz-Produkte vom Bund (login-frei): Hoehe, Orthofoto, DTM, Bauzonen
+node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
+  --produkt height,orthofoto,dtm,bauzonen --out "/pfad/PL - 01 Kartenportale" --json
+# + --download laedt bei orthofoto/dtm zusaetzlich die hoechstaufgeloeste GeoTIFF-Kachel
 ```
 
 ## Flags
@@ -48,9 +53,17 @@ node geo-zh.mjs --egrid CH879777718909 --oereb --out "/pfad/Ziel"
 | `--plz <nnnn>` | optional, schaerft die Adresssuche |
 | `--egrid <CH…>` | EGRID direkt setzen (ueberspringt Geocoding/Identify) |
 | `--oereb` | OEREB-Auszug als PDF herunterladen |
+| `--produkt <liste>` | Bund-Geodaten (Komma-Liste): `height`,`orthofoto`,`dtm`,`bauzonen` — brauchen Koordinate, also `--adresse` (nicht EGRID-only). Belege: `[[kartenportale-bund-geodaten]]` |
+| `--download` | bei `orthofoto`/`dtm` die hoechstaufgeloeste Kachel je Jahrgang laden (GeoTIFF, gross) |
 | `--out <dir>` | Zielordner (mehrfach moeglich) |
 | `--kanton <zh>` | OEREB-Service-Kanton (default: aus BFS abgeleitet) |
 | `--json` / `--quiet` | Ausgabesteuerung |
+
+**Produkt-Endpunkte (validiert 2026-06-10, Kat. 3338 / EGRID CH879777718909):**
+`height` → `api3.geo.admin.ch/rest/services/height` (549.1 m) · `orthofoto` → STAC
+`ch.swisstopo.swissimage-dop10` (Jahrgaenge 2019/2022/2025, 0.1+2 m) · `dtm` → STAC
+`ch.swisstopo.swissalti3d` (0.5+2 m, +xyz) · `bauzonen` → WMS `ch.are.bauzonen` PNG
+(Achtung WMS 1.3.0 + EPSG:2056 = Achse **N,E**).
 
 ## Dateinamen-Konvention
 
@@ -62,8 +75,9 @@ Der Connector uebernimmt diesen Namen unveraendert.
 
 - ZH validiert; SZ als EGRID-Direktbezug hinterlegt (fuer SZ-Parzellensuche `geo-sz.mjs`).
   Weitere Kantone in `OEREB_SERVICE` ergaenzen, sobald gebraucht.
-- Erweiterbar auf Zonenplan-, Hoehenmodell-, Orthofoto-Bezug ueber dieselben
-  geo.admin/zh.ch-Endpunkte (Roadmap im Skill `planungsgrundlagen`).
+- ✓ Hoehe/Orthofoto/DTM/Bauzonen via `--produkt` umgesetzt (2026-06-10, geo.admin-Endpunkte).
+  **Offen:** rechtsverbindlicher kommunaler ZH-Zonenplan-WMS — `wms.zh.ch` = HTTP 401
+  (login-/Referer-geschuetzt); bis dahin Grundnutzung aus dem OEREB-Auszug.
 - EGRID wird **nie erfunden**: bei 0 Treffern bricht der Connector ab (Rule
   `identifikatoren-verifizieren`).
 
