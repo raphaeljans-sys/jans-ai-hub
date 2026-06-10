@@ -2,6 +2,17 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-10 — Korrektur-Delta: Gedankenstrich-Verbot (Dokumente + Folien)
+- Explizite Vorgabe Raphael (direkt, 10.06.2026): **kein Gedankenstrich (— / –) als
+  Stilmittel** in Dokumenten und Praesentationen; nicht durch «-» ersetzen, sondern
+  umformulieren (Komma, Doppelpunkt, Punkt, Klammer). In [[stimme]] (Mikro-Stil + Don't)
+  erfasst.
+- Angewendet: `rules/dokument-layout-standard.md` (Sektion Sprache verschaerft; Sprach-/
+  Stilregeln gelten neu explizit auch fuer PPTX) und `agents/dokument.md` (neue Sektion
+  «Stil: JANS-Twin» mit Typografie-/Dramaturgie-/Argumentations-/Haltungs-DNA aus den
+  sechs Facetten-Wikis; Zustaendigkeit auf Folien/PPTX ausgeweitet).
+- Gehirn `rules/jans-dna.md` neu kompiliert (build_dna.py, 6 Facetten).
+
 ## 2026-06-09 — Fidelity-Review (twin-chef): Gesamt 84/100
 - Selbsttest gegen 3 frische Goldproben (authentisch, vor-Claude; Privatkundin-Sie
   2025-12-01 / Genossenschafts-Bauvorstand-Du 2025-12-14 / vertrauter Bauherr-Du

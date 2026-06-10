@@ -1,7 +1,7 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 gewichtung: authentisch
 sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, ../outputs/2026-06-09_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
@@ -31,6 +31,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 - **Tausender-Apostroph** Schweizer Art: 1'824, 8'417.
 - **«%» mit Leerschlag**: «30 %».
 - **Nachgestelltes «…» / «..»** als Gedanken-Ausklang (besonders im Du-Register).
+- **Kein Gedankenstrich (— / –) als Stilmittel** — explizite Vorgabe Raphael (10.06.2026,
+  fuer Dokumente und Folien): nicht durch «-» ersetzen, sondern umformulieren (Komma,
+  Doppelpunkt, Punkt, Klammer). Bindestrich nur in Komposita und als Listen-Bullet.
 - Gruss-Register: «**Freundliche Grüsse**» (formell) ↔ «**Lieber Gruss**» (vertraut) —
   nie «Mit freundlichen Grüssen». Signatur «RAPHAEL JANS Founder I MD · MSc ETH I SIA».
   ABER: nicht mechanisch an die Anrede gekoppelt — siehe «Gruss folgt dem Mail-Typ».
@@ -44,7 +47,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Apostroph-Zahlen; warmer, anbietender Schluss; Gruss nach Mail-Typ wählen (operativ →
   Kurzgruss, dokumentierend → «Freundliche Grüsse» + voller Block, auch bei «Hoi»).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
-  260605), aufdringliche CTAs, Emoji-Inflation, «ß»; Gruss mechanisch an die Anrede koppeln.
+  260605), aufdringliche CTAs, Emoji-Inflation, «ß»; Gruss mechanisch an die Anrede koppeln;
+  Gedankenstrich (— / –) als Stilmittel in Dokumenten/Folien (Vorgabe 260610: umformulieren
+  statt ersetzen).
 
 ## Sie-Register (belegt KISPI)
 - Hoeflich-bittend: «**Darf ich Sie bitten** uns Ihr Angebot … einzureichen», «**stehe ich

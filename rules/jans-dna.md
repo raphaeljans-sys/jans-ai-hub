@@ -44,7 +44,9 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Apostroph-Zahlen; warmer, anbietender Schluss; Gruss nach Mail-Typ wählen (operativ →
   Kurzgruss, dokumentierend → «Freundliche Grüsse» + voller Block, auch bei «Hoi»).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
-  260605), aufdringliche CTAs, Emoji-Inflation, «ß»; Gruss mechanisch an die Anrede koppeln.
+  260605), aufdringliche CTAs, Emoji-Inflation, «ß»; Gruss mechanisch an die Anrede koppeln;
+  Gedankenstrich (— / –) als Stilmittel in Dokumenten/Folien (Vorgabe 260610: umformulieren
+  statt ersetzen).
 
 ### Denken & Argumentation
 - **Do:** Frage zuerst spiegeln (schriftlich-präzise Fragen wörtlich zitieren + «Antwort:»,

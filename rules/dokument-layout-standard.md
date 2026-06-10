@@ -85,7 +85,8 @@ Fehlerhafte/unnoetige Zeilenumbrueche in Tabellen sind der Lesbarkeit abtraeglic
 - Schweizer Hochdeutsch
 - Umlaute ä, ö, ü immer als echte Umlaute schreiben (gemäss umlaute-konvention.md) — niemals die ASCII-Ersatzform ae/oe/ue
 - "ss" statt "ß" (kein Eszett im Schweizer Hochdeutsch)
-- Bindestrich "-" statt Gedankenstrich, einfache Anführungszeichen
+- **Kein Gedankenstrich (— / –) als Stilmittel** — weder als langer noch als kurzer Strich, und auch NICHT durch einen Bindestrich ersetzen. Stattdessen den Satz umformulieren: Komma, Doppelpunkt, Punkt oder Klammer. Zulaessig bleibt der Bindestrich nur in Komposita («Plan- und Dokumentenliste») und als Listen-Bullet «-». (Vorgabe Raphael, 10.06.2026; gilt fuer Dokumente UND Praesentationen)
+- Einfache Anführungszeichen «…» bzw. „…"
 
 ## Wann gilt diese Regel
 
@@ -97,7 +98,7 @@ Fehlerhafte/unnoetige Zeilenumbrueche in Tabellen sind der Lesbarkeit abtraeglic
 
 - Wenn der Benutzer explizit ein anderes Layout fordert ("mit Farben", "mit Buero-CI", "wie XY")
 - Briefkopf mit JANS-Logo (eigene Vorlage, separat zu pflegen)
-- Praesentationen (PPTX folgt eigener Konvention)
+- Praesentationen (PPTX folgt eigener Layout-Konvention) — **ABER: die Sektion «Sprache» (inkl. Gedankenstrich-Verbot) und die JANS-DNA-Stilregeln gelten auch fuer Folien**
 - Excel/Tabellen (XLSX braucht Spaltenformat, nicht Layout-Standard)
 
 ## Generator-Vorlage
