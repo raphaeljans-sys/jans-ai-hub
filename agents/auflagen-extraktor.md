@@ -33,7 +33,15 @@ strukturiert — die Rohstruktur fuer die Plan-/Dokumentenliste. Du interpretier
    - **Amt-Hinweis** (Feuerpolizei / AfB / GVZ / UGZ / Tiefbauamt ...), soweit genannt.
    - **Bezug** (Erwaegung, SRZ-Marker, andere Ziffer).
 5. **Nichts erfinden:** fehlt eine Angabe, markiere «nicht im Text» — nicht raten.
-6. Kennzeichne, ob es ein **«Vorabzug»** ist (Stand vorlaeufig).
+6. **Formular-/Nachweisnummern NIE erfinden** (verschaerft `identifikatoren-verifizieren`):
+   Verlangt eine Auflage einen amtlichen Nachweis (Energienachweis, Schallschutz,
+   Hindernisfreiheit …), extrahiere nur das **woertliche Schluesselwort** + die Ziffer.
+   Eine Formularnummer (z.B. EN-ZH, EN-105, EN-110-ZH) nur uebernehmen, wenn sie
+   **woertlich im Entscheid steht**; sonst als «Formular: zu verifizieren» kennzeichnen —
+   der `planer-zuteiler`/Fachskill loest sie gegen die Fach-KB auf. Muster + verifizierte
+   Zuordnungen: `wissen/auflagebereinigung/wiki/formular-verifizierung.md`
+   (Lehrstueck KISPI 2619: Sub-Agent hatte Formularnummern erfunden, KB-Abgleich korrigierte).
+7. Kennzeichne, ob es ein **«Vorabzug»** ist (Stand vorlaeufig).
 
 ## Output (strukturiert — dein Rueckgabewert)
 - **Kopf:** Entscheid-Typ (definitiv/Vorabzug), Verfuegungs-/Geschaeftsnr. (woertlich), Behoerde,
