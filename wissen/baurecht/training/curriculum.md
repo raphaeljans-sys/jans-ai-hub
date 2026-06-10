@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -42,7 +42,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
 | 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [ ] |
-| 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [ ] |
+| 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
 | 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [ ] |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
 | 19 | Baulicher Umweltschutz | 1357 | 681 | P2 | [ ] |
@@ -61,7 +61,9 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    Harmonisierungsvorlage/IVHB. *(Bootstrap 2026-06-07; weitgehend distilliert 2026-06-09 —
    20 Doppelseiten. Rest: Mischrechnungsverbot, § 10/13 ABV.)* ✅ **Naechster Lauf: Kap. 16.**
 2. **Kap. 16** Gebaeudedimensionen — Gebaeude-/Firsthoehe, Vollgeschoss, Dachgestaltung,
-   Dachaufbauten/Lukarnen, Kniestock.
+   Dachaufbauten/Lukarnen, Kniestock. *(Teil 1 Geschosse/Kniestock distilliert 2026-06-10, Run 2,
+   S. 1135-1153, Destillat [[16-gebaeudedimensionen]]. Rest: Hoehen/Dachgestaltung S. 1154 ff.)*
+   ⏭️ **Naechster Lauf: Kap. 15** (Lage/Abstaende).
 3. **Kap. 15** Lage von Gebaeuden — Grenz-/Gebaeude-/Strassen-/Gewaesser-/Waldabstand, Baulinien.
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.

@@ -16,6 +16,10 @@ oder umbenannten Artikel aktualisieren.
 ### Abstände & Höhen
 - [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand, Näherbaurecht, Wald-/Höhen · *established*
 
+### Gebäudedimensionen
+- [[geschosse-und-kniestock]] — Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit (§ 276 PBG), **Kniestock**: 0,9 m / Bestand 1,3 m (vor 1.7.1978), Messweise 0,4 m hinter Fassade · *emerging*
+- [[16-gebaeudedimensionen]] (Destillat Bd 2, Kap. 16 Teil 1) — Buchsynthese Geschosse + Kniestock, Belegquelle · *emerging*
+
 ### Zonen
 - [[zonenkonformitaet]] — BZO-Systematik, Zonenarten, Richtwerte Stadt ZH · *established*
 
@@ -35,8 +39,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Gewässerabstand (in baubewilligungsverfahren erwähnt, eigener Artikel offen)
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-09)
-- Artikel im Wiki: 7 + QUELLEN-Register (+ [[ausnuetzungsuebertragung]] 2026-06-09)
+## Statistik (Stand 2026-06-10)
+- Artikel im Wiki: 8 + QUELLEN-Register (+ [[geschosse-und-kniestock]] 2026-06-10, Buch-Run 2)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -586,16 +586,16 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 568 | 2 | ~1130 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.37.jpg` |  |
 | 569 | 2 | ~1132 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.39.jpg` |  |
 | 570 | 2 | ~1134 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.40.jpg` |  |
-| 571 | 2 | ~1136 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.42.jpg` |  |
-| 572 | 2 | ~1138 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.43.jpg` |  |
-| 573 | 2 | ~1140 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.45.jpg` |  |
-| 574 | 2 | ~1142 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.46.jpg` |  |
-| 575 | 2 | ~1144 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.47.jpg` |  |
-| 576 | 2 | ~1146 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.49.jpg` |  |
-| 577 | 2 | ~1148 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.50.jpg` |  |
-| 578 | 2 | ~1150 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.52.jpg` |  |
-| 579 | 2 | ~1152 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.53.jpg` |  |
-| 580 | 2 | ~1154 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.55.jpg` |  |
+| 571 | 2 | 1134/1135 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.42.jpg` | [[16-gebaeudedimensionen]] (Kap.-16-Auftakt) |
+| 572 | 2 | 1136/1137 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.43.jpg` | [[16-gebaeudedimensionen]] (Geschosse § 275/276) |
+| 573 | 2 | 1138/1139 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.45.jpg` | [[16-gebaeudedimensionen]] (Galerie, zusammengeb.) |
+| 574 | 2 | 1140/1141 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.46.jpg` | [[16-gebaeudedimensionen]] (Terrassenhaus § 77) |
+| 575 | 2 | 1142/1143 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.47.jpg` | [[16-gebaeudedimensionen]] (Voll-/Dach-/Untergeschoss) |
+| 576 | 2 | 1144/1145 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.49.jpg` | [[16-gebaeudedimensionen]] (UG ueber Terrain, § 293) |
+| 577 | 2 | 1146/1147 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.50.jpg` | [[16-gebaeudedimensionen]] (Geschosszahl-Ersatz § 276 II) |
+| 578 | 2 | 1148/1149 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.52.jpg` | [[16-gebaeudedimensionen]] (Kniestock Begriff/Messweise) |
+| 579 | 2 | 1150/1151 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.53.jpg` | [[16-gebaeudedimensionen]] (Kniestock horizontale Ebene) |
+| 580 | 2 | 1152/1153 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.55.jpg` | [[16-gebaeudedimensionen]] (auskragendes Dachgeschoss) |
 | 581 | 2 | ~1156 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.56.jpg` |  |
 | 582 | 2 | ~1158 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.58.jpg` |  |
 | 583 | 2 | ~1160 | [ ] | `Bildschirmfoto 2026-06-07 um 12.04.59.jpg` |  |

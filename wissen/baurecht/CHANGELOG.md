@@ -4,6 +4,12 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-10
+- [distill] **Buch-Training Run 2** — Kap. 16 «Gebaeudedimensionen», Teil 1 (Geschosse + Kniestock). Neues Destillat [[16-gebaeudedimensionen]] (`emerging`) aus 10 Doppelseiten (Shots 571-580, S. 1135-1153): Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit zur Geschosszahl (§ 276 PBG), Galerie/zusammengebaute/terrassierte Bauten, Terrassenhaus (§ 77 PBG), Geschosszahl-Ersatz (§ 276 Abs. 2), **Kniestock** (0,9 m / Bestand 1,3 m vor 1.7.1978, Messweise 0,4 m hinter Fassade, auskragendes Dachgeschoss BEZ 1997 Nr. 7). Total ~30/780 Doppelseiten.
+- [article] Neuer Wiki-Artikel [[geschosse-und-kniestock]] (`emerging`) — Geschossarten, Anrechenbarkeit, Kniestock-Tabelle (Neubau 0,9 m / Bestand 1,3 m) + Messweise; Backlinks auf [[nutzungsziffern]], [[abstaende-und-hoehen]], [[bestandsumbau-eingriffstiefe]]. INDEX (8 Artikel) + neuer Abschnitt «Gebaeudedimensionen».
+- [drill] 6 neue Q/A-Karten Kap. 16 in `training/drills.md` (Modell C); **Fall-Nachrechnung Kniestock** (Modell B + Gegenprobe D): Dachausbau 1,15 m, Bewilligung 1969 → Dachgeschoss bleibt (1,3-m-Erleichterung); als Ersatzneubau → Vollgeschoss. Report `outputs/2026-06-10_buch-run2.md`.
+- [register] `buecher/seiten-inventar.md` (Shots 571-580 [x] + echte Seiten), `buecher/INDEX.md` (Kap. 16 🟡), `curriculum.md` (Kap. 16 [~], naechstes Kap. 15), `training/PROGRAMM.md` Tracker, `wiki/QUESTIONS.md` (Kap.-16-Luecke Hoehen/Dach + § 19 BBV II + § 293 PBG).
+
 ## 2026-06-09
 - [distill] **Buch-Training Run 1** — Kap. 14 abgeschlossen. Destillat [[14-nutzungsdichte-ausnuetzung]] vom Ausnuetzung-Kern auf das gesamte Kapitel erweitert (Shots 464-471, 494, 496, 498 = 11 Doppelseiten, S. 920-989): massgebliche Grundstuecksflaeche im Detail (§ 259 PBG: Wald/Gewaesser/Strassen/Fusswege/Bahn), **Ausnuetzungsuebertragung** (§ 72 Abs. 3 PBG, Revers im Grundbuch, BO-Erlenbach-Schranke 1/5), erhoehte Ziffern/Gewerbebonus (§ 49a), Nutzungsart/Immissionen (§ 51/52/57), Wohnanteil (Healthcare ausserhalb), Harmonisierungsvorlage/IVHB. Total 20/780 Doppelseiten distilliert; Abdeckung Kap. 14 → 🟢.
 - [article] Neuer Wiki-Artikel [[ausnuetzungsuebertragung]] (`emerging`): gleiche Zone (§ 72 Abs. 3 PBG), raeumliche Naehe, Ausnuetzungsrevers im Grundbuch (Art. 646 ZGB), kommunaler Daumenwert max. 1/5 der Grundausnuetzung (Art. 40 BO Erlenbach). INDEX + Statistik (7 Artikel) nachgefuehrt.

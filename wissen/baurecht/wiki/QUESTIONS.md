@@ -32,6 +32,14 @@ wurden.
 - **§ 10 ABV** (Liste anrechenbarer Wohn-/Arbeitsräume) und **§ 13 ABV** noch nicht im
   Detail distilliert.
 
+## Offene Wissenslücken — neu (2026-06-10, aus Buch-Run Kap. 16 Teil 1)
+- **Gebäude-/Firsthöhe** (Kap. 16 Teil 2): Messweise Gebäudehöhe, Firsthöhe, Mehrhöhen, Attika,
+  Dachgestaltung/Dachaufbauten/Lukarnen, Terrainveränderung — noch nicht distilliert (Shots ab 581,
+  S. 1154 ff.). Ergänzt dann [[abstaende-und-hoehen]] und [[geschosse-und-kniestock]].
+- **§ 19 BBV II** (Liftbauten-/Hindernisfrei-Erleichterung für Altbauten): die vier
+  Voraussetzungen nur kursorisch erfasst — am amtlichen Volltext (BBV II) verifizieren.
+- **§ 293 PBG** (Freilegung von Untergeschossen): kommunale Konkretisierung in der BZO offen.
+
 ## Beantwortete Fragen / Korrekturen (Archiv)
 - **2026-06-09 (Gegenprobe, Modell D):** [[nutzungsziffern]] nannte für die
   **Freiflächenziffer** fälschlich § 259 PBG — § 259 regelt die *massgebliche

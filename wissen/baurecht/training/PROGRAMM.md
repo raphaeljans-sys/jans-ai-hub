@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -88,14 +88,15 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 ## Fortschritts-Tracker
 
 - **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07.
-- **Seiten distilliert:** ~40 / 1550 (20 Doppelseiten; Kap. 14 weitgehend).
-- **Kapitel-Destillate:** 1 (Kap. 14, `emerging` — Ausnuetzung, massgebl. Grundstuecks-
-  flaeche, Ausnuetzungsuebertragung, erhoehte Ziffern, Nutzungsart, Wohnanteil, IVHB).
-- **Wiki:** 7 Artikel (+ [[ausnuetzungsuebertragung]] 2026-06-09; [[nutzungsziffern]]
-  korrigiert: Freiflaechenziffer § 257 statt § 259, GFZ in ZH nicht verfuegbar).
-- **Letzter Lauf:** Run 1, 2026-06-09 — Kap. 14 abgeschlossen (Shots 464-471, 494, 496, 498).
-- **Naechster Lauf:** **Kap. 16** Gebaeudedimensionen (Gebaeude-/Firsthoehe, Vollgeschoss,
-  Dachgestaltung, Dachaufbauten/Lukarnen, Kniestock) — Shots ~570-590.
+- **Seiten distilliert:** ~60 / 1550 (30 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1).
+- **Kapitel-Destillate:** 2 (Kap. 14 `emerging`; Kap. 16 `emerging` — Geschosse + Kniestock).
+- **Wiki:** 8 Artikel (+ [[geschosse-und-kniestock]] 2026-06-10).
+- **Letzter Lauf:** Run 2, 2026-06-10 — Kap. 16 Teil 1 (Geschosse + Kniestock, Shots 571-580,
+  S. 1135-1153); Destillat [[16-gebaeudedimensionen]], Fall-Nachrechnung Kniestock (Modell B/D).
+- **Naechster Lauf:** **Kap. 15** Lage von Gebaeuden (Grenz-/Gebaeude-/Strassen-/Gewaesser-/
+  Waldabstand, Baulinien) — Shots ~500-560. *(Danach Kap. 16 Teil 2 Hoehen/Dach, Shots ab 581.)*
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
+- **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung
+  (Shots ab 581, S. 1154 ff.).
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).
