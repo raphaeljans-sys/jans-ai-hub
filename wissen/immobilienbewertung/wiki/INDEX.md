@@ -14,7 +14,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 ## Grundlagen & Daten
 
 - [[flaechendefinitionen-sia]] — SIA 416 Flaechenbegriffe (aGF/BGF/HNF…) · *established*
-- [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil · *speculative*
+- [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil (LK-Schluessel + Tab. 8) · *established*
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
 - [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention · *established*
 
@@ -28,7 +28,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 - [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *emerging*
 - [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck · *emerging*
-- [[erfolgsfaktoren-wettbewerb]] — Markttauglichkeit, Kosten vs. Qualitaet · *emerging*
+- [[erfolgsfaktoren-wettbewerb]] — 6 DXMA-Erfolgsfaktoren, Aufwertungsgewinn, A4-Bewertungsblatt · *established*
 
 ## Pflege
 

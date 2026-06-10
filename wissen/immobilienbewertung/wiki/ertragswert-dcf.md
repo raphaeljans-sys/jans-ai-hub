@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-06-09
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert]
+last_updated: 2026-06-10
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 21/23 Kapitalisierungssatz), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]]
 ---
 
@@ -30,6 +30,24 @@ Ertragswert  =  Nettomietertrag p.a.  /  Kapitalisierungssatz
 - **Anfangsrendite** (S. 208): Kaufpreis = Nettomietertrag im 1. Jahr / Nettorendite;
   umgekehrt Nettorendite = Nettomietertrag 1. Jahr / Kaufpreis. Bruttorendite = Soll-
   Mietertrag ohne Abzuege (ohne NK) / Kaufpreis (S. 57).
+
+#### Aufbau des Kapitalisierungssatzes (Schaetzungsanleitung Kap. 5, Tab. 21/23)
+
+Der Kapitalisierungssatz = **Basiszinssatz** (gewichteter 5-Jahres-Durchschnitt der variablen
+ersten Hypotheken der Kantonalbank) **+ Zuschlaege fuer die Bewirtschaftungskosten**. Die
+Zuschlaege steigen mit wirtschaftlichem Alter/Abnuetzungsgrad. Komponenten (Tab. 21, MFH):
+- **B/U/V** = Betriebs-, Unterhalts-, Verwaltungskosten; **A** = Abschreibung/Rueckstellung
+  fuer Instandsetzung; **R** = Risiko fuer Mietzins.
+
+Richtwerte MFH massiv (Summe B/U/V + A + R, je nach Alter bis 10 / bis 30 / bis 60 / aelter):
+- bis 6 Whg.: ~**0.7-2.4 %** (jung → alt); bis 15 Whg.: ~0.8-2.6 %; ueber 15 Whg.: 0.9-2.6 %.
+- Leicht/gemischte Bauweise liegt hoeher (mehr Unterhalt), Geschaeft/Gewerbe hoeher als Wohnen
+  (Tab. 21: Gewerbe massiv ~2.0-3.0 %). EFH siehe Tab. 23 (nach Bauart/Qualitaet/Alter).
+
+Diese Zuschlaege erklaeren, warum aeltere/unterhaltsintensive Objekte mit hoeherem
+Kapitalisierungssatz (= tieferem Ertragswert) gerechnet werden. ⚠ Basiszinssatz an die
+Kantonalbank gebunden → bei Anwendung aktuellen Stand pruefen (Marktpuls T10); fuer
+marktorientierte Bewertungen den **Diskontsatz** (unten, WP-Anker) fuehren.
 
 ### 2. DCF (Discounted Cash Flow)
 ```

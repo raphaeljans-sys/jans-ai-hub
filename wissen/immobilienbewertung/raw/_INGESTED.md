@@ -11,11 +11,11 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | Quelle | Pfad (ab IMMO) | Typ | Stand | Status | Ziel-Artikel |
 |---|---|---|---|---|---|
 | Wuest-Kurs "Immobilien entwickeln" | `03 KNOW-HOW/05 Residualwert/Folien WuestPartner/Immo_02_P23D_Praesentation_Nextcloud.pdf` (236 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-236, Training-Run 1 am 2026-06-09; Modul 4 = nur Titelblatt, Inhalt im DXMA-PDF) | residualwertmethode, ertragswert-dcf, realwert-sachwert, nutzungskonzepte, investorenmarkt-makro, vergleichswert-hedonisch, bewertungsverfahren-ueberblick |
-| DXMA Erfolgsfaktoren | `03 KNOW-HOW/05 Residualwert/Folien DXMA/Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf` | PDF | 06.2023 | offen — **naechste Prioritaet** (enthaelt das komplette Kursmodul 4) | erfolgsfaktoren-wettbewerb |
+| DXMA Erfolgsfaktoren | `03 KNOW-HOW/05 Residualwert/Folien DXMA/Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf` (37 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-37, Training-Run 2 am 2026-06-10): 6 Faktoren, Aufwertungsgewinn-Prinzip + 10 Referenzfaelle, AZ-Optimierungsformel, A4-Bewertungsblatt | erfolgsfaktoren-wettbewerb, nutzungskonzepte, residualwertmethode |
 | Pre-Check-Tool Wuest | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/wp/Immo-02-P23D-Pre-Check_Tool_WuestPartner.xlsx` | XLSX | 2023 | offen | residualwertmethode |
 | Residualwert-Tool JANS | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Residualwert_Projektbewertung.xlsx` | XLSX | 2024 | offen | residualwertmethode, ertragswert-dcf |
 | Kursnotizen (handschriftlich) | `03 KNOW-HOW/05 Residualwert/Kursnotizen/IMG_7064-7067.jpeg` | Foto | 06.2023 | offen | residualwertmethode |
-| Schaetzungsanleitung Kap. 5 | `03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` | PDF | — | teilweise | realwert-sachwert, lageklasse-landwertanteil |
+| Schaetzungsanleitung Kap. 5 | `03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` (41 S.) | PDF | Stand 2003 | **eingearbeitet** (Tab. 2 Neuwert m3, Tab. 3 BKP-Anteile, Tab. 6/7 LK-Schluessel, Tab. 8 Landwertanteil, Tab. 9-11 Lebensdauer/Alter/Wertminderung, Tab. 21-23 Kapitalisierung/Gewichtung; Run 2 am 2026-06-10). Offen: Korrekturfaktoren Miete (Tab. 14/15), Gastgewerbe-Tab. 25-28, Beispiele | realwert-sachwert, lageklasse-landwertanteil, ertragswert-dcf, bewertungsverfahren-ueberblick |
 | Hedonik-Beispielreport | `03 KNOW-HOW/05 Hedonistische_Berechnungsweise/Standortinformation_Beispiel_Report.pdf` | PDF | — | offen | vergleichswert-hedonisch |
 | Abzinsung/Diskontierung | `03 KNOW-HOW/03 Abzinsung/Disskontierung/` | docx+png | 2023 | teilweise | ertragswert-dcf |
 | Flaechenbezeichnung SIA | `03 KNOW-HOW/07 FLÄCHENBEZEICHNUNG/sia/` | div. | — | teilweise | flaechendefinitionen-sia |

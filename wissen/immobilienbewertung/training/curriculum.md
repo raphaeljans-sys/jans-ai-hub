@@ -40,9 +40,9 @@ Prioritaet**. Der Hauptfoliensatz (236 S.) ist damit vollstaendig eingearbeitet.
 
 | Lekt. | Quelle | Thema | Ziel-Artikel | Status |
 |---|---|---|---|---|
-| E1 | DXMA-Folien Erfolgsfaktoren | Erfolgsfaktoren-Detail (= komplettes Modul 4!) | erfolgsfaktoren-wettbewerb | offen — **naechste Prioritaet** |
-| E2 | Pre-Check-/Residualwert-XLSX (mit Freigabe) | Formel-Logik Tool | residualwertmethode, ertragswert-dcf | offen |
-| E3 | schaetzungsanleitung_kap5.pdf | LK-Tabelle, Neuwert-Richtwerte, Abbruch | lageklasse-landwertanteil, realwert-sachwert | offen |
+| E1 | DXMA-Folien Erfolgsfaktoren | Erfolgsfaktoren-Detail (= komplettes Modul 4!) | erfolgsfaktoren-wettbewerb | ✓ 2026-06-10 (Run 2, 37 S.) |
+| E2 | Pre-Check-/Residualwert-XLSX (mit Freigabe) | Formel-Logik Tool | residualwertmethode, ertragswert-dcf | offen (Freigabe D4) |
+| E3 | schaetzungsanleitung_kap5.pdf | LK-Tabelle, Neuwert-Richtwerte, Abbruch | lageklasse-landwertanteil, realwert-sachwert | ✓ 2026-06-10 (Run 2; Tab. 2/3/6/7/8/9/10/11/21/22/23). Rest offen: Tab. 14/15 Mietkorrektur, Tab. 25-28 Gastgewerbe |
 | E4 | Hedonik-Standortreport + UBS-FS | Hedonik-Methodik, Quantile je Gemeinde | vergleichswert-hedonisch | offen |
 | E5 | IMMO-06 Kennwerte (DOCX, mit Freigabe) | Flaechen-/Kostenfaktoren Wohnen/Healthcare | flaechendefinitionen-sia, realwert-sachwert | offen |
 | E6 | IMMO-01 reale LB/RW/MA-Faelle | Referenz-Benchmarks | projektstruktur-deliverables | offen |

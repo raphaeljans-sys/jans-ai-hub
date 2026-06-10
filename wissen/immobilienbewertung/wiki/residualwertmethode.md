@@ -1,8 +1,8 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-06-09
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Residualwert (Pre-Check-Tool, Residualwert-Tool JANS), IMMO-01 RW Residualwert-Projekte]
+last_updated: 2026-06-10
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert (Pre-Check-Tool, Residualwert-Tool JANS), IMMO-01 RW Residualwert-Projekte]
 links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]]
 ---
 
@@ -144,6 +144,42 @@ Fuer **rechnerische Machbarkeitsstudien ohne Grundrisse**: Ausnuetzungsberechnun
 Planungsziffern (AZ, GFZ, UeZ, BMZ oder Gebaeudegrundflaeche GGF), Wohnungsmix-Tool,
 Flaecheneffizienz HNF/GF, Baukostenschaetzung via Benchmarks/Skaleneffekte, Residualwert-/
 Landwertschaetzung. Anwendung lizenzpflichtig (WP).
+
+## DXMA-Marktwertschaetzung auf einem A4-Blatt (DXMA-Folien S. 34/35)
+
+N. Lehmann/DXMA verdichtet die ganze Residualwert-/Landwertrechnung auf **ein A4-Blatt** mit
+fuenf Bloecken — die kompakteste belegte Operationalisierung des Rechenschemas. Annahmen
+stehen in editierbaren «grauen Feldern». Belegtes Rechenbeispiel (Neubau, Wohnzone 3):
+
+**1. Flaechengeruest Neubau:** Grundstueck 900 m2 × AZ 90 % = 810 aGF; 3 Vollgeschosse
++ 0.6 DG → **Geschossflaeche 1'050 m2**; HNF-Effizienz 77 % → **HNF 808 m2**; 4 Parkplaetze.
+
+**2. Ertragspotenzial** (zwei Verwertungswege parallel):
+- *Miete:* ME Wohnen 400 CHF/m2/J → 323'000 p.a.; Parking 140 CHF/EP/Mt. → 7'000;
+  kapitalisiert mit **2.50 %** → **Ertragswert Miete 13'200'000**.
+- *STWE-Verkauf:* Kaufpreis Wohnen 16'500 CHF/m2 → 13'330'000; Parking 25'000/PP → 100'000
+  → **Ertragswert STWE 13'430'000** (Mietzinsen/Preise via GeoInfo-Quantile Q70/Q90, 500 m).
+
+**3. Investitionskosten:**
+- BKP 2: 4'000 CHF/m2 → 3'230'000; **BKP 1-5 = 80 %** Aufschlag → 4'040'000
+  (entspricht ~**1'000 CHF/m3** inkl. Untergeschoss).
+- Risiko 10 % → 400'000; **PE-Kosten 20 %** (Makler, Bauherrentreuhand, Vermarktung) →
+  800'000; Finanzierung 5 % → 200'000 (Landkauf 3.6 Mio @ 1 % / 4 J. = 144'000; Baukosten
+  5.24 Mio @ 1 % / 2 J. = 52'000). **Total Investition 5'440'000**.
+
+**4. Marktwert/Landwert (Residuum):** Ertragswert − Investitionskosten →
+**Landwert STWE 7'990'000**, **Landwert Mietobjekt 8'030'000** (mit −5 % Abschlag Baukosten).
+
+**5. Eigenkapitalrendite:** Kaufpreis 5'700'000; Fremdkapital 60 % = 3'600'000; Eigenkapital
+inkl. Working Capital 40 % = 2'400'000 (WC 300'000). Entwicklungsgewinn (Landwert − Kaufpreis)
+≈ **EK-Rendite Miete 99 %** (2'380'000 = 25 %/Jahr bzw. 595'000 p.a.), **STWE 98 %**
+(2'340'000 = 24 %/Jahr). Annahmen: Planung 2 J. + Bauzeit 2 J. (total 4 J.), 2 × CHF 24'000
+Zwischenmietertrag; **Grundstueckgewinnsteuer nicht beruecksichtigt**.
+
+Lesart: Das Blatt rechnet vom Endwert (Block 2) rueckwaerts auf den zahlbaren Landwert
+(Block 4) und prueft ueber die EK-Rendite (Block 5), ob der geforderte Kaufpreis Marge laesst.
+Es ist die schlanke, praesentierbare Schwester des Excel-Tools — ideal fuer den
+Erstcheck/Off-Market-Deal. Einordnung in die sechs Faktoren: [[erfolgsfaktoren-wettbewerb]].
 
 ## Lehrstueck: hoeherer Ertrag ≠ hoeherer Landwert (S. 153-155)
 

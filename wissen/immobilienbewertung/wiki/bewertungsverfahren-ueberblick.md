@@ -1,8 +1,8 @@
 ---
 title: Bewertungsverfahren — Ueberblick und Wahl
 status: established
-last_updated: 2026-06-09
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (inkl. Marktwert-Definition S. 56 nach Schaetzerhandbuch SVKG/SEK/SVIT 2012), IMMO-01 BEWERTUNG PROJEKTE (LB/RW/MA), SIA 416]
+last_updated: 2026-06-10
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (inkl. Marktwert-Definition S. 56 nach Schaetzerhandbuch SVKG/SEK/SVIT 2012), Schaetzungsanleitung Kap. 5 (Tab. 22 Ertragswertgewichtung), IMMO-01 BEWERTUNG PROJEKTE (LB/RW/MA), SIA 416]
 links: [[residualwertmethode]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[projektstruktur-deliverables]]
 ---
 
@@ -68,7 +68,31 @@ Der **Marktwert (Verkehrswert)** ist das gewichtete Resultat aus den anwendbaren
 - **Projektentwicklung/Ankauf:** Residualwert bestimmt den zahlbaren Landwert.
 
 Die konkrete Gewichtung ist Expert-Judgement und muss im Gutachten **begruendet** werden.
-→ Gewichtungs-Regeln je Objekttyp sind noch zu schaerfen: siehe `wiki/wissensluecken.md`.
+
+### Realwert-/Ertragswert-Gewichtung je Objektart (Schaetzungsanleitung Kap. 5, Tab. 22)
+
+Der Marktwert aus der **Mittelwertmethode** gewichtet Realwert und Ertragswert; der
+Ertragswert wird je Objektart staerker gewichtet, je renditegetriebener das Objekt ist
+(Gewichtungskoeffizient — hoeher = Ertragswert dominiert):
+
+| Objektart | Gewichtungskoeffizient (Ertragswert) |
+|---|---|
+| Ein- und Zweifamilienhaeuser | 0.0 - 0.5 |
+| Drei- und Vierfamilienhaeuser | 0.3 - 1.0 |
+| Fuenf- und Sechsfamilienhaeuser | 1.0 - 2.0 |
+| MFH mit mehr als 6 Wohnungen | 1.5 - 3.0 |
+| Geschaeftshaeuser | 1.0 - 4.0 |
+| Gewerbebauten | 1.0 - 2.0 |
+| Restaurationsbetriebe | 1.0 - 5.0 |
+| Hotellerie / Gasthaeuser | 1.0 - 5.0 |
+| Bauernhaeuser (Wohnhaus mit Scheune) | 0.5 - 2.0 |
+
+Lesart: Marktwert = (Realwert × 1 + Ertragswert × Koeffizient) / (1 + Koeffizient). Bei EFH
+zaehlt der Realwert/Vergleichswert fast voll (Koeffizient ~0), bei einem MFH >6 Whg. oder
+Geschaeftshaus dominiert der Ertragswert (3-4×). Fuer steueramtliche Schaetzungen gilt
+mindestens Koeffizient **3.0** fuer MFH und Geschaeftshaeuser (§ 14 Abs. 3 SchaetzV).
+⚠ Methode der amtlichen Schaetzung; fuer Markt-/Verkehrswerte primaer Ertrags- bzw.
+Vergleichswert fuehren, die Gewichtung als Plausibilisierung nutzen.
 
 ## Abgrenzung zu Nachbar-Skills
 

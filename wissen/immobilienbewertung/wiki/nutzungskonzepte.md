@@ -1,8 +1,8 @@
 ---
 title: Nutzungskonzepte — Mehrwert durch Positionierung
 status: established
-last_updated: 2026-06-09
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 2 Nutzungskonzeption, M. Waeckerlin; S. 73-161 vollstaendig eingearbeitet)]
+last_updated: 2026-06-10
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 2 Nutzungskonzeption, M. Waeckerlin; S. 73-161 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Nutzungskonzeption S. 17-26)]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[investorenmarkt-makro]], [[erfolgsfaktoren-wettbewerb]], [[vergleichswert-hedonisch]]
 ---
 
@@ -102,6 +102,38 @@ Zukunftsinstitut Frankfurt).
 - **Regensdorf Bahnhof Nord «BLOOM»** (S. 147-150): Gebaeudetypen Mehr-Generationen-
   Wohnen, Atelier-Wohnungen, Kuenstlerhaus, Plug&Live-Gewerbehaus, selbstbestimmtes
   Wohneigentum, Jokerzimmer/Gemeinschaftsflaechen.
+
+## DXMA-Fallbeispiele Nutzungskonzeption (Modul 4, DXMA-Folien S. 17-26)
+
+N. Lehmann/DXMA zeigt die Nutzungskonzeption als zweiten der sechs
+[[erfolgsfaktoren-wettbewerb|Erfolgsfaktoren]] — jeweils mit einem klaren Alleinstellungs-
+merkmal, das den m2-Ertrag hebt oder das Volumen besser ausnutzt:
+
+- **MinMax, Glattpark-Opfikon** (S. 17): Kleinstwohnungen (40 m2) + Clusterwohnungen
+  (<180 m2); jede Einheit mit 8 m2 Wintergarten (+20 % Wohnflaeche) und ≥3.10 m lichter
+  Raumhoehe. Wirtschaftlichkeit: hoher m2-Ertrag trotz bezahlbarer Monatsmiete (~CHF 1'250).
+- **Ueber-Gaerten, Zuerich** (S. 18, RobertNeun/Penzel Valier) — **volumenbasiertes Wohnen**:
+  kein fixes Raumprogramm, nur Flaechenbandbreiten; «anrechenbare Geschossflaeche» ueber das
+  **Raumvolumen** bei Ø 3.10 m lichter Hoehe definiert (Annahme +10-15 % Baukosten); +20 %
+  der HNF als privater Aussenraum. Volumen-Raster: 125 m3 → 1.5-2.5 Zi/40 m2 HNF;
+  165 m3 → 2.5-3.5 Zi/60 m2; 230 m3 → 75 m2; 260 m3 → 3.5-4.5 Zi/90 m2 (gleiches Netto-
+  volumen 185 m3 wahlweise 3.1 m/60 m2 oder 3.4 m/55 m2).
+- **Tiny Houses, Zollikerberg** (S. 20/21, Steib Gmuer Geschwentner Kyburz): Wohnen wie im
+  EFH 10 Min. vom Zentrum; keine Treppenhaeuser, Zugang ueber eigenen Garten; bessere
+  Verteilung der Gebaeudemassen → **mehr HNF pro Gebaeudevolumen**.
+- **Performatives Haus, Zuerich** (S. 22/23): flexible Moeblierung/Klappmoebel als
+  Alleinstellungsmerkmal kleiner Einheiten.
+- **Baslerstrasse, Zuerich** (S. 24) — **«RRR + RRR» (Roh, Rau, Robust + Reduce, Reuse,
+  Recycle)**: bestehendes Ausnuetzungspotenzial, fast die ganze Gebaeudestruktur bleibt
+  erhalten, hochflexible Grundrisse; echte Wohn-Lofts 40-240 m2, Tiefpreisstrategie
+  (Verkaufspreise ab 30%-Quantil). Dossierpreis 10.0 Mio, Kauf <9.0 Mio,
+  Marktwert >13.0 Mio → **+52 % Aufwertung**.
+- **Gotthardstrasse, Zuerich** (S. 25/26, Nater/Kretz): modulares Umbaukonzept im
+  denkmalgeschuetzten Bestand mit 2/3/4 Wohnungen pro Geschoss — kurzfristige Anpassungen
+  ohne strukturelle Eingriffe.
+
+Gemeinsamer Nenner mit dem WP-Positionierungskreislauf (oben): das Konzept differenziert,
+robust gegenueber Marktschwankungen und maximiert Ertrag oder Volumenausnutzung.
 
 ## Bewertungsrelevanz
 

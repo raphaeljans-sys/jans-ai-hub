@@ -22,18 +22,26 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T4 | DXMA-Erfolgsfaktoren (= komplettes Kursmodul 4; im Hauptsatz nur Titelblatt) | DXMA-PDF | [[erfolgsfaktoren-wettbewerb]] |
-| T5 | LK→Landwertanteil-Tabelle sauber extrahieren | `schaetzungsanleitung_kap5.pdf` | [[lageklasse-landwertanteil]] |
-| T6 | Neuwert-Kennwerte je Nutzung/Standard belegen | Schaetzungsanleitung, IMMO-06 | [[realwert-sachwert]] |
 | T7 | Hedonik-Methodik + UBS-FS-Quantile je Gemeinde extrahieren | IMMO-02, Standortreport | [[vergleichswert-hedonisch]] |
 | T8 | Flaechenfaktoren Wohnen (aGF/BGF/HNF) belegen | Flaechenkonzeption Wohnen | [[flaechendefinitionen-sia]] |
 | T9 | Reale JANS-Projektfaelle als Referenz-Benchmarks erfassen | IMMO-01 LB/RW/MA | [[projektstruktur-deliverables]] |
 | T10 | Marktpuls Zins/Mietzins/Referenzzinssatz (laufend, mit Stand) | Web + Wuest | [[investorenmarkt-makro]] |
-| T11 | Gewichtungs-Regeln Marktwert je Objekttyp schaerfen | Praxis + Literatur | [[bewertungsverfahren-ueberblick]] |
-| T12 | Alterswertminderungs-Methode + Restnutzungsdauern | Literatur/SIA | [[realwert-sachwert]] |
+| T13 | Mietwert-Korrekturfaktoren (Tab. 14/15) + Gastgewerbe-Bewertung (Tab. 25-28) | `schaetzungsanleitung_kap5.pdf` | [[ertragswert-dcf]], [[vergleichswert-hedonisch]] |
 
 ## Erledigt
 
+- ✓ 2026-06-10 **T4** DXMA-Erfolgsfaktoren (komplettes Modul 4, 37 S.) eingearbeitet:
+  6 Faktoren, Aufwertungsgewinn + 10 Referenzfaelle, AZ-Optimierungsformel, A4-Bewertungsblatt
+  → [[erfolgsfaktoren-wettbewerb]], [[nutzungskonzepte]], [[residualwertmethode]] (Run 2).
+- ✓ 2026-06-10 **T5** LK→Landwertanteil-Tabelle (Tab. 8) + Lageklassenschluessel Wohnen/
+  Gewerbe (Tab. 6/7) belegt; Artikel speculative → established → [[lageklasse-landwertanteil]].
+- ✓ 2026-06-10 **T6 (vollstaendig)** CHF/m3-Neuwert-Richtwerte (Tab. 2) + BKP-Anteile (Tab. 3)
+  ergaenzt → [[realwert-sachwert]] (⚠ m3-Werte Stand 2003, aufzuindexieren).
+- ✓ 2026-06-10 **T11** Realwert-/Ertragswert-Gewichtung je Objektart (Tab. 22, Mittelwert-
+  methode) belegt → [[bewertungsverfahren-ueberblick]]; Kapitalisierungssatz-Aufbau
+  (B/U/V/A/R, Tab. 21/23) → [[ertragswert-dcf]].
+- ✓ 2026-06-10 **T12** Alterswertminderung (Lebensdauer Tab. 9, wirtschaftliches Alter
+  Tab. 10, Wertminderung Tab. 11) belegt → [[realwert-sachwert]].
 - ✓ 2026-06-09 **T1** Wuest-Kurs Modul 1 (Projektbewertung/Landwert, S. 13-72) vollstaendig
   eingearbeitet → [[residualwertmethode]], [[ertragswert-dcf]] (Training-Run 1).
 - ✓ 2026-06-09 **T2** Wuest-Kurs Modul 2 (Nutzungskonzeption, S. 73-161) vollstaendig
