@@ -1,9 +1,9 @@
 ---
 title: Heizleistung & Waermeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-06-08
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]]
+last_updated: 2026-06-10
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
 # Heizleistung & Waermeerzeuger-Dimensionierung
@@ -51,8 +51,16 @@ allein laesst sich die Leistung **nicht** genau ableiten — sie wird ueber die 
 - **Huelle zuerst:** bessere Daemmung → kleinere Leistung → guenstigerer Erzeuger; bei WP zudem
   tiefere Vorlauftemperatur → hoehere Jahresarbeitszahl.
 
+## Heizungsersatz im Kt. ZH — Verfahren & Beilagen (Bewilligung)
+Der Erzeuger-Ersatz ist meldepflichtig (**Gesuch-/Meldeformular waermetechnische Anlagen**, beim
+Gemeindebauamt). Beilagen je Quelle: **Luft-WP → Laermschutznachweis LN-1a**; **Erdsonde/Grundwasser
+→ AWEL-Gewaesserschutzgesuch**; **Fernwaerme → Waermetauscher-Meldung**; **Neubau → immer EN-103**.
+Energierecht: **fossil im Neubau verboten (§ 10a EnerG)**, im Bestand nur mit **EN-LCC-ZH + EN-120**;
+neue Heizflaechen auf **max. 35 °C Vorlauf** (§ 23 BBV I) — die Bedingung fuer eine effiziente WP.
+Details → `[[wta-formular-zh-waermetechnische-anlagen]]` / FAQ F14. ⚠ seit 1.1.2026 Vollzug ueber EVEN.
+
 ## Bezug
-- FAQ: `[[BAUHERREN-FAQ]]` F13 (+ F6 Systemwahl offen). Quelle: `[[bfe-waermeerzeugerleistung-2015]]`.
+- FAQ: `[[BAUHERREN-FAQ]]` F13 + F14 (Ersatzverfahren); F6 Systemwahl offen. Quelle: `[[bfe-waermeerzeugerleistung-2015]]`.
 - Heizwaermebedarf (≠ Leistung): `[[sia-380-1-heizwaermebedarf-berechnung]]`,
   Standardnutzung/Warmwasser `[[sia-380-1-standardnutzungswerte-tab24-25]]`.
 - Heizsystem-Wahl/Heizverbot → Skill `baurecht`; Foerderung → `[[foerderung-energie-zh]]`.

@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: emerging
 last_updated: 2026-06-09
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md]
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md]
 links: [[INDEX]]
 ---
 
@@ -276,9 +276,70 @@ Themenartikel → `[[sommerlicher-waermeschutz]]`.
 
 ---
 
+## F14 — «Ich will meine Heizung ersetzen — was muss ich einreichen, und ist eine fossile noch erlaubt?»
+
+**Kurz:** Jeder Heizungsersatz im Kt. ZH wird mit dem **Gesuch-/Meldeformular waermetechnische
+Anlagen** beim **Gemeindebauamt** angemeldet. Eine **fossile Heizung ist im Neubau verboten** und
+im Bestand nur mit Wirtschaftlichkeitsnachweis (EN-LCC-ZH + EN-120) bewilligungsfaehig — praktisch
+fuehrt der Weg auf **Waermepumpe oder Fernwaerme**. **Welche Beilagen** Du brauchst, haengt an der
+Waermequelle.
+
+**Fachlich:** Das Formular (Ausgabe 01-2024) steuert drei Verfahren (Melde-/Anzeige-/ordentliches
+Verfahren); eingereicht wird **immer an die Gemeinde (zHd. Bauamt)**, beteiligt sind je nach Anlage
+**Feuerpolizei, AWEL/Lufthygiene und GVZ**. Beilagen nach Waermequelle:
+
+| Neue Waermequelle | Zusaetzlich noetig |
+|---|---|
+| **Luft-Wasser-Waermepumpe** | Private Kontrolle + **Laermschutznachweis WP (LN-1a/1b)** — Nachbarschaft! |
+| **Erdsonden-/Grundwasser-WP** | **Gesuch AWEL/Gewaesserschutz** (Vorlaufzeit einplanen) |
+| **Fernwaerme-Anschluss** | Waermetauscher-Meldung — schlankster Weg |
+| **Holz (Pellets/Schnitzel)** | Feuerpolizei + Abgasanlage (Brandschutz) |
+| **Neubau (jede Heizung)** | immer **Formular EN-103** (Private Kontrolle), sonst kostenpflichtige Kontrolle |
+
+Energierecht (Kt. ZH): **§ 10a EnerG** — Neubau ohne fossile Brennstoffe; **§ 11 EnerG / EN-LCC-ZH**
+— fossiler Kessel im Bestand nur mit Lebenszykluskosten-Nachweis + Erneuerbar-Pruefung (EN-120);
+**§ 23 BBV I** — neue Heizflaechen auf max. 35 °C Vorlauf auslegen (genau die Bedingung fuer eine
+effiziente Waermepumpe). Tipp: **zuerst Foerdergesuch, dann bauen** (vgl. F7).
+
+**Quelle:** Kanton ZH, Gesuch-/Meldeformular waermetechnische Anlagen, Version 01-2024 →
+`[[wta-formular-zh-waermetechnische-anlagen]]`; Dimensionierung → `[[heizleistung-und-waermeerzeuger]]`.
+⚠ **Datenstand 2026-06-10:** seit 1.1.2026 elektronischer Vollzug **EVEN** (`energievollzug.ch`) —
+Einreichweg vor der Eingabe pruefen. Heizverbot/Energierecht → Skill `baurecht`; WP-Systemvergleich
+(JAZ) noch offen (F6).
+
+---
+
+## F9 — «Wie sehr zaehlt die graue Energie / das CO₂ im Material — und ab wann ist Sanieren besser als Neubau?»
+
+**Kurz:** Die **graue Energie** (Herstellung + Bau) macht ueber 50 Jahre nur rund **20 % (guter
+Standard) bis 30 % (Minergie)** der Betriebsenergie aus. **Spar deshalb nie an der Daemmung, um
+graue Energie zu sparen** — Mehraufwand in der Huelle zahlt sich energetisch um ein Vielfaches
+zurueck. Das groesste graue-Energie-Sparpotenzial liegt in der **Tragstruktur und der Bauweise**
+(Holz statt Massiv), nicht in der Daemmstaerke.
+
+**Fachlich:** Aufteilung der grauen Energie (gut gedaemmtes Gebaeude): **Tragstruktur ~49 %
+(Massiv) / 40 % (Holz)**, Waermedaemmung+Fenster+Dichtungen 17 % / 27 %, Haustechnik ~18–20 %,
+Innenausbau 7–9 %, Baustelle 4–9 %. Absolut hat der **Holzleichtbau die tiefere graue Energie
+(~59 vs. ~74 MJ/m²·a)**. Die energierelevanten Huellbauteile sind nur ~25 % der grauen Energie,
+also ~**5–7,5 % der Totalenergie**. Ein Lehrbeispiel zeigt den Hebel: **20 MJ/m²·a mehr graue
+Energie in der Huelle koennen 180 MJ/m²·a Gesamtenergie sparen (≈ 1 : 9)**. Beim sehr guten
+Standard kehrt sich das Gewicht um — weil der Betrieb fast nichts mehr braucht, wird die graue
+Energie der dominierende Hebel. Genau dort setzt **Minergie seit 2023 mit dem Grenzwert
+THGE 11 kg CO₂/m²·a fuer die Erstellung** an. **Sanieren vor Neubau:** der Erhalt von Tragstruktur
+und Rohbau spart genau den groessten graue-Energie-Posten — ein starkes Argument fuer den Umbau,
+sofern die Substanz es zulaesst.
+
+**Quelle:** «Begriffe des Energiemanagements» (Energetische Gesamtoptimierung, S. 116) →
+`[[graue-energie-betriebsenergie]]`; THGE-Grenzwert → `[[minergie-besser-planen-bauen]]`.
+⚠ **Eigene Einordnung markiert:** die Zahlen sind Groessenordnungen aus einem Lehrmittel; fuer eine
+projektgenaue Oekobilanz gelten **KBOB-Oekobilanzdaten / SIA 2032** (noch nicht in der KB). Die
+1 : 9-Relation ist didaktisch, kein allgemeiner Faktor.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - F6 Waermepumpe vs. Fernwaerme vs. Pellets — Systemwahl (Brennwerte/Nutzungsgrade Holz/Pellet/
-  Oel/Gas jetzt belegt → `[[bfe-waermeerzeugerleistung-2015]]`; offen: WP-Vergleich/JAZ, Entscheidungsmatrix).
-- F8 Was heisst «Netto-Null»/Klimaziel konkret fuer einen Neubau/Umbau heute?
-- F9 Graue Energie / CO2 im Bauteil — ab wann ist Sanieren besser als Neubau? (Ansatz: Minergie THGE
-  11 kg CO₂/m²·a → `[[minergie-besser-planen-bauen]]`; KBOB-Bilanzierung noch offen.)
+  Oel/Gas belegt → `[[bfe-waermeerzeugerleistung-2015]]`; Verfahren/Beilagen je Quelle belegt →
+  `[[wta-formular-zh-waermetechnische-anlagen]]` / F14; **offen: WP-Vergleich JAZ/COP, Entscheidungsmatrix**).
+- F8 Was heisst «Netto-Null»/Klimaziel konkret fuer einen Neubau/Umbau heute? (Ansatz: graue
+  Energie + THGE → F9; Betriebs-CO₂ ueber Energietraeger noch offen.)
