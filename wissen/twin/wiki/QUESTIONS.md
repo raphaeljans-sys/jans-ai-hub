@@ -3,6 +3,33 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260610 (twin-fragesteller, aus Fidelity-Review 2026-06-10)
+
+Quelle: Drift-Report `outputs/2026-06-10_fidelity.md` (Gesamt-Fidelity 85; schwächste
+Facetten Beziehungsregister 78, Fachsignatur-Breite). Je in 1–2 Sätzen beantwortbar.
+
+1. **Emoji-Schwelle:** Du setzt vereinzelt ein 😊 in warmen, persönlichen Du-Mails
+   (branchenfern/Beziehungspflege). Gilt das nur für rein soziale/Dankes-Mails, oder auch
+   in warmen Du-Mails mit fachlichem Inhalt — und immer nur das Smiley 😊, nie andere
+   Emojis? *Warum: kalibriert die einzige belegte Ausnahme von der Dekorationsfreiheit, die
+   der Zwilling 260610 verfehlte.* → [[stimme]], [[haltung]]
+2. **«Beste Grüsse» vs. «Bester Gruss»:** Wann «Beste Grüsse» (Plural) und wann «Bester
+   Gruss» (Singular) — Zufall/Tagesform oder ein feiner Unterschied (z.B. Plural etwas
+   wärmer)? *Warum: schärft die neu erfasste Gruss-Mittelstufe.* → [[stimme]],
+   [[beziehungsregister]]
+3. **Anrede-Warming:** Du wechselst denselben Kontakt von «Geschätzte/r <Vorname>» zu
+   «Liebe/r <Vorname>», wenn Vertrauen wächst. Was löst den Wechsel aus — ein gutes
+   Telefonat, gegenseitige Sympathie, Anzahl Kontakte? *Warum: macht das wärmer-werdende
+   Register operationalisierbar.* → [[beziehungsregister]]
+4. **Design-Fachsäule:** Gibt es weitere Design-/Gestaltungs-Referenzen, die du gern
+   einwebst (über Noguchi-Akari und Smiljan Radić hinaus), und benennst du dich aktiv als
+   «gelernter Schreiner», wenn es zur Aufgabe passt? *Warum: verbreitert die zweite, im
+   Wiki dünn belegte Fachsäule.* → [[fachsignatur]]
+5. **Design- vs. Bau-Honorar:** Bei Objekt-/Produktdesign rechnest du die Planung als
+   weitgehend fixen Budgetposten (Entwicklungszeit ~konstant). Nutzt du dafür dieselbe
+   Honorarlogik wie im Baurecht (Tagespauschale/Phasen) oder eine eigene? *Warum: klärt,
+   wie der Zwilling Design-Aufträge bepreist.* → [[fachsignatur]], [[denken]]
+
 ## Offen — Runde 260609 (twin-fragesteller, aus Fidelity-Review 2026-06-09)
 
 Quelle: Drift-Report `outputs/2026-06-09_fidelity.md` (Gesamt-Fidelity 84; schwächste

@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-10 — Fidelity-Review (twin-chef): Gesamt 85/100
+- Selbsttest gegen 3 frische Goldproben (authentisch, vor-Claude, Sent Items rj@, Okt 2025):
+  Handelsregister-Kanzlei-Sie 2025-10-31 / warm-soziales Du (Tourismus/Design) 2025-10-09 /
+  Genossenschafts-Bauherr-Du Offert-Begleitmail 2025-10-17. Volltexte via M365
+  `read_resource`. Report: `outputs/2026-06-10_fidelity.md`.
+- Scores: Stimme 80 · Denken 88 · Haltung 88 · Beziehungsregister 78 · Fachsignatur 86 ·
+  Arbeitsweise 88.
+- Drift eingearbeitet (authentisch): Emoji-Regel präzisiert (😊 sparsam nur im warm-sozialen
+  Du, sonst nie) ([[stimme]], [[haltung]] — Spannung aufgelöst); Gruss-Mittelstufe «Beste(r)
+  Grüsse/Gruss» ([[stimme]], [[beziehungsregister]]); warm-soziales Du-Register + Anrede-
+  Warming (Geschätzte/r → Liebe/r) + «z.H. <Person>» im Betreff ([[beziehungsregister]]);
+  **zweite Fachsäule Design/Handwerk** (Schreiner-Wurzel, Noguchi/Radić, Fertigungs-/
+  Modulsystem, Material Washi) ([[fachsignatur]]); Aufwand-Schutz auch gegenüber der Behörde
+  ([[haltung]]).
+- twin-fragesteller: 5 neue Selbstfragen Runde 260610 in QUESTIONS.md (Emoji-Schwelle,
+  Beste-Grüsse-Nuance, Anrede-Warming, Design-Referenzbreite, Design-Honorarlogik).
+- Gehirn `rules/jans-dna.md` neu kompiliert (build_dna.py, 6 Facetten).
+
 ## 2026-06-10 — Korrektur-Delta: Gedankenstrich-Verbot (Dokumente + Folien)
 - Explizite Vorgabe Raphael (direkt, 10.06.2026): **kein Gedankenstrich (— / –) als
   Stilmittel** in Dokumenten und Praesentationen; nicht durch «-» ersetzen, sondern
