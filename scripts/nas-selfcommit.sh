@@ -30,6 +30,10 @@ trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 cd "$REPO" || exit 1
 
+# Synology-Indexdienst legt @eaDir-Ordner auch in .git/ ab → korrumpiert refs.
+# Jeden Lauf bereinigen (Working-Tree-@eaDir bleibt; .gitignore schliesst sie aus).
+find .git -depth -name "@eaDir" -type d -exec rm -rf {} + 2>/dev/null
+
 # Guards: nie in kaputten Zustand committen
 if [ -f .git/index.lock ]; then
     AGE=$(( $(date +%s) - $(stat -c %Y .git/index.lock 2>/dev/null || echo 0) ))
