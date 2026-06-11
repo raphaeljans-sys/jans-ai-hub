@@ -19,7 +19,7 @@
  *        --out "/pfad/A" --out "/pfad/B"                                  # OEREB ziehen + ablegen
  *   node geo-zh.mjs --egrid CH879777718909 --oereb --out "/pfad/A"        # direkt per EGRID
  *   node geo-zh.mjs --adresse "..." --json                               # maschinenlesbar
- *   node geo-zh.mjs --adresse "..." --produkt height,orthofoto,dtm,bauzonen --out "/pfad/A"
+ *   node geo-zh.mjs --adresse "..." --produkt height,orthofoto,dtm,gebaeude,punktwolke,bauzonen --out "/pfad/A"
  *
  * FLAGS:
  *   --adresse <text>          Strasse Nr Ort  (Ort hilft der Treffsicherheit)
@@ -80,7 +80,14 @@ const GEO_ADMIN = {
     + `&CRS=EPSG:2056&BBOX=${n - half},${e - half},${n + half},${e + half}`
     + `&WIDTH=1000&HEIGHT=1000&FORMAT=image/png&STYLES=`,
 };
-const STAC_COLL = { orthofoto: "ch.swisstopo.swissimage-dop10", dtm: "ch.swisstopo.swissalti3d" };
+const STAC_COLL = {
+  orthofoto:  "ch.swisstopo.swissimage-dop10",
+  dtm:        "ch.swisstopo.swissalti3d",          // Gelaendemodell (Terrain ohne Bewuchs/Bauten)
+  gebaeude:   "ch.swisstopo.swissbuildings3d_2",   // Gebaeudekuben (Kachel-DXF bevorzugt)
+  punktwolke: "ch.swisstopo.swisssurface3d",       // Oberflaechen-Punktwolke (LAZ, bei Bedarf)
+};
+// bevorzugte Datei-Endung je Produkt (stacAssets-Fallback: .tif, sonst erstes Asset)
+const STAC_PREF = { gebaeude: ".dxf.zip", punktwolke: ".laz" };
 
 async function getBuffer(url) {
   const r = await fetch(url, { headers: { "User-Agent": UA } });
@@ -89,9 +96,15 @@ async function getBuffer(url) {
 }
 
 // Hoechste Aufloesung je STAC-Item (kleinste GSD im Dateinamen *_<gsd>_2056*) bestimmen
-function stacAssets(features) {
+function stacAssets(features, prefExt) {
   return (features || []).map((f) => {
     const assets = Object.values(f.assets || {}).map((a) => a.href).filter(Boolean);
+    if (prefExt) {
+      // Produkt mit fester Format-Praeferenz (z.B. Gebaeude-Kachel-DXF, Punktwolke-LAZ);
+      // Items ohne dieses Format (z.B. Gesamt-CH-Geodatabases, GB-gross) -> best=null
+      const hit = assets.filter((h) => h.endsWith(prefExt))[0] || null;
+      return { id: f.id, best: hit, all: assets };
+    }
     const tifs = assets.filter((h) => h.endsWith(".tif"));
     const best = tifs.sort((a, b) => {
       const g = (h) => parseFloat((h.match(/_(\d+(?:\.\d+)?)_2056/) || [])[1] || "99");
@@ -237,10 +250,10 @@ function isoDate() {
               const d = await getJson(GEO_ADMIN.height(c.east, c.north));
               result.produkte.height = { m: Number(d.height), quelle: "swissALTI3D (api3.geo.admin.ch/height)" };
               L(`   height: ${d.height} m ue.M.`);
-            } else if (prod === "orthofoto" || prod === "dtm") {
+            } else if (prod === "orthofoto" || prod === "dtm" || prod === "gebaeude" || prod === "punktwolke") {
               const coll = STAC_COLL[prod];
               const fc = await getJson(GEO_ADMIN.stac(coll, c.lon, c.lat));
-              const items = stacAssets(fc.features);
+              const items = stacAssets(fc.features, STAC_PREF[prod]).filter((i) => i.best);
               result.produkte[prod] = { collection: coll, items: items.map((i) => ({ id: i.id, best: i.best })) };
               L(`   ${prod}: ${items.length} Kachel(n)/Jahrgang -> ${items.map((i) => i.id).join(", ") || "keine"}`);
               if (a.download && items.length) {
@@ -267,7 +280,7 @@ function isoDate() {
               }
               result.produkte.bauzonen = { layer: "ch.are.bauzonen", url };
             } else {
-              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,bauzonen)`);
+              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen)`);
             }
           } catch (e) {
             result.produkte[prod] = { error: e.message };
