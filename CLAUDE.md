@@ -328,6 +328,7 @@ Verbindlichkeit wird ueber die Rule `bkp-2017-referenz.md` durchgesetzt — sieh
 | `/m365` | Microsoft 365 Connector testen |
 | `/morgen` | Morgen-Briefing (Kalender, E-Mails, System) |
 | `/station-sync` | Sync-Tasks von der anderen Station pruefen und ausfuehren |
+| `/station-status` | Live-Zustand der anderen Station abfragen (aktive Sessions, laufende Prozesse, Projektordner-Aktivitaet) — Doppelspurigkeiten vermeiden |
 | `/website` | Website-Content: Projekte hochladen, Status pruefen |
 | `/korrektur` | Korrektur-Harness: Erzeugnis durch `rechtschreibung` + `layout` jagen, versandfertige Fassung + Ampel zurueck |
 
