@@ -10,29 +10,35 @@
 #   bash sync-task-check.sh --run    # Anzeigen und ausfuehren
 # ============================================================================
 
-# Station erkennen
+# Station erkennen: zuerst explizite Identitaet ~/.jans-station (wie sync-task-run.sh),
+# dann Hardware-Modell (zuverlaessig), dann Hostname als Fallback
 HOSTNAME=$(hostname -s)
-# Station erkennen: zuerst Hardware-Modell (zuverlaessig), dann Hostname als Fallback
-MODEL=$(sysctl -n hw.model 2>/dev/null || echo "unknown")
-case "$MODEL" in
-    Macmini*)
-        STATION="mac-mini"
-        ;;
-    MacBookPro*|MacBookAir*)
-        STATION="macbook-pro"
-        ;;
-    *)
-        # Fallback: Hostname
-        case "$HOSTNAME" in
-            *mini*|*Mini*)
-                STATION="mac-mini"
-                ;;
-            *)
-                STATION="macbook-pro"
-                ;;
-        esac
-        ;;
-esac
+STATION=""
+if [ -f "$HOME/.jans-station" ]; then
+    STATION=$(head -1 "$HOME/.jans-station" | tr -cd 'a-z0-9-')
+fi
+if [ -z "$STATION" ]; then
+    MODEL=$(sysctl -n hw.model 2>/dev/null || echo "unknown")
+    case "$MODEL" in
+        Macmini*)
+            STATION="mac-mini"
+            ;;
+        MacBookPro*|MacBookAir*)
+            STATION="macbook-pro"
+            ;;
+        *)
+            # Fallback: Hostname
+            case "$HOSTNAME" in
+                *mini*|*Mini*)
+                    STATION="mac-mini"
+                    ;;
+                *)
+                    STATION="macbook-pro"
+                    ;;
+            esac
+            ;;
+    esac
+fi
 
 NAS_QUEUE="/Volumes/daten/jans-ai-hub/sync-tasks/$STATION"
 NAS_DONE="/Volumes/daten/jans-ai-hub/sync-tasks/done"
@@ -78,12 +84,14 @@ for TASK in "${TASKS[@]}"; do
     TITEL=$(grep "^titel:" "$TASK" 2>/dev/null | cut -d: -f2- | xargs)
     VON=$(grep "^von:" "$TASK" 2>/dev/null | cut -d: -f2- | xargs)
     ERSTELLT=$(grep "^erstellt:" "$TASK" 2>/dev/null | cut -d: -f2- | xargs)
+    TYP=$(grep -m1 "^typ:" "$TASK" 2>/dev/null | cut -d: -f2- | xargs)
+    TYP=${TYP:-shell}
 
-    echo "📋 $TITEL"
+    echo "📋 $TITEL [$TYP]"
     echo "   Von: $VON | Erstellt: $ERSTELLT"
     echo "   Datei: $BASENAME"
 
-    # Script extrahieren
+    # Script extrahieren (nur typ=shell hat einen ```bash```-Block)
     SCRIPT=$(sed -n '/^```bash$/,/^```$/p' "$TASK" | grep -v '```')
 
     if [ -n "$SCRIPT" ]; then
@@ -93,18 +101,41 @@ for TASK in "${TASKS[@]}"; do
 
     if [ "$1" = "--run" ]; then
         echo ""
-        # /tmp ist stationslokal: referenzierte Dateien, die hier fehlen, sind
-        # vermutlich auf der Quellstation erstellt worden (Alt-Format vor Fix
-        # 11.06.2026). Neue Tasks betten den Script-Inhalt ein oder verweisen
-        # auf sync-tasks/<station>/scripts/ (NAS, ueberall erreichbar).
-        for PFAD in $(printf '%s\n' "$SCRIPT" | grep -oE '(/private)?/tmp/[A-Za-z0-9._/-]+' | sort -u); do
-            if [ ! -e "$PFAD" ]; then
-                echo "   ⚠️  Referenziert $PFAD — existiert auf dieser Station NICHT (/tmp ist stationslokal)"
+        if [ "$TYP" = "prompt" ]; then
+            # prompt-Pendenz: Body (alles nach dem zweiten '---') an dispatch-run.sh
+            # uebergeben — wie im Auto-Runner sync-task-run.sh. Die Host-Weiche im
+            # dispatch-run.sh blockt Fremd-Stationen (Exit 5) → Task bleibt liegen.
+            DISPATCH="$HOME/Developer/jans-ai-hub/scripts/dispatch-run.sh"
+            if [ ! -f "$DISPATCH" ]; then
+                echo "   ❌ dispatch-run.sh fehlt auf dieser Station — Task bleibt in Queue"
+                echo ""
+                continue
             fi
-        done
-        echo "   ⏳ Ausfuehren..."
-        OUTPUT=$(eval "$SCRIPT" 2>&1)
-        RC=$?
+            BODY=$(awk 'f; /^---$/ { c++; if (c==2) f=1 }' "$TASK")
+            echo "   ⏳ Ausfuehren (dispatch-run.sh)..."
+            OUTPUT=$(printf '%s\n' "$BODY" | bash "$DISPATCH" 2>&1)
+            RC=$?
+        elif [ -z "$SCRIPT" ]; then
+            # KEIN still-Archivieren: ohne Bash-Block wurde nichts ausgefuehrt —
+            # frueher lief hier eval "" (Exit 0) und der Task landete faelschlich
+            # in done/ (beobachtet 11.06.2026 bei /tmp-Pfad-Tasks).
+            echo "   ❌ Kein Bash-Block im Task gefunden — nichts ausgefuehrt, Task bleibt in Queue"
+            echo ""
+            continue
+        else
+            # /tmp ist stationslokal: referenzierte Dateien, die hier fehlen, sind
+            # vermutlich auf der Quellstation erstellt worden (Alt-Format vor Fix
+            # 11.06.2026). Neue Tasks betten den Script-Inhalt ein oder verweisen
+            # auf sync-tasks/<station>/scripts/ (NAS, ueberall erreichbar).
+            for PFAD in $(printf '%s\n' "$SCRIPT" | grep -oE '(/private)?/tmp/[A-Za-z0-9._/-]+' | sort -u); do
+                if [ ! -e "$PFAD" ]; then
+                    echo "   ⚠️  Referenziert $PFAD — existiert auf dieser Station NICHT (/tmp ist stationslokal)"
+                fi
+            done
+            echo "   ⏳ Ausfuehren..."
+            OUTPUT=$(eval "$SCRIPT" 2>&1)
+            RC=$?
+        fi
         [ -n "$OUTPUT" ] && printf '%s\n' "$OUTPUT" | sed 's/^/   | /'
         if [ $RC -eq 0 ]; then
             echo "   ✅ Erfolgreich"
