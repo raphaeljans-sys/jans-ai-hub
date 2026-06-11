@@ -23,9 +23,18 @@
       "mcp__figma__*",
       "mcp__Control_your_Mac__*",
       "mcp__computer-use__*",
-      "mcp__ccd_session__*"
+      "mcp__ccd_session__*",
+      "Read(//Volumes/daten/**)",
+      "Edit(//Volumes/daten/jans-ai-hub/**)",
+      "Write(//Volumes/daten/jans-ai-hub/**)",
+      "Read(//Applications/**)",
+      "Read(//Users/raphaeljans/Library/CloudStorage/**)",
+      "Write(//Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/**)"
     ],
-    "deny": []
+    "deny": [],
+    "additionalDirectories": [
+      "/Volumes/daten/jans-ai-hub"
+    ]
   },
   "hooks": {
     "SessionStart": [
