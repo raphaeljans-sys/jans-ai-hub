@@ -58,14 +58,20 @@ curl "https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry=E,
   --variante "V1:grenzabstand=5,geschosse=4,geschosshoehe=3.0" \
   --variante "V2:grenzabstand=5,geschosse=6,geschosshoehe=3.0"
 
-# 3) C4D-Szene + Renderings (headless)
-"/Applications/Maxon Cinema 4D 2026/c4dpy.app/Contents/MacOS/c4dpy" \
-  tools/c4d_szene.py -- --obj OUT/2699_GRUB_V1.obj \
+# 3) C4D-Szene + Renderings (headless) — IMMER ueber die Render-Weiche
+bash tools/render-remote.sh szene --obj OUT/2699_GRUB_V1.obj \
   --kontext OUT/2699_GRUB_kontext.obj --out OUT --name 2699_GRUB_V1
+# weitere Modi: render-remote.sh commandline SZENE.c4d OUTBILD [FRAME]
+#               render-remote.sh script TOOL.py [ARGS...]   (z.B. c4d_situation.py; Pfade auf NAS)
 ```
 
 ## Regeln
 
+- **Render-Hoheit Mac Mini (verbindlich, 11.06.2026):** JEDE C4D-Arbeit (c4dpy, Commandline)
+  laeuft ueber `tools/render-remote.sh` — nie c4dpy/Commandline direkt aufrufen. Die Weiche
+  rendert auf dem Mac Mini (dort liegt die Maxon-Lizenz), egal von welcher Station der
+  Aufruf kommt; lokale Pfade werden automatisch ueber `render-scratch/` gestaged.
+  Notbetrieb nur explizit: `JANS_RENDER_LOCAL=1` (erfordert lokale Lizenz).
 - **Parameter-Hoheit**: Grenzabstand/Geschosse/Hoehe sind INPUTS. Baurechtlich verbindliche
   Werte liefert der Skill `machbarkeit` (Agent `baulinien-analyst` / `volumen-rechner`) —
   dieser Skill rechnet nur die Geometrie. Annahmen immer als Annahmen ausweisen.
@@ -132,7 +138,7 @@ bei Bedarf `--produkt punktwolke` (swissSURFACE3D, LAZ).
 - **Outputs:** `_situation.3dm` (Rhino, Layer), `_situation.obj` (Gruppen=Layer, fuer C4D),
   `_situation_axo.png` (Arbeitsbild matplotlib), Kennzahlen-JSON (Origin/Quellen/Counts).
 - Praesentationsrenderings (Stil Referenz weisses Modell + beige Neubauten): OBJ in
-  `c4d_szene.py`-Pipeline — braucht Maxon-App-Login.
+  `c4d_szene.py`-Pipeline via `render-remote.sh` (Maxon-Lizenz liegt auf dem Mac Mini).
 
 ## Roadmap (naechste Ausbaustufen)
 

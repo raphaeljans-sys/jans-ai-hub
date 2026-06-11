@@ -15,6 +15,8 @@
 #   4. Symlinks skills/agents/commands   (setup-nas-skills.sh)
 #   5. launchd-Jobs installieren         (NAS-Auto-Mount, Git-Auto-Sync,
 #                                         Sync-Task-Runner 30 Min)
+#      + FDA-Check: launchd-bash braucht Festplattenvollzugriff fuer
+#        /Volumes/daten (TCC-Falle 11.06.2026) — check-launchd-fda.sh
 #   6. Eigene Pendenzen-Queue anlegen    (sync-tasks/<station>/)
 #   7. Station im Register eintragen     (docs/stationen.md auf NAS)
 #   8. Checkliste der manuellen Schritte ausgeben
@@ -104,6 +106,16 @@ for INST in install-nas-auto-mount.sh install-auto-sync.sh install-synctask-runn
     fi
 done
 
+# --- 5b. FDA-Check (TCC-Falle 11.06.2026) -----------------------------------
+# macOS-TCC blockiert launchd-gestartete /bin/bash-Jobs auf dem SMB-Mount
+# /Volumes/daten — Stations-Status und Sync-Task-Runner scheitern dann STILL.
+# Die Probe testet den NAS-Zugriff aus echtem launchd-Kontext (Schreibtest).
+echo "5b. Festplattenvollzugriff (launchd → SMB)"
+FDA_OK=1
+if bash "$NAS/scripts/check-launchd-fda.sh"; then
+    FDA_OK=0
+fi
+
 # --- 6. Pendenzen-Queue -----------------------------------------------------
 echo "6. Pendenzen-Queue"
 mkdir -p "$NAS/sync-tasks/$STATION"
@@ -145,6 +157,12 @@ echo "   • Git-Auto-Sync alle 5 Min (SSD-Spiegel ← GitHub)"
 echo "   • NAS-Auto-Mount nach Neustart"
 echo ""
 echo "  Manuell noch noetig (einmalig):"
+if [ "${FDA_OK:-1}" -ne 0 ]; then
+    echo "   [ ] FESTPLATTENVOLLZUGRIFF fuer /bin/bash (sonst laufen Runner/Status NICHT):"
+    echo "       open \"x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles\""
+    echo "       dort «+» → Cmd+Shift+G → /bin/bash → aktivieren, danach:"
+    echo "       bash $NAS/scripts/check-launchd-fda.sh"
+fi
 echo "   [ ] Claude Code installieren + anmelden  (https://claude.com/claude-code)"
 echo "   [ ] Tailscale installieren + anmelden    (fuer NAS-Zugriff von extern)"
 echo "   [ ] SSH-Key fuer GitHub hinterlegen      (ssh-keygen + GitHub Settings)"

@@ -9,6 +9,11 @@ Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh
 (`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
 eine Dauerregel handelt.
 
+## 260611 — C4D-Rendering laeuft IMMER auf dem Mac Mini (Render-Weiche)
+- **Auslöser:** "muss ich extra erwähnen dass ich möchte dass immer auf dem mac mini gerendert wird oder wie ist da jetzt der mecano?"
+- **Regel:** Jede Cinema-4D-Arbeit (c4dpy-Szenen, Commandline-Renders, c4dpy-Scripts wie `c4d_situation.py`) wird OHNE besondere Erwähnung ueber die Render-Weiche `skills/volumenstudie/tools/render-remote.sh` ausgefuehrt — nie c4dpy/Commandline direkt. Die Weiche rendert automatisch auf dem Mac Mini (Always-On, dort liegt die Maxon-Lizenz); vom MacBook aus via SSH mit Auto-Staging ueber `render-scratch/`. Die Maxon-Lizenz bleibt auf dem Mac Mini — nicht zuruecktransferieren. Lokales Rendern nur auf explizite Anweisung (`JANS_RENDER_LOCAL=1`).
+- **Gilt für:** Alle Render-/C4D-Aufrufe auf allen Stationen (volumenstudie, Situationsmodelle, kuenftige Render-Pipelines).
+
 ## 260611 — Sichtbarkeit bei laufenden lokalen Jobs (Render, Builds)
 Raphael nutzt die Aktivitaetsanzeige (drei Punkte in der Recents-Vorschau) als Signal,
 dass Claude arbeitet. Bei laengeren lokalen Jobs (C4D-Render, Builds, Downloads) deshalb

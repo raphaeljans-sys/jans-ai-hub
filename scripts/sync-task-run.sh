@@ -23,7 +23,16 @@
 set -uo pipefail
 
 REPO_NAS="/Volumes/daten/jans-ai-hub"
-[ -d "$REPO_NAS/sync-tasks" ] || exit 0   # NAS nicht gemountet → still beenden
+if [ ! -d "$REPO_NAS/sync-tasks" ]; then
+    # NAS nicht gemountet → still beenden. ABER: Ist /Volumes/daten laut
+    # Mount-Tabelle gemountet und trotzdem nicht lesbar, blockiert TCC den
+    # launchd-bash (Festplattenvollzugriff fehlt) — das darf nicht still bleiben.
+    if mount | grep -q " /Volumes/daten "; then
+        echo "$(date '+%F %T') FDA-VERDACHT: /Volumes/daten gemountet, aber fuer launchd-bash nicht lesbar — /bin/bash braucht Festplattenvollzugriff (bash ~/Developer/jans-ai-hub/scripts/check-launchd-fda.sh)" \
+            >> "$HOME/Library/Logs/jans-synctask-runner.err.log" 2>/dev/null
+    fi
+    exit 0
+fi
 
 # --- Station erkennen ---------------------------------------------------------
 # 1. Prioritaet: explizite Identitaet in ~/.jans-station (gesetzt von neue-station.sh)

@@ -45,6 +45,30 @@ EOF
    - **Datenschutz & Sicherheit → Festplattenvollzugriff → Terminal** aktivieren
    - **Datenschutz & Sicherheit → Automation → Terminal** alle Apps erlauben
 
+6b. **Festplattenvollzugriff fuer /bin/bash (launchd → SMB, PFLICHT)**:
+   macOS-TCC blockiert von launchd gestartete `/bin/bash`-Jobs beim Zugriff auf
+   den SMB-Mount `/Volumes/daten` («Operation not permitted») — entdeckt am
+   11.06.2026 auf beiden Stationen. Betroffen: `com.jans.station-status` und
+   `ch.jans.synctask-runner`; der Runner scheitert dabei STILL mit Exit 0,
+   Sync-Tasks bleiben unbemerkt liegen. Der Terminal-FDA aus Schritt 6 reicht
+   NICHT, weil launchd die Jobs ohne Terminal startet.
+
+   So beheben (einmalig, manuell — TCC laesst sich nicht scripten):
+   ```
+   open "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles"
+   ```
+   Dann unter **Festplattenvollzugriff** auf **+** klicken, **Cmd+Shift+G**
+   druecken, Pfad `/bin/bash` eingeben, oeffnen und den Schalter aktivieren.
+
+   Pruefen (testet den NAS-Zugriff aus echtem launchd-Kontext):
+   ```
+   bash /Volumes/daten/jans-ai-hub/scripts/check-launchd-fda.sh
+   ```
+
+   Wichtig dazu: Die launchd-Plists muessen auf die **lokale SSD-Script-Kopie**
+   zeigen (`~/Developer/jans-ai-hub/scripts/...`), NICHT auf den NAS-Pfad —
+   die Installer (`install-synctask-runner.sh` etc.) machen das automatisch.
+
 7. **CLAUDE.md aktualisieren**: Die CLAUDE.md im Repo muss den NAS-basierten Ansatz beschreiben (nicht mehr Git-Sync oder SSH). Falls sie noch Merge-Konflikte oder veraltete Abschnitte hat, bereinige sie.
 
 ## Architektur

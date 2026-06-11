@@ -8,6 +8,12 @@
 #
 #   bash install-synctask-runner.sh [interval-sekunden]   # Default 1800 = 30 Min
 #   bash install-synctask-runner.sh --uninstall           # Timer entfernen
+#
+# WICHTIG (TCC, 11.06.2026): launchd-gestartete /bin/bash-Jobs brauchen
+# Festplattenvollzugriff, sonst blockiert macOS den SMB-Mount /Volumes/daten
+# («Operation not permitted») und der Runner scheitert STILL. Die Plist zeigt
+# deshalb auf die LOKALE SSD-Script-Kopie, und am Ende laeuft ein FDA-Check
+# (check-launchd-fda.sh) mit Anleitung bei Fehlschlag.
 # ============================================================================
 
 set -euo pipefail
@@ -60,3 +66,20 @@ echo "  Plist:  $PLIST"
 echo "  Runner: $RUNNER"
 echo "  Log:    /Volumes/daten/jans-ai-hub/sync-tasks/log/runner-$(date +%Y%m).log"
 launchctl list | grep "$LABEL" >/dev/null 2>&1 && echo "  Status: aktiv" || echo "  Status: geladen (pruefe mit: launchctl list | grep $LABEL)"
+
+# --- FDA-Check: darf launchd-bash auf /Volumes/daten? (TCC-Falle 11.06.2026) ---
+echo ""
+echo "FDA-Check (launchd → SMB-Mount):"
+CHECK="$(cd "$(dirname "$0")" && pwd)/check-launchd-fda.sh"
+[ -f "$CHECK" ] || CHECK="/Volumes/daten/jans-ai-hub/scripts/check-launchd-fda.sh"
+if [ -f "$CHECK" ]; then
+    if bash "$CHECK"; then
+        launchctl kickstart -k "gui/$(id -u)/$LABEL" 2>/dev/null || true
+    else
+        echo "  Nach dem FDA-Schritt den Runner anstossen:"
+        echo "    launchctl kickstart -k gui/$(id -u)/$LABEL"
+    fi
+else
+    echo "  check-launchd-fda.sh nicht gefunden — manuell pruefen, ob /bin/bash"
+    echo "  Festplattenvollzugriff hat (Systemeinstellungen → Datenschutz & Sicherheit)."
+fi
