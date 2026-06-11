@@ -152,35 +152,58 @@ def render_axo(png, terrain, kontext, bestand, varianten, parz_xy):
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+    from matplotlib.colors import LightSource
     fig = plt.figure(figsize=(12, 12), dpi=120)
     ax = fig.add_subplot(111, projection="3d")
     xs, ys, Z, ox, oy = terrain
-    st = max(1, len(xs) // 160)
-    X, Y = np.meshgrid(xs[::st] - ox, ys[::st] - oy)
-    ax.plot_surface(X, Y, Z[::st, ::st], color="#f2f2f0", linewidth=0, antialiased=True,
-                    rcount=160, ccount=160, shade=True)
 
-    def add(meshes, farbe, alpha=1.0):
-        polys = []
+    # ALLES als eine Poly-Sammlung (ein Painter's-Sort statt Surface-vs-Collection-Konflikt)
+    sonne = np.array([-0.5, 0.35, 0.8]); sonne /= np.linalg.norm(sonne)
+
+    def shade(polys, basis, ambient=0.62):
+        out = []
+        b = np.array(matplotlib.colors.to_rgb(basis))
+        for p in polys:
+            v = np.array(p)
+            if len(v) >= 3:
+                n = np.cross(v[1] - v[0], v[2] - v[0])
+                ln = np.linalg.norm(n)
+                lam = ambient + (1 - ambient) * max(0.0, abs(float(np.dot(n / ln, sonne)))) if ln > 0 else 0.85
+            else:
+                lam = 0.85
+            out.append(tuple(np.clip(b * lam, 0, 1)))
+        return out
+
+    polys, cols = [], []
+    st = max(1, len(xs) // 110)
+    for j in range(0, len(ys) - st, st):
+        for i in range(0, len(xs) - st, st):
+            polys.append([(xs[i]-ox, ys[j]-oy, Z[j, i]), (xs[i+st]-ox, ys[j]-oy, Z[j, i+st]),
+                          (xs[i+st]-ox, ys[j+st]-oy, Z[j+st, i+st]), (xs[i]-ox, ys[j+st]-oy, Z[j+st, i])])
+    cols += shade(polys, "#ffffff", ambient=0.78)   # Terrain hell wie Referenz-Weissmodell
+
+    def add(meshes, farbe):
+        nonlocal polys, cols
+        neu = []
         for vs, faces in meshes:
             for f in faces:
-                polys.append([vs[i] for i in f])
-        if polys:
-            ax.add_collection3d(Poly3DCollection(polys, facecolor=farbe, edgecolor="#999999",
-                                                 linewidths=0.2, alpha=alpha))
-    add(kontext, "#fafafa")
-    add(bestand, "#d9d9d9")          # Bestand auf Parzelle: leicht abgesetzt
-    add(varianten, "#deb887")        # Neubau: beige
+                neu.append([vs[i] for i in f])
+        polys += neu; cols += shade(neu, farbe)
+    add(kontext, "#ffffff")
+    add(bestand, "#e0e0e0")          # Bestand auf Parzelle: leicht abgesetzt
+    add(varianten, "#d9a86c")        # Neubau: beige
+    ax.add_collection3d(Poly3DCollection(polys, facecolors=cols, edgecolor="none"))
+
     px, py = zip(*parz_xy)
-    pz = [hoehe_an(xs, ys, Z, x + ox, y + oy) + 0.3 for x, y in parz_xy]
-    ax.plot(px, py, pz, color="#b07840", linewidth=1.5)
-    zmid = float(np.nanmean(Z))
-    ax.set_zlim(zmid - 40, zmid + 60)
+    pz = [hoehe_an(xs, ys, Z, x + ox, y + oy) + 0.4 for x, y in parz_xy]
+    ax.plot(px, py, pz, color="#b07840", linewidth=1.4)
+    zmid = float(np.nanmean(Z)); sp = (xs[-1] - xs[0]) / 2
+    ax.set_xlim(-sp, sp); ax.set_ylim(-sp, sp); ax.set_zlim(zmid - sp * 0.5, zmid + sp * 0.5)
     ax.set_box_aspect((1, 1, 0.5))
-    ax.view_init(elev=42, azim=-60)
+    ax.view_init(elev=48, azim=-55)
+    ax.set_proj_type("ortho")
     ax.set_axis_off()
-    plt.tight_layout(pad=0)
-    plt.savefig(png, bbox_inches="tight", facecolor="white")
+    plt.savefig(png, bbox_inches="tight", facecolor="white", pad_inches=0.05)
     plt.close()
 
 
@@ -224,8 +247,7 @@ def main():
 
     # ---- Rhino .3dm mit Layern ----
     doc = r3.File3dm()
-    doc.Notes = (f"JANS Situationsmodell {a.name} · Origin LV95 E {ox:.2f} / N {oy:.2f} (XY lokal) · "
-                 f"Z = m ue.M. · Quellen: swissALTI3D + swissBUILDINGS3D 2.0 · Systemgrenze {a.radius:.0f} m")
+    # Origin/Quellen-Doku: Kennzahlen-JSON (rhino3dm-Python hat kein Notes-Attribut)
     def layer(nm, col):
         l = r3.Layer(); l.Name = nm; l.Color = col; doc.Layers.Add(l)
         return len(doc.Layers) - 1

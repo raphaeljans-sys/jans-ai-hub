@@ -107,10 +107,37 @@ Hoehe als Z). CAD-Anbindung (Cinema/Rhino/ArchiCAD inkl. Lizenz-Modell): `connec
 Validierter Pilot: Parzelle WD5381 Grubenstrasse 37 (Zyklus Grundlage→Bearbeitung→Ruecklesen komplett).
 venv enthaelt zusaetzlich **ezdxf** (DXF-Lesen/Schreiben).
 
+## Situationsmodell: Terrain + Gebaeudekuben (11.06.2026, validiert an 2621)
+
+Zwei getrennte amtliche Quellen, kombiniert durch `tools/situationsmodell.py`:
+**swissALTI3D** (Gelaende) + **swissBUILDINGS3D 2.0** (Gebaeudekuben, Kachel-DXF) —
+beide via `geo-zh.mjs --produkt dtm` bzw. `--produkt gebaeude --download`;
+bei Bedarf `--produkt punktwolke` (swissSURFACE3D, LAZ).
+
+```bash
+~/.venvs/volumen3d/bin/python tools/situationsmodell.py \
+  --parzelle p.geojson --gebaeude KACHEL.dxf --dtm ALTI.tif \
+  --name 2621_GIEB --out DIR --radius 30 \
+  --variante "B:2621_GIEB_B_haupt.obj" --render
+```
+
+- **Layer-Trennung (verbindlich):** `SITU_TERRAIN` / `SITU_GEB_KONTEXT` (weiss) /
+  `SITU_BESTAND_PARZELLE` (Bestand auf der Parzelle, EIGENER Layer — fuer Ersatzneubau
+  ausblendbar) / `BASIS_PARZELLE` (Umring auf Terrain) / `VOL_VARIANTE_<X>` (beige).
+- **Systemgrenze knapp:** Default 30-m-Puffer um die Parzelle = Nachbarring
+  (2621: 11 Kontext- + 3 Bestandsgebaeude); Terrain-BBox = Puffer + 10 m.
+- **Koordinaten:** XY lokal (Origin = Parzellen-Zentroid, identisch volumen_generator —
+  Varianten-OBJs passen direkt), **Z bleibt m ue.M.** Varianten werden auf Terrainhoehe
+  (`--vol-okt` oder DTM am Zentroid) gesetzt.
+- **Outputs:** `_situation.3dm` (Rhino, Layer), `_situation.obj` (Gruppen=Layer, fuer C4D),
+  `_situation_axo.png` (Arbeitsbild matplotlib), Kennzahlen-JSON (Origin/Quellen/Counts).
+- Praesentationsrenderings (Stil Referenz weisses Modell + beige Neubauten): OBJ in
+  `c4d_szene.py`-Pipeline — braucht Maxon-App-Login.
+
 ## Roadmap (naechste Ausbaustufen)
 
-1. Nachbarparzellen + Bestandsgebaeude (ch.swisstopo.swissbuildings3d) als Kontext in die Szene
-2. Terrain aus swissALTI3D (dtm-Produkt des geo-zh.mjs) statt flachem Boden
+1. Vegetation/Baeume als Kontext (swissTLM3D-Einzelbaeume oder swissSURFACE3D-Ableitung)
+2. ~~Terrain aus swissALTI3D statt flachem Boden~~ erledigt via situationsmodell.py (11.06.2026)
 3. Attika-Rücksprung / gestaffelte Volumen (Variantensyntax erweitern)
 4. IFC-Export fuer ArchiCAD 27 (Uebergabe Studie → Projekt)
 5. Integration als Fan-out-Schritt im Skill `machbarkeit` (Typ A Volumenstudie)
