@@ -30,7 +30,8 @@ case "$cmd" in
           shopt -s nullglob
           for tif in "$out"/*swissalti3d*.tif "$out"/*alti*.tif; do
             dxf="${tif%.tif}_hoehenlinien_${int}m.dxf"
-            gdal_contour -a hoehe -i "$int" "$tif" "$dxf" && echo "Hoehenlinien: $dxf"
+            # DXF kann keine Attributfelder — Hoehe steckt via -3d in der Geometrie (3D-Polylinien)
+            gdal_contour -3d -i "$int" "$tif" "$dxf" && echo "Hoehenlinien: $dxf"
           done
           ;;
   *) sed -n '2,16p' "$0" ;;
