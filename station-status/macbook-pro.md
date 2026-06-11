@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 01:13:08
+Stand: 12.06.2026 01:23:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:47)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 48 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
+- 46 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 - 12 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 12.06.2026 01:13:08
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c00ad5a nas-selfcommit: 2 Datei(en) 2026-06-12 01:00
+- 9a4fec4 nas-selfcommit: 2 Datei(en) 2026-06-12 01:15
