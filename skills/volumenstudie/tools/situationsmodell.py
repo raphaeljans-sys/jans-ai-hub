@@ -146,7 +146,36 @@ def lade_obj(pfad):
     return vs, faces
 
 
-def render_axo(png, terrain, kontext, bestand, varianten, parz_xy):
+def kugel_mesh(cx, cy, cz, r, nu=10, nv=7):
+    """UV-Kugel als (vs, faces) — Baumkrone."""
+    vs, faces = [], []
+    for j in range(nv + 1):
+        ph = np.pi * j / nv
+        for i in range(nu):
+            th = 2 * np.pi * i / nu
+            vs.append((cx + r * np.sin(ph) * np.cos(th), cy + r * np.sin(ph) * np.sin(th), cz + r * np.cos(ph)))
+    for j in range(nv):
+        for i in range(nu):
+            a = j * nu + i; b = j * nu + (i + 1) % nu
+            faces.append([a, b, b + nu, a + nu])
+    return vs, faces
+
+
+def baum_meshes(baeume):
+    """Baeume -> [(vs, faces)] Kronen + schlanke Stamm-Quader (lokale Koordinaten)."""
+    out = []
+    for b in baeume:
+        kr = b["r"]; kh = b["z"] + b["h"] - kr            # Kronenzentrum
+        out.append(kugel_mesh(b["x"], b["y"], kh, kr))
+        s = 0.18                                           # Stamm
+        z0, z1 = b["z"], max(b["z"] + b["h"] - 2 * kr, b["z"] + 0.5)
+        vs = [(b["x"]-s, b["y"]-s, z0), (b["x"]+s, b["y"]-s, z0), (b["x"]+s, b["y"]+s, z0), (b["x"]-s, b["y"]+s, z0),
+              (b["x"]-s, b["y"]-s, z1), (b["x"]+s, b["y"]-s, z1), (b["x"]+s, b["y"]+s, z1), (b["x"]-s, b["y"]+s, z1)]
+        out.append((vs, [[0,1,5,4],[1,2,6,5],[2,3,7,6],[3,0,4,7],[4,5,6,7]]))
+    return out
+
+
+def render_axo(png, terrain, kontext, bestand, varianten, parz_xy, baeume=None):
     """Schneller Nachweis-Render (matplotlib): weisses Modell, beige Varianten."""
     import matplotlib
     matplotlib.use("Agg")
@@ -192,6 +221,8 @@ def render_axo(png, terrain, kontext, bestand, varianten, parz_xy):
     add(kontext, "#ffffff")
     add(bestand, "#e0e0e0")          # Bestand auf Parzelle: leicht abgesetzt
     add(varianten, "#d9a86c")        # Neubau: beige
+    if baeume:
+        add(baum_meshes(baeume), "#c9c5ba")   # Baeume: helles Graubeige wie Referenz
     ax.add_collection3d(Poly3DCollection(polys, facecolors=cols, edgecolor="none"))
 
     px, py = zip(*parz_xy)
@@ -214,6 +245,7 @@ def main():
     ap.add_argument("--out", required=True); ap.add_argument("--radius", type=float, default=30.0)
     ap.add_argument("--variante", action="append", default=[], help="X:pfad.obj (lokale Koord.)")
     ap.add_argument("--vol-okt", type=float, help="Z-Lage der Varianten (m ue.M.); Default: Terrain am Zentroid")
+    ap.add_argument("--baeume", help="baeume.json aus baeume_aus_punktwolke.py (swissSURFACE3D)")
     ap.add_argument("--render", action="store_true")
     a = ap.parse_args()
 
@@ -235,6 +267,16 @@ def main():
 
     lokal = lambda ml: [([(x - ox, y - oy, z) for x, y, z in vs], fc) for vs, fc in ml]
     kontext_l, bestand_l = lokal(kontext), lokal(bestand)
+
+    # Baeume (swissSURFACE3D) auf die Systemgrenze gefiltert, lokal versetzt
+    baeume = []
+    if a.baeume:
+        bj = json.loads(Path(a.baeume).read_text())
+        for b in bj["baeume"]:
+            if grenze.buffer(5).contains(Point(b["x"], b["y"])):
+                baeume.append({"x": b["x"] - ox, "y": b["y"] - oy,
+                               "z": b["z_ok_terrain"], "h": b["hoehe"], "r": b["kronenradius"]})
+        print(f"Baeume im Modell: {len(baeume)} (von {bj['anzahl']} im Fenster)")
 
     okt = a.vol_okt if a.vol_okt else hoehe_an(xs, ys, Z, ox, oy)
     var_l, var_namen = [], []
@@ -272,6 +314,11 @@ def main():
         li = layer(f"VOL_VARIANTE_{vn}", BEIGE)
         at = r3.ObjectAttributes(); at.LayerIndex = li
         doc.Objects.AddMesh(zu_rhino([(x + ox, y + oy, z) for x, y, z in vs], fc, ox, oy), at)
+    if baeume:
+        li = layer("SITU_BAEUME", (201, 197, 186, 255))
+        for vs, fc in baum_meshes(baeume):
+            at = r3.ObjectAttributes(); at.LayerIndex = li
+            doc.Objects.AddMesh(zu_rhino([(x + ox, y + oy, z) for x, y, z in vs], fc, ox, oy), at)
     p3dm = out / f"{a.name}_situation.3dm"
     doc.Write(str(p3dm), 7)
     print(f"3dm: {p3dm}")
@@ -290,6 +337,19 @@ def main():
     obj_schreiben(pobj, gruppen)
     print(f"OBJ: {pobj}")
 
+    # Getrennte OBJs je Gruppe (fuer C4D-Pipeline: Layer einzeln laden/schalten)
+    teil = {"terrain": {"SITU_TERRAIN": gruppen["SITU_TERRAIN"]},
+            "kontext": {"SITU_GEB_KONTEXT": kontext_l},
+            "bestand": {"SITU_BESTAND_PARZELLE": bestand_l}}
+    for vn, m in zip(var_namen, var_l):
+        teil[f"variante_{vn}"] = {f"VOL_VARIANTE_{vn}": [m]}
+    if baeume:
+        teil["baeume"] = {"SITU_BAEUME": baum_meshes(baeume)}
+    for tn, grp in teil.items():
+        if any(v for v in grp.values()):
+            obj_schreiben(out / f"{a.name}_{tn}.obj", grp)
+    print(f"Teil-OBJs: {', '.join(sorted(teil))}")
+
     kz = {"name": a.name, "origin_lv95": [round(ox, 2), round(oy, 2)], "z": "m ue.M.",
           "systemgrenze_radius_m": a.radius, "terrain_bbox_lv95": [round(v, 1) for v in bbox],
           "gebaeude_kontext": len(kontext), "gebaeude_bestand_parzelle": len(bestand),
@@ -300,10 +360,21 @@ def main():
     print(f"Kennzahlen: {pkz}")
 
     if a.render:
-        png = out / f"{a.name}_situation_axo.png"
-        render_axo(str(png), (xs, ys, Z, ox, oy), kontext_l, bestand_l, var_l,
-                   [(x - ox, y - oy) for x, y in parz.exterior.coords])
-        print(f"Render: {png}")
+        pxy = [(x - ox, y - oy) for x, y in parz.exterior.coords]
+        T = (xs, ys, Z, ox, oy)
+        # Status quo: Bestand AN, Varianten AUS
+        p1 = out / f"{a.name}_statusquo_axo.png"
+        render_axo(str(p1), T, kontext_l, bestand_l, [], pxy, baeume)
+        print(f"Render Status quo: {p1}")
+        # Je Variante: Bestand AUS (Ersatzneubau) — nie Ueberschneidung Bestand/Neubau.
+        # Teilkoerper (z.B. B + B_ATTIKA) gehoeren zur selben Variante -> nach Basis gruppiert.
+        basis = {}
+        for vn, vm in zip(var_namen, var_l):
+            basis.setdefault(vn.split("_")[0], []).append(vm)
+        for bk, vms in basis.items():
+            p2 = out / f"{a.name}_variante_{bk}_axo.png"
+            render_axo(str(p2), T, kontext_l, [], vms, pxy, baeume)
+            print(f"Render Variante {bk}: {p2}")
 
 
 if __name__ == "__main__":
