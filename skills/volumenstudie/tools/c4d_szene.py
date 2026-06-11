@@ -131,7 +131,7 @@ def main(argv):
         kon = polygon_objekt("Parzelle", kv, kf)
         doc.InsertObject(kon)
         zuweisen(kon, mat_parz)
-        objs.append(kon)
+        # Kontext bewusst NICHT in objs: Kameras rahmen nur die Volumen
 
     boden = c4d.BaseObject(c4d.Oplane)
     boden[c4d.PRIM_PLANE_WIDTH] = boden[c4d.PRIM_PLANE_HEIGHT] = 100000.0
@@ -161,11 +161,11 @@ def main(argv):
     doc.InsertObject(fuell)
 
     mitte, groesse = bbox(objs)
-    d = groesse * 1.15
+    d = max(groesse * 2.0, 4000.0)   # genug Distanz auch bei kleinen Volumen (cm)
     ansichten = {
         "axo": c4d.Vector(mitte.x + d * 0.7, mitte.y + d * 0.8, mitte.z - d * 0.7),
-        "auge_sw": c4d.Vector(mitte.x - d * 0.85, mitte.y + 170, mitte.z - d * 0.85),
-        "auge_no": c4d.Vector(mitte.x + d * 0.85, mitte.y + 170, mitte.z + d * 0.85),
+        "auge_sw": c4d.Vector(mitte.x - d * 0.8, mitte.y + 170, mitte.z - d * 0.8),
+        "auge_no": c4d.Vector(mitte.x + d * 0.8, mitte.y + 170, mitte.z + d * 0.8),
     }
     import os
     os.makedirs(args.out, exist_ok=True)
