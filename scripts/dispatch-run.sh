@@ -123,9 +123,10 @@ if [ "$CURRENT_HOST" != "$PRIMARY_HOST" ] && [ "${DISPATCH_ALLOW_ANY_HOST:-0}" !
     fi
     echo "↪  '$CURRENT_HOST' ist nicht der Endpunkt — leite an '$PRIMARY_HOST' weiter ($PRIMARY_SSH) ..."
     # Auftrag via stdin uebergeben (umgeht alle Quoting-Fallen); Remote-Skript
-    # liest stdin, wenn keine Argumente kommen.
+    # liest stdin, wenn keine Argumente kommen. Budget/Permission-Modus reisen
+    # mit, damit lokale Overrides auch auf der Zielseite gelten.
     printf '%s' "$TASK" | ssh -o BatchMode=yes -o ConnectTimeout=10 "$PRIMARY_SSH" \
-        "DISPATCH_FORWARDED=1 bash ~/Developer/jans-ai-hub/scripts/dispatch-run.sh"
+        "DISPATCH_FORWARDED=1 DISPATCH_PERMISSION_MODE='$PERM_MODE' DISPATCH_MAX_BUDGET_USD='$MAX_BUDGET' bash ~/Developer/jans-ai-hub/scripts/dispatch-run.sh"
     RC_FWD=$?
     if [ "$RC_FWD" -ne 0 ] && [ "$RC_FWD" -eq 255 ]; then
         echo "❌ Weiterleitung fehlgeschlagen: '$PRIMARY_HOST' per SSH nicht erreichbar ($PRIMARY_SSH)."
