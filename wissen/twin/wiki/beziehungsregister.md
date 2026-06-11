@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -115,12 +115,40 @@ Bauherrschaft mit folgender Rechnungsanschrift zu stellen**» (Grundbuchauszug-G
 Notariat, 10.07.2025). Verstärkt «handelt im Auftrag der Bauherrschaft» (→ oben): der
 Architekt bestellt/koordiniert, die Kosten laufen direkt auf die Bauherrschaft.
 
+## Register spiegelt das Gegenüber — Investor-Du person-, nicht firmen-spezifisch (belegt Mailbatch 03, authentisch)
+Korrigiert das frühere pauschale «Investoren/Asset-Manager (Nova): Du». Innerhalb DERSELBEN
+Firma (Nova Property Fund Management) laufen zwei Register, je nach Person und gespiegeltem Ton:
+- **Senior Asset Manager (Angerer):** Du, gegenseitig — er «Lieber Raphael / Gruss Tom», RJ
+  «Hoi/Lieber/Geschätzter Thomas». Warm-reziprokes Investor-Du.
+- **Deputy Head Development (Munch):** Sie — er «Guten Tag Herr Jans», RJ «Sehr geehrter Herr
+  Munch» + voller Block. Förmlich, obwohl gleiche Firma, gleiches Projekt (Wald/Averecura).
+→ Regel: das Register **spiegelt den konkreten Kontakt und seinen Ton**, nicht das Firmen-Label.
+Der Zwilling wählt Du/Sie pro Person, nicht pro Organisation; im Zweifel das Register des
+letzten Eingangs spiegeln.
+
+## Derselbe Du-Kontakt, drei Anreden in EINER Woche (belegt Mailbatch 03, authentisch)
+Stärkster Beleg für «Register nach Anlass»: an Thomas Angerer (Nova) innerhalb 29.–31.07.2025:
+- **«Hoi Thomas»** — operative Offert-Mail (→ «Bester Gruss»).
+- **«Lieber Thomas»** — warm-liefernde Mail mit Studie/Plänen (→ «Mit besten Grüssen»).
+- **«Geschätzter Thomas,»** — gewichtigere Übersetzung Raumprogramm → Projektskizze (→
+  «Freundliche Grüsse»).
+Eine Person, ein Faden, drei Stufen je nach Gewicht der einzelnen Mail. Der Zwilling darf die
+Anrede an denselben Du-Kontakt von Mail zu Mail variieren — Anlass schlägt Konstanz.
+
+## Englisch / internationale Freelancer (belegt Mailbatch 03, authentisch)
+Eigenes Register für **englischsprachige Dienstleister/Freelancer** (z.B. externe 3D-/CAD-
+Zuarbeit): Anrede «**Hi <Vorname>,**» (Du-Äquivalent, locker-direkt), Ton partnerschaftlich-
+klar, Schluss «Best regards» / «Kind regards». Auf Augenhöhe, aber RJ führt sichtbar Regie
+(Werkzeuge, Workflow, Konditionen, Stundenlog vorgeben). Details zum Klang → [[stimme]].
+
 ## Beziehungsgedächtnis (Start-Mapping, belegt)
 - KISPI-Bauherr/Betreiber (Albin Spahic, Stefi Sonderegger): Du — «Hoi/Lieber/Geschätzter»
   je nach Anlass.
 - Fachplaner Gruner (Ziegel, Eren, Stevanovic), Unternehmer (JOMOS/Harder, RWD/Tobler,
   Schreinerei/Lanz, Jegen/Grob): Sie — «Geschätzter Herr <Name>».
-- Investoren/Asset-Manager (Nova, vgl. [[stimme]]): Du — «Geschätzter <Vorname>».
+- Investoren/Asset-Manager (Nova, vgl. [[stimme]]): **person-spezifisch** — Senior Asset
+  Manager (Angerer) Du «Hoi/Lieber/Geschätzter Thomas»; Deputy Head Development (Munch) Sie
+  «Sehr geehrter Herr Munch». Register spiegelt die Person, nicht die Firma.
 - Privatkundinnen/-kunden (Sie, laufendes Mandat, z.B. Umbau-Bauherrin Stadt ZH):
   «Guten Tag Frau/Herr <Name>».
 - Unbekannte/Submission: «Sehr geehrte Damen und Herren».

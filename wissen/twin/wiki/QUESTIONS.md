@@ -77,8 +77,11 @@ Facette Beziehungsregister 74). Je in 1–2 Sätzen beantwortbar.
    selten, welche? → [[stimme]]
 6. **Länge:** Wann eine 3-Satz-Mail, wann die durchstrukturierte Studie-im-Mail? Welches
    Signal entscheidet? → [[arbeitsweise]]
-7. **Englisch:** Gibt es englische Korrespondenz (Aerospace/Tech), und wie klingt dein
-   Englisch im Vergleich zum Deutsch? → [[stimme]]
+7. ~~**Englisch:** Gibt es englische Korrespondenz, und wie klingt dein Englisch im
+   Vergleich zum Deutsch?~~ **BEANTWORTET (Mailbatch 03, 260611):** Ja, englische
+   Freelancer-/Dienstleister-Steuerung. Klang = dieselbe Stimme in anderer Sprache —
+   «Hi <Vorname>,», gleiche Grundlage→Struktur→Next-Steps-Dramaturgie, ehrlich über die
+   Sprachgrenze, kein Mehr an Steifheit. → [[stimme]], [[beziehungsregister]]
 
 ## Aktiv gestellt — Runde 260607 (twin-fragesteller)
 

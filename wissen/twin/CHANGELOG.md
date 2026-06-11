@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-11 — twin-mail-training: Mailbatch 03 (Sent Items rj@, 2025-07-14 bis 2025-07-31)
+- Sequentieller Sweep fortgesetzt: Offset 30–44/1'038, 15 Mails gesichtet, 4 Volltexte via
+  M365 `read_resource` gelesen. Gewichtung **authentisch** (klar vor-Claude). Projekt Wald/
+  Averecura (Nova Property) + Onboarding 3D-Freelancerin (englisch). Mikro-Metrik (215 W):
+  Du-Gross **0.429** (Spiegelungs-Effekt im reziproken Investor-Du), «100 %»-Leerschlag 1.0,
+  Satzlänge ø 14.3.
+- Neue belegte Marker: [[stimme]] — **Englisch-Register** (füllt frühere Lücke: «Hi <Vorname>,»,
+  gleiche Grundlage→Struktur→Next-Steps-Dramaturgie, ehrlich über die Sprachgrenze); Gruss-
+  Variante «Mit besten Grüssen»; **Doppel-Signoff** = Mobile-Artefakt (handgetippter Kurzgruss
+  ist das Signal, Block ist Automatik, nicht stapeln); Du-Gross-Slip im reziproken Schnell-Du
+  als Echtheit; «kein Gedankenstrich» ist späte Präferenz, im Korpus «–» echt belegt.
+  [[beziehungsregister]] — **Investor-Du person- statt firmen-spezifisch** (Nova: Angerer Du,
+  Munch Sie); derselbe Du-Kontakt **drei Anreden in einer Woche** (Hoi/Lieber/Geschätzter);
+  Register spiegelt das Gegenüber; Englisch-/Freelancer-Register. [[arbeitsweise]] — Kooperation
+  vor Arbeitsbeginn vollständig aufsetzen (7-Punkte-Setup-Mail: Werkzeuge/Takt/Geld/Qualität).
+- QUESTIONS: Stichprobe #7 (Englisch) **beantwortet**.
+
 ## 2026-06-10 — twin-mail-training: Mailbatch 02 (Sent Items rj@, 2025-07-09 bis 2025-07-14)
 - Sequentieller Sweep fortgesetzt: Offset 15–29/1'014, 15 Mails gesichtet, 5 Volltexte via
   M365 `read_resource` destilliert, 4 MS-Support ignoriert. Gewichtung **authentisch** (klar

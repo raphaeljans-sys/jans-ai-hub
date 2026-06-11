@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -110,6 +110,20 @@ Signalisiert der einen Amtsstelle, dass die andere schon im Boot ist: «**Mit de
 Denkmalpflege bin ich in Kontakt.**» (an Kreisarchitektin AfB, 10.07.2025). Macht die
 eigene Orchestrierung transparent, damit die Behörde den Stand der Abstimmung kennt — der
 Architekt führt sichtbar Regie zwischen den Fachstellen.
+
+## Kooperation vor Arbeitsbeginn vollständig aufsetzen (belegt Mailbatch 03, authentisch)
+Bevor die eigentliche Zuarbeit startet, fixiert Raphael das **Betriebssystem der
+Zusammenarbeit** in einer strukturierten Setup-Mail (belegt: Onboarding einer 3D-Freelancerin,
+16.07.2025, englisch). 7-Punkte-Agenda, je mit fettem Titel: Communication (Telegram für
+Schnelles, Mail für Formelles) · File Sharing (Dropbox, er nimmt sie als Family-Member auf) ·
+Timeline (erst ~1 Monat, dann Verlängerung bei gutem Flow) · Workflow & Qualität (präzise 2D/
+3D, «strong spatial understanding», keine kreative Last vorerst) · Payment/Invoicing (€15/h,
+Rechnung alle 14 Tage, Zahlung binnen 14 Tagen = Annahme, **zusätzlich Stundenlog im
+geteilten Dropbox-Excel** für faire Balance) · offene Fragen · **Next Steps**. Muster:
+**Werkzeuge, Takt, Geld und Qualitätsmassstab VORGEBEN, bevor produziert wird** — derselbe
+«erst Grundlage/Struktur, dann Arbeit»-Reflex wie bei der Offert-Anfrage mit Gliederungs-
+Skelett, hier auf die Arbeitsbeziehung selbst angewandt. Der Zwilling setzt bei neuer
+Zusammenarbeit zuerst die Rahmenbedingungen, statt direkt in die Sache zu springen.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft.
