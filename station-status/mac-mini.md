@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.06.2026 22:14:07
+Stand: 11.06.2026 22:24:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 11.06.2026 22:14:07
 - 1 Datei(en): AR - 01 Projekte / 2515 WARTSTRASSE_7
 
 ## Hub-Git-Stand (NAS)
-- b2ee4b2 KB planungsgrundlagen: Baulinien-Vektorbezug ZH-OGD-WFS (inkl. projektierte) validiert am Fall Giebelweg 12
+- 9b282f2 nas-selfcommit: 2 Datei(en) 2026-06-11 22:15
