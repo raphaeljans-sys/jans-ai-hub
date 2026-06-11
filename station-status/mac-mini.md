@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 11.06.2026 18:55:25
+Stand: 11.06.2026 21:13:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 21:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 11.06.2026 18:55:25
 - 1 Datei(en): AR - 01 Projekte / 2515 WARTSTRASSE_7
 
 ## Hub-Git-Stand (NAS)
-- 81289a5 Tagesabschluss 11.06.: render-remote.sh (Render-Weiche MacBook->Mac Mini) + Reststand
+- 38a5b0e nas-selfcommit: 1 Datei(en) 2026-06-11 21:00
