@@ -441,6 +441,7 @@ Aktive Rules:
 @/Volumes/daten/jans-ai-hub/rules/jans-absenderadresse.md
 @/Volumes/daten/jans-ai-hub/rules/mail-formatierung.md
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
+@/Volumes/daten/jans-ai-hub/rules/projekt-ablage-stand.md
 @/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/wissens-bibliothekar.md
