@@ -37,13 +37,9 @@ case "$cmd" in
           for tif in "$out"/*alti*.tif; do
             gj="${tif%.tif}_hoehenlinien_${int}m.geojson"
             dxf="${tif%.tif}_hoehenlinien_${int}m.dxf"
-<<<<<<< Updated upstream
-            gdal_contour -3d -i "$int" "$tif" "$dxf" && echo "Hoehenlinien (3D, Hoehe als Z): $dxf"
-=======
             rm -f "$gj"
             gdal_contour -3d -i "$int" "$tif" "$gj"
-            "$VENVPY" "$HERE/contours2dxf.py" "$gj" "$dxf" && echo "Hoehenlinien: $dxf"
->>>>>>> Stashed changes
+            "$VENVPY" "$HERE/contours2dxf.py" "$gj" "$dxf" && echo "Hoehenlinien (3D, Hoehe als Z): $dxf"
           done
           ;;
   *) sed -n '2,16p' "$0" ;;

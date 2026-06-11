@@ -122,10 +122,13 @@ Baulinie überschritten (sonst `AUS_KONFLIKT`). Annahmen werden ausgewiesen, Ide
 **Format:** DXF (universell, jedes CAD) empfohlen; Rhino `.3dm` als Alternative falls Du in Rhino
 arbeitest — selber Schichtenvertrag, ein Konvertierungsschritt weniger.
 
-<<<<<<< Updated upstream
 **Setup-Stand (11.06.2026, nachmittags):**
-- [x] `gdal` installiert (Vektor-Höhenlinien laufen, `gdal_contour -3d` → Höhe als Z)
-- [x] venv `~/.venvs/volumen3d` eingerichtet (rhino3dm 8.17, shapely, numpy, mapbox_earcut, **ezdxf**)
+- [x] `gdal` installiert — Mac Mini, GDAL 3.13.1. Höhenlinien-Kette end-to-end validiert
+      (Giebelweg 12 Langnau: 4506 Linien à 0.5 m, Z = 559.5 m ü. M. per ogrinfo verifiziert).
+      Achtung: direkt `gdal_contour -3d` → DXF verwirft Z — der GeoJSON-Umweg via
+      `contours2dxf.py` (§6) ist zwingend.
+- [x] venv `~/.venvs/volumen3d` eingerichtet (Python 3.10.20; rhino3dm 8.17, shapely, numpy,
+      mapbox_earcut, matplotlib, **ezdxf**)
 - [x] **Format entschieden: DXF** (gemeinsamer Nenner ArchiCAD/Rhino/Cinema; .3dm optional im Rhino-Zweig)
 - [x] Werkzeug gebaut: `skills/volumenstudie/tools/dxf_austausch.py` (grundlage + lesen)
 - [x] **Pilot validiert** (Parzelle WD5381, Grubenstrasse 37): Grundlage-DXF mit 989 Höhenlinien
@@ -134,13 +137,3 @@ arbeitest — selber Schichtenvertrag, ein Konvertierungsschritt weniger.
 - [ ] Maxon-App-Login prüfen (für headless Cinema-Render; nur GUI)
 - [ ] Erster realer Durchlauf: Raphael zeichnet in der Pilot-DXF (`pilot/00_Grundlage/…-v01.dxf`),
       legt die Fassung in `pilot/10_Raphael/` — Hub liest, rechnet, schreibt zurück.
-=======
-**Offene Setup-Schritte:**
-- [x] `brew install gdal` — erledigt 11.06.2026 Mac Mini (GDAL 3.13.1); Höhenlinien-Kette end-to-end getestet (Giebelweg 12 Langnau: 4506 Linien à 0.5 m, Z verifiziert)
-- [x] venv `~/.venvs/volumen3d` einrichten (rhino3dm/shapely/ezdxf) — erledigt 11.06.2026 Mac Mini (Python 3.10.20)
-- [ ] Maxon-App-Login prüfen (für headless Cinema-Render)
-- [ ] **Deine Entscheidung:** Austauschformat DXF oder Rhino `.3dm`?
-
-Danach: Pilot mit einer realen Parzelle, eine Variante zeichnen, Zyklus einmal komplett
-durchspielen → Rückkanal fest im Skill `volumenstudie` verankern.
->>>>>>> Stashed changes

@@ -40,5 +40,13 @@ echt headless ansteuern und uebernehmen die generative/3D-Stufe.
 
 ## Abhaengigkeiten
 - `node` — fuer `terrain.sh` (geo-zh.mjs).
-- `gdal` (`brew install gdal`) — fuer Vektor-Hoehenlinien in `terrain.sh hoehenlinien`.
-- venv `~/.venvs/volumen3d` (rhino3dm/shapely) — fuer `rhino.sh info|py` und die Volumenstudie.
+- `gdal` (`brew install gdal`) — fuer Vektor-Hoehenlinien in `terrain.sh hoehenlinien`
+  (Mac Mini: installiert 11.06.2026, GDAL 3.13.1).
+- venv `~/.venvs/volumen3d` (Python 3.10; rhino3dm, shapely, numpy, mapbox_earcut, matplotlib,
+  ezdxf) — fuer `rhino.sh info|py`, die Volumenstudie und `contours2dxf.py`.
+
+## Hoehenlinien-Mechanik (validiert 11.06.2026)
+`terrain.sh hoehenlinien` erzeugt DXF mit echten 3D-Hoehen ueber den Umweg
+`gdal_contour -3d` → GeoJSON → `contours2dxf.py` (ezdxf, Layer `HOEHENLINIEN`,
+LWPOLYLINE mit elevation). Direkt gdal_contour → DXF geht NICHT: der OGR-DXF-Writer
+(GDAL 3.13) verwirft die Z-Komponente.
