@@ -2,8 +2,8 @@
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: emerging
 last_updated: 2026-06-10
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md]
-links: [[INDEX]], [[minergie-standards]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]]
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md]
+links: [[INDEX]], [[minergie-standards]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]]
 ---
 
 # Graue Energie & THGE
@@ -29,6 +29,11 @@ Hebel** wird.
 | Baustelle | 9 % | 4 % |
 
 → Das **groesste Sparpotenzial liegt in der Tragstruktur/Bauweise**, nicht in der Daemmstaerke.
+
+**Holzbau-Pointe:** Massivholz (CLT/Brettsperrholz) **daemmt nicht besser** als Massivbau
+(λ 0,12, braucht volle Zusatzdaemmung) — der oekologische Vorteil liegt **allein** in der
+tieferen grauen Energie der Tragstruktur und der CO₂-Bindung im Holz. Bauphysik/Details →
+`[[holzbau-bauphysik-clt]]`.
 
 ## Der zentrale Merksatz
 **Nicht an der Daemmung sparen, um graue Energie zu sparen.** Mehraufwand in der Huelle ist

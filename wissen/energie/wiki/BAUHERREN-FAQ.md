@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: emerging
-last_updated: 2026-06-09
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md]
+last_updated: 2026-06-11
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/private-kontrolle-zh.md]
 links: [[INDEX]]
 ---
 
@@ -174,6 +174,14 @@ Erneuerbare-Waerme-Nachweis (EN-120 / EN-LCC-ZH).
   **Laermschutz Waermepumpe** LN-1. Mit **Minergie-Label** entfallen EN-101–EN-111.
 - Bei Minergie/Grossbezuegern zusaetzlich Betriebsoptimierung (>200'000 kWh Strom/a).
 
+**Wer unterschreibt?** Im Kt. ZH laeuft das ueber die **Private Kontrolle**: ein dazu
+**befugter Fachmann** (Architekt/Bauphysiker/HLK-Planer) unterschreibt die EN-Formulare auf
+Plan und Bericht und haftet fuer die Richtigkeit — die Bauherrschaft zeichnet nur das
+Hauptformular, das Amt prueft i.d.R. nicht nach (darf aber). Mit erteiltem **Minergie-Label
+gelten die Anforderungen als erfuellt** (EN-101…EN-111 entfallen). Welche EN-Formulare anfallen,
+zeigt die Matrix (z.B. 102 Waermedaemmung, 104 PV, 120 Heizungsersatz, LN-1a/b Laermschutz WP)
+→ `[[private-kontrolle-zh]]`.
+
 **Quelle:** Baudirektion ZH / AWEL, Formular EN-ZH-005 (Version Juli 2022, gueltig bis 31.12.2025)
 → `[[en-zh-nachweis-uebersicht]]`; ⚠ **Datenstand 2026-06-07:** seit 1.1.2026 elektronischer
 Vollzug EVEN (`energievollzug.ch`), PDF-Formulare abgeloest — vor der Eingabe aktuellen
@@ -334,6 +342,39 @@ sofern die Substanz es zulaesst.
 ⚠ **Eigene Einordnung markiert:** die Zahlen sind Groessenordnungen aus einem Lehrmittel; fuer eine
 projektgenaue Oekobilanz gelten **KBOB-Oekobilanzdaten / SIA 2032** (noch nicht in der KB). Die
 1 : 9-Relation ist didaktisch, kein allgemeiner Faktor.
+
+---
+
+## F15 — «Lohnt sich ein Massivholzbau (CLT/Brettsperrholz) energetisch — und was muss ich bauphysikalisch beachten?»
+
+**Kurz:** Energetisch im **Betrieb** bringt Massivholz **keinen Bonus** — Holz daemmt kaum,
+eine CLT-Wand braucht trotzdem rund **180 mm Daemmung** fuer den Neubau-Grenzwert. Der
+Gewinn liegt in der **grauen Energie** (Holz bindet CO₂, tiefere Erstellungsbilanz) und im
+**Bauablauf/Komfort**: CLT ist ab drei Lagen **von sich aus luftdicht** (ohne Folie),
+feuchteregulierend und hat hohe Speichermasse. Wichtig sind drei Punkte: genug Daemmung,
+lueckenlose Luftdichtung und ein **nach aussen diffusionsoffener** Schichtaufbau.
+
+**Fachlich:** Massivholz **traegt und dichtet, daemmt aber kaum**.
+- **Waermeschutz:** λ_CLT = **0,12 W/(m·K)** — rund 4× schlechter als Mineralwolle (0,035).
+  100 mm CLT pur ergeben U ≈ **1,0 W/m²K**; erst mit ~160-180 mm Zusatzdaemmung erreicht man
+  den Neubau-Grenzwert U ≤ 0,17. Die Daemmebene liegt **vor** der Tragstruktur (anders als beim
+  Holzrahmenbau, wo die Rippen in der Daemmebene stecken) — das ist kondensat-robuster.
+- **Luftdichtheit:** Der CLT-Plattenaufbau bildet ab 3 Lagen die **luftdichte Ebene selbst** —
+  keine Folie noetig (eine klassische Fehlerquelle weniger). Mit fachgerechten Anschluessen
+  erreicht CLT **Passivhaus-Niveau (n₅₀ = 0,6 1/h)**; im Blower-Door-Test belegen.
+- **Feuchte:** CLT ist luftdicht, aber **nicht dampfdicht** — die Leimfugen wirken als
+  feuchtevariable Dampfbremse, das Holz reguliert die Raumfeuchte. Eine 3-schichtige Platte
+  hat denselben s_d-Wert wie Fichtenvollholz gleicher Dicke (Holzforschung Austria 2009).
+  **Regel:** Schichten nach aussen diffusionsoffener (s_d abnehmend), sonst Tauwasser im Bauteil.
+- **Graue Energie:** der eigentliche Hebel — Holzleichtbau hat die tiefere Erstellungsbilanz
+  (~59 vs. ~74 MJ/m²·a), die Tragstruktur ist der groesste graue-Energie-Posten (Holz ~40 %
+  vs. Massiv ~49 %). Vgl. F9.
+
+**Quelle:** «CLT by Stora Enso — Bauphysik» (Version 06.2021), Kap. 1-3 →
+`[[clt-bauphysik-stora-enso]]`; graue Energie → `[[graue-energie-betriebsenergie]]` / F9;
+Daemmstoff-λ → `[[daemmstoffe-lambda]]`. **Brandschutz** von Holzbauten (Kapselung/REI/Sichtholz)
+→ Skill `brandschutz`. ⚠ Datenstand 2026-06-11: λ 0,12 ist der Produktwert (EN ISO 10456);
+CH-Bemessung ggf. mit Zuschlag SIA 279 pruefen.
 
 ---
 

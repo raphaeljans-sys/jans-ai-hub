@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **emerging** (F1–F5, F7, F9, F10, F11, F12, F13, F14 belegt = 12; F6/F8 offen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **emerging** (F1–F5, F7, F9, F10, F11, F12, F13, F14, F15 belegt = 13; F6/F8 offen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -15,7 +15,8 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme) · **established**
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
 - [[graue-energie]] — graue Energie & THGE, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **emerging**
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null-Definition, WP-Systemvergleich F6, Minergie-ECO-Foerderung)_
+- [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) · **emerging**
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null-Definition, WP-Systemvergleich F6, Minergie-ECO-Foerderung, CLT-Bauteilkatalog/Schallschutz)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

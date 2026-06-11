@@ -18,12 +18,17 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   2013↔2018 dokumentiert) → `[[u-werte-grenzwerte-ch]]`; offen: BFE-Waermebrueckenkatalog.
 - [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
   Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
-- [ ] A6 CLT/Holzbau-Bauphysik (`clt/CLT by Stora Enso ... Building physics`).
+- [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /
+  Luftdicht folienfrei n₅₀ 0,6 / Feuchte s_d feuchtevariabel) → `[[holzbau-bauphysik-clt]]`,
+  `[[clt-bauphysik-stora-enso]]` (FAQ F15). Offen: Bauteilkatalog Kap. 4 (S. 38-178) + Schallschutz.
 
 ## Block B — Nachweis & Recht (ZH)
 - [x] B1 ZH-Energienachweis EN-ZH: welches Formular wann — belegt 2026-06-07 via EN-ZH-005
   → `[[energienachweis-zh]]` (FAQ F12). ⚠ Vollzug seit 1.1.2026 elektronisch (EVEN, energievollzug.ch).
-- [ ] B2 Energienutzungs-Deklaration bei geringfuegigen Umbauten (wann genuegt sie?).
+- [~] B2 Private Kontrolle / wer unterschreibt den EN-Nachweis — belegt 2026-06-11 via Liste der
+  Befugten (BBV I LS 700.21 §4-7) → `[[private-kontrolle-zh]]` (FAQ F12 geschaerft: Befugter zeichnet,
+  Minergie-Label = Anforderungen erfuellt, EN-Formular-Matrix). Offen: Energienutzungs-Deklaration
+  bei geringfuegigen Umbauten (wann genuegt sie?).
 - [x] B3 Minergie / Minergie-P / -A / -ECO: Stufen, Nutzen, Aufwand — belegt + auf Stand 2023
   aktualisiert 2026-06-09 via Minergie-Ueberarbeitung 09/2023 (Kennzahl 51/46/29, THGE 11 kg/m²,
   Wetterdaten 2035) → `[[minergie-standards]]` (FAQ F5). **vollstaendig.**

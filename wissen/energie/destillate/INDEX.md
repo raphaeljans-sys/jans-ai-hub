@@ -23,3 +23,5 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[graue-energie-betriebsenergie]] | _Heizwaermebedarf/Betriebsenergie | emerging (vollst., 1 S.) | ⚠ Lehrmittel-Grobwerte |
 | [[wta-formular-zh-waermetechnische-anlagen]] | endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular | established (vollst., 5 S.) | 2024-01; seit 1.1.2026 EVEN |
 | [[enerhaus-minergie-nachweis-efh-umbau]] | U Wert berechnung/Energienachweis 380-1 Muster | emerging (vollst., 9 S.) | ⚠ 2010 / SIA 380/1:2009 |
+| [[clt-bauphysik-stora-enso]] | U Wert berechnung/clt/CLT by Stora Enso ... Building physics | established (Kap. 1-3, S. 4-37; Kap. 4 offen) | 2021 / EN ISO 10456 |
+| [[private-kontrolle-zh]] | _Private Kontrolle/zh_komplett | established (S. 1-3; Namensregister ausgelassen) | April 2025 / BBV I LS 700.21 |
