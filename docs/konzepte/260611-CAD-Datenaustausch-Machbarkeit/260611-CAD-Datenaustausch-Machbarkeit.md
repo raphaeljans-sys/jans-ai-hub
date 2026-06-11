@@ -121,11 +121,14 @@ Baulinie überschritten (sonst `AUS_KONFLIKT`). Annahmen werden ausgewiesen, Ide
 **Format:** DXF (universell, jedes CAD) empfohlen; Rhino `.3dm` als Alternative falls Du in Rhino
 arbeitest — selber Schichtenvertrag, ein Konvertierungsschritt weniger.
 
-**Offene Setup-Schritte:**
-- [ ] `brew install gdal` (für Vektor-Höhenlinien)
-- [ ] venv `~/.venvs/volumen3d` einrichten (rhino3dm/shapely; Sync-Task liegt vor)
-- [ ] Maxon-App-Login prüfen (für headless Cinema-Render)
-- [ ] **Deine Entscheidung:** Austauschformat DXF oder Rhino `.3dm`?
-
-Danach: Pilot mit einer realen Parzelle, eine Variante zeichnen, Zyklus einmal komplett
-durchspielen → Rückkanal fest im Skill `volumenstudie` verankern.
+**Setup-Stand (11.06.2026, nachmittags):**
+- [x] `gdal` installiert (Vektor-Höhenlinien laufen, `gdal_contour -3d` → Höhe als Z)
+- [x] venv `~/.venvs/volumen3d` eingerichtet (rhino3dm 8.17, shapely, numpy, mapbox_earcut, **ezdxf**)
+- [x] **Format entschieden: DXF** (gemeinsamer Nenner ArchiCAD/Rhino/Cinema; .3dm optional im Rhino-Zweig)
+- [x] Werkzeug gebaut: `skills/volumenstudie/tools/dxf_austausch.py` (grundlage + lesen)
+- [x] **Pilot validiert** (Parzelle WD5381, Grubenstrasse 37): Grundlage-DXF mit 989 Höhenlinien
+      erzeugt, simulierte Bearbeitung zurückgelesen — Baufeld 1'320 m², V-A 540 m², 7'749 m³
+      (Satteldach-Näherung), Prüfung ohne Befunde. Ablage: `pilot/` neben diesem Konzept.
+- [ ] Maxon-App-Login prüfen (für headless Cinema-Render; nur GUI)
+- [ ] Erster realer Durchlauf: Raphael zeichnet in der Pilot-DXF (`pilot/00_Grundlage/…-v01.dxf`),
+      legt die Fassung in `pilot/10_Raphael/` — Hub liest, rechnet, schreibt zurück.

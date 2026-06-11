@@ -87,6 +87,26 @@ curl "https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry=E,
 | Commandline-Renderer | `/Applications/Maxon Cinema 4D 2026/Commandline.app` | Validierter Batch-Aufruf (11.06.2026, ~22 s/Bild): `printf "1\n" \| .../Commandline.app/Contents/MacOS/Commandline -nogui -render SZENE.c4d -frame 0 0 -oimage PFAD -oformat PNG` — KEIN `g_licenseUsername`-Argument mitgeben (haengt sonst); rendert die zuletzt aktive Kamera der Szene |
 | Rhino 8 | `/Applications/Rhino 8.app` | Nur zum manuellen Weiterarbeiten am .3dm — die Pipeline braucht Rhino NICHT |
 
+## Rueckkanal: DXF-Austausch mit dem Architekten (11.06.2026, validiert)
+
+Gegenrichtung zur Parameter-Pipeline: Raphael zeichnet selbst (Baufeld, Volumen-Varianten,
+First, Hoehen), der Hub liest zurueck. Prinzip (Schichtenvertrag BASIS_/EIN_/AUS_, LV95,
+Hoehen-Etikett `V-A | TH=.. | FH=.. | OKT=..`): `docs/konzepte/260611-CAD-Datenaustausch-Machbarkeit/`.
+
+```bash
+# Grundlage-DXF erzeugen (amtliches Polygon + Hoehenlinien + leere EIN-Layer)
+~/.venvs/volumen3d/bin/python tools/dxf_austausch.py grundlage \
+  --parzelle p.geojson --name 260611-NAME --out DIR \
+  --egrid CH... --parzellennr N --okt 430.0 --hoehenlinien contours.dxf
+# Bearbeitete Fassung zuruecklesen (Validierung + Kennzahlen als JSON)
+~/.venvs/volumen3d/bin/python tools/dxf_austausch.py lesen --datei DIR/...-v02.dxf
+```
+
+Hoehenlinien liefert `connectors/cad/terrain.sh hoehenlinien` (swissALTI3D → `gdal_contour -3d`,
+Hoehe als Z). CAD-Anbindung (Cinema/Rhino/ArchiCAD inkl. Lizenz-Modell): `connectors/cad/README.md`.
+Validierter Pilot: Parzelle WD5381 Grubenstrasse 37 (Zyklus Grundlage→Bearbeitung→Ruecklesen komplett).
+venv enthaelt zusaetzlich **ezdxf** (DXF-Lesen/Schreiben).
+
 ## Roadmap (naechste Ausbaustufen)
 
 1. Nachbarparzellen + Bestandsgebaeude (ch.swisstopo.swissbuildings3d) als Kontext in die Szene

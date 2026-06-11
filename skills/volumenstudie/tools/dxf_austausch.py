@@ -92,12 +92,21 @@ def cmd_grundlage(a):
     if a.hoehenlinien:
         src = ezdxf.readfile(a.hoehenlinien)
         n = 0
+        attribs = {"layer": "BASIS_HOEHENLINIEN"}
         for e in src.modelspace():
-            if e.dxftype() in ("LWPOLYLINE", "POLYLINE", "LINE"):
-                e.copy_to_layout(msp)
-                msp[-1].dxf.layer = "BASIS_HOEHENLINIEN"
-                n += 1
-        print(f"  Hoehenlinien uebernommen: {n} Elemente")
+            t = e.dxftype()
+            if t == "POLYLINE":
+                pts = [tuple(v.dxf.location) for v in e.vertices]
+                if len(pts) > 1:
+                    msp.add_polyline3d(pts, dxfattribs=attribs); n += 1
+            elif t == "LWPOLYLINE":
+                z = float(e.dxf.elevation or 0)
+                pts = [(p[0], p[1], z) for p in e]
+                if len(pts) > 1:
+                    msp.add_polyline3d(pts, dxfattribs=attribs); n += 1
+            elif t == "LINE":
+                msp.add_line(tuple(e.dxf.start), tuple(e.dxf.end), dxfattribs=attribs); n += 1
+        print(f"  Hoehenlinien uebernommen: {n} Polylinien (Hoehe als Z)")
 
     # Koordinatenkreuz (auf 100 m gerundet, beschriftet) + Nordpfeil
     ke, kn = round(cx, -2), round(cy, -2)
