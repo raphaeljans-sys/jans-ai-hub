@@ -18,6 +18,11 @@ eine Dauerregel handelt.
 - **Gilt für:** <Kontext / Anwendungsbereich>
 ```
 
+## 260611 — Konzeptionelle/Pipeline-Dokumente zentral aufs NAS
+- **Auslöser:** "wäre es nicht besser wenn wir in bezug auf konzeptionelle pipeline fragestellungen alles auf dem nas abspeichern zentral sodass alle arbeitsstationen und ai modelle immer auf dem aktuellsten stand sind … bitte lege alle immer zentral auf dem nas ab" (Konzept-PDF war faelschlich nur in OneDrive gelandet)
+- **Regel:** Konzept-, Prinzip- und Pipeline-Dokumente (Architektur-/Workflow-Entscheide, Datenaustausch-Prinzipien, Connector-Konzepte) werden **kanonisch auf dem NAS** unter `/Volumes/daten/jans-ai-hub/docs/konzepte/` abgelegt (MD als Wahrheit, DOCX/PDF danebenliegend), damit alle Stationen und AI-Modelle denselben aktuellen Stand sehen. Eine Lese-/Praesentationskopie (PDF) darf zusaetzlich in den OneDrive-Output-Ordner gelegt werden — die Wahrheit bleibt das NAS. Ergaenzt `sync-kanonische-quelle.md` (NAS = einzige Wahrheit).
+- **Gilt für:** Alle Konzept-/Pipeline-Erzeugnisse auf allen Stationen.
+
 ## 260611 — Mobile-Ketten nie vom MacBook Pro abhaengig machen
 - **Auslöser:** "ich finde diese kette sehr schwach warum muss das mac book pro in dieser kette vorhanden sein am besten wäre doch der mac mini weil der ist immer an und der mac book pro ist immer unterwegs und oft ausgeschaltet" (Dispatch-Thread war historisch ans MacBook gekoppelt)
 - **Regel:** Jede Always-On-/Fernsteuerungs-Strecke (Dispatch, Scheduled Tasks, Runner, Automationen, künftige Connectoren) wird so gebaut, dass der MAC MINI der einzige notwendige Endpunkt ist. Das MacBook Pro ist mobil und oft aus — es darf nie ein notwendiges Glied einer Kette sein, höchstens optionaler Mitnutzer. Bestehende Kopplungen, die das MacBook voraussetzen, gelten als Geburtsfehler und werden auf den Mac Mini umgezogen, sobald möglich (bei Dispatch: QR-Neukopplung am Mac Mini). Workarounds wie SSH-Weiterleitung sind nur Sicherheitsnetz, nie Soll-Architektur.

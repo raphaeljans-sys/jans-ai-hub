@@ -6,6 +6,7 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-oereb-egrid-bezug]] — OEREB-Auszug & EGRID beziehen (Kt. ZH) · **established**
 - [[kartenportale-bund-geodaten]] — Hoehe/Orthofoto/DTM/Bauzonen je Parzelle (geo.admin) + Connector `--produkt` · **established**
 - [[kartenportale-geoportale-uebersicht]] — welches Portal liefert was · **established**
+- [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
 
 ## Recht & Norm (PL-02)
 - [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-Bezug, Datenstand RPG 2 2026 · **established**
