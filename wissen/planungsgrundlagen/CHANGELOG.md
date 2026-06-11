@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-11 — Geoshop-Connector: Grundstueckkataster (AV-DXF) automatisiert (A4 ✓)
+- **NEU Connector `geoshop-zh.mjs`**: offizieller, login-freier Geodatenshop-Bezug Kt. ZH via
+  REST-API `geoservices.zh.ch/geoshopapi/v1` (Doku zh.ch `rest_schnittstelle_ogd_interface.pdf`).
+  Bestellung asynchron (POST orders → Polling → Zip-Download); Perimeter je **Gemeinde**
+  (COMMUNE/BFS) oder **Parzelle** (PARCEL/EGRID). JANS-Standardfall: Produkt **10016**
+  AV-Datenmodell ZH als **DXF (25)** = der bisher manuelle "Grundstueckkataster"-Bezug
+  (`<bfs>-<gemeinde>-gds.dxf` + Lieferschein). **DWG bietet der Shop nicht an.**
+- Live validiert: Langnau am Albis (BFS 0136), Ablage SharePoint
+  `PL - 01 Kartenportale/Grundstueckkataster/Langnau a Albis`.
+- geodienste.ch als Alternative kartiert: INTERLIS ganzer Kanton direkt
+  (`/downloads/interlis/av/ZH/av_ZH_lv95.zip`); DXF-GEOBAU nur via Formular (max 5 Grundstuecke).
+- QUESTIONS **A4 ✓**; `kartenportale-geoportale-uebersicht` um Geoshop-API-Zeile + Checklisten-
+  Eintrag ergaenzt; Connector-README erweitert.
+
 ## 2026-06-10 — Trainings-Lauf 3: Kartenportale (PL-01) + Connector-Ausbau
 - **NEU** `wiki/kartenportale-bund-geodaten.md` (**established**): vier login-freie geo.admin-
   Endpunkte je Parzelle, alle live getestet (Kat. 3338 Langnau a.A. / EGRID CH879777718909):

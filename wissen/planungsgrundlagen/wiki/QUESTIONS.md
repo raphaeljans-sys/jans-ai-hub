@@ -13,7 +13,16 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
 - [x] **A3** Hoehenmodell (swissALTI3D) + Orthofoto (SWISSIMAGE) je Parzelle. ✓ 2026-06-10:
   `height`-Service + STAC `swissimage-dop10`/`swissalti3d` validiert, im Connector `--produkt
   height,orthofoto,dtm` (+`--download`) → [[kartenportale-bund-geodaten]].
-- [ ] **A4** Situationsplan amtliche Vermessung (geodienste OGD) als Bezugsskript.
+- [x] **A4** Situationsplan/Grundstueckkataster amtliche Vermessung als Bezugsskript.
+  ✓ 2026-06-11: **Geoshop-API Kt. ZH** (`geoservices.zh.ch/geoshopapi/v1`, login-frei,
+  offiziell dokumentiert in zh.ch `rest_schnittstelle_ogd_interface.pdf`) via neuem
+  Connector `geoshop-zh.mjs` — Produkt 10016 AV-Datenmodell ZH als DXF (Format 25) je
+  Gemeinde (COMMUNE/BFS) oder Parzelle (PARCEL/EGRID); asynchrone Bestellung mit Polling +
+  Zip-Download (`<bfs>-<gemeinde>-gds.dxf` + Lieferschein). **DWG existiert im Shop nicht**
+  — DXF ist das CAD-Austauschformat. Alternative geodienste.ch: INTERLIS ganzer Kanton
+  direkt (`geodienste.ch/downloads/interlis/av/ZH/av_ZH_lv95.zip`); DXF-GEOBAU dort nur via
+  Rails-Formular (max 5 Grundstuecke, CSRF) — nicht automatisierungstauglich.
+  → [[kartenportale-geoportale-uebersicht]]
 - [ ] **A5** Eigentumsabfrage ObjektwesenZH per EGRID: Ablauf + ob automatisierbar.
 
 ## B — Recht & Norm

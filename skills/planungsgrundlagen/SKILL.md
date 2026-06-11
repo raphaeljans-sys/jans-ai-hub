@@ -72,14 +72,20 @@ Frage an `brandschutz` durchreichen (VKF-Norm 2015, Richtlinien, EI/RF-Klassen).
 PV-/Solar-Eignung (Indach/Ziegel/transparent/Fassade/Aufdach), U-Wert/Bauteilkatalog
 (SIA 380/1), Energienachweis-Vorpruefung, ZH-Baueingabe-Energieformulare.
 
-## Connector
+## Connectoren
 
-`connectors/geo-zh.mjs` — siehe `connectors/README.md`. Validiert fuer Kt. ZH. Beispiel:
+Siehe `connectors/README.md`. Validiert fuer Kt. ZH:
 
 ```bash
+# OEREB/EGRID/Bund-Produkte (synchron)
 node connectors/geo-zh.mjs --adresse "Giebelweg 12 Langnau am Albis" --oereb \
   --out ".../PL - 01 Kartenportale/OEREB-Auszug" \
   --out ".../AR - 03 Studien/2621 Giebelweg 12/01_Plaene/99 Plangrundlage"
+
+# Grundstueckkataster / amtliche Vermessung als DXF (Geodatenshop, asynchron mit Polling)
+node connectors/geoshop-zh.mjs --gemeinde "Langnau am Albis" \
+  --out ".../PL - 01 Kartenportale/Grundstueckkataster/Langnau a Albis"
+# auch je Parzelle (--egrid CH...) oder andere Shop-Produkte (--produkt/--format, --list)
 ```
 
 ## Wissens-KB & Training

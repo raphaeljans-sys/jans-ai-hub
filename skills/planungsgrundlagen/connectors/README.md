@@ -3,10 +3,11 @@
 Beschaffen amtliche Geodaten zu einer Parzelle/Adresse. Standalone Node-Scripts (Node 18+,
 globales `fetch`). Keine API-Keys noetig fuer EGRID/OEREB.
 
-| Connector | Kanton | OEREB-Endpunkt | Besonderheit |
+| Connector | Kanton | Endpunkt | Besonderheit |
 |---|---|---|---|
-| `geo-zh.mjs` | ZH (+SZ-Direktbezug per EGRID) | `maps.zh.ch/oereb/v2/...` | Server liefert JANS-Dateinamen |
+| `geo-zh.mjs` | ZH (+SZ-Direktbezug per EGRID) | `maps.zh.ch/oereb/v2/...` | OEREB; Server liefert JANS-Dateinamen |
 | `geo-sz.mjs` | **SZ** | `map.geo.sz.ch/oereb/extract/pdf` | **Parzellensuche** + eigene Umbenennung; Adress-HNr-Warnung |
+| `geoshop-zh.mjs` | ZH | `geoservices.zh.ch/geoshopapi/v1` | **Geodatenshop-Bestellungen** (asynchron): amtliche Vermessung/Grundstueckkataster als DXF u.v.m. |
 
 Fuer den Kanton Schwyz **immer `geo-sz.mjs`** verwenden (siehe Skill `oereb-schwyz`): die
 Parzellensuche ist eindeutig und vermeidet die Nachbarparzellen-Falle der Adress-Geokodierung.
@@ -120,3 +121,60 @@ der SZ-Server nur `JJJJMMTThhmmss_extract.pdf` liefert).
 **Fallgrube Adresse ≠ Parzelle:** "Bahnhofstrasse 27 Wangen" -> faelschlich Parzelle 193
 statt 25. Darum fuer SZ die Parzellensuche bevorzugen; EGRID nie erfinden
 (`identifikatoren-verifizieren`).
+
+---
+
+## geoshop-zh.mjs (Kt. ZH — Geodatenshop/Datenbezug)
+
+Automatisiert den **Geodatenshop-Bezug** (das, was bisher manuell im GIS-Browser unter
+"Datenbezug" bestellt wurde) ueber die offizielle, **login-freie REST-API**:
+
+```
+GET  geoservices.zh.ch/geoshopapi/v1/products              Produkte + Formate + Gemeinden
+POST geoservices.zh.ch/geoshopapi/v1/orders                Bestellung (asynchron, Queue)
+GET  geoservices.zh.ch/geoshopapi/v1/orders/<id>           Status (QUEUED/WORKING/SUCCESS)
+GET  geoservices.zh.ch/geoshopapi/v1/orders/<id>/download  Liefer-Zip (Daten + Lieferschein.pdf)
+```
+
+Doku: zh.ch `rest_schnittstelle_ogd_interface.pdf` (REST API v1.2.0). Validiert 11.06.2026
+(Langnau am Albis, BFS 0136).
+
+**JANS-Standardfall Grundstueckkataster:** Produkt **10016** "Amtliche Vermessung -
+Datenmodell ZH (Standard) (OGD)" als Format **25 = DXF** — Lieferung
+`<bfs>-<gemeinde>-gds.dxf` + `Lieferschein.pdf` (identisch zu den manuellen Bezuegen auf
+SharePoint `PL - 01 Kartenportale/Grundstueckkataster/`). **DWG bietet der Shop nicht an** —
+DXF ist das offizielle CAD-Austauschformat (GEOBAU/SN 612 020) und oeffnet in jedem CAD.
+
+```bash
+# Grundstueckkataster (AV-DXF) fuer eine ganze Gemeinde -> direkt in den SharePoint-Ordner
+node geoshop-zh.mjs --gemeinde "Langnau am Albis" \
+  --out ".../PL - 01 Kartenportale/Grundstueckkataster/Langnau a Albis"
+
+# dito per BFS-Nr oder fuer einzelne Parzelle(n) per EGRID
+node geoshop-zh.mjs --bfs 136 --out "/pfad"
+node geoshop-zh.mjs --egrid CH879777718909 --out "/pfad"
+
+# anderes Produkt/Format; Katalog ansehen
+node geoshop-zh.mjs --gemeinde Maur --produkt 10016 --format shp --out "/pfad"
+node geoshop-zh.mjs --list --filter vermessung
+
+# abgebrochene/laufende Bestellung spaeter abholen (IDs ~1 Woche gueltig)
+node geoshop-zh.mjs --order <order-id> --out "/pfad"
+```
+
+| Flag | Bedeutung |
+|---|---|
+| `--gemeinde <name>` | ganze Gemeinde (INDIRECT/COMMUNE); 0/mehrdeutige Treffer = Abbruch |
+| `--bfs <nnn>` | Gemeinde per BFS-Nr |
+| `--egrid <CH...>` | einzelne Parzelle(n), Komma-Liste moeglich (INDIRECT/PARCEL) |
+| `--produkt <id>` | default 10016 (AV Datenmodell ZH) — weitere via `--list` |
+| `--format <name\|id>` | default `dxf` (25); `dwg` wird auf DXF gemappt (mit Hinweis) |
+| `--email <adr>` | Liefer-Mail (default rj@raphaeljans.ch) |
+| `--out <dir>` | Zielordner (mehrfach); Zip wird entpackt UND behalten (`--no-unzip` schaltet ab) |
+| `--timeout <s>` | max. Polling-Wartezeit (default 1800) |
+| `--order <id>` | bestehende Bestellung weiterverfolgen statt neu bestellen |
+| `--json` / `--quiet` | Ausgabesteuerung |
+
+**Grenzen:** Raster-/LAZ-Produkte gehen nicht fuer ganze Gemeinden (nur DIRECT-Perimeter
+< 5 km2 oder 1 Parzelle; Ausnahme Produkt 103 Raster-Uebersichtsplan). Bestell-IDs werden
+serverseitig nach ~1 Woche geloescht.
