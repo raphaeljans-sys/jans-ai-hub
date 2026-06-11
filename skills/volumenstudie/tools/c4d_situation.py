@@ -80,17 +80,23 @@ def kamera(doc, name, pos, ziel, brennweite=50):
     return cam
 
 
+def _videoposts(rd):
+    vp = rd.GetFirstVideoPost()
+    while vp:
+        yield vp
+        vp = vp.GetNext()
+
+
 def render(doc, cam, pfad, breite, hoehe):
     bd = doc.GetActiveBaseDraw()
     bd.SetSceneCamera(cam)
     rd = doc.GetActiveRenderData()
     rd[c4d.RDATA_XRES], rd[c4d.RDATA_YRES] = float(breite), float(hoehe)
     rd[c4d.RDATA_ANTIALIASING] = c4d.RDATA_ANTIALIASING_BEST
-    # Ambient Occlusion fuer die weiche Tiefe des Referenz-Looks
-    vp = c4d.BaseList2D(c4d.VPambientocclusion)
-    vp[c4d.VPAMBIENTOCCLUSION_MAXIMUMLENGTH] = 800.0   # 8 m Radius
-    vp[c4d.VPAMBIENTOCCLUSION_ACCURACY] = 0.7
-    rd.InsertVideoPost(vp)
+    # Ambient Occlusion fuer die weiche Tiefe des Referenz-Looks (einmalig, Defaults —
+    # die Parameter-Symbole variieren je C4D-Version)
+    if not any(v.GetType() == c4d.VPambientocclusion for v in _videoposts(rd)):
+        rd.InsertVideoPost(c4d.BaseList2D(c4d.VPambientocclusion))
     bmp = c4d.bitmaps.BaseBitmap()
     bmp.Init(int(breite), int(hoehe), 24)
     res = c4d.documents.RenderDocument(doc, rd.GetData(), bmp, c4d.RENDERFLAGS_EXTERNAL)
@@ -118,6 +124,11 @@ def szene_bauen(teile, set_name):
                 farben.get(basis, c4d.Vector(0.95, 0.95, 0.95))
         mat = material(doc, f"M_{grp}", farbe)
         o = polygon_objekt(grp, verts, faces)
+        if basis in ("terrain", "baeume"):
+            # Phong-Glaettung: weiches Gelaende/runde Kronen statt harter Facetten
+            ph = o.MakeTag(c4d.Tphong)
+            ph[c4d.PHONGTAG_PHONG_ANGLELIMIT] = True
+            ph[c4d.PHONGTAG_PHONG_ANGLE] = c4d.utils.DegToRad(60.0)
         doc.InsertObject(o)
         zuweisen(o, mat)
         objs.append(o)

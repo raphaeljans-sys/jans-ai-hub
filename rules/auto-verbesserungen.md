@@ -9,6 +9,14 @@ Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh
 (`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
 eine Dauerregel handelt.
 
+## 260611 — Sichtbarkeit bei laufenden lokalen Jobs (Render, Builds)
+Raphael nutzt die Aktivitaetsanzeige (drei Punkte in der Recents-Vorschau) als Signal,
+dass Claude arbeitet. Bei laengeren lokalen Jobs (C4D-Render, Builds, Downloads) deshalb
+BEVORZUGT im Vordergrund warten (Wait-Loop im Zug, Status-Updates), statt still in den
+Hintergrund zu legen und den Zug zu beenden. Hintergrund nur, wenn der Job laenger als
+~10 Minuten dauert ODER parallel weitergearbeitet wird — dann explizit ankuendigen,
+dass die Anzeige auf idle springt und die Meldung automatisch kommt.
+
 ## Eintrags-Format (beim Anhängen genau so verwenden, neueste zuoberst)
 
 ```
