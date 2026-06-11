@@ -37,7 +37,19 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
   `geoservices.zh.ch/geoshopapi/v1` via Connector `geoshop-zh.mjs`: Produkt 10016
   (AV-Datenmodell ZH) als DXF je Gemeinde oder EGRID-Parzelle, asynchron mit Polling
   (validiert 2026-06-11, Langnau am Albis). Kein DWG im Angebot — DXF ist das CAD-Format.
-- **Baulinien / Abstandslinien** → OEREB-Kataster + kommunale Baulinienplaene
+- **Baulinien / Abstandslinien** → OEREB-Kataster (rechtskraeftige, je Parzelle als
+  betroffen/nicht betroffen) + kommunale Baulinienplaene. **Als Vektor login-frei** ueber den
+  ZH-OGD-WFS `maps.zh.ch/wfs/OGDZHWFS` (GeoJSON, EPSG:2056), Datensatz 0158
+  (ARV Abstandslinien/Baulinien): Layer `ms:ogd-0158_arv_basis_abstandslinie_baulinie_l`
+  (rechtskraeftig) **und** `ms:ogd-0158_arv_basis_abstandslinie_baulinie_proj_l`
+  (**projektierte/geplante** Baulinien — entgegen verbreiteter Annahme also doch als
+  Vektoren verfuegbar). Abfrage je Ort via BBOX-Parameter; Attribut `typ_txt`
+  (z.B. `Baulinie.Verkehr`). Validiert 2026-06-11 am Fall Giebelweg 12 Langnau a.A.
+  (EGRID CH879777718909, Parzelle 3338, BFS 136): Parzelle in allen 5 OEREB-
+  Baulinien-Themen «nicht betroffen»; rechtskraeftige Verkehrsbaulinien in der
+  Umgebung vorhanden, projektierte im 400-m-Fenster keine. **Grenze:** Linien, die
+  erst im Festsetzungsverfahren sind (oeffentliche Auflage), erscheinen u.U. noch
+  nicht im proj-Layer — dann nur Gemeinde/Tiefbauamt (Auflageakten, Amtsblatt).
 
 ## Offen (→ QUESTIONS)
 - A2: rechtsverbindlicher kommunaler ZH-Zonenplan-WMS login-frei (wms.zh.ch geschuetzt).
