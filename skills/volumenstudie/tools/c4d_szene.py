@@ -105,7 +105,8 @@ def render(doc, cam, pfad, breite=1600, hoehe=1200):
 
 def main(argv):
     ap = argparse.ArgumentParser()
-    ap.add_argument("--obj", required=True, help="Volumen-OBJ")
+    ap.add_argument("--obj", required=True, action="append",
+                    help="Volumen-OBJ (mehrfach moeglich, z.B. Haupt + Attika)")
     ap.add_argument("--kontext", help="Kontext-OBJ (Parzelle)")
     ap.add_argument("--out", required=True)
     ap.add_argument("--name", required=True)
@@ -117,11 +118,13 @@ def main(argv):
     mat_parz = material(doc, "Parzelle", c4d.Vector(0.75, 0.75, 0.72))
     mat_boden = material(doc, "Boden", c4d.Vector(0.85, 0.85, 0.83))
 
-    verts, faces = lade_obj(args.obj)
-    vol = polygon_objekt(f"Volumen_{args.name}", verts, faces)
-    doc.InsertObject(vol)
-    zuweisen(vol, mat_vol)
-    objs = [vol]
+    objs = []
+    for i, pfad in enumerate(args.obj):
+        verts, faces = lade_obj(pfad)
+        vol = polygon_objekt(f"Volumen_{args.name}_{i + 1}", verts, faces)
+        doc.InsertObject(vol)
+        zuweisen(vol, mat_vol)
+        objs.append(vol)
 
     if args.kontext:
         kv, kf = lade_obj(args.kontext)
