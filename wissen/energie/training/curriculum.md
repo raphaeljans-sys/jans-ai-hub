@@ -59,6 +59,6 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Gewicht um). Offen: vollstaendige Lebenszyklus-CO₂-Bilanz inkl. Energietraeger.
 
 ## Meta
-- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **12 belegt** (F1-F5, F7, F9, F10, F11,
-  F12, F13, F14; F9 graue Energie + F14 Heizungsersatz neu 2026-06-10); offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null).
+- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **13 belegt** (F1-F5, F7, F9, F10, F11,
+  F12, F13, F14, F15; F15 Massivholz/CLT neu 2026-06-11); offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.)
