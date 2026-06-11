@@ -28,10 +28,16 @@ tools/volumen_generator.py        (venv: ~/.venvs/volumen3d, Python 3.10)
   │  → Extrusion je Variante (rhino3dm)
   │  Outputs: NAME.3dm · NAME_<V>.obj · NAME_kontext.obj · NAME_kennzahlen.json
   ▼
-tools/c4d_szene.py                (c4dpy, Cinema 4D 2026 headless)
+tools/axo_render.py               (lizenzfreier Fallback, matplotlib im venv)
+  │  Sofort-Axonometrie: weisses Volumenmodell, Lambert-Schattierung, Parzellen-Platte
+  │  Output: NAME_<V>_axo.png  — laeuft IMMER, kein C4D noetig
+  ▼
+tools/c4d_szene.py                (c4dpy, Cinema 4D 2026 headless — Praesentationsqualitaet)
   │  OBJ → PolygonObject, weisses Volumenmodell, Sonne+Fuelllicht, Boden
   │  3 Standardkameras: axo / auge_sw / auge_no
   │  Outputs: NAME_<ansicht>.png · NAME.c4d
+  │  VORAUSSETZUNG: Maxon App eingeloggt (sonst Fehler 718 «Loggen Sie sich ein»);
+  │  erster c4dpy-Start fragt Lizenzmethode → "1" (Maxon App) auf stdin
   ▼
 Studienbericht (studien-generator) + Grobkosten (grobkosten-onepager, m3)
 ```
