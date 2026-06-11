@@ -84,7 +84,7 @@ curl "https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometry=E,
 |---|---|---|
 | Python-venv | `~/.venvs/volumen3d` | Python 3.10 (rhino3dm hat noch kein 3.14-Wheel); rhino3dm, shapely, numpy, mapbox_earcut |
 | c4dpy | `/Applications/Maxon Cinema 4D 2026/c4dpy.app/Contents/MacOS/c4dpy` | Erster Start fragt Lizenzmethode (1 = Maxon App) |
-| Commandline-Renderer | `/Applications/Maxon Cinema 4D 2026/Commandline.app` | Alternative fuer Batch-Renderings fertiger .c4d-Szenen |
+| Commandline-Renderer | `/Applications/Maxon Cinema 4D 2026/Commandline.app` | Validierter Batch-Aufruf (11.06.2026, ~22 s/Bild): `printf "1\n" \| .../Commandline.app/Contents/MacOS/Commandline -nogui -render SZENE.c4d -frame 0 0 -oimage PFAD -oformat PNG` — KEIN `g_licenseUsername`-Argument mitgeben (haengt sonst); rendert die zuletzt aktive Kamera der Szene |
 | Rhino 8 | `/Applications/Rhino 8.app` | Nur zum manuellen Weiterarbeiten am .3dm — die Pipeline braucht Rhino NICHT |
 
 ## Roadmap (naechste Ausbaustufen)
