@@ -20,7 +20,7 @@ case "$cmd" in
           if ! command -v gdal_contour >/dev/null 2>&1; then
             echo "gdal fehlt — Hoehenlinien-Generierung nicht moeglich."
             echo "Einmalige Einrichtung:  brew install gdal"
-            echo "Mechanik danach: DTM-GeoTIFF (terrain.sh dtm) → gdal_contour -a hoehe -i <intervall> in.tif out.dxf"
+            echo "Mechanik danach: DTM-GeoTIFF (terrain.sh dtm) → gdal_contour -3d -i <intervall> in.tif out.dxf"
             exit 5
           fi
           # 1) DTM-Kachel beschaffen (geo-zh.mjs legt GeoTIFF in --out ab)
