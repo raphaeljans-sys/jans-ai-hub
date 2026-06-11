@@ -111,6 +111,11 @@ for TASK in "${TASKS[@]}"; do
     else
         SCRIPT=$(sed -n '/^```bash$/,/^```$/p' "$TASK" | grep -v '```')
         if [ -n "$SCRIPT" ]; then
+            # /tmp ist stationslokal — fehlende Referenzen ins Log (Alt-Format vor
+            # Fix 11.06.2026; neue Tasks betten Inhalt ein oder nutzen NAS-Pfade)
+            for PFAD in $(printf '%s\n' "$SCRIPT" | grep -oE '(/private)?/tmp/[A-Za-z0-9._/-]+' | sort -u); do
+                [ -e "$PFAD" ] || log "  WARNUNG: referenziert $PFAD — existiert auf $STATION nicht (/tmp ist stationslokal)"
+            done
             if eval "$SCRIPT" >> "$LOG" 2>&1; then OK=1; else OK=0; fi
         else
             log "  kein Bash-Block gefunden — uebersprungen"

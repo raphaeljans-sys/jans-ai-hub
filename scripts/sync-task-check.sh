@@ -44,7 +44,7 @@ if [ ! -d "$NAS_QUEUE" ]; then
 fi
 
 # Pending Tasks zaehlen
-TASKS=($(find "$NAS_QUEUE" -name "*.md" -type f 2>/dev/null | sort))
+TASKS=($(find "$NAS_QUEUE" -maxdepth 1 -name "*.md" -type f 2>/dev/null | sort))
 COUNT=${#TASKS[@]}
 
 if [ "$COUNT" -eq 0 ]; then
@@ -93,13 +93,25 @@ for TASK in "${TASKS[@]}"; do
 
     if [ "$1" = "--run" ]; then
         echo ""
+        # /tmp ist stationslokal: referenzierte Dateien, die hier fehlen, sind
+        # vermutlich auf der Quellstation erstellt worden (Alt-Format vor Fix
+        # 11.06.2026). Neue Tasks betten den Script-Inhalt ein oder verweisen
+        # auf sync-tasks/<station>/scripts/ (NAS, ueberall erreichbar).
+        for PFAD in $(printf '%s\n' "$SCRIPT" | grep -oE '(/private)?/tmp/[A-Za-z0-9._/-]+' | sort -u); do
+            if [ ! -e "$PFAD" ]; then
+                echo "   ⚠️  Referenziert $PFAD — existiert auf dieser Station NICHT (/tmp ist stationslokal)"
+            fi
+        done
         echo "   ⏳ Ausfuehren..."
-        if eval "$SCRIPT" 2>&1 | sed 's/^/   | /'; then
+        OUTPUT=$(eval "$SCRIPT" 2>&1)
+        RC=$?
+        [ -n "$OUTPUT" ] && printf '%s\n' "$OUTPUT" | sed 's/^/   | /'
+        if [ $RC -eq 0 ]; then
             echo "   ✅ Erfolgreich"
             mv "$TASK" "$NAS_DONE/$BASENAME"
             echo "   → Verschoben nach done/"
         else
-            echo "   ❌ Fehlgeschlagen — Task bleibt in Queue"
+            echo "   ❌ Fehlgeschlagen (Exit $RC) — Task bleibt in Queue"
         fi
     fi
 
