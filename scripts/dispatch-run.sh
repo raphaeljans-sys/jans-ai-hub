@@ -105,16 +105,33 @@ if [ ! -d "$REPO/.claude" ]; then
 fi
 cd "$REPO" || { echo "❌ cd $REPO fehlgeschlagen"; exit 3; }
 
-# --- Designierter-Endpunkt-Check (die entscheidende Abzweigung) -------------
-# Nur der designierte Host (Default: Macmini) fuehrt Handy-Auftraege aus. Laeuft
-# das Skript woanders (z.B. wieder am MacBook Pro), bricht es hier ab — damit nie
-# zwei Stationen denselben Dispatch-Thread bedienen. Override: DISPATCH_ALLOW_ANY_HOST=1.
+# --- Designierter-Endpunkt-Weiche v2: WEITERLEITEN statt abblocken ----------
+# Trifft der Auftrag eine andere Station (z.B. das MacBook, weil Dispatch dessen
+# Cowork gewaehlt hat), wird er per SSH an den designierten Endpunkt (Mac Mini,
+# Always-On) durchgereicht — die Ausfuehrung landet IMMER dort, das Ergebnis
+# fliesst durch die SSH-Verbindung zurueck in den Dispatch-Thread. Das harte
+# Abblocken (v1, Exit 5) schickte Cowork in eine Endlosschleife.
+#   DISPATCH_ALLOW_ANY_HOST=1 → lokal ausfuehren (bewusste Ausnahme)
+#   DISPATCH_NO_FORWARD=1     → altes Verhalten: hart abbrechen (Exit 5)
+#   DISPATCH_FORWARDED=1      → intern: Rekursionsschutz auf der Zielseite
+PRIMARY_SSH="${DISPATCH_PRIMARY_SSH:-raphaeljans@100.120.219.12}"
 CURRENT_HOST="$(hostname -s)"
 if [ "$CURRENT_HOST" != "$PRIMARY_HOST" ] && [ "${DISPATCH_ALLOW_ANY_HOST:-0}" != "1" ]; then
-    echo "⛔ Dispatch-Endpunkt ist '$PRIMARY_HOST', nicht '$CURRENT_HOST'."
-    echo "   Diese Station fuehrt keine Handy-Auftraege mehr aus."
-    echo "   Bewusste Ausnahme: DISPATCH_ALLOW_ANY_HOST=1 voranstellen."
-    exit 5
+    if [ "${DISPATCH_FORWARDED:-0}" = "1" ] || [ "${DISPATCH_NO_FORWARD:-0}" = "1" ]; then
+        echo "⛔ Dispatch-Endpunkt ist '$PRIMARY_HOST', nicht '$CURRENT_HOST' — keine Weiterleitung (Schutz)."
+        exit 5
+    fi
+    echo "↪  '$CURRENT_HOST' ist nicht der Endpunkt — leite an '$PRIMARY_HOST' weiter ($PRIMARY_SSH) ..."
+    # Auftrag via stdin uebergeben (umgeht alle Quoting-Fallen); Remote-Skript
+    # liest stdin, wenn keine Argumente kommen.
+    printf '%s' "$TASK" | ssh -o BatchMode=yes -o ConnectTimeout=10 "$PRIMARY_SSH" \
+        "DISPATCH_FORWARDED=1 bash ~/Developer/jans-ai-hub/scripts/dispatch-run.sh"
+    RC_FWD=$?
+    if [ "$RC_FWD" -ne 0 ] && [ "$RC_FWD" -eq 255 ]; then
+        echo "❌ Weiterleitung fehlgeschlagen: '$PRIMARY_HOST' per SSH nicht erreichbar ($PRIMARY_SSH)."
+        echo "   Ist der Mac Mini wach und Tailscale aktiv?"
+    fi
+    exit "$RC_FWD"
 fi
 
 # --- Lauf-ID + Logfile ------------------------------------------------------
