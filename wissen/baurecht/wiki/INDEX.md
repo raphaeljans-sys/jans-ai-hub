@@ -14,7 +14,9 @@ oder umbenannten Artikel aktualisieren.
 - [[14-nutzungsdichte-ausnuetzung]] (Destillat Bd 2) — Buchsynthese Kap. 14, Belegquelle der beiden Artikel · *emerging*
 
 ### Abstände & Höhen
-- [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand, Näherbaurecht, Wald-/Höhen · *established*
+- [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand (§§ 269-274), Näherbaurecht, **Waldabstand § 262 PBG** (30/15 m, korr. 2026-06-11), **Gewässerraum** (Art. 36a GSchG), Höhenbegriffe · *established*
+- [[gebaeudearten-und-abstandssystem]] — die 5 Gebäudearten (Mini/bewilligungsfrei/besondere/abstandsfreie/Haupt) → welche Abstände; Fassade-Messweise (§ 260/§ 28 ABV); politische/Zonengrenzen · *emerging*
+- [[15-lage-von-gebaeuden]] (Destillat Bd 2, Kap. 15 Teil 1) — Buchsynthese Abstandssystem/Wald/Gewässer, Belegquelle · *emerging*
 
 ### Gebäudedimensionen
 - [[geschosse-und-kniestock]] — Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit (§ 276 PBG), **Kniestock**: 0,9 m / Bestand 1,3 m (vor 1.7.1978), Messweise 0,4 m hinter Fassade · *emerging*
@@ -36,11 +38,11 @@ oder umbenannten Artikel aktualisieren.
 Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Bauen im Bestand / im Betrieb (Healthcare-Spezifika; Grundprinzip steht in [[bestandsumbau-eingriffstiefe]])
 - Dispens / Ausnahmebewilligung
-- Gewässerabstand (in baubewilligungsverfahren erwähnt, eigener Artikel offen)
+- ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-10)
-- Artikel im Wiki: 8 + QUELLEN-Register (+ [[geschosse-und-kniestock]] 2026-06-10, Buch-Run 2)
+## Statistik (Stand 2026-06-11)
+- Artikel im Wiki: 9 + QUELLEN-Register (+ [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] korrigiert: Waldabstand § 262 statt § 268 PBG)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

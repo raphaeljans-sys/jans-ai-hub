@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 12 | Baureife | 707 | 356 | P2 | [ ] |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
-| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [ ] |
+| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [~] (Teil 1 System/Wald/Gewaesser S.995-1013; Strassen-/Grenz-/Gebaeudeabstand+Baulinien offen) |
 | 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
 | 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [ ] |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
@@ -65,6 +65,10 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    S. 1135-1153, Destillat [[16-gebaeudedimensionen]]. Rest: Hoehen/Dachgestaltung S. 1154 ff.)*
    ⏭️ **Naechster Lauf: Kap. 15** (Lage/Abstaende).
 3. **Kap. 15** Lage von Gebaeuden — Grenz-/Gebaeude-/Strassen-/Gewaesser-/Waldabstand, Baulinien.
+   *(Teil 1 distilliert 2026-06-11, Run 3, S. 995-1013: Abstandssystem §§ 260-274, Gebaeudearten,
+   politische/Zonengrenzen, Waldabstand § 262 PBG, Gewaesserraum Art. 36a GSchG. Destillat
+   [[15-lage-von-gebaeuden]]. Rest: Strassen-/Grenz-/Gebaeudeabstand §§ 263-274 + Baulinien, Shots ab 511.)*
+   ⏭️ **Naechster Lauf: Kap. 17** (Raumhoehen/Wohnhygiene) ODER Kap. 15 Teil 2 (Grenz-/Gebaeudeabstand).
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.

@@ -65,8 +65,22 @@ hinterlegen (Cowork-Config ist lokal auf dem Mac Mini):
 | `DISPATCH_MAX_BUDGET_USD` | `5` | Kostendeckel je Lauf |
 | `DISPATCH_LOG_DIR` | `…/dispatch/log` | Audit-Logs (NAS, Fallback lokal) |
 | `DISPATCH_CLAUDE_BIN` | `claude` | Pfad zur Claude-CLI (falls nicht im PATH) |
-| `DISPATCH_PRIMARY_HOST` | `Macmini` | Designierter Endpunkt — nur diese Station fuehrt aus |
-| `DISPATCH_ALLOW_ANY_HOST` | `0` | Auf `1` setzen, um den Host-Check bewusst zu umgehen |
+| `DISPATCH_PRIMARY_HOST` | `Macmini` | Designierter Endpunkt — andere Stationen leiten dorthin weiter |
+| `DISPATCH_PRIMARY_SSH` | `raphaeljans@100.120.219.12` | SSH-Ziel der Weiterleitung (Tailscale) |
+| `DISPATCH_ALLOW_ANY_HOST` | `0` | Auf `1`: lokal ausfuehren statt weiterleiten (bewusste Ausnahme) |
+| `DISPATCH_NO_FORWARD` | `0` | Auf `1`: altes Verhalten — hart abbrechen statt weiterleiten (Exit 5) |
+| `DISPATCH_FALLBACK_MODEL` | `sonnet` | Ausweich-Modell bei 529/Ueberlast (nur Headless-Modus) |
+
+**Host-Weiche v2 (Weiterleitung):** Landet ein Auftrag auf einer anderen Station als dem
+designierten Endpunkt (z.B. weil Dispatch das Cowork des MacBooks gewaehlt hat), leitet
+`dispatch-run.sh` ihn automatisch per SSH an den Mac Mini weiter — das Ergebnis fliesst
+durch die SSH-Verbindung zurueck in den Dispatch-Thread. Rekursionsschutz inklusive.
+Das harte Abblocken (v1) schickte Cowork in eine Endlosschleife.
+
+**529-Schutz:** Bei Ueberlast der Anthropic-API (`529 overloaded_error`) greift
+`--fallback-model` (automatischer Modellwechsel) plus max. 2 Wiederholungen mit
+Backoff+Jitter — aber NUR bei klaren Verfuegbarkeits-Fehlern oder leerer Antwort,
+nie bei inhaltlichen Fehlern (Schutz vor doppelten Seiteneffekten).
 
 ## Sicherheit — der eigentliche Trichter
 

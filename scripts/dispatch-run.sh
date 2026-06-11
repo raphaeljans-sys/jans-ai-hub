@@ -166,20 +166,46 @@ echo "    Modus   : $PERM_MODE   Budget: \$$MAX_BUDGET"
 echo "    Log     : $LOG_FILE"
 echo "────────────────────────────────────────────────────────────"
 
-# --- Headless-Lauf durch den JANS-Harness -----------------------------------
+# --- Headless-Lauf durch den JANS-Harness (mit 529-Ueberlast-Schutz) ---------
 # stdin auf /dev/null: der Auftrag steckt im Argument; claude soll nicht 3s auf
 # pipe-stdin warten (Warnung "no stdin data received in 3s").
-"$CLAUDE_BIN" -p "$TASK" \
-    --permission-mode "$PERM_MODE" \
-    --max-budget-usd "$MAX_BUDGET" \
-    --output-format text < /dev/null 2>&1 | tee -a "$LOG_FILE"
-RC=${PIPESTATUS[0]}
+# --fallback-model: weicht automatisch auf ein anderes Modell aus, wenn das
+# Standardmodell ueberlastet ist (529 overloaded_error; gilt nur mit -p/--print).
+# Retry: max. 2 Wiederholungen mit Backoff+Jitter — aber NUR bei klaren
+# Verfuegbarkeits-Fehlern (overloaded/529/Verbindung) oder leerer Antwort.
+# NIE bei inhaltlichen Fehlern: ein blinder Retry koennte Seiteneffekte
+# verdoppeln (z.B. eine Mail zweimal versenden).
+FALLBACK_MODEL="${DISPATCH_FALLBACK_MODEL:-sonnet}"
+ATTEMPT=1; MAX_ATTEMPTS=3
+while :; do
+    OUT="$("$CLAUDE_BIN" -p "$TASK" \
+        --permission-mode "$PERM_MODE" \
+        --max-budget-usd "$MAX_BUDGET" \
+        --fallback-model "$FALLBACK_MODEL" \
+        --output-format text < /dev/null 2>&1)"
+    RC=$?
+    CLEAN="$(printf '%s' "$OUT" | tr -d '[:space:]')"
+    # Erfolg mit Inhalt → fertig
+    [ "$RC" -eq 0 ] && [ -n "$CLEAN" ] && break
+    # Nur bei Verfuegbarkeits-Signatur (oder voellig leerer Antwort) wiederholen
+    RETRYABLE=0
+    [ -z "$CLEAN" ] && RETRYABLE=1
+    printf '%s' "$OUT" | grep -qiE "overloaded|529|connection error|ECONNRESET|ETIMEDOUT|rate.?limit" && RETRYABLE=1
+    [ "$RETRYABLE" -eq 0 ] && break
+    [ "$ATTEMPT" -ge "$MAX_ATTEMPTS" ] && break
+    SLEEP=$(( (ATTEMPT * 12) + (RANDOM % 8) ))
+    echo "⏳ API ueberlastet/keine Antwort (Versuch $ATTEMPT/$MAX_ATTEMPTS) — neuer Versuch in ${SLEEP}s ..."
+    sleep "$SLEEP"
+    ATTEMPT=$((ATTEMPT + 1))
+done
+printf '%s\n' "$OUT" | tee -a "$LOG_FILE"
 
 {
     echo ""
     echo "---"
     echo "beendet: $(date -Iseconds)"
     echo "exit_code: $RC"
+    echo "versuche: $ATTEMPT"
 } >> "$LOG_FILE"
 
 echo "────────────────────────────────────────────────────────────"

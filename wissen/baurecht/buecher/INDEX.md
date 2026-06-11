@@ -22,6 +22,12 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Terrassenhaus § 77, Geschosszahl-Ersatz § 276 II) + **Kniestock** (0,9 m / Bestand 1,3 m,
   Messweise 0,4 m hinter Fassade, auskragendes Dachgeschoss). 10 Doppelseiten. Status:
   `emerging` (Hoehen/Dachgestaltung S. 1154 ff. offen). Speist [[geschosse-und-kniestock]].
+- [[15-lage-von-gebaeuden]] — Kap. 15 Teil 1 (S. 995-1013): **Abstandssystem** §§ 260-274 PBG,
+  **Gebaeudearten** (Mini/bewilligungsfrei/besondere/abstandsfreie/Haupt, § 49 Abs. 3 / § 269 PBG),
+  Fassade-Messweise (§ 260/§ 28 ABV), politische/Zonengrenzen (§ 261 PBG), **Waldabstand § 262 PBG**
+  (30 m / bis 15 m, Art. 17 WaG), **Gewaesserraum** (Art. 36a GSchG, 11 m / 2,5×Sohle+7 m / 15 m).
+  10 Doppelseiten. Status: `emerging` (Strassen-/Grenz-/Gebaeudeabstand §§ 263-274 + Baulinien offen).
+  Speist [[abstaende-und-hoehen]] + [[gebaeudearten-und-abstandssystem]].
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
 - _(noch keine Destillate — Start gem. Curriculum mit Kap. 6 Verfahren)_
@@ -31,7 +37,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | Kap | Titel | Abdeckung |
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
+| 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser S.995-1013; Strassen-/Grenz-/Gebaeudeabstand+Baulinien offen) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
-| 1-13, 15, 17-23 | uebrige | ⬜ offen |
+| 1-13, 17-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

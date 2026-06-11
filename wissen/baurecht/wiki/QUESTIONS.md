@@ -18,8 +18,8 @@ wurden.
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
   Gebührenordnung hinterlegen.
-- **Waldabstand-Ausnahmen 20 m / 10 m** ([[abstaende-und-hoehen]]): Schwellenwerte gegen
-  Gesetzestext verifizieren.
+- ~~**Waldabstand-Ausnahmen 20 m / 10 m**~~ ([[abstaende-und-hoehen]]): **erledigt 2026-06-11**
+  per Buchbeleg — § 262 PBG, Regel 30 m, reduzierbar bis 15 m (siehe Archiv unten).
 - **BZO-Richtwert-Tabelle** ([[zonenkonformitaet]]): Einzelwerte gegen aktuelle BZO prüfen.
 
 ## Cross-Article-Spannungen (worth resolving)
@@ -40,7 +40,24 @@ wurden.
   Voraussetzungen nur kursorisch erfasst — am amtlichen Volltext (BBV II) verifizieren.
 - **§ 293 PBG** (Freilegung von Untergeschossen): kommunale Konkretisierung in der BZO offen.
 
+## Offene Wissenslücken — neu (2026-06-11, aus Buch-Run Kap. 15 Teil 1)
+- **Grenz-/Gebäudeabstand konkret** (§§ 269-274 PBG): grosser/kleiner Grenzabstand,
+  Mehrlängenzuschlag, Gebäudeabstand als Summe — Zahlenwerk noch nicht distilliert
+  (Kap. 15 Teil 2, Shots ab 511, S. 1014 ff.). Ergänzt [[abstaende-und-hoehen]].
+- **Strassenabstand / Verkehrsbaulinien** (§§ 263-268, 96-101 PBG): noch offen (Teil 2).
+- **§ 273 PBG** (reduzierte Abstände besonderer Gebäude): genaues Reduktionsmass am
+  amtlichen Volltext präzisieren.
+- **Gewässerraum-Formel** «2,5 × Sohle + 7 m» (Art. 41a Abs. 2 GSchV) + Korrekturfaktoren
+  1,5/2,0 bei verbauten/eingedolten Gewässern: am Fedlex-Volltext gegenprüfen.
+
 ## Beantwortete Fragen / Korrekturen (Archiv)
+- **2026-06-11 (Gegenprobe, Modell D):** [[abstaende-und-hoehen]] nannte für den
+  **Waldabstand** fälschlich **§ 268 PBG** und «§ 18b Waldgesetz» sowie eine Reduktion
+  «bis 10 m nur durch Gestaltungsplan». Richtig für Kt. ZH: **§ 262 PBG** (§ 268 PBG
+  betrifft Anschlussgleise), Regelabstand 30 m, reduzierbar **bis 15 m** über die
+  Waldabstandslinie (§ 66 Abs. 2 PBG); zusätzlich forstpolizeilicher Mindestabstand
+  Art. 17 WaG (VGr: < 10 m i.d.R. zu gering). Beleg: Buch Bd 2 S. 999 f., 1004 f. Korrigiert.
+  Gleichzeitig die alte needs-verification «Waldabstand-Ausnahmen 20 m / 10 m» damit erledigt.
 - **2026-06-09 (Gegenprobe, Modell D):** [[nutzungsziffern]] nannte für die
   **Freiflächenziffer** fälschlich § 259 PBG — § 259 regelt die *massgebliche
   Grundstücksfläche*; die Freiflächenziffer ist **§ 257 PBG** (Buch Bd 2 S. 920/949).
