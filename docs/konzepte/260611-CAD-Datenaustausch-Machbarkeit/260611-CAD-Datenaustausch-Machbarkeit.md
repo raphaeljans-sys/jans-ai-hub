@@ -77,11 +77,12 @@ Geodaten-Connector — gekapselt in `connectors/cad/terrain.sh`. Drei Stufen je 
 | **Höhenlinien** | Vektor-Höhenlinien als DXF (Intervall frei) | Plan/CAD, Layer `BASIS_HOEHENLINIEN` | `terrain.sh hoehenlinien --adresse "…" --out … --intervall 0.5` |
 | **Terrain-Mesh** | swissALTI3D-DTM (0.5 m) als 3D-Boden | Cinema/Rhino-Geländekontext | `terrain.sh dtm --adresse "…" --out …` → Mesh |
 
-Mechanik der Höhenlinien: DTM-GeoTIFF beziehen → `gdal_contour -i <intervall>` → DXF in LV95 →
-direkt auf den `BASIS_HOEHENLINIEN`-Layer der Austauschdatei. Ergänzend liegen fertige
-Höhenlinien-Pläne je Gemeinde im Büro unter `PL - 01 Kartenportale/Hoehenlinie/<Gemeinde>/`.
-**Setup-Schritt:** `gdal` ist noch nicht installiert (`brew install gdal`) — Punkt/DTM laufen
-schon, die Vektor-Höhenlinien erst danach.
+Mechanik der Höhenlinien (validiert 11.06.2026, Mac Mini): DTM-GeoTIFF beziehen →
+`gdal_contour -3d -i <intervall>` → GeoJSON → `contours2dxf.py` (ezdxf, venv volumen3d) →
+DXF in LV95 mit echten 3D-Höhen (Layer `HOEHENLINIEN`, LWPOLYLINE mit elevation). Der Umweg
+über GeoJSON ist nötig, weil der OGR-DXF-Writer (GDAL 3.13) die Z-Komponente verwirft.
+Ergänzend liegen fertige Höhenlinien-Pläne je Gemeinde im Büro unter
+`PL - 01 Kartenportale/Hoehenlinie/<Gemeinde>/`.
 
 ## 7. Die CAD-Connectoren (lokal verbundene Programme)
 Unter `connectors/cad/` (Statuscheck: `bash connectors/cad/cad-status.sh`).
@@ -121,6 +122,7 @@ Baulinie überschritten (sonst `AUS_KONFLIKT`). Annahmen werden ausgewiesen, Ide
 **Format:** DXF (universell, jedes CAD) empfohlen; Rhino `.3dm` als Alternative falls Du in Rhino
 arbeitest — selber Schichtenvertrag, ein Konvertierungsschritt weniger.
 
+<<<<<<< Updated upstream
 **Setup-Stand (11.06.2026, nachmittags):**
 - [x] `gdal` installiert (Vektor-Höhenlinien laufen, `gdal_contour -3d` → Höhe als Z)
 - [x] venv `~/.venvs/volumen3d` eingerichtet (rhino3dm 8.17, shapely, numpy, mapbox_earcut, **ezdxf**)
@@ -132,3 +134,13 @@ arbeitest — selber Schichtenvertrag, ein Konvertierungsschritt weniger.
 - [ ] Maxon-App-Login prüfen (für headless Cinema-Render; nur GUI)
 - [ ] Erster realer Durchlauf: Raphael zeichnet in der Pilot-DXF (`pilot/00_Grundlage/…-v01.dxf`),
       legt die Fassung in `pilot/10_Raphael/` — Hub liest, rechnet, schreibt zurück.
+=======
+**Offene Setup-Schritte:**
+- [x] `brew install gdal` — erledigt 11.06.2026 Mac Mini (GDAL 3.13.1); Höhenlinien-Kette end-to-end getestet (Giebelweg 12 Langnau: 4506 Linien à 0.5 m, Z verifiziert)
+- [x] venv `~/.venvs/volumen3d` einrichten (rhino3dm/shapely/ezdxf) — erledigt 11.06.2026 Mac Mini (Python 3.10.20)
+- [ ] Maxon-App-Login prüfen (für headless Cinema-Render)
+- [ ] **Deine Entscheidung:** Austauschformat DXF oder Rhino `.3dm`?
+
+Danach: Pilot mit einer realen Parzelle, eine Variante zeichnen, Zyklus einmal komplett
+durchspielen → Rückkanal fest im Skill `volumenstudie` verankern.
+>>>>>>> Stashed changes

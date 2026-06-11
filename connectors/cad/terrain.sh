@@ -12,6 +12,8 @@
 #   bash terrain.sh hoehenlinien --adresse "..." --out /pfad/projekt [--intervall 0.5]
 set -eu
 GEO="/Volumes/daten/jans-ai-hub/skills/planungsgrundlagen/connectors/geo-zh.mjs"
+VENVPY="$HOME/.venvs/volumen3d/bin/python"
+HERE="$(cd "$(dirname "$0")" && pwd)"
 cmd="${1:-help}"; shift || true
 case "$cmd" in
   punkt)  node "$GEO" "$@" --produkt height --json ;;
@@ -20,17 +22,28 @@ case "$cmd" in
           if ! command -v gdal_contour >/dev/null 2>&1; then
             echo "gdal fehlt — Hoehenlinien-Generierung nicht moeglich."
             echo "Einmalige Einrichtung:  brew install gdal"
-            echo "Mechanik danach: DTM-GeoTIFF (terrain.sh dtm) → gdal_contour -3d -i <intervall> in.tif out.dxf"
+            exit 5
+          fi
+          if [ ! -x "$VENVPY" ]; then
+            echo "venv ~/.venvs/volumen3d fehlt (braucht ezdxf) — siehe connectors/cad/README.md"
             exit 5
           fi
           # 1) DTM-Kachel beschaffen (geo-zh.mjs legt GeoTIFF in --out ab)
           node "$GEO" "$@" --produkt dtm --download
-          # 2) aus jedem heruntergeladenen DTM-GeoTIFF Hoehenlinien als DXF erzeugen
+          # 2) DTM → Hoehenlinien. Der OGR-DXF-Writer verwirft Z (GDAL 3.13),
+          #    deshalb gdal_contour -3d → GeoJSON → contours2dxf.py (ezdxf) → DXF
           int="0.5"; out="."; a=("$@"); for ((i=0;i<${#a[@]};i++)); do [ "${a[$i]}" = "--intervall" ] && int="${a[$((i+1))]}"; [ "${a[$i]}" = "--out" ] && out="${a[$((i+1))]}"; done
           shopt -s nullglob
-          for tif in "$out"/*swissalti3d*.tif "$out"/*alti*.tif; do
+          for tif in "$out"/*alti*.tif; do
+            gj="${tif%.tif}_hoehenlinien_${int}m.geojson"
             dxf="${tif%.tif}_hoehenlinien_${int}m.dxf"
+<<<<<<< Updated upstream
             gdal_contour -3d -i "$int" "$tif" "$dxf" && echo "Hoehenlinien (3D, Hoehe als Z): $dxf"
+=======
+            rm -f "$gj"
+            gdal_contour -3d -i "$int" "$tif" "$gj"
+            "$VENVPY" "$HERE/contours2dxf.py" "$gj" "$dxf" && echo "Hoehenlinien: $dxf"
+>>>>>>> Stashed changes
           done
           ;;
   *) sed -n '2,16p' "$0" ;;
