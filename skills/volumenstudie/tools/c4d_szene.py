@@ -136,27 +136,33 @@ def main(argv):
     doc.InsertObject(boden)
     zuweisen(boden, mat_boden)
 
+    # Heller Hintergrund statt Schwarz
+    himmel = c4d.BaseObject(c4d.Obackground)
+    mat_himmel = material(doc, "Himmel", c4d.Vector(0.92, 0.93, 0.95))
+    doc.InsertObject(himmel)
+    zuweisen(himmel, mat_himmel)
+
     sonne = c4d.BaseObject(c4d.Olight)
     sonne.SetName("Sonne")
     sonne[c4d.LIGHT_TYPE] = c4d.LIGHT_TYPE_DISTANT
     sonne[c4d.LIGHT_SHADOWTYPE] = c4d.LIGHT_SHADOWTYPE_SOFT
-    sonne[c4d.LIGHT_BRIGHTNESS] = 1.0
+    sonne[c4d.LIGHT_BRIGHTNESS] = 0.75
     sonne.SetAbsRot(c4d.Vector(c4d.utils.DegToRad(35), c4d.utils.DegToRad(-55), 0))
     doc.InsertObject(sonne)
 
     fuell = c4d.BaseObject(c4d.Olight)
     fuell.SetName("Fuelllicht")
     fuell[c4d.LIGHT_TYPE] = c4d.LIGHT_TYPE_DISTANT
-    fuell[c4d.LIGHT_BRIGHTNESS] = 0.45
+    fuell[c4d.LIGHT_BRIGHTNESS] = 0.30
     fuell.SetAbsRot(c4d.Vector(c4d.utils.DegToRad(-120), c4d.utils.DegToRad(-35), 0))
     doc.InsertObject(fuell)
 
     mitte, groesse = bbox(objs)
-    d = groesse * 2.2
+    d = groesse * 1.15
     ansichten = {
         "axo": c4d.Vector(mitte.x + d * 0.7, mitte.y + d * 0.8, mitte.z - d * 0.7),
-        "auge_sw": c4d.Vector(mitte.x - d * 0.9, mitte.y + 170, mitte.z - d * 0.9),
-        "auge_no": c4d.Vector(mitte.x + d * 0.9, mitte.y + 170, mitte.z + d * 0.9),
+        "auge_sw": c4d.Vector(mitte.x - d * 0.85, mitte.y + 170, mitte.z - d * 0.85),
+        "auge_no": c4d.Vector(mitte.x + d * 0.85, mitte.y + 170, mitte.z + d * 0.85),
     }
     import os
     os.makedirs(args.out, exist_ok=True)
