@@ -18,6 +18,11 @@ eine Dauerregel handelt.
 - **Gilt für:** <Kontext / Anwendungsbereich>
 ```
 
+## 260611 — Mobile-Ketten nie vom MacBook Pro abhaengig machen
+- **Auslöser:** "ich finde diese kette sehr schwach warum muss das mac book pro in dieser kette vorhanden sein am besten wäre doch der mac mini weil der ist immer an und der mac book pro ist immer unterwegs und oft ausgeschaltet" (Dispatch-Thread war historisch ans MacBook gekoppelt)
+- **Regel:** Jede Always-On-/Fernsteuerungs-Strecke (Dispatch, Scheduled Tasks, Runner, Automationen, künftige Connectoren) wird so gebaut, dass der MAC MINI der einzige notwendige Endpunkt ist. Das MacBook Pro ist mobil und oft aus — es darf nie ein notwendiges Glied einer Kette sein, höchstens optionaler Mitnutzer. Bestehende Kopplungen, die das MacBook voraussetzen, gelten als Geburtsfehler und werden auf den Mac Mini umgezogen, sobald möglich (bei Dispatch: QR-Neukopplung am Mac Mini). Workarounds wie SSH-Weiterleitung sind nur Sicherheitsnetz, nie Soll-Architektur.
+- **Gilt für:** Alle Infrastruktur-/Automations-Entscheide auf allen Stationen.
+
 ## 260610 — Inhaber-Auftraege als Lernsignal fuer den Hub nutzen
 - **Auslöser:** Systemaudit-Auftrag: "hinterlege dass solche Eingaben in das digitale Gedaechtnis von JANS AI HUB aufgenommen werden und jede von mir gestellte Aufgabe genutzt wird, besser zu werden und systematische Komplettloesungen zu bilden"
 - **Regel:** Jeder groessere Auftrag von Raphael ist zugleich Lernmaterial fuer den Hub. Nach Abschluss eines substanziellen Auftrags: (1) verallgemeinerbare Erkenntnisse in die passende Wissens-KB zurueckschreiben (Systemarchitektur/Infrastruktur → `wissen/projekt-lessons/raw/`, fachliche Erkenntnisse → jeweilige Domaenen-KB); (2) wiederkehrende Auftragsmuster als Skill-/Rule-Verbesserung vorschlagen; (3) Systemaudits und deren Befunde unter `docs/` versionieren, damit der naechste Audit auf dem letzten aufbaut (kompoundierend). Nicht jede Kleinanfrage dokumentieren — nur Auftraege mit Wiederverwendungswert.
