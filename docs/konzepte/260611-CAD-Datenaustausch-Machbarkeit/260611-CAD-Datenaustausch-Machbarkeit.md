@@ -131,9 +131,11 @@ arbeitest — selber Schichtenvertrag, ein Konvertierungsschritt weniger.
       mapbox_earcut, matplotlib, **ezdxf**)
 - [x] **Format entschieden: DXF** (gemeinsamer Nenner ArchiCAD/Rhino/Cinema; .3dm optional im Rhino-Zweig)
 - [x] Werkzeug gebaut: `skills/volumenstudie/tools/dxf_austausch.py` (grundlage + lesen)
-- [x] **Pilot validiert** (Parzelle WD5381, Grubenstrasse 37): Grundlage-DXF mit 989 Höhenlinien
-      erzeugt, simulierte Bearbeitung zurückgelesen — Baufeld 1'320 m², V-A 540 m², 7'749 m³
-      (Satteldach-Näherung), Prüfung ohne Befunde. Ablage: `pilot/` neben diesem Konzept.
+- [x] **Pilot validiert** (Parzelle WD5381, Grubenstrasse 37): Grundlage-DXF erzeugt, simulierte
+      Bearbeitung zurückgelesen — Baufeld 1'320 m², V-A 540 m², 7'749 m³ (Satteldach-Näherung),
+      Prüfung ohne Befunde. Ablage: `pilot/` neben diesem Konzept. Höhenlinien der Grundlage
+      nachträglich repariert (11.06.2026): die ursprünglichen 989 Linien lagen flach auf Z=0
+      (direkter gdal_contour→DXF-Weg), neu 1'004 Linien mit echten Höhen 413.5–454.5 m ü. M.
 - [ ] Maxon-App-Login prüfen (für headless Cinema-Render; nur GUI)
 - [ ] Erster realer Durchlauf: Raphael zeichnet in der Pilot-DXF (`pilot/00_Grundlage/…-v01.dxf`),
       legt die Fassung in `pilot/10_Raphael/` — Hub liest, rechnet, schreibt zurück.
