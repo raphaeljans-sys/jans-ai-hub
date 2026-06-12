@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 20:06:22
+Stand: 12.06.2026 20:26:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 12.06.2026 20:06:22
 - 1 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- 511dbac nas-selfcommit: 2 Datei(en) 2026-06-12 20:00
+- f311b2a nas-selfcommit: 2 Datei(en) 2026-06-12 20:15
