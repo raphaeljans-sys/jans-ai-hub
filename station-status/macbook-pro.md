@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 06:26:41
+Stand: 12.06.2026 06:36:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:24)
@@ -19,4 +19,4 @@ Stand: 12.06.2026 06:26:41
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9574b38 Energie-Run 8 (2026-06-12): CLT-Bauteilkatalog + PV-Brandschutz
+- d9d9281 nas-selfcommit: 9 Datei(en) 2026-06-12 06:30
