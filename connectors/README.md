@@ -32,7 +32,13 @@ node truninger-ds3.mjs --holen Document-12345 --ziel "/pfad/lokal"
 node truninger-ds3.mjs --roh /ds/Collection-13304935/view      # HTML-Debug
 ```
 
-Stand 12.06.2026: Login-Flow am Original verifiziert (Formular `user_name`/`password`
-auf `/login_handler`, Session-Cookie `ds3app`). Listen-/Download-Parser sind generisch
-gebaut (Linkmuster `/ds/Collection-…`/`/ds/Document-…`) und werden nach dem ersten
-echten Login mit Zugangsdaten nachgeschaerft (`--roh` liefert dafuer den HTML-Dump).
+**Stand 12.06.2026 — komplett validiert** (Login, Listen rekursiv, Download):
+- Objekttypen: `RootCollection-`/`Collection-` (Ordner), `File-` (Dokument; Download
+  via `/ds/File-<id>/get/head/raw/<name>`), aeltere `Document-` als Fallback.
+- KISPI-Projektraum (Konto ksz-hpb-ht, Projekt «Neubau Kinderspital Zuerich» 691):
+  Einstieg `RootCollection-4592346` > `Collection-4859935` (Projektraum) >
+  `Collection-12020781` (33 Bewilligungsverfahren) > `Collection-18291177`
+  (01.10 Technische Eingaben HLK) — dort die Original-Energienachweise der Erstellung
+  (EN4-Formulare je Lueftungseinheit, EN5 Kuehlung, Anlagenbeschriebe, Prinzipschemen).
+- Leere Ordner melden sich als leer («Keine Objekte vorhanden»); Breadcrumbs werden
+  nicht als Eintraege gelistet.

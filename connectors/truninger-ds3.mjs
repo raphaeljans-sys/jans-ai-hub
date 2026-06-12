@@ -117,20 +117,22 @@ function entitäten(s) {
 function parseEintraege(html) {
   const eintraege = [];
   const gesehen = new Set();
-  const typName = t => (t === 'Document' ? 'Dokument' : 'Ordner');
+  if (/Keine Objekte vorhanden/.test(html)) return eintraege; // leerer Ordner
+  const typName = t => (t === 'Document' || t === 'File' ? 'Dokument' : 'Ordner');
   const push = (typ, id, name, href) => {
     const eid = `${typ}-${id}`;
     if (gesehen.has(eid) || !name) return;
     gesehen.add(eid);
     eintraege.push({ id: eid, typ: typName(typ), name, href });
   };
-  // 1) Listenzeilen mit Titel
-  const reTitel = /<a[^>]*class="[^"]*list_item_title[^"]*"[^>]*href="([^"]*\/((?:Root|Job)?Collection|Document)-(\d+)\/view[^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
+  // 1) Listenzeilen mit Titel (Ordner: …/view · Dateien: …/get/head/raw/<name>)
+  const reTitel = /<a[^>]*class="[^"]*list_item_title[^"]*"[^>]*href="([^"]*\/((?:Root|Job)?Collection|Document|File)-(\d+)\/[^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
   let m;
   while ((m = reTitel.exec(html))) push(m[2], m[3], entitäten(m[4]), m[1]);
-  // 2) Fallback: alle view-Links (Name = Linktext, sonst ID)
+  // 2) Fallback nur fuer Navigationsseiten ohne Listenzeilen (z.B. Einstiegsseite);
+  //    Breadcrumb-Links ausschliessen, sonst laeuft die Rekursion rueckwaerts.
   if (!eintraege.length) {
-    const reGen = /href="([^"]*\/((?:Root|Job)?Collection|Document|Project)-(\d+)\/(?:view|project_index)[^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
+    const reGen = /<a(?![^>]*breadcrumb)[^>]*href="([^"]*\/((?:Root|Job)?Collection|Document|Project)-(\d+)\/(?:view|project_index)[^"]*)"[^>]*>([\s\S]*?)<\/a>/g;
     while ((m = reGen.exec(html))) {
       const text = entitäten(m[4].replace(/<[^>]*>/g, ''));
       push(m[2], m[3], text || `${m[2]}-${m[3]}`, m[1]);
@@ -173,9 +175,24 @@ async function listieren(start, tiefe, filter = null, pfadname = '') {
 }
 
 async function herunterladen(docId, zielDir) {
-  if (!/^Document-\d+$/.test(docId)) fail('--holen erwartet eine Document-ID (z.B. Document-12345).');
+  if (!/^(File|Document)-\d+$/.test(docId)) fail('--holen erwartet eine File-/Document-ID (z.B. File-18400478).');
   mkdirSync(zielDir, { recursive: true });
-  // Uebliche DS3-Downloadpfade durchprobieren (alles GET)
+  // 1) DS3-Files: Eigenschaften-Seite nennt den raw-Link mit echtem Dateinamen
+  if (docId.startsWith('File-')) {
+    const props = await (await anfrage(`/ds/${docId}/properties/props_view`, { redirect: 'follow' })).text();
+    const mRaw = props.match(new RegExp(`href="(/ds/${docId}/get/[^"]+)"`));
+    const rawPfad = mRaw ? entitäten(mRaw[1]) : `/ds/${docId}/get/head/raw/datei`;
+    const res = await anfrage(rawPfad, { redirect: 'follow' });
+    if (!res.ok) fail(`Download fehlgeschlagen (HTTP ${res.status}) fuer ${docId}.`);
+    const cd = res.headers.get('content-disposition') || '';
+    const mName = cd.match(/filename\*?=(?:UTF-8'')?"?([^";]+)/i);
+    const name = mName ? decodeURIComponent(mName[1]) : decodeURIComponent(basename(rawPfad));
+    const datei = join(zielDir, basename(name));
+    writeFileSync(datei, Buffer.from(await res.arrayBuffer()));
+    console.log(`Gespeichert: ${datei}`);
+    return;
+  }
+  // 2) Aeltere Document-Objekte: uebliche Downloadpfade durchprobieren (alles GET)
   const kandidaten = [`/ds/${docId}/download`, `/ds/${docId}/file`, `/ds/${docId}/view`];
   for (const pfad of kandidaten) {
     const res = await anfrage(pfad, { redirect: 'follow' });
