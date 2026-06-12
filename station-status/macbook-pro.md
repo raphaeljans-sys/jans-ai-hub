@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 20:26:37
+Stand: 12.06.2026 20:36:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -11,7 +11,6 @@ Stand: 12.06.2026 20:26:37
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
-- 1 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- f311b2a nas-selfcommit: 2 Datei(en) 2026-06-12 20:15
+- 5f32334 nas-selfcommit: 2 Datei(en) 2026-06-12 20:30
