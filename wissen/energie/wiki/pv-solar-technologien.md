@@ -2,8 +2,8 @@
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
 last_updated: 2026-06-07
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]]
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
+links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]] [[holzbau-bauphysik-clt]]
 ---
 
 # PV- & Solartechnologien
@@ -43,9 +43,14 @@ erfuellt zwei Funktionen.**
 Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, max. 30 kW (Detail → [[BAUHERREN-FAQ]] F10,
 `[[enfk-en-104-eigenstromerzeugung]]`). Typ-Wahl → [[BAUHERREN-FAQ]] F4.
 
-## Abgrenzung
-Brandschutz dachintegrierter/fassadenintegrierter PV → Skill `brandschutz` (Swissolar «Stand der
-Technik», hier nicht doppeln). Energierecht → Skill `baurecht`.
+## Brandschutz (Schnittstelle Solar↔Gebaeude)
+Stand der Technik swissolar/VKF (Basis VKF-BSM 2001-15): drei Schnittstellen planen — **DC-Leitungen**
+(halogenfrei, **kein PVC**; auf brennbarem Untergrund/Holztragwerk in **RF1-Rohr**; nicht in
+vertikalen Fluchtwegen), **Wechselrichter-Standort** (nicht in feuer-/explosionsgefaehrdeten Raeumen
+oder Fluchtwegen; EFH-Heizraum erlaubt), **Kennzeichnung** fuer die Feuerwehr. Holzbau = Knackpunkt
+DC-Fuehrung → [[holzbau-bauphysik-clt]]. Details → [[BAUHERREN-FAQ]] F16,
+`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. Brandschutz-**Bewertung** → Skill `brandschutz`;
+Energierecht → Skill `baurecht`.
 
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.

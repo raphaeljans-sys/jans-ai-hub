@@ -34,11 +34,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ✓ 2026-06-10 → `[[wta-formular-zh-waermetechnische-anlagen]]`, FAQ F14. Offen: WP-JAZ-Vergleich (F6).
 
 ## FAQ-Backlog
-- [~] **E-F** BAUHERREN-FAQ: 13 Antworten belegt (F1-F5/F7/F9-F15; **F15 Massivholz/CLT neu
-  ✓ 2026-06-11**); offen **F6** (WP-Vergleich/JAZ-Matrix), **F8** (Netto-Null-Definition).
+- [~] **E-F** BAUHERREN-FAQ: 14 Antworten belegt (F1-F5/F7/F9-F16; **F16 PV-Brandschutz neu
+  ✓ 2026-06-12**); offen **F6** (WP-Vergleich/JAZ-Matrix), **F8** (Netto-Null-Definition).
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
-  `[[clt-bauphysik-stora-enso]]` (FAQ F15: λ 0,12, folienfrei luftdicht n₅₀ 0,6, feuchtevariabel).
-  Offen: CLT-Bauteilkatalog (Stora Enso Kap. 4 S. 38-178) + CLT-Schallschutz.
+  `[[clt-bauphysik-stora-enso]]` (FAQ F15). **Bauteilkatalog (Kap. 4) ✓ 2026-06-12** →
+  `[[clt-bauteilkatalog-stora-enso]]` (Aussenwand V1-9 + Dach V1-6: REI·U·Rw). Offen:
+  CLT-Innenwand/Trennwand/Deckenelement-**Schallschutz** (S. 98-164) — fuer MFH/Healthcare.
+- [x] **E10** PV-/Solar-Brandschutz (Schnittstelle Solar↔Gebaeude) belegt ✓ 2026-06-12 →
+  `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, FAQ F16 (DC kein PVC/RF1-Rohr, WR-Standort,
+  Kennzeichnung). Offen: STP Kap. 4-7 (Feuerwehreinsatz, konstruktive Details Anhang 7.3).
 - [x] **E9** Private Kontrolle ZH / wer zeichnet den EN-Nachweis belegt ✓ 2026-06-11
   → `[[private-kontrolle-zh]]` (BBV I §4-7, EN-Formular-Matrix; FAQ F12 geschaerft).
   Offen: Energienutzungs-Deklaration bei geringfuegigen Umbauten (B2).

@@ -8,7 +8,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | Status | Quelle (PL-04/...) | KB-Datenstand |
 |---|---|---|
 | [x] `Solaranlage/EN104/26_EN-104.pdf` | 2026-06-06 (vollst., 1 S.) |
-| [ ] `Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` | — |
+| [~] `Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` | 2026-06-12 (S. 1-16: Begriffe + Kap. 3.1 el. Gefahren + DC-Verlegung + WR-Standorte → swissolar-stp-vkf-brandschutz-solaranlagen; Kap. 4-7 offen) |
 | [x] `Solaranlage/_Literatur/Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` | 2026-06-07 (S. 1-13, PV-Typen) |
 | [x] `Solaranlage/_Literatur/planer_d.pdf` | 2026-06-06 (S. 1-16, Minergie-Wissen) |
 | [x] `U Wert berechnung/2001_2005_d.pdf` | 2026-06-09 (vollst. S. 1-17, λ-Werte + Naturdaemmst./VIP/WDVS; SIA 2001:2005) |
@@ -17,7 +17,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [ ] `U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung.pdf` | — |
 | [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-06-10 (S.1-10 + Kap.4 Boeden/Waende S.26-42; Rest inhomogen/Daecher offen) |
 | [x] `U Wert berechnung/VoHi_EN02_de.pdf` | 2026-06-09 (vollst. S. 1-12; EnFK EN-2 Feb 2013, SIA 380/1:2009) |
-| [~] `U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf` | 2026-06-11 (Kap. 1-3 Waerme/Luftdicht/Feuchte S. 4-37 → clt-bauphysik-stora-enso; Kap. 4 Bauteilkatalog S. 38-178 offen) |
+| [~] `U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf` | 2026-06-12 (Kap. 1-3 S. 4-37 → clt-bauphysik-stora-enso; Kap. 4 Aussenwand V1-9 S. 40-57 + Dach V1-6 S. 166-176 → clt-bauteilkatalog-stora-enso; Innen-/Trennwand/Decke S. 98-164 offen) |
 | [x] `_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` | 2026-06-07 (vollst., 5 S.; ⚠ seit 1.1.2026 EVEN) |
 | [x] `_Heizwaermebedarf/Betriebsenergie.pdf` | 2026-06-10 (vollst., 1 S.; graue Energie vs. Betriebsenergie → graue-energie-betriebsenergie) |
 | [x] `_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf` | — |

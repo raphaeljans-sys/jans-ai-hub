@@ -1,8 +1,8 @@
 ---
 title: Holzbau-Bauphysik — CLT / Brettsperrholz (Waerme, Luftdicht, Feuchte)
-status: emerging
-last_updated: 2026-06-11
-sources: [destillate/clt-bauphysik-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md]
+status: established
+last_updated: 2026-06-12
+sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[graue-energie]]
 ---
 
@@ -44,11 +44,30 @@ Kernbotschaft: **Massivholz traegt und dichtet, daemmt aber kaum.** Speist FAQ F
 Der eigentliche Grund fuer Holz ist nicht der U-Wert, sondern die **graue Energie**:
 Holzleichtbau ~59 vs. ~74 MJ/m²·a (Massiv), CO₂-Bindung im Material → `[[graue-energie]]` / F9.
 
+## Bauteilkatalog — konkrete Aufbauten (Auszug)
+Aus dem Stora-Enso-Katalog (Kap. 4) → `[[clt-bauteilkatalog-stora-enso]]`. Je Variante stehen
+**REI · U-Wert · Rw** zusammen. Tragschicht CLT (λ 0,110), Last Wand 35 kN/m / Dach 5 kN/m.
+
+**Aussenwand** (Putz · Daemmung · CLT 100/120 · innen optional GKF/Installationsebene):
+| Daemmung | innen | REI | U-Wert | Rw |
+|---|---|---|---|---|
+| EPS 16-26 cm (λ 0,031) | — | 60-90 | 0,16-0,10 | 36 |
+| EPS + GKF | GKF | 90 | 0,16-0,10 | 37 |
+| EPS + Installationsebene | Lattung/MW/OSB/GKF | **120** | 0,13-0,09 | **43** |
+| Mineralwolle 16-18 cm (λ 0,035, **A1**) | ±GKF | 60-90 | 0,18-0,16 | 38-39 |
+
+**Flachdach/Warmdach** (Eindeckung · Daemmung 24 cm · Dampfsperre **aussen** · CLT 140 · innen):
+EPS (λ 0,038) oder Holzfaser (λ 0,039) → U **0,11-0,13**, REI 60-90, Rw 36-43 (abgehaengte Decke = Rw 43).
+
+**Logik:** EPS = duenner; Mineralwolle/Holzfaser = nicht brennbar (A1) + ~2 dB leiser; GKF hebt REI
+eine Stufe; Installationsebene = REI 120 + Rw 43. Dickere CLT (100→120) hebt v.a. den REI, kaum den
+U-Wert (Holz daemmt nicht). Speist FAQ F15.
+
 ## Abgrenzung
-- **Brandschutz** (Kapselung, REI, Sichtholz-Anteil, Abbrand) → Skill `brandschutz` (nicht hier).
-- **Schallschutz** von CLT-Decken/Trennwaenden → noch nicht erfasst.
-- **Bauteilkatalog** (konkrete Aussenwand-/Dach-/Deckenaufbauten mit U/s_d/Schall) — Stora-Enso-
-  Doku Kap. 4 (S. 38-178), ueber Folgelaeufe zu erschliessen.
+- **Brandschutz** (Kapselung, REI/EI-Klassen CH, Sichtholz-Anteil, Abbrand) → Skill `brandschutz`.
+- **PV auf Holzbau** (DC-Leitung im Tragwerk in RF1-Rohr ohne PVC) → `[[pv-solar-technologien]]` / F16.
+- **Schallschutz** von CLT-Decken/Trennwaenden (Tritt-/Luftschall) → Katalog Innenwaende/Trennwaende/
+  Deckenelement (S. 98-164) noch nicht erfasst; fuer MFH/Healthcare zentral → Folgelaeufe.
 
 ## Quelle
 «CLT by Stora Enso — Technische Dokumentation: Bauphysik» (Version 06.2021), Kap. 1-3 →

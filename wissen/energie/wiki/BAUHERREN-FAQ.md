@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
-status: emerging
-last_updated: 2026-06-11
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/private-kontrolle-zh.md]
+status: established
+last_updated: 2026-06-12
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
 links: [[INDEX]]
 ---
 
@@ -370,11 +370,50 @@ lueckenlose Luftdichtung und ein **nach aussen diffusionsoffener** Schichtaufbau
   (~59 vs. ~74 MJ/m²·a), die Tragstruktur ist der groesste graue-Energie-Posten (Holz ~40 %
   vs. Massiv ~49 %). Vgl. F9.
 
+**Konkrete Aufbauten:** Eine CLT-Aussenwand mit ~20 cm EPS bzw. ~18 cm Mineralwolle erreicht
+U ≤ 0,17 (Neubau) bei REI 60-90 und Rw 36-39; ein inneres GKF-Blatt hebt den Feuerwiderstand, eine
+Installationsebene bringt REI 120 + Rw 43 — Variantentabelle → `[[clt-bauteilkatalog-stora-enso]]`.
+
 **Quelle:** «CLT by Stora Enso — Bauphysik» (Version 06.2021), Kap. 1-3 →
-`[[clt-bauphysik-stora-enso]]`; graue Energie → `[[graue-energie-betriebsenergie]]` / F9;
-Daemmstoff-λ → `[[daemmstoffe-lambda]]`. **Brandschutz** von Holzbauten (Kapselung/REI/Sichtholz)
-→ Skill `brandschutz`. ⚠ Datenstand 2026-06-11: λ 0,12 ist der Produktwert (EN ISO 10456);
-CH-Bemessung ggf. mit Zuschlag SIA 279 pruefen.
+`[[clt-bauphysik-stora-enso]]`, Bauteilkatalog Kap. 4 → `[[clt-bauteilkatalog-stora-enso]]`;
+graue Energie → `[[graue-energie-betriebsenergie]]` / F9; Daemmstoff-λ → `[[daemmstoffe-lambda]]`.
+**Brandschutz** von Holzbauten (Kapselung/REI/Sichtholz) → Skill `brandschutz`; **PV auf Holzdach**
+→ F16. ⚠ Datenstand 2026-06-11: λ 0,12 ist der Produktwert (EN ISO 10456); CH-Bemessung ggf. mit
+Zuschlag SIA 279 pruefen.
+
+---
+
+## F16 — «Was muss ich beim Brandschutz einer Solaranlage (PV) beachten?»
+
+**Kurz:** Eine PV-Anlage darf den Brandschutz **nicht wesentlich verschlechtern**. Praktisch sind
+drei Dinge zu planen: die **Gleichstrom-Leitungen (DC)** richtig fuehren (kein PVC, auf brennbarem
+Untergrund in nichtbrennbarem Rohr), den **Wechselrichter** an einem zulaessigen Ort montieren
+(nie im Treppenhaus/Fluchtweg) und die Anlage **fuer die Feuerwehr kennzeichnen**. Beim
+**Holzbau** ist die DC-Leitungsfuehrung der Knackpunkt.
+
+**Fachlich:** Ein PV-Modul steht **bei Tageslicht unter Spannung, auch wenn der Hausanschluss
+abgeschaltet ist** — die DC-Seite bleibt gefaehrlich. Daraus folgen (Stand der Technik swissolar /
+VKF-BSM 2001-15):
+- **DC-Leitungen:** doppelte Isolation, **halogenfrei, kein PVC**. Eine DC-Hauptleitung **auf/in
+  brennbaren Bauteilen** (z.B. CLT-/Holztragwerk) muss in ein **nichtbrennbares Rohr (RF1)** oder
+  als Kabel mit metallischer Umhuellung. In **vertikalen Fluchtwegen und feuer-/explosions-
+  gefaehrdeten Zonen** sind sie nicht zulaessig. Empfehlung: DC kurz halten (Wechselrichter nahe
+  beim Solarfeld).
+- **Wechselrichter:** wie eine Schaltgeraetekombination behandeln (Abwaerme ~1,5-3,5 % der
+  Leistung), Herstellerabstaende zu Brennbarem einhalten, auf RF1-Wand oder brennbarem Untergrund
+  mit 30-Min-Brandschutzplatte. **EFH:** Keller/Technik bevorzugt, Heizraum erlaubt. **MFH/
+  Healthcare:** nur in zulaessigen Technikraeumen; horizontale Fluchtwege/grosse Parkings **nur mit
+  Brandschutzbehoerde**; **nicht** in feuer-/explosionsgefaehrdeten Raeumen und **vertikalen
+  Fluchtwegen**.
+- **Kennzeichnung + Feuerwehr:** Anlage eindeutig beschriften (Warnkleber DC/Einspeisung,
+  Uebersichtsplan) — die DC-Gefahr besteht im Brandfall fort.
+- **Blitz/Speicher:** PV loest keine Blitzschutzpflicht aus, ist aber in ein vorhandenes System
+  einzubinden; Batteriespeicher sind eine eigene Gefahrenquelle.
+
+**Quelle:** Swissolar «Stand-der-Technik-Papier zu VKF-Brandschutzmerkblatt Solaranlagen» V4.00
+(12/2022, ueberarb. 11/2023; Basis VKF-BSM 2001-15) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
+PV-Typ-/Pflicht siehe F4/F10; CLT-Aufbau → `[[clt-bauteilkatalog-stora-enso]]`. **Brandschutz-
+Bewertung/Feuerpolizei-Akzeptanz im Detail → Skill `brandschutz`.** ⚠ Datenstand 2026-06-12.
 
 ---
 
