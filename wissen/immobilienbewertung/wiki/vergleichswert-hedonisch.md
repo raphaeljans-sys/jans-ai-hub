@@ -1,9 +1,9 @@
 ---
 title: Vergleichswert / hedonische Bewertung
-status: emerging
-last_updated: 2026-06-09
-sources: [IMMO-03 Hedonistische_Berechnungsweise (Standortinformation Beispiel-Report), IMMO-02 UBS Real Estate Fact Sheets, IMMO-01 MA Marktwertanalyse-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64)]
-links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]]
+status: established
+last_updated: 2026-06-12
+sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64)]
+links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]], [[marktdaten-gemeinden/README]]
 ---
 
 # Vergleichswert / hedonische Bewertung
@@ -51,6 +51,39 @@ da die Spektren saemtliche Mietvertraege (gross­teils Altbauten) enthalten (S. 
   «Was zahlt die Nachbarschaft», BFS (Leerwohnungsziffer, LIK), GIS-Browser (maps.zh.ch),
   SNB data.snb.ch.
 
+## Der WP-Standortreport — Aufbau (Beispiel Langenthal, 21.06.2023)
+
+Der **Wüest Partner Standortinformation**-Report (Muster in `IMMO-03`) ist das hedonische
+Pendant zum UBS-FS und zeigt, wie ein hedonischer Standortreport gegliedert ist. Er liefert
+je Region (gewählte Gemeinde + umliegende MS-Region + Kanton + CH als Vergleichsraum) die
+**Preisspektren als Quantile 10/30/50/70/90 %**, getrennt nach:
+
+- **Wohnen**: Mietwohnungen (Nettomiete CHF/m²/Jahr), Eigentumswohnungen (Kaufpreis CHF/m²),
+  Einfamilienhäuser (Kaufpreis CHF/m²) — jeweils plus **Zeitreihe** (quartalsweise Entwicklung
+  der Quantile, QoQ/YoY-Veränderung) und **pro Objekt nach Zimmerzahl** (1- bis 8-Zimmer, in
+  CHF/Monat bzw. CHF total). Beispiel Langenthal Mietwohnung Median 179 CHF/m²/J, Schweiz 190.
+- **Geschäft**: Büroflächen, Gewerbeflächen, Verkaufsflächen (Nettomiete CHF/m²/Jahr).
+- **Baulandpreise** Wohnen (MFH hohe AZ / EFH tiefe AZ) und Geschäft — **«nach der
+  Residualmethode modellierte Preise»** (CHF/m² Land), halbjährliche Reihe. Das verknüpft den
+  Vergleichswert direkt mit der [[residualwertmethode]]: der hedonische Baulandpreis ist selbst
+  ein Residualwert-Output.
+- **Anhang Datengrundlagen**: jede Datengrundlage mit Erhebungsstand + letzter Aktualisierung
+  + Frequenz (Baulandpreise halbjährlich, Preisspektren vierteljährlich, Regionalisierung BFS/
+  Swisstopo jährlich). → **Stand immer aus dem Anhang übernehmen**, nicht aus dem Abfragedatum.
+
+Quellen-Disclaimer von WP: Daten ohne Gewähr für Vollständigkeit/Richtigkeit/Aktualität — als
+Markteinordnung, nicht als Punktwert zu lesen.
+
+## UBS-FS vs. WP-Standortreport — beide nutzen Quantile
+
+Beide Reports arbeiten mit demselben Quantil-Prinzip (10/30/50/70/90 %, Median = Referenz).
+Die UBS-FS-Methodik (Quantil-Box in fünf Fünfteln, 11-Kriterien-Standort-Rating von WP,
+BFS-Gemeindetyp, MS-Region) ist in [[marktdaten-gemeinden/README]] dokumentiert; die je
+Gemeinde kompilierten Quantil-Tabellen liegen unter `wiki/marktdaten-gemeinden/`. Faustregel
+für die Praxis: **UBS-FS** = schnelle Gemeinde-Faktenbasis (eine Seite je Nutzung), **WP-
+Standortreport** = tiefere Zeitreihen + Bauland-Residualpreise + Objektgranularität nach
+Zimmerzahl.
+
 ## Lage als staerkster Treiber
 
 Die Lage schlaegt am staerksten durch — formalisiert in der Lageklasse 1-10, die zugleich
@@ -59,7 +92,12 @@ eine Gemeinde: Web-Recherche (Stand notieren) oder Ableitung aus Nachbargemeinde
 
 ## Offen / zu vertiefen
 
-- Konkrete Quantil-Werte je Gemeinde aus den UBS-FS als Kennwert-Tabelle extrahieren.
-- Hedonik-Methodik (welches Modell: IAZI/Wuest/Fahrlaender) sauber belegen.
-- Zu-/Abschlagslogik (Median → Objekt) als Checkliste formalisieren.
-- Veraltete UBS-FS aktualisieren (Bestellung neuer Fact Sheets) → `wiki/wissensluecken.md`.
+- ✓ 2026-06-12 (T7 teilweise): WP-Standortreport-Aufbau + UBS-FS-Methodik (Glossar) belegt;
+  Quantil-Tabellen für 6 Gemeinden kompiliert (Wangen/Zollikon/Maur/Wald/Wädenswil/Einsiedeln,
+  siehe [[marktdaten-gemeinden/README]]).
+- Hedonik-Modellfamilie (IAZI vs. Wüest vs. Fahrländer) und konkrete Variablen-Gewichte
+  sauber belegen — die Reports nennen das zugrunde liegende Modell nicht explizit.
+- Zu-/Abschlagslogik (Median → konkretes Objekt) als Checkliste formalisieren (Mikrolage,
+  Zustand, Ausbau, Stockwerk/Aussicht).
+- Veraltete UBS-FS aktualisieren (Wald/Wädenswil/Einsiedeln Stand 2023-Q3, Maur 2024-Q1
+  > 18 Mt.) → `wiki/wissensluecken.md` D1.

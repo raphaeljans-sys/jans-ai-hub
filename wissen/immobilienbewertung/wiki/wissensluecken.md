@@ -22,14 +22,22 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T7 | Hedonik-Methodik + UBS-FS-Quantile je Gemeinde extrahieren | IMMO-02, Standortreport | [[vergleichswert-hedonisch]] |
+| T7 | Hedonik-Methodik (Modellfamilie IAZI/Wüest/Fahrländer) + weitere UBS-FS-Gemeinden | IMMO-02, Standortreport | [[vergleichswert-hedonisch]] |
 | T8 | Flaechenfaktoren Wohnen (aGF/BGF/HNF) belegen | Flaechenkonzeption Wohnen | [[flaechendefinitionen-sia]] |
 | T9 | Reale JANS-Projektfaelle als Referenz-Benchmarks erfassen | IMMO-01 LB/RW/MA | [[projektstruktur-deliverables]] |
 | T10 | Marktpuls Zins/Mietzins/Referenzzinssatz (laufend, mit Stand) | Web + Wuest | [[investorenmarkt-makro]] |
-| T13 | Mietwert-Korrekturfaktoren (Tab. 14/15) + Gastgewerbe-Bewertung (Tab. 25-28) | `schaetzungsanleitung_kap5.pdf` | [[ertragswert-dcf]], [[vergleichswert-hedonisch]] |
+| T14 | UBS SREBI Bubble Index Q2-2024 (Blasenrisiko-Karte) einarbeiten | `srebi-q2-2024-de.pdf` | [[investorenmarkt-makro]], [[datenquellen-registry]] |
 
 ## Erledigt
 
+- ✓ 2026-06-12 **T13** Mietwert-Korrekturfaktoren (Tab. 14 Punktesystem + Bauweise/Alter/
+  Heizung, Tab. 15 Kriterienraster ±9 %) + Gastgewerbe-Umsatzmiete (Tab. 25-28) eingearbeitet
+  → [[ertragswert-dcf]]; Nutzflächen/Raumeinheiten (Tab. 12/13) → [[flaechendefinitionen-sia]].
+  Damit Schätzungsanleitung Kap. 5 **vollständig** (Run 3).
+- ✓ 2026-06-12 **T7 (teilweise)** Hedonik-Methodik: WP-Standortreport-Aufbau (Langenthal) +
+  UBS-FS-Glossar-Methodik belegt; 4 weitere Gemeinden kompiliert (Maur/Wald/Wädenswil/
+  Einsiedeln) → [[vergleichswert-hedonisch]], [[marktdaten-gemeinden/README]]. Offen:
+  Hedonik-Modellfamilie, restliche UBS-FS (Thalwil/Regensdorf/Luzern/Muri).
 - ✓ 2026-06-10 **T4** DXMA-Erfolgsfaktoren (komplettes Modul 4, 37 S.) eingearbeitet:
   6 Faktoren, Aufwertungsgewinn + 10 Referenzfaelle, AZ-Optimierungsformel, A4-Bewertungsblatt
   → [[erfolgsfaktoren-wettbewerb]], [[nutzungskonzepte]], [[residualwertmethode]] (Run 2).

@@ -1,7 +1,7 @@
 ---
 title: Marktdaten Gemeinden (UBS Real Estate Local Fact Sheets)
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-06-12
 sources: [IMMO-02 UBSFS]
 links: [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[ertragswert-dcf]]
 ---
@@ -23,10 +23,17 @@ aelter als 18 Monate werden mit ⚠ markiert (siehe `../wissensluecken.md`).
 |---|---|---|---|---|---|
 | Wangen | SZ | 8854 / 1349 | March | 12/2025 | [[marktdaten-gemeinden/sz-wangen-8854]] |
 | Zollikon | ZH | 8125 / 0161 | Pfannenstiel | 12/2025 | [[marktdaten-gemeinden/zh-zollikon-8125]] |
+| Maur | ZH | 8124 / 0195 | Glattal-Furttal | 7/2024 ⚠ | [[marktdaten-gemeinden/zh-maur-8124]] |
+| Wald | ZH | 8636 / 0120 | Zürcher Oberland | 12/2023 ⚠ | [[marktdaten-gemeinden/zh-wald-8636]] |
+| Wädenswil | ZH | 8820 / 0293 | Zimmerberg | 12/2023 ⚠ | [[marktdaten-gemeinden/zh-waedenswil-8820]] |
+| Einsiedeln | SZ | 8840 / 1301 | Einsiedeln | 12/2023 ⚠ | [[marktdaten-gemeinden/sz-einsiedeln-8840]] |
 
-Weitere Fact Sheets liegen als PDF in `IMMO - 02 UBSFS` (Waedenswil, Thalwil, Maur,
-Regensdorf, Wald, Luzern, Einsiedeln, Muri) — noch nicht kompiliert; bei Bedarf
-nachziehen und hier registrieren.
+⚠ = Datenstand älter als 18 Monate → vor Anwendung Marktpuls prüfen (T10). Weitere
+Fact Sheets liegen als PDF in `IMMO - 02 UBSFS` (Thalwil, Regensdorf, Luzern, Muri) —
+noch nicht kompiliert; bei Bedarf nachziehen und hier registrieren. Zwei UBS-FS-Generationen
+im Bestand: die **ältere Generation** (12/2023–7/2024, Format «Wald/Maur/Einsiedeln/Wädenswil»,
+mit Nachbargemeinden-/Regionen-Spektren und Bevölkerung/Beschäftigung/Steuern auf S. 5-12) und
+die **neuere** (12/2025, Format «Wangen/Zollikon»). Spaltenlogik der Quantile ist identisch.
 
 ## Lesehilfe (Spaltenlogik UBS-FS)
 
@@ -38,3 +45,24 @@ nachziehen und hier registrieren.
   ermittelt, Vorsicht bei effektiven Transaktionspreisen unueberbauter Parzellen.
 - **Preis-Miet-Verhaeltnis**: Kaufpreis / Jahresmiete; hoeher = teurer relativ zur Miete.
 - Farblegende der UBS (hoch/mittel/tief) = Einordnung gegenueber allen CH-Gemeinden.
+
+## UBS-FS-Methodik (aus dem Glossar, S. 13)
+
+- **Quantil-Definition**: «x %-Quantil hat folgende Bedeutung: x % aller ermittelten
+  Beobachtungen liegen unter dem angegebenen Wert.» Der 50 %-Wert ist der Median (Referenz).
+  Die Box-Darstellung im FS teilt jede Verteilung in fünf Fünftel (0-20/20-40/40-60/60-80/
+  80-100 %); die Farbe der Box zeigt, wo die Gemeinde gegenüber allen CH-Gemeinden liegt.
+- **Eigenheimpreise** = Nettoangebotspreise in CHF/m² Netto-Hauptnutzfläche; **Mieten** in
+  CHF/m² Netto/Jahr (durch 12 für Monatsmiete/m²).
+- **Standort-Ratings** werden von Wüest Partner anhand **elf Kriterien** vergeben und
+  fünfstufig klassiert (sehr gut bis exzellent / überdurchschnittlich bis gut / unter-
+  durchschnittlich bis durchschnittlich / schlecht bis mässig / extrem schlecht bis sehr
+  schlecht) — je für EFH / EW / MW / Büro / Verkauf.
+- **MS-Region** (mobilité-spatiale-Modell des BFS, 106 Regionen): kleinräumige wirtschaftliche
+  Verflechtung — als Vergleichsraum neben Kanton und CH.
+- **BFS-Gemeindetypen** (9 Typen): 1 Städtisch grosse Agglom., 2 mittelgrosse, 3 kleine/keine,
+  4 Periurban hohe Dichte, 5 mittlere, 6 geringe Dichte, 7 Ländlich Zentrum, 8 zentral gelegen,
+  9 peripher. Bestimmt die Vergleichbarkeit zweier Gemeinden mit.
+- **Datenquellen je FS**: Preise/Standortratings/Baulandpreise/Angebotsmengen = Wüest Partner;
+  Bevölkerung/Bestand/Leerstand/Bauinvestitionen = BFS; Bauland-Zonen = ARE; Steuern = ESTV;
+  PLZ = Post. Herausgeber UBS CIO GWM.

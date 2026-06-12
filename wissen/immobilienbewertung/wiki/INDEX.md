@@ -7,8 +7,8 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 - [[bewertungsverfahren-ueberblick]] — die vier Verfahren + Marktwert-Synthese · *established*
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern) · *established*
-- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung, DCF · *emerging*
-- [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS, Quantile · *emerging*
+- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung, DCF, Mietwert-Korrektur, Gastgewerbe · *established*
+- [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
 - [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert · *emerging*
 
 ## Grundlagen & Daten
@@ -20,9 +20,13 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 ## Marktdaten Gemeinden (UBS Fact Sheets, kompiliert)
 
-- `marktdaten-gemeinden/README.md` — Sammel-Index + Lesehilfe UBS-FS · *established*
+- `marktdaten-gemeinden/README.md` — Sammel-Index + Lesehilfe + UBS-FS-Methodik · *established*
 - [[marktdaten-gemeinden/sz-wangen-8854]] — Wangen (SZ), Stand 12/2025 · *established*
 - [[marktdaten-gemeinden/zh-zollikon-8125]] — Zollikon (ZH), Stand 12/2025 · *established*
+- [[marktdaten-gemeinden/zh-maur-8124]] — Maur (ZH), Stand 7/2024 ⚠ · *established*
+- [[marktdaten-gemeinden/zh-wald-8636]] — Wald (ZH), Stand 12/2023 ⚠ (Healthcare-Standort) · *established*
+- [[marktdaten-gemeinden/zh-waedenswil-8820]] — Wädenswil (ZH), Stand 12/2023 ⚠ · *established*
+- [[marktdaten-gemeinden/sz-einsiedeln-8840]] — Einsiedeln (SZ), Stand 12/2023 ⚠ · *established*
 
 ## Markt & Konzept (Wuest-Kurs Module 2-4)
 
