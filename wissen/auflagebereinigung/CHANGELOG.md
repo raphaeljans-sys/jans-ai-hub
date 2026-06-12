@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-12 — Definitiver Bauentscheid BE 1171/26: Formular-Zuordnung bestätigt
+
+- `formular-verifizierung.md` auf `status: established` gehoben: Zuordnung II.8.a→EN-ZH/EVEN,
+  II.8.b→EN-105 (Lüftung), II.8.c→EN-110-ZH (Kühlung/Befeuchtung) am definitiven Bauentscheid
+  **BE 1171/26** (B26-00705.01, 08.06.2026) wörtlich UND an den Formular-Original-PDFs verifiziert.
+- Neues Lehrstück ergänzt: Formular-Ordner im Projekt waren **vertauscht beschriftet**
+  (II.8b-Ordner enthielt EN-110-ZH, II.8c-Ordner EN-105) — Ordnernamen sind keine Quelle.
+- Stammdaten für die Formulare amtlich beschafft (Fall 2619): EGID **302064023** (GWR),
+  Parzelle **RI5416** / EGRID CH267999915472 (geo-zh.mjs), Gebäudevers.-Nr. **RI02972**
+  (Baugesuchsformular). Arbeitsstand-Datei im Projektordner nachgeführt.
+- Befund: HLK-Fachdaten (Lüftungsprojekt Neu) fehlen weiterhin — EN-105/EN-110-ZH ohne
+  Planerdaten nicht ausfüllbar; nur Abbruchplan in `33.02_GRUNER/03 HLK/` vorhanden.
+
 ## 2026-06-10 — Muster «Auflage → amtliches Formular (verifiziert, nie geraten)»
 - **Neuer Artikel** `wiki/formular-verifizierung.md` (emerging): Verifizierungs-Muster für
   Formular-/Nachweisnummern. Seed = Lehrstück KISPI 2619 Ziff. II.8 — ein Sub-Agent hatte

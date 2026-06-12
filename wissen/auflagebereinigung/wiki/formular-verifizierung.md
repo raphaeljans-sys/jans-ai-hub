@@ -1,8 +1,8 @@
 ---
 title: Auflage → amtliches Formular (verifiziert, nie geraten)
-status: emerging
-last_updated: 2026-06-10
-sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.8, wissen/energie/wiki/energienachweis-zh.md]
+status: established
+last_updated: 2026-06-12
+sources: [Bauentscheid BE 1171/26 (B26-00705.01) Stadt ZH vom 08.06.2026 Ziff. II.8, Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.8, wissen/energie/wiki/energienachweis-zh.md, EN-105 (EnFK, Version August 2017), EN-110-ZH (Kt. ZH, Version September 2022)]
 links: [[auflagentypen-gewerkzuteilung]], [[vorgehen-auflagebereinigung]], [[INDEX]]
 ---
 
@@ -34,9 +34,19 @@ Modellstaerke ersetzt die Gegenkontrolle nicht.
 
 | Auflage (Fall) | Schluesselwort im Entscheid | Amtliches Formular | Beleg |
 |---|---|---|---|
-| II.8.a (2619-KISPI) | Energienachweis / Nachweisuebersicht | **EN-ZH** (Deckblatt, heute EVEN) | `energie/wiki/energienachweis-zh` |
-| II.8.b (2619-KISPI) | Lueftung/Klima, neue Anlagen | **EN-105** | `energie/wiki/energienachweis-zh` |
-| II.8.c (2619-KISPI) | Kuehlung / umbaubetroffene Lueftungsanlagen | **EN-110-ZH** | `energie/wiki/energienachweis-zh` |
+| II.8.a (2619-KISPI) | «Hauptformular EN-ZH» | **EN-ZH** (Deckblatt, heute EVEN) | BE 1171/26 woertlich + `energie/wiki/energienachweis-zh` |
+| II.8.b (2619-KISPI) | «Lueftungstechnische Anlagen» | **EN-105** (Titel woertlich auf dem Formular, EnFK Version August 2017, gueltig bis 31.12.2026) | BE 1171/26 + Formular-Original |
+| II.8.c (2619-KISPI) | «Kuehlung / Befeuchtung» | **EN-110-ZH** «Kuehlung/Befeuchtung, bestehende Gebaeude» (Version September 2022, PDF gueltig bis 31.12.2025 → seit 1.1.2026 via EVEN) | BE 1171/26 + Formular-Original |
+
+**Bestaetigung am definitiven Entscheid (12.06.2026):** Der definitive Bauentscheid
+**BE 1171/26** (Geschaefts-Nr. B26-00705.01, AfB Stadt Zuerich, 08.06.2026) bestaetigt die
+Zuordnung woertlich. Die Formular-Titel wurden zusaetzlich an den Original-PDFs verifiziert.
+
+**Fallgrube Ablage (Lehrstueck 2619, 12.06.2026):** Im Projektordner waren die beiden
+Formular-Ordner **vertauscht beschriftet** (Ordnername «II.8b … EN-110ZH» enthielt das
+Kuehlungs-Formular, «II.8c … EN-105» das Lueftungs-Formular). Ordnernamen sind KEINE
+verlaessliche Quelle fuer die Zuordnung — massgeblich sind Entscheid-Wortlaut +
+Formular-Titel im PDF selbst.
 
 > Die Spalte «Schluesselwort» ist das, was der Extraktor woertlich sieht; die Spalte
 > «Formular» ist das **verifizierte** Ergebnis aus der Fach-KB. Nie die rechte Spalte
