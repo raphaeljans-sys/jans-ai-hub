@@ -20,7 +20,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /
   Luftdicht folienfrei n₅₀ 0,6 / Feuchte s_d feuchtevariabel) → `[[holzbau-bauphysik-clt]]`,
-  `[[clt-bauphysik-stora-enso]]` (FAQ F15). Offen: Bauteilkatalog Kap. 4 (S. 38-178) + Schallschutz.
+  `[[clt-bauphysik-stora-enso]]` (FAQ F15). **Bauteilkatalog Kap. 4 belegt 2026-06-12** (Aussenwand
+  V1-9 + Dach V1-6: REI·U·Rw) → `[[clt-bauteilkatalog-stora-enso]]`. Offen: Innen-/Trennwand/Decke-
+  Schallschutz (S. 98-164).
 
 ## Block B — Nachweis & Recht (ZH)
 - [x] B1 ZH-Energienachweis EN-ZH: welches Formular wann — belegt 2026-06-07 via EN-ZH-005
@@ -44,7 +46,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] C1 PV-Typen-Entscheidungsbaum (kristallin/Duennschicht/Graetzel/Hybrid + Integration) —
   belegt 2026-06-07 via TEC21-Dossier «Solares Bauen» → `[[pv-solar-technologien]]` (FAQ F4).
 - [ ] C2 PV-Eignung/Ertrag bestimmen (uvek-gis-Bericht, SolarReports Basel/Willerzell als Beispiele).
-- [ ] C3 Brandschutz bei Solaranlagen (`_Brandschutz/stp_solaranlagen_swissolar_v_4.0`) — Verweis Skill `brandschutz`.
+- [x] C3 Brandschutz bei Solaranlagen — belegt 2026-06-12 via swissolar STP V4.00 (S. 1-16: DC
+  kein PVC/RF1-Rohr, WR-Standort, Kennzeichnung) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
+  `[[pv-solar-technologien]]` (FAQ F16). Bewertung/Detail → Skill `brandschutz`. Offen: STP Kap. 4-7.
 - [ ] C4 Sunskin/Indach-Planung & Ausfuehrung (`solar-home.ch/Sunskin/...`).
 
 ## Block D — Nachhaltigkeit / Klima (strategisch)
