@@ -20,7 +20,7 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
 - [x] E2 PV-Eignung/Ertrag grob bestimmen (uvek-gis, Sonnenstand, Verschattung)? (2026-06-06, sonnendach.ch + Solarrechner + ewzWHH-Benchmark)
 - [x] E3 U-Wert-Grenzwerte SIA 380/1 als belegte Tabelle (Bauteil → max U). (2026-06-06, belegt in KB `wissen/energie/` → [[u-werte-grenzwerte-ch]]; hier verlinkt statt dupliziert)
-- [x] E4 Energienachweis ZH: Massnahmenpaket vs. Einzelnachweis — wann was, welche Formulare? (2026-06-06, EN-ZH Hauptformular belegt; Fachformular-Detailliste offen)
+- [x] E4 Energienachweis ZH: Massnahmenpaket vs. Einzelnachweis — wann was, welche Formulare? (2026-06-06 EN-ZH Hauptformular; 2026-06-12 vollstaendige Fachformular-Liste EN-101a…EN-141/S/LN + Detail EN-105/EN-110-ZH + EVEN-Umstellung 01.01.2026 belegt → [[energie-energienachweis-zh-formulare]])
 - [~] E5 Aktuelle ZH-Energievorgaben (MuKEn-Umsetzung) mit Datenstand. (2026-06-06, Stand gesetzt: EnerG seit 1.9.2022/MuKEn 2014; MuKEn 2025 ZH-Umsetzung ausstehend)
 - [ ] E6 Brandschutz bei Solaranlagen (VKF 2001-15) — Kernregeln (Verweis Skill brandschutz).
 

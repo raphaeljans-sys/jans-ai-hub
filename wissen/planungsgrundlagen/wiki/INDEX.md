@@ -16,7 +16,8 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - _(verweist auf Skill `brandschutz` — kein eigener Artikel, Stand 2026-06-05)_
 
 ## Energie (PL-04)
-- [[energie-uebersicht]] — Einstieg: U-Wert (→ KB energie), Energienachweis ZH/EN-ZH · **established**
+- [[energie-uebersicht]] — Einstieg: U-Wert (→ KB energie), Energienachweis ZH/EN-ZH, EVEN · **established**
+- [[energie-energienachweis-zh-formulare]] — EN-ZH Fachformular-Liste (EN-101…EN-141/S/LN), Detail EN-105/EN-110-ZH, EVEN-Plattform 2026 · **established**
 - [[energie-pv-eignung-typenwahl]] — PV-Typen A–E, Eignung/Ertrag-Werkzeuge, ewzWHH-Benchmark · **established**
 - _Tiefe Physik/Kennwerte → eigene KB `wissen/energie/` (U-Werte, Minergie, Q_H, Bauherren-FAQ)_
 
