@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -88,18 +88,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 ## Fortschritts-Tracker
 
 - **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07.
-- **Seiten distilliert:** ~80 / 1550 (40 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 Teil 1).
-- **Kapitel-Destillate:** 3 (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` — System/Wald/Gewaesser).
-- **Wiki:** 9 Artikel (+ [[gebaeudearten-und-abstandssystem]] 2026-06-11; [[abstaende-und-hoehen]] korrigiert).
-- **Letzter Lauf:** Run 3, 2026-06-11 — Kap. 15 Teil 1 (Abstandssystem §§ 260-274, Gebaeudearten,
-  politische/Zonengrenzen, Waldabstand § 262 PBG, Gewaesserraum; Shots 501-510, S. 995-1013);
-  Destillat [[15-lage-von-gebaeuden]], neuer Wiki-Artikel [[gebaeudearten-und-abstandssystem]],
-  **Modell D Gegenprobe**: Waldabstand § 268 → § 262 PBG korrigiert (Schwelle 15 m statt 10 m).
-- **Naechster Lauf:** **Kap. 17** Gebaeude/Raeume (Raumhoehen, Belichtung/Belueftung, Wohnhygiene,
-  Hindernisfreiheit) — Shots ~623 ODER **Kap. 15 Teil 2** (Grenz-/Gebaeudeabstand §§ 269-274 +
-  Baulinien, Shots ab 511, S. 1014 ff.). Empfehlung: Kap. 15 Teil 2 (schliesst Grenzabstand-Zahlenwerk).
+- **Seiten distilliert:** ~100 / 1550 (50 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 Teil 1+2a).
+- **Kapitel-Destillate:** 3 (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` — System/Wald/Gewaesser/Gewaesserabstandslinien/Baulinien-Arten).
+- **Wiki:** 10 Artikel (+ [[baulinien-und-abstandslinien]] 2026-06-12; [[abstaende-und-hoehen]] um Gewaesserraum-Vertiefung ergaenzt).
+- **Letzter Lauf:** Run 4, 2026-06-12 — Kap. 15 Teil 2a (Uferstreifen-Messweise, dicht ueberbautes
+  Gebiet Art. 41c GSchV, Besitzstand/Brandstattrecht § 15m HWSchV, Gewaesserabstandslinien § 67 PBG,
+  Hochwasser-Gefahrenbereiche, Baulinien-Arten § 96 PBG + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG;
+  Shots 511-520, S. 1014-1033); Destillat [[15-lage-von-gebaeuden]] erweitert, neuer Wiki-Artikel
+  [[baulinien-und-abstandslinien]], **Modell A** Frage→Beleg-Drill (TG an Gewaesserabstandslinie).
+- **Naechster Lauf:** **Kap. 15 Teil 2b** — Grenz-/Gebaeudeabstand-Zahlenwerk §§ 263-274 PBG
+  (grosser/kleiner Grenzabstand, Mehrlaengenzuschlag, Gebaeudeabstand) + Verkehrsbaulinien-Zahlenwerk,
+  Shots ab 521, S. 1034 ff. ODER **Kap. 17** (Raumhoehen/Wohnhygiene, Shots ~623).
+  Empfehlung: Kap. 15 Teil 2b (schliesst das Grenzabstand-Zahlenwerk, hoechster Bueroalltagsnutzen).
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
-- **Restschuld Kap. 15:** Strassen-/Grenz-/Gebaeudeabstand §§ 263-274, Baulinien §§ 96-101 (Shots ab 511).
+- **Restschuld Kap. 15:** Grenz-/Gebaeudeabstand §§ 263-274 + Verkehrsbaulinien-Zahlenwerk §§ 99-101 (Shots ab 521).
 - **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung
   (Shots ab 581, S. 1154 ff.).
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
