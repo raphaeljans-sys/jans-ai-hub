@@ -9,9 +9,9 @@ Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh
 (`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
 eine Dauerregel handelt.
 
-## 260612 — Projektraum-/Plattform-Downloads IMMER doppelt ablegen (extern + eigene Site)
-- **Auslöser:** "bitte lege die dokumente einerseits auf dem für externe partner von mir geteilten sharepoint sowie meiner eigentlichen server sharepoint seite wo ich meine projekte habe, ich lege es immer doppelt ab im falle jemand unfug auf der externen platte macht"
-- **Regel:** Dokumente, die von externen Plattformen/Projekträumen (z.B. Truninger DS3) für ein Projekt beschafft werden, werden IMMER doppelt abgelegt: 1) auf der mit externen Partnern geteilten Projekt-Site (z.B. `JANS - 2619-KISPI - Dokumente/…`) und 2) auf der eigenen internen Projekt-Site unter `AR - 01 Projekte/<Projekt>/99 Grundlagen/<…> DOWNLOAD PROJEKTRAUM/…` — mit identischer Ordnerstruktur (Quellstruktur spiegeln). Die interne Kopie ist die Sicherung, falls auf der externen Ablage «Unfug» passiert; sie wird nie weggelassen.
+## 260612 — Projektraum-/Plattform-Downloads IMMER doppelt ablegen (extern + eigene Site), Struktur = EXAKTER Spiegel der Quelle
+- **Auslöser:** "bitte lege die dokumente einerseits auf dem für externe partner geteilten sharepoint sowie meiner eigentlichen server sharepoint seite ab (doppelt, falls jemand unfug auf der externen platte macht)" + "die ordnerstruktur auf beiden sharepoint-sites muss exakt die gleiche ablagehierarchie anwenden wie auf der truninger plattform — exakter spiegel"
+- **Regel:** Dokumente, die von externen Plattformen/Projekträumen (z.B. Truninger DS3) für ein Projekt beschafft werden, werden IMMER doppelt abgelegt: 1) auf der mit externen Partnern geteilten Projekt-Site (z.B. `JANS - 2619-KISPI - Dokumente/…`) und 2) auf der eigenen internen Projekt-Site unter `AR - 01 Projekte/<Projekt>/99 Grundlagen/<…> DOWNLOAD PROJEKTRAUM/…`. Die Ablagehierarchie ist dabei ein **EXAKTER Spiegel der Quellplattform**: identische Ordnernamen (inkl. Schreibweise/Umlaute), identische Verschachtelung, keine eigenen Zwischenordner und keine Umbenennungen. Eigene JANS-Arbeitsordner (z.B. «33 Auflagebereinigung») bleiben klar erkennbar daneben, gehören aber nicht in den Spiegel. Die interne Kopie ist die Sicherung, falls auf der externen Ablage «Unfug» passiert; sie wird nie weggelassen.
 - **Gilt für:** Alle Plattform-/Projektraum-Downloads in allen Projekten, alle Stationen.
 
 ## 260611 — C4D-Rendering laeuft IMMER auf dem Mac Mini (Render-Weiche)
