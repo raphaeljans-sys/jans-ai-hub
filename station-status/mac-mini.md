@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 12.06.2026 11:52:29
+Stand: 12.06.2026 12:12:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,8 +9,8 @@ Stand: 12.06.2026 11:52:29
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 19 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
-- 14 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 22 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 18 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 12.06.2026 11:52:29
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- acc7d5f nas-selfcommit: 2 Datei(en) 2026-06-12 11:45
+- df6b3e8 nas-selfcommit: 2 Datei(en) 2026-06-12 12:00
