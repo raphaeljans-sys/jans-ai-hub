@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 07:37:31
+Stand: 12.06.2026 07:57:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 12.06.2026 07:37:31
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b197716 nas-selfcommit: 2 Datei(en) 2026-06-12 07:30
+- bd72bd1 baurecht-buch-training: Run 4 — Kap. 15 Teil 2a (Gewaesserabstandslinien § 67, Baulinien § 96, Hochwasser-Gefahrenbereiche); Lern-Report + CHANGELOG/PROGRAMM
