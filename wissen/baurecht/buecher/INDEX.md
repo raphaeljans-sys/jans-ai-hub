@@ -32,6 +32,16 @@ Trainingslauf (`../training/PROGRAMM.md`).
   20 Doppelseiten. Status: `emerging` (Grenz-/Gebaeudeabstand-Zahlenwerk §§ 263-274 offen, Shots ab 521).
   Speist [[abstaende-und-hoehen]] + [[gebaeudearten-und-abstandssystem]] + [[baulinien-und-abstandslinien]].
 
+- [[kap16-10_gebaeudedimensionen-harmonisierung]] — Kap. 16.10 (S. 1230-1239, ECHTE Seiten):
+  Gebaeudedimensionen nach **Harmonisierungsvorlage (nPBG/IVHB)** — Geschossarten,
+  **Attikageschoss-Rueckversetzung h/2 an fiktiven Traufseiten** (§ 275 Abs. 4 nPBG,
+  Altrecht 45 Grad), Dachaufbauten 1/2 Fassadenlaenge (§ 292), UG-Formel ≤ 2.5 (§ 29 nABV),
+  **massgebendes Terrain** (§ 5 nABV: gewachsener Verlauf, Nachbarschafts-Festlegung,
+  Abgrabungen aendern MT nicht), **Gesamthoehe/Fassadenhoehe-Messweise** (§§ 278/281 nPBG,
+  Flachdach bis OK Bruestung ausser ≥ 1 m zurueckversetzt), Kniestock 1.5 m, Gebaeudelaenge
+  flaechenkleinstes Rechteck (§ 28 nABV). 5 Doppelseiten. Status: `established`.
+  Speist Skill `massgebendes-terrain` (Prinzip 4 Attika-/Baukoerper-Setzung).
+
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
 - _(noch keine Destillate — Start gem. Curriculum mit Kap. 6 Verfahren)_
 

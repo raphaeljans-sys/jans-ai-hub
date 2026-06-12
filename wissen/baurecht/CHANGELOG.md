@@ -4,6 +4,19 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-13 — Buch-Destillat Kap. 16.10 (Attika/MT/Fassadenhoehe, S. 1230-1239)
+- NEU `buecher/band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` (Shots 619-623,
+  echte Seiten 1230-1239): Attikageschoss-Rueckversetzung h/2 an fiktiven Traufseiten
+  (§ 275 Abs. 4 nPBG, bisher 45 Grad), Dachaufbauten 1/2 Fassadenlaenge (§ 292 nPBG),
+  UG-Formel ≤ 2.5 (§ 29 nABV), massgebendes Terrain = gewachsener Verlauf /
+  Nachbarschafts-Festlegung (§ 5 nABV), Gesamthoehe/Fassadenhoehe-Messweise
+  (§§ 278/281 nPBG, Flachdach bis OK Bruestung ausser ≥ 1 m zurueckversetzt),
+  Kniestock 1.5 m, Gebaeudelaenge flaechenkleinstes Rechteck (§ 28 nABV).
+- Inventar Zeilen 619-623 auf [x] mit echten Seitenzahlen.
+- Anlass: Anfrage Raphael (Fall 2621 Giebelweg, Attika-/Baukoerper-Setzung);
+  Erkenntnisse in Skill `massgebendes-terrain` ueberfuehrt.
+
+
 ## 2026-06-12
 - [distill] **Buch-Training Run 4** — Kap. 15 «Lage von Gebaeuden», Teil 2a. Destillat [[15-lage-von-gebaeuden]] um 10 Doppelseiten erweitert (Shots 511-520, S. 1014-1033): **Uferstreifen-Messweise** (ab Uferlinie, Korridor) + ZH-Uebergangsbreiten (§ 15 HWSchV: stehend 8/20 m, fliessend 8 m + Sohle je Seite), **zulaessige Anlagen im Gewaesserraum** (Art. 41c Abs. 1 GSchV: standortgebunden/oeffentliches Interesse), **dicht ueberbautes Gebiet** (Art. 41c Abs. 1 Satz 2 GSchV; BGE 140 II 428; Altendorf/Hurden/Rueschlikon), Grenzabstaende gelten **zusaetzlich** im Gewaesserraum (S. 1020), Besitzstand/Brandstattrecht (§ 15m HWSchV vor § 357/§ 307 PBG), **Gewaesserabstandslinien § 67 PBG** (Bauverbotszone, §§ 99-101 PBG analog, § 220 Dispens), **Hochwasser-Gefahrenbereiche** (WWG/WBV, Gefahrenkarten Art. 21 WBV, § 22 WWG), **Baulinien-Arten § 96 PBG** + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG. Total ~50/780 Doppelseiten.
 - [article] Neuer Wiki-Artikel [[baulinien-und-abstandslinien]] (`emerging`) — Baulinien (§§ 96-101 PBG: Verkehrs-/Schutz-/Versorgungsbaulinie, Endausbau § 98, Naeherbaurecht § 105), subsidiaerer 6-m-Strassenabstand (§ 51 Abs. 2 PBG), Gewaesserabstandslinie (§ 67 PBG), Linien-Abgrenzungstabelle; Leitsatz «die Linie ist oft bindender als die Ziffer». INDEX (10 Artikel).

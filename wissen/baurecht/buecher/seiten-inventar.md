@@ -634,11 +634,11 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 616 | 2 | ~1226 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.45.jpg` |  |
 | 617 | 2 | ~1228 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.46.jpg` |  |
 | 618 | 2 | ~1230 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.47.jpg` |  |
-| 619 | 2 | ~1232 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.48.jpg` |  |
-| 620 | 2 | ~1234 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.49.jpg` |  |
-| 621 | 2 | ~1236 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.51.jpg` |  |
-| 622 | 2 | ~1238 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.52.jpg` |  |
-| 623 | 2 | ~1240 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.53.jpg` |  |
+| 619 | 2 | 1230/1231 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.48.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
+| 620 | 2 | 1232/1233 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.49.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
+| 621 | 2 | 1234/1235 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.51.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
+| 622 | 2 | 1236/1237 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.52.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
+| 623 | 2 | 1238/1239 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.53.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
 | 624 | 2 | ~1242 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.54.jpg` |  |
 | 625 | 2 | ~1244 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.56.jpg` |  |
 | 626 | 2 | ~1246 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.57.jpg` |  |
