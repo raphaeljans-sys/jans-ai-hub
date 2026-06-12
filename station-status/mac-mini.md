@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.06.2026 06:06:34
+Stand: 12.06.2026 06:26:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:17)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.06.2026 06:06:34
 - 33 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- a7435cd nas-selfcommit: 2 Datei(en) 2026-06-12 06:00
+- 9574b38 Energie-Run 8 (2026-06-12): CLT-Bauteilkatalog + PV-Brandschutz

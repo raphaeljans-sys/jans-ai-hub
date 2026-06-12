@@ -3,6 +3,35 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260612 (twin-fragesteller, aus Fidelity-Review 2026-06-12)
+
+Quelle: Drift-Report `outputs/2026-06-12_fidelity.md` (Gesamt-Fidelity 84; schwächste
+Facetten Beziehungsregister 76, Stimme 78 — neu freigelegtes Mundart-Register). Je in
+1–2 Sätzen beantwortbar.
+
+1. **Mundart-Schwelle:** Du schreibst rein private, branchenferne Einladungen ganz in
+   Mundart («Grüzi liebi Pia … en Kafi verbi … Liebe Gruess»). Was kippt eine Du-Mail von
+   Hochdeutsch in Mundart — nur die rein private Einladung, oder auch lockere Du-Mails an
+   vertraute Geschäftspartner, sobald es nicht um die Sache geht? *Warum: macht das einzige
+   Register operationalisierbar, das der Zwilling 260612 komplett verfehlte.* → [[stimme]],
+   [[beziehungsregister]]
+2. **«Guten Abend <Vorname>»:** Nutzt du «Guten Abend» einfach tageszeit­abhängig (abends
+   gesendet) oder hat es einen Ton-Akzent gegenüber «Hoi»/«Guten Morgen» — etwas ruhiger,
+   gesetzter? *Warum: kalibriert die neu erfasste Tageszeit-Anrede.* → [[stimme]],
+   [[beziehungsregister]]
+3. **«Geschätzter <Nachname>» + Du:** An welche Kontakte geht diese Mittelstufe (geschätzter
+   Handwerker, per Du, aber Nachname statt Vorname) — generell an geschätzte Gewerke/Handwerker
+   auf Augenhöhe, oder nur an einzelne, die du noch nicht beim Vornamen nennst? *Warum: schliesst
+   die 260612 gefundene Anrede-Lücke zwischen Vorname-Du und Herr-Sie.* → [[beziehungsregister]]
+4. **Sinnlich-poetische Materialsprache:** Bei Material/Oberfläche schreibst du bewusst
+   bildhaft («Gelassenheit im Erklingen des Verarbeitungsinstrumentes», «aufgerissener
+   Kalkputz»). Soll der Zwilling diese poetische Materialbeschreibung aktiv reproduzieren, oder
+   ist sie nur dem persönlichen Du-Austausch mit Handwerkern vorbehalten? *Warum: klärt, wie weit
+   die zweite Fachsäule stilistisch tragen darf.* → [[fachsignatur]], [[stimme]]
+5. **«:)» vs. 😊:** Setzt du im warm-sozialen Du den ASCII-Smiley «:)» und das Unicode-😊
+   austauschbar (Tagesform/Gerät), oder bewusst getrennt? *Warum: präzisiert den einzigen
+   erlaubten Emoji-Gebrauch.* → [[stimme]]
+
 ## Offen — Runde 260610 (twin-fragesteller, aus Fidelity-Review 2026-06-10)
 
 Quelle: Drift-Report `outputs/2026-06-10_fidelity.md` (Gesamt-Fidelity 85; schwächste

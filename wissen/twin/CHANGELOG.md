@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-12 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Sept 2025, authentisch)
+- Drei weit gestreute Goldproben aus Sent Items rj@ (2025-09-09/10/12): Verputzer-Material­mail
+  (A), Farb-/Materialkonzept-Lieferung (B), private Mundart-Einladung (C). Twin-Fassungen aus
+  den Facetten-Wikis erzeugt, gegen Gold gescort. **Gesamt-Fidelity 84/100** (Stimme 78, Denken
+  88, Haltung 87, Beziehungsregister 76, Fachsignatur 84, Arbeitsweise 88) — leichter, informativer
+  Rückgang ggü. 85 (260610), weil ein bisher unbekanntes Register (Mundart) + zwei Anrede-Stufen
+  freigelegt wurden.
+- Neue belegte Marker eingearbeitet: [[stimme]] — **Mundart/Schweizerdeutsch** im rein
+  privat-sozialen Du («Grüzi liebi …», «Liebe Gruess», «:)», kleines «raphael»); **«Guten Abend
+  <Vorname>»**; **«Lgr.»** als Kurzform von «Lieber Gruss» (beantwortet QUESTIONS 260609 #3);
+  «vtl.» neben «vll.». [[beziehungsregister]] — **«Geschätzter <Nachname>» + Du** (Handwerker-
+  Mittelstufe), Tageszeit-Du, Mundart als leichtestes Privatregister. [[fachsignatur]] —
+  konkrete **Verputz-/Materialsprache** (Zement-Kalkputz, Korn 2–3 mm, aufgerissener Putz) +
+  **Weisscollage-/Oberflächen-Methodik** (Echtheit Textur/Maserung, 1:1-Bemusterung,
+  Helligkeitsbezug), verbreitert die zweite Fachsäule.
+- Facetten-Spannung **Mundart vs. Schweizer Hochdeutsch** aufgelöst (analog «Du immer gross»):
+  Hochdeutsch = Default & Norm für Geschäft/Behörde/Dokument; Mundart authentisch nur privat-sozial.
+- Report `outputs/2026-06-12_fidelity.md`; 5 neue Selbstfragen in QUESTIONS.md (Runde 260612);
+  Do/Don't-Blöcke der 3 Facetten geschärft; Gehirn `rules/jans-dna.md` via build_dna.py neu kompiliert.
+
 ## 2026-06-11 — twin-mail-training: Mailbatch 03 (Sent Items rj@, 2025-07-14 bis 2025-07-31)
 - Sequentieller Sweep fortgesetzt: Offset 30–44/1'038, 15 Mails gesichtet, 4 Volltexte via
   M365 `read_resource` gelesen. Gewichtung **authentisch** (klar vor-Claude). Projekt Wald/
