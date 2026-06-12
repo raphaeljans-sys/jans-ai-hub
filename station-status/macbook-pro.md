@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 01:43:29
+Stand: 12.06.2026 01:53:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:51)
 
 ## Laufende Arbeits-Prozesse
-- keine
+- ssh raphaeljans@100.120.219.12 /Applications/Maxon\ Cinema\ 4D\ 2026/c4dpy.app/Contents/MacOS/c4dpy /Volumes/daten/jan
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 51 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
+- 58 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 - 12 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 12.06.2026 01:43:29
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d0ab8c3 nas-selfcommit: 2 Datei(en) 2026-06-12 01:30
+- b87269c nas-selfcommit: 2 Datei(en) 2026-06-12 01:45
