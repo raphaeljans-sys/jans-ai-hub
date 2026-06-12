@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -90,3 +90,33 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
 ### Wiederholung (spaced repetition, Stichprobe Kap. 14/16)
 - **F (Wdh.):** Ab welcher Kniestockhoehe wird ein Dachgeschoss zum Vollgeschoss? — **A:** ueber
   **0,9 m** (Bestand vor 1.7.1978: 1,3 m); § 275 Abs. 2 PBG (Bd 2, S. 1148). ✅ _[2026-06-11]_
+
+## Kap. 15 Teil 2a — Gewaesserabstandslinien & Baulinien
+
+- **F:** Welche drei Arten von Baulinien kennt § 96 Abs. 2 PBG? — **A:** (a) **Verkehrsbaulinien**
+  (Strassen/Wege/Plaetze/Eisenbahnen, ggf. Vorgaerten/Laermschutz/Gruenzuege), (b) **Baulinien fuer
+  Schutzbauten** (Hochwasserschutz, Parkhaeuser, Fluss-/Bachkorrektionen), (c) **Baulinien fuer
+  Versorgungsleitungen und Anschlussgleise** (Bd 2, S. 1031). _[2026-06-12]_
+- **F:** Welcher Abstand gilt gegenueber einer Strasse, wenn KEINE Verkehrsbaulinie festgesetzt ist?
+  — **A:** Der bloss **subsidiaere 6-Meter-Abstand** der Gemeinden nach **§ 51 Abs. 2 PBG**; eine
+  festgesetzte Baulinie geht vor und kann staerker einschraenken (Bd 2, S. 1033). _[2026-06-12]_
+- **F:** Was ist der Unterschied zwischen kantonalem Gewaesserabstand und Gewaesserabstandslinie
+  (§ 67 PBG)? — **A:** Die **Gewaesserabstandslinie** legt die **Gemeinde** in der BZO fest und geht
+  **ueber** den kantonalen Gewaesserabstand hinaus; Rechtswirkung wie eine Baulinie (§§ 99-101 PBG
+  analog), Bauverbot bis zur Linie (Bd 2, S. 1023 f.). _[2026-06-12]_
+- **F:** Darf im Gewaesserraum ein zonenkonformes Wohnhaus gebaut werden? — **A:** Grundsaetzlich
+  **nein** — nur **standortgebundene, im oeffentlichen Interesse** liegende Anlagen (Art. 41c Abs. 1
+  GSchV). Ausnahme nur im **dicht ueberbauten Gebiet** und ohne entgegenstehende ueberwiegende
+  Interessen (Art. 41c Abs. 1 Satz 2 GSchV; BGE 140 II 428; Bd 2, S. 1015 ff.). _[2026-06-12]_
+- **F:** Ersetzt der Gewaesserraum den nachbarrechtlichen Grenzabstand? — **A:** Nein, er tritt
+  **zusaetzlich** hinzu — auch im Gewaesserraum sind die kantonalen/kommunalen Grenz-/Gebaeude-
+  abstaende (inkl. Zuschlaege) einzuhalten (Bd 2, S. 1020). _[2026-06-12]_
+
+### Modell A — Frage→Beleg-Drill (typische Buerofrage, 2026-06-12)
+- **Frage:** «An unserer Parzelle am Bach liegt im OEREB eine Gewaesserabstandslinie. Duerfen wir die
+  Tiefgarage bis an die Linie setzen?» — **Antwort nur mit Buchbeleg:** Nein. Die Bauverbotswirkung
+  der Gewaesserabstandslinie erfasst **ober- UND unterirdische** Gebaeude; es gelten die
+  Rechtswirkungen der **§§ 99-101 PBG analog**, eine Ueberschreitung nur als Ausnahme nach
+  **§ 100 Abs. 1 PBG** bzw. Dispens **§ 220 PBG** (Bd 2, S. 1024 f.). *Hinweis (Gegensatz):* anders
+  als bei der **Waldabstandslinie**, die unterirdische Bauteile freistellt (S. 1000). Beleg
+  vollstaendig — keine Wissensluecke. ✅

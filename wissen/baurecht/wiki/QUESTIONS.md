@@ -12,8 +12,8 @@ wurden.
 - **Bauen im Betrieb (Healthcare):** Kernkompetenz von JANS, im Wiki noch nicht
   abgebildet. Brücke zu Brandschutz-Schnittstellen fehlt.
 - **Dispens / Ausnahmebewilligung:** nirgends behandelt.
-- **Gewässerabstand:** als Stolperstein in [[baubewilligungsverfahren]] erwähnt, aber
-  kein eigener Artikel.
+- ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
+  [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
 
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
@@ -43,12 +43,23 @@ wurden.
 ## Offene Wissenslücken — neu (2026-06-11, aus Buch-Run Kap. 15 Teil 1)
 - **Grenz-/Gebäudeabstand konkret** (§§ 269-274 PBG): grosser/kleiner Grenzabstand,
   Mehrlängenzuschlag, Gebäudeabstand als Summe — Zahlenwerk noch nicht distilliert
-  (Kap. 15 Teil 2, Shots ab 511, S. 1014 ff.). Ergänzt [[abstaende-und-hoehen]].
-- **Strassenabstand / Verkehrsbaulinien** (§§ 263-268, 96-101 PBG): noch offen (Teil 2).
+  (Kap. 15 Teil 2, Shots ab 521, S. 1034 ff.). Ergänzt [[abstaende-und-hoehen]].
 - **§ 273 PBG** (reduzierte Abstände besonderer Gebäude): genaues Reduktionsmass am
   amtlichen Volltext präzisieren.
 - **Gewässerraum-Formel** «2,5 × Sohle + 7 m» (Art. 41a Abs. 2 GSchV) + Korrekturfaktoren
   1,5/2,0 bei verbauten/eingedolten Gewässern: am Fedlex-Volltext gegenprüfen.
+
+## Offene Wissenslücken — neu (2026-06-12, aus Buch-Run Kap. 15 Teil 2a)
+- ~~**Strassenabstand / Verkehrsbaulinien** (Arten/Zweck der Baulinien)~~ → **teilweise
+  erledigt 2026-06-12**: neuer Artikel [[baulinien-und-abstandslinien]] (Arten § 96 PBG,
+  subsidiärer 6-m-Abstand § 51 Abs. 2, Gewässerabstandslinie § 67, Rechtswirkung §§ 99-101).
+  **Noch offen:** das konkrete **Zahlenwerk** der Verkehrsbaulinien/Vorgärten (§§ 99-101,
+  § 238 PBG) und die Grenz-/Gebäudeabstände §§ 263-274 PBG (Shots ab 521, S. 1034 ff.).
+- **§ 100 Abs. 1 PBG** (zulässige Überschreitungen einer Baulinie): genauer Katalog der
+  privilegierten Bauteile am amtlichen Volltext präzisieren.
+- **«Dicht überbautes Gebiet»** (Art. 41c Abs. 1 Satz 2 GSchV): praxistaugliche Kriterien aus
+  dem Merkblatt ARE/BAFU/BPUK ergänzen — im Buch nur über Fallrecht (BGE 140 II 428;
+  Altendorf/Hurden/Rüschlikon) umrissen.
 
 ## Beantwortete Fragen / Korrekturen (Archiv)
 - **2026-06-11 (Gegenprobe, Modell D):** [[abstaende-und-hoehen]] nannte für den

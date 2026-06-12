@@ -2,19 +2,21 @@
 name: 15-lage-von-gebaeuden
 kapitel: 15 — Lage von Gebaeuden (Abstaende, Baulinien)
 band: 2
-seiten: 995-1013 (Teil 1)
-shots: 502-512 (Bildschirmfoto 2026-06-07 um 12.03.03 – 12.03.13)
-paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 220 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 15b/15d HWSchV", "Art. 688 ZGB"]
+seiten: 995-1033 (Teil 1 + 2a)
+shots: 502-520 (Bildschirmfoto 2026-06-07 um 12.03.03 – 12.03.27)
+paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238 Abs. 3 PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15b/15d/15m HWSchV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
 status: emerging
-gelesen: 2026-06-11
-last_updated: 2026-06-11
+gelesen: 2026-06-12
+last_updated: 2026-06-12
 ---
 
-# Kap. 15 — Lage von Gebaeuden (Teil 1: System, Wald, Gewaesser)
+# Kap. 15 — Lage von Gebaeuden (Teil 1+2a: System, Wald, Gewaesser, Baulinien)
 
 > **Quelle:** Fritzsche/Boesch/Wipf/Kunz, «Zuercher Planungs- und Baurecht», Bd 2,
-> 6. Aufl. 2019, S. 995-1013. Kanton Zuerich (PBG/ABV/BVV/HWSchV). Teil 2 (Strassen-,
-> Grenz-, Gebaeudeabstand §§ 269-274 PBG, Baulinien) noch offen — Shots ab 513.
+> 6. Aufl. 2019, S. 995-1033. Kanton Zuerich (PBG/ABV/BVV/HWSchV/WWG). Teil 1 (System,
+> Wald, Gewaesser, S. 995-1013) + Teil 2a (Gewaesserabstandslinien § 67, Hochwasser-
+> Gefahrenbereiche, Beginn Baulinien § 96 PBG, S. 1014-1033). Noch offen: Strassen-,
+> Grenz-, Gebaeudeabstand §§ 263-274 PBG sowie Verkehrsbaulinien-Zahlenwerk — Shots ab 521.
 
 ## 1. Das Wichtigste in 3 Saetzen
 
@@ -126,6 +128,85 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   **eingedolten** Fliessgewaessern verlangt ZH gleichwohl mind. **11 m** (§ 15d HWSchV).
   (S. 1009-1013)
 
+### 2.7 Uferstreifen — Messweise und Breite (S. 1014-1015)
+- **Messweise:** Der frei zu haltende Uferstreifen wird **ab der Uferlinie** gemessen; als
+  solche gilt die Begrenzungslinie eines Gewaessers, in der Regel beim regelmaessig
+  wiederkehrenden hoechsten Wasserstand abgestellt (Art. 41a GSchV). Der Gewaesserraum ist
+  ein **Korridor**, in dem das Gewaesser nicht zwingend in der Mitte fliessen muss. (S. 1014)
+- **Stehende Gewaesser ab 0,5 ha:** Uferstreifen **20 m** ab Uferlinie (Art. 41b Abs. 2
+  GSchV); ZH-Uebergangsbestimmung **§ 15 HWSchV** (13.12.2011): bei stehenden Gewaessern
+  **bis 0,5 ha** Uferstreifen **8 m**. (S. 1014)
+- **Fliessgewaesser (ZH-Uebergangsrecht):** Uferstreifen = **8 m plus Breite der bestehenden
+  Gerinnesohle** bis 12 m Sohlenbreite; **20 m** bei Sohle > 12 m. Buchbeispiel: Sohle 6 m →
+  Gewaesserraum **insgesamt 34 m** (Sohle 6 m + je Seite [Sohle 6 m + 8 m]). (S. 1015)
+
+### 2.8 Zulaessige Anlagen im Gewaesserraum (S. 1015-1021)
+- **Grundsatz (Art. 41c Abs. 1 GSchV):** im Gewaesserraum duerfen nur **standortgebundene,
+  im oeffentlichen Interesse liegende** Anlagen erstellt werden (Fuss-/Wanderwege,
+  Flusskraftwerke, Bruecken). Nicht standortgebunden sind z. B. Wohnbauten oder
+  Gartenhaeuser. (S. 1015 f.)
+- **Ausnahme «dicht ueberbautes Gebiet»** (Art. 41c Abs. 1 Satz 2 GSchV; Art. 2 UebgBest
+  GSchV): die Behoerde kann **zonenkonforme** Anlagen bewilligen, sofern **keine ueber-
+  wiegenden Interessen** entgegenstehen — **kumulativ**: (1) zonenkonform, (2) im dicht
+  ueberbauten Gebiet, (3) keine ueberwiegenden Interessen. (S. 1016 f.)
+- **«Dicht ueberbautes Gebiet»** = unbestimmter Rechtsbegriff (BGE 140 II 428 E. 7);
+  massgeblich die konkrete Bebauungssituation, nicht starre Perimeter (URP 2013 S. 145).
+  Merkblatt **ARE/BAFU/BPUK** «Dicht ueberbaute Gebiete». (S. 1017-1019)
+- **Wichtig — kantonale Bauvorschriften gelten weiter:** auch im Gewaesserraum sind die
+  kantonalen/kommunalen **Grenz- und Gebaeudeabstaende** (inkl. Mehrlaengen-/Mehrhoehen-
+  zuschlag) einzuhalten; der Gewaesserraum tritt **zusaetzlich** hinzu. (S. 1020)
+
+### 2.9 Besitzstand & Brandstattrecht im Gewaesserraum (S. 1021-1023)
+- **Bundesrechtliche Besitzstandsgarantie** (Art. 41c Abs. 2 GSchV): rechtmaessig erstellte
+  Anlagen sind im Bestand grundsaetzlich geschuetzt; Unterhalt zulaessig, soweit der
+  Werterhaltung dienend. (S. 1021)
+- **Kantonal:** Besitzstand nach **§ 357 PBG**; im Gewaesserraum modifiziert durch
+  **§ 15m HWSchV** (Vorrang vor § 357 PBG). (S. 1022)
+- **Brandstattrecht:** **§ 307 PBG** (Wiederaufbau nach Brand) ist im Gewaesserraum **nicht**
+  anwendbar; § 15m HWSchV weicht ab — Wiederaufbau in der Regel nur **ausserhalb** des
+  Gewaesserraums. (S. 1022)
+
+### 2.10 Gewaesserabstandslinien § 67 PBG (S. 1022-1027)
+- **Zweck:** Die Bau- und Zonenordnung kann gegenueber im Zonenplan eingetragenen Gewaessern
+  **Linien** festlegen, die ueber den kantonalen Gewaesserabstand **hinausgehen** (§ 67 PBG);
+  raumplanerische Funktion (Erholung, Schutz, Revitalisierung). (S. 1023)
+- **Bauverbotszone:** Ober- und unterirdische Gebaeude duerfen die Gewaesserabstandslinie
+  **nicht ueberschreiten**; es gelten die Rechtswirkungen der **§§ 99-101 PBG analog** (wie
+  Baulinien), Ausnahmen nach **§ 100 Abs. 1 PBG**, Freihaltezonen § 100 Abs. 3 PBG. (S. 1024)
+- **Zustaendigkeit:** Festsetzung auf **kommunaler** Ebene (Element der kommunalen
+  Nutzungsplanung). (S. 1025)
+- **Ausnahmen/Ueberstellung** ausserhalb des Uferstreifens via **§ 220 PBG** (Dispens);
+  bestehende Bauten ueber § 357 PBG. (S. 1025)
+- **Gewaesserbaulinien** (§ 96 Abs. 2 lit. b PBG): Baulinien fuer Fluss-/Bachkorrektionen,
+  Rechtswirkung § 99 ff. / § 101 PBG. (S. 1026)
+
+### 2.11 Hochwasser-Gefahrenbereiche (S. 1026-1031)
+- Geregelt im **Wasserwirtschaftsgesetz (WWG)** und der WBV; Bundesrecht **WBG/WBV**
+  (Hochwasserschutz Aufgabe der Kantone, Art. 2 WBG). (S. 1026 f.)
+- **Gefahrenkarten** (Art. 21 WBV): Grundlage der Hochwasserschutzmassnahmen; in ZH ueber den
+  GIS-Browser als Layer **«Naturgefahrenkarte»** abrufbar (§ 22 Abs. 2 WWG). Gefahrenstufen
+  **rot** (erhebliche Gefaehrdung, Bauverbot/Auflagen), **blau** (mittlere, Auflagen),
+  **gelb** (geringe), **gelb-weiss** (Restgefaehrdung). (S. 1028 f.)
+- **Schutz/Unterhalt/Finanzierung:** Wasserbauprojekte § 13 WWG, Unterhalt § 13 i.V.m.
+  § 12 Abs. 2 WWG, Finanzierung § 14 WWG. (S. 1030)
+
+### 2.12 Baulinienabstand § 96 PBG — Zwecke und Arten (S. 1030-1033) — Beginn Teil 2
+- **Grundnorm § 96 Abs. 1 PBG:** Baulinien dienen der **Sicherung bestehender und geplanter
+  Anlagen und Flaechen**. (S. 1031)
+- **Drei Arten (§ 96 Abs. 2 PBG):**
+  a) **Verkehrsbaulinien** — Strassen, Wege, Plaetze, Eisenbahnen; gegebenenfalls
+     Vorgaerten, Laermschutzanlagen, Gruenzuege, Fahrzeugabstellplaetze;
+  b) **Baulinien fuer Schutzbauten** (Hochwasserschutz) wie Parkhaeuser, Grossparkierungs-
+     anlagen, Unterhalts-/Ueberwachungs-/Versorgungsdienste sowie Fluss-/Bachkorrektionen;
+  c) **Baulinien fuer Versorgungsleitungen und Anschlussgleise**. (S. 1031)
+- **Verkehrsbaulinien — Zwecke:** sichern den fuer die Verkehrsanlage benoetigten Raum,
+  schaffen den fuer die Verkehrssicherheit erforderlichen **Sichtbereich** und koennen
+  aesthetische Funktionen erfuellen (BEZ 1986 Nr. 44); Naeherbaurecht nach **§ 105 PBG**,
+  Vorgaerten § 238 Abs. 3 PBG. (S. 1032)
+- **Subsidiaerer Strassenabstand:** fehlt eine Baulinie, gilt der **bloss subsidiaer**
+  geltende **6-Meter-Abstand** der Gemeinden (§ 51 Abs. 2 PBG). (S. 1033)
+- **Rechtswirkungen:** §§ 99 ff. PBG (wie bei allen Baulinien). (S. 1033)
+
 ## 3. Formeln & Schwellenwerte (woertlich belegt)
 
 | Gegenstand | Wert | Beleg |
@@ -140,6 +221,10 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 | Gewaesserraum Fliessgew. 1-15 m Sohle | 2,5 × Sohle + 7 m | Art. 41a Abs. 2 GSchV; S. 1008 |
 | Gewaesserraum stehendes Gew. | mind. 15 m ab Uferlinie | Art. 41b GSchV; S. 1010 |
 | Eingedoltes Fliessgew. ZH | mind. 11 m | § 15d HWSchV; S. 1013 |
+| Uferstreifen stehendes Gew. ab 0,5 ha | 20 m ab Uferlinie | Art. 41b Abs. 2 GSchV; S. 1014 |
+| Uferstreifen stehendes Gew. bis 0,5 ha (ZH-Uebergang) | 8 m | § 15 HWSchV; S. 1014 |
+| Uferstreifen Fliessgew. (ZH-Uebergang) | 8 m + Breite Gerinnesohle je Seite (Sohle ≤ 12 m); 20 m bei Sohle > 12 m | § 15 HWSchV; S. 1015 |
+| Subsidiaerer Strassenabstand (fehlt Baulinie) | 6 m (Gemeinde) | § 51 Abs. 2 PBG; S. 1033 |
 
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
 
@@ -152,6 +237,12 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 - **BEZ 1989 Nr. 21 / RB 1991 Nr. 84 / RB 1994 Nr. 84** — kein Zonengrenzabstand;
   Gebaeudeteil haelt Zonenvorschriften ein; Geschoss-Einheit (S. 998).
 - **BEZ 1996 Nr. 18** — örtliche Verhaeltnisse bei der Waldabstandslinie (S. 1000).
+- **BGE 140 II 428 E. 7** — «dicht ueberbautes Gebiet» als unbestimmter Rechtsbegriff;
+  massgeblich die konkrete Bebauungssituation (S. 1017).
+- **BGE 143 II 77 E. 2.8** (Altendorf SZ) / **URP 2017 S. 376** (Hurden) / **URP 2014 S. 569**
+  (Rueschlikon) — Abgrenzung dicht ueberbautes Gebiet im Gewaesserraum (S. 1018 f.).
+- **BEZ 2007 Nr. 19** — strenge Bauverbotszone an der Gewaesserabstandslinie (S. 1024).
+- **BEZ 1986 Nr. 44** — aesthetische Funktion der Verkehrsbaulinie (S. 1032).
 
 ## 5. Anwendungs-Transfer JANS
 
@@ -168,12 +259,26 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 - **Gebaeudeart als Stellhebel:** Ein Nebengebaeude bewusst als «besonderes Gebaeude»
   (≤ 4 m, kein Daueraufenthalt) zu konzipieren reduziert die Grenz-/Gebaeudeabstaende
   (§ 49 Abs. 3 / § 273 PBG) — taktisch nutzbar bei engen Parzellen.
+- **Gewaesserraum ersetzt keinen Grenzabstand:** Bei waldnaher/gewaessernaher Parzelle nicht
+  «entweder Gewaesserraum oder Bauabstand» rechnen — der Gewaesserraum tritt **zusaetzlich**
+  zu den nachbarrechtlichen Grenz-/Gebaeudeabstaenden (inkl. Zuschlaegen) hinzu (S. 1020). Im
+  Baufeld (Agent `baulinien-analyst`) immer die strengste Linie als bindend setzen.
+- **Dicht-ueberbaut-Falle bei Verdichtung:** Eine zonenkonforme Verdichtung im Gewaesserraum
+  ist nur im **dicht ueberbauten Gebiet** und nur, wenn keine ueberwiegenden Interessen
+  entgegenstehen, bewilligungsfaehig (Art. 41c Abs. 1 Satz 2 GSchV). Bei Ankaufspruefungen
+  (Skill `ankaufspruefung`) ist das ein Knock-out-Kriterium — frueh mit Gemeinde/AWEL klaeren,
+  ob der Perimeter als «dicht ueberbaut» gilt (Merkblatt ARE/BAFU/BPUK; BGE 140 II 428).
+- **Baulinie schlaegt subsidiaeren Abstand:** Existiert eine Verkehrsbaulinie, ist sie
+  massgebend; fehlt sie, gilt nur der subsidiaere **6-m-Strassenabstand** (§ 51 Abs. 2 PBG).
+  Vor jeder Volumenstudie an der Strasse die kommunale Baulinie (OEREB/GIS) abfragen — eine
+  Baulinie kann das Baufeld deutlich staerker einschraenken als die 6 m.
 
 ## 6. Offene Punkte / zu verifizieren
 
-- **Teil 2 von Kap. 15 noch offen:** Strassenabstand (§§ 263-268 PBG), **Grenzabstand**
-  (grosser/kleiner, Mehrlaengenzuschlag, §§ 269-270 PBG), **Gebaeudeabstand** (§§ 271-274
-  PBG) und **Baulinien** (§§ 96-101 PBG). Shots ab 513 (S. 1014 ff.).
+- **Teil 2 von Kap. 15 (Zahlenwerk) noch offen:** Strassenabstand (§§ 263-268 PBG),
+  **Grenzabstand** (grosser/kleiner, Mehrlaengenzuschlag, §§ 269-270 PBG), **Gebaeudeabstand**
+  (§§ 271-274 PBG) und das Verkehrsbaulinien-/Vorgarten-Zahlenwerk (§§ 99-101, § 238 PBG).
+  Shots ab 521 (S. 1034 ff.).
 - **§ 273 PBG** (reduzierte Abstaende besonderer Gebaeude): genauer Wortlaut/Reduktionsmass
   am amtlichen Volltext praezisieren.
 - **2,5 × Sohle + 7 m**: Formel aus Art. 41a Abs. 2 GSchV — am Fedlex-Volltext gegenpruefen

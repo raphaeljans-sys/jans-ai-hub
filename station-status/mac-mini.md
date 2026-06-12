@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 12.06.2026 07:26:54
+Stand: 12.06.2026 07:36:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 12.06.2026 07:26:54
 - 38 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- e1913ea immobewertung-training Run 3 (2026-06-12): Mietwert-Korrektur (Tab. 14/15) + Gastgewerbe (Tab. 25-28) + Hedonik-Methodik + 4 Gemeinde-Marktblätter (Maur/Wald/Wädenswil/Einsiedeln)
+- b197716 nas-selfcommit: 2 Datei(en) 2026-06-12 07:30

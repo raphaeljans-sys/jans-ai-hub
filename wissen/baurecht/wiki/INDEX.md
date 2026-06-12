@@ -16,7 +16,8 @@ oder umbenannten Artikel aktualisieren.
 ### Abstände & Höhen
 - [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand (§§ 269-274), Näherbaurecht, **Waldabstand § 262 PBG** (30/15 m, korr. 2026-06-11), **Gewässerraum** (Art. 36a GSchG), Höhenbegriffe · *established*
 - [[gebaeudearten-und-abstandssystem]] — die 5 Gebäudearten (Mini/bewilligungsfrei/besondere/abstandsfreie/Haupt) → welche Abstände; Fassade-Messweise (§ 260/§ 28 ABV); politische/Zonengrenzen · *emerging*
-- [[15-lage-von-gebaeuden]] (Destillat Bd 2, Kap. 15 Teil 1) — Buchsynthese Abstandssystem/Wald/Gewässer, Belegquelle · *emerging*
+- [[baulinien-und-abstandslinien]] — Baulinien (§§ 96-101 PBG: Verkehrs-/Schutz-/Versorgungsbaulinie), subsidiärer 6-m-Strassenabstand (§ 51 Abs. 2), Gewässerabstandslinie (§ 67), Linien-Abgrenzung; **die Linie ist oft bindender als die Ziffer** · *emerging*
+- [[15-lage-von-gebaeuden]] (Destillat Bd 2, Kap. 15 Teil 1+2a) — Buchsynthese Abstandssystem/Wald/Gewässer/Gewässerabstandslinien/Baulinien-Beginn, Belegquelle · *emerging*
 
 ### Gebäudedimensionen
 - [[geschosse-und-kniestock]] — Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit (§ 276 PBG), **Kniestock**: 0,9 m / Bestand 1,3 m (vor 1.7.1978), Messweise 0,4 m hinter Fassade · *emerging*
@@ -41,8 +42,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-11)
-- Artikel im Wiki: 9 + QUELLEN-Register (+ [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] korrigiert: Waldabstand § 262 statt § 268 PBG)
+## Statistik (Stand 2026-06-12)
+- Artikel im Wiki: 10 + QUELLEN-Register (+ [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] um Gewässerraum-Vertiefung + Baulinien-Verweis ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

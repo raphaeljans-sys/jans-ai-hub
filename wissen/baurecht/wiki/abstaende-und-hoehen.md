@@ -3,7 +3,7 @@ title: Abstände und Höhen — Kanton Zürich
 status: established
 last_updated: 2026-06-11
 sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 262 PBG", "§ 269 PBG", "§ 279 PBG", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "§ 14 ABV", "Buch Bd 2 S. 995-1013"]
-links: [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
+links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
 # Abstände und Höhen
@@ -57,6 +57,16 @@ Stehende Gewässer: mind. **15 m** ab Uferlinie. In ZH ist der Gewässerraum
 grundeigentümerverbindlich (§ 15d HWSchV); selbst bei **eingedolten** Fliessgewässern sind
 11 m frei zu halten. Beleg: Buch Bd 2 S. 1008-1013. Bei Machbarkeit/Ankauf die
 GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnung prüfen.
+
+**Zusätzlich, nicht ersetzend:** Im Gewässerraum dürfen nur **standortgebundene, im
+öffentlichen Interesse** liegende Anlagen erstellt werden (Art. 41c Abs. 1 GSchV). Eine
+zonenkonforme Verdichtung ist nur im **dicht überbauten Gebiet** und ohne entgegenstehende
+überwiegende Interessen bewilligungsfähig (Art. 41c Abs. 1 Satz 2 GSchV; BGE 140 II 428 —
+unbestimmter Rechtsbegriff). Der Gewässerraum tritt **zusätzlich** zu den nachbarrechtlichen
+Grenz-/Gebäudeabständen hinzu (S. 1020). Bestandesschutz im Gewässerraum: § 15m HWSchV geht
+§ 357 PBG vor; § 307 PBG (Wiederaufbau nach Brand) ist im Gewässerraum nicht anwendbar.
+Die einschränkenden **Linien** (Gewässerabstandslinie § 67 PBG, Baulinie § 96 PBG) →
+[[baulinien-und-abstandslinien]].
 
 ## Höhenbegriffe
 - **Gebäudehöhe:** ab gewachsenem Terrain bis Schnittpunkt Fassade/Dach (§ 279 PBG, § 12 ABV).
