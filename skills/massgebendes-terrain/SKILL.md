@@ -70,8 +70,15 @@ Vor jeder Attika-/Baukoerper-Setzung diese Checkliste fahren:
 2. **Attika-Rueckversetzung (§ 275 Abs. 4 nPBG, S. 1232):** Attikageschoss an den
    **fiktiven Traufseiten um mindestens h/2 zurueckversetzen** (Attikahoehe 3.3 m
    → ≥ 1.65 m; Verhaeltnis 1:2 = 63.43 Grad). **Altrecht: 45 Grad = Rueckversetzung
-   um die VOLLE Attikahoehe** (3.3 m). Welche Fassaden «fiktive Traufseiten» sind,
-   je BZO/ABV klaeren (offener Punkt im Buch).
+   um die VOLLE Attikahoehe** (3.3 m).
+   **Fiktive Traufseiten — JANS-Festlegung (Raphael, 13.06.2026):** Die (fiktive)
+   Firstrichtung verlaeuft laengs des Gebaeudekoerpers; damit sind die
+   **hangaufwaertige und die hangabwaertige Fassade (quer zur Falllinie) die
+   Trauffassaden** — dort ist zurueckzuversetzen. Die **seitlichen Fassaden
+   (parallel zur Falllinie) sind Giebelfassaden** und duerfen fassadenbuendig
+   bleiben (Beachte dann aber Punkt 3: buendige Attika-Stirn belastet die
+   giebelseitige Fassadenhoehe — zulaessig, soweit die BZO giebelseitig hoehere
+   Fassadenhoehen erlaubt bzw. nur die traufseitige begrenzt).
 3. **Buendige Attika-Abschnitte = Fassadenhoehe (§ 278 nPBG, S. 1237):** Wo die
    Attika fassadenbuendig steht (Stirnseite), zaehlt sie zur Fassadenhoehe der
    darunterliegenden Fassade — die zulaessige Fassadenhoehe wird dort um die
