@@ -9,6 +9,11 @@ Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh
 (`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
 eine Dauerregel handelt.
 
+## 260612 — Projektraum-/Plattform-Downloads IMMER doppelt ablegen (extern + eigene Site)
+- **Auslöser:** "bitte lege die dokumente einerseits auf dem für externe partner von mir geteilten sharepoint sowie meiner eigentlichen server sharepoint seite wo ich meine projekte habe, ich lege es immer doppelt ab im falle jemand unfug auf der externen platte macht"
+- **Regel:** Dokumente, die von externen Plattformen/Projekträumen (z.B. Truninger DS3) für ein Projekt beschafft werden, werden IMMER doppelt abgelegt: 1) auf der mit externen Partnern geteilten Projekt-Site (z.B. `JANS - 2619-KISPI - Dokumente/…`) und 2) auf der eigenen internen Projekt-Site unter `AR - 01 Projekte/<Projekt>/99 Grundlagen/<…> DOWNLOAD PROJEKTRAUM/…` — mit identischer Ordnerstruktur (Quellstruktur spiegeln). Die interne Kopie ist die Sicherung, falls auf der externen Ablage «Unfug» passiert; sie wird nie weggelassen.
+- **Gilt für:** Alle Plattform-/Projektraum-Downloads in allen Projekten, alle Stationen.
+
 ## 260611 — C4D-Rendering laeuft IMMER auf dem Mac Mini (Render-Weiche)
 - **Auslöser:** "muss ich extra erwähnen dass ich möchte dass immer auf dem mac mini gerendert wird oder wie ist da jetzt der mecano?"
 - **Regel:** Jede Cinema-4D-Arbeit (c4dpy-Szenen, Commandline-Renders, c4dpy-Scripts wie `c4d_situation.py`) wird OHNE besondere Erwähnung ueber die Render-Weiche `skills/volumenstudie/tools/render-remote.sh` ausgefuehrt — nie c4dpy/Commandline direkt. Die Weiche rendert automatisch auf dem Mac Mini (Always-On, dort liegt die Maxon-Lizenz); vom MacBook aus via SSH mit Auto-Staging ueber `render-scratch/`. Die Maxon-Lizenz bleibt auf dem Mac Mini — nicht zuruecktransferieren. Lokales Rendern nur auf explizite Anweisung (`JANS_RENDER_LOCAL=1`).

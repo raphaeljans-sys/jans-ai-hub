@@ -227,6 +227,32 @@ async function herunterladen(docId, zielDir) {
   fail(`Kein Download-Endpunkt fuer ${docId} gefunden — bitte mit --roh /ds/${docId}/view die Seite pruefen.`);
 }
 
+/** Spiegelt eine Collection rekursiv in ein lokales Verzeichnis (nur Lesen+Speichern). */
+async function spiegeln(start, zielDir, tiefe) {
+  const eintraege = await listieren(start, tiefe);
+  const dateien = eintraege.filter(e => e.typ === 'Dokument');
+  console.log(`${dateien.length} Dokumente gefunden — Spiegelung nach ${zielDir}`);
+  let nr = 0, fehler = 0;
+  for (const e of dateien) {
+    nr++;
+    const relOrdner = e.pfad.split(' / ').slice(0, -1).join('/');
+    const dir = join(zielDir, relOrdner);
+    mkdirSync(dir, { recursive: true });
+    const datei = join(dir, basename(e.name));
+    if (existsSync(datei)) { console.log(`(${nr}/${dateien.length}) schon da: ${e.name}`); continue; }
+    try {
+      const res = await anfrage(e.href, { redirect: 'follow' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      writeFileSync(datei, Buffer.from(await res.arrayBuffer()));
+      console.log(`(${nr}/${dateien.length}) ${relOrdner}/${e.name}`);
+    } catch (err) {
+      fehler++;
+      console.error(`(${nr}/${dateien.length}) FEHLER ${e.id} ${e.name}: ${err.message}`);
+    }
+  }
+  console.log(`Fertig: ${dateien.length - fehler} gespeichert, ${fehler} Fehler.`);
+}
+
 // ----------------------------------------------------------------- Main
 const argv = process.argv.slice(2);
 function arg(name, def = null) {
@@ -271,7 +297,14 @@ const main = async () => {
     await herunterladen(String(arg('--holen')), String(arg('--ziel', '.')));
     return;
   }
-  console.log('Verwendung: --test | --ls <Collection-ID|/> [--tiefe N] | --suche "Begriff" [--in <ID>] [--tiefe N] | --holen <Document-ID> [--ziel DIR] | --roh <Pfad>');
+  if (arg('--spiegeln')) {
+    await login();
+    const ziel = arg('--ziel');
+    if (!ziel || ziel === true) fail('--spiegeln braucht --ziel <Verzeichnis>.');
+    await spiegeln(String(arg('--spiegeln')), String(ziel), parseInt(arg('--tiefe', '6'), 10));
+    return;
+  }
+  console.log('Verwendung: --test | --ls <Collection-ID|/> [--tiefe N] | --suche "Begriff" [--in <ID>] [--tiefe N] | --holen <Document-ID> [--ziel DIR] | --spiegeln <Collection-ID> --ziel DIR [--tiefe N] | --roh <Pfad>');
 };
 
 main().catch(e => fail(e.message));
