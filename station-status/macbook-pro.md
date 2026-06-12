@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.06.2026 06:57:02
+Stand: 12.06.2026 07:27:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:15)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 12.06.2026 06:57:02
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f15c988 sync: twin-fidelity-review: 2026-06-12
+- e1913ea immobewertung-training Run 3 (2026-06-12): Mietwert-Korrektur (Tab. 14/15) + Gastgewerbe (Tab. 25-28) + Hedonik-Methodik + 4 Gemeinde-Marktblätter (Maur/Wald/Wädenswil/Einsiedeln)
