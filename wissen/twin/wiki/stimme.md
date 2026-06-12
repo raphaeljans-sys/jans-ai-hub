@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-12
+last_updated: 2026-06-13
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -213,6 +213,17 @@ privat-sozial ist (kein Fachinhalt) und das Gegenüber Mundart spiegelt. Schwell
   «Was Du besser verträgst:)». Gleiche Anlassregel wie beim 😊 — nur warm-sozial-privat,
   nie im Geschäft/Fachmail.
 - **«vtl.»** (vielleicht) als weitere Abkürzungs-Variante neben «vll.» (2025-09-09).
+
+## Du-Gross-Spiegelung im reziproken Du — zweiter Datenpunkt (belegt Mailbatch 04, authentisch)
+Bestätigt die Spiegelungs-Abweichung (vgl. Mailbatch 03, Quote 0.429): im reziprok-warmen
+Investor-Du (Angerer/Nova) liegt die **Du-Gross-Quote bei 0.636** (Batch 04, 467 W) — «findest
+du», «melde dich», «bitte ich dich» klein im Fliesstext, «Danke **Dir**», «**Dein** Feedback»,
+«rufe **Dich** an» gross im emphatischen/nachgestellten Bezug. Muster verdichtet sich:
+**Du klein im neutralen Fliesssatz, gross bei Betonung/Schluss**. Bleibt Echtheits-Befund —
+der Zwilling schreibt Du konsequent gross (Ideal-Raphael, `korrektur`), dokumentiert die
+Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «Herzliche Grüsse»
+(warm-liefernde Investor-Du-Mail), «Freundliche Grüsse» (Buchhaltung-Sie) — konsistent mit
+«Gruss folgt dem Mail-Typ».
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber»; Englisch bei rein technischer Aerospace-Korrespondenz

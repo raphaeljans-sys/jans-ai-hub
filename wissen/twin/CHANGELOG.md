@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-13 — twin-mail-training: Mailbatch 04 (Sent Items rj@, 2025-08-04…08, authentisch)
+- Sequentieller Sweep fortgesetzt: 15 Mails gesichtet (Offset 45–59 von 1'008), 5 Volltexte
+  destilliert, 3 MS-Support-Threads ignoriert. Projekt Wald/Averecura (Nova Property) + Niederhasli.
+  Gewichtung durchgehend **authentisch** (klar vor-Claude). Mikro-Metrik (stilmetrik.py, 467 W):
+  **Du-Gross-Quote 0.636**, Tausender-Apostroph 5×, Satzlänge ø 15.6 W, Anreden «Lieber Gruss» 3×,
+  «Lieber Thomas» 2×, «Hoi Tom», «Hoi Peter», «Geschätzte Frau Siegel».
+- Neue belegte Marker: [[beziehungsregister]] — **Spitznamen-Übernahme** im engsten Du («Hoi Tom»,
+  4. Anrede an Angerer); **Funktions-Register schlägt Firma** (Buchhaltung Nova = Sie «Geschätzte
+  Frau Siegel», 3. Nova-Register). [[stimme]] — Du-Gross-Spiegelung 0.636 (2. Datenpunkt:
+  Du klein im Fliesssatz, gross bei Betonung). [[denken]] — **konditionale Design-Konsequenz-Kette**
+  (Wenn→Entwurfsfolge→weil→Nutzen); **die eine bindende Frage** («Die einzige Frage ist: Wieviel
+  HNF…»); **Diverging-Figures transparent rückführen** (470 vs 512 → eigene Annahme offenlegen).
+  [[arbeitsweise]] — **«Kurz zusammengefasst:»** Executive Summary mit fetten Kennzahlen vorweg;
+  Lieferung an nächsten Admin-Schritt koppeln. [[fachsignatur]] — **Kennwert herleiten + gegen
+  Benchmark-Band prüfen** (CHF 3'350/GF vs. 3'000–4'000, WP-Anhang); SIA-416-Flächenlogik
+  Healthcare. [[haltung]] — **kein Kleinrechnen** («Anpassungswünsche selbstverständlich inbegriffen»).
+- Sweep-Stand jetzt **bis 2025-08-08 einschliesslich** (nächster Lauf ab 2025-08-09 / Offset 60).
+
 ## 2026-06-12 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Sept 2025, authentisch)
 - Drei weit gestreute Goldproben aus Sent Items rj@ (2025-09-09/10/12): Verputzer-Material­mail
   (A), Farb-/Materialkonzept-Lieferung (B), private Mundart-Einladung (C). Twin-Fassungen aus

@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-12
+last_updated: 2026-06-13
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, ../outputs/2026-06-12_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, ../outputs/2026-06-12_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -86,6 +86,23 @@ _ Z3 Formular SRZ» (Wartstrasse 8, 14.07.2025). Verfahrensrealismus im Detail: 
 warum der Auszug digital gebraucht wird, 10.07.2025), und holt bei Denkmalschutz **vorab die
 denkmalpflegerische Machbarkeit** ein, bevor formell eingegeben wird (→ [[denken]]). Fachkürzel
 verfahrensnah: SRZ-Formular Z3, AfB/AfS, Katasterplan, Massstäbe 1:100/1:500.
+
+## Kennwert herleiten UND sofort gegen die Benchmark-Bandbreite prüfen (belegt Mailbatch 04, authentisch)
+Reinste vor-Claude-Wurzel der Grobkosten-Logik (Skill grobkosten-onepager / Agent
+grobkosten-rechner): Raphael rechnet einen Kennwert aus realen Eckwerten **und plausibilisiert
+ihn im selben Atemzug gegen das Marktband**: «**Erstellungskosten 4.1 Mio BKP 1-5 durch die
+Geschossfläche 1'250 m² … Kennwert von CHF 3'350.-/GF, welcher realistisch ist** … Schweiz.
+Mittel für MFH = **3'000.- bis 4'000.- CHF/m² BKP 1-5**» (08.08.2025). Muster: Division →
+Kennwert → Einordnung in die belegte Benchmark-Spanne → Verdikt «realistisch». Nie eine nackte
+Zahl ohne Sanity-Check. Verweist auf die Quelle der Spanne («siehe WP-Anhang» = Wüest Partner).
+
+## SIA 416 Flächenlogik im Healthcare-Raumprogramm (belegt Mailbatch 04, authentisch)
+Verifiziert ein Raumprogramm konsequent über **SIA 416** (BGF/NNF/HNF) und übersetzt Fläche
+direkt in Betreibergrössen: «44 Pflegezimmer / Nutzfläche ca. 2'400 m² … innerhalb der Vorgaben
+des Baugesetzes … weil wir die Villa unverändert integrieren … 600 m² zusätzliche Nutzfläche und
+16 Pflegezimmer» (07.08.2025). HNF-Differenzen werden auf die Erschliessungslogik zurückgeführt
+(zentrales Treppenhaus 3×15 m² vs. interne Erschliessung als HNF → [[denken]]). Fachkürzel
+verfahrensnah: SIA 416, BGF/NNF/HNF, BKP 1-5, GF.
 
 ## Präzision & Beleg
 Zahlen/Kennwerte/Identifikatoren werden belegt, nie erfunden (Rule
