@@ -8,9 +8,124 @@ globales `fetch`). Keine API-Keys noetig fuer EGRID/OEREB.
 | `geo-zh.mjs` | ZH (+SZ-Direktbezug per EGRID) | `maps.zh.ch/oereb/v2/...` | OEREB; Server liefert JANS-Dateinamen |
 | `geo-sz.mjs` | **SZ** | `map.geo.sz.ch/oereb/extract/pdf` | **Parzellensuche** + eigene Umbenennung; Adress-HNr-Warnung |
 | `geoshop-zh.mjs` | ZH | `geoservices.zh.ch/geoshopapi/v1` | **Geodatenshop-Bestellungen** (asynchron): amtliche Vermessung/Grundstueckkataster als DXF u.v.m. |
+| `behoerden-zh.mjs` | ZH (Stadt+Kanton) | `*/content/dam/...` | **Amtliche Formulare/Merkblaetter** spiegeln + Aenderungs-/Tot-Link-Pruefung (kuratierte Registry) |
+| `gwr-bund.mjs` | **CH (Bund)** | `api3.geo.admin.ch` (`ch.bfs.gebaeude_wohnungs_register`) | **GWR-Gebaeudedaten** per EGID/Adresse/EGRID, Merkmalscodes dekodiert (Volumen/EBF/Energie). **EPROID NICHT beziehbar** (nur fuehrendes Amt) |
 
 Fuer den Kanton Schwyz **immer `geo-sz.mjs`** verwenden (siehe Skill `oereb-schwyz`): die
 Parzellensuche ist eindeutig und vermeidet die Nachbarparzellen-Falle der Adress-Geokodierung.
+
+---
+
+## behoerden-zh.mjs (Stadt + Kanton ZH — amtliche Bau-Dokumente)
+
+Spiegelt die offiziellen **Formulare und Merkblaetter** der Stadt + des Kantons Zuerich
+lokal und meldet Aenderungen/tote Links, damit JANS jederzeit auf den aktuellen Bestand
+zugreift (z.B. fuer den Skill `auflagebereinigung`, "fuer Amt"-Spalte).
+
+**Kernbefund (validiert 2026-06-13):** Die HTML-Uebersichtsseiten
+(`.../formulare-merkblaetter.html`) haben eine Consent/JS-Wall und lassen sich NICHT
+automatisch ernten. Die Dokumente selbst sind aber statische AEM-DAM-Assets und kommen
+login-/wall-frei direkt durch:
+
+```
+Kanton ZH : https://www.zh.ch/content/dam/zhweb/...           (.pdf/.xlsx/.docx)
+Stadt  ZH : https://www.stadt-zuerich.ch/content/dam/web/...  (.pdf/...)
+```
+
+Darum **kein Scraper**, sondern eine **kuratierte Registry** der Direkt-URLs
+(`behoerden-zh.registry.json`) + Downloader/Pruefer. Neue Dokumente in die Registry
+eintragen, dann `--check` verifiziert den Link live (URLs werden nie erfunden,
+Rule `identifikatoren-verifizieren`).
+
+```bash
+# Registry ansehen (Filter moeglich)
+node behoerden-zh.mjs --list
+node behoerden-zh.mjs --list --ebene stadt-zh
+
+# Live-Pruefung OHNE etwas zu schreiben — meldet aktuell/geaendert/neu/TOT
+node behoerden-zh.mjs --check                # Exit-Code 1 bei toten Links (Scheduled-Task-Alarm)
+
+# Spiegel anlegen/aktualisieren (laedt nur neue/geaenderte; idempotent via _manifest.json)
+node behoerden-zh.mjs --sync
+node behoerden-zh.mjs --sync --ebene kanton-zh --amt AWEL
+node behoerden-zh.mjs --sync --id kt-baugesuch-ordentlich
+```
+
+| Flag | Bedeutung |
+|---|---|
+| `--list` | Registry auflisten |
+| `--check` | jeden Eintrag live pruefen, **read-only** (Frueh-Warnung); Exit 1 bei toten Links |
+| `--sync` | Dokumente herunterladen/aktualisieren, Manifest fortschreiben |
+| `--ebene <e>` | Filter `stadt-zh` / `kanton-zh` |
+| `--amt <txt>` / `--kategorie <txt>` / `--id <id>` | weitere Filter |
+| `--out <dir>` | Ablage-Wurzel (default `../behoerden-dokumente`) |
+| `--registry <pfad>` / `--json` / `--quiet` | Registry-Datei / Ausgabesteuerung |
+
+**Ablage** (default, gitignored — lebt auf dem NAS, alle Stationen lesen per Symlink
+denselben Ordner): `behoerden-dokumente/<ebene>/<amt-slug>/<dateiname>` plus
+`_manifest.json` (Ist-Stand je Dokument: sha256/bytes/etag/last-modified). Die **Registry**
+(Soll) ist Text und wird versioniert.
+
+**Bestand (2026-06-13, Registry v2):** 33 Dokumente, alle live verifiziert (0 tot) —
+22 Kanton ZH (Baudirektion/AWEL/ARE: Baugesuch, Boden, Wasser, Energie, Laerm,
+Altlasten/Abfall) + 11 Stadt ZH (AfB: Wegleitung Baugesuch, Konzessionsgesuch,
+Brandschutznachweis, Anlaufstelle, Fliegende Bauten, Absturzsicherungen; ERZ:
+VSA-Baustellen-/Liegenschaftsentwaesserung; GSZ Baumfaellung; Statistik GWR). Erweiterbar
+durch Eintrag in die Registry. **Bekannte Luecke:** die AfB-Baugesuchsformulare A/B + Zusatz
+1/2 sind seit eBaugesucheZH (06/2024) nicht mehr als statische PDF publiziert (nur im
+Online-Portal) — daher bewusst nicht in der Registry.
+
+**Grenze:** Deckt amtliche Formulare/Merkblaetter ab, nicht projektspezifische Bauakten
+(die liegen auf SharePoint). Stadt ZH: Baueingabe seit 06/2024 vollstaendig digital via
+**eBaugesucheZH**. Bei CMS-Relaunch koennen URLs brechen — genau dafuer der `--check`
+(empfohlen woechentlich als Scheduled Task).
+
+---
+
+## gwr-bund.mjs (CH/Bund — GWR-Gebaeudedaten + EPROID-Grenze)
+
+Beschafft zu einem Gebaeude die amtlichen Daten aus dem eidg. **Gebaeude- und
+Wohnungsregister (GWR)** ueber den login-freien Geodienst und dekodiert die GWR-Codes
+in Klartext. Liefert genau die Basis fuer **Energienachweis (EVEN)**, Kostenschaetzung
+und Machbarkeit: Volumen, Energiebezugsflaeche, Waermeerzeuger/Energietraeger,
+Geschosse, Gebaeudeklasse/-kategorie. Validiert 2026-06-13 am Fall B26-00705.01
+(Univ.-Kinderspital Zuerich, Lenggstrasse 30, EGID 302064023).
+
+```
+EGID            --(find searchField=egid)-->                      Gebaeudedatensatz (eindeutig)
+Adresse         --(SearchServer -> identify GWR-Layer)-->         Gebaeudedatensatz (punktgenau)
+EGRID           --(find searchField=egrid)-->                     ALLE Gebaeude der Parzelle (Liste)
+```
+
+```bash
+node gwr-bund.mjs --egid 302064023                          # Klartext-Steckbrief
+node gwr-bund.mjs --adresse "Lenggstrasse 30 8008 Zürich"   # per Adresse
+node gwr-bund.mjs --egrid CH267999915472                    # alle Gebaeude der Parzelle listen
+node gwr-bund.mjs --egid 302064023 --json                   # maschinenlesbar
+node gwr-bund.mjs --egid 302064023 --out "/pfad/Projekt"    # Datensteckbrief (.md) ablegen
+```
+
+| Flag | Bedeutung |
+|---|---|
+| `--egid <n>` | EGID direkt (eindeutigster Weg) |
+| `--adresse <text>` / `--plz <nnnn>` | Geocoding -> identify GWR-Layer (punktgenau) |
+| `--egrid <CH…>` | listet ALLE Gebaeude der Parzelle (mehrdeutig -> mit `--egid` praezisieren) |
+| `--out <dir>` | Datensteckbrief `GWR-Datensteckbrief_<EGID>_<JJJJ-MM-TT>.md` ablegen (mehrfach) |
+| `--json` / `--quiet` | Ausgabesteuerung |
+
+**EPROID — bewusst NICHT abgedeckt (belegt 2026-06-13):** Die EPROID (eidg.
+Bauprojektidentifikator, GWR-Entitaet `constructionWork`) ist im oeffentlichen Geodienst
+nicht enthalten; `madd.bfs.admin.ch`/eCH-0206 "GWR-Daten an Dritte" verlangen Autorisierung
+(getestet -> 404 ohne Login). Fuer Gemeinden mit **eigenem GWR (u.a. Stadt Zuerich)** wird
+die EPROID nur vom fuehrenden Amt vergeben. Der Connector erfindet daher keine EPROID
+(Rule `identifikatoren-verifizieren`), sondern weist den Bezugsweg aus:
+- **Stadt ZH:** Amt fuer Baubewilligungen (AfB) fuer laufende Baugesuche; bzw. Statistik
+  Stadt Zuerich (GWR / amtliche Wohnungsnummern).
+- Andere Gemeinden: fuehrende GWR-Nachfuehrungsstelle.
+
+**Dekodierte Felder:** `gstat` Status · `gkat` Kategorie · `gklas` Klasse (EUROSTAT) ·
+`gbaup` Bauperiode · `gwaerzh1/2`+`genh1/2` Heizung · `gwaerzw1/2` (eigene WW-Codeliste)
++`genw1/2` Warmwasser. Nicht gemappte Codes werden als `Code <n>` ausgegeben (nichts erfunden).
 
 ---
 

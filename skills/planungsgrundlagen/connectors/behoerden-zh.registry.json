@@ -1,0 +1,276 @@
+{
+  "$schema-hinweis": "Kuratierte Registry amtlicher Bau-Dokumente (Formulare/Merkblaetter) Stadt + Kanton Zuerich. Mensch-editierbar. Jeder Eintrag ist eine STABILE Direkt-URL auf ein statisches Asset (AEM /content/dam/...), das OHNE Consent/JS-Wall laedt. Die HTML-Uebersichtsseiten (.../formulare-merkblaetter.html) sind NICHT hier - die haben die JS-Wall; nur die dahinterliegenden Assets. Neue Dokumente hier eintragen, dann 'node behoerden-zh.mjs --check' verifiziert den Link live.",
+  "meta": {
+    "version": 2,
+    "stand": "2026-06-13",
+    "quelle-stadt": "https://www.stadt-zuerich.ch/de/planen-und-bauen/baubewilligungen/formulare-merkblaetter.html",
+    "quelle-kanton": "https://www.zh.ch/de/planen-bauen/baubewilligung/baueingabe-verfahren/formulare-baueingabe.html",
+    "hinweis": "Stadt ZH: Baueingabe seit 06/2024 vollstaendig digital via eBaugesucheZH. Diese Registry deckt die OFFIZIELLEN Formulare/Merkblaetter der Aemter ab, NICHT projektspezifische Bauakten (die liegen auf SharePoint)."
+  },
+  "dokumente": [
+    {
+      "id": "kt-baugesuch-ordentlich",
+      "ebene": "kanton-zh",
+      "amt": "Baudirektion ZH",
+      "kategorie": "baugesuch",
+      "titel": "Baugesuchsformular ordentliches Verfahren",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/baueingabe-und-verfahren/formulare-baueingabe/baugesuchsformular_ordentliches_verfahren.pdf"
+    },
+    {
+      "id": "kt-baugesuch-anzeige",
+      "ebene": "kanton-zh",
+      "amt": "Baudirektion ZH",
+      "kategorie": "baugesuch",
+      "titel": "Baugesuchsformular Anzeigeverfahren",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/baueingabe-und-verfahren/formulare-baueingabe/baugesuchsformular_anzeigeverfahren.pdf"
+    },
+    {
+      "id": "kt-zusatz-gwr",
+      "ebene": "kanton-zh",
+      "amt": "Statistik / GWR",
+      "kategorie": "baugesuch",
+      "titel": "Zusatzformular Gebaeude- und Wohnungserhebung (GWR)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/baueingabe-und-verfahren/formulare-baueingabe/zusatzformular_gwr.pdf"
+    },
+    {
+      "id": "kt-landwirtschaft",
+      "ebene": "kanton-zh",
+      "amt": "ARE / ALN",
+      "kategorie": "ausserhalb-bauzone",
+      "titel": "Formular Landwirtschaft Baugesuche",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauen-an-besonderer-lage/bauen-ausserhalb-von-bauzonen/dokumente-thema-landwirtschaftliche-bauten/formular_landwirtschaft_baugesuche.pdf"
+    },
+    {
+      "id": "kt-ausserhalb-bauzone",
+      "ebene": "kanton-zh",
+      "amt": "ARE",
+      "kategorie": "ausserhalb-bauzone",
+      "titel": "Zusatzformular Ausserhalb Bauzone (nicht-landwirtschaftlich)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauen-an-besonderer-lage/bauen-ausserhalb-von-bauzonen/zusatzformular_ausserhalb_bauzone.pdf"
+    },
+    {
+      "id": "kt-meldeblatt-terrain",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Bodenschutz",
+      "kategorie": "boden",
+      "titel": "Meldeblatt Terrainveraenderungen",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bodenschutz/bodenaufwertung/meldeblatt_terrainveraenderungen.pdf"
+    },
+    {
+      "id": "kt-boden-abtrag-ausserhalb",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Bodenschutz",
+      "kategorie": "boden",
+      "titel": "Deklaration Abtrag und Verwertung Boden (ausserhalb Bauzone)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bodenschutz/bodenaufwertung/abtrag_verwertung_boden_ausserhalb_bz.pdf"
+    },
+    {
+      "id": "kt-boden-verwertung-innerhalb",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Bodenschutz",
+      "kategorie": "boden",
+      "titel": "Deklaration Verwertung Boden (innerhalb Bauzone)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bodenschutz/bodenaufwertung/verwertung_boden_innerhalb_bz.pdf"
+    },
+    {
+      "id": "kt-meldeblatt-bodenverschiebung",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Bodenschutz",
+      "kategorie": "boden",
+      "titel": "Meldeblatt Bodenverschiebungen",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bodenschutz/bodenverschiebung/meldeblatt_bodenverschiebungen.pdf"
+    },
+    {
+      "id": "kt-gewerbe-industrie",
+      "ebene": "kanton-zh",
+      "amt": "AWEL",
+      "kategorie": "betrieb-umwelt",
+      "titel": "Zusatzformular Gewerbe und Industrie",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauvorschriften-für-betriebe-anlagen/zusatzformular_gewerbe_industrie.pdf"
+    },
+    {
+      "id": "kt-betrieblicher-umweltschutz",
+      "ebene": "kanton-zh",
+      "amt": "AWEL",
+      "kategorie": "betrieb-umwelt",
+      "titel": "Formular Betrieblicher Umweltschutz (BU) 2026",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauvorschriften-für-betriebe-anlagen/betrieblicher-umweltschutz/zh_formular_bu_2026.pdf"
+    },
+    {
+      "id": "kt-bu-lagerliste",
+      "ebene": "kanton-zh",
+      "amt": "AWEL",
+      "kategorie": "betrieb-umwelt",
+      "titel": "Lagerliste Betrieblicher Umweltschutz (XLSX)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauvorschriften-für-betriebe-anlagen/betrieblicher-umweltschutz/formular_betrieblicher_umweltschutz_lagerliste.xlsx"
+    },
+    {
+      "id": "kt-altlasten-neobiota",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Abfallwirtschaft",
+      "kategorie": "altlasten-abfall",
+      "titel": "Zusatzformular Belastete Standorte und Altlasten / Neobiota",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/abfall-rohstoffe/abfallwirtschaft/bauabfall/uebersicht/zusatzformular_altlasten_und_neobiota.PDF"
+    },
+    {
+      "id": "kt-aushub-untergrund",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Abfallwirtschaft",
+      "kategorie": "altlasten-abfall",
+      "titel": "Deklaration Aushub Untergrund",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/abfall-rohstoffe/abfallwirtschaft/bauabfall/uebersicht/deklaration_aushub_untergrund_2018.pdf"
+    },
+    {
+      "id": "kt-bahntransport-aushub",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Abfallwirtschaft",
+      "kategorie": "altlasten-abfall",
+      "titel": "Zusatzformular Bahntransport von Aushub und Gesteinskoernung",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/abfall-rohstoffe/abfallwirtschaft/bauabfall/uebersicht/zusatzformular_bahntransport_aushub_kies.pdf"
+    },
+    {
+      "id": "kt-entsorgung-bauabfaelle",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Abfallwirtschaft",
+      "kategorie": "altlasten-abfall",
+      "titel": "Zusatzformular Entsorgung Bauabfaelle 2021",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/abfall-rohstoffe/abfallwirtschaft/bauabfall/uebersicht/zusatzformular_entsorgung_bauabfaelle_2021.pdf"
+    },
+    {
+      "id": "kt-grundwasser",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Gewaesserschutz",
+      "kategorie": "wasser",
+      "titel": "Zusatzformular Grundwasser (Bauen in Grundwasserschutzzonen)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauen-an-besonderer-lage/bauen-im-gewaesser-grundwasserbereich/bauen-in-grundwasserschutzzonen/gwa.pdf"
+    },
+    {
+      "id": "kt-versickerung-regenwasser",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Gewaesserschutz",
+      "kategorie": "wasser",
+      "titel": "Gesuch zur Versickerung von Regenwasser",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/baueingabe-und-verfahren/formulare-baueingabe/gesuch_zur_versickerung_von%20_regenwasser.pdf"
+    },
+    {
+      "id": "kt-einleitung-regenwasser",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Gewaesserschutz",
+      "kategorie": "wasser",
+      "titel": "Gesuch zur Einleitung von Regenwasser in ein Gewaesser",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/baubewilligung/baueingabe-und-verfahren/formulare-baueingabe/gesuch_zur_einleitung_von_regenwasser_in_ein_gewaesser.pdf"
+    },
+    {
+      "id": "kt-erdsonden",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Energie",
+      "kategorie": "energie",
+      "titel": "Gesuch Erdwaermesonden-Waermepumpenanlage",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/energienutzung-aus-untergrund-und-wasser/gesuch_erdsonden.pdf"
+    },
+    {
+      "id": "kt-oberflaechennahe-erdwaerme",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Energie",
+      "kategorie": "energie",
+      "titel": "Gesuchsformular oberflaechennahe Erdwaerme",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/energienutzung-aus-untergrund-und-wasser/oberflaechennahe-erdwaerme/gesuchsformular_oberflaechennahe_erdwaerme.pdf"
+    },
+    {
+      "id": "kt-laerm",
+      "ebene": "kanton-zh",
+      "amt": "AWEL / Laermschutz",
+      "kategorie": "laerm",
+      "titel": "Zusatzformular Laermsituation und Laermschutz (DOCX)",
+      "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/laerm-schall/zusatzformulare/formular_gesuch_laermsituation_laermschutz.docx"
+    },
+    {
+      "id": "st-zusatz3-brandschutz",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH",
+      "kategorie": "baugesuch",
+      "titel": "Zusatzformular 3 Brandschutznachweis",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/zusatzformular-3-brandschutznachweis.pdf"
+    },
+    {
+      "id": "st-merkblatt-konzessionsgesuch",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH",
+      "kategorie": "merkblatt",
+      "titel": "Merkblatt Konzessionsgesuch",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/merkblatt-konzessionsgesuch.pdf"
+    },
+    {
+      "id": "st-merkblatt-anlaufstelle-bausachen",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH",
+      "kategorie": "merkblatt",
+      "titel": "Merkblatt Anlaufstelle Bausachen",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/merkblatt-anlaufstelle-bausachen.pdf"
+    },
+    {
+      "id": "st-baumfaellung",
+      "ebene": "stadt-zh",
+      "amt": "Grün Stadt Zürich / Freiraumberatung",
+      "kategorie": "gruenraum",
+      "titel": "Gesuchsformular und Merkblatt Baumfaellung",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/bauberatung-und-dienstleistungen/dokumente/gruenraeume-freiraeume/freiraumberatung/gesuchsformular-und-merkblatt-baumfaellung.pdf"
+    },
+    {
+      "id": "st-gwr-neubau",
+      "ebene": "stadt-zh",
+      "amt": "Statistik Stadt ZH",
+      "kategorie": "statistik",
+      "titel": "Gebaeude- und Wohnungserhebung Neubau",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/publikationen-dienstleistungen/register-dwh/gebaeude-und-wohnungsregister/GebaeudeundWohnungserhebungNeubau.pdf"
+    },
+    {
+      "id": "st-wegleitung-baugesuch",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH",
+      "kategorie": "baugesuch",
+      "titel": "Wegleitung Eingabe Baugesuch",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/wegleitung-eingabe-baugesuch.pdf"
+    },
+    {
+      "id": "st-konzessionsgesuch",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH",
+      "kategorie": "baugesuch",
+      "titel": "Konzessionsgesuch (Formular)",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/konzessionsgesuch.pdf"
+    },
+    {
+      "id": "st-merkblatt-fliegende-bauten",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH / Baukontrolle",
+      "kategorie": "merkblatt",
+      "titel": "Merkblatt Fliegende Bauten",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/merkblatt-fliegende-bauten.pdf"
+    },
+    {
+      "id": "st-merkblatt-absturzsicherungen",
+      "ebene": "stadt-zh",
+      "amt": "AfB Stadt ZH",
+      "kategorie": "merkblatt",
+      "titel": "Merkblatt Absturzsicherungen Hochbau",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/merkblatt-absturzsicherungen-hochbau.pdf"
+    },
+    {
+      "id": "st-vsa-merkblatt-baustellen",
+      "ebene": "stadt-zh",
+      "amt": "ERZ Zuerich / Gewaesserschutz",
+      "kategorie": "wasser",
+      "titel": "VSA-Merkblatt Baustellenentwaesserung",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/vsa-merkblatt-baustellen.pdf"
+    },
+    {
+      "id": "st-wegleitung-liegenschaftsentwaesserung",
+      "ebene": "stadt-zh",
+      "amt": "ERZ Zuerich / Gewaesserschutz",
+      "kategorie": "wasser",
+      "titel": "Wegleitung und Checklisten Planeingabe Liegenschaftsentwaesserung",
+      "url": "https://www.stadt-zuerich.ch/content/dam/web/de/planen-bauen/bauvorschriften-und-planerische-grundlagen/dokumente/bauten-anlagen/liegenschaftsentwaesserung/wegleitung-planeingabe-liegenschaftsentwaesserung.pdf"
+    }
+  ]
+}

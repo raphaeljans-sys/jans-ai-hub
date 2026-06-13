@@ -30,6 +30,11 @@ dispatch/
 *.indd
 **/produkt-kataloge/
 
+# Behoerden-Dokumenten-Spiegel (Connector behoerden-zh.mjs): die gespiegelten
+# amtlichen Formulare/Merkblaetter + Manifest leben auf dem NAS (alle Stationen lesen
+# per Symlink denselben Ordner), NICHT im Git. Die Registry (Text) wird versioniert.
+**/behoerden-dokumente/
+
 # Claude - Projekt-Config wird versioniert (Backup)
 .claude/*
 !.claude/skills/
