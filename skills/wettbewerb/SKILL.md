@@ -104,6 +104,26 @@ als **offen/Hand** markiert.
    zurueck in Phase 3/4, bis alles gruen oder als bewusste Abweichung begruendet ist.
 6. **Abgabe** — Texte durch Skill `korrektur`; Plakate/PDFs in `11_Abgabe`; doppelte Ablage.
 
+## SVG-Generatoren (Stufe 2)
+
+Die Agenten `schema-zeichner` / `plakat-setzer` *beschreiben* — diese Tools *rendern* das
+masshaltige Geruest (abhaengigkeitsfrei, reines Python, gueltiges SVG):
+
+```bash
+# Board-Geruest je Plan (Papierformat, Platzhalter, Pflichtleiste Kennwort/Massstab/Nord)
+python3 skills/wettbewerb/tools/build_board.py \
+  --name 2702_Schulhaus --boards 2 --format A0 --orientierung hoch \
+  --kennwort "TANGRAM" --out "<Projekt>/09_Plakate"
+
+# Konzept-Schema je Thema (erschliessung|tragwerk|energie|brandschutz)
+python3 skills/wettbewerb/tools/build_schema.py \
+  --thema erschliessung --name 2702_Schulhaus --out "<Projekt>/06_Schemas"
+```
+
+Beide erzeugen bewusst ein **Geruest/Konzeptdiagramm** (kein Feinsatz, nicht massstaeblich);
+leere Platzhalter bleiben in der Abgabe-Checkliste rot/orange. Anonymitaet gewahrt (kein
+Bueroname/Logo).
+
 ## Fan-out-Agenten
 
 | Agent | Rolle | Status |
@@ -131,7 +151,8 @@ als **offen/Hand** markiert.
    `programm-pruefer` an einem realen JANS-Wettbewerbsprogramm validieren.
 2. ~~Bericht/Schemas/Plakat: `bericht-autor` + `schema-zeichner` + `plakat-setzer` als
    Agent-Files~~ erledigt (Stufe 2) — fehlen noch die SVG-Generatoren (tools/).
-3. SVG-Generatoren bauen: `tools/build_schema.py` (Konzeptdiagramme) + `tools/build_board.py`
-   (Board-Raster aus Abgabeformat) — die Agenten beschreiben, die Tools rendern.
+3. ~~SVG-Generatoren bauen: `tools/build_schema.py` + `tools/build_board.py`~~ erledigt
+   (abhaengigkeitsfrei, SVG-validiert). Naechste Feinung: Board-Slots aus dem Programm-Soll
+   automatisch ableiten statt Default-Set.
 4. STL-Druckvorbereitung im `volumenstudie`-Pfad als benannter Schritt (Einsatzmodell).
 5. Plaene/Bilder: erst wenn ein belastbarer CAD-/Render-Pfad steht (eigene Stufe, eigenes Risiko).
