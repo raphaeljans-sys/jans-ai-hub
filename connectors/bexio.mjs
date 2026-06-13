@@ -232,6 +232,25 @@ async function abgleichCheck({ minBetrag = 1000 } = {}) {
   return { realCount: real.length, credUnrecCount: credUnrec.length, ohneBeleg, eingangOhneBuchung };
 }
 
+/**
+ * Findet Phantom-Duplikate aus dem Doppelimport: unreconciled Transaktionen, die einen
+ * bereits abgeglichenen (reconciled/auto_reconciled) Zwilling mit gleichem Konto/Typ/Datum/
+ * Betrag haben. Das ist die sichere Bereinigungs-Arbeitsliste (den Zwilling NICHT anfassen,
+ * nur das unreconciled Duplikat in der bexio-UI auf «ignoriert» setzen).
+ */
+async function duplikate() {
+  const tx = await alleBankTx();
+  const realKey = new Set();
+  for (const t of tx) {
+    if (['reconciled', 'auto_reconciled'].includes(t.status)) {
+      realKey.add(`${t.bank_account_id}|${t.type}|${t.value_date}|${Math.round(Number(t.amount) * 100)}`);
+    }
+  }
+  const dups = tx.filter(t => t.status === 'unreconciled' &&
+    realKey.has(`${t.bank_account_id}|${t.type}|${t.value_date}|${Math.round(Number(t.amount) * 100)}`));
+  return dups.map(t => ({ id: t.id, type: t.type, date: t.value_date, amount: Number(t.amount), title: t.title }));
+}
+
 /** Laedt das PDF einer bestimmten Mahnstufe (Reminder) einer Rechnung. */
 async function holeMahnPdf(invoiceId, { reminderId = null, stufe = null, zielDir = '.' } = {}) {
   const rem = await api(REMINDER_PFAD(invoiceId)) || [];
@@ -406,6 +425,17 @@ const main = async () => {
     else console.log('  (keine — alle bezahlten Rechnungen sind bankgedeckt)');
     console.log(`\n■ Echter Bankeingang ohne zugeordnete Rechnungs-Zahlung (${eingangOhneBuchung.length}):`);
     for (const r of eingangOhneBuchung) console.log(`  ${r.date}  ${chf(r.amount)}  (Bank-Tx ${r.id})`);
+    return;
+  }
+  if (arg('--duplikate')) {
+    const d = await duplikate();
+    if (arg('--json')) { console.log(JSON.stringify(d, null, 2)); return; }
+    const cred = d.filter(x => x.type === 'CREDIT'), deb = d.filter(x => x.type === 'DEBIT');
+    console.log(`${d.length} Phantom-Duplikate (unreconciled mit abgeglichenem Zwilling) — in der bexio-UI auf «ignoriert» setzen:`);
+    console.log(`  CREDIT (Eingaenge): ${cred.length}  |  DEBIT (Ausgaenge): ${deb.length}`);
+    console.log('\nCREDIT-Duplikate (relevant fuer Debitoren):');
+    for (const x of cred) console.log(`  Tx ${x.id}  ${x.date}  ${chf(x.amount)}  ${x.title || ''}`);
+    console.log('\nTransaktions-IDs zum Ignorieren (CREDIT): ' + cred.map(x => x.id).join(', '));
     return;
   }
   if (arg('--mahnpdf')) {
