@@ -46,8 +46,9 @@ import { join } from 'node:path';
 
 const BASE = 'https://api.bexio.com';
 const ENV_FILE = join(homedir(), '.bexio.env');
-// Reminder-Unterressource je Rechnung — beim ersten echten Lauf bestaetigen.
-const REMINDER_PFAD = (id) => `/2.0/kb_invoice/${id}/kb_invoice_reminder`;
+// Reminder-Unterressource je Rechnung — am 13.06.2026 live gegen die bexio-API
+// verifiziert (GET/POST .../kb_reminder, .../{rid}/send, .../{rid}/pdf, mark_as_sent).
+const REMINDER_PFAD = (id) => `/2.0/kb_invoice/${id}/kb_reminder`;
 
 // ---------------------------------------------------------------- Hilfen
 function fail(msg) { console.error('FEHLER: ' + msg); process.exit(1); }
@@ -96,9 +97,11 @@ async function api(pfad, { methode = 'GET', body = null, roh = false } = {}) {
 // ---------------------------------------------------------------- Rechnungen
 /** Offene/ueberfaellige Rechnungen. bexio kb_item_status_id: 7=offen, 16=ueberfaellig (bezahlt=9). */
 async function offene() {
-  // breit ziehen und lokal filtern, damit Status-IDs nicht hart vorausgesetzt werden
-  const liste = await api('/2.0/kb_invoice?limit=500&order_by=is_valid_from_desc');
-  return liste.filter(r => Number(r.total_remaining_payments ?? r.total) > 0 && !/paid|bezahlt/i.test(r.kb_item_status_id || ''));
+  // breit ziehen und lokal filtern/sortieren (bexio mag order_by hier nicht)
+  const liste = await api('/2.0/kb_invoice?limit=2000');
+  return liste
+    .filter(r => Number(r.total_remaining_payments ?? r.total) > 0)
+    .sort((a, b) => String(b.is_valid_from || '').localeCompare(String(a.is_valid_from || '')));
 }
 
 async function suche(begriff) {
