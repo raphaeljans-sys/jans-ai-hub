@@ -57,7 +57,8 @@ Auflagenänderungen festgestellt (Ziffern-Schnellabgleich). Die Plan-/Dokumenten
 
 - **Private Kontrolle Energie** (qualifizierte Fachperson EN-105/EN-110-ZH) noch zu bestimmen.
 - **EVEN-Konto** JANS noch nicht registriert (Account-Erstellung durch Raphael selbst).
-- **Adress-Hinweis:** BE nennt Zustelladresse «Raphael Jans – Architekten ETC / SIA,
-  Saumstrasse 21, 8003 Zürich»; aktuell richtig Grubenstrasse 37, 8045 Zürich (und «ETH») —
-  beim AfB korrigieren lassen.
 - Schutzraumpflicht (SRZ, Ziff. II.1b) noch in Abklärung.
+
+**Geklärt (kein offener Punkt):** Zustelladresse Saumstrasse 21, 8003 Zürich ist korrekt =
+Handelsregister-Firmendomizil (bestätigt Raphael 13.06.); die Briefkopf-/Büroadresse
+Grubenstrasse 37, 8045 Zürich ist davon unabhängig. «ETC» im BE ist Amts-Schreibfehler für «ETH».

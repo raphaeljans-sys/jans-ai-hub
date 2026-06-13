@@ -257,8 +257,8 @@ legend_block("Hinweise", [
  "• Diese Aufstellung ergänzt die Plan- und Dokumentenliste (gegliedert nach Planer): hier die Sicht je Amt mit Bezugsquelle der Formulare.",
  "• Energienachweis: seit 01.01.2026 verbindlich über EVEN (energievollzug.ch). EN-110-ZH zusätzlich als PDF auf zh.ch verfügbar; "
  "EN-ZH-Deckblatt + EN-105 werden in EVEN erfasst. Private Kontrolle Energie ist noch zu bestimmen.",
- "• Adress-Hinweis: Der Bauentscheid führt als Zustelladresse «Raphael Jans – Architekten ETC / SIA, Saumstrasse 21, 8003 Zürich». "
- "Aktuelle JANS-Adresse ist Grubenstrasse 37, 8045 Zürich (und «ETH», nicht «ETC») – beim AfB korrigieren lassen, damit Korrespondenz richtig zugestellt wird.",
+ "• Zustelladresse Saumstrasse 21, 8003 Zürich = im Handelsregister eingetragenes Firmendomizil (korrekt); "
+ "die Büroadresse Grubenstrasse 37, 8045 Zürich ist davon unabhängig.",
  "• Status-Werte: offen / in Arbeit / ausgefüllt / eingereicht / genehmigt / erledigt / hinfällig.",
 ])
 
