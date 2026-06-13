@@ -190,6 +190,70 @@ async function holePdf(id, zielDir) {
   return datei;
 }
 
+// ------------------------------------------------------------ Zahlungsverzug
+function heute() { return new Date().toISOString().slice(0, 10); }
+function tageDiff(vonISO, bisISO) {
+  if (!vonISO || !bisISO) return 0;
+  const a = new Date(vonISO + 'T00:00:00Z'), b = new Date(bisISO + 'T00:00:00Z');
+  return Math.round((b - a) / 86400000);
+}
+// bexio reminder_level -> menschliche Mahnstufe (Stufe 1 = freundliche Erinnerung)
+const STUFE_NAME = { 0: 'noch keine', 1: 'Zahlungserinnerung', 2: 'Mahnung 1', 3: 'Mahnung 2', 4: 'Mahnung 3 / Betreibung' };
+function stufeName(level) { return STUFE_NAME[level] || `Stufe ${level}`; }
+
+const _kontaktCache = new Map();
+async function kontakt(id) {
+  if (!id) return { name: '(ohne Kontakt)', mail: '' };
+  if (_kontaktCache.has(id)) return _kontaktCache.get(id);
+  let info = { name: `Kontakt ${id}`, mail: '' };
+  try {
+    const c = await api(`/2.0/contact/${id}`);
+    info = { name: [c.name_1, c.name_2].filter(Boolean).join(' ') || info.name, mail: c.mail || '' };
+  } catch {}
+  _kontaktCache.set(id, info);
+  return info;
+}
+
+/**
+ * Findet je Debitor die Rechnungen im Zahlungsverzug.
+ * Verzug = Restbetrag > 0 UND Faelligkeit (is_valid_to) < heute, Status nicht Entwurf(7)/storniert(19,20).
+ * "naechste Mahnstufe faellig" = die Frist der letzten Mahnstufe (oder die Rechnungs-Faelligkeit) ist verstrichen.
+ */
+async function verzugScan({ alle = false } = {}) {
+  const today = heute();
+  const liste = await api('/2.0/kb_invoice?limit=2000');
+  const offen = liste.filter(r =>
+    Number(r.total_remaining_payments ?? 0) > 0 &&
+    ![7, 19, 20].includes(Number(r.kb_item_status_id)));
+  const rows = [];
+  for (const r of offen) {
+    let rem = [];
+    try { rem = await api(REMINDER_PFAD(r.id)) || []; } catch {}
+    const level = rem.reduce((m, x) => Math.max(m, Number(x.reminder_level || 0)), 0);
+    const letzteFrist = rem.reduce((d, x) => (x.is_valid_to && x.is_valid_to > d ? x.is_valid_to : d), r.is_valid_to || '');
+    const faellig = r.is_valid_to || '';
+    const inVerzug = !!faellig && faellig < today;
+    const naechsteFaellig = letzteFrist ? letzteFrist < today : inVerzug;
+    const k = await kontakt(r.contact_id);
+    rows.push({
+      id: r.id, nr: r.document_nr, contact_id: r.contact_id, kunde: k.name, mail: k.mail,
+      offen: Number(r.total_remaining_payments), faellig, letzteFrist,
+      level, stufe: stufeName(level), inVerzug, naechsteFaellig,
+      tageUeberfaellig: inVerzug ? tageDiff(faellig, today) : 0,
+    });
+  }
+  const gruppen = new Map();
+  for (const x of rows) {
+    if (!alle && !x.inVerzug) continue;
+    if (!gruppen.has(x.contact_id)) gruppen.set(x.contact_id, []);
+    gruppen.get(x.contact_id).push(x);
+  }
+  // je Debitor aelteste zuerst
+  for (const items of gruppen.values()) items.sort((a, b) => String(a.faellig).localeCompare(String(b.faellig)));
+  return { today, rows, gruppen, totalOffen: offen.length };
+  return datei;
+}
+
 // ----------------------------------------------------------------- Main
 const argv = process.argv.slice(2);
 function arg(name, def = null) {
@@ -235,11 +299,42 @@ const main = async () => {
     await mahnen(arg('--mahnen'), { ja: !!arg('--ja'), senden: !!arg('--senden') });
     return;
   }
+  if (arg('--verzug')) {
+    const alle = !!arg('--alle');
+    const { today, rows, gruppen } = await verzugScan({ alle });
+    const verzugN = rows.filter(r => r.inVerzug).length;
+    if (arg('--json')) {
+      console.log(JSON.stringify({ today, verzug: verzugN, debitoren: [...gruppen.values()] }, null, 2));
+      return;
+    }
+    console.log(`Stichtag ${today} — ${rows.length} offene Rechnung(en), davon ${verzugN} im Zahlungsverzug.`);
+    if (gruppen.size) {
+      for (const items of gruppen.values()) {
+        console.log(`\n■ ${items[0].kunde}${items[0].mail ? '  <' + items[0].mail + '>' : ''}`);
+        for (const r of items) {
+          const vorschlag = r.naechsteFaellig
+            ? `→ VORSCHLAG naechste Stufe: ${stufeName(r.level + 1)}`
+            : `(Frist laeuft noch bis ${r.letzteFrist})`;
+          console.log(`  ${r.nr}  offen ${chf(r.offen)}  faellig ${r.faellig} (${r.tageUeberfaellig} Tg ueberfaellig)  aktuell: ${r.stufe}  ${vorschlag}`);
+        }
+      }
+    } else {
+      console.log(alle ? 'Keine offenen Rechnungen.' : 'Aktuell KEINE Rechnung im Zahlungsverzug.');
+    }
+    if (!alle) {
+      const bald = rows.filter(r => !r.inVerzug).sort((a, b) => String(a.faellig).localeCompare(String(b.faellig)));
+      if (bald.length) {
+        console.log('\nBald faellig (offen, noch kein Verzug):');
+        for (const r of bald) console.log(`  ${r.nr}  ${chf(r.offen)}  faellig ${r.faellig}  ${r.kunde}`);
+      }
+    }
+    return;
+  }
   if (arg('--pdf')) {
     await holePdf(arg('--pdf'), String(arg('--ziel', '.')));
     return;
   }
-  console.log('Verwendung: --test | --offen | --suche "Nr/Titel" | --rechnung <ID> | --mahnstufe <ID> | --mahnen <ID> [--ja] [--senden] | --pdf <ID> --ziel DIR');
+  console.log('Verwendung: --test | --offen | --verzug [--alle] [--json] | --suche "Nr/Titel" | --rechnung <ID> | --mahnstufe <ID> | --mahnen <ID> [--ja] [--senden] | --pdf <ID> --ziel DIR');
 };
 
 main().catch(e => fail(e.message));
