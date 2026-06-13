@@ -10,6 +10,7 @@ Stand: 13.06.2026
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
 | 16.06.2026 | RE-00096 (Tschopp, CHF 6'000) wird faellig | mahnwesen | Debitoren | mittel | beobachten |
+| 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH | logbuch | 2619 KISPI | mittel | nachfassen |
 | 16.06.2026 | RE-00097 (Hofer, CHF 500) wird faellig | mahnwesen | Debitoren | tief | beobachten |
 | 18.06.2026 | RE-00089 (Kispi, CHF 15'000) wird faellig | mahnwesen | 2619 KISPI | mittel | beobachten |
 | 18.06.2026 | bexio-Support: Antwort auf Doppelimport-Anfrage pruefen, ggf. nachfassen | zahlungsabgleich | bexio | mittel | nachfassen |
