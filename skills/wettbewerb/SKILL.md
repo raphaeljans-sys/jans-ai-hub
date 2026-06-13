@@ -111,9 +111,9 @@ als **offen/Hand** markiert.
 | `programm-leser` | Programm-PDF -> strukturiertes Soll (Raumprogramm/Vorgaben/Termine/Kriterien) | MVP |
 | `flaechen-nachweis` | SIA-416-Flaechen-/Raumprogramm-Nachweis, Soll/Ist-Delta | MVP |
 | `programm-pruefer` | Konformitaets-Schleife: Ampel je Programmvorgabe, Rueckkopplung | MVP |
-| `bericht-autor` | Erlaeuterungsbericht/Beschriebe aus Konzept + Kennzahlen | Roadmap |
-| `schema-zeichner` | Konzeptdiagramme (Erschliessung/Tragwerk/Energie/Brandschutz) | Roadmap |
-| `plakat-setzer` | Board-Layout-Geruest nach Abgabeformat (Plan-/Bildplatzierung) | Roadmap |
+| `bericht-autor` | Erlaeuterungsbericht/Beschriebe aus Konzept + Kennzahlen | Stufe 2 |
+| `schema-zeichner` | Konzeptdiagramme (Erschliessung/Tragwerk/Energie/Brandschutz), SVG | Stufe 2 |
+| `plakat-setzer` | Board-Layout-Geruest nach Abgabeformat (Plan-/Bildplatzierung), SVG | Stufe 2 |
 
 ## Hinweise
 
@@ -129,7 +129,9 @@ als **offen/Hand** markiert.
 
 1. MVP "Programm-zu-Nachweis" haerten: `programm-leser` + `flaechen-nachweis` +
    `programm-pruefer` an einem realen JANS-Wettbewerbsprogramm validieren.
-2. Bericht/Schemas: `bericht-autor` + `schema-zeichner` als Agent-Files + Generator.
-3. Plakat-Geruest: `plakat-setzer` + Board-Template (SVG/InDesign), Plan-/Bildplatzierung.
+2. ~~Bericht/Schemas/Plakat: `bericht-autor` + `schema-zeichner` + `plakat-setzer` als
+   Agent-Files~~ erledigt (Stufe 2) — fehlen noch die SVG-Generatoren (tools/).
+3. SVG-Generatoren bauen: `tools/build_schema.py` (Konzeptdiagramme) + `tools/build_board.py`
+   (Board-Raster aus Abgabeformat) — die Agenten beschreiben, die Tools rendern.
 4. STL-Druckvorbereitung im `volumenstudie`-Pfad als benannter Schritt (Einsatzmodell).
 5. Plaene/Bilder: erst wenn ein belastbarer CAD-/Render-Pfad steht (eigene Stufe, eigenes Risiko).
