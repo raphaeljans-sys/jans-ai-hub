@@ -225,7 +225,23 @@ Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «He
 (warm-liefernde Investor-Du-Mail), «Freundliche Grüsse» (Buchhaltung-Sie) — konsistent mit
 «Gruss folgt dem Mail-Typ».
 
+## «Hey» = lockerste Peer-Anrede + «%» ohne Leerschlag im Eil-Du (belegt Mailbatch 05, authentisch)
+- **«Hey,»** (ohne Vorname) + komplett kleingeschriebene Mikro-Mail + «**lgr**» als
+  **lockerste Stufe überhaupt** — an einen befreundeten Peer-Dienstleister (deutschsprachiger
+  3D-/Visualisierungs-Freelancer, 14.08.2025): «Hey, bist du busy oder hast du zeit für visus?
+  / lgr / **Gratuliere für die Abgabe!**». Noch leichter als «Hoi»; nachgestellte warme
+  Gratulation als PS. → Der Zwilling nutzt «Hey» nur im engsten, gegenseitig-saloppen Peer-Du.
+- **«%» rutscht im Eil-Du OHNE Leerschlag**: «bei **10%** weniger Ausnützung», «**20%**»
+  (11.08.2025, operative Du-Liefermail). Echtheits-Befund gegen den Ideal-Marker «30 %» mit
+  Leerschlag — im schnell getippten operativen Du fällt der Schutz-Leerschlag weg. Der Zwilling
+  schreibt «%» mit Leerschlag (Ideal, `korrektur`), dokumentiert die Abweichung nur.
+- Mikro-Metrik Batch 05 (239 W, Eil-Du-lastig): Du-Gross-Quote 0.75 (reziprok-casual Mix —
+  «bist **du** busy», «**du** solltest» klein neben «Im Anhang sende ich **Dir**», «Danke für
+  **Deine** Bereitschaft» gross); Satzlänge ø **9.2 W** (kürzester Wert bisher, reine
+  Operativ-Mails); Gruss «Lieber Gruss» 2× (Du-operativ); keine Apostroph-Zahlen («CHF 11K»
+  statt 11'000) noch Ellipsen — registerbedingt.
+
 ## Lücken → [[QUESTIONS]]
-Feinunterschied «Hoi» vs. «Lieber»; Englisch bei rein technischer Aerospace-Korrespondenz
-(bislang nur Architektur-Freelancer belegt); Mundart-Schwelle (wann kippt eine Du-Mail von
-Hochdeutsch in Mundart).
+Feinunterschied «Hoi» vs. «Lieber» vs. «Hey» (drei Peer-Du-Stufen); Englisch bei rein
+technischer Aerospace-Korrespondenz (bislang nur Architektur-Freelancer belegt);
+Mundart-Schwelle (wann kippt eine Du-Mail von Hochdeutsch in Mundart).
