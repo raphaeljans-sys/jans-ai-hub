@@ -36,10 +36,20 @@ for f in $(printf '%s' "$ti" | grep -oE '/[A-Za-z0-9._/-]+\.txt' | sort -u); do
 $(cat "$f" 2>/dev/null || true)"
 done
 
+# E-Mail-Adressen, URLs und Domains ausblenden: dort ist "zuerich" (z.B.
+# afb-helpline@zuerich.ch, stadt-zuerich.ch) bzw. jeder ASCII-Stamm legitim und
+# KEIN Umlaut-Fehler. Sonst blockiert der Guard jede Mail an eine @zuerich.ch-Adresse.
+# Der Fliesstext-Anteil (mit echten Umlauten) bleibt unangetastet und wird weiter geprüft.
+scrubbed=$(printf '%s' "$combined" | sed -E \
+  -e 's#https?://[^[:space:]"]+# #g' \
+  -e 's#www\.[^[:space:]"]+# #g' \
+  -e 's#[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+# #g' \
+  -e 's#[A-Za-z0-9-]+\.(ch|com|net|org|de|li|eu|info|swiss)([/][^[:space:]"]*)?# #g' 2>/dev/null || printf '%s' "$combined")
+
 # Schweizer "ss" ist korrekt und NICHT in der Liste.
 pattern='fuer|rueck|gruess|koenn|koennt|moeglich|verstaend|naechst|waere|haette|kuenft|ueber|muess|muesst|fuehr|ausfuehr|buero|zurueck|gebaeud|taeglich|naemlich|zuerich|gespraech|ungefaehr|aenderung|aendern|spaeter|waehrend|waehl|erklaer|geschaeft|persoenlich|hoeflich|wuensch'
 
-hits=$(printf '%s' "$combined" | grep -oiE "$pattern" 2>/dev/null | sort -u | head -20 | tr '\n' ' ' || true)
+hits=$(printf '%s' "$scrubbed" | grep -oiE "$pattern" 2>/dev/null | sort -u | head -20 | tr '\n' ' ' || true)
 
 if [ -n "$hits" ]; then
   msg="MAIL-ENTWURF BLOCKIERT — ASCII-Umlaute im Body: ${hits}. Setze echte Umlaute (ä/ö/ü; ss bleibt ss), schicke den Body durch den Korrektur-Harness (Skill korrektur), und erstelle den Entwurf dann erneut. Ausserdem Mailschrift Aptos 12 pt prüfen (mail-formatierung.md)."

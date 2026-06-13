@@ -46,6 +46,15 @@ fi
 # (1) Code-Fences und Inline-Backticks entfernen (dort stehen zitierte Beispiele).
 scan=$(printf '%s' "$text" | sed -e '/^```/,/^```/d' -e 's/`[^`]*`//g')
 
+# (1b) E-Mail-Adressen, URLs und Domains ausblenden: dort ist "zuerich" (z.B.
+# afb-helpline@zuerich.ch, stadt-zuerich.ch, www.stadt-zuerich.ch) legitim und KEIN
+# Umlaut-Fehler. Sonst feuert der Guard bei fast jeder Antwort mit Stadt-ZH-Bezug.
+scan=$(printf '%s' "$scan" | sed -E \
+  -e 's#https?://[^[:space:])]+# #g' \
+  -e 's#www\.[^[:space:])]+# #g' \
+  -e 's#[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+# #g' \
+  -e 's#[A-Za-z0-9-]+\.(ch|com|net|org|de|li|eu|info|swiss)([/][^[:space:])]*)?# #g' 2>/dev/null || printf '%s' "$scan")
+
 # Kuratierte Stämme: praktisch immer Umlaut-Elisionen. KEINE ss-Wörter.
 pattern='fuer|rueck|gruess|koenn|koennt|moeglich|verstaend|naechst|waere|haette|kuenft|ueber|muess|muesst|fuehr|ausfuehr|buero|zurueck|gebaeud|taeglich|naemlich|zuerich|gespraech|ungefaehr|aenderung|aendern|spaeter|waehrend|waehl|erklaer|geschaeft|persoenlich|hoeflich|wuensch'
 
