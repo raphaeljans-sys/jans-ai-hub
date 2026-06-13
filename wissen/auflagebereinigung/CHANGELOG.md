@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-13 — Einreich-Aufstellung (Formulare/Eingaben je Amt) 2619-KISPI
+
+- Neues Deliverable, Gegenstück zur Plan-/Dokumentenliste: **Einreich-Aufstellung**
+  gegliedert nach Eingabe-Adressat (Amt) mit klickbarer Spalte Bezugsquelle/Plattform.
+  Generator `tools/build_einreichaufstellung.py`; 25 Eingaben in 7 Amts-Gruppen
+  (UGZ/FP/GVZ/AfB/SRZ/Bauinstallation/Baustelle-Umwelt). XLSX+PDF doppelt abgelegt.
+- Grundlage definitiver BE 1171/26 (08.06.2026); Diff zum Vorabzug: keine materiellen
+  Auflagenänderungen (Ziffern-Schnellabgleich), Energie-Zuordnung II.8 a/b/c wörtlich.
+- Bezugsquellen am 13.06. live verifiziert (EN-110-ZH-PDF, EVEN, UGZ-/Baustellen-Luft-Kanal,
+  GVZ, VKF; Connector-URLs Brandschutz-Zusatzformular 3 + Baumfällung). EN-ZH/EN-105 laufen
+  seit 01.01.2026 über EVEN (kein Einzel-PDF mehr).
+- Output-Begleitnotiz `outputs/2026-06-13_2619-kispi-einreich-aufstellung.md`.
+
 ## 2026-06-12 — Definitiver Bauentscheid BE 1171/26: Formular-Zuordnung bestätigt
 
 - `formular-verifizierung.md` auf `status: established` gehoben: Zuordnung II.8.a→EN-ZH/EVEN,
