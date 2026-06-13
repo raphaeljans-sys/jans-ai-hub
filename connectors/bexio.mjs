@@ -190,6 +190,27 @@ async function holePdf(id, zielDir) {
   return datei;
 }
 
+/** Laedt das PDF einer bestimmten Mahnstufe (Reminder) einer Rechnung. */
+async function holeMahnPdf(invoiceId, { reminderId = null, stufe = null, zielDir = '.' } = {}) {
+  const rem = await api(REMINDER_PFAD(invoiceId)) || [];
+  if (!rem.length) { console.log(`Keine Mahnstufe zu Rechnung ${invoiceId} vorhanden.`); return null; }
+  let r = null;
+  if (reminderId) r = rem.find(x => String(x.id) === String(reminderId));
+  else if (stufe) r = rem.find(x => Number(x.reminder_level) === Number(stufe));
+  else r = rem.reduce((a, b) => (Number(b.reminder_level) >= Number(a.reminder_level) ? b : a)); // hoechste
+  if (!r) { console.log(`Mahnstufe nicht gefunden. Vorhanden: ${rem.map(x => `Stufe ${x.reminder_level} (${x.title}, id ${x.id})`).join('; ')}`); return null; }
+  mkdirSync(zielDir, { recursive: true });
+  let buf;
+  const j = await api(`${REMINDER_PFAD(invoiceId)}/${r.id}/pdf`);
+  if (j && j.content) buf = Buffer.from(j.content, 'base64');
+  else buf = await api(`${REMINDER_PFAD(invoiceId)}/${r.id}/pdf`, { roh: true });
+  const name = (j && j.name) ? j.name : `mahnung-stufe${r.reminder_level}-re-${String(invoiceId).padStart(5, '0')}.pdf`;
+  const datei = join(zielDir, name.replace(/[\/\\]/g, '_'));
+  writeFileSync(datei, buf);
+  console.log(`Gespeichert: ${datei}  (Stufe ${r.reminder_level} «${r.title}», offen laut Mahnung: ${chf(r.remaining_price)})`);
+  return datei;
+}
+
 // ------------------------------------------------------------ Zahlungsverzug
 function heute() { return new Date().toISOString().slice(0, 10); }
 function tageDiff(vonISO, bisISO) {
@@ -334,7 +355,16 @@ const main = async () => {
     await holePdf(arg('--pdf'), String(arg('--ziel', '.')));
     return;
   }
-  console.log('Verwendung: --test | --offen | --verzug [--alle] [--json] | --suche "Nr/Titel" | --rechnung <ID> | --mahnstufe <ID> | --mahnen <ID> [--ja] [--senden] | --pdf <ID> --ziel DIR');
+  if (arg('--mahnpdf')) {
+    const reminderId = arg('--reminder'); const stufe = arg('--stufe');
+    await holeMahnPdf(arg('--mahnpdf'), {
+      reminderId: reminderId && reminderId !== true ? reminderId : null,
+      stufe: stufe && stufe !== true ? stufe : null,
+      zielDir: String(arg('--ziel', '.')),
+    });
+    return;
+  }
+  console.log('Verwendung: --test | --offen | --verzug [--alle] [--json] | --suche "Nr/Titel" | --rechnung <ID> | --mahnstufe <ID> | --mahnen <ID> [--ja] [--senden] | --pdf <ID> --ziel DIR | --mahnpdf <ID> [--stufe N|--reminder RID] --ziel DIR');
 };
 
 main().catch(e => fail(e.message));
