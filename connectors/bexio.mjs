@@ -190,6 +190,48 @@ async function holePdf(id, zielDir) {
   return datei;
 }
 
+// ------------------------------------------------------------ Bankabgleich-Pruefung
+/** Alle Banktransaktionen (paginiert). */
+async function alleBankTx() {
+  const out = [];
+  for (let off = 0; ; off += 500) {
+    const page = await api(`/3.0/banking/transactions?limit=500&offset=${off}`);
+    if (!page || !page.length) break;
+    out.push(...page);
+    if (page.length < 500) break;
+  }
+  return out;
+}
+
+/**
+ * Prueft die Konsistenz: ist jede als bezahlt gebuchte Rechnung durch einen ECHTEN
+ * (reconciled/auto_reconciled) Bankeingang gedeckt? Deckt Phantom-Duplikate auf und
+ * findet Rechnungen, die ohne Bankbeleg auf bezahlt stehen.
+ * Match per Betrag (greedy) — Buchungsdaten in bexio sind unzuverlaessig geclustert.
+ */
+async function abgleichCheck({ minBetrag = 1000 } = {}) {
+  const tx = await alleBankTx();
+  const real = tx
+    .filter(t => t.type === 'CREDIT' && ['reconciled', 'auto_reconciled'].includes(t.status))
+    .map(t => ({ id: t.id, date: t.value_date, amount: Math.round(Number(t.amount) * 100) / 100, used: false }));
+  const credUnrec = tx.filter(t => t.type === 'CREDIT' && t.status === 'unreconciled');
+  const inv = await api('/2.0/kb_invoice?limit=2000');
+  const bezahlt = inv.filter(i => Number(i.total_received_payments || 0) > 0);
+  const ohneBeleg = [];
+  for (const i of bezahlt) {
+    const pays = await api(`/2.0/kb_invoice/${i.id}/payment`) || [];
+    for (const p of pays) {
+      const amt = Math.round(Number(p.value) * 100) / 100;
+      const m = real.find(r => !r.used && Math.abs(r.amount - amt) < 0.01);
+      if (m) m.used = true;
+      else ohneBeleg.push({ nr: i.document_nr, id: i.id, betrag: amt, datum: p.date, contact_id: i.contact_id });
+    }
+  }
+  for (const f of ohneBeleg) f.kunde = (await kontakt(f.contact_id)).name;
+  const eingangOhneBuchung = real.filter(r => !r.used && r.amount >= minBetrag);
+  return { realCount: real.length, credUnrecCount: credUnrec.length, ohneBeleg, eingangOhneBuchung };
+}
+
 /** Laedt das PDF einer bestimmten Mahnstufe (Reminder) einer Rechnung. */
 async function holeMahnPdf(invoiceId, { reminderId = null, stufe = null, zielDir = '.' } = {}) {
   const rem = await api(REMINDER_PFAD(invoiceId)) || [];
@@ -353,6 +395,17 @@ const main = async () => {
   }
   if (arg('--pdf')) {
     await holePdf(arg('--pdf'), String(arg('--ziel', '.')));
+    return;
+  }
+  if (arg('--abgleich')) {
+    const { realCount, credUnrecCount, ohneBeleg, eingangOhneBuchung } = await abgleichCheck();
+    if (arg('--json')) { console.log(JSON.stringify({ realCount, credUnrecCount, ohneBeleg, eingangOhneBuchung }, null, 2)); return; }
+    console.log(`Echte Eingaenge (reconciled/auto): ${realCount}  |  unreconciled CREDIT (meist Duplikate): ${credUnrecCount}`);
+    console.log(`\n■ Als BEZAHLT gebucht, aber OHNE echten Bankbeleg (${ohneBeleg.length}):`);
+    if (ohneBeleg.length) for (const f of ohneBeleg) console.log(`  ⚠ ${f.nr}  ${chf(f.betrag)}  gebucht ${f.datum}  ${f.kunde}`);
+    else console.log('  (keine — alle bezahlten Rechnungen sind bankgedeckt)');
+    console.log(`\n■ Echter Bankeingang ohne zugeordnete Rechnungs-Zahlung (${eingangOhneBuchung.length}):`);
+    for (const r of eingangOhneBuchung) console.log(`  ${r.date}  ${chf(r.amount)}  (Bank-Tx ${r.id})`);
     return;
   }
   if (arg('--mahnpdf')) {
