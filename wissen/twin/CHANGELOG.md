@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-14 — twin-mail-training: Mailbatch 06 (Sent Items rj@, 2025-08-09…18, authentisch)
+- Sequentieller Sweep fortgesetzt: 15 Mails gesichtet, 2 fachliche Volltexte destilliert
+  (Niederhasli-Ankauf: Controlling/Sensitivität an Baumanagement-Partner + Forward an Wintec),
+  Rest operatives Rauschen (Teams-Join-Links, Terminzusagen, Yorck-Setup-Mikromails = Batch-05-
+  Marker). Stilmetrik (157 W): Du-Gross 1.0, «%» ohne Leerschlag (10/20 %), Satzlänge ø **8.7 W**
+  (neuer Tiefstwert), «Lieber Gruss» 2× / «Hoi <Vorname>».
+- Eingearbeitet (authentisch): [[denken]] **Sensitivitätsdenken + Absicherung VOR dem Commit**
+  (Marge-Delta ehrlich beziffert, nummerierte Vorab-Absicherungs-Fazits gegen Zeitdruck);
+  [[arbeitsweise]] Liefer-Skelett **Anhang-Liste → «Zusammenfassung» (Befund) → «Fazit» (To-do)**;
+  [[beziehungsregister]] zwei neue Du-Geschäftspartner (Baumanagement «Hoi Peter», Wintec «Hoi
+  Gerry» + Büro-Einladung) + Diskretions-Marker «Bitte vertrauliche behandeln»; [[stimme]]
+  2. Datenpunkt «%»-ohne-Leerschlag + Satzlängen-Tiefstwert + A)/B)-/«_ »-Typografie.
+- Register `raw/_INGESTED.md` bis 2025-08-18 fortgeschrieben; Destillat `raw/260614-mailbatch-06.md`.
+
 ## 2026-06-14 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Sent Items rj@, Nov 2025, authentisch)
 - Drei frische, bisher nicht analysierte vor-Claude-Goldproben gezogen, weit gestreut:
   A Behörden-Vorabklärung Vordach (formell-Sie, Bauamt Thalwil, 2025-11-20),

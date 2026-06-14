@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-06-14
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -242,6 +242,11 @@ Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «He
   **Deine** Bereitschaft» gross); Satzlänge ø **9.2 W** (kürzester Wert bisher, reine
   Operativ-Mails); Gruss «Lieber Gruss» 2× (Du-operativ); keine Apostroph-Zahlen («CHF 11K»
   statt 11'000) noch Ellipsen — registerbedingt.
+- **Zweiter Datenpunkt (Mailbatch 06, authentisch):** «**10%**» / «**20%**» erneut OHNE Leerschlag
+  in operativer Du-Liefermail (11.08.2025) — bestätigt das Eil-Du-Muster. Satzlänge ø **8.7 W**
+  (neuer Tiefstwert, reine operative Liefermails); Du-Gross-Quote 1.0; Gruss «Lieber Gruss» 2×
+  («Hoi Peter» / «Hoi Gerry»); keine Apostroph-Zahlen («CHF 11K/HNFm2») noch Ellipsen. Eigene
+  Listentypografie «A) … B) …» + Unterstrich-Bullet «_ <Datei>.pdf» erneut belegt.
 
 ## «Hallo <Vorname>» als neutral-freundliche Du-Anrede + «Ich ersuche um» (belegt Fidelity 260614, authentisch)
 - **«Hallo <Vorname>,»** als Du-Einstieg für **deutschsprachige Dienstleister/Freelancer** —

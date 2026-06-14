@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-13
+last_updated: 2026-06-14
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -142,6 +142,20 @@ Studienarbeit** bitte ich dich, die **Rechnungsanschrift** zu prüfen und mir �
 E-Mail-Adresse der Buchhaltung** mitzuteilen» (07.08.2025). Sequenziert sauber: Inhalt
 abnehmen → Rechnungsdaten klären → an Buchhaltung. Der Zwilling bietet beim Liefern gleich den
 nächsten Schritt an, ohne zu drängen («Falls … passt»).
+
+## Liefer-Skelett: Anhang-Liste → «Zusammenfassung» (Befund) → «Fazit» (To-do) (belegt Mailbatch 06, authentisch)
+Die Risiko-/Ankaufs-Liefermail folgt einem festen Drei-Block-Skelett, sehr kurz gehalten (Metrik
+Batch 06: ø **8.7 Wörter/Satz**, operatives Du):
+1. **Was kommt mit** — Anhänge als Unterstrich-Bullet-Liste: «Im Anhang sende ich Dir folgende
+   Unterlagen: _ Sensitivitaetsanalyse… _ Controlling_Fact_Sheet…».
+2. **«Zusammenfassung:»** — die nackten Befunde, mit eigener Typografie «A) … B) …» nummeriert
+   (Ertragsrahmen, Risiko-Ampel, Marge-Sensitivität).
+3. **«Fazit 1. … Fazit 2. … Fazit 3.»** — die daraus folgenden **Handlungs-/Abklärungsschritte**
+   als durchnummerierte To-do-Liste (was VOR dem Kauf abzusichern ist).
+Muster: **Befund von Handlung sauber trennen** — erst was IST (Zusammenfassung), dann was ZU TUN
+ist (Fazit als Imperativ-Liste). Deckt sich mit Grundlage→Empfehlung→Ausblick, hier in der
+knappsten Liefer-Variante. (Flüchtigkeit im Original: «Fazit 2.» doppelt vergeben — Nummerierung
+rutscht; der Zwilling übernimmt das Skelett, `korrektur` zieht die Nummern gerade.)
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft.

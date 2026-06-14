@@ -5,6 +5,19 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-14
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`) und Kalender abgeglichen. In Verzug aktuell
+  nur RE-00088 (Kispi, CHF 15'000, 25 Tage ueberfaellig, Mahnung 2, Zahlungsfrist 19.06.). RE-00096
+  (Tschopp), RE-00097 (Hofer) und RE-00089 (Kispi) noch nicht ueberfaellig, bleiben auf «beobachten».
+- **Kalender naechste 7 Tage:** zwei Termine ergaenzt — 17.06. 10:00 Sitzung KISPI PPTS Koordination
+  LBW/Innere Verglasung (Brandschutz, Teams); 19.06. 14:00 Besichtigung David, Bahnhofstrasse 27.
+- **Offen/nachfassen:** bexio-Doppelimport (Antwort Support, 18.06.) und EPROID-Anfrage B26-00705.01
+  (20.06.). Keine Erledigungen heute (Sonntag).
+- Briefing-Mail an rj@ versendet (Faelliges in den naechsten 7 Tagen vorhanden).
+
+---
+
 ## 2026-06-13
 
 - **2619 KISPI / EPROID:** Anfrage von Nadia Petti Kunz (BD Kt. ZH, Datenlogistik) zur EPROID

@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-06-14
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -212,6 +212,20 @@ Verstärkt «Register nach Anlass» an Thomas Angerer (Nova) um zwei Datenpunkte
   Du-Kunden. (Nova-Mapping nun: Angerer/Asset-Manager Du · Munch/Deputy-Head Sie · Siegel/
   Buchhaltung Sie.) Rechnung lenkt RJ sauber: an die Buchhaltung (Sie), Freigabe «direkt mit
   Herrn Thomas Angerer» — Sachwalter-Trennung Zahlung/Entscheid (→ [[arbeitsweise]]).
+
+## Baumanagement-/Geschäftspartner = operatives Du + Diskretions-Hinweis (belegt Mailbatch 06, authentisch)
+Zwei weitere Du-Geschäftspartner bestätigen das operativ-fachliche Du als Default unter
+Projektpartnern (11.08.2025):
+- **Baumanagement-Partner** (dasBaumanagement.ch, Niederhasli-Ankauf): «**Hoi Peter**» / «Lieber
+  Gruss» — fachliche Liefermail (Controlling/Sensitivität) im lockeren Du, «Besten Dank für Deine
+  Unterlagen», «stehe ich Dir jederzeit gerne zur Verfügung».
+- **Bau-/Ingenieurpartner** (Wintec AG): «**Hoi Gerry**» / «Lieber Gruss» beim Weiterleiten der
+  Unterlagen, **mit persönlicher Büro-Einladung** als Beziehungspflege: «Komm doch mal bei mir
+  im neuen Büro vorbei oder ich komme zu Dir» (vgl. Café/Büro-Einladungs-Muster → [[stimme]]).
+- **Diskretions-Marker:** beim Weiterleiten sensibler Investoren-/Deal-Unterlagen setzt Raphael
+  einen knappen Vertraulichkeits-Hinweis: «**Bitte vertrauliche behandeln.**» Sachwalter-Reflex
+  im Umgang mit Dritt-Material (→ [[haltung]]). Der Zwilling fügt beim Forward heikler Unterlagen
+  an Du-Partner eine kurze Vertraulichkeitszeile an, ohne den lockeren Ton zu verlassen.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
