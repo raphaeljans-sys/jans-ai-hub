@@ -23,17 +23,24 @@ aelter als 18 Monate werden mit ⚠ markiert (siehe `../wissensluecken.md`).
 |---|---|---|---|---|---|
 | Wangen | SZ | 8854 / 1349 | March | 12/2025 | [[marktdaten-gemeinden/sz-wangen-8854]] |
 | Zollikon | ZH | 8125 / 0161 | Pfannenstiel | 12/2025 | [[marktdaten-gemeinden/zh-zollikon-8125]] |
+| Thalwil | ZH | 8800 / 0141 | Zimmerberg | 7/2024 ⚠ | [[marktdaten-gemeinden/zh-thalwil-8800]] |
+| Muri | AG | 5630 / 4236 | Freiamt | 7/2024 ⚠ | [[marktdaten-gemeinden/ag-muri-5630]] |
 | Maur | ZH | 8124 / 0195 | Glattal-Furttal | 7/2024 ⚠ | [[marktdaten-gemeinden/zh-maur-8124]] |
+| Regensdorf | ZH | 8105 / 0096 | Glattal-Furttal | 12/2023 ⚠ | [[marktdaten-gemeinden/zh-regensdorf-8105]] |
 | Wald | ZH | 8636 / 0120 | Zürcher Oberland | 12/2023 ⚠ | [[marktdaten-gemeinden/zh-wald-8636]] |
 | Wädenswil | ZH | 8820 / 0293 | Zimmerberg | 12/2023 ⚠ | [[marktdaten-gemeinden/zh-waedenswil-8820]] |
+| Luzern | LU | 6000 / 1061 | Luzern | 12/2023 ⚠ | [[marktdaten-gemeinden/lu-luzern-6000]] |
 | Einsiedeln | SZ | 8840 / 1301 | Einsiedeln | 12/2023 ⚠ | [[marktdaten-gemeinden/sz-einsiedeln-8840]] |
 
-⚠ = Datenstand älter als 18 Monate → vor Anwendung Marktpuls prüfen (T10). Weitere
-Fact Sheets liegen als PDF in `IMMO - 02 UBSFS` (Thalwil, Regensdorf, Luzern, Muri) —
-noch nicht kompiliert; bei Bedarf nachziehen und hier registrieren. Zwei UBS-FS-Generationen
-im Bestand: die **ältere Generation** (12/2023–7/2024, Format «Wald/Maur/Einsiedeln/Wädenswil»,
-mit Nachbargemeinden-/Regionen-Spektren und Bevölkerung/Beschäftigung/Steuern auf S. 5-12) und
-die **neuere** (12/2025, Format «Wangen/Zollikon»). Spaltenlogik der Quantile ist identisch.
+⚠ = Datenstand älter als 18 Monate → vor Anwendung Marktpuls prüfen (T10). **Alle 10
+verfügbaren UBS-FS sind nun kompiliert** (Stand 2026-06-14). Zwei Preis-Spannen im Bestand:
+**Premium-Seelagen ZH** (Thalwil EFH-Median 15'384, Zollikon noch höher) ↔ **ländliches
+Mittelzentrum** (Muri AG 7'978) — Faktor ~2 allein über die Lage; das ist der Vergleichswert-
+Befund «Lage als stärkster Treiber» ([[vergleichswert-hedonisch]]) quantifiziert. Zwei
+UBS-FS-Generationen: die **ältere** (12/2023–7/2024, Format «Wald/Maur/Thalwil/Muri/Regensdorf/
+Luzern/Einsiedeln/Wädenswil», mit Nachbargemeinden-/Regionen-Spektren und Bevölkerung/
+Beschäftigung/Steuern auf S. 5-12) und die **neuere** (12/2025, Format «Wangen/Zollikon»).
+Spaltenlogik der Quantile ist identisch.
 
 ## Lesehilfe (Spaltenlogik UBS-FS)
 

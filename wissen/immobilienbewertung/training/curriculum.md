@@ -43,10 +43,10 @@ Prioritaet**. Der Hauptfoliensatz (236 S.) ist damit vollstaendig eingearbeitet.
 | E1 | DXMA-Folien Erfolgsfaktoren | Erfolgsfaktoren-Detail (= komplettes Modul 4!) | erfolgsfaktoren-wettbewerb | ✓ 2026-06-10 (Run 2, 37 S.) |
 | E2 | Pre-Check-/Residualwert-XLSX (mit Freigabe) | Formel-Logik Tool | residualwertmethode, ertragswert-dcf | offen (Freigabe D4) |
 | E3 | schaetzungsanleitung_kap5.pdf | LK-Tabelle, Neuwert-Richtwerte, Abbruch, Mietkorrektur, Gastgewerbe | lageklasse-landwertanteil, realwert-sachwert, ertragswert-dcf, flaechendefinitionen-sia | ✓ **vollständig** (Run 2: Tab. 2/3/6/7/8/9/10/11/21/22/23; Run 3 2026-06-12: Tab. 12/13 Nutzflächen/RE, Tab. 14/15 Mietkorrektur, Tab. 25-28 Gastgewerbe). Tab. 29/30 Punktierung Real-/Verkehrswert quergelesen |
-| E4 | Hedonik-Standortreport + UBS-FS | Hedonik-Methodik, Quantile je Gemeinde | vergleichswert-hedonisch, marktdaten-gemeinden | teilweise ✓ 2026-06-12 (Run 3): WP-Standortreport-Aufbau (Langenthal) + UBS-FS-Glossar-Methodik; 4 Gemeinden kompiliert (Maur/Wald/Wädenswil/Einsiedeln). Offen: Hedonik-Modellfamilie, weitere Gemeinden |
-| E5 | IMMO-06 Kennwerte (DOCX, mit Freigabe) | Flaechen-/Kostenfaktoren Wohnen/Healthcare | flaechendefinitionen-sia, realwert-sachwert | offen |
-| E6 | IMMO-01 reale LB/RW/MA-Faelle | Referenz-Benchmarks | projektstruktur-deliverables | offen |
-| E7 | Marktpuls (Web, laufend) | Zins/Mietzins/Referenzzins aktuell | investorenmarkt-makro | offen |
+| E4 | Hedonik-Standortreport + UBS-FS | Hedonik-Methodik, Quantile je Gemeinde | vergleichswert-hedonisch, marktdaten-gemeinden | ✓ **vollständig** 2026-06-14 (Run 4): Hedonik-Modellfamilie (Wüest/IAZI/Fahrländer/PriceHubble) belegt + **alle 10 UBS-FS kompiliert** (neu Thalwil/Muri/Regensdorf/Luzern). (Run 3: WP-Standortreport + Glossar-Methodik + 4 Gemeinden) |
+| E5 | IMMO-06 Kennwerte (mit Freigabe) | Flaechen-/Kostenfaktoren Wohnen/Healthcare | flaechendefinitionen-sia, realwert-sachwert | teilweise ✓ 2026-06-14 (Run 4): Flächenkonzeption Wohnen (PDF, ohne DOCX-Freigabe) → JANS-Flächenfaktoren in flaechendefinitionen-sia. Offen: `_Kennwerte Jans.docx` + Healthcare-DOCX (Freigabe D8) |
+| E6 | IMMO-01 reale LB/RW/MA-Faelle | Referenz-Benchmarks | projektstruktur-deliverables | teilweise ✓ 2026-06-14 (Run 4): Fall-Register (Thalwil/Ebmatingen/Langnau/Wangen/Niederhasli) in projektstruktur-deliverables. Offen: Inhalts-/Kennwert-Auswertung einzelner LB-PDFs |
+| E7 | Marktpuls (Web, laufend) | Zins/Mietzins/Referenzzins aktuell | investorenmarkt-makro | teilweise ✓ 2026-06-14 (Run 4): Referenzzinssatz 1.25 % / SNB 0 % (06.2026) + SREBI Q2-2024 + Büromarkt ZH. Laufend: Mietpuls 2026, neuerer SREBI |
 
 ## Reihenfolge-Logik
 

@@ -1,8 +1,8 @@
 ---
 title: Vergleichswert / hedonische Bewertung
 status: established
-last_updated: 2026-06-12
-sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64)]
+last_updated: 2026-06-14
+sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026)]
 links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -84,6 +84,37 @@ für die Praxis: **UBS-FS** = schnelle Gemeinde-Faktenbasis (eine Seite je Nutzu
 Standortreport** = tiefere Zeitreihen + Bauland-Residualpreise + Objektgranularität nach
 Zimmerzahl.
 
+## Hedonik-Modellfamilie in der Schweiz (T7)
+
+Die hedonischen Standardanbieter in der Schweiz und ihre Gemeinsamkeiten (Web-Recherche
+06.2026 — die Reports nennen das zugrunde liegende Modell meist nicht explizit, daher diese
+Einordnung als Methoden-Kontext, `emerging`):
+
+- **Anbieter:** **Wüest Partner**, **IAZI** (Informations- und Ausbildungszentrum für
+  Immobilien), **Fahrländer Partner (FPRE)** und **PriceHubble** sind die etablierten
+  hedonischen Modellbetreiber; UBS, ZKB und die meisten Banken-Online-Tools rechnen mit einem
+  dieser Modelle im Hintergrund.
+- **Methodenkern (allen gemeinsam):** **Regressionsanalyse** über eine grosse Stichprobe
+  realisierter Transaktionen. Jede Objekteigenschaft erhält einen eigenen Preisbeitrag
+  («impliziter Preis»); aufsummiert ergeben sie den Schätzwert. Typisch **~70 Kriterien**
+  (Lage/Mikrolage, Wohnfläche, Zimmerzahl, Baujahr, Zustand/Ausbaustandard, Grundstück,
+  Aussicht/Besonnung). Das UBS-Modell wurde **1999 von Wüest Partner gemeinsam mit UBS
+  entwickelt** und stützt sich aktuell auf **> 20'000 Freihandtransaktionen pro Jahr**.
+- **Datengrundlage:** fast ausschliesslich **effektiv abgeschlossene Handänderungen** (nicht
+  Inserate), von Banken/Hypothekargebern bereitgestellt → höhere Genauigkeit als inseratsbasierte
+  Modelle. Unterschiede zwischen den Anbietern liegen primär in Datenpool und Modellspezifikation,
+  nicht im Prinzip.
+- **Einsatzgrenze (wichtig für die Verfahrenswahl):** das hedonische Modell ist nur für
+  **standardisierte selbstbewohnte Objekte (EFH, EW)** mit ausreichend Vergleichstransaktionen
+  belastbar. Für **Mehrfamilien-/Renditeobjekte, Gewerbe und atypische/Spezialobjekte** versagt
+  es (zu wenige vergleichbare Transaktionen, Wert ertragsgetrieben) → dort **Ertragswert/DCF**
+  ([[ertragswert-dcf]]) bzw. Realwert ([[realwert-sachwert]]) führend. Das deckt sich mit der
+  Gewichtungslogik in [[bewertungsverfahren-ueberblick]].
+- **JANS-Praxis:** die UBS-FS-Quantile (Gemeinde-Artikel) sind das hedonische Output-Surrogat
+  für den Markt-Check; der Bewerter positioniert das konkrete Objekt im Quantil (siehe
+  Mikrolage/Marktanspannung oben). Die Hedonik liefert die **Markteinordnung**, die finale
+  Objektbewertung bleibt Bewerterleistung (Zu-/Abschläge).
+
 ## Lage als staerkster Treiber
 
 Die Lage schlaegt am staerksten durch — formalisiert in der Lageklasse 1-10, die zugleich
@@ -95,8 +126,12 @@ eine Gemeinde: Web-Recherche (Stand notieren) oder Ableitung aus Nachbargemeinde
 - ✓ 2026-06-12 (T7 teilweise): WP-Standortreport-Aufbau + UBS-FS-Methodik (Glossar) belegt;
   Quantil-Tabellen für 6 Gemeinden kompiliert (Wangen/Zollikon/Maur/Wald/Wädenswil/Einsiedeln,
   siehe [[marktdaten-gemeinden/README]]).
-- Hedonik-Modellfamilie (IAZI vs. Wüest vs. Fahrländer) und konkrete Variablen-Gewichte
-  sauber belegen — die Reports nennen das zugrunde liegende Modell nicht explizit.
+- ✓ 2026-06-14 (T7): Hedonik-Modellfamilie (Wüest/IAZI/Fahrländer/PriceHubble), Methodenkern
+  (Regression, ~70 Kriterien, > 20'000 Handänderungen/Jahr) und Einsatzgrenze (nur EFH/EW)
+  belegt — siehe Abschnitt «Hedonik-Modellfamilie». Offen bleiben die konkreten Variablen-
+  Gewichte (von den Anbietern nicht offengelegt).
+- ✓ 2026-06-14 (T7): alle 10 UBS-FS kompiliert (neu Thalwil/Muri/Regensdorf/Luzern), siehe
+  [[marktdaten-gemeinden/README]].
 - Zu-/Abschlagslogik (Median → konkretes Objekt) als Checkliste formalisieren (Mikrolage,
   Zustand, Ausbau, Stockwerk/Aussicht).
 - Veraltete UBS-FS aktualisieren (Wald/Wädenswil/Einsiedeln Stand 2023-Q3, Maur 2024-Q1

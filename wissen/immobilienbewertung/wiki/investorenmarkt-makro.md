@@ -1,9 +1,9 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-09
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung]
-links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]]
+last_updated: 2026-06-14
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web)]
+links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
 # Investorenmarkt und Makrooekonomie
@@ -99,6 +99,74 @@ Theoretischer Rahmen: **DiPasquale/Wheaton 4-Quadranten-Modell** (1996): Nutzerm
   ~20'000 Whg.); **tiefe Zinsen treiben Preise**; **steigende Preise befeuern
   Produktion**; **hohe Baukosten hemmen Produktion** (2022: Baupreise +, Bewilligungen −).
 
+## UBS Swiss Real Estate Bubble Index (Blasenrisiko) — Q2-2024
+
+Der **UBS Swiss Real Estate Bubble Index** (UBS CIO GWM, vierteljährlich) misst das Risiko
+einer einschneidenden Preiskorrektur bei **Wohneigentum** (nicht Renditeobjekten). Stand
+**Q2-2024 = 0.74 Indexpunkte → Risiko «moderat»**, rückläufig (Vorquartal 0.95), und
+«signifikant tiefer als während der Immobilienblase zu Beginn der 1990er-Jahre» (Index-
+Höchstwert ~2.3 um 1989). ⚠ Indexstand Q2-2024 ist > 18 Mt. — als historischer Anker lesen,
+für aktuelle Risikoeinschätzung neueren SREBI beiziehen.
+
+**Methodik (durabel):** 6 standardisierte Subindizes fliessen **gleichgewichtet** ein,
+gruppiert in **vier Perspektiven**; Standardisierung rollend über 25 Jahre (Umfeld) bzw.
+gegen den langfristigen Durchschnitt. Risikokategorien nach Indexwert: Akut (>2), Erhöht
+(1–2), Moderat (0–1), Gering (<0).
+
+| Perspektive | Score Q2-2024 (Vorquartal) | Risiko | Indikatoren |
+|---|---|---|---|
+| **Fundament** | 1.73 (1.80) | erhöht | Preis-Miet- + Preis-Einkommens-Verhältnis (Fallhöhe der Preise) |
+| **Dynamik** | 0.17 (0.25) | moderat | reale Preisänderungsrate über 3 und 10 Jahre |
+| **Kosten** | 0.47 (0.65) | moderat | Nutzungskostenvergleich Kauf vs. Miete |
+| **Umfeld** | -0.81 (-0.54) | gering | Hypothekarvolumen-zu-Einkommen + Reinzugang am Bestand |
+
+Treiber des Rückgangs Q2-2024: sinkende Nutzungskosten (SNB-Leitzinssenkungen), geringes
+Wachstum der Hypothekarvolumen, abflauende Preisdynamik. Markt Q2-2024: Eigenheimpreise
+**+0.4 % QoQ** (schwächster Anstieg seit Anfang 2019), **+2.7 % YoY** (real +1.4 %);
+Angebotsmieten **+1.2 % QoQ / +6.4 % YoY**, Bestandesmieten +2.7 % YoY. **Mietdynamik weit
+über Preisdynamik** — drückt das Preis-Miet-Verhältnis (Fundament) nach unten.
+
+**Regionale Ungleichgewichte** (Preis-Einkommens-/Preis-Miet-Verhältnis, 5 Jahre): am
+stärksten verschlechtert in den Städten **Zürich, Lausanne, Genf** sowie am Genfersee; in der
+Deutschschweiz sonst nur unterdurchschnittliche Zunahme (Ausnahme **Limmattal**). **Zug**
+weist die stärkste Preissteigerungsrate auf; **Tourismusregionen Graubündens** durch
+Zweitwohnungsboom. → Für JANS relevant: die ZH-Premiumlagen (Stadt ZH, Zimmerberg/Pfannenstiel,
+vgl. [[marktdaten-gemeinden/README]]) tragen das höchste Fundament-Risiko; das passt zu den
+hohen Preis-Miet-Verhältnissen dort (Thalwil 45.7, Zollikon).
+
+## Marktpuls Zins/Referenzzinssatz (Stand 06.2026)
+
+Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
+
+- **Hypothekarischer Referenzzinssatz: 1.25 %** (BWO), unverändert seit dem 2. September 2025,
+  bestätigt per 2. Juni 2026. Erste Senkung seit Einführung war im März 2025 (von 1.75 % auf
+  1.50 %, dann auf 1.25 %) — Gegenbewegung zum Anstieg 2023 (1.25→1.50→1.75 %). Bei 1.25 %
+  besteht für Bestandesmieten **kein referenzzinsbedingter Erhöhungsanspruch**, eher
+  Senkungsanspruch für Mieten, die auf höheren Referenzwerten basieren. Quelle: BWO
+  (bwo.admin.ch/referenzzinssatz), Stand 06.2026.
+- **SNB-Leitzins: 0.00 %** (seit Mitte 2025 wieder bei null nach der Straffung 2022–2023).
+  Der Referenzzinssatz folgt dem Leitzins **stark verzögert** (Durchschnitt aller laufenden
+  Hypotheken, langjährige Festhypotheken), daher die Asymmetrie 0 % Leitzins ↔ 1.25 % Referenz.
+- **Bewertungsfolge:** tiefes Zinsniveau stützt Diskont-/Kapitalisierungssätze auf tiefem
+  Niveau → hohe Bewertungen halten; aber Mietsenkungsdruck via Referenzzins dämpft den
+  Bestandes-Cashflow ([[ertragswert-dcf]]).
+
+## Bueromarkt Zuerich (hbre/Savills 2024) — Geschaeftsflaechen-Kontext
+
+Ergänzend zu den Büro-/Verkaufsflächen-Quantilen der UBS-FS (in den Gemeinde-Artikeln):
+**Büromarkt Zürich 2024** (H&B Real Estate AG / Savills, 08.2024) — Befund für die
+Geschäftsflächen-Bewertung:
+
+- Tertiärsektor Stadt ZH: heute **~500'000 Beschäftigte**, Prognose Stadt ZH **bis 2050
+  580'000**. Zwei gegenläufige Trends: Flächenbedarf pro Mitarbeitenden sinkt (Home-Office,
+  Präsenz ~3–4 statt 5 Tage/Woche; Büro-Auslastung von 75–85 % (ZHAW 2016) auf eher ~50 %),
+  aber Beschäftigtenwachstum überwiegt → **Nachfrage flacht ab, Anstieg ab ~2030**.
+- **Kein Massenexodus** ins Home-Office; zentrale Lagen bleiben stark (Aufschwung Tech-/
+  Finanzsektor), Zürich West/Nord gefragt (Hightech, Nähe Ausbildungsstätten).
+- Höhere Anforderungen an **Ausbau/Ausstattung** (Gemeinschaftsflächen, Technik) und Trend zu
+  **Serviced Offices** (flexible Mietverträge, voll ausgestattet) — relevant für Ertragswert
+  und CapEx von Büroliegenschaften.
+
 ## Bewertungsrelevanz
 
 Das Zinsniveau steuert direkt den **Diskont-/Kapitalisierungssatz** ([[ertragswert-dcf]]) und
@@ -110,5 +178,8 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
 
 - ✓ 2026-06-09: Modul 3 vollstaendig eingearbeitet (Teilmaerkte/4-Quadranten, Zins-
   Wirkungskette, Eigentuemerstruktur, Renditen, Schluss-Merksaetze) (T3 erfuellt).
-- Aktueller Marktpuls Zins/Mietzins/Referenzzinssatz 2026 (T10) — die Kurszahlen sind
-  Stand 2022/23 und als historische Anker markiert.
+- ✓ 2026-06-14 (T10 teilweise + T14): Referenzzinssatz 1.25 % / SNB-Leitzins 0 % (Stand
+  06.2026) eingearbeitet; UBS SREBI Bubble Index Q2-2024 (4 Perspektiven, Methodik, regionale
+  Ungleichgewichte) und Bueromarkt-ZH-Kontext (hbre/Savills) ergaenzt.
+- T10 laufend: Mietpreis-/Angebotsmieten-Puls 2026 und neuerer SREBI-Stand fehlen noch; die
+  Wuest-Kurszahlen bleiben Stand 2022/23 (historische Anker).

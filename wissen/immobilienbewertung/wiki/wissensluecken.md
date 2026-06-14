@@ -22,13 +22,26 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T7 | Hedonik-Methodik (Modellfamilie IAZI/Wüest/Fahrländer) + weitere UBS-FS-Gemeinden | IMMO-02, Standortreport | [[vergleichswert-hedonisch]] |
-| T8 | Flaechenfaktoren Wohnen (aGF/BGF/HNF) belegen | Flaechenkonzeption Wohnen | [[flaechendefinitionen-sia]] |
-| T9 | Reale JANS-Projektfaelle als Referenz-Benchmarks erfassen | IMMO-01 LB/RW/MA | [[projektstruktur-deliverables]] |
-| T10 | Marktpuls Zins/Mietzins/Referenzzinssatz (laufend, mit Stand) | Web + Wuest | [[investorenmarkt-makro]] |
-| T14 | UBS SREBI Bubble Index Q2-2024 (Blasenrisiko-Karte) einarbeiten | `srebi-q2-2024-de.pdf` | [[investorenmarkt-makro]], [[datenquellen-registry]] |
+| T10 | Marktpuls **Mietzins/Angebotsmieten** 2026 + neuerer SREBI-Stand (Zins/Referenz 06.2026 erledigt) | Web + Wuest | [[investorenmarkt-makro]] |
+| T9b | Inhalts-/Kennwert-Auswertung einzelner LB-PDFs (effektive m²/Marktwerte als Benchmark) | IMMO-01 LB/RW/MA | [[projektstruktur-deliverables]] |
+| T7b | Zu-/Abschlagslogik Median→Objekt als Checkliste formalisieren | — | [[vergleichswert-hedonisch]] |
 
 ## Erledigt
+
+- ✓ 2026-06-14 **T7** (Hedonik-Modellfamilie Wüest/IAZI/Fahrländer/PriceHubble, Methodenkern
+  Regression/~70 Kriterien/>20'000 Handänderungen, Einsatzgrenze nur EFH/EW) + **alle 10 UBS-FS
+  kompiliert** (neu Thalwil/Muri/Regensdorf/Luzern) → [[vergleichswert-hedonisch]],
+  [[marktdaten-gemeinden/README]] (Run 4).
+- ✓ 2026-06-14 **T8** JANS-Flächenfaktoren Wohnen (HNF/Baumasse 0.20, GF/Baumasse 0.33,
+  HNF/GF 0.60 ganzes Gebäude / 0.75 Regelgeschoss + Wohnungsmix-Benchmark) belegt aus
+  Flächenkonzeption Wohnen (20.10.2024) → [[flaechendefinitionen-sia]] (Run 4).
+- ✓ 2026-06-14 **T9** Reale JANS-Bewertungsfälle als Referenz-Benchmark-Register erfasst
+  (Thalwil 9568 LB+RW+MA, Ebmatingen 3932 LB+RW tief/hoch, Langnau, Wangen, Niederhasli CS) →
+  [[projektstruktur-deliverables]] (Run 4).
+- ✓ 2026-06-14 **T10 (teilweise)** Referenzzinssatz 1.25 % / SNB-Leitzins 0 % (Stand 06.2026)
+  → [[investorenmarkt-makro]]; Mietpuls 2026 bleibt offen (Run 4).
+- ✓ 2026-06-14 **T14** UBS SREBI Bubble Index Q2-2024 (0.74 «moderat», 4 Perspektiven,
+  Methodik, regionale Ungleichgewichte) → [[investorenmarkt-makro]] (Run 4).
 
 - ✓ 2026-06-12 **T13** Mietwert-Korrekturfaktoren (Tab. 14 Punktesystem + Bauweise/Alter/
   Heizung, Tab. 15 Kriterienraster ±9 %) + Gastgewerbe-Umsatzmiete (Tab. 25-28) eingearbeitet

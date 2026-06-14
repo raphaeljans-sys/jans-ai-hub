@@ -1,8 +1,8 @@
 ---
 title: Flaechendefinitionen (SIA 416 / SIA 416/1)
 status: established
-last_updated: 2026-06-12
-sources: [SIA 416 Flaechen und Volumen von Gebaeuden, IMMO-03 FLÄCHENBEZEICHNUNG/sia, IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
+last_updated: 2026-06-14
+sources: [SIA 416 Flaechen und Volumen von Gebaeuden, IMMO-03 FLÄCHENBEZEICHNUNG/sia, IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
 links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]]
 ---
 
@@ -36,11 +36,35 @@ und Volumen von Gebaeuden); fuer Flaechenbedarf/Programm ergaenzend SIA 416/1 un
 Fuer die Bewertung gilt: Mietertrag und Verkaufspreis beziehen sich meist auf **HNF bzw.
 Wohnflaeche**, Baukosten auf **BGF/GF bzw. m3 (GV)**. Immer die Bezugsflaeche mit angeben.
 
-## Faustwerte Wohnen (zu verifizieren)
+## JANS-Flaechenfaktoren Wohnen (belegt)
 
-Aus `IMMO-06 WOHNEN Baumasse / Flaechenkonzeption Wohnen` sind aGF↔BGF↔HNF-Faktoren
-abgelegt (z.B. HNF ~ 80 % aGF bei EFH). Die genauen JANS-Faktoren sind noch zu extrahieren
-und zu belegen → `wiki/wissensluecken.md`.
+Raphaels eigene Arbeits-Benchmarks aus der **«Flächenkonzeption Wohnen»**
+(`IMMO-06 WOHNEN Baumasse`, R. Jans 20.10.2024, Fallbeispiel Haselstudstrasse 12, Wald —
+Volumenstudie STWE). Diese Faktoren übersetzen ein **Bauvolumen (m³ GV/Baumasse)** rasch in
+erwartbare Flächen und Wohnungszahlen in der frühen Studienphase (Schnittstelle zu
+`machbarkeit`/`volumenstudie`):
+
+| Faktor | Wert | Bezug |
+|---|---|---|
+| **HNF zu Baumasse** | **0.20** | HNF ≈ 0.20 × m³ Baumasse |
+| **GF zu Baumasse** | **0.33** | Geschossfläche ≈ 0.33 × m³ Baumasse |
+| **HNF zu GF (ganzes Gebäude)** | **0.60** | über alles inkl. Sockel/Attika |
+| **HNF zu GF (pro Regelgeschoss)** | **0.75** | nur Regelgeschoss (effizienter als Mittel) |
+| Baumassenziffer Hauptgebäude (Fallbeispiel) | 2.4 m³/m² | Grundstück × BMZ = zul. Baumasse |
+
+**Rechenkette (Beispiel):** 5'915 m³ Baumasse → GF ≈ 5'915 × 0.33 = **1'970 m²** → HNF ≈
+5'915 × 0.20 = **1'183 m²**. Über die zulässige Gebäudehöhe gegenrechnen: 5'915 m³ / 14 m
+(Flachdach) = **422 m² GF/Geschoss**, davon HNF ≈ 422 × 0.75 = **315 m²/Regelgeschoss**.
+
+**Wohnungsmix-Benchmark (JANS):** Standard-Wohnungstypen 55 m² (2.5 Zi) / 80 m² (3.5 Zi) /
+100 m² (4.5 Zi); im Fallbeispiel mündet das in **15–16 Wohnungen** auf ~4 Regelgeschosse
+(Sockel- und Attikageschoss inkl.). Faustwert GF je Wohnung ≈ HNF / 0.75 (Regelgeschoss):
+2.5-Zi-Whg 55 m² HNF ≈ 91 m² GF, 3.5-Zi 80 m² ≈ 133 m² GF, 4.5-Zi 100 m² ≈ 166 m² GF.
+
+Konsistenz-Check der Faktoren: HNF/GF = 0.20/0.33 = **0.61** ≈ der angegebene 0.60-Wert übers
+ganze Gebäude → in sich stimmig. Diese JANS-Faktoren ergänzen (und sind gröber als) die
+amtliche Nutzflächen-Anrechnung unten; für Vorstudien/Volumen-zu-Wohnungen sind sie der
+schnelle Weg.
 
 ## Volumen
 

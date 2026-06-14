@@ -19,12 +19,14 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | Hedonik-Beispielreport | `03 KNOW-HOW/05 Hedonistische_Berechnungsweise/Standortinformation_Beispiel_Report.pdf` (13 S., WP Langenthal 21.06.2023) | PDF | 06.2023 | **eingearbeitet** (Run 3 2026-06-12): WP-Standortreport-Aufbau (Quantil-Preisspektren Wohnen/Geschäft + Bauland residualmodelliert + Datengrundlagen-Anhang) → vergleichswert-hedonisch | vergleichswert-hedonisch |
 | Abzinsung/Diskontierung | `03 KNOW-HOW/03 Abzinsung/Disskontierung/` | docx+png | 2023 | teilweise | ertragswert-dcf |
 | Flaechenbezeichnung SIA | `03 KNOW-HOW/07 FLÄCHENBEZEICHNUNG/sia/` | div. | — | teilweise | flaechendefinitionen-sia |
-| UBS Fact Sheets (10 Gemeinden) | `02 UBSFS/` | PDF | 2212-2512 | teilweise — **6 eingearbeitet**: Wangen (SZ) 12/2025, Zollikon (ZH) 12/2025, Maur (ZH) 7/2024, Wald (ZH) 12/2023, Wädenswil (ZH) 12/2023, Einsiedeln (SZ) 12/2023 (kompiliert in wiki/marktdaten-gemeinden/). Offen: Thalwil, Regensdorf, Luzern, Muri. ⚠ 2023/24-Stände > 18 Mt. | datenquellen-registry, vergleichswert-hedonisch, marktdaten-gemeinden/* |
-| UBS Swiss Real Estate Bubble Index | `02 UBSFS/srebi-q2-2024-de.pdf` | PDF | Q2-2024 | offen | datenquellen-registry, investorenmarkt-makro |
+| UBS Fact Sheets (10 Gemeinden) | `02 UBSFS/` | PDF | 2212-2512 | **alle 10 eingearbeitet** (Run 4 2026-06-14: + Thalwil 7/2024, Muri AG 7/2024, Regensdorf 12/2023, Luzern 12/2023; zuvor Wangen/Zollikon 12/2025, Maur 7/2024, Wald/Wädenswil/Einsiedeln 12/2023). Kompiliert in wiki/marktdaten-gemeinden/. ⚠ 2023/24-Stände > 18 Mt. | datenquellen-registry, vergleichswert-hedonisch, marktdaten-gemeinden/* |
+| UBS Swiss Real Estate Bubble Index | `02 UBSFS/srebi-q2-2024-de.pdf` | PDF | Q2-2024 | **eingearbeitet** (Run 4 2026-06-14): Index 0.74 «moderat», 4 Perspektiven + Methodik + regionale Ungleichgewichte → investorenmarkt-makro (T14) | datenquellen-registry, investorenmarkt-makro |
+| Flächenkonzeption Wohnen | `06 Kennwerte/WOHNEN Baumasse/Flächenkonzeption Wohnen.pdf` | PDF | 20.10.2024 | **eingearbeitet** (Run 4 2026-06-14): JANS-Flächenfaktoren HNF/GF/Baumasse 0.20/0.33/0.60/0.75 + Wohnungsmix-Benchmark → flaechendefinitionen-sia (T8) | flaechendefinitionen-sia |
+| Bueromarkt Zürich (hbre/Savills) | `06 Kennwerte/BUERO/hbre Analyse Zürich Büromarkt 082024.pdf` | PDF | 08.2024 | **eingearbeitet** (Run 4 2026-06-14): Tertiär ZH 500'000→580'000 bis 2050, Flächenbedarf-Trends, Serviced Offices → investorenmarkt-makro | investorenmarkt-makro, datenquellen-registry |
 | Marktpreis-Quellen | `04 Marktpreise/` (12 Quellen) | div. | 2011-2026 | teilweise | datenquellen-registry |
 | Bodenpreise | `05 Bodenpreise/` | png+pdf | 2023-2025 | teilweise | datenquellen-registry, lageklasse-landwertanteil |
 | Kennwerte (Wohnen/Healthcare/Buero) | `06 Kennwerte/` | docx+pdf+png | 2024-2025 | teilweise | datenquellen-registry |
-| JANS-Projektfaelle (LB/RW/MA/CS) | `01 Projekte/01 BEWERTUNG PROJEKTE/` | indd+pdf+xlsx | 2024-2025 | teilweise | projektstruktur-deliverables |
+| JANS-Projektfaelle (LB/RW/MA/CS) | `01 Projekte/01 BEWERTUNG PROJEKTE/` | indd+pdf+xlsx | 2024-2025 | teilweise — **Fall-Register eingearbeitet** (Run 4 2026-06-14): Thalwil 9568 (LB+RW+MA), Ebmatingen 3932 (LB+RW tief/hoch), Langnau 3338, Wangen, Niederhasli CS → projektstruktur-deliverables (T9). Offen: Inhalts-/Kennwert-Auswertung einzelner LB-PDFs | projektstruktur-deliverables |
 
 ## Naechste Ingest-Schritte (durch Trainingsprogramm)
 
