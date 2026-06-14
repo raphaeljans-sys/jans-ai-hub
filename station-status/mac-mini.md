@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.06.2026 07:46:19
+Stand: 14.06.2026 07:56:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 14.06.2026 07:46:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3cfc4fd nas-selfcommit: 8 Datei(en) 2026-06-14 07:45
+- 51d4113 baurecht-buch-training Run 5: Kap. 15 Teil 2b — Baulinien-Rechtswirkungen §§99-101 + Strassen-/Wegabstand §§264-267 (S.1034-1061)

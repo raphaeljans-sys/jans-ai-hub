@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.06.2026 07:43:37
+Stand: 14.06.2026 07:53:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 14.06.2026 07:43:37
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5baabf0 nas-selfcommit: 2 Datei(en) 2026-06-14 07:30
+- 51d4113 baurecht-buch-training Run 5: Kap. 15 Teil 2b — Baulinien-Rechtswirkungen §§99-101 + Strassen-/Wegabstand §§264-267 (S.1034-1061)
