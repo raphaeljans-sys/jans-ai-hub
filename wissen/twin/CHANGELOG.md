@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-14 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Sent Items rj@, Nov 2025, authentisch)
+- Drei frische, bisher nicht analysierte vor-Claude-Goldproben gezogen, weit gestreut:
+  A Behörden-Vorabklärung Vordach (formell-Sie, Bauamt Thalwil, 2025-11-20),
+  B 3D-Freelancer-Steuerung «Hallo Yorck» (Du, C4D-Asset-Pipeline, 2025-11-25),
+  C kalte Lieferanten-/Produktanfrage Lüftungssteine (Sie, «Guten Tag», 2025-11-17).
+- Twin-Fassungen rein aus den Facetten-Wikis erzeugt, gegen Gold gescort.
+  **Gesamt-Fidelity 84/100** (stabil ggü. 260612). Scores: Stimme 84 · Denken 83 · Haltung 86
+  · Beziehung 84 · Fachsignatur **76** (grösster Drift) · Arbeitsweise 88.
+- Headline-Befund: **dritte Fachsäule freigelegt — digitale 3D-/Visualisierungs-Produktion**
+  (C4D/Corona, FBX/.fbm, pfadbasierte Texturen, Asset-Sammlung, Soll-Ordnerstruktur,
+  didaktischer Schritt-für-Schritt). Bisher kannte das Wiki nur Baurecht + Design/Handwerk.
+- Eingearbeitet (authentisch): [[fachsignatur]] dritte Säule + Behörden-**Doppelquellen-
+  Gegenüberstellung** (Kanton § 6c ABV vs. Kommentar S. 1069 + Rechtsprechung, Belege anhängen)
+  + Produkt-Sourcing über Referenzbauten; [[stimme]]/[[beziehungsregister]] **«Hallo <Vorname>»**
+  als vierte Peer-Du-Stufe (deutschsprachige Dienstleister); [[stimme]] «Ich ersuche um»;
+  [[denken]] Doppelquellen-Zwang zur Behörden-Position. Do/Don't-Blöcke + Echo-Schutz-Hinweis
+  (Software-Tiefe nur belegt) aktualisiert.
+- Gegenseitige Validierung: keine neue ungelöste Spannung (dritte Säule additiv, stützt
+  Arbeitsweise); Echo-Kalibrierungsfrage (Tutorial-Tiefe) nach QUESTIONS.
+- twin-fragesteller: 5 neue Fragen Runde 260614 in QUESTIONS.md (3D-Pipeline-Tiefe, «Hallo»-
+  Schwelle, Quellengegenüberstellung, ROI-Rahmung, Produkt-Sourcing).
+- Gehirn `rules/jans-dna.md` neu kompiliert (build_dna.py, 6 Facetten).
+
 ## 2026-06-13 — twin-mail-training: Mailbatch 04 (Sent Items rj@, 2025-08-04…08, authentisch)
 - Sequentieller Sweep fortgesetzt: 15 Mails gesichtet (Offset 45–59 von 1'008), 5 Volltexte
   destilliert, 3 MS-Support-Threads ignoriert. Projekt Wald/Averecura (Nova Property) + Niederhasli.

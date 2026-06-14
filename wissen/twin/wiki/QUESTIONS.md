@@ -3,6 +3,39 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260614 (twin-fragesteller, aus Fidelity-Review 2026-06-14)
+
+Quelle: Drift-Report `outputs/2026-06-14_fidelity.md` (Gesamt-Fidelity 84; schwächste Facette
+Fachsignatur 76 — neu freigelegte dritte Säule: digitale 3D-/Visualisierungs-Produktion). Je
+in 1–2 Sätzen beantwortbar.
+
+1. **3D-Pipeline-Tiefe (Echo-Kalibrierung):** Bei 3D-/Render-/Software-Themen (C4D, Corona,
+   FBX-Pfade, Asset-Ablage) hast Du eine ganze Anleitung geschrieben. Soll der Zwilling diese
+   Software-Tiefe **selbst ausformulieren** (Schritt-für-Schritt-Tutorial), oder nur die
+   **Struktur/Ablage vorgeben** und das technische Detail Dir/dem Freelancer überlassen?
+   *Warum: zieht die Grenze zwischen echter dritter Fachsäule und tool-assistiertem Detail —
+   schützt vor Echo.* → [[fachsignatur]]
+2. **«Hallo» vs. «Hoi» vs. «Lieber»:** Du beginnst Mails an deutschsprachige Dienstleister mit
+   «Hallo <Vorname>», an vertraute Kontakte mit «Hoi», an warme mit «Lieber». Was entscheidet
+   «Hallo» statt «Hoi» — Distanz/Neuheit der Beziehung, oder ein sachlich-neutraler Ton
+   unabhängig von der Vertrautheit? *Warum: kalibriert die neu erfasste vierte Peer-Du-Stufe.*
+   → [[stimme]], [[beziehungsregister]]
+3. **Quellengegenüberstellung als Standardzug:** Bei strittigen Behördenfragen stellst Du zwei
+   belegte Auslegungen (Kanton vs. Gemeinde) gegenüber und zwingst die Behörde zur Wahl. Machst
+   Du das immer, wenn die Praxis unklar ist, oder nur, wenn Du eine bestimmte Lesart
+   durchsetzen willst? *Warum: macht den schärfsten Vorabklärungs-Zug operationalisierbar.*
+   → [[denken]], [[fachsignatur]]
+4. **ROI-Rahmung gegenüber Dienstleistern:** Gegenüber dem 3D-Freelancer rahmst Du die
+   Zusammenarbeit als «auf dem investierten Kapital aufbauen». Ist dieses Investitions-/
+   Renditedenken Dein bewusster Steuerungshebel auch bei kreativen Zulieferern, oder war es
+   hier anlassbezogen? *Warum: klärt, wie weit die Investorenlogik in die Freelancer-Führung
+   trägt.* → [[haltung]], [[arbeitsweise]]
+5. **Produkt-Sourcing über Referenzbauten:** Du identifizierst Bauprodukte über die Projekte,
+   in denen Du sie gesehen hast (Lüftungssteine via Krameracker/Hotel Leo). Ist das Deine
+   Standard-Recherchetechnik für Spezialprodukte, und führst Du dazu eine Sammlung
+   «gesehen-bei»-Referenzen? *Warum: belegt eine konkrete Beschaffungs-Methodik.*
+   → [[fachsignatur]], [[arbeitsweise]]
+
 ## Offen — Runde 260612 (twin-fragesteller, aus Fidelity-Review 2026-06-12)
 
 Quelle: Drift-Report `outputs/2026-06-12_fidelity.md` (Gesamt-Fidelity 84; schwächste

@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-13
+last_updated: 2026-06-14
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -47,7 +47,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Apostroph-Zahlen; warmer, anbietender Schluss; Gruss nach Mail-Typ wählen (operativ →
   Kurzgruss «Lieber Gruss»/«Lgr.», dokumentierend → «Freundliche Grüsse» + voller Block, auch
   bei «Hoi»); «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe für freundlich-persönliche
-  Kontakte; «Guten Morgen»/«Guten Abend <Vorname>» als Tageszeit-Anreden im Du; ein **😊**
+  Kontakte; «Hallo <Vorname>» als neutral-freundlicher Du-Einstieg (deutschsprachige
+  Dienstleister, zwischen «Hoi» und «Lieber»); «Ich ersuche um» als förmliche
+  Behörden-Eröffnung neben «Darf ich Sie bitten»; «Guten Morgen»/«Guten Abend <Vorname>» als Tageszeit-Anreden im Du; ein **😊**
   (oder ASCII «:)») NUR in der warm-sozialen Privat-Du-Mail, sparsam; in der **rein
   privat-sozialen, branchenfernen** Einladung darf der ganze Ton **Mundart** sein
   («Grüzi liebi …», «en Kafi verbi», «Liebe Gruess»), wenn das Gegenüber Mundart spiegelt.
@@ -241,7 +243,18 @@ Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «He
   Operativ-Mails); Gruss «Lieber Gruss» 2× (Du-operativ); keine Apostroph-Zahlen («CHF 11K»
   statt 11'000) noch Ellipsen — registerbedingt.
 
+## «Hallo <Vorname>» als neutral-freundliche Du-Anrede + «Ich ersuche um» (belegt Fidelity 260614, authentisch)
+- **«Hallo <Vorname>,»** als Du-Einstieg für **deutschsprachige Dienstleister/Freelancer** —
+  freundlich, aber etwas neutraler/reservierter als «Hoi», deutlich unter «Lieber» (belegt:
+  Steuerung 3D-Freelancer, 2025-11-25 «Hallo Yorck,»; im selben Faden später ins vertrautere
+  «Hoi York» rutschend). Reiht sich in die Peer-Du-Skala ein: **Hey (saloppst) · Hoi
+  (vertraut-operativ) · Hallo (neutral-freundlich) · Lieber (warm)**. Feinkalibrierung →
+  [[QUESTIONS]].
+- **«Ich ersuche um eine Klärung …»** als gehoben-förmliche Vorabklärungs-Eröffnung gegenüber
+  Behörden, neben dem bekannten «Darf ich Sie bitten» (belegt 2025-11-20). Etwas amtlicher,
+  wenn eine verbindliche Auskunft erzwungen werden soll.
+
 ## Lücken → [[QUESTIONS]]
-Feinunterschied «Hoi» vs. «Lieber» vs. «Hey» (drei Peer-Du-Stufen); Englisch bei rein
-technischer Aerospace-Korrespondenz (bislang nur Architektur-Freelancer belegt);
+Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei
+rein technischer Aerospace-Korrespondenz (bislang nur Architektur-Freelancer belegt);
 Mundart-Schwelle (wann kippt eine Du-Mail von Hochdeutsch in Mundart).
