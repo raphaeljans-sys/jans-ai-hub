@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-06-12
+last_updated: 2026-06-14
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -120,3 +120,38 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   **§ 100 Abs. 1 PBG** bzw. Dispens **§ 220 PBG** (Bd 2, S. 1024 f.). *Hinweis (Gegensatz):* anders
   als bei der **Waldabstandslinie**, die unterirdische Bauteile freistellt (S. 1000). Beleg
   vollstaendig — keine Wissensluecke. ✅
+
+## Kap. 15 Teil 2b — Baulinien-Rechtswirkungen & Strassen-/Wegabstand
+
+- **F:** Welcher Strassenabstand gilt fuer ein oberirdisches Wohngebaeude, wenn KEINE Verkehrs-
+  baulinie besteht? — **A:** **6 m gegenueber Strassen/Plaetzen**, **3,5 m gegenueber Wegen**
+  (§ 265 Abs. 1 PBG, subsidiaer ueber § 264 PBG; Bd 2, S. 1048, 1050). Besteht eine Baulinie, geht
+  **sie** vor. _[2026-06-14]_
+- **F:** Gilt der Strassenabstand auch fuer eine Tiefgarage? — **A:** Nein — § 265 PBG erfasst nur
+  **oberirdische** Gebaeude (> 50 cm ueber gewachsenem Boden); unterirdisch ist strassenabstandsfrei.
+  **Aber:** eine **Baulinie** darf die TG trotzdem nicht ueberschreiten (§ 99 PBG; Bd 2, S. 1051).
+  _[2026-06-14]_
+- **F:** Wie weit darf ein Erker ueber eine Baulinie ragen, und mit welcher Folge? — **A:** Einzelne
+  oberirdische Gebaeudevorspruenge bis **1,5 m** ueber die Baulinie, aber **entschaedigungslos
+  beseitigbar** bei Strassenausbau (§ 100 Abs. 1 PBG); i. d. R. ≤ 1/3 Fassadenlaenge (Bd 2, S. 1038 f.).
+  _[2026-06-14]_
+- **F:** Darf ein baulinienwidriges Einfamilienhaus aufgestockt werden? — **A:** Unterhalt/
+  Modernisierung sind frei (§ 101 Abs. 1 PBG); eine **Aufstockung/Dachstockausbau** ist als
+  weitergehende Vorkehr **nur beschraenkt und mit Mehrwertrevers** zulaessig, wenn die Durchfuehrung
+  der Baulinie nicht erschwert wird (§ 101 Abs. 2 PBG; BEZ 2013 Nr. 21; Bd 2, S. 1046 f.). _[2026-06-14]_
+- **F:** Wie lang muss der Vorplatz vor einer Garage mindestens sein? — **A:** So lang wie der
+  groesste Einstellplatz, **mindestens 5,5 m**, und zwar **ohne Ruecksicht auf Verkehrsbaulinien**
+  (§ 266 PBG; BEZ 2008 Nr. 11; Bd 2, S. 1043). _[2026-06-14]_
+
+### Modell A — Frage→Beleg-Drill (typische Buerofrage, 2026-06-14)
+- **Frage:** «Unsere Parzelle grenzt an eine Quartierstrasse ohne eingetragene Baulinie. Wie weit
+  muss das neue MFH von der Strasse abruecken — und darf der Balkon naeher ran?» — **Antwort nur
+  mit Buchbeleg:** Fehlt eine Verkehrsbaulinie, gilt subsidiaer der Regelabstand **§ 265 Abs. 1 PBG**:
+  **6 m** gegenueber einer Strasse (Verkehrsflaeche, die > 10/30 Wohneinheiten erschliesst, Anhang ZN;
+  bei blossem Zufahrtsweg bis 30 WE nur **3,5 m**), gemessen ab der Strassengrenze inkl. Trottoir/
+  Schutzstreifen (§ 267 PBG). Der **Balkon** ist nicht voll abstandspflichtig: § 265 PBG enthaelt zwar
+  keine eigene Erleichterung, doch gilt die Abstandsprivilegierung **§ 260 Abs. 3 PBG** sinngemaess
+  (VB.2013.00324 E. 5.2; BEZ 2012 Nr. 54), sodass ein untergeordneter Vorsprung (≤ 1/3 Fassade) naeher
+  ragen darf. (Bd 2, S. 1048-1051.) Beleg vollstaendig — keine Wissensluecke. ✅
+  *Offen geblieben (Folgefrage Nachbar):* der **Grenzabstand** zum Nachbargrundstueck (§§ 269-270 PBG)
+  ist noch nicht distilliert → naechster Lauf.

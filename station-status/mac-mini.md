@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.06.2026 07:26:11
+Stand: 14.06.2026 07:36:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 14.06.2026 07:26:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 25caca3 immobewertung-training Run 4: alle 10 UBS-FS + SREBI + Hedonik-Modellfamilie + JANS-Flaechenfaktoren
+- 5baabf0 nas-selfcommit: 2 Datei(en) 2026-06-14 07:30

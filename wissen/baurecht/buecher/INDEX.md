@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-12
+last_updated: 2026-06-14
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -29,8 +29,14 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **Uferstreifen-Messweise**, dicht ueberbautes Gebiet (Art. 41c GSchV), Besitzstand/Brandstattrecht
   (§ 15m HWSchV vor § 307/§ 357 PBG), **Gewaesserabstandslinien § 67 PBG**, Hochwasser-Gefahren-
   bereiche (WWG/WBV), **Baulinien-Arten § 96 PBG** + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG.
-  20 Doppelseiten. Status: `emerging` (Grenz-/Gebaeudeabstand-Zahlenwerk §§ 263-274 offen, Shots ab 521).
+  20 Doppelseiten. Status: `emerging` (Grenz-/Gebaeudeabstand-Zahlenwerk §§ 269-274 offen, Shots ab 535).
   Speist [[abstaende-und-hoehen]] + [[gebaeudearten-und-abstandssystem]] + [[baulinien-und-abstandslinien]].
+- [[15-lage-von-gebaeuden-teil2b]] — Kap. 15 Teil 2b (S. 1034-1061): **Baulinien-Rechtswirkungen**
+  (Bauverbot § 99, Vorspruenge 1,5 m § 100 Abs. 1, weitergehende Beanspruchung + Beseitigungsrevers
+  § 100 Abs. 3, baulinienwidriger Bestand § 101, Ueberpruefungsanspruch § 110a, Gebaeudeabstand ueber
+  Strasse § 272) + **Strassen-/Wegabstand** (subsidiaer § 264; **6 m Strasse / 3,5 m Weg** § 265, nur
+  oberirdisch; Strassengrenze § 267; Garagenvorplatz 5,5 m § 266; Mauern/Pflanzen StrAV). 14 Doppel-
+  seiten. Status: `emerging` (Grenz-/Gebaeudeabstand §§ 269-274 offen). Speist [[baulinien-und-abstandslinien]].
 
 - [[kap16-10_gebaeudedimensionen-harmonisierung]] — Kap. 16.10 (S. 1230-1239, ECHTE Seiten):
   Gebaeudedimensionen nach **Harmonisierungsvorlage (nPBG/IVHB)** — Geschossarten,
@@ -50,7 +56,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | Kap | Titel | Abdeckung |
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
-| 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Gewaesserabstandslinien/Baulinien-Arten S.995-1033; Grenz-/Gebaeudeabstand-Zahlenwerk §§263-274 offen) |
+| 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien-Arten S.995-1033 + Baulinien-Rechtswirkungen §§99-101 / Strassen-/Wegabstand §§264-267 S.1034-1061; Grenz-/Gebaeudeabstand §§269-274 offen) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
 | 1-13, 17-23 | uebrige | ⬜ offen |
 

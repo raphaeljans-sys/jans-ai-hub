@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-06-10
+last_updated: 2026-06-14
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -536,20 +536,20 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 518 | 2 | ~1031 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.25.jpg` | [15-lage-von-gebaeuden](band-2/15-lage-von-gebaeuden.md) |
 | 519 | 2 | ~1033 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.26.jpg` | [15-lage-von-gebaeuden](band-2/15-lage-von-gebaeuden.md) |
 | 520 | 2 | ~1035 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.27.jpg` | [15-lage-von-gebaeuden](band-2/15-lage-von-gebaeuden.md) |
-| 521 | 2 | ~1037 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.29.jpg` |  |
-| 522 | 2 | ~1039 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.30.jpg` |  |
-| 523 | 2 | ~1041 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.32.jpg` |  |
-| 524 | 2 | ~1043 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.33.jpg` |  |
-| 525 | 2 | ~1045 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.34.jpg` |  |
-| 526 | 2 | ~1047 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.36.jpg` |  |
-| 527 | 2 | ~1049 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.37.jpg` |  |
-| 528 | 2 | ~1051 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.39.jpg` |  |
-| 529 | 2 | ~1053 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.40.jpg` |  |
-| 530 | 2 | ~1055 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.41.jpg` |  |
-| 531 | 2 | ~1057 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.43.jpg` |  |
-| 532 | 2 | ~1059 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.44.jpg` |  |
-| 533 | 2 | ~1061 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.46.jpg` |  |
-| 534 | 2 | ~1063 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.47.jpg` |  |
+| 521 | 2 | 1034 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.29.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 522 | 2 | 1036 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.30.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 523 | 2 | 1038 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.32.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 524 | 2 | 1040 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.33.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 525 | 2 | 1042 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.34.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 526 | 2 | 1044 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.36.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 527 | 2 | 1046 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.37.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 528 | 2 | 1048 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.39.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 529 | 2 | 1050 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.40.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 530 | 2 | 1052 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.41.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 531 | 2 | 1054 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.43.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 532 | 2 | 1056 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.44.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 533 | 2 | 1058 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.46.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
+| 534 | 2 | 1060 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.47.jpg` | [15-teil2b](band-2/15-lage-von-gebaeuden-teil2b.md) |
 | 535 | 2 | ~1065 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.49.jpg` |  |
 | 536 | 2 | ~1067 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.50.jpg` |  |
 | 537 | 2 | ~1069 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.51.jpg` |  |

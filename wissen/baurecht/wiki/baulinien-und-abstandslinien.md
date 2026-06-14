@@ -1,9 +1,9 @@
 ---
 title: Baulinien und Abstandslinien — Kanton Zürich
 status: emerging
-last_updated: 2026-06-12
-sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238 Abs. 3 PBG", "§ 357 PBG", "§ 15m HWSchV", "Buch Bd 2 S. 1022-1033"]
-links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[zonenkonformitaet]], [[raumplanung-und-gestaltung]]
+last_updated: 2026-06-14
+sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 110a PBG", "§ 220 PBG", "§ 238 Abs. 3 PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV", "§ 15m HWSchV", "Buch Bd 2 S. 1022-1061"]
+links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2b]], [[zonenkonformitaet]], [[raumplanung-und-gestaltung]]
 ---
 
 # Baulinien und Abstandslinien
@@ -33,15 +33,46 @@ Sie wirken **grundeigentümerverbindlich** wie ein Bauverbot bis zur Linie und k
   nötigen **Sichtbereich** und kann ästhetische Funktionen erfüllen (BEZ 1986 Nr. 44).
   Näherbaurecht innerhalb der Linie nach **§ 105 PBG**; Vorgärten § 238 Abs. 3 PBG.
 - **Rechtswirkung (§§ 99-101 PBG):** ober- und unterirdische Gebäude dürfen die Baulinie
-  grundsätzlich **nicht überschreiten** (Bauverbot bis zur Linie). Ausnahmen für untergeordnete
-  Bauteile/Balkone nach **§ 100 Abs. 1 PBG**; in Freihaltezonen § 100 Abs. 3 PBG.
+  grundsätzlich **nicht überschreiten** (Bauverbot bis zur Linie, § 99 Abs. 1 PBG). Ausnahmen für
+  untergeordnete Bauteile/Balkone nach **§ 100 Abs. 1 PBG**; in Freihaltezonen § 100 Abs. 3 PBG.
 
-## 2. Subsidiärer Strassenabstand (§ 51 Abs. 2 PBG)
+## 1a. Rechtswirkungen im Detail (§§ 99-101 PBG) — neu 2026-06-14
 
-**Fehlt eine Baulinie**, gilt der **bloss subsidiäre 6-Meter-Abstand** der Gemeinden gegenüber
-Strassen (§ 51 Abs. 2 PBG). → Eine festgesetzte Verkehrsbaulinie **geht vor** und kann das
-Baufeld deutlich stärker einschränken als die 6 m. Daher vor jeder Volumenstudie an der Strasse
-die kommunale Baulinie (OEREB-Auszug/GIS) abfragen.
+| Tatbestand | Regel | § |
+|---|---|---|
+| **Bauverbot** | Bauten/Anlagen, die dem Baulinienzweck widersprechen, sind unzulässig | § 99 Abs. 1 PBG |
+| **Gebäude auf die Linie** | Gebäude dürfen **auf** die Baulinie gestellt werden (kein Abstand nötig) | § 96/99 PBG |
+| **Einzelne Vorsprünge** | Erker/Balkone/Vordächer bis **1,5 m** über die Linie, **entschädigungslos beseitigbar** bei Strassenausbau; i. d. R. ≤ 1/3 Fassadenlänge | § 100 Abs. 1 PBG (analog § 260 Abs. 3) |
+| **Weitergehende Beanspruchung** | nur unter Interessenabwägung + sicherndem **Beseitigungsrevers** (Grundbuch); standortnotwendige Anlagen (Stützmauer, Rampe, Besucherparkplatz) | § 100 Abs. 3 PBG |
+| **Baulinienwidrige Bestandsbaute** | Unterhalt/Modernisierung frei; weitergehende Vorkehren (z. B. Aufstockung) nur beschränkt + **Mehrwertrevers** | § 101 Abs. 1/2 PBG |
+| **Überprüfungsanspruch** | Eigentümer kann Aufhebung verlangen, wenn Richtplanung den Ausbau nicht mehr vorsieht (akzessorisch im Baubewilligungsverfahren) | § 110a PBG |
+| **Gebäudeabstand über Strasse** | beansprucht ein Neubau den Baulinienbereich, wird über den Strassenraum ein **Gebäudeabstand** (nicht Grenzabstand) gemessen | § 272 PBG |
+| **Aussendämmung** | bis **35 cm** ohne Massanrechnung, auch an der Linie | § 33a ABV |
+
+→ Details + Fallrecht: [[15-lage-von-gebaeuden-teil2b]] (Buch Bd 2 S. 1034-1047).
+
+## 2. Strassen- und Wegabstand (§§ 264-266 PBG) — subsidiär zur Baulinie
+
+**Reihenfolge:** Der Strassenabstand wird **in erster Linie durch Verkehrsbaulinien** bestimmt
+(§ 264 PBG). **Nur wenn keine Baulinie** besteht (und keine nötig ist), greift der subsidiäre
+Regelabstand des § 265 PBG:
+
+| Gegenüber | Abstand | Bemerkung |
+|---|---|---|
+| **Strasse / Platz** | **6 m** | Verkehrsfläche, die > 10/30 Wohneinheiten erschliesst (Anhang ZN) |
+| **(öffentlicher) Weg** | **3,5 m** | Zufahrtsweg bis 30 Wohneinheiten |
+| **Garagenvorplatz** | **mind. 5,5 m** | ohne Rücksicht auf Baulinie, so lang wie grösster Einstellplatz (§ 266 PBG) |
+
+- **Nur oberirdisch:** § 265 PBG gilt für Gebäude(teile), die > **50 cm** über den gewachsenen
+  Boden ragen — Tiefgaragen sind strassenabstandsfrei (**aber** nicht baulinienfrei, § 99 PBG).
+- **Messung ab Strassengrenze** inkl. Trottoir/Schutzstreifen, auch privater Strassen (§ 267 PBG).
+- **Strasse vs. Weg** entscheidet sich nach der **Erschliessungsfunktion** (Wohneinheiten-Schwelle
+  Anhang ZN), nicht nach dem Namen (BEZ 1982 Nr. 20).
+- **Balkon/Vorsprung:** keine eigene Erleichterung in § 265 PBG, aber § 260 Abs. 3 PBG gilt
+  sinngemäss (VB.2013.00324). Der frühere § 51 Abs. 2 PBG («subsidiärer 6-m-Abstand») ist der
+  kommunale Auffangtatbestand zu diesem System.
+
+→ Details + Fallrecht: [[15-lage-von-gebaeuden-teil2b]] (Buch Bd 2 S. 1048-1061).
 
 ## 3. Gewässerabstandslinien (§ 67 PBG)
 
@@ -79,7 +110,10 @@ die kommunale Baulinie (OEREB-Auszug/GIS) abfragen.
 
 ## 6. Offene Punkte
 
-- **Zahlenwerk Verkehrsbaulinien/Vorgärten** (§§ 99-101, § 238 PBG) und die Grenz-/Gebäude-
-  abstände §§ 263-274 PBG: noch nicht distilliert (Buch S. 1034 ff., Shots ab 521).
-- **§ 100 Abs. 1 PBG** (zulässige Überschreitungen): genauer Katalog am amtlichen Volltext
-  präzisieren.
+- ~~**Zahlenwerk Verkehrsbaulinien/Vorgärten** (§§ 99-101) + Strassenabstand~~ → **erledigt
+  2026-06-14** (§§ 99-101 PBG Rechtswirkungen, §§ 264-266 PBG Strassen-/Wegabstand, Buch
+  S. 1034-1061, [[15-lage-von-gebaeuden-teil2b]]).
+- **Grenz-/Gebäudeabstände §§ 269-274 PBG** (grosser/kleiner Grenzabstand, Mehrlängenzuschlag,
+  Gebäudeabstand): noch offen — Buch S. 1062 ff., Shots ab 537. Ergänzt [[abstaende-und-hoehen]].
+- **§ 100 Abs. 1 PBG** (zulässige Überschreitungen) + 1/3-Fassaden-Kriterium: Katalog am
+  amtlichen Volltext präzisieren.

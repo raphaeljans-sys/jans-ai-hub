@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-12
+last_updated: 2026-06-14
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 12 | Baureife | 707 | 356 | P2 | [ ] |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
-| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [~] (Teil 1+2a S.995-1033: System/Wald/Gewaesser/Gewaesserabstandslinien/Baulinien-Arten; Grenz-/Gebaeudeabstand-Zahlenwerk §§263-274 offen, Shots ab 521) |
+| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [~] (S.995-1061: System/Wald/Gewaesser/Baulinien-Arten + Baulinien-Rechtswirkungen §§99-101 / Strassen-/Wegabstand §§264-267; Grenz-/Gebaeudeabstand §§269-274 offen, Shots ab 535) |
 | 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
 | 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [ ] |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
@@ -70,9 +70,15 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    2026-06-12, Run 4, S. 1014-1033: Uferstreifen-Messweise, dicht ueberbautes Gebiet Art. 41c GSchV,
    Besitzstand/Brandstattrecht § 15m HWSchV, Gewaesserabstandslinien § 67 PBG, Hochwasser-Gefahren-
    bereiche, Baulinien-Arten § 96 PBG + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG. Destillat
-   [[15-lage-von-gebaeuden]], neuer Wiki-Artikel [[baulinien-und-abstandslinien]]. Rest: Grenz-/
-   Gebaeudeabstand-Zahlenwerk §§ 263-274 + Verkehrsbaulinien-Zahlenwerk, Shots ab 521, S. 1034 ff.)*
-   ⏭️ **Naechster Lauf: Kap. 15 Teil 2b** (Grenz-/Gebaeudeabstand §§ 263-274) ODER Kap. 17 (Raumhoehen).
+   [[15-lage-von-gebaeuden]], neuer Wiki-Artikel [[baulinien-und-abstandslinien]]. Teil 2b distilliert
+   2026-06-14, Run 5, S. 1034-1061: Baulinien-Rechtswirkungen §§ 99-101 PBG (Bauverbot, Vorspruenge
+   1,5 m § 100 Abs. 1, weitergehende Beanspruchung + Beseitigungsrevers § 100 Abs. 3, baulinienwidriger
+   Bestand § 101, Ueberpruefungsanspruch § 110a, Gebaeudeabstand ueber Strasse § 272), Strassen-/
+   Wegabstand §§ 264-267 PBG (subsidiaer; 6 m Strasse / 3,5 m Weg, nur oberirdisch; Garagenvorplatz
+   5,5 m § 266; StrAV Mauern/Pflanzen). Destillat [[15-lage-von-gebaeuden-teil2b]]. Rest: Grenz-/
+   Gebaeudeabstand-Zahlenwerk §§ 269-274, Shots ab 535, S. 1062 ff.)*
+   ⏭️ **Naechster Lauf: Kap. 15 Teil 2c** (Grenz-/Gebaeudeabstand §§ 269-274 — grosser/kleiner
+   Grenzabstand, Mehrlaengenzuschlag) ODER Kap. 17 (Raumhoehen). Empfehlung: Teil 2c (hoechster Nutzen).
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.
