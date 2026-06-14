@@ -4,6 +4,25 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-14 — Buch-Destillat Kap. 15 Teil 2b (Baulinien-Rechtswirkungen + Strassen-/Wegabstand, S. 1034-1061), Run 5
+- NEU `buecher/band-2/15-lage-von-gebaeuden-teil2b.md` (Shots 521-534, echte Seiten 1034-1061,
+  14 Doppelseiten): Baulinien-Rechtswirkungen §§ 99-101 PBG — Bauverbot (§ 99), einzelne Vorspruenge
+  bis 1,5 m ueber die Linie + entschaedigungslos beseitigbar (§ 100 Abs. 1), weitergehende Beanspruchung
+  mit Interessenabwaegung + Beseitigungsrevers (§ 100 Abs. 3), baulinienwidriger Bestand Unterhalt frei
+  / Aufstockung nur mit Mehrwertrevers (§ 101), Ueberpruefungsanspruch (§ 110a), Gebaeudeabstand ueber
+  Strasse (§ 272). Strassen-/Wegabstand §§ 264-267 PBG — subsidiaer zur Baulinie (§ 264); 6 m Strasse /
+  3,5 m Weg, nur oberirdisch (§ 265); Strassengrenze inkl. Trottoir (§ 267); Garagenvorplatz 5,5 m
+  (§ 266); StrAV Mauern/Pflanzen/Reklamen.
+- GESCHAERFT `wiki/baulinien-und-abstandslinien.md`: neuer Abschnitt 1a (Rechtswirkungen §§ 99-101 als
+  Tabelle) + Abschnitt 2 (Strassen-/Wegabstand §§ 264-266); Status bleibt `emerging`, sources/links
+  erweitert, offene Punkte aktualisiert.
+- ANWENDUNG: 5 neue Drill-Karten (Modell C) + Modell-A-Frage→Beleg-Drill (Strassenabstand MFH ohne
+  Baulinie + Balkon-Privilegierung) in `training/drills.md`.
+- Register: Inventar Zeilen 521-534 auf [x] mit echten Seitenzahlen + Destillat-Link; `buecher/INDEX.md`,
+  `training/curriculum.md` (Kap. 15 Status, naechster Lauf Teil 2c §§ 269-274), `wiki/QUESTIONS.md`.
+- Lern-Report `outputs/2026-06-14_buch-run5.md`.
+
+
 ## 2026-06-13 — Buch-Destillat Kap. 16.10 (Attika/MT/Fassadenhoehe, S. 1230-1239)
 - NEU `buecher/band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` (Shots 619-623,
   echte Seiten 1230-1239): Attikageschoss-Rueckversetzung h/2 an fiktiven Traufseiten

@@ -50,13 +50,23 @@ wurden.
   1,5/2,0 bei verbauten/eingedolten Gewässern: am Fedlex-Volltext gegenprüfen.
 
 ## Offene Wissenslücken — neu (2026-06-12, aus Buch-Run Kap. 15 Teil 2a)
-- ~~**Strassenabstand / Verkehrsbaulinien** (Arten/Zweck der Baulinien)~~ → **teilweise
-  erledigt 2026-06-12**: neuer Artikel [[baulinien-und-abstandslinien]] (Arten § 96 PBG,
-  subsidiärer 6-m-Abstand § 51 Abs. 2, Gewässerabstandslinie § 67, Rechtswirkung §§ 99-101).
-  **Noch offen:** das konkrete **Zahlenwerk** der Verkehrsbaulinien/Vorgärten (§§ 99-101,
-  § 238 PBG) und die Grenz-/Gebäudeabstände §§ 263-274 PBG (Shots ab 521, S. 1034 ff.).
-- **§ 100 Abs. 1 PBG** (zulässige Überschreitungen einer Baulinie): genauer Katalog der
-  privilegierten Bauteile am amtlichen Volltext präzisieren.
+- ~~**Strassenabstand / Verkehrsbaulinien** (Arten/Zweck der Baulinien)~~ → **erledigt
+  2026-06-12/14**: Artikel [[baulinien-und-abstandslinien]] (Arten § 96 PBG, subsidiärer
+  Abstand § 51 Abs. 2/§ 264 PBG, Gewässerabstandslinie § 67, Rechtswirkung §§ 99-101) +
+  Strassen-/Wegabstand §§ 264-267 PBG distilliert ([[15-lage-von-gebaeuden-teil2b]], S. 1034-1061).
+- **§ 100 Abs. 1 PBG** (zulässige Überschreitungen einer Baulinie): Katalog der privilegierten
+  Bauteile + 1/3-Fassaden-Kriterium am amtlichen Volltext präzisieren.
+
+## Offene Wissenslücken — neu (2026-06-14, aus Buch-Run Kap. 15 Teil 2b)
+- **Grenz-/Gebäudeabstand-Zahlenwerk §§ 269-274 PBG** (grosser/kleiner Grenzabstand,
+  Mehrlängenzuschlag, Gebäudeabstand als Summe, § 273 reduzierte Abstände besonderer Gebäude):
+  weiterhin offen — Buch S. 1062 ff., Shots ab 535. **Höchster Büroalltagsnutzen** — nächster Lauf.
+  Ergänzt [[abstaende-und-hoehen]].
+- **§§ 102/103/104 PBG** (Entschädigung materielle Enteignung / Heimschlagsrecht /
+  Leitungsbaurecht bei Baulinien): genaue §-Zuordnung am amtlichen Volltext prüfen (im Buch teils
+  zusammengezogen zitiert, S. 1035).
+- **StrAV-Masszahlen** (Lichtraumprofil 2,5/4,5 m, Pflanzen-/Einfriedungsabstände §§ 7/14/17 StrAV):
+  am amtlichen Volltext der Strassenabstandsverordnung gegenprüfen — im Screenshot nur teilweise lesbar.
 - **«Dicht überbautes Gebiet»** (Art. 41c Abs. 1 Satz 2 GSchV): praxistaugliche Kriterien aus
   dem Merkblatt ARE/BAFU/BPUK ergänzen — im Buch nur über Fallrecht (BGE 140 II 428;
   Altendorf/Hurden/Rüschlikon) umrissen.

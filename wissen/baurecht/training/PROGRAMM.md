@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-12
+last_updated: 2026-06-14
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -88,20 +88,21 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 ## Fortschritts-Tracker
 
 - **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07.
-- **Seiten distilliert:** ~100 / 1550 (50 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 Teil 1+2a).
-- **Kapitel-Destillate:** 3 (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` — System/Wald/Gewaesser/Gewaesserabstandslinien/Baulinien-Arten).
-- **Wiki:** 10 Artikel (+ [[baulinien-und-abstandslinien]] 2026-06-12; [[abstaende-und-hoehen]] um Gewaesserraum-Vertiefung ergaenzt).
-- **Letzter Lauf:** Run 4, 2026-06-12 — Kap. 15 Teil 2a (Uferstreifen-Messweise, dicht ueberbautes
-  Gebiet Art. 41c GSchV, Besitzstand/Brandstattrecht § 15m HWSchV, Gewaesserabstandslinien § 67 PBG,
-  Hochwasser-Gefahrenbereiche, Baulinien-Arten § 96 PBG + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG;
-  Shots 511-520, S. 1014-1033); Destillat [[15-lage-von-gebaeuden]] erweitert, neuer Wiki-Artikel
-  [[baulinien-und-abstandslinien]], **Modell A** Frage→Beleg-Drill (TG an Gewaesserabstandslinie).
-- **Naechster Lauf:** **Kap. 15 Teil 2b** — Grenz-/Gebaeudeabstand-Zahlenwerk §§ 263-274 PBG
-  (grosser/kleiner Grenzabstand, Mehrlaengenzuschlag, Gebaeudeabstand) + Verkehrsbaulinien-Zahlenwerk,
-  Shots ab 521, S. 1034 ff. ODER **Kap. 17** (Raumhoehen/Wohnhygiene, Shots ~623).
-  Empfehlung: Kap. 15 Teil 2b (schliesst das Grenzabstand-Zahlenwerk, hoechster Bueroalltagsnutzen).
+- **Seiten distilliert:** ~128 / 1550 (64 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 Teil 1+2a+2b).
+- **Kapitel-Destillate:** 4 (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` Teil 1+2a + neu Teil 2b `emerging`).
+- **Wiki:** 10 Artikel ([[baulinien-und-abstandslinien]] 2026-06-14 um §§ 99-101 Rechtswirkungen + §§ 264-266 Strassenabstand geschaerft).
+- **Letzter Lauf:** Run 5, 2026-06-14 — Kap. 15 Teil 2b (Baulinien-Rechtswirkungen §§ 99-101 PBG:
+  Bauverbot, Vorspruenge 1,5 m § 100 Abs. 1, weitergehende Beanspruchung + Beseitigungsrevers
+  § 100 Abs. 3, baulinienwidriger Bestand § 101, § 110a/§ 272; Strassen-/Wegabstand §§ 264-267 PBG:
+  subsidiaer § 264, 6 m Strasse / 3,5 m Weg § 265 nur oberirdisch, Strassengrenze § 267, Garagen-
+  vorplatz 5,5 m § 266, StrAV; Shots 521-534, S. 1034-1061); neues Destillat [[15-lage-von-gebaeuden-teil2b]],
+  Wiki [[baulinien-und-abstandslinien]] geschaerft, **Modell C** 5 Karten + **Modell A** (Strassenabstand MFH).
+- **Naechster Lauf:** **Kap. 15 Teil 2c** — Grenz-/Gebaeudeabstand-Zahlenwerk §§ 269-274 PBG
+  (grosser/kleiner Grenzabstand, Mehrlaengenzuschlag, Gebaeudeabstand, § 273 besondere Gebaeude),
+  Shots ab 535, S. 1062 ff. ODER **Kap. 17** (Raumhoehen/Wohnhygiene, Shots ~623).
+  Empfehlung: Kap. 15 Teil 2c (schliesst das Grenzabstand-Zahlenwerk, hoechster Bueroalltagsnutzen).
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
-- **Restschuld Kap. 15:** Grenz-/Gebaeudeabstand §§ 263-274 + Verkehrsbaulinien-Zahlenwerk §§ 99-101 (Shots ab 521).
+- **Restschuld Kap. 15:** Grenz-/Gebaeudeabstand §§ 269-274 (Shots ab 535).
 - **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung
   (Shots ab 581, S. 1154 ff.).
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
