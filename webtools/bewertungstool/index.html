@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JANS Liegenschaftsbewertung</title>
+<style>
+:root{
+  --ink:#222; --muted:#666; --line:#e3e3e3; --accent:#c0392b; --navy:#2b2b44;
+  --bg:#f4f5f7; --card:#fff;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:-apple-system,Segoe UI,Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:920px;margin:0 auto;padding:24px 18px 80px}
+header.app{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2px solid var(--navy);padding-bottom:10px;margin-bottom:8px}
+header.app .sys{font-size:13px;color:var(--muted)}
+.mark{font-weight:800;letter-spacing:2px;color:var(--navy);font-size:22px}
+.mark span{color:var(--accent)}
+h1{font-size:22px;margin:18px 0 4px}
+.lead{color:var(--muted);font-size:14px;line-height:1.5;max-width:640px}
+.steps{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+.steps .s{font-size:11px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:20px;padding:4px 10px}
+.steps .s.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.steps .s.done{border-color:var(--navy);color:var(--navy)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 22px 26px;margin-top:10px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.card h2{margin:0 0 4px;font-size:18px}
+.card p.hint{color:var(--muted);font-size:13px;margin:0 0 16px;line-height:1.45}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px}
+.grid.three{grid-template-columns:1fr 1fr 1fr}
+@media(max-width:680px){.grid,.grid.three{grid-template-columns:1fr}}
+label{display:block;font-size:12px;color:#444;margin-bottom:4px;font-weight:600}
+input,select{width:100%;padding:9px 10px;border:1px solid #cfd3d8;border-radius:8px;font-size:14px;background:#fff;color:var(--ink)}
+input:focus,select:focus{outline:none;border-color:var(--navy)}
+.full{grid-column:1/-1}
+.choice{display:flex;gap:12px;flex-wrap:wrap}
+.choice .opt{flex:1;min-width:150px;border:1px solid #cfd3d8;border-radius:10px;padding:16px;text-align:center;cursor:pointer;background:#fff;font-weight:600}
+.choice .opt.sel{border-color:var(--accent);box-shadow:0 0 0 2px rgba(192,57,43,.15)}
+.choice .opt small{display:block;font-weight:400;color:var(--muted);margin-top:4px;font-size:12px}
+.nav{display:flex;justify-content:space-between;margin-top:22px;gap:10px}
+button{font:inherit;cursor:pointer;border:none;border-radius:24px;padding:11px 22px;font-weight:600}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-ghost{background:#fff;border:1px solid #cfd3d8;color:#333}
+.btn-primary:disabled{opacity:.5;cursor:not-allowed}
+.save-note{font-size:11px;color:var(--muted);text-align:center;margin-top:10px}
+.err{color:var(--accent);font-size:12px;margin-top:8px;min-height:14px}
+.hidden{display:none!important}
+
+/* ---------- Report (WP-Layout, Querformat) ---------- */
+#report{background:#fff}
+.report-actions{display:flex;gap:10px;justify-content:center;margin:16px 0}
+.rp{font-family:Arial,Helvetica,sans-serif;color:#222;font-size:11px}
+.rp .page{position:relative;width:297mm;min-height:200mm;margin:0 auto 18px;padding:11mm 12mm 16mm;background:#fff;border:1px solid #ddd}
+.rp .head{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid #333;padding-bottom:3px}
+.rp .head .sys{font-size:9px;color:#555}.rp .head .sys b{color:#222}
+.rp .mk{font-weight:800;letter-spacing:2px;color:var(--navy);font-size:16px}.rp .mk span{color:var(--accent)}
+.rp h1.t{font-size:22px;margin:14px 0 2px}
+.rp .subt{font-size:14px;font-weight:bold;line-height:1.35}
+.rp .cols{display:flex;gap:9mm;margin-top:10px}.rp .col{flex:1}
+.rp .sec{font-weight:bold;font-size:11px;border-bottom:1.4px solid #333;padding:8px 0 3px;margin-top:8px;display:flex;justify-content:space-between;align-items:baseline}
+.rp .sec .scale{font-weight:normal;font-size:8px;color:#777}
+.rp .row{display:flex;justify-content:space-between;gap:6px;border-bottom:1px solid #ececec;padding:3px 0}
+.rp .row .l{color:#333}.rp .row .v{text-align:right;color:#111;font-weight:600}
+.rp .mwl{font-size:12px;font-weight:bold;color:#333;margin-top:6px}
+.rp .mw{font-size:32px;font-weight:800;color:#111}
+.rp .map{background:#eef0f2;border:1px solid #dcdcdc;height:135mm;display:flex;align-items:center;justify-content:center;color:#9aa;font-size:12px}
+.rp .discl{font-size:9px;color:#333;line-height:1.5;margin-top:10px}
+.rp .bar{display:inline-flex;gap:2px;vertical-align:middle;margin-right:6px}
+.rp .seg{width:10px;height:10px;background:#e0e0e0;display:inline-block}.rp .seg.on{background:#555}
+.rp .rg1{background:#cf4b3b}.rp .rg2{background:#e08a3c}.rp .rg3{background:#9a9a9a}.rp .rg4{background:#7eb15a}.rp .rg5{background:#4a9d4a}
+.rp .legend{margin-top:8px;font-size:8px}.rp .legend .lr{display:flex;gap:6px;align-items:center;padding:1.5px 0}
+.rp .foot{display:flex;justify-content:space-between;font-size:8px;color:#666;border-top:1px solid #ccc;padding-top:3px;margin-top:14px}
+@media print{
+  body{background:#fff}
+  .wrap, header.app{display:none!important}
+  #report{display:block!important}
+  .report-actions{display:none!important}
+  @page{size:A4 landscape;margin:0}
+  .rp .page{width:297mm;height:210mm;margin:0;border:none;page-break-after:always;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<header class="app">
+  <div class="sys">Liegenschaftsbewertung · Raphael Jans Architekten ETH/SIA</div>
+  <div class="mark">JAN<span>S</span></div>
+</header>
+
+<!-- ===================== WIZARD ===================== -->
+<div class="wrap" id="wizard">
+  <h1>Liegenschaftsbewertung</h1>
+  <p class="lead">Erfassen Sie in wenigen Schritten Ihre Liegenschaft und erhalten Sie einen Marktwert-Richtwert mit ausführlichem Bericht. Die Bewertung erfolgt nach Schweizer Schätzungsstandard (Schätzerhandbuch SVKG/SEK/SVIT 2012) über drei Verfahren. Eingaben werden lokal in Ihrem Browser gespeichert.</p>
+
+  <div class="steps" id="steps"></div>
+
+  <form id="form" onsubmit="return false">
+
+    <!-- Step 1 Standort -->
+    <section class="card step" data-step="0">
+      <h2>1 · Standort</h2>
+      <p class="hint">Adresse und Gemeinde bestimmen die Marktdaten-Grundlage (UBS-Marktkennwerte je Gemeinde).</p>
+      <div class="grid">
+        <div class="full"><label>Strasse und Hausnummer</label><input name="adresse" placeholder="z.B. Bahnhofstrasse 27"></div>
+        <div><label>PLZ</label><input name="plz" placeholder="8855"></div>
+        <div><label>Gemeinde (Marktdaten)</label><select name="gemeinde" id="gemeinde"></select></div>
+        <div><label>Kanton</label><input name="kanton" placeholder="SZ"></div>
+        <div><label>Parzelle / EGRID (optional)</label><input name="parzelle" placeholder="25 / CH..."></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 2 Objekttyp -->
+    <section class="card step hidden" data-step="1">
+      <h2>2 · Immobilientyp</h2>
+      <p class="hint">Bestimmt das führende Bewertungsverfahren: Vergleichswert (EFH/EWG) oder Ertragswert (Renditeobjekt/MFH).</p>
+      <div class="choice" data-choice="typ">
+        <div class="opt" data-val="EFH">Einfamilienhaus<small>Vergleichswert führt</small></div>
+        <div class="opt" data-val="EWG">Eigentumswohnung<small>Vergleichswert führt</small></div>
+        <div class="opt" data-val="MFH">Mehrfamilienhaus / Rendite<small>Ertragswert führt</small></div>
+      </div>
+      <div class="grid" style="margin-top:16px">
+        <div><label>Wohnsitz</label><select name="wohnsitz"><option>Erstwohnsitz</option><option>Zweitwohnsitz</option><option>vermietet</option></select></div>
+        <div><label>Eigentumsform</label><select name="eigentum"><option>Alleineigentum</option><option>Miteigentum</option><option>Stockwerkeigentum</option></select></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 3 Grösse -->
+    <section class="card step hidden" data-step="2">
+      <h2>3 · Immobiliengrösse</h2>
+      <p class="hint">Flächen nach SIA 416. Bei Wohneigentum genügt die Wohn-/Nutzfläche; Volumen optional.</p>
+      <div class="grid three">
+        <div><label>Grundstücksfläche [m²]</label><input name="grundstueck" type="number" inputmode="numeric"></div>
+        <div><label>Gebäudevolumen [m³ SIA 416]</label><input name="volumen" type="number"></div>
+        <div><label>Wohn-/Nutzfläche [m²]</label><input name="nwf" type="number"></div>
+        <div><label>Zimmer</label><input name="zimmer" type="number" step="0.5"></div>
+        <div><label>Wohneinheiten (MFH)</label><input name="einheiten" type="number" value="1"></div>
+        <div><label>Garagen / Parkplätze</label><input name="parkplaetze" type="number"></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 4 Ausbaustandard -->
+    <section class="card step hidden" data-step="3">
+      <h2>4 · Ausbaustandard</h2>
+      <p class="hint">Qualität von Materialisierung und Haustechnik. Ergibt den Standard-Wert (1 dürftig bis 5 luxuriös).</p>
+      <div class="grid three">
+        <div><label>Küche</label><select name="kueche" data-score><option value="2">Basic</option><option value="3" selected>Standard</option><option value="4">Highlevel</option><option value="5">Premium</option></select></div>
+        <div><label>Nasszellen</label><select name="bad" data-score><option value="2">Basic</option><option value="3" selected>Standard</option><option value="4">Highlevel</option><option value="5">Premium</option></select></div>
+        <div><label>Bodenbeläge</label><select name="boden" data-score><option value="2">Basic (Laminat/Textil)</option><option value="3" selected>Standard (Parkett)</option><option value="4">Highlevel (Naturstein)</option><option value="5">Premium</option></select></div>
+        <div><label>Aussenbereich/Umgebung</label><select name="aussen" data-score><option value="2">einfach</option><option value="3" selected>durchschnittlich</option><option value="4">gehoben</option></select></div>
+        <div><label>Wärmeerzeugung</label><select name="waerme"><option>Wärmepumpe</option><option>Fernwärme</option><option>Gas</option><option>Öl</option><option>Holz/Pellets</option></select></div>
+        <div><label>Energie-Zertifikat</label><select name="energie"><option>ohne</option><option>GEAK</option><option>Minergie</option><option>Minergie-P</option></select></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 5 Zustand -->
+    <section class="card step hidden" data-step="4">
+      <h2>5 · Zustand</h2>
+      <p class="hint">Baujahr und Sanierungsstand ergeben den Zustand (1 erneuerungsbedürftig bis 5 neuwertig) und den Sanierungsabschlag.</p>
+      <div class="grid three">
+        <div><label>Baujahr</label><input name="baujahr" type="number" placeholder="1992"></div>
+        <div><label>Letzte Sanierung (Jahr)</label><input name="sanjahr" type="number" placeholder="2012"></div>
+        <div><label>Gesamtzustand</label><select name="zustand" data-score><option value="2">erneuerungsbedürftig</option><option value="3" selected>intakt</option><option value="4">gepflegt</option><option value="5">neuwertig</option></select></div>
+        <div class="full"><label>Geschätzter Sanierungsstau [CHF] (optional)</label><input name="sanstau" type="number" placeholder="0"></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 6 Mikrolage -->
+    <section class="card step hidden" data-step="5">
+      <h2>6 · Mikrolage</h2>
+      <p class="hint">Lagequalität innerhalb der Gemeinde (1 sehr schlecht bis 5 exzellent).</p>
+      <div class="grid three">
+        <div><label>ÖV-Erschliessung</label><select name="oev" data-score><option value="2">mässig</option><option value="3" selected>gut</option><option value="4">sehr gut</option><option value="5">Güteklasse A</option></select></div>
+        <div><label>Verkehrslärm</label><select name="laerm" data-score><option value="2">stark</option><option value="3" selected>spürbar</option><option value="4">gering</option><option value="5">ruhig</option></select></div>
+        <div><label>Aussicht</label><select name="aussicht" data-score><option value="3" selected>keine bis gering</option><option value="4">gut</option><option value="5">See-/Bergsicht</option></select></div>
+        <div><label>Zentrum / Einkauf</label><select name="zentrum" data-score><option value="3" selected>durchschnittlich</option><option value="4">zentral</option><option value="5">sehr zentral</option></select></div>
+        <div><label>Zone (BZO)</label><input name="zone" placeholder="W3 / WG3"></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 7 Mieten (nur MFH) -->
+    <section class="card step hidden" data-step="6">
+      <h2>7 · Mietertrag (Renditeobjekt)</h2>
+      <p class="hint">Für den Ertragswert. Tragen Sie den Ist-Sollertrag ein; sonst wird er aus Fläche × Mietkennwert geschätzt.</p>
+      <div class="grid">
+        <div><label>Brutto-Sollertrag pro Jahr [CHF] (falls bekannt)</label><input name="sollertrag" type="number" placeholder="129000"></div>
+        <div><label>Kapitalisierungssatz [%]</label><input name="kapsatz" type="number" step="0.1" placeholder="5.0"></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <!-- Step 8 Kontakt -->
+    <section class="card step hidden" data-step="7">
+      <h2>8 · Angaben zur Person (optional)</h2>
+      <p class="hint">Für den Bericht. Keine Bestellung, keine Zahlung — der Bericht wird direkt erzeugt.</p>
+      <div class="grid">
+        <div><label>Name</label><input name="name"></div>
+        <div><label>E-Mail</label><input name="mail" type="email"></div>
+        <div class="full"><label>Bemerkung</label><input name="bemerkung"></div>
+      </div>
+      <div class="err" data-err></div>
+    </section>
+
+    <div class="nav">
+      <button type="button" class="btn-ghost" id="back">Zurück</button>
+      <button type="button" class="btn-primary" id="next">Weiter</button>
+    </div>
+    <div class="save-note" id="savenote">Eingaben werden automatisch lokal gespeichert.</div>
+  </form>
+</div>
+
+<!-- ===================== REPORT ===================== -->
+<div id="report" class="hidden">
+  <div class="report-actions">
+    <button class="btn-ghost" onclick="backToForm()">Eingaben bearbeiten</button>
+    <button class="btn-primary" onclick="window.print()">Als PDF speichern / drucken</button>
+  </div>
+  <div class="rp" id="rp"></div>
+</div>
+
+<script>
+/* ---------------- Marktdaten (UBS Fact Sheets, Stand wie vermerkt) + Fallback ---------------- */
+const MARKT = {
+  "wangen-sz":   {label:"Wangen (SZ)",       efh:10690, ew:9616,  miete:265, bauland:2702, kap:5.0, stand:"12/2025"},
+  "zollikon-zh": {label:"Zollikon (ZH)",     efh:18000, ew:14000, miete:330, bauland:4500, kap:3.5, stand:"12/2025"},
+  "thalwil-zh":  {label:"Thalwil (ZH)",      efh:15384, ew:12000, miete:300, bauland:3800, kap:3.8, stand:"07/2024"},
+  "waedenswil-zh":{label:"Wädenswil (ZH)",   efh:12500, ew:10500, miete:285, bauland:2900, kap:4.0, stand:"12/2023"},
+  "maur-zh":     {label:"Maur (ZH)",         efh:14000, ew:11000, miete:300, bauland:3200, kap:3.8, stand:"07/2024"},
+  "regensdorf-zh":{label:"Regensdorf (ZH)",  efh:11000, ew:9500,  miete:275, bauland:2600, kap:4.0, stand:"12/2023"},
+  "wald-zh":     {label:"Wald (ZH)",         efh:8500,  ew:7800,  miete:235, bauland:1700, kap:4.6, stand:"12/2023"},
+  "einsiedeln-sz":{label:"Einsiedeln (SZ)",  efh:9500,  ew:8800,  miete:250, bauland:1900, kap:4.5, stand:"12/2023"},
+  "luzern-lu":   {label:"Luzern (Stadt)",    efh:13000, ew:11500, miete:300, bauland:3500, kap:3.8, stand:"12/2023"},
+  "muri-ag":     {label:"Muri (AG)",         efh:7978,  ew:7200,  miete:230, bauland:1400, kap:4.8, stand:"07/2024"},
+  "andere":      {label:"andere — manuell eingeben", efh:0, ew:0, miete:0, bauland:0, kap:5.0, stand:"manuell"}
+};
+
+const STEPS_ALL = ["Standort","Typ","Grösse","Standard","Zustand","Mikrolage","Mieten","Person"];
+let cur = 0;
+const D = {}; // Daten
+
+/* ---------------- Init ---------------- */
+function gemeindeOptions(){
+  const sel = document.getElementById("gemeinde");
+  sel.innerHTML = Object.keys(MARKT).map(k=>`<option value="${k}">${MARKT[k].label}${MARKT[k].stand!=="manuell"?" — "+MARKT[k].stand:""}</option>`).join("");
+}
+function load(){
+  try{ Object.assign(D, JSON.parse(localStorage.getItem("jans_bw")||"{}")); }catch(e){}
+  document.querySelectorAll("#form [name]").forEach(el=>{ if(D[el.name]!=null) el.value=D[el.name]; });
+  if(D.typ) markChoice("typ", D.typ);
+}
+function save(){
+  document.querySelectorAll("#form [name]").forEach(el=> D[el.name]=el.value);
+  localStorage.setItem("jans_bw", JSON.stringify(D));
+}
+function markChoice(group,val){
+  document.querySelectorAll(`[data-choice="${group}"] .opt`).forEach(o=>o.classList.toggle("sel", o.dataset.val===val));
+  D[group]=val;
+}
+function activeSteps(){ // Mieten-Schritt nur bei MFH
+  return STEPS_ALL.map((s,i)=>({s,i})).filter(x=> !(x.i===6 && D.typ!=="MFH"));
+}
+function renderSteps(){
+  const act=activeSteps();
+  document.getElementById("steps").innerHTML = act.map(x=>{
+    const cls = x.i===cur?"active":(act.findIndex(a=>a.i===cur)>act.findIndex(a=>a.i===x.i)?"done":"");
+    return `<span class="s ${cls}">${x.i+1} ${x.s}</span>`;
+  }).join("");
+}
+function show(step){
+  document.querySelectorAll(".step").forEach(s=>s.classList.toggle("hidden", +s.dataset.step!==step));
+  cur=step; renderSteps();
+  document.getElementById("back").style.visibility = step===0?"hidden":"visible";
+  const act=activeSteps(); const last=act[act.length-1].i;
+  document.getElementById("next").textContent = step===last? "Bericht erstellen" : "Weiter";
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function nextStep(dir){
+  save();
+  const act=activeSteps().map(x=>x.i);
+  let idx=act.indexOf(cur);
+  if(dir>0){
+    if(!validate(cur)) return;
+    if(idx===act.length-1){ buildReport(); return; }
+    show(act[idx+1]);
+  }else{ if(idx>0) show(act[idx-1]); }
+}
+function validate(step){
+  const sec=document.querySelector(`.step[data-step="${step}"]`);
+  const err=sec.querySelector("[data-err]"); err.textContent="";
+  if(step===0 && !D.gemeinde){ err.textContent="Bitte Gemeinde wählen."; return false; }
+  if(step===1 && !D.typ){ err.textContent="Bitte Immobilientyp wählen."; return false; }
+  if(step===2 && !D.nwf){ err.textContent="Bitte Wohn-/Nutzfläche angeben."; return false; }
+  return true;
+}
+
+/* ---------------- Bewertungs-Engine ---------------- */
+function score(names){
+  let sum=0,n=0;
+  names.forEach(nm=>{ const v=parseFloat(D[nm]); if(!isNaN(v)){sum+=v;n++;} });
+  return n? sum/n : 3;
+}
+function fmtCHF(x){ return "CHF "+Math.round(x).toLocaleString("de-CH").replace(/ /g,"'"); }
+function fmtMio(x){ return (x/1e6).toLocaleString("de-CH",{minimumFractionDigits:2,maximumFractionDigits:2})+" Mio"; }
+
+function evaluate(){
+  const m = MARKT[D.gemeinde] || MARKT["andere"];
+  const nwf = parseFloat(D.nwf)||0;
+  const stdScore  = score(["kueche","bad","boden","aussen"]);
+  const zustScore = parseFloat(D.zustand)||3;
+  const mikroScore= score(["oev","laerm","aussicht","zentrum"]);
+  const qMult = 1 + (stdScore-3)*0.05 + (zustScore-3)*0.05 + (mikroScore-3)*0.06;
+
+  let marktwert=0, ertrag=0, vergleich=0, real=0, fuehrend="";
+  const kap = (parseFloat(D.kapsatz)||m.kap||5.0)/100;
+
+  // Vergleichswert (EFH/EWG)
+  const refM = (D.typ==="EFH"? m.efh : m.ew) || parseFloat(D.refpreis)||0;
+  if(refM>0) vergleich = nwf * refM * qMult;
+
+  // Ertragswert (MFH/Rendite)
+  let sollertrag = parseFloat(D.sollertrag)||0;
+  if(D.typ==="MFH"){
+    if(!sollertrag && m.miete) sollertrag = nwf * m.miete * (0.9 + (mikroScore-3)*0.03);
+    if(sollertrag && kap) ertrag = sollertrag / kap;
+  }
+
+  // Realwert grob (Boden + Gebäude − Sanierungsstau)
+  const grund=parseFloat(D.grundstueck)||0, vol=parseFloat(D.volumen)||0, sanstau=parseFloat(D.sanstau)||0;
+  if(grund && m.bauland) real += grund*m.bauland;
+  if(vol) real += vol*850*(0.7+ (zustScore-1)*0.07); // grober Kubikkennwert × Zustand
+  real -= sanstau;
+
+  if(D.typ==="MFH" && ertrag){ marktwert=ertrag; fuehrend="Ertragswert"; }
+  else if(vergleich){ marktwert=vergleich - sanstau; fuehrend="Vergleichswert"; }
+  else if(real){ marktwert=real; fuehrend="Realwert"; }
+
+  const low=marktwert*0.9, high=marktwert*1.1;
+  return {m,nwf,stdScore,zustScore,mikroScore,marktwert,low,high,ertrag,vergleich,real,sollertrag,kap,fuehrend,refM};
+}
+
+/* ---------------- Report-Rendering (WP-Layout) ---------------- */
+function bar(v,scale){
+  let s="";for(let i=1;i<=5;i++){let c="seg";if(i<=Math.round(v))c+= scale==="rg"?(" rg"+Math.round(v)):" on";s+=`<span class="${c}"></span>`;}
+  return `<span class="bar">${s}</span>`;
+}
+function rows(arr){return arr.map(p=>`<div class="row"><span class="l">${p[0]}</span><span class="v">${p[1]}</span></div>`).join("");}
+function einstuf(v){return v>=4.5?"überdurchschnittlich":v>=3.5?"leicht überdurchschnittlich":v>=2.5?"durchschnittlich":v>=1.5?"leicht unterdurchschnittlich":"unterdurchschnittlich";}
+
+function buildReport(){
+  save();
+  const r=evaluate();
+  const typLabel={EFH:"Einfamilienhaus",EWG:"Eigentumswohnung",MFH:"Gemischtes / Mehrfamilienhaus"}[D.typ]||"Liegenschaft";
+  const datum=new Date().toLocaleDateString("de-CH");
+  const head=`<div class="head"><div class="sys"><b>Liegenschaftsbewertung · Raphael Jans Architekten ETH/SIA</b></div><div class="mk">JAN<span>S</span></div></div>`;
+  const foot=(n)=>`<div class="foot"><div>${(D.adresse||"")+", "+(D.plz||"")+" "+(r.m.label)}</div><div>Erstellt von Raphael Jans Architekten ETH/SIA, ${datum}</div><div>Seite ${n} von 4</div></div>`;
+
+  // Seite 1 Titel
+  const p1=`<div class="page">${head}
+    <h1 class="t">Bewertungsbericht</h1>
+    <div class="subt">${typLabel}<br>${D.adresse||"—"}<br>${D.plz||""} ${r.m.label}<br>Schweiz</div>
+    <div class="cols" style="margin-top:14px">
+      <div class="col" style="flex:1.15"><div class="map">Makrolage / Mikrolage</div></div>
+      <div class="col"><div class="mwl">Marktwert (Richtwert)</div><div class="mw">${fmtCHF(r.marktwert)}</div>
+        <div style="margin-top:14px">${rows([["Berichtsdatum",datum],["Auftraggeber",D.name||"—"],["Bewertungs-Id","JANS-"+(D.plz||"0000")],["Bewerter","Raphael Jans Architekten ETH/SIA"],["Methodik","SVKG/SEK/SVIT 2012"]])}</div>
+        <div class="discl">Richtwert auf Basis Ihrer Angaben und hinterlegter Marktkennwerte (${r.m.label}, Stand ${r.m.stand}), berechnet nach Schweizer Schätzungsstandard. Ersetzt kein besichtigtes Gutachten; ohne Augenschein keine Haftung. Marktwert zeitpunktbezogen.</div>
+      </div></div>${foot(1)}</div>`;
+
+  // Seite 2 Bewertung 3-Spalten
+  const p2=`<div class="page">${head}
+    <h1 class="t">Bewertung ${typLabel}</h1>
+    <div class="cols">
+      <div class="col"><div class="sec">Objekteigenschaften</div>
+        ${rows([["Liegenschaftstyp",typLabel],["Adresse",(D.adresse||"—")+", "+(D.plz||"")+" "+r.m.label],["Parzelle / EGRID",D.parzelle||"—"],["Eigentumsform",D.eigentum||"—"],["Wohnsitz",D.wohnsitz||"—"],["Zone",D.zone||"—"]])}
+        <div class="sec">Quantitative Faktoren</div>
+        ${rows([["Baujahr",D.baujahr||"—"],["Grundstücksfläche [m²]",D.grundstueck||"—"],["Gebäudevolumen [m³]",D.volumen||"—"],["Wohn-/Nutzfläche [m²]",D.nwf||"—"],["Zimmer",D.zimmer||"—"],["Parkierung",D.parkplaetze||"—"]])}</div>
+      <div class="col"><div class="sec">Bewertungsergebnis</div>
+        ${rows([["Marktwert (Richtwert)",fmtCHF(r.marktwert)],["Führendes Verfahren",r.fuehrend],["Ertragswert",r.ertrag?fmtCHF(r.ertrag):"—"],["Vergleichswert",r.vergleich?fmtCHF(r.vergleich):"—"],["Realwert (grob)",r.real>0?fmtCHF(r.real):"—"],["Statistische Preisspanne",fmtCHF(r.low)+" bis "+fmtCHF(r.high)]])}
+        <div class="sec">Weitere Kennzahlen</div>
+        ${rows([["Marktwert pro m² NWF",r.nwf?fmtCHF(r.marktwert/r.nwf):"—"],["Brutto-Sollertrag [CHF/J]",r.sollertrag?fmtCHF(r.sollertrag):"—"],["Kapitalisierungssatz",(r.kap*100).toFixed(2)+" %"]])}</div>
+      <div class="col"><div class="sec">Hintergrundinformationen</div>
+        ${rows([["Sanierungsstau [CHF]",D.sanstau||"0"],["Energie-Zertifikat",D.energie||"—"],["Wärmeerzeugung",D.waerme||"—"],["Letzte Sanierung",D.sanjahr||"—"]])}
+        <div class="sec">Datengrundlage</div>
+        ${rows([["Methodik","SVKG/SEK/SVIT 2012"],["Verfahren","Ertrags-, Real-, Vergleichswert"],["Marktdaten","UBS Fact Sheet "+r.m.label],["Stand Marktdaten",r.m.stand],["Status","Online-Richtwert ohne Augenschein"]])}</div>
+    </div>${foot(2)}</div>`;
+
+  // Seite 3 Qualitätsprofil
+  const legend=`<div class="legend"><b>Skala Mikrolage relativ zur Makrolage</b>
+    <div class="lr">${bar(1,"rg")} Unterdurchschnittlich</div><div class="lr">${bar(2,"rg")} Leicht unterdurchschnittlich</div>
+    <div class="lr">${bar(3,"rg")} Neutral</div><div class="lr">${bar(4,"rg")} Leicht überdurchschnittlich</div>
+    <div class="lr">${bar(5,"rg")} Überdurchschnittlich</div></div>`;
+  const p3=`<div class="page">${head}<h1 class="t">Qualitätsprofil</h1>
+    <div class="cols">
+      <div class="col"><div class="sec">Standard<span class="scale">1 dürftig bis 5 luxuriös</span></div>
+        <div class="row"><span class="l">Modellwert</span><span class="v">${bar(r.stdScore)} <b>${r.stdScore.toFixed(1)} ${einstuf(r.stdScore)}</b></span></div>
+        ${rows([["Küche",sel("kueche")],["Nasszellen",sel("bad")],["Bodenbeläge",sel("boden")],["Aussenbereich",sel("aussen")]])}</div>
+      <div class="col"><div class="sec">Zustand<span class="scale">1 erneuerungsbed. bis 5 neuwertig</span></div>
+        <div class="row"><span class="l">Modellwert</span><span class="v">${bar(r.zustScore)} <b>${r.zustScore.toFixed(1)} ${einstuf(r.zustScore)}</b></span></div>
+        ${rows([["Baujahr",D.baujahr||"—"],["Letzte Sanierung",D.sanjahr||"—"],["Sanierungsstau",D.sanstau?fmtCHF(D.sanstau):"—"]])}</div>
+      <div class="col"><div class="sec">Mikrolage<span class="scale">1 sehr schlecht bis 5 exzellent</span></div>
+        <div class="row"><span class="l">Modellwert</span><span class="v">${bar(r.mikroScore,"rg")} <b>${r.mikroScore.toFixed(1)} ${einstuf(r.mikroScore)}</b></span></div>
+        ${rows([["ÖV-Erschliessung",sel("oev")],["Verkehrslärm",sel("laerm")],["Aussicht",sel("aussicht")],["Zentrum/Einkauf",sel("zentrum")]])}${legend}</div>
+    </div>${foot(3)}</div>`;
+
+  // Seite 4 Kontext
+  const p4=`<div class="page">${head}<h1 class="t">Kontext und Methode</h1>
+    <div class="sec">Methode</div><div class="discl">Der Marktwert wird über drei Verfahren ermittelt: Ertragswert (Kapitalisierung des Brutto-Sollertrags, führend bei Renditeobjekten), Vergleichswert (Marktkennwerte je Gemeinde aus UBS Fact Sheets, führend bei Wohneigentum) und Realwert (Bodenwert plus Gebäude-Zeitwert abzüglich Sanierungsstau). Die qualitativen Faktoren (Standard, Zustand, Mikrolage) modifizieren den Wert.</div>
+    <div class="sec">Annahme und Vorbehalt</div><div class="discl">Dies ist ein Online-Richtwert ohne Besichtigung, gestützt auf die von Ihnen erfassten Angaben. Für ein belastbares, unterschriebenes Verkehrswert-Gutachten sind Augenschein, Mieterspiegel und Belege erforderlich. Raphael Jans Architekten ETH/SIA übernimmt für den Online-Richtwert keine Haftung.</div>
+    <div class="sec">Kontakt</div><div class="discl">Raphael Jans Architekten ETH/SIA · Grubenstrasse 37 · 8045 Zürich · rj@raphaeljans.ch — für ein vollständiges Gutachten kontaktieren Sie uns.${D.bemerkung?"<br>Bemerkung Auftraggeber: "+D.bemerkung:""}</div>
+    ${foot(4)}</div>`;
+
+  document.getElementById("rp").innerHTML=p1+p2+p3+p4;
+  document.getElementById("wizard").classList.add("hidden");
+  document.getElementById("report").classList.remove("hidden");
+  window.scrollTo({top:0});
+}
+function sel(name){ const el=document.querySelector(`[name="${name}"]`); return el? el.options[el.selectedIndex].text : "—"; }
+function backToForm(){ document.getElementById("report").classList.add("hidden"); document.getElementById("wizard").classList.remove("hidden"); show(cur); }
+
+/* ---------------- Events ---------------- */
+gemeindeOptions(); load();
+document.querySelectorAll('[data-choice] .opt').forEach(o=>o.addEventListener("click",()=>markChoice(o.closest("[data-choice]").dataset.choice,o.dataset.val)));
+document.getElementById("form").addEventListener("input",save);
+document.getElementById("next").addEventListener("click",()=>nextStep(1));
+document.getElementById("back").addEventListener("click",()=>nextStep(-1));
+
+/* Demo-Modus zum Testen: ?demo=wangen */
+const q=new URLSearchParams(location.search);
+if(q.get("demo")==="wangen"){
+  Object.assign(D,{adresse:"Bahnhofstrasse 27",plz:"8855",gemeinde:"wangen-sz",kanton:"SZ",parzelle:"25 / CH379377805305",
+    typ:"MFH",wohnsitz:"vermietet",eigentum:"Alleineigentum",grundstueck:"751",volumen:"2600",nwf:"538",zimmer:"14",einheiten:"3",parkplaetze:"3",
+    kueche:"3",bad:"3",boden:"3",aussen:"3",waerme:"Öl",energie:"ohne",baujahr:"1990",sanjahr:"2012",zustand:"3",sanstau:"0",
+    oev:"5",laerm:"3",aussicht:"3",zentrum:"4",zone:"WG3",sollertrag:"129000",kapsatz:"5.0",name:"David Chaled"});
+  document.querySelectorAll("#form [name]").forEach(el=>{ if(D[el.name]!=null) el.value=D[el.name]; });
+  buildReport();
+} else { show(0); }
+</script>
+</body>
+</html>
