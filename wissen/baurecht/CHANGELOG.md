@@ -4,6 +4,29 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-15 — Buch-Destillat Kap. 15 Teil 2c (Grenzabstand-Zahlenwerk, S. 1062-1085), Run 6
+- NEU `buecher/band-2/15-lage-von-gebaeuden-teil2c.md` (Shots 535-546, echte Seiten 1062-1085,
+  12 Doppelseiten): Grenzabstand-Zahlenwerk — Definition Fassade↔massgebende Grenzlinie (§ 260 Abs. 1
+  PBG, Messweise im Lot, § 28 ABV); Gebaeudebegriff + Rechtsprechung (Pergola/Carport, § 1/§ 2 ABV);
+  kantonaler Mindestgrenzabstand 3,5 m (§ 270 Abs. 1); kantonaler Mehrhoehenzuschlag ab 12 m / max
+  16,5 m (§ 270 Abs. 2; Ausnahmen Kern-/Quartiererhaltungszone § 50/50a PBG, hohe Bauwerke § 19 BBV II,
+  Lift-Anbauten § 19a BBV II; Hochhaeuser § 282); Zusammensetzung Grund- + Mehrhoehen- + Mehrlaengen-
+  zuschlag (§ 21 Abs. 1 ABV); grosser/kleiner Grundabstand = Hauptwohnseite (§ 22 Abs. 2 ABV);
+  Mehrlaengenzuschlag + 2G-Regel gestaffelte/abgewinkelte Fassaden (§§ 23/24 ABV); Vorsprung-
+  Privilegierung Erker/Balkone ≤ 1/3 / 1,3 m + Gebot restriktiver Auslegung (§ 260 Abs. 3 / § 27 ABV);
+  abstandsfreie unterirdische Bauten ≤ 0,5 m ohne Oeffnungen (§ 269).
+- GESCHAERFT `wiki/abstaende-und-hoehen.md`: Abschnitt Grenzabstand komplett mit Zahlenwerk gefuellt
+  (Formel § 21 ABV, 3,5 m / 12 m / 16,5 m, Hauptwohnseite, 2G-Regel, § 269 abstandsfrei), Vorsprung-
+  Bauteile praezisiert (1/3 / 1,3 m, restriktive Auslegung), Gebaeudeabstand um § 27 Abs. 2 ABV
+  ergaenzt; Platzhalter «Detailwerte offen» aufgeloest; Status `established`, sources/links/Datum.
+- ANWENDUNG: 6 neue Drill-Karten (Modell C) + Modell-B-Fall-Nachrechnung (Mehrhoehenzuschlag MFH 15 m
+  → 9 m Abstand ab 12 m) in `training/drills.md`.
+- REGISTER: `seiten-inventar.md` Shots 535-546 [x] + echte Seiten 1062-1085 + Destillat-Link;
+  `buecher/INDEX.md` Eintrag + Abdeckungsmatrix Kap. 15; `curriculum.md` Status; `wiki/INDEX.md` +
+  `wiki/QUESTIONS.md` (Zahlenwerk erledigt, Gebaeudeabstand §§ 271-274 als naechste Luecke).
+- REPORT `outputs/2026-06-15_buch-run6.md`.
+
+
 ## 2026-06-14 — Buch-Destillat Kap. 15 Teil 2b (Baulinien-Rechtswirkungen + Strassen-/Wegabstand, S. 1034-1061), Run 5
 - NEU `buecher/band-2/15-lage-von-gebaeuden-teil2b.md` (Shots 521-534, echte Seiten 1034-1061,
   14 Doppelseiten): Baulinien-Rechtswirkungen §§ 99-101 PBG — Bauverbot (§ 99), einzelne Vorspruenge
