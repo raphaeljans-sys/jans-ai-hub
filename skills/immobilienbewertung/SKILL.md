@@ -88,6 +88,12 @@ Datei-Docstring; Referenz-Konfigs `tools/wangen_gutachten.json` (Gutachten) und
 `tools/wangen_aufnahmeblatt.json` (das Aufnahmeblatt als Word-Formular). **Pflicht vor Abgabe:**
 PDF rendern (`pdftoppm -png`) und sichten; **Korrektur-Skill** vor der kundenseitigen Finalfassung.
 
+**Variante «Wuest-Dimensions»-Layout:** `tools/build_gutachten_wp.py <config.json> <out.pdf>`
+erzeugt das Gutachten im Dashboard-Layout des WP-Hedonic-Berichts (Querformat A4, 3-Spalten,
+1–5-Balken, Mikrolage-Legende, Karten, Glossar) mit JANS-Anschrift statt WP-Logo. HTML + Chrome
+headless (kein python-docx). Vom Benutzer ausdruecklich gewuenscht (15.06.2026) → Ausnahme zur
+Rule `dokument-layout-standard`. Referenz-Konfig `tools/wangen_gutachten_wp.json`.
+
 ## Datenquellen (in dieser Reihenfolge)
 
 1. **Wissens-KB `wissen/immobilienbewertung/`** — Methodik, Kennwerte, Datenquellen-Registry.

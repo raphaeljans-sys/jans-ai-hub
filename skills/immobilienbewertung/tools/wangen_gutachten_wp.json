@@ -1,0 +1,149 @@
+{
+  "kopf": {
+    "marke": "JANS",
+    "systemzeile": "Liegenschaftsbewertung · Raphael Jans Architekten ETH/SIA"
+  },
+  "fuss_ref": "2622 | Wangen SZ, Bahnhofstrasse 27",
+  "fuss_ersteller": "Erstellt von Raphael Jans Architekten ETH/SIA, 15.06.2026",
+  "seiten_total": 7,
+
+  "titel": {
+    "typ": "Gemischtes Mehrfamilienhaus",
+    "adr1": "Bahnhofstrasse 27",
+    "adr2": "8855 Wangen SZ",
+    "land": "Schweiz",
+    "marktwert": "CHF 2.6 bis 2.8 Mio"
+  },
+  "disclaimer": "Diese Bewertung wurde nach Schweizer Schätzungsstandard (Schätzerhandbuch SVKG/SEK/SVIT 2012) durch Raphael Jans Architekten ETH/SIA erstellt. Stand: aktenbasierter Entwurf vor der Besichtigung vom 19.06.2026. Als Annahme markierte Werte (Zustand, Standard, Mietansätze) werden mit Augenschein, Mieterspiegel und KV verifiziert. Der Marktwert gilt zum Bewertungsstichtag. Keine Haftung für verdeckte Mängel.",
+  "meta": [
+    ["Berichtsdatum", "15.06.2026"],
+    ["Auftraggeber", "David Chaled"],
+    ["Projekt-Referenznummer", "2622"],
+    ["Bewertungs-Id", "2622-LB-2026"],
+    ["Bewerter", "Raphael Jans Architekten ETH/SIA"]
+  ],
+  "toc": [
+    ["Titelblatt", "1"],
+    ["Inhaltsverzeichnis", "2"],
+    ["Bewertung Gemischtes Mehrfamilienhaus", "3"],
+    ["Qualitätsprofil", "4"],
+    ["Karten (Makrolage/Mikrolage)", "5"],
+    ["Kontext", "6"],
+    ["Glossar", "7"]
+  ],
+
+  "objekt_id": [
+    ["Liegenschaftstyp", "Gemischtes MFH (Praxis und Wohnen)"],
+    ["Adresse", "Bahnhofstrasse 27, 8855 Wangen SZ"],
+    ["Parzelle / EGRID", "25 / CH379377805305"],
+    ["Bewertungs-Id", "2622-LB-2026"],
+    ["Bewertungsstichtag", "15.06.2026"],
+    ["Eigentumsform", "Alleineigentum"],
+    ["Zone / ES", "WG3 / ES III"]
+  ],
+  "objekt_quant": [
+    ["Baujahr", "Annahme, zu verifizieren"],
+    ["Grundstücksfläche [m²]", "751"],
+    ["HNF total [m²]", "538.0"],
+    ["davon Gewerbe EG [m²]", "175.4"],
+    ["davon Wohnen [m²]", "362.6"],
+    ["Vollgeschosse", "3 (ausgeschöpft)"],
+    ["Wohneinheiten", "3"]
+  ],
+  "objekt_qual": [
+    ["Energie-Zertifikat", "ohne (zu erheben)"],
+    ["Standard (Annahme)", "2.75 leicht unterdurchschn."],
+    ["Zustand (Annahme)", "2.75 beeinträchtigt bis intakt"],
+    ["Mikrolage", "3.0 durchschnittlich"],
+    ["Parkierung", "3 Garagen plus Vorplatz"],
+    ["Lift", "vorhanden"]
+  ],
+
+  "ergebnis": [
+    ["Marktwert (Halten)", "CHF 2.6 bis 2.8 Mio"],
+    ["Ertragswert (führend)", "2.46 bis 2.72 Mio"],
+    ["Realwert (grob)", "2.7 bis 3.0 Mio"],
+    ["Vergleichswert (Sum-of-parts)", "~3.5 Mio Wohnteil"],
+    ["Statistische Preisspanne", "2.6 bis 2.8 Mio"],
+    ["Implizite Bruttorendite", "5.0 % (Ertragswert)"],
+    ["Kaufpreis-Einordnung", "Angebot 3.1 Mio ~10 % zu hoch"]
+  ],
+  "kennzahlen": [
+    ["Marktwert pro m² HNF", "~5'000"],
+    ["Brutto-Sollertrag [CHF/J]", "≈ 129'000"],
+    ["Kapitalisierungssatz", "~5.0 % (4.75 bis 5.5)"],
+    ["Kaufpreisempfehlung", "~3.0 Mio (Ziel 2.9)"]
+  ],
+  "hintergrund": [
+    ["WHG3 Maisonette", "veraltet (Annahme)"],
+    ["Ausbaureserve", "Geschosszahl ausgeschöpft"],
+    ["Dachausbau-Potenzial", "Aufteilung in 2 Whg zulässig"],
+    ["Wertvermindernde Servitute", "keine (OEREB sauber)"],
+    ["Baurecht", "nein"]
+  ],
+  "datengrundlage": [
+    ["Methodik", "Schätzerhandbuch SVKG/SEK/SVIT 2012"],
+    ["Verfahren", "Ertrags-, Real-, Vergleichswert"],
+    ["Marktdaten", "UBS Fact Sheet Wangen 12/2025"],
+    ["Lageklasse", "Mittel (Bauland 2'702 CHF/m²)"],
+    ["Status", "Entwurf vor Besichtigung"]
+  ],
+
+  "qp_standard": {
+    "scale": "1.0 dürftig bis 5.0 luxuriös",
+    "modellwert": "2.75 leicht unterdurchschnittlich",
+    "bar": "2.75",
+    "rows": [
+      ["Aussenbereich/Umgebung", "Basic (zu erheben)"],
+      ["Wärmeerzeugung", "zu erheben"],
+      ["Grundrissqualität", "durchschnittlich"],
+      ["Küche", "zu erheben"],
+      ["Bodenbeläge", "zu erheben"],
+      ["Nasszellen", "zu erheben"]
+    ]
+  },
+  "qp_zustand": {
+    "scale": "1.0 erneuerungsbedürftig bis 5.0 neuwertig",
+    "modellwert": "2.75 beeinträchtigt bis intakt",
+    "bar": "2.75",
+    "rows": [
+      ["Dach", "zu erheben"],
+      ["Fassade / Fenster", "zu erheben"],
+      ["Haustechnik", "zu erheben"],
+      ["WHG3 Maisonette", "veraltet"],
+      ["Sanierungsstau", "Augenschein 19.06."]
+    ]
+  },
+  "qp_mikro": {
+    "scale": "1.0 sehr schlecht bis 5.0 exzellent",
+    "modellwert": "3.0 durchschnittlich",
+    "bar": "3.0",
+    "rows": [
+      ["ÖV-Güteklasse", "gut (Bahnhofnähe)"],
+      ["Zentrum / Einkauf", "zentral"],
+      ["Verkehrslärm", "erhöht (zu prüfen)"],
+      ["See- / Bergsicht", "keine bis gering"],
+      ["Zonierung", "WG3"]
+    ]
+  },
+
+  "kontext": {
+    "annahme": "Zustand, Standard und Mietansätze sind als Annahme markiert und werden mit dem Augenschein vom 19.06.2026, dem Mieterspiegel des Eigentümers und dem KV Dachausbau verifiziert.",
+    "disclaimer": "Diese Bewertung wurde nach Schweizer Schätzungsstandard (Schätzerhandbuch SVKG/SEK/SVIT 2012) durch Raphael Jans Architekten ETH/SIA erstellt. Der Marktwert gilt zum Bewertungsstichtag. Es besteht keine Haftung für nicht zugängliche Bauteile oder verdeckte Mängel. Die Verwendung ist auf den vereinbarten Zweck und Adressaten beschränkt.",
+    "methode": "Der Marktwert wird über drei Verfahren trianguliert: Ertragswert (Kapitalisierung des Brutto-Sollertrags, führend beim Renditeobjekt), Realwert (Bodenwert plus Gebäude-Zeitwert abzüglich Sanierungsstau) und Vergleichswert (UBS-Marktdaten, Sum-of-parts der Wohnflächen). Bei gemischtem MFH führt der Ertragswert; Real- und Vergleichswert plausibilisieren."
+  },
+  "glossar": [
+    ["Marktwert", "wahrscheinlichster Preis zum Stichtag zwischen verkaufs- und kaufbereiter Partei ohne Zwang (Verkehrswert)."],
+    ["Ertragswert", "kapitalisierter Sollertrag; führend bei Renditeobjekten."],
+    ["Realwert / Sachwert", "Bodenwert plus Gebäude-Zeitwert (Neuwert abzüglich Alterswertminderung und Sanierungsstau)."],
+    ["Vergleichswert", "Markteinordnung über vergleichbare Objekte und Marktdaten; hier als Sum-of-parts der Wohnflächen."],
+    ["Kapitalisierungssatz", "Renditeanforderung, mit der der Sollertrag in einen Wert umgerechnet wird."],
+    ["Brutto-Sollertrag", "marktüblich erzielbarer Jahresmietertrag ohne Abzug von Betriebskosten."],
+    ["HNF", "Hauptnutzfläche nach SIA 416."],
+    ["Lageklasse", "Einstufung der Lagequalität (Schlecht / Mittel / Top) für den Bodenwert."],
+    ["Sanierungsstau", "aufgeschobener Instandsetzungsbedarf je Bauteil, mindert den Realwert."],
+    ["Sum-of-parts", "Wert als Summe der einzeln verkauften Teile (z.B. STWE-Einzelverkauf)."],
+    ["ES III", "Empfindlichkeitsstufe Lärm für gemischte Zonen mit mässig störendem Gewerbe."],
+    ["WG3", "Wohn- und Gewerbezone, 3 Vollgeschosse."]
+  ]
+}
