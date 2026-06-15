@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.06.2026 19:09:35
+Stand: 15.06.2026 19:29:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -16,4 +16,4 @@ Stand: 15.06.2026 19:09:35
 - 1 Datei(en): AR - 07 Archiv / 02_BKP
 
 ## Hub-Git-Stand (NAS)
-- 449c53f nas-selfcommit: 2 Datei(en) 2026-06-15 19:00
+- e95c7e5 nas-selfcommit: 2 Datei(en) 2026-06-15 19:15
