@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -226,6 +226,29 @@ Projektpartnern (11.08.2025):
   einen knappen Vertraulichkeits-Hinweis: «**Bitte vertrauliche behandeln.**» Sachwalter-Reflex
   im Umgang mit Dritt-Material (→ [[haltung]]). Der Zwilling fügt beim Forward heikler Unterlagen
   an Du-Partner eine kurze Vertraulichkeitszeile an, ohne den lockeren Ton zu verlassen.
+
+## «Geschätzter <Vorname>» = Angebot/Offerte an den Geschäftspartner-Du + Spitzname-Reziprozität (belegt Mailbatch 07, authentisch)
+Bei der **Mailofferte an einen vertrauten Geschäftspartner** (WOMA, Christoph Bopp, kunde-bopp)
+wählt Raphael «**Geschätzter Christoph**» — Du, aber gewichtig, weil es um ein verbindliches
+Angebot geht (19.08.2025) — und schliesst trotz der Gewichtigkeit operativ mit «**Lieber Gruss /
+Raphael**» (Angebot = Du-operativ, nicht dokumentierend → [[stimme]]). Reziprok nennt der
+Geschäftspartner ihn beim **Spitznamen «Lieber Raphi»** — bestätigt das Spitznamen-Spiegeln im
+engen reziproken Du (vgl. «Hoi Tom», Mailbatch 04). Mapping-Ergänzung: Christoph Bopp (WOMA,
+Ankaufs-/Potenzialstudien) → Du, «Geschätzter Christoph» (Offerte) / vermutlich «Hoi/Lieber» je
+nach Anlass; er ↔ «Lieber Raphi».
+
+## Weitere Du-Kontakt-Mappings (belegt Mailbatch 07, authentisch)
+- **Gertrud Angerer (Bauherrin, Projekt 2414 Thalwil; mit Stefan Tschopp):** warm-Du «**Liebe
+  Gertrud**» → «**Lieber Gruss**» + voller Block; Liefermail an die private Bauherrschaft mit
+  Du-Anrede zur Hauptperson, «**Euch**» für das Paar.
+- **Claudia (Fotografin/Design-Peer):** warm-sozialer Du-Kontakt, Kurzgruss «**Lgr**», Smiley
+  «;))» (→ [[stimme]]) — reiht sich ins branchennahe, persönlich-warme Du (Architektur-/Bild-Welt).
+- **Yorck/York (deutschsprachiger 3D-Freelancer):** drei Anrede-Varianten an dieselbe Person im
+  selben Faden binnen weniger Tage — «**HOI York.**» (eilig-versal, 19.08.) · «**Hoi Yorck**»
+  (operativ, 20.08.) · «**Hallo Yorck,**» (neutral-freundlich beim Auftrag/Briefing, 22.08.).
+  **Früherer Datenpunkt** als der bisher belegte 25.11.2025: der «Hallo↔Hoi»-Wechsel beim
+  deutschsprachigen Freelancer ist schon im August 2025 etabliert. Bestätigt die Peer-Du-Skala
+  **Hey · Hoi · Hallo · Lieber** und «Anrede variiert mit dem Anlass, nicht der Person».
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

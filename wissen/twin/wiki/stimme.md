@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -258,6 +258,26 @@ Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «He
 - **«Ich ersuche um eine Klärung …»** als gehoben-förmliche Vorabklärungs-Eröffnung gegenüber
   Behörden, neben dem bekannten «Darf ich Sie bitten» (belegt 2025-11-20). Etwas amtlicher,
   wenn eine verbindliche Auskunft erzwungen werden soll.
+
+## Smiley-Varianten «;))» + Versal-Anrede «HOI York.» (belegt Mailbatch 07, authentisch)
+- **«;))»** (Doppel-Klammer-Zwinker) als weitere Smiley-Variante im warm-sozialen Du, neben
+  😊 / «:)»: «schön das Dich meine Skizze an so erwärmende Architekturen erinnern **;))** / Lgr»
+  (warm-sozialer Design-Peer/Fotografin, 2025-08-22). Gleiche Anlassregel — nur warm-sozial,
+  nie im Geschäft/Fachmail. Der Zwilling kennt das Set 😊 · :) · ;)) als austauschbare freundliche
+  Geste im Privat-/Beziehungs-Du.
+- **«HOI York.»** (Versal-Anrede mit Punkt statt Komma) als lockerste, eilige Schreib-Variante
+  von «Hoi» im engsten reziproken Peer-Du (3D-Freelancer, 2025-08-19) — Echtheits-/Eil-Marker,
+  nicht Vorbild; `korrektur` stellt «Hoi <Vorname>,» her. Dieselbe Mail variiert die Namensschreibung
+  desselben Kontakts (York/Yorck) — bekanntes Flüchtigkeitsmuster (TON übernehmen, nicht den Slip).
+- **Sinnlich-poetische Visualitäts-/Atmosphäre-Sprache auch im Kurz-Du:** «Ich mache mich jetzt auf
+  die Suche nach **einer Visualität die ohne das mediterrane Schattenspiel eine Schönheit dem
+  betrachtenden Auge bietet**» (2025-08-22) — derselbe gestalterisch-poetische Klang wie in der
+  Material-/Oberflächen-Fachsprache (→ [[fachsignatur]]), hier in der warm-sozialen Du-Mail.
+- Mikro-Metrik Batch 07 (521 W, Design-/Liefer-Du-lastig): Du-Gross-Quote **1.0** (sauber, da
+  liefernd-präsentierend statt reziprok-casual); Tausender-Apostroph 2× («5'000.-», «1'200.-»);
+  Satzlänge ø **18.6 W** (deskriptiv-gestalterisch, höher als die operativen Liefer-Tiefstwerte);
+  Gruss «**Lieber Gruss**» 3/3 — Kurzgruss dominiert im Design-/Du-Liefer-Batch, auch auf der
+  Mailofferte an einen Geschäftspartner-Du.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

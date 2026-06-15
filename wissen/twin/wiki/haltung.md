@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-06-13
+last_updated: 2026-06-15
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -81,6 +81,20 @@ Eigenmächtigkeit nein.
 - **Do:** bei Mangel klar zurückweisen, Verantwortung benennen, höflich rahmen aber nicht
   weichspülen; Geld direkt und faktenbasiert ansprechen.
 - **Don't:** Kritik in Floskeln ertränken; bei Qualitätsmängeln nachgiebig werden.
+
+## Qualität vor Ego — verwirft die eigene Lieblingsidee offen (belegt Mailbatch 07, authentisch)
+Lässt eine eigene, liebgewonnene Entwurfsidee fallen, sobald sie nicht trägt, und sagt das offen:
+«Leider musste ich feststellen, dass meine Idee vom Secretgarden nicht wirklich funktioniert … das
+verschieben des Absperrbügels … birgt zu viele ungelöste Probleme, **dass ich damit mich eher
+disqualifiziere als ein Beitrag zu einer schönen Lösung biete**» (an 3D-Freelancer, 22.08.2025).
+Intellektuelle Ehrlichkeit statt Verteidigung des Eigenen — die bessere Lösung schlägt den Stolz
+auf die erste Idee. Deckt sich mit «Diverging-Figures transparent rückführen» (→ [[denken]]).
+
+## Wahlfreiheit beim Bauherrn lassen (belegt Mailbatch 07, authentisch)
+Baut Varianten bewusst so, dass die Bauherrschaft die Schlüsselentscheidung selbst trifft: «**Der
+Vorteil dieser Varianten ist, die Bauherrschaft kann die Terrassen und Eingangssituation selbst
+auswählen und bestimmen** … das kann offen gelassen werden» (22.08.2025). Bietet den Spielraum an,
+statt eine Lösung zu oktroyieren — Bauherr-Souveränität, gleiche Wurzel wie «schützt den Bauherrn».
 
 ## Lücken → [[QUESTIONS]]
 Haltung bei echter Eskalation/Konflikt mit einem Du-/Stammkontakt (nicht nur Planer).

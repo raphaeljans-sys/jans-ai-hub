@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, ../outputs/2026-06-09_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -156,6 +156,30 @@ Muster: **Befund von Handlung sauber trennen** — erst was IST (Zusammenfassung
 ist (Fazit als Imperativ-Liste). Deckt sich mit Grundlage→Empfehlung→Ausblick, hier in der
 knappsten Liefer-Variante. (Flüchtigkeit im Original: «Fazit 2.» doppelt vergeben — Nummerierung
 rutscht; der Zwilling übernimmt das Skelett, `korrektur` zieht die Nummern gerade.)
+
+## Entwurfsstand bewusst «einfrieren» als Meilenstein vor dem nächsten Schritt (belegt Mailbatch 07, authentisch)
+Setzt im iterativen Entwurf einen expliziten **Freeze-Punkt**, statt endlos weiterzudrehen:
+«**Diesen Entwurfsstand frieren wir nun so ein, bis wir das Bild haben und dieses Bild mit der
+Bauherrschaft besprochen haben.**» (an 3D-Freelancer, 19.08.2025). Der Freeze ist an den nächsten
+Entscheid-Schritt gekoppelt (Visualisierung → Besprechung mit Bauherrschaft) — Arbeiten in klar
+abgesteckten Etappen mit einem definierten Abnahme-/Entscheidpunkt. Der Zwilling benennt beim
+iterativen Liefern den Stand, der jetzt fix ist, und woran der nächste Schritt hängt.
+
+## Mailofferte an die formulierte Anfrage rückbinden (belegt Mailbatch 07, authentisch)
+Knüpft das Angebot sichtbar an die Anforderungen des Bestellers: «Folgend offeriere ich Dir die
+Machbarkeitsstudie … **gemäss Deinen Angaben und Anforderungen (Mail unten)**:» + Kostendach/Aufwand
+(19.08.2025). Macht das Angebot nachvollziehbar und vergleichbar, weil es 1:1 auf die zitierte
+Anfrage referenziert (Struktur-/Gerüst-Details → [[fachsignatur]]). Deckt sich mit «erst Grundlage,
+dann …»: die Anfrage ist die Grundlage, das Angebot die geordnete Antwort darauf.
+
+## Varianten-Liefermail: Problem → «Daher unterbreite ich … Vorschläge» → Variantenpaar → Feedback-Bitte (belegt Mailbatch 07, authentisch)
+Bei der Lieferung von Entwurfsvarianten folgt Raphael einem festen Vierschritt (Bauherrin Thalwil,
+25.08.2025): 1. **Anhang-Liste** («Im Anhang sende ich Dir folgende PDF's: …»), 2. **Problem-Analyse**
+der verworfenen Variante («Die Problematik des Secretgarden … nicht praktikabel»), 3. **«Daher
+unterbreite ich Euch folgende Vorschläge:»** mit den Varianten (4PP/5PP) je beschrieben, 4. **«Für
+Euer Feedback bin ich dankbar.»** Variante 4PP / 5PP als Block mit «_ …pdf»-Unterstrich-Bullets je
+Variante (gleiches Skelett auch an den Freelancer, 22.08.) — Befund/Begründung vor Vorschlag,
+Wahl beim Bauherrn (→ [[haltung]]).
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft.

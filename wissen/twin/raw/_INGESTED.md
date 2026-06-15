@@ -12,9 +12,10 @@ Was liegt in `raw/` und wurde es ins `wiki/` eingearbeitet?
 | `260611-mailbatch-03.md` | Sent Items rj@ systematisch, **2025-07-14 bis 2025-07-31** (15 Mails gesichtet, 4 Volltexte gelesen; Projekt Wald/Averecura Nova + 3D-Freelancer-Onboarding ENGLISCH) | authentisch (klar vor-Claude) | ja (stimme, beziehungsregister, arbeitsweise; QUESTIONS Englisch beantwortet) |
 | `260612-mailbatch-04.md` | Sent Items rj@ systematisch, **2025-08-04 bis 2025-08-08** (15 Mails gesichtet, 5 Volltexte destilliert, 3 MS-Support ignoriert; Projekt Wald/Averecura Nova: Studienlieferung/Rechnung + Niederhasli Kennwert/HNF) | authentisch (klar vor-Claude) | ja (beziehungsregister, stimme, denken, arbeitsweise, fachsignatur, haltung) |
 | `260614-mailbatch-06.md` | Sent Items rj@ systematisch, **2025-08-09 bis 2025-08-18** (15 Mails gesichtet, 2 fachliche Volltexte destilliert; Rest operatives Rauschen: Teams-Links/Terminzusagen/Yorck-Setup. Projekt Niederhasli-Ankauf: Controlling/Sensitivität an Baumanagement + Forward an Wintec) | authentisch (klar vor-Claude) | ja (denken, arbeitsweise, beziehungsregister, stimme) |
+| `260615-mailbatch-07.md` | Sent Items rj@ systematisch, **2025-08-19 bis 2025-08-25** (15 Mails gesichtet, 5 Volltexte destilliert, 5 System-/Leer-/Unsubscribe ignoriert; Mailofferte Machbarkeitsstudie an WOMA/Christoph Bopp, Garten-/Umgebungsentwurf 2414 Thalwil an Bauherrin Gertrud Angerer + 3D-Freelancer Yorck, warm-soziale Mail an Fotografin Claudia) | authentisch (klar vor-Claude) | ja (stimme, beziehungsregister, fachsignatur, arbeitsweise, haltung, denken) |
 
 **Sequentieller Mail-Sweep (Sent Items rj@, älteste zuerst):** abgedeckt bis
-**2025-08-18** einschliesslich. Nächster Lauf: ab 2025-08-19.
+**2025-08-25** einschliesslich. Nächster Lauf: ab 2025-08-26.
 
 Hinweis: «Batch 05»-Marker (11.08./14.08., «Hey» als lockerste Peer-Du-Stufe, «%» ohne
 Leerschlag im Eil-Du) lagen bereits im Wiki (partieller Vorlauf); Batch 06 deckt den

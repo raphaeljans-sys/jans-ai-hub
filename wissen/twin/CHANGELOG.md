@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-15 — twin-mail-training: Mailbatch 07 (Sent Items rj@, 2025-08-19…25, authentisch)
+- Sequentieller Sweep fortgesetzt: 15 Mails gesichtet, 5 Volltexte destilliert (Mailofferte
+  Machbarkeitsstudie an WOMA/Christoph Bopp; Garten-/Umgebungsentwurf Thalwil 2414 an Bauherrin
+  Gertrud Angerer + an 3D-Freelancer Yorck; warm-soziale Mail an Fotografin Claudia), 5 reine
+  System-/Leer-/Unsubscribe-Mails ignoriert. Stilmetrik (521 W): Du-Gross 1.0, Apostroph 2×
+  (5'000/1'200), Satzlänge ø **18.6 W** (deskriptiv-gestalterisch), Gruss «Lieber Gruss» 3/3.
+- Eingearbeitet (authentisch): [[stimme]] Smiley-Variante «;))» im warm-sozialen Du + Versal-Eil-
+  Anrede «HOI York.»; [[beziehungsregister]] «Geschätzter Christoph» = Angebot/Offerte an
+  Geschäftspartner-Du + Spitzname-Reziprozität «Lieber Raphi», neue Mappings (Gertrud/Bauherrin,
+  Claudia/Design-Peer, Yorck HOI/Hoi/Hallo **früherer** Datenpunkt Aug 2025); [[fachsignatur]]
+  Garten-/Aussenraum-Gestaltungssprache (chaussierter Belag, Mehrstämmer, laterale Zentren,
+  Blickbeziehungen) + Mailofferte-Signatur (Kostendach + Tagespauschalen à CHF); [[arbeitsweise]]
+  Entwurfsstand bewusst «einfrieren» + Mailofferte an Anfrage rückbinden + Varianten-Liefer-
+  Vierschritt; [[haltung]] Qualität vor Ego (verwirft eigene Idee offen) + Wahlfreiheit beim
+  Bauherrn; [[denken]] räumlich-konditionale Entwurfslogik (Befund → Eingriff → weil-Begründung).
+- Register `raw/_INGESTED.md` bis 2025-08-25 fortgeschrieben; Destillat-Hinweis `260615-mailbatch-07`.
+
 ## 2026-06-14 — twin-mail-training: Mailbatch 06 (Sent Items rj@, 2025-08-09…18, authentisch)
 - Sequentieller Sweep fortgesetzt: 15 Mails gesichtet, 2 fachliche Volltexte destilliert
   (Niederhasli-Ankauf: Controlling/Sensitivität an Baumanagement-Partner + Forward an Wintec),
