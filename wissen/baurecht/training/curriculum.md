@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 12 | Baureife | 707 | 356 | P2 | [ ] |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
-| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [~] (S.995-1061: System/Wald/Gewaesser/Baulinien-Arten + Baulinien-Rechtswirkungen §§99-101 / Strassen-/Wegabstand §§264-267; Grenz-/Gebaeudeabstand §§269-274 offen, Shots ab 535) |
+| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [~] (S.995-1085: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + **Grenzabstand-Zahlenwerk §§269-270/ABV**; Gebaeudeabstand §§271-274 offen, Shots ab 547) |
 | 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
 | 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [ ] |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
@@ -75,10 +75,16 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    1,5 m § 100 Abs. 1, weitergehende Beanspruchung + Beseitigungsrevers § 100 Abs. 3, baulinienwidriger
    Bestand § 101, Ueberpruefungsanspruch § 110a, Gebaeudeabstand ueber Strasse § 272), Strassen-/
    Wegabstand §§ 264-267 PBG (subsidiaer; 6 m Strasse / 3,5 m Weg, nur oberirdisch; Garagenvorplatz
-   5,5 m § 266; StrAV Mauern/Pflanzen). Destillat [[15-lage-von-gebaeuden-teil2b]]. Rest: Grenz-/
-   Gebaeudeabstand-Zahlenwerk §§ 269-274, Shots ab 535, S. 1062 ff.)*
-   ⏭️ **Naechster Lauf: Kap. 15 Teil 2c** (Grenz-/Gebaeudeabstand §§ 269-274 — grosser/kleiner
-   Grenzabstand, Mehrlaengenzuschlag) ODER Kap. 17 (Raumhoehen). Empfehlung: Teil 2c (hoechster Nutzen).
+   5,5 m § 266; StrAV Mauern/Pflanzen). Destillat [[15-lage-von-gebaeuden-teil2b]]. Teil 2c distilliert
+   2026-06-15, Run 6, S. 1062-1085: Grenzabstand-Zahlenwerk — Definition Fassade↔Grenzlinie § 260 Abs. 1,
+   Gebaeudebegriff (§ 1/2 ABV), Mindestgrenzabstand 3,5 m § 270 Abs. 1, Mehrhoehenzuschlag ab 12 m / max
+   16,5 m § 270 Abs. 2 (Ausnahmen § 50/50a PBG, § 19/19a BBV II, Hochhaeuser § 282), Zusammensetzung
+   § 21 Abs. 1 ABV, grosser/kleiner Grundabstand = Hauptwohnseite § 22 Abs. 2 ABV, Mehrlaengenzuschlag
+   §§ 23/24 ABV (2G-Regel), Vorsprung-Privilegierung § 260 Abs. 3 / § 27 ABV, abstandsfrei § 269 PBG.
+   Destillat [[15-lage-von-gebaeuden-teil2c]], Wiki [[abstaende-und-hoehen]] geschaerft. Rest: Gebaeude-
+   abstand §§ 271-274, Shots ab 547, S. 1086 ff.)*
+   ⏭️ **Naechster Lauf: Kap. 15 Teil 2d** (Gebaeudeabstand §§ 271-274 — Summenbildung, besondere
+   Gebaeude § 273) ODER Kap. 17 (Raumhoehen). Empfehlung: Teil 2d schliesst Kap. 15 ab; danach Kap. 17.
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.

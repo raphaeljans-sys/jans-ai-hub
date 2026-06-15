@@ -155,3 +155,43 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   ragen darf. (Bd 2, S. 1048-1051.) Beleg vollstaendig — keine Wissensluecke. ✅
   *Offen geblieben (Folgefrage Nachbar):* der **Grenzabstand** zum Nachbargrundstueck (§§ 269-270 PBG)
   ist noch nicht distilliert → naechster Lauf.
+
+## Kap. 15 Teil 2c — Grenzabstand-Zahlenwerk (§§ 269/270 PBG + ABV)
+
+### Modell C — Selbsttest-Karten (2026-06-15)
+- **F:** Wie setzt sich der Grenzabstand im Kanton ZH zusammen? — **A:** Grundabstand +
+  Mehrhoehenzuschlag + Mehrlaengenzuschlag (§ 21 Abs. 1 ABV; Bd 2, S. 1070, 1075). _[2026-06-15]_
+- **F:** Wie hoch ist der kantonale Mindestgrenzabstand? — **A:** **3,5 m** (§ 270 Abs. 1 PBG;
+  Bd 2, S. 1062, 1071). Den eigentlichen (groesseren) Abstand bestimmt die kommunale BZO.
+  _[2026-06-15]_
+- **F:** Ab welcher Hoehe greift der kantonale Mehrhoehenzuschlag, und worauf ist der
+  Grenzabstand maximal beschraenkt? — **A:** Ab **12 m** ueber gewachsenem Boden; der
+  Grenzabstand wird um das Mass der Mehrhoehe vergroessert, **hoechstens bis 16,5 m**
+  (§ 270 Abs. 2 PBG; Bd 2, S. 1071-1072). _[2026-06-15]_
+- **F:** Fuer welche Gebaeudeseite gilt regelmaessig der grosse Grundabstand? — **A:** Fuer die
+  **Hauptwohnseite** (die am meisten nach Sueden gerichtete laengere Gebaeudeseite; § 22 Abs. 2
+  ABV; VB.2015.00290 E. 4.3; Bd 2, S. 1076-1077). _[2026-06-15]_
+- **F:** Wann unterbricht ein Fassaden-Ruecksprung die Laenge fuer den Mehrlaengenzuschlag? —
+  **A:** Wenn der Ruecksprung breiter als **2G** ist (G = Grundabstand) → zwei selbstaendige
+  Fassadenteile; bei < 2G unbeachtlich (§ 24 Abs. 2 ABV; BEZ 2002 Nr. 6; Bd 2, S. 1080).
+  _[2026-06-15]_
+- **F:** Welche Bauten sind grenzabstandsfrei? — **A:** Unterirdische Bauten und solche, die den
+  gewachsenen Boden um ≤ **0,5 m** ueberragen und **keine Oeffnungen** zum Nachbarn aufweisen
+  (§ 269 PBG; Bd 2, S. 1083). Eine Baulinie darf trotzdem nicht ueberschritten werden. _[2026-06-15]_
+
+### Modell B — Fall-Nachrechnung (Mehrhoehenzuschlag, 2026-06-15)
+- **Fall:** MFH/Pflegevolumen, Fassadenhoehe **15 m** ueber gewachsenem Terrain, Zone mit
+  kommunalem Grundabstand 6 m (Hauptwohnseite), kein Mehrlaengenzuschlag relevant. Wie weit muss
+  die Fassade ab 12 m Hoehe von der Grenze zurueckweichen?
+- **Rechnung (nur mit Buchbeleg):** Bis 12 m Hoehe gilt der **Grundabstand 6 m** (BZO).
+  Ab 12 m greift der **Mehrhoehenzuschlag** § 270 Abs. 2 PBG: der Grenzabstand wird **um das Mass
+  der Mehrhoehe** vergroessert. Mehrhoehe = 15 − 12 = **3 m**. Massgebender Grenzabstand ab 12 m
+  = 6 m (Grundabstand) + 3 m (Mehrhoehe) = **9 m**, sofern die kommunale BZO nicht ohnehin einen
+  Mehrhoehenzuschlag vorsieht und solange die kantonale Obergrenze von **16,5 m** nicht erreicht
+  wird (hier nicht). Praktisch: Der Baukoerper muss **ab 12 m** um 3 m von der Grenze
+  zurueckspringen (abgetreppt oder zurueckversetzt). Beleg: Bd 2, S. 1071-1072. ✅ Beleg
+  vollstaendig — keine Wissensluecke.
+- **Healthcare-Transfer JANS:** Genau diese 12-m-Schwelle macht das **vierte Vollgeschoss + Attika**
+  an enger Grenze teuer (Rueckstaffelung kostet aGF). In der Volumenstudie (Skill `volumenstudie`/
+  `machbarkeit`) ab 12 m Fassadenhoehe die Abtreppung modellieren; Hauptwohnseite (grosser
+  Grundabstand) bewusst nach Sueden legen.

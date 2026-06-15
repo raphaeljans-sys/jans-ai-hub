@@ -58,9 +58,15 @@ wurden.
   Bauteile + 1/3-Fassaden-Kriterium am amtlichen Volltext präzisieren.
 
 ## Offene Wissenslücken — neu (2026-06-14, aus Buch-Run Kap. 15 Teil 2b)
-- **Grenz-/Gebäudeabstand-Zahlenwerk §§ 269-274 PBG** (grosser/kleiner Grenzabstand,
-  Mehrlängenzuschlag, Gebäudeabstand als Summe, § 273 reduzierte Abstände besonderer Gebäude):
-  weiterhin offen — Buch S. 1062 ff., Shots ab 535. **Höchster Büroalltagsnutzen** — nächster Lauf.
+- ~~**Grenzabstand-Zahlenwerk §§ 269-270 PBG / §§ 21-28 ABV**~~ → **erledigt 2026-06-15** (Run 6):
+  Mindestgrenzabstand 3,5 m (§ 270 Abs. 1), Mehrhöhenzuschlag ab 12 m/max 16,5 m (§ 270 Abs. 2),
+  Zusammensetzung Grund-/Mehrhöhen-/Mehrlängenzuschlag (§ 21 ABV), grosser/kleiner Grundabstand =
+  Hauptwohnseite (§ 22 Abs. 2 ABV), Mehrlängenzuschlag + 2G-Regel (§§ 23/24 ABV), Vorsprung-Privileg
+  (§ 260 Abs. 3 / § 27 ABV), abstandsfrei § 269 — distilliert [[15-lage-von-gebaeuden-teil2c]]
+  (S. 1062-1085), Wiki [[abstaende-und-hoehen]] geschärft.
+- **Gebäudeabstand §§ 271-274 PBG offen** (Abstand zwischen zwei Gebäuden = Summe der Grenzabstände;
+  § 273 reduzierte Abstände besonderer Gebäude; § 27 Abs. 2 ABV Zusammenrechnung benachbarter
+  Hauptgebäude): noch nicht distilliert — Buch S. 1086 ff., Shots ab 547. **Nächster Lauf (Teil 2d).**
   Ergänzt [[abstaende-und-hoehen]].
 - **§§ 102/103/104 PBG** (Entschädigung materielle Enteignung / Heimschlagsrecht /
   Leitungsbaurecht bei Baulinien): genaue §-Zuordnung am amtlichen Volltext prüfen (im Buch teils

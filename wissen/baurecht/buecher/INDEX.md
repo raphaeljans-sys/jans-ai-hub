@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -37,6 +37,15 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Strasse § 272) + **Strassen-/Wegabstand** (subsidiaer § 264; **6 m Strasse / 3,5 m Weg** § 265, nur
   oberirdisch; Strassengrenze § 267; Garagenvorplatz 5,5 m § 266; Mauern/Pflanzen StrAV). 14 Doppel-
   seiten. Status: `emerging` (Grenz-/Gebaeudeabstand §§ 269-274 offen). Speist [[baulinien-und-abstandslinien]].
+- [[15-lage-von-gebaeuden-teil2c]] — Kap. 15 Teil 2c (S. 1062-1085): **Grenzabstand-Zahlenwerk**
+  — Definition Fassade↔Grenzlinie (§ 260 Abs. 1), **Gebaeudebegriff** (Pergola/Carport-Rechtsprechung,
+  § 1/§ 2 ABV), **Mindestgrenzabstand 3,5 m** (§ 270 Abs. 1), **Mehrhoehenzuschlag ab 12 m / max 16,5 m**
+  (§ 270 Abs. 2; Ausnahmen Kern-/Quartierzone § 50/50a, hohe Bauwerke § 19 BBV II, Lifte § 19a BBV II;
+  Hochhaeuser § 282), Zusammensetzung (§ 21 Abs. 1 ABV: Grund- + Mehrhoehen- + Mehrlaengenzuschlag),
+  **grosser/kleiner Grundabstand = Hauptwohnseite** (§ 22 Abs. 2 ABV), **Mehrlaengenzuschlag** + 2G-Regel
+  gestaffelte Fassaden (§§ 23/24 ABV), **Vorsprung-Privilegierung** (≤ 1/3 / 1,3 m, § 260 Abs. 3 / § 27 ABV,
+  restriktive Auslegung), **abstandsfreie unterird. Bauten ≤ 0,5 m** (§ 269). 12 Doppelseiten. Status:
+  `emerging` (Gebaeudeabstand §§ 271-274 offen, Shots ab 547). Speist [[abstaende-und-hoehen]].
 
 - [[kap16-10_gebaeudedimensionen-harmonisierung]] — Kap. 16.10 (S. 1230-1239, ECHTE Seiten):
   Gebaeudedimensionen nach **Harmonisierungsvorlage (nPBG/IVHB)** — Geschossarten,
@@ -56,7 +65,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | Kap | Titel | Abdeckung |
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
-| 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien-Arten S.995-1033 + Baulinien-Rechtswirkungen §§99-101 / Strassen-/Wegabstand §§264-267 S.1034-1061; Grenz-/Gebaeudeabstand §§269-274 offen) |
+| 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien S.995-1061 + Grenzabstand-Zahlenwerk §§269-270/ABV S.1062-1085; **Gebaeudeabstand §§271-274 offen**) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
 | 1-13, 17-23 | uebrige | ⬜ offen |
 
