@@ -71,6 +71,23 @@ Grundlagen · Augenschein/Qualitaetsprofil · Lage (Makro/Mikro + Karten) · je 
 Marktwert-Synthese · Preisspanne/Ampel/Sensitivitaet · Marktwertbereinigungen (Garage/Baurecht/
 Servitute) · Annahmen & Vorbehalte · Unterschrift · Glossar.
 
+### Generator (DOCX/PDF, JANS-Layout)
+
+`tools/build_gutachten.py` erzeugt das Gutachten aus einer JSON-Konfig im verbindlichen
+JANS-Layout (Cambria, schwarz, rahmenlos) mit Titelblatt (grosse Marktwert-Kennzahl),
+Qualitaetsprofil-Balken (1–5), Tabellen, Glossar, Unterschrift. Nutzt den Baukasten
+`jans_docx.py` (Schwester-Skill `ausschreibung`).
+
+```
+~/.venvs/jansdocx/bin/python tools/build_gutachten.py <config.json> <out.docx>
+bash scripts/docx2pdf.sh <out.docx> <zielordner>     # PDF (LibreOffice)
+```
+
+Voraussetzung: venv `~/.venvs/jansdocx` mit `python-docx`. Block-Typen + Konfig-Schema im
+Datei-Docstring; Referenz-Konfigs `tools/wangen_gutachten.json` (Gutachten) und
+`tools/wangen_aufnahmeblatt.json` (das Aufnahmeblatt als Word-Formular). **Pflicht vor Abgabe:**
+PDF rendern (`pdftoppm -png`) und sichten; **Korrektur-Skill** vor der kundenseitigen Finalfassung.
+
 ## Datenquellen (in dieser Reihenfolge)
 
 1. **Wissens-KB `wissen/immobilienbewertung/`** — Methodik, Kennwerte, Datenquellen-Registry.

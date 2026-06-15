@@ -67,9 +67,12 @@ Mehrwert über WP hinaus (JANS-Alleinstellung):
 - Berichts-Skelett EFH/EWG (Titelblatt/Ergebnis/Qualitätsprofil/Karten/Synthese/Glossar/Vorbehalte).
 - Pilot: Bahnhofstrasse 27 Wangen durchspielen, gegen WP-Logik plausibilisieren.
 
-**Phase 2 — Generator & Layout**
-- DOCX/PDF-Generator auf WP-überlegene Optik (grosser MW, Quali-Balken, Karten, Glossar).
-- Karten-Integration via `geo-zh.mjs` (Makro/Mikro, OEREB, Orthofoto).
+**Phase 2 — Generator & Layout**  ✓ Generator/Optik erledigt (15.06.2026)
+- ✓ DOCX/PDF-Generator `tools/build_gutachten.py` (Titelblatt mit grosser Marktwert-Kennzahl,
+  Qualitätsprofil-Balken 1–5, Tabellen, Glossar, Unterschrift; JANS-Layout via `jans_docx.py`;
+  venv `~/.venvs/jansdocx`). Validiert am Fall Wangen (4-seitiges Gutachten + 2-seitiges
+  Aufnahmeblatt-Formular, beide gerendert/gesichtet).
+- Offen: Karten-Integration via `geo-zh.mjs` (Makro/Mikro, OEREB, Orthofoto) als Bild-Block.
 
 **Phase 3 — weitere Objekttypen**
 - MFH/Rendite (Ertragswert/DCF führt), Healthcare (Kennwerte KB), Bauland (Residual, Brücke `machbarkeit`).
