@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.06.2026 07:44:37
+Stand: 15.06.2026 07:54:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.06.2026 07:44:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8793a7d nas-selfcommit: 2 Datei(en) 2026-06-15 07:30
+- 52b8ecc baurecht-buch-training: Kap. 15 Teil 2c Grenzabstand-Zahlenwerk (§§ 269/270 PBG, S. 1062-1085), Run 6
