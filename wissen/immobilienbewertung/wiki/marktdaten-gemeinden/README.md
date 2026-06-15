@@ -1,7 +1,7 @@
 ---
 title: Marktdaten Gemeinden (UBS Real Estate Local Fact Sheets)
 status: established
-last_updated: 2026-06-12
+last_updated: 2026-06-15
 sources: [IMMO-02 UBSFS]
 links: [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[ertragswert-dcf]]
 ---
@@ -23,6 +23,7 @@ aelter als 18 Monate werden mit ⚠ markiert (siehe `../wissensluecken.md`).
 |---|---|---|---|---|---|
 | Wangen | SZ | 8854 / 1349 | March | 12/2025 | [[marktdaten-gemeinden/sz-wangen-8854]] |
 | Zollikon | ZH | 8125 / 0161 | Pfannenstiel | 12/2025 | [[marktdaten-gemeinden/zh-zollikon-8125]] |
+| Langnau am Albis | ZH | 8135 / 0136 | Zimmerberg | 12/2025 | [[marktdaten-gemeinden/zh-langnau-am-albis-8135]] |
 | Thalwil | ZH | 8800 / 0141 | Zimmerberg | 7/2024 ⚠ | [[marktdaten-gemeinden/zh-thalwil-8800]] |
 | Muri | AG | 5630 / 4236 | Freiamt | 7/2024 ⚠ | [[marktdaten-gemeinden/ag-muri-5630]] |
 | Maur | ZH | 8124 / 0195 | Glattal-Furttal | 7/2024 ⚠ | [[marktdaten-gemeinden/zh-maur-8124]] |
@@ -32,8 +33,8 @@ aelter als 18 Monate werden mit ⚠ markiert (siehe `../wissensluecken.md`).
 | Luzern | LU | 6000 / 1061 | Luzern | 12/2023 ⚠ | [[marktdaten-gemeinden/lu-luzern-6000]] |
 | Einsiedeln | SZ | 8840 / 1301 | Einsiedeln | 12/2023 ⚠ | [[marktdaten-gemeinden/sz-einsiedeln-8840]] |
 
-⚠ = Datenstand älter als 18 Monate → vor Anwendung Marktpuls prüfen (T10). **Alle 10
-verfügbaren UBS-FS sind nun kompiliert** (Stand 2026-06-14). Zwei Preis-Spannen im Bestand:
+⚠ = Datenstand älter als 18 Monate → vor Anwendung Marktpuls prüfen (T10). **11 UBS-FS
+kompiliert** (Stand 2026-06-15; neu: Langnau am Albis 8135, 12/2025). Zwei Preis-Spannen im Bestand:
 **Premium-Seelagen ZH** (Thalwil EFH-Median 15'384, Zollikon noch höher) ↔ **ländliches
 Mittelzentrum** (Muri AG 7'978) — Faktor ~2 allein über die Lage; das ist der Vergleichswert-
 Befund «Lage als stärkster Treiber» ([[vergleichswert-hedonisch]]) quantifiziert. Zwei

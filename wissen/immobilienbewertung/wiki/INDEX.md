@@ -28,6 +28,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - `marktdaten-gemeinden/README.md` — Sammel-Index + Lesehilfe + UBS-FS-Methodik · *established*
 - [[marktdaten-gemeinden/sz-wangen-8854]] — Wangen (SZ), Stand 12/2025 · *established*
 - [[marktdaten-gemeinden/zh-zollikon-8125]] — Zollikon (ZH), Stand 12/2025 · *established*
+- [[marktdaten-gemeinden/zh-langnau-am-albis-8135]] — Langnau am Albis (ZH), Stand 12/2025 (MS Zimmerberg) · *established*
 - [[marktdaten-gemeinden/zh-thalwil-8800]] — Thalwil (ZH), Stand 7/2024 ⚠ (Premium Zimmerberg, JANS-Fall Bohlweg) · *established*
 - [[marktdaten-gemeinden/ag-muri-5630]] — Muri (AG), Stand 7/2024 ⚠ (ländlicher Tiefpreis-Anker) · *established*
 - [[marktdaten-gemeinden/zh-maur-8124]] — Maur (ZH), Stand 7/2024 ⚠ · *established*
