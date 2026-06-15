@@ -11,6 +11,11 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
 - [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert · *emerging*
 
+## Gutachten-Produkt (WP-ueberlegen)
+
+- [[svs-svkg-standard]] — Gutachten-Aufbau, Pflichtangaben, Disclaimer/Haftung, Wording-Regel (Methode statt Titel) · *established*
+- [[qualitaetsprofil-raster]] — Standard/Zustand/Mikrolage 1–5 (WP-kompatibel, durch Augenschein gefuellt) · *established*
+
 ## Grundlagen & Daten
 
 - [[flaechendefinitionen-sia]] — SIA 416 Flaechenbegriffe (aGF/BGF/HNF…) · *established*

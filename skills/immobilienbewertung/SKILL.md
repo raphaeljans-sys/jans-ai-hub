@@ -51,6 +51,26 @@ kostenschaetzung (Baukosten)┘        (Synthese)
 
 Verfahrenswahl + Marktwert-Gewichtung: `wiki/bewertungsverfahren-ueberblick.md`.
 
+## Gutachten-Standard & Besichtigung (das WP-ueberlegene Produkt)
+
+JANS liefert ein **signiertes Experten-Gutachten** mit Augenschein — nicht den anonymen
+hedonischen Modellwert ohne Besichtigung/Haftung, den WP ab CHF 450 verkauft. Pflichtenheft:
+`KONZEPT-WP-UEBERLEGEN.md`. Drei verbindliche Bausteine:
+
+- **Gutachten-Aufbau + Pflichtangaben + Disclaimer/Haftung:** `wiki/svs-svkg-standard.md`.
+- **WORDING-REGEL (verbindlich, Dauerregel 260615):** auf die **Methode/den Standard** berufen
+  («nach Schweizer Schaetzungsstandard / Schaetzerhandbuch SVKG/SEK/SVIT 2012»). Eine persoenliche
+  SVKG-Zertifizierung des Verfassers WEDER behaupten/implizieren NOCH verneinen — offen lassen.
+- **Augenschein:** das **Aufnahmeblatt** `tools/aufnahmeblatt.md` (iPhone-tauglich, Foto-Konvention)
+  vor Ort fuellen → Qualitaetsprofil `wiki/qualitaetsprofil-raster.md` (Standard/Zustand/Mikrolage 1–5,
+  WP-kompatibel, aber beobachtet statt deklariert). Der Sanierungsstau je Bauteil ist der
+  Realwert-Abschlag. JANS-Mehrwert: Ausbaureserven/Volumen, Servitute, Bestandesschutz mitfuehren.
+
+Berichtsstruktur (WP-Struktur + Mehrwert): Titelblatt mit Marktwert · Auftrag/Zweck · Objekt ·
+Grundlagen · Augenschein/Qualitaetsprofil · Lage (Makro/Mikro + Karten) · je Verfahren ein Wert ·
+Marktwert-Synthese · Preisspanne/Ampel/Sensitivitaet · Marktwertbereinigungen (Garage/Baurecht/
+Servitute) · Annahmen & Vorbehalte · Unterschrift · Glossar.
+
 ## Datenquellen (in dieser Reihenfolge)
 
 1. **Wissens-KB `wissen/immobilienbewertung/`** — Methodik, Kennwerte, Datenquellen-Registry.
