@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.06.2026 21:40:40
+Stand: 15.06.2026 21:50:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -16,4 +16,4 @@ Stand: 15.06.2026 21:40:40
 - 1 Datei(en): AR - 07 Archiv / 02_BKP
 
 ## Hub-Git-Stand (NAS)
-- 5ef4cc3 nas-selfcommit: 2 Datei(en) 2026-06-15 21:30
+- c1c6b9d nas-selfcommit: 2 Datei(en) 2026-06-15 21:45
