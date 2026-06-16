@@ -4,6 +4,35 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-16 — Buch-Destillat BAND 1 Kap. 6 (Verfahren) + Kap. 9 (Rechtsschutz), Run 8
+- NEU `buecher/band-1/06-baurechtliches-verfahren.md` (Shots 169-201, echte Seiten 337-405,
+  17 Doppelseiten; Kernbereich, Kapitel reicht bis S. 422): Baubewilligungsverfahren — Zweck/Umfang
+  (§ 309/§ 320 PBG), Bewilligungspflicht + Abgrenzung Melde-/Anzeigepflicht (Solar Art. 18a RPG/30 Tage,
+  Zweifel bejahen § 309 PBG/BEZ 2016 Nr. 42), bewilligungspflichtige Vorhaben (BGE 113 Ib 314,
+  Nutzungsaenderung), Baugesuch (Berechtigung § 310 PBG inkl. STWEG-Zustimmung, Beilagenkatalog § 5 BVV,
+  Plansatz schwarz/rot/gelb, Energienachweis § 10a EnerG), Koordinationsgebot (Art. 25a RPG / §§ 7-9 BVV,
+  kantonale Leitstelle), Verfahrensablauf (summarische Vorpruefung § 11 BVV, Fristen 21 Tage/3 Wochen
+  § 313 PBG, Behandlungsfrist § 319 PBG, Kostenvorschuss § 15 VRG), Aussteckung/Profilierung
+  (§ 311 PBG, Baugespann, Attika detailliert BGer 1C_509/2011), Publikation/Auflage (§ 314 PBG, § 6a BVV,
+  Akteneinsicht § 20 IDG), **Zustellbegehren 20 Tage** (§ 315/§ 316 Abs. 2 PBG = lex specialis, Verwirkung
+  Rekursrecht).
+- NEU `buecher/band-1/09-rechtsschutz.md` (Shots 270-289, echte Seiten 537-575, 16 Doppelseiten;
+  Kernbereich, Kapitel reicht bis S. 608): Rechtsmittelweg dreistufig — Rekurs ans Baurekursgericht
+  (§ 19 Abs. 1 lit. a VRG, volle Kognition § 20 VRG, Einzelrichter ≤ 20'000 Fr. § 335 PBG) → Beschwerde
+  ans Verwaltungsgericht (§ 50 VRG, nur Rechtskontrolle, keine Angemessenheit) → Bundesgericht (Beschwerde
+  i.oe.A. Art. 82/Art. 95 BGG, subsidiaere Verfassungsbeschwerde Art. 113 BGG); Legitimation
+  (schutzwuerdiges Interesse + Beziehungsnaehe § 21 VRG, Verbandsbeschwerde Art. 12 NHG, Gemeindeautonomie
+  Art. 50 BV, Behoerdenbeschwerde § 209f PBG); akzessorische Normenkontrolle § 50a VRG; Verfahrens-
+  grundsaetze (Offizial-/Dispositions-/Untersuchungs-/Eventualmaxime, reformatio in peius § 27 VRG);
+  **Rechtsmittelfrist 30 Tage** (§ 22 VRG; Fax/E-Mail genuegen nicht BGE 121 II 252).
+- WICHTIG Shot→Datei-Mapping korrigiert: die Inventar-/Curriculum-Schaetzung fuer Band 1 war FALSCH.
+  Visuell verifiziert: Kap. 6 ab Shot 169 (`11.45.37.jpg`, p.337), Kap. 9 ab Shot 270 (`11.48.44.jpg`,
+  p.537). Bd-1-Shots nicht durchgaengig kapitellinear.
+- AKTUALISIERT `buecher/INDEX.md` (Band-1-Sektion + Matrix Kap. 6/9 🟡), `buecher/seiten-inventar.md`
+  (Shots 169-201 + 270-289 [x], echte Seiten gesetzt, Mapping-Hinweis), `training/curriculum.md`
+  (Kap. 6/9 [~], korrigierte Shot-Anker, naechster Lauf Kap. 7 bzw. Kap. 9-Rest).
+- Status beider Destillate `emerging` (Restkapitel + amtliche §-Verifikation PBG/BVV/VRG/BGG offen).
+
 ## 2026-06-16 — Buch-Destillat Kap. 15 Teil 2d (Gebaeudeabstand §§ 271-273, S. 1086-1111), Run 7
 - NEU `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (Shots 547-559, echte Seiten 1086-1111,
   13 Doppelseiten): Abschluss der Vorspruenge-Messweise (§ 260 Abs. 3 PBG — abgestuetzte/einzelne
