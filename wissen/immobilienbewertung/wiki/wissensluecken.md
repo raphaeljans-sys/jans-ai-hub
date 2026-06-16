@@ -22,12 +22,27 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T10 | Marktpuls **Mietzins/Angebotsmieten** 2026 + neuerer SREBI-Stand (Zins/Referenz 06.2026 erledigt) | Web + Wuest | [[investorenmarkt-makro]] |
-| T9b | Inhalts-/Kennwert-Auswertung einzelner LB-PDFs (effektive m²/Marktwerte als Benchmark) | IMMO-01 LB/RW/MA | [[projektstruktur-deliverables]] |
-| T7b | Zu-/Abschlagslogik Median→Objekt als Checkliste formalisieren | — | [[vergleichswert-hedonisch]] |
+| T15 | Niederhasli **CS Controlling & Sensitivitaet** auswerten (Szenarienlogik hoch/tief, Break-Even) | IMMO-01 CS Niederhasli | [[projektstruktur-deliverables]] |
+| T16 | Restliche LB-PDFs (Langnau 3338, Wangen-LB) inhaltlich auswerten + Healthcare-Bewertungsfall suchen | IMMO-01 LB | [[projektstruktur-deliverables]] |
 
 ## Erledigt
 
+- ✓ 2026-06-16 **T9b** Inhalts-/Kennwert-Auswertung realer LB/MA-Faelle: Thalwil 9568
+  (LB + MA), Ebmatingen 3932 (LB), Wangen 2622 quantitativ ausgewertet → **Kennwert-Benchmark-
+  Tabelle** (HNF-Faktor, ME/Kaufpreis-Quantil, Erstellungskosten/HNF/m3, Residualer Landwert,
+  ROE) + **MA-Wertanker-Synthese** (4 Bodenwert-Anker → Marktwert) in
+  [[projektstruktur-deliverables]] (Run 5).
+- ✓ 2026-06-16 **T7b** Zu-/Abschlagslogik Median → Objekt als 6-Schritt-Checkliste + JANS-
+  Quantil-Praxisanker (Premium Q90 / Schnitt Q50-60, Bauland nach Lageklasse) →
+  [[vergleichswert-hedonisch]] (Run 5).
+- ✓ 2026-06-16 **T10 (teilweise)** Marktpuls Mieten/SREBI 06.2026: Angebotsmieten 2026 +0.7 %
+  (nach +6 % 2024), Bestandesmieten −0.8 %, UBS SREBI Q4-2025 0.48 «moderat», EFH +4.1 % YoY,
+  BFS Baupreisindex 116.2 (Okt-2025) → [[investorenmarkt-makro]], [[realwert-sachwert]] (Run 5).
+- ✓ 2026-06-16 **D4 (teilweise)** JANS-Residualwert-Tool-Struktur aus MA Thalwil S. 9 reverse-
+  engineered (Wohnungsmix × HNF/GF-Effizienz, 8 % Risiko, 2.70 % Diskontierung, Abzuege,
+  Brutto-/Nettorendite-Kontrolle) + **JANS-Bewertungskonvention** (2.50 % Kapitalisierung,
+  −5 % Baukostenabschlag, 4.5 % Renditeschwelle, ROE-Ampel) → [[ertragswert-dcf]] (Run 5).
+  Offen bleibt das Auslesen der `.xlsx`-Formeln selbst (Freigabe).
 - ✓ 2026-06-14 **T7** (Hedonik-Modellfamilie Wüest/IAZI/Fahrländer/PriceHubble, Methodenkern
   Regression/~70 Kriterien/>20'000 Handänderungen, Einsatzgrenze nur EFH/EW) + **alle 10 UBS-FS
   kompiliert** (neu Thalwil/Muri/Regensdorf/Luzern) → [[vergleichswert-hedonisch]],

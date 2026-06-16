@@ -9,7 +9,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern) · *established*
 - [[ertragswert-dcf]] — Kapitalisierung, Diskontierung, DCF, Mietwert-Korrektur, Gastgewerbe · *established*
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
-- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert · *emerging*
+- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025) · *established*
 
 ## Gutachten-Produkt (WP-ueberlegen)
 
@@ -41,7 +41,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 ## Markt & Konzept (Wuest-Kurs Module 2-4)
 
 - [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *emerging*
-- [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck · *emerging*
+- [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck, SREBI, Marktpuls 06.2026 · *established*
 - [[erfolgsfaktoren-wettbewerb]] — 6 DXMA-Erfolgsfaktoren, Aufwertungsgewinn, A4-Bewertungsblatt · *established*
 
 ## Pflege

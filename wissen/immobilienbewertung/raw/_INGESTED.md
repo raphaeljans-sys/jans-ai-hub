@@ -26,7 +26,7 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | Marktpreis-Quellen | `04 Marktpreise/` (12 Quellen) | div. | 2011-2026 | teilweise | datenquellen-registry |
 | Bodenpreise | `05 Bodenpreise/` | png+pdf | 2023-2025 | teilweise | datenquellen-registry, lageklasse-landwertanteil |
 | Kennwerte (Wohnen/Healthcare/Buero) | `06 Kennwerte/` | docx+pdf+png | 2024-2025 | teilweise | datenquellen-registry |
-| JANS-Projektfaelle (LB/RW/MA/CS) | `01 Projekte/01 BEWERTUNG PROJEKTE/` | indd+pdf+xlsx | 2024-2025 | teilweise — **Fall-Register eingearbeitet** (Run 4 2026-06-14): Thalwil 9568 (LB+RW+MA), Ebmatingen 3932 (LB+RW tief/hoch), Langnau 3338, Wangen, Niederhasli CS → projektstruktur-deliverables (T9). Offen: Inhalts-/Kennwert-Auswertung einzelner LB-PDFs | projektstruktur-deliverables |
+| JANS-Projektfaelle (LB/RW/MA/CS) | `01 Projekte/01 BEWERTUNG PROJEKTE/` | indd+pdf+xlsx | 2024-2025 | **3 Faelle inhaltlich ausgewertet** (Run 5 2026-06-16): Thalwil 9568 (LB 250328 5 S. + MA 2414 20 S.), Ebmatingen 3932 (LB 1 S.), Wangen 2622 (Neubau-Potenzial 1 S.) → quantitative Kennwert-Benchmark-Tabelle + MA-Wertanker-Synthese + JANS-Bewertungskonvention + Residualwert-Tool-Struktur (projektstruktur-deliverables/ertragswert-dcf/realwert-sachwert). Offen: Niederhasli CS (T15), Langnau/Wangen-LB-Detail, Healthcare-Bewertungsfall (T16) | projektstruktur-deliverables, ertragswert-dcf, realwert-sachwert |
 
 ## Naechste Ingest-Schritte (durch Trainingsprogramm)
 

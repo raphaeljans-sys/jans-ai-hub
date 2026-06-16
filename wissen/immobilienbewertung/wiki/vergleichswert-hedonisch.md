@@ -1,8 +1,8 @@
 ---
 title: Vergleichswert / hedonische Bewertung
 status: established
-last_updated: 2026-06-14
-sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026)]
+last_updated: 2026-06-16
+sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte (Thalwil 9568 MA 241126: Bauland Mittel/Top → Marktwert-Synthese), Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026)]
 links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -114,6 +114,34 @@ Einordnung als Methoden-Kontext, `emerging`):
   für den Markt-Check; der Bewerter positioniert das konkrete Objekt im Quantil (siehe
   Mikrolage/Marktanspannung oben). Die Hedonik liefert die **Markteinordnung**, die finale
   Objektbewertung bleibt Bewerterleistung (Zu-/Abschläge).
+
+## Zu-/Abschlagslogik Median → konkretes Objekt (Checkliste, T7b)
+
+Der hedonische Median ist ein **Gemeinde-/Segment-Durchschnitt**; die Objektbewertung
+positioniert das konkrete Objekt im Quantil. Schrittfolge (JANS-Praxis, belegt aus den realen
+LB/MA-Faellen — vgl. [[projektstruktur-deliverables]]):
+
+1. **Basiswert waehlen:** UBS-FS-/WP-Median (50 %) der zutreffenden Nutzung (EW/Miete/Bauland)
+   und Gemeinde als Ausgangspunkt. **Neubau** wird grundsaetzlich ins obere Quantil gehoben
+   (Q70-Q90), da die Spektren mehrheitlich Altbauten enthalten (s.o.).
+2. **Mikrolage** gegen den Gemeindeschnitt (Zentralitaet, Hang/Aussicht, Laerm, OeV, Naehe
+   Schulen/Laeden) → Quantil-Korrektur. Formal abbildbar ueber das Punktesystem/Kriterien-
+   raster der Schaetzungsanleitung (Tab. 14/15, je ±9-20 %, siehe [[ertragswert-dcf]]).
+3. **Zustand / wirtschaftliches Alter:** neuwertig 0 % bis sehr stark abgenuetzt bis −30 %
+   (Tab. 14) — bei Bestand ueber die Alterswertminderung ([[realwert-sachwert]]).
+4. **Ausbaustandard / Haustechnik / Bad-Kueche:** luxurioes … ueblicher Standard … veraltet
+   (Tab. 15, je ±9 %).
+5. **Stockwerk / Aussicht / Besonnung / Zusatznutzungen** (Attika +, EG/Nordlage −; Balkon/
+   Cheminee/Lift).
+6. **Marktanspannung im Segment** (Realmatch360 Angebot vs. Suchabos je Zimmerzahl/Preis):
+   Nachfrageueberhang erlaubt Aufschlag, Angebotsueberhang zwingt zum Abschlag.
+
+**JANS-Praxis-Anker (Quantil-Wahl nach Lage, belegt):** Premiumlage Thalwil → ME und
+STWE-Kaufpreis am **Q90** (470 CHF/m2/J bzw. 20'000 CHF/m2); Durchschnittslage Ebmatingen →
+**Q50-60** (283 bzw. 12'000). Der **Bauland-/Landwert** wird aus dem UBS-FS-Baulandpreis nach
+**Lageklasse** (Schlecht/Mittel/Top) gezogen (Wangen: «Mittel» 2'702 CHF/m2; Thalwil-MA:
+Mittel 4'268 / Top 5'508 → Synthese-Marktwert 4'850). ⚠ Quantil-/Stufenwahl ist
+Bewerterleistung und immer zu begruenden.
 
 ## Lage als staerkster Treiber
 

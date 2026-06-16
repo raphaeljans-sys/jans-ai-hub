@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-14
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web)]
+last_updated: 2026-06-16
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q4-2025 0.48, BFS Baupreisindex Apr/Okt-2025]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -150,6 +150,27 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
 - **Bewertungsfolge:** tiefes Zinsniveau stützt Diskont-/Kapitalisierungssätze auf tiefem
   Niveau → hohe Bewertungen halten; aber Mietsenkungsdruck via Referenzzins dämpft den
   Bestandes-Cashflow ([[ertragswert-dcf]]).
+
+## Marktpuls Mieten & Blasenrisiko (Stand 06.2026, Web)
+
+Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
+
+- **Angebotsmieten** (Wüest Partner / SMG-Mietindex): Nach **> +6.0 % in 2024** flachte das
+  Wachstum 2025 deutlich ab — Q1-2026 noch **+1.3 % YoY**; Prognose **2026 nur +0.7 %**
+  national. Weitgehende Stabilisierung nach den Hochzuwächsen 2023/24.
+- **Bestandesmieten** könnten 2026 **−0.8 %** ergeben — Folge der **zwei
+  Referenzzinssatz-Senkungen 2025** (auf 1.25 %, vgl. Marktpuls-Abschnitt oben). Für die
+  Ertragsbewertung: Bestandes-Cashflow eher unter Druck, Neuvermietungspotenzial flach
+  ([[ertragswert-dcf]]).
+- **UBS Swiss Real Estate Bubble Index 2025:** Q1 0.29 → Q3 0.29 → **Q4-2025 0.48**
+  (stärkster Quartalsanstieg seit 1989, aber weiterhin **«moderat»**, weit unter der Blase
+  ~1989). EFH-Preise **+4.1 % YoY** in Q4-2025; Wohneigentum Q1-2026 **+3.5 % YoY**; UBS-
+  Prognose Wohneigentum **+3 % für 2026**. Löst den Q2-2024-Stand (0.74) als aktuellen Anker ab.
+- **Baupreisindex BFS (Basis Okt 2020 = 100):** Okt-2024 → Apr-2025 **+0.6 % auf 115.8**,
+  Apr → Okt-2025 **+0.3 % auf 116.2** (Hochbau +0.9 % YoY; Treiber Rohbau 1, Sanitär, Elektro;
+  grösste regionale Anstiege Ostschweiz +1.0 %, Genferseeregion +0.8 %). Wohnungsbau wächst
+  (tiefe Zinsen, hohe Nachfrage), Wirtschaftsbau stagniert. → Erstellungskosten-Benchmarks
+  weiter leicht anziehend ([[realwert-sachwert]]).
 
 ## Bueromarkt Zuerich (hbre/Savills 2024) — Geschaeftsflaechen-Kontext
 

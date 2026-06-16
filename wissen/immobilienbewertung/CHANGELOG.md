@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-16 — Training-Run 5: reale JANS-Faelle quantitativ ausgewertet (T9b/T7b/T10/D4)
+
+- **`wiki/projektstruktur-deliverables.md`** (→ established, 06-16): **Quantitative Kennwert-
+  Benchmark-Tabelle** aus 3 ausgewerteten Faellen (Thalwil 9568 LB+MA, Ebmatingen 3932 LB,
+  Wangen 2622) — HNF-Faktor (57-80 %), ME/STWE-Kaufpreis-Quantil je Lage, Erstellungskosten
+  (CHF/HNF, CHF/m3), Residualer Landwert, ROE-Befund; dazu **MA-Wertanker-Synthese** (4 Boden-
+  wert-Anker Residualwert/UBS-FS-Mittel/UBS-FS-Top → Marktwert + Entwicklergewinn-Gegenrechnung).
+- **`wiki/ertragswert-dcf.md`** (06-16): **JANS-Bewertungskonvention** belegt — Kapitalisierung
+  Mietobjekt 2.50 %/40 J, Diskontierung Residualwert 2.70 %, Risiko/Gewinn 8 %, Baukosten-
+  abschlag −5 %, Bruttoanfangsrendite-Schwelle 4.5 % (Geschaeft 5.5 %), ROE-Ampel; **Residual-
+  wert-Tool-Struktur** reverse-engineered aus MA Thalwil S. 9 (adressiert D4 teilweise).
+- **`wiki/vergleichswert-hedonisch.md`** (06-16): **T7b** Zu-/Abschlagslogik Median → Objekt
+  als 6-Schritt-Checkliste + JANS-Quantil-Praxisanker (Premium Q90 / Schnitt Q50-60, Bauland
+  nach Lageklasse Schlecht/Mittel/Top).
+- **`wiki/investorenmarkt-makro.md`** (06-16): **Marktpuls 06.2026** — Angebotsmieten 2026
+  +0.7 % (nach +6 % 2024), Bestandesmieten −0.8 %, UBS SREBI Q4-2025 0.48 «moderat» (staerkster
+  Quartalsanstieg seit 1989), EFH +4.1 % YoY, BFS Baupreisindex Okt-2025 116.2.
+- **`wiki/realwert-sachwert.md`** (→ established, 06-16): Baupreisindex-2025-Update + JANS-
+  Praxisbeleg (WP-S.37-Kennwerttabelle = gelebter JANS-Kostenkennwert, MA Thalwil 6'000/HNF).
+- Register gepflegt: `_INGESTED.md` (3 Faelle ausgewertet), `curriculum.md` (E6 weitgehend,
+  E7 fortgeschritten), `wissensluecken.md` (T9b/T7b ✓, T10/D4 teilweise; neu T15/T16).
+- Report: `outputs/2026-06-16_training-run5.md`.
+
 ## 2026-06-15 — UBS-FS Langnau am Albis 8135 (12/2025) kompiliert
 
 - **Neu `wiki/marktdaten-gemeinden/zh-langnau-am-albis-8135.md`** — UBS Real Estate Local

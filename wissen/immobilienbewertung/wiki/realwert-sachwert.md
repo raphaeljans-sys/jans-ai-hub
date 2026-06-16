@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
-status: emerging
-last_updated: 2026-06-10
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-01 LB Liegenschaftsbewertung-Projekte, Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38)]
+status: established
+last_updated: 2026-06-16
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -102,6 +102,16 @@ Quervergleiche/Herleitung (alle Werte Datenstand 2021-2023, ⚠ Teuerung seither
   **mind. +10 %** anheben; dazu +10-15 % wegen gestiegener Standards/Beduerfnisse vs.
   vor 10 Jahren; Zuercher Index der Wohnbaupreise Neubauten **+8.3 %** Okt. 21-Okt. 22;
   Wohnbauprojekte 2023 rund **+30 % teurer als vor 10 Jahren**.
+- **Baupreisindex-Update 2025 (BFS, Basis Okt 2020 = 100):** Okt-2024 → Apr-2025 **+0.6 %
+  auf 115.8**, Apr → Okt-2025 **+0.3 % auf 116.2** (Hochbau +0.9 % YoY; Treiber Rohbau 1,
+  Sanitaer, Elektro). Die Teuerung verlangsamt sich, bleibt aber positiv → die WP-Benchmarks
+  (Stand 2021-2023) sind weiter **leicht aufzuindexieren**; der MA-Praxisaufschlag «mind.
+  +10 %» bleibt gerechtfertigt ([[investorenmarkt-makro]]).
+- **JANS-Praxisbeleg:** Die obige WP-Tabelle (S. 37) ist in den realen JANS-Deliverables
+  uebernommen — die MA Thalwil 9568 (26.11.2024) fuehrt sie identisch und rechnet im
+  Residualwert-Tool mit **6'000 CHF/m2 HNF** (Wohnen Vollausbau, Premiumlage). Die LB
+  Ebmatingen setzt **BKP 2 = 4'100 CHF/m2** bzw. BKP 1-5 ~855 CHF/m3 an. Damit ist die
+  Tabelle nicht nur Referenz, sondern gelebter JANS-Kostenkennwert ([[projektstruktur-deliverables]]).
 - Weitere Benchmark-Quellen (S. 38): Zuercher Index der Wohnbaupreise (Gewichtung:
   BKP 2 = 84.7 %, BKP 1 = 7.0 %, BKP 4 = 5.0 %, BKP 5 = 3.3 %), werk-material.online
   (CRB), kennwerte.ch.
