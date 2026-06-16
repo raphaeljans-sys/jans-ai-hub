@@ -3,7 +3,7 @@ title: Haltung & Werte
 status: established
 last_updated: 2026-06-16
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 

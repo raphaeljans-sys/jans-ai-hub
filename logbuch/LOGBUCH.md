@@ -5,6 +5,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-16
+
+- **Radar-Lauf:** Register gegen bexio (`--offen`/`--verzug`/`--mahnstufe`), Kalender (M365) und
+  Mail-Eingang abgeglichen. Live-Bild hat sich gegenueber gestern deutlich veraendert.
+- **Debitoren (live, `--offen`):** vier offene Rechnungen — RE-00087 (Kispi, CHF 15'000, faellig
+  16.04., **61 Tage ueberfaellig**, Mahnstufe 1 Zahlungserinnerung, naechste Frist 28.06.),
+  RE-00089 (Kispi, CHF 15'000, faellig 18.06.), RE-00096 (Tschopp, CHF 6'000, faellig heute 16.06.),
+  RE-00097 (Hofer, CHF 500, faellig heute 16.06.).
+- **RE-00088-Konflikt (wichtig):** RE-00088 ist in bexio NICHT mehr offen (bezahlt/abgeglichen).
+  M. Baumgartner (Kispi) meldet per Mail (15.06.): «RE-00088 haben wir am 02.06.26 bezahlt». Die am
+  13.06. versendete **Mahnung 2 auf RE-00088 war damit gegenstandslos** — die Phantom-Zahlung, die
+  wir geloescht hatten, entsprach einer echten Kispi-Zahlung. Als aktive Pendenz «zu pruefen»
+  uebernommen (Mahnung ggf. zuruecknehmen/entschuldigen). Zweite Kispi-Mail (11:42) widerspricht
+  teils (Rechnung «stecken geblieben») — vor einer Reaktion verifizieren.
+- **Neuer Verzug:** RE-00087 (Kispi, CHF 15'000, faellig 16.04.) taucht neu als ueberfaellig auf,
+  61 Tage, erst Mahnstufe 1. In Register als hohe Prio aufgenommen.
+- **Kalender naechste 7 Tage:** 17.06. 10:00 Sitzung KISPI PPTS (Brandschutz, Teams); 19.06.
+  Besichtigung David, Bahnhofstrasse 27. **Korrektur:** der Live-Kalender weist die Besichtigung
+  auf 19:00–21:00 aus (nicht 14:00 wie bisher notiert) — Register angepasst.
+- **Mail-Hinweis 17.06.:** J. Ziegel (Gruner) meldet am 16.06. krankheitsbedingte Abwesenheit (ab
+  17.06. wieder im Dienst); BS-Plan/Brandlastberechnung als Sitzungsgrundlage noch offen, Brandlast
+  laut Ziegel nicht von ihm zu unterzeichnen. Am 17.06.-Termin vermerkt.
+- **Offen/nachfassen:** bexio-Doppelimport (Kontaktformular, 18.06.), EPROID B26-00705.01 (20.06.).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Konflikt in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-15
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365) und Mail-Eingang abgeglichen.

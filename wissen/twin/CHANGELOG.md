@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-16 — twin-mail-training: Batch 08 (Sent Items rj@, 2025-08-26…08-27, authentisch)
+- 15 Mails gesichtet, 5 Volltexte gelesen; grösstenteils Fortsetzung der Batch-07-Threads
+  (Yorck/Thalwil-Visualisierung, WOMA/Bopp-Ankaufstudie Ebmatingen) + operatives Rauschen
+  (HUB12-Forwards, Teams-Einladungen). Raw: `raw/260616-mailbatch-08.md`.
+- Mikro-Metrik (553 W): Du-Gross-Quote 0.826, Tausender-Apostroph 2×, Satzlänge ø 19.1 W,
+  Gruss «Lieber Gruss» 4× dominant + «Beste Grüsse» 1×.
+- Eingearbeitet (authentisch): [[arbeitsweise]] **neu** — präziser Visualisierungs-/Shot-Brief an
+  den Freelancer (nummerierte Shot-Liste + Planquelle + Ansicht/Format) + Selbst-Fallback
+  («ich lerne und kaufe die Programme … selber raus»). [[stimme]] «Hello,» als lockerer Du-Opener
+  in dt. Mail + «Guten Aben(d)» bestätigt + Metrik-Datenpunkt. Bestätigend (gleicher Thread):
+  [[haltung]] Qualität-vor-Ego/Wahlfreiheit, [[beziehungsregister]] Bopp-Mapping (Geschätzter=Offerte/
+  Lieber=operativ, ↔ «Lieber Raphi»). Sources in stimme/arbeitsweise/haltung/beziehungsregister ergänzt.
+- Sequentieller Sweep nun abgedeckt bis **2025-08-27**. Nächster Lauf: ab 2025-08-28.
+
 ## 2026-06-16 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Okt/Nov 2025, authentisch)
 - Goldproben (rj@ Sent Items, vor-Claude): A Honorarofferte an WOMA/Bopp «Geschätzter Christoph»
   (2025-10-17), B Wettbewerbs-Einladung an Architektenkollege A. Geser «Guten Morgen Andreas»

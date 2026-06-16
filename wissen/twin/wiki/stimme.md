@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-06-15
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -278,6 +278,17 @@ Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «He
   Satzlänge ø **18.6 W** (deskriptiv-gestalterisch, höher als die operativen Liefer-Tiefstwerte);
   Gruss «**Lieber Gruss**» 3/3 — Kurzgruss dominiert im Design-/Du-Liefer-Batch, auch auf der
   Mailofferte an einen Geschäftspartner-Du.
+
+## «Hello,» als lockerer Du-Opener + Eil-Du-Datenpunkte (belegt Mailbatch 08, authentisch)
+- **«Hello,»** als englisch-anmutender, lockerer Du-Opener in einer **deutschsprachigen**
+  Freelancer-Mail (23.08.2025, im Quote) — reiht sich neben «Hoi»/«Hallo»/«Guten Morgen»/«Guten
+  Aben» als situative Variante im Peer-Du. Kein Sprachwechsel, nur lockerer Gruss-Ton.
+- **«Guten Aben(d) <Vorname>»** als Tageszeit-Anrede im Du erneut belegt (26.08.2025).
+- Mikro-Metrik Batch 08 (553 W, Mix operativ/reziprok): Du-Gross-Quote **0.826** (Spiegelungs-
+  Abweichung im Yorck-Eil-Du «du»/«dir» klein neben Bopp-/Lieferregister «Dir»/«Deine» gross —
+  bestätigt das Muster Batch 03/04/05); Tausender-Apostroph 2× («5'000.-», «1'200.-»); Satzlänge
+  ø 19.1 W; Gruss «Lieber Gruss» 4× dominant + «Beste Grüsse» 1×; keine Ellipsen/«%». Flüchtigkeit:
+  «Guten Aben», «nachmidellierst», «Du findes» — TON übernehmen, `korrektur` zieht es gerade.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei
