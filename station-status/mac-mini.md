@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.06.2026 07:43:15
+Stand: 16.06.2026 07:53:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.06.2026 07:43:15
 - 2 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- 9898d39 nas-selfcommit: 2 Datei(en) 2026-06-16 07:30
+- bc56511 baurecht-buch-training: Kap. 15 Teil 2d Gebaeudeabstand §§ 271-273 (Run 7, S. 1086-1111)
