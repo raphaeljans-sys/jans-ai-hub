@@ -4,6 +4,26 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-16 — Buch-Destillat Kap. 15 Teil 2d (Gebaeudeabstand §§ 271-273, S. 1086-1111), Run 7
+- NEU `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (Shots 547-559, echte Seiten 1086-1111,
+  13 Doppelseiten): Abschluss der Vorspruenge-Messweise (§ 260 Abs. 3 PBG — abgestuetzte/einzelne
+  Vorspruenge, Erker, Traufe-Verbot, Drittel-/Laengenbeschraenkung, Vordach ohne Drittel BEZ 2017
+  Nr. 27); weitere Erleichterungen (reduzierter Grenzabstand § 49 Abs. 2 lit. b PBG, hohe Bauwerke
+  §§ 260 Abs. 2/270 Abs. 2 PBG, Familiengartenhaeuser § 18 Abs. 2 BBV II, Aussenwaermedaemmung bis
+  35 cm § 253a PBG/§ 33a ABV); Naeherbaurecht § 270 Abs. 3 PBG (nur Grenzabstaende verfuegbar,
+  Form/Nachweis § 5 lit. l BVV, Grundbuch Art. 680 Abs. 2 ZGB, Widerruf § 321 PBG, 7-m-Schranke
+  BEZ 1990 Nr. 28 + § 30 ABV); **Gebaeudeabstand §§ 271-273** (= Summe der Grenzabstaende § 271,
+  Verkehrsraeume § 272, Gebaeudeteile vs. Zusammenbau); **Besondere Gebaeude § 273/§ 49 Abs. 3 PBG**
+  (kein dauernder Aufenthalt + groesste Hoehe ≤ 4/5 m → 3,5 m Abstand, ~50 m² BEZ 2015 Nr. 2,
+  Kasuistik, Anbau-Selbststaendigkeit VB.2015.00544, kein Dispens § 220 PBG/BEZ 2004 Nr. 75).
+- GESCHAERFT `wiki/abstaende-und-hoehen.md`: Sektionen Gebaeudeabstand (§§ 271-273 + Besondere
+  Gebaeude) und Naeherbaurecht neu/ausgebaut; Frontmatter (sources/links/Datum 2026-06-16).
+- AKTUALISIERT `wiki/INDEX.md`, `wiki/QUESTIONS.md` (§§ 271-273 erledigt, § 274 neu offen),
+  `buecher/INDEX.md`, `buecher/seiten-inventar.md` (Shots 547-559 [x]), `training/curriculum.md`
+  (Kap. 15 abgeschlossen, naechster Lauf Kap. 17), `training/PROGRAMM.md` (Tracker).
+- DRILLS `training/drills.md`: Modell C (7 Karten) + Modell B (Garage als Besonderes Gebaeude).
+- REPORT `outputs/2026-06-16_buch-run7.md`.
+
 ## 2026-06-15 — Buch-Destillat Kap. 15 Teil 2c (Grenzabstand-Zahlenwerk, S. 1062-1085), Run 6
 - NEU `buecher/band-2/15-lage-von-gebaeuden-teil2c.md` (Shots 535-546, echte Seiten 1062-1085,
   12 Doppelseiten): Grenzabstand-Zahlenwerk — Definition Fassade↔massgebende Grenzlinie (§ 260 Abs. 1

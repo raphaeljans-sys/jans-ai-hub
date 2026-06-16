@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -88,23 +88,22 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 ## Fortschritts-Tracker
 
 - **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07.
-- **Seiten distilliert:** ~152 / 1550 (76 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 Teil 1+2a+2b+2c).
-- **Kapitel-Destillate:** 4 (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` Teil 1+2a+2b + neu Teil 2c `emerging`).
-- **Wiki:** 10 Artikel ([[abstaende-und-hoehen]] 2026-06-15 um das Grenzabstand-Zahlenwerk §§ 269-270 PBG / §§ 21-28 ABV geschaerft, Status `established`).
-- **Letzter Lauf:** Run 6, 2026-06-15 — Kap. 15 Teil 2c (Grenzabstand-Zahlenwerk §§ 269/270 PBG +
-  §§ 21-28 ABV: Definition Fassade↔Grenzlinie § 260 Abs. 1, Gebaeudebegriff, Mindestgrenzabstand 3,5 m
-  § 270 Abs. 1, Mehrhoehenzuschlag ab 12 m / max 16,5 m § 270 Abs. 2 inkl. Ausnahmen § 50/50a PBG +
-  § 19/19a BBV II + Hochhaus § 282, Zusammensetzung § 21 ABV, grosser/kleiner Grundabstand =
-  Hauptwohnseite § 22 Abs. 2 ABV, Mehrlaengenzuschlag + 2G-Regel §§ 23/24 ABV, Vorsprung-Privileg
-  § 260 Abs. 3 / § 27 ABV, abstandsfrei § 269; Shots 535-546, S. 1062-1085); neues Destillat
-  [[15-lage-von-gebaeuden-teil2c]], Wiki [[abstaende-und-hoehen]] auf `established` geschaerft,
-  **Modell C** 6 Karten + **Modell B** Mehrhoehenzuschlag-Fall (MFH 15 m → 9 m ab 12 m).
-- **Naechster Lauf:** **Kap. 15 Teil 2d** — Gebaeudeabstand §§ 271-274 PBG (Abstand zwischen zwei
-  Gebaeuden = Summe der Grenzabstaende, besondere Gebaeude § 273, § 27 Abs. 2 ABV Zusammenrechnung
-  benachbarter Hauptgebaeude), Shots ab 547, S. 1086 ff. — schliesst Kap. 15 ab. ODER **Kap. 17**
-  (Raumhoehen/Wohnhygiene, Shots ~623). Empfehlung: Teil 2d (schliesst das Abstandskapitel).
+- **Seiten distilliert:** ~178 / 1550 (89 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 **vollstaendig** Teil 1+2a+2b+2c+2d ausser § 274).
+- **Kapitel-Destillate:** 5 Buch-Destillate (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` Teil 1+2a+2b+2c + neu Teil 2d `emerging`).
+- **Wiki:** 10 Artikel ([[abstaende-und-hoehen]] 2026-06-16 um Gebaeudeabstand §§ 271-273 + Naeherbaurecht § 270 Abs. 3 geschaerft, Status `established`).
+- **Letzter Lauf:** Run 7, 2026-06-16 — Kap. 15 Teil 2d (Gebaeudeabstand §§ 271-273 PBG +
+  Vorspruenge-Messweise + Erleichterungen + Naeherbaurecht): § 271 Gebaeudeabstand = Summe der beiden
+  Grenzabstaende, § 272 kein Abstand ueber Verkehrsraeume, § 273/§ 49 Abs. 3 Besondere Gebaeude
+  (≤ 4/5 m, kein dauernder Aufenthalt → 3,5 m, ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75),
+  Naeherbaurecht § 270 Abs. 3 (Form § 5 lit. l BVV, Grundbuch Art. 680 Abs. 2 ZGB, 7-m-Schranke
+  BEZ 1990 Nr. 28, § 30 ABV), Vordach BEZ 2017 Nr. 27, Aussenisolation 35 cm § 253a PBG; Shots 547-559,
+  S. 1086-1111); neues Destillat [[15-lage-von-gebaeuden-teil2d]], Wiki [[abstaende-und-hoehen]]
+  geschaerft, **Modell C** 7 Karten + **Modell B** Garage-als-Besonderes-Gebaeude-Fall.
+- **Naechster Lauf:** **Kap. 17** (Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung,
+  Wohnhygiene, Hindernisfreiheit), Shots ab 623, S. 1241 ff. ODER bei Gelegenheit § 274 PBG
+  (Grenzbaurecht/Anbau, Shots ab 560) nachziehen.
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
-- **Restschuld Kap. 15:** Gebaeudeabstand §§ 271-274 (Shots ab 547, S. 1086 ff.) — Grenzabstand §§ 269-270 erledigt 2026-06-15.
+- **Restschuld Kap. 15:** nur noch § 274 PBG (Grenzbaurecht/geschlossene Bauweise/Anbau) + § 27 Abs. 2 ABV — Shots ab 560, S. 1112 ff. (§§ 269-273 erledigt 2026-06-15/16).
 - **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung
   (Shots ab 581, S. 1154 ff.).
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +

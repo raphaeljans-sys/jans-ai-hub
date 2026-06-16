@@ -45,7 +45,18 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **grosser/kleiner Grundabstand = Hauptwohnseite** (§ 22 Abs. 2 ABV), **Mehrlaengenzuschlag** + 2G-Regel
   gestaffelte Fassaden (§§ 23/24 ABV), **Vorsprung-Privilegierung** (≤ 1/3 / 1,3 m, § 260 Abs. 3 / § 27 ABV,
   restriktive Auslegung), **abstandsfreie unterird. Bauten ≤ 0,5 m** (§ 269). 12 Doppelseiten. Status:
-  `emerging` (Gebaeudeabstand §§ 271-274 offen, Shots ab 547). Speist [[abstaende-und-hoehen]].
+  `emerging`. Speist [[abstaende-und-hoehen]].
+
+- [[15-lage-von-gebaeuden-teil2d]] — Kap. 15 Teil 2d (S. 1086-1111): **Vorspruenge-Messweise +
+  Erleichterungen + Naeherbaurecht + Gebaeudeabstand §§ 271-273** — Vorspruenge (§ 260 Abs. 3 PBG:
+  Drittel-/Laengenbeschraenkung, Erker/Traufe-Verbot, Vordach ohne Drittel BEZ 2017 Nr. 27),
+  Erleichterungen (reduzierter Grenzabstand § 49 Abs. 2 lit. b, hohe Bauwerke §§ 260 Abs. 2/270 Abs. 2,
+  Familiengartenhaeuser § 18 Abs. 2 BBV II, **Aussenisolation 35 cm § 253a PBG/§ 33a ABV**),
+  **Naeherbaurecht § 270 Abs. 3 PBG** (Form/Nachweis § 5 lit. l BVV, Grundbuch Art. 680 Abs. 2 ZGB,
+  7-m-Schranke BEZ 1990 Nr. 28, § 30 ABV), **Gebaeudeabstand = Summe der Grenzabstaende § 271**,
+  Verkehrsraeume § 272, **Besondere Gebaeude § 273/§ 49 Abs. 3** (≤ 4/5 m, kein dauernder Aufenthalt,
+  3,5 m, ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75, Anbau-Selbststaendigkeit VB.2015.00544).
+  13 Doppelseiten. Status: `emerging`. **Schliesst Kap. 15** (Rest nur § 274). Speist [[abstaende-und-hoehen]].
 
 - [[kap16-10_gebaeudedimensionen-harmonisierung]] — Kap. 16.10 (S. 1230-1239, ECHTE Seiten):
   Gebaeudedimensionen nach **Harmonisierungsvorlage (nPBG/IVHB)** — Geschossarten,

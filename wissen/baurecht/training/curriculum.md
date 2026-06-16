@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 12 | Baureife | 707 | 356 | P2 | [ ] |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
-| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [~] (S.995-1085: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + **Grenzabstand-Zahlenwerk §§269-270/ABV**; Gebaeudeabstand §§271-274 offen, Shots ab 547) |
+| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1111: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3**; Restschuld nur § 274 Grenzbaurecht/Anbau, Shots ab 560) |
 | 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
 | 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [ ] |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
@@ -81,10 +81,18 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    16,5 m § 270 Abs. 2 (Ausnahmen § 50/50a PBG, § 19/19a BBV II, Hochhaeuser § 282), Zusammensetzung
    § 21 Abs. 1 ABV, grosser/kleiner Grundabstand = Hauptwohnseite § 22 Abs. 2 ABV, Mehrlaengenzuschlag
    §§ 23/24 ABV (2G-Regel), Vorsprung-Privilegierung § 260 Abs. 3 / § 27 ABV, abstandsfrei § 269 PBG.
-   Destillat [[15-lage-von-gebaeuden-teil2c]], Wiki [[abstaende-und-hoehen]] geschaerft. Rest: Gebaeude-
-   abstand §§ 271-274, Shots ab 547, S. 1086 ff.)*
-   ⏭️ **Naechster Lauf: Kap. 15 Teil 2d** (Gebaeudeabstand §§ 271-274 — Summenbildung, besondere
-   Gebaeude § 273) ODER Kap. 17 (Raumhoehen). Empfehlung: Teil 2d schliesst Kap. 15 ab; danach Kap. 17.
+   Destillat [[15-lage-von-gebaeuden-teil2c]], Wiki [[abstaende-und-hoehen]] geschaerft. Teil 2d
+   distilliert 2026-06-16, Run 7, S. 1086-1111: Vorspruenge-Messweise (§ 260 Abs. 3 PBG, Drittel/
+   Laengenbeschraenkung, Vordach BEZ 2017 Nr. 27), Erleichterungen (reduzierter Grenzabstand § 49
+   Abs. 2 lit. b, hohe Bauwerke §§ 260 Abs. 2/270 Abs. 2, Familiengartenhaeuser § 18 Abs. 2 BBV II,
+   Aussenisolation § 253a PBG), Naeherbaurecht § 270 Abs. 3 PBG (Form/Nachweis § 5 lit. l BVV,
+   Grundbuch Art. 680 Abs. 2 ZGB, 7-m-Schranke BEZ 1990 Nr. 28, § 30 ABV), **Gebaeudeabstand §§ 271-273**
+   (§ 271 Summe der Grenzabstaende, § 272 Verkehrsraeume, § 273 Besondere Gebaeude ≤4/5 m, 3,5 m,
+   ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75, Anbau VB.2015.00544). Destillat
+   [[15-lage-von-gebaeuden-teil2d]], Wiki [[abstaende-und-hoehen]] auf `established` geschaerft.
+   **Kap. 15 abgeschlossen** — Restschuld nur § 274 Grenzbaurecht/Anbau (Shots ab 560, S. 1112 ff.).)*
+   ⏭️ **Naechster Lauf: Kap. 17** (Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung,
+   Wohnhygiene, Hindernisfreiheit; Shots ab 623, S. 1241 ff.). ODER bei Gelegenheit § 274 nachziehen.
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.

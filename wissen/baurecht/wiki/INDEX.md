@@ -14,11 +14,12 @@ oder umbenannten Artikel aktualisieren.
 - [[14-nutzungsdichte-ausnuetzung]] (Destillat Bd 2) — Buchsynthese Kap. 14, Belegquelle der beiden Artikel · *emerging*
 
 ### Abstände & Höhen
-- [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand (§§ 269-274), **Grenzabstand-Zahlenwerk** (Mindest 3,5 m, Mehrhöhenzuschlag ab 12 m/max 16,5 m § 270, Grund-/Mehrlängenzuschlag §§ 21-24 ABV, Hauptwohnseite, Vorsprung-Privileg § 260 Abs. 3; geschärft 2026-06-15), Näherbaurecht, **Waldabstand § 262 PBG** (30/15 m), **Gewässerraum** (Art. 36a GSchG), Höhenbegriffe · *established*
+- [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand (§§ 269-274), **Grenzabstand-Zahlenwerk** (Mindest 3,5 m, Mehrhöhenzuschlag ab 12 m/max 16,5 m § 270, Grund-/Mehrlängenzuschlag §§ 21-24 ABV, Hauptwohnseite, Vorsprung-Privileg § 260 Abs. 3), **Gebäudeabstand = Summe der Grenzabstände § 271** + Verkehrsräume § 272 + **Besondere Gebäude § 273/§ 49 Abs. 3** (≤4/5 m, 3,5 m), **Näherbaurecht § 270 Abs. 3** (7-m-Schranke, Grundbuch), Aussenisolation § 253a (geschärft 2026-06-16), **Waldabstand § 262 PBG** (30/15 m), **Gewässerraum** (Art. 36a GSchG), Höhenbegriffe · *established*
 - [[gebaeudearten-und-abstandssystem]] — die 5 Gebäudearten (Mini/bewilligungsfrei/besondere/abstandsfreie/Haupt) → welche Abstände; Fassade-Messweise (§ 260/§ 28 ABV); politische/Zonengrenzen · *emerging*
 - [[baulinien-und-abstandslinien]] — Baulinien (§§ 96-101 PBG: Verkehrs-/Schutz-/Versorgungsbaulinie), subsidiärer 6-m-Strassenabstand (§ 51 Abs. 2), Gewässerabstandslinie (§ 67), Linien-Abgrenzung; **die Linie ist oft bindender als die Ziffer** · *emerging*
 - [[15-lage-von-gebaeuden]] (Destillat Bd 2, Kap. 15 Teil 1+2a) — Buchsynthese Abstandssystem/Wald/Gewässer/Gewässerabstandslinien/Baulinien-Beginn, Belegquelle · *emerging*
 - [[15-lage-von-gebaeuden-teil2c]] (Destillat Bd 2, Kap. 15 Teil 2c) — Buchsynthese **Grenzabstand-Zahlenwerk** §§ 269-270 PBG / §§ 21-28 ABV (Mehrhöhen-/Mehrlängenzuschlag, Hauptwohnseite, Vorsprünge), Belegquelle · *emerging*
+- [[15-lage-von-gebaeuden-teil2d]] (Destillat Bd 2, Kap. 15 Teil 2d) — Buchsynthese **Gebäudeabstand §§ 271-273 PBG** (Summe der Grenzabstände, Verkehrsräume § 272, Besondere Gebäude § 273/§ 49 Abs. 3), Näherbaurecht § 270 Abs. 3, Vorsprünge-Messweise, Aussenisolation § 253a; **schliesst Kap. 15**, Belegquelle · *emerging*
 
 ### Gebäudedimensionen
 - [[geschosse-und-kniestock]] — Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit (§ 276 PBG), **Kniestock**: 0,9 m / Bestand 1,3 m (vor 1.7.1978), Messweise 0,4 m hinter Fassade · *emerging*
