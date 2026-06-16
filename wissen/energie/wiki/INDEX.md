@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (F1–F5, F7, F9–F16 belegt = 14; F6/F8 offen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (F1–F5, F7, F9–F17 belegt = 15; F6/F8 offen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -15,8 +15,8 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme) · **established**
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
 - [[graue-energie]] — graue Energie & THGE, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **emerging**
-- [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) + Bauteilkatalog (Wand/Dach REI·U·Rw) · **established**
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null-Definition, WP-Systemvergleich F6, Minergie-ECO-Foerderung, CLT-Innenwand/Trennwand-Schallschutz)_
+- [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) + Bauteilkatalog (Wand/Dach REI·U·Rw) + **Schallschutz (R_w 34-58, L'_n,w 60→46)** · **established**
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null-Definition, WP-Systemvergleich F6, Minergie-ECO-Foerderung, Naturdaemmstoffe/Stroh+Lehm Praxis, SIA-181-Flanke)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

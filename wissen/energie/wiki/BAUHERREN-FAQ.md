@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-12
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
+last_updated: 2026-06-13
+sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
 links: [[INDEX]]
 ---
 
@@ -414,6 +414,42 @@ VKF-BSM 2001-15):
 (12/2022, ueberarb. 11/2023; Basis VKF-BSM 2001-15) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
 PV-Typ-/Pflicht siehe F4/F10; CLT-Aufbau → `[[clt-bauteilkatalog-stora-enso]]`. **Brandschutz-
 Bewertung/Feuerpolizei-Akzeptanz im Detail → Skill `brandschutz`.** ⚠ Datenstand 2026-06-12.
+
+---
+
+## F17 — «Wird mein Holzbau hellhoerig — taugt CLT fuer ein MFH oder Pflegeheim?»
+
+**Kurz:** Ja, ein Massivholzbau erreicht **dieselben Schallschutzklassen wie ein Massivbau** — aber
+**nicht von allein**. Sichtbares Massivholz pur ist akustisch nur mittelmaessig (eine nackte
+CLT-Wand daemmt **R_w 34-35 dB**, eine nackte Holzdecke ist beim Trittschall ungenuegend). Die guten
+Werte entstehen durch **Zusatzschichten**: Vorsatzschalen an den Trennwaenden, ein beschwerter
+schwimmender Boden und eine abgehaengte Decke. Wer das einplant, wohnt im Holzhaus so ruhig wie im
+Betonbau; wer ueberall Sichtholz will, muss beim Schall Abstriche machen.
+
+**Fachlich:** Schalldaemmung lebt von **Masse** und von **mehrschaligen, elastisch getrennten**
+Aufbauten — beides ist beim leichten Holz (ρ ≈ 470 kg/m³ statt ~2300 beim Beton) erst herzustellen.
+Aus dem Stora-Enso-Bauteilkatalog (Labor-Einzahlwerte):
+
+| Bauteil | nackt | ertuechtigt | Mittel |
+|---|---|---|---|
+| Innenwand CLT (sichtbar) | R_w 34-35 | **41-42** | + Installations-/Vorsatzschale |
+| Wohnungstrennwand | — | **R_w 52-58** | beidseitige Vorsatzschale o. zweischalige CLT/MW-T/CLT |
+| Geschossdecke CLT 140 | L'_n,w 60 (zu viel) | **L'_n,w ~51 → ~46** | Kies-Schuettung (Beschwerung) + abgehaengte Decke |
+
+Drei Regeln: (1) **Trennwand zwischen Wohnungen/Zimmern zweischalig** (Ziel R_w ≥ 58 im Labor),
+(2) **Geschossdecke = schwimmender, beschwerter Boden + abgehaengte Decke** (Ziel L'_n,w ≤ 50),
+(3) **Sichtbare CLT-Decke ueber Wohnraeumen** ist der akustisch schwierigste Fall — frueh mit dem
+Bauphysiker klaeren. **Wichtig:** massgebend ist die CH-Norm **SIA 181** mit **Bauwerten am Bau**
+(inkl. **Flankenuebertragung**) — die liegen unter den Laborwerten, im Holzbau wegen durchlaufender
+Scheiben/Stoesse teils 3-8 dB. Deshalb Labor-Reserve einplanen und die Bauteilstoesse elastisch
+entkoppeln. Bonus: die Schall-Zusatzschichten verbessern oft gleichzeitig **Brandschutz** (GKF hebt
+den Feuerwiderstand) und **Waermeschutz** (Installationsebene mit Mineralwolle senkt den U-Wert).
+
+**Quelle:** «CLT by Stora Enso — Bauphysik» (06.2021), Kap. 4 Innenwand/Trennwand/Deckenelement
+(S. 98-164) → `[[clt-schallschutz-stora-enso]]`; Themenartikel → `[[holzbau-bauphysik-clt]]`.
+⚠ **Datenstand 2026-06-13:** R_w/L'_n,w sind Hersteller-Laborwerte (2021); SIA-181-Anforderungswerte
+und CH-Anschlussdetails (Lignum) noch zu belegen — vor Zusagen am Projekt mit dem Bauphysiker/der
+gueltigen SIA 181 abgleichen. CLT-Brandschutz im Detail → Skill `brandschutz`.
 
 ---
 

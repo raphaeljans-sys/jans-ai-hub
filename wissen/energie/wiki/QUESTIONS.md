@@ -34,12 +34,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ✓ 2026-06-10 → `[[wta-formular-zh-waermetechnische-anlagen]]`, FAQ F14. Offen: WP-JAZ-Vergleich (F6).
 
 ## FAQ-Backlog
-- [~] **E-F** BAUHERREN-FAQ: 14 Antworten belegt (F1-F5/F7/F9-F16; **F16 PV-Brandschutz neu
-  ✓ 2026-06-12**); offen **F6** (WP-Vergleich/JAZ-Matrix), **F8** (Netto-Null-Definition).
+- [~] **E-F** BAUHERREN-FAQ: 15 Antworten belegt (F1-F5/F7/F9-F17; **F17 Holzbau-Schallschutz neu
+  ✓ 2026-06-13**); offen **F6** (WP-Vergleich/JAZ-Matrix), **F8** (Netto-Null-Definition).
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
-  `[[clt-bauphysik-stora-enso]]` (FAQ F15). **Bauteilkatalog (Kap. 4) ✓ 2026-06-12** →
-  `[[clt-bauteilkatalog-stora-enso]]` (Aussenwand V1-9 + Dach V1-6: REI·U·Rw). Offen:
-  CLT-Innenwand/Trennwand/Deckenelement-**Schallschutz** (S. 98-164) — fuer MFH/Healthcare.
+  `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
+  `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)
+  ✓ 2026-06-13** → `[[clt-schallschutz-stora-enso]]`, FAQ F17 (R_w 34-58, L'_n,w 60→46). Offen:
+  Flankenuebertragung/Anschlussdetails CH (Lignum) + exakte SIA-181-Anforderungswerte.
 - [x] **E10** PV-/Solar-Brandschutz (Schnittstelle Solar↔Gebaeude) belegt ✓ 2026-06-12 →
   `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, FAQ F16 (DC kein PVC/RF1-Rohr, WR-Standort,
   Kennzeichnung). Offen: STP Kap. 4-7 (Feuerwehreinsatz, konstruktive Details Anhang 7.3).
@@ -50,6 +51,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]`, FAQ F13.
 - [x] **E-H2** Rechenbeispiel Heizwaermebedarf (Monatsbilanz) belegt ✓ 2026-06-08
   → `[[sia-380-1-beispiel-monatsbilanz]]`. SIA-380/1-Standardnutzung Tab. 24/25 → `[[sia-380-1-standardnutzungswerte-tab24-25]]`.
+
+- [ ] **E11** Schallschutz CH vertiefen: **SIA 181** Anforderungswerte (Luft-/Trittschall, Mindest/
+  erhoeht, Empfindlichkeits-/Stoergrad) + **Flankenuebertragung im Holzbau** (Lignum-Dokumentation,
+  Anschlussdetails) belegen — angestossen 2026-06-13 ueber `[[clt-schallschutz-stora-enso]]` / FAQ F17.
+- [ ] **E12** **Naturdaemmstoffe in der Praxis**: Stroh (Bemessungs-λ, Brandverhalten RF, Feuchte) +
+  Lehmputz (Feuchtepufferung) — Seed `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (2024). Ergaenzt
+  `[[daemmstoffe-lambda]]`. Zudem **ZEV/Areal-PV/«Solarsplitvertrag»** wirtschaftlich/rechtlich (→ `baurecht`).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

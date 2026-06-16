@@ -6,7 +6,7 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 22 Destillate erstellt; ~7 Prioritaets-PDFs offen (siehe pdf-inventar) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 24 Destillate erstellt; ~5 Prioritaets-PDFs offen (siehe pdf-inventar) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
@@ -27,6 +27,8 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | WTA-Formular waermetechn. Anlagen (Kt. ZH 01-2024) | PL-04/endk.ch | destilliert (vollst., 5 S.) | Heizungsersatz-Verfahren/Beilagen + fossil-Verbot (F14) |
 | Enerhaus Minergie-Musternachweis (EFH Umbau, 2010) | PL-04/U Wert berechnung | destilliert (vollst., 9 S.) | Systemnachweis + WRG-Hebel (⚠ 2010) |
 | CLT by Stora Enso — Bauphysik (Version 06.2021) | PL-04/U Wert berechnung/clt | destilliert (Kap. 1-3 S.4-37) | Holzbau-Bauphysik λ 0,12 / luftdicht folienfrei / s_d (F15) |
-| CLT by Stora Enso — Bauteilkatalog (Kap. 4) | PL-04/U Wert berechnung/clt | destilliert (Aussenwand V1-9 + Dach V1-6) | konkrete Aufbauten REI·U·Rw (F15); Innen-/Trennwand/Decke S.98-164 offen |
+| CLT by Stora Enso — Bauteilkatalog (Kap. 4) | PL-04/U Wert berechnung/clt | destilliert (Aussenwand V1-9 + Dach V1-6) | konkrete Aufbauten REI·U·Rw (F15) |
+| CLT by Stora Enso — Schallschutz (Kap. 4, S.98-164) | PL-04/U Wert berechnung/clt | destilliert (Innenwand V1-11 + Trennwand V1-8 + Decke V1-6) | R_w 34-58 / L'_n,w 60→46 (F17) |
+| Werkhof29 Dossier Erstvermietung (baubuero in situ, 2024) | PL-04/U Wert berechnung/Grassen Biwak | destilliert (S.1-12) | Praxisbeispiel zirkulaeres Bauen: Stroh/Lehm/Re-use/Areal-PV |
 | Private Kontrolle — Liste der Befugten (Kt. ZH, April 2025) | PL-04/_Private Kontrolle | destilliert (S.1-3) | wer zeichnet EN-Nachweis + EN-Formular-Matrix (BBV I); Namensregister ausgelassen |
 | swissolar STP zu VKF-Brandschutzmerkblatt Solaranlagen (V4.00, 12/2022) | PL-04/Solaranlage/_Brandschutz | destilliert (S.1-16) | PV-Brandschutz: DC kein PVC/RF1-Rohr, WR-Standort, Kennzeichnung (F16); Kap. 4-7 offen |

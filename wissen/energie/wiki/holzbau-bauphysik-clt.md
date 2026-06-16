@@ -1,8 +1,8 @@
 ---
 title: Holzbau-Bauphysik — CLT / Brettsperrholz (Waerme, Luftdicht, Feuchte)
 status: established
-last_updated: 2026-06-12
-sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md]
+last_updated: 2026-06-13
+sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[graue-energie]]
 ---
 
@@ -63,11 +63,33 @@ EPS (λ 0,038) oder Holzfaser (λ 0,039) → U **0,11-0,13**, REI 60-90, Rw 36-4
 eine Stufe; Installationsebene = REI 120 + Rw 43. Dickere CLT (100→120) hebt v.a. den REI, kaum den
 U-Wert (Holz daemmt nicht). Speist FAQ F15.
 
+## Schallschutz (Luftschall R_w / Trittschall L'_n,w)
+**Kernbotschaft:** Massivholz ist leicht → einschalig akustisch nur mittelmaessig; gute Werte
+kommen aus **mehrschaligen, entkoppelten, beschwerten** Aufbauten. Aus dem Stora-Enso-Katalog
+(Kap. 4, S. 98-164) → `[[clt-schallschutz-stora-enso]]`:
+
+| Bauteil | typischer Bereich | wie man's hebt |
+|---|---|---|
+| Innenwand CLT pur (sichtbar) | R_w **34-35** | + Vorsatzschale → 41-42 |
+| Wohnungstrennwand CLT | R_w 45 → **58** | beidseitige Vorsatzschale (Schwingbuegel/MW/GKF) |
+| Geschossdecke CLT 140 | R_w 55-60 · **L'_n,w 60 → ~46** | Kies-Schuettung (Beschwerung) + abgehaengte Decke |
+
+- **Luftschall:** je freischwingende Vorsatzschale ~**+10 dB**; beidseitig → R_w 58. Echt
+  zweischalige Massivwand (CLT/MW-T/CLT) → 52-54.
+- **Trittschall (Achillesferse der Holzdecke):** schwimmender Estrich auf EPS allein = L'_n,w 60
+  (zu viel). Hebel: **gebundene Kies-Schuettung** (Beschwerung, → 51) + **abgehaengte Decke auf
+  Schwingbuegel** (→ ~46).
+- **CH-Norm SIA 181** verlangt **Bauwerte am Bau** (D_nT/L'_nT inkl. Flanke), nicht Labor-R_w. Im
+  Holzbau ist die **Flankenuebertragung** (durchlaufende Scheiben, Stoesse) kritisch und kostet
+  3-8 dB → Labor-Reserve einplanen + Stoesse elastisch entkoppeln (SIA-181-Zahlen noch zu belegen).
+- **Synergie:** Schall-Zusatzschichten heben oft zugleich REI (GKF) und senken U (MW-Installationsebene)
+  — Schall/Brand/Waerme zusammen planen.
+
 ## Abgrenzung
 - **Brandschutz** (Kapselung, REI/EI-Klassen CH, Sichtholz-Anteil, Abbrand) → Skill `brandschutz`.
 - **PV auf Holzbau** (DC-Leitung im Tragwerk in RF1-Rohr ohne PVC) → `[[pv-solar-technologien]]` / F16.
-- **Schallschutz** von CLT-Decken/Trennwaenden (Tritt-/Luftschall) → Katalog Innenwaende/Trennwaende/
-  Deckenelement (S. 98-164) noch nicht erfasst; fuer MFH/Healthcare zentral → Folgelaeufe.
+- **Schallschutz-Anschlussdetails/Flanke** (Lignum-Dokumentation CH) + exakte SIA-181-Anforderungswerte
+  noch nicht in der KB → Folgelaeufe.
 
 ## Quelle
 «CLT by Stora Enso — Technische Dokumentation: Bauphysik» (Version 06.2021), Kap. 1-3 →
