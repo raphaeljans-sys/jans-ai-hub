@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.06.2026 06:27:01
+Stand: 16.06.2026 06:37:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:26)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 16.06.2026 06:27:01
 - 2 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- 25726a8 energie-training Run 9: CLT-Schallschutz + zirkulaeres Bauen (Werkhof29), FAQ F17
+- 3893e60 sync: twin-fidelity-review: 2026-06-16
