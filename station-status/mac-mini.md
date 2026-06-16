@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.06.2026 07:03:02
+Stand: 16.06.2026 07:13:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:44)
@@ -12,4 +12,4 @@ Stand: 16.06.2026 07:03:02
 - 2 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- 4c447d9 nas-selfcommit: 11 Datei(en) 2026-06-16 07:00
+- a002e4a immobewertung-training Run 5: reale JANS-Faelle quantitativ ausgewertet (T9b/T7b/T10/D4)
