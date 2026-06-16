@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -185,6 +185,8 @@ vorgeben → [[arbeitsweise]]/[[fachsignatur]]), bleibt aber ehrlich über die e
 - **Do:** Register aus Kontakt UND Anlass wählen (operativ→Hoi/«Guten Morgen»/«Guten Abend»,
   wichtig→Geschätzter <Vorname>, vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
   deutschsprachiger Dienstleister/Freelancer→«Hallo <Vorname>» (neutral-freundliches Du),
+  Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber Gruss»
+  (Partnerschaft unter Gleichen, kein Auftragsgefälle),
   Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste Grüsse»,
   rein privat-sozial mit Mundart-spiegelndem Gegenüber→Mundart («Grüzi liebi …», «Liebe Gruess»),
   Fachplaner/extern→Sie, kalt→Sehr geehrte); Behörde nach Vertrautheit (bekannt→Geschätzte/r,
@@ -250,6 +252,28 @@ nach Anlass; er ↔ «Lieber Raphi».
   deutschsprachigen Freelancer ist schon im August 2025 etabliert. Bestätigt die Peer-Du-Skala
   **Hey · Hoi · Hallo · Lieber** und «Anrede variiert mit dem Anlass, nicht der Person».
 
+## Architektenkollege / Wettbewerbspartner = eigenes Peer-Du (belegt Fidelity 260616, authentisch)
+Neues, bislang ungemapptes Du-Register: der **Architektenkollege/das befreundete Büro auf
+Augenhöhe**, mit dem Raphael Akquise und Wettbewerbe **gemeinsam** anbahnt. Belegt: proaktive
+Mikro-Einladung an einen Architektenkollegen, einen Healthcare-Wettbewerb zusammen zu machen —
+**Ausschreibungs-Link zuerst**, dann «**Guten Morgen Andreas / hättest Du Interesse diesen
+Wettbewerb zu machen? / Lieber Gruss / Raphael**» (Neubau Alters-/Pflegeheim, 2025-11-06). Marker:
+kollegiales Du, Tageszeit-Anrede «Guten Morgen <Vorname>», Kurzgruss «Lieber Gruss», Länge = Zweck
+(eine Zeile Sache + eine Zeile Einladung). Unterscheidet sich vom Fachplaner-Sie (Auftragnehmer)
+und vom Dienstleister-Du (Zuarbeit): hier **Partnerschaft unter Gleichen**, kein Auftragsgefälle.
+Healthcare-Wettbewerbe werden aktiv aufgespürt und mit Kollegen geteilt (→ [[arbeitsweise]]
+Akquise/Netzwerk). Mapping-Ergänzung: Andreas Geser (Architekturbüro) → Peer-Du, «Guten Morgen
+Andreas» / «Lieber Gruss», Wettbewerbs-/Akquise-Partnerschaft.
+
+## «Geschätzter <Vorname>» = verbindliche Offerte an den Stammkunden — zweiter Datenpunkt (belegt Fidelity 260616, authentisch)
+Bestätigt «Geschätzter <Vorname>» als Anrede der **verbindlichen Honorarofferte** an den
+Geschäftspartner-Du: «Geschätzter Christoph / Besten Dank für Deine Offertenanfrage. / Wie
+telefonisch besprochen sende ich Dir **unser Angebot** mit der Bitte um Prüfung und allfälliger
+Freigabe» (WOMA/Bopp, 2025-10-17), Schluss «Freundliche Grüsse» + voller Block (dokumentierend).
+Im verbindlichen Mandat ist das «unser/wir» korrekt — das wir-Verbot gilt nur der unverbindlichen
+Erstabklärung (→ [[haltung]]).
+
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
-gegenüber einem Du-Kontakt.
+gegenüber einem Du-Kontakt. Peer-Architekten-Du im Projektverlauf (wie warm/operativ wird es,
+sobald aus der Akquise eine Zusammenarbeit wird)?

@@ -3,6 +3,33 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260616 (twin-fragesteller, aus Fidelity-Review 2026-06-16)
+
+Quelle: Drift-Report `outputs/2026-06-16_fidelity.md` (Gesamt-Fidelity 85; schwächste Facetten
+Fachsignatur 81, Beziehungsregister 82 — neu freigelegt: Honorar-Tonalität, Peer-Architekten-
+Register, vierte Rechtssäule Gesellschaftsrecht). Je in 1–2 Sätzen beantwortbar.
+
+1. **wir-vs-ich-Schwelle:** In der unverbindlichen Erstabklärung schreibst Du «Ich», in der
+   verbindlichen Offerte an einen Stammkunden «unser Angebot». Ab welchem Punkt kippt es von Ich auf
+   wir/unser, exakt der bestellten Offerte, der Auftragsbestätigung, oder erst dem Vertrag? *Warum:
+   macht die 260616 präzisierte wir-Regel operationalisierbar.* → [[haltung]], [[stimme]]
+2. **Peer-Architekten-Schwelle:** Den Architektenkollegen lädst Du mit «Guten Morgen <Vorname>» +
+   «Lieber Gruss» zum gemeinsamen Wettbewerb. Bekommt jeder Kollege dieses Peer-Du, oder gibt es
+   Architekten, die Du (noch) mit «Geschätzter» oder Sie ansprichst, und was entscheidet das? *Warum:
+   kalibriert das neu erfasste Peer-Architekten-Register.* → [[beziehungsregister]]
+3. **Reichweite Gesellschaftsrecht:** Die OR-/HRegV-Tiefe (Art. 779 ff. OR, HRegV) hast Du für die
+   eigene GmbH-Umwandlung gezogen. Berätst Du auch Bauherren gesellschaftsrechtlich (STWEG-Gründung,
+   Trägerschaft/Betreibergesellschaft Healthcare), oder bleibt diese Säule auf Deine eigenen
+   Firmensachen beschränkt? *Warum: zieht die Grenze der vierten Fachsäule (Echo-Schutz).*
+   → [[fachsignatur]]
+4. **Geltungsdauer der Mailofferte:** Setzt Du bei Honorar-Mailofferten standardmässig eine «gültig
+   bis»-Frist (in der Bopp-Offerte fehlte sie), und wenn ja, welche Spanne (14/30 Tage)? *Warum:
+   schliesst eine konkrete Pflichtangabe-Lücke der Offert-Signatur.* → [[fachsignatur]]
+5. **Wettbewerb gemeinsam — Rolle/Honorar:** Wenn Du einen Wettbewerb mit einem Kollegen machst, wie
+   teilst Du Federführung, Honorar und Rolle auf, und beeinflusst das den Ton (Partner auf Augenhöhe
+   vs. Subplaner)? *Warum: macht die Akquise-/Partnerschafts-Mechanik (260616) arbeitsfähig.*
+   → [[arbeitsweise]], [[beziehungsregister]]
+
 ## Offen — Runde 260614 (twin-fragesteller, aus Fidelity-Review 2026-06-14)
 
 Quelle: Drift-Report `outputs/2026-06-14_fidelity.md` (Gesamt-Fidelity 84; schwächste Facette

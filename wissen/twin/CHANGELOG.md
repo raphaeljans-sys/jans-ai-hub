@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-16 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Okt/Nov 2025, authentisch)
+- Goldproben (rj@ Sent Items, vor-Claude): A Honorarofferte an WOMA/Bopp «Geschätzter Christoph»
+  (2025-10-17), B Wettbewerbs-Einladung an Architektenkollege A. Geser «Guten Morgen Andreas»
+  (2025-11-06), C Notariat-Sie Statutenänderung eigene GmbH «Sehr geehrte Damen und Herren»
+  (2025-11-04). Bewusst in dünn belegten Registern gezogen.
+- **Gesamt-Fidelity 85/100** (Stimme 88, Arbeitsweise 87, Denken 85, Haltung 84, Beziehung 82,
+  Fachsignatur 81) — leicht über 84 (260614); Drift konzentriert auf drei additive Befunde.
+- Eingearbeitet (authentisch): [[denken]]+[[haltung]] Honorar-Tonalität (hart in der Zahl/weich
+  im Rahmen — schliesst alte QUESTIONS-Lücke); [[haltung]] wir-Verbot präzisiert (nur unverbindliche
+  Erstabklärung; «unser» bei verbindlicher Offerte ok); [[beziehungsregister]] neues Peer-Architekten-/
+  Wettbewerbspartner-Du (Geser); [[fachsignatur]] vierte Rechtssäule Gesellschafts-/Handelsregisterrecht
+  (Art. 779 ff. OR, HRegV) + Honorar-Tagespauschale-Bestätigung; [[arbeitsweise]] proaktive Peer-Akquise.
+- QUESTIONS Runde 260616: 5 neue Selbstfragen (wir-vs-ich-Schwelle, Peer-Architekten-Schwelle,
+  Reichweite Gesellschaftsrecht, Offert-Geltungsdauer, Wettbewerb gemeinsam Rolle/Honorar).
+- Do/Don't-Blöcke geschärft (denken/haltung/beziehungsregister/fachsignatur/arbeitsweise); Gehirn
+  `rules/jans-dna.md` neu kompiliert (6 Facetten). Drift-Report `outputs/2026-06-16_fidelity.md`.
+
 ## 2026-06-15 — twin-mail-training: Mailbatch 07 (Sent Items rj@, 2025-08-19…25, authentisch)
 - Sequentieller Sweep fortgesetzt: 15 Mails gesichtet, 5 Volltexte destilliert (Mailofferte
   Machbarkeitsstudie an WOMA/Christoph Bopp; Garten-/Umgebungsentwurf Thalwil 2414 an Bauherrin
