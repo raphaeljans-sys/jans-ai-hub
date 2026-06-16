@@ -5,11 +5,16 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
 ## A — Kartenportale
 - [x] **A1** Nicht-ZH-Kantone: OEREB-Service-Endpunkte kartieren (zuerst SZ). ✓ SZ via
   `geo-sz.mjs` / Skill `oereb-schwyz` geloest; `geo-zh.mjs` `OEREB_SERVICE.sz` hinterlegt.
-- [~] **A2** Zonenplan-/BZO-Ausschnitt automatisiert beziehen. ✓ Teil 2026-06-10: Bundes-Bauzonen
-  `ch.are.bauzonen` als WMS-PNG validiert + im Connector (`--produkt bauzonen`). **Offen:**
-  rechtsverbindlicher **kommunaler ZH-Zonenplan-WMS** login-frei — `wms.zh.ch` = HTTP 401
-  (Referer-/Auth-Schutz), geodienste.ch-Nutzungsplanung-Pfad noch nicht getroffen. Bis dahin:
-  Grundnutzung aus dem OEREB-Auszug.
+- [x] **A2** Zonenplan-/BZO-Ausschnitt automatisiert beziehen. ✓ **GELOEST 2026-06-16**: nicht
+  ueber `wms.zh.ch` (401), sondern ueber den **ZH-OGD-WFS** `maps.zh.ch/wfs/OGDZHWFS` Datensatz
+  **0156** `np_gn_zonenflaeche_f` (GeoJSON, login-frei) — liefert Zone (kommunal+kantonal),
+  **BMZ/AZ**, Gebaeude-/Firsthoehe, Vollgeschosse, Gewerbeanteil, Rechtsstatus, Festsetzungsdaten;
+  + **0154** Empfindlichkeitsstufe Laerm. Connector `--produkt zonenplan`, validiert Langnau
+  Kat.3338 (BMZ) + Egg WG60 (AZ) → [[kartenportale-zonenplan-zh]]. **Mehr als der OEREB-PDF.**
+  Bundes-Bauzonen `ch.are.bauzonen` PNG (`--produkt bauzonen`) bleibt fuer den Schnellblick.
+- [ ] **A6** Projektierter Layer `..._np_gn_zonenflaeche_proj_f` (laufende BZO-Revision/Auflage)
+  an einem realen Revisionsfall validieren — fuer den Vorher/Nachher-Vergleich (machbarkeit Typ A).
+  (neu 2026-06-16)
 - [x] **A3** Hoehenmodell (swissALTI3D) + Orthofoto (SWISSIMAGE) je Parzelle. ✓ 2026-06-10:
   `height`-Service + STAC `swissimage-dop10`/`swissalti3d` validiert, im Connector `--produkt
   height,orthofoto,dtm` (+`--download`) → [[kartenportale-bund-geodaten]].
@@ -60,7 +65,8 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
 - [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt
   height,orthofoto,dtm,bauzonen` + `--download` implementiert, end-to-end an Kat. 3338 getestet
   (graceful skip bei EGRID-only ohne Koordinate). → [[kartenportale-bund-geodaten]].
-- [ ] **E2** `--produkt zonenplan` (kommunaler ZH-Zonenplan-WMS) — blockiert durch A2 (wms.zh.ch 401).
-  (neu 2026-06-10)
+- [x] **E2** `--produkt zonenplan` (kommunale ZH-Grundnutzung). ✓ 2026-06-16 implementiert &
+  getestet: nicht via wms.zh.ch (401) sondern OGD-WFS 0156/0154; mappt BMZ- **und** AZ-System,
+  GeoJSON-Ablage mit `--out`. Benchmarks Langnau + Egg → [[kartenportale-zonenplan-zh]].
 - [ ] **E3** STAC-bbox-Radius adaptiv (grosse Parzellen → mehrere Nachbarkacheln einsammeln statt
   fixem ~0.0008-Grad-Fenster). (neu 2026-06-10)

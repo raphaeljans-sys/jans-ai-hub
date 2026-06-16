@@ -65,10 +65,10 @@ Validiert: 1000×1000-PNG, ~4 KB. **Achsenreihenfolge-Falle:** WMS 1.3.0 mit EPS
 BBOX als **N,E,N,E** (Hoch-/Rechtswert), nicht E,N — sonst kommt eine leere/falsche Kachel.
 
 > Abgrenzung: `ch.are.bauzonen` ist die **bundesweit harmonisierte Uebersichts-Bauzone** (ARE) —
-> gut fuer den Schnellblick. Die **rechtsverbindliche kommunale Grundnutzung/BZO** des Kt. ZH steht
-> im **OEREB-Auszug** ([[kartenportale-oereb-egrid-bezug]]); der detaillierte ZH-Zonenplan-WMS
-> (`wms.zh.ch`) ist **passwort-/Referer-geschuetzt (HTTP 401)** und derzeit nicht login-frei
-> automatisierbar → offen, siehe QUESTIONS A2.
+> gut fuer den Schnellblick. Die **rechtsverbindliche kommunale Grundnutzung/BZO** des Kt. ZH gibt
+> es seit 2026-06-16 als **login-freien Vektor** ueber den ZH-OGD-WFS (Datensatz 0156) — mit
+> BMZ/AZ, Hoehen, Vollgeschossen, Rechtsstatus → eigener Artikel [[kartenportale-zonenplan-zh]]
+> (`--produkt zonenplan`). Der alte WMS-Weg `wms.zh.ch` (HTTP 401) ist damit hinfaellig; A2 geloest.
 
 ## Connector-Aufruf (Benchmark 2026-06-10)
 
@@ -85,7 +85,7 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 - `bauzonen` wird immer als PNG abgelegt (`Bauzonen-CH_<BFS>_<Parzelle>_<JJJJ-MM-TT>.png`).
 
 ## Offen
-- A2: rechtsverbindlicher **kommunaler ZH-Zonenplan/BZO** als login-freier Layer (wms.zh.ch = 401;
-  geodienste.ch-Nutzungsplanung-Pfad noch nicht getroffen). Bis dahin: Grundnutzung aus OEREB.
+- ~~A2: kommunaler ZH-Zonenplan/BZO login-frei~~ **✓ geloest 2026-06-16** via ZH-OGD-WFS 0156
+  → [[kartenportale-zonenplan-zh]] (`--produkt zonenplan`).
 - STAC-`d` (bbox-Radius) ist fix ~0.0008 Grad → bei sehr grossen Parzellen ggf. mehrere
   Nachbarkacheln noetig; aktuell genuegt es fuer Punkt-/Hauskontext.

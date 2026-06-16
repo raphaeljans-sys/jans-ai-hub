@@ -169,7 +169,7 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 | `--plz <nnnn>` | optional, schaerft die Adresssuche |
 | `--egrid <CH…>` | EGRID direkt setzen (ueberspringt Geocoding/Identify) |
 | `--oereb` | OEREB-Auszug als PDF herunterladen |
-| `--produkt <liste>` | Bund-Geodaten (Komma-Liste): `height`,`orthofoto`,`dtm`,`bauzonen` — brauchen Koordinate, also `--adresse` (nicht EGRID-only). Belege: `[[kartenportale-bund-geodaten]]` |
+| `--produkt <liste>` | Zusatz-Geodaten (Komma-Liste): `height`,`orthofoto`,`dtm`,`bauzonen`,`zonenplan` — brauchen Koordinate, also `--adresse` (nicht EGRID-only). Belege: `[[kartenportale-bund-geodaten]]`, `[[kartenportale-zonenplan-zh]]` |
 | `--download` | bei `orthofoto`/`dtm` die hoechstaufgeloeste Kachel je Jahrgang laden (GeoTIFF, gross) |
 | `--out <dir>` | Zielordner (mehrfach moeglich) |
 | `--kanton <zh>` | OEREB-Service-Kanton (default: aus BFS abgeleitet) |
@@ -179,7 +179,9 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 `height` → `api3.geo.admin.ch/rest/services/height` (549.1 m) · `orthofoto` → STAC
 `ch.swisstopo.swissimage-dop10` (Jahrgaenge 2019/2022/2025, 0.1+2 m) · `dtm` → STAC
 `ch.swisstopo.swissalti3d` (0.5+2 m, +xyz) · `bauzonen` → WMS `ch.are.bauzonen` PNG
-(Achtung WMS 1.3.0 + EPSG:2056 = Achse **N,E**).
+(Achtung WMS 1.3.0 + EPSG:2056 = Achse **N,E**) · `zonenplan` → ZH-OGD-WFS
+`maps.zh.ch/wfs/OGDZHWFS` 0156 Grundnutzung + 0154 ES-Laerm (GeoJSON, login-frei; Mini-BBOX
+±2 m; **BMZ- und AZ-System**; mit `--out` GeoJSON-Ablage). Validiert 2026-06-16 Langnau + Egg.
 
 ## Dateinamen-Konvention
 
@@ -192,8 +194,9 @@ Der Connector uebernimmt diesen Namen unveraendert.
 - ZH validiert; SZ als EGRID-Direktbezug hinterlegt (fuer SZ-Parzellensuche `geo-sz.mjs`).
   Weitere Kantone in `OEREB_SERVICE` ergaenzen, sobald gebraucht.
 - ✓ Hoehe/Orthofoto/DTM/Bauzonen via `--produkt` umgesetzt (2026-06-10, geo.admin-Endpunkte).
-  **Offen:** rechtsverbindlicher kommunaler ZH-Zonenplan-WMS — `wms.zh.ch` = HTTP 401
-  (login-/Referer-geschuetzt); bis dahin Grundnutzung aus dem OEREB-Auszug.
+- ✓ **Kommunaler ZH-Zonenplan/BZO** via `--produkt zonenplan` umgesetzt (2026-06-16): nicht ueber
+  `wms.zh.ch` (401), sondern ueber den login-freien **ZH-OGD-WFS** 0156/0154 (GeoJSON). Liefert
+  Zone + BMZ/AZ + Hoehen/VG + ES-Laerm + Rechtsstatus. Damit ist die alte 401-Luecke geschlossen.
 - EGRID wird **nie erfunden**: bei 0 Treffern bricht der Connector ab (Rule
   `identifikatoren-verifizieren`).
 

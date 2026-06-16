@@ -31,7 +31,10 @@
  *                               orthofoto = SWISSIMAGE-DOP10-Kacheln (GeoTIFF-URLs je Jahrgang)
  *                               dtm       = swissALTI3D-Kacheln (GeoTIFF/XYZ-URLs)
  *                               bauzonen  = harmonisierte Bauzonen CH (ch.are.bauzonen) als PNG
- *                             height/orthofoto/dtm/bauzonen brauchen eine Koordinate -> nur mit --adresse
+ *                               zonenplan = rechtskraeftige kommunale Grundnutzung Kt. ZH (Zone,
+ *                                           BMZ/Gebaeude-/Firsthoehe, Empfindlichkeitsstufe) als
+ *                                           Vektor via ZH-OGD-WFS (0156/0154); GeoJSON-Ablage mit --out
+ *                             height/orthofoto/dtm/bauzonen/zonenplan brauchen eine Koordinate -> nur mit --adresse
  *   --download                bei orthofoto/dtm zusaetzlich die hoechstaufgeloesten Kacheln laden
  *   --out <dir>              Zielordner (mehrfach moeglich); PDF/PNG/Kacheln werden in jeden gelegt
  *   --kanton <zh|...>         OEREB-Service-Kanton (default: aus BFS abgeleitet, sonst zh)
@@ -86,6 +89,54 @@ const STAC_COLL = {
   gebaeude:   "ch.swisstopo.swissbuildings3d_2",   // Gebaeudekuben (Kachel-DXF bevorzugt)
   punktwolke: "ch.swisstopo.swisssurface3d",       // Oberflaechen-Punktwolke (LAZ, bei Bedarf)
 };
+
+// --- ZH-OGD-WFS: rechtskraeftige kommunale Nutzungsplanung (login-frei) ---------
+// maps.zh.ch/wfs/OGDZHWFS liefert die rechtsverbindliche Grundnutzung (Zonenplan/BZO) als
+// Vektor mit allen planungsrelevanten Attributen (Zone, BMZ, Gebaeude-/Firsthoehe,
+// Gewerbeanteil, Rechtsstatus, Festsetzungs-/Genehmigungsdatum) — MEHR als der OEREB-PDF.
+// Loest die alte Luecke A2/E2 (wms.zh.ch = HTTP 401): der OGD-WFS ist login-/Referer-frei.
+// Validiert 2026-06-16 an Kat. 3338 Langnau a.A. (W/1.5 -> W1, BMZ 1.5, ES_II, inKraft).
+// Punktabfrage via Mini-BBOX (±2 m): groessere Fenster fangen Nachbarzonen mit.
+// Es gibt je Layer ein Pendant `..._proj_f` (projektierte/in Revision befindliche Planung).
+const OGDZH_WFS = "https://maps.zh.ch/wfs/OGDZHWFS";
+const NP_LAYER = {
+  grundnutzung: "ms:ogd-0156_arv_basis_np_gn_zonenflaeche_f", // rechtskraeftige Grundnutzung (Zone)
+  es_laerm:     "ms:ogd-0154_arv_basis_np_ls_festlegung_f",   // Empfindlichkeitsstufe LSV (ES_I..IV)
+};
+function ogdWfsUrl(layer, e, n, half = 2) {
+  const bbox = `${e - half},${n - half},${e + half},${n + half},urn:ogc:def:crs:EPSG::2056`;
+  return `${OGDZH_WFS}?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=${layer}`
+    + `&SRSNAME=urn:ogc:def:crs:EPSG::2056&BBOX=${encodeURIComponent(bbox)}&COUNT=10&OUTPUTFORMAT=geojson`;
+}
+// Holt Grundnutzung + Empfindlichkeitsstufe an einem LV95-Punkt (nur Kt. ZH).
+async function fetchZonenplan(e, n) {
+  const gn = await getJson(ogdWfsUrl(NP_LAYER.grundnutzung, e, n));
+  const grundnutzung = (gn.features || []).map((f) => {
+    const p = f.properties || {};
+    return {
+      gemeinde: p.typ_gemeindename, bfs: p.typ_bfsnr,
+      zone_gde: p.typ_gde_abkuerzung, zone_gde_txt: p.typ_gde_bezeichnung,
+      zone_zh: p.typ_zh_abkuerzung, zone_zh_txt: p.typ_zh_bezeichnung,
+      // Dichtemass je Gemeindesystem: BMZ-Gemeinden (z.B. Langnau) tragen baumassenziffer_max
+      // + Gebaeude-/Firsthoehe; AZ-Gemeinden (z.B. Stadt ZH) tragen ausnuetzungsziffer_max +
+      // vollgeschosse_max. Das jeweils andere Feld fehlt (undefined) -> beide mitnehmen.
+      ausnuetzungsziffer_max: p.ausnuetzungsziffer_max, vollgeschosse_max: p.vollgeschosse_max,
+      baumassenziffer_max: p.baumassenziffer_max, gebaeudehoehe_max: p.gebaeudehoehe_max,
+      firsthoehe_max: p.firsthoehe_max, gewerbeanteil_max: p.gewerbeanteil_max,
+      rechtsstatus: p.rechtsstatus, festgesetzt: p.festsetzungsdatum,
+      genehmigt: p.genehmigungsdatum, publiziert_ab: p.publiziertab,
+    };
+  });
+  let es_laerm = [];
+  try {
+    const es = await getJson(ogdWfsUrl(NP_LAYER.es_laerm, e, n));
+    es_laerm = (es.features || []).map((f) => ({
+      es: f.properties?.typ_abkuerzung, es_txt: f.properties?.typ_bezeichnung,
+      rechtsstatus: f.properties?.rechtsstatus,
+    }));
+  } catch { /* ES optional — Grundnutzung ist das Pflichtprodukt */ }
+  return { grundnutzung, es_laerm, layer: NP_LAYER };
+}
 // bevorzugte Datei-Endung je Produkt (stacAssets-Fallback: .tif, sonst erstes Asset)
 const STAC_PREF = { gebaeude: ".dxf.zip", punktwolke: ".laz" };
 
@@ -279,8 +330,30 @@ function isoDate() {
                 L(`   bauzonen: ${dest} (${(buf.length / 1024).toFixed(0)} KB)`);
               }
               result.produkte.bauzonen = { layer: "ch.are.bauzonen", url };
+            } else if (prod === "zonenplan") {
+              if (result.kanton !== "zh") throw new Error(`zonenplan ist nur fuer Kt. ZH hinterlegt (Kanton ${result.kanton})`);
+              const z = await fetchZonenplan(c.east, c.north);
+              result.produkte.zonenplan = z;
+              const zg = z.grundnutzung[0];
+              const mehr = z.grundnutzung.length > 1 ? ` [${z.grundnutzung.length} Zonen im Fenster — Punkt praezisieren]` : "";
+              const dichte = zg
+                ? (zg.ausnuetzungsziffer_max != null ? `AZ ${zg.ausnuetzungsziffer_max}${zg.vollgeschosse_max != null ? `/${zg.vollgeschosse_max}VG` : ""}`
+                   : zg.baumassenziffer_max != null ? `BMZ ${zg.baumassenziffer_max} · GH ${zg.gebaeudehoehe_max ?? "–"}` : "Dichte –")
+                : "";
+              L(zg
+                ? `   zonenplan: ${zg.zone_gde} (${zg.zone_zh}) · ${dichte} · ${z.es_laerm[0]?.es ?? "ES?"} · ${zg.rechtsstatus}${mehr}`
+                : `   zonenplan: keine Grundnutzung an der Koordinate getroffen`);
+              // GeoJSON-Zusammenfassung nur bei explizitem --out ablegen (kein cwd-Muell)
+              if (a.out.length) {
+                const fn = `Zonenplan-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
+                for (const dir of a.out) {
+                  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+                  const dest = join(dir, fn); writeFileSync(dest, JSON.stringify(z, null, 2)); result.files.push(dest);
+                  L(`     -> ${dest}`);
+                }
+              }
             } else {
-              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen)`);
+              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen,zonenplan)`);
             }
           } catch (e) {
             result.produkte[prod] = { error: e.message };

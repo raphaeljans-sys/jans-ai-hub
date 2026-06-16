@@ -6,8 +6,9 @@ gelesen. `raw/` hier sammelt zusaetzliche Dumps (Mailauskuenfte, Screenshots, Be
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 01 Kartenportale | SharePoint (OneDrive-JANS) | teilweise | OEREB/EGRID-Kette + Run4 2026-06-10: Bund-Geodaten (Hoehe/Orthofoto/DTM/Bauzonen) belegt & im Connector; kommunaler ZH-Zonenplan-WMS offen (401) |
+| PL - 01 Kartenportale | SharePoint (OneDrive-JANS) | teilweise | OEREB/EGRID-Kette + Run4 2026-06-10: Bund-Geodaten; **Run5 2026-06-16: kommunaler ZH-Zonenplan (A2) GELOEST** via OGD-WFS 0156; offen A5 ObjektwesenZH |
 | └ geo.admin.ch height + STAC swissimage-dop10/swissalti3d + WMS ch.are.bauzonen | api3/data/wms.geo.admin.ch | eingearbeitet | Run4 2026-06-10 live getestet (Kat. 3338); → [[kartenportale-bund-geodaten]], Connector `--produkt` |
+| └ maps.zh.ch/wfs/OGDZHWFS — Nutzungsplanung 0156 Grundnutzung + 0154 ES Laerm (GeoJSON) | maps.zh.ch | eingearbeitet | Run5 2026-06-16 live getestet (Langnau Kat. 3338 W/1.5/BMZ + Egg WG60/AZ); login-frei, BMZ+AZ+Hoehen+VG+Rechtsstatus → [[kartenportale-zonenplan-zh]], Connector `--produkt zonenplan` |
 | PL - 02_Recht_Norm | SharePoint | teilweise | Run3 2026-06-08: 10-Ordner-Karte + SR→fedlex-Schema + Datenstand RPG 2/EnG 2026 + BRA-Benchmark-Index. Tiefe via `[[baurecht]]`-KB |
 | └ 01_Gesetze/01_Bund (151.3/451/700/700.1/730.0/814.20/814.41 …) | PL-02 | kartiert | SR→fedlex-ELI; Ordner-PDF = historische Fassungen, aktuelle Fassung via fedlex datierte PDF-A |
 | └ 01_Gesetze/08_Baurechtsanalysen/231024_Maur.pdf | PL-02 | eingearbeitet | Struktur-Goldstandard Machbarkeitsstudie (Status quo→OPR→Gewaesserraum→Baufeld→Variante→Kennwerte) |

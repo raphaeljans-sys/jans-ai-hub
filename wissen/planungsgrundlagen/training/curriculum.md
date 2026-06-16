@@ -8,7 +8,7 @@ das Ergebnis in den passenden Wiki-Artikel.
 
 ## Domaene 1 — Kartenportale (PL-01)  · Prioritaet
 - [x] K1 Wie kommt man von Adresse zu EGRID zu OEREB-PDF? (2026-06-05, validiert ZH)
-- [~] K2 Wie bezieht man den Zonenplan/BZO-Ausschnitt einer ZH-Parzelle (Endpunkt/Format)? (2026-06-10, Bundes-Bauzonen `ch.are.bauzonen` als PNG validiert; rechtsverbindliche kommunale BZO via OEREB; ZH-Zonenplan-WMS wms.zh.ch=401 offen → A2)
+- [x] K2 Wie bezieht man den Zonenplan/BZO-Ausschnitt einer ZH-Parzelle (Endpunkt/Format)? (2026-06-16 GELOEST: ZH-OGD-WFS `maps.zh.ch/wfs/OGDZHWFS` Datensatz 0156 `np_gn_zonenflaeche_f` als GeoJSON, login-frei — Zone+BMZ/AZ+Hoehen+VG+ES-Laerm 0154; Connector `--produkt zonenplan`; validiert Langnau Kat.3338 + Egg WG60 → [[kartenportale-zonenplan-zh]]. Bundes-Bauzonen `ch.are.bauzonen` PNG bleibt fuer Schnellblick.)
 - [x] K3 Wie laedt man Hoehenmodell (swissALTI3D) + Orthofoto (SWISSIMAGE) je Parzelle? (2026-06-10, height + STAC swissimage-dop10/swissalti3d validiert → [[kartenportale-bund-geodaten]], Connector `--produkt`)
 - [ ] K4 Situationsplan amtliche Vermessung — Bezug ueber geodienste.ch OGD, automatisierbar?
 - [ ] K5 Baulinien/Abstandslinien — wo, und wie lesen sie sich in den OEREB?

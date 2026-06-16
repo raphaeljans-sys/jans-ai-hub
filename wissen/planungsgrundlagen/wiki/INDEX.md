@@ -5,6 +5,7 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 ## Kartenportale (PL-01)
 - [[kartenportale-oereb-egrid-bezug]] — OEREB-Auszug & EGRID beziehen (Kt. ZH) · **established**
 - [[kartenportale-bund-geodaten]] — Hoehe/Orthofoto/DTM/Bauzonen je Parzelle (geo.admin) + Connector `--produkt` · **established**
+- [[kartenportale-zonenplan-zh]] — rechtskraeftige kommunale Grundnutzung/BZO (Zone, BMZ/AZ, Hoehen, ES Laerm) login-frei via OGD-WFS 0156 + Connector `--produkt zonenplan` · **established**
 - [[kartenportale-geoportale-uebersicht]] — welches Portal liefert was · **established**
 - [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
 
