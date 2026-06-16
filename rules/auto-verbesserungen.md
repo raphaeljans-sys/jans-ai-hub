@@ -9,6 +9,11 @@ Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh
 (`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
 eine Dauerregel handelt.
 
+## 260616 — Baurecht: IMMER beide Bände des Standardwerks prüfen UND zitieren
+- **Auslöser:** "ich bitte dich daher zukünftig alle baurechtsanfragen mit beiden bänder Band 1 und 2 zu prüfen und diese auch im Quellenverweis zu Zitieren und aufzuführen bitte akutalisiere den Baurechtskill"
+- **Regel:** Jede Baurechtsanfrage wird gegen BEIDE Bände von Fritzsche/Bösch/Wipf/Kunz «Zürcher Planungs- und Baurecht» (6. Aufl. 2019) geprüft: Band 1 (Planungsrecht, Verfahren, Rechtsschutz) UND Band 2 (Bau- und Umweltrecht). Beide Bände werden im Quellenverweis mit Band/Kapitel/Seite aufgeführt; der für die konkrete Frage nicht einschlägige Band wird kurz als nicht einschlägig vermerkt, nie stillschweigend weggelassen. Das Werk darf in einer baurechtlichen Stellungnahme nie fehlen. Fehlt ein Kapitel als Destillat (Band 1 noch weitgehend offen), die Screenshot-Doppelseiten via `seiten-inventar.md` lesen und als Destillat ablegen (Compounding). Verankert im Skill `baurecht`, Sektion 0b + «Quellenangaben».
+- **Gilt für:** Skill `baurecht`, alle baurechtlichen Stellungnahmen/Dokumente, alle Stationen.
+
 ## 260616 — Kein Baurechts-/Rechtsberatungs-Disclaimer am Schluss von Dokumenten
 - **Auslöser:** "Kannst du jeweils diese Baurechts-Disclaimer am schluss der Dokumente weglassen, bitte hinterlege das im claude md file für alle zukünftigen von dir zu erstellenden dokumente"
 - **Regel:** In von Claude erstellten Dokumenten (DOCX/PDF, Factsheets, Berichte, Memos) den abschliessenden Haftungs-/Disclaimer-Baustein («Hinweis: Diese Einschätzung ersetzt keine Rechtsberatung. Für verbindliche Auskünfte den aktuellen Gesetzestext konsultieren oder eine baurechtliche Fachperson beiziehen.») WEGLASSEN. Quellenangaben (§§/Erlasse) bleiben erlaubt und erwünscht, nur die Rechtsberatungs-Floskel entfällt. Überschreibt die «Haftungshinweis»-Vorgabe im Skill `baurecht`.

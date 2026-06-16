@@ -80,11 +80,27 @@ durchsuchbarer Destillate-Layer in der Wissensbasis hinterlegt:
   Quell-Screenshots auf SharePoint `PL - 02_Recht_Norm/.../SM Planungs und Baurecht/`).
 - **Kapitel-Landkarte:** `wissen/baurecht/training/curriculum.md` (23 Kapitel + Seiten).
 
-**Arbeitsregel:** Bei jeder ZH-Sachfrage (Ausnützung, Abstände, Höhen, Dachausbau,
-Vollgeschoss, Verfahren, Bestandesschutz) **zuerst das einschlägige Buch-Destillat
-konsultieren** und mit **Band/Kapitel/Seite** zitieren — zusammen mit dem amtlichen § aus
-Stufe 0. Fehlt das Kapitel noch als Destillat, die betreffenden Screenshot-Doppelseiten
-(Inventar → Pfad) direkt lesen **und das Ergebnis als Destillat ablegen** (Compounding).
+**Arbeitsregel (VERBINDLICH, Vorgabe Raphael 16.06.2026):** Jede Baurechtsanfrage wird
+gegen **BEIDE Bände** des Standardwerks geprüft, **Band 1 (Planungsrecht, Verfahren,
+Rechtsschutz) UND Band 2 (Bau- und Umweltrecht)**, nicht nur gegen den einen offensichtlich
+naheliegenden Band. Faustregel der Zuordnung: materielle Bauvorschriften (Ausnützung,
+Abstände, Höhen, Baulinien, Bestandesschutz, Umweltrecht) → **Band 2**; Planung, Verfahren,
+Mitwirkung/Auflage, Einsprache/Rekurs/Beschwerde, Rechtsschutz, Enteignung → **Band 1**.
+Die meisten Fälle berühren beides (z. B. eine Baulinienfrage = Band 2 für die Linie selbst
++ Band 1 für das Festsetzungs-/Mitwirkungsverfahren und den Rechtsschutz).
+
+Vorgehen je Anfrage:
+1. **Zuerst** das einschlägige Buch-Destillat **beider Bände** konsultieren
+   (`wissen/baurecht/buecher/INDEX.md` → relevante Artikel) zusammen mit dem amtlichen § aus Stufe 0.
+2. Fehlt ein einschlägiges Kapitel noch als Destillat (Band 1 ist Stand 16.06.2026 noch
+   weitgehend undestilliert), die betreffenden Screenshot-Doppelseiten über das
+   `seiten-inventar.md` direkt lesen **und das Ergebnis als Destillat ablegen** (Compounding).
+3. **Beide Bände im Quellenverweis aufführen und mit Band/Kapitel/Seite zitieren** (siehe
+   Sektion «Quellenangaben»). Ist ein Band für die Frage materiell nicht einschlägig, wird
+   das kurz vermerkt («Band 1 zu Verfahren/Rechtsschutz: für diese rein materielle Frage nicht
+   einschlägig»), statt ihn stillschweigend wegzulassen. **Das Werk darf in einer
+   baurechtlichen Stellungnahme nie unerwähnt bleiben.**
+
 Das Werk wächst laufend ein über das **Buch-Training** (`wissen/baurecht/training/PROGRAMM.md`,
 Scheduled Task `baurecht-buch-training`).
 
@@ -143,7 +159,11 @@ Gib bei jeder rechtlichen Aussage die Rechtsgrundlage an:
 - Kantonales Recht SZ: **§ [Nummer] PBG SZ**, **§ [Nummer] PBV SZ**
 - Bundesrecht: **Art. [Nummer] RPG**, **Art. [Nummer] USG**
 - SIA-Normen: **SIA [Nummer]**
-- Standardwerk: **Fritzsche/Bösch/Wipf/Kunz, «Zürcher Planungs- und Baurecht», Bd [1/2], Kap. [Nr], S. [Seite]** (Buch-Destillat `wissen/baurecht/buecher/`)
+- Standardwerk (**PFLICHT in jeder baurechtlichen Stellungnahme, beide Bände aufführen**):
+  **Fritzsche/Bösch/Wipf/Kunz, «Zürcher Planungs- und Baurecht», 6. Aufl. 2019, Bd 1 und Bd 2,
+  Kap. [Nr], S. [Seite]** (Buch-Destillate `wissen/baurecht/buecher/`). Band 2 = Bau-/Umweltrecht
+  (materielle Vorschriften), Band 1 = Planungsrecht/Verfahren/Rechtsschutz. Den für die Frage
+  nicht einschlägigen Band kurz als nicht einschlägig vermerken statt weglassen.
 - SharePoint-Dokument: Nenne den Dateinamen aus der Gesetzessammlung
 
 ## Unsicherheiten transparent machen
