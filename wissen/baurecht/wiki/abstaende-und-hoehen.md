@@ -1,9 +1,9 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-06-15
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "§ 14 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085"]
-links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
+last_updated: 2026-06-16
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111"]
+links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
 # Abstände und Höhen
@@ -42,19 +42,59 @@ zwischen **Fassade** und **massgebender Grenzlinie** (§ 260 Abs. 1 PBG). Detail
   *aber* eine Baulinie darf trotzdem nicht überschritten werden ([[baulinien-und-abstandslinien]]).
 
 ## Gebäudeabstand
-Abstand zwischen zwei Gebäuden, mindestens Summe der jeweiligen Grenzabstände
-(§§ 271-274 PBG). Reduzierte Abstände für «besondere Gebäude» (§ 49 Abs. 3 / § 273 PBG).
-Die BZO kann anordnen, dass die für den Mehrlängenzuschlag massgeblichen Fassadenlängen
-**benachbarter Hauptgebäude zusammengerechnet** werden, wenn der Gebäudeabstand ein
-bestimmtes Mass unterschreitet (§ 27 Abs. 2 ABV).
-> *Detail-Zahlenwerk §§ 271-274 (Summenbildung, besondere Gebäude) noch offen — Buch Kap. 15
-> (Shots ab 547, S. 1086 ff.) im nächsten Lauf distillieren.*
+Der Abstand zwischen zwei Gebäuden, die Grenzabstände einhalten müssen, entspricht **ohne
+Rücksicht auf Grundstücksgrenzen der Summe der beiden Grenzabstände** (**§ 271 PBG**).
+Detailsynthese: [[15-lage-von-gebaeuden-teil2d]].
+
+- **Grundformel:** `Gebäudeabstand = Grenzabstand A + Grenzabstand B`. Zwei dreigeschossige
+  Wohnbauten mit je 3,5 m Mindestgrenzabstand → **7 m**.
+- **Reduktionsgründe wirken durch:** Verzicht auf ein Vollgeschoss (kommunale
+  Grenzabstandsreduktion, § 49 Abs. 2 lit. b PBG) und ein Näherbaurecht (§ 270 Abs. 3 PBG)
+  senken auch den Gebäudeabstand (BEZ 1993 Nr. 5). **Abstandsfreie Gebäude (§ 269 PBG)** und
+  die Vorsprung-Privilegien (§ 260 Abs. 3 PBG) gelten ebenso für den Gebäudeabstand.
+- **Abstand über Verkehrsräume:** Über durch Verkehrs-/Baubegrenzungslinien gesicherten Raum
+  wird **kein** Gebäudeabstand gemessen (**§ 272 PBG**).
+- **Gebäudeteile vs. Gebäude:** Zwischen blossen Teilen desselben Gebäudes (Aussenkamine,
+  Lift-/Treppenhausanbauten) wird nicht gemessen; ein **Zusammenbau** wird nur dann
+  abstandswirksam, wenn die Verbindung selbst Gebäudecharakter hat (mind. Dach).
+- **Zusammenrechnung:** Die BZO kann anordnen, dass die für den Mehrlängenzuschlag
+  massgeblichen Fassadenlängen **benachbarter Hauptgebäude zusammengerechnet** werden
+  (§ 27 Abs. 2 ABV).
+
+### «Besondere Gebäude» (§ 273 i.V.m. § 49 Abs. 3 PBG)
+Wo die BZO nichts anderes sagt, gilt für Gebäude, die **nicht für den dauernden Aufenthalt
+von Menschen** bestimmt sind und deren **grösste Höhe ≤ 4 m** (bei Schrägdächern ≤ 5 m, nur
+bei ≥ 10° Neigung, BEZ 1996 Nr. 30) beträgt, ein Gebäudeabstand von **nur 3,5 m** (§ 273 PBG;
+die Gemeinde kann weniger festlegen oder das Privileg einschränken, § 49 Abs. 3 PBG).
+- «Grösste Höhe» ist **nicht** die Gebäudehöhe i.S. §§ 278 ff. PBG, sondern jeder Punkt ab
+  gewachsenem Boden.
+- Flächen-Richtwert ≈ **50 m²** Grundstücksbedeckung (BEZ 2015 Nr. 2); Teile bis 50 cm über
+  Boden dürfen bis an die Grenze.
+- **Garage/Carport/Geräte-/Gartenhaus = typisch Besonderes Gebäude** (Kasuistik
+  [[15-lage-von-gebaeuden-teil2d]]); **verglaster Wintergarten** verliert das Privileg, weil
+  ganzjährig nutzbar (BEZ 1998 Nr. 26).
+- Anbau ans Hauptgebäude möglich, verlangt aber ein **Gebot der konstruktiven und
+  architektonischen Selbständigkeit** (Gesamtbetrachtung, VB.2015.00544).
+- **Keine Ausnahmebewilligung:** von den Merkmalen des Besonderen Gebäudes kann nicht per
+  Dispens befreit werden — es ist keine «Bauvorschrift» i.S. § 220 PBG, sondern Kompetenznorm
+  und Legaldefinition (BEZ 2004 Nr. 75).
 
 ## Näherbaurecht
-Privatrechtliche Vereinbarung zwischen Nachbarn für einen geringeren Grenzabstand;
-muss grundbuchlich eingetragen werden. Fehlende Zustimmung ist ein häufiger
-Stolperstein im Verfahren (siehe [[baubewilligungsverfahren]]). Abzugrenzen von den
-privatrechtlichen Pflanzen-/Einfriedungsabständen (Art. 688 ZGB i.V.m. §§ 169 ff. EG ZGB).
+Öffentlich-rechtlich wirkende Vereinbarung zwischen Nachbarn für einen geringeren Grenz-
+(und damit Gebäude-)Abstand (**§ 270 Abs. 3 PBG**; Wirkung via § 218 Abs. 2 PBG). Details:
+[[15-lage-von-gebaeuden-teil2d]].
+- Nur **Grenzabstände** sind verfügbar; Strassen-/Wald-/Gewässerabstände wahren öffentliche
+  Interessen und sind dem Näherbaurecht entzogen.
+- **Schranken bleiben:** wohnhygienisch/feuerpolizeilich ist regelmässig ein
+  **Mindestgebäudeabstand von 7 m** (2 × 3,5 m, zzgl. Mehrhöhenzuschlag) einzuhalten
+  (BEZ 1990 Nr. 28); ggf. Schattendiagramm § 30 ABV.
+- **Nachweis:** einfache schriftliche Erklärung des belasteten Eigentümers genügt der Behörde
+  (§ 5 lit. l BVV; BEZ 2001 Nr. 49); für dauerhafte Sicherung **Dienstbarkeit im Grundbuch**
+  (Art. 680 Abs. 2 ZGB). Fehlende Zustimmung ist ein häufiger Stolperstein im Verfahren
+  (siehe [[baubewilligungsverfahren]]). Abzugrenzen von den privatrechtlichen Pflanzen-/
+  Einfriedungsabständen (Art. 688 ZGB i.V.m. §§ 169 ff. EG ZGB).
+- **Aussenwärmedämmung Bestand:** bis **35 cm** über die Abstandsvorschriften hinaus zulässig
+  (§ 253a Abs. 1 PBG / § 33a ABV); Neubau wird ab Aussenhaut gemessen.
 
 ## Abstandsprivilegierte Bauteile
 Oberirdische Vorsprünge (Erker, Balkone) dürfen unter Bedingungen in den Grenzabstand ragen

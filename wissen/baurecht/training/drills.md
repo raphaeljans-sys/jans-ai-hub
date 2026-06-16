@@ -195,3 +195,55 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   an enger Grenze teuer (Rueckstaffelung kostet aGF). In der Volumenstudie (Skill `volumenstudie`/
   `machbarkeit`) ab 12 m Fassadenhoehe die Abtreppung modellieren; Hauptwohnseite (grosser
   Grundabstand) bewusst nach Sueden legen.
+
+### Modell C — Selbsttest-Karten (Gebaeudeabstand §§ 271-273, 2026-06-16)
+- **F:** Wie gross ist der Gebaeudeabstand zwischen zwei Gebaeuden, die Grenzabstaende einhalten
+  muessen? — **A:** Er entspricht **ohne Ruecksicht auf Grundstuecksgrenzen der Summe der beiden
+  Grenzabstaende** (§ 271 PBG; Bd 2, S. 1104). Zwei Bauten mit je 3,5 m Mindestgrenzabstand → 7 m.
+  _[2026-06-16]_
+- **F:** Welche Voraussetzungen muss ein «Besonderes Gebaeude» erfuellen, um nur 3,5 m
+  Gebaeudeabstand einhalten zu muessen? — **A:** (1) **nicht fuer den dauernden Aufenthalt von
+  Menschen** bestimmt (keine Wohn-/Schlaf-/Arbeitsraeume) und (2) **groesste Hoehe ≤ 4 m**, bei
+  Schraegdaechern ≤ 5 m (nur bei ≥ 10° Neigung); § 273 i.V.m. § 49 Abs. 3 PBG; BEZ 1996 Nr. 30;
+  Bd 2, S. 1106/1108. _[2026-06-16]_
+- **F:** Kann ein Gebaeudeteil, der nicht alle Merkmale des Besonderen Gebaeudes erfuellt, per
+  Ausnahmebewilligung trotzdem als solches behandelt werden? — **A:** **Nein.** § 49 Abs. 3 PBG
+  ist keine «Bauvorschrift» i.S. § 220 PBG, sondern Kompetenznorm + Legaldefinition; ein Dispens
+  ist nicht moeglich (BEZ 2004 Nr. 75; Bd 2, S. 1109). _[2026-06-16]_
+- **F:** Wird ueber einen durch Verkehrsbaulinien gesicherten Raum ein Gebaeudeabstand gemessen?
+  — **A:** **Nein** — ueber durch Verkehrs-/Baubegrenzungslinien gesicherten Raum wird kein
+  Gebaeudeabstand gemessen (§ 272 PBG; Bd 2, S. 1105). _[2026-06-16]_
+- **F:** Welcher Mindest-Gebaeudeabstand bleibt trotz vereinbartem Naeherbaurecht bestehen? —
+  **A:** Aus Wohnhygiene/Brandschutz regelmaessig **7 m** (2 × 3,5 m), zzgl. allfaelliger
+  Mehrhoehenzuschlaege; ggf. Schattendiagramm § 30 ABV (BEZ 1990 Nr. 28; § 270 Abs. 3 PBG;
+  Bd 2, S. 1103). _[2026-06-16]_
+- **F:** Verliert ein verglaster Wintergarten das Abstandsprivileg des Besonderen Gebaeudes? —
+  **A:** **Ja** — er ist auch ohne Heizung 180-220 Tage/Jahr als Wohnraumerweiterung nutzbar und
+  daher nur ausnuetzungs-, nicht abstandsprivilegiert (BEZ 1998 Nr. 26 / RB 1998 Nr. 79;
+  Bd 2, S. 1107). _[2026-06-16]_
+- **F:** Wie viel darf eine Aussenwaermedaemmung an einem Bestandsgebaeude ueber die
+  Abstandsvorschriften hinausragen? — **A:** Bis **35 cm** (§ 253a Abs. 1 PBG / § 33a ABV); bei
+  Neubauten wird ab Aussenhaut gemessen (Bd 2, S. 1096). _[2026-06-16]_
+
+### Modell B — Fall-Nachrechnung (Garage als Besonderes Gebaeude, 2026-06-16)
+- **Fall:** Bauherr will an der Nachbargrenze ein freistehendes Garagen-/Geraetegebaeude
+  (Flachdach, Aussenhoehe 3,8 m, Grundflaeche 42 m², keine Aufenthaltsraeume) errichten. Zone mit
+  kommunalem Grundabstand 4 m. Wie nahe darf das Gebaeude an das Nachbargebaeude bzw. an die Grenze?
+- **Rechnung (nur mit Buchbeleg):**
+  1. Pruefung «Besonderes Gebaeude» (§ 49 Abs. 3 PBG): kein dauernder Aufenthalt ✅ (Garage/
+     Geraeteraum, vgl. Kasuistik VB.2014.00267, BEZ 2014 Nr. 30); groesste Hoehe **3,8 m ≤ 4 m** ✅
+     (Flachdach, daher 4-m-Grenze massgebend); Flaeche 42 m² < ~50 m² ✅ (BEZ 2015 Nr. 2). →
+     Privileg greift.
+  2. Folge Gebaeudeabstand: Wo die BZO nichts anderes sagt, gilt **Gebaeudeabstand 3,5 m**
+     (§ 273 PBG) statt der Summe der ordentlichen Grenzabstaende (hier 4 + 4 = 8 m). Bd 2, S. 1106.
+  3. Folge Grenzabstand: Auch der kantonale Mindestgrenzabstand 3,5 m (§ 270 Abs. 1 PBG) ist fuer
+     Besondere Gebaeude reduzierbar (§ 270 Abs. 1/3 PBG); die Gemeinde kann nach § 49 Abs. 3 PBG
+     **geringere** Abstaende festlegen — daher BZO/Bauordnung der Standortgemeinde pruefen
+     (manche lassen Besondere Gebaeude bis an die Grenze zu). Bd 2, S. 1095/1106.
+  - **Ergebnis:** Ohne abweichende BZO-Regel **3,5 m Gebaeudeabstand**; mit kommunaler Regelung
+    ggf. weniger bis an die Grenze. Beleg vollstaendig — keine Wissensluecke (offen bleibt nur die
+    konkrete kommunale BZO-Bestimmung, die je Gemeinde zu verifizieren ist).
+- **Transfer JANS:** Bei Nebenbauten (Garagen, Velounterstaende, Gartenpavillons) lohnt die
+  Pruefung des § 273-Privilegs immer — sie schafft Stellflaeche an der Grenze, wo das Hauptgebaeude
+  8 m Abstand braeuchte. Falle: sobald «Aufenthaltsqualitaet» (Hobbyraum, Wintergarten, Bueroecke)
+  dazukommt, faellt das Privileg (BEZ 1998 Nr. 26). Querverweis Skill `machbarkeit`/`volumenstudie`.

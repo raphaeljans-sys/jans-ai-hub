@@ -64,10 +64,16 @@ wurden.
   Hauptwohnseite (§ 22 Abs. 2 ABV), Mehrlängenzuschlag + 2G-Regel (§§ 23/24 ABV), Vorsprung-Privileg
   (§ 260 Abs. 3 / § 27 ABV), abstandsfrei § 269 — distilliert [[15-lage-von-gebaeuden-teil2c]]
   (S. 1062-1085), Wiki [[abstaende-und-hoehen]] geschärft.
-- **Gebäudeabstand §§ 271-274 PBG offen** (Abstand zwischen zwei Gebäuden = Summe der Grenzabstände;
-  § 273 reduzierte Abstände besonderer Gebäude; § 27 Abs. 2 ABV Zusammenrechnung benachbarter
-  Hauptgebäude): noch nicht distilliert — Buch S. 1086 ff., Shots ab 547. **Nächster Lauf (Teil 2d).**
-  Ergänzt [[abstaende-und-hoehen]].
+- ~~**Gebäudeabstand §§ 271-273 PBG**~~ → **erledigt 2026-06-16** (Run 7): Gebäudeabstand = Summe
+  der beiden Grenzabstände (§ 271), Abstand über Verkehrsräume (§ 272), Erleichterungen «Besondere
+  Gebäude» § 273 i.V.m. § 49 Abs. 3 PBG (≤ 4 m / 5 m, kein dauernder Aufenthalt, 3,5 m Abstand,
+  ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75), Näherbaurecht § 270 Abs. 3 PBG (7-m-Schranke
+  BEZ 1990 Nr. 28, Grundbuch Art. 680 Abs. 2 ZGB), Aussenisolation § 253a PBG — distilliert
+  [[15-lage-von-gebaeuden-teil2d]] (S. 1086-1111), Wiki [[abstaende-und-hoehen]] geschärft.
+- **§ 274 PBG offen** (Grenzbaurecht / geschlossene Bauweise / Anbaupflicht-Anbaurecht): § 274 Abs. 1
+  wird in der Näherbaurecht-Passage (S. 1100) zitiert, eine eigenständige Sektion (vermutlich 15.10,
+  Shots ab 560, S. 1112 ff.) wurde noch nicht erreicht. Ebenso **§ 27 Abs. 2 ABV** (Zusammenrechnung
+  benachbarter Hauptgebäude) in den gelesenen Seiten nicht explizit belegt. **Restschuld Kap. 15.**
 - **§§ 102/103/104 PBG** (Entschädigung materielle Enteignung / Heimschlagsrecht /
   Leitungsbaurecht bei Baulinien): genaue §-Zuordnung am amtlichen Volltext prüfen (im Buch teils
   zusammengezogen zitiert, S. 1035).
