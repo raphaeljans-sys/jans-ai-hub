@@ -177,6 +177,6 @@ Wenn du Baurechtsanalysen oder Reports erstellst, speichere diese unter:
 
 ## Haftungshinweis
 
-Füge bei substanziellen rechtlichen Einschätzungen an:
+**In Dokumenten (DOCX/PDF, Factsheets, Berichte, Memos) KEINEN abschliessenden Rechtsberatungs-Disclaimer anfügen** (Regel `auto-verbesserungen.md`, 260616). Der Baustein «Diese Einschätzung ersetzt keine Rechtsberatung …» entfällt. Quellenangaben (§§/Erlasse) bleiben erwünscht.
 
-> *Hinweis: Diese Einschätzung ersetzt keine Rechtsberatung. Für verbindliche Auskünfte den aktuellen Gesetzestext (zh.lex.ch) konsultieren oder eine baurechtliche Fachperson beiziehen.*
+In Chat-Antworten ist bei heiklen/komplexen Fragen ein kurzer mündlicher Vorbehalt weiterhin zulässig (z. B. Verweis auf Voranfrage bei der Baubehörde oder eine Fachperson), aber nicht als formelhafter Standardsatz unter jedes Dokument.

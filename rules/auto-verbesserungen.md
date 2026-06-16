@@ -9,6 +9,11 @@ Die Erfassung läuft automatisch über den Hook `scripts/verbesserung-capture.sh
 (`UserPromptSubmit`) in Kombination mit Claudes Bewertung, ob es sich wirklich um
 eine Dauerregel handelt.
 
+## 260616 — Kein Baurechts-/Rechtsberatungs-Disclaimer am Schluss von Dokumenten
+- **Auslöser:** "Kannst du jeweils diese Baurechts-Disclaimer am schluss der Dokumente weglassen, bitte hinterlege das im claude md file für alle zukünftigen von dir zu erstellenden dokumente"
+- **Regel:** In von Claude erstellten Dokumenten (DOCX/PDF, Factsheets, Berichte, Memos) den abschliessenden Haftungs-/Disclaimer-Baustein («Hinweis: Diese Einschätzung ersetzt keine Rechtsberatung. Für verbindliche Auskünfte den aktuellen Gesetzestext konsultieren oder eine baurechtliche Fachperson beiziehen.») WEGLASSEN. Quellenangaben (§§/Erlasse) bleiben erlaubt und erwünscht, nur die Rechtsberatungs-Floskel entfällt. Überschreibt die «Haftungshinweis»-Vorgabe im Skill `baurecht`.
+- **Gilt für:** Alle von Claude erzeugten Dokumente, alle Skills (baurecht, immobilienbewertung, ankaufspruefung etc.), alle Stationen. Chat-Antworten dürfen weiterhin bei Bedarf einen kurzen mündlichen Vorbehalt enthalten.
+
 ## 260615 — Bewertungsgutachten: auf die METHODE berufen, SVKG-Zertifizierung weder behaupten noch verneinen
 - **Auslöser:** "ich bin nicht zertifiziert nach SVKG daher so formulieren dass wir uns auf die methode berufen bitte nicht sagen dass ich nicht SVKG zertifiziert bin einfach offen lassen und aber auch nicht so formulieren das zertifzierung nach SVKG vorausgesetzt werden kann"
 - **Regel:** In Immobilienbewertungs-Gutachten (Skill `immobilienbewertung`) IMMER auf die anerkannte **Methode/den Standard** berufen — Formel wie «nach Schweizer Schätzungsstandard / Schätzerhandbuch SVKG/SEK/SVIT 2012» bzw. «methodisch SVS-konform». NIE eine SVKG-Mitgliedschaft oder -Zertifizierung des Verfassers behaupten oder implizieren (kein «zertifizierter Schätzungsexperte SVKG», kein Logo/Mitglieds-Hinweis). Ebenso NIE aktiv erwähnen, dass keine Zertifizierung besteht — die Frage der persönlichen Zertifizierung bleibt offen/unerwähnt. Es geht um die Methodentreue, nicht um einen Titel.
