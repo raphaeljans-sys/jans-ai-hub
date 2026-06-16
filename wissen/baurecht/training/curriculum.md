@@ -23,15 +23,18 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 3 | Erschliessung, Landsicherung und Landumlegung | 207 | 264 | P2 | [ ] |
 | 4 | Natur- und Heimatschutz | 267 | 294 | P3 | [ ] |
 | 5 | Planung und Entschaedigung | 311 | 316 | P3 | [ ] |
-| 6 | Baurechtliches Verfahren | 337 | 329 | **P1** | [ ] |
-| 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | (Bd2-Anf.) | **P1** | [ ] |
-| 8 | Ausfuehrung von Bauarbeiten | 485 | — | P2 | [ ] |
-| 9 | Rechtsschutz | 537 | — | P2 | [ ] |
+| 6 | Baurechtliches Verfahren | 337 | **169** | **P1** | [~] (S.337-405: Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren; Rest S.405-422 offen) |
+| 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | (s.u.) | **P1** | [ ] |
+| 8 | Ausfuehrung von Bauarbeiten | 485 | ~245-269 | P2 | [ ] |
+| 9 | Rechtsschutz | 537 | **270** | P2 | [~] (S.537-575: Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen; Rest S.575-608 Ablauf/Kosten/Revision offen) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 609 | — | P2 | [ ] |
 
-> Hinweis: Die Shot-Schaetzung der oberen Band-1-Kapitel ist grob; beim Lesen der
-> jeweiligen Bandanfang-Screenshots verifizieren. (Kap. 6 «Baurechtliches Verfahren»
-> ist P1, weil jede Baueingabe/Voranfrage darauf beruht.)
+> Hinweis: Die urspruengliche Shot-Schaetzung der Band-1-Kapitel war FALSCH (Formel galt
+> nur fuer Band 2). Visuell verifiziert am 2026-06-16 (Run 8): **Kap. 6 beginnt bei Shot 169**
+> (`11.45.37.jpg`, p.337), **Kap. 9 bei Shot 270** (`11.48.44.jpg`, p.537). Die Bd-1-Shots
+> sind NICHT durchgaengig kapitellinear (Sprung Kap. 5 p.328 → Kap. 8/9 p.534-537; Kap. 6 liegt
+> davor bei Shots ~169-211). Beim Distillieren immer die echte Buchseite im Bild pruefen.
+> (Kap. 6 «Baurechtliches Verfahren» ist P1, weil jede Baueingabe/Voranfrage darauf beruht.)
 
 ## Band 2 — Bau- und Umweltrecht (S. 685-1550, Shots ~345-780)
 
@@ -96,8 +99,19 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.
+   *(Kap. 6 Kernbereich distilliert 2026-06-16, Run 8, S. 337-405, Shots 169-201: Bewilligungspflicht,
+   Baugesuch § 310 PBG / § 5 BVV, Koordinationsgebot Art. 25a RPG, Verfahrensablauf/Fristen § 313/§ 319 PBG,
+   Aussteckung § 311 PBG, Publikation § 314 PBG, **Zustellbegehren 20 Tage § 315/§ 316 PBG**. Destillat
+   [[06-baurechtliches-verfahren]], speist Wiki [[baubewilligungsverfahren]]. Restschuld Kap. 6 S.405-422
+   + ganzes Kap. 7 Zustaendigkeiten/Entscheide offen.)* ⏭️ **Naechster Lauf: Kap. 7** (Zustaendigkeiten,
+   Entscheide, Auskuenfte/Voranfrage; Shots ~201-243, S. 405-484).
 7. **Kap. 12 + 13** Baureife + Grundanforderungen.
 8. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
+   *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-
+   mittelweg Baurekursgericht § 19/§ 20 VRG → Verwaltungsgericht § 50 VRG → Bundesgericht Art. 82/95 BGG,
+   Legitimation § 21 VRG, akzessorische Normenkontrolle § 50a VRG, Verfahrensgrundsaetze, **Rechtsmittel-
+   frist 30 Tage § 22 VRG**. Destillat [[09-rechtsschutz]], speist [[baubewilligungsverfahren]] +
+   [[baulinien-und-abstandslinien]]. Restschuld Kap. 9 S.575-608 Ablauf/Kosten/Revision + Kap. 10 offen.)*
 9. Rest nach Prioritaet (Kap. 1-5, 8, 11, 18-19, 21-23). Kap. 18 Brandschutz nur Querverweis
    auf den Skill `brandschutz` (kein Doppelaufbau).
 

@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -69,7 +69,27 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Speist Skill `massgebendes-terrain` (Prinzip 4 Attika-/Baukoerper-Setzung).
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
-- _(noch keine Destillate — Start gem. Curriculum mit Kap. 6 Verfahren)_
+- [[06-baurechtliches-verfahren]] — Kap. 6 (S. 337-405, Kern; Kap. bis S. 422): **Baubewilligungs-
+  verfahren** — Zweck/Umfang (§ 309/§ 320 PBG), **Bewilligungspflicht** + Abgrenzung Melde-/Anzeige-
+  pflicht (Solar Art. 18a RPG, 30 Tage; Zweifel bejahen § 309 PBG), bewilligungspflichtige Vorhaben
+  (Bauten/Anlagen BGE 113 Ib 314, Nutzungsaenderung S. 356), **Baugesuch** (Berechtigung § 310 PBG,
+  Beilagenkatalog § 5 BVV, Plansatz schwarz/rot/gelb, Energienachweis § 10a EnerG), **Koordinations-
+  gebot** (Art. 25a RPG / §§ 7-9 BVV, kantonale Leitstelle), **Verfahrensablauf** (summarische Vor-
+  pruefung § 11 BVV, Fristen 21 Tage/3 Wochen § 313 PBG, Behandlungsfrist § 319 PBG, Kostenvorschuss
+  § 15 VRG), **Aussteckung/Profilierung** (§ 311 PBG, Baugespann, Attika detailliert), **Publikation/
+  Auflage** (§ 314 PBG, § 6a BVV, Akteneinsicht § 20 IDG), **Zustellbegehren 20 Tage** (§ 315/§ 316 PBG
+  = lex specialis, Verwirkung Rekursrecht). 17 Doppelseiten. Status: `emerging` (Restkap. S. 405-422 +
+  §-Verifikation offen). Speist [[baubewilligungsverfahren]].
+- [[09-rechtsschutz]] — Kap. 9 (S. 537-575, Kern; Kap. bis S. 608): **Rechtsschutz/Rechtsmittelweg** —
+  dreistufig **Rekurs → Baurekursgericht** (§ 19 Abs. 1 lit. a VRG, volle Kognition § 20 VRG, Einzel-
+  richter ≤ 20'000 Fr. § 335 PBG) → **Beschwerde → Verwaltungsgericht** (§ 50 VRG, nur Rechtskontrolle,
+  keine Angemessenheit) → **Bundesgericht** (Beschwerde i.oe.A. Art. 82/Art. 95 BGG, subsidiaere
+  Verfassungsbeschwerde Art. 113 BGG). **Legitimation** (schutzwuerdiges Interesse + Beziehungsnaehe
+  § 21 VRG, Verbandsbeschwerde Art. 12 NHG, Gemeindeautonomie Art. 50 BV, Behoerdenbeschwerde § 209f PBG),
+  **akzessorische Normenkontrolle** (§ 50a VRG), Verfahrensgrundsaetze (Offizial-/Dispositions-/
+  Untersuchungs-/Eventualmaxime, reformatio in peius § 27 VRG), **Rechtsmittelfrist 30 Tage** (§ 22 VRG;
+  Fax/E-Mail genuegen nicht). 16 Doppelseiten. Status: `emerging` (Restkap. S. 575-608 Ablauf/Kosten/
+  Revision + §-Verifikation offen). Speist [[baubewilligungsverfahren]] + [[baulinien-und-abstandslinien]].
 
 ## Abdeckungs-Matrix (Kurzform)
 
@@ -78,6 +98,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
 | 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien S.995-1061 + Grenzabstand-Zahlenwerk §§269-270/ABV S.1062-1085; **Gebaeudeabstand §§271-274 offen**) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
-| 1-13, 17-23 | uebrige | ⬜ offen |
+| 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
+| 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
+| 1-5, 7-8, 10-13, 17-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.
