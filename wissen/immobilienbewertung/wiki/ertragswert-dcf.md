@@ -145,6 +145,31 @@ Relation, Makrolagenrating der Gemeinde (WP Immo-Monitoring/Reports), Objektgroe
 kalibrieren (D3) — die WP-Anker oben sind die belegte Ausgangsbasis (Datenstand 2023,
 bei Anwendung Marktpuls pruefen).
 
+### JANS-Bewertungskonvention (aus realen Faellen belegt, Stand 06.2026)
+
+Die effektiv in den JANS-Deliverables verwendeten Saetze (LB Thalwil 9568 28.03.2025, MA
+Thalwil 26.11.2024, LB Ebmatingen 3932) — sie konkretisieren die WP-Anker fuer die JANS-Praxis:
+
+| Groesse | JANS-Ansatz | Beleg / Kontext |
+|---|---|---|
+| **Kapitalisierung Mietobjekt** | **2.50 % / 40 J** | Thalwil + Ebmatingen LB (Ertragswert Miete) |
+| **Diskontierung Residualwert (Wohnbau)** | **2.70 %** | MA Thalwil S. 9 (WP-Band 2.2-3.0 %, Durchschnittsgem.) |
+| **Risiko-/Gewinnanteil Entwickler** | **8 %** (Band Bautraeger 10-12 %, hier tiefer) | RW-Tool Thalwil; Ebmatingen-LB rechnet **10 %** Risiko + 10 % PE |
+| **Abschlag Baukosten (Landwert)** | **−5 %** | beide LB (Landwert Mietobjekt/Residualwert) |
+| **PE-Kosten** (Makler/Bauherrentreuhand/Vermarktung) | **2-10 %** | Thalwil 2 %, Ebmatingen 10 % |
+| **Finanzierung** | **5 %** (Landkauf 1.5 % / 4 J, Baukosten 1.2-1.5 % / 2 J) | beide LB |
+| **Bruttoanfangsrendite-Schwelle Renditeobjekt** | **4.5 %** (< 4.5 % «duenn», > 5.5 % gut) | Neubau-Potenzial Wangen 2622 |
+| **Bruttorendite Geschaeftsflaechen (grob)** | **5.5 %** | MA Thalwil S. 5 (vgl. [[realwert-sachwert]]) |
+| **Grundstuecks-ROE-Ampel** | < 2 % unwirtschaftlich · 2-5 % selbsttragend · **> 5 % wirtschaftlich** | LB-Auswertungsbalken |
+
+**Residualwert-Tool-Struktur (reverse-engineered aus MA Thalwil S. 9 — adressiert D4 teilweise):**
+Wohnungsmix nach Zimmerzahl (1.5-5.5 Zi) mit je eigener **HNF/GF-Effizienz 0.73-0.83**;
+Nettomiete CHF/Monat ohne NK je Typ → Soll-Ertrag → Nettoertrag p.a. nach Abzug
+Betriebs-/Unterhaltskosten; Erstellungskosten BKP 1-9 + Risiko; **Residualwert =
+Ertragswert − (Erstellungskosten + Risiko) − Abzuege** (Abbruch/Altlasten/Schadstoffe, im
+Thalwil-Fall 200'000) → CHF/m2 GSF. Brutto-/Nettorendite nach Fertigstellung als
+Kontrolle (Thalwil: Wert 7.575 Mio → Brutto 3.2 % / Netto 2.7 %).
+
 ## Mehrinvestitions-Logik (Zins als Hebel, S. 71/72)
 
 Ob sich eine Mehrinvestition (hoeherer Standard) lohnt, haengt am Diskontsatz: Beispiel
