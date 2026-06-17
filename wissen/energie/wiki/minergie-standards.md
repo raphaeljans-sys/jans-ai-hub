@@ -1,9 +1,9 @@
 ---
 title: Minergie-Standards & Eigenstromerzeugung
 status: established
-last_updated: 2026-06-09
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]]
+last_updated: 2026-06-17
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]]
 ---
 
 # Minergie-Standards & Eigenstromerzeugung
@@ -33,13 +33,24 @@ Immer: Komfortlueftung, **sommerl. Waermeschutz auf Wetterdaten 2035**, keine fo
 **Dach voll mit PV** (Neubau ≥ 60 % Dachflaeche), Leerrohre E-Mobilitaet. Detail/Erneuerungswerte →
 `[[minergie-besser-planen-bauen]]`.
 
-> **Update 2023:** Kennzahl von 55/50/35 auf **51/46/29** gesenkt; neues Kriterium **THGE in der
-> Erstellung 11 kg CO₂/m²·a** (graue Energie erstmals limitiert); sommerlicher Waermeschutz auf
-> Klima 2035; Monitoring-Schwelle 1000 statt 2000 m² EBF.
+> **Update 2023 (Neubau):** Kennzahl von 55/50/35 auf **51/46/29** gesenkt; neues Kriterium **THGE in
+> der Erstellung** (11 kg MFH, **je Gebaeudekategorie** 11–17, Spitaeler 17 → `[[graue-energie]]`);
+> Heizwaermebedarf **90 % Q_h,li** (Minergie/-A); sommerl. Waermeschutz auf **Klima 2035, max. 100 h**;
+> **Monitoring ab 1'000** statt 2'000 m² EBF; **60 % der Parkplaetze elektrifiziert** (SIA 2060 C2);
+> Waermeerzeugung Spitzenlast **ab 80 kW max. 10 % fossil** (2017: max. 30 %). Detail →
+> `[[minergie-nachweiskurs-2023-mkz-thge]]`.
 
-## Minergie-Kennzahl
-Waermebedarf + Strombedarf − anrechenbare Eigenstromproduktion. Strom × Faktor 2. PV anrechenbar:
-Eigenverbrauch 100 % + 40 % der Netzeinspeisung.
+## Minergie-Kennzahl (MKZ)
+Gesamtenergiebilanz nach **gewichteter Endenergie**, abzueglich anrechenbarer Eigenproduktion:
+**MKZ = MKZ_HLK + MKZ_WW + MKZ_Bel + MKZ_Geraete + MKZ_AGT − MKZ_Prod** (Bel + Geraete + AGT =
+MKZ_El,Wohnen). Rechenweg je Gewerk: Nutzenergie **: η** (COP/Nutzungsgrad) = Endenergiebedarf,
+**× g** (Strom **g = 2,0**) = gewichtete Endenergie. PV anrechenbar: Eigenverbrauch 100 % + 40 % der
+Netzeinspeisung.
+- **Anforderungswert** = Standardverbrauch (MuKEn 14, SIA 2056) − Abzug Effizienz (je Kategorie) −
+  Abzug Eigenproduktion (Flaechenpotenzial Dach). **Projektwert** = projektspezifisch (SIA 380/1 +
+  WPesti, Lueftung) − real installierte PV (PVopti). Erfuellt wenn **Projektwert ≤ Anforderung**.
+- Nachweis ueber die **Label-Plattform** (`label-plattform.ch`). Formel/Rechengroessen →
+  `[[minergie-nachweiskurs-2023-mkz-thge]]`.
 
 ## Drei Optimierungsfelder
 1. Waermebedarf ↓ (Daemmung, Luftdichtheit, Solar/Fenster, effiziente Erzeugung).

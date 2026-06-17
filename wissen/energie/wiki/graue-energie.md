@@ -1,9 +1,9 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
-status: emerging
-last_updated: 2026-06-10
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md]
-links: [[INDEX]], [[minergie-standards]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]]
+status: established
+last_updated: 2026-06-17
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]]
 ---
 
 # Graue Energie & THGE
@@ -40,10 +40,31 @@ tieferen grauen Energie der Tragstruktur und der CO₂-Bindung im Holz. Bauphysi
 energetisch hoch rentabel (Lehrbeispiel: 20 MJ/m²·a mehr graue Energie → 180 MJ/m²·a weniger
 Gesamtenergie, ≈ 1 : 9). Quelle/Vorbehalt → `[[graue-energie-betriebsenergie]]`.
 
-## Regulatorischer Anker: THGE
+## Regulatorischer Anker: THGE-Grenzwerte je Gebaeudekategorie (Minergie 2023)
 Minergie begrenzt seit der Ueberarbeitung 09/2023 die **Treibhausgasemissionen der Erstellung
-(THGE) auf 11 kg CO₂/m²·a** — die erste verbindliche Limite fuer graue Energie im Schweizer
-Label-Kontext → `[[minergie-standards]]`. (Im gesetzlichen Vollzug noch keine THGE-Pflicht.)
+(THGE)** — die erste verbindliche Limite fuer graue Energie im Schweizer Label-Kontext. Der oft
+zitierte Wert **11 kg CO₂-eq/m²·a gilt fuer Wohn-MFH**; das Produktreglement differenziert je
+**Gebaeudekategorie** (Basiswert fuer Anteil EBF/GF = 80 %), gleiche Methodik wie Minergie-ECO:
+
+| Kat | Gebaeudekategorie | THGE kg CO₂-eq/m² EBF·a |
+|---|---|---|
+| I Wohnen MFH | 11 | IV Schulen | 11 |
+| II Wohnen EFH | 12 | III Verwaltung | 12 |
+| VI Restaurant | 14 | VII/IX/X/XI/XII Versamml./Industrie/Lager/Sport/Hallenbad | 15 |
+| **V Verkauf** | **17** | **VIII Spitaeler** | **17** |
+
+- **Healthcare-relevant:** Spitaeler (Kat. VIII) **17 kg** — technik-/materialintensiver, daher hoeher
+  als Wohnen. Konkretes Planungsziel im JANS-Healthcare-Geschaeft.
+- **Strenger:** Klimapfad-Norm **SIA 390/1** (in Vernehmlassung) verlangt fuer Kat. I–VI **9 kg/m²·a
+  inkl. PV/Erdsonde/Solarthermie**.
+- **Bauliche Reduktionshebel** (groesster → kleinster, ~18 → ~3 kg): geringe **Spannweiten** →
+  Materialisierung → tieferer **Fensteranteil** → Gebaeudetechnik nicht in die Decke einlegen →
+  optimierte **Baugrube/Fundation, wenig/kein UG** → **Neubau ohne UG** → **Weiterverwendung** von
+  bestehendem UG/Rohbau. **Kompaktheit + einfache Lastabtragung** sind der Schluessel. Beleg/Detail →
+  `[[minergie-nachweiskurs-2023-mkz-thge]]`.
+
+(Im gesetzlichen Vollzug noch keine THGE-Pflicht; THGE wird ueber den Minergie-Nachweis erbracht.)
+Standards-Uebersicht → `[[minergie-standards]]`.
 
 ## Sanieren vor Neubau
 Der Erhalt von Tragstruktur und Rohbau spart genau den groessten graue-Energie-Posten (~40–49 %).

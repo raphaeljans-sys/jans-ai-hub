@@ -56,10 +56,14 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [ ] C4 Sunskin/Indach-Planung & Ausfuehrung (`solar-home.ch/Sunskin/...`).
 
 ## Block D — Nachhaltigkeit / Klima (strategisch)
-- [ ] D1 Netto-Null im Gebaeude: was heisst das fuer Neubau/Umbau konkret?
+- [x] D1 Netto-Null im Gebaeude — belegt 2026-06-17 via Minergie-Nachweiskurs 2023 (THGE-Grenzwerte je
+  Kategorie + Klimapfad SIA 390/1 9 kg) + Fallstudie Maison Climat (Plusenergie) → FAQ **F8**,
+  `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`. Offen: rechtl.
+  Netto-Null-Definition Einzelgebaeude, KBOB-Kompensationsbilanz.
 - [~] D2 Graue Energie / CO2 im Bauteil — Sanieren vs. Neubau — Groessenordnung + Tragstruktur-Hebel
-  + THGE belegt 2026-06-10 via Lehrmittel «Betriebsenergie» → `[[graue-energie]]` (FAQ F9). Offen:
-  KBOB/SIA 2032-Kennwerte, konkrete Sanieren-vs-Neubau-Schwelle.
+  + THGE belegt 2026-06-10/-17 via Lehrmittel «Betriebsenergie» + Nachweiskurs (THGE-Grenzwerte je
+  Kategorie, bauliche Hebel) → `[[graue-energie]]` (FAQ F9/F8). Offen: KBOB/SIA 2032-Kennwerte,
+  konkrete Sanieren-vs-Neubau-Schwelle.
 - [x] D3 Foerderprogramme Kt. ZH — belegt 2026-06-08 (Stand 01.01.2026, Web)
   → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). Offen: Minergie-ECO/Solarthermie-Saetze, Bund.
 - [~] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus — Verhaeltnis 50 J belegt
@@ -67,6 +71,6 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Gewicht um). Offen: vollstaendige Lebenszyklus-CO₂-Bilanz inkl. Energietraeger.
 
 ## Meta
-- [~] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **13 belegt** (F1-F5, F7, F9, F10, F11,
-  F12, F13, F14, F15; F15 Massivholz/CLT neu 2026-06-11); offen F6 (WP-Vergleich/JAZ), F8 (Netto-Null).
+- [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **16 belegt** (F1-F5, F7-F17; F8 Netto-Null
+  neu 2026-06-17). Offen nur noch F6 (WP-Vergleich/JAZ-Matrix).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.)

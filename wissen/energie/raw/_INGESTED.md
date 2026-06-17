@@ -32,3 +32,5 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | Werkhof29 Dossier Erstvermietung (baubuero in situ, 2024) | PL-04/U Wert berechnung/Grassen Biwak | destilliert (S.1-12) | Praxisbeispiel zirkulaeres Bauen: Stroh/Lehm/Re-use/Areal-PV |
 | Private Kontrolle — Liste der Befugten (Kt. ZH, April 2025) | PL-04/_Private Kontrolle | destilliert (S.1-3) | wer zeichnet EN-Nachweis + EN-Formular-Matrix (BBV I); Namensregister ausgelassen |
 | swissolar STP zu VKF-Brandschutzmerkblatt Solaranlagen (V4.00, 12/2022) | PL-04/Solaranlage/_Brandschutz | destilliert (S.1-16) | PV-Brandschutz: DC kein PVC/RF1-Rohr, WR-Standort, Kennzeichnung (F16); Kap. 4-7 offen |
+| Minergie-Nachweiskurs 2023 — Tipps & Tricks (Teil 1) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.1-42) | Minergie 2023 Anforderungen + MKZ-Formel + THGE-Grenzwerte je Kategorie (F5/F8); Teil 2/3 offen |
+| Minergie-Fallstudie «Maison Climat» (Teil 2) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.1-12) | gebautes Plusenergie-MFH Biel, Nachweis-Kennzahlen (F8); ⚠ Uebungswerte teils angepasst |

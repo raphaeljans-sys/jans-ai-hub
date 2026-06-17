@@ -29,3 +29,5 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[werkhof29-zirkulaeres-bauen-stroh-lehm]] | U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung | emerging (S. 1-12; Praxisbeispiel Stroh/Lehm/Re-use/Areal-PV) | 2024 (Marketing-Dossier) |
 | [[private-kontrolle-zh]] | _Private Kontrolle/zh_komplett | established (S. 1-3; Namensregister ausgelassen) | April 2025 / BBV I LS 700.21 |
 | [[swissolar-stp-vkf-brandschutz-solaranlagen]] | Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0 | established (S. 1-16; Kap. 4-7 offen) | V4.00 12/2022, ueberarb. 11/2023 |
+| [[minergie-nachweiskurs-2023-mkz-thge]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Nachweiskurs | established (S. 1-42, Teil 1 Anforderungen + MKZ; Teil 2/3 offen) | Minergie 2023 / 25.09.2023 |
+| [[minergie-fallstudie-maison-climat]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Fallstudie_Nachweiskurs | emerging (S. 1-12; Plusenergie-MFH Biel, Nachweis-Kennzahlen) | ⚠ Uebung 2023, Werte teils angepasst |

@@ -26,16 +26,17 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   Offen: Ertrags-Kennzahlen je Ausrichtung/Neigung (kWh/kWp).
-- [~] **E6** Netto-Null + graue Energie: Sanieren-vs-Neubau-Kriterien. **Graue Energie belegt**
-  ✓ 2026-06-10 → `[[graue-energie]]`, `[[graue-energie-betriebsenergie]]`, FAQ F9 (Groessenordnung
-  20-30 % Betriebsenergie, Tragstruktur-Hebel, THGE 11 kg). Offen: KBOB/SIA 2032-Kennwerte,
-  konkrete Sanieren-vs-Neubau-Schwelle, Netto-Null-Definition (F8).
+- [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
+  (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
+  Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,
+  `[[graue-energie]]`. Graue Energie ✓ 2026-06-10 (FAQ F9). Offen: KBOB/SIA 2032-Kennwerte, konkrete
+  Sanieren-vs-Neubau-Amortisationsschwelle, einheitliche rechtliche Netto-Null-Definition Einzelgebaeude.
 - [x] **E7** Heizungsersatz Kt. ZH — Verfahren + Beilagen je Waermequelle + fossil-Verbot belegt
   ✓ 2026-06-10 → `[[wta-formular-zh-waermetechnische-anlagen]]`, FAQ F14. Offen: WP-JAZ-Vergleich (F6).
 
 ## FAQ-Backlog
-- [~] **E-F** BAUHERREN-FAQ: 15 Antworten belegt (F1-F5/F7/F9-F17; **F17 Holzbau-Schallschutz neu
-  ✓ 2026-06-13**); offen **F6** (WP-Vergleich/JAZ-Matrix), **F8** (Netto-Null-Definition).
+- [~] **E-F** BAUHERREN-FAQ: 16 Antworten belegt (F1-F5/F7-F17; **F8 Netto-Null neu ✓ 2026-06-17**);
+  offen nur noch **F6** (WP-Vergleich/JAZ-Matrix).
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
   `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)

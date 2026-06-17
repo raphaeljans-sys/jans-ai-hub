@@ -30,8 +30,8 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [x] `_Private Kontrolle/zh_komplett.pdf` | 2026-06-11 (S. 1-3 Grundlagen + EN-Formular-Matrix → private-kontrolle-zh; ab S. 4 nur Befugten-Namensregister, nicht destilliert) |
 | [x] `endk.ch/Allgemein Nachweis der energetischen und schlltechnischen Massnahmen/EN-ZH.pdf` | 2026-06-07 (Dublette → en-zh-nachweis-uebersicht) |
 | [x] `endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular_Version_01-2024.pdf` | 2026-06-10 (vollst., 5 S.; Heizungsersatz-Verfahren/Beilagen je Quelle → wta-formular-zh-waermetechnische-anlagen) |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Fallstudie_Nachweiskurs-230925-172638.pdf` | — |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Nachweiskurs-230925-172638.pdf` | — |
+| [x] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Fallstudie_Nachweiskurs-230925-172638.pdf` | 2026-06-17 (S. 1-12; Plusenergie-MFH «Maison Climat» Biel → minergie-fallstudie-maison-climat) |
+| [~] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Nachweiskurs-230925-172638.pdf` | 2026-06-17 (S. 1-42, Teil 1 Anforderungen+MKZ+THGE → minergie-nachweiskurs-2023-mkz-thge; Teil 2/3 Label-Plattform/Einreichung S. 43-57 offen) |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Flyer_ENERGIE_VorOrt_2023_WEB-230913-120608.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kurse_Herbst_Winter_2023_WEB-230913-120548.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf` | — |

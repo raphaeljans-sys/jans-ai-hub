@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (F1–F5, F7, F9–F17 belegt = 15; F6/F8 offen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (F1–F5, F7–F17 belegt = 16; nur F6 offen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -14,9 +14,10 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte · **established**
 - [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme) · **established**
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
-- [[graue-energie]] — graue Energie & THGE, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **emerging**
+- [[graue-energie]] — graue Energie & THGE, **THGE-Grenzwerte je Kategorie (MFH 11 / Spitaeler 17)**, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **established**
+- [[minergie-standards]] ergaenzt: **MKZ-Formel** + Minergie-2023-Neuerungen (90 % Q_h,li, Monitoring 1000 m², 60 % E-Parkplaetze) · **established**
 - [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) + Bauteilkatalog (Wand/Dach REI·U·Rw) + **Schallschutz (R_w 34-58, L'_n,w 60→46)** · **established**
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Netto-Null-Definition, WP-Systemvergleich F6, Minergie-ECO-Foerderung, Naturdaemmstoffe/Stroh+Lehm Praxis, SIA-181-Flanke)_
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, WP-Systemvergleich F6, Minergie-ECO-Foerderung, Naturdaemmstoffe/Stroh+Lehm Praxis, SIA-181-Flanke, KBOB/SIA 2032-Oekobilanzdaten)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`
