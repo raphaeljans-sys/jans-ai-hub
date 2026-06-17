@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.06.2026 08:41:41
+Stand: 17.06.2026 08:51:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 17.06.2026 08:41:41
 - 1 Datei(en): AR - 01 Projekte / 2515 WARTSTRASSE_7
 
 ## Hub-Git-Stand (NAS)
-- 32be57c nas-selfcommit: 2 Datei(en) 2026-06-17 08:30
+- 6959a8c nas-selfcommit: 2 Datei(en) 2026-06-17 08:45
