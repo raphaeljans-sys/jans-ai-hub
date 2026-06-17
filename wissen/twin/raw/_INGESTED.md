@@ -14,9 +14,10 @@ Was liegt in `raw/` und wurde es ins `wiki/` eingearbeitet?
 | `260614-mailbatch-06.md` | Sent Items rj@ systematisch, **2025-08-09 bis 2025-08-18** (15 Mails gesichtet, 2 fachliche Volltexte destilliert; Rest operatives Rauschen: Teams-Links/Terminzusagen/Yorck-Setup. Projekt Niederhasli-Ankauf: Controlling/Sensitivität an Baumanagement + Forward an Wintec) | authentisch (klar vor-Claude) | ja (denken, arbeitsweise, beziehungsregister, stimme) |
 | `260615-mailbatch-07.md` | Sent Items rj@ systematisch, **2025-08-19 bis 2025-08-25** (15 Mails gesichtet, 5 Volltexte destilliert, 5 System-/Leer-/Unsubscribe ignoriert; Mailofferte Machbarkeitsstudie an WOMA/Christoph Bopp, Garten-/Umgebungsentwurf 2414 Thalwil an Bauherrin Gertrud Angerer + 3D-Freelancer Yorck, warm-soziale Mail an Fotografin Claudia) | authentisch (klar vor-Claude) | ja (stimme, beziehungsregister, fachsignatur, arbeitsweise, haltung, denken) |
 | `260616-mailbatch-08.md` | Sent Items rj@ systematisch, **2025-08-26 bis 2025-08-27** (15 Mails gesichtet, 5 Volltexte gelesen; Fortsetzung Batch-07-Threads Yorck/Thalwil + WOMA/Bopp Ebmatingen + operatives Rauschen HUB12/Teams) | authentisch (klar vor-Claude) | ja (arbeitsweise **neu** Shot-Brief+Selbst-Fallback, stimme «Hello,»+Metrik; bestätigend haltung/beziehungsregister) |
+| `260617-mailbatch-09.md` | Sent Items rj@ systematisch, **2025-08-28 bis 2025-08-30** (15 Mails gesichtet, 5 Volltexte gelesen; dichte Yorck/3D-Freelancer-Thread Garten-Render-Iteration Thalwil 2414 + Admin-Rauschen Teams/Bopp). **Echo-Falle:** eine Mail (30.08.) enthält verbatim eingefügten ChatGPT-Text (Modell-Bezugsquellen, Times New Roman) → von Stilquelle ausgeschlossen | authentisch (vor-Claude), 1 Passage AI-Paste = `claude-aera`-äquivalent | ja (fachsignatur **neu** Bildregie, stimme **neu** Derbheit/Anglizismen+Metrik, arbeitsweise **neu** Render-Last/Selbst-Fallback, haltung **neu** ehrliche Darstellung; CLAUDE.md Authentizität geschärft) |
 
 **Sequentieller Mail-Sweep (Sent Items rj@, älteste zuerst):** abgedeckt bis
-**2025-08-27** einschliesslich. Nächster Lauf: ab 2025-08-28.
+**2025-08-30** einschliesslich. Nächster Lauf: ab 2025-08-31.
 
 Hinweis: «Batch 05»-Marker (11.08./14.08., «Hey» als lockerste Peer-Du-Stufe, «%» ohne
 Leerschlag im Eil-Du) lagen bereits im Wiki (partieller Vorlauf); Batch 06 deckt den

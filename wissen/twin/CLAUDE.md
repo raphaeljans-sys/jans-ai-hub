@@ -38,6 +38,17 @@ Jede Quelle wird gewichtet, damit der Zwilling nie sein eigenes Echo lernt:
 
 Jeder Marker im Wiki trägt seine Quelle UND die Gewichtungsstufe.
 
+**Achtung — AI-Paste vor dem Stichtag (Echo-Falle, belegt Batch 09, 2025-08-30):** Der
+Vor-Claude-Stichtag (~2026-01-01) ist NICHT hinreichend. Auch Mails *vor* 2026 können
+**verbatim eingefügten KI-Text** (ChatGPT o.ä.) enthalten — belegt: eine Yorck-Mail vom
+30.08.2025 mit kopierter Modell-Bezugsquellen-Liste. Erkennungssignale für AI-Paste:
+abweichende Schrift/Formatierung im Fliesstext (z.B. Times New Roman statt Aptos),
+Überschriften-Listen-Tabellen-Struktur, generische Eröffnung («Hier sind einige
+empfehlenswerte …») und Schluss-Floskel («…sag einfach Bescheid!»). Solche Passagen sind
+**`claude-aera`-äquivalent → NICHT als Stilquelle verwenden** (Echo-Schutz), auch wenn das
+Mail-Datum vor dem Stichtag liegt. Gewichtet wird der von Raphael selbst getippte Text, nicht
+das, was er aus einem KI-Tool hineinkopiert hat.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

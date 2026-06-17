@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-17 — twin-mail-training: Batch 09 (Sent Items rj@, 2025-08-28…08-30, authentisch)
+- 15 Mails gesichtet, 5 Volltexte gelesen; eine dichte Yorck/3D-Freelancer-Thread (Garten-Render-
+  Iteration Thalwil 2414) + Admin-Rauschen (Teams-Link Bopp). Raw: `raw/260617-mailbatch-09.md`.
+- Mikro-Metrik (531 W, reziprok-deskriptives Render-Du): Du-Gross-Quote 0.714 (Spiegelung
+  bestätigt), Satzlänge ø 22.1 W, keine Apostroph-Zahlen/Ellipsen.
+- Eingearbeitet (authentisch): [[fachsignatur]] **neu** — Bildregie als Fachsprache (dritte Säule
+  steuert das Bild: noice/Textur-Tiefe, Landscape/Bildbreite, Augpunkt/Kamera, Vorder-/Hintergrund-
+  Erzählung, 3D-nativ vor Photoshop). [[stimme]] **neu** — milde Derbheit («scheisse»/«dirty raus»)
+  + Render-Anglizismen im engsten Peer-Du, Metrik-Datenpunkt. [[arbeitsweise]] **neu** — Render-Last
+  aufteilen + Selbst-Fallback (2. Datenpunkt). [[haltung]] **neu** — ehrliche Darstellung vor
+  Schönfärberei («wenn es räumlich scheisse aussieht, das müssen wir zeigen»).
+- **Wichtig (Echo-Falle):** AI-Paste vor dem Stichtag entdeckt (Yorck-Mail 30.08.2025 mit verbatim
+  kopierter ChatGPT-Modell-Liste, Times New Roman). Authentizitäts-Regel in `CLAUDE.md` geschärft:
+  Vor-2026-Datum ≠ automatisch authentisch; AI-Paste-Signale erkennen + als `claude-aera`-äquivalent
+  von der Stilquelle ausschliessen.
+
 ## 2026-06-16 — twin-mail-training: Batch 08 (Sent Items rj@, 2025-08-26…08-27, authentisch)
 - 15 Mails gesichtet, 5 Volltexte gelesen; grösstenteils Fortsetzung der Batch-07-Threads
   (Yorck/Thalwil-Visualisierung, WOMA/Bopp-Ankaufstudie Ebmatingen) + operatives Rauschen

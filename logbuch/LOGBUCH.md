@@ -5,6 +5,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-17
+
+- **Radar-Lauf:** Register gegen bexio (`--offen`/`--verzug`), Kalender (M365, naechste 7 Tage) und
+  Mail-Eingang abgeglichen.
+- **Debitoren (live, `--offen`):** drei offene Rechnungen — RE-00087 (Kispi, CHF 15'000, faellig
+  16.04., **62 Tage ueberfaellig**, Mahnstufe 1 Zahlungserinnerung, naechste Frist 28.06.),
+  RE-00089 (Kispi, CHF 15'000, faellig morgen 18.06.), RE-00097 (Hofer, CHF 500, faellig 16.06.,
+  jetzt **1 Tag ueberfaellig**, noch keine Mahnstufe).
+- **Erledigt heute:** RE-00096 (Tschopp, CHF 6'000, war faellig 16.06.) ist nicht mehr offen in
+  bexio (bezahlt) und aus dem Verzug raus — ins Archiv verschoben.
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** weiterhin nicht offen in bexio. M. Spoerri (Kispi)
+  bestaetigt per Mail 16.06.: «Habe soeben die Rechnung (15000.-) kontiert und weitergeschickt zur
+  Verarbeitung.» Die am 13.06. versendete Mahnung 2 bleibt damit gegenstandslos — ggf. zuruecknehmen/
+  entschuldigen. Vor Reaktion final verifizieren.
+- **Kalender naechste 7 Tage:** 17.06. 10:00 Sitzung KISPI PPTS Brandschutz (Teams, HEUTE); 19.06.
+  19:00–21:00 Besichtigung David, Bahnhofstrasse 27; **neu 22.06. 15:00–16:00 Besprechung
+  Schliessanlage Albertstrasse 7** (BKP 275.00, Teams, R. Steinmann/Nova + Struebi/Portunus) — ins
+  Register aufgenommen. (R. Steinmann fragte 16.06. «vor Ort oder digital»; Termin steht nun als
+  Teams-Besprechung.)
+- **Mail-Hinweise:** Gruner (C. Duran) liefert 16.06. die Energieformulare EN-105/EN-110-ZH fuer die
+  KISPI-Umnutzung (Grundlage Aenderungseingabe); C. Bopp (Giebelweg 12) bittet um Minderwert-
+  Berechnung des Worst-Case-Szenarios der Baulinien-Revision (kein hartes Datum, beobachten).
+- **Offen/nachfassen:** bexio-Doppelimport (Kontaktformular, 18.06.), EPROID B26-00705.01 (20.06.).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-16
 
 - **Radar-Lauf:** Register gegen bexio (`--offen`/`--verzug`/`--mahnstufe`), Kalender (M365) und

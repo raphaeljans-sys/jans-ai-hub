@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -110,6 +110,14 @@ Baut Varianten bewusst so, dass die Bauherrschaft die Schlüsselentscheidung sel
 Vorteil dieser Varianten ist, die Bauherrschaft kann die Terrassen und Eingangssituation selbst
 auswählen und bestimmen** … das kann offen gelassen werden» (22.08.2025). Bietet den Spielraum an,
 statt eine Lösung zu oktroyieren — Bauherr-Souveränität, gleiche Wurzel wie «schützt den Bauherrn».
+
+## Ehrliche Darstellung vor Schönfärberei (belegt Mailbatch 09, authentisch)
+Die Visualisierung darf eine räumliche Schwäche nicht kaschieren: «Wenn es **Räumlich scheisse
+aussieht ist es so, das müssen wir zeigen**» (Garten-Render-Iteration mit 3D-Freelancer,
+30.08.2025). Das gerenderte Bild ist Erkenntniswerkzeug, kein Schönmacher — eine schwache
+Raumwirkung wird sichtbar gemacht, nicht weggerendert. Gleiche Wurzel wie «Qualität vor Ego»
+(→ [[denken]] Diverging-Figures, [[fachsignatur]] Bildregie): die Wahrheit über den Raum schlägt
+das gefällige Bild.
 
 ## Lücken → [[QUESTIONS]]
 Haltung bei echter Eskalation/Konflikt mit einem Du-/Stammkontakt (nicht nur Planer).

@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-15
+last_updated: 2026-06-17
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -289,6 +289,24 @@ Abweichung nur. Gruss-Mapping Batch 04: «Lieber Gruss» 3× (operativ-Du), «He
   bestätigt das Muster Batch 03/04/05); Tausender-Apostroph 2× («5'000.-», «1'200.-»); Satzlänge
   ø 19.1 W; Gruss «Lieber Gruss» 4× dominant + «Beste Grüsse» 1×; keine Ellipsen/«%». Flüchtigkeit:
   «Guten Aben», «nachmidellierst», «Du findes» — TON übernehmen, `korrektur` zieht es gerade.
+
+## Lockere Bildregie-Sprache + milde Derbheit im engsten Peer-Du (belegt Mailbatch 09, authentisch)
+Im engsten reziproken Peer-Du (3D-Freelancer Yorck, Garten-Render-Iteration 29.–30.08.2025) wird
+der Ton arbeitsam-salopp, mit milder Derbheit als Echtheits-Marker:
+- **«Hey,»** + komplett kleines Mikro-Satzgefüge bestätigt als lockerste Stufe; «Lgr» als
+  Kurzschluss; «Bester Gruss / Raphael» in der Du-Liefermail.
+- **Milde Derbheit/Umgangssprache** im engsten Peer-Du, im Dienst der Ehrlichkeit: «Wenn es
+  **Räumlich scheisse aussieht** ist es so, dass müssen wir zeigen», «schiessen wir den Gegenschuss
+  einfach noch **dirty raus**». Nur im engsten saloppen Peer-Du, nie in Geschäft/Behörde/Fachmail
+  oder gegenüber Bauherrschaft (`korrektur` zieht es dort glatt) — der TON ist echt, kein Vorbild
+  fürs formelle Register.
+- **Render-/Bild-Anglizismen** als Fachjargon im Du: «noice» (image noise), «Landscape Format»,
+  «Augpunkt», «Anrenderst» (→ [[fachsignatur]] Bildregie).
+- Mikro-Metrik Batch 09 (531 W, reziprok-deskriptives Render-Du): **Du-Gross-Quote 0.714**
+  (Spiegelungs-Abweichung bestätigt — «du hast recht», «Kannst Du mir», «Danke für Deine Frage»
+  gemischt; vgl. Batch 03/04/05/08); Satzlänge ø **22.1 W** (deskriptive Bildregie, höher als die
+  operativen Liefer-Tiefstwerte); keine Apostroph-Zahlen/Ellipsen (registerbedingt); Anreden
+  «Hoi/Guten Morgen Yorck», «Hey».
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

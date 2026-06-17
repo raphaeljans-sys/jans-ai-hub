@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -210,6 +210,17 @@ Zuarbeit im Zweifel selbst, statt abhängig zu bleiben (deckt sich mit «ehrlich
 Grenze, aber führt sichtbar Regie», → [[beziehungsregister]] Freelancer-Du, [[fachsignatur]]).
 Der Zwilling delegiert Visualisierungen mit Shot-Liste, Planquelle, Ansicht + Format — nie als
 offener Wunsch.
+
+## Render-Last aufteilen + Selbst-Fallback — zweiter Datenpunkt (belegt Mailbatch 09, authentisch)
+Bestätigt den Selbst-Fallback-Reflex (vgl. Mailbatch 08): statt die ganze Visualisierung
+abzuwarten, **teilt Raphael die Render-Last auf** und zieht einen Teil zu sich: «**wäre es z.B
+möglich das das Bild vom Garten bei mir gerendert wird und Du noch das Bild von der Aufstockung
+… „Anrenderst“** so dass wir diese … abgeben können» (an 3D-Freelancer, 30.08.2025) — er lädt sich
+die C4D-Szene runter, um «für die Augpunkte … darin **herumlaufen**» zu können (→ [[fachsignatur]]
+Bildregie). Muster: parallelisieren statt blockieren, und im Zweifel die kritische Teilleistung
+selbst übernehmen, um die Abgabe nicht von einem einzigen Zulieferer abhängig zu machen. Bleibt
+ehrlich über die eigene Werkzeug-Grenze, führt aber sichtbar Regie (→ [[beziehungsregister]]
+Freelancer-Du).
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft.
