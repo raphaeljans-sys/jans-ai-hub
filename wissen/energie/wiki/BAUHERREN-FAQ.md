@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-13
-sources: [destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
+last_updated: 2026-06-17
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
 links: [[INDEX]]
 ---
 
@@ -132,9 +132,16 @@ Wohnwert, Verkaeuflichkeit — und Schutz vor kuenftiger CO₂-Regulierung — z
 Vorgaenger-Ausgabe ~2017 wurde die Kennzahl von 55/50/35 auf 51/46/29 gesenkt und die graue Energie
 neu limitiert.)
 
+**Konkret neu in Minergie 2023 (Neubau):** Dach voll PV (implizite MKZ-Anforderung) · Heizwaermebedarf
+**90 % Q_h,li** der MuKEn (Minergie/-A; -P 70 %) · **THGE-Grenzwert je Gebaeudekategorie** (MFH 11,
+Spitaeler 17 kg CO₂-eq/m²·a) · Hitzeschutz mit **Klima 2035, max. 100 h** Ueberhitzung · **Monitoring
+ab > 1'000 m²** · **60 % der Parkplaetze elektrifiziert** · Waermeerzeugung Spitzenlast ab 80 kW max.
+10 % fossil.
+
 **Quelle:** Verein Minergie «Besser planen, besser bauen», Ueberarbeitung September 2023 →
-`[[minergie-besser-planen-bauen]]`; Themenartikel → `[[minergie-standards]]`. ⚠ **Datenstand
-2026-06-09:** Reglement/Kennzahlen periodisch revidiert — konkrete Limiten auf minergie.ch pruefen.
+`[[minergie-besser-planen-bauen]]`; Anforderungen/MKZ/THGE im Detail →
+`[[minergie-nachweiskurs-2023-mkz-thge]]`; Themenartikel → `[[minergie-standards]]`. ⚠ **Datenstand
+2026-06-17:** Reglement/Kennzahlen periodisch revidiert — konkrete Limiten auf minergie.ch pruefen.
 
 ---
 
@@ -345,6 +352,39 @@ projektgenaue Oekobilanz gelten **KBOB-Oekobilanzdaten / SIA 2032** (noch nicht 
 
 ---
 
+## F8 — «Was heisst Netto-Null / klimaneutral konkret fuer meinen Neubau heute?»
+
+**Kurz:** Klimaneutral heisst heute zweierlei: **(1) im Betrieb fossilfrei** (Waermepumpe oder
+Fernwaerme, kein Oel/Gas) und **(2) die graue Energie der Erstellung begrenzen**. Minergie 2023
+macht das erstmals messbar — mit einem **Treibhausgas-Grenzwert je Gebaeudekategorie** (Wohn-MFH
+**11**, Spitaeler **17 kg CO₂-eq/m²·a**) plus voller Dach-PV. Wer weiter will, zielt auf
+**Plusenergie** (uebers Jahr mehr Strom erzeugen als verbrauchen) — wie das MFH «Maison Climat».
+
+**Fachlich:** Es gibt zwei Bilanzgrenzen, und beide muss man getrennt anschauen:
+- **Betrieb:** EnerG/Minergie verbieten die fossile Waermeerzeugung praktisch (Spitzenlast erst ab
+  80 kW max. 10 % fossil, ausser WKK/Fernwaerme). Der verbleibende Strom-CO₂ haengt an Effizienz und
+  Strommix — die **Minergie-Kennzahl (MKZ)** minimiert ihn, die **Dach-PV** deckt einen Teil selbst.
+- **Erstellung (graue Energie / THGE):** «**0 ist nicht moeglich, nur minimieren**». Minergie 2023
+  setzt dafuer **Grenzwerte je Kategorie**; der strengere **Klimapfad SIA 390/1** (in Vernehmlassung)
+  verlangt fuer Wohn-/Dienstleistungsbauten **9 kg CO₂-eq/m²·a inkl. PV/Erdsonde/Solarthermie**.
+- **Die groessten Hebel sind baulich, nicht haustechnisch:** kompakt bauen, **wenig oder kein
+  Untergeschoss**, einfache Lastabtragung/geringe Spannweiten, **Holz statt Massiv**, **Bestand
+  weiterverwenden**. Ein gut gedaemmter Holzleichtbau hat ~59 statt ~74 MJ/m²·a graue Energie (vgl. F9).
+- **Fazit:** Netto-Null *im Betrieb* (Plusenergie) ist heute Stand der Technik; Netto-Null *inkl.
+  Erstellung* ist v. a. ueber **Holzbau + PV + Bestandserhalt** erreichbar, aber (noch) nicht voll
+  kompensierbar — daher «minimieren statt null».
+
+**Quelle:** Minergie-Nachweiskurs 2023 (THGE-Grenzwerte je Kategorie, Klimapfad SIA 390/1) →
+`[[minergie-nachweiskurs-2023-mkz-thge]]`; gebautes Plusenergie-Beispiel →
+`[[minergie-fallstudie-maison-climat]]`; graue Energie/Hebel → `[[graue-energie-betriebsenergie]]` /
+F9; Themenartikel → `[[graue-energie]]`, `[[minergie-standards]]`. ⚠ **Datenstand 2026-06-17:**
+«Netto-Null» ist fuer Einzelgebaeude (noch) kein einheitlich definierter Rechtsbegriff — Bund/Kantone
+konkretisieren laufend (Klimaschutz-Gesetz); KBOB-Oekobilanzdaten / SIA 2032 / SIA 390/1 noch in
+Entwicklung. Betriebs-CO₂ ueber den Strommix nicht beziffert (Annahme, nicht belegt). Energierecht/
+Heizverbot → Skill `baurecht`.
+
+---
+
 ## F15 — «Lohnt sich ein Massivholzbau (CLT/Brettsperrholz) energetisch — und was muss ich bauphysikalisch beachten?»
 
 **Kurz:** Energetisch im **Betrieb** bringt Massivholz **keinen Bonus** — Holz daemmt kaum,
@@ -457,5 +497,6 @@ gueltigen SIA 181 abgleichen. CLT-Brandschutz im Detail → Skill `brandschutz`.
 - F6 Waermepumpe vs. Fernwaerme vs. Pellets — Systemwahl (Brennwerte/Nutzungsgrade Holz/Pellet/
   Oel/Gas belegt → `[[bfe-waermeerzeugerleistung-2015]]`; Verfahren/Beilagen je Quelle belegt →
   `[[wta-formular-zh-waermetechnische-anlagen]]` / F14; **offen: WP-Vergleich JAZ/COP, Entscheidungsmatrix**).
-- F8 Was heisst «Netto-Null»/Klimaziel konkret fuer einen Neubau/Umbau heute? (Ansatz: graue
-  Energie + THGE → F9; Betriebs-CO₂ ueber Energietraeger noch offen.)
+- ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
+  + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
+  einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
