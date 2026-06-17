@@ -247,3 +247,43 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Pruefung des § 273-Privilegs immer — sie schafft Stellflaeche an der Grenze, wo das Hauptgebaeude
   8 m Abstand braeuchte. Falle: sobald «Aufenthaltsqualitaet» (Hobbyraum, Wintergarten, Bueroecke)
   dazukommt, faellt das Privileg (BEZ 1998 Nr. 26). Querverweis Skill `machbarkeit`/`volumenstudie`.
+
+## Kap. 17 — Gebaeude und Raeume; Wohnhygiene (§§ 299-306 PBG)
+
+### Modell C — Selbsttest-Karten (Wohnhygiene/Raumanforderungen, 2026-06-17)
+- **F:** Welche **vier** kumulativen Anforderungen muss ein Fenster eines Wohn-/Schlafraums
+  erfuellen? — **A:** (1) ueber dem Erdboden liegen, (2) ins Freie fuehren, (3) in ausreichendem
+  Mass **oeffenbar**, (4) Flaeche **≥ 1/10 (10 %) der Bodenflaeche** (aeusseres Lichtmass)
+  (§ 302 Abs. 2 PBG; Bd 2, S. 1247). _[2026-06-17]_
+- **F:** Genuegt das 10-%-Fenstermass allein fuer wohnhygienische Belichtung? — **A:** **Nein** —
+  notwendig, aber nicht hinreichend: fuehrt das Fenster nur in einen Lichtschacht oder ist der
+  Luftraum verstellt, ist die Anforderung trotz erfuelltem Mass **nicht** gegeben → keine
+  Wohn-/Schlafnutzung (VB.2017.00452; BEZ 2001 Nr. 30; Bd 2, S. 1247). _[2026-06-17]_
+- **F:** Wie gross muss ein Raum mindestens sein, und wie hoch (lichte Hoehe)? — **A:** Flaeche
+  **≥ 10 m²** (§ 303 Abs. 1 PBG); lichte Hoehe **2,4 m**, in Kernzonen **2,3 m** (§ 304 Abs. 1 PBG;
+  Bd 2, S. 1252 f.). _[2026-06-17]_
+- **F:** Wie wird die Mindesthoehe in **Dachraeumen** angewendet? — **A:** Die Mindesthoehe (2,4 m)
+  muss wenigstens ueber der **halben Bodenflaeche** vorhanden sein; als «Bodenflaeche» zaehlt nur
+  die Flaeche mit Hoehe **≥ 1,2 m** (§ 304 Abs. 3 PBG; BEZ 2011 Nr. 15; Bd 2, S. 1253). _[2026-06-17]_
+- **F:** Ab wann besteht eine Aufzugspflicht, und welches Mass muss der Aufzug haben? — **A:** Ab
+  **mehr als fuenf** anrechenbaren Geschossen ueber/unter dem Eingangsgeschoss → ein
+  **krankentransporttauglicher** Aufzug (lichte Innenmasse ≥ **2,1 m × 1,1 m**, Tuer ≥ 0,8 m);
+  ab **mehr als neun** Geschossen zwei Aufzuege (§ 40 BBV I; Bd 2, S. 1253). _[2026-06-17]_
+- **F:** Fuer welche Bauten gelten die §§ 303-305 PBG **nicht**? — **A:** Fuer Einfamilienhaeuser
+  und vergleichbare Wohnungsarten (kein gemeinsames Treppenhaus + eigener Zugang ins Freie + tritt
+  als EFH in Erscheinung; § 32 ABV; Bd 2, S. 1252). _[2026-06-17]_
+
+### Modell A — Frage→Beleg-Drill (typische Buerofrage, 2026-06-17)
+- **F (Bauherr):** «Wir wollen im Untergeschoss unseres MFH zwei zusaetzliche Zimmer vermieten —
+  die Fenster sind gross genug. Geht das?»
+- **A (nur mit Buchbeleg):** Das Fenstermass (≥ 10 % Bodenflaeche, § 302 Abs. 2 PBG) ist nur eine
+  von mehreren Huerden. Entscheidend ist (1) **freier Lichteinfall**: fuehrt das Fenster in einen
+  Lichtschacht oder ist der Luftraum verstellt, sind die wohnhygienischen Anforderungen **nicht**
+  erfuellt — der Raum darf nicht zu Wohn-/Schlafzwecken genutzt werden (VB.2017.00452, E. 2.2;
+  BEZ 2001 Nr. 30; Bd 2, S. 1247). (2) **Lichte Raumhoehe ≥ 2,4 m** (Kernzone 2,3 m; § 304 Abs. 1
+  PBG). (3) **Flaeche ≥ 10 m²** je Raum (§ 303 Abs. 1 PBG). Erst wenn alle drei erfuellt sind, ist
+  die Flaeche als Wohnflaeche/aGF anrechenbar. — **Beleg vollstaendig, keine Wissensluecke.**
+- **Transfer JANS:** Der Lichtschacht-Fall ist der haeufigste UG-Umnutzungs-Killer — bei
+  Machbarkeits-/Umnutzungsstudien (Skill `machbarkeit`, `nutzungsstrategie`) den freien Lichteinfall
+  **vor** der Flaechenberechnung pruefen. Verknuepft mit [[wohnhygiene-und-raumanforderungen]] +
+  [[bestandsumbau-eingriffstiefe]].

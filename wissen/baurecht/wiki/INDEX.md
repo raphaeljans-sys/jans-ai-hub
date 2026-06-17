@@ -25,6 +25,10 @@ oder umbenannten Artikel aktualisieren.
 - [[geschosse-und-kniestock]] — Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit (§ 276 PBG), **Kniestock**: 0,9 m / Bestand 1,3 m (vor 1.7.1978), Messweise 0,4 m hinter Fassade · *emerging*
 - [[16-gebaeudedimensionen]] (Destillat Bd 2, Kap. 16 Teil 1) — Buchsynthese Geschosse + Kniestock, Belegquelle · *emerging*
 
+### Gebäude und Räume; Wohnhygiene
+- [[wohnhygiene-und-raumanforderungen]] — wohnhygienische Mindestanforderungen an Aufenthaltsräume (§§ 299-306 PBG): **Belichtung/Belüftung** (Fenster ≥ 1/10 Bodenfläche, öffenbar, ins Freie; § 302; Lichtschacht-Falle), **Mindestfläche ≥ 10 m²** (§ 303), **lichte Raumhöhe 2,4 m / Kernzone 2,3 m** (§ 304), innere Erschliessung + **Aufzugspflicht** (> 5 Geschosse, krankentransporttauglich 2,1 × 1,1 m; § 305 PBG / § 40 BBV I); K.-o.-Filter jeder UG-/Dach-Umnutzung · *emerging*
+- [[17-gebaeude-und-raeume]] (Destillat Bd 2, Kap. 17 Teil 1) — Buchsynthese §§ 295-306 PBG (Wohnhygiene/Mindestmasse/Aufzug), Belegquelle · *emerging*
+
 ### Zonen
 - [[zonenkonformitaet]] — BZO-Systematik, Zonenarten, Richtwerte Stadt ZH · *established*
 
@@ -44,8 +48,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-12)
-- Artikel im Wiki: 10 + QUELLEN-Register (+ [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] um Gewässerraum-Vertiefung + Baulinien-Verweis ergänzt)
+## Statistik (Stand 2026-06-17)
+- Artikel im Wiki: 11 + QUELLEN-Register (+ [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] um Gewässerraum-Vertiefung + Baulinien-Verweis ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

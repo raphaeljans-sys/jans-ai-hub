@@ -639,14 +639,14 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 621 | 2 | 1234/1235 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.51.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
 | 622 | 2 | 1236/1237 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.52.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
 | 623 | 2 | 1238/1239 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.53.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
-| 624 | 2 | ~1242 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.54.jpg` |  |
-| 625 | 2 | ~1244 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.56.jpg` |  |
-| 626 | 2 | ~1246 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.57.jpg` |  |
-| 627 | 2 | ~1248 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.58.jpg` |  |
-| 628 | 2 | ~1250 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.59.jpg` |  |
-| 629 | 2 | ~1252 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.01.jpg` |  |
-| 630 | 2 | ~1254 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.02.jpg` |  |
-| 631 | 2 | ~1256 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.03.jpg` |  |
+| 624 | 2 | 1240/1241 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.54.jpg` | `band-2/17-gebaeude-und-raeume.md` (Kap.-Titel) |
+| 625 | 2 | 1242/1243 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.56.jpg` | `band-2/17-gebaeude-und-raeume.md` |
+| 626 | 2 | 1244/1245 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.57.jpg` | `band-2/17-gebaeude-und-raeume.md` |
+| 627 | 2 | 1246/1247 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.58.jpg` | `band-2/17-gebaeude-und-raeume.md` |
+| 628 | 2 | 1248/1249 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.59.jpg` | `band-2/17-gebaeude-und-raeume.md` |
+| 629 | 2 | 1250/1251 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.01.jpg` | `band-2/17-gebaeude-und-raeume.md` |
+| 630 | 2 | 1252/1253 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.02.jpg` | `band-2/17-gebaeude-und-raeume.md` |
+| 631 | 2 | 1254/1255 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.03.jpg` | `band-2/17-gebaeude-und-raeume.md` (Kap.-Forts. Einstellraeume) |
 | 632 | 2 | ~1258 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.05.jpg` |  |
 | 633 | 2 | ~1260 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.06.jpg` |  |
 | 634 | 2 | ~1262 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.07.jpg` |  |

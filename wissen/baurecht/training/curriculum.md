@@ -46,7 +46,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
 | 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1111: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3**; Restschuld nur § 274 Grenzbaurecht/Anbau, Shots ab 560) |
 | 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
-| 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [ ] |
+| 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [~] (S.1241-1255: Wohnhygiene §§299-306 — Belichtung/Belueftung §302, Mindestflaeche §303, Raumhoehe §304, innere Erschliessung/Aufzug §305/§40 BBV I; Rest Einstellraeume-Detail + Ausruestungen/Beförderungsanlagen ab Shot 632 offen) |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
 | 19 | Baulicher Umweltschutz | 1357 | 681 | P2 | [ ] |
 | 20 | **Ausnahmetatbestaende bei vorschriftswidrigen Bauten** (Bestandesschutz) | 1433 | 719 | **P1** | [ ] |
