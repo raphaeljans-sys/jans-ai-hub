@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.06.2026 08:12:17
+Stand: 17.06.2026 08:22:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:55)
@@ -15,4 +15,4 @@ Stand: 17.06.2026 08:12:17
 - 1 Datei(en): AR - 01 Projekte / 2515 WARTSTRASSE_7
 
 ## Hub-Git-Stand (NAS)
-- 53a1482 baurecht-buch-training: Run 9 Kap. 17 Wohnhygiene (Report/CHANGELOG/Tracker)
+- d59c90f nas-selfcommit: 2 Datei(en) 2026-06-17 08:15

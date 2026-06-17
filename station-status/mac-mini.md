@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.06.2026 08:11:25
+Stand: 17.06.2026 08:21:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 17.06.2026 08:11:25
 - 1 Datei(en): AR - 01 Projekte / 2515 WARTSTRASSE_7
 
 ## Hub-Git-Stand (NAS)
-- 53a1482 baurecht-buch-training: Run 9 Kap. 17 Wohnhygiene (Report/CHANGELOG/Tracker)
+- d59c90f nas-selfcommit: 2 Datei(en) 2026-06-17 08:15
