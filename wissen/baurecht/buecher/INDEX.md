@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -68,6 +68,19 @@ Trainingslauf (`../training/PROGRAMM.md`).
   flaechenkleinstes Rechteck (§ 28 nABV). 5 Doppelseiten. Status: `established`.
   Speist Skill `massgebendes-terrain` (Prinzip 4 Attika-/Baukoerper-Setzung).
 
+- [[17-gebaeude-und-raeume]] — Kap. 17 Teil 1 (S. 1241-1255): **Gebaeude und Raeume; Ausruestungen**
+  — Grundlagen §§ 295/299/300 PBG (Stand der Technik § 2 BBV I), Wohnungen/Gemeinschaftsunterkuenfte
+  (§§ 9/10 BBV I, Kueche BEZ 2015 Nr. 40), Arbeits-/Publikumsraeume (§§ 11/12 BBV I, Rauchschutz
+  PaRG/§ 22 GGG), **Belichtung/Belueftung § 302 PBG** (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins
+  Freie; **Lichtschacht-Falle** VB.2017.00452/BEZ 2001 Nr. 30; Dachflaechenfenster BEZ 2008 Nr. 27),
+  Ausrichtung Wohnraeume § 301 (nicht mehrheitlich NO/NW), **Mindestflaeche ≥ 10 m² § 303** (Kueche
+  4/6 m² § 36 BBV I), **lichte Raumhoehe 2,4 m / Kernzone 2,3 m § 304** (Dachraum halbe Bodenflaeche,
+  BEZ 2011 Nr. 15), Rauminhalt grosse Belegung § 10 BBV II, **innere Erschliessung § 305 +
+  Aufzugspflicht § 40 BBV I** (> 5 Geschosse → krankentransporttauglich 2,1 × 1,1 m; > 9 → 2),
+  Geltungsbereich-Ausnahme EFH § 32 ABV, Bezug § 12a BBV I, Laerm/SIA 181 § 13 BBV I, Beginn
+  Einstellraeume §§ 37-39/§ 297 PBG. 8 Doppelseiten. Status: `emerging` (Ausruestungen/Einstellraeume-
+  Detail + §§ 295-298 PBG ab Shot 632 offen). Speist [[wohnhygiene-und-raumanforderungen]].
+
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
 - [[06-baurechtliches-verfahren]] — Kap. 6 (S. 337-405, Kern; Kap. bis S. 422): **Baubewilligungs-
   verfahren** — Zweck/Umfang (§ 309/§ 320 PBG), **Bewilligungspflicht** + Abgrenzung Melde-/Anzeige-
@@ -100,6 +113,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
 | 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
-| 1-5, 7-8, 10-13, 17-23 | uebrige | ⬜ offen |
+| 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 — Belichtung/Belueftung/Mindestflaeche/Raumhoehe/Aufzug S.1241-1255; Ausruestungen/Einstellraeume-Detail + §§295-298 ab Shot 632 offen) |
+| 1-5, 7-8, 10-13, 18-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

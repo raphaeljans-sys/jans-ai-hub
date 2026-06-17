@@ -15,6 +15,21 @@ wurden.
 - ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
   [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
 
+## Offene Wissenslücken — neu (2026-06-17, aus Buch-Run Kap. 17 Teil 1)
+- ~~**Wohnhygiene/Raumanforderungen §§ 299-306 PBG**~~ → **erledigt 2026-06-17** (Run 9):
+  Belichtung/Belüftung § 302 (Fenster ≥ 1/10 Bodenfläche, öffenbar, ins Freie; Lichtschacht-Falle
+  VB.2017.00452/BEZ 2001 Nr. 30), Mindestfläche ≥ 10 m² § 303, lichte Raumhöhe 2,4 m / Kernzone
+  2,3 m § 304 (Dachraum halbe Bodenfläche, BEZ 2011 Nr. 15), innere Erschliessung § 305 +
+  Aufzugspflicht § 40 BBV I (> 5 Geschosse, krankentransporttauglich 2,1 × 1,1 m), Geltungs-
+  bereich-Ausnahme EFH § 32 ABV — distilliert [[17-gebaeude-und-raeume]] (S. 1241-1255), neuer
+  Wiki-Artikel [[wohnhygiene-und-raumanforderungen]].
+- **§ 10 BBV II Rauminhalt-Staffelung offen:** Die m³/m²-Staffel für Räume mit grosser Belegung
+  (Buch: 2,4 m³/m² bis 200 m², Anstieg «0.002 m²» wirkt wie OCR-Verzerrung, ab 500 m² konstant
+  3 m³/m²) am amtlichen BBV-II-Volltext (raw/) gegenprüfen — Zwischenwerte unklar.
+- **Kap. 17 Ausrüstungen-Teil offen:** Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen,
+  Briefkästen (§ 4 ABV), §§ 295-298 PBG (Gebäude > sechs Geschosse) sowie Einstellräume-Detail
+  (Garagenlüftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht vertieft.
+
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
   Gebührenordnung hinterlegen.

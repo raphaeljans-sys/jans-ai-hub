@@ -4,6 +4,32 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-17 — Buch-Destillat BAND 2 Kap. 17 Teil 1 (Gebaeude und Raeume; Wohnhygiene), Run 9
+- NEU `buecher/band-2/17-gebaeude-und-raeume.md` (Shots 624-631, echte Seiten 1241-1255, 8 Doppel-
+  seiten; Kap.-Kern Wohnhygiene, Kapitel reicht weiter): Grundlagen §§ 295/299/300 PBG (Stand der
+  Technik § 2 BBV I, Ausruestungen § 4 ABV), Wohnungen/Gemeinschaftsunterkuenfte (§§ 9/10 BBV I,
+  Kueche-Begriff BEZ 2015 Nr. 40), Arbeits-/Publikumsraeume (§§ 11/12 BBV I, Rauchschutz PaRG/§ 22 GGG),
+  **Ausrichtung Wohnraeume § 301 PBG** (nicht mehrheitlich NO/NW; VB.2017.00169), **Belichtung/
+  Belueftung § 302 PBG** (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie; Lichtschacht-Falle
+  VB.2017.00452/BEZ 2001 Nr. 30; Dachflaechenfenster BEZ 2008 Nr. 27; Abweichung § 302 Abs. 3 vor
+  § 220 PBG), **Mindestflaeche ≥ 10 m² § 303** (Kueche 4/6 m² § 36 BBV I), **lichte Raumhoehe 2,4 m /
+  Kernzone 2,3 m § 304** (Dachraum halbe Bodenflaeche, BEZ 2011 Nr. 15), Rauminhalt grosse Belegung
+  § 10 BBV II, **innere Erschliessung § 305 + Aufzugspflicht § 40 BBV I** (> 5 Geschosse →
+  krankentransporttauglich 2,1 × 1,1 m; > 9 → 2 Aufzuege), Geltungsbereich-Ausnahme EFH § 32 ABV,
+  Bezug § 12a BBV I, Laerm/SIA 181 § 13 BBV I, Beginn Einstellraeume §§ 37-39/§ 297 PBG.
+- NEU Wiki `wiki/wohnhygiene-und-raumanforderungen.md` (`emerging`): die vier Stellschrauben
+  Belichtung/Belueftung — Mindestflaeche — Raumhoehe — innere Erschliessung/Aufzug; Geltungsbereich-
+  Ausnahme § 32 ABV; JANS-Anwendung (UG-/Dach-Umnutzung, Healthcare-Aufzug, Lichtschacht-Killer).
+  Backlinks [[17-gebaeude-und-raeume]], [[bestandsumbau-eingriffstiefe]], [[geschosse-und-kniestock]].
+- DRILL `training/drills.md`: neuer Abschnitt Kap. 17 — 6 Selbsttest-Karten (Modell C) + 1
+  Frage→Beleg-Drill (Modell A, UG-Umnutzung-Buerofrage).
+- REGISTER: `seiten-inventar.md` Shots 624-631 [x] + echte Seiten korrigiert (Inventarschaetzung war
+  +2 verschoben); `curriculum.md` Kap. 17 [~] + naechster Lauf Kap. 20; `buecher/INDEX.md` Eintrag +
+  Abdeckungs-Matrix Kap. 17 🟡; `wiki/INDEX.md` Artikel 11 + neue Sektion; `QUESTIONS.md` Kap. 17
+  erledigt + offene §-10-BBV-II-Staffel/Ausruestungen-Teil.
+- NAECHSTER LAUF: **Kap. 20** (Ausnahmen/Bestandesschutz § 357 PBG, Shots ab 719, S. 1433 ff.);
+  Restschuld Kap. 17 (Ausruestungen/Einstellraeume) + § 274 (Kap. 15) bei Gelegenheit.
+
 ## 2026-06-16 — Buch-Destillat BAND 1 Kap. 6 (Verfahren) + Kap. 9 (Rechtsschutz), Run 8
 - NEU `buecher/band-1/06-baurechtliches-verfahren.md` (Shots 169-201, echte Seiten 337-405,
   17 Doppelseiten; Kernbereich, Kapitel reicht bis S. 422): Baubewilligungsverfahren — Zweck/Umfang

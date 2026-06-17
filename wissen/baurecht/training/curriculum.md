@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -94,9 +94,20 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75, Anbau VB.2015.00544). Destillat
    [[15-lage-von-gebaeuden-teil2d]], Wiki [[abstaende-und-hoehen]] auf `established` geschaerft.
    **Kap. 15 abgeschlossen** — Restschuld nur § 274 Grenzbaurecht/Anbau (Shots ab 560, S. 1112 ff.).)*
-   ⏭️ **Naechster Lauf: Kap. 17** (Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung,
-   Wohnhygiene, Hindernisfreiheit; Shots ab 623, S. 1241 ff.). ODER bei Gelegenheit § 274 nachziehen.
+   (§ 274 Grenzbaurecht/Anbau bleibt Restschuld, Shots ab 560.)*
 4. **Kap. 17** Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung, Wohnhygiene, Hindernisfreiheit.
+   *(Teil 1 distilliert 2026-06-17, Run 9, S. 1241-1255, Shots 624-631: Grundlagen §§ 295/299/300 PBG,
+   Wohnhygiene — Ausrichtung Wohnraeume § 301, **Belichtung/Belueftung § 302** (Fenster ≥ 1/10
+   Bodenflaeche, oeffenbar, ins Freie; Lichtschacht-Falle VB.2017.00452/BEZ 2001 Nr. 30;
+   Dachflaechenfenster BEZ 2008 Nr. 27), **Mindestflaeche ≥ 10 m² § 303**, **lichte Raumhoehe 2,4 m /
+   Kernzone 2,3 m § 304** (Dachraum halbe Bodenflaeche, BEZ 2011 Nr. 15), Rauminhalt grosse Belegung
+   § 10 BBV II, **innere Erschliessung § 305 + Aufzugspflicht § 40 BBV I** (> 5 Geschosse,
+   krankentransporttauglich 2,1 × 1,1 m), Geltungsbereich-Ausnahme EFH § 32 ABV. Destillat
+   [[17-gebaeude-und-raeume]], neuer Wiki-Artikel [[wohnhygiene-und-raumanforderungen]]. Restschuld
+   Kap. 17: Einstellraeume-Detail (Garagen §§ 37-39 BBV I) + Ausruestungen/Beförderungsanlagen § 4 ABV
+   + §§ 295-298 PBG, Shots ab 632.)*
+   ⏭️ **Naechster Lauf: Kap. 20** (Ausnahmen/Bestandesschutz — § 357 PBG; Shots ab 719, S. 1433 ff.).
+   ODER bei Gelegenheit § 274 (Kap. 15) bzw. Kap. 17 Ausruestungen-Teil nachziehen.
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.
    *(Kap. 6 Kernbereich distilliert 2026-06-16, Run 8, S. 337-405, Shots 169-201: Bewilligungspflicht,

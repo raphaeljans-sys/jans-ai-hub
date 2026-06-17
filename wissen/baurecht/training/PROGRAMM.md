@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -87,24 +87,30 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 
 ## Fortschritts-Tracker
 
-- **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07.
-- **Seiten distilliert:** ~178 / 1550 (89 Doppelseiten; Kap. 14 weitgehend, Kap. 16 Teil 1, Kap. 15 **vollstaendig** Teil 1+2a+2b+2c+2d ausser § 274).
-- **Kapitel-Destillate:** 5 Buch-Destillate (Kap. 14 `emerging`; Kap. 16 `emerging`; Kap. 15 `emerging` Teil 1+2a+2b+2c + neu Teil 2d `emerging`).
-- **Wiki:** 10 Artikel ([[abstaende-und-hoehen]] 2026-06-16 um Gebaeudeabstand §§ 271-273 + Naeherbaurecht § 270 Abs. 3 geschaerft, Status `established`).
-- **Letzter Lauf:** Run 7, 2026-06-16 — Kap. 15 Teil 2d (Gebaeudeabstand §§ 271-273 PBG +
-  Vorspruenge-Messweise + Erleichterungen + Naeherbaurecht): § 271 Gebaeudeabstand = Summe der beiden
-  Grenzabstaende, § 272 kein Abstand ueber Verkehrsraeume, § 273/§ 49 Abs. 3 Besondere Gebaeude
-  (≤ 4/5 m, kein dauernder Aufenthalt → 3,5 m, ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75),
-  Naeherbaurecht § 270 Abs. 3 (Form § 5 lit. l BVV, Grundbuch Art. 680 Abs. 2 ZGB, 7-m-Schranke
-  BEZ 1990 Nr. 28, § 30 ABV), Vordach BEZ 2017 Nr. 27, Aussenisolation 35 cm § 253a PBG; Shots 547-559,
-  S. 1086-1111); neues Destillat [[15-lage-von-gebaeuden-teil2d]], Wiki [[abstaende-und-hoehen]]
-  geschaerft, **Modell C** 7 Karten + **Modell B** Garage-als-Besonderes-Gebaeude-Fall.
-- **Naechster Lauf:** **Kap. 17** (Gebaeude und Raeume — Raumhoehen, Belichtung/Belueftung,
-  Wohnhygiene, Hindernisfreiheit), Shots ab 623, S. 1241 ff. ODER bei Gelegenheit § 274 PBG
-  (Grenzbaurecht/Anbau, Shots ab 560) nachziehen.
+- **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07. P1-Restkapitel: 17 (Rest), 20, 7 — daher
+  weiter taeglich (kein Phasenwechsel/Cron-Anpassung).
+- **Seiten distilliert:** ~252 / 1550 (~126 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
+  § 274, Kap. 16 Teil 1, Kap. 17 Teil 1 (Wohnhygiene), Kap. 6 + Kap. 9 Kernbereich Band 1).
+- **Kapitel-Destillate:** 8 Buch-Destillate (Kap. 14, 15×4-Teile/16/17 Band 2 + Kap. 6/9 Band 1; alle `emerging`).
+- **Wiki:** 11 Artikel (neu [[wohnhygiene-und-raumanforderungen]] 2026-06-17 `emerging`).
+- **Letzter Lauf:** Run 9, 2026-06-17 — **Kap. 17 Teil 1 (Gebaeude und Raeume; Wohnhygiene)**,
+  Shots 624-631, S. 1241-1255 (8 Doppelseiten): Grundlagen §§ 295/299/300 PBG, Ausrichtung Wohnraeume
+  § 301, **Belichtung/Belueftung § 302** (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie;
+  Lichtschacht-Falle VB.2017.00452/BEZ 2001 Nr. 30; Dachflaechenfenster BEZ 2008 Nr. 27),
+  **Mindestflaeche ≥ 10 m² § 303**, **lichte Raumhoehe 2,4 m / Kernzone 2,3 m § 304** (Dachraum halbe
+  Bodenflaeche, BEZ 2011 Nr. 15), Rauminhalt § 10 BBV II, **innere Erschliessung § 305 + Aufzugspflicht
+  § 40 BBV I** (> 5 Geschosse → 2,1 × 1,1 m krankentransporttauglich), EFH-Ausnahme § 32 ABV; neues
+  Destillat [[17-gebaeude-und-raeume]], neuer Wiki-Artikel [[wohnhygiene-und-raumanforderungen]],
+  **Modell C** 6 Karten + **Modell A** UG-Umnutzung-Buerofrage. (Run 8, 2026-06-16: Kap. 6 Verfahren +
+  Kap. 9 Rechtsschutz Band 1.)
+- **Naechster Lauf:** **Kap. 20** (Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie),
+  Shots ab 719, S. 1433 ff. ODER bei Gelegenheit Kap. 17 Ausruestungen-Teil (Shots ab 632) bzw.
+  § 274 PBG (Kap. 15, Shots ab 560) nachziehen.
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
 - **Restschuld Kap. 15:** nur noch § 274 PBG (Grenzbaurecht/geschlossene Bauweise/Anbau) + § 27 Abs. 2 ABV — Shots ab 560, S. 1112 ff. (§§ 269-273 erledigt 2026-06-15/16).
 - **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung
   (Shots ab 581, S. 1154 ff.).
+- **Restschuld Kap. 17:** Ausruestungen-Teil (Heizung/Klima/Elektro/Beförderungsanlagen § 4 ABV),
+  §§ 295-298 PBG, Einstellraeume-Detail (Garagen §§ 37-39 BBV I) — Shots ab 632, S. 1256 ff.
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).
