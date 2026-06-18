@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.06.2026 07:59:21
+Stand: 18.06.2026 08:09:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.06.2026 07:59:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ef8b1ad baurecht-buch-training: Kap. 20 Ausnahmen/Bestandesschutz (§ 220/§ 357 PBG), Run 10
+- 9f73d9e nas-selfcommit: 1 Datei(en) 2026-06-18 08:00
