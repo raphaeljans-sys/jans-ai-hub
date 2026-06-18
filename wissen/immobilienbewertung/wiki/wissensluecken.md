@@ -22,10 +22,23 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T15 | Niederhasli **CS Controlling & Sensitivitaet** auswerten (Szenarienlogik hoch/tief, Break-Even) | IMMO-01 CS Niederhasli | [[projektstruktur-deliverables]] |
-| T16 | Restliche LB-PDFs (Langnau 3338, Wangen-LB) inhaltlich auswerten + Healthcare-Bewertungsfall suchen | IMMO-01 LB | [[projektstruktur-deliverables]] |
+| T17 | **Healthcare-Bewertungsfall**: im Bewertungsordner existiert keiner (alle Wohnen/MFH/STWE). Brücke zu Skill `healthcare-wirtschaftlichkeit` (2410 WALD/Nova) bauen — ein reales Pflegeheim/Klinik-Bewertungs-Deliverable als Referenz erfassen, sobald vorhanden (Bring-Schuld Raphael) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare-Kennwerte | [[projektstruktur-deliverables]], [[ertragswert-dcf]] |
+| T18 | **CS-Sensitivitaets-Generator**: die Zwei-Modell-Logik (Kosten fix vs. 70/30) als wiederverwendbares Rechen-/Tool-Schema formalisieren (Werttreiber × Δ × Kostenelastizitaet → Marge/Break-Even), uebertragbar auf Mietzins/Baukosten/Leerstand | CS Niederhasli (Methodik belegt) | [[projektstruktur-deliverables]] |
 
 ## Erledigt
+
+- ✓ 2026-06-18 **T15** (Run 6) Niederhasli **CS Controlling & Sensitivitaet** vollstaendig
+  ausgewertet → **CS-Deliverable-Methodik** dokumentiert: Controlling-Factsheet (Felderschema,
+  Plausibilitaets-Check einer Fremdstudie) + Sensitivitaetsanalyse (Werttreiber Ausnuetzung ×
+  Δ 0/−10/−20 % × Kostenmodell A fix / B 70/30 → Marge + Break-Even) + Fazit/Empfehlung →
+  [[projektstruktur-deliverables]].
+- ✓ 2026-06-18 **T16** (Run 6, teilweise) LB Langnau Giebelweg 12 → **Bestand-halten-vs-Abbruch-
+  Entscheidlogik** (Vergleichswert-Bestand ↔ Residual-Landwert; BMZ-Deckelung kippt auf Halten;
+  Datenquelle Popety.io) → [[vergleichswert-hedonisch]] + [[projektstruktur-deliverables]]; LB
+  Wangen Bahnhofstr. 27 → **Ertragswert-Band (3 Kapitalisierungssaetze) + Kaufpreispruefung
+  (impl. Bruttorendite vs. Schwelle) + Ausbau-Rendite-Impact** → [[ertragswert-dcf]]. Healthcare-
+  Teil offen (kein Fall im Bewertungsordner) → neu T17.
+
 
 - ✓ 2026-06-16 **T9b** Inhalts-/Kennwert-Auswertung realer LB/MA-Faelle: Thalwil 9568
   (LB + MA), Ebmatingen 3932 (LB), Wangen 2622 quantitativ ausgewertet → **Kennwert-Benchmark-

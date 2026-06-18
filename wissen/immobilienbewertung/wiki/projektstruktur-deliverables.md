@@ -1,8 +1,8 @@
 ---
 title: Projektstruktur und Deliverables (LB/RW/MA/CS/TDD/STWE)
 status: established
-last_updated: 2026-06-16
-sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5]
+last_updated: 2026-06-18
+sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -38,7 +38,7 @@ z.B.  8800 Thalwil 9568 Bohlweg 1 LB Liegenschaftsbewertung
 | **LB** | Liegenschaftsbewertung | Realwert + Ertrags-/Vergleichswert → Marktwert |
 | **RW** | Residualwert(berechnung) | [[residualwertmethode]] (Landwert) |
 | **MA** | Marktwertanalyse | [[vergleichswert-hedonisch]] |
-| **CS** | Controlling & Sensitivitaet | Szenarien hoch/tief, Break-Even |
+| **CS** | Controlling & Sensitivitaet | Plausibilitaets-Check einer Fremdstudie + Sensitivitaet (Ausnuetzung × Kostenmodell A/B), Break-Even |
 | **TDD** | Technical Due Diligence | Skill `ankaufspruefung` |
 | **STWE** | Stockwerkeigentum | Skill `stockwerkeigentum` |
 
@@ -139,6 +139,111 @@ Gegenrechnung Entwicklergewinn: **Anlagewert** (EW 16'000/m2 HNF × 550 = 8.83 M
 Anlagekosten** (Marktwert Land 3.98 Mio + Erstellung EW 6'000/HNF = 3.30 Mio → Total 7.28 Mio)
 **= Rendite/Gewinn 1.55 Mio**. So koppelt die MA Vergleichswert (UBS-FS-Bauland) und
 Residualwert ([[residualwertmethode]]) zu einem plausibilisierten Marktwert.
+
+## CS-Deliverable: Controlling & Sensitivitaet (Niederhasli, 11.08.2025)
+
+Das **CS (Controlling & Sensitivitaet)** ist das Pruef-/Stress-Deliverable **VOR dem
+Grundstueckskauf**. Es rechnet nicht von Grund auf neu, sondern **plausibilisiert eine fremde
+Studie** (hier die HVA-Machbarkeitsstudie MBS + die Kostenbasis WKB) und stresst sie auf ihre
+verletzlichste Annahme. Beleg: `CS Niederhasli, Seestrasse 64` (Kat. 2025, 1'049 m2, Zone WE2,
+Kaufpreis CHF 1.49 Mio), 5-seitiges JANS-Layout.
+
+**Aufbau (5 Seiten):** Titelblatt → Projekt-Titel → **Controlling-Factsheet** →
+**Sensitivitaetsanalyse** → **Fazit/Empfehlung**.
+
+### 1. Controlling-Factsheet (Felderschema)
+
+Strukturierter Plausibilitaets-Check der Fremdannahmen — je Feld die Aussage + JANS-Wertung:
+
+| Feld | Inhalt (Beispiel Niederhasli) |
+|---|---|
+| **Projekt / Grundstueck / Kaufpreis** | Adresse, Kat.-Nr., m2, Zone; Kaufpreis CHF 1.49 Mio |
+| **Baurechtliche Basis** | Zone WE2 (nur EFH/DEFH), Ausnuetzung ueber Gebaeudeabmessung/Hoehe/Grenzabstand (kein AZ/BMZ), IVHB, moegliche Nachweispflichten |
+| **Rahmenbedingungen** | Studienaussage (MBS: max. Ausnuetzung) + Risiko (Gemeinde kann via Ortsbildschutz reduzieren) + Parzellierungsstrategie separat |
+| **Kostenbasis (WKB)** | Gesamtkosten CHF 5.61 Mio, Baukosten oberird. **2'650 CHF/m2** (mittlerer Standard ZH), Marge **8.1 % — eher knapp** |
+| **Ertragsannahmen** | Verkauf **11'000 CHF/m2 HNF** (oberes Segment, nur Premiumlage realistisch); 10 TG-Plaetze a 45'000 |
+| **Risiken (5 Achsen, je Ampel)** | Baurecht Mittel-Hoch (MFH in WE2 problematisch) · Ortsbildschutz Hoch · Kostensteigerung Mittel · Marktrisiko Mittel (hoher m2-Preis) · Genehmigungsdauer Mittel |
+| **Fazit / Vor Investition / Empfehlung** | «Formale Grundlagen vertrauenswuerdig, wirtschaftlich ambitioniert»; vor Kauf Gemeindegespraech + konservative Rechnung mit geringerer Ausnuetzung |
+
+### 2. Sensitivitaetsanalyse — das methodische Herzstueck
+
+Die zentrale **Werttreiber-Variable** (hier die **Ausnuetzung**, weil der behoerdliche
+Ortsbildschutz-Eingriff das reale Risiko ist) wird gestresst (Δ **0 / −10 / −20 %**) und gegen
+**zwei Kostenelastizitaets-Modelle** gerechnet:
+
+- **Modell A — Kosten fix:** alle Kosten bleiben konstant, unabhaengig von der Ausnuetzung
+  (Worst Case: Ertrag sinkt, Kosten bleiben → Marge bricht ein).
+- **Modell B — Kosten 70/30:** 70 % Fixkosten / 30 % variabel (schrumpfen mit der Ausnuetzung mit).
+
+| Δ Ausnuetzung | Ertrag | Kosten A fix | Marge A | Kosten B 70/30 | Marge B |
+|---|---|---|---|---|---|
+| 0 % | 6'103'450 | 5'609'411 | **+8.09 %** | 5'609'411 | **+8.09 %** |
+| −10 % | 5'493'105 | 5'609'411 | **−2.12 %** | 5'423'588 | **+1.27 %** |
+| −20 % | 4'882'760 | 5'609'411 | **−14.88 %** | 5'237'764 | **−7.27 %** |
+
+**Break-Even ablesbar:** Modell A kippt schon zwischen 0 und −10 % ins Minus (Break-Even
+~−8 % Ausnuetzung), Modell B erst zwischen −10 und −20 % (~−13 %). Die Analyse zeigt damit
+quantitativ, **wie robust die Marge gegenueber einer behoerdlich erzwungenen Ausnuetzungs-
+reduktion ist** — und dass schon eine moderate Reduktion das knappe 8-%-Polster aufzehrt.
+
+### 3. Fazit/Empfehlung — Muster
+
+Verdichtung in zwei Bloecke: **Controlling** (Ertragsrahmen nur fuer Premiumlagen, Baurecht
+Mittel-Hoch) und **Sensitivitaet** (Marge faellt bei −10 % auf +1.3…−2 %, bei −20 % auf
+−7…−15 %). **Empfehlung** = Handlungssequenz vor dem Kauf: (1) Abklaeren ob MFH in WE2 moeglich,
+(2) Abparzellierung mit geschlossener Bauweise pruefen, (3) max. Ausnuetzung **vor** dem
+Grundstueckskauf via Vorprojekt + baubehoerdliche Konsultation absichern, (4) Premiumlage durch
+lokalen Makler verifizieren.
+
+**Methodik-Transfer:** Das CS ist der **Stress-Test einer Wirtschaftlichkeitsrechnung auf ihre
+verletzlichste Annahme**. Es ist der formalisierte grosse Bruder der gelebten **RW-`tief`/`hoch`-
+Szenarienlogik** (s.o.) und das Bindeglied zum Skill `machbarkeit` (dort die Variantenrechnung,
+hier der Risiko-Stresstest vor dem Kaufentscheid). Die Zwei-Modell-Logik (fixe vs. teilvariable
+Kosten) ist auf jede Werttreiber-Variable uebertragbar (Mietzins, Baukosten, Leerstand).
+
+## LB-Variante «Bestand halten vs. Abbruch + Neubau» (Langnau 3338, 03.06.2026)
+
+Eine eigene LB-Spielart fuer Bestandesliegenschaften mit Reserve: der **Bestandeswert
+(Vergleichswert)** wird direkt gegen den **Entwicklungs-Landwert (Residualwert Abbruch+Neubau)**
+gestellt — die hoehere der beiden Zahlen bestimmt die Empfehlung. Beleg Giebelweg 12, 8135
+Langnau a.A. (Parz. 3338, EFH Bj. 1936/renoviert 2008, BMZ-Zone 1.5):
+
+- **A Bestandeswert (hedonisch):** ~165 m2 Wohnflaeche × 12'000 CHF/m2 (Marktanker Popety/Web)
+  ≈ 1.98 Mio, grosses Grundstueck wertstuetzend → **Bestandeswert ≈ 1.9–2.3 Mio**.
+- **B Entwicklungswert (Residual, BMZ-gedeckelt):** zulaessiges Bauvolumen 1'152 m3 (nur +248 m3
+  ueber Bestand) → ~260 m2 HNF × 13'000 CHF/m2 ≈ 3.0–3.7 Mio − Erstellung inkl. Abbruch 1.9 Mio
+  − Nebenkosten/Finanzierung/**Marge ~18 %** 0.6 Mio = **Residual-Landwert ≈ 0.8–1.2 Mio**.
+- **Empfehlung: Bestand halten** — 1.9–2.3 Mio liegt klar ueber dem Entwicklungs-Landwert
+  0.8–1.2 Mio; die **BMZ-Deckelung** macht den Neubau unattraktiv (Abbruch des 2008 renovierten
+  Hauses wuerde ~1 Mio Wert vernichten). Die kleine Reserve (+248 m3) als Aufstockungs-/
+  Erweiterungsoption pruefen, nicht als Abbruch-Neubau.
+
+Durabler Befund: **Bei Bestandesobjekten ist die Schluesselfrage Halten vs. Entwickeln** — und
+sie entscheidet sich am Verhaeltnis Vergleichswert-Bestand ↔ Residual-Landwert. Eine
+**volumengedeckelte Zone (BMZ/m3 statt AZ/GF)** mit kleiner Reserve kippt die Antwort fast immer
+auf «Halten». Datenquelle bei fehlendem UBS-FS (Langnau): **Popety.io-Land-Analyse**
+([[datenquellen-registry]]), die die Ausnuetzungsreserve (BMZ aktuell/zulaessig/Reserve, BVm,
+UeZ) parzellenscharf liefert. Vgl. die Entscheidlogik in [[vergleichswert-hedonisch]].
+
+## LB-Variante «Renditeobjekt-Kaufpreispruefung» (Wangen Bahnhofstr. 27, 09.06.2026)
+
+Das reifste einseitige JANS-LB-Template fuer ein **gemischtes Renditeobjekt** (EG Arztpraxis +
+2 Wohnungen + Maisonette, Parz. 25, Zone WG3 ausgeschoepft). Es fuehrt den **Ertragswert** (weil
+Renditeobjekt) und endet in einer **Kaufpreispruefung gegen ein Angebot**:
+
+- **Ertragspotenzial:** Soll-Mietertrag je Nutzung (HNF × CHF/m2/J nach UBS-FS-Quantil) →
+  Brutto-Sollertrag CHF 129'000/J (EG Praxis 200, Whg. 255, Maisonette 235 mit Altbau-Abschlag).
+- **Ertragswert-Band ueber drei Kapitalisierungssaetze:** 4.75 % = 2.72 Mio · **5.00 % (Basis)
+  = 2.58 Mio** · 5.25 % = 2.46 Mio → **Band Halten 2.45–2.70 Mio** (Methodik s. [[ertragswert-dcf]]).
+- **3-Anker-Quervergleich (Plausibilisierung):** Lageklasse-Realwert (Land 2'702/m2) ~2.7–3.0 Mio
+  · STWE-Einzelverkauf Wohnteil ~3.5 Mio · UBS-FS-Bauland Mittel/Top → **Marktwert-Synthese 2.6–2.8 Mio**.
+- **Kaufpreispruefung:** Angebot 3.10 Mio ⇒ impl. Bruttorendite **4.2 %** ⇒ als reiner Renditekauf
+  **~10 % zu hoch** (< 4.5-%-Schwelle); Empfehlung «Richtung Bankschaetzung 2.8 Mio verhandeln»,
+  3.10 nur bei Hebung Mietpotenzial oder STWE-Einzelverkauf gerechtfertigt.
+
+Durabler Befund: Beim **Renditeobjekt fuehrt der Ertragswert** (nicht Real-/Vergleichswert), die
+Bewertung endet in einer **Verhandlungsempfehlung gegen das konkrete Angebot** (Ertragswert-Band
++ impl. Rendite). Kaufpreispruefung-, Band- und Ausbau-Rendite-Logik im Detail: [[ertragswert-dcf]].
 
 ## Output-Ablage (neue Bewertungen)
 

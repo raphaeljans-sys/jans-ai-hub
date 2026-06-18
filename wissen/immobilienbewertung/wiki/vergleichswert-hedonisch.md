@@ -1,8 +1,8 @@
 ---
 title: Vergleichswert / hedonische Bewertung
 status: established
-last_updated: 2026-06-16
-sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte (Thalwil 9568 MA 241126: Bauland Mittel/Top → Marktwert-Synthese), Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026)]
+last_updated: 2026-06-18
+sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte (Thalwil 9568 MA 241126: Bauland Mittel/Top → Marktwert-Synthese), Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026), LB Langnau Giebelweg 12 (260603) — Bestand-vs-Abbruch-Entscheidlogik Run 6]
 links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -142,6 +142,26 @@ STWE-Kaufpreis am **Q90** (470 CHF/m2/J bzw. 20'000 CHF/m2); Durchschnittslage E
 **Lageklasse** (Schlecht/Mittel/Top) gezogen (Wangen: «Mittel» 2'702 CHF/m2; Thalwil-MA:
 Mittel 4'268 / Top 5'508 → Synthese-Marktwert 4'850). ⚠ Quantil-/Stufenwahl ist
 Bewerterleistung und immer zu begruenden.
+
+## Entscheidlogik «Bestand halten vs. Abbruch + Neubau» (Langnau 3338)
+
+Bei **Bestandesliegenschaften** ist der Vergleichswert nicht nur eine Wertzahl, sondern die eine
+Haelfte einer Entscheidung: **Bestandeswert (Vergleichswert/hedonisch) gegen Entwicklungs-Landwert
+(Residualwert Abbruch+Neubau)**. Die hoehere Zahl gewinnt. Belegt aus LB Giebelweg 12, 8135
+Langnau a.A. (03.06.2026):
+
+- **A Bestandeswert (hedonisch):** Wohnflaeche (aus BGF abgeleitet) × Marktanker CHF/m2, grosses
+  Grundstueck wertstuetzend, Abschlag fuer Heizung/energetische Erneuerung/Hanglage → **1.9–2.3 Mio**.
+- **B Entwicklungs-Landwert (Residual):** Verkaufserloes Neubau − Erstellung inkl. Abbruch −
+  Nebenkosten/Finanzierung/Marge (~18 %) → **0.8–1.2 Mio** ([[residualwertmethode]]).
+- **Entscheid:** A > B ⇒ **Bestand halten**. Treiber: die Zone ist **m3-/BMZ-gedeckelt**, die
+  Reserve ueber dem Bestand klein (+248 m3) → Abbruch wuerde Wert vernichten.
+
+**Durabel:** Bei Bestand immer beide Werte rechnen und gegenueberstellen. Eine volumengedeckelte
+Zone (BMZ statt AZ/GF) mit kleiner Reserve kippt die Antwort fast immer auf «Halten»; die Reserve
+dann als Aufstockungs-/Erweiterungsoption pruefen, nicht als Abbruch-Neubau. Datenquelle bei
+fehlendem UBS-FS: **Popety.io-Land-Analyse** (Ausnuetzungsreserve parzellenscharf,
+[[datenquellen-registry]]). Deliverable-Struktur: [[projektstruktur-deliverables]].
 
 ## Lage als staerkster Treiber
 

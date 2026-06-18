@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-06-16
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5]
+last_updated: 2026-06-18
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
 
@@ -169,6 +169,56 @@ Betriebs-/Unterhaltskosten; Erstellungskosten BKP 1-9 + Risiko; **Residualwert =
 Ertragswert − (Erstellungskosten + Risiko) − Abzuege** (Abbruch/Altlasten/Schadstoffe, im
 Thalwil-Fall 200'000) → CHF/m2 GSF. Brutto-/Nettorendite nach Fertigstellung als
 Kontrolle (Thalwil: Wert 7.575 Mio → Brutto 3.2 % / Netto 2.7 %).
+
+### Ertragswert-Band + Kaufpreispruefung (LB Wangen Bahnhofstr. 27, 09.06.2026)
+
+Das reife JANS-LB fuer ein **Renditeobjekt** fuehrt den Ertragswert nicht als Punktwert, sondern
+als **Band ueber drei Kapitalisierungssaetze** und endet in einer Kaufpreis-Verhandlungs-
+empfehlung. Belegtes Vorgehen (gemischtes MFH, EG Arztpraxis + 2 Whg. + Maisonette, Zone WG3):
+
+1. **Brutto-Sollertrag** je Nutzung: HNF × Marktmiete CHF/m2/J nach UBS-FS-Quantil
+   ([[vergleichswert-hedonisch]]) — EG Praxis 175.4 × 200, OG 166.9 × 255, Maisonette
+   195.7 × 235 (Altbau-Abschlag), + Garagen → **CHF 129'000/J**.
+2. **Ertragswert-Band ueber drei Bruttokapitalisierungssaetze** rund um den Basissatz:
+   - 4.75 % → 2.72 Mio · **5.00 % (Basis) → 2.58 Mio** · 5.25 % → 2.46 Mio
+   - = **Ertragswert-Band Halten 2.45–2.70 Mio**. Das Band ersetzt die Scheingenauigkeit eines
+     Punktwerts und macht die Zinssensitivitaet sichtbar (≈ −5 % Wert je +25 Bps Kapitalisierung).
+3. **Kaufpreispruefung gegen das Angebot:** Angebot 3.10 Mio ⇒ implizite Bruttorendite
+   = Sollertrag/Preis = 129'000 / 3'100'000 = **4.2 %**. Gegen die JANS-Schwelle (4.5–5.5 %
+   marktueblich, < 4.5 % «duenn») ist der Kaufpreis als reiner Renditekauf **~10 % zu hoch**.
+   Empfehlung: «Richtung Bankschaetzung (2.8 Mio) verhandeln»; 3.10 nur bei Hebung des
+   Mietpotenzials oder STWE-Einzelverkauf gerechtfertigt.
+4. **Quervergleich (3 Anker):** Lageklasse-Realwert (Land 751 × 2'702 + Geb.-Zeitwert) ~2.7–3.0 Mio,
+   STWE-Einzelverkauf Wohnteil 362.6 m2 × 9'616 ~3.5 Mio, UBS-FS-Bauland Mittel 2'702 (Schlecht
+   2'358 / Top 3'891). Synthese **Marktwert Halten 2.6–2.8 Mio** — Ertragswert fuehrt, die anderen
+   Anker rahmen.
+
+**Durabel:** Renditeobjekt ⇒ **Ertragswert fuehrt**, dargestellt als **Band (3 Kapitalisierungs-
+saetze)**, und die Bewertung muendet in eine **Kaufpreispruefung** (impl. Bruttorendite vs.
+Schwelle → Verhandlungsrichtung). Die Bruttoanfangsrendite-Schwelle 4.5 % der JANS-Bewertungs-
+konvention (oben) wird hier in der Praxis angewandt.
+
+### Ausbau-/Umnutzungs-Rendite-Impact (Wangen, Maisonetten-Erneuerung)
+
+Ob ein Ausbau/eine Umnutzung sich lohnt, rechnet JANS als **Mietuplift kapitalisiert vs.
+Investition** (analog der Mehrinvestitions-Logik unten, aber fuer Bestand):
+
+- **Mietuplift × Kapitalisierung = Wertzuwachs:** veraltete Maisonette heute 46'000, nach
+  Erneuerung (modern ~285 CHF/m2) 56'000 → Uplift **+10'000/J**; @ 5 % kapitalisiert
+  → Wertzuwachs **≈ +0.20 Mio**.
+- **Selbsttragend?** Wertzuwachs 0.20 Mio < Investition (Aufteilung 2 Whg.) ~0.72 Mio →
+  als **reine Mietrendite NICHT selbsttragend**. Lohnt nur bei **STWE-Einzelverkauf**
+  (~1.88 Mio realisierbar) oder wenn die Wohnung ohnehin saniert werden muss.
+- **Grob-KV Umbau:** Umbauwerte aus **Wuest MFH-Neubau-Median (~4'800 CHF/m2 HNF) × Umbau-Anteil**
+  → Sanierung 1 Whg. ~1'800 CHF/m2 (V1) bzw. Aufteilung 2 Whg. mit Brandschutz EI30/Schallschutz
+  SIA 181/2. Rettungsweg ~3'200 CHF/m2 (V2). Architektenhonorar SIA 102 als **Grobansatz**
+  (Teilleistung Ausfuehrung ~10 % bei V1, Vollmandat inkl. Baueingabe ~15 % bei V2). Total Wangen
+  V1 ~385'000 / V2 ~725'000 (exkl. MwSt, ±25 %).
+
+**Durabel:** Bestandes-Ausbau lohnt als reine Mietrendite nur, wenn **kapitalisierter Mietuplift
+> Investition**; sonst ist der Hebel der **STWE-Einzelverkauf** (Verkaufswert > Mietwert) oder die
+ohnehin anstehende Sanierung. Umbau-Grobkosten ueber Neubau-Median × Umbau-Anteil, Honorar als
+SIA-102-Teilleistungs-/Vollmandats-Grobansatz.
 
 ## Mehrinvestitions-Logik (Zins als Hebel, S. 71/72)
 

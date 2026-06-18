@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-16
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q4-2025 0.48, BFS Baupreisindex Apr/Okt-2025]
+last_updated: 2026-06-18
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web: Durchschnittszins 1.31 % nahe Erhoehungsschwelle 1.37 %), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -144,6 +144,12 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
   besteht für Bestandesmieten **kein referenzzinsbedingter Erhöhungsanspruch**, eher
   Senkungsanspruch für Mieten, die auf höheren Referenzwerten basieren. Quelle: BWO
   (bwo.admin.ch/referenzzinssatz), Stand 06.2026.
+  - **Trendwende voraus (Stand 06.2026):** der für den Referenzzins massgebende geglättete
+    **Durchschnittszinssatz der ausstehenden Hypotheken liegt bei 1.31 %** — nahe der
+    **Erhöhungsschwelle 1.37 %** (Senkungsschwelle 1.13 %). Steigt er über 1.37 %, springt der
+    Referenzzins erstmals seit 2023 wieder auf 1.50 % → dann **Mietzins-Erhöhungsanspruch** und
+    leichter Aufwärtsdruck auf Bestandes-Cashflows ([[ertragswert-dcf]]). Beobachtungspunkt für
+    die nächsten Quartale.
 - **SNB-Leitzins: 0.00 %** (seit Mitte 2025 wieder bei null nach der Straffung 2022–2023).
   Der Referenzzinssatz folgt dem Leitzins **stark verzögert** (Durchschnitt aller laufenden
   Hypotheken, langjährige Festhypotheken), daher die Asymmetrie 0 % Leitzins ↔ 1.25 % Referenz.
@@ -162,10 +168,14 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
   Referenzzinssatz-Senkungen 2025** (auf 1.25 %, vgl. Marktpuls-Abschnitt oben). Für die
   Ertragsbewertung: Bestandes-Cashflow eher unter Druck, Neuvermietungspotenzial flach
   ([[ertragswert-dcf]]).
-- **UBS Swiss Real Estate Bubble Index 2025:** Q1 0.29 → Q3 0.29 → **Q4-2025 0.48**
-  (stärkster Quartalsanstieg seit 1989, aber weiterhin **«moderat»**, weit unter der Blase
-  ~1989). EFH-Preise **+4.1 % YoY** in Q4-2025; Wohneigentum Q1-2026 **+3.5 % YoY**; UBS-
-  Prognose Wohneigentum **+3 % für 2026**. Löst den Q2-2024-Stand (0.74) als aktuellen Anker ab.
+- **UBS Swiss Real Estate Bubble Index:** Q1 0.29 → Q3 0.29 → Q4-2025 ~0.46–0.48 →
+  **Q1-2026 0.69** (zweiter Quartalsanstieg in Folge, historisch stark, aber weiterhin
+  **«moderat»**, weit unter der Blase ~1989 bei ~2.3). Wohneigentum **+3.5 % YoY** in Q1-2026;
+  UBS-Prognose Wohneigentum **+3 % für 2026**. **Risiko-Hotspots Q1-2026:** Tourismusregionen
+  Graubünden (Zweitwohnungsboom, Oberengadin neu), **Einsiedeln**, **Stadt Zürich**, Nidwalden
+  — für JANS relevant, weil Stadt ZH und SZ-Innerschwyz (Einsiedeln, vgl.
+  [[marktdaten-gemeinden/sz-einsiedeln-8840]]) eigene aktive Märkte berühren. Löst den
+  Q4-2025-Stand (0.48) als aktuellen Anker ab. Quelle: UBS CIO / swissinfo, Stand Q1-2026.
 - **Baupreisindex BFS (Basis Okt 2020 = 100):** Okt-2024 → Apr-2025 **+0.6 % auf 115.8**,
   Apr → Okt-2025 **+0.3 % auf 116.2** (Hochbau +0.9 % YoY; Treiber Rohbau 1, Sanitär, Elektro;
   grösste regionale Anstiege Ostschweiz +1.0 %, Genferseeregion +0.8 %). Wohnungsbau wächst
@@ -202,5 +212,8 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
 - ✓ 2026-06-14 (T10 teilweise + T14): Referenzzinssatz 1.25 % / SNB-Leitzins 0 % (Stand
   06.2026) eingearbeitet; UBS SREBI Bubble Index Q2-2024 (4 Perspektiven, Methodik, regionale
   Ungleichgewichte) und Bueromarkt-ZH-Kontext (hbre/Savills) ergaenzt.
-- T10 laufend: Mietpreis-/Angebotsmieten-Puls 2026 und neuerer SREBI-Stand fehlen noch; die
+- ✓ 2026-06-18 (T10 laufend, Run 6): SREBI **Q1-2026 0.69** «moderat» (Hotspots GR/Einsiedeln/
+  Stadt ZH/Nidwalden) + Referenzzins-Durchschnittssatz **1.31 % nahe Erhoehungsschwelle 1.37 %**
+  (moegliche Trendwende) eingearbeitet.
+- T10 laufend: naechster SREBI (Q2-2026) + ob der Referenzzins auf 1.50 % springt; die
   Wuest-Kurszahlen bleiben Stand 2022/23 (historische Anker).

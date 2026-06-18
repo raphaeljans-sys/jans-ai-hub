@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-18 — Training-Run 6: CS- und LB-Deliverable-Methodik aus realen Faellen (T15/T16/T10)
+
+- **`wiki/projektstruktur-deliverables.md`** (06-18): drei neue Methodik-Sektionen aus realen
+  Deliverables — **CS Controlling & Sensitivitaet** (Niederhasli, 250811): Controlling-Factsheet-
+  Felderschema (Plausibilitaets-Check einer Fremdstudie) + **Sensitivitaetsanalyse mit Zwei-
+  Kostenmodell-Logik** (A fix / B 70/30, Δ Ausnuetzung 0/−10/−20 % → Marge + Break-Even ~−8 %/−13 %)
+  + Fazit/Empfehlung; **«Bestand halten vs. Abbruch+Neubau»** (Langnau 3338): Vergleichswert-Bestand
+  ↔ Residual-Landwert, BMZ-Deckelung; **«Renditeobjekt-Kaufpreispruefung»** (Wangen): Ertragswert-
+  Band + impl. Bruttorendite-Pruefung. CS-Kuerzel-Glossar geschaerft.
+- **`wiki/ertragswert-dcf.md`** (06-18): **Ertragswert-Band ueber 3 Kapitalisierungssaetze**
+  (4.75/5.00/5.25 %) + **Kaufpreispruefung** (Angebot → impl. Bruttorendite vs. 4.5-%-Schwelle →
+  Verhandlungsrichtung) + **Ausbau-/Umnutzungs-Rendite-Impact** (Mietuplift kapitalisiert vs.
+  Investition; STWE-Einzelverkauf als Hebel; Grob-KV Umbau = Neubau-Median × Umbau-Anteil + SIA-102-
+  Honorar-Grobansatz) — alles aus LB Wangen Bahnhofstr. 27.
+- **`wiki/vergleichswert-hedonisch.md`** (06-18): **Entscheidlogik Bestand halten vs. Abbruch**
+  (A Bestandeswert hedonisch ↔ B Entwicklungs-Landwert residual; volumengedeckelte BMZ-Zone),
+  belegt aus LB Langnau; Datenquelle Popety.io bei fehlendem UBS-FS.
+- **`wiki/investorenmarkt-makro.md`** (06-18): **Marktpuls-Update** — UBS SREBI **Q1-2026 0.69**
+  «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden, loest Q4-25-Anker 0.48 ab); Referenzzins-
+  **Durchschnittssatz 1.31 % nahe Erhoehungsschwelle 1.37 %** → moegliche Trendwende auf 1.50 %.
+- Register gepflegt: `_INGESTED.md` (6 Faelle ausgewertet, E6 vollstaendig), `curriculum.md`
+  (E6 ✓ vollstaendig, E7 laufend), `wissensluecken.md` (T15 ✓, T16 teilweise ✓; neu T17 Healthcare-
+  Bruecke, T18 CS-Generator). Befund: kein Healthcare-Bewertungsfall im Bewertungsordner.
+- Report: `outputs/2026-06-18_training-run6.md`.
+
 ## 2026-06-16 — Training-Run 5: reale JANS-Faelle quantitativ ausgewertet (T9b/T7b/T10/D4)
 
 - **`wiki/projektstruktur-deliverables.md`** (→ established, 06-16): **Quantitative Kennwert-
