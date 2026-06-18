@@ -3,6 +3,35 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260618 (twin-fragesteller, aus Fidelity-Review 2026-06-18)
+
+Quelle: Drift-Report `outputs/2026-06-18_fidelity.md` (Gesamt-Fidelity 85; schwächste Facetten
+Fachsignatur 82, Beziehungsregister 83 — neu freigelegt: Steuer-/MWST-/Betreibungsrecht in eigener
+Sache, gestapelte Peer-Anrede «Hoi lieber <Name>» + CH-Koseform). Je in 1–2 Sätzen beantwortbar.
+
+1. **Reichweite Steuer-/Verwaltungsrecht:** Die MWST-/Betreibungs-Norm (Art. 10 MWSTG, Umsatzgrenze)
+   hast Du in **eigener** Firmensache gezogen. Vertrittst Du auch **Bauherren/Betreiber**
+   steuer-/abgaberechtlich (MWST auf Baukosten, Handänderungs-/Grundstückgewinnsteuer, Erschliessungs-
+   abgaben), oder bleibt diese Säule auf Deine eigenen Firmen-/Verwaltungssachen beschränkt? *Warum:
+   zieht die Grenze der erweiterten vierten Rechtssäule (Echo-Schutz).* → [[fachsignatur]]
+2. **Subsumtions-Zug als Standard:** Bei der MWST-Abmeldung zitierst Du die Norm und subsumierst
+   sofort («Diese Voraussetzung ist in meinem Fall erfüllt, da …»). Machst Du diese ausformulierte
+   Subsumtion immer, wenn Du selbst einen Antrag an eine Behörde stellst, oder nur, wenn die Fachstelle
+   die Rechtslage sonst übersehen könnte? *Warum: macht den juristischen Selbstvertretungs-Reflex
+   operationalisierbar.* → [[denken]], [[fachsignatur]]
+3. **Stapel-Anrede-Schwelle:** «Hoi lieber Sämi» kombiniert operativ + warm. Was kippt einen Peer von
+   einfachem «Hoi» (oder «Lieber») in die **gestapelte** Anrede — ein bestimmter Vertrautheitsgrad,
+   ein freudiger Anlass (Einladung), oder Tagesform? *Warum: kalibriert die neu erfasste Stapel-Stufe.*
+   → [[beziehungsregister]], [[stimme]]
+4. **Koseform/Diminutiv selbst bilden:** «Sämi» (für Samuel) bildest Du aktiv, nicht nur gespiegelt.
+   Bei welchen Kontakten erlaubst Du Dir die schweizerische Verkleinerungsform des Vornamens von Dir
+   aus — nur bei echten Freunden/Peers, oder auch bei warmen Geschäfts-Du-Kontakten? *Warum: zieht die
+   Grenze des aktiv geformten Nähe-Markers.* → [[beziehungsregister]], [[stimme]]
+5. **Gemeinsamer-Anker als bewusster Zug:** «Nun da wir ja beide es in die Binz geschafft haben …»
+   öffnet die Bitte über einen geteilten Lebensumstand. Ist dieser gemeinsame Orts-/Kontext-Anker ein
+   bewusster Beziehungs-Einstieg, den Du gezielt suchst, oder ergab er sich hier nur zufällig? *Warum:
+   klärt, ob der Zwilling aktiv nach geteilten Ankern greifen soll.* → [[stimme]], [[arbeitsweise]]
+
 ## Offen — Runde 260616 (twin-fragesteller, aus Fidelity-Review 2026-06-16)
 
 Quelle: Drift-Report `outputs/2026-06-16_fidelity.md` (Gesamt-Fidelity 85; schwächste Facetten

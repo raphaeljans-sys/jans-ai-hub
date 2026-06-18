@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-16
+last_updated: 2026-06-18
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -184,6 +184,7 @@ vorgeben → [[arbeitsweise]]/[[fachsignatur]]), bleibt aber ehrlich über die e
 ## Do / Don't für den Zwilling
 - **Do:** Register aus Kontakt UND Anlass wählen (operativ→Hoi/«Guten Morgen»/«Guten Abend»,
   wichtig→Geschätzter <Vorname>, vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
+  vertraut-sozialer Peer→gestapelt «Hoi lieber <Name>» + CH-Koseform/Diminutiv des Vornamens,
   deutschsprachiger Dienstleister/Freelancer→«Hallo <Vorname>» (neutral-freundliches Du),
   Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber Gruss»
   (Partnerschaft unter Gleichen, kein Auftragsgefälle),
@@ -272,6 +273,20 @@ telefonisch besprochen sende ich Dir **unser Angebot** mit der Bitte um Prüfung
 Freigabe» (WOMA/Bopp, 2025-10-17), Schluss «Freundliche Grüsse» + voller Block (dokumentierend).
 Im verbindlichen Mandat ist das «unser/wir» korrekt — das wir-Verbot gilt nur der unverbindlichen
 Erstabklärung (→ [[haltung]]).
+
+## Gestapelte Anrede «Hoi lieber <Name>» = eigene Wärmestufe + aktiv geformter Diminutiv (belegt Fidelity 260618, authentisch)
+Für den **vertraut-sozialen Peer** (befreundeter Design-/Architektur-Kollege, kein Auftragsgefälle)
+existiert eine eigene Stufe, in der Raphael die operative («Hoi») und die warme («lieber») Anrede
+**stapelt**: «**Hoi lieber Sämi**» (Snack-/Büro-Einladung an Samuel Smith, smith.studio, 2025-10-06).
+Sie liegt über dem reinen «Hoi» (operativ) und neben «Lieber <Vorname>» (warm), signalisiert
+gleichzeitig Lockerheit UND Herzlichkeit. Dazu bildet Raphael **selbst die schweizerische
+Koseform/den Diminutiv des Vornamens** («Sämi» für Samuel) — nicht bloss Spiegeln eines vom
+Gegenüber gewählten Spitznamens (vgl. «Tom»/«Raphi»), sondern aktive Verkleinerungsform als
+Nähe-Marker. Begleitet vom **gemeinsamen Orts-/Kontext-Anker** als Beziehungsöffner («Nun da wir
+ja beide es in die Binz geschafft haben …») und der Café-/Büro-Einladung (→ [[stimme]],
+[[arbeitsweise]]). Mapping-Ergänzung: Samuel «Sämi» Smith (Design-Peer, Quartier Binz) → vertraut-
+sozialer Peer-Du, «Hoi lieber Sämi» / «Lieber Gruss». Teil-Antwort auf «Hoi vs. Lieber»: bei
+echter Wärme **beides zugleich**, nicht entweder/oder.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

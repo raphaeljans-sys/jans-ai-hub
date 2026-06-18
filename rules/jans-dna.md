@@ -45,7 +45,8 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Kurzgruss «Lieber Gruss»/«Lgr.», dokumentierend → «Freundliche Grüsse» + voller Block, auch
   bei «Hoi»); «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe für freundlich-persönliche
   Kontakte; «Hallo <Vorname>» als neutral-freundlicher Du-Einstieg (deutschsprachige
-  Dienstleister, zwischen «Hoi» und «Lieber»); «Ich ersuche um» als förmliche
+  Dienstleister, zwischen «Hoi» und «Lieber»); gestapelte Anrede «Hoi lieber <Name>» + CH-Koseform
+  des Vornamens («Sämi») NUR im vertraut-sozialen Peer-Du; «Ich ersuche um» als förmliche
   Behörden-Eröffnung neben «Darf ich Sie bitten»; «Guten Morgen»/«Guten Abend <Vorname>» als Tageszeit-Anreden im Du; ein **😊**
   (oder ASCII «:)») NUR in der warm-sozialen Privat-Du-Mail, sparsam; in der **rein
   privat-sozialen, branchenfernen** Einladung darf der ganze Ton **Mundart** sein
@@ -78,6 +79,7 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 ### Beziehungsregister
 - **Do:** Register aus Kontakt UND Anlass wählen (operativ→Hoi/«Guten Morgen»/«Guten Abend»,
   wichtig→Geschätzter <Vorname>, vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
+  vertraut-sozialer Peer→gestapelt «Hoi lieber <Name>» + CH-Koseform/Diminutiv des Vornamens,
   deutschsprachiger Dienstleister/Freelancer→«Hallo <Vorname>» (neutral-freundliches Du),
   Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber Gruss»
   (Partnerschaft unter Gleichen, kein Auftragsgefälle),
@@ -104,7 +106,11 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   konkurrierenden Auslegungen **belegt gegenüberstellen** (Artikel/Leitfaden/Kommentar/Entscheid)
   und Quellen anhängen; bei gesellschafts-/notariatsrechtlichen Themen (GmbH/AG, Statuten,
   Stammanteile) korrekte OR-/HRegV-Artikel und die **recherchierte Vollständigkeits-Checkliste →
-  Fachstelle bestätigen lassen**-Mechanik (auch ausserhalb Baurecht); Honorar als durchgerechnete
+  Fachstelle bestätigen lassen**-Mechanik (auch ausserhalb Baurecht); bei eigenen Firmen-/
+  Verwaltungsrechtssachen (MWST-An-/Abmeldung, Betreibung, Steuer) die Norm zitieren, auf den
+  eigenen Fall **subsumieren** («in meinem Fall erfüllt, da …») und einen klaren Antrag mit
+  Bestätigungsbitte stellen (Art./Schwellenwert belegt, z.B. Art. 10 Abs. 2 lit. a MWSTG,
+  Umsatzgrenze CHF 100'000); Honorar als durchgerechnete
   Offerte nüchtern beziffern (Tagespauschale à CHF 1'200, «exkl. MwSt.», Geltungsdauer setzen),
   warm gerahmt («effiziente Zusammenarbeit»).
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten (Marketing-Regel);

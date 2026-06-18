@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-18 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Okt 2025, authentisch)
+- Goldproben (rj@ Sent Items, vor-Claude, handgetippt/kein AI-Paste → authentisch): A ESTV-Sie,
+  MWST-Abmeldung + Betreibungslöschung in eigener Firmensache (2025-10-03); B vertraut-sozialer
+  Design-Peer «Hoi lieber Sämi», Snack-/Büro-Einladung (2025-10-06); C warm-sozial branchenfern
+  «Liebe Lu» (2025-10-09, bewusster Hoch-Anker). Report: `outputs/2026-06-18_fidelity.md`.
+- **Gesamt-Fidelity 85/100** (Stimme 88, Arbeitsweise 87, Haltung 85, Denken 84, Beziehung 83,
+  Fachsignatur 82) — stabil zu 85 (260616), reifes Band 84–85.
+- Eingearbeitet (authentisch): [[fachsignatur]] **neu** — vierte Rechtssäule erweitert auf Steuer-/
+  MWST-/Betreibungsrecht in eigener Sache (Art. 10 Abs. 2 lit. a MWSTG, Subsumtion → Antrag +
+  Bestätigung); Do ergänzt. [[stimme]] + [[beziehungsregister]] **neu** — gestapelte Anrede «Hoi
+  lieber <Name>» + aktiv geformte CH-Koseform/Diminutiv des Vornamens als eigene Wärmestufe (Teil-
+  Antwort «Hoi vs. Lieber»); je Do/Mapping ergänzt. Frontmatter last_updated 2026-06-18, Quelle
+  2026-06-18_fidelity.md in stimme/beziehungsregister/fachsignatur.
+- twin-fragesteller: 5 neue Fragen Runde 260618 an QUESTIONS.md (Reichweite Steuer-/Verwaltungsrecht,
+  Subsumtions-Zug, Stapel-Anrede-/Koseform-Schwelle, gemeinsamer-Anker).
+- Gehirn neu kompiliert: `build_dna.py` → rules/jans-dna.md (Auto-Block, 6 Facetten).
+
 ## 2026-06-17 — twin-mail-training: Batch 09 (Sent Items rj@, 2025-08-28…08-30, authentisch)
 - 15 Mails gesichtet, 5 Volltexte gelesen; eine dichte Yorck/3D-Freelancer-Thread (Garten-Render-
   Iteration Thalwil 2414) + Admin-Rauschen (Teams-Link Bopp). Raw: `raw/260617-mailbatch-09.md`.
