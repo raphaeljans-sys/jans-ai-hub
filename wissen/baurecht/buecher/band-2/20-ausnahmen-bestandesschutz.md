@@ -3,7 +3,7 @@ name: 20-ausnahmen-bestandesschutz
 kapitel: "20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen"
 band: 2
 seiten: "1433-1449 (Uebersicht 20.1; Ausnahmebewilligung § 220 PBG 20.2 mit Geltungsbereich/Abgrenzungen/Voraussetzungen besondere Verhaeltnisse-Gesetzeszweck-Nachbarschutz-Zustaendigkeit; Bestandesschutz § 357 Abs. 1 PBG 20.3 mit rechtmaessiger Erstellung, Widerspruch zu Bauvorschriften, zulaessige Massnahmen Umbau/Erweiterung/Nutzungsaenderung)"
-shots: "718-728 (distilliert; Kapitelfortsetzung § 357 Abs. 4/5 Verbesserungen/Milderungen + baupolizeiliche Missstaende + Brandstattrecht § 307 PBG, Shots ab 729/S. 1450 ff. offen)"
+shots: "720-728 (distilliert, S. 1433-1449; Kapitelfortsetzung § 357 Abs. 4/5 Verbesserungen/Milderungen + baupolizeiliche Missstaende + Brandstattrecht § 307 PBG, Shots ab 729/S. 1450 ff. offen)"
 paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 262 PBG", "§ 67 PBG", "§ 49 Abs. 3 PBG", "§ 100 PBG", "§ 101 PBG", "§ 269 PBG", "§ 275 Abs. 2 PBG", "§ 360 PBG", "§ 21 WWG", "Art. 24 RPG", "Art. 24c RPG", "Art. 37a RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 9 BV", "Art. 8 ZGB", "§ 34 BBV I"]
 status: emerging
 gelesen: 2026-06-07

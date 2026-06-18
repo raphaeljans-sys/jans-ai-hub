@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -87,25 +87,28 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 
 ## Fortschritts-Tracker
 
-- **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07. P1-Restkapitel: 17 (Rest), 20, 7 — daher
-  weiter taeglich (kein Phasenwechsel/Cron-Anpassung).
-- **Seiten distilliert:** ~252 / 1550 (~126 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
-  § 274, Kap. 16 Teil 1, Kap. 17 Teil 1 (Wohnhygiene), Kap. 6 + Kap. 9 Kernbereich Band 1).
-- **Kapitel-Destillate:** 8 Buch-Destillate (Kap. 14, 15×4-Teile/16/17 Band 2 + Kap. 6/9 Band 1; alle `emerging`).
-- **Wiki:** 11 Artikel (neu [[wohnhygiene-und-raumanforderungen]] 2026-06-17 `emerging`).
-- **Letzter Lauf:** Run 9, 2026-06-17 — **Kap. 17 Teil 1 (Gebaeude und Raeume; Wohnhygiene)**,
-  Shots 624-631, S. 1241-1255 (8 Doppelseiten): Grundlagen §§ 295/299/300 PBG, Ausrichtung Wohnraeume
-  § 301, **Belichtung/Belueftung § 302** (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie;
-  Lichtschacht-Falle VB.2017.00452/BEZ 2001 Nr. 30; Dachflaechenfenster BEZ 2008 Nr. 27),
-  **Mindestflaeche ≥ 10 m² § 303**, **lichte Raumhoehe 2,4 m / Kernzone 2,3 m § 304** (Dachraum halbe
-  Bodenflaeche, BEZ 2011 Nr. 15), Rauminhalt § 10 BBV II, **innere Erschliessung § 305 + Aufzugspflicht
-  § 40 BBV I** (> 5 Geschosse → 2,1 × 1,1 m krankentransporttauglich), EFH-Ausnahme § 32 ABV; neues
-  Destillat [[17-gebaeude-und-raeume]], neuer Wiki-Artikel [[wohnhygiene-und-raumanforderungen]],
-  **Modell C** 6 Karten + **Modell A** UG-Umnutzung-Buerofrage. (Run 8, 2026-06-16: Kap. 6 Verfahren +
-  Kap. 9 Rechtsschutz Band 1.)
-- **Naechster Lauf:** **Kap. 20** (Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie),
-  Shots ab 719, S. 1433 ff. ODER bei Gelegenheit Kap. 17 Ausruestungen-Teil (Shots ab 632) bzw.
-  § 274 PBG (Kap. 15, Shots ab 560) nachziehen.
+- **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07. P1-Restkapitel: **nur noch Kap. 7** (17/20 Kern
+  erledigt) — daher weiter taeglich. **Achtung:** Nach Distillat Kap. 7 sind ALLE P1-Kapitel
+  (14/16/15/17/20/6/7) im Kern erfasst → dann **Phasenwechsel** im PROGRAMM vermerken und Cron auf
+  alle 2 Tage (`30 7 */2 * *`) heruntertakten (update_scheduled_task).
+- **Seiten distilliert:** ~268 / 1550 (~134 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
+  § 274, Kap. 16 Teil 1, Kap. 17 Teil 1, Kap. 20 Kern (§§ 220/357), Kap. 6 + Kap. 9 Kernbereich Band 1).
+- **Kapitel-Destillate:** 9 Buch-Destillate (Kap. 14, 15×4-Teile/16/17/20 Band 2 + Kap. 6/9 Band 1; alle `emerging`).
+- **Wiki:** 12 Artikel (neu [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18 `emerging`).
+- **Letzter Lauf:** Run 10, 2026-06-18 — **Kap. 20 (Ausnahmen / Bestandesschutz)**, Shots 720-728,
+  S. 1433-1449 (8 Doppelseiten): vier Tatbestaende (§ 220/§ 357/baupolizeil. Missstaende/Brandstattrecht
+  § 307); **§ 220 PBG Ausnahmebewilligung** (besondere Verhaeltnisse / Gesetzeszweck / Nachbarschutz;
+  nur kant./komm. Recht, **nie Bundesrecht**; Legaldefinitionen dispensfeindlich; § 318/§ 320),
+  **§ 357 PBG Besitzstandsgarantie** (rechtmaessige Erstellung materiell; Rechtsaenderung vs.
+  Sachverhaltswandel; **erweiterte Bestandesgarantie** Umbau/Erweiterung/Nutzungsaenderung, Grenze =
+  **neubauaehnliche Umgestaltung/Gesetzesumgehung — KEINE feste Quote**, BEZ 1996 Nr. 3); neues Destillat
+  [[20-ausnahmen-bestandesschutz]], neuer Wiki-Artikel [[ausnahmebewilligung-und-bestandesschutz]]
+  (schliesst QUESTIONS-Luecke «Dispens»), [[bestandsumbau-eingriffstiefe]] geschaerft, **Modell C** 7 Karten
+  + **Modell A** Dachausbau-ueberausgenutztes-MFH-Buerofrage. (Run 9, 2026-06-17: Kap. 17 Teil 1 Wohnhygiene.)
+- **Naechster Lauf:** **Kap. 7** (Baurechtliche Zustaendigkeiten, Entscheide, Auskuenfte/Voranfrage;
+  Band 1, S. 423 ff.) — **letztes ungelesenes P1-Kapitel**, danach Phasenwechsel pruefen.
+- **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
+  Missstaende (S. 1456 ff.) + Brandstattrecht § 307 PBG (S. 1457 ff.) — Shots ab 729.
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
 - **Restschuld Kap. 15:** nur noch § 274 PBG (Grenzbaurecht/geschlossene Bauweise/Anbau) + § 27 Abs. 2 ABV — Shots ab 560, S. 1112 ff. (§§ 269-273 erledigt 2026-06-15/16).
 - **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung

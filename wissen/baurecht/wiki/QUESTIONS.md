@@ -11,7 +11,12 @@ wurden.
   Artikel `praxisfaelle-jans` erst anlegen, sobald reale Fälle reinkommen.
 - **Bauen im Betrieb (Healthcare):** Kernkompetenz von JANS, im Wiki noch nicht
   abgebildet. Brücke zu Brandschutz-Schnittstellen fehlt.
-- **Dispens / Ausnahmebewilligung:** nirgends behandelt.
+- ~~**Dispens / Ausnahmebewilligung:** nirgends behandelt.~~ → **erledigt 2026-06-18** (Run 10):
+  neuer Wiki-Artikel [[ausnahmebewilligung-und-bestandesschutz]] (§ 220 PBG Ausnahmebewilligung +
+  § 357 PBG Besitzstandsgarantie), distilliert aus [[20-ausnahmen-bestandesschutz]] (Kap. 20,
+  S. 1433-1449). Kernaussage: § 220 nur kant./komm. Recht (nie Bundesrecht); § 357 erweiterte
+  Bestandesgarantie **ohne feste Quote** (Grenze neubauaehnliche Umgestaltung). Schaerft auch
+  [[bestandsumbau-eingriffstiefe]].
 - ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
   [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
 
@@ -29,6 +34,16 @@ wurden.
 - **Kap. 17 Ausrüstungen-Teil offen:** Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen,
   Briefkästen (§ 4 ABV), §§ 295-298 PBG (Gebäude > sechs Geschosse) sowie Einstellräume-Detail
   (Garagenlüftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht vertieft.
+
+## Offene Wissenslücken — neu (2026-06-18, aus Buch-Run Kap. 20)
+- **§ 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) offen:** nur Abs. 1 (erweiterte
+  Bestandesgarantie) distilliert. Abs. 4 (Verbesserungen am Bestand verlangbar) + Abs. 5
+  (Milderung von Bauvorschriften für zweckmässige Nutzung) ab Shot 729 / S. 1450 ff. nachziehen.
+- **Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen:** dritter/vierter Tatbestand
+  der Kap.-20-Übersicht (Wiederaufbau zerstörter Gebäude), S. 1456 ff. noch nicht distilliert.
+- **needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
+  [[20-ausnahmen-bestandesschutz]] nach Buch S. 1434/1444 sinngemäss wiedergegeben; am amtlichen
+  PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).
 
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale

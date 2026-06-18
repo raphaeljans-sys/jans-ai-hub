@@ -4,6 +4,32 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-18 — Buch-Destillat BAND 2 Kap. 20 (Ausnahmen / Bestandesschutz), Run 10
+- NEU `buecher/band-2/20-ausnahmen-bestandesschutz.md` (Shots 720-728, echte Seiten 1433-1449, 8 Doppel-
+  seiten; Kapitel-Kern, reicht weiter): **vier Tatbestaende** fuer vorschriftswidrige Bauten (§ 220 /
+  § 357 / baupolizeil. Missstaende / Brandstattrecht § 307); **§ 220 PBG Ausnahmebewilligung** —
+  Geltungsbereich (nur kant./komm. Recht, **nie Bundesrecht/Erschliessung**; Legaldefinitionen § 49
+  Abs. 3/§ 269/§ 275 dispensfeindlich), drei Voraussetzungen (besondere Verhaeltnisse / Gesetzeszweck+
+  oeffentl. Interessen / Nachbarschutz § 220 Abs. 1-3; BEZ 2004 Nr. 19/75, BEZ 2016 Nr. 11 vs.
+  VB.2017.00099), Provisorien § 321, Zustaendigkeit § 318/§ 320 PBG; **§ 357 PBG Besitzstandsgarantie** —
+  rechtmaessige Erstellung (materiell, nicht formell; BEZ 2015 Nr. 22), Rechtsaenderung vs. Sachverhalts-
+  wandel, **erweiterte Bestandesgarantie** Umbau/Erweiterung/Nutzungsaenderung, Grenze =
+  **neubauaehnliche Umgestaltung/Gesetzesumgehung — KEINE feste Quote** (BEZ 1996 Nr. 3; BEZ 2011 Nr. 43),
+  Abbruchreife (RB 1994 Nr. 72), Nutzungsschutz + Beweislast Art. 8 ZGB (RB 1994 Nr. 87), Brandschutz/
+  Bundesrecht keine «Bauvorschrift» i. S. v. § 357. Status `emerging` (§ 357 Abs. 4/5 + baupolizeil.
+  Missstaende + Brandstattrecht § 307 ab Shot 729 offen).
+- NEU Wiki `wiki/ausnahmebewilligung-und-bestandesschutz.md` (`emerging`): § 220 (Dispens) + § 357
+  (Besitzstandsgarantie) doktrinell — **schliesst die seit 2026-06-02 offene QUESTIONS-Luecke «Dispens /
+  Ausnahmebewilligung: nirgends behandelt»**. Speist [[bestandsumbau-eingriffstiefe]].
+- GESCHAERFT `wiki/bestandsumbau-eingriffstiefe.md`: Backlink + rechtlicher Massstab (kein «Drittel»,
+  Grenze = neubauaehnliche Umgestaltung) ergaenzt; der pragmatische «grosse Ermessensspielraum» ist
+  damit rechtlich (ZH) hinterlegt.
+- ANWENDUNG: Modell C (7 neue Drill-Karten Kap. 20 in `training/drills.md`) + Modell A (Frage→Beleg-Drill
+  Dachausbau ueberausgenuetztes MFH, nur Buchbeleg → `outputs/2026-06-18_buch-run10.md`).
+- REGISTER: `seiten-inventar.md` (Shots 720-728 → `[x]`), `curriculum.md` (Kap. 20 `[~]`, naechster Lauf
+  Kap. 7 = letztes P1), `buecher/INDEX.md` (Kap. 20 + Matrix), `wiki/INDEX.md` (12 Artikel),
+  `wiki/QUESTIONS.md` (Dispens-Luecke geschlossen, neue offene Punkte Kap. 20).
+
 ## 2026-06-17 — Buch-Destillat BAND 2 Kap. 17 Teil 1 (Gebaeude und Raeume; Wohnhygiene), Run 9
 - NEU `buecher/band-2/17-gebaeude-und-raeume.md` (Shots 624-631, echte Seiten 1241-1255, 8 Doppel-
   seiten; Kap.-Kern Wohnhygiene, Kapitel reicht weiter): Grundlagen §§ 295/299/300 PBG (Stand der

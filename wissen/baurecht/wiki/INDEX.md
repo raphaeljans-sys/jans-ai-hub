@@ -40,16 +40,18 @@ oder umbenannten Artikel aktualisieren.
 
 ### Bauen im Bestand
 - [[bestandsumbau-eingriffstiefe]] — Grundprinzip: Eingriffstiefe entscheidet über die Baueingabe; was eine Baueingabe auslöst (Brandschutz/Treppenhaus, Schallschutz SIA 181, Ausnützungsnachweis); Besitzstandsgarantie schützt nur Erhalt (nicht Ausweitung), behördlicher Ermessensspielraum; bewilligungsfreier Umbau = sicherste Variante · *established*
+- [[ausnahmebewilligung-und-bestandesschutz]] — die zwei Werkzeuge für vorschriftswidrige Bauten (ZH): **§ 220 PBG Ausnahmebewilligung** (besondere Verhältnisse / Gesetzeszweck / Nachbarschutz; nur kant./komm. Recht, **nie Bundesrecht**; Legaldefinitionen dispensfeindlich) + **§ 357 PBG Besitzstandsgarantie** (erweiterte Bestandesgarantie Umbau/Erweiterung/Nutzungsänderung; Grenze = **neubauähnliche Umgestaltung/Gesetzesumgehung, KEINE feste Quote**; Brandschutz/Bundesrecht keine «Bauvorschrift») · *emerging*
+- [[20-ausnahmen-bestandesschutz]] (Destillat Bd 2, Kap. 20) — Buchsynthese §§ 220/357/307 PBG, Belegquelle · *emerging*
 
 ## Noch nicht angelegt (Backlog / Lücken)
 Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Bauen im Bestand / im Betrieb (Healthcare-Spezifika; Grundprinzip steht in [[bestandsumbau-eingriffstiefe]])
-- Dispens / Ausnahmebewilligung
+- ~~Dispens / Ausnahmebewilligung~~ → erledigt 2026-06-18 (Run 10): [[ausnahmebewilligung-und-bestandesschutz]]
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-17)
-- Artikel im Wiki: 11 + QUELLEN-Register (+ [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] um Gewässerraum-Vertiefung + Baulinien-Verweis ergänzt)
+## Statistik (Stand 2026-06-18)
+- Artikel im Wiki: 12 + QUELLEN-Register (+ [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] um Gewässerraum-Vertiefung + Baulinien-Verweis ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

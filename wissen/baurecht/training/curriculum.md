@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -49,7 +49,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [~] (S.1241-1255: Wohnhygiene §§299-306 — Belichtung/Belueftung §302, Mindestflaeche §303, Raumhoehe §304, innere Erschliessung/Aufzug §305/§40 BBV I; Rest Einstellraeume-Detail + Ausruestungen/Beförderungsanlagen ab Shot 632 offen) |
 | 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
 | 19 | Baulicher Umweltschutz | 1357 | 681 | P2 | [ ] |
-| 20 | **Ausnahmetatbestaende bei vorschriftswidrigen Bauten** (Bestandesschutz) | 1433 | 719 | **P1** | [ ] |
+| 20 | **Ausnahmetatbestaende bei vorschriftswidrigen Bauten** (Bestandesschutz) | 1433 | 719 | **P1** | [~] (S.1433-1449: § 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie/erweiterte Bestandesgarantie; Rest § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
 | 21 | Bauen ausserhalb der Bauzonen | 1459 | 732 | P2 | [ ] |
 | 22 | Privatrechtliche Bauvorschriften | 1517 | 761 | P3 | [ ] |
 | 23 | Glossar Architektur | 1537 | 771 | P3 | [ ] |
@@ -106,9 +106,16 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    [[17-gebaeude-und-raeume]], neuer Wiki-Artikel [[wohnhygiene-und-raumanforderungen]]. Restschuld
    Kap. 17: Einstellraeume-Detail (Garagen §§ 37-39 BBV I) + Ausruestungen/Beförderungsanlagen § 4 ABV
    + §§ 295-298 PBG, Shots ab 632.)*
-   ⏭️ **Naechster Lauf: Kap. 20** (Ausnahmen/Bestandesschutz — § 357 PBG; Shots ab 719, S. 1433 ff.).
-   ODER bei Gelegenheit § 274 (Kap. 15) bzw. Kap. 17 Ausruestungen-Teil nachziehen.
-5. **Kap. 20** Ausnahmen/Bestandesschutz — § 357 PBG, Besitzstandsgarantie.
+5. **Kap. 20** Ausnahmen/Bestandesschutz — § 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie.
+   *(Kern distilliert 2026-06-18, Run 10, S. 1433-1449, Shots 720-728: **§ 220 PBG** Ausnahmebewilligung
+   (besondere Verhaeltnisse / Gesetzeszweck / Nachbarschutz; nur kant./komm. Recht, Legaldefinitionen
+   dispensfeindlich, § 318/§ 320 PBG), **§ 357 PBG** Besitzstandsgarantie (rechtmaessige Erstellung,
+   Rechtsaenderung vs. Sachverhaltswandel, **erweiterte Bestandesgarantie** Umbau/Erweiterung/Nutzungs-
+   aenderung, Grenze = **neubauaehnliche Umgestaltung/Gesetzesumgehung — KEINE feste Quote**,
+   BEZ 1996 Nr. 3). Destillat [[20-ausnahmen-bestandesschutz]], neuer Wiki-Artikel
+   [[ausnahmebewilligung-und-bestandesschutz]] (schliesst QUESTIONS-Luecke Dispens). Restschuld Kap. 20:
+   § 357 Abs. 4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 PBG, Shots ab 729.)*
+   ⏭️ **Naechster Lauf: Kap. 7** (letztes ungelesenes P1-Kapitel) — danach P1 vollstaendig, Phasenwechsel.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.
    *(Kap. 6 Kernbereich distilliert 2026-06-16, Run 8, S. 337-405, Shots 169-201: Bewilligungspflicht,
    Baugesuch § 310 PBG / § 5 BVV, Koordinationsgebot Art. 25a RPG, Verfahrensablauf/Fristen § 313/§ 319 PBG,

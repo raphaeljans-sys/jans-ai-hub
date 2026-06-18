@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -80,6 +80,17 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Geltungsbereich-Ausnahme EFH § 32 ABV, Bezug § 12a BBV I, Laerm/SIA 181 § 13 BBV I, Beginn
   Einstellraeume §§ 37-39/§ 297 PBG. 8 Doppelseiten. Status: `emerging` (Ausruestungen/Einstellraeume-
   Detail + §§ 295-298 PBG ab Shot 632 offen). Speist [[wohnhygiene-und-raumanforderungen]].
+- [[20-ausnahmen-bestandesschutz]] — Kap. 20 Kern (S. 1433-1449): **Ausnahmetatbestaende bei
+  vorschriftswidrigen Bauten** — vier Tatbestaende (§ 220 / § 357 / baupolizeil. Missstaende /
+  Brandstattrecht § 307); **§ 220 PBG Ausnahmebewilligung** (drei Voraussetzungen: besondere
+  Verhaeltnisse / Gesetzeszweck+oeffentl. Interessen / Nachbarschutz; nur kant./komm. Recht, **nie
+  Bundesrecht**; Legaldefinitionen § 49 Abs. 3/§ 269 dispensfeindlich; § 318/§ 320 PBG); **§ 357 PBG
+  Besitzstandsgarantie** (rechtmaessige Erstellung materiell, nicht formell; Rechtsaenderung vs.
+  Sachverhaltswandel; **erweiterte Bestandesgarantie** Umbau/Erweiterung/Nutzungsaenderung; Grenze =
+  **neubauaehnliche Umgestaltung/Gesetzesumgehung — KEINE feste Quote**, BEZ 1996 Nr. 3; Nutzungsschutz
+  + Beweislast Art. 8 ZGB; Brandschutz/Bundesrecht keine «Bauvorschrift»). 8 Doppelseiten. Status:
+  `emerging` (§ 357 Abs. 4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen).
+  Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
 - [[06-baurechtliches-verfahren]] — Kap. 6 (S. 337-405, Kern; Kap. bis S. 422): **Baubewilligungs-
@@ -114,6 +125,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 — Belichtung/Belueftung/Mindestflaeche/Raumhoehe/Aufzug S.1241-1255; Ausruestungen/Einstellraeume-Detail + §§295-298 ab Shot 632 offen) |
-| 1-5, 7-8, 10-13, 18-23 | uebrige | ⬜ offen |
+| 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie S.1433-1449; § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
+| 1-5, 7-8, 10-13, 18-19, 21-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.
