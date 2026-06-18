@@ -1,9 +1,9 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-06-06
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), uvek-gis.admin.ch, sonnenverlauf.de]
-links: [[energie-uebersicht]], [[kartenportale-geoportale-uebersicht]]
+last_updated: 2026-06-18
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp-Vorprojekte Reckholdern/Einsiedeln (09.01.2024) + MFH Basel (05.11.2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), uvek-gis.admin.ch, sonnenverlauf.de]
+links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[kartenportale-geoportale-uebersicht]]
 ---
 
 # PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
@@ -11,7 +11,9 @@ links: [[energie-uebersicht]], [[kartenportale-geoportale-uebersicht]]
 Beschaffungs-/Entscheidungs-Artikel der Domaene Energie: **welcher PV-Typ wann** und **wie
 Eignung/Ertrag belegt bestimmt wird**, bevor ein konkretes Projekt geplant wird. Bedient vom
 Agent `energie-berater`. Physik/U-Werte/Heizwaermebedarf → eigene KB `wissen/energie/`
-(`[[u-werte-grenzwerte-ch]]`). Brandschutz Solar → Skill `brandschutz` (VKF-Merkblatt 2001-15).
+(`[[u-werte-grenzwerte-ch]]`). **Brandschutz/Naturgefahren Solar → eigener Artikel
+`[[energie-pv-brandschutz]]`** (Swissolar-STP zu VKF-BSM 2001-15); Bauteil-Klassen → Skill
+`brandschutz`.
 
 ## 1 — PV-Typenwahl (Entscheidungsbaum)
 
@@ -52,33 +54,54 @@ Reihenfolge von grob (Portal, kostenlos) zu fein (professionelle Simulation):
   → Faustwert **≈ 5.8–6 m² pro kWp** (kristalline Module, Stand 2022).
 - Annahmen Verbrauch: 2.5 kWh Strom/Person·Tag, 50 L Warmwasser/Person·Tag bei 55 °C.
 
-## 3 — JANS-Benchmark: Flachdach-PV ewzWHH (PS 19.36, 02/2019)
+## 3 — JANS-Benchmark-Tabelle: Ertrag & Kosten je Typ (D5, kompoundierend)
 
-Reale Projektkorrespondenz (ewz / Meili Peter Partner / IBG Engineering, 13.02.2019,
-`Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV.pdf`) — aufgestaenderte Flachdach-PV in
-**V-Anordnung** mit extensiver Dachbegruenung:
+Reale JANS-/PL-04-Belege fuer die **zwei Faustkennwerte** einer fruehen Studie: **spez. Ertrag
+(kWh/kWp)** fuer die Strommenge und **Erstellungskosten (CHF/kWp)** fuer das Budget. Beide aus
+SolarApp-Vorprojekten (PVGIS-basiert) bzw. realer ewz-Korrespondenz — vor Zitat Kontext/Jahr pruefen.
 
-- **Spez. Energieertrag:** mit maximaler Belegung eher tief; ewz-Fachexperte: **bis ~850 kWh/kWp**
-  erreichbar bei weniger dichter Belegung (weniger Verschattung Bruestung/Lueftung).
-- **Erstellungskosten:** ewz-Referenzanlage Greencity **~CHF 1'600/kWp realisiert**
-  (Schaetzung Generalplaner CHF 2'460/kWp). ⚠ Werte **2019**, vor Kontextpruefung nicht aktuell zitieren.
-- **Wirtschaftlichkeit:** Amortisation 31 J «nicht mehr wirtschaftlich»; ohne Foerderfaktor ~19 J.
-  **Technische Lebensdauer PV 25–30 J** → Amortisation muss klar darunter liegen.
-- **Simulation:** PVSOL.
-- **Konstruktionsdetail V-Anordnung:** Wasser sammelt sich am V-Tiefpunkt aufs Substrat →
-  Pflanzenwuchs/Pflege; ewz-Empfehlung **50 cm Kiesstreifen statt Substrat unter dem V-Tiefpunkt**.
+| Projekt / Ort | Jahr | Typ | Leistung | Module | **kWh/kWp** | Invest CHF | **CHF/kWp** | Quelle (PL-04) |
+|---|---|---|---|---|---|---|---|---|
+| **Reckholdern 20, Einsiedeln SZ** (EFH, Abbruch/Neubau) | 2024 | **A Indach** (MATCH Tile, 32 Wp Solarziegel) | 7.90 kWp | 252 | **981** | 58'198 | **≈ 7'370** | `solarapp.ch/Willerzell/2024-01-09 SolarReport` |
+| **MFH Basel** (2 Dachflaechen) | 2022 | **E/Aufdach** Standardmodul | 59.93 kWp | 162 | **852** | 135'257 | **≈ 2'255** | `solarapp.ch/Basel/2022-11-05_SolarReport` |
+| **ewzWHH Greencity** (PS 19.36) | 2019 | **E Flachdach**, V-Anordnung aufgestaendert | — | — | **~850** | — | **~1'600 real / 2'460 Schaetzung** | `D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` |
 
-**Lehre fuer JANS-Studien:** aufgestaendert + Dachbegruenung ist gestalterisch/oekologisch stark,
-aber Belegungsdichte ↔ spez. Ertrag ist ein Zielkonflikt; Entwaesserung am V-Tiefpunkt mitplanen.
+**Lesart der Bandbreite (belegt):**
+- **Spez. Ertrag** liegt in ZH/SZ-Lagen belegt bei **~850–980 kWh/kWp** (Dachneigung/Verschattung/
+  Standort). Faustwert fuer Grob-Studie: **~900 kWh/kWp**.
+- **CHF/kWp ist stark typabhaengig:** kleinteilige **Indach-Solarziegel** (Typ A/B, viele
+  Klein-Module à 32 Wp → 252 Stk. fuer 7.9 kWp) sind mit **~7'000+ CHF/kWp** ein Vielfaches der
+  **Standard-Aufdach/-Indach-Module** (Typ E) mit **~2'000–2'500 CHF/kWp**. Grund: Stueckzahl,
+  Montageaufwand, Aesthetik-Aufpreis. → In der Studie **nie einen Pauschal-CHF/kWp** ueber alle
+  Typen ziehen.
+- **Foerderung** (Pronovo EIV) senkt die Netto-Investition spuerbar: Basel CHF 22'861 (~17 %),
+  Reckholdern CHF 3'674 (~6 %) — als Abzug, nicht als Ertrag verbuchen.
+
+### Detail-Lehre Flachdach V-Anordnung (ewzWHH, ewz/Meili Peter Partner/IBG, 13.02.2019)
+- **Belegungsdichte ↔ spez. Ertrag** ist ein Zielkonflikt: maximale Belegung senkt kWh/kWp
+  (Verschattung Bruestung/Lueftung) — weniger dicht belegt erreicht ~850 kWh/kWp.
+- **Wirtschaftlichkeit:** Amortisation 31 J «nicht mehr wirtschaftlich», ohne Foerderfaktor ~19 J;
+  **techn. Lebensdauer PV 25–30 J** → Amortisation muss klar darunter liegen. Simulation PVSOL.
+- **Entwaesserung V-Tiefpunkt:** Wasser sammelt sich aufs Substrat → Pflanzenwuchs/Pflege;
+  ewz-Empfehlung **50 cm Kiesstreifen statt Substrat** unter dem V-Tiefpunkt.
+
+> **Dimensionierungs-Anker (Eigenstrom-Pflicht Neubau ZH):** die **mindestens** noetige PV-Leistung
+> ist **EBF × 10 W/m² (max. 30 kW)**; Flaechenbedarf **8 m²/kW** (mono/polykristallin) bzw.
+> **16 m²/kW** (Duennschicht) — Quelle Formular EN-104, Detail in
+> `[[energie-energienachweis-zh-formulare]]`.
 
 ## Querbezuege
 - Wirtschaftlichkeit/Rendite einer Anlage → Skill `healthcare-wirtschaftlichkeit` /
   `wirtschaftlichkeit-rechner` (Annuitaet, Amortisation).
 - Welches Portal liefert die Dach-/Hoehengeometrie → `[[kartenportale-geoportale-uebersicht]]`.
-- Eigenstromerzeugungs-**Pflicht** (Neubau, MuKEn/EN-104) → `[[u-werte-grenzwerte-ch]]` (KB energie)
-  bzw. `[[energie-uebersicht]]` §Energienachweis.
+- Eigenstromerzeugungs-**Pflicht** (Neubau, MuKEn/EN-104) → `[[energie-energienachweis-zh-formulare]]`
+  (EN-104-Detail: EBF × 10 W/m², max 30 kW) bzw. `[[u-werte-grenzwerte-ch]]` (KB energie).
+- **Brandschutz/Naturgefahren** der Anlage (Brandmauer-Uebergang, RWA-Abstand, Feuerwehr ≥30 kW,
+  Hagel/Schnee SIA 261) → `[[energie-pv-brandschutz]]`.
 
 ## Datenstand / offen
 ⚠ Solarrechner-Kennwerte Stand 10/2022; Modulwirkungsgrade steigen → Faustwert m²/kWp periodisch
-nachziehen. ewz-Kostenbenchmark 2019. Offen: belegte Ertrags-/Kosten-Bandbreite je Typ (A–E) aus
-aktuelleren JANS-Projekten (→ `wiki/QUESTIONS.md` D).
+nachziehen. Benchmark-Tabelle §3 deckt **D5** teilweise: Typ A (Indach-Tile 2024) + Typ E (Aufdach
+2022) + Flachdach (2019) belegt; **offen Typ B/C/D** (Dachziegel/transparent/Fassade) als belegter
+CHF-kWp-Benchmark — bei naechstem realen JANS-Projekt nachziehen. SolarApp-Werte sind
+**Vorprojekt-Schaetzungen** (PVGIS), keine Abrechnungen → bei realer Schlussabrechnung verifizieren.

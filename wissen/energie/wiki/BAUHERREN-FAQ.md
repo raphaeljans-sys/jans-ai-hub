@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-17
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
+last_updated: 2026-06-18
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
 links: [[INDEX]]
 ---
 
@@ -445,15 +445,26 @@ VKF-BSM 2001-15):
   Healthcare:** nur in zulaessigen Technikraeumen; horizontale Fluchtwege/grosse Parkings **nur mit
   Brandschutzbehoerde**; **nicht** in feuer-/explosionsgefaehrdeten Raeumen und **vertikalen
   Fluchtwegen**.
-- **Kennzeichnung + Feuerwehr:** Anlage eindeutig beschriften (Warnkleber DC/Einspeisung,
-  Uebersichtsplan) — die DC-Gefahr besteht im Brandfall fort.
-- **Blitz/Speicher:** PV loest keine Blitzschutzpflicht aus, ist aber in ein vorhandenes System
-  einzubinden; Batteriespeicher sind eine eigene Gefahrenquelle.
+- **Kennzeichnung + Feuerwehr:** Anlage eindeutig mit **witterungsbestaendigem, farbechtem** Material
+  beschriften (Warnkleber DC/Einspeisung, Anbringungsort NIN 7.12.5.1) und einen **Orientierungsplan**
+  (Standorte Module/DC-Leitungen/WR) erstellen — die DC-Gefahr besteht im Brandfall fort. **Pflicht des
+  Bauherrn: das Feuerwehrkommando ueber die Installation informieren.** Ab **30 kW** (also schon bei
+  groesseren MFH-/Healthcare-Anlagen) oder bei relevanter Gefaehrdung muss der Orientierungsplan in die
+  **bestehenden Brandschutz-/Feuerwehreinsatzplaene** aufgenommen werden; bei Brandmelde-/Sprinkler-
+  anlage zusaetzlich Kennzeichnung am Feuerwehr-Bedienteil.
+- **Brandmauern:** im Bereich einer Brandmauer (Reihenhaus, MFH-Trennwand) die **Module 1,0 m
+  unterbrechen** — ausser die Brandmauer wird **0,3 m ueber die Anlage** gefuehrt (REFH-Ausnahme bei
+  RF1-Bedeckung). Grossflaechige integrierte Anlagen > 1'200 m² brauchen eine **RF1-Verlegeunterlage**.
+- **Blitz/Speicher:** PV loest keine Blitzschutzpflicht aus (aendert die Blitzschutzklasse nicht),
+  ist aber in ein vorhandenes System einzubinden; **Batteriespeicher** (meist Li-Ionen) sind eine
+  eigene Gefahrenquelle → auf **RF1-Untergrund**, kuehl/trocken, im **MFH ins Brandschutzkonzept
+  einbinden** (SNR 460712).
 
 **Quelle:** Swissolar «Stand-der-Technik-Papier zu VKF-Brandschutzmerkblatt Solaranlagen» V4.00
-(12/2022, ueberarb. 11/2023; Basis VKF-BSM 2001-15) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
-PV-Typ-/Pflicht siehe F4/F10; CLT-Aufbau → `[[clt-bauteilkatalog-stora-enso]]`. **Brandschutz-
-Bewertung/Feuerpolizei-Akzeptanz im Detail → Skill `brandschutz`.** ⚠ Datenstand 2026-06-12.
+(12/2022, ueberarb. 11/2023; Basis VKF-BSM 2001-15), vollst. Kap. 1-7 →
+`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. PV-Typ-/Pflicht siehe F4/F10; CLT-Aufbau →
+`[[clt-bauteilkatalog-stora-enso]]`. **Brandschutz-Bewertung/Feuerpolizei-Akzeptanz im Detail →
+Skill `brandschutz`.** ⚠ Datenstand 2026-06-18.
 
 ---
 
@@ -493,10 +504,51 @@ gueltigen SIA 181 abgleichen. CLT-Brandschutz im Detail → Skill `brandschutz`.
 
 ---
 
+## F6 — «Welches Heizsystem — Waermepumpe, Fernwaerme oder Pellets?»
+
+**Kurz:** Im Neubau fast immer eine **Waermepumpe** — oder **Fernwaerme**, wenn ein Netz vor dem Haus
+liegt. **Luft-Wasser-WP** ist der guenstige Standard (Faustwert **JAZ ~3**), die **Erdsonden-WP**
+braucht eine Bohrung, ist aber deutlich effizienter (**JAZ ~4,5**) und besser gefoerdert;
+**Grundwasser-WP** ist am effizientesten (**JAZ ~5**), wo Grundwasser bewilligt nutzbar ist.
+**Pellets/Holz** sind die Wahl, wenn die WP technisch schlecht passt (sehr hohe Vorlauftemperatur im
+unsanierten Altbau, kein Erdsondenrecht). **Oel/Gas ist im Neubau verboten.**
+
+**Fachlich:** Massgebend ist die **Jahresarbeitszahl (JAZ)** = gelieferte Waerme je kWh Strom uebers
+Jahr (eine WP «macht aus 1 kWh Strom 3-5 kWh Waerme»). Sie steigt mit **tiefer Vorlauftemperatur**
+(Flaechenheizung, BBV I ≤ 35 °C) und mit einer **stabilen Quelle** (Erdreich/Grundwasser > Aussenluft):
+
+| WP-Typ | JAZ-Richtwert | Bedingung |
+|---|---|---|
+| Luft-Wasser | ~2,5-3,5 | tiefste Investition, keine Bohrung; Schall/Nachbarschaft (LN-1a/1b) |
+| Sole-Wasser (Erdsonde) | ~4,0-4,5 | Bohrung + AWEL-Gesuch; hoehere Foerderung (vgl. F7) |
+| Wasser-Wasser (Grundwasser) | ~5 | nur wo Grundwasser bewilligt nutzbar (AWEL) |
+
+Entscheidungslogik: **(1)** Liegt ein **Fernwaermenetz** an? → meist Fernwaerme (kein Erzeuger/
+Unterhalt im Haus, schlankster Weg, vgl. F14). **(2)** Sonst Neubau/gut gedaemmt → **Luft-Wasser-WP**
+Standard; bei Budget/Platz fuer die Bohrung **Erdsonden-WP** (hoehere JAZ + Foerderung). **(3)**
+Grundwasser nutzbar → **Wasser-Wasser-WP**. **(4)** WP technisch schwierig → **Pellets** (Wirkungsgrad
+~90 %, aber Lagerraum, Feinstaub, Feuerpolizei/Abgasanlage) — oder **erst die Huelle daemmen, dann WP**
+(senkt die Vorlauftemperatur und hebt die JAZ, vgl. F2/F13). Die verbindliche Effizienz rechnet im
+Minergie-Verfahren das Tool **WPesti** (vgl. `[[minergie-zertifizierung-workflow]]`).
+
+**Quelle:** Heizsystem-/JAZ-Richtwerte (Web-Synthese mehrerer Fachquellen) →
+`[[waermepumpe-systemvergleich]]`; Dimensionierung → `[[bfe-waermeerzeugerleistung-2015]]` / F13;
+Verfahren/Beilagen Heizungsersatz → `[[wta-formular-zh-waermetechnische-anlagen]]` / F14; Foerderung →
+`[[foerderprogramm-energie-zh-2026]]` / F7. ⚠ **Datenstand 2026-06-18:** Die JAZ-Werte sind
+**Richtwerte/Bandbreiten**, keine projektgenauen Zahlen — fuer ein Projekt gilt der **WPesti-/
+SIA-384/3-Wert**; Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/EVEN pruefen).
+**Systemwahl/Entscheid + fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Offen:
+projektgenaue JAZ/COP aus einer Schweizer Primaerquelle (FWS/EnergieSchweiz), CHF-Amortisationsvergleich.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
-- F6 Waermepumpe vs. Fernwaerme vs. Pellets — Systemwahl (Brennwerte/Nutzungsgrade Holz/Pellet/
-  Oel/Gas belegt → `[[bfe-waermeerzeugerleistung-2015]]`; Verfahren/Beilagen je Quelle belegt →
-  `[[wta-formular-zh-waermetechnische-anlagen]]` / F14; **offen: WP-Vergleich JAZ/COP, Entscheidungsmatrix**).
+- ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
+  logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
+  (FWS/WPesti-Defaults), CHF-Amortisations-/Kostenvergleich, WP + PV-Eigenverbrauch (Lastmanagement).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
+
+> **FAQ-Stand 2026-06-18: alle 17 Kernfragen F1-F17 belegt** — der Backlog ist damit auf Vertiefungen
+> (Primaerquellen, Kostenvergleiche, Spezialthemen) reduziert.

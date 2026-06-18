@@ -21,8 +21,9 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] E2 PV-Eignung/Ertrag grob bestimmen (uvek-gis, Sonnenstand, Verschattung)? (2026-06-06, sonnendach.ch + Solarrechner + ewzWHH-Benchmark)
 - [x] E3 U-Wert-Grenzwerte SIA 380/1 als belegte Tabelle (Bauteil → max U). (2026-06-06, belegt in KB `wissen/energie/` → [[u-werte-grenzwerte-ch]]; hier verlinkt statt dupliziert)
 - [x] E4 Energienachweis ZH: Massnahmenpaket vs. Einzelnachweis — wann was, welche Formulare? (2026-06-06 EN-ZH Hauptformular; 2026-06-12 vollstaendige Fachformular-Liste EN-101a…EN-141/S/LN + Detail EN-105/EN-110-ZH + EVEN-Umstellung 01.01.2026 belegt → [[energie-energienachweis-zh-formulare]])
-- [~] E5 Aktuelle ZH-Energievorgaben (MuKEn-Umsetzung) mit Datenstand. (2026-06-06, Stand gesetzt: EnerG seit 1.9.2022/MuKEn 2014; MuKEn 2025 ZH-Umsetzung ausstehend)
-- [ ] E6 Brandschutz bei Solaranlagen (VKF 2001-15) — Kernregeln (Verweis Skill brandschutz).
+- [~] E5 Aktuelle ZH-Energievorgaben (MuKEn-Umsetzung) mit Datenstand. (2026-06-06, Stand gesetzt: EnerG seit 1.9.2022/MuKEn 2014; MuKEn 2025 EnDK 08/2025, ZH-Umsetzung ausstehend; 2026-06-18 Inhalte MuKEn 2025 belegt: graue Energie/erneuerbare Waerme/mehr Eigenstrom, ZH-Ueberfuehrung weiter offen)
+- [x] E6 Brandschutz bei Solaranlagen (VKF 2001-15) — Kernregeln. (2026-06-18, eigener Artikel [[energie-pv-brandschutz]] aus Swissolar-STP V4.00: Einbauarten/oberste Schicht/Brandmauer-Uebergang/RWA/Feuerwehr ≥30 kW/Naturgefahren SIA 261; Bauteil-Klassen → Skill brandschutz)
+- [x] E7 PV-Ertrags-/Kosten-Benchmark je Typ (kWh/kWp, CHF/kWp) + EN-104-Dimensionierung. (2026-06-18, Benchmark-Tabelle [[energie-pv-eignung-typenwahl]] §3 Typ A/E/Flachdach; EN-104 EBF×10 W/m² max 30 kW, 8/16 m²/kW → [[energie-energienachweis-zh-formulare]])
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])

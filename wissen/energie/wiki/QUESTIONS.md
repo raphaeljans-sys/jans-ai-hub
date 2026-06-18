@@ -35,8 +35,9 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ✓ 2026-06-10 → `[[wta-formular-zh-waermetechnische-anlagen]]`, FAQ F14. Offen: WP-JAZ-Vergleich (F6).
 
 ## FAQ-Backlog
-- [~] **E-F** BAUHERREN-FAQ: 16 Antworten belegt (F1-F5/F7-F17; **F8 Netto-Null neu ✓ 2026-06-17**);
-  offen nur noch **F6** (WP-Vergleich/JAZ-Matrix).
+- [x] **E-F** BAUHERREN-FAQ: **alle 17 Kernantworten belegt** (F1-F17; **F6 WP-Systemvergleich neu
+  ✓ 2026-06-18** → `[[waermepumpe-systemvergleich]]`, FAQ F6). Offen nur Vertiefungen: projektgenaue
+  WP-JAZ/COP aus CH-Primaerquelle (FWS/WPesti-Defaults), CHF-Amortisationsvergleich, WP+PV-Lastmanagement.
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
   `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)
@@ -44,7 +45,9 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Flankenuebertragung/Anschlussdetails CH (Lignum) + exakte SIA-181-Anforderungswerte.
 - [x] **E10** PV-/Solar-Brandschutz (Schnittstelle Solar↔Gebaeude) belegt ✓ 2026-06-12 →
   `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, FAQ F16 (DC kein PVC/RF1-Rohr, WR-Standort,
-  Kennzeichnung). Offen: STP Kap. 4-7 (Feuerwehreinsatz, konstruktive Details Anhang 7.3).
+  Kennzeichnung). **STP Kap. 4-7 nachgezogen ✓ 2026-06-18** (Feuerwehr-Pflicht Bauherr + ≥30 kW
+  Orientierungsplan, Brandmauer 1,0 m, Batteriespeicher RF1, RWA, Naturgefahren SIA 261:2020) →
+  Destillat vollst., FAQ F16 geschaerft. Quelle damit erschoepft (nur noch Anhang-Detailskizzen 7.3.x).
 - [x] **E9** Private Kontrolle ZH / wer zeichnet den EN-Nachweis belegt ✓ 2026-06-11
   → `[[private-kontrolle-zh]]` (BBV I §4-7, EN-Formular-Matrix; FAQ F12 geschaerft).
   Offen: Energienutzungs-Deklaration bei geringfuegigen Umbauten (B2).

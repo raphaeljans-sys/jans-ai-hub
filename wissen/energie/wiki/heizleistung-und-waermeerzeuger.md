@@ -1,8 +1,8 @@
 ---
 title: Heizleistung & Waermeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-06-10
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md]
+last_updated: 2026-06-18
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -59,11 +59,30 @@ Energierecht: **fossil im Neubau verboten (§ 10a EnerG)**, im Bestand nur mit *
 neue Heizflaechen auf **max. 35 °C Vorlauf** (§ 23 BBV I) — die Bedingung fuer eine effiziente WP.
 Details → `[[wta-formular-zh-waermetechnische-anlagen]]` / FAQ F14. ⚠ seit 1.1.2026 Vollzug ueber EVEN.
 
+## Heizsystem-Wahl: WP ↔ Fernwaerme ↔ Pellets (F6)
+Die **Jahresarbeitszahl (JAZ)** = gelieferte Waerme je kWh Strom uebers Jahr ist die praxisrelevante
+Effizienzkennzahl (COP = Momentanwert im Pruefpunkt). Richtwerte je WP-Typ (Bandbreiten, Stand 2026):
+
+| WP-Typ | JAZ-Richtwert | Bedingung |
+|---|---|---|
+| Luft-Wasser | ~2,5–3,5 (modern bis 4,0) | guenstigste Investition; Schall/Nachbarschaft (LN-1a/1b) |
+| Sole-Wasser (Erdsonde) | ~4,0–4,5 | Bohrung + AWEL-Gesuch; hoehere Foerderung |
+| Wasser-Wasser (Grundwasser) | ~5 | nur wo Grundwasser bewilligt nutzbar |
+
+Entscheidungslogik: **Fernwaermenetz da → Fernwaerme** (kein Erzeuger/Unterhalt im Haus); **sonst
+Neubau → Luft-Wasser-WP** Standard, bei Budget/Platz **Erdsonden-WP** (hoehere JAZ + Foerderung);
+**Grundwasser nutzbar → Wasser-Wasser-WP**; **WP technisch schwierig → Pellets** (η ~90 %, aber
+Lagerraum/Feinstaub/Feuerpolizei) oder **erst Huelle daemmen, dann WP**. Im Minergie-Verfahren rechnet
+**WPesti** die verbindliche WP-Effizienz. ⚠ JAZ = Richtwerte, projektgenau via WPesti/SIA 384/3;
+Foerder-Mindest-JAZ kantonsabhaengig. Details → `[[waermepumpe-systemvergleich]]` / FAQ F6.
+
 ## Bezug
-- FAQ: `[[BAUHERREN-FAQ]]` F13 + F14 (Ersatzverfahren); F6 Systemwahl offen. Quelle: `[[bfe-waermeerzeugerleistung-2015]]`.
+- FAQ: `[[BAUHERREN-FAQ]]` F13 (Leistung) + F14 (Ersatzverfahren) + **F6 (Systemwahl ✓)**.
+  Quelle: `[[bfe-waermeerzeugerleistung-2015]]`, `[[waermepumpe-systemvergleich]]`.
 - Heizwaermebedarf (≠ Leistung): `[[sia-380-1-heizwaermebedarf-berechnung]]`,
   Standardnutzung/Warmwasser `[[sia-380-1-standardnutzungswerte-tab24-25]]`.
-- Heizsystem-Wahl/Heizverbot → Skill `baurecht`; Foerderung → `[[foerderung-energie-zh]]`.
+- Heizsystem-Wahl/Heizverbot (Entscheid/Bewilligung) → Skill `baurecht`; Foerderung → `[[foerderung-energie-zh]]`.
 
 ## Offen
-- Waermepumpen-Dimensionierung (JAZ/COP, Leistung) + Entscheidungsmatrix WP↔Fernwaerme↔Pellets (F6).
+- Projektgenaue WP-JAZ/COP aus CH-Primaerquelle (FWS/WPesti-Defaults), CHF-Amortisationsvergleich,
+  WP + PV-Eigenverbrauch (Lastmanagement) — vgl. `[[waermepumpe-systemvergleich]]`.

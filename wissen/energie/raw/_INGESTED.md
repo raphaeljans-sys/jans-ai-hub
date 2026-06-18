@@ -6,7 +6,7 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 24 Destillate erstellt; ~5 Prioritaets-PDFs offen (siehe pdf-inventar) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 29 Destillate erstellt; Prioritaet-1-PDFs weitgehend erschoepft, offen: FEZ-Flyer (gering), U-Wert_Gebäudehülle Restseiten, Foerderprogramm S.30-38 (siehe pdf-inventar) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
@@ -31,6 +31,8 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | CLT by Stora Enso — Schallschutz (Kap. 4, S.98-164) | PL-04/U Wert berechnung/clt | destilliert (Innenwand V1-11 + Trennwand V1-8 + Decke V1-6) | R_w 34-58 / L'_n,w 60→46 (F17) |
 | Werkhof29 Dossier Erstvermietung (baubuero in situ, 2024) | PL-04/U Wert berechnung/Grassen Biwak | destilliert (S.1-12) | Praxisbeispiel zirkulaeres Bauen: Stroh/Lehm/Re-use/Areal-PV |
 | Private Kontrolle — Liste der Befugten (Kt. ZH, April 2025) | PL-04/_Private Kontrolle | destilliert (S.1-3) | wer zeichnet EN-Nachweis + EN-Formular-Matrix (BBV I); Namensregister ausgelassen |
-| swissolar STP zu VKF-Brandschutzmerkblatt Solaranlagen (V4.00, 12/2022) | PL-04/Solaranlage/_Brandschutz | destilliert (S.1-16) | PV-Brandschutz: DC kein PVC/RF1-Rohr, WR-Standort, Kennzeichnung (F16); Kap. 4-7 offen |
-| Minergie-Nachweiskurs 2023 — Tipps & Tricks (Teil 1) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.1-42) | Minergie 2023 Anforderungen + MKZ-Formel + THGE-Grenzwerte je Kategorie (F5/F8); Teil 2/3 offen |
+| swissolar STP zu VKF-Brandschutzmerkblatt Solaranlagen (V4.00, 12/2022) | PL-04/Solaranlage/_Brandschutz | destilliert (vollst. Kap. 1-7, S.1-31) | PV-Brandschutz: DC kein PVC/RF1-Rohr, WR-Standort, Kennzeichnung, Feuerwehr ≥30 kW, Brandmauer 1,0 m, Batteriespeicher, RWA, Naturgefahren (F16) |
+| Minergie-Nachweiskurs 2023 — Tipps & Tricks (Teil 1) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.1-42) | Minergie 2023 Anforderungen + MKZ-Formel + THGE-Grenzwerte je Kategorie (F5/F8) |
+| Minergie-Nachweiskurs 2023 — Antrag/Zertifizierung (Teil 2/3) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.43-57) | Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Pruefprozess AS↔ZS → minergie-zertifizierung-workflow |
 | Minergie-Fallstudie «Maison Climat» (Teil 2) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.1-12) | gebautes Plusenergie-MFH Biel, Nachweis-Kennzahlen (F8); ⚠ Uebungswerte teils angepasst |
+| Heizsystem-/JAZ-Richtwerte WP/Fernwaerme/Pellets | Web-Synthese (Juni 2026) + KB-Bestand | destilliert (emerging) | JAZ-Richtwerte Luft ~3 / Sole ~4,5 / Wasser ~5 + Entscheidungslogik (F6) → waermepumpe-systemvergleich; ⚠ Richtwerte |

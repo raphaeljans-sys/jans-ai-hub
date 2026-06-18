@@ -28,6 +28,8 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[clt-schallschutz-stora-enso]] | U Wert berechnung/clt/CLT by Stora Enso ... Building physics | established (Kap. 4: Innenwand V1-11 + Trennwand V1-8 + Deckenelement V1-6, R_w/L'_n,w) | 2021 (Produktdoku) |
 | [[werkhof29-zirkulaeres-bauen-stroh-lehm]] | U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung | emerging (S. 1-12; Praxisbeispiel Stroh/Lehm/Re-use/Areal-PV) | 2024 (Marketing-Dossier) |
 | [[private-kontrolle-zh]] | _Private Kontrolle/zh_komplett | established (S. 1-3; Namensregister ausgelassen) | April 2025 / BBV I LS 700.21 |
-| [[swissolar-stp-vkf-brandschutz-solaranlagen]] | Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0 | established (S. 1-16; Kap. 4-7 offen) | V4.00 12/2022, ueberarb. 11/2023 |
-| [[minergie-nachweiskurs-2023-mkz-thge]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Nachweiskurs | established (S. 1-42, Teil 1 Anforderungen + MKZ; Teil 2/3 offen) | Minergie 2023 / 25.09.2023 |
+| [[swissolar-stp-vkf-brandschutz-solaranlagen]] | Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0 | established (vollst. Kap. 1-7, S. 1-31) | V4.00 12/2022, ueberarb. 11/2023 |
+| [[minergie-nachweiskurs-2023-mkz-thge]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Nachweiskurs | established (S. 1-42, Teil 1 Anforderungen + MKZ) | Minergie 2023 / 25.09.2023 |
+| [[minergie-zertifizierung-workflow]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Nachweiskurs | established (S. 43-57, Teil 2/3 Antrag/Label-Plattform/Pruefprozess) | Minergie 2023 / 25.09.2023 |
 | [[minergie-fallstudie-maison-climat]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Fallstudie_Nachweiskurs | emerging (S. 1-12; Plusenergie-MFH Biel, Nachweis-Kennzahlen) | ⚠ Uebung 2023, Werte teils angepasst |
+| [[waermepumpe-systemvergleich]] | Web-Synthese (JAZ-Richtwerte + KB-Bestand WPesti/EN-LCC) | emerging (WP/Fernwaerme/Pellets, JAZ-Richtwerte) | ⚠ 2026-06-18 / JAZ = Bandbreiten, projektgenau WPesti |

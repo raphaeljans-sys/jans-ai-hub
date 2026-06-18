@@ -1,9 +1,9 @@
 ---
 title: Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 status: established
-last_updated: 2026-06-12
-sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), EnerG/BBV I/WDV ZH]
-links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]]
+last_updated: 2026-06-18
+sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebaeude.ch (MuKEn 2025, abgerufen 18.06.2026), EnerG/BBV I/WDV ZH]
+links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]]
 ---
 
 # Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
@@ -65,8 +65,27 @@ Bewilligungsbehoerden».
 | **Spezielle Bauten/Anlagen** | **EN-112** Kuehlraeume · **EN-131** Gewaechshaeuser · **EN-132** Traglufthallen · **EN-133** Elektrizitaetserzeugungsanlagen · **EN-134** Heizungen im Freien · **EN-135** Beheizte Freiluftbaeder · **EN-141** Gebaeudeautomation · (Betriebsoptimierung) | je nach Anlage | § 4/5 WDV · § 12b EnerG/§ 30a BBV I · § 12 EnerG/§ 46a BBV I · § 12 EnerG/§ 46 BBV I · § 41a BBV I · § 13d EnerG/§ 48c BBV I (→7…→14) |
 | **Schutz vor Laerm** | **S** Schallschutznachweis · **LN-1** Laermschutznachweis Waermepumpen (LN-1a/1b) | bei Aussenlaerm-Standort / mehreren Nutzern; LN-1 fuer Luft/Wasser-WP | §§ 13-13a BBV I; § 13 BBV I (→S/→LN) |
 
+## EN-104 — Eigenstromerzeugung Neubau (Dimensionierung, belegt)
+
+Quelle: **Formular EN-104** (EnDK, Nr. 403-EN-104-001-ger, Version Juni 2019, gueltig bis
+31.12.2024 → ab 2026 EN-104-ZH/EVEN). Realer JANS-Beleg: **Bezirk Einsiedeln SZ, Parz. 3301,
+EGID CH527708492462, Abbruch & Neubau EFH** — EBF neu 320 m² → notwendige Leistung **3.2 kW**,
+gedeckt mit 22 × PREFA-Solardachplatte (146 W) = 3.2 kW.
+
+- **Bemessungsformel:** **Notwendige Leistung = EBF neu × 10 W/m²**, gedeckelt auf **Maximum
+  30 kW**. (Beispiel: 320 m² × 10 W/m² = 3'200 W = 3.2 kW.)
+- **Flaechenbedarf je kW (Modul-Annahme im Formular):** **mono-/polykristallin 8 m²/kW** ·
+  **Duennschicht 16 m²/kW**. → grober Dachflaechen-Check, ob die Pflichtleistung aufs Dach passt.
+- **Befreiung:** Erweiterungen (Anbau/Aufstockung) sind von der Eigenstrom-Anforderung befreit
+  (Feld «Befreiung bei Erweiterung», Anteil EBF neu/bestehend).
+- **Alternativen statt eigener Anlage:** andere Elektrizitaetserzeugungsanlage (EN-133) **oder**
+  **Ersatzabgabe** gemaess kantonalen Vorgaben.
+- **ZH-Spezifika (EN-ZH S. 3-4):** hohe Bauten PV-Belegung **max 70 %** der anrechenbaren
+  Gebaeudeflaeche; **−20 %-Unterschreitung** des Waermebedarfs (EN-101b) → Verzicht auf Eigenstrom
+  moeglich (→4b); ZEV (Zusammenschluss zum Eigenverbrauch) ueber EN-104-ZH.
+
 **Schwellen-Merkposten (belegt, EN-ZH S. 3-4):**
-- **Eigenstrom** Neubau: min. 10 W/m² EBF; hohe Bauten PV-Belegung max 70 % anrechenbare
+- **Eigenstrom** Neubau: min. 10 W/m² EBF (max 30 kW); hohe Bauten PV-Belegung max 70 % anrechenbare
   Gebaeudeflaeche; −20 %-Unterschreitung des Waermebedarfs → Verzicht auf Eigenstrom (→4b).
 - **Gebaeudeautomation EN-141**: Neubauten Gebaeudekat. III-XII ab **5000 m² EBF** (→13).
 - **Betriebsoptimierung (BO)**: Betriebe >**200'000 kWh Strom/Jahr** → BO innert 3 J nach
@@ -130,6 +149,12 @@ bei Neubau **kein** EN-110 (EN-ZH →5).
   EVEN. Vor jeder Einreichung die in EVEN hinterlegte Version verwenden.
 - ⚠ EN-105 (EnDK Aug 2017) gueltig bis 31.12.2026 — laeuft Jahresende aus; EnDK-Nachfolgeversion
   zum Jahreswechsel pruefen (`endk.ch`).
-- Offen **D5**: aktuellere JANS-PV-Ertrags-/Kosten-Benchmarks je Typ A-E (ewzWHH ist 2019).
+- ⚠ **MuKEn 2025:** von der EnDK **08/2025** verabschiedet (5. Auflage, Umsetzungshorizont
+  2025–2030). Neubau-Neuerungen: **Grenzwerte fuer graue Energie**, **rein erneuerbare
+  Waermeerzeugung**, **erhoehte Eigenstromerzeugung**. **ZH-Ueberfuehrung** ins kant.
+  Energiegesetz (Stand 18.06.2026) **noch ausstehend** — bis dahin gilt EnerG/MuKEn 2014 ueber
+  EVEN. ZH-Fassung verfolgen (zh.ch «Umsetzung MuKEn 2025»). (belegt endk.ch / energiehub-gebaeude.ch)
+- ✓ **D5 teil-erledigt** (2026-06-18): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
+  `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/E + Flachdach belegt; Typ B/C/D offen).
 - Offen: konkrete **EVEN-Bedienung** (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde) am
   realen KISPI-Fall dokumentieren, sobald der Nachweis dort gefuehrt ist (→ QUESTIONS D6 neu).

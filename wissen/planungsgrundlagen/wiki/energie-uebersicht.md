@@ -20,8 +20,10 @@ Einstieg in die Domaene Energie (Quelle: **PL - 04 Energie**). Bedient vom Agent
 
 Eigener Artikel: **`[[energie-pv-eignung-typenwahl]]`** — Typen-Entscheidungsbaum (A–E),
 Eignungs-/Ertragswerkzeuge (sonnendach.ch, EnergieSchweiz-Solarrechner, uvek-gis, sonnenverlauf,
-PVSOL) und der JANS-Benchmark ewzWHH (spez. Ertrag, Kosten/kWp, Lebensdauer). Brandschutz Solar
-→ Skill `brandschutz` (VKF-Merkblatt 2001-15).
+PVSOL), die **Benchmark-Tabelle Ertrag/Kosten je Typ** (~850–980 kWh/kWp; CHF/kWp typabhaengig
+~2'000–7'400) und die EN-104-Dimensionierung. **Brandschutz/Naturgefahren Solar → eigener Artikel
+`[[energie-pv-brandschutz]]`** (Swissolar-STP zu VKF-BSM 2001-15: Brandmauer-Uebergang, RWA-Abstand,
+Feuerwehr ≥30 kW, Hagel/Schnee SIA 261); Bauteil-Klassen → Skill `brandschutz`.
 
 ## U-Wert / Heizwaermebedarf (PL-04/U Wert berechnung)
 
@@ -53,11 +55,15 @@ EVEN-Umstellung 2026 → eigener Artikel `[[energie-energienachweis-zh-formulare
   gefuehrt in EVEN.
 
 ⚠ **Datenstand:** Kt. ZH operativ ueber EnerG seit 1.9.2022 (MuKEn 2014); **MuKEn 2025** von der
-EnDK 08/2025 verabschiedet, ZH-Umsetzung (Stand 06/2026) ausstehend. ZH-PDF (EN-ZH Juli 2022,
-EN-110-ZH Sept 2022) tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden.
+EnDK 08/2025 verabschiedet (Umsetzungshorizont 2025–2030; Neubau neu: graue-Energie-Grenzwerte,
+rein erneuerbare Waermeerzeugung, mehr Eigenstrom), **ZH-Ueberfuehrung Stand 18.06.2026 ausstehend**.
+ZH-PDF (EN-ZH Juli 2022, EN-110-ZH Sept 2022) tragen «gueltig bis 31.12.2025» → ab 2026
+EVEN-Version verwenden.
 
 ## Offen (→ QUESTIONS)
 - ✓ **D4 erledigt** (2026-06-12): Fachformular-Liste belegt → `[[energie-energienachweis-zh-formulare]]`.
-- D5: aktuellere JANS-PV-Ertrags-/Kosten-Benchmarks je Typ A-E (ewzWHH ist 2019).
-- Neu: EVEN-Bedienung am realen KISPI-Fall dokumentieren (Maskenfuehrung/Rollen).
+- ✓ **E6 erledigt** (2026-06-18): Brandschutz/Naturgefahren Solar → `[[energie-pv-brandschutz]]`.
+- ~ **D5 teil-erledigt** (2026-06-18): Benchmark-Tabelle Typ A/E/Flachdach belegt; Typ B/C/D offen.
+- D6: EVEN-Bedienung am realen KISPI-Fall dokumentieren (Maskenfuehrung/Rollen).
+- E5/D1: ZH-Umsetzung MuKEn 2025 nachziehen, sobald kant. Gesetz/Verordnung publiziert.
 - Kandidat: eigenes Skill `energie-nachweis`, sobald die Domaene traegt (D3).

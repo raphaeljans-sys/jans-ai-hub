@@ -8,7 +8,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | Status | Quelle (PL-04/...) | KB-Datenstand |
 |---|---|---|
 | [x] `Solaranlage/EN104/26_EN-104.pdf` | 2026-06-06 (vollst., 1 S.) |
-| [~] `Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` | 2026-06-12 (S. 1-16: Begriffe + Kap. 3.1 el. Gefahren + DC-Verlegung + WR-Standorte → swissolar-stp-vkf-brandschutz-solaranlagen; Kap. 4-7 offen) |
+| [x] `Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf` | 2026-06-18 (vollst. Kap. 1-7, S. 1-31 → swissolar-stp-vkf-brandschutz-solaranlagen; Kap. 4-7 ergaenzt: Batterie/Brandmauer 1,0 m/RWA/Feuerwehr ≥30 kW/Naturgefahren SIA 261:2020; ab S. 32 nur Anhang-Skizzen 7.3.x) |
 | [x] `Solaranlage/_Literatur/Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` | 2026-06-07 (S. 1-13, PV-Typen) |
 | [x] `Solaranlage/_Literatur/planer_d.pdf` | 2026-06-06 (S. 1-16, Minergie-Wissen) |
 | [x] `U Wert berechnung/2001_2005_d.pdf` | 2026-06-09 (vollst. S. 1-17, λ-Werte + Naturdaemmst./VIP/WDVS; SIA 2001:2005) |
@@ -31,7 +31,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [x] `endk.ch/Allgemein Nachweis der energetischen und schlltechnischen Massnahmen/EN-ZH.pdf` | 2026-06-07 (Dublette → en-zh-nachweis-uebersicht) |
 | [x] `endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular_Version_01-2024.pdf` | 2026-06-10 (vollst., 5 S.; Heizungsersatz-Verfahren/Beilagen je Quelle → wta-formular-zh-waermetechnische-anlagen) |
 | [x] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Fallstudie_Nachweiskurs-230925-172638.pdf` | 2026-06-17 (S. 1-12; Plusenergie-MFH «Maison Climat» Biel → minergie-fallstudie-maison-climat) |
-| [~] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Nachweiskurs-230925-172638.pdf` | 2026-06-17 (S. 1-42, Teil 1 Anforderungen+MKZ+THGE → minergie-nachweiskurs-2023-mkz-thge; Teil 2/3 Label-Plattform/Einreichung S. 43-57 offen) |
+| [x] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Nachweiskurs-230925-172638.pdf` | 2026-06-18 (vollst.; Teil 1 S. 1-42 → minergie-nachweiskurs-2023-mkz-thge; Teil 2/3 S. 43-57 Antrag/Label-Plattform/Pruefprozess → minergie-zertifizierung-workflow; Anhang ab S. 65 nicht einzeln) |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Flyer_ENERGIE_VorOrt_2023_WEB-230913-120608.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kurse_Herbst_Winter_2023_WEB-230913-120548.pdf` | — |
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf` | — |

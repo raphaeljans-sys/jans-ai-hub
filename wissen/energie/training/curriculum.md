@@ -41,18 +41,24 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [~] B4 MuKEn-Umsetzung Kt. ZH — EnerG seit 1.9.2022 (MuKEn 2014); Vollzug seit 1.1.2026 ueber
   EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025.
 - [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
-  → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13). Offen: WP-Dimensionierung (JAZ).
+  → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13).
+  **Heizsystem-Wahl WP↔Fernwaerme↔Pellets (JAZ-Richtwerte) belegt 2026-06-18** → `[[waermepumpe-systemvergleich]]`
+  (FAQ F6). Offen: projektgenaue WP-JAZ/COP aus CH-Primaerquelle (FWS/WPesti-Defaults), CHF-Vergleich.
 - [x] B6 Waermetechnische Anlagen WTA-Formular — belegt 2026-06-10 via Kt.-ZH-Formular 01-2024
   → `[[wta-formular-zh-waermetechnische-anlagen]]` (FAQ F14: Heizungsersatz-Verfahren/Beilagen je
   Waermequelle + fossil-Verbot §10a). **vollstaendig.**
+- [x] B7 Minergie-Antrag & Zertifizierung (Prozess) — belegt 2026-06-18 via Nachweiskurs Teil 2/3
+  (Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Pruefprozess AS↔ZS, prov.→def. Zertifikat)
+  → `[[minergie-zertifizierung-workflow]]`. **vollstaendig** (Plattform-Bedienung im Detail = Online-Manual).
 
 ## Block C — Solar / PV
 - [x] C1 PV-Typen-Entscheidungsbaum (kristallin/Duennschicht/Graetzel/Hybrid + Integration) —
   belegt 2026-06-07 via TEC21-Dossier «Solares Bauen» → `[[pv-solar-technologien]]` (FAQ F4).
 - [ ] C2 PV-Eignung/Ertrag bestimmen (uvek-gis-Bericht, SolarReports Basel/Willerzell als Beispiele).
-- [x] C3 Brandschutz bei Solaranlagen — belegt 2026-06-12 via swissolar STP V4.00 (S. 1-16: DC
-  kein PVC/RF1-Rohr, WR-Standort, Kennzeichnung) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
-  `[[pv-solar-technologien]]` (FAQ F16). Bewertung/Detail → Skill `brandschutz`. Offen: STP Kap. 4-7.
+- [x] C3 Brandschutz bei Solaranlagen — belegt 2026-06-12 via swissolar STP V4.00; **vollst. Kap. 1-7
+  nachgezogen 2026-06-18** (Feuerwehr-Pflicht Bauherr + ≥30 kW Orientierungsplan, Brandmauer 1,0 m,
+  Batteriespeicher RF1, RWA, Naturgefahren SIA 261:2020) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
+  `[[pv-solar-technologien]]` (FAQ F16 geschaerft). Bewertung/Detail → Skill `brandschutz`. **vollstaendig.**
 - [ ] C4 Sunskin/Indach-Planung & Ausfuehrung (`solar-home.ch/Sunskin/...`).
 
 ## Block D — Nachhaltigkeit / Klima (strategisch)
@@ -71,6 +77,7 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Gewicht um). Offen: vollstaendige Lebenszyklus-CO₂-Bilanz inkl. Energietraeger.
 
 ## Meta
-- [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **16 belegt** (F1-F5, F7-F17; F8 Netto-Null
-  neu 2026-06-17). Offen nur noch F6 (WP-Vergleich/JAZ-Matrix).
-- [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.)
+- [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **alle 17 Kernfragen F1-F17 belegt**
+  (F6 WP-Systemvergleich neu 2026-06-18). Backlog nur noch Vertiefungen (Primaerquellen, CHF-Vergleiche).
+- [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.) — **FAQ traegt jetzt
+  (17/17); reif fuer Pruefung.** Naechster Meta-Schritt.

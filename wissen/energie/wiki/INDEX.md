@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (F1–F5, F7–F17 belegt = 16; nur F6 offen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**alle 17 Kernfragen F1–F17 belegt**; Backlog nur noch Vertiefungen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -11,7 +11,9 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration · **established**
 - [[energienachweis-zh]] — Energienachweis Kt. ZH (EN-ZH / EVEN seit 1.1.2026) · **established**
 - [[daemmstoffe-lambda]] — λ-Werte-Schnellreferenz (inkl. Naturdaemmstoffe/VIP/WDVS) · **established**
-- [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte · **established**
+- [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte + **WP-Systemwahl JAZ (F6)** · **established**
+- [[waermepumpe-systemvergleich]] — WP ↔ Fernwaerme ↔ Pellets: JAZ-Richtwerte je Typ + Entscheidungslogik (Destillat; FAQ F6) · **emerging**
+- [[minergie-zertifizierung-workflow]] — Minergie-Nachweis praktisch: Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Pruefprozess AS↔ZS · **established** (Destillat)
 - [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme) · **established**
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
 - [[graue-energie]] — graue Energie & THGE, **THGE-Grenzwerte je Kategorie (MFH 11 / Spitaeler 17)**, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **established**
