@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-18 — twin-mail-training: Batch 10 (Sent Items rj@, 2025-08-31 bis 2025-09-02, authentisch)
+- 15 Mails gesichtet, 5 Volltexte gelesen; Fortsetzung Yorck/3D-Freelancer Garten-Render-Iteration
+  (Thalwil 2414) + neuer Sozial-Peer Fabio Don (Architekt ETH SIA, BOLON-Event). Echo-Falle
+  bestätigt: der 30.08.-ChatGPT-Paste (3D-Pflanzen-Quellenliste, Times New Roman) zieht im Thread
+  mit → als Stilquelle ausgeschlossen (Echo-Schutz, vgl. CLAUDE.md). Metrik via stilmetrik.py.
+- [[stimme]] **neu** — verspielter Nonsens-/Italianate-Gruss «Tschülinonen» im engsten Sozial-Peer-Du
+  (Spiegelung des Gegenübers), Anglizismen «Effort»/«anyway»/«Korrex»; Metrik Batch 10 (586 W,
+  Du-Gross 0.429 = Batch-03-Wert, Satzlänge ø 19.5 W).
+- [[beziehungsregister]] **neu** — Mapping Fabio Don (Architekt-Peer, Design-/Event-sozial) →
+  verspieltes Sozial-Peer-Du «Tschülinonen»/«Lgr»; zweiter Beleg für gespiegelten Unsinns-Ton.
+- [[arbeitsweise]] **neu** — Bild-/Zulieferung an die ganze Abgabe-/Zahlungskette koppeln (Honorar →
+  Submission → Zahlung), Iterationsbudget benennen («1/2 Korrex-Runden»), Zulieferer-Stunden
+  gegenchecken, Mehraufwand fair pro Bild verteilen.
+- [[fachsignatur]] **neu** — konstruktiv-materielle Kontinuität als Entwurfsidee (Geländer-Kontinuum
+  «Rückgrat/Seil», feuerverzinkt/Holzhandlauf, Kalkschlemme/geschlemmter Putz); Bildregie bestätigt
+  (ausgebrannte Lichter → Bildinformation, Augpunkt, Bildkomposition).
+- _INGESTED.md: Sweep abgedeckt bis 2025-09-02; nächster Lauf ab 2025-09-03.
+
 ## 2026-06-18 — twin-fidelity-review: Selbsttest gegen 3 Goldproben (Okt 2025, authentisch)
 - Goldproben (rj@ Sent Items, vor-Claude, handgetippt/kein AI-Paste → authentisch): A ESTV-Sie,
   MWST-Abmeldung + Betreibungslöschung in eigener Firmensache (2025-10-03); B vertraut-sozialer

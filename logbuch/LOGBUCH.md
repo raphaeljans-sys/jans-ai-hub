@@ -5,6 +5,35 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-18
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`/`--offen`), Kalender (M365, naechste 7 Tage) und
+  Mail-Eingang abgeglichen.
+- **Debitoren (live, `--offen`):** drei offene Rechnungen — RE-00087 (Kispi, CHF 15'000, faellig
+  16.04., **63 Tage ueberfaellig**, Mahnstufe 1 Zahlungserinnerung, naechste Frist 28.06.),
+  RE-00089 (Kispi, CHF 15'000, **faellig heute 18.06.**, noch nicht ueberfaellig), RE-00097 (Hofer,
+  CHF 500, faellig 16.06., **2 Tage ueberfaellig**).
+- **Aenderung RE-00097:** ist nun in Verzug und hat **Mahnstufe 1 (Zahlungserinnerung)** mit naechster
+  Frist 30.06. (gestern noch ohne Mahnstufe) — Register aktualisiert. Tiefe Prio (CHF 500).
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** weiterhin nicht offen in bexio, keine neue
+  Korrespondenz dazu heute. Die am 13.06. versendete Mahnung 2 bleibt gegenstandslos — ggf.
+  zuruecknehmen/entschuldigen. Vor Reaktion final verifizieren.
+- **Erledigt/ins Archiv:** Sitzung KISPI PPTS Brandschutz vom 17.06. (vergangen); Y. Cetin (Gruner)
+  lieferte 17.06. die unterzeichneten Elektro-Brandlast-Dokumente.
+- **Kalender naechste 7 Tage (bestaetigt via Outlook):** 19.06. 19:00–21:00 Besichtigung David
+  (Bahnhofstrasse 27); 22.06. 15:00–16:00 Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00,
+  Teams, R. Steinmann/Nova + Struebi/Portunus). Beide Termine bereits im Kalender, kein Eintrag noetig.
+- **Mail-Hinweise:** R. Zuercher (Stadt ZH, 17.06.) — Formular EN-ZH-005 entfaellt, ersetzt durch
+  Anmeldung auf der EVEN-Plattform (Support beim Kanton); fliesst in die EPROID-Nachfass-Pendenz
+  (20.06.) ein. F. Wuersch (Kispi, 17.06.) — Schutzplatz-Situation B26-00705.01 (psychosomatische
+  Abteilung) an R. Schroeder, beobachten. E. Feldmann AG liefert mehrere Albertstrasse-Offerten
+  (BKP 272/275, u.a. Schliessanlage) — Grundlage fuer die Besprechung am 22.06. M. Prencipe (17.06.)
+  schlaegt Mittagessen am 23.06. vor — Antwort offen, als tiefe Pendenz aufgenommen.
+- **Offen/nachfassen:** bexio-Doppelimport (Kontaktformular, 18.06.), EPROID B26-00705.01 (20.06.).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-17
 
 - **Radar-Lauf:** Register gegen bexio (`--offen`/`--verzug`), Kalender (M365, naechste 7 Tage) und

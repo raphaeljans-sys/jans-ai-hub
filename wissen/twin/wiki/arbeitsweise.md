@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -221,6 +221,26 @@ Bildregie). Muster: parallelisieren statt blockieren, und im Zweifel die kritisc
 selbst übernehmen, um die Abgabe nicht von einem einzigen Zulieferer abhängig zu machen. Bleibt
 ehrlich über die eigene Werkzeug-Grenze, führt aber sichtbar Regie (→ [[beziehungsregister]]
 Freelancer-Du).
+
+## Bild-/Zulieferung an die ganze Abgabe-/Zahlungskette koppeln + Zulieferer-Stunden gegenchecken (belegt Mailbatch 10, authentisch)
+Zweiter, schärferer Datenpunkt zu «Lieferung an den nächsten administrativen Schritt koppeln» (vgl.
+Mailbatch 04): Raphael treibt die ausstehenden Visualisierungen mit der **ganzen Abgabe- und
+Zahlungskette** als Begründung: «ich nun **mit der Honorarrechnung auch die Bilder mit der
+Submissionsunterlagen mitschicken** möchte und dies sobald als möglich da **damit auch wieder die
+Zahlungen zusammenhängen**» (an 3D-Freelancer, 2025-09-01). Die Bildabgabe hängt sichtbar an
+Honorarrechnung → Submission → Zahlungseingang; das «Rauspressen» wird dadurch terminkritisch
+gerahmt, nicht als Drängen, sondern über die Kette begründet. Begleitende Reflexe:
+- **Restbudget der Iteration explizit benennen:** «Ich denke es braucht dann noch **1/2 Korrex-Runden
+  und dann fertig raus.**» — sagt, wie viele Korrekturschleifen noch drin sind, statt offen zu lassen.
+- **Zulieferer-Stunden aktiv gegenchecken** (das in Batch 03 aufgesetzte Stundenlog wird gelebt):
+  «Im Anhang sieht du die **Stundenabrechnung, stimmt das so?**» — legt die Zeiterfassung des
+  Freelancers zur Bestätigung vor.
+- **Fairness/Kostenverteilung transparent:** «wir oder ich habe es etwas übertreiben mit den Stunden
+  für das Gartenbild … die 3D Arbeit dient ja auch noch für die anderen Bilder … so **verteilen sich
+  die Kosten pro Bild**» — rechnet den Mehraufwand fair auf alle Deliverables um, statt ihn einem
+  Bild anzulasten (deckt sich mit «kein Kleinrechnen», → [[haltung]]).
+Der Zwilling begründet Liefer-Termindruck über die nachgelagerte Abgabe-/Zahlungskette, benennt das
+verbleibende Iterationsbudget, lässt sich Zulieferer-Stunden bestätigen und verteilt Mehraufwand fair.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft.

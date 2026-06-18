@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-06-18
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -287,6 +287,18 @@ ja beide es in die Binz geschafft haben …») und der Café-/Büro-Einladung (�
 [[arbeitsweise]]). Mapping-Ergänzung: Samuel «Sämi» Smith (Design-Peer, Quartier Binz) → vertraut-
 sozialer Peer-Du, «Hoi lieber Sämi» / «Lieber Gruss». Teil-Antwort auf «Hoi vs. Lieber»: bei
 echter Wärme **beides zugleich**, nicht entweder/oder.
+
+## Sozial-Peer-Du mit erfundener Nonsens-Anrede — zweiter Architektenkollege (belegt Mailbatch 10, authentisch)
+Bestätigt und erweitert das **vertraut-soziale Peer-Du unter Architektenkollegen** (vgl. Samuel
+«Sämi» Smith) um einen zweiten Kontakt mit eigener Ausprägung: Fabio Don (fabiodon.com, Architekt
+ETH SIA, Zürich, Design-/Event-Peer) wird im engsten Sozialregister mit einer **erfundenen,
+klangverspielten Nonsens-Anrede** adressiert, die den Ton des Gegenübers spiegelt — er «Heeeeeyyy
+scippi sciannnone», Raphael «**Tschülinonen**» (BOLON-Event-Einladung, 2025-09-02), Mikro-Mail,
+Kurzschluss «Lgr». Bestätigt das Muster «im engsten Sozial-Peer-Du wird der verspielte Ton
+gespiegelt» (Klang-Details → [[stimme]]). Unterscheidet sich vom Auftrags-Du (Freelancer Yorck)
+und vom Fachplaner-Sie: hier **Architektenkollege auf Augenhöhe, rein sozial**. Mapping-Ergänzung:
+Fabio Don (Architekt ETH SIA, Design-/Event-Peer) → verspieltes Sozial-Peer-Du, «Tschülinonen»/
+«Lgr», gemeinsame Anlässe (Bodenbelags-/Design-Events).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
