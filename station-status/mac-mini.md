@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.06.2026 11:05:18
+Stand: 18.06.2026 11:25:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 18.06.2026 11:05:18
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- e0ef929 sync: twin-fidelity-review: 2026-06-18;twin-mail-training: 2025-08-31 bis 2025-09-02 (Batch 10)
+- 5421259 nas-selfcommit: 2 Datei(en) 2026-06-18 11:15
