@@ -3,7 +3,7 @@ title: Bestandsumbau — Eingriffstiefe, Baueingabe und Besitzstand (Grundprinzi
 status: established
 last_updated: 2026-06-07
 sources: ["Praxisfall 2622 Bahnhofstrasse 27 Wangen SZ (Dachausbau Chaled)", "Art. 27/31/46/54 BauR Wangen SZ", "§ 60 PBG SZ", "SIA 181 (Schallschutz)", "VKF-Brandschutzvorschriften", "Bestandesschutz/Besitzstandsgarantie (kantonal: § 357 PBG ZH; SZ analog — § verifizieren)"]
-links: [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[14-nutzungsdichte-ausnuetzung]]
+links: [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[14-nutzungsdichte-ausnuetzung]], [[ausnahmebewilligung-und-bestandesschutz]]
 ---
 
 # Bestandsumbau — Eingriffstiefe, Baueingabe und Besitzstand
@@ -58,6 +58,10 @@ der bestehenden Situation — nicht deren Ausweitung.** Daraus folgt:
   überhaupt noch zulässig** sind. Hier steht den Gemeinden ein **grosser Ermessens- und
   Auslegungsspielraum** zu, der **je nach Eingriffstiefe und Baubehörde unterschiedlich**
   gehandhabt wird. Das ist die **grösste planerische Unsicherheit** solcher Vorhaben.
+  Rechtlich (ZH) ist der Massstab in [[ausnahmebewilligung-und-bestandesschutz]] geklärt:
+  § 357 PBG kennt **keine feste Quote** («kein Drittel»); die Grenze ist die **neubauähnliche
+  Umgestaltung / Gesetzesumgehung**, im Einzelfall nach Gesamtwürdigung — was den grossen
+  Ermessensspielraum erklärt.
 - Konsequenz: Die Übernutzungs-/Besitzstandsfrage **vor** einer Baueingabe **vertieft und
   frühzeitig** (Voranfrage, schriftlich, beweissicher) abklären — nicht erst im Verfahren.
 

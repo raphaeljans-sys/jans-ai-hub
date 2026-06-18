@@ -287,3 +287,33 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Machbarkeits-/Umnutzungsstudien (Skill `machbarkeit`, `nutzungsstrategie`) den freien Lichteinfall
   **vor** der Flaechenberechnung pruefen. Verknuepft mit [[wohnhygiene-und-raumanforderungen]] +
   [[bestandsumbau-eingriffstiefe]].
+
+## Kap. 20 — Ausnahmen / Bestandesschutz (§ 220 / § 357 PBG)
+
+- **F:** Welche vier kantonalen Tatbestaende kennt das PBG fuer vorschriftswidrige Bauten? — **A:**
+  (1) **Ausnahmebewilligung § 220 PBG**, (2) **Aenderungen an vorschriftswidrigen Bauten § 357 PBG**
+  (Besitzstandsgarantie), (3) Massnahmen bei **baupolizeilichen Missstaenden**, (4) **Brandstattrecht
+  § 307 PBG** (Wiederaufbau zerstoerter Gebaeude). Alle kantonal; ausserhalb Bauzone gilt Art. 24 ff.
+  RPG (Bund) (Bd 2, S. 1434). _[2026-06-18]_
+- **F:** Was sind die drei Voraussetzungen einer Ausnahmebewilligung nach § 220 PBG? — **A:** (1)
+  **besondere Verhaeltnisse** + Unverhaeltnismaessigkeit der strikten Anwendung (Abs. 1), (2) Wahrung
+  von **Sinn/Zweck + oeffentlichen Interessen** (Abs. 2), (3) **kein unzumutbarer Nachbarnachteil**,
+  aber keine Zustimmungsabhaengigkeit (Abs. 3) (Bd 2, S. 1434). _[2026-06-18]_
+- **F:** Kann § 220 PBG von Bundesrecht (RPG/USG) oder von der genuegenden Erschliessung befreien?
+  — **A:** **Nein.** § 220 dispensiert nur von **kantonalem/kommunalem** Recht; vom Erschliessungs-
+  erfordernis (Art. 19 RPG) kann **generell nicht** dispensiert werden (Bd 2, S. 1435). _[2026-06-18]_
+- **F:** Warum ist die Hoehe «4 m / 5 m» des Besonderen Gebaeudes (§ 49 Abs. 3 PBG) nicht
+  dispensierbar? — **A:** Es ist ein **Definitionsmerkmal** (Legaldefinition), keine Baubegrenzungs-
+  norm. Ueberschreitung ist kein Vorschriftsverstoss, sondern macht das Bauwerk zum **Hauptgebaeude**
+  (BEZ 2004 Nr. 75; Bd 2, S. 1435). _[2026-06-18]_
+- **F:** Welche zwei Grundbedingungen muss eine Baute erfuellen, damit § 357 Abs. 1 PBG
+  (Besitzstandsgarantie) greift? — **A:** (1) seinerzeit **materiell rechtmaessig erstellt** (formelle
+  Bewilligung grundsaetzlich unerheblich), (2) erst durch **spaetere Rechtsaenderung** vorschriftswidrig
+  geworden (nicht durch Sachverhaltswandel — dann nur § 220) (Bd 2, S. 1444/1447). _[2026-06-18]_
+- **F:** Gibt es bei § 357 PBG eine feste Erweiterungsquote (z. B. «ein Drittel»)? — **A:** **Nein.**
+  § 357 enthaelt **keinen** numerischen Schwellenwert. Die Grenze ist die **neubauaehnliche
+  Umgestaltung / Gesetzesumgehung**, im **Einzelfall** nach Gesamtwuerdigung; quantitative Kriterien
+  sind nur Indizien (BEZ 1996 Nr. 3; BEZ 2011 Nr. 43; Bd 2, S. 1448-1449). _[2026-06-18]_
+- **F:** Kann man sich gegen Brandschutz-/Feuerpolizeivorschriften auf § 357 PBG berufen? — **A:**
+  **Nein** — Feuerpolizeigesetz und Bundesrecht (USG/GSchG) sind **keine** «Bauvorschriften» i. S. v.
+  § 357; der Bestandesschutz greift dagegen nicht (Bd 2, S. 1447). _[2026-06-18]_
