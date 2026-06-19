@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-19 — twin-mail-training: Batch 11 (Sent Items rj@, 2025-09-03, authentisch)
+- 15 Mails gesichtet, 4 Volltexte gelesen; dichter Yorck/3D-Freelancer Render-Korrektur-Thread
+  (Thalwil 2414) + WOMA/Bopp Honorarrechnung Ebmatingen + Claudia/Foto-Peer + BOLON-Sozial-Du.
+  Metrik via stilmetrik.py (384 W, Du-Gross 0.8, Satzlänge ø 18.3 W, Anreden Hoi York/Geschätzter Christoph).
+- [[haltung]] **neu** — Qualitäts-Hardness gilt auch dem vertrauten Du-Freelancer: «die Arbeit ist sehr
+  teuer … wenn die Bilder dann noch falsch sind, das geht nicht»; Fehler am Prozess (Kontrollmechanismus)
+  statt an der Person festmachen, Deeskalation über Videocall statt Nachgeben. Teil-Antwort auf die Lücke
+  «Haltung bei Konflikt mit Du-Kontakt».
+- [[arbeitsweise]] **neu** — Render-Brief 01–04 + A)/B)/C)-Blickpunktliste, Prozesskontroll-Fragen («Wie
+  sind da die Kontrollmechanismen?») + präventiver Videocall-Fallback gegen Doppelarbeit (3. Datenpunkt
+  zum Shot-Brief); Rechnung an Geschäftspartner-Du lenken mit Drei-Verb-Bitte «Kontrolle, Freigabe und
+  Weiterleitung» (2. Datenpunkt Architekt-als-Sachwalter).
+- [[fachsignatur]] **neu** — Bildregie Forts.: gebaute 3D-Geometrie (jeder Einzelstein + Fugenausbildung)
+  vor Textursuche, wo Tiefe sichtbar sein muss; Textur-Kritik «belegt aus ohne Tiefe» (vgl. «noice»).
+- Frontmatter haltung/arbeitsweise/fachsignatur: Quelle 260619-mailbatch-11 + last_updated 2026-06-19.
+- _INGESTED.md: Sweep abgedeckt bis 2025-09-03; nächster Lauf ab 2025-09-04.
+
 ## 2026-06-18 — twin-mail-training: Batch 10 (Sent Items rj@, 2025-08-31 bis 2025-09-02, authentisch)
 - 15 Mails gesichtet, 5 Volltexte gelesen; Fortsetzung Yorck/3D-Freelancer Garten-Render-Iteration
   (Thalwil 2414) + neuer Sozial-Peer Fabio Don (Architekt ETH SIA, BOLON-Event). Echo-Falle

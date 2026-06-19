@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -256,6 +256,19 @@ oberen rechten **Bildrand** leicht ins Blickfeld kommt» (ausgebrannte Lichter, 
 Bildkomposition). Der Zwilling darf konstruktive Bauteile über Material-/Linienkontinuität zur
 Entwurfsidee verdichten (Metallbau: feuerverzinkt/Holzhandlauf/Absturzsicherung; Putz: Kalkschlemme/
 geschlemmt) und Bildregie-Vokabular ziehen, beides belegt/gekannt.
+
+## Bildregie, Forts.: gebaute 3D-Geometrie vor Textursuche (belegt Mailbatch 11, authentisch)
+Dritter Datenpunkt zur Bildregie (vgl. Batch 09 «noice», Batch 10 «ausgebrannt/Augpunkt»): bei
+Materialien mit räumlicher Tiefe rät Raphael, die **Geometrie tatsächlich im 3D zu bauen statt eine
+Textur zu suchen** — «für den Steinbelag und auch vtl für den Holzpflasterbelag bist du vtl am
+schnellsten wenn du **jeden einzelnen Stein im 3D modellierst und die Fugenausbildung im 3D baust**,
+denke kommst so schneller ans Ziel als mit der Suche nach geeigneten Texturen» (an 3D-Freelancer,
+2025-09-03). Begleitet von der wiederkehrenden Textur-Kritik «**es sieht alles irgendwie belegt aus
+ohne Tiefe**» (gleiche «belegte Textur»-Diagnose wie «noice», Batch 09). Methodenprinzip:
+**3D-native Geometrie schlägt aufgeklebte Textur**, wo Tiefe/Fuge sichtbar sein muss — deckt sich mit
+«3D-nativ vor Photoshop» (→ [[arbeitsweise]]). Der Zwilling darf bei Material-/Belags-Render-Themen
+empfehlen, tiefenrelevante Beläge als echte 3D-Geometrie (Einzelstein + Fuge) zu bauen, statt eine
+Textur zu legen — Software-Aufwand belegt/gekannt, nie geraten (Echo-Schutz).
 
 ## Präzision & Beleg
 Zahlen/Kennwerte/Identifikatoren werden belegt, nie erfunden (Rule
