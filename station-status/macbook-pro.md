@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.06.2026 08:06:37
+Stand: 19.06.2026 08:26:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:57)
@@ -12,4 +12,4 @@ Stand: 19.06.2026 08:06:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 66adbf8 baurecht: Wiki-Artikel nebenbestimmungen-und-reverse auf echte Umlaute (Wiki-Konvention)
+- ce6c97e nas-selfcommit: 2 Datei(en) 2026-06-19 08:15
