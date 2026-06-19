@@ -33,7 +33,9 @@ oder umbenannten Artikel aktualisieren.
 - [[zonenkonformitaet]] — BZO-Systematik, Zonenarten, Richtwerte Stadt ZH · *established*
 
 ### Verfahren
-- [[baubewilligungsverfahren]] — Verfahrensarten, Ablauf, Fristen, Unterlagen · *established*
+- [[baubewilligungsverfahren]] — Verfahrensarten, Ablauf, Fristen, Unterlagen; **Zuständigkeit/Baubehörde** (§ 318 PBG + GG-Delegationen), **Inhalt des Entscheids** (Rubrum/Begründung/Dispositiv) · *established*
+- [[nebenbestimmungen-und-reverse]] — **Nebenbestimmungen der Baubewilligung** (§ 321 PBG): Auflage (erzwingbar § 326) vs. Bedingung (künftiges Ereignis) vs. Befristung (Provisorium, **kein Bestandesschutz**, max. 5 J.) vs. **Revers** (gemischt; Areal-/Mehrwert-/Ausnützungs-/Nutzungsrevers); Grundbuch-Anmerkung **deklaratorisch** (BGE 111 Ia 183); «Revers vor Baubeginn» = Auflage, nicht Bedingung (BEZ 2004 Nr. 67); Faktenbasis für `auflagebereinigung` · *emerging*
+- [[07-zustaendigkeiten-entscheide-auskuenfte]] (Destillat Bd 1, Kap. 7 Teil 1) — Buchsynthese «Der kommunale baurechtliche Entscheid» §§ 318/321 PBG, Belegquelle · *emerging*
 
 ### Planung & Gestaltung
 - [[raumplanung-und-gestaltung]] — Richtplan, Nutzungsplanung, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
@@ -50,8 +52,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-18)
-- Artikel im Wiki: 12 + QUELLEN-Register (+ [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[abstaende-und-hoehen]] um Gewässerraum-Vertiefung + Baulinien-Verweis ergänzt)
+## Statistik (Stand 2026-06-19)
+- Artikel im Wiki: 13 + QUELLEN-Register (+ [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

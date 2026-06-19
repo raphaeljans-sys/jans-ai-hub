@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -317,3 +317,51 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
 - **F:** Kann man sich gegen Brandschutz-/Feuerpolizeivorschriften auf § 357 PBG berufen? — **A:**
   **Nein** — Feuerpolizeigesetz und Bundesrecht (USG/GSchG) sind **keine** «Bauvorschriften» i. S. v.
   § 357; der Bestandesschutz greift dagegen nicht (Bd 2, S. 1447). _[2026-06-18]_
+
+## Kap. 7 — Zustaendigkeiten / Entscheid / Nebenbestimmungen (§§ 318/321 PBG)
+
+### Modell C — Selbsttest-Karten (2026-06-19)
+- **F:** Wer entscheidet ueber ein Baugesuch und woraus ergibt sich, wer das konkret ist? — **A:**
+  Die **oertliche Baubehoerde** (§ 318 PBG); wer das ist, regelt das **Gemeindegesetz** — im Regelfall
+  der Gemeindevorstand (§ 48 Abs. 3 GG), der an eigenstaendige/unterstellte Kommission (§ 51/§ 50 GG),
+  Ausschuss (§ 44 GG), Bauvorstand/Mitglieder (§ 41 GG) oder Gemeindeangestellte (§ 45 GG, Anzeige-
+  verfahren) delegieren kann (Bd 1, S. 424-428). _[2026-06-19]_
+- **F:** Gibt es in Bausachen ein gemeindeinternes Einsprache-/Ueberpruefungsverfahren? — **A:**
+  **Nein.** § 315 Abs. 3 PBG geht als lex specialis § 170 GG vor; gegen den Entscheid wird **direkt
+  ans Baurekursgericht** rekurriert (§ 329 PBG; BRGE II Nr. 0153/2018; Bd 1, S. 429). _[2026-06-19]_
+- **F:** Wann darf die Behoerde einen mangelhaften Bau mit Nebenbestimmungen bewilligen statt zu
+  verweigern? — **A:** Wenn der Mangel **ohne besondere Schwierigkeiten** und ohne unverhaeltnis-
+  maessigen finanziellen Aufwand behebbar ist (§ 321 Abs. 1 PBG; BEZ 1984 Nr. 5). Verlangt er eine
+  **konzeptionelle Ueberarbeitung** (Treppenhaus/Lift), ist zu verweigern (BEZ 2017 Nr. 30; Bd 1,
+  S. 437). _[2026-06-19]_
+- **F:** Worin unterscheiden sich Auflage und Bedingung? — **A:** **Auflage** = zusaetzliche Pflicht
+  (Tun/Dulden/Unterlassen); bei Nichterfuellung bleibt die Verfuegung **gueltig**, wird aber
+  **erzwungen/vollstreckt** (§ 326 PBG; §§ 30 f. VRG). **Bedingung** = Rechtswirksamkeit haengt an
+  einem **kuenftigen, ungewissen Ereignis**. Im Zweifel: Auflage (Bd 1, S. 438/442). _[2026-06-19]_
+- **F:** Hat die Anmerkung eines Revers im Grundbuch konstitutive Wirkung? — **A:** **Nein**, nur
+  **deklaratorisch** — die Gueltigkeit haengt an der Rechtsbestaendigkeit der Baubewilligung
+  (BGE 111 Ia 183). Die «Bedingung, vor Baubeginn den Revers einzutragen», ist rechtlich eine
+  **Auflage** (BEZ 2004 Nr. 67; § 321 Abs. 2 PBG; Art. 164 GBV; Bd 1, S. 440/443). _[2026-06-19]_
+- **F:** Begruendet eine befristete Bewilligung (Provisorium) einen Bestandesschutz? — **A:** **Nein**
+  — sie ist blosse temporaere Tolerierung; **kein Bestandesprivileg, kein Verlaengerungsanspruch**
+  (BEZ 1992 Nr. 8). Max. 5 Jahre; Waermedaemm-Erleichterung nur bis 3 Jahre (§ 16 Abs. 2 BBV I;
+  Bd 1, S. 441). _[2026-06-19]_
+- **F:** Welche Entscheide muessen begruendet werden? — **A:** **Ausnahmebewilligungen** (§ 320 PBG),
+  **Bauverweigerungen/Auflagen/Bedingungen** bei nicht voller Gutheissung (§ 10a Abs. 1 VRG;
+  RB 1998 Nr. 16) und **Abweichungen von Richtlinien/Normalien** (§ 360 Abs. 3 PBG). Die reine
+  Baubewilligung i. d. R. nicht (Bd 1, S. 434). _[2026-06-19]_
+
+### Modell A — Frage→Beleg-Drill (typische Buerofrage, 2026-06-19)
+- **F (Bauleitung):** «Im Bauentscheid steht: Bedingung — vor Baubeginn ist im Grundbuch ein
+  Ausnuetzungsrevers einzutragen. Steht die ganze Baubewilligung, solange das nicht erledigt ist?»
+- **A (nur mit Buchbeleg):** Rechtlich ist diese «Bedingung» **keine** Bedingung, sondern eine
+  **Auflage**: Ihre Nichterfuellung beruehrt die **Gueltigkeit** der Baubewilligung **nicht**
+  (BEZ 2004 Nr. 67). Sie blockiert aber **prozessual** die **Baufreigabe** — die Behoerde erspart
+  sich damit die amtswegige Anmerkung (§ 321 Abs. 2 PBG; Art. 164 GBV; Bd 1, S. 443). Die
+  Grundbuch-Anmerkung selbst ist **deklaratorisch**; die oeffentlich-rechtliche Eigentums-
+  beschraenkung gilt schon mit Rechtskraft der Bewilligung (BGE 111 Ia 183; Bd 1, S. 440).
+  — **Beleg vollstaendig, keine Wissensluecke.**
+- **Transfer JANS:** Genau diese Qualifikation (Auflage vs. Bedingung) braucht der Skill
+  `auflagebereinigung`, um die Frist «vor Baubeginn / vor Arbeitsvergabe / vor Inbetriebnahme»
+  je Auflage richtig zu setzen. Verknuepft [[nebenbestimmungen-und-reverse]] +
+  [[ausnuetzungsuebertragung]].

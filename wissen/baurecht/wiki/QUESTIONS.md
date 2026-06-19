@@ -45,6 +45,19 @@ wurden.
   [[20-ausnahmen-bestandesschutz]] nach Buch S. 1434/1444 sinngemäss wiedergegeben; am amtlichen
   PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).
 
+## Offene Wissenslücken — neu (2026-06-19, aus Buch-Run Kap. 7 Teil 1)
+- **7.2/7.3 Auskünfte + baurechtlicher Vorentscheid / Voranfrage offen (HOHE Büroprio):** Kap. 7
+  Teil 1 (7.1 Der kommunale baurechtliche Entscheid) ist distilliert; die für den Bauberatungs-
+  alltag zentrale **Voranfrage / der baurechtliche Vorentscheid** (verbindliche vs. unverbindliche
+  Auskunft, Bindungswirkung, Zuständigkeit) steht noch aus — ab Shot ~226, S. 448-484. **Nächster
+  Lauf.** Speist dann [[baubewilligungsverfahren]] (Schritt 1 «Voranfrage»).
+- **needs-verification — überbelichtete Seiten S. 430/431 + 444/445:** Ausstand-Details (Shot 217)
+  und Kostenentscheid-Bemessung/Solidarhaftung §§ 13/14 VRG (Shots 224/225) im Destillat
+  [[07-zustaendigkeiten-entscheide-auskuenfte]] nur eingeschränkt lesbar; am amtlichen VRG-/PBG-
+  Volltext (raw/) gegenprüfen (Modell D).
+- **§ 326 PBG (Erzwingung von Auflagen) + Art. 164 GBV / Art. 962 ZGB (Anmerkungspflicht):**
+  Wortlaut am amtlichen Volltext sichern (in [[nebenbestimmungen-und-reverse]] sinngemäss).
+
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
   Gebührenordnung hinterlegen.

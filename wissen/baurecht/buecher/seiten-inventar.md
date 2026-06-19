@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-06-16
+last_updated: 2026-06-19
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -228,19 +228,19 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 210 | 1 | ~416 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.51.jpg` |  |
 | 211 | 1 | ~418 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.53.jpg` |  |
 | 212 | 1 | ~420 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.55.jpg` |  |
-| 213 | 1 | ~422 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.57.jpg` |  |
-| 214 | 1 | ~424 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.59.jpg` |  |
-| 215 | 1 | ~426 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.00.jpg` |  |
-| 216 | 1 | ~428 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.03.jpg` |  |
-| 217 | 1 | ~430 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.04.jpg` |  |
-| 218 | 1 | ~432 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.06.jpg` |  |
-| 219 | 1 | ~434 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.08.jpg` |  |
-| 220 | 1 | ~436 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.10.jpg` |  |
-| 221 | 1 | ~438 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.11.jpg` |  |
-| 222 | 1 | ~440 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.13.jpg` |  |
-| 223 | 1 | ~442 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.15.jpg` |  |
-| 224 | 1 | ~444 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.17.jpg` |  |
-| 225 | 1 | ~446 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.19.jpg` |  |
+| 213 | 1 | 424/425 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.57.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 214 | 1 | 426/427 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.59.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 215 | 1 | 426/427 (dup) | [x] | `Bildschirmfoto 2026-06-07 um 11.47.00.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 216 | 1 | 428/429 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.03.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 217 | 1 | 430/431 (ueberbel.) | [x] | `Bildschirmfoto 2026-06-07 um 11.47.04.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 218 | 1 | 432/433 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.06.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 219 | 1 | 434/435 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.08.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 220 | 1 | 436/437 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.10.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 221 | 1 | 438/439 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.11.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 222 | 1 | 440/441 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.13.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 223 | 1 | 442/443 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.15.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 224 | 1 | 444/445 (ueberbel.) | [x] | `Bildschirmfoto 2026-06-07 um 11.47.17.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
+| 225 | 1 | 446/447 | [x] | `Bildschirmfoto 2026-06-07 um 11.47.19.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
 | 226 | 1 | ~448 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.21.jpg` |  |
 | 227 | 1 | ~450 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.22.jpg` |  |
 | 228 | 1 | ~452 | [ ] | `Bildschirmfoto 2026-06-07 um 11.47.24.jpg` |  |

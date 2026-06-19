@@ -4,6 +4,37 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-19 — Buch-Destillat BAND 1 Kap. 7 Teil 1 (Der kommunale baurechtliche Entscheid), Run 11
+- NEU `buecher/band-1/07-zustaendigkeiten-entscheide-auskuenfte.md` (Shots 213-225, echte Seiten 424-447,
+  11 Doppelseiten; Shot 215 Duplikat, Shots 217/224 ueberbelichtet → needs-verification): Abschnitt **7.1
+  «Der kommunale baurechtliche Entscheid»** vollstaendig — **Rechtsnatur** (Polizeierlaubnis, sachbezogen/
+  geht mit Grundstueck ueber, mitwirkungsbeduerftig BEZ 2014 Nr. 45), **Zustaendigkeit** (oertliche
+  Baubehoerde § 318 PBG; GG-Delegationen: eigenstaendige/unterstellte Kommission §§ 51/50 GG, Ausschuss
+  § 44 GG, Bauvorstand/Mitglieder § 41 GG, Gemeindeangestellte § 45 GG/Anzeigeverfahren), **kein gemeinde-
+  internes Einspracheverfahren** (§ 315 Abs. 3 PBG geht § 170 GG vor; direkt-Rekurs § 329 PBG; BRGE II
+  Nr. 0153/2018), **Ausstand** (Art. 29/30 BV; Aufhebung/Nichtigkeit BGE 136 II 383), **Inhalt** Rubrum/
+  Begruendung/Dispositiv (Plaene integrierter Bestandteil; Begruendungspflicht § 10a VRG/§ 320 PBG/§ 360
+  Abs. 3 PBG), **Nebenbestimmungen § 321 PBG** (Auflage erzwingbar § 326 PBG vs. Bedingung; Befristung/
+  Provisorium kein Bestandesschutz/max. 5 J./BEZ 1992 Nr. 8; **Revers**-Typen; Grundbuch-Anmerkung
+  deklaratorisch BGE 111 Ia 183/Art. 164 GBV), **Kostenentscheid**-Beginn (§ 13 VRG/§ 340f PBG). Status
+  `emerging` (7.2/7.3 Auskuenfte + baurechtl. Vorentscheid/Voranfrage S. 448-484 offen).
+- NEU Wiki `wiki/nebenbestimmungen-und-reverse.md` (`emerging`): Nebenbestimmungen der Baubewilligung
+  (§ 321 PBG) — Heilungsschwelle «ohne besondere Schwierigkeiten» vs. konzeptionelle Ueberarbeitung
+  (BEZ 2017 Nr. 30), Auflage vs. Bedingung vs. Befristung vs. Revers, Revers-Typen (Areal-/Beseitigungs-/
+  Mehrwert-/Quartierplan-/Verlegungs-/Ausnuetzungs-/Nutzungsrevers), Grundbuch-Anmerkung deklaratorisch,
+  «Revers vor Baubeginn» = Auflage (BEZ 2004 Nr. 67). **Faktenbasis fuer Skill `auflagebereinigung`.**
+- GESCHAERFT `wiki/baubewilligungsverfahren.md`: zwei neue Sektionen «Zustaendigkeit: wer ist die
+  Baubehoerde?» (§ 318 PBG + GG-Delegationen, § 315 Abs. 3 vor § 170 GG, § 329 direkt-Rekurs) und
+  «Inhalt des Entscheids & Nebenbestimmungen» (Rubrum/Begruendung/Dispositiv) + Backlinks.
+- DRILLS `training/drills.md`: 7 Modell-C-Karten + 1 Modell-A-Buerofrage (Auflage vs. Bedingung beim
+  «Revers vor Baubeginn») zu Kap. 7.
+- REGISTER `buecher/seiten-inventar.md` (Shots 213-225 → [x] + echte Seiten), `buecher/INDEX.md`
+  (Kap.-7-Eintrag + Matrix-Zeile), `training/curriculum.md` (Kap. 7 [~] + naechster Lauf Teil 2),
+  `wiki/INDEX.md` (13 Artikel) + `wiki/QUESTIONS.md` (7.2/7.3 + needs-verification).
+- HINWEIS Phase 1 (taeglich) **noch nicht** auf alle 2 Tage heruntergetaktet: P1 ist erst mit dem
+  buerorelevanten Kap. 7 **Teil 2** (Voranfrage/Vorentscheid) im Kern vollstaendig — ein weiterer
+  taeglicher Lauf, dann Phasenwechsel + Cron-Anpassung.
+
 ## 2026-06-18 — Buch-Destillat BAND 2 Kap. 20 (Ausnahmen / Bestandesschutz), Run 10
 - NEU `buecher/band-2/20-ausnahmen-bestandesschutz.md` (Shots 720-728, echte Seiten 1433-1449, 8 Doppel-
   seiten; Kapitel-Kern, reicht weiter): **vier Tatbestaende** fuer vorschriftswidrige Bauten (§ 220 /

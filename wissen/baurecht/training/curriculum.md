@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -24,7 +24,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 4 | Natur- und Heimatschutz | 267 | 294 | P3 | [ ] |
 | 5 | Planung und Entschaedigung | 311 | 316 | P3 | [ ] |
 | 6 | Baurechtliches Verfahren | 337 | **169** | **P1** | [~] (S.337-405: Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren; Rest S.405-422 offen) |
-| 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | (s.u.) | **P1** | [ ] |
+| 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | **213** | **P1** | [~] (S.424-447: 7.1 Der kommunale baurechtl. Entscheid vollst. — Rechtsnatur/Zustaendigkeit §318/GG-Delegation/§329 direkt-Rekurs/Ausstand, Inhalt Rubrum/Begruendung/Dispositiv, **Nebenbestimmungen §321** Auflage/Bedingung/Befristung/Reverse + Grundbuch-Anmerkung, Kostenentscheid-Beginn. Offen: 7.2/7.3 **Auskuenfte + baurechtl. Vorentscheid/Voranfrage** ab Shot ~226, S. 448-484) |
 | 8 | Ausfuehrung von Bauarbeiten | 485 | ~245-269 | P2 | [ ] |
 | 9 | Rechtsschutz | 537 | **270** | P2 | [~] (S.537-575: Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen; Rest S.575-608 Ablauf/Kosten/Revision offen) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 609 | — | P2 | [ ] |
@@ -115,14 +115,23 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    BEZ 1996 Nr. 3). Destillat [[20-ausnahmen-bestandesschutz]], neuer Wiki-Artikel
    [[ausnahmebewilligung-und-bestandesschutz]] (schliesst QUESTIONS-Luecke Dispens). Restschuld Kap. 20:
    § 357 Abs. 4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 PBG, Shots ab 729.)*
-   ⏭️ **Naechster Lauf: Kap. 7** (letztes ungelesenes P1-Kapitel) — danach P1 vollstaendig, Phasenwechsel.
+   ⏭️ **Naechster Lauf: Kap. 7 Teil 2** (Auskuenfte / baurechtl. Vorentscheid / Voranfrage) — danach
+   P1 im Kern vollstaendig → Phasenwechsel.
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.
    *(Kap. 6 Kernbereich distilliert 2026-06-16, Run 8, S. 337-405, Shots 169-201: Bewilligungspflicht,
    Baugesuch § 310 PBG / § 5 BVV, Koordinationsgebot Art. 25a RPG, Verfahrensablauf/Fristen § 313/§ 319 PBG,
    Aussteckung § 311 PBG, Publikation § 314 PBG, **Zustellbegehren 20 Tage § 315/§ 316 PBG**. Destillat
-   [[06-baurechtliches-verfahren]], speist Wiki [[baubewilligungsverfahren]]. Restschuld Kap. 6 S.405-422
-   + ganzes Kap. 7 Zustaendigkeiten/Entscheide offen.)* ⏭️ **Naechster Lauf: Kap. 7** (Zustaendigkeiten,
-   Entscheide, Auskuenfte/Voranfrage; Shots ~201-243, S. 405-484).
+   [[06-baurechtliches-verfahren]], speist Wiki [[baubewilligungsverfahren]]. Restschuld Kap. 6 S.405-422.
+   **Kap. 7 Teil 1** distilliert 2026-06-19, Run 11, S. 424-447, Shots 213-225: Abschnitt 7.1 «Der
+   kommunale baurechtl. Entscheid» vollst. — Rechtsnatur (Polizeierlaubnis, sachbezogen, mitwirkungs-
+   beduerftig), **Zustaendigkeit § 318 PBG + GG-Delegationen §§ 41/44/45/50/51 GG**, kein gemeinde-
+   internes Einspracheverfahren (§ 315 Abs. 3 PBG vor § 170 GG; direkt-Rekurs § 329 PBG), Ausstand
+   (Art. 29/30 BV), Inhalt **Rubrum/Begruendung/Dispositiv**, **Nebenbestimmungen § 321 PBG** (Auflage/
+   Bedingung/Befristung/Reverse, Grundbuch-Anmerkung deklaratorisch), Kostenentscheid-Beginn. Destillat
+   [[07-zustaendigkeiten-entscheide-auskuenfte]], neuer Wiki-Artikel [[nebenbestimmungen-und-reverse]],
+   [[baubewilligungsverfahren]] geschaerft. Restschuld Kap. 7: **7.2/7.3 Auskuenfte + baurechtl.
+   Vorentscheid/Voranfrage** (Shots ab ~226, S. 448-484) — hohe Bueroprioritaet.)*
+   ⏭️ **Naechster Lauf: Kap. 7 Teil 2** (Auskuenfte/Vorentscheid/Voranfrage; Shots ab ~226, S. 448-484).
 7. **Kap. 12 + 13** Baureife + Grundanforderungen.
 8. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
    *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-

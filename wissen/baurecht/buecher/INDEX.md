@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -93,6 +93,19 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
+- [[07-zustaendigkeiten-entscheide-auskuenfte]] — Kap. 7 Teil 1 (S. 424-447): **Der kommunale
+  baurechtliche Entscheid** — Rechtsnatur (Polizeierlaubnis, sachbezogen, mitwirkungsbeduerftig
+  BEZ 2014 Nr. 45), **Zustaendigkeit** (oertliche Baubehoerde § 318 PBG; GG-Delegationen: eigen-
+  staendige/unterstellte Kommission §§ 51/50 GG, Ausschuss § 44 GG, Bauvorstand/Mitglieder § 41 GG,
+  Gemeindeangestellte § 45 GG/Anzeigeverfahren), **kein gemeindeinternes Einspracheverfahren**
+  (§ 315 Abs. 3 PBG vor § 170 GG; direkt-Rekurs § 329 PBG; BRGE II Nr. 0153/2018), **Ausstand**
+  (Art. 29/30 BV; Aufhebung/Nichtigkeit BGE 136 II 383), **Inhalt** Rubrum/Begruendung/Dispositiv
+  (Plaene = integrierter Bestandteil; Begruendungspflicht § 10a VRG/§ 320 PBG), **Nebenbestimmungen
+  § 321 PBG** (Auflage erzwingbar § 326 PBG vs. Bedingung; Befristung/Provisorium = kein Bestandes-
+  schutz, max. 5 J., BEZ 1992 Nr. 8; **Revers**-Typen; Grundbuch-Anmerkung deklaratorisch BGE 111 Ia 183,
+  Art. 164 GBV), Kostenentscheid-Beginn (§ 13 VRG/§ 340f PBG). 11 Doppelseiten (213-225; 1 Dup, 2 ueberbel.).
+  Status: `emerging` (**7.2/7.3 Auskuenfte + baurechtl. Vorentscheid/Voranfrage** S. 448-484 offen).
+  Speist [[nebenbestimmungen-und-reverse]] + [[baubewilligungsverfahren]].
 - [[06-baurechtliches-verfahren]] — Kap. 6 (S. 337-405, Kern; Kap. bis S. 422): **Baubewilligungs-
   verfahren** — Zweck/Umfang (§ 309/§ 320 PBG), **Bewilligungspflicht** + Abgrenzung Melde-/Anzeige-
   pflicht (Solar Art. 18a RPG, 30 Tage; Zweifel bejahen § 309 PBG), bewilligungspflichtige Vorhaben
@@ -123,9 +136,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien S.995-1061 + Grenzabstand-Zahlenwerk §§269-270/ABV S.1062-1085; **Gebaeudeabstand §§271-274 offen**) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
 | 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
+| 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟡 teilweise (7.1 Der kommunale baurechtl. Entscheid vollst. S.424-447 — Zustaendigkeit/Delegation/Ausstand/Inhalt/Nebenbestimmungen §321/Kostenentscheid; **7.2/7.3 Auskuenfte + Vorentscheid/Voranfrage S.448-484 offen**) |
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 — Belichtung/Belueftung/Mindestflaeche/Raumhoehe/Aufzug S.1241-1255; Ausruestungen/Einstellraeume-Detail + §§295-298 ab Shot 632 offen) |
 | 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie S.1433-1449; § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
-| 1-5, 7-8, 10-13, 18-19, 21-23 | uebrige | ⬜ offen |
+| 1-5, 8, 10-13, 18-19, 21-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.
