@@ -6,7 +6,7 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 29 Destillate erstellt; Prioritaet-1-PDFs weitgehend erschoepft, offen: FEZ-Flyer (gering), U-Wert_Gebäudehülle Restseiten, Foerderprogramm S.30-38 (siehe pdf-inventar) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 32 Destillate; Prio-1 erschoepft; **2026-06-19 neuer Solar-/PV-Block im SharePoint erfasst** (Ertragsreports, Indach, ZH-Formulare), 4 davon destilliert; offen: GreenPV/Fassaden-PV/PV*SOL/PREFA, EN-105/110, FEZ-Flyer, Foerderprogramm S.30-38 (siehe pdf-inventar Prio-2) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
@@ -36,3 +36,6 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | Minergie-Nachweiskurs 2023 — Antrag/Zertifizierung (Teil 2/3) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.43-57) | Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Pruefprozess AS↔ZS → minergie-zertifizierung-workflow |
 | Minergie-Fallstudie «Maison Climat» (Teil 2) | PL-04/wissen.minergie.ch/Kursunterlagen_230926 | destilliert (S.1-12) | gebautes Plusenergie-MFH Biel, Nachweis-Kennzahlen (F8); ⚠ Uebungswerte teils angepasst |
 | Heizsystem-/JAZ-Richtwerte WP/Fernwaerme/Pellets | Web-Synthese (Juni 2026) + KB-Bestand | destilliert (emerging) | JAZ-Richtwerte Luft ~3 / Sole ~4,5 / Wasser ~5 + Entscheidungslogik (F6) → waermepumpe-systemvergleich; ⚠ Richtwerte |
+| PV-Ertrag/Eigenverbrauch — 2 Praxisreports (SolarApp Einsiedeln 2024 / EnergieSchweiz Diemtigen 2023) | PL-04/Solaranlage/solarapp.ch + energieschweiz.ch | destilliert | ~950-1'025 kWh/kWp, EV 8-44 %, Autarkie/Saisonalitaet (F18) → pv-ertrag-eigenverbrauch-praxis; ⚠ PVGIS/Meteonorm-Schaetzung |
+| Sunskin roof — Indach-Solar Planung+Ausfuehrung (Eternit, Rev. 01.2022) | PL-04/Solaranlage/solar-home.ch/Sunskin | destilliert (S.1-14) | Indach-Eckwerte Neigung 10-60°/Hinterlueftung 60mm/Schneelast/NIN/Blitzschutz → sunskin-roof-indach-planung |
+| Energienutzungs-Deklaration geringfuegige Umbauten (Baudir. ZH, Sept 2022) | PL-04/_Formulare Kanton ZH | destilliert (vollst., 2 S.) | Schwellen ≤200k & ≤30 % GVZ + Umbau-U-Werte (B2) → energienutzungs-deklaration-geringfuegige-umbauten-zh |

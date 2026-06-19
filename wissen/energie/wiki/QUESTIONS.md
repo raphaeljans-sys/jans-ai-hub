@@ -25,7 +25,9 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   → `[[sommerlicher-waermeschutz]]` (FAQ F11). Offen: eigener Fenster-Artikel U_w/Aw + Winter-Zielkonflikt solarer Gewinn.
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
-  Offen: Ertrags-Kennzahlen je Ausrichtung/Neigung (kWh/kWp).
+  **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,
+  ~950-1'025 kWh/kWp, EV 8-44 %, Sommer 3-4× Winter) → `[[pv-ertrag-eigenverbrauch-praxis]]`, FAQ **F18**.
+  Offen nur noch: systematische Tabelle Ertrag je Ausrichtung × Neigung (Ost/Sued/West × 0-45°).
 - [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
   (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
   Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,
@@ -50,7 +52,9 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Destillat vollst., FAQ F16 geschaerft. Quelle damit erschoepft (nur noch Anhang-Detailskizzen 7.3.x).
 - [x] **E9** Private Kontrolle ZH / wer zeichnet den EN-Nachweis belegt ✓ 2026-06-11
   → `[[private-kontrolle-zh]]` (BBV I §4-7, EN-Formular-Matrix; FAQ F12 geschaerft).
-  Offen: Energienutzungs-Deklaration bei geringfuegigen Umbauten (B2).
+  **Energienutzungs-Deklaration geringfuegige Umbauten (B2) belegt ✓ 2026-06-19** (Schwellen
+  ≤ CHF 200'000 UND ≤ 30 % GVZ-Wert + keine Umnutzung; Umbau-U-Werte opak 0,25/Fenster 1,0)
+  → `[[energienutzungs-deklaration-geringfuegige-umbauten-zh]]`, FAQ F12 geschaerft.
 - [x] **E-H1** Heizleistung/Waermeerzeuger-Dimensionierung belegt ✓ 2026-06-08
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]`, FAQ F13.
 - [x] **E-H2** Rechenbeispiel Heizwaermebedarf (Monatsbilanz) belegt ✓ 2026-06-08

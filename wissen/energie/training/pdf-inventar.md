@@ -39,6 +39,23 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/fez_energie_events_2023_24_WEB-230913-120622.pdf` | — |
 | [x] `wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf` | 2026-06-09 (S. 1-16; Minergie-Ueberarbeitung 09/2023 — neue Kennzahlen + THGE) |
 
+## Prioritaet 2 — Solar/PV + ZH-Formulare (neu erfasst 2026-06-19, nicht im Inventar 2026-06-05)
+Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend.
+| Status | Quelle (PL-04/...) | KB-Datenstand |
+|---|---|---|
+| [x] `Solaranlage/solarapp.ch/Willerzell/2024-01-09 SolarReport Version 1.pdf` | 2026-06-19 (S. 1-12; Indach 7,9 kWp, 981 kWh/kWp, EV 44 %/Autarkie 53 % → pv-ertrag-eigenverbrauch-praxis) |
+| [x] `Solaranlage/energieschweiz.ch/Diemtigen/Photovoltaik-Report_3753_1-24_26_6.0kW.pdf` | 2026-06-19 (vollst.; 6 kWp, ~1'025 kWh/kWp, EV ~8 % Single → pv-ertrag-eigenverbrauch-praxis) |
+| [x] `Solaranlage/solar-home.ch/Sunskin/sunskinR_roofPlanungUndAusfuehrung_de.pdf` | 2026-06-19 (S. 1-14; Indach-Planung Neigung 10-60°/Hinterlueftung/Schneelast/NIN → sunskin-roof-indach-planung; Montagedetail S.22-65 offen) |
+| [x] `_Formulare Kanton ZH Baueingabe/Energienutzungs-Deklaration für geringfügige Umbauten 2022.pdf` | 2026-06-19 (vollst.; Schwellen ≤200k & ≤30 % GVZ + Umbau-U-Werte → energienutzungs-deklaration-geringfuegige-umbauten-zh; schliesst B2) |
+| [ ] `Solaranlage/_Literatur/20220606_GreenPV - Workshop 2.pdf` | — (Prio 2, PV-Workshop) |
+| [ ] `Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` | — (Vorgehen Fassaden-PV) |
+| [ ] `Solaranlage/solarapp.ch/Basel/2022-11-05 SolarReport Version 1-3.pdf` | — (weiterer Ertragsreport, redundant zu Willerzell) |
+| [ ] `Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01.pdf` | — (PV*SOL-Simulation, evtl. Ertrag je Ausrichtung) |
+| [ ] `Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach.pdf` | — (Solarpotenzial-Auszug) |
+| [ ] `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` | — (Indach-Metalldach-Solar, Produkt) |
+| [ ] `_Formulare Kanton ZH Baueingabe/EN-105.pdf` (Lueftung) · `EN-110-ZH.pdf` (Kuehlung) · `checkliste_gebaeudeschadstoffe.pdf` | — (ZH-Formulare, gering) |
+| [-] Datenblaetter (SI-Saphir, megasol M385, PREFA-Farbsortiment, Usermanual, Maison-Climat-Plaene) | nicht einzeln destilliert (geringe Uebertragbarkeit) |
+
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)
 | Status | Quelle | Datenstand |
 |---|---|---|

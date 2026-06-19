@@ -33,3 +33,6 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[minergie-zertifizierung-workflow]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Nachweiskurs | established (S. 43-57, Teil 2/3 Antrag/Label-Plattform/Pruefprozess) | Minergie 2023 / 25.09.2023 |
 | [[minergie-fallstudie-maison-climat]] | wissen.minergie.ch/Kursunterlagen_230926/230925_Fallstudie_Nachweiskurs | emerging (S. 1-12; Plusenergie-MFH Biel, Nachweis-Kennzahlen) | ⚠ Uebung 2023, Werte teils angepasst |
 | [[waermepumpe-systemvergleich]] | Web-Synthese (JAZ-Richtwerte + KB-Bestand WPesti/EN-LCC) | emerging (WP/Fernwaerme/Pellets, JAZ-Richtwerte) | ⚠ 2026-06-18 / JAZ = Bandbreiten, projektgenau WPesti |
+| [[pv-ertrag-eigenverbrauch-praxis]] | Solaranlage/solarapp.ch/Willerzell + Solaranlage/energieschweiz.ch/Diemtigen | established (2 reale Reports, kWh/kWp + Eigenverbrauch) | 2023/2024 — PVGIS/Meteonorm-Schaetzung |
+| [[sunskin-roof-indach-planung]] | Solaranlage/solar-home.ch/Sunskin/sunskinR_roofPlanungUndAusfuehrung_de | emerging (S. 1-14: Allgemeines/Abmessungen/Zubehoer/Planung) | ⚠ 2022 (Eternit-Produktdoku) |
+| [[energienutzungs-deklaration-geringfuegige-umbauten-zh]] | _Formulare Kanton ZH Baueingabe/Energienutzungs-Deklaration für geringfügige Umbauten 2022 | established (vollst., 2 S.) | ⚠ Sept 2022, gueltig bis 31.12.2027 |
