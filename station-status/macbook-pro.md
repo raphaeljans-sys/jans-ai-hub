@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.06.2026 07:56:29
+Stand: 19.06.2026 08:06:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:56)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.06.2026 07:56:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- df4ef8b nas-selfcommit: 4 Datei(en) 2026-06-19 07:45
+- 66adbf8 baurecht: Wiki-Artikel nebenbestimmungen-und-reverse auf echte Umlaute (Wiki-Konvention)

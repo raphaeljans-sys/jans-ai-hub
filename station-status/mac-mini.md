@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.06.2026 07:52:31
+Stand: 19.06.2026 08:12:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.06.2026 07:52:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- df4ef8b nas-selfcommit: 4 Datei(en) 2026-06-19 07:45
+- 66adbf8 baurecht: Wiki-Artikel nebenbestimmungen-und-reverse auf echte Umlaute (Wiki-Konvention)
