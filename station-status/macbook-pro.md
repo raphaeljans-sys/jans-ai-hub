@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.06.2026 06:25:26
+Stand: 19.06.2026 06:35:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.06.2026 06:25:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e3b037a energie run12: PV-Ertrag/Eigenverbrauch (FAQ F18) + Indach-Ausfuehrung + geringfuegige Umbauten
+- 7583f28 nas-selfcommit: 2 Datei(en) 2026-06-19 06:30
