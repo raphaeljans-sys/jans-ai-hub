@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-18
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
+last_updated: 2026-06-19
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md]
 links: [[INDEX]]
 ---
 
@@ -180,6 +180,13 @@ Erneuerbare-Waerme-Nachweis (EN-120 / EN-LCC-ZH).
 - **Lueftung/Kuehlung** EN-105/EN-110; **Beleuchtung** EN-111 (Nichtwohnbau >1000 m² EBF);
   **Laermschutz Waermepumpe** LN-1. Mit **Minergie-Label** entfallen EN-101–EN-111.
 - Bei Minergie/Grossbezuegern zusaetzlich Betriebsoptimierung (>200'000 kWh Strom/a).
+
+**Geringfuegiger Umbau — der kostenlose Abkuerzer:** Beim kleinen Umbau genuegt statt des vollen
+Nachweises **eine unterschriebene «Energienutzungs-Deklaration für geringfügige Umbauten»** — aber
+nur, wenn **beide** Schwellen halten: **(A) keine relevante Umnutzung** UND **(B) Umbaukosten ≤ CHF
+200'000 und ≤ 30 % des Gebaeudeversicherungswerts**. Die Daemm-Grenzwerte (opak U ≤ 0,25 / Fenster
+1,0 fuer jedes angefasste Bauteil) gelten trotzdem; vollstaendig ersetzte Bauteile → Neubauwert
+→ `[[energienutzungs-deklaration-geringfuegige-umbauten-zh]]`.
 
 **Wer unterschreibt?** Im Kt. ZH laeuft das ueber die **Private Kontrolle**: ein dazu
 **befugter Fachmann** (Architekt/Bauphysiker/HLK-Planer) unterschreibt die EN-Formulare auf
@@ -542,6 +549,47 @@ projektgenaue JAZ/COP aus einer Schweizer Primaerquelle (FWS/EnergieSchweiz), CH
 
 ---
 
+## F18 — «Wieviel Strom bringt meine PV-Anlage — und wieviel davon kann ich selbst nutzen?»
+
+**Kurz:** Rechne mit **rund 1'000 kWh Ertrag je kWp und Jahr** (gut besonntes Dach, Schweizer
+Mittelland) — ein 8-kWp-Dach liefert also ~8'000 kWh/a. Wieviel Du davon **selbst** nutzt, haengt
+fast nur an Deinem Verbrauchsprofil: **ohne Batterie ~8 % bei einem Single-Haushalt, bis ~44 % bei
+einem grossen Haushalt mit Waermepumpe und E-Auto**. Und: im **Sommer produziert die Anlage 3–4×
+so viel wie im Winter** — den Winter-Heizstrom deckt PV nicht.
+
+**Fachlich:** Zwei reale CH-Vorprojekte zeigen die Groessenordnungen:
+
+| Kennzahl | Bsp. A (gross, Indach 7,9 kWp, Einsiedeln) | Bsp. B (Single, Aufdach 6,0 kWp, Diemtigen) |
+|---|---|---|
+| **Spez. Ertrag** | 981 kWh/kWp | ~1'025 kWh/kWp |
+| Jahresproduktion | 7'743 kWh | 6'148 kWh |
+| **Eigenverbrauch** (o. Speicher) | 44 % der Produktion | ~8 % |
+| **Autarkie/Unabhaengigkeit** | 53 % | — (Single, kaum Tagslast) |
+| Sommer : Winter | ~3 : 1 | ~4 : 1 (771 vs. 188 kWh/Mt) |
+
+Drei Stellschrauben fuer mehr Eigennutzen (= bessere Wirtschaftlichkeit, weil selbstverbrauchter
+Strom ~25 Rp. wert ist, eingespeister nur ~8–10 Rp.):
+- **Anlage aufs Lastprofil dimensionieren**, nicht das Dach maximieren (ein Single mit Riesenanlage
+  speist fast alles ein).
+- **Lasten in die Sonnenstunden verschieben:** Waermepumpe/Warmwasser/E-Auto **tagsueber** laufen
+  lassen (Energiemanagement) — hebt den Eigenverbrauch oft von ~30 % auf ~50 %.
+- **Erst danach Batteriespeicher** — er bringt v. a. Abend-/Morgenstunden, lohnt sich rechnerisch
+  meist erst nach den Lastverschiebungs-Massnahmen.
+
+**Wirtschaftlichkeit:** Nach Foerderung (Einmalverguetung Bund + Steuerabzug, vgl. F7) liegt die
+Amortisation grob bei **12–24 Jahren** je nach Eigenverbrauch und Strompreis (Bsp. B: Nettoinvestition
+CHF 13'254, Gewinn CHF 554/a → 24 J); die Module halten 25–30 J. Die **energetische** Amortisation
+(graue Energie der Anlage) ist mit ~2 Jahren vernachlaessigbar.
+
+**Quelle:** zwei Praxis-Solarreports (SolarApp, Einsiedeln 2024 / EnergieSchweiz-Solarrechner,
+Diemtigen 2023) → `[[pv-ertrag-eigenverbrauch-praxis]]`; PV-Typ/Flaeche siehe F4, PV-Pflicht/Groesse
+F10, Foerderung F7, Indach-Integration `[[sunskin-roof-indach-planung]]`. ⚠ **Datenstand 2026-06-19:**
+Ertraege sind PVGIS-/Meteonorm-**Schaetzungen**, keine Messwerte; spez. Ertrag ist standort-/
+ausrichtungsabhaengig (projektgenau via `sonnendach.ch`/PVGIS). Verguetungstarife (Rueckliefer-/
+Eigenverbrauch) sind netzbetreiber- und jahresabhaengig — nicht beziffert belegt.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -550,5 +598,6 @@ projektgenaue JAZ/COP aus einer Schweizer Primaerquelle (FWS/EnergieSchweiz), CH
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-18: alle 17 Kernfragen F1-F17 belegt** — der Backlog ist damit auf Vertiefungen
-> (Primaerquellen, Kostenvergleiche, Spezialthemen) reduziert.
+> **FAQ-Stand 2026-06-19: 18 Kernfragen F1-F18 belegt** (neu **F18 PV-Ertrag/Eigenverbrauch**,
+> ~1'000 kWh/kWp + Eigenverbrauchs-Hebel, aus zwei realen CH-Solarreports) — der Backlog ist auf
+> Vertiefungen (Primaerquellen, Kostenvergleiche, Ertrag je Ausrichtung/Neigung) reduziert.

@@ -1,8 +1,8 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-06-07
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md]
+last_updated: 2026-06-19
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]] [[holzbau-bauphysik-clt]]
 ---
 
@@ -42,6 +42,24 @@ erfuellt zwei Funktionen.**
 ## Pflicht & Groesse
 Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, max. 30 kW (Detail → [[BAUHERREN-FAQ]] F10,
 `[[enfk-en-104-eigenstromerzeugung]]`). Typ-Wahl → [[BAUHERREN-FAQ]] F4.
+
+## Ertrag & Eigenverbrauch (Praxiswerte)
+- **Spez. Ertrag CH Mittelland/Voralpen: ~950–1'025 kWh/kWp·a** (zwei reale Vorprojekte, gut
+  besonntes Sued-/leicht-Ost-Dach ~26°). Schnellschaetzung Jahresertrag = **kWp × ~1'000 kWh**.
+- **Saisonalitaet hart:** Sommer ≈ **3–4× Winter** → PV deckt den WP-Heizstrom im Winter nicht;
+  «Plusenergie» = Jahres-Netzbilanz, kein Inselbetrieb.
+- **Eigenverbrauch ohne Speicher ist Lastprofil-Frage:** Single ~8 %, grosser Haushalt mit WP/E-Auto
+  ~44 %. Hebel: Anlage aufs Profil dimensionieren, **Lasten in die Sonnenstunden** (WP/WW/E-Auto
+  tagsueber), **dann** erst Batterie. Selbstverbrauchter Strom ist ~3× mehr wert als eingespeister.
+- **Flaeche:** Aufdach-Vollmodul ~5–8 m²/kWp; **Indach-Ziegelsystem braucht mehr** (~12 m²/kWp).
+- Details/Zahlen → [[BAUHERREN-FAQ]] F18, `[[pv-ertrag-eigenverbrauch-praxis]]`; Foerderung F7.
+
+## Indach in der Ausführung (Bsp. Eternit Sunskin roof)
+Rahmenloses Glas-Glas-Indachsystem (ersetzt Eindeckung). Eckwerte: **Dachneigung 10–60°**, Bezugshoehe
+≤ 2'000 m, **Hinterlueftung ≥ 60 mm** (Konterlattung), Dachlatten **C20 / Holzfeuchte ≤ 20 %**,
+Schnee-/Windlast nach SIA-Standort, **ESTI-Installationsbewilligung + NIN SEV 1000**, Blitzschutz/
+Potenzialausgleich einbinden, Verkabelung ohne Schlaufen. Brandschutz-Schnittstelle → swissolar-STP
+`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. Detail → `[[sunskin-roof-indach-planung]]`.
 
 ## Brandschutz (Schnittstelle Solar↔Gebaeude)
 Stand der Technik swissolar/VKF (Basis VKF-BSM 2001-15): drei Schnittstellen planen — **DC-Leitungen**
