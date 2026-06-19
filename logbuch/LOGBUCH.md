@@ -5,6 +5,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-19
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`/`--offen`), Kalender (M365, naechste 7 Tage) und
+  Mail-Eingang abgeglichen.
+- **Debitoren (live, `--verzug`/`--offen`):** noch zwei offene Rechnungen — RE-00087 (Kispi,
+  CHF 15'000, faellig 16.04., **64 Tage ueberfaellig**, Mahnstufe 1, naechste Frist 28.06.) und
+  RE-00097 (Hofer, CHF 500, faellig 16.06., **3 Tage ueberfaellig**, Mahnstufe 1, naechste Frist 30.06.).
+- **Erledigt/ins Archiv:** RE-00089 (Kispi, CHF 15'000, war faellig 18.06.) ist nicht mehr offen in
+  bexio (bezahlt/abgeglichen) und damit aus dem Faelligkeits-Radar — gestern noch «beobachten».
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** weiterhin nicht offen in bexio, keine neue
+  Korrespondenz heute. Mahnung 2 vom 13.06. bleibt gegenstandslos; vor Reaktion final verifizieren.
+- **NEU — SharePoint-Speicher voll:** Microsoft-Warnung (18.06. 18:19) «out of SharePoint Online
+  storage space», 1054 / 1054 GB belegt. Blockiert die OneDrive-Output-Ablage (30 JANS AI HUB OUTPUT)
+  und das Hochladen aus Word. Als operative Pendenz (mittel) ins Register; Speicher aufstocken oder
+  Altdaten aufraeumen.
+- **Kalender naechste 7 Tage (bestaetigt via Outlook):** 19.06. 19:00–21:00 Besichtigung David
+  (Bahnhofstrasse 27, HEUTE); 22.06. 15:00–16:00 Besprechung Schliessanlage Albertstrasse 7 (BKP
+  275.00, Teams, R. Steinmann/Nova + Struebi/Portunus). Beide bereits im Kalender, kein Eintrag noetig.
+- **Mail-Hinweise:** C. Duran (Gruner, 18.06.) bestaetigt, dass EN 105/EN 110 im EVEN-Portal erfasst
+  sind — fliesst in die EPROID-Nachfass-Pendenz (20.06.) ein. R. Steinmann (Nova, 18.06.) liefert zur
+  Albertstrasse die UG-Schrankanordnung (BKP 273) — Vorbereitungsmaterial fuer die Besprechung 22.06.
+- **Offen/nachfassen:** SharePoint-Speicher (18.06.), bexio-Doppelimport (Kontaktformular), EPROID
+  B26-00705.01 (20.06.), Mittagessen M. Prencipe (23.06.).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Operatives in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-18
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`/`--offen`), Kalender (M365, naechste 7 Tage) und

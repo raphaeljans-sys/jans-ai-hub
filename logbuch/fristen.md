@@ -3,20 +3,20 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 18.06.2026
+Stand: 19.06.2026
 
 ## Aktiv
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 63 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026; Eskalation auf Stufe 2 (Mahnung 1) pruefen | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 64 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026; Eskalation auf Stufe 2 (Mahnung 1) pruefen | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
-| 16.06.2026 | RE-00097 (Hofer, CHF 500) 2 Tage ueberfaellig — jetzt Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 | mahnwesen | Debitoren | tief | offen |
-| 18.06.2026 | RE-00089 (Kispi, CHF 15'000) wird heute faellig (noch nicht ueberfaellig) | mahnwesen | 2619 KISPI | mittel | beobachten |
+| 16.06.2026 | RE-00097 (Hofer, CHF 500) 3 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 | mahnwesen | Debitoren | tief | offen |
+| 18.06.2026 | SharePoint-Online-Speicher voll (1054 / 1054 GB belegt, Microsoft-Warnung 18.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |
 | 19.06.2026 | Besichtigung David, Bahnhofstrasse 27, 19:00–21:00 | kalender | Akquise | mittel | Termin |
-| 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH. Hinweis 17.06.: R. Zuercher (Stadt) meldet, das Formular EN-ZH-005 entfaellt, ersetzt durch Anmeldung auf EVEN-Plattform (direkt beim Kanton/EVEN-Support) | logbuch/mail | 2619 KISPI | mittel | nachfassen |
-| 22.06.2026 | Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00 Schliesssystem), 15:00–16:00 (Teams), mit R. Steinmann (Nova Property) + Struebi (Portunus) | kalender | 2620 Albertstrasse | mittel | Termin |
+| 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH. EN-ZH-005 entfaellt (EVEN-Plattform). C. Duran (Gruner) bestaetigt 18.06.: EN 105/EN 110 sind im EVEN-Portal erfasst — EPROID-Eingang verifizieren | logbuch/mail | 2619 KISPI | mittel | nachfassen |
+| 22.06.2026 | Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00 Schliesssystem), 15:00–16:00 (Teams), mit R. Steinmann (Nova Property) + Struebi (Portunus). Vorbereitung: Steinmann-Offerten BKP 272/273/275 (u.a. UG-Schrankanordnung, Mail 18.06.) | kalender | 2620 Albertstrasse | mittel | Termin |
 | 23.06.2026 | Mittagessen-Vorschlag M. Prencipe (Mail 17.06.) — Antwort/Termin noch offen | mail | Netzwerk | tief | nachfassen |
 | 13.12.2026 | bexio Personal Access Token erneuern (laeuft ab) | infrastruktur | bexio-Connector | mittel | beobachten |
 | 23.03.2028 | M365-Zertifikat erneuern (laeuft ab) | infrastruktur | M365-Connector | tief | beobachten |
@@ -25,6 +25,7 @@ Stand: 18.06.2026
 
 | Datum | Was | Quelle |
 |---|---|---|
+| 19.06.2026 | RE-00089 (Kispi, CHF 15'000, faellig 18.06.) nicht mehr offen in bexio (bezahlt/abgeglichen) — aus dem Faelligkeits-Radar raus | mahnwesen |
 | 17.06.2026 | Sitzung KISPI PPTS (Koordination LBW/Innere Verglasung, Brandschutz, Teams 10:00) durchgefuehrt; Y. Cetin (Gruner) lieferte am 17.06. die unterzeichneten Elektro-Brandlast-Dokumente | kalender/mail |
 | 17.06.2026 | RE-00096 (Tschopp, CHF 6'000, faellig 16.06.) nicht mehr offen in bexio (bezahlt) — aus dem Verzug raus | mahnwesen |
 | 16.06.2026 | RE-00088 nicht mehr offen in bexio (bezahlt/abgeglichen); Kispi meldet Zahlung 02.06. — Mahnung-2-Frist 19.06. entfaellt. Konflikt als aktive Pendenz «zu pruefen» uebernommen | mahnwesen |
