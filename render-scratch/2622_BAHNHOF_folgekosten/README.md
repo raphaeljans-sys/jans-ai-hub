@@ -10,9 +10,10 @@ ist alles hier versioniert (GitHub-Backup) und reproduzierbar.
 |---|---|---|
 | `260619_Grobkostenschaetzung_Folgekosten_*.pdf` | A4: Folgekosten Block A (Instandsetzung) + B (Dachausbau), Zeithorizont | ja |
 | `260619_Kaufpreisempfehlung-bereinigt_*.pdf` | A4: bereinigte Kaufpreisempfehlung (Kaufpreis-Wasserfall) | ja |
+| `260619_Brandschutz-Vorabklaerung_Treppenhaus_*.pdf` | A4: Brandschutz-Vorabklaerung Treppenhausbreite 1.0 m (VKF 16-15), Abweichung + Kompensation | ja |
 | `260619_Repro_Wissensstand_*.md` / `.pdf` | vollstaendiger Wissensstand: Daten, Methodik, Kennwerte, Ergebnisse, offene Punkte | Doku |
 | `260619_Kostenmodell_*.config.json` | maschinell reproduzierbare Eingaben/Kennwerte/Ergebnisse | nein |
-| `folgekosten.html` / `kaufpreisempfehlung.html` | Render-Quellen | nein |
+| `folgekosten.html` / `kaufpreisempfehlung.html` / `brandschutz_vorabklaerung.html` | Render-Quellen | nein |
 
 ## Reproduktion
 
@@ -24,7 +25,8 @@ python3 -m weasyprint kaufpreisempfehlung.html 260619_Kaufpreisempfehlung-berein
 ## SharePoint-Ablage (Zielordner)
 
 `sites/JANS.PROJEKTE/03 Studien/2622 Bahnhofstrasse 27 Wangen SZ/`
-- A4-PDFs → `09_Dokumente/04_Bewertung/`
+- Kosten-/Kaufpreis-A4 → `09_Dokumente/04_Bewertung/`
+- Brandschutz-Vorabklaerung → `09_Dokumente/02_Baurecht/`
 - Repro-Record + Konfig → `09_Dokumente/06_Arbeitsdokumente/`
 - (Kopie der A4 in `02_Korrespondenz/260609_KV Dachausbau/` sinnvoll, da KV-Thread)
 
