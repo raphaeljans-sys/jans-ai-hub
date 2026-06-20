@@ -3,19 +3,21 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 19.06.2026
+Stand: 20.06.2026
 
 ## Aktiv
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 64 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026; Eskalation auf Stufe 2 (Mahnung 1) pruefen | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 65 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026; Eskalation auf Stufe 2 (Mahnung 1) pruefen | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
-| 16.06.2026 | RE-00097 (Hofer, CHF 500) 3 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 | mahnwesen | Debitoren | tief | offen |
-| 18.06.2026 | SharePoint-Online-Speicher voll (1054 / 1054 GB belegt, Microsoft-Warnung 18.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
+| 16.06.2026 | RE-00097 (Hofer, CHF 500) 4 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 | mahnwesen | Debitoren | tief | offen |
+| 18.06.2026 | SharePoint-Online-Speicher voll (1056.8 / 1054 GB belegt, Microsoft-Warnung 18.+19.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |
-| 19.06.2026 | Besichtigung David, Bahnhofstrasse 27, 19:00–21:00 | kalender | Akquise | mittel | Termin |
+| 20.06.2026 | Ausmass Malerarbeiten an MIRO, Albertstrasse 7, 09:00–09:30 | kalender | 2620 Albertstrasse | mittel | Termin |
 | 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH. EN-ZH-005 entfaellt (EVEN-Plattform). C. Duran (Gruner) bestaetigt 18.06.: EN 105/EN 110 sind im EVEN-Portal erfasst — EPROID-Eingang verifizieren | logbuch/mail | 2619 KISPI | mittel | nachfassen |
+| 21.06.2026 | S. Sonderegger (KISPI, Mail 19.06.) zwei offene Fragen: (1) Reduit — Tuer-Loesung oder offen? (2) Wer/wann plant den Strom (Dosen/Lampen)? — Antwort offen | mail | 2619 KISPI | tief | nachfassen |
+| 22.06.2026 | Kontrolle Lueftung EVEN — Terminvorschlag privat einladen (F. Wuersch / KISPI + C. Duran / Gruner), 09:00–09:30 | kalender | 2619 KISPI | mittel | Termin |
 | 22.06.2026 | Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00 Schliesssystem), 15:00–16:00 (Teams), mit R. Steinmann (Nova Property) + Struebi (Portunus). Vorbereitung: Steinmann-Offerten BKP 272/273/275 (u.a. UG-Schrankanordnung, Mail 18.06.) | kalender | 2620 Albertstrasse | mittel | Termin |
 | 23.06.2026 | Mittagessen-Vorschlag M. Prencipe (Mail 17.06.) — Antwort/Termin noch offen | mail | Netzwerk | tief | nachfassen |
 | 13.12.2026 | bexio Personal Access Token erneuern (laeuft ab) | infrastruktur | bexio-Connector | mittel | beobachten |
@@ -25,6 +27,7 @@ Stand: 19.06.2026
 
 | Datum | Was | Quelle |
 |---|---|---|
+| 20.06.2026 | Besichtigung David (Bahnhofstrasse 27) am 19.06. 19:00–21:00 durchgefuehrt — Termin vorbei, aus dem Radar | kalender |
 | 19.06.2026 | RE-00089 (Kispi, CHF 15'000, faellig 18.06.) nicht mehr offen in bexio (bezahlt/abgeglichen) — aus dem Faelligkeits-Radar raus | mahnwesen |
 | 17.06.2026 | Sitzung KISPI PPTS (Koordination LBW/Innere Verglasung, Brandschutz, Teams 10:00) durchgefuehrt; Y. Cetin (Gruner) lieferte am 17.06. die unterzeichneten Elektro-Brandlast-Dokumente | kalender/mail |
 | 17.06.2026 | RE-00096 (Tschopp, CHF 6'000, faellig 16.06.) nicht mehr offen in bexio (bezahlt) — aus dem Verzug raus | mahnwesen |
