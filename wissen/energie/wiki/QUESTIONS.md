@@ -27,7 +27,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,
   ~950-1'025 kWh/kWp, EV 8-44 %, Sommer 3-4× Winter) → `[[pv-ertrag-eigenverbrauch-praxis]]`, FAQ **F18**.
-  Offen nur noch: systematische Tabelle Ertrag je Ausrichtung × Neigung (Ost/Sued/West × 0-45°).
+  **Dach-Eignung/Standortabfrage (sonnendach.ch/BFE) belegt ✓ 2026-06-20** (5 Eignungsklassen + Tool-
+  Annahmen 20 %/PR 80 % + reale Monatswerte) → `[[sonnendach-solarpotenzial-bfe]]`, FAQ **F19**.
+  **Fassaden-PV + Fassadenbegruenung belegt ✓ 2026-06-20** (opak 20 %/transp. 14 %, NOCT 42 °C,
+  Temp-Koeff −0,4 %/°C; Begruenung boden-/wandgebunden ≤30 kg/m²) → `[[greenpv-fassade-pv-begruenung-hslu]]`,
+  FAQ **F20**. **Kosten/Amortisations-Mechanik belegt ✓ 2026-06-20** → `[[pv-kosten-amortisation-praxis-ewz]]`.
+  Offen nur noch: systematische Tabelle Ertrag je Ausrichtung × Neigung (Ost/Sued/West × 0-45°);
+  quantitative Fassaden-Ertraege (kWh/kWp) + Kosten CHF/m²; aktuelle CHF/kWp (Swissolar-Marktbericht).
 - [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
   (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
   Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,

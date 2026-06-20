@@ -3,12 +3,12 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**18 Kernfragen F1–F18 belegt**, neu F18 PV-Ertrag/Eigenverbrauch; Backlog nur noch Vertiefungen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**20 Kernfragen F1–F20 belegt**, neu F19 sonnendach.ch/Dach-Eignung + F20 Fassaden-PV & Begruenung; Backlog nur noch Vertiefungen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
 - [[minergie-standards]] — Minergie/-P/-A/ECO + Eigenstromerzeugung (Stand 2023, mit THGE) · **established**
-- [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration + **Ertrag ~1'000 kWh/kWp & Eigenverbrauch (F18)** + **Indach-Ausfuehrung (Sunskin)** · **established**
+- [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration + **Ertrag ~1'000 kWh/kWp & Eigenverbrauch (F18)** + **Indach-Ausfuehrung (Sunskin)** + **Dach-Eignung sonnendach.ch (F19)** + **Fassaden-PV & Begruenung (F20)** + Kosten/Amortisation · **established**
 - [[energienachweis-zh]] — Energienachweis Kt. ZH (EN-ZH / EVEN seit 1.1.2026) · **established**
 - [[daemmstoffe-lambda]] — λ-Werte-Schnellreferenz (inkl. Naturdaemmstoffe/VIP/WDVS) · **established**
 - [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte + **WP-Systemwahl JAZ (F6)** · **established**

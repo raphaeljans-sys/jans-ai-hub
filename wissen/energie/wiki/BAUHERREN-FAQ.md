@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-19
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md]
+last_updated: 2026-06-20
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md]
 links: [[INDEX]]
 ---
 
@@ -590,6 +590,70 @@ Eigenverbrauch) sind netzbetreiber- und jahresabhaengig — nicht beziffert bele
 
 ---
 
+## F19 — «Taugt mein Dach ueberhaupt fuer Solar — wie finde ich das schnell heraus?»
+
+**Kurz:** Gib Deine Adresse auf **sonnendach.ch** (Bund/BFE) ein — Du siehst gratis und in
+Sekunden die **Eignung** Deines Dachs (5 Stufen), den moeglichen **Stromertrag** und die Daten
+zu Flaeche, Neigung und Ausrichtung. Das ist der schnellste serioese Einstieg, **bevor** Du eine
+Offerte einholst — ersetzt aber keine Fachberatung und sagt nichts zur Baubewilligung.
+
+**Fachlich:** Das amtliche Tool stuft die Dachflaeche nach der jaehrlichen Sonneneinstrahlung ein:
+
+| Eignung | Einstrahlung [kWh/m²·a] | Praxis |
+|---|---|---|
+| Gering | < 800 | meist unwirtschaftlich |
+| Mittel | 800–1'000 | kann lohnen (Eigenverbrauch!) |
+| **Gut** | 1'000–1'200 | wirtschaftlich |
+| **Sehr gut** | 1'200–1'400 | ideale Suedlage |
+| Hervorragend | ≥ 1'400 | Top |
+
+Zwei systematische Fallen, die man kennen muss: **(1)** Das Tool rechnet die **ganze Dachflaeche** —
+Kamine, Lukarnen, Dachfenster und Abstaende sind nicht abgezogen, real nutzbar sind oft nur 60–80 %.
+**(2)** Es rechnet mit pauschalen Annahmen (**Modul-Wirkungsgrad 20 %, Performance Ratio 80 %**,
+Strahlungsdaten 2004–2014) — die Ausgabe ist eine **Bandbreite, kein Garantiewert**. Den Ertrag
+verrechnet das Tool mit ~10 Rp/kWh (Mischwert: Eigenverbrauch spart bis 20 Rp, Einspeisung bringt
+unter 10 Rp) — was nochmal zeigt: PV zahlt sich ueber **Eigenverbrauch** aus, nicht ueber Einspeisung
+(vgl. F18). Fuer die projektgenaue Zahl danach **PVGIS** oder die Installateur-Offerte nutzen.
+**⚠ Achtung Kernzone/Denkmal:** auf Kultur-/Naturdenkmaelern von kantonaler/nationaler Bedeutung ist
+eine Anlage stets bewilligungspflichtig (Art. 18a RPG) → Skill `baurecht`.
+
+**Quelle:** sonnendach.ch / uvek-gis.admin.ch (BFE/MeteoSchweiz/swisstopo), Auszug-Mechanik +
+Eignungsklassen → `[[sonnendach-solarpotenzial-bfe]]`; Ertrags-/Eigenverbrauchszahlen F18 →
+`[[pv-ertrag-eigenverbrauch-praxis]]`. ⚠ **Datenstand 2026-06-20:** Tool-Annahmen konservativ-pauschal
+(Wirkungsgrad 20 % seit 09/2022, Strahlung 2004–2014); Verguetungs-/Strompreise marktabhaengig.
+
+---
+
+## F20 — «Kann ich auch an der Fassade Strom machen — oder die Fassade begruenen?»
+
+**Kurz:** Ja zu beidem. **Fassaden-PV** lohnt sich vor allem, wenn das Dach voll oder ungeeignet
+ist — senkrechte Module liefern gerade im **Winter** ueberproportional und gleichen so die
+Saisonalitaet der Dachanlage etwas aus; moderne **farbige/bedruckte Module (BIPV)** ersetzen dabei
+die Fassadenbekleidung, gestalterisch musst Du also nichts opfern. **Fassadenbegruenung** bringt
+keinen Strom, aber **Hitzeschutz, Laermdaempfung und Biodiversitaet** — ein wachsendes Thema gegen
+den Stadt-Hitzeeffekt. Auf einem Gebaeude lassen sich beide nach Orientierung verteilen.
+
+**Fachlich:** Fassaden-PV gibt es als **opakes Modul** (Wirkungsgrad ~20 %, ersetzt die Bekleidung)
+und als **transparentes/teiltransparentes Modul** (~14 %, ~30 % Lichtdurchlaessigkeit, fuer
+Bruestung/Verglasung). Wichtig: Module verlieren mit der Temperatur Leistung (**−0,4 %/°C** ueber
+Nenntemperatur, NOCT ~42 °C) → **Hinterlueftung** einplanen, sonst Sommer-Minderertrag.
+Begruenung kommt in zwei Systemen: **bodengebunden** (Kletterpflanzen an Seilstruktur, guenstig/
+leicht, aber langsam und hoehenbegrenzt 15–30 m) oder **wandgebunden** (modulare Pflanzwand,
+vorgehaengt-hinterlueftet, vollflaechig ab Tag 1, aber **bis 30 kg/m²**, automatische Bewaesserung +
+Naehrstoffe, hoher Unterhalt). Die Abwaegung: **PV = Strom + Sommerverschattung**; **Gruen =
+Kuehlung/Laerm/Biodiversitaet, aber Gewicht, Wasser, Pflege**. Beide sind Antworten auf
+Hitzewellen/Starkregen — Stichwort klimaangepasstes Bauen.
+
+**Quelle:** HSLU-Forschungsprojekt «GreenPV» (Fassade mit PV + Begruenung im Klimawandel),
+Workshop 2 (2022), Modul-Kennwerte + Begruenungs-Steckbriefe → `[[greenpv-fassade-pv-begruenung-hslu]]`;
+PV-Typen allgemein F4 → `[[pv-solar-technologien]]`; Saisonalitaet F18 →
+`[[pv-ertrag-eigenverbrauch-praxis]]`. ⚠ **Datenstand 2026-06-20:** Forschungs-Zwischenstand 2022;
+quantitative Fassadenertraege (kWh/kWp je Orientierung) und Kosten (CHF/m²) noch nicht belegt.
+**Solar-Brandschutz → Skill `brandschutz` (`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`);
+Bewilligung Fassaden-PV/Begruenung (Ortsbild/Kernzone) → Skill `baurecht`.**
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -598,6 +662,7 @@ Eigenverbrauch) sind netzbetreiber- und jahresabhaengig — nicht beziffert bele
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-19: 18 Kernfragen F1-F18 belegt** (neu **F18 PV-Ertrag/Eigenverbrauch**,
-> ~1'000 kWh/kWp + Eigenverbrauchs-Hebel, aus zwei realen CH-Solarreports) — der Backlog ist auf
-> Vertiefungen (Primaerquellen, Kostenvergleiche, Ertrag je Ausrichtung/Neigung) reduziert.
+> **FAQ-Stand 2026-06-20: 20 Kernfragen F1-F20 belegt** (neu **F19 sonnendach.ch / Eignung des Dachs**
+> + **F20 Fassaden-PV & Fassadenbegruenung**, aus dem BFE-Solarpotenzial-Tool und dem HSLU-Projekt
+> GreenPV) — der Backlog ist auf Vertiefungen (Primaerquellen, Kostenvergleiche, Ertrag je
+> Ausrichtung/Neigung, quantitative Fassadenertraege) reduziert.

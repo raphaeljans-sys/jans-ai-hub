@@ -36,3 +36,6 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[pv-ertrag-eigenverbrauch-praxis]] | Solaranlage/solarapp.ch/Willerzell + Solaranlage/energieschweiz.ch/Diemtigen | established (2 reale Reports, kWh/kWp + Eigenverbrauch) | 2023/2024 — PVGIS/Meteonorm-Schaetzung |
 | [[sunskin-roof-indach-planung]] | Solaranlage/solar-home.ch/Sunskin/sunskinR_roofPlanungUndAusfuehrung_de | emerging (S. 1-14: Allgemeines/Abmessungen/Zubehoer/Planung) | ⚠ 2022 (Eternit-Produktdoku) |
 | [[energienutzungs-deklaration-geringfuegige-umbauten-zh]] | _Formulare Kanton ZH Baueingabe/Energienutzungs-Deklaration für geringfügige Umbauten 2022 | established (vollst., 2 S.) | ⚠ Sept 2022, gueltig bis 31.12.2027 |
+| [[sonnendach-solarpotenzial-bfe]] | Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach | established (vollst., 3 S.; Eignungsklassen + reale Monatswerte) | 2023 (Wirkungsgrad 20 % seit 09/2022; Strahlung 2004–2014) |
+| [[greenpv-fassade-pv-begruenung-hslu]] | Solaranlage/_Literatur/20220606_GreenPV - Workshop 2 | emerging (S. 1-16; Fassaden-PV-Module + Begruenungssysteme) | ⚠ 2022 (HSLU-Forschungs-Zwischenstand) |
+| [[pv-kosten-amortisation-praxis-ewz]] | Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV | emerging (vollst., 3 S.; CHF/kWp + Amortisation + Verschattungs-Tradeoff) | ⚠ 2019 (Projektkorrespondenz, Marktwerte veraltet) |

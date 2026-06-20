@@ -47,11 +47,11 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [x] `Solaranlage/energieschweiz.ch/Diemtigen/Photovoltaik-Report_3753_1-24_26_6.0kW.pdf` | 2026-06-19 (vollst.; 6 kWp, ~1'025 kWh/kWp, EV ~8 % Single → pv-ertrag-eigenverbrauch-praxis) |
 | [x] `Solaranlage/solar-home.ch/Sunskin/sunskinR_roofPlanungUndAusfuehrung_de.pdf` | 2026-06-19 (S. 1-14; Indach-Planung Neigung 10-60°/Hinterlueftung/Schneelast/NIN → sunskin-roof-indach-planung; Montagedetail S.22-65 offen) |
 | [x] `_Formulare Kanton ZH Baueingabe/Energienutzungs-Deklaration für geringfügige Umbauten 2022.pdf` | 2026-06-19 (vollst.; Schwellen ≤200k & ≤30 % GVZ + Umbau-U-Werte → energienutzungs-deklaration-geringfuegige-umbauten-zh; schliesst B2) |
-| [ ] `Solaranlage/_Literatur/20220606_GreenPV - Workshop 2.pdf` | — (Prio 2, PV-Workshop) |
-| [ ] `Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` | — (Vorgehen Fassaden-PV) |
+| [x] `Solaranlage/_Literatur/20220606_GreenPV - Workshop 2.pdf` | 2026-06-20 (S. 1-16; HSLU GreenPV — Fassaden-PV opak 20 %/transparent 14 %, NOCT 42 °C, Temp-Koeff −0,4 %/°C + Begruenung boden-/wandgebunden → greenpv-fassade-pv-begruenung-hslu; quant. Endergebnisse/qual. Kapitel ab S. 17 offen) |
+| [x] `Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` | 2026-06-20 (vollst., 3 S.; ewz-Projektkorrespondenz — CHF 1'600–2'460/kWp 2019, Amortisation/Lebensdauer 25-30 J, Verschattungs-Tradeoff, PV+Gruendach → pv-kosten-amortisation-praxis-ewz; ⚠ Marktwerte veraltet) |
 | [ ] `Solaranlage/solarapp.ch/Basel/2022-11-05 SolarReport Version 1-3.pdf` | — (weiterer Ertragsreport, redundant zu Willerzell) |
 | [ ] `Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01.pdf` | — (PV*SOL-Simulation, evtl. Ertrag je Ausrichtung) |
-| [ ] `Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach.pdf` | — (Solarpotenzial-Auszug) |
+| [x] `Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach.pdf` | 2026-06-20 (vollst., 3 S.; sonnendach.ch/BFE — Eignungsklassen + reale Monatsproduktion + Verguetung → sonnendach-solarpotenzial-bfe; FAQ F19) |
 | [ ] `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` | — (Indach-Metalldach-Solar, Produkt) |
 | [ ] `_Formulare Kanton ZH Baueingabe/EN-105.pdf` (Lueftung) · `EN-110-ZH.pdf` (Kuehlung) · `checkliste_gebaeudeschadstoffe.pdf` | — (ZH-Formulare, gering) |
 | [-] Datenblaetter (SI-Saphir, megasol M385, PREFA-Farbsortiment, Usermanual, Maison-Climat-Plaene) | nicht einzeln destilliert (geringe Uebertragbarkeit) |
