@@ -31,14 +31,23 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
 - [ ] **A5** Eigentumsabfrage ObjektwesenZH per EGRID: Ablauf + ob automatisierbar.
 
 ## B — Recht & Norm
-- [~] **B1** Aktualitaet der Bundeserlasse in PL-02 gegen fedlex pruefen (Datenstand setzen).
-  ✓ Teil-erledigt 2026-06-08: fedlex-Bezugsschema belegt; **RPG 2 in Kraft 01.01./01.07.2026**
-  (Ordner-PDF 700/700.1 veraltet), **EnG SR 730.0 Stand 01.01.2026**. Offen: restliche `01_Bund`-
-  SR (451/NHG, 814.20/GSchG, 814.41/LSV, 151.3/BehiG) je Stand-Datum nachziehen.
-- [ ] **B2** ZH-Umsetzung **RPG 2** (PBG-/BZO-Folgen) belegt erfassen — verlinkt Skill `baurecht`.
-  (neu 2026-06-08; zh.ch "Umsetzung RPG 2")
-- [ ] **B3** `06_Richtlinien` (Behoerden-Richtlinien ZH/Stadt ZH, Minergie, GVZ, BfU) als
-  Wegweiser-Block ergaenzen, wenn ein Projekt sie braucht. (neu 2026-06-08)
+- [x] **B1** Aktualitaet der Bundeserlasse in PL-02 gegen fedlex pruefen (Datenstand setzen).
+  ✓ Teil-erledigt 2026-06-08 (Schema + RPG/EnG); **vollendet 2026-06-20 (Run 7):** alle relevanten
+  SR auf fedlex-ELI gemappt — BehiG `cc/2003/667`, NHG `cc/1966/1637_1694_1679` (Aend. AS 2025 429),
+  NHV `cc/1991/249_249_249`, GSchG `cc/1992/1860_1860_1860` (Stand 20250801), GSchV
+  `cc/1998/2863_2863_2863`, LSV `cc/1987/338_338_338` (Aend. AS 2023 582), RPV `cc/2000/310`
+  (Teilrev. AS 2025 659). **NEU:** fedlex-Redirect `redirect/rs/<SR>/de` (SR→geltende Fassung).
+  → [[recht-norm-quellenlandkarte]]. **Rest:** LRV 814.318.142.1 ELI offen (redirect nutzbar);
+  exaktes Stand-Datum je Erlass erst beim konkreten Zitat.
+- [~] **B2** ZH-Umsetzung **RPG 2** (PBG-/BZO-Folgen) belegt erfassen — verlinkt Skill `baurecht`.
+  ✓ **teil 2026-06-20 (Run 7):** Bund-Etappen (01.01./01.07.2026), Stabilisierungsziel **max. 2 %**
+  ausserhalb Bauzone (Basis 29.09.2023), Abbruchpraemie ab 01.07.2026, RPV-Teilrev. AS 2025 659;
+  ZH passt **PBG + Richtplan** an, direkt anwendbares Bundesrecht gilt schon, **ZH-Umsetzung noch
+  in Erarbeitung** → [[recht-norm-quellenlandkarte]] Abschnitt RPG 2. **Offen:** ZH-PBG-Fassung bei
+  Publikation nachziehen.
+- [x] **B3** `06_Richtlinien` (Behoerden-Richtlinien ZH/Stadt ZH, Minergie, GVZ, BfU) als
+  Wegweiser-Block ergaenzen. ✓ 2026-06-20 (Run 7): belegter Wegweiser-Block (BfU/Stadt-ZH-Absturz/
+  AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
 - [ ] **C1** Klaeren, ob ein duenner Verweis-Artikel auf `brandschutz` reicht oder PL-03-

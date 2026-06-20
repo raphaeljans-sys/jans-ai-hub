@@ -10,7 +10,7 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
 
 ## Recht & Norm (PL-02)
-- [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-Bezug, Datenstand RPG 2 2026 · **established**
+- [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-ELI vollstaendig (BehiG/NHG/GSchG/LSV/RPV…) + redirect-Endpunkt, RPG-2-Bund+ZH-Stand, 06_Richtlinien-Wegweiser · **established**
 - [[recht-norm-baurechtsanalysen-benchmarks]] — reale JANS-Faelle (08_) als Struktur-/Praezedenz-Benchmark · emerging
 
 ## Brandschutz (PL-03)

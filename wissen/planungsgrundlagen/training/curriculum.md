@@ -27,6 +27,9 @@ das Ergebnis in den passenden Wiki-Artikel.
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])
+- [x] R5 fedlex-ELI-Mapping aller Bundeserlasse + Redirect-Endpunkt (B1). (2026-06-20 Run 7: BehiG/NHG/NHV/GSchG/GSchV/LSV/RPV ELIs belegt; `redirect/rs/<SR>/de`; LSV≠LRV-Hinweis → [[recht-norm-quellenlandkarte]])
+- [x] R6 RPG 2 — Bund-Etappen + ZH-Umsetzungsstand (B2). (2026-06-20 Run 7: 01.01./01.07.2026, max-2%-Stabilisierung Basis 29.09.2023, Abbruchpraemie, RPV AS 2025 659; ZH PBG+Richtplan in Erarbeitung → [[recht-norm-quellenlandkarte]])
+- [x] R7 06_Richtlinien-Wegweiser (B3). (2026-06-20 Run 7: BfU/Stadt-ZH-Absturz/AWEL/Minergie/GVZ/2000-Watt belegt → [[recht-norm-quellenlandkarte]])
 - [~] R2 SZ vs. ZH: die haeufigsten Messweisen-Unterschiede (Hoehe, Abstand, Ausnuetzung). (2026-06-08, ZH=IVHB / SZ=PBG-Art. belegt verlinkt; Tiefe → `baurecht`)
 - [~] R3 Dispensrecht: typische Faelle aus `05_Dispensrecht` als Muster (Verweis baurecht). (2026-06-08, BRKE-Beispiel verortet; Detail → `baurecht`)
 - [x] R4 Reale JANS-Baurechtsanalysen (`08_`) als anonymisierte Benchmarks erschliessen. (2026-06-08, Fall-Index + Maur-Geruest, → [[recht-norm-baurechtsanalysen-benchmarks]])
