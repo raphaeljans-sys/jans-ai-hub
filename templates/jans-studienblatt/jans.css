@@ -32,7 +32,7 @@ body{
 .title{font-size:21px; font-weight:600; line-height:1.08; letter-spacing:-.016em; margin-top:2.0mm;}
 .subtitle{font-size:11px; color:var(--grey); font-weight:400; margin-top:1.4mm; line-height:1.35;}
 .rule{height:0; border:0; border-top:1px solid var(--line);}
-.rule.top{border-top:2px solid var(--ink);}
+.rule.top{border-top:1px solid var(--ink);}
 .hair{height:0;border:0;border-top:1px solid var(--hair);}
 
 /* ---------- Eckdaten / Meta strip ---------- */
@@ -44,7 +44,7 @@ body{
 .meta .val .num{font-size:9.4px;}
 
 /* ---------- KPI band (typografisch, keine Karten) ---------- */
-.kpi{display:flex; margin-top:3.2mm; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+.kpi{display:flex; margin-top:3.2mm; border-top:1px solid var(--hair); border-bottom:1px solid var(--hair);}
 .kpi .k{flex:1; padding:2.1mm 6mm 2.3mm 0;}
 .kpi .k + .k{padding-left:6mm; border-left:1px solid var(--hair);}
 .kpi .klab{font-family:"Fragment Mono",monospace; font-size:7.4px; letter-spacing:.14em; text-transform:uppercase; color:var(--grey);}
@@ -53,25 +53,25 @@ body{
 .kpi .knote{font-size:8.6px; color:var(--grey); margin-top:1.6mm; line-height:1.35;}
 
 /* ---------- Section ---------- */
-.sec{margin-top:3.0mm;}
-.sec.tight{margin-top:2.4mm;}
-.sechead{display:flex; align-items:baseline; gap:3.4mm; margin-bottom:1.8mm; padding-top:1.5mm; border-top:1.4px solid var(--ink);}
+.sec{margin-top:8.0mm;}
+.sec.tight{margin-top:6.0mm;}
+.sechead{display:flex; align-items:baseline; gap:3.4mm; margin-bottom:1.2mm;}
 .sechead .no{font-family:"Fragment Mono",monospace; font-size:10.5px; color:var(--ink); letter-spacing:0; line-height:1.1; flex:0 0 auto; min-width:6.5mm;}
 .sechead .ttl{font-family:"DM Sans",sans-serif; font-size:12.8px; font-weight:600; letter-spacing:-.008em; color:var(--ink); line-height:1.16;}
 .sechead .ttl .q{font-weight:400; color:var(--grey); font-size:10.8px; letter-spacing:0;}
 /* Alt-Stil (Fallback, falls noch .nm/.ln genutzt) */
 .sechead .nm{font-family:"DM Sans",sans-serif; font-size:12.8px; font-weight:600; letter-spacing:-.008em; color:var(--ink);}
 .sechead .ln{display:none;}
-p{font-size:9.7px; line-height:1.46;}
-p + p{margin-top:1.3mm;}
+p{font-size:9.7px; line-height:1.44;}
+p + p{margin-top:0.9mm;}
 .lead{color:var(--ink);}
 b,strong{font-weight:600;}
 
 /* ---------- Tabelle ---------- */
 table{width:100%; border-collapse:collapse; margin-top:.5mm;}
 th{font-family:"Fragment Mono",monospace; font-size:7.2px; letter-spacing:.12em; text-transform:uppercase; color:var(--grey);
-   text-align:left; font-weight:400; padding:0 4mm 1.6mm 0; border-bottom:1px solid var(--line); vertical-align:bottom;}
-td{font-size:9.4px; line-height:1.36; padding:1.1mm 4mm 1.1mm 0; border-bottom:1px solid var(--faint); vertical-align:top;}
+   text-align:left; font-weight:400; padding:0 4mm 1.1mm 0; border-bottom:1px solid var(--line); vertical-align:bottom;}
+td{font-size:9.4px; line-height:1.34; padding:0.95mm 4mm 0.95mm 0; border-bottom:1px solid var(--faint); vertical-align:top;}
 td:last-child,th:last-child{padding-right:0;}
 tr:last-child td{border-bottom:1px solid var(--hair);}
 .r{text-align:right;} .c{text-align:center;}
@@ -88,7 +88,7 @@ tr.total td .num{font-weight:400;}
 .st.ok  .dot{background:#fff;}
 
 /* ---------- Callout ---------- */
-.callout{margin-top:2.0mm; padding:1.8mm 0 0 0; border-top:1px solid var(--line);}
+.callout{margin-top:1.8mm; padding:0;}
 .callout .cl{font-family:"Fragment Mono",monospace; font-size:7.4px; letter-spacing:.16em; text-transform:uppercase; color:var(--grey);}
 .callout p{margin-top:1.2mm;}
 
