@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-06-18
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6]
+last_updated: 2026-06-20
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
 
@@ -145,6 +145,34 @@ Relation, Makrolagenrating der Gemeinde (WP Immo-Monitoring/Reports), Objektgroe
 kalibrieren (D3) — die WP-Anker oben sind die belegte Ausgangsbasis (Datenstand 2023,
 bei Anwendung Marktpuls pruefen).
 
+### Diskontsatz-Methodik der Bewertungshaeuser + Marktkontext 2026 (D3-Teilantwort)
+
+Wie die fuehrenden Schweizer Schaetzer (Wuest Partner, IAZI/CIFI) den Diskontsatz herleiten —
+als Methodengeruest fuer die noch offene JANS-Tabelle (Quelle: IAZI/CIFI «Discounted
+Cashflow-Methode», Web, Stand 2026; bestaetigt die WP-Kurslogik S. 53/54):
+
+- **Marktgerecht + risikoadjustiert je Liegenschaft:** Es gibt keinen pauschalen Satz; jede
+  Liegenschaft erhaelt einen aus **Transaktionen hergeleiteten, gemeindespezifischen
+  risikoadaequaten Diskontsatz** (hauseigene Marktmodelle fuer Mieten/Preise/Diskontsaetze je
+  Gemeinde CH).
+- **Plausibilisierung ueber den Kapitalmarkt (indirekte Herleitung):** Das risikolose
+  Basisniveau wird ueber das **Jahresmittel einer 10-jaehrigen Bundesobligation** bestimmt,
+  darauf die Risikozuschlaege (Illiquiditaet + objektspezifisches Risiko, vgl.
+  Risikozuschlagsmodell oben). Das ist die Bottom-up-Gegenprobe zum aus Transaktionen
+  abgeleiteten Satz.
+- **Marktkontext 2026 (warum die WP-2023-Anker weiter gelten):** Das Zinsumfeld ist 2026 wieder
+  sehr tief — **SNB-Leitzins 0.00 %** (gehalten 18.06.2026), **Referenzzins 1.25 %**,
+  Renditen 10-j. Bundesobligationen tief ([[investorenmarkt-makro]]). Damit liegt das
+  risikolose Basisniveau aehnlich/tiefer als im WP-Kursstand Sommer 2023 → die WP-Diskontanker
+  (Wohnbau real **2.1-3.0 %**, Gewerbe +0.6-1.5 Pp) bleiben als Ausgangsbasis **plausibel und
+  eher am unteren Rand** anzusetzen; kein genereller Aufschlag noetig. ⚠ Achtung Sensitivitaet:
+  −20 Bps → Marktwert +16 % (s.o.) — kleine Satzwahl, grosse Wertwirkung.
+- **JANS-Praxis-Bruecke:** Die effektiv verwendeten **2.50 % Kapitalisierung / 2.70 %
+  Diskontierung Residualwert** (JANS-Bewertungskonvention unten) liegen konsistent in diesem
+  Band — sie sind die gelebte D3-Kalibrierung fuer Wohnbau Durchschnittsgemeinde ZH. Offen
+  bleibt die vollstaendige Tabelle je Nutzung/Lage/Risiko (Bring-Schuld Raphael D3: Faustregeln
+  real vs. nominal, Gewerbe-/Healthcare-Zuschlaege).
+
 ### JANS-Bewertungskonvention (aus realen Faellen belegt, Stand 06.2026)
 
 Die effektiv in den JANS-Deliverables verwendeten Saetze (LB Thalwil 9568 28.03.2025, MA
@@ -280,8 +308,11 @@ Nettoertraege + Exitwert werden auf den Barwert abgezinst.
   eingearbeitet — damit ist die Schätzungsanleitung Kap. 5 vollständig erschlossen.
 - ✓ 2026-06-09: Diskontsatz-Anker (WP-Empfehlung + Erfahrungswerte 2023), Risikozuschlags-
   modell, Kapitalisierungs-Mathematik und Zins-Sensitivitaeten eingearbeitet.
-- JANS-Kalibrierung der Diskontsatz-Tabelle (D3) + Aktualisierung auf Zinsumfeld 2026
-  (WP-Werte sind Stand 2023 → Marktpuls T10).
+- ✓ 2026-06-20 (D3 Teilantwort, Run 7): Diskontsatz-**Methodik** der Bewertungshaeuser
+  (gemeindespezifisch aus Transaktionen + Plausibilisierung ueber 10-j Bundesobligation, IAZI/WP)
+  + **Marktkontext 2026** (SNB 0 % / Referenzzins 1.25 % → WP-2023-Anker bleiben plausibel, eher
+  unteres Band) eingearbeitet. Offen bleibt die **vollstaendige JANS-Tabelle je Nutzung/Lage/
+  Risiko** (real vs. nominal, Gewerbe-/Healthcare-Zuschlaege) — Bring-Schuld Raphael D3.
 - Bewirtschaftungs-/Unterhaltsquoten je Objekttyp: WP-Richtwerte siehe
   [[residualwertmethode]] (Betriebskosten 4.5-6 % Soll-Ertrag, IH 13-16 / IS 17-25
   CHF/m2 HNF); JANS-Abgleich offen.

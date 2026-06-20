@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-18
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web: Durchschnittszins 1.31 % nahe Erhoehungsschwelle 1.37 %), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025]
+last_updated: 2026-06-20
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026)]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -144,15 +144,24 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
   besteht für Bestandesmieten **kein referenzzinsbedingter Erhöhungsanspruch**, eher
   Senkungsanspruch für Mieten, die auf höheren Referenzwerten basieren. Quelle: BWO
   (bwo.admin.ch/referenzzinssatz), Stand 06.2026.
-  - **Trendwende voraus (Stand 06.2026):** der für den Referenzzins massgebende geglättete
-    **Durchschnittszinssatz der ausstehenden Hypotheken liegt bei 1.31 %** — nahe der
-    **Erhöhungsschwelle 1.37 %** (Senkungsschwelle 1.13 %). Steigt er über 1.37 %, springt der
-    Referenzzins erstmals seit 2023 wieder auf 1.50 % → dann **Mietzins-Erhöhungsanspruch** und
-    leichter Aufwärtsdruck auf Bestandes-Cashflows ([[ertragswert-dcf]]). Beobachtungspunkt für
-    die nächsten Quartale.
-- **SNB-Leitzins: 0.00 %** (seit Mitte 2025 wieder bei null nach der Straffung 2022–2023).
+  - **Trendwende ist (noch) ausgeblieben — Update 20.06.2026 (Run 7):** Die BWO hat am
+    **1. Juni 2026 den Referenzzinssatz bei 1.25 % bestätigt** — der für die nächsten Quartale
+    befürchtete Sprung auf 1.50 % ist **nicht eingetreten**, der geglättete Durchschnittszinssatz
+    der ausstehenden Hypotheken blieb unter der **Erhöhungsschwelle 1.37 %** (Senkungsschwelle
+    1.13 %). Nächste Publikation **1. September 2026**. Für die Bewertung heisst das: der für
+    Run 6 notierte Aufwärtsdruck auf Bestandes-Cashflows bleibt vorerst aus; Beobachtungspunkt
+    weiterhin, ob der Durchschnittszins über 1.37 % steigt. Quelle: BWO/WBF-Mitteilung 01.06.2026.
+- **SNB-Leitzins: 0.00 % — bestätigt an der geldpolitischen Lagebeurteilung vom 18.06.2026.**
+  Die SNB belässt den Leitzins unverändert bei null (seit Mitte 2025 wieder bei null nach der
+  Straffung 2022–2023). Die **Teuerung beschleunigte sich auf 0.6 % (Mai 2026)** von 0.1 %
+  (Februar) — klar **erdölgetrieben**, die **Kerninflation (ohne Energie) blieb verhalten**, daher
+  kein geldpolitischer Handlungsbedarf. BIP-Prognose **~1 % für 2026, ~1.5 % für 2027**; die
+  Interventionsbereitschaft am Devisenmarkt bleibt **erhöht** (Schutz gegen zu starken Franken).
   Der Referenzzinssatz folgt dem Leitzins **stark verzögert** (Durchschnitt aller laufenden
   Hypotheken, langjährige Festhypotheken), daher die Asymmetrie 0 % Leitzins ↔ 1.25 % Referenz.
+  Quelle: SNB-Lagebeurteilung 18.06.2026 (SRF/SNB, Web). **Bewertungsrelevanz:** das tiefe
+  Zinsniveau bleibt zementiert → Diskont-/Kapitalisierungssätze auf tiefem Niveau gestützt, hohe
+  Bewertungen halten ([[ertragswert-dcf]]).
 - **Bewertungsfolge:** tiefes Zinsniveau stützt Diskont-/Kapitalisierungssätze auf tiefem
   Niveau → hohe Bewertungen halten; aber Mietsenkungsdruck via Referenzzins dämpft den
   Bestandes-Cashflow ([[ertragswert-dcf]]).
@@ -176,6 +185,17 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
   — für JANS relevant, weil Stadt ZH und SZ-Innerschwyz (Einsiedeln, vgl.
   [[marktdaten-gemeinden/sz-einsiedeln-8840]]) eigene aktive Märkte berühren. Löst den
   Q4-2025-Stand (0.48) als aktuellen Anker ab. Quelle: UBS CIO / swissinfo, Stand Q1-2026.
+  - **Update 20.06.2026 (Run 7):** Der **SREBI Q2-2026 ist noch nicht publiziert** (Stand
+    20.06.2026); Q1-2026 = **0.69 «moderat»** bleibt der aktuelle Anker. Beobachtungspunkt für
+    den nächsten Lauf, ob der zweite starke Quartalsanstieg sich fortsetzt.
+- **Wüest-Partner-Prognose 2026 (Stand 06.2026, Web):** Transaktionspreise
+  **Eigentumswohnungen +2.8 %**, **Einfamilienhäuser +3.1 %** für 2026 (deckt sich mit der
+  UBS-Prognose Wohneigentum +3 %); **Bauinvestitionen +5.3 %** (Wohnungsbau zieht an, getrieben
+  von tiefen Zinsen und hoher Nachfrage, vgl. Baupreisindex unten). Die Nachfrage nach
+  Schweizer Immobilien dürfte sich 2026 leicht abkühlen (Stabilisierung nach den Hochjahren
+  2023/24), die Preisdynamik bleibt aber positiv. → Für die Bewertung: weiter leicht steigende
+  Verkaufs-/Vergleichswerte ([[vergleichswert-hedonisch]]), Erstellungskosten anziehend
+  ([[realwert-sachwert]]). Quelle: Wüest Partner via swissinfo/Blick 06.2026.
 - **Baupreisindex BFS (Basis Okt 2020 = 100):** Okt-2024 → Apr-2025 **+0.6 % auf 115.8**,
   Apr → Okt-2025 **+0.3 % auf 116.2** (Hochbau +0.9 % YoY; Treiber Rohbau 1, Sanitär, Elektro;
   grösste regionale Anstiege Ostschweiz +1.0 %, Genferseeregion +0.8 %). Wohnungsbau wächst
@@ -215,5 +235,11 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
 - ✓ 2026-06-18 (T10 laufend, Run 6): SREBI **Q1-2026 0.69** «moderat» (Hotspots GR/Einsiedeln/
   Stadt ZH/Nidwalden) + Referenzzins-Durchschnittssatz **1.31 % nahe Erhoehungsschwelle 1.37 %**
   (moegliche Trendwende) eingearbeitet.
-- T10 laufend: naechster SREBI (Q2-2026) + ob der Referenzzins auf 1.50 % springt; die
-  Wuest-Kurszahlen bleiben Stand 2022/23 (historische Anker).
+- ✓ 2026-06-20 (T10 laufend, Run 7): **SNB-Lagebeurteilung 18.06.2026** (Leitzins 0.00 % gehalten,
+  Inflation 0.6 % Mai erdoelgetrieben/Kerninflation verhalten, BIP ~1 %/~1.5 %) + **Referenzzins
+  per 01.06.2026 bei 1.25 % bestaetigt** (befuerchteter Sprung auf 1.50 % NICHT eingetreten) +
+  **WP-Prognose 2026** (Transaktionspreise EW +2.8 % / EFH +3.1 %, Bauinvestitionen +5.3 %)
+  eingearbeitet. SREBI Q2-2026 noch nicht publiziert.
+- T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
+  **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
+  2022/23 (historische Anker).
