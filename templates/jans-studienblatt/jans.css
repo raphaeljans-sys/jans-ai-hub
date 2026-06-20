@@ -1,0 +1,162 @@
+/* ============ JANS Architekten ETH/SIA — Dokument-CI ============ */
+@font-face{font-family:"DM Sans";src:url("fonts/DMSans.ttf");font-weight:100 900;font-style:normal;}
+@font-face{font-family:"DM Sans";src:url("fonts/DMSans-Italic.ttf");font-weight:100 900;font-style:italic;}
+@font-face{font-family:"Fragment Mono";src:url("fonts/FragmentMono.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Fragment Mono";src:url("fonts/FragmentMono-Italic.ttf");font-weight:400;font-style:italic;}
+
+:root{
+  --ink:#1A1A1A; --grey:#6A6A6A; --line:#1A1A1A; --hair:#CBCBCB; --faint:#E7E7E7;
+  --accent:#1A1A1A;   /* Standard = monochrom; Akzent-Variante ueberschreibt */
+  --pad:16mm;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+@page{size:A4 portrait;margin:0;}
+html,body{background:#fff;}
+body{
+  font-family:"DM Sans",sans-serif; color:var(--ink);
+  font-size:9.6px; line-height:1.5; font-weight:400;
+  -webkit-font-smoothing:antialiased; text-rendering:geometricPrecision;
+}
+.page{
+  position:relative; width:210mm; height:295mm; overflow:hidden;
+  padding:12mm var(--pad) 8.5mm var(--pad);
+  display:flex; flex-direction:column;
+}
+.mono{font-family:"Fragment Mono",monospace;}
+.num{font-family:"Fragment Mono",monospace; font-variant-numeric:tabular-nums;}
+
+/* ---------- Masthead ---------- */
+.mast{display:flex; justify-content:space-between; align-items:flex-start; padding-bottom:3.2mm;}
+.mast .brand{font-family:"Fragment Mono",monospace; font-size:8.2px; letter-spacing:.06em; color:var(--ink); text-align:right; line-height:1.5; white-space:nowrap;}
+.kicker{font-family:"Fragment Mono",monospace; font-size:8.2px; letter-spacing:.16em; text-transform:uppercase; color:var(--grey);}
+.title{font-size:19.5px; font-weight:500; line-height:1.1; letter-spacing:-.012em; margin-top:2.0mm;}
+.subtitle{font-size:11px; color:var(--grey); font-weight:400; margin-top:1.4mm; line-height:1.35;}
+.rule{height:0; border:0; border-top:1px solid var(--line);}
+.rule.top{border-top:2px solid var(--ink);}
+.hair{height:0;border:0;border-top:1px solid var(--hair);}
+
+/* ---------- Eckdaten / Meta strip ---------- */
+.meta{display:flex; gap:0; margin-top:2.2mm;}
+.meta .cell{flex:1; padding-right:6mm;}
+.meta .cell + .cell{padding-left:6mm; border-left:1px solid var(--hair);}
+.meta .lab{font-family:"Fragment Mono",monospace; font-size:7.4px; letter-spacing:.14em; text-transform:uppercase; color:var(--grey);}
+.meta .val{font-size:10px; margin-top:1.0mm; line-height:1.35;}
+.meta .val .num{font-size:9.4px;}
+
+/* ---------- KPI band (typografisch, keine Karten) ---------- */
+.kpi{display:flex; margin-top:3.2mm; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+.kpi .k{flex:1; padding:2.1mm 6mm 2.3mm 0;}
+.kpi .k + .k{padding-left:6mm; border-left:1px solid var(--hair);}
+.kpi .klab{font-family:"Fragment Mono",monospace; font-size:7.4px; letter-spacing:.14em; text-transform:uppercase; color:var(--grey);}
+.kpi .kfig{font-size:21px; font-weight:500; letter-spacing:-.02em; margin-top:1.4mm; line-height:1; font-variant-numeric:tabular-nums;}
+.kpi .kfig small{font-size:12px; font-weight:500; color:var(--ink);}
+.kpi .knote{font-size:8.6px; color:var(--grey); margin-top:1.6mm; line-height:1.35;}
+
+/* ---------- Section ---------- */
+.sec{margin-top:3.6mm;}
+.sec.tight{margin-top:3.0mm;}
+.sechead{display:flex; align-items:baseline; gap:3mm; margin-bottom:2.2mm;}
+.sechead .no{font-family:"Fragment Mono",monospace; font-size:8.4px; color:var(--ink); letter-spacing:.05em;}
+.sechead .nm{font-family:"Fragment Mono",monospace; font-size:8.4px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink); white-space:nowrap;}
+.sechead .ln{flex:1; border-top:1px solid var(--hair); transform:translateY(-2px);}
+p{font-size:9.7px; line-height:1.46;}
+p + p{margin-top:1.3mm;}
+.lead{color:var(--ink);}
+b,strong{font-weight:600;}
+
+/* ---------- Tabelle ---------- */
+table{width:100%; border-collapse:collapse; margin-top:.5mm;}
+th{font-family:"Fragment Mono",monospace; font-size:7.2px; letter-spacing:.12em; text-transform:uppercase; color:var(--grey);
+   text-align:left; font-weight:400; padding:0 4mm 1.6mm 0; border-bottom:1px solid var(--line); vertical-align:bottom;}
+td{font-size:9.4px; line-height:1.38; padding:1.3mm 4mm 1.3mm 0; border-bottom:1px solid var(--faint); vertical-align:top;}
+td:last-child,th:last-child{padding-right:0;}
+tr:last-child td{border-bottom:1px solid var(--hair);}
+.r{text-align:right;} .c{text-align:center;}
+td.k{color:var(--ink); font-weight:500;}
+td .cap{font-family:"Fragment Mono",monospace; font-size:8.2px; color:var(--grey);}
+tr.total td{border-bottom:none; border-top:1px solid var(--line); font-weight:600; padding-top:2.2mm;}
+tr.total td .num{font-weight:400;}
+
+/* Statusmarke — monochrom (Punkt-System) */
+.st{font-family:"Fragment Mono",monospace; font-size:8px; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap;}
+.st .dot{display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:4px; transform:translateY(.5px); border:1px solid var(--ink);}
+.st.bad .dot{background:var(--ink);}
+.st.mid .dot{background:linear-gradient(90deg,var(--ink) 50%,#fff 50%);}
+.st.ok  .dot{background:#fff;}
+
+/* ---------- Callout ---------- */
+.callout{margin-top:2.6mm; padding:2.2mm 0 0 0; border-top:1px solid var(--line);}
+.callout .cl{font-family:"Fragment Mono",monospace; font-size:7.4px; letter-spacing:.16em; text-transform:uppercase; color:var(--grey);}
+.callout p{margin-top:1.2mm;}
+
+/* ---------- Footer ---------- */
+.foot{margin-top:auto; padding-top:2.2mm;}
+.foot .legend{font-family:"Fragment Mono",monospace; font-size:7.6px; color:var(--grey); letter-spacing:.04em; display:flex; gap:5mm; margin-bottom:1.8mm;}
+.foot .legend .dot{display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:3px; border:1px solid var(--ink); transform:translateY(.5px);}
+.foot .legend .bad{background:var(--ink);} .foot .legend .mid{background:linear-gradient(90deg,var(--ink) 50%,#fff 50%);} .foot .legend .ok{background:#fff;}
+.foot .src{display:flex; justify-content:space-between; gap:8mm; padding-top:2.4mm; border-top:1px solid var(--line);}
+.foot .src .txt{font-size:7.8px; color:var(--grey); line-height:1.45; max-width:75%;}
+.foot .src .pg{font-family:"Fragment Mono",monospace; font-size:7.8px; color:var(--ink); letter-spacing:.06em; white-space:nowrap; text-align:right;}
+
+/* Spalten-Helfer für 2-col Methodik */
+.cols2{display:flex; gap:7mm;} .cols2 > *{flex:1;}
+.tag{font-family:"Fragment Mono",monospace;font-size:8.4px;color:var(--grey);}
+
+/* ============ Grafik-Komponenten (monochrom) ============ */
+/* Bandbreiten-Balken in Tabellenzelle */
+.bar{position:relative; height:5px; background:var(--faint); margin-top:3px;}
+.bar .fill{position:absolute; top:0; height:5px; background:var(--ink);}
+.bar .mean{position:absolute; top:-2px; width:1px; height:9px; background:var(--ink);}
+.bar .mean::after{content:""; position:absolute; left:-2px; top:-2px; width:5px; height:5px; border-radius:50%; background:#fff; border:1px solid var(--ink);}
+.barlab{font-family:"Fragment Mono",monospace; font-size:7px; color:var(--grey); letter-spacing:.06em;}
+
+/* Verhältnis-Balken (stacked) */
+.stack{display:flex; height:30px; border:1px solid var(--ink); margin-top:2mm;}
+.stack .seg{display:flex; flex-direction:column; justify-content:center; padding:0 3mm; border-right:1px solid var(--ink); position:relative;}
+.stack .seg:last-child{border-right:none;}
+.stack .seg.base{background:var(--ink); color:#fff;}
+.stack .seg.add{background:#fff;}
+.stack .seg.add.hatch{background:repeating-linear-gradient(45deg,#fff,#fff 3px,#E0E0E0 3px,#E0E0E0 4px);}
+.stack .seg .sv{font-family:"Fragment Mono",monospace; font-size:9px; font-weight:400; letter-spacing:.02em;}
+.stack .seg.total{background:#fff; flex:0 0 auto; border-left:2px solid var(--ink);}
+.stacklab{display:flex; margin-top:1.4mm;}
+.stacklab span{font-family:"Fragment Mono",monospace; font-size:7.2px; color:var(--grey); letter-spacing:.05em; padding-right:3mm;}
+
+/* Zeithorizont / Timeline */
+.tl{margin-top:2.5mm;}
+.tl .axis{position:relative; height:1px; background:var(--ink); margin:0 0 0 0;}
+.tl .ticks{display:flex; justify-content:space-between;}
+.tl .ticks .t{flex:1; padding-top:2.2mm; border-left:1px solid var(--hair); padding-left:2.5mm;}
+.tl .ticks .t:first-child{border-left:none; padding-left:0;}
+.tl .ph{font-family:"Fragment Mono",monospace; font-size:7.6px; letter-spacing:.1em; text-transform:uppercase; color:var(--grey);}
+.tl .it{font-size:10px; font-weight:500; margin-top:1.2mm;}
+.tl .ds{font-size:8.4px; color:var(--grey); margin-top:.6mm; line-height:1.3;}
+.tl .axis .node{position:absolute; top:-3px; width:5px; height:5px; border-radius:50%; background:var(--ink);}
+
+/* Waterfall (Kaufpreis-Bereinigung) */
+.wf{margin-top:2mm;}
+.wf .row{display:grid; grid-template-columns:46mm 1fr 26mm; align-items:center; gap:4mm; padding:1.4mm 0; border-bottom:1px solid var(--faint);}
+.wf .row:last-child{border-bottom:none;}
+.wf .lab{font-size:9px; line-height:1.25;}
+.wf .lab .s{font-family:"Fragment Mono",monospace; font-size:7px; letter-spacing:.08em; text-transform:uppercase; color:var(--grey); display:block; margin-top:.4mm;}
+.wf .track{position:relative; height:13px;}
+.wf .b{position:absolute; top:0; height:13px; background:var(--ink);}
+.wf .b.ded{background:repeating-linear-gradient(45deg,#fff,#fff 2.5px,#999 2.5px,#999 3.5px); border:1px solid var(--ink);}
+.wf .b.res{background:#fff; border:1.5px solid var(--ink);}
+.wf .v{font-family:"Fragment Mono",monospace; font-size:9.4px; text-align:right; font-variant-numeric:tabular-nums;}
+.wf .row.res .lab{font-weight:600;}
+
+/* drei Kennzahl-Endband */
+.endband{display:flex; margin-top:3.4mm; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+.endband .e{flex:1; padding:2.6mm 6mm 2.8mm 0;}
+.endband .e + .e{padding-left:6mm; border-left:1px solid var(--hair);}
+.endband .el{font-family:"Fragment Mono",monospace; font-size:7.4px; letter-spacing:.14em; text-transform:uppercase; color:var(--grey);}
+.endband .ev{font-size:18px; font-weight:500; letter-spacing:-.01em; margin-top:1.4mm; font-variant-numeric:tabular-nums;}
+.endband .en{font-size:8.4px; color:var(--grey); margin-top:1.2mm;}
+
+/* ============ Akzent-Variante (nur aktiv mit body.accent) ============ */
+body.accent .kpi .kfig{color:var(--accent);}
+body.accent .kpi .kfig small{color:var(--accent);}
+body.accent .st.bad .dot{background:var(--accent); border-color:var(--accent);}
+body.accent .foot .legend .bad{background:var(--accent); border-color:var(--accent);}
+body.accent .endband .e:first-child .ev{color:var(--accent);}
