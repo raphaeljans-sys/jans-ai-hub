@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 20.06.2026 06:22:00
+Stand: 20.06.2026 06:42:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.06.2026 06:22:00
 - 3 Datei(en): AR - 03 Studien / 2622 Bahnhofstrasse 27 Wangen SZ
 
 ## Hub-Git-Stand (NAS)
-- 1bd3e67 energie run13: Dach-Eignung (sonnendach.ch F19) + Fassaden-PV & Begruenung (F20) + PV-Kosten
+- 119dcfa nas-selfcommit: 1 Datei(en) 2026-06-20 06:30
