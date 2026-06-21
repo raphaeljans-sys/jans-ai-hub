@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.06.2026 06:29:39
+Stand: 21.06.2026 06:39:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:18)
@@ -12,4 +12,4 @@ Stand: 21.06.2026 06:29:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b1b43ae energie-training Run 14: Fassaden-PV-Ertrag (FAQ F21) + EN-105/EN-110 Lueftung/Kuehlung (FAQ F22)
+- 97344f1 nas-selfcommit: 2 Datei(en) 2026-06-21 06:30
