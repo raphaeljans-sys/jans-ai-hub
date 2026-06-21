@@ -95,13 +95,21 @@ zweck mit Auslandsbezug).
 
 ## Plan (agil, enge Scopes — Schritt 2)
 1. ✓ Schluesselentscheide fixiert (Interview-Runde 1+2).
-2. Firmenname JANS AG via Zefix verifizieren + AG-Zweck bestaetigen.
-3. Statuten-Entwurf aus Vorlage (`10 AG Gruendung/03_Statuten`); parallel Anmeldung HRA,
-   Wahlannahme VR, Erklaerung Revisionsverzicht, Erklaerung Rechtsdomizil, VR-Konstituierungs-
-   protokoll — je als Entwurf im JANS-Layout.
+2. ✓ Firmenname JANS AG via Zefix verifiziert (frei) + AG-Zweck final bestaetigt.
+3. ✓ **Statuten-Entwurf erstellt + verifiziert** (Korrektur-Harness, Apostrophe/NBSP/SHAB
+   bereinigt) — DOCX+PDF unter `10 AG Gruendung/03_Statuten/260621_Statuten_JANS-AG_Entwurf.*`.
+   OFFEN als naechste Checkpoints: Anmeldung HRA, Wahlannahme VR, Erklaerung Revisionsverzicht
+   (Opting-out), Erklaerung Rechtsdomizil, VR-Konstituierungsprotokoll — je Entwurf JANS-Layout.
 4. Verifikation je Dokument: Skill `korrektur`; Vorpruefung Notar/HRA; externes Signal HR-Eintrag.
 5. Folgeschritte: Sperrkonto/Bankbestaetigung, Beurkundung Notar, HR-Anmeldung, danach
    AHV/BVG/UVG/MWST + Versicherungsdeckung (vor erstem GU-Mandat).
+
+## Statuten-Entwurf — Notar-Platzhalter (bewusst offen gelassen)
+- Datum der Beurkundung; Amtsdauer-Detail VR; erstes (Rumpf-)Geschaeftsjahr Enddatum
+  (aktuell 31.12.2026 angenommen) — bei Beurkundung bestaetigen.
+- Stueckelung 100 Namenaktien à CHF 1'000 (anpassbar). Vinkulierung + Opting-out enthalten.
+- HR-Pflichtartikel ueber die schlanke Vorlage hinaus ergaenzt (GV, Stimmrecht, VR, Revisions-
+  stelle/Opting-out, SHAB). Notar finalisiert/beurkundet.
 
 ## Verifikation
 - Externes Signal: zefix.ch (Firmenname), spaeter HR-Eintrag.
