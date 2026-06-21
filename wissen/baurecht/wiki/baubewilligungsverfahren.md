@@ -1,9 +1,9 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-06-19
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 322 PBG", "BVV", "BBV I"]
-links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[07-zustaendigkeiten-entscheide-auskuenfte]]
+last_updated: 2026-06-21
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 322 PBG", "§ 328 PBG", "BVV", "BBV I"]
+links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[07-zustaendigkeiten-entscheide-auskuenfte]]
 ---
 
 # Baubewilligungsverfahren
@@ -21,7 +21,8 @@ sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltu
   gewisse Solaranlagen).
 
 ## Ablauf (ordentlich)
-1. Voranfrage (optional, bei komplexen Projekten empfohlen)
+1. Voranfrage / **baurechtlicher Vorentscheid** (optional, bei komplexen Projekten empfohlen;
+   für rechtsverbindliche Klärung grundlegender Fragen → [[baurechtlicher-vorentscheid-und-voranfrage]])
 2. Projektierung (Pläne, Nachweise, ggf. Brandschutz + Energienachweis)
 3. Baueingabe (Formulare/Beilagen nach BVV; elektronisch via eBaugesucheZH)
 4. Baugespann (Gebäudeumrisse + Höhen, mind. 30 Tage)
@@ -34,7 +35,16 @@ sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltu
 ## Fristen
 - Auflage- = Einsprachefrist: 30 Tage
 - Rekursfrist: 30 Tage ab Zustellung
-- Baubeginn: 3 Jahre nach Rechtskraft (Verlängerung auf Gesuch möglich)
+- **Baubeginn: 3 Jahre nach Rechtskraft (§ 322 Abs. 1 PBG) — Verwirkungsfrist, NICHT
+  verlängerbar.** Die Frist beginnt mit Rechtskraft der **letzten** koordinationspflichtigen
+  Bewilligung (§ 322 Abs. 2/3 PBG; § 20 BVV) und ist mit dem **Baubeginn** (Aushub/Abbruch)
+  gewahrt — nicht mit der Baufreigabe. Mit Ablauf **erlischt** die Bewilligung; danach braucht
+  es ein **neues, vollständig neu beurteiltes Baugesuch** (BEZ 2007 Nr. 27). Bei Stillstand der
+  Bauarbeiten kann die Beendigung befohlen werden (§ 328 PBG). Siehe
+  [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Bd 1, S. 454-456).
+  - *Korrektur 2026-06-21:* früher hier «Verlängerung auf Gesuch möglich» — das ist nach
+    § 322 Abs. 1 PBG **falsch** (Verwirkung). Nicht zu verwechseln mit § 328 PBG (Beendigung
+    bereits begonnener, stillstehender Bauten) oder einer befristeten Bewilligung/Provisorium.
 
 ## Wichtige Unterlagen bei Baueingabe
 Situationsplan 1:500, Grundrisse/Schnitte/Fassaden 1:100, Umgebungsplan,

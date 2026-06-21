@@ -87,29 +87,29 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 
 ## Fortschritts-Tracker
 
-- **Phase:** 1 (Aufbau, taeglich) — Start 2026-06-07. Kap. 7 **Teil 1** (7.1 Der kommunale baurechtl.
-  Entscheid) ist erfasst; **noch nicht** auf alle 2 Tage heruntergetaktet, weil der buerorelevante
-  Kern von Kap. 7 — die **Voranfrage / der baurechtl. Vorentscheid (7.2/7.3)** — erst im naechsten Lauf
-  distilliert wird. **Achtung:** Nach Kap. 7 **Teil 2** sind ALLE P1-Kapitel (14/16/15/17/20/6/7) im
-  Kern erfasst → dann **Phasenwechsel** hier vermerken und Cron auf alle 2 Tage (`30 7 */2 * *`)
-  heruntertakten (update_scheduled_task).
-- **Seiten distilliert:** ~290 / 1550 (~145 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
-  § 274, Kap. 16 Teil 1, Kap. 17 Teil 1, Kap. 20 Kern (§§ 220/357), Kap. 6 + Kap. 9 Kernbereich + Kap. 7
-  Teil 1 Band 1).
-- **Kapitel-Destillate:** 10 Buch-Destillate (Kap. 14, 15×4-Teile/16/17/20 Band 2 + Kap. 6/7/9 Band 1; alle `emerging`).
-- **Wiki:** 13 Artikel (neu [[nebenbestimmungen-und-reverse]] 2026-06-19 `emerging`; [[baubewilligungsverfahren]] geschaerft).
-- **Letzter Lauf:** Run 11, 2026-06-19 — **Kap. 7 Teil 1 (Der kommunale baurechtliche Entscheid)**,
-  Shots 213-225, S. 424-447 (11 Doppelseiten; 1 Dup, 2 ueberbel.): **Zustaendigkeit** § 318 PBG +
-  GG-Delegationen (§§ 41/44/45/50/51 GG), kein gemeindeinternes Einspracheverfahren (§ 315 Abs. 3 PBG
-  vor § 170 GG; direkt-Rekurs § 329), **Ausstand** (Art. 29/30 BV), **Inhalt** Rubrum/Begruendung/
-  Dispositiv, **Nebenbestimmungen § 321 PBG** (Auflage/Bedingung/Befristung/Reverse; Grundbuch-Anmerkung
-  deklaratorisch), Kostenentscheid-Beginn; neues Destillat [[07-zustaendigkeiten-entscheide-auskuenfte]],
-  neuer Wiki-Artikel [[nebenbestimmungen-und-reverse]] (Faktenbasis `auflagebereinigung`),
-  [[baubewilligungsverfahren]] geschaerft, **Modell C** 7 Karten + **Modell A** «Revers vor Baubeginn =
-  Auflage». (Run 10, 2026-06-18: Kap. 20 Ausnahmen/Bestandesschutz.)
-- **Naechster Lauf:** **Kap. 7 Teil 2** (Auskuenfte + baurechtlicher Vorentscheid / Voranfrage;
-  Band 1, S. 448-484, Shots ab ~226) — **hohe Bueroprioritaet** (Voranfrage = Kernwerkzeug); danach
-  P1 im Kern vollstaendig → Phasenwechsel + Cron-Taktung.
+- **Phase:** **2 (Vertiefung, alle 2 Tage) — Start 2026-06-21.** Mit Run 12 (Kap. 7 Teil 2) sind
+  **ALLE P1-Kapitel (14/16/15/17/20/6/7) im Kern erfasst** → Phase-1-Aufbau (taeglich) abgeschlossen.
+  **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
+  Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
+  P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
+- **Seiten distilliert:** ~330 / 1550 (~164 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
+  § 274, Kap. 16 Teil 1, Kap. 17 Teil 1, Kap. 20 Kern (§§ 220/357), Kap. 6 + Kap. 9 Kernbereich +
+  **Kap. 7 VOLLSTAENDIG** Band 1).
+- **Kapitel-Destillate:** 11 Buch-Destillate (Kap. 14, 15×4-Teile/16/17/20 Band 2 + Kap. 6/7×2/9 Band 1; alle `emerging`).
+- **Wiki:** 14 Artikel (neu [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21 `emerging`;
+  [[baubewilligungsverfahren]] korrigiert: Baubewilligungsfrist nicht verlaengerbar).
+- **Letzter Lauf:** Run 12, 2026-06-21 — **Kap. 7 Teil 2**, Shots 226-244, S. 448-484 (19 Doppelseiten):
+  Abschluss 7.1 (Zustellung/Zustellfiktion 7 Tage Art. 138 ZPO), **Gueltigkeit Baubewilligung 3 Jahre
+  § 322 PBG** (Verwirkung, nicht verlaengerbar; Fristbeginn letzte Bewilligung; Baubeginn=Aushub), **Widerruf**
+  (nach Bauvollendung grds. nicht, Vertrauensschaden Art. 9 BV, BGE 97 I 752), **besondere kant.
+  Zustaendigkeiten Anhang BVV** (AFV/ALN/AWEL/UVP-KOFU), **baurechtl. Vorentscheid §§ 323/324** (teilverbindlich,
+  3 J., nur Rechtsfragen, Kaufinteressent), **Auskuenfte** (Treu+Glauben, 5 Voraussetzungen) /
+  **Verhandlungsloesungen**; neues Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]],
+  neuer Wiki-Artikel [[baurechtlicher-vorentscheid-und-voranfrage]], [[baubewilligungsverfahren]] **Modell D
+  korrigiert** (Frist nicht verlaengerbar), **Modell C** 7 Karten. **Kap. 7 abgeschlossen → Phase 2.**
+  (Run 11, 2026-06-19: Kap. 7 Teil 1.)
+- **Naechster Lauf:** **Kap. 8** «Ausfuehrung von Bauarbeiten» (Band 1, ab S. 485, Shot 245) — ODER eine
+  P1-Restschuld vorziehen (Kap. 20 § 357 Abs. 4/5, Kap. 16 Dachaufbauten, Kap. 17 Ausruestungen).
 - **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
   Missstaende (S. 1456 ff.) + Brandstattrecht § 307 PBG (S. 1457 ff.) — Shots ab 729.
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
@@ -118,7 +118,6 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   (Shots ab 581, S. 1154 ff.).
 - **Restschuld Kap. 17:** Ausruestungen-Teil (Heizung/Klima/Elektro/Beförderungsanlagen § 4 ABV),
   §§ 295-298 PBG, Einstellraeume-Detail (Garagen §§ 37-39 BBV I) — Shots ab 632, S. 1256 ff.
-- **Restschuld Kap. 7:** 7.2/7.3 Auskuenfte + baurechtl. Vorentscheid/Voranfrage (Shots ab ~226,
-  S. 448-484) + Kostenentscheid-Detail; Restschuld Kap. 6 S. 405-422.
+- **Kap. 7: erledigt** (Teil 1 + Teil 2, S. 424-484). Restschuld Kap. 6 S. 405-422 offen.
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).

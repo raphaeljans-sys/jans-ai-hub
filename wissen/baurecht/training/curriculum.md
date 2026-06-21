@@ -24,7 +24,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 4 | Natur- und Heimatschutz | 267 | 294 | P3 | [ ] |
 | 5 | Planung und Entschaedigung | 311 | 316 | P3 | [ ] |
 | 6 | Baurechtliches Verfahren | 337 | **169** | **P1** | [~] (S.337-405: Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren; Rest S.405-422 offen) |
-| 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | **213** | **P1** | [~] (S.424-447: 7.1 Der kommunale baurechtl. Entscheid vollst. — Rechtsnatur/Zustaendigkeit §318/GG-Delegation/§329 direkt-Rekurs/Ausstand, Inhalt Rubrum/Begruendung/Dispositiv, **Nebenbestimmungen §321** Auflage/Bedingung/Befristung/Reverse + Grundbuch-Anmerkung, Kostenentscheid-Beginn. Offen: 7.2/7.3 **Auskuenfte + baurechtl. Vorentscheid/Voranfrage** ab Shot ~226, S. 448-484) |
+| 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | **213** | **P1** | **[x] VOLLSTAENDIG** (S.424-484, Shots 213-244). Teil 1 (7.1 Der kommunale baurechtl. Entscheid: §318/GG-Delegation/Ausstand/Inhalt/**Nebenbestimmungen §321**/Kostenentscheid). Teil 2 (S.448-484): **Gueltigkeit 3 J. §322** (Verwirkung, nicht verlaengerbar, Fristbeginn letzte Bewilligung, Baubeginn=Aushub), **Widerruf §-/BGE 97 I 752** (Vertrauensschutz, nach Bauvollendung grds. nicht), **Besondere kant. Zustaendigkeiten Anhang BVV** (AFV/ALN/AWEL/UVP-KOFU), **baurechtl. Vorentscheid §§323/324** (teilverbindlich, 3 J., nur Rechtsfragen), **Auskuenfte** (Treu+Glauben, 5 Voraussetzungen) / **Verhandlungsloesungen**. Destillate [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] + [[band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] |
 | 8 | Ausfuehrung von Bauarbeiten | 485 | ~245-269 | P2 | [ ] |
 | 9 | Rechtsschutz | 537 | **270** | P2 | [~] (S.537-575: Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen; Rest S.575-608 Ablauf/Kosten/Revision offen) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 609 | — | P2 | [ ] |
@@ -115,8 +115,8 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    BEZ 1996 Nr. 3). Destillat [[20-ausnahmen-bestandesschutz]], neuer Wiki-Artikel
    [[ausnahmebewilligung-und-bestandesschutz]] (schliesst QUESTIONS-Luecke Dispens). Restschuld Kap. 20:
    § 357 Abs. 4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 PBG, Shots ab 729.)*
-   ⏭️ **Naechster Lauf: Kap. 7 Teil 2** (Auskuenfte / baurechtl. Vorentscheid / Voranfrage) — danach
-   P1 im Kern vollstaendig → Phasenwechsel.
+   ✅ **Kap. 7 Teil 2 erledigt 2026-06-21, Run 12 → ALLE P1-Kapitel (14/16/15/17/20/6/7) im Kern
+   erfasst → PHASENWECHSEL auf Phase 2 (alle 2 Tage).**
 6. **Kap. 6 + 7** Verfahren + Zustaendigkeiten — Baueingabe, Voranfrage, Baurechtlicher Vorentscheid.
    *(Kap. 6 Kernbereich distilliert 2026-06-16, Run 8, S. 337-405, Shots 169-201: Bewilligungspflicht,
    Baugesuch § 310 PBG / § 5 BVV, Koordinationsgebot Art. 25a RPG, Verfahrensablauf/Fristen § 313/§ 319 PBG,
@@ -129,9 +129,21 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    (Art. 29/30 BV), Inhalt **Rubrum/Begruendung/Dispositiv**, **Nebenbestimmungen § 321 PBG** (Auflage/
    Bedingung/Befristung/Reverse, Grundbuch-Anmerkung deklaratorisch), Kostenentscheid-Beginn. Destillat
    [[07-zustaendigkeiten-entscheide-auskuenfte]], neuer Wiki-Artikel [[nebenbestimmungen-und-reverse]],
-   [[baubewilligungsverfahren]] geschaerft. Restschuld Kap. 7: **7.2/7.3 Auskuenfte + baurechtl.
-   Vorentscheid/Voranfrage** (Shots ab ~226, S. 448-484) — hohe Bueroprioritaet.)*
-   ⏭️ **Naechster Lauf: Kap. 7 Teil 2** (Auskuenfte/Vorentscheid/Voranfrage; Shots ab ~226, S. 448-484).
+   [[baubewilligungsverfahren]] geschaerft.
+   **Kap. 7 Teil 2** distilliert 2026-06-21, Run 12, S. 448-484, Shots 226-244: Abschluss 7.1
+   (Kosten/Rechtsmittelbelehrung/Zustellung/Zustellfiktion 7 Tage), **7.1.5 Gueltigkeit 3 J. § 322 PBG**
+   (Verwirkung, nicht verlaengerbar, Fristbeginn = Rechtskraft der letzten Bewilligung, Baubeginn =
+   Aushub/Abbruch nicht Baufreigabe, § 328 Stillstand), **7.1.6 Widerruf** (materielle Rechtsbestaendigkeit,
+   nach Bauvollendung grds. nicht, Vertrauensschaden Art. 9 BV, BGE 97 I 752), **7.2 Besondere kant.
+   Zustaendigkeiten Anhang BVV** (AFV/ausserhalb Bauzone Art. 24 RPG/ALN-Wald/AWEL/Laerm/UVP-KOFU),
+   **7.3 baurechtl. Vorentscheid §§ 323/324** (teilverbindlich, 3 J. Bindung, nur grundlegende projekt-
+   unabhaengige Rechtsfragen, Kaufinteressent ohne Baubefugnis, Drittwirkung seit 1.7.2014), **7.4
+   Auskuenfte** (Treu+Glauben, 5 kumulative Voraussetzungen) / **Verhandlungsloesungen**. Destillat
+   [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]], neuer Wiki-Artikel
+   [[baurechtlicher-vorentscheid-und-voranfrage]], [[baubewilligungsverfahren]] korrigiert (Frist nicht
+   verlaengerbar, Modell D). **Kap. 7 abgeschlossen.**)*
+   ⏭️ **Naechster Lauf: Kap. 8** «Ausfuehrung von Bauarbeiten» (ab Shot 245, S. 485) — oder Restschulden
+   P1 (Kap. 7 Restschuld keine; Kap. 20 § 357 Abs. 4/5, Kap. 14 Mischrechnungsverbot, Kap. 16 Dachaufbauten).
 7. **Kap. 12 + 13** Baureife + Grundanforderungen.
 8. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
    *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-

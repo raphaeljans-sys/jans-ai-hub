@@ -4,6 +4,33 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-21 — Buch-Destillat BAND 1 Kap. 7 Teil 2 (Gueltigkeit/Widerruf/Vorentscheid/Auskuenfte), Run 12 — **Kap. 7 abgeschlossen → Phase 2**
+- NEU `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (Shots 226-244, echte
+  Seiten 448-484, 19 Doppelseiten): Abschluss **7.1** (Kosten/Verzugszins 5 % § 29a VRG, Rechtsmittel-
+  belehrung § 10 VRG/Art. 49 BGG, **Zustellung** + **Zustellfiktion 7. Tag** Art. 138 ZPO, Zustelladressaten
+  § 315/§ 316 PBG), **7.1.5 Gueltigkeit der Baubewilligung** (= **3 Jahre** § 322 Abs. 1 PBG, **Verwirkung,
+  nicht verlaengerbar**; Fristbeginn = Rechtskraft der **letzten** koordinationspflichtigen Bewilligung
+  § 322 Abs. 2/3, § 20 BVV; Fristwahrung = **Baubeginn** Aushub/Abbruch, nicht Baufreigabe; Stillstand
+  § 328 PBG), **7.1.6 Widerruf** (materielle Rechtsbestaendigkeit BEZ 2014 Nr. 32; nach Bauvollendung grds.
+  nicht; Taeuschung/ueberwiegendes Interesse → Vertrauensschaden Art. 9 BV, BGer 2C_960/2013), **7.2 Besondere
+  kantonale Zustaendigkeiten (Anhang BVV)** (§ 2 lit. c/§ 7 BVV; AFV Strassen §§ 96/240/265, ausserhalb
+  Bauzone Art. 24 ff. RPG, ALN Wald 15 m § 262, AWEL Gewaesser § 8 EG GSchG, Laerm/Stoerfall, Befoerderungs-
+  anlagen § 296/§ 3 BBV I, UVP Art. 10a USG/KOFU), **7.3 baurechtlicher Vorentscheid §§ 323/324 PBG**
+  (teilverbindlich, **3 J. Bindung**, nur grundlegende projektunabhaengige Rechtsfragen, Kaufinteressent ohne
+  Baubefugnis VB.2013.00271, Drittwirkung seit 1.7.2014, BEZ 2014 Nr. 34), **7.4 Auskuenfte** (Treu+Glauben,
+  **5 kumulative** Voraussetzungen, Beweislast Art. 8 ZGB) / **Verhandlungsloesungen**. Status `emerging`.
+- NEU Wiki `wiki/baurechtlicher-vorentscheid-und-voranfrage.md` (`emerging`): Vorentscheid als Kernwerkzeug
+  der Vorabklaerung, Abgrenzung Auskunft/Verhandlungsloesung; speist `behoerden-vorabklaerung`/`machbarkeit`/
+  `ankaufspruefung`. Schliesst die HOHE-Bueroprio-Luecke aus QUESTIONS (2026-06-19).
+- KORREKTUR (Modell D) `wiki/baubewilligungsverfahren.md`: «Baubeginn-Frist auf Gesuch verlaengerbar» war
+  **falsch** → § 322 Abs. 1 PBG ist Verwirkung (nicht verlaengerbar); berichtigt + § 322/§ 328 PBG belegt;
+  Backlink [[baurechtlicher-vorentscheid-und-voranfrage]] gesetzt, Schritt 1 «Voranfrage» verlinkt.
+- DRILLS `training/drills.md`: **Modell C** 7 neue Karten (Gueltigkeit/Vorentscheid/Auskunft/Widerruf) +
+  **Modell D** Gegenprobe (Korrektur Verwirkungsfrist dokumentiert).
+- REGISTER: `seiten-inventar.md` Shots 226-244 → [x]; `curriculum.md` Kap. 7 → **[x] vollstaendig** +
+  Phasenwechsel; `buecher/INDEX.md` + `wiki/INDEX.md` + `wiki/QUESTIONS.md` nachgefuehrt.
+- PHASE: ALLE P1-Kapitel (14/16/15/17/20/6/7) im Kern erfasst → **Phase 2 (alle 2 Tage)**, Cron `30 7 */2 * *`.
+
 ## 2026-06-19 — Buch-Destillat BAND 1 Kap. 7 Teil 1 (Der kommunale baurechtliche Entscheid), Run 11
 - NEU `buecher/band-1/07-zustaendigkeiten-entscheide-auskuenfte.md` (Shots 213-225, echte Seiten 424-447,
   11 Doppelseiten; Shot 215 Duplikat, Shots 217/224 ueberbelichtet → needs-verification): Abschnitt **7.1

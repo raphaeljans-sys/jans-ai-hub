@@ -35,7 +35,9 @@ oder umbenannten Artikel aktualisieren.
 ### Verfahren
 - [[baubewilligungsverfahren]] — Verfahrensarten, Ablauf, Fristen, Unterlagen; **Zuständigkeit/Baubehörde** (§ 318 PBG + GG-Delegationen), **Inhalt des Entscheids** (Rubrum/Begründung/Dispositiv) · *established*
 - [[nebenbestimmungen-und-reverse]] — **Nebenbestimmungen der Baubewilligung** (§ 321 PBG): Auflage (erzwingbar § 326) vs. Bedingung (künftiges Ereignis) vs. Befristung (Provisorium, **kein Bestandesschutz**, max. 5 J.) vs. **Revers** (gemischt; Areal-/Mehrwert-/Ausnützungs-/Nutzungsrevers); Grundbuch-Anmerkung **deklaratorisch** (BGE 111 Ia 183); «Revers vor Baubeginn» = Auflage, nicht Bedingung (BEZ 2004 Nr. 67); Faktenbasis für `auflagebereinigung` · *emerging*
+- [[baurechtlicher-vorentscheid-und-voranfrage]] — **baurechtlicher Vorentscheid** (§§ 323/324 PBG): teilverbindliche, rechtsmittelfähige, **3 Jahre** wirksame Verfügung über **grundlegende, projektunabhängige Rechtsfragen** (nicht Einordnung/Detail; Kaufinteressent ohne Baubefugnis-Nachweis zulässig, VB.2013.00271; Drittwirkung seit 1.7.2014); Abgrenzung zur **Auskunft** (Treu+Glauben, 5 kumulative Voraussetzungen, kaum je bindend) und **Verhandlungslösung**; Kernwerkzeug der Vorabklärung · *emerging*
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] (Destillat Bd 1, Kap. 7 Teil 1) — Buchsynthese «Der kommunale baurechtliche Entscheid» §§ 318/321 PBG, Belegquelle · *emerging*
+- [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Destillat Bd 1, Kap. 7 Teil 2) — Buchsynthese **Gültigkeit/Widerruf der Baubewilligung** (§§ 322/328 PBG, 3-J.-Verwirkung), **besondere kant. Zuständigkeiten Anhang BVV**, **Vorentscheid §§ 323/324**, **Auskünfte/Verhandlungslösungen**; **schliesst Kap. 7**, Belegquelle · *emerging*
 
 ### Planung & Gestaltung
 - [[raumplanung-und-gestaltung]] — Richtplan, Nutzungsplanung, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*

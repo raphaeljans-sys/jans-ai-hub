@@ -365,3 +365,46 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   `auflagebereinigung`, um die Frist «vor Baubeginn / vor Arbeitsvergabe / vor Inbetriebnahme»
   je Auflage richtig zu setzen. Verknuepft [[nebenbestimmungen-und-reverse]] +
   [[ausnuetzungsuebertragung]].
+
+### Modell C — Selbsttest-Karten (2026-06-21, aus Buch-Run Kap. 7 Teil 2, Vorentscheid/Gueltigkeit)
+- **F:** Wie lange ist eine Baubewilligung im Kt. ZH gueltig, und kann die Frist verlaengert werden?
+  — **A:** **3 Jahre** ab Rechtskraft (§ 322 Abs. 1 PBG); es ist eine **Verwirkungsfrist** —
+  **keine Verlaengerung** moeglich. Nach Ablauf erlischt die Bewilligung; danach neues, vollstaendig
+  neu beurteiltes Baugesuch (BEZ 2007 Nr. 27; Bd 1, S. 456). _[2026-06-21]_
+- **F:** Ab wann laeuft die 3-Jahres-Frist, wenn ein Projekt mehrere Bewilligungen braucht? — **A:**
+  Ab **Rechtskraft der letzten** koordinationspflichtigen Bewilligung (§ 322 Abs. 2/3 PBG; § 20
+  Abs. 1 BVV). Anfechtung haelt die Frist an — auch ein **Zivilprozess** (Dienstbarkeit) (Bd 1, S. 455).
+- **F:** Womit ist die Baubewilligungsfrist gewahrt — mit der Baufreigabe? — **A:** **Nein**, mit dem
+  faktischen **Baubeginn** (Aushub bzw. Abbruch der bestehenden Baute), nicht mit der Erteilung der
+  Baufreigabe (§ 322 Abs. 1, § 326 PBG). Bei mehreren Gebaeuden (Areal) genuegt **ein** Gebaeude
+  (§ 322 Abs. 3 Satz 2 PBG; Bd 1, S. 456). _[2026-06-21]_
+- **F:** Was kann Gegenstand eines baurechtlichen Vorentscheids sein — und was nicht? — **A:** Nur
+  **konkrete, grundlegende, projektunabhaengige RECHTSfragen** (§ 323 Abs. 1 PBG; z. B. «Neubau/
+  Ersatzbau zulaessig?»). **Nicht** Fragen tatsaechlicher Natur, nicht die **Einordnung** (§ 238),
+  nicht Einzonungs-Zusicherungen (VB.2004.00566); Schutzwuerdigkeit → Provokation § 213 PBG
+  (Bd 1, S. 478-479). _[2026-06-21]_
+- **F:** Wie lange bindet ein Vorentscheid die Behoerde, und gilt das auch fuer ein in Aussicht
+  gestelltes Nein? — **A:** **3 Jahre** ab Rechtskraft bei unveraenderten Verhaeltnissen (§ 322
+  Abs. 1, § 324 PBG); Bindung **nur bei positivem** Vorentscheid und nur soweit das **Dispositiv**
+  reicht. Auf eine angekuendigte **Bauverweigerung** kann die Behoerde zurueckkommen (BEZ 2014
+  Nr. 34; Bd 1, S. 480). _[2026-06-21]_
+- **F:** Bindet eine muendliche Bauamtsauskunft die Behoerde? — **A:** **Praktisch nein.** Nur
+  ausnahmsweise via Treu und Glauben, bei **5 kumulativen** Voraussetzungen (konkrete Person /
+  zustaendig / Unrichtigkeit nicht erkennbar / Dispositionen getroffen / keine Rechtsaenderung;
+  Haefelin/Mueller/Uhlmann Rz. 667 ff.). Wer Verbindlichkeit will, verlangt einen **Vorentscheid**
+  (Bd 1, S. 482). _[2026-06-21]_
+- **F:** Kann eine rechtskraeftige Baubewilligung nach Bauvollendung widerrufen werden? — **A:**
+  **Grundsaetzlich nein** (materielle Rechtsbestaendigkeit) — ausser bei **Taeuschung** der Behoerde
+  oder **wichtigen oeffentlichen Interessen**; dann ggf. **Vertrauensschaden** (Art. 9 BV; BGer
+  2C_960/2013; Bd 1, S. 458). Das private Vertrauensinteresse waechst mit dem Baufortschritt. _[2026-06-21]_
+
+### Modell D — Gegenprobe / Adversarial (2026-06-21)
+- **Geprueft:** Der Wiki-Artikel [[baubewilligungsverfahren]] behauptete unter «Fristen»: «Baubeginn:
+  3 Jahre nach Rechtskraft (**Verlaengerung auf Gesuch moeglich**)».
+- **Befund: FALSCH.** § 322 Abs. 1 PBG (Bd 1, S. 456) stipuliert eine **Verwirkungsfrist**; «Eine
+  Verlaengerung der Frist ist nicht moeglich». Verwechslungsgefahr mit (a) § 328 PBG — Beendigung
+  bereits **begonnener**, stillstehender Bauten innert befohlener Frist (das ist keine Verlaengerung
+  der Baubewilligungsfrist) und (b) der befristeten Bewilligung/Provisorium (max. 5 Jahre, kein
+  Bestandesschutz, vgl. [[nebenbestimmungen-und-reverse]]).
+- **Korrektur ausgefuehrt:** Eintrag in [[baubewilligungsverfahren]] berichtigt + Beleg
+  § 322/§ 328 PBG (Bd 1, S. 454-456) ergaenzt. _[2026-06-21]_

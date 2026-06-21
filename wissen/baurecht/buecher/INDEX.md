@@ -104,8 +104,21 @@ Trainingslauf (`../training/PROGRAMM.md`).
   § 321 PBG** (Auflage erzwingbar § 326 PBG vs. Bedingung; Befristung/Provisorium = kein Bestandes-
   schutz, max. 5 J., BEZ 1992 Nr. 8; **Revers**-Typen; Grundbuch-Anmerkung deklaratorisch BGE 111 Ia 183,
   Art. 164 GBV), Kostenentscheid-Beginn (§ 13 VRG/§ 340f PBG). 11 Doppelseiten (213-225; 1 Dup, 2 ueberbel.).
-  Status: `emerging` (**7.2/7.3 Auskuenfte + baurechtl. Vorentscheid/Voranfrage** S. 448-484 offen).
-  Speist [[nebenbestimmungen-und-reverse]] + [[baubewilligungsverfahren]].
+  Status: `emerging`. Speist [[nebenbestimmungen-und-reverse]] + [[baubewilligungsverfahren]].
+- [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] — Kap. 7 Teil 2 (S. 448-484): **Abschluss
+  7.1** (Kosten/Verzugszins 5 % § 29a VRG, Rechtsmittelbelehrung § 10 VRG, **Zustellung** + Zustellfiktion
+  7. Tag Art. 138 ZPO, Zustelladressaten § 315/§ 316 PBG), **7.1.5 Gueltigkeit** (Baubewilligung **3 Jahre**
+  § 322 Abs. 1 PBG = **Verwirkung, nicht verlaengerbar**; Fristbeginn = Rechtskraft der **letzten** Bewilligung
+  § 322 Abs. 2/3, § 20 BVV; Fristwahrung = **Baubeginn** Aushub/Abbruch, nicht Baufreigabe; Stillstand § 328),
+  **7.1.6 Widerruf** (materielle Rechtsbestaendigkeit BEZ 2014 Nr. 32; nach Bauvollendung grds. nicht; Taeuschung/
+  ueberwiegendes Interesse → Vertrauensschaden Art. 9 BV, BGer 2C_960/2013), **7.2 Besondere kant. Zustaendigkeiten
+  Anhang BVV** (§ 2 lit. c/§ 7 BVV; AFV Strassen, ausserhalb Bauzone Art. 24 ff. RPG, ALN Wald 15 m § 262,
+  AWEL Gewaesser, Laerm/Stoerfall, Befoerderungsanlagen § 296, UVP Art. 10a USG/KOFU), **7.3 baurechtl.
+  Vorentscheid §§ 323/324** (teilverbindlich, **3 J. Bindung**, nur grundlegende projektunabhaengige Rechtsfragen,
+  Kaufinteressent ohne Baubefugnis VB.2013.00271, Drittwirkung seit 1.7.2014, BEZ 2014 Nr. 34), **7.4 Auskuenfte**
+  (Treu+Glauben, **5 kumulative** Voraussetzungen, Beweislast Art. 8 ZGB) / **Verhandlungsloesungen** (offene
+  Normen, Grenze Rechtsgleichheit). 19 Doppelseiten (226-244). Status: `emerging`. **SCHLIESST Kap. 7.**
+  Speist [[baurechtlicher-vorentscheid-und-voranfrage]] + [[baubewilligungsverfahren]] (korrigiert).
 - [[06-baurechtliches-verfahren]] — Kap. 6 (S. 337-405, Kern; Kap. bis S. 422): **Baubewilligungs-
   verfahren** — Zweck/Umfang (§ 309/§ 320 PBG), **Bewilligungspflicht** + Abgrenzung Melde-/Anzeige-
   pflicht (Solar Art. 18a RPG, 30 Tage; Zweifel bejahen § 309 PBG), bewilligungspflichtige Vorhaben

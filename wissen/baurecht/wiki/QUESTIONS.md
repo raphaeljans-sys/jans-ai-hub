@@ -46,17 +46,33 @@ wurden.
   PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).
 
 ## Offene Wissenslücken — neu (2026-06-19, aus Buch-Run Kap. 7 Teil 1)
-- **7.2/7.3 Auskünfte + baurechtlicher Vorentscheid / Voranfrage offen (HOHE Büroprio):** Kap. 7
-  Teil 1 (7.1 Der kommunale baurechtliche Entscheid) ist distilliert; die für den Bauberatungs-
-  alltag zentrale **Voranfrage / der baurechtliche Vorentscheid** (verbindliche vs. unverbindliche
-  Auskunft, Bindungswirkung, Zuständigkeit) steht noch aus — ab Shot ~226, S. 448-484. **Nächster
-  Lauf.** Speist dann [[baubewilligungsverfahren]] (Schritt 1 «Voranfrage»).
+- ~~**7.2/7.3 Auskünfte + baurechtlicher Vorentscheid / Voranfrage offen (HOHE Büroprio)**~~ →
+  **erledigt 2026-06-21** (Run 12): Kap. 7 Teil 2 vollständig distilliert (S. 448-484), neuer
+  Wiki-Artikel [[baurechtlicher-vorentscheid-und-voranfrage]] (§§ 323/324 PBG: teilverbindlich,
+  3 J., nur grundlegende projektunabhängige Rechtsfragen; Auskunft Treu+Glauben 5 Voraussetzungen;
+  Verhandlungslösung). Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] deckt
+  zusätzlich **Gültigkeit/Widerruf § 322/§ 328 PBG** und die **besonderen kant. Zuständigkeiten
+  (Anhang BVV)** ab. Speist [[baubewilligungsverfahren]] (Schritt 1 «Voranfrage»). **Kap. 7 fertig.**
 - **needs-verification — überbelichtete Seiten S. 430/431 + 444/445:** Ausstand-Details (Shot 217)
   und Kostenentscheid-Bemessung/Solidarhaftung §§ 13/14 VRG (Shots 224/225) im Destillat
   [[07-zustaendigkeiten-entscheide-auskuenfte]] nur eingeschränkt lesbar; am amtlichen VRG-/PBG-
   Volltext (raw/) gegenprüfen (Modell D).
 - **§ 326 PBG (Erzwingung von Auflagen) + Art. 164 GBV / Art. 962 ZGB (Anmerkungspflicht):**
   Wortlaut am amtlichen Volltext sichern (in [[nebenbestimmungen-und-reverse]] sinngemäss).
+
+## Offene Wissenslücken / needs-verification — neu (2026-06-21, aus Buch-Run Kap. 7 Teil 2)
+- **§ 322 / § 324 / § 328 PBG + § 20 BVV (Wortlaut):** Geltungsdauer 3 J. (Verwirkung, Fristbeginn
+  letzte Bewilligung), Vorentscheid-Bindung, Stillstand, koordinationspflichtige Beurteilungen — im
+  Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] sinngemäss; am amtlichen
+  PBG-/BVV-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).
+- **Art. 138 ZPO (Zustellfiktion 7 Tage) + Art. 49 BGG (fehlerhafte Rechtsmittelbelehrung):** aus
+  dem Buch übernommen, am Fedlex-Volltext sichern.
+- **Anhang zur BVV (Ziffern-Zuordnung kant. Stellen):** nur als Auswahl erfasst (AFV/ALN/AWEL/UVP);
+  vollständige Ziffern-Liste bei Bedarf am amtlichen BVV-Anhang nachführen — keine echte Lücke, nur
+  Vertiefungsoption.
+- **Cross-Article-Spannung GELÖST:** [[baubewilligungsverfahren]] sagte fälschlich «Baubeginn-Frist
+  auf Gesuch verlängerbar» — korrigiert (§ 322 Abs. 1 PBG: Verwirkung, nicht verlängerbar; Modell D
+  in `training/drills.md` dokumentiert).
 
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
