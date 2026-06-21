@@ -104,8 +104,14 @@ zweck mit Auslandsbezug).
    - `05_Erlaerung_Verzicht_Revision/260621_Revisionsverzicht-Optingout_JANS-AG.docx`
    - `09_Verwaltungsrat_Konstituierung/260621_VR-Konstituierung_JANS-AG.docx`
    - `01_Anmelung_HRA/260621_HR-Anmeldung_JANS-AG.docx`
-   Domizilannahme entfaellt (eigene Raeume). Lex-Friedrich/Sacheinlage nicht einschlaegig.
-   OFFEN (Notar): Errichtungsakt/Gruendungsurkunde + Bankbestaetigung (Sperrkonto).
+   - `07_Lex_Friedrich_Erklaerung/260621_Lex-Friedrich-Erklaerung_JANS-AG.docx` (alle 4 Fragen
+     nein; HRA-Formular 5200fr02; verlangt wegen Liegenschafts-Zweck) — verifiziert 🟢/🟢.
+   Domizilannahme entfaellt (eigene Raeume). Sacheinlage nicht einschlaegig.
+   OFFEN (Notar): Errichtungsakt/Gruendungsurkunde (Ordner 02, NOTAR erstellt; Stampa-Erklaerung
+   darin) + Bankbestaetigung (Ordner 06, UBS/Sperrkonto). Ordner 08 Protokoll = durch
+   VR-Konstituierung (09) abgedeckt, kein Zusatzdokument.
+   Annahme zu bestaetigen: Raphael = Schweizer Staatsangehoeriger/CH-Wohnsitz (Lex-Friedrich-
+   Begruendung); Personalien (Geburtsdatum/Heimatort/Wohnadresse) liefert Raphael dem Notar.
 4. Verifikation je Dokument: Skill `korrektur`; Vorpruefung Notar/HRA; externes Signal HR-Eintrag.
 5. Folgeschritte: Sperrkonto/Bankbestaetigung, Beurkundung Notar, HR-Anmeldung, danach
    AHV/BVG/UVG/MWST + Versicherungsdeckung (vor erstem GU-Mandat).
