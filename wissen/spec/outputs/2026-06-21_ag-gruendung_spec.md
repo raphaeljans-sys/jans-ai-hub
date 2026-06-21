@@ -107,9 +107,19 @@ zweck mit Auslandsbezug).
    - `07_Lex_Friedrich_Erklaerung/260621_Lex-Friedrich-Erklaerung_JANS-AG.docx` (alle 4 Fragen
      nein; HRA-Formular 5200fr02; verlangt wegen Liegenschafts-Zweck) — verifiziert 🟢/🟢.
    Domizilannahme entfaellt (eigene Raeume). Sacheinlage nicht einschlaegig.
-   OFFEN (Notar): Errichtungsakt/Gruendungsurkunde (Ordner 02, NOTAR erstellt; Stampa-Erklaerung
-   darin) + Bankbestaetigung (Ordner 06, UBS/Sperrkonto). Ordner 08 Protokoll = durch
-   VR-Konstituierung (09) abgedeckt, kein Zusatzdokument.
+   - `01_Gruendungsurkunde/260621_Gruendungsurkunde_JANS-AG_Entwurf.docx` (Einzelgruender-Fassung
+     nach Vorlage + Checkliste Art. 44 HRegV; Opting-out-Variante; Stampa-Erklaerung Ziff. V.4;
+     Domizil eigene Raeume) — Entwurf zuhanden Notar, verifiziert 🟢/🟢.
+   Ordner 08 Protokoll = durch VR-Konstituierung (09) abgedeckt, kein Zusatzdokument.
+   **Notar:** Zuerich = Amtsnotariat; fuer Sitz 8003 ist das Notariat Wiedikon-Zuerich
+   (Weststrasse 70, 044 298 55 00) oertlich zustaendig — bei AG-Gruendung aber FREIE
+   Notariatswahl im Kanton. ZH-Beurkundungsgebuehr ist tarifaer nach Aktienkapital (Selbst-
+   Entwurf spart v.a. Zeit, nicht die Tarifgebuehr).
+   Personalien komplett aus Schweizer ID gefuellt (Geburtsdatum, Heimatort Luzern LU,
+   Nationalitaet CH → Lex-Friedrich bestaetigt). Private Wohnadresse = AG-Sitz Saumstrasse 21,
+   8003 Zuerich (eigene Raeume, kein c/o). **Urkunde JANS-seitig vollstaendig.** Offen nur noch
+   extern: UBS-Bankstelle + Datum Bankbestaetigung, Ort/Datum der Beurkundung (= Termin).
+   Naechster Schritt: Terminanfrage an Notariat Wiedikon-Zuerich mit komplettem Dossier.
    Annahme zu bestaetigen: Raphael = Schweizer Staatsangehoeriger/CH-Wohnsitz (Lex-Friedrich-
    Begruendung); Personalien (Geburtsdatum/Heimatort/Wohnadresse) liefert Raphael dem Notar.
 4. Verifikation je Dokument: Skill `korrektur`; Vorpruefung Notar/HRA; externes Signal HR-Eintrag.
