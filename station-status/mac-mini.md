@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.06.2026 14:52:50
+Stand: 21.06.2026 15:12:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.06.2026 14:52:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6b9080f nas-selfcommit: 5 Datei(en) 2026-06-21 14:45
+- 1a26ce1 sync: AG-Gruendung JANS AG: Spec-Status + Logbuch-Fristen + Monitor aufgegleist (Tagesabschluss 21.06.)

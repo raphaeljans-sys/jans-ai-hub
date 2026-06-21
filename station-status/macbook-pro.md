@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.06.2026 14:55:20
+Stand: 21.06.2026 15:05:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 14:53)
@@ -18,4 +18,4 @@ Stand: 21.06.2026 14:55:20
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6b9080f nas-selfcommit: 5 Datei(en) 2026-06-21 14:45
+- 1a26ce1 sync: AG-Gruendung JANS AG: Spec-Status + Logbuch-Fristen + Monitor aufgegleist (Tagesabschluss 21.06.)
