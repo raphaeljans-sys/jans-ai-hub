@@ -232,6 +232,7 @@ Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgel
 ### Skills
 | Skill | Pfad (auf NAS) | Beschreibung |
 |---|---|---|
+| `spec` | `skills/spec/SKILL.md` | **Spec-Methode** (Karpathy/Marchese, "The Spec / 3 Easy Steps"): gleist ein groesseres Vorhaben auf — erst das WAHRE ZIEL als Spec aufdecken (Interview + Schluesselentscheide bestaetigen), dann agil in engen Scopes mit Checkpoints, mit vorab definierten Bewertungskriterien und einem Verifier (zweite Pruefinstanz/externes Signal). PROMPTS → SPECS. Querschnitt-Skill; wird via Rule `spec-methode` bei jeder groesseren/mehrdeutigen Anfrage automatisch geprueft. Faktenbasis KB `wissen/spec`; Lern-Loop `spec-training`; strategische Vorstufe zu Rule `auftrags-dekomposition`, Verifier nutzt `korrektur`/`twin`/`/code-review` |
 | `baurecht` | `skills/baurecht/SKILL.md` | Schweizer Baurechts-Berater, Fokus Kt. ZH + SZ |
 | `kostenschaetzung` | `skills/kostenschaetzung/SKILL.md` | Healthcare-Kostenkennwerte, Grobschaetzungen |
 | `grobkosten-onepager` | `skills/grobkosten-onepager/SKILL.md` | **Grobkosten-Onepager**: eine A4-Seite, **Volumen × Kennwert (BKP 1–5)**, praesentierwuerdig mit grossen Kosten-Kennzahlen je Variante. Schlankes Gegenstueck zu `kostenschaetzung` (dort detailliert m2-NF). Generator `tools/build_grobkosten_onepager.py`; nutzt Lernmodell `wissen/grobkosten/` (Kennwerte-DB, kompoundierend) + Agent `grobkosten-rechner`; vorgelagert `machbarkeit`/Variantenstudie |
@@ -448,6 +449,7 @@ Aktive Rules:
 @/Volumes/daten/jans-ai-hub/rules/mail-formatierung.md
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
 @/Volumes/daten/jans-ai-hub/rules/projekt-ablage-stand.md
+@/Volumes/daten/jans-ai-hub/rules/spec-methode.md
 @/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/wissens-bibliothekar.md
