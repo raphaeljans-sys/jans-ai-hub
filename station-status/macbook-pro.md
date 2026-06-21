@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.06.2026 08:20:28
+Stand: 21.06.2026 08:40:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.06.2026 08:20:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f91c0dd baurecht-buch-training: Kap. 7 Teil 2 (Vorentscheid/Gueltigkeit/Auskuenfte) — Kap. 7 fertig, Phase 2
+- 59ab1ed nas-selfcommit: 2 Datei(en) 2026-06-21 08:30
