@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.06.2026 08:10:11
+Stand: 21.06.2026 08:30:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.06.2026 08:10:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8482f56 nas-selfcommit: 15 Datei(en) 2026-06-21 08:00
+- f91c0dd baurecht-buch-training: Kap. 7 Teil 2 (Vorentscheid/Gueltigkeit/Auskuenfte) — Kap. 7 fertig, Phase 2
