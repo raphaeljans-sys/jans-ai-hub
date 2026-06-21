@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-18
+last_updated: 2026-06-21
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -299,6 +299,26 @@ gespiegelt» (Klang-Details → [[stimme]]). Unterscheidet sich vom Auftrags-Du 
 und vom Fachplaner-Sie: hier **Architektenkollege auf Augenhöhe, rein sozial**. Mapping-Ergänzung:
 Fabio Don (Architekt ETH SIA, Design-/Event-Peer) → verspieltes Sozial-Peer-Du, «Tschülinonen»/
 «Lgr», gemeinsame Anlässe (Bodenbelags-/Design-Events).
+
+## Fachplaner kann Du sein — der eigene Sub-Fachplaner-Peer (belegt Mailbatch 12, authentisch)
+Korrigiert das frühere pauschale «Fachplaner/extern → Sie». Innerhalb des **eigenen
+Generalplaner-Teams** ist der vertraute Sub-Fachplaner per **Du**: der HSE-/Gebäudetechnik-Planer
+bekommt «**Guten Morgen Labinot**» / «**Gruss / Raphael**» (Du, Tageszeit-Anrede, operativ) beim
+Weiterreichen eines Projekts (Winterberg/EFH, 2025-09-04). → Regel wie beim Investor-Du
+(Mailbatch 03): Du/Sie spiegelt die **Person und die Vertrautheit**, nicht das Rollen-Label
+«Fachplaner». Der unbekannte externe Spezialplaner bleibt Sie; der eingespielte Planer im eigenen
+Team ist Du. Mapping-Ergänzung: Labinot (38grad.ch, HSE/Gebäudetechnik) → Du-Fachplaner-Peer,
+«Guten Morgen Labinot» / «Gruss».
+
+## Zwei neue Sie-Mappings: Auftragsvermittlerin (BM/GU) + Lieferant (belegt Mailbatch 12, authentisch)
+- **Sinja Frick (baugroup.ch, Baumanagement/GU-Vermittlung, Winterberg):** Sie,
+  «**Geschätzte Frau Frick**» + «Freundliche Grüsse» + voller Block — die Auftrags-/
+  Projektvermittlerin, die das Mandat zuträgt (sie schrieb «Grüezi Herr Jans»). Geschätzt-Sie
+  zur Geschäftspartnerin auf Vermittler-/Augenhöhe, nicht das kalte «Sehr geehrte».
+- **Lorenzo Gregori (granol.ch, Lieferant weisse Holzbeize/Lasur):** Sie, «**Guten Tag Herr
+  Gregori**» — Sie-Mittellage zum (noch unbekannten) Lieferanten/Hersteller, neben dem
+  bekannten «Sehr geehrte/r» (kalt) und «Grüezi» (Service). Reiht sich in die Sie-Mittellage
+  «Guten Tag Frau/Herr» (vgl. Privatkunden).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

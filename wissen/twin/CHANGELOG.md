@@ -2,6 +2,32 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-21 — twin-mail-training: Batch 12 (Sent Items rj@, 2025-09-04 bis 2025-09-05, authentisch)
+- 15 Mails gesichtet, 5 Volltexte gelesen; NEU Projekt Winterberg/Oberhäslerstrasse 2 (EFH-Sanierung +
+  Pool): vor-Claude SIA-102-Honorar-Phasenofferte an Sinja Frick/BM + HSE-Honorar an Sub-Fachplaner
+  Labinot/38grad delegiert «z.H. Bauherrschaft»; NEU Lieferant Gregori (weisse Holzbeize); Fortsetzung
+  Yorck/Render-Thalwil per-Bild-Kritik. Metrik via stilmetrik.py (698 W, Du-Gross 0.286 = neuer Tiefstwert,
+  Satzlänge ø 15.2 W, «%» ohne Leerschlag in Honorar-Tabelle, Apostroph 52'400).
+- [[beziehungsregister]] **neu** — **Fachplaner kann Du sein**: der vertraute Sub-Fachplaner im eigenen
+  Team ist Du («Guten Morgen Labinot»/«Gruss»), korrigiert das pauschale «Fachplaner=Sie». Zwei neue
+  Sie-Mappings: Sinja Frick/baugroup (Auftragsvermittlerin BM/GU, «Geschätzte Frau Frick») + Gregori/granol
+  (Lieferant, «Guten Tag Herr Gregori», Sie-Mittellage).
+- [[fachsignatur]] **neu** — **SIA-102-Honorar-Phasenofferte als Mail-Tabelle** (Phase-Nr · Teilleistungs-% ·
+  CHF · Inhalt; 32/33/41/51/52, «Tot 41 %; CHF 52'400.- exkl. MwSt. 8.1 % und Honorar Gebäudetechnik
+  separat», Anhang «250905 Honorar_SIA102_JANS.pdf»); Bildregie erweitert um konstruktive Plausibilität
+  («Geländerstangen die in die Wand fräsen, nie so gebaut»), Lichtregie (globale Lichteinstellung/Schatten)
+  und ISO-/Rausch-Vokabular; Material-Sourcing beim Hersteller + Muster für die Bauherrschaft.
+- [[arbeitsweise]] **neu** — Sub-Fachplaner-Delegation (Honorar «z.H. Bauherrschaft», Format prozentual/
+  pauschal an Erstellungskosten vorgegeben); Grundlage einfordern VOR der verbindlichen Offerte (Bestandes-
+  Plangrundlagen/Konstruktionsaufbau/Heizung/KV) + terminierte Nachlieferung des bereinigten Angebots.
+- [[denken]] **neu** — die budgettreibende Entscheidung als nummeriertes Vier-Stufen-Modell isolieren
+  (Pool-Ausbaustandard 01–04, «weil die Gebäudetechnik vom Ausbaustandard abhängt»).
+- [[haltung]] **neu** — «wir/unser» in der bestellten Sie-Offerte (2. Datenpunkt, jetzt Sie); Pool-Ehrlichkeit
+  «oft 2 Jahre benutzt und dann nicht mehr» (schützt Bauherrn auch gegen eigenen Auftragsumfang).
+- [[stimme]] **neu** — «%» ohne Leerschlag jetzt auch in formaler Sie-Honorar-Tabelle (Tabellen-/Listen-Modus,
+  registerunabhängig); «Guten Tag Herr <Name>» Sie-Mittellage zum Lieferanten; Metrik Batch 12.
+- Register: `raw/_INGESTED.md` abgedeckt bis 2025-09-05, nächster Lauf ab 2025-09-06. Nur 1 Batch (bounded).
+
 ## 2026-06-19 — twin-mail-training: Batch 11 (Sent Items rj@, 2025-09-03, authentisch)
 - 15 Mails gesichtet, 4 Volltexte gelesen; dichter Yorck/3D-Freelancer Render-Korrektur-Thread
   (Thalwil 2414) + WOMA/Bopp Honorarrechnung Ebmatingen + Claudia/Foto-Peer + BOLON-Sozial-Du.

@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-18
+last_updated: 2026-06-21
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -338,6 +338,20 @@ reziprok-casual Render-Du: «wann kannst Du», «bist du», «für Dein Effort»
 **19.5 W** (deskriptive Bildregie/Material); keine Apostroph-Zahlen/«%» (registerbedingt); Ellipsen
 1.7/1000 W (sparsam). Der Zwilling kennt das oberste Sozial-Peer-Register: Mundart · gestapelte
 Anrede · erfundene Nonsens-Anrede, je nachdem, was das Gegenüber spiegelt.
+
+## «%» ohne Leerschlag jetzt auch in formaler Sie-Honorar-Tabelle (belegt Mailbatch 12, authentisch)
+Erweitert den Eil-Du-Befund (Batch 05/06: «%» ohne Leerschlag im schnell getippten Du): der Schutz-
+Leerschlag fällt **registerunabhängig** in **zahlendichten Tabellen/Listen** weg — belegt in einer
+formellen Sie-**Honorarofferte** (Frick, 2025-09-05): «**6.0 %**», «**41 %**», «CHF **52'400**.-».
+Nicht mehr nur Eil-Du, sondern «Tabellen-/Listen-Modus»: wo Zahl an Zahl steht, schreibt Raphael «%»
+geklebt. Der Zwilling schreibt «%» mit Leerschlag (Ideal, `korrektur`), dokumentiert die Abweichung in
+Zahlentabellen nur. Zugleich «**Guten Tag Herr <Name>**» als **Sie-Mittellage zum Lieferanten/Hersteller**
+(weisse Holzbeize, Gregori 2025-09-04) — neben «Sehr geehrte/r» (kalt) und «Grüezi» (Service); und die
+Wunschformel vor dem Gruss erneut: «**Ich wünsche Ihnen ein schönes Wochenende.**» vor «Freundliche Grüsse».
+- Mikro-Metrik Batch 12 (698 W, Sie-Offerte + reziprok-casual Render-Du gemischt): **Du-Gross-Quote 0.286**
+  (neuer Tiefstwert — Yorck-Render-Du «du/dir» klein, vgl. Batch 03/10 0.429; Sie-Mails registerbedingt
+  ohne Du); Tausender-Apostroph 1× (52'400); «%» **ohne** Leerschlag (Honorar-Tabelle); Satzlänge ø
+  **15.2 W**; Grüsse «Freundliche Grüsse» 2×; Anreden «Geschätzte Frau Frick», «Guten Morgen Labinot».
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei
