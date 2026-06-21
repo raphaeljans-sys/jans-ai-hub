@@ -96,10 +96,16 @@ zweck mit Auslandsbezug).
 ## Plan (agil, enge Scopes — Schritt 2)
 1. ✓ Schluesselentscheide fixiert (Interview-Runde 1+2).
 2. ✓ Firmenname JANS AG via Zefix verifiziert (frei) + AG-Zweck final bestaetigt.
-3. ✓ **Statuten-Entwurf erstellt + verifiziert** (Korrektur-Harness, Apostrophe/NBSP/SHAB
-   bereinigt) — DOCX+PDF unter `10 AG Gruendung/03_Statuten/260621_Statuten_JANS-AG_Entwurf.*`.
-   OFFEN als naechste Checkpoints: Anmeldung HRA, Wahlannahme VR, Erklaerung Revisionsverzicht
-   (Opting-out), Erklaerung Rechtsdomizil, VR-Konstituierungsprotokoll — je Entwurf JANS-Layout.
+3. ✓ **Gesamtes Belegset final erstellt + verifiziert** (Korrektur-Harness 2 Runden:
+   Rechtschreibung 🟢, Layout 🟢 nach NBSP/Bullet/Tab-Fixes). DOCX+PDF im Ordner
+   `10 AG Gruendung/`:
+   - `03_Statuten/260621_Statuten_JANS-AG.docx` (final, ohne Entwurf-Marker)
+   - `04_Wahlannahmeerklaerung/260621_Wahlannahme-VR_Raphael-Jans_JANS-AG.docx`
+   - `05_Erlaerung_Verzicht_Revision/260621_Revisionsverzicht-Optingout_JANS-AG.docx`
+   - `09_Verwaltungsrat_Konstituierung/260621_VR-Konstituierung_JANS-AG.docx`
+   - `01_Anmelung_HRA/260621_HR-Anmeldung_JANS-AG.docx`
+   Domizilannahme entfaellt (eigene Raeume). Lex-Friedrich/Sacheinlage nicht einschlaegig.
+   OFFEN (Notar): Errichtungsakt/Gruendungsurkunde + Bankbestaetigung (Sperrkonto).
 4. Verifikation je Dokument: Skill `korrektur`; Vorpruefung Notar/HRA; externes Signal HR-Eintrag.
 5. Folgeschritte: Sperrkonto/Bankbestaetigung, Beurkundung Notar, HR-Anmeldung, danach
    AHV/BVG/UVG/MWST + Versicherungsdeckung (vor erstem GU-Mandat).

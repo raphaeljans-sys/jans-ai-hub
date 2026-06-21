@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.06.2026 13:11:56
+Stand: 21.06.2026 13:22:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.06.2026 13:11:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 479552c sync: Zefix-Connector (Handelsregister CH) — connectors/zefix.mjs + README; Firmenname-Check als Verifier-Signal der Spec-Methode
+- ea39cdc nas-selfcommit: 3 Datei(en) 2026-06-21 13:15

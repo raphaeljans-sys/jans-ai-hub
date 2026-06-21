@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.06.2026 13:14:01
+Stand: 21.06.2026 13:24:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 21.06.2026 13:14:01
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 479552c sync: Zefix-Connector (Handelsregister CH) — connectors/zefix.mjs + README; Firmenname-Check als Verifier-Signal der Spec-Methode
+- ea39cdc nas-selfcommit: 3 Datei(en) 2026-06-21 13:15
