@@ -126,6 +126,19 @@ zweck mit Auslandsbezug).
 5. Folgeschritte: Sperrkonto/Bankbestaetigung, Beurkundung Notar, HR-Anmeldung, danach
    AHV/BVG/UVG/MWST + Versicherungsdeckung (vor erstem GU-Mandat).
 
+## Stand UBS (Kapitaleinzahlungskonto) — beantragt 21.06.2026
+Antrag via UBS key4 business online gestellt (Bestaetigung an mail@raphaeljans.ch, 14:33).
+UBS-Ablauf laut Bestaetigung (kritischer Pfad ~1-2 Wochen):
+1. UBS sendet Vertragsdokumente Kapitaleinzahlungskonto in 3 Arbeitstagen (Mail).
+2. Raphael druckt, unterschreibt, sendet per Post zurueck.
+3. UBS sendet Einzahlungs-Kontodetails in 3 Arbeitstagen.
+4. Nach Einzahlung CHF 50'000: UBS sendet **Kapitalbescheinigung** in 2 Arbeitstagen (Einschreiben).
+5. DANN Beurkundung beim Notar (braucht die Bescheinigung) + HR-Eintrag.
+6. UBS informieren an sh-cic-onboarding-newclients@ubs.com sobald eingetragen.
+7. UBS eroeffnet operatives Firmenkonto.
+Fragen UBS: 044 236 48 48. → Notartermin so legen, dass er NACH der Kapitalbescheinigung liegt.
+Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehlt).
+
 ## Statuten-Entwurf — Notar-Platzhalter (bewusst offen gelassen)
 - Datum der Beurkundung; Amtsdauer-Detail VR; erstes (Rumpf-)Geschaeftsjahr Enddatum
   (aktuell 31.12.2026 angenommen) — bei Beurkundung bestaetigen.
