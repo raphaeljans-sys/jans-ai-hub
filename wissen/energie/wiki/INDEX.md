@@ -3,13 +3,13 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**20 Kernfragen F1–F20 belegt**, neu F19 sonnendach.ch/Dach-Eignung + F20 Fassaden-PV & Begruenung; Backlog nur noch Vertiefungen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**22 Kernfragen F1–F22 belegt**, neu F21 Fassaden-PV-Ertrag quantitativ ~603 kWh/kWp + F22 Kuehlung/Klimaanlage-Nachweis EN-110; Backlog nur noch Vertiefungen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
 - [[minergie-standards]] — Minergie/-P/-A/ECO + Eigenstromerzeugung (Stand 2023, mit THGE) · **established**
-- [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration + **Ertrag ~1'000 kWh/kWp & Eigenverbrauch (F18)** + **Indach-Ausfuehrung (Sunskin)** + **Dach-Eignung sonnendach.ch (F19)** + **Fassaden-PV & Begruenung (F20)** + Kosten/Amortisation · **established**
-- [[energienachweis-zh]] — Energienachweis Kt. ZH (EN-ZH / EVEN seit 1.1.2026) · **established**
+- [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration + **Ertrag ~1'000 kWh/kWp & Eigenverbrauch (F18)** + **Indach-Ausfuehrung (Sunskin)** + **Dach-Eignung sonnendach.ch (F19)** + **Fassaden-PV & Begruenung (F20)** + **Fassaden-Ertrag quantitativ ~603 kWh/kWp (F21)** + Kosten/Amortisation · **established**
+- [[energienachweis-zh]] — Energienachweis Kt. ZH (EN-ZH / EVEN seit 1.1.2026) + **Lueftung/Kuehlung EN-105/EN-110 (F22)** · **established**
 - [[daemmstoffe-lambda]] — λ-Werte-Schnellreferenz (inkl. Naturdaemmstoffe/VIP/WDVS) · **established**
 - [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte + **WP-Systemwahl JAZ (F6)** · **established**
 - [[waermepumpe-systemvergleich]] — WP ↔ Fernwaerme ↔ Pellets: JAZ-Richtwerte je Typ + Entscheidungslogik (Destillat; FAQ F6) · **emerging**

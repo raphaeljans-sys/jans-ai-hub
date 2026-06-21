@@ -50,10 +50,11 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [x] `Solaranlage/_Literatur/20220606_GreenPV - Workshop 2.pdf` | 2026-06-20 (S. 1-16; HSLU GreenPV — Fassaden-PV opak 20 %/transparent 14 %, NOCT 42 °C, Temp-Koeff −0,4 %/°C + Begruenung boden-/wandgebunden → greenpv-fassade-pv-begruenung-hslu; quant. Endergebnisse/qual. Kapitel ab S. 17 offen) |
 | [x] `Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` | 2026-06-20 (vollst., 3 S.; ewz-Projektkorrespondenz — CHF 1'600–2'460/kWp 2019, Amortisation/Lebensdauer 25-30 J, Verschattungs-Tradeoff, PV+Gruendach → pv-kosten-amortisation-praxis-ewz; ⚠ Marktwerte veraltet) |
 | [ ] `Solaranlage/solarapp.ch/Basel/2022-11-05 SolarReport Version 1-3.pdf` | — (weiterer Ertragsreport, redundant zu Willerzell) |
-| [ ] `Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01.pdf` | — (PV*SOL-Simulation, evtl. Ertrag je Ausrichtung) |
+| [x] `Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01.pdf` | 2026-06-21 (vollst. 14 S.; Fassaden-PV 4 Fassaden vertikal, Gesamt 603 kWh/kWp = ~60-65 % Dach, PR 87,8 % → pv-fassade-ertrag-pvsol; per-Fassade nicht ausgewiesen) |
 | [x] `Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach.pdf` | 2026-06-20 (vollst., 3 S.; sonnendach.ch/BFE — Eignungsklassen + reale Monatsproduktion + Verguetung → sonnendach-solarpotenzial-bfe; FAQ F19) |
 | [ ] `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` | — (Indach-Metalldach-Solar, Produkt) |
-| [ ] `_Formulare Kanton ZH Baueingabe/EN-105.pdf` (Lueftung) · `EN-110-ZH.pdf` (Kuehlung) · `checkliste_gebaeudeschadstoffe.pdf` | — (ZH-Formulare, gering) |
+| [x] `_Formulare Kanton ZH Baueingabe/EN-105.pdf` (Lueftung) + `EN-110-ZH.pdf` (Kuehlung) | 2026-06-21 (beide vollst. je 2 S.; WRG ≥70 %/Luftgeschw./Kanaldaemmung + Kuehlung ≤12 W/m²/PV-Deckung/θ_CW → en-lueftung-kuehlung-zh; ⚠ seit 1.1.2026 EVEN) |
+| [ ] `_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf` | — (gering) |
 | [-] Datenblaetter (SI-Saphir, megasol M385, PREFA-Farbsortiment, Usermanual, Maison-Climat-Plaene) | nicht einzeln destilliert (geringe Uebertragbarkeit) |
 
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)

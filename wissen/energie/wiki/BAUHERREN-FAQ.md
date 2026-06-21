@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-20
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md]
+last_updated: 2026-06-21
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md]
 links: [[INDEX]]
 ---
 
@@ -654,6 +654,56 @@ Bewilligung Fassaden-PV/Begruenung (Ortsbild/Kernzone) → Skill `baurecht`.**
 
 ---
 
+## F21 — «Wie viel weniger Strom bringt PV an der Fassade gegenueber dem Dach?»
+
+**Kurz:** Rechne an einer **senkrechten Fassade mit rund 60–65 % des Dachertrags** pro kWp — also
+etwa **600 statt ~1'000 kWh/kWp**. Dafuer ist die Fassade ueber das Jahr **gleichmaessiger** (mehr
+Winterstrom), und sie lohnt sich, wenn das Dach voll/ungeeignet ist oder die Module die Fassade
+gleich **bekleiden** (BIPV).
+
+**Fachlich:** Eine reale PV*SOL-Simulation einer vierseitig (Sued/Ost/Nord/West, je 90° senkrecht)
+belegten Fassadenanlage am Standort Waedenswil ZH (491 kWp) ergibt einen spez. Jahresertrag von
+**603 kWh/kWp** bei sehr hohem Anlagennutzungsgrad **PR 87,8 %** (senkrechte Module bleiben kuehl).
+Zum Vergleich: gut ausgerichtete Daecher liefern **~950–1'025 kWh/kWp** (F18). Die mitbelegte
+Nordfassade drueckt den Schnitt — eine Sued/Ost/West-Belegung liegt hoeher; Nord nur als letzte
+Reserve. Saisonprofil Sommer:Winter ≈ 4:1, aber der **Winteranteil faellt relativ groesser** aus
+als am flach geneigten Dach, weil die tief stehende Wintersonne steiler auf die Vertikale trifft —
+gut zur Deckung der Heiz-/Waermepumpenlast in der dunklen Jahreszeit. **Voraussetzung fuer den
+hohen Ertrag: Hinterlueftung** (Temperatur-Koeffizient −0,4 %/°C). Kosten 2019: ~3'000 CHF/kWp,
+also teurer als Dach (1'600–2'460 CHF/kWp) — Mehrkosten rechtfertigen sich v. a., wenn die Module
+die Fassadenbekleidung ersetzen.
+
+**Quelle:** PV*SOL-Praxissimulation Fassaden-PV (Thomas Lüem Partner AG, 2019, Klima ZH) →
+`[[pv-fassade-ertrag-pvsol]]`; Dach-Vergleichswerte F18 → `[[pv-ertrag-eigenverbrauch-praxis]]`;
+Fassaden-PV-Technik F20 → `[[greenpv-fassade-pv-begruenung-hslu]]`; Kosten →
+`[[pv-kosten-amortisation-praxis-ewz]]`. ⚠ **Datenstand:** Simulation 2019; Ertrags-/Saisonmechanik
+uebertragbar, CHF-Werte veraltet. Offen: kWh/kWp je Einzel-Orientierung, aktueller Fassaden-Kostensatz.
+
+---
+
+## F22 — «Brauche ich fuer eine Klimaanlage / Kuehlung einen Nachweis — und was ist erlaubt?»
+
+**Kurz:** Ja. Wer aktiv kuehlt, muss im Energienachweis (Kt. ZH: Formular **EN-110**, heute ueber
+**EVEN**) die Effizienz belegen — am einfachsten, indem Du die **Kuehlung mit der eigenen PV
+deckst** oder die spezifische Leistung tief haeltst. Klueger ist es ohnehin, Kuehlung **zu
+vermeiden** (Verschattung, Nachtauskuehlung) statt sie nachzuweisen.
+
+**Fachlich:** Bei bestehenden Bauten ist eine von drei Anforderungen zu erfuellen: (1) spezifische
+elektrische Leistung der Kaelte-/Klimaanlage **≤ 12 W/m²**, ODER (2) Anforderungen an die
+**Kaelteerzeugung** eingehalten, ODER (3) **Deckung des Kaeltebedarfs mit PV** (PV-Leistung in kWp
+≥ el. Leistung der Kaelteerzeugung). Zusaetzlich gilt: moeglichst **hohe Kaltwassertemperatur**
+(θ_CW ≥ 14 °C ohne, ≥ 10 °C mit Entfeuchtung), Nachweis von **EER** und **SIA 382/1**, Nutzung der
+**Abwaerme**. Die PV-Deckung ist elegant, weil Kuehllast und Solarertrag beide im Sommer anfallen.
+Erste Verteidigungslinie bleibt der **sommerliche Waermeschutz** (g-Wert, aussenliegende
+Verschattung — F11), der die Kuehlung oft ganz erspart.
+
+**Quelle:** Formular EN-110-ZH «Kühlung/Befeuchtung» (Kt. ZH, 2022) + EN-105 «Lüftung» (EnFK, 2017)
+→ `[[en-lueftung-kuehlung-zh]]`; Vollzug EVEN → `[[energienachweis-zh]]`; sommerlicher Waermeschutz
+F11 → `[[sommerlicher-waermeschutz]]`; PV → F4 `[[pv-solar-technologien]]`. ⚠ **Datenstand:**
+seit 01.01.2026 Vollzug ZH ueber EVEN; EN-110-PDF formal abgelaufen, inhaltlich weiter gueltig.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -662,7 +712,7 @@ Bewilligung Fassaden-PV/Begruenung (Ortsbild/Kernzone) → Skill `baurecht`.**
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-20: 20 Kernfragen F1-F20 belegt** (neu **F19 sonnendach.ch / Eignung des Dachs**
-> + **F20 Fassaden-PV & Fassadenbegruenung**, aus dem BFE-Solarpotenzial-Tool und dem HSLU-Projekt
-> GreenPV) — der Backlog ist auf Vertiefungen (Primaerquellen, Kostenvergleiche, Ertrag je
-> Ausrichtung/Neigung, quantitative Fassadenertraege) reduziert.
+> **FAQ-Stand 2026-06-21: 22 Kernfragen F1-F22 belegt** (neu **F21 Fassaden-PV-Ertrag quantitativ**
+> ~603 kWh/kWp = ~60–65 % des Dachs, aus PV*SOL-Praxissimulation + **F22 Kuehlung/Klimaanlage-
+> Nachweis** EN-110 / ≤ 12 W/m² / PV-Deckung). Damit ist die quantitative Fassaden-Ertragsluecke aus
+> F20 geschlossen; offen nur noch kWh/kWp je Einzel-Orientierung und aktuelle CHF/kWp.

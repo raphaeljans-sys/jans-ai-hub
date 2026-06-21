@@ -39,3 +39,5 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[sonnendach-solarpotenzial-bfe]] | Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach | established (vollst., 3 S.; Eignungsklassen + reale Monatswerte) | 2023 (Wirkungsgrad 20 % seit 09/2022; Strahlung 2004–2014) |
 | [[greenpv-fassade-pv-begruenung-hslu]] | Solaranlage/_Literatur/20220606_GreenPV - Workshop 2 | emerging (S. 1-16; Fassaden-PV-Module + Begruenungssysteme) | ⚠ 2022 (HSLU-Forschungs-Zwischenstand) |
 | [[pv-kosten-amortisation-praxis-ewz]] | Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV | emerging (vollst., 3 S.; CHF/kWp + Amortisation + Verschattungs-Tradeoff) | ⚠ 2019 (Projektkorrespondenz, Marktwerte veraltet) |
+| [[pv-fassade-ertrag-pvsol]] | Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01 | emerging (vollst., 14 S.; Fassaden-PV 4 Fassaden, 603 kWh/kWp Gesamtanlage) | ⚠ 2019 (PV*SOL-Simulation, Klima ZH) |
+| [[en-lueftung-kuehlung-zh]] | _Formulare Kanton ZH Baueingabe/EN-105 + EN-110-ZH | established (beide vollst., je 2 S.; WRG ≥70 %, Kuehlung ≤12 W/m²/PV) | EN-105 Aug 2017 / EN-110 Sept 2022; seit 1.1.2026 EVEN |

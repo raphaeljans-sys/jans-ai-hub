@@ -35,6 +35,16 @@ schalltechnischen) Vorschriften erfuellt. Das EN-ZH-Deckblatt (heute EVEN) ist d
 | Betriebsoptimierung | (Vermerk) | Betriebe > 200'000 kWh Strom/a, BO innert 3 J |
 | Laermschutz | S / LN-1 | Aussenlaerm; **LN-1 fuer Luft/Wasser-Waermepumpen** |
 
+## Lueftung & Kuehlung — EN-105 / EN-110-ZH (Kerngrenzwerte)
+Beide Module vervollstaendigen die Formularmatrix (Details `[[en-lueftung-kuehlung-zh]]`):
+- **EN-105 Lueftung:** Waermerueckgewinnung **≥ 70 %** (≥ 75 % mit Bypass); Luftgeschwindigkeit
+  Ansaug/Ausblas **≤ 2 m/s**, in Kanaelen volumenstromabhaengig 3–7 m/s; Kanaldaemmung nach
+  Temperaturdifferenz (5–10 K ≥ 3 cm / 10–15 K ≥ 6 cm / > 15 K ≥ 10 cm).
+- **EN-110-ZH Kuehlung/Befeuchtung (Bestand):** eine von drei Anforderungen — spez. Leistung
+  **≤ 12 W/m²**, ODER Anforderung Kaelteerzeugung, ODER **Kaeltebedarf mit PV gedeckt** (kWp ≥ el.
+  Leistung Kaelteerzeugung); Kaltwasser θ_CW **≥ 14 °C** (ohne) / **≥ 10 °C** (mit Entfeuchtung);
+  EER + SIA 382/1 + Abwaermenutzung nachweisen.
+
 ## Kernbegriffe
 **EBF** Energiebezugsflaeche (Bezugsgroesse fuer Energiebedarf & PV) · **ZEV** Zusammenschluss zum
 Eigenverbrauch (PV gemeinschaftlich erfuellbar) · **Private Kontrolle** (Fachperson bestaetigt statt Amt).

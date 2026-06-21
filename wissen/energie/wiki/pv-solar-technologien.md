@@ -77,7 +77,12 @@ Modul ~14 %** (~30 % Lichtdurchlaessigkeit); Temperaturkoeffizient **−0,4 %/°
 **Hinterlueftung** einplanen. Alternative/Ergaenzung **Fassadenbegruenung** (bodengebunden:
 Kletterpflanzen an Seilstruktur, leicht; wandgebunden: modulare Pflanzwand, vollflaechig, **bis
 30 kg/m²**, Bewaesserung+Pflege) gegen Stadt-Hitze/Laerm — beide sind klimaangepasstes Bauen.
-Details → [[BAUHERREN-FAQ]] F20, `[[greenpv-fassade-pv-begruenung-hslu]]`.
+**Ertrag quantitativ (Praxis):** Eine vierseitig senkrecht belegte Fassadenanlage (PV*SOL, ZH)
+liefert **~603 kWh/kWp** (PR 87,8 % dank kuehler, hinterluefteter Module) — also rund **60–65 % des
+Dachertrags** (~950–1'025 kWh/kWp). Saisonprofil Sommer:Winter ≈ 4:1, Winteranteil aber relativ
+groesser als am Dach. Nordfassade nur als Reserve, Sued/Ost/West priorisieren. Mehrkosten ~3'000
+CHF/kWp (2019) rechtfertigen sich v. a. als BIPV (Bekleidungs-Ersatz).
+Details → [[BAUHERREN-FAQ]] F20/F21, `[[greenpv-fassade-pv-begruenung-hslu]]`, `[[pv-fassade-ertrag-pvsol]]`.
 
 ## Kosten & Amortisation (Praxis, ⚠ alternd)
 Stellschrauben statt absoluter Zahlen: PV rechnet sich, wenn die Amortisation **unter der Lebensdauer
