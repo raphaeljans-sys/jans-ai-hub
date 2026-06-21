@@ -4,6 +4,33 @@ Hub-weite Connectoren zu externen Plattformen. Geodaten-Connectoren (geo-zh, geo
 geoshop) liegen beim Skill `planungsgrundlagen` — hier liegt, was keinem einzelnen
 Skill gehoert.
 
+## zefix.mjs — Zentraler Firmenindex (Handelsregister CH)
+
+Fragt den schweizweiten Handelsregister-Index **Zefix** ueber die offizielle **Zefix
+Public REST API** ab (kein Scraping). Zweck: das "externe Signal" des Verifiers
+(Spec-Methode) fuer firmenbezogene Fakten — v.a. **Firmenname-Verfuegbarkeit** vor einer
+Gruendung (AG/GmbH geniessen schweizweiten Schutz, OR 951 II) und **Firmen-Stammdaten**
+(UID, Sitz, Rechtsform, Status). **Read-only** (keine schreibende Anfrage im Code).
+
+**Zugangsdaten** (kostenlos, einmalige Registrierung per Mail an `zefix@bj.admin.ch`;
+pro Station, NIE in Git):
+```
+~/.zefix.env        # chmod 600
+ZEFIX_USER=...
+ZEFIX_PASS=...
+```
+
+**Befehle:**
+```bash
+node zefix.mjs --test                         # Login/API pruefen
+node zefix.mjs --available "JANS AG"          # Namens-Check (FREI / KOLLISION / PRUEFEN)
+node zefix.mjs --search "Jans" --canton ZH    # Treffer auflisten
+node zefix.mjs --firm CHE-123.456.789         # Stammdaten zu UID/CHID
+```
+Hinweis: Der Namens-Check ist ein belastbares Indiz, kein amtlicher Entscheid — das
+letzte Wort zur "deutlichen Unterscheidbarkeit" hat das Handelsregisteramt/Notar.
+Genutzt u.a. von der KB `firmengruendung-ch` und dem Skill `spec` (Verifier-Stufe).
+
 ## truninger-ds3.mjs — Truninger-Plattform (DS3 Data-Share)
 
 Lese-Connector zum Projektraum **ds3.data-share.ch** («Truningerserver», DS3 von

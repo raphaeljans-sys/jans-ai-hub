@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.06.2026 12:23:22
+Stand: 21.06.2026 12:43:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 21.06.2026 12:23:22
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 80af16d nas-selfcommit: 2 Datei(en) 2026-06-21 12:15
+- bd219c7 sync: Spec-Methode (Karpathy/Marchese) im Hub verankert: Rule spec-methode + Skill spec + KB wissen/spec + Training spec-training
