@@ -5,6 +5,36 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-21
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365, naechste 7 Tage) und
+  Mail-Eingang (seit 19.06.) abgeglichen. Keine offenen Sync-Tasks (macbook-pro / mac-mini leer).
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **66 Tage ueberfaellig**, Mahnstufe 1, naechste Frist **28.06.** = Eskalation auf
+  Stufe 2 pruefen) und RE-00097 (Hofer, CHF 500, faellig 16.06., **5 Tage ueberfaellig**, Mahnstufe 1,
+  naechste Frist 30.06.). Kein Zahlungseingang seit dem letzten Lauf.
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** keine neue Korrespondenz. Mahnung 2 vom 13.06. bleibt
+  gegenstandslos; vor Reaktion final verifizieren.
+- **Erledigt/ins Archiv:** Ausmass Malerarbeiten MIRO (Albertstrasse, 20.06. 09:00–09:30) ist vorbei.
+- **NEU — SharePoint «JANS DATENAUSTAUSCH»:** Microsoft-Warnung (21.06.) — 6 Gruner-Personen
+  (J. Simmen, M. Eren, B. Kuebler u.a.) verlieren am **10.07.** den Gastzugriff. Als beobachten-Pendenz
+  (tief) ins Register; bei Bedarf Gastfreigaben verlaengern.
+- **SharePoint-Speicher (laeuft weiter):** neue Warnung 20.06. — nun **1057.0 / 1054 GB** belegt
+  (zuvor 1056.8). Bleibt offener Blocker fuer die OneDrive-Output-Ablage; Speicher aufstocken/aufraeumen.
+- **Kalender naechste 7 Tage (bestaetigt via Outlook):** 22.06. 09:00–09:30 Kontrolle Lueftung EVEN
+  (privat einladen, F. Wuersch/KISPI + C. Duran/Gruner); 22.06. 15:00–16:00 Besprechung Schliessanlage
+  Albertstrasse (BKP 275.00, Teams, R. Steinmann/Nova + Struebi/Portunus). Beide im Register, kein
+  Eintrag noetig.
+- **Mail-Hinweise:** A. Spahic (Kispi, 19.06.) — Angebot Kuechenbau LOS_273.35 abgelegt (Info).
+  M. Spoerri (Kispi, 19.06.) — Schutzraumbaupflicht-Dokument als Scan, kommt zusaetzlich in Papierform
+  (Info, B26-00705.01-Kontext). S. Sonderegger (19.06.) — zwei offene Fragen (Reduit Tuer/offen,
+  Strom-Planung) weiterhin offen.
+- **Offen/nachfassen:** SharePoint-Speicher, bexio-Doppelimport, EPROID B26-00705.01 (20.06.),
+  S. Sonderegger (Reduit/Strom), Mittagessen M. Prencipe (23.06.).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Operatives in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-19
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`/`--offen`), Kalender (M365, naechste 7 Tage) und
