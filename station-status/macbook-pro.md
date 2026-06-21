@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.06.2026 06:09:11
+Stand: 21.06.2026 06:29:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.06.2026 06:09:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2afae81 nas-selfcommit: 2 Datei(en) 2026-06-21 06:00
+- b1b43ae energie-training Run 14: Fassaden-PV-Ertrag (FAQ F21) + EN-105/EN-110 Lueftung/Kuehlung (FAQ F22)
