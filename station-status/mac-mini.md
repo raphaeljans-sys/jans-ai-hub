@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.06.2026 12:41:45
+Stand: 21.06.2026 12:51:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.06.2026 12:41:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bd219c7 sync: Spec-Methode (Karpathy/Marchese) im Hub verankert: Rule spec-methode + Skill spec + KB wissen/spec + Training spec-training
+- 294b047 nas-selfcommit: 4 Datei(en) 2026-06-21 12:45

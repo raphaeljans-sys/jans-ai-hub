@@ -26,19 +26,27 @@ Mandat**, unter dem Schutz der beschraenkten Haftung.
 - Verwaltungsrat: **Raphael Jans allein, Einzelunterschrift**.
 - Revision: **Opting-out** (Revisionsverzicht).
 
-## Verifikation Firmenname — OFFEN (nicht behaupten)
-- Zefix-REST-Abfrage "JANS AG" am 21.06.2026 NICHT moeglich (Public-REST verlangt
-  registriertes Login → HTTP 401). Verfuegbarkeit/Zulaessigkeit daher **ungeprueft**.
-- **Wichtig (Firmenrecht):** AG-Firmen geniessen **schweizweiten** Ausschliesslichkeitsschutz
-  (OR 951 Abs. 2). Existiert irgendwo in CH bereits eine "Jans AG"/"JANS AG", ist der Name
-  evtl. nicht eintragbar bzw. nur mit Zusatz. → Vor allem Weiteren auf zefix.ch pruefen
-  (oder mit Zefix-REST-Credential), Wunsch-Alternative bereithalten.
+## Verifikation Firmenname — ERLEDIGT (21.06.2026): "JANS AG" frei
+- Manuell auf zefix.ch geprueft (Raphael) + von Claude unabhaengig gegengelesen am
+  vollstaendigen amtlichen Zefix-Ausdruck (7 Seiten, 98 Treffer der Breitensuche "jans")
+  sowie der exakten Suche "Jans AG".
+  Beleg-PDF: `~/Library/CloudStorage/OneDrive-…/AD - 03 Kommunikation/Behoerden/Schweiz Bund/
+  CH_zefix@bj.admin.ch/260621 Zentraler Firmenindex.pdf`.
+- **Ergebnis:** KEIN Eintrag "JANS AG"/"Jans AG" (exakte Suche = 0 Treffer). Name frei.
+- Naechste Nachbarn (fuer "deutliche Unterscheidbarkeit" relevant, OR 951 II / 946):
+  - JANS GmbH, Zunzgen BL (CHE-420.475.963) — andere Rechtsform, gleicher blanker Name.
+  - JANS SA Immobilier, Laténa NE (CHE-115.704.458) — SA, mit Zusatz.
+  - Jansen AG, Oberriet SG (CHE-102.513.848) — "Jansen", nicht "Jans".
+- Bestaetigt: Einzelfirma "Raphael Jans - Architekten ETH", Zuerich, EIU, CHE-182.658.011.
+- **Vorbehalt:** Zefix-Daten haben KEINE Rechtswirkung. Verbindliche Auskunft via REGIX
+  (regix.ch) oder durch Notar/HRA bei der Gruendung. Indiz ist aber klar gruen.
+- (Hinweis: Connector `connectors/zefix.mjs` automatisiert diese Pruefung kuenftig, sobald
+  Zefix-REST-Credentials vorliegen — angefordert per Mail 21.06.2026.)
 
-## Offen / zu klaeren
-- Saumstrasse 21: **eigene Raeume oder c/o?** Bei c/o (Fremddomizil) ist eine
-  **Domizilannahme-Erklaerung** noetig. (Notiz: weicht von der bisher gefuehrten
-  JANS-Bueroadresse Grubenstrasse 37, 8045 ab — bewusste neue Adresse bestaetigen.)
-- AG-Zweck final bestaetigen (Entwurf unten).
+## Geklaert (21.06.2026)
+- Domizil Saumstrasse 21, 8003 Zuerich = **eigene Raeume** → KEINE Domizilannahme-Erklaerung
+  noetig. (Bewusst abweichend von Grubenstrasse 37 der Einzelfirma.)
+- AG-Zweck **bestaetigt** (Raphael liefert Wortlaut, mit GU-Teil zusammengefuehrt — siehe unten).
 
 ## Praezise mitgedacht (Schritt 3 / Verifier-Mindset)
 - **Kapital ist NICHT die Risikoabdeckung.** Die AG begrenzt Raphaels persoenliche Haftung
@@ -62,23 +70,28 @@ Mandat**, unter dem Schutz der beschraenkten Haftung.
 - Zweck-Trennung Consulting ↔ Ausfuehrung sauber abgebildet.
 - Format-Vorlage: vorhandene Statuten-/Dokumentvorlagen im Ordner `10 AG Gruendung`.
 
-## AG-Zweck — Entwurf (zu bestaetigen)
-Bewusst auf **Ausfuehrung/GU** ausgerichtet (Consulting/Planung bleibt bei der Einzelfirma),
-mit den ueblichen Ergaenzungsbausteinen:
+## AG-Zweck — final (bestaetigt 21.06.2026)
+Raphaels Wortlaut (urspruenglich Einzelfirma-Zweck) in "Die Gesellschaft"-Stimme mit dem
+GU-/Ausfuehrungsteil zusammengefuehrt:
 
-> "Die Gesellschaft bezweckt die Erbringung von General- und Totalunternehmerleistungen
-> sowie die Realisierung, Ausfuehrung und Bauleitung von Hochbau-, Umbau- und
-> Immobilienprojekten fuer eigene und fremde Rechnung. Sie kann saemtliche damit
-> zusammenhaengenden Dienstleistungen erbringen, Vertraege mit Subunternehmern und
-> Lieferanten abschliessen sowie Bauherrenvertretungen uebernehmen.
-> Die Gesellschaft kann sich an anderen Unternehmen im In- und Ausland beteiligen,
-> Zweigniederlassungen errichten, Immobilien und Grundstuecke erwerben, halten, verwalten
-> und veraeussern sowie Immaterialgueterrechte halten und verwerten. Sie kann alle
-> Geschaefte taetigen, die geeignet sind, den Zweck der Gesellschaft zu foerdern."
+> Die Gesellschaft bezweckt die Erbringung von Architektur- und Baudienstleistungen aller
+> Art, insbesondere Beratung, Kostenplanung und Projektierung sowie die Realisierung,
+> Ausfuehrung und Bauleitung von Bauvorhaben, namentlich als General- und Totalunternehmerin,
+> fuer eigene und fremde Rechnung.
+> Sie kann saemtliche damit direkt oder indirekt zusammenhaengenden Geschaefte taetigen,
+> Vertraege mit Subunternehmern und Lieferanten abschliessen, Bauherrenvertretungen
+> uebernehmen sowie mit Waren aller Art handeln.
+> Die Gesellschaft kann Liegenschaften erwerben, verwalten und veraeussern,
+> Zweigniederlassungen im In- und Ausland errichten, sich an anderen Unternehmen beteiligen,
+> Kapitalanlagen halten sowie Immaterialgueterrechte erwerben, halten und verwerten. Sie kann
+> alle Geschaefte taetigen, die geeignet sind, den Zweck der Gesellschaft zu foerdern.
 
-Pruefpunkte: (a) reine Planungs-/Beratungsleistungen NICHT in den AG-Zweck aufnehmen, damit
-die Haftungstrennung zur Einzelfirma sauber bleibt; (b) bei Immobilien-Haupttaetigkeit mit
-Auslandsbezug Lex-Friedrich beachten (hier vsl. nicht einschlaegig).
+Hinweis (Schritt 3): Der AG-Zweck deckt bewusst auch Beratung/Planung mit ab (breit, fuer
+Flexibilitaet). Das ist haftungsrechtlich unkritisch — die Haftung folgt der vertrags-
+schliessenden Einheit, nicht dem Zweck. Die praktische Risiko-Trennung (Consulting via
+Einzelfirma, Ausfuehrung/GU via AG) entsteht also ueber die Mandatszuteilung, nicht ueber
+eine Zweck-Exklusivitaet. Lex-Friedrich hier nicht einschlaegig (kein Immobilien-Haupt-
+zweck mit Auslandsbezug).
 
 ## Plan (agil, enge Scopes — Schritt 2)
 1. ✓ Schluesselentscheide fixiert (Interview-Runde 1+2).
