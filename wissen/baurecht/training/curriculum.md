@@ -142,16 +142,25 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]], neuer Wiki-Artikel
    [[baurechtlicher-vorentscheid-und-voranfrage]], [[baubewilligungsverfahren]] korrigiert (Frist nicht
    verlaengerbar, Modell D). **Kap. 7 abgeschlossen.**)*
-   ⏭️ **Naechster Lauf: Kap. 8** «Ausfuehrung von Bauarbeiten» (ab Shot 245, S. 485) — oder Restschulden
-   P1 (Kap. 7 Restschuld keine; Kap. 20 § 357 Abs. 4/5, Kap. 14 Mischrechnungsverbot, Kap. 16 Dachaufbauten).
-7. **Kap. 12 + 13** Baureife + Grundanforderungen.
-8. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
+   ✅ **Kap. 8 Teil 1 erledigt 2026-06-22, Run 13** (S. 485-509, 8.1/8.2 + 8.3-Anfang).
+7. **Kap. 8** Ausfuehrung von Bauarbeiten — Baufreigabe/Baukontrolle/Unterbruch/Baustellensicherheit.
+   *(Teil 1 distilliert 2026-06-22, Run 13, S. 485-509, Shots 244-256: **8.1** Baufreigabe § 326 PBG,
+   Meldepflichten § 327 Abs. 1 + Asbest Art. 3a ABV, baupolizeil. Kontrollen § 327 Abs. 2 (Realakt, § 10c VRG,
+   Drohnen/Datenschutz), Bezugsbewilligung/Schlusskontrolle (§ 12a BBV I/II, SIA 180/358, BGer 1C_333/2017),
+   Akteneinsicht §§ 8/9 VRG; **8.2** Unterbruch § 328 PBG (Arealueberbauung max. 2 J., Ersatzvornahme § 30 VRG,
+   ges. Pfandrecht § 15 VRG); **8.3** Sicherheit/Regeln der Baukunde § 239 PBG (Anfang). Destillat
+   [[band-1/08-ausfuehrung-von-bauarbeiten]], neuer Wiki-Artikel [[bauausfuehrung-und-baukontrolle]].
+   Restschuld: 8.3-Detail + Kap.-Ende S. 510-534, Shots 257-269.)*
+   ⏭️ **Naechster Lauf: Kap. 12 + 13** (Baureife/Grundanforderungen) — oder P1-Restschuld (Kap. 20 § 357
+   Abs. 4/5, Kap. 16 Hoehen/Dachaufbauten, Kap. 17 Ausruestungen) bzw. Kap. 8 Rest.
+8. **Kap. 12 + 13** Baureife + Grundanforderungen.
+9. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
    *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-
    mittelweg Baurekursgericht § 19/§ 20 VRG → Verwaltungsgericht § 50 VRG → Bundesgericht Art. 82/95 BGG,
    Legitimation § 21 VRG, akzessorische Normenkontrolle § 50a VRG, Verfahrensgrundsaetze, **Rechtsmittel-
    frist 30 Tage § 22 VRG**. Destillat [[09-rechtsschutz]], speist [[baubewilligungsverfahren]] +
    [[baulinien-und-abstandslinien]]. Restschuld Kap. 9 S.575-608 Ablauf/Kosten/Revision + Kap. 10 offen.)*
-9. Rest nach Prioritaet (Kap. 1-5, 8, 11, 18-19, 21-23). Kap. 18 Brandschutz nur Querverweis
+10. Rest nach Prioritaet (Kap. 1-5, 11, 18-19, 21-23 + Kap.-8-Restschuld). Kap. 18 Brandschutz nur Querverweis
    auf den Skill `brandschutz` (kein Doppelaufbau).
 
 Pro Kapitel: erst die Kapitel-Synthese (Begriffe/Paragraphen/Formeln/Praxis), dann die

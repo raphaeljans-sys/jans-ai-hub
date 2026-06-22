@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-18
+last_updated: 2026-06-22
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,13 +92,23 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~330 / 1550 (~164 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
+- **Seiten distilliert:** ~354 / 1550 (~176 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
   § 274, Kap. 16 Teil 1, Kap. 17 Teil 1, Kap. 20 Kern (§§ 220/357), Kap. 6 + Kap. 9 Kernbereich +
-  **Kap. 7 VOLLSTAENDIG** Band 1).
-- **Kapitel-Destillate:** 11 Buch-Destillate (Kap. 14, 15×4-Teile/16/17/20 Band 2 + Kap. 6/7×2/9 Band 1; alle `emerging`).
-- **Wiki:** 14 Artikel (neu [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21 `emerging`;
+  **Kap. 7 VOLLSTAENDIG** + **Kap. 8 Teil 1** (8.1/8.2 + 8.3-Anfang) Band 1).
+- **Kapitel-Destillate:** 12 Buch-Destillate (Kap. 14, 15×4-Teile/16/17/20 Band 2 + Kap. 6/7×2/8/9 Band 1; alle `emerging`).
+- **Wiki:** 15 Artikel (neu [[bauausfuehrung-und-baukontrolle]] 2026-06-22 `emerging`;
+  [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21 `emerging`;
   [[baubewilligungsverfahren]] korrigiert: Baubewilligungsfrist nicht verlaengerbar).
-- **Letzter Lauf:** Run 12, 2026-06-21 — **Kap. 7 Teil 2**, Shots 226-244, S. 448-484 (19 Doppelseiten):
+- **Letzter Lauf:** Run 13, 2026-06-22 — **Kap. 8 Teil 1**, Shots 244-256, S. 485-509 (12 Doppelseiten):
+  **8.1 Bauausfuehrung/Baukontrolle** (Baubeginn = Aushub BEZ 1987 Nr. 38, **Baufreigabe vor Baubeginn
+  § 326 PBG**, Meldepflichten § 327 Abs. 1 + **Asbest Art. 3a ABV**, baupolizeil. Kontrollen § 327 Abs. 2
+  = **Realakt/§ 10c VRG**, Drohnen KGer LU Horw/Datenschutz, Bezugsbewilligung/Schlusskontrolle § 12a
+  BBV I/II + SIA 180/358 + BGer 1C_333/2017, Akteneinsicht §§ 8/9 VRG), **8.2 Unterbruch § 328 PBG**
+  («ewige Baustelle», **Arealueberbauung max. 2 J.**, Ersatzvornahme § 30 VRG / ges. Pfandrecht § 15 VRG),
+  **8.3 Sicherheit/Regeln der Baukunde § 239 PBG** (Anfang). Neues Destillat
+  [[band-1/08-ausfuehrung-von-bauarbeiten]], neuer Wiki-Artikel [[bauausfuehrung-und-baukontrolle]],
+  **Modell C** 6 Karten + **Modell A** 1 Drill. Restschuld Kap. 8: 8.3-Detail + Kap.-Ende S. 510-534.
+- **Lauf davor:** Run 12, 2026-06-21 — **Kap. 7 Teil 2**, Shots 226-244, S. 448-484 (19 Doppelseiten):
   Abschluss 7.1 (Zustellung/Zustellfiktion 7 Tage Art. 138 ZPO), **Gueltigkeit Baubewilligung 3 Jahre
   § 322 PBG** (Verwirkung, nicht verlaengerbar; Fristbeginn letzte Bewilligung; Baubeginn=Aushub), **Widerruf**
   (nach Bauvollendung grds. nicht, Vertrauensschaden Art. 9 BV, BGE 97 I 752), **besondere kant.
@@ -108,8 +118,11 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   neuer Wiki-Artikel [[baurechtlicher-vorentscheid-und-voranfrage]], [[baubewilligungsverfahren]] **Modell D
   korrigiert** (Frist nicht verlaengerbar), **Modell C** 7 Karten. **Kap. 7 abgeschlossen → Phase 2.**
   (Run 11, 2026-06-19: Kap. 7 Teil 1.)
-- **Naechster Lauf:** **Kap. 8** «Ausfuehrung von Bauarbeiten» (Band 1, ab S. 485, Shot 245) — ODER eine
-  P1-Restschuld vorziehen (Kap. 20 § 357 Abs. 4/5, Kap. 16 Dachaufbauten, Kap. 17 Ausruestungen).
+- **Naechster Lauf:** **Kap. 12 + 13** «Baureife / Weitere Grundanforderungen» (Band 2, ab S. 707, Shot ~356)
+  — ODER eine P1-Restschuld vorziehen (Kap. 20 § 357 Abs. 4/5, Kap. 16 Hoehen/Dachaufbauten, Kap. 17
+  Ausruestungen) bzw. **Kap. 8 Restschuld** (8.3-Detail/Kap.-Ende S. 510-534, Shots 257-269).
+- **Restschuld Kap. 8:** 8.3 Sicherheit der Baustelle Detail (Bauherrenhaftung, Schutz Nachbargrundstuecke,
+  Werkleitungen) + Kap.-Ende bis S. 534 (Shots 257-269).
 - **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
   Missstaende (S. 1456 ff.) + Brandstattrecht § 307 PBG (S. 1457 ff.) — Shots ab 729.
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.

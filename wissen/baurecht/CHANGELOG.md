@@ -4,6 +4,26 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-22 — Buch-Destillat BAND 1 Kap. 8 Teil 1 (Ausfuehrung von Bauarbeiten), Run 13 (Phase 2)
+- NEU `buecher/band-1/08-ausfuehrung-von-bauarbeiten.md` (Shots 244-256, echte Seiten 485-509, 12 Doppel-
+  seiten): **8.1 Bauausfuehrung/Baukontrolle** — Baubeginn = **Aushub** mit Ausfuehrungswillen (BEZ 1987
+  Nr. 38; nicht Abstecken RB 1994 Nr. 88), **Baufreigabe vor Baubeginn § 326 PBG** (rechtskraeftige
+  Bewilligung genuegt nicht; vorzeitige Baufreigabe), **Meldepflichten § 327 Abs. 1 PBG** (Schnurgeruest/
+  Kanalisation/Rohbau/Bezug § 23 BVV; Abbruch nur Kernzone bewilligungspflichtig § 309 Abs. 1 lit. c, sonst
+  meldepflichtig; **Asbest Art. 3a ABV / Art. 16 VVEA** auch ohne Baubewilligung), **baupolizeil. Kontrollen
+  § 327 Abs. 2 PBG** (**Realakt, keine Verfuegung** → § 10c VRG/Art. 29a BV; Abbruchbefehl = Verfuegung
+  § 329; Drohnen KGer LU 18.4.2018 Horw/Datenschutz; Auswertung § 24 BVV), **Bezugsbewilligung/Schluss-
+  kontrolle** (§ 12a BBV II, Austrocknung SIA 180, Gelaender SIA 358, BGer 1C_333/2017), **Akteneinsicht
+  §§ 8/9 VRG**; **8.2 Unterbruch § 328 PBG** («ewige Baustelle»; **Arealueberbauung max. 2 J.**; Ersatz-
+  vornahme § 30 VRG / ges. Pfandrecht § 15 VRG); **8.3 Sicherheit/Regeln der Baukunde § 239 PBG** (Anfang).
+- NEU `wiki/bauausfuehrung-und-baukontrolle.md` (`emerging`) — erster Wiki-Artikel zur **Ausfuehrungsphase**
+  (§§ 326-328/239 PBG); schliesst Luecke zwischen [[baubewilligungsverfahren]] und Ausfuehrung.
+- `training/drills.md`: 6 neue Modell-C-Karten + 1 Modell-A-Drill (Kap. 8).
+- `outputs/2026-06-22_buch-run13.md` Lern-Report.
+- Register nachgefuehrt: `buecher/seiten-inventar.md` (Shots 245-256 [x]), `buecher/INDEX.md` (+Destillat,
+  Matrix Kap. 7 🟢 / Kap. 8 🟡), `wiki/INDEX.md` (15 Artikel), `wiki/QUESTIONS.md` (Kap.-8-Luecken),
+  `training/curriculum.md` + `training/PROGRAMM.md` (Tracker, naechster Lauf Kap. 12/13).
+
 ## 2026-06-21 — Buch-Destillat BAND 1 Kap. 7 Teil 2 (Gueltigkeit/Widerruf/Vorentscheid/Auskuenfte), Run 12 — **Kap. 7 abgeschlossen → Phase 2**
 - NEU `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (Shots 226-244, echte
   Seiten 448-484, 19 Doppelseiten): Abschluss **7.1** (Kosten/Verzugszins 5 % § 29a VRG, Rechtsmittel-

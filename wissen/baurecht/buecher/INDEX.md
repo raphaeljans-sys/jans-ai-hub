@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-19
+last_updated: 2026-06-22
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -141,6 +141,21 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Fax/E-Mail genuegen nicht). 16 Doppelseiten. Status: `emerging` (Restkap. S. 575-608 Ablauf/Kosten/
   Revision + §-Verifikation offen). Speist [[baubewilligungsverfahren]] + [[baulinien-und-abstandslinien]].
 
+- [[08-ausfuehrung-von-bauarbeiten]] — Kap. 8 Teil 1 (S. 485-509, Kap. bis S. 534): **Ausfuehrung von
+  Bauarbeiten** — **8.1 Bauausfuehrung/Baukontrolle**: Baubeginn = Aushub mit Ausfuehrungswillen (BEZ 1987
+  Nr. 38, RB 1994 Nr. 88), **Baufreigabe vor Baubeginn § 326 PBG** (rechtskraeftige Bewilligung genuegt
+  nicht; vorzeitige Baufreigabe), **Meldepflichten § 327 Abs. 1 PBG** (Schnurgeruest/Kanalisation/Rohbau/
+  Bezug § 23 BVV; Abbruch nur Kernzone bewilligungspflichtig § 309 Abs. 1 lit. c, sonst meldepflichtig;
+  **Asbest Art. 3a ABV/Art. 16 VVEA** auch ohne Baubewilligung), **baupolizeil. Kontrollen § 327 Abs. 2 PBG**
+  (**Realakt, keine Verfuegung** → § 10c VRG/Art. 29a BV; Abbruchbefehl = Verfuegung § 329; Drohnen KGer LU
+  18.4.2018 Horw/Datenschutz; Auswertung § 24 BVV; Duldungspflicht), **Bezugsbewilligung/Schlusskontrolle**
+  (§ 12a BBV II Wohnhygiene, Austrocknung SIA 180, Gelaender SIA 358, awel.zh.ch; Vertrauensschutz begrenzt
+  BGer 1C_333/2017), **Akteneinsicht §§ 8/9 VRG** (umfassend, keine internen Akten, § 24 ff. IDG archiviert);
+  **8.2 Unterbruch § 328 PBG** («ewige Baustelle», Missverhaeltnis Bauzeit↔Volumen VB.2014.00026; **Areal-
+  ueberbauung max. 2 J.**; Aufforderung → Androhung lit. a-d → Ersatzvornahme § 30 VRG / ges. Pfandrecht
+  § 15 VRG); **8.3** Sicherheit/**Regeln der Baukunde § 239 PBG** (Anfang). 12 Doppelseiten (245-256). Status:
+  `emerging` (8.3-Detail + Kap.-Ende S. 510-534 offen). Speist [[bauausfuehrung-und-baukontrolle]].
+
 ## Abdeckungs-Matrix (Kurzform)
 
 | Kap | Titel | Abdeckung |
@@ -149,10 +164,11 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien S.995-1061 + Grenzabstand-Zahlenwerk §§269-270/ABV S.1062-1085; **Gebaeudeabstand §§271-274 offen**) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
 | 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
-| 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟡 teilweise (7.1 Der kommunale baurechtl. Entscheid vollst. S.424-447 — Zustaendigkeit/Delegation/Ausstand/Inhalt/Nebenbestimmungen §321/Kostenentscheid; **7.2/7.3 Auskuenfte + Vorentscheid/Voranfrage S.448-484 offen**) |
+| 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟢 vollstaendig (7.1 Entscheid/Nebenbestimmungen §321 + 7.1.5/7.1.6 Gueltigkeit/Widerruf §322/§328, 7.2 besondere kant. Zustaendigkeiten, 7.3 Vorentscheid §§323/324, 7.4 Auskuenfte — S.424-484) |
+| 8 | Ausfuehrung von Bauarbeiten | 🟡 teilweise (8.1 Baufreigabe §326/Meldepflichten §327 Abs.1/Kontrollen §327 Abs.2/Bezugsbewilligung+Schlusskontrolle/Akteneinsicht + 8.2 Unterbruch §328 + 8.3-Anfang §239, S.485-509; 8.3-Detail + Kap.-Ende S.510-534 offen) |
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 — Belichtung/Belueftung/Mindestflaeche/Raumhoehe/Aufzug S.1241-1255; Ausruestungen/Einstellraeume-Detail + §§295-298 ab Shot 632 offen) |
 | 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie S.1433-1449; § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
-| 1-5, 8, 10-13, 18-19, 21-23 | uebrige | ⬜ offen |
+| 1-5, 10-13, 18-19, 21-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.
