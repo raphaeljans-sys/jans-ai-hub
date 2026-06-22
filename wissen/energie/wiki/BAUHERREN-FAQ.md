@@ -102,8 +102,10 @@ pruefen. Faustregel Flaeche: kristallin ~8 m²/kW, Duennschicht ~16 m²/kW. Ents
 Bruestung, Laermschutz) — Indach/Solardachplatten erfuellen die PV-Pflicht gestalterisch am saubersten.
 
 **Quelle:** TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) →
-`[[tec21-solares-bauen-pv-typen-2012]]`. PV-Pflicht/Groesse siehe F10; Brandschutz dachintegrierter
-PV → Skill `brandschutz`.
+`[[tec21-solares-bauen-pv-typen-2012]]`. **Indach konkret:** grossformatige Glas-Glas-Module bzw.
+Aluminium-Solardachplatten (ab 17° Dachneigung, ersetzen die Eindeckung, ~5,9–6,8 m²/kWp) →
+`[[prefa-solar-indach-aluminium-dachplatte]]`, `[[sunskin-roof-indach-planung]]`. PV-Pflicht/Groesse
+siehe F10; Brandschutz dachintegrierter PV → Skill `brandschutz`.
 
 ---
 
@@ -567,6 +569,12 @@ so viel wie im Winter** — den Winter-Heizstrom deckt PV nicht.
 | **Autarkie/Unabhaengigkeit** | 53 % | — (Single, kaum Tagslast) |
 | Sommer : Winter | ~3 : 1 | ~4 : 1 (771 vs. 188 kWh/Mt) |
 
+**Drittes Beispiel — grosses MFH/Gewerbe (Basel, 60 kWp Indach, 2022):** Produktion 49'579 kWh/a
+(~826 kWh/kWp Stadtlage), Verbrauch 48'000 kWh/a → **Eigenverbrauch 33 %**, Autarkie 103 % in der
+Jahresbilanz. Das fuellt die Luecke zwischen Single (8 %) und WP-Haushalt (44 %): **je mehr
+Tagverbrauch (Gewerbe, mehrere Parteien), desto hoeher der Eigenverbrauch** — im MFH zusaetzlich
+ueber **ZEV/Mieterstrom** hebbar.
+
 Drei Stellschrauben fuer mehr Eigennutzen (= bessere Wirtschaftlichkeit, weil selbstverbrauchter
 Strom ~25 Rp. wert ist, eingespeister nur ~8–10 Rp.):
 - **Anlage aufs Lastprofil dimensionieren**, nicht das Dach maximieren (ein Single mit Riesenanlage
@@ -581,9 +589,10 @@ Amortisation grob bei **12–24 Jahren** je nach Eigenverbrauch und Strompreis (
 CHF 13'254, Gewinn CHF 554/a → 24 J); die Module halten 25–30 J. Die **energetische** Amortisation
 (graue Energie der Anlage) ist mit ~2 Jahren vernachlaessigbar.
 
-**Quelle:** zwei Praxis-Solarreports (SolarApp, Einsiedeln 2024 / EnergieSchweiz-Solarrechner,
-Diemtigen 2023) → `[[pv-ertrag-eigenverbrauch-praxis]]`; PV-Typ/Flaeche siehe F4, PV-Pflicht/Groesse
-F10, Foerderung F7, Indach-Integration `[[sunskin-roof-indach-planung]]`. ⚠ **Datenstand 2026-06-19:**
+**Quelle:** drei Praxis-Solarreports (SolarApp, Einsiedeln 2024 / EnergieSchweiz-Solarrechner,
+Diemtigen 2023 / SolarApp, Basel 60 kWp MFH 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]`; PV-Typ/
+Flaeche siehe F4, PV-Pflicht/Groesse F10, Foerderung F7, Indach-Integration
+`[[sunskin-roof-indach-planung]]` / `[[prefa-solar-indach-aluminium-dachplatte]]`. ⚠ **Datenstand 2026-06-19:**
 Ertraege sind PVGIS-/Meteonorm-**Schaetzungen**, keine Messwerte; spez. Ertrag ist standort-/
 ausrichtungsabhaengig (projektgenau via `sonnendach.ch`/PVGIS). Verguetungstarife (Rueckliefer-/
 Eigenverbrauch) sind netzbetreiber- und jahresabhaengig — nicht beziffert belegt.
@@ -704,6 +713,44 @@ seit 01.01.2026 Vollzug ZH ueber EVEN; EN-110-PDF formal abgelaufen, inhaltlich 
 
 ---
 
+## F23 — «Muss ich vor meinem Umbau eine Asbest-/Schadstoffabklaerung machen?»
+
+**Kurz:** Faustregel im Kt. ZH: **vor 1990 gebaut + umgebaut → ja**. Bei **Umbaukosten bis CHF
+200'000** genuegt eine vom Architekten ausgefuellte **Checkliste Gebaeudeschadstoffe** (sie gilt als
+Entsorgungskonzept und wird dem Baugesuch beigelegt); **darueber** braucht es eine **Fachperson
+Gebaeudeschadstoffe + private Kontrolle**. Wer **ab 1990** baut, braucht i.d.R. keine Abklaerung —
+ausser es fallen **mehr als 200 m³** Rueckbaumaterial an (dann nur Entsorgungskonzept, ohne
+Schadstoffteil).
+
+**Fachlich:** Das AWEL-Verfahren kennt vier Faelle:
+
+| Fall | Konstellation | Pflicht |
+|---|---|---|
+| 1 | Rueckbau vor 1990 ODER Umbau vor 1990 **+ > CHF 200'000** | Fachperson + Entsorgungskonzept, **private Kontrolle** |
+| 2 | Umbau vor 1990 **+ ≤ CHF 200'000** | **Checkliste Gebaeudeschadstoffe** (selbst, gilt als Entsorgungskonzept) |
+| 3 | Bau ab 1990 **+ > 200 m³** Rueckbaumaterial | Entsorgungskonzept (ohne Schadstoffabklaerung) |
+| 4 | Bau ab 1990 **+ ≤ 200 m³** | keine Angaben noetig |
+
+Die **Stichjahre** je Schadstoff: **Asbest vor 1990** (Faserzement/Eternit, Bodenbelaege + Kleber,
+Fliesenkleber, Verputz/Spachtelmassen, Bitumen, Brandschutzplatten/-tueren), **PCB in Geraeten vor
+1987** (FL-Vorschaltgeraete, Kondensatoren) bzw. **in Fugen/Anstrichen vor 1976**, **Chlorparaffine
+vor 1990**. Die Checkliste fuellt eine **bausachverstaendige Person (Architekt/-in) nach Begehung**
+aus; ohne Abklaerung gelten verdaechtige Bauteile **ohne Gegenbeweis als haltig** und muessen teuer
+saniert werden — eine **freiwillige Voruntersuchung** (Probe/Analyse) kann den Verdacht widerlegen
+und Kosten sparen. **Spezialobjekte vor 1990 (Schule, Kita, Sporthalle, Spital) immer mit
+Fachperson**, unabhaengig von der Bausumme. Praktisch gehoert die Schadstoff-/Rueckbaufrage in die
+**fruehe Kostenschaetzung** jeder Altbau-Sanierung (eigene Einordnung) — und sie ist ein Argument
+im Sanieren-vs.-Neubau-Entscheid (Bauteilerhalt spart Rueckbau + graue Energie, vgl. F9).
+
+**Quelle:** Kt. ZH / AWEL «Entsorgungskonzept – Checkliste Gebaeudeschadstoffe» (02.2023, Rechtsbasis
+Art. 16–20 VVEA) → `[[gebaeudeschadstoffe-checkliste-zh]]`; Bezug private Kontrolle →
+`[[private-kontrolle-zh]]`; Kreislauf/Re-use → `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`. ⚠
+**Datenstand 2026-06-22:** Schwellen Kt.-ZH-spezifisch; andere Kantone abweichend — am aktuellen
+AWEL-Stand / `polludoc.ch` pruefen. Schadstoff-/Abfallrecht ist ein **eigenes Verfahren** neben dem
+Energienachweis (EVEN). Detailfragen Asbestsanierung → Suva-Vorgaben.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -712,7 +759,8 @@ seit 01.01.2026 Vollzug ZH ueber EVEN; EN-110-PDF formal abgelaufen, inhaltlich 
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-21: 22 Kernfragen F1-F22 belegt** (neu **F21 Fassaden-PV-Ertrag quantitativ**
-> ~603 kWh/kWp = ~60–65 % des Dachs, aus PV*SOL-Praxissimulation + **F22 Kuehlung/Klimaanlage-
-> Nachweis** EN-110 / ≤ 12 W/m² / PV-Deckung). Damit ist die quantitative Fassaden-Ertragsluecke aus
-> F20 geschlossen; offen nur noch kWh/kWp je Einzel-Orientierung und aktuelle CHF/kWp.
+> **FAQ-Stand 2026-06-22: 23 Kernfragen F1-F23 belegt** (neu **F23 Asbest-/Schadstoffabklaerung beim
+> Umbau** — Kt.-ZH-Vierfaelle-Raster: vor 1990 + ≤ CHF 200'000 → Checkliste selbst, darueber Fachperson
+> + private Kontrolle; Stichjahre Asbest 1990 / PCB 1987/1976 / CP 1990). Zudem **F18 um ein drittes
+> Praxisbeispiel** (Basel 60 kWp Indach-MFH, Eigenverbrauch 33 %) und **F4 um konkrete Indach-Produkte**
+> (Alu-Solardachplatte/Glas-Glas) ergaenzt. Offen: kWh/kWp je Einzel-Orientierung, aktuelle CHF/kWp.
