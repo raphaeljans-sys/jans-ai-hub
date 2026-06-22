@@ -41,3 +41,5 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[pv-kosten-amortisation-praxis-ewz]] | Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV | emerging (vollst., 3 S.; CHF/kWp + Amortisation + Verschattungs-Tradeoff) | ⚠ 2019 (Projektkorrespondenz, Marktwerte veraltet) |
 | [[pv-fassade-ertrag-pvsol]] | Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01 | emerging (vollst., 14 S.; Fassaden-PV 4 Fassaden, 603 kWh/kWp Gesamtanlage) | ⚠ 2019 (PV*SOL-Simulation, Klima ZH) |
 | [[en-lueftung-kuehlung-zh]] | _Formulare Kanton ZH Baueingabe/EN-105 + EN-110-ZH | established (beide vollst., je 2 S.; WRG ≥70 %, Kuehlung ≤12 W/m²/PV) | EN-105 Aug 2017 / EN-110 Sept 2022; seit 1.1.2026 EVEN |
+| [[prefa-solar-indach-aluminium-dachplatte]] | Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch | emerging (vollst., 7 S.; Alu-Indach-Solardachplatte, 100/43 Wp, ab 17°) | ⚠ 2023 (Produktbroschuere V5) |
+| [[gebaeudeschadstoffe-checkliste-zh]] | _Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe | established (vollst., 8 S.; 4-Faelle-Raster, Asbest/PCB/CP-Stichjahre) | 2023 / AWEL; VVEA Art. 16-20 |

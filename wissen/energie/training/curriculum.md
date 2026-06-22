@@ -54,12 +54,16 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 ## Block C — Solar / PV
 - [x] C1 PV-Typen-Entscheidungsbaum (kristallin/Duennschicht/Graetzel/Hybrid + Integration) —
   belegt 2026-06-07 via TEC21-Dossier «Solares Bauen» → `[[pv-solar-technologien]]` (FAQ F4).
-- [ ] C2 PV-Eignung/Ertrag bestimmen (uvek-gis-Bericht, SolarReports Basel/Willerzell als Beispiele).
+- [x] C2 PV-Eignung/Ertrag bestimmen — belegt 2026-06-19/-22 via 3 SolarReports (Willerzell/Diemtigen/
+  **Basel 60 kWp MFH**, ~826-1'025 kWh/kWp, EV 8-44 %) + uvek-gis/sonnendach (Eignungsklassen, F19) →
+  `[[pv-ertrag-eigenverbrauch-praxis]]`, `[[sonnendach-solarpotenzial-bfe]]` (FAQ F18/F19). **vollstaendig.**
 - [x] C3 Brandschutz bei Solaranlagen — belegt 2026-06-12 via swissolar STP V4.00; **vollst. Kap. 1-7
   nachgezogen 2026-06-18** (Feuerwehr-Pflicht Bauherr + ≥30 kW Orientierungsplan, Brandmauer 1,0 m,
   Batteriespeicher RF1, RWA, Naturgefahren SIA 261:2020) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
   `[[pv-solar-technologien]]` (FAQ F16 geschaerft). Bewertung/Detail → Skill `brandschutz`. **vollstaendig.**
-- [ ] C4 Sunskin/Indach-Planung & Ausfuehrung (`solar-home.ch/Sunskin/...`).
+- [x] C4 Indach-Planung & Ausfuehrung — belegt 2026-06-19/-22: Glas-Glas Sunskin (`solar-home.ch`) +
+  **Alu-Solardachplatte PREFA** (ab 17°, 12,6 kg/m², keine Unterkonstr./Durchdringung) →
+  `[[sunskin-roof-indach-planung]]`, `[[prefa-solar-indach-aluminium-dachplatte]]` (FAQ F4). **vollstaendig.**
 
 ## Block D — Nachhaltigkeit / Klima (strategisch)
 - [x] D1 Netto-Null im Gebaeude — belegt 2026-06-17 via Minergie-Nachweiskurs 2023 (THGE-Grenzwerte je

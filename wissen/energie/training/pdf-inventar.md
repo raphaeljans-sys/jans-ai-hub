@@ -49,12 +49,12 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [x] `_Formulare Kanton ZH Baueingabe/Energienutzungs-Deklaration für geringfügige Umbauten 2022.pdf` | 2026-06-19 (vollst.; Schwellen ≤200k & ≤30 % GVZ + Umbau-U-Werte → energienutzungs-deklaration-geringfuegige-umbauten-zh; schliesst B2) |
 | [x] `Solaranlage/_Literatur/20220606_GreenPV - Workshop 2.pdf` | 2026-06-20 (S. 1-16; HSLU GreenPV — Fassaden-PV opak 20 %/transparent 14 %, NOCT 42 °C, Temp-Koeff −0,4 %/°C + Begruenung boden-/wandgebunden → greenpv-fassade-pv-begruenung-hslu; quant. Endergebnisse/qual. Kapitel ab S. 17 offen) |
 | [x] `Solaranlage/D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` | 2026-06-20 (vollst., 3 S.; ewz-Projektkorrespondenz — CHF 1'600–2'460/kWp 2019, Amortisation/Lebensdauer 25-30 J, Verschattungs-Tradeoff, PV+Gruendach → pv-kosten-amortisation-praxis-ewz; ⚠ Marktwerte veraltet) |
-| [ ] `Solaranlage/solarapp.ch/Basel/2022-11-05 SolarReport Version 1-3.pdf` | — (weiterer Ertragsreport, redundant zu Willerzell) |
+| [x] `Solaranlage/solarapp.ch/Basel/2022-11-05 SolarReport Version 1-3.pdf` | 2026-06-22 (vollst. S. 1-12; **60 kWp Indach-MFH/Gewerbe** Basel, Glas-Glas LEVEL 340 Wp, ~826 kWh/kWp, EV 33 %/Autarkie 103 %, ~CHF 2'250/kWp 2022 → in `pv-ertrag-eigenverbrauch-praxis` als Beispiel C; FAQ F18 geschaerft) |
 | [x] `Solaranlage/pv sol premium/Projekt_PI_PV_SIM_01.pdf` | 2026-06-21 (vollst. 14 S.; Fassaden-PV 4 Fassaden vertikal, Gesamt 603 kWh/kWp = ~60-65 % Dach, PR 87,8 % → pv-fassade-ertrag-pvsol; per-Fassade nicht ausgewiesen) |
 | [x] `Solaranlage/uvek-gis.admin.ch/uvek_gis_admin_bericht_garagendach.pdf` | 2026-06-20 (vollst., 3 S.; sonnendach.ch/BFE — Eignungsklassen + reale Monatsproduktion + Verguetung → sonnendach-solarpotenzial-bfe; FAQ F19) |
-| [ ] `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` | — (Indach-Metalldach-Solar, Produkt) |
+| [x] `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` | 2026-06-22 (vollst., 7 S.; Alu-Indach-Solardachplatte gross 100 Wp/5,88 m²/kWp + klein 43 Wp, ab 17°, keine Unterkonstr./Durchdringung → prefa-solar-indach-aluminium-dachplatte; FAQ F4 geschaerft) |
 | [x] `_Formulare Kanton ZH Baueingabe/EN-105.pdf` (Lueftung) + `EN-110-ZH.pdf` (Kuehlung) | 2026-06-21 (beide vollst. je 2 S.; WRG ≥70 %/Luftgeschw./Kanaldaemmung + Kuehlung ≤12 W/m²/PV-Deckung/θ_CW → en-lueftung-kuehlung-zh; ⚠ seit 1.1.2026 EVEN) |
-| [ ] `_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf` | — (gering) |
+| [x] `_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf` | 2026-06-22 (vollst., 8 S.; AWEL Entsorgungskonzept, 4-Faelle-Raster vor 1990 / ≤200k / 200 m³, Asbest/PCB/CP-Stichjahre → gebaeudeschadstoffe-checkliste-zh; FAQ F23 neu) |
 | [-] Datenblaetter (SI-Saphir, megasol M385, PREFA-Farbsortiment, Usermanual, Maison-Climat-Plaene) | nicht einzeln destilliert (geringe Uebertragbarkeit) |
 
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)

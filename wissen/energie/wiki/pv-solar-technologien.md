@@ -1,8 +1,8 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-06-20
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md]
+last_updated: 2026-06-22
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]] [[holzbau-bauphysik-clt]]
 ---
 
@@ -48,18 +48,30 @@ Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, max. 30 kW (Detail → [[BAUHERREN-FAQ]]
   besonntes Sued-/leicht-Ost-Dach ~26°). Schnellschaetzung Jahresertrag = **kWp × ~1'000 kWh**.
 - **Saisonalitaet hart:** Sommer ≈ **3–4× Winter** → PV deckt den WP-Heizstrom im Winter nicht;
   «Plusenergie» = Jahres-Netzbilanz, kein Inselbetrieb.
-- **Eigenverbrauch ohne Speicher ist Lastprofil-Frage:** Single ~8 %, grosser Haushalt mit WP/E-Auto
-  ~44 %. Hebel: Anlage aufs Profil dimensionieren, **Lasten in die Sonnenstunden** (WP/WW/E-Auto
-  tagsueber), **dann** erst Batterie. Selbstverbrauchter Strom ist ~3× mehr wert als eingespeister.
-- **Flaeche:** Aufdach-Vollmodul ~5–8 m²/kWp; **Indach-Ziegelsystem braucht mehr** (~12 m²/kWp).
+- **Eigenverbrauch ohne Speicher ist Lastprofil-Frage:** Single ~8 %, **grosses MFH/Gewerbe ~33 %**
+  (Tagverbrauch mehrerer Parteien), grosser Haushalt mit WP/E-Auto ~44 %. Hebel: Anlage aufs Profil
+  dimensionieren, **Lasten in die Sonnenstunden** (WP/WW/E-Auto tagsueber), im MFH **ZEV/Mieterstrom**,
+  **dann** erst Batterie. Selbstverbrauchter Strom ist ~3× mehr wert als eingespeister.
+- **Flaeche:** Aufdach-Vollmodul ~5–8 m²/kWp; **grossformatiges Indach-Modul aehnlich** (Glas-Glas
+  340 Wp ~5,9 m²/kWp; Alu-Solardachplatte 5,88 m²/kWp), **kleinteiliges Solarziegel-Indach braucht
+  mehr** (~12 m²/kWp) → Indach nach Modulgroesse waehlen.
 - Details/Zahlen → [[BAUHERREN-FAQ]] F18, `[[pv-ertrag-eigenverbrauch-praxis]]`; Foerderung F7.
 
-## Indach in der Ausführung (Bsp. Eternit Sunskin roof)
-Rahmenloses Glas-Glas-Indachsystem (ersetzt Eindeckung). Eckwerte: **Dachneigung 10–60°**, Bezugshoehe
-≤ 2'000 m, **Hinterlueftung ≥ 60 mm** (Konterlattung), Dachlatten **C20 / Holzfeuchte ≤ 20 %**,
-Schnee-/Windlast nach SIA-Standort, **ESTI-Installationsbewilligung + NIN SEV 1000**, Blitzschutz/
-Potenzialausgleich einbinden, Verkabelung ohne Schlaufen. Brandschutz-Schnittstelle → swissolar-STP
-`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. Detail → `[[sunskin-roof-indach-planung]]`.
+## Indach in der Ausführung (zwei Systemtypen)
+Indach ersetzt die Eindeckung und ist die gestalterisch sauberste Art, die PV-Pflicht zu erfuellen.
+Zwei marktuebliche Bauarten:
+- **Rahmenloses Glas-Glas-Indachsystem** (Bsp. Eternit Sunskin roof): **Dachneigung 10–60°**,
+  Bezugshoehe ≤ 2'000 m, **Hinterlueftung ≥ 60 mm** (Konterlattung), Dachlatten **C20 / Holzfeuchte
+  ≤ 20 %**, Schnee-/Windlast nach SIA-Standort, **ESTI-Bewilligung + NIN SEV 1000**, Blitzschutz/
+  Potenzialausgleich einbinden, Verkabelung ohne Schlaufen → `[[sunskin-roof-indach-planung]]`.
+- **Aluminium-Solardachplatte** (Bsp. PREFA Solar): PV-Modul fest mit beschichteter Alu-Dachplatte
+  verbunden, **ab 17° Dachneigung**, leicht (**12,6 kg/m²**, gut fuer Sanierung/Aufstockung), **keine
+  Aufdach-Unterkonstruktion / keine Dachdurchdringung** → kein Zusatz-Statiknachweis fuer die PV;
+  Leistungsdichte grosse Platte ~170 W/m² (5,88 m²/kWp, auf Aufdach-Niveau), kleine Platte
+  flaechenineffizienter (6,84 m²/kWp). Komplettleistung Dach + Elektro (Wechselrichter/Verkabelung/
+  ESTI separat) → `[[prefa-solar-indach-aluminium-dachplatte]]`.
+
+Brandschutz-Schnittstelle dachintegrierter PV → swissolar-STP `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
 
 ## Dach-Eignung pruefen (sonnendach.ch — BFE)
 Erster Schritt vor jeder Offerte: Adresse auf **sonnendach.ch** → amtliche **Eignungsklasse** nach

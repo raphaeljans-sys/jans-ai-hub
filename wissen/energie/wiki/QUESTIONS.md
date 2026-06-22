@@ -34,9 +34,12 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   FAQ **F20**. **Kosten/Amortisations-Mechanik belegt ✓ 2026-06-20** → `[[pv-kosten-amortisation-praxis-ewz]]`.
   **Quantitative Fassaden-Ertraege belegt ✓ 2026-06-21** (PV*SOL-Simulation: Vierfassaden-Anlage
   vertikal ~603 kWh/kWp = ~60-65 % Dach, PR 87,8 %, Saison 4:1 mit hoeherem Winteranteil) →
-  `[[pv-fassade-ertrag-pvsol]]`, FAQ **F21**. Offen nur noch: kWh/kWp je **Einzel-Orientierung**
-  (Sued/Ost/West/Nord vertikal) + Tabelle Ertrag je Ausrichtung × Neigung (0-45°); aktuelle CHF/kWp
-  (Swissolar-Marktbericht).
+  `[[pv-fassade-ertrag-pvsol]]`, FAQ **F21**. **Drittes Ertrags-/EV-Beispiel + Indach-Produkte belegt
+  ✓ 2026-06-22**: grosses MFH/Gewerbe Basel 60 kWp Indach (~826 kWh/kWp, **EV 33 %**, Autarkie 103 %,
+  ~CHF 2'250/kWp 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]` Bsp. C, FAQ F18; konkrete Indach-Systeme
+  (Alu-Solardachplatte 100/43 Wp, ab 17°) → `[[prefa-solar-indach-aluminium-dachplatte]]`, FAQ F4.
+  Offen nur noch: kWh/kWp je **Einzel-Orientierung** (Sued/Ost/West/Nord vertikal) + Tabelle Ertrag je
+  Ausrichtung × Neigung (0-45°); aktuelle CHF/kWp (Swissolar-Marktbericht).
 - [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
   (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
   Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,
@@ -78,6 +81,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [ ] **E12** **Naturdaemmstoffe in der Praxis**: Stroh (Bemessungs-λ, Brandverhalten RF, Feuchte) +
   Lehmputz (Feuchtepufferung) — Seed `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (2024). Ergaenzt
   `[[daemmstoffe-lambda]]`. Zudem **ZEV/Areal-PV/«Solarsplitvertrag»** wirtschaftlich/rechtlich (→ `baurecht`).
+- [x] **E13** **Gebaeudeschadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP) belegt ✓ 2026-06-22 →
+  `[[gebaeudeschadstoffe-checkliste-zh]]`, FAQ **F23** (Kt.-ZH-Vierfaelle-Raster vor 1990 / ≤ CHF
+  200'000 → Checkliste, darueber Fachperson + private Kontrolle; Stichjahre 1990/1987/1976). Offen:
+  Schwellen anderer Kantone (SZ), Verknuepfung Rueckbaukosten ↔ fruehe Kostenschaetzung/CapEx-Fahrplan
+  (`ankaufspruefung`/`kostenschaetzung`), Sanieren-vs.-Neubau mit Schadstoff-Altlast quantifizieren.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
