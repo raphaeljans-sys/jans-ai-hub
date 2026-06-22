@@ -35,9 +35,11 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] R4 Reale JANS-Baurechtsanalysen (`08_`) als anonymisierte Benchmarks erschliessen. (2026-06-08, Fall-Index + Maur-Geruest, → [[recht-norm-baurechtsanalysen-benchmarks]])
 
 ## Domaene 4 — Brandschutz (PL-03)
-- [ ] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen).
-- [ ] B2 Brandschutznachweis-Vorlagen (brandschutznachweis.ch) — wann braucht es welche?
-- [ ] B3 VKF-Struktur 2015 (Norm/Richtlinien/Erlaeuterungen/Arbeitshilfen) als Wegweiser.
+- [x] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen). (2026-06-22 Run 8: Entscheid schlanker Wegweiser — Planungsgrundlagen/Prozess/QSS hier, Fach-/Detailarbeit im Skill `brandschutz`; kein Doppel → [[brandschutz-pl03-wegweiser]])
+- [x] B2 Brandschutznachweis-Vorlagen (brandschutznachweis.ch) — wann braucht es welche? (2026-06-22 Run 8: Anleitung V.3 A–F belegt — Inhalt D/E/Plaene F SIA 400/1:100-200/A3, EFH nur auf Verlangen, Umbau=Maengel aufzeigen, Vorlage MFH-5g-RF1 V.3 → [[brandschutz-pl03-wegweiser]] §2)
+- [x] B3 VKF-Struktur 2015 (Norm/Richtlinien/Verzeichnisse/Erlaeuterungen/Arbeitshilfen) als Wegweiser. (2026-06-22 Run 8: 5-Teil↔PL-03-Ordner-Mapping + Rev. 2017/2022 + bsvonline.ch; ⚠ BSV 2026 in Vernehmlassung, Inkraft-Antrag 03/2027 → [[brandschutz-pl03-wegweiser]] §1)
+- [x] B4 QSS 1–4 als Planungsgrundlage (wer/wie tief). (2026-06-22 Run 8: BSR 11-15 Tab. 3.3.1/3.4.1; Healthcare=Beherbergung [a]→QSS 2–3, Umbau >300 Pers.=2/3/3 → [[brandschutz-pl03-wegweiser]] §3)
+- [ ] B5 BSV 2026 (Totalrevision) bei Publikation der definitiven Fassung nachziehen (Inkraft-Antrag 03/2027). (neu 2026-06-22)
 
 ## Meta / Querschnitt
 - [ ] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output.

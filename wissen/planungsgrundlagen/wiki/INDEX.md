@@ -14,7 +14,8 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[recht-norm-baurechtsanalysen-benchmarks]] — reale JANS-Faelle (08_) als Struktur-/Praezedenz-Benchmark · emerging
 
 ## Brandschutz (PL-03)
-- _(verweist auf Skill `brandschutz` — kein eigener Artikel, Stand 2026-06-05)_
+- [[brandschutz-pl03-wegweiser]] — Wegweiser PL-03: VKF-Struktur 2015 (Norm/BSR/Verzeichnisse/Erlaeuterungen/Arbeitshilfen + Rev. 2017/2022, BSV-2026-Stand), Brandschutznachweis (Inhalt/wann/Vorlage MFH-5g-RF1), QSS 1–4 (Tab. 3.3.1/3.4.1, Healthcare=Beherbergung [a]→QSS 2–3); Fach-/Detailarbeit → Skill `brandschutz` · **established**
+- _Fach-/Detailarbeit (EI/RF, Brandabschnitte, W3xx, DoP, Ertuechtigung) → Skill `brandschutz` (kein Doppel)_
 
 ## Energie (PL-04)
 - [[energie-uebersicht]] — Einstieg: U-Wert (→ KB energie), Energienachweis ZH/EN-ZH, EVEN · **established**
