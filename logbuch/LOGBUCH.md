@@ -5,6 +5,34 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-22
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365, naechste 7 Tage) und
+  Mail-Eingang (seit 21.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini liegt vor (vom Macbook Pro, wird vom Runner abgearbeitet) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **67 Tage ueberfaellig**, Mahnstufe 1, naechste Frist **28.06.** = Eskalation auf
+  Stufe 2 pruefen) und RE-00097 (Hofer, CHF 500, faellig 16.06., **6 Tage ueberfaellig**, Mahnstufe 1,
+  naechste Frist 30.06.). Kein Zahlungseingang seit dem letzten Lauf.
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** keine neue Korrespondenz. Mahnung 2 vom 13.06. bleibt
+  gegenstandslos; vor Reaktion final verifizieren.
+- **NEU — S. Tschopp (Mail 21.06.):** bittet um Status-Update zum Aufstockungs-Projekt (Freigabe
+  Grundriss/Ansichten + Umgebungsplan), will im August/September mit der Ausfuehrung beginnen und
+  weist auf den Vorlauf der Gewerk-Koordination hin. Als nachfassen-Pendenz (mittel) ins Register.
+- **Kalender naechste 7 Tage (bestaetigt via Outlook):** nur die zwei bereits erfassten Termine HEUTE
+  22.06. — 09:00–09:30 Kontrolle Lueftung EVEN (privat einladen, F. Wuersch/KISPI + C. Duran/Gruner)
+  und 15:00–16:00 Besprechung Schliessanlage Albertstrasse (BKP 275.00, Teams, R. Steinmann/Nova +
+  Struebi/Portunus). Beide im Register, kein neuer Eintrag noetig.
+- **Mail-Hinweise (Info):** Zefix (bj.admin.ch, 22.06.) liefert Doku-Link zur Public REST API —
+  bringt den Zefix-Connector voran (kein Frist-Item). SharePoint-Speicher-Warnung (21.06.) bestaetigt
+  den Stand 1057.02 / 1054 GB — bleibt offener Blocker, bereits im Register.
+- **Offen/nachfassen:** RE-00087 (Eskalation 28.06.), SharePoint-Speicher, bexio-Doppelimport, EPROID
+  B26-00705.01, S. Sonderegger (Reduit/Strom), S. Tschopp (Aufstockung), Mittagessen M. Prencipe
+  (23.06.), AG-Gruendung (UBS-Vertragsdokumente / Notariat-Termin, ~25.06.).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Operatives in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-21
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365, naechste 7 Tage) und

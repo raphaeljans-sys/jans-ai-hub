@@ -3,19 +3,20 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 21.06.2026
+Stand: 22.06.2026
 
 ## Aktiv
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 66 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026; Eskalation auf Stufe 2 (Mahnung 1) pruefen | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 67 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026; Eskalation auf Stufe 2 (Mahnung 1) pruefen | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
-| 16.06.2026 | RE-00097 (Hofer, CHF 500) 5 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 | mahnwesen | Debitoren | tief | offen |
+| 16.06.2026 | RE-00097 (Hofer, CHF 500) 6 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 | mahnwesen | Debitoren | tief | offen |
 | 18.06.2026 | SharePoint-Online-Speicher voll (1057.0 / 1054 GB belegt, Microsoft-Warnung 18.–20.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |
 | 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH. EN-ZH-005 entfaellt (EVEN-Plattform). C. Duran (Gruner) bestaetigt 18.06.: EN 105/EN 110 sind im EVEN-Portal erfasst — EPROID-Eingang verifizieren | logbuch/mail | 2619 KISPI | mittel | nachfassen |
 | 21.06.2026 | S. Sonderegger (KISPI, Mail 19.06.) zwei offene Fragen: (1) Reduit — Tuer-Loesung oder offen? (2) Wer/wann plant den Strom (Dosen/Lampen)? — Antwort offen | mail | 2619 KISPI | tief | nachfassen |
+| 21.06.2026 | S. Tschopp (Mail 21.06.) bittet um Status-Update zum Aufstockungs-Projekt (Freigabe Grundriss/Ansichten + Umgebungsplan); will im August/September mit der Ausfuehrung beginnen, Gewerk-Koordination braucht Vorlauf — Antwort/Status offen | mail | Tschopp Aufstockung | mittel | nachfassen |
 | 22.06.2026 | Kontrolle Lueftung EVEN — Terminvorschlag privat einladen (F. Wuersch / KISPI + C. Duran / Gruner), 09:00–09:30 | kalender | 2619 KISPI | mittel | Termin |
 | 22.06.2026 | Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00 Schliesssystem), 15:00–16:00 (Teams), mit R. Steinmann (Nova Property) + Struebi (Portunus). Vorbereitung: Steinmann-Offerten BKP 272/273/275 (u.a. UG-Schrankanordnung, Mail 18.06.) | kalender | 2620 Albertstrasse | mittel | Termin |
 | 23.06.2026 | Mittagessen-Vorschlag M. Prencipe (Mail 17.06.) — Antwort/Termin noch offen | mail | Netzwerk | tief | nachfassen |

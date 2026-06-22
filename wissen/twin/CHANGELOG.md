@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-22 — twin-mail-training (täglich), Batch 13
+- Sequentieller Sent-Items-Sweep rj@ **2025-09-06 bis 2025-09-12** (40 Mails gesichtet, 5 Volltexte
+  destilliert). Gros = bereits dokumentierter Yorck/Render-Thalwil-2414-Thread + Bild-Fragmente;
+  Gregori/Putz + Stefan/Farb-Materialkonzept bereits via Fidelity 260612 erfasst, hier bestätigt.
+  Stilmetrik 511 W: Du-Gross 0.812, Satzlänge ø 13.4 W, Grüsse «Lieber Gruss» 2× / «Freundliche Grüsse» 1×.
+- [[stimme]] **neu** «Knappe höfliche Absage + ‹Du,›-Direkt-Anrede-Satzopener» (Frick-Absage doppeltes
+  «Besten Dank» ohne Grund; «Du,» als mündlicher Opener; «baldis» Mundart; Metrik Batch 13).
+- [[arbeitsweise]] **neu** «Auftrag, den er selbst nicht macht, an den passenden Peer weiterreichen»
+  (Labinot bekommt das abgelehnte Winterberg-Mandat vor der Absage an die Vermittlerin).
+- [[fachsignatur]] **neu** «Bildregie, Forts.: Verständlichkeit als Bewertungskriterium + vom
+  Konkurrenzbild lernen» (Daniela-Strampel-Urteil Inhalt vs. Komposition; booklet «zu nah ohne Aussage»;
+  Gartenmauer-1.5m-Recht inline als Gestaltungssteuerung).
+- [[beziehungsregister]] **neu** «Lieferant warmt Sie→Du nach persönlicher Beratung» (Gregori: «Guten Tag
+  Herr Gregori» → «Geschätzter Gregori»; löst die zwei Gregori-Mappings auf, identifiziert ihn als den
+  «Verputzer 2025-09-09»; Frick Sie-Tageszeit-Variante «Guten Morgen Frau Frick»).
+- _INGESTED bis 2025-09-12; nächster Lauf ab 2025-09-13.
+
 ## 2026-06-22 — twin-fidelity-review (alle 2 Tage)
 - Selbsttest gegen 3 authentische Goldproben (Sent Items rj@, Dez 2025): A formell-Sie (Status-/
   Baufreigabe-Mail an Privatbauherrin Hofer, 2025-12-01), B operativ-Du (Rechnung «Hoi Peter», 2025-12-15),

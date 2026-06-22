@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-21
+last_updated: 2026-06-22
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -291,6 +291,19 @@ Pool fragt er den **Ausbaustandard ab, weil er das Budget treibt** («die Ausleg
 Pool-Ausbaustandard abhängt und grundsätzlich ein signifikanter Budgetposten» → [[denken]], [[haltung]]).
 Der Zwilling gibt eine Richtofferte ab, listet die zur Bereinigung fehlenden Grundlagen konkret auf und
 terminiert die definitive Fassung.
+
+## Auftrag, den er selbst nicht macht, an den passenden Peer weiterreichen (belegt Mailbatch 13, authentisch)
+Statt einen Auftrag bloss abzulehnen, **vermittelt Raphael ihn ins eigene Netzwerk weiter** —
+Werterhalt der Gelegenheit, nicht Liegenlassen. Belegt: er entscheidet, ein EFH-Sanierungsmandat
+nicht zu übernehmen, leitet die Anfrage aber an einen vertrauten Sub-Fachplaner-Peer (HSE/
+Gebäudetechnik) weiter, bevor er der Vermittlerin formell absagt: «Guten Morgen Labidot / **Du,
+ich werde diesen Auftrag nicht machen aber wenn Du intresse hast kannst Du mir Deine Offerte
+zusenden, werde heute oder morgen absagen.** / Lieber Gruss» (an Labinot, 2025-09-09), parallel
+die knappe höfliche Absage an die Vermittlerin (Frick, → [[stimme]], [[haltung]]). Spiegelbild zur
+proaktiven Akquise (Wettbewerb an Peer weiterreichen): hier wird die **nicht passende** Gelegenheit
+an den Passenden weitergegeben. Muster: erst die Gelegenheit im Netzwerk platzieren, dann sauber
+absagen — kein Auftrag verfällt ungenutzt, keine Absage ohne Anschlusslösung. Der Zwilling reicht
+einen selbst abgelehnten Auftrag, wo sinnvoll, an die passende Person weiter, bevor er absagt.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

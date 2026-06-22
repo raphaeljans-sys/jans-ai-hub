@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-21
+last_updated: 2026-06-22
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -319,6 +319,20 @@ Team ist Du. Mapping-Ergänzung: Labinot (38grad.ch, HSE/Gebäudetechnik) → Du
   Gregori**» — Sie-Mittellage zum (noch unbekannten) Lieferanten/Hersteller, neben dem
   bekannten «Sehr geehrte/r» (kalt) und «Grüezi» (Service). Reiht sich in die Sie-Mittellage
   «Guten Tag Frau/Herr» (vgl. Privatkunden).
+
+## Lieferant warmt Sie→Du nach persönlicher Beratung (belegt Mailbatch 13, authentisch)
+Löst den scheinbaren Widerspruch der zwei Gregori-Mappings (granol.ch, weisse Holzbeize/Putz):
+beim **Erstkontakt** (Produktanfrage, 2025-09-04) Sie-Mittellage «**Guten Tag Herr Gregori**»
+(vgl. Batch 12); nach einer **persönlichen Beratung vor Ort** (Putzmuster, 2025-09-09) kippt es ins
+**Du** «**Geschätzter Gregori**» («Danke für **Deine** tolle Beratung von heute»). Das ist exakt der
+in dieser KB notierte «Geschätzter <Nachname> = Du zum geschätzten Handwerker» — der dortige
+«Verputzer, 2025-09-09» **ist** Gregori. Marker: das Register zum Lieferanten/Handwerker warmt nicht
+mit der Zeit allein, sondern mit der **persönlichen Begegnung** (Sie-Anfrage → Du nach gemeinsamem
+Termin). Bestätigt «Anrede folgt der wachsenden Vertrautheit» (vgl. Geschätzte Lu → Liebe Lu), hier
+über die Sie/Du-Grenze hinweg beim Gewerk. Mapping-Präzisierung: Lorenzo Gregori (granol.ch) → Sie
+beim Erstkontakt («Guten Tag Herr Gregori»), Du «Geschätzter Gregori» nach persönlicher Beratung.
+Nebenbefund: die Vermittlerin Frick bekommt in der Absage die Sie-Tageszeit-Mittellage «**Guten
+Morgen Frau Frick**» (neben «Geschätzte Frau Frick», Batch 12) — situative Varianz im Sie.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
