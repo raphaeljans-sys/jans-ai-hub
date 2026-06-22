@@ -74,6 +74,18 @@ wurden.
   auf Gesuch verlängerbar» — korrigiert (§ 322 Abs. 1 PBG: Verwirkung, nicht verlängerbar; Modell D
   in `training/drills.md` dokumentiert).
 
+## Offene Wissenslücken / needs-verification — neu (2026-06-22, aus Buch-Run Kap. 8)
+- **Rest Kap. 8 offen (Restschuld):** ab S. 510 — 8.3 Sicherheit der Baustelle Detail (Bauherrenhaftung,
+  Schutz von Nachbargrundstücken, Werkleitungen), allfälliges 8.4, bis Kapitelende S. 534 (Shots 257-269)
+  noch nicht distilliert.
+- **needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 326/327/328/239/329 PBG (Baufreigabe,
+  Meldepflichten/Kontrollen, Unterbruch + die lit. a-d des § 328 Abs. 2, anerkannte Regeln der Baukunde),
+  § 309 Abs. 1 lit. c PBG (Abbruch-Bewilligungspflicht nur Kernzone), §§ 8/9/10c/15/30 VRG, § 12a BBV I/II,
+  §§ 3/23/24 BVV. Im Destillat [[08-ausfuehrung-von-bauarbeiten]] sinngemäss; Modell D nächster Lauf.
+- **Art. 3a ABV + Art. 16 VVEA (Asbest-Meldepflicht seit 1.6.2018):** Wortlaut/Verweiskette am amtlichen
+  ABV-/VVEA-Volltext sichern — praxisrelevant für Umbau/Abbruch im Bestand.
+- **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** auf das aktuelle ZH-IDG verweisbar prüfen.
+
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
   Gebührenordnung hinterlegen.

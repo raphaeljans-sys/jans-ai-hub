@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-19
+last_updated: 2026-06-22
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -25,7 +25,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 5 | Planung und Entschaedigung | 311 | 316 | P3 | [ ] |
 | 6 | Baurechtliches Verfahren | 337 | **169** | **P1** | [~] (S.337-405: Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren; Rest S.405-422 offen) |
 | 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | **213** | **P1** | **[x] VOLLSTAENDIG** (S.424-484, Shots 213-244). Teil 1 (7.1 Der kommunale baurechtl. Entscheid: §318/GG-Delegation/Ausstand/Inhalt/**Nebenbestimmungen §321**/Kostenentscheid). Teil 2 (S.448-484): **Gueltigkeit 3 J. §322** (Verwirkung, nicht verlaengerbar, Fristbeginn letzte Bewilligung, Baubeginn=Aushub), **Widerruf §-/BGE 97 I 752** (Vertrauensschutz, nach Bauvollendung grds. nicht), **Besondere kant. Zustaendigkeiten Anhang BVV** (AFV/ALN/AWEL/UVP-KOFU), **baurechtl. Vorentscheid §§323/324** (teilverbindlich, 3 J., nur Rechtsfragen), **Auskuenfte** (Treu+Glauben, 5 Voraussetzungen) / **Verhandlungsloesungen**. Destillate [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] + [[band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] |
-| 8 | Ausfuehrung von Bauarbeiten | 485 | ~245-269 | P2 | [ ] |
+| 8 | Ausfuehrung von Bauarbeiten | 485 | ~245-269 | P2 | [~] (S.485-509, Shots 244-256, Run 13: **8.1 Bauausfuehrung/Baukontrolle** (Baufreigabe §326, Meldepflichten §327 Abs.1 + Asbest Art.3a ABV, baupolizeil. Kontrollen §327 Abs.2 = Realakt/§10c VRG, Bezugsbewilligung/Schlusskontrolle §12a BBV I/II + SIA 180/358, Akteneinsicht §§8/9 VRG), **8.2 Unterbruch §328** (Arealueberbauung max. 2 J., Ersatzvornahme §30/Pfandrecht §15 VRG), **8.3 Sicherheit/Regeln Baukunde §239** Anfang. Destillat [[band-1/08-ausfuehrung-von-bauarbeiten]]. Rest 8.3-Detail/Kap.-Ende S.510-534 offen) |
 | 9 | Rechtsschutz | 537 | **270** | P2 | [~] (S.537-575: Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen; Rest S.575-608 Ablauf/Kosten/Revision offen) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 609 | — | P2 | [ ] |
 

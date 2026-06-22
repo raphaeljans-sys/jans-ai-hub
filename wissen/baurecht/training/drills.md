@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-06-19
+last_updated: 2026-06-22
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -408,3 +408,38 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Bestandesschutz, vgl. [[nebenbestimmungen-und-reverse]]).
 - **Korrektur ausgefuehrt:** Eintrag in [[baubewilligungsverfahren]] berichtigt + Beleg
   § 322/§ 328 PBG (Bd 1, S. 454-456) ergaenzt. _[2026-06-21]_
+
+## Kap. 8 — Ausfuehrung von Bauarbeiten (2026-06-22, Run 13)
+
+### Modell C — Selbsttest-Karten
+- **F:** Darf nach Eintritt der Rechtskraft der Baubewilligung sofort mit dem Aushub begonnen werden?
+  — **A:** **Nein.** Vor der Ausfuehrung braucht es die schriftliche **Baufreigabe** der zustaendigen
+  Behoerde (**§ 326 PBG**); sie setzt voraus, dass alle vor Baubeginn faelligen Nebenbestimmungen erfuellt
+  sind (Bd 1, S. 486 f.). _[2026-06-22]_
+- **F:** Was gilt rechtlich als «Baubeginn», und was nicht? — **A:** Baubeginn = **Aushub** (oder Abbruch,
+  wo vorausgesetzt) mit ernsthaftem Ausfuehrungswillen (BEZ 1987 Nr. 38); **kein** Baubeginn sind Abstecken,
+  Baustelleneinrichtung, Kanalisationsleitungen (RB 1994 Nr. 88; § 322 Abs. 1 PBG; Bd 1, S. 486 f.).
+  _[2026-06-22]_
+- **F:** Welche Rechtsnatur hat eine baupolizeiliche Baukontrolle, und ist sie anfechtbar? — **A:**
+  **Realakt / Vollzugshandlung, keine Verfuegung** → als solche nicht anfechtbar. Wer betroffen ist, kann
+  via **§ 10c VRG** (Art. 29a BV) eine anfechtbare Verfuegung verlangen; ein **Abbruchbefehl** dagegen ist
+  Verfuegung (Rekurs Baurekursgericht, § 329 Abs. 1 PBG; § 327 Abs. 2 PBG; Bd 1, S. 489/496 f.).
+  _[2026-06-22]_
+- **F:** Wie lange darf eine **Arealueberbauung** maximal unterbrochen werden, und was droht sonst? — **A:**
+  Hoechstens **2 Jahre** (§ 328 Abs. 1 PBG); im Saeumnisfall droht u.a. der **Verfall der Baubewilligung**
+  (§ 328 Abs. 2 lit. d PBG) neben Ersatzvornahme/Abbruch (Bd 1, S. 505 ff.). _[2026-06-22]_
+- **F:** Welche Norm regelt die Asbest-/Abbruch-Meldepflicht, und gilt sie auch ohne Baubewilligung? — **A:**
+  **Art. 3a ABV** (seit 1.6.2018): Abbruch ist der oertlichen Baubehoerde **auch ohne Baubewilligung**
+  rechtzeitig vor Beginn zu melden, Entsorgung nachzuweisen (Art. 16 VVEA; Bd 1, S. 488 f.). _[2026-06-22]_
+- **F:** Schuetzt die behoerdliche Schlussabnahme die Bauherrschaft vor spaeteren Beanstandungen? — **A:**
+  **Nein, nicht generell.** Die Behoerde darf auch nach Abnahme materielle Maengel beanstanden; die Berufung
+  auf Treu und Glauben scheitert an **ueberwiegenden oeffentlichen Interessen** (BGer 1C_333/2017; Bd 1,
+  S. 499). _[2026-06-22]_
+
+### Modell A — Frage→Beleg-Drill
+- **Buerofrage:** «Wir haben die Baubewilligung rechtskraeftig im Sack — koennen wir morgen mit dem Aushub
+  starten?» — **Beleg-Antwort:** Nein, erst nach **schriftlicher Baufreigabe** (§ 326 PBG, Bd 1, S. 486 f.).
+  Erst der Aushub (mit Ausfuehrungswillen) wahrt zudem die 3-Jahres-Verwirkungsfrist § 322 Abs. 1 PBG
+  (nicht verlaengerbar, → [[baubewilligungsverfahren]]). Vorgaengig alle «vor Baubeginn» faelligen Auflagen
+  erfuellen (→ Skill `auflagebereinigung`). **Lueckenstatus:** Beleg vollstaendig, keine offene Frage.
+  _[2026-06-22]_

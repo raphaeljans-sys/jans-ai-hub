@@ -39,6 +39,10 @@ oder umbenannten Artikel aktualisieren.
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] (Destillat Bd 1, Kap. 7 Teil 1) — Buchsynthese «Der kommunale baurechtliche Entscheid» §§ 318/321 PBG, Belegquelle · *emerging*
 - [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] (Destillat Bd 1, Kap. 7 Teil 2) — Buchsynthese **Gültigkeit/Widerruf der Baubewilligung** (§§ 322/328 PBG, 3-J.-Verwirkung), **besondere kant. Zuständigkeiten Anhang BVV**, **Vorentscheid §§ 323/324**, **Auskünfte/Verhandlungslösungen**; **schliesst Kap. 7**, Belegquelle · *emerging*
 
+### Bauausfuehrung & Baukontrolle
+- [[bauausfuehrung-und-baukontrolle]] — die Ausfuehrungsphase: **Baufreigabe vor Baubeginn** (§ 326 PBG; rechtskraeftige Bewilligung genuegt nicht), **Meldepflichten** (§ 327 Abs. 1: Schnurgeruest/Kanalisation/Rohbau/Bezug; Asbest Art. 3a ABV auch ohne Baubewilligung), **baupolizeiliche Kontrollen** (§ 327 Abs. 2 — **Realakt, nicht anfechtbar**; § 10c VRG; Drohnen/Datenschutz), **Bezugsbewilligung/Schlusskontrolle** (§ 12a BBV I/II, SIA 180/358; Vertrauensschutz begrenzt BGer 1C_333/2017), **Unterbruch/«ewige Baustelle»** (§ 328: Arealueberbauung max. **2 J.**, Ersatzvornahme § 30 VRG, Pfandrecht § 15 VRG), **Sicherheit/Regeln der Baukunde** (§ 239 PBG) · *emerging*
+- [[08-ausfuehrung-von-bauarbeiten]] (Destillat Bd 1, Kap. 8) — Buchsynthese §§ 326-328/239 PBG (Baufreigabe/Kontrolle/Unterbruch/Baustellensicherheit), Belegquelle · *emerging*
+
 ### Planung & Gestaltung
 - [[raumplanung-und-gestaltung]] — Richtplan, Nutzungsplanung, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
 
@@ -54,8 +58,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-19)
-- Artikel im Wiki: 13 + QUELLEN-Register (+ [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
+## Statistik (Stand 2026-06-22)
+- Artikel im Wiki: 14 + QUELLEN-Register (+ [[bauausfuehrung-und-baukontrolle]] 2026-06-22, Buch-Run 13 Kap. 8; + [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21, Buch-Run 12 Kap. 7; + [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)
