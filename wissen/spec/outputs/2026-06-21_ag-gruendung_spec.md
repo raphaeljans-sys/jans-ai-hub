@@ -149,3 +149,6 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
 ## Verifikation
 - Externes Signal: zefix.ch (Firmenname), spaeter HR-Eintrag.
 - Zweite Instanz: Skill `korrektur` ueber jedes Dokument; Notar/Treuhand fuer Recht/Steuer.
+
+## Monitor-Log
+- 22.06.2026 (ag-gruendung-monitor): Posteingaenge rj@ + mail@raphaeljans.ch geprueft. Nichts Neues. UBS-Stand unveraendert: einzige UBS-Nachricht ist die Antrags-Bestaetigung «Ihr Bankpaket ist beantragt» (ubs_switzerland@mailing.ubs.com, 21.06. 14:33) — noch KEINE Vertragsdokumente, keine Einzahlungs-Kontodetails, keine Kapitalbescheinigung. Notariat Wiedikon-Zuerich: noch keine Antwort auf die Terminanfrage vom 21.06. Naechster erwarteter Eingang: UBS-Vertragsdokumente (~3 AT, also ~24.-25.06.). Keine Status-Mail gesendet (nichts zu melden).

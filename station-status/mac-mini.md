@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.06.2026 07:37:58
+Stand: 22.06.2026 07:58:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 22.06.2026 07:37:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3bed354 nas-selfcommit: 2 Datei(en) 2026-06-22 07:30
+- 9fcc879 baurecht-buch-training: Kap. 8 Teil 1 (Ausfuehrung von Bauarbeiten), Run 13
