@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-20
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026)]
+last_updated: 2026-06-22
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8)]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -173,6 +173,15 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
 - **Angebotsmieten** (Wüest Partner / SMG-Mietindex): Nach **> +6.0 % in 2024** flachte das
   Wachstum 2025 deutlich ab — Q1-2026 noch **+1.3 % YoY**; Prognose **2026 nur +0.7 %**
   national. Weitgehende Stabilisierung nach den Hochzuwächsen 2023/24.
+  - **Update 22.06.2026 (Run 8, SMG/Homegate-Mietindex):** Der Homegate-Mietindex steht per
+    **Mai 2026 bei 133.7 Punkten** (+0.2 vs. Vormonat) und liegt **schweizweit +2.5 % YoY** — die
+    realisierte Mietentwicklung **übertrifft die +0.7-%-Prognose** klar. Gesamtjahr 2025 effektiv
+    **+2.3 %** (nach +3.2 % 2024 und +4.7 % 2023). Spannweite Mai 2026 von **+2.1 % (Appenzell)
+    bis −1.9 % (Nidwalden)**; Städte-Spitze **Stadt Luzern +7.2 % YoY**. Treiber bleibt die
+    **Wohnungsknappheit** (verhaltene Neubautätigkeit), gedämpft durch die abgeschwächte
+    Zuwanderung — Dynamik moderater, aber weiterhin aufwärts. Für die Ertragsbewertung heisst das:
+    das **Neuvermietungspotenzial steigt real stärker als die Frühjahrs-Prognose** ([[ertragswert-dcf]]).
+    Quelle: SMG Swiss Marketplace Group, Mietindex 05/2026 (Web).
 - **Bestandesmieten** könnten 2026 **−0.8 %** ergeben — Folge der **zwei
   Referenzzinssatz-Senkungen 2025** (auf 1.25 %, vgl. Marktpuls-Abschnitt oben). Für die
   Ertragsbewertung: Bestandes-Cashflow eher unter Druck, Neuvermietungspotenzial flach
@@ -240,6 +249,11 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
   per 01.06.2026 bei 1.25 % bestaetigt** (befuerchteter Sprung auf 1.50 % NICHT eingetreten) +
   **WP-Prognose 2026** (Transaktionspreise EW +2.8 % / EFH +3.1 %, Bauinvestitionen +5.3 %)
   eingearbeitet. SREBI Q2-2026 noch nicht publiziert.
+- ✓ 2026-06-22 (T10 laufend, Run 8): **SMG/Homegate-Mietindex Mai 2026 = 133.7 (+2.5 % YoY)**
+  eingearbeitet — realisierte Mieten ueber der +0.7-%-Prognose; Gesamtjahr 2025 +2.3 %; Hotspot
+  Stadt Luzern +7.2 %. Web-Check bestaetigt: Referenzzins **1.25 % stabil** (Durchschnittssatz
+  unter 1.37 %), SREBI **Q1-2026 0.69** weiterhin der aktuelle Anker (Q2 noch nicht publiziert) —
+  gegenueber Run 7 unveraendert.
 - T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
   **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
   2022/23 (historische Anker).

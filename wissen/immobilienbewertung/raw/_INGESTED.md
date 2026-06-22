@@ -32,3 +32,11 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 
 Der Lern-Loop (`training/PROGRAMM.md`) arbeitet die `offen`/`teilweise`-Quellen systematisch
 ab — Prioritaet auf dem 236-seitigen Wuest-Kurs (Curriculum in `training/curriculum.md`).
+
+**Stand Run 8 (2026-06-22):** Der Wuest-Kurs und alle lesbaren E-Quellen sind eingearbeitet; der
+Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus**. Run 8 hat keine neue Quelle ingestiert,
+sondern die bereits ausgewertete **CS Niederhasli** analytisch zum **CS-Sensitivitaets-Generator**
+verallgemeinert (T18, geschlossene Break-Even-Formel, aus den Ist-Zahlen validiert) und den
+Mietpuls auf Mai-2026 aktualisiert. Offen bleiben nur die Freigabe-gebundenen Quellen: **D4**
+(`Immo-02-P23D-*.xlsx` Residualwert-/Pre-Check-Tool-Formeln), **D8** (`_Kennwerte Jans.docx` +
+Healthcare-DOCX) und **T17** (realer Healthcare-Bewertungsfall, noch nicht vorhanden).

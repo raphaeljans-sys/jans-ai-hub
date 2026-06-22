@@ -21,7 +21,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[flaechendefinitionen-sia]] — SIA 416 Flaechenbegriffe (aGF/BGF/HNF…) · *established*
 - [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil (LK-Schluessel + Tab. 8) · *established*
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
-- [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention · *established*
+- [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention + CS-Sensitivitaets-Generator (Break-Even-Formel) · *established*
 
 ## Marktdaten Gemeinden (UBS Fact Sheets, kompiliert)
 

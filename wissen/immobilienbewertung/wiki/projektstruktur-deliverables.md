@@ -1,8 +1,8 @@
 ---
 title: Projektstruktur und Deliverables (LB/RW/MA/CS/TDD/STWE)
 status: established
-last_updated: 2026-06-18
-sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6]
+last_updated: 2026-06-22
+sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -38,7 +38,7 @@ z.B.  8800 Thalwil 9568 Bohlweg 1 LB Liegenschaftsbewertung
 | **LB** | Liegenschaftsbewertung | Realwert + Ertrags-/Vergleichswert → Marktwert |
 | **RW** | Residualwert(berechnung) | [[residualwertmethode]] (Landwert) |
 | **MA** | Marktwertanalyse | [[vergleichswert-hedonisch]] |
-| **CS** | Controlling & Sensitivitaet | Plausibilitaets-Check einer Fremdstudie + Sensitivitaet (Ausnuetzung × Kostenmodell A/B), Break-Even |
+| **CS** | Controlling & Sensitivitaet | Plausibilitaets-Check einer Fremdstudie + Sensitivitaet (Werttreiber × Kostenmodell A/B), Break-Even via Generator δ\* = (K0−E0)/(E0·α−K0·β) |
 | **TDD** | Technical Due Diligence | Skill `ankaufspruefung` |
 | **STWE** | Stockwerkeigentum | Skill `stockwerkeigentum` |
 
@@ -199,7 +199,85 @@ lokalen Makler verifizieren.
 verletzlichste Annahme**. Es ist der formalisierte grosse Bruder der gelebten **RW-`tief`/`hoch`-
 Szenarienlogik** (s.o.) und das Bindeglied zum Skill `machbarkeit` (dort die Variantenrechnung,
 hier der Risiko-Stresstest vor dem Kaufentscheid). Die Zwei-Modell-Logik (fixe vs. teilvariable
-Kosten) ist auf jede Werttreiber-Variable uebertragbar (Mietzins, Baukosten, Leerstand).
+Kosten) ist auf jede Werttreiber-Variable uebertragbar (Mietzins, Baukosten, Leerstand) — wie,
+zeigt der folgende verallgemeinerte Generator.
+
+### 4. CS-Sensitivitaets-Generator — verallgemeinertes Rechen-Schema (T18)
+
+Die Niederhasli-Tabelle ist ein **Spezialfall** eines einzigen Rechen-Schemas. Formalisiert man
+es, wird die Sensitivitaetsanalyse auf **jeden** Werttreiber (Ausnuetzung, Mietzins, Baukosten,
+Leerstand) uebertragbar und der Break-Even per Formel statt per Augenmass bestimmbar.
+
+**Das Modell in einer Formel.** Sei δ die relative Aenderung des gestressten Werttreibers
+(z. B. δ = −0.10 = «10 % weniger Ausnuetzung»). Ertrag und Kosten reagieren mit je einer
+**Elastizitaet** α (Ertragsseite) und β (Kostenseite, = Anteil variabler Kosten):
+
+```
+Ertrag(δ) = E0 · (1 + α·δ)
+Kosten(δ) = K0 · (1 + β·δ)
+Marge(δ)  = [ Ertrag(δ) − Kosten(δ) ] / Ertrag(δ)  =  1 − K0(1+β·δ) / [ E0(1+α·δ) ]
+```
+
+- **Marge wird auf den Ertrag (Verkaufserloes) bezogen**, nicht auf die Kosten — so rechnet das
+  reale CS (Niederhasli Basismarge **M0 = 1 − K0/E0 = 1 − 5'609'411/6'103'450 = 8.09 %**,
+  rechnerisch bestaetigt).
+- **Modell A (Kosten fix):** β = 0. **Modell B («70/30»):** der variable Kostenanteil schrumpft
+  mit dem Treiber mit. ⚠ Befund Run 8: die realen Niederhasli-Zahlen ergeben eine **effektive
+  Kosten-Elastizitaet β ≈ 0.33** (nicht 0.30) — das «70/30»-Label ist gerundet, die Spalte rechnet
+  faktisch mit ~⅓ variabel (β = 0.3313 reproduziert die Tabellenwerte 5'423'588 / 5'237'764 exakt).
+
+**Break-Even in geschlossener Form.** Marge(δ\*) = 0 ⟺
+
+```
+δ* = (K0 − E0) / (E0·α − K0·β)
+```
+
+| Werttreiber | α (Ertrag) | β (Kosten) | Break-Even-Formel | Niederhasli-BE |
+|---|---|---|---|---|
+| **Ausnuetzung, Modell A** (Kosten fix) | 1 | 0 | **δ\* = −M0** | **−8.1 %** |
+| **Ausnuetzung, Modell B** (70/30) | 1 | ~0.33 | (K0−E0)/(E0−0.33·K0) | **−11.6 %** |
+| **Mietzins / Marktmiete** | 1 | 0 | δ\* = −M0 | −8.1 % |
+| **Leerstand / Vermarktung** | 1 | 0 (+Carry) | δ\* = −M0 (etwas frueher mit Finanzierungs-Carry) | ~−8 % |
+| **Baukosten** (Treiber = Kosten) | 0 | 1 | **γ\* = M0/(1−M0) = E0/K0 − 1** | **+8.8 %** |
+
+- **Merksatz fixe Kosten:** Bei β = 0 ist der Break-Even schlicht **−M0** — ein Ertrags-/Mietzins-/
+  Ausnuetzungs-Rueckgang **in Hoehe der Basismarge** loescht den Gewinn. Eine duenne 8-%-Marge
+  vertraegt also nur 8 % Gegenwind. Das ist der quantitative Kern der CS-Warnung.
+- **Praezisierung (Compounding):** Der frueher per Augenmass notierte Break-Even Modell B «~−13 %»
+  ist mit der Formel **−11.6 %** (Tabellen-Interpolation −11.5 %) — die Formalisierung schaerft die
+  Zahl. Modell A bleibt bestaetigt bei −8.1 %.
+- **Asymmetrie Ertrag ↔ Baukosten:** Weil die Marge auf den Ertrag bezogen ist, vertraegt das
+  Projekt einen **Baukosten-Anstieg von +8.8 %**, aber nur einen **Ertrags-Rueckgang von −8.1 %**
+  (gleiche Basismarge, andere Bezugsgroesse). Baukosten sind die etwas «gnaedigere» Variable.
+
+**Tornado / Priorisierung — welchen Treiber zuerst stressen.** Die Erst-Sensitivitaet (Steigung
+bei δ = 0) ist
+
+```
+dMarge/dδ |0  =  (1 − M0) · (α − β)
+```
+
+Bei Niederhasli (1−M0 = 0.92) und fixen Kosten heisst das **≈ 0.92 Prozentpunkte Margenverlust
+je 1 % Treiber-Rueckgang** — und konvex zunehmend (der Ertrag im Nenner schrumpft mit). Bei einer
+8-%-Marge ist die Hebelwirkung also brutal: schon ein einstelliger Treiber-Rueckgang kippt das
+Vorzeichen. Gestresst wird der Treiber mit dem groessten Produkt **Eintrittswahrscheinlichkeit ×
+|dMarge/dδ|** — in Niederhasli die **Ausnuetzung** (behoerdlicher Ortsbildschutz wahrscheinlich,
+α = 1).
+
+**Modellwahl-Regel A vs. B.** Modell A (Kosten fix) ist der **Worst Case / kurzfristige Fall** —
+die Kosten sind bereits vergeben (GU-Pauschale, laufender Bau). Modell B (teilvariabel) ist der
+**realistische Fall, solange die Reduktion noch in der Planung steckt** (weniger Geschosse =
+weniger Baukosten). Faustregel: **A fuer die untere Risikogrenze, B fuer den Erwartungswert** —
+genau die `tief`/`hoch`-Spannweite, die JANS im RW-Tool ohnehin schon mit den Ordnern `tief`/`hoch`
+lebt (s. o.). Der Generator vereinheitlicht damit die **RW-Szenarienlogik** und die **CS-
+Sensitivitaet** zu einem Schema.
+
+**3-Zeilen-Rezept fuer ein neues CS.** (1) Basis-Ertrag E0, Basis-Kosten K0, Basismarge M0 = 1 −
+K0/E0 setzen. (2) Verletzlichsten Treiber + dessen α/β waehlen (Ausnuetzung/Mietzins 1/0,
+Baukosten 0/1, teilvariabel β ≈ ⅓). (3) δ-Raster 0/−10/−20 % rechnen und Break-Even δ\* =
+(K0−E0)/(E0·α−K0·β) ausweisen; Empfehlung = Handlungssequenz, die den Treiber **vor** dem Kauf
+absichert. Naechster Ausbau (Bring-Schuld D4): die Logik als wiederverwendbares XLSX/Tool-Blatt
+hinterlegen, sobald die Wuest-/JANS-`.xlsx`-Formeln freigegeben sind.
 
 ## LB-Variante «Bestand halten vs. Abbruch + Neubau» (Langnau 3338, 03.06.2026)
 

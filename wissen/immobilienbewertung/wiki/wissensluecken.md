@@ -23,9 +23,16 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
 | T17 | **Healthcare-Bewertungsfall**: im Bewertungsordner existiert keiner (alle Wohnen/MFH/STWE). Brücke zu Skill `healthcare-wirtschaftlichkeit` (2410 WALD/Nova) bauen — ein reales Pflegeheim/Klinik-Bewertungs-Deliverable als Referenz erfassen, sobald vorhanden (Bring-Schuld Raphael) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare-Kennwerte | [[projektstruktur-deliverables]], [[ertragswert-dcf]] |
-| T18 | **CS-Sensitivitaets-Generator**: die Zwei-Modell-Logik (Kosten fix vs. 70/30) als wiederverwendbares Rechen-/Tool-Schema formalisieren (Werttreiber × Δ × Kostenelastizitaet → Marge/Break-Even), uebertragbar auf Mietzins/Baukosten/Leerstand | CS Niederhasli (Methodik belegt) | [[projektstruktur-deliverables]] |
 
 ## Erledigt
+
+- ✓ 2026-06-22 **T18** (Run 8) **CS-Sensitivitaets-Generator** formalisiert: die Zwei-Modell-Logik
+  als ein Rechen-Schema **Marge(δ) = 1 − K0(1+βδ)/[E0(1+αδ)]** mit geschlossener Break-Even-Formel
+  **δ\* = (K0−E0)/(E0·α−K0·β)**; uebertragen auf vier Werttreiber (Ausnuetzung/Mietzins α1β0 →
+  δ\*=−M0; Baukosten α0β1 → γ\*=+M0/(1−M0); Leerstand). Aus den Niederhasli-Ist-Zahlen validiert
+  (BE_A = −8.1 % = −M0 bestaetigt; **BE_B praezisiert auf −11.6 %** statt frueher per Auge ~−13 %;
+  effektive Kosten-Elastizitaet **β ≈ 0.33**, nicht 0.30). Tornado-Sensitivitaet dM/dδ=(1−M0)(α−β),
+  Modellwahl-Regel A/B = RW-`tief`/`hoch` → [[projektstruktur-deliverables]].
 
 - ✓ 2026-06-18 **T15** (Run 6) Niederhasli **CS Controlling & Sensitivitaet** vollstaendig
   ausgewertet → **CS-Deliverable-Methodik** dokumentiert: Controlling-Factsheet (Felderschema,

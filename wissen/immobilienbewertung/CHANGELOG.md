@@ -2,6 +2,39 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-22 — Training-Run 8: CS-Sensitivitaets-Generator formalisiert (T18) + Mietpuls 05.2026
+
+- **`wiki/projektstruktur-deliverables.md`** (06-22, → established): neue Sektion **CS-Sensitivitaets-
+  Generator (T18)** — die Niederhasli-Zwei-Modell-Tabelle als **ein verallgemeinertes Rechen-Schema**
+  formalisiert: `Marge(δ) = 1 − K0(1+βδ)/[E0(1+αδ)]` mit Ertrags-/Kosten-Elastizitaet α/β und
+  **geschlossener Break-Even-Formel `δ* = (K0−E0)/(E0·α−K0·β)`**. Uebertragen auf vier Werttreiber
+  (Ausnuetzung/Mietzins α1β0 → δ\*=−M0; Leerstand; Baukosten α0β1 → γ\*=+M0/(1−M0)). Aus den
+  Niederhasli-Ist-Zahlen rechnerisch validiert: **BE_A = −8.1 % (= −M0) bestaetigt; BE_B auf −11.6 %
+  praezisiert** (frueher per Auge ~−13 %); **effektive Kosten-Elastizitaet β ≈ 0.33** (nicht 0.30,
+  «70/30» ist gerundet). Tornado-Sensitivitaet `dM/dδ=(1−M0)(α−β)`, Modellwahl-Regel A/B =
+  RW-`tief`/`hoch`, 3-Zeilen-Rezept fuer neues CS. CS-Glossar um die Generator-Formel ergaenzt.
+- **`wiki/investorenmarkt-makro.md`** (06-22): Mietpuls-Refresh — **SMG/Homegate-Mietindex Mai 2026
+  133.7 (+2.5 % YoY)**, realisierte Mieten ueber der +0.7-%-Prognose; Gesamtjahr 2025 +2.3 %; Hotspot
+  Stadt Luzern +7.2 %. Web-Check bestaetigt Referenzzins 1.25 % stabil + SREBI Q1-2026 0.69 als
+  aktuellen Anker (gegenueber Run 7 unveraendert).
+- Register: `wissensluecken.md` (T18 ✓), `curriculum.md` (E7 laufend Run 8; Run 7 nachgetragen),
+  `_INGESTED.md` (T18-Formalisierung vermerkt). Report: `outputs/2026-06-22_training-run8.md`.
+
+## 2026-06-20 — Training-Run 7: Marktpuls 06.2026 + Diskontsatz-Methodik (T10/D3) [Report nachgetragen]
+
+Run 7 lief am 20.06.2026, editierte zwei Artikel und wurde per `nas-selfcommit` gesichert, hinterliess
+aber **keinen Output-Report und keinen CHANGELOG-Eintrag** — hier nachgetragen (Run 8):
+
+- **`wiki/investorenmarkt-makro.md`** (06-20): Marktpuls 06.2026 — **SNB-Lagebeurteilung 18.06.2026
+  Leitzins 0.00 % gehalten** (Inflation 0.6 % Mai, erdoelgetrieben/Kerninflation verhalten, BIP
+  ~1 %/~1.5 %); **Referenzzins per 01.06.2026 bei 1.25 % bestaetigt** — der befuerchtete Sprung auf
+  1.50 % ist NICHT eingetreten (Durchschnittssatz unter Schwelle 1.37 %); **WP-Prognose 2026**
+  (Transaktionspreise EW +2.8 % / EFH +3.1 %, Bauinvestitionen +5.3 %); SREBI Q2-2026 noch nicht publiziert.
+- **`wiki/ertragswert-dcf.md`** (06-20, D3-Teilantwort): **Diskontsatz-Methodik der Bewertungshaeuser**
+  (gemeindespezifisch aus Transaktionen + Plausibilisierung ueber 10-j Bundesobligation, IAZI/WP) +
+  **Marktkontext 2026** (SNB 0 % / Referenzzins 1.25 % → WP-2023-Diskontanker bleiben plausibel, eher
+  unteres Band). Offen bleibt die vollstaendige JANS-Tabelle je Nutzung/Lage/Risiko (Bring-Schuld D3).
+
 ## 2026-06-18 — Training-Run 6: CS- und LB-Deliverable-Methodik aus realen Faellen (T15/T16/T10)
 
 - **`wiki/projektstruktur-deliverables.md`** (06-18): drei neue Methodik-Sektionen aus realen
