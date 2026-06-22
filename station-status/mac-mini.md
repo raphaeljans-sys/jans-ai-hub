@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.06.2026 15:10:21
+Stand: 22.06.2026 15:20:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 22.06.2026 15:10:21
 - 3 Datei(en): AR - 03 Studien / 2622 Bahnhofstrasse 27 Wangen SZ
 
 ## Hub-Git-Stand (NAS)
-- 5e3f5f8 nas-selfcommit: 2 Datei(en) 2026-06-22 15:00
+- f06feac nas-selfcommit: 2 Datei(en) 2026-06-22 15:15
