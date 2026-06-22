@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.06.2026 18:06:18
+Stand: 22.06.2026 18:26:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 22.06.2026 18:06:18
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- b5bbe76 nas-selfcommit: 2 Datei(en) 2026-06-22 18:00
+- 2a4a9a0 nas-selfcommit: 2 Datei(en) 2026-06-22 18:15
