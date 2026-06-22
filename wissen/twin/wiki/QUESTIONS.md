@@ -3,6 +3,40 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260622 (twin-fragesteller, aus Fidelity-Review 2026-06-22)
+
+Quelle: Drift-Report `outputs/2026-06-22_fidelity.md` (Gesamt-Fidelity 88; duennste Facetten
+Fachsignatur 86, Denken 86 — neu freigelegt: Gruss-Trigger Geld/Abwicklung im Du, Verfahrens-
+phase «Baufreigabe»). Je in 1–2 Saetzen beantwortbar.
+
+1. **Gruss-Trigger Geld vs. Empfaenger:** Eine Du-Rechnungs-/Abwicklungsmail schliesst Du mit
+   «Freundliche Gruesse» + Block (Peter), eine reine Plan-Korrektur-Du-Mail mit «Lieber Gruss»
+   (Bopp). Ist der Ausloeser fuer den vollen Block im Du wirklich der **Geld-/Beleg-Inhalt**
+   (Rechnung, Buchhaltung, zitierfaehige Abwicklung), oder eher der Empfaengertyp/das Projekt?
+   *Warum: macht die 260622 gefundene Gruss-Verfeinerung wasserdicht.* → [[stimme]],
+   [[beziehungsregister]]
+2. **Baufreigabe-Checkliste Stadt ZH:** Nach dem Bauentscheid nennst Du der Bauherrschaft die
+   obligatorischen Vorbedingungen bis zur Baufreigabe (Energie-Deklaration UGZ, Checkliste
+   Gebaeudeschadstoffe, Bauinstallationsgespraech, Stadtpolizei, GSZ Baumerhalt, Tiefbauamt-
+   Zustandsprotokoll/Depositum). Ist das ein **wiederkehrendes Standard-Set**, das der Zwilling
+   als Vorlage fuehren soll, oder variiert es stark je Projekt? *Warum: zieht die Grenze
+   Fachsignatur-Marker vs. reines Projektfaktum (gehoert evtl. in KB auflagebereinigung).*
+   → [[fachsignatur]]
+3. **Konsequenz-Zuspitzung gegenueber Laien-Bauherren:** Du uebersetzt Verwaltungsmechanik in
+   die harte Konsequenz («Ohne diese Bestaetigung bleiben alle Bauarbeiten blockiert»). Machst Du
+   diese Blockade-Zuspitzung bewusst bei jedem Laien-Bauherrn (Dringlichkeit erzeugen), oder nur
+   wo echter Terminverzug droht? *Warum: operationalisiert den Laien-Frame.* → [[denken]]
+4. **Wunschformel-Weglassung bei Statusmails:** Die Status-/Vorbedingungsmail an die Privat-
+   bauherrin kommt rein sachlich-behoerdlich aus, OHNE die sonst belegte Wunschzeile («Ich
+   wuensche Ihnen einen schoenen …») und ohne persoenlichen Bezug. Laesst Du die Waerme-Wunschzeile
+   bei reinen Verfahrens-/Statusmails bewusst weg (Sachlichkeit signalisiert Ernst), oder war das
+   Tagesform? *Warum: kalibriert, wann die Wunschformel gesetzt wird.* → [[stimme]]
+5. **«–» vs. «_ » als Aufzaehlungszeichen:** Im formellen Sie-Behoerdentext nutzt Du den
+   Halbgeviertstrich «–» als Sub-Bullet («– dass keine Massnahmen …»), neben dem ueblichen «_ ».
+   Hat das «–» eine eigene Funktion (Unter-Aufzaehlung/Alternative) gegenueber «_ » (Haupt-
+   Aufzaehlung), oder sind sie austauschbar? *Warum: praezisiert die eigene Listentypografie.*
+   → [[stimme]]
+
 ## Offen — Runde 260618 (twin-fragesteller, aus Fidelity-Review 2026-06-18)
 
 Quelle: Drift-Report `outputs/2026-06-18_fidelity.md` (Gesamt-Fidelity 85; schwächste Facetten

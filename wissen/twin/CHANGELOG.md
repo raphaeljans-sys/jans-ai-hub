@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-22 — twin-fidelity-review (alle 2 Tage)
+- Selbsttest gegen 3 authentische Goldproben (Sent Items rj@, Dez 2025): A formell-Sie (Status-/
+  Baufreigabe-Mail an Privatbauherrin Hofer, 2025-12-01), B operativ-Du (Rechnung «Hoi Peter», 2025-12-15),
+  C gewichtiger Geschaeftspartner-Du (STWEG-Wertquoten «Geschaetzter Christoph», 2025-12-14).
+- **Gesamt-Fidelity 88** (260618: 85). Score: Stimme 88 · Denken 86 · Haltung 87 · Beziehung 91 ·
+  Fachsignatur 86 · Arbeitsweise 90. Report → `outputs/2026-06-22_fidelity.md`.
+- Drift: **D1 Gruss-Paradox** (lockere Anrede «Hoi» + Rechnung → «Freundliche Gruesse»+Block; gewichtige
+  «Geschaetzter» + geldfreie Plankorrektur → «Lieber Gruss»): Gruss folgt dem Geld-/Abwicklungs-Charakter,
+  nicht der Anrede-Stufe. D2 Verfahrensphase «Baufreigabe» (Vorbedingungen nach Entscheid) duenn in
+  Fachsignatur. D3 Konsequenz-Zuspitzung Laien-Frame. D4 «–» als Bullet. D5 Wunschformel-Weglassung.
+- [[stimme]] **geschaerft** — neuer Abschnitt «Gruss-Paradox: lockere Anrede → formeller Gruss bei
+  Geld/Abwicklung» + Do-Zeile (D1 behoben). Facetten-Validierung: keine neuen Widersprueche.
+- [[QUESTIONS]] — 5 neue Fragen (Runde 260622): Gruss-Trigger Geld, Baufreigabe-Checkliste, Konsequenz-
+  Zuspitzung, Wunschformel, «–»-vs-«_ ».
+- Gehirn neu kompiliert: `build_dna.py` → `rules/jans-dna.md` (6 Facetten).
+
 ## 2026-06-21 — twin-mail-training: Batch 12 (Sent Items rj@, 2025-09-04 bis 2025-09-05, authentisch)
 - 15 Mails gesichtet, 5 Volltexte gelesen; NEU Projekt Winterberg/Oberhäslerstrasse 2 (EFH-Sanierung +
   Pool): vor-Claude SIA-102-Honorar-Phasenofferte an Sinja Frick/BM + HSE-Honorar an Sub-Fachplaner

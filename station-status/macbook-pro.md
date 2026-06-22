@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.06.2026 06:06:26
+Stand: 22.06.2026 06:26:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 22.06.2026 06:06:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2660c7d nas-selfcommit: 2 Datei(en) 2026-06-22 06:00
+- 0c12295 Energie-Training Run 15: Indach-Solarprodukt + 3. PV-Ertragsreport (MFH) + Domaene Gebaeudeschadstoffe (FAQ F23)
