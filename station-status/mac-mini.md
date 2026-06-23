@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.06.2026 23:12:27
+Stand: 23.06.2026 23:22:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,8 +9,8 @@ Stand: 23.06.2026 23:12:27
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 21 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 19 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 15 Datei(en): AR - 03 Studien / 2623 Oberrieden
 
 ## Hub-Git-Stand (NAS)
-- f1f725f nas-selfcommit: 2 Datei(en) 2026-06-23 23:00
+- 88bf952 nas-selfcommit: 2 Datei(en) 2026-06-23 23:15
