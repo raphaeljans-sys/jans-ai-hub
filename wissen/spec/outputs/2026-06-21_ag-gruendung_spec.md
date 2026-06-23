@@ -26,7 +26,23 @@ Mandat**, unter dem Schutz der beschraenkten Haftung.
 - Verwaltungsrat: **Raphael Jans allein, Einzelunterschrift**.
 - Revision: **Opting-out** (Revisionsverzicht).
 
-## Verifikation Firmenname — ERLEDIGT (21.06.2026): "JANS AG" frei
+## ⚠ Firmenname «JANS AG» GEFAEHRDET — Notariat 22.06.2026 (ueberschreibt die 21.06.-Freigabe)
+Das Notariat Wiedikon-Zuerich (M. Mathies) hat das Dossier vorgeprueft und meldet:
+Im HR besteht bereits eine **«JANS GmbH»**. Gemaess der amtlichen **Weisung zur Pruefung der
+Firmenidentitaet (Ziff. IV)** besitzt der Rechtsformzusatz (AG bzw. GmbH) **keine
+Unterscheidungskraft** — «JANS AG» gilt damit als nicht ausreichend unterscheidbar von
+«JANS GmbH» und wird vom HRA voraussichtlich **nicht zur Eintragung zugelassen**. Das Notariat
+empfiehlt einen **alternativen Firmennamen**. Dies korrigiert die naive Zefix-Exact-String-Pruefung
+vom 21.06. (0 Treffer "JANS AG"), die das amtliche Identitaets-Pruefkriterium nicht abbildete.
+- **Aktion Raphael:** unterscheidungskraeftigen Namen waehlen (z.B. «JANS Architektur AG»,
+  «JANS Bau AG», «JANS Generalunternehmung AG»); Claude prueft den gewaehlten Namen vorgaengig
+  nochmals gegen das HR. Danach das **gesamte Belegset** (Statuten, Urkunde, Wahlannahme,
+  Konstituierung, HR-Anmeldung, Lex-Friedrich) auf den neuen Namen anpassen + Korrektur-Harness.
+- **Zudem verlangt das Notariat:** die **Word-Dateien** von Urkunde und Statuten (Ordner
+  `10 AG Gruendung`), damit es Anpassungen vornimmt und seine Urkundsformel einfuegt.
+- Anhang der Notariats-Mail: «Pruefung der Firmenidentitaet.pdf» (Weisung) — im Postfach rj@.
+
+## Verifikation Firmenname — 21.06.2026 (UEBERHOLT durch Notariat-Befund oben): "JANS AG" frei
 - Manuell auf zefix.ch geprueft (Raphael) + von Claude unabhaengig gegengelesen am
   vollstaendigen amtlichen Zefix-Ausdruck (7 Seiten, 98 Treffer der Breitensuche "jans")
   sowie der exakten Suche "Jans AG".
@@ -152,3 +168,4 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
 
 ## Monitor-Log
 - 22.06.2026 (ag-gruendung-monitor): Posteingaenge rj@ + mail@raphaeljans.ch geprueft. Nichts Neues. UBS-Stand unveraendert: einzige UBS-Nachricht ist die Antrags-Bestaetigung «Ihr Bankpaket ist beantragt» (ubs_switzerland@mailing.ubs.com, 21.06. 14:33) — noch KEINE Vertragsdokumente, keine Einzahlungs-Kontodetails, keine Kapitalbescheinigung. Notariat Wiedikon-Zuerich: noch keine Antwort auf die Terminanfrage vom 21.06. Naechster erwarteter Eingang: UBS-Vertragsdokumente (~3 AT, also ~24.-25.06.). Keine Status-Mail gesendet (nichts zu melden).
+- 23.06.2026 (ag-gruendung-monitor): NEU — **Notariat hat geantwortet** (M. Mathies, 22.06. 11:50, Mail «Gruendung JANS AG»). Befund: Firmenname «JANS AG» voraussichtlich nicht eintragungsfaehig wegen bestehender «JANS GmbH» (Rechtsformzusatz ohne Unterscheidungskraft, Weisung Firmenidentitaet Ziff. IV) → alternativer Name noetig; Notariat verlangt zusaetzlich die Word-Dateien Urkunde + Statuten. Siehe Abschnitt «⚠ Firmenname GEFAEHRDET» oben. Spec-Annahme «Name frei» (21.06.) damit ueberholt. UBS weiterhin nichts Neues — keine Vertragsdokumente eingetroffen (erwartet ~24.-25.06.). Status-Mail an rj@raphaeljans.ch gesendet (Namensfrage + naechste Schritte). fristen.md aktualisiert.
