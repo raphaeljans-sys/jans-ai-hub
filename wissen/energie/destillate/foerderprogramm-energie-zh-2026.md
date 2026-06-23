@@ -3,9 +3,9 @@ quelle: Foerderprogramm Energie Kanton Zuerich 2026 (Baudirektion ZH, AWEL), PDF
 herausgeber: Kanton Zuerich, Baudirektion, Amt fuer Abfall Wasser Energie und Luft (AWEL)
 ausgabe: Version 01.01.2026
 gelesen: S. 1-29 (Foerdersaetze vollst.; S. 30-38 Minergie-ECO/Solarthermie noch offen)
-datenstand: 2026-06-08 (Programm Version 01.01.2026; Foerdersaetze 2026 ggue. 2025 unveraendert)
+datenstand: 2026-06-23 (Programm Version 01.01.2026; 2026 ggue. 2025 unveraendert, bestaetigt Baudirektion-Mitteilung 24.10.2025)
 status: established
-last_updated: 2026-06-08
+last_updated: 2026-06-23
 ---
 
 # Destillat — Foerderprogramm Energie Kanton Zuerich 2026
@@ -81,7 +81,22 @@ oder Bodenheizung; separates Gesuch noetig.
 - ⚠ Programm 2026–2029 budgetiert (Rahmenkredit), koennte durch Bundes-Sparprogramm tangiert
   werden — vor dem definitiven Zitieren aktuellen Stand auf `zh.ch` pruefen. Kontakt 0800 93 93 93.
 
+## Aktualisierung 2026 (bestaetigt 2026-06-23)
+- **Programm 2026 laeuft unveraendert weiter** — die Baudirektion ZH bestaetigt in der Mitteilung
+  vom **24.10.2025**: «Die Fördermassnahmen und Fördersätze für energetische Gebäudesanierungen
+  bleiben im kommenden Jahr unverändert.» Befristet bis Ende 2026 bzw. bis Budget erschoepft
+  (Rahmenkredit 2023–2026 + CO₂-Abgabemittel). 2025 standen **61 Mio. CHF** fuer den Gebaeudebereich
+  bereit. Bundesweite Sparmassnahmen haben laut Mitteilung **keine** Auswirkung auf 2026.
+- **Zusaetzlich gefoerderte Massnahmen** (ueber die oben erfassten WP/Daemmung/Beratung hinaus):
+  - **Minergie-ECO-Sanierungen:** Bei umfassenden Modernisierungen nach Minergie wird **nur die
+    Variante MIT Zusatzzertifikat «ECO»** gefoerdert (beruecksichtigt zusaetzlich Kreislauffaehigkeit
+    + graue Energie der Materialien). Reines Minergie ohne ECO → keine Foerderung dieser Massnahme.
+  - **Thermische Solaranlagen (Solarthermie / Sonnenkollektoren):** foerderfaehig.
+  - **Fernwaermenetze / Waermeverteilsysteme**, **Beratungsberichte / Energieplanungen** (vgl. oben).
+
 ## Offene Punkte
-- S. 31-34 Minergie-ECO-Modernisierung (Gesamterneuerung) + S. 35-38 thermische Solaranlagen —
-  Foerdersaetze noch nicht erfasst (naechster Lauf).
+- **Konkrete CHF-Saetze fuer Minergie-ECO-Modernisierung und thermische Solaranlagen** noch nicht
+  beziffert erfasst — stehen nur in der **Foerderbroschuere 2026 (PDF)**, die ueber WebFetch nicht
+  erreichbar war (S. 31-38). Nicht aus dem Gedaechtnis schaetzen → naechster Lauf via direktem
+  PDF-Download oder Hotline 0800 93 93 93. Quelle bestaetigt foerderfaehig, Betrag offen.
 - Bund (Gebaeudeprogramm/Pronovo PV-Einmalverguetung) separat — nicht Teil dieses kantonalen Hefts.

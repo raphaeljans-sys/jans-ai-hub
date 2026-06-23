@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-22
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md]
+last_updated: 2026-06-23
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md]
 links: [[INDEX]]
 ---
 
@@ -230,10 +230,16 @@ Baujahr < 2000**, max. **50 % der Investitionskosten**, max. **CHF 500'000/Gesuc
 Beitraege unter CHF 2'000 entfallen. WP nur Elektromotor; Daemmung nur U ≤ 0,20 W/m²K (kein
 Fenster/Tueren). **Gemeinden zahlen oft on top** → `energiefranken.ch` pruefen. Hotline 0800 93 93 93.
 
+**Weiter gefoerdert** (Betraege noch nicht beziffert): **thermische Solaranlagen (Solarthermie)**;
+**Minergie-Modernisierungen — aber nur mit Zusatzzertifikat «ECO»** (reines Minergie ohne ECO wird
+nicht gefoerdert); Fernwaermenetze/Waermeverteilung. **PV** foerdert nicht der Kanton pauschal,
+sondern der **Bund** ueber die Pronovo-Einmalverguetung (~3'600 CHF fuer 10 kWp, Sept 2025).
+
 **Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026 → `[[foerderprogramm-energie-zh-2026]]`;
-Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand 2026-06-08:** Saetze 2026 = 2025
-unveraendert; Rahmenkredit 2026–2029, Bundes-Sparprogramm koennte tangieren — vor Zusage auf
-`zh.ch` pruefen. Energierecht/Heizverbot → Skill `baurecht`.
+Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand 2026-06-23:** Baudirektion ZH bestaetigt
+(Mitteilung 24.10.2025): **2026 unveraendert ggue. 2025**, befristet bis Ende 2026 bzw. bis Budget
+erschoepft (Rahmenkredit, 2025 = 61 Mio. CHF). Konkrete CHF-Saetze fuer Solarthermie/Minergie-ECO
+in der Broschuere — vor Zusage auf `zh.ch` pruefen. Energierecht/Heizverbot → Skill `baurecht`.
 
 ---
 
@@ -584,18 +590,27 @@ Strom ~25 Rp. wert ist, eingespeister nur ~8–10 Rp.):
 - **Erst danach Batteriespeicher** — er bringt v. a. Abend-/Morgenstunden, lohnt sich rechnerisch
   meist erst nach den Lastverschiebungs-Massnahmen.
 
+**Was kostet das (Stand 2025)?** Eine Aufdach-Kleinanlage (5–15 kWp) liegt bei **2'400–3'200
+CHF/kWp**, eine typische 10-kWp-Anlage bei rund **28'000 CHF** vor Foerderung (~2'800 CHF/kWp);
+**Indach kostet ~60 % mehr**, Solarziegel ~das Doppelte. Nach Bundes-Einmalverguetung (~3'600 CHF
+fuer 10 kWp, Sept 2025) + Steuerabzug bleibt deutlich weniger. Ein **Batteriespeicher** (10–15 kWh,
+EFH) kostet zusaetzlich **6'000–10'000 CHF** — schon 42 % der neuen Wohnanlagen bauen einen ein.
+
 **Wirtschaftlichkeit:** Nach Foerderung (Einmalverguetung Bund + Steuerabzug, vgl. F7) liegt die
 Amortisation grob bei **12–24 Jahren** je nach Eigenverbrauch und Strompreis (Bsp. B: Nettoinvestition
-CHF 13'254, Gewinn CHF 554/a → 24 J); die Module halten 25–30 J. Die **energetische** Amortisation
-(graue Energie der Anlage) ist mit ~2 Jahren vernachlaessigbar.
+CHF 13'254, Gewinn CHF 554/a → 24 J); die **mittlere Lebensdauer einer PV-Anlage betraegt 33 Jahre**
+(Swissolar). Die **energetische** Amortisation (graue Energie der Anlage) ist mit ~2 Jahren
+vernachlaessigbar.
 
 **Quelle:** drei Praxis-Solarreports (SolarApp, Einsiedeln 2024 / EnergieSchweiz-Solarrechner,
-Diemtigen 2023 / SolarApp, Basel 60 kWp MFH 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]`; PV-Typ/
+Diemtigen 2023 / SolarApp, Basel 60 kWp MFH 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]`;
+**aktuelle Marktpreise/Lebensdauer** → `[[pv-marktzahlen-kosten-ch-2025]]`; PV-Typ/
 Flaeche siehe F4, PV-Pflicht/Groesse F10, Foerderung F7, Indach-Integration
-`[[sunskin-roof-indach-planung]]` / `[[prefa-solar-indach-aluminium-dachplatte]]`. ⚠ **Datenstand 2026-06-19:**
+`[[sunskin-roof-indach-planung]]` / `[[prefa-solar-indach-aluminium-dachplatte]]`. ⚠ **Datenstand 2026-06-23:**
 Ertraege sind PVGIS-/Meteonorm-**Schaetzungen**, keine Messwerte; spez. Ertrag ist standort-/
-ausrichtungsabhaengig (projektgenau via `sonnendach.ch`/PVGIS). Verguetungstarife (Rueckliefer-/
-Eigenverbrauch) sind netzbetreiber- und jahresabhaengig — nicht beziffert belegt.
+ausrichtungsabhaengig (projektgenau via `sonnendach.ch`/PVGIS). Preise Aufdach 5–15 kWp **2'400–3'200
+CHF/kWp** (CKW Herbst 2025), Indach +60 %; Verguetungstarife (Rueckliefer-/Eigenverbrauch) sind
+netzbetreiber- und jahresabhaengig — nicht beziffert belegt.
 
 ---
 
@@ -748,6 +763,44 @@ Art. 16–20 VVEA) → `[[gebaeudeschadstoffe-checkliste-zh]]`; Bezug private Ko
 **Datenstand 2026-06-22:** Schwellen Kt.-ZH-spezifisch; andere Kantone abweichend — am aktuellen
 AWEL-Stand / `polludoc.ch` pruefen. Schadstoff-/Abfallrecht ist ein **eigenes Verfahren** neben dem
 Energienachweis (EVEN). Detailfragen Asbestsanierung → Suva-Vorgaben.
+
+---
+
+## F24 — «Was passiert mit dem Regenwasser — muss ich versickern, und brauche ich eine Bewilligung?»
+
+**Kurz:** Im Kt. ZH wird Regenwasser von Dach und befestigten Flaechen **grundsaetzlich auf der
+Parzelle versickert** (nicht in die Kanalisation). Eine **Versickerungsanlage** (jede unterirdische,
+oder oberirdische mit Flaechenverhaeltnis > 5:1, oder mit Adsorber) ist **bewilligungspflichtig** —
+zustaendig ist meist die **Gemeinde**. Erst **unter 20 m²** entwaesserter Flaeche entfaellt die
+Bewilligung. **Kupfer-/Zinkdaecher oder -fassaden ueber 50 m²** loesen eine teure Adsorber-Pflicht aus.
+
+**Fachlich:** Das AWEL-Gesuchsformular «Versickerung von Regenwasser» und die Allgemeinen Hinweise
+regeln drei Dinge:
+- **Was ist bewilligungspflichtig:** unterirdische Versickerungen (Schacht/Strang/Kieskoerper),
+  oberirdische mit **Flaechenverhaeltnis Entwaesserungs- zu Versickerungsflaeche > 5:1** und **alle**
+  mit technischer Behandlung (Adsorber). **Bagatell:** bis **20 m²** ueber belebte Bodenschicht keine
+  gewaesserschutzrechtliche Bewilligung. Staedte **Winterthur und Zuerich**: eigene Formulare.
+- **Wer bewilligt:** grundsaetzlich die **Gemeinde**; das **AWEL** nur in Grundwasserschutzzonen/
+  -arealen, GW-Zonen mit Reglement und bei **belasteten Standorten** (KbS).
+- **Metallflaechen:** unbeschichtete Cu/Zn/Zinn/Blei/Messing **> 50 m²** → **kuenstlicher Adsorber
+  obligatorisch** (Flaeche inkl. Fassade × Faktor 0,2). Das ist ein **Materialentscheid mit
+  Kostenfolge** — andere Eindeckung vermeidet den Adsorber.
+- **Technik:** Versickerungsfaehigkeit per **Versickerungsversuch** nachweisen (Fachmann), mind.
+  **1,0 m** Filterschicht ueber dem HW10; keine Schluckbrunnen/Direkteinleitung; Versickerungs-
+  vom Schmutzwasser **trennen**. Bemessung nach **VSA-Richtlinie** + **SN 592 000**. Erfasst werden
+  auch **PV-Glasflaechen** und **Kuehlaggregate**.
+
+**Bauherren-Transfer:** Die Versickerung gehoert **frueh** in die Planung: Bei schlechtem Boden/hohem
+Grundwasser braucht es **Retention** statt Versickerung — das veraendert Aushub und Kosten. Versickern
+statt ableiten entlastet die Kanalisation bei **Starkregen**, speist das Grundwasser und kuehlt
+(Schwammstadt/klimaangepasstes Bauen — Pendant zur Dach-/Fassadenbegruenung, F20).
+
+**Quelle:** Kt. ZH / AWEL Gewaesserschutz, «Gesuch zur Versickerung von Regenwasser» (Formular +
+Allgemeine Hinweise; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022 / KBOB 2001/1) →
+`[[regenwasserbewirtschaftung-versickerung-zh]]`; Begruenung/Retention → `[[greenpv-fassade-pv-begruenung-hslu]]`.
+⚠ **Datenstand 2026-06-23:** Schwellen Kt.-ZH-spezifisch; Bemessung im AWEL-Regenwasserrechner /
+VSA-Richtlinie. Entwaesserung ist ein **eigenes Verfahren** neben dem Energienachweis (EVEN);
+Wasserrecht (GSchG/GSchV) → Skill `baurecht`.
 
 ---
 
