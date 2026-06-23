@@ -3,18 +3,19 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**23 Kernfragen F1–F23 belegt**, neu F23 Asbest-/Schadstoffabklaerung beim Umbau (Kt.-ZH-Vierfaelle-Raster) + F18 drittes Praxisbeispiel MFH-Indach EV 33 % + F4 konkrete Indach-Produkte; Backlog nur noch Vertiefungen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**24 Kernfragen F1–F24 belegt**, neu F24 Regenwasser/Versickerung Kt. ZH (Bewilligung >20 m², Metall-Adsorber >50 m²) + F18 aktuelle Marktpreise 2025 (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, Lebensdauer 33 J) + F7 Bestaetigung 2026 unveraendert/Solarthermie/Minergie-ECO; Backlog nur noch Vertiefungen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
 - [[minergie-standards]] — Minergie/-P/-A/ECO + Eigenstromerzeugung (Stand 2023, mit THGE) · **established**
-- [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration + **Ertrag ~1'000 kWh/kWp & Eigenverbrauch inkl. MFH 33 % (F18)** + **Indach-Ausfuehrung (Glas-Glas Sunskin + Alu-Solardachplatte PREFA)** + **Dach-Eignung sonnendach.ch (F19)** + **Fassaden-PV & Begruenung (F20)** + **Fassaden-Ertrag quantitativ ~603 kWh/kWp (F21)** + Kosten/Amortisation · **established**
+- [[pv-solar-technologien]] — PV-Typen (kristallin/Duennschicht/Graetzel/Hybrid) + Integration + **Ertrag ~1'000 kWh/kWp & Eigenverbrauch inkl. MFH 33 % (F18)** + **Indach-Ausfuehrung (Glas-Glas Sunskin + Alu-Solardachplatte PREFA)** + **Dach-Eignung sonnendach.ch (F19)** + **Fassaden-PV & Begruenung (F20)** + **Fassaden-Ertrag quantitativ ~603 kWh/kWp (F21)** + **Marktpreise 2025 (2'400–3'200 CHF/kWp, Indach +60 %, Lebensdauer 33 J)** · **established**
 - [[energienachweis-zh]] — Energienachweis Kt. ZH (EN-ZH / EVEN seit 1.1.2026) + **Lueftung/Kuehlung EN-105/EN-110 (F22)** · **established**
 - [[daemmstoffe-lambda]] — λ-Werte-Schnellreferenz (inkl. Naturdaemmstoffe/VIP/WDVS) · **established**
 - [[heizleistung-und-waermeerzeuger]] — Heizleistung/Dimensionierung + Brennwerte + **WP-Systemwahl JAZ (F6)** · **established**
 - [[waermepumpe-systemvergleich]] — WP ↔ Fernwaerme ↔ Pellets: JAZ-Richtwerte je Typ + Entscheidungslogik (Destillat; FAQ F6) · **emerging**
 - [[minergie-zertifizierung-workflow]] — Minergie-Nachweis praktisch: Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Pruefprozess AS↔ZS · **established** (Destillat)
-- [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme) · **established**
+- [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 (WP/Daemmung/Fernwaerme; **2026 unveraendert bestaetigt + Solarthermie/Minergie-ECO foerderfaehig**) · **established**
+- [[regenwasserbewirtschaftung-versickerung-zh]] — Regenwasser-Versickerung Kt. ZH (Bewilligungspflicht/Zustaendigkeit/Metall-Adsorber/Versickerungsversuch; Schwammstadt-Querschnitt) · **emerging** (neu)
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
 - [[graue-energie]] — graue Energie & THGE, **THGE-Grenzwerte je Kategorie (MFH 11 / Spitaeler 17)**, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **established**
 - [[minergie-standards]] ergaenzt: **MKZ-Formel** + Minergie-2023-Neuerungen (90 % Q_h,li, Monitoring 1000 m², 60 % E-Parkplaetze) · **established**

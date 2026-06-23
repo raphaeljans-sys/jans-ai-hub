@@ -812,8 +812,9 @@ Wasserrecht (GSchG/GSchV) → Skill `baurecht`.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-22: 23 Kernfragen F1-F23 belegt** (neu **F23 Asbest-/Schadstoffabklaerung beim
-> Umbau** — Kt.-ZH-Vierfaelle-Raster: vor 1990 + ≤ CHF 200'000 → Checkliste selbst, darueber Fachperson
-> + private Kontrolle; Stichjahre Asbest 1990 / PCB 1987/1976 / CP 1990). Zudem **F18 um ein drittes
-> Praxisbeispiel** (Basel 60 kWp Indach-MFH, Eigenverbrauch 33 %) und **F4 um konkrete Indach-Produkte**
-> (Alu-Solardachplatte/Glas-Glas) ergaenzt. Offen: kWh/kWp je Einzel-Orientierung, aktuelle CHF/kWp.
+> **FAQ-Stand 2026-06-23: 24 Kernfragen F1-F24 belegt** (neu **F24 Regenwasser/Versickerung** —
+> Kt.-ZH-Regel: ueber 20 m² entwaesserter Flaeche bewilligungspflichtig (Gemeinde), AWEL nur in
+> GW-Schutzzonen; Metallflaechen Cu/Zn > 50 m² → Adsorber). Zudem **F18 um aktuelle Marktpreise
+> 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, Lebensdauer 33 J) und **F7 um Bestaetigung
+> 2026 unveraendert + Solarthermie/Minergie-ECO** geschaerft. Offen: kWh/kWp je Einzel-Orientierung,
+> CHF-Saetze Solarthermie/Minergie-ECO ZH.

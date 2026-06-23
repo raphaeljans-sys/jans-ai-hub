@@ -19,7 +19,7 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[sia-380-1-standardnutzungswerte-tab24-25]] | _Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1 | established (1 S., Tab. 24/25) | SIA 380/1 Anhang A |
 | [[sia-380-1-beispiel-monatsbilanz]] | _Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel | established (1 S., Rechenbsp.) | SIA 380/1 / SIA 381/2 |
 | [[grundsaetze-energieeffizientes-bauen]] | _Heizwaermebedarf/U-Wert_Gebäudehülle | emerging (1 S., Grundsaetze) | ⚠ Lehrbuch-Niveau |
-| [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 | established (S. 1-29) | 2026-06-08 / Version 01.01.2026 |
+| [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 | established (S. 1-29 + 2026-Bestaetigung) | 2026-06-23 / Version 01.01.2026 |
 | [[graue-energie-betriebsenergie]] | _Heizwaermebedarf/Betriebsenergie | emerging (vollst., 1 S.) | ⚠ Lehrmittel-Grobwerte |
 | [[wta-formular-zh-waermetechnische-anlagen]] | endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular | established (vollst., 5 S.) | 2024-01; seit 1.1.2026 EVEN |
 | [[enerhaus-minergie-nachweis-efh-umbau]] | U Wert berechnung/Energienachweis 380-1 Muster | emerging (vollst., 9 S.) | ⚠ 2010 / SIA 380/1:2009 |
@@ -43,3 +43,5 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[en-lueftung-kuehlung-zh]] | _Formulare Kanton ZH Baueingabe/EN-105 + EN-110-ZH | established (beide vollst., je 2 S.; WRG ≥70 %, Kuehlung ≤12 W/m²/PV) | EN-105 Aug 2017 / EN-110 Sept 2022; seit 1.1.2026 EVEN |
 | [[prefa-solar-indach-aluminium-dachplatte]] | Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch | emerging (vollst., 7 S.; Alu-Indach-Solardachplatte, 100/43 Wp, ab 17°) | ⚠ 2023 (Produktbroschuere V5) |
 | [[gebaeudeschadstoffe-checkliste-zh]] | _Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe | established (vollst., 8 S.; 4-Faelle-Raster, Asbest/PCB/CP-Stichjahre) | 2023 / AWEL; VVEA Art. 16-20 |
+| [[regenwasserbewirtschaftung-versickerung-zh]] | endk.ch/Gesuch zur Versickerung von Regenwasser HLS Planer/gesuch_zur_versickerung_von_regenwasser | established (vollst., 3 S.; Bewilligung/Zustaendigkeit/Metall-Adsorber) | 2026 / AWEL ZH; VSA 2019 / SN 592 000:2012 |
+| [[pv-marktzahlen-kosten-ch-2025]] | Web: Swissolar Faktenblatt PV (Juli 2025) + CKW Kosten (Herbst 2025) | established (CHF/kWp + Marktkennzahlen) | 2026-06-23 / Markt 2024–2025 |

@@ -6,7 +6,7 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 32 Destillate; Prio-1 erschoepft; **2026-06-19 neuer Solar-/PV-Block im SharePoint erfasst** (Ertragsreports, Indach, ZH-Formulare), 4 davon destilliert; offen: GreenPV/Fassaden-PV/PV*SOL/PREFA, EN-105/110, FEZ-Flyer, Foerderprogramm S.30-38 (siehe pdf-inventar Prio-2) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 35 Destillate; Prio-1/Solar-Block erschoepft; **2026-06-23 Regenwasser-Versickerung (endk.ch) destilliert** — lokale PDF-Reste nur noch FEZ-/Kursflyer (geringe Uebertragbarkeit); offen primaer Web (Foerder-Broschuere CHF-Saetze S.30-38, Swissolar Solarmonitor) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
@@ -42,3 +42,5 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 | PV-Ertrag/Eigenverbrauch — 3. Praxisreport (SolarApp Basel 60 kWp Indach-MFH, 2022) | PL-04/Solaranlage/solarapp.ch/Basel | destilliert (vollst., S.1-12) | ~826 kWh/kWp, EV 33 %/Autarkie 103 %, ~CHF 2'250/kWp 2022 → pv-ertrag-eigenverbrauch-praxis (Bsp. C), F18 |
 | PREFA Solar — Aluminium-Solardachplatte (Indach, V5 09.2023) | PL-04/Solaranlage/prefa.solar | destilliert (vollst., 7 S.) | Alu-Indach 100/43 Wp, ab 17°, 12,6 kg/m², keine Unterkonstr./Durchdringung → prefa-solar-indach-aluminium-dachplatte (F4) |
 | Checkliste Gebaeudeschadstoffe / Entsorgungskonzept (AWEL Kt. ZH, 02.2023) | PL-04/_Formulare Kanton ZH | destilliert (vollst., 8 S.) | 4-Faelle-Raster vor 1990 / ≤200k / 200 m³, Asbest/PCB/CP-Stichjahre → gebaeudeschadstoffe-checkliste-zh (F23 neu) |
+| Gesuch Versickerung von Regenwasser (AWEL ZH Gewaesserschutz) | PL-04/endk.ch | destilliert (vollst., 3 S.) | Bewilligung >20 m²/Zustaendigkeit Gemeinde-AWEL/Metall-Adsorber >50 m²/Versickerungsversuch + 1,0 m Filterschicht; VSA 2019/SN 592 000 → regenwasserbewirtschaftung-versickerung-zh (F24 neu) |
+| Swissolar Faktenblatt PV (Juli 2025) + CKW PV-Kosten (Herbst 2025) | Web swissolar.ch + ckw.ch | destilliert | CHF/kWp 2'400–3'200 Aufdach, Indach +60 %, Lebensdauer 33 J, Marktkennzahlen 2024/25 → pv-marktzahlen-kosten-ch-2025 (F18 geschaerft) |

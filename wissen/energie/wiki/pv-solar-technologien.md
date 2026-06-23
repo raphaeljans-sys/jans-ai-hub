@@ -1,8 +1,8 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-06-22
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md]
+last_updated: 2026-06-23
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]] [[holzbau-bauphysik-clt]]
 ---
 
@@ -97,12 +97,16 @@ CHF/kWp (2019) rechtfertigen sich v. a. als BIPV (Bekleidungs-Ersatz).
 Details → [[BAUHERREN-FAQ]] F20/F21, `[[greenpv-fassade-pv-begruenung-hslu]]`, `[[pv-fassade-ertrag-pvsol]]`.
 
 ## Kosten & Amortisation (Praxis, ⚠ alternd)
-Stellschrauben statt absoluter Zahlen: PV rechnet sich, wenn die Amortisation **unter der Lebensdauer
-25–30 J** liegt — Foerderung (Einmalverguetung + Steuerabzug) und hoher Eigenverbrauch druecken sie real
-auf ~12–24 J (vgl. F18). **Maximalbelegung ≠ Optimum:** Module zu nah an Aufbauten kosten ueber
-Verschattung mehr Ertrag/kWp, als die Mehrflaeche bringt. CHF/kWp **nie aus alten Zahlen zitieren**
-(Referenz 2019: CHF 1'600–2'460/kWp) → aktuelle Installateur-Offerte. Detail →
-`[[pv-kosten-amortisation-praxis-ewz]]`, Foerderung `[[foerderprogramm-energie-zh-2026]]`.
+**Aktueller Marktpreis (Stand 2025):** Aufdach-Kleinanlage 5–15 kWp **2'400–3'200 CHF/kWp**, Median
+10–30 kWp ~2'400; typische 10-kWp-Anlage ~28'000 CHF vor Foerderung. **Indach ~+60 %**, Solarziegel
+~doppelt. **Mittlere Lebensdauer 33 Jahre** (Swissolar); Batteriespeicher 10–15 kWh ~6'000–10'000 CHF
+(42 % der neuen Wohnanlagen bauen einen). Stellschrauben statt absoluter Zahlen: PV rechnet sich, wenn
+die Amortisation **unter der Lebensdauer** liegt — Foerderung (Bundes-Einmalverguetung ~3'600 CHF/10 kWp
++ Steuerabzug) und hoher Eigenverbrauch druecken sie real auf ~12–24 J (vgl. F18). **Maximalbelegung ≠
+Optimum:** Module zu nah an Aufbauten kosten ueber Verschattung mehr Ertrag/kWp, als die Mehrflaeche
+bringt. CHF/kWp **nie aus alten Zahlen zitieren** (Referenz 2019: CHF 1'600–2'460/kWp) → aktuelle
+Installateur-Offerte. Detail → `[[pv-marktzahlen-kosten-ch-2025]]`, `[[pv-kosten-amortisation-praxis-ewz]]`,
+Foerderung `[[foerderprogramm-energie-zh-2026]]`.
 
 ## Brandschutz (Schnittstelle Solar↔Gebaeude)
 Stand der Technik swissolar/VKF (Basis VKF-BSM 2001-15): drei Schnittstellen planen — **DC-Leitungen**

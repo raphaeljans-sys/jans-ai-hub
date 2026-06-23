@@ -9,8 +9,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   elektronisch ueber EVEN (energievollzug.ch), PDF-Formulare abgeloest** ✓ 2026-06-07
   → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025 (kantonale Umsetzung).
 - [x] **E-D7** Foerderprogramme Kt. ZH (CHF-Saetze) belegt ✓ 2026-06-08 (Stand 01.01.2026)
-  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]`, FAQ F7. Offen: Minergie-ECO +
-  Solarthermie-Saetze (PDF S. 30-38); Bundes-Gebaeudeprogramm separat.
+  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]`, FAQ F7. **2026 unveraendert
+  ggue. 2025 bestaetigt ✓ 2026-06-23** (Baudirektion-Mitteilung 24.10.2025; befristet bis Ende 2026/
+  Budget; 2025 = 61 Mio. CHF); Minergie-ECO + Solarthermie als **foerderfaehig bestaetigt**, F7/Wiki
+  geschaerft. Offen nur noch: konkrete **CHF-Saetze** Minergie-ECO/Solarthermie (Broschuere S. 30-38,
+  PDF nicht erreichbar — nicht schaetzen); Bundes-Gebaeudeprogramm separat.
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
@@ -38,8 +41,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ✓ 2026-06-22**: grosses MFH/Gewerbe Basel 60 kWp Indach (~826 kWh/kWp, **EV 33 %**, Autarkie 103 %,
   ~CHF 2'250/kWp 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]` Bsp. C, FAQ F18; konkrete Indach-Systeme
   (Alu-Solardachplatte 100/43 Wp, ab 17°) → `[[prefa-solar-indach-aluminium-dachplatte]]`, FAQ F4.
+  **Aktuelle Marktpreise/Lebensdauer belegt ✓ 2026-06-23** (Aufdach 5–15 kWp 2'400–3'200 CHF/kWp,
+  Indach +60 %, Solarziegel ~2×, Lebensdauer 33 J, ~1'000 kWh/kWp; Swissolar-Faktenblatt Juli 2025 +
+  CKW Herbst 2025) → `[[pv-marktzahlen-kosten-ch-2025]]`, FAQ F18 geschaerft.
   Offen nur noch: kWh/kWp je **Einzel-Orientierung** (Sued/Ost/West/Nord vertikal) + Tabelle Ertrag je
-  Ausrichtung × Neigung (0-45°); aktuelle CHF/kWp (Swissolar-Marktbericht).
+  Ausrichtung × Neigung (0-45°); CHF/kWp je Anlagengroesse EFH↔MFH↔Grossanlage (Swissolar Solarmonitor).
 - [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
   (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
   Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,
@@ -86,6 +92,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   200'000 → Checkliste, darueber Fachperson + private Kontrolle; Stichjahre 1990/1987/1976). Offen:
   Schwellen anderer Kantone (SZ), Verknuepfung Rueckbaukosten ↔ fruehe Kostenschaetzung/CapEx-Fahrplan
   (`ankaufspruefung`/`kostenschaetzung`), Sanieren-vs.-Neubau mit Schadstoff-Altlast quantifizieren.
+
+- [x] **E14** **Regenwasserbewirtschaftung / Versickerung Kt. ZH** belegt ✓ 2026-06-23 →
+  `[[regenwasserbewirtschaftung-versickerung-zh]]` (Destillat + Themenartikel), FAQ **F24** (Bewilligung
+  >20 m² entwaesserter Flaeche, Zustaendigkeit Gemeinde/AWEL, Metall-Adsorber >50 m², Versickerungs-
+  versuch + 1,0 m Filterschicht; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022). Querbezug
+  Schwammstadt/Begruenung F20. Offen: Bemessungsdetail (AWEL-Regenwasserrechner), Retentions-/Gruendach-
+  Anrechnung quantifizieren, andere Kantone (SZ); Wasserrecht-Verfahren → Skill `baurecht`.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

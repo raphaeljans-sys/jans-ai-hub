@@ -74,8 +74,14 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   + THGE belegt 2026-06-10/-17 via Lehrmittel «Betriebsenergie» + Nachweiskurs (THGE-Grenzwerte je
   Kategorie, bauliche Hebel) → `[[graue-energie]]` (FAQ F9/F8). Offen: KBOB/SIA 2032-Kennwerte,
   konkrete Sanieren-vs-Neubau-Schwelle.
-- [x] D3 Foerderprogramme Kt. ZH — belegt 2026-06-08 (Stand 01.01.2026, Web)
-  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). Offen: Minergie-ECO/Solarthermie-Saetze, Bund.
+- [x] D3 Foerderprogramme Kt. ZH — belegt 2026-06-08 (Stand 01.01.2026, Web); **2026 unveraendert
+  bestaetigt + Solarthermie/Minergie-ECO foerderfaehig 2026-06-23** (Mitteilung 24.10.2025)
+  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). Offen: konkrete
+  CHF-Saetze Minergie-ECO/Solarthermie (Broschuere-PDF nicht erreichbar), Bundes-Gebaeudeprogramm.
+- [x] D5 Regenwasserbewirtschaftung / Versickerung Kt. ZH — belegt 2026-06-23 via AWEL-Gesuchsformular
+  (Bewilligung >20 m², Zustaendigkeit Gemeinde/AWEL, Metall-Adsorber >50 m², Versickerungsversuch +
+  1,0 m Filterschicht; VSA 2019/SN 592 000) → `[[regenwasserbewirtschaftung-versickerung-zh]]` (FAQ F24).
+  Schwammstadt-Querschnitt zu D2/Begruenung. Offen: Bemessungsdetail, Retention/Gruendach, SZ.
 - [~] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus — Verhaeltnis 50 J belegt
   2026-06-10 → `[[graue-energie]]` (Betrieb dominiert, graue Energie 20-30 %; bei Minergie kehrt sich
   Gewicht um). Offen: vollstaendige Lebenszyklus-CO₂-Bilanz inkl. Energietraeger.

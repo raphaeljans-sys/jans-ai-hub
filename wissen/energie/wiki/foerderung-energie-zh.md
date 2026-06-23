@@ -1,16 +1,17 @@
 ---
 title: Foerderung Energie — Kanton Zuerich (2026)
 status: established
-last_updated: 2026-06-08
-datenstand: 2026-06-08 (Foerderprogramm Energie ZH, Version 01.01.2026)
+last_updated: 2026-06-23
+datenstand: 2026-06-23 (Foerderprogramm Energie ZH, Version 01.01.2026; 2026 unveraendert bestaetigt 24.10.2025)
 sources: [destillate/foerderprogramm-energie-zh-2026.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]]
 ---
 
 # Foerderung Energie — Kanton Zuerich
 
-> ⚠ **Datenstand 2026-06-08** (Programm-Version 01.01.2026). Foerdersaetze altern — vor jeder
-> Zusage gegen `zh.ch` / `portal.dasgebaeudeprogramm.ch/zh` pruefen. Saetze 2026 = 2025 unveraendert.
+> ⚠ **Datenstand 2026-06-23** (Programm-Version 01.01.2026). Foerdersaetze altern — vor jeder
+> Zusage gegen `zh.ch` / `portal.dasgebaeudeprogramm.ch/zh` pruefen. **2026 unveraendert ggue. 2025**
+> bestaetigt (Baudirektion-Mitteilung 24.10.2025); befristet bis Ende 2026 bzw. bis Budget erschoepft.
 
 ## Das Wichtigste
 Der Kanton ZH foerdert den Weg weg von fossiler Waerme und hin zur besseren Huelle mit
@@ -46,6 +47,14 @@ geschuetzt bis 0,3. **Nicht gefoerdert:** Fenster, Tueren, Kellerdecken, Estrich
 ### Beratung
 GEAK-Plus-Bericht: EFH/ZFH **CHF 1'000**, uebrige Kategorien **CHF 1'500**.
 
+### Weiter gefoerdert (Betraege noch offen)
+- **Thermische Solaranlagen (Solarthermie):** foerderfaehig.
+- **Minergie-Modernisierung NUR mit Zusatz «ECO»** (Kreislauffaehigkeit + graue Energie); reines
+  Minergie ohne ECO wird nicht gefoerdert.
+- **PV** foerdert der **Bund** (Pronovo-Einmalverguetung, ~3'600 CHF fuer 10 kWp Sept 2025), nicht
+  der Kanton pauschal. Konkrete kantonale CHF-Saetze fuer Solarthermie/Minergie-ECO: Broschuere
+  S. 31-38 (noch nicht beziffert erfasst).
+
 ## Strategie fuer den Bauherrn
 1. **Erst Gesuch, dann bauen** — ausnahmslos.
 2. **Huelle vor Technik:** zuerst (oder gleichzeitig) daemmen → WP wird kleiner und effizienter
@@ -59,5 +68,6 @@ GEAK-Plus-Bericht: EFH/ZFH **CHF 1'000**, uebrige Kategorien **CHF 1'500**.
 - Welche Nachweise die Baueingabe braucht: `[[energienachweis-zh]]`. Energierecht → Skill `baurecht`.
 
 ## Offen
-- Minergie-ECO-Modernisierung + thermische Solaranlagen (Foerdersaetze, PDF S. 31-38) — naechster Lauf.
+- **Konkrete CHF-Saetze** Minergie-ECO-Modernisierung + thermische Solaranlagen (Broschuere S. 31-38) —
+  Broschuere-PDF via WebFetch nicht erreichbar; per Direkt-Download/Hotline nachziehen, nicht schaetzen.
 - Bundes-Gebaeudeprogramm-Saetze separat erfassen.

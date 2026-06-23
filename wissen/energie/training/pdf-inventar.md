@@ -55,10 +55,13 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [x] `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` | 2026-06-22 (vollst., 7 S.; Alu-Indach-Solardachplatte gross 100 Wp/5,88 m²/kWp + klein 43 Wp, ab 17°, keine Unterkonstr./Durchdringung → prefa-solar-indach-aluminium-dachplatte; FAQ F4 geschaerft) |
 | [x] `_Formulare Kanton ZH Baueingabe/EN-105.pdf` (Lueftung) + `EN-110-ZH.pdf` (Kuehlung) | 2026-06-21 (beide vollst. je 2 S.; WRG ≥70 %/Luftgeschw./Kanaldaemmung + Kuehlung ≤12 W/m²/PV-Deckung/θ_CW → en-lueftung-kuehlung-zh; ⚠ seit 1.1.2026 EVEN) |
 | [x] `_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf` | 2026-06-22 (vollst., 8 S.; AWEL Entsorgungskonzept, 4-Faelle-Raster vor 1990 / ≤200k / 200 m³, Asbest/PCB/CP-Stichjahre → gebaeudeschadstoffe-checkliste-zh; FAQ F23 neu) |
+| [x] `endk.ch/Gesuch zur Versickerung von Regenwasser HLS Planer/gesuch_zur_versickerung_von_regenwasser.pdf` | 2026-06-23 (vollst., 3 S.; AWEL ZH Regenwasser-Versickerung — Bewilligungspflicht >20 m²/Zustaendigkeit Gemeinde-AWEL/Metall-Adsorber >50 m² → regenwasserbewirtschaftung-versickerung-zh; FAQ F24 neu, neuer Themenartikel) |
 | [-] Datenblaetter (SI-Saphir, megasol M385, PREFA-Farbsortiment, Usermanual, Maison-Climat-Plaene) | nicht einzeln destilliert (geringe Uebertragbarkeit) |
+| [ ] `forumenergie.ch/230926_RE.pdf` + FEZ-Kurs-Flyer (forumenergie/wissen.minergie) | — (Kurs-/Veranstaltungsflyer, geringe Uebertragbarkeit) |
 
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)
 | Status | Quelle | Datenstand |
 |---|---|---|
 | [x] Foerderprogramm Energie Kt. ZH 2026 (zh.ch PDF) | 2026-06-08 (S. 1-29; → foerderprogramm-energie-zh-2026) |
-| [ ] Foerderprogramm ZH 2026 — Minergie-ECO + Solarthermie (S. 30-38) | — |
+| [~] Foerderprogramm ZH 2026 — Minergie-ECO + Solarthermie (S. 30-38) | 2026-06-23 (foerderfaehig bestaetigt + 2026 unveraendert/Mitteilung 24.10.2025; konkrete CHF-Saetze offen — Broschuere-PDF nicht erreichbar) |
+| [x] Swissolar Faktenblatt PV Schweiz (Juli 2025) + CKW PV-Kosten (Herbst 2025) | 2026-06-23 (CHF/kWp 2'400–3'200 Aufdach, Indach +60 %, Lebensdauer 33 J, Marktkennzahlen → pv-marktzahlen-kosten-ch-2025; FAQ F18 geschaerft) |
