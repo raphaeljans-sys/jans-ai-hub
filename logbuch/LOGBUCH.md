@@ -5,6 +5,45 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-23
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365, naechste 7 Tage) und
+  Mail-Eingang (seit 22.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini liegt vor (vom Macbook Pro, wird vom Runner abgearbeitet) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **68 Tage ueberfaellig**, Mahnstufe 1, naechste Frist **28.06.** = Eskalation auf
+  Stufe 2 pruefen, jetzt in den naechsten 7 Tagen) und RE-00097 (Hofer, CHF 500, faellig 16.06.,
+  **7 Tage ueberfaellig**, Mahnstufe 1, naechste Frist **30.06.**). Kein Zahlungseingang seit dem
+  letzten Lauf.
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** keine neue Korrespondenz. Mahnung 2 vom 13.06. bleibt
+  gegenstandslos; vor Reaktion final verifizieren.
+- **NEU — Notariat AG-Gruendung (M. Mathies, Notariate ZH, 22.06.):** die erwartete Antwort auf die
+  Beurkundungs-Terminanfrage liegt vor; Dossier vorgeprueft. HR-Recherche zeigt bereits eine
+  bestehende «JANS ...»-Firma — Namens-/Verwechslungsfrage (Zefix) klaeren, bevor der Beurkundungstermin
+  fixiert wird. Bestehende AG-Notariat-Zeile entsprechend aktualisiert (Prio hoch, nachfassen).
+- **NEU — N. Ramminger (KISPI, 22.06.):** Raumnummern bestaetigt/freigegeben, bittet um das
+  ueberarbeitete dwg-File — als nachfassen-Pendenz (mittel) ins Register.
+- **NEU — G. Scherbl (Wintec, 22.06.):** fuer die private Kontrolle (Heizung/Sanitaer Umnutzung) braucht
+  er Strangschemas mit ersichtlicher Umnutzung + Grundrisspläne; Formulare noch unvollstaendig —
+  Unterlagen nachreichen (nachfassen, mittel).
+- **NEU — Dr. D. Chaled (22.06.):** zum KV Dachausbau/Folgekosten Bahnhofstrasse; zwei Banken
+  bestaetigen den Preis (~2.9-3.16 Mio) — Rueckmeldung/naechster Schritt offen (nachfassen, tief).
+- **S. Sonderegger (Reduit/Strom):** A. Spahic (22.06.) leitet die Steckdosen-/Schalter-Frage an
+  M. Spoerri (raeumliche Begehung) — jetzt in interner KISPI-Klaerung, Status auf «beobachten».
+- **Kalender naechste 7 Tage (bestaetigt via Outlook):** neu **24.06. 09:00–09:30 KISPI PPTS Brandschutz
+  Auflagebereinigung** (Teams, mit L. Merci/KISPI + J. Ziegel/Gruner) — als Termin ins Register. Die
+  beiden 22.06.-Termine (Lueftung EVEN, Schliessanlage Albertstrasse) sind vorbei → ins Archiv.
+- **Mail-Hinweise (Info):** SharePoint-Speicher-Warnung erneut 22.06. (nun 1056.96 / 1054 GB) — bleibt
+  offener Blocker, Wert im Register aktualisiert. M. Spoerri (22.06.): Auftrag Sprinkleranlage-Anpassung
+  an Jomos (T. Harder) erteilt (Info). Zefix (22.06.): Doku-Link Public REST API (kein Frist-Item).
+- **Offen/faellig naechste 7 Tage:** RE-00087 (Eskalation 28.06.), RE-00097 (30.06.), KISPI PPTS Brandschutz
+  (24.06.), AG-Gruendung UBS-Vertragsdokumente / Notariat-Namensfrage (~25.06.), Mittagessen M. Prencipe
+  (23.06.). Dauerhaft offen: SharePoint-Speicher, bexio-Doppelimport, EPROID B26-00705.01, dwg Ramminger,
+  Unterlagen Scherbl, Status Tschopp, Rueckmeldung Chaled.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Operatives in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-22
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365, naechste 7 Tage) und

@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -333,6 +333,36 @@ Termin). Bestätigt «Anrede folgt der wachsenden Vertrautheit» (vgl. Geschätz
 beim Erstkontakt («Guten Tag Herr Gregori»), Du «Geschätzter Gregori» nach persönlicher Beratung.
 Nebenbefund: die Vermittlerin Frick bekommt in der Absage die Sie-Tageszeit-Mittellage «**Guten
 Morgen Frau Frick**» (neben «Geschätzte Frau Frick», Batch 12) — situative Varianz im Sie.
+
+## Gestapelte Anrede «Hoi liebe/r <Name>» auch weiblich + Bürohaus-Nachbar (belegt Mailbatch 14, authentisch)
+Bestätigt die gestapelte Wärmestufe «Hoi lieber <Name>» (vgl. «Hoi lieber Sämi», Fidelity 260618)
+nun in der **weiblichen Form** und mit aktiv gebildeter CH-Koseform: «**Hoi liebe Gabi**» (Gabriele
+Demme, 17.09.2025) — operativ-lockeres «Hoi» + warmes «liebe» + Diminutiv «Gabi». Neue
+Mapping-Ergänzung: **Gabi Demme (Deplus Architekten ETH/FH, Bürokollegin/Nachbar auf demselben
+Geschoss Grubenstrasse 37)** → vertraut-sozialer Peer-Du «Hoi liebe Gabi». Der **Bürohaus-Nachbar
+im selben Atelier-Geschoss** ist ein eigener vertraut-sozialer Peer (kein Auftragsgefälle), neben
+dem Design-/Event-Peer (Sämi, Fabio Don).
+
+## Geld/Rechnung kehrt sogar das engste Sozial-Peer-Du ins KALTE Sie (belegt Mailbatch 14, authentisch)
+Stärkster Beleg für «Register folgt dem Mail-Typ/Geld, nicht der Person»: **Fabio Don** — sonst das
+verspielteste Sozial-Peer-Du («Tschülinonen», BOLON, Mailbatch 10) — bekommt für eine **Rechnung**
+(Druckerkosten RE-00073, 25.09.2025) das **kälteste** Register «**Sehr geehrter Herr Don**» +
+«Freundliche Grüsse / Raphael Jans, Architekt ETH SIA» + voller Block. Nicht «Guten Tag», nicht
+«Geschätzter», sondern **Sehr geehrter**: bei einer Rechnung an den Privat-/Peer-Kontakt schaltet
+Raphael auf maximal-formell und buchhaltungssicher. Schärft das Gruss-Paradox (→ [[stimme]],
+Fidelity 260622): der **Geld-/Beleg-Charakter** zieht sogar den engsten Sozial-Peer ins
+Sehr-geehrte-Sie. Der Zwilling wählt für Rechnungen/Buchhaltung **unabhängig von der sonstigen
+Nähe** das formellste Sie + vollen Block.
+
+## Weitere Du-Mappings (belegt Mailbatch 14, authentisch)
+- **Peter Weisser (pw@dasbaumanagement.ch, Baumanagement, Projekt Bösfeldstrasse/Emmenbrücke):**
+  operativ-Du «**Hoi Peter,**» / «**Lieber Gruss**» — fachliche Plan-Liefermail (Kanalisation/
+  Spülrapport). Zweiter «Hoi Peter»-Baumanagement-Kontakt (nicht zu verwechseln mit Peter Rohner/
+  WOMA-Finanzen, der Sie ist).
+- **Peter Rohner (peter.rohner@woma-maur.ch, WOMA Finanz-/Zahlstelle):** Sie, «**Geschätzter Herr
+  Rohner**» — die zuständige Zahlstelle erhält die Zahlungserinnerung (→ [[stimme]], [[arbeitsweise]]).
+  Bestätigt «Funktions-Register: Buchhaltung/Finanzen = Sie» (vgl. Nova/Siegel) auch bei der WOMA,
+  wo der Bauvorstand Bopp Du «Geschätzter Christoph» / «Lieber Raphi» (reziprok bestätigt) ist.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

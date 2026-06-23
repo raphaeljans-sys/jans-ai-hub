@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-23 — twin-mail-training (täglich), Batch 14
+- Sequentieller Sent-Items-Sweep rj@ **2025-09-13 bis 2025-09-30** (12 Mails gesichtet, 5 Volltexte
+  destilliert, 4 MS-Support/System ignoriert). Stilmetrik 202 W: Du-Gross 0.5, Satzlänge ø 11.9 W,
+  Grüsse «Freundliche Grüsse» 2× (Sie/Geld) / «Lieber Gruss» 1× (Du-operativ).
+- **Echo-Falle, 3. Beleg:** der in der Gabi-Demme-Mail mitgeschickte «Lieber Michael»-IT-Anfrage-
+  Entwurf trägt klare AI-Paste-Marker (durchgehend «du» klein, Generik-Bulletstruktur, «ich hoffe es
+  geht dir gut»/«Vielen Dank … im Voraus») → als `claude-aera`-äquivalent von der Stilquelle
+  ausgeschlossen; nur der authentische Rahmen «Hoi liebe Gabi …» destilliert (Echo-Schutz).
+- [[stimme]] **neu** «Zahlungserinnerung (1. Mahnstufe): gesichtswahrend-sanfter Ton» (Übersehen-
+  unterstellen, «Gekreuzt»-Klausel, «freundliche Begleichung», «wir»-Firmenstimme ok; Rohner/WOMA,
+  16.09.) + «‹Sehr geehrter Herr Don› als kältestes Sie für die Rechnung an einen Sozial-Peer»
+  (Gruss-Paradox in Reinform) + Caps-Betonung Eil-Du + Metrik Batch 14.
+- [[beziehungsregister]] **neu** «‹Hoi liebe Gabi› — gestapelte Anrede auch weiblich + Bürohaus-
+  Nachbar» (Gabi Demme/Deplus, Grubenstrasse 37), «Geld/Rechnung kehrt sogar das engste Sozial-Peer-Du
+  ins kalte Sie» (Fabio Don), Mappings Peter Weisser/dasBaumanagement (Du) vs. Peter Rohner/WOMA-
+  Finanzen (Sie), Bopp «Lieber Raphi» reziprok bestätigt.
+- [[arbeitsweise]] **neu** «Aktive Zahlungs-Nachverfolgung: Erinnerung nach Fälligkeit, an die Finanz-/
+  Zahlstelle» (re-00072 an Bopp 03.09 → Erinnerung an Rohner 16.09; speist Skill mahnwesen).
+- Frontmatter sources + last_updated (2026-06-23) in stimme/beziehungsregister/arbeitsweise um
+  `260623-mailbatch-14.md` ergänzt. _INGESTED bis 2025-09-30, nächster Lauf ab 2025-10-01.
+
 ## 2026-06-22 — twin-mail-training (täglich), Batch 13
 - Sequentieller Sent-Items-Sweep rj@ **2025-09-06 bis 2025-09-12** (40 Mails gesichtet, 5 Volltexte
   destilliert). Gros = bereits dokumentierter Yorck/Render-Thalwil-2414-Thread + Bild-Fragmente;

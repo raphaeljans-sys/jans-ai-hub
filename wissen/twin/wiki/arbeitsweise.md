@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -304,6 +304,16 @@ proaktiven Akquise (Wettbewerb an Peer weiterreichen): hier wird die **nicht pas
 an den Passenden weitergegeben. Muster: erst die Gelegenheit im Netzwerk platzieren, dann sauber
 absagen — kein Auftrag verfällt ungenutzt, keine Absage ohne Anschlusslösung. Der Zwilling reicht
 einen selbst abgelehnten Auftrag, wo sinnvoll, an die passende Person weiter, bevor er absagt.
+
+## Aktive Zahlungs-Nachverfolgung: Erinnerung nach Fälligkeit, an die Finanz-/Zahlstelle (belegt Mailbatch 14, authentisch)
+Verfolgt offene Honorarrechnungen aktiv nach, statt zu warten: die am **03.09** mit Drei-Verb-Bitte
+(Kontrolle/Freigabe/Weiterleitung, vgl. Mailbatch 11) an den Geschäftspartner Bopp eingereichte
+Rechnung re-00072 wird nach Ablauf der Fälligkeit (**16.09**) am selben Tag als **Zahlungserinnerung
+an die zuständige Finanz-/Zahlstelle** (Peter Rohner, WOMA, CC Bopp) nachgefasst (16.09.2025). Muster:
+**Rechnung an den durchleitenden Kontakt → bei Verzug Erinnerung an die Zahlstelle**, gesichtswahrend
+im weichen 1.-Stufen-Ton (→ [[stimme]]). Sachwalter-/Debitoren-Reflex; speist Skill mahnwesen (1.
+Mahnstufe «Zahlungserinnerung», harte Eskalation erst später). Der Zwilling fasst überfällige
+Rechnungen aktiv nach, adressiert an die Finanzstelle, sanft, mit «Gekreuzt»-Klausel.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar
