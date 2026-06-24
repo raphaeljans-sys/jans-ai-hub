@@ -1,0 +1,78 @@
+{
+  "id": "healthcare-neubau-zh",
+  "name": "Healthcare Neubau — Langzeitpflege (Kt. ZH)",
+  "version": "1.0",
+  "quellen": [
+    "CURAVIVA Richtwerte Raumprogramm Pflegeheim 2020",
+    "Wüest Partner Baukostenindex 2024",
+    "JANS Projekt 2410-WALD (Nova Pflegezentrum)",
+    "JANS Projekt 2619-KISPI (Kinderspital Lenggstrasse)",
+    "SIA 416:2003 Flächen und Volumen"
+  ],
+  "gebaeude": {
+    "geschosse_min": 3,
+    "geschosse_max": 5,
+    "geschosshoehe_m": 3.40,
+    "grundriss_tiefe_m": [14.0, 16.0],
+    "fassaden_raster_m": 1.35,
+    "erschliessung": "mittelkorridor",
+    "statik_system": "skelett",
+    "dachform": "flachdach",
+    "orientierung_regeln": [
+      "Bewohnerzimmer Ost/Süd orientiert (Tageslicht Pflege)",
+      "Innenhof ab 4 Geschossen (Belichtung, Orientierung Demenzstation)",
+      "Erdgeschoss öffentlich (Cafeteria, Therapie, Empfang)",
+      "Dachgeschoss Personalräume oder Gebäudetechnik"
+    ]
+  },
+  "flaechen": {
+    "hnf_pro_einheit_m2": [42, 48],
+    "einheit_bezeichnung": "Pflegebett",
+    "vf_anteil": 0.28,
+    "agf_bgf_faktor": 0.82,
+    "nf_gf_faktor": 0.65
+  },
+  "materialien": {
+    "tragwerk": "stahlbeton",
+    "fassade": ["putz-wärmedämmung", "holz-metall-fenster"],
+    "dach": "flachdach-extensiv-begrünt",
+    "innenausbau_standard": "mittel"
+  },
+  "kosten_referenz": {
+    "chf_m3_gv_band": [850, 1050],
+    "bkp_schwerpunkte": ["2 Gebäude", "23 Elektro", "25 Heizung", "27 Aufzüge"],
+    "quelle_kb": "wissen/grobkosten/"
+  },
+  "entwurfs_regeln": [
+    "Wohngruppen à 12–16 Betten mit eigenem Aufenthaltsraum",
+    "Pflegebad zentral je Wohngruppe (mind. 12 m²)",
+    "Stützpunkt mit Sichtbezug zum Korridor",
+    "Lichte Korridorbreite ≥ 1.80 m (Bettentransport)",
+    "Brandabschnitte = Wohngruppen (keine Querverbindung über Abschnitt)",
+    "Fluchtweg max. 35 m (VKF BSV 2015)",
+    "Erdgeschoss schwellenlos, Umgebung rollstuhlgängig",
+    "Untergeschoss: Logistik, Wäscherei, Technik, Lager"
+  ],
+  "referenz_projekte": [
+    {
+      "name": "Pflegezentrum Wald (Nova)",
+      "jans_nr": "2410",
+      "relevanz": "Raumprogramm + Wirtschaftlichkeit Healthcare"
+    },
+    {
+      "name": "KISPI Lenggstrasse 30",
+      "jans_nr": "2619",
+      "relevanz": "Auflagenbereinigung + Brandschutz Healthcare"
+    },
+    {
+      "name": "Alterszentrum Hottingen (Boltshauser Architekten)",
+      "jans_nr": null,
+      "architekt": "Boltshauser Architekten",
+      "relevanz": "Referenz Innenhof-Typologie Pflege, Materialität Sichtbeton + Holz"
+    }
+  ],
+  "rendering": {
+    "farbpalette": ["#FFFFFF", "#F5F5F0", "#C8C0B8"],
+    "stil": "weissmodell"
+  }
+}
