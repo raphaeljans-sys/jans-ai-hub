@@ -2,6 +2,28 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-24 — twin-mail-training (täglich), Batch 15
+- Sequentieller Sent-Items-Sweep rj@ **2025-10-02 bis 2025-10-08** (15 Mails gesichtet, 10
+  authentische RJ-Texte destilliert, 4 Microsoft-Support-/Auto-Annahme-Mails ignoriert).
+  Stilmetrik 402 W: Du-Gross 1.0, Satzlänge ø 12.2 W, Tausender-Apostroph 2× (CHF 100'000.–),
+  Grüsse «Freundliche Grüsse» 4× (Behörden/Sie) / «Lieber Gruss» 3× / «Bester Gruss» 1× / «Lgr» 1×.
+- [[stimme]] **neu** Gruss-/Notations-Kürzel im Eil-Du: «Lgr» (Ultra-Kürzel Lieber Gruss, kein
+  Block), «Danke und Gruss», «Bester Gruss», «Hoi <Name>.» mit Punkt, Zahl-Kürzel «2.MIO» + Metrik.
+- [[beziehungsregister]] **neu** Mappings Samuel «Sämi» Smith (Sozial-Peer-Du «Hoi lieber Sämi»,
+  Binz), Lu van der Zee (warm-Business-Du «Geschätzte Lu» bei weiblicher Auftraggeberin, reziprok
+  «Lieber Raphael»), Labinot (Eil-Sub-Du «Hoi Labinot.»); Eidg. Amt ESTV = Sie («Guten Tag» / «Sehr
+  geehrte Damen und Herren» / «Sehr geehrte Frau Ruprecht» / «Guten Tag Herr Rentsch») — Amt = Sie,
+  Bund wie Gemeinde.
+- [[fachsignatur]] **neu** präzises Rechtsgrundlagen-Zitat auch ausserhalb Baurecht (Art. 10 Abs. 2
+  lit. a MWSTG); Tiefbau-/Werkleitungs-Vokabular (Revisionsplan vs. Ausführungsplan, Plankopf,
+  Schächte, Spülrapport); SIA-Phasen-Honorar transparent in Stunden (proforma 60h/Phase).
+- [[haltung]] **neu** Ehrlichkeit in eigener Sache — offene Verspätungs-Entschuldigung + eigenen
+  Honoraransatz selbst als «eher grosszügig» markieren statt beschönigen.
+- [[arbeitsweise]] **neu** Founder führt eigene Buchhaltung/Amtsadministration selbst (ESTV/
+  Betreibung); Revisionsplan Punkt für Punkt auf Behörden-Auflage nachführen + Erledigung
+  quittierend zurück; Offerte gestuft (Struktur vorab, verbindliche Zahlen mit terminierter
+  Nachlieferung). Raw-Distillat `raw/260624-mailbatch-15.md`; _INGESTED bis 2025-10-08.
+
 ## 2026-06-23 — twin-mail-training (täglich), Batch 14
 - Sequentieller Sent-Items-Sweep rj@ **2025-09-13 bis 2025-09-30** (12 Mails gesichtet, 5 Volltexte
   destilliert, 4 MS-Support/System ignoriert). Stilmetrik 202 W: Du-Gross 0.5, Satzlänge ø 11.9 W,
