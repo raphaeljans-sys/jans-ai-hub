@@ -6,7 +6,8 @@ sources:
   - maps.zh.ch/wfs/OGDZHWFS GetCapabilities + GetFeature (GeoJSON, EPSG:2056) — Stand 06/2026
   - Datensatz ARV Basis Nutzungsplanung 0156 (Grundnutzung), 0154 (Empfindlichkeitsstufen LSV)
   - Benchmark Connector geo-zh.mjs --produkt zonenplan, Langnau a.A. Kat. 3338 + Egg WG60, 2026-06-16
-links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-geoportale-uebersicht]]
+  - A6 proj-Layer 0156_proj validiert: Seuzach Kat. 2304 (laufende BZO-Revision, Auflage 11/2024), 2026-06-24
+links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
 ---
 
 # Rechtskraeftige kommunale Grundnutzung (Zonenplan/BZO) Kt. ZH — login-frei
@@ -81,8 +82,33 @@ Benchmark Langnau Kat. 3338: **ES_II** (Wohnzonen, keine stoerenden Betriebe, Ar
 Jeder Layer hat ein Pendant **`..._proj_f`** = **projektierte / in Revision befindliche**
 Planung (z.B. laufende BZO-Revision, oeffentliche Auflage). Fuer den Vorher/Nachher-Vergleich
 einer Studie (machbarkeit Typ A) beide Layer abfragen: `_f` (heute rechtskraeftig) vs.
-`_proj_f` (geplant). Status `emerging` — projektierter Layer noch nicht an einem realen
-Revisionsfall validiert.
+`_proj_f` (geplant).
+
+## A6 — Laufende Revision erkennen (Vorher/Nachher fuer machbarkeit Typ A) · validiert 2026-06-24
+
+Der projektierte Grundnutzungs-Layer **`ms:ogd-0156_arv_basis_np_gn_zonenflaeche_proj_f`** ist
+kantonsweit aktiv bestueckt (Stand 06/2026: laufende Revisionen u.a. in **Seuzach, Wädenswil,
+Winterthur, Winkel, Regensdorf, Affoltern a.A., Zürich**). Er traegt zusaetzlich zu den
+Zonen-/Dichtefeldern die **Revisions-Metadaten** — ideal, um an einer Parzelle zu pruefen, ob
+sich die Rahmennutzung gerade aendert:
+
+| Feld (proj) | Bedeutung | Beispiel (Seuzach) |
+|---|---|---|
+| `rechtsstatus` | Revisionsphase | `laufendeAenderung.Festsetzung` (Phasen: …`oeffentliche_Auflage` → …`Festsetzung` → …`Genehmigung`) |
+| `revisionsart_txt` | Art der Aenderung | `Aenderung_Bauordnung_Zonenplan` (vs. nur `Aenderung_Bauordnung` = BZO-Text ohne Geometrie) |
+| `auflagedatum` | oeffentliche Auflage | `2024-11-01` |
+| `festsetzung` / `genehmigung` / `inkraftsetzung` | Phasendaten | je nach Stand |
+| `dokument` | **Verweis auf die OEREB-Dokumente** (BZO-Text/Plan der Revision) | `http://oerebdocs.zh.ch/documents?docid=…` |
+
+**Lese-Hinweis:** Bei `revisionsart = Aenderung_Bauordnung` aendert sich nur der **BZO-Text** —
+die Zone bleibt geometrisch gleich, die neuen Dichte-/Hoehenwerte stehen erst im verlinkten
+`dokument`, nicht in den proj-Attributen (die `gebaeudehoehe_max` etc. koennen dann leer sein).
+Bei `Aenderung_Bauordnung_Zonenplan` aendert sich auch die Flaeche/Zone → Vorher/Nachher direkt
+aus `_f` vs. `_proj_f` ablesbar. Immer **beide** Layer am selben Punkt abfragen.
+
+Der Connector macht das automatisch beim `--produkt zonenplan` und meldet eine laufende Revision
+mit ⚠-Zeile (geplante Zone · Phase · Auflagedatum · Dokument-Link); im JSON unter
+`produkte.zonenplan.revision_laeuft` + `.grundnutzung_proj[]`.
 
 ## Connector
 
@@ -106,6 +132,10 @@ node geo-zh.mjs --adresse "<Adr Stadt-naehere Gde>" --produkt zonenplan
   **AZ 60 %**, 3 Vollgeschosse; **ES_III**; rechtskraeftig, juengere Revision (festgesetzt
   02.09.2024, genehmigt 06.08.2025). Belegt, dass der Layer staedtische AZ-Systeme + aktuelle
   BZO-Revisionen abbildet.
+- **Seuzach** (A6-Benchmark), Kirchgasse 2, Kat. 2304 (EGRID CH449245777234, BFS 227):
+  rechtskraeftig **K Kernzone** (`inKraft`); **proj-Layer aktiv** → `laufendeAenderung.Festsetzung`,
+  `Aenderung_Bauordnung_Zonenplan`, Auflage **01.11.2024**, mit Dokument-Link auf
+  oerebdocs.zh.ch. Beweist die End-to-End-Erkennung einer laufenden Revision durch den Connector.
 
 ## Grenzen / offen
 
@@ -114,6 +144,7 @@ node geo-zh.mjs --adresse "<Adr Stadt-naehere Gde>" --produkt zonenplan
 - **Sondernutzungs-/Gestaltungsplaene** und Arealüberbauungen sind eigene Festlegungen (teils in
   0155 ueberlagernd) — die Grundnutzung 0156 zeigt nur die Rahmennutzung. Bei Arealboni/Sonder-
   bauvorschriften zusaetzlich BZO-Text + 0155 pruefen.
-- Projektierter Layer `_proj_f` an realem Revisionsfall noch zu validieren (→ QUESTIONS A6).
+- ~~Projektierter Layer `_proj_f` an realem Revisionsfall noch zu validieren~~ **✓ A6 geloest
+  2026-06-24** (Seuzach Kat. 2304) — siehe Abschnitt «A6 — Laufende Revision erkennen».
 - Geocoder-Falle: «Strasse Nr, Ort» kann in einer **Nachbargemeinde** landen (lange Strassen wie
   Forchstrasse). Immer `typ_gemeindename`/`bfs` der Antwort gegen die erwartete Gemeinde pruefen.

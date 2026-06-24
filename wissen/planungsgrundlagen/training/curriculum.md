@@ -10,11 +10,12 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] K1 Wie kommt man von Adresse zu EGRID zu OEREB-PDF? (2026-06-05, validiert ZH)
 - [x] K2 Wie bezieht man den Zonenplan/BZO-Ausschnitt einer ZH-Parzelle (Endpunkt/Format)? (2026-06-16 GELOEST: ZH-OGD-WFS `maps.zh.ch/wfs/OGDZHWFS` Datensatz 0156 `np_gn_zonenflaeche_f` als GeoJSON, login-frei — Zone+BMZ/AZ+Hoehen+VG+ES-Laerm 0154; Connector `--produkt zonenplan`; validiert Langnau Kat.3338 + Egg WG60 → [[kartenportale-zonenplan-zh]]. Bundes-Bauzonen `ch.are.bauzonen` PNG bleibt fuer Schnellblick.)
 - [x] K3 Wie laedt man Hoehenmodell (swissALTI3D) + Orthofoto (SWISSIMAGE) je Parzelle? (2026-06-10, height + STAC swissimage-dop10/swissalti3d validiert → [[kartenportale-bund-geodaten]], Connector `--produkt`)
-- [ ] K4 Situationsplan amtliche Vermessung — Bezug ueber geodienste.ch OGD, automatisierbar?
-- [ ] K5 Baulinien/Abstandslinien — wo, und wie lesen sie sich in den OEREB?
-- [ ] K6 Eigentumsabfrage ObjektwesenZH per EGRID — Ablauf, Datenschutz, Automatisierung?
+- [x] K4 Situationsplan amtliche Vermessung — Bezug ueber geodienste.ch OGD, automatisierbar? (2026-06-11 via A4: Geoshop-API ZH `geoshop-zh.mjs` Produkt 10016 DXF je Gemeinde/EGRID; geodienste.ch nur INTERLIS-Kanton automatisierbar, DXF-GEOBAU dort Formular → [[kartenportale-geoportale-uebersicht]])
+- [x] K5 Baulinien/Abstandslinien — wo, und wie lesen sie sich in den OEREB? (2026-06-24 Run 9: OGD-WFS 0158/0152/0153/0150/0185, ±150-m-Fenster, Connector `--produkt baulinien`; Benchmarks Langnau 7 / Seuzach 10 → [[kartenportale-baulinien-abstandslinien-zh]])
+- [~] K6 Eigentumsabfrage ObjektwesenZH per EGRID — Ablauf, Datenschutz, Automatisierung? (2026-06-24 Run 9 = A5: Grundbuch-Auskunft nur mit Interessennachweis Art. 970 ZGB, nicht login-frei automatisierbar, manueller Behoerdenweg → [[kartenportale-geoportale-uebersicht]])
 - [x] K7 Nicht-ZH: OEREB-Service-Endpunkte (zuerst SZ) kartieren + in Connector hinterlegen. (SZ via geo-sz.mjs / Skill `oereb-schwyz` geloest; in geo-zh.mjs OEREB_SERVICE.sz hinterlegt)
-- [ ] K8 Welche Geodaten-Formate (GeoPackage, Interlis, DXF, LandXML) wofuer — Kurzleitfaden?
+- [x] K8 Welche Geodaten-Formate (GeoPackage, Interlis, DXF, LandXML) wofuer — Kurzleitfaden? (2026-06-24 Run 9: 7-Format-Tabelle GeoJSON/INTERLIS/DXF/GeoTIFF/XYZ-LAZ/LandXML/GeoPackage → [[kartenportale-geoportale-uebersicht]])
+- [x] A6 Projektierter Zonen-Layer `..._proj_f` an realem Revisionsfall (Vorher/Nachher machbarkeit Typ A). (2026-06-24 Run 9: Seuzach Kat. 2304, Connector meldet ⚠-Revision → [[kartenportale-zonenplan-zh]] §A6)
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])

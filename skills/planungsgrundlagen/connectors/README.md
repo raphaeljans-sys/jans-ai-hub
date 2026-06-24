@@ -169,8 +169,9 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 | `--plz <nnnn>` | optional, schaerft die Adresssuche |
 | `--egrid <CH…>` | EGRID direkt setzen (ueberspringt Geocoding/Identify) |
 | `--oereb` | OEREB-Auszug als PDF herunterladen |
-| `--produkt <liste>` | Zusatz-Geodaten (Komma-Liste): `height`,`orthofoto`,`dtm`,`bauzonen`,`zonenplan` — brauchen Koordinate, also `--adresse` (nicht EGRID-only). Belege: `[[kartenportale-bund-geodaten]]`, `[[kartenportale-zonenplan-zh]]` |
+| `--produkt <liste>` | Zusatz-Geodaten (Komma-Liste): `height`,`orthofoto`,`dtm`,`bauzonen`,`zonenplan`,`baulinien` — brauchen Koordinate, also `--adresse` (nicht EGRID-only). Belege: `[[kartenportale-bund-geodaten]]`, `[[kartenportale-zonenplan-zh]]`, `[[kartenportale-baulinien-abstandslinien-zh]]` |
 | `--download` | bei `orthofoto`/`dtm` die hoechstaufgeloeste Kachel je Jahrgang laden (GeoTIFF, gross) |
+| `--radius <n>` | Suchradius: Meter fuer `baulinien` (default 150), STAC-bbox-Grad fuer `orthofoto`/`dtm` (default 0.0008, adaptiv verdoppelt bei 0 Kacheln) |
 | `--out <dir>` | Zielordner (mehrfach moeglich) |
 | `--kanton <zh>` | OEREB-Service-Kanton (default: aus BFS abgeleitet) |
 | `--json` / `--quiet` | Ausgabesteuerung |
@@ -181,7 +182,11 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 `ch.swisstopo.swissalti3d` (0.5+2 m, +xyz) · `bauzonen` → WMS `ch.are.bauzonen` PNG
 (Achtung WMS 1.3.0 + EPSG:2056 = Achse **N,E**) · `zonenplan` → ZH-OGD-WFS
 `maps.zh.ch/wfs/OGDZHWFS` 0156 Grundnutzung + 0154 ES-Laerm (GeoJSON, login-frei; Mini-BBOX
-±2 m; **BMZ- und AZ-System**; mit `--out` GeoJSON-Ablage). Validiert 2026-06-16 Langnau + Egg.
+±2 m; **BMZ- und AZ-System**; mit `--out` GeoJSON-Ablage; meldet zusaetzlich eine **laufende
+BZO-Revision** ueber den proj-Layer 0156_proj — A6). Validiert 2026-06-16 Langnau + Egg,
+2026-06-24 Seuzach (Revision). · `baulinien` → ZH-OGD-WFS 0158/0152/0153/0150/0185 (Verkehrs-
+baulinie/Wald-/Gewaesserabstand/Waldgrenze/Gewaesserraum; ±150-m-Fenster, weil Linien neben der
+Parzelle liegen). Validiert 2026-06-24 Langnau (7) + Seuzach (10).
 
 ## Dateinamen-Konvention
 
@@ -197,6 +202,13 @@ Der Connector uebernimmt diesen Namen unveraendert.
 - ✓ **Kommunaler ZH-Zonenplan/BZO** via `--produkt zonenplan` umgesetzt (2026-06-16): nicht ueber
   `wms.zh.ch` (401), sondern ueber den login-freien **ZH-OGD-WFS** 0156/0154 (GeoJSON). Liefert
   Zone + BMZ/AZ + Hoehen/VG + ES-Laerm + Rechtsstatus. Damit ist die alte 401-Luecke geschlossen.
+- ✓ **A6 laufende BZO-Revision** (proj-Layer 0156_proj) in `--produkt zonenplan` integriert
+  (2026-06-24): meldet geplante Zone + Phase/Auflage/Dokument (Vorher/Nachher fuer machbarkeit
+  Typ A). Benchmark Seuzach Kat. 2304.
+- ✓ **K5 Baulinien/Abstandslinien** via `--produkt baulinien` umgesetzt (2026-06-24): OGD-WFS
+  0158/0152/0153/0150/0185, ±150-m-Fenster, `--radius` ueberschreibt. Benchmarks Langnau + Seuzach.
+- ✓ **E3 STAC-bbox adaptiv** (2026-06-24): Fenster verdoppelt sich bei 0 Kacheln bis Treffer/Max;
+  in der Praxis Sicherheitsnetz (Kacheln ~1 km treffen meist beim ersten Versuch).
 - EGRID wird **nie erfunden**: bei 0 Treffern bricht der Connector ab (Rule
   `identifikatoren-verifizieren`).
 

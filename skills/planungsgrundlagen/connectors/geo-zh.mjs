@@ -33,9 +33,16 @@
  *                               bauzonen  = harmonisierte Bauzonen CH (ch.are.bauzonen) als PNG
  *                               zonenplan = rechtskraeftige kommunale Grundnutzung Kt. ZH (Zone,
  *                                           BMZ/Gebaeude-/Firsthoehe, Empfindlichkeitsstufe) als
- *                                           Vektor via ZH-OGD-WFS (0156/0154); GeoJSON-Ablage mit --out
- *                             height/orthofoto/dtm/bauzonen/zonenplan brauchen eine Koordinate -> nur mit --adresse
+ *                                           Vektor via ZH-OGD-WFS (0156/0154); GeoJSON-Ablage mit --out.
+ *                                           Meldet zusaetzlich eine LAUFENDE REVISION (proj-Layer 0156)
+ *                                           samt geplanter Zone + Auflage/Festsetzung/Dokument (A6).
+ *                               baulinien = OEREB-Baulinien + Abstandslinien Kt. ZH (Verkehrsbaulinie
+ *                                           0158, Wald-/Gewaesserabstand 0152/0153, Waldgrenze 0150,
+ *                                           Gewaesserraum 0185) im Umkreis (default ±150 m, --radius)
+ *                             height/orthofoto/dtm/bauzonen/zonenplan/baulinien brauchen eine Koordinate -> nur mit --adresse
  *   --download                bei orthofoto/dtm zusaetzlich die hoechstaufgeloesten Kacheln laden
+ *   --radius <n>              Suchradius: Meter fuer baulinien (default 150) bzw. STAC-bbox-Grad
+ *                             fuer orthofoto/dtm (default 0.0008, sonst adaptiv verdoppelt)
  *   --out <dir>              Zielordner (mehrfach moeglich); PDF/PNG/Kacheln werden in jeden gelegt
  *   --kanton <zh|...>         OEREB-Service-Kanton (default: aus BFS abgeleitet, sonst zh)
  *   --json                    Ergebnis als JSON ausgeben
@@ -100,8 +107,19 @@ const STAC_COLL = {
 // Es gibt je Layer ein Pendant `..._proj_f` (projektierte/in Revision befindliche Planung).
 const OGDZH_WFS = "https://maps.zh.ch/wfs/OGDZHWFS";
 const NP_LAYER = {
-  grundnutzung: "ms:ogd-0156_arv_basis_np_gn_zonenflaeche_f", // rechtskraeftige Grundnutzung (Zone)
-  es_laerm:     "ms:ogd-0154_arv_basis_np_ls_festlegung_f",   // Empfindlichkeitsstufe LSV (ES_I..IV)
+  grundnutzung:      "ms:ogd-0156_arv_basis_np_gn_zonenflaeche_f",      // rechtskraeftige Grundnutzung (Zone)
+  grundnutzung_proj: "ms:ogd-0156_arv_basis_np_gn_zonenflaeche_proj_f", // projektierte/in Revision befindliche Grundnutzung (A6)
+  es_laerm:          "ms:ogd-0154_arv_basis_np_ls_festlegung_f",        // Empfindlichkeitsstufe LSV (ES_I..IV)
+};
+// OEREB-Linien/-Flaechen je Parzelle (Baulinien + Abstandslinien), validiert 2026-06-24.
+// Linien liegen NEBEN der Parzelle -> Punktabfrage braucht ein groesseres Fenster (default ±150 m).
+// Je Layer existiert ein `..._proj_l/_f`-Pendant (in Revision); hier die rechtskraeftigen.
+const BAULINIE_LAYER = {
+  baulinie:        "ms:ogd-0158_arv_basis_abstandslinie_baulinie_l",   // kommunale Verkehrsbaulinien (158.1)
+  wald:            "ms:ogd-0152_arv_basis_abstandslinie_wald_l",       // Waldabstandslinien (152.1)
+  gewaesser:       "ms:ogd-0153_arv_basis_abstandslinie_gewaesser_l",  // Gewaesserabstandslinien (153.1)
+  waldgrenze:      "ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_l", // statische Waldgrenze (150.1)
+  gewaesserraum:   "ms:ogd-0185_arv_basis_gewaesserraum_f",            // Gewaesserraum-Flaeche (185.1)
 };
 function ogdWfsUrl(layer, e, n, half = 2) {
   const bbox = `${e - half},${n - half},${e + half},${n + half},urn:ogc:def:crs:EPSG::2056`;
@@ -135,7 +153,53 @@ async function fetchZonenplan(e, n) {
       rechtsstatus: f.properties?.rechtsstatus,
     }));
   } catch { /* ES optional — Grundnutzung ist das Pflichtprodukt */ }
-  return { grundnutzung, es_laerm, layer: NP_LAYER };
+  // A6: laeuft an dieser Parzelle eine BZO-/Nutzungsplan-Revision? Projektierten Layer mitabfragen.
+  // Liefert die geplante Zone + die Revisions-Metadaten (Stand/Auflage/Festsetzung/Genehmigung +
+  // Verweis auf die OEREB-Dokumente) -> Vorher/Nachher fuer machbarkeit Typ A.
+  let grundnutzung_proj = [];
+  try {
+    const gp = await getJson(ogdWfsUrl(NP_LAYER.grundnutzung_proj, e, n));
+    grundnutzung_proj = (gp.features || []).map((f) => {
+      const p = f.properties || {};
+      return {
+        zone_gde: p.typ_gde_abkuerzung, zone_gde_txt: p.typ_gde_bezeichnung,
+        zone_zh: p.typ_zh_abkuerzung, zone_zh_txt: p.typ_zh_bezeichnung,
+        ausnuetzungsziffer_max: p.ausnuetzungsziffer_max, vollgeschosse_max: p.vollgeschosse_max,
+        baumassenziffer_max: p.baumassenziffer_max, gebaeudehoehe_max: p.gebaeudehoehe_max,
+        firsthoehe_max: p.firsthoehe_max, gewerbeanteil_max: p.gewerbeanteil_max,
+        rechtsstatus: p.rechtsstatus, revisionsart: p.revisionsart_txt,
+        auflage: p.auflagedatum, festsetzung: p.festsetzung, genehmigung: p.genehmigung,
+        inkraftsetzung: p.inkraftsetzung, publiziert_ab: p.publiziertab,
+        projektzustand: p.projektzustand, dokument: p.dokument,
+      };
+    });
+  } catch { /* proj optional — die meisten Parzellen haben keine laufende Revision */ }
+  return { grundnutzung, grundnutzung_proj, revision_laeuft: grundnutzung_proj.length > 0, es_laerm, layer: NP_LAYER };
+}
+
+// K5: Baulinien + Abstandslinien (Wald/Gewaesser) + Gewaesserraum an einem LV95-Punkt (nur Kt. ZH).
+// Linien liegen typischerweise NEBEN der Parzelle -> default ±150 m. Liefert je Layer die Treffer
+// mit Typ/Zweck/Rechtsstatus. Belegt: Baulinie 0158 (typ_txt/zweck_txt), Abstand 0152/0153
+// (typ_txt + Distanz in typ_bemerkungen), Waldgrenze 0150, Gewaesserraum 0185.
+async function fetchBaulinien(e, n, half = 150) {
+  const out = {};
+  for (const [key, layer] of Object.entries(BAULINIE_LAYER)) {
+    try {
+      const d = await getJson(ogdWfsUrl(layer, e, n, half));
+      out[key] = (d.features || []).map((f) => {
+        const p = f.properties || {};
+        return {
+          typ: p.typ_txt || p.typ || p.gewaesserraumfestlegung_txt || null,
+          zweck: p.zweck_txt || p.zweck || p.art_txt || null,
+          bemerkung: p.typ_bemerkungen || p.bemerkungen || null,
+          rechtsstatus: p.rechtsstatus || p.rechtsstatus_txt || p.inkraftsetzung_txt || null,
+          gemeinde: p.gemeindename || null,
+        };
+      });
+    } catch { out[key] = []; }
+  }
+  const total = Object.values(out).reduce((s, a) => s + a.length, 0);
+  return { ...out, treffer: total, radius_m: half };
 }
 // bevorzugte Datei-Endung je Produkt (stacAssets-Fallback: .tif, sonst erstes Asset)
 const STAC_PREF = { gebaeude: ".dxf.zip", punktwolke: ".laz" };
@@ -303,7 +367,18 @@ function isoDate() {
               L(`   height: ${d.height} m ue.M.`);
             } else if (prod === "orthofoto" || prod === "dtm" || prod === "gebaeude" || prod === "punktwolke") {
               const coll = STAC_COLL[prod];
-              const fc = await getJson(GEO_ADMIN.stac(coll, c.lon, c.lat));
+              // E3: bbox-Radius adaptiv. Start am Punktfenster (~0.0008 Grad); bringt das 0 Kacheln
+              // (grosse Parzelle, Punkt zwischen Kacheln, Kachelraster-Luecke), Fenster verdoppeln
+              // bis Treffer oder Max (~0.0064 Grad ~ 0.5-1 km). Verhindert leere Antworten ohne
+              // unnoetig viele Nachbarkacheln bei normalen Parzellen einzusammeln.
+              let fc, d = a.radius ? Number(a.radius) : 0.0008;
+              const dMax = 0.0064;
+              for (;;) {
+                fc = await getJson(GEO_ADMIN.stac(coll, c.lon, c.lat, d));
+                if ((fc.features || []).length || d >= dMax) break;
+                d *= 2;
+                L(`     ${prod}: 0 Kacheln bei d=${(d / 2).toFixed(4)} -> Fenster auf d=${d.toFixed(4)} erweitert`);
+              }
               const items = stacAssets(fc.features, STAC_PREF[prod]).filter((i) => i.best);
               result.produkte[prod] = { collection: coll, items: items.map((i) => ({ id: i.id, best: i.best })) };
               L(`   ${prod}: ${items.length} Kachel(n)/Jahrgang -> ${items.map((i) => i.id).join(", ") || "keine"}`);
@@ -343,6 +418,11 @@ function isoDate() {
               L(zg
                 ? `   zonenplan: ${zg.zone_gde} (${zg.zone_zh}) · ${dichte} · ${z.es_laerm[0]?.es ?? "ES?"} · ${zg.rechtsstatus}${mehr}`
                 : `   zonenplan: keine Grundnutzung an der Koordinate getroffen`);
+              // A6: laufende Revision an dieser Parzelle melden (Vorher/Nachher fuer machbarkeit Typ A)
+              if (z.revision_laeuft) {
+                const zp = z.grundnutzung_proj[0];
+                L(`   ⚠ LAUFENDE REVISION: projektiert ${zp.zone_gde ?? "–"} (${zp.zone_gde_txt ?? ""}) · ${zp.rechtsstatus}${zp.revisionsart ? " · " + zp.revisionsart : ""}${zp.auflage ? " · Auflage " + String(zp.auflage).slice(0, 10) : ""}${zp.dokument ? " · Dok: " + zp.dokument : ""}`);
+              }
               // GeoJSON-Zusammenfassung nur bei explizitem --out ablegen (kein cwd-Muell)
               if (a.out.length) {
                 const fn = `Zonenplan-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
@@ -352,8 +432,29 @@ function isoDate() {
                   L(`     -> ${dest}`);
                 }
               }
+            } else if (prod === "baulinien") {
+              if (result.kanton !== "zh") throw new Error(`baulinien ist nur fuer Kt. ZH hinterlegt (Kanton ${result.kanton})`);
+              const half = a.radius ? Number(a.radius) : 150;
+              const b = await fetchBaulinien(c.east, c.north, half);
+              result.produkte.baulinien = b;
+              const teile = [
+                b.baulinie.length && `${b.baulinie.length} Baulinie`,
+                b.wald.length && `${b.wald.length} Waldabstand`,
+                b.gewaesser.length && `${b.gewaesser.length} Gewaesserabstand`,
+                b.waldgrenze.length && `${b.waldgrenze.length} Waldgrenze`,
+                b.gewaesserraum.length && `${b.gewaesserraum.length} Gewaesserraum`,
+              ].filter(Boolean);
+              L(`   baulinien (±${half}m): ${teile.length ? teile.join(" · ") : "keine Linien/Abstaende im Fenster"}`);
+              if (a.out.length) {
+                const fn = `Baulinien-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
+                for (const dir of a.out) {
+                  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+                  const dest = join(dir, fn); writeFileSync(dest, JSON.stringify(b, null, 2)); result.files.push(dest);
+                  L(`     -> ${dest}`);
+                }
+              }
             } else {
-              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen,zonenplan)`);
+              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen,zonenplan,baulinien)`);
             }
           } catch (e) {
             result.produkte[prod] = { error: e.message };
