@@ -6,7 +6,8 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 35 Destillate; Prio-1/Solar-Block erschoepft; **2026-06-23 Regenwasser-Versickerung (endk.ch) destilliert** — lokale PDF-Reste nur noch FEZ-/Kursflyer (geringe Uebertragbarkeit); offen primaer Web (Foerder-Broschuere CHF-Saetze S.30-38, Swissolar Solarmonitor) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 37 Destillate; Prio-1/Solar-Block erschoepft; lokale PDF-Reste nur noch FEZ-/Kursflyer (geringe Uebertragbarkeit); **kuenftig primaer Web** (Foerder-Broschuere CHF-Saetze S.30-38, Swissolar Solarmonitor, PV-Ertrag je Ausrichtung) |
+| SIA 181:2020 Schallschutz Anforderungswerte | Web (baumann akustik & bauphysik, Zusammenfassung Anhang A) | destilliert 2026-06-24 | Luft-/Tritt-/Haustechnik-/Aussenlaerm-Tabellen → `[[sia-181-schallschutz-anforderungswerte]]` (FAQ F25, schliesst E11/A8) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |

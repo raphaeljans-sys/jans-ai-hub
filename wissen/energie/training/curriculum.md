@@ -28,6 +28,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [~] A7 Naturdaemmstoffe/zirkulaeres Bauen in der Praxis — Seed 2026-06-13 via Werkhof29-Dossier
   (Stroh-Daemmung, Lehmputz, Re-use, Areal-PV) → `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`.
   Offen: Bemessungs-λ Stroh, Brand/Feuchte, ZEV/Solarsplit-Modell.
+- [x] A8 Schallschutz im Hochbau SIA 181:2020 — Anforderungswerte belegt 2026-06-24 via Zusammenfassung
+  baumann akustik & bauphysik (Luftschall Di / Trittschall L' / Haustechnik LH / Aussenlaerm De je
+  Empfindlichkeit × Stoergrad; erhoeht +4 dB innen / +3 dB aussen; EFH/Reihen-EFH/STWEG = erhoehte
+  Aussenlaerm-Anforderung; Bauwert ≠ Laborwert/Flanke) → `[[sia-181-schallschutz-anforderungswerte]]`,
+  `[[schallschutz-sia181]]` (FAQ F25). Offen: Flankendetails Holzbau (Lignum).
 
 ## Block B — Nachweis & Recht (ZH)
 - [x] B1 ZH-Energienachweis EN-ZH: welches Formular wann — belegt 2026-06-07 via EN-ZH-005
