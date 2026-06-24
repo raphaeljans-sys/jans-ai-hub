@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4 portrait; margin: 12mm 13mm 10mm 13mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; color: #20242b; font-size: 9.3pt; line-height: 1.28; }
+  .accent { color: #b5651d; }
+  .muted { color: #6b7280; }
+
+  /* Header */
+  .head { border-bottom: 2.5px solid #20242b; padding-bottom: 5px; margin-bottom: 9px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .head h1 { font-size: 17.5pt; font-weight: 800; letter-spacing: .2px; line-height: 1.05; }
+  .head .sub { font-size: 9pt; color: #6b7280; margin-top: 2px; }
+  .head .brand { text-align: right; font-size: 8pt; color: #6b7280; line-height: 1.35; }
+  .head .brand b { color: #20242b; font-size: 9pt; }
+
+  /* KPI row */
+  .kpis { display: flex; gap: 7px; margin-bottom: 10px; }
+  .kpi { flex: 1; border: 1px solid #d7dbe0; border-radius: 6px; padding: 8px 10px; }
+  .kpi.dark { background: #20242b; border-color: #20242b; color: #fff; }
+  .kpi.hot { background: #fbf2e8; border-color: #e7c39c; }
+  .kpi .lbl { font-size: 7.6pt; text-transform: uppercase; letter-spacing: .6px; color: #6b7280; }
+  .kpi.dark .lbl { color: #b9c0cc; }
+  .kpi .val { font-size: 16pt; font-weight: 800; margin-top: 3px; line-height: 1; }
+  .kpi .note { font-size: 7.6pt; color: #6b7280; margin-top: 3px; }
+  .kpi.dark .note { color: #b9c0cc; }
+
+  h2 { font-size: 10pt; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; margin: 9px 0 5px; padding-left: 8px; border-left: 4px solid #b5651d; }
+  h2 .h2note { font-weight: 600; text-transform: none; letter-spacing: 0; color: #6b7280; font-size: 8pt; }
+
+  table { width: 100%; border-collapse: collapse; }
+  th { font-size: 7.5pt; text-transform: uppercase; letter-spacing: .4px; color: #6b7280; text-align: left; padding: 0 6px 3px; border-bottom: 1px solid #d7dbe0; font-weight: 700; }
+  td { padding: 3.5px 6px; border-bottom: 1px solid #eceef1; vertical-align: middle; }
+  .bauteil { font-weight: 700; }
+  .bezug { font-size: 7.7pt; color: #6b7280; }
+  .chf { font-weight: 800; text-align: right; white-space: nowrap; }
+  .pt { font-size: 7.6pt; color: #6b7280; text-align: right; white-space: nowrap; }
+
+  /* band bar */
+  .track { position: relative; height: 13px; background: #eef0f3; border-radius: 3px; width: 150px; }
+  .band { position: absolute; top: 0; height: 13px; background: #d99a5b; border-radius: 3px; }
+  .band.cond { background: #e8c9a6; }
+  .marker { position: absolute; top: -1px; height: 15px; width: 2.5px; background: #20242b; border-radius: 1px; }
+  .badge { display: inline-block; font-size: 7pt; font-weight: 700; padding: 1px 5px; border-radius: 8px; background: #eef0f3; color: #4b5563; white-space: nowrap; }
+  .badge.now { background: #f6dfca; color: #9a4a12; }
+  .badge.cond { background: #eef0f3; color: #6b7280; }
+
+  .subtotal td { border-top: 1.5px solid #20242b; border-bottom: none; padding-top: 5px; font-weight: 800; }
+
+  /* comparison */
+  .cmp { margin-top: 4px; }
+  .cmpbar { display: flex; height: 30px; border-radius: 5px; overflow: hidden; border: 1px solid #d7dbe0; }
+  .seg { display: flex; align-items: center; justify-content: center; color: #fff; font-size: 8.2pt; font-weight: 800; }
+  .seg.kauf { background: #20242b; }
+  .seg.pflicht { background: #b5651d; }
+  .seg.option { background: #d99a5b; }
+  .seg.rest { background: #f4f5f7; color: #9aa1ac; }
+  .cmpleg { display: flex; gap: 14px; margin-top: 5px; font-size: 7.8pt; color: #4b5563; }
+  .cmpleg i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+
+  /* timeline */
+  .tl { position: relative; height: 64px; margin: 8px 4px 2px; }
+  .tlline { position: absolute; top: 20px; left: 2%; right: 2%; height: 2px; background: #d7dbe0; }
+  .tlpt { position: absolute; transform: translateX(-50%); text-align: center; width: 104px; }
+  .tlpt .yr { font-size: 7.7pt; font-weight: 800; height: 12px; }
+  .tlpt .dot { width: 11px; height: 11px; border-radius: 50%; background: #b5651d; margin: 3px auto 0; border: 2px solid #fff; outline: 1.5px solid #b5651d; }
+  .tlpt .ev { font-size: 7.3pt; color: #4b5563; line-height: 1.16; margin-top: 5px; }
+
+  .foot { margin-top: 9px; border-top: 1px solid #d7dbe0; padding-top: 6px; font-size: 7.4pt; color: #6b7280; line-height: 1.32; }
+  .foot b { color: #20242b; }
+  .cols { display: flex; gap: 16px; }
+  .cols > div { flex: 1; }
+</style>
+</head>
+<body>
+
+  <div class="head">
+    <div>
+      <h1>Folgekosten nach Erwerb</h1>
+      <div class="sub">Bahnhofstrasse 27, 8855 Wangen SZ &middot; Parz. 25 &middot; gemischtes MFH (Altbau, ~1979)</div>
+    </div>
+    <div class="brand">
+      <b>RAPHAEL JANS ARCHITEKTEN ETH/SIA</b><br>
+      Studie 2622 &middot; Grobkostenschätzung<br>
+      Stand 19.06.2026 &middot; nach Besichtigung
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="lbl">Erwerbskosten Gebäude (Referenz)</div>
+      <div class="val">CHF 3.0 Mio</div>
+      <div class="note">JANS-Kaufempfehlung; Angebot 3.1 / Bank 2.9</div>
+    </div>
+    <div class="kpi hot">
+      <div class="lbl accent">Folgekosten 5–10 Jahre</div>
+      <div class="val accent">CHF 0.95–1.6 Mio</div>
+      <div class="note">Pflicht-Instandsetzung + Dachausbau (±25 %)</div>
+    </div>
+    <div class="kpi dark">
+      <div class="lbl">Anteil am Kaufpreis</div>
+      <div class="val">≈ 31–53 %</div>
+      <div class="note">on top — Punktwert rund 42 %</div>
+    </div>
+  </div>
+
+  <h2>A &nbsp; Instandsetzung Bestand <span class="h2note">— notwendig/empfohlen, unabhängig vom Dachausbau</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:24%">Bauteil</th>
+        <th style="width:20%">Bezug &middot; Flächenkennwert</th>
+        <th style="width:11%">Horizont</th>
+        <th style="width:23%">Bandbreite</th>
+        <th style="width:22%; text-align:right">Kosten CHF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bauteil">Fenster (Ersatz)</td>
+        <td class="bezug">~150 m² &middot; 900–1'300/m²</td>
+        <td><span class="badge now">~5 J fällig</span></td>
+        <td><div class="track"><div class="band" style="left:67.5%; width:30%"></div><div class="marker" style="left:82.5%"></div></div></td>
+        <td class="chf">135'000–195'000<div class="pt">Ø 165'000</div></td>
+      </tr>
+      <tr>
+        <td class="bauteil">Dach (Eindeckung + Nachdämmung)</td>
+        <td class="bezug">~300 m² &middot; 350–600/m²</td>
+        <td><span class="badge now">akut–mittel</span></td>
+        <td><div class="track"><div class="band" style="left:52.5%; width:37.5%"></div><div class="marker" style="left:72.5%"></div></div></td>
+        <td class="chf">105'000–180'000<div class="pt">Ø 145'000</div></td>
+      </tr>
+      <tr>
+        <td class="bauteil">Wärmeerzeugung (Öl → Fernwärme)</td>
+        <td class="bezug">~45 kW &middot; inkl. Tankraum-Rückbau</td>
+        <td><span class="badge">~10 J</span></td>
+        <td><div class="track"><div class="band" style="left:25%; width:20%"></div><div class="marker" style="left:35%"></div></div></td>
+        <td class="chf">50'000–90'000<div class="pt">Ø 70'000</div></td>
+      </tr>
+      <tr>
+        <td class="bauteil">Wärmeverteilung (Radiat. + Leitungen)</td>
+        <td class="bezug">~720 m² EBF &middot; 130–260/m²</td>
+        <td><span class="badge cond">bedingt¹</span></td>
+        <td><div class="track"><div class="band cond" style="left:47.5%; width:47.5%"></div><div class="marker" style="left:70%"></div></div></td>
+        <td class="chf">95'000–190'000<div class="pt">Ø 140'000</div></td>
+      </tr>
+      <tr>
+        <td class="bauteil">Sanitär (Steig-/Leitsystem)</td>
+        <td class="bezug">538 m² HNF &middot; 130–280/m²</td>
+        <td><span class="badge cond">bedingt²</span></td>
+        <td><div class="track"><div class="band cond" style="left:35%; width:40%"></div><div class="marker" style="left:55%"></div></div></td>
+        <td class="chf">70'000–150'000<div class="pt">Ø 110'000</div></td>
+      </tr>
+      <tr>
+        <td class="bauteil">Elektro</td>
+        <td class="bezug">Zustand gut — nur Anpassung</td>
+        <td><span class="badge">gering</span></td>
+        <td><div class="track"><div class="band" style="left:0%; width:15%"></div><div class="marker" style="left:7.5%"></div></div></td>
+        <td class="chf">0–30'000<div class="pt">Ø 15'000</div></td>
+      </tr>
+      <tr class="subtotal">
+        <td colspan="4">Zwischentotal A — Instandsetzung Bestand</td>
+        <td class="chf accent">rund 0.46–0.84 Mio</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>B &nbsp; Dachausbau <span class="h2note">— optional, Wertentwicklung: Maisonette WHG 3 (OG2+DG) → zwei Wohnungen</span></h2>
+  <table>
+    <tbody>
+      <tr>
+        <td style="width:24%" class="bauteil">Umbau zu 2 Einheiten</td>
+        <td style="width:20%" class="bezug">195.7 m² HNF &middot; 2'400–3'840/m²</td>
+        <td style="width:11%"><span class="badge">Projekt</span></td>
+        <td style="width:23%"><div class="track" style="width:150px"><div class="band" style="left:30%; width:62%"></div><div class="marker" style="left:62.5%"></div></div></td>
+        <td style="width:22%" class="chf">470'000–750'000<div class="pt">Ø 600'000</div></td>
+      </tr>
+      <tr class="subtotal">
+        <td colspan="4">Zwischentotal B — Dachausbau <span class="muted" style="font-weight:600">(Wüest-Umbaukennwert = Neubau 4'800/m² × Eingriffstiefe 50–80 %)</span></td>
+        <td class="chf accent">rund 0.47–0.75 Mio</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Kaufpreis und Folgekosten im Verhältnis</h2>
+  <div class="cmp">
+    <div class="cmpbar">
+      <div class="seg kauf" style="width:65.2%">Kaufpreis 3.0 Mio</div>
+      <div class="seg pflicht" style="width:14.0%">+0.65</div>
+      <div class="seg option" style="width:13.0%">+0.60</div>
+      <div class="seg rest" style="width:7.8%">≈ 4.25</div>
+    </div>
+    <div class="cmpleg">
+      <span><i style="background:#20242b"></i>Erwerb Gebäude</span>
+      <span><i style="background:#b5651d"></i>A — Instandsetzung (Pflicht, Ø)</span>
+      <span><i style="background:#d99a5b"></i>B — Dachausbau (optional, Ø)</span>
+      <span class="muted">Total Investition gerundet ≈ CHF 4.25 Mio</span>
+    </div>
+  </div>
+
+  <h2>Wann fällt was an? <span class="h2note">— Zeithorizont</span></h2>
+  <div class="tl">
+    <div class="tlline"></div>
+    <div class="tlpt" style="left:9%"><div class="yr">jetzt–2 J</div><div class="dot"></div><div class="ev"><b>Dach</b><br>Nachdämmung,<br>Überhitzung</div></div>
+    <div class="tlpt" style="left:36%"><div class="yr">~5 J</div><div class="dot"></div><div class="ev"><b>Fenster</b><br>Ersatz (47 J alt)</div></div>
+    <div class="tlpt" style="left:63%"><div class="yr">5–8 J</div><div class="dot"></div><div class="ev"><b>Sanitär / Verteilung</b><br>mit Dachausbau<br>bzw. Heizung</div></div>
+    <div class="tlpt" style="left:90%"><div class="yr">~10 J</div><div class="dot"></div><div class="ev"><b>Heizung</b><br>Öl-Ersatz (20 J)</div></div>
+  </div>
+
+  <div class="foot">
+    <div class="cols">
+      <div>
+        <b>Methodik &amp; Quellen.</b> Flächenkennwerte-Ansatz (Bezugsfläche × CHF/Einheit), BKP 1–5, inkl. MwSt, Preisstand 2026, Deutschschweiz.
+        Dachausbau nach <b>Wüest-Umbaulogik</b>: Neubaukennwert Wohnen MFH ~4'800/m² HNF (Wüest Dimensions 2022 + SIA 2020, teuerungsbereinigt)
+        × Eingriffstiefe-Faktor. Flächen aus GRULER-Vermessung 14.01.2026; Zustände aus Besichtigung 19.06.2026.
+        Bauteil-Erneuerungskennwerte = JANS-Marktorientierung (keine Submissionswerte).
+      </div>
+      <div>
+        <b>¹ Wärmeverteilung</b> nur bei Anschluss an Fernwärmeverbund (Niedertemperatur-Inkompatibilität der Altanlage).
+        <b>² Sanitär</b> Vollersatz Leitsystem v. a. bei Realisierung Dachausbau.
+        <b>Überschneidung:</b> bei gemeinsamer Ausführung sind Teile von Sanitär/Dach-Dämmung im DG bereits in B enthalten → ca. 50'000–100'000 nicht doppelt budgetieren.
+        <b>Vorbehalt:</b> Grobschätzung ±25 %, keine Kostengarantie; ersetzt keine Submission. Fotos der Besichtigung noch nicht ausgewertet.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
