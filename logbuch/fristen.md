@@ -3,7 +3,7 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 24.06.2026
+Stand: 24.06.2026 (UBS-Vertragsdokumente eingetroffen)
 
 ## Aktiv
 
@@ -22,7 +22,7 @@ Stand: 24.06.2026
 | 22.06.2026 | Dr. D. Chaled (22.06.) zum KV Dachausbau/Folgekosten Bahnhofstrasse: zwei Banken bestaetigen den Preis (~2.9-3.16 Mio) — Rueckmeldung/naechster Schritt offen | mail | Bahnhofstrasse | tief | nachfassen |
 | 23.06.2026 | Mittagessen-Vorschlag M. Prencipe (Mail 17.06.) — Antwort/Termin noch offen | mail | Netzwerk | tief | nachfassen |
 | 24.06.2026 | KISPI PPTS: Brandschutz Auflagebereinigung, Rueckmeldung L. Merci — 09:00–09:30 (Teams), mit L. Merci (KISPI) + J. Ziegel (Gruner) | kalender | 2619 KISPI | mittel | Termin |
-| 25.06.2026 | AG JANS Gruendung — UBS key4 business: Vertragsdokumente Kapitaleinzahlungskonto erwarten (~3 AT ab 21.06., Postfach mail@raphaeljans.ch). Bei Eingang drucken/unterschreiben/per Post zurueck, dann CHF 50'000 einzahlen. Danach UBS-Kapitalbescheinigung (Einschreiben) abwarten — sie ist Voraussetzung fuer die Beurkundung | spec/mail | AG JANS Gruendung | hoch | beobachten |
+| 24.06.2026 | AG JANS Gruendung — UBS-Vertragsdokumente EINGETROFFEN (B. Jeckelmann, 23.06. 09:25, Postfach mail@): «Antrag Kapitaleinzahlungskonto» (PDF), Adressblatt, Video-ID-Anleitung. AKTION Raphael: (1) Video-ID mit Smartphone, (2) Formular ausdrucken/durchlesen, (3) auf Seite 3 unterschreiben, (4) Original-Formular + Adressblatt per POST zurueck (NICHT in Geschaeftsstelle abgeben). ACHTUNG: Formular lautet auf «JANS AG» = der vom Notariat als gefaehrdet gemeldete Name → Namensentscheid VOR dem Unterschreiben klaeren (UBS erlaubt manuelle Korrektur ohne Tipp-Ex; Kapitalbescheinigung muss auf den definitiven Firmennamen lauten). Danach: IBAN in ~3 AT, CHF 50'000 per Bank-/Postueberweisung (keine Bareinzahlung), dann Kapitalbescheinigung per Einschreiben (~2 AT) = Voraussetzung fuer Beurkundung | spec/mail | AG JANS Gruendung | hoch | offen |
 | 24.06.2026 | AG JANS Gruendung — FIRMENNAME GEFAEHRDET: Notariat Wiedikon-Zuerich (M. Mathies, 22.06.) hat vorgeprueft und meldet, dass bereits eine «JANS GmbH» im HR eingetragen ist. Gemaess Weisung Firmenidentitaet (Ziff. IV) hat der Rechtsformzusatz AG/GmbH KEINE Unterscheidungskraft → Risiko, dass «JANS AG» vom HRA nicht zugelassen wird. Notariat empfiehlt alternativen Firmennamen (z.B. mit unterscheidungskraeftigem Zusatz «JANS Architektur AG» o.ae.). AKTION Raphael: (1) Alternativnamen waehlen → Claude prueft ihn vorgaengig gegen HR; danach Belegset auf neuen Namen anpassen + Korrektur; (2) dem Notariat die Word-Dateien Urkunde + Statuten senden. Beurkundungstermin erst NACH UBS-Kapitalbescheinigung | spec/mail | AG JANS Gruendung | hoch | nachfassen |
 | offen | AG JANS Gruendung — nach HR-Eintrag: UBS informieren (sh-cic-onboarding-newclients@ubs.com) → operatives Firmenkonto; danach AHV/BVG/UVG/MWST + Betriebs-/Berufshaftpflicht (vor erstem GU-Mandat). Voller Stand: wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md | spec | AG JANS Gruendung | mittel | beobachten |
 | 10.07.2026 | JANS DATENAUSTAUSCH (SharePoint-Gastzugriff): 6 Gruner-Personen (J. Simmen, M. Eren, B. Kuebler u.a.) verlieren am 10.07. den Zugriff — bei Bedarf Gastfreigaben verlaengern (Microsoft-Warnung 21.06.) | mail/infrastruktur | 2619 KISPI | tief | beobachten |
