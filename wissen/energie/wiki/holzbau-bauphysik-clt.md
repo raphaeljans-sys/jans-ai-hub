@@ -1,9 +1,9 @@
 ---
 title: Holzbau-Bauphysik — CLT / Brettsperrholz (Waerme, Luftdicht, Feuchte)
 status: established
-last_updated: 2026-06-13
-sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[graue-energie]]
+last_updated: 2026-06-24
+sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md, destillate/sia-181-schallschutz-anforderungswerte.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[graue-energie]], [[schallschutz-sia181]]
 ---
 
 # Holzbau-Bauphysik — CLT / Brettsperrholz
@@ -79,17 +79,19 @@ kommen aus **mehrschaligen, entkoppelten, beschwerten** Aufbauten. Aus dem Stora
 - **Trittschall (Achillesferse der Holzdecke):** schwimmender Estrich auf EPS allein = L'_n,w 60
   (zu viel). Hebel: **gebundene Kies-Schuettung** (Beschwerung, → 51) + **abgehaengte Decke auf
   Schwingbuegel** (→ ~46).
-- **CH-Norm SIA 181** verlangt **Bauwerte am Bau** (D_nT/L'_nT inkl. Flanke), nicht Labor-R_w. Im
-  Holzbau ist die **Flankenuebertragung** (durchlaufende Scheiben, Stoesse) kritisch und kostet
-  3-8 dB → Labor-Reserve einplanen + Stoesse elastisch entkoppeln (SIA-181-Zahlen noch zu belegen).
+- **CH-Norm SIA 181:2020** verlangt **Bauwerte am Bau** (D_nT/L'_nT inkl. Flanke), nicht Labor-R_w.
+  Anforderung Wohnungstrennung (mittel, Stoergrad maessig): **D_i ≥ 52 dB** (erhoeht 56) / **L' ≤ 53 dB**
+  (erhoeht 49) → `[[schallschutz-sia181]]`, `[[sia-181-schallschutz-anforderungswerte]]`. Im Holzbau ist
+  die **Flankenuebertragung** (durchlaufende Scheiben, Stoesse) kritisch und kostet 3-8 dB → Labor-R_w
+  mit Reserve **≥ 56-58** + Stoesse elastisch entkoppeln.
 - **Synergie:** Schall-Zusatzschichten heben oft zugleich REI (GKF) und senken U (MW-Installationsebene)
   — Schall/Brand/Waerme zusammen planen.
 
 ## Abgrenzung
 - **Brandschutz** (Kapselung, REI/EI-Klassen CH, Sichtholz-Anteil, Abbrand) → Skill `brandschutz`.
 - **PV auf Holzbau** (DC-Leitung im Tragwerk in RF1-Rohr ohne PVC) → `[[pv-solar-technologien]]` / F16.
-- **Schallschutz-Anschlussdetails/Flanke** (Lignum-Dokumentation CH) + exakte SIA-181-Anforderungswerte
-  noch nicht in der KB → Folgelaeufe.
+- **SIA-181:2020-Anforderungswerte** jetzt belegt → `[[schallschutz-sia181]]`. Offen nur noch die
+  **Schallschutz-Anschlussdetails/Flanke** (Lignum-Dokumentation CH, konkrete Stoss-Loesungen) → Folgelauf.
 
 ## Quelle
 «CLT by Stora Enso — Technische Dokumentation: Bauphysik» (Version 06.2021), Kap. 1-3 →

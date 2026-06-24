@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-23
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md]
+last_updated: 2026-06-24
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md]
 links: [[INDEX]]
 ---
 
@@ -505,17 +505,21 @@ Aus dem Stora-Enso-Bauteilkatalog (Labor-Einzahlwerte):
 Drei Regeln: (1) **Trennwand zwischen Wohnungen/Zimmern zweischalig** (Ziel R_w ≥ 58 im Labor),
 (2) **Geschossdecke = schwimmender, beschwerter Boden + abgehaengte Decke** (Ziel L'_n,w ≤ 50),
 (3) **Sichtbare CLT-Decke ueber Wohnraeumen** ist der akustisch schwierigste Fall — frueh mit dem
-Bauphysiker klaeren. **Wichtig:** massgebend ist die CH-Norm **SIA 181** mit **Bauwerten am Bau**
-(inkl. **Flankenuebertragung**) — die liegen unter den Laborwerten, im Holzbau wegen durchlaufender
-Scheiben/Stoesse teils 3-8 dB. Deshalb Labor-Reserve einplanen und die Bauteilstoesse elastisch
-entkoppeln. Bonus: die Schall-Zusatzschichten verbessern oft gleichzeitig **Brandschutz** (GKF hebt
+Bauphysiker klaeren. **Wichtig:** massgebend ist die CH-Norm **SIA 181:2020** mit **Bauwerten am Bau**
+(D_nT,w / L'_nT,w inkl. **Flankenuebertragung**) — die liegen unter den Laborwerten, im Holzbau wegen
+durchlaufender Scheiben/Stoesse teils 3-8 dB. Konkret verlangt SIA 181 fuer eine **Wohnungstrennung**
+(mittlere Empfindlichkeit, Stoergrad maessig) **Luftschall D_i ≥ 52 dB** (erhoeht 56) und **Trittschall
+L' ≤ 53 dB** (erhoeht 49) — also muss der Labor-R_w einer Trennwand mit Reserve **≥ 56-58** liegen, was
+die zweischalige CLT-Loesung erklaert (vgl. F25, `[[sia-181-schallschutz-anforderungswerte]]`). Deshalb
+Labor-Reserve einplanen und die Bauteilstoesse elastisch entkoppeln. Bonus: die Schall-Zusatzschichten verbessern oft gleichzeitig **Brandschutz** (GKF hebt
 den Feuerwiderstand) und **Waermeschutz** (Installationsebene mit Mineralwolle senkt den U-Wert).
 
 **Quelle:** «CLT by Stora Enso — Bauphysik» (06.2021), Kap. 4 Innenwand/Trennwand/Deckenelement
 (S. 98-164) → `[[clt-schallschutz-stora-enso]]`; Themenartikel → `[[holzbau-bauphysik-clt]]`.
-⚠ **Datenstand 2026-06-13:** R_w/L'_n,w sind Hersteller-Laborwerte (2021); SIA-181-Anforderungswerte
-und CH-Anschlussdetails (Lignum) noch zu belegen — vor Zusagen am Projekt mit dem Bauphysiker/der
-gueltigen SIA 181 abgleichen. CLT-Brandschutz im Detail → Skill `brandschutz`.
+⚠ **Datenstand 2026-06-24:** R_w/L'_n,w sind Hersteller-Laborwerte (2021); **SIA-181:2020-Anforderungs-
+werte jetzt belegt** → `[[sia-181-schallschutz-anforderungswerte]]` / F25. Offen nur noch die konkreten
+CH-Anschlussdetails/Flankenwerte im Holzbau (Lignum) — vor Zusagen am Projekt mit dem Bauphysiker
+abgleichen. CLT-Brandschutz im Detail → Skill `brandschutz`.
 
 ---
 
@@ -804,6 +808,48 @@ Wasserrecht (GSchG/GSchV) → Skill `baurecht`.
 
 ---
 
+## F25 — «Welcher Schallschutz ist Pflicht — wie laut darf der Nachbar oder die Haustechnik sein?»
+
+**Kurz:** Massgebend ist die Norm **SIA 181**. Fuer eine Wohnungstrennung im Wohnbau heisst das grob:
+Luftschall **mind. ~52 dB** (Komfort 56), Trittschall **hoechstens ~53 dB** (Komfort 49), und eine
+Haustechnik wie die Waermepumpe darf im Schlafzimmer nachts **nicht ueber ~28 dB(A)** brummen. **Wichtig:
+Bei Einfamilien-, Reihen- und Stockwerkeigentum gelten gegen Strassenlaerm automatisch die hoeheren
+Anforderungen** — den hoeheren Komfort *innerhalb* des Hauses muss man dagegen **vertraglich** verlangen.
+
+**Fachlich:** SIA 181:2020 bewertet immer den **Empfangsraum** (wo man gestoert wird) ueber seine
+**Laermempfindlichkeit** (gering / mittel = Wohnen/Schlafen/Buero / hoch = Spital-/Heim-Ruheraum) und den
+**Stoergrad** der Quelle (klein/maessig/stark/sehr stark). Es gibt zwei Niveaus — **Mindest** (Gesetz)
+und **erhoeht** (Komfort), Abstand seit 2020 **4 dB** innen / **3 dB** aussen. Richtwerte Wohnen
+(mittlere Empfindlichkeit):
+
+| Schutzziel | Mindest | erhoeht | Regel |
+|---|---|---|---|
+| Luftschall Wohnungstrennung D_i (Stoergrad maessig) | 52 dB | 56 | groesser = besser |
+| Trittschall Wohnungstrennung L' (maessig) | 53 dB | 49 | kleiner = besser |
+| Haustechnik Dauergeraeusch Schlafraum L_H | 28 dB(A) | 25 | Kleinstwert 25 dB |
+| Aussenlaerm ruhige Lage D_e | 27 dB | 30 | im Verkehr L_r − 33 |
+
+Drei Dinge, die der Bauherr wissen muss:
+- **Die Mindestwerte sind nicht verhandelbar** — sie sind Stand der Technik und auch ohne Vertrag
+  geschuldet. Bei **EFH/Reihen-EFH/STWEG gilt gegen Aussenlaerm zwingend das erhoehte Niveau**.
+  Wer **Wohnungstrennungs-Komfort** will (kein Trittschall von oben), vereinbart die **erhoehten
+  Anforderungen im Werkvertrag/Kaufvertrag** — sonst liefert der Unternehmer nur das Minimum.
+- **Norm misst am fertigen Bau, nicht im Labor:** verlangt ist D_nT,w / L'_nT,w **inkl.
+  Flankenuebertragung**. Das Labor-R_w eines Bauteils muss mit **Reserve** darueber liegen — im
+  **Holzbau wegen Flanke 3–8 dB** (vgl. F17, `[[clt-schallschutz-stora-enso]]`).
+- **Haustechnik ist der haeufigste Streit:** Waermepumpe, Lueftung, Sanitaer, Dachentwaesserung. Die
+  WP-Aufstellung wird durch den **28-dB(A)-Wert** im Schlafraum diszipliniert (vgl. Laermschutznachweis
+  LN-1 beim Heizungsersatz, F14). Grundriss frueh stapeln: Schlafraum nicht ueber Lift/Technik.
+
+**Quelle:** SIA 181:2020 «Schallschutz im Hochbau», Anforderungswerte (Zusammenfassung Anhang A,
+baumann akustik & bauphysik) → `[[sia-181-schallschutz-anforderungswerte]]`; Themenartikel →
+`[[schallschutz-sia181]]`; Holzbau-Flanke → `[[clt-schallschutz-stora-enso]]` / F17.
+⚠ **Datenstand 2026-06-24:** Werte aus Buero-Zusammenfassung der Norm — projektverbindlich Original
+SIA 181:2020 + Bauphysiker beiziehen. **Oeffentlich-rechtlicher Laermschutz** (USG/LSV, ES I–IV) →
+Skill `baurecht`; SIA 181 deckt die **privatrechtlich/bautechnische** Seite ab.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -812,9 +858,10 @@ Wasserrecht (GSchG/GSchV) → Skill `baurecht`.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-23: 24 Kernfragen F1-F24 belegt** (neu **F24 Regenwasser/Versickerung** —
-> Kt.-ZH-Regel: ueber 20 m² entwaesserter Flaeche bewilligungspflichtig (Gemeinde), AWEL nur in
-> GW-Schutzzonen; Metallflaechen Cu/Zn > 50 m² → Adsorber). Zudem **F18 um aktuelle Marktpreise
-> 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, Lebensdauer 33 J) und **F7 um Bestaetigung
-> 2026 unveraendert + Solarthermie/Minergie-ECO** geschaerft. Offen: kWh/kWp je Einzel-Orientierung,
-> CHF-Saetze Solarthermie/Minergie-ECO ZH.
+> **FAQ-Stand 2026-06-24: 25 Kernfragen F1-F25 belegt** (neu **F25 Schallschutz/SIA 181:2020** —
+> Wohnungstrennung Luftschall ≥52/56 dB, Trittschall ≤53/49 dB, Haustechnik Schlafraum ≤28 dB(A);
+> EFH/Reihen-EFH/STWEG = automatisch erhoehte Aussenlaerm-Anforderung; Komfort innen vertraglich).
+> Zuvor **F24 Regenwasser/Versickerung** (ueber 20 m² bewilligungspflichtig, Metallflaechen Cu/Zn
+> > 50 m² → Adsorber), **F18 Marktpreise 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, 33 J) und
+> **F7 2026 unveraendert + Solarthermie/Minergie-ECO**. Offen: kWh/kWp je Einzel-Orientierung,
+> CHF-Saetze Solarthermie/Minergie-ECO ZH, SIA-181-Flankendetails Holzbau (Lignum).

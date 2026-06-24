@@ -81,9 +81,12 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E-H2** Rechenbeispiel Heizwaermebedarf (Monatsbilanz) belegt ✓ 2026-06-08
   → `[[sia-380-1-beispiel-monatsbilanz]]`. SIA-380/1-Standardnutzung Tab. 24/25 → `[[sia-380-1-standardnutzungswerte-tab24-25]]`.
 
-- [ ] **E11** Schallschutz CH vertiefen: **SIA 181** Anforderungswerte (Luft-/Trittschall, Mindest/
-  erhoeht, Empfindlichkeits-/Stoergrad) + **Flankenuebertragung im Holzbau** (Lignum-Dokumentation,
-  Anschlussdetails) belegen — angestossen 2026-06-13 ueber `[[clt-schallschutz-stora-enso]]` / FAQ F17.
+- [x] **E11** Schallschutz CH — **SIA 181:2020 Anforderungswerte belegt** ✓ 2026-06-24 →
+  `[[sia-181-schallschutz-anforderungswerte]]`, Themenartikel `[[schallschutz-sia181]]`, FAQ **F25**
+  (Luftschall Di / Trittschall L' / Haustechnik LH / Aussenlaerm De je Empfindlichkeit × Stoergrad;
+  erhoeht +4 dB innen / +3 dB aussen; **EFH/Reihen-EFH/STWEG = erhoehte Aussenlaerm-Anforderung Pflicht**;
+  Bauwert D_nT/L'_nT inkl. Flanke ≠ Labor-R_w). F17/Holzbau geschaerft (Wohnungstrennung Di≥52/Trittsch.
+  L'≤53). Offen nur noch: **Flankenuebertragung/Anschlussdetails Holzbau** (Lignum, konkrete Stoss-Loesungen).
 - [ ] **E12** **Naturdaemmstoffe in der Praxis**: Stroh (Bemessungs-λ, Brandverhalten RF, Feuchte) +
   Lehmputz (Feuchtepufferung) — Seed `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (2024). Ergaenzt
   `[[daemmstoffe-lambda]]`. Zudem **ZEV/Areal-PV/«Solarsplitvertrag»** wirtschaftlich/rechtlich (→ `baurecht`).

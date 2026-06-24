@@ -23,7 +23,8 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). **Bauteilkatalog Kap. 4 belegt 2026-06-12** (Aussenwand
   V1-9 + Dach V1-6: REI·U·Rw) → `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/
   Trennwand/Decke belegt 2026-06-13** (R_w 34-58, L'_n,w 60→46) → `[[clt-schallschutz-stora-enso]]`
-  (FAQ F17). Offen: SIA-181-Anforderungswerte + Flankenuebertragung CH (Lignum).
+  (FAQ F17). **SIA-181:2020-Anforderungswerte belegt 2026-06-24** → `[[sia-181-schallschutz-anforderungswerte]]`,
+  `[[schallschutz-sia181]]` (FAQ F25). Offen: Flankenuebertragung CH (Lignum-Anschlussdetails).
 - [~] A7 Naturdaemmstoffe/zirkulaeres Bauen in der Praxis — Seed 2026-06-13 via Werkhof29-Dossier
   (Stroh-Daemmung, Lehmputz, Re-use, Areal-PV) → `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`.
   Offen: Bemessungs-λ Stroh, Brand/Feuchte, ZEV/Solarsplit-Modell.

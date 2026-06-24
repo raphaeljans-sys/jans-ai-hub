@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**24 Kernfragen F1–F24 belegt**, neu F24 Regenwasser/Versickerung Kt. ZH (Bewilligung >20 m², Metall-Adsorber >50 m²) + F18 aktuelle Marktpreise 2025 (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, Lebensdauer 33 J) + F7 Bestaetigung 2026 unveraendert/Solarthermie/Minergie-ECO; Backlog nur noch Vertiefungen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**25 Kernfragen F1–F25 belegt**, neu F25 Schallschutz/SIA 181:2020 (Wohnungstrennung Luftschall ≥52/56 dB, Trittschall ≤53/49 dB, Haustechnik Schlafraum ≤28 dB(A); EFH/Reihen-EFH/STWEG = erhoehte Aussenlaerm-Anforderung) + F24 Regenwasser/Versickerung Kt. ZH (Bewilligung >20 m², Metall-Adsorber >50 m²) + F18 aktuelle Marktpreise 2025 (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, Lebensdauer 33 J); Backlog nur noch Vertiefungen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -20,8 +20,9 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[graue-energie]] — graue Energie & THGE, **THGE-Grenzwerte je Kategorie (MFH 11 / Spitaeler 17)**, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau · **established**
 - [[minergie-standards]] ergaenzt: **MKZ-Formel** + Minergie-2023-Neuerungen (90 % Q_h,li, Monitoring 1000 m², 60 % E-Parkplaetze) · **established**
 - [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) + Bauteilkatalog (Wand/Dach REI·U·Rw) + **Schallschutz (R_w 34-58, L'_n,w 60→46)** · **established**
+- [[schallschutz-sia181]] — Schallschutz SIA 181:2020: Anforderungswerte Luft-/Tritt-/Haustechnik-/Aussenlaerm je Empfindlichkeit, erhoehte Anforderung Pflicht bei EFH/STWEG, Bauwert≠Laborwert (Flanke) · **established** (neu, FAQ F25)
 - **Schadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP, Kt. ZH) — bisher FAQ F23 + Destillat `[[gebaeudeschadstoffe-checkliste-zh]]`; eigener Themenartikel Kandidat
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, WP-Systemvergleich F6, Minergie-ECO-Foerderung, Naturdaemmstoffe/Stroh+Lehm Praxis, SIA-181-Flanke, KBOB/SIA 2032-Oekobilanzdaten, Schadstoff-Themenartikel)_
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, WP-Systemvergleich F6, Minergie-ECO-Foerderung, Naturdaemmstoffe/Stroh+Lehm Praxis, SIA-181-Flankendetails Holzbau (Lignum), PV-Ertrag je Ausrichtung×Neigung, KBOB/SIA 2032-Oekobilanzdaten, Schadstoff-Themenartikel)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

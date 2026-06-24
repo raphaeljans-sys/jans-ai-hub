@@ -45,3 +45,4 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[gebaeudeschadstoffe-checkliste-zh]] | _Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe | established (vollst., 8 S.; 4-Faelle-Raster, Asbest/PCB/CP-Stichjahre) | 2023 / AWEL; VVEA Art. 16-20 |
 | [[regenwasserbewirtschaftung-versickerung-zh]] | endk.ch/Gesuch zur Versickerung von Regenwasser HLS Planer/gesuch_zur_versickerung_von_regenwasser | established (vollst., 3 S.; Bewilligung/Zustaendigkeit/Metall-Adsorber) | 2026 / AWEL ZH; VSA 2019 / SN 592 000:2012 |
 | [[pv-marktzahlen-kosten-ch-2025]] | Web: Swissolar Faktenblatt PV (Juli 2025) + CKW Kosten (Herbst 2025) | established (CHF/kWp + Marktkennzahlen) | 2026-06-23 / Markt 2024–2025 |
+| [[sia-181-schallschutz-anforderungswerte]] | Web: SIA 181:2020 Anforderungswerte (Zusammenfassung baumann akustik & bauphysik, Anhang A) | established (vollst. Luft-/Tritt-/Haustechnik-/Aussenlaerm + Anhang G) | 2026-06-24 / SIA 181:2020 |
