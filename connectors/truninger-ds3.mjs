@@ -141,12 +141,13 @@ function parseEintraege(html) {
   return eintraege;
 }
 
-async function holeSeite(idOderPfad) {
+async function holeSeite(idOderPfad, pagingOffset = 0) {
   let pfad;
   if (idOderPfad === '/' || !idOderPfad) pfad = '/ds';
   else if (/^((?:Root|Job)?Collection|Document)-\d+$/.test(idOderPfad)) pfad = `/ds/${idOderPfad}/view`;
   else if (/^Project-\d+$/.test(idOderPfad)) pfad = `/ds/${idOderPfad}/project_index`;
   else pfad = idOderPfad.startsWith('/') ? idOderPfad : '/' + idOderPfad;
+  if (pagingOffset > 0) pfad += (pfad.includes('?') ? '&' : '?') + `pref__paging=${pagingOffset}`;
   let res = await anfrage(pfad, { redirect: 'manual' });
   let ziel = res.headers.get('location');
   for (let i = 0; ziel && i < 5; i++) {
@@ -157,9 +158,29 @@ async function holeSeite(idOderPfad) {
   return await res.text();
 }
 
-async function listieren(start, tiefe, filter = null, pfadname = '') {
-  const html = await holeSeite(start);
+/** Holt ALLE Eintraege eines Ordners ueber saemtliche Seiten hinweg.
+ *  DS3 zeigt nur 30 Eintraege pro Seite; Folgeseiten via ?pref__paging=<offset>
+ *  (Navigationsleiste "paging_border"). Ohne dies werden grosse Ordner gekappt. */
+async function holeAlleEintraege(idOderPfad) {
+  const html = await holeSeite(idOderPfad);
   const eintraege = parseEintraege(html);
+  const offsets = [...html.matchAll(/\?pref__paging=(\d+)/g)]
+    .map(m => parseInt(m[1], 10)).filter(o => o > 0);
+  const distinct = [...new Set(offsets)].sort((a, b) => a - b);
+  if (distinct.length) {
+    const gesehen = new Set(eintraege.map(e => e.id));
+    for (const off of distinct) {
+      const h2 = await holeSeite(idOderPfad, off);
+      for (const e of parseEintraege(h2)) {
+        if (!gesehen.has(e.id)) { gesehen.add(e.id); eintraege.push(e); }
+      }
+    }
+  }
+  return eintraege;
+}
+
+async function listieren(start, tiefe, filter = null, pfadname = '') {
+  const eintraege = await holeAlleEintraege(start);
   const resultate = [];
   for (const e of eintraege) {
     const voll = pfadname ? `${pfadname} / ${e.name}` : e.name;
