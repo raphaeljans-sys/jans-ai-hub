@@ -92,14 +92,16 @@ def main(argv):
     for t in ("terrain", "kontext"):
         p = os.path.join(DIR, f"{NAME}_{t}.obj")
         if os.path.exists(p): objs[t] = lade_obj(p)
-    # Varianten-Teile
+    # Varianten-Teile (alle variante_*; Glas separat)
     for f in sorted(os.listdir(DIR)):
-        if f.startswith(f"{NAME}_variante_{variante}") and f.endswith(".obj"):
+        if f.startswith(f"{NAME}_variante_") and f.endswith(".obj"):
             objs[f[len(NAME)+1:-4]] = lade_obj(os.path.join(DIR, f))
 
+    GLAS = c4d.Vector(0.16, 0.09, 0.11)
     m_terr = mat(doc, "M_terrain", CREME)
     m_kont = mat(doc, "M_kontext", GRAU_W)
     m_var  = mat(doc, "M_variante", ROT_BODY, lum=ROT_LUM)
+    m_glas = mat(doc, "M_glas", GLAS)
     for name, (vs, fs) in objs.items():
         o = poly(name, vs, fs)
         base = name.split("_")[0]
@@ -108,6 +110,8 @@ def main(argv):
             tag(o, m_terr)
         elif base == "kontext":
             tag(o, m_kont)
+        elif "glas" in name.lower():
+            tag(o, m_glas)
         else:
             tag(o, m_var)
         doc.InsertObject(o)
