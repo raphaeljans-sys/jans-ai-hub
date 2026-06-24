@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -363,6 +363,26 @@ Nähe** das formellste Sie + vollen Block.
   Rohner**» — die zuständige Zahlstelle erhält die Zahlungserinnerung (→ [[stimme]], [[arbeitsweise]]).
   Bestätigt «Funktions-Register: Buchhaltung/Finanzen = Sie» (vgl. Nova/Siegel) auch bei der WOMA,
   wo der Bauvorstand Bopp Du «Geschätzter Christoph» / «Lieber Raphi» (reziprok bestätigt) ist.
+
+## Neue Mappings + Eidg. Amt-Register (belegt Mailbatch 15, authentisch)
+- **Samuel «Sämi» Smith (samuel@smith.studio, Architektur-/Design-Peer, frisch in die Binz
+  gezogen wie JANS):** warm-sozialer Peer-Du «**Hoi lieber Sämi**» (gestapelt, ohne Komma — wie
+  «Hoi liebe Gabi») + «**Lieber Gruss / Raphael**». Reines Sozial-/Kollegen-Du ohne Auftragsgefälle
+  (Büro-Nachbarschaft Binz, gegenseitiger Büro-Besuch + «gemeinsamer Snack»). Reiht sich zu den
+  Sozial-Peers Gabi Demme / Fabio Don.
+- **Lu (Laura) van der Zee (laura.vanderzee@stmoritz.com, St. Moritz Tourismus AG, Head of
+  Projects & Events; Auftraggeberin/Akquise St.-Moritz-Projekt):** warm-Business-Du
+  «**Geschätzte Lu,**» + «**Bester Gruss**», reziprok «Lieber Raphael». Beleg, dass das
+  respektvolle **«Geschätzte/r <Vorname>»** auch bei einer **weiblichen Auftraggeberin in der
+  Akquise** greift (Pendant zu «Geschätzter Christoph»): Du, aber gewichtig, weil Offerte/Auftrag
+  auf dem Spiel steht.
+- **Labinot / 38grad (ls@38grad.ch, Sub-Planer):** ultraknappes Eil-Du «**Hoi Labinot.**» (Punkt)
+  für eine reine Sach-Auskunft (Erstellungskosten 2.MIO) — bestätigt das operative Sub-Du.
+- **Eidgenössisches Amt (ESTV / Mehrwertsteuer):** unpersönlich-formell. Ohne Ansprechperson
+  «**Guten Tag**» bzw. «**Sehr geehrte Damen und Herren**»; mit Ansprechperson «**Sehr geehrte Frau
+  Ruprecht**» / «**Guten Tag Herr Rentsch**» — durchgehend Sie, «Freundliche Grüsse» + voller Block.
+  Reiht sich neben das kommunale Behörden-Sie (Stadt ZH / Gemeinde), gleiches Register: Amt = Sie,
+  egal ob Bund oder Gemeinde (→ formell-Sie-Cluster mit Geld/Buchhaltung, [[stimme]]).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

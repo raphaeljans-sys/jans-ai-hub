@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-22
+last_updated: 2026-06-24
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -372,6 +372,22 @@ Annahmen werden als solche markiert («approximative Annahme»).
   Normwerte/Kennwerte raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden
   (nur belegte/echt gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte
   nur, wo wirklich gekannt — Echo-Schutz).
+
+## Präzises Rechtsgrundlagen-Zitat auch ausserhalb Baurecht + Bau-Vokabular (belegt Mailbatch 15, authentisch)
+- **Gesetzesartikel präzise in eigener Verwaltungssache:** In der MWST-Abmeldung ans Bundesamt
+  zitiert Raphael die Rechtsgrundlage exakt — «Gemäss **Art. 10 Abs. 2 lit. a MWSTG** unterliegen
+  Unternehmen nicht der Steuerpflicht, wenn sie in zwei aufeinanderfolgenden Geschäftsjahren einen
+  Umsatz von weniger als **CHF 100'000.–** aus steuerbaren Leistungen erzielen.» (03.10.2025). Die
+  Norm-Präzision (§/Art. + Abs. + lit.), die im Baurecht belegt ist (§357 etc.), überträgt er
+  unverändert auf Steuer-/Verwaltungsrecht: Anspruch beziffern, dann auf die zitierte Norm stützen.
+- **Tiefbau-/Werkleitungs-Vokabular (Kanalisation):** sauberer Fachwortschatz im Liefer-Du —
+  «Revisionsplan» (vs. Ausführungsplan), «Plankopf», «Kontroll- sowie Revisionsdatum», «Schächte»,
+  «Leitungen», «Spülrapport». Belegt, dass die Fachsignatur über Architektur/Baurecht hinaus auch
+  die TGA-/Tiefbau-Nachführung sicher bedient (Projekt Bösfeldstrasse/Emmenbrücke, 06.10.2025).
+- **SIA-Phasen-Honorar transparent in Stunden:** «pro Phase proforma **60h** berechnet was eher
+  grosszügig ist» (Akquise St. Moritz, 08.10.2025) — er beziffert das Honorar phasenweise in
+  Stunden und legt den proforma-Ansatz offen (vgl. SIA-102-Phasenofferte, Batch 12; Ehrlichkeit →
+  [[haltung]]).
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

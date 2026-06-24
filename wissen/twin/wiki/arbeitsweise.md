@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -314,6 +314,24 @@ an die zuständige Finanz-/Zahlstelle** (Peter Rohner, WOMA, CC Bopp) nachgefass
 im weichen 1.-Stufen-Ton (→ [[stimme]]). Sachwalter-/Debitoren-Reflex; speist Skill mahnwesen (1.
 Mahnstufe «Zahlungserinnerung», harte Eskalation erst später). Der Zwilling fasst überfällige
 Rechnungen aktiv nach, adressiert an die Finanzstelle, sanft, mit «Gekreuzt»-Klausel.
+
+## Eigene Steuer-/Amtsadministration + Revisionsplan-Nachführung + Offerte-Vorlauf (belegt Mailbatch 15, authentisch)
+- **Founder führt die eigene Buchhaltung/Amtsadministration selbst:** MWST-Abrechnung 1. Semester
+  ans Bundesamt eingereicht, MWST-Pflicht **abgemeldet** (Umsatz < CHF 100'000 in zwei Jahren),
+  **Betreibung beim Betreibungsamt ZH 3** zur Löschung beantragt, Überweisungsbelege nachgereicht —
+  alles ohne Treuhand-Vorschaltung, direkt mit der ESTV (Anfang Okt 2025). Belegt: Raphael erledigt
+  Steuer-/Amts-Korrespondenz selbst und buchhaltungssicher (vgl. Mahnwesen/Zahlungs-Nachverfolgung
+  Batch 14).
+- **Revisionsplan auf Behörden-Rückmeldung nachführen:** Auf die Mängelliste der Gemeinde (Tiefbau)
+  arbeitet er die Korrekturen konkret ab und meldet sie quittierend zurück — «Schächte an die
+  richtige Stelle verschoben, unnötige Leitungen gelöscht, Winkel der Leitung geändert; im Plankopf
+  nun Revisionsplan, Kontroll-/Revisionsdatum 7.10.25» (06.10.2025). Muster: Behörden-Auflage Punkt
+  für Punkt erledigen + Erledigung benennen (vgl. Auflagebereinigung).
+- **Offerte gestuft: Struktur vorab, verbindliche Zahlen danach:** In der Akquise schickt er
+  «**als Vorab … unsere Angebotsstruktur**» und kündigt die vollständige Offerte mit
+  Kostenschätzung separat an; die Phasen-Stunden werden vor der verbindlichen Fassung «auf die
+  effektiven Phasen» geschärft (08.10.2025). Bestätigt «Grundlage/Struktur vor verbindlicher
+  Offerte» (Batch 12) und die Liefer-Ankündigung mit konkretem Termin («heute Abend»).
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar
