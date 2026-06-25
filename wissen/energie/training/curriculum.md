@@ -62,7 +62,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   belegt 2026-06-07 via TEC21-Dossier «Solares Bauen» → `[[pv-solar-technologien]]` (FAQ F4).
 - [x] C2 PV-Eignung/Ertrag bestimmen — belegt 2026-06-19/-22 via 3 SolarReports (Willerzell/Diemtigen/
   **Basel 60 kWp MFH**, ~826-1'025 kWh/kWp, EV 8-44 %) + uvek-gis/sonnendach (Eignungsklassen, F19) →
-  `[[pv-ertrag-eigenverbrauch-praxis]]`, `[[sonnendach-solarpotenzial-bfe]]` (FAQ F18/F19). **vollstaendig.**
+  `[[pv-ertrag-eigenverbrauch-praxis]]`, `[[sonnendach-solarpotenzial-bfe]]` (FAQ F18/F19).
+  **Ertrag je Ausrichtung × Neigung belegt 2026-06-25** (CH-Richtwerte: Flachdach ~90 %, Ost/West
+  90–95 %, Suedfassade ~70 %, Nord ~40 % vom Sued-30°-Optimum; Swissolar + solar-ratgeber.ch) →
+  `[[pv-ertrag-ausrichtung-neigung-ch]]` (FAQ F26). **vollstaendig** (exakte kWh/kWp je Orientierung → sonnendach.ch/PVGIS).
 - [x] C3 Brandschutz bei Solaranlagen — belegt 2026-06-12 via swissolar STP V4.00; **vollst. Kap. 1-7
   nachgezogen 2026-06-18** (Feuerwehr-Pflicht Bauherr + ≥30 kW Orientierungsplan, Brandmauer 1,0 m,
   Batteriespeicher RF1, RWA, Naturgefahren SIA 261:2020) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,

@@ -6,8 +6,9 @@ zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
-| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | in Arbeit | 37 Destillate; Prio-1/Solar-Block erschoepft; lokale PDF-Reste nur noch FEZ-/Kursflyer (geringe Uebertragbarkeit); **kuenftig primaer Web** (Foerder-Broschuere CHF-Saetze S.30-38, Swissolar Solarmonitor, PV-Ertrag je Ausrichtung) |
+| PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | **PDF-Bestand erschoepft** | 38 Destillate; jeder substanzielle PDF destilliert — lokale Reste nur noch Datenblaetter (SI-Saphir/megasol/PREFA-Farben/Usermanual) + FEZ-/Kursflyer + Maison-Climat-Plaene (geringe Uebertragbarkeit, nicht einzeln); **Loop kuenftig primaer Web** (Foerder-Broschuere CHF-Saetze Solarthermie/Minergie-ECO, Swissolar Solarmonitor, KBOB/SIA 2032, Lignum-Flanke) |
 | SIA 181:2020 Schallschutz Anforderungswerte | Web (baumann akustik & bauphysik, Zusammenfassung Anhang A) | destilliert 2026-06-24 | Luft-/Tritt-/Haustechnik-/Aussenlaerm-Tabellen → `[[sia-181-schallschutz-anforderungswerte]]` (FAQ F25, schliesst E11/A8) |
+| PV-Ertrag je Ausrichtung × Neigung (CH) | Web (Swissolar «Anwendung PV» + solar-ratgeber.ch; Quervergleich BFE sonnendach.ch) | destilliert 2026-06-25 | CH-Richtwerte Basis Sued-30°: Flachdach ~90 %, Ost/West 90–95 %, Suedfassade ~70 %, Nord ~40 % → `[[pv-ertrag-ausrichtung-neigung-ch]]` (FAQ F26, schliesst E5-Orientierungsluecke) |
 | U-Wert-Bauteilekatalog Neubauten (BFE 2002) | PL-04/U Wert berechnung | destilliert (S.1-10 + Kap.4 Boeden/Waende) | Rest inhomogen/Daecher offen |
 | Heizwaermebedarf SIA 380/1 (Kursauszug) | PL-04/_Heizwaermebedarf | destilliert | — |
 | EN-102 Waermeschutz (EnFK, Dez 2018) | PL-04/U Wert berechnung | destilliert (vollst.) | U-Wert- + Qh-Grenzwerte |
