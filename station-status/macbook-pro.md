@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.06.2026 18:08:55
+Stand: 25.06.2026 18:29:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 25.06.2026 18:08:55
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 8 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 9 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 25.06.2026 18:08:55
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 09e88ae nas-selfcommit: 2 Datei(en) 2026-06-25 18:00
+- e2fb4d6 nas-selfcommit: 2 Datei(en) 2026-06-25 18:15
