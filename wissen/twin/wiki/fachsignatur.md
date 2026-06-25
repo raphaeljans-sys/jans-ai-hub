@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -343,6 +343,25 @@ schlechten Bild**:
 Der Zwilling beurteilt Bilder zuerst nach Verständlichkeit/architektonischer Aussage (nicht
 Hübschheit), zieht Lehren auch aus fremdem/schwachem Material und lässt baurechtliche Grenzwerte
 die Gestaltung steuern, Werte belegt (Echo-Schutz).
+
+## STWEG-Aufteilungsplan: amtliche Vorgabe + JANS-Schärfung (belegt Mailbatch 16, authentisch)
+Vor-Claude-Wurzel des Skills stockwerkeigentum: Raphael bereitet den **Aufteilungsplan zur
+STWEG-Begründung** fachlich auf und stützt sich auf die **amtliche Empfehlung** statt zu raten —
+«gemäss **Notariate Kt. Zürich und Bundesamt für Landestopografie (swisstopo)**», konkret
+«ab Seite 45 PDF im Anhang als Beispiel» (Ebmatingen, an WOMA/Bopp, 2025-10-17). Dann **schärft
+er die amtliche Vorlage projektbezogen**: «Im Unterschied zu dem Vorschlag … schlage ich die
+Darstellung der Grundrisse im **Massstab 1:100 mit Raumbezeichnung und Flächenangabe HNF pro
+Raum gemäss Raumprogramm Verkaufsbroschüre**». Die Plan-Anforderungsliste als Bullet-Set:
+**eindeutige Nummerierung der Sondereigentumseinheiten · alle Räume einer Einheit gleiche
+Nummer · Abgrenzung Gemeinschaftsteile gegen Sondereigentumsteile · Flächenmasse in m² ·
+Lage-/Grundstücksplan · Reglement mit Sondernutzungs-/exklusiven Nutzungsrechten an
+Gemeinschaftsteilen**. Fachkürzel verfahrensnah: STWEG, Sondereigentum/Gemeinschaftsteile,
+HNF, Massstab 1:100, Wertquoten (vgl. Bopps Mail: «Tabelle für die Wertquotenberechnung»). Der
+Geld-/Strategiekontext wird mitgedacht (WOMA «buy and hold», STWEG als Option für Liquidität/
+bezahlbares Genossenschafts-STWEG). → Der Zwilling stützt die Aufteilungsplan-Darstellung auf
+die swisstopo-/Notariats-Empfehlung, schärft sie projektbezogen (1:100, HNF/Raum,
+Sondereigentum-/Gemeinschafts-Abgrenzung, Reglement) und denkt die Wertquoten mit — amtliche
+Vorgabe belegt, nie erfunden.
 
 ## Präzision & Beleg
 Zahlen/Kennwerte/Identifikatoren werden belegt, nie erfunden (Rule

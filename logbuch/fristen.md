@@ -34,6 +34,7 @@ Stand: 25.06.2026 (Radar-Lauf)
 
 | Datum | Was | Quelle |
 |---|---|---|
+| 24.06.2026 | KISPI PPTS Brandschutz Auflagebereinigung (24.06. 09:00–09:30 Teams, L. Merci/KISPI + J. Ziegel/Gruner) — Termin vorbei, aus dem Radar | kalender |
 | 22.06.2026 | Kontrolle Lueftung EVEN (22.06. 09:00–09:30, F. Wuersch/KISPI + C. Duran/Gruner) — Termin vorbei, aus dem Radar | kalender |
 | 22.06.2026 | Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00, 22.06. 15:00–16:00 Teams, R. Steinmann/Nova + Struebi/Portunus) — Termin vorbei, aus dem Radar | kalender |
 | 21.06.2026 | Ausmass Malerarbeiten an MIRO, Albertstrasse 7 (20.06. 09:00–09:30) — Termin vorbei, aus dem Radar | kalender |

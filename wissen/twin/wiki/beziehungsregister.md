@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -383,6 +383,17 @@ Nähe** das formellste Sie + vollen Block.
   Ruprecht**» / «**Guten Tag Herr Rentsch**» — durchgehend Sie, «Freundliche Grüsse» + voller Block.
   Reiht sich neben das kommunale Behörden-Sie (Stadt ZH / Gemeinde), gleiches Register: Amt = Sie,
   egal ob Bund oder Gemeinde (→ formell-Sie-Cluster mit Geld/Buchhaltung, [[stimme]]).
+
+## Warm-Business-Du kippt in rein-sozial-warm bei wachsender Sympathie (belegt Mailbatch 16, authentisch)
+Bestätigt und vertieft das Lu-van-der-Zee-Mapping (St. Moritz Tourismus, Akquise): das
+respektvolle «Geschätzte Lu» (Erstkontakt) wird über den Faden hinweg zu «**Liebe Lu**»
+(Warming, vgl. oben) und kippt schliesslich ins **rein-sozial-warme Du** mit gegenseitiger
+Besuchseinladung und Emoji — «du bist jederzeit herzlich willkommen in Zürich, … komm spontan
+vorbei», «Über eine Einladung zur Eröffnung würde ich mich aber schon freuen 😊» (09.–17.10.2025),
+reziprok «Lieber Raphael / Ciao Raphael». Bleibt aber **register-flexibel je nach Mail-Typ**: die
+fachlich-liefernde Mail desselben Fadens (Grobkostenrange CHF 60'000–120'000) endet sachlich-warm
+«Lieber Gruss», die rein soziale «Beste Grüsse». Bestätigt «Register folgt dem Anlass, Anrede der
+wachsenden Vertrautheit»; 😊 erlaubt im warm-sozialen Du (→ [[stimme]]).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

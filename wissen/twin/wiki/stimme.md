@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -446,6 +446,25 @@ Grüsse» + Block, → [[beziehungsregister]]).
   Satzlänge ø **12.2 W**; Tausender-Apostroph 2× («CHF 100'000.–»); keine Ellipsen; Grüsse
   «Freundliche Grüsse» 4× (Behörden/Sie) / «Lieber Gruss» 3× (Du) / «Bester Gruss» 1× / «Lgr» 1×.
   Bestätigt: formell/Amt → «Freundliche Grüsse» + Block, Du → kurze warme Gruss-Varianten.
+
+## Mündliche Marker im Du: «Gel», Frage-Nummerierung, warme PS nach dem Gruss (belegt Mailbatch 16, authentisch)
+Im schnellen operativen Du an den vertrauten Freelancer schreibt Raphael wie er spricht:
+- **«Gel» / «Gel zeitlich …»** als Schweizer Vergewisserungspartikel («gäll/gell», nicht
+  wahr?) mitten im Satz — mündlicher Marker im engsten Du («**Gel** zeitlich bist du komplett
+  absorbiert mit Studium?», Yorck, 2025-10-15). Reiht sich neben «baldis» (Batch 13) als
+  CH-Mündlichkeit im Eil-Du.
+- **Fragen als nummerierte Mini-Liste mit Doppelpunkt:** «**Frage:** Ist das Geld angekommen,
+  stimmt das so für Dich? / **Zweite Frage:** …» — mündlich-direktes Strukturieren auch in der
+  Mikro-Mail (vgl. die «_»/«A)»-Listentypografie, hier als gesprochene Aufzählung).
+- **Warme PS NACH dem Gruss** als nachgeschobene menschliche Geste: «Lieber Gruss Raphael /
+  **Und danke das Du da so durchgehalten hast.**» (Yorck, 2025-10-15) — bestätigt das Muster
+  der nachgestellten warmen Zeile (vgl. «Gratuliere für die Abgabe!», Batch 05).
+- Mikro-Metrik Batch 16 (618 W, liefernd-warmes Du + Sie-Lieferant/Behörde gemischt): **Du-Gross-
+  Quote 0.923** (sauber, da liefernd-präsentierend; «du komplett absorbiert» klein als einzige
+  Spiegelungs-Ausnahme); Tausender-Apostroph 2× («CHF 60'000.–», «120'000.–»); Satzlänge ø
+  **15.1 W**; keine Ellipsen; Grüsse «Lieber Gruss» 2× / «Beste Grüsse» 1× (warm-Du) / «Bester
+  Gruss» (liefernd-Du) / «Freundliche Grüsse» 1× (Sie-Lieferant) — bestätigt das warme Du-Gruss-
+  Spektrum. ß-Slip «Maßstabes» (DE-Autokorrektur, Echtheit; `korrektur` setzt «Massstabes»).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

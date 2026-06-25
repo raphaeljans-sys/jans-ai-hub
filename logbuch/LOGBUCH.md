@@ -5,6 +5,40 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-25
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 02.07.)
+  und Mail-Eingang (seit 24.06.) abgeglichen. Sync-Task-Queue leer (keine offenen Tasks fuer beide
+  Stationen) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **70 Tage ueberfaellig**, Mahnstufe 1, naechste Frist **28.06.** = Eskalation auf
+  Stufe 2 jetzt **in 3 Tagen**) und RE-00097 (Hofer, CHF 500, faellig 16.06., **9 Tage ueberfaellig**,
+  Mahnstufe 1, naechste Frist **30.06.** = in 5 Tagen). Kein Zahlungseingang seit dem letzten Lauf.
+- **RE-00088-Konflikt (bleibt «zu pruefen»):** keine neue Korrespondenz. Mahnung 2 vom 13.06. bleibt
+  gegenstandslos; vor Reaktion final verifizieren.
+- **AG-Gruendung (unveraendert hoch):** UBS-Vertragsdokumente liegen vor (Video-ID + Unterschrift +
+  Ruecksendung), Firmenname «JANS AG» vom Notariat als gefaehrdet gemeldet — Namensentscheid VOR der
+  Unterschrift klaeren. Beide Zeilen bleiben offen/nachfassen.
+- **NEU — L. Merci (KISPI, 24.06.):** kommt nicht auf den Plangrundlagen-Ordner (Tekosi-Pfad im Teams
+  nicht sichtbar), bittet um Freischaltung — als nachfassen-Pendenz (mittel) ins Register.
+- **NEU — S. Tschopp (24.06.):** Nachtrag zur Aufstockung — fragt zum Aussenbereich-Beton (GRID Straight
+  + ORGANIC Lily), ob er die JANS-Anforderungen direkt dem Lieferanten zustellen darf. An die bestehende
+  Tschopp-Pendenz angehaengt.
+- **Mail-Hinweise (Info):** SharePoint-Speicher-Warnung erneut 24.06. (nun 1055.04 / 1054 GB) — bleibt
+  offener Blocker, Wert im Register aktualisiert. C. Duran (Gruner, 24.06.): aktualisierter Abbruchplan
+  im SharePoint abgelegt (Info). Brandmeldeplan-Abstimmung Cetin/Ziegel (Gruner) laeuft (Info, kein
+  Frist-Item).
+- **Kalender naechste 7 Tage (Outlook):** nur 01.07. — generisches «Neues Ereignis» 09:00–10:00 und
+  privat «Fuehrung, Food & Faenen» FIFA-Museum 15:45–21:00. KISPI PPTS Brandschutz vom 24.06. ist vorbei
+  → ins Archiv.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (Eskalation 28.06.), RE-00097 (30.06.), AG-Gruendung
+  (UBS-Dokumente + Namensentscheid). Dauerhaft offen: SharePoint-Speicher, bexio-Doppelimport, EPROID
+  B26-00705.01, dwg Ramminger, Unterlagen Scherbl, Status/Beton Tschopp, Freischaltung Merci,
+  Rueckmeldung Chaled, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-23
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (M365, naechste 7 Tage) und
