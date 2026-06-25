@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.06.2026 08:28:22
+Stand: 25.06.2026 09:38:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:28)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- 4b738f8 nas-selfcommit: 1 Datei(en) 2026-06-25 08:15
+- bff44fd sync: ag-gruendung-monitor: Status unveraendert (kein UBS/Notariat-Eingang 25.06.)
