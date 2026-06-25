@@ -69,3 +69,22 @@ node truninger-ds3.mjs --roh /ds/Collection-13304935/view      # HTML-Debug
   (EN4-Formulare je Lueftungseinheit, EN5 Kuehlung, Anlagenbeschriebe, Prinzipschemen).
 - Leere Ordner melden sich als leer («Keine Objekte vorhanden»); Breadcrumbs werden
   nicht als Eintraege gelistet.
+
+**Spiegelungs-Ziele (wohin heruntergeladene Daten gehoeren):**
+Heruntergeladene Unternehmerdokumentationen werden in den entsprechenden
+OneDrive/SharePoint-Ordner der KISPI-Bibliothek gespiegelt (synct automatisch).
+`--spiegeln` legt die Unterordner direkt im Ziel an und ueberspringt vorhandene
+Dateien (wiederaufsetzbar, auch stationsuebergreifend).
+
+| DS3-Quelle | Inhalt | Lokales Ziel (OneDrive) |
+|---|---|---|
+| `Collection-19903221` | LOS_231.01 Elektro Innenausbau Sued (Jassi / Aamax AG), volle Unternehmerdok. (Unterordner 00..23) | `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/JANS - 2619-KISPI - Dokumente/2 Plangrundlagen Bestand/70 Unternehmerdokumentation/LOS_231.01 Elektro Innenausbau Sued Jassi - Aamax AG` |
+
+Beispiel:
+```bash
+node truninger-ds3.mjs --spiegeln Collection-19903221 \
+  --ziel "$HOME/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/JANS - 2619-KISPI - Dokumente/2 Plangrundlagen Bestand/70 Unternehmerdokumentation/LOS_231.01 Elektro Innenausbau Sued Jassi - Aamax AG" \
+  --tiefe 6
+```
+Die uebrigen Lose liegen analog unter `70 Unternehmerdokumentation/LOS_<nr>_<gewerk>` —
+DS3-Collection-ID je Los via `--ls Collection-17500039` (= «70 Unternehmerdokumentation»).
