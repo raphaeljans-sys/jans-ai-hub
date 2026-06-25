@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-24
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md]
+last_updated: 2026-06-25
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md]
 links: [[INDEX]]
 ---
 
@@ -709,6 +709,47 @@ uebertragbar, CHF-Werte veraltet. Offen: kWh/kWp je Einzel-Orientierung, aktuell
 
 ---
 
+## F26 — «Mein Dach zeigt nicht nach Sueden — wie viel Ertrag verliere ich je nach Ausrichtung und Neigung?»
+
+**Kurz:** Weniger als die meisten denken. Mit **100 %** als gut besontes Sued-Dach (~30°) liefert ein
+**Flachdach noch ~90 %**, ein **Ost- oder West-Dach 90–95 %** und selbst eine **senkrechte Suedfassade
+~70 %**; deutlich verliert nur die **Nordflaeche (~40 %)**. Faustregel: **jede unbeschattete Flaeche,
+die hoechstens 45° von Sueden abweicht, ist sehr gut geeignet** — und ein Ost-West-Dach ist dank
+gleichmaessigerem Tagesverlauf fuer den **Eigenverbrauch** oft sogar im Vorteil.
+
+**Fachlich (CH-Richtwerte, Basis 100 % = Sued ~30°):**
+
+| Ausrichtung / Neigung | Ertrag |
+|---|---|
+| Sued, ~30° (Optimum) | 100 % |
+| Flachdach 0° (horizontal) | ~90 % |
+| Ost oder West (Optimum dann ~15°) | 90–95 % |
+| Suedfassade senkrecht 90° | ~70 % |
+| Fassade vierseitig inkl. Nord, vertikal | ~60–65 % |
+| Nord steil (30–40°) | ~40 % |
+
+Drei Regeln dahinter: **(1)** Der **optimale Winkel** ist bei Sued ~30°, bei Ost/West flacher (~15°,
+weil die Morgen-/Abendsonne tiefer steht); **Verluste zwischen 0° und ~50° Neigung sind gering** —
+die Neigung ist der unkritische Parameter. **(2)** Mindestens **~15° Neigung** fuer die
+Selbstreinigung durch Regen. **(3)** Wichtiger als die exakte Himmelsrichtung sind **Verschattung**
+(Kamin, Nachbar, Baum) und **Eigenverbrauch**: selbstverbrauchter Strom ist ~3× mehr wert als
+eingespeister, und genau hier punktet das Ost-West-Dach (Strom morgens **und** abends statt einer
+Mittagsspitze, die ins Netz geht — vgl. F18). Den **standortgenauen** Wert liefert **sonnendach.ch**
+(F19) bzw. der Solarrechner von EnergieSchweiz/Swissolar; die Prozentwerte hier sind die
+Groessenordnung fuers erste Gespraech. Reicht das Dach nicht, ist die **Fassade** die naechste
+Reserve (~70 % senkrecht Sued) mit dem Bonus hoeheren **Winterertrags** (F20/F21).
+
+**Quelle:** Swissolar «Anwendung Photovoltaik» (Maximum 115 % bei Sued 30°, Basis Horizontale; «≤45°
+von Sueden besonders gut geeignet») + solar-ratgeber.ch «Dach-Ausrichtung» (CH-Prozentwerte je
+Ausrichtung/Neigung), Quervergleich BFE sonnendach.ch → `[[pv-ertrag-ausrichtung-neigung-ch]]`;
+Fassaden-/Vertikalertrag → `[[pv-fassade-ertrag-pvsol]]` (F21); Absolutertrag/Eigenverbrauch →
+`[[pv-ertrag-eigenverbrauch-praxis]]` (F18); Dach-Eignung → `[[sonnendach-solarpotenzial-bfe]]` (F19).
+⚠ **Datenstand 2026-06-25:** CH-Richtwerte Mittelland, ganzjaehrig unbeschattet; Berg-/Voralpenlagen
+weichen ab. Eine lueckenlose Matrix (jede 15°-Stufe) gibt keine CH-Quelle frei — projektgenau via
+sonnendach.ch/PVGIS. Nicht aus DE-Blog-Tabellen ergaenzt (Leitplanke CH-Quelle).
+
+---
+
 ## F22 — «Brauche ich fuer eine Klimaanlage / Kuehlung einen Nachweis — und was ist erlaubt?»
 
 **Kurz:** Ja. Wer aktiv kuehlt, muss im Energienachweis (Kt. ZH: Formular **EN-110**, heute ueber
@@ -858,10 +899,12 @@ Skill `baurecht`; SIA 181 deckt die **privatrechtlich/bautechnische** Seite ab.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-24: 25 Kernfragen F1-F25 belegt** (neu **F25 Schallschutz/SIA 181:2020** —
-> Wohnungstrennung Luftschall ≥52/56 dB, Trittschall ≤53/49 dB, Haustechnik Schlafraum ≤28 dB(A);
-> EFH/Reihen-EFH/STWEG = automatisch erhoehte Aussenlaerm-Anforderung; Komfort innen vertraglich).
-> Zuvor **F24 Regenwasser/Versickerung** (ueber 20 m² bewilligungspflichtig, Metallflaechen Cu/Zn
-> > 50 m² → Adsorber), **F18 Marktpreise 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, 33 J) und
-> **F7 2026 unveraendert + Solarthermie/Minergie-ECO**. Offen: kWh/kWp je Einzel-Orientierung,
-> CHF-Saetze Solarthermie/Minergie-ECO ZH, SIA-181-Flankendetails Holzbau (Lignum).
+> **FAQ-Stand 2026-06-25: 26 Kernfragen F1-F26 belegt** (neu **F26 PV-Ertrag je Ausrichtung × Neigung**
+> — CH-Richtwerte: Flachdach ~90 %, Ost/West 90–95 %, Suedfassade senkrecht ~70 %, Nord steil ~40 %
+> des Sued-30°-Optimums; ≤45° von Sueden besonders gut geeignet; Ost-West fuer Eigenverbrauch oft im
+> Vorteil). Zuvor **F25 Schallschutz/SIA 181:2020** (Wohnungstrennung Luftschall ≥52/56 dB, Trittschall
+> ≤53/49 dB, Haustechnik Schlafraum ≤28 dB(A); EFH/Reihen-EFH/STWEG = erhoehte Aussenlaerm-Anforderung),
+> **F24 Regenwasser/Versickerung** (ueber 20 m² bewilligungspflichtig, Metallflaechen Cu/Zn > 50 m² →
+> Adsorber) und **F18 Marktpreise 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, 33 J). Offen:
+> kWh/kWp je Einzel-Orientierung exakt (sonnendach.ch/PVGIS), CHF-Saetze Solarthermie/Minergie-ECO ZH,
+> SIA-181-Flankendetails Holzbau (Lignum).

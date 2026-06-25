@@ -1,8 +1,8 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-06-23
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md]
+last_updated: 2026-06-25
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]] [[holzbau-bauphysik-clt]]
 ---
 
@@ -56,6 +56,25 @@ Neubau Kt. ZH: PV ≥ **10 W/m² EBF**, max. 30 kW (Detail → [[BAUHERREN-FAQ]]
   340 Wp ~5,9 m²/kWp; Alu-Solardachplatte 5,88 m²/kWp), **kleinteiliges Solarziegel-Indach braucht
   mehr** (~12 m²/kWp) → Indach nach Modulgroesse waehlen.
 - Details/Zahlen → [[BAUHERREN-FAQ]] F18, `[[pv-ertrag-eigenverbrauch-praxis]]`; Foerderung F7.
+
+## Ausrichtung × Neigung (CH-Richtwerte, Basis 100 % = Sued ~30°)
+Das Dach muss **nicht** nach Sueden zeigen — der Ertrag bleibt ueber einen weiten Bereich nahe 100 %:
+
+| Ausrichtung / Neigung | Ertrag |
+|---|---|
+| Sued ~30° (Optimum) | 100 % |
+| Flachdach 0° | ~90 % |
+| Ost oder West (Optimum dann ~15°) | 90–95 % |
+| Suedfassade senkrecht 90° | ~70 % |
+| Fassade vierseitig inkl. Nord, vertikal | ~60–65 % |
+| Nord steil 30–40° | ~40 % |
+
+Regeln: optimaler Winkel Sued ~30° / Ost-West ~15°; **Verluste 0–50° Neigung gering**;
+Mindestneigung **~15°** (Selbstreinigung); Swissolar — **≤45° von Sueden besonders gut geeignet**
+(dort 100 % = Horizontale, Sued-30° = 115 %). **Ost-West ist fuer den Eigenverbrauch oft im Vorteil**
+(Morgen-/Abendstrom statt Mittagsspitze). Wichtiger als die Himmelsrichtung sind **Verschattung** und
+**Eigenverbrauch**; projektgenau via sonnendach.ch/PVGIS. Details → [[BAUHERREN-FAQ]] F26,
+`[[pv-ertrag-ausrichtung-neigung-ch]]`.
 
 ## Indach in der Ausführung (zwei Systemtypen)
 Indach ersetzt die Eindeckung und ist die gestalterisch sauberste Art, die PV-Pflicht zu erfuellen.

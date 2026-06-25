@@ -26,7 +26,7 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [x] `_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf` | 2026-06-08 (vollst., Grundsaetze S. 88/89) |
 | [x] `_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf` | 2026-06-08 (vollst., 5 S.) |
 | [x] `_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` | 2026-06-08 (vollst., SIA 380/1 Tab. 24/25) |
-| [ ] `_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (weitere Buchseiten)` | — |
+| [x] `_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (weitere Buchseiten)` | 2026-06-25 (Datei ist nur **1 Seite** = Doppelseite 88|89, vollst. in `grundsaetze-energieeffizientes-bauen` — keine weiteren Buchseiten in dieser Datei; Notiz war spekulativ) |
 | [x] `_Private Kontrolle/zh_komplett.pdf` | 2026-06-11 (S. 1-3 Grundlagen + EN-Formular-Matrix → private-kontrolle-zh; ab S. 4 nur Befugten-Namensregister, nicht destilliert) |
 | [x] `endk.ch/Allgemein Nachweis der energetischen und schlltechnischen Massnahmen/EN-ZH.pdf` | 2026-06-07 (Dublette → en-zh-nachweis-uebersicht) |
 | [x] `endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular_Version_01-2024.pdf` | 2026-06-10 (vollst., 5 S.; Heizungsersatz-Verfahren/Beilagen je Quelle → wta-formular-zh-waermetechnische-anlagen) |
@@ -66,4 +66,4 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [~] Foerderprogramm ZH 2026 — Minergie-ECO + Solarthermie (S. 30-38) | 2026-06-23 (foerderfaehig bestaetigt + 2026 unveraendert/Mitteilung 24.10.2025; konkrete CHF-Saetze offen — Broschuere-PDF nicht erreichbar) |
 | [x] Swissolar Faktenblatt PV Schweiz (Juli 2025) + CKW PV-Kosten (Herbst 2025) | 2026-06-23 (CHF/kWp 2'400–3'200 Aufdach, Indach +60 %, Lebensdauer 33 J, Marktkennzahlen → pv-marktzahlen-kosten-ch-2025; FAQ F18 geschaerft) |
 | [x] SIA 181:2020 Schallschutz Anforderungswerte (Zusammenfassung baumann akustik & bauphysik, Anhang A) | 2026-06-24 (vollst. Luft-/Tritt-/Haustechnik-/Aussenlaerm-Tabellen + Anhang G → sia-181-schallschutz-anforderungswerte; FAQ F25 neu, neuer Themenartikel schallschutz-sia181, F17/Holzbau geschaerft; schliesst E11) |
-| [ ] PV-Ertrag je Ausrichtung × Neigung — autoritative CH-Quelle (EnergieSchweiz/sonnendach Ertragstabelle, MeteoSchweiz/Helion) | — (Web-Blogs nur als Bild/Excel, DE-Basis; nicht uebernommen — Leitplanke «nie erfinden») |
+| [x] PV-Ertrag je Ausrichtung × Neigung — autoritative CH-Quelle | 2026-06-25 (Swissolar «Anwendung PV» + solar-ratgeber.ch, zwei CH-Quellen trianguliert: Flachdach ~90 %, Ost/West 90–95 %, Suedfassade ~70 %, Nord ~40 % vom Sued-30°-Optimum → `pv-ertrag-ausrichtung-neigung-ch`; FAQ F26. DE-Blog-Tabellen weiter NICHT uebernommen) |

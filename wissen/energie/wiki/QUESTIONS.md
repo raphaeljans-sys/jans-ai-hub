@@ -44,8 +44,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   **Aktuelle Marktpreise/Lebensdauer belegt ✓ 2026-06-23** (Aufdach 5–15 kWp 2'400–3'200 CHF/kWp,
   Indach +60 %, Solarziegel ~2×, Lebensdauer 33 J, ~1'000 kWh/kWp; Swissolar-Faktenblatt Juli 2025 +
   CKW Herbst 2025) → `[[pv-marktzahlen-kosten-ch-2025]]`, FAQ F18 geschaerft.
-  Offen nur noch: kWh/kWp je **Einzel-Orientierung** (Sued/Ost/West/Nord vertikal) + Tabelle Ertrag je
-  Ausrichtung × Neigung (0-45°); CHF/kWp je Anlagengroesse EFH↔MFH↔Grossanlage (Swissolar Solarmonitor).
+  **Ertrag je Ausrichtung × Neigung belegt ✓ 2026-06-25** (CH-Richtwerte Basis Sued-30°=100 %:
+  Flachdach ~90 %, Ost/West 90–95 %, Suedfassade senkrecht ~70 %, Nord steil ~40 %; ≤45° von Sueden
+  besonders gut geeignet; Verluste 0–50° Neigung gering; Swissolar + solar-ratgeber.ch) →
+  `[[pv-ertrag-ausrichtung-neigung-ch]]`, FAQ **F26**.
+  Offen nur noch: kWh/kWp je Einzel-Orientierung **exakt** (standortgenau sonnendach.ch/PVGIS) +
+  lueckenlose 15°-Stufen-Matrix (keine CH-Quelle frei); CHF/kWp je Anlagengroesse EFH↔MFH↔Grossanlage
+  (Swissolar Solarmonitor).
 - [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
   (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
   Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,
