@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.06.2026 06:25:58
+Stand: 25.06.2026 06:36:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:20)
@@ -9,7 +9,7 @@ Stand: 25.06.2026 06:25:58
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 11 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 8 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 633dff9 energie KB Run 18: PV-Ertrag je Ausrichtung x Neigung (FAQ F26) — Register/CHANGELOG/Output
+- ada049f nas-selfcommit: 1 Datei(en) 2026-06-25 06:30
