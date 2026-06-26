@@ -1,8 +1,8 @@
 ---
 title: Foerderung Energie — Kanton Zuerich (2026)
 status: established
-last_updated: 2026-06-23
-datenstand: 2026-06-23 (Foerderprogramm Energie ZH, Version 01.01.2026; 2026 unveraendert bestaetigt 24.10.2025)
+last_updated: 2026-06-26
+datenstand: 2026-06-26 (Foerderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unveraendert bestaetigt 24.10.2025)
 sources: [destillate/foerderprogramm-energie-zh-2026.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]]
 ---
@@ -44,16 +44,27 @@ Technik: gefoerdert nur **U ≤ 0,20 W/m²K** (Wand/Boden >2 m Erdreich ≤ 0,25
 geschuetzt bis 0,3. **Nicht gefoerdert:** Fenster, Tueren, Kellerdecken, Estrichboeden. Beitraege
 < CHF 2'000 entfallen; ab CHF 10'000 GEAK Plus noetig.
 
+### Gesamterneuerung Minergie-ECO
+| Standard (mit/ohne Minergie-A) | EFH | MFH | uebrige |
+|---|---|---|---|
+| **Minergie-ECO** | 110 | 70 | 50 CHF/m² EBF |
+| **Minergie-P-ECO** | 165 | 100 | 80 CHF/m² EBF |
+
+Nur **mit Zusatzzertifikat «ECO»** (graue Energie + Kreislauffaehigkeit); reines Minergie ohne ECO →
+keine Foerderung. **Neubau/Ersatzneubau nie.** Wer schon Einzelmassnahmen bezogen hat, kann fuer
+dieselbe Liegenschaft kein Minergie-ECO-Gesuch mehr stellen (Ausnahme: Erstinstallation Waermeverteilung).
+
+### Sonne nutzen — Thermische Solaranlage
+**CHF 2'400 + 1'000/kWth** thermische Kollektorleistung (min. 2 kWth; Kollektoren auf
+`kollektorliste.ch` / Solar Keymark). Nur Warmwasser/Raumwaerme, nur bestehende nicht-fossil/-direkt-
+elektrisch beheizte Gebaeude; **nicht** auf Neubau, keine Luftkollektoren/Schwimmbad. Ueberwachung ab 20 kW.
+
 ### Beratung
 GEAK-Plus-Bericht: EFH/ZFH **CHF 1'000**, uebrige Kategorien **CHF 1'500**.
 
-### Weiter gefoerdert (Betraege noch offen)
-- **Thermische Solaranlagen (Solarthermie):** foerderfaehig.
-- **Minergie-Modernisierung NUR mit Zusatz «ECO»** (Kreislauffaehigkeit + graue Energie); reines
-  Minergie ohne ECO wird nicht gefoerdert.
-- **PV** foerdert der **Bund** (Pronovo-Einmalverguetung, ~3'600 CHF fuer 10 kWp Sept 2025), nicht
-  der Kanton pauschal. Konkrete kantonale CHF-Saetze fuer Solarthermie/Minergie-ECO: Broschuere
-  S. 31-38 (noch nicht beziffert erfasst).
+### PV: ueber den Bund, nicht den Kanton
+**PV** foerdert der **Bund** (Pronovo-Einmalverguetung, ~3'600 CHF fuer 10 kWp Sept 2025), nicht der
+Kanton pauschal → `[[pv-marktzahlen-kosten-ch-2025]]`.
 
 ## Strategie fuer den Bauherrn
 1. **Erst Gesuch, dann bauen** — ausnahmslos.
@@ -68,6 +79,6 @@ GEAK-Plus-Bericht: EFH/ZFH **CHF 1'000**, uebrige Kategorien **CHF 1'500**.
 - Welche Nachweise die Baueingabe braucht: `[[energienachweis-zh]]`. Energierecht → Skill `baurecht`.
 
 ## Offen
-- **Konkrete CHF-Saetze** Minergie-ECO-Modernisierung + thermische Solaranlagen (Broschuere S. 31-38) —
-  Broschuere-PDF via WebFetch nicht erreichbar; per Direkt-Download/Hotline nachziehen, nicht schaetzen.
-- Bundes-Gebaeudeprogramm-Saetze separat erfassen.
+- Inhaltlich vollstaendig (Foerder-PDF S. 1-37 erfasst). Verbleibt: **Bundes-Gebaeudeprogramm** +
+  Pronovo-PV-Einmalverguetung separat erfassen (eigene Quelle bei Bedarf).
+- ⚠ Budget kann unterjaehrig erschoepft sein — vor Zusage Stand `zh.ch` / Hotline 0800 93 93 93 pruefen.

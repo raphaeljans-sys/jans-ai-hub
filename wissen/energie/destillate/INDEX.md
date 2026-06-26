@@ -19,7 +19,7 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[sia-380-1-standardnutzungswerte-tab24-25]] | _Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1 | established (1 S., Tab. 24/25) | SIA 380/1 Anhang A |
 | [[sia-380-1-beispiel-monatsbilanz]] | _Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel | established (1 S., Rechenbsp.) | SIA 380/1 / SIA 381/2 |
 | [[grundsaetze-energieeffizientes-bauen]] | _Heizwaermebedarf/U-Wert_Gebäudehülle | emerging (1 S., Grundsaetze) | ⚠ Lehrbuch-Niveau |
-| [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 | established (S. 1-29 + 2026-Bestaetigung) | 2026-06-23 / Version 01.01.2026 |
+| [[foerderprogramm-energie-zh-2026]] | Web: zh.ch Foerderprogramm Energie 2026 (PDF S. 1-37) | established (VOLLST.: WP/Daemmung/Minergie-ECO/Solarthermie/Beratung) | 2026-06-26 / Version 01.01.2026 |
 | [[graue-energie-betriebsenergie]] | _Heizwaermebedarf/Betriebsenergie | emerging (vollst., 1 S.) | ⚠ Lehrmittel-Grobwerte |
 | [[wta-formular-zh-waermetechnische-anlagen]] | endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular | established (vollst., 5 S.) | 2024-01; seit 1.1.2026 EVEN |
 | [[enerhaus-minergie-nachweis-efh-umbau]] | U Wert berechnung/Energienachweis 380-1 Muster | emerging (vollst., 9 S.) | ⚠ 2010 / SIA 380/1:2009 |
@@ -47,3 +47,4 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[pv-marktzahlen-kosten-ch-2025]] | Web: Swissolar Faktenblatt PV (Juli 2025) + CKW Kosten (Herbst 2025) | established (CHF/kWp + Marktkennzahlen) | 2026-06-23 / Markt 2024–2025 |
 | [[sia-181-schallschutz-anforderungswerte]] | Web: SIA 181:2020 Anforderungswerte (Zusammenfassung baumann akustik & bauphysik, Anhang A) | established (vollst. Luft-/Tritt-/Haustechnik-/Aussenlaerm + Anhang G) | 2026-06-24 / SIA 181:2020 |
 | [[pv-ertrag-ausrichtung-neigung-ch]] | Web: Swissolar «Anwendung Photovoltaik» + solar-ratgeber.ch (CH); Quervergleich BFE sonnendach.ch | established (Ausrichtung×Neigung-Richtwerte: Flachdach ~90 %, Ost/West 90–95 %, Suedfassade ~70 %, Nord ~40 %) | 2026-06-25 / CH-Mittelland, Basis Sued-30° |
+| [[kbob-graue-treibhausgasemissionen-2025]] | KBOB-Faktenblatt «Graue Treibhausgasemissionen bei der Erstellung von Gebaeuden» (vollst. S. 1-8) | established (9 Reduktionshebel + SIA-2032-Messgroessen + Grenzwert-Logik; bis 40 % MFH) | 2026-06-26 / Faktenblatt 04.04.2025, KBOB-Daten v8.0 20.02.2026 |

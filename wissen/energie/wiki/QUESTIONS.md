@@ -11,9 +11,10 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E-D7** Foerderprogramme Kt. ZH (CHF-Saetze) belegt ✓ 2026-06-08 (Stand 01.01.2026)
   → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]`, FAQ F7. **2026 unveraendert
   ggue. 2025 bestaetigt ✓ 2026-06-23** (Baudirektion-Mitteilung 24.10.2025; befristet bis Ende 2026/
-  Budget; 2025 = 61 Mio. CHF); Minergie-ECO + Solarthermie als **foerderfaehig bestaetigt**, F7/Wiki
-  geschaerft. Offen nur noch: konkrete **CHF-Saetze** Minergie-ECO/Solarthermie (Broschuere S. 30-38,
-  PDF nicht erreichbar — nicht schaetzen); Bundes-Gebaeudeprogramm separat.
+  Budget; 2025 = 61 Mio. CHF). **Konkrete CHF-Saetze Minergie-ECO + Solarthermie belegt ✓ 2026-06-26**
+  (ZH-Foerder-PDF S. 1-37 direkt geladen): **Minergie-ECO 110/70/50, Minergie-P-ECO 165/100/80 CHF/m²
+  EBF; Solarthermie CHF 2'400 + 1'000/kWth**; Destillat/F7 vollst. → Punkt geschlossen. Offen nur noch:
+  **Bundes-Gebaeudeprogramm** + Pronovo-PV-Einmalverguetung separat (eigene Quelle bei Bedarf).
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
@@ -54,7 +55,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E6** Netto-Null + graue Energie: **Netto-Null-Frage beantwortet** ✓ 2026-06-17 → FAQ **F8**
   (Betrieb fossilfrei + THGE-Grenzwerte je Kategorie MFH 11 / Spitaeler 17, Klimapfad SIA 390/1 9 kg,
   Plusenergie-Beispiel) → `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-fallstudie-maison-climat]]`,
-  `[[graue-energie]]`. Graue Energie ✓ 2026-06-10 (FAQ F9). Offen: KBOB/SIA 2032-Kennwerte, konkrete
+  `[[graue-energie]]`. Graue Energie ✓ 2026-06-10 (FAQ F9). **KBOB-Faktenblatt graue THG-Emissionen +
+  SIA-2032-Messgroessen + 9 Reduktionshebel belegt ✓ 2026-06-26** → `[[kbob-graue-treibhausgasemissionen-2025]]`,
+  graue-energie-Artikel + F9 geschaerft (bis 40 % MFH, «Restwert Bestandsbauten», kommende Kantons-
+  Grenzwerte Art. 45 EnG; Datenbasis KBOB-Oekobilanzdaten v8.0). Offen nur noch: konkrete **kg CO₂-eq/m²
+  je Bauteil** (KBOB v8.0 / SIA-2032-Vorprojektwerte, kostenpflichtig — nicht schaetzen), konkrete
   Sanieren-vs-Neubau-Amortisationsschwelle, einheitliche rechtliche Netto-Null-Definition Einzelgebaeude.
 - [x] **E7** Heizungsersatz Kt. ZH — Verfahren + Beilagen je Waermequelle + fossil-Verbot belegt
   ✓ 2026-06-10 → `[[wta-formular-zh-waermetechnische-anlagen]]`, FAQ F14. Offen: WP-JAZ-Vergleich (F6).

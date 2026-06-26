@@ -62,8 +62,8 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)
 | Status | Quelle | Datenstand |
 |---|---|---|
-| [x] Foerderprogramm Energie Kt. ZH 2026 (zh.ch PDF) | 2026-06-08 (S. 1-29; → foerderprogramm-energie-zh-2026) |
-| [~] Foerderprogramm ZH 2026 — Minergie-ECO + Solarthermie (S. 30-38) | 2026-06-23 (foerderfaehig bestaetigt + 2026 unveraendert/Mitteilung 24.10.2025; konkrete CHF-Saetze offen — Broschuere-PDF nicht erreichbar) |
+| [x] Foerderprogramm Energie Kt. ZH 2026 (zh.ch PDF, S. 1-37 VOLLST.) | 2026-06-26 (alle CHF-Saetze: WP/Daemmung/**Minergie-ECO 110/70/50**, **-P-ECO 165/100/80**, **Solarthermie 2'400+1'000/kWth**, GEAK 1'000/1'500 → foerderprogramm-energie-zh-2026) |
+| [x] KBOB-Faktenblatt «Graue Treibhausgasemissionen bei der Erstellung von Gebaeuden» (PDF) | 2026-06-26 (vollst. S. 1-8; 9 Reduktionshebel + SIA-2032-Messgroessen + Grenzwert-Logik; Datenbasis KBOB-Oekobilanzdaten v8.0 → kbob-graue-treibhausgasemissionen-2025) |
 | [x] Swissolar Faktenblatt PV Schweiz (Juli 2025) + CKW PV-Kosten (Herbst 2025) | 2026-06-23 (CHF/kWp 2'400–3'200 Aufdach, Indach +60 %, Lebensdauer 33 J, Marktkennzahlen → pv-marktzahlen-kosten-ch-2025; FAQ F18 geschaerft) |
 | [x] SIA 181:2020 Schallschutz Anforderungswerte (Zusammenfassung baumann akustik & bauphysik, Anhang A) | 2026-06-24 (vollst. Luft-/Tritt-/Haustechnik-/Aussenlaerm-Tabellen + Anhang G → sia-181-schallschutz-anforderungswerte; FAQ F25 neu, neuer Themenartikel schallschutz-sia181, F17/Holzbau geschaerft; schliesst E11) |
 | [x] PV-Ertrag je Ausrichtung × Neigung — autoritative CH-Quelle | 2026-06-25 (Swissolar «Anwendung PV» + solar-ratgeber.ch, zwei CH-Quellen trianguliert: Flachdach ~90 %, Ost/West 90–95 %, Suedfassade ~70 %, Nord ~40 % vom Sued-30°-Optimum → `pv-ertrag-ausrichtung-neigung-ch`; FAQ F26. DE-Blog-Tabellen weiter NICHT uebernommen) |

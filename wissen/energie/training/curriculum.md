@@ -81,12 +81,17 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Netto-Null-Definition Einzelgebaeude, KBOB-Kompensationsbilanz.
 - [~] D2 Graue Energie / CO2 im Bauteil — Sanieren vs. Neubau — Groessenordnung + Tragstruktur-Hebel
   + THGE belegt 2026-06-10/-17 via Lehrmittel «Betriebsenergie» + Nachweiskurs (THGE-Grenzwerte je
-  Kategorie, bauliche Hebel) → `[[graue-energie]]` (FAQ F9/F8). Offen: KBOB/SIA 2032-Kennwerte,
-  konkrete Sanieren-vs-Neubau-Schwelle.
+  Kategorie, bauliche Hebel) → `[[graue-energie]]` (FAQ F9/F8). **KBOB-Faktenblatt graue THG-Emissionen
+  belegt 2026-06-26** (9 Reduktionshebel, SIA-2032-Messgroessen kg CO₂-eq/m² EBF, «Restwert Bestand»,
+  bis 40 % MFH, kommende Kantons-Grenzwerte Art. 45 EnG; Datenbasis KBOB-Oekobilanzdaten v8.0) →
+  `[[kbob-graue-treibhausgasemissionen-2025]]`. Offen nur noch: konkrete kg CO₂-eq/m² je Bauteilaufbau
+  (KBOB v8.0/SIA-2032-Vorprojektwerte, kostenpflichtig), Sanieren-vs-Neubau-Amortisationsschwelle.
 - [x] D3 Foerderprogramme Kt. ZH — belegt 2026-06-08 (Stand 01.01.2026, Web); **2026 unveraendert
-  bestaetigt + Solarthermie/Minergie-ECO foerderfaehig 2026-06-23** (Mitteilung 24.10.2025)
-  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). Offen: konkrete
-  CHF-Saetze Minergie-ECO/Solarthermie (Broschuere-PDF nicht erreichbar), Bundes-Gebaeudeprogramm.
+  bestaetigt 2026-06-23** (Mitteilung 24.10.2025). **CHF-Saetze VOLLSTAENDIG belegt 2026-06-26**
+  (PDF S. 1-37: WP 2'900/6'800, Fernwaerme 5'200, Daemmung 40/+60, **Minergie-ECO 110/70/50**,
+  **-P-ECO 165/100/80**, **Solarthermie 2'400+1'000/kWth**, GEAK 1'000/1'500)
+  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). **vollstaendig**
+  (offen nur Bundes-Gebaeudeprogramm/Pronovo separat).
 - [x] D5 Regenwasserbewirtschaftung / Versickerung Kt. ZH — belegt 2026-06-23 via AWEL-Gesuchsformular
   (Bewilligung >20 m², Zustaendigkeit Gemeinde/AWEL, Metall-Adsorber >50 m², Versickerungsversuch +
   1,0 m Filterschicht; VSA 2019/SN 592 000) → `[[regenwasserbewirtschaftung-versickerung-zh]]` (FAQ F24).
