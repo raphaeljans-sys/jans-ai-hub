@@ -1,7 +1,7 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-22
+last_updated: 2026-06-26
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8)]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
@@ -162,6 +162,12 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
   Quelle: SNB-Lagebeurteilung 18.06.2026 (SRF/SNB, Web). **Bewertungsrelevanz:** das tiefe
   Zinsniveau bleibt zementiert → Diskont-/Kapitalisierungssätze auf tiefem Niveau gestützt, hohe
   Bewertungen halten ([[ertragswert-dcf]]).
+- **Rendite 10-jährige Bundesobligation (Eidgenoss): ~0.32–0.40 % (Juni 2026)** — 4.6. bei
+  0.40 %, 22.6. bei 0.32 % (leicht rückläufig im Monatsverlauf). Das ist das **risikofreie
+  Basisniveau** für die Diskontsatz-Herleitung ([[ertragswert-dcf]], JANS-Diskontsatz-Tabelle
+  D3) — nahe null, ähnlich/tiefer als im WP-Kursstand Sommer 2023, was die WP-Diskontanker
+  (Wohnbau real 2.1–3.0 %) am unteren Band stützt. Quelle: tradingeconomics / SNB-Datenportal
+  (Web, Stand 06.2026).
 - **Bewertungsfolge:** tiefes Zinsniveau stützt Diskont-/Kapitalisierungssätze auf tiefem
   Niveau → hohe Bewertungen halten; aber Mietsenkungsdruck via Referenzzins dämpft den
   Bestandes-Cashflow ([[ertragswert-dcf]]).
@@ -254,6 +260,10 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
   Stadt Luzern +7.2 %. Web-Check bestaetigt: Referenzzins **1.25 % stabil** (Durchschnittssatz
   unter 1.37 %), SREBI **Q1-2026 0.69** weiterhin der aktuelle Anker (Q2 noch nicht publiziert) —
   gegenueber Run 7 unveraendert.
+- ✓ 2026-06-26 (T10 laufend / D3, Run 9): Web-Check bestaetigt **SNB-Leitzins 0.00 %** (19.06.2026)
+  und **Referenzzins 1.25 %** unveraendert (gegenueber Run 8); neu erfasst die **Rendite 10-j
+  Bundesobligation ~0.32-0.40 % (Juni 2026)** als risikofreies Basisniveau fuer die konsolidierte
+  JANS-Diskontsatz-Tabelle ([[ertragswert-dcf]] D3).
 - T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
   **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
   2022/23 (historische Anker).

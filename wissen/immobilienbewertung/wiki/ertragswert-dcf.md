@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-06-20
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7]
+last_updated: 2026-06-26
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.32-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
 
@@ -173,6 +173,59 @@ Cashflow-Methode», Web, Stand 2026; bestaetigt die WP-Kurslogik S. 53/54):
   bleibt die vollstaendige Tabelle je Nutzung/Lage/Risiko (Bring-Schuld Raphael D3: Faustregeln
   real vs. nominal, Gewerbe-/Healthcare-Zuschlaege).
 
+### JANS-Diskontsatz-Tabelle (D3 konsolidiert, Stand 06.2026)
+
+Konsolidierung aller belegten Anker zu **einer** Herleitungstabelle (Run 9). Die Tabelle ist
+**additiv und bottom-up** aufgebaut (Risikozuschlagsmodell S. 54) und wird gegen den
+**top-down aus Transaktionen** abgeleiteten WP-Satz (S. 52/55) plausibilisiert — beide Wege
+muenden in dieselbe Bandbreite. Saetze sind **real** (Schweizer Bewertungspraxis: realer
+Diskontsatz auf real konstant gehaltene Mieten; nominale Variante siehe unten).
+
+**Risikofreies Basisniveau (belegt, datiert):** Jahresmittel der **10-jaehrigen
+Bundesobligation (Eidgenoss)**. Stand **Juni 2026 rund 0.32-0.40 %** (4.6.: 0.40 %; 22.6.:
+0.32 %; Quelle: tradingeconomics/SNB-Datenportal, Web 06.2026) — also nahe null, aehnlich/tiefer
+als im WP-Kursstand Sommer 2023. Das stuetzt die WP-2023-Anker und legt sie ans **untere Band**.
+
+**Additive Herleitung (bottom-up, Modell S. 54):**
+
+| Komponente | Bandbreite | Beleg / Bemerkung |
+|---|---|---|
+| Risikofreier Basiszins (10-j Eidgenoss, Jahresmittel) | **~0.35 %** | Web 06.2026 (0.32-0.40 %); bei Anwendung Tagesstand pruefen |
+| + Immobilien-Basisrisiko / Illiquiditaetspraemie | **+1.6 bis +1.9 Pp** | Rueckgerechnet, damit beste Lage Wohnen ~2.1 % ergibt (S. 55); *Annahme* |
+| + Makro-/Mikrolage (Gemeinde-Rating) | **0 bis +0.9 Pp** | ZH/Genf 0 → Durchschnittsgem. +0.6 → schlechte Gem. +0.9 (aus S. 52 abgeleitet) |
+| + Objekt-/Ertragsrisiko (Groesse, Qualitaet, Alter, Leerstand) | **0 bis +0.5 Pp** | Grosse Ueberbauung/Altbau/Leerstand am oberen Rand (S. 55) |
+| = **Diskontsatz Wohnbau (real)** | **2.1-3.3 %** | deckt sich mit WP top-down (s.u.) |
+
+**Konsolidierte Diskontsatz-Tabelle je Nutzung/Lage (real, Stand 06.2026):**
+
+| Nutzung / Lage | Diskont real | Herkunft | Reife |
+|---|---|---|---|
+| Wohnen — Zuerich/Genf, beste Lage | **2.1-2.2 %** | WP S. 52/55 | belegt |
+| Wohnen — andere Stadtzentren | **2.3-2.5 %** | WP S. 52 | belegt |
+| Wohnen — Durchschnittsgemeinde (Neubau) | **2.6-2.8 %** | WP S. 52/55; JANS lebt **2.70 %** (Residualwert) | belegt |
+| Wohnen — schlechte/teils leerstehende Altbauten | **3.0-3.3 %** | WP S. 55 | belegt |
+| Geschaeft/Gewerbe (Buero) | **2.7-3.8 %** (Wohnen + 0.6-1.5 Pp) | WP S. 55/117 | belegt |
+| Spezial/Risiko (Hotel, EKZ schlechte Lage) | **> 3.8 %** | WP S. 55 (Band offen) | belegt |
+| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 %** (*Annahme*: Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag) | Bruecke zu [[investorenmarkt-makro]] / Skill healthcare-wirtschaftlichkeit | *speculative* — realer Fall offen (T17) |
+
+**Real vs. nominal (Fisher):** Die obigen Saetze sind **real** und werden auf **real konstante**
+Mieten angewendet (CH-Standard WP/IAZI). Wer **nominal** rechnet (Mieten mit erwarteter Teuerung
+hochwachsen lassen), muss konsistent einen **nominalen Diskontsatz ≈ real + erwartete
+Langfrist-Teuerung** ansetzen. Bei SNB-Inflationsziel < 2 % und Ist-Teuerung 0.6 % (05.2026,
+[[investorenmarkt-makro]]) liegt die Langfrist-Annahme bei **~1.0 %** → nominaler Diskont
+**~3.1-4.3 % Wohnen**. Real und nominal muessen denselben Wert ergeben; **nie real und nominal
+mischen** (haeufigster DCF-Fehler).
+
+⚠ **Anwendungs-Leitplanke (Sensitivitaet):** **−20 Bps Diskont → Marktwert +16 %** (S. 62).
+Die Satzwahl ist die heikelste Annahme — im Band bleiben, nie scheingenau auf 1 Bp, und die
+Wahl gegen Makrolagen-Rating + Brutto-/Nettorendite-Gegenprobe plausibilisieren.
+
+**Noch offen (echte Bring-Schuld Raphael, D3):** die **JANS-eigenen Faustregeln** fuer den
+Illiquiditaets-/Objektzuschlag (oben als *Annahme* ausgewiesen), die **Gewerbe-Feinabstufung**
+je Mietersegment und der **Healthcare-Zuschlag** (real, sobald ein Pflegeheim-Bewertungsfall
+vorliegt, T17). Die *belegten* Zeilen sind damit abschliessend; die *Annahme*-Zeilen warten auf
+Raphaels Kalibrierung.
+
 ### JANS-Bewertungskonvention (aus realen Faellen belegt, Stand 06.2026)
 
 Die effektiv in den JANS-Deliverables verwendeten Saetze (LB Thalwil 9568 28.03.2025, MA
@@ -313,6 +366,14 @@ Nettoertraege + Exitwert werden auf den Barwert abgezinst.
   + **Marktkontext 2026** (SNB 0 % / Referenzzins 1.25 % → WP-2023-Anker bleiben plausibel, eher
   unteres Band) eingearbeitet. Offen bleibt die **vollstaendige JANS-Tabelle je Nutzung/Lage/
   Risiko** (real vs. nominal, Gewerbe-/Healthcare-Zuschlaege) — Bring-Schuld Raphael D3.
+- ✓ 2026-06-26 (D3 konsolidiert, Run 9): **JANS-Diskontsatz-Tabelle** als eine additive
+  Bottom-up-Herleitung (risikofreier Basiszins 10-j Eidgenoss **~0.35 %, Juni 2026** + Illiquiditaets-/
+  Lage-/Objektzuschlag) gegen den WP-top-down-Satz plausibilisiert; konsolidierte Tabelle je Nutzung/
+  Lage (Wohnen 2.1-3.3 %, Gewerbe 2.7-3.8 %, Healthcare ~3.0-4.0 % *Annahme*); **Real-vs-nominal-
+  Bruecke (Fisher)** mit Langfrist-Teuerung ~1.0 % → nominal ~3.1-4.3 % Wohnen; Sensitivitaets-
+  Leitplanke −20 Bps→+16 %. Belegte Zeilen abschliessend; die JANS-Faustregeln (Illiquiditaets-/
+  Objektzuschlag, Gewerbe-Feinabstufung, Healthcare-Zuschlag) bleiben als *Annahme* markierte
+  Bring-Schuld (T17 fuer Healthcare).
 - Bewirtschaftungs-/Unterhaltsquoten je Objekttyp: WP-Richtwerte siehe
   [[residualwertmethode]] (Betriebskosten 4.5-6 % Soll-Ertrag, IH 13-16 / IS 17-25
   CHF/m2 HNF); JANS-Abgleich offen.

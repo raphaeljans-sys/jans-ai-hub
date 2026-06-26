@@ -37,6 +37,14 @@ ab — Prioritaet auf dem 236-seitigen Wuest-Kurs (Curriculum in `training/curri
 Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus**. Run 8 hat keine neue Quelle ingestiert,
 sondern die bereits ausgewertete **CS Niederhasli** analytisch zum **CS-Sensitivitaets-Generator**
 verallgemeinert (T18, geschlossene Break-Even-Formel, aus den Ist-Zahlen validiert) und den
-Mietpuls auf Mai-2026 aktualisiert. Offen bleiben nur die Freigabe-gebundenen Quellen: **D4**
+Mietpuls auf Mai-2026 aktualisiert.
+
+**Stand Run 9 (2026-06-26):** weiter im Vertiefungs-/Aktualisierungs-Modus. Keine SharePoint-Quelle
+ingestiert; stattdessen die offene **D3-Aufgabe (T-Teil)** geschlossen — alle belegten Diskontsatz-
+Anker zur **konsolidierten JANS-Diskontsatz-Tabelle** zusammengefuehrt (Bottom-up + WP-top-down,
+real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-j Bundesobligation
+~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
+Referenzzins 1.25 % unveraendert. Offen bleiben nur die Freigabe-gebundenen Quellen: **D4**
 (`Immo-02-P23D-*.xlsx` Residualwert-/Pre-Check-Tool-Formeln), **D8** (`_Kennwerte Jans.docx` +
-Healthcare-DOCX) und **T17** (realer Healthcare-Bewertungsfall, noch nicht vorhanden).
+Healthcare-DOCX), **T17** (realer Healthcare-Bewertungsfall) und die **JANS-Diskontsatz-Faustregeln**
+(D3-Rest: Illiquiditaets-/Objekt-/Healthcare-Zuschlag — Bring-Schuld Raphael).

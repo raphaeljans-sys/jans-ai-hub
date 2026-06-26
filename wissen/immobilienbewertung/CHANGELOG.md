@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-26 — Training-Run 9: JANS-Diskontsatz-Tabelle konsolidiert (D3 T-Teil) + Marktpuls
+
+- **`wiki/ertragswert-dcf.md`** (06-26, → established): neue Sektion **JANS-Diskontsatz-Tabelle (D3
+  konsolidiert)** — alle bisher verstreuten Diskontsatz-Anker (WP S. 52/55, Risikozuschlagsmodell
+  S. 54, JANS-Konvention 2.50/2.70 %) zu **einer** additiven Bottom-up-Herleitung zusammengefuehrt:
+  risikofreier Basiszins **10-j Eidgenoss ~0.35 % (Juni 2026, Web)** + Illiquiditaets-/Lage-/
+  Objektzuschlag, gegen den WP-top-down-Satz plausibilisiert (beide Wege → gleiche Bandbreite).
+  Konsolidierte Tabelle je Nutzung/Lage (Wohnen 2.1-3.3 %, Gewerbe 2.7-3.8 %, Healthcare
+  ~3.0-4.0 % *Annahme*) + **Real-vs-nominal-Bruecke (Fisher**, Langfrist-Teuerung ~1.0 % → nominal
+  ~3.1-4.3 % Wohnen) + Sensitivitaets-Leitplanke −20 Bps → +16 %. Belegte Zeilen abschliessend; die
+  JANS-Faustregeln (Illiquiditaets-/Objektzuschlag, Gewerbe-Feinabstufung, Healthcare-Zuschlag)
+  bleiben als *Annahme* markierte Bring-Schuld (Healthcare → T17).
+- **`wiki/investorenmarkt-makro.md`** (06-26): Marktpuls-Refresh — **Rendite 10-j Bundesobligation
+  ~0.32-0.40 % (Juni 2026)** neu als risikofreies Basisniveau erfasst; Web-Check bestaetigt
+  **SNB-Leitzins 0.00 % (19.06) + Referenzzins 1.25 %** unveraendert gegenueber Run 8.
+- Register: `wissensluecken.md` (D3 T-Teil ✓, D3 von «D/T hoch» auf «D mittel» zurueckgestuft),
+  `curriculum.md` (E7 laufend Run 9), `raw/_INGESTED.md` (Stand Run 9), Output
+  `outputs/2026-06-26_training-run9.md`.
+
 ## 2026-06-22 — Training-Run 8: CS-Sensitivitaets-Generator formalisiert (T18) + Mietpuls 05.2026
 
 - **`wiki/projektstruktur-deliverables.md`** (06-22, → established): neue Sektion **CS-Sensitivitaets-

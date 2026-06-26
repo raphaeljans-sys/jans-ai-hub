@@ -10,7 +10,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 |---|---|---|---|---|
 | D1 | **UBS Fact Sheets veraltet**  (zudem Langnau am Albis ganz fehlend) | D | hoch | Waedenswil (2022), Einsiedeln/Regensdorf/Wald (12.2023) neu bestellen; relevante Kerngemeinden ergaenzen (deine aktiven Maerkte) |
 | D2 | **Bodenpreise nur Screenshots** | D | hoch | Strukturierte Bodenpreis-Quelle: Zugang Handaenderungs-/Bodenpreisstatistik (Kanton ZH/SZ), oder Wuest-/IAZI-Bodenpreis-Abo. Heute nicht maschinenlesbar |
-| D3 | **Diskontsatz-Herleitung undokumentiert** | D/T | hoch | Deine Faustregeln/Bandbreiten je Nutzung+Lage+Risiko (real vs. nominal) — als Input fuer eine JANS-Diskontsatz-Tabelle |
+| D3 | **Diskontsatz-Herleitung** — Geruest steht, JANS-Faustregeln offen | D | mittel | T-Teil ✓ (Run 9: konsolidierte Tabelle, belegt). Offen nur noch DEINE Faustregeln: Illiquiditaets-/Objektzuschlag, Gewerbe-Feinabstufung je Mietersegment, Healthcare-Zuschlag (real vs. nominal) — als Kalibrierung der *Annahme*-Zeilen |
 | D4 | **Excel-Tool-Logik (Residualwert/Pre-Check)** | D/T | hoch | Freigabe, die `Immo-02-P23D-*.xlsx` zu oeffnen/auszulesen, damit die Formel-Logik (Diskontierung, Terminal Value, Margen) reverse-engineered und dokumentiert wird |
 | D5 | **Margen-/Finanzierungsannahmen** | D | mittel | Uebliche Bautraegermarge (%), Finanzierungszins/Laufzeit, Vermarktungs-/Reserve-% deiner Praxis |
 | D6 | **Ausnuetzungsziffer-Kennwerte fehlen** | D | mittel | `IMMO-06 WOHNEN Ausnuetzungsziffer` ist leer — typische AZ/GFZ je Zone/Gemeinde sammeln (oder via Skill baurecht ziehen) |
@@ -25,6 +25,16 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | T17 | **Healthcare-Bewertungsfall**: im Bewertungsordner existiert keiner (alle Wohnen/MFH/STWE). Brücke zu Skill `healthcare-wirtschaftlichkeit` (2410 WALD/Nova) bauen — ein reales Pflegeheim/Klinik-Bewertungs-Deliverable als Referenz erfassen, sobald vorhanden (Bring-Schuld Raphael) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare-Kennwerte | [[projektstruktur-deliverables]], [[ertragswert-dcf]] |
 
 ## Erledigt
+
+- ✓ 2026-06-26 **D3 (T-Teil)** (Run 9) **JANS-Diskontsatz-Tabelle konsolidiert**: alle belegten
+  Anker (WP S. 52/55, Risikozuschlagsmodell S. 54, JANS-Konvention 2.50/2.70 %) zu **einer**
+  additiven Bottom-up-Herleitung zusammengefuehrt — risikofreier Basiszins **10-j Eidgenoss
+  ~0.35 % (Juni 2026, Web)** + Illiquiditaets-/Lage-/Objektzuschlag, gegen den WP-top-down-Satz
+  plausibilisiert. Konsolidierte Tabelle je Nutzung/Lage (Wohnen 2.1-3.3 %, Gewerbe 2.7-3.8 %,
+  Healthcare ~3.0-4.0 % *Annahme*) + **Real-vs-nominal-Bruecke (Fisher**, Langfrist-Teuerung
+  ~1.0 % → nominal ~3.1-4.3 % Wohnen). Belegte Zeilen abschliessend; die JANS-Faustregeln bleiben
+  als *Annahme* markierte Bring-Schuld → [[ertragswert-dcf]]. D3 damit von «D/T hoch» auf «D
+  mittel» zurueckgestuft.
 
 - ✓ 2026-06-22 **T18** (Run 8) **CS-Sensitivitaets-Generator** formalisiert: die Zwei-Modell-Logik
   als ein Rechen-Schema **Marge(δ) = 1 − K0(1+βδ)/[E0(1+αδ)]** mit geschlossener Break-Even-Formel
