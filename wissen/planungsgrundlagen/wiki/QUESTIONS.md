@@ -116,6 +116,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   verifizieren.
 - [ ] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload) am
   realen KISPI-Fall dokumentieren, sobald der Nachweis dort gefuehrt ist. (neu 2026-06-12)
+- [x] **D7** Private Kontrolle Energie ZH: wer unterzeichnet den Energienachweis, welche Befugnis
+  deckt welches EN-Formular? ✓ **2026-06-26 (Run 10):** Merkblatt Baudirektion ZH/AWEL «Liste der
+  Befugten» (Stand April 2025) + BBV I § 4-7 (LS 700.21) — drei Unterschriften (Bauherr Hauptformular
+  § 6 BVV; Projekt-Verantw. + **Befugte** technische Formulare § 4 BBV I), Befugnis-Matrix
+  Wä/He/Kl/Bl/Lä ↔ EN-101…141/S/LN, **interkantonale Geltung** (Firmen nur ZH; natuerliche Personen
+  ZH/AR/GL/GR/SZ/SG → SZ-Projekt via natuerliche Person), Minergie-Label entlastet → NEU
+  [[energie-private-kontrolle-zh]].
+- [~] **D8 / D1** Graue Energie / THGE als ZH-Grenzwert (Pa.Iv. 20.433 → MuKEn 2025). **Stand
+  2026-06-26 (Run 10):** Planungsgrundlage erfasst — SIA-2040-Richtwerte Wohnen + reales JANS-
+  Oekobilanz-Deliverable (Schlierenweg 31, ZPF 28.03.2022) → [[energie-uebersicht]] §Graue Energie;
+  **Methodik-Tiefe in KB `wissen/energie` [[graue-energie]]** (kein Doppel). **Offen:** konkrete
+  ZH-Gesetzes-/Verordnungsfassung mit graue-Energie-Grenzwert nachziehen, sobald publiziert.
 
 ## E — Connector/Tooling
 - [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt

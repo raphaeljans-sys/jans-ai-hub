@@ -91,7 +91,9 @@ EVEN-Version verwenden.
 ## Offen (→ QUESTIONS)
 - ✓ **D4 erledigt** (2026-06-12): Fachformular-Liste belegt → `[[energie-energienachweis-zh-formulare]]`.
 - ✓ **E6 erledigt** (2026-06-18): Brandschutz/Naturgefahren Solar → `[[energie-pv-brandschutz]]`.
+- ✓ **D7 erledigt** (2026-06-26): Private Kontrolle Energie ZH → `[[energie-private-kontrolle-zh]]`.
 - ~ **D5 teil-erledigt** (2026-06-18): Benchmark-Tabelle Typ A/E/Flachdach belegt; Typ B/C/D offen.
+- ~ **D8/D1 teil** (2026-06-26): graue-Energie-Planungsgrundlage erfasst (SIA 2040 + JANS-Benchmark);
+  ZH-Grenzwert MuKEn 2025 nachziehen, sobald kant. Gesetz/Verordnung publiziert.
 - D6: EVEN-Bedienung am realen KISPI-Fall dokumentieren (Maskenfuehrung/Rollen).
-- E5/D1: ZH-Umsetzung MuKEn 2025 nachziehen, sobald kant. Gesetz/Verordnung publiziert.
 - Kandidat: eigenes Skill `energie-nachweis`, sobald die Domaene traegt (D3).
