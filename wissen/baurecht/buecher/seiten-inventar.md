@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-06-19
+last_updated: 2026-06-26
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -370,15 +370,15 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 352 | 2 | ~699 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.17.jpg` |  |
 | 353 | 2 | ~701 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.19.jpg` |  |
 | 354 | 2 | ~703 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.21.jpg` |  |
-| 355 | 2 | ~705 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.22.jpg` |  |
-| 356 | 2 | ~707 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.24.jpg` |  |
-| 357 | 2 | ~709 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.26.jpg` |  |
-| 358 | 2 | ~711 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.27.jpg` |  |
-| 359 | 2 | ~713 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.29.jpg` |  |
-| 360 | 2 | ~715 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.31.jpg` |  |
-| 361 | 2 | ~717 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.33.jpg` |  |
-| 362 | 2 | ~719 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.34.jpg` |  |
-| 363 | 2 | ~721 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.36.jpg` |  |
+| 355 | 2 | 706/707 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.22.jpg` | [[band-2/12-baureife]] |
+| 356 | 2 | 708/709 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.24.jpg` | [[band-2/12-baureife]] |
+| 357 | 2 | 710/711 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.26.jpg` | [[band-2/12-baureife]] |
+| 358 | 2 | 712/713 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.27.jpg` | [[band-2/12-baureife]] |
+| 359 | 2 | 714/715 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.29.jpg` | [[band-2/12-baureife]] |
+| 360 | 2 | 716/717 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.31.jpg` | [[band-2/12-baureife]] |
+| 361 | 2 | 718/719 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.33.jpg` | [[band-2/12-baureife]] |
+| 362 | 2 | 720/721 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.34.jpg` | [[band-2/12-baureife]] |
+| 363 | 2 | 722/723 | [x] | `Bildschirmfoto 2026-06-07 um 11.51.36.jpg` | [[band-2/12-baureife]] |
 | 364 | 2 | ~723 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.38.jpg` |  |
 | 365 | 2 | ~725 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.40.jpg` |  |
 | 366 | 2 | ~727 | [ ] | `Bildschirmfoto 2026-06-07 um 11.51.41.jpg` |  |

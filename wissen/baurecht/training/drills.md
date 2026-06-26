@@ -443,3 +443,41 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   (nicht verlaengerbar, → [[baubewilligungsverfahren]]). Vorgaengig alle «vor Baubeginn» faelligen Auflagen
   erfuellen (→ Skill `auflagebereinigung`). **Lueckenstatus:** Beleg vollstaendig, keine offene Frage.
   _[2026-06-22]_
+
+## Kap. 12 — Baureife (2026-06-26, Run 14)
+
+### Modell C — Selbsttest-Karten
+- **F:** Was bedeutet «baureif» nach dem PBG, und bis wann muss die Baureife vorliegen? — **A:**
+  Baureif = **erschlossen** (genuegend zugaenglich, mit Wasser/Energie versorgt, einwandfreie
+  Beseitigung von Abwaessern/Abfaellen/Altlasten) **und** ohne negative Praejudizierung kuenftiger
+  Planung (**§ 234 PBG**). Sie muss **spaetestens bei Bezugsbereitschaft** vorliegen, teils schon
+  **auf Baubeginn hin** (**§ 233 Abs. 1 PBG**; Bd 2, S. 708). _[2026-06-26]_
+- **F:** Wird die Baureife bei jedem Umbau geprueft? — **A:** **Nein** — nur bei Umbauten/Nutzungs-
+  aenderungen, die von den bisherigen Verhaeltnissen **wesentlich** abweichen (**§ 233 Abs. 2 PBG**).
+  Wesentlich = faellt bezueglich der Baureife-Anforderungen ins Gewicht; entscheidend meist die
+  verkehrliche Mehrbeanspruchung (Dorfladen+Imbiss+5 PP = wesentlich, VB.2006.00403; Zweitwohnung im
+  EFH = nicht, VB.2006.00181; Bd 2, S. 709). _[2026-06-26]_
+- **F:** Wie weit darf der Hauseingang vom Ende der befahrbaren Zufahrt entfernt sein? — **A:**
+  Abgewickelt **bis 80 m** im Regelfall (VB.2005.00334); **max. 40 m** bei Gebaeudehoehe **> 13 m**
+  oder starker Personenbelegung (Anstalten/Schulen/Warenhaeuser) — dann ggf. ganze Laengsfassade fuer
+  Rettungsgeraete anfahrbar (RB 1995 Nr. 80; Bd 2, S. 722). _[2026-06-26]_
+- **F:** Welche Mindestmasse hat eine Notzufahrt? — **A:** **≥ 3 m breit** mit Bankett,
+  Tragfaehigkeit **≥ 16 t**, tatsaechlich und rechtlich gesichert (**§ 3 ZN** + Anhang; VB.2011.00031;
+  VB.2017.00232; Bd 2, S. 723). _[2026-06-26]_
+- **F:** Wirkt § 234 PBG (planungsrechtliche Baureife) positiv oder negativ? — **A:** **Nur negativ**
+  (befristete Bausperre): ein heute unzulaessiges Vorhaben kann **nicht** mit kuenftigem Recht
+  bewilligt werden — dessen Rechtskraft ist abzuwarten (VB.2008.00044; RB 1998 Nr. 113; Bd 2, S. 710).
+  _[2026-06-26]_
+- **F:** Wie lange gilt eine Planungszone, und worauf beruht sie? — **A:** **Laengstens 3 Jahre**,
+  um **2 Jahre** verlaengerbar (**§ 346 Abs. 2 PBG**); sie entspricht der bundesrechtlichen
+  Planungszone nach **Art. 27 Abs. 1 RPG** (Bd 2, S. 711). _[2026-06-26]_
+
+### Modell A — Frage->Beleg-Drill
+- **Buerofrage:** «Unsere Klinik-Aufstockung ist > 13 m hoch — reicht die bestehende Zufahrt, die
+  60 m vom Haupteingang endet?» — **Beleg-Antwort:** Im Regelfall waeren 60 m (< 80 m) zulaessig,
+  ABER eine Klinik gilt als Bau mit **starker Personenbelegung** und ist **> 13 m** → es gilt die
+  **40-m-Regel** (Bd 2, S. 722; RB 1995 Nr. 80). Die 60 m sind damit **zu lang**; zudem muss bei
+  fehlenden Sicherheitstreppenhaeusern eine ganze Laengsfassade fuer fahrbare Rettungsgeraete
+  erreichbar sein. Frueh mit Feuerwehr/Feuerpolizei abstimmen (Schnittstelle Skill `brandschutz`).
+  **Lueckenstatus:** Beleg vollstaendig; offen nur die genaue ZN/EV-Masszahl (Restschuld Kap. 12,
+  S. 724 ff.). _[2026-06-26]_
