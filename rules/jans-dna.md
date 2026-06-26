@@ -43,9 +43,11 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen einsetzen; Du gross;
   Apostroph-Zahlen; warmer, anbietender Schluss; Gruss nach Mail-Typ wählen (operativ →
   Kurzgruss «Lieber Gruss»/«Lgr.», dokumentierend → «Freundliche Grüsse» + voller Block, auch
-  bei «Hoi»); **Geld-/Rechnungs-/Abwicklungsmail auch im Du → «Freundliche Grüsse» + voller
-  Block** (Beleg-/Buchhaltungssicherheit schlägt Lockerheit der Anrede), reine Plan-/Feedback-
-  Korrektur ohne Geld → Kurzgruss «Lieber Gruss» auch nach «Geschätzter»; «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe für freundlich-persönliche
+  bei «Hoi»); **Rechnungs-/Beleg-/Abwicklungsmail auch im Du → «Freundliche Grüsse» + voller
+  Block** (Beleg-/Buchhaltungssicherheit schlägt Lockerheit der Anrede), ein **verhandelbares
+  Angebot/Offerte zur Besprechung** («ruf mich an») bleibt dagegen Kurzgruss «Lieber Gruss/Lgr»
+  trotz Geld-Bezug (Angebot ist operativ/vorwärtsgerichtet, nicht gebuchte Abwicklung), ebenso
+  reine Plan-/Feedback-Korrektur ohne Geld → Kurzgruss «Lieber Gruss» auch nach «Geschätzter»; «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe für freundlich-persönliche
   Kontakte; «Hallo <Vorname>» als neutral-freundlicher Du-Einstieg (deutschsprachige
   Dienstleister, zwischen «Hoi» und «Lieber»); gestapelte Anrede «Hoi lieber <Name>» + CH-Koseform
   des Vornamens («Sämi») NUR im vertraut-sozialen Peer-Du; «Ich ersuche um» als förmliche

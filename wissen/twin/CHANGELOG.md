@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-26 — twin-fidelity-review (alle 2 Tage)
+- Selbsttest gegen 3 frische authentische Goldproben (Sent rj@, Nov–Dez 2025): A cold-Sie
+  Hersteller-Sammelpostfach (Grillmotor, met-all.ch), B operativ-Du Offerte-Transmittal
+  («Hoi Peter / Offertenvorschlag / lgr», Honorarofferte im Anhang), C vertrauter Bauherr-Du
+  konditional (Vordach-Naeherbaurecht/Abaenderungseingabe, «Hoi Stefan … Lgr»).
+- **Gesamt-Fidelity 89** (260622: 88; Aufwaertstrend haelt). Je Facette: Stimme 87, Denken 89,
+  Haltung 89, Beziehung 91, Fachsignatur 89 (erholt von 86), Arbeitsweise 90. Stimme neu duennste.
+- [[stimme]] **geschaerft (D1):** Gruss-Paradox praezisiert — Block-Trigger ist **Rechnung/Beleg/
+  gebuchte Abwicklung**, NICHT jede Geld-Mail; ein verhandelbares **Angebot/Offerte** («ruf mich
+  an») bleibt Kurzgruss «lgr». Loest die latente Spannung zur 260622-Formulierung «Geld-/…-mails»
+  ↔ Marker «Angebot = Du-operativ → Lieber Gruss» (Mailbatch 07). Do-Zeile praezisiert.
+- [[stimme]] **neu (D2):** kommerzielle Kurz-Bestellanfrage = neutralster Sachton + voller Block,
+  OHNE Behoerden-Hoeflichkeit (kein «Ich ersuche um»/Begruendung/Vorab-Dank).
+- DNA neu kompiliert (`build_dna.py`); Angebot-Carve-out im Auto-Block verifiziert.
+- twin-fragesteller: 4 neue Fragen (Runde 260626) — Angebot↔Rechnung-Gruss, Warm-Wunschformel
+  bei Sachkauf, Telefon-Verlagerung bei «ruf mich an», Versal-Betonung. Report
+  `outputs/2026-06-26_fidelity.md`.
+
 ## 2026-06-24 — twin-mail-training (täglich), Batch 15
 - Sequentieller Sent-Items-Sweep rj@ **2025-10-02 bis 2025-10-08** (15 Mails gesichtet, 10
   authentische RJ-Texte destilliert, 4 Microsoft-Support-/Auto-Annahme-Mails ignoriert).

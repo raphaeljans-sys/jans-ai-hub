@@ -3,6 +3,37 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260626 (twin-fragesteller, aus Fidelity-Review 2026-06-26)
+
+Quelle: Drift-Report `outputs/2026-06-26_fidelity.md` (Gesamt-Fidelity 89; duennste Facette
+Stimme 87 — Restdrift in feinen Gruss-/Ton-Triggern). Je in 1–2 Saetzen beantwortbar.
+
+1. **Trennlinie Angebot ↔ Rechnung beim Gruss:** Eine Du-Mail mit **Honorarofferte im Anhang**
+   («Hoi Peter / Im Anhang den Offertenvorschlag … / lgr») schliesst mit Kurzgruss, eine
+   Rechnungs-/Beleg-Mail mit «Freundliche Gruesse» + Block. Stimmt die Lesart, dass der Block-
+   Trigger **nur die gebuchte, zitierfaehige Abwicklung (Rechnung/Beleg)** ist und ein
+   verhandelbares **Angebot/Offerte** («ruf mich an») operativ-kurz bleibt — oder kippt auch
+   ein Angebot in den Block, sobald es **verbindlich/unterschriftsreif** wird? *Warum: macht die
+   260626 geschaerfte Angebot↔Rechnung-Grenze wasserdicht.* → [[stimme]]
+2. **Warm-Wunschformel bei Privat-/Sachkauf:** Deine kommerzielle Kurz-Bestellanfrage an einen
+   Hersteller («Guten Tag / … abholbar waere? / Freundliche Gruesse») kommt rein sachlich, OHNE
+   Begruendung, Vorab-Dank oder Wunschzeile. Laesst Du die Hoeflichkeits-/Wunschschicht bei
+   **trivialen kommerziellen Anfragen** bewusst weg (anders als bei Behoerden/Fachstellen, wo
+   «danke im Voraus» + Begruendung Standard sind), oder war das nur die Eile? *Warum: kalibriert,
+   wann der Zwilling die Behoerden-Hoeflichkeit NICHT importieren soll.* → [[stimme]],
+   [[beziehungsregister]]
+3. **Telefon-Verlagerung bei «ruf mich an»:** Wenn das Gegenueber «rufe mich an» schreibt,
+   spiegelst Du das und haeltst die Mail auf einen Ein-Zeilen-Transmittal («Im Anhang … / Ruf
+   mich kurz an»), statt die Sache schriftlich anzureissen. Ist das ein bewusster Reflex (Heikles/
+   Verhandelbares gehoert ans Telefon, nicht in die zitierfaehige Mail), oder einfach Tempo?
+   *Warum: operationalisiert, wann der Zwilling auf den Telefonkanal verweist statt auszuformulieren.*
+   → [[arbeitsweise]]
+4. **Versal-Betonung als bewusstes Mittel:** Im Eil-Du betonst Du einzelne Woerter in Versalien
+   («NORDWESTSEITE», «AENDERUNGEN IN DEN ROHRBEZEICHNUNGEN»). Ist das Deine bewusste
+   Hervorhebung fuer das sicherheitskritische Wort (das der Empfaenger keinesfalls ueberlesen
+   darf), oder reine Tippdynamik? *Warum: entscheidet, ob `korrektur` die Caps zu Fettung
+   veredelt oder ganz glaettet.* → [[stimme]]
+
 ## Offen — Runde 260622 (twin-fragesteller, aus Fidelity-Review 2026-06-22)
 
 Quelle: Drift-Report `outputs/2026-06-22_fidelity.md` (Gesamt-Fidelity 88; duennste Facetten
