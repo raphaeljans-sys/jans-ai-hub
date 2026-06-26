@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.06.2026 08:05:13
+Stand: 26.06.2026 08:25:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 26.06.2026 08:05:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b45bef7 nas-selfcommit: 3 Datei(en) 2026-06-26 08:00
+- d8e9d4e sync: ag-gruendung-monitor: Status 26.06. — nichts Neues (UBS/Notariat), HRA-Eingangsquittung erfasst
