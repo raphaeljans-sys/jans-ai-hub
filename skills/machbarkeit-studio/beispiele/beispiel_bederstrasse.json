@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "studie": "Studie 2699 · Machbarkeits-Studio",
+    "kicker": "Machbarkeits-Studio · Potenzialstudie Typ B",
+    "titel": "Verdichtungspotenzial Bederstrasse",
+    "untertitel": "Bederstrasse 49, 8002 Zürich · Parz. EN2850 · MFH-Entwicklung · Neubau / Verdichtung · Stand 27.06.2026",
+    "objekt": "Mehrfamilienhaus (Entwicklung)",
+    "ort": "Zürich-Enge",
+    "parzelle": "EN2850",
+    "egrid": "CH689499917725",
+    "zone": "W3 (Annahme)",
+    "kanton": "ZH",
+    "gemeinde": "Stadt Zürich (BFS 261)",
+    "grundstuecksflaeche_m2": 1180,
+    "stand": "27.06.2026",
+    "bearbeiter": "JANS",
+    "bauherrschaft": ""
+  },
+  "annahmen": {
+    "modus": "verkauf",
+    "bgf_faktor": 1.15,
+    "gv_pro_gf": 3.3,
+    "hnf_faktor": 0.75,
+    "kennwert_chf_m3": 950,
+    "kennwert_band_low": 850,
+    "kennwert_band_high": 1050,
+    "kennwert_quelle": "wissen/grobkosten — MFH gehoben, Region ZH, Preisstand 2026",
+    "geschosshoehe_m": 3.0,
+    "verkaufspreis_chf_m2": 12000,
+    "miete_chf_m2_jahr": 360,
+    "kap_satz_pct": 3.0,
+    "marge_pct": 7.0,
+    "diskont_pct": 3.0,
+    "abzug_chf": 0,
+    "landpreis_chf": null
+  },
+  "leitvariante_index": 1,
+  "varianten": [
+    {"name": "A · Regelbau", "kurz": "Zonenkonform W3", "ziffer": 0.90, "geschosse": 3, "zuschlag_pct": 0, "nutzung": "Wohnen"},
+    {"name": "B · Arealüberbauung", "kurz": "+ Mehrlänge / Bonus", "ziffer": 1.10, "geschosse": 4, "zuschlag_pct": 0, "nutzung": "Wohnen"},
+    {"name": "C · Maximalvolumen", "kurz": "Ausreizung Hülle", "ziffer": 1.25, "geschosse": 4, "zuschlag_pct": 3, "zuschlag_label": "Komplexität", "nutzung": "Wohnen"}
+  ],
+  "baurecht": [
+    {"label": "Zone", "wert": "W3 (Annahme)", "quelle": "BZO Stadt ZH — verifizieren"},
+    {"label": "Ausnützung / GFZ", "wert": "0.90 (Regelbau)", "quelle": "BZO — verifizieren"},
+    {"label": "Arealüberbauung", "wert": "Mehrausnützung möglich", "quelle": "PBG §69 ff."},
+    {"label": "Grundstücksfläche", "wert": "1'180 m² (Annahme)", "quelle": "Kataster — verifizieren"},
+    {"label": "EGRID", "wert": "CH689499917725", "quelle": "amtl. Vermessung (geo-zh)"}
+  ],
+  "fazit": [
+    "Variante B (Arealüberbauung) maximiert den zahlbaren Landwert bei vertretbarem Risiko und ist die empfohlene Stossrichtung für ein Vorprojekt.",
+    "Variante C reizt die Hülle aus, der Mehrwert gegenüber B ist jedoch durch Komplexitäts-/Kostenzuschlag und Bewilligungsrisiko relativiert.",
+    "Nächster Schritt: BZO-Kennziffern und Grundstücksfläche amtlich verifizieren (OEREB-Auszug), dann Vorprojekt auf Variante B."
+  ],
+  "vorbehalte": [
+    "Zone, Ausnützungsziffer und Grundstücksfläche sind Annahmen und vor Vorprojekt über OEREB-Auszug / BZO Stadt Zürich zu verifizieren.",
+    "Erstellungskosten als Grobschätzung ± 25 % (Volumen × Kennwert, BKP 1–5).",
+    "Verkaufspreis CHF/m² HNF als Marktannahme Zürich-Enge; über UBS-Fact-Sheet / Makleranalyse gegenkontrollieren."
+  ],
+  "quellen": "Geodaten geo-zh (EGRID/Parzelle); Kennwerte wissen/grobkosten; Residualwert-Methode machbarkeit-Wissensbasis."
+}
