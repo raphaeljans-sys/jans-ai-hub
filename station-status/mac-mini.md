@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.06.2026 07:57:09
+Stand: 26.06.2026 08:07:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 26.06.2026 07:57:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 359ab71 baurecht-buch-training: Run 14 Kap. 12 Baureife Teil 1 (S. 707-723)
+- b45bef7 nas-selfcommit: 3 Datei(en) 2026-06-26 08:00
