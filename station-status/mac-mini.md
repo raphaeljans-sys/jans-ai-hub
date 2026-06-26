@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.06.2026 07:37:04
+Stand: 26.06.2026 07:57:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 26.06.2026 07:37:04
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- 2ff1ee2 nas-selfcommit: 2 Datei(en) 2026-06-26 07:30
+- 359ab71 baurecht-buch-training: Run 14 Kap. 12 Baureife Teil 1 (S. 707-723)
