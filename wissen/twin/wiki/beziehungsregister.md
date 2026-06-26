@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-25
+last_updated: 2026-06-26
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -394,6 +394,19 @@ reziprok «Lieber Raphael / Ciao Raphael». Bleibt aber **register-flexibel je n
 fachlich-liefernde Mail desselben Fadens (Grobkostenrange CHF 60'000–120'000) endet sachlich-warm
 «Lieber Gruss», die rein soziale «Beste Grüsse». Bestätigt «Register folgt dem Anlass, Anrede der
 wachsenden Vertrautheit»; 😊 erlaubt im warm-sozialen Du (→ [[stimme]]).
+
+## SVA-Amt-Mapping + drei Anreden an denselben Du-Kontakt am selben Tag (belegt Mailbatch 17, authentisch)
+- **Sozialversicherungsanstalt (SVA Zürich, Info-se@svazurich.ch):** unpersönlich-formelles
+  Amt-Sie ohne Ansprechperson — «**Guten Tag**» + ultraknappe Sachfrage («Gibt es noch offene
+  Rechnungen? Kann die Rechnung … als erledigt verbucht werden?») + «**Freundliche Grüsse**» +
+  voller Block (16.10.2025). Reiht sich neben ESTV ins **Amt-/Buchhaltungs-Sie-Cluster** (Bund/
+  Kanton/Sozialversicherung = Sie, egal welche Stelle; → [[stimme]] Gruss-Paradox Geld/Beleg).
+- **Drei Anreden an denselben Du-Kontakt am selben Tag** (stärkster Datenpunkt für «Register nach
+  Anlass», vgl. Mailbatch 03 Angerer): an Christoph Bopp am 17.10.2025 binnen Stunden «**Geschätzter
+  Christoph**» (verbindliche Offerte, 10:09 → «Freundliche Grüsse» + Block), «**Hoi Christoph**»
+  (operative Standard-Rückfrage swisstopo, 10:32 → «Lgr»), «**Lieber Christoph**» (warm-liefernder
+  Aufteilungsplan-Vorschlag, 11:52 → «Bester Gruss»). Eine Person, ein Tag, drei Stufen je nach
+  Gewicht der Einzelmail. Bestätigt: die Anrede variiert mit dem Anlass, nicht der Person.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

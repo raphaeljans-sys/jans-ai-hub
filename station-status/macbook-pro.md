@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.06.2026 06:44:34
+Stand: 26.06.2026 06:54:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:24)
@@ -9,7 +9,7 @@ Stand: 26.06.2026 06:44:34
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 90bf7ba sync: twin-fidelity-review: 2026-06-26
+- e5e960b nas-selfcommit: 1 Datei(en) 2026-06-26 06:45

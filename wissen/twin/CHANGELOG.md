@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-26 — twin-mail-training (täglich), Batch 17 (Sent rj@, 2025-10-09…10-20)
+- 15 Mails gesichtet, 5 Volltexte destilliert (WOMA Ebmatingen STWEG-Begründung/Bopp; eigene
+  Admin SVA + boesner; Lu/Yorck bereits via Batch 16 abgedeckt), 4 MS-Support/System/Unsubscribe/
+  Share ignoriert. Gewichtung authentisch (klar vor-Claude). Metrik 404 W: Du-Gross 1.0,
+  Apostroph 2× (1'200/2'400), Satzlänge ø 16.2 W.
+- [[fachsignatur]] **neu (Hauptbefund):** STWEG-Aufteilungsplan — Flächenauswertung nach SIA 416
+  (HNF/ANGF/VF/FF + Wohnungsspiegel); amtlicher Darstellungsstandard swisstopo «Empfehlung DigDok
+  STWE» + Notariate Kt. ZH (Massstab 1:100, Nummerierung Sondereigentumseinheiten, Abgrenzung
+  Gemeinschaft↔Sondereigentum); schlankes Tagespauschalen-Honorarmodell (2 × CHF 1'200.–);
+  Materialgespür im Alltagskauf (Japanpapier) bestätigt.
+- [[beziehungsregister]] **neu:** SVA Zürich → Amt-/Buchhaltungs-Sie «Guten Tag» + voller Block
+  (neben ESTV); drei Anreden an EINEN Du-Kontakt am selben Tag (Bopp: Geschätzter/Hoi/Lieber
+  Christoph je nach Mailgewicht) — stärkster «Register nach Anlass»-Beleg.
+- [[stimme]] **neu:** anbietender Offerten-Schluss «Ansonsten freu ich mich über eine effiziente
+  Zusammenarbeit»; Dank-Variante «Für Ihre kurze Rückmeldung bin ich Ihnen dankbar»; Metrik + ß-Slip.
+- raw/_INGESTED.md fortgeschrieben (abgedeckt bis 2025-10-20; nächster Lauf ab 2025-10-21);
+  raw/260626-mailbatch-17.md angelegt.
+
 ## 2026-06-26 — twin-fidelity-review (alle 2 Tage)
 - Selbsttest gegen 3 frische authentische Goldproben (Sent rj@, Nov–Dez 2025): A cold-Sie
   Hersteller-Sammelpostfach (Grillmotor, met-all.ch), B operativ-Du Offerte-Transmittal

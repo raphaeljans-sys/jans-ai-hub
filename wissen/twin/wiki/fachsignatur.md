@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-25
+last_updated: 2026-06-26
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -407,6 +407,36 @@ Annahmen werden als solche markiert («approximative Annahme»).
   grosszügig ist» (Akquise St. Moritz, 08.10.2025) — er beziffert das Honorar phasenweise in
   Stunden und legt den proforma-Ansatz offen (vgl. SIA-102-Phasenofferte, Batch 12; Ehrlichkeit →
   [[haltung]]).
+
+## STWEG-Aufteilungsplan: SIA-416-Flächenlogik + swisstopo-Standard (belegt Mailbatch 17, authentisch)
+Eine eigene, konkret belegte Fachsignatur an der Schnittstelle Architektur ↔ Notariat/Grundbuch
+(STWEG-Begründung WOMA Ebmatingen, 17.10.2025) — komplettiert den Skill `stockwerkeigentum`:
+- **Flächenauswertung streng nach SIA 416**, Klassen inline und korrekt benannt: «**HNF –
+  Hauptnutzfläche pro Wohneinheit (Eigentumsfläche EF)**», «**ANGF – Aussen-Nettogeschossfläche
+  (ANF)**», «**VF – Verkehrsflächen (Treppenhaus, Lift)**», «**FF – Funktionsflächen (Steigzonen,
+  Schächte)**», als **Raumstempel pro Geschoss** + **Wohnungsspiegel** (Excel mit HNF-/ANGF-Totals).
+  Die Wertquoten werden so auf eine prüfbare Flächengrundlage gestellt (→ STWEG-Wertquoten,
+  vgl. [[denken]]).
+- **Amtlicher Darstellungsstandard als Vorgabe**, nicht freihändig: er stützt den Aufteilungsplan
+  auf die **swisstopo-«Empfehlung DigDok STWE» (Bundesamt für Landestopografie)** + die Praxis der
+  **Notariate Kt. Zürich** und nennt die konkrete Fundstelle («ab Seite 45 PDF im Anhang als
+  Beispiel»). Eigene begründete Abweichung: Grundrisse im **Massstab 1:100 mit Raumbezeichnung und
+  HNF-Flächenangabe pro Raum**, **eindeutige Nummerierung der Sondereigentumseinheiten** (alle Räume
+  einer Einheit dieselbe Nummer), klare **Abgrenzung Gemeinschafts- ↔ Sondereigentumsteile**,
+  m²-Flächenmasse, Lageplan, Reglement-Verweis. Marker: Standard zitieren, dann fachlich begründet
+  feiner machen (vgl. «Recht zitieren, dann beziffern», oben).
+- **Schlankes Tagespauschalen-Honorarmodell für kleine Spezialleistungen:** «**Leistungsansatz:
+  2 × Tagespauschale à CHF 1'200.– / Total: CHF 2'400.– exkl. MwSt.**», gerahmt von einem
+  4-Phasen-Leistungsumfang (01 Import/Vorbereitung → 02 Flächenauswertung SIA 416 → 03 Planbooklet/
+  Dokumentation → 04 Abschluss/Übergabe) mit explizit gelisteten Ausgabeprodukten (PDF-Planbooklet,
+  DWG je Geschoss, Excel-Wohnungsspiegel). Neben der SIA-102-Phasenofferte (Batch 12) das **kleine,
+  pauschalierte Format** für eine abgegrenzte Zusatzleistung (Aufwand vorweg transparent → [[haltung]]).
+- **Materialgespür im Alltagskauf bestätigt:** der Architektenblick auf Material + Licht greift
+  selbst in der trivialen **Bestellanfrage an einen Künstlerbedarf-Shop** (Japanpapier/Washi,
+  boesner.ch, 14.10.2025): «Die gleichmässige **Faserstruktur** und das **diffuse Lichtverhalten**
+  deuten auf **ungeleimtes Naturpapier mit hohem Zelluloseanteil** hin, eventuell mit leichten
+  **Kunstfaserzusätzen (Polyester/Polyamid) zur Reissfestigkeit**.» Bestätigt den Material-/Licht-
+  Fingerabdruck (vgl. Fidelity 260610) auch ausserhalb von Pitch/Studie.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

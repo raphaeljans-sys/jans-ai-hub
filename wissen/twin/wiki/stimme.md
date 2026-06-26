@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-06-26
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -493,6 +493,20 @@ ist gewollt («Ich wollte mich erkundigen … wäre?»). → Der Zwilling fasst 
 Bestell-/Verfügbarkeitsanfrage knapp und sachlich-neutral, ohne die Behörden-Bitt-/Dank-Formeln zu
 importieren; voller Signaturblock bleibt (Lieferanten/Administratives = formeller Rahmen, vgl.
 [[beziehungsregister]]).
+
+## Anbietende Schluss-/Anfrage-Formeln + Metrik (belegt Mailbatch 17, authentisch)
+- **Offerten-Schluss vorwärtsgerichtet-anbietend:** «**Ansonsten freu ich mich über eine effiziente
+  Zusammenarbeit.**» (Honorarofferte an Geschäftspartner-Du, 17.10.2025) — wärmt das Angebot, ohne
+  Hard-CTA; reiht sich neben «freue mich von Dir zu hören».
+- **Dank-im-Voraus-Variante in der Sachanfrage:** «**Für Ihre kurze Rückmeldung bin ich Ihnen
+  dankbar.**» (Produktanfrage Sie, 14.10.2025) — knappere Schwester von «danke im Voraus für Ihre
+  Bemühungen», ohne die Behörden-Begründungsschicht (vgl. kommerzielle Kurzanfrage, Fidelity 260626).
+- Mikro-Metrik Batch 17 (404 W, Bopp-Offerten-/Liefer-Du + Amts-/Produkt-Sie gemischt): **Du-Gross-
+  Quote 1.0** (durchgehend gross, da liefernd-präsentierend statt reziprok-casual); Tausender-Apostroph
+  2× («1'200.–», «2'400.–»); Satzlänge ø **16.2 W**; keine Ellipsen/«%»; Anreden an EINEN Kontakt am
+  selben Tag «Hoi/Geschätzter/Lieber Christoph» (→ [[beziehungsregister]]); Grüsse «Freundliche Grüsse»
+  (Offerte/Amt) + «Bester Gruss» / «Lgr» (Du). ß-Slip «Massstabes» (DE-Autokorrektur, Echtheit;
+  `korrektur` setzt «Massstabes» korrekt) — vgl. Batch 16.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

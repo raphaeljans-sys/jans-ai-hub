@@ -5,6 +5,41 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-26
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 03.07.)
+  und Mail-Eingang (seit 25.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, wird vom Runner abgearbeitet) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **71 Tage ueberfaellig**, Mahnstufe 1, naechste Frist **28.06.** = Eskalation auf
+  Stufe 2 jetzt **in 2 Tagen**) und RE-00097 (Hofer, CHF 500, faellig 16.06., **10 Tage ueberfaellig**,
+  Mahnstufe 1, naechste Frist **30.06.** = in 4 Tagen). Kein Zahlungseingang seit dem letzten Lauf.
+- **AG-Gruendung (NEU, hoch):** HRA ZH hat die **Voranfrage zur Zulaessigkeit der Firma «JANS AG»**
+  bestaetigt (Empfangsbestaetigung kanzlei.hra@ji.zh.ch, 26.06. 04:49, Geschaeft 043830-2026) — Anfrage
+  liegt bei der zustaendigen Abteilung. Namensentscheid und UBS-Unterschrift bleiben offen, bis der
+  HRA-Bescheid vorliegt. Beide AG-Zeilen bleiben offen/nachfassen.
+- **NEU — KISPI LOS274.01 Innere Verglasung:** R. Grob (Jegen) liefert 25.06. das bereinigte Angebot
+  (6 % Rabatt, 2 % Skonto); M. Spoerri (KISPI) bittet, die definitive Offerte zu verlangen, KISPI gibt
+  sie dann sogleich frei — als nachfassen-Pendenz (mittel) ins Register.
+- **NEU — Jomos (25.06.):** fragt nach dem Stand ihres Angebots vom 03.06. (KISPI) — kurze
+  Status-Rueckmeldung, als nachfassen-Pendenz (tief) ins Register.
+- **EPROID B26-00705.01 (Update):** A. Soerensen (Stadt ZH) per Abwesenheits-Antwort ausser Haus bis
+  02.07., beantwortet ab dann — Antwort erst nach dem 02.07. erwarten; Zeile aktualisiert.
+- **Mail-Hinweise (Info):** Honorarofferten-Anfrage M. Spoerri an D. Buechler (Gruner) fuer KISPI
+  Umnutzung 1.OG (rj cc, kein JANS-Frist-Item); Brandmeldeplan-Abstimmung Cetin/Ziegel (Gruner) laeuft;
+  SharePoint-Massenloesch-Hinweis 25.06. (Folge des Speicher-Cleanups, kein neues Item); SIA-Mitteilung
+  Wechsel operative Leitung (Info).
+- **Kalender naechste 7 Tage (Outlook):** nur 01.07. — generisches «Neues Ereignis» 09:00–10:00 und
+  privat «Fuehrung, Food & Faenen» FIFA-Museum 15:45–21:00.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (Eskalation 28.06.), RE-00097 (30.06.), AG-Gruendung
+  (UBS-Unterschrift + Namensentscheid, HRA-Bescheid abwarten), KISPI LOS274.01 (definitive Offerte
+  verlangen), Termine 01.07. Dauerhaft offen: SharePoint-Speicher, bexio-Doppelimport, EPROID
+  B26-00705.01 (ab 02.07.), dwg Ramminger, Unterlagen Scherbl, Status/Beton Tschopp, Freischaltung
+  Merci, Rueckmeldung Chaled, Jomos-Status, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-25
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 02.07.)
