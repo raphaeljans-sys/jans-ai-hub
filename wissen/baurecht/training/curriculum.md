@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-22
+last_updated: 2026-06-26
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | Kap | Titel | Seite | Shot ≈ | P | Status |
 |-----|-------|-------|--------|---|--------|
 | 11 | Allgemeine Bestimmungen des Baupolizeirechts | 685 | 345 | P2 | [ ] |
-| 12 | Baureife | 707 | 356 | P2 | [ ] |
+| 12 | Baureife | 707 | 356 | P2 | [~] (S.707-723, Shots 355-363, Run 14: **12.1 Allgemeines** (Baureife = erstes Element der Grundanforderungen §§233-249, baureif=erschlossen §234, massgebender Zeitpunkt Bezugsbereitschaft/Baubeginn §233, **wesentliche Abweichung bei Umbau §233 Abs.2** mit VB-Kasuistik), **12.2 Planungsrechtliche Baureife §234** (negative Vorwirkung, 4 Voraussetzungen, Abgrenzung Quartierplanbann §150/Verkehrsbaulinien §264/**Planungszone §346** 3+2 J./Landsicherung §120, Dauer §235), **12.3 Zugaenglichkeit Teil 1** (§§234-237, ZN/VSiV/StrAV→EV, Umweltrecht Art.14 USG, **Erreichbarkeit 80m/40m**, **Notzufahrt 3m/16t §3 ZN**). Destillat [[band-2/12-baureife]], neuer Wiki-Artikel [[baureife-und-erschliessung]]. Rest: Zugaenglichkeit-Detail + Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.724/Shot 364 offen) |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
 | 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1111: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3**; Restschuld nur § 274 Grenzbaurecht/Anbau, Shots ab 560) |
@@ -151,9 +151,20 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    ges. Pfandrecht § 15 VRG); **8.3** Sicherheit/Regeln der Baukunde § 239 PBG (Anfang). Destillat
    [[band-1/08-ausfuehrung-von-bauarbeiten]], neuer Wiki-Artikel [[bauausfuehrung-und-baukontrolle]].
    Restschuld: 8.3-Detail + Kap.-Ende S. 510-534, Shots 257-269.)*
-   ⏭️ **Naechster Lauf: Kap. 12 + 13** (Baureife/Grundanforderungen) — oder P1-Restschuld (Kap. 20 § 357
-   Abs. 4/5, Kap. 16 Hoehen/Dachaufbauten, Kap. 17 Ausruestungen) bzw. Kap. 8 Rest.
+   ✅ **Kap. 12 Teil 1 erledigt 2026-06-26, Run 14** (S. 707-723, 12.1/12.2/12.3-Anfang).
 8. **Kap. 12 + 13** Baureife + Grundanforderungen.
+   *(Kap. 12 Teil 1 distilliert 2026-06-26, Run 14, S. 707-723, Shots 355-363: **12.1** Baureife als
+   erstes Element der Grundanforderungen (§§ 233-249 PBG), baureif = erschlossen + planungsrechtlich
+   unbedenklich (§ 234 PBG), massgebender Zeitpunkt (§ 233 Abs. 1), wesentliche Abweichung bei Umbau
+   (§ 233 Abs. 2, VB-Kasuistik); **12.2** Planungsrechtliche Baureife § 234 (nur negative Vorwirkung,
+   4 Voraussetzungen, Abgrenzung § 150/§ 264/Planungszone § 346 (3+2 J.)/§ 120, Dauer § 235); **12.3**
+   Zugaenglichkeit Teil 1 (§§ 234-237, ZN/VSiV/StrAV → EV, Umweltrecht Art. 14 USG, Erreichbarkeit
+   80 m/40 m, Notzufahrt 3 m/16 t § 3 ZN). Destillat [[band-2/12-baureife]], neuer Wiki-Artikel
+   [[baureife-und-erschliessung]]. Restschuld: Zugaenglichkeit-Detail + Wasser/Energie § 236 +
+   Abwasser/Abfall/Altlasten ab S. 724 / Shot 364.)*
+   ⏭️ **Naechster Lauf: Kap. 13** «Weitere Grundanforderungen» (S. 809, Shot ~407) — oder Kap. 12 Rest
+   (S. 724 ff.) bzw. P1-Restschuld (Kap. 16 Hoehen/Dachaufbauten, Kap. 17 Ausruestungen, Kap. 20 § 357
+   Abs. 4/5).
 9. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
    *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-
    mittelweg Baurekursgericht § 19/§ 20 VRG → Verwaltungsgericht § 50 VRG → Bundesgericht Art. 82/95 BGG,

@@ -32,6 +32,10 @@ oder umbenannten Artikel aktualisieren.
 ### Zonen
 - [[zonenkonformitaet]] — BZO-Systematik, Zonenarten, Richtwerte Stadt ZH · *established*
 
+### Baureife & Erschliessung
+- [[baureife-und-erschliessung]] — Baureife = erstes Element der Grundanforderungen (§§ 233-249 PBG): **technische Erschliessung** (Zugang/Wasser/Energie/Entsorgung; § 234/§ 236 PBG, Art. 19 RPG) + **planungsrechtliche Baureife** (§ 234 PBG, befristete Bausperre, nur negative Vorwirkung); massgebender Zeitpunkt (§ 233), **wesentliche Abweichung bei Umbau** (§ 233 Abs. 2, VB-Kasuistik); **Erreichbarkeit 80 m / 40 m** (> 13 m oder starke Personenbelegung), **Notzufahrt 3 m / 16 t** (§ 3 ZN); Planungszone § 346 (3+2 J.); Verordnungsstand ZN/VSiV/StrAV → EV · *emerging*
+- [[12-baureife]] (Destillat Bd 2, Kap. 12 Teil 1) — Buchsynthese §§ 233-237 PBG (Baureife / planungsrechtliche Baureife § 234 / Zugänglichkeit), Belegquelle · *emerging*
+
 ### Verfahren
 - [[baubewilligungsverfahren]] — Verfahrensarten, Ablauf, Fristen, Unterlagen; **Zuständigkeit/Baubehörde** (§ 318 PBG + GG-Delegationen), **Inhalt des Entscheids** (Rubrum/Begründung/Dispositiv) · *established*
 - [[nebenbestimmungen-und-reverse]] — **Nebenbestimmungen der Baubewilligung** (§ 321 PBG): Auflage (erzwingbar § 326) vs. Bedingung (künftiges Ereignis) vs. Befristung (Provisorium, **kein Bestandesschutz**, max. 5 J.) vs. **Revers** (gemischt; Areal-/Mehrwert-/Ausnützungs-/Nutzungsrevers); Grundbuch-Anmerkung **deklaratorisch** (BGE 111 Ia 183); «Revers vor Baubeginn» = Auflage, nicht Bedingung (BEZ 2004 Nr. 67); Faktenbasis für `auflagebereinigung` · *emerging*
@@ -58,8 +62,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-22)
-- Artikel im Wiki: 14 + QUELLEN-Register (+ [[bauausfuehrung-und-baukontrolle]] 2026-06-22, Buch-Run 13 Kap. 8; + [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21, Buch-Run 12 Kap. 7; + [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
+## Statistik (Stand 2026-06-26)
+- Artikel im Wiki: 15 + QUELLEN-Register (+ [[baureife-und-erschliessung]] 2026-06-26, Buch-Run 14 Kap. 12; + [[bauausfuehrung-und-baukontrolle]] 2026-06-22, Buch-Run 13 Kap. 8; + [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21, Buch-Run 12 Kap. 7; + [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

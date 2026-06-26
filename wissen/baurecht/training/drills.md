@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-06-22
+last_updated: 2026-06-26
 ---
 
 # Drill-Kartei — Buch-Training Baurecht

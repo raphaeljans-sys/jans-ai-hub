@@ -4,6 +4,34 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-26 — Buch-Destillat BAND 2 Kap. 12 Teil 1 (Baureife), Run 14 (Phase 2)
+- NEU `buecher/band-2/12-baureife.md` (Shots 355-363, echte Seiten 707-723, 9 Doppelseiten):
+  **12.1 Allgemeines** — Baureife = erstes der materiellen Grundanforderungen (§§ 233-249 PBG); baureif =
+  **erschlossen** (Zugaenglichkeit/Wasser/Energie/Abwasser-Abfall-Altlasten, § 234/§ 236 PBG, Art. 19 RPG)
+  + planungsrechtlich unbedenklich; massgebender Zeitpunkt **Bezugsbereitschaft**, teils Baubeginn
+  (§ 233 Abs. 1); **wesentliche Abweichung bei Umbau/Nutzungsaenderung § 233 Abs. 2** (VB-Kasuistik:
+  Dorfladen+Imbiss+5 PP wesentlich VB.2006.00403; Zweitwohnung/Attika/Dachfenster nicht wesentlich).
+  **12.2 Planungsrechtliche Baureife § 234** — **nur negative Vorwirkung** (Bausperre, VB.2008.00044),
+  4 Voraussetzungen, was als kuenftige «Planung» zaehlt (Nutzungsplan/BZO/Gestaltungsplan/Baulinien;
+  Richtplan erst ueber konkrete Entwuerfe, Masterplan parzellenscharf BGer 1C_317/2008), Abgrenzung
+  Quartierplanbann § 150 / Verkehrsbaulinien § 264 / **Planungszone § 346** (3 J. + 2 J., = Art. 27 RPG) /
+  Landsicherung § 120, Dauer § 235. **12.3 Zugaenglichkeit Teil 1** — §§ 234-237 PBG, Konkretisierung
+  ZN/VSiV/StrAV → geplante **Erschliessungsverordnung EV**, Umweltrecht-Grenze (Laerm Art. 14 USG),
+  **Erreichbarkeit 80 m** (max. **40 m** bei Hoehe > 13 m / starker Personenbelegung, RB 1995 Nr. 80),
+  **Notzufahrt 3 m breit / 16 t § 3 ZN**, Baustellenverkehr verhaeltnismaessig.
+- NEU `wiki/baureife-und-erschliessung.md` (status emerging) — verdichtet die zwei Achsen der Baureife
+  (technische Erschliessung + planungsrechtliche Baureife) mit den Praxis-Schwellenwerten; Backlinks zu
+  [[baubewilligungsverfahren]]/[[zonenkonformitaet]]/[[ausnahmebewilligung-und-bestandesschutz]]/
+  [[bestandsumbau-eingriffstiefe]]/[[baulinien-und-abstandslinien]]/[[12-baureife]]. Schliesst eine echte
+  Coverage-Luecke (Baureife/Erschliessung war nirgends im Wiki).
+- DRILLS `training/drills.md` — Modell C (6 Karten Kap. 12) + Modell A (Beleg-Drill Klinik-Erreichbarkeit
+  40-m-Regel).
+- REGISTER aktualisiert: `seiten-inventar.md` Shots 355-363 → [x] + echte Seiten 706-723 + Destillat-Link;
+  `curriculum.md` Kap. 12 [~] + naechster Lauf Kap. 13; `wiki/INDEX.md` neue Sektion «Baureife &
+  Erschliessung» + Statistik (15 Artikel); `wiki/QUESTIONS.md` Run-14-Luecken (Rest Kap. 12 ab S. 724,
+  EV-Stand, Wortlaut-Verifikation §§ 233-237/120/150/264/346 PBG).
+- Lern-Report `outputs/2026-06-26_buch-run14.md`.
+
 ## 2026-06-22 — Buch-Destillat BAND 1 Kap. 8 Teil 1 (Ausfuehrung von Bauarbeiten), Run 13 (Phase 2)
 - NEU `buecher/band-1/08-ausfuehrung-von-bauarbeiten.md` (Shots 244-256, echte Seiten 485-509, 12 Doppel-
   seiten): **8.1 Bauausfuehrung/Baukontrolle** — Baubeginn = **Aushub** mit Ausfuehrungswillen (BEZ 1987

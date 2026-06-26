@@ -86,6 +86,23 @@ wurden.
   ABV-/VVEA-Volltext sichern — praxisrelevant für Umbau/Abbruch im Bestand.
 - **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** auf das aktuelle ZH-IDG verweisbar prüfen.
 
+## Offene Wissenslücken / needs-verification — neu (2026-06-26, aus Buch-Run Kap. 12)
+- ~~**Baureife / Erschliessung / Zugänglichkeit nicht im Wiki**~~ → **erledigt 2026-06-26** (Run 14):
+  neuer Wiki-Artikel [[baureife-und-erschliessung]] (§§ 233-237 PBG: technische Erschliessung +
+  planungsrechtliche Baureife § 234; Erreichbarkeit 80/40 m, Notzufahrt 3 m/16 t; wesentliche
+  Abweichung bei Umbau § 233 Abs. 2), distilliert [[12-baureife]] (S. 707-723). Speist
+  [[baubewilligungsverfahren]] (Bewilligungsvoraussetzung) und ergänzt [[bestandsumbau-eingriffstiefe]].
+- **Rest Kap. 12 offen (Restschuld):** ab S. 724 (Shot 364) — Zugänglichkeit-Detail (Zugangskategorien/
+  ZN-Masszahlen, Wendeflächen, Steigungen), **Wasser-/Energieversorgung § 236 PBG**, **Beseitigung von
+  Abwässern/Abfallstoffen/Altlasten**, sowie der angekündigte Abschnitt zur Erschliessungsverordnung
+  (S. 749). Bis Kapitelende (vor Kap. 13, S. 809).
+- **needs-verification — Stand Erschliessungsverordnung (EV) ZH:** Buch-Stand 2019 = Entwurf
+  (Vernehmlassung 31.5.2017, definitiv Q1/2019 erwartet). Hat die EV ZN/VSiV/StrAV abgelöst? Aktuelle
+  Schwellenwerte der Zugangskategorien am amtlichen Erlass prüfen, bevor harte Masszahlen zitiert werden.
+- **needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 233/234/235/236/237 PBG, § 120 PBG
+  (vorsorgliches Bauverbot), § 150 PBG (Quartierplanbann), § 264 PBG (Verkehrsbaulinien), § 346 PBG
+  (Planungszone, 3+2 J.). Im Destillat [[12-baureife]] sinngemäss nach Buch S. 707-723 — Modell D nächster Lauf.
+
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
   Gebührenordnung hinterlegen.
