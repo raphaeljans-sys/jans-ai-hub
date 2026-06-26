@@ -23,7 +23,8 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[energie-energienachweis-zh-formulare]] — EN-ZH Fachformular-Liste (EN-101…EN-141/S/LN), Detail EN-104 (Eigenstrom)/EN-105/EN-110-ZH, EVEN-Plattform 2026, MuKEn 2025 · **established**
 - [[energie-pv-eignung-typenwahl]] — PV-Typen A–E, Eignung/Ertrag-Werkzeuge, Benchmark-Tabelle kWh/kWp & CHF/kWp (Typ A/E/Flachdach) · **established**
 - [[energie-pv-brandschutz]] — Brandschutz/Naturgefahren Solar (Swissolar-STP zu VKF-BSM 2001-15): Brandmauer-Uebergang, RWA-Abstand, Feuerwehr ≥30 kW, Hagel/Schnee SIA 261 · **established**
-- _Tiefe Physik/Kennwerte → eigene KB `wissen/energie/` (U-Werte, Minergie, Q_H, Bauherren-FAQ)_
+- [[energie-private-kontrolle-zh]] — Private Kontrolle Energie ZH: wer den Energienachweis zeichnet (Befugnisbereiche Wä/He/Kl/Bl/Lä ↔ EN-Formulare), drei Unterschriften (BBV I § 4 / BVV § 6), interkantonale Geltung (SZ nur natuerliche Personen), Minergie-Abkuerzung · **established**
+- _Tiefe Physik/Kennwerte + graue Energie/THGE-Methodik → eigene KB `wissen/energie/` (`[[graue-energie]]`, U-Werte, Minergie, Q_H, Bauherren-FAQ); planungsgrundlagen haelt nur die beschaffbare Grundlage + JANS-Benchmark (Schlierenweg 31) in `[[energie-uebersicht]]`_
 
 ---
 Status-Legende: `speculative` (unbelegt) → `emerging` (teilbelegt) → `established` (mehrfach belegt/validiert).

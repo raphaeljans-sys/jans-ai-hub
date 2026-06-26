@@ -3,7 +3,7 @@ title: Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 status: established
 last_updated: 2026-06-18
 sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebaeude.ch (MuKEn 2025, abgerufen 18.06.2026), EnerG/BBV I/WDV ZH]
-links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]]
+links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[energie-private-kontrolle-zh]]
 ---
 
 # Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
@@ -139,8 +139,10 @@ bei Neubau **kein** EN-110 (EN-ZH →5).
 - **Umbau/Umnutzung** (KISPI-Fall): nur **betroffene** Bauteile/Anlageteile nachweisen
   (Einzelbauteil-/Systemnachweis Umbau umfasst min. die Raeume mit betroffenen Bauteilen) — nicht
   das ganze Gebaeude. Kuehlung im Bestand → **EN-110-ZH**; Lueftung neu/umgebaut → **EN-105**.
-- **Private Kontrolle** Energie: Kanton ZH verlangt je nach QS-Stufe eine private Kontrolle des
-  Nachweises (→ zh.ch «Private Kontrolle Energie»); Unterschriftenfeld «Kontrolle» auf EN-105/110.
+- **Private Kontrolle** Energie: Die Energienachweise unterstehen im Kt. ZH **primaer der Privaten
+  Kontrolle** durch befugte Fachleute (BBV I § 4). Wer welches EN-Formular zeichnen darf
+  (Befugnisbereiche Wä/He/Kl/Bl/Lä), die drei Unterschriften und die interkantonale Geltung →
+  eigener Artikel `[[energie-private-kontrolle-zh]]`. Unterschriftenfeld «Kontrolle» auf EN-105/110.
 - **Bezug 2026:** Formulare nicht mehr einzeln googeln — **EVEN** (`energievollzug.ch`) ist der
   Kanal; PDF nur fuer die oben gelisteten Ausnahmen + Alt-Projekte (Energiehub Gebaeude).
 

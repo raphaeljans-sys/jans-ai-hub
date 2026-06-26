@@ -3,7 +3,7 @@ title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
 status: established
 last_updated: 2026-06-12
 sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1]
-links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]]
+links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]]
 ---
 
 # Energie — Uebersicht (PV, U-Wert, Energienachweis)
@@ -51,8 +51,36 @@ EVEN-Umstellung 2026 → eigener Artikel `[[energie-energienachweis-zh-formulare
   Checkliste kreuzt die betroffenen Fachnachweise an (Energiebedarf, Waermedaemmung, Heizung/WW,
   Eigenstrom, Lueftung/Kuehlung/Befeuchtung, Beleuchtung, Spezialanlagen, Schutz vor Laerm).
 - **Nachweiswege** (System- vs. Einzelbauteilnachweis, SIA 380/1:2016): → `[[u-werte-grenzwerte-ch]]`.
+- **Wer unterzeichnet (Private Kontrolle):** im Kt. ZH unterstehen die Energienachweise **primaer
+  der Privaten Kontrolle** durch befugte Fachleute (Befugnisbereiche Wä/He/Kl/Bl/Lä) — wer welches
+  EN-Formular zeichnen darf, die drei Unterschriften (Bauherr/Projekt-Verantw./Befugte) und die
+  interkantonale Geltung (SZ nur natuerliche Personen) → eigener Artikel
+  `[[energie-private-kontrolle-zh]]` (belegt 2026-06-26, Merkblatt AWEL Stand April 2025).
 - **Reale Anwendung JANS:** 2619-KISPI (Auflage UGZ II.8.a/b/c → EN-ZH / EN-105 / EN-110-ZH),
   gefuehrt in EVEN.
+
+## Graue Energie / THGE als Planungsgrundlage (PL-04, kommender Grenzwert)
+
+Mit besser werdender Huelle wird die **graue Energie (THGE der Erstellung)** zum dominierenden
+Hebel — und sie kommt **rechtlich**: Pa.Iv. 20.433 verpflichtet die Kantone, kuenftig (Art. 45
+Abs. 3 lit. e EnG) **Grenzwerte fuer graue Energie** festzulegen (kommende MuKEn 2025-Umsetzung).
+Heute im Vollzug nur ueber Labels: **Minergie-ECO** (THGE-Nachweis vereinfacht im Minergie-Tool
+**oder** rechnerisch via Minergie-ECO-Tool; Basis **SIA 2032 + KBOB-Oekobilanzdaten**, Lebensdauer
+60 J), **SNBS**, **SIA 390/1 Klimapfad**. **Methodik/Kennwerte/9 Reduktionshebel → KB
+`wissen/energie/`** (`[[graue-energie]]`, `[[minergie-standards]]`) — hier kein Doppel, nur die
+beschaffbare Planungsgrundlage + das reale JANS-Deliverable:
+
+- **SIA-2040-Zielwerte Wohnen (Effizienzpfad Energie, Standardpersonenflaeche, Richtwerte
+  kWh/m²·a Primaerenergie nicht erneuerbar):** Erstellung **30** (Neubau) / 20 (Umbau) · Betrieb
+  **60 / 70** · Mobilitaet **30 / 30**; Zielwert E+B-Zusatzanforderung **~90**. Bei Belegungs-
+  vorschriften hoeher (Erstellung 30/20 · Betrieb 90/100 · Mobilitaet 40/40). Quelle PL-04/
+  `_Heizwaermebedarf` (SIA 2040 Tab. 3/4) — ⚠ Edition vor Zitat verifizieren, Tiefe → `[[graue-energie]]`.
+- **JANS-Benchmark — Oekobilanz Wettbewerb «Schlierenweg 31»** (ZPF Ingenieure, Remo Thalmann,
+  28.03.2022): Ziel = **rechnerische Amortisation der grauen Energie aus der Erstellung mittels
+  PV-Ertrags-Ueberschuss in unter 30 Jahren**. Zielwerte Erstellung inkl. PV-Anteil **THGE
+  6.0 kg CO₂-eq/m²·a · graue Energie 20 kWh/m²·a · 12'000 UBP/m²·a** (akzeptabel: 9.0 / 30 / 13'000);
+  Betrieb netto 0. Zeigt, **wie** ein graue-Energie-Nachweis als Wettbewerbs-Deliverable aufgebaut
+  ist (Bilanz Erstellung + Betrieb − PV-Ertrag).
 
 ⚠ **Datenstand:** Kt. ZH operativ ueber EnerG seit 1.9.2022 (MuKEn 2014); **MuKEn 2025** von der
 EnDK 08/2025 verabschiedet (Umsetzungshorizont 2025–2030; Neubau neu: graue-Energie-Grenzwerte,

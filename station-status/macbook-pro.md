@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.06.2026 06:24:23
+Stand: 26.06.2026 06:34:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:24)
@@ -12,4 +12,4 @@ Stand: 26.06.2026 06:24:23
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- fe60480 energie-run19: ZH-Foerdersaetze komplett (Solarthermie/Minergie-ECO) + KBOB graue THG-Emissionen
+- 29d662a nas-selfcommit: 7 Datei(en) 2026-06-26 06:30
