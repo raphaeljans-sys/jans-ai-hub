@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-25
-sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md]
+last_updated: 2026-06-26
+sources: [destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -223,23 +223,31 @@ einen Fernwaerme-Anschluss und **CHF 40 je m²** Daemmung (bei Vollsanierung +CH
 | Erstinstallation Waermeverteilung (Ersatz dezentral Elektro/fossil) | CHF 15'000 (≤250 m² EBF) bzw. CHF 60/m² |
 | Daemmung Dach/Wand/Boden | CHF 40/m² Bauteil (+20/m² bei gleichzeitiger PV) |
 | Bonus Gebaeudehuelle (≥90 % gedaemmt) | zusaetzlich CHF 60/m² → total bis 100/m² |
+| **Minergie-ECO-Gesamtsanierung** | EFH **110** · MFH **70** · uebrige **50 CHF/m² EBF** |
+| **Minergie-P-ECO-Gesamtsanierung** | EFH **165** · MFH **100** · uebrige **80 CHF/m² EBF** |
+| **Thermische Solaranlage (Solarthermie)** | **CHF 2'400 + 1'000/kWth** Kollektorleistung |
 | GEAK-Plus-Beratungsbericht | CHF 1'000 (EFH/ZFH) / CHF 1'500 (uebrige) |
 
 Bedingungen: **Gesuch vor Baubeginn** (`portal.dasgebaeudeprogramm.ch/zh`), nur **Gebaeude
 Baujahr < 2000**, max. **50 % der Investitionskosten**, max. **CHF 500'000/Gesuch**, Daemm-
 Beitraege unter CHF 2'000 entfallen. WP nur Elektromotor; Daemmung nur U ≤ 0,20 W/m²K (kein
-Fenster/Tueren). **Gemeinden zahlen oft on top** → `energiefranken.ch` pruefen. Hotline 0800 93 93 93.
+Fenster/Tueren). **Minergie-Sanierung nur mit Zusatzzertifikat «ECO»** (reines Minergie ohne ECO
+→ keine Foerderung; Neubau/Ersatzneubau nie). **Solarthermie** min. 2 kWth, Kollektoren auf
+`kollektorliste.ch`, nur Warmwasser/Raumwaerme, nicht auf Neubau. **Gemeinden zahlen oft on top**
+→ `energiefranken.ch` pruefen. Hotline 0800 93 93 93.
 
-**Weiter gefoerdert** (Betraege noch nicht beziffert): **thermische Solaranlagen (Solarthermie)**;
-**Minergie-Modernisierungen — aber nur mit Zusatzzertifikat «ECO»** (reines Minergie ohne ECO wird
-nicht gefoerdert); Fernwaermenetze/Waermeverteilung. **PV** foerdert nicht der Kanton pauschal,
-sondern der **Bund** ueber die Pronovo-Einmalverguetung (~3'600 CHF fuer 10 kWp, Sept 2025).
+**PV foerdert der Kanton NICHT** pauschal, sondern der **Bund** ueber die Pronovo-Einmalverguetung
+(~3'600 CHF fuer 10 kWp, Sept 2025) → `[[pv-marktzahlen-kosten-ch-2025]]`.
 
-**Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026 → `[[foerderprogramm-energie-zh-2026]]`;
-Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand 2026-06-23:** Baudirektion ZH bestaetigt
-(Mitteilung 24.10.2025): **2026 unveraendert ggue. 2025**, befristet bis Ende 2026 bzw. bis Budget
-erschoepft (Rahmenkredit, 2025 = 61 Mio. CHF). Konkrete CHF-Saetze fuer Solarthermie/Minergie-ECO
-in der Broschuere — vor Zusage auf `zh.ch` pruefen. Energierecht/Heizverbot → Skill `baurecht`.
+**Rechenbeispiele 2026:** MFH 1'500 m² EBF auf Minergie-ECO → 70 × 1'500 ≈ **105'000 CHF** (gedeckelt
+50 % Investition / max. 500'000); 6-kWth-Solarthermie-Anlage → 2'400 + 6 × 1'000 = **~8'400 CHF**.
+
+**Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026, vollst. erfasst (S. 1-37) →
+`[[foerderprogramm-energie-zh-2026]]`; Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand
+2026-06-26:** Baudirektion ZH bestaetigt (Mitteilung 24.10.2025): **2026 unveraendert ggue. 2025**,
+befristet bis Ende 2026 bzw. bis Budget erschoepft (Rahmenkredit, 2025 = 61 Mio. CHF). Vor Zusage
+aktuellen Stand `zh.ch` pruefen (Budget kann unterjaehrig erschoepft sein). Energierecht/Heizverbot
+→ Skill `baurecht`.
 
 ---
 
@@ -357,13 +365,22 @@ Standard kehrt sich das Gewicht um — weil der Betrieb fast nichts mehr braucht
 Energie der dominierende Hebel. Genau dort setzt **Minergie seit 2023 mit dem Grenzwert
 THGE 11 kg CO₂/m²·a fuer die Erstellung** an. **Sanieren vor Neubau:** der Erhalt von Tragstruktur
 und Rohbau spart genau den groessten graue-Energie-Posten — ein starkes Argument fuer den Umbau,
-sofern die Substanz es zulaesst.
+sofern die Substanz es zulaesst. Das KBOB-Faktenblatt (Bund, 04.04.2025) nennt dafuer die Groesse
+**«Restwert Bestandsbauten» [kg CO₂-eq/m² EBF]** und beziffert das Potenzial: durch Kombination
+baulicher Massnahmen sind **bis zu 40 % GTHGE-Reduktion** (MFH) drin. Die **Reihenfolge der grossen
+Hebel** (Bauherr): **1 frueh Ziele setzen → 2 Suffizienz (weniger bauen, wenig Untergeschoss/
+Einstellhalle) → 3 Materialeffizienz (kompakt, Leichtbau/Holz, wenig Glas) → 4 Langlebigkeit/Umbau
+statt Ersatz → 5 biogene Baustoffe → 6 kreislauffaehig → 7 emissionsarme Materialien.** Kernsatz:
+**Suffizienz und Bestandserhalt schlagen Materialoptimierung am Neubau.** Rechtlich kommt die Pflicht:
+die Kantone **muessen** kuenftig (Art. 45 Abs. 3 lit. e EnG) **Grenzwerte fuer graue Energie** festlegen.
 
 **Quelle:** «Begriffe des Energiemanagements» (Energetische Gesamtoptimierung, S. 116) →
-`[[graue-energie-betriebsenergie]]`; THGE-Grenzwert → `[[minergie-besser-planen-bauen]]`.
-⚠ **Eigene Einordnung markiert:** die Zahlen sind Groessenordnungen aus einem Lehrmittel; fuer eine
-projektgenaue Oekobilanz gelten **KBOB-Oekobilanzdaten / SIA 2032** (noch nicht in der KB). Die
-1 : 9-Relation ist didaktisch, kein allgemeiner Faktor.
+`[[graue-energie-betriebsenergie]]`; THGE-Grenzwert → `[[minergie-besser-planen-bauen]]`;
+**9 Reduktionshebel + Kennzahl-Logik (SIA 2032, Messgroesse kg CO₂-eq/m² EBF)** → KBOB-Faktenblatt
+04.04.2025, Datenbasis KBOB-Oekobilanzdaten **v8.0** (20.02.2026) → `[[kbob-graue-treibhausgasemissionen-2025]]`,
+Themenartikel → `[[graue-energie]]`. ⚠ **Datenstand 2026-06-26:** die MJ-Zahlen sind Groessenordnungen
+aus einem Lehrmittel; projektgenaue kg-CO₂-Werte je Bauteil aus KBOB v8.0 / SIA-2032-Vorprojektwerten
+(noch nicht beziffert in der KB — nicht schaetzen). Die 1 : 9-Relation ist didaktisch, kein allg. Faktor.
 
 ---
 

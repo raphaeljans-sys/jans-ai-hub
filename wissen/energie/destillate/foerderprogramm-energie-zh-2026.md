@@ -2,10 +2,10 @@
 quelle: Foerderprogramm Energie Kanton Zuerich 2026 (Baudirektion ZH, AWEL), PDF — https://www.zh.ch/.../ktzh_foerderprogramm_2026.pdf
 herausgeber: Kanton Zuerich, Baudirektion, Amt fuer Abfall Wasser Energie und Luft (AWEL)
 ausgabe: Version 01.01.2026
-gelesen: S. 1-29 (Foerdersaetze vollst.; S. 30-38 Minergie-ECO/Solarthermie noch offen)
-datenstand: 2026-06-23 (Programm Version 01.01.2026; 2026 ggue. 2025 unveraendert, bestaetigt Baudirektion-Mitteilung 24.10.2025)
+gelesen: S. 1-37 VOLLSTAENDIG (alle Foerdersaetze inkl. Minergie-ECO + Solarthermie, 2026-06-26)
+datenstand: 2026-06-26 (Programm Version 01.01.2026; 2026 ggue. 2025 unveraendert, bestaetigt Baudirektion-Mitteilung 24.10.2025)
 status: established
-last_updated: 2026-06-23
+last_updated: 2026-06-26
 ---
 
 # Destillat — Foerderprogramm Energie Kanton Zuerich 2026
@@ -63,6 +63,37 @@ oder Bodenheizung; separates Gesuch noetig.
 - **Nicht gefoerdert:** Fenster, Tueren, Kellerdecken, Estrichboeden; Abriss+Neubau gleicher Wand.
 - Foerderbeitraege **unter CHF 2'000 werden nicht ausgerichtet**; ab CHF 10'000 GEAK Plus noetig.
 
+## Gesamterneuerung Minergie-ECO (S. 32, vollst. erfasst 2026-06-26)
+| Standard (mit oder ohne Minergie-A) | Foerderbeitrag 2026 |
+|---|---|
+| **Minergie-ECO** — EFH | **110 CHF/m² EBF** |
+| **Minergie-ECO** — MFH | **70 CHF/m² EBF** |
+| **Minergie-ECO** — uebrige Gebaeudekategorien | **50 CHF/m² EBF** |
+| **Minergie-P-ECO** — EFH | **165 CHF/m² EBF** |
+| **Minergie-P-ECO** — MFH | **100 CHF/m² EBF** |
+| **Minergie-P-ECO** — uebrige Gebaeudekategorien | **80 CHF/m² EBF** |
+
+- **Nur Sanierungen MIT Zusatzzertifikat «ECO»** (beruecksichtigt graue Energie + Kreislauffaehigkeit);
+  reines Minergie ohne ECO → keine Foerderung. **Neubau/Ersatzneubau nicht foerderfaehig.**
+- Nur Gebaeude Baujahr < 2000; nur bereits im Ausgangszustand beheizte Flaechen; **Anbauten/
+  Aufstockungen nicht**. Wer schon Einzelmassnahmen aus diesem Programm bezogen hat, kann fuer
+  dieselbe Liegenschaft **kein Minergie-ECO-Gesuch** mehr stellen (Ausnahme: Erstinstallation
+  Waermeverteilung). Ab CHF 100'000 Minimalfoerdersaetze nach Harmonisiertem Foerdermodell HFM 2015.
+
+## Sonne nutzen — Thermische Solaranlage (S. 36, vollst. erfasst 2026-06-26)
+| Massnahme | Foerderbeitrag 2026 |
+|---|---|
+| **Thermische Solaranlage (Solarthermie / Sonnenkollektoren)** | **CHF 2'400 + 1'000/kWth** (thermische Kollektor-Nennleistung) |
+
+- **Min. 2 kW** thermische Kollektor-Nennleistung (Erweiterung: min. 2 kW zusaetzlich); Kollektoren
+  muessen auf **`kollektorliste.ch`** gefuehrt sein (Label Solar Keymark, EN 12975-1/-2 bzw. ISO 9806).
+- Nur **Warmwasser und/oder Raumwaerme** (auch Regeneration Eisspeicher/Erdwaermesonde). **NICHT**
+  gefoerdert: Luftkollektoren, Heutrocknung, Schwimmbadheizung; reiner Ersatz bestehender Kollektoren;
+  Anlage auf Neubau. Nur **bestehende, nicht-fossil/nicht-direktelektrisch beheizte** Gebaeude
+  (Freiflaechenanlagen moeglich). Aktive Anlagenueberwachung (Swissolar) ab **20 kW** Pflicht.
+- **PV (Photovoltaik) foerdert der Kanton NICHT** — das laeuft ueber die **Pronovo-Einmalverguetung
+  des Bundes** (`pronovo.ch`), nicht ueber dieses kantonale Heft.
+
 ## Beratung
 | Massnahme | Beitrag |
 |---|---|
@@ -87,16 +118,19 @@ oder Bodenheizung; separates Gesuch noetig.
   bleiben im kommenden Jahr unverändert.» Befristet bis Ende 2026 bzw. bis Budget erschoepft
   (Rahmenkredit 2023–2026 + CO₂-Abgabemittel). 2025 standen **61 Mio. CHF** fuer den Gebaeudebereich
   bereit. Bundesweite Sparmassnahmen haben laut Mitteilung **keine** Auswirkung auf 2026.
-- **Zusaetzlich gefoerderte Massnahmen** (ueber die oben erfassten WP/Daemmung/Beratung hinaus):
-  - **Minergie-ECO-Sanierungen:** Bei umfassenden Modernisierungen nach Minergie wird **nur die
-    Variante MIT Zusatzzertifikat «ECO»** gefoerdert (beruecksichtigt zusaetzlich Kreislauffaehigkeit
-    + graue Energie der Materialien). Reines Minergie ohne ECO → keine Foerderung dieser Massnahme.
-  - **Thermische Solaranlagen (Solarthermie / Sonnenkollektoren):** foerderfaehig.
-  - **Fernwaermenetze / Waermeverteilsysteme**, **Beratungsberichte / Energieplanungen** (vgl. oben).
+
+## Faustregel-Beispiele 2026 (Bauherren-Zahlen, komplett)
+- Oelheizung raus → **Luft-Wasser-WP CHF 2'900**, **Erdsonden-/Grundwasser-WP CHF 6'800**,
+  **Fernwaerme CHF 5'200** (Kanton; Gemeinde oft on top).
+- Fassade/Dach daemmen **CHF 40/m²**, bei Vollsanierung +CHF 60/m² Bonus = **bis 100/m²**.
+- Gesamtsanierung **Minergie-ECO**: EFH **110**, MFH **70**, uebrige **50 CHF/m² EBF**; mit
+  Minergie-**P**-ECO sogar **165/100/80**. Bsp. MFH 1'500 m² EBF → 70 × 1'500 = **~105'000 CHF**
+  (gedeckelt 50 % Investition / max. 500'000).
+- **Solarthermie**: **CHF 2'400 Sockel + 1'000 je kWth** — eine ~6-kWth-WW-Anlage also ~**8'400 CHF**.
+- **PV laeuft ueber den Bund** (Pronovo-Einmalverguetung), nicht ueber dieses Heft.
 
 ## Offene Punkte
-- **Konkrete CHF-Saetze fuer Minergie-ECO-Modernisierung und thermische Solaranlagen** noch nicht
-  beziffert erfasst — stehen nur in der **Foerderbroschuere 2026 (PDF)**, die ueber WebFetch nicht
-  erreichbar war (S. 31-38). Nicht aus dem Gedaechtnis schaetzen → naechster Lauf via direktem
-  PDF-Download oder Hotline 0800 93 93 93. Quelle bestaetigt foerderfaehig, Betrag offen.
-- Bund (Gebaeudeprogramm/Pronovo PV-Einmalverguetung) separat — nicht Teil dieses kantonalen Hefts.
+- Inhaltlich vollstaendig erfasst (S. 1-37). Verbleibt nur die **Bund-Foerderung separat**
+  (Gebaeudeprogramm; Pronovo PV-Einmalverguetung) — nicht Teil dieses kantonalen Hefts; bei Bedarf
+  eigene Quelle. ⚠ Vor verbindlicher Zusage immer aktuellen Stand `zh.ch` / Hotline 0800 93 93 93
+  pruefen (Budget kann unterjaehrig erschoepft sein).

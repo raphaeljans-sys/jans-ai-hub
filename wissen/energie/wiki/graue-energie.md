@@ -1,9 +1,9 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-06-17
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
-links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]]
+last_updated: 2026-06-26
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]]
 ---
 
 # Graue Energie & THGE
@@ -69,8 +69,28 @@ Standards-Uebersicht → `[[minergie-standards]]`.
 ## Sanieren vor Neubau
 Der Erhalt von Tragstruktur und Rohbau spart genau den groessten graue-Energie-Posten (~40–49 %).
 Das ist das staerkste oekobilanzielle Argument fuer den **Umbau** — sofern Substanz, Schadstoffe
-und Nutzungstauglichkeit es zulassen (TDD → Skill `ankaufspruefung`).
+und Nutzungstauglichkeit es zulassen (TDD → Skill `ankaufspruefung`). Die KBOB fasst das als
+**«Restwert Bestandsbauten»** [kg CO₂-eq/m² EBF]: die im Bestand bereits investierte graue Energie,
+die bei Erhalt nicht neu anfaellt — bei Wettbewerben/Variantenvergleichen mitrechnen.
+
+## KBOB-Faktenblatt: die 9 Reduktionshebel + die Kennzahl-Logik (Bund, 04.04.2025)
+Das verbindliche KBOB-Faktenblatt **«Graue Treibhausgasemissionen bei der Erstellung von Gebaeuden»**
+liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissionen-2025]]`:
+- **Umfang GTHGE** = Module **A + B4 + C** nach SN EN 15804 / **SIA 2032** (Herstellung+Errichtung,
+  Ersatz, Entsorgung) — **ohne** Betrieb/Mobilitaet. Messgroesse **kg CO₂-eq/m² EBF** (absolut oder /Jahr).
+- **Datenbasis:** KBOB-**Oekobilanzdaten im Baubereich v8.0 (20.02.2026)** — anerkannte Werte fuer
+  GWP/Primaerenergie/UBP je Baustoff; SIA-2032-Vorprojektwerte rechnen sie auf Bauteile herunter.
+- **Reduktionspotenzial bis 40 %** (MFH) durch Kombination baulicher Massnahmen. Die **9 Hebel**
+  (groesster Bauherren-Effekt zuerst): **1 frueh Ziele setzen · 2 Suffizienz (weniger bauen, wenig UG/
+  Einstellhalle) · 3 Materialeffizienz (kompakt, Leichtbau, wenig Glas) · 4 Langlebigkeit/Umbau statt
+  Ersatz · 5 biogene Baustoffe (Holz/Stroh/Lehm) · 6 kreislauffaehig verbauen · 7 emissionsarme
+  Materialien (Beton/Zement/Stahl) · 8 Kaskadennutzung · 9 NET pruefen.** Kernaussage: **Suffizienz +
+  Bestandserhalt schlagen Materialoptimierung am Neubau.**
+- **Kommt rechtlich:** Pa.Iv. 20.433 → die Kantone **muessen** kuenftig (Art. 45 Abs. 3 lit. e EnG)
+  **Grenzwerte fuer graue Energie** festlegen (kommende MuKEn). Heute schon im Vollzug nur ueber Labels:
+  **Minergie-ECO** (GW1/GW2), **SNBS**, **SIA 390/1 Klimapfad** (strengste Zielwerte, inkl. Betrieb).
 
 ## Offen
-- KBOB-Oekobilanzdaten / **SIA 2032** als belegte Kennwert-Quelle (kg CO₂-eq/m²) einarbeiten.
+- Konkrete **kg CO₂-eq/m² je Bauteilaufbau** aus KBOB-Oekobilanzdaten v8.0 / SIA-2032-Vorprojektwerten
+  belegen (kostenpflichtig/Tool eco-bau; frei zugaengliche Bauteil-Liste suchen) — nicht schaetzen.
 - Konkrete Sanieren-vs-Neubau-Schwelle (Amortisation der grauen Energie) — eigene Quelle noetig.
