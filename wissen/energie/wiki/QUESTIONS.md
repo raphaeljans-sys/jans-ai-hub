@@ -13,8 +13,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ggue. 2025 bestaetigt ✓ 2026-06-23** (Baudirektion-Mitteilung 24.10.2025; befristet bis Ende 2026/
   Budget; 2025 = 61 Mio. CHF). **Konkrete CHF-Saetze Minergie-ECO + Solarthermie belegt ✓ 2026-06-26**
   (ZH-Foerder-PDF S. 1-37 direkt geladen): **Minergie-ECO 110/70/50, Minergie-P-ECO 165/100/80 CHF/m²
-  EBF; Solarthermie CHF 2'400 + 1'000/kWth**; Destillat/F7 vollst. → Punkt geschlossen. Offen nur noch:
-  **Bundes-Gebaeudeprogramm** + Pronovo-PV-Einmalverguetung separat (eigene Quelle bei Bedarf).
+  EBF; Solarthermie CHF 2'400 + 1'000/kWth**; Destillat/F7 vollst. → Punkt geschlossen.
+  **Pronovo-PV-Einmalverguetung (Bund) belegt ✓ 2026-06-27** (BFE-Faktenblatt EIV/gl. Marktpraemie/Boni
+  + KLEIV ~360 CHF/kWp, Indach 400, Deckel 30 %, Boni Neigung≥75°/Winterstrom/Parkflaeche) →
+  `[[pv-einmalverguetung-bund-bfe]]`, F7 geschaerft. Offen nur noch: **Bundes-Gebaeudeprogramm**
+  (Heizung/Huelle) als eigene Quelle; aktuelle **2026er** EIV-CHF/kWp je Anlagengroesse (Pronovo-Tarifrechner).
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
@@ -66,8 +69,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
 ## FAQ-Backlog
 - [x] **E-F** BAUHERREN-FAQ: **alle 17 Kernantworten belegt** (F1-F17; **F6 WP-Systemvergleich neu
-  ✓ 2026-06-18** → `[[waermepumpe-systemvergleich]]`, FAQ F6). Offen nur Vertiefungen: projektgenaue
-  WP-JAZ/COP aus CH-Primaerquelle (FWS/WPesti-Defaults), CHF-Amortisationsvergleich, WP+PV-Lastmanagement.
+  ✓ 2026-06-18** → `[[waermepumpe-systemvergleich]]`, FAQ F6). **CH-Primaerquelle Feld-JAZ + COP/SCOP/JAZ-
+  Begriff belegt ✓ 2026-06-27**: BFE-Feldanalyse FAWA (236 Anlagen, S/W Ø 3,5 · L/W Ø 2,7, +Planungslehren
+  Vorlauftemp/Ueberdimensionierung/Speicher) → `[[fawa-jaz-feldanalyse-waermepumpen]]`; COP-Pruefpunkt vs.
+  SCOP (EN 14825, CH ~5-7 % zu hoch) vs. JAZ-Feldmessung → `[[cop-scop-jaz-waermepumpe-gruenenwald]]`;
+  F6 + Themenartikel `[[heizleistung-und-waermeerzeuger]]` geschaerft. Offen nur noch: **moderne**
+  projektgenaue WP-JAZ-Defaults (WPesti/SIA 384/3, FWS-Aktuellstatistik), CHF-Amortisationsvergleich,
+  WP+PV-Lastmanagement.
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
   `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)

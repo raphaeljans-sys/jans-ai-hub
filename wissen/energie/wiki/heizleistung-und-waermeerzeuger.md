@@ -2,7 +2,7 @@
 title: Heizleistung & Waermeerzeuger-Dimensionierung
 status: established
 last_updated: 2026-06-18
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md]
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -61,7 +61,13 @@ Details → `[[wta-formular-zh-waermetechnische-anlagen]]` / FAQ F14. ⚠ seit 1
 
 ## Heizsystem-Wahl: WP ↔ Fernwaerme ↔ Pellets (F6)
 Die **Jahresarbeitszahl (JAZ)** = gelieferte Waerme je kWh Strom uebers Jahr ist die praxisrelevante
-Effizienzkennzahl (COP = Momentanwert im Pruefpunkt). Richtwerte je WP-Typ (Bandbreiten, Stand 2026):
+Effizienzkennzahl. Drei Kennzahlen auseinanderhalten: **COP** = einzelner Labor-Pruefpunkt (kein
+Maschinenvergleich), **SCOP** = saisonal nach EN 14825, aber mit Klima Strassburg → fuer CH **~5-7 %
+zu hoch**, **JAZ** = im Feld ueber das Jahr gemessen (→ `[[cop-scop-jaz-waermepumpe-gruenenwald]]`).
+**Feldbeweis CH (BFE/FAWA, 236 Anlagen):** Sole/Wasser **Ø 3,5** vs. Luft/Wasser **Ø 2,7** (+32 %; Stand
+2004, moderne Geraete hoeher); Sanierung −9 % (Vorlauftemperatur +5 K), Regler mit Raumtemperatur-
+Aufschaltung +8 %, technische Speicher ohne JAZ-Nutzen, S/W oft zu gross ausgelegt →
+`[[fawa-jaz-feldanalyse-waermepumpen]]`. Richtwerte je WP-Typ (Bandbreiten, Stand 2026):
 
 | WP-Typ | JAZ-Richtwert | Bedingung |
 |---|---|---|
@@ -84,5 +90,7 @@ Foerder-Mindest-JAZ kantonsabhaengig. Details → `[[waermepumpe-systemvergleich
 - Heizsystem-Wahl/Heizverbot (Entscheid/Bewilligung) → Skill `baurecht`; Foerderung → `[[foerderung-energie-zh]]`.
 
 ## Offen
-- Projektgenaue WP-JAZ/COP aus CH-Primaerquelle (FWS/WPesti-Defaults), CHF-Amortisationsvergleich,
-  WP + PV-Eigenverbrauch (Lastmanagement) — vgl. `[[waermepumpe-systemvergleich]]`.
+- CH-Primaerquelle Feld-JAZ + COP/SCOP/JAZ-Begriff **belegt ✓ 2026-06-27**
+  (`[[fawa-jaz-feldanalyse-waermepumpen]]`, `[[cop-scop-jaz-waermepumpe-gruenenwald]]`).
+- Offen: **moderne** projektgenaue WP-JAZ-Defaults (WPesti/SIA 384/3, FWS-Aktuellstatistik),
+  CHF-Amortisationsvergleich, WP + PV-Eigenverbrauch (Lastmanagement) — vgl. `[[waermepumpe-systemvergleich]]`.

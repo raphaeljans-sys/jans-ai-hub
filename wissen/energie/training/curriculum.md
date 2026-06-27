@@ -49,7 +49,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13).
   **Heizsystem-Wahl WP↔Fernwaerme↔Pellets (JAZ-Richtwerte) belegt 2026-06-18** → `[[waermepumpe-systemvergleich]]`
-  (FAQ F6). Offen: projektgenaue WP-JAZ/COP aus CH-Primaerquelle (FWS/WPesti-Defaults), CHF-Vergleich.
+  (FAQ F6). **CH-Primaerquelle Feld-JAZ + COP/SCOP/JAZ-Begriff belegt 2026-06-27** via BFE-Feldanalyse
+  FAWA (236 Anlagen, S/W 3,5 · L/W 2,7) → `[[fawa-jaz-feldanalyse-waermepumpen]]` + EN-14825-Foliensatz
+  → `[[cop-scop-jaz-waermepumpe-gruenenwald]]`; F6 + `[[heizleistung-und-waermeerzeuger]]` geschaerft.
+  Offen: **moderne** projektgenaue WP-JAZ-Defaults (WPesti/FWS-Aktuellstatistik), CHF-Amortisationsvergleich.
 - [x] B6 Waermetechnische Anlagen WTA-Formular — belegt 2026-06-10 via Kt.-ZH-Formular 01-2024
   → `[[wta-formular-zh-waermetechnische-anlagen]]` (FAQ F14: Heizungsersatz-Verfahren/Beilagen je
   Waermequelle + fossil-Verbot §10a). **vollstaendig.**
@@ -90,8 +93,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   bestaetigt 2026-06-23** (Mitteilung 24.10.2025). **CHF-Saetze VOLLSTAENDIG belegt 2026-06-26**
   (PDF S. 1-37: WP 2'900/6'800, Fernwaerme 5'200, Daemmung 40/+60, **Minergie-ECO 110/70/50**,
   **-P-ECO 165/100/80**, **Solarthermie 2'400+1'000/kWth**, GEAK 1'000/1'500)
-  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). **vollstaendig**
-  (offen nur Bundes-Gebaeudeprogramm/Pronovo separat).
+  → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]` (FAQ F7). **Pronovo-PV-
+  Einmalverguetung (Bund) belegt 2026-06-27** via BFE-Faktenblatt (EIV/KLEIV/GREIV/HEIV, KLEIV ~360
+  CHF/kWp, Indach 400, Deckel 30 %, Boni Neigung/Winterstrom/Parkflaeche) → `[[pv-einmalverguetung-bund-bfe]]`,
+  F7 geschaerft. **vollstaendig** (offen nur Bundes-Gebaeudeprogramm Heizung/Huelle separat).
 - [x] D5 Regenwasserbewirtschaftung / Versickerung Kt. ZH — belegt 2026-06-23 via AWEL-Gesuchsformular
   (Bewilligung >20 m², Zustaendigkeit Gemeinde/AWEL, Metall-Adsorber >50 m², Versickerungsversuch +
   1,0 m Filterschicht; VSA 2019/SN 592 000) → `[[regenwasserbewirtschaftung-versickerung-zh]]` (FAQ F24).
