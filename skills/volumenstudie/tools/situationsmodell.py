@@ -184,66 +184,85 @@ def baum_meshes(baeume):
     return out
 
 
-def render_axo(png, terrain, kontext, bestand, varianten, parz_xy, baeume=None):
-    """Schneller Nachweis-Render (matplotlib): weisses Modell, beige Varianten."""
+def _smooth(Z, passes=1):
+    """Leichter 3x3-Box-Blur (gegen 2 m-Stufen im DTM), numpy-only."""
+    Z = np.array(Z, float)
+    for _ in range(passes):
+        P = np.pad(Z, 1, mode="edge")
+        Z = (P[:-2, :-2] + P[:-2, 1:-1] + P[:-2, 2:] +
+             P[1:-1, :-2] + P[1:-1, 1:-1] + P[1:-1, 2:] +
+             P[2:, :-2] + P[2:, 1:-1] + P[2:, 2:]) / 9.0
+    return Z
+
+
+def render_axo(png, terrain, kontext, bestand, varianten, parz_xy, baeume=None,
+               accent="#A23E30", dpi=200):
+    """Praesentations-Render (matplotlib, lizenzfrei): lesbares Hillshade-Gelaende,
+    weisses Kontext-Modell mit Kanten, projektierter Baukoerper in Oxidrot.
+    Ein Painter's-Sort (eine Poly3DCollection) gegen Verdeckungsfehler.
+    (Cinema-4D-Qualitaet via c4d_situation.py auf dem Mac Mini, render-remote.sh.)"""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-    from matplotlib.colors import LightSource
-    fig = plt.figure(figsize=(12, 12), dpi=120)
-    ax = fig.add_subplot(111, projection="3d")
     xs, ys, Z, ox, oy = terrain
+    Z = np.array(Z, float)
+    Zs = _smooth(Z, passes=2)
 
-    # ALLES als eine Poly-Sammlung (ein Painter's-Sort statt Surface-vs-Collection-Konflikt)
-    sonne = np.array([-0.5, 0.35, 0.8]); sonne /= np.linalg.norm(sonne)
+    sonne = np.array([-0.55, 0.40, 0.73]); sonne /= np.linalg.norm(sonne)
+    himmel = np.array([0.1, 0.1, 1.0]); himmel /= np.linalg.norm(himmel)
 
-    def shade(polys, basis, ambient=0.62):
-        out = []
-        b = np.array(matplotlib.colors.to_rgb(basis))
-        for p in polys:
-            v = np.array(p)
-            if len(v) >= 3:
-                n = np.cross(v[1] - v[0], v[2] - v[0])
-                ln = np.linalg.norm(n)
-                lam = ambient + (1 - ambient) * max(0.0, abs(float(np.dot(n / ln, sonne)))) if ln > 0 else 0.85
-            else:
-                lam = 0.85
-            out.append(tuple(np.clip(b * lam, 0, 1)))
-        return out
+    def shade1(v, base, ambient, gamma=0.92):
+        n = np.cross(v[1] - v[0], v[2] - v[0]); ln = np.linalg.norm(n)
+        if ln == 0:
+            lam = ambient
+        else:
+            nn = n / ln
+            diff = max(0.0, float(np.dot(nn, sonne)))
+            sky = 0.5 + 0.5 * float(np.dot(nn, himmel))   # weiches Fuelllicht von oben
+            lam = ambient + (1 - ambient) * (0.78 * diff + 0.22 * sky)
+        return tuple(np.clip((np.array(matplotlib.colors.to_rgb(base)) * lam) ** gamma, 0, 1))
 
-    polys, cols = [], []
-    st = max(1, len(xs) // 110)
-    for j in range(0, len(ys) - st, st):
-        for i in range(0, len(xs) - st, st):
-            polys.append([(xs[i]-ox, ys[j]-oy, Z[j, i]), (xs[i+st]-ox, ys[j]-oy, Z[j, i+st]),
-                          (xs[i+st]-ox, ys[j+st]-oy, Z[j+st, i+st]), (xs[i]-ox, ys[j+st]-oy, Z[j+st, i])])
-    cols += shade(polys, "#ffffff", ambient=0.78)   # Terrain hell wie Referenz-Weissmodell
+    polys, fcols, ecols = [], [], []
 
-    def add(meshes, farbe):
-        nonlocal polys, cols
-        neu = []
+    def add(meshes, base, ambient, edge):
         for vs, faces in meshes:
             for f in faces:
-                neu.append([vs[i] for i in f])
-        polys += neu; cols += shade(neu, farbe)
-    add(kontext, "#ffffff")
-    add(bestand, "#e0e0e0")          # Bestand auf Parzelle: leicht abgesetzt
-    add(varianten, "#d9a86c")        # Neubau: beige
+                p = [vs[i] for i in f]
+                polys.append(p); fcols.append(shade1(np.array(p), base, ambient)); ecols.append(edge)
+
+    # Terrain (warmes Grau, Hillshade -> Topografie liest sich)
+    st = max(1, len(xs) // 170)
+    NONE = (0, 0, 0, 0)
+    for j in range(0, len(ys) - st, st):
+        for i in range(0, len(xs) - st, st):
+            p = [(xs[i]-ox, ys[j]-oy, Zs[j, i]), (xs[i+st]-ox, ys[j]-oy, Zs[j, i+st]),
+                 (xs[i+st]-ox, ys[j+st]-oy, Zs[j+st, i+st]), (xs[i]-ox, ys[j+st]-oy, Zs[j+st, i])]
+            polys.append(p); fcols.append(shade1(np.array(p), "#E7E2D9", 0.58)); ecols.append(NONE)
+
+    add(kontext, "#FCFCFB", 0.60, (0.40, 0.40, 0.40, 0.55))   # Nachbarn: Weissmodell mit Kante
+    add(bestand, "#DED9D2", 0.60, (0.45, 0.45, 0.45, 0.55))   # Bestand auf Parzelle
+    add(varianten, accent, 0.55, (0.20, 0.06, 0.05, 0.95))    # Neubau: Oxidrot, dunkle Kante
     if baeume:
-        add(baum_meshes(baeume), "#c9c5ba")   # Baeume: helles Graubeige wie Referenz
-    ax.add_collection3d(Poly3DCollection(polys, facecolors=cols, edgecolor="none"))
+        add(baum_meshes(baeume), "#C6CBB8", 0.70, NONE)
+
+    fig = plt.figure(figsize=(13, 9.2), dpi=dpi)
+    ax = fig.add_subplot(111, projection="3d")
+    coll = Poly3DCollection(polys, facecolors=fcols, edgecolors=ecols, linewidths=0.35)
+    coll.set_sort_zpos(None)
+    ax.add_collection3d(coll)
 
     px, py = zip(*parz_xy)
-    pz = [hoehe_an(xs, ys, Z, x + ox, y + oy) + 0.4 for x, y in parz_xy]
-    ax.plot(px, py, pz, color="#b07840", linewidth=1.4)
+    pz = [hoehe_an(xs, ys, Z, x + ox, y + oy) + 0.3 for x, y in parz_xy]
+    ax.plot(px, py, pz, color=accent, linewidth=1.8, solid_capstyle="round")
+
     zmid = float(np.nanmean(Z)); sp = (xs[-1] - xs[0]) / 2
-    ax.set_xlim(-sp, sp); ax.set_ylim(-sp, sp); ax.set_zlim(zmid - sp * 0.5, zmid + sp * 0.5)
-    ax.set_box_aspect((1, 1, 0.5))
-    ax.view_init(elev=48, azim=-55)
+    ax.set_xlim(-sp, sp); ax.set_ylim(-sp, sp); ax.set_zlim(zmid - sp * 0.55, zmid + sp * 0.55)
+    ax.set_box_aspect((1, 1, 0.42))
+    ax.view_init(elev=30, azim=-52)
     ax.set_proj_type("ortho")
     ax.set_axis_off()
-    plt.savefig(png, bbox_inches="tight", facecolor="white", pad_inches=0.05)
+    plt.savefig(png, bbox_inches="tight", facecolor="white", pad_inches=0.02)
     plt.close()
 
 

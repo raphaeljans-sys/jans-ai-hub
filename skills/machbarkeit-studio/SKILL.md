@@ -66,9 +66,11 @@ verschickbar.
 
 Bei einfacher Lage (klare Zone, eine Frage) darfst du Schritte 2-5 selbst rechnen; der Fan-out auf
 die Agenten lohnt sich bei Aenderungsfaellen, Servituten, mehreren Varianten und der
-Wirtschaftlichkeit. **3D-Renderings** (Skill `volumenstudie`) sind optional: liegen PNG/JPG vor,
-in den Varianten als `render_img` (relativer Pfad oder data-URI) referenzieren — das Studio zeigt
-sie in der Render-Galerie. Ohne Renderings laeuft das Studio vollwertig (Zahlen-fokussiert).
+Wirtschaftlichkeit. **3D (Schritt 3b):** `tools/studio_context.py` baut je Variante ein echtes
+Situationsmodell — Baukoerper auf swissALTI3D-Gelaende im swissBUILDINGS3D-Kontext (Rule 260627,
+nie Platzhalter) — und liefert PNG, die als `render_img` ins Modell kommen. Sind die Grundlagen
+nachweislich nicht beschaffbar, faellt `build_studio.py` auf das inline-SVG-Massenmodell zurueck
+(als Annahme ausweisen). Ohne 3D laeuft das Studio vollwertig (Zahlen-fokussiert).
 
 ## Das Modell (Single Source of Truth)
 
@@ -113,18 +115,23 @@ Sensitivitaet: Residualwert der Leitvariante gegen **Flaechen-Delta** (0/−10/�
 | Tool | Zweck |
 |---|---|
 | `tools/studio_assemble.py` | **Adresse → Modell-Geruest**: `python studio_assemble.py --adresse "…" --out model.json` zieht via `geo-zh.mjs` echte EGRID/Parzelle/Gemeinde und schreibt das Geruest (meta gefuellt, Fachwerte als Annahme). Die deterministische Sub-Agenten-Verdrahtung |
+| `tools/studio_context.py` | **Echtes 3D-Situationsmodell** (gdal-frei): `~/.venvs/volumen3d/bin/python studio_context.py --egrid CH… --out DIR --name N --variante "A:az=0.35,geschosse=3,…" [--c4d]` beschafft Parzelle (geo.admin find), **swissALTI3D** Terrain (Profil-API), **swissBUILDINGS3D** Gebaeudekuben (STAC) und rendert je Variante den Baukoerper AUF dem echten Gelaende im echten Kontext. Ohne `--c4d`: lizenzfreier Render (`…_variante_<X>_axo.png`). Mit `--c4d`: **Cinema-4D-Goldstandard** ueber den Mac Mini (`render-remote.sh` → weisses Modell, weiche Schatten, AO) → `…_c4d_<X>.png`. Beide als `render_img` einsetzbar. AZ-konformer Footprint via `az=` |
 | `tools/studio_calc.py` | Rechen-Kern (Quelle der Wahrheit); `python studio_calc.py model.json` → Resultat-JSON |
-| `tools/massing_svg.py` | **Massenmodell** je Variante als inline-SVG (isometrisch, JANS-Monochrom, gemeinsamer Massstab) — abhaengigkeitsfreies "3D", wird von `build_studio.py` automatisch eingebettet |
-| `tools/build_studio.py` | **Interaktives Live-Studio**: `python build_studio.py model.json studio.html` (selbst-tragend, Fonts + Massenmodelle eingebettet) |
+| `tools/massing_svg.py` | **Massenmodell-Fallback** je Variante als inline-SVG (isometrisch, JANS-Monochrom, gemeinsamer Massstab) — nur wenn KEIN echtes Rendering vorliegt |
+| `tools/build_studio.py` | **Interaktives Live-Studio**: `python build_studio.py model.json studio.html` (selbst-tragend; Fonts + Renderings/Massenmodelle eingebettet, lokale `render_img` werden als base64 inline gelegt) |
 | `tools/build_dossier.py` | **Dossier**: `python build_dossier.py model.json dossier.docx`; PDF via `scripts/docx2pdf.sh` |
 | `schema/studio-model.schema.json` | Modell-Schema (JSON Schema) |
 | `beispiele/beispiel_bederstrasse.json` | Worked Example (echte ZH-Parzelle EN2850) |
 
-**3D / Massenmodell:** `build_studio.py` erzeugt je Variante automatisch ein isometrisches
-Massenmodell (Footprint = BGF/Geschosse, Hoehe = Geschosse × Geschosshoehe, gemeinsamer Massstab,
-Leitvariante in Oxidrot) — ohne externe Abhaengigkeit, eingebettet ins HTML. Liegt fuer eine
-Variante ein echtes Rendering vor (Skill `volumenstudie`, c4d/axo), setze es als `render_img`
-(Pfad oder data-URI) — es hat **Vorrang** vor dem SVG-Fallback.
+**3D — IMMER echte Grundlagen (Rule 260627):** Das 3D wird auf den amtlichen swisstopo-Daten
+aufgebaut, nicht mit Platzhaltergeometrie. `studio_context.py` liefert je Variante ein Rendering des
+Baukoerpers auf dem **swissALTI3D**-Gelaende im **swissBUILDINGS3D**-Nachbarschaftskontext (optional
+**swissSURFACE3D**-Baeume), gdal-frei (Terrain via swisstopo-Profil-API). Diese PNG kommen als
+`render_img` ins Modell; `build_studio.py` bettet lokale Pfade selbst-tragend als base64 ein. Der
+Footprint ist **AZ-konform** (Spezifikation `az=` → Footprint = AZ × Parzelle / Geschosse, die
+bindende Ausnuetzung statt der vollen Huelle, Rule 260624). Praesentationsqualitaet (c4d) via Skill
+`volumenstudie`; das inline-SVG (`massing_svg.py`) ist nur der Fallback, wenn keine Grundlagen
+beschaffbar sind (transparent als Annahme ausweisen).
 
 **Adresse → fertiges Studio (Knopfdruck-Flow):**
 ```

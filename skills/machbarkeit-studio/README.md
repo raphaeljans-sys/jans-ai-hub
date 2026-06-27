@@ -37,11 +37,26 @@ SPEC.md                          Spec-Methode-Artefakt (Ziel, Entscheide, Bewert
 schema/studio-model.schema.json  JSON-Schema des Modells
 beispiele/beispiel_bederstrasse.json  Worked Example (echte ZH-Parzelle EN2850, Zuerich-Enge)
 tools/studio_assemble.py         Adresse -> Modell-Geruest (geo-zh: EGRID/Parzelle/Gemeinde)
+tools/studio_context.py          ECHTES 3D: swissALTI3D-Gelaende + swissBUILDINGS3D-Kuben, Render je Variante (gdal-frei)
 tools/studio_calc.py             Rechen-Kern (Quelle der Wahrheit)
-tools/massing_svg.py             isometrisches Massenmodell je Variante (inline-SVG, "3D")
-tools/build_studio.py            HTML-Studio-Generator (Live-Engine + Massenmodelle eingebettet)
+tools/massing_svg.py             inline-SVG-Massenmodell (Fallback, wenn keine echten Grundlagen)
+tools/build_studio.py            HTML-Studio-Generator (Live-Engine + Renderings/Massenmodelle eingebettet)
 tools/build_dossier.py           DOCX-Dossier-Generator (nutzt studio_calc.py)
 tools/assets/fonts/              DM Sans + Fragment Mono (in HTML eingebettet)
+
+## Echtes 3D-Situationsmodell
+
+```bash
+# Renderings auf echtem swissALTI3D-Gelaende + swissBUILDINGS3D-Kuben (gdal-frei)
+~/.venvs/volumen3d/bin/python tools/studio_context.py --egrid CH987609527775 \
+  --out DIR --name 2700_OBER \
+  --variante "A:az=0.35,geschosse=3,geschosshoehe=3.0" \
+  --variante "B:az=0.28,geschosse=2,geschosshoehe=3.0"
+# erzeugt DIR/<name>_variante_<X>_axo.png  -> als render_img in die Varianten des model.json
+```
+`az=` macht den Footprint AZ-konform (Footprint = AZ × Parzelle / Geschosse). `build_studio.py`
+bettet lokale `render_img` selbst-tragend als base64 ein. Praesentationsqualitaet via Skill
+`volumenstudie` (Cinema 4D).
 ```
 
 ## Das interaktive Studio

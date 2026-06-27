@@ -176,6 +176,8 @@ def main():
     ap.add_argument("--radius", type=float, default=35.0)
     ap.add_argument("--dtm-res", type=float, default=2.0)
     ap.add_argument("--no-render", action="store_true")
+    ap.add_argument("--c4d", action="store_true",
+                    help="zusaetzlich Cinema-4D-Goldstandard via Mac Mini (render-remote.sh)")
     a = ap.parse_args()
 
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
@@ -243,9 +245,43 @@ def main():
            "--dtm", str(dtm_xyz), "--name", a.name, "--out", str(out),
            "--radius", str(a.radius), "--render"] + vspecs
     subprocess.run(cmd, check=True)
-    print("FERTIG. Renderings:")
+    print("FERTIG (lizenzfreier Render). Renderings:")
     for p in sorted(out.glob(f"{a.name}*_axo.png")):
         print("  ", p)
+
+    if a.c4d:
+        print("6) Cinema-4D-Goldstandard via Mac Mini (render-remote.sh)")
+        hub = Path("/Volumes/daten/jans-ai-hub")
+        rr = hub / "skills" / "volumenstudie" / "tools" / "render-remote.sh"
+        c4dtool = hub / "skills" / "volumenstudie" / "tools" / "c4d_situation.py"
+        nasdir = Path("/Volumes/daten/render-scratch") / a.name
+        if not rr.exists() or not Path("/Volumes/daten").exists():
+            print("   WARN: render-remote.sh / NAS nicht verfuegbar — bleibe beim lizenzfreien Render")
+        else:
+            nasdir.mkdir(parents=True, exist_ok=True)
+            for obj in out.glob(f"{a.name}_*.obj"):
+                (nasdir / obj.name).write_bytes(obj.read_bytes())
+            vflags = []
+            for v in a.variante:
+                vflags += ["--variante", v.split(":")[0]]
+            rcmd = ["bash", str(rr), "script", str(c4dtool), "--",
+                    "--dir", str(nasdir), "--name", a.name, "--out", str(nasdir),
+                    "--statusquo", "--breite", "2000"] + vflags
+            try:
+                subprocess.run(rcmd, check=True)
+                for v in a.variante:
+                    vn = v.split(":")[0]
+                    src = nasdir / f"{a.name}_variante_{vn}_axo.png"
+                    if src.exists():
+                        dst = out / f"{a.name}_c4d_{vn}.png"
+                        dst.write_bytes(src.read_bytes())
+                        print(f"   C4D Variante {vn} -> {dst}  (als render_img setzen)")
+                sq = nasdir / f"{a.name}_statusquo_axo.png"
+                if sq.exists():
+                    (out / f"{a.name}_c4d_statusquo.png").write_bytes(sq.read_bytes())
+            except subprocess.CalledProcessError:
+                print("   WARN: C4D-Render fehlgeschlagen (Mini nicht erreichbar/lizenz?) — "
+                      "lizenzfreier Render bleibt gueltig")
 
 
 if __name__ == "__main__":

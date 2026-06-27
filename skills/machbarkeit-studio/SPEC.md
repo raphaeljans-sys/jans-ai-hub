@@ -54,9 +54,19 @@ Erledigt (27.06.2026, autonom, auf Freigabe "beide Stufen bauen"):
   Annahme). Verifiziert an Bederstrasse 49 (EN2850 / CH689499917725). Die fachlichen Werte
   (Zone/Ausnuetzung via `baurecht`, Volumen/Markt via Agenten) fuellt Claude ins Geruest.
 
+Erledigt (27.06.2026, Folge-Auftrag "echte Topografie"):
+- **Echtes 3D-Situationsmodell** — `tools/studio_context.py` (gdal-frei): Parzelle via geo.admin
+  find (EGRID→Polygon), Terrain via swisstopo-Profil-API (swissALTI3D), Nachbar-Gebaeudekuben via
+  STAC (swissBUILDINGS3D_2), Render je Variante mit `situationsmodell.py` (Baukoerper auf echtem
+  Gelaende im echten Kontext). AZ-konformer Footprint (`az=` → Footprint = AZ×Parzelle/Geschosse).
+  `situationsmodell.terrain_grid` um gdal-freien `.xyz`-Pfad erweitert → ganze Pipeline ohne GDAL,
+  auf jeder Station. Rule 260627 verankert. Verifiziert an Oberrieden Parz. 4100 (Fläche 982≈983 m²).
+- **render_img selbst-tragend** — `build_studio.py` bettet lokale Bildpfade als base64 ein.
+
 Weiter offen (nicht blockierend):
-- Optionaler PDF-Export des Studios direkt aus dem Browser (Druckpfad steht; Headless-Chrome-
-  Pipeline analog volumenstudie/render-remote moeglich).
+- Optionaler Headless-Chrome-PDF-Export des Studios (Druckpfad steht).
 - Kennwerte-Reife: aus `wissen/grobkosten` automatisch je Nutzung/Standard vorbelegen.
-- Echtes Parzellen-Polygon als Footprint des Massenmodells (geo-zh exponiert das Polygon noch
-  nicht im JSON; aktuell quadratischer Ersatz-Footprint aus BGF/Geschosse).
+- swissSURFACE3D-Baeume automatisch im Studio-Render (Pipeline kann es via `--baeume`, noch nicht
+  in `studio_context.py` verdrahtet).
+- Render-Optik (Kontrast/Aufloesung) heben bzw. optional auf c4d-Praesentationsqualitaet
+  (Skill `volumenstudie`) umstellen.
