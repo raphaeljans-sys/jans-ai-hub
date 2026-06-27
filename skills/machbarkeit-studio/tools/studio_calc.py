@@ -95,6 +95,14 @@ def huelle_rechnen(a: dict, gsf: float, az: float, vg: int) -> dict:
     hnf_oben = sum(g["hnf"] for g in geschosse if g["name"] != "Souterrain")
     hnf_total = hnf_oben + hnf_ug
 
+    # Override mit dem TATSAECHLICHEN Entwurfsvolumen (wenn ein konkreter Baukoerper vorliegt,
+    # z.B. die Variante Schraegdach): GV/HNF aus dem Modell statt aus der generischen Faktorkette.
+    if a.get("gv_override"):
+        gv = _num(a.get("gv_override"), gv)
+    if a.get("hnf_total_override"):
+        hnf_total = _num(a.get("hnf_total_override"), hnf_total)
+        hnf_oben = hnf_total - hnf_ug
+
     kw = _num(a.get("kennwert_chf_m3"), DEFAULTS["kennwert_chf_m3"])
     kwl = _num(a.get("kennwert_band_low"), kw)
     kwh = _num(a.get("kennwert_band_high"), kw)

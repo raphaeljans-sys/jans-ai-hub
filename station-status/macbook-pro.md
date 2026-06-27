@@ -1,14 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.06.2026 09:24:29
+Stand: 27.06.2026 09:44:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:44)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
+- 7 Datei(en): AR - 03 Studien / 2623 Oberrieden
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -18,4 +19,4 @@ Stand: 27.06.2026 09:24:29
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 050c1c4 nas-selfcommit: 8 Datei(en) 2026-06-27 09:15
+- 355cf4e nas-selfcommit: 8 Datei(en) 2026-06-27 09:30

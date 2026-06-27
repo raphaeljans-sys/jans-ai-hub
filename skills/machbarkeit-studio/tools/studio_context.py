@@ -137,27 +137,47 @@ def fetch_buildings_dxf(centroid_lv95, out_dxf):
     return out_dxf
 
 
-def compact_box_obj(poly, footprint_m2, hoehe, out_obj, z_unten=0.0):
-    """Kompakter, zentrierter Baukoerper (Rechteck footprint_m2, Seitenverhaeltnis aus Parzelle)
-    als OBJ in LOKALEN Koordinaten (Origin = Parzellen-Zentroid) — sauberes Massenmodell statt
-    duennem Offset-Riegel. z relativ (situationsmodell setzt es auf das Terrain)."""
-    minx, miny, maxx, maxy = poly.bounds
-    bw, bh = max(maxx - minx, 1.0), max(maxy - miny, 1.0)
-    ar = bw / bh
-    b = (footprint_m2 / ar) ** 0.5           # Tiefe (y)
-    a = footprint_m2 / b                      # Breite (x)
-    a, b = a * 0.92, b * 0.92                 # leicht eingerueckt
-    hx, hy = a / 2, b / 2
-    z0, z1 = z_unten, z_unten + hoehe
-    V = [(-hx, -hy, z0), (hx, -hy, z0), (hx, hy, z0), (-hx, hy, z0),
-         (-hx, -hy, z1), (hx, -hy, z1), (hx, hy, z1), (-hx, hy, z1)]
-    F = [[1, 2, 6, 5], [2, 3, 7, 6], [3, 4, 8, 7], [4, 1, 5, 8], [5, 6, 7, 8], [1, 4, 3, 2]]
-    with open(out_obj, "w") as f:
-        f.write("# JANS kompakter Baukoerper (lokal, Origin=Zentroid)\n")
+def gabled_massing_obj(poly, footprint_m2, traufhoehe, firsthoehe, out_obj, z_unten=0.0):
+    """An der PARZELLE ausgerichteter, gegliederter Baukoerper mit SATTELDACH als OBJ
+    (lokale Koord., Origin = Parzellen-Zentroid). Footprint = minimal-rotiertes Rechteck der
+    Parzelle (uebernimmt Firstrichtung/Strassenausrichtung), auf die Zielflaeche skaliert.
+    Kein achsparalleler Quader (Rule 260627b). First laeuft entlang der langen Achse."""
+    import numpy as np
+    cx, cy = poly.centroid.x, poly.centroid.y
+    mrr = poly.minimum_rotated_rectangle
+    cc = list(mrr.exterior.coords)[:4]
+    P = [np.array([x - cx, y - cy]) for (x, y) in cc]   # lokal um Zentroid
+    a = P[1] - P[0]; b = P[3] - P[0]
+    la, lb = np.linalg.norm(a), np.linalg.norm(b)
+    f = (footprint_m2 / (la * lb)) ** 0.5 if la * lb > 0 else 1.0
+    f *= 0.94                                            # leichte Einrueckung vom Baufeldrand
+    C = [p * f for p in P]                               # skalierte Eckpunkte (zentriert)
+    # First entlang der laengeren Achse
+    long_a = la >= lb
+    z0, zt, zf = z_unten, z_unten + traufhoehe, z_unten + firsthoehe
+    # Eckreihenfolge C0..C3 konsekutiv
+    c0, c1, c2, c3 = C
+    if long_a:           # lange Achse = c0->c1 ; First-Enden = Mitte(c1,c2) und Mitte(c3,c0)
+        r0 = (c3 + c0) / 2; r1 = (c1 + c2) / 2
+    else:                # lange Achse = c0->c3 ; First-Enden = Mitte(c0,c1) und Mitte(c2,c3)
+        r0 = (c0 + c1) / 2; r1 = (c2 + c3) / 2
+    V = [(*c0, z0), (*c1, z0), (*c2, z0), (*c3, z0),          # 1-4 Sockel
+         (*c0, zt), (*c1, zt), (*c2, zt), (*c3, zt),          # 5-8 Traufe
+         (*r0, zf), (*r1, zf)]                                # 9-10 First
+    F = [[1, 2, 6, 5], [2, 3, 7, 6], [3, 4, 8, 7], [4, 1, 5, 8],   # Waende
+         [1, 4, 3, 2]]                                              # Sockel/Boden
+    if long_a:
+        F += [[5, 6, 10, 9], [7, 8, 9, 10],   # Dachflaechen (lange Seiten)
+              [6, 7, 10], [8, 5, 9]]            # Giebel (kurze Seiten)
+    else:
+        F += [[6, 7, 10, 9], [8, 5, 9, 10],
+              [5, 6, 9], [7, 8, 10]]
+    with open(out_obj, "w") as fobj:
+        fobj.write("# JANS Massenmodell: parzellen-ausgerichtet, Satteldach (lokal, Origin=Zentroid)\n")
         for x, y, z in V:
-            f.write(f"v {x:.3f} {y:.3f} {z:.3f}\n")
+            fobj.write(f"v {x:.3f} {y:.3f} {z:.3f}\n")
         for fc in F:
-            f.write("f " + " ".join(str(i) for i in fc) + "\n")
+            fobj.write("f " + " ".join(str(i) for i in fc) + "\n")
     return out_obj
 
 
@@ -260,9 +280,12 @@ def main():
         for vn, gesch, gh, az in self_specs:
             if az is None:
                 continue
-            fp = az * poly.area / max(gesch, 1)
-            compact_box_obj(poly, fp, gesch * gh, str(out / f"{a.name}_{vn}.obj"))
-            print(f"   {vn}: kompakter Baukoerper {fp:.0f} m² × {gesch*gh:.1f} m")
+            fp = az * poly.area / max(gesch, 1)            # Footprint = aGF / Geschosse
+            trauf = gesch * gh                              # Traufhoehe
+            first = trauf + 3.5                             # Satteldach ~30-35 Grad
+            gabled_massing_obj(poly, fp, trauf, first, str(out / f"{a.name}_{vn}.obj"))
+            print(f"   {vn}: parzellen-ausgerichteter Satteldach-Koerper {fp:.0f} m², "
+                  f"Trauf {trauf:.1f} m / First {first:.1f} m")
 
     if a.no_render or not geb:
         print("FERTIG (ohne Render)" if a.no_render else "FERTIG (ohne Gebaeude/Render)")
