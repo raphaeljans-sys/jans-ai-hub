@@ -48,15 +48,24 @@ def lade_parzelle(p):
     return g
 
 
-def terrain_grid(dtm_tif, bbox, aufl=1.0):
-    """DTM-Ausschnitt als Punktgitter (gdal_translate -> XYZ); bbox=(minx,miny,maxx,maxy) LV95."""
-    with tempfile.NamedTemporaryFile(suffix=".xyz", delete=False) as t:
-        xyz = t.name
-    subprocess.run(["gdal_translate", "-q", "-of", "XYZ", "-tr", str(aufl), str(aufl),
-                    "-projwin", str(bbox[0]), str(bbox[3]), str(bbox[2]), str(bbox[1]),
-                    dtm_tif, xyz], check=True)
-    pts = np.loadtxt(xyz)
-    Path(xyz).unlink()
+def terrain_grid(dtm, bbox, aufl=1.0):
+    """DTM-Ausschnitt als regelmaessiges Punktgitter -> (xs, ys[absteigend], Z).
+
+    Akzeptiert ZWEI Eingaben:
+      *.xyz  : bereits regelmaessiges Gitter (x y z, y absteigend) -> gdal-frei direkt
+               (z.B. aus der swisstopo-Profil-API, terrain_swisstopo.py). bbox wird ignoriert.
+      *.tif  : swissALTI3D-GeoTIFF -> via gdal_translate ausschneiden (braucht GDAL).
+    """
+    if str(dtm).lower().endswith(".xyz"):
+        pts = np.loadtxt(dtm)
+    else:
+        with tempfile.NamedTemporaryFile(suffix=".xyz", delete=False) as t:
+            xyz = t.name
+        subprocess.run(["gdal_translate", "-q", "-of", "XYZ", "-tr", str(aufl), str(aufl),
+                        "-projwin", str(bbox[0]), str(bbox[3]), str(bbox[2]), str(bbox[1]),
+                        dtm, xyz], check=True)
+        pts = np.loadtxt(xyz)
+        Path(xyz).unlink()
     xs, ys = np.unique(pts[:, 0]), np.unique(pts[:, 1])[::-1]
     Z = pts[:, 2].reshape(len(ys), len(xs))
     return xs, ys, Z

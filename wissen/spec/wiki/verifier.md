@@ -38,3 +38,23 @@ JANS-Fassung:
 Im JANS-Hub ist die natuerliche Format-Vorlage ein **Goldstandard** (z.B. 2513 BAAR,
 2620 Albertstrasse), die zweite Pruefinstanz der Skill `korrektur` und das `twin`-Gate,
 das externe Signal der passende **Connector**.
+
+## Lektion aus realer Anwendung: der Verifier muss das echte Abnahmekriterium spiegeln
+Belegt am Fall AG-Gruendung (`outputs/2026-06-21_ag-gruendung_spec.md`, Korrektur-Delta
+21.→22.06.2026). Das Verifier-Signal "Firmenname JANS AG frei" stuetzte sich auf eine
+**Zefix-Exact-String-Suche** (0 Treffer "JANS AG" → gruen). Das war ein **falsches Gruen**:
+die amtliche **Weisung zur Pruefung der Firmenidentitaet (Ziff. IV)** wertet den Rechtsform-
+zusatz (AG/GmbH) als **nicht unterscheidungskraeftig** — die bestehende "JANS GmbH" blockiert
+"JANS AG". Erst die **autoritative Instanz** (Notar/HRA) deckte das auf.
+
+Konsequenz fuer jeden Verifier:
+- **Ein automatisierter/Connector-Check ist nur indikativ**, solange er nicht das *exakte*
+  Abnahmekriterium der entscheidenden Stelle nachbildet. Ein naiver Proxy (String-Match)
+  ≠ das amtliche Pruefverfahren (Identitaets-/Unterscheidbarkeits-Pruefung).
+- **Rangordnung der Signale benennen:** wo eine autoritative Instanz existiert (Behoerde,
+  Notar, Gericht, Bank), schlaegt sie den Connector. Connector-Gruen heisst "Indiz", nicht
+  "bestanden" — das ausdruecklich so kommunizieren (kein Scheinbeweis).
+- **Falsch-Gruen ist teurer als Rot:** ein Verifier, der faelschlich gruen meldet, traegt
+  einen Fehler ungebremst ins Endprodukt (hier: Belegset + UBS-Formular liefen auf einen
+  spaeter nicht eintragungsfaehigen Namen). Verifier im Zweifel **streng** (Default = nicht
+  bestanden, bis die autoritative Stelle bestaetigt).

@@ -458,6 +458,15 @@ def build(model, out_path):
     for idx, i in enumerate(vinfo):
         v = i["v"]
         img = v.get("render_img")
+        if img and not img.startswith(("data:", "http")):
+            # lokales Bild selbst-tragend einbetten (base64 data-URI)
+            try:
+                with open(img, "rb") as fh:
+                    b = base64.b64encode(fh.read()).decode("ascii")
+                ext = "jpeg" if img.lower().endswith((".jpg", ".jpeg")) else "png"
+                img = f"data:image/{ext};base64,{b}"
+            except OSError:
+                img = None
         if img:
             vis = f'<img src="{img}" alt="{v.get("name","")}">'
         else:

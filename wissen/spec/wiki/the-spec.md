@@ -14,6 +14,13 @@ bauen — das, was Anthropic den "Plan Mode" nennt. Ablaufkette
 **Goals → Requirements → Spec → Implementation**
 (Quelle: [[the-spec]] RAW-Transkript Marchese).
 
+> **Primaerquelle Plan Mode (F5 eingeloest, 2026-06-27):** Anthropic Claude-Code-Doku,
+> "Common workflows → Plan before editing": *"For changes you want to review before they
+> touch disk, switch to plan mode. Claude reads files and proposes a plan but makes no edits
+> until you approve."* (`claude --permission-mode plan` bzw. Shift+Tab).
+> Belegt die Aussage "erst planen, dann bauen" als offizielles Anthropic-Pattern, nicht nur
+> als Marchese-Interpretation. URL: https://code.claude.com/docs/en/common-workflows
+
 **Mentales Modell: Agile > Waterfall.**
 - Waterfall: grosse Aufgabe komplett erledigen, am Schluss das Endergebnis zeigen.
 - Agile: dieselbe Aufgabe in kleine Bloecke brechen und das Resultat *waehrend* des

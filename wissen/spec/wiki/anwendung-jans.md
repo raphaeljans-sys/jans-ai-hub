@@ -40,9 +40,14 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
 ## Wie die drei Schritte im Hub konkret aussehen
 1. **Ziel aufdecken** — kurzes Interview (gern via `AskUserQuestion` fuer Schluesselentscheide),
    tendenziell kleine, abgegrenzte Specs, Entscheide ausdruecklich bestaetigen lassen.
+   Bei Recht/Gruendung/Umbau **zuerst die Ausgangslage (IST-Zustand) als Schluesselentscheid
+   bestaetigen** — sonst baut das Ziel auf einer falschen Annahme auf (Lektion AG-Gruendung:
+   anfangs faelschlich "bestehende AG" statt "Einzelfirma").
 2. **Agil** — `TaskCreate`-Checkliste, enge Scopes, Checkpoints, Review je Block.
 3. **Praezise + Verifier** — Bewertungskriterien vorab; Goldstandard als Format-Vorlage;
    zweite Pruefinstanz (`korrektur`/`twin`/`/code-review`); externes Signal via Connector.
+   Wo eine **autoritative Instanz** entscheidet (Behoerde/Notar/Bank), gilt deren Befund vor
+   jedem Connector-Signal — Connector-Gruen ist nur Indiz (siehe [[verifier]]).
 
 ## Compounding
 Jede groessere Spec-Anwendung wird als `outputs/JJJJ-MM-TT_<vorhaben>_spec.md` abgelegt
