@@ -42,11 +42,21 @@ beides verschickbar als EIN offline lauffaehiges HTML — und parallel das gewoh
 - Vor Kundenausgabe zusaetzlich: Skill `korrektur` (Texte) + `twin` (Fidelity), Markt-Annahmen
   gegen UBS-Fact-Sheet/Makleranalyse.
 
-## Offene Punkte / Ausbaustufen (nicht blockierend)
+## Ausbaustufen
 
-- 3D-Renderings (Skill `volumenstudie`) automatisch je Variante einsetzen (`render_img`).
-- Direkte Verdrahtung an die Sub-Agenten (volumen-rechner/wirtschaftlichkeit-rechner) statt
-  manuell befuelltem Modell.
+Erledigt (27.06.2026, autonom, auf Freigabe "beide Stufen bauen"):
+- **3D-Massenmodell je Variante** — `tools/massing_svg.py`: isometrisches, abhaengigkeitsfreies
+  inline-SVG (JANS-Monochrom, gemeinsamer Massstab, Leitvariante Oxidrot), automatisch von
+  `build_studio.py` eingebettet. Echte `volumenstudie`-Renderings (c4d/axo) via `render_img` mit
+  Vorrang. Verifiziert: 3 Massenmodelle korrekt skaliert (A 4'030 < B 4'926 < C 5'598 m³).
+- **Sub-Agenten-Verdrahtung (deterministischer Teil)** — `tools/studio_assemble.py`: Adresse →
+  `geo-zh.mjs` → echtes EGRID/Parzelle/Gemeinde → Modell-Geruest (meta gefuellt, Fachwerte als
+  Annahme). Verifiziert an Bederstrasse 49 (EN2850 / CH689499917725). Die fachlichen Werte
+  (Zone/Ausnuetzung via `baurecht`, Volumen/Markt via Agenten) fuellt Claude ins Geruest.
+
+Weiter offen (nicht blockierend):
 - Optionaler PDF-Export des Studios direkt aus dem Browser (Druckpfad steht; Headless-Chrome-
   Pipeline analog volumenstudie/render-remote moeglich).
 - Kennwerte-Reife: aus `wissen/grobkosten` automatisch je Nutzung/Standard vorbelegen.
+- Echtes Parzellen-Polygon als Footprint des Massenmodells (geo-zh exponiert das Polygon noch
+  nicht im JSON; aktuell quadratischer Ersatz-Footprint aus BGF/Geschosse).

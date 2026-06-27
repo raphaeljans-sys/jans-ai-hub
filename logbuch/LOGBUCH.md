@@ -5,6 +5,36 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-27
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 04.07.)
+  und Mail-Eingang (seit 26.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **72 Tage ueberfaellig**, Mahnstufe 1) — naechste Frist **28.06.**, d.h. die
+  Eskalation auf Stufe 2 (Mahnung 1) ist jetzt **morgen** faellig. RE-00097 (Hofer, CHF 500,
+  faellig 16.06., **11 Tage ueberfaellig**, Mahnstufe 1) — naechste Frist **30.06.** = in 3 Tagen.
+  Kein Zahlungseingang seit dem letzten Lauf.
+- **AG-Gruendung (unveraendert hoch):** HRA-Voranfrage «JANS AG» (Geschaeft 043830-2026) liegt bei
+  der zustaendigen Abteilung — kein Bescheid eingegangen. Namensentscheid + UBS-Unterschrift bleiben
+  blockiert, bis der HRA-Bescheid vorliegt. Beide Zeilen bleiben offen/nachfassen.
+- **NEU — KISPI Los 231.10 Tuerfachplanung:** Abwesenheits-Antwort L. Hiltmann (Tekosi) auf die
+  JANS-Honorarofferte-Anfrage — ausser Haus bis 05.07., erreichbar ab 06.07.; Rueckmeldung erst
+  danach erwarten. Als beobachten-Pendenz (tief) ins Register.
+- **Mail-Hinweise (Info, kein Frist-Item):** Marco Schwander (Gastro-Online) Korrespondenz LOS_273.35
+  Kuechenbau laeuft (Masse ergaenzt); IncaMail Passwort-Ruecksetzung + -Aenderung (26.06., mutmasslich
+  durch Raphael selbst ausgeloest — kein Item, aber notiert).
+- **Kalender naechste 7 Tage (Outlook):** nur 01.07. — generisches «Neues Ereignis» 09:00–10:00 und
+  privat «Fuehrung, Food & Faenen» FIFA-Museum 15:45–21:00.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (Eskalation **morgen** 28.06.), RE-00097 (30.06.),
+  AG-Gruendung (UBS-Unterschrift + Namensentscheid, HRA-Bescheid abwarten), KISPI LOS274.01
+  (definitive Offerte verlangen), Termine 01.07. Dauerhaft offen: SharePoint-Speicher,
+  bexio-Doppelimport, EPROID B26-00705.01 (ab 02.07.), dwg Ramminger, Unterlagen Scherbl,
+  Status/Beton Tschopp, Freischaltung Merci, Rueckmeldung Chaled, Jomos-Status, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-26
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 03.07.)

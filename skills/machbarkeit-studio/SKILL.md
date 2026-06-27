@@ -112,11 +112,27 @@ Sensitivitaet: Residualwert der Leitvariante gegen **Flaechen-Delta** (0/−10/�
 
 | Tool | Zweck |
 |---|---|
+| `tools/studio_assemble.py` | **Adresse → Modell-Geruest**: `python studio_assemble.py --adresse "…" --out model.json` zieht via `geo-zh.mjs` echte EGRID/Parzelle/Gemeinde und schreibt das Geruest (meta gefuellt, Fachwerte als Annahme). Die deterministische Sub-Agenten-Verdrahtung |
 | `tools/studio_calc.py` | Rechen-Kern (Quelle der Wahrheit); `python studio_calc.py model.json` → Resultat-JSON |
-| `tools/build_studio.py` | **Interaktives Live-Studio**: `python build_studio.py model.json studio.html` (selbst-tragend, Fonts eingebettet) |
+| `tools/massing_svg.py` | **Massenmodell** je Variante als inline-SVG (isometrisch, JANS-Monochrom, gemeinsamer Massstab) — abhaengigkeitsfreies "3D", wird von `build_studio.py` automatisch eingebettet |
+| `tools/build_studio.py` | **Interaktives Live-Studio**: `python build_studio.py model.json studio.html` (selbst-tragend, Fonts + Massenmodelle eingebettet) |
 | `tools/build_dossier.py` | **Dossier**: `python build_dossier.py model.json dossier.docx`; PDF via `scripts/docx2pdf.sh` |
 | `schema/studio-model.schema.json` | Modell-Schema (JSON Schema) |
 | `beispiele/beispiel_bederstrasse.json` | Worked Example (echte ZH-Parzelle EN2850) |
+
+**3D / Massenmodell:** `build_studio.py` erzeugt je Variante automatisch ein isometrisches
+Massenmodell (Footprint = BGF/Geschosse, Hoehe = Geschosse × Geschosshoehe, gemeinsamer Massstab,
+Leitvariante in Oxidrot) — ohne externe Abhaengigkeit, eingebettet ins HTML. Liegt fuer eine
+Variante ein echtes Rendering vor (Skill `volumenstudie`, c4d/axo), setze es als `render_img`
+(Pfad oder data-URI) — es hat **Vorrang** vor dem SVG-Fallback.
+
+**Adresse → fertiges Studio (Knopfdruck-Flow):**
+```
+studio_assemble.py --adresse "…"  →  model.json (meta echt, Fachwerte = Annahme)
+   ↓ Skill baurecht / OEREB füllt Zone + Ausnützungsziffer je Variante + Grundstücksfläche
+   ↓ (optional) Agenten volumen-rechner / wirtschaftlichkeit-rechner schärfen Volumen/Markt
+build_studio.py model.json studio.html   +   build_dossier.py model.json dossier.docx
+```
 
 ## Vorgehen (Standard)
 

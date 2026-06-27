@@ -24,8 +24,10 @@ Was liegt in `raw/` und wurde es ins `wiki/` eingearbeitet?
 
 | `260626-mailbatch-17.md` | Sent Items rj@ systematisch, **2025-10-09 bis 2025-10-20** (15 Mails gesichtet, 5 Volltexte destilliert, 4 MS-Support/System/Unsubscribe/Share ignoriert; WOMA Ebmatingen STWEG-Begründung (Bopp): Honorarofferte Aufteilungspläne SIA 416 + swisstopo-Standard «DigDok STWE»; eigene Admin SVA/boesner; Lu+Yorck bereits via Batch 16 abgedeckt) | authentisch (klar vor-Claude) | ja (fachsignatur **neu** STWEG-Aufteilungsplan SIA 416 HNF/ANGF/VF/FF + swisstopo-Darstellungsstandard + Tagespauschalen-Honorarmodell + Materialgespür-Alltagskauf bestätigt; beziehungsregister **neu** SVA-Amt-Sie + drei Anreden EIN Kontakt EIN Tag (Bopp Geschätzter/Hoi/Lieber); stimme **neu** «effiziente Zusammenarbeit»-Offerten-Schluss + «kurze Rückmeldung dankbar» + Metrik 404 W/Du-Gross 1.0/ø 16.2 W) |
 
+| `260627-mailbatch-18.md` | Sent Items rj@ systematisch, **2025-10-22 bis 2025-11-06** (20 Mails gesichtet, 5 Volltexte destilliert, MS-Support/Unsubscribe/Link-only ignoriert; Gros = Fortsetzung bekannter Threads: STWEG-Teilungsplan Ebmatingen (Bopp), eigene Firmenumwandlung UNARC→JANS GmbH (HRA/Notariat), Japanpapier (boesner/Gloor), Wettbewerb Fiesch (Geser) — alle bereits via Batch 16/17 + haltung 260610 erfasst, hier sequentiell bestätigt. NEU fachlich: denkmalrelevantes Baugesuch B25-01615.01 Wartstrasse 8 (Baugespann/Denkmalpflege-Timeline an AfB/Müller). Metrik 587 W: Du-Gross 1.0, Satzlänge ø 14.7 W, Freundliche Grüsse 4×) | authentisch (klar vor-Claude) | ja (stimme **neu** gesprochenes «haha» im warm-operativen Du + Metrik; arbeitsweise **neu** Schlussabgabe PDF+Originalquelle xlsx/DWG + effektive Bearbeitungszeit transparent + Telefonat-Traktanden 2. Datenpunkt; fachsignatur **neu** Behörden-Verfahrensrealismus Denkmalpflege-Inventarblatt/Feststellungsbeschluss-Timeline +4 Mt + Baugespann proaktiv steuern; haltung «Rücksicht bis zur Behörde» bereits via 260610 belegt) |
+
 **Sequentieller Mail-Sweep (Sent Items rj@, älteste zuerst):** abgedeckt bis
-**2025-10-20** einschliesslich. Nächster Lauf: ab 2025-10-21.
+**2025-11-06** einschliesslich. Nächster Lauf: ab 2025-11-07.
 
 Hinweis: «Batch 05»-Marker (11.08./14.08., «Hey» als lockerste Peer-Du-Stufe, «%» ohne
 Leerschlag im Eil-Du) lagen bereits im Wiki (partieller Vorlauf); Batch 06 deckt den

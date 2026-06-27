@@ -20,10 +20,13 @@ Aufruf:
 
 Modell-Schema: schema/studio-model.schema.json + beispiele/beispiel_*.json
 """
-import sys, os, json, base64
+import sys, os, json, base64, math
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _FONTS = os.path.join(_HERE, "assets", "fonts")
+sys.path.insert(0, _HERE)
+from studio_calc import studie_rechnen  # noqa: E402
+from massing_svg import massing_svg     # noqa: E402
 
 
 def _font_b64(name):
@@ -439,16 +442,32 @@ def build(model, out_path):
     else:
         baurecht_html = ""
 
-    # Renders
+    # Massenmodell / Renderings je Variante
+    calc = studie_rechnen(model)
+    gh = float(calc["annahmen"].get("geschosshoehe_m", 3.0) or 3.0)
+    vinfo = []
+    for v, r in zip(model.get("varianten", []), calc["varianten"]):
+        gesch = v.get("geschosse") or 1
+        footprint = (r["BGF"] / gesch) if gesch else r["aGF"]
+        height = gesch * gh
+        vinfo.append({"v": v, "r": r, "gesch": gesch, "footprint": footprint, "height": height})
+    ref_side = max((math.sqrt(max(i["footprint"], 1.0)) for i in vinfo), default=1.0)
+    ref_h = max((i["height"] for i in vinfo), default=1.0)
+    li_r = model.get("leitvariante_index", 0)
     renders = []
-    for v in model.get("varianten", []):
+    for idx, i in enumerate(vinfo):
+        v = i["v"]
         img = v.get("render_img")
         if img:
-            renders.append(f'<figure><img src="{img}" alt="{v.get("name","")}">'
-                           f'<figcaption>{v.get("name","")}</figcaption></figure>')
+            vis = f'<img src="{img}" alt="{v.get("name","")}">'
+        else:
+            vis = massing_svg(i["footprint"], i["gesch"], gh, ref_side, ref_h,
+                              accent=(idx == li_r))
+        cap = f'{v.get("name","")} · {i["gesch"]} Gesch · {round(i["r"]["GV"]):,} m³'.replace(",", "'")
+        renders.append(f'<figure>{vis}<figcaption>{cap}</figcaption></figure>')
     renders_html = (
         '<div class="sec"><div class="sechead"><span class="no">05</span>'
-        '<div class="ttl">Volumen · Varianten</div></div>'
+        '<div class="ttl">Massenmodell <span class="q">· je Variante, gemeinsamer Massstab</span></div></div>'
         f'<div class="renders">{"".join(renders)}</div></div>') if renders else ""
 
     # Fazit / Vorbehalte

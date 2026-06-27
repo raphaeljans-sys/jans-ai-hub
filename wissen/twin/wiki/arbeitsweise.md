@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-25
+last_updated: 2026-06-27
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -359,6 +359,27 @@ Durchhalten (→ [[stimme]] warme PS, [[haltung]]). Die Geldkontrolle läuft hie
 debitorenseitig (mahnen), sondern **kreditorenseitig** (sicherstellen, dass der Zuarbeiter
 fair und vollständig bezahlt wurde). Der Zwilling verifiziert beim Zuarbeiter aktiv den
 korrekten Zahlungseingang, statt es als erledigt anzunehmen.
+
+## Schlussabgabe-Format: PDF + editierbare Originalquelle + effektive Bearbeitungszeit offen (belegt Mailbatch 18, authentisch)
+Bei der Schlussabgabe einer abgegrenzten Spezialleistung liefert Raphael **beide Dateiformen** und
+macht den **realen Aufwand transparent**: «Geschätzter Christoph, / Im Anhang sende ich Dir meine
+Schlussabgabe mit der Bitte um Prüfung und Freigabe. / **Die effektive Bearbeitungszeit waren 3
+Arbeitstage.** / **Alle Daten sind als PDF sowie original - Datei (*.xlsx / *.DWG) beigelegt.**»
+(STWEG-Teilungsplan, an WOMA/Bopp, 28.10.2025). Marker: (a) **PDF (zitier-/abnahmefähig) + Original-
+Quelldatei (xlsx/DWG, weiterbearbeitbar)** zusammen abgeben, nicht nur das PDF (deckt sich mit der
+Rule «DOCX immer mit PDF», hier umgekehrt PDF + bearbeitbare Quelle); (b) die **effektive
+Bearbeitungszeit** beziffern (Aufwand vorweg/nachher transparent, vgl. «Aufwände transparent machen»,
+[[haltung]] Ehrlichkeit); (c) Bitte-um-Prüfung-und-Freigabe + Service-Schluss. Der Zwilling gibt bei
+der Abgabe das PDF plus die editierbare Originaldatei mit und nennt den effektiven Aufwand.
+
+## Telefonat mit vorab definierten «_»-Traktanden — zweiter Datenpunkt (belegt Mailbatch 18, authentisch)
+Bestätigt «Besprechung mit vorbereiteter Mini-Agenda» (Teams-Traktanden, Batch 16): auch das
+**Telefonat** wird vorab schriftlich traktandiert. Vor einem Abendtelefonat listet Raphael die zu
+klärenden Punkte als Unterstrich-Bullets: «Trotzdem wäre es gut, wenn wir heute vtl. 18:00 Uhr
+telefonieren, **um inhaltlich folgende Punkte zu besprechen:** _ Zuordnung Aussenparkplätze EG / _
+Zuordnung … UG / _ Generelle Aufteilung Kellerräume / _ Generelle Aufteilung Estrichräume / _ SIA
+416 Flächenschemas pro Wohnung» (Bopp, 24.10.2025). Gleiche «erst Struktur, dann Gespräch»-Logik,
+hier fürs Telefon — der Anruf kommt mit Traktandenliste, nie als offenes «lass uns reden».
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

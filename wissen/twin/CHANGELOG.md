@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-27 — twin-mail-training (täglich), Batch 18 (Sent rj@, 2025-10-22…11-06)
+- 20 Mails gesichtet, 5 Volltexte destilliert (STWEG-Teilungsplan-Abgabe Bopp; eigene Umfirmierung
+  UNARC→JANS GmbH HRA/Notariat; Café-haha Weisser; denkmalrelevantes Baugesuch B25-01615.01 AfB/Müller;
+  Japanpapier boesner/Gloor), MS-Support/Unsubscribe/Link-only ignoriert. Gewichtung authentisch
+  (klar vor-Claude). Gros = sequentielle Bestätigung bereits dokumentierter Threads (Batch 16/17,
+  haltung 260610). Metrik 587 W: Du-Gross 1.0, Satzlänge ø 14.7 W, «Freundliche Grüsse» 4×.
+- [[stimme]] **neu:** gesprochenes Lachen «haha» im warm-operativen Du («erwarte Dich mit einem Café
+  haha», Weisser) — nur engstes Du, sehr sparsam; + Batch-18-Metrik.
+- [[arbeitsweise]] **neu:** Schlussabgabe-Format = PDF + editierbare Originalquelle (*.xlsx/*.DWG) +
+  effektive Bearbeitungszeit offen beziffert; Telefonat vorab mit «_»-Traktanden (2. Datenpunkt zu
+  Teams-Traktanden Batch 16).
+- [[fachsignatur]] **neu:** Behörden-Verfahrensrealismus — kennt Denkmalpflege-Timeline (Inventarblatt +
+  Feststellungsbeschluss Stadtrat = ~4 Mt über die übliche 3–6-Mt-Dauer), nennt Verfahrensträger korrekt,
+  steuert Baugespann/Fristen proaktiv mit der Behörde (Baugesuch B25-01615.01).
+- [[haltung]] «Rücksicht reicht bis zur Behörde» (HRA-Vorprüfung 2025-10-31, Mehranläufe vermeiden):
+  bereits via Fidelity 260610 belegt — dieser Batch liefert die zugehörige Volltext-Mail, kein neuer Marker.
+- _INGESTED + drei Facetten-Frontmatter (last_updated 2026-06-27) aktualisiert; Sweep abgedeckt bis
+  2025-11-06, nächster Lauf ab 2025-11-07.
+
 ## 2026-06-26 — twin-mail-training (täglich), Batch 17 (Sent rj@, 2025-10-09…10-20)
 - 15 Mails gesichtet, 5 Volltexte destilliert (WOMA Ebmatingen STWEG-Begründung/Bopp; eigene
   Admin SVA + boesner; Lu/Yorck bereits via Batch 16 abgedeckt), 4 MS-Support/System/Unsubscribe/

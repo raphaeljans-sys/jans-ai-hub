@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-26
+last_updated: 2026-06-27
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -437,6 +437,24 @@ Eine eigene, konkret belegte Fachsignatur an der Schnittstelle Architektur ↔ N
   deuten auf **ungeleimtes Naturpapier mit hohem Zelluloseanteil** hin, eventuell mit leichten
   **Kunstfaserzusätzen (Polyester/Polyamid) zur Reissfestigkeit**.» Bestätigt den Material-/Licht-
   Fingerabdruck (vgl. Fidelity 260610) auch ausserhalb von Pitch/Studie.
+
+## Behörden-Verfahrensrealismus: Denkmalpflege-Timeline + Baugespann proaktiv steuern (belegt Mailbatch 18, authentisch)
+Zweiter, konkreter Datenpunkt zur «Baueingabe-Verfahrenssignatur Stadt ZH» (Batch 02): bei einem
+denkmalrelevanten Baugesuch kennt Raphael den **realen Verfahrensablauf samt Zeitfolgen** und
+steuert ihn aktiv gegenüber der Sachbearbeiterin AfB (Baugesuch B25-01615.01, Wartstrasse 8,
+06.11.2025): «Für die Bewilligungsfähigkeit der Baueingabe ist ein **Feststellungsbeschluss des
+Stadtrates** erforderlich. Zudem erstellt die Denkmalpflege ein **Inventarblatt** für das Objekt …
+Dieser behördliche Prozess verursacht eine **zusätzliche Verzögerung von rund vier Monaten**
+gegenüber der üblichen Bearbeitungsdauer von **drei bis sechs Monaten**.» Marker: (a) kennt die
+**Verfahrensschritte und ihre Trägerschaft** (Feststellungsbeschluss Stadtrat, Inventarblatt
+Denkmalpflege) und beziffert ihre **Termin-Wirkung** realistisch; (b) **steuert das Baugespann
+proaktiv** — fragt, ob es «aus Sicht der Behörde und der Denkmalpflege weiterhin … erforderlich
+ist. Falls kein Bedarf besteht, erfolgt der Abbau» (konditional, → [[denken]]); (c) bittet die
+Behörde, die im Anhang dargestellten **Fristen zu verifizieren** (Grundlage = Quartalsplanung der
+Ausführung). Fachkürzel verfahrensnah: Auflagefrist (elektronisch), Zustellbegehren, Heimatschutz
+SZH/ZVH/SHS, Feststellungsbeschluss, Inventarblatt. Der Zwilling kennt die Denkmalpflege-Verzögerung
+(~4 Monate on top), nennt die Verfahrensträger korrekt und steuert das Baugespann/die Fristen aktiv
+mit der Behörde — Verfahrenswissen belegt, nie geraten.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

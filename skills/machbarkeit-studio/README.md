@@ -10,7 +10,11 @@ Orchestrator-Skill ueber `machbarkeit` / `volumenstudie` / `grobkosten-onepager`
 ```bash
 cd skills/machbarkeit-studio
 
-# 1) Modell anlegen (Vorlage kopieren) — Schema: schema/studio-model.schema.json
+# 0) (empfohlen) Geruest aus echter Adresse ziehen — EGRID/Parzelle via geo-zh
+python3 tools/studio_assemble.py --adresse "Bederstrasse 49, Zürich" --out /pfad/meine_studie.json
+#   danach Zone + Ausnuetzungsziffer je Variante + Grundstuecksflaeche fuellen (Skill baurecht / OEREB)
+
+# 1) ODER Modell von Hand anlegen (Vorlage kopieren) — Schema: schema/studio-model.schema.json
 cp beispiele/beispiel_bederstrasse.json /pfad/meine_studie.json
 #   meta/annahmen/varianten anpassen; EGRID/Parzelle via geo-zh.mjs verifizieren, nie erfinden
 
@@ -32,8 +36,10 @@ SKILL.md                         Orchestrator-Definition (Contract, Pipeline, Mo
 SPEC.md                          Spec-Methode-Artefakt (Ziel, Entscheide, Bewertungskriterien, Verifier)
 schema/studio-model.schema.json  JSON-Schema des Modells
 beispiele/beispiel_bederstrasse.json  Worked Example (echte ZH-Parzelle EN2850, Zuerich-Enge)
+tools/studio_assemble.py         Adresse -> Modell-Geruest (geo-zh: EGRID/Parzelle/Gemeinde)
 tools/studio_calc.py             Rechen-Kern (Quelle der Wahrheit)
-tools/build_studio.py            HTML-Studio-Generator (Live-Engine spiegelt studio_calc.py)
+tools/massing_svg.py             isometrisches Massenmodell je Variante (inline-SVG, "3D")
+tools/build_studio.py            HTML-Studio-Generator (Live-Engine + Massenmodelle eingebettet)
 tools/build_dossier.py           DOCX-Dossier-Generator (nutzt studio_calc.py)
 tools/assets/fonts/              DM Sans + Fragment Mono (in HTML eingebettet)
 ```
