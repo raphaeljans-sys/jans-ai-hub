@@ -174,9 +174,12 @@ function huelle(a){
   const gf_dg=hatDG?gf_rg*f_dg:0; if(hatDG) G.push({name:'Attika/DG',gf:gf_dg,hnf:gf_dg*f_wohn,typ:'Dach-/Attikageschoss'});
   const gf_ug=hatUG?gf_rg:0, hnf_ug=(hatUG&&ugWohn)?gf_ug*f_ug:0;
   if(hatUG) G.push({name:'Souterrain',gf:gf_ug,hnf:hnf_ug,typ:'UG nicht anrechenbar'+(ugWohn?'':' (NNF)')});
-  const gf_total=G.reduce((s,g)=>s+g.gf,0), gv=gf_total*gh;
-  const hnf_oben=G.filter(g=>g.name!=='Souterrain').reduce((s,g)=>s+g.hnf,0);
-  const hnf_total=hnf_oben+hnf_ug;
+  const gf_total=G.reduce((s,g)=>s+g.gf,0);
+  let gv=gf_total*gh;
+  let hnf_oben=G.filter(g=>g.name!=='Souterrain').reduce((s,g)=>s+g.hnf,0);
+  let hnf_total=hnf_oben+hnf_ug;
+  if(a.gv_override) gv=num(a.gv_override,gv);                       // tatsaechliches Entwurfsvolumen
+  if(a.hnf_total_override){ hnf_total=num(a.hnf_total_override,hnf_total); hnf_oben=hnf_total-hnf_ug; }
   const kw=num(a.kennwert_chf_m3,D.kennwert_chf_m3),kwl=num(a.kennwert_band_low,kw),kwh=num(a.kennwert_band_high,kw);
   return {az,vg,aGF,gf_rg,geschosse:G,gf_total,gv,hnf_oberirdisch:hnf_oben,hnf_souterrain:hnf_ug,
     hnf_total,hnf_pro_agf:aGF?hnf_total/aGF:0,erstellung:gv*kw,erstellung_low:gv*kwl,erstellung_high:gv*kwh};
