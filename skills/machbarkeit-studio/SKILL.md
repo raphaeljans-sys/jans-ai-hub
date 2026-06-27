@@ -129,9 +129,15 @@ Baukoerpers auf dem **swissALTI3D**-Gelaende im **swissBUILDINGS3D**-Nachbarscha
 **swissSURFACE3D**-Baeume), gdal-frei (Terrain via swisstopo-Profil-API). Diese PNG kommen als
 `render_img` ins Modell; `build_studio.py` bettet lokale Pfade selbst-tragend als base64 ein. Der
 Footprint ist **AZ-konform** (Spezifikation `az=` → Footprint = AZ × Parzelle / Geschosse, die
-bindende Ausnuetzung statt der vollen Huelle, Rule 260624). Praesentationsqualitaet (c4d) via Skill
-`volumenstudie`; das inline-SVG (`massing_svg.py`) ist nur der Fallback, wenn keine Grundlagen
-beschaffbar sind (transparent als Annahme ausweisen).
+bindende Ausnuetzung statt der vollen Huelle, Rule 260624).
+
+**Render-Stufen (Qualitaet aufsteigend):** (1) **C4D-Goldstandard** `studio_context.py --c4d` →
+Cinema-4D auf dem Mac Mini (weisses Modell, weiche Schatten, AO) = die JANS-Praesentationsqualitaet,
+IMMER bevorzugen wenn der Mini erreichbar ist; (2) **lizenzfreier Render** (matplotlib, Hillshade-
+Gelaende + Weissmodell + Oxidrot-Baukoerper) wenn keine C4D-Lizenz/Mini verfuegbar; (3) **inline-SVG**
+(`massing_svg.py`) nur als letzter Fallback ohne Geodaten (transparent als Annahme ausweisen).
+C4D braucht eine eingeloggte Maxon-Lizenz — die liegt auf dem Always-On Mac Mini, daher laeuft der
+Goldstandard ueber `render-remote.sh` (LAN, sonst Tailscale).
 
 **Adresse → fertiges Studio (Knopfdruck-Flow):**
 ```

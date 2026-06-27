@@ -1,19 +1,12 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.06.2026 08:54:09
+Stand: 27.06.2026 09:14:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:06)
 
 ## Laufende Arbeits-Prozesse
-- /bin/zsh -c source /Users/raphaeljans/.claude/shell-snapshots/snapshot-zsh-1782542035490-78cxd6.sh 2>/dev/null || true
-C4DPY="/Applications/Maxon Cinema 4D 2026/c4dpy.app/Contents/MacOS/c4dpy"
-TOOL="/Volumes/daten/jans-ai-hub/skills/volumenstudie/tools/c4d_situation.py"
-ssh -o BatchMode=yes -o ConnectTimeout=8 raphaeljans@100.120.219.12 \
--  "cd '"'"'/Volumes/daten/jans-ai-hub/skills/volumenstudie/tools'"'"' && '"'"'$C4DPY'"'"' '"'"'$TOOL'"'"' -- --dir '"'"
--  > "$NAS/c4d_remote.log" 2>&1
-echo "EXIT $?"; tail -15 "$NAS/c4d_remote.log"; echo "--- PNGs ---"; ls -lh "$NAS"/*.png 2>/dev/null | awk '"'"'{print $
-- ssh -o BatchMode=yes -o ConnectTimeout=8 raphaeljans@100.120.219.12 cd '/Volumes/daten/jans-ai-hub/skills/volumenstudi
+- keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -25,4 +18,4 @@ echo "EXIT $?"; tail -15 "$NAS/c4d_remote.log"; echo "--- PNGs ---"; ls -lh "$NA
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2de9d6c nas-selfcommit: 14 Datei(en) 2026-06-27 08:45
+- 0c2b3e0 nas-selfcommit: 7 Datei(en) 2026-06-27 09:00

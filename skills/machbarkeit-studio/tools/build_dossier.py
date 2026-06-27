@@ -1,25 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-build_dossier.py — JANS Machbarkeits-Dossier (DOCX, PDF via docx2pdf.sh)
+build_dossier.py — JANS Machbarkeits-Dossier v2 (DOCX, PDF via docx2pdf.sh)
 
-Zweites Leitmedium des Skills `machbarkeit-studio`: das ablage-/versandfertige
-Dossier im JANS-Dokument-Layout. Nutzt denselben Rechen-Kern wie das interaktive
-Studio (tools/studio_calc.py), damit HTML-Studio und DOCX/PDF deckungsgleiche
-Zahlen zeigen.
+Ablage-/versandfertiges Dossier im JANS-Layout. Nutzt denselben Rechen-Kern wie das
+interaktive Studio (tools/studio_calc.py v2): Flaechenbilanz (aGF→GF→GV→HNF inkl.
+Souterrain), Wohnungsmix je Variante, Wirtschaftlichkeit. HTML-Studio und PDF zeigen
+deckungsgleiche Zahlen.
 
-Aufruf:
-  python build_dossier.py <model.json> <ausgabe.docx>
-  # PDF danach: scripts/docx2pdf.sh <ausgabe.docx>
+Aufruf:  python build_dossier.py <model.json> <ausgabe.docx>   (+ scripts/docx2pdf.sh)
 """
 import sys, os, json
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(_HERE, "..", "..", "ausschreibung", "tools"))
 sys.path.insert(0, _HERE)
-
-from jans_docx import (base_doc, para, h1, h2, table, jans_footer,  # noqa: E402
-                       JANS_NAME, JANS_STREET, JANS_CITY)
+from jans_docx import base_doc, para, h1, h2, table, jans_footer, JANS_NAME, JANS_STREET, JANS_CITY  # noqa: E402
 from studio_calc import studie_rechnen  # noqa: E402
 
 
@@ -28,8 +24,7 @@ def ap(n):
 
 
 def mio(n):
-    s = n / 1e6
-    return (f"{s:.1f}" if abs(s) >= 10 else f"{s:.2f}")
+    return f"{n/1e6:.1f}" if abs(n / 1e6) >= 10 else f"{n/1e6:.2f}"
 
 
 def chf(n):
@@ -40,96 +35,83 @@ def build(model, out_path):
     calc = studie_rechnen(model)
     meta = model.get("meta", {})
     a = calc["annahmen"]
+    h = calc["huelle"]
     res = calc["varianten"]
-    gsf = calc["grundstuecksflaeche_m2"]
     modus = a.get("modus", "verkauf")
 
     d = base_doc()
-
-    # Kopf
     para(d, meta.get("titel", "Machbarkeits-Studie"), size=18, bold=True, after=2)
     para(d, meta.get("untertitel", ""), size=10, after=1)
-    para(d, f"{JANS_NAME}  ·  {JANS_STREET}  ·  {JANS_CITY}  ·  Stand {meta.get('stand','')}",
-         size=9, after=8)
+    para(d, f"{JANS_NAME}  ·  {JANS_STREET}  ·  {JANS_CITY}  ·  Stand {meta.get('stand','')}", size=9, after=8)
 
-    # Eckdaten
     h2(d, "Ausgangslage")
-    eck = [
-        ["Objekt", meta.get("objekt", ""), "Parzelle", meta.get("parzelle", "")],
-        ["Ort", meta.get("ort", ""), "EGRID", meta.get("egrid", "")],
-        ["Zone", meta.get("zone", ""), "Grundstück", f"{ap(gsf)} m²"],
-        ["Gemeinde", meta.get("gemeinde", ""), "Kanton", meta.get("kanton", "")],
-    ]
-    table(d, eck, [28, 57, 28, 57], header=False, aligns=["l", "l", "l", "l"])
+    table(d, [["Objekt", meta.get("objekt", ""), "Parzelle", meta.get("parzelle", "")],
+              ["Ort", meta.get("ort", ""), "EGRID", meta.get("egrid", "")],
+              ["Zone", meta.get("zone", ""), "Grundstück", f"{ap(h['gsf'])} m²"],
+              ["Gemeinde", meta.get("gemeinde", ""), "Kanton", meta.get("kanton", "")]],
+          [28, 57, 28, 57], header=False, aligns=["l", "l", "l", "l"])
     para(d, "", after=4)
 
-    # Baurechtliche Basis
     if model.get("baurecht"):
         h2(d, "Baurechtliche Basis")
         rows = [["Kennziffer", "Wert", "Quelle"]]
         for b in model["baurecht"]:
             rows.append([b.get("label", ""), str(b.get("wert", "")), b.get("quelle", "")])
-        table(d, rows, [45, 55, 70], header=True, aligns=["l", "l", "l"])
+        table(d, rows, [40, 70, 60], header=True, aligns=["l", "l", "l"])
         para(d, "", after=4)
 
-    # Variantenvergleich (Volumen + Kosten + Wirtschaftlichkeit)
-    h1(d, "Variantenvergleich")
-    n = len(res)
-    namen = [r["name"] for r in res]
-    head = ["Kennzahl"] + namen
-    rows = [head]
-
-    def rowfn(label, fn):
-        rows.append([label] + [fn(r) for r in res])
-
-    rowfn("Ziffer AZ/GFZ", lambda r: f"{r['ziffer']:.2f}")
-    rowfn("Geschosse", lambda r: str(r["geschosse"]) if r["geschosse"] is not None else "–")
-    rowfn("anrechenbare GF (m²)", lambda r: ap(r["aGF"]))
-    rowfn("Bruttogeschossfläche (m²)", lambda r: ap(r["BGF"]))
-    rowfn("Gebäudevolumen (m³)", lambda r: ap(r["GV"]))
-    rowfn("Hauptnutzfläche (m²)", lambda r: ap(r["HNF"]))
-    rowfn("Erstellung BKP 1–5", lambda r: chf(r["erstellung"]))
-    rowfn("   Band ± (Mio)", lambda r: f"{mio(r['erstellung_low'])}–{mio(r['erstellung_high'])}")
-    rowfn("Verkaufserlös" if modus != "rendite" else "Ertragswert",
-          lambda r: chf(r["wertbasis"]))
-    rowfn(f"− Bauträger-Marge ({a.get('marge_pct')}%)", lambda r: chf(r["marge_chf"]))
-    rowfn("Residualwert / zahlb. Land", lambda r: chf(r["residual"]))
-    rowfn("   je m² Grundstück", lambda r: ap(r["residual_pro_m2"]))
-    if res and res[0].get("gesamtkosten") is not None:
-        rowfn("Marge real (mit Land, %)", lambda r: f"{r['marge_real_pct']:.1f}%")
-
-    first_w = 46
-    rest = (170 - first_w)
-    each = round(rest / n, 1)
-    widths = [first_w] + [each] * n
-    aligns = ["l"] + ["r"] * n
-    table(d, rows, widths, header=True, aligns=aligns)
-    para(d, f"Methode: Volumen × Kennwert ({int(a.get('kennwert_chf_m3'))} CHF/m³, "
-            f"Band {int(a.get('kennwert_band_low'))}–{int(a.get('kennwert_band_high'))}) = "
-            f"Erstellungskosten BKP 1–5. "
-            f"{'Verkaufserlös' if modus!='rendite' else 'Ertragswert'} − Erstellung − Marge − "
-            f"Diskontierung ({a.get('diskont_pct')}%) = Residualwert (zahlbarer Landwert).",
+    # Flaechenbilanz
+    h1(d, "Flächenbilanz")
+    grows = [["Geschoss", "Typ", "GF m²", "HNF m²"]]
+    for g in h["geschosse"]:
+        grows.append([g["name"], g["typ"], ap(g["gf"]), ap(g["hnf"])])
+    grows.append(["Total", f"aGF {ap(h['aGF'])} · GV {ap(h['gv'])} m³", ap(h["gf_total"]), ap(h["hnf_total"])])
+    table(d, grows, [34, 76, 30, 30], header=True, aligns=["l", "l", "r", "r"])
+    para(d, f"Ausnützung AZ {a.get('az')} → aGF {ap(h['aGF'])} m². HNF total {ap(h['hnf_total'])} m² "
+            f"(inkl. nicht-anrechenbares Souterrain {ap(h['hnf_souterrain'])} m²), HNF/aGF "
+            f"{h['hnf_pro_agf']:.2f}. Gebäudevolumen {ap(h['gv'])} m³. Erstellung BKP 1–5 "
+            f"{chf(h['erstellung'])} (Band {mio(h['erstellung_low'])}–{mio(h['erstellung_high'])} Mio).",
          size=9, before=2, after=6)
 
-    # Sensitivitaet
-    sens = calc.get("sensitivitaet")
-    if sens:
-        h2(d, f"Sensitivität · {sens['variante']} (Residualwert in Mio CHF)")
-        srows = [["Flächen-Delta", "Kennwert", "Kennwert hoch"]]
-        for zrow in sens["zellen"]:
-            d0 = zrow[0]["delta"]
-            label = "Plan (0%)" if d0 == 0 else f"{d0}%"
-            srows.append([label] + [mio(c["residual"]) for c in zrow])
-        table(d, srows, [60, 55, 55], header=True, aligns=["l", "r", "r"])
-        para(d, "", after=6)
+    # Variantenvergleich
+    h1(d, "Variantenvergleich — Wohnungsmix")
+    n = len(res)
+    head = ["Kennzahl"] + [r["name"] for r in res]
+    rows = [head]
 
-    # Fazit
+    def rf(lab, fn):
+        rows.append([lab] + [fn(r) for r in res])
+
+    rf("Anzahl Wohnungen", lambda r: str(r["units"]))
+    rf("HNF Mix (m²)", lambda r: ap(r["hnf_mix"]))
+    rf("Ø Wohnungsgrösse (m²)", lambda r: ap(r["hnf_mix"] / r["units"]) if r["units"] else "–")
+    rf("Verkaufspreis CHF/m²" if modus != "rendite" else "Mietzins CHF/m²/J",
+       lambda r: ap(r["verkaufspreis_chf_m2"] if modus != "rendite" else r["miete_chf_m2_jahr"]))
+    rf("Verkaufserlös" if modus != "rendite" else "Ertragswert", lambda r: chf(r["wertbasis"]))
+    rf("− Erstellung BKP 1–5", lambda r: chf(r["erstellung"]))
+    rf(f"− Marge ({a.get('marge_pct')}%)", lambda r: chf(r["marge_chf"]))
+    rf("Residualwert / zahlb. Land", lambda r: chf(r["residual"]))
+    rf("   je m² Grundstück", lambda r: ap(r["residual_pro_m2"]))
+    fw = 42
+    each = round((170 - fw) / n, 1)
+    table(d, rows, [fw] + [each] * n, header=True, aligns=["l"] + ["r"] * n)
+    para(d, "", after=4)
+
+    # Wohnungsspiegel je Variante
+    h2(d, "Wohnungsspiegel je Variante")
+    for r in res:
+        para(d, f"{r['name']} — {r['units']} Wohnungen, HNF {ap(r['hnf_mix'])} m², Residualwert {chf(r['residual'])}",
+             size=10, bold=True, before=3, after=1)
+        wr = [["Wohnungstyp", "m² HNF", "Anzahl", "%"]]
+        for m in r["mix"]:
+            wr.append([m["zimmer"] + (" · Souterrain" if m.get("souterrain") else ""),
+                       ap(m["flaeche"]), str(m["anzahl"]), f"{m['pct']:.0f}"])
+        table(d, wr, [90, 28, 26, 26], header=True, aligns=["l", "r", "r", "r"])
+
     if model.get("fazit"):
         h1(d, "Fazit & Empfehlung")
         for f in model["fazit"]:
             para(d, "– " + f, size=10, after=2)
-
-    # Annahmen & Vorbehalte
     if model.get("vorbehalte"):
         h2(d, "Annahmen & Vorbehalte")
         for v in model["vorbehalte"]:

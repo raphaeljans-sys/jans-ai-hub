@@ -53,10 +53,16 @@ tools/assets/fonts/              DM Sans + Fragment Mono (in HTML eingebettet)
   --variante "A:az=0.35,geschosse=3,geschosshoehe=3.0" \
   --variante "B:az=0.28,geschosse=2,geschosshoehe=3.0"
 # erzeugt DIR/<name>_variante_<X>_axo.png  -> als render_img in die Varianten des model.json
+
+# Cinema-4D-Goldstandard (weisses Modell, weiche Schatten, AO) ueber den Mac Mini:
+~/.venvs/volumen3d/bin/python tools/studio_context.py --egrid CH987609527775 --out DIR --name N \
+  --variante "A:az=0.35,geschosse=3,geschosshoehe=3.0" --c4d
+# erzeugt DIR/<name>_c4d_<X>.png  (Render laeuft auf dem Mini, render-remote.sh; C4D nur dort lizenziert)
 ```
 `az=` macht den Footprint AZ-konform (Footprint = AZ × Parzelle / Geschosse). `build_studio.py`
-bettet lokale `render_img` selbst-tragend als base64 ein. Praesentationsqualitaet via Skill
-`volumenstudie` (Cinema 4D).
+bettet lokale `render_img` selbst-tragend als base64 ein (grosse C4D-PNG ggf. vorher auf ~1500 px
+herunterskalieren, damit das HTML versendbar bleibt). Render-Stufen: `--c4d` (Goldstandard) →
+lizenzfreier matplotlib-Render → inline-SVG-Fallback.
 ```
 
 ## Das interaktive Studio
