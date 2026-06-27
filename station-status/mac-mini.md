@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.06.2026 12:05:32
+Stand: 27.06.2026 12:25:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 27.06.2026 12:05:32
 - 7 Datei(en): AR - 03 Studien / 2623 Oberrieden
 
 ## Hub-Git-Stand (NAS)
-- ea3ed70 nas-selfcommit: 2 Datei(en) 2026-06-27 12:00
+- e7f84d1 nas-selfcommit: 2 Datei(en) 2026-06-27 12:15
