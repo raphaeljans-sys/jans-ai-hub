@@ -79,13 +79,16 @@ Alles fliesst in **ein** `model.json` (Schema + kommentiertes Beispiel:
 
 - `meta` — Studie/Titel/Untertitel, Objekt, Ort, **parzelle/egrid/zone/gemeinde/kanton**,
   `grundstuecksflaeche_m2`, `stand`.
-- `annahmen` — die **regelbaren** Globalwerte: `modus` (`verkauf`|`rendite`), `kennwert_chf_m3`
-  (+ Band), `verkaufspreis_chf_m2` **oder** `miete_chf_m2_jahr` + `kap_satz_pct`, `marge_pct`,
-  `diskont_pct`, `abzug_chf`, optional `landpreis_chf` (→ zusaetzliche Marge-/Controlling-Methode),
-  sowie die Faktoren `bgf_faktor`/`gv_pro_gf`/`hnf_faktor` (SIA-416-grob, Defaults belegt).
-- `varianten[]` — je Variante `name`, `kurz`, `ziffer` (AZ/GFZ), `geschosse`, `zuschlag_pct`
-  (+ `zuschlag_label`), `nutzung`, optional `render_img`.
-- `leitvariante_index` — welche Variante die Hero-Kennzahl + Sensitivitaet fuehrt.
+- `annahmen` — Huelle + Wirtschaftlichkeit: `az` (Ausnuetzungsziffer), `vollgeschosse`,
+  `dachgeschoss` (bool), `souterrain` (bool) + `souterrain_wohntauglich` (bool), die Faktoren
+  `f_agf_gf`/`geschosshoehe_m`/`f_hnf_gf_wohn`/`f_hnf_gf_ug`/`f_dg_gf` (Defaults belegt), sowie
+  `kennwert_chf_m3` (+ Band), `modus` (`verkauf`|`rendite`), `verkaufspreis_chf_m2` **oder**
+  `miete_chf_m2_jahr` + `kap_satz_pct`, `marge_pct`, `diskont_pct`, `abzug_chf`, optional `landpreis_chf`.
+- `varianten[]` — je Variante `name`, `kurz`, **`wohnungsmix`** [{`zimmer`, `flaeche`, `anzahl`,
+  `souterrain`?}], optional `verkaufspreis_chf_m2`/`miete_chf_m2_jahr` (Groessen-Praemie).
+- `leitvariante_index` — welche Variante die Hero-Kennzahl fuehrt.
+- `renders[]` — [{`img`, `caption`}] echte swisstopo-Renderings (Baukoerper im Kontext); lokale
+  Pfade werden selbst-tragend als base64 eingebettet. Erzeugt mit `tools/studio_context.py`.
 - `baurecht[]` — belegte Kennziffern-Tabelle (label/wert/quelle).
 - `fazit[]`, `vorbehalte[]`, `quellen` — Text.
 
@@ -93,22 +96,35 @@ Alles fliesst in **ein** `model.json` (Schema + kommentiertes Beispiel:
 ihn 1:1 (Live-Recompute), der Dossier-Generator nutzt ihn direkt → HTML und PDF zeigen identische
 Zahlen. Formelbasis dokumentiert in `studio_calc.py` (aus der `machbarkeit`-Wissensbasis 01 + 03).
 
-## Rechenlogik (kurz)
+## Rechenlogik v2 (JANS-Flaechenkonzeption — Beleg "Flaechenkonzeption Wohnen", R. Jans Ebmatingen 2412)
 
+Faktor-Kette (Defaults belegt, in `annahmen` ueberschreibbar):
 ```
-aGF        = Grundstuecksflaeche × Ziffer (AZ/GFZ)
-BGF        = aGF × bgf_faktor            (UG/nicht-anrechenbar, Default 1.15)
-GV (m3)    = BGF × gv_pro_gf             (SIA 416 grob, Default 3.3)
-HNF        = BGF × hnf_faktor            (Default 0.75)
-Erstellung = GV × Kennwert(CHF/m3) × (1+Zuschlag)        (BKP 1-5)
-Verkauf :  Wertbasis = HNF × Verkaufspreis CHF/m2
-Rendite :  Wertbasis = HNF × Mietzins / Kapitalisierungssatz   (Ertragswert)
-Marge      = marge_pct% × Wertbasis
-Residual   = (Wertbasis − Erstellung − Marge − Abzuege) × (1 − Diskont%)   = zahlbarer Landwert
-Marge real = Wertbasis − (Erstellung + Landpreis)          (nur falls landpreis_chf gesetzt)
+aGF (anrechenbar)   = Grundstuecksflaeche × Ausnuetzungsziffer (AZ)
+GF je Regelgeschoss = aGF × f_agf_gf / Vollgeschosse            (f_agf_gf 1.10)
+Geschosse           = VG × Regelgeschoss  + Dachgeschoss(0.70×GF)  + Souterrain(1×GF)
+GV (Baumasse m³)    = Σ Geschoss-GF × Geschosshoehe              (3.03 ≈ Faktor 0.33)
+HNF oberirdisch     = (VG-GF + DG-GF) × f_hnf_gf_wohn            (0.75)
+HNF Souterrain      = Souterrain-GF × f_hnf_gf_ug               (0.40)  — nur wenn wohntauglich
+HNF total           = HNF oberirdisch + HNF Souterrain          ( ≈ aGF × 1.25 )
+Erstellung BKP 1-5  = GV × Kennwert(CHF/m³)
+Verkauf :  Wertbasis = Σ(Whg-Flaeche×Anzahl) × Verkaufspreis CHF/m²
+Rendite :  Wertbasis = HNF × Mietzins / Kapitalisierungssatz    (Ertragswert)
+Residual = (Wertbasis − Erstellung − Marge − Abzuege) × (1 − Diskont%)  = zahlbarer Landwert
 ```
-Sensitivitaet: Residualwert der Leitvariante gegen **Flaechen-Delta** (0/−10/−20 %) ×
-**Kostenmodell** (Kennwert / Kennwert-Band-high) — live im Studio, statisch im Dossier.
+
+**Souterrain / nicht-anrechenbares UG (Blaues Buch Bd. 2, § 255 Abs. 2 PBG — Mehrflaechenregel):**
+UG-Flaeche ist NICHT anrechenbar (verbraucht keine Ausnuetzung), solange sie die Schwelle
+(zulaessige Ausnuetzung ÷ Vollgeschosszahl) nicht ueberschreitet — zaehlt aber als verkauf-/
+vermietbare **HNF**, sofern wohnhygienisch tauglich (§ 302 Fenster ≥ 10 % ins Freie, **kein blosser
+Lichtschacht**; § 304 lichte Hoehe ≥ 2.4 m). Kosten ueber GV (inkl. UG-Volumen), Ertrag ueber die
+gesamte HNF inkl. Souterrain. Der Souterrain ist damit der **Landwert-Hebel** (Toggle im Studio).
+
+**Variantenachse = WOHNUNGSMIX:** je Variante eine Liste `wohnungsmix` [{zimmer, flaeche, anzahl,
+souterrain?}]. Der Bauherr sieht, wie viele Wohnungen welcher Groesse moeglich sind und leitet daraus
+die Rentabilitaet ab (kleinere Whg → hoehere CHF/m², groessere → leichter verkaeuflich). Optionaler
+`verkaufspreis_chf_m2`/`miete_chf_m2_jahr` je Variante (Groessen-Praemie); der globale Regler skaliert
+alle Variantenpreise relativ.
 
 ## Werkzeuge
 

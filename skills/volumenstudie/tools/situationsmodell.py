@@ -285,7 +285,8 @@ def main():
 
     print(f"Systemgrenze: Parzelle + {a.radius:.0f} m Puffer · Terrain-BBox {bbox[2]-bbox[0]:.0f}x{bbox[3]-bbox[1]:.0f} m")
     xs, ys, Z = terrain_grid(a.dtm, bbox)
-    print(f"Terrain: {len(xs)}x{len(ys)} Punkte @1 m · {np.nanmin(Z):.1f}-{np.nanmax(Z):.1f} m ue.M.")
+    Z = _smooth(Z, passes=2)   # DTM glaetten -> lesbares Gelaende (C4D + Axo), gegen 2 m-Stufen
+    print(f"Terrain: {len(xs)}x{len(ys)} Punkte · {np.nanmin(Z):.1f}-{np.nanmax(Z):.1f} m ue.M. (geglaettet)")
 
     gebs = gebaeude_meshes(a.gebaeude, grenze)
     bestand, kontext = [], []

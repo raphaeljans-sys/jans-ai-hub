@@ -137,6 +137,30 @@ def fetch_buildings_dxf(centroid_lv95, out_dxf):
     return out_dxf
 
 
+def compact_box_obj(poly, footprint_m2, hoehe, out_obj, z_unten=0.0):
+    """Kompakter, zentrierter Baukoerper (Rechteck footprint_m2, Seitenverhaeltnis aus Parzelle)
+    als OBJ in LOKALEN Koordinaten (Origin = Parzellen-Zentroid) — sauberes Massenmodell statt
+    duennem Offset-Riegel. z relativ (situationsmodell setzt es auf das Terrain)."""
+    minx, miny, maxx, maxy = poly.bounds
+    bw, bh = max(maxx - minx, 1.0), max(maxy - miny, 1.0)
+    ar = bw / bh
+    b = (footprint_m2 / ar) ** 0.5           # Tiefe (y)
+    a = footprint_m2 / b                      # Breite (x)
+    a, b = a * 0.92, b * 0.92                 # leicht eingerueckt
+    hx, hy = a / 2, b / 2
+    z0, z1 = z_unten, z_unten + hoehe
+    V = [(-hx, -hy, z0), (hx, -hy, z0), (hx, hy, z0), (-hx, hy, z0),
+         (-hx, -hy, z1), (hx, -hy, z1), (hx, hy, z1), (-hx, hy, z1)]
+    F = [[1, 2, 6, 5], [2, 3, 7, 6], [3, 4, 8, 7], [4, 1, 5, 8], [5, 6, 7, 8], [1, 4, 3, 2]]
+    with open(out_obj, "w") as f:
+        f.write("# JANS kompakter Baukoerper (lokal, Origin=Zentroid)\n")
+        for x, y, z in V:
+            f.write(f"v {x:.3f} {y:.3f} {z:.3f}\n")
+        for fc in F:
+            f.write("f " + " ".join(str(i) for i in fc) + "\n")
+    return out_obj
+
+
 def grenzabstand_fuer_flaeche(poly, ziel_m2):
     """Grenzabstand (m) finden, sodass Baufeld = poly.buffer(-d) ~ ziel_m2 (Bisektion).
 
@@ -178,6 +202,8 @@ def main():
     ap.add_argument("--no-render", action="store_true")
     ap.add_argument("--c4d", action="store_true",
                     help="zusaetzlich Cinema-4D-Goldstandard via Mac Mini (render-remote.sh)")
+    ap.add_argument("--kompakt", action="store_true",
+                    help="Baukoerper als kompakter zentrierter Block statt Offset-Polygon (sauberes Massenmodell)")
     a = ap.parse_args()
 
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
@@ -212,13 +238,13 @@ def main():
 
     print("4) Volumen generieren")
     vargs = []
-    self_specs = []   # (name, geschosse, geschosshoehe) fuer Render-Schritt
+    self_specs = []   # (name, geschosse, gh, az) fuer Render-/Kompakt-Schritt
     for v in a.variante:
         vn, kv = parse_spec(v)
         gesch = int(float(kv.get("geschosse", 2)))
         gh = float(kv.get("geschosshoehe", 3.0))
-        if "az" in kv:   # AZ-konformer Footprint statt voller Huelle
-            az = float(kv["az"])
+        az = float(kv["az"]) if "az" in kv else None
+        if az is not None:   # AZ-konformer Footprint statt voller Huelle
             ziel_fp = az * poly.area / max(gesch, 1)
             ga = grenzabstand_fuer_flaeche(poly, ziel_fp)
             spec = f"{vn}:grenzabstand={ga},geschosse={gesch},geschosshoehe={gh}"
@@ -226,9 +252,17 @@ def main():
         else:
             spec = v
         vargs += ["--variante", spec]
-        self_specs.append(vn)
+        self_specs.append((vn, gesch, gh, az))
     subprocess.run([sys.executable, str(_VOLGEN), "--parzelle", str(pgj),
                     "--out", str(out), "--name", a.name] + vargs, check=True)
+
+    if a.kompakt:
+        for vn, gesch, gh, az in self_specs:
+            if az is None:
+                continue
+            fp = az * poly.area / max(gesch, 1)
+            compact_box_obj(poly, fp, gesch * gh, str(out / f"{a.name}_{vn}.obj"))
+            print(f"   {vn}: kompakter Baukoerper {fp:.0f} m² × {gesch*gh:.1f} m")
 
     if a.no_render or not geb:
         print("FERTIG (ohne Render)" if a.no_render else "FERTIG (ohne Gebaeude/Render)")
@@ -267,21 +301,20 @@ def main():
             rcmd = ["bash", str(rr), "script", str(c4dtool), "--",
                     "--dir", str(nasdir), "--name", a.name, "--out", str(nasdir),
                     "--statusquo", "--breite", "2000"] + vflags
-            try:
-                subprocess.run(rcmd, check=True)
-                for v in a.variante:
-                    vn = v.split(":")[0]
-                    src = nasdir / f"{a.name}_variante_{vn}_axo.png"
-                    if src.exists():
-                        dst = out / f"{a.name}_c4d_{vn}.png"
-                        dst.write_bytes(src.read_bytes())
-                        print(f"   C4D Variante {vn} -> {dst}  (als render_img setzen)")
-                sq = nasdir / f"{a.name}_statusquo_axo.png"
-                if sq.exists():
-                    (out / f"{a.name}_c4d_statusquo.png").write_bytes(sq.read_bytes())
-            except subprocess.CalledProcessError:
-                print("   WARN: C4D-Render fehlgeschlagen (Mini nicht erreichbar/lizenz?) — "
-                      "lizenzfreier Render bleibt gueltig")
+            subprocess.run(rcmd, check=False)   # Exitcode unzuverlaessig -> ueber Datei-Existenz pruefen
+            got_any = False
+            for v in a.variante:
+                vn = v.split(":")[0]
+                src = nasdir / f"{a.name}_variante_{vn}_axo.png"
+                if src.exists():
+                    dst = out / f"{a.name}_c4d_{vn}.png"
+                    dst.write_bytes(src.read_bytes()); got_any = True
+                    print(f"   C4D Variante {vn} -> {dst}  (als render_img setzen)")
+            sq = nasdir / f"{a.name}_statusquo_axo.png"
+            if sq.exists():
+                (out / f"{a.name}_c4d_statusquo.png").write_bytes(sq.read_bytes())
+            if not got_any:
+                print("   WARN: kein C4D-Render erhalten (Mini/Lizenz?) — lizenzfreier Render bleibt gueltig")
 
 
 if __name__ == "__main__":

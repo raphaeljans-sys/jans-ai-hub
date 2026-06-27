@@ -182,13 +182,20 @@ function huelle(a){
     hnf_total,hnf_pro_agf:aGF?hnf_total/aGF:0,erstellung:gv*kw,erstellung_low:gv*kwl,erstellung_high:gv*kwh};
 }
 function variante(v,a,h){
+  const ugOK=!!a.souterrain && !!a.souterrain_wohntauglich;
   let mix=[],hnf_mix=0,units=0;
-  (v.wohnungsmix||[]).forEach(w=>{const fl=num(w.flaeche),n=Math.round(num(w.anzahl)),s=fl*n;
+  (v.wohnungsmix||[]).forEach(w=>{ if(w.souterrain && !ugOK) return;
+    const fl=num(w.flaeche),n=Math.round(num(w.anzahl)),s=fl*n;
     hnf_mix+=s;units+=n;mix.push({zimmer:w.zimmer||'',flaeche:fl,anzahl:n,hnf_sum:s,souterrain:!!w.souterrain});});
   mix.forEach(m=>m.pct=hnf_mix?m.hnf_sum/hnf_mix*100:0);
   const hnf=hnf_mix>0?hnf_mix:h.hnf_total;
-  const vkp=num(v.verkaufspreis_chf_m2,num(a.verkaufspreis_chf_m2,D.verkaufspreis_chf_m2));
-  const miete=num(v.miete_chf_m2_jahr,num(a.miete_chf_m2_jahr,D.miete_chf_m2_jahr));
+  // globaler Preis-Regler skaliert die (ggf. variantenspezifischen) Preise relativ
+  const baseVkp=num(A0.verkaufspreis_chf_m2,D.verkaufspreis_chf_m2);
+  const baseMiete=num(A0.miete_chf_m2_jahr,D.miete_chf_m2_jahr);
+  const sVkp=num(a.verkaufspreis_chf_m2,baseVkp)/(baseVkp||1);
+  const sMiete=num(a.miete_chf_m2_jahr,baseMiete)/(baseMiete||1);
+  const vkp=num(v.verkaufspreis_chf_m2,baseVkp)*sVkp;
+  const miete=num(v.miete_chf_m2_jahr,baseMiete)*sMiete;
   const kap=num(a.kap_satz_pct,D.kap_satz_pct)/100;
   let wert,ertragJ=0;
   if(a.modus==='rendite'){ertragJ=hnf*miete;wert=kap>0?ertragJ/kap:0;} else {wert=hnf*vkp;}
@@ -243,7 +250,7 @@ function render(){
   document.getElementById('spiegel').innerHTML=R.map((r,i)=>{
     let t='<table><thead><tr><th>Typ</th><th>m² HNF</th><th>Anz</th><th>%</th></tr></thead><tbody>';
     r.mix.forEach(m=>{t+='<tr><td class="k">'+m.zimmer+(m.souterrain?' ·UG':'')+'</td><td class="num">'+ap(m.flaeche)+'</td><td class="num">'+m.anzahl+'</td><td class="num">'+m.pct.toFixed(0)+'</td></tr>';});
-    t+='<tr class="total"><td class="k">Total</td><td class="num">'+ap(r.hnf_mix)+'</td><td class="num">'+r.units+'</td><td class="num">100</td></tr></tbody>';
+    t+='<tr class="total"><td class="k">Total</td><td class="num">'+ap(r.hnf_mix)+'</td><td class="num">'+r.units+'</td><td class="num">100</td></tr></tbody></table>';
     return '<div class="wcard'+(i===li?' lead':'')+'"><div class="wh"><span class="nm">'+r.name+'</span><span class="u">'+chf(r.res)+'</span></div>'+t+'</div>';
   }).join('');
 }

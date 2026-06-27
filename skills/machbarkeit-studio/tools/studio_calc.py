@@ -110,17 +110,21 @@ def huelle_rechnen(a: dict, gsf: float, az: float, vg: int) -> dict:
 
 def variante_rechnen(v: dict, a: dict, h: dict) -> dict:
     """Wohnungsmix-Variante auf der gemeinsamen Huelle -> Mix-Bilanz + Wirtschaftlichkeit."""
+    ug_ok = bool(a.get("souterrain", True)) and bool(a.get("souterrain_wohntauglich", True))
     mix = []
     hnf_mix = 0.0
     units = 0
     for w in v.get("wohnungsmix", []):
+        is_ug = bool(w.get("souterrain", False))
+        if is_ug and not ug_ok:
+            continue  # Souterrain aus / nicht wohntauglich -> Wohnung faellt weg
         fl = _num(w.get("flaeche"))
         n = int(_num(w.get("anzahl")))
         s = fl * n
         hnf_mix += s
         units += n
         mix.append({"zimmer": w.get("zimmer", ""), "flaeche": fl, "anzahl": n,
-                    "hnf_sum": s, "souterrain": bool(w.get("souterrain", False))})
+                    "hnf_sum": s, "souterrain": is_ug})
     for m in mix:
         m["pct"] = (m["hnf_sum"] / hnf_mix * 100.0) if hnf_mix else 0.0
 
