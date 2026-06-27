@@ -236,8 +236,14 @@ Fenster/Tueren). **Minergie-Sanierung nur mit Zusatzzertifikat «ECO»** (reines
 `kollektorliste.ch`, nur Warmwasser/Raumwaerme, nicht auf Neubau. **Gemeinden zahlen oft on top**
 → `energiefranken.ch` pruefen. Hotline 0800 93 93 93.
 
-**PV foerdert der Kanton NICHT** pauschal, sondern der **Bund** ueber die Pronovo-Einmalverguetung
-(~3'600 CHF fuer 10 kWp, Sept 2025) → `[[pv-marktzahlen-kosten-ch-2025]]`.
+**PV foerdert der Kanton NICHT** pauschal, sondern der **Bund** ueber die Pronovo-**Einmalverguetung
+(EIV)**: fuer ein EFH die **KLEIV** (<100 kW), Stand Sept 2025 rund **360 CHF/kWp** (angebaut/freistehend,
+ab 30 kWp 300; **Indach/integriert 400 CHF/kWp ≈ +10 %**), gedeckelt auf **max. 30 %** der Kosten — also
+~**3'600 CHF fuer 10 kWp**. Boni gibt es fuer **Steilanlagen ≥75°** (Neigungsbonus, Winterstrom) und
+ab 100 kW fuer Winterstrom/Parkflaechen. **Wichtig:** Das KLEIV-Gesuch laeuft **nach** Inbetriebnahme
+ueber das Pronovo-Portal (anders als hier beim Gebaeudeprogramm: **vor** Baubeginn). Die Saetze werden
+**jaehrlich neu** festgelegt (sinkend) → verbindlich der Pronovo-Tarifrechner.
+Details → `[[pv-einmalverguetung-bund-bfe]]`, Marktpreise → `[[pv-marktzahlen-kosten-ch-2025]]`.
 
 **Rechenbeispiele 2026:** MFH 1'500 m² EBF auf Minergie-ECO → 70 × 1'500 ≈ **105'000 CHF** (gedeckelt
 50 % Investition / max. 500'000); 6-kWth-Solarthermie-Anlage → 2'400 + 6 × 1'000 = **~8'400 CHF**.
@@ -555,9 +561,23 @@ Jahr (eine WP «macht aus 1 kWh Strom 3-5 kWh Waerme»). Sie steigt mit **tiefer
 
 | WP-Typ | JAZ-Richtwert | Bedingung |
 |---|---|---|
-| Luft-Wasser | ~2,5-3,5 | tiefste Investition, keine Bohrung; Schall/Nachbarschaft (LN-1a/1b) |
+| Luft-Wasser | ~2,5-3,5 (moderne bis ~4) | tiefste Investition, keine Bohrung; Schall/Nachbarschaft (LN-1a/1b) |
 | Sole-Wasser (Erdsonde) | ~4,0-4,5 | Bohrung + AWEL-Gesuch; hoehere Foerderung (vgl. F7) |
 | Wasser-Wasser (Grundwasser) | ~5 | nur wo Grundwasser bewilligt nutzbar (AWEL) |
+
+**Datenblatt richtig lesen — COP, SCOP, JAZ sind drei verschiedene Dinge:** Der **COP** auf dem
+Prospekt ist nur **ein Labor-Pruefpunkt** (z. B. A2/W35) und taugt **nicht** zum Maschinenvergleich.
+Vergleichbar sind Maschinen ueber den **SCOP** (saisonal, EN 14825) — der ist aber mit dem milden Klima
+**Strassburg** gerechnet und liegt fuer die Schweiz **~5-7 % zu hoch**. Was am Schluss zaehlt (= Deine
+Stromrechnung), ist die **JAZ**, die ueber ein ganzes Jahr **im Betrieb gemessene** Effizienz — sie
+haengt nicht nur an der Maschine, sondern an Vorlauftemperatur, Auslegung, Regler und Warmwasser.
+
+**Feldbeweis (Schweiz):** Die BFE-Feldanalyse **FAWA** (236 Anlagen, 1,3 Mio. Betriebsstunden) mass
+Sole/Wasser **Ø 3,5** und Luft/Wasser **Ø 2,7** (S/W **+32 %**; Stand 2004, moderne Geraete hoeher).
+Sie zeigt drei Bauherren-Lehren: **(a)** Sanierungs-Anlagen mit hoeherer Vorlauftemperatur liegen
+**~9 % tiefer** — erst daemmen lohnt doppelt; **(b)** Sole/Wasser-WP werden **haeufig zu gross**
+ausgelegt → unnoetig teuer, Sicherheitszuschlaege vermeiden; **(c)** technische Pufferspeicher bringen
+**keinen** JAZ-Vorteil. Ein Regler mit Raumtemperatur-Aufschaltung bringt dagegen **+8 %**.
 
 Entscheidungslogik: **(1)** Liegt ein **Fernwaermenetz** an? → meist Fernwaerme (kein Erzeuger/
 Unterhalt im Haus, schlankster Weg, vgl. F14). **(2)** Sonst Neubau/gut gedaemmt → **Luft-Wasser-WP**
@@ -567,14 +587,16 @@ Grundwasser nutzbar → **Wasser-Wasser-WP**. **(4)** WP technisch schwierig →
 (senkt die Vorlauftemperatur und hebt die JAZ, vgl. F2/F13). Die verbindliche Effizienz rechnet im
 Minergie-Verfahren das Tool **WPesti** (vgl. `[[minergie-zertifizierung-workflow]]`).
 
-**Quelle:** Heizsystem-/JAZ-Richtwerte (Web-Synthese mehrerer Fachquellen) →
-`[[waermepumpe-systemvergleich]]`; Dimensionierung → `[[bfe-waermeerzeugerleistung-2015]]` / F13;
-Verfahren/Beilagen Heizungsersatz → `[[wta-formular-zh-waermetechnische-anlagen]]` / F14; Foerderung →
-`[[foerderprogramm-energie-zh-2026]]` / F7. ⚠ **Datenstand 2026-06-18:** Die JAZ-Werte sind
-**Richtwerte/Bandbreiten**, keine projektgenauen Zahlen — fuer ein Projekt gilt der **WPesti-/
-SIA-384/3-Wert**; Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/EVEN pruefen).
-**Systemwahl/Entscheid + fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Offen:
-projektgenaue JAZ/COP aus einer Schweizer Primaerquelle (FWS/EnergieSchweiz), CHF-Amortisationsvergleich.
+**Quelle:** Heizsystem-/JAZ-Richtwerte → `[[waermepumpe-systemvergleich]]`; **Feld-JAZ (CH-Primaerquelle)**
+→ `[[fawa-jaz-feldanalyse-waermepumpen]]` (BFE/FAWA); **COP/SCOP/JAZ-Begriff** →
+`[[cop-scop-jaz-waermepumpe-gruenenwald]]` (EN 14825); Dimensionierung → `[[bfe-waermeerzeugerleistung-2015]]`
+/ F13; Verfahren/Beilagen Heizungsersatz → `[[wta-formular-zh-waermetechnische-anlagen]]` / F14;
+Foerderung → `[[foerderprogramm-energie-zh-2026]]` / F7. ⚠ **Datenstand 2026-06-27:** Die JAZ-Bandbreiten
+sind **Richtwerte**, keine projektgenauen Zahlen — fuer ein Projekt gilt der **WPesti-/SIA-384/3-Wert**;
+die FAWA-**Absolutwerte** sind 2004 (moderne Geraete hoeher), ihre **Relationen/Planungslehren** zeitlos.
+Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/EVEN pruefen). **Systemwahl/Entscheid
++ fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Offen: **moderne** projektgenaue
+JAZ-Defaults (WPesti/FWS-Aktuellstatistik), CHF-Amortisationsvergleich.
 
 ---
 
