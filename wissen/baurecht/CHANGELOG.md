@@ -4,6 +4,32 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-28 — Buch-Destillat BAND 2 Kap. 12 Teil 2 (Zugaenglichkeit/OEV), Run 15 (Phase 2)
+- ERWEITERT `buecher/band-2/12-baureife.md` um **Teil 2 (Shots 364-372, echte Seiten 724-741,
+  9 Doppelseiten)**: **12.3.3 Technische Anforderungen/Zugangsarten** (§ 2 Abs. 1 ZN) mit der
+  **Anhang-ZN-Tabelle (S. 726)** als Markdown (Breite/Radius/lichte Hoehe je WE-Zahl, Kriterium
+  Wohneinheiten = baulich Moegliches VB.2002.00273); **12.3.3.3 Kehrplatz** (Stichstrasse, VSS-Norm
+  SN 640 052, VB.2016.00566/VB.2010.00107); **12.3.3.4 Erhoehung der Grenzwerte** (§ 4 Abs. 2 ZN,
+  dichte+OEV-gute Bebauung, Wegleitung 1997); **12.3.3.5 Fussgaengerschutz** (Bankett ≥ 30 cm /
+  Trottoir ≥ 1 m, VB.2010.00184; EFH-Ausnahme BEZ 2010 Nr. 4); **12.3.3.6/7 Sonderfaelle &
+  Erleichterungen** (§ 5 Abs. 3 / § 11 / § 12 ZN; **wichtige Gruende § 360 Abs. 3 PBG**; letzte
+  Bauluecke VB.2005.00261/VB.2015.00010); **12.3.3.9 Umweltschutzrecht** (Art. 24 Abs. 2 USG / Art. 30
+  LSV: voll erstellt, nur Hausanschluesse; Planungswerte § 128 Abs. 2 PBG); **12.3.4 groessere
+  Ueberbauungen** (Gleisanschluesse § 237 Abs. 1; Trennung Fahrzeug-/Fussgaengerverkehr § 237 Abs. 3;
+  Einkaufszentren ab 2000 m² § 12 Abs. 1 BBV II; Schwertransporte § 227 PBG/§ 21 BVV); **12.3.5
+  Erreichbarkeit OEV § 237 Abs. 1 Satz 2 PBG** (kein Erschliessungsanspruch URP 2000/2002, ABER Pflicht
+  ab «groesserer Ueberbauung» 300 Bew./Arb./Ausb. → Haltestelle § 4 Abs. 1 AngebotsV; Bedienungsqualitaet
+  § 18 PVG). Frontmatter seiten/shots/paragraphen/last_updated nachgefuehrt; Restschuld jetzt ab S. 742.
+- GESCHAERFT `wiki/baureife-und-erschliessung.md` (emerging): neue Sektionen **Zugangsarten &
+  Dimensionierung (Anhang-ZN-Tabelle)**, **Erschliessung i.S.d. Umweltschutzrechts**, **Erreichbarkeit
+  mit dem OEV (§ 237 Abs. 1 Satz 2)** + 2 JANS-Anwendungs-Bullets (Zugangsart aus vollem Nutzungs-
+  potenzial; OEV ↔ Stellplatz). Source-Frontmatter um ZN/AngebotsV/§ 18 PVG/Art. 24 USG/§ 360 PBG.
+- NACHGEFUEHRT `wiki/QUESTIONS.md` (Coverage-Gap Zugaenglichkeit-Detail/OEV erledigt; Restschuld auf
+  S. 742 ff. verschoben; neue needs-verification Teil-2-§§), `buecher/INDEX.md` (Kap.-12-Eintrag
+  Teil 1+2 NEU + Abdeckungs-Matrix-Zeile 12), `buecher/seiten-inventar.md` (Shots 364-372 → [x],
+  echte Seiten 724-741), `training/drills.md` (6 Modell-C-Karten + 1 Modell-A-Drill).
+- REPORT `outputs/2026-06-28_buch-run15.md`.
+
 ## 2026-06-26 — Buch-Destillat BAND 2 Kap. 12 Teil 1 (Baureife), Run 14 (Phase 2)
 - NEU `buecher/band-2/12-baureife.md` (Shots 355-363, echte Seiten 707-723, 9 Doppelseiten):
   **12.1 Allgemeines** — Baureife = erstes der materiellen Grundanforderungen (§§ 233-249 PBG); baureif =

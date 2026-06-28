@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-26
+last_updated: 2026-06-28
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | Kap | Titel | Seite | Shot ≈ | P | Status |
 |-----|-------|-------|--------|---|--------|
 | 11 | Allgemeine Bestimmungen des Baupolizeirechts | 685 | 345 | P2 | [ ] |
-| 12 | Baureife | 707 | 356 | P2 | [~] (S.707-723, Shots 355-363, Run 14: **12.1 Allgemeines** (Baureife = erstes Element der Grundanforderungen §§233-249, baureif=erschlossen §234, massgebender Zeitpunkt Bezugsbereitschaft/Baubeginn §233, **wesentliche Abweichung bei Umbau §233 Abs.2** mit VB-Kasuistik), **12.2 Planungsrechtliche Baureife §234** (negative Vorwirkung, 4 Voraussetzungen, Abgrenzung Quartierplanbann §150/Verkehrsbaulinien §264/**Planungszone §346** 3+2 J./Landsicherung §120, Dauer §235), **12.3 Zugaenglichkeit Teil 1** (§§234-237, ZN/VSiV/StrAV→EV, Umweltrecht Art.14 USG, **Erreichbarkeit 80m/40m**, **Notzufahrt 3m/16t §3 ZN**). Destillat [[band-2/12-baureife]], neuer Wiki-Artikel [[baureife-und-erschliessung]]. Rest: Zugaenglichkeit-Detail + Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.724/Shot 364 offen) |
+| 12 | Baureife | 707 | 356 | P2 | [~] (S.707-741, Shots 355-372, Run 14+15: **12.1 Allgemeines**, **12.2 Planungsrechtliche Baureife §234** (negative Vorwirkung, Abgrenzung §150/§264/Planungszone §346 3+2 J./§120), **12.3 Zugaenglichkeit T1+T2** (§§234-237, Erreichbarkeit 80m/40m, Notzufahrt 3m/16t §3 ZN, **Zugangsarten + Anhang-ZN-Tabelle** Breite/Radius je WE, Kehrplatz SN 640 052, Fussgaengerschutz, Erleichterungen §11 ZN/§360 Abs.3 PBG, Umweltschutzrecht Art.24 USG/§128, **OEV §237 Abs.1 Satz 2** AngebotsV/300-Personen). Destillat [[band-2/12-baureife]], Wiki [[baureife-und-erschliessung]]. **Rest: Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.742/Shot 373 offen**) |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
 | 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1111: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3**; Restschuld nur § 274 Grenzbaurecht/Anbau, Shots ab 560) |
@@ -152,6 +152,7 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    [[band-1/08-ausfuehrung-von-bauarbeiten]], neuer Wiki-Artikel [[bauausfuehrung-und-baukontrolle]].
    Restschuld: 8.3-Detail + Kap.-Ende S. 510-534, Shots 257-269.)*
    ✅ **Kap. 12 Teil 1 erledigt 2026-06-26, Run 14** (S. 707-723, 12.1/12.2/12.3-Anfang).
+   ✅ **Kap. 12 Teil 2 erledigt 2026-06-28, Run 15** (S. 724-741, Zugaenglichkeit-Detail/Zugangsarten/OEV).
 8. **Kap. 12 + 13** Baureife + Grundanforderungen.
    *(Kap. 12 Teil 1 distilliert 2026-06-26, Run 14, S. 707-723, Shots 355-363: **12.1** Baureife als
    erstes Element der Grundanforderungen (§§ 233-249 PBG), baureif = erschlossen + planungsrechtlich
@@ -160,11 +161,20 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    4 Voraussetzungen, Abgrenzung § 150/§ 264/Planungszone § 346 (3+2 J.)/§ 120, Dauer § 235); **12.3**
    Zugaenglichkeit Teil 1 (§§ 234-237, ZN/VSiV/StrAV → EV, Umweltrecht Art. 14 USG, Erreichbarkeit
    80 m/40 m, Notzufahrt 3 m/16 t § 3 ZN). Destillat [[band-2/12-baureife]], neuer Wiki-Artikel
-   [[baureife-und-erschliessung]]. Restschuld: Zugaenglichkeit-Detail + Wasser/Energie § 236 +
-   Abwasser/Abfall/Altlasten ab S. 724 / Shot 364.)*
-   ⏭️ **Naechster Lauf: Kap. 13** «Weitere Grundanforderungen» (S. 809, Shot ~407) — oder Kap. 12 Rest
-   (S. 724 ff.) bzw. P1-Restschuld (Kap. 16 Hoehen/Dachaufbauten, Kap. 17 Ausruestungen, Kap. 20 § 357
-   Abs. 4/5).
+   [[baureife-und-erschliessung]].
+   **Kap. 12 Teil 2** distilliert 2026-06-28, Run 15, S. 724-741, Shots 364-372: **12.3.3**
+   Technische Anforderungen/Zugangsarten (§ 2 Abs. 1 ZN) + **Anhang-ZN-Tabelle** (S. 726, Breite/
+   Radius/lichte Hoehe je WE; Kriterium Wohneinheiten = baulich Moegliches VB.2002.00273), **Kehrplatz**
+   (SN 640 052), **Erhoehung Grenzwerte** § 4 Abs. 2 ZN, **Fussgaengerschutz** (Bankett 30 cm/Trottoir
+   1 m), **Sonderfaelle/Erleichterungen** (§ 5/§ 11/§ 12 ZN; wichtige Gruende § 360 Abs. 3 PBG; letzte
+   Bauluecke), **Umweltschutzrecht** (Art. 24 USG/Art. 30 LSV/§ 128 PBG); **12.3.4** groessere
+   Ueberbauungen (Gleisanschluesse/Einkaufszentren 2000 m²/Schwertransporte); **12.3.5** Erreichbarkeit
+   OEV § 237 Abs. 1 Satz 2 PBG (kein Anspruch URP 2000/2002, ABER Pflicht ab «groesserer Ueberbauung»
+   300 Bew./Arb./Ausb., AngebotsV/Wegleitung 1997/§ 18 PVG). Wiki [[baureife-und-erschliessung]]
+   geschaerft. **Restschuld: Wasser/Energie § 236 + Abwasser/Abfall/Altlasten ab S. 742 / Shot 373.**)*
+   ⏭️ **Naechster Lauf: Kap. 12 Rest** (S. 742 ff., Wasser/Energie § 236 + Entsorgung — schliesst das
+   Kapitel) — oder **Kap. 13** «Weitere Grundanforderungen» (S. 809, Shot ~407) bzw. P1-Restschuld
+   (Kap. 16 Hoehen/Dachaufbauten, Kap. 17 Ausruestungen, Kap. 20 § 357 Abs. 4/5).
 9. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
    *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-
    mittelweg Baurekursgericht § 19/§ 20 VRG → Verwaltungsgericht § 50 VRG → Bundesgericht Art. 82/95 BGG,

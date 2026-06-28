@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-22
+last_updated: 2026-06-28
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -91,6 +91,17 @@ Trainingslauf (`../training/PROGRAMM.md`).
   + Beweislast Art. 8 ZGB; Brandschutz/Bundesrecht keine «Bauvorschrift»). 8 Doppelseiten. Status:
   `emerging` (§ 357 Abs. 4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen).
   Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
+- [[12-baureife]] — Kap. 12 Teil 1+2 (S. 707-741): **Baureife** als erstes der Grundanforderungen
+  (§§ 233-249 PBG) — **technische Erschliessung** (Zugaenglichkeit/Wasser/Energie/Entsorgung,
+  § 234/§ 236 PBG, Art. 19 RPG) + **planungsrechtliche Baureife § 234** (nur negative Vorwirkung,
+  Abgrenzung § 150/§ 264/Planungszone § 346 (3+2 J.)/§ 120); **massgebender Zeitpunkt** § 233 Abs. 1,
+  **wesentliche Abweichung bei Umbau § 233 Abs. 2** (VB-Kasuistik); **Zugaenglichkeit §§ 234-237**:
+  Erreichbarkeit **80 m / 40 m**, **Notzufahrt 3 m/16 t § 3 ZN**, **Zugangsarten + Anhang-ZN-Tabelle**
+  (Breiten/Radien je WE), **Kehrplatz** (SN 640 052), Fussgaengerschutz (Bankett 30 cm/Trottoir 1 m),
+  Erleichterungen (§ 11 ZN / § 360 Abs. 3 PBG / letzte Bauluecke), Umweltschutzrecht-Erschliessung
+  (Art. 24 USG / § 128 PBG), **Erreichbarkeit OEV § 237 Abs. 1 Satz 2** (AngebotsV, 300-Personen-
+  Schwelle, § 18 PVG). 18 Doppelseiten. Status: `emerging` (Wasser/Energie § 236 + Abwasser/Abfall/
+  Altlasten ab S. 742/Shot 373 offen). Speist [[baureife-und-erschliessung]].
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] — Kap. 7 Teil 1 (S. 424-447): **Der kommunale
@@ -169,6 +180,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 — Belichtung/Belueftung/Mindestflaeche/Raumhoehe/Aufzug S.1241-1255; Ausruestungen/Einstellraeume-Detail + §§295-298 ab Shot 632 offen) |
 | 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie S.1433-1449; § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
-| 1-5, 10-13, 18-19, 21-23 | uebrige | ⬜ offen |
+| 12 | Baureife | 🟡 teilweise (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2, S.707-741; Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.742 offen) |
+| 1-5, 10-11, 13, 18-19, 21-23 | uebrige | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

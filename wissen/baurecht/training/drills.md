@@ -481,3 +481,42 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   erreichbar sein. Frueh mit Feuerwehr/Feuerpolizei abstimmen (Schnittstelle Skill `brandschutz`).
   **Lueckenstatus:** Beleg vollstaendig; offen nur die genaue ZN/EV-Masszahl (Restschuld Kap. 12,
   S. 724 ff.). _[2026-06-26]_
+
+## Kap. 12 — Baureife / Zugaenglichkeit Teil 2 (2026-06-28, Run 15)
+
+### Modell C — Selbsttest-Karten
+- **F:** Wonach bestimmt sich die noetige Zugangsart (Zufahrtsweg/-strasse/Sammelstrasse)? — **A:**
+  Nach dem **voraussichtlichen Verkehrsaufkommen**, ausgedrueckt in **Wohneinheiten WE** (§ 6 Abs. 1
+  ZN); andere Nutzungen werden auf WE umgerechnet (§ 6 Abs. 2 ZN). Massgebend ist das **baulich
+  Moegliche**, nicht die beabsichtigte Belegung (VB.2002.00273; Bd 2, S. 725). _[2026-06-28]_
+- **F:** Welche Fahrbahnbreite braucht eine Zufahrtsstrasse fuer bis zu 30 WE? — **A:** Gemaess
+  **Anhang ZN** (Tabelle Bd 2, S. 726): **4,00-4,75 m** Breite, Kurvenradius (R) min. 10,00 m, lichte
+  Hoehe min. 4,50 m. (Zufahrtsweg bis 10 WE: 3,00-3,50 m / R 5,00 m / LH 3,00 m.) _[2026-06-28]_
+- **F:** Wann ist ein Kehrplatz noetig und wie wird er bemessen? — **A:** Bei **Stichstrassen** im
+  oberen Anwendungsbereich (bzw. Kehrmoeglichkeit bei Zufahrtswegen); bemessen nach dem Wendemanoever
+  gemaess **VSS-Norm SN 640 052**. Er muss Anstoessern *und* oeffentlichen Diensten (Kehricht)
+  rechtlich gesichert offenstehen (VB.2016.00566; VB.2010.00107; Bd 2, S. 728). _[2026-06-28]_
+- **F:** Zaehlt der Anschluss an den oeffentlichen Verkehr zur Mindesterschliessung? — **A:** **Nein**
+  — der OEV-Anschluss ist **kein Bestandteil** der Erschliessung i.S.v. § 237 PBG und begruendet keinen
+  Erschliessungsanspruch (URP 2000 S. 823; URP 2002 S. 795). ABER § 237 Abs. 1 Satz 2 PBG ist eine
+  **Grundanforderung**: bei **groesseren Ueberbauungen** (ab 300 Bew./Arb./Ausb.-Plaetzen) ist
+  mindestens eine **Haltestelle** zu erschliessen (§ 4 Abs. 1 AngebotsV; Bd 2, S. 738 f.). _[2026-06-28]_
+- **F:** Ab welcher Verkaufsflaeche braucht ein Einkaufszentrum eine Sammelstrasse als Zugang? — **A:**
+  Ab **2000 m² Verkaufsflaeche**: in Wohnzonen nur ueber mindestens als Sammelstrasse ausgefuehrte
+  Strassen (§ 12 Abs. 1 BBV II; Bd 2, S. 736). _[2026-06-28]_
+- **F:** Wann darf von den Zugangsnormalien abgewichen werden? — **A:** Bei **besonderen Verhaeltnissen**
+  (§ 11 ZN: Hanglage, Natur-/Heimatschutz, landwirtsch. Heimwesen, Innenentwicklung, Tempo-30-/
+  Begegnungszonen u.a., nicht abschliessend) und aus **wichtigen Gruenden** (§ 360 Abs. 3 PBG), gemessen
+  am Massstab § 237 PBG (VB.2015.00010). Auch fuer die **letzte Bauluecke** aus Rechtsgleichheit/
+  Verhaeltnismaessigkeit (VB.2005.00261; Bd 2, S. 732 f.). _[2026-06-28]_
+
+### Modell A — Frage→Beleg-Drill
+- **Buerofrage:** «Wir entwickeln eine Wohnsiedlung mit 120 WE an einer Stichstrasse. Was schuldet die
+  Erschliessung mindestens?» — **Beleg-Antwort:** Bei 120 WE greift gemaess **Anhang ZN** (Bd 2,
+  S. 726) die Kategorie **Zufahrtsstrasse «bis 150 WE»** → Breite **4,50-5,00 m**, R min. 10,00 m,
+  LH min. 4,50 m; da **Stichstrasse**, ist ein **Kehrplatz** (Wendeanlage SN 640 052) noetig und
+  rechtlich zu sichern (VB.2016.00566). Hinzu kommen **Fussgaengerschutz** (Bankett ≥ 30 cm / Trottoir
+  ≥ 1 m, VB.2010.00184) und — da > 300 Bewohner moeglich? hier 120 WE ≈ < 300 Personen, daher OEV-
+  Haltestellenpflicht erst zu pruefen — die **OEV-Erschliessung** nach AngebotsV. **Lueckenstatus:**
+  Beleg vollstaendig nach Buch; WE→Personen-Umrechnung und EV-Schwellenwerte am geltenden Erlass
+  gegenpruefen (needs-verification). _[2026-06-28]_

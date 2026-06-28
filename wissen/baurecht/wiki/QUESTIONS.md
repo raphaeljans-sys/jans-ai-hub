@@ -92,10 +92,19 @@ wurden.
   planungsrechtliche Baureife § 234; Erreichbarkeit 80/40 m, Notzufahrt 3 m/16 t; wesentliche
   Abweichung bei Umbau § 233 Abs. 2), distilliert [[12-baureife]] (S. 707-723). Speist
   [[baubewilligungsverfahren]] (Bewilligungsvoraussetzung) und ergänzt [[bestandsumbau-eingriffstiefe]].
-- **Rest Kap. 12 offen (Restschuld):** ab S. 724 (Shot 364) — Zugänglichkeit-Detail (Zugangskategorien/
-  ZN-Masszahlen, Wendeflächen, Steigungen), **Wasser-/Energieversorgung § 236 PBG**, **Beseitigung von
-  Abwässern/Abfallstoffen/Altlasten**, sowie der angekündigte Abschnitt zur Erschliessungsverordnung
-  (S. 749). Bis Kapitelende (vor Kap. 13, S. 809).
+- ~~**Zugänglichkeit-Detail (Zugangskategorien/ZN-Masszahlen, Kehrplatz, Fussgängerschutz, OEV)**~~ →
+  **erledigt 2026-06-28 (Run 15):** Kap. 12 Teil 2 (S. 724-741) in [[12-baureife]]/[[baureife-und-
+  erschliessung]] distilliert — Zugangsarten + **Anhang-ZN-Tabelle** (Breiten/Radien je WE-Zahl),
+  Kehrplatz (SN 640 052), Fussgängerschutz (Bankett 30 cm/Trottoir 1 m), Erleichterungen (§ 11 ZN /
+  § 360 Abs. 3 PBG / letzte Baulücke), Umweltschutzrecht-Erschliessung (Art. 24 USG/§ 128 PBG),
+  Erreichbarkeit OEV (§ 237 Abs. 1 Satz 2 PBG, AngebotsV, 300-Personen-Schwelle).
+- **Rest Kap. 12 offen (Restschuld):** ab **S. 742 (Shot 373)** — **Wasser-/Energieversorgung § 236 PBG**,
+  **Beseitigung von Abwässern/Abfallstoffen/Altlasten**, sowie der angekündigte Abschnitt zur
+  Erschliessungsverordnung (S. 749). Bis Kapitelende (vor Kap. 13, S. 809).
+- **needs-verification — §§/Erlasse Kap. 12 Teil 2:** § 227 PBG (Schwertransporte), § 12 BBV II,
+  § 18 PVG, AngebotsV (§§ 2/4), ZN §§ 4/5/6/7/9/10/11/12, § 360 Abs. 3 PBG — sinngemäss nach Buch
+  S. 724-741, am amtlichen Volltext gegenprüfen (Modell D); Anhang-ZN-Tabellenwerte gegen den heute
+  geltenden Erlass spiegeln.
 - **needs-verification — Stand Erschliessungsverordnung (EV) ZH:** Buch-Stand 2019 = Entwurf
   (Vernehmlassung 31.5.2017, definitiv Q1/2019 erwartet). Hat die EV ZN/VSiV/StrAV abgelöst? Aktuelle
   Schwellenwerte der Zugangskategorien am amtlichen Erlass prüfen, bevor harte Masszahlen zitiert werden.
