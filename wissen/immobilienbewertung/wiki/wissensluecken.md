@@ -10,7 +10,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 |---|---|---|---|---|
 | D1 | **UBS Fact Sheets veraltet**  (zudem Langnau am Albis ganz fehlend) | D | hoch | Waedenswil (2022), Einsiedeln/Regensdorf/Wald (12.2023) neu bestellen; relevante Kerngemeinden ergaenzen (deine aktiven Maerkte) |
 | D2 | **Bodenpreise nur Screenshots** | D | hoch | Strukturierte Bodenpreis-Quelle: Zugang Handaenderungs-/Bodenpreisstatistik (Kanton ZH/SZ), oder Wuest-/IAZI-Bodenpreis-Abo. Heute nicht maschinenlesbar |
-| D3 | **Diskontsatz-Herleitung** — Geruest steht, JANS-Faustregeln offen | D | mittel | T-Teil ✓ (Run 9: konsolidierte Tabelle, belegt). Offen nur noch DEINE Faustregeln: Illiquiditaets-/Objektzuschlag, Gewerbe-Feinabstufung je Mietersegment, Healthcare-Zuschlag (real vs. nominal) — als Kalibrierung der *Annahme*-Zeilen |
+| D3 | **Diskontsatz-Herleitung** — Geruest steht, Wohnbau-Faustregel nun belegt | D | niedrig | T-Teil ✓ (Run 9). **Run 10:** Wohnbau-Faustregel belegt aus R.-Jans-Notiz 31.12.2023 (**2.5 %=2.0 % Kapitalverzinsung+0.5 % Abschreibung**). Offen nur noch: **Gewerbe-Feinabstufung je Mietersegment** + **Healthcare-Zuschlag aus realem CH-Fall** (T17). D3 von «mittel» auf «niedrig» zurueckgestuft |
 | D4 | **Excel-Tool-Logik (Residualwert/Pre-Check)** | D/T | hoch | Freigabe, die `Immo-02-P23D-*.xlsx` zu oeffnen/auszulesen, damit die Formel-Logik (Diskontierung, Terminal Value, Margen) reverse-engineered und dokumentiert wird |
 | D5 | **Margen-/Finanzierungsannahmen** | D | mittel | Uebliche Bautraegermarge (%), Finanzierungszins/Laufzeit, Vermarktungs-/Reserve-% deiner Praxis |
 | D6 | **Ausnuetzungsziffer-Kennwerte fehlen** | D | mittel | `IMMO-06 WOHNEN Ausnuetzungsziffer` ist leer — typische AZ/GFZ je Zone/Gemeinde sammeln (oder via Skill baurecht ziehen) |
@@ -25,6 +25,17 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | T17 | **Healthcare-Bewertungsfall**: im Bewertungsordner existiert keiner (alle Wohnen/MFH/STWE). Brücke zu Skill `healthcare-wirtschaftlichkeit` (2410 WALD/Nova) bauen — ein reales Pflegeheim/Klinik-Bewertungs-Deliverable als Referenz erfassen, sobald vorhanden (Bring-Schuld Raphael) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare-Kennwerte | [[projektstruktur-deliverables]], [[ertragswert-dcf]] |
 
 ## Erledigt
+
+- ✓ 2026-06-28 **E8 / D3-Wohnbau-Faustregel** (Run 10) **drei ungelesene Quellen ingestiert**
+  (nicht freigabegebunden): R.-Jans-Notiz `231231_Residualwert und Diskontierung.docx` (31.12.2023)
+  → **Diskontsatz-Dekomposition 2.5 %=2.0 % Kapitalverzinsung+0.5 % Abschreibung** (schliesst die
+  Wohnbau-Faustregel von D3), **Betriebskosten-Pauschale 2.5 %=5x0.5 %**, belegte **Rechenkaskade**
+  Residualwert←Ertragswert←Nettoertrag←Mietertrag + **Abzinsungsformel** W0=Wn/(1+i)^N →
+  [[ertragswert-dcf]]. `Disskontierung.docx` → **Healthcare-Diskontsatz-Anker** (Pflege 4-8 %,
+  JANS-Arbeitsnotiz) → Healthcare-Zeile *speculative*→*emerging*. **Kanonische SIA-416:2003-Norm-PDF**
+  → [[flaechendefinitionen-sia]] vollstaendig normverankert (Hierarchie/Volumen/Miet-STWE-Flaechen/
+  Abgrenzung aGF-BGF-EBF). Kursnotizen IMG_7064-67: Anfangsrendite=Mietertrag/Kaufpreis, 30 % Land /
+  8 % Risikomarge, WP-Pre-Check-Tool-Layout (D4-Teilbeleg, ohne Zahlen). D3 → «niedrig».
 
 - ✓ 2026-06-26 **D3 (T-Teil)** (Run 9) **JANS-Diskontsatz-Tabelle konsolidiert**: alle belegten
   Anker (WP S. 52/55, Risikozuschlagsmodell S. 54, JANS-Konvention 2.50/2.70 %) zu **einer**

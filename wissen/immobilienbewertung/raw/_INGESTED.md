@@ -14,11 +14,11 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | DXMA Erfolgsfaktoren | `03 KNOW-HOW/05 Residualwert/Folien DXMA/Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf` (37 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-37, Training-Run 2 am 2026-06-10): 6 Faktoren, Aufwertungsgewinn-Prinzip + 10 Referenzfaelle, AZ-Optimierungsformel, A4-Bewertungsblatt | erfolgsfaktoren-wettbewerb, nutzungskonzepte, residualwertmethode |
 | Pre-Check-Tool Wuest | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/wp/Immo-02-P23D-Pre-Check_Tool_WuestPartner.xlsx` | XLSX | 2023 | offen | residualwertmethode |
 | Residualwert-Tool JANS | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Residualwert_Projektbewertung.xlsx` | XLSX | 2024 | offen | residualwertmethode, ertragswert-dcf |
-| Kursnotizen (handschriftlich) | `03 KNOW-HOW/05 Residualwert/Kursnotizen/IMG_7064-7067.jpeg` | Foto | 06.2023 | offen | residualwertmethode |
+| Kursnotizen (handschriftlich) | `03 KNOW-HOW/05 Residualwert/Kursnotizen/IMG_7064-7067.jpeg` | Foto | 06.2023 | **eingearbeitet** (Run 10 2026-06-28): Anfangsrendite=Mietertrag/Kaufpreis, Residualwert ~30 % Land / 8 % Risikomarge, Mehrwertabgabe Reinbau 25 %, WP-Pre-Check-Tool-Layout (IMG_7067 Fotolayout, D4-Teilbeleg ohne Zahlen) | residualwertmethode, ertragswert-dcf |
 | Schaetzungsanleitung Kap. 5 | `03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` (41 S.) | PDF | Stand 2003 | **vollständig eingearbeitet** (Run 2: Tab. 2/3/6/7/8/9/10/11/21/22/23; Run 3 2026-06-12: Tab. 12 Nutzflächen, Tab. 13 Raumeinheiten, Tab. 14/15 Mietkorrektur, Tab. 25-28 Gastgewerbe). Tab. 29/30 Punktierung quergelesen | realwert-sachwert, lageklasse-landwertanteil, ertragswert-dcf, flaechendefinitionen-sia, bewertungsverfahren-ueberblick |
 | Hedonik-Beispielreport | `03 KNOW-HOW/05 Hedonistische_Berechnungsweise/Standortinformation_Beispiel_Report.pdf` (13 S., WP Langenthal 21.06.2023) | PDF | 06.2023 | **eingearbeitet** (Run 3 2026-06-12): WP-Standortreport-Aufbau (Quantil-Preisspektren Wohnen/Geschäft + Bauland residualmodelliert + Datengrundlagen-Anhang) → vergleichswert-hedonisch | vergleichswert-hedonisch |
-| Abzinsung/Diskontierung | `03 KNOW-HOW/03 Abzinsung/Disskontierung/` | docx+png | 2023 | teilweise | ertragswert-dcf |
-| Flaechenbezeichnung SIA | `03 KNOW-HOW/07 FLÄCHENBEZEICHNUNG/sia/` | div. | — | teilweise | flaechendefinitionen-sia |
+| Abzinsung/Diskontierung | `03 KNOW-HOW/03 Abzinsung/Disskontierung/` | docx+png | 2023 | **eingearbeitet** (Run 10 2026-06-28): `231231_Residualwert und Diskontierung.docx` (R. Jans 31.12.2023) → Diskontsatz-Dekomposition 2.5 %=2.0 %+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel W0=Wn/(1+i)^N; `Disskontierung.docx` → Healthcare-Diskontsatz-Anker 4-8 %; `Disskontierung_erklaervideo.docx` = nur studyflix-Link | ertragswert-dcf |
+| Flaechenbezeichnung SIA | `03 KNOW-HOW/07 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf` | PDF | 2003 | **eingearbeitet** (Run 10 2026-06-28): kanonische SIA-416:2003-Hierarchie S. 6-15 (GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF + Volumen GV/NGV/KV/AKV + Miet-/STWE-Flaechen FSN/FGN + Abgrenzung 0.1 aGF/BGF/EBF nicht SIA-416) → flaechendefinitionen-sia normverankert | flaechendefinitionen-sia |
 | UBS Fact Sheets (10 Gemeinden) | `02 UBSFS/` | PDF | 2212-2512 | **alle 10 eingearbeitet** (Run 4 2026-06-14: + Thalwil 7/2024, Muri AG 7/2024, Regensdorf 12/2023, Luzern 12/2023; zuvor Wangen/Zollikon 12/2025, Maur 7/2024, Wald/Wädenswil/Einsiedeln 12/2023). Kompiliert in wiki/marktdaten-gemeinden/. ⚠ 2023/24-Stände > 18 Mt. | datenquellen-registry, vergleichswert-hedonisch, marktdaten-gemeinden/* |
 | UBS Swiss Real Estate Bubble Index | `02 UBSFS/srebi-q2-2024-de.pdf` | PDF | Q2-2024 | **eingearbeitet** (Run 4 2026-06-14): Index 0.74 «moderat», 4 Perspektiven + Methodik + regionale Ungleichgewichte → investorenmarkt-makro (T14) | datenquellen-registry, investorenmarkt-makro |
 | Flächenkonzeption Wohnen | `06 Kennwerte/WOHNEN Baumasse/Flächenkonzeption Wohnen.pdf` | PDF | 20.10.2024 | **eingearbeitet** (Run 4 2026-06-14): JANS-Flächenfaktoren HNF/GF/Baumasse 0.20/0.33/0.60/0.75 + Wohnungsmix-Benchmark → flaechendefinitionen-sia (T8) | flaechendefinitionen-sia |
@@ -44,7 +44,17 @@ ingestiert; stattdessen die offene **D3-Aufgabe (T-Teil)** geschlossen — alle 
 Anker zur **konsolidierten JANS-Diskontsatz-Tabelle** zusammengefuehrt (Bottom-up + WP-top-down,
 real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-j Bundesobligation
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
-Referenzzins 1.25 % unveraendert. Offen bleiben nur die Freigabe-gebundenen Quellen: **D4**
-(`Immo-02-P23D-*.xlsx` Residualwert-/Pre-Check-Tool-Formeln), **D8** (`_Kennwerte Jans.docx` +
-Healthcare-DOCX), **T17** (realer Healthcare-Bewertungsfall) und die **JANS-Diskontsatz-Faustregeln**
-(D3-Rest: Illiquiditaets-/Objekt-/Healthcare-Zuschlag — Bring-Schuld Raphael).
+Referenzzins 1.25 % unveraendert.
+
+**Stand Run 10 (2026-06-28):** **drei bisher ungelesene, NICHT freigabegebundene Quellen
+ingestiert** (die Freigabe-Sperre betraf nur die `.xlsx`-Tools D4). (1) Raphaels datierte Notiz
+`231231_Residualwert und Diskontierung.docx` (31.12.2023) belegt die **JANS-Diskontsatz-
+Dekomposition 2.5 %=2.0 % Kapitalverzinsung+0.5 % Abschreibung**, die **Betriebskosten-Pauschale
+2.5 % (5x0.5 %)** und die komplette **Rechenkaskade + Abzinsungsformel** → schliesst den
+Wohnbau-Teil der bisher als Bring-Schuld markierten D3-Faustregeln. (2) `Disskontierung.docx` gibt
+einen **Healthcare-Diskontsatz-Anker** (Pflege 4-8 %) → Healthcare-Zeile *speculative*→*emerging*.
+(3) Die **kanonische SIA-416:2003-Norm-PDF** verankert `flaechendefinitionen-sia` vollstaendig
+(Hierarchie + Volumen + Miet-/STWE-Flaechen + Abgrenzung). Plus Kursnotizen IMG_7064-67. Offen
+bleiben nur noch: **D4** (`.xlsx`-Tool-Formeln, Freigabe), **D8** (`_Kennwerte Jans.docx` +
+Healthcare-DOCX, Freigabe), **T17** (realer CH-Healthcare-Bewertungsfall), **D3-Rest**
+(Gewerbe-Feinabstufung je Mietersegment — Bring-Schuld Raphael).

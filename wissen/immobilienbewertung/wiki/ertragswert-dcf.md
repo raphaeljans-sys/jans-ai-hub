@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-06-26
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung, IMMO-03 Residualwert, IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.32-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9]
+last_updated: 2026-06-28
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.32-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
 
@@ -206,7 +206,7 @@ als im WP-Kursstand Sommer 2023. Das stuetzt die WP-2023-Anker und legt sie ans 
 | Wohnen — schlechte/teils leerstehende Altbauten | **3.0-3.3 %** | WP S. 55 | belegt |
 | Geschaeft/Gewerbe (Buero) | **2.7-3.8 %** (Wohnen + 0.6-1.5 Pp) | WP S. 55/117 | belegt |
 | Spezial/Risiko (Hotel, EKZ schlechte Lage) | **> 3.8 %** | WP S. 55 (Band offen) | belegt |
-| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 %** (*Annahme*: Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag) | Bruecke zu [[investorenmarkt-makro]] / Skill healthcare-wirtschaftlichkeit | *speculative* — realer Fall offen (T17) |
+| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 % real** (*Annahme*: Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag); JANS-Arbeitsnotiz nennt nominal 4-8 % (s.o.) | Bruecke zu [[investorenmarkt-makro]] / Skill healthcare-wirtschaftlichkeit; JANS-Notiz Disskontierung.docx | *emerging* — JANS-Anker belegt, realer CH-Fall offen (T17) |
 
 **Real vs. nominal (Fisher):** Die obigen Saetze sind **real** und werden auf **real konstante**
 Mieten angewendet (CH-Standard WP/IAZI). Wer **nominal** rechnet (Mieten mit erwarteter Teuerung
@@ -225,6 +225,76 @@ Illiquiditaets-/Objektzuschlag (oben als *Annahme* ausgewiesen), die **Gewerbe-F
 je Mietersegment und der **Healthcare-Zuschlag** (real, sobald ein Pflegeheim-Bewertungsfall
 vorliegt, T17). Die *belegten* Zeilen sind damit abschliessend; die *Annahme*-Zeilen warten auf
 Raphaels Kalibrierung.
+
+### JANS-Diskontsatz-Dekomposition + Betriebskosten-Pauschale (belegt, R. Jans 31.12.2023)
+
+Raphaels eigene **datierte** Arbeitsnotiz «Residualwert und Diskontierung» (`IMMO-03 Abzinsung/
+Disskontierung/231231_Residualwert und Diskontierung.docx`, R. Jans 31.12.2023, Run 10) belegt
+zwei bisher als Bring-Schuld (D3) offene **JANS-Faustregeln** und die komplette Rechenkaskade:
+
+**1. Diskontsatz-Dekomposition (schliesst D3-Faustregel teilweise):**
+```
+Diskontierung 2.5 %  =  Kapitalverzinsung 2.0 %  +  Abschreibung 0.5 %
+```
+Damit ist der in der JANS-Bewertungskonvention gelebte **2.50 %-Satz** nicht mehr nur ein Anker,
+sondern additiv hergeleitet: 2.0 % Kapitalverzinsung (Verzinsung des gebundenen Kapitals) +
+0.5 % Abschreibung/Rueckstellung. Das deckt sich mit dem Schaetzungsanleitungs-Aufbau
+(Kapitalisierungssatz = Basiszins + B/U/V + A + R, oben) und **kalibriert die bisher
+*Annahme*-markierte Bottom-up-Tabelle** fuer Wohnbau Durchschnittsgemeinde von der JANS-Seite her.
+
+**2. Betriebskosten-Pauschale 2.5 % des Mietertrags (5 × 0.5 %):**
+
+| Komponente | Anteil |
+|---|---|
+| Verwaltung, Versicherung, Versorgung | 0.5 % |
+| Instandhaltung | 0.5 % |
+| Instandsetzung | 0.5 % |
+| Leerstand | 0.5 % |
+| Liegenschaftssteuer | 0.5 % |
+| **Total Betriebskosten & Unterhalt** | **2.5 %** (Pauschale, hier auf den Liegenschaftswert) |
+
+Hinweis: Diese 2.5 %-Pauschale ist ein **JANS-Schnellansatz** in der fruehen Studie; in den
+reifen LB/MA-Faellen wird differenzierter gerechnet (Betriebs-/Unterhaltsquoten 4.5-6 % Soll-
+Ertrag, IH/IS in CHF/m2, siehe [[residualwertmethode]]). Die zwei Werte sind zwei Detaillierungs-
+stufen, kein Widerspruch — fuer Onepager/Vorcheck die 2.5 %-Pauschale, fuers Gutachten die Quote.
+
+**3. Belegte Rechenkaskade (worked example, gleiche Notiz):**
+```
+Residualwert  =  Ertragswert − Erstellungskosten
+Ertragswert   =  Nettoertrag / Diskontierungssatz
+Nettoertrag   =  Mietertrag − Betriebskosten & Unterhalt
+Mietertrag    =  Jahresmiete CHF/m2 × HNF
+```
+Zahlenbeispiel (Einsiedeln, 300 m2 HNF): Jahresmiete CHF 287/m2 (UBS Local Factsheet Einsiedeln,
+Median 90 % → [[vergleichswert-hedonisch]]) × 300 m2 = **85'000** Mietertrag; − 30'000
+Betriebskosten (≈ 2.5 % auf ~3.0 Mio) = **55'000** Nettoertrag; / 2.5 % = **2'200'000**
+Ertragswert; − 2'100'000 Erstellungskosten = **100'000** Residualwert. Die genannte Brutto-
+rendite ≈ 2.9 % (85'000 auf ~3.0 Mio) bestaetigt die Groessenordnung.
+
+**Diskontierungs-/Abzinsungsformel (Finanzmathematik, gleiche Notiz):**
+```
+W0 = Wn × 1/(1+i)^N        bzw.        K0 = Kn / q^N   mit q = 1 + p/100
+```
+W0 Barwert (heute) · Wn Endwert (zukuenftige Zahlung) · i/p Zinssatz · N Laufzeit in Jahren.
+1/q^N ist der **Diskontierungs-(Abzinsungs-)faktor**; ein hoeherer Abschlag = hoeheres Risiko der
+zukuenftigen Zahlung. (Lernquelle in der Notiz verlinkt: studyflix «Abzinsung und Aufzinsung».)
+
+### Healthcare-Diskontsatz — JANS-Arbeitsnotiz als Anker (Disskontierung.docx)
+
+Eine zweite JANS-Notiz (`IMMO-03 Abzinsung/Disskontierung/Disskontierung.docx`, Run 10) taxiert
+den Diskontsatz fuer ein **Pflegeheim** (Fallannahme: 41 Pflegeplaetze, Bruttoertrag ~1 Mio/J,
+Erstellungskosten ~26 Mio): Pflege-/Gesundheitsimmobilien gelten als **stabil, aber wenig
+wachstumsstark** und sind **nicht konjunkturabhaengig** (stabile Nachfrage) → eher tieferes
+Risiko. Genannte Bandbreiten: **typisch 4-8 %**, bei gesichertem Ertrag/stabiler Nachfrage
+**5-7 % gerechtfertigt**, riskanteres Umfeld **7-9 %**; objektspezifischer Risikoaufschlag
+**1-2 Pp** (Lage, Auslastung, Regulierung).
+
+⚠ **Einordnung (wichtig):** Diese Werte sind eine **JANS-Arbeitsnotiz** (teils KI-gestuetzt,
+in EUR, eher europaeischer/nominaler Marktbezug) — **kein** belegter CH-Realsatz. Sie liegen
+hoeher als die CH-**real**-Zeile der Tabelle unten (~3.0-4.0 %), weil sie nominale Gesamt-/
+EK-Renditegroessen mischen. Verwendung daher nur als **Plausibilitaets-Anker** (Healthcare wird
+tiefer diskontiert als Risikonutzungen, hoeher als Wohnen), nicht als Ansatz. Der reale CH-
+Pflegeheim-Bewertungsfall bleibt offen (T17) → Skill `healthcare-wirtschaftlichkeit`.
 
 ### JANS-Bewertungskonvention (aus realen Faellen belegt, Stand 06.2026)
 
@@ -377,5 +447,15 @@ Nettoertraege + Exitwert werden auf den Barwert abgezinst.
 - Bewirtschaftungs-/Unterhaltsquoten je Objekttyp: WP-Richtwerte siehe
   [[residualwertmethode]] (Betriebskosten 4.5-6 % Soll-Ertrag, IH 13-16 / IS 17-25
   CHF/m2 HNF); JANS-Abgleich offen.
-- Terminalwert-Multiplikator-Praxis; Excel-Formeln (D4).
-- IMMO-03 Abzinsung/Disskontierung-Material und Kursnotizen vollstaendig einarbeiten.
+- ✓ 2026-06-28 (Run 10): **IMMO-03 Abzinsung/Disskontierung-Material + Kursnotizen eingearbeitet.**
+  Aus `231231_Residualwert und Diskontierung.docx` (R. Jans 31.12.2023): **Diskontsatz-
+  Dekomposition 2.5 % = 2.0 % Kapitalverzinsung + 0.5 % Abschreibung** (kalibriert die bisher
+  *Annahme*-Bottom-up-Tabelle von JANS-Seite), **Betriebskosten-Pauschale 2.5 % (5 x 0.5 %)**,
+  belegte **Rechenkaskade** Residualwert←Ertragswert←Nettoertrag←Mietertrag + **Abzinsungsformel**
+  W0=Wn/(1+i)^N. Aus `Disskontierung.docx`: **Healthcare-Diskontsatz-Anker** (Pflege 4-8 %, 5-7 %
+  gerechtfertigt) als JANS-Arbeitsnotiz → Healthcare-Zeile von *speculative* auf *emerging*. Aus
+  den Kursnotizen IMG_7064-67: Anfangsrendite/Kapitalisierungssatz = Mietertrag/Kaufpreis (oben
+  S. 57/208 bestaetigt), Residualwert ~30 % Landanteil / 8 % Risikomarge (vgl. [[residualwertmethode]]).
+- Terminalwert-Multiplikator-Praxis; Excel-Formeln (D4, Freigabe offen).
+- **D3-Rest (Bring-Schuld):** Gewerbe-Feinabstufung je Mietersegment + Healthcare-Zuschlag aus
+  realem CH-Fall (T17) — die Wohnbau-Faustregel ist mit der 2.0+0.5-Dekomposition nun belegt.

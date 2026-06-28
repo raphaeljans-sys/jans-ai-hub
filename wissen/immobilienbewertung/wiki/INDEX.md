@@ -7,7 +7,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 - [[bewertungsverfahren-ueberblick]] — die vier Verfahren + Marktwert-Synthese · *established*
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern) · *established*
-- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung, DCF, Mietwert-Korrektur, Gastgewerbe · *established*
+- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Anker · *established*
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
 - [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025) · *established*
 
@@ -18,7 +18,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 ## Grundlagen & Daten
 
-- [[flaechendefinitionen-sia]] — SIA 416 Flaechenbegriffe (aGF/BGF/HNF…) · *established*
+- [[flaechendefinitionen-sia]] — SIA 416:2003 normverankert (GSF/GF/NGF/HNF/KF/AGF + Volumen GV + Miet-/STWE-Flaechen FSN/FGN; Abgrenzung aGF/BGF/EBF) · *established*
 - [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil (LK-Schluessel + Tab. 8) · *established*
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
 - [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention + CS-Sensitivitaets-Generator (Break-Even-Formel) · *established*

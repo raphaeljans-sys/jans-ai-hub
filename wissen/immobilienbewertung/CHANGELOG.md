@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-28 — Training-Run 10: drei ungelesene Quellen ingestiert (D3-Wohnbau-Faustregel belegt + SIA 416 normverankert)
+
+- **`wiki/ertragswert-dcf.md`** (06-28, established): zwei neue belegte Sektionen aus Raphaels
+  datierter Notiz `231231_Residualwert und Diskontierung.docx` (31.12.2023) — **JANS-Diskontsatz-
+  Dekomposition 2.5 %=2.0 % Kapitalverzinsung+0.5 % Abschreibung** (schliesst die Wohnbau-Faustregel
+  von D3), **Betriebskosten-Pauschale 2.5 %=5x0.5 %** (Verwaltung/Versicherung/Versorgung,
+  Instandhaltung, Instandsetzung, Leerstand, Liegenschaftssteuer), belegte **Rechenkaskade**
+  Residualwert←Ertragswert←Nettoertrag←Mietertrag (worked example Einsiedeln 287 CHF/m2 × 300 m2)
+  + **Abzinsungsformel** W0=Wn/(1+i)^N. Aus `Disskontierung.docx` neue Sektion **Healthcare-
+  Diskontsatz-Anker** (Pflege 4-8 %, JANS-Arbeitsnotiz, sauber als nominal/europaeisch eingeordnet)
+  → Healthcare-Zeile der konsolidierten Tabelle von *speculative* auf *emerging*.
+- **`wiki/flaechendefinitionen-sia.md`** (06-28, established): **vollstaendig auf die kanonische
+  SIA-416:2003-Norm verankert** (Quelle: Norm-PDF S. 6-15) — Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/
+  KF/AGF mit Codier-Ziffern + normgetreue Definitionen, Wohnungsbau-Beispiele NNF/VF/FF, Volumen
+  GV/NGV/KV/AKV (GV ohne Zu-/Abzuege, Bezug CHF/m3-Kennwerte), Miet-/STWE-Flaechen FSN/FGN (Bruecke
+  `stockwerkeigentum`) und die wichtige **Abgrenzung Norm 0.1**: aGF/BGF (Ausnuetzung), Baumassen-
+  Volumen und Energiebezugsflaeche sind **keine** SIA-416-Begriffe, sondern baurechtlich/energetisch.
+- Kursnotizen IMG_7064-67 ausgewertet (Anfangsrendite=Mietertrag/Kaufpreis, 30 % Landanteil /
+  8 % Risikomarge, WP-Pre-Check-Tool-Layout als D4-Teilbeleg ohne Zahlen).
+- Register: `raw/_INGESTED.md` (drei Quellen → eingearbeitet, Stand Run 10), `curriculum.md`
+  (neu E8 ✓), `wissensluecken.md` (D3 → «niedrig», Erledigt-Eintrag), `INDEX.md` (Deskriptoren),
+  Output `outputs/2026-06-28_training-run10.md`. Marktpuls unveraendert seit Run 9 (06-26).
+
 ## 2026-06-26 — Training-Run 9: JANS-Diskontsatz-Tabelle konsolidiert (D3 T-Teil) + Marktpuls
 
 - **`wiki/ertragswert-dcf.md`** (06-26, → established): neue Sektion **JANS-Diskontsatz-Tabelle (D3
