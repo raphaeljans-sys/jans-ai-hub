@@ -1,0 +1,13 @@
+=== ZUSAMMENFASSUNG ===
+Quelle:           /Volumes/daten/05_Architekten_Synobsis
+Scan-Datum:       2026-06-29T00:48:42+02:00
+Ordner gesamt:    85823
+Dateien gesamt:   390841
+Speicher gesamt:  1.9T
+
+Die detaillierten Ergebnisse liegen in:
+  ordnerstruktur.txt     — Verzeichnisbaum (4 Ebenen)
+  dateiliste.txt         — Alle Dateien mit Groesse
+  dateitypen.txt         — Statistik nach Dateiendung
+  groessenverteilung.txt — Top 20 groesste Dateien
+  namenskonventionen.txt — Namensbeispiele + Unterordner
