@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.06.2026 06:34:52
+Stand: 28.06.2026 06:44:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:25)
@@ -12,4 +12,4 @@ Stand: 28.06.2026 06:34:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 42dae36 nas-selfcommit: 7 Datei(en) 2026-06-28 06:30
+- 3767866 planungsgrundlagen-training Run 11: Recht/Norm (PL-02) — LRV-ELI vollendet, ZH-RPG-2-Zahlen+Klima-PBG, belegte SZ-Messweisen (GFZ/BMZ), SZ-Benchmark Willerzell
