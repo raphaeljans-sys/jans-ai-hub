@@ -1,1 +1,4 @@
 === GROESSENVERTEILUNG ===
+Gesamtanzahl Dateien: 390841
+
+Top 20 groesste Dateien:
