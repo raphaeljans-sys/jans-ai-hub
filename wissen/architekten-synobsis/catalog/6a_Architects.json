@@ -1,0 +1,26 @@
+{
+  "slug": "6a_Architects",
+  "architekt": {
+    "name": "6a Architects",
+    "nachname": "6a Architects",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "6a Architects"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/6a Architects",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "6a Architects",
+  "stand": "2026-06-28T12:26:32"
+}
