@@ -1,7 +1,7 @@
 ---
 title: Baurechtsanalysen — reale JANS-Faelle als Benchmark (PL-02/08)
 status: emerging
-last_updated: 2026-06-08
+last_updated: 2026-06-28
 sources: [PL - 02_Recht_Norm/01_Gesetze/08_Baurechtsanalysen (SharePoint)]
 links: [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-egrid-bezug]]
 ---
@@ -35,6 +35,31 @@ wiederverwendbarem Inhaltsgeruest (aus dem Inhaltsverzeichnis, S. 2):
 **Status quo → Ortsplanungsrevision → Gewaesserraum → oeffentl.-rechtl. → Baufeld → Variante →
 Kennwerte/Fazit** ist die belegte JANS-Dramaturgie einer Baurechts-/Volumenstudie.
 
+## SZ-Benchmark: Willerzell / Reckholdern (230207) — belegt gelesen 2026-06-28
+
+`230207_Willerzell.pdf` (Grundstueck-Nr. **3301**, Reckholdern 20, **8846 Willerzell**, Bezirk
+Einsiedeln SZ) ist die belegte JANS-Vorlage fuer eine **Schwyzer** Baurechtsabklaerung — und zeigt
+die fuer SZ typische **dreistufige Quellen-Trias**, die ZH so nicht kennt:
+
+1. **Kantonal:** Baugesetz Kt. Schwyz (30.04.1970) — Rahmen.
+2. **Bezirk:** **Baureglement des Bezirks Einsiedeln** (24.02.1975) — die Zonenvorschriften (in SZ
+   regelt der **Bezirk**, nicht die politische Gemeinde, die Nutzungsplanung in Einsiedeln).
+3. **Sondernutzung:** **Quartiergestaltungsplan Reckholdern** (Plan Nr. 882/55-6, 24.03.1983) —
+   parzellenscharf: **Baulinie 9 m, Waldabstand 20 m, Ausnuetzungsziffer 0.2 (Landhauszone)**.
+
+Belegte Kennwerte (Baureglement Einsiedeln, Landhauszone **L 0.2**, Art. 39):
+AZ 0.2 · kleiner Grenzabstand 4 m · grosser Grenzabstand 8 m · Bauhoehe 6 m · Geschosszahl 1.5 ·
+Gebaeudelaenge 20 m; **Art. 40:** in L 0.2 alleinstehende EFH mit zusaetzlicher Kleinwohnung gestattet.
+Mass (Art. 21 BauR Einsiedeln): **Bauhoehe** = gewachsener Boden Fassadenmitte → OK oberste
+Geschossdecke; **Dachgeschoss zaehlt als Vollgeschoss** bei Ausbau > 30 % der Aussenmassflaeche +
+Hoehe ≥ 2.20 m; am **Hang** ist nur **1 Untergeschoss** zusaetzlich zulaessig.
+
+> **Benchmark-Lehre:** In SZ zuerst klaeren, **welche Ebene** (Kanton / Bezirk / QGP-Sonderbauvorschrift)
+> das Mass nennt. Aeltere Einsiedler Zonen tragen weiter eine **Ausnuetzungsziffer**, obwohl der Kanton
+> die AZ abgeschafft hat (RRB 457/2014) — die kantonale GFZ/BMZ-Logik greift erst mit der kommunalen/
+> Bezirks-Revision. → [[recht-norm-quellenlandkarte]] (SZ-Messweisen, Planungs-Trap). Dieselbe Parzelle
+> Reckholdern ist OEREB-seitig ueber Skill `oereb-schwyz` / Connector `geo-sz.mjs` beziehbar.
+
 ## Fall-Index (Benchmark-Tabelle)
 
 Charakterisierung aus Dateinamen + (Maur) gelesenem Inhalt; «demonstriert» aus Dateiname inferiert
@@ -44,7 +69,7 @@ Charakterisierung aus Dateinamen + (Maur) gelesenem Inhalt; «demonstriert» aus
 |---|---|---|---|---|
 | `231024_Maur` | 2023 | Maur ZH | Vollstaendige Machbarkeitsstudie: Ortsplanungsrevision-Delta, **Gewaesserraum**, Abstands-/Baufeld, Varianten, Kennwerte | gelesen |
 | `230831_Waedenswil` | 2023 | Waedenswil ZH | Baurechtsanalyse (Inhalt offen) | Dateiname |
-| `230207_Willerzell` | 2023 | Willerzell (Einsiedeln) **SZ** | SZ-Fall — Mass-Begriffe nach PBG/PBV SZ (vgl. [[recht-norm-quellenlandkarte]] SZ-Block) | Dateiname |
+| `230207_Willerzell` | 2023 | Willerzell (Bezirk Einsiedeln) **SZ** | SZ-Quellen-Trias: Kt.-Baugesetz + **Bezirks-Baureglement** + **Quartiergestaltungsplan**; Landhauszone L 0.2 mit **AZ 0.2** (trotz kant. AZ-Abschaffung) | **gelesen 2026-06-28** |
 | `220411_/220412_Zuerich` | 2022 | Stadt Zuerich | Staedtische Bauordnung / zwei Varianten oder Stufen | Dateiname |
 | `200508_BRA_Thalwil` + `200508_Thalwil` | 2020 | Thalwil ZH | dezidierte **BRA** (Baurechtsanalyse) + Hauptdok | Dateiname |
 | `181206_PB Flurstrasse … ZFAG` | 2018 | Flur-/Haedrichstrasse | Projekt-Dokumentation (ZFAG) | Dateiname |

@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-06-20
+last_updated: 2026-06-28
 sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2), are.admin.ch, espace-suisse.ch]
 links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-baurechtsanalysen-benchmarks]], [[machbarkeit]]
 ---
@@ -58,7 +58,7 @@ fedlex-Fassung gemappt; vor Zitat nur noch das gewuenschte Stand-Datum anhaengen
 | `730.1_19.6.83_*` | (alt) | Energie-Verordnung, **historische Fassung 1983** | aktuell: **EnV SR 730.01** = `cc/2017/763` ✓ | — |
 | `814.20.de.pdf` | 814.20 | GSchG — Gewaesserschutzgesetz (24.1.1991) | `cc/1992/1860_1860_1860` ✓ | **Stand 20250801** belegt (PDF-A) |
 | (GSchV) | 814.201 | GSchV — Gewaesserschutzverordnung (1998) | `cc/1998/2863_2863_2863` ✓ | PDF-A 20230101 belegt |
-| `814.318.142.1.pdf` / `LRV_*` | 814.318.142.1 | LRV — Luftreinhalte-Verordnung (16.12.1985) | via `redirect/rs/814.318.142.1/de` | ELI noch offen → redirect nutzen |
+| `814.318.142.1.pdf` / `LRV_*` | 814.318.142.1 | LRV — Luftreinhalte-Verordnung (16.12.1985) | `cc/1986/208_208_208` ✓ | **Stand 20260101** belegt (PDF-A ladbar, 2026-06-28) |
 | `814.41.de.pdf` | 814.41 | LSV — Laermschutz-Verordnung (15.12.1986) | `cc/1987/338_338_338` ✓ | Aenderung **AS 2023 582** (2023) |
 | `700.5_9.12.87`, `722.15_15.6.83` | (alt) | aeltere Erlasse/Fassungen — vor Zitat auf fedlex gegen aktuelle SR pruefen | speculative | — |
 
@@ -82,6 +82,7 @@ fedlex-Fassung gemappt; vor Zitat nur noch das gewuenschte Stand-Datum anhaengen
   `<JJJJMMTT>` = das gewuenschte In-Kraft-/Stand-Datum. Host alternativ `fedlex.data.admin.ch`.
   Beispiel RPG Stand 01.01.2026: `…/eli/cc/1979/1573_1573_1573/20260101/de/pdf-a/…20260101-de-pdf-a.pdf` (ladbar bestaetigt).
   Beispiel GSchG Stand 01.08.2025: `…/eli/cc/1992/1860_1860_1860/20250801/de/pdf-a/…20250801-de-pdf-a.pdf` (belegt Run 7).
+  Beispiel **LRV** Stand 01.01.2026: `…/eli/cc/1986/208_208_208/20260101/de/pdf-a/…208_208_208-20260101-de-pdf-a-1.pdf` (HTTP 200, 1.5 MB, getestet 2026-06-28 Run 11 — **ELI-Falle:** AS-Publikationsjahr **1986**, nicht das Erlassdatum 1985).
 - **AS-/OC-Fundstelle einer einzelnen Aenderung** (statt der konsolidierten SR-Fassung):
   `…/eli/oc/<jahr>/<nr>/de` — z.B. RPV-Teilrevision **`oc/2025/659`**, NHG-Aenderung **`oc/2025/429`**,
   LSV-Aenderung **`oc/2023/582`**. Nuetzlich, um *was genau* sich geaendert hat zu belegen.
@@ -124,27 +125,67 @@ Wuerdigung bleibt der Skill `baurecht`; hier der belegte Datenstand fuer Planung
 - Quelle: BR verabschiedet RPV 15.10.2025 (uvek.admin.ch); espace-suisse «Verordnung zu
   RPG-2-Umsetzung verabschiedet»; are.admin.ch RPV-Dossier.
 
-**Kanton ZH — Umsetzung (Stand 2026-06-20, zh.ch „Umsetzung RPG 2"):**
+**Kanton ZH — Umsetzung (Stand 2026-06-28, zh.ch „Umsetzung RPG 2"):**
 - ZH passt **das PBG** und den **kantonalen Richtplan** an die Bundesvorgaben an.
 - **Direkt anwendbares Bundesrecht gilt bereits** ab 01.01.2026 (kein ZH-Akt noetig); die
-  **kantonale Umsetzung (PBG/Richtplan) ist 2026-06-20 noch in Erarbeitung** — kein
+  **kantonale Umsetzung (PBG/Richtplan) ist weiterhin in Erarbeitung** — kein
   Fertigstellungsdatum publiziert. ⚠ Vor einem Projekt ausserhalb Bauzone in ZH den aktuellen
   Stand auf zh.ch pruefen.
+- **Direkt seit 01.01.2026 (belegt zh.ch, Run 11):** u.a. Vorrang Landwirtschaft + **Bestandes-/
+  Besitzstandsschutz fuer ueber 30 Jahre bestehende Gebaeude** ausserhalb Bauzone gilt unmittelbar.
+- **ZH-Stabilisierungswert (absolute Zahlen, belegt zh.ch 2026-06-28):** der 2-%-Schwellenwert
+  bemisst sich an **40'807 Gebaeuden und 2'594 ha versiegelter Flaeche** ausserhalb der Bauzone
+  (Bezug 29.09.2023). Wird der Wert um 2 % ueberschritten, ist **jede neue Baute durch Rueckbau
+  einer anderen mit ≥ 6 m² Grundflaeche zu kompensieren**. Ziel des Kantons: den Schwellenwert
+  **nicht** erreichen, um noetige Versorgungsbauten weiter hindernisfrei zu ermoeglichen.
+- **Abbruchpraemie ZH ab 01.07.2026:** der Kanton bezahlt den Rueckbau von Gebaeuden/versiegelten
+  Flaechen nach Massgabe der gesetzlichen Vorgaben; **bereits erfolgte Rueckbauten werden NICHT
+  entschaedigt** (zh.ch). → fuer JANS-Umnutzungs-/Rueckbaufaelle: Praemie erst nach Inkrafttreten
+  ausloesen, nicht vorgreifen.
 - Praxis-Anker JANS: relevant fuer Umnutzungs-/Ankaufsfaelle ausserhalb Bauzone (Stall-/
   Oekonomiegebaeude, Landwirtschaftszone) → Skills [[machbarkeit]] / `nutzungsstrategie` /
   `ankaufspruefung`. Zonenkonformitaet/Bestandesschutz → `baurecht`.
 - ZH-Detailseite **„Bauen ausserhalb von Bauzonen"** (zh.ch/planen-bauen/bauvorschriften/
   bauen-an-besonderer-lage) als Einstieg fuer Verfahrensfragen.
 
-## SZ ↔ ZH — Messweisen (Kurz, Tiefe → `baurecht`)
+**Parallele ZH-PBG-Revision «Klimaangepasste Siedlungsentwicklung» (neu erfasst Run 11):**
+Unabhaengig von RPG 2 laeuft im Kt. ZH eine **PBG-Revision zur klimaangepassten Siedlungsentwicklung**
+(zh.ch, Umsetzungshilfe + Musterbestimmung). Sie gibt den Gemeinden Rechtsinstrumente fuer
+klimaangepasstes Bauen; **ein Teil wirkt direkt im Baubewilligungsverfahren**, anderes braucht
+**kommunale Nutzungsplanung** (Musterbestimmung/BZO). Relevanz fuer JANS: bei ZH-Baueingaben kuenftig
+auf Begruenung/Entsiegelung/Hitzevorsorge-Anforderungen achten — je nach Gemeinde-Stand direkt oder
+erst nach BZO-Anpassung. ⚠ Datenstand pruefen, Revision in Bewegung (kein fixes Inkraft-Datum belegt).
+Detail-Wuerdigung → Skill `baurecht`.
+
+## SZ ↔ ZH — Messweisen (belegte Kernregeln, Tiefe → `baurecht`)
+
 - **Kt. ZH** wendet die **IVHB** (Interkantonale Vereinbarung Harmonisierung Baubegriffe) ueber
   das PBG/die ABV an — `02_Zuerich/Planung/IVHB_Leitfaden` ist die Lese-/Umsetzungshilfe.
-- **Kt. SZ** definiert Mass-Begriffe direkt im **PBG/PBV** — im Ordner als Artikel-Screenshots
-  belegt: `Art 42 Messweise Firsthoehe`, `Art 60 Gebaeudehoehe`, `Art 31i Geschossflaechenziffer`,
-  `Art 35 Waldabstand`, `Art 61 Nebenbauten/unterirdische Bauten`; **Ausnuetzungsziffer abgeschafft**
+- **Kt. SZ** definiert die Mass-Begriffe direkt im **PBG SZ (SRSZ 400.100)** — und ist
+  **inzwischen IVHB-aligned**: die `(neu)`-Artikel fuehren **Geschossflaechenziffer (GFZ)** und
+  **Baumassenziffer (BMZ)** als Dichtemasse, **die Ausnuetzungsziffer ist kantonal abgeschafft**
   (RRB 457/2014, `rrb_457_2014_M_Abschaffung_Ausnuetzungsziffer.pdf`).
-- Konkrete Abstands-/Hoehen-/Ausnuetzungsfragen → **Skill `baurecht`** (zitiert aus dieser
-  Sammlung + Gesetzessammlung); hier nur Wegweiser, kein Abschreiben.
+
+**Belegte SZ-Mass-Definitionen** (Screenshots `01_Gesetze/02_Schwyz`, Stand-Konsolidierung
+**SRSZ 1.2.2021** ⚠ >18 Mt. → vor Zitat aktuelle SRSZ-Fassung pruefen, s. QUESTIONS R2):
+
+| § / Art. (SZ) | Mass | Belegte Kernregel (sinngemaess, kein Abschreiben) |
+|---|---|---|
+| **§ 31i (neu)** | **Geschossflaechenziffer GFZ** | GFZ = ΣGF / aGSF. Geschossflaeche = HNF + NNF + VF + KF + FF (IVHB/SIA-416-Struktur); Flaechen unter gesetzl. Mindesthoehe zaehlen nicht. |
+| **§ 31g (neu)** | **Baumassenziffer BMZ** | BMZ = Bauvolumen ueber massgebendem Terrain / aGSF; Volumen im realen Aussenmass; teilweise umschlossene Bauteile anteilig. |
+| **§ 60** | **Gebaeudehoehe** | Mass vom **ausgemittelten gewachsenen Boden an der Fassadenmitte** bis Schnittpunkt Fassade↔Dachhaut (Flachdach: OK Dachabschluss). Giebeldreieck + Aufbauten ≤ 1/3 Fassadenlaenge **nicht** angerechnet; Dachneigung > 45° wird auf 45° gerechnet; gestaffelte Baukoerper je gesondert. **Grenzabstand = 50 % der Gebaeudehoehe, mind. 3 m** (bis 20 m GH). |
+| **Art. 42 (BauR)** | **Firsthoehe** | lotrecht vom **Messpunkt OK First** bis Terrain; am Hang talseitig massgebend (Diagramm). |
+| **§ 61** | **Nebenbauten / unterirdische Bauten** | Nebenbau = eingeschossig, unbewohnt (Garage/Kleinbau), **≤ 3.50 m GH / 4.50 m FH / 60 m² Grundflaeche** → **Grenzabstand ≥ 2.50 m**. Unterirdische Bauten (Terrain ≤ 1 m ueberragt) duerfen bis 1 m an die Grenze; mit schriftl. Nachbar-Einwilligung bis an die Grenze. |
+| **§ 62** | **Ungleiche Grenzabstands-Verteilung** | bei gewahrtem **Gebaeudeabstand** per **Dienstbarkeitsvertrag** ungleich verteilbar; Dienstbarkeit ins Grundbuch. → vgl. Agent `dienstbarkeiten-pruefer`. |
+| **Art. 35** | Waldabstand | Screenshot vorhanden; Detail → `baurecht`. |
+
+- **Planungs-Trap SZ:** die **kantonale** AZ-Abschaffung greift nicht automatisch auf jede
+  **kommunale/Bezirks-Ordnung** durch — aeltere Zonen koennen via **Baureglement/Quartiergestaltungsplan
+  weiterhin eine Ausnuetzungsziffer** tragen (Benchmark Willerzell/Einsiedeln AZ 0.2, s.
+  [[recht-norm-baurechtsanalysen-benchmarks]]). Vor einer SZ-Dichteberechnung immer pruefen, **welches
+  Mass die einschlaegige Ordnung wirklich nennt** (GFZ/BMZ vs. alte AZ).
+- Konkrete Abstands-/Hoehen-/Dichtefragen → **Skill `baurecht`** (zitiert aus dieser Sammlung +
+  Gesetzessammlung); hier nur belegter Wegweiser, kein Abschreiben.
 
 ## Dispensrecht (Verweis `baurecht`)
 `01_Gesetze/05_Dispensrecht` enthaelt einen realen **BRKE-Entscheid** (`BRKE_I_0247_2010_722.pdf`)
@@ -180,9 +221,12 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
 - **Mass-/Raumkennwerte** → `05_Raumpilot`, `07_Neuffert`, `09_Sanitaereinrichtung`.
 
 ## Offen (→ QUESTIONS)
-- B1: fedlex-ELI-Mapping aller `01_Bund`-PDF **erledigt 2026-06-20** (BehiG/NHG/NHV/GSchG/GSchV/
-  LSV/RPV ELIs belegt + redirect-Endpunkt). **Rest:** LRV 814.318.142.1 (ELI noch offen, redirect
-  nutzbar); je Erlass das *exakte* aktuelle Stand-Datum erst beim konkreten Zitat ziehen.
-- B2: RPG-2-ZH-Umsetzung (PBG/Richtplan) **noch in Erarbeitung** — bei ZH-Publikation Abschnitt
-  „RPG 2" + ggf. eigener Artikel nachziehen.
+- B1: fedlex-ELI-Mapping **vollstaendig erledigt 2026-06-28 (Run 11)** — LRV 814.318.142.1 =
+  `cc/1986/208_208_208` (Stand 20260101, PDF-A getestet); alle relevanten `01_Bund`-PDF gemappt.
+  Restaufgabe nur noch: je Erlass das *exakte* aktuelle Stand-Datum beim konkreten Zitat ziehen.
+- B2: RPG-2-ZH-Umsetzung (PBG/Richtplan) **noch in Erarbeitung** — Stabilisierungs-Zahlen ZH
+  (40'807 Gebaeude / 2'594 ha) + Abbruchpraemie 01.07.2026 belegt (Run 11); bei ZH-PBG-Publikation
+  nachziehen. Parallele ZH-PBG-Revision **«Klimaangepasste Siedlungsentwicklung»** beobachten.
 - B3: `06_Richtlinien`-Wegweiser **erledigt 2026-06-20** — vertiefen je nach Projektbedarf.
+- R2: SZ-Mass-Definitionen belegt aus Screenshots (Stand **SRSZ 1.2.2021**) — ⚠ >18 Mt., vor
+  Zitat gegen aktuelle SRSZ-Fassung (lexfind.ch/sz.ch) pruefen.

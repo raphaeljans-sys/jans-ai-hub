@@ -11,8 +11,8 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
 
 ## Recht & Norm (PL-02)
-- [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-ELI vollstaendig (BehiG/NHG/GSchG/LSV/RPV…) + redirect-Endpunkt, RPG-2-Bund+ZH-Stand, 06_Richtlinien-Wegweiser · **established**
-- [[recht-norm-baurechtsanalysen-benchmarks]] — reale JANS-Faelle (08_) als Struktur-/Praezedenz-Benchmark · emerging
+- [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-ELI **vollstaendig** (BehiG/NHG/GSchG/LSV/RPV/**LRV cc/1986/208_208_208**…) + redirect-Endpunkt, RPG-2-Bund+ZH-Stand (ZH 40'807 Geb./2'594 ha, Abbruchpraemie 01.07.2026, Klima-PBG), **belegte SZ-Messweisen-Tabelle (§ 31i GFZ / § 31g BMZ / § 60 / Art. 42 / § 61, SZ IVHB-aligned)**, 06_Richtlinien-Wegweiser · **established**
+- [[recht-norm-baurechtsanalysen-benchmarks]] — reale JANS-Faelle (08_) als Struktur-/Praezedenz-Benchmark; Goldstandard **Maur** (ZH) + SZ-Benchmark **Willerzell/Reckholdern 3301** (Quellen-Trias Kanton/Bezirk/QGP) · emerging
 
 ## Brandschutz (PL-03)
 - [[brandschutz-pl03-wegweiser]] — Wegweiser PL-03: VKF-Struktur 2015 (Norm/BSR/Verzeichnisse/Erlaeuterungen/Arbeitshilfen + Rev. 2017/2022, BSV-2026-Stand), Brandschutznachweis (Inhalt/wann/Vorlage MFH-5g-RF1), QSS 1–4 (Tab. 3.3.1/3.4.1, Healthcare=Beherbergung [a]→QSS 2–3); Fach-/Detailarbeit → Skill `brandschutz` · **established**
