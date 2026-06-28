@@ -2,12 +2,12 @@
 name: 12-baureife
 kapitel: "12 — Baureife"
 band: 2
-seiten: "707-723 (Teil 1: 12.1 Allgemeines/Gemeinsame Bestimmungen; 12.2 Planungsrechtliche Baureife § 234 PBG; 12.3 Zugaenglichkeit Teil 1 §§ 234-237 PBG / ZN-VSiV-StrAV / Erreichbarkeit / Notzufahrt)"
-shots: "355-363 (distilliert, S. 707-723; Kapitelfortsetzung Zugaenglichkeit Detail + Wasser-/Energieversorgung + Abwasser/Abfall/Altlasten ab Shot 364 / S. 724 ff. offen)"
-paragraphen: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 120 PBG", "§ 150 PBG", "§ 264 PBG", "§ 265 PBG", "§ 346 PBG", "§ 66 PBG", "§ 67 PBG", "§ 96 PBG", "Art. 19 RPG", "Art. 22 RPG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 18a EBG"]
+seiten: "707-741 (Teil 1 S.707-723: 12.1 Allgemeines; 12.2 Planungsrechtliche Baureife § 234 PBG; 12.3 Zugaenglichkeit T1 / ZN-VSiV-StrAV / Erreichbarkeit / Notzufahrt. Teil 2 S.724-741: 12.3.3 Technische Anforderungen/Zugangsarten + Anhang-ZN-Tabelle; 12.3.3.3-12.3.3.9 Kehrplatz/Grenzwert-Erhoehung/Fussgaengerschutz/Erleichterungen/Quartierplan/Umweltschutzrecht; 12.3.4 groessere Ueberbauungen; 12.3.5 Erreichbarkeit OEV § 237 Abs.1 Satz 2 PBG)"
+shots: "355-372 (distilliert, S. 707-741; Kapitelfortsetzung Wasser-/Energieversorgung § 236 + Abwasser/Abfall/Altlasten ab Shot 373 / S. 742 ff. offen)"
+paragraphen: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 120 PBG", "§ 128 PBG", "§ 150 PBG", "§ 227 PBG", "§ 264 PBG", "§ 265 PBG", "§ 346 PBG", "§ 360 PBG", "§ 66 PBG", "§ 67 PBG", "§ 96 PBG", "ZN (§§ 2/3/4/5/6/7/9/10/11/12)", "§ 12 BBV II", "§ 21 BVV", "§ 18 PVG", "AngebotsV", "Art. 19 RPG", "Art. 22 RPG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 18a EBG"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-06-26
+last_updated: 2026-06-28
 ---
 
 # Kap. 12 — Baureife
@@ -199,6 +199,139 @@ Minimalloesung (3 m breit, 16 t tragfaehig).
   Strasse mit Bankett und einer Tragfaehigkeit von mindestens 16 Tonnen** (§ 3 ZN und Anhang zu den
   ZN). Sie muss **tatsaechlich und rechtlich gesichert** sein (VB.2017.00232, E. 3, S. 723).
 
+### 12.3 Zugaenglichkeit (Erschliessung) — Teil 2 (S. 724-741)
+
+**12.3.2.4 Anforderungen an weiterfuehrende Strassen (S. 724)**
+- Massgebend fuer die Zufahrt ist nicht nur das **letzte Verbindungsstueck** zum Grundstueck,
+  sondern auch die **weiterfuehrende oeffentliche Strasse**, soweit der Benuetzer auf sie angewiesen
+  ist. Genuegt eine verkehrsorientierte Sammelstrasse Anhang ZN nicht mehr als «Zugang» i.S.v.
+  § 237 PBG, kann die Baubewilligung wegen ungenuegender Erschliessung verweigert werden — auch dann,
+  wenn der Anschluss an eine bestehende Erschliessung das Umweltschutzgesetz verletzen wuerde
+  (BEZ 1991 Nr. 36 m.H., S. 724).
+
+**12.3.3 Technische Anforderungen / Zugangsarten (§ 2 Abs. 1 ZN, S. 724-727)**
+- Zugaenge haben die Bestimmungen des PBG sowie die der **Verkehrssicherheit** und Gestaltung zu
+  erfuellen und die ueber die **Anforderungen der Normalien (ZN)** zu beachten (§ 2 Abs. 1 ZN; die ZN
+  sind richtunggebend, oertliche Verhaeltnisse fuer angemessen halten, VB.2008.00286; BEZ 1985 Nr. 5).
+  Je nach Erschliessungsfunktion werden **Zufahrtsweg, Zufahrtsstrasse, Erschliessungsstrasse,
+  nutzungs-/verkehrsorientierte Sammelstrasse** unterschieden (S. 724).
+- **Anhang ZN — Technische Anforderungen an Zugaenge** (Tabelle S. 726): je Zugangsart der
+  **Anwendungsbereich** (Nutzung in Wohneinheiten WE) und die **Ausbaugroessen** (R = Radius in der
+  Achse / LH = Lichte Hoehe / Breite), siehe «Formeln & Schwellenwerte» unten. WE = Wohneinheiten
+  bzw. umgerechnete Auswirkungen anderer Nutzungen; * = in dichter Bebauung, sofern mit oeffentlichen
+  Verkehrsmitteln gut erschlossen (S. 726).
+- **12.3.3.2 Kriterium der Wohneinheiten (S. 725):** Die Zugangsart bestimmt sich grundsaetzlich nach
+  dem **voraussichtlichen Verkehrsaufkommen** aufgrund der Nutzung mit Wohneinheiten (§ 6 Abs. 1 ZN);
+  andere Nutzungen sind auf Wohneinheiten umzurechnen (§ 6 Abs. 2 ZN). **Massgebliche Wohnungszahl:**
+  massgebend ist das bauliche **moeglich Ausgenutzte**, nicht die aktuell beabsichtigte Belegung
+  (VB.2002.00273, E. 2c; S. 725).
+
+**12.3.3.3 Kehrplatz (S. 728)**
+- Gemaess Anhang ZN ist bei Zugangswegen sowie bei Zufahrtsstrassen im unteren Abschnitt eine
+  **Kehrmoeglichkeit** notwendig, wenn diese als **Stichstrasse** ausgebildet ist; bei Zufahrtsstrassen
+  im oberen Anwendungsbereich wird ein **Kehrplatz** verlangt (VB.2016.00566, E. 4.2/5.1). Die
+  Kehrmoeglichkeit muss dem Benuetzer erkennbar sein.
+- Sie muss allen Anstoessern, die auf die Erschliessung durch die Stichstrasse angewiesen sind, **und
+  den oeffentlichen Diensten** (Kehrichtabfuhr) in **rechtlich gesicherter** Art zur Verfuegung stehen;
+  bemessen nach dem **Wendemanoever** auf dem Strassengebiet (VSS-Norm SN 640 052 «Wendeanlagen»,
+  S. 728). Auf Privatgrund ist die Sicherung dann erforderlich, wenn das betreffende Grundstueck im
+  Gemeinde-Eigentum steht und von einer Widmung zum Gemeingebrauch ausgenommen werden kann
+  (VB.2010.00107, E. 7.4; VB.2009.00659).
+
+**12.3.3.4 Erhoehung der Grenzwerte (§ 4 Abs. 2 ZN, S. 728-730)**
+- In **dichter Ueberbauung** bei **guter Erschliessung mit oeffentlichen Verkehrsmitteln** koennen die
+  Anwendungsbereiche (zulaessige WE je Zugangsart) bis zu dem im Anhang angegebenen Wert **erhoeht**
+  werden (§ 4 Abs. 2 ZN; kumulativ). Die Gemeinden duerfen diese Fragen frei pruefen (VB.2007.00393;
+  VB.2001.00326). Massstab fuer die «gute OEV-Erschliessung» ist die kantonale **Wegleitung 1997**
+  (VB.2009.00507, E. 4.3; BEZ 2008 Nr. 19; BEZ 2002 Nr. 5, S. 728 f.).
+
+**12.3.3.5 Fussgaengerschutz (S. 730 f.)**
+- Zur Erschliessung gehoert auch die **Erreichbarkeit fuer Fussgaenger**: je nach Bedeutung der Strasse
+  ein **Bankett, verbreitertes Bankett oder ein Trottoir** (Anhang ZN). Banketten **≥ 30 cm**
+  Schutzstreifen, Trottoirs **≥ 1 m** (VB.2010.00184); ein fehlendes Trottoir kann unter Umstaenden
+  auch mit einer **Begegnungszone** ersetzt werden (VB.2014.00510, E. 6, S. 730).
+- **Bankette:** Bei **Einfamilienhaeusern** und entsprechendem Fussgaengerschutz braucht es keine
+  Bankette (BEZ 2010 Nr. 4); auf dem Zufahrtsweg darf darauf verzichtet werden, wenn der Schutz der
+  Fussgaenger anderweitig gewaehrleistet ist oder es sich um eine uebersichtliche Zufahrt handelt
+  (VB.2013.00291, E. 5.4; VB.2008.00163, E. 2.6, S. 731).
+
+**12.3.3.6 Sonderfaelle (S. 731)**
+- **Festlegung der Anforderungen im Einzelfall** (§ 5 Abs. 3 ZN): besondere Anforderungen, wenn der
+  zulaessige Anwendungsbereich eines Zugangs ueberschritten wird (§ 7 ZN) oder bei Auswechslungen
+  (§ 9 ZN); Hilfsmittel z.B. Parkierungsmoeglichkeiten/Fahrverbote (BEZ 2003 Nr. 38).
+- **Verkehrsberuhigungsmassnahmen** (§ 12 Abs. 1 ZN): die Festlegungen ueber die Trennung von
+  Fussgaenger- und Fahrzeugverkehr sind ausdruecklich vorbehalten (§ 12 Abs. 2 ZN); zu zurueck-
+  haltender Fahrweise zwingen (z.B. **Tempo-30-Zone**), sofern die Signalisation gerechtfertigt ist
+  (VB.2005.00048, S. 731).
+
+**12.3.3.7 Erleichterungen (§ 11 ZN / § 360 Abs. 3 PBG, S. 732-735)**
+- **Besondere Verhaeltnisse nach den Normalien:** geringere Anforderungen, insbesondere bei (§ 11 ZN):
+  **steilen Hanglagen; Objekten des Natur- und Heimatschutzes; landwirtschaftlichen Heimwesen;
+  gemeinschaftlichen Parkierungsloesungen; separat gefuehrter Rad-/Fussweg-Erschliessung; Siedlungs-
+  entwicklung nach innen in bereits ueberwiegend ueberbautem Siedlungsgebiet; Fussgaenger-/Begegnungs-
+  zonen sowie Tempo-30-Zonen**. Aufzaehlung **nicht abschliessend** (§ 11 ZN; VB.2010.00539, E. 6.7;
+  BEZ 2004 Nr. 64, S. 732).
+- **Wichtige Gruende nach § 360 Abs. 3 PBG:** «wichtige Gruende» koennen ein Abweichen von den
+  Normalien erlauben (§ 11 Abs. 1 ZN); zu beurteilen am Massstab des § 237 PBG (Zufahrt fuer jedermann
+  verkehrssicher, Strassenausbaustandard Zubringer-/Durchgangsverkehr, Uebersichtlichkeit der
+  Streckenfuehrung; VB.2015.00010, E. 2.3, S. 732 f.).
+- **Zur letzten Bauluecke insbesondere:** aus Gruenden der **Rechtsgleichheit und Verhaeltnis-
+  maessigkeit** kann von den Normalien abgewichen werden, wenn es sich um die letzte Bauluecke an der
+  betreffenden Strasse handelt und das Baugrundstueck sonst von der Ueberbauung verwehrt waere
+  (VB.2005.00261; BEZ 2001 Nr. 3; BEZ 1985 Nr. 5; RB 1983 Nr. 97, S. 733). **Ausschluss weiterer
+  Erleichterungen:** soweit die Voraussetzungen schon gegeben sind, gibt es fuer Neubauten mit
+  vorausgehendem Gebaeudeabbruch keine weitere Erleichterung (Art. 22 Abs. 2 lit. b RPG;
+  VB.2005.00379, S. 733).
+
+**12.3.3.8 Besonderheiten im Quartierplan (S. 734)**
+- Wo entsprechende Plaene bestehen (z.B. Quartierplan, Gestaltungsplan), ist der baurechtliche
+  Entscheid an die Art, die Ausgestaltung und das Leistungsvermoegen der dort verbindlich
+  beschlossenen Anlagen gebunden (S. 734).
+
+**12.3.3.9 Anforderungen des Umweltschutzrechts (S. 735)**
+- Damit ein Gebiet i.S.v. **Art. 24 Abs. 2 USG bzw. Art. 30 LSV** als erschlossen gilt, benoetigt es
+  grundsaetzlich eine **voll erstellte Erschliessung**, bei der im Wesentlichen nur noch die
+  **Hausanschluesse** zu erstellen sind (VB.2010.00358; BGE 123 II 337; BGE 117 Ib 308). Fuer Gebaeude
+  mit **laermempfindlichen Raeumen** (Art. 24 Abs. 2 USG i.V.m. Art. 30 LSV) gilt zusaetzlich, dass die
+  Erschliessung nur soweit als vollstaendig gilt, als die **Planungswerte** eingehalten oder durch eine
+  Aenderung der Nutzungsart eingehalten werden koennen; fuer kleine Teile von Bauzonen kann die
+  Vollzugsbehoerde Ausnahmen gestatten (§ 128 Abs. 2 PBG, S. 735).
+
+**12.3.4 Besondere Anforderungen fuer groessere Ueberbauungen (S. 735-737)**
+- **12.3.4.1 Gleisanschluesse (§ 237 Abs. 1 PBG, S. 735):** Bei Bauten/Anlagen mit grossem
+  Gueterverkehr sind **Gleisanschluesse** zu verlangen, soweit technisch moeglich und wirtschaftlich
+  zumutbar; das Gueterverkehrsgesetz (GueTG) regelt die Beziehungen Bahn–Anschliesser (WOLF/KULL N 83).
+- **12.3.4.2 Strassenverkehr (S. 736):** **Trennung Fahrzeug-/Fussgaengerverkehr** (§ 237 Abs. 3 PBG)
+  wo das Beduerfnis besteht und wirtschaftlich zumutbar (VB.2005.00370); **unterirdische Anordnung/
+  Ueberdeckung von Fahrspuren** verlangbar bei ueberwiegendem oeffentlichem Interesse (§ 237 Abs. 3
+  PBG); **gesetzlicher Zugang zu Einkaufszentren** (mind. **2000 m² Verkaufsflaeche**): in Wohnzonen
+  nur ueber mindestens als Sammelstrasse ausgefuehrte Strassen (§ 237 PBG / § 12 Abs. 1 BBV II);
+  **Betriebe mit Schwertransporten** beduerfen auf Begehren einer vorausgehenden Bestimmung der
+  Baudirektion (§ 227 PBG; Verfahren § 21 BVV, S. 409); Festlegungen im Einzelfall (§ 10 ZN).
+- **12.3.4.3 Baustellenverkehr** (Querverweis S. 533, S. 737).
+
+**12.3.5 Erreichbarkeit mit dem oeffentlichen Verkehr (§ 237 Abs. 1 Satz 2 PBG, S. 737-741)**
+- **Rechtliche Ausgangslage (S. 737):** Die **Erreichbarkeit mit dem oeffentlichen Verkehr** zaehlt
+  nach BGer **nicht** zu den Erschliessungselementen i.S.v. § 237 PBG — sie ist **kein Bestandteil der
+  (Mindest-)Erschliessung** und begruendet keinen Erschliessungsanspruch (URP 2000, S. 823; § 237
+  Abs. 1 PBG; Art. 3 Abs. 3 lit. a RPG). Den Kantonen ist es aber erlaubt, **weitergehende** Massnahmen
+  zur OEV-Erschliessung vorzusehen (Art. 11 + Art. 14 USG; URP 2002, S. 795 f.).
+- **Zwingender Charakter von § 237 Abs. 1 Satz 2 PBG (S. 737 f.):** Die Bestimmung gibt der
+  Bauherrschaft zwar **kein Recht** auf eine Alternative zum privaten Motorfahrzeug; § 237 Abs. 1 PBG
+  ist aber eine **Grundanforderung** und laesst Abweichungen nur unter den strengen Voraussetzungen von
+  § 220 PBG zu. **Kein Erschliessungsanspruch:** der Anschluss an den OEV ist nicht Bestandteil der
+  Erschliessung (URP 2002, S. 795; Praxiskommentar RPG Art. 19 N 40, S. 738).
+- **Zum Begriff der «groesseren Ueberbauung» (S. 739):** zusammenhaengend ueberbaute Siedlungsgebiete
+  mit **mindestens 300 Bewohnern, Arbeits- und Ausbildungsplaetzen** werden mit mindestens **einer
+  Haltestelle** erschlossen (§ 4 Abs. 1 AngebotsV; VB.2016.00605, E. 8.3; BEZ 2015 Nr. 56; BEZ 2005
+  Nr. 18, S. 739).
+- **Erreichbarkeit / Grundsaetze (S. 740 f.):** § 237 Abs. 1 Satz 2 PBG ist eine **kantonale
+  Vorschrift**, im ganzen Kanton einheitlich auszulegen; Massstab ist die **Wegleitung 1997**
+  (VB.2007.00136). Die **Angebotsverordnung (AngebotsV)** unterscheidet drei **Angebotsbereiche**
+  (1 Grundversorgung, 2 mit Ziel Marktstellung OEV, 3 grosse/dichte Siedlungsgebiete). **Bedienungs-
+  qualitaet der Haltestelle:** bestimmt durch Betriebszeiten, Frequenzen/Kurse und Kapazitaet der
+  Verkehrsmittel (§ 18 PVG, S. 741).
+
 ## Formeln & Schwellenwerte (woertlich aus dem Buch belegt)
 
 - **Erreichbarkeit Regelfall:** abgewickelte (nicht befahrbare) Weglaenge **bis 80 m** Ende
@@ -208,6 +341,30 @@ Minimalloesung (3 m breit, 16 t tragfaehig).
 - **Notzufahrt:** **≥ 3 m breit**, Tragfaehigkeit **≥ 16 t** (§ 3 ZN + Anhang, S. 723).
 - **Planungszone § 346 PBG:** **laengstens 3 Jahre**, **+ 2 Jahre** verlaengerbar (§ 346 Abs. 2,
   S. 711).
+
+**Anhang ZN — Technische Anforderungen an Zugaenge (Tabelle S. 726).** Spalten: Anwendungsbereich
+(zulaessige **WE**, in Klammern * = in dichter, OEV-gut erschlossener Bebauung) / **R** min.
+(Radius in der Achse, m) / **LH** min. (lichte Hoehe, m) / **Breite** (m):
+
+| Zugangsart | Anwendungsbereich WE | R min. | LH min. | Breite |
+|---|---|---|---|---|
+| Zufahrtsweg | bis 10 (30*) | 5,00 (10,00*) | 3,00 | 3,00-3,50 |
+| Zufahrtsstrasse | bis 30 (60*) | 10,00 | 4,50 | 4,00-4,75 |
+| Zufahrtsstrasse | bis 150 (300*) | 10,00 | 4,50 | 4,50-5,00 |
+| Erschliessungsstrasse | bis 300 (600*) | 15,00 | 4,50 | 4,50-5,50 |
+| nutzungsorient. Sammelstrasse | bis 600 (1000*) | 20,00 | 4,50 | 5,00-6,00 |
+| verkehrsorient. Sammelstrasse | — | — | — | groesser als 5,50 |
+| Fussweg (ergaenzend) | — | — | 2,50 | 2,00-2,50 |
+| Radweg (ergaenzend) | — | 10,00 | 2,50 | 2,50 |
+| Rad- und Gehweg (ergaenzend) | — | 10,00 | 2,50 | 3,00-4,00 |
+
+- **Bankett / Trottoir (Fussgaengerschutz):** Bankett-Schutzstreifen **≥ 30 cm**, Trottoir **≥ 1 m**
+  (VB.2010.00184, S. 730).
+- **Gesetzlicher Zugang zu Einkaufszentren:** ab **2000 m² Verkaufsflaeche** in Wohnzonen nur ueber
+  mindestens als Sammelstrasse ausgefuehrte Strassen (§ 12 Abs. 1 BBV II, S. 736).
+- **«Groessere Ueberbauung» (OEV-Pflicht):** zusammenhaengend ueberbaute Siedlungsgebiete mit
+  **mind. 300 Bewohnern/Arbeits-/Ausbildungsplaetzen** → mindestens eine Haltestelle (§ 4 Abs. 1
+  AngebotsV, S. 739).
 
 ## Praxis / Fallrecht (aus dem Buch)
 
@@ -220,6 +377,22 @@ Minimalloesung (3 m breit, 16 t tragfaehig).
   (VB.2014.00195; BEZ 2014 Nr. 44); Masterplan nur parzellenscharf (BGer 1C_317/2008).
 - **Erschliessung + Umweltrecht (Laerm):** BGer 1C_433/2017; Art. 14 Abs. 2 USG; Art. 30 LSV.
 - **Notzufahrt:** VB.2011.00031; VB.2017.00232; Schulhausareal als Notzufahrt VB.2005.00464.
+- **Massgebliche Wohnungszahl (Zugangsart):** das baulich moeglich Ausgenutzte zaehlt, nicht die
+  aktuell beabsichtigte Belegung (VB.2002.00273, E. 2c).
+- **Kehrplatz:** Bemessung nach VSS-Norm SN 640 052; Sicherung auf Privatgrund noetig bei
+  Gemeinde-Eigentum (VB.2010.00107, E. 7.4; VB.2009.00659); Stich-/oberer Anwendungsbereich
+  VB.2016.00566.
+- **Fussgaengerschutz:** Trottoir-Ersatz durch Begegnungszone moeglich (VB.2014.00510); kein Bankett
+  bei EFH (BEZ 2010 Nr. 4); Verzicht bei anderweitigem Schutz/uebersichtlicher Zufahrt (VB.2013.00291,
+  E. 5.4; VB.2008.00163).
+- **Erleichterungen / letzte Bauluecke:** Abweichen aus Rechtsgleichheit/Verhaeltnismaessigkeit
+  (VB.2005.00261; BEZ 2001 Nr. 3; BEZ 1985 Nr. 5; RB 1983 Nr. 97); «wichtige Gruende» § 360 Abs. 3 PBG
+  am Massstab § 237 PBG (VB.2015.00010, E. 2.3); kein Bonus fuer Abbruch+Neubau (VB.2005.00379).
+- **OEV-Erschliessung kein Anspruch:** Anschluss an OEV nicht Bestandteil der Erschliessung
+  (URP 2000, S. 823; URP 2002, S. 795); «groessere Ueberbauung» ab 300 Bew./Arb./Ausb.-Plaetzen
+  (VB.2016.00605, E. 8.3; BEZ 2015 Nr. 56; BEZ 2005 Nr. 18); Massstab Wegleitung 1997 (VB.2007.00136).
+- **Umweltschutzrechtliche Erschliessung:** voll erstellt, nur Hausanschluesse offen (VB.2010.00358;
+  BGE 123 II 337; BGE 117 Ib 308); laermempfindliche Raeume → Planungswerte (§ 128 Abs. 2 PBG).
 
 ## Anwendungs-Transfer JANS
 
@@ -241,7 +414,17 @@ Minimalloesung (3 m breit, 16 t tragfaehig).
 - **Achtung Verordnungsstand:** Das Buch (Stand 2019) nennt ZN/VSiV/StrAV und die geplante
   **Erschliessungsverordnung (EV)**. Vor harter Bezifferung (z. B. Zugangskategorien/Schwellenwerte)
   den **aktuellen Verordnungsstand** des Kantons ZH pruefen — die EV sollte ZN/VSiV/StrAV abloesen
-  und die Schwellenwerte anheben. **needs-verification.**
+  und die Schwellenwerte anheben. **needs-verification.** Die Anhang-ZN-Tabelle (S. 726) ist die
+  praktische Dimensionierungs-Grundlage fuer JANS-Vorprojekte: aus der WE-Zahl (bzw. umgerechneter
+  Nutzung) ergibt sich die noetige **Zugangsart** und damit Fahrbahnbreite / Kurvenradius / lichte
+  Hoehe — vor der EV-Ablosung aber stets gegen den geltenden Erlass spiegeln.
+- **Wohnungszahl = baulich Moegliches, nicht die geplante Belegung:** bei JANS-Studien immer das
+  voll ausgeschoepfte Nutzungspotenzial fuer die Zugangsart-Bemessung ansetzen (VB.2002.00273) —
+  sonst droht eine Unterdimensionierung, die bei spaeterer Vollnutzung die Erschliessung sprengt.
+- **OEV-Erschliessung ist Pflicht, aber kein Bonus:** bei groesseren Ueberbauungen (ab 300 Bew./
+  Arb./Ausb.) verlangt § 237 Abs. 1 Satz 2 PBG die OEV-Anbindung (Haltestelle, AngebotsV); der
+  Bauherr hat aber **keinen Anspruch** auf eine OEV-Alternative — fuer die wirtschaftliche Bewertung
+  einer dichten JANS-Ueberbauung relevant (Stellplatzbedarf ↔ OEV-Guete).
 
 ## Offene Punkte / zu verifizieren
 
@@ -252,8 +435,13 @@ Minimalloesung (3 m breit, 16 t tragfaehig).
 - **needs-verification — Stand Erschliessungsverordnung (EV) ZH:** Hat die EV ZN/VSiV/StrAV
   inzwischen abgeloest? Aktuelle Schwellenwerte der Zugangskategorien am amtlichen Erlass pruefen
   (Buch-Stand 2019: Entwurf, definitiv Q1/2019 erwartet, S. 749 angekuendigt).
-- **Restschuld Kap. 12 (ab S. 724, Shots ab 364):** Zugaenglichkeit-Detail (Zugangskategorien/ZN-
-  Masszahlen, Wendeflaechen, Steigungen), **Wasser- und Energieversorgung** (§ 236 PBG), **Beseitigung
-  von Abwaessern/Abfallstoffen/Altlasten**, sowie der angekuendigte Abschnitt zur EV (S. 749).
+- **needs-verification — §§/Erlasse Teil 2:** § 227 PBG (Schwertransporte), § 12 BBV II (Zugang
+  Einkaufszentren / Verkehrsberuhigung), § 18 PVG, AngebotsV (§§ 2/4), ZN §§ 4/5/6/7/9/10/11/12,
+  § 360 Abs. 3 PBG — sinngemaess nach Buch S. 724-741 erfasst, am amtlichen Volltext gegenpruefen
+  (Modell D); Tabellenwerte Anhang ZN (S. 726) gegen den heute geltenden Erlass spiegeln.
+- **Restschuld Kap. 12 (ab S. 742, Shots ab 373):** **Wasser- und Energieversorgung** (§ 236 PBG),
+  **Beseitigung von Abwaessern/Abfallstoffen/Altlasten**, sowie der angekuendigte Abschnitt zur EV
+  (S. 749). Bis Kapitelende vor Kap. 13 (S. 809). [Teil 2 — Zugaenglichkeit-Detail / Zugangsarten /
+  Anhang-ZN-Tabelle / OEV — am 2026-06-28, Run 15, distilliert.]
 - **Bezug § 235 PBG / Dauer:** Fristmechanik der Bausperre nur kursorisch erfasst (S. 718) — bei
   Bedarf am Volltext praezisieren.

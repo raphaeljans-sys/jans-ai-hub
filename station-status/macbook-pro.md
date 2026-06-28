@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.06.2026 07:25:18
+Stand: 28.06.2026 07:35:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:14)
@@ -12,4 +12,4 @@ Stand: 28.06.2026 07:25:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3bad642 sync: twin-mail-training: 2025-11-07 bis 2025-11-14 (Batch 19)
+- 5d7e07f nas-selfcommit: 2 Datei(en) 2026-06-28 07:30
