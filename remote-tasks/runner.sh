@@ -22,6 +22,18 @@ LOGFILE="$REPO_DIR/remote-tasks/runner.log"
 
 log() { echo "$(date '+%F %T') $*" >> "$LOGFILE"; }
 
+# --- Ausfuehrungs-Station begrenzen -----------------------------------------
+# Remote-Tasks werden NUR auf der Always-On-Station (Mac Mini) ausgefuehrt.
+# Der Lock unten wirkt nur pro Maschine und verhindert KEINEN Doppellauf ueber
+# mehrere Stationen. Andere Stationen (MacBook, NAS) sind reine Auftraggeber
+# und ueberspringen die Ausfuehrung still.
+EXEC_STATION="Macmini"
+THIS_STATION="$(scutil --get ComputerName 2>/dev/null || hostname -s)"
+if [ "$THIS_STATION" != "$EXEC_STATION" ]; then
+    log "Station '$THIS_STATION' != Ausfuehrungs-Station '$EXEC_STATION' — uebersprungen"
+    exit 0
+fi
+
 # Lock gegen Ueberlappung
 LOCK="/tmp/jans-remote-task-runner.lock"
 if ! mkdir "$LOCK" 2>/dev/null; then
