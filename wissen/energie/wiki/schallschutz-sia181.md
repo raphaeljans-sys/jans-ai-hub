@@ -1,9 +1,9 @@
 ---
 title: Schallschutz im Hochbau — SIA 181:2020 (Anforderungswerte)
 status: established
-last_updated: 2026-06-24
-sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]]
+last_updated: 2026-06-28
+sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]]
 ---
 
 # Schallschutz im Hochbau — SIA 181:2020
@@ -38,13 +38,29 @@ Trittschall vom Nachbarn) muss der Bauherr die erhoehten Anforderungen dagegen *
 vereinbaren** (Werkvertrag/Kaufvertrag) — sonst schuldet der Unternehmer nur das Minimum.
 → Schnittstelle Skill `werkvertrag` (Vertragsklausel) / `ausschreibung` (LV-Vorgabe).
 
-## Bauwert ≠ Laborwert
+## Bauwert ≠ Laborwert — die Flanken-Mechanik
 SIA 181 fordert **D_nT,w / L'_nT,w am fertigen Bau, inkl. Flankenuebertragung** (volumen-/spektral-
 korrigiert), nicht den Labor-Einzahlwert des Bauteils. Faustregel: das Labor-R_w/L'_n,w muss **mit
 Reserve** ueber der Anforderung liegen.
+
+**Der Strich macht den Unterschied:** **R_w** (ohne Strich) = reine Bauteilkenngroesse im Labor
+**ohne** Nebenwege; **R'_w** (mit Strich) = Bauwert **mit** den bauueblichen Flanken (analog Trittschall
+L_n,w → L'_n,w). SIA 181 verlangt seit der Ausgabe 2006 (direkter Bezug zur **EN 12354**), dass neben
+dem Trennbauteil die **~12 Nebenwege** ueber die flankierenden Bauteile in die Prognose einbezogen
+werden. Zwei Zuschlaege:
+- **K_P** (Projektierungszuschlag) deckt Streuungen ab;
+- **K_F** (Flankenuebertragung) wird **zusaetzlich** angesetzt — via Prognose nach EN 12354 oder via
+  Abschaetzung aus dem Vergleich Labor↔Bau.
+
+Zudem zaehlt erst die **Summe aus R_w und dem Spektrum-Anpassungswert** (C fuer Autobahnlaerm, C_tr
+fuer staedtischen Strassenverkehr mit lauten tiefen Anteilen) — `Rw(C;C_tr) = 53(-1;-5) dB`.
+
 - **Massivbau:** Flankenabzug moderat (~1–3 dB).
-- **Holzbau/CLT:** durchlaufende Scheiben/Stoesse → **3–8 dB** Flankenverlust; Bauteilstoesse elastisch
-  entkoppeln, Labor-Reserve einplanen → `[[clt-schallschutz-stora-enso]]`, `[[holzbau-bauphysik-clt]]` / F17.
+- **Holzbau/CLT:** durchlaufende Scheiben/Stoesse → **3–8 dB** Flankenverlust; im Holzbau sind die
+  **Flankenkennwerte oft gar nicht verfuegbar** → Prognose nach EN 12354 + Reserve, Bauteilstoesse
+  **elastisch entkoppeln** (sonst macht die Flanke die gute Trennwand zunichte) →
+  `[[lignum-schallschutz-holzbau-flankenuebertragung]]`, `[[clt-schallschutz-stora-enso]]`,
+  `[[holzbau-bauphysik-clt]]` / F17.
 
 ## Wo der Schallschutz im JANS-Workflow auftaucht
 - **Entwurf:** Grundriss-Stapelung (Schlafraum nicht ueber Technikraum/Lift), WP-Standort.
