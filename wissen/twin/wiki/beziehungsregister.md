@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-26
+last_updated: 2026-06-28
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -407,6 +407,25 @@ wachsenden Vertrautheit»; 😊 erlaubt im warm-sozialen Du (→ [[stimme]]).
   (operative Standard-Rückfrage swisstopo, 10:32 → «Lgr»), «**Lieber Christoph**» (warm-liefernder
   Aufteilungsplan-Vorschlag, 11:52 → «Bester Gruss»). Eine Person, ein Tag, drei Stufen je nach
   Gewicht der Einzelmail. Bestätigt: die Anrede variiert mit dem Anlass, nicht der Person.
+
+## Neue Mappings + Behörden-Antwort startet «Guten Tag» trotz «Sehr geehrter» (belegt Mailbatch 19, authentisch)
+- **Linus Cavegn (lcavegn@bluewin.ch, Architekt/Planer-Peer, Material-/Belagsfragen):** vertrautes
+  Peer-Du «**Hoi Linus**» / Schluss «Raphael» (Wunschformel statt Gruss), reziprok «**Hoi Raphi / Lieber
+  Gruss Linus**». Kollegialer Material-Wissensaustausch auf Augenhöhe (Naturstein/Holzbelag-Specs),
+  kein Auftragsgefälle — reiht sich zu den Architektenkollegen-Peers (Geser, Sämi, Fabio Don).
+- **Esther Haecki (esther.haecki@gmail.com, Produkt-/Referenz-Koordination Projekt 2414 Thalwil,
+  Umfeld Bauherrschaft Angerer/Tschopp):** warm-Du «**Liebe Esther**» / «**lieber Gruss**», Du klein
+  (Spiegelung). Bauherrschaftsnaher Du-Kontakt für Bemusterung/Referenzen.
+- **Christian Hinder (contactcenter@hawa.com, Hersteller-Support Möbelbeschläge):** Sie, «**Sehr
+  geehrter Herr Hinder**» (namentliche Antwort) — der bekannte Lieferanten-Sie. Reiht sich neben Gregori
+  (Erstkontakt) ins Hersteller-/Lieferanten-Sie.
+- **Behörden-Antwort startet «Guten Tag», obwohl der Kreisarchitekt mit «Sehr geehrter Herr Jans»
+  schreibt:** an Domenico Desumma (Kreisarchitekt AfB Stadt ZH) antwortet Raphael mit dem neutralen
+  «**Guten Tag**» (ohne Namen) + Sie + «Freundliche Grüsse / Raphael Jans» (Kurz-Signatur, 2025-11-07).
+  Bestätigt das Behörden-/Amts-Sie, zeigt aber: Raphael spiegelt nicht zwingend das «Sehr geehrte» des
+  Amts zurück, sondern wählt das neutralere «Guten Tag» (vgl. Service-/Datenstellen-Erstgruss).
+- **Genus-Slip im warmen Eil-Du an Männer:** «Danke liebe Linus» / «Hoi liebe Peter» (→ [[stimme]]) —
+  das «liebe» rutscht auf männliche Vornamen (Flüchtigkeit, kein Register-Signal).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

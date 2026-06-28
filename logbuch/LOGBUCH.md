@@ -5,6 +5,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-28
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 05.07.)
+  und Mail-Eingang (seit 27.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **73 Tage ueberfaellig**, Mahnstufe 1) — naechste Frist **28.06. = HEUTE erreicht**,
+  die Eskalation auf Stufe 2 (Mahnung 1) ist damit faellig (vor dem Versand mit dem RE-00088-Konflikt
+  abgleichen). RE-00097 (Hofer, CHF 500, faellig 16.06., **12 Tage ueberfaellig**, Mahnstufe 1) —
+  naechste Frist **30.06.** = in 2 Tagen. Kein Zahlungseingang seit dem letzten Lauf.
+- **AG-Gruendung (unveraendert hoch):** HRA-Voranfrage «JANS AG» (Geschaeft 043830-2026) liegt bei
+  der zustaendigen Abteilung — kein Bescheid eingegangen. Namensentscheid + UBS-Unterschrift bleiben
+  blockiert, bis der HRA-Bescheid vorliegt. Beide Zeilen bleiben offen/nachfassen.
+- **Mail-Eingang (seit 27.06., kein neues Frist-Item):** SharePoint-Ablaufwarnung 28.06. (J. Simmen u.a.
+  verlieren Zugriff am 10.07. — bereits im Register); H. Paltanovich (27.06.) bestaetigt, das
+  WP-Migrate-Plugin auf raphaeljans.ch koenne deaktiviert/geloescht werden (Info, keine JANS-Frist).
+- **Kalender naechste 7 Tage (Outlook):** nur 01.07. — generisches «Neues Ereignis» 09:00–10:00 und
+  privat «Fuehrung, Food & Faenen» FIFA-Museum 15:45–21:00. Beide bereits im Register.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (Eskalation **heute** 28.06. faellig), RE-00097 (30.06.),
+  AG-Gruendung (UBS-Unterschrift + Namensentscheid, HRA-Bescheid abwarten), KISPI LOS274.01
+  (definitive Offerte verlangen), Termine 01.07. Dauerhaft offen: SharePoint-Speicher,
+  bexio-Doppelimport, EPROID B26-00705.01 (ab 02.07.), dwg Ramminger, Unterlagen Scherbl,
+  Status/Beton Tschopp, Freischaltung Merci, Rueckmeldung Chaled, Jomos-Status, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-27
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 04.07.)

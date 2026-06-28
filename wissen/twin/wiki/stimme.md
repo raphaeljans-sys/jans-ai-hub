@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-06-28
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -553,6 +553,33 @@ Block. Reichweite (jeder Auftrag vs. nur Erstauftrag) → [[QUESTIONS]]. **Feinh
 dokumentiert):** der **reine Doku-Transmittal** an den eingespielten Partner («Wie besprochen
 Bauentscheid/Terminplan … Freundliche Grüsse», ohne Service-Satz) verzichtet auf die Service-Floskel
 — die **abnahme-/zahlungsrelevante** Liefermail behält sie.
+
+## Salopper Superlativ + Wunschformel + Verständnis-Rückversicherung im Du (belegt Mailbatch 19, authentisch)
+- **Saloppes Lob/Superlativ im Peer-Du:** «… angeben könntes **wäre das Hammer**» (an befreundeten
+  Architekt/Planer-Peer, 2025-11-07) — umgangssprachlich-warme Verstärkung im engsten Du, neben
+  «cool»/«super». Nur im vertrauten Du, nie in Geschäft/Sie/Fachmail.
+- **«Gel» erneut als Schweizer Vergewisserungspartikel im Eil-Du:** «**Gel**, der Stein und Holzbelag
+  ist sehr schön geworden bei Deinem Projekt» (2025-11-07) — bestätigt Batch 16 (mündlicher CH-Marker).
+- **Wunschformel auch im Du:** «**Dir ein wunderbares Wochenende.**» (Peer-Du, 2025-11-07) — die schon
+  im Sie belegte Wunschzeile («schönen Nachmittag») existiert auch knapp im Du, ohne separaten Gruss.
+- **«Habe ich das richtig interpretiert:» als Verständnis-Rückversicherungs-Opener** vor einer
+  strukturierten Klärungsliste (an Hersteller-Support, 2025-11-13) — leitet das Gegenchecken eigener
+  Annahmen ein (→ [[arbeitsweise]], [[fachsignatur]]).
+- **Dank-im-Voraus im «wir»:** «**Für Ihre Produkteempfehlung sind wir Ihnen dankbar.**» (kommerzielle
+  Kurzanfrage an Hersteller-Sammelpostfach, 2025-11-12) — Variante von «danke im Voraus», bestätigt die
+  knappe kommerzielle Sachanfrage (Fidelity 260626): «Guten Tag» ohne Namen, EIN Satz Anliegen, «wir»,
+  «Freundliche Grüsse» + Block, ohne Behörden-Bitt-/Begründungsschicht.
+- **Genus-Slip in der gestapelten/warmen Anrede an MÄNNER:** «**Danke liebe Linus!**» (an den männlichen
+  Peer Linus, 2025-11-09) und «**Hoi liebe Peter**» (an Peter Weisser, 2025-11-10) — das warme «liebe»
+  rutscht im Eil-Du auf männliche Vornamen (Flüchtigkeit/Tippgeschwindigkeit, TON nicht Vorbild;
+  `korrektur` setzt «lieber»). Begleitet von Mundart-Eil «**söt so passe**» (sollte so passen, 2025-11-10).
+- Mikro-Metrik Batch 19 (345 W, Peer-Du + Behörden-/Lieferanten-Sie + STWEG-Liefer-Du gemischt):
+  **Du-Gross-Quote 0.364** (neuer Spiegelungs-Tiefstwert — «dir/dich/du» klein in den warm-reziproken
+  Du-Mails an Esther/Linus, vgl. Batch 12 0.286/Batch 10 0.429); Satzlänge ø **21.6 W** (deskriptiv-
+  fachlich); keine Apostroph-Zahlen/Ellipsen (registerbedingt); Anreden «Hoi Linus/Stefan», «Geschätzter
+  Christoph», «Liebe Esther», «Sehr geehrter Herr»; Grüsse «Freundliche Grüsse» 2× (Behörde/Lieferant) +
+  «Bester Gruss»/«lieber Gruss» (Du-Liefer). Bestätigt: warm-reziprokes Du senkt die Du-Gross-Quote,
+  Ideal-Raphael bleibt Du gross (`korrektur`).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

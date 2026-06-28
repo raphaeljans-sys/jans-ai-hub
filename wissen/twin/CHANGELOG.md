@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-28 — twin-mail-training (täglich), Batch 19 (Sent rj@ 2025-11-07…11-14)
+- 15 Mails gesichtet, 6 Volltexte destilliert (alle authentisch, klar vor-Claude; kein AI-Paste-Signal —
+  Esther-Mail in Aptos, kohärente RJ-Stimme, das eine generische «Ich hoffe es geht dir gut» nicht als
+  Stilmarker gewertet). Mikro-Metrik 345 W: Du-Gross-Quote **0.364** (neuer Spiegelungs-Tiefstwert im
+  warm-reziproken Du), Satzlänge ø 21.6 W, keine Apostroph-Zahlen/Ellipsen (registerbedingt).
+- [[stimme]]: «wäre das Hammer» (saloppes Peer-Du-Lob), «Gel» bestätigt, Wunschformel auch im Du («Dir
+  ein wunderbares Wochenende»), «Habe ich das richtig interpretiert:»-Verifikations-Opener, «Für Ihre …
+  sind wir Ihnen dankbar»-Variante, Genus-Slip «liebe» an Männer (Linus/Peter) + Mundart «söt so passe».
+- [[beziehungsregister]]: NEU Mappings Linus Cavegn (Architekt/Material-Peer, «Hoi Linus» ↔ «Hoi Raphi»),
+  Esther Haecki (Bemusterung Thalwil 2414, «Liebe Esther»), Christian Hinder (Hawa-Lieferant, Sie); Behörden-
+  Antwort startet «Guten Tag» trotz «Sehr geehrter Herr Jans» des Kreisarchitekten.
+- [[fachsignatur]]: Möbelbeschlag-Klärung «Zwingende/Freie Masse» (Hawa-Konfigurator zurückstrukturiert),
+  Umgebungs-Höhenkoten gegen EG-Bezugskote ±10.00 + Masstoleranz, Materialpräzision (Belgischer Blaustein
+  geledert/Ipé, Gartenmauer mit Stelen).
+- [[arbeitsweise]]: Liefermail mit expliziter 8-Punkte-Änderungs-/Revisionsliste (STWEG-Teilungsplan Bopp),
+  Annahmen beim Zulieferer gegenchecken, sauberer/dokumentierter Projektausstieg.
+- [[haltung]]: vollständiger, mit dem Amt abgesprochener Projektausstieg = Daten-/Verantwortungs-Hygiene
+  (kein schwebender Rest, keine Datenspur).
+- _INGESTED bis 2025-11-14; nächster Lauf ab 2025-11-15.
+
 ## 2026-06-28 — twin-fidelity-review (alle 2 Tage)
 - 3 frische authentische Goldproben (Sent rj@, Nov–Dez 2025, handgetippt, keine AI-Paste): formell-Sie
   Behörden-Vorabklärung (Doppelquellen, Thalwil/Steiger) · operativ-Du Rechnungs-Begleitmail → FG+Block

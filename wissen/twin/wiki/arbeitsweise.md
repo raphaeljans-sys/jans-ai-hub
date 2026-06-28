@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -380,6 +380,24 @@ telefonieren, **um inhaltlich folgende Punkte zu besprechen:** _ Zuordnung Ausse
 Zuordnung … UG / _ Generelle Aufteilung Kellerräume / _ Generelle Aufteilung Estrichräume / _ SIA
 416 Flächenschemas pro Wohnung» (Bopp, 24.10.2025). Gleiche «erst Struktur, dann Gespräch»-Logik,
 hier fürs Telefon — der Anruf kommt mit Traktandenliste, nie als offenes «lass uns reden».
+
+## Liefermail mit expliziter Änderungs-/Revisionsliste + Annahmen gegenchecken (belegt Mailbatch 19, authentisch)
+- **Plan-Liefermail listet jede vorgenommene Anpassung einzeln auf**, damit der Empfänger gezielt
+  prüfen kann: «Folgend sende ich dir den Link … gemäss unserer Besprechung: … / **Folgende Anpassungen
+  wurden vorgenommen:** [8 Bullets: Korrekte Nummerierung der Kellerräume · Innentüren in Farbe der
+  Wohnung schraffiert · Entfernung der Schraffur in den Steigzonen · … · Anpassungen in der Stockwerk-
+  eigentums- und Wertquotenberechnung] / Bei Änderungswünschen kannst du dich gerne bei mir melden.»
+  (STWEG-Teilungsplan an Bopp, 2025-11-11). Macht die Revision nachvollziehbar/abnahmefähig statt nur
+  «neue Version anbei» — verbindet «Besprochenes schriftlich fixieren» mit Änderungsverfolgung.
+- **Eigene Annahmen beim Zulieferer aktiv gegenchecken** statt blind übernehmen: zerlegt die Hersteller-
+  Konfiguratordaten in «Zwingende vs. Freie Masse» und lässt sie sich rückbestätigen («Habe ich das
+  richtig interpretiert:», → [[fachsignatur]], [[stimme]]) — derselbe Verifikations-Reflex wie beim
+  Gegenchecken der Zulieferer-Stunden (Batch 10/16).
+- **Sauberer Projektausstieg = Daten-/Verantwortungs-Hygiene:** klärt beim Amt aktiv den **vollständigen
+  Rückzug** aus einem Baugesuch nach Mandatsende — «Gerne würde ich mich … komplett digital und analog
+  aus diesem Fall zurückziehen sowie in allen Bereichen gelöscht werden, was mit diesem Baugesuch zu tun
+  hat. / Besten Dank für Ihre Info, wie ich das machen kann und an wen ich das melden kann.» (E-Baueingabe-
+  portal Stadt ZH, 2025-11-07). Lässt keine schwebende Verantwortung/Datenspur zurück (→ [[haltung]]).
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

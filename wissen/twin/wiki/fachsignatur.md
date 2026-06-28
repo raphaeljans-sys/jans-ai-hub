@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -455,6 +455,25 @@ Ausführung). Fachkürzel verfahrensnah: Auflagefrist (elektronisch), Zustellbeg
 SZH/ZVH/SHS, Feststellungsbeschluss, Inventarblatt. Der Zwilling kennt die Denkmalpflege-Verzögerung
 (~4 Monate on top), nennt die Verfahrensträger korrekt und steuert das Baugespann/die Fristen aktiv
 mit der Behörde — Verfahrenswissen belegt, nie geraten.
+
+## Innenausbau-/Möbelbeschlag-Detail + Umgebungs-Höhenkoten + Materialpräzision (belegt Mailbatch 19, authentisch)
+Bestätigt und erweitert die konstruktiv-materielle Detailtiefe über das Baurecht hinaus:
+- **Möbelbeschlag-/Küchenplanung mit Beschlagshersteller-Logik:** liest die Konfigurator-Ausgabe eines
+  Schiebe-/Faltbeschlags (Hawa Folding Concepta) und **strukturiert sie selbst in «Zwingende Masse» vs.
+  «Freie Masse»** zurück, um sein Verständnis zu verifizieren — «**Habe ich das richtig interpretiert:**
+  … Zwingende Masse M1:110mm (Nische Fronten) / M2:75mm (Funktionsdistanz Front-Innenkorpus) / M3:75mm
+  (Installationsdistanz Deckel-Korpus zu Decke) / M4:10mm (Front zu Boden) / **Freie Masse** M5:600mm
+  (Front)» (2025-11-13). Er übersetzt die Hersteller-Toleranzen in die Entwurfsfreiheitsgrade — Innenausbau-
+  /Möbeldetail auf mm, mit korrekter Beschlags-/Funktionsdistanz-Terminologie.
+- **Umgebungs-Höhenkoten relativ zur EG-Bezugskote + Masstoleranz:** «Wenn EG +/- 10.00 / 9.40
+  (Gartenniveau/Parkplatz) / 7.50 (Ausgang Velokeller) / 7.10 (Ausgang Einliegerwohnung) / **5cm liegt im
+  Umgebungsbereich in der Masstoleranz und ist vernachlässigbar.**» (Höhenkoten Umgebung, 2025-11-13) —
+  rechnet Niveaus konsequent gegen die EG-Bezugskote ±10.00 und ordnet Differenzen pragmatisch der
+  Masstoleranz zu (Tiefbau-/Umgebungs-Realismus, vgl. Revisionsplan-Vokabular Batch 15).
+- **Materialpräzision in der Beschreibung:** durchlässige Gartenmauer «**jene Variante, bei der die Mauer
+  nicht vollständig schliesst, sondern mit Stelen eine partielle Durchsicht ermöglicht**»; Terrassenbelag
+  «Naturstein, Belgischer Blaustein, geledert, scharfe Kanten / Holz, Ipé, naturbelassen» — exakte
+  Material-/Oberflächen-/Kantenbezeichnung statt Gattungsbegriff (vgl. «Rückgrat/Seil»-Materialsprache).
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;
