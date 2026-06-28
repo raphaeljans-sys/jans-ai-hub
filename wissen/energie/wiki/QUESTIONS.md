@@ -16,8 +16,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   EBF; Solarthermie CHF 2'400 + 1'000/kWth**; Destillat/F7 vollst. → Punkt geschlossen.
   **Pronovo-PV-Einmalverguetung (Bund) belegt ✓ 2026-06-27** (BFE-Faktenblatt EIV/gl. Marktpraemie/Boni
   + KLEIV ~360 CHF/kWp, Indach 400, Deckel 30 %, Boni Neigung≥75°/Winterstrom/Parkflaeche) →
-  `[[pv-einmalverguetung-bund-bfe]]`, F7 geschaerft. Offen nur noch: **Bundes-Gebaeudeprogramm**
-  (Heizung/Huelle) als eigene Quelle; aktuelle **2026er** EIV-CHF/kWp je Anlagengroesse (Pronovo-Tarifrechner).
+  `[[pv-einmalverguetung-bund-bfe]]`, F7 geschaerft. **Bundes-Gebaeudeprogramm/HFM 2015 belegt ✓ 2026-06-28**
+  (CO2-Gesetz Art. 34 → Globalbeitraege → kantonaler Vollzug nach HFM 2015, 18 Module M-01…M-18,
+  Rahmenbedingungen U≤0,20/Verbesserung ≥0,07/Baujahr <2000/GEAK Plus ab 10k; CHF-Saetze kantonal) →
+  `[[gebaeudeprogramm-bund-hfm-2015]]`, FAQ **F27** neu. Offen nur noch: aktuelle **2026er** EIV-CHF/kWp
+  je Anlagengroesse (Pronovo-Tarifrechner); konkrete M-02…M-18-Saetze + Schwyzer Foerderprogramm (SZ).
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
@@ -104,7 +107,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   (Luftschall Di / Trittschall L' / Haustechnik LH / Aussenlaerm De je Empfindlichkeit × Stoergrad;
   erhoeht +4 dB innen / +3 dB aussen; **EFH/Reihen-EFH/STWEG = erhoehte Aussenlaerm-Anforderung Pflicht**;
   Bauwert D_nT/L'_nT inkl. Flanke ≠ Labor-R_w). F17/Holzbau geschaerft (Wohnungstrennung Di≥52/Trittsch.
-  L'≤53). Offen nur noch: **Flankenuebertragung/Anschlussdetails Holzbau** (Lignum, konkrete Stoss-Loesungen).
+  L'≤53). **Flanken-/Nachweis-MECHANIK belegt ✓ 2026-06-28** (R_w↔R'_w, Projektierungszuschlag K_P +
+  Flanken-Zuschlag K_F, 12 Nebenwege ueber EN 12354, Spektrum-Anpassungswerte C/C_tr; Holzbau-Flanken-
+  kennwerte oft nicht verfuegbar → Prognose + Reserve + elastische Stoesse) → Lignum/BFH-AHB 2008
+  `[[lignum-schallschutz-holzbau-flankenuebertragung]]`, schallschutz-sia181 + F25 geschaerft. Offen nur
+  noch: **konkrete Anschlussdetails + gemessene K_F-/Bauteilwerte Holzbau** (spaetere Lignum-LIT-Doku, eigene Quelle).
 - [ ] **E12** **Naturdaemmstoffe in der Praxis**: Stroh (Bemessungs-λ, Brandverhalten RF, Feuchte) +
   Lehmputz (Feuchtepufferung) — Seed `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (2024). Ergaenzt
   `[[daemmstoffe-lambda]]`. Zudem **ZEV/Areal-PV/«Solarsplitvertrag»** wirtschaftlich/rechtlich (→ `baurecht`).

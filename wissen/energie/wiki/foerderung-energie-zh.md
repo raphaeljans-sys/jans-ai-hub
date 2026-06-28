@@ -1,10 +1,10 @@
 ---
 title: Foerderung Energie — Kanton Zuerich (2026)
 status: established
-last_updated: 2026-06-26
-datenstand: 2026-06-26 (Foerderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unveraendert bestaetigt 24.10.2025)
-sources: [destillate/foerderprogramm-energie-zh-2026.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]]
+last_updated: 2026-06-28
+datenstand: 2026-06-26 (Foerderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unveraendert bestaetigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28
+sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]]
 ---
 
 # Foerderung Energie — Kanton Zuerich
@@ -66,6 +66,14 @@ GEAK-Plus-Bericht: EFH/ZFH **CHF 1'000**, uebrige Kategorien **CHF 1'500**.
 **PV** foerdert der **Bund** (Pronovo-Einmalverguetung, ~3'600 CHF fuer 10 kWp Sept 2025), nicht der
 Kanton pauschal → `[[pv-marktzahlen-kosten-ch-2025]]`.
 
+## Woher das Geld kommt (Bund ↔ Kanton)
+Das ZH-Foerderprogramm **ist** der kantonale Vollzug des nationalen **«Gebaeudeprogramms»** — kein
+zweiter Topf. Der **Bund** finanziert mit (Globalbeitraege aus **Art. 34 CO2-Gesetz**), der **Kanton
+zahlt aus** nach dem **Harmonisierten Foerdermodell HFM 2015** (18 Module M-01…M-18, Kanton beziffert
+selbst → darum kantonal verschieden). Bauherr: **ein** Gesuch beim **Standortkanton**, vor Baubeginn.
+**PV ist nicht im Gebaeudeprogramm** (Bund/Pronovo, nach Inbetriebnahme). Mechanik →
+`[[gebaeudeprogramm-bund-hfm-2015]]`, Bauherren-Antwort F27.
+
 ## Strategie fuer den Bauherrn
 1. **Erst Gesuch, dann bauen** — ausnahmslos.
 2. **Huelle vor Technik:** zuerst (oder gleichzeitig) daemmen → WP wird kleiner und effizienter
@@ -79,6 +87,8 @@ Kanton pauschal → `[[pv-marktzahlen-kosten-ch-2025]]`.
 - Welche Nachweise die Baueingabe braucht: `[[energienachweis-zh]]`. Energierecht → Skill `baurecht`.
 
 ## Offen
-- Inhaltlich vollstaendig (Foerder-PDF S. 1-37 erfasst). Verbleibt: **Bundes-Gebaeudeprogramm** +
-  Pronovo-PV-Einmalverguetung separat erfassen (eigene Quelle bei Bedarf).
+- Inhaltlich vollstaendig (Foerder-PDF S. 1-37 erfasst). ✓ **Bundes-Gebaeudeprogramm/HFM 2015 erfasst
+  2026-06-28** → `[[gebaeudeprogramm-bund-hfm-2015]]`; ✓ **Pronovo-PV-Einmalverguetung erfasst 2026-06-27**
+  → `[[pv-einmalverguetung-bund-bfe]]`. Verbleibt: konkrete M-02…M-18-Saetze je Kanton (nur bei Projekt-
+  bedarf), Schwyzer Foerderprogramm (SZ) als Gegenstueck.
 - ⚠ Budget kann unterjaehrig erschoepft sein — vor Zusage Stand `zh.ch` / Hotline 0800 93 93 93 pruefen.

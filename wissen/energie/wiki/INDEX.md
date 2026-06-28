@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**26 Kernfragen F1–F26 belegt**; zuletzt **F6 geschaerft** (COP/SCOP/JAZ-Begriff + Feldbeweis FAWA: S/W Ø 3,5 · L/W Ø 2,7) + **F7 geschaerft** (Pronovo-PV-Einmalverguetung Bund: KLEIV ~360 CHF/kWp, Indach 400, Boni); F26 PV-Ertrag je Ausrichtung × Neigung + F25 Schallschutz SIA 181:2020 + F24 Regenwasser Kt. ZH; Backlog nur noch Vertiefungen)
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**27 Kernfragen F1–F27 belegt**; neu **F27 ‹Das Gebaeudeprogramm› = Bund-/Kanton-Foerder-Mechanik** (CO2-Gesetz Art. 34 → HFM 2015 → kantonaler Vollzug, ein Gesuch vor Baubeginn, PV separat Pronovo); **F25/F17 geschaerft** (Flanken-Mechanik R_w↔R'_w / K_F / 12 Nebenwege EN 12354); zuvor F6 COP/SCOP/JAZ + F7 Pronovo-EIV; Backlog nur noch Vertiefungen)
 
 ## Themen-Artikel
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken · **established**
@@ -17,16 +17,18 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[cop-scop-jaz-waermepumpe-gruenenwald]] — COP (Pruefpunkt) vs. SCOP (EN 14825, CH ~5-7 % zu hoch) vs. JAZ (Feldmessung) · **established**
 - [[pv-einmalverguetung-bund-bfe]] — PV-Foerderung Bund: EIV/KLEIV/GREIV/HEIV, KLEIV ~360 CHF/kWp (Indach 400), Boni Neigung/Winterstrom/Parkflaeche (F7) · **established**
 - [[minergie-zertifizierung-workflow]] — Minergie-Nachweis praktisch: Label-Plattform, Antrags-Checkliste, WPesti/PVopti, Pruefprozess AS↔ZS · **established** (Destillat)
-- [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 VOLLST. (WP 2'900/6'800, Fernwaerme 5'200, Daemmung 40/+60, **Minergie-ECO 110/70/50 · -P-ECO 165/100/80**, **Solarthermie 2'400+1'000/kWth**, GEAK 1'000/1'500) · **established**
+- [[foerderung-energie-zh]] — Foerdersaetze Kt. ZH 2026 VOLLST. (WP 2'900/6'800, Fernwaerme 5'200, Daemmung 40/+60, **Minergie-ECO 110/70/50 · -P-ECO 165/100/80**, **Solarthermie 2'400+1'000/kWth**, GEAK 1'000/1'500) + **Bund-/Kanton-Mechanik (HFM 2015)** · **established**
+- [[gebaeudeprogramm-bund-hfm-2015]] — Das Gebaeudeprogramm (Bund) & HFM 2015: CO2-Gesetz Art. 34 → Globalbeitraege → kantonaler Vollzug, 18 Module M-01…M-18, Rahmenbedingungen (U≤0,20/Verbesserung ≥0,07/Baujahr<2000/GEAK Plus ab 10k); PV separat Pronovo (F27) · **established** (neu)
 - [[regenwasserbewirtschaftung-versickerung-zh]] — Regenwasser-Versickerung Kt. ZH (Bewilligungspflicht/Zustaendigkeit/Metall-Adsorber/Versickerungsversuch; Schwammstadt-Querschnitt) · **emerging** (neu)
 - [[sommerlicher-waermeschutz]] — Hitzeschutz: g-Wert, Beschattung, Speichermasse, Wetterdaten 2035 · **emerging**
 - [[graue-energie]] — graue Energie & THGE, **THGE-Grenzwerte je Kategorie (MFH 11 / Spitaeler 17)**, Bauweise (Holz vs. Massiv), Sanieren-vs-Neubau + **KBOB-Faktenblatt: 9 Reduktionshebel + SIA-2032-Messgroessen + «Restwert Bestand» + bis 40 % MFH (Datenbasis KBOB-Oekobilanzdaten v8.0)** · **established**
 - [[kbob-graue-treibhausgasemissionen-2025]] — KBOB-Faktenblatt graue THG-Emissionen (Destillat): 9 Massnahmen, Messgroessen kg CO₂-eq/m² EBF, Grenzwert-Logik (Minergie-ECO/SNBS/SIA 390/1), kommende Kantons-Grenzwerte Art. 45 EnG · **established**
 - [[minergie-standards]] ergaenzt: **MKZ-Formel** + Minergie-2023-Neuerungen (90 % Q_h,li, Monitoring 1000 m², 60 % E-Parkplaetze) · **established**
 - [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) + Bauteilkatalog (Wand/Dach REI·U·Rw) + **Schallschutz (R_w 34-58, L'_n,w 60→46)** · **established**
-- [[schallschutz-sia181]] — Schallschutz SIA 181:2020: Anforderungswerte Luft-/Tritt-/Haustechnik-/Aussenlaerm je Empfindlichkeit, erhoehte Anforderung Pflicht bei EFH/STWEG, Bauwert≠Laborwert (Flanke) · **established** (neu, FAQ F25)
+- [[schallschutz-sia181]] — Schallschutz SIA 181:2020: Anforderungswerte Luft-/Tritt-/Haustechnik-/Aussenlaerm je Empfindlichkeit, erhoehte Anforderung Pflicht bei EFH/STWEG, **Bauwert≠Laborwert: Flanken-Mechanik R_w↔R'_w / K_P+K_F / 12 Nebenwege EN 12354 / C-Werte** (Lignum/BFH 2008) · **established** (FAQ F25)
+- [[lignum-schallschutz-holzbau-flankenuebertragung]] — Flanken-/Nachweis-Mechanik Holzbau (Lignum/BFH-AHB 2008): R_w↔R'_w, K_P/K_F, 12 Nebenwege EN 12354, C/C_tr, Holzbau-Flankenkennwerte-Luecke → Prognose+Reserve+elastische Stoesse · **established** (neu, Destillat) ⚠ SIA 181:2006
 - **Schadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP, Kt. ZH) — bisher FAQ F23 + Destillat `[[gebaeudeschadstoffe-checkliste-zh]]`; eigener Themenartikel Kandidat
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Naturdaemmstoffe/Stroh+Lehm Praxis, SIA-181-Flankendetails Holzbau (Lignum), kg-CO₂-Bauteilwerte KBOB v8.0/SIA-2032-Vorprojektwerte, Schadstoff-Themenartikel)_
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Naturdaemmstoffe/Stroh+Lehm Praxis, konkrete Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku), kg-CO₂-Bauteilwerte KBOB v8.0/SIA-2032-Vorprojektwerte, Schadstoff-Themenartikel)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`
