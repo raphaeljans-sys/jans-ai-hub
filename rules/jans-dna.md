@@ -54,7 +54,11 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Behörden-Eröffnung neben «Darf ich Sie bitten»; «Guten Morgen»/«Guten Abend <Vorname>» als Tageszeit-Anreden im Du; ein **😊**
   (oder ASCII «:)») NUR in der warm-sozialen Privat-Du-Mail, sparsam; in der **rein
   privat-sozialen, branchenfernen** Einladung darf der ganze Ton **Mundart** sein
-  («Grüzi liebi …», «en Kafi verbi», «Liebe Gruess»), wenn das Gegenüber Mundart spiegelt.
+  («Grüzi liebi …», «en Kafi verbi», «Liebe Gruess»), wenn das Gegenüber Mundart spiegelt; in der
+  formellen Alternativfrage die zwei sich ausschliessenden Lesarten als **«–»-Bullets + «oder»**
+  setzen (Entscheidungsfrage), «_ » für die offene Aufzählung; in der Rechnungs-/Schluss-Liefermail
+  im Du Service-Satz **und** Auftrags-Dank («Ich bedanke mich für den Auftrag») vor «Freundliche
+  Grüsse» + Block, beim reinen Doku-Transmittal an den eingespielten Partner den Service-Satz weglassen.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);

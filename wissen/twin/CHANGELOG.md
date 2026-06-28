@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-28 — twin-fidelity-review (alle 2 Tage)
+- 3 frische authentische Goldproben (Sent rj@, Nov–Dez 2025, handgetippt, keine AI-Paste): formell-Sie
+  Behörden-Vorabklärung (Doppelquellen, Thalwil/Steiger) · operativ-Du Rechnungs-Begleitmail → FG+Block
+  (Peter re-00077) · operativ-Du Terminplan-Transmittal → FG+Block (Peter Wartstrasse 8). Bewusst NICHT
+  die 260626-Proben; gezielter Stress der bis dahin dünnsten Facette Stimme.
+- **Gesamt-Fidelity 90** (260626: 89) — Aufwärtstrend hält; Stimme bleibt mit 89 marginal dünnste,
+  Restdrift jetzt nur noch Mikro-Typografie + Schluss-Marker.
+- [[stimme]] **2 Schärfungen:** (D1) «–»-Bullet = geschlossene Alternativ-/Entscheidungsfrage (+ «oder»),
+  abgegrenzt von «_ » offene Aufzählung — Listen-Bullet, kein Gedankenstrich-Stilmittel (löst latente
+  Spannung zu 260610; teilbeantwortet QUESTIONS 260622 #5). (D2) Rechnungs-/Schluss-Liefermail im Du =
+  Service-Satz + Auftrags-Dank «Ich bedanke mich für den Auftrag», beim reinen Doku-Transmittal Service-Satz weg.
+- Validierung positiv: Gruss-Paradox-Pol Rechnung→Block (260626 D1) frisch unabhängig bestätigt (Gold B).
+- Facetten-Validierung: 1 latente Spannung aufgelöst («–» = Listen-Bullet), keine neue offene.
+- twin-fragesteller: 4 neue Fragen (Runde 260628) → QUESTIONS.md; DNA neu kompiliert (build_dna.py).
+- Report: `wissen/twin/outputs/2026-06-28_fidelity.md`.
+
 ## 2026-06-27 — twin-mail-training (täglich), Batch 18 (Sent rj@, 2025-10-22…11-06)
 - 20 Mails gesichtet, 5 Volltexte destilliert (STWEG-Teilungsplan-Abgabe Bopp; eigene Umfirmierung
   UNARC→JANS GmbH HRA/Notariat; Café-haha Weisser; denkmalrelevantes Baugesuch B25-01615.01 AfB/Müller;

@@ -3,6 +3,33 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260628 (twin-fragesteller, aus Fidelity-Review 2026-06-28)
+
+Quelle: Drift-Report `outputs/2026-06-28_fidelity.md` (Gesamt-Fidelity 90; duennste Facette
+Stimme 89 — Restdrift in Mikro-Typografie + Schluss-Markern). Je in 1–2 Saetzen beantwortbar.
+
+1. **«–»-Alternativfrage bewusst oder austauschbar:** In der formellen Behoerden-Anfrage setzt Du
+   die zwei sich ausschliessenden Auslegungen als «–»-Bullets mit «oder» dazwischen («– Gilt § 6c
+   ABV …? / oder / – Gilt die 1-m-Grenze?»), waehrend «_ » die offene Aufzaehlung bleibt. Ist das
+   «–» bewusst das Zeichen der **Entweder-oder-Entscheidungsfrage** (die Behoerde MUSS sich fuer eine
+   Variante entscheiden), oder austauschbar mit «_ »? *Warum: schliesst QUESTIONS 260622 #5 ab und
+   praezisiert die eigene Listentypografie.* → [[stimme]]
+2. **Reichweite Auftrags-Dank:** Beim Zustellen der Rechnung schreibst Du «Ich bedanke mich fuer den
+   Auftrag.» Ist diese Dank-Zeile fester Bestandteil **jeder** Rechnungs-/Schluss-Liefermail
+   (Beziehungspflege ueber die Abwicklung hinaus), oder nur beim **Erst-/Einzelauftrag** eines
+   Kunden? *Warum: kalibriert den neu erfassten Auftrags-Dank-Marker.* → [[stimme]], [[haltung]]
+3. **Frist + Postweg-Puffer als Standard:** Bei Terminzusagen rechnest Du den Zustellweg explizit auf
+   die behoerdliche Frist auf («Einsprachefrist Ende 26.12.2025 + 5 Tage Postalweg»). Machst Du diese
+   Puffer-Transparenz (Frist + Postweg/Zustellung) **standardmaessig** bei jeder Fristmitteilung an
+   Bauherr/Partner, damit niemand zu frueh mit Klarheit rechnet, oder nur wo es terminkritisch ist?
+   *Warum: macht den Verfahrens-Termin-Marker operationalisierbar.* → [[fachsignatur]], [[arbeitsweise]]
+4. **Service-Schluss beim reinen Doku-Transmittal:** Der Terminplan-Transmittal an den eingespielten
+   Baumanager («Wie besprochen … Freundliche Gruesse») kommt OHNE den sonst belegten Service-Satz
+   («stehe ich gerne zur Verfuegung»), die Rechnungsmail an dieselbe Person hat ihn. Laesst Du den
+   Service-Satz beim **reinen Doku-/Status-Transmittal** an einen vertrauten Partner bewusst weg
+   (Laenge=Zweck), oder Tagesform? *Warum: schaerft, wann der Service-Satz gesetzt wird.*
+   → [[arbeitsweise]], [[stimme]]
+
 ## Offen — Runde 260626 (twin-fragesteller, aus Fidelity-Review 2026-06-26)
 
 Quelle: Drift-Report `outputs/2026-06-26_fidelity.md` (Gesamt-Fidelity 89; duennste Facette
@@ -66,7 +93,10 @@ phase «Baufreigabe»). Je in 1–2 Saetzen beantwortbar.
    Halbgeviertstrich «–» als Sub-Bullet («– dass keine Massnahmen …»), neben dem ueblichen «_ ».
    Hat das «–» eine eigene Funktion (Unter-Aufzaehlung/Alternative) gegenueber «_ » (Haupt-
    Aufzaehlung), oder sind sie austauschbar? *Warum: praezisiert die eigene Listentypografie.*
-   → [[stimme]]
+   → [[stimme]] · **TEILBEANTWORTET (Fidelity 260628):** «–» markiert die geschlossene
+   **Alternativ-/Entscheidungsfrage** (zwei sich ausschliessende Lesarten + «oder», Behoerde waehlt),
+   «_ » die **offene Aufzaehlung** (Gold A Vordach-Vorabklaerung Thalwil). In `stimme.md` eingearbeitet;
+   Rest «bewusst vs. austauschbar» → Runde 260628 #1.
 
 ## Offen — Runde 260618 (twin-fragesteller, aus Fidelity-Review 2026-06-18)
 

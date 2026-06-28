@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.06.2026 06:14:39
+Stand: 28.06.2026 06:24:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.06.2026 06:14:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f5571d6 nas-selfcommit: 2 Datei(en) 2026-06-28 06:00
+- 9b5cff1 energie-training Run 21: Schallschutz-Flanken-Mechanik Holzbau (Lignum/BFH 2008) + Bundes-Gebaeudeprogramm/HFM 2015
