@@ -3,9 +3,9 @@ quelle: «Foerderung von Photovoltaikanlagen — Einmalverguetung, gleitende Mar
 herausgeber: Bundesamt fuer Energie BFE (Faktenblatt, pubdb 7238) · Saetze: Pronovo AG / CKW-Uebersicht
 ausgabe: BFE-Faktenblatt (Struktur EnFV; SR 730.03) · CHF-Saetze Stand September 2025
 gelesen: 2026-06-27 (BFE-Faktenblatt vollst. S. 1-5; KLEIV-Saetze via CKW/Pronovo-Web)
-datenstand: Struktur 2025 (ab 1.1.2025 erhoehte Boni) · CHF/kWp **Stand September 2025** (KLEIV jaehrlich neu festgelegt)
+datenstand: Struktur 2025 (ab 1.1.2025 erhoehte Boni) · CHF/kWp **Stand September 2025**, fuer 2026 verifiziert (Basis-Saetze unveraendert; einzige Aenderung Winterstrombonus ≥100 kW ab IBN 1.1.2026) — KLEIV jaehrlich neu festgelegt
 status: established
-last_updated: 2026-06-27
+last_updated: 2026-06-29
 ---
 
 # Destillat — PV-Einmalverguetung des Bundes (EIV / KLEIV / GREIV / HEIV)
@@ -69,9 +69,20 @@ und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt 
   ZEV/Mieterstrom hebt ihn im MFH (vgl. F18). Rueckliefertarif legt der lokale Netzbetreiber fest
   (sehr unterschiedlich, `pvtarif.ch`).
 
+## Aktualitaets-Check
+- **Verifiziert 2026-06-29** (Pronovo «Neuerungen EIV» + CKW-Uebersicht): die **Basis-Leistungsbeitraege
+  bleiben gueltig** — KLEIV **bis 30 kWp 360 CHF/kWp**, **ab 30 kWp 300**, **ab 100 kW 300/kWp**;
+  Neigungsbonus integriert 400 / angebaut 200 CHF/kW (seit 1.1.2025), Parkflaechenbonus 250 CHF/kW.
+  **Einzige bestaetigte Aenderung per 1.1.2026:** der **Winterstrombonus** gilt fuer alle Anlagen
+  **ab 100 kW mit IBN ab 01.01.2026**, deren Winterhalbjahr-Produktion (1.10.–31.3.) **> 500 kWh/kW**
+  liegt (vorher enger). Fuer das typische EFH (<100 kW) **keine Aenderung** ggue. Sept-2025-Stand.
+- ⚠ **Vorsicht Sekundaerquellen:** CKW/Pronovo-Uebersichten vermischen teils Leistungs-, Grund- und
+  Neigungsbonus — verbindlich bleibt allein der **Pronovo-Tarifrechner** (Stichtag = Inbetriebnahme).
+  Daher hier KEINE feinere CHF-Aufschluesselung uebernommen (Leitplanke: nicht schaetzen).
+
 ## Offene Punkte / Folgelaeufe
-- Aktuelle **CHF/kWp je Anlagengroesse** (EFH ↔ MFH ↔ Grossanlage) und die **2026er** Saetze beim
-  naechsten Lauf am Pronovo-Tarifrechner verifizieren (jaehrliche Anpassung).
+- Aktuelle **CHF/kWp je Anlagengroesse** (EFH ↔ MFH ↔ Grossanlage) beim naechsten Lauf direkt am
+  Pronovo-Tarifrechner (Eingabe einer Beispielanlage) verifizieren — frei, aber interaktiv.
 - **Kantonales/kommunales** Add-on via `energiefranken.ch`; **Bundes-Gebaeudeprogramm** (Heizung/Huelle)
   ist separat (vgl. F7).
 - Energierecht/PV-Pflicht (kantonal, Dachflaeche) → Skill `baurecht` / F10.

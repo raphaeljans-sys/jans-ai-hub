@@ -19,8 +19,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   `[[pv-einmalverguetung-bund-bfe]]`, F7 geschaerft. **Bundes-Gebaeudeprogramm/HFM 2015 belegt ✓ 2026-06-28**
   (CO2-Gesetz Art. 34 → Globalbeitraege → kantonaler Vollzug nach HFM 2015, 18 Module M-01…M-18,
   Rahmenbedingungen U≤0,20/Verbesserung ≥0,07/Baujahr <2000/GEAK Plus ab 10k; CHF-Saetze kantonal) →
-  `[[gebaeudeprogramm-bund-hfm-2015]]`, FAQ **F27** neu. Offen nur noch: aktuelle **2026er** EIV-CHF/kWp
-  je Anlagengroesse (Pronovo-Tarifrechner); konkrete M-02…M-18-Saetze + Schwyzer Foerderprogramm (SZ).
+  `[[gebaeudeprogramm-bund-hfm-2015]]`, FAQ **F27** neu. **Schwyzer Foerderprogramm (SZ) belegt ✓ 2026-06-29**
+  (Vollzugshilfe Kt. SZ 01.01.2026, S. 1-40 vollst.: Daemmung 60/m², Luft/Wasser-WP 3'200+120/kW_th, Erdsonde
+  4'800+360/kW_th, Solarthermie 2'400+1'000/kW_th, Minergie-P-EFH 155/m² EBF, GEAK 1'000/1'500; linear statt
+  ZH-Pauschalen) → `[[foerderprogramm-energie-sz-2026]]`, `[[foerderung-energie-sz]]`, FAQ **F28** neu, F7 geschaerft.
+  **EIV-Basis-Saetze fuer 2026 verifiziert ✓ 2026-06-29** (unveraendert; einzige Aenderung Winterstrombonus
+  ≥100 kW ab IBN 1.1.2026) → `[[pv-einmalverguetung-bund-bfe]]`. Offen nur noch: exakte **2026er** EIV-CHF/kWp
+  je Anlagengroesse am Pronovo-Tarifrechner (interaktiv); konkrete M-02…M-18-Saetze weiterer Kantone.
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
