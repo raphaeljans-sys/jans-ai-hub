@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-28
-sources: [destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-06-29
+sources: [destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -249,7 +249,8 @@ Details → `[[pv-einmalverguetung-bund-bfe]]`, Marktpreise → `[[pv-marktzahle
 50 % Investition / max. 500'000); 6-kWth-Solarthermie-Anlage → 2'400 + 6 × 1'000 = **~8'400 CHF**.
 
 **Wie Bund und Kanton zusammenspielen** (warum «Gebaeudeprogramm» = kantonale Foerderung, ein Topf) →
-F27, `[[gebaeudeprogramm-bund-hfm-2015]]`.
+F27, `[[gebaeudeprogramm-bund-hfm-2015]]`. **Im Kanton Schwyz** gelten andere (linear gerechnete)
+Saetze → **F28**, `[[foerderung-energie-sz]]`.
 
 **Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026, vollst. erfasst (S. 1-37) →
 `[[foerderprogramm-energie-zh-2026]]`; Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand
@@ -961,6 +962,55 @@ erschoepfbar — vor Zusage am Standortkanton pruefen. Energierecht/Heizverbot �
 
 ---
 
+## F28 — «Welche Energie-Foerderbeitraege bekomme ich im Kanton Schwyz?»
+
+**Kurz:** Der Kanton SZ zahlt 2026 **fixe CHF-Saetze je Massnahme**: **CHF 60/m²** Daemmung (+40/m²
+bei Vollsanierung), eine **Luft-Wasser-Waermepumpe CHF 3'200 + 120/kW_th**, eine **Erdsonden-/
+Grundwasser-WP CHF 4'800 + 360/kW_th**, einen **Fernwaerme-Anschluss CHF 4'000 + 200/kW_th** und
+**Solarthermie CHF 2'400 + 1'000/kW_th**. **Gleiche Grundregel wie ZH: zuerst das Gesuch, dann bauen.**
+
+**Fachlich (Foerderprogramm Energie Kt. SZ, Stand 01.01.2026):**
+
+| Massnahme | SZ-Beitrag 2026 |
+|---|---|
+| Waermedaemmung Fassade/Dach/Wand/Boden gg. Erdreich | CHF 60/m² (min. 3'000 / max. 300'000) |
+| Gesamtsanierungsbonus (Huelle ≥ 90 % gedaemmt) | + CHF 40/m² zusaetzlich |
+| Luft/Wasser-WP | CHF 3'200 + 120/kW_th |
+| Sole/Wasser- & Wasser/Wasser-WP (Erdsonde/Grundwasser) | CHF 4'800 + 360/kW_th |
+| Anschluss Waermenetz (≥ 75 % erneuerbar/Abwaerme) | CHF 4'000 + 200/kW_th |
+| Stueckholz/Pellet mit Tagesbehaelter | CHF 5'000/Anlage |
+| Automatische Holzfeuerung | CHF 360/kW_th (> 500 kW: 80'000 + 200/kW_th) |
+| Thermische Solaranlage (Solarthermie) | CHF 2'400 + 1'000/kW_th (min. 2 kW) |
+| Minergie-Gesamtsanierung EFH/MFH/andere | 100 / 60 / 40 CHF/m² EBF |
+| Minergie-P-Gesamtsanierung EFH/MFH/andere | 155 / 90 / 60 CHF/m² EBF |
+| Bonus Ersatz dezentrale Elektro-/fossile Heizung | CHF 15'000 (≤ 250 m² EBF) bzw. 60/m² EBF |
+| GEAK Plus | CHF 1'000 (EFH/ZFH) / 1'500 (andere) |
+
+Bedingungen: **Gesuch vor Baubeginn** (`portal.dasgebaeudeprogramm.ch/sz`), nur **Ersatz** einer
+Oel-/Gas-/Elektroheizung im **Bestand** (Ersatzneubau = Neubau, nicht gefoerdert), Daemmung nur bei
+**Baubewilligung vor 2000** und U ≤ 0,20 / Verbesserung ≥ 0,07, GEAK Plus ab Foerderbeitrag CHF 10'000,
+max. **50 % der Investition**, min. CHF 3'000 / **max. CHF 300'000/Gesuch**. WP nur Elektromotor (bis
+15 kW WPSM-Zertifikat, ab 15 kW FWS-Guetesiegel + Leistungsgarantie). **Klimapraemie + kantonale
+Beitraege nicht kombinierbar.** **PV foerdert der Kanton nicht** — die laeuft ueber den Bund (Pronovo,
+nach Inbetriebnahme, vgl. F7/F27).
+
+**Unterschied zu ZH:** SZ rechnet WP **linear (Grundbeitrag + CHF/kW_th)**, ZH zahlt **Pauschalen je
+Stufe** (vgl. F7). SZ-Daemmung 60/m² (ZH 40/m² + 60/m²-Vollsanierungsbonus). SZ-Minergie **ohne
+ECO-Pflicht**, ZH **nur mit ECO**. Deckel SZ 300'000, ZH 500'000.
+
+**Rechenbeispiele 2026 (Saetze fix, eigene Multiplikation):** Oel→Luft/Wasser-WP 8 kW_th → 3'200 +
+8 × 120 = **~4'160 CHF**; Erdsonden-WP 10 kW_th → 4'800 + 10 × 360 = **~8'400 CHF**; Fassadendaemmung
+200 m² (Vollsanierung) → 200 × (60 + 40) = **~20'000 CHF**; Minergie-P-EFH 180 m² EBF → 180 × 155 =
+**~27'900 CHF**.
+
+**Quelle:** Vollzugshilfe Foerderprogramm Energie 2026, Kt. SZ Amt fuer Umwelt und Energie, Ausgabe
+01.01.2026 (S. 1-40, vollst.) → `[[foerderprogramm-energie-sz-2026]]`; Themenartikel →
+`[[foerderung-energie-sz]]`; Bund-/Kanton-Mechanik → F27 / `[[gebaeudeprogramm-bund-hfm-2015]]`; ZH →
+F7. ⚠ **Datenstand 2026-06-29:** Saetze Stand 01.01.2026; Mittel nur solange Budget reicht (kein
+Rechtsanspruch) — vor Zusage Aktual-/Budgetstand auf `sz.ch` pruefen. Energierecht → Skill `baurecht`.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -969,10 +1019,14 @@ erschoepfbar — vor Zusage am Standortkanton pruefen. Energierecht/Heizverbot �
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-28: 27 Kernfragen F1-F27 belegt** (neu **F27 ‹Das Gebaeudeprogramm› = Bund-/
-> Kanton-Foerder-Mechanik**: Bund finanziert via CO2-Gesetz Art. 34, Kanton zahlt aus nach HFM 2015,
-> ein Gesuch beim Standortkanton vor Baubeginn, PV separat ueber Pronovo nach IBN →
-> `[[gebaeudeprogramm-bund-hfm-2015]]`). Zuvor **F26 PV-Ertrag je Ausrichtung × Neigung**
+> **FAQ-Stand 2026-06-29: 28 Kernfragen F1-F28 belegt** (neu **F28 ‹Foerderbeitraege Kt. Schwyz›**:
+> fixe CHF-Saetze je Massnahme Stand 01.01.2026 — Daemmung 60/m² (+40 Vollsanierung), Luft/Wasser-WP
+> 3'200 + 120/kW_th, Erdsonde 4'800 + 360/kW_th, Solarthermie 2'400 + 1'000/kW_th, Minergie-P-EFH
+> 155/m² EBF; linear statt ZH-Pauschalen, Gesuch vor Baubeginn, max. 50 %/300'000, PV via Bund →
+> `[[foerderung-energie-sz]]`). Zuvor **F27 ‹Das Gebaeudeprogramm› = Bund-/Kanton-Foerder-Mechanik**:
+> Bund finanziert via CO2-Gesetz Art. 34, Kanton zahlt aus nach HFM 2015, ein Gesuch beim Standortkanton
+> vor Baubeginn, PV separat ueber Pronovo nach IBN → `[[gebaeudeprogramm-bund-hfm-2015]]`. Zuvor
+> **F26 PV-Ertrag je Ausrichtung × Neigung**
 > — CH-Richtwerte: Flachdach ~90 %, Ost/West 90–95 %, Suedfassade senkrecht ~70 %, Nord steil ~40 %
 > des Sued-30°-Optimums; ≤45° von Sueden besonders gut geeignet; Ost-West fuer Eigenverbrauch oft im
 > Vorteil). Zuvor **F25 Schallschutz/SIA 181:2020** (Wohnungstrennung Luftschall ≥52/56 dB, Trittschall
