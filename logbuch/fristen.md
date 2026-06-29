@@ -3,15 +3,15 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 28.06.2026 (Radar-Lauf)
+Stand: 29.06.2026 (Radar-Lauf)
 
 ## Aktiv
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 73 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026 (HEUTE) erreicht; Eskalation auf Stufe 2 (Mahnung 1) jetzt faellig (interaktiv, nach Abgleich mit dem RE-00088-Konflikt) | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 74 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026 ueberschritten; Eskalation auf Stufe 2 (Mahnung 1) ueberfaellig (interaktiv, nach Abgleich mit dem RE-00088-Konflikt) | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
-| 16.06.2026 | RE-00097 (Hofer, CHF 500) 12 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 (in 2 Tagen) | mahnwesen | Debitoren | tief | offen |
+| 16.06.2026 | RE-00097 (Hofer, CHF 500) 13 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 (MORGEN) | mahnwesen | Debitoren | tief | offen |
 | 18.06.2026 | SharePoint-Online-Speicher voll (nun 1055.04 / 1054 GB belegt, Microsoft-Warnung erneut 24.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |
 | 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH. EN-ZH-005 entfaellt (EVEN-Plattform). C. Duran (Gruner) bestaetigt 18.06.: EN 105/EN 110 sind im EVEN-Portal erfasst. Update 25.06.: A. Soerensen (Stadt ZH) per Abwesenheits-Antwort ausser Haus bis 02.07., beantwortet ab dann — Antwort erst nach dem 02.07. erwarten | logbuch/mail | 2619 KISPI | mittel | nachfassen |

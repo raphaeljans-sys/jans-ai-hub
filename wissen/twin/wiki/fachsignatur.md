@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -474,6 +474,47 @@ Bestätigt und erweitert die konstruktiv-materielle Detailtiefe über das Baurec
   nicht vollständig schliesst, sondern mit Stelen eine partielle Durchsicht ermöglicht**»; Terrassenbelag
   «Naturstein, Belgischer Blaustein, geledert, scharfe Kanten / Holz, Ipé, naturbelassen» — exakte
   Material-/Oberflächen-/Kantenbezeichnung statt Gattungsbegriff (vgl. «Rückgrat/Seil»-Materialsprache).
+
+## Näherbaurecht/Vordach inline-gerechnet + Quelle GEGEN Quelle (belegt Mailbatch 20, authentisch)
+Stärkster Baurecht-Fachsignatur-Beleg bisher (Projekt 2414 Thalwil, Vordach-Vergrösserung über
+Terrasse, Grenze zur SBB + Nordwest-Nachbar, 17.–20.11.2025). Raphael liest die Grundlagen **selbst**
+(«Ich habe mir das kurz angeschaut (PBG Zürich sowie BZO Thalwil)») und webt das Recht **inline und
+rechnend** ein, nicht als Zitatkette:
+- **Präzise Norm-Verankerung mit Paragraf:** «Näherbau im Sinne von **§ 270 PBG**», «Definition der
+  vorspringenden Gebäudeteile gemäss **IVHB und § 6c ABV**». Übersetzt die abstrakte Norm sofort in
+  die **konkrete Zahl**: Grenzabstand 5.00 m; Vordach bis 1 m ab Fassadenflucht abstandsprivilegiert,
+  «sobald es mehr als 1m Auskragt ist es nicht mehr Abstandspriviligiert und muss den regulären
+  Grenzabstand einhalten».
+- **Subsumtion statt Behauptung:** klassifiziert das konkrete Vordach gegen die Norm («stellt keinen
+  privilegierten Vorsprung wie einen Erker, Balkon oder ein lokales Eingangsvordach dar, sondern einen
+  abstandspflichtigen Gebäudeteil … überschreitet sowohl die in der ABV definierten geometrischen
+  Rahmenbedingungen als auch die funktionale Klassifikation»).
+- **Quelle GEGEN Quelle gestellt** (Behörden-Vorabklärung, → [[arbeitsweise]]): kantonale Definition
+  **§ 6c ABV / IVHB-Leitfaden 01.03.2017, S. 17** (Dachvorsprung Tiefe bis 2 m, keine Breitenbegrenzung)
+  versus Literatur/Rechtsprechung **FRITZSCHE/BÖSCH/WIPF/KUNZ, Zürcher Planungs- und Baurecht, 6. Aufl.
+  2019, S. 1069** (Vordach «üblicher Art» ~1 m nicht abstandspflichtig, mit **VB.2013.00266** und
+  **BEZ 1991 Nr. 37**). Zitiert Band/Auflage/Seite UND die konkrete Rechtsprechungsnummer — exakte,
+  überprüfbare Fundstellen, nie vage «laut Praxis».
+- **Recht → gestalterische Konsequenz übersetzt** (der JANS-Reflex): «Das heisst also, wenn ein cooles
+  Vordach von ca. 2.5m Auskragung … zur Terrasse um ein Esstisch mit Stühlen zu überdecken … wird ein
+  Näherbaurecht von der SBB benötig. Jetzt ist nur ein Vordach von 1.2m ohne Näherbaurecht möglich».
+  Die Norm wird zum baubaren/nicht-baubaren Entwurf gerechnet, mitsamt Kosten-/Verfahrensfolge.
+- **Mehrkörper-Geometrie mitgedacht:** erkennt selbständig die **Überschneidung zweier Näherbaurechte
+  in der Gebäudeecke** (Vordach ragt zugleich in den SBB-Abstandsbereich UND zum Nordwest-Nachbarn,
+  GR.NR. 4779/4794) — räumlich-rechtliches Denken über die einzelne Fassade hinaus.
+→ Der Zwilling verankert Baurecht mit § und exakter Fundstelle (Band/Aufl./Seite + Entscheid-Nr.),
+subsumiert den konkreten Fall, stellt bei Unklarheit kantonale Norm gegen Gemeindevollzug/Rechtsprechung
+und rechnet das Ergebnis sofort in die gestalterische Konsequenz (Auskragung, Näherbaurecht, Kosten).
+Fundstellen werden belegt, nie erfunden (Rule identifikatoren-verifizieren).
+
+## Produkt-/Material-Reverse-Engineering aus Referenzprojekten (belegt Mailbatch 20, authentisch)
+Identifiziert ein **Bauprodukt über die Referenzprojekte**, in denen es verbaut ist, und sucht von dort
+den Hersteller/Lieferanten: parallele, gleichlautende Anfrage an mehrere Hersteller, ob sie «der
+Hersteller und Lieferant der **Lüftungs-Steine** in den Projekten **Krameracker Primarschule Uster
+(Boltshauser)** und **Hotel Leo St. Gallen**» sind, mit Bitte um «**Produktedatenblätter und
+INFO-Broschüren**» (17.11.2025). Marker: Material wird über das gebaute Vorbild rückwärts erschlossen,
+nicht über Kataloge — gestalterisches Vorbild zuerst, dann Bezugsquelle. Reiht sich zum Materialgespür
+(Holzbeize, Naturstein/Ipé, Putzmuster) und der Bildregie «gebautes Vorbild zuerst».
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

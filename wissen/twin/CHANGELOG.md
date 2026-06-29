@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-29 — twin-mail-training (täglich), Batch 20 (Sent rj@ 2025-11-17…11-20)
+- 15 Mails gesichtet, 5 Volltexte gelesen (alle authentisch, klar vor-Claude). Hauptfaden: Projekt 2414
+  Thalwil, Näherbaurecht/Vordach-Vergrösserung über Terrasse (Grenze SBB + Nordwest-Nachbar) — fachliche
+  Beratung an Bauherr-Partner (Du) + beweissichere Bauamt-Vorabklärung Thalwil (Sie). Mikro-Metrik 842 W:
+  Du-Gross-Quote **0.75**, Satzlänge ø **17.2 W**, keine Apostroph-Zahlen/Ellipsen (registerbedingt).
+- [[fachsignatur]]: Näherbau/Vordach **inline-gerechnet** (§ 270 PBG, § 6c ABV, IVHB-Leitfaden) mit
+  Subsumtion + **Quelle gegen Quelle** (§ 6c ABV/IVHB S. 17 → 2 m vs. Fritzsche/Bösch/Wipf/Kunz S. 1069,
+  VB.2013.00266, BEZ 1991 Nr. 37 → 1 m), Recht→gestalterische Konsequenz, Mehrkörper-Eckenüberschneidung;
+  plus Produkt-Reverse-Engineering aus Referenzprojekten (Lüftungssteine).
+- [[denken]]: Wenn-dann-Stufenmodell mit voller Folgekette (Kosten/Zustimmungen/Abänderungseingabe),
+  kippender Schwellenwert (1 m) offengelegt, proaktiver Risiko-Vorgriff, ehrliche Wissensgrenze.
+- [[haltung]]: gestalterischer Anspruch ehrlich gegen baurechtliche Realität («unschön»), kein Schönreden.
+- [[arbeitsweise]]: Behörden-Vorabklärung beweissicher — Quelle-gegen-Quelle, geschlossene A/oder/B-
+  Entscheidungsfrage, Hintergrund, breite Adressierung, Antwort an Bauherr durchgestellt.
+- [[beziehungsregister]]: Mappings Stefan Tschopp (Bauherr-Partner 2414, Du) / Bauamt Thalwil (Sehr
+  geehrte Frau Steiger) / SBB Fegerl-Vigen (Verfahrens-Sie) / generische Lieferanten («Guten Tag»).
+- [[stimme]]: «cooles» Umgangssprache rahmt §-Argumentation im Du-Fachmail; Telefon-Fallback + Doppel-
+  Signoff bestätigt; «–»-Entscheidungsfrage/Lieferanten-«Guten Tag» bereits via Fidelity 260628/260626.
+- raw/_INGESTED.md: Sweep abgedeckt bis 2025-11-20; nächster Lauf ab 2025-11-21. Stub 260629-mailbatch-20.md.
+
 ## 2026-06-28 — twin-mail-training (täglich), Batch 19 (Sent rj@ 2025-11-07…11-14)
 - 15 Mails gesichtet, 6 Volltexte destilliert (alle authentisch, klar vor-Claude; kein AI-Paste-Signal —
   Esther-Mail in Aptos, kohärente RJ-Stimme, das eine generische «Ich hoffe es geht dir gut» nicht als

@@ -5,6 +5,32 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-29
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 06.07.)
+  und Mail-Eingang (seit 28.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** unveraendert zwei Verzugsfaelle. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **74 Tage ueberfaellig**, Mahnstufe 1) — naechste Frist 28.06. ueberschritten, die
+  Eskalation auf Stufe 2 (Mahnung 1) ist damit **ueberfaellig** (vor dem Versand mit dem
+  RE-00088-Konflikt abgleichen). RE-00097 (Hofer, CHF 500, faellig 16.06., **13 Tage ueberfaellig**,
+  Mahnstufe 1) — naechste Frist **30.06. = morgen**. Kein Zahlungseingang seit dem letzten Lauf.
+- **AG-Gruendung (unveraendert hoch):** HRA-Voranfrage «JANS AG» (Geschaeft 043830-2026) liegt bei
+  der zustaendigen Abteilung — kein Bescheid eingegangen. Namensentscheid + UBS-Unterschrift bleiben
+  blockiert, bis der HRA-Bescheid vorliegt. Beide Zeilen bleiben offen/nachfassen.
+- **Mail-Eingang (seit 28.06., kein neues Frist-Item):** nur zwei Zahlungsbelege STUDIO 3DSIXTY
+  (Stripe/HubSpot, CHF 54.05 — Info, keine JANS-Frist) und das gestrige eigene Logbuch-Briefing.
+- **Kalender naechste 7 Tage (Outlook):** nur 01.07. — generisches «Neues Ereignis» 09:00–10:00 und
+  privat «Fuehrung, Food & Faenen» FIFA-Museum 15:45–21:00. Beide bereits im Register.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (Eskalation **ueberfaellig**), RE-00097 (30.06. morgen),
+  AG-Gruendung (UBS-Unterschrift + Namensentscheid, HRA-Bescheid abwarten), KISPI LOS274.01
+  (definitive Offerte verlangen), Termine 01.07. Dauerhaft offen: SharePoint-Speicher,
+  bexio-Doppelimport, EPROID B26-00705.01 (ab 02.07.), dwg Ramminger, Unterlagen Scherbl,
+  Status/Beton Tschopp, Freischaltung Merci, Rueckmeldung Chaled, Jomos-Status, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-28
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 05.07.)

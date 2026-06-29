@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -426,6 +426,23 @@ wachsenden Vertrautheit»; 😊 erlaubt im warm-sozialen Du (→ [[stimme]]).
   Amts zurück, sondern wählt das neutralere «Guten Tag» (vgl. Service-/Datenstellen-Erstgruss).
 - **Genus-Slip im warmen Eil-Du an Männer:** «Danke liebe Linus» / «Hoi liebe Peter» (→ [[stimme]]) —
   das «liebe» rutscht auf männliche Vornamen (Flüchtigkeit, kein Register-Signal).
+
+## Neue Mappings: Bauherrn-Partner, Thalwiler Bauamt, SBB, generische Lieferanten (belegt Mailbatch 20, authentisch)
+- **Stefan Tschopp (stefan.tschopp@gmx.net, Bauherr/Bauherrschafts-Partner Projekt 2414 Thalwil,
+  Umfeld Gertrud Angerer):** vertraut-operatives Du «**Hoi Stefan**» / «**Lieber Gruss**» bzw. «**lgr**»
+  — laufende baurechtliche Beratung (Näherbau/Vordach), reziprok «Salut Raphael / Viele Grüsse Stefan».
+  Der private Bauherr im laufenden Mandat ist hier per Du (anders als die Privatkunden-Sie-Mittellage
+  «Guten Tag Frau/Herr»), weil eingespielt und persönlich-nah.
+- **Bauamt Gemeinde Thalwil — unbekannte Sachbearbeiterin startet förmlich:** «**Sehr geehrte Frau
+  Steiger**» (Aline Steiger, Bausekretärin) + Sie + «Freundliche Grüsse» + voller Block; gestapelte
+  Adressierung an die ganze Bau-Linie (Steiger/Hunn/Kummer + Sammelpostfach bau@thalwil.ch). Bestätigt:
+  neue Gemeinde-Behördenperson = «Sehr geehrte/r», erst erarbeitete Vertrautheit bringt «Geschätzte/r».
+  In der knappen Dank-Antwort Kurz-Signatur «Raphael Jans».
+- **SBB AG, Grundstücksmanagement (Alvhilde Fegerl-Vigen, Grundstücksspezialistin):** Sie-Fachstelle im
+  Näherbaurecht-Verfahren — von Raphael in der Sache zitiert/eingeordnet; reines Verfahrens-Sie.
+- **Generische Hersteller-/Lieferantenanfrage:** parallele Produktanfrage an unbekannte Firmen mit
+  neutralem «**Guten Tag**» (ohne Namen) + Sie + voller Block — der formell-knappe Erstkontakt zum
+  unbekannten Lieferanten (vgl. Service-/Datenstellen-Erstgruss; → [[stimme]]).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
