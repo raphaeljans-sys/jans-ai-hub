@@ -2,12 +2,12 @@
 name: 20-ausnahmen-bestandesschutz
 kapitel: "20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen"
 band: 2
-seiten: "1433-1449 (Uebersicht 20.1; Ausnahmebewilligung § 220 PBG 20.2 mit Geltungsbereich/Abgrenzungen/Voraussetzungen besondere Verhaeltnisse-Gesetzeszweck-Nachbarschutz-Zustaendigkeit; Bestandesschutz § 357 Abs. 1 PBG 20.3 mit rechtmaessiger Erstellung, Widerspruch zu Bauvorschriften, zulaessige Massnahmen Umbau/Erweiterung/Nutzungsaenderung)"
-shots: "720-728 (distilliert, S. 1433-1449; Kapitelfortsetzung § 357 Abs. 4/5 Verbesserungen/Milderungen + baupolizeiliche Missstaende + Brandstattrecht § 307 PBG, Shots ab 729/S. 1450 ff. offen)"
-paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 262 PBG", "§ 67 PBG", "§ 49 Abs. 3 PBG", "§ 100 PBG", "§ 101 PBG", "§ 269 PBG", "§ 275 Abs. 2 PBG", "§ 360 PBG", "§ 21 WWG", "Art. 24 RPG", "Art. 24c RPG", "Art. 37a RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 9 BV", "Art. 8 ZGB", "§ 34 BBV I"]
+seiten: "1433-1455 (Uebersicht 20.1; Ausnahmebewilligung § 220 PBG 20.2 mit Geltungsbereich/Abgrenzungen/Voraussetzungen besondere Verhaeltnisse-Gesetzeszweck-Nachbarschutz-Zustaendigkeit; Bestandesschutz § 357 Abs. 1 PBG 20.3 mit rechtmaessiger Erstellung, Widerspruch zu Bauvorschriften, zulaessige Massnahmen Umbau/Erweiterung/Nutzungsaenderung; NEU S. 1450-1455: Erweiterungen-Kasuistik/Massvorschriften 20.3.3.3, Praxisbeispiele Umbauten/Erweiterungen, Nutzungsaenderungen, weitergehende Abweichungen 20.3.3.5, Schranke oeffentl./nachbarl. Interessen 20.3.3.4, Verbesserungen § 357 Abs. 4 PBG 20.3.4)"
+shots: "720-731 (distilliert, S. 1433-1455; Kapitelfortsetzung § 357 Abs. 5 Milderungen + baupolizeiliche Missstaende S. 1456 ff. + Brandstattrecht § 307 PBG S. 1457 ff. weiterhin offen — Shots ab 732 nicht in diesem Lauf)"
+paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 262 PBG", "§ 67 PBG", "§ 49 Abs. 3 PBG", "§ 100 PBG", "§ 101 PBG", "§ 269 PBG", "§ 275 Abs. 2 PBG", "§ 360 PBG", "§ 21 WWG", "Art. 24 RPG", "Art. 24c RPG", "Art. 24c Abs. 2 RPG", "Art. 37a RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 9 BV", "Art. 8 ZGB", "§ 34 BBV I"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-06-18
+last_updated: 2026-06-29
 ---
 
 # Kap. 20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen
@@ -188,6 +188,153 @@ Gesamtwuerdigung zu beurteilen.
     ueberwiegenden oeffentlichen oder nachbarlichen Interessen** entgegenstehen (§ 357 Abs. 1
     letzter Satzteil; VB.2004.00252).
 
+#### Erweiterungen — Kasuistik der zulaessigen/unzulaessigen Massvorschriften (Forts. 20.3.3.3, S. 1450-1453)
+- **Analog zu Umbauten:** Auch fuer **Erweiterungen** gilt die altrechtlich bewilligte Bausubstanz
+  als Anknuepfung; § 357 Abs. 2 PBG entwickelte Praxis, noch von ungemessener Erweiterung. Wie beim
+  Umbau ist die Grenze die **neubauaehnliche Umgestaltung**: Eine ueber das uebliche Mass
+  hinausgehende, einmal konsumierte Erweiterung kann gesamthaft nur einmal beansprucht werden
+  (VB.2011.00159). Bei Eintritt des Tatbestands der Vorschriftswidrigkeit (BEZ 1992 Nr. 30) ist
+  unter Beruecksichtigung aller Geschichtspunkte zu wuerdigen, ob das hinausgehen, was noch unter
+  den Begriff der teilweisen Aenderung der massvollen Erweiterung nach Art. 24c Abs. 2 RPG fallen
+  wuerde (S. 1450). **Ein festes Mass** dafuer, was noch als zulaessig bewilligt werden kann, gibt
+  es nach der Praxis nicht — Ermessensspielraum der Baubehoerde (S. 1450).
+- **Beispiele bejahter zulaessiger Erweiterungen/Aufstockungen** (S. 1450-1451; weitere bei WILLI
+  2003 S. 103 ff.):
+  - **Aufbauendes Attikageschoss**, das die bestehende Nutzflaeche um mehr als zwei Drittel
+    vergroessert und die Identitaet mit dem bestehenden eingeschossigen Gebaeude nicht erkennen
+    laesst, faellt **nicht** mehr unter das Privileg von § 357 Abs. 1 PBG (BEZ 1993 Nr. 31).
+  - **Abstandswidriges Gebaeude**, das nicht auf der bestehenden Gebaeudeflucht erweitert wird
+    (BEZ 2002 Nr. 20): Erweiterung ist auf den ordnungsgemaessen Grenzabstand zurueckzusetzen,
+    ausser es wird eine Ausnahmebewilligung gestuetzt auf § 220 PBG erteilt.
+  - **Erhoehung der Baumasse** eines Baumassenziffer-bereits ueberschreitenden Gebaeudes sprengt
+    den Rahmen von § 357 Abs. 1 PBG und erfordert eine Ausnahmebewilligung (VB.2001.00282;
+    BEZ 2002 Nr. 20). Dies gilt auch dann, wenn die Erhoehung nur 2 Prozent der gesamten Baumasse
+    ausmacht (BEZ 2002 Nr. 21). Analoges gilt fuer andere Massvorschriften wie z. B. die
+    Ausnuetzungsziffer.
+  - **Erweiterung eines vorschriftswidrigen Betriebs** kann zulaessig sein, wenn die neuen
+    Betriebsflaechen in einem untergeordneten Verhaeltnis zu den bereits vorhandenen stehen und
+    keine ueberwiegenden oeffentlichen/nachbarlichen Interessen entgegenstehen (BEZ 2010 Nr. 64).
+- **Beispiele verneinter (unzulaessiger) Erweiterungen** (S. 1451-1452):
+  - **Erweiterung des bestehenden Gebaeudes ins Vollgeschoss um vieleinhalb** stellt nicht nur ein
+    zusaetzliches Vollgeschoss, sondern eine Aenderung der Identitaet dar (BEZ 2003 Nr. 23).
+  - **Vergroesserung der anrechenbaren Wohnflaeche** in einem Geschoss, das nicht zur Wohnflaeche
+    genutzt werden darf, ist eine weitergehende Abweichung (VB.2002.00156).
+  - **Verschiebung Untergeschoss → Wohnung** und Aenderung der Suedwestfassade mit neuer
+    Aussenwaermedaemmung sowie zwei weiteren Obergeschossen → neue Identitaet/Umgehung der fuer
+    Neubauten geltenden Vorschriften (S. 1452).
+  - **Aufbau eines Attikageschosses** auf ein zur altrechtlichen Areal-Ueberbauung gehoerendes
+    Gebaeude: nicht als Gesamtueberbauung wesentliches Merkmal der Arealbebauung, sprengt den
+    Rahmen (BEZ 2009 Nr. 20).
+  - **Volumen- und nutzbare Schaffung** unter Anhebung des Daches: Investitionsschutz nicht mehr
+    gegeben, vor allem starke Aenderung der Erscheinung — bei Weitem uebertrifft das bisherige
+    Gebaeude (VB.2007.00280).
+
+#### Praxisbeispiele zu Umbauten und Erweiterungen (20.3.3.3 Forts., S. 1451)
+- Nachfolgend weitere Beispiele von Umbauten und Erweiterungen, die von den Gerichten als
+  **zulaessig** erklaert wurden (weitere bei WILLI 2003 S. 103 ff.):
+  - **Dachausbau** (inkl. zur Ausnuetzung anrechenbarer) Dach- oder Untergeschosse ist zulaessig,
+    selbst wenn das Grundstueck bereits uebernutzt ist (BEZ 1990 Nr. 24).
+  - **Bauliche Aenderung** eines abstandswidrigen Wohnhauses, bestehend in Anhebung des Daches um
+    0,7 m, Einbau von drei Lukarnen, untergeordnete Anbringen ist zulaessig (BEZ 2010 Nr. 24).
+  - **Einrichtung von Bueros** anstelle von gewerblichen Arbeits-/Lagerraeumen mittels
+    geringfuegiger baulicher Massnahmen ist zulaessig (BEZ 1992 Nr. 30).
+  - **Umbau** unterschritt auf seiner Nordwest-Seite den Suedostgrenzabstand, Aufstockung eines
+    bestehenden, die zonengemaesse Ausnuetzung um 5 m ueberschreitenden Gebaeudes (Region W3
+    zulaessige Ausnuetzung 105 Prozent statt 90 Prozent); das Projekt umfasste den Ausbau des
+    Dachgeschosses zu Wohnzwecken, der sich dadurch durch die Anhebung des Firsts um 1,5 m und die
+    entsprechende Veraenderung der Dachneigung (neu 33° gegenueber bisher 22°) auswirkte. Das
+    Verwaltungsgericht beurteilte die Aufstockung hinsichtlich ihres Umfangs als mit § 357 Abs. 1
+    PBG vereinbar; im konkreten Fall waren jedoch die nachbarlichen Interessen ueberwiegend
+    (VB.2004.00425).
+  - **Geplant** war ein bestehendes Einfamilienhaus mit einem Vollgeschoss unter einem Satteldach
+    durch ein zweites Vollgeschoss unter einem neuen Satteldach mit mehr Neigung von 18° aufzustocken
+    (das bestehende Satteldach war stark geneigt): Das Gebaeude wies einen Grenzabstand von nur
+    4,5 m statt 5 m auf (BEZ 2006 Nr. 39, mit weiteren Hinweisen).
+  - Es stellt **keine neue oder weitergehende Abweichung** zu Vorschriften dar, das Dach eines
+    zufolge Rechtsaenderung gegen die zulaessige Gebaeudehoehe vorzustehende Bauteil eines stellte,
+    die zulaessige Firsthoehe ausschoepfendes Dach zu ersetzen (vgl. dazu auch BEZ 2011 Nr. 20;
+    BEZ 2006 Nr. 40).
+  - Dem Ersatz einer **Mobiliaranlage** behandelte das Verwaltungsgericht als unzulaessigen Neubau
+    (VB.2006.00725). Das Bundesgericht entschied jedoch, dass dieser Ersatz gestuetzt auf § 357
+    Abs. 1 PBG zulaessig ist (BGer 1C_550/2017).
+
+#### Nutzungsaenderungen (20.3.3.3 Forts., S. 1452-1454)
+- Im Anwendungsbereich von § 357 Abs. 1 PBG duerfen bestehende vorschriftswidrige Bauten/Anlagen
+  auch **anderweitigen Nutzungen** zugefuehrt werden, sofern sie sich fuer die zonengemaesse Nutzung
+  **nicht eignen**. Die zonengemaesse Nutzung kann sich beziehen auf Bausubstanz/innere Struktur der
+  Baute/Anlage, auf Lage und Umgebung. Die hervorragende **Eignung eines Gebiets als Wohnlage** ist
+  anders zu beurteilen als eine mindere Wohnqualitaet. Zu beruecksichtigen sind auch die fuer die
+  Herstellung einer zonengemaessen Nutzungsmoeglichkeit erforderlichen baulichen Aufwendungen im
+  Verhaeltnis zu jenem der geplanten Massnahmen (PBG aktuell 1/2009 S. 24 ff. betreffend ehemalige
+  Drogenklinik als Asyldurchgangszentrum; BEZ 2008 Nr. 38) (S. 1452-1453).
+- Bei einer Nutzungsaenderung im Sinne von § 357 Abs. 1 PBG, mit der vorschriftswidrige Bauten/Anlagen
+  einer anderen vorschriftswidrigen Nutzung zugefuehrt werden, muessen die hierfuer ausser Frage,
+  dass die Umnutzung eine einfach nicht zonenkonforme in eine neue konformere Nutzung ueber den Titel
+  von § 357 Abs. 1 PBG erlaubt ist. Die damit verbundenen baulichen Massnahmen duerfen keine verpoente
+  **Gesetzesumgehung** implizieren (BEZ 2016 Nr. 4) (S. 1453).
+- Nach der Praxis des Baukursgerichts ist jedenfalls dann **nicht** von einer «anderen» Nutzung im
+  Sinne von § 357 Abs. 1 PBG auszugehen, wenn die bisherige Bewerbung eines Gebaeudes keine wesentliche
+  Aenderung nach § 357 Abs. 1 PBG: Es liegt dann eine (bewilligungsfreie) nicht relevante Aenderung vor.
+  Demgegenueber ist die Umnutzung von Bueros zu einer sexgewerblichen Nutzung relevant und stellt eine
+  «andere» Nutzung im Sinne von § 357 Abs. 1 PBG dar (VB.2001.00073, bestaetigt mit BGer 1P.771/2001;
+  WILLI 2003 S. 115). Nicht massgebend ist das Mass der einschlaegigen baulichen Massnahmen (so auch
+  WILLI 2003 S. 115) (S. 1454).
+- **Zum Vorbehalt der Nichteignung bzw. der erforderlichen Gesamtbetrachtung** vgl. BEZ 1992 Nr. 30:
+  Die teilweise Umnutzung eines Gewerbebaus konzipierten und den Wohnanteil-vorschriftswidrigen Gebaeudes
+  zu Bueros erklaerte das Verwaltungsgericht als zulaessig, da die Einrichtung von Wohnraum im
+  beurteilten Fall nur mit unverhaeltnismaessigem Aufwand moeglich waere und es keinen fuer das Wohnen
+  geeigneten Raeumen fuehren wuerde. Auch nach BGE 117 Ib 132 ff. sowie WILLI 2003 S. 116 ff. wo ein
+  ausfuehrlicher Katalog der zonenkonformen Nutzung (S. 1454).
+
+#### Schranke der oeffentlichen oder nachbarlichen Interessen (20.3.3.4, S. 1454-1455)
+- Umbauten, Erweiterungen oder Nutzungsaenderungen duerfen **keine ueberwiegenden oeffentlichen oder
+  nachbarlichen Interessen** entgegenstehen (§ 357 Abs. 1 Satz 1 [am Ende] PBG) — so hinsichtlich des
+  **Wohnanteils** (namentlich der Belichtung und Besonnung) und der idellen Immissionen, welche bei
+  vesselt-Abstandsunterschreitungen in der Beurteilung mitzuwirken haben (BEZ 1993 Nr. 30). Hinsichtlich
+  der Abstaende sind die wohnhygienischen und feuerpolizeilichen Anforderungen zu beachten (BEZ 2002 Nr. 20).
+- Bei Abwaegung der gemaess § 357 Abs. 1 PBG im Spiel stehenden Interessen hat die Bauherrschaft, der
+  Nachbarschaft und der Oeffentlichkeit hat die Bewilligungsbehoerde **alle durch das Bauprojekt
+  beruehrten nachbarlichen Interessen einzubeziehen**, und nicht nur jene der ihren Bauverfahrenstand
+  verlangenden oder spaeter rekurrierenden Nachbarn. Die nachbarlichen und oeffentlichen Interessen sind
+  gegenueber jenen der Bauherrschaft abzuwaegen (BEZ 2010 Nr. 24 bezueglich Aufstockung eines dispensweise
+  bewilligten Traktes; VB.2004.00425 bezueglich Aufstockung eines abstandswidrigen Gebaeudes [mit
+  ausfuehrlichen Erwaegungen zum Nachbarschutz]; BEZ 1993 Nr. 30 bezueglich Anhebung des Daches und Einbaus
+  von Lukarnen, wenn der Abstand zwischen den Gebaeuden nur 3,2-4,5 m betraegt und durch die Anhebung des
+  Daches [vorliegend 0,7 m] die gegen das Nachbargebaeude gerichtete Fassade deutlich vergroessert wird)
+  (S. 1455).
+
+#### Weitergehende Abweichungen (20.3.3.5, S. 1455)
+- In § 357 Abs. 1 Satz 2 PBG wird festgehalten, dass fuer **neue oder weitergehende Abweichungen** von
+  Vorschriften die erforderlichen **Ausnahmebewilligungen vorbehalten** bleiben. Ausnahmegruende laegen
+  also ueber § 357 Abs. 1 PBG hinaus in der Vorschriftswidrigkeit. Bestehen Ausnahmegruende gemaess § 220
+  PBG, die ueber § 357 Abs. 1 PBG hinausgehenden Aenderungen zu verlangen. Hinsichtlich abstandswidrigen
+  Bauten besteht immerhin noch die Moeglichkeit der nachbarlichen Zustimmung (S. 1455).
+- Durch eine solche weitergehende Abweichung, die den Rahmen von § 357 Abs. 1 PBG sprengt, wird die
+  **Bestandesgarantie** zerstoert. Das gilt nicht fuer die den Vorschriften widersprechende bestehende
+  Bausubstanz, sofern diese mit dem umgebauten Objekt eine rechtliche und wirtschaftliche **Einheit**
+  bilden (BEZ 2002 Nr. 46) (S. 1455).
+
+### 20.3.4 Verbesserungen gemaess § 357 Abs. 4 PBG (S. 1455)
+- Im Rahmen der Bewilligung von § 357 Abs. 1 PBG steht der Baubehoerde die Kompetenz zu, Verbesserungen
+  zu verlangen. Nach **§ 357 Abs. 4 PBG** kann mit der baurechtlichen Bewilligung verlangt werden,
+  gegenueber dem bestehenden Zustand Verbesserungen vorgenommen werden, die im oeffentlichen Interesse
+  liegen und den Umstaenden zumutbar sind. Diese Bestimmung erlaubt der Baubehoerde, Uebelstaende im
+  Zusammenhang mit baulichen Verfahren beseitigen zu lassen. Es lassen sich aber auch fuer untergeordnete
+  gestalterische Gestaltung unter Umgebungsplanung, Verbesserung der Waermedaemmung, Massnahmen der
+  behindertengerechten Gestaltung oder Verbesserung der Zufahrt (VB.2012.00768).
+- Der Bestimmung von § 357 Abs. 4 PBG liegt die Ueberlegung zugrunde, dass eine vorschriftswidrige Baute
+  durch Umbau/Aenderung nach § 357 Abs. 1 PBG meistens auch die Lebensdauer der Baute und Anlage
+  verlaengert. In diesem Zusammenhang erscheint es als angemessen, ein gewisses **Entgegenkommen**
+  gegenueber dem Grundeigentuemer rechtfertigt auf den anderen Seite gewisse bauliche Massnahmen zur
+  Anpassung an eine neue Rechtslage. Die Grenze fuer zusaetzliche Anforderungen dieser Art liegt bei der
+  **Zumutbarkeit** (als Teilgehalt des Verhaeltnismaessigkeitsprinzips). Die verlangten Verbesserungen
+  muessen im oeffentlichen Interesse liegen und dem Grundeigentuemer zumutbar sein (S. 1455).
+
+> **Hinweis Lesegenauigkeit:** Die Reader-Aufnahme dieses Abschnitts (S. 1450-1455) ist stellenweise
+> OCR-unscharf (Aktenzeichen/Prozentwerte); einzelne Fundstellen und Zahlen sind im Zweifel am E-Book
+> gegenzupruefen (Rule `identifikatoren-verifizieren`). Kernaussagen (keine feste Quote, Identitaets-/
+> Umgehungstest, Interessenabwaegung, § 357 Abs. 4 Verbesserungen bei Zumutbarkeit) sind belegt.
+
 ## Formeln & Schwellenwerte (woertlich, mit Beleg)
 
 - **§ 220 PBG:** Befreiung im Einzelfall bei **besonderen Verhaeltnissen** + Unverhaeltnismaessigkeit
@@ -248,9 +395,9 @@ Gesamtwuerdigung zu beurteilen.
 
 - **Wortlaut § 357 Abs. 1 PBG** und § 220 PBG am **amtlichen PBG-Volltext** (raw/) gegenpruefen —
   hier nach Buch S. 1434/1444 sinngemaess wiedergegeben (Modell D/E naechster Lauf).
-- **§ 357 Abs. 4 (Verbesserungen) und Abs. 5 (Milderungen)** noch nicht im Detail distilliert —
-  Shots ab 729 / S. 1450 ff.
+- **§ 357 Abs. 4 (Verbesserungen)** distilliert (Lauf 2026-06-29, S. 1455). **§ 357 Abs. 5
+  (Milderungen)** noch offen — Shots ab 732 / S. 1456 ff.
 - **Baupolizeiliche Missstaende** (S. 1456 ff.) und **Brandstattrecht § 307 PBG** (S. 1457 ff.) —
-  vierter/dritter Tatbestand der Uebersicht — noch offen.
+  vierter/dritter Tatbestand der Uebersicht — weiterhin offen (Shots ab 732 nicht in diesem Lauf).
 - Verhaeltnis § 357 ↔ **§ 101 PBG** (baulinienwidriger Bestand, schon in [[baulinien-und-abstandslinien]])
   und ↔ **Art. 24c RPG** (ausserhalb Bauzone, Kap. 21) im Wiki sauber abgrenzen.

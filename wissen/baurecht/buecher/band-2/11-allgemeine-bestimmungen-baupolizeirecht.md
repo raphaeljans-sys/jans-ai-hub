@@ -1,0 +1,137 @@
+---
+name: 11-allgemeine-bestimmungen-baupolizeirecht
+kapitel: 11 — Allgemeine Bestimmungen des Baupolizeirechts
+band: 2
+seiten: 686–704
+shots: 345–355
+paragraphen: ["§ 218 PBG", "§ 219 PBG", "§ 220 PBG", "§ 222 PBG", "§ 223 PBG", "§ 224 PBG", "§ 226 PBG", "§ 227 PBG", "§ 228 PBG", "§ 229 PBG", "§ 230 PBG", "§ 231 PBG", "§ 232 PBG", "§ 232–306 PBG", "§ 307 PBG", "§ 357 PBG", "§ 67a PBG", "§ 105 PBG", "§ 175 EG ZGB", "§ 179 EG ZGB", "§ 270 ZGB", "Art. 3 PBG", "Art. 42/75 BV", "Art. 691 ff. ZGB", "Art. 695 ZGB", "Art. 667 ZGB", "Art. 132 II 49 ff.", "§ 7 BVV", "Art. 75–79 FDV"]
+status: emerging
+gelesen: 2026-06-29
+last_updated: 2026-06-29
+---
+
+# Kap. 11 — Allgemeine Bestimmungen des Baupolizeirechts
+
+## 1. Das Wichtigste in 1–3 Saetzen
+
+Das Baupolizeirecht beruht auf der verfassungsrechtlichen Kompetenzausscheidung Bund/Kantone und liegt hauptsaechlich im kantonalen Recht (Art. 3, 42, 75 BV); die «Bauvorschriften» (§ 218–306 PBG) sind oeffentliches, zwingendes Recht, von dem privatrechtliche Vereinbarungen nur dort abweichen koennen, wo das Gesetz dies ausdruecklich zulaesst (§ 218 Abs. 2 PBG). Das Kapitel behandelt die uebergreifenden Institute: Bauvorschriften (Rechtsnatur, Verschaerfung/Milderung), Gemeinschaftswerke, Immissionsschutz (§ 226 PBG), Unterhalt und Parzellierung sowie die Inanspruchnahme von Dritt- und oeffentlichem Grund (§ 229–231 PBG).
+
+## 2. Begriffe & Paragraphen
+
+### Uebersicht / Systematik
+- Das Baupolizeirecht steht im PBG unter **IV. Titel, 1. Abschnitt** und enthaelt die «Bauvorschriften» (§ 218–306 PBG) als materielles Baurecht; das baurechtliche Verfahren ist Kapitel 6–8 (S. 686).
+- Die **Allgemeinen Bestimmungen** sind **§ 218–232 PBG**; danach folgen: Grundanforderungen an Bauten (§ 233–249 PBG), zulaessige bauliche Grundstuecksnutzungen (§ 250–293 PBG), Anforderungen an Gebaeude und Raeume (§ 294–306 PBG) und das Brandschutzrecht (§ 307 PBG) (S. 686).
+- Gemeinsamkeit aller genannten Bestimmungen: sie alle gelten als «Bauvorschriften» (S. 686).
+
+### Bauvorschriften — Rechtsnatur (§ 218 PBG)
+- Bauvorschriften sind **oeffentliches und damit zwingendes Recht** (§ 218 Abs. 1 PBG); sie binden die Behoerden (S. 686).
+- **Privatrechtliche Regelung** nur zulaessig, wo das Gesetz dies ausdruecklich vorsieht (§ 218 Abs. 2 PBG); Hauptbeispiel ist § 270 ZGB (Naeherbaurecht — Verweis im Buch auf S. 1096 ff.) (S. 686).
+- Abweichungen von Bauvorschriften aufgrund § 220 PBG nur, sofern das Gesetz die Norm selbst ausdruecklich solche zulaesst (Verweis S. 1434 ff.) (S. 686).
+- Unterscheidung oeffentlich-/privatrechtliche Angelegenheiten: § 4 VRG — oeffentlich-rechtliche werden vom Verwaltungsgericht beurteilt, privatrechtliche vom Zivilgericht (Verweis § 821) (S. 686).
+
+### Bauvorschriften des Bundesrechts / interkantonalen Rechts (§ 222 ff.)
+- Grundsatz: **jeder Kanton hat sein eigenes Baugesetz** mit eigenen Bauvorschriften (Art. 3, 42, 75 BV); daneben bestehen bundesrechtliche Bauvorschriften wegen bedeutender Infrastrukturanlagen / weitreichender Gesetzgebungskompetenzen des Bundes (S. 687).
+- Genannte Bundeserlasse mit Bauvorschriften (S. 687): Nationalstrassen (Art. 83 BV), Eisenbahn (Art. 87 BV), Flugplaetze (Art. 87 BV), Elektrizitaetsgesetz (LFG), Luftfahrtgesetz, Gewaesserschutz (Art. 76 Abs. 3 BV), Behindertengleichstellungsgesetz (BehiG, Art. 8 Abs. 4 BV), sowie Umweltrecht (USG — Laermschutz-VO [LSV], Stoerfall-VO [StFV], NISV) (S. 687).
+- **Interkantonales Recht / IVHB**: Interkantonale Vereinbarung ueber die Harmonisierung der Baubegriffe (IVHB); harmonisiert Baubegriffe und Messweisen (Hoehen, Laengen, Geschossigkeit, Abstaende). Kanton ZH ist der IVHB **nicht beigetreten**, hat aber die Begriffsdefinitionen des PBG und der ABV daran angenaehert (S. 687–688). Die Kantonsrats-Vorlage zur Umsetzung im PBG (RRB Nr. 119/2014 v. 29.1.2014, Vorlage 5058; RRB Nr. 120/2014) und die entsprechenden PBG-/ABV-Aenderungen traten **am 1. Maerz 2017** in Kraft (S. 688).
+- Genannte SIA-Normen: SIA-Norm 421 (Raumplanung/Nutzungsziffern), SIA-Norm 422 (Bauzonenkapazitaet) (S. 687); fuer ZH gelten die Begriffe des PBG und der ABV, nicht direkt die SIA-Normen (S. 687).
+- **Bauvorschriften des Privatrechts** (§ 11.2.2.3): nicht alle Rechtssaetze zur Realisierung von Bauvorhaben sind oeffentlich-rechtlich; privatrechtlich u.a. das Verfuegungsrecht ueber Grundeigentum, nachbarrechtliche Verhaeltnisse, Grundeigentuemerrecht. Beispiele: Naeherbaurecht (§ 270 Abs. 3 PBG), Durchleitungsrecht (Art. 691 ff. ZGB), Zutrittsrecht (§ 237 Abs. 4 PBG), Hammerschlagrecht (Art. 695 ZGB, § 229 f. PBG). Kognition des Verwaltungsgerichts ist ggf. eingeschraenkt (Verweis S. 339) (S. 688).
+- **Private Bauvorschriften** (§ 11.2.2.4): privatrechtlich organisierte Normenvereinigungen (SIA, VSS usw.) erlassen private Bauvorschriften (S. 688).
+
+### Verschaerfung und Milderung von Bauvorschriften (§ 219 PBG)
+- Fuer Bauten/Anlagen, die in **ungewoehnlicher Weise** benuetzt werden, besonders starken Verkehr ausloesen oder Nachbarschaft/Bevoelkerung erhoehte Gefahren bringen, kann die Bauvorschrift verschaerft **oder** gemildert werden — solange eine solche dafuer bestimmte Bauvorschrift dies erlaubt (§ 219 PBG) (S. 689).
+- Die Regierungsrat hat den Auftrag, zur Verschaerfung/Milderung fuer besondere Bauten/Anlagen eine Verordnung (**BBV II**) zu erlassen (S. 689).
+- BBV II: generell-abstrakt — verschaerfte Anforderungen fuer Verkaufsgeschaefte, Beherbergungsstaetten mit grosser Personenbelegung sowie Gebaeude mit brennbaren Aussenwaenden und feuergefaehrlichem Inhalt (S. 689). Umkehrt enthaelt die VO auch Erleichterungen fuer Gartenhaeuser, hohe Bauwerke, Litahnbauten und Baubaracken (Verweis VB.2005.00370) (S. 689).
+
+### Gemeinschaftswerke (§ 222 PBG)
+- **Inhalt und Voraussetzungen**: Das PBG erlaubt Erstellung gemeinschaftlicher Anlagen, Ausstattungen und Ausruestungen in verschiedenen Bereichen; Gemeinschaftsanlagen koennen verlangt werden fuer Zugaenge (§ 237 Abs. 3 PBG), Fahrzeugabstellplaetze (§ 245 Abs. 2 PBG) und Heizungen (§ 295 PBG) (S. 689–690).
+- Anforderungen an Wohnlichkeit/Wohnhygiene, Verkehrs-/Versorgungsloesungen nach Art und Grad der Ausruestung (§ 71 Abs. 2, § 83 Abs. 1, § 83 Abs. 3 PBG) (S. 690).
+- **§ 222 PBG**: wo oeffentliches Interesse entgegensteht, kann die Eigentuemer-Gemeinschaft verpflichtet werden, gemeinschaftliche Vorkehren (Quartierplan, Sonderbauvorschriften, Gestaltungsplan) auch ausserhalb planungsrechtlicher Vorkehren zu treffen; Voraussetzung ist ein **hinreichendes oeffentliches Interesse** und Verhaeltnismaessigkeit (BEZ 2016 Nr. 37, E. 3.1 und 4.2; BEZ 1987 Nr. 6) (S. 690).
+- Rein private Interessen lassen sich mit § 222 PBG **nicht** durchsetzen (BEZ 1994 Nr. 18) (S. 690).
+- **Regelung der Rechtsverhaeltnisse** (§ 223 PBG): bei hinreichendem oeffentlichem Interesse setzt der Gemeindevorstand den Beteiligten eine angemessene Frist zum Abschluss einer Vereinbarung; diese muss u.a. Geldausgleich, Kosten fuer Bau/Betrieb/Unterhalt ordnen; bedarf der Genehmigung durch den Gemeindevorstand (§ 223 PBG) (S. 691). Kommt keine Einigung zustande, kann der Gemeindevorstand die Verhaeltnisse durch Verfuegung festsetzen (§ 224 Abs. 2 PBG) (S. 691).
+- **Bau der Anlagen** (§ 11.3.3): Gemeinschaftswerke sind durch die beteiligten Grundeigentuemer zu bauen; ist dies nicht moeglich, gelten sinngemaess die Bestimmungen ueber die Erschliessungsanlagen (§ 224 Abs. 2, § 167, § 169 PBG) (S. 691).
+
+### Immissionsschutz (§ 226 PBG)
+- **Inhalt** (§ 226 Abs. 1 PBG): jedermann ist verpflichtet, bei Eigentums- und Besitzesausuebung alle zumutbaren baulichen und betrieblichen Massnahmen zu treffen, um Einwirkungen auf die Umgebung gering zu halten (vgl. BGE 2015 Nr. 17, E. 3.4.1 betr. Jungbienenzucht in Wohnzone) (S. 692).
+- Diese Vorschrift bestimmt, dass bei Benuetzung von Bauten/Anlagen/Ausstattungen/Betriebsflaechen nicht in einer nach den Umstaenden uebermaessigen Weise auf die Umwelt eingewirkt werden darf; uebermaessige Immissionen sind durch bauliche/betriebliche Massnahmen zu vermeiden, sonst ist der Betrieb/die Anlage zu untersagen (§ 226 Abs. 4 PBG) (S. 692).
+- Gilt sinngemaess auch fuer die Ausfuehrung von Bauarbeiten (§ 226 Abs. 4 PBG); in der Baubewilligung koennen Verkehrswege fuer bestimmte Bauarbeiten/Baustellenverkehr angeordnet werden (§ 226 Abs. 5 PBG) (S. 692).
+- **Abgrenzung zum privatrechtlichen Immissionsschutz** (§ 11.4.2): baurechtlich relevante Immissionen sind stets Beeintraechtigungen physischer Art (Laerm, Gerueche, Duenste, Staub, Erschuetterung, Lichtentzug). § 226 PBG bietet keinen Schutz gegen **ideelle** Immissionen (aesthetischer Art, z.B. anstoessiges Sexgewerbe; vgl. VB.2012.00557, E. 9.3) — dafuer privatrechtlicher Schutz (S. 692).
+- **Schranken** (§ 11.4.3): die Bedeutung von § 226 PBG wird dreierlei eingeschraenkt — durch die **Zonenordnung**, die **Umweltschutzvorschriften** und die **primaeren Baubegrenzungsnormen** (BEZ 1987 Nr. 36) (S. 693):
+  - *Zonenordnung*: wo das Mass der zulaessigen Immissionen bereits durch die Zonenordnung vorgezeichnet ist, deckt sich § 226 PBG mit ihr; eine nach der Zonenordnung hinsichtlich ihrer Immissionsstaerke zulaessige Baute/Anlage kann mit Ausnahmefaellen gestuetzt auf § 226 PBG nicht untersagt werden (vgl. dazu § 293 Abs. 3 PBG sowie Verweis S. 976 ff.) (S. 693).
+  - *Umweltschutzvorschriften*: die eidg. USG-Gesetzgebung enthaelt detaillierte Vorschriften ueber die zulaessigen Immissionen; sie gehen § 226 PBG vor (§ 13, § 19 BBV 1). § 226 PBG hat nur dort eigenstaendige Bedeutung, wo das eidg. Umweltschutzrecht keine Aussagen enthaelt (BGE 118 Ib 590, E. 3; Verweis S. 1358 ff.); zur Auslegung dazu BEZ 2006 Nr. 5 (S. 693).
+  - *Primaere Baubegrenzungsnormen*: § 226 PBG verschafft keinen weitergehenden Schutz als die primaeren Baubegrenzungsnormen (Abstaende, Hoehen u.dgl.) (VB.2003.00640, E. 5.4.3; BEZ 1990 Nr. 28) (S. 693).
+- **Schwertransporte** (§ 227 PBG, § 11.4.4): ein Spezialfall — Betriebe mit Schwertransporten sind nur zulaessig, wenn ein aufeinanderfolgender Schwerverkehr angewiesen ist; betroffene Gemeinde kann fuer solche Betriebe das Begehren um Genehmigung durch die Baudirektion vorbehalten (§ 227 PBG) (S. 694).
+
+### Unterhalt und Parzellierung von Grundstuecken (§ 228 PBG)
+- **Unterhaltspflichten** (§ 228 Abs. 1 PBG): Grundstuecke, Bauten, Anlagen, Ausruestungen und Ausstattungen sind so zu unterhalten, dass weder Personen noch das Eigentum Dritter gefaehrdet werden; der Baubehoerde ist die notgedrungene Anordnung zur Behebung von Missstaenden zu treffen; bei mangelndem Unterhalt eines Gebaeudes/Grundstuecks kann nach § 58 OR Haftpflicht entstehen (Verweis S. 871 ff.) (S. 694).
+- **Parzellierung von Grundstuecken** (§ 11.5.2): durch Parzellierung (Unterteilung) duerfen keine den Bauvorschriften widersprechenden Verhaeltnisse geschaffen werden (§ 228 Abs. 2 PBG) (S. 694). In der Praxis koennen Verkehrung durch Grundstuecke zahlreiche Ablehnungsgruende entgegenstehen, am haeufigsten zur Abstandsverletzung, Ausnuetzungsuebertragungen u.a. (S. 694).
+- Bei Abstandsunterschreitungen bedarf es nachfolgender Zustimmung (§ 270 Abs. 3 PBG) oder einer Ausnahmebewilligung (§ 220 PBG); fuer Ausnuetzungsuebertragung einer entsprechenden Ausnuetzungsuebertragung. Offnungen im Grenzfassaden (§ 289 PBG) (S. 694). Verweis Grenzbau (§ 287 PBG).
+- **Ausnuetzungstransfer / Ausnuetzungsuebertragung** (§ 11.5.2.1, S. 695): im Rahmen einer Parzellierung kann keine Ausnuetzungsuebertragung bewilligt werden, wenn die Ausnuetzung mit Bewilligung des Projekts bereits tatsaechlich angewiesen ist. Eine Uebertragung von Ausnuetzung setzt voraus, dass das nachbarliche Grundstueck den Bauherrn fuer ein anderes Zweck verwendbare Ueberschuss zur Folge hat (S. 695). Verweis: Berechnung der abparzellierten Arealueberbauungsgrundstuecke BEZ 2008 Nr. 57.
+- **Spaetere Rechtsaenderungen** (§ 11.5.2.2, S. 695): erfolgt nach Ueberbauung eine Rechtsaenderung, welche das Ausnuetzungsmass erhoeht, so kann sich auch fuer den bisherigen Eigentuemer dies zugutekommen; massgebend ist neues Recht (VB.2010.00437, E. 5.2; BEZ 1988 Nr. 34) (S. 695).
+- **Parzellierungen an der Bauzonengrenze** (§ 11.5.2.3, S. 695–696): Bewilligung der Baudirektion erforderlich (Kreisschreiben Baudirektion v. 20.12.2007, wiedergegeben in PBG aktuell 1/2008, S. 30). Abparzellierungen ueber die Bauzonengrenze hinaus nicht mehr zulaessig, damit Bauzonen nicht faktisch erweitert werden (S. 695–696). Bei der naechsten Revision der Bau- und Zonenordnung den Abstand von Gebaeuden zur Nichtbauzone verbindlich festzulegen (zum Beispiel 5 Meter) und am Nahbereich anzuschliessen; Kreisschreiben v. 4. Mai 2015 (S. 696).
+
+### Inanspruchnahme von Drittgrundstuecken (§ 229 PBG)
+- **Voraussetzungen** (§ 229 PBG, § 11.6.1.1): jeder Grundeigentuemer ist berechtigt, **Nachbargrundstuecke zu betreten und voruebergehend zu benutzen**, wenn dies fuer die Erstellung, Veraenderung oder den Unterhalt von Bauten/Anlagen/Ausstattungen noetig ist; das Eigentum des Betroffenen darf nicht uebermaessig oder unnoetig beeintraechtigt werden (§ 229 Abs. 1 PBG). Dieses Recht ist moeglichst schonend und gegen volle Entschaedigung auszuueben (§ 229 Abs. 2 PBG) (S. 696).
+- Es geht um eine Inanspruchnahme gegenueber Drittgrundstuecken, nicht gegenueber Gemeinschaftsgrundstuecken (S. 696).
+- Dieses Recht heisst in der Praxis **«Hammerschlags-» oder Leiterrecht**; die Kantone sind aufgrund Art. 695 ZGB kompetent, solche Vorschriften zu erlassen (§ 175 f. und § 179 EG ZGB) (S. 696).
+- **Beispiele und Abgrenzungen** (§ 11.6.1.2): das Eigentum an Grund/Boden erstreckt sich nach oben/unten, soweit fuer die Ausuebung des Eigentums ein Interesse besteht (Art. 667 Abs. 1 ZGB); Schneiden ueberragender Aeste/Wurzeln (§ 179 EG ZGB) gilt nicht als eigentliche Bauarbeit (S. 696). Hammerschlagsrecht ist auf das **direkt angrenzende Grundstueck** beschraenkt; nicht-direkt angrenzende Grundstuecke nicht erfasst (BRKE IV Nr. 6 und 7/2010, E. 1) (S. 697).
+- Bundesgerichtspraxis (S. 697): die Ablagerung von Baumaterialien oder das Errichten eines Baugeruestes (auch ueber 30 Jahre zurueck) ist gestuetzt auf Art. 695 ZGB zulaessig (BGE 104 II 166, E. 3c; BGE 107 II 134, E. 3c). Das Bundesgericht erachtet das Abgraben des Nachbargrundstuecks zur Erstellung einer Spundwand als zulaessige Inanspruchnahme (BRGE 1 Nr. 54/2014); im Rahmen der Realisierung muss das absolut Notwendige beschraenkt und einer Interessenabwaegung standhalten (BRGE 1 Nr. 54/2014, E. 4.3) (S. 697).
+- **Entschaedigung** (§ 11.6.1.3, S. 698): die Hoehe bemisst sich nach Dauer der Beanspruchung, Verkehrswert des beanspruchten Landes und absolute Zinssatz. Berechnung der Beanspruchung eines Nachbargrundstuecks fuer ein Jahr nach folgender **Formel** (S. 698):
+
+  | Abkuerzung | Bezeichnung | Berechnung |
+  |---|---|---|
+  | E | Entschaedigung | E = B × A; zu bezahlende Entschaedigung fuer ein Jahr Beanspruchung |
+  | B | Bruttorendite | Die kostendeckende Bruttorendite liegt praxisgemaess um 2 Prozentpunkte ueber dem Referenzzinssatz |
+  | A | Anlagewert | Verkehrswert der beanspruchten Anlage beziehungsweise Flaeche |
+
+  An Stelle des Wortlauts von § 4 PBG massgebenden Zinssatzes der Zuercher Kantonalbank fuer bestehende erste Hypotheken ist der Referenzzinssatz des Bundesamts fuer Wohnungswesen heranzuziehen (BEZ 2016 Nr. 40, E. 4.3) (S. 698).
+- **Verfahren** (§ 11.6.1.4, S. 698–699): § 229 PBG geht davon aus, dass sich die beteiligten Nachbarn ueber die Inanspruchnahme und allfaellige Entschaedigung einigen; ist keine Einigung moeglich, richtet sich das Vorgehen nach **§ 230 PBG** (S. 699).
+- **§ 230 PBG**: der Betroffene hat **30 Tage** Zeit, seine Zustimmung zu erteilen (§ 230 Abs. 1 PBG); stimmt er innert 30 Tagen mit der Mitteilung nicht zu oder einigen sich die Beteiligten nicht ueber die Entschaedigung, entscheidet auf Begehren die oertliche Baubehoerde in einem Verwaltungsverfahren (§ 230 Abs. 2 PBG) (S. 699).
+- **Rechtsmittel** (§ 11.6.1.5, S. 700): gegen Entscheid der oertlichen Baubehoerde steht zunaechst der Rekurs an die Baurekurskommission offen (§ 329 Abs. 1 PBG), anschliessend die Beschwerde ans Verwaltungsgericht; je nach Fokus (zivilrechtliche Streitfrage Art. 74 BGG) Beschwerde in Zivilsachen / Bundesgericht (S. 700).
+
+### Inanspruchnahme von oeffentlichem Grund (§ 231 PBG)
+- **Allgemeines** (§ 231 Abs. 1 PBG, § 11.6.2.1, S. 700): § 231 verlangt fuer die Inanspruchnahme oeffentlichen Grundes mit Einschluss von Erdreich und Luftraum zu privaten Zwecken je nach Umstaenden eine **Bewilligung oder Konzession** (gesteigerter Gemeingebrauch oder Sondernutzung). Bewilligung erforderlich u.a. fuer Beanspruchung durch Bauinstallationen, Erdanker, Leitungen, Reklameanlagen u.dgl. (§ 320 PBG); Gebuehrenpflicht der Gemeinden (S. 700–701).
+- Plakataushang auf oeffentlichem Grund ist Vergabe im Sinn des Submissionsrechts; nicht ueber Bewilligung/Konzession, sondern Verleihung einer Sondernutzungskonzession (VB.2007.00105; BEZ 2000 Nr. 44; BGE 125 I 209) (S. 701).
+- **Entschaedigung** (§ 11.6.2.2, S. 701): die Inanspruchnahme des oeffentlichen Grundes ist zu entschaedigen, soweit nicht durch planungsrechtliche Festlegungen Anderes vorgesehen (§ 231 Abs. 2 PBG); Ausnahmen von der Gebuehrenpflicht betreffen u.a. Gebaeudevorspruenge (§ 100 Abs. 2 PBG; Antrag des Regierungsrats zum PBG [Abl 1973, S. 1855]); kantonaler Rechtsanspruch nach § 197 lit. d EG ZGB (S. 701).
+- Auf kantonaler Ebene regelt § 231 PBG die Benutzung des oeffentlichen Grundes (§§ 6 ff. BVV); zustaendig ist das kantonale Tiefbauamt (§ 22 BVV) (S. 701).
+- **Konzessionsrecht** (§ 11.6.2.3, S. 702): am Zuercher Teile des Flachufers zur Landgewinnung aufgeschuettete Land mittels Konzession geregelt und sogenannte Landanlagekonzessionen vergeben (Verweis Vogel); gestuetzt auf die Landanlagekonzessionen hat die Baudirektion Anforderungen an Gestaltung und bauliche Nutzung wie Abstaende oder Gebaeudedimensionen umschrieben (BGE 139 II 470). Das Bundesgericht hat in den Richtlinien umschriebenen Vorgaben mangels gesetzlicher Grundlage im PBG als unzulaessig beurteilt. Gewaesserschutz: Gewaesserraeume noch nicht festgelegt, gilt nach Uebergangsbestimmung zu den Aenderungen vom 4. Mai 2011 der Gewaesserschutzverordnung fuer neue Bauten/Anlagen ein Abstand von mindestens **20 m** von der Uferlinie (S. 702–703). Mit § 67a PBG eine gesetzliche Grundlage geschaffen fuer Freihalte- und Erholungszonen im Uferbereich (S. 703).
+- **Fernmeldedienste** (§ 11.6.2.4, S. 703): Eigentuemer von Boden im Gemeingebrauch (Strassen, Fusswege, oeffentliche Plaetze, Fluesse) muessen Leitungen und oeffentliche Sprechstellen zu bewilligen, sofern diese Einrichtungen den Gemeingebrauch nicht beeintraechtigen (Art. 35 Abs. 2–4 FMG und Art. 75–79 FDV enthalten Detailbestimmungen). Anbieter von Fernmeldediensten koennen Durchleitung Art. 691 ff. ZGB erwerben (Verweis S. 704) (S. 703).
+- **Inanspruchnahme privater Grundstuecke durch das Gemeinwesen** (§ 232 PBG, § 11.6.3, S. 703): das Gemeinwesen ist berechtigt, Grundstuecke sowie Bauten/Anlagen Dritter im oeffentlichen Interesse liegende Einrichtungen unentgeltlich anzubringen (z.B. Strassentafeln, unterirdische Leitungen) (§ 232 Abs. 1 PBG); bei dauernder Beanspruchung haben Betroffene Anspruch auf Kosten-Anpassung der Verguetung (§ 232 Abs. 2 PBG). Behoerden duerfen Parzellen/Gebaeude Dritter betreten, soweit fuer Kontrollaufgaben notwendig (§ 232 Abs. 3 PBG; vgl. Maeder 1991, S. 323; Verweis S. 627 f.) (S. 703).
+- **Leitungsbaurecht** (§ 11.6.4, S. 704): innerhalb der Baulinien besteht fuer oeffentliche Unternehmungen und solche, die oeffentliche Aufgaben erfuellen, das Recht zum Bau von unterirdischen Leitungen samt zugehoerigen Bauwerken (**Leitungsbaurecht**; Verweis VB.2008.00596). Inanspruchnahme ist dem Eigentuemer rechtzeitig schriftlich mitzuteilen; entstandener Schaden ist zu ersetzen. Kommt keine Einigung zustande, ist das Verfahren nach AbtrG durchzufuehren (§ 105 PBG sieht eine gesetzliche Eigentumsbeschraenkung vor — keine foermliche Enteignung, eine den Regeln des Privatrechts unterworfene Dienstbarkeit; § 37 StrG) (S. 704).
+- Soweit nicht ein Leitungsbaurecht nach § 105 PBG besteht oder quartierplanrechtliche Grundsaetze Anwendung finden, sind die erforderlichen Durchleitungsrechte privatrechtlich zu erwerben (Art. 691 Abs. 1 ZGB — Pflicht des Grundeigentuemers zur Duldung unterirdischer Leitungen gegen vollen Schadenersatz, sofern keine unverhaeltnismaessigen Kosten; Verlegung der Leitung gegen Kostentragung Art. 693 ZGB; Leitungsdienstbarkeiten seit 2012 Eintragung nach Art. 742 ZGB auf Kosten des Belasteten) (S. 704).
+
+## 3. Formeln & Schwellenwerte (woertlich aus dem Buch)
+
+- **Entschaedigungsformel Inanspruchnahme Nachbargrundstueck** (§ 229 PBG, S. 698): **E = B × A**
+  - E = zu bezahlende Entschaedigung fuer ein Jahr Beanspruchung
+  - B = Bruttorendite (kostendeckend, praxisgemaess **um 2 Prozentpunkte ueber dem Referenzzinssatz** des Bundesamts fuer Wohnungswesen)
+  - A = Anlagewert (Verkehrswert der beanspruchten Anlage bzw. Flaeche)
+- **Zustimmungsfrist** Inanspruchnahme: **30 Tage** (§ 230 Abs. 1 PBG, S. 699).
+- **Gewaesserabstand** (Uebergangsbestimmung): mindestens **20 m** von der Uferlinie fuer neue Bauten/Anlagen, solange der Gewaesserraum noch nicht festgelegt ist (Uebergangsbestimmung GSchV-Aenderung 4. Mai 2011, S. 703).
+- **Abstand Bauzone/Nichtbauzone**: beispielhaft **5 Meter** als bei naechster BZO-Revision verbindlich festzulegender Abstand (Kreisschreiben v. 4.5.2015, S. 696).
+
+## 4. Praxis / Fallrecht (aus dem Buch zitiert)
+
+- **§ 222 PBG**: hinreichendes oeffentliches Interesse als Voraussetzung — BEZ 2016 Nr. 37, E. 3.1 / 4.2; BEZ 1987 Nr. 6; rein private Interessen genuegen nicht — BEZ 1994 Nr. 18 (S. 690).
+- **§ 226 PBG / Immissionen**: Jungbienenzucht in Wohnzone BGE 2015 Nr. 17, E. 3.4.1 (S. 692); ideelle Immissionen kein Schutz VB.2012.00557, E. 9.3 (S. 692); Schranke Umweltschutzrecht BGE 118 Ib 590, E. 3; BEZ 2006 Nr. 5 (S. 693); Schranke primaere Baubegrenzung VB.2003.00640, E. 5.4.3; BEZ 1990 Nr. 28 (S. 693).
+- **§ 229/Art. 695 ZGB / Hammerschlagsrecht**: Baumaterialablagerung/Geruest BGE 104 II 166, E. 3c; BGE 107 II 134, E. 3c (S. 697); Abgraben fuer Spundwand zulaessig BRGE 1 Nr. 54/2014, E. 4.3 (S. 697); Beschraenkung auf direkt angrenzendes Grundstueck BRKE IV Nr. 6 und 7/2010, E. 1 (S. 697).
+- **§ 229 / Entschaedigung**: Referenzzinssatz BWO statt ZKB-Hypothekarzins BEZ 2016 Nr. 40, E. 4.3 (S. 698).
+- **§ 231 / oeffentlicher Grund**: Plakataushang als Submission VB.2007.00105; BEZ 2000 Nr. 44; BGE 125 I 209 (S. 701).
+- **§ 231 / Konzessionsrecht**: Landanlagekonzessionen — Richtlinien ohne gesetzliche Grundlage unzulaessig BGE 139 II 470 (S. 702).
+- **IVHB-Umsetzung ZH**: RRB Nr. 119/2014 + 120/2014, Inkraftsetzung 1.3.2017 (S. 688).
+
+## 5. Anwendungs-Transfer JANS *(eigene Einordnung — nicht aus dem Buch)*
+
+- **Hammerschlagsrecht (§ 229 PBG) ist das Praxis-Werkzeug fuer beengte Baustellen**: bei JANS-Projekten in dicht bebauten ZH-Lagen (z.B. Innenstadt-/Aufstockungsprojekte) gibt § 229 PBG das Recht, das Nachbargrundstueck fuer Geruest, Baumaterial-Ablagerung oder sogar eine Spundwand-Abgrabung voruebergehend zu nutzen — gegen volle Entschaedigung nach der Formel E = B × A. Wichtig: nur **direkt angrenzende** Grundstuecke, und die 30-Tage-Frist (§ 230) sauber einhalten, bevor man die Baubehoerde anruft. *(eigene Einordnung)*
+- **§ 226 PBG-Schranken sind fuer Machbarkeit/Vorabklaerung entscheidend**: ein Bauherr kann mit Immissionsargumenten ein zonenkonformes Projekt **nicht** kippen, wenn das USG-Recht die Frage abschliessend regelt oder die Zonenordnung das Mass bereits vorzeichnet. Das ist ein starkes Argument gegen Nachbar-Einsprachen — relevant fuer Skills `machbarkeit`, `behoerden-vorabklaerung` und Einsprache-Repliken. *(eigene Einordnung)*
+- **Parzellierung an der Bauzonengrenze (§ 228, S. 695–696)**: bei JANS-Studien mit Grundstuecken am Siedlungsrand vorab pruefen, ob eine Abparzellierung ueber die Bauzonengrenze geplant ist — das ist **nicht** zulaessig (Kreisschreiben Baudirektion) und braucht eine BD-Bewilligung. Vor jeder Volumen-/Ausnuetzungsuebertragung gehoert das in den Befund. *(eigene Einordnung)*
+- **Ausnuetzungsuebertragung (§ 228)**: bei Arealueberbauungen/Etappierung kann Ausnuetzung nicht mehr uebertragen werden, sobald sie im bewilligten Projekt tatsaechlich beansprucht ist — relevant fuer Skill `machbarkeit` (Ausnuetzungsreserven). *(eigene Einordnung)*
+- **Leitungsbaurecht (§ 105 PBG) vs. privatrechtliche Durchleitung (Art. 691 ff. ZGB)**: bei Erschliessungsfragen klaeren, ob ein oeffentliches Leitungsbaurecht greift oder Durchleitungsrechte privatrechtlich (mit Eintrag nach Art. 742 ZGB, seit 2012) zu sichern sind — Schnittstelle zu `dienstbarkeiten-pruefer`. *(eigene Einordnung)*
+- **Brandschutz** (BBV II Verschaerfungen fuer Verkaufsgeschaefte/Beherbergung/brennbare Aussenwaende, § 219/§ 307 PBG): nur Querverweis → Skill `brandschutz`, hier kein Doppelaufbau.
+
+## 6. Offene Punkte / zu verifizieren
+
+- **§ 228 Parzellierung (S. 694–695)**: die OCR-/Lesequalitaet bei den Ausnuetzungsuebertragungs-Passagen (§ 11.5.2.1) war stellenweise unsicher — die genauen §-Verweise (§ 287/§ 289 PBG zu Grenzbau/Oeffnungen) und das BEZ 2008 Nr. 57 vor dem Zitieren am Original gegenpruefen. `speculative` bis verifiziert.
+- **§ 223/§ 224 PBG (Gemeinschaftswerke, Regelung Rechtsverhaeltnisse, S. 691)**: die exakte Absatz-Zuordnung (welcher Absatz Genehmigung, welcher Verfuegung) am Original nachschaerfen.
+- **§ 231 / § 197 lit. d EG ZGB (S. 701)**: der Verweis auf den kantonalen Rechtsanspruch und die Abl-1973-Fundstelle sind aus dichtem Fliesstext gelesen — gegenpruefen.
+- **Gewaesserabstand 20 m (S. 702–703)**: als Uebergangsregelung der GSchV gelesen; im konkreten Fall immer den aktuell **festgelegten Gewaesserraum** (Kanton ZH) abfragen, da die 20 m nur greifen, solange nichts festgelegt ist.
+- **Kapitel-Schluss**: Kap. 11 endet auf **S. 704**; S. 705–706 leer/Trenner, **S. 707** beginnt Kap. 12 «Baureife». Vollstaendigkeit der §-Liste (§ 218–232 PBG) damit abgedeckt.
