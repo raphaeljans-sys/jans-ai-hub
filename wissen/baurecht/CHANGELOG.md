@@ -4,6 +4,39 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-29 — Welle 1 Forcierung: 10 Destillate Band 2 (Buchhaltung zentral nachgefuehrt)
+- WELLE In EINER parallelen Welle (von parallelen Agenten) **10 Buch-Destillate Band 2** geschrieben;
+  die gemeinsame Buchhaltung in diesem Lauf zentral nachgefuehrt:
+  **Kap. 11** `buecher/band-2/11-allgemeine-bestimmungen-baupolizeirecht.md` (Shots 345-354, S. 686-704):
+  §§ 218-232 PBG, **Hammerschlagsrecht §§ 229/230 PBG**. NEU, `emerging`.
+  **Kap. 13 Teil 1** `13-weitere-grundanforderungen.md` (Shots 407-430, S. 810-857): **§ 238
+  Aesthetik-Generalklausel**, **Solar Art. 18a RPG**. NEU, `emerging` (Rest §§ 239a/240/242/248 ab Shot 431).
+  **Kap. 16 Teil 2** `16-gebaeudedimensionen-teil2-hoehen-dach.md` (Shots 581-600, S. 1154-1193):
+  Gebaeudehoehe §§ 278/279/280, **Firsthoehe § 281**, **§ 292/Art. 7a BO «Kaeseglocke»**, **§ 5 ABV
+  gewachsener Boden**. NEU, `emerging` («Umgebung» ab Shot 601 offen).
+  **Kap. 17 Teil 2** `17-gebaeude-und-raeume-teil2-ausruestungen.md` (Shots 632-655, S. 1256-1303):
+  §§ 295-298 PBG Heizung/Fernwaerme, **§ 4 ABV**, **§§ 239a/239b BehiG** (Hindernisfreiheit), Schutzraeume.
+  NEU, `emerging` (Garagen §§ 37-39 BBV I offen).
+  **Kap. 19** `19-baulicher-umweltschutz.md` (Shots 682-705, S. 1357-1403): USG/LRV/LSV, **Laerm ES I-IV**,
+  **Art. 31/32 LSV**, SIA 181. NEU, `emerging` (Rest ab Shot 706 offen).
+  **Kap. 20 Rest** `20-ausnahmen-bestandesschutz.md` ERWEITERT (Shots 729-731, S. 1450-1455): **§ 357 Abs. 4
+  Verbesserungen** + Erweiterungs-/Nutzungsaenderungs-Kasuistik. bleibt `emerging` (§ 357 Abs. 5 +
+  baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 732 offen).
+  **Kap. 15 § 274** `15-lage-von-gebaeuden-teil2d.md` ERWEITERT (Shots 560-570, S. 1112-1123): **§ 274 PBG
+  Grenzbaurecht** + **§ 27 Abs. 2 ABV**. Damit Kap. 15 bis auf 15.13 «Harmonisierungsvorlage» (S. 1124-1133) komplett.
+  **Kap. 21** `21-bauen-ausserhalb-bauzonen.md` (Shots 733-755, S. 1459-1503): **Art. 16/16a/24/24a-e RPG**,
+  **Art. 42 RPV** (30 % / 100 m²), **Stichtag 1.7.1972**. NEU, `emerging` (Rest Art. 24d/24e/37a ab Shot 756).
+  **Kap. 22** `22-privatrechtliche-bauvorschriften.md` (Shots 761-773, S. 1517-1534): Nachbarrecht **ZGB
+  Art. 679/684/685 ff.**, **§§ 169-178 EG ZGB Pflanzenabstaende**. NEU, `emerging`.
+  **Kap. 23** `23-glossar-architektur.md` (Shots 774-781, S. 1537-1549): Glossar mit §-Belegen. NEU, `emerging`.
+- BILANZ **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 (via taeglichem Loop) + Kap. 12-Rest § 236.
+- REGISTER nachgefuehrt: `buecher/seiten-inventar.md` (Shots 345-354/407-430/560-570/581-600/632-655/682-705/
+  729-731/733-755/761-781 → [x] + echte Seiten + Destillat-Link, 159 Zeilen), `buecher/INDEX.md` (8 neue
+  Eintraege + Kap. 15/20 erweitert + Abdeckungs-Matrix Kap. 11/13/16/17/19/21/22/23 ergaenzt, Kap. 15 🟢,
+  «uebrige» auf Band 1 Kap. 1-5/10 reduziert), `training/curriculum.md` (Status-Flags Kap. 11/13/15/16/17/19/
+  20/21/22/23), `training/PROGRAMM.md` (Tracker: ~289 Doppelseiten, 23 Destillate, Welle-1-Eintrag, naechster
+  Lauf Band-1-Tail + Kap. 12-Rest). Die 10 Destillat-Dateien selbst in diesem Lauf NICHT veraendert (nur Buchhaltung).
+
 ## 2026-06-28 — Buch-Destillat BAND 2 Kap. 12 Teil 2 (Zugaenglichkeit/OEV), Run 15 (Phase 2)
 - ERWEITERT `buecher/band-2/12-baureife.md` um **Teil 2 (Shots 364-372, echte Seiten 724-741,
   9 Doppelseiten)**: **12.3.3 Technische Anforderungen/Zugangsarten** (§ 2 Abs. 1 ZN) mit der

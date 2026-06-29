@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -40,19 +40,19 @@ Distillieren echte Seitenzahlen nachfuehren.
 
 | Kap | Titel | Seite | Shot ≈ | P | Status |
 |-----|-------|-------|--------|---|--------|
-| 11 | Allgemeine Bestimmungen des Baupolizeirechts | 685 | 345 | P2 | [ ] |
+| 11 | Allgemeine Bestimmungen des Baupolizeirechts | 685 | 345 | P2 | [~] (Welle 1, 2026-06-29, S.686-704, Shots 345-354: §§218-232 PBG + Hammerschlagsrecht §§229/230. Destillat [[band-2/11-allgemeine-bestimmungen-baupolizeirecht]]. `emerging`) |
 | 12 | Baureife | 707 | 356 | P2 | [~] (S.707-741, Shots 355-372, Run 14+15: **12.1 Allgemeines**, **12.2 Planungsrechtliche Baureife §234** (negative Vorwirkung, Abgrenzung §150/§264/Planungszone §346 3+2 J./§120), **12.3 Zugaenglichkeit T1+T2** (§§234-237, Erreichbarkeit 80m/40m, Notzufahrt 3m/16t §3 ZN, **Zugangsarten + Anhang-ZN-Tabelle** Breite/Radius je WE, Kehrplatz SN 640 052, Fussgaengerschutz, Erleichterungen §11 ZN/§360 Abs.3 PBG, Umweltschutzrecht Art.24 USG/§128, **OEV §237 Abs.1 Satz 2** AngebotsV/300-Personen). Destillat [[band-2/12-baureife]], Wiki [[baureife-und-erschliessung]]. **Rest: Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.742/Shot 373 offen**) |
-| 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [ ] |
+| 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [~] (Welle 1, 2026-06-29, S.810-857, Shots 407-430: §238 Aesthetik-Generalklausel + Solar Art.18a RPG. Destillat [[band-2/13-weitere-grundanforderungen]]. `emerging`. Rest §§239a/240/242/248 ab Shot 431 offen) |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
-| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1111: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3**; Restschuld nur § 274 Grenzbaurecht/Anbau, Shots ab 560) |
-| 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153; Hoehen/Dach offen) |
-| 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [~] (S.1241-1255: Wohnhygiene §§299-306 — Belichtung/Belueftung §302, Mindestflaeche §303, Raumhoehe §304, innere Erschliessung/Aufzug §305/§40 BBV I; Rest Einstellraeume-Detail + Ausruestungen/Beförderungsanlagen ab Shot 632 offen) |
-| 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] |
-| 19 | Baulicher Umweltschutz | 1357 | 681 | P2 | [ ] |
-| 20 | **Ausnahmetatbestaende bei vorschriftswidrigen Bauten** (Bestandesschutz) | 1433 | 719 | **P1** | [~] (S.1433-1449: § 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie/erweiterte Bestandesgarantie; Rest § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
-| 21 | Bauen ausserhalb der Bauzonen | 1459 | 732 | P2 | [ ] |
-| 22 | Privatrechtliche Bauvorschriften | 1517 | 761 | P3 | [ ] |
-| 23 | Glossar Architektur | 1537 | 771 | P3 | [ ] |
+| 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1123: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3** + **§274 Grenzbaurecht/§27 Abs.2 ABV** (Welle 1, 2026-06-29, Shots 560-570); Restschuld nur 15.13 Harmonisierungsvorlage S.1124-1133) |
+| 16 | Gebaeudedimensionen und Umgebung (Hoehen, Dach) | 1135 | 570 | **P1** | [~] (Teil 1 Geschosse/Kniestock S.1135-1153 + **Teil 2 Hoehen/Dach** Welle 1, 2026-06-29, S.1154-1193, Shots 581-600: Gebaeudehoehe §§278-280, Firsthoehe §281, §292/Art.7a BO «Kaeseglocke», §5 ABV gewachsener Boden, Destillat [[band-2/16-gebaeudedimensionen-teil2-hoehen-dach]]; «Umgebung» ab Shot 601 offen) |
+| 17 | Gebaeude und Raeume; Ausruestungen (Raumhoehe, Wohnhygiene) | 1241 | 623 | **P1** | [~] (S.1241-1255 Wohnhygiene §§299-306 + **Teil 2 Ausruestungen** Welle 1, 2026-06-29, S.1256-1303, Shots 632-655: §§295-298 PBG Heizung/Fernwaerme, §4 ABV, §§239a/239b BehiG, Schutzraeume, Destillat [[band-2/17-gebaeude-und-raeume-teil2-ausruestungen]]; Garagen §§37-39 BBV I offen) |
+| 18 | Brandschutz | 1321 | 663 | P2 → Skill `brandschutz` | [ ] (nur Querverweis, kein Doppelaufbau) |
+| 19 | Baulicher Umweltschutz | 1357 | 681 | P2 | [~] (Welle 1, 2026-06-29, S.1357-1403, Shots 682-705: USG/LRV/LSV, Laerm ES I-IV, Art.31/32 LSV, SIA 181. Destillat [[band-2/19-baulicher-umweltschutz]]. `emerging`. Rest ab Shot 706 offen) |
+| 20 | **Ausnahmetatbestaende bei vorschriftswidrigen Bauten** (Bestandesschutz) | 1433 | 719 | **P1** | [~] (S.1433-1449 § 220 + § 357 Besitzstandsgarantie + **§ 357 Abs.4 Verbesserungen** Welle 1, 2026-06-29, S.1450-1455, Shots 729-731; Rest § 357 Abs.5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 732 offen) |
+| 21 | Bauen ausserhalb der Bauzonen | 1459 | 732 | P2 | [~] (Welle 1, 2026-06-29, S.1459-1503, Shots 733-755: Art.16/16a/24/24a-e RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972. Destillat [[band-2/21-bauen-ausserhalb-bauzonen]]. `emerging`. Rest Art.24d/24e/37a ab Shot 756 offen) |
+| 22 | Privatrechtliche Bauvorschriften | 1517 | 761 | P3 | [~] (Welle 1, 2026-06-29, S.1517-1534, Shots 761-773: Nachbarrecht ZGB Art.679/684/685 ff. + §§169-178 EG ZGB Pflanzenabstaende. Destillat [[band-2/22-privatrechtliche-bauvorschriften]]. `emerging`) |
+| 23 | Glossar Architektur | 1537 | 771 | P3 | [~] (Welle 1, 2026-06-29, S.1537-1549, Shots 774-781: Glossar mit §-Belegen. Destillat [[band-2/23-glossar-architektur]]. `emerging`) |
 
 ## Erschliessungs-Reihenfolge (verbindlich)
 

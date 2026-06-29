@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,15 +92,28 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~390 / 1550 (~194 Doppelseiten; Kap. 14 weitgehend, Kap. 15 vollst. ausser
-  § 274, Kap. 16 Teil 1, Kap. 17 Teil 1, Kap. 20 Kern (§§ 220/357), Kap. 6 + Kap. 9 Kernbereich +
-  **Kap. 7 VOLLSTAENDIG** + **Kap. 8 Teil 1** Band 1 + **Kap. 12 Teil 1+2** (12.1/12.2/12.3 vollst. ausser § 236) Band 2).
-- **Kapitel-Destillate:** 13 Buch-Destillate (Kap. 12 (T1+T2)/14, 15×4-Teile/16/17/20 Band 2 + Kap. 6/7×2/8/9 Band 1; alle `emerging`).
+- **Seiten distilliert:** ~580 / 1550 (~289 Doppelseiten; Band 2 weitgehend komplett: Kap. 11/13/14/15
+  (inkl. § 274, nur 15.13 offen)/16 (T1+T2)/17 (T1+T2)/19/20 (inkl. § 357 Abs. 4)/21/22/23 + Kap. 12 (T1+T2,
+  ausser § 236); Band 1 Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** + **Kap. 8 Teil 1**. Welle 1
+  (Forcierung) 2026-06-29: +~95 Doppelseiten in EINER Welle).
+- **Kapitel-Destillate:** 23 Buch-Destillate (Band 2: Kap. 11/12 (T1+T2)/13/14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/
+  19/20/21/22/23; Band 1: Kap. 6/7×2/8/9; alle `emerging`).
 - **Wiki:** 16 Artikel (geschaerft [[baureife-und-erschliessung]] 2026-06-28 `emerging` (Zugangsarten/OEV);
   [[bauausfuehrung-und-baukontrolle]] 2026-06-22 `emerging`;
   [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21 `emerging`;
   [[baubewilligungsverfahren]] korrigiert: Baubewilligungsfrist nicht verlaengerbar).
-- **Letzter Lauf:** Run 15, 2026-06-28 — **Kap. 12 Teil 2 (Zugaenglichkeit-Detail/OEV)**, Shots 364-372,
+- **Welle 1 (Forcierung) 2026-06-29:** in EINER parallelen Welle 10 Destillate Band 2 geschrieben
+  (von parallelen Agenten), Buchhaltung zentral nachgefuehrt: **Kap. 11** (S. 686-704, §§218-232 PBG +
+  Hammerschlagsrecht §§229/230) · **Kap. 13 Teil 1** (S. 810-857, §238 Aesthetik-Generalklausel + Solar
+  Art.18a RPG) · **Kap. 16 Teil 2** (S. 1154-1193, Gebaeude-/Firsthoehe §§278-281, §292/Art.7a BO
+  «Kaeseglocke», §5 ABV gewachsener Boden) · **Kap. 17 Teil 2** (S. 1256-1303, §§295-298 PBG Heizung/
+  Fernwaerme, §4 ABV, §§239a/239b BehiG, Schutzraeume) · **Kap. 19** (S. 1357-1403, USG/LRV/LSV, Laerm
+  ES I-IV, Art.31/32 LSV, SIA 181) · **Kap. 20 Rest** (S. 1450-1455, §357 Abs.4 Verbesserungen) · **Kap. 15
+  §274** (S. 1112-1123, Grenzbaurecht + §27 Abs.2 ABV) · **Kap. 21** (S. 1459-1503, Art.16/16a/24/24a-e RPG,
+  Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
+  + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
+  `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
+- **Letzter Lauf (regulaer):** Run 15, 2026-06-28 — **Kap. 12 Teil 2 (Zugaenglichkeit-Detail/OEV)**, Shots 364-372,
   S. 724-741 (9 Doppelseiten): **12.3.3 Technische Anforderungen/Zugangsarten § 2 Abs. 1 ZN** + die
   **Anhang-ZN-Tabelle** (S. 726: Breite/Radius/lichte Hoehe je WE-Zahl; Kriterium Wohneinheiten =
   baulich Moegliches VB.2002.00273), **Kehrplatz** (Stichstrasse, VSS-Norm SN 640 052), **Erhoehung
@@ -119,10 +132,12 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Erreichbarkeit 80/40 m, Notzufahrt 3 m/16 t § 3 ZN). Neues Destillat [[band-2/12-baureife]], neuer
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
-- **Naechster Lauf:** **Kap. 12 Restschuld** (Band 2, S. 742 ff., Shots ab 373: Wasser/Energie § 236 +
-  Abwasser/Abfall/Altlasten — schliesst das Kapitel) — ODER **Kap. 13** «Weitere Grundanforderungen»
-  (S. 809, Shot ~407) bzw. eine P1-Restschuld (Kap. 16 Hoehen/
-  Dachaufbauten, Kap. 17 Ausruestungen, Kap. 20 § 357 Abs. 4/5) oder **Kap. 8 Restschuld** (S. 510-534).
+- **Naechster Lauf:** **Band 1 Tail** — die noch offenen Band-1-Kapitel **1-5** (Grundlagen/Raumplanung/
+  Erschliessung/Natur-Heimatschutz/Entschaedigung) + **10** (Widerrechtliche Bauten) via taeglichem Loop,
+  dazu **Kap. 12 Restschuld** (Band 2, S. 742 ff., Shots ab 373: Wasser/Energie § 236 + Abwasser/Abfall/
+  Altlasten — schliesst das Kapitel). Band-2-Restschulden nur noch klein (Kap. 13 §§239a/240/242/248,
+  Kap. 15.13 Harmonisierungsvorlage, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 19 ab Shot 706,
+  Kap. 20 § 357 Abs. 5/§ 307, Kap. 21 Art.24d/24e/37a, Kap. 8 Rest S.510-534).
 - **Restschuld Kap. 12:** Wasser-/Energieversorgung § 236 + Beseitigung Abwasser/Abfall/Altlasten +
   EV-Abschnitt (S. 749); **ab S. 742 / Shot 373** bis Kapitelende vor Kap. 13 (S. 809).
   (Zugaenglichkeit-Detail/Zugangsarten/OEV erledigt Run 15.)

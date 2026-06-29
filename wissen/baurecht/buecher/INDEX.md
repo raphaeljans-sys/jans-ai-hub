@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -11,6 +11,31 @@ Standardwerk **Fritzsche/Boesch/Wipf/Kunz, «Zuercher Planungs- und Baurecht», 
 Trainingslauf (`../training/PROGRAMM.md`).
 
 ## Band 2 — Bau- und Umweltrecht
+- [[11-allgemeine-bestimmungen-baupolizeirecht]] — Kap. 11 (S. 686-704): **Allgemeine Bestimmungen
+  des Baupolizeirechts** — §§ 218-232 PBG, **Hammerschlagsrecht §§ 229/230 PBG**. 10 Doppelseiten.
+  Status: `emerging`.
+- [[13-weitere-grundanforderungen]] — Kap. 13 Teil 1 (S. 810-857): **Weitere Grundanforderungen
+  an Bauten und Anlagen** — **§ 238 Aesthetik-Generalklausel** (Einordnung), **Solar Art. 18a RPG**.
+  24 Doppelseiten. Status: `emerging` (Rest > Shot 430 offen: §§ 239a/240/242/248).
+- [[16-gebaeudedimensionen-teil2-hoehen-dach]] — Kap. 16 Teil 2 (S. 1154-1193): **Gebaeude-/First-
+  hoehe** — §§ 278/279/280 PBG Gebaeudehoehe, **§ 281 Firsthoehe**, **§ 292/Art. 7a BO «Kaeseglocke»**,
+  **§ 5 ABV gewachsener Boden**. 20 Doppelseiten. Status: `emerging` (Rest «Umgebung» ab Shot 601 offen).
+  Speist [[geschosse-und-kniestock]].
+- [[17-gebaeude-und-raeume-teil2-ausruestungen]] — Kap. 17 Teil 2 (S. 1256-1303): **Ausruestungen** —
+  §§ 295-298 PBG Heizung/Fernwaerme, **§ 4 ABV**, **§§ 239a/239b BehiG** (Hindernisfreiheit), Schutzraeume.
+  24 Doppelseiten. Status: `emerging` (Garagen §§ 37-39 BBV I noch offen).
+  Speist [[wohnhygiene-und-raumanforderungen]].
+- [[19-baulicher-umweltschutz]] — Kap. 19 (S. 1357-1403): **Baulicher Umweltschutz** — USG/LRV/LSV,
+  **Laerm ES I-IV**, **Art. 31/32 LSV** (Empfindlichkeitsstufen/Bauzonen-Laermschutz), SIA 181.
+  24 Doppelseiten. Status: `emerging` (Rest > Shot 705 offen).
+- [[21-bauen-ausserhalb-bauzonen]] — Kap. 21 (S. 1459-1503): **Bauen ausserhalb der Bauzonen** —
+  **Art. 16/16a/24/24a-e RPG**, **Art. 42 RPV** (30 % / 100 m²), **Stichtag 1.7.1972**. 23 Doppelseiten.
+  Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a).
+- [[22-privatrechtliche-bauvorschriften]] — Kap. 22 (S. 1517-1534): **Privatrechtliche Bauvorschriften** —
+  Nachbarrecht **ZGB Art. 679/684/685 ff.**, **§§ 169-178 EG ZGB Pflanzenabstaende**. 13 Doppelseiten.
+  Status: `emerging`.
+- [[23-glossar-architektur]] — Kap. 23 (S. 1537-1549): **Glossar Architektur** — Begriffe mit §-Belegen.
+  8 Doppelseiten. Status: `emerging`.
 - [[14-nutzungsdichte-ausnuetzung]] — Kap. 14: AZ/BMZ/UEZ/Freiflaechenziffer, anrechenbare
   Geschossflaeche, **Dach-/UG-Mehrflaechenregel**, massgebliche Grundstuecksflaeche (§ 259),
   **Ausnuetzungsuebertragung** (§ 72 Abs. 3), erhoehte Nutzungsziffern/Boni (§ 49a),
@@ -55,8 +80,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **Naeherbaurecht § 270 Abs. 3 PBG** (Form/Nachweis § 5 lit. l BVV, Grundbuch Art. 680 Abs. 2 ZGB,
   7-m-Schranke BEZ 1990 Nr. 28, § 30 ABV), **Gebaeudeabstand = Summe der Grenzabstaende § 271**,
   Verkehrsraeume § 272, **Besondere Gebaeude § 273/§ 49 Abs. 3** (≤ 4/5 m, kein dauernder Aufenthalt,
-  3,5 m, ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75, Anbau-Selbststaendigkeit VB.2015.00544).
-  13 Doppelseiten. Status: `emerging`. **Schliesst Kap. 15** (Rest nur § 274). Speist [[abstaende-und-hoehen]].
+  3,5 m, ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75, Anbau-Selbststaendigkeit VB.2015.00544);
+  erweitert (S. 1112-1123, Shots 560-570) um **§ 274 PBG Grenzbaurecht** + **§ 27 Abs. 2 ABV**.
+  24 Doppelseiten. Status: `emerging`. **Schliesst Kap. 15 bis auf 15.13 «Harmonisierungsvorlage»**
+  (S. 1124-1133). Speist [[abstaende-und-hoehen]].
 
 - [[kap16-10_gebaeudedimensionen-harmonisierung]] — Kap. 16.10 (S. 1230-1239, ECHTE Seiten):
   Gebaeudedimensionen nach **Harmonisierungsvorlage (nPBG/IVHB)** — Geschossarten,
@@ -88,9 +115,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Besitzstandsgarantie** (rechtmaessige Erstellung materiell, nicht formell; Rechtsaenderung vs.
   Sachverhaltswandel; **erweiterte Bestandesgarantie** Umbau/Erweiterung/Nutzungsaenderung; Grenze =
   **neubauaehnliche Umgestaltung/Gesetzesumgehung — KEINE feste Quote**, BEZ 1996 Nr. 3; Nutzungsschutz
-  + Beweislast Art. 8 ZGB; Brandschutz/Bundesrecht keine «Bauvorschrift»). 8 Doppelseiten. Status:
-  `emerging` (§ 357 Abs. 4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen).
-  Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
+  + Beweislast Art. 8 ZGB; Brandschutz/Bundesrecht keine «Bauvorschrift»); erweitert (S. 1450-1455,
+  Shots 729-731) um **§ 357 Abs. 4 Verbesserungen** + Erweiterungs-/Nutzungsaenderungs-Kasuistik.
+  11 Doppelseiten. Status: `emerging` (§ 357 Abs. 5 + baupolizeil. Missstaende + Brandstattrecht
+  § 307 PBG, S. 1456 ff., offen). Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 - [[12-baureife]] — Kap. 12 Teil 1+2 (S. 707-741): **Baureife** als erstes der Grundanforderungen
   (§§ 233-249 PBG) — **technische Erschliessung** (Zugaenglichkeit/Wasser/Energie/Entsorgung,
   § 234/§ 236 PBG, Art. 19 RPG) + **planungsrechtliche Baureife § 234** (nur negative Vorwirkung,
@@ -172,15 +200,22 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | Kap | Titel | Abdeckung |
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
-| 15 | Lage von Gebaeuden | 🟡 teilweise (System/Gebaeudearten/Wald/Gewaesser/Baulinien S.995-1061 + Grenzabstand-Zahlenwerk §§269-270/ABV S.1062-1085; **Gebaeudeabstand §§271-274 offen**) |
-| 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153; Hoehen/Dachgestaltung offen) |
+| 11 | Allgemeine Bestimmungen Baupolizeirecht | 🟡 teilweise (§§218-232 PBG + Hammerschlagsrecht §§229/230, S.686-704) |
+| 13 | Weitere Grundanforderungen | 🟡 teilweise (§238 Aesthetik-Generalklausel + Solar Art.18a RPG, S.810-857; Rest §§239a/240/242/248 ab Shot 431 offen) |
+| 15 | Lage von Gebaeuden | 🟢 weitgehend (System/Gebaeudearten/Wald/Gewaesser/Baulinien + Grenz-/Gebaeudeabstand §§269-273 + Grenzbaurecht §274/§27 Abs.2 ABV, S.995-1123; **nur 15.13 Harmonisierungsvorlage S.1124-1133 offen**) |
+| 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153 + Gebaeude-/Firsthoehe §§278-281/§292 «Kaeseglocke»/§5 ABV S.1154-1193; «Umgebung» ab Shot 601 offen) |
 | 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
 | 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟢 vollstaendig (7.1 Entscheid/Nebenbestimmungen §321 + 7.1.5/7.1.6 Gueltigkeit/Widerruf §322/§328, 7.2 besondere kant. Zustaendigkeiten, 7.3 Vorentscheid §§323/324, 7.4 Auskuenfte — S.424-484) |
 | 8 | Ausfuehrung von Bauarbeiten | 🟡 teilweise (8.1 Baufreigabe §326/Meldepflichten §327 Abs.1/Kontrollen §327 Abs.2/Bezugsbewilligung+Schlusskontrolle/Akteneinsicht + 8.2 Unterbruch §328 + 8.3-Anfang §239, S.485-509; 8.3-Detail + Kap.-Ende S.510-534 offen) |
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
-| 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 — Belichtung/Belueftung/Mindestflaeche/Raumhoehe/Aufzug S.1241-1255; Ausruestungen/Einstellraeume-Detail + §§295-298 ab Shot 632 offen) |
-| 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie S.1433-1449; § 357 Abs.4/5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 729 offen) |
+| 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 S.1241-1255 + Ausruestungen §§295-298/§4 ABV/Heizung-Fernwaerme + Hindernisfreiheit §§239a/239b BehiG + Schutzraeume S.1256-1303; Garagen §§37-39 BBV I offen) |
+| 19 | Baulicher Umweltschutz | 🟡 teilweise (USG/LRV/LSV, Laerm ES I-IV, Art.31/32 LSV, SIA 181, S.1357-1403; Rest ab Shot 706 offen) |
+| 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie + § 357 Abs.4 Verbesserungen S.1433-1455; § 357 Abs.5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 732 offen) |
+| 21 | Bauen ausserhalb Bauzonen | 🟡 teilweise (Art.16/16a/24/24a-e RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972, S.1459-1503; Rest Art.24d/24e/37a ab Shot 756 offen) |
+| 22 | Privatrechtliche Bauvorschriften | 🟡 teilweise (Nachbarrecht ZGB Art.679/684/685 ff. + §§169-178 EG ZGB Pflanzenabstaende, S.1517-1534) |
+| 23 | Glossar Architektur | 🟡 teilweise (Begriffe mit §-Belegen, S.1537-1549) |
 | 12 | Baureife | 🟡 teilweise (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2, S.707-741; Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.742 offen) |
-| 1-5, 10-11, 13, 18-19, 21-23 | uebrige | ⬜ offen |
+| 18 | Brandschutz | ⬜ offen — nur Querverweis auf Skill `brandschutz` (kein Doppelaufbau) |
+| 1-5, 10 | uebrige (Band 1) | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

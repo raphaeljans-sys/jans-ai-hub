@@ -36,9 +36,10 @@ wurden.
   (Garagenlüftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht vertieft.
 
 ## Offene Wissenslücken — neu (2026-06-18, aus Buch-Run Kap. 20)
-- **§ 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) offen:** nur Abs. 1 (erweiterte
-  Bestandesgarantie) distilliert. Abs. 4 (Verbesserungen am Bestand verlangbar) + Abs. 5
-  (Milderung von Bauvorschriften für zweckmässige Nutzung) ab Shot 729 / S. 1450 ff. nachziehen.
+- **§ 357 Abs. 4 (Verbesserungen)** → **teil-erledigt 2026-06-29** (Welle 1): Abs. 4 (Verbesserungen +
+  Erweiterungs-/Nutzungsänderungs-Kasuistik) in [[20-ausnahmen-bestandesschutz]] ergänzt (S. 1450-1455,
+  Shots 729-731). **Offen bleibt § 357 Abs. 5** (Milderung von Bauvorschriften für zweckmässige Nutzung),
+  ab Shot 732 / S. 1456 ff.
 - **Baupolizeiliche Missstände + Brandstattrecht § 307 PBG offen:** dritter/vierter Tatbestand
   der Kap.-20-Übersicht (Wiederaufbau zerstörter Gebäude), S. 1456 ff. noch nicht distilliert.
 - **needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
