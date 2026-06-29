@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.06.2026 08:06:40
+Stand: 29.06.2026 08:26:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.06.2026 08:06:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 201a81a nas-selfcommit: 4 Datei(en) 2026-06-29 08:00
+- 67ad4cd sync: ag-gruendung-monitor: Firmenname Raphael Jans AG + Vollliberierung 100k; Notariat-Schritt offen

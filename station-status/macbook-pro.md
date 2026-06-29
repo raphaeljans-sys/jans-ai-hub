@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.06.2026 08:11:20
+Stand: 29.06.2026 08:21:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:55)
@@ -12,4 +12,4 @@ Stand: 29.06.2026 08:11:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 201a81a nas-selfcommit: 4 Datei(en) 2026-06-29 08:00
+- 67ad4cd sync: ag-gruendung-monitor: Firmenname Raphael Jans AG + Vollliberierung 100k; Notariat-Schritt offen
