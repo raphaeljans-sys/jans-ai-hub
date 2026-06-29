@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.06.2026 06:26:17
+Stand: 29.06.2026 06:36:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:22)
@@ -12,4 +12,4 @@ Stand: 29.06.2026 06:26:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- de2f993 Energie-Run 22: Foerderprogramm Energie Kt. Schwyz 2026 (Primaerquelle vollst.) + PV-EIV-Aktualitaetscheck
+- 1c1eedd nas-selfcommit: 2 Datei(en) 2026-06-29 06:30
