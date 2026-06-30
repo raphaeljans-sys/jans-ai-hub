@@ -1,9 +1,9 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
 status: emerging
-last_updated: 2026-06-28
-sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "Art. 19 RPG", "Art. 22 RPG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "ZN", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md]
-links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[12-baureife]]
+last_updated: 2026-06-30
+sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "Art. 19 RPG", "Art. 22 RPG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md]
+links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]]
 ---
 
 # Baureife & Erschliessung
@@ -107,9 +107,54 @@ Nutzungsart einhaltbar) sind; für kleine Bauzonenteile sind Ausnahmen möglich 
 
 - Konkretisierung der Zugänglichkeit über die **Zugangsnormalien (ZN, § 237 Abs. 2 PBG)**, die
   **Verkehrssicherheitsverordnung (VSiV)** und die **Strassenabstandsverordnung (StrAV)**.
-- Der Regierungsrat erarbeitete eine zusammenführende **Erschliessungsverordnung (EV)** (Entwurf
-  31.5.2017; mit angehobenen Schwellenwerten der Zugangskategorien). **needs-verification:** vor
-  harter Bezifferung den aktuellen ZH-Verordnungsstand prüfen (ZN/VSiV/StrAV ↔ EV).
+- Die zusammenführende **Erschliessungsverordnung (EV)** wird im Buch (Bd 2, S. 750) bereits als
+  geltender Erlass zitiert: die Zugangskategorien stehen in **§ 11 Abs. 1 EV** (Standard) bzw.
+  **§ 12 EV** (planerische Ermittlung), wobei der bisherige § 6 ZN ausdrücklich als Vorgänger
+  genannt wird. Die EV hebt die Schwellenwerte an (Beispiel S. 750): Zufahrtsweg bis 10 WE (ZN) →
+  bis 50 WE (§ 11 EV) bzw. bis 100 WE (§ 12 EV); Zufahrtsstrasse 1 bis 30 → 100/300 WE. **Praxis:**
+  vor harter Bezifferung die im konkreten Verfahren geltende Fassung (EV-§§ ↔ noch ZN/VSiV/StrAV)
+  und die OEV-Erhöhung (§ 4 Abs. 2 ZN / EV) am amtlichen Erlass prüfen.
+
+## Rechtliche Sicherung der Erschliessung (§ 237 Abs. 4 PBG)
+
+Erschlossen ist nur, was auch **rechtlich gesichert** ist: führt die Zufahrt/Leitung über fremden
+Grund, muss der Bauherr **dauernde, für die vorgesehene Nutzung ausreichende Benützungsrechte
+nachweisen** (§ 237 Abs. 4 PBG; Bd 2 S. 743). Zwei Wege:
+
+- **Zivilrechtlich:** Dienstbarkeit (Fuss-/Fahrwegrecht) im **Grundbuch**, mit hinreichender Breite;
+  die Zustimmung muss das genügende Benützungsrecht decken, nicht das «Gutdünken» der Nachbarn
+  (VB.2008.00163, S. 743). Fehlt jede gesicherte Zufahrt, bleibt nur das **Notwegrecht** (Art. 694
+  ZGB) — subsidiär und sehr streng (BGer 5A_777/2017, S. 748 f.).
+- **Öffentlich-rechtlich:** **Widmung zum Gemeingebrauch** / Öffentlicherklärung einer Privatstrasse
+  (§ 109 LG); für **Flurwege** als Zufahrt gilt das Zustimmungserfordernis der Mehrheit der
+  Beteiligten (§ 110–112/115 LG, S. 746 f.). **Zufahrt über Wald** ist nur für forstliche Zwecke
+  zulässig — Befahren mit Motorfahrzeugen braucht eine Ausnahmebewilligung (Art. 15 WaG/Art. 13 WaV,
+  S. 748).
+
+## Versorgung & Entsorgung (§ 236 PBG)
+
+Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S. 751–769):
+
+- **Wasserversorgung:** die Gemeinde stellt Trinkwasser in einwandfreier Qualität, genügendem Druck
+  und ausreichender Menge bereit (§ 27 WWG). **Löschwasser** ist eine Erschliessungs-Teilanforderung:
+  Hydranten so, dass jedes Gebäude mit **max. 100 m Schlauch** erreicht wird; in Wohn-/Arbeitszonen
+  einmaschig zulässig, dann **max. 60 m**; in Gewerbe-/Industriezonen ist einmaschig unzulässig
+  (§ 16 FeuerwehrV, S. 751 f.). In **Grundwasserschutzzonen S1/S2/S3** gelten Nutzungs-
+  beschränkungen (Art. 19/20 GSchG, Art. 29/30 GSchV).
+- **Energieversorgung** ist eine **zwingende** Erschliessungsvoraussetzung (Anschluss ans
+  Elektrizitätsnetz; Art. 19 RPG i.V.m. § 236 Abs. 1 PBG, S. 755). Überlagert vom kantonalen
+  Energierecht (§§ 8a/9–13 EnerG: Höchstanteil nicht erneuerbarer Wärme, Wärmepumpen, Grossverbraucher)
+  und dem **Gebäudeprogramm** (Art. 45 EnG) → Schnittstelle Agent `energie-berater`.
+- **Abwasserbeseitigung:** bauliche Erstellung richtet sich nach **GSchG/EG GSchG**, nicht nach dem
+  PBG. Im Bereich der öffentlichen Kanalisation besteht **Anschluss- und Beseitigungspflicht**
+  (Art. 10/11 GSchG); eine **Baubewilligung** für Neu-/Umbauten ergeht nur bei gewährleisteter
+  Abwasserbeseitigung — über die **Kanalisationsanschlussbewilligung** der Gemeinde (Art. 17 GSchG,
+  S. 766). Die Gemeinden führen einen **Generellen Entwässerungsplan (GEP)** (§ 8 KGSchV). Bei
+  Erstellung/wesentlicher Änderung ist Meteor-/unverschmutztes Wasser vom verschmutzten **getrennt**
+  abzuleiten (§ 232 PBG / Art. 11 GSchG, S. 766). Finanzierung über Anschluss-/Kanalisationsgebühren
+  nach Verursacher-, Äquivalenz- und Kostendeckungsprinzip (S. 767 ff.).
+- **Belastete Standorte / Altlasten** (Art. 32c USG) sind bei der Baureife mitzudenken —
+  Detaildistillat noch offen (Kap. 12 Teil 4, S. 770 ff.).
 
 ## Planungsrechtliche Baureife (§ 234 PBG) im Detail
 
@@ -147,4 +192,6 @@ Nutzungsart einhaltbar) sind; für kleine Bauzonenteile sind Ausnahmen möglich 
 - **Umnutzungen im Bestand:** Baureife wird erst bei wesentlicher Abweichung neu geprüft — die
   VB-Kasuistik oben ist die Argumentationsbasis.
 
-Belegquelle / Buchsynthese: [[12-baureife]] (Destillat Bd 2, Kap. 12, S. 707-723).
+Belegquelle / Buchsynthese: [[12-baureife]] (Destillat Bd 2, Kap. 12, S. 707-741) +
+[[12-baureife-teil3-versorgung-entsorgung]] (Teil 3, S. 742-769: rechtliche Sicherung, Wasser/
+Energie/Abwasser). Offen: Teil 4 (S. 770-809: Anschlussgebühren-Rest, Abfall/Kehricht, Altlasten).

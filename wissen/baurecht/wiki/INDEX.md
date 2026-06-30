@@ -33,8 +33,9 @@ oder umbenannten Artikel aktualisieren.
 - [[zonenkonformitaet]] — BZO-Systematik, Zonenarten, Richtwerte Stadt ZH · *established*
 
 ### Baureife & Erschliessung
-- [[baureife-und-erschliessung]] — Baureife = erstes Element der Grundanforderungen (§§ 233-249 PBG): **technische Erschliessung** (Zugang/Wasser/Energie/Entsorgung; § 234/§ 236 PBG, Art. 19 RPG) + **planungsrechtliche Baureife** (§ 234 PBG, befristete Bausperre, nur negative Vorwirkung); massgebender Zeitpunkt (§ 233), **wesentliche Abweichung bei Umbau** (§ 233 Abs. 2, VB-Kasuistik); **Erreichbarkeit 80 m / 40 m** (> 13 m oder starke Personenbelegung), **Notzufahrt 3 m / 16 t** (§ 3 ZN); Planungszone § 346 (3+2 J.); Verordnungsstand ZN/VSiV/StrAV → EV · *emerging*
-- [[12-baureife]] (Destillat Bd 2, Kap. 12 Teil 1) — Buchsynthese §§ 233-237 PBG (Baureife / planungsrechtliche Baureife § 234 / Zugänglichkeit), Belegquelle · *emerging*
+- [[baureife-und-erschliessung]] — Baureife = erstes Element der Grundanforderungen (§§ 233-249 PBG): **technische Erschliessung** (Zugang/Wasser/Energie/Entsorgung; § 234/§ 236 PBG, Art. 19 RPG) + **planungsrechtliche Baureife** (§ 234 PBG, befristete Bausperre, nur negative Vorwirkung); massgebender Zeitpunkt (§ 233), **wesentliche Abweichung bei Umbau** (§ 233 Abs. 2, VB-Kasuistik); **Erreichbarkeit 80 m / 40 m** (> 13 m oder starke Personenbelegung), **Notzufahrt 3 m / 16 t** (§ 3 ZN); Planungszone § 346 (3+2 J.); Verordnungsstand (EV § 11/12 löst § 6 ZN ab), **rechtliche Sicherung § 237 Abs. 4 PBG** (Benützungsrechte/Notwegrecht), **Versorgung/Entsorgung § 236 PBG** (Löschwasser § 16 FeuerwehrV 100/60 m, Energie zwingend, Kanalisationsanschluss Art. 17 GSchG) · *emerging*
+- [[12-baureife]] (Destillat Bd 2, Kap. 12 Teil 1+2) — Buchsynthese §§ 233-237 PBG (Baureife / planungsrechtliche Baureife § 234 / Zugänglichkeit), Belegquelle · *emerging*
+- [[12-baureife-teil3-versorgung-entsorgung]] (Destillat Bd 2, Kap. 12 Teil 3) — Buchsynthese § 237 Abs. 4 (rechtliche Sicherung) + § 236 PBG (Wasser/Energie/Abwasser, GSchG), Belegquelle · *emerging*
 
 ### Verfahren
 - [[baubewilligungsverfahren]] — Verfahrensarten, Ablauf, Fristen, Unterlagen; **Zuständigkeit/Baubehörde** (§ 318 PBG + GG-Delegationen), **Inhalt des Entscheids** (Rubrum/Begründung/Dispositiv) · *established*
@@ -47,8 +48,13 @@ oder umbenannten Artikel aktualisieren.
 - [[bauausfuehrung-und-baukontrolle]] — die Ausfuehrungsphase: **Baufreigabe vor Baubeginn** (§ 326 PBG; rechtskraeftige Bewilligung genuegt nicht), **Meldepflichten** (§ 327 Abs. 1: Schnurgeruest/Kanalisation/Rohbau/Bezug; Asbest Art. 3a ABV auch ohne Baubewilligung), **baupolizeiliche Kontrollen** (§ 327 Abs. 2 — **Realakt, nicht anfechtbar**; § 10c VRG; Drohnen/Datenschutz), **Bezugsbewilligung/Schlusskontrolle** (§ 12a BBV I/II, SIA 180/358; Vertrauensschutz begrenzt BGer 1C_333/2017), **Unterbruch/«ewige Baustelle»** (§ 328: Arealueberbauung max. **2 J.**, Ersatzvornahme § 30 VRG, Pfandrecht § 15 VRG), **Sicherheit/Regeln der Baukunde** (§ 239 PBG) · *emerging*
 - [[08-ausfuehrung-von-bauarbeiten]] (Destillat Bd 1, Kap. 8) — Buchsynthese §§ 326-328/239 PBG (Baufreigabe/Kontrolle/Unterbruch/Baustellensicherheit), Belegquelle · *emerging*
 
+### Grundlagen & Systematik
+- [[grundlagen-planungs-baurecht]] — der dogmatische Rahmen: **öffentliches vs. privates Baurecht** (§ 317 PBG: Privatrecht im ZH-Bewilligungsverfahren unberücksichtigt; Art. 679 Abs. 2 ZGB), **Rechtsquellen-Hierarchie** (BZO mit Gesetzescharakter), **Verbindlichkeit SIA-Normen** (verbindlich § 3 Abs. 12 BBV I / beachtlich § 360 Abs. 3 PBG / Sorgfalt), **Verfassungsgrundsätze** (Legalität/Verhältnismässigkeit geeignet-erforderlich-zumutbar/Rechtsgleichheit/Treu+Glauben/Ermessen), intertemporales Recht (§ 318 PBG), Kompetenz Bund/Kantone Art. 75 BV · *emerging*
+- [[01-grundlagen]] (Destillat Bd 1, Kap. 1) — Buchsynthese Grundlagen/Rechtsquellen/Grundsätze (S. 80-110), Belegquelle · *emerging*
+
 ### Planung & Gestaltung
-- [[raumplanung-und-gestaltung]] — Richtplan, Nutzungsplanung, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
+- [[raumplanung-und-gestaltung]] — Richtplan (**nur behördenverbindlich** Art. 9 RPG/§ 19 PBG), Nutzungsplanung, **15-J-Bedarf Bauzonen** (Art. 15 RPG), **Koordinationsgebot** (Art. 25a RPG), **Planungszone** (§ 346 PBG, 3+2 J.), ÖREB-Kataster, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
+- [[02-raumplanung-richtplanung-nutzungsplanung]] (Destillat Bd 1, Kap. 2 Teil 1) — Buchsynthese Raumplanung/Richt-/Nutzungsplanung (S. 112-143), Belegquelle · *emerging*
 
 ### Bauen im Bestand
 - [[bestandsumbau-eingriffstiefe]] — Grundprinzip: Eingriffstiefe entscheidet über die Baueingabe; was eine Baueingabe auslöst (Brandschutz/Treppenhaus, Schallschutz SIA 181, Ausnützungsnachweis); Besitzstandsgarantie schützt nur Erhalt (nicht Ausweitung), behördlicher Ermessensspielraum; bewilligungsfreier Umbau = sicherste Variante · *established*
@@ -62,8 +68,8 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
-## Statistik (Stand 2026-06-26)
-- Artikel im Wiki: 15 + QUELLEN-Register (+ [[baureife-und-erschliessung]] 2026-06-26, Buch-Run 14 Kap. 12; + [[bauausfuehrung-und-baukontrolle]] 2026-06-22, Buch-Run 13 Kap. 8; + [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21, Buch-Run 12 Kap. 7; + [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
+## Statistik (Stand 2026-06-30)
+- Artikel im Wiki: 16 + QUELLEN-Register (+ [[grundlagen-planungs-baurecht]] 2026-06-30, Buch-Run 16 Kap. 1; + [[baureife-und-erschliessung]] 2026-06-26, Buch-Run 14 Kap. 12; + [[bauausfuehrung-und-baukontrolle]] 2026-06-22, Buch-Run 13 Kap. 8; + [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21, Buch-Run 12 Kap. 7; + [[nebenbestimmungen-und-reverse]] 2026-06-19, Buch-Run 11 Kap. 7; + [[ausnahmebewilligung-und-bestandesschutz]] 2026-06-18, Buch-Run 10 Kap. 20; + [[wohnhygiene-und-raumanforderungen]] 2026-06-17, Buch-Run 9 Kap. 17; + [[baulinien-und-abstandslinien]] 2026-06-12, Buch-Run 4; + [[gebaeudearten-und-abstandssystem]] 2026-06-11, Buch-Run 3; [[baubewilligungsverfahren]] um Zuständigkeit/Entscheid-Inhalt ergänzt)
 - Amtliche Volltexte in raw/ (Primärquelle, Direktkonsultation): 5 kantonal (PBG, ABV, BVV, BBV I/II) + 44 ZH-BZO + 4 SZ-Baureglemente = 53
 - Pendenzen: Wollerau SZ (OCR), Kt. SG (Endpunkt), Bund (Fedlex-Volltext v2)
 - Offene Coverage-Lücken (raw/ nicht eingearbeitet): 0 (amtliche Volltexte = Referenzkorpus, keine Absorptionspflicht)

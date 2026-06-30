@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-29
+last_updated: 2026-06-30
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -130,8 +130,36 @@ Trainingslauf (`../training/PROGRAMM.md`).
   (Art. 24 USG / § 128 PBG), **Erreichbarkeit OEV § 237 Abs. 1 Satz 2** (AngebotsV, 300-Personen-
   Schwelle, § 18 PVG). 18 Doppelseiten. Status: `emerging` (Wasser/Energie § 236 + Abwasser/Abfall/
   Altlasten ab S. 742/Shot 373 offen). Speist [[baureife-und-erschliessung]].
+- [[12-baureife-teil3-versorgung-entsorgung]] — Kap. 12 Teil 3 (S. 742-769): **Rechtliche Sicherung
+  der Erschliessung + Versorgung/Entsorgung** — **Nachweis Benuetzungsrechte § 237 Abs. 4 PBG**
+  (Dienstbarkeit/Grundbuch oder Widmung zum Gemeingebrauch; Flurweg/Wald-Zufahrt/Notwegrecht
+  Art. 694 ZGB), **Wasserversorgung + Loeschwasser** (§ 236 Abs. 1 lit. c PBG; **Hydranten max. 100 m
+  Schlauch / einmaschig 60 m** § 16 FeuerwehrV; Grundwasserschutzzonen S1/S2/S3), **Energieversorgung**
+  (zwingende Erschliessungsvoraussetzung Art. 19 RPG; Energieplanung §§ 8a/9-13 EnerG), **12.5
+  Abwasserbeseitigung** (Trenn-/Mischsystem § 232 PBG/Art. 11 GSchG, **Kanalisationsanschluss-
+  bewilligung** Art. 17 GSchG, GEP § 8 KGSchV, Anschlussgebuehren). 14 Doppelseiten. Status:
+  `emerging` (Rest 12.5 Gebuehren + Abfall/Kehricht + Altlasten Art. 32c USG, S. 770-809 → Teil 4
+  offen). Speist [[baureife-und-erschliessung]].
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
+- [[01-grundlagen]] — Kap. 1 (S. 80-110, **vollstaendig**): **Grundlagen des Planungs- und
+  Baurechts** — oeffentliches vs. privates Baurecht (§ 317 PBG: Privatrecht im ZH-Bewilligungs-
+  verfahren grds. unbeachtlich), Kompetenzausscheidung Bund/Kantone (Art. 3/42/75 BV; RPG =
+  Grundsatzgesetzgebung/Mindestanforderungen), Rechtsquellen (Verfassung/Konkordat/Gesetz/VO),
+  **SIA-Normen** (verbindlich nur wo verwiesen § 3 Abs. 12 BBV I, sonst «beachtlich» § 360 Abs. 3
+  PBG), Auslegungs-/Verfassungsgrundsaetze (Gesetzmaessigkeit/**Verhaeltnismaessigkeit** geeignet-
+  erforderlich-zumutbar Art. 5 Abs. 2/36 Abs. 3 BV/Treu+Glauben Art. 9 BV), Aufbau PBG (VII Titel;
+  Titel IV «Oeffentliches Baurecht» §§ 218-328), Genehmigung/Publikation (§ 5 PBG, Art. 26 Abs. 3
+  RPG). 16 Doppelseiten. Status: `emerging`. Speist [[raumplanung-und-gestaltung]].
+- [[02-raumplanung-richtplanung-nutzungsplanung]] — Kap. 2 Teil 1 (S. 112-143): **Raumplanung,
+  Richt- und Nutzungsplanung** — Raumplanung als Oberbegriff (grundeigentuemerverbindliche Kontrolle
+  erst im Bewilligungsverfahren), **Ziele Art. 1 RPG**, **15-Jahres-Bedarf Bauzonen** (Art. 15 RPG /
+  § 18 lit. b PBG / Art. 75 BV), Traeger/Instrumente, **Koordinationsgebot Art. 25a RPG**, OEREB-
+  Kataster (Art. 16 ff. GeoIG, oerebdocs.zh.ch), **Sicherungsinstrumente** (Planungszone § 346 PBG
+  max. 3+2 J./Art. 27 RPG, Projektierungszone), **Richtplanung** (nur behoerdenverbindlich Art. 9
+  RPG/§ 19 PBG, Teilrichtplaene/Verfahren) + Beginn **Nutzungsplanung** (2.3.1). 16 Doppelseiten.
+  Status: `emerging` (Teil 2 ab S. 142 / 2.3 Nutzungsplanung — Zonenarten/BZO/Sondernutzung offen).
+  Speist [[raumplanung-und-gestaltung]] + [[zonenkonformitaet]].
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] — Kap. 7 Teil 1 (S. 424-447): **Der kommunale
   baurechtliche Entscheid** — Rechtsnatur (Polizeierlaubnis, sachbezogen, mitwirkungsbeduerftig
   BEZ 2014 Nr. 45), **Zustaendigkeit** (oertliche Baubehoerde § 318 PBG; GG-Delegationen: eigen-
@@ -214,8 +242,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 21 | Bauen ausserhalb Bauzonen | 🟡 teilweise (Art.16/16a/24/24a-e RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972, S.1459-1503; Rest Art.24d/24e/37a ab Shot 756 offen) |
 | 22 | Privatrechtliche Bauvorschriften | 🟡 teilweise (Nachbarrecht ZGB Art.679/684/685 ff. + §§169-178 EG ZGB Pflanzenabstaende, S.1517-1534) |
 | 23 | Glossar Architektur | 🟡 teilweise (Begriffe mit §-Belegen, S.1537-1549) |
-| 12 | Baureife | 🟡 teilweise (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2, S.707-741; Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.742 offen) |
+| 12 | Baureife | 🟡 teilweise (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss, S.707-769; Rest 12.5 Gebuehren + Abfall + Altlasten Art.32c USG S.770-809 offen) |
 | 18 | Brandschutz | ⬜ offen — nur Querverweis auf Skill `brandschutz` (kein Doppelaufbau) |
-| 1-5, 10 | uebrige (Band 1) | ⬜ offen |
+| 1 | Grundlagen des Planungs- und Baurechts | 🟢 vollstaendig (oeff./privates Baurecht §317, Kompetenz Bund/Kantone Art.3/42/75 BV, Rechtsquellen, SIA-Normen §3 Abs.12 BBV I/§360 Abs.3 PBG, Verhaeltnismaessigkeit/Treu+Glauben, Aufbau PBG VII Titel, S.80-110) |
+| 2 | Raumplanung, Richt- und Nutzungsplanung | 🟡 teilweise (Teil 1: Ziele Art.1 RPG, 15-J-Bedarf Art.15 RPG, Koordination Art.25a RPG, Planungszone §346 PBG, Richtplanung behoerdenverbindlich Art.9 RPG/§19 PBG, S.112-143; Teil 2 ab 2.3 Nutzungsplanung/Zonenarten/BZO offen) |
+| 3-5, 10 | uebrige (Band 1: Erschliessung/Natur-Heimatschutz/Entschaedigung/widerrechtl. Bauten) | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

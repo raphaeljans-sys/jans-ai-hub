@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-06-29
+last_updated: 2026-06-30
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -18,8 +18,8 @@ Distillieren echte Seitenzahlen nachfuehren.
 
 | Kap | Titel | Seite | Shot ≈ | P | Status |
 |-----|-------|-------|--------|---|--------|
-| 1 | Grundlagen des Planungs- und Baurechts | 79 | 200 | P2 | [ ] |
-| 2 | Raumplanung, Richtplanung und Nutzungsplanung | 111 | 216 | P2 | [ ] |
+| 1 | Grundlagen des Planungs- und Baurechts | 79 | **41** | P2 | **[x] VOLLSTAENDIG** (Run 16, S.80-110, Shots 41-56: oeff./privates Baurecht §317 PBG, Rechtsquellen, SIA-Normen-Verbindlichkeit §3 Abs.12 BBV I/§360 Abs.3 PBG, Verfassungsgrundsaetze, intertemporales Recht §318. Destillat [[band-1/01-grundlagen]], Wiki [[grundlagen-planungs-baurecht]]) |
+| 2 | Raumplanung, Richtplanung und Nutzungsplanung | 111 | **57** | P2 | [~] (Run 16 Teil 1, S.112-143, Shots 57-72: Ziele Art.1 RPG, 15-J-Bauzone Art.15 RPG, Koordination Art.25a RPG, Planungszone §346 PBG, OEREB Art.16 GeoIG, Richtplan behoerdenverbindlich Art.9 RPG/§19 PBG. Destillat [[band-1/02-raumplanung-richtplanung-nutzungsplanung]], Wiki [[raumplanung-und-gestaltung]] geschaerft. **Teil 2 ab S.142/2.3 Nutzungsplanung — Zonenarten/BZO/Sondernutzung offen**) |
 | 3 | Erschliessung, Landsicherung und Landumlegung | 207 | 264 | P2 | [ ] |
 | 4 | Natur- und Heimatschutz | 267 | 294 | P3 | [ ] |
 | 5 | Planung und Entschaedigung | 311 | 316 | P3 | [ ] |
@@ -41,7 +41,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | Kap | Titel | Seite | Shot ≈ | P | Status |
 |-----|-------|-------|--------|---|--------|
 | 11 | Allgemeine Bestimmungen des Baupolizeirechts | 685 | 345 | P2 | [~] (Welle 1, 2026-06-29, S.686-704, Shots 345-354: §§218-232 PBG + Hammerschlagsrecht §§229/230. Destillat [[band-2/11-allgemeine-bestimmungen-baupolizeirecht]]. `emerging`) |
-| 12 | Baureife | 707 | 356 | P2 | [~] (S.707-741, Shots 355-372, Run 14+15: **12.1 Allgemeines**, **12.2 Planungsrechtliche Baureife §234** (negative Vorwirkung, Abgrenzung §150/§264/Planungszone §346 3+2 J./§120), **12.3 Zugaenglichkeit T1+T2** (§§234-237, Erreichbarkeit 80m/40m, Notzufahrt 3m/16t §3 ZN, **Zugangsarten + Anhang-ZN-Tabelle** Breite/Radius je WE, Kehrplatz SN 640 052, Fussgaengerschutz, Erleichterungen §11 ZN/§360 Abs.3 PBG, Umweltschutzrecht Art.24 USG/§128, **OEV §237 Abs.1 Satz 2** AngebotsV/300-Personen). Destillat [[band-2/12-baureife]], Wiki [[baureife-und-erschliessung]]. **Rest: Wasser/Energie §236 + Abwasser/Abfall/Altlasten ab S.742/Shot 373 offen**) |
+| 12 | Baureife | 707 | 356 | P2 | [~] (S.707-741, Shots 355-372, Run 14+15: **12.1 Allgemeines**, **12.2 Planungsrechtliche Baureife §234** (negative Vorwirkung, Abgrenzung §150/§264/Planungszone §346 3+2 J./§120), **12.3 Zugaenglichkeit T1+T2** (§§234-237, Erreichbarkeit 80m/40m, Notzufahrt 3m/16t §3 ZN, **Zugangsarten + Anhang-ZN-Tabelle** Breite/Radius je WE, Kehrplatz SN 640 052, Fussgaengerschutz, Erleichterungen §11 ZN/§360 Abs.3 PBG, Umweltschutzrecht Art.24 USG/§128, **OEV §237 Abs.1 Satz 2** AngebotsV/300-Personen). Destillat [[band-2/12-baureife]], Wiki [[baureife-und-erschliessung]]. **Teil 3** (Run 16, S.742-769, Shots 373-386): 12.3.6 rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss Art.17 — Destillat [[band-2/12-baureife-teil3-versorgung-entsorgung]]. **Rest Teil 4: Anschlussgebuehren + Abfall + Altlasten Art.32c USG, S.770-809 offen**) |
 | 13 | Weitere Grundanforderungen an Bauten und Anlagen | 809 | 407 | P2 | [~] (Welle 1, 2026-06-29, S.810-857, Shots 407-430: §238 Aesthetik-Generalklausel + Solar Art.18a RPG. Destillat [[band-2/13-weitere-grundanforderungen]]. `emerging`. Rest §§239a/240/242/248 ab Shot 431 offen) |
 | 14 | **Nutzungsdichte und Nutzungsart** (Ausnuetzung) | 919 | 462 | **P1** | [x] (Rest: Mischrechnungsverbot, § 10/13 ABV) |
 | 15 | Lage von Gebaeuden (Abstaende, Baulinien) | 995 | 500 | **P1** | [x] (S.995-1123: System/Wald/Gewaesser/Baulinien + Strassen-/Wegabstand + Grenzabstand-Zahlenwerk §§269-270/ABV + **Gebaeudeabstand §§271-273 + Naeherbaurecht §270 Abs.3** + **§274 Grenzbaurecht/§27 Abs.2 ABV** (Welle 1, 2026-06-29, Shots 560-570); Restschuld nur 15.13 Harmonisierungsvorlage S.1124-1133) |

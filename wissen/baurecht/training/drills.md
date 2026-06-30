@@ -520,3 +520,43 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Haltestellenpflicht erst zu pruefen — die **OEV-Erschliessung** nach AngebotsV. **Lueckenstatus:**
   Beleg vollstaendig nach Buch; WE→Personen-Umrechnung und EV-Schwellenwerte am geltenden Erlass
   gegenpruefen (needs-verification). _[2026-06-28]_
+
+## Run 16 — Kap. 1 Grundlagen / Kap. 2 Raumplanung T1 / Kap. 12 Versorgung-Entsorgung (2026-06-30)
+
+### Modell C — Selbsttest-Karten
+- **F:** Bindet ein privatrechtliches Wegrecht/Bauverbotsservitut die Baubehoerde im Kanton Zuerich? —
+  **A:** **Nein.** Privates Recht bleibt im baurechtlichen Bewilligungsverfahren grundsaetzlich
+  **unberuecksichtigt** (§ 317 PBG); es ist auf dem **Zivilweg** (Bezirksgericht) durchzusetzen.
+  Umgekehrt entbindet die Baubewilligung nicht vom Nachbarrecht (Art. 679 Abs. 2 ZGB). (Bd 1, S. 82 f.) _[2026-06-30]_
+- **F:** Sind SIA-Normen verbindliches oeffentliches Recht? — **A:** Als Ganzes **nein**. Drei Stufen:
+  **verbindlich**, wo ausdruecklich erklaert (§ 3 Abs. 12 BBV I, z.B. SIA 181 Schallschutz);
+  **beachtlich**, vom RR fuer massgeblich erklaert — Abweichung nur «aus **wichtigen Gruenden**»
+  (§ 360 Abs. 3 PBG); **weitere** Normen = Ausdruck der gebotenen Sorgfalt (SIA 358, VSS SN 640 291a).
+  (Bd 1, S. 84-86) _[2026-06-30]_
+- **F:** Wie weit darf sich eine Bauzone erstrecken? — **A:** Hoechstens ueber den **voraussichtlichen
+  Bedarf von 15 Jahren** (Art. 15 Abs. 1 RPG; § 18 lit. b PBG; Art. 75 Abs. 1 BV). (Bd 1, S. 114) _[2026-06-30]_
+- **F:** Ist der kantonale Richtplan grundeigentuemerverbindlich? — **A:** **Nein** — nur
+  **behoerdenverbindlich** (Art. 9 Abs. 1 RPG; § 19 Abs. 1 PBG). Grundeigentuemerverbindlich wird es
+  erst auf Stufe Nutzungsplan/BZO. Plansicherung waehrend laufender Planung: **Planungszone** max.
+  **3 Jahre, +2 Jahre** verlaengerbar (§ 346 Abs. 3 PBG / Art. 27 RPG). (Bd 1, S. 124 f., 132 f.) _[2026-06-30]_
+- **F:** Was muss der Bauherr nachweisen, wenn die Zufahrt ueber fremden Grund fuehrt? — **A:** Dauernde,
+  fuer die vorgesehene Nutzung **ausreichende Benuetzungsrechte** (§ 237 Abs. 4 PBG) — zivilrechtlich per
+  **Dienstbarkeit im Grundbuch** (hinreichende Breite) oder oeffentlich-rechtlich per **Widmung zum
+  Gemeingebrauch** (§ 109 LG). Fehlt jede Sicherung, bleibt nur das subsidiaere **Notwegrecht**
+  (Art. 694 ZGB, sehr streng). (Bd 2, S. 743, 748 f.) _[2026-06-30]_
+- **F:** Wie ist die Loeschwasserversorgung als Erschliessungsanforderung bemessen? — **A:** Hydranten so
+  setzen, dass jedes Gebaeude mit **max. 100 m Schlauch** erreichbar ist; in Wohn-/Arbeitszonen
+  einmaschig zulaessig (dann **max. 60 m**), in Gewerbe-/Industriezonen einmaschig **unzulaessig** (zweiter
+  Hydrant). Grundlage § 16 FeuerwehrV (Versorgung § 236 Abs. 1 lit. c PBG / § 27 WWG). (Bd 2, S. 751 f.) _[2026-06-30]_
+
+### Modell A — Frage->Beleg-Drill
+- **Buerofrage:** «Ein Kaufinteressent will wissen, ob ihn eine im Grundbuch eingetragene Dienstbarkeit
+  (Fahrwegrecht zugunsten des Nachbarn) am Bauen hindert — die Gemeinde hat das Projekt baurechtlich
+  bewilligt.» — **Beleg-Antwort:** Die Baubewilligung sagt nichts ueber das Privatrecht: in ZH prueft die
+  Baubehoerde private Dienstbarkeiten **nicht** (§ 317 PBG, Bd 1 S. 82). Das Fahrwegrecht ist ein
+  **zivilrechtliches** Verhaeltnis — es kann das Bauen tatsaechlich behindern (z.B. wenn die belastete
+  Flaeche ueberbaut werden soll), ist aber zwischen den Eigentuemern bzw. vor dem **Zivilgericht** zu
+  klaeren, nicht im Baubewilligungsverfahren. Fuer die **Erschliessung** des Kaeufer-Grundstuecks
+  umgekehrt zentral: dessen eigene Zufahrt muss ueber ein **dauerndes, ausreichendes Benuetzungsrecht**
+  rechtlich gesichert sein (§ 237 Abs. 4 PBG, Bd 2 S. 743). **Lueckenstatus:** Beleg vollstaendig nach
+  Buch; konkrete Servitutswirkung haengt vom Dienstbarkeitsinhalt ab (Agent `dienstbarkeiten-pruefer`). _[2026-06-30]_

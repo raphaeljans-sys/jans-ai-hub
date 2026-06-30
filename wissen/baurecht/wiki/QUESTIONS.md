@@ -99,19 +99,42 @@ wurden.
   Kehrplatz (SN 640 052), Fussgängerschutz (Bankett 30 cm/Trottoir 1 m), Erleichterungen (§ 11 ZN /
   § 360 Abs. 3 PBG / letzte Baulücke), Umweltschutzrecht-Erschliessung (Art. 24 USG/§ 128 PBG),
   Erreichbarkeit OEV (§ 237 Abs. 1 Satz 2 PBG, AngebotsV, 300-Personen-Schwelle).
-- **Rest Kap. 12 offen (Restschuld):** ab **S. 742 (Shot 373)** — **Wasser-/Energieversorgung § 236 PBG**,
-  **Beseitigung von Abwässern/Abfallstoffen/Altlasten**, sowie der angekündigte Abschnitt zur
-  Erschliessungsverordnung (S. 749). Bis Kapitelende (vor Kap. 13, S. 809).
+- **Rest Kap. 12** → **teil-erledigt 2026-06-30** (Run 16): S. 742-769 distilliert
+  ([[12-baureife-teil3-versorgung-entsorgung]]) — 12.3.6 rechtliche Sicherung § 237 Abs. 4 PBG,
+  12.4 Wasser/Energie § 236 PBG (Löschwasser § 16 FeuerwehrV, Grundwasserschutzzonen S1/S2/S3,
+  Energie zwingend), 12.5 Abwasser (GSchG/Kanalisationsanschluss Art. 17, GEP § 8 KGSchV). **Offen
+  bleibt Teil 4: S. 770-809** — Rest 12.5 (Anschlussgebühren-Bemessung), **Abfall/Kehricht** und
+  **belastete Standorte/Altlasten Art. 32c USG/AltlV** (im gelesenen Bereich noch nicht behandelt).
 - **needs-verification — §§/Erlasse Kap. 12 Teil 2:** § 227 PBG (Schwertransporte), § 12 BBV II,
   § 18 PVG, AngebotsV (§§ 2/4), ZN §§ 4/5/6/7/9/10/11/12, § 360 Abs. 3 PBG — sinngemäss nach Buch
   S. 724-741, am amtlichen Volltext gegenprüfen (Modell D); Anhang-ZN-Tabellenwerte gegen den heute
   geltenden Erlass spiegeln.
-- **needs-verification — Stand Erschliessungsverordnung (EV) ZH:** Buch-Stand 2019 = Entwurf
-  (Vernehmlassung 31.5.2017, definitiv Q1/2019 erwartet). Hat die EV ZN/VSiV/StrAV abgelöst? Aktuelle
-  Schwellenwerte der Zugangskategorien am amtlichen Erlass prüfen, bevor harte Masszahlen zitiert werden.
+- **Stand Erschliessungsverordnung (EV) ZH** → **geklärt (Buchbeleg) 2026-06-30** (Run 16): das Buch
+  (Bd 2, S. 750) zitiert die **EV bereits als geltenden Erlass** — Zugangskategorien in **§ 11 Abs. 1 EV**
+  (Standard) / **§ 12 EV** (planerisch), mit § 6 ZN ausdrücklich als Vorgänger; EV hebt die WE-Schwellen
+  an (Zufahrtsweg 10 → 50/100 WE). **Rest-needs-verification:** den exakt heute in Kraft stehenden
+  EV-Wortlaut/Inkraftsetzungsdatum am amtlichen LS-Erlass spiegeln, bevor harte Masszahlen zitiert werden.
 - **needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 233/234/235/236/237 PBG, § 120 PBG
   (vorsorgliches Bauverbot), § 150 PBG (Quartierplanbann), § 264 PBG (Verkehrsbaulinien), § 346 PBG
   (Planungszone, 3+2 J.). Im Destillat [[12-baureife]] sinngemäss nach Buch S. 707-723 — Modell D nächster Lauf.
+
+## Offene Wissenslücken / needs-verification — neu (2026-06-30, aus Buch-Run 16: Kap. 1 / Kap. 2 T1 / Kap. 12 T3)
+- ~~**Grundlagen/Rechtsquellen/Verfassungsgrundsätze nicht im Wiki**~~ → **erledigt 2026-06-30** (Run 16):
+  neuer Wiki-Artikel [[grundlagen-planungs-baurecht]] (öff./privates Baurecht § 317 PBG, Rechtsquellen,
+  **SIA-Normen-Verbindlichkeit** § 3 Abs. 12 BBV I / § 360 Abs. 3 PBG, Verhältnismässigkeit/Rechtsgleichheit/
+  Treu+Glauben, intertemporales Recht § 318 PBG), distilliert [[01-grundlagen]] (Kap. 1 vollständig, S. 80-110).
+- **Kap. 2 Teil 2 offen (Restschuld, HOHE Büroprio):** ab S. 142 / Abschnitt 2.3 **Nutzungsplanung** —
+  Rahmennutzungs-/Sondernutzungs-/Erschliessungsplanung, **Zonenarten** (Bau-/Nichtbauzonen), **BZO**,
+  Gestaltungs-/Quartierplan, Nutzungsplanverfahren/Rechtsschutz § 329 PBG. Schärft dann
+  [[raumplanung-und-gestaltung]] + [[zonenkonformitaet]]. (Kap. 2 ist lang: S. 111-206, ~48 Doppelseiten;
+  Teil 1 S. 112-143 erledigt Run 16.)
+- **needs-verification — §§/Erlasse Kap. 12 Teil 3:** § 237 Abs. 4 PBG (Benützungsrechte), § 27/§ 39 WWG
+  (Wasser/Löschwasser), § 16 FeuerwehrV (Hydranten 100/60 m), §§ 109-115 LG (Flurweg/Öffentlicherklärung),
+  Art. 694 ZGB (Notwegrecht), Art. 10/11/17 GSchG, § 8 KGSchV (GEP), §§ 8a/9-13 EnerG — sinngemäss nach
+  Buch S. 742-769, am amtlichen Volltext gegenprüfen (Modell D).
+- **needs-verification — Kap. 1 PBG-Titel-Endparagraphen + 15-J-Frist Art. 15 RPG:** im Destillat
+  [[01-grundlagen]] die exakten §§-Spannen der VII PBG-Titel teils `speculative` (Buchtabelle unscharf);
+  die wörtliche 15-Jahres-Bauzonenbedarfs-Formel steht in Kap. 2 (Art. 15 RPG, S. 114), nicht Kap. 1.
 
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale

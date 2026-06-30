@@ -4,6 +4,32 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-30 — Run 16 Forcierung: 3 Kapitelteile parallel (Band-1-Tail + Kap. 12 T3)
+- TRANSFER 3 Destillate (von parallelen Agenten, Buchhaltung zentral), **46 Doppelseiten**:
+  **Kap. 1** `buecher/band-1/01-grundlagen.md` (Shots 41-56, S. 80-110): **VOLLSTAENDIG** — oeff./privates
+  Baurecht (§ 317 PBG), Rechtsquellen, **SIA-Normen-Verbindlichkeit** (§ 3 Abs. 12 BBV I / § 360 Abs. 3
+  PBG), Verfassungsgrundsaetze (Verhaeltnismaessigkeit/Rechtsgleichheit/Treu+Glauben), intertemporales
+  Recht § 318 PBG, Aufbau PBG VII Titel. NEU, `emerging`.
+  **Kap. 2 Teil 1** `buecher/band-1/02-raumplanung-richtplanung-nutzungsplanung.md` (Shots 57-72,
+  S. 112-143): Raumplanung als Oberbegriff, **Ziele Art. 1 RPG**, **15-J-Bauzone Art. 15 RPG**,
+  **Koordination Art. 25a RPG**, **Planungszone § 346 PBG**, OEREB-Kataster, **Richtplan behoerden-
+  verbindlich Art. 9 RPG/§ 19 PBG**, Beginn Nutzungsplanung. NEU, `emerging` (Teil 2 ab 2.3 offen).
+  **Kap. 12 Teil 3** `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (Shots 373-386,
+  S. 742-769): **rechtliche Sicherung § 237 Abs. 4 PBG** (Benuetzungsrechte/Notwegrecht Art. 694 ZGB),
+  **Wasser/Energie § 236 PBG** (Loeschwasser § 16 FeuerwehrV 100/60 m, Grundwasserschutzzonen S1/S2/S3,
+  Energie zwingend), **Abwasser** (GSchG/Kanalisationsanschluss Art. 17, GEP § 8 KGSchV). NEU, `emerging`
+  (Teil 4 S. 770-809: Abfall/Altlasten Art. 32c USG offen). **Nebenfund:** EV (§ 11/12) im Buch S. 750 als
+  geltend zitiert → loest needs-verification «EV in Kraft?».
+- NEU Wiki `wiki/grundlagen-planungs-baurecht.md` (`emerging`): dogmatische Klammer (oeff./privates Recht,
+  Rechtsquellen, SIA-Normen-Verbindlichkeit, Verfassungsgrundsaetze, intertemporales Recht). In `wiki/INDEX.md`.
+- GESCHAERFT Wiki `raumplanung-und-gestaltung.md` (Planungsstufen mit §-Belegen, Planungszone, OEREB) +
+  `baureife-und-erschliessung.md` (NEU Sektionen rechtliche Sicherung § 237 Abs. 4 + Versorgung/Entsorgung
+  § 236, EV-Stand § 11/12).
+- BUCHHALTUNG `seiten-inventar.md` 46 Shots [x] (41-56, 57-72, 373-386) + reale Seiten; `buecher/INDEX.md`
+  3 Eintraege + Matrix (Kap. 1 🟢, Kap. 2 🟡, Kap. 12 erweitert); `curriculum.md` + `training/PROGRAMM.md`
+  Tracker; `wiki/QUESTIONS.md` (Kap. 1 geschlossen, Kap. 2 T2 + Kap. 12 T4 neu, EV geklaert);
+  `training/drills.md` Modell C (6) + A (1); Report `outputs/2026-06-30_buch-run16.md`.
+
 ## 2026-06-29 — Welle 1 Forcierung: 10 Destillate Band 2 (Buchhaltung zentral nachgefuehrt)
 - WELLE In EINER parallelen Welle (von parallelen Agenten) **10 Buch-Destillate Band 2** geschrieben;
   die gemeinsame Buchhaltung in diesem Lauf zentral nachgefuehrt:

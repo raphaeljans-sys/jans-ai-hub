@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-29
+last_updated: 2026-06-30
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,13 +92,17 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~580 / 1550 (~289 Doppelseiten; Band 2 weitgehend komplett: Kap. 11/13/14/15
-  (inkl. § 274, nur 15.13 offen)/16 (T1+T2)/17 (T1+T2)/19/20 (inkl. § 357 Abs. 4)/21/22/23 + Kap. 12 (T1+T2,
-  ausser § 236); Band 1 Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** + **Kap. 8 Teil 1**. Welle 1
-  (Forcierung) 2026-06-29: +~95 Doppelseiten in EINER Welle).
-- **Kapitel-Destillate:** 23 Buch-Destillate (Band 2: Kap. 11/12 (T1+T2)/13/14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/
-  19/20/21/22/23; Band 1: Kap. 6/7×2/8/9; alle `emerging`).
-- **Wiki:** 16 Artikel (geschaerft [[baureife-und-erschliessung]] 2026-06-28 `emerging` (Zugangsarten/OEV);
+- **Seiten distilliert:** ~626 / 1550 (~313 Doppelseiten; Band 2 weitgehend komplett: Kap. 11/13/14/15
+  (inkl. § 274, nur 15.13 offen)/16 (T1+T2)/17 (T1+T2)/19/20 (inkl. § 357 Abs. 4)/21/22/23 + Kap. 12 (T1-T3,
+  bis S.769; Teil 4 §236-Rest/Abfall/Altlasten offen); Band 1 **Kap. 1 VOLLSTAENDIG** + **Kap. 2 Teil 1** +
+  Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** + **Kap. 8 Teil 1**. Run 16 (Forcierung) 2026-06-30:
+  +46 Doppelseiten (3 Kapitelteile parallel).
+- **Kapitel-Destillate:** 26 Buch-Destillate (Band 1: Kap. 1/2/6/7×2/8/9; Band 2: Kap. 11/12 (T1+T2/T3)/13/
+  14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/19/20/21/22/23; alle `emerging`).
+- **Wiki:** 17 Artikel (NEU [[grundlagen-planungs-baurecht]] 2026-06-30 `emerging` (oeff./privates Recht/SIA-
+  Normen/Verfassungsgrundsaetze); geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 (Planungsstufen-Belege)
+  + [[baureife-und-erschliessung]] 2026-06-30 (rechtl. Sicherung §237 Abs.4 + Versorgung/Entsorgung §236);
+  geschaerft [[baureife-und-erschliessung]] 2026-06-28 `emerging` (Zugangsarten/OEV);
   [[bauausfuehrung-und-baukontrolle]] 2026-06-22 `emerging`;
   [[baurechtlicher-vorentscheid-und-voranfrage]] 2026-06-21 `emerging`;
   [[baubewilligungsverfahren]] korrigiert: Baubewilligungsfrist nicht verlaengerbar).
@@ -113,7 +117,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
   + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
   `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
-- **Letzter Lauf (regulaer):** Run 15, 2026-06-28 — **Kap. 12 Teil 2 (Zugaenglichkeit-Detail/OEV)**, Shots 364-372,
+- **Letzter Lauf:** Run 16, 2026-06-30 (Forcierung, 3 Kapitelteile parallel, 46 Doppelseiten) —
+  **Kap. 1 Grundlagen VOLLSTAENDIG** (S.80-110, Shots 41-56: oeff./privates Baurecht §317 PBG,
+  Rechtsquellen, SIA-Normen-Verbindlichkeit §3 Abs.12 BBV I/§360 Abs.3 PBG, Verfassungsgrundsaetze,
+  intertemporales Recht §318), **Kap. 2 Teil 1** (S.112-143, Shots 57-72: Ziele Art.1 RPG, 15-J-Bauzone
+  Art.15 RPG, Koordination Art.25a RPG, Planungszone §346, Richtplan behoerdenverbindlich Art.9 RPG/§19 PBG),
+  **Kap. 12 Teil 3** (S.742-769, Shots 373-386: rechtl. Sicherung §237 Abs.4, Wasser/Energie §236/Loeschwasser
+  §16 FeuerwehrV, Abwasser GSchG/Kanalisationsanschluss Art.17). Neues Wiki [[grundlagen-planungs-baurecht]],
+  geschaerft [[raumplanung-und-gestaltung]] + [[baureife-und-erschliessung]]. EV (§11/12) als geltend belegt
+  (Buch S.750). Modell C (6) + A (1). Report `outputs/2026-06-30_buch-run16.md`.
+- **Lauf davor (regulaer):** Run 15, 2026-06-28 — **Kap. 12 Teil 2 (Zugaenglichkeit-Detail/OEV)**, Shots 364-372,
   S. 724-741 (9 Doppelseiten): **12.3.3 Technische Anforderungen/Zugangsarten § 2 Abs. 1 ZN** + die
   **Anhang-ZN-Tabelle** (S. 726: Breite/Radius/lichte Hoehe je WE-Zahl; Kriterium Wohneinheiten =
   baulich Moegliches VB.2002.00273), **Kehrplatz** (Stichstrasse, VSS-Norm SN 640 052), **Erhoehung
@@ -132,15 +145,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Erreichbarkeit 80/40 m, Notzufahrt 3 m/16 t § 3 ZN). Neues Destillat [[band-2/12-baureife]], neuer
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
-- **Naechster Lauf:** **Band 1 Tail** — die noch offenen Band-1-Kapitel **1-5** (Grundlagen/Raumplanung/
-  Erschliessung/Natur-Heimatschutz/Entschaedigung) + **10** (Widerrechtliche Bauten) via taeglichem Loop,
-  dazu **Kap. 12 Restschuld** (Band 2, S. 742 ff., Shots ab 373: Wasser/Energie § 236 + Abwasser/Abfall/
-  Altlasten — schliesst das Kapitel). Band-2-Restschulden nur noch klein (Kap. 13 §§239a/240/242/248,
+- **Naechster Lauf:** **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+  Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
+  Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
+  dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten
+  Art. 32c USG — schliesst das Kapitel). Band-2-Restschulden nur noch klein (Kap. 13 §§239a/240/242/248,
   Kap. 15.13 Harmonisierungsvorlage, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 19 ab Shot 706,
   Kap. 20 § 357 Abs. 5/§ 307, Kap. 21 Art.24d/24e/37a, Kap. 8 Rest S.510-534).
-- **Restschuld Kap. 12:** Wasser-/Energieversorgung § 236 + Beseitigung Abwasser/Abfall/Altlasten +
-  EV-Abschnitt (S. 749); **ab S. 742 / Shot 373** bis Kapitelende vor Kap. 13 (S. 809).
-  (Zugaenglichkeit-Detail/Zugangsarten/OEV erledigt Run 15.)
+- **Restschuld Kap. 12 (Teil 4):** Anschlussgebuehren-Bemessung (Rest 12.5) + Beseitigung Abfall/Kehricht +
+  belastete Standorte/Altlasten (Art. 32c USG/AltlV); **ab S. 770 / Shot 387** bis Kapitelende vor Kap. 13
+  (S. 809). (12.3.6 rechtl. Sicherung + 12.4 Wasser/Energie §236 + 12.5 Abwasser bis S.769 erledigt Run 16.)
 - **Restschuld Kap. 8:** 8.3 Sicherheit der Baustelle Detail (Bauherrenhaftung, Schutz Nachbargrundstuecke,
   Werkleitungen) + Kap.-Ende bis S. 534 (Shots 257-269).
 - **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
