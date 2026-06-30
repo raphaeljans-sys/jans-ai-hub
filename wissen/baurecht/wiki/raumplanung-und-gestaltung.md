@@ -2,7 +2,7 @@
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
 last_updated: 2026-06-30
-sources: [260602_docs-baurecht-pbg-zh.md, "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 25a RPG", "Art. 75 BV", "§ 18 PBG", "§ 19 PBG", "§ 346 PBG", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md]
+sources: [260602_docs-baurecht-pbg-zh.md, "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 33 RPV", "Art. 75 BV", "§ 18 PBG", "§ 19 PBG", "§ 48 PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---
 
@@ -33,14 +33,52 @@ Koordination zwischen den Gemeinden einer Region (Teilrichtpläne Siedlung/Lands
 Verkehr/Versorgung).
 
 ### Kommunale Nutzungsplanung
-- **Zonenplan:** grundeigentümerverbindlich; teilt das Gemeindegebiet in Zonen
-  (Zonenarten siehe [[zonenkonformitaet]]). *(Detail Zonenarten/BZO folgt aus Kap. 2
-  Teil 2 — noch zu distillieren.)*
+**Grundeigentümerverbindlich** (Art. 21 Abs. 1 RPG): die Festlegungen gelten nicht nur
+für Behörden, sondern für jedermann und wirken direkt aufs Eigentum ein (Bd 1, Kap. 2,
+S. 144 f.). Wo ein Vorhaben zonenkonform ist, verleiht die Eigentumsgarantie einen
+**Anspruch auf Bewilligung** (Art. 26 BV; § 253 PBG, S. 145).
+- **Grundzonenplan** (Massstab **1:5000**, § 4a VDNP): parzellenscharfe Einteilung in
+  Bau-, Nichtbau- und Landwirtschaftszonen. **Ergänzungspläne** tragen weitere
+  Festlegungen als Informationsinhalte in den ÖREB-Kataster nach (§§ 4/10 VDNP, S. 152 f.).
 - **Bau- und Zonenordnung (BZO):** definiert je Zone die Vorschriften zu Nutzung,
   Massen und Gestaltung (Details und Richtwerte: [[zonenkonformitaet]]).
+
+#### Numerus clausus der Bauzonentypen (§ 48 Abs. 2 PBG)
+Die im PBG vorgesehenen Zonentypen sind **abschliessend** — die Gemeinden dürfen **keine
+eigenen Zonentypen kreieren** (VB.2005.00244; BEZ 1994 Nr. 20), und auch keine
+«Briefmarken-Kernzonen» (RB 2005 Nr. 55, S. 156). Die wichtigsten Typen (Belege Bd 1,
+Kap. 2, S. 156–167; Detailwerte → [[zonenkonformitaet]]):
+- **Kernzone** (§ 50 PBG): schutzwürdige Stadt-/Dorfkerne; detaillierte Vorschriften zu
+  Stellung/Höhe; moderne Architektur zulässig (BRGE IV Nr. 0177/2016).
+- **Quartiererhaltungszone** (§ 50a PBG): schützt die **Siedlungsqualität der Umgebung**
+  (nicht das Einzelgebäude).
+- **Zentrumszone** (§ 51 PBG): dichte Überbauung, Dienstleistung/Wohnen.
+- **Wohnzone** (§ 52 PBG): Wohnbauten; mässig störende Betriebe je nach Verhältnis
+  zulässig; Wohnanteil/WEH (§§ 49/49a, 251–253 PBG).
+- **Industrie-/Gewerbezone** (§ 56 PBG): Produktion/Lager/Transport; Heime, Hotels,
+  Pflege-/Altersheime **grundsätzlich ausgeschlossen** (BEZ 2015 Nr. 15).
+- **Zone für öffentliche Bauten und Anlagen** (§ 60 PBG).
+- **Erholungszone** (§ 61/§ 62 PBG), **Freihaltezone** (§ 39/§ 62 PBG), **kommunale
+  Landwirtschaftszone** (§ 46 Abs. 3 PBG), **Reservezone** (Art. 18 Abs. 2 RPG / § 65 PBG;
+  kein absoluter Einzonungsanspruch, BEZ 2009 Nr. 10), **Weilerzone** (Art. 33 RPV;
+  ≥ 10 bewohnte Gebäude in geschlossenem Siedlungsbild; ZH-Verzeichnis are.zh.ch).
+
+#### Neueinzonungs-Kriterien (Art. 15 RPG)
+Bauzonen entsprechen dem **voraussichtlichen Bedarf für 15 Jahre** (Art. 15 Abs. 1 RPG);
+**überdimensionierte Bauzonen sind zu reduzieren** (Art. 15 Abs. 2 RPG; BGer 1C_315/2015).
+Neueinzonung nur bei **kumulativer** Erfüllung von Art. 15 Abs. 4 lit. a–d RPG: Eignung +
+Bedarf/Erschliessung/Überbauung innert 15 J. + kein Kulturland-Zerstückeln + rechtlich
+gesicherte Verfügbarkeit (S. 163 f.).
+
+#### Sondernutzungsplanung & Arealüberbauung
 - **Sondernutzungsplanung:** Gestaltungspläne und Quartierpläne — erlauben von der
   Regelbauweise abweichende, projektbezogene Festlegungen (oft höhere Dichte gegen
   gestalterische/öffentliche Mehrleistung).
+- **Arealüberbauung** (§§ 69–73 PBG): in der BO festgesetzte **Mindestfläche** (RB 1997
+  Nr. 81) eröffnet einen **Nutzungsbonus** gegen erhöhte Anforderungen an Gestaltung,
+  Ausstattung und Umgebung (§§ 71 f. PBG). Bewusster Bruch mit dem Ortsbild kostet die
+  Bonusberechtigung («Ringling» BGer 1C_313/2015); substanzielle Änderung gilt als **neue**
+  Arealüberbauung (BEZ 2014 Nr. 31).
 
 ### Plansicherung (Planungszone)
 Während eine Planung läuft, sichert die **Planungszone** den künftigen Inhalt: in ihr

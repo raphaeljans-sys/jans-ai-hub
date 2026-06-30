@@ -5,6 +5,36 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-06-30
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 07.07.)
+  und Mail-Eingang (seit 29.06.) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** weiter zwei Verzugsfaelle, aber Statuswechsel bei RE-00087
+  (Kispi, CHF 15'000, faellig 16.04., **75 Tage ueberfaellig**): neu auf **Mahnung 1 (Stufe 2)**
+  eskaliert (bexio level 2), neue Zahlfrist **08.07.2026**. Bei Ausbleiben Eskalation auf Mahnung 2
+  (vorher RE-00088-Konflikt klaeren). RE-00097 (Hofer, CHF 500, faellig 16.06., **14 Tage
+  ueberfaellig**, Mahnstufe 1) — Zahlungserinnerung-Frist **30.06. = heute erreicht**, Eskalation
+  auf Mahnung 1 faellig. Kein Zahlungseingang seit dem letzten Lauf.
+- **Kalender neu:** **07.07. 16:00–16:30** TeKoSi — Vorgehen finale Tuer-Ausfuehrungsplanung (Teams,
+  KISPI; RJ Organisator). Y. Cetin (Gruner) hat 29.06. abgesagt. Ins Register aufgenommen. 01.07.
+  FIFA-Museum (privat) unveraendert.
+- **Mail-Eingang (seit 29.06.):** drei neue weiche Pendenzen — J. Struebi (Portunus) sendet 30.06.
+  das Schliesssystem-Angebot Albertstr. 7 (BKP 275.00, Pruefung offen); Schreinermanufaktur sendet
+  30.06. den Kuechenbau-Entwurf LOS 273.35 (Rueckmeldung erbeten); C. Bopp meldet 30.06. die
+  versandte Baulinien-Einwendung Giebelweg 12 (Info, keine JANS-Aktion). F. Wuersch (KISPI, 30.06.)
+  liefert B. Kuebler die Infos zur Offertstellung Fachbauleitung HLKSE/GA (RJ cc, Info).
+- **AG-Gruendung (unveraendert hoch):** Antwort ans Notariat (Name «Raphael Jans AG» bestaetigen +
+  Urkunde/Statuten 260627 senden) noch nicht raus; UBS-Antwort/angepasstes Formular abwarten.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (ueberfaellig, Mahnung-1-Frist 08.07.), RE-00097
+  (Erinnerungs-Frist heute erreicht, Eskalation faellig), Termine 01.07. + 07.07., AG-Gruendung
+  (Notariats-Antwort offen). Dauerhaft offen: SharePoint-Speicher, bexio-Doppelimport, EPROID
+  B26-00705.01 (ab 02.07.), KISPI LOS274.01 (def. Offerte Jegen), dwg Ramminger, Unterlagen
+  Scherbl, Status/Beton Tschopp, Freischaltung Merci, Chaled, Jomos, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-29
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 06.07.)

@@ -53,8 +53,9 @@ oder umbenannten Artikel aktualisieren.
 - [[01-grundlagen]] (Destillat Bd 1, Kap. 1) — Buchsynthese Grundlagen/Rechtsquellen/Grundsätze (S. 80-110), Belegquelle · *emerging*
 
 ### Planung & Gestaltung
-- [[raumplanung-und-gestaltung]] — Richtplan (**nur behördenverbindlich** Art. 9 RPG/§ 19 PBG), Nutzungsplanung, **15-J-Bedarf Bauzonen** (Art. 15 RPG), **Koordinationsgebot** (Art. 25a RPG), **Planungszone** (§ 346 PBG, 3+2 J.), ÖREB-Kataster, Sondernutzung, § 238 Einordnung, Denkmalschutz · *established*
+- [[raumplanung-und-gestaltung]] — Richtplan (**nur behördenverbindlich** Art. 9 RPG/§ 19 PBG), Nutzungsplanung (grundeigentümerverbindlich Art. 21 RPG), **numerus clausus Bauzonentypen § 48 Abs. 2 PBG** (Kern/Quartiererhaltung/Zentrum/Wohn/Industrie-Gewerbe/öff. Bauten/Erholung/Freihalte/Reserve/**Weiler** Art. 33 RPV), **15-J-Bedarf & Neueinzonung Art. 15 RPG** (4 kumulativ Abs. 4), **Koordinationsgebot** (Art. 25a RPG), **Planungszone** (§ 346 PBG, 3+2 J.), Grundzonenplan 1:5000/ÖREB, **Arealüberbauung §§ 69-73 PBG**, § 238 Einordnung, Denkmalschutz · *established*
 - [[02-raumplanung-richtplanung-nutzungsplanung]] (Destillat Bd 1, Kap. 2 Teil 1) — Buchsynthese Raumplanung/Richt-/Nutzungsplanung (S. 112-143), Belegquelle · *emerging*
+- [[02-nutzungsplanung-zonenarten-teil2]] (Destillat Bd 1, Kap. 2 Teil 2) — Buchsynthese **Nutzungsplanung/Zonenarten** (§§ 48-65, 69-73 PBG; Wald § 2 WaG-ZH; Grundwasserschutz S1/S2/S3), Belegquelle · *emerging*
 
 ### Bauen im Bestand
 - [[bestandsumbau-eingriffstiefe]] — Grundprinzip: Eingriffstiefe entscheidet über die Baueingabe; was eine Baueingabe auslöst (Brandschutz/Treppenhaus, Schallschutz SIA 181, Ausnützungsnachweis); Besitzstandsgarantie schützt nur Erhalt (nicht Ausweitung), behördlicher Ermessensspielraum; bewilligungsfreier Umbau = sicherste Variante · *established*

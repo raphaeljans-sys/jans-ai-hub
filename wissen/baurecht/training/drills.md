@@ -560,3 +560,49 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   umgekehrt zentral: dessen eigene Zufahrt muss ueber ein **dauerndes, ausreichendes Benuetzungsrecht**
   rechtlich gesichert sein (§ 237 Abs. 4 PBG, Bd 2 S. 743). **Lueckenstatus:** Beleg vollstaendig nach
   Buch; konkrete Servitutswirkung haengt vom Dienstbarkeitsinhalt ab (Agent `dienstbarkeiten-pruefer`). _[2026-06-30]_
+
+## Run 17 — Kap. 2 Nutzungsplanung / Zonenarten Teil 2 (2026-06-30)
+
+### Modell C — Selbsttest-Karten
+- **F:** Darf eine Gemeinde im Kt. ZH einen eigenen, im PBG nicht vorgesehenen Bauzonentyp schaffen?
+  — **A:** **Nein.** Die Bauzonentypen in **§ 48 Abs. 2 PBG sind abschliessend** (numerus clausus);
+  die Gemeinde ist auf die ihr zugewiesenen Legiferierungskompetenzen beschraenkt und darf die
+  Nutzweise nicht so extensiv ordnen, dass faktisch ein neuer Zonentyp entsteht (VB.2005.00244;
+  BEZ 1994 Nr. 20). Auch «Briefmarken-Kernzonen» sind zu vermeiden (RB 2005 Nr. 55). (Bd 1, S. 156) _[2026-06-30]_
+- **F:** Ist ein Pflege-/Altersheim in der Industrie-/Gewerbezone zonenkonform? — **A:** **Grundsaetzlich
+  nein.** Die Industrie-/Gewerbezone dient ausschliesslich Produktion, Lagerhaltung und Transport
+  (§ 56 Abs. 1 PBG); Heime, Hotels, Internate u.ae. sind grundsaetzlich ausgeschlossen (BEZ 2015 Nr. 15;
+  BEZ 1987 Nr. 1). Tertiaere Betriebe nur, soweit sie auf die Zone angewiesen sind. (Bd 1, S. 160 f.) _[2026-06-30]_
+- **F:** Unter welchen Voraussetzungen darf neu eingezont werden? — **A:** Die **vier Voraussetzungen
+  des Art. 15 Abs. 4 RPG kumulativ**: a) Land eignet sich fuer Ueberbauung; b) wird voraussichtlich
+  innert **15 Jahren** benoetigt, erschlossen und ueberbaut (innere Reserven vorrangig); c) Kulturland
+  wird nicht zerstueckelt; d) Verfuegbarkeit ist rechtlich gesichert. Zudem: ueberdimensionierte
+  Bauzonen sind zu **reduzieren** (Art. 15 Abs. 2 RPG; BGer 1C_315/2015). (Bd 1, S. 163 f.) _[2026-06-30]_
+- **F:** Was bringt eine Arealueberbauung und was ist ihr Preis? — **A:** Eine in der BO festgesetzte
+  **Mindestflaeche** (RB 1997 Nr. 81) eroeffnet einen **Nutzungsbonus** (Mehrausnuetzung), verlangt
+  dafuer aber erhoehte Anforderungen an Gestaltung, Ausstattung und Umgebung (§§ 69–73, insb. § 71 PBG).
+  Bewusster Bruch mit dem Ortsbild kostet die Berechtigung («Ringling» BGer 1C_313/2015); substanzielle
+  Aenderung gilt als **neue** Arealueberbauung (BEZ 2014 Nr. 31). (Bd 1, S. 168 f.) _[2026-06-30]_
+- **F:** Was ist eine Weilerzone und wann kommt sie in Frage? — **A:** Eine besondere Zone nach
+  **Art. 18 RPG / Art. 33 RPV** zur Erhaltung bestehender **Kleinsiedlungen ausserhalb der Bauzonen**
+  (mindestens **zehn bewohnte Gebaeude** in geschlossenem Siedlungsbild), sofern der kantonale Richtplan
+  sie vorsieht (ZH-Verzeichnis are.zh.ch). Sie eroeffnet beschraenkte Bau-/Umnutzungsmoeglichkeiten, wo
+  sonst Art. 24 ff. RPG sperren wuerde. (Bd 1, S. 166 f.) _[2026-06-30]_
+- **F:** Welcher Massstab gilt fuer den Grundzonenplan, und wozu dienen Ergaenzungsplaene? — **A:**
+  Grundzonenplan im Massstab **1:5000** (§ 4a VDNP) — grundeigentuemerverbindliche, parzellenscharfe
+  Einteilung in Bau-/Nichtbau-/Landwirtschaftszonen. **Ergaenzungsplaene** tragen weitere Festlegungen
+  als Informationsinhalte in den OEREB-Kataster nach (§§ 4/10 VDNP). (Bd 1, S. 152 f.) _[2026-06-30]_
+
+### Modell A — Frage→Beleg-Drill
+- **Buerofrage:** «Ein Bauherr besitzt eine grosse Parzelle in einer Industriezone und moechte dort eine
+  Pflegewohngruppe (Healthcare) realisieren — geht das, und wenn nein, was ist der Weg?» — **Beleg-Antwort:**
+  In der **Industrie-/Gewerbezone** ist eine Pflege-/Wohnnutzung **grundsaetzlich nicht zonenkonform**
+  (§ 56 Abs. 1 PBG: ausschliesslich Produktion/Lager/Transport; Heime ausgeschlossen, BEZ 2015 Nr. 15;
+  BEZ 1987 Nr. 1, Bd 1 S. 160 f.). Der Weg ist daher **nicht** die Einzelbaubewilligung, sondern eine
+  **Umzonung/Sondernutzungsplanung**: entweder Zuweisung zu einer Wohn-/Zentrums-/Zone fuer oeffentliche
+  Bauten oder ein **Gestaltungsplan**. Achtung Realitaets-Gate: eine Neueinzonung muesste die vier
+  kumulativen Voraussetzungen von **Art. 15 Abs. 4 RPG** erfuellen (Eignung / 15-Jahres-Bedarf / kein
+  Kulturland / gesicherte Verfuegbarkeit) — bei bereits eingezontem Industrieland geht es hingegen um
+  eine **Umzonung** innerhalb des Baugebiets, die planungsrechtlich leichter, aber an die Aufzonungs-/
+  Planbestaendigkeitsschranken (Art. 21 RPG) gebunden ist. **Lueckenstatus:** Buchbeleg vollstaendig;
+  Gestaltungsplan-Mechanik (§§ 83 ff. PBG) noch nicht distilliert → naechster Lauf (Kap. 2 Teil 3). _[2026-06-30]_

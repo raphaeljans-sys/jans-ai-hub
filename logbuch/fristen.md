@@ -3,15 +3,15 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 29.06.2026 (Radar-Lauf; AG-Eintraege aktualisiert ag-gruendung-monitor)
+Stand: 30.06.2026 (Radar-Lauf; RE-00087 auf Mahnung 1 eskaliert, TeKoSi-Termin 07.07. neu)
 
 ## Aktiv
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 74 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 28.06.2026 ueberschritten; Eskalation auf Stufe 2 (Mahnung 1) ueberfaellig (interaktiv, nach Abgleich mit dem RE-00088-Konflikt) | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 75 Tage ueberfaellig — neu auf **Mahnung 1 (Stufe 2)** eskaliert (bexio level 2), Zahlfrist 08.07.2026. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt klaeren) | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
-| 16.06.2026 | RE-00097 (Hofer, CHF 500) 13 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), naechste Frist 30.06.2026 (MORGEN) | mahnwesen | Debitoren | tief | offen |
+| 16.06.2026 | RE-00097 (Hofer, CHF 500) 14 Tage ueberfaellig — Mahnstufe 1 (Zahlungserinnerung), Frist 30.06.2026 (HEUTE erreicht); Eskalation auf Mahnung 1 faellig (interaktiv) | mahnwesen | Debitoren | tief | offen |
 | 18.06.2026 | SharePoint-Online-Speicher voll (nun 1055.04 / 1054 GB belegt, Microsoft-Warnung erneut 24.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |
 | 20.06.2026 | EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst Statistik Stadt ZH. EN-ZH-005 entfaellt (EVEN-Plattform). C. Duran (Gruner) bestaetigt 18.06.: EN 105/EN 110 sind im EVEN-Portal erfasst. Update 25.06.: A. Soerensen (Stadt ZH) per Abwesenheits-Antwort ausser Haus bis 02.07., beantwortet ab dann — Antwort erst nach dem 02.07. erwarten | logbuch/mail | 2619 KISPI | mittel | nachfassen |
@@ -28,7 +28,11 @@ Stand: 29.06.2026 (Radar-Lauf; AG-Eintraege aktualisiert ag-gruendung-monitor)
 | 27.06.2026 | AG Gruendung — FIRMENNAME ENTSCHIEDEN: «Raphael Jans AG» (statt «JANS AG»). Loest den Notariats-Knackpunkt vom 22.06. (fehlende Unterscheidungskraft zur «JANS GmbH») — «Raphael» ist unterscheidungskraeftig. REGIX-Anmeldung fuer die verbindliche Firmenpruefung aufgesetzt (26.06. 16:10, mail@). Gesamtes Belegset neu erstellt (alle Dok., Version 260627) auf neuen Namen + Vollliberierung (Lex-Friedrich → Lex-Koller umbenannt). OFFEN/AKTION Raphael: Antwort ans Notariat (M. Mathies, notariate-zh.ch) ist NOCH NICHT raus — Name «Raphael Jans AG» bestaetigen + Word-Dateien Urkunde + Statuten (260627) senden (Claude kann den Antwort-Entwurf vorbereiten). Beurkundung erst NACH UBS-Kapitalbescheinigung | spec/mail | AG Raphael Jans AG | hoch | offen |
 | 27.06.2026 | AG Gruendung — UBS: Raphael hat B. Jeckelmann (UBS) am 27.06. 12:18 (Postfach mail@) den definitiven Namen «Raphael Jans AG», die Umstellung auf VOLLLIBERIERUNG (volle CHF 100'000 statt 50 %/CHF 50'000) und den Einzahlungstermin Mitte August gemeldet; aktualisierte Kontoanfrage + Statuten (260627) angehaengt und das angepasste Antragsformular verlangt. AKTION Raphael: UBS-Antwort/angepasstes Formular abwarten → Video-ID, unterschreiben, Original per Post zurueck; Einzahlung CHF 100'000 Mitte August → Kapitalbescheinigung auf «Raphael Jans AG (in Gruendung)» = Voraussetzung Beurkundung | spec/mail | AG Raphael Jans AG | hoch | nachfassen |
 | offen | AG Gruendung — nach HR-Eintrag: UBS informieren (sh-cic-onboarding-newclients@ubs.com) → operatives Firmenkonto; danach AHV/BVG/UVG/MWST + Betriebs-/Berufshaftpflicht (vor erstem GU-Mandat). Voller Stand: wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md | spec | AG Raphael Jans AG | mittel | beobachten |
+| 30.06.2026 | Albertstrasse 7, BKP 275.00 Schliesssystem — J. Struebi (Portunus) sendet 30.06. das gewuenschte Angebot; Pruefung/Rueckmeldung offen | mail | Albertstrasse 7 | tief | nachfassen |
+| 30.06.2026 | KISPI LOS 273.35 Kuechenbau — T. (Schreinermanufaktur) sendet 30.06. Entwurf + Perspektivbilder (PDF) und bittet um erste Rueckmeldung | mail | 2619 KISPI | tief | nachfassen |
+| 30.06.2026 | Giebelweg 12, Langnau a/A — C. Bopp meldet 30.06.: Einwendung gegen die Baulinien-Festsetzung ist versandt (zu den Akten). Keine JANS-Aktion, beobachten | mail | 2621 Giebelweg/Bopp | tief | beobachten |
 | 01.07.2026 | Termin (privat): «Fuehrung, Food & Faenen — Fussball-WM-Edition», FIFA-Museum Seestrasse 27, 15:45–21:00 (Achtelfinal Public Viewing) | kalender | privat | tief | Termin |
+| 07.07.2026 | Termin: TeKoSi — Vorgehen finale Tuer-Ausfuehrungsplanung, 16:00–16:30 Teams (KISPI; F. Wuersch/M. Spoerri/A. Spahic/J. Ziegel). Y. Cetin (Gruner) hat 29.06. abgesagt | kalender | 2619 KISPI | mittel | Termin |
 | 10.07.2026 | JANS DATENAUSTAUSCH (SharePoint-Gastzugriff): 6 Gruner-Personen (J. Simmen, M. Eren, B. Kuebler u.a.) verlieren am 10.07. den Zugriff — bei Bedarf Gastfreigaben verlaengern (Microsoft-Warnung 21.06.) | mail/infrastruktur | 2619 KISPI | tief | beobachten |
 | 13.12.2026 | bexio Personal Access Token erneuern (laeuft ab) | infrastruktur | bexio-Connector | mittel | beobachten |
 | 23.03.2028 | M365-Zertifikat erneuern (laeuft ab) | infrastruktur | M365-Connector | tief | beobachten |

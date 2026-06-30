@@ -4,6 +4,24 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-06-30 — Run 17: Kap. 2 Teil 2 (Nutzungsplanung / Zonenarten)
+- TRANSFER NEU `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md` (Shots 73-85 ohne 76,
+  S. 144-169, **12 Doppelseiten**): Abschnitt 2.3 Nutzungsplanung — grundeigentuemerverbindlich
+  (Art. 21 RPG), **numerus clausus Bauzonentypen § 48 Abs. 2 PBG** (Kern § 50/Quartiererhaltung § 50a/
+  Zentrum § 51/Wohn § 52/Industrie-Gewerbe § 56 [Heime ausgeschlossen]/oeff. Bauten § 60/Erholung § 61/
+  Freihalte § 39,62/Reserve § 65/**Weiler Art. 33 RPV ≥ 10 Geb.**), **Neueinzonung Art. 15 Abs. 4 RPG**
+  (4 kumulativ), **Arealueberbauung §§ 69-73 PBG** («Ringling» BGer 1C_313/2015), Grundzonenplan 1:5000
+  (§§ 4/10 VDNP), Waldbegriff § 2 WaG-ZH (800 m²/12 m/20 J.), Grundwasserschutz S1/S2/S3. `emerging`.
+- VERDICHTUNG [[raumplanung-und-gestaltung]] (`established`) geschaerft: **Zonenarten/BZO-Platzhalter
+  gefuellt** (Numerus clausus, Typ-Katalog, Neueinzonungskriterien, Arealueberbauung); sources nachgefuehrt.
+- ANWENDUNG `training/drills.md` Block «Run 17»: Modell C (6 Karten) + Modell A (Pflegewohngruppe auf
+  Industrieparzelle → Umzonung/Gestaltungsplan).
+- REGISTER `seiten-inventar.md` (Shots 73-85 ohne 76 → [x]), `curriculum.md` (Kap. 2), `buecher/INDEX.md`,
+  `wiki/INDEX.md`, `wiki/QUESTIONS.md` (Restschuld Kap. 2 T2 teil-erledigt + 2 needs-verification).
+- REPORT `outputs/2026-06-30_buch-run17.md`.
+- OFFEN: Shot 76/S. 150-151 (OneDrive-I/O-Fehler) nachholen; Kap. 2 Teil 3 Sondernutzungs-/
+  Gestaltungsplan §§ 83 ff. PBG ab S. 169/170.
+
 ## 2026-06-30 — Run 16 Forcierung: 3 Kapitelteile parallel (Band-1-Tail + Kap. 12 T3)
 - TRANSFER 3 Destillate (von parallelen Agenten, Buchhaltung zentral), **46 Doppelseiten**:
   **Kap. 1** `buecher/band-1/01-grundlagen.md` (Shots 41-56, S. 80-110): **VOLLSTAENDIG** — oeff./privates

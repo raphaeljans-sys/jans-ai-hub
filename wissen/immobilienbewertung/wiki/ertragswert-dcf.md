@@ -182,15 +182,18 @@ muenden in dieselbe Bandbreite. Saetze sind **real** (Schweizer Bewertungspraxis
 Diskontsatz auf real konstant gehaltene Mieten; nominale Variante siehe unten).
 
 **Risikofreies Basisniveau (belegt, datiert):** Jahresmittel der **10-jaehrigen
-Bundesobligation (Eidgenoss)**. Stand **Juni 2026 rund 0.32-0.40 %** (4.6.: 0.40 %; 22.6.:
-0.32 %; Quelle: tradingeconomics/SNB-Datenportal, Web 06.2026) — also nahe null, aehnlich/tiefer
-als im WP-Kursstand Sommer 2023. Das stuetzt die WP-2023-Anker und legt sie ans **untere Band**.
+Bundesobligation (Eidgenoss)**. Stand **Juni 2026 rund 0.24-0.40 %**, im Monatsverlauf
+**sinkend** (4.6.: 0.40 %; 18.6.: 0.35 %; 26.6.: **0.24 %** — tiefster Stand seit Ende Maerz;
+Quelle: tradingeconomics/SNB-Datenportal, Web 06.2026, Stand Run 11 2026-06-30) — also nahe
+null, aehnlich/tiefer als im WP-Kursstand Sommer 2023. Das stuetzt die WP-2023-Anker und legt
+sie umso klarer ans **untere Band**. Der weitere Rueckgang aendert die belegten Diskont-Zeilen
+nicht (sie liegen ohnehin am unteren Rand), bestaetigt aber die Tieflage des Zinsumfelds.
 
 **Additive Herleitung (bottom-up, Modell S. 54):**
 
 | Komponente | Bandbreite | Beleg / Bemerkung |
 |---|---|---|
-| Risikofreier Basiszins (10-j Eidgenoss, Jahresmittel) | **~0.35 %** | Web 06.2026 (0.32-0.40 %); bei Anwendung Tagesstand pruefen |
+| Risikofreier Basiszins (10-j Eidgenoss, Jahresmittel) | **~0.3 %** | Web 06.2026 (Spanne 0.24-0.40 %, Ende Juni sinkend auf 0.24 %); bei Anwendung Tagesstand pruefen |
 | + Immobilien-Basisrisiko / Illiquiditaetspraemie | **+1.6 bis +1.9 Pp** | Rueckgerechnet, damit beste Lage Wohnen ~2.1 % ergibt (S. 55); *Annahme* |
 | + Makro-/Mikrolage (Gemeinde-Rating) | **0 bis +0.9 Pp** | ZH/Genf 0 → Durchschnittsgem. +0.6 → schlechte Gem. +0.9 (aus S. 52 abgeleitet) |
 | + Objekt-/Ertragsrisiko (Groesse, Qualitaet, Alter, Leerstand) | **0 bis +0.5 Pp** | Grosse Ueberbauung/Altbau/Leerstand am oberen Rand (S. 55) |

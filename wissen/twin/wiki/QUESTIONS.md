@@ -3,6 +3,30 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260630 (twin-fragesteller, aus Fidelity-Review 2026-06-30)
+
+Quelle: Drift-Report `outputs/2026-06-30_fidelity.md` (Gesamt-Fidelity 90; duennste Facette
+Stimme 89 — Restdrift in EINEM Gruss-Trigger + einer Anrede-Feinheit). Je in 1–2 Saetzen beantwortbar.
+
+1. **Gruss-Trigger laufend ↔ abschliessend im Du:** Eine **laufend-operative** Plan-/Feedback-Korrektur
+   ohne Geld schliesst Du mit «Lieber Gruss», der **dokumentierend-abschliessende Projektabschluss-Dank**
+   («Danke fuer die reibungslose Projektabwicklung / Gerne wuerde ich ein interessantes Ausfuehrungsprojekt
+   mit Dir machen») dagegen mit «Freundliche Gruesse» — beide im Du, beide OHNE Geld in der Mail. Ist der
+   Ausloeser fuer «Freundliche Gruesse» wirklich der **abschliessend-zusammenfassende Mandatscharakter**
+   (der Auftrag wird zitierfaehig abgerundet/beendet), oder eher die Gewichtigkeit des Folgeauftrag-Angebots?
+   *Warum: macht die 260630 gefundene dritte Gruss-Lesart wasserdicht.* → [[stimme]]
+2. **Anrede-Grenze namentlich-Lieferant ↔ namentlich-Amt:** Antwortet eine Verkaeuferin/ein Lieferant
+   **namentlich**, warmst Du auf «**Guten Tag Frau Gloor**» (Sie-Mittellage); ein namentlich antwortendes
+   Amt/Notariat bekommt «**Sehr geehrte Frau …**». Ist die Grenze wirklich kommerziell-Lieferant
+   (→ «Guten Tag <Name>») vs. Amt/Behoerde (→ «Sehr geehrte <Name>»), oder entscheidet etwas anderes
+   (Sympathie, Tonspiegelung des Gegenuebers)? *Warum: kalibriert, wann der Zwilling namentliche
+   Sie-Kontakte zur Mittellage warmt statt sie foermlich zu halten.* → [[beziehungsregister]]
+3. **Akquise-Bruecke im Abschluss-Dank als Standard:** Beim Mandatsabschluss haengst Du die **Tuer zum
+   Folgeauftrag** an («Gerne wuerde ich ein interessantes Ausfuehrungsprojekt mit Dir machen»). Machst Du
+   diesen Folgeauftrag-Hinweis **standardmaessig** bei jedem zufriedenstellenden Projektabschluss mit einem
+   Stammkunden, oder nur, wenn ein konkretes Anschlussprojekt absehbar ist? *Warum: operationalisiert den
+   neu erfassten Akquise-Bruecken-Reflex (D2).* → [[haltung]], [[arbeitsweise]]
+
 ## Offen — Runde 260628 (twin-fragesteller, aus Fidelity-Review 2026-06-28)
 
 Quelle: Drift-Report `outputs/2026-06-28_fidelity.md` (Gesamt-Fidelity 90; duennste Facette

@@ -47,7 +47,10 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Block** (Beleg-/Buchhaltungssicherheit schlägt Lockerheit der Anrede), ein **verhandelbares
   Angebot/Offerte zur Besprechung** («ruf mich an») bleibt dagegen Kurzgruss «Lieber Gruss/Lgr»
   trotz Geld-Bezug (Angebot ist operativ/vorwärtsgerichtet, nicht gebuchte Abwicklung), ebenso
-  reine Plan-/Feedback-Korrektur ohne Geld → Kurzgruss «Lieber Gruss» auch nach «Geschätzter»; «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe für freundlich-persönliche
+  reine Plan-/Feedback-Korrektur ohne Geld → Kurzgruss «Lieber Gruss» auch nach «Geschätzter», ABER
+  der **dokumentierend-abschliessende Projekt-/Mandatsabschluss-Dank im Du** (Dank für die Zusammenarbeit
+  + Tür zum Folgeauftrag) → «Freundliche Grüsse», auch ohne Geld in dieser Mail (dokumentierend schlägt
+  operativ-Du); «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe für freundlich-persönliche
   Kontakte; «Hallo <Vorname>» als neutral-freundlicher Du-Einstieg (deutschsprachige
   Dienstleister, zwischen «Hoi» und «Lieber»); gestapelte Anrede «Hoi lieber <Name>» + CH-Koseform
   des Vornamens («Sämi») NUR im vertraut-sozialen Peer-Du; «Ich ersuche um» als förmliche

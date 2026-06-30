@@ -123,11 +123,21 @@ wurden.
   neuer Wiki-Artikel [[grundlagen-planungs-baurecht]] (öff./privates Baurecht § 317 PBG, Rechtsquellen,
   **SIA-Normen-Verbindlichkeit** § 3 Abs. 12 BBV I / § 360 Abs. 3 PBG, Verhältnismässigkeit/Rechtsgleichheit/
   Treu+Glauben, intertemporales Recht § 318 PBG), distilliert [[01-grundlagen]] (Kap. 1 vollständig, S. 80-110).
-- **Kap. 2 Teil 2 offen (Restschuld, HOHE Büroprio):** ab S. 142 / Abschnitt 2.3 **Nutzungsplanung** —
-  Rahmennutzungs-/Sondernutzungs-/Erschliessungsplanung, **Zonenarten** (Bau-/Nichtbauzonen), **BZO**,
-  Gestaltungs-/Quartierplan, Nutzungsplanverfahren/Rechtsschutz § 329 PBG. Schärft dann
-  [[raumplanung-und-gestaltung]] + [[zonenkonformitaet]]. (Kap. 2 ist lang: S. 111-206, ~48 Doppelseiten;
-  Teil 1 S. 112-143 erledigt Run 16.)
+- ~~**Kap. 2 Teil 2 offen (Restschuld, HOHE Büroprio):** ab S. 142 / Abschnitt 2.3 Nutzungsplanung —
+  Zonenarten, BZO, Gestaltungs-/Quartierplan~~ → **teilweise erledigt 2026-06-30 (Run 17):** Kap. 2
+  Teil 2 (S. 144-169, Shots 73-85) distilliert [[02-nutzungsplanung-zonenarten-teil2]] — **numerus
+  clausus Bauzonentypen § 48 Abs. 2 PBG** (Kern § 50/Quartiererhaltung § 50a/Zentrum § 51/Wohn § 52/
+  Industrie-Gewerbe § 56/öff. Bauten § 60/Erholung § 61/Freihalte § 39,62/Reserve § 65/Weiler Art. 33 RPV
+  ≥ 10 Geb.), **Neueinzonung Art. 15 Abs. 4 RPG** (4 kumulativ), **Arealüberbauung §§ 69-73 PBG**,
+  Grundzonenplan 1:5000/Ergänzungspläne §§ 4/10 VDNP, Wald § 2 WaG-ZH, Grundwasserschutz S1/S2/S3.
+  Wiki [[raumplanung-und-gestaltung]] geschärft (Zonenarten-Platzhalter gefüllt). **Restschuld:**
+  (a) **Shot 76 / S. 150-151** nicht gelesen (OneDrive-I/O-Fehler `…11.42.54.jpg`) — nachholen;
+  (b) **Sondernutzungsplanung / Gestaltungsplan §§ 83 ff. PBG** + Quartierplan + Nutzungsplanverfahren/
+  Rechtsschutz § 329 PBG ab S. 169/170 (Teil 3). Detailwerte je Zone gehören weiter in [[zonenkonformitaet]].
+- **needs-verification — §§/Lesefehler Kap. 2 Teil 2:** **«§ 935» als Arealüberbauungsbonus** (S. 168)
+  ist mutmasslich ein Reader-/OCR-Lesefehler (richtig wohl § 71/§ 72 PBG bzw. ABV) — am amtlichen
+  PBG-Volltext (§§ 69-73 PBG) gegenprüfen, bleibt `speculative`. Ebenso exakte Abs./lit. von Art. 15 RPG,
+  § 56 PBG, § 60 PBG aus dem Fliesstext rekonstruiert; vor Zitat prüfen (Modell D).
 - **needs-verification — §§/Erlasse Kap. 12 Teil 3:** § 237 Abs. 4 PBG (Benützungsrechte), § 27/§ 39 WWG
   (Wasser/Löschwasser), § 16 FeuerwehrV (Hydranten 100/60 m), §§ 109-115 LG (Flurweg/Öffentlicherklärung),
   Art. 694 ZGB (Notwegrecht), Art. 10/11/17 GSchG, § 8 KGSchV (GEP), §§ 8a/9-13 EnerG — sinngemäss nach

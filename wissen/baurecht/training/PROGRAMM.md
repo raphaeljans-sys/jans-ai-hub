@@ -92,14 +92,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~626 / 1550 (~313 Doppelseiten; Band 2 weitgehend komplett: Kap. 11/13/14/15
+- **Seiten distilliert:** ~650 / 1550 (~325 Doppelseiten; Band 2 weitgehend komplett: Kap. 11/13/14/15
   (inkl. § 274, nur 15.13 offen)/16 (T1+T2)/17 (T1+T2)/19/20 (inkl. § 357 Abs. 4)/21/22/23 + Kap. 12 (T1-T3,
-  bis S.769; Teil 4 §236-Rest/Abfall/Altlasten offen); Band 1 **Kap. 1 VOLLSTAENDIG** + **Kap. 2 Teil 1** +
-  Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** + **Kap. 8 Teil 1**. Run 16 (Forcierung) 2026-06-30:
-  +46 Doppelseiten (3 Kapitelteile parallel).
-- **Kapitel-Destillate:** 26 Buch-Destillate (Band 1: Kap. 1/2/6/7×2/8/9; Band 2: Kap. 11/12 (T1+T2/T3)/13/
+  bis S.769; Teil 4 §236-Rest/Abfall/Altlasten offen); Band 1 **Kap. 1 VOLLSTAENDIG** + **Kap. 2 Teil 1+2**
+  (T2 = 2.3 Nutzungsplanung/Zonenarten, Shot 76 offen) + Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** +
+  **Kap. 8 Teil 1**. Run 17 (regulaer) 2026-06-30: +12 Doppelseiten Kap. 2 Teil 2.
+- **Kapitel-Destillate:** 27 Buch-Destillate (Band 1: Kap. 1/2×2/6/7×2/8/9; Band 2: Kap. 11/12 (T1+T2/T3)/13/
   14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/19/20/21/22/23; alle `emerging`).
-- **Wiki:** 17 Artikel (NEU [[grundlagen-planungs-baurecht]] 2026-06-30 `emerging` (oeff./privates Recht/SIA-
+- **Wiki:** 17 Artikel (geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
+  Platzhalter gefuellt** — numerus clausus § 48 Abs. 2 PBG, Typ-Katalog, Neueinzonung Art. 15 RPG,
+  Arealueberbauung §§ 69-73; NEU [[grundlagen-planungs-baurecht]] 2026-06-30 `emerging` (oeff./privates Recht/SIA-
   Normen/Verfassungsgrundsaetze); geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 (Planungsstufen-Belege)
   + [[baureife-und-erschliessung]] 2026-06-30 (rechtl. Sicherung §237 Abs.4 + Versorgung/Entsorgung §236);
   geschaerft [[baureife-und-erschliessung]] 2026-06-28 `emerging` (Zugangsarten/OEV);
@@ -117,7 +119,17 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
   + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
   `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
-- **Letzter Lauf:** Run 16, 2026-06-30 (Forcierung, 3 Kapitelteile parallel, 46 Doppelseiten) —
+- **Letzter Lauf:** Run 17, 2026-06-30 (regulaer, Kap. 2 Teil 2, 12 Doppelseiten) — **2.3 Nutzungsplanung/
+  Zonenarten** (S.144-169, Shots 73-85 ohne 76): grundeigentuemerverbindlich Art.21 RPG, **numerus clausus
+  Bauzonentypen §48 Abs.2 PBG** (Kern §50/Quartiererhaltung §50a/Zentrum §51/Wohn §52/Industrie-Gewerbe §56
+  [Heime ausgeschlossen]/oeff. Bauten §60/Erholung §61/Freihalte §39,62/Reserve §65/**Weiler Art.33 RPV
+  ≥10 Geb.**), **Neueinzonung Art.15 Abs.4 RPG** (4 kumulativ), **Arealueberbauung §§69-73 PBG** («Ringling»
+  BGer 1C_313/2015), Grundzonenplan 1:5000/Ergaenzungsplaene §§4/10 VDNP, Wald §2 WaG-ZH (800m²/12m/20J),
+  Grundwasserschutz S1/S2/S3. Destillat [[band-1/02-nutzungsplanung-zonenarten-teil2]], Wiki
+  [[raumplanung-und-gestaltung]] geschaerft (Zonenarten-Platzhalter gefuellt). Modell C (6) + A (1).
+  Report `outputs/2026-06-30_buch-run17.md`. OFFEN: Shot 76/S.150-151 (OneDrive-I/O-Fehler) + Kap. 2 Teil 3
+  Sondernutzungs-/Gestaltungsplan §§83 ff. PBG.
+- **Lauf davor:** Run 16, 2026-06-30 (Forcierung, 3 Kapitelteile parallel, 46 Doppelseiten) —
   **Kap. 1 Grundlagen VOLLSTAENDIG** (S.80-110, Shots 41-56: oeff./privates Baurecht §317 PBG,
   Rechtsquellen, SIA-Normen-Verbindlichkeit §3 Abs.12 BBV I/§360 Abs.3 PBG, Verfassungsgrundsaetze,
   intertemporales Recht §318), **Kap. 2 Teil 1** (S.112-143, Shots 57-72: Ziele Art.1 RPG, 15-J-Bauzone

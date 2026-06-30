@@ -158,7 +158,17 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Kataster (Art. 16 ff. GeoIG, oerebdocs.zh.ch), **Sicherungsinstrumente** (Planungszone § 346 PBG
   max. 3+2 J./Art. 27 RPG, Projektierungszone), **Richtplanung** (nur behoerdenverbindlich Art. 9
   RPG/§ 19 PBG, Teilrichtplaene/Verfahren) + Beginn **Nutzungsplanung** (2.3.1). 16 Doppelseiten.
-  Status: `emerging` (Teil 2 ab S. 142 / 2.3 Nutzungsplanung — Zonenarten/BZO/Sondernutzung offen).
+  Status: `emerging` (Teil 2 separat distilliert, siehe unten).
+  Speist [[raumplanung-und-gestaltung]] + [[zonenkonformitaet]].
+- [[02-nutzungsplanung-zonenarten-teil2]] — Kap. 2 Teil 2 (S. 144-169): **Nutzungsplanung / Zonenarten** —
+  grundeigentuemerverbindlich (Art. 21 RPG), **Grundzonenplan 1:5000 / Ergaenzungsplaene** (§§ 4/10 VDNP,
+  OEREB), **numerus clausus der Bauzonentypen § 48 Abs. 2 PBG** (Kern § 50 / Quartiererhaltung § 50a /
+  Zentrum § 51 / Wohn § 52 / Industrie-Gewerbe § 56 — Heime/Hotels ausgeschlossen / oeff. Bauten § 60 /
+  Erholung § 61 / Freihalte § 39,62 / Reserve § 65 / **Weiler Art. 33 RPV ≥ 10 Geb.**), **Neueinzonungs-
+  Kriterien Art. 15 Abs. 4 RPG** (4 kumulativ), **Arealueberbauung §§ 69-73 PBG** (Bonus gegen Gestaltung,
+  «Ringling» BGer 1C_313/2015), Waldbegriff § 2 WaG-ZH (800 m²/12 m/20 J.), Grundwasserschutzzonen
+  S1/S2/S3. 12 Doppelseiten (Shot 76/S. 150-151 offen, OneDrive-I/O-Fehler). Status: `emerging`
+  (Teil 3 Sondernutzungsplanung/Gestaltungsplan §§ 83 ff. PBG ab S. 169/170 offen).
   Speist [[raumplanung-und-gestaltung]] + [[zonenkonformitaet]].
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] — Kap. 7 Teil 1 (S. 424-447): **Der kommunale
   baurechtliche Entscheid** — Rechtsnatur (Polizeierlaubnis, sachbezogen, mitwirkungsbeduerftig

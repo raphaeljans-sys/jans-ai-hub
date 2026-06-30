@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-06-30 — twin-fidelity-review (alle 2 Tage), Gesamt-Fidelity 90 (Plateau gehalten)
+- 3 authentische Goldproben (vor-Claude, handgetippt) aus Sent rj@, distinkte Register: A gehoben-amtlich-Sie
+  (Notariat Statutenänderung GmbH, Gesellschaftsrecht-Selbstvertretung, 2025-11-04), B warm-Du Projektabschluss-
+  Dank + Akquise-Brücke (Stammkunde Bopp, 2025-10-29), C Sie-Mittellage kommerzieller Lieferant mit namentlichem
+  Warming (boesner/Gloor, 2025-10-22). Scores: Stimme 89 · Denken 90 · Haltung 90 · Beziehung 90 · Fachsignatur
+  90 · Arbeitsweise 91. Bewusst NICHT die 260628-Proben; Stimme (89) gezielt am frischen Projektabschluss-Anlass gestresst.
+- [[stimme]]: D1 BEHOBEN — **Projektabschluss-/Mandatsabschluss-Dank im Du → «Freundliche Grüsse», auch ohne Geld
+  in der Mail** (dokumentierend-abschliessend schlägt operativ-Du; dritte, mit dem Gruss-Paradox vereinbare Lesart
+  neben Rechnung/Beleg→Block und Plankorrektur→Kurzgruss). Marker + Do-Block ergänzt.
+- Validierung (positiv): vierte Rechtssäule Gesellschaftsrecht (Art. 779 ff. OR / Art. 22 Abs. 4 HRegV,
+  recherchierte a–f-Checkliste → Fachstelle bestätigen) + Lieferanten-Warming «Guten Tag <Name>» frisch bestätigt.
+  Dokumentiert: D2 Akquise-Brücke im Abschluss-Dank, D3 Anrede-Grenze namentlich-Lieferant↔namentlich-Amt.
+- QUESTIONS Runde 260630 (twin-fragesteller): 3 Fragen — Gruss-Trigger laufend↔abschliessend, Anrede-Grenze
+  namentlich-Lieferant↔Amt, Akquise-Brücke als Standard.
+- Report `outputs/2026-06-30_fidelity.md`; DNA neu kompiliert (`rules/jans-dna.md`, 6 Facetten).
+
 ## 2026-06-29 — twin-mail-training (täglich), Batch 20 (Sent rj@ 2025-11-17…11-20)
 - 15 Mails gesichtet, 5 Volltexte gelesen (alle authentisch, klar vor-Claude). Hauptfaden: Projekt 2414
   Thalwil, Näherbaurecht/Vordach-Vergrösserung über Terrasse (Grenze SBB + Nordwest-Nachbar) — fachliche
