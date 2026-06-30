@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.06.2026 17:24:31
+Stand: 30.06.2026 17:44:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 30.06.2026 17:24:31
 - 2 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- d9bd480 nas-selfcommit: 1 Datei(en) 2026-06-30 17:15
+- 89f35aa sync: ag-gruendung-monitor: Status 30.06. nichts Neues (UBS/Notariat/REGIX offen);twin-fidelity-review: 2026-06-30
