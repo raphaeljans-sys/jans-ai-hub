@@ -58,3 +58,9 @@ Konsequenz fuer jeden Verifier:
   einen Fehler ungebremst ins Endprodukt (hier: Belegset + UBS-Formular liefen auf einen
   spaeter nicht eintragungsfaehigen Namen). Verifier im Zweifel **streng** (Default = nicht
   bestanden, bis die autoritative Stelle bestaetigt).
+
+**Empirisch bestaetigt (Verlauf bis 29.06.2026):** die autoritative Instanz behielt recht —
+der Name wurde tatsaechlich auf «Raphael Jans AG» geaendert und das gesamte Belegset (Version
+260627) darauf neu gezogen, genau weil der Notariats-/HRA-Befund das Connector-Gruen verwarf.
+Die Rangordnung «autoritative Instanz vor Connector» ist damit nicht nur Lehrsatz, sondern
+durch den realen Korrektur-Aufwand belegt.

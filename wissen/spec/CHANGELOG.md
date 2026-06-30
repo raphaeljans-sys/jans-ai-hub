@@ -1,5 +1,20 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-06-30 — Trainingslauf 2
+- Output `outputs/2026-06-30_training-run2.md` (Audit + Auswertung der AG-Gruendung-
+  Fortschreibung bis 29.06.). Keine neue Spec-Anwendung, aber neue Korrektur-Deltas.
+- Kern-Lektion: **lebende Spec** — zwei bestaetigte Schluesselentscheide kippten spaet
+  (Name «JANS AG»→«Raphael Jans AG», Liberierung 50 %→100 %); Belegset als Version 260627
+  neu gezogen. → `anwendung-jans.md` Schritt 2 (gekippte Entscheide im Abschnitt selbst
+  korrigieren + Belegset versioniert nachziehen; bewegliche Annahmen markieren).
+- `verifier.md`: Sektion «Empirisch bestaetigt» — die autoritative Instanz (Notar/HRA) behielt
+  recht (Name tatsaechlich geaendert), Rangordnung autoritative Instanz > Connector belegt.
+- F4 teilweise eingeloest: Karpathy-Primaerquelle (Gist «LLM Wiki» + X-Post) belegt; bestaetigt
+  raw→wiki→schema + Compiler-Analogie + Linting (Skill `wissenscheck`). Cherny-Thread offen.
+- `QUESTIONS.md` F1/F2/F4 nachgefuehrt. Rule `spec-methode.md` bewusst NICHT geaendert.
+- Offen/geflaggt fuer Raphael (2. Mal): CLAUDE.md KB-Liste um `spec/` ergaenzen (Befund #1),
+  F6 Spec-Template aus AG-Gruendung extrahieren.
+
 ## 2026-06-27 — Trainingslauf 1
 - Output `outputs/2026-06-27_training-run1.md` (Environment-Audit Top-5-Befund + Auswertung
   der ersten realen Spec-Anwendung AG-Gruendung).

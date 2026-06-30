@@ -44,6 +44,13 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    bestaetigen** — sonst baut das Ziel auf einer falschen Annahme auf (Lektion AG-Gruendung:
    anfangs faelschlich "bestehende AG" statt "Einzelfirma").
 2. **Agil** — `TaskCreate`-Checkliste, enge Scopes, Checkpoints, Review je Block.
+   Die Spec ist ein **lebendes Dokument**: kippt ein Schluesselentscheid spaeter, wird er
+   im **Schluesselentscheide-Abschnitt selbst** korrigiert (nicht nur als Log-Zeile angehaengt)
+   und das **gesamte Deliverable-/Belegset in EINEM versionierten Durchlauf** nachgezogen, nicht
+   ein Dokument geflickt (Lektion AG-Gruendung 29.06.: Firmenname «JANS AG»→«Raphael Jans AG»
+   und Liberierung 50 %→100 % kippten nach der Bestaetigung; das ganze Belegset wurde als
+   Version 260627 neu erstellt). Annahmen, die erfahrungsgemaess wandern (Name, Kapital,
+   Termin), im Interview als «noch beweglich» markieren.
 3. **Praezise + Verifier** — Bewertungskriterien vorab; Goldstandard als Format-Vorlage;
    zweite Pruefinstanz (`korrektur`/`twin`/`/code-review`); externes Signal via Connector.
    Wo eine **autoritative Instanz** entscheidet (Behoerde/Notar/Bank), gilt deren Befund vor
