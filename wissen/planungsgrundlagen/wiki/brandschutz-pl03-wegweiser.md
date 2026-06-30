@@ -1,8 +1,8 @@
 ---
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS)
 status: established
-last_updated: 2026-06-22
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch/vkg.ch (BSV-2026-Projekt, 2026-06-22)]
+last_updated: 2026-06-30
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]]
 ---
 
@@ -42,12 +42,28 @@ Blaues Buch/` (PBG/BZO-Kommentar ZH, brandschutzrelevante Stellen), `08 QS/` (JA
 QS-Vorlagen), `11 Projekte/` + `_Projekte Themen/` (projektbezogene Querverweise),
 `z_Administration/` (VKF-Bestellung/Lieferschein Norm).
 
-**Datenstand / ⚠ Totalrevision BSV 2026:** Aktuell in Kraft ist **BSV 2015 mit den Revisionen
-2017 und 2022**. Die **Totalrevision BSV 2026** (risikoorientierter Ansatz) ist im Verfahren:
-technische Vernehmlassung 15.09.2025–11.01.2026, politische Vernehmlassung ab 08/2026,
-geplanter **Inkraftsetzungs-Antrag Maerz 2027** (Quelle: bsvonline.ch/vkg.ch, Stand 2026-06-22).
-→ **Bis dahin gilt BSV 2015/17/22.** Bei jedem Projekt aktuellen Stand auf **bsvonline.ch**
-pruefen (loest die alte URL `praever.ch/de/bs/vs` ab, die in den 2015-PDFs noch zitiert ist).
+**Datenstand / ⚠ Totalrevision BSV 2026 (Stand 2026-06-30 verifiziert):** Aktuell in Kraft ist
+**BSV 2015 mit den Revisionen 2017 und 2022**. Die **Totalrevision BSV 2026** (risikoorientierter
+Ansatz, seit 2018 in Arbeit) ist **doppelt gebremst** und verschiebt sich von 2026 auf **2027**:
+
+1. **Fachliche Konsolidierungsphase** (offizieller Zeitplan bsvonline.ch «Information BSV 2026»):
+   technische Vernehmlassung **15.09.2025–11.01.2026** (gelaufen), Schulungen ab 12/2025,
+   **politische Vernehmlassung 08–11/2026** (3 Mt.), **Genehmigung IOTH-Plenarversammlung 03/2027**,
+   **geplantes Inkrafttreten 2027** (Herbst). Grund: Detailabstimmungen zwischen den Vorschriften-
+   teilen noch noetig — nicht ein Brandereignis.
+2. **Politischer «Marschhalt» bei den Liberalisierungsbestrebungen** (VKG-Medienmitteilung
+   **06.01.2026**): Ausloeser war das **Brandunglueck Crans-Montana**. IOTH/VKG ueberpruefen die
+   geplanten **Erleichterungen/Liberalisierungen** der Revision; der Entwurf soll «mit Fokus auf die
+   realen Risiken von Grund auf neu aufgebaut» werden. Ein **neuer Terminplan** wird erst nach
+   Auswertung der Brand-Untersuchung erstellt — der 2027-Plan ist damit **mit Vorbehalt** zu lesen.
+
+→ **Konsequenz fuer JANS:** Bis zum Inkrafttreten gilt unveraendert **BSV 2015/17/22** — voraussichtlich
+**ueber 2027 hinaus**. **Keine antizipierten Erleichterungen der BSV 2026 in Projekte einplanen**
+(der Marschhalt kann sie streichen/verschaerfen). Bei jedem Projekt aktuellen Stand auf
+**bsvonline.ch/de/aktuell** pruefen (loest die alte URL `praever.ch/de/bs/vs` ab, die in den
+2015-PDFs noch zitiert ist). ⚠ Naechster Check bei Start politische Vernehmlassung (08/2026) bzw.
+Publikation neuer Terminplan. Quellen: bsvonline.ch «Information BSV 2026», VKG-MM «Marschhalt bei
+Liberalisierungsbestrebungen» 06.01.2026 (Stand 2026-06-30).
 
 ### Online-Werkzeuge (belegt aus den `_LINK`-Dateien)
 - **bsvonline.ch** — zentrale VKF-Plattform: Norm + alle BSR der Ausgabe 2015 (`/de/

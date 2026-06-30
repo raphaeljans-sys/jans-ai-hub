@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-06-30 — Training Run 12 (Brandschutz/PL-03 + Pivot Kartenportale): BSV-2026-Stand verifiziert (Marschhalt Crans-Montana) · NEU M1-Grundlagen-Checkliste «neue Parzelle»
+- Schwerpunkt **Brandschutz** (Rotation: Run 11 Recht/Norm → Run 12 Brandschutz), inhaltlich
+  erschoepft → **Doppel-Fokus mit Kartenportale (Prioritaet)**. Connector-Schritt: **ja**
+  (geo-zh.mjs end-to-end getestet). Quellen: bsvonline.ch «Information BSV 2026», VKG-Medien-
+  mitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026; eigene Connectoren.
+- **C6/B5 — BSV-2026-Stand verifiziert:** Projekt **verschiebt sich von 2026 auf 2027**, doppelt
+  gebremst: (1) fachliche **Konsolidierungsphase** (offiz. Zeitplan: pol. Vernehmlassung 08–11/2026,
+  IOTH-Genehmigung 03/2027, Inkraft 2027); (2) politischer **Marschhalt bei den Liberalisierungen**
+  nach dem **Brandunglueck Crans-Montana** (VKG-MM 06.01.2026) — Entwurf risikoorientiert neu, neuer
+  Terminplan erst nach Brand-Untersuchung. **Konsequenz JANS:** bis Inkrafttreten **BSV 2015/17/22**,
+  **keine antizipierten Erleichterungen einplanen** → `brandschutz-pl03-wegweiser` §1 (last_updated 2026-06-30).
+- **M1 — NEU `kartenportale-grundlagen-checkliste-neue-parzelle.md` (established):** Standard-Output
+  «was JANS bei einer neuen Parzelle IMMER zuerst holt» — 8 Pflicht-Grundlagen (EGRID → OEREB →
+  Zonenplan → Baulinien → amtl. Vermessung → DTM/Orthofoto → GWR → Behoerden), je mit konkretem
+  Connector-Befehl; SZ-Kurzvariante; verankerte Identifikatoren-Regel.
+- **Connector-Smoke-Test (2026-06-30):** geo-zh.mjs an **Giebelweg 12, Langnau a.A.** validiert:
+  Adresse → **EGRID CH879777718909 · Parz. 3338 · BFS 136**; `--produkt zonenplan` → **W/1.5 (W1),
+  BMZ 1.5, GH 4.5, FH 7, ES II, inKraft, keine Revision**; login-frei < 5 s. Als wiederholbarer
+  Funktionstest in den M1-Artikel eingewoben.
+- Register: `INDEX.md` (M1 + Brandschutz-Zeile), `QUESTIONS.md` (C6/B5 `[~]`-Update),
+  `curriculum.md` (M1 `[x]`, B5-Update), `raw/_INGESTED.md` (2 Run-12-Zeilen), Output
+  `outputs/2026-06-30_training-run12.md`.
+- **Naechster Lauf:** Energie (PL-04, Prioritaet) — D5 PV-Benchmark Typ B/C/D, D6 EVEN am KISPI-Fall.
+
 ## 2026-06-28 — Training Run 11 (Recht/Norm/PL-02): LRV-ELI vollendet · ZH-RPG-2-Zahlen + Klima-PBG · belegte SZ-Messweisen · SZ-Benchmark Willerzell
 - Schwerpunkt **Recht/Norm** (Rotation: Run 10 Energie → Run 11 Recht/Norm). Kein Connector-Schritt.
   Quellen: fedlex.admin.ch (LRV), zh.ch (RPG-2-Umsetzung), Screenshots `PL-02/01_Gesetze/02_Schwyz`,

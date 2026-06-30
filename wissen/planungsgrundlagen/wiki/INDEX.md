@@ -9,13 +9,14 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-baulinien-abstandslinien-zh]] — Baulinien + Abstandslinien (Verkehr 0158, Wald 0152, Gewaesser 0153, Waldgrenze 0150, Gewaesserraum 0185) login-frei via OGD-WFS + Connector `--produkt baulinien` (±150 m) · **established**
 - [[kartenportale-geoportale-uebersicht]] — welches Portal liefert was + Geodaten-Formate-Kurzleitfaden (K8) · **established**
 - [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
+- [[kartenportale-grundlagen-checkliste-neue-parzelle]] — **M1 Standard-Output «neue Parzelle»**: die 8 Pflicht-Grundlagen (EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden) je mit Connector-Befehl; SZ-Kurzvariante; End-to-End-Benchmark Giebelweg 12 (validiert 2026-06-30) · **established**
 
 ## Recht & Norm (PL-02)
 - [[recht-norm-quellenlandkarte]] — Wegweiser PL-02 (10 Ordner), SR→fedlex-ELI **vollstaendig** (BehiG/NHG/GSchG/LSV/RPV/**LRV cc/1986/208_208_208**…) + redirect-Endpunkt, RPG-2-Bund+ZH-Stand (ZH 40'807 Geb./2'594 ha, Abbruchpraemie 01.07.2026, Klima-PBG), **belegte SZ-Messweisen-Tabelle (§ 31i GFZ / § 31g BMZ / § 60 / Art. 42 / § 61, SZ IVHB-aligned)**, 06_Richtlinien-Wegweiser · **established**
 - [[recht-norm-baurechtsanalysen-benchmarks]] — reale JANS-Faelle (08_) als Struktur-/Praezedenz-Benchmark; Goldstandard **Maur** (ZH) + SZ-Benchmark **Willerzell/Reckholdern 3301** (Quellen-Trias Kanton/Bezirk/QGP) · emerging
 
 ## Brandschutz (PL-03)
-- [[brandschutz-pl03-wegweiser]] — Wegweiser PL-03: VKF-Struktur 2015 (Norm/BSR/Verzeichnisse/Erlaeuterungen/Arbeitshilfen + Rev. 2017/2022, BSV-2026-Stand), Brandschutznachweis (Inhalt/wann/Vorlage MFH-5g-RF1), QSS 1–4 (Tab. 3.3.1/3.4.1, Healthcare=Beherbergung [a]→QSS 2–3); Fach-/Detailarbeit → Skill `brandschutz` · **established**
+- [[brandschutz-pl03-wegweiser]] — Wegweiser PL-03: VKF-Struktur 2015 (Norm/BSR/Verzeichnisse/Erlaeuterungen/Arbeitshilfen + Rev. 2017/2022), **BSV-2026 doppelt gebremst → 2027** (Konsolidierungsphase + Marschhalt Crans-Montana 06.01.2026; bis dahin BSV 2015/17/22, keine Erleichterungen einplanen), Brandschutznachweis (Inhalt/wann/Vorlage MFH-5g-RF1), QSS 1–4 (Tab. 3.3.1/3.4.1, Healthcare=Beherbergung [a]→QSS 2–3); Fach-/Detailarbeit → Skill `brandschutz` · **established**
 - _Fach-/Detailarbeit (EI/RF, Brandabschnitte, W3xx, DoP, Ertuechtigung) → Skill `brandschutz` (kein Doppel)_
 
 ## Energie (PL-04)
