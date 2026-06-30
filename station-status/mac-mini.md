@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.06.2026 14:53:37
+Stand: 30.06.2026 15:13:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 30.06.2026 14:53:37
 - 2 Datei(en): AR - 03 Studien / 2621 Giebelweg 12
 
 ## Hub-Git-Stand (NAS)
-- f00bad0 nas-selfcommit: 1 Datei(en) 2026-06-30 14:45
+- e87438c nas-selfcommit: 1 Datei(en) 2026-06-30 15:00
