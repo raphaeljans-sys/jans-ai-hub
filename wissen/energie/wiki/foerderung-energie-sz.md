@@ -3,7 +3,7 @@ title: Förderung Energie Kanton Schwyz (Förderprogramm 2026)
 status: established
 last_updated: 2026-06-29
 sources: [destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/pv-einmalverguetung-bund-bfe.md]
-links: [[INDEX]] [[foerderung-energie-zh]] [[gebaeudeprogramm-bund-hfm-2015]] [[pv-einmalverguetung-bund-bfe]]
+links: [[INDEX]] [[foerderung-energie-zh]] [[gebaeudeprogramm-bund-hfm-2015]] [[pv-einmalverguetung-bund-bfe]] [[energiefranken-foerder-suchmaschine-ch]]
 ---
 
 # Förderung Energie — Kanton Schwyz
@@ -39,7 +39,10 @@ Verbesserung ≥ 0,07, Baubewilligung vor 2000, GEAK Plus ab Förderbeitrag CHF 
 - Nur **Ersatz von Öl-/Gas-/Elektroheizung** im **Bestand** (Ersatzneubau = Neubau, nicht gefördert;
   WP-Ersatz durch WP nicht gefördert). WP nur Elektromotor; bis 15 kW WPSM-Anlagenzertifikat, ab
   15 kW FWS-Gütesiegel + Leistungsgarantie.
-- **Klimaprämie + kantonale Beiträge nicht kombinierbar** (CO₂-Wirkung nicht doppelt anrechenbar).
+- **Klimaprämie + kantonale Beiträge nicht kombinierbar** (CO₂-Wirkung nicht doppelt anrechenbar) —
+  beim fossilen Heizungsersatz die kantonale WP-Förderung **gegen** die schweizweite Klimaprämie
+  (Stiftung KliK, ~CHF 360/kW, keine Obergrenze) rechnen und die **höhere** Variante wählen →
+  `[[energiefranken-foerder-suchmaschine-ch]]`, FAQ F29.
 - **PV fördert NICHT der Kanton**, sondern der Bund über die **Pronovo-Einmalvergütung** (nach
   Inbetriebnahme) → `[[pv-einmalverguetung-bund-bfe]]`.
 - Eigenleistung möglich, aber nur **Materialkosten** zahlbar.

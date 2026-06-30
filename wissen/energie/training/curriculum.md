@@ -102,7 +102,12 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   F7 geschaerft. **Bundes-Gebaeudeprogramm/HFM 2015 belegt 2026-06-28** (CO2-Gesetz Art. 34 →
   Globalbeitraege → kantonaler Vollzug HFM 2015, 18 Module; Rahmenbedingungen U≤0,20/Verbesserung
   ≥0,07/Baujahr<2000/GEAK Plus ab 10k) → `[[gebaeudeprogramm-bund-hfm-2015]]` (FAQ **F27** neu).
-  **vollstaendig** (offen nur konkrete M-02…M-18-Saetze je Kanton + SZ-Foerderprogramm).
+  **SZ-Foerderprogramm belegt 2026-06-29** (Vollzugshilfe Kt. SZ 01.01.2026, alle CHF-Saetze →
+  `[[foerderprogramm-energie-sz-2026]]`, FAQ **F28**). **Gemeinde-/EWU-Ebene + Foerder-Suchmaschine
+  belegt 2026-06-30** (`energiefranken.ch` EnergieSchweiz/BFE standortgenau ueber alle Ebenen +
+  Klimapraemie Stiftung KliK ~360/kW, meist alternativ zum Kanton) → `[[energiefranken-foerder-suchmaschine-ch]]`
+  (FAQ **F29** neu). **vollstaendig** (offen nur konkrete M-02…M-18-Saetze je Kanton + PLZ-genaue
+  Gemeinde-Beitraege der JANS-Standorte + Klimapraemie-Laufzeit/2026-Satz Live-Pruefung).
 - [x] D5 Regenwasserbewirtschaftung / Versickerung Kt. ZH — belegt 2026-06-23 via AWEL-Gesuchsformular
   (Bewilligung >20 m², Zustaendigkeit Gemeinde/AWEL, Metall-Adsorber >50 m², Versickerungsversuch +
   1,0 m Filterschicht; VSA 2019/SN 592 000) → `[[regenwasserbewirtschaftung-versickerung-zh]]` (FAQ F24).

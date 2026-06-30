@@ -24,8 +24,14 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   4'800+360/kW_th, Solarthermie 2'400+1'000/kW_th, Minergie-P-EFH 155/m² EBF, GEAK 1'000/1'500; linear statt
   ZH-Pauschalen) → `[[foerderprogramm-energie-sz-2026]]`, `[[foerderung-energie-sz]]`, FAQ **F28** neu, F7 geschaerft.
   **EIV-Basis-Saetze fuer 2026 verifiziert ✓ 2026-06-29** (unveraendert; einzige Aenderung Winterstrombonus
-  ≥100 kW ab IBN 1.1.2026) → `[[pv-einmalverguetung-bund-bfe]]`. Offen nur noch: exakte **2026er** EIV-CHF/kWp
-  je Anlagengroesse am Pronovo-Tarifrechner (interaktiv); konkrete M-02…M-18-Saetze weiterer Kantone.
+  ≥100 kW ab IBN 1.1.2026) → `[[pv-einmalverguetung-bund-bfe]]`. **Gemeinde-/EWU-Ebene + Foerder-
+  Suchmaschine belegt ✓ 2026-06-30** (`energiefranken.ch`, EnergieSchweiz/BFE — standortgenau PLZ → alle
+  Ebenen Bund/Kanton/Gemeinde/EWU/Stiftung; Foerderung als Stapel; **Klimapraemie** Stiftung KliK ~360/kW
+  keine Obergrenze, meist **alternativ** zur kantonalen WP-Foerderung) → `[[energiefranken-foerder-suchmaschine-ch]]`,
+  FAQ **F29** neu, `foerderung-energie-zh/-sz` verlinkt. Offen nur noch: exakte **2026er** EIV-CHF/kWp
+  je Anlagengroesse am Pronovo-Tarifrechner (interaktiv); konkrete M-02…M-18-Saetze weiterer Kantone;
+  konkrete **Gemeinde-Beitraege** der JANS-Standorte (PLZ-spezifisch, erst projektbezogen); Klimapraemie
+  exakter 2026-Satz + Laufzeit (Quellenwiderspruch «bis 2025» vs. «bis Ende 2027» → Live-Pruefung klimapraemie.ch).
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.

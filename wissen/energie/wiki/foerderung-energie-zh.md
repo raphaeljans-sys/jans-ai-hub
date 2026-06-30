@@ -4,7 +4,7 @@ status: established
 last_updated: 2026-06-28
 datenstand: 2026-06-26 (Foerderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unveraendert bestaetigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28
 sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]]
 ---
 
 # Foerderung Energie — Kanton Zuerich
@@ -78,9 +78,13 @@ selbst → darum kantonal verschieden). Bauherr: **ein** Gesuch beim **Standortk
 1. **Erst Gesuch, dann bauen** — ausnahmslos.
 2. **Huelle vor Technik:** zuerst (oder gleichzeitig) daemmen → WP wird kleiner und effizienter
    (tiefere Vorlauftemperatur, hoehere JAZ) und beide Foerdertoepfe lassen sich kombinieren.
-3. **Gemeinde + Bund zusaetzlich pruefen:** kommunale Beitraege ueber `energiefranken.ch`;
-   PV-Einmalverguetung des Bundes ueber `pronovo.ch` (nicht Teil des kantonalen Hefts).
-4. **Altbau-Schwelle Baujahr < 2000** im Hinterkopf behalten.
+3. **Gemeinde + Bund zusaetzlich pruefen:** kommunale Beitraege + Energieversorger-Boni standortgenau
+   ueber `energiefranken.ch` (PLZ eingeben → alle Ebenen) → `[[energiefranken-foerder-suchmaschine-ch]]`,
+   FAQ F29; PV-Einmalverguetung des Bundes ueber `pronovo.ch` (nicht Teil des kantonalen Hefts).
+4. **Heizungsersatz fossil:** auch die schweizweite **Klimapraemie** (Stiftung KliK, ~CHF 360/kW, keine
+   Obergrenze) pruefen — aber **meist alternativ** zur kantonalen WP-Foerderung, nicht zusaetzlich: die
+   hoehere Variante rechnen → `[[energiefranken-foerder-suchmaschine-ch]]`.
+5. **Altbau-Schwelle Baujahr < 2000** im Hinterkopf behalten.
 
 ## Bezug
 - Bauherren-Antwort: `[[BAUHERREN-FAQ]]` F7. Quelle/Details: `[[foerderprogramm-energie-zh-2026]]`.

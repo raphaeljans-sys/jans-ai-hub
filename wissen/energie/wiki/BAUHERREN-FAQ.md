@@ -1011,6 +1011,42 @@ Rechtsanspruch) — vor Zusage Aktual-/Budgetstand auf `sz.ch` pruefen. Energier
 
 ---
 
+## F29 — «Wie finde ich heraus, welche Foerdergelder ich an MEINEM Standort wirklich bekomme — auch von der Gemeinde?»
+
+**Kurz:** Gib die **Postleitzahl** des Gebaeudes auf **`energiefranken.ch`** (Betreiber EnergieSchweiz/
+BFE, kostenlos) ein — die Suchmaschine zeigt **alle** dort verfuegbaren Programme von **Bund, Kanton,
+Gemeinde, Energieversorger und Stiftungen** auf einen Blick. Genau die **Gemeinde-** und **Energie-
+versorger-Beitraege**, die in den Kantons-Tabellen (F7 ZH / F28 SZ) **nicht** stehen, kommen oft
+**on-top**. Beim **Heizungsersatz** zusaetzlich die **Klimapraemie** (Stiftung KliK, **ca. CHF 360/kW**,
+keine Obergrenze) pruefen — aber Achtung: meist **alternativ** zur Kantonsfoerderung, nicht zusaetzlich.
+
+**Fachlich — die Foerderung ist ein Stapel, kein einzelner Topf:**
+
+| Ebene | Wofuer | Antrag wann |
+|---|---|---|
+| **Bund** (Pronovo) | PV-Einmalverguetung | **NACH** Inbetriebnahme |
+| **Kanton** (Gebaeudeprogramm) | Daemmung, Heizungsersatz, Solarthermie, Minergie | **VOR** Baubeginn |
+| **Gemeinde/Stadt** | on-top, je Gemeinde verschieden | je Programm |
+| **Energieversorger/EWU** | PV-Einspeisung, WP-Boni, Beratung | je Angebot |
+| **Klimapraemie (Stiftung KliK)** | fossiler Heizungsersatz → WP/Holz, ~360/kW | bei Ersatz, via klimapraemie.ch |
+
+**Reihenfolge/Heuristik:** *Huelle & Heizung → Kanton (vor Baubeginn). PV → Bund/Pronovo (nach IBN).
+Heizungsersatz fossil → Klimapraemie pruefen (meist statt Kanton). Gemeinde/EWU → `energiefranken.ch`.*
+**Heizungsersatz konkret:** Kantonsbeitrag (z. B. SZ Luft/Wasser-WP 3'200 + 120/kW_th, F28) **gegen**
+Klimapraemie (~360/kW) rechnen und die **hoehere** Variante nehmen — **nicht addieren**, wo der Kanton
+die Kombination ausschliesst (Kt. SZ: «Klimapraemie + kantonale Beitraege nicht kombinierbar»). PV
+bleibt davon unberuehrt.
+
+**Quelle:** energiefranken.ch (© 2026 EnergieSchweiz/BFE) + Klimapraemie Stiftung KliK / GebaeudeKlima
+Schweiz → `[[energiefranken-foerder-suchmaschine-ch]]`; Kanton-/Bund-Mechanik → F27 /
+`[[gebaeudeprogramm-bund-hfm-2015]]`; ZH-Saetze → F7, SZ-Saetze → F28; PV-Bund → F7 /
+`[[pv-einmalverguetung-bund-bfe]]`. ⚠ **Datenstand 2026-06-30:** Programme/CHF-Saetze altern schnell,
+budgetabhaengig (kein Rechtsanspruch); Klimapraemie-Laufzeit in den Quellen widerspruechlich («bis 2025»
+vs. «bis Ende 2027») → **vor Zusage standortgenau auf `energiefranken.ch` + Standortkanton/Gemeinde +
+klimapraemie.ch pruefen**. Energierecht/Heizverbot → Skill `baurecht`.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
@@ -1019,7 +1055,11 @@ Rechtsanspruch) — vor Zusage Aktual-/Budgetstand auf `sz.ch` pruefen. Energier
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-29: 28 Kernfragen F1-F28 belegt** (neu **F28 ‹Foerderbeitraege Kt. Schwyz›**:
+> **FAQ-Stand 2026-06-30: 29 Kernfragen F1-F29 belegt** (neu **F29 ‹Welche Foerdergelder an MEINEM
+> Standort — auch Gemeinde?›**: `energiefranken.ch` als standortgenaue Suchmaschine EnergieSchweiz/BFE
+> ueber alle Ebenen Bund/Kanton/Gemeinde/EWU/Stiftung; Foerderung als Stapel; Klimapraemie KliK ~360/kW
+> beim fossilen Heizungsersatz, meist alternativ zum Kanton → `[[energiefranken-foerder-suchmaschine-ch]]`).
+> Zuvor **F28 ‹Foerderbeitraege Kt. Schwyz›**:
 > fixe CHF-Saetze je Massnahme Stand 01.01.2026 — Daemmung 60/m² (+40 Vollsanierung), Luft/Wasser-WP
 > 3'200 + 120/kW_th, Erdsonde 4'800 + 360/kW_th, Solarthermie 2'400 + 1'000/kW_th, Minergie-P-EFH
 > 155/m² EBF; linear statt ZH-Pauschalen, Gesuch vor Baubeginn, max. 50 %/300'000, PV via Bund →
