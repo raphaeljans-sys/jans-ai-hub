@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-01 — Wissens-Health-Check (Phase 1, unbeaufsichtigt)
+
+- Audit A-G ueber 26 Wiki-Artikel + Outputs + `_INGESTED`/`training`. Befund: gesunde, sehr gut
+  belegte KB (kein ß, keine Deko-Symbole, Quellenpflicht + Stand durchgaengig, keine Orphans,
+  INDEX vollstaendig). 3 echte Findings: (1) **Run 11 vom 30.06. hat `ertragswert-dcf.md`
+  editiert, aber `last_updated`/CHANGELOG/Output nicht nachgefuehrt** (Prozessleck wie Run 7);
+  (2) **2 formal falsche `[[Backlinks]]`** — `[[healthcare-wirtschaftlichkeit]]` (Skill, in
+  `zh-wald-8636`) + `[[outputs/2026-06-09_...]]` (in `sz-wangen-8854`); (3) minor Frontmatter-
+  Inkonsistenzen (`kanton:` Zuerich/Zürich, Thalwil `plz: 8136` statt 8800; `nutzungskonzepte`
+  INDEX *emerging* vs. Frontmatter *established*). Keine Aktionen ausgefuehrt (Phase 2 offen).
+  Report: `outputs/2026-07-01_health-check.md`.
+
 ## 2026-06-28 — Training-Run 10: drei ungelesene Quellen ingestiert (D3-Wohnbau-Faustregel belegt + SIA 416 normverankert)
 
 - **`wiki/ertragswert-dcf.md`** (06-28, established): zwei neue belegte Sektionen aus Raphaels

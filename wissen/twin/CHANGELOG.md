@@ -2,6 +2,14 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-01 — wissenscheck Phase 1 (Audit-only): A gruen · B gelb · C gruen · D ROT · E gruen · F gruen · G gelb
+- Report `outputs/2026-07-01_health-check.md`. Kein Wiki/raw editiert (nur Audit + Report + dieser Eintrag).
+- Top: (D, rot) `260625-mailbatch-16.md` in 4 Artikeln als Quelle zitiert, aber KEINE raw-Datei / kein
+  _INGESTED-Eintrag / kein CHANGELOG-Lauf → Quellenkette Batch 16 unterbrochen (Marker im Wiki aber
+  konsistent); (B, gelb) INDEX.md labelt alle 6 Facetten *emerging*, Artikel sind *established*;
+  (G, gelb) mehrere QUESTIONS faktisch (teil-)beantwortet, aber noch unter «Offen» gefuehrt.
+- Sauber: Backlinks/Orphans, unbelegte Claims (0), veraltete Artikel (0), Umlaute/ß/Frontmatter (F gruen).
+
 ## 2026-07-01 — twin-mail-training (täglich), Batch 21: Sent rj@ 2025-11-21 … 2025-12-08
 - Sequentieller Mail-Sweep fortgesetzt (15 gesichtet, 5 Volltexte, 650 W metrisiert; Du-Gross 0.333, ø 13.0 W).
   Gewichtung authentisch (vor-Claude); 1 Passage = AI-Paste (`claude-aera`-äquivalent, Echo-Schutz).

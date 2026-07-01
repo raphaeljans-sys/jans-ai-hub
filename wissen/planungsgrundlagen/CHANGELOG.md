@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-01 — Wissens-Health-Check (Phase 1): gesund · 3 Hygiene-Punkte
+- Audit ueber 16 Wiki-Artikel + State-Files. Ampel A🟡 B🟡 C🟡 D🟢 E🟢 F🟡 G🟢. Keine harten
+  Widersprueche, keine Orphans, saubere RAW-Coverage/Compounding-Historie. Top-3: (1) toter
+  Connector-Verweis `cad/terrain.sh` in `kartenportale-sharepoint-ablage` (existiert nicht);
+  (2) malformierter Pfad-Backlink `[[…/geo-zh.mjs]]` in `kartenportale-bund-geodaten`;
+  (3) `kartenportale-sharepoint-ablage` ohne YAML-Frontmatter. Weiter: BFS-192-Egg-Provenienz
+  pruefen (real 151), Promotion-Kandidat `recht-norm-baurechtsanalysen-benchmarks` emerging→established,
+  QUESTION K6/A5 faktisch abgeschlossen (noch `[~]`). Report `outputs/2026-07-01_health-check.md`.
+  **Phase 2 (Fixes) nur interaktiv.**
+
 ## 2026-06-30 — Training Run 12 (Brandschutz/PL-03 + Pivot Kartenportale): BSV-2026-Stand verifiziert (Marschhalt Crans-Montana) · NEU M1-Grundlagen-Checkliste «neue Parzelle»
 - Schwerpunkt **Brandschutz** (Rotation: Run 11 Recht/Norm → Run 12 Brandschutz), inhaltlich
   erschoepft → **Doppel-Fokus mit Kartenportale (Prioritaet)**. Connector-Schritt: **ja**
