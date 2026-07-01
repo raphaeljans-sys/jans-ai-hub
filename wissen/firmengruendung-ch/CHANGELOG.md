@@ -3,6 +3,9 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-01
+- [health-check] Phase-1-Audit (A–G) → outputs/2026-07-01_health-check.md. Ampeln: A gelb (realer Firmenname-Blocker JANS AG↔JANS GmbH fehlt in KB), B grün, C gelb (HR-/Kostenzahlen ohne Tarifquelle), D grün, E gelb (2023-Aktienrecht-Check offen), F grün, G gelb (Promotion-Kandidat Firmenname-Distinktivität). Keine Phase-2-Aktionen.
+
 ## 2026-06-02
 - [setup] KB Firmengründung Schweiz angelegt (raw/ wiki/ outputs/, CLAUDE.md, State-Files).
 - [ingest] 6 Kern-Quellen aus OneDrive-Archiv „10 AG Gruendung" in raw/ kopiert und in _INGESTED.md registriert (HRA-ZH-Merkblätter, KMU-Checkliste, EasyGov-Kosten, Opting-out).

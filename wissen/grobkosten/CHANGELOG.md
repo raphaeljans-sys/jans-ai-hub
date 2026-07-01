@@ -1,5 +1,11 @@
 # CHANGELOG — wissen/grobkosten
 
+## 010726 — Wissens-Health-Check (Phase 1)
+- Audit A-G unbeaufsichtigt gelaufen. Inhaltlich sauber (A/C/D/E/G gruen), formal 2 Findings:
+  B (QUESTIONS.md + raw/_INGESTED.md fehlen), F (kein Frontmatter, ae/oe/ue statt echter Umlaute,
+  CHANGELOG-Datumsformat). Keine falschen Kennwerte, alle Werte korrekt Seed + Provenienz.
+- Report: `outputs/2026-07-01_health-check.md`. Phase-2-Fixes offen (nur interaktiv).
+
 ## 070626 — KB angelegt (Seed)
 - KB `grobkosten` erstellt (raw/ wiki/ outputs/, CLAUDE.md).
 - `wiki/kennwerte.md`: Seed-Kennwerte Wohnbau-Neubau CHF/m3 GV (BKP 1-5), Region ZH —

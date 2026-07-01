@@ -1,5 +1,14 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-01 — Health-Check (Phase 1)
+- Report `outputs/2026-07-01_health-check.md` (7 Audits A-G, nur Audit, keine Phase-2-Aktion).
+  Ampel: A gruen · B gelb · C gelb · D gruen · E rot · F gruen · G gelb.
+- Top-3: (1) E — `verifier.md` + `anwendung-jans.md` tragen 06-30-Inhalt, aber `last_updated:
+  2026-06-21` (Metadaten-Drift vs. CHANGELOG). (2) CLAUDE.md-KB-Liste ohne `spec/` (2. Mal
+  geflaggt, Raphaels Freigabe). (3) C — Cherny-«2-3x» in `verifier.md` weiter transkript-belegt
+  (F4 offen), Artikel aber `established`. Nebenbefund B: Self-Zitat `[[the-spec]]` als Quelle in
+  `the-spec.md` Z. 15.
+
 ## 2026-06-30 — Trainingslauf 2
 - Output `outputs/2026-06-30_training-run2.md` (Audit + Auswertung der AG-Gruendung-
   Fortschreibung bis 29.06.). Keine neue Spec-Anwendung, aber neue Korrektur-Deltas.

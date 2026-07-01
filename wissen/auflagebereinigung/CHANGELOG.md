@@ -2,6 +2,14 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-01 — Wissens-Health-Check (Phase 1, Audit) durchgeführt
+
+- Audit A–G, Report `outputs/2026-07-01_health-check.md`. Ampel: B/C/D/F grün, A/E/G orange.
+  Top-Findings: (1) Widerspruch SPA=SAN (brandschutz-Artikel) ↔ SPA=SPR (Zuteilungs-Artikel,
+  seit 04.06. gesplittet); (2) 2 QUESTIONS faktisch geklärt (Vorabzug↔def. BE 1171/26,
+  Adressdiskrepanz) noch als offen gelistet; (3) Einreich-Aufstellung (Output 13.06.) noch nicht
+  ins Wiki gehoben. Nur Phase 1 — keine Wiki-Änderungen; Aktionen bleiben Phase 2 (interaktiv).
+
 ## 2026-06-13 — Einreich-Aufstellung (Formulare/Eingaben je Amt) 2619-KISPI
 
 - Neues Deliverable, Gegenstück zur Plan-/Dokumentenliste: **Einreich-Aufstellung**

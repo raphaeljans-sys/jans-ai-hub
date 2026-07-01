@@ -4,6 +4,8 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-01 — Wissens-Health-Check (Phase 1): A0·B0·C3·D0·E0·F1·G3 — Top: Frontmatter-Schema uneinheitlich (6 Artikel `name:`/`paragraphen:` statt `title:`/`sources:`); 2 alte C-Luecken offen (Gebuehren 1-3 %o, BZO-Richtwerte); 3 Promotionskandidaten (Vorentscheid/Ausnahmebewilligung/Nebenbestimmungen emerging→established). Report `outputs/2026-07-01_health-check.md`. Nur-Audit, keine Aktionen.
+
 ## 2026-06-30 — Run 17: Kap. 2 Teil 2 (Nutzungsplanung / Zonenarten)
 - TRANSFER NEU `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md` (Shots 73-85 ohne 76,
   S. 144-169, **12 Doppelseiten**): Abschnitt 2.3 Nutzungsplanung — grundeigentuemerverbindlich
