@@ -34,17 +34,42 @@ CATALOG = OUT / "catalog"
 STATE = OUT / "state" / "processed.json"
 DOCS = CATALOG / "documents.jsonl"
 INDEX = CATALOG / "INDEX.md"
+ALIASES_FILE = CATALOG / "aliases.json"
+CAD_INDEX = CATALOG / "cad-index.json"
 
 # Ordner, die KEINE Architekten sind
 SKIP_DIRS = {"00_Organisation", "@eaDir", "#recycle"}
 
+# Ordner, die beim rekursiven Walk uebersprungen werden
+SKIP_WALK_DIRS = {"@eaDir", ".app"}
+
 IMG_EXT = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".gif", ".bmp", ".webp", ".heic"}
 DOC_EXT = {".pdf", ".docx", ".doc", ".txt", ".md", ".rtf"}
-CAD_EXT = {".dwg", ".dxf", ".skp", ".3dm"}
+CAD_EXT = {".dwg", ".dxf", ".skp", ".3dm", ".pln", ".ifc", ".vwx", ".rvt"}
+NOISE_EXT = {".eml", ".exe", ".dll", ".msi", ".cab", ".dat", ".lck", ".tmp", ".ds_store"}
 YEAR_RE = re.compile(r"(1[5-9]\d{2}|20[0-4]\d)")
+
+# Unterordner-Namen, die kuratierte Referenzbilder enthalten
+REFERENZBILD_MARKERS = {"best", "bestever", "auswahl"}
+MAX_REFERENZBILDER = 20
 
 MAX_PDF_PAGES = 6
 MAX_TEXT_CHARS = 8000   # pro Architekt-Dokument fuer das spaetere Embedding
+
+
+def load_aliases():
+    """Laedt catalog/aliases.json falls vorhanden.
+    Format: {"alias_slug": "kanonischer_slug", ...}
+    """
+    if ALIASES_FILE.exists():
+        try:
+            return json.loads(ALIASES_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {}
+
+
+ALIASES = {}   # wird in main() initialisiert
 
 
 def load_state():
@@ -119,6 +144,10 @@ def scan_architect(adir):
     ext_count = {}
     projects = []
     texts = []
+    # CAD-Dateien nach Typ gruppiert (relative Pfade)
+    cad_dateien = {e.lstrip("."): [] for e in CAD_EXT}
+    # Referenzbilder aus kuratierten Ordnern
+    referenzbilder = []
 
     # direkte Kindordner = Projekte (ausser Hilfsordner 00_Architekt)
     for child in sorted(adir.iterdir()):
@@ -132,19 +161,31 @@ def scan_architect(adir):
     for dirpath, dirnames, filenames in os.walk(adir):
         if "@eaDir" in dirpath:
             continue
-        dirnames[:] = [d for d in dirnames if d != "@eaDir"]
+        # Skip noise directories
+        dirnames[:] = [d for d in dirnames
+                       if d not in SKIP_WALK_DIRS and not d.endswith(".app")]
+        dp = Path(dirpath)
+        # Pruefen ob aktueller Ordner ein Referenzbild-Ordner ist
+        is_referenz_dir = dp.name.lower() in REFERENZBILD_MARKERS
         for fn in filenames:
             if fn.startswith("."):
                 continue
             ext = os.path.splitext(fn)[1].lower()
+            # Noise-Dateien komplett ueberspringen
+            if ext in NOISE_EXT:
+                continue
             inventory["total"] += 1
             ext_count[ext] = ext_count.get(ext, 0) + 1
             if ext in IMG_EXT:
                 inventory["bilder"] += 1
+                # Referenzbilder aus kuratierten Ordnern sammeln
+                if is_referenz_dir and len(referenzbilder) < MAX_REFERENZBILDER:
+                    rel = str((dp / fn).relative_to(adir))
+                    referenzbilder.append(rel)
             elif ext in DOC_EXT:
                 inventory["dokumente"] += 1
                 if len("".join(texts)) < MAX_TEXT_CHARS:
-                    p = Path(dirpath) / fn
+                    p = dp / fn
                     if ext == ".pdf":
                         texts.append(extract_pdf(p))
                     elif ext == ".docx":
@@ -156,6 +197,9 @@ def scan_architect(adir):
                             pass
             elif ext in CAD_EXT:
                 inventory["cad"] += 1
+                rel = str((dp / fn).relative_to(adir))
+                typ = ext.lstrip(".")
+                cad_dateien[typ].append(rel)
             else:
                 inventory["andere"] += 1
 
@@ -169,14 +213,21 @@ def scan_architect(adir):
         doc_parts.append(fulltext)
     embed_doc = re.sub(r"\s+", " ", " | ".join(p for p in doc_parts if p)).strip()
 
+    # Alias-Aufloesung
+    slug = slugify(adir.name)
+    kanonisch = ALIASES.get(slug)   # None wenn kein Alias
+
     return {
-        "slug": slugify(adir.name),
+        "slug": slug,
         "architekt": arch,
         "pfad": str(adir),
+        "kanonisch": kanonisch,
         "projekte": projects,
         "projekt_anzahl": len(projects),
         "inventar": inventory,
         "dateitypen": dict(sorted(ext_count.items(), key=lambda x: -x[1])),
+        "cad_dateien": cad_dateien,
+        "referenzbilder": referenzbilder,
         "textauszug": fulltext,
         "embed_doc": embed_doc,
         "stand": datetime.datetime.now().isoformat(timespec="seconds"),
@@ -186,8 +237,9 @@ def scan_architect(adir):
 def rebuild_index():
     records = sorted(CATALOG.glob("*.json"))
     rows = []
+    meta_files = {"documents.jsonl", "cad-index.json", "aliases.json"}
     for rp in records:
-        if rp.name == "documents.jsonl":
+        if rp.name in meta_files:
             continue
         try:
             r = json.loads(rp.read_text(encoding="utf-8"))
@@ -213,6 +265,36 @@ def rebuild_index():
     return len(rows)
 
 
+def rebuild_cad_index():
+    """Schreibt catalog/cad-index.json — alle Architekten mit CAD-Dateien + Counts."""
+    records = sorted(CATALOG.glob("*.json"))
+    cad_entries = []
+    for rp in records:
+        if rp.name in ("documents.jsonl", "cad-index.json", "aliases.json"):
+            continue
+        try:
+            r = json.loads(rp.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        cad_data = r.get("cad_dateien", {})
+        counts = {typ: len(paths) for typ, paths in cad_data.items() if paths}
+        if counts:
+            cad_entries.append({
+                "slug": r["slug"],
+                "name": r["architekt"]["name"],
+                "cad_counts": counts,
+                "cad_total": sum(counts.values()),
+            })
+    cad_entries.sort(key=lambda x: -x["cad_total"])
+    result = {
+        "stand": datetime.datetime.now().isoformat(timespec="seconds"),
+        "architekten_mit_cad": len(cad_entries),
+        "eintraege": cad_entries,
+    }
+    CAD_INDEX.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    return len(cad_entries)
+
+
 def list_architects():
     return sorted([d.name for d in ROOT.iterdir()
                    if d.is_dir() and d.name not in SKIP_DIRS and not d.name.startswith(".")])
@@ -228,6 +310,9 @@ def main():
     if not ROOT.exists():
         print("FEHLER: NAS-Quelle nicht erreichbar:", ROOT, file=sys.stderr)
         sys.exit(2)
+
+    global ALIASES
+    ALIASES = load_aliases()
 
     all_arch = list_architects()
     st = load_state()
@@ -248,6 +333,7 @@ def main():
     if not batch:
         print("Alle Architekten verarbeitet. Nichts zu tun.")
         rebuild_index()
+        rebuild_cad_index()
         return
 
     print(f"Verarbeite {len(batch)} von {len(todo)} offenen (gesamt {len(all_arch)}) ...")
@@ -272,7 +358,8 @@ def main():
 
     save_state(st)
     n = rebuild_index()
-    print(f"Fertig. Katalog: {n} Architekten. Offen: {len(all_arch) - len(st['processed'])}.")
+    nc = rebuild_cad_index()
+    print(f"Fertig. Katalog: {n} Architekten ({nc} mit CAD). Offen: {len(all_arch) - len(st['processed'])}.")
 
 
 if __name__ == "__main__":
