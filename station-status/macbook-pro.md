@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.07.2026 08:01:34
+Stand: 01.07.2026 08:11:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:49)
@@ -12,4 +12,4 @@ Stand: 01.07.2026 08:01:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4c2ee08 nas-selfcommit: 3 Datei(en) 2026-07-01 08:00
+- 279600d sync: ag-gruendung-monitor: Status 01.07. nichts Neues (UBS/Notariat/REGIX ausstehend)
