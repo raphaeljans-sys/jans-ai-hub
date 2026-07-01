@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.07.2026 19:41:57
+Stand: 01.07.2026 19:52:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 01.07.2026 19:41:57
 - 6 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6b2bc9e nas-selfcommit: 2 Datei(en) 2026-07-01 19:30
+- 8595ab6 nas-selfcommit: 2 Datei(en) 2026-07-01 19:45
