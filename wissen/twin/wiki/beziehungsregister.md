@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-06-29
+last_updated: 2026-07-01
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -443,6 +443,21 @@ wachsenden Vertrautheit»; 😊 erlaubt im warm-sozialen Du (→ [[stimme]]).
 - **Generische Hersteller-/Lieferantenanfrage:** parallele Produktanfrage an unbekannte Firmen mit
   neutralem «**Guten Tag**» (ohne Namen) + Sie + voller Block — der formell-knappe Erstkontakt zum
   unbekannten Lieferanten (vgl. Service-/Datenstellen-Erstgruss; → [[stimme]]).
+
+## Neue Kontakt-Mappings (belegt Mailbatch 21, authentisch)
+- **Undine Hofer (Bauherrin Wartstrasse 8, hofer@undineschneider.com):** neutral-formelles «**Guten Tag
+  Frau Hofer**» + Sie + voller Signaturblock. Sachliche Statusmail zum Bauentscheid an die Bauherrschaft —
+  «Guten Tag» statt «Sehr geehrte» als etwas wärmere, aber klar formelle Anrede zur laufenden
+  Auftraggeberin (nicht Behörde, nicht Peer). Bestätigt: Bauherrschaft im Bewilligungs-/Ausführungskontext
+  = formelles Sie, sachlich-verantwortungsvoll (→ [[arbeitsweise]] Bauentscheid → Handlungssequenz).
+- **Stefan Tschopp (Bauherr-Partner Thalwil 2414, stefan.tschopp@gmx.net):** bestätigt Du-Bauherr-Partner
+  «**Hoi Stefan** / **Guten Morgen Stefan**», baurechtliche Beratung im Du mit Q&A-Spiegelung, warmer
+  Signatur-Gruss «Freundliche Grüsse».
+- **Yorck von Dietze (3D-Freelancer):** «**Hoi York**» operativ ↔ «**Hallo Yorck,**» bei ernsterem
+  Kapital-Ask — Register-Kühlung innerhalb des Du (→ [[stimme]]).
+- **Meng Li + Stephan Müller (befreundete Architekten, gmail):** private Sozial-Peers — privater
+  Weiterleitungs-Fwd **ohne Anrede, ohne Gruss**, nur eine Intent-Zeile (Bucherer-Event). Beleg für den
+  rein privaten Peer-Kanal ohne jeden Rahmen.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

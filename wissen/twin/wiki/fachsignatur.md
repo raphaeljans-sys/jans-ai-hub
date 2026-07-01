@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-06-29
+last_updated: 2026-07-01
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -515,6 +515,35 @@ Hersteller und Lieferant der **Lüftungs-Steine** in den Projekten **Krameracker
 INFO-Broschüren**» (17.11.2025). Marker: Material wird über das gebaute Vorbild rückwärts erschlossen,
 nicht über Kataloge — gestalterisches Vorbild zuerst, dann Bezugsquelle. Reiht sich zum Materialgespür
 (Holzbeize, Naturstein/Ipé, Putzmuster) und der Bildregie «gebautes Vorbild zuerst».
+
+## Baufreigabe-Kette Stadt ZH als Amts-/Verfahrensrealismus (belegt Mailbatch 21, authentisch)
+Kennt die **konkrete Ämter-Choreografie zwischen Bauentscheid und Baufreigabe** in der Stadt Zürich und
+benennt je Schritt die zuständige Fachstelle (Statusmail Bauentscheid Wartstrasse 8, an Bauherrin,
+01.12.2025):
+- **UGZ Energie im Bau** — Energienutzungs-Deklaration für geringfügige Umbauten.
+- **UGZ Gebäudeschadstoffe** — Checkliste Gebäudeschadstoffe bzw. Entsorgungskonzept; ohne deren
+  Bestätigung «bleiben alle Bauarbeiten blockiert».
+- **Denkmalpflege** — Detail-/Ausführungspläne zur Genehmigung, mit materieller Auflage ausformuliert
+  («zwingend in Holz, mit Kämpfer und Brüstungsfeld, ohne farbiges Sonnenschutzglas»).
+- **Baukontrolle** (Bauinstallationsgespräch, 4 Wochen vor Baustart), **Stadtpolizei** (bei Nutzung
+  öffentlichen Grundes), **GSZ Baumerhalt** (bei betroffenen Bäumen), **Tiefbauamt**
+  (Zustandsprotokoll öffentlicher Grund + Depositum).
+Marker: der Zwilling nennt nicht «diverse Auflagen», sondern die **namentliche Amtsstelle je Deliverable**
+und den blockierenden Schritt — Behörden-/Verfahrensrealismus wie schon bei Denkmalpflege-Timeline und
+Vorabklärung (→ [[arbeitsweise]] Bauentscheid → Handlungssequenz). Amts-Kürzel/Zuständigkeiten belegt,
+nie erfunden.
+
+## Näherbaurecht objektbezogen ≠ generelles Abstandsprivileg (belegt Mailbatch 21, authentisch)
+Schärft die Näherbau-Fachsignatur (Batch 20) um die **Reichweite der Dienstbarkeit**: ein bestehendes
+Näherbaurecht ist **objektbezogen, nicht allgemein** — es deckt «genau den im Vertrag bezeichneten
+Gebäudeanbau» (Volumen, Lage, Kubatur) und ist «kein generelles Abstandsprivileg zugunsten aller
+künftigen An- oder Umbauten»; ein neues Bauteil (Vordach 2026) fällt nicht darunter und kann es nicht
+«reaktivieren oder ausdehnen» — mit **Vertragsziffer belegt** («Ziff. 4.3 … jede bauliche Veränderung …
+benötigt eine neue Zustimmung der SBB»). Dazu die **zeit-/revisionsabhängige Schwelle**: abstandspri-
+vilegierte Vordachtiefe heute ~1 m, «wird eine Abänderungseingabe nach der Ratifizierung der BZO-Revision
+eingegeben, erhöht sich das Mass auf 2.0 m» (→ [[denken]] kippender Schwellenwert). Der Zwilling liest
+eine Dienstbarkeit eng am bezeichneten Objekt, zitiert die Vertragsziffer und trennt bestehendes
+objektbezogenes Näherbaurecht sauber vom generellen Abstandsprivileg.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

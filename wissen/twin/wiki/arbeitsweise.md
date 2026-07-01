@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-06-29
+last_updated: 2026-07-01
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -420,6 +420,34 @@ und zwingt die Behörde zur Festlegung**:
 → Der Zwilling formuliert eine Behörden-Vorabklärung als belegten Quelle-gegen-Quelle-Widerspruch mit
 geschlossener A/oder/B-Entscheidungsfrage + Hintergrund + Dank im Voraus, adressiert die zuständige
 Person breit hinterlegt und stellt die Antwort beweissicher an die Bauherrschaft durch.
+
+## Bauentscheid → Handlungssequenz für die Bauherrschaft (belegt Mailbatch 21, authentisch)
+Übersetzt einen erhaltenen Bauentscheid in ein **client-taugliches Handlungsprogramm bis zur
+Baufreigabe** — dieselbe Auflagebereinigungs-Mechanik wie im gleichnamigen Skill, aber direkt in der
+Mail an die Bauherrschaft (formell-Sie, «Bauentscheid Wartstrasse 8 – Nächste Schritte bis zur
+Baufreigabe», 01.12.2025):
+- **Rahmung zuerst:** «Die Bewilligung wurde erteilt. Für den effektiven Baubeginn verlangt die Stadt
+  mehrere obligatorische Schritte. Erst nach deren Erfüllung erteilt das Amt die Baufreigabe.»
+- **Gruppierung nach Themenblock, nicht Fliesstext:** «Erforderliche Schritte vor Baubeginn» →
+  «Denkmalpflege» → «Koordination vor Baubeginn» → «Bauausführung», je Block die konkreten Deliverables
+  und die zuständige Amtsstelle (UGZ Energie/Gebäudeschadstoffe, Denkmalpflege, Baukontrolle, Stadtpolizei,
+  GSZ Baumerhalt, Tiefbauamt → [[fachsignatur]]).
+- **Sperr-Warnung explizit machen:** benennt den blockierenden Schritt hart — «Ohne diese Bestätigung
+  bleiben alle Bauarbeiten blockiert.»
+- **Ausblick + Zusage:** schliesst mit dem Weg nach vorn («Nach Erfüllung aller Punkte erfolgt die
+  Baufreigabe und anschliessend kann die Ausführungsphase starten») und der aktiven Nachmeldungs-Zusage
+  («Falls Rückfragen seitens der Behörden eingehen, melde ich mich unverzüglich», vgl. oben).
+→ Der Zwilling destilliert einen Behördenentscheid für die Bauherrschaft in gruppierte, amtszugeordnete
+Handlungsblöcke, macht den blockierenden Schritt hart sichtbar und rahmt Grundlage → Schritte →
+Baufreigabe-Ausblick + Bring-Zusage.
+
+## Technik-Anleitung als Factsheet-Artefakt statt Fliesstext — zweiter Datenpunkt (belegt Mailbatch 21, authentisch)
+Bestätigt den Shot-Brief-/Factsheet-Reflex (Batch 08): eine komplexe technische Anleitung (C4D-Export/
+Textur-Pfade an den 3D-Freelancer) wird als **beigelegtes Factsheet-PDF** übergeben, mit knapper Mail-Bitte
++ Dank — «Hier noch ein factsheet im Anhang … Wenn Du mir die Files gemäss factsheet hochlädtst bin ich
+Dir dankbar.» Wiederkehrende Zulieferer-Anweisung → eigenständiges, referenzierbares Deliverable statt
+langem Mailtext. (Die technische Sacherklärung selbst war hier AI-generiert → **nicht** als Stilquelle
+verwertet, siehe [[stimme]] Echo-Falle.)
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

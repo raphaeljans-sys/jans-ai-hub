@@ -5,6 +5,35 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-01
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 08.07.)
+  und Mail-Eingang (seit 30.06. 17:00) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** nur noch **ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **76 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 = in
+  7 Tagen**, kein Zahlungseingang. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt
+  klaeren). **RE-00097 (Hofer, CHF 500)** ist aus der bexio-Verzugsliste verschwunden (bezahlt/
+  abgeglichen) — Eskalation auf Mahnung 1 gegenstandslos; ins Archiv verschoben.
+- **Kalender naechste 7 Tage (Outlook):** unveraendert nur zwei Termine, beide bereits im Register —
+  **01.07.** FIFA-Museum «Fuehrung, Food & Faenen» (privat, 15:45–21:00) und **07.07. 16:00–16:30**
+  TeKoSi finale Tuer-Ausfuehrungsplanung (Teams, KISPI; RJ Organisator). Y. Cetin (Gruner) hat
+  29.06. abgesagt.
+- **Mail-Eingang (seit 30.06. 17:00):** nur eine relevante Mail — S. Sonderegger (KISPI, 30.06. 20:25)
+  gibt zur LOS 273.35 Kuechenbau-Vergabe Rueckmeldung mit Anpassungspunkten (Gestaltung ok, Anordnung
+  Moebel/Geraete, Arbeitsplatte); als Update in die bestehende LOS-273.35-Pendenz uebernommen. Sonst
+  nur Werbung (Sunrise).
+- **AG-Gruendung (unveraendert hoch):** Antwort ans Notariat (Name «Raphael Jans AG» bestaetigen +
+  Urkunde/Statuten 260627 senden) noch nicht raus; UBS-Antwort/angepasstes Formular abwarten.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (ueberfaellig, Mahnung-1-Zahlfrist **08.07.**), Termine
+  01.07. + 07.07., EPROID B26-00705.01 (A. Soerensen ab 02.07. zurueck → nachfassen), AG-Gruendung
+  (Notariats-Antwort offen). Dauerhaft offen: SharePoint-Speicher, bexio-Doppelimport, KISPI
+  LOS274.01 (def. Offerte Jegen), dwg Ramminger, Unterlagen Scherbl, Status/Beton Tschopp,
+  Freischaltung Merci, Chaled, Jomos, Mittagessen Prencipe.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-06-30
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 07.07.)

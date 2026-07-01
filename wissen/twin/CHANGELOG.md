@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-01 — twin-mail-training (täglich), Batch 21: Sent rj@ 2025-11-21 … 2025-12-08
+- Sequentieller Mail-Sweep fortgesetzt (15 gesichtet, 5 Volltexte, 650 W metrisiert; Du-Gross 0.333, ø 13.0 W).
+  Gewichtung authentisch (vor-Claude); 1 Passage = AI-Paste (`claude-aera`-äquivalent, Echo-Schutz).
+- [[arbeitsweise]]: **neu** «Bauentscheid → Handlungssequenz für die Bauherrschaft» (auflagebereinigung direkt
+  in der Client-Mail: gruppierte, amtszugeordnete Handlungsblöcke, blockierender Schritt hart markiert,
+  Baufreigabe-Ausblick) + «Technik-Anleitung als Factsheet-Artefakt» (2. Datenpunkt).
+- [[fachsignatur]]: **neu** «Baufreigabe-Kette Stadt ZH» (namentliche Ämter je Deliverable: UGZ Energie/
+  Gebäudeschadstoffe, Denkmalpflege, Baukontrolle, Stadtpolizei, GSZ Baumerhalt, Tiefbauamt) + «Näherbaurecht
+  objektbezogen ≠ generelles Abstandsprivileg» (Dienstbarkeit eng am bezeichneten Objekt, Vertragsziffer belegt).
+- [[stimme]]: **neu** «Hallo <Name>,» = Register-Kühlung im Du bei ernstem/kapitalrelevantem Anliegen (Teil-Antwort
+  QUESTIONS «Hoi vs. Hallo») · privater Fwd = eine nackte Intent-Zeile ohne Rahmen · **Echo-Falle 4. Beleg**:
+  AI-Paste jetzt in Aptos → Erkennung über H2-Nummern/Code-Fences/Assistenz-Schluss statt Schriftart · Metrik-Beleg.
+- [[beziehungsregister]]: **neu** Mappings Undine Hofer (Bauherrin, «Guten Tag»-Sie), Stefan Tschopp (Du-Bauherr),
+  Yorck (Hoi↔Hallo), Meng Li + Stephan Müller (private Sozial-Peers, rahmenloser Fwd).
+- [[denken]]: **neu** Q&A-Spiegelung mit Selbstverweis auf die frühere Antwort («Antwort bereits im Mail vorher gegeben»).
+- [[haltung]]: **bestätigt** eigene Werkzeug-Grenze offen zugeben, auch im geschäftshart gerahmten Ask; kein Beschönigen.
+- Register aktualisiert: `raw/_INGESTED.md` bis 2025-12-08; nächster Lauf ab 2025-12-09.
+
 ## 2026-06-30 — twin-fidelity-review (alle 2 Tage), Gesamt-Fidelity 90 (Plateau gehalten)
 - 3 authentische Goldproben (vor-Claude, handgetippt) aus Sent rj@, distinkte Register: A gehoben-amtlich-Sie
   (Notariat Statutenänderung GmbH, Gesellschaftsrecht-Selbstvertretung, 2025-11-04), B warm-Du Projektabschluss-
