@@ -1,0 +1,34 @@
+{
+  "slug": "Le_Vau_Louis",
+  "architekt": {
+    "name": "Le Vau Louis",
+    "nachname": "Le",
+    "vorname": "Vau Louis",
+    "jahre": [],
+    "ordner": "Le_Vau_Louis"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Le_Vau_Louis",
+  "projekte": [
+    {
+      "raw": "Vaux_le_Vicomte",
+      "ort": "Vaux",
+      "projekt": "le Vicomte",
+      "jahre": [],
+      "titel": "Vaux le Vicomte"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Le Vau Louis | Vaux le Vicomte",
+  "stand": "2026-07-02T21:42:34"
+}

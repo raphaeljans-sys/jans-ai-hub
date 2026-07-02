@@ -1,0 +1,41 @@
+{
+  "slug": "Langhans",
+  "architekt": {
+    "name": "Langhans",
+    "nachname": "Langhans",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Langhans"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Langhans",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Berlin_Brandenburger_Tor_1789",
+      "ort": "Berlin",
+      "projekt": "Brandenburger Tor",
+      "jahre": [
+        "1789"
+      ],
+      "titel": "Berlin Brandenburger Tor 1789"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Langhans | 00 Architekten | Berlin Brandenburger Tor 1789",
+  "stand": "2026-07-02T21:41:29"
+}

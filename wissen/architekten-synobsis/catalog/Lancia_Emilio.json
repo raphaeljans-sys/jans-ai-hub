@@ -1,0 +1,73 @@
+{
+  "slug": "Lancia_Emilio",
+  "architekt": {
+    "name": "Lancia Emilio",
+    "nachname": "Lancia",
+    "vorname": "Emilio",
+    "jahre": [],
+    "ordner": "Lancia_Emilio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lancia_Emilio",
+  "projekte": [
+    {
+      "raw": "00_Literatur",
+      "ort": "00",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "00 Literatur"
+    },
+    {
+      "raw": "Mailand_Corso_Matteotti_Ecke_Via_Monteapoleone_1936",
+      "ort": "Mailand",
+      "projekt": "Corso Matteotti Ecke Via Monteapoleone",
+      "jahre": [
+        "1936"
+      ],
+      "titel": "Mailand Corso Matteotti Ecke Via Monteapoleone 1936"
+    },
+    {
+      "raw": "Mailand_Piazza_Missori_1_hotel_Dei_Cavalieri_1950",
+      "ort": "Mailand",
+      "projekt": "Piazza Missori 1 hotel Dei Cavalieri",
+      "jahre": [
+        "1950"
+      ],
+      "titel": "Mailand Piazza Missori 1 hotel Dei Cavalieri 1950"
+    },
+    {
+      "raw": "Mailand_Via_de_Togni_1933",
+      "ort": "Mailand",
+      "projekt": "Via de Togni",
+      "jahre": [
+        "1933"
+      ],
+      "titel": "Mailand Via de Togni 1933"
+    },
+    {
+      "raw": "Mailand_Via_domenichino_1929",
+      "ort": "Mailand",
+      "projekt": "Via domenichino",
+      "jahre": [
+        "1929"
+      ],
+      "titel": "Mailand Via domenichino 1929"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 25,
+    "dokumente": 4,
+    "cad": 0,
+    "andere": 2,
+    "total": 31
+  },
+  "dateitypen": {
+    ".jpg": 22,
+    ".pdf": 4,
+    ".jpeg": 3,
+    ".jpeg kopie": 2
+  },
+  "textauszug": "59 Wohn- und Geschäftshaus, Corso Matteotti / Ecke Via Monteapoleone, Mailand 1936; Architekt Emilio Lancia 55 Domus Julia + Domus + Domus Carola + Domus Fausta, Via De Togni, Mailand 1933 Architekten Eimilio Lancia & Gio Ponti",
+  "embed_doc": "Lancia Emilio | 00 Literatur | Mailand Corso Matteotti Ecke Via Monteapoleone 1936 | Mailand Piazza Missori 1 hotel Dei Cavalieri 1950 | Mailand Via de Togni 1933 | Mailand Via domenichino 1929 | 59 Wohn- und Geschäftshaus, Corso Matteotti / Ecke Via Monteapoleone, Mailand 1936; Architekt Emilio Lancia 55 Domus Julia + Domus + Domus Carola + Domus Fausta, Via De Togni, Mailand 1933 Architekten Eimilio Lancia & Gio Ponti",
+  "stand": "2026-07-02T21:41:28"
+}

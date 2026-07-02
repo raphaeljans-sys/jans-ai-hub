@@ -1,0 +1,35 @@
+{
+  "slug": "Klophaus_Rudolf",
+  "architekt": {
+    "name": "Klophaus Rudolf",
+    "nachname": "Klophaus",
+    "vorname": "Rudolf",
+    "jahre": [],
+    "ordner": "Klophaus_Rudolf"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Klophaus_Rudolf",
+  "projekte": [
+    {
+      "raw": "Hamburg Klockmannhaus",
+      "ort": "Hamburg Klockmannhaus",
+      "projekt": "Hamburg Klockmannhaus",
+      "jahre": [],
+      "titel": "Hamburg Klockmannhaus"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpeg": 2,
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Klophaus Rudolf | Hamburg Klockmannhaus Hamburg Klockmannhaus",
+  "stand": "2026-07-02T21:32:31"
+}

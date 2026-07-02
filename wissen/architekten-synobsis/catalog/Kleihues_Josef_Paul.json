@@ -1,0 +1,43 @@
+{
+  "slug": "Kleihues_Josef_Paul",
+  "architekt": {
+    "name": "Kleihues Josef Paul",
+    "nachname": "Kleihues",
+    "vorname": "Josef Paul",
+    "jahre": [],
+    "ordner": "Kleihues_Josef_Paul"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kleihues_Josef_Paul",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Chicago_Museum_of_Contemporary_Art",
+      "ort": "Chicago",
+      "projekt": "Museum of Contemporary Art",
+      "jahre": [],
+      "titel": "Chicago Museum of Contemporary Art"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 8,
+    ".pdf": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kleihues Josef Paul | 00 Architekten | Chicago Museum of Contemporary Art",
+  "stand": "2026-07-02T21:32:24"
+}

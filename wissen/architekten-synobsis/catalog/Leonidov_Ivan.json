@@ -1,0 +1,41 @@
+{
+  "slug": "Leonidov_Ivan",
+  "architekt": {
+    "name": "Leonidov Ivan",
+    "nachname": "Leonidov",
+    "vorname": "Ivan",
+    "jahre": [],
+    "ordner": "Leonidov_Ivan"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Leonidov_Ivan",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Magnitogorsk_Russland_Staedtebau",
+      "ort": "Magnitogorsk",
+      "projekt": "Russland Staedtebau",
+      "jahre": [],
+      "titel": "Magnitogorsk Russland Staedtebau"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Leonidov Ivan | 00 Architekten | Magnitogorsk Russland Staedtebau",
+  "stand": "2026-07-02T21:42:38"
+}

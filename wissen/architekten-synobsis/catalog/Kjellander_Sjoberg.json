@@ -1,0 +1,34 @@
+{
+  "slug": "Kjellander_Sjoberg",
+  "architekt": {
+    "name": "Kjellander Sjoberg",
+    "nachname": "Kjellander Sjoberg",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Kjellander Sjoberg"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kjellander Sjoberg",
+  "projekte": [
+    {
+      "raw": "Nacka Port",
+      "ort": "Nacka Port",
+      "projekt": "Nacka Port",
+      "jahre": [],
+      "titel": "Nacka Port"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kjellander Sjoberg | Nacka Port Nacka Port",
+  "stand": "2026-07-02T21:32:22"
+}

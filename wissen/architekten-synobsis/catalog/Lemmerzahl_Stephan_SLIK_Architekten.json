@@ -1,0 +1,34 @@
+{
+  "slug": "Lemmerzahl_Stephan_SLIK_Architekten",
+  "architekt": {
+    "name": "Lemmerzahl Stephan SLIK Architekten",
+    "nachname": "Lemmerzahl",
+    "vorname": "Stephan SLIK Architekten",
+    "jahre": [],
+    "ordner": "Lemmerzahl_Stephan_SLIK_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lemmerzahl_Stephan_SLIK_Architekten",
+  "projekte": [
+    {
+      "raw": "Zuerich_Zweifamilienhaus",
+      "ort": "Zuerich",
+      "projekt": "Zweifamilienhaus",
+      "jahre": [],
+      "titel": "Zuerich Zweifamilienhaus"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Lemmerzahl Stephan SLIK Architekten | Zuerich Zweifamilienhaus",
+  "stand": "2026-07-02T21:42:36"
+}

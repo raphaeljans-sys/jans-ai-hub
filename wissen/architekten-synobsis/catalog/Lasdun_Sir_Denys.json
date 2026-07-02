@@ -1,0 +1,56 @@
+{
+  "slug": "Lasdun_Sir_Denys",
+  "architekt": {
+    "name": "Lasdun Sir Denys",
+    "nachname": "Lasdun",
+    "vorname": "Sir Denys",
+    "jahre": [],
+    "ordner": "Lasdun_Sir_Denys"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lasdun_Sir_Denys",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "Lasdun",
+      "ort": "Lasdun",
+      "projekt": "Lasdun",
+      "jahre": [],
+      "titel": "Lasdun"
+    },
+    {
+      "raw": "London_Cluster_Block_Keeling_House",
+      "ort": "London",
+      "projekt": "Cluster Block Keeling House",
+      "jahre": [],
+      "titel": "London Cluster Block Keeling House"
+    },
+    {
+      "raw": "London_Newton_Road_32",
+      "ort": "London",
+      "projekt": "Newton Road 32",
+      "jahre": [],
+      "titel": "London Newton Road 32"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 32,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 33
+  },
+  "dateitypen": {
+    ".jpg": 32,
+    ".pdf": 1
+  },
+  "textauszug": "2929 Kompendium Cluster Block, London, 1955-1958 Architekt Denys Lasdun Mst. 1:250",
+  "embed_doc": "Lasdun Sir Denys | Architekt Architekt | Lasdun Lasdun | London Cluster Block Keeling House | London Newton Road 32 | 2929 Kompendium Cluster Block, London, 1955-1958 Architekt Denys Lasdun Mst. 1:250",
+  "stand": "2026-07-02T21:41:31"
+}

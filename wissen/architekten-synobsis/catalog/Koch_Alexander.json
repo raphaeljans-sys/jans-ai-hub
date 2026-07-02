@@ -1,0 +1,26 @@
+{
+  "slug": "Koch_Alexander",
+  "architekt": {
+    "name": "Koch Alexander",
+    "nachname": "Koch",
+    "vorname": "Alexander",
+    "jahre": [],
+    "ordner": "Koch_Alexander"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Koch_Alexander",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "Alexander Koch, Villa Rüegg-Honegger (heute Villa Egli), Zürich, 1897–1902. Donnerstag, 15. April 2010",
+  "embed_doc": "Koch Alexander | Alexander Koch, Villa Rüegg-Honegger (heute Villa Egli), Zürich, 1897–1902. Donnerstag, 15. April 2010",
+  "stand": "2026-07-02T21:32:43"
+}

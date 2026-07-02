@@ -1,0 +1,189 @@
+{
+  "slug": "Le_Corbusier",
+  "architekt": {
+    "name": "Le Corbusier",
+    "nachname": "Le",
+    "vorname": "Corbusier",
+    "jahre": [],
+    "ordner": "Le_Corbusier"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Le_Corbusier",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Carches_Villa",
+      "ort": "Carches",
+      "projekt": "Villa",
+      "jahre": [],
+      "titel": "Carches Villa"
+    },
+    {
+      "raw": "Chandigar",
+      "ort": "Chandigar",
+      "projekt": "Chandigar",
+      "jahre": [],
+      "titel": "Chandigar"
+    },
+    {
+      "raw": "Cote_d'azur_Le_Petit_Cabanon",
+      "ort": "Cote",
+      "projekt": "d'azur Le Petit Cabanon",
+      "jahre": [],
+      "titel": "Cote d'azur Le Petit Cabanon"
+    },
+    {
+      "raw": "Farches_Villa_Stein",
+      "ort": "Farches",
+      "projekt": "Villa Stein",
+      "jahre": [],
+      "titel": "Farches Villa Stein"
+    },
+    {
+      "raw": "Fimri_Sportzenter",
+      "ort": "Fimri",
+      "projekt": "Sportzenter",
+      "jahre": [],
+      "titel": "Fimri Sportzenter"
+    },
+    {
+      "raw": "Firmi_kirche",
+      "ort": "Firmi",
+      "projekt": "kirche",
+      "jahre": [],
+      "titel": "Firmi kirche"
+    },
+    {
+      "raw": "La_Tourette",
+      "ort": "La",
+      "projekt": "Tourette",
+      "jahre": [],
+      "titel": "La Tourette"
+    },
+    {
+      "raw": "Maison Jaoule",
+      "ort": "Maison Jaoule",
+      "projekt": "Maison Jaoule",
+      "jahre": [],
+      "titel": "Maison Jaoule"
+    },
+    {
+      "raw": "Maison_de_Brasille",
+      "ort": "Maison",
+      "projekt": "de Brasille",
+      "jahre": [],
+      "titel": "Maison de Brasille"
+    },
+    {
+      "raw": "Marseille_d_Hunite_dabitation",
+      "ort": "Marseille",
+      "projekt": "d Hunite dabitation",
+      "jahre": [],
+      "titel": "Marseille d Hunite dabitation"
+    },
+    {
+      "raw": "Paris_Maison_Jaul",
+      "ort": "Paris",
+      "projekt": "Maison Jaul",
+      "jahre": [],
+      "titel": "Paris Maison Jaul"
+    },
+    {
+      "raw": "Paris_Villa_La_Roche",
+      "ort": "Paris",
+      "projekt": "Villa La Roche",
+      "jahre": [],
+      "titel": "Paris Villa La Roche"
+    },
+    {
+      "raw": "Paris_Wohn_und_Atelierhaus_für Amédée_Ozenfant_1923",
+      "ort": "Paris",
+      "projekt": "Wohn und Atelierhaus für Amédée Ozenfant",
+      "jahre": [
+        "1923"
+      ],
+      "titel": "Paris Wohn und Atelierhaus für Amédée Ozenfant 1923"
+    },
+    {
+      "raw": "Poissy_Villa_Savoye",
+      "ort": "Poissy",
+      "projekt": "Villa Savoye",
+      "jahre": [],
+      "titel": "Poissy Villa Savoye"
+    },
+    {
+      "raw": "Ronchamp_Kappelle",
+      "ort": "Ronchamp",
+      "projekt": "Kappelle",
+      "jahre": [],
+      "titel": "Ronchamp Kappelle"
+    },
+    {
+      "raw": "Stuttgard_Weissenhofsiedlung",
+      "ort": "Stuttgard",
+      "projekt": "Weissenhofsiedlung",
+      "jahre": [],
+      "titel": "Stuttgard Weissenhofsiedlung"
+    },
+    {
+      "raw": "Tokyo",
+      "ort": "Tokyo",
+      "projekt": "Tokyo",
+      "jahre": [],
+      "titel": "Tokyo"
+    },
+    {
+      "raw": "Villa sarabhai",
+      "ort": "Villa sarabhai",
+      "projekt": "Villa sarabhai",
+      "jahre": [],
+      "titel": "Villa sarabhai"
+    },
+    {
+      "raw": "Waadt_Elternhaus",
+      "ort": "Waadt",
+      "projekt": "Elternhaus",
+      "jahre": [],
+      "titel": "Waadt Elternhaus"
+    },
+    {
+      "raw": "nationales Zentrum",
+      "ort": "nationales Zentrum",
+      "projekt": "nationales Zentrum",
+      "jahre": [],
+      "titel": "nationales Zentrum"
+    }
+  ],
+  "projekt_anzahl": 21,
+  "inventar": {
+    "bilder": 675,
+    "dokumente": 31,
+    "cad": 0,
+    "andere": 50,
+    "total": 756
+  },
+  "dateitypen": {
+    ".jpg": 661,
+    ".htm": 23,
+    ".pdf": 14,
+    ".doc": 14,
+    ".psd": 11,
+    ".mp3": 10,
+    ".gif": 5,
+    ".png": 4,
+    ".tif": 3,
+    ".db": 3,
+    ".docx": 3,
+    ".html": 2,
+    ".bmp": 2,
+    ".jpg kopie": 1
+  },
+  "textauszug": "Plan Voisin aus Wikipedia, der freien Enzyklopädie Der Plan Voisin war ein utopischer städtebaulicher Entwurf von Le Corbusier, den dieser 1925 im Pavillon der Zeitschrift L'Esprit Nouvau auf der „Exposition internationale des Arts Décoratifs et industriels modernes“ in Paris ausstellte. Das vom Automobil- und Flugzeughersteller Gabriel V oisin ﬁnanzierte Projekt sah den Flächenabriss großer Teile des alten Pariser Zentrums am rechten Seineufer vor und wurde daher kontrovers diskutiert. Inhaltsverzeichnis 1 Zeitgenössische Bezüge 2 Der Plan V oisin und sein Echo 3 Literatur 4 Weblinks Zeitgenössische Bezüge Der junge Le Corbusier war unter anderem von den urbanistischen V orstellungen Werner Hegemanns beeinﬂusst. Beeindruckt zeigte er sich auch durch die Konzepte von Karl Schefﬂer, der 1913 in Die Architektur der Großstadt die Idee einer nach Funktionen organisierten Stadt vertrat, und durch Peter Behrens, zeitweilig Le Corbusiers Arbeitgeber, der Hochhausbauten im Berliner Zentrum propagierte. Trotz seiner nach dem Ersten Weltkrieg kritischen Haltung gegenüber Deutschland setzte sich le Corbusier auch in den 1920er Jahren mit diesem Gedankengut auseinander und entwarf 1922 ein Modell einer „zeitgenössischen Stadt“, das wiederum Ludwig Hilberseimer zum Konzept seiner Hochhausstadt führte. Der Plan Voisin und sein Echo Im Plan V oisin wandte Le Corbusier die Prinzipien seiner zeitgenössischen Stadt auf das Zentrum von Paris nördlich der Seine an. An die Stelle der gewachsenen Irregularitäten traditioneller europäischer Städte setzte er 18 locker und regelmäßig angeordnete 60stöckige Hochhäuser mit kreuzfömigem Grundriss. Die Verkehrsebenen sind getrennt, eine breite Straßenachse unterstreicht die Bedeutung des Individualverkehrs. In seiner architektonischen Radikalität und Rücksichtslosigkeit gegenüber dem historischen Bestand erzeugte der Plan damals wie heute ein breites, oft kritisches Echo. Er übte starken Einﬂuss auf die urbanistischen Konzeptionen der 1960er- und 1970er Jahre aus, wurde aber auch als Musterbeispiel einer inhumanen, schematischen Rasterarchitektur abgelehnt. Literatur Robert Fishman:Urban Utopias in the Twentieth Century: Ebenezer Howard, Frank Lloyd Wright, Le Corbusier Basic Books, New York 1977 sowie M.I.T. Books 1982 (paperback) Weblinks Zur Einbettung in den zeitgenössischen Diskurs (http://www.deuframat.de/parser/parser.php? Abrufstatistik Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc. ﬁle=/deuframat/deutsch/5/5_4/cohen/kap_5.htm) Aus Robert Fishman:Urban Utopias in the 20th Century (http://books.google.at/books? id=65g2VjsxSswC&pg=RA1-PA207&dq=plan+voisin&lr=&client=ﬁrefox- a&cd=11#v=onepage&q=plan%20voisin&f=false) Diplomarbeit zum Thema Plan V oisin (PDF-Dokument) (http://dspace.mit.edu/bitstream/handle/1721.1/36421/25571430.pdf?sequence=1) V on „http://de.wikipedia.org/w/index.php?title=Plan_V oisin&oldid=124882826“ Kategorien: ArchitekturprojektArchitektur von Le CorbusierArchitektur (Frankreich) PROMOTING AN URBAN VISION: LE CORBUSIER AND THE PLAN VOISIN by MARYBETH SHAW A.B. Smith College 1984 Submitted to the Department of Urban Studies & Planning in partial fulfillment of the requirements for the degree of MASTER OF CITY PLANNING at the MASSACHUSETTS INSTITUTE OF TECHNOLOGY June 1991 © Massachusetts Institute of All rights reserved. Technology Deparmenf of Urban Studies & Planning 10 May 1991 C ified by J. Mark Davidson Schuster ssociate Professor, Department of Urban Studies & Planning Thesis Supervisor Accepted by Plillip L. Clay Chairperson M.C.P. Committee MASSACHUSETTSINST11 UTE OF TECHN01 OGY JUN 05 1991 LiuaA\"ES 0AW10 MITLibraries Document Services Room 14-0551 77 Massachusetts Avenue Cambridge, MA 02139 Ph: 617.253.2800 Email: docs@mit.edu http://Iibraries.mit.edu/docs DISCLAIMER OF QUALITY Due to the condition of the original material, there are unavoidable flaws in this reproduction. We have made every effort possible to provide you with the best copy available. If you are dissatisfied with this product and find it unusable, please contact Document Services as soon as possible. Thank you. The images contained in this document are of the best quality available. PROMOTING AN URBAN VISION: LE CORBUSIER AND THE PLAN VOISIN by MARYBETH SHAW Submitted to the Department of Urban Studies & Planning on May 10, 1991 in partial fulfillment of the requirements for the Degree of Master of City Planning Abstract Urban designers and architects must engage in a promotional strategy for legitimization and implementation of their ideas. Often, they promote their work, not only by demonstrating how the physical design answers the concrete needs of a city's inhabitants, but also by appealing to specific decision-makers through their methods of presentation. The function of the promotional strategy is to effectively make and communicate the interactive relationship between the urban design and existing societal conditions and/or the interests of the audience. In this thesis, I examine Le Corbusier's Plan Voisin for Paris of 1925, a bold urban design proposal which the designer aggressively promoted. In so doing, I attempt to evaluate the appropriateness of the content, as well as the presentation of the Plan, given the political, economic, social and cultural context of Paris at that time. I analyze Le Corbusier's methods of promotion-the journal L'Esprit Nouveau, the Esprit Nouveau Pavilion at the Decorative Arts Exposition and his book Urbanisme-in which he acknowledges, to varying degrees: selected city problems, the popularity of scientific management, the birth of the urban planning profession in France, the architectural preservation movement, and the early relationship between commercial advertising and avant-garde art. Despite Le Corbusier's efforts, the Plan Voisin was not considered for implementation. This \"failure\" allows for an evaluation of the project's promotion from a generally unconsidered perspective. I conclude that the promotion of the Plan Voisin was a \"success\" in terms of promoting: Le Corbusier's career; selected elements of the plan that were later adopted in projects by himself and others; the urban planning profession worldwide; and, the practice of design promotion in general. Thesis Supervisor: J. Mark Davidson Schuster Associate Professor Department of Urban Studies & Planning Co-Advisor/Reader: Francesco Passanti Assistant Professor Department of Architecture PREFACE The subject of promotion is rarely addressed in academic literature and program curricula on architecture and urban design; but I believe it is critical to a designer's professional development. Understanding how promotion makes the connection between design, audience and context illuminates important aspects of the cultural relevance of our work. We design for a specific site, for specific audiences, and, sometimes, with ends other than implementation in mind. Designers who wish to be recognized for their theories and designs, let alone to have the opportunity to build, know that presentation counts. I have relied on both primary and secondary sources to write this thesis. Much of the material was available to me here in Cambridge at MIT's Rotch Library and in the Le Corbusier Collection of Harvard's Loeb Library. Francesco Passanti was extremely generous in sharing with me his personal research notes and insight on Le Corbusier. I also spent a number of afternoons consulting the archives at the Fondation Le Corbusier in Paris where the librarians were very helpful. The reader will notice",
+  "embed_doc": "Le Corbusier | 00 Architekten | Carches Villa | Chandigar Chandigar | Cote d'azur Le Petit Cabanon | Farches Villa Stein | Fimri Sportzenter | Firmi kirche | La Tourette | Maison Jaoule Maison Jaoule | Maison de Brasille | Marseille d Hunite dabitation | Paris Maison Jaul | Paris Villa La Roche | Paris Wohn und Atelierhaus für Amédée Ozenfant 1923 | Poissy Villa Savoye | Ronchamp Kappelle | Stuttgard Weissenhofsiedlung | Tokyo Tokyo | Villa sarabhai Villa sarabhai | Waadt Elternhaus | nationales Zentrum nationales Zentrum | Plan Voisin aus Wikipedia, der freien Enzyklopädie Der Plan Voisin war ein utopischer städtebaulicher Entwurf von Le Corbusier, den dieser 1925 im Pavillon der Zeitschrift L'Esprit Nouvau auf der „Exposition internationale des Arts Décoratifs et industriels modernes“ in Paris ausstellte. Das vom Automobil- und Flugzeughersteller Gabriel V oisin ﬁnanzierte Projekt sah den Flächenabriss großer Teile des alten Pariser Zentrums am rechten Seineufer vor und wurde daher kontrovers diskutiert. Inhaltsverzeichnis 1 Zeitgenössische Bezüge 2 Der Plan V oisin und sein Echo 3 Literatur 4 Weblinks Zeitgenössische Bezüge Der junge Le Corbusier war unter anderem von den urbanistischen V orstellungen Werner Hegemanns beeinﬂusst. Beeindruckt zeigte er sich auch durch die Konzepte von Karl Schefﬂer, der 1913 in Die Architektur der Großstadt die Idee einer nach Funktionen organisierten Stadt vertrat, und durch Peter Behrens, zeitweilig Le Corbusiers Arbeitgeber, der Hochhausbauten im Berliner Zentrum propagierte. Trotz seiner nach dem Ersten Weltkrieg kritischen Haltung gegenüber Deutschland setzte sich le Corbusier auch in den 1920er Jahren mit diesem Gedankengut auseinander und entwarf 1922 ein Modell einer „zeitgenössischen Stadt“, das wiederum Ludwig Hilberseimer zum Konzept seiner Hochhausstadt führte. Der Plan Voisin und sein Echo Im Plan V oisin wandte Le Corbusier die Prinzipien seiner zeitgenössischen Stadt auf das Zentrum von Paris nördlich der Seine an. An die Stelle der gewachsenen Irregularitäten traditioneller europäischer Städte setzte er 18 locker und regelmäßig angeordnete 60stöckige Hochhäuser mit kreuzfömigem Grundriss. Die Verkehrsebenen sind getrennt, eine breite Straßenachse unterstreicht die Bedeutung des Individualverkehrs. In seiner architektonischen Radikalität und Rücksichtslosigkeit gegenüber dem historischen Bestand erzeugte der Plan damals wie heute ein breites, oft kritisches Echo. Er übte starken Einﬂuss auf die urbanistischen Konzeptionen der 1960er- und 1970er Jahre aus, wurde aber auch als Musterbeispiel einer inhumanen, schematischen Rasterarchitektur abgelehnt. Literatur Robert Fishman:Urban Utopias in the Twentieth Century: Ebenezer Howard, Frank Lloyd Wright, Le Corbusier Basic Books, New York 1977 sowie M.I.T. Books 1982 (paperback) Weblinks Zur Einbettung in den zeitgenössischen Diskurs (http://www.deuframat.de/parser/parser.php? Abrufstatistik Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden. Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc. ﬁle=/deuframat/deutsch/5/5_4/cohen/kap_5.htm) Aus Robert Fishman:Urban Utopias in the 20th Century (http://books.google.at/books? id=65g2VjsxSswC&pg=RA1-PA207&dq=plan+voisin&lr=&client=ﬁrefox- a&cd=11#v=onepage&q=plan%20voisin&f=false) Diplomarbeit zum Thema Plan V oisin (PDF-Dokument) (http://dspace.mit.edu/bitstream/handle/1721.1/36421/25571430.pdf?sequence=1) V on „http://de.wikipedia.org/w/index.php?title=Plan_V oisin&oldid=124882826“ Kategorien: ArchitekturprojektArchitektur von Le CorbusierArchitektur (Frankreich) PROMOTING AN URBAN VISION: LE CORBUSIER AND THE PLAN VOISIN by MARYBETH SHAW A.B. Smith College 1984 Submitted to the Department of Urban Studies & Planning in partial fulfillment of the requirements for the degree of MASTER OF CITY PLANNING at the MASSACHUSETTS INSTITUTE OF TECHNOLOGY June 1991 © Massachusetts Institute of All rights reserved. Technology Deparmenf of Urban Studies & Planning 10 May 1991 C ified by J. Mark Davidson Schuster ssociate Professor, Department of Urban Studies & Planning Thesis Supervisor Accepted by Plillip L. Clay Chairperson M.C.P. Committee MASSACHUSETTSINST11 UTE OF TECHN01 OGY JUN 05 1991 LiuaA\"ES 0AW10 MITLibraries Document Services Room 14-0551 77 Massachusetts Avenue Cambridge, MA 02139 Ph: 617.253.2800 Email: docs@mit.edu http://Iibraries.mit.edu/docs DISCLAIMER OF QUALITY Due to the condition of the original material, there are unavoidable flaws in this reproduction. We have made every effort possible to provide you with the best copy available. If you are dissatisfied with this product and find it unusable, please contact Document Services as soon as possible. Thank you. The images contained in this document are of the best quality available. PROMOTING AN URBAN VISION: LE CORBUSIER AND THE PLAN VOISIN by MARYBETH SHAW Submitted to the Department of Urban Studies & Planning on May 10, 1991 in partial fulfillment of the requirements for the Degree of Master of City Planning Abstract Urban designers and architects must engage in a promotional strategy for legitimization and implementation of their ideas. Often, they promote their work, not only by demonstrating how the physical design answers the concrete needs of a city's inhabitants, but also by appealing to specific decision-makers through their methods of presentation. The function of the promotional strategy is to effectively make and communicate the interactive relationship between the urban design and existing societal conditions and/or the interests of the audience. In this thesis, I examine Le Corbusier's Plan Voisin for Paris of 1925, a bold urban design proposal which the designer aggressively promoted. In so doing, I attempt to evaluate the appropriateness of the content, as well as the presentation of the Plan, given the political, economic, social and cultural context of Paris at that time. I analyze Le Corbusier's methods of promotion-the journal L'Esprit Nouveau, the Esprit Nouveau Pavilion at the Decorative Arts Exposition and his book Urbanisme-in which he acknowledges, to varying degrees: selected city problems, the popularity of scientific management, the birth of the urban planning profession in France, the architectural preservation movement, and the early relationship between commercial advertising and avant-garde art. Despite Le Corbusier's efforts, the Plan Voisin was not considered for implementation. This \"failure\" allows for an evaluation of the project's promotion from a generally unconsidered perspective. I conclude that the promotion of the Plan Voisin was a \"success\" in terms of promoting: Le Corbusier's career; selected elements of the plan that were later adopted in projects by himself and others; the urban planning profession worldwide; and, the practice of design promotion in general. Thesis Supervisor: J. Mark Davidson Schuster Associate Professor Department of Urban Studies & Planning Co-Advisor/Reader: Francesco Passanti Assistant Professor Department of Architecture PREFACE The subject of promotion is rarely addressed in academic literature and program curricula on architecture and urban design; but I believe it is critical to a designer's professional development. Understanding how promotion makes the connection between design, audience and context illuminates important aspects of the cultural relevance of our work. We design for a specific site, for specific audiences, and, sometimes, with ends other than implementation in mind. Designers who wish to be recognized for their theories and designs, let alone to have the opportunity to build, know that presentation counts. I have relied on both primary and secondary sources to write this thesis. Much of the material was available to me here in Cambridge at MIT's Rotch Library and in the Le Corbusier Collection of Harvard's Loeb Library. Francesco Passanti was extremely generous in sharing with me his personal research notes and insight on Le Corbusier. I also spent a number of afternoons consulting the archives at the Fondation Le Corbusier in Paris where the librarians were very helpful. The reader will notice",
+  "stand": "2026-07-02T21:42:34"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "Knut_Knutsen",
+  "architekt": {
+    "name": "Knut Knutsen",
+    "nachname": "Knut",
+    "vorname": "Knutsen",
+    "jahre": [],
+    "ordner": "Knut_Knutsen"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Knut_Knutsen",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Norwegian_National Museum of Art Architecture and Design Presents_Discords_Architecture 1945_65",
+      "ort": "Norwegian",
+      "projekt": "National Museum of Art Architecture and Design Presents Discords Architecture 1945 65",
+      "jahre": [],
+      "titel": "Norwegian National Museum of Art Architecture and Design Presents Discords Architecture 1945 65"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 9
+  },
+  "textauszug": "",
+  "embed_doc": "Knut Knutsen | 00 Architekten | Norwegian National Museum of Art Architecture and Design Presents Discords Architecture 1945 65",
+  "stand": "2026-07-02T21:32:43"
+}

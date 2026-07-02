@@ -1,0 +1,26 @@
+{
+  "slug": "Krier_Leon",
+  "architekt": {
+    "name": "Krier Leon",
+    "nachname": "Krier",
+    "vorname": "Leon",
+    "jahre": [],
+    "ordner": "Krier_Leon"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Krier_Leon",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Krier Leon",
+  "stand": "2026-07-02T21:35:33"
+}

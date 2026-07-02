@@ -1,0 +1,42 @@
+{
+  "slug": "Krier_Robert",
+  "architekt": {
+    "name": "Krier Robert",
+    "nachname": "Krier",
+    "vorname": "Robert",
+    "jahre": [],
+    "ordner": "Krier_Robert"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Krier_Robert",
+  "projekte": [
+    {
+      "raw": "Amsterdam",
+      "ort": "Amsterdam",
+      "projekt": "Amsterdam",
+      "jahre": [],
+      "titel": "Amsterdam"
+    },
+    {
+      "raw": "Berlin_Rauchstrasse",
+      "ort": "Berlin",
+      "projekt": "Rauchstrasse",
+      "jahre": [],
+      "titel": "Berlin Rauchstrasse"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Krier Robert | Amsterdam Amsterdam | Berlin Rauchstrasse",
+  "stand": "2026-07-02T21:35:34"
+}

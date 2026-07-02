@@ -1,0 +1,38 @@
+{
+  "slug": "Libera_Adalberto",
+  "architekt": {
+    "name": "Libera Adalberto",
+    "nachname": "Libera",
+    "vorname": "Adalberto",
+    "jahre": [],
+    "ordner": "Libera_Adalberto"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Libera_Adalberto",
+  "projekte": [
+    {
+      "raw": "Capri_Casa_Malaparte_1941",
+      "ort": "Capri",
+      "projekt": "Casa Malaparte",
+      "jahre": [
+        "1941"
+      ],
+      "titel": "Capri Casa Malaparte 1941"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 7,
+    ".png": 1,
+    ".jpeg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Libera Adalberto | Capri Casa Malaparte 1941",
+  "stand": "2026-07-02T21:42:44"
+}

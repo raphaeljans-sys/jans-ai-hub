@@ -1,0 +1,64 @@
+{
+  "slug": "Lubetkin_Tecton",
+  "architekt": {
+    "name": "Lubetkin Tecton",
+    "nachname": "Lubetkin",
+    "vorname": "Tecton",
+    "jahre": [],
+    "ordner": "Lubetkin_Tecton"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lubetkin_Tecton",
+  "projekte": [
+    {
+      "raw": "London_Finsbury Health Centre, Pine Street, Finsbury, the disinfecting station",
+      "ort": "London",
+      "projekt": "Finsbury Health Centre, Pine Street, Finsbury, the disinfecting station",
+      "jahre": [],
+      "titel": "London Finsbury Health Centre, Pine Street, Finsbury, the disinfecting station"
+    },
+    {
+      "raw": "London_Gorilla House, London Zoo, Regent's Park,",
+      "ort": "London",
+      "projekt": "Gorilla House, London Zoo, Regent's Park,",
+      "jahre": [],
+      "titel": "London Gorilla House, London Zoo, Regent's Park,"
+    },
+    {
+      "raw": "London_Highpoint Two, North Hill, Highgate, _staircase in duplex flat",
+      "ort": "London",
+      "projekt": "Highpoint Two, North Hill, Highgate,  staircase in duplex flat",
+      "jahre": [],
+      "titel": "London Highpoint Two, North Hill, Highgate,  staircase in duplex flat"
+    },
+    {
+      "raw": "London_Penthouse, Highpoint Two, North Hill, Highgate_1938",
+      "ort": "London",
+      "projekt": "Penthouse, Highpoint Two, North Hill, Highgate",
+      "jahre": [
+        "1938"
+      ],
+      "titel": "London Penthouse, Highpoint Two, North Hill, Highgate 1938"
+    },
+    {
+      "raw": "London_Six Pillars, Crescent Wood Road, Sydenham,",
+      "ort": "London",
+      "projekt": "Six Pillars, Crescent Wood Road, Sydenham,",
+      "jahre": [],
+      "titel": "London Six Pillars, Crescent Wood Road, Sydenham,"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 19,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 19
+  },
+  "dateitypen": {
+    ".jpg": 19
+  },
+  "textauszug": "",
+  "embed_doc": "Lubetkin Tecton | London Finsbury Health Centre, Pine Street, Finsbury, the disinfecting station | London Gorilla House, London Zoo, Regent's Park, | London Highpoint Two, North Hill, Highgate, staircase in duplex flat | London Penthouse, Highpoint Two, North Hill, Highgate 1938 | London Six Pillars, Crescent Wood Road, Sydenham,",
+  "stand": "2026-07-02T21:43:00"
+}

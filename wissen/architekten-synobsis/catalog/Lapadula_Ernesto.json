@@ -1,0 +1,43 @@
+{
+  "slug": "Lapadula_Ernesto",
+  "architekt": {
+    "name": "Lapadula Ernesto",
+    "nachname": "Lapadula",
+    "vorname": "Ernesto",
+    "jahre": [],
+    "ordner": "Lapadula_Ernesto"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lapadula_Ernesto",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Rom_Colosseo_Quadrato_1940",
+      "ort": "Rom",
+      "projekt": "Colosseo Quadrato",
+      "jahre": [
+        "1940"
+      ],
+      "titel": "Rom Colosseo Quadrato 1940"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 10
+  },
+  "textauszug": "",
+  "embed_doc": "Lapadula Ernesto | 00 Architekten | Rom Colosseo Quadrato 1940",
+  "stand": "2026-07-02T21:41:30"
+}

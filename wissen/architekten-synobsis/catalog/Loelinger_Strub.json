@@ -1,0 +1,43 @@
+{
+  "slug": "Loelinger_Strub",
+  "architekt": {
+    "name": "Loelinger Strub",
+    "nachname": "Loelinger",
+    "vorname": "Strub",
+    "jahre": [],
+    "ordner": "Loelinger_Strub"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Loelinger_Strub",
+  "projekte": [
+    {
+      "raw": "Zuerich_Hochhaus",
+      "ort": "Zuerich",
+      "projekt": "Hochhaus",
+      "jahre": [],
+      "titel": "Zuerich Hochhaus"
+    },
+    {
+      "raw": "Zuerich_Wohnhaus Winkelriedstrasse",
+      "ort": "Zuerich",
+      "projekt": "Wohnhaus Winkelriedstrasse",
+      "jahre": [],
+      "titel": "Zuerich Wohnhaus Winkelriedstrasse"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 23,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 23
+  },
+  "dateitypen": {
+    ".jpg": 11,
+    ".tiff": 9,
+    ".png": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Loelinger Strub | Zuerich Hochhaus | Zuerich Wohnhaus Winkelriedstrasse",
+  "stand": "2026-07-02T21:42:49"
+}
