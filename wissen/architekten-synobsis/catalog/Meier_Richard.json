@@ -1,0 +1,41 @@
+{
+  "slug": "Meier_Richard",
+  "architekt": {
+    "name": "Meier Richard",
+    "nachname": "Meier",
+    "vorname": "Richard",
+    "jahre": [],
+    "ordner": "Meier_Richard"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Meier_Richard",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "San_Diego_Getty_Center",
+      "ort": "San",
+      "projekt": "Diego Getty Center",
+      "jahre": [],
+      "titel": "San Diego Getty Center"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".jpg": 8
+  },
+  "textauszug": "",
+  "embed_doc": "Meier Richard | Architekt Architekt | San Diego Getty Center",
+  "stand": "2026-07-02T22:41:02"
+}

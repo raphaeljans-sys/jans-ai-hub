@@ -1,0 +1,37 @@
+{
+  "slug": "Oestberg_Ragnar",
+  "architekt": {
+    "name": "Oestberg Ragnar",
+    "nachname": "Oestberg",
+    "vorname": "Ragnar",
+    "jahre": [],
+    "ordner": "Oestberg_Ragnar"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Oestberg_Ragnar",
+  "projekte": [
+    {
+      "raw": "Stockholm_Stadthaus_1911_1923",
+      "ort": "Stockholm",
+      "projekt": "Stadthaus",
+      "jahre": [
+        "1911",
+        "1923"
+      ],
+      "titel": "Stockholm Stadthaus 1911 1923"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "240 Stockholm. Östberg. Stadshus Ragnar Östberg Stadthaus (Stadshus,1911–1923) Hantverkargatan 1, Stockholm 241Stockholm. Östberg. Stadshus 242 Stockholm. Östberg. Stadshus 243Stockholm. Östberg. Stadshus (...) (...) 244 Stockholm. Östberg. Stadthus 245",
+  "embed_doc": "Oestberg Ragnar | Stockholm Stadthaus 1911 1923 | 240 Stockholm. Östberg. Stadshus Ragnar Östberg Stadthaus (Stadshus,1911–1923) Hantverkargatan 1, Stockholm 241Stockholm. Östberg. Stadshus 242 Stockholm. Östberg. Stadshus 243Stockholm. Östberg. Stadshus (...) (...) 244 Stockholm. Östberg. Stadthus 245",
+  "stand": "2026-07-02T22:43:41"
+}

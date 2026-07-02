@@ -1,0 +1,55 @@
+{
+  "slug": "Muncunill_Luis",
+  "architekt": {
+    "name": "Muncunill Luis",
+    "nachname": "Muncunill",
+    "vorname": "Luis",
+    "jahre": [],
+    "ordner": "Muncunill_Luis"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Muncunill_Luis",
+  "projekte": [
+    {
+      "raw": "Terrassa_Fabrica_Izard_1921",
+      "ort": "Terrassa",
+      "projekt": "Fabrica Izard",
+      "jahre": [
+        "1921"
+      ],
+      "titel": "Terrassa Fabrica Izard 1921"
+    },
+    {
+      "raw": "Terrassa_Fabrica_Pere_Font_Batalle_1916",
+      "ort": "Terrassa",
+      "projekt": "Fabrica Pere Font Batalle",
+      "jahre": [
+        "1916"
+      ],
+      "titel": "Terrassa Fabrica Pere Font Batalle 1916"
+    },
+    {
+      "raw": "Terrassa_Vapor_Aymerich_Amat_y_Jover_1907",
+      "ort": "Terrassa",
+      "projekt": "Vapor Aymerich Amat y Jover",
+      "jahre": [
+        "1907"
+      ],
+      "titel": "Terrassa Vapor Aymerich Amat y Jover 1907"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 2,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Muncunill Luis | Terrassa Fabrica Izard 1921 | Terrassa Fabrica Pere Font Batalle 1916 | Terrassa Vapor Aymerich Amat y Jover 1907",
+  "stand": "2026-07-02T22:42:57"
+}

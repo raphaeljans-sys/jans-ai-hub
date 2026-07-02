@@ -1,0 +1,26 @@
+{
+  "slug": "Oswald_Hannes",
+  "architekt": {
+    "name": "Oswald Hannes",
+    "nachname": "Oswald",
+    "vorname": "Hannes",
+    "jahre": [],
+    "ordner": "Oswald_Hannes"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Oswald_Hannes",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Oswald Hannes",
+  "stand": "2026-07-02T22:43:54"
+}

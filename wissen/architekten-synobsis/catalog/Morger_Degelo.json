@@ -1,0 +1,42 @@
+{
+  "slug": "Morger_Degelo",
+  "architekt": {
+    "name": "Morger Degelo",
+    "nachname": "Morger",
+    "vorname": "Degelo",
+    "jahre": [],
+    "ordner": "Morger_Degelo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Morger_Degelo",
+  "projekte": [
+    {
+      "raw": "Gemeindezentrum_Reinach_BL",
+      "ort": "Gemeindezentrum",
+      "projekt": "Reinach BL",
+      "jahre": [],
+      "titel": "Gemeindezentrum Reinach BL"
+    },
+    {
+      "raw": "morgerDEGAlo",
+      "ort": "morgerDEGAlo",
+      "projekt": "morgerDEGAlo",
+      "jahre": [],
+      "titel": "morgerDEGAlo"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 14,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 14
+  },
+  "dateitypen": {
+    ".jpg": 9,
+    ".tiff": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Morger Degelo | Gemeindezentrum Reinach BL | morgerDEGAlo morgerDEGAlo",
+  "stand": "2026-07-02T22:42:15"
+}

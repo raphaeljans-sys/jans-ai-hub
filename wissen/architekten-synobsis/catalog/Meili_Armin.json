@@ -1,0 +1,43 @@
+{
+  "slug": "Meili_Armin",
+  "architekt": {
+    "name": "Meili Armin",
+    "nachname": "Meili Armin",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Meili Armin"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Meili Armin",
+  "projekte": [
+    {
+      "raw": "Luzern_Kunsthaus",
+      "ort": "Luzern",
+      "projekt": "Kunsthaus",
+      "jahre": [],
+      "titel": "Luzern Kunsthaus"
+    },
+    {
+      "raw": "Zuerich_Hochhausstudie",
+      "ort": "Zuerich",
+      "projekt": "Hochhausstudie",
+      "jahre": [],
+      "titel": "Zuerich Hochhausstudie"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 1,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 2,
+    ".pdf": 2,
+    ".psd": 1
+  },
+  "textauszug": "6 Armin Meili: „Braucht Zürich Hochhäuser?“ NZZ, 9./11. Dez.1950",
+  "embed_doc": "Meili Armin | Luzern Kunsthaus | Zuerich Hochhausstudie | 6 Armin Meili: „Braucht Zürich Hochhäuser?“ NZZ, 9./11. Dez.1950",
+  "stand": "2026-07-02T22:41:03"
+}

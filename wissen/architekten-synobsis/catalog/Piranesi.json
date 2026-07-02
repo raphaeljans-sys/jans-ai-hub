@@ -1,0 +1,42 @@
+{
+  "slug": "Piranesi",
+  "architekt": {
+    "name": "Piranesi",
+    "nachname": "Piranesi",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Piranesi"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Piranesi",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Piranesi_plan_of_ancient_Rome",
+      "ort": "Piranesi",
+      "projekt": "plan of ancient Rome",
+      "jahre": [],
+      "titel": "Piranesi plan of ancient Rome"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 19,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 19
+  },
+  "dateitypen": {
+    ".jpg": 13,
+    ".png": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Piranesi | 00 Architekten | Piranesi plan of ancient Rome",
+  "stand": "2026-07-02T22:44:30"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "OMA",
+  "architekt": {
+    "name": "OMA",
+    "nachname": "OMA",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "OMA"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/OMA",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "OMA",
+  "stand": "2026-07-02T22:43:40"
+}

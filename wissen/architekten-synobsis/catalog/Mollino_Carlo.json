@@ -1,0 +1,51 @@
+{
+  "slug": "Mollino_Carlo",
+  "architekt": {
+    "name": "Mollino Carlo",
+    "nachname": "Mollino",
+    "vorname": "Carlo",
+    "jahre": [],
+    "ordner": "Mollino_Carlo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Mollino_Carlo",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Turin_Casa_Devalle_1939",
+      "ort": "Turin",
+      "projekt": "Casa Devalle",
+      "jahre": [
+        "1939"
+      ],
+      "titel": "Turin Casa Devalle 1939"
+    },
+    {
+      "raw": "Turin_eigenes Apartment Via Napione_1960-1971",
+      "ort": "Turin",
+      "projekt": "eigenes Apartment Via Napione 1960-1971",
+      "jahre": [],
+      "titel": "Turin eigenes Apartment Via Napione 1960-1971"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 4,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".pdf": 4,
+    ".jpg": 2
+  },
+  "textauszug": "Carlo Mollino, Casa Devalle, T urin 1939 Carlo Mollino, Casa Devalle, T urin 1939 24 Carlo Mollino, eigenes Apartment Via Napione, 1960-1971, Turin, Italien THEMA 52 THEMA Carlo Mollino, eigenes Apartment Via Napione, 1960-1971, Turin, Italien",
+  "embed_doc": "Mollino Carlo | 00 Architekten | Turin Casa Devalle 1939 | Turin eigenes Apartment Via Napione 1960-1971 | Carlo Mollino, Casa Devalle, T urin 1939 Carlo Mollino, Casa Devalle, T urin 1939 24 Carlo Mollino, eigenes Apartment Via Napione, 1960-1971, Turin, Italien THEMA 52 THEMA Carlo Mollino, eigenes Apartment Via Napione, 1960-1971, Turin, Italien",
+  "stand": "2026-07-02T22:42:09"
+}

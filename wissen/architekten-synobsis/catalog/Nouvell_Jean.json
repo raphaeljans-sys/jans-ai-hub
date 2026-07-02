@@ -1,0 +1,67 @@
+{
+  "slug": "Nouvell_Jean",
+  "architekt": {
+    "name": "Nouvell Jean",
+    "nachname": "Nouvell",
+    "vorname": "Jean",
+    "jahre": [],
+    "ordner": "Nouvell_Jean"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Nouvell_Jean",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Bordeaux_Hotel",
+      "ort": "Bordeaux",
+      "projekt": "Hotel",
+      "jahre": [],
+      "titel": "Bordeaux Hotel"
+    },
+    {
+      "raw": "Boulogne_building_billancourt",
+      "ort": "Boulogne",
+      "projekt": "building billancourt",
+      "jahre": [],
+      "titel": "Boulogne building billancourt"
+    },
+    {
+      "raw": "Luzern_KKL",
+      "ort": "Luzern",
+      "projekt": "KKL",
+      "jahre": [],
+      "titel": "Luzern KKL"
+    },
+    {
+      "raw": "Lyon_Operhouse",
+      "ort": "Lyon",
+      "projekt": "Operhouse",
+      "jahre": [],
+      "titel": "Lyon Operhouse"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 28,
+    "dokumente": 21,
+    "cad": 0,
+    "andere": 5,
+    "total": 54
+  },
+  "dateitypen": {
+    ".tif": 26,
+    ".pdf": 19,
+    ".indd": 4,
+    ".jpg": 2,
+    ".doc": 2,
+    ".psd": 1
+  },
+  "textauszug": "KKL Luzern Jean Nouvel Berliner Philharmonie Hans Scharoun Kunst und Kongresszentrum Luzern Jean Nouvel Berliner Philharmonie Hans Scharoun Wettbewerb / Standortvariationen 1944 > Bernburgerstrasse, bestehende Berliner Philhar- monie durch Bombentreffer zerstört, Neue Standortva- riante 1956 > Bundesalle 1, Wettbewerbsausschreibung 1957 > Planungsstart erfolgt für das Grundstück Bun- desallee 1, Wilmersdorf 1959 > Wiederstand und Neuuntersuchung des Stand- ortes durch Scharoun, 5 Variantenplan 1961 > Verlauf der Berliner Mauer, Untertrennung der Stadt in Ost- & Westberlin 1963 > Matthäiskirchstrasse 1 am Kemperplatz, Tier- garten, vertigstellung der neuen Berliner Philharmonie Potsdamer Platz geplante Westtangente die über den ehemaligen Kem- perplatz durch den Tiergarten nach Norden führen sollte 1 1 2 3 3 4 5 6 6 5 4 2 Bundesallee Krollgarten Lanné-Dreieck Matthäiskirchpl. Situation Kemperplatz & Matthäikirchplatz Kulturbereich südwestlich des Potsdamer Platzes und am Tiergarten. 1844-46 > St. Matthäis-Kirche, August Stüler 1956-64; 1966-85; 1988-96 > Kulturforum 1960-63 > Philharmonie 1967-76 > Staatsbibliothek, Hans Scharoun, Edgar Wisniewski 1965-68 > Neue Nationalgalerie, Ludwig Mies van der Rohe 1948-88 > Kammermusiksaal, Matthäikirchplatz, Hans Scharoun, Edgar Wisniewski 1978-85 > Kunstgewerbe-Museum, Rolf Gutbrod 1979-84 > Staatl. Institut für Musikforschung mit Musikinstrumenten-Museum, Kemperplatz, Hans Scha- roun, edgar Wisniewski 1994-2000 > Neubebauung Potsdamer Platz, Master- plan Renzo Piano Building Workshoph 5 2 3 4 5 6 7 8 9 1 4 6 1 7 2 3 1 8 9 Umgebung & Bausituation 1963 Entwurfsidee „ Musik sollt auch räumlich und optisch im Mittelpunkt liegen“ Hans Scharoun Tholoi in Athen um 470 v. Chr. Pantheon, Rom, 115-125n. Chr. „Total Theater“ W. Gropius, Berlin 1927 Formkonzept 3 Pentagons > polygonaler Grundriss",
+  "embed_doc": "Nouvell Jean | 00 Architekten | Bordeaux Hotel | Boulogne building billancourt | Luzern KKL | Lyon Operhouse | KKL Luzern Jean Nouvel Berliner Philharmonie Hans Scharoun Kunst und Kongresszentrum Luzern Jean Nouvel Berliner Philharmonie Hans Scharoun Wettbewerb / Standortvariationen 1944 > Bernburgerstrasse, bestehende Berliner Philhar- monie durch Bombentreffer zerstört, Neue Standortva- riante 1956 > Bundesalle 1, Wettbewerbsausschreibung 1957 > Planungsstart erfolgt für das Grundstück Bun- desallee 1, Wilmersdorf 1959 > Wiederstand und Neuuntersuchung des Stand- ortes durch Scharoun, 5 Variantenplan 1961 > Verlauf der Berliner Mauer, Untertrennung der Stadt in Ost- & Westberlin 1963 > Matthäiskirchstrasse 1 am Kemperplatz, Tier- garten, vertigstellung der neuen Berliner Philharmonie Potsdamer Platz geplante Westtangente die über den ehemaligen Kem- perplatz durch den Tiergarten nach Norden führen sollte 1 1 2 3 3 4 5 6 6 5 4 2 Bundesallee Krollgarten Lanné-Dreieck Matthäiskirchpl. Situation Kemperplatz & Matthäikirchplatz Kulturbereich südwestlich des Potsdamer Platzes und am Tiergarten. 1844-46 > St. Matthäis-Kirche, August Stüler 1956-64; 1966-85; 1988-96 > Kulturforum 1960-63 > Philharmonie 1967-76 > Staatsbibliothek, Hans Scharoun, Edgar Wisniewski 1965-68 > Neue Nationalgalerie, Ludwig Mies van der Rohe 1948-88 > Kammermusiksaal, Matthäikirchplatz, Hans Scharoun, Edgar Wisniewski 1978-85 > Kunstgewerbe-Museum, Rolf Gutbrod 1979-84 > Staatl. Institut für Musikforschung mit Musikinstrumenten-Museum, Kemperplatz, Hans Scha- roun, edgar Wisniewski 1994-2000 > Neubebauung Potsdamer Platz, Master- plan Renzo Piano Building Workshoph 5 2 3 4 5 6 7 8 9 1 4 6 1 7 2 3 1 8 9 Umgebung & Bausituation 1963 Entwurfsidee „ Musik sollt auch räumlich und optisch im Mittelpunkt liegen“ Hans Scharoun Tholoi in Athen um 470 v. Chr. Pantheon, Rom, 115-125n. Chr. „Total Theater“ W. Gropius, Berlin 1927 Formkonzept 3 Pentagons > polygonaler Grundriss",
+  "stand": "2026-07-02T22:43:40"
+}

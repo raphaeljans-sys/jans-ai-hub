@@ -1,0 +1,28 @@
+{
+  "slug": "Pezo_von_Ellrichshausen",
+  "architekt": {
+    "name": "Pezo von Ellrichshausen",
+    "nachname": "Pezo von Ellrichshausen",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Pezo von Ellrichshausen"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Pezo von Ellrichshausen",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 17,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 17
+  },
+  "dateitypen": {
+    ".jpg": 10,
+    ".png": 6,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Pezo von Ellrichshausen",
+  "stand": "2026-07-02T22:44:19"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Maas_Wini",
+  "architekt": {
+    "name": "Maas Wini",
+    "nachname": "Maas",
+    "vorname": "Wini",
+    "jahre": [],
+    "ordner": "Maas_Wini"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Maas_Wini",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Maas Wini",
+  "stand": "2026-07-02T22:39:35"
+}

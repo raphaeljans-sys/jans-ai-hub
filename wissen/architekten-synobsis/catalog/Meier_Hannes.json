@@ -1,0 +1,34 @@
+{
+  "slug": "Meier_Hannes",
+  "architekt": {
+    "name": "Meier Hannes",
+    "nachname": "Meier",
+    "vorname": "Hannes",
+    "jahre": [],
+    "ordner": "Meier_Hannes"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Meier_Hannes",
+  "projekte": [
+    {
+      "raw": "Schulhaus_mit_Bauhaus",
+      "ort": "Schulhaus",
+      "projekt": "mit Bauhaus",
+      "jahre": [],
+      "titel": "Schulhaus mit Bauhaus"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Meier Hannes | Schulhaus mit Bauhaus",
+  "stand": "2026-07-02T22:41:01"
+}

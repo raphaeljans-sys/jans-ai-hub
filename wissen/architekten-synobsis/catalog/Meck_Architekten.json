@@ -1,0 +1,26 @@
+{
+  "slug": "Meck_Architekten",
+  "architekt": {
+    "name": "Meck Architekten",
+    "nachname": "Meck",
+    "vorname": "Architekten",
+    "jahre": [],
+    "ordner": "Meck_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Meck_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Meck Architekten",
+  "stand": "2026-07-02T22:40:58"
+}

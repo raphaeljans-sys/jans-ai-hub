@@ -1,0 +1,52 @@
+{
+  "slug": "Nicoletti_Manfredi",
+  "architekt": {
+    "name": "Nicoletti Manfredi",
+    "nachname": "Nicoletti",
+    "vorname": "Manfredi",
+    "jahre": [],
+    "ordner": "Nicoletti_Manfredi"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Nicoletti_Manfredi",
+  "projekte": [
+    {
+      "raw": "Milan_Santamonica_Church",
+      "ort": "Milan",
+      "projekt": "Santamonica Church",
+      "jahre": [],
+      "titel": "Milan Santamonica Church"
+    },
+    {
+      "raw": "Potenza_Teatro_Ponte_sul_Basento_Potenza_1967",
+      "ort": "Potenza",
+      "projekt": "Teatro Ponte sul Basento Potenza",
+      "jahre": [
+        "1967"
+      ],
+      "titel": "Potenza Teatro Ponte sul Basento Potenza 1967"
+    },
+    {
+      "raw": "Turin_Teatro Regio_Torino_1966",
+      "ort": "Turin",
+      "projekt": "Teatro Regio Torino",
+      "jahre": [
+        "1966"
+      ],
+      "titel": "Turin Teatro Regio Torino 1966"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Nicoletti Manfredi | Milan Santamonica Church | Potenza Teatro Ponte sul Basento Potenza 1967 | Turin Teatro Regio Torino 1966",
+  "stand": "2026-07-02T22:43:07"
+}
