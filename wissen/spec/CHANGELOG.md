@@ -1,5 +1,12 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-02 — Spec-Anwendung: Hub-Chef-Harness
+- Neue reale Spec-Anwendung abgelegt: `outputs/2026-07-02_hub-chef-harness_spec.md`
+  (Dach-Orchestrierung + Service-Produktisierung; Interview via AskUserQuestion, 3
+  Schluesselentscheide bestaetigt: 4 Services, Autonomie Stufe 3, Hub-Chef taeglich).
+  Umsetzung im selben Lauf: Skill `hub-chef`, `logbuch/AKTIONS-WHITELIST.md`,
+  `services/KATALOG.md`, Scheduled Task `hub-chef-taeglich`. Checkpoint 03.07. (erster Lauf).
+
 ## 2026-07-01 — Health-Check (Phase 1)
 - Report `outputs/2026-07-01_health-check.md` (7 Audits A-G, nur Audit, keine Phase-2-Aktion).
   Ampel: A gruen · B gelb · C gelb · D gruen · E rot · F gruen · G gelb.

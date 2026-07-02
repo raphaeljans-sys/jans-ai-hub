@@ -1,0 +1,27 @@
+{
+  "slug": "Caniggia_Gianfranco",
+  "architekt": {
+    "name": "Caniggia Gianfranco",
+    "nachname": "Caniggia",
+    "vorname": "Gianfranco",
+    "jahre": [],
+    "ordner": "Caniggia_Gianfranco"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Caniggia_Gianfranco",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 4,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Caniggia Gianfranco",
+  "stand": "2026-07-02T21:10:30"
+}

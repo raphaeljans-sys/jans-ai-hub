@@ -1,0 +1,66 @@
+{
+  "slug": "Da_Rocha_Eduardo_Mendes",
+  "architekt": {
+    "name": "Da Rocha Eduardo Mendes",
+    "nachname": "Da",
+    "vorname": "Rocha Eduardo Mendes",
+    "jahre": [],
+    "ordner": "Da_Rocha_Eduardo_Mendes"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Da_Rocha_Eduardo_Mendes",
+  "projekte": [
+    {
+      "raw": "Osaka_Pavillon",
+      "ort": "Osaka",
+      "projekt": "Pavillon",
+      "jahre": [],
+      "titel": "Osaka Pavillon"
+    },
+    {
+      "raw": "Sao_Paolo_Casa_James_King",
+      "ort": "Sao",
+      "projekt": "Paolo Casa James King",
+      "jahre": [],
+      "titel": "Sao Paolo Casa James King"
+    },
+    {
+      "raw": "Sao_Paolo_Haus_Rocha_1960",
+      "ort": "Sao",
+      "projekt": "Paolo Haus Rocha",
+      "jahre": [
+        "1960"
+      ],
+      "titel": "Sao Paolo Haus Rocha 1960"
+    },
+    {
+      "raw": "Sao_Paulo_Edificio_Residencial_Jaragua",
+      "ort": "Sao",
+      "projekt": "Paulo Edificio Residencial Jaragua",
+      "jahre": [],
+      "titel": "Sao Paulo Edificio Residencial Jaragua"
+    },
+    {
+      "raw": "mueseum",
+      "ort": "mueseum",
+      "projekt": "mueseum",
+      "jahre": [],
+      "titel": "mueseum"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 27,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 29
+  },
+  "dateitypen": {
+    ".jpg": 26,
+    ".pdf": 2,
+    ".png": 1
+  },
+  "textauszug": "41 Paulo Mendes da Rocha, Casa James King, 1972-1974, Sao Paulo, Brasilien THEMA 30 Paulo Mendes da Rocha, Edificio Jaragua, 1984, Sao Paulo, Brasilien THEMA",
+  "embed_doc": "Da Rocha Eduardo Mendes | Osaka Pavillon | Sao Paolo Casa James King | Sao Paolo Haus Rocha 1960 | Sao Paulo Edificio Residencial Jaragua | mueseum mueseum | 41 Paulo Mendes da Rocha, Casa James King, 1972-1974, Sao Paulo, Brasilien THEMA 30 Paulo Mendes da Rocha, Edificio Jaragua, 1984, Sao Paulo, Brasilien THEMA",
+  "stand": "2026-07-02T21:12:29"
+}

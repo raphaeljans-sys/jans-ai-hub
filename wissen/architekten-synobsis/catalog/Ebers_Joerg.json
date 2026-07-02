@@ -1,0 +1,34 @@
+{
+  "slug": "Ebers_Joerg",
+  "architekt": {
+    "name": "Ebers Joerg",
+    "nachname": "Ebers",
+    "vorname": "Joerg",
+    "jahre": [],
+    "ordner": "Ebers_Joerg"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ebers_Joerg",
+  "projekte": [
+    {
+      "raw": "Haus in Berlin",
+      "ort": "Haus in Berlin",
+      "projekt": "Haus in Berlin",
+      "jahre": [],
+      "titel": "Haus in Berlin"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".tif": 8
+  },
+  "textauszug": "",
+  "embed_doc": "Ebers Joerg | Haus in Berlin Haus in Berlin",
+  "stand": "2026-07-02T21:13:39"
+}

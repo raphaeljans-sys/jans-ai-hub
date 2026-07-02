@@ -1,0 +1,27 @@
+{
+  "slug": "BAUMBERGER_STEGMEIER",
+  "architekt": {
+    "name": "BAUMBERGER STEGMEIER",
+    "nachname": "BAUMBERGER",
+    "vorname": "STEGMEIER",
+    "jahre": [],
+    "ordner": "BAUMBERGER_STEGMEIER"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/BAUMBERGER_STEGMEIER",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 2,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "BAUMBERGER STEGMEIER",
+  "stand": "2026-07-02T21:06:40"
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "Artigas_Vilanova",
+  "architekt": {
+    "name": "Artigas Vilanova",
+    "nachname": "Artigas",
+    "vorname": "Vilanova",
+    "jahre": [],
+    "ordner": "Artigas_Vilanova"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Artigas_Vilanova",
+  "projekte": [
+    {
+      "raw": "Jau_Bus_Station_Brasilien_1973",
+      "ort": "Jau",
+      "projekt": "Bus Station Brasilien",
+      "jahre": [
+        "1973"
+      ],
+      "titel": "Jau Bus Station Brasilien 1973"
+    },
+    {
+      "raw": "San_Paulo_The Universitiy of Sao Paulo School of Architecture",
+      "ort": "San",
+      "projekt": "Paulo The Universitiy of Sao Paulo School of Architecture",
+      "jahre": [],
+      "titel": "San Paulo The Universitiy of Sao Paulo School of Architecture"
+    },
+    {
+      "raw": "Sao_Paulo_Fussballclub",
+      "ort": "Sao",
+      "projekt": "Paulo Fussballclub",
+      "jahre": [],
+      "titel": "Sao Paulo Fussballclub"
+    },
+    {
+      "raw": "Sao_Paulo_Porto_Haus",
+      "ort": "Sao",
+      "projekt": "Paulo Porto Haus",
+      "jahre": [],
+      "titel": "Sao Paulo Porto Haus"
+    },
+    {
+      "raw": "Sao_Paulo_Tennis_Club",
+      "ort": "Sao",
+      "projekt": "Paulo Tennis Club",
+      "jahre": [],
+      "titel": "Sao Paulo Tennis Club"
+    },
+    {
+      "raw": "Sao_Paulo_Yacht_Club",
+      "ort": "Sao",
+      "projekt": "Paulo Yacht Club",
+      "jahre": [],
+      "titel": "Sao Paulo Yacht Club"
+    }
+  ],
+  "projekt_anzahl": 6,
+  "inventar": {
+    "bilder": 45,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 46
+  },
+  "dateitypen": {
+    ".jpg": 21,
+    ".tif": 15,
+    ".png": 6,
+    ".tiff": 3,
+    ".docx": 1
+  },
+  "textauszug": "Die Moderne (in Brasilien) baut Ruinen.",
+  "embed_doc": "Artigas Vilanova | Jau Bus Station Brasilien 1973 | San Paulo The Universitiy of Sao Paulo School of Architecture | Sao Paulo Fussballclub | Sao Paulo Porto Haus | Sao Paulo Tennis Club | Sao Paulo Yacht Club | Die Moderne (in Brasilien) baut Ruinen.",
+  "stand": "2026-07-02T21:05:53"
+}

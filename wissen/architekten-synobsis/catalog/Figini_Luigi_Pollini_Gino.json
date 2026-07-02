@@ -1,0 +1,34 @@
+{
+  "slug": "Figini_Luigi_Pollini_Gino",
+  "architekt": {
+    "name": "Figini Luigi Pollini Gino",
+    "nachname": "Figini",
+    "vorname": "Luigi Pollini Gino",
+    "jahre": [],
+    "ordner": "Figini_Luigi_Pollini_Gino"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Figini_Luigi_Pollini_Gino",
+  "projekte": [
+    {
+      "raw": "Mailand_Albergo_e_abitazioni_Largo_Augusto_Zona_Centro_storico",
+      "ort": "Mailand",
+      "projekt": "Albergo e abitazioni Largo Augusto Zona Centro storico",
+      "jahre": [],
+      "titel": "Mailand Albergo e abitazioni Largo Augusto Zona Centro storico"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 13,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 13
+  },
+  "dateitypen": {
+    ".jpg": 13
+  },
+  "textauszug": "",
+  "embed_doc": "Figini Luigi Pollini Gino | Mailand Albergo e abitazioni Largo Augusto Zona Centro storico",
+  "stand": "2026-07-02T21:14:14"
+}

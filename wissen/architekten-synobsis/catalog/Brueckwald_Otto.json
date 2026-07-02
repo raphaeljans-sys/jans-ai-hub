@@ -1,0 +1,37 @@
+{
+  "slug": "Brueckwald_Otto",
+  "architekt": {
+    "name": "Brueckwald Otto",
+    "nachname": "Brueckwald",
+    "vorname": "Otto",
+    "jahre": [],
+    "ordner": "Brueckwald_Otto"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Brueckwald_Otto",
+  "projekte": [
+    {
+      "raw": "Bayreuth_Richard_Wagner_Festspielhaus_1872",
+      "ort": "Bayreuth",
+      "projekt": "Richard Wagner Festspielhaus",
+      "jahre": [
+        "1872"
+      ],
+      "titel": "Bayreuth Richard Wagner Festspielhaus 1872"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Brueckwald Otto | Bayreuth Richard Wagner Festspielhaus 1872",
+  "stand": "2026-07-02T21:09:26"
+}

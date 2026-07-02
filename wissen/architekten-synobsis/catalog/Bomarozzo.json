@@ -1,0 +1,26 @@
+{
+  "slug": "Bomarozzo",
+  "architekt": {
+    "name": "Bomarozzo",
+    "nachname": "Bomarozzo",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Bomarozzo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bomarozzo",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Bomarozzo",
+  "stand": "2026-07-02T21:08:56"
+}

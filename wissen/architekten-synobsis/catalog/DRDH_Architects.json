@@ -1,0 +1,34 @@
+{
+  "slug": "DRDH_Architects",
+  "architekt": {
+    "name": "DRDH Architects",
+    "nachname": "DRDH",
+    "vorname": "Architects",
+    "jahre": [],
+    "ordner": "DRDH_Architects"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/DRDH_Architects",
+  "projekte": [
+    {
+      "raw": "DRDH",
+      "ort": "DRDH",
+      "projekt": "DRDH",
+      "jahre": [],
+      "titel": "DRDH"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 9
+  },
+  "textauszug": "",
+  "embed_doc": "DRDH Architects | DRDH DRDH",
+  "stand": "2026-07-02T21:12:27"
+}

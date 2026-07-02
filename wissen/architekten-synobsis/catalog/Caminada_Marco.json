@@ -1,0 +1,50 @@
+{
+  "slug": "Caminada_Marco",
+  "architekt": {
+    "name": "Caminada Marco",
+    "nachname": "Caminada",
+    "vorname": "Marco",
+    "jahre": [],
+    "ordner": "Caminada_Marco"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Caminada_Marco",
+  "projekte": [
+    {
+      "raw": "14HS",
+      "ort": "14HS",
+      "projekt": "14HS",
+      "jahre": [],
+      "titel": "14HS"
+    },
+    {
+      "raw": "15FS_Diplom",
+      "ort": "15FS",
+      "projekt": "Diplom",
+      "jahre": [],
+      "titel": "15FS Diplom"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 5,
+    "cad": 1,
+    "andere": 15,
+    "total": 30
+  },
+  "dateitypen": {
+    ".psd": 11,
+    ".pdf": 5,
+    ".jpg": 5,
+    ".png": 2,
+    ".tif": 2,
+    ".pln": 1,
+    ".06 kopie_39_at": 1,
+    ".39_at": 1,
+    ".39_at kopie": 1,
+    ".dwg": 1
+  },
+  "textauszug": "VECTORWORKS EDUCATIONAL VERSION VECTORWORKS EDUCATIONAL VERSION ETH Zürich, Professur für Architektur und Konstruktion, Prof. Peter Märkli / Prof. Markus Peter Assistenten: Felix Krüttli, Johann Reble, Andrea Ringli, Elisabeth Rutz HS 14Wohnhochhäuser in der Stadt1. ZwischenkritikDienstag, 7. Oktober 20149hAmportDesiréeThurgauerstrasse1GavaAlessandraThurgauerstrasse2KrättliNicolòThurgauerstrasse1ThurnherrDominikThurgauerstrasse2AthanassoglouAlexanderThurgauerstrasse1HäniCarlaLetzi1IcözLâraLetzi2VrolixsMélissaLetzi3WetliAnoukLetzi4JulenJuliaLetzi513hMauleFloraThurgauerstrasse2SciutoLaraThurgauerstrasse1BurnandLaurentThurgauerstrasse2DästerManuelThurgauerstrasse1MeisterMarianneThurgauerstrasse2VoglerOliverLetzi1ChevremontPierreLetzi2InauenNicoleLetzi3SchneebergerManuelaLetzi4WältiSimonLetzi518hBolligerBasilThurgauerstrasse1GuntiMichaelThurgauerstrasse2LergierManuelThurgauerstrasse1TraberNoahThurgauerstrasse2DavySörenThurgauerstrasse1HuberNicoleThurgauerstrasse2Mittwoch, 8. Oktober 20149hStadlinGabrielLetzi1VollmeierEliasLetzi2RiederBlancaLetzi3JeitzinerMarcLetzi4EichmüllerMaraLetzi5TscherrigRainerThurgauerstrasse2FinkJakobThurgauerstrasse1CaminadaMarcoThurgauerstrasse2SpielmannNadineThurgauerstrasse1ZollingerJaninaThurgauerstrasse213hPestoniChiaraLetzi1RessnigSébastienLetzi2ComettiLucianaLetzi3DonatiLorenzaLetzi4FührerLejaLetzi5SuterDeborahThurgauerstrasse1ChengBoThurgauerstrasse2KriegTobiasThurgauerstrasse1NiggSaraThurgauerstrasse2MaibachManuelThurgauerstrasse118hCheungSimonLetzi1KleineLeoLetzi2SchniderFabianLetzi3ZempYasmineLetzi4SchneiderSelinLetzi5FederliSarahLetzi1",
+  "embed_doc": "Caminada Marco | 14HS 14HS | 15FS Diplom | VECTORWORKS EDUCATIONAL VERSION VECTORWORKS EDUCATIONAL VERSION ETH Zürich, Professur für Architektur und Konstruktion, Prof. Peter Märkli / Prof. Markus Peter Assistenten: Felix Krüttli, Johann Reble, Andrea Ringli, Elisabeth Rutz HS 14Wohnhochhäuser in der Stadt1. ZwischenkritikDienstag, 7. Oktober 20149hAmportDesiréeThurgauerstrasse1GavaAlessandraThurgauerstrasse2KrättliNicolòThurgauerstrasse1ThurnherrDominikThurgauerstrasse2AthanassoglouAlexanderThurgauerstrasse1HäniCarlaLetzi1IcözLâraLetzi2VrolixsMélissaLetzi3WetliAnoukLetzi4JulenJuliaLetzi513hMauleFloraThurgauerstrasse2SciutoLaraThurgauerstrasse1BurnandLaurentThurgauerstrasse2DästerManuelThurgauerstrasse1MeisterMarianneThurgauerstrasse2VoglerOliverLetzi1ChevremontPierreLetzi2InauenNicoleLetzi3SchneebergerManuelaLetzi4WältiSimonLetzi518hBolligerBasilThurgauerstrasse1GuntiMichaelThurgauerstrasse2LergierManuelThurgauerstrasse1TraberNoahThurgauerstrasse2DavySörenThurgauerstrasse1HuberNicoleThurgauerstrasse2Mittwoch, 8. Oktober 20149hStadlinGabrielLetzi1VollmeierEliasLetzi2RiederBlancaLetzi3JeitzinerMarcLetzi4EichmüllerMaraLetzi5TscherrigRainerThurgauerstrasse2FinkJakobThurgauerstrasse1CaminadaMarcoThurgauerstrasse2SpielmannNadineThurgauerstrasse1ZollingerJaninaThurgauerstrasse213hPestoniChiaraLetzi1RessnigSébastienLetzi2ComettiLucianaLetzi3DonatiLorenzaLetzi4FührerLejaLetzi5SuterDeborahThurgauerstrasse1ChengBoThurgauerstrasse2KriegTobiasThurgauerstrasse1NiggSaraThurgauerstrasse2MaibachManuelThurgauerstrasse118hCheungSimonLetzi1KleineLeoLetzi2SchniderFabianLetzi3ZempYasmineLetzi4SchneiderSelinLetzi5FederliSarahLetzi1",
+  "stand": "2026-07-02T21:10:28"
+}

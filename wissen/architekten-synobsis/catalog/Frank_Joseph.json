@@ -1,0 +1,32 @@
+{
+  "slug": "Frank_Joseph",
+  "architekt": {
+    "name": "Frank Joseph",
+    "nachname": "Frank",
+    "vorname": "Joseph",
+    "jahre": [],
+    "ordner": "Frank_Joseph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Frank_Joseph",
+  "projekte": [
+    {
+      "raw": "die_Alternative_Moderne_Wien_Mustersiedlung",
+      "ort": "die",
+      "projekt": "Alternative Moderne Wien Mustersiedlung",
+      "jahre": [],
+      "titel": "die Alternative Moderne Wien Mustersiedlung"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Frank Joseph | die Alternative Moderne Wien Mustersiedlung",
+  "stand": "2026-07-02T21:14:49"
+}

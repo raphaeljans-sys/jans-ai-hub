@@ -1,0 +1,74 @@
+{
+  "slug": "Fathy_Hassan",
+  "architekt": {
+    "name": "Fathy Hassan",
+    "nachname": "Fathy",
+    "vorname": "Hassan",
+    "jahre": [],
+    "ordner": "Fathy_Hassan"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fathy_Hassan",
+  "projekte": [
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Lehre",
+      "ort": "02",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "02 Lehre"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Forschung",
+      "ort": "05",
+      "projekt": "Forschung",
+      "jahre": [],
+      "titel": "05 Forschung"
+    },
+    {
+      "raw": "06_Texte",
+      "ort": "06",
+      "projekt": "Texte",
+      "jahre": [],
+      "titel": "06 Texte"
+    },
+    {
+      "raw": "07_Berichte",
+      "ort": "07",
+      "projekt": "Berichte",
+      "jahre": [],
+      "titel": "07 Berichte"
+    }
+  ],
+  "projekt_anzahl": 7,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Fathy Hassan | 01 Projekte | 02 Lehre | 03 Ausstellungen | 04 Literatur | 05 Forschung | 06 Texte | 07 Berichte",
+  "stand": "2026-07-02T21:14:10"
+}

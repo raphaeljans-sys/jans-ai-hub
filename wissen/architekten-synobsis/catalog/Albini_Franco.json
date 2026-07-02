@@ -1,0 +1,28 @@
+{
+  "slug": "Albini_Franco",
+  "architekt": {
+    "name": "Albini Franco",
+    "nachname": "Albini",
+    "vorname": "Franco",
+    "jahre": [],
+    "ordner": "Albini_Franco"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Albini_Franco",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpeg": 7,
+    ".gif": 1,
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Albini Franco",
+  "stand": "2026-07-02T21:05:35"
+}

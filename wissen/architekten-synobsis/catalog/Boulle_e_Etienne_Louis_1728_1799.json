@@ -1,0 +1,45 @@
+{
+  "slug": "Boulle_e_Etienne_Louis_1728_1799",
+  "architekt": {
+    "name": "Boullée Etienne Louis 1728 1799",
+    "nachname": "Boullée",
+    "vorname": "Etienne Louis",
+    "jahre": [
+      "1728",
+      "1799"
+    ],
+    "ordner": "Boullée_Etienne_Louis_1728_1799"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Boullée_Etienne_Louis_1728_1799",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Nationalbibliothek",
+      "ort": "Nationalbibliothek",
+      "projekt": "Nationalbibliothek",
+      "jahre": [],
+      "titel": "Nationalbibliothek"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 12
+  },
+  "dateitypen": {
+    ".jpg": 11,
+    ".pdf": 1
+  },
+  "textauszug": "Ledoux, Claude Nicolas. Paris, Zollhaus von Enfer (Place Denfert-Rochereau), 1784 bis 1789. Boulée, Etienne Louis. Kenotaph (Ehrengrabmahl) für Newton, Projekt, 1784. Freitag, 12. März 2010",
+  "embed_doc": "Boullée Etienne Louis 1728 1799 | 00 Architekten | Nationalbibliothek Nationalbibliothek | Ledoux, Claude Nicolas. Paris, Zollhaus von Enfer (Place Denfert-Rochereau), 1784 bis 1789. Boulée, Etienne Louis. Kenotaph (Ehrengrabmahl) für Newton, Projekt, 1784. Freitag, 12. März 2010",
+  "stand": "2026-07-02T21:09:02"
+}

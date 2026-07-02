@@ -1,0 +1,27 @@
+{
+  "slug": "Arbeitsgruppe_4",
+  "architekt": {
+    "name": "Arbeitsgruppe 4",
+    "nachname": "Arbeitsgruppe",
+    "vorname": "4",
+    "jahre": [],
+    "ordner": "Arbeitsgruppe_4"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Arbeitsgruppe_4",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 3,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Arbeitsgruppe 4",
+  "stand": "2026-07-02T21:05:48"
+}

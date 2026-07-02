@@ -1,0 +1,59 @@
+# INDEX — Kurzdossiers der kuratierten Architekten
+
+Stand: 2026-07-02, Erstausgabe mit 55 von 853 Ordnern (Chargen A bis Ba). Eine Zeile pro Ordner, alphabetisch. Zahlen aus dem Katalog (Projekte / Bilder / Dokumente). Einordnungen ohne Katalogbeleg sind mit (Einordnung) markiert.
+
+- **1 Selection** — Sammelordner ohne Architekt: kuratierte Best-of-Bibliothek nach Raumtypologien (fliessend, modular, zentral usw.), Grundrisse und Wettbewerbe; 14 Unterordner, 3360 Bilder, 582 Dokumente, 23 CAD.
+- **6a Architects** — Londoner Buero (Einordnung); Ordner fast leer, nur 1 Bild, keine Projekte, keine Dokumente.
+- **AASZ** — Schweizer Buero (Kuerzel ungeklaert) mit zwei ZH-Wettbewerben, Schulanlage Gockhausen und Luppmenpark Hittnau; 2 Projekte, 0 Bilder, 12 Dokumente inkl. Wettbewerbsplaene.
+- **Aalto_Alvar** — finnischer Hauptvertreter der humanen Moderne mit breitem Werkquerschnitt von Villa Mairea bis Finlandia-Halle plus Vitra-Ausstellungstext; 14 Projekte, 350 Bilder, 13 Dokumente.
+- **Aando_Tadao** — Schreibfehler-Ordner fuer Tadao Ando (Einordnung); fast leer, 2 Bilder, keine Projekte, keine Dokumente.
+- **Abraham_Raimund** — oesterreichisch-amerikanischer Architekt (Einordnung) mit einem Projektordner Haus der Musik; 1 Projekt, 10 Bilder, 0 Dokumente.
+- **Abril_Garcia_Anton** — Ensamble Studio Madrid mit Casa Hemeroscopium und ETH-Gastvortragsdossier; 1 Projekt, 15 Bilder, 2 Dokumente.
+- **Adam_Robert** — schottischer Klassizist mit London Piccadilly, Adelphi Terrace und Innenarchitektur-Material; 6 Projektordner, 34 Bilder, 1 Dokument.
+- **Adjaje_David** — Schreibfehler-Ordner fuer David Adjaye (Einordnung) mit Dachausbauten und Haus Swarovski; 2 Projekte, 10 Bilder, 0 Dokumente.
+- **Ai_Weiwei** — chinesischer Kuenstler-Architekt mit Atelierstadt China und Ordos 100 samt Teilnehmerliste Schweizer Bueros; 2 Projekte, 3 Bilder, 3 Dokumente.
+- **Aillaud** — vermutlich Emile Aillaud, franzoesischer Grosswohnungsbau (Einordnung); 14 Bilder ohne Projektstruktur, 0 Dokumente.
+- **Aires_Mateus_Associados** — portugiesisches Buero mit Wohnhaeusern Alentejo/Alenquer, Schulbau Barquinha und Patiohaus-Analyse; 5 Projektordner, 12 Bilder, 7 Dokumente.
+- **Alberti_Leon_Battista_1404_1472** — Fruehrenaissance-Theoretiker und Baumeister mit Sant Andrea, Santa Maria Novella, Palazzo Rucellai und Biografie-Material; 8 Projektordner, 146 Bilder, 44 Dokumente.
+- **Albini_Franco** — Mailaender Nachkriegsmoderner (Einordnung); nur 9 Bilder, keine Projekte, keine Dokumente.
+- **Alder_Michael** — Basler Architekt (Einordnung); fast leer, 2 Bilder, 1 Dokument, keine Projekte.
+- **Alessi_Alberto** — Zuercher Architekt und Publizist mit Landesmuseum-Wettbewerb 2000 und ETH-Wohnforschung zweite Lebenshaelfte; 0 Projektordner, 0 Bilder, 3 Dokumente.
+- **Alexander_Christoph** — Architekturtheoretiker Christopher Alexander (Pattern Language) mit generischer Ablagestruktur 00 bis 08 und Wikipedia-Dossier; 9 Strukturordner, 12 Bilder, 6 Dokumente.
+- **Alpago_Novello_Alberto** — italienischer Architekt (Einordnung); fast leer, 4 Bilder, keine Projekte, keine Dokumente.
+- **Althammer_Hochueli_Architekten** — Zuercher Buero mit Wohnsiedlung Guggach; 1 Projekt, 12 Bilder, 1 Dokument.
+- **Althaus_Architekten** — Schweizer Buero mit Projekt CASAPPELLA Worblaufen 2007 bis 09; 1 Projekt, 5 Bilder, 0 Dokumente.
+- **Andreani_Aldo** — Mailaender Palazzo-Architekt zwischen Novecento und Rationalismus, Quellenmaterial aus der Lehre Christ und Gantenbein; 1 Projektordner, 10 Bilder, 2 Dokumente.
+- **Angelil_Marc** — ETH-Professor mit Studio-Material Basel und Vordiplomen sowie Baukosten-Diskurs Stadt Zuerich; 2 Projektordner, 1 Bild, 15 Dokumente.
+- **Anshelm_Klas** — schwedischer Architekt mit Malmö Konsthall und Kunsthalle Lund, reich bebildert; 2 Projekte, 134 Bilder, 1 Dokument.
+- **Antonakakis_Dimitris_Susana** — griechisches Architektenpaar (Atelier 66, Einordnung) mit Bildserie Hydra; 2 Ordner, 41 Bilder, 0 Dokumente.
+- **Arbeitsgruppe_4** — oesterreichische Nachkriegsgruppe (Einordnung); fast leer, 3 Bilder, 1 Dokument, keine Projekte.
+- **Archifactory** — deutsches Buero mit Ebeling House; 1 Projekt, 6 Bilder, 0 Dokumente.
+- **Archigram** — britische Avantgarde-Gruppe (Einordnung); nur leere Ablagestruktur 00 bis 07 mit 1 Dokument, 0 Bilder.
+- **Architekturfabrik** — ungeklaerter Ordner mit einem Plansatz Europaallee Zuerich (Retail und Grossraumbuero); 0 Projekte, 0 Bilder, 1 Dokument.
+- **Arminio_Cristofari_1883-1957** — Zuercher Architekt des Mythenschlosses am Mythenquai 1925 bis 27, Slug in Vorname-Nachname-Reihenfolge; 0 Projektordner, 0 Bilder, 1 Dokument.
+- **Artigas_Vilanova** — brasilianischer Paulista-Architekt mit FAU Sao Paulo, Busstation Jau und Klubbauten; 6 Projekte, 45 Bilder, 1 Dokument.
+- **Ashbee_Charles_Robert** — englischer Arts-and-Crafts-Architekt und Kunsthandwerker mit Info-, Moebel- und Kunstordnern; 5 Ordner, 9 Bilder, 1 Dokument.
+- **Asnago_e_Vender** — Mailaender Duo mit der dichtesten Projektsammlung der Charge, 19 adressgenaue Wohn- und Geschaeftshaeuser plus gta-Literatur; 19 Projekte, 53 Bilder, 210 Dokumente.
+- **Asplund_Gunnar_1885_1940** — schwedischer Weg vom nordischen Klassizismus zur Moderne, Stadtbibliothek und Waldfriedhof Stockholm; 9 Projekte, 129 Bilder, 30 Dokumente.
+- **Atelier5** — Berner Buero, belegt nur mit Wettbewerb Gemeindezentrum Frankfurt Riedberg (1. Preis 2008); 0 Projektordner, 0 Bilder, 2 Dokumente.
+- **Atkinson_Robert_1883_1952** — britischer Architekt mit Oslo Court am Regent's Park London; 1 Projekt, 6 Bilder, 0 Dokumente.
+- **Azzola_Durrisch_Architekten** — Schweizer Buero (korrekt wohl Azzola Durisch) mit TEC21-Wettbewerbsberichten Baden; 0 Projektordner, 2 Bilder, 1 Dokument.
+- **BAUMBERGER_STEGMEIER** — Zuercher Wohnbaubuero (Einordnung), Slug in Grossbuchstaben; fast leer, 3 Bilder, keine Projekte, keine Dokumente.
+- **BBPR** — Mailaender Gruppe mit Torre Velasca, Castello-Sforzesco-Museum und Theorietexten, enthaelt Ordner 00 unklar; 7 Projektordner, 30 Bilder, 48 Dokumente.
+- **BIQ_Architekten** — Buero ungeklaert (BIQ Stadsontwerp Rotterdam?, Einordnung); nur Literaturordner, 2 Bilder, 2 Dokumente.
+- **Bachem_Joseph** — Kirchenbauer mit St Martin Berlin-Kaulsdorf; 1 Projekt, 1 Bild, 0 Dokumente.
+- **Back_Lukas** — umfangreichste Einzelablage der Charge mit Schulprojekten Muenchenstein und Sissach, PLA- und best-Ordnern, wirkt wie eigene Arbeits- oder Studiensammlung; 6 Ordner, 845 Bilder, 72 Dokumente, 9 CAD.
+- **Balisat** — komplett leerer Ordner, 0 Dateien; Zuordnung offen.
+- **Ballmoos_Krucker** — Zuercher Wohnbaubuero mit Triemli, Heiligenfeld und Badenerstrasse 709 plus Hornbach-Wettbewerbsbericht; 4 Ordner, 25 Bilder, 4 Dokumente.
+- **Ban_Shigeru** — japanischer Architekt mit Curtain Wall House, Centre Pompidou Metz und Tamedia Zuerich inkl. Wohnhaus-Analysedossier; 5 Projekte, 65 Bilder, 2 Dokumente.
+- **Barkow_Leibinger** — Berliner Buero mit Wohnhochhaus Alexanderplatz und Material-/Fabrikationsprofil; 2 Ordner, 2 Bilder, 2 Dokumente.
+- **Barragan_Luis_Morfin** — mexikanischer Pritzker-Preistraeger mit Haus Barragan 1947 und Biografie-Dossier; 1 Projekt, 2 Bilder, 1 Dokument.
+- **Barrozi_Veira** — Schreibfehler-Ordner fuer Barozzi Veiga mit Wettbewerbssieg Kunsthaus Chur; 2 Ordner, 3 Bilder, 3 Dokumente.
+- **Bartning_Otto** — deutscher Kirchenbau-Pionier mit Stahlkirche und Auferstehungskirche Pforzheim; 3 Ordner, 22 Bilder, 1 Dokument.
+- **Baudot_Anatole** — franzoesischer Eisenbeton-Pionier mit St Jean de Montmartre und Galerie des Machines; 4 Ordner, 21 Bilder, 0 Dokumente.
+- **Baumann_Ludwig** — komplett leerer Ordner, 0 Dateien; vermutlich Wiener Ringstrassen-Architekt (Einordnung).
+- **Baumann_Povel** — fast leerer Ordner, 3 Bilder; Name und Zuordnung ungeklaert.
+- **Baumgartner_Hindermann** — Basler Duo der Baumgartnerhaeuser 1926 bis 38 mit Blockrand- und Wohnungstyp-Analysen; 1 Projekt, 0 Bilder, 9 Dokumente.
+- **Baumschlager_Eberle_Lochau** — Vorarlberger Buero mit ETH Hoenggerberg, Ruggaechern und Low-Tech-Ziegelbau-Interview; 4 Projekte, 61 Bilder, 2 Dokumente.
+- **Bawa Cheffrey** — Schreibfehler-Ordner fuer Geoffrey Bawa (Einordnung), Slug mit Leerzeichen; fast leer, 3 Bilder, 1 Dokument.
+- **Bazzani_Cesare** — italienischer Architekt der Galleria Nazionale d'arte moderna Rom 1911; 1 Projekt, 1 Bild, 0 Dokumente.

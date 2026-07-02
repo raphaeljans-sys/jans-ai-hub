@@ -1,0 +1,24 @@
+{
+  "slug": "Balisat",
+  "architekt": {
+    "name": "Balisat",
+    "nachname": "Balisat",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Balisat"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Balisat",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Balisat",
+  "stand": "2026-07-02T21:07:10"
+}

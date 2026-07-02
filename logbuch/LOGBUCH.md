@@ -7,6 +7,16 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-02
 
+- **HUB-CHEF-HARNESS GEBAUT (Autonomie Stufe 3 autorisiert):** Raphael hat per Spec-Interview
+  drei Schluesselentscheide bestaetigt — (1) alle vier Services produktisieren
+  (Machbarkeits-Studio, Immobilienbewertung, Ankaufspruefung/TDD, Bauleitungs-Backend →
+  `services/KATALOG.md`), (2) Autonomie **Stufe 3** mit Aktions-Whitelist
+  (`logbuch/AKTIONS-WHITELIST.md` v1: A1 Mahnstufe 1 mit Guards versandberechtigt, A2 Kalender,
+  A3 Ablage, A4 Register, A5 Drafts; Geld/Buchungen/Loeschen IMMER verboten), (3) **Hub-Chef
+  taeglich** als Dach-Orchestrator (Skill `skills/hub-chef/SKILL.md`, Loop `hub-chef-taeglich`
+  08:35 auf dem MacBook Pro, konsolidiert alle Morgen-Loops zu EINEM Briefing mit fertigen
+  Entwuerfen). Spec: `wissen/spec/outputs/2026-07-02_hub-chef-harness_spec.md`. CHECKPOINT:
+  Raphael reviewt Whitelist + erstes Briefing am 03.07.
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 09.07.)
   und Mail-Eingang (seit 01.07. 17:00) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
   Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.

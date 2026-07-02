@@ -10,6 +10,10 @@ sauber abbrechen und melden, nichts schreiben.
      (Taxonomie, Inventar, Text aus PDF/DOCX) -> Katalog + documents.jsonl.
    - Stufe 2: Vektorindex neu bauen (falls venv `~/.venvs/synobsis` vorhanden).
 2. Fortschritt steht in `state/processed.json`; Protokoll in `outputs/batch.log`.
+2b. Stufe 3 (Kuratierung, nur wenn der Lauf von Claude gefuehrt wird, nicht via
+   launchd): die in diesem Lauf neu gescannten Architekten aus `catalog/` lesen
+   und ins thematische Register `wiki/THEMEN.md` + `wiki/INDEX.md` einsortieren
+   (Schema siehe CLAUDE.md Stufe 3). Luecken nach `wiki/QUESTIONS.md`.
 3. Wenn alle 853 verarbeitet sind, meldet der Scan "nichts zu tun" — danach dient
    der Lauf der Aktualisierung (geaenderte/neue Architekten via `--reindex` bei Bedarf).
 4. Sichern: NAS-Repo committen+pushen gemaess Rule `sync-kanonische-quelle.md`

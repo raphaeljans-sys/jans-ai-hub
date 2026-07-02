@@ -1,0 +1,26 @@
+{
+  "slug": "Chiattone_Mario",
+  "architekt": {
+    "name": "Chiattone Mario",
+    "nachname": "Chiattone",
+    "vorname": "Mario",
+    "jahre": [],
+    "ordner": "Chiattone_Mario"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Chiattone_Mario",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Chiattone Mario",
+  "stand": "2026-07-02T21:11:54"
+}

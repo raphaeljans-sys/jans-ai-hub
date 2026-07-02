@@ -1,0 +1,34 @@
+{
+  "slug": "Beel_Stephane",
+  "architekt": {
+    "name": "Beel Stephane",
+    "nachname": "Beel",
+    "vorname": "Stephane",
+    "jahre": [],
+    "ordner": "Beel_Stephane"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Beel_Stephane",
+  "projekte": [
+    {
+      "raw": "Roger_Raveel_Museum",
+      "ort": "Roger",
+      "projekt": "Raveel Museum",
+      "jahre": [],
+      "titel": "Roger Raveel Museum"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 12
+  },
+  "dateitypen": {
+    ".jpg": 12
+  },
+  "textauszug": "",
+  "embed_doc": "Beel Stephane | Roger Raveel Museum",
+  "stand": "2026-07-02T21:08:25"
+}

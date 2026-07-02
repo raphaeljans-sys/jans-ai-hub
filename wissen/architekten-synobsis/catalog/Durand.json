@@ -1,0 +1,34 @@
+{
+  "slug": "Durand",
+  "architekt": {
+    "name": "Durand",
+    "nachname": "Durand",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Durand"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Durand",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".pdf": 3
+  },
+  "textauszug": "Durand, Jean-Nicolas-Louis. Précis des leçons d‘architecture, Paris 1802–1805 (sowie zahlreiche weitere Auflagen). Freitag, 12. März 2010 «Eléments des édifices» «Combinaisons Verticales de colonnes, d’Arcades, de coutes, &c.» Treppenanlagen Portiken Freitag, 12. März 2010 Durand, Jean-Nicolas-Louis. Recueil et parallèle des édifices de tout genre anciens et modernes, Paris 1800 Tf. 51: Maisons d‘Italie, par Palladio Freitag, 12. März 2010",
+  "embed_doc": "Durand | 00 Architekten | Durand, Jean-Nicolas-Louis. Précis des leçons d‘architecture, Paris 1802–1805 (sowie zahlreiche weitere Auflagen). Freitag, 12. März 2010 «Eléments des édifices» «Combinaisons Verticales de colonnes, d’Arcades, de coutes, &c.» Treppenanlagen Portiken Freitag, 12. März 2010 Durand, Jean-Nicolas-Louis. Recueil et parallèle des édifices de tout genre anciens et modernes, Paris 1800 Tf. 51: Maisons d‘Italie, par Palladio Freitag, 12. März 2010",
+  "stand": "2026-07-02T21:13:22"
+}

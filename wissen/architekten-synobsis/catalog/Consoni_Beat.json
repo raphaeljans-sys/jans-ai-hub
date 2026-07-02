@@ -1,0 +1,26 @@
+{
+  "slug": "Consoni_Beat",
+  "architekt": {
+    "name": "Consoni Beat",
+    "nachname": "Consoni",
+    "vorname": "Beat",
+    "jahre": [],
+    "ordner": "Consoni_Beat"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Consoni_Beat",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Consoni Beat",
+  "stand": "2026-07-02T21:12:24"
+}

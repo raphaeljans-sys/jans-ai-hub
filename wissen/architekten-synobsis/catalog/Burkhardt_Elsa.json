@@ -1,0 +1,26 @@
+{
+  "slug": "Burkhardt_Elsa",
+  "architekt": {
+    "name": "Burkhardt Elsa",
+    "nachname": "Burkhardt",
+    "vorname": "Elsa",
+    "jahre": [],
+    "ordner": "Burkhardt_Elsa"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Burkhardt_Elsa",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Burkhardt Elsa",
+  "stand": "2026-07-02T21:09:46"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "E_Architekten",
+  "architekt": {
+    "name": "E Architekten",
+    "nachname": "E",
+    "vorname": "Architekten",
+    "jahre": [],
+    "ordner": "E_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/E_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "E Architekten",
+  "stand": "2026-07-02T21:13:34"
+}

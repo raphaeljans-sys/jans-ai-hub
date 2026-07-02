@@ -1,0 +1,36 @@
+{
+  "slug": "Fo_rderer",
+  "architekt": {
+    "name": "Förderer",
+    "nachname": "Förderer",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Förderer"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Förderer",
+  "projekte": [
+    {
+      "raw": "St. Nicolas",
+      "ort": "St. Nicolas",
+      "projekt": "St. Nicolas",
+      "jahre": [],
+      "titel": "St. Nicolas"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 108,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 109
+  },
+  "dateitypen": {
+    ".jpg": 107,
+    ".png": 1,
+    ".db": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Förderer | St. Nicolas St. Nicolas",
+  "stand": "2026-07-02T21:14:47"
+}

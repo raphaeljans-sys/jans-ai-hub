@@ -1,0 +1,45 @@
+{
+  "slug": "Fissler_Friedrich",
+  "architekt": {
+    "name": "Fissler Friedrich",
+    "nachname": "Fissler",
+    "vorname": "Friedrich",
+    "jahre": [],
+    "ordner": "Fissler_Friedrich"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fissler_Friedrich",
+  "projekte": [
+    {
+      "raw": "Zuerich_Riedtlisiedlung_1911_1919",
+      "ort": "Zuerich",
+      "projekt": "Riedtlisiedlung",
+      "jahre": [
+        "1911",
+        "1919"
+      ],
+      "titel": "Zuerich Riedtlisiedlung 1911 1919"
+    },
+    {
+      "raw": "Zuerich_Wohnsiedlung_Limmmat_I",
+      "ort": "Zuerich",
+      "projekt": "Wohnsiedlung Limmmat I",
+      "jahre": [],
+      "titel": "Zuerich Wohnsiedlung Limmmat I"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 2,
+    "total": 5
+  },
+  "dateitypen": {
+    ".pdf": 3,
+    ".psd": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Fissler Friedrich | Zuerich Riedtlisiedlung 1911 1919 | Zuerich Wohnsiedlung Limmmat I",
+  "stand": "2026-07-02T21:14:41"
+}

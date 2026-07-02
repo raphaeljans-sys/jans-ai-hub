@@ -1,0 +1,36 @@
+{
+  "slug": "Boromini",
+  "architekt": {
+    "name": "Boromini",
+    "nachname": "Boromini",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Boromini"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Boromini",
+  "projekte": [
+    {
+      "raw": "Quatra_Fontana_Kirche_Rom",
+      "ort": "Quatra",
+      "projekt": "Fontana Kirche Rom",
+      "jahre": [],
+      "titel": "Quatra Fontana Kirche Rom"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 7,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 3,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 7,
+    ".psd": 3,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Boromini | Quatra Fontana Kirche Rom",
+  "stand": "2026-07-02T21:08:59"
+}

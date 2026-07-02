@@ -1,0 +1,35 @@
+{
+  "slug": "Berg_Max",
+  "architekt": {
+    "name": "Berg Max",
+    "nachname": "Berg",
+    "vorname": "Max",
+    "jahre": [],
+    "ordner": "Berg_Max"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Berg_Max",
+  "projekte": [
+    {
+      "raw": "Breslau_Jahrhunderthalle",
+      "ort": "Breslau",
+      "projekt": "Jahrhunderthalle",
+      "jahre": [],
+      "titel": "Breslau Jahrhunderthalle"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 2,
+    ".pdf": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Berg Max | Breslau Jahrhunderthalle",
+  "stand": "2026-07-02T21:08:36"
+}

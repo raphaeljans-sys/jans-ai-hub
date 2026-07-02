@@ -1,0 +1,78 @@
+{
+  "slug": "Celsing_Peter",
+  "architekt": {
+    "name": "Celsing Peter",
+    "nachname": "Celsing",
+    "vorname": "Peter",
+    "jahre": [],
+    "ordner": "Celsing_Peter"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Celsing_Peter",
+  "projekte": [
+    {
+      "raw": "00_Literatur",
+      "ort": "00",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "00 Literatur"
+    },
+    {
+      "raw": "00_unklar",
+      "ort": "00",
+      "projekt": "unklar",
+      "jahre": [],
+      "titel": "00 unklar"
+    },
+    {
+      "raw": "Arsta_Church",
+      "ort": "Arsta",
+      "projekt": "Church",
+      "jahre": [],
+      "titel": "Arsta Church"
+    },
+    {
+      "raw": "BENGT LINDROOS church",
+      "ort": "BENGT LINDROOS church",
+      "projekt": "BENGT LINDROOS church",
+      "jahre": [],
+      "titel": "BENGT LINDROOS church"
+    },
+    {
+      "raw": "Bank",
+      "ort": "Bank",
+      "projekt": "Bank",
+      "jahre": [],
+      "titel": "Bank"
+    },
+    {
+      "raw": "St_thomas_church",
+      "ort": "St",
+      "projekt": "thomas church",
+      "jahre": [],
+      "titel": "St thomas church"
+    },
+    {
+      "raw": "Stockholm_Kulturhuset_Plaza",
+      "ort": "Stockholm",
+      "projekt": "Kulturhuset Plaza",
+      "jahre": [],
+      "titel": "Stockholm Kulturhuset Plaza"
+    }
+  ],
+  "projekt_anzahl": 7,
+  "inventar": {
+    "bilder": 33,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 34
+  },
+  "dateitypen": {
+    ".jpg": 32,
+    ".pdf": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Celsing Peter | 00 Literatur | 00 unklar | Arsta Church | BENGT LINDROOS church BENGT LINDROOS church | Bank Bank | St thomas church | Stockholm Kulturhuset Plaza",
+  "stand": "2026-07-02T21:11:51"
+}

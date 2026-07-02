@@ -1,0 +1,43 @@
+{
+  "slug": "Antonakakis_Dimitris_Susana",
+  "architekt": {
+    "name": "Antonakakis Dimitris Susana",
+    "nachname": "Antonakakis",
+    "vorname": "Dimitris Susana",
+    "jahre": [],
+    "ordner": "Antonakakis_Dimitris_Susana"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Antonakakis_Dimitris_Susana",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "HYDRA_GREECE",
+      "ort": "HYDRA",
+      "projekt": "GREECE",
+      "jahre": [],
+      "titel": "HYDRA GREECE"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 41,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 41
+  },
+  "dateitypen": {
+    ".jpg": 39,
+    ".gif": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Antonakakis Dimitris Susana | 00 Architekten | HYDRA GREECE",
+  "stand": "2026-07-02T21:05:47"
+}

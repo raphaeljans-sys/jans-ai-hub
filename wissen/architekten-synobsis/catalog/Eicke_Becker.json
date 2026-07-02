@@ -1,0 +1,26 @@
+{
+  "slug": "Eicke_Becker",
+  "architekt": {
+    "name": "Eicke Becker",
+    "nachname": "Eicke",
+    "vorname": "Becker",
+    "jahre": [],
+    "ordner": "Eicke_Becker"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Eicke_Becker",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Eicke Becker",
+  "stand": "2026-07-02T21:13:43"
+}

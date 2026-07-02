@@ -1,0 +1,34 @@
+{
+  "slug": "Capponi_Giuseppe",
+  "architekt": {
+    "name": "Capponi Giuseppe",
+    "nachname": "Capponi",
+    "vorname": "Giuseppe",
+    "jahre": [],
+    "ordner": "Capponi_Giuseppe"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Capponi_Giuseppe",
+  "projekte": [
+    {
+      "raw": "Rom_Palazzina_al_Lungotevere",
+      "ort": "Rom",
+      "projekt": "Palazzina al Lungotevere",
+      "jahre": [],
+      "titel": "Rom Palazzina al Lungotevere"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".tif": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Capponi Giuseppe | Rom Palazzina al Lungotevere",
+  "stand": "2026-07-02T21:10:31"
+}

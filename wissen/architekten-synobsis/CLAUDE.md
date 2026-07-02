@@ -25,11 +25,23 @@ fuer die AI-Recherche durchsuchbar.
 ~/.venvs/pdftools/bin/python tools/synobsis_scan.py --status
 ```
 
+## Health-Check-Hinweis (Nicht-Standard-KB)
+Tool-/Katalog-KB ohne Wiki: der monatliche Wissenscheck prueft hier den
+Scan-Fortschritt (`--status`) und das `CHANGELOG.md` statt der 7 Standard-Audits.
+
 ## Stufen
 1. **Fundament** (jede Station, keine ML-Abhaengigkeit): Scan + Katalog +
    Stichwort-Suche. AKTIV.
 2. **Semantik** (nur Mac Mini): lokale Embeddings -> echte Aehnlichkeits-Suche.
    Einrichtung siehe `RUNBOOK-MAC-MINI.md`.
+3. **Kuratierung** (Modell-Stufe, Claude/Fable): verdichtet neue Katalog-Eintraege
+   zu einem thematischen Register `wiki/THEMEN.md` (Typologie, Material, Region,
+   Epoche, Haltung je Architekt) plus Kurzdossier-Zeile im `wiki/INDEX.md`.
+   Laeuft je Charge NACH Stufe 1, kompoundierend: neue Architekten werden in die
+   bestehenden Themenkapitel einsortiert, nie das Register neu erfunden.
+   Quelle sind ausschliesslich Katalog-Daten (Ordnernamen `Ort_Projekt_Jahr`,
+   extrahierte PDF/DOCX-Texte) — nichts erfinden, Wissensluecken als offene
+   Fragen in `wiki/QUESTIONS.md` vermerken.
 
 ## Betrieb
 Alternierender Batch-Lauf auf dem Mac Mini (immer-an, direkter NAS-Zugriff) via

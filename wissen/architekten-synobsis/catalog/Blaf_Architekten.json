@@ -1,0 +1,26 @@
+{
+  "slug": "Blaf_Architekten",
+  "architekt": {
+    "name": "Blaf Architekten",
+    "nachname": "Blaf Architekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Blaf Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Blaf Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Blaf Architekten",
+  "stand": "2026-07-02T21:08:47"
+}

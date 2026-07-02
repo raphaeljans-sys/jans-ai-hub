@@ -1,0 +1,26 @@
+{
+  "slug": "Baumann_Povel",
+  "architekt": {
+    "name": "Baumann Povel",
+    "nachname": "Baumann",
+    "vorname": "Povel",
+    "jahre": [],
+    "ordner": "Baumann_Povel"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Baumann_Povel",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Baumann Povel",
+  "stand": "2026-07-02T21:07:19"
+}

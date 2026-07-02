@@ -1,0 +1,51 @@
+{
+  "slug": "Fiechter_Salzmann",
+  "architekt": {
+    "name": "Fiechter Salzmann",
+    "nachname": "Fiechter",
+    "vorname": "Salzmann",
+    "jahre": [],
+    "ordner": "Fiechter_Salzmann"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fiechter_Salzmann",
+  "projekte": [
+    {
+      "raw": "Ballwil_Schulhaus",
+      "ort": "Ballwil",
+      "projekt": "Schulhaus",
+      "jahre": [],
+      "titel": "Ballwil Schulhaus"
+    },
+    {
+      "raw": "Gespraeche",
+      "ort": "Gespraeche",
+      "projekt": "Gespraeche",
+      "jahre": [],
+      "titel": "Gespraeche"
+    },
+    {
+      "raw": "Studentenarbeiten",
+      "ort": "Studentenarbeiten",
+      "projekt": "Studentenarbeiten",
+      "jahre": [],
+      "titel": "Studentenarbeiten"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 7,
+    ".png": 1,
+    ".pdf": 1,
+    ".tif": 1
+  },
+  "textauszug": "21.02.12 16:53Hochparterre Bücher | Veranstaltungen Seite 1 von 1http://www.hochparterre-buecher.ch/veranstaltungen/ Fiechter & Salzmann zum Lorbeerkränzchen geladen 15.03.2012, 19:00 Hochparterre Bücher, Gasometerstrasse 28, 8005 Zürich Zum 19. Lorbeerkränzchen, dem Gespräch zum Architekturwettbewerb, sind die «Kollhoffianerin» Caroline Fiechter und der «Dudlerist» René Salzmann geladen. Šik, Kollhoff und Dudler – das waren die Stationen bis das Team als Fiechter & Salzmann Architekten erfolgreich wurde. Bisher hat das Büro erst wenig gebaut, doch nun gewinnt es wieder zwei Wettbewerbe. Und die Schule in Ballwil ist im Sommer fertig gebaut. «Wir machen das, was wir gelernt haben.» Um ihre Entwurfswelt zu beschreiben, fallen Worte wie Detaillierungsgrad, Präzision, Strenge und Gliederung. Und sie wenden viel Zeit für Fassaden auf. Am Gespräch werden sie mit hochparterre.wettbewerbe-Redaktor Ivo Bösch über Büro, Projekte und Wettbewerbserfolge reden. 1/1 Buchhandlung für Architektur Kunst und Design | Gasometerstrasse 28 | 8005 Zürich | info@hochparterre-buecher.ch",
+  "embed_doc": "Fiechter Salzmann | Ballwil Schulhaus | Gespraeche Gespraeche | Studentenarbeiten Studentenarbeiten | 21.02.12 16:53Hochparterre Bücher | Veranstaltungen Seite 1 von 1http://www.hochparterre-buecher.ch/veranstaltungen/ Fiechter & Salzmann zum Lorbeerkränzchen geladen 15.03.2012, 19:00 Hochparterre Bücher, Gasometerstrasse 28, 8005 Zürich Zum 19. Lorbeerkränzchen, dem Gespräch zum Architekturwettbewerb, sind die «Kollhoffianerin» Caroline Fiechter und der «Dudlerist» René Salzmann geladen. Šik, Kollhoff und Dudler – das waren die Stationen bis das Team als Fiechter & Salzmann Architekten erfolgreich wurde. Bisher hat das Büro erst wenig gebaut, doch nun gewinnt es wieder zwei Wettbewerbe. Und die Schule in Ballwil ist im Sommer fertig gebaut. «Wir machen das, was wir gelernt haben.» Um ihre Entwurfswelt zu beschreiben, fallen Worte wie Detaillierungsgrad, Präzision, Strenge und Gliederung. Und sie wenden viel Zeit für Fassaden auf. Am Gespräch werden sie mit hochparterre.wettbewerbe-Redaktor Ivo Bösch über Büro, Projekte und Wettbewerbserfolge reden. 1/1 Buchhandlung für Architektur Kunst und Design | Gasometerstrasse 28 | 8005 Zürich | info@hochparterre-buecher.ch",
+  "stand": "2026-07-02T21:14:14"
+}

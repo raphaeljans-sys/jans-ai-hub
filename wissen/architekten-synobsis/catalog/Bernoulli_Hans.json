@@ -1,0 +1,50 @@
+{
+  "slug": "Bernoulli_Hans",
+  "architekt": {
+    "name": "Bernoulli Hans",
+    "nachname": "Bernoulli",
+    "vorname": "Hans",
+    "jahre": [],
+    "ordner": "Bernoulli_Hans"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bernoulli_Hans",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "Basel_Vogelsang_1925",
+      "ort": "Basel",
+      "projekt": "Vogelsang",
+      "jahre": [
+        "1925"
+      ],
+      "titel": "Basel Vogelsang 1925"
+    },
+    {
+      "raw": "Zuerich_Hardturmstrasse",
+      "ort": "Zuerich",
+      "projekt": "Hardturmstrasse",
+      "jahre": [],
+      "titel": "Zuerich Hardturmstrasse"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Bernoulli Hans | Architekt Architekt | Basel Vogelsang 1925 | Zuerich Hardturmstrasse",
+  "stand": "2026-07-02T21:08:38"
+}

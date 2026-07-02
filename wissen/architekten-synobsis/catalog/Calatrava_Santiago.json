@@ -1,0 +1,32 @@
+{
+  "slug": "Calatrava_Santiago",
+  "architekt": {
+    "name": "Calatrava Santiago",
+    "nachname": "Calatrava",
+    "vorname": "Santiago",
+    "jahre": [],
+    "ordner": "Calatrava_Santiago"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Calatrava_Santiago",
+  "projekte": [
+    {
+      "raw": "00_Ingenieur",
+      "ort": "00",
+      "projekt": "Ingenieur",
+      "jahre": [],
+      "titel": "00 Ingenieur"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Calatrava Santiago | 00 Ingenieur",
+  "stand": "2026-07-02T21:10:24"
+}

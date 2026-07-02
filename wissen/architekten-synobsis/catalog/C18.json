@@ -1,0 +1,26 @@
+{
+  "slug": "C18",
+  "architekt": {
+    "name": "C18",
+    "nachname": "C18",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "C18"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/C18",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "C18",
+  "stand": "2026-07-02T21:10:22"
+}

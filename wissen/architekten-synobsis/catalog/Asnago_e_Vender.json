@@ -1,0 +1,176 @@
+{
+  "slug": "Asnago_e_Vender",
+  "architekt": {
+    "name": "Asnago e Vender",
+    "nachname": "Asnago",
+    "vorname": "e Vender",
+    "jahre": [],
+    "ordner": "Asnago_e_Vender"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Asnago_e_Vender",
+  "projekte": [
+    {
+      "raw": "00_Allgemeine_Infos",
+      "ort": "00",
+      "projekt": "Allgemeine Infos",
+      "jahre": [],
+      "titel": "00 Allgemeine Infos"
+    },
+    {
+      "raw": "Como",
+      "ort": "Como",
+      "projekt": "Como",
+      "jahre": [],
+      "titel": "Como"
+    },
+    {
+      "raw": "Mailand_Piazza_SS_Trinita_6",
+      "ort": "Mailand",
+      "projekt": "Piazza SS Trinita 6",
+      "jahre": [],
+      "titel": "Mailand Piazza SS Trinita 6"
+    },
+    {
+      "raw": "Mailand_Piazza_Velasca_4",
+      "ort": "Mailand",
+      "projekt": "Piazza Velasca 4",
+      "jahre": [],
+      "titel": "Mailand Piazza Velasca 4"
+    },
+    {
+      "raw": "Mailand_Via_Albricci_10",
+      "ort": "Mailand",
+      "projekt": "Via Albricci 10",
+      "jahre": [],
+      "titel": "Mailand Via Albricci 10"
+    },
+    {
+      "raw": "Mailand_Via_Albricci_8_Palazzo_Zanoletti_1939_43",
+      "ort": "Mailand",
+      "projekt": "Via Albricci 8 Palazzo Zanoletti 43",
+      "jahre": [
+        "1939"
+      ],
+      "titel": "Mailand Via Albricci 8 Palazzo Zanoletti 1939 43"
+    },
+    {
+      "raw": "Mailand_Via_Cannobbio_33_1949_50",
+      "ort": "Mailand",
+      "projekt": "Via Cannobbio 33 50",
+      "jahre": [
+        "1949"
+      ],
+      "titel": "Mailand Via Cannobbio 33 1949 50"
+    },
+    {
+      "raw": "Mailand_Via_Caterina_da_Forli_40",
+      "ort": "Mailand",
+      "projekt": "Via Caterina da Forli 40",
+      "jahre": [],
+      "titel": "Mailand Via Caterina da Forli 40"
+    },
+    {
+      "raw": "Mailand_Via_Col_Moschin_3_1939_40",
+      "ort": "Mailand",
+      "projekt": "Via Col Moschin 3 40",
+      "jahre": [
+        "1939"
+      ],
+      "titel": "Mailand Via Col Moschin 3 1939 40"
+    },
+    {
+      "raw": "Mailand_Via_Daniele_Manin_33",
+      "ort": "Mailand",
+      "projekt": "Via Daniele Manin 33",
+      "jahre": [],
+      "titel": "Mailand Via Daniele Manin 33"
+    },
+    {
+      "raw": "Mailand_Via_Della_Signora_2",
+      "ort": "Mailand",
+      "projekt": "Via Della Signora 2",
+      "jahre": [],
+      "titel": "Mailand Via Della Signora 2"
+    },
+    {
+      "raw": "Mailand_Via_Euripide_1_Edificio_per_abitazioni",
+      "ort": "Mailand",
+      "projekt": "Via Euripide 1 Edificio per abitazioni",
+      "jahre": [],
+      "titel": "Mailand Via Euripide 1 Edificio per abitazioni"
+    },
+    {
+      "raw": "Mailand_Via_Faruffini_6_Edificio_per_abitazioni_1953",
+      "ort": "Mailand",
+      "projekt": "Via Faruffini 6 Edificio per abitazioni",
+      "jahre": [
+        "1953"
+      ],
+      "titel": "Mailand Via Faruffini 6 Edificio per abitazioni 1953"
+    },
+    {
+      "raw": "Mailand_Via_Lanzona_4",
+      "ort": "Mailand",
+      "projekt": "Via Lanzona 4",
+      "jahre": [],
+      "titel": "Mailand Via Lanzona 4"
+    },
+    {
+      "raw": "Mailand_Via_Manin_33_edificio_per_abitazioni",
+      "ort": "Mailand",
+      "projekt": "Via Manin 33 edificio per abitazioni",
+      "jahre": [],
+      "titel": "Mailand Via Manin 33 edificio per abitazioni"
+    },
+    {
+      "raw": "Mailand_Via_Plutarco_15_Via_Senofonte_9_1955",
+      "ort": "Mailand",
+      "projekt": "Via Plutarco 15 Via Senofonte 9",
+      "jahre": [
+        "1955"
+      ],
+      "titel": "Mailand Via Plutarco 15 Via Senofonte 9 1955"
+    },
+    {
+      "raw": "Mailand_Via_Senofonte_9",
+      "ort": "Mailand",
+      "projekt": "Via Senofonte 9",
+      "jahre": [],
+      "titel": "Mailand Via Senofonte 9"
+    },
+    {
+      "raw": "Mailand_Via_Verga_4",
+      "ort": "Mailand",
+      "projekt": "Via Verga 4",
+      "jahre": [],
+      "titel": "Mailand Via Verga 4"
+    },
+    {
+      "raw": "Mailand_Viale_Tunisia_50_1935_36",
+      "ort": "Mailand",
+      "projekt": "Viale Tunisia 50 36",
+      "jahre": [
+        "1935"
+      ],
+      "titel": "Mailand Viale Tunisia 50 1935 36"
+    }
+  ],
+  "projekt_anzahl": 19,
+  "inventar": {
+    "bilder": 53,
+    "dokumente": 210,
+    "cad": 0,
+    "andere": 9,
+    "total": 272
+  },
+  "dateitypen": {
+    ".pdf": 210,
+    ".jpg": 51,
+    ".psd": 9,
+    ".jpeg": 1,
+    ".tif": 1
+  },
+  "textauszug": "Milano - Architetture - Mailand - die Bauten : Beiträge zur Vorlesung Architektur VIII Sommersemester 1995 und 1997 Weitere Titelinformationen: Hrsg.: gta Zürich, Flora Ruchat-Roncati, Andrea Casiraghi ; Vorwort: F. Ruchat-Roncati ; Texte: A. Casiraghi .... KarinGimmi .... <et al.> Ort, Verlag: Zürich : Institut für Geschichte und Theorie der Architektur Erscheinungsdatum: 1998 Format: 307 S. : Ill. Sprache: Deutsch Typ: Buch Urheber: Andrea Casiraghi ; Flora Ruchat-Roncati ; Karin Gimmi ; gta Institut für Geschichte und Theorie der Architektur. ETH Zürich Schlagwörter: Mailand. Architektur. 20. Jahrhundert ; Asnago, Mario ; Vender, Claudio ; Caccia Dominioni, Luigi ; Moretti, Luigi ; Mailand. CentroSvizzero ; Lingeri, Pietro Verfügbar:UZH, Kunsthistorisches Institut Cerca Tutto il Catalogo HOME LIBRI BOOKS EBOOK DVD E FILM TOP TEN LIBRI SCONTI FIGURA E SFONDO -TETTONICA DELLAFACCIATA IN UN'OPERADI ASNAGO E VENDERGurrieri Mario Disponibilità: Normalmente disponibile in 10 giorni Genere: Libro Editore: CARACOL Pubblicazione: 06/2008 Prezzo: € 10,00 NICEPRICE € 8,50SCONTO 15% Spedizione Gratuitacon corriere veloce oltre i 29€ 0 Gefällt mirZeigedeinenFreunden, RISPARMIA CON NOI Ti consigliamo di comprare questo articolo con SHUHEI ENDO Risparmia12,00 € Prezzo totale 80,00 € Acquista subito a solo 68,00 € Altre InformazioniISBN: 9788889440308Formato: Libro in brossuraPagine Arabe: 80 LIBRI ARCHITETTURA E DESIGN ARCHITETTURA MONOGRAFIE carrello Email Password Chi siamo | Help | Login | EDITORE Dove Siamo Libreria Hoepli Come Ordinare Hoepli Editore Dizionari Online Hoepli Test Hoepli Scuola Blog Libri Manuali Hoepli Ricerca Avanzata >> ShareShareShareShareShare SHUHEIENDO €70,00 € 59,50 15% ANGIOLOMAZZONI INTOSCANA €24,00 € 20,40 15% MZPROGETTOINTEGRATO€ 15,00 € 12,75 15% LEONARDORICCI:NUOVIMODELLIURBANI €16,00 € 13,60 15% Consigliati Hoepli Tutto il Catalogo Copyright © 2001-2010 - HOEPLI S.p.A., Via U. Hoepli 5, 20121 Milano - ItalyMotore di Ricerca, DataBase, Immagini by HOEPLI.it Metodi di pagamento Spedizioni con: HomeLibriDVD e FilmTop TenAnteprimaScontiLibreriaChi SiamoHelpEditore REGISTRAZIONE Come iscriversi a HOEPLI.it Hai dimenticato la tua password? Modifica i tuoi dati personali Newsletter ORDINI Come ordinare un libro Come pagare un libro Spedizioni Contattaci NOTE LEGALI Condizioni d'uso del sito Condizioni generali di vendita Informativa sulla privacy HOEPLI Multimedia hoeplitest.it | leggendolibri.it Blog Libri | hoeplitest.it Dizionari online | hoepliturismo.it 104 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 104 13.10.10 10:37 109 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 109 13.10.10 10:38 81 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 81 13.10.10 10:33 82 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 82 13.10.10 10:34 83 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 83 13.10.10 10:34 84 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 84 13.10.10 10:34 85 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 85 13.10.10 10:34 86 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 86 13.10.10 10:34 87 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 87 13.10.10 10:34 88 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 88 13.10.10 10:35 89 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 89 13.10.10 10:35 93 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 93 13.10.10 10:35 110 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 110 13.10.10 10:38 111 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 111 13.10.10 10:38 112 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 112 13.10.10 10:39 113 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 113 13.10.10 10:39 114 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 114 13.10.10 10:39 115 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 115 13.10.10 10:39 116 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 116 13.10.10 10:39 117 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 117 13.10.10 10:39 118 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 118 13.10.10 10:40 119 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 119 13.10.10 10:40 120 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 120 13.10.10 10:40 121 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 121 13.10.10 10:40 122 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 122 13.10.10 10:40 123 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 123 13.10.10 10:40 124 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 124 13.10.10 10:40 125 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 125 13.10.10 10:41 126 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 126 13.10.10 10:41 127 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 127 13.10.10 10:41 E.G.Asplund Umbau Gerichtshof Göteborg 1934-37 Ansicht vom Gustav-Adolf-Platz",
+  "embed_doc": "Asnago e Vender | 00 Allgemeine Infos | Como Como | Mailand Piazza SS Trinita 6 | Mailand Piazza Velasca 4 | Mailand Via Albricci 10 | Mailand Via Albricci 8 Palazzo Zanoletti 43 1939 | Mailand Via Cannobbio 33 50 1949 | Mailand Via Caterina da Forli 40 | Mailand Via Col Moschin 3 40 1939 | Mailand Via Daniele Manin 33 | Mailand Via Della Signora 2 | Mailand Via Euripide 1 Edificio per abitazioni | Mailand Via Faruffini 6 Edificio per abitazioni 1953 | Mailand Via Lanzona 4 | Mailand Via Manin 33 edificio per abitazioni | Mailand Via Plutarco 15 Via Senofonte 9 1955 | Mailand Via Senofonte 9 | Mailand Via Verga 4 | Mailand Viale Tunisia 50 36 1935 | Milano - Architetture - Mailand - die Bauten : Beiträge zur Vorlesung Architektur VIII Sommersemester 1995 und 1997 Weitere Titelinformationen: Hrsg.: gta Zürich, Flora Ruchat-Roncati, Andrea Casiraghi ; Vorwort: F. Ruchat-Roncati ; Texte: A. Casiraghi .... KarinGimmi .... <et al.> Ort, Verlag: Zürich : Institut für Geschichte und Theorie der Architektur Erscheinungsdatum: 1998 Format: 307 S. : Ill. Sprache: Deutsch Typ: Buch Urheber: Andrea Casiraghi ; Flora Ruchat-Roncati ; Karin Gimmi ; gta Institut für Geschichte und Theorie der Architektur. ETH Zürich Schlagwörter: Mailand. Architektur. 20. Jahrhundert ; Asnago, Mario ; Vender, Claudio ; Caccia Dominioni, Luigi ; Moretti, Luigi ; Mailand. CentroSvizzero ; Lingeri, Pietro Verfügbar:UZH, Kunsthistorisches Institut Cerca Tutto il Catalogo HOME LIBRI BOOKS EBOOK DVD E FILM TOP TEN LIBRI SCONTI FIGURA E SFONDO -TETTONICA DELLAFACCIATA IN UN'OPERADI ASNAGO E VENDERGurrieri Mario Disponibilità: Normalmente disponibile in 10 giorni Genere: Libro Editore: CARACOL Pubblicazione: 06/2008 Prezzo: € 10,00 NICEPRICE € 8,50SCONTO 15% Spedizione Gratuitacon corriere veloce oltre i 29€ 0 Gefällt mirZeigedeinenFreunden, RISPARMIA CON NOI Ti consigliamo di comprare questo articolo con SHUHEI ENDO Risparmia12,00 € Prezzo totale 80,00 € Acquista subito a solo 68,00 € Altre InformazioniISBN: 9788889440308Formato: Libro in brossuraPagine Arabe: 80 LIBRI ARCHITETTURA E DESIGN ARCHITETTURA MONOGRAFIE carrello Email Password Chi siamo | Help | Login | EDITORE Dove Siamo Libreria Hoepli Come Ordinare Hoepli Editore Dizionari Online Hoepli Test Hoepli Scuola Blog Libri Manuali Hoepli Ricerca Avanzata >> ShareShareShareShareShare SHUHEIENDO €70,00 € 59,50 15% ANGIOLOMAZZONI INTOSCANA €24,00 € 20,40 15% MZPROGETTOINTEGRATO€ 15,00 € 12,75 15% LEONARDORICCI:NUOVIMODELLIURBANI €16,00 € 13,60 15% Consigliati Hoepli Tutto il Catalogo Copyright © 2001-2010 - HOEPLI S.p.A., Via U. Hoepli 5, 20121 Milano - ItalyMotore di Ricerca, DataBase, Immagini by HOEPLI.it Metodi di pagamento Spedizioni con: HomeLibriDVD e FilmTop TenAnteprimaScontiLibreriaChi SiamoHelpEditore REGISTRAZIONE Come iscriversi a HOEPLI.it Hai dimenticato la tua password? Modifica i tuoi dati personali Newsletter ORDINI Come ordinare un libro Come pagare un libro Spedizioni Contattaci NOTE LEGALI Condizioni d'uso del sito Condizioni generali di vendita Informativa sulla privacy HOEPLI Multimedia hoeplitest.it | leggendolibri.it Blog Libri | hoeplitest.it Dizionari online | hoepliturismo.it 104 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 104 13.10.10 10:37 109 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 109 13.10.10 10:38 81 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 81 13.10.10 10:33 82 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 82 13.10.10 10:34 83 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 83 13.10.10 10:34 84 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 84 13.10.10 10:34 85 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 85 13.10.10 10:34 86 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 86 13.10.10 10:34 87 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 87 13.10.10 10:34 88 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 88 13.10.10 10:35 89 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 89 13.10.10 10:35 93 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO AND VENDER BRO_Milano 100824.indd 93 13.10.10 10:35 110 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 110 13.10.10 10:38 111 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 111 13.10.10 10:38 112 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 112 13.10.10 10:39 113 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 113 13.10.10 10:39 114 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 114 13.10.10 10:39 115 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 115 13.10.10 10:39 116 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 116 13.10.10 10:39 117 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 117 13.10.10 10:39 118 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 118 13.10.10 10:40 119 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 119 13.10.10 10:40 120 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 120 13.10.10 10:40 121 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 121 13.10.10 10:40 122 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 122 13.10.10 10:40 123 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 123 13.10.10 10:40 124 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 124 13.10.10 10:40 125 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 125 13.10.10 10:41 126 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 126 13.10.10 10:41 127 TEXTE SEMINARWOCHE MILANO 2010 ASNAGO & VENDER BRO_Milano 100824.indd 127 13.10.10 10:41 E.G.Asplund Umbau Gerichtshof Göteborg 1934-37 Ansicht vom Gustav-Adolf-Platz",
+  "stand": "2026-07-02T21:06:33"
+}

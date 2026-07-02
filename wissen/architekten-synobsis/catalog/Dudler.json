@@ -1,0 +1,26 @@
+{
+  "slug": "Dudler",
+  "architekt": {
+    "name": "Dudler",
+    "nachname": "Dudler",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Dudler"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Dudler",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".png": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Dudler",
+  "stand": "2026-07-02T21:13:16"
+}

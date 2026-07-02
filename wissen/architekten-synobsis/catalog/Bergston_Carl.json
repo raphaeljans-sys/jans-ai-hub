@@ -1,0 +1,41 @@
+{
+  "slug": "Bergston_Carl",
+  "architekt": {
+    "name": "Bergston Carl",
+    "nachname": "Bergston",
+    "vorname": "Carl",
+    "jahre": [],
+    "ordner": "Bergston_Carl"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bergston_Carl",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "Stockholm_KunstHalle",
+      "ort": "Stockholm",
+      "projekt": "KunstHalle",
+      "jahre": [],
+      "titel": "Stockholm KunstHalle"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 16,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 16
+  },
+  "dateitypen": {
+    ".jpg": 16
+  },
+  "textauszug": "",
+  "embed_doc": "Bergston Carl | Architekt Architekt | Stockholm KunstHalle",
+  "stand": "2026-07-02T21:08:36"
+}

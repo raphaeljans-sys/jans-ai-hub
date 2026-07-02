@@ -1,0 +1,34 @@
+{
+  "slug": "Castiglioni_Enrico",
+  "architekt": {
+    "name": "Castiglioni Enrico",
+    "nachname": "Castiglioni",
+    "vorname": "Enrico",
+    "jahre": [],
+    "ordner": "Castiglioni_Enrico"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Castiglioni_Enrico",
+  "projekte": [
+    {
+      "raw": "Buston_Arisona_Sant_Anna_Church",
+      "ort": "Buston",
+      "projekt": "Arisona Sant Anna Church",
+      "jahre": [],
+      "titel": "Buston Arisona Sant Anna Church"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".pdf": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Castiglioni Enrico | Buston Arisona Sant Anna Church",
+  "stand": "2026-07-02T21:11:47"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "Baudot_Anatole",
+  "architekt": {
+    "name": "Baudot Anatole",
+    "nachname": "Baudot",
+    "vorname": "Anatole",
+    "jahre": [],
+    "ordner": "Baudot_Anatole"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Baudot_Anatole",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Le plafond de la crypte de Saint-Jean-des-Abbesses",
+      "ort": "Le plafond de la crypte de Saint-Jean-des-Abbesses",
+      "projekt": "Le plafond de la crypte de Saint-Jean-des-Abbesses",
+      "jahre": [],
+      "titel": "Le plafond de la crypte de Saint-Jean-des-Abbesses"
+    },
+    {
+      "raw": "Paris_Galerie_des_Machines_1889",
+      "ort": "Paris",
+      "projekt": "Galerie des Machines",
+      "jahre": [
+        "1889"
+      ],
+      "titel": "Paris Galerie des Machines 1889"
+    },
+    {
+      "raw": "Paris_St_Jean_de_Montmatre_1894_1904",
+      "ort": "Paris",
+      "projekt": "St Jean de Montmatre",
+      "jahre": [
+        "1894",
+        "1904"
+      ],
+      "titel": "Paris St Jean de Montmatre 1894 1904"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 21,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 21
+  },
+  "dateitypen": {
+    ".jpg": 21
+  },
+  "textauszug": "",
+  "embed_doc": "Baudot Anatole | 00 Architekten | Le plafond de la crypte de Saint-Jean-des-Abbesses Le plafond de la crypte de Saint-Jean-des-Abbesses | Paris Galerie des Machines 1889 | Paris St Jean de Montmatre 1894 1904",
+  "stand": "2026-07-02T21:07:19"
+}
