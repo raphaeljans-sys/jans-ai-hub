@@ -1,6 +1,6 @@
 # QUESTIONS — Offene Luecken und Klaerungsbedarf
 
-Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 und 2/6 (319 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
+Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 3/6 (452 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
 
 ## 1 Leere oder fast leere Ordner
 
@@ -53,6 +53,18 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 und 2/6 (319 von 853 Ordnern kur
 - **Hadrians** — 6 Dateien; Antike (Villa Adriana?), kein Architekten-Ordner im engeren Sinn. Umwidmen?
 - **Ehrenklau_Katharina, Eicke_Becker, El_Khouli, Eldem, Federico_Zuccari, Fischer_von_Erlach, Fischle, Fujimoto, Fuksas, Gandy_Joseph, Gartmann_Patrick, Gerkan, Gigometti, Gimson_Ernest, Goldsmith_Felix, Graves_Michael, Gray_Eileen, Gregotti_Vittorio, Gruppo_Ligure, Gut_Schoep, Haefliger_Erich, Haenel_Erich, Halliday_James_Theodore_1882_1932** — je 1 bis 4 Dateien. Sammelfrage Charge 2: als Merkposten belassen oder gezielt fuellen?
 - **Eichinger_Gregor, Fry_Edwin_Maxwell_1899_1987, Goldfinger_Ernoe, Fischle, Galfetti_Aurelio** — nur generische Ablagestruktur mit wenigen Dateien. Struktur fuellen oder entfernen?
+
+- **Hobrecht** — Projektordner (Berlin 1910, Infrastruktur-Text) vorhanden, aber 0 Dateien. James Hobrecht (Hobrecht-Plan) ergaenzen oder entfernen?
+- **Ho_nger_Giulliani** — komplett leer (0 Dateien); DRITTER Ordner zum Buero Giuliani Hoenger (neben «Giuliani Hönger» und Giuliani_Hoenger_Zuerich), Namensfolge vertauscht. Zusammenfuehren?
+- **Isola_Aimaro** — komplett leer (0 Dateien); gehoert zu Gabetti & Isola. Mit Gabetti_Robert zusammenfuehren?
+- **Jensen_Klint** — komplett leer (0 Dateien); dasselbe Thema (Grundtvigskirche) liegt in Klint_Peder_Kaare. Zusammenfuehren?
+- **Jourda Francoise** — Projektordner Architekturschule Lyon vorhanden, aber 0 Dateien. Fuellen oder entfernen?
+- **Kennihan_Rayn** — komplett leer (0 Dateien); korrekt Ryan W. Kennihan (Dublin). Fuellen oder entfernen?
+- **Koyama** — komplett leer (0 Dateien). Wer ist Koyama?
+- **Langhans** — Projektordner Brandenburger Tor 1789 vorhanden, aber 0 Dateien. Carl Gotthard Langhans ergaenzen oder entfernen?
+- **Hotz_Theo** — nur 5 Dateien; fuer die Bedeutung des Bueros sehr duenn (analog Gigon_Guyer). Ergaenzen?
+- **Hufnagel** — nur generische Ablagestruktur 00 bis 07 mit 2 Bildern. Welches Buero ist gemeint (Hufnagel Puetz Rafaelian?)?
+- **Hankar_Paul, Harwell_Hamilton_Harris, Haussmann_Trix, Helle, Herrle_Stoll, Hetzberger_Hermann, Hofmann_Ludwig, Hollein_Hans, Holzer_Kobler, Holzhammer_Franz, Hopkins_Michael, Horvat_Paolo, Hustistein_Partner, Imhof_Edi, Jabornegg_Pálffy, Jackson_Clements_Burrows, Jaeckel_Fabian, Kai_Fisker, Kampmann, Kaufmann_Hermann, Keles_Oetzguer, Kjellander Sjoberg, Kjærholm-Hauses, Kleihuus, Klein_Alexander, Klement_Juergen, Knorr, Koch_Alexander, Krier_Leon, LUCA_SELVA, La_Pierre_Eric, Lassen_Heinrich, Lauterbach_Heinrich, Lazarini_Fenster** — je 1 bis 8 Dateien. Sammelfrage Charge 3: als Merkposten belassen oder gezielt fuellen?
 
 ## 2 Unklare Slugs und Schreibfehler im Quellordner
 
@@ -115,6 +127,33 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 und 2/6 (319 von 853 Ordnern kur
 - **Halliday_James Theodore_1882_1932** — Leerzeichen im Quellordnernamen (Katalogdatei mit Unterstrich).
 - **Federico_Zuccari / Giorgio_Martini_Francesco / Francesca_Piero_della** — Vorname-Nachname-Reihenfolge entgegen der Konvention. Normieren?
 
+- **HdM / Herzog_de_Meuron** — Doppelordner desselben Bueros; HdM enthaelt mit 1117 Dateien das Projektmaterial Helsinki Dreispitz, Zuerich KISPI (Kinderspital) und UZH. Zusammenfuehren (nach Freigabe)? Das KISPI-Material ist fuer Projekt 2619 pruefenswert.
+- **Hasegawa_Go / Go_Hasegawa** — Doppelordner desselben Japaners (Chargen 2 und 3); Hasegawa_Go enthaelt zudem den Fremdordner «Cohen Preston Scott». Zusammenfuehren?
+- **Hetzberger_Hermann** — korrekt Herman Hertzberger. Umbenennung?
+- **Herter_Hermann_Meilard_Robert** — Zusatz «Meilard_Robert» ungeklaert (vermutlich Ingenieur Robert Maillart); Slug praezisieren?
+- **Hiestand_Chrisoph** — korrekt Christoph. Umbenennung?
+- **Hoesli_Bernhar** — korrekt Bernhard Hoesli (ETH). Umbenennung?
+- **Hofmann_Joseph** — gemeint ist Josef Hoffmann (Wien, zwei f, Palais Stoclet). Umbenennung?
+- **Hofmann_Ludwig** — gemeint ist Ludwig Hoffmann (Berliner Stadtbaurat, zwei f). Umbenennung?
+- **Hugenberger_Fries_Arch** — das Buero schreibt sich huggenbergerfries; zudem Projektordner «Dietlikon Limmattower» (der Limmat Tower steht in Dietikon, Limmatfeld — Ortsangabe pruefen). Umbenennung?
+- **Hustistein_Partner** — vermutlich Husistein & Partner (Aarau), ein t zu viel. Umbenennung?
+- **IGUALGUGGENHEIM / Igual_Guggenheim** — Doppelordner desselben Zuercher Bueros, einmal in Grossbuchstaben ohne Trennung. Zusammenfuehren?
+- **Ishigam_Junya** — korrekt Ishigami. Umbenennung?
+- **Izozaki_Arata** — korrekt Isozaki. Umbenennung?
+- **Jackob_Steib** — korrekt Jakob Steib (Zuerich). Umbenennung?
+- **Janack_Pavel** — korrekt Pavel Janak. Umbenennung?
+- **Jauch_Stoltz** — korrekt Jauch Stolz (Luzern). Umbenennung?
+- **Johnson_Philiph** — korrekt Philip Johnson. Umbenennung?
+- **Kahn_Adam** — das Londoner Buero schreibt sich Adam Khan; zudem liegt der Fremdordner «Kaeferstein Meister» im Ordner (gehoert zu Kaeferstein_Meister). Umbenennung und Umlagerung?
+- **Kai_Fisker / Kay_Fisker** — Doppelordner desselben Daenen Kay Fisker. Zusammenfuehren?
+- **Kleihues_Josef_Paul / Kleihuus** — Doppelordner, der zweite mit Schreibfehler. Zusammenfuehren?
+- **Klint_Peder_Kaare / Jensen_Klint** — Namensgemenge: die Grundtvigskirche ist von P.V. Jensen-Klint, Kaare Klint ist der Sohn (Moebelbauer). Slugs klaeren und zusammenfuehren?
+- **Kjærholm-Hauses** — Sonderzeichen und Bindestrich im Slug; zudem eher Haus-/Moebelsammlung (Poul Kjaerholm) als Architekten-Ordner. Umwidmen?
+- **Lacatonvassal** — CamelCase-Slug, korrekt Lacaton & Vassal. Normierung?
+- **La_Pierre_Eric** — gemeint ist Eric Lapierre (Paris); Projektordner «Genv» (Genf?). Slug normieren?
+- **LUCA_SELVA** — Grossbuchstaben-Slug; Normierung auf Selva_Luca?
+- **Josep_Llinas / Kengo_Kuma / Kenzo_Tange / Knut_Knutsen / Kai_Fisker / Kay_Fisker** — Vorname-Nachname-Reihenfolge entgegen der Konvention. Normieren?
+
 ## 3 Sammel- und Zweckordner ohne Architekt-Zuordnung
 
 - **1 Selection** — grosse Best-of-Sammlung (4525 Dateien) nach Raumtypologien, kein Architekt. Frage: als eigene Referenz-KB-Sektion fuehren (z.B. wiki/RAUMTYPOLOGIEN.md mit Inhalt der Unterordner) statt als Architekt? Der Ordner ist fuer Entwurfsreferenzen vermutlich der wertvollste der Bibliothek.
@@ -138,6 +177,20 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 und 2/6 (319 von 853 Ordnern kur
 - **Guidotti_Architetti** — Inhalt ist ein Ordner «LVPH architectes»; Fehlablage oder Verwechslung? Sichten.
 - **Frisch_Max** — Schriftsteller als Architekten-Ordner (Freibad Letzigraben ist belegt); so belassen.
 
+- **Jans Raphael** — Eigenarchiv von Raphael Jans (Portfolio ab Schreiner-Lehrlingswettbewerb 2004, Werkjahre 2010 bis 2019; 9146 Dateien inkl. 817 CAD). Als eigenes Werkarchiv kennzeichnen statt als Referenzarchitekt fuehren?
+- **Heller Patrick** — Studenten-Portfolio (AAM Mendrisio, HSLU). Wer ist Patrick Heller im JANS-Kontext?
+- **Hiestand_Chrisoph** — Diplom- und Semesterarbeiten; wirkt wie Studiensammlung analog Back_Lukas.
+- **Knaus_Simon** — ETH-Studienarbeit Collage City (Assistenzprofessur Christ/Gantenbein FS 2012); Studien- oder Referenzmaterial?
+- **Lauener_Fabian** — Zimmerbilder-Studie (Streulistrasse, Giselhaus); wirkt wie Studien-/Mitarbeiterarbeit. Wer ist Fabian Lauener?
+- **Killer_Hermes** — Textdokument «Bank Headquarter around a big column, Lugano»; wessen Arbeit ist das?
+- **Koenig_Petra_Architektur** — 761 Dateien inkl. CAD- und Plandaten (Haus Engadin, Tschudin); wirkt wie ein Buero-/Arbeitsarchiv. Wer ist Petra Koenig im JANS-Kontext?
+- **Kollhoff_Hans_1946** — enthaelt direkte Projektkorrespondenz an Raphael (Botersloot, Amersfoort, Baukostenangaben); teils Arbeitsarchiv statt Referenz. Trennen?
+- **Kapfinger_Otto** — Publizist (analog Boesch_Ivo); gehoert der Ordner in die Bibliothek?
+- **Kiel_Andrew** — nur eine Vortragseinladung (Projektleiter Sauerbruch Hutton); als Merkposten fuer Sauerbruch Hutton umwidmen?
+- **Krokodil** — Planergemeinschaft Krokodil (Glatttalstadt); kein Architekten-Ordner im engeren Sinn. Umwidmen?
+- **Kruse_Oliver** — Kuenstler (Insel Hombroich); eher Kunst- als Architekturreferenz.
+- **Hippodamus** — antiker Staedteplaner mit einem Wikipedia-Dossier; als Theorie-Merkposten belassen.
+
 ## 4 Strukturelle Beobachtungen fuer den Scan
 
 - Mehrere Ordner tragen die generische Ablagestruktur 00 Architekten / 01 Projekte / ... (Archigram, Alexander_Christoph, Ashbee teilweise); der Katalog zaehlt diese Strukturordner als "Projekte". Option: Parser so verfeinern, dass nummerierte Standardordner nicht als Projekte gezaehlt werden.
@@ -149,3 +202,8 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 und 2/6 (319 von 853 Ordnern kur
 - Die generische Standard-Ablagestruktur wird auch in Charge 2/6 als «Projekte» gezaehlt (Dyckerhoff_Widmann, Ellis_Peter, Elsaesser, Fathy, Fehn, Fischle, Fry, Fuller, Gentz, Goldfinger, Goldsmith, Gruppo_Ligure, Haefliger, Haller, Halliday). Parser-Verfeinerung bleibt offen.
 - Umlaut-Zerlegung setzt sich in Charge 2/6 fort: Fo_rderer, Gmu_r_Gschwentner, Giuliani_Ho_nger, Fischer_Ammann..._Zu_rich_Albisrieden.
 - Zweite bestaetigte Katalog-Kollision Leerzeichen-/Unterstrich-Ordner: Enzmann Fischer / Enzmann_Fischer fuehren auf EINE Datei Enzmann_Fischer.json (wie Christ Gantenbein). Der Scanner sollte kollidierende Slugs erkennen und beide Quellordner ausweisen.
+- Die generische Standard-Ablagestruktur wird auch in Charge 3/6 als «Projekte» gezaehlt (Hufnagel, Izozaki_Arata, Kent_William, Klein_Alexander, Kotnik_Toni). Parser-Verfeinerung bleibt offen.
+- Umlaut-/Akzent-Zerlegung setzt sich in Charge 3/6 fort: Ho_nger_Giulliani (Hönger_Giulliani), Huber_Waser_Mu_hlebach (Huber Waser Mühlebach), Jabornegg_Pa_lffy (Jabornegg_Pálffy); die Katalogdatei Kjærholm-Hauses.json behaelt dagegen das Sonderzeichen — Zerlegung uneinheitlich.
+- **Jager_Egli_Architekten** — Textauszug ist die Speisekarte des Cafe LUZ (Fehlextraktion); Textquelle im Scan pruefen.
+- Fehlablagen im Quellbestand: «Cohen Preston Scott» liegt in Hasegawa_Go, «Kaeferstein Meister» liegt in Kahn_Adam. Bei Gelegenheit umlagern (nach Freigabe).
+- Keine neue Leerzeichen-/Unterstrich-Katalogkollision in Charge 3/6 festgestellt; alle 133 Slugs der Charge fuehren auf eigene Katalogdateien.

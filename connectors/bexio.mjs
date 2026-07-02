@@ -433,7 +433,9 @@ async function kontieren(jahr, { zielDatei = null } = {}) {
   for (const j of journal) {
     if (!String(j.date || '').startsWith(String(jahr))) continue;
     if (!bankAcctIds.has(j.debit_account_id) && !bankAcctIds.has(j.credit_account_id)) continue;
-    const k = `${j.date}|${Math.round(Number(j.amount) * 100)}`;
+    // Journal liefert das Datum mit Zeitanteil (2025-04-17T00:00:00+02:00) — auf YYYY-MM-DD kuerzen,
+    // sonst matcht keine Banktransaktion und Gebuchtes wuerde erneut vorgeschlagen (Doppelbuchung!)
+    const k = `${String(j.date).slice(0, 10)}|${Math.round(Number(j.amount) * 100)}`;
     gebucht.set(k, (gebucht.get(k) || 0) + 1);
   }
   const istGebucht = t => {
@@ -513,10 +515,28 @@ async function buchen(datei, { ja = false } = {}) {
   const kontoByNo = new Map(konten.map(k => [String(k.account_no), k]));
   const bankById = new Map(bkonten.map(b => [b.id, b]));
 
-  const kandidaten = (liste.positionen || []).filter(p => p.freigabe === true);
+  let kandidaten = (liste.positionen || []).filter(p => p.freigabe === true);
   const uebersprungen = (liste.positionen || []).length - kandidaten.length;
   console.log(`${(liste.positionen || []).length} Position(en) in der Liste, ${kandidaten.length} mit freigabe=true` +
     (uebersprungen ? ` (${uebersprungen} ohne Freigabe uebersprungen)` : ''));
+
+  // SICHERHEITSNETZ gegen Doppelbuchung: Positionen, die im Journal bereits eine Buchung
+  // mit gleichem Datum+Betrag auf einem Bank-Buchhaltungskonto haben, werden NIE erneut
+  // gebucht — auch wenn die Vorschlagsdatei veraltet ist.
+  const journal = await journalAlle();
+  const bankAcctIds = new Set(bkonten.map(b => b.account_id).filter(Boolean));
+  const schonGebucht = new Set();
+  for (const j of journal) {
+    if (!bankAcctIds.has(j.debit_account_id) && !bankAcctIds.has(j.credit_account_id)) continue;
+    schonGebucht.add(`${String(j.date).slice(0, 10)}|${Math.round(Number(j.amount) * 100)}`);
+  }
+  kandidaten = kandidaten.filter(p => {
+    if (schonGebucht.has(`${p.datum}|${Math.round(Number(p.betrag) * 100)}`)) {
+      console.log(`  ⚠ Tx ${p.tx_id} ${p.datum} ${chf(p.betrag)} ist bereits im Journal gebucht — uebersprungen (Doppelbuchungs-Schutz).`);
+      return false;
+    }
+    return true;
+  });
 
   const auftraege = [];
   for (const p of kandidaten) {
@@ -687,7 +707,7 @@ const main = async () => {
     console.log(`${rows.length} Journal-Buchung(en) im Jahr ${jahr}:`);
     for (const j of rows) {
       const s = byId.get(j.debit_account_id), h = byId.get(j.credit_account_id);
-      console.log(`  ${j.date}  ${chf(j.amount)}  ${s ? s.account_no : j.debit_account_id} / ${h ? h.account_no : j.credit_account_id}  ${(j.description || '').slice(0, 80)}`);
+      console.log(`  ${String(j.date).slice(0, 10)}  ${chf(j.amount)}  ${s ? s.account_no : j.debit_account_id} / ${h ? h.account_no : j.credit_account_id}  ${(j.description || '').slice(0, 80)}`);
     }
     return;
   }
