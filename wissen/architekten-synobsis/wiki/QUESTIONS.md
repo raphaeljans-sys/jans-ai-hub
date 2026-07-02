@@ -1,6 +1,6 @@
 # QUESTIONS — Offene Luecken und Klaerungsbedarf
 
-Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 4/6 (585 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
+Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
 
 ## 1 Leere oder fast leere Ordner
 
@@ -73,6 +73,15 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 4/6 (585 von 853 Ordnern kur
 - **Nash_Paul_1889_1946** — britischer Maler, kein Architekt. Gehoert der Ordner in die Bibliothek?
 - **Le_Vau_Louis, Leuzinger_Hans, Leonidov_Ivan, Lodoli, Luebps_Atelier, Lundgaard_Tranberg_Arkitekter_Copenhagen, Maas_Wini, Maguire_Murray, Mansila, Mawson_Thomas_H, McKim, McMorran_Withby, Meck_Architekten, Meier_Juergen_H, Menn_Corinna, Menz_Sascha, Mirlo_urbano_Architekten, Mitzutome, Moesch_Kunz, Morgan_Julia, Moser_Wegestein, Murcutt Glenn, Musman_Ernest_Brander_1888_1972, Mutheisius_Hermann, Muzio Lorenzo, Nelson_Paul, Nikisch Walder, OMA, Oester Pfeninger, Oswald_Hannes, Owen_Williams, Page Anna, Pavel_Janack, Pei, Perraults_Dominique, Perrot** — je 1 bis 9 Dateien. Sammelfrage Charge 4: als Merkposten belassen oder gezielt fuellen?
 - **Luebps_Atelier, Mitzutome, Moesch_Kunz, Perrot, Page Anna, Oswald_Hannes, Meier_Juergen_H, Morris_Jasper, Malvez_Elia** — Namen ohne erkennbare Zuordnung. Wer ist jeweils gemeint (Buero, Person, Studienarbeit)?
+
+- **Ruf Sepp, Rossellino_Bernardo, Saenz_de_Oiza_Francisco, Schneider_Oelsen, Sebrowitz_Jurkovic_Dusan_Sebrowitz, Shizuoka, Smiljan Radic** — Ordner ohne Dateien (teils nur Projektordner-Huellen oder generische Struktur). Fuellen oder entfernen? Gerade Sep Ruf und Saenz de Oiza (Torres Blancas) waeren ausbauwuerdig.
+- **Peruzzi_Baldasare, Phalt_Architekten, Pictet_Charles, Pinos_Carme, Pleydell_Bouverie, Price_Sederic, Rasmussen, Reichlin_Bruno, Riehmer_Wilhelm_Bauherr, Rietveld_Gery, Rimini_Alessandro, Roesler_Sascha, Russli_Architekten, SAM_Architekten, SMARCH_mathys_Stuecheli, Sartoris_Alberto, Saulnier_Jules, Schader_Kt_Freudenberg, Schattner_Karl_Joseph, Schlup Max, Schmid_Schaerer_Architekten, Schmidt_Werner, Schwarz_Dietrich, Senn_Otto** — je 1 bis 6 Dateien. Sammelfrage Charge 5: als Merkposten belassen oder gezielt fuellen? Gerade Rietveld, Sartoris, Schattner, Schlup (Kongresshaus Biel) und Schader (Freudenberg) sind fuer ihre Bedeutung sehr duenn.
+- **Prinz_Norman, Seddig, Sigg, Schneller Andreas, Schuerer_Architekten, Smith Samuel Modell** — Namen ohne erkennbare Zuordnung (Schneller enthaelt immerhin einen Projektordner Holziken). Wer ist jeweils gemeint?
+- **Polard und Rouse_Goldstone** — je nur ein New-Yorker Kompendium-Blatt (Hotel des Artistes von George M. Pollard, The Rivera von Rouse und Goldstone); eher Material einer Kompendium-Sammlung als eigene Architekten-Dossiers. Umlagern?
+- **Noirjean_Adrien (Charge 4, leer)** — die Buerodokumentation im Ordner Raumfalter belegt Adrien Noirjean als raumfalter-Mitgruender; der leere Ordner gehoert vermutlich dorthin. Zusammenfuehren?
+- **Shaker** — Bausammlung einer Gemeinschaft/Bewegung, kein Architekt. Umwidmen (analog Hippodamus als Themen-Merkposten)?
+- **Rowntree_Kenneth _1915_1997** — britischer Maler, kein Architekt (analog Nash_Paul). Gehoert der Ordner in die Bibliothek?
+- **Schwitters_Kurt** — Dada-Kuenstler (Merzbau); als Avantgarde-Merkposten belassen?
 
 ## 2 Unklare Slugs und Schreibfehler im Quellordner
 

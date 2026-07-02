@@ -1,6 +1,6 @@
 # INDEX — Kurzdossiers der kuratierten Architekten
 
-Stand: 2026-07-02, 585 von 853 Ordnern (Erstausgabe A bis Ba, Charge 1/6 Bearth_Deplazes bis Du_rr_Otto, Charge 2/6 Dyckerhoff_Widmann bis Handa_Heike_Prof, Charge 3/6 Hankar_Paul bis Le_Corbusier, Charge 4/6 Le_Vau_Louis bis Perrot). Eine Zeile pro Ordner, alphabetisch. Zahlen aus dem Katalog (Projekte / Bilder / Dokumente). Einordnungen ohne Katalogbeleg sind mit (Einordnung) markiert.
+Stand: 2026-07-02, 718 von 853 Ordnern (Erstausgabe A bis Ba, Charge 1/6 Bearth_Deplazes bis Du_rr_Otto, Charge 2/6 Dyckerhoff_Widmann bis Handa_Heike_Prof, Charge 3/6 Hankar_Paul bis Le_Corbusier, Charge 4/6 Le_Vau_Louis bis Perrot, Charge 5/6 Peruzzi_Baldasare bis Smith_Samuel_Modell). Eine Zeile pro Ordner, alphabetisch. Zahlen aus dem Katalog (Projekte / Bilder / Dokumente). Einordnungen ohne Katalogbeleg sind mit (Einordnung) markiert.
 
 - **1 Selection** — Sammelordner ohne Architekt: kuratierte Best-of-Bibliothek nach Raumtypologien (fliessend, modular, zentral usw.), Grundrisse und Wettbewerbe; 14 Unterordner, 3360 Bilder, 582 Dokumente, 23 CAD.
 - **6a Architects** — Londoner Buero (Einordnung); Ordner fast leer, nur 1 Bild, keine Projekte, keine Dokumente.
@@ -586,3 +586,136 @@ Stand: 2026-07-02, 585 von 853 Ordnern (Erstausgabe A bis Ba, Charge 1/6 Bearth_
 - **Perraults_Dominique** — Dominique Perrault (Slug-Schreibfehler); 1 Bild.
 - **Perret_Auguste_Gustave_1874_1954** — Pariser Stahlbeton-Pionier mit Rue Franklin, Theatre des Champs-Elysees und Wiederaufbau Le Havre; 13 Projekte, 118 Bilder, 20 Dokumente.
 - **Perrot** — ungeklaerter Slug; 3 Bilder.
+- **Peruzzi_Baldasare** — Baldassarre Peruzzi, roemisch-sienesische Hochrenaissance (Einordnung, Slug-Schreibfehler); nur generische Ablagestruktur, 1 Bild.
+- **Pezo von Ellrichshausen** — chilenisches Duo Pezo von Ellrichshausen (Einordnung); 17 Bilder ohne Projekte.
+- **Pfister_Gebrueder** — Zuercher Gebrueder Pfister mit Bahnhof Enge; 1 Projekt, 16 Bilder, 1 Dokument.
+- **Pfleghard_Haefeli** — Zuercher Buero Pfleghard und Haefeli (Nachfolge Heinrich Ernst) mit Haus zur Truelle, Kirche Unterstrass und Schindelhaeusern Wipkingen; 6 Ordner, 8 Bilder, 8 Dokumente.
+- **Phalt_Architekten** — Zuercher Buero phalt (Einordnung); fast leer, 1 Bild.
+- **Piacentini_Marcello** — roemischer Monumentalarchitekt mit Ordnern Rom, Mailand (Palazzo Missori) und Brescia; 4 Ordner, 11 Bilder, 1 Dokument.
+- **Piano_Renzo** — Genueser Weltarchitekt mit Fondation Beyeler, Centre Pompidou und Morgan Library; 6 Ordner, 93 Bilder, 4 Dokumente.
+- **Pictet_Charles** — Genfer Architekt mit Quart-Monografie De aedibus; 2 Dokumente.
+- **Pikionis_Dimitris** — griechischer Meister der Akropolis-Wege in Athen; 2 Ordner, 32 Bilder, 4 Dokumente.
+- **Pinos_Carme** — Barcelonesin Carme Pinos mit El-Croquis-Material; 1 Ordner, 3 Bilder.
+- **Piranesi** — Giovanni Battista Piranesi (Slug ohne Vorname) mit Antikenplan Roms; 2 Ordner, 19 Bilder.
+- **Pirzio_Biroli_Roberto** — Udineser Architekt mit Kulturpavillon Parco Cormor (Mies-Award-Nominierung 1994); 9 Ordner (meist generische Struktur), 8 Bilder, 1 Dokument.
+- **Plecnik_Josef_1872_1957** — slowenischer Klassizist der Moderne mit 10 Ordnern Ljubljana, Prag und Wien (Zacherlhaus, Herz-Jesu-Kirche); 119 Bilder, 19 Dokumente.
+- **Pleydell_Bouverie_ David_1911_1994** — britischer Architekt (Einordnung); 1 Bild, Leerzeichen im Slug.
+- **Poelzig Hans** — Berliner Expressionist mit 15 Projektordnern von der Funkhalle bis zum Grossen Schauspielhaus; 38 Bilder, 8 Dokumente.
+- **Polard** — nur ein Kompendium-Blatt Hotel des Artistes New York (Architekt George M. Pollard, Slug-Schreibfehler); 1 Dokument.
+- **Ponti Gio** — Mailaender Eleganz von Domus bis Grattacielo Pirelli, 10 adressgenaue Ordner; 102 Bilder, 35 Dokumente.
+- **Pool_Architekten** — Zuercher Genossenschafts-Grossbuero mit Lochergut, Leimbach, Aspholz und Eggbuehl; 9 Ordner, 98 Bilder, 4 Dokumente.
+- **Portaluppi_Piero** — Mailaender Architekt (Arengario-/Novecento-Material); 1 Ordner, 5 Bilder, 5 Dokumente.
+- **Portoghesi_Paolo** — roemischer Postmodernist (Einordnung); nur generische Ablagestruktur, 7 Bilder.
+- **Pouillon_Fernand** — franzoesischer Steinbau-Meister mit Aix-en-Provence und Climat de France Algier; 4 Ordner, 184 Bilder, 18 Dokumente.
+- **Price_Sederic** — Schreibfehler-Doppelordner zu Cedric_Price; 1 Bild.
+- **Prinz_Norman** — Name ungeklaert; 7 Bilder ohne Projekte.
+- **Prior_Edvard_Schroeder** — Arts-and-Crafts-Architekt Edward Schroeder Prior mit Home Place Kelling 1903 bis 05; 1 Projekt, 21 Bilder.
+- **Prouve__Jean** — Jean Prouve, Metallbau-Pionier mit Maison du Peuple Clichy (Akzent-Slug, Katalogdatei zerlegt); 1 Projekt, 53 Bilder, 2 Dokumente.
+- **Pugin** — Augustus Welby Northmore Pugin (Slug ohne Vorname), Gothic Revival und Contrasts; 9 Dokumente.
+- **Quaroni_Ludovico** — roemischer Neorealist mit Quartier Tiburtino; 1 Projekt, 2 Bilder, 2 Dokumente.
+- **Quincy_de_Quatremere** — Theoretiker Quatremere de Quincy (Slug verdreht); generische Struktur plus Ordner Amsterdam Rathaus, 2 Bilder.
+- **RCR** — katalanisches Pritzker-Buero RCR Arquitectes Olot mit Espacios de Sombra; 3 Ordner, 6 Bilder, 1 Dokument.
+- **Radic_Smjlian** — Chilene Smiljan Radic (Slug-Schreibfehler) mit Vilches House; 1 Projekt, 7 Bilder, 1 Dokument; dazu leerer Doppelordner Smiljan Radic.
+- **Ramser_Schmid** — Zuercher Buero mit Schulhauserweiterung Rueschlikon und Kirchenzentrum Bonstetten; 5 Ordner, 31 Bilder, 12 Dokumente.
+- **Rasmussen** — Steen Eiler Rasmussen (Slug ohne Vorname), Artikel zur daenischen Architektur; 1 Dokument.
+- **Raumfalter** — Zuercher Buero raumfalter (gegruendet 2008 von Noirjean, Rechsteiner, Wenger) mit Buerodokumentation; 1 Dokument.
+- **Raumfindung** — Raumfindung Architekten (Rapperswil-Jona, Einordnung) mit Siegerprojekt Zentrum Ebnat-Kappel; 1 Projekt, 6 Bilder, 1 Dokument.
+- **Reichlin_Bruno** — Tessiner Theoretiker und Partner Fabio Reinharts (Einordnung); fast leer, 2 Dokumente.
+- **Reidy Alfonso** — Doppelordner zu Reidy_Eduardo (Affonso Eduardo Reidy); 1 Ordner, 15 Bilder.
+- **Reidy_Eduardo** — Brasilianer Affonso Eduardo Reidy mit Pedregulho-Wohnschlange und Museum of Modern Art Rio; 4 Projekte, 38 Bilder.
+- **Reiluf Ramstad Architekten** — Osloer Buero Reiulf Ramstad (Slug-Schreibfehler); 2 Ordner, 30 Bilder, 1 Dokument.
+- **Reinhard_Fabio** — Tessiner Fabio Reinhart (Slug-Schreibfehler), Partner Reichlins, mit Casa Croci und Raststaette Bellinzona; 4 Ordner, 3 Bilder, 6 Dokumente.
+- **Rey_Adolphe_Augustin** — Pariser Reformwohnbau-Architekt der Fondation Rothschild Rue de Prague 1905; 1 Projekt, 8 Bilder.
+- **Rhytmeier_Furrer** — Winterthurer Buero Rittmeyer und Furrer (Slug-Schreibfehler) mit Wettbewerb Gross-Zuerich 1918; 3 Ordner, 1 Dokument.
+- **Richardson_Henry_Hobson_1838_86** — amerikanischer Romanik-Erneuerer mit Glessner House und Marshall Field's Chicago; 6 Ordner, 31 Bilder, 7 Dokumente.
+- **Ridolfi_Mario_1904_1984** — roemischer Neorealist mit INA-Casa und Torri Viale Etiopia; 11 Projekte, 22 Bilder, 5 Dokumente.
+- **Riehmer_Wilhelm_Bauherr** — Maurermeister-Bauherr des Riehmers Hofgarten Berlin (kein Architekten-Dossier im engeren Sinn); 1 Projekt, 2 Dateien.
+- **Rietveld_Gery** — Gerrit Rietveld (Slug-Schreibfehler) mit Kroeller-Mueller-Pavillon Otterlo; fast leer, 3 Bilder.
+- **Rimini_Alessandro** — Mailaender Architekt (Einordnung); fast leer, 2 Bilder.
+- **Riphahn** — Koelner Wilhelm Riphahn (Slug ohne Vorname), Ausstellungsmaterial; 1 Ordner, 12 Bilder, 2 Dokumente.
+- **RobertMalletStevens** — Robert Mallet-Stevens, Paris (CamelCase-Slug); fast leer, 4 Bilder.
+- **Rocha_Tombai** — Amsterdamer Buero Rocha Tombal (Slug-Schreibfehler); 1 Ordner, 60 Bilder, 2 Dokumente.
+- **Roesler_Sascha** — Architekturforscher, nur Vortragseinladung Hochschule Luzern; 1 Dokument.
+- **Rogers_Richard** — britischer High-Tech-Vertreter mit Lloyd's-of-London-Buchscans; 1 Ordner, 22 Bilder, 1 Dokument.
+- **Rohn_Roland** — Zuercher Nachkriegs-Geschaeftsbau und Roche-Hausarchitekt (Nachfolger Salvisbergs); 7 Ordner, 68 Bilder, 2 Dokumente.
+- **Rolli_Boss_Architekten** — Basler Buero mit Helvetiaplatz 10 und Binningen; 2 Projekte, 6 Bilder.
+- **Romano_Giulio _1499_1546** — Manierist Giulio Romano mit Palazzo del Te Mantua (Leerzeichen im Slug); 4 Ordner, 45 Bilder, 2 Dokumente.
+- **Romero_Schaefle** — Zuercher Buero Romero und Schaefle mit Privatklinik Hohenegg und SIA-Hochhaus; 5 Projekte, 32 Bilder, 101 Dokumente.
+- **Rosenauer_Michael_1884_1971** — Wiener in London mit Time-Life-Building und Arlington House; 2 Projekte, 9 Bilder, 2 Dokumente.
+- **Rossellino_Bernardo** — Renaissance-Baumeister (Pienza); Projektordner Palazzo Piccolomini vorhanden, aber 0 Dateien.
+- **Rossetti_Biagio** — Ferrareser Renaissance-Staedtebauer mit Palazzo dei Diamanti; 1 Projekt, 1 Bild.
+- **Rossi_Aldo** — Tendenza-Hauptvertreter mit 18 Projektordnern von Gallaratese ueber Friedhof Modena bis Teatro del Mondo; 117 Bilder, 45 Dokumente.
+- **Rouse_Goldstone** — nur ein Kompendium-Blatt The Rivera New York; 1 Dokument.
+- **Rowe_Collin** — Theoretiker Colin Rowe (Slug-Schreibfehler), Collage City und Ungers-Rowe-Text; 1 Ordner, 5 Bilder, 3 Dokumente.
+- **Rowntree_Kenneth _1915_1997** — britischer Maler (kein Architekt, Leerzeichen im Slug); 1 Bild.
+- **Ruch_Hansjoerg** — Engadiner Hans-Joerg Ruch mit Interventionen in historischen Haeusern; 2 Projekte, 24 Bilder, 2 Dokumente.
+- **Ruchat_Roncati_Flora** — Tessiner Tendenza-Mitbegruenderin und erste ETH-Professorin; 1 Ordner, 1 Bild, 3 Dokumente.
+- **Ruf Sepp** — deutscher Nachkriegsmoderner Sep Ruf (Slug-Schreibfehler); Ordner komplett leer, 0 Dateien.
+- **Russli_Architekten** — Luzerner Buero Ruessli (Einordnung); fast leer, 3 Bilder.
+- **S2_Stucki_Schneebeli_Architekten** — Zuercher Buero mit EWZ-Areal und Rio Bar; 2 Ordner, 24 Bilder, 4 Dokumente.
+- **SAM_Architekten** — Zuercher Buero SAM (Einordnung); fast leer, 1 Bild.
+- **SANAA** — Sejima und Nishizawa, Tokio, mit Small House; 2 Ordner, 12 Bilder.
+- **SMARCH_mathys_Stuecheli** — Berner Buero smarch Mathys und Stuecheli (Grossbuchstaben-Slug); fast leer, 2 Dokumente.
+- **SOM** — Skidmore Owings and Merrill mit AT and T Center Chicago, Union Carbide und Beinecke Library; 5 Ordner, 70 Bilder, 1 Dokument.
+- **Saarinen_Eero** — amerikanisch-finnischer Schalenbau-Meister mit TWA Terminal und Dulles Airport; 5 Ordner, 20 Bilder, 2 Dokumente.
+- **Saarinen_Eliel** — finnischer Nationalromantiker mit Bahnhof Helsinki, Cranbrook und Tribune-Tower-Entwurf; 9 Ordner, 32 Bilder, 7 Dokumente.
+- **SabArchitekten** — Basler sabarchitekten mit Quartierzentrum Breite (CamelCase-Slug); 3 Ordner, 9 Bilder, 4 Dokumente.
+- **Saenz_de_Oiza_Francisco** — Madrider Nachkriegsmoderner (Einordnung); Projektordner vorhanden, aber 0 Dateien.
+- **Salvisberger_Otto_Rudolf** — Otto Rudolf Salvisberg (Slug-Schreibfehler): SUVA-Haus Bern, Roche Basel, ETH-Maschinenlaboratorium und Kinderspital Zuerich; 8 Projekte, 44 Bilder, 38 Dokumente.
+- **Sangallo_da_Giuliano** — Giuliano da Sangallo mit Santa Maria delle Carceri Prato; 9 Ordner (meist generische Struktur), 16 Bilder, 3 Dokumente.
+- **Sansovino_Jacopo** — venezianische Hochrenaissance mit Loggetta und Villa Garzoni; 3 Projekte, 82 Bilder, 1 Dokument.
+- **Sant_Elia_Antonio_und_die_Citta_Nuova_1914** — Futurist Antonio Sant'Elia (Projekttitel im Slug); 14 Bilder ohne Projekte.
+- **Santi_Raffael** — Raffael als Baumeister mit Villa Madama Rom; 3 Ordner, 151 Bilder, 30 Dokumente.
+- **Sartoris_Alberto** — italienisch-schweizerischer Rationalist (Einordnung); fast leer, 3 Bilder.
+- **Sassenroth_Peter_Teitermann** — Kapelle der Versoehnung Berlin von Reitermann und Sassenroth (Slug-Schreibfehler Teitermann); 1 Projekt, 3 Bilder.
+- **Sauerbruch_Hotton_Architekten** — Berliner Buero Sauerbruch Hutton (Slug-Schreibfehler); 9 Bilder ohne Projekte.
+- **Saulnier_Jules** — Erbauer der Menier-Fabrik Noisiel (Einordnung); 1 Bild.
+- **Sauvage_Henrry** — Pariser Stufenhaus-Pionier Henri Sauvage (Slug-Schreibfehler) mit Rue Vavin; 2 Ordner, 15 Bilder, 1 Dokument.
+- **Scamozzi_Vincenzo_1548_1616** — Spaetrenaissance-Architekt mit Theater Sabbioneta und Vicenza; 5 Ordner, 21 Bilder.
+- **Scarpa_Carlo** — venezianischer Detail-Meister mit Castelvecchio, Querini Stampalia und Biennale-Bauten; 8 Projekte, 165 Bilder, 7 Dokumente.
+- **Schader_Kt_Freudenberg** — Jacques Schader, Kantonsschule Freudenberg Zuerich (Slug mischt Person und Projekt); 3 Bilder.
+- **Scharoun_Hans** — Berliner Organiker mit Philharmonie, Kammermusiksaal und Haus Schminke; 6 Ordner, 85 Bilder, 1 Dokument.
+- **Schattner_Karl_Joseph** — Karljosef Schattner, Eichstaett (Einordnung); fast leer, 6 Bilder.
+- **Scheidegger_Keller** — Zuercher Buero mit Abdankungskapelle, Studentenwohnen Rosengarten und Wochenendhaus Wilen; 9 Ordner, 120 Bilder, 10 Dokumente.
+- **Schett_Wolfgang** — ETH-Professor mit Vorlesungsarchiv Architektur IV; 6 Ordner, 108 Bilder, 21 Dokumente.
+- **Schilling_Hans** — Koelner Kirchenbauer mit St Alban; 2 Ordner, 4 Bilder, 3 Dokumente.
+- **Schindler_Rudolph** — Wiener in Los Angeles mit Schindler House und Lovell Beach House; 5 Projekte, 17 Bilder, 3 Dokumente.
+- **Schinkel_Karl_Friedrich_1781_1841** — preussischer Klassizist mit Altem Museum, Bauakademie und Neuer Wache, Hauptbestand der Charge; 11 Projekte, 282 Bilder, 30 Dokumente.
+- **Schlup Max** — Bieler Architekt (Einordnung); fast leer, 2 Bilder.
+- **Schmid_Schaerer_Architekten** — Zuercher Buero (Einordnung); fast leer, 3 Bilder.
+- **Schmidt_Werner** — Strohballen-Architekt Trun GR, nur Vortragseinladung; 1 Dokument.
+- **Schmitthenner Paul** — Stuttgarter-Schule-Traditionalist mit Gartenstadt Staaken; 1 Projekt, 19 Bilder, 1 Dokument.
+- **Schnaidt_Claude** — schweizerisch-franzoesischer Theoretiker (HfG Ulm, Bill-Schueler); generische Struktur, 1 Dokument.
+- **Schneider_Oelsen** — kryptischer Ordner (Projektordner "internetseite sihe infobox ordner komentar"), 0 Dateien.
+- **Schneider_Studer_Primas** — Zuercher Buero (Einordnung); fast leer, 5 Bilder.
+- **Schneller Andreas** — Name ungeklaert, Projektordner Holziken; 20 Bilder.
+- **Schuerer_Architekten** — Zuordnung offen; 5 Bilder.
+- **Schultes_Frank** — vermutlich Axel Schultes und Charlotte Frank, Berlin (Einordnung); generische Struktur, 17 Bilder.
+- **Schumacher_Fritz** — Hamburger Reformarchitekt und Stadtbaumeister; 2 Ordner, 41 Bilder, 4 Dokumente.
+- **Schwartz_Fabien** — ETH-Diplom HS 2011 (Professur Sik), Studienarbeit; 2 Ordner, 5 Bilder, 11 Dokumente.
+- **Schwarz_Dietrich** — GlassX-Professor, nur Vortragseinladung; 1 Dokument.
+- **Schwarz_Felix_Rolf_Gutmann_Basel** — Basler Duo Felix Schwarz und Rolf Gutmann mit Theater-Basel-Material; generische Struktur, 11 Bilder, 1 Dokument.
+- **Schwarz_Rudolf_1897_1961** — Koelner Kirchenbaumeister der Nachkriegsmoderne mit 16 Kirchenordnern von Aachen bis Wien; 53 Bilder, 15 Dokumente.
+- **Schwippert_Hans** — deutscher Nachkriegsmoderner (Bonner Bundeshaus, Einordnung); 12 Bilder ohne Projekte.
+- **Schwitters_Kurt** — Dada-Kuenstler (Merzbau, kein Architekt im engeren Sinn); generische Struktur, 8 Bilder.
+- **Scott_Baillie** — M. H. Baillie Scott (Slug verdreht) mit Blackwell Windermere; 1 Projekt, 15 Bilder, 3 Dokumente.
+- **Sebrowitz_Jurkovic_Dusan_Sebrowitz** — Dusan Jurkovic, kryptischer Slug mit Doppelung; Projektordner Resek Landhaus, 0 Dateien.
+- **Seddig** — Name ungeklaert; 2 Bilder.
+- **Seilerlinhard_Architekten** — Luzerner Buero Seiler Linhart (CamelCase-Slug) mit Wohnhaus Tschanz Sarnen; 1 Projekt, 12 Bilder.
+- **Semadenin Armon Architekten** — Zuercher Armon Semadeni (Slug verdreht und verschrieben) mit Oerlikon Tower; 1 Projekt, 3 Bilder.
+- **Semper_Gottfried_1803_79** — Historismus-Hauptmeister mit 13 Ordnern von den Dresdner Hoftheatern bis Polytechnikum und Sternwarte Zuerich; 141 Bilder, 136 Dokumente.
+- **Senn_Andy** — St. Galler Architekt mit Krematorium-Wettbewerb (Hochparterre); generische Struktur, 7 Bilder, 1 Dokument.
+- **Senn_Otto** — Basler Architekt mit Interbau-Wohnhaus Berlin; fast leer, 2 Dateien.
+- **Sergison_Bates_Dublin** — Londoner Buero Sergison Bates (Slug-Zusatz Dublin ungeklaert) mit 17 Projektordnern von Aldershot bis Mendrisio und Vals; 30 Bilder, 16 Dokumente.
+- **Serlio_Sebastian_1475_1554** — Renaissance-Traktatist Sebastiano Serlio mit tragischer Szene; 2 Ordner, 56 Bilder, 2 Dokumente.
+- **ShOP** — New Yorker SHoP Architects mit Uber Headquarter San Francisco; 1 Projekt, 9 Bilder.
+- **Shaker** — Bausammlung der Shaker-Gemeinschaften (Bewegung, kein Architekt); 7 Bilder.
+- **Shaw_Richard_Norman** — britischer Queen-Anne-Erneuerer mit Chiswick; 1 Projekt, 13 Bilder.
+- **Shinohara Kazuo** — japanischer Wohnhaus-Meister mit House in White und Seastairway; 7 Ordner, 268 Bilder, 12 Dokumente.
+- **Shizuoka** — japanischer Ortsname als Slug; nur generische Ablagestruktur, 0 Dateien.
+- **Sigg** — Name ungeklaert; 5 Bilder.
+- **Sik_Miroslav** — ETH-Professur-Archiv Miroslav Sik (Administration, Schriftverkehr, Semestervorbereitungen) plus Musikerwohnhaus Zuerich, groesster Bestand der Charge; 6 Ordner, 459 Bilder, 128 Dokumente, 28 CAD, total 896 Dateien.
+- **Siza_Alvaro_Vieira** — portugiesischer Pritzker-Preistraeger mit 9 Ordnern von Boa Nova ueber Bouca und Malagueira bis Expo-Pavillon; 89 Bilder, 1 Dokument.
+- **Siza_Vieira_A_lavaro_Leite** — Casa Tolo des Sohns Alvaro Leite Siza Vieira (Akzent-Slug, Katalogdatei zerlegt); 1 Projekt, 22 Bilder.
+- **Smiljan Radic** — leerer Doppelordner (Endleerzeichen im Slug) zu Radic_Smjlian; 0 Dateien.
+- **Smith Samuel Modell** — kryptischer Slug (Modellfotos?); 2 Bilder.
