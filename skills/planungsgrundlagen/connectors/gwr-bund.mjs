@@ -114,6 +114,15 @@ const CODES = {
     7650: "Waermekraftkopplungsanlage (WKK)",
     7660: "Waermetauscher (Fernwaerme)", 7680: "andere", 7699: "unbestimmt",
   },
+  gvolnorm: { // GVOLNORM — Norm der Gebaeudevolumen-Berechnung (Merkmalskatalog GWR 4.2, S. 63)
+    961: "SIA-Norm 116", 962: "SIA-Norm 416", 969: "unbekannt",
+  },
+  gvolsce: { // GVOLSCE — Informationsquelle zum Gebaeudevolumen (Merkmalskatalog GWR 4.2, S. 63f.)
+    851: "amtliche Vermessung", 852: "amtliche Schaetzung", 853: "Gebaeudeversicherung",
+    857: "Eigentuemer/in / Verwaltung", 858: "Gebaeudeenergieausweis (GEAK)",
+    859: "andere", 869: "Baubewilligung", 870: "topografisches Landschaftsmodell (TLM)",
+    878: "nicht bestimmbares Volumen (nicht geschlossenes Gebaeude)",
+  },
   energietraeger: { // genh1/2, genw1/2 — Energie-/Waermequelle
     7500: "keine", 7501: "Luft", 7510: "Erdwaerme (generisch)",
     7511: "Erdwaermesonde", 7512: "Erdregister",
@@ -215,7 +224,8 @@ function shape(at) {
       anzahl_wohnungen: num(at.ganzwhg),
       gebaeudeflaeche_m2: num(at.garea),
       gebaeudevolumen_m3: num(at.gvol),
-      gebaeudevolumen_norm: at.gvolnorm ?? null,
+      gebaeudevolumen_norm: dec(CODES.gvolnorm, at.gvolnorm),
+      gebaeudevolumen_quelle: dec(CODES.gvolsce, at.gvolsce),
     },
     energie: {
       energiebezugsflaeche_m2: num(at.gebf),
@@ -263,7 +273,7 @@ function steckbrief(s) {
     `- Geschosse oberirdisch: ${g.geschosse_oberirdisch ?? "—"}`,
     `- Anzahl Wohnungen: ${g.anzahl_wohnungen ?? "—"}`,
     `- Gebaeudeflaeche: ${fmt(g.gebaeudeflaeche_m2)} m2`,
-    `- Gebaeudevolumen: ${fmt(g.gebaeudevolumen_m3)} m3${g.gebaeudevolumen_norm ? ` (Norm ${g.gebaeudevolumen_norm})` : ""}`,
+    `- Gebaeudevolumen: ${fmt(g.gebaeudevolumen_m3)} m3${g.gebaeudevolumen_norm ? ` (Norm ${g.gebaeudevolumen_norm})` : ""}${g.gebaeudevolumen_quelle ? ` · Quelle ${g.gebaeudevolumen_quelle}` : ""}`,
     ``,
     `## Energie (Basis Energienachweis / EVEN)`,
     `- Energiebezugsflaeche (EBF): ${fmt(e.energiebezugsflaeche_m2)} m2`,

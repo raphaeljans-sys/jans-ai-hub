@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.07.2026 06:24:37
+Stand: 02.07.2026 06:34:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:24)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 02.07.2026 06:24:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 397ab70 energie-training Run 24: Klimapraemie-Laufzeit aufgeloest + WPesti/SIA 384/3 JAZ-Methode + Health-Check-Kleinfixes
+- 6991274 nas-selfcommit: 7 Datei(en) 2026-07-02 06:30
