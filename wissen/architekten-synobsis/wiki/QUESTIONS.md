@@ -1,6 +1,6 @@
 # QUESTIONS — Offene Luecken und Klaerungsbedarf
 
-Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 3/6 (452 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
+Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 4/6 (585 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
 
 ## 1 Leere oder fast leere Ordner
 
@@ -65,6 +65,14 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 3/6 (452 von 853 Ordnern kur
 - **Hotz_Theo** — nur 5 Dateien; fuer die Bedeutung des Bueros sehr duenn (analog Gigon_Guyer). Ergaenzen?
 - **Hufnagel** — nur generische Ablagestruktur 00 bis 07 mit 2 Bildern. Welches Buero ist gemeint (Hufnagel Puetz Rafaelian?)?
 - **Hankar_Paul, Harwell_Hamilton_Harris, Haussmann_Trix, Helle, Herrle_Stoll, Hetzberger_Hermann, Hofmann_Ludwig, Hollein_Hans, Holzer_Kobler, Holzhammer_Franz, Hopkins_Michael, Horvat_Paolo, Hustistein_Partner, Imhof_Edi, Jabornegg_Pálffy, Jackson_Clements_Burrows, Jaeckel_Fabian, Kai_Fisker, Kampmann, Kaufmann_Hermann, Keles_Oetzguer, Kjellander Sjoberg, Kjærholm-Hauses, Kleihuus, Klein_Alexander, Klement_Juergen, Knorr, Koch_Alexander, Krier_Leon, LUCA_SELVA, La_Pierre_Eric, Lassen_Heinrich, Lauterbach_Heinrich, Lazarini_Fenster** — je 1 bis 8 Dateien. Sammelfrage Charge 3: als Merkposten belassen oder gezielt fuellen?
+
+- **Moller_C_F, Morris_Jasper, Morscher_Architekten, Noirjean_Adrien** — Ordner komplett leer (0 Dateien). Fuellen oder entfernen?
+- **Meyer_de_J und Nash John** — Projektordner vorhanden (Mercatorstraat 1926, London Westend Terrassen), aber 0 Dateien. Fuellen oder entfernen?
+- **Ligorio_Pirro und Paillard_Claude** — nur leere Standard-Ablagestruktur, 0 Dateien. Gerade Paillard (Zuercher Nachkriegsmoderne) waere ausbauwuerdig.
+- **Meyer_Hannes** — Bauhaus-Direktor mit nur 1 Dokument; ausbauen? Zudem Verwechslungsgefahr mit dem Einzelbild-Ordner Meier_Hannes («Schulhaus mit Bauhaus») — klaeren, ob dasselbe gemeint ist.
+- **Nash_Paul_1889_1946** — britischer Maler, kein Architekt. Gehoert der Ordner in die Bibliothek?
+- **Le_Vau_Louis, Leuzinger_Hans, Leonidov_Ivan, Lodoli, Luebps_Atelier, Lundgaard_Tranberg_Arkitekter_Copenhagen, Maas_Wini, Maguire_Murray, Mansila, Mawson_Thomas_H, McKim, McMorran_Withby, Meck_Architekten, Meier_Juergen_H, Menn_Corinna, Menz_Sascha, Mirlo_urbano_Architekten, Mitzutome, Moesch_Kunz, Morgan_Julia, Moser_Wegestein, Murcutt Glenn, Musman_Ernest_Brander_1888_1972, Mutheisius_Hermann, Muzio Lorenzo, Nelson_Paul, Nikisch Walder, OMA, Oester Pfeninger, Oswald_Hannes, Owen_Williams, Page Anna, Pavel_Janack, Pei, Perraults_Dominique, Perrot** — je 1 bis 9 Dateien. Sammelfrage Charge 4: als Merkposten belassen oder gezielt fuellen?
+- **Luebps_Atelier, Mitzutome, Moesch_Kunz, Perrot, Page Anna, Oswald_Hannes, Meier_Juergen_H, Morris_Jasper, Malvez_Elia** — Namen ohne erkennbare Zuordnung. Wer ist jeweils gemeint (Buero, Person, Studienarbeit)?
 
 ## 2 Unklare Slugs und Schreibfehler im Quellordner
 
@@ -154,6 +162,33 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 3/6 (452 von 853 Ordnern kur
 - **LUCA_SELVA** — Grossbuchstaben-Slug; Normierung auf Selva_Luca?
 - **Josep_Llinas / Kengo_Kuma / Kenzo_Tange / Knut_Knutsen / Kai_Fisker / Kay_Fisker** — Vorname-Nachname-Reihenfolge entgegen der Konvention. Normieren?
 
+- **Miller Maranta / Miller_Maranta** — Doppelordner desselben Basler Bueros; im Katalog kollidieren beide auf EINE Datei Miller_Maranta.json (siehe Sektion 4). Zusammenfuehren (nach Freigabe)?
+- **Llinas_Joseph / Josep_Llinas** — Doppelordner desselben Barcelonesen (Chargen 3 und 4), einmal in jeder Namensreihenfolge. Zusammenfuehren?
+- **Lubetkin_Berthold / Lubetkin_Tecton** — Doppelordner; Tecton war Lubetkins Gruppe. Zusammenfuehren?
+- **Maas_Wini / MVRDV** — Winy Maas (Schreibfehler «Wini») ist MVRDV-Gruender; mit MVRDV zusammenfuehren?
+- **OMA / Koolhaas_Rem_OMA** — Doppelordner desselben Bueros. Zusammenfuehren?
+- **Pavel_Janack / Janack_Pavel** — Doppelordner desselben Pragers (Chargen 3 und 4). Zusammenfuehren?
+- **Meili Armin / Meili Partner / MPP** — drei M-Ordner mit Meili-Bezug; Verhaeltnis klaeren (Armin Meili ist der historische Architekt, Meili Partner und MPP wirken wie Buero-Arbeitsarchive, vermutlich Marcel Meili / Markus Peter (Einordnung)).
+- **Lewerentz_Sigur** — korrekt Sigurd Lewerentz. Umbenennung?
+- **Leutwiler_Architekten** — das Zuger Buero schreibt sich leutwyler architekten. Umbenennung?
+- **Loelinger_Strub** — korrekt Loeliger Strub Architektur. Umbenennung?
+- **Mansila** — korrekt Mansilla + Tunon (Madrid). Umbenennung?
+- **McMorran_Withby** — korrekt McMorran & Whitby. Umbenennung?
+- **Morger_Dettilin** — korrekt Morger Dettli. Umbenennung?
+- **Muelletaler_Rolf** — korrekt Rolf Muehlethaler. Umbenennung?
+- **Mutheisius_Hermann** — korrekt Hermann Muthesius. Umbenennung?
+- **Nikisch Walder** — korrekt Nickisch Walder (Flims/Chur). Umbenennung?
+- **Nouvell_Jean** — korrekt Jean Nouvel. Umbenennung?
+- **Oester Pfeninger** — korrekt Oester Pfenninger. Umbenennung?
+- **Olbricht_Joseph_Maria** — korrekt Joseph Maria Olbrich. Umbenennung?
+- **Perraults_Dominique** — korrekt Dominique Perrault. Umbenennung?
+- **Paul_Rudolph / Pei** — Paul_Rudolph in verdrehter Reihenfolge (korrekt Rudolph, Paul), Pei ohne Vorname (I. M. Pei). Normieren?
+- **Mackintosh_Charles_Rennie_1868_28** — Jahresangabe verstuemmelt (korrekt 1868 bis 1928). Normieren?
+- **Meier_Richard** — Projektordner «San Diego Getty Center»: das Getty Center steht in Los Angeles. Ortsangabe korrigieren.
+- **Munzer_Gustav_August** — Projektordner «Lavoe» (korrekt Laboe, Kieler Bucht). Korrigieren?
+- **Muzio Lorenzo** — Verhaeltnis zu Muzio_Giovanni_1893_1982 klaeren (Lorenzo Muzio war Partner im Studio des Vaters, Einordnung); allenfalls zusammenfuehren.
+- **Lussi Halter, Maibach Manuel, Marques Daniele, Meier Hug, Meili Armin, Meili Partner, Melly Benjamin, Melnikov Konstantin, Mueller Sigrist, Murcutt Glenn, Muzio Lorenzo, Nash John, Nikisch Walder, Oester Pfeninger, Olgiati Valerio, Ortner Ortner, Page Anna** — 17 Leerzeichen-Slugs in Charge 4 (Katalogdateien liegen unter Unterstrich-Namen); zudem Melnikov Konstantin, Nash John und Muzio Lorenzo in Vorname-Nachname-Reihenfolge. Normierung der Quellordner pruefen.
+
 ## 3 Sammel- und Zweckordner ohne Architekt-Zuordnung
 
 - **1 Selection** — grosse Best-of-Sammlung (4525 Dateien) nach Raumtypologien, kein Architekt. Frage: als eigene Referenz-KB-Sektion fuehren (z.B. wiki/RAUMTYPOLOGIEN.md mit Inhalt der Unterordner) statt als Architekt? Der Ordner ist fuer Entwurfsreferenzen vermutlich der wertvollste der Bibliothek.
@@ -191,6 +226,12 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 3/6 (452 von 853 Ordnern kur
 - **Kruse_Oliver** — Kuenstler (Insel Hombroich); eher Kunst- als Architekturreferenz.
 - **Hippodamus** — antiker Staedteplaner mit einem Wikipedia-Dossier; als Theorie-Merkposten belassen.
 
+- **MPP** — mit 241271 Dateien (101038 PDF, 61324 JPG, 15911 Mails, 12239 DWG, dazu Honorar-, Devis- und Bauleitungsunterlagen ca. 1995 bis 2019) der groesste Ordner der ganzen Bibliothek. Eindeutig ein Buero-Arbeitsarchiv, kein Referenzarchitekt. Wofuer steht MPP (Meili Peter + Partner?), und soll der Ordner aus der Synobsis in ein eigenes Arbeitsarchiv wandern?
+- **Meili Partner** — Buero-/Bauleitungsarchiv (2026 Dateien; Protokolle Witikonerstrasse 375 Zuerich, nummerierte Projektordner 121 bis 200). Verhaeltnis zu MPP und zum JANS-Kontext klaeren; als Arbeitsarchiv kennzeichnen?
+- **Maibach Manuel, Melly Benjamin, Mueller_Barbara, Malvez_Elia, Meier_Hannes** — Studien-/Semesterarbeiten analog Back_Lukas. Wer sind diese Personen im JANS-Kontext (Studienkollegen, Mitarbeitende)?
+- **Nimbus_Architekten** — 5778 Dateien fuer ein einziges Projekt (Wohnsiedlung Herdernstrasse); wirkt wie ein Baustellen-/Foto-Rohbestand. Sichten und eindampfen?
+- **Menz_Sascha** — ETH-Professor Bauprozess; eher Lehre-Merkposten als Referenzarchitekt (analog Angelil_Marc).
+
 ## 4 Strukturelle Beobachtungen fuer den Scan
 
 - Mehrere Ordner tragen die generische Ablagestruktur 00 Architekten / 01 Projekte / ... (Archigram, Alexander_Christoph, Ashbee teilweise); der Katalog zaehlt diese Strukturordner als "Projekte". Option: Parser so verfeinern, dass nummerierte Standardordner nicht als Projekte gezaehlt werden.
@@ -207,3 +248,8 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 3/6 (452 von 853 Ordnern kur
 - **Jager_Egli_Architekten** — Textauszug ist die Speisekarte des Cafe LUZ (Fehlextraktion); Textquelle im Scan pruefen.
 - Fehlablagen im Quellbestand: «Cohen Preston Scott» liegt in Hasegawa_Go, «Kaeferstein Meister» liegt in Kahn_Adam. Bei Gelegenheit umlagern (nach Freigabe).
 - Keine neue Leerzeichen-/Unterstrich-Katalogkollision in Charge 3/6 festgestellt; alle 133 Slugs der Charge fuehren auf eigene Katalogdateien.
+- DRITTE bestaetigte Leerzeichen-/Unterstrich-Katalogkollision in Charge 4/6: «Miller Maranta» und «Miller_Maranta» fuehren auf EINE Datei Miller_Maranta.json (wie Christ Gantenbein und Enzmann Fischer). Die uebrigen 17 Leerzeichen-Slugs der Charge haben eigene Unterstrich-Katalogdateien ohne Kollision.
+- Generische Standard-Ablagestruktur wird auch in Charge 4/6 als «Projekte» gezaehlt (Lengacher_Emenegger, Ligorio_Pirro, Llewelyn_Davies_Richard_Baron, Llinas_Joseph, Lubetkin_Berthold, Milne_Oswald_Partridge, Morris_William, Nash_Paul, Paillard_Claude). Parser-Verfeinerung bleibt offen.
+- Fehlextraktionen Charge 4/6: MadeIn (Wikipedia-Artikel zu einem Antonioni-Film), Maerkli_Peter (Vectorworks-Wasserzeichen statt Inhalt), Mateo_Josep_Lluis (InDesign-Druckanweisung), Mattioni_Luigi (eBay-Seite), Lengacher_Emenegger (Text ueber Albert Zeyer statt ueber das Buero), Miller_Maranta (defekt kodierter PDF-Text). Textquellen-Auswahl im Scanner pruefen.
+- **MPP** — die Ordnergroesse (241271 Dateien) sprengt das Katalogschema; die dateitypen-Liste umfasst Hunderte Pseudo-Endungen aus Bauleitungs-Dateinamen. Fuer Stufe 2 (Embeddings) ausklammern oder separat behandeln.
+- Keine neuen Umlaut-Zerlegungs-Slugs in Charge 4/6 festgestellt.
