@@ -5,6 +5,7 @@ und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
 ## 2026-07-02
+- Kuratierung Charge 1/6 (133 Architekten, Slugs Bearth_Deplazes bis Du_rr_Otto; 132 einsortiert, 1 Katalog-Duplikat Christ Gantenbein): THEMEN/INDEX/QUESTIONS erweitert, neue Unterkapitel 3.9 Niederlande und Belgien, 3.10 Nordamerika.
 - Stufe-3-Kuratierung (Erstausgabe) fuer die ersten 55 Katalog-JSONs: wiki/ angelegt
   mit THEMEN.md (5 Hauptkapitel: Typologien, Material/Konstruktion, Region/Land,
   Epoche/Stroemung, Haltung/Diskurs; kompoundierend, Kapitel bleiben stabil),
