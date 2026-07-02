@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.07.2026 06:34:42
+Stand: 02.07.2026 06:44:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:25)
@@ -12,4 +12,4 @@ Stand: 02.07.2026 06:34:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6991274 nas-selfcommit: 7 Datei(en) 2026-07-02 06:30
+- 033431f planungsgrundlagen Run 13 (Kartenportale): NEU GWR-Wiki-Artikel + GVOLNORM/GVOLSCE-Decode im Connector (getestet KISPI/Giebelweg)
