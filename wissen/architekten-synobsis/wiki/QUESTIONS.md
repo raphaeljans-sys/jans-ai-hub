@@ -1,6 +1,6 @@
 # QUESTIONS — Offene Luecken und Klaerungsbedarf
 
-Stand: 2026-07-02, Erstausgabe plus Charge 1/6 (187 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
+Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 und 2/6 (319 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
 
 ## 1 Leere oder fast leere Ordner
 
@@ -40,6 +40,19 @@ Stand: 2026-07-02, Erstausgabe plus Charge 1/6 (187 von 853 Ordnern kuratiert). 
 - **Caniggia_Gianfranco** — 5 Bilder ohne Struktur. Als Theorie-Merkposten belassen?
 - **Cedric_Price** — 9 Bilder ohne Struktur; Hauptwerk (Fun Palace, Potteries Thinkbelt) fehlt. Ausbauen?
 - **Diller_Scofidio** — nur 1 Pressetext. Fuer die Bedeutung des Bueros sehr duenn; ergaenzen?
+- **El_Lisizky** — komplett leer (0 Dateien), zudem Schreibfehler (korrekt El Lissitzky). Fuellen oder entfernen?
+- **Fathy_Hassan** — nur leere Ablagestruktur, 0 Dateien. Hassan Fathys Lehmbau-Werk ergaenzen?
+- **Gentz_Heinrich** — nur leere Ablagestruktur, 0 Dateien. Berliner Klassizist ergaenzen oder entfernen?
+- **Frank_Joseph** — Projektordner Wiener Mustersiedlung vorhanden, aber 0 Dateien. Fuellen?
+- **Dyckerhoff_Widmann** — nur Struktur plus 1 Bild; Dywidag ist eine Bauunternehmung, kein Architekturbuero. Gehoert der Ordner in die Bibliothek?
+- **E_Architekten** — 3 Bilder, Name unklar. Welches Buero ist «E Architekten»?
+- **FHV** — nur «Neuer Ordner» mit 2 Bildern. Ist FHV = Fruehauf Henry Viladoms (dann Doppelordner zu Fruehauf_Henry_Viladoms)?
+- **Gigon_Guyer** — nur 6 Dateien (Loewenbraeu). Fuer die Bedeutung des Bueros sehr duenn; ergaenzen?
+- **Fuller_Buckminster** — nur 1 Dokument in leerer Struktur. Ausbauen?
+- **Handa_Heike_Prof** — 12 Bilder ohne Projekte. Wer ist Prof. Heike Handa?
+- **Hadrians** — 6 Dateien; Antike (Villa Adriana?), kein Architekten-Ordner im engeren Sinn. Umwidmen?
+- **Ehrenklau_Katharina, Eicke_Becker, El_Khouli, Eldem, Federico_Zuccari, Fischer_von_Erlach, Fischle, Fujimoto, Fuksas, Gandy_Joseph, Gartmann_Patrick, Gerkan, Gigometti, Gimson_Ernest, Goldsmith_Felix, Graves_Michael, Gray_Eileen, Gregotti_Vittorio, Gruppo_Ligure, Gut_Schoep, Haefliger_Erich, Haenel_Erich, Halliday_James_Theodore_1882_1932** — je 1 bis 4 Dateien. Sammelfrage Charge 2: als Merkposten belassen oder gezielt fuellen?
+- **Eichinger_Gregor, Fry_Edwin_Maxwell_1899_1987, Goldfinger_Ernoe, Fischle, Galfetti_Aurelio** — nur generische Ablagestruktur mit wenigen Dateien. Struktur fuellen oder entfernen?
 
 ## 2 Unklare Slugs und Schreibfehler im Quellordner
 
@@ -79,6 +92,28 @@ Stand: 2026-07-02, Erstausgabe plus Charge 1/6 (187 von 853 Ordnern kuratiert). 
 - **DeKlerk / DeFinetti / BischoffKopp / Dierendonckblanche** — CamelCase-Slugs ohne Unterstrich-Konvention; Normierung pruefen.
 - **Carloni_Tita / Cavadini_Raffaele** — enthalten je einen Duplikat-Unterordner mit Namensvariante (Carloni Tito, Cavadini Raffael).
 - **Beel_Stephane** — korrekt Stephane Beel (Akzent im Original); Slug ok, Anzeige-Name pruefen.
+- **Eisenmann_Peter** — korrekt Eisenman (ein n). Umbenennung nach Freigabe?
+- **Forster_Norman** — korrekt Foster. Umbenennung?
+- **Eames_Charls_Rey** — korrekt Charles und Ray Eames. Umbenennung?
+- **Garnier_Charls_1825_1898** — korrekt Charles Garnier. Umbenennung?
+- **Furrimann_Haechler** — korrekt Fuhrimann Haechler (Andreas Fuhrimann, Gabrielle Haechler). Umbenennung?
+- **Esch Sinzel / Esch_Sinzel_Architekten** — Doppelordner desselben Bueros, korrekt Esch Sintzel (mit t). Zusammenfuehren und normieren?
+- **Enzmann Fischer / Enzmann_Fischer** — ZWEI Quellordner (Leerzeichen und Unterstrich), aber nur EINE Katalogdatei Enzmann_Fischer.json; gleiche Kollision wie Christ Gantenbein. Scan pruefen, Ordner zusammenfuehren (nach Freigabe).
+- **Giuliani Hönger / Giuliani_Hoenger_Zuerich** — Doppelordner desselben Bueros; der Umlaut-Ordner erhaelt den Katalog-Slug Giuliani_Ho_nger. Zusammenfuehren?
+- **Graber Pulver / Graber_Pulver_Architekten** — Doppelordner desselben Bueros. Zusammenfuehren?
+- **Gmür Gschwentner (Gmu_r_Gschwentner)** — Umlaut-Zerlegung im Slug; zudem Naehe zu Gmuer_Patrick (Hardturm liegt in beiden Ordnern; Patrick Gmuer war Partner bei Gmuer Gschwentner). Verhaeltnis klaeren, allenfalls zusammenfuehren.
+- **Fo_rderer** — Umlaut-Zerlegung (Foerderer) und ohne Vorname; gemeint ist wohl Walter Foerderer (Kirche Heremence). Slug praezisieren.
+- **Gessner vs Gessner_Albert** — Restordner Gessner enthaelt Material zu Albert Gessners Miethaus-Publikation. Zusammenfuehren?
+- **Emerson_Tom-6a_Architect** — Bindestrich-Slug; ueberschneidet sich mit dem fast leeren Ordner 6a_Architects. Zusammenfuehren (nach Freigabe)?
+- **GUYER_LUX** — Grossbuchstaben-Slug; Normierung auf Guyer_Lux?
+- **Geissbuehler_Dietere** — korrekt Dieter Geissbuehler. Umbenennung?
+- **Gaertner** — Slug ohne Vorname; gemeint ist wohl Friedrich von Gaertner (Hofbibliothek Muenchen). Praezisieren.
+- **Gocar_Joseph** — korrekt Josef Gocar (Gočár). Umbenennung?
+- **Gabetti_Robert** — korrekt Roberto Gabetti; Partner Aimaro Isola fehlt im Slug. Umbenennung?
+- **Guastavino_Raffael** — korrekt Rafael Guastavino. Umbenennung?
+- **Fischer_Ammann_Architekten_Schulanlage_Freilager_Zu_rich_Albisrieden** — Projekttitel als Ordnername (inkl. Komma und Umlaut-Zerlegung). Umbenennen in Fischer_Ammann und Projektordner darunter anlegen?
+- **Halliday_James Theodore_1882_1932** — Leerzeichen im Quellordnernamen (Katalogdatei mit Unterstrich).
+- **Federico_Zuccari / Giorgio_Martini_Francesco / Francesca_Piero_della** — Vorname-Nachname-Reihenfolge entgegen der Konvention. Normieren?
 
 ## 3 Sammel- und Zweckordner ohne Architekt-Zuordnung
 
@@ -95,6 +130,13 @@ Stand: 2026-07-02, Erstausgabe plus Charge 1/6 (187 von 853 Ordnern kuratiert). 
 - **Celsing_Peter** — enthaelt Ordner «00 unklar» und das Fremdprojekt «BENGT LINDROOS church»; bei Gelegenheit sichten und trennen.
 - **Bofill_Ricardo** — Unterordner «showarch» und «Nicaragua Calle» unklar; sichten.
 - **Dreyer_Otto** — enthaelt «Luzern Haus Jans 1932»: gibt es hier einen Bezug zur Familie Jans? Fuer Raphael pruefenswert.
+- **Eberle** — Inhalt ist die ETH-Professur Dietmar Eberle (Handwerkhefte, Lehre), nicht das Buero. Verhaeltnis zum Ordner Baumschlager_Eberle_Lochau klaeren; als Lehre-Dossier fuehren?
+- **Erhard_Jann** — Werk-/Projektdokumentation «00 jann» (Kindergarten Scaletta Chur 2018, 101 Dateien). Wer ist Jann Erhard beziehungsweise das Buero Jann im JANS-Kontext?
+- **Frochoax** — Diplomprojekt «Brigantine» mit Plots und Detailheft; kryptischer Slug. Wessen Studienarbeit ist das?
+- **Giannaci_Paolo** — Ordner «Paolo Diplom», Studienarbeit. Wer ist Paolo Giannaci?
+- **Hancock_John** — John Hancock Center Chicago ist ein Gebaeude (Architekt SOM), kein Architekt. Umwidmen oder unter SOM fuehren?
+- **Guidotti_Architetti** — Inhalt ist ein Ordner «LVPH architectes»; Fehlablage oder Verwechslung? Sichten.
+- **Frisch_Max** — Schriftsteller als Architekten-Ordner (Freibad Letzigraben ist belegt); so belassen.
 
 ## 4 Strukturelle Beobachtungen fuer den Scan
 
@@ -104,3 +146,6 @@ Stand: 2026-07-02, Erstausgabe plus Charge 1/6 (187 von 853 Ordnern kuratiert). 
 - **Brandlhuber** — der Textauszug stammt aus einem Mode-Blog (Fehlextraktion); Textquelle im Scan pruefen.
 - **Bo_Bardi_Lina** — Textauszug ist eine abgespeicherte Google-Suchseite; geringer Quellenwert.
 - Der Katalog-Scanner zerlegt Umlaute/Akzente in Ordnernamen zu Unterstrich-Slugs (Du_rr_Otto, Boulle_e_...); Slugs mit Leerzeichen (Blaf Architekten, Cedric Price, Conte Pianetti Zanetta Arch ) erhalten Katalogdateien mit Unterstrichen. Ein konsistentes Slug-Mapping wuerde die Verlinkung stabilisieren.
+- Die generische Standard-Ablagestruktur wird auch in Charge 2/6 als «Projekte» gezaehlt (Dyckerhoff_Widmann, Ellis_Peter, Elsaesser, Fathy, Fehn, Fischle, Fry, Fuller, Gentz, Goldfinger, Goldsmith, Gruppo_Ligure, Haefliger, Haller, Halliday). Parser-Verfeinerung bleibt offen.
+- Umlaut-Zerlegung setzt sich in Charge 2/6 fort: Fo_rderer, Gmu_r_Gschwentner, Giuliani_Ho_nger, Fischer_Ammann..._Zu_rich_Albisrieden.
+- Zweite bestaetigte Katalog-Kollision Leerzeichen-/Unterstrich-Ordner: Enzmann Fischer / Enzmann_Fischer fuehren auf EINE Datei Enzmann_Fischer.json (wie Christ Gantenbein). Der Scanner sollte kollidierende Slugs erkennen und beide Quellordner ausweisen.

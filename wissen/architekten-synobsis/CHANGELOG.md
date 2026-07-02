@@ -5,6 +5,7 @@ und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
 ## 2026-07-02
+- Kuratierung Charge 2/6 (133 Architekten, Slugs Dyckerhoff_Widmann bis Handa_Heike_Prof; 132 einsortiert, 1 Katalog-Kollision Enzmann Fischer/Enzmann_Fischer): THEMEN/INDEX/QUESTIONS erweitert, Stand 319/853; keine neuen Unterkapitel; Top-Bestaende Emerson_Tom (322 Dateien), Gropius (165), Eberle (159), Foster (150), Haefeli_Moser_Steiger (122).
 - Kuratierung Charge 1/6 (133 Architekten, Slugs Bearth_Deplazes bis Du_rr_Otto; 132 einsortiert, 1 Katalog-Duplikat Christ Gantenbein): THEMEN/INDEX/QUESTIONS erweitert, neue Unterkapitel 3.9 Niederlande und Belgien, 3.10 Nordamerika.
 - Stufe-3-Kuratierung (Erstausgabe) fuer die ersten 55 Katalog-JSONs: wiki/ angelegt
   mit THEMEN.md (5 Hauptkapitel: Typologien, Material/Konstruktion, Region/Land,

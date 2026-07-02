@@ -1,6 +1,6 @@
 # INDEX — Kurzdossiers der kuratierten Architekten
 
-Stand: 2026-07-02, 187 von 853 Ordnern (Erstausgabe A bis Ba plus Charge 1/6, Bearth_Deplazes bis Du_rr_Otto). Eine Zeile pro Ordner, alphabetisch. Zahlen aus dem Katalog (Projekte / Bilder / Dokumente). Einordnungen ohne Katalogbeleg sind mit (Einordnung) markiert.
+Stand: 2026-07-02, 319 von 853 Ordnern (Erstausgabe A bis Ba, Charge 1/6 Bearth_Deplazes bis Du_rr_Otto, Charge 2/6 Dyckerhoff_Widmann bis Handa_Heike_Prof). Eine Zeile pro Ordner, alphabetisch. Zahlen aus dem Katalog (Projekte / Bilder / Dokumente). Einordnungen ohne Katalogbeleg sind mit (Einordnung) markiert.
 
 - **1 Selection** — Sammelordner ohne Architekt: kuratierte Best-of-Bibliothek nach Raumtypologien (fliessend, modular, zentral usw.), Grundrisse und Wettbewerbe; 14 Unterordner, 3360 Bilder, 582 Dokumente, 23 CAD.
 - **6a Architects** — Londoner Buero (Einordnung); Ordner fast leer, nur 1 Bild, keine Projekte, keine Dokumente.
@@ -189,3 +189,135 @@ Stand: 2026-07-02, 187 von 853 Ordnern (Erstausgabe A bis Ba plus Charge 1/6, Be
 - **Durm_Joseph** — Karlsruher Architekt der Kunsthalle Karlsruhe; 2 Ordner, 6 Bilder.
 - **Durrer_Linggi** — Zuercher Buero mit Portfolio 2011; 1 Bild, 1 Dokument.
 - **Du_rr_Otto** — Zuercher Architekt Otto Duerr mit Strandbad Tiefenbrunnen und Glaspavillon (Slug aus Umlaut-Zerlegung «Du_rr»); 3 Ordner, 5 Bilder, 5 Dokumente.
+- **Dyckerhoff_Widmann** — Betonbau-Unternehmung Dywidag (Einordnung), kein Architekturbuero; nur generische Ablagestruktur, 1 Bild.
+- **E2A_Eckert_Eckert_Architekten** — Zuercher Buero E2A (Piet und Wim Eckert) mit taz-Haus Berlin, Europaallee, Escherpark und Wasserschutzpolizei Mythenquai; 4 Projekte, 17 Bilder, 6 Dokumente.
+- **EM2N** — Zuercher Buero mit Toniareal, Theater 11 Oerlikon, Viadukt und Naturhistorischem Museum Basel; 8 Ordner, 10 Bilder, 6 Dokumente.
+- **EMI** — Zuercher Wohnbaubuero EMI Architekten mit Steinwies-/Irisstrasse Hottingen, Guggach 2 und Signau; 9 Ordner, 49 Bilder, 10 Dokumente, 6 CAD.
+- **E_Architekten** — ungeklaerter Slug mit 3 Bildern, keine Projekte, keine Dokumente.
+- **Eames_Charls_Rey** — Charles und Ray Eames (Slug-Schreibfehler) mit Case Study House No 8 Pacific Palisades; 4 Ordner, 27 Bilder, 3 Dokumente.
+- **Eberle** — Materialsammlung der ETH-Professur Dietmar Eberle (Handwerkhefte, Downloads); 1 Ordner, 37 Bilder, 96 Dokumente.
+- **Ebers_Joerg** — Architekt mit einem Wohnhaus in Berlin; 1 Projekt, 8 Bilder.
+- **Edelmann_krell_architekten** — Buero Edelmann Krell mit Werkdokumentation Bauten 2008 bis 2011 (EFH Oberkirch, Umbau Salzhaus); 1 Bild, 2 Dokumente.
+- **Egeraat_Erick_van** — niederlaendischer Architekt Erick van Egeraat mit Sumatrakontor HafenCity Hamburg; 2 Ordner, 7 Bilder, 1 Dokument.
+- **Ehrenklau_Katharina** — fast leerer Ordner, 2 Bilder; Zuordnung offen.
+- **Eichinger_Gregor** — Wiener Architekt (Eichinger oder Knechtl, Einordnung); fast leer, 3 Bilder, 2 Dokumente (Vortragseinladung Luzern).
+- **Eicke_Becker** — vermutlich Eike Becker Architekten Berlin (Einordnung); fast leer, 2 Bilder.
+- **Eisenmann_Peter** — Peter Eisenman (Slug-Schreibfehler) mit Holocaust-Denkmal Berlin, IBA und House VI Cornwall; 4 Ordner, 10 Bilder, 65 Dokumente.
+- **El_Khouli** — nur 1 Dokument (Vortragseinladung Sebastian El Khouli, HSLU); fast leer.
+- **El_Lisizky** — komplett leerer Ordner (0 Dateien) fuer El Lissitzky (Slug-Schreibfehler).
+- **Eldem** — Sedad Eldem Istanbul mit Beleg Taslik-Kaffeehaus 1947/48; nur 1 Dokument.
+- **Ellis_Peter** — Liverpooler Bueropionier mit Oriel Chambers 1864 (fruehes Eisenskelett); generische Struktur, 28 Bilder, 2 Dokumente.
+- **Elsaesser_Martin_1884_1957** — deutscher Architekt (Frankfurt/Stuttgart) mit Wikipedia-Dossier; generische Ablagestruktur, 29 Bilder, 6 Dokumente.
+- **Emerson_Tom-6a_Architect** — groesster Bestand der Charge: Tom Emerson (6a architects, ETH-Studio) mit South London Gallery, Churchill College, V&A Fashion Gallery und Tree House; 8 Ordner, 301 Bilder, 19 Dokumente.
+- **Enzmann_Fischer** — Zuercher Buero Enzmann Fischer mit Himmelrichquartier, Musikhochschule, Staatsarchiv und Uni Luzern; im Quellbestand ZWEI Ordner-Schreibweisen (Leerzeichen und Unterstrich), der Katalog fuehrt nur eine Datei; 5 Ordner, 20 Bilder, 1 Dokument.
+- **Erhard_Jann** — Werk-/Projektdokumentation «00 jann» mit Kindergarten Scaletta Chur 2018; Zuordnung offen; 18 Bilder, 72 Dokumente.
+- **Erickson_Arthur** — kanadischer Architekt mit Smith House 1964; 2 Ordner, 12 Bilder.
+- **Ericson_Sigfrid_Bjerke_Arvid** — Goetaplatsen Goeteborg (Ericson/Bjerke, dazu Konzerthaus von Nils Einar Eriksson); 1 Projekt, 44 Bilder, 1 Dokument.
+- **Ernst_Heinrich_1846_1916** — Zuercher Architekt des Roten Schlosses 1893; 1 Projekt, 1 Bild, 1 Dokument.
+- **Esch_Sinzel** — Doppelordner (Quellordner mit Leerzeichen) zu Esch Sintzel mit Unterordner «die bestene»; 5 Bilder.
+- **Esch_Sinzel_Architekten** — Zuercher Buero Esch Sintzel (Slug-Schreibfehler) mit Brunnmatt Ost Bern, Weinberg-Passage Chur und Zollerstrasse; 3 Projekte, 23 Bilder, 6 Dokumente.
+- **FHV** — nur «Neuer Ordner» mit 2 Bildern; Kuerzel vermutlich Fruehauf Henry Viladoms (Doppelordner-Verdacht).
+- **Fabiani_Max** — Wagner-Schueler mit Bauten in Wien (Portois & Fix, Palais Artaria), Triest und Ljubljana; 6 Ordner, 25 Bilder, 6 Dokumente.
+- **Fahrenkamp_Emil** — Architekt des Shell-Hauses Berlin 1930 bis 32; 1 Projekt, 8 Bilder, 1 Dokument.
+- **Fathy_Hassan** — nur leere Ablagestruktur (0 Dateien); aegyptischer Lehmbau-Meister (Einordnung).
+- **Federico_Zuccari** — Maler-Architekt der Spaetrenaissance (Einordnung); fast leer, 2 Bilder; Slug in Vorname-Nachname-Folge.
+- **Fehn_Sverre_1924_2009** — norwegischer Pritzker-Preistraeger; generische Ablagestruktur, 38 Bilder, 3 Dokumente.
+- **Ferriss_Hugh** — New Yorker Zeichner visionaerer Hochhausstaedte; 3 Ordner (Objekt, Stadt), 28 Bilder, 1 Dokument.
+- **Feuerstein_Marisa_Architectura** — Architectura Feuerstein Scuol mit Umbauten Scuol, Ftan und Alergo; 3 Projekte, 18 Bilder, 3 Dokumente.
+- **Fiechter_Salzmann** — Zuercher Buero (Einordnung) mit Schulhaus Ballwil, Gespraechen und Studentenarbeiten; 3 Ordner, 9 Bilder, 1 Dokument.
+- **Fiets_Hermann** — Siedlung Eigenheim Zuerich (K8-Quellenmaterial); 1 Projekt, 2 Dokumente.
+- **Figini_Luigi_Pollini_Gino** — Mailaender Rationalisten Figini und Pollini mit Albergo-Wohnhaus Largo Augusto; 1 Projekt, 13 Bilder.
+- **Finsterlin_Hermann** — expressionistischer Formfantast (Architekt, Dichter, Maler); 2 Ordner, 2 Bilder, 1 Dokument.
+- **Fisac_Miguel** — spanischer Beton-Erfinder mit Bodegas Garvey Jerez und Hydraulik-Labor Madrid; 4 Ordner, 62 Bilder, 15 Dokumente.
+- **Fischer_Ammann_Architekten_Schulanlage_Freilager_Zu_rich_Albisrieden** — Projekttitel als Ordnername: Schulanlage Freilager Zuerich-Albisrieden (ARGE Fischer Ammann); 1 Projekt, 5 Bilder, 9 Dokumente, 1 CAD.
+- **Fischer_Theodor** — deutscher Reformbaumeister mit Ledigenheim Muenchen, Schoenbergturm Pfullingen und Stuttgarter Bauten; 5 Ordner, 13 Bilder, 1 Dokument.
+- **Fischer_von_Erlach** — Wiener Barockbaumeister (Einordnung); fast leer, 2 Bilder.
+- **Fischle** — ungeklaerter Name; nur generische Ablagestruktur, 2 Bilder.
+- **Fissler_Friedrich** — Zuercher Siedlungsarchitekt mit Riedtlisiedlung 1911 bis 19 und Wohnsiedlung Limmat I; 2 Projekte, 3 Dokumente.
+- **Flammer_Pascal** — Schweizer Architekt mit Stoeckli Balsthal, Haus in Ligurien und HSG-Campus-Wettbewerb; 5 Ordner, 79 Bilder, 4 Dokumente.
+- **Fo_rderer** — Walter Foerderer (Einordnung, Slug aus Umlaut-Zerlegung) mit 108 Bildern zur Betonkirche Saint-Nicolas Heremence; 1 Projekt, 108 Bilder.
+- **Forster_Norman** — Norman Foster (Slug-Schreibfehler); generische Struktur plus Ordner «Forster», 136 Bilder, 1 Dokument.
+- **Francesca_Piero_della** — Maler Piero della Francesca; nur generische Ablagestruktur, 1 Bild.
+- **Frank_Joseph** — Josef Frank mit Projektordner Wiener Mustersiedlung, aber 0 Dateien.
+- **Frei_Saarinen** — Zuercher Buero Frei + Saarinen mit Dachzinnen/Aufstockungs-Material; 2 Ordner, 7 Bilder, 4 Dokumente.
+- **Fretton_Toni** — Tony Fretton London mit Solid 11 Amsterdam, Fuglsang Museum, Red House Chelsea und Tietgens Aergelse Kopenhagen; 8 Projekte, 61 Bilder, 6 Dokumente.
+- **Frisch_Max** — Schriftsteller-Architekt Max Frisch mit Freibad Letzigraben Zuerich; 1 Projekt, 5 Bilder, 5 Dokumente.
+- **Frochoax** — kryptischer Slug: Diplomprojekt «Brigantine» mit Detailheft und Plots; Zuordnung offen; 4 Ordner, 4 Bilder, 9 Dokumente, 1 CAD.
+- **Froehlich_Albert** — Zuercher Architekt mit Siedlung Hofgarten Unterstrass und Wettbewerb Gross-Zuerich 1918; 2 Projekte, 4 Bilder, 10 Dokumente.
+- **Fruehauf_Henry_Viladoms** — Westschweizer Buero FHV mit Wohnen Basel (1500 Wohnungen) und Museum Nyon; 2 Projekte, 13 Bilder, 2 Dokumente.
+- **Fry_Edwin_Maxwell_1899_1987** — britischer Moderner Maxwell Fry; nur generische Ablagestruktur, 4 Bilder.
+- **Fueg_Franz** — Franz Fueg (Solothurner Schule) mit Piuskirche Meggen; 2 Ordner, 14 Bilder.
+- **Fuji_Architekten_Studio** — Baumhaus in Tokio; 1 Projekt, 10 Bilder.
+- **Fujimoto** — Sou Fujimoto (Einordnung) mit Dezeen-Material Tokyo Apartment; fast leer, 2 Bilder, 1 Dokument.
+- **Fuksas** — fast leerer Ordner, 1 Bild.
+- **Fuller_Buckminster** — nur generische Ablagestruktur mit 1 Dokument; ausbaubeduerftig.
+- **Furness_Frank** — Philadelphia-Viktorianer (Einordnung); 4 Bilder ohne Struktur.
+- **Furrimann_Haechler** — Fuhrimann Haechler Zuerich (Slug-Schreibfehler) mit Haus in Fna und Wettbewerben; 4 Ordner, 33 Bilder, 6 Dokumente.
+- **Futurafrosch** — Zuercher Buero mit mehr als wohnen Leutschenbach; 1 Projekt, 2 Bilder.
+- **GUYER_LUX** — Lux Guyer (Grossbuchstaben-Slug), Pionierin der Schweizer Moderne, mit Frauenwohnkolonie Lettenhof 1927 und Monografie-Material; 2 Ordner, 16 Bilder, 10 Dokumente.
+- **Gabetti_Robert** — Roberto Gabetti (Gabetti & Isola Turin) mit Bottega d'Erasmo und Museo Antichita; 3 Ordner, 10 Bilder.
+- **Gaertner** — Friedrich von Gaertner (Einordnung, Slug ohne Vorname) mit Hofbibliothek Muenchen; 1 Projekt, 14 Bilder, 2 Dokumente.
+- **Galfetti_Aurelio** — Tessiner Architekt; generische Ablagestruktur, 11 Bilder.
+- **Gambardella_architetti** — Cherubino Gambardella Neapel mit Palazzo d'oro Montesarchio; 2 Ordner, 3 Bilder, 1 Dokument.
+- **Gandy_Joseph** — Soane-Zeichner Joseph Gandy (Einordnung); fast leer, 1 Bild.
+- **Gardella_Ignazio** — Mailaender Meister mit Casa Borsalino Alessandria, Casa Tognella und Villa Baletti Lesa; 6 Ordner, 65 Bilder, 3 Dokumente.
+- **Garnier_Charls_1825_1898** — Charles Garnier (Slug-Schreibfehler) mit Pariser Oper; 1 Projekt, 3 Bilder, 3 Dokumente.
+- **Garnier_Toni** — Tony Garnier mit Cite Industrielle, Stade de Gerland und Quartier des Etats-Unis Lyon; 6 Projekte, 40 Bilder, 5 Dokumente.
+- **Gartmann_Patrick** — Churer Ingenieur-Architekt (Einordnung); nur 1 Dokument.
+- **Gaudi_Antonio** — Antoni Gaudi mit Casa Mila und Kirchenordner; 2 Projekte, 50 Bilder, 1 Dokument.
+- **Gehry_Frank** — Frank Gehry mit Guggenheim Bilbao, Novartis Basel und Alexanderplatz; 4 Ordner, 44 Bilder, 1 Dokument.
+- **Geissbuehler_Dietere** — Dieter Geissbuehler (Slug-Schreibfehler), HSLU-Dozent, mit Buchmaterial Vom Material zur Form; 1 Ordner, 1 Bild, 6 Dokumente.
+- **Geltner_Paul** — Berliner Reformwohnbau (Goethepark, Versoehnungsprivatstrasse Wedding); 2 Projekte, 2 Bilder, 5 Dokumente.
+- **Gentz_Heinrich** — nur leere Ablagestruktur (0 Dateien); Berliner Klassizist (Einordnung).
+- **Gerkan** — vermutlich Meinhard von Gerkan/gmp (Einordnung); fast leer, 2 Bilder.
+- **Gessner** — 1 Dokument zu Albert Gessners «Das Deutsche Miethaus»; Doppel-/Restordner zu Gessner_Albert.
+- **Gessner_Albert** — Berliner Miethaus-Reformer mit Bismarckstrasse, Mommsenstrasse und Duesseldorfer Strasse; 3 Projekte, 4 Bilder, 1 Dokument.
+- **Gessner_Hubert** — Wiener Gemeindebau-Architekt mit Reumannhof; 1 Projekt, 2 Bilder.
+- **Giannaci_Paolo** — «Paolo Diplom», Studienarbeit; Zuordnung offen; 1 Ordner, 2 Bilder.
+- **Gigometti** — kryptischer Slug, 1 Bild; Zuordnung voellig offen.
+- **Gigon_Guyer** — Zuercher Buero Gigon/Guyer mit Loewenbraeu-Areal; fuer die Bedeutung des Bueros sehr duenn, 1 Projekt, 5 Bilder, 1 Dokument.
+- **Gilly_Friedrich_1772_1800** — preussischer Klassizist mit Friedrichsdenkmal, Schauspielhaus und Leipziger Platz; 7 Ordner, 28 Bilder, 1 Dokument.
+- **Gimson_Ernest** — Arts-and-Crafts-Handwerker mit Stoneywell Cottage Charnwood Forest; 1 Projekt, 1 Bild.
+- **Giorgio_Martini_Francesco** — Francesco di Giorgio Martini mit Palazzo Ducale Urbino; fast leer, 1 Bild.
+- **Girault_Charles_1851_1931** — Beaux-Arts-Architekt des Petit Palais Paris; 3 Bilder, 2 Dokumente.
+- **Gisel_Ernst** — Zuercher Nachkriegsarchitekt mit Parktheater Grenchen, Ferienhaus Rigi Kaltbad und Uni-Hoersaal; 5 Ordner, 43 Bilder, 2 Dokumente.
+- **Giuliani_Ho_nger** — Doppelordner (Umlaut-Slug «Giuliani Hönger») zu Giuliani_Hoenger_Zuerich; 5 Bilder.
+- **Giuliani_Hoenger_Zuerich** — Zuercher Buero Giuliani Hoenger mit Fachhochschule Sihlhof und FH St. Gallen; 3 Ordner, 15 Bilder, 5 Dokumente.
+- **Giumini_Pietro** — Lettenquartier Zuerich-Wipkingen (K10-Quellenmaterial); 1 Projekt, 2 Dokumente.
+- **Gladbach_Ernst** — ETH-Dozent und Dokumentar des Schweizer Holzstils (Publikation 1868); 3 Dokumente.
+- **Glaus_Otto** — Schweizer Nachkriegsarchitekt (gta-Nachlass); 4 Bilder, 1 Dokument.
+- **Gloor_Vera** — Zuercher Architektin (Hochparterre-Material); fast leer, 3 Bilder, 1 Dokument.
+- **Gmuer_Patrick** — Patrick Gmuer Zuerich mit Hochhaus Hardturm, James und Haus Steinhofweg Luzern; 4 Ordner, 87 Bilder.
+- **Gmu_r_Gschwentner** — Gmuer Gschwentner Zuerich (Umlaut-Slug) mit Bruederhofweg, Greencity/Maneg und Hardturm; Naehe zu Gmuer_Patrick pruefen; 3 Projekte, 18 Bilder, 19 Dokumente.
+- **Go_Hasegawa** — Go Hasegawa Tokio (Einordnung); 6 Bilder ohne Struktur.
+- **Gocar_Joseph** — Josef Gocar mit Haus zur schwarzen Muttergottes Prag 1910 (tschechischer Kubismus); 1 Projekt, 23 Bilder, 2 Dokumente.
+- **Goldfinger_Ernoe** — Ernoe Goldfinger London; nur generische Ablagestruktur, 1 Bild, 1 Dokument.
+- **Goldsmith_Felix** — ungeklaerter Name (Myron Goldsmith?); nur generische Ablagestruktur, 2 Bilder.
+- **Graber_Pulver** — Doppelordner (Quellordner mit Leerzeichen) zu Graber_Pulver_Architekten mit Wesemlin Luzern und Rotkreuz; 2 Projekte, 11 Bilder.
+- **Graber_Pulver_Architekten** — Buero Graber Pulver (Zuerich/Bern) mit Berufsschule Freiburg, Schulhaus Schlieren West und Siedlung Gruenmatt; 4 Projekte, 14 Bilder, 1 Dokument.
+- **Graber_Steiger** — Niklaus Graber und Christoph Steiger Luzern (Einordnung); fast leer, 1 Bild, 2 Dokumente.
+- **Gramazio_Kohler** — ETH-Duo der digitalen Fabrikation mit Weingut Gantenbein Flaesch, Tanzhaus und Roboter-Material; 5 Ordner, 37 Bilder, 1 Dokument.
+- **Grassi_Giorgio** — Mailaender Rationalist mit Theaterrekonstruktion Sagunto und ETH-Gastprofessur (Lindenhof); 2 Ordner, 9 Bilder, 1 Dokument.
+- **Graves_Michael** — US-Postmoderner (Einordnung); fast leer, 3 Bilder.
+- **Gray_Eileen** — Designerin-Architektin (Einordnung E.1027); fast leer, 1 Bild.
+- **Gregotti_Vittorio** — Mailaender Architekt und Theoretiker (Einordnung); fast leer, 4 Bilder.
+- **Gropius_Walter** — Bauhaus-Gruender mit Fagus-Werk, Bauhaus Dessau, Meisterhaeusern, Siemensstadt und Gropiusstadt; 9 Ordner, 161 Bilder, 4 Dokumente.
+- **Gruppo_Ligure** — nur generische Ablagestruktur, 2 Bilder; Zuordnung offen.
+- **Gschwind_Higi** — Siedlung am Milchbuck Zuerich (Quellenmaterial); 1 Projekt, 2 Dokumente.
+- **Guarini_Guarino** — Turiner Barockbaumeister mit Stadtpalast Piazza Carlo Alberto; 2 Ordner, 11 Bilder, 1 Dokument.
+- **Guastavino_Raffael** — Rafael Guastavino, keramischer Gewoelbebau in den USA (Einordnung); 1 Ordner, 33 Bilder.
+- **Guidotti_Architetti** — Tessiner Buero; Inhalt ist aber ein Ordner «LVPH architectes» (Fehlablage?); 2 Bilder.
+- **Gull_Gustav** — Zuercher Stadtbaumeister-Aera mit Landesmuseum, Stadthaus, Aemtlerschulhaus und Polytechnikum-Erweiterung; 5 Projekte, 35 Bilder, 5 Dokumente.
+- **Gut_Schoep** — Zuercher Buero Gut & Schoep (Einordnung); nur 1 Dokument.
+- **Gutkind_Erwin** — Berliner Moderner mit Sonnenhof 1925; 1 Projekt, 4 Bilder.
+- **Guy_Morgan_and_Partners** — Londoner Buero mit Florin Court 1936 (Curved Art Deco); 1 Projekt, 5 Bilder.
+- **Gysin_Bob** — Zuercher Buero BGP mit Townhouse Hottingerplatz und Hinterberg; 2 Projekte, 9 Bilder.
+- **Hadrians** — vermutlich Kaiser Hadrian/Villa Adriana, kein Architekten-Ordner im engeren Sinn; 5 Bilder, 1 Dokument.
+- **Haefeli_Moser_Steiger** — Zuercher Moderne-Buero HMS mit Kongresshaus, Hochhaus zur Palme, Neubuehl, Allenmoos und Kirche; 10 Ordner, 109 Bilder, 13 Dokumente.
+- **Haefliger_Erich** — nur generische Ablagestruktur mit 1 HSLU-Dokument; Zuordnung offen.
+- **Haenel_Erich** — 1 Dokument (Das Mietwohnhaus der Neuzeit 1913, mit Tscharmann); Publikations-Merkposten.
+- **Haering_Hugo** — Hugo Haering (organisches Bauen) mit Haus Schmitz Biberach und gta-Material; 4 Ordner, 100 Bilder.
+- **Haller_Fritz** — Fritz Haller (Solothurner Schule, USM, Einordnung); generische Ablagestruktur, 5 Bilder.
+- **Halliday_James_Theodore_1882_1932** — britischer Architekt (Halliday und Agate, Einordnung); nur generische Ablagestruktur, 1 Bild; Leerzeichen im Quellordnernamen.
+- **Hancock_John** — John Hancock Center Chicago: ein Gebaeude (SOM), kein Architekt; 1 Projekt, 5 Bilder.
+- **Handa_Heike_Prof** — 12 Bilder ohne Projekte; wer ist Prof. Heike Handa? Zuordnung offen.
