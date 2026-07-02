@@ -664,3 +664,12 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   eine **Umzonung** innerhalb des Baugebiets, die planungsrechtlich leichter, aber an die Aufzonungs-/
   Planbestaendigkeitsschranken (Art. 21 RPG) gebunden ist. **Lueckenstatus:** Buchbeleg vollstaendig;
   Gestaltungsplan-Mechanik (§§ 83 ff. PBG) noch nicht distilliert → naechster Lauf (Kap. 2 Teil 3). _[2026-06-30]_
+- **Buerofrage:** «Die Gemeinde hat eine seit Jahren eingezonte Bauparzelle nie erschlossen — was kann der
+  Grundeigentuemer tun?» — **Beleg-Antwort:** Die Gemeinde muss Bauzonen innerhalb der im Erschliessungsplan
+  vorgesehenen Fristen, **laengstens innert 15 Jahren** erschliessen (Art. 19 Abs. 2 RPG i.V.m. Art. 15
+  Abs. 1 RPG). Saeumt sie, kann der Grundeigentuemer sein Land nach den genehmigten Plaenen **selber
+  erschliessen oder die Erschliessung bevorschussen** (Art. 19 Abs. 3 RPG; VB.2010.00560); die Kosten sind
+  spaeter — abzueglich Abgaben — zurueckzuzahlen, und das Selbsterschliessungsrecht setzt einen
+  **Gestattungsakt** des Gemeinwesens voraus. Fuer Wohnbauzonen zusaetzlich Art. 5 WEG (Etappen 10-15 J.).
+  Eine **Auszonung** ist unzulaessig, wenn sie einzig erfolgt, weil das Gemeinwesen nicht rechtzeitig
+  groberschliessen will (BGE 110 Ia 51). (Bd 1, S. 209; Destillat [[band-1/03-erschliessung-landsicherung-teil1]]) _[2026-07-02]_

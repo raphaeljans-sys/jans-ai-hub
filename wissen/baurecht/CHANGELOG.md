@@ -4,6 +4,21 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-02 — Run 19 ABGEBROCHEN: TRANSFER durch macOS TCC blockiert
+- [blockade] Quell-Screenshots im OneDrive-CloudStorage-Ordner **nicht lesbar** (TCC): `stat`
+  liefert echte Groessen (Shot 121 = 1 497 857 Bytes, materialisiert, OneDrive online), aber
+  `cat`/`head`/`xattr`/`cp` liefern **«Operation not permitted»** — auch ohne Sandbox. Der
+  ausfuehrende Prozess hat keinen Festplattenvollzugriff auf den geschuetzten CloudStorage-Ort
+  (analog launchd→SMB-Blockade). **Kein Distillat geschrieben** (Leitplanke «nie erfinden»),
+  Inventar/Curriculum/INDEX **unveraendert**.
+- [report] `outputs/2026-07-02_buch-run19-BLOCKED.md` — Befund, Reproduktion, Fix (Festplatten-
+  vollzugriff fuer Claude-App/`/bin/bash`; vgl. `scripts/check-launchd-fda.sh`), SharePoint-
+  Fallback als Notoption.
+- [drill] +1 belegte Modell-A-Karte (Erschliessungspflicht 15 J. / Selbsterschliessung Art. 19
+  Abs. 3 RPG) — ausschliesslich aus vorhandenem Destillat, keine neuen Seiten (`training/drills.md`).
+- [offen] TCC-Fix umsetzen; danach **Kap. 3 Teil 2** (Shots 121-133, S. 238 ff.: Quartierplan/
+  Grenzbereinigung/Baulandumlegung/Gueterzusammenlegung) als naechster TRANSFER.
+
 ## 2026-07-02 — Run 18 Forcierung: 3 Kapitelteile parallel (Band-1-Tail + Kap.-6-Restschuld)
 - TRANSFER 3 Destillate (von parallelen Agenten, Buchhaltung zentral), **46 Doppelseiten**:
   **Kap. 2 Teil 3** `buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md` (Shots 76+86-104,
