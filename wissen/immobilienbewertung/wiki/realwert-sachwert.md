@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-06-16
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
+last_updated: 2026-07-02
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -118,6 +118,58 @@ Quervergleiche/Herleitung (alle Werte Datenstand 2021-2023, ⚠ Teuerung seither
 - Erstellungskosten je Wohnungstyp (Kleinwohnungen teurer): siehe
   [[residualwertmethode]] (Excel-Tool-Defaults 5'300-6'100 CHF/m2 HNF).
 
+### Healthcare-Neubau — Erstellungskosten-Benchmark (realer CH-Fall, belegt 2021)
+
+Fuer die Sachwert-/Neuwert-Rechnung eines **Pflegeheims** fehlten der KB bisher belegte
+CH-Kennwerte (nur der WALD-Studienanker ~4'000 CHF/m2 GF, Skill `healthcare-wirtschaftlichkeit`).
+Der oeffentliche **Baukredit-Bericht Neubau Pflegeheim Herosé, Aarau** (Stadtrat Aarau,
+Botschaft an den Einwohnerrat GV 2018-2021/285, 13.12.2021; Generalplaner Meyer Gadient
+Architekten AG) liefert nun einen datierten, nachvollziehbaren Realbenchmark (T17):
+
+**Objekt:** 116 Pflegezimmer (NF 23.7 m2/Zimmer inkl. Dusche/WC), EG + 4 OG, je OG zwei
+Pflegewohngruppen (14+15 Zimmer), Hybridbau (Holz-Fassade + Betonkern, ≥80 % Recyclingbeton),
+Minergie-P-ECO. Bezug 2025.
+
+**Anlagekosten (Kostenvoranschlag, ±10 %, inkl. 7.7 % MwSt; Kostenstand Baupreisindex
+Nordwestschweiz Hochbau 01.04.2021 = 101.5):**
+
+| BKP | Position | CHF |
+|---|---|---|
+| 1 | Vorbereitungsarbeiten | 1'885'000 |
+| 2 | Gebaeude | 40'215'100 |
+| 3 | Betriebseinrichtungen | 3'330'000 |
+| 4 | Umgebung | 2'450'000 |
+| 5 | Baunebenkosten | 2'710'000 |
+| 6 | Reserve (5 % von BKP 1-5/9) | 2'530'000 |
+| 9 | Ausstattung | 2'679'900 |
+| | **Total Anlagekosten** | **55'800'000** |
+
+**Kostenkennwerte BKP 2 Gebaeude (Herosé, Tab. 5):**
+- Gebaeudevolumen GV nach SIA 416: **36'406 m3** (davon 6'663 m3 unter Terrain).
+- Geschossflaeche GF nach SIA 416: **10'452 m2**.
+- **BKP 2 / m3 GV: CHF 1'105.** **BKP 2 / m2 GF: CHF 3'848.** **BKP 2 / Zimmer: CHF 346'681.**
+- Wichtig fuer den Ansatz: der Wettbewerbs-Grobwert von ~2'500 CHF/m2 (Standard Wohnungsbau)
+  war **zu tief** — Pflegeheimneubauten liegen wegen **hohem Installationsgrad und
+  spezifischem Ausbaustandard** bei einem Referenzpreis von rund **3'850 CHF/m2 GF (BKP 2)**.
+  Das deckt sich mit dem WALD-Anker (~4'000 CHF/m2 GF) und mit dem Healthcare-Zuschlag
+  **+20-25 % auf den Wohn-Basiskennwert** (Skill `healthcare-wirtschaftlichkeit`).
+
+**Vier-Heim-Vergleich BKP 2 Gebaeude/Zimmer (Anlagekosten ~50 Mio, Herosé Tab. 5) — direkt
+verwendbarer JANS-Benchmark:**
+
+| Pflegeheim (Neubau) | Baukosten/Zimmer CHF | Hotellerietaxe CHF/Tag |
+|---|---|---|
+| Neubau Herosé, Aarau AG | 347'000 | 153 |
+| Alterszentrum Suhrhard, Buchs AG | 349'000 | 150 |
+| Wohn-/Pflegezentrum Blumenrain, Zollikon ZH | 418'000 | 180 |
+| Alterszentrum Obere Muehle, Lenzburg AG | 337'000 | 170 |
+
+Bandbreite **~337'000-418'000 CHF Gebaeudekosten (BKP 2) pro Pflegezimmer** (Stand 2021);
+Zollikon (ZH-Premiumlage) fuehrt. Kostenkompaktheit ist der Haupthebel — Herosé weist ein sehr
+effizientes Verhaeltnis Zimmerflaeche zu Gesamt-GF aus (116 x 23.7 = 2'749 m2 Zimmer-NF von
+10'452 m2 GF). ⚠ Stand 2021 → mit Baupreisindex aufindexieren (seit 2021 ~+5-8 %,
+[[investorenmarkt-makro]]); die Ertrags-/Annuitaetsseite dieses Falls steht in [[ertragswert-dcf]].
+
 ### Alterswertminderung (Schaetzungsanleitung Kap. 5, Tab. 9-11)
 
 Abzug fuer Alter/Abnutzung des Gebaeudes ueber die **Restnutzungsdauer**. Belegtes
@@ -164,5 +216,10 @@ Instandsetzungskosten decken koennen.
   sowie Alterswertminderung (Lebensdauer Tab. 9, wirtschaftliches Alter Tab. 10,
   Wertminderung Tab. 11) aus der Schaetzungsanleitung belegt eingearbeitet (T6 vollstaendig,
   T12 erfuellt). ⚠ m3-Werte Stand 2003 → aufzuindexieren.
+- ✓ 2026-07-02 (T17, Run 12): **Healthcare-Neubau-Erstellungskosten-Benchmark** aus dem
+  oeffentlichen Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021) belegt — BKP-Zusammen-
+  stellung 55.8 Mio, Kennwerte BKP 2 = 1'105 CHF/m3 GV / 3'848 CHF/m2 GF / 346'681 CHF/Zimmer +
+  Vier-Heim-Vergleich 337'000-418'000 CHF/Zimmer. Bestaetigt den Healthcare-Zuschlag (Pflege
+  +20-25 % → ~3'850-4'000 CHF/m2 GF).
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).
