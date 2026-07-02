@@ -1,0 +1,57 @@
+{
+  "slug": "Gmuer_Patrick",
+  "architekt": {
+    "name": "Gmuer Patrick",
+    "nachname": "Gmuer",
+    "vorname": "Patrick",
+    "jahre": [],
+    "ordner": "Gmuer_Patrick"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gmuer_Patrick",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "Luzern_Haus_Steinhofweg",
+      "ort": "Luzern",
+      "projekt": "Haus Steinhofweg",
+      "jahre": [],
+      "titel": "Luzern Haus Steinhofweg"
+    },
+    {
+      "raw": "Zuerich_Hochhaus_Hardturm",
+      "ort": "Zuerich",
+      "projekt": "Hochhaus Hardturm",
+      "jahre": [],
+      "titel": "Zuerich Hochhaus Hardturm"
+    },
+    {
+      "raw": "Zuerich_James",
+      "ort": "Zuerich",
+      "projekt": "James",
+      "jahre": [],
+      "titel": "Zuerich James"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 87,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 10,
+    "total": 97
+  },
+  "dateitypen": {
+    ".jpg": 87,
+    ".pln": 9,
+    ".indd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Gmuer Patrick | Architekt Architekt | Luzern Haus Steinhofweg | Zuerich Hochhaus Hardturm | Zuerich James",
+  "stand": "2026-07-02T21:16:18"
+}

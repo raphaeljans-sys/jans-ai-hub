@@ -1,0 +1,74 @@
+{
+  "slug": "Gardella_Ignazio",
+  "architekt": {
+    "name": "Gardella Ignazio",
+    "nachname": "Gardella",
+    "vorname": "Ignazio",
+    "jahre": [],
+    "ordner": "Gardella_Ignazio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gardella_Ignazio",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Alexandria_Casa_Borsalino",
+      "ort": "Alexandria",
+      "projekt": "Casa Borsalino",
+      "jahre": [],
+      "titel": "Alexandria Casa Borsalino"
+    },
+    {
+      "raw": "Ignazio Gardella, Casa Tognella",
+      "ort": "Ignazio Gardella, Casa Tognella",
+      "projekt": "Ignazio Gardella, Casa Tognella",
+      "jahre": [],
+      "titel": "Ignazio Gardella, Casa Tognella"
+    },
+    {
+      "raw": "Lesa_Verbania_Villa_Baletti_1951_53",
+      "ort": "Lesa",
+      "projekt": "Verbania Villa Baletti 53",
+      "jahre": [
+        "1951"
+      ],
+      "titel": "Lesa Verbania Villa Baletti 1951 53"
+    },
+    {
+      "raw": "ignazio gardella_case borsalino",
+      "ort": "ignazio gardella",
+      "projekt": "case borsalino",
+      "jahre": [],
+      "titel": "ignazio gardella case borsalino"
+    },
+    {
+      "raw": "quartiero mangiagalli ignazio gardella",
+      "ort": "quartiero mangiagalli ignazio gardella",
+      "projekt": "quartiero mangiagalli ignazio gardella",
+      "jahre": [],
+      "titel": "quartiero mangiagalli ignazio gardella"
+    }
+  ],
+  "projekt_anzahl": 6,
+  "inventar": {
+    "bilder": 65,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 4,
+    "total": 72
+  },
+  "dateitypen": {
+    ".jpg": 51,
+    ".jpeg": 14,
+    "": 4,
+    ".pdf": 3
+  },
+  "textauszug": "Ignazio Gardella, Villa Baletti, Lesa (Verbania) 1951–53 Ignazio Gardella, Villa Baletti, Lesa (Verbania) 1951–53 Ignazio Gardella, Villa Baletti, Lesa (Verbania) 1951–53",
+  "embed_doc": "Gardella Ignazio | 00 Architekten | Alexandria Casa Borsalino | Ignazio Gardella, Casa Tognella Ignazio Gardella, Casa Tognella | Lesa Verbania Villa Baletti 53 1951 | ignazio gardella case borsalino | quartiero mangiagalli ignazio gardella quartiero mangiagalli ignazio gardella | Ignazio Gardella, Villa Baletti, Lesa (Verbania) 1951–53 Ignazio Gardella, Villa Baletti, Lesa (Verbania) 1951–53 Ignazio Gardella, Villa Baletti, Lesa (Verbania) 1951–53",
+  "stand": "2026-07-02T21:15:49"
+}

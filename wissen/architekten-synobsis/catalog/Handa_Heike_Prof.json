@@ -1,0 +1,26 @@
+{
+  "slug": "Handa_Heike_Prof",
+  "architekt": {
+    "name": "Handa Heike Prof",
+    "nachname": "Handa",
+    "vorname": "Heike Prof",
+    "jahre": [],
+    "ordner": "Handa_Heike_Prof"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Handa_Heike_Prof",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 12
+  },
+  "dateitypen": {
+    ".jpeg": 12
+  },
+  "textauszug": "",
+  "embed_doc": "Handa Heike Prof",
+  "stand": "2026-07-02T21:16:58"
+}

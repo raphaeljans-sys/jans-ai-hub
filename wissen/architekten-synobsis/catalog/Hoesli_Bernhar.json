@@ -1,0 +1,26 @@
+{
+  "slug": "Hoesli_Bernhar",
+  "architekt": {
+    "name": "Hoesli Bernhar",
+    "nachname": "Hoesli",
+    "vorname": "Bernhar",
+    "jahre": [],
+    "ordner": "Hoesli_Bernhar"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hoesli_Bernhar",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Hoesli Bernhar",
+  "stand": "2026-07-02T21:17:43"
+}

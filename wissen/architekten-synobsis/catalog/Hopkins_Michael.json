@@ -1,0 +1,26 @@
+{
+  "slug": "Hopkins_Michael",
+  "architekt": {
+    "name": "Hopkins Michael",
+    "nachname": "Hopkins",
+    "vorname": "Michael",
+    "jahre": [],
+    "ordner": "Hopkins_Michael"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hopkins_Michael",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".jpg": 8
+  },
+  "textauszug": "",
+  "embed_doc": "Hopkins Michael",
+  "stand": "2026-07-02T21:18:23"
+}

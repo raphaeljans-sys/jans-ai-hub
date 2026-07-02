@@ -1,0 +1,26 @@
+{
+  "slug": "Graves_Michael",
+  "architekt": {
+    "name": "Graves Michael",
+    "nachname": "Graves",
+    "vorname": "Michael",
+    "jahre": [],
+    "ordner": "Graves_Michael"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Graves_Michael",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Graves Michael",
+  "stand": "2026-07-02T21:16:36"
+}

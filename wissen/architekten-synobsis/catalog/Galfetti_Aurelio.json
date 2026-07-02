@@ -1,0 +1,64 @@
+{
+  "slug": "Galfetti_Aurelio",
+  "architekt": {
+    "name": "Galfetti Aurelio",
+    "nachname": "Galfetti",
+    "vorname": "Aurelio",
+    "jahre": [],
+    "ordner": "Galfetti_Aurelio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Galfetti_Aurelio",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Lehre",
+      "ort": "02",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "02 Lehre"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 7,
+    ".png": 3,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Galfetti Aurelio | 00 Architekten | 01 Projekte | 02 Lehre | 03 Ausstellungen | 04 Literatur",
+  "stand": "2026-07-02T21:15:45"
+}

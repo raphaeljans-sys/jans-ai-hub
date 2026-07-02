@@ -1,0 +1,36 @@
+{
+  "slug": "Gaertner",
+  "architekt": {
+    "name": "Gaertner",
+    "nachname": "Gaertner",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Gaertner"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gaertner",
+  "projekte": [
+    {
+      "raw": "Muenchen_Hofbiblithek",
+      "ort": "Muenchen",
+      "projekt": "Hofbiblithek",
+      "jahre": [],
+      "titel": "Muenchen Hofbiblithek"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 14,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 16
+  },
+  "dateitypen": {
+    ".jpg": 12,
+    ".png": 2,
+    ".pdf": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Gaertner | Muenchen Hofbiblithek",
+  "stand": "2026-07-02T21:15:43"
+}

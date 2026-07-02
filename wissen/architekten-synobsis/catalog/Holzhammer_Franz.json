@@ -1,0 +1,26 @@
+{
+  "slug": "Holzhammer_Franz",
+  "architekt": {
+    "name": "Holzhammer Franz",
+    "nachname": "Holzhammer",
+    "vorname": "Franz",
+    "jahre": [],
+    "ordner": "Holzhammer_Franz"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Holzhammer_Franz",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Holzhammer Franz",
+  "stand": "2026-07-02T21:18:23"
+}

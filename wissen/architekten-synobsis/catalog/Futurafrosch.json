@@ -1,0 +1,34 @@
+{
+  "slug": "Futurafrosch",
+  "architekt": {
+    "name": "Futurafrosch",
+    "nachname": "Futurafrosch",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Futurafrosch"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Futurafrosch",
+  "projekte": [
+    {
+      "raw": "Zuerich_Leutschenbach_Siedlung_mehr_als_Wohnen",
+      "ort": "Zuerich",
+      "projekt": "Leutschenbach Siedlung mehr als Wohnen",
+      "jahre": [],
+      "titel": "Zuerich Leutschenbach Siedlung mehr als Wohnen"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Futurafrosch | Zuerich Leutschenbach Siedlung mehr als Wohnen",
+  "stand": "2026-07-02T21:15:27"
+}

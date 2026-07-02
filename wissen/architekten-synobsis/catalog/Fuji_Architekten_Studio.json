@@ -1,0 +1,34 @@
+{
+  "slug": "Fuji_Architekten_Studio",
+  "architekt": {
+    "name": "Fuji Architekten Studio",
+    "nachname": "Fuji",
+    "vorname": "Architekten Studio",
+    "jahre": [],
+    "ordner": "Fuji_Architekten_Studio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fuji_Architekten_Studio",
+  "projekte": [
+    {
+      "raw": "Baumhaus_in_Tokio",
+      "ort": "Baumhaus",
+      "projekt": "in Tokio",
+      "jahre": [],
+      "titel": "Baumhaus in Tokio"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 10
+  },
+  "textauszug": "",
+  "embed_doc": "Fuji Architekten Studio | Baumhaus in Tokio",
+  "stand": "2026-07-02T21:15:22"
+}

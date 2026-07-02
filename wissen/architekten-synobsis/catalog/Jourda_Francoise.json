@@ -1,0 +1,32 @@
+{
+  "slug": "Jourda_Francoise",
+  "architekt": {
+    "name": "Jourda Francoise",
+    "nachname": "Jourda Francoise",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Jourda Francoise"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Jourda Francoise",
+  "projekte": [
+    {
+      "raw": "Lyon Architekturschule",
+      "ort": "Lyon Architekturschule",
+      "projekt": "Lyon Architekturschule",
+      "jahre": [],
+      "titel": "Lyon Architekturschule"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Jourda Francoise | Lyon Architekturschule Lyon Architekturschule",
+  "stand": "2026-07-02T21:22:03"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "Giumini_Pietro",
+  "architekt": {
+    "name": "Giumini Pietro",
+    "nachname": "Giumini",
+    "vorname": "Pietro",
+    "jahre": [],
+    "ordner": "Giumini_Pietro"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Giumini_Pietro",
+  "projekte": [
+    {
+      "raw": "Zuerich_Wipkingen_K10_Lettenquartier_BEP",
+      "ort": "Zuerich",
+      "projekt": "Wipkingen K10 Lettenquartier BEP",
+      "jahre": [],
+      "titel": "Zuerich Wipkingen K10 Lettenquartier BEP"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".pdf": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Giumini Pietro | Zuerich Wipkingen K10 Lettenquartier BEP",
+  "stand": "2026-07-02T21:16:15"
+}

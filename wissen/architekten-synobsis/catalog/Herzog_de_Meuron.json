@@ -1,0 +1,352 @@
+{
+  "slug": "Herzog_de_Meuron",
+  "architekt": {
+    "name": "Herzog de Meuron",
+    "nachname": "Herzog",
+    "vorname": "de Meuron",
+    "jahre": [],
+    "ordner": "Herzog_de_Meuron"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Herzog_de_Meuron",
+  "projekte": [
+    {
+      "raw": "Allschwil_Actelion",
+      "ort": "Allschwil",
+      "projekt": "Actelion",
+      "jahre": [],
+      "titel": "Allschwil Actelion"
+    },
+    {
+      "raw": "Ammersee_Atelier_Baselitz",
+      "ort": "Ammersee",
+      "projekt": "Atelier Baselitz",
+      "jahre": [],
+      "titel": "Ammersee Atelier Baselitz"
+    },
+    {
+      "raw": "Barranca_Museum",
+      "ort": "Barranca",
+      "projekt": "Museum",
+      "jahre": [],
+      "titel": "Barranca Museum"
+    },
+    {
+      "raw": "Basel_Comixmuseum Basel",
+      "ort": "Basel",
+      "projekt": "Comixmuseum Basel",
+      "jahre": [],
+      "titel": "Basel Comixmuseum Basel"
+    },
+    {
+      "raw": "Basel_Haus_Schwitter",
+      "ort": "Basel",
+      "projekt": "Haus Schwitter",
+      "jahre": [],
+      "titel": "Basel Haus Schwitter"
+    },
+    {
+      "raw": "Basel_Messehalle_Messeplatz",
+      "ort": "Basel",
+      "projekt": "Messehalle Messeplatz",
+      "jahre": [],
+      "titel": "Basel Messehalle Messeplatz"
+    },
+    {
+      "raw": "Basel_Rehab-Klinik_BS",
+      "ort": "Basel",
+      "projekt": "Rehab-Klinik BS",
+      "jahre": [],
+      "titel": "Basel Rehab-Klinik BS"
+    },
+    {
+      "raw": "Basel_SCHAULAGER_BS",
+      "ort": "Basel",
+      "projekt": "SCHAULAGER BS",
+      "jahre": [],
+      "titel": "Basel SCHAULAGER BS"
+    },
+    {
+      "raw": "Basel_SUVA Gartenstrasse Basel",
+      "ort": "Basel",
+      "projekt": "SUVA Gartenstrasse Basel",
+      "jahre": [],
+      "titel": "Basel SUVA Gartenstrasse Basel"
+    },
+    {
+      "raw": "Basel_Stellwerk",
+      "ort": "Basel",
+      "projekt": "Stellwerk",
+      "jahre": [],
+      "titel": "Basel Stellwerk"
+    },
+    {
+      "raw": "Basel_Suedpark_Bhf_Basel_Gueterstrasse_Gundeli",
+      "ort": "Basel",
+      "projekt": "Suedpark Bhf Basel Gueterstrasse Gundeli",
+      "jahre": [],
+      "titel": "Basel Suedpark Bhf Basel Gueterstrasse Gundeli"
+    },
+    {
+      "raw": "Basel_Turnhalle PFAFFENHOLZ_BS",
+      "ort": "Basel",
+      "projekt": "Turnhalle PFAFFENHOLZ BS",
+      "jahre": [],
+      "titel": "Basel Turnhalle PFAFFENHOLZ BS"
+    },
+    {
+      "raw": "Basel_Wohnhaus Schützenmatt",
+      "ort": "Basel",
+      "projekt": "Wohnhaus Schützenmatt",
+      "jahre": [],
+      "titel": "Basel Wohnhaus Schützenmatt"
+    },
+    {
+      "raw": "Basel_Wohnhaus_HEBELSTRASSE",
+      "ort": "Basel",
+      "projekt": "Wohnhaus HEBELSTRASSE",
+      "jahre": [],
+      "titel": "Basel Wohnhaus HEBELSTRASSE"
+    },
+    {
+      "raw": "Bottmingen_Kindergarten",
+      "ort": "Bottmingen",
+      "projekt": "Kindergarten",
+      "jahre": [],
+      "titel": "Bottmingen Kindergarten"
+    },
+    {
+      "raw": "Caixa_Forum_ma",
+      "ort": "Caixa",
+      "projekt": "Forum ma",
+      "jahre": [],
+      "titel": "Caixa Forum ma"
+    },
+    {
+      "raw": "Chaeserrugg_Hotel_Restaurant",
+      "ort": "Chaeserrugg",
+      "projekt": "Hotel Restaurant",
+      "jahre": [],
+      "titel": "Chaeserrugg Hotel Restaurant"
+    },
+    {
+      "raw": "Colmar_Museum",
+      "ort": "Colmar",
+      "projekt": "Museum",
+      "jahre": [],
+      "titel": "Colmar Museum"
+    },
+    {
+      "raw": "Das_Blaue_Haus",
+      "ort": "Das",
+      "projekt": "Blaue Haus",
+      "jahre": [],
+      "titel": "Das Blaue Haus"
+    },
+    {
+      "raw": "Duisburg_Kuepersmuehle_Museum",
+      "ort": "Duisburg",
+      "projekt": "Kuepersmuehle Museum",
+      "jahre": [],
+      "titel": "Duisburg Kuepersmuehle Museum"
+    },
+    {
+      "raw": "Frankreich_Fussballstadion",
+      "ort": "Frankreich",
+      "projekt": "Fussballstadion",
+      "jahre": [],
+      "titel": "Frankreich Fussballstadion"
+    },
+    {
+      "raw": "Hamburg_Elbphilharmonie",
+      "ort": "Hamburg",
+      "projekt": "Elbphilharmonie",
+      "jahre": [],
+      "titel": "Hamburg Elbphilharmonie"
+    },
+    {
+      "raw": "Laufen_Lagerhaus_Ricola",
+      "ort": "Laufen",
+      "projekt": "Lagerhaus Ricola",
+      "jahre": [],
+      "titel": "Laufen Lagerhaus Ricola"
+    },
+    {
+      "raw": "Leymen_Haus_Rudin",
+      "ort": "Leymen",
+      "projekt": "Haus Rudin",
+      "jahre": [],
+      "titel": "Leymen Haus Rudin"
+    },
+    {
+      "raw": "London_Tate_Modern_Gallery_100924_HdM_Tate_Modern_London",
+      "ort": "London",
+      "projekt": "Tate Modern Gallery 100924 HdM Tate Modern London",
+      "jahre": [],
+      "titel": "London Tate Modern Gallery 100924 HdM Tate Modern London"
+    },
+    {
+      "raw": "Luzern_Hotel_Gletscherspalte",
+      "ort": "Luzern",
+      "projekt": "Hotel Gletscherspalte",
+      "jahre": [],
+      "titel": "Luzern Hotel Gletscherspalte"
+    },
+    {
+      "raw": "Lyon",
+      "ort": "Lyon",
+      "projekt": "Lyon",
+      "jahre": [],
+      "titel": "Lyon"
+    },
+    {
+      "raw": "Miami_Parkhaus",
+      "ort": "Miami",
+      "projekt": "Parkhaus",
+      "jahre": [],
+      "titel": "Miami Parkhaus"
+    },
+    {
+      "raw": "Muenchen_Herrenstrasse",
+      "ort": "Muenchen",
+      "projekt": "Herrenstrasse",
+      "jahre": [],
+      "titel": "Muenchen Herrenstrasse"
+    },
+    {
+      "raw": "Muenchen_Sammlung_Goetz_Muenchen",
+      "ort": "Muenchen",
+      "projekt": "Sammlung Goetz Muenchen",
+      "jahre": [],
+      "titel": "Muenchen Sammlung Goetz Muenchen"
+    },
+    {
+      "raw": "New_York_Hochhaus",
+      "ort": "New",
+      "projekt": "York Hochhaus",
+      "jahre": [],
+      "titel": "New York Hochhaus"
+    },
+    {
+      "raw": "New_York_Parrish_Art_Museum",
+      "ort": "New",
+      "projekt": "York Parrish Art Museum",
+      "jahre": [],
+      "titel": "New York Parrish Art Museum"
+    },
+    {
+      "raw": "Paris_Tour Triangle",
+      "ort": "Paris",
+      "projekt": "Tour Triangle",
+      "jahre": [],
+      "titel": "Paris Tour Triangle"
+    },
+    {
+      "raw": "Peking_Nationalstadium",
+      "ort": "Peking",
+      "projekt": "Nationalstadium",
+      "jahre": [],
+      "titel": "Peking Nationalstadium"
+    },
+    {
+      "raw": "Porta_Volta",
+      "ort": "Porta",
+      "projekt": "Volta",
+      "jahre": [],
+      "titel": "Porta Volta"
+    },
+    {
+      "raw": "Riehen_Naturbad",
+      "ort": "Riehen",
+      "projekt": "Naturbad",
+      "jahre": [],
+      "titel": "Riehen Naturbad"
+    },
+    {
+      "raw": "Tavole_Steinhaus_Casa_de_Piedra_1982_88",
+      "ort": "Tavole",
+      "projekt": "Steinhaus Casa de Piedra 88",
+      "jahre": [
+        "1982"
+      ],
+      "titel": "Tavole Steinhaus Casa de Piedra 1982 88"
+    },
+    {
+      "raw": "Vancouver_Art_Gallery",
+      "ort": "Vancouver",
+      "projekt": "Art Gallery",
+      "jahre": [],
+      "titel": "Vancouver Art Gallery"
+    },
+    {
+      "raw": "Weil_am_Reihn_Vitra",
+      "ort": "Weil",
+      "projekt": "am Reihn Vitra",
+      "jahre": [],
+      "titel": "Weil am Reihn Vitra"
+    },
+    {
+      "raw": "Wien_Siedlung_Pilotengasse",
+      "ort": "Wien",
+      "projekt": "Siedlung Pilotengasse",
+      "jahre": [],
+      "titel": "Wien Siedlung Pilotengasse"
+    },
+    {
+      "raw": "Zuerich_Studentenprojekte",
+      "ort": "Zuerich",
+      "projekt": "Studentenprojekte",
+      "jahre": [],
+      "titel": "Zuerich Studentenprojekte"
+    },
+    {
+      "raw": "Zuerich_Wohnen",
+      "ort": "Zuerich",
+      "projekt": "Wohnen",
+      "jahre": [],
+      "titel": "Zuerich Wohnen"
+    },
+    {
+      "raw": "Zürich_Wettbewerbsbeitrag Griechisch Orthodoxe Kirche",
+      "ort": "Zürich",
+      "projekt": "Wettbewerbsbeitrag Griechisch Orthodoxe Kirche",
+      "jahre": [],
+      "titel": "Zürich Wettbewerbsbeitrag Griechisch Orthodoxe Kirche"
+    },
+    {
+      "raw": "_CWRZG~O",
+      "ort": "",
+      "projekt": "CWRZG~O",
+      "jahre": [],
+      "titel": "CWRZG~O"
+    }
+  ],
+  "projekt_anzahl": 44,
+  "inventar": {
+    "bilder": 417,
+    "dokumente": 64,
+    "cad": 0,
+    "andere": 48,
+    "total": 529
+  },
+  "dateitypen": {
+    ".jpg": 373,
+    ".pdf": 56,
+    ".psd": 36,
+    ".tif": 18,
+    ".png": 10,
+    ".jpeg": 8,
+    ".docx": 7,
+    ".db": 7,
+    ".tiff": 7,
+    ".indd": 1,
+    ".gif": 1,
+    ".textclipping": 1,
+    ".tiff alias": 1,
+    ".html": 1,
+    ".doc": 1,
+    ".php": 1
+  },
+  "textauszug": "https://www.atlasofplaces.com/architecture/apartment-building-along-a-party-wall/ Entwurfsmethodik HdM Eine Schilderung durch Jacques Herzog HTA Luzern / Studienarbeit / Studiengang Architektur / Horw, 29.06.07 Autoren: Abegg Markus Balgen 6062 Wilen +41 (0) 41 660 18 53 markus.abegg@stud.fhz.ch Strasky Darius Schulhausstrasse 11 6020 Emmenbrücke +41 (0) 41 260 31 62 darius.strasky@stud.fhz.ch Dozierenden Begleitteam: Von Arb Stefan Untergrundstr. 35 6400 Olten +41 (0) 62 212 32 60 stefan@von-arb.ch Deon Luca Hitzlisbergstrasse 18 6006 Luzern +41 (0) 41 410 95 17 deon@deonag.ch Entwurfsmethodik HdM Eine Schilderung durch Jacques Herzog HTA Luzern / Studienarbeit / Studiengang Architektur / Horw, 29.06.07 Inhalt Inhalt 2 1. Einleitung 3 2. Biogra ﬁ e 5 Jacques Herzog Pierre de Meuron Harry Gugger Christine Biswanger 3. Schlüsselstellen eines Interviews 6 4. Architektonische Haltung HdM (A) 23 Ort Architektur Städtebau Prozess 4.1 Schemabeschrieb 2 4 5. Prozess (P) 25 5.1 Schemabeschrieb 2 8 6. Schluss 29 7. Quellen 29 Abbildungsverzeichnis 30 1. Anhang: Glossar 31 2. Anhang: CD mit Interview 32 1. Einleitung Das renommierte Architekten Duo Herzog & de Meuron sind be- kannte Grössen in der Architekturszene. Das Star Ensemble aus Basel führt Bauaufgaben auf der ganzen Welt aus. Sie sind Innbild für gute Architektur. HdM, wie sie auch genannt werden, geniessen globale An- erkennung und sind für viele Architekten ein grosses Vorbild. Mit dieser Studienarbeit sollen die wichtigen Aspekte ihres Prozesses und ihrer architektonischen Haltung herausgeﬁ ltert werden. Als Grundlage dient ein Interview, welches Jacques Herzog im Radio DRS 3 gegeben hat. Aus diesem beschreibt Jacques Herzog ihrer Ar- beit sehr eindrücklich und präzis. Die wichtigsten Aussagen über ihre Entwurfsmethodik werden her- ausgeﬁ ltert und genauer analysiert. In einer abschliessenden Zusam- menfassung erhält man einen Einblick in ihren Prozess, sowie ihre ar- chitektonische Haltung. 3 Pierre de Meuron 1950 geboren in Basel 1975 Architekturdiplom an der ETH Zürich 1977 Assistent von Professor Dolf Schnebli an der ETH Zürich 1978 Büro mit Jacques Herzog 1989, 1994- Gastprofessor an der Harvard Universität, Cambridge, Massachusetts, USA 1999- Professor an ETH- Studios in Basel • • • • • • Christine Biswanger 1964 geboren in Kreuzlingen 1990 Architekturdiplom an der ETH Zürich 1991 Zusammenarbeit mit Herzog & de Meuron 1994 Büro mit Herzog & de Meuron • • • • Harry Gugger 1956 geboren in Gerzenbach 1989 Architekturdiplom an der ETH Zürich 1990 Assistent von Herzog & de Meuron an der Sommer Schule Karlsruhe, Deutschland 1991 Büro mit Herzog & de Meuron 1994 Gastprofessor an der Hochschule für Architektur und Bauwesen, Weimar, Deutschland • • • • • Jacques Herzog 1950 geboren in Basel 1975 Architekturdiplom an der ETH Zürich 1977 Assistent von Professor Dolf Schnebli an der ETH Zürich 1978 Büro mit Pierre de Meuron 1983 Gastprofessor an der Cornell Universität, Ithaca, N.Y. USA 1989, 1994- Gastprofessor an der Harvard Universität, Cambridge, Massachusetts, USA 1999- Professor an ETH- Studios in Basel • • • • • • • 2. Biogra ﬁ e 5 Architektonische Haltung Prozess ..., jedoch braucht man heutzutage Architektur vermehrt, um einem Ort einen gewissen Be- kanntheitsgrad zu schaffen... ...dass Architektur symbolische Wirkungen hat, welche andere Medien nicht haben. A P A A Olympiastadion Peking 6 3. Schlüsselstellen eines Interviews Genügt es, das Image einer Stadt zu verbessern, indem man Herzog und deMeuron für einen Bau beauftragt? Dies scheint so nicht zu stimmen, jedoch braucht man heutzutage Ar- chitektur vermehrt, um einem Ort einen gewissen Bekanntheitsgrad zu schaffen oder ihn zu erhöhen. Das war auch früher in der Geschich- te so. Fürsten zum Beispiel liessen sich Paläste oder grosse Parkan- lagen bauen, um der Welt ihre Macht zu zeigen. Beispiele dafür sind Versailles, der Taj Mahal, gothische Kathedralen oder die Geschlechter- türme in der T oscana. Die Leute vergessen zuweilen, dass Architektur symbolische Wirkungen hat, welche andere Medien nicht haben. Diese wurden in der Moderne oder auch in der Postmoderne vergessen. In den letzten zehn Jahren jedoch wurde diese Macht wieder entdeckt, unterstützt durch die Globalisierung. Schämten sich die Architekten in der Moderne dieser symbolischen Wirkung der Architektur oder spielte der Krieg eine entscheidende Rolle, indem sich die Architekten nach dem Krieg sagten, dass es jetzt ums Überleben gehe und nicht um irgendwelchen Schnikschnak? Das kann man nicht mit einem Argument erklären. Die Moderne war der Versuch einer Demokratisierung. Ornamente und Symboliken wurden unterdrückt. Es ist eher eine protestantische Bewegung. Also wollte man alles klar und gerade ohne grosse Schnörkeleien? Richtig! Man suchte in der Industrialisierung eine adäquate Bauform. Nun gibt es Herzog und deMeuron schon seit fast 30 Jahren. Wenn ihr tec21 43/2003 7 «Man nimmt Geld in die Hand, aber man zeigt es nicht», ist ein Bonmot, das die Aarauer Politik begleitet. Daher erstaunt es nicht, dass die Erweiterung des Kunsthauses unterirdisch hätte erfolgen sollen. Die Jury des 1997 veranstalteten Wettbewerbs opponierte indes diesem Ansinnen, als es den Entwurf von Herzog & de Meuron und Rémy Zaugg mit dem ersten Preis auszeichnete. (Dasjenige Projekt, das der Anforderung am konsequentesten Rechnung trug, stammte von Gigon & Guyer und wurde mit dem 3. Preis prämiert.) Dass die Kunsthausplanung in Aarau über Irr- und Umwege verlief, wäre ein weiteres Aperçu. Schon der Bau, den das Badener Architekturbüro Loepfe, Hänni Platz, Park, Dach und eine «Himmelstreppe» Erweiterung Kunsthaus Aarau von Herzog & de Meuron und Rémy Zaugg: Respekt, Repetition, Requalifikation Rahel Hartmann Schweizer Unterirdisch hätte die Erweiterung des Kunsthauses in Aarau ursprünglich sein sollen. Jetzt erhebt sie sich oberirdisch und liegt dennoch unter dem gewachse- nen Terrain. Park, Platz und Dach fallen in eins. 1 Die Erweiterung des Kunsthauses als Sockel: Mit der Glasfassade schiebt er sich unter den Altbau und öffnet den Bau zur Stadt hin, die sich ihrerseits in ihm spiegelt. Die Treppe ist nicht nur vermit- telndes Element zwischen Platz und dahinter liegendem Park, sondern eine Inszenierung, die historische Vorbilder hat (Bild: Heinrich Helfenstein) 8 tec21 43/2003 Die Entscheidung, den Standort beizubehalten, war denn auch ein Bekenntnis zum bestehenden Bau und dessen Qualitäten, die sich nicht nur in der schlichten Eleganz des Baukörpers, in der raumgreifenden Wen- deltreppe und den atmosphärischen Oberlichtsälen manifestieren, sondern auch in der Konstruktion. So tragen Stahlstützen das ganze Gewicht der Betonschei- ben der Fassade, auf die wiederum die steinerne Ver- kleidung aus Jurakalk direkt aufgeklebt wurde – und dies, ohne dass sich Risse bildeten. Das atmosphärische Oberlicht verdankt sich einer abgehängten Milchglasdecke. Darüber erhebt sich das Satteldach aus Stahlträgern, auf denen die Dachvergla- sung aufliegt. Stadtterrasse – Pavillon Herzog & de Meuron haben diese Qualitäten respek- tiert, repetiert und requalifiziert, indem sie eine enge Beziehung sowohl zum Altbau als auch zur Stadt schufen. Die Erweiterung dockt als zweigeschossiger verglaster Kubus an den Altbau an, tritt oberirdisch aber nur eingeschossig in Erscheinung. Die Leichtig- keit im Ausdruck, die er der Verglasung verdankt, straft die Konstruktion Lügen, handelt es sich doch um einen Massivbau mit ausschliesslich tragenden Beton- wänden und vier Rundstahlstützen im Foyer. Die Fas- sadenstützen tragen nur das Gewicht der Verglasung, während sie im Innenhof tragend sind. Dennoch rückt die Transparenz den Bau in die Nähe einer Pavillonar- 2 Das Dach aus bemoosten Tuffsteinen (im Bild 1 noch in der Wachstumsphase) zieht den hinter dem Regierungsgebäude «versteckten» Park, dem «das Kunsthaus den Rücken zuwandte» (Harry Gugger), nach vorne (Bild: Herzog & de Meuron) und Hänggli in den Jahren 1957–1959 realisierte,",
+  "embed_doc": "Herzog de Meuron | Allschwil Actelion | Ammersee Atelier Baselitz | Barranca Museum | Basel Comixmuseum Basel | Basel Haus Schwitter | Basel Messehalle Messeplatz | Basel Rehab-Klinik BS | Basel SCHAULAGER BS | Basel SUVA Gartenstrasse Basel | Basel Stellwerk | Basel Suedpark Bhf Basel Gueterstrasse Gundeli | Basel Turnhalle PFAFFENHOLZ BS | Basel Wohnhaus Schützenmatt | Basel Wohnhaus HEBELSTRASSE | Bottmingen Kindergarten | Caixa Forum ma | Chaeserrugg Hotel Restaurant | Colmar Museum | Das Blaue Haus | Duisburg Kuepersmuehle Museum | Frankreich Fussballstadion | Hamburg Elbphilharmonie | Laufen Lagerhaus Ricola | Leymen Haus Rudin | London Tate Modern Gallery 100924 HdM Tate Modern London | Luzern Hotel Gletscherspalte | Lyon Lyon | Miami Parkhaus | Muenchen Herrenstrasse | Muenchen Sammlung Goetz Muenchen | New York Hochhaus | New York Parrish Art Museum | Paris Tour Triangle | Peking Nationalstadium | Porta Volta | Riehen Naturbad | Tavole Steinhaus Casa de Piedra 88 1982 | Vancouver Art Gallery | Weil am Reihn Vitra | Wien Siedlung Pilotengasse | Zuerich Studentenprojekte | Zuerich Wohnen | Zürich Wettbewerbsbeitrag Griechisch Orthodoxe Kirche | CWRZG~O | https://www.atlasofplaces.com/architecture/apartment-building-along-a-party-wall/ Entwurfsmethodik HdM Eine Schilderung durch Jacques Herzog HTA Luzern / Studienarbeit / Studiengang Architektur / Horw, 29.06.07 Autoren: Abegg Markus Balgen 6062 Wilen +41 (0) 41 660 18 53 markus.abegg@stud.fhz.ch Strasky Darius Schulhausstrasse 11 6020 Emmenbrücke +41 (0) 41 260 31 62 darius.strasky@stud.fhz.ch Dozierenden Begleitteam: Von Arb Stefan Untergrundstr. 35 6400 Olten +41 (0) 62 212 32 60 stefan@von-arb.ch Deon Luca Hitzlisbergstrasse 18 6006 Luzern +41 (0) 41 410 95 17 deon@deonag.ch Entwurfsmethodik HdM Eine Schilderung durch Jacques Herzog HTA Luzern / Studienarbeit / Studiengang Architektur / Horw, 29.06.07 Inhalt Inhalt 2 1. Einleitung 3 2. Biogra ﬁ e 5 Jacques Herzog Pierre de Meuron Harry Gugger Christine Biswanger 3. Schlüsselstellen eines Interviews 6 4. Architektonische Haltung HdM (A) 23 Ort Architektur Städtebau Prozess 4.1 Schemabeschrieb 2 4 5. Prozess (P) 25 5.1 Schemabeschrieb 2 8 6. Schluss 29 7. Quellen 29 Abbildungsverzeichnis 30 1. Anhang: Glossar 31 2. Anhang: CD mit Interview 32 1. Einleitung Das renommierte Architekten Duo Herzog & de Meuron sind be- kannte Grössen in der Architekturszene. Das Star Ensemble aus Basel führt Bauaufgaben auf der ganzen Welt aus. Sie sind Innbild für gute Architektur. HdM, wie sie auch genannt werden, geniessen globale An- erkennung und sind für viele Architekten ein grosses Vorbild. Mit dieser Studienarbeit sollen die wichtigen Aspekte ihres Prozesses und ihrer architektonischen Haltung herausgeﬁ ltert werden. Als Grundlage dient ein Interview, welches Jacques Herzog im Radio DRS 3 gegeben hat. Aus diesem beschreibt Jacques Herzog ihrer Ar- beit sehr eindrücklich und präzis. Die wichtigsten Aussagen über ihre Entwurfsmethodik werden her- ausgeﬁ ltert und genauer analysiert. In einer abschliessenden Zusam- menfassung erhält man einen Einblick in ihren Prozess, sowie ihre ar- chitektonische Haltung. 3 Pierre de Meuron 1950 geboren in Basel 1975 Architekturdiplom an der ETH Zürich 1977 Assistent von Professor Dolf Schnebli an der ETH Zürich 1978 Büro mit Jacques Herzog 1989, 1994- Gastprofessor an der Harvard Universität, Cambridge, Massachusetts, USA 1999- Professor an ETH- Studios in Basel • • • • • • Christine Biswanger 1964 geboren in Kreuzlingen 1990 Architekturdiplom an der ETH Zürich 1991 Zusammenarbeit mit Herzog & de Meuron 1994 Büro mit Herzog & de Meuron • • • • Harry Gugger 1956 geboren in Gerzenbach 1989 Architekturdiplom an der ETH Zürich 1990 Assistent von Herzog & de Meuron an der Sommer Schule Karlsruhe, Deutschland 1991 Büro mit Herzog & de Meuron 1994 Gastprofessor an der Hochschule für Architektur und Bauwesen, Weimar, Deutschland • • • • • Jacques Herzog 1950 geboren in Basel 1975 Architekturdiplom an der ETH Zürich 1977 Assistent von Professor Dolf Schnebli an der ETH Zürich 1978 Büro mit Pierre de Meuron 1983 Gastprofessor an der Cornell Universität, Ithaca, N.Y. USA 1989, 1994- Gastprofessor an der Harvard Universität, Cambridge, Massachusetts, USA 1999- Professor an ETH- Studios in Basel • • • • • • • 2. Biogra ﬁ e 5 Architektonische Haltung Prozess ..., jedoch braucht man heutzutage Architektur vermehrt, um einem Ort einen gewissen Be- kanntheitsgrad zu schaffen... ...dass Architektur symbolische Wirkungen hat, welche andere Medien nicht haben. A P A A Olympiastadion Peking 6 3. Schlüsselstellen eines Interviews Genügt es, das Image einer Stadt zu verbessern, indem man Herzog und deMeuron für einen Bau beauftragt? Dies scheint so nicht zu stimmen, jedoch braucht man heutzutage Ar- chitektur vermehrt, um einem Ort einen gewissen Bekanntheitsgrad zu schaffen oder ihn zu erhöhen. Das war auch früher in der Geschich- te so. Fürsten zum Beispiel liessen sich Paläste oder grosse Parkan- lagen bauen, um der Welt ihre Macht zu zeigen. Beispiele dafür sind Versailles, der Taj Mahal, gothische Kathedralen oder die Geschlechter- türme in der T oscana. Die Leute vergessen zuweilen, dass Architektur symbolische Wirkungen hat, welche andere Medien nicht haben. Diese wurden in der Moderne oder auch in der Postmoderne vergessen. In den letzten zehn Jahren jedoch wurde diese Macht wieder entdeckt, unterstützt durch die Globalisierung. Schämten sich die Architekten in der Moderne dieser symbolischen Wirkung der Architektur oder spielte der Krieg eine entscheidende Rolle, indem sich die Architekten nach dem Krieg sagten, dass es jetzt ums Überleben gehe und nicht um irgendwelchen Schnikschnak? Das kann man nicht mit einem Argument erklären. Die Moderne war der Versuch einer Demokratisierung. Ornamente und Symboliken wurden unterdrückt. Es ist eher eine protestantische Bewegung. Also wollte man alles klar und gerade ohne grosse Schnörkeleien? Richtig! Man suchte in der Industrialisierung eine adäquate Bauform. Nun gibt es Herzog und deMeuron schon seit fast 30 Jahren. Wenn ihr tec21 43/2003 7 «Man nimmt Geld in die Hand, aber man zeigt es nicht», ist ein Bonmot, das die Aarauer Politik begleitet. Daher erstaunt es nicht, dass die Erweiterung des Kunsthauses unterirdisch hätte erfolgen sollen. Die Jury des 1997 veranstalteten Wettbewerbs opponierte indes diesem Ansinnen, als es den Entwurf von Herzog & de Meuron und Rémy Zaugg mit dem ersten Preis auszeichnete. (Dasjenige Projekt, das der Anforderung am konsequentesten Rechnung trug, stammte von Gigon & Guyer und wurde mit dem 3. Preis prämiert.) Dass die Kunsthausplanung in Aarau über Irr- und Umwege verlief, wäre ein weiteres Aperçu. Schon der Bau, den das Badener Architekturbüro Loepfe, Hänni Platz, Park, Dach und eine «Himmelstreppe» Erweiterung Kunsthaus Aarau von Herzog & de Meuron und Rémy Zaugg: Respekt, Repetition, Requalifikation Rahel Hartmann Schweizer Unterirdisch hätte die Erweiterung des Kunsthauses in Aarau ursprünglich sein sollen. Jetzt erhebt sie sich oberirdisch und liegt dennoch unter dem gewachse- nen Terrain. Park, Platz und Dach fallen in eins. 1 Die Erweiterung des Kunsthauses als Sockel: Mit der Glasfassade schiebt er sich unter den Altbau und öffnet den Bau zur Stadt hin, die sich ihrerseits in ihm spiegelt. Die Treppe ist nicht nur vermit- telndes Element zwischen Platz und dahinter liegendem Park, sondern eine Inszenierung, die historische Vorbilder hat (Bild: Heinrich Helfenstein) 8 tec21 43/2003 Die Entscheidung, den Standort beizubehalten, war denn auch ein Bekenntnis zum bestehenden Bau und dessen Qualitäten, die sich nicht nur in der schlichten Eleganz des Baukörpers, in der raumgreifenden Wen- deltreppe und den atmosphärischen Oberlichtsälen manifestieren, sondern auch in der Konstruktion. So tragen Stahlstützen das ganze Gewicht der Betonschei- ben der Fassade, auf die wiederum die steinerne Ver- kleidung aus Jurakalk direkt aufgeklebt wurde – und dies, ohne dass sich Risse bildeten. Das atmosphärische Oberlicht verdankt sich einer abgehängten Milchglasdecke. Darüber erhebt sich das Satteldach aus Stahlträgern, auf denen die Dachvergla- sung aufliegt. Stadtterrasse – Pavillon Herzog & de Meuron haben diese Qualitäten respek- tiert, repetiert und requalifiziert, indem sie eine enge Beziehung sowohl zum Altbau als auch zur Stadt schufen. Die Erweiterung dockt als zweigeschossiger verglaster Kubus an den Altbau an, tritt oberirdisch aber nur eingeschossig in Erscheinung. Die Leichtig- keit im Ausdruck, die er der Verglasung verdankt, straft die Konstruktion Lügen, handelt es sich doch um einen Massivbau mit ausschliesslich tragenden Beton- wänden und vier Rundstahlstützen im Foyer. Die Fas- sadenstützen tragen nur das Gewicht der Verglasung, während sie im Innenhof tragend sind. Dennoch rückt die Transparenz den Bau in die Nähe einer Pavillonar- 2 Das Dach aus bemoosten Tuffsteinen (im Bild 1 noch in der Wachstumsphase) zieht den hinter dem Regierungsgebäude «versteckten» Park, dem «das Kunsthaus den Rücken zuwandte» (Harry Gugger), nach vorne (Bild: Herzog & de Meuron) und Hänggli in den Jahren 1957–1959 realisierte,",
+  "stand": "2026-07-02T21:17:38"
+}

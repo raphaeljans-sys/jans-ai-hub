@@ -1,0 +1,51 @@
+{
+  "slug": "Ito_Toyo",
+  "architekt": {
+    "name": "Ito Toyo",
+    "nachname": "Ito",
+    "vorname": "Toyo",
+    "jahre": [],
+    "ordner": "Ito_Toyo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ito_Toyo",
+  "projekte": [
+    {
+      "raw": "Ito",
+      "ort": "Ito",
+      "projekt": "Ito",
+      "jahre": [],
+      "titel": "Ito"
+    },
+    {
+      "raw": "Tama Art University Library 2007",
+      "ort": "Tama Art University Library 2007",
+      "projekt": "Tama Art University Library 2007",
+      "jahre": [],
+      "titel": "Tama Art University Library 2007"
+    },
+    {
+      "raw": "Tods_omotesando",
+      "ort": "Tods",
+      "projekt": "omotesando",
+      "jahre": [],
+      "titel": "Tods omotesando"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 52,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 53
+  },
+  "dateitypen": {
+    ".jpg": 25,
+    ".tif": 17,
+    ".png": 10,
+    ".db": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Ito Toyo | Ito Ito | Tama Art University Library 2007 Tama Art University Library 2007 | Tods omotesando",
+  "stand": "2026-07-02T21:19:00"
+}

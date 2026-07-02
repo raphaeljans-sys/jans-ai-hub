@@ -1,0 +1,24 @@
+{
+  "slug": "Isola_Aimaro",
+  "architekt": {
+    "name": "Isola Aimaro",
+    "nachname": "Isola",
+    "vorname": "Aimaro",
+    "jahre": [],
+    "ordner": "Isola_Aimaro"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Isola_Aimaro",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Isola Aimaro",
+  "stand": "2026-07-02T21:18:59"
+}

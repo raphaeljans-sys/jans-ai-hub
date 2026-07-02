@@ -1,0 +1,45 @@
+{
+  "slug": "Ishigam_Junya",
+  "architekt": {
+    "name": "Ishigam Junya",
+    "nachname": "Ishigam",
+    "vorname": "Junya",
+    "jahre": [],
+    "ordner": "Ishigam_Junya"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ishigam_Junya",
+  "projekte": [
+    {
+      "raw": "Ishigami",
+      "ort": "Ishigami",
+      "projekt": "Ishigami",
+      "jahre": [],
+      "titel": "Ishigami"
+    },
+    {
+      "raw": "KAIT_Workshop_Junya_Ishigam_2008",
+      "ort": "KAIT",
+      "projekt": "Workshop Junya Ishigam",
+      "jahre": [
+        "2008"
+      ],
+      "titel": "KAIT Workshop Junya Ishigam 2008"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 24,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 25
+  },
+  "dateitypen": {
+    ".jpg": 23,
+    ".gif": 1,
+    "._swjpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Ishigam Junya | Ishigami Ishigami | KAIT Workshop Junya Ishigam 2008",
+  "stand": "2026-07-02T21:18:57"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Furness_Frank",
+  "architekt": {
+    "name": "Furness Frank",
+    "nachname": "Furness",
+    "vorname": "Frank",
+    "jahre": [],
+    "ordner": "Furness_Frank"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Furness_Frank",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Furness Frank",
+  "stand": "2026-07-02T21:15:26"
+}

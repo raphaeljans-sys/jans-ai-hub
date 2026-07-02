@@ -1,0 +1,41 @@
+{
+  "slug": "Holl_Steven",
+  "architekt": {
+    "name": "Holl Steven",
+    "nachname": "Holl",
+    "vorname": "Steven",
+    "jahre": [],
+    "ordner": "Holl_Steven"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Holl_Steven",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "St_Ignatius",
+      "ort": "St",
+      "projekt": "Ignatius",
+      "jahre": [],
+      "titel": "St Ignatius"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 9
+  },
+  "textauszug": "",
+  "embed_doc": "Holl Steven | 00 Architekten | St Ignatius",
+  "stand": "2026-07-02T21:18:22"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "Fueg_Franz",
+  "architekt": {
+    "name": "Fueg Franz",
+    "nachname": "Fueg",
+    "vorname": "Franz",
+    "jahre": [],
+    "ordner": "Fueg_Franz"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fueg_Franz",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Meggen_Kirche",
+      "ort": "Meggen",
+      "projekt": "Kirche",
+      "jahre": [],
+      "titel": "Meggen Kirche"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 14,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 14
+  },
+  "dateitypen": {
+    ".jpg": 14
+  },
+  "textauszug": "",
+  "embed_doc": "Fueg Franz | 00 Architekten | Meggen Kirche",
+  "stand": "2026-07-02T21:15:22"
+}

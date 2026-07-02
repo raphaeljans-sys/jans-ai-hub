@@ -1,0 +1,36 @@
+{
+  "slug": "Jackob_Steib",
+  "architekt": {
+    "name": "Jackob Steib",
+    "nachname": "Jackob",
+    "vorname": "Steib",
+    "jahre": [],
+    "ordner": "Jackob_Steib"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Jackob_Steib",
+  "projekte": [
+    {
+      "raw": "Hinterfeld-Zwingen",
+      "ort": "Hinterfeld-Zwingen",
+      "projekt": "Hinterfeld-Zwingen",
+      "jahre": [],
+      "titel": "Hinterfeld-Zwingen"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 1,
+    "total": 10
+  },
+  "dateitypen": {
+    ".tif": 8,
+    ".pdf": 1,
+    "": 1
+  },
+  "textauszug": "N",
+  "embed_doc": "Jackob Steib | Hinterfeld-Zwingen Hinterfeld-Zwingen | N",
+  "stand": "2026-07-02T21:19:01"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "Kenzo_Tange",
+  "architekt": {
+    "name": "Kenzo Tange",
+    "nachname": "Kenzo",
+    "vorname": "Tange",
+    "jahre": [],
+    "ordner": "Kenzo_Tange"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kenzo_Tange",
+  "projekte": [
+    {
+      "raw": "120227_YCC",
+      "ort": "120227",
+      "projekt": "YCC",
+      "jahre": [],
+      "titel": "120227 YCC"
+    },
+    {
+      "raw": "St. Mary’s Cathedral in Tokyo, Japan, by Tange Kenzo, 1964",
+      "ort": "St. Mary’s Cathedral in Tokyo, Japan, by Tange Kenzo, 1964",
+      "projekt": "St. Mary’s Cathedral in Tokyo, Japan, by Tange Kenzo, 1964",
+      "jahre": [],
+      "titel": "St. Mary’s Cathedral in Tokyo, Japan, by Tange Kenzo, 1964"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 2,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 8,
+    ".png": 1,
+    ".pptx": 1,
+    ".db": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kenzo Tange | 120227 YCC | St. Mary’s Cathedral in Tokyo, Japan, by Tange Kenzo, 1964 St. Mary’s Cathedral in Tokyo, Japan, by Tange Kenzo, 1964",
+  "stand": "2026-07-02T21:22:21"
+}

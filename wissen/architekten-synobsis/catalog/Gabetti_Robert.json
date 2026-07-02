@@ -1,0 +1,49 @@
+{
+  "slug": "Gabetti_Robert",
+  "architekt": {
+    "name": "Gabetti Robert",
+    "nachname": "Gabetti",
+    "vorname": "Robert",
+    "jahre": [],
+    "ordner": "Gabetti_Robert"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gabetti_Robert",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Turin_bottega_d_Erasmo",
+      "ort": "Turin",
+      "projekt": "bottega d Erasmo",
+      "jahre": [],
+      "titel": "Turin bottega d Erasmo"
+    },
+    {
+      "raw": "gabetti.museo.antichita",
+      "ort": "gabetti.museo.antichita",
+      "projekt": "gabetti.museo.antichita",
+      "jahre": [],
+      "titel": "gabetti.museo.antichita"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 9,
+    ".jpeg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Gabetti Robert | 00 Architekten | Turin bottega d Erasmo | gabetti.museo.antichita gabetti.museo.antichita",
+  "stand": "2026-07-02T21:15:43"
+}

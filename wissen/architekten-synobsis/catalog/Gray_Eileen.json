@@ -1,0 +1,27 @@
+{
+  "slug": "Gray_Eileen",
+  "architekt": {
+    "name": "Gray Eileen",
+    "nachname": "Gray",
+    "vorname": "Eileen",
+    "jahre": [],
+    "ordner": "Gray_Eileen"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gray_Eileen",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 1,
+    ".webarchive": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Gray Eileen",
+  "stand": "2026-07-02T21:16:36"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "Froehlich_Albert",
+  "architekt": {
+    "name": "Froehlich Albert",
+    "nachname": "Froehlich",
+    "vorname": "Albert",
+    "jahre": [],
+    "ordner": "Froehlich_Albert"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Froehlich_Albert",
+  "projekte": [
+    {
+      "raw": "Zuerich_Unterstrass_K6_Siedlung_Hofgarten",
+      "ort": "Zuerich",
+      "projekt": "Unterstrass K6 Siedlung Hofgarten",
+      "jahre": [],
+      "titel": "Zuerich Unterstrass K6 Siedlung Hofgarten"
+    },
+    {
+      "raw": "Zuerich_Wettbewerb_Gross_Zuerich_1918",
+      "ort": "Zuerich",
+      "projekt": "Wettbewerb Gross Zuerich",
+      "jahre": [
+        "1918"
+      ],
+      "titel": "Zuerich Wettbewerb Gross Zuerich 1918"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 10,
+    "cad": 0,
+    "andere": 0,
+    "total": 14
+  },
+  "dateitypen": {
+    ".pdf": 10,
+    ".jpg": 3,
+    ".png": 1
+  },
+  "textauszug": "Keine Garantie für Richtigkeit, Vollständigkeit und Aktualität. Rechtsverbindliche Auskünfte erteilen allein die zuständigen Behörden. Seite 1/2www.stadt-zuerich.ch/zueriplan Seite 2/2www.stadt-zuerich.ch/zueriplan Keine Garantie für Richtigkeit, Vollständigkeit und Aktualität. Rechtsverbindliche Auskünfte erteilen allein die zuständigen Behörden. Seite 1/2www.stadt-zuerich.ch/zueriplan Seite 2/2www.stadt-zuerich.ch/zueriplan Keine Garantie für Richtigkeit, Vollständigkeit und Aktualität. Rechtsverbindliche Auskünfte erteilen allein die zuständigen Behörden. Seite 1/2www.stadt-zuerich.ch/zueriplan Seite 2/2www.stadt-zuerich.ch/zueriplan",
+  "embed_doc": "Froehlich Albert | Zuerich Unterstrass K6 Siedlung Hofgarten | Zuerich Wettbewerb Gross Zuerich 1918 | Keine Garantie für Richtigkeit, Vollständigkeit und Aktualität. Rechtsverbindliche Auskünfte erteilen allein die zuständigen Behörden. Seite 1/2www.stadt-zuerich.ch/zueriplan Seite 2/2www.stadt-zuerich.ch/zueriplan Keine Garantie für Richtigkeit, Vollständigkeit und Aktualität. Rechtsverbindliche Auskünfte erteilen allein die zuständigen Behörden. Seite 1/2www.stadt-zuerich.ch/zueriplan Seite 2/2www.stadt-zuerich.ch/zueriplan Keine Garantie für Richtigkeit, Vollständigkeit und Aktualität. Rechtsverbindliche Auskünfte erteilen allein die zuständigen Behörden. Seite 1/2www.stadt-zuerich.ch/zueriplan Seite 2/2www.stadt-zuerich.ch/zueriplan",
+  "stand": "2026-07-02T21:15:18"
+}

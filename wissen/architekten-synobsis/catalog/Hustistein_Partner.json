@@ -1,0 +1,26 @@
+{
+  "slug": "Hustistein_Partner",
+  "architekt": {
+    "name": "Hustistein Partner",
+    "nachname": "Hustistein",
+    "vorname": "Partner",
+    "jahre": [],
+    "ordner": "Hustistein_Partner"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hustistein_Partner",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Hustistein Partner",
+  "stand": "2026-07-02T21:18:52"
+}

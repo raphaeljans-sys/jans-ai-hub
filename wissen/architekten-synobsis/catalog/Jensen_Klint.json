@@ -1,0 +1,24 @@
+{
+  "slug": "Jensen_Klint",
+  "architekt": {
+    "name": "Jensen Klint",
+    "nachname": "Jensen",
+    "vorname": "Klint",
+    "jahre": [],
+    "ordner": "Jensen_Klint"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Jensen_Klint",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Jensen Klint",
+  "stand": "2026-07-02T21:21:55"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "Gessner_Hubert",
+  "architekt": {
+    "name": "Gessner Hubert",
+    "nachname": "Gessner",
+    "vorname": "Hubert",
+    "jahre": [],
+    "ordner": "Gessner_Hubert"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gessner_Hubert",
+  "projekte": [
+    {
+      "raw": "Wien_Reumannhof",
+      "ort": "Wien",
+      "projekt": "Reumannhof",
+      "jahre": [],
+      "titel": "Wien Reumannhof"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Gessner Hubert | Wien Reumannhof",
+  "stand": "2026-07-02T21:16:06"
+}

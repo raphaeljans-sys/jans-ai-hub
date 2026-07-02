@@ -1,0 +1,34 @@
+{
+  "slug": "Haratori",
+  "architekt": {
+    "name": "Haratori",
+    "nachname": "Haratori",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Haratori"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Haratori",
+  "projekte": [
+    {
+      "raw": "Zürich Bahnhofstrasse",
+      "ort": "Zürich Bahnhofstrasse",
+      "projekt": "Zürich Bahnhofstrasse",
+      "jahre": [],
+      "titel": "Zürich Bahnhofstrasse"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".png": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Haratori | Zürich Bahnhofstrasse Zürich Bahnhofstrasse",
+  "stand": "2026-07-02T21:16:58"
+}

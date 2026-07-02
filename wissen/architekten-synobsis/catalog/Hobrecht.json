@@ -1,0 +1,41 @@
+{
+  "slug": "Hobrecht",
+  "architekt": {
+    "name": "Hobrecht",
+    "nachname": "Hobrecht",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Hobrecht"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hobrecht",
+  "projekte": [
+    {
+      "raw": "Berlin_1910",
+      "ort": "Berlin",
+      "projekt": "Berlin",
+      "jahre": [
+        "1910"
+      ],
+      "titel": "Berlin 1910"
+    },
+    {
+      "raw": "Infrastruktur_ist_die_Voraussetzung_von_Staedtebau",
+      "ort": "Infrastruktur",
+      "projekt": "ist die Voraussetzung von Staedtebau",
+      "jahre": [],
+      "titel": "Infrastruktur ist die Voraussetzung von Staedtebau"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Hobrecht | Berlin Berlin 1910 | Infrastruktur ist die Voraussetzung von Staedtebau",
+  "stand": "2026-07-02T21:17:41"
+}
