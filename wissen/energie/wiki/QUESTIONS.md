@@ -30,8 +30,10 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   keine Obergrenze, meist **alternativ** zur kantonalen WP-Foerderung) → `[[energiefranken-foerder-suchmaschine-ch]]`,
   FAQ **F29** neu, `foerderung-energie-zh/-sz` verlinkt. Offen nur noch: exakte **2026er** EIV-CHF/kWp
   je Anlagengroesse am Pronovo-Tarifrechner (interaktiv); konkrete M-02…M-18-Saetze weiterer Kantone;
-  konkrete **Gemeinde-Beitraege** der JANS-Standorte (PLZ-spezifisch, erst projektbezogen); Klimapraemie
-  exakter 2026-Satz + Laufzeit (Quellenwiderspruch «bis 2025» vs. «bis Ende 2027» → Live-Pruefung klimapraemie.ch).
+  konkrete **Gemeinde-Beitraege** der JANS-Standorte (PLZ-spezifisch, erst projektbezogen). **Klimapraemie-
+  Laufzeit praezisiert ✓ 2026-07-02: voraussichtlich bis spaetestens Ende 2027** (aeltere «bis 2025»-Seiten
+  veraltet, aktuelle Programmfuehrung foerderplattform.ch) → `[[klimapraemie-heizungsersatz-klik]]`; offen nur
+  noch exakter 2026-CHF-Satz + hartes Enddatum (Live-Pruefung klimapraemie.ch, je Projekt).
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
   Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
@@ -87,9 +89,10 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Begriff belegt ✓ 2026-06-27**: BFE-Feldanalyse FAWA (236 Anlagen, S/W Ø 3,5 · L/W Ø 2,7, +Planungslehren
   Vorlauftemp/Ueberdimensionierung/Speicher) → `[[fawa-jaz-feldanalyse-waermepumpen]]`; COP-Pruefpunkt vs.
   SCOP (EN 14825, CH ~5-7 % zu hoch) vs. JAZ-Feldmessung → `[[cop-scop-jaz-waermepumpe-gruenenwald]]`;
-  F6 + Themenartikel `[[heizleistung-und-waermeerzeuger]]` geschaerft. Offen nur noch: **moderne**
-  projektgenaue WP-JAZ-Defaults (WPesti/SIA 384/3, FWS-Aktuellstatistik), CHF-Amortisationsvergleich,
-  WP+PV-Lastmanagement.
+  F6 + Themenartikel `[[heizleistung-und-waermeerzeuger]]` geschaerft. **Methode fuer den projektgenauen
+  Wert belegt ✓ 2026-07-02** (WPesti/SIA 384/3:2021, gratis endk.ch, JAZ aus SIA-380/1-Nachweis + WP-Typ +
+  Einbauart) → `[[sia-384-3-wpesti-jaz-methode]]`. Offen nur noch: aktuelle **FWS-Feldstatistik** (moderne
+  Geraete-JAZ nach 2004), WPesti-Standardwerte, CHF-Amortisationsvergleich, WP+PV-Lastmanagement.
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
   `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)

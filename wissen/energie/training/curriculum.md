@@ -55,7 +55,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (FAQ F6). **CH-Primaerquelle Feld-JAZ + COP/SCOP/JAZ-Begriff belegt 2026-06-27** via BFE-Feldanalyse
   FAWA (236 Anlagen, S/W 3,5 · L/W 2,7) → `[[fawa-jaz-feldanalyse-waermepumpen]]` + EN-14825-Foliensatz
   → `[[cop-scop-jaz-waermepumpe-gruenenwald]]`; F6 + `[[heizleistung-und-waermeerzeuger]]` geschaerft.
-  Offen: **moderne** projektgenaue WP-JAZ-Defaults (WPesti/FWS-Aktuellstatistik), CHF-Amortisationsvergleich.
+  **Methode fuer projektgenaue JAZ belegt 2026-07-02** (WPesti/SIA 384/3:2021, gratis endk.ch, JAZ aus
+  SIA-380/1-Nachweis + WP-Typ + Einbauart) → `[[sia-384-3-wpesti-jaz-methode]]`.
+  Offen: aktuelle **FWS-Feldstatistik** (moderne Geraete-JAZ nach 2004), WPesti-Standardwerte, CHF-Amortisationsvergleich.
 - [x] B6 Waermetechnische Anlagen WTA-Formular — belegt 2026-06-10 via Kt.-ZH-Formular 01-2024
   → `[[wta-formular-zh-waermetechnische-anlagen]]` (FAQ F14: Heizungsersatz-Verfahren/Beilagen je
   Waermequelle + fossil-Verbot §10a). **vollstaendig.**
@@ -106,8 +108,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[foerderprogramm-energie-sz-2026]]`, FAQ **F28**). **Gemeinde-/EWU-Ebene + Foerder-Suchmaschine
   belegt 2026-06-30** (`energiefranken.ch` EnergieSchweiz/BFE standortgenau ueber alle Ebenen +
   Klimapraemie Stiftung KliK ~360/kW, meist alternativ zum Kanton) → `[[energiefranken-foerder-suchmaschine-ch]]`
-  (FAQ **F29** neu). **vollstaendig** (offen nur konkrete M-02…M-18-Saetze je Kanton + PLZ-genaue
-  Gemeinde-Beitraege der JANS-Standorte + Klimapraemie-Laufzeit/2026-Satz Live-Pruefung).
+  (FAQ **F29** neu). **Klimapraemie im Detail belegt 2026-07-02** (Stiftung KliK ~360/kW, keine Obergrenze,
+  fossil→WP/Holz, meist alternativ zum Kanton; **Laufzeit voraussichtlich bis spaetestens Ende 2027** —
+  aeltere «bis 2025»-Seiten veraltet) → `[[klimapraemie-heizungsersatz-klik]]`. **vollstaendig** (offen nur
+  konkrete M-02…M-18-Saetze je Kanton + PLZ-genaue Gemeinde-Beitraege der JANS-Standorte + Klimapraemie
+  exakter 2026-CHF-Satz/hartes Enddatum via klimapraemie.ch).
 - [x] D5 Regenwasserbewirtschaftung / Versickerung Kt. ZH — belegt 2026-06-23 via AWEL-Gesuchsformular
   (Bewilligung >20 m², Zustaendigkeit Gemeinde/AWEL, Metall-Adsorber >50 m², Versickerungsversuch +
   1,0 m Filterschicht; VSA 2019/SN 592 000) → `[[regenwasserbewirtschaftung-versickerung-zh]]` (FAQ F24).

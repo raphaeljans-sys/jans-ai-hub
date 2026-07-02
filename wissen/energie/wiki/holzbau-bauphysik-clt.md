@@ -2,7 +2,7 @@
 title: Holzbau-Bauphysik — CLT / Brettsperrholz (Waerme, Luftdicht, Feuchte)
 status: established
 last_updated: 2026-06-24
-sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/daemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md, destillate/sia-181-schallschutz-anforderungswerte.md]
+sources: [destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/graue-energie-betriebsenergie.md, destillate/sia-181-schallschutz-anforderungswerte.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[graue-energie]], [[schallschutz-sia181]]
 ---
 
