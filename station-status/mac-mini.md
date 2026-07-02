@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.07.2026 08:25:21
+Stand: 02.07.2026 08:35:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 02.07.2026 08:25:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 53dd326 sync: ag-gruendung-monitor: Status 02.07. nichts Neues (UBS/Notariat/REGIX)
+- 1a8061a nas-selfcommit: 2 Datei(en) 2026-07-02 08:30
