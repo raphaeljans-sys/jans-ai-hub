@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -544,6 +544,30 @@ vilegierte Vordachtiefe heute ~1 m, «wird eine Abänderungseingabe nach der Rat
 eingegeben, erhöht sich das Mass auf 2.0 m» (→ [[denken]] kippender Schwellenwert). Der Zwilling liest
 eine Dienstbarkeit eng am bezeichneten Objekt, zitiert die Vertragsziffer und trennt bestehendes
 objektbezogenes Näherbaurecht sauber vom generellen Abstandsprivileg.
+
+## STWEG-Begründung: Vier-Dokumente-Kohärenz + Notariats-Absprache + Struktur-Varianten (belegt Mailbatch 22, authentisch)
+Vertieft die STWEG-Fachsignatur (Batch 17): die Begründung einer Stockwerkeigentumsgemeinschaft ruht
+auf **vier Dokumenten, die inhaltlich deckungsgleich sein müssen** — «**Begründungsaktdokument,
+Aufteilungsplan, Wertquotenberechnung und Reglement müssen inhaltlich übereinstimmen**» (Maria,
+12.01.2026). Prozess-Marker: **zuerst mit dem Bezirks-/zuständigen Notariat Vorgehen, Dokumentenliste
+und Minimalanforderungen absprechen** («Beim zuständigen Notariat das Vorgehen und die Dokumentenliste
+absprechen»; «Minimalanforderungen und Umfang Dokumentenliste mit Bezirksnotariat absprechen») — die
+Behörden-/Notariats-Absprache VOR der Ausarbeitung, damit Umfang und Tiefe stimmen. **Aufteilungsplan**
+schematisch oder detailliert im Massstab **1:200/1:100 mit farblicher Darstellung**; zwei
+Darstellungs-Varianten der Eigentumsstruktur: **anonymisiert** (nur Wohnungsnummern auf der Übersicht,
+Eigentümerzuweisung in gesondertem Dokument) vs. **zugewiesen** (jede Einheit mit eigener Farbe/Nummer +
+Eigentümername in der Übersicht). Der Zwilling kennt die vier kohärenzpflichtigen STWEG-Dokumente,
+schaltet die Notariats-Absprache vor und bietet die zwei Aufteilungsplan-Darstellungsvarianten an.
+
+## Baufreigabe-Verfahren: «Verzögerung durch Dritte» nach Ablauf der Rekursfrist beweissicher (belegt Mailbatch 22, authentisch)
+Verfahrensrealismus im Übergang Bauentscheid → Baufreigabe: nach Ablauf der Rekursfrist lässt Raphael
+den Punkt «**Verzögerung durch Dritte (Privatrecht)**» beim **Baurekursgericht schriftlich bestätigen**
+(«Ist eine Verzögerung durch Dritte (Privatrecht) des Baurechtsentscheid 2564/25 … nach Ablauf der
+Rekursfrist gegeben? … Besten Dank für Ihre schriftliche Bestätigung», 05.01.2026) — die geschlossene,
+beweissichere Frage ans Gericht, um den Baufreigabe-Weg rechtlich sauber freizustellen. Ebenso das
+proaktive **Einsprache-Status-Monitoring** («Nach telefonischer Rücksprache mit dem Baurekursgericht
+ist bis Dato keine Einsprache … Definitiv kann nächsten Montag … bekannt gegeben werden», an Bauherrin).
+Reiht sich in den Baufreigabe-Ämter-Kette-Realismus (Batch 21) und die Auflagebereinigung.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

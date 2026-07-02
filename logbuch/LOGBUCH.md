@@ -5,6 +5,34 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-02
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 09.07.)
+  und Mail-Eingang (seit 01.07. 17:00) abgeglichen. Sync-Task-Queue: ein Routine-Commit-Task fuer den
+  Mac Mini (vom Macbook Pro, Runner) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **77 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 = in
+  6 Tagen**, kein Zahlungseingang. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt
+  klaeren).
+- **Kalender naechste 7 Tage (Outlook):** zwei Termine. **07.07. 16:00–16:30** TeKoSi finale
+  Tuer-Ausfuehrungsplanung (Teams, KISPI; RJ Organisator, Y. Cetin hat 29.06. abgesagt) — bereits im
+  Register. NEU: **09.07. 13:00–14:00** Koordinationssitzung Gruner/Jans/KISPI (Serientermin
+  Zwei-Wochen-Rhythmus, Organisatorin M. Valentin/KISPI) — ins Register aufgenommen. FIFA-Museum
+  (01.07., privat) vorbei → Archiv.
+- **Mail-Eingang (seit 01.07. 17:00):** keine neue relevante Mail.
+- **EPROID B26-00705.01:** A. Soerensen (Stadt ZH) ist ab heute (02.07.) wieder im Haus — Antwort
+  jetzt erwartbar, ab Ende Woche aktiv nachfassen.
+- **AG-Gruendung (unveraendert hoch):** Antwort ans Notariat (Name «Raphael Jans AG» bestaetigen +
+  Urkunde/Statuten 260627 senden) noch nicht raus; UBS-Antwort/angepasstes Formular abwarten.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (ueberfaellig, Mahnung-1-Zahlfrist **08.07.**), Termine
+  07.07. + 09.07., EPROID (Soerensen zurueck → nachfassen), AG-Gruendung (Notariats-Antwort offen).
+  Dauerhaft offen: SharePoint-Speicher, bexio-Doppelimport, KISPI LOS274.01 (def. Offerte Jegen),
+  dwg Ramminger, Unterlagen Scherbl, Status/Beton Tschopp, Freischaltung Merci, Chaled, Jomos,
+  Mittagessen Prencipe, Schliesssystem Struebi, Kuechenbau LOS 273.35.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-07-01
 
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 08.07.)

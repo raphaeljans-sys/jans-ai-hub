@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-02 — twin-mail-training (täglich), Batch 22: Sent rj@ 2025-12-10…2026-01-12
+- Sweep-Fortschritt: abgedeckt bis **2026-01-12** (nächster Lauf ab 2026-01-13). 20 Mails gesichtet,
+  5 Volltexte gelesen. Register-Mix: Bopp-STWEG-Korrektur, Weisser-Rechnungen (Bösfeldstrasse 7),
+  Hofer/UGZ-Auflagebereinigung (Wartstrasse 8), Maria-STWEG-Anleitung, Bickel-Bonitätsanfrage.
+- **stimme:** Mundart-Neujahrsgruss «Es guet's Nöis» im Sie-Behörden-Schluss an eingespielten Amtskontakt
+  (UGZ Buschor); Neujahrs-Wunschformeln register-parallel (Du/Sie/Peer); **Echo-Falle 5. Beleg**
+  (Times-New-Roman-Bonitäts-Report im Tom-Thread → ausgeschlossen); Metrik 620 W (Du-Gross 0.818,
+  ø 14.4 W, «Freundliche Grüsse» 7×).
+- **beziehungsregister:** Bauherrin-Sie wärmt über Tage im selben Vorgang (Sehr geehrte→Guten Tag→
+  Geschätzte, Hofer); neue Mappings Weisser/Bickel/Maria Jans/Buschor/Anna.
+- **arbeitsweise:** Anleitungs-/Übergabemail (nummerierte Schritte 01–04 + Muss-Bedingungen _A/_B +
+  Struktur-Varianten mit beigelegten Vorlagen + Ausarbeitungstiefe dem Empfänger überlassen);
+  Bonitätsprüfung des Bauherrn vor Mandatsannahme (Behavior); Themen-Header in Kurzmails.
+- **fachsignatur:** STWEG-Vier-Dokumente-Kohärenz (Begründungsakt/Aufteilungsplan/Wertquoten/Reglement)
+  + Notariats-Absprache vorschalten + Aufteilungsplan-Varianten; «Verzögerung durch Dritte» nach
+  Rekursfrist beweissicher beim Baurekursgericht.
+- Befund: die Jan-2026-rj@-Mails sind stilistisch weiter authentisch handgetippt; Claude-Ära noch nicht
+  als Grundtext sichtbar, nur als eingefügte AI-Paste-Passagen (Echo-Fallen). _INGESTED.md aktualisiert.
+
 ## 2026-07-02 — twin-fidelity-review (alle 2 Tage), Gesamt-Fidelity 90 (Plateau gehalten)
 - 3 authentische Vor-Claude-Goldproben (handgetippt) aus Sent rj@, distinkte Register: A Behörde-Sie
   (Baugespann/Denkmalpflege-Timeline, AfB Müller, 2025-11-06), B operativ-fachliches Bauherr-Du

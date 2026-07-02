@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -458,6 +458,30 @@ wachsenden Vertrautheit»; 😊 erlaubt im warm-sozialen Du (→ [[stimme]]).
 - **Meng Li + Stephan Müller (befreundete Architekten, gmail):** private Sozial-Peers — privater
   Weiterleitungs-Fwd **ohne Anrede, ohne Gruss**, nur eine Intent-Zeile (Bucherer-Event). Beleg für den
   rein privaten Peer-Kanal ohne jeden Rahmen.
+
+## Bauherrin-Sie wärmt über Tage im selben Vorgang + neue Mappings (belegt Mailbatch 22, authentisch)
+- **Frau Hofer (Bauherrin Wartstrasse 8, hofer@undineschneider.com):** die Sie-Anrede an dieselbe
+  Bauherrin **wärmt sich über wenige Tage im laufenden Auflagebereinigungs-Vorgang**: «**Sehr geehrte
+  Frau Hofer**» (05.01.2026, Formular-Versand) → «**Guten Tag Frau Hofer**» (06.01., Auflagen-Status)
+  → «**Geschätzte Frau Hofer**» (08.01., Status Einsprache). Alles Sie (Bauherrin im Bewilligungs-
+  kontext bleibt formell), aber die Wärmestufe steigt mit dem Rapport innerhalb EINES Vorgangs.
+  Bestätigt: «Geschätzte/r» ist die wärmste Sie-Stufe unter «Sehr geehrte/r», noch vor dem Kippen ins Du.
+- **Peter Weisser (dasBaumanagement, pw@dasbaumanagement.ch):** bestätigt vertraut-operatives
+  Bauleiter-Du «**Hoi Peter**» (5× in diesem Batch) — Rechnungs-/Terminplan-/Offerten-/Neujahrs-Du,
+  Schluss «Freundliche Grüsse» + Block (dokumentierend) bzw. «lgr» (operativ). Ultra-knapper Dank-Reply
+  «**Danke Peter.**» als engste Kurzform.
+- **Tom Bickel (ROTOTEC, t.bickel@rototec.ch):** reziprokes warmes Peer-Du «**Hoi Tom**» ↔ er nennt
+  Raphael «**Rafa**»; Neujahrs-Reply «Auch Dir ein gutes neues Jahr … / Lieber Gruss Raphael». Netzwerk-
+  Kontakt für Bonitätsabklärungen (→ [[arbeitsweise]]).
+- **Maria Jans (maria.jans@gibb.ch / mariajans@gmx.ch):** vertraut-operatives Du «**Hoi Maria**» +
+  «Freundliche Grüsse» + Block; Anleitungs-/Übergabemail zur STWEG-Begründung (Nachname Jans, cc Tom
+  Bickel — persönlich nahe, evtl. verwandtschaftlich; Anrede-Wärme ohne «Liebe», sachlich-anleitend).
+- **Patrick Buschor (UGZ Stadt ZH, patrick.buschor@zuerich.ch):** eingespielter Amtskontakt — formell
+  «**Sehr geehrter Herr Buschor**», ABER Schluss mit Mundart-Neujahrsgruss «**Es guest's Nöis.**»
+  (→ [[stimme]]): Sie-Rahmen mit warmem Mundart-Einschub bei wohlgesinntem Behördenkontakt.
+- **Anna (CNCEST-Support, support@cncest.com):** «**Guten Tag Anna**» — Vorname-Sie an ausländischen
+  Support (freundlich-neutral, unter «Sehr geehrte Damen und Herren»). Reklamations-/Rückerstattungs-
+  Sie sachlich-bestimmt.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
