@@ -1,0 +1,90 @@
+{
+  "los_prefix":            "LOS 258.00 Küchengeräte 2620_Albertstrasse7",
+  "los_titel":             "LOS 258.00 Küchengeräte Langzeitvermietung (funktionale Ausschreibung)",
+  "betreff":               "Offertanfrage LOS 258.00 Küchengeräte Langzeitvermietung, 2620 Albertstrasse 7, Zürich",
+  "projekt_adresse":       "2620 Albertstrasse 7, 8005 Zürich",
+  "datum_ort":             "Zürich, 2. Juli 2026",
+
+  "bauherr_zeilen": [
+    "Nova Property Fund Management AG",
+    "handelnd für Swiss Central City Real Estate Fund"
+  ],
+
+  "anschreiben_einleitung": "Das Mehrfamilienhaus Albertstrasse 7 in Zürich umfasst 30 möblierte Kücheneinheiten, die bisher für die Kurzzeitvermietung ausgestattet sind: je eine Einbau-Mikrowelle (Bauknecht) im Oberschrank und ein Elektro-Kochfeld mit zwei Kochzonen im Unterbau; 8 der 30 Einheiten verfügen über einen Geschirrspüler. Die Appartements werden auf Langzeitvermietung umgestellt, dafür soll der Ausbaustandard der Küchengeräte markant angehoben werden, beispielsweise mit einem Kompakt-Backofen oder Steamer anstelle der Mikrowelle. Als Rahmenvertragspartner der Bauherrschaft für Haushaltsgeräte laden wir Sie ein, uns dafür ein Angebot mit Ihren Lösungsvorschlägen einzureichen. Die Ausschreibung ist bewusst funktional gehalten: Wir erwarten Vorschläge, die einfach umzusetzen sind und einen deutlichen Mehrwert für die Wohnungen schaffen. Sie können wahlweise nur die Geräte (Variante A) oder die Geräte inklusive Demontage, Einbau und Anschluss (Variante B) anbieten.",
+  "grundlagen_satz":        "Massgebend sind das beiliegende Leistungsverzeichnis, die Geräteliste Geschirrspüler je Appartement, die Grundrisse EG / 1.-4. OG / 5. OG (Vermassung 1:50) sowie der Grobterminplan. Nischen-, Anschluss- und Möbelmasse sind vor der Offertstellung bzw. vor Ausführung am Bau zu verifizieren.",
+  "gleichwertig_bauseits":  "Die Wahl von Fabrikat und Gerätetyp ist im Rahmen der funktionalen Anforderungen frei; gleichwertige Produkte sind zugelassen, sofern die technischen Spezifikationen vollumfänglich erfüllt werden. Die Konditionen des bestehenden Rahmenvertrags mit der Bauherrschaft sind anzuwenden und im Angebot auszuweisen. Bauseitige Leistungen sind im Leistungsverzeichnis ausgewiesen.",
+  "eingabefrist_satz":      "Wir bitten Sie, uns Ihr vollständiges Angebot (bepreistes Leistungsverzeichnis mit Lösungsvorschlag und ausgefülltes Antwortformular) bis spätestens Freitag, 24. Juli 2026, zukommen zu lassen.",
+  "besichtigung":           "Eine Objektbesichtigung ist nach telefonischer Vereinbarung mit der Bauleitung jederzeit möglich (T +41 79 846 11 65).",
+
+  "lv_einleitung":          "Funktionale Ausschreibung: Ersatz und Ergänzung der Küchengeräte in 30 Kücheneinheiten für die Umstellung auf Langzeitvermietung. Der Anbieter offeriert wahlweise Variante A (nur Lieferung der Geräte) oder Variante B (Lieferung inklusive Demontage, Entsorgung, Einbau und Anschluss). Eigene Lösungsvorschläge mit besserem Kosten-Nutzen-Verhältnis sind ausdrücklich erwünscht und als Varianten auszuweisen. Bestand je Einheit: Einbau-Mikrowelle im Oberschrank (Nischenbreite ca. 60 cm), Elektro-Kochfeld mit zwei Kochzonen, Spüle; 8 Einheiten mit Geschirrspüler (A01, A02, A03, A04, A13, A23, A33, A43), 22 Einheiten ohne. Grundlagen des Angebots: Geräteliste Geschirrspüler je Appartement, Grundrisse EG / 1.-4. OG / 5. OG (Vermassung 1:50), Grobterminplan, Norm SIA 118.",
+
+  "bauseits": [
+    "Innere Malerarbeiten (separates Los BKP 285)",
+    "Elektro-Grundinstallation und neue Zuleitungen ab Verteilung (BKP 230), Koordination durch die Bauleitung",
+    "Sanitärseitige Zu- und Abläufe für nachgerüstete Geschirrspüler (BKP 250), sofern nicht im Angebot enthalten",
+    "Schreinerarbeiten an Küchenmöbeln und Fronten (BKP 273), sofern nicht im Angebot enthalten"
+  ],
+
+  "positionen": [
+    {
+      "bereich": "Lösungskonzept",
+      "items": [
+        {"pos": "258.01", "bez": "Lösungskonzept Geräteausstattung Langzeitvermietung, je Küchentyp (Studio / 2-Zimmer)", "menge": "1", "einheit": "pausch", "spez": "Vorschlag Anbieter: einfach umsetzbar, markanter Mehrwert; Kurzbeschrieb im Angebot"}
+      ]
+    },
+    {
+      "bereich": "Geräte (Variante A: Lieferung)",
+      "items": [
+        {"pos": "258.10", "bez": "Kompakt-Backofen, Kombi-Steamer oder gleichwertiges Kombigerät als Ersatz der bestehenden Einbau-Mikrowelle", "menge": "30", "einheit": "Stk", "spez": "Nische Oberschrank, Mass am Bau zu verifizieren; Gerätetyp gemäss Vorschlag Anbieter"},
+        {"pos": "258.11", "bez": "Induktionskochfeld, mindestens 2 Kochzonen, als Ersatz des bestehenden Elektro-Kochfelds", "menge": "30", "einheit": "Stk", "spez": "Option; anbieten falls sinnvoller Mehrwert"},
+        {"pos": "258.12", "bez": "Geschirrspüler Einbau (45 oder 55 cm), Nachrüstung in Einheiten ohne Geschirrspüler", "menge": "22", "einheit": "Stk", "spez": "gemäss beiliegender Geräteliste; Machbarkeit im Unterbau durch Anbieter zu beurteilen"},
+        {"pos": "258.13", "bez": "Weitere Optimierungsvorschläge des Anbieters (z.B. Kühlgerät, Dunstabzug)", "menge": "1", "einheit": "pausch", "spez": "freie Position, als Variante ausweisen"}
+      ]
+    },
+    {
+      "bereich": "Einbau (Variante B: zusätzlich zu Variante A)",
+      "items": [
+        {"pos": "258.20", "bez": "Demontage und fachgerechte Entsorgung der ersetzten Geräte", "menge": "30", "einheit": "Stk"},
+        {"pos": "258.21", "bez": "Einbau inkl. Möbel-/Nischenanpassung, Anschluss, Inbetriebnahme und Funktionskontrolle, je Kücheneinheit", "menge": "30", "einheit": "Stk", "spez": "Umfang gemäss Lösungsvorschlag"},
+        {"pos": "258.22", "bez": "Elektro- und sanitärseitige Anpassungen im Zusammenhang mit dem Geräteersatz", "menge": "1", "einheit": "pausch", "spez": "falls nicht anbietbar: bauseits, im Angebot vermerken"}
+      ]
+    },
+    {
+      "bereich": "Regie",
+      "items": [
+        {"pos": "258.90", "bez": "Regiearbeiten Servicemonteur (Stundenansatz)", "menge": "10", "einheit": "Std", "spez": "nur auf Anordnung Bauleitung"}
+      ]
+    }
+  ],
+
+  "beilagen_namen": [
+    "Leistungsverzeichnis (zum Bepreisen)",
+    "Antwortformular",
+    "Geräteliste Geschirrspüler je Appartement",
+    "Grundrisse EG / 1.-4. OG / 5. OG (Vermassung 1:50)",
+    "Grobterminplan"
+  ],
+  "beilagen_files": [
+    "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 03 Studien/2620 ALBERTSTRASSE 7/03 BKP/_Checklisten Unternehmer Geraete/SKM47F1BD26061217220.pdf",
+    "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 03 Studien/2620 ALBERTSTRASSE 7/03 BKP/285.00 Innere Malerarbeiten ZÜRI-BAU GMBH/2620 285.00 03 AS versand/ZÜRIBAU/260702 Unterlagen/2 Vermassung 50.pdf",
+    "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 03 Studien/2620 ALBERTSTRASSE 7/04 KT/Termine/260601 2620 ALBERTSTRASSE Grobtermine.pdf"
+  ],
+
+  "anbieter": [
+    {
+      "kurzname": "REAP",
+      "zeilen":   ["REAP AG Haushaltapparate", "Bodeächer 1", "5453 Remetschwil", "T 056 496 38 33", "info@reap.ch"],
+      "empfaenger": ["REAP AG Haushaltapparate", "Bodeächer 1", "5453 Remetschwil"],
+      "anrede":   "Sehr geehrte Damen und Herren"
+    },
+    {
+      "kurzname": "SERVICE 7000",
+      "zeilen":   ["Service 7000 AG", "Zaunweg 15", "8754 Netstal", "T 055 645 37 00", "service7000@service7000.ch"],
+      "empfaenger": ["Service 7000 AG", "Zaunweg 15", "8754 Netstal"],
+      "anrede":   "Sehr geehrte Damen und Herren"
+    }
+  ],
+
+  "output_aihub_versand": "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/submission/2620-albertstrasse-kuechengeraete/260702-versand",
+  "projekt_versand_dir": "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 03 Studien/2620 ALBERTSTRASSE 7/03 BKP/258.00 Kücheneinrichtung SERVICE 7000/2620 258.00 03 AS versand"
+}
