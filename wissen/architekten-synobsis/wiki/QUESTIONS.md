@@ -198,6 +198,35 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - **Muzio Lorenzo** — Verhaeltnis zu Muzio_Giovanni_1893_1982 klaeren (Lorenzo Muzio war Partner im Studio des Vaters, Einordnung); allenfalls zusammenfuehren.
 - **Lussi Halter, Maibach Manuel, Marques Daniele, Meier Hug, Meili Armin, Meili Partner, Melly Benjamin, Melnikov Konstantin, Mueller Sigrist, Murcutt Glenn, Muzio Lorenzo, Nash John, Nikisch Walder, Oester Pfeninger, Olgiati Valerio, Ortner Ortner, Page Anna** — 17 Leerzeichen-Slugs in Charge 4 (Katalogdateien liegen unter Unterstrich-Namen); zudem Melnikov Konstantin, Nash John und Muzio Lorenzo in Vorname-Nachname-Reihenfolge. Normierung der Quellordner pruefen.
 
+- **Pezo von Ellrichshausen, Poelzig Hans, Ponti Gio, Reidy Alfonso, Reiluf Ramstad Architekten, Ruf Sepp, Schlup Max, Schmitthenner Paul, Schneller Andreas, Semadenin Armon Architekten, Shinohara Kazuo, Smiljan Radic, Smith Samuel Modell** — 13 Leerzeichen-Slugs in Charge 5 (Katalogdateien unter Unterstrich-Namen, keine Kollision); «Smiljan Radic » traegt zudem ein Endleerzeichen. Normierung der Quellordner pruefen.
+- **Peruzzi_Baldasare** — korrekt Baldassarre Peruzzi. Umbenennung?
+- **Price_Sederic** — Schreibfehler (korrekt Cedric Price) und Doppelordner zu Cedric_Price (Charge 1). Zusammenfuehren?
+- **Prior_Edvard_Schroeder** — korrekt Edward Schroeder Prior. Umbenennung?
+- **Radic_Smjlian / Smiljan Radic** — Doppelordner desselben Chilenen (einmal Schreibfehler Smjlian, einmal Vorname-Nachname mit Endleerzeichen und leer). Zusammenfuehren und auf Radic_Smiljan normieren?
+- **Reidy Alfonso / Reidy_Eduardo** — Doppelordner des Brasilianers Affonso Eduardo Reidy, beide Vornamen-Varianten ungenau. Zusammenfuehren (Reidy_Affonso_Eduardo)?
+- **Reiluf Ramstad Architekten** — korrekt Reiulf Ramstad. Umbenennung?
+- **Reinhard_Fabio** — korrekt Fabio Reinhart (Partner Bruno Reichlins). Umbenennung? Verhaeltnis zum fast leeren Ordner Reichlin_Bruno kennzeichnen.
+- **Rhytmeier_Furrer** — korrekt Rittmeyer und Furrer (Winterthur); zudem kryptischer Projektordner «psuechiheim». Umbenennung?
+- **Rietveld_Gery** — korrekt Gerrit Rietveld. Umbenennung?
+- **RobertMalletStevens** — CamelCase-Slug, korrekt Robert Mallet-Stevens. Normierung?
+- **Rocha_Tombai** — korrekt Rocha Tombal (Amsterdam). Umbenennung?
+- **Romano_Giulio _1499_1546, Rowntree_Kenneth _1915_1997, Pleydell_Bouverie_ David_1911_1994** — Leerzeichen mitten im Slug (Katalogdateien mit Doppel-Unterstrich). Normierung?
+- **Rowe_Collin** — korrekt Colin Rowe. Umbenennung?
+- **Salvisberger_Otto_Rudolf** — korrekt Otto Rudolf Salvisberg (ohne -er). Umbenennung? Der Ordner enthaelt das historische Kinderspital Zuerich — fuer Projekt 2619 KISPI pruefenswert.
+- **Sant_Elia_Antonio_und_die_Citta_Nuova_1914** — Projekttitel als Ordnername (analog Fischer_Ammann). Umbenennen in Sant_Elia_Antonio?
+- **Sassenroth_Peter_Teitermann** — korrekt Reitermann und Sassenroth (Rudolf Reitermann, Peter Sassenroth; Kapelle der Versoehnung Berlin). Umbenennung?
+- **Sauerbruch_Hotton_Architekten** — korrekt Sauerbruch Hutton. Umbenennung? Der Merkposten Kiel_Andrew (Charge 3, Projektleiter Sauerbruch Hutton) koennte hierhin.
+- **Sauvage_Henrry** — korrekt Henri Sauvage. Umbenennung?
+- **Schader_Kt_Freudenberg** — Slug mischt Person und Projekt; korrekt Jacques Schader, Kantonsschule Freudenberg. Umbenennung in Schader_Jacques mit Projektordner?
+- **Schultes_Frank** — vermutlich das Buero Axel Schultes und Charlotte Frank (Slug liest sich wie Nachname_Vorname). Klaeren und praezisieren?
+- **Scott_Baillie** — korrekt M. H. Baillie Scott (Slug verdreht/verkuerzt). Umbenennung?
+- **Sebrowitz_Jurkovic_Dusan_Sebrowitz** — Dusan Jurkovic; «Sebrowitz» doppelt und ungeklaert. Slug bereinigen?
+- **Seilerlinhard_Architekten** — korrekt Seiler Linhart (Luzern), CamelCase ohne t. Umbenennung?
+- **Semadenin Armon Architekten** — korrekt Armon Semadeni Architekten (Zuerich). Umbenennung?
+- **Sergison_Bates_Dublin** — Zusatz «Dublin» ungeklaert (Buero sitzt in London und Zuerich). Praezisieren?
+- **ShOP** — korrekt SHoP Architects. Normierung?
+- **Siza_Vieira_Àlavaro_Leite** — Akzent-Schreibfehler («Àlavaro»); Inhalt Casa Tolo stammt vom Sohn Alvaro Leite Siza Vieira, also KEIN reiner Doppelordner zu Siza_Alvaro_Vieira. Kennzeichnen und Slug normieren?
+
 ## 3 Sammel- und Zweckordner ohne Architekt-Zuordnung
 
 - **1 Selection** — grosse Best-of-Sammlung (4525 Dateien) nach Raumtypologien, kein Architekt. Frage: als eigene Referenz-KB-Sektion fuehren (z.B. wiki/RAUMTYPOLOGIEN.md mit Inhalt der Unterordner) statt als Architekt? Der Ordner ist fuer Entwurfsreferenzen vermutlich der wertvollste der Bibliothek.
@@ -241,6 +270,12 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - **Nimbus_Architekten** — 5778 Dateien fuer ein einziges Projekt (Wohnsiedlung Herdernstrasse); wirkt wie ein Baustellen-/Foto-Rohbestand. Sichten und eindampfen?
 - **Menz_Sascha** — ETH-Professor Bauprozess; eher Lehre-Merkposten als Referenzarchitekt (analog Angelil_Marc).
 
+- **Sik_Miroslav** — 896 Dateien (459 Bilder, 128 Dokumente, 28 CAD), ueberwiegend Professur-Arbeitsarchiv ETH (00 Administration, 01 Schriftverkehr, 02 Semestervorbereitungen) analog Eberle/Deplazes. Als Lehre-Archiv kennzeichnen? Auffaellig: mehrere Textauszuege der Charge (Pfister_Gebrueder, Pouillon_Fernand) sind Seminarwochen-Flyer der Professur Sik, und Schwartz_Fabien ist ein Sik-Diplom — die Bibliothek stammt vermutlich in Teilen aus dem Umfeld dieser Professur (Vermutung, mit Raphael klaeren).
+- **Schwartz_Fabien** — ETH-Diplom HS 2011 (Professur Sik); Studiensammlung analog Back_Lukas. Wer ist Fabien Schwartz im JANS-Kontext?
+- **Roesler_Sascha, Schwarz_Dietrich, Schmidt_Werner** — je nur eine Vortragseinladung der Hochschule Luzern (WS 07/08); als Vortrags-Merkposten belassen oder buendeln?
+- **Shizuoka** — japanischer Ortsname als Slug mit leerer Standardstruktur; wofuer war der Ordner gedacht?
+- **Riehmer_Wilhelm_Bauherr** — Bauherr/Maurermeister des Riehmers Hofgarten Berlin, kein Architekten-Dossier im engeren Sinn. Umwidmen?
+
 ## 4 Strukturelle Beobachtungen fuer den Scan
 
 - Mehrere Ordner tragen die generische Ablagestruktur 00 Architekten / 01 Projekte / ... (Archigram, Alexander_Christoph, Ashbee teilweise); der Katalog zaehlt diese Strukturordner als "Projekte". Option: Parser so verfeinern, dass nummerierte Standardordner nicht als Projekte gezaehlt werden.
@@ -262,3 +297,6 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - Fehlextraktionen Charge 4/6: MadeIn (Wikipedia-Artikel zu einem Antonioni-Film), Maerkli_Peter (Vectorworks-Wasserzeichen statt Inhalt), Mateo_Josep_Lluis (InDesign-Druckanweisung), Mattioni_Luigi (eBay-Seite), Lengacher_Emenegger (Text ueber Albert Zeyer statt ueber das Buero), Miller_Maranta (defekt kodierter PDF-Text). Textquellen-Auswahl im Scanner pruefen.
 - **MPP** — die Ordnergroesse (241271 Dateien) sprengt das Katalogschema; die dateitypen-Liste umfasst Hunderte Pseudo-Endungen aus Bauleitungs-Dateinamen. Fuer Stufe 2 (Embeddings) ausklammern oder separat behandeln.
 - Keine neuen Umlaut-Zerlegungs-Slugs in Charge 4/6 festgestellt.
+- Akzent-Zerlegung in Charge 5/6: «Prouvé_Jean» fuehrt auf Prouve__Jean.json, «Siza_Vieira_Àlavaro_Leite» auf Siza_Vieira_A_lavaro_Leite.json. Keine neue Leerzeichen-/Unterstrich-Katalogkollision; alle 133 Slugs der Charge haben eigene Katalogdateien (13 Leerzeichen-Slugs ueber Unterstrich-Dateien).
+- Generische Standard-Ablagestruktur wird auch in Charge 5/6 als «Projekte» gezaehlt (Peruzzi_Baldasare, Pirzio_Biroli_Roberto, Portoghesi_Paolo, Quincy_de_Quatremere, Sangallo_da_Giuliano, Schnaidt_Claude, Schultes_Frank, Schwitters_Kurt, Schwarz_Felix_Rolf_Gutmann_Basel, Senn_Andy, Shizuoka). Parser-Verfeinerung bleibt offen.
+- Fehlextraktionen Charge 5/6: Pfister_Gebrueder und Pouillon_Fernand (Seminarwochen-Flyer der ETH-Professur Sik statt Werktext), Romero_Schaefle (de-Sede-Sofatext des Moebeldesigners Franz Romero statt des Architekturbueros), Rohn_Roland (Ordner «Neuer Ordner» im Bestand). Textquellen-Auswahl im Scanner pruefen.
