@@ -5,7 +5,12 @@
   optimierung, Nachfolge) — noch kein Artikel.
 - **GmbH-Gründungsablauf** als Pendant zu [[ag-gruendungsablauf]].
 - **Steuern** bei Gründung und laufend (Kapital-, Gewinn-, Verrechnungssteuer, MWST-
-  Pflicht-Schwelle CHF 100'000 Umsatz).
+  Pflicht-Schwelle CHF 100'000 Umsatz). *Teilweise gedeckt:* laufende Steuer-
+  optimierung des Inhabers (Lohn/Dividende, PK-Einkauf, 3a) siehe
+  `outputs/2026-07-02_steuern-sparen-ag-inhaber.md` — Promotion zu einem
+  Wiki-Artikel `steuern-ag-inhaber` prüfen.
+- **1e-/Kaderplan + Einkaufspotenzial** der Raphael Jans AG konkret erheben
+  (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
 - **Nach-Gründung im Detail:** AHV-Ausgleichskasse, BVG, UVG, MWST-Registrierung.
 - **Verwaltungsrat:** Pflichten/Haftung/Konstituierung als eigener Artikel (bisher nur
   in [[belege-handelsregister]] und [[ag-gruendungsablauf]] gestreift).
