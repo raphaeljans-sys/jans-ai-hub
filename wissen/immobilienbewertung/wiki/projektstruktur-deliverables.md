@@ -1,8 +1,8 @@
 ---
 title: Projektstruktur und Deliverables (LB/RW/MA/CS/TDD/STWE)
 status: established
-last_updated: 2026-06-22
-sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22]
+last_updated: 2026-07-02
+sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22; Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021) + Skill healthcare-wirtschaftlichkeit — Healthcare-Bewertungsbruecke T17 Run 12 2026-07-02]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -322,6 +322,27 @@ Renditeobjekt) und endet in einer **Kaufpreispruefung gegen ein Angebot**:
 Durabler Befund: Beim **Renditeobjekt fuehrt der Ertragswert** (nicht Real-/Vergleichswert), die
 Bewertung endet in einer **Verhandlungsempfehlung gegen das konkrete Angebot** (Ertragswert-Band
 + impl. Rendite). Kaufpreispruefung-, Band- und Ausbau-Rendite-Logik im Detail: [[ertragswert-dcf]].
+
+## Healthcare-Bewertung — Bruecke zum Skill `healthcare-wirtschaftlichkeit` (T17)
+
+Im Bewertungsordner `IMMO-01/01 BEWERTUNG PROJEKTE` existiert **kein dediziertes Pflegeheim-
+Bewertungs-Deliverable** (alle Faelle Wohnen/MFH/STWE; Wald 8636 ist Volumenstudie). Die
+Healthcare-Bewertung liegt daher beim Schwester-Skill `healthcare-wirtschaftlichkeit` (2410
+WALD/Nova). Fuer den **Wert** einer Healthcare-Liegenschaft gelten drei durable Regeln,
+belegt am oeffentlichen Realfall Pflegeheim Herosé Aarau (2021, Run 12):
+
+- **Erstellungskosten (Realwert-Seite):** Healthcare-Neubau liegt bei **~3'850-4'000 CHF/m2 GF
+  (BKP 2)** bzw. **~1'100 CHF/m3 GV** und **337'000-418'000 CHF/Zimmer** (4-Heim-Vergleich) —
+  der Wohn-Basiskennwert **+20-25 %** wegen Installationsgrad/Ausbaustandard. Kennwerte:
+  [[realwert-sachwert]].
+- **Ertrag (Ertragswert-Seite):** kostenbasiert — die nachhaltige **Heimtaxe** deckt die
+  **Annuitaet** der Investition (lineare Abschreibung **33 Jahre** nach CURAVIVA, kalkulatorischer
+  Zins = **BWO-Referenzzinssatz**), getrennt nach KVG-Pflege (Restfinanzierung) und Hotellerie-/
+  Betreuungstaxe (Bewohner). Rechenmodell + Realzahlen: [[ertragswert-dcf]] (Herosé-Fall).
+- **Deliverable:** Rentabilitaets-Memo/XLSX ueber Skill `healthcare-wirtschaftlichkeit`
+  (Pflegeplatzkosten, Taxen × Belegung, Brutto-/Nettorendite via Annuitaet, Sensitivitaet),
+  nicht als LB/RW dieser KB. **Offen (T17-Rest):** ein realer Healthcare-**Verkaufs-/Fondsfall**
+  fuer den Investoren-Markt-Diskont (Kosten-/Annuitaetsseite ist mit Herosé belegt).
 
 ## Output-Ablage (neue Bewertungen)
 

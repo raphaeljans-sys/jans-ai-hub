@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-06-28
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.32-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9]
+last_updated: 2026-07-02
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
 
@@ -209,7 +209,7 @@ nicht (sie liegen ohnehin am unteren Rand), bestaetigt aber die Tieflage des Zin
 | Wohnen — schlechte/teils leerstehende Altbauten | **3.0-3.3 %** | WP S. 55 | belegt |
 | Geschaeft/Gewerbe (Buero) | **2.7-3.8 %** (Wohnen + 0.6-1.5 Pp) | WP S. 55/117 | belegt |
 | Spezial/Risiko (Hotel, EKZ schlechte Lage) | **> 3.8 %** | WP S. 55 (Band offen) | belegt |
-| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 % real** (*Annahme*: Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag); JANS-Arbeitsnotiz nennt nominal 4-8 % (s.o.) | Bruecke zu [[investorenmarkt-makro]] / Skill healthcare-wirtschaftlichkeit; JANS-Notiz Disskontierung.docx | *emerging* — JANS-Anker belegt, realer CH-Fall offen (T17) |
+| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 % real** (*Annahme*: Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag); JANS-Arbeitsnotiz nennt nominal 4-8 %; realer Herosé-Fall verankert die **Annuitaetsseite** (33 J / BWO 1.25 % → ~4 % Annuitaetsfaktor, kostenbasierte Taxe, s.o.) | realer CH-Fall Pflegeheim Herosé Aarau (2021) + Skill healthcare-wirtschaftlichkeit; JANS-Notiz Disskontierung.docx | *emerging* — Kosten-/Annuitaetsseite belegt (T17), Investoren-Markt-Diskont noch anzueichen |
 
 **Real vs. nominal (Fisher):** Die obigen Saetze sind **real** und werden auf **real konstante**
 Mieten angewendet (CH-Standard WP/IAZI). Wer **nominal** rechnet (Mieten mit erwarteter Teuerung
@@ -297,7 +297,70 @@ in EUR, eher europaeischer/nominaler Marktbezug) — **kein** belegter CH-Realsa
 hoeher als die CH-**real**-Zeile der Tabelle unten (~3.0-4.0 %), weil sie nominale Gesamt-/
 EK-Renditegroessen mischen. Verwendung daher nur als **Plausibilitaets-Anker** (Healthcare wird
 tiefer diskontiert als Risikonutzungen, hoeher als Wohnen), nicht als Ansatz. Der reale CH-
-Pflegeheim-Bewertungsfall bleibt offen (T17) → Skill `healthcare-wirtschaftlichkeit`.
+Pflegeheim-Bewertungsfall wird durch den Herosé-Fall (unten) belegt (T17 weitgehend geschlossen).
+
+### Healthcare-Ertragsmodell — realer CH-Fall Pflegeheim Herosé (belegt, oeffentlich 2021)
+
+Der oeffentliche **Baukredit-Bericht Neubau Pflegeheim Herosé, Aarau** (Stadtrat Aarau,
+Botschaft GV 2018-2021/285, 13.12.2021, 116 Zimmer, Anlagekosten 55.8 Mio) schliesst die
+lang offene Luecke T17 mit einem **datierten, nachvollziehbaren CH-Realbeleg** fuer die
+Healthcare-Ertrags-/Finanzierungsrechnung. Er bestaetigt die Methodik des Skills
+`healthcare-wirtschaftlichkeit` (Annuitaet via BWO-Zins + CURAVIVA-Abschreibung) mit echten
+Zahlen. Erstellungskosten-Kennwerte des Falls siehe [[realwert-sachwert]].
+
+**1. Kostenbasiertes Taxensystem (nicht marktueblicher Kapitalisierungssatz).** Ein Pflegeheim
+finanziert seine Investition regulatorisch ueber die **Heimtaxen**, nicht ueber einen Markt-
+Ertragswert. Die Bewertung eines Pflegeheims muss daher wissen: die nachhaltige Taxe ist
+**kostendeckungsorientiert** (Annuitaet der Investition), gedeckelt durch das kantonal
+regulierte Umfeld (KVG-Restfinanzierung Pflege / Hotellerie-/Betreuungstaxe zu Lasten der
+Bewohner). Das ist der zentrale Unterschied zur frei kapitalisierten Renditeliegenschaft.
+
+**2. Annuitaets-Finanzierungsmodell (Herosé, Tab. 9) — belegt:**
+- **Lineare Abschreibung ueber 33 Jahre** (CURAVIVA «Handbuch Anlagebuchhaltung fuer Alters-
+  und Pflegeheime» V2019, Anlagekategorie 2 = langfristige Anlageteile).
+- **Kalkulatorischer Zins = BWO-Referenzzinssatz 1.25 %** (2021; der Skill nannte den
+  Studienstand 1.75 % — der Satz folgt also dem Referenzzins-Zyklus, [[investorenmarkt-makro]]).
+- Auslastung 98 % (114 von 116 Betten), 41'610 Betten-Tage/Jahr.
+- Gesamtinvestition 55.8 Mio; **Abzug KVG-Anteil 6'812'000** → Investition zulasten
+  Hotellerie-Taxe **48'988'000** (der KVG-Anteil geht zulasten Pflege).
+
+| Groesse | Hotellerie-Taxe (inkl. Betreuung) | Abschreibung z.L. Pflege |
+|---|---|---|
+| Investition | 48'988'000 | 6'812'000 |
+| Zinssatz (BWO-Referenz) | 1.25 % | 1.25 % |
+| **Annuitaet/Jahr** | **1'820'000** | **253'200** |
+| Annuitaet/Bett/Jahr | 15'972 | 2'221 |
+| Annuitaet/Bett/Tag | 43.75 | 6.08 |
+
+**3. Ableitung der Taxe (das Ertrags-Aequivalent):** Aus der Annuitaet folgt der bauliche
+Anteil der **Hotellerie-Taxe**. Herosé muss die Taxe nach Bezug von **120 CHF/Tag (2020: 118)
+auf 153 CHF/Tag** anheben (+33/Tag), was einem «marktgerechten Tarif fuer Wohnkosten in einem
+Neubau» entspricht; der Abschreibungsanteil steigt von 10.50 auf rund 43.75 CHF/Tag. Die
+Hotellerie-Taxe setzt sich zusammen aus Lohnkosten Hotellerie, Infrastruktur (Wasser/Gas/
+Abfall), Lebensmittel/Getraenke, nicht der Pflege/Betreuung zuordenbaren Aufwendungen und den
+**Abschreibungen gemaess Anlagebuchhaltung**. Der Vier-Heim-Vergleich (Herosé Tab. 5,
+[[realwert-sachwert]]) verankert die Hotellerietaxe bei **150-180 CHF/Tag** (Neubauten ~2021).
+
+**4. Spezialfinanzierung:** Die Abteilung Pflegeheime fuehrt seit 2002 ein **Rueckstellungs-/
+Investitionsfonds-System, gespeist aus der Hotellerie-Taxe** (keine Steuergelder). Der Fonds
+betrug per 31.12.2020 fuer Herosé 8.65 Mio — die Investition wird also nur teilweise aus dem
+Fonds gedeckt, der Rest ueber die (erhoehte) Taxe amortisiert.
+
+**5. Betriebs-/Kostenrechnung (KoRe, ARTISET):** Schweizer Pflegeheime rechnen ihre Kosten und
+Leistungen ueber die standardisierte **KVG-Kosten- und Leistungsrechnung (ARTISET
+Betriebswirtschaftliche Instrumente)** ab — mit getrennten **Kostentraegern** Langzeitpflege
+(LZP), Tages-/Nachtstruktur (ToNs) und Akut-/Uebergangspflege (AUEP) und leistungserbringenden
+Kostenstellen 210-251 (Pflege). Das erklaert die saubere Trennung Pflege (KVG-finanziert) ↔
+Hotellerie/Betreuung (Bewohner) in der Taxe (Quelle: ARTISET Fachnews KVG, 17.04.2023).
+
+**Durabel fuer die Bewertung:** Ein Pflegeheim-Ertragswert ist **kostenbasiert** — er leitet
+sich aus der annuitaetsgedeckten, regulierten Taxe ab, nicht aus einem frei gewaehlten
+Kapitalisierungssatz. Fuer den **Investoren-Marktwert** (Verkauf an einen Fonds, z.B.
+Nova/Tertianum) wird die nachhaltige Netto-Betreiber-Miete mit einem Healthcare-Diskontsatz
+kapitalisiert; der reale Herosé-Fall verankert die **Annuitaetsseite** (33 J / BWO 1.25 % →
+~4 % Annuitaetsfaktor auf die Investition), die die untere Grenze der Betreiber-Miete markiert.
+Die eigentliche Rendite-/Sensitivitaetsrechnung fuehrt der Skill `healthcare-wirtschaftlichkeit`
+(WALD 2410: Bruttorendite ~6.8 %, Nettorendite via Annuitaet ~1.1 %).
 
 ### JANS-Bewertungskonvention (aus realen Faellen belegt, Stand 06.2026)
 
@@ -459,6 +522,16 @@ Nettoertraege + Exitwert werden auf den Barwert abgezinst.
   gerechtfertigt) als JANS-Arbeitsnotiz → Healthcare-Zeile von *speculative* auf *emerging*. Aus
   den Kursnotizen IMG_7064-67: Anfangsrendite/Kapitalisierungssatz = Mietertrag/Kaufpreis (oben
   S. 57/208 bestaetigt), Residualwert ~30 % Landanteil / 8 % Risikomarge (vgl. [[residualwertmethode]]).
+- ✓ 2026-06-30 (Run 11, nachtraeglich protokolliert): risikofreies Basisniveau auf **10-j
+  Eidgenoss 0.24-0.40 % (Juni 2026, Ende Juni sinkend auf 0.24 %)** aktualisiert (D3-Tabelle,
+  Basiszeile). Run 11 hatte den Edit gemacht, aber `last_updated`/CHANGELOG/Output nicht
+  nachgefuehrt (Prozessleck, vom Health-Check 01.07. gemeldet) — mit Run 12 nachgetragen.
+- ✓ 2026-07-02 (T17, Run 12): **Healthcare-Ertragsmodell mit realem CH-Fall belegt** —
+  oeffentlicher Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021): Annuitaets-Finanzierung
+  (lineare Abschreibung 33 J nach CURAVIVA, kalkulatorischer Zins = BWO-Referenzzins 1.25 %),
+  KVG-/Hotellerie-Taxen-Trennung (Taxe 120→153 CHF/Tag), Spezialfinanzierung ueber Investitions-
+  fonds, KoRe-Kostentraeger (ARTISET). Healthcare-Diskontzeile: **Kosten-/Annuitaetsseite belegt**
+  (T17 weitgehend geschlossen); offen bleibt der Investoren-Markt-Diskont (Verkauf an Fonds).
 - Terminalwert-Multiplikator-Praxis; Excel-Formeln (D4, Freigabe offen).
-- **D3-Rest (Bring-Schuld):** Gewerbe-Feinabstufung je Mietersegment + Healthcare-Zuschlag aus
-  realem CH-Fall (T17) — die Wohnbau-Faustregel ist mit der 2.0+0.5-Dekomposition nun belegt.
+- **D3-Rest (Bring-Schuld):** Gewerbe-Feinabstufung je Mietersegment; Healthcare-**Investoren**-
+  Diskont aus einem realen Verkaufs-/Fondsfall (Kosten-/Annuitaetsseite ist mit Herosé belegt).

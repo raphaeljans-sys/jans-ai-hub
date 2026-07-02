@@ -7,9 +7,9 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 - [[bewertungsverfahren-ueberblick]] — die vier Verfahren + Marktwert-Synthese · *established*
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern) · *established*
-- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Anker · *established*
+- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Ertragsmodell (realer CH-Fall Herosé: Annuitaet/CURAVIVA/BWO-Zins) · *established*
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
-- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025) · *established*
+- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025, Healthcare-Neubau-Benchmark Herosé) · *established*
 
 ## Gutachten-Produkt (WP-ueberlegen)
 
@@ -40,7 +40,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 ## Markt & Konzept (Wuest-Kurs Module 2-4)
 
-- [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *emerging*
+- [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *established*
 - [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck, SREBI, Marktpuls 06.2026 · *established*
 - [[erfolgsfaktoren-wettbewerb]] — 6 DXMA-Erfolgsfaktoren, Aufwertungsgewinn, A4-Bewertungsblatt · *established*
 

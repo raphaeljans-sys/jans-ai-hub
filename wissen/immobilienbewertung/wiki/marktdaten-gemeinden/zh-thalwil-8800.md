@@ -4,7 +4,7 @@ status: established
 gemeinde: Thalwil (ZH)
 kanton: Zürich
 bfs: 0141
-plz: 8136
+plz: 8800
 ms_region: Zimmerberg
 stand: 2024-07
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Thalwil 2407 (UBS CIO GWM, 7/2024, Preisdaten Stand 2024-Q1)"]

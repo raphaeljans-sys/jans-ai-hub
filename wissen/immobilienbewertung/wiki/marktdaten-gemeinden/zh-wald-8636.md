@@ -8,7 +8,7 @@ plz: 8636
 ms_region: Zürcher Oberland
 stand: 2023-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Wald 2312.pdf (UBS CIO GWM, 12/2023, Preisdaten Stand 2023-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[healthcare-wirtschaftlichkeit]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
 ---
 
 # Marktdaten Wald (ZH) — UBS Fact Sheet 12/2023
@@ -100,8 +100,8 @@ Statistisch ermittelt; effektive Transaktionspreise unüberbauter Parzellen kön
   hohen Holzanteil — typisch Oberland).
 - **Beschäftigungsstruktur 2021**: Gesundheit **29.7 %** der Beschäftigten (gegenüber CH 13.2 %)
   — mit Abstand stärkste Branche, weit über Kanton/CH. Bestätigt Wald als **Healthcare-Standort**
-  (Klinik-/Pflegecluster); relevant für [[healthcare-wirtschaftlichkeit]] und das JANS-Projekt
-  2410 WALD/Averecura.
+  (Klinik-/Pflegecluster); relevant für den Skill `healthcare-wirtschaftlichkeit` und das
+  JANS-Projekt 2410 WALD/Averecura.
 - Altersstruktur 2022: 0-29 J. 31.0 %, 30-49 J. 27.8 %, 50-69 J. 28.2 %, 70+ 13.0 %.
 
 ## Marktüberblick (UBS-Rating, relativ)
@@ -116,4 +116,4 @@ Noch kein vollständig bewerteter JANS-Fall in dieser Gemeinde in der KB. Erwart
 Healthcare-Projekt **2410 WALD** (Averecura, Nova Property Fund) — Pflege-/Klinikstandort.
 Bei einer Bewertung dort sind die Wald-Mietansätze (Median 207, Band 163-262 CHF/m²/J) und
 das tiefe EW-/EFH-Preisniveau (Sum-of-parts-Oberkante) heranzuziehen; Healthcare-Rendite
-über [[healthcare-wirtschaftlichkeit]].
+über den Skill `healthcare-wirtschaftlichkeit`.

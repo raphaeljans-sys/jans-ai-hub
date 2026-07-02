@@ -2,7 +2,7 @@
 title: Marktdaten Zollikon (ZH) — UBS Fact Sheet 12/2025
 status: established
 gemeinde: Zollikon (ZH)
-kanton: Zuerich
+kanton: Zürich
 bfs: 0161
 plz: 8125
 ms_region: Pfannenstiel

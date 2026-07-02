@@ -1,7 +1,7 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-06-26
+last_updated: 2026-07-02
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8)]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
@@ -264,6 +264,13 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
   und **Referenzzins 1.25 %** unveraendert (gegenueber Run 8); neu erfasst die **Rendite 10-j
   Bundesobligation ~0.32-0.40 % (Juni 2026)** als risikofreies Basisniveau fuer die konsolidierte
   JANS-Diskontsatz-Tabelle ([[ertragswert-dcf]] D3).
+- ✓ 2026-07-02 (T10 laufend, Run 12): Web-Check bestaetigt **alle Anker unveraendert** — SNB-Leitzins
+  **0.00 %** (Lagebeurteilung 18.06.2026, naechster Entscheid 09.2026), Referenzzinssatz **1.25 %**
+  (per 01.06.2026; Durchschnittssatz 1.32 % per 31.12.2025, unter Erhoehungsschwelle 1.37 %;
+  naechste Publikation **01.09.2026**), SMG/Homegate-Mietindex weiterhin **Mai-2026 = 133.7
+  (+2.5 % YoY)** als juengster publizierter Stand (Juni noch nicht veroeffentlicht), 10-j Eidgenoss
+  **~0.35 %** (18.06.). Kein Handlungsbedarf an den Diskont-/Kapitalisierungssaetzen; das tiefe
+  Zinsniveau bleibt zementiert. SREBI Q2-2026 noch nicht publiziert.
 - T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
   **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
   2022/23 (historische Anker).

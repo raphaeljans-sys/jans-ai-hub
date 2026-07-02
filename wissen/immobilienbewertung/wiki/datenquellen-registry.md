@@ -1,8 +1,8 @@
 ---
 title: Datenquellen-Registry (Markt-, Boden-, Kennwert-Daten)
 status: established
-last_updated: 2026-06-03
-sources: [IMMO-02 UBSFS, IMMO-04 Marktpreise, IMMO-05 Bodenpreise, IMMO-06 Kennwerte]
+last_updated: 2026-07-02
+sources: [IMMO-02 UBSFS, IMMO-04 Marktpreise, IMMO-05 Bodenpreise, IMMO-06 Kennwerte (inkl. Healthcare Herosé-Baukredit 2021 + ARTISET KVG 2023, Run 12)]
 links: [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[lageklasse-landwertanteil]], [[bewertungsverfahren-ueberblick]]
 ---
 
@@ -36,7 +36,7 @@ gemeindescharfe Statistik. → strukturierte Bodenpreis-Quelle aufbauen (Wissens
 
 | Bereich | Inhalt | Stand | Status |
 |---|---|---|---|
-| Healthcare | Alters-/Pflegeheim-Kennwerte (Bett, HNF, Umbaukosten 500K/2500K) | 2024-2025 | ⭐ solide |
+| Healthcare | Alters-/Pflegeheim-Kennwerte (Bett, HNF, Umbaukosten 500K/2500K); **NEU eingearbeitet (Run 12):** oeffentl. Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021 — BKP-Anlagekosten, CHF/m3-GV/m2-GF/Zimmer, 4-Heim-Vergleich, Annuitaets-/Taxenmodell CURAVIVA/BWO) → [[realwert-sachwert]]/[[ertragswert-dcf]]; ARTISET Betriebswirtschaftliche Instrumente KVG (KoRe, 04.2023); noch offen: Obsan-Bericht, SenioResidenz-Geschaeftsbericht | 2021-2025 | ⭐ solide, jetzt mit realem CH-Bewertungsanker |
 | Wohnen Baumasse | Flaechenkonzeption Wohnen (aGF/BGF/HNF-Faktoren) | 2025 | ok, knapp |
 | Wohnen Ausnuetzungsziffer | — | — | ⚠ LEER |
 | Buero | hbre Bueromarkt ZH | 2024 | nur ZH |

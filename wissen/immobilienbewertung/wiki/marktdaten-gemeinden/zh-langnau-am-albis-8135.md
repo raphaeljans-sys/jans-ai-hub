@@ -2,7 +2,7 @@
 title: Marktdaten Langnau am Albis (ZH) — UBS Fact Sheet 12/2025
 status: established
 gemeinde: Langnau am Albis (ZH)
-kanton: Zuerich
+kanton: Zürich
 bfs: 0136
 plz: 8135
 ms_region: Zimmerberg

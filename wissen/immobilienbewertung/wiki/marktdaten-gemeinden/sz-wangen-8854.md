@@ -111,7 +111,7 @@ Erster bewerteter JANS-Fall in dieser Gemeinde: gemischtes **MFH** (EG Arztpraxi
 + Maisonette OG2/DG), Parz. 25, HNF 538 m². Kaufpreispruefung **3.1 Mio (Angebot) vs. 2.8 Mio
 (Bank)** → Ergebnis: **Marktwert JANS 2.6–2.8 Mio**; 3.1 als Renditekauf ~10 % zu hoch
 (Bruttorendite nur 4.2 %, Bank 2.8 → 4.6 %, Ertragswert → 5.0 %). Volle Herleitung +
-uebertragbare Benchmarks → [[outputs/2026-06-09_bewertung-bahnhofstrasse27-wangen]].
+uebertragbare Benchmarks → Report `outputs/2026-06-09_bewertung-bahnhofstrasse27-wangen.md`.
 
 Aus dem Fall verifizierte/abgeleitete Kennwerte fuer Wangen:
 - **Lageklasse-Befund Bahnhofstrasse 27: «Mittel»** (Bauland 2'702 CHF/m²). Methodik: UBS-FS gibt
