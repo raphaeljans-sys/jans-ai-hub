@@ -71,11 +71,13 @@ def build_paket(cfg, versand_dir, make_pdf=True):
         kurz = _req(ab, "kurzname")
         af = _anbieter_folder(versand_dir, kurz)
 
-        # 1) LV (identisch fuer alle — faire Vergleichbarkeit)
+        # 1) LV (Positionen identisch fuer alle — faire Vergleichbarkeit;
+        #    Stammzeile mit dem jeweiligen Anbieter, 10_dokumente-standard.md)
         lv = os.path.join(af, f"{prefix}_LV.docx")
         jd.build_lv(lv, projekt=projekt, los_titel=los_titel, bauherr_zeilen=bauherr,
                     positionen=positionen, einleitung=cfg.get("lv_einleitung"),
-                    bauseits=bauseits, datum_ort=datum_ort)
+                    bauseits=bauseits, datum_ort=datum_ort,
+                    anbieter_zeilen=ab.get("empfaenger", ab.get("zeilen", [kurz])))
         created.append(lv)
 
         # 2) Antwortformular (identisch)

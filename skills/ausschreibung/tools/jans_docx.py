@@ -187,23 +187,27 @@ def build_anschreiben(path, *, empfaenger, betreff, anrede, absatz_einleitung,
     para(d, JANS_NAME, after=10)
     para(d, "Beilagen:", size=10, before=2, after=2)
     for b in beilagen:
-        para(d, "– " + b, size=10)
+        para(d, "- " + b, size=10)
     jans_footer(d, "Begleitschreiben", page_numbers=False)
     d.save(path)
 
 
 def build_lv(path, *, projekt, los_titel, bauherr_zeilen, positionen,
-             einleitung=None, bauseits=None, datum_ort="Zürich, 1. Juni 2026"):
+             einleitung=None, bauseits=None, datum_ort="Zürich, 1. Juni 2026",
+             anbieter_zeilen=None):
     """Baut ein Leistungsverzeichnis (DOCX) mit leeren Preisspalten fuer den Anbieter.
 
-    projekt:        z.B. "2620 Albertstrasse 7, 8008 Zürich"
-    los_titel:      z.B. "LOS 273 — Schreinerarbeiten"
-    bauherr_zeilen: Liste Adresszeilen Bauherrschaft
-    positionen:     Liste von Bereichen, je dict:
-                      {"bereich": "...", "items": [
-                          {"pos": "273.10", "bez": "...", "menge": "1", "einheit": "Stk",
-                           "spez": "optional Spezifikation/Vermerk"}, ...]}
-    einleitung:     optionaler Einleitungssatz. bauseits: Liste bauseitiger Leistungen.
+    projekt:         z.B. "2620 Albertstrasse 7, 8008 Zürich"
+    los_titel:       z.B. "LOS 273 — Schreinerarbeiten"
+    bauherr_zeilen:  Liste Adresszeilen Bauherrschaft
+    anbieter_zeilen: Liste Adresszeilen Anbieter — Stammzeile verlangt Objekt,
+                     Bauherrschaft, Anbieter, Datum (10_dokumente-standard.md).
+                     Optional (rueckwaertskompatibel): ohne Angabe entfaellt der Block.
+    positionen:      Liste von Bereichen, je dict:
+                       {"bereich": "...", "items": [
+                           {"pos": "273.10", "bez": "...", "menge": "1", "einheit": "Stk",
+                            "spez": "optional Spezifikation/Vermerk"}, ...]}
+    einleitung:      optionaler Einleitungssatz. bauseits: Liste bauseitiger Leistungen.
     """
     d = base_doc()
     h1(d, "Leistungsverzeichnis")
@@ -212,6 +216,10 @@ def build_lv(path, *, projekt, los_titel, bauherr_zeilen, positionen,
     para(d, "Bauherrschaft:", bold=True, size=10, after=1)
     for z in bauherr_zeilen:
         para(d, z, size=10)
+    if anbieter_zeilen:
+        para(d, "Anbieter:", bold=True, size=10, before=6, after=1)
+        for z in anbieter_zeilen:
+            para(d, z, size=10)
     para(d, datum_ort, size=10, before=6, after=8)
     if einleitung:
         para(d, einleitung, after=8)
@@ -247,7 +255,7 @@ def build_lv(path, *, projekt, los_titel, bauherr_zeilen, positionen,
     if bauseits:
         h2(d, "Bauseitige Leistungen (nicht im Auftrag enthalten)")
         for b in bauseits:
-            para(d, "– " + b, size=10)
+            para(d, "- " + b, size=10)
 
     para(d, "Gleichwertige Produkte sind zugelassen, sofern die technischen "
             "Spezifikationen vollumfänglich erfüllt werden.", size=10, before=10)
@@ -287,6 +295,7 @@ def build_antwortformular(path, *, projekt, los_titel, datum_ort="Zürich, 1. Ju
         ["Angebotssumme inkl. MwSt (CHF)", ""],
         ["Rabatt / Skonto", ""],
         ["Verbindliche Lieferfrist / Termine", ""],
+        ["Festpreis gültig bis (Preisbindung)", ""],
         ["Gewährleistung (Jahre)", ""],
         ["Zahlungskonditionen", ""],
         ["Referenzobjekte (vergleichbar)", ""],
