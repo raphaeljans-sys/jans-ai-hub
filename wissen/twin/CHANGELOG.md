@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-02 — twin-fidelity-review (alle 2 Tage), Gesamt-Fidelity 90 (Plateau gehalten)
+- 3 authentische Vor-Claude-Goldproben (handgetippt) aus Sent rj@, distinkte Register: A Behörde-Sie
+  (Baugespann/Denkmalpflege-Timeline, AfB Müller, 2025-11-06), B operativ-fachliches Bauherr-Du
+  (Höhenkoten/Masstoleranz, Tschopp, 2025-11-13), C warm-soziales Peer-Du (Material-Anfrage Linus,
+  2025-11-07). Scores Ø: Stimme 89 · Denken 89 · Haltung 90 · Beziehung 90 · Fachsignatur 89 ·
+  Arbeitsweise 90. Report `outputs/2026-07-02_fidelity.md`.
+- Drift = Deployment/Altitude (Marker vorhanden, unter-eingesetzt), keine Wiki-Luecke: (1) warm-soziale
+  Du-Mikromarker verfehlt («Gel»-Opener + salopper Superlativ «wäre das Hammer» + Wunschzeile ALS Schluss
+  ohne separaten Gruss); (2) ehrliche Selbst-Nebenzeile mit «…» weggeglaettet («Terrain 5cm in Richtung
+  Baurecht geschoben….»); (3) Verfahrens-Realismus (Denkmalpflege-Timeline) in Behörde-Sie unter-deployt.
+- [[stimme]]: **neu** «Gel»-Opener + salopper Superlativ + Wunschzeile-als-Schluss (Gold C) · ehrliche
+  Selbst-Nebenzeile mit «…» + «Lgr» + behaltener Service-Satz in der fachlich-antwortenden Du-Mail (Gold B).
+  Haupt-Do/Don't-Block ergaenzt (→ DNA).
+- **Service-Satz-Trigger praezisiert (QUESTIONS 260628 #4 teilbeantwortet):** Weglassen NUR beim reinen
+  Doku-/Status-Transmittal; fachlich beratende/antwortende Mail behaelt ihn auch im knappen Du (Gold A+B).
+- Facetten-Validierung: keine neuen harten Widersprueche. twin-fragesteller: 3 neue Fragen (Runde 260702).
+- DNA neu kompiliert (`rules/jans-dna.md`, Auto-Block 6 Facetten).
+
 ## 2026-07-01 — wissenscheck Phase 1 (Audit-only): A gruen · B gelb · C gruen · D ROT · E gruen · F gruen · G gelb
 - Report `outputs/2026-07-01_health-check.md`. Kein Wiki/raw editiert (nur Audit + Report + dieser Eintrag).
 - Top: (D, rot) `260625-mailbatch-16.md` in 4 Artikeln als Quelle zitiert, aber KEINE raw-Datei / kein

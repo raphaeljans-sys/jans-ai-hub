@@ -3,6 +3,28 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260702 (twin-fragesteller, aus Fidelity-Review 2026-07-02)
+
+Quelle: Drift-Report `outputs/2026-07-02_fidelity.md` (Gesamt-Fidelity 90; duennste Facetten Stimme 89
++ Fachsignatur 89, beides Deployment-Drift). Je in 1–2 Saetzen beantwortbar.
+
+1. **«Gel»-Opener als Naehe-Schwelle:** Du eroeffnest die warm-soziale Peer-Du-Bitte mit «**Gel, … ist
+   sehr schön geworden**» (Vergewisserungspartikel als Einstieg, nicht nur mitten im Satz). Setzt Du das
+   «Gel» am Anfang gezielt bei **Kollegen/Peers, mit denen ein gemeinsamer Bezug** besteht (Du lobst zuerst
+   ihr Werk, dann kommt die Bitte), oder ist es einfach Tagesform im engsten Du? *Warum: kalibriert, wann
+   der Zwilling die warme Bitte ueber ein «Gel»-Lob oeffnen soll.* → [[stimme]], [[beziehungsregister]]
+2. **Wunschzeile-als-Schluss vs. Wunschzeile + Gruss:** Im knappen Sozial-Du (Linus) traegt «Dir ein
+   wunderbares Wochenende. / Raphael» den Schluss OHNE separaten Gruss; anderswo steht die Wunschzeile
+   VOR «Freundliche Grüsse»/«Lieber Gruss». Entscheidet die **Kuerze/Sozialnaehe der Mail** (Mikro-Sozial-Du
+   → Wunschzeile ersetzt den Gruss), oder haengst Du im Zweifel doch einen Gruss an? *Warum: verhindert,
+   dass der Zwilling im knappen Sozial-Du einen ueberfluessigen Gruss anhaengt.* → [[stimme]]
+3. **Ehrliche Selbst-Nebenzeile mit «…» — Reflex oder Anlass:** Nach der Fachantwort haengst Du die
+   selbst-entlarvende Zeile «Vielleicht habe ich da das Terrain 5cm in Richtung Baurecht geschoben….» an.
+   Machst Du diese ehrliche Offenlegung eigener (evtl. grenzwertiger) Annahmen/Handgriffe **standardmaessig**
+   gegenueber dem vertrauten Bauherrn (Transparenz schafft Vertrauen), oder nur, wo die Annahme das Resultat
+   spuerbar beeinflusst? *Warum: operationalisiert den 260702 verfehlten Ehrlichkeits-/«…»-Marker.*
+   → [[haltung]], [[stimme]]
+
 ## Offen — Runde 260630 (twin-fragesteller, aus Fidelity-Review 2026-06-30)
 
 Quelle: Drift-Report `outputs/2026-06-30_fidelity.md` (Gesamt-Fidelity 90; duennste Facette
@@ -52,7 +74,11 @@ Stimme 89 — Restdrift in Mikro-Typografie + Schluss-Markern). Je in 1–2 Saet
    («stehe ich gerne zur Verfuegung»), die Rechnungsmail an dieselbe Person hat ihn. Laesst Du den
    Service-Satz beim **reinen Doku-/Status-Transmittal** an einen vertrauten Partner bewusst weg
    (Laenge=Zweck), oder Tagesform? *Warum: schaerft, wann der Service-Satz gesetzt wird.*
-   → [[arbeitsweise]], [[stimme]]
+   → [[arbeitsweise]], [[stimme]] · **TEILBEANTWORTET (Fidelity 260702):** Gold A (Behörde-Sie) UND
+   Gold B (operativ-fachliches Du, Höhenkoten-Antwort) tragen BEIDE den Service-Satz → der Trigger fuers
+   Weglassen ist **reiner Doku-/Status-Transmittal**, NICHT Du/Sie und NICHT «kurz»; eine fachlich
+   **beratende/antwortende** Mail behaelt den Service-Satz auch im knappen Du. In stimme.md eingearbeitet.
+   Rest «bewusst vs. Tagesform beim reinen Transmittal» bleibt offen.
 
 ## Offen — Runde 260626 (twin-fragesteller, aus Fidelity-Review 2026-06-26)
 

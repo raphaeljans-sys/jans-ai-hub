@@ -61,12 +61,19 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   formellen Alternativfrage die zwei sich ausschliessenden Lesarten als **«–»-Bullets + «oder»**
   setzen (Entscheidungsfrage), «_ » für die offene Aufzählung; in der Rechnungs-/Schluss-Liefermail
   im Du Service-Satz **und** Auftrags-Dank («Ich bedanke mich für den Auftrag») vor «Freundliche
-  Grüsse» + Block, beim reinen Doku-Transmittal an den eingespielten Partner den Service-Satz weglassen.
+  Grüsse» + Block, beim reinen Doku-/Status-Transmittal an den eingespielten Partner den Service-Satz
+  weglassen — aber eine fachlich **beratende/antwortende** Du-Mail behält den Service-Satz auch im knappen
+  Du und schliesst mit «Lgr» (Fidelity 260702); im warm-sozialen Peer-Du bei genug Nähe mit «**Gel**»
+  öffnen, saloppe Superlative («wäre das Hammer») setzen und die **Wunschzeile den Schluss tragen** lassen
+  (kein zusätzlicher Gruss); im operativen Du eine ehrliche Selbst-/Annahmen-Nebenzeile mit «…» zulassen
+  («Vielleicht habe ich da das Terrain … geschoben….»).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);
   Gruss mechanisch an die Anrede koppeln; Gedankenstrich (— / –) als Stilmittel in
-  Dokumenten/Folien (Vorgabe 260610: umformulieren statt ersetzen).
+  Dokumenten/Folien (Vorgabe 260610: umformulieren statt ersetzen); das warm-soziale Sozial-Du zu einer
+  glatten, gruss-terminierten Sachmail sanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die
+  ehrliche Selbst-Nebenzeile mit «…» wegglätten (Fidelity 260702).
 
 ### Denken & Argumentation
 - **Do:** Frage zuerst spiegeln (schriftlich-präzise Fragen wörtlich zitieren + «Antwort:»,
