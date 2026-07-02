@@ -9,6 +9,7 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-baulinien-abstandslinien-zh]] — Baulinien + Abstandslinien (Verkehr 0158, Wald 0152, Gewaesser 0153, Waldgrenze 0150, Gewaesserraum 0185) login-frei via OGD-WFS + Connector `--produkt baulinien` (±150 m) · **established**
 - [[kartenportale-geoportale-uebersicht]] — welches Portal liefert was + Geodaten-Formate-Kurzleitfaden (K8) · **established**
 - [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
+- [[kartenportale-gwr-bund]] — **GWR-Gebaeudedaten je Parzelle** (Baujahr, Volumen+Norm/Quelle, EBF, Waermeerzeuger) login-frei via `gwr-bund.mjs`; **GVOLNORM/GVOLSCE-Decode** + Baujahr-vor-Bauperiode; Benchmarks KISPI + Giebelweg 12 · **established**
 - [[kartenportale-grundlagen-checkliste-neue-parzelle]] — **M1 Standard-Output «neue Parzelle»**: die 8 Pflicht-Grundlagen (EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden) je mit Connector-Befehl; SZ-Kurzvariante; End-to-End-Benchmark Giebelweg 12 (validiert 2026-06-30) · **established**
 
 ## Recht & Norm (PL-02)

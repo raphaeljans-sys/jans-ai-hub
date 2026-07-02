@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-02 — Training Run 13 (Kartenportale/PL-01): NEU GWR-Artikel · GVOLNORM/GVOLSCE-Decode im Connector (getestet)
+- Schwerpunkt **Kartenportale** (Rotation: Run 12 Brandschutz → Run 13 Kartenportale, Prioritaets-
+  domaene). Connector-Schritt: **ja** (`gwr-bund.mjs` erweitert + getestet). Quellen: Merkmalskatalog
+  eidg. GWR v4.2 (housing-stat.ch/files/881-2200.pdf, S. 63f.); Live-Benchmarks am Geodienst.
+- **K9 — GWR-Gebaeudedaten als Planungsgrundlage erschlossen (Luecke geschlossen):** GWR war Nr. 6
+  der M1-Checkliste, hatte aber **keinen eigenen Wiki-Artikel** (Backlink zeigte auf
+  `energie-uebersicht`). NEU **[[kartenportale-gwr-bund]]** (established): Bezugswege EGID/Adresse/
+  EGRID, planungsrelevante Felder (Baujahr, EBF, Volumen, Waermeerzeuger/Energietraeger), EPROID-
+  Grenze, Wozu-im-Workflow (EN/EVEN, Kostenschaetzung, Umnutzung). M1-Backlink umgehaengt.
+- **Connector `gwr-bund.mjs` verbessert + getestet:** GWR-Volumen war als Rohcode ausgegeben. Neu
+  Decode **GVOLNORM** (961 SIA 116 / 962 SIA 416 / 969 unbekannt) + **GVOLSCE** (851-878 Datenquelle,
+  z.B. 869 Baubewilligung) aus dem Merkmalskatalog belegt. **Befund (Leitplanke bestaetigt):**
+  KISPI-Volumen traegt Norm **969 = unbekannt** (nicht SIA 416, wie man raten wuerde) — vor
+  `Volumen × Kennwert` immer pruefen. Merkregel **Baujahr schlaegt Bauperiode** (KISPI: 8023
+  «2016-2020» vs. Baujahr 2024).
+- **Benchmarks (2026-07-02):** KISPI EGID 302064023 (Krankenhaus, Baujahr 2024, EBF 78'834 m2,
+  WP/Erdsonde+Gas-Redundanz, Volumen-Norm 969) + Giebelweg 12 EGRID CH879777718909 → 2 Gebaeude
+  (Haupthaus EGID 57977 EFH 1936/Gas + Nebenbau 210237818); Mehrdeutigkeit korrekt behandelt.
+  Damit ist die M1-Kette auch fuer die GWR-Stufe end-to-end validiert.
+- Register gepflegt: INDEX (+GWR-Artikel), M1-Checkliste (Backlink), curriculum (K9 ✓), QUESTIONS
+  (K9 ✓ + Offen EWID/Katalog-v5.0), raw/_INGESTED (+Merkmalskatalog), connectors/README (Decode +
+  Benchmarks). Report `outputs/2026-07-02_training-run13.md`.
+- **Naechster Lauf (Run 14):** Rotation → **Energie** (Prioritaet). Offene Energie-Punkte: D5 Typ
+  B/C/D PV-CHF-Benchmark, D6 EVEN-Bedienung am KISPI-Fall, D8 graue-Energie-ZH-Grenzwert.
+
 ## 2026-07-01 — Wissens-Health-Check (Phase 1): gesund · 3 Hygiene-Punkte
 - Audit ueber 16 Wiki-Artikel + State-Files. Ampel A🟡 B🟡 C🟡 D🟢 E🟢 F🟡 G🟢. Keine harten
   Widersprueche, keine Orphans, saubere RAW-Coverage/Compounding-Historie. Top-3: (1) toter

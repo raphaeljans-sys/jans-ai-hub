@@ -89,7 +89,18 @@ Wohnungsregister (GWR)** ueber den login-freien Geodienst und dekodiert die GWR-
 in Klartext. Liefert genau die Basis fuer **Energienachweis (EVEN)**, Kostenschaetzung
 und Machbarkeit: Volumen, Energiebezugsflaeche, Waermeerzeuger/Energietraeger,
 Geschosse, Gebaeudeklasse/-kategorie. Validiert 2026-06-13 am Fall B26-00705.01
-(Univ.-Kinderspital Zuerich, Lenggstrasse 30, EGID 302064023).
+(Univ.-Kinderspital Zuerich, Lenggstrasse 30, EGID 302064023); Decode + Benchmarks
+2026-07-02 erweitert (→ Wiki [[kartenportale-gwr-bund]]).
+
+**Volumen richtig lesen (seit 2026-07-02):** Der Connector dekodiert neu **GVOLNORM**
+(961 = SIA 116, 962 = SIA 416, 969 = unbekannt) und **GVOLSCE** (Datenquelle: 851 amtl.
+Vermessung / 852 amtl. Schaetzung / 853 Gebaeudeversicherung / 857 Eigentuemer / 858 GEAK /
+859 andere / 869 Baubewilligung / 870 TLM / 878 nicht geschlossenes Gebaeude) aus dem
+**Merkmalskatalog GWR v4.2 (housing-stat.ch/files/881-2200.pdf, S. 63f.)**. Vor `Volumen ×
+Kennwert` immer die Norm pruefen (SIA 116 ~12 % kleiner als 416; 969 = nur Groessenordnung).
+Merkregel: **Baujahr (`gbauj`) schlaegt Bauperiode (`gbaup`)** bei Widerspruch. Benchmarks
+2026-07-02: KISPI EGID 302064023 (gvolnorm 969/gvolsce 869 Baubewilligung, EBF 78'834 m2,
+WP+Erdsonde) + Giebelweg 12 EGID 57977 (EFH 1936, Gas).
 
 ```
 EGID            --(find searchField=egid)-->                      Gebaeudedatensatz (eindeutig)

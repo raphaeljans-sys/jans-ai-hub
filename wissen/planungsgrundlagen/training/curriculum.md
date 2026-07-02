@@ -15,6 +15,7 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [~] K6 Eigentumsabfrage ObjektwesenZH per EGRID — Ablauf, Datenschutz, Automatisierung? (2026-06-24 Run 9 = A5: Grundbuch-Auskunft nur mit Interessennachweis Art. 970 ZGB, nicht login-frei automatisierbar, manueller Behoerdenweg → [[kartenportale-geoportale-uebersicht]])
 - [x] K7 Nicht-ZH: OEREB-Service-Endpunkte (zuerst SZ) kartieren + in Connector hinterlegen. (SZ via geo-sz.mjs / Skill `oereb-schwyz` geloest; in geo-zh.mjs OEREB_SERVICE.sz hinterlegt)
 - [x] K8 Welche Geodaten-Formate (GeoPackage, Interlis, DXF, LandXML) wofuer — Kurzleitfaden? (2026-06-24 Run 9: 7-Format-Tabelle GeoJSON/INTERLIS/DXF/GeoTIFF/XYZ-LAZ/LandXML/GeoPackage → [[kartenportale-geoportale-uebersicht]])
+- [x] K9 GWR-Gebaeudedaten je Parzelle (Baujahr/Volumen/EBF/Waermeerzeuger) — Bezug, Felder, Verlaesslichkeit? (2026-07-02 Run 13: `gwr-bund.mjs` login-frei via ch.bfs.gebaeude_wohnungs_register; **GVOLNORM 961 SIA116/962 SIA416/969 unbekannt + GVOLSCE-Decode** aus Merkmalskatalog v4.2 in Connector eingebaut & getestet; Baujahr schlaegt Bauperiode; Benchmarks KISPI EGID 302064023 + Giebelweg 12 EGID 57977 → NEU [[kartenportale-gwr-bund]])
 - [x] A6 Projektierter Zonen-Layer `..._proj_f` an realem Revisionsfall (Vorher/Nachher machbarkeit Typ A). (2026-06-24 Run 9: Seuzach Kat. 2304, Connector meldet ⚠-Revision → [[kartenportale-zonenplan-zh]] §A6)
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet

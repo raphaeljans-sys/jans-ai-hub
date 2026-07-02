@@ -31,7 +31,7 @@ eigenen Connectoren automatisiert; jeder Punkt verlinkt den vertiefenden Artikel
 | **3** | **Baulinien + Abstandslinien (Verkehr/Wald/Gewaesser/Waldgrenze/Gewaesserraum)** | grenzen das **Baufeld** ein (Agent `baulinien-analyst`) | `geo-zh.mjs --adresse "…" --produkt baulinien --out …` | [[kartenportale-baulinien-abstandslinien-zh]] |
 | **4** | **Amtliche Vermessung (Situationsplan/Kataster DXF)** | CAD-Grundlage fuer Baufeld/Volumen; Parzellengeometrie | `geoshop-zh.mjs --gemeinde "…"` (Produkt 10016 DXF) | [[kartenportale-geoportale-uebersicht]] |
 | **5** | **Hoehenmodell (swissALTI3D/DTM) + Orthofoto (SWISSIMAGE)** | Terrain/Hang (massgebendes Terrain), Kontext; 3D-Render | `geo-zh.mjs --adresse "…" --produkt height,dtm,orthofoto --download --out …` | [[kartenportale-bund-geodaten]] |
-| **6** | **GWR-Gebaeudedaten (bei Bestand: Volumen, EBF, Baujahr, Waermeerzeuger)** | Basis fuer Energienachweis/Kostenschaetzung/Umnutzung | `gwr-bund.mjs` (Layer ch.bfs.gebaeude_wohnungs_register) | [[energie-uebersicht]] |
+| **6** | **GWR-Gebaeudedaten (bei Bestand: Volumen, EBF, Baujahr, Waermeerzeuger)** | Basis fuer Energienachweis/Kostenschaetzung/Umnutzung | `gwr-bund.mjs` (Layer ch.bfs.gebaeude_wohnungs_register) | [[kartenportale-gwr-bund]] |
 | **7** | **Zustaendige Behoerden/Aemter** | wer entscheidet/ist anzufragen (Vorabklaerung) | `behoerden-zh.mjs` (Registry je BFS) | [[recht-norm-quellenlandkarte]] |
 
 **Querschnitt-Pruefungen, die aus 0–7 folgen** (kein eigener Bezug, sondern Auswertung):
