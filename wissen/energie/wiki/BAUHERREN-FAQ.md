@@ -588,8 +588,11 @@ Unterhalt im Haus, schlankster Weg, vgl. F14). **(2)** Sonst Neubau/gut gedaemmt
 Standard; bei Budget/Platz fuer die Bohrung **Erdsonden-WP** (hoehere JAZ + Foerderung). **(3)**
 Grundwasser nutzbar → **Wasser-Wasser-WP**. **(4)** WP technisch schwierig → **Pellets** (Wirkungsgrad
 ~90 %, aber Lagerraum, Feinstaub, Feuerpolizei/Abgasanlage) — oder **erst die Huelle daemmen, dann WP**
-(senkt die Vorlauftemperatur und hebt die JAZ, vgl. F2/F13). Die verbindliche Effizienz rechnet im
-Minergie-Verfahren das Tool **WPesti** (vgl. `[[minergie-zertifizierung-workflow]]`).
+(senkt die Vorlauftemperatur und hebt die JAZ, vgl. F2/F13). Die **verbindliche projektgenaue** Effizienz
+rechnet das **kostenlose** Tool **WPesti** (basiert auf **SIA 384/3**, Ausgabe **2021**; Download auf
+**endk.ch**) aus Deinem SIA-380/1-Nachweis + WP-Typ + Einbauart — die so bestimmte JAZ liegt bei gut
+ausgelegten Anlagen **oft deutlich hoeher** als die Tabellen-Richtwerte (→ `[[sia-384-3-wpesti-jaz-methode]]`,
+`[[minergie-zertifizierung-workflow]]`).
 
 **Quelle:** Heizsystem-/JAZ-Richtwerte → `[[waermepumpe-systemvergleich]]`; **Feld-JAZ (CH-Primaerquelle)**
 → `[[fawa-jaz-feldanalyse-waermepumpen]]` (BFE/FAWA); **COP/SCOP/JAZ-Begriff** →
@@ -598,9 +601,11 @@ Minergie-Verfahren das Tool **WPesti** (vgl. `[[minergie-zertifizierung-workflow
 Foerderung → `[[foerderprogramm-energie-zh-2026]]` / F7. ⚠ **Datenstand 2026-06-27:** Die JAZ-Bandbreiten
 sind **Richtwerte**, keine projektgenauen Zahlen — fuer ein Projekt gilt der **WPesti-/SIA-384/3-Wert**;
 die FAWA-**Absolutwerte** sind 2004 (moderne Geraete hoeher), ihre **Relationen/Planungslehren** zeitlos.
-Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/EVEN pruefen). **Systemwahl/Entscheid
-+ fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Offen: **moderne** projektgenaue
-JAZ-Defaults (WPesti/FWS-Aktuellstatistik), CHF-Amortisationsvergleich.
+Die **Methode** fuer den projektgenauen Wert ist belegt (WPesti/SIA 384/3:2021, gratis auf endk.ch →
+`[[sia-384-3-wpesti-jaz-methode]]`). Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/
+EVEN pruefen). **Systemwahl/Entscheid + fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11,
+EN-LCC-ZH). Offen: aktuelle **FWS-Feldstatistik** (moderne Geraete-JAZ nach 2004), WPesti-Standardwerte,
+CHF-Amortisationsvergleich.
 
 ---
 
@@ -1038,24 +1043,32 @@ die Kombination ausschliesst (Kt. SZ: «Klimapraemie + kantonale Beitraege nicht
 bleibt davon unberuehrt.
 
 **Quelle:** energiefranken.ch (© 2026 EnergieSchweiz/BFE) + Klimapraemie Stiftung KliK / GebaeudeKlima
-Schweiz → `[[energiefranken-foerder-suchmaschine-ch]]`; Kanton-/Bund-Mechanik → F27 /
+Schweiz → `[[energiefranken-foerder-suchmaschine-ch]]`; **Klimapraemie im Detail** →
+`[[klimapraemie-heizungsersatz-klik]]`; Kanton-/Bund-Mechanik → F27 /
 `[[gebaeudeprogramm-bund-hfm-2015]]`; ZH-Saetze → F7, SZ-Saetze → F28; PV-Bund → F7 /
-`[[pv-einmalverguetung-bund-bfe]]`. ⚠ **Datenstand 2026-06-30:** Programme/CHF-Saetze altern schnell,
-budgetabhaengig (kein Rechtsanspruch); Klimapraemie-Laufzeit in den Quellen widerspruechlich («bis 2025»
-vs. «bis Ende 2027») → **vor Zusage standortgenau auf `energiefranken.ch` + Standortkanton/Gemeinde +
-klimapraemie.ch pruefen**. Energierecht/Heizverbot → Skill `baurecht`.
+`[[pv-einmalverguetung-bund-bfe]]`. ⚠ **Datenstand 2026-07-02:** Programme/CHF-Saetze altern schnell,
+budgetabhaengig (kein Rechtsanspruch); die Klimapraemie laeuft **voraussichtlich bis spaetestens Ende
+2027** (aeltere Seiten mit «bis 2025» sind veraltet) → **vor Zusage standortgenau auf `energiefranken.ch`
++ Standortkanton/Gemeinde + klimapraemie.ch (exakter CHF-Satz + Enddatum) pruefen**. Energierecht/
+Heizverbot → Skill `baurecht`.
 
 ---
 
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
-  logik + Pellets-Bedingungen) → F6 oben. Offen bleibt: projektgenaue JAZ/COP aus CH-Primaerquelle
-  (FWS/WPesti-Defaults), CHF-Amortisations-/Kostenvergleich, WP + PV-Eigenverbrauch (Lastmanagement).
+  logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
+  (WPesti/SIA 384/3:2021, gratis endk.ch → `[[sia-384-3-wpesti-jaz-methode]]`). Offen bleibt: aktuelle
+  FWS-Feldstatistik (moderne Geraete-JAZ), WPesti-Standardwerte, CHF-Amortisations-/Kostenvergleich,
+  WP + PV-Eigenverbrauch (Lastmanagement).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-06-30: 29 Kernfragen F1-F29 belegt** (neu **F29 ‹Welche Foerdergelder an MEINEM
+> **FAQ-Stand 2026-07-02: 29 Kernfragen F1-F29 belegt.** Praezisiert am 2026-07-02: **F6** (WP-JAZ) um
+> die **Methode WPesti/SIA 384/3:2021** (gratis endk.ch, JAZ projektgenau aus SIA-380/1-Nachweis →
+> `[[sia-384-3-wpesti-jaz-methode]]`) und **F29** (Klimapraemie-Laufzeit aufgeloest: **voraussichtlich
+> bis spaetestens Ende 2027**, aeltere «bis 2025»-Seiten veraltet → `[[klimapraemie-heizungsersatz-klik]]`).
+> Zuvor neu **F29 ‹Welche Foerdergelder an MEINEM
 > Standort — auch Gemeinde?›**: `energiefranken.ch` als standortgenaue Suchmaschine EnergieSchweiz/BFE
 > ueber alle Ebenen Bund/Kanton/Gemeinde/EWU/Stiftung; Foerderung als Stapel; Klimapraemie KliK ~360/kW
 > beim fossilen Heizungsersatz, meist alternativ zum Kanton → `[[energiefranken-foerder-suchmaschine-ch]]`).

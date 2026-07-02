@@ -3,9 +3,9 @@ quelle: energiefranken.ch — «Die Plattform für Fördergelder im Energieberei
 herausgeber: EnergieSchweiz (Bundesamt für Energie BFE) — Betreiber energiefranken.ch; Klimaprämie finanziert durch Stiftung KliK (Klimaschutz und CO2-Kompensation), abgewickelt über GebäudeKlima Schweiz / klimapraemie.ch
 ausgabe: Webportal, © 2026 EnergieSchweiz (laufend aktualisiert, kein fixes Versionsdatum)
 gelesen: 2026-06-30 (Web via WebSearch + WebFetch: energiefranken.ch/de, energieschweiz.ch/foerderung/massnahmenfoerderung, gebaeudeklima-schweiz.ch Klimaprämie)
-datenstand: 2026-06-30 — Portal-Beschreibung © 2026; Klimaprämie ca. CHF 360/kW (Datenstand 2026), Laufzeit-Angaben divergieren (Quelle GebäudeKlima «bis 2025», Sekundärquellen «bis spätestens Ende 2027») ⚠ vor Zitat prüfen
+datenstand: 2026-06-30 (Klimaprämie-Laufzeit präzisiert 2026-07-02) — Portal-Beschreibung © 2026; Klimaprämie ca. CHF 360/kW, Laufzeit «voraussichtlich bis spätestens Ende 2027» (aktuelle Programmführung); ältere «bis 2025»-Angaben sind veraltet → Details `[[klimapraemie-heizungsersatz-klik]]`
 status: established
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # energiefranken.ch — die standortgenaue Förder-Suchmaschine + Klimaprämie
@@ -43,7 +43,7 @@ Förderung ist **kein einzelner Topf**, sondern ein Stapel — was sich kombinie
 - **Förderfähig:** Ersatz eines **fossilen** Heizsystems (Heizöl/Erdgas) durch **Wärmepumpe** (Luft/Wasser, Wasser/Wasser, Sole/Wasser) oder **Holzheizung**. Anmeldung über **klimapraemie.ch**.
 - **Finanzierung/Träger:** **Stiftung KliK** (Klimaschutz und CO2-Kompensation), Abwicklung u. a. über **GebäudeKlima Schweiz**.
 - **Kombinierbarkeit:** ⚠ **wichtig** — die Klimaprämie (KliK/CO2-Kompensation) ist in der Regel **nicht mit der kantonalen Heizungsförderung kombinierbar** (so explizit in der Vollzugshilfe Kt. SZ: «Klimaprämie + kantonale Beiträge nicht kombinierbar», vgl. F28 → `[[foerderprogramm-energie-sz-2026]]`). Es gilt also meist **entweder Kanton ODER Klimaprämie** — die für das Projekt höhere Variante wählen. PV bleibt davon unberührt (separat über den Bund).
-- **Laufzeit:** ⚠ **Datenstand divergiert** — die Quelle GebäudeKlima Schweiz nennt «voraussichtlich bis 2025» (vermutlich veralteter Cache-Stand), Sekundärquellen «bis spätestens Ende 2027». Vor Zusage auf **klimapraemie.ch** den aktuellen Stand prüfen; CHF-Satz und Laufzeit **nicht aus dieser Notiz zitieren ohne Live-Prüfung**.
+- **Laufzeit:** **voraussichtlich bis spätestens Ende 2027** (aktuelle Programmführung foerderplattform.ch / Energie Zukunft Schweiz). ⚠ Ältere Partnerseiten (GebäudeKlima Schweiz, Holzfeuerungen Schweiz) zeigen noch die **veraltete** Angabe «voraussichtlich bis 2025» — im Juli 2026 wird das Programm aktiv beworben. Vor Zusage auf **klimapraemie.ch** den exakten CHF-Satz + das harte Enddatum prüfen. Detail-Destillat → `[[klimapraemie-heizungsersatz-klik]]`.
 
 ## Bauherren-Transfer
 - **Immer zuerst die Postleitzahl bei `energiefranken.ch` eingeben** — bevor man Förderbeträge schätzt. Nur so werden **Gemeinde- und EWU-Beiträge** sichtbar, die on-top zur Kantonsförderung kommen können und die JANS aus den Kantons-Tabellen allein nicht kennt.
@@ -54,5 +54,5 @@ Förderung ist **kein einzelner Topf**, sondern ein Stapel — was sich kombinie
 
 ## Offene Punkte
 - **Konkrete Gemeinde-Beiträge** für die JANS-Kernstandorte (Stadt ZH, Maur, Oberrieden; SZ Wangen/Reckholdern) — standortgenau bei `energiefranken.ch` abrufbar, hier noch nicht erfasst (PLZ-spezifisch, sinnvoll erst projektbezogen).
-- **Klimaprämie Laufzeit + exakter aktueller CHF-Satz 2026** — Live-Prüfung klimapraemie.ch ausstehend (Quellenwiderspruch Laufzeit).
+- **Klimaprämie Laufzeit** präzisiert (bis spätestens Ende 2027, `[[klimapraemie-heizungsersatz-klik]]`); **exakter aktueller CHF-Satz + hartes Enddatum 2026/2027** weiterhin nur via Live-Prüfung klimapraemie.ch verbindlich.
 - **Kombinierbarkeits-Detailmatrix** Bund × Kanton × Gemeinde × KliK je Massnahme — bisher nur die SZ-Regel «KliK ≠ Kanton» belegt; ZH-Regel + Gemeinde-Kombination offen.
