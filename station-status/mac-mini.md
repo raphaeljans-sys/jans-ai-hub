@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 02.07.2026 13:37:24
+Stand: 02.07.2026 13:57:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/frosty/benz/067c2f  (letzte Aktivitaet 13:37)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:24)
+- Developer/jans/ai/hub//claude/worktrees/frosty/benz/067c2f  (letzte Aktivitaet 13:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -16,4 +15,4 @@ Stand: 02.07.2026 13:37:24
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 44e1265 nas-selfcommit: 4 Datei(en) 2026-07-02 13:30
+- 604693a nas-selfcommit: 5 Datei(en) 2026-07-02 13:45
