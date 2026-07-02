@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.07.2026 07:15:00
+Stand: 02.07.2026 07:25:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:14)
@@ -12,4 +12,4 @@ Stand: 02.07.2026 07:15:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6a9f87d sync: twin-mail-training: 2025-12-10 bis 2026-01-12 (Batch 22)
+- edc0288 immobilienbewertung Run 12: Healthcare-Bewertungsbruecke (T17 belegt via Herose-Baukredit) + Health-Check-Cleanup

@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 02.07.2026 07:05:01
+Stand: 02.07.2026 07:25:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:58)
@@ -12,4 +12,4 @@ Stand: 02.07.2026 07:05:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f1f7aef nas-selfcommit: 10 Datei(en) 2026-07-02 07:00
+- edc0288 immobilienbewertung Run 12: Healthcare-Bewertungsbruecke (T17 belegt via Herose-Baukredit) + Health-Check-Cleanup
