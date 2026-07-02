@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-06-26
+last_updated: 2026-07-02
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -317,6 +317,64 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
 - **F:** Kann man sich gegen Brandschutz-/Feuerpolizeivorschriften auf § 357 PBG berufen? — **A:**
   **Nein** — Feuerpolizeigesetz und Bundesrecht (USG/GSchG) sind **keine** «Bauvorschriften» i. S. v.
   § 357; der Bestandesschutz greift dagegen nicht (Bd 2, S. 1447). _[2026-06-18]_
+
+## Kap. 2 Teil 3 — Sondernutzungsplanung / Gestaltungsplan / Verfahren _(Run 18, 2026-07-02)_
+
+### Modell C — Selbsttest-Karten
+- **F:** Was darf ein Gestaltungsplan, was die Regelbauweise nicht kann? — **A:** Der **Gestaltungsplan
+  (§ 83 PBG)** darf von **Ausnuetzung, Abstaenden und Hoehen** der Grundordnung **abweichen und ersetzt
+  sie** (§ 83 Abs. 1 PBG) — projektbezogene Sonderordnung gegen erhoehte gestalterische/oeffentliche
+  Mehrleistung; Preis ist eine zusaetzliche Planungsstufe vor dem Baugesuch. (Bd 1, S. 170 ff.) _[2026-07-02]_
+- **F:** Welches Quorum braucht ein privater allgemeinverbindlicher Gestaltungsplan? — **A:** Zustimmung
+  von **zwei Dritteln der Flaeche** (§ 85 Abs. 2 PBG) — **kein Einstimmigkeitszwang**; auch Aenderungen
+  mit Mehrheitsbeschluss. (Bd 1, S. 172 f.) _[2026-07-02]_
+- **F:** Ab wann kann ein Gestaltungsplan aufgehoben werden? — **A:** Fruehestens **5 Jahre** nach
+  Inkrafttreten ohne wesentliche Bautaetigkeit (§§ 82/87 PBG); danach bundesrechtlicher Anpassungs-
+  anspruch bei wesentlich geaenderten Verhaeltnissen (Art. 21 Abs. 2 RPG). (Bd 1, S. 176 f.) _[2026-07-02]_
+- **F:** Wie lange dauert die oeffentliche Auflage eines Nutzungsplans, und wann wird er verbindlich? —
+  **A:** Oeffentliche Auflage **60 Tage** (Art. 4 Abs. 2 RPG / § 7 PBG); grundeigentuemerverbindlich erst
+  mit der **kantonalen Genehmigung** (§ 89 PBG / Art. 26 Abs. 3 RPG, konstitutiv). (Bd 1, S. 188 ff.) _[2026-07-02]_
+
+### Modell A — Frage→Beleg-Drill
+- **Buerofrage:** «Ein Investor will auf drei Nachbarparzellen in der W3 dichter/hoeher bauen als die BZO
+  erlaubt, aber ein Eigentuemer (kleiner Flaechenanteil) will nicht mitmachen — geht das?» — **Beleg-
+  Antwort:** Ja, ueber einen **privaten Gestaltungsplan (§ 83 PBG)**, der von Ausnuetzung/Hoehen/Abstaenden
+  abweichen darf und die Grundordnung ersetzt (§ 83 Abs. 1 PBG, Bd 1 S. 170). Fuer die Allgemein-
+  verbindlichkeit genuegen **zwei Drittel der einbezogenen Flaeche** (§ 85 Abs. 2 PBG, S. 172 f.) — der
+  Minderheits-Eigentuemer kann den GP also **nicht blockieren**. Ablauf: Auflage 60 Tage (§ 7 PBG),
+  Festsetzung (§ 88), **kantonale Genehmigung konstitutiv** (§ 89/Art. 26 Abs. 3 RPG). Was der GP
+  abschliessend regelt, ist im spaeteren Baugesuch **nicht mehr anfechtbar** (Prinzip des einmaligen
+  Rechtsschutzes). **Gate:** GP an gestalterische Mehrleistung + qualifiziertes oeffentliches Interesse
+  bzw. Legislative-Zustimmung gekoppelt (§ 84/§ 86 PBG). Beleg vollstaendig (Kap. 2 Teil 3 distilliert). ✅
+  _[2026-07-02]_
+
+## Kap. 3 — Erschliessung / Landsicherung _(Run 18, 2026-07-02)_
+
+### Modell C — Selbsttest-Karten
+- **F:** Nenne die drei Erschliessungsebenen und wer sie traegt. — **A:** **Grund-** + **Groberschliessung**
+  (Hauptstraenge/Zubringer, Art. 4 Abs. 1 WEG) = **Gemeinde** (Erschliessungsplan §§ 90-95 PBG);
+  **Feinerschliessung** (Anschluss einzelner Grundstuecke, Art. 4 Abs. 2 WEG) = **Private** (Quartierplan
+  §§ 125 ff. PBG). Hausanschluesse gehoeren zu **keiner** Ebene. (Bd 1, S. 208 f.) _[2026-07-02]_
+- **F:** Was passiert bei Verzug der gemeindlichen Erschliessungspflicht? — **A:** Bauzonen sind innert
+  Programm-Fristen, spaetestens **15 Jahren** zu erschliessen (Art. 19 Abs. 2 RPG); bei Verzug Anspruch auf
+  **Selbsterschliessung oder Bevorschussung** (Art. 19 Abs. 3 RPG; VB.2010.00560, S. 209). _[2026-07-02]_
+- **F:** Womit sichert man Land fuer ein oeffentliches Werk — und was gilt ohne Richtplaneintrag? — **A:**
+  **Werkplan §§ 114-119 PBG** (Enteignung § 116, Vorkauf § 118, Heimschlag § 119); ohne Richtplaneintrag
+  **vorsorgliches Bauverbot §§ 120-122 PBG**, das nach **5 Jahren verfaellt**, wenn kein Werkplan/
+  Enteignungsverfahren folgt. (Bd 1, S. 228) _[2026-07-02]_
+
+## Kap. 6 Teil 2 — Anzeigeverfahren / private Kontrolle _(Run 18, 2026-07-02)_
+
+### Modell C — Selbsttest-Karten
+- **F:** Unter welchen drei kumulativen Voraussetzungen ist das Anzeigeverfahren zulaessig, und wo faellt
+  es weg? — **A:** (1) Vorhaben **untergeordneter Bedeutung** (Katalog § 14 BVV), (2) **keine
+  Drittinteressen** bzw. schriftliches Einverstaendnis, (3) **kein Antrag** auf ordentliches Verfahren
+  (§ 325 PBG / §§ 13-15 BVV). **Weg** in Kern-/Quartiererhaltungszonen + bei BehiG-Umbauten; keine
+  Aussteckung, Nachbaranzeige 30 Tage. (Bd 1, S. 402-421) _[2026-07-02]_
+- **F:** Bis wann muss ein Betroffener das Zustellbegehren stellen, und was ist die Folge des Versaeumnisses?
+  — **A:** Innert **20 Tagen** ab oeffentlicher Bekanntmachung, schriftlich (§ 315 Abs. 1 PBG); Versaeumnis
+  = **Verwirkung des Rekursrechts** (fehlende formelle Beschwer, § 316 PBG; beurteilt durch die
+  Rekursinstanz). (Bd 1, S. 402 ff.; VB.2015.00248) _[2026-07-02]_
 
 ## Kap. 7 — Zustaendigkeiten / Entscheid / Nebenbestimmungen (§§ 318/321 PBG)
 

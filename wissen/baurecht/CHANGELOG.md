@@ -4,6 +4,35 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-02 — Run 18 Forcierung: 3 Kapitelteile parallel (Band-1-Tail + Kap.-6-Restschuld)
+- TRANSFER 3 Destillate (von parallelen Agenten, Buchhaltung zentral), **46 Doppelseiten**:
+  **Kap. 2 Teil 3** `buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md` (Shots 76+86-104,
+  S. 170-204): **Sondernutzung/Gestaltungsplan §§ 83-89 PBG** (§ 83 ersetzt Grundordnung; oeffentlich § 84/
+  privat **2/3-Quorum § 85 Abs. 2**/Aufhebung 5 J. §§ 82/87), **Gestaltungsplanpflicht § 48 Abs. 3**,
+  **preisguenstiger Wohnraum § 49b** (`speculative`), **Verfahren Nutzungsplanung** (Auflage **60 Tage**
+  Art. 4 RPG/§ 7, Festsetzung § 88, **kant. Genehmigung § 89/Art. 26 Abs. 3 RPG konstitutiv**), **Prinzip
+  des einmaligen Rechtsschutzes**. **Kap. 3 Teil 1** `buecher/band-1/03-erschliessung-landsicherung-teil1.md`
+  (Shots 105-120, S. 208-239): **Erschliessungsarten** (Grund-/Grob-/Feinerschliessung, Art. 19 RPG/Art. 4-5
+  WEG), **Erschliessungspflicht Gemeinde** (15 J., Selbsterschliessung/Bevorschussung Art. 19 Abs. 3 RPG),
+  Erschliessungsplan §§ 90-95, **Baulinien §§ 96 ff./Niveaulinien § 106**, **Werkplan §§ 114-119 + vorsorgl.
+  Bauverbot §§ 120-122** (verfaellt 5 J.), StrG-**Mehrwertbeitraege ¼-½ § 62**. **Kap. 6 Teil 2**
+  `buecher/band-1/06-baurechtliches-verfahren-teil2.md` (Shots 202-211, S. 402-421): **Anzeigeverfahren
+  § 325 PBG/§§ 13-15 BVV** (3 kumulative Voraussetzungen; faellt weg in Kern-/Quartiererhaltungszone +
+  BehiG-Umbau), **private Kontrolle §§ 4-7 BBV I**, Zustellbegehren §§ 315/316. Alle `emerging`.
+  Zusaetzlich Shot 76/S. 150-151 (Run-17-OneDrive-Luecke) nachgelesen.
+- VERDICHTUNG 3 Wiki-Artikel geschaerft: [[raumplanung-und-gestaltung]] (Gestaltungsplan §§ 83-89 +
+  Verfahren Nutzungsplanung), [[baureife-und-erschliessung]] (Erschliessungsarten/-pflicht + Landsicherung
+  Kap. 3), [[baubewilligungsverfahren]] (Anzeigeverfahren + private Kontrolle + einmaliger Rechtsschutz).
+  **Modell-D-Korrektur** in [[baubewilligungsverfahren]]: § 315 PBG von faelschlich «30 Tage» auf **20 Tage
+  Zustellbegehren** korrigiert (Beleg Kap.-6-Destillate + VB.2015.00248).
+- ANWENDUNG `training/drills.md` Bloecke «Run 18»: Modell C (11 Karten) + Modell A (Gestaltungsplan 2/3-Quorum,
+  schliesst die Run-17-Folgefrage).
+- REGISTER `seiten-inventar.md` (46 Shots → [x]), `buecher/INDEX.md` (3 neue Destillate + Matrix Kap. 2/3/6),
+  `curriculum.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md` (Kap. 2 T3 + Kap. 6 Rest erledigt, Tension 20/30 T geloest).
+- REPORT `outputs/2026-07-02_buch-run18.md`.
+- ERGEBNIS: **Kap. 6 vollstaendig**, **Kap. 2 weitgehend**, **Kap. 3 eroeffnet**. OFFEN: Kap. 3 Teil 2
+  (Landumlegung ab S. 238), Kap. 5/10, Kap. 12 Teil 4. Forcierung nicht abgeschlossen.
+
 ## 2026-07-01 — Wissens-Health-Check (Phase 1): A0·B0·C3·D0·E0·F1·G3 — Top: Frontmatter-Schema uneinheitlich (6 Artikel `name:`/`paragraphen:` statt `title:`/`sources:`); 2 alte C-Luecken offen (Gebuehren 1-3 %o, BZO-Richtwerte); 3 Promotionskandidaten (Vorentscheid/Ausnahmebewilligung/Nebenbestimmungen emerging→established). Report `outputs/2026-07-01_health-check.md`. Nur-Audit, keine Aktionen.
 
 ## 2026-06-30 — Run 17: Kap. 2 Teil 2 (Nutzungsplanung / Zonenarten)

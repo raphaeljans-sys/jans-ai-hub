@@ -1,9 +1,9 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-06-21
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 322 PBG", "§ 328 PBG", "BVV", "BBV I"]
-links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[07-zustaendigkeiten-entscheide-auskuenfte]]
+last_updated: 2026-07-02
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 328 PBG", "§§ 13-15 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md]
+links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]]
 ---
 
 # Baubewilligungsverfahren
@@ -14,11 +14,31 @@ Baurekursgericht, danach das Verwaltungsgericht. Die materielle Beurteilung stü
 sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltung]]).
 
 ## Verfahrensarten
-- **Ordentliches Verfahren:** mit Baugespann und öffentlicher Auflage.
-- **Vereinfachtes Verfahren:** kleinere Vorhaben (BBV I Anhang), ohne öffentliche
-  Auflage, aber mit Nachbarbenachrichtigung.
+- **Ordentliches Verfahren:** mit Baugespann (Aussteckung § 311 PBG) und öffentlicher
+  Publikation/Auflage (§ 314 PBG).
+- **Anzeige-/vereinfachtes Verfahren (§ 325 PBG / §§ 13-15 BVV):** beschleunigt, **ohne
+  Aussteckung und ohne öffentliche Auflage**, Anzeige an die Nachbarn mit **30-Tage-Frist**.
+  Zulässig nur bei **drei kumulativen** Voraussetzungen (§ 14 BVV): (a) Vorhaben von
+  **untergeordneter Bedeutung** (Katalog § 14 BVV), (b) **keine Drittinteressen berührt** bzw.
+  **schriftliches Einverständnis** der Betroffenen, (c) **kein Antrag** einer Partei auf das
+  ordentliche Verfahren. Es **fällt weg** in **Kern- und Quartiererhaltungszonen** sowie bei
+  **BehiG-relevanten** Umbauten (hindernisfreies Bauen). Beleg
+  [[06-baurechtliches-verfahren-teil2]] (Bd 1, S. 402-421).
 - **Bewilligungsfrei:** bestimmte Bauten nach BBV I (z.B. kleine Gartenbauten,
   gewisse Solaranlagen).
+
+## Private Baukontrolle (§§ 4-7 BBV I)
+Freiwilliger Beizug einer privaten Fachperson («Befugter»), der die baurechtliche Kontrolle
+übernimmt: **Projektbestätigung** vor der Baufreigabe, **Ausführungskontrolle** vor der
+Bezugsabnahme. Verlagert erhebliche **Haftung** auf den Befugten (bis Urkundenfälschung bei
+Falschbestätigung). Beleg [[06-baurechtliches-verfahren-teil2]].
+
+## Prinzip des einmaligen Rechtsschutzes
+Was in einem **Zonen- oder Gestaltungsplan** abschliessend geregelt ist, kann im späteren
+**Baubewilligungsverfahren nicht mehr gerügt** werden — die Anfechtung muss im Planungsverfahren
+erfolgen (akzessorische Normenkontrolle nur ausnahmsweise). Für JANS: Einwendungen gegen
+Ausnützung/Höhen/Abstände, die ein Gestaltungsplan festlegt, sind **im Planauflageverfahren**
+(60 Tage, § 7 PBG) vorzubringen, nicht erst beim Baugesuch → [[raumplanung-und-gestaltung]].
 
 ## Ablauf (ordentlich)
 1. Voranfrage / **baurechtlicher Vorentscheid** (optional, bei komplexen Projekten empfohlen;
@@ -26,14 +46,21 @@ sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltu
 2. Projektierung (Pläne, Nachweise, ggf. Brandschutz + Energienachweis)
 3. Baueingabe (Formulare/Beilagen nach BVV; elektronisch via eBaugesucheZH)
 4. Baugespann (Gebäudeumrisse + Höhen, mind. 30 Tage)
-5. Öffentliche Auflage 30 Tage (§ 315 PBG)
+5. Publikation + öffentliche Auflage; **Zustellbegehren innert 20 Tagen (§§ 315/316 PBG)**
 6. Einsprachebehandlung (Einsprechende müssen betroffen sein)
 7. Bewilligungsentscheid (ggf. mit Auflagen) oder Abweisung
 8. Rekursfrist 30 Tage ans Baurekursgericht
 9. Baubeginn nach Rechtskraft, innert 3 Jahren (§ 322 PBG)
 
 ## Fristen
-- Auflage- = Einsprachefrist: 30 Tage
+- **Zustellbegehren / Wahrung Rekursrecht: 20 Tage** ab öffentlicher Bekanntmachung, schriftlich
+  bei der örtlichen Baubehörde (§§ 315/316 PBG) — Prozessvoraussetzung; versäumt = Rekursrecht
+  verwirkt (formelle Beschwer, beurteilt durch die Rekursinstanz).
+  - *Korrektur 2026-07-02 (Modell D):* früher hier «Auflage-/Einsprachefrist 30 Tage» — nach
+    § 315 Abs. 1 PBG sind es **20 Tage** für das Zustellbegehren (Beleg [[06-baurechtliches-verfahren]]
+    + [[06-baurechtliches-verfahren-teil2]], VB.2015.00248); die 30-Tage-Frist gilt für den **Rekurs**
+    und für die Nachbaranzeige im **Anzeigeverfahren**. Am amtlichen PBG-Volltext gegengeprüft halten.
+- Anzeigeverfahren — Nachbaranzeige-/Einwendungsfrist: 30 Tage (§§ 13-15 BVV)
 - Rekursfrist: 30 Tage ab Zustellung
 - **Baubeginn: 3 Jahre nach Rechtskraft (§ 322 Abs. 1 PBG) — Verwirkungsfrist, NICHT
   verlängerbar.** Die Frist beginnt mit Rechtskraft der **letzten** koordinationspflichtigen

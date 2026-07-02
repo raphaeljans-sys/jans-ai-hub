@@ -1,5 +1,5 @@
 ---
-name: Kap. 2 — Nutzungsplanung / Sondernutzung + Verfahren (Teil 3)
+name: 02-nutzungsplanung-sondernutzung-verfahren-teil3
 kapitel: "2.3 Nutzungsplanung (2.3.8 Sondernutzungsplanung / 2.3.9 Verfahren / 2.3.10 Planungsvertraege)"
 band: 1
 seiten: "170-204 (Kerntext); S.150/151 als Randlage mitgelesen"

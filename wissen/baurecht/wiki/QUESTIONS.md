@@ -146,6 +146,36 @@ wurden.
   [[01-grundlagen]] die exakten §§-Spannen der VII PBG-Titel teils `speculative` (Buchtabelle unscharf);
   die wörtliche 15-Jahres-Bauzonenbedarfs-Formel steht in Kap. 2 (Art. 15 RPG, S. 114), nicht Kap. 1.
 
+## Offene Wissenslücken / needs-verification — neu (2026-07-02, aus Buch-Run 18: Kap. 2 T3 / Kap. 3 T1 / Kap. 6 T2)
+- ~~**Sondernutzungsplanung / Gestaltungsplan §§ 83 ff. PBG** (Restschuld Kap. 2)~~ → **erledigt
+  2026-07-02** (Run 18): Kap. 2 Teil 3 (S. 170-204) distilliert [[02-nutzungsplanung-sondernutzung-verfahren-teil3]]
+  — **Gestaltungsplan § 83** (ersetzt Grundordnung), öffentlich § 84 / privat **2/3-Quorum § 85 Abs. 2** /
+  Aufhebung 5 J. §§ 82/87, **Gestaltungsplanpflicht § 48 Abs. 3**, **preisgünstiger Wohnraum § 49b**,
+  **Verfahren der Nutzungsplanung** (60-T-Auflage Art. 4 RPG/§ 7, kant. Genehmigung § 89/Art. 26 Abs. 3 RPG
+  konstitutiv), **Prinzip des einmaligen Rechtsschutzes**. Wiki [[raumplanung-und-gestaltung]] geschärft.
+- ~~**Kap. 6 Restschuld S. 405-422** (Publikation/Anzeigeverfahren)~~ → **erledigt 2026-07-02** (Run 18):
+  Kap. 6 Teil 2 (S. 402-421) distilliert [[06-baurechtliches-verfahren-teil2]] — **Anzeigeverfahren § 325 PBG /
+  §§ 13-15 BVV** (3 kumulative Voraussetzungen, fällt weg in Kern-/Quartiererhaltungszone + BehiG-Umbau),
+  **private Kontrolle §§ 4-7 BBV I**. **Kap. 6 damit vollständig.**
+- ~~**Cross-Article-Tension 20 vs. 30 Tage (§ 315 PBG)**~~ → **gelöst 2026-07-02 (Modell D):**
+  [[baubewilligungsverfahren]] nannte «Auflage-/Einsprachefrist 30 Tage (§ 315 PBG)» — korrigiert auf
+  **20 Tage Zustellbegehren** (§ 315 Abs. 1 / § 316 PBG; Beleg [[06-baurechtliches-verfahren]] +
+  [[06-baurechtliches-verfahren-teil2]], VB.2015.00248). Die 30-Tage-Frist gilt für Rekurs und
+  Anzeigeverfahren-Nachbaranzeige. Am amtlichen PBG-Volltext (raw/) endgültig sichern.
+- **NEU: Kap. 3 Teil 2 offen (Erschliessung Rest):** Quartierplan-Detail 3.9 (§§ 125/126/237 PBG),
+  **Grenzbereinigung / Gebietssanierung / Landumlegung / Güterzusammenlegung** ab S. 238 noch nicht
+  distilliert (Shots ab 121). Ergänzt dann [[baureife-und-erschliessung]].
+- **needs-verification — §§/Erlasse Kap. 3 Teil 1:** § 91 PBG (Erschliessungsplan-Inhalt), §§ 90-95/§ 93
+  (Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Ski-Linien), §§ 114-122 PBG (Werkplan/
+  vorsorgl. Bauverbot/Heimschlag), § 62 StrG (Mehrwertbeiträge ¼-½), Art. 4/5 WEG, Art. 19 Abs. 2/3 RPG,
+  `RRB 262/2010` (Nummer schwer lesbar) — sinngemäss nach Buch S. 208-239, Modell D nächster Lauf.
+- **needs-verification — §§/Erlasse Kap. 2 Teil 3:** § 49b PBG (preisgünstiger Wohnraum, Fassung 2019/PWV),
+  §§ 83-89 PBG (Gestaltungsplan-Zuständigkeit/Verfahren/Aufhebung), § 87a (Vorprüfung), § 44a (überkomm. GP),
+  § 329 PBG/§ 41 VRG (Rechtsmittel Nutzungsplanung) — am amtlichen PBG-Volltext gegenprüfen.
+- **needs-verification — Kap. 6 Teil 2:** § 325 PBG + §§ 13-15 BVV (Anzeigeverfahren-Katalog/Voraussetzungen),
+  §§ 4-7 BBV I (private Kontrolle), § 325a PBG (energetische Sanierungen, seit 2019 revidiert) — Stand
+  6. Aufl. 2019, aktuellen Wortlaut prüfen.
+
 ## needs-verification (aus Health-Check 2026-06-02)
 - **Gebühren 1–3 ‰** ([[baubewilligungsverfahren]]): Quelle/kommunale
   Gebührenordnung hinterlegen.

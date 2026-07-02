@@ -1,8 +1,8 @@
 ---
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
-last_updated: 2026-06-30
-sources: [260602_docs-baurecht-pbg-zh.md, "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 33 RPV", "Art. 75 BV", "§ 18 PBG", "§ 19 PBG", "§ 48 PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md]
+last_updated: 2026-07-02
+sources: [260602_docs-baurecht-pbg-zh.md, "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 83-89 PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---
 
@@ -70,10 +70,38 @@ Neueinzonung nur bei **kumulativer** Erfüllung von Art. 15 Abs. 4 lit. a–d RP
 Bedarf/Erschliessung/Überbauung innert 15 J. + kein Kulturland-Zerstückeln + rechtlich
 gesicherte Verfügbarkeit (S. 163 f.).
 
-#### Sondernutzungsplanung & Arealüberbauung
-- **Sondernutzungsplanung:** Gestaltungspläne und Quartierpläne — erlauben von der
-  Regelbauweise abweichende, projektbezogene Festlegungen (oft höhere Dichte gegen
-  gestalterische/öffentliche Mehrleistung).
+#### Sondernutzungsplanung — Gestaltungsplan (§§ 83–89 PBG)
+Der **Gestaltungsplan (GP, § 83 PBG)** ist das schärfste Verdichtungsinstrument: er darf von
+Ausnützung, Abständen und Höhen der Grundordnung **abweichen und ersetzt sie** (§ 83 Abs. 1
+PBG) — projektbezogene Sonderordnung gegen erhöhte gestalterische/öffentliche Mehrleistung
+(Bd 1, Kap. 2, S. 170 ff.). Preis: eine **zusätzliche Planungsstufe** vor dem Baugesuch.
+- **Öffentlicher GP** (§ 84 PBG): von der Gemeinde festgesetzt, setzt ein qualifiziertes
+  **öffentliches Interesse** voraus; **Gestaltungsplanpflicht** kann die BZO für bestimmte Zonen
+  vorschreiben (§ 48 Abs. 3 PBG; VB.2005.00046) — dann ist ein Baugesuch erst nach GP zulässig.
+- **Privater (allgemeinverbindlicher) GP** (§ 85 PBG): Grundeigentümer können ihn beantragen;
+  es genügt die Zustimmung von **zwei Dritteln der Fläche** (§ 85 Abs. 2 PBG) — **kein
+  Einstimmigkeitszwang**, auch für Änderungen reicht der Mehrheitsbeschluss.
+- **Zuständigkeit/Änderung** (§ 86 PBG): «exekutorischer» GP durch den Gemeindevorstand nur im
+  Rahmen der Grundordnung; eröffnet er weitergehende Möglichkeiten, braucht es die Legislative.
+  Änderung/Aufhebung nach dem Grundsatz der **«Parallelität der Formen»**.
+- **Aufhebung** (§§ 82/87 PBG): frühestens **5 Jahre** nach Inkrafttreten, wenn keine
+  wesentliche Bautätigkeit erfolgt ist; danach (bundesrechtlicher) Anspruch auf Anpassung bei
+  wesentlich geänderten Verhältnissen (Art. 21 Abs. 2 RPG).
+- **Preisgünstiger Wohnraum** (§ 49b PBG, `speculative` — Fassung 2019 am Volltext/PWV prüfen):
+  ermächtigt Gemeinden, bei Auf-/Einzonungen einen Mindestanteil preisgünstiger Wohnungen
+  festzulegen (mit Grundbuch-Anmerkung zur dauerhaften Sicherung der Mietzinse).
+
+#### Verfahren der Nutzungsplanung (Fristenkette)
+Buchbare Kette (Bd 1, Kap. 2, S. 188 ff.): **öffentliche Auflage 60 Tage** (Art. 4 Abs. 2 RPG /
+§ 7 PBG, Mitwirkung — kein Anspruch auf Einzelbeantwortung) → **Festsetzung** durch das
+zuständige Organ (§ 88 PBG) → **kantonale Genehmigung konstitutiv** (§ 89 PBG / Art. 26 Abs. 3
+RPG: Verbindlichkeit erst mit Genehmigung) → **Rechtsmittel** (Stimmrechtsrekurs kurz;
+Rekurs 30 Tage ans Baurekursgericht, § 329 PBG / § 41 VRG). **Prinzip des einmaligen
+Rechtsschutzes:** was im Zonen-/Gestaltungsplan abschliessend geregelt ist, kann im späteren
+Baubewilligungsverfahren **nicht mehr gerügt** werden (akzessorische Anfechtung nur
+ausnahmsweise) → [[baubewilligungsverfahren]].
+
+#### Arealüberbauung
 - **Arealüberbauung** (§§ 69–73 PBG): in der BO festgesetzte **Mindestfläche** (RB 1997
   Nr. 81) eröffnet einen **Nutzungsbonus** gegen erhöhte Anforderungen an Gestaltung,
   Ausstattung und Umgebung (§§ 71 f. PBG). Bewusster Bruch mit dem Ortsbild kostet die

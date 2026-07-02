@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,12 +92,15 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~650 / 1550 (~325 Doppelseiten; Band 2 weitgehend komplett: Kap. 11/13/14/15
+- **Seiten distilliert:** ~700 / 1550 (~350 Doppelseiten). Run 18 (2026-07-02, Forcierung): +46
+  Doppelseiten (Kap. 2 T3 S.170-204 / Kap. 3 T1 S.208-239 / Kap. 6 T2 S.402-421) → **Kap. 6
+  vollstaendig, Kap. 2 weitgehend, Kap. 3 eroeffnet**. Ausfuehrlicher Vorstand:
+  Band 2 weitgehend komplett: Kap. 11/13/14/15
   (inkl. § 274, nur 15.13 offen)/16 (T1+T2)/17 (T1+T2)/19/20 (inkl. § 357 Abs. 4)/21/22/23 + Kap. 12 (T1-T3,
   bis S.769; Teil 4 §236-Rest/Abfall/Altlasten offen); Band 1 **Kap. 1 VOLLSTAENDIG** + **Kap. 2 Teil 1+2**
   (T2 = 2.3 Nutzungsplanung/Zonenarten, Shot 76 offen) + Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** +
   **Kap. 8 Teil 1**. Run 17 (regulaer) 2026-06-30: +12 Doppelseiten Kap. 2 Teil 2.
-- **Kapitel-Destillate:** 27 Buch-Destillate (Band 1: Kap. 1/2×2/6/7×2/8/9; Band 2: Kap. 11/12 (T1+T2/T3)/13/
+- **Kapitel-Destillate:** 30 Buch-Destillate (Run 18 neu: 02-T3, 03-T1, 06-T2) (Band 1: Kap. 1/2×3/3/6×2/7×2/8/9; Band 2: Kap. 11/12 (T1+T2/T3)/13/
   14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/19/20/21/22/23; alle `emerging`).
 - **Wiki:** 17 Artikel (geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
   Platzhalter gefuellt** — numerus clausus § 48 Abs. 2 PBG, Typ-Katalog, Neueinzonung Art. 15 RPG,
@@ -119,7 +122,21 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
   + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
   `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
-- **Letzter Lauf:** Run 17, 2026-06-30 (regulaer, Kap. 2 Teil 2, 12 Doppelseiten) — **2.3 Nutzungsplanung/
+- **Letzter Lauf:** Run 18, 2026-07-02 (Forcierung, 3 Kapitelteile parallel, 46 Doppelseiten) —
+  **Kap. 2 Teil 3** (S.170-204, Shots 76+86-104): Sondernutzung/**Gestaltungsplan §§83-89 PBG** (§83 ersetzt
+  Grundordnung; privat **2/3-Quorum §85 Abs.2**; Aufhebung 5 J. §§82/87), **Gestaltungsplanpflicht §48 Abs.3**,
+  **preisguenstiger Wohnraum §49b**, **Verfahren Nutzungsplanung** (Auflage 60 T Art.4 RPG/§7, **kant.
+  Genehmigung §89/Art.26 Abs.3 RPG konstitutiv**), **einmaliger Rechtsschutz**; **Kap. 3 Teil 1** (S.208-239,
+  Shots 105-120): **Erschliessungsarten** Grund/Grob/Fein (Art.19 RPG/Art.4-5 WEG), **Erschliessungspflicht
+  Gemeinde 15 J.** (Selbsterschliessung/Bevorschussung Art.19 Abs.3 RPG), **Baulinien §§96 ff./Werkplan
+  §§114-119/vorsorgl. Bauverbot §§120-122**, StrG-Mehrwertbeitraege §62; **Kap. 6 Teil 2** (S.402-421, Shots
+  202-211): **Anzeigeverfahren §325 PBG/§§13-15 BVV** + **private Kontrolle §§4-7 BBV I** → **Kap. 6
+  vollstaendig**. Neue Destillate [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] /
+  [[band-1/03-erschliessung-landsicherung-teil1]] / [[band-1/06-baurechtliches-verfahren-teil2]]. Wiki
+  geschaerft: [[raumplanung-und-gestaltung]] + [[baureife-und-erschliessung]] + [[baubewilligungsverfahren]]
+  (**Modell-D-Korrektur** §315: 20 statt 30 Tage). Modell C (11) + A (1). Report `outputs/2026-07-02_buch-run18.md`.
+  OFFEN: Kap. 3 Teil 2 (Landumlegung ab S.238), Kap. 5/10, Kap. 12 T4.
+- **Lauf davor:** Run 17, 2026-06-30 (regulaer, Kap. 2 Teil 2, 12 Doppelseiten) — **2.3 Nutzungsplanung/
   Zonenarten** (S.144-169, Shots 73-85 ohne 76): grundeigentuemerverbindlich Art.21 RPG, **numerus clausus
   Bauzonentypen §48 Abs.2 PBG** (Kern §50/Quartiererhaltung §50a/Zentrum §51/Wohn §52/Industrie-Gewerbe §56
   [Heime ausgeschlossen]/oeff. Bauten §60/Erholung §61/Freihalte §39,62/Reserve §65/**Weiler Art.33 RPV
@@ -157,7 +174,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Erreichbarkeit 80/40 m, Notzufahrt 3 m/16 t § 3 ZN). Neues Destillat [[band-2/12-baureife]], neuer
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
-- **Naechster Lauf:** **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** **Band-1-Tail weiter** — **Kap. 3 Teil 2** (Quartierplan 3.9 §§125/126/237 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung ab S.238/Shot 121), **Kap. 5** (Entschaedigung, S.311), **Kap. 10** (widerrechtliche Bauten, S.609), **Kap. 12 Teil 4** (S.770-809 Altlasten Art.32c USG). *(erledigt Run 18: Kap. 2 T3 / Kap. 3 T1 / Kap. 6 T2.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten

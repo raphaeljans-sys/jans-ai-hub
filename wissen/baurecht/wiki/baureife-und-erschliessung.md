@@ -1,9 +1,9 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
 status: emerging
-last_updated: 2026-06-30
-sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "Art. 19 RPG", "Art. 22 RPG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md]
-links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]]
+last_updated: 2026-07-02
+sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md]
+links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
 ---
 
 # Baureife & Erschliessung
@@ -102,6 +102,50 @@ Nutzungsart einhaltbar) sind; für kleine Bauzonenteile sind Ausnahmen möglich 
   (§ 4 Abs. 1 AngebotsV; VB.2016.00605). Massstab der Erreichbarkeit: kantonale **Wegleitung 1997**;
   drei Angebotsbereiche der AngebotsV; Bedienungsqualität nach Betriebszeit/Frequenz/Kapazität
   (§ 18 PVG).
+
+## Erschliessungsarten & Erschliessungspflicht der Gemeinde (Kap. 3)
+
+Grundlage aus [[03-erschliessung-landsicherung-teil1]] (Bd 1, Kap. 3, S. 208-239). Erschliessung
+ist die Grundvoraussetzung der Überbaubarkeit; ein Grundstück gilt als erschlossen, wenn
+hinreichende Zufahrt besteht und Wasser-/Energie-/Abwasserleitungen so nahe herangeführt sind,
+dass ein Anschluss ohne erheblichen Aufwand möglich ist (Art. 19 Abs. 1 RPG; BGE 117 Ib 314,
+S. 208).
+
+**Drei Erschliessungsebenen mit klarer Kostenträgerschaft** (RB 2004 Nr. 58, S. 208 f.):
+- **Grunderschliessung:** übergeordnete Anlagen (Sammelstrassen, Wasser/Energie/Abwasser) eines
+  grösseren Gebiets — rechtlich wie die Groberschliessung behandelt.
+- **Groberschliessung** (Art. 4 Abs. 1 WEG): Hauptstränge (Wasser/Energie/Abwasser) + zubringende
+  Strassen; **Sache der Gemeinde** (Erschliessungsplan §§ 90-95 PBG / StrG).
+- **Feinerschliessung** (Art. 4 Abs. 2 WEG): Anschluss der einzelnen Grundstücke an die
+  Hauptstränge (Quartierstrassen/-leitungen) — **Sache der Privaten** (Quartierplan §§ 125 ff.
+  PBG). **Hausanschlüsse/-zufahrten** gehören zu **keiner** der beiden Ebenen.
+
+**Erschliessungspflicht der Gemeinde (fristgebunden):** die Gemeinde muss Bauzonen innert der im
+Erschliessungsprogramm vorgesehenen Fristen, spätestens **innert 15 Jahren** erschliessen
+(Art. 19 Abs. 2 RPG; für Wohnbauland ergibt sich aus Art. 5 WEG die Grob-/Feinerschliessung in
+Etappen innert **10-15 Jahren**, S. 209). Kommt sie in Verzug, hat der Grundeigentümer Anspruch
+auf **Selbsterschliessung** oder **Bevorschussung** durch die Gemeinde (Art. 19 Abs. 3 RPG;
+VB.2010.00560, S. 209). Wird ein Art.-15-RPG-konformes Gebiet nur deshalb ausgezont, weil die
+Gemeinde nicht rechtzeitig erschliesst, ist die Auszonung unzulässig (BGE 110 Ia 51, S. 209).
+
+## Landsicherung für öffentliche Werke (Kap. 3)
+
+Instrumente, um Land für künftige öffentliche Werke/Erschliessungen freizuhalten bzw. zu sichern
+(S. 228 ff.):
+- **Werkplan (§§ 114-119 PBG):** sichert Land für ein im Richtplan vorgesehenes öffentliches Werk
+  (§ 114 Abs. 1 PBG). Mit Genehmigung erhält der Werkträger das **Enteignungsrecht** (§ 116) und
+  ein **Vorkaufsrecht** (§ 118); der Eigentümer kann **heimschlagen** (§ 119). Bis zum
+  Eigentumsübergang sind bauliche Massnahmen nur unter den Baulinien-Beschränkungen (§§ 99-101)
+  zulässig (§ 117).
+- **Vorsorgliches Bauverbot (§§ 120-122 PBG):** fehlt der Richtplaneintrag als Werkplan-
+  Voraussetzung, kann Land ausnahmsweise durch vorsorgliches Bauverbot gesichert werden (§ 120);
+  Begehren durch den künftigen Werkträger (§ 121). Es **verfällt nach 5 Jahren**, wenn nicht der
+  Richtplan ergänzt und ein Werkplan festgesetzt oder das Enteignungsverfahren eingeleitet wird
+  (§ 122 PBG, S. 228).
+- **Projektierungszone** (Bundesebene): Instrument der Planungssicherung für Bundesvorhaben
+  (Nationalstrassen, Eisenbahnen; S. 229).
+- **Mehrwertbeiträge** (§ 62 StrG): Grundeigentümer tragen bei Strassenbau/-korrektionen je nach
+  Sondervorteil **¼ bis ½ der Kosten** — BKP-relevante Nebenkosten für Grobkosten/Wirtschaftlichkeit.
 
 ## Rechtsgrundlagen & Verordnungsstand
 

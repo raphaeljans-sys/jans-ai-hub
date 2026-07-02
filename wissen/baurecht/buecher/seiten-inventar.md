@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -91,7 +91,7 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 73 | 1 | 144/145 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.48.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 74 | 1 | 146/147 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.50.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 75 | 1 | 148/149 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.52.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
-| 76 | 1 | ~149 | [ ] | `Bildschirmfoto 2026-06-07 um 11.42.54.jpg` |  |
+| 76 | 1 | 150/151 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.54.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 77 | 1 | 152/153 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.55.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 78 | 1 | 154/155 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.57.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 79 | 1 | 156/157 | [x] | `Bildschirmfoto 2026-06-07 um 11.42.59.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
@@ -101,41 +101,41 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 83 | 1 | 164/165 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.06.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 84 | 1 | 166/167 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.07.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
 | 85 | 1 | 168/169 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.09.jpg` | [[band-1/02-nutzungsplanung-zonenarten-teil2]] |
-| 86 | 1 | ~169 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.10.jpg` |  |
-| 87 | 1 | ~171 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.12.jpg` |  |
-| 88 | 1 | ~173 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.14.jpg` |  |
-| 89 | 1 | ~175 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.16.jpg` |  |
-| 90 | 1 | ~177 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.17.jpg` |  |
-| 91 | 1 | ~179 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.19.jpg` |  |
-| 92 | 1 | ~181 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.21.jpg` |  |
-| 93 | 1 | ~183 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.24.jpg` |  |
-| 94 | 1 | ~185 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.26.jpg` |  |
-| 95 | 1 | ~187 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.28.jpg` |  |
-| 96 | 1 | ~189 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.29.jpg` |  |
-| 97 | 1 | ~191 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.31.jpg` |  |
-| 98 | 1 | ~193 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.33.jpg` |  |
-| 99 | 1 | ~195 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.35.jpg` |  |
-| 100 | 1 | ~197 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.36.jpg` |  |
-| 101 | 1 | ~199 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.38.jpg` |  |
-| 102 | 1 | ~201 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.40.jpg` |  |
-| 103 | 1 | ~203 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.42.jpg` |  |
-| 104 | 1 | ~205 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.43.jpg` |  |
-| 105 | 1 | ~207 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.45.jpg` |  |
-| 106 | 1 | ~209 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.47.jpg` |  |
-| 107 | 1 | ~211 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.48.jpg` |  |
-| 108 | 1 | ~213 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.50.jpg` |  |
-| 109 | 1 | ~215 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.52.jpg` |  |
-| 110 | 1 | ~217 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.54.jpg` |  |
-| 111 | 1 | ~219 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.56.jpg` |  |
-| 112 | 1 | ~221 | [ ] | `Bildschirmfoto 2026-06-07 um 11.43.58.jpg` |  |
-| 113 | 1 | ~223 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.00.jpg` |  |
-| 114 | 1 | ~225 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.01.jpg` |  |
-| 115 | 1 | ~227 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.03.jpg` |  |
-| 116 | 1 | ~229 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.05.jpg` |  |
-| 117 | 1 | ~231 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.06.jpg` |  |
-| 118 | 1 | ~233 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.08.jpg` |  |
-| 119 | 1 | ~235 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.10.jpg` |  |
-| 120 | 1 | ~237 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.12.jpg` |  |
+| 86 | 1 | 170/171 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.10.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 87 | 1 | 172/173 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.12.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 88 | 1 | 174/175 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.14.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 89 | 1 | 176/177 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.16.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 90 | 1 | 178/179 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.17.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 91 | 1 | 180/181 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.19.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 92 | 1 | 182/183 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.21.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 93 | 1 | 184/185 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.24.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 94 | 1 | 186/187 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.26.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 95 | 1 | 188/189 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.28.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 96 | 1 | 190/191 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.29.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 97 | 1 | 192/193 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.31.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 98 | 1 | 194/195 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.33.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 99 | 1 | 196/197 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.35.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 100 | 1 | 198/199 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.36.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 101 | 1 | 200/201 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.38.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 102 | 1 | 202/203 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.40.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 103 | 1 | 204/205 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.42.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 104 | 1 | 206/207 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.43.jpg` | [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] |
+| 105 | 1 | 208/209 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.45.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 106 | 1 | 210/211 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.47.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 107 | 1 | 212/213 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.48.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 108 | 1 | 214/215 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.50.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 109 | 1 | 216/217 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.52.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 110 | 1 | 218/219 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.54.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 111 | 1 | 220/221 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.56.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 112 | 1 | 222/223 | [x] | `Bildschirmfoto 2026-06-07 um 11.43.58.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 113 | 1 | 224/225 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.00.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 114 | 1 | 226/227 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.01.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 115 | 1 | 228/229 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.03.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 116 | 1 | 230/231 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.05.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 117 | 1 | 232/233 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.06.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 118 | 1 | 234/235 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.08.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 119 | 1 | 236/237 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.10.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
+| 120 | 1 | 238/239 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.12.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
 | 121 | 1 | ~239 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.13.jpg` |  |
 | 122 | 1 | ~241 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.15.jpg` |  |
 | 123 | 1 | ~243 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.17.jpg` |  |
@@ -217,16 +217,16 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 199 | 1 | 396/397 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.31.jpg` | [[band-1/06-baurechtliches-verfahren]] |
 | 200 | 1 | 398/399 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.33.jpg` | [[band-1/06-baurechtliches-verfahren]] |
 | 201 | 1 | 400/401 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.35.jpg` | [[band-1/06-baurechtliches-verfahren]] |
-| 202 | 1 | ~400 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.37.jpg` |  |
-| 203 | 1 | ~402 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.39.jpg` |  |
-| 204 | 1 | ~404 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.41.jpg` |  |
-| 205 | 1 | ~406 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.43.jpg` |  |
-| 206 | 1 | ~408 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.44.jpg` |  |
-| 207 | 1 | ~410 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.46.jpg` |  |
-| 208 | 1 | ~412 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.48.jpg` |  |
-| 209 | 1 | ~414 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.50.jpg` |  |
-| 210 | 1 | ~416 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.51.jpg` |  |
-| 211 | 1 | ~418 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.53.jpg` |  |
+| 202 | 1 | 402/403 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.37.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 203 | 1 | 404/405 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.39.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 204 | 1 | 406/407 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.41.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 205 | 1 | 408/409 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.43.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 206 | 1 | 410/411 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.44.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 207 | 1 | 412/413 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.46.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 208 | 1 | 414/415 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.48.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 209 | 1 | 416/417 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.50.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 210 | 1 | 418/419 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.51.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
+| 211 | 1 | 420/421 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.53.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
 | 212 | 1 | ~420 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.55.jpg` |  |
 | 213 | 1 | 424/425 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.57.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
 | 214 | 1 | 426/427 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.59.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |

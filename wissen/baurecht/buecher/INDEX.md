@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -168,8 +168,31 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Kriterien Art. 15 Abs. 4 RPG** (4 kumulativ), **Arealueberbauung §§ 69-73 PBG** (Bonus gegen Gestaltung,
   «Ringling» BGer 1C_313/2015), Waldbegriff § 2 WaG-ZH (800 m²/12 m/20 J.), Grundwasserschutzzonen
   S1/S2/S3. 12 Doppelseiten (Shot 76/S. 150-151 offen, OneDrive-I/O-Fehler). Status: `emerging`
-  (Teil 3 Sondernutzungsplanung/Gestaltungsplan §§ 83 ff. PBG ab S. 169/170 offen).
+  (Teil 3 Sondernutzungsplanung/Gestaltungsplan §§ 83 ff. PBG separat distilliert, siehe unten;
+  Shot 76/S. 150-151 2026-07-02 nachgelesen).
   Speist [[raumplanung-und-gestaltung]] + [[zonenkonformitaet]].
+- [[02-nutzungsplanung-sondernutzung-verfahren-teil3]] — Kap. 2 Teil 3 (S. 170-204): **Sondernutzungs-
+  planung + Verfahren der Nutzungsplanung** — **Gestaltungsplan § 83 PBG** (darf von Ausnuetzung/
+  Abstaenden/Hoehen abweichen, ersetzt die Grundordnung), oeffentlicher GP § 84 / privater
+  allgemeinverbindlicher GP **2/3-Quorum § 85 Abs. 2** / Zustaendigkeit+Aenderung § 86 / **5-Jahre-
+  Aufhebung §§ 82/87**, **Gestaltungsplanpflicht § 48 Abs. 3 PBG**, **preisguenstiger Wohnraum § 49b PBG**,
+  Sonderbauvorschriften §§ 79/80, ueberkommunaler GP § 44a; **Verfahren der Nutzungsplanung** (Anhoerung/
+  **oeffentliche Auflage 60 Tage** Art. 4 RPG/§ 7 PBG, Festsetzung § 88, **kant. Genehmigung § 89/Art. 26
+  Abs. 3 RPG** konstitutiv, Vorpruefung § 87a, Rechtsmittel § 329 PBG/§ 41 VRG), **Prinzip des einmaligen
+  Rechtsschutzes** (akzessorische Anfechtung nur ausnahmsweise). 20 Doppelseiten (Shots 76+86-104).
+  Status: `emerging` (Rest 2.3.7-BZO-Grundlagen/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set).
+  Speist [[raumplanung-und-gestaltung]] + [[baubewilligungsverfahren]].
+- [[03-erschliessung-landsicherung-teil1]] — Kap. 3 Teil 1 (S. 208-239): **Erschliessung, Landsicherung
+  und Landumlegung** — **Begriff/Arten der Erschliessung** (Grund-/Grob-/Feinerschliessung, Art. 19 RPG,
+  Art. 4/5 WEG, § 91 PBG; Hausanschluesse in keiner Ebene), **Erschliessungspflicht der Gemeinde**
+  (Art. 19 Abs. 2/3 RPG, **15-Jahre-Frist** / Wohnbau 10-15 J., Selbsterschliessung/Bevorschussung),
+  **Erschliessungsplan §§ 90-95 PBG** (§ 93 Ersatzvornahme Groberschliessung), **Verkehrsplan §§ 24/30/31**,
+  **Baulinien §§ 96 ff. PBG** (Bauverbot § 99, Niveaulinien § 106, Ski-/Schlittellinien § 111), **Werkplan
+  §§ 114-119 PBG** (Enteignungs-/Vorkaufsrecht, Heimschlag), **vorsorgliches Bauverbot §§ 120-122 PBG**
+  (verfaellt nach 5 J.), Quartierplan §§ 125/126/237, **StrG** (Staats-/Gemeindestrassen, **Mehrwert-
+  beitraege 1/4-1/2 § 62 StrG**), NSG/EBG/GueTG. 16 Doppelseiten (Shots 105-120). Status: `emerging`
+  (Teil 2: Quartierplan-Detail 3.9 ab S. 238 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung offen).
+  Speist [[baureife-und-erschliessung]] + [[baulinien-und-abstandslinien]].
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] — Kap. 7 Teil 1 (S. 424-447): **Der kommunale
   baurechtliche Entscheid** — Rechtsnatur (Polizeierlaubnis, sachbezogen, mitwirkungsbeduerftig
   BEZ 2014 Nr. 45), **Zustaendigkeit** (oertliche Baubehoerde § 318 PBG; GG-Delegationen: eigen-
@@ -205,8 +228,17 @@ Trainingslauf (`../training/PROGRAMM.md`).
   pruefung § 11 BVV, Fristen 21 Tage/3 Wochen § 313 PBG, Behandlungsfrist § 319 PBG, Kostenvorschuss
   § 15 VRG), **Aussteckung/Profilierung** (§ 311 PBG, Baugespann, Attika detailliert), **Publikation/
   Auflage** (§ 314 PBG, § 6a BVV, Akteneinsicht § 20 IDG), **Zustellbegehren 20 Tage** (§ 315/§ 316 PBG
-  = lex specialis, Verwirkung Rekursrecht). 17 Doppelseiten. Status: `emerging` (Restkap. S. 405-422 +
-  §-Verifikation offen). Speist [[baubewilligungsverfahren]].
+  = lex specialis, Verwirkung Rekursrecht). 17 Doppelseiten. Status: `emerging`. **Restkap. S. 405-422
+  jetzt via Teil 2 abgedeckt → Kap. 6 vollstaendig.** Speist [[baubewilligungsverfahren]].
+- [[06-baurechtliches-verfahren-teil2]] — Kap. 6 Teil 2 / Restschuld (S. 402-421): **Abschluss
+  Baubewilligungsverfahren** — **Zustellbegehren/formelle Beschwer §§ 315/316 PBG** (20-Tage-Frist als
+  Prozessvoraussetzung, Verwirkung Rekursrecht, beurteilt durch Rekursinstanz), **Anzeigeverfahren
+  § 325 PBG / §§ 13-15 BVV** (beschleunigt, 30-Tage-Frist, keine Aussteckung; drei kumulative
+  Voraussetzungen: untergeordnet + keine Drittinteressen bzw. schriftliches Einverstaendnis + kein
+  Antrag auf ordentliches Verfahren; **faellt weg in Kern-/Quartiererhaltungszonen + bei BehiG-Umbau**),
+  **private Kontrolle §§ 4-7 BBV I** (freiwillig, verlagert Haftung auf Befugten; Projektbestaetigung
+  vor Baufreigabe/Ausfuehrungskontrolle vor Bezug), § 6.9 Verfahrens-Empfehlungen. 10 Doppelseiten
+  (Shots 202-211). Status: `emerging`. **Schliesst Kap. 6.** Speist [[baubewilligungsverfahren]].
 - [[09-rechtsschutz]] — Kap. 9 (S. 537-575, Kern; Kap. bis S. 608): **Rechtsschutz/Rechtsmittelweg** —
   dreistufig **Rekurs → Baurekursgericht** (§ 19 Abs. 1 lit. a VRG, volle Kognition § 20 VRG, Einzel-
   richter ≤ 20'000 Fr. § 335 PBG) → **Beschwerde → Verwaltungsgericht** (§ 50 VRG, nur Rechtskontrolle,
@@ -242,7 +274,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 13 | Weitere Grundanforderungen | 🟡 teilweise (§238 Aesthetik-Generalklausel + Solar Art.18a RPG, S.810-857; Rest §§239a/240/242/248 ab Shot 431 offen) |
 | 15 | Lage von Gebaeuden | 🟢 weitgehend (System/Gebaeudearten/Wald/Gewaesser/Baulinien + Grenz-/Gebaeudeabstand §§269-273 + Grenzbaurecht §274/§27 Abs.2 ABV, S.995-1123; **nur 15.13 Harmonisierungsvorlage S.1124-1133 offen**) |
 | 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153 + Gebaeude-/Firsthoehe §§278-281/§292 «Kaeseglocke»/§5 ABV S.1154-1193; «Umgebung» ab Shot 601 offen) |
-| 6 | Baurechtliches Verfahren | 🟡 teilweise (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405; Restkap. S.405-422 offen) |
+| 6 | Baurechtliches Verfahren | 🟢 vollstaendig (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405 + Teil 2 Anzeigeverfahren §325/§§13-15 BVV + private Kontrolle §§4-7 BBV I + Empfehlungen S.402-421) |
 | 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟢 vollstaendig (7.1 Entscheid/Nebenbestimmungen §321 + 7.1.5/7.1.6 Gueltigkeit/Widerruf §322/§328, 7.2 besondere kant. Zustaendigkeiten, 7.3 Vorentscheid §§323/324, 7.4 Auskuenfte — S.424-484) |
 | 8 | Ausfuehrung von Bauarbeiten | 🟡 teilweise (8.1 Baufreigabe §326/Meldepflichten §327 Abs.1/Kontrollen §327 Abs.2/Bezugsbewilligung+Schlusskontrolle/Akteneinsicht + 8.2 Unterbruch §328 + 8.3-Anfang §239, S.485-509; 8.3-Detail + Kap.-Ende S.510-534 offen) |
 | 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
@@ -255,7 +287,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 12 | Baureife | 🟡 teilweise (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss, S.707-769; Rest 12.5 Gebuehren + Abfall + Altlasten Art.32c USG S.770-809 offen) |
 | 18 | Brandschutz | ⬜ offen — nur Querverweis auf Skill `brandschutz` (kein Doppelaufbau) |
 | 1 | Grundlagen des Planungs- und Baurechts | 🟢 vollstaendig (oeff./privates Baurecht §317, Kompetenz Bund/Kantone Art.3/42/75 BV, Rechtsquellen, SIA-Normen §3 Abs.12 BBV I/§360 Abs.3 PBG, Verhaeltnismaessigkeit/Treu+Glauben, Aufbau PBG VII Titel, S.80-110) |
-| 2 | Raumplanung, Richt- und Nutzungsplanung | 🟡 teilweise (Teil 1: Ziele Art.1 RPG, 15-J-Bedarf Art.15 RPG, Koordination Art.25a RPG, Planungszone §346 PBG, Richtplanung behoerdenverbindlich Art.9 RPG/§19 PBG, S.112-143; Teil 2 ab 2.3 Nutzungsplanung/Zonenarten/BZO offen) |
-| 3-5, 10 | uebrige (Band 1: Erschliessung/Natur-Heimatschutz/Entschaedigung/widerrechtl. Bauten) | ⬜ offen |
+| 2 | Raumplanung, Richt- und Nutzungsplanung | 🟢 weitgehend (Teil 1 Raum-/Richtplanung S.112-143 + Teil 2 Zonenarten/numerus clausus §48 Abs.2 S.144-169 + Teil 3 Sondernutzung/Gestaltungsplan §§83-89/§48 Abs.3/§49b + Verfahren Nutzungsplanung S.170-204; nur BZO-Grundlagen/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set) |
+| 3 | Erschliessung, Landsicherung, Landumlegung | 🟡 teilweise (Teil 1: Begriff/Arten Erschliessung, 15-J-Erschliessungspflicht Art.19 RPG, Erschliessungsplan §§90-95/§93, Baulinien §§96 ff./Niveaulinien §106, Werkplan §§114-119, vorsorgl. Bauverbot §§120-122, StrG-Mehrwertbeitraege §62, S.208-239; Quartierplan-Detail 3.9 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung ab S.238 offen) |
+| 4-5, 10 | uebrige (Band 1: Natur-/Heimatschutz/Entschaedigung/widerrechtl. Bauten) | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.
