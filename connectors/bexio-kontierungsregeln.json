@@ -22,6 +22,7 @@
     { "muster": "sva", "konto": "5700", "bezeichnung": "AHV/IV/EO Inhaber (SVA — Akonto)" },
     { "muster": "wuest", "konto": "5810", "bezeichnung": "Aus- und Weiterbildung" },
 
+    { "muster": "standing order", "betrag": 430, "konto": "6000", "bezeichnung": "Miete Bueroraeume (Dauerauftrag CHF 430, bestaetigt RJ 02.07.2026)" },
     { "muster": "hub 12", "konto": "6000", "bezeichnung": "Miete Bueroraeume" },
     { "muster": "u5 gmbh", "konto": "6000", "bezeichnung": "Miete Bueroraeume" },
     { "muster": "mobiliar", "konto": "6300", "bezeichnung": "Sachversicherungen" },

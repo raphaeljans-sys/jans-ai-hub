@@ -464,7 +464,12 @@ async function kontieren(jahr, { zielDatei = null } = {}) {
       konto = 'UEBERTRAG'; bez = 'Uebertrag zwischen eigenen Konten — nur EINE Seite buchen';
     } else {
       for (const r of regeln) {
-        if (text.includes(String(r.muster).toLowerCase())) { konto = String(r.konto); bez = r.bezeichnung || ''; regelHit = r.muster; break; }
+        if (!text.includes(String(r.muster).toLowerCase())) continue;
+        // optionales Betrags-Kriterium fuer generische Banktexte (z.B. Dauerauftrag Miete)
+        if (r.betrag != null && Math.abs(Number(t.amount) - Number(r.betrag)) >= 0.01) continue;
+        konto = String(r.konto); bez = r.bezeichnung || '';
+        regelHit = r.muster + (r.betrag != null ? `@${r.betrag}` : '');
+        break;
       }
       if (konto === '?' && t.type === 'CREDIT') { konto = '3400'; bez = 'Eingang ohne Rechnungszuordnung — pruefen (Ertrag?)'; }
     }
