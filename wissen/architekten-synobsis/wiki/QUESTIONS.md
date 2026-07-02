@@ -1,6 +1,6 @@
 # QUESTIONS — Offene Luecken und Klaerungsbedarf
 
-Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
+Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komplett (853/853 gescannt, 849 kuratiert). Fragen an Raphael beziehungsweise Handlungsoptionen fuer die naechste Pflege-Runde. Quelle ist ausschliesslich der Katalog; Aenderungen am Quellordner `/Volumes/daten/05_Architekten_Synobsis/` macht der Bibliothekar nie ohne Freigabe.
 
 ## 1 Leere oder fast leere Ordner
 
@@ -82,6 +82,12 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - **Shaker** — Bausammlung einer Gemeinschaft/Bewegung, kein Architekt. Umwidmen (analog Hippodamus als Themen-Merkposten)?
 - **Rowntree_Kenneth _1915_1997** — britischer Maler, kein Architekt (analog Nash_Paul). Gehoert der Ordner in die Bibliothek?
 - **Schwitters_Kurt** — Dada-Kuenstler (Merzbau); als Avantgarde-Merkposten belassen?
+
+- **Ted Architekten, UN_Studio_van_Berkel_Ben, Van_Eesterne, Vaulting_Gustavino, Virgilio_Marchi, Vogt_Klaus, Voigt_Andreas, darlington_meyer** — Ordner komplett leer (0 Dateien). Fuellen oder entfernen? Van_Eesterne (korrekt Cornelis van Eesteren) und UNStudio waeren ausbauwuerdig; Vaulting_Gustavino doppelt das Thema des Merkpostens Guastavino_Raffael.
+- **Wijdeveld_Henricus_Theodorus und aardeplan_AG** — nur Projektordner-Huelle beziehungsweise «Neuer Ordner», 0 Dateien. Fuellen oder entfernen?
+- **Soriano_Rafael, Speer_Alfred, Steffann_Emil, Stone_Edward_Albert_1880_1963, Takamatsu, Taniguchi_Yoshio, Team_Zoo, Turnbull_William, Valle_Gino, Van_der_Mey, Vitruv, Vogeler_Heinrich, Wachsmann_Konrad, Wahlman_Lars_Israel, Wallot_Paul, Wellington_Gerald_Wellesley, Wornum_George_Grey_1888_1957, Yorke_Francis_Reginald_Stevens_1906_1962, Zanini, Zenghelis_Elia, Zuchi_Gino, architectuul, ebeling, maya, mlzd, wang_shu** — je 1 bis 15 Dateien. Sammelfrage Charge 6: als Merkposten belassen oder gezielt fuellen? Gerade Speer (nur 29 unbeschriftete Bilder), Vitruv und wang_shu (Pritzker 2012) sind fuer ihre Bedeutung sehr duenn.
+- **Taylor, Whiting_Luci, Wollkenstein, Worm_Maximilian, maya, darlington_meyer** — Namen ohne erkennbare Zuordnung. Wer oder was ist jeweils gemeint?
+- **Wagner** — 22 Bilder im einzigen Unterordner «interne»; welcher Wagner ist gemeint (Otto? Martin? Buero)? Verhaeltnis zu Wagner_Otto klaeren.
 
 ## 2 Unklare Slugs und Schreibfehler im Quellordner
 
@@ -227,6 +233,40 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - **ShOP** — korrekt SHoP Architects. Normierung?
 - **Siza_Vieira_Àlavaro_Leite** — Akzent-Schreibfehler («Àlavaro»); Inhalt Casa Tolo stammt vom Sohn Alvaro Leite Siza Vieira, also KEIN reiner Doppelordner zu Siza_Alvaro_Vieira. Kennzeichnen und Slug normieren?
 
+- **Smithson_Peter_Alice** — korrekt Alison und Peter Smithson (Vornamen verkuerzt/verdreht). Slug praezisieren?
+- **Sou Fugimoto / Fujimoto** — Doppelordner desselben Japaners Sou Fujimoto (Schreibfehler Fugimoto, Vorname-Nachname, Leerzeichen). Zusammenfuehren?
+- **Steven_Holl / Holl_Steven** — Doppelordner (Chargen 3 und 6), einmal in jeder Namensreihenfolge. Zusammenfuehren?
+- **Tadao_Ando / Aando_Tadao** — Doppelordner, beide fehlerhaft (korrekt Ando_Tadao). Zusammenfuehren und normieren?
+- **Toyo Ito / Ito_Toyo** — Doppelordner (Chargen 6 und 3); zudem Projektordner «Zuerich TAZ» unklar (gemeint wohl Tamedia, das bei Ban_Shigeru liegt). Zusammenfuehren und Fehlablage klaeren?
+- **Tller_de_Arquitectura / Taller_de_Arquitectura** — Doppelordner mit Schreibfehler (leer); zudem Verhaeltnis zu Bofill_Ricardo (Erstausgabe) klaeren, alle drei betreffen Bofills Taller. Zusammenfuehren?
+- **Studer_Schneider_Primas / Schneider_Studer_Primas** — Doppelordner desselben Zuercher Bueros mit vertauschter Namensfolge (Chargen 6 und 5). Zusammenfuehren (korrekt Schneider Studer Primas)?
+- **Vinci_Leonardo_da / Da_Vinci_Leonardo** — Doppelordner (Chargen 6 und 1). Zusammenfuehren?
+- **Van_Gerkan_Meinrad / Gerkan** — korrekt Meinhard von Gerkan (gmp); Doppel zum Merkposten Gerkan (Charge 2). Zusammenfuehren und normieren?
+- **Yorke_Breuer / Yorke_Francis_Reginald_Stevens_1906_1962 / Breuer_Marcel** — drei Ordner zum Umfeld F. R. S. Yorke; Verhaeltnis kennzeichnen (Partnerschaft 1935 bis 37 vs Einzelwerke).
+- **Studio_Mumbai_Betoi** — Zusatz «Betoi» ungeklaert (Gruender heisst Bijoy Jain). Slug bereinigen?
+- **Sofaloung_Pinar_Goeunuel** — korrekt sofalounge AG Hochdorf; Personenname im Slug (Pinar Goenuel?) klaeren.
+- **Speer_Alfred** — korrekt Albert Speer. Umbenennung?
+- **Spielmann_Echsel** — vermutlich Spillmann Echsle (Zuerich). Umbenennung?
+- **Stauffer_Hasler** — das Buero schreibt sich Staufer & Hasler (ein f). Umbenennung?
+- **Strnad_Lurje** — Wiener Duo Oskar Strnad und Viktor Lurje; Zuordnung des Hauses Hock klaeren.
+- **Tessar_Heinz** — korrekt Heinz Tesar. Umbenennung?
+- **Trachsel_Hofmann** — das Buero schreibt sich Trachsler Hoffmann (Weblinks im Ordner belegen es). Umbenennung?
+- **Tschumi_Bernhard** — korrekt Bernard Tschumi. Umbenennung?
+- **Vaccini_Livio** — korrekt Livio Vacchini. Umbenennung?
+- **Vandenhove_Charsl** — korrekt Charles Vandenhove. Umbenennung?
+- **Villerauxban** — vermutlich der Ort Villeurbanne (Gratte-Ciel, Architekt Morice Leroux), kein Architekt; Ordner zudem ohne Dateien. Umwidmen oder loeschen?
+- **Webb_Philiph** — korrekt Philip Webb. Umbenennung?
+- **Wright_Frank_Lord_1867_1959** — korrekt Frank Lloyd Wright («Lord» statt «Lloyd»). Umbenennung?
+- **Zirau_Frank** — vermutlich Frank Zierau (Zuerich). Umbenennung?
+- **Zuchi_Gino** — vermutlich Cino Zucchi (Mailand), doppelter Schreibfehler. Umbenennung?
+- **Zaha_Hadid, Steven_Holl, Sou Fugimoto, Toyo Ito, Virgilio_Marchi, Zita Cotti** — Vorname-Nachname-Reihenfolge entgegen der Konvention. Normieren?
+- **Soeder - urform der abendländlichen Baukunst** — Buchtitel als Ordnername (Hans Soeder, Urformen der abendlaendischen Baukunst); zudem Leerzeichen und Bindestrich im Slug. Umbenennen in Soeder_Hans mit Literaturordner?
+- **Soissons_Louis_de_Wellvyn_1919_Gartenstadt** — Projekttitel im Slug und Schreibfehler (korrekt Welwyn). Umbenennen in Soissons_Louis_de?
+- **Šuchov_Vladimir_Blechwalzwerk...** — Projekttitel, Sonderzeichen und Doppelpunkt im Slug (Katalogdatei S_uchov_..._1897_98.json). Umbenennen in Suchov_Vladimir?
+- **Sullivan_Louis_1856_1924** — Projektordner «Buffalo Wainwright Building»: das Wainwright Building steht in St. Louis (analog Getty-Center-Ortsfehler). Korrigieren?
+- **Snozzi Luigi, Sou Fugimoto, Studio Blay Streeruwitz, Ted Architekten, Toyo Ito, Zita Cotti, inigo jones architecture** — 7 Leerzeichen-Slugs in Charge 6 (Katalogdateien unter Unterstrich-Namen, keine neue Kollision); dazu die Kleinbuchstaben-Slugs aardeplan_AG, architectuul, darlington_meyer, ebeling, idA_Architekten, inigo jones architecture, maya, mlzd, wang_shu und der fuehrende Unterstrich bei _Japanische_Architektur. Normierung der Quellordner pruefen.
+- **gigon guyer / Gigon_Guyer** — Doppelordner desselben Zuercher Bueros; im Katalog kollidieren beide auf EINE Datei Gigon_Guyer.json (siehe Sektion 4). Zusammenfuehren (nach Freigabe)?
+
 ## 3 Sammel- und Zweckordner ohne Architekt-Zuordnung
 
 - **1 Selection** — grosse Best-of-Sammlung (4525 Dateien) nach Raumtypologien, kein Architekt. Frage: als eigene Referenz-KB-Sektion fuehren (z.B. wiki/RAUMTYPOLOGIEN.md mit Inhalt der Unterordner) statt als Architekt? Der Ordner ist fuer Entwurfsreferenzen vermutlich der wertvollste der Bibliothek.
@@ -276,6 +316,13 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - **Shizuoka** — japanischer Ortsname als Slug mit leerer Standardstruktur; wofuer war der Ordner gedacht?
 - **Riehmer_Wilhelm_Bauherr** — Bauherr/Maurermeister des Riehmers Hofgarten Berlin, kein Architekten-Dossier im engeren Sinn. Umwidmen?
 
+- **Sutter_Annabarbara** — Praktikums-/Stationensammlung (2004/05 gigon guyer, 2005/06 Accademia); wirkt wie persoenliche Studiensammlung analog Back_Lukas. Wer ist Annabarbara Sutter im JANS-Kontext?
+- **Tiburtino_Ridolfi_SIK** — Bildsammlung zum Quartier Tiburtino Rom mit Sik-Seminar-Marker im Slug (passt zur Vermutung Professur-Sik-Herkunft aus Charge 5), kein Architekten-Ordner. Umwidmen?
+- **_Japanische_Architektur** — Sammelordner (Takeshi Ippei Office, Kawatani House) mit fuehrendem Unterstrich; als Referenz-Sammlung umwidmen (analog 1 Selection)?
+- **architectuul** — Website-Name als Ordner (2 Bilder); umwidmen oder loeschen?
+- **Zeyer_Albert** — enthaelt «Luzern Haus Jans 1930»: zweiter Haus-Jans-Beleg neben Dreyer_Otto (Haus Jans 1932, Charge 1). Gibt es einen Bezug zur Familie Jans? Fuer Raphael pruefenswert.
+- **ebeling / Archifactory** — der Kleinbuchstaben-Ordner ebeling (Buch Der Raum als Membran von Siegfried Ebeling) und das Ebeling House im Ordner Archifactory sind verschiedene Themen; Verwechslungsgefahr kennzeichnen.
+
 ## 4 Strukturelle Beobachtungen fuer den Scan
 
 - Mehrere Ordner tragen die generische Ablagestruktur 00 Architekten / 01 Projekte / ... (Archigram, Alexander_Christoph, Ashbee teilweise); der Katalog zaehlt diese Strukturordner als "Projekte". Option: Parser so verfeinern, dass nummerierte Standardordner nicht als Projekte gezaehlt werden.
@@ -300,3 +347,7 @@ Stand: 2026-07-02, Erstausgabe plus Chargen 1/6 bis 5/6 (718 von 853 Ordnern kur
 - Akzent-Zerlegung in Charge 5/6: «Prouvé_Jean» fuehrt auf Prouve__Jean.json, «Siza_Vieira_Àlavaro_Leite» auf Siza_Vieira_A_lavaro_Leite.json. Keine neue Leerzeichen-/Unterstrich-Katalogkollision; alle 133 Slugs der Charge haben eigene Katalogdateien (13 Leerzeichen-Slugs ueber Unterstrich-Dateien).
 - Generische Standard-Ablagestruktur wird auch in Charge 5/6 als «Projekte» gezaehlt (Peruzzi_Baldasare, Pirzio_Biroli_Roberto, Portoghesi_Paolo, Quincy_de_Quatremere, Sangallo_da_Giuliano, Schnaidt_Claude, Schultes_Frank, Schwitters_Kurt, Schwarz_Felix_Rolf_Gutmann_Basel, Senn_Andy, Shizuoka). Parser-Verfeinerung bleibt offen.
 - Fehlextraktionen Charge 5/6: Pfister_Gebrueder und Pouillon_Fernand (Seminarwochen-Flyer der ETH-Professur Sik statt Werktext), Romero_Schaefle (de-Sede-Sofatext des Moebeldesigners Franz Romero statt des Architekturbueros), Rohn_Roland (Ordner «Neuer Ordner» im Bestand). Textquellen-Auswahl im Scanner pruefen.
+- VIERTE bestaetigte Katalog-Kollision in Charge 6/6: die Quellordner «gigon guyer» und «Gigon_Guyer» fuehren auf EINE Datei Gigon_Guyer.json (case-insensitives Dateisystem; wie Christ Gantenbein, Enzmann Fischer, Miller Maranta). Scan-Pruefauftrag: kollidierende Slugs erkennen und beide Quellordner ausweisen; die uebrigen 7 Leerzeichen-Slugs der Charge haben eigene Unterstrich-Katalogdateien.
+- Sonderzeichen-Zerlegung in Charge 6/6: «Šuchov_Vladimir_...» fuehrt auf S_uchov_..._1897_98.json, «Tusquet_Oscar_Clotet_Lluìs» auf Tusquet_Oscar_Clotet_Llui_s.json, der Soeder-Buchordner auf Soeder_-_urform_der_abendla_ndlichen_Baukunst.json; Utzon_Jørn.json behaelt dagegen das Sonderzeichen — Zerlegung weiterhin uneinheitlich.
+- Generische Standard-Ablagestruktur wird auch in Charge 6/6 als «Projekte» gezaehlt (Stone_Edward_Albert, Tami_Rino, Testa_Clorindo, Tller_de_Arquitectura, Tusquet, Vogeler_Heinrich, Wachsmann_Konrad, Wayss_Freytag, Weinbrenner, Wellington, Wornum, Zenghelis_Elia). Parser-Verfeinerung bleibt offen.
+- Fehlextraktion Charge 6/6: Tadao_Ando traegt als Textauszug Rem Koolhaas' «Junkspace» (JSTOR-PDF) statt eines Ando-Textes; Spuehler_Martin einen Stuttgart-21-Artikelrand, Wurster_William einen Society-Blogtext. Textquellen-Auswahl im Scanner pruefen.

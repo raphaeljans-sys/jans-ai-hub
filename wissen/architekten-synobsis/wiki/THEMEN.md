@@ -2,7 +2,7 @@
 
 **Zweck:** Thematischer Zugang zur Architekten-Bibliothek (05_Architekten_Synobsis). Erschliesst die kuratierten Ordner nach Typologie, Material, Region, Epoche und Haltung, damit Referenzen fuer Studien, Wettbewerbe und Entwuerfe schnell auffindbar sind.
 
-**Stand:** 2026-07-02, 718 von 853 Architekten kuratiert (Erstausgabe A bis Ba plus Charge 1/6, Slugs Bearth_Deplazes bis Du_rr_Otto, plus Charge 2/6, Slugs Dyckerhoff_Widmann bis Handa_Heike_Prof, plus Charge 3/6, Slugs Hankar_Paul bis Le_Corbusier, plus Charge 4/6, Slugs Le_Vau_Louis bis Perrot, plus Charge 5/6, Slugs Peruzzi_Baldasare bis Smith_Samuel_Modell).
+**Stand:** 2026-07-03 — Erstkuratierung komplett (853/853 gescannt, 849 kuratiert, Stand 2026-07-03). Erstausgabe A bis Ba plus Chargen 1/6 bis 6/6 (letzte Charge Smithson_Peter_Alice bis wang_shu); 4 Leerzeichen-Doppelordner ohne eigene Katalogdatei (Christ Gantenbein, Enzmann Fischer, Miller Maranta, gigon guyer) laufen als Kollisions-Vermerke mit.
 
 **Kompoundierend:** Neue Chargen werden in die bestehenden Kapitel einsortiert, Kapitel werden nie neu erfunden. Bei Bedarf duerfen Unterpunkte ergaenzt werden. Einordnungen ohne Beleg in den Katalogdaten sind mit "(Einordnung)" markiert.
 
@@ -118,6 +118,23 @@
 - [[Sergison_Bates_Dublin]] — Wohnbauten London, Genf und Newcastle
 - [[Shinohara_Kazuo]] — House in White, Wohnhaus Seastairway Tokio
 - [[Siza_Alvaro_Vieira]] — Wohnquartiere Bouca und Malagueira
+- [[Snozzi_Luigi]] — Tessiner Wohnhaeuser Casa Kalman bis Monte Carasso
+- [[Steiner_Albert_H]] — Nachkriegssiedlungen Heiligenfeld und Schwamendingen Zuerich
+- [[Streich_Adrian]] — Lienihof Wollishofen, Seefeldstrasse Zuerich
+- [[Streicher_Otto]] — Siedlung Sihlfeld Zuerich
+- [[Studio_Mumbai_Betoi]] — indische Wohnhaeuser Palmyra bis Copper House II
+- [[Taller_de_Arquitectura]] — Walden 7 Sant Just Desvern
+- [[Taut_Bruno]] — Hufeisensiedlung und Wohnstadt Carl Legien Berlin
+- [[Trachsel_Hofmann]] — Ersatzneubau Tulpenweg Zuerich-Schwamendingen
+- [[Venturi_Robert]] — Vanna Venturi House Philadelphia
+- [[Voysey_Charles]] — englische Landhaeuser The Orchard und Broadleys
+- [[Webb_Philiph]] — Red House Bexleyheath
+- [[Wolf_Paul]] — Ceciliengaerten Berlin-Schoeneberg
+- [[Wright_Frank_Lord_1867_1959]] — Prairie Houses, Robie und Martin House
+- [[Wurster_William]] — kalifornische Wohnhaeuser, Clark Beach House
+- [[Yorke_Breuer]] — Sea Lane House Angmering 1937
+- [[Zuber_Raphael]] — Wohnhaus Grono
+- [[Zumthor_Peter]] — Wohnsiedlung Spittelhof, Wohnen fuer Betagte Chur
 
 ### 1.2 Sakralbau
 
@@ -163,6 +180,13 @@
 - [[Sassenroth_Peter_Teitermann]] — Kapelle der Versoehnung Berlin
 - [[Schilling_Hans]] — Kirche St Alban Koeln
 - [[Schwarz_Rudolf_1897_1961]] — 16 Kirchenordner von Aachen bis Wien
+- [[Steffann_Emil]] — deutscher Nachkriegs-Kirchenbau (Einordnung)
+- [[Tessar_Heinz]] — Wiener Kirchenbau (korrekt Heinz Tesar)
+- [[Utzon_Jørn]] — Kirche Bagsvaerd
+- [[Van_Eyck_Aldo]] — Pastoor van Arskerk Den Haag
+- [[Van_der_Laan_Dom]] — Abteikirche St. Benedikt Vaals
+- [[Vignola_Giacomo_Barozzi_da_1507_1573]] — Il Gesu Rom
+- [[Wahlman_Lars_Israel]] — Engelbrektskirche Stockholm
 
 ### 1.3 Oeffentliche Bauten und Kultur
 
@@ -232,6 +256,20 @@
 - [[Scharoun_Hans]] — Philharmonie und Kammermusiksaal Berlin
 - [[Schinkel_Karl_Friedrich_1781_1841]] — Altes Museum und Schauspielhaus Berlin
 - [[Semper_Gottfried_1803_79]] — Dresdner Hoftheater, Polytechnikum Zuerich
+- [[Soane_Sir_John]] — Bank of England, Dulwich Picture Gallery
+- [[Souto_de_Moura_Eduardo]] — Stadion Braga, Casa das Historias Cascais
+- [[Stauffer_Hasler]] — Bundesverwaltungsgericht St. Gallen
+- [[Stella_Franco]] — Stadtschloss Berlin
+- [[Stirling_James]] — Neue Staatsgalerie Stuttgart
+- [[Stubbins_Hugh_A]] — Kongresshalle Berlin
+- [[Stueler]] — Neues Museum Berlin
+- [[Thiersch_von_Friedrich]] — Festhalle Frankfurt
+- [[Tschumi_Bernhard]] — Parc de la Villette, Akropolismuseum Athen
+- [[Utzon_Jørn]] — Oper Sydney
+- [[Van_de_Velde_Henry]] — Kroeller-Mueller-Museum Otterlo
+- [[Vasari_Giorgio]] — Uffizien Florenz
+- [[Zaha_Hadid]] — MAXXI Rom, Stadtcasino Basel
+- [[Zumthor_Peter]] — Kunsthaus Bregenz, Topografie des Terrors
 
 ### 1.4 Bildungsbauten
 
@@ -265,6 +303,9 @@
 - [[Olgiati_Valerio]] — Schulhaus Paspels, Hoersaal Landquart
 - [[Ramser_Schmid]] — Schulhauserweiterung Rueschlikon
 - [[Schader_Kt_Freudenberg]] — Kantonsschule Freudenberg Zuerich (Jacques Schader)
+- [[Stirling_James]] — Leicester Engineering, History Faculty Cambridge
+- [[Zeyer_Albert]] — Dula-Schulhaus Luzern
+- [[Zuber_Raphael]] — Schulhaus Port
 
 ### 1.5 Gesundheits- und Sonderbauten
 
@@ -317,6 +358,11 @@
 - [[Rogers_Richard]] — Lloyd's of London
 - [[Rohn_Roland]] — Roche-Bauten, UBS Zuerich 1956
 - [[SOM]] — AT and T Corporate Center Chicago, Union Carbide New York
+- [[Smithson_Peter_Alice]] — Economist Building London
+- [[Sullivan_Louis_1856_1924]] — Chicago School, Guaranty und Carson Pirie Scott
+- [[Vinoly_Rafael_Architects]] — Wohnhochhaus 432 Park Avenue New York
+- [[Wagner_Otto]] — Postsparkasse und Laenderbank Wien
+- [[Wiedemann_Josef]] — Allianz-Hauptsitz und Bayerische Landesbank Muenchen
 
 ## 2 Material und Konstruktion
 
@@ -353,6 +399,10 @@
 - [[Paxton_Sir_Joseph_1803_1865]] — Glas-Eisen-Modulbau Crystal Palace
 - [[Perret_Auguste_Gustave_1874_1954]] — Pionier des Stahlbetonskeletts
 - [[Prouve__Jean]] — Metallbau-Pionier, Maison du Peuple Clichy (Einordnung)
+- [[S_uchov_Vladimir_Blechwalzwerk_Vyksa_Russland_1897_98]] — russischer Gitterschalen- und Turmpionier Suchov
+- [[Torroja_Eduardo]] — spanische Betonschalen, Fronton Recoletos
+- [[Wachsmann_Konrad]] — Vorfabrikation, General Panel System (Einordnung)
+- [[Wayss_Freytag]] — Eisenbeton-Unternehmung (Einordnung), kein Architekturbuero
 
 ## 3 Region und Land
 
@@ -554,6 +604,30 @@
 - [[Senn_Andy]] — St. Gallen
 - [[Senn_Otto]] — Basel (Einordnung), fast leer
 - [[Sik_Miroslav]] — ETH Zuerich, Musikerwohnhaus und Professur-Archiv
+- [[Snozzi_Luigi]] — Tessin, Monte Carasso
+- [[Sofaloung_Pinar_Goeunuel]] — Hochdorf LU (sofalounge AG)
+- [[Spielmann_Echsel]] — Zuerich (korrekt Spillmann Echsle, Einordnung), fast leer
+- [[Spuehler_Martin]] — Zuerich, Stadtbahnhof Selnau
+- [[Stauffer_Hasler]] — Frauenfeld (korrekt Staufer & Hasler)
+- [[Steiner_Albert_H]] — Zuerich, Stadtbaumeister-Aera
+- [[Streich_Adrian]] — Zuerich
+- [[Streicher_Otto]] — Zuerich, Sihlfeld
+- [[Studer_Schneider_Primas]] — Zuerich, Doppelordner zu Schneider_Studer_Primas
+- [[Stuecheli_Ursula]] — Zuerich (Einordnung)
+- [[Tami_Rino]] — Tessin, Lugano
+- [[Thalhofer_Tom]] — Luzern, MET Architects und HSLU
+- [[Trachsel_Hofmann]] — Zuerich (korrekt Trachsler Hoffmann)
+- [[Vaccini_Livio]] — Tessin, Locarno (korrekt Vacchini)
+- [[Zeyer_Albert]] — Luzern
+- [[Ziegler_Heinrich_Rehfuss_Jakob]] — Zuerich, Sonneggstrasse
+- [[Zindel_Reto]] — Rapperswil, Steg
+- [[Zirau_Frank]] — Zuerich (korrekt Frank Zierau, Einordnung)
+- [[Zita_Cotti]] — Zuerich
+- [[Zuber_Raphael]] — Chur
+- [[Zumthor_Peter]] — Haldenstein GR, groesster Bestand der Schlusscharge
+- [[aardeplan_AG]] — Zug (Einordnung), Ordner leer
+- [[idA_Architekten]] — Zuerich, Schauhaus Grueningen
+- [[mlzd]] — Biel
 
 ### 3.2 Italien
 
@@ -617,6 +691,15 @@
 - [[Santi_Raffael]] — Rom, Villa Madama
 - [[Scamozzi_Vincenzo_1548_1616]] — Vicenza und Sabbioneta
 - [[Scarpa_Carlo]] — Venedig und Verona
+- [[Stella_Franco]] — Vicenza, Projekt Berlin
+- [[Terragni_Giuseppe]] — Como, Rationalismus
+- [[Tiburtino_Ridolfi_SIK]] — Rom, Bildsammlung Quartier Tiburtino
+- [[Valle_Gino]] — Udine, Casa Quaglia
+- [[Vasari_Giorgio]] — Florenz
+- [[Vignola_Giacomo_Barozzi_da_1507_1573]] — Rom
+- [[Vinci_Leonardo_da]] — Doppelordner zu Da_Vinci_Leonardo
+- [[Zanini]] — Mailand (vermutlich Gigiotti Zanini, Einordnung), fast leer
+- [[Zuchi_Gino]] — Mailand (korrekt Cino Zucchi, Einordnung), fast leer
 
 ### 3.3 Skandinavien und Finnland
 
@@ -637,6 +720,9 @@
 - [[Oestberg_Ragnar]] — Stockholm, Stadshus
 - [[Reiluf_Ramstad_Architekten]] — Oslo (korrekt Reiulf Ramstad)
 - [[Saarinen_Eliel]] — Helsinki, Bahnhof und Nationalmuseum
+- [[Utzon_Jørn]] — Daenemark, Sydney und Bagsvaerd
+- [[Utzon_Kim_Architects]] — Aalborg, Utzon Center
+- [[Wahlman_Lars_Israel]] — Stockholm
 
 ### 3.4 Deutschland und Oesterreich
 
@@ -718,6 +804,25 @@
 - [[Schumacher_Fritz]] — Hamburg
 - [[Schwarz_Rudolf_1897_1961]] — Koeln und Aachen, Kirchenwerk
 - [[Schwippert_Hans]] — Bonn/Duesseldorf (Einordnung)
+- [[Speer_Alfred]] — Berlin, NS-Architektur (korrekt Albert Speer)
+- [[Strnad_Lurje]] — Wien, Haus Hock (Einordnung)
+- [[Studio_Blay_Streeruwitz]] — Wien, MGC Plaza
+- [[Stueler]] — Berlin, Schinkel-Schule
+- [[Taut_Bruno]] — Berlin, Siedlungen der Moderne
+- [[Taut_Max]] — Berlin
+- [[Tessar_Heinz]] — Wien (korrekt Heinz Tesar)
+- [[Tessenow_Heinrich]] — Dresden-Hellerau
+- [[Thiersch_von_Friedrich]] — Muenchen und Frankfurt
+- [[Van_Gerkan_Meinrad]] — Hamburg/Berlin, Flughafen Tegel (korrekt Meinhard von Gerkan)
+- [[Vogeler_Heinrich]] — Worpswede, Barkenhoff (Einordnung)
+- [[Vorhoelzer_Robert]] — Muenchen, Postbauschule
+- [[Wagner_Otto]] — Wien
+- [[Wallot_Paul]] — Berlin, Reichstag
+- [[Wallraff_Michael]] — Wien
+- [[Weinbrenner_Friedrich_1766_1826]] — Karlsruhe
+- [[Wiedemann_Josef]] — Muenchen
+- [[Wittgenstein_Ludwig]] — Wien, Haus Kundmanngasse
+- [[Wolf_Paul]] — Berlin
 
 ### 3.5 Iberische Halbinsel und Lateinamerika
 
@@ -749,6 +854,14 @@
 - [[Reidy_Eduardo]] — Rio de Janeiro, Wohnschlange und Museum of Modern Art
 - [[Siza_Alvaro_Vieira]] — Porto, Boa Nova bis Expo-Pavillon
 - [[Siza_Vieira_A_lavaro_Leite]] — Casa Tolo (Sohn Alvaro Leite Siza Vieira)
+- [[Sota_de_la_Alejandro]] — Madrid
+- [[Souto_de_Moura_Eduardo]] — Porto
+- [[Taller_de_Arquitectura]] — Barcelona, Bofills Taller
+- [[Tavora_Fernando]] — Porto, Vater der Porto-Schule
+- [[Testa_Clorindo]] — Buenos Aires (Einordnung)
+- [[Torroja_Eduardo]] — Madrid, Ingenieurbau
+- [[Tusquet_Oscar_Clotet_Llui_s]] — Barcelona, Studio PER (Einordnung), fast leer
+- [[Williams_Amancio]] — Argentinien, Brueckenhaus Mar del Plata
 
 ### 3.6 Grossbritannien
 
@@ -803,6 +916,19 @@
 - [[Scott_Baillie]] — Blackwell Windermere
 - [[Sergison_Bates_Dublin]] — London, 17 Projektordner bis Mendrisio und Vals
 - [[Shaw_Richard_Norman]] — London, Chiswick
+- [[Smithson_Peter_Alice]] — London, New Brutalism und Team X
+- [[Smythson_Robert]] — Derbyshire, Hardwick Hall
+- [[Soane_Sir_John]] — London
+- [[Soissons_Louis_de_Wellvyn_1919_Gartenstadt]] — Welwyn Garden City 1919
+- [[Stirling_James]] — London und Stuttgart
+- [[Stone_Edward_Albert_1880_1963]] — London, Theaterbauten (Einordnung), fast leer
+- [[Voysey_Charles]] — England, Landhaeuser
+- [[Webb_Philiph]] — England (korrekt Philip Webb)
+- [[Wellington_Gerald_Wellesley]] — London (Einordnung), fast leer
+- [[Wornum_George_Grey_1888_1957]] — London, RIBA Building (Einordnung)
+- [[Yorke_Breuer]] — London, Partnerschaft Yorke und Breuer
+- [[Yorke_Francis_Reginald_Stevens_1906_1962]] — England, F. R. S. Yorke
+- [[inigo_jones_architecture]] — London, Inigo Jones (Kleinbuchstaben-Slug)
 
 ### 3.7 Frankreich
 
@@ -856,6 +982,16 @@
 - [[Pikionis_Dimitris]] — Athen, Wege zur Akropolis
 - [[SANAA]] — Tokio, Small House
 - [[Shinohara_Kazuo]] — Tokio, 280 Dateien Wohnhaeuser
+- [[Japanische_Architektur]] — Sammelordner japanische Referenzen (Kawatani House)
+- [[S_uchov_Vladimir_Blechwalzwerk_Vyksa_Russland_1897_98]] — Russland, Ingenieurbauten
+- [[Sou_Fugimoto]] — Doppelordner zu Fujimoto, Montpellier und HSG St. Gallen
+- [[Studio_Mumbai_Betoi]] — Mumbai, Bijoy Jain
+- [[Tadao_Ando]] — Osaka, Doppelordner zu Aando_Tadao
+- [[Takamatsu]] — Kyoto, Shin Takamatsu (Einordnung)
+- [[Taniguchi_Yoshio]] — Tokio (Einordnung), fast leer
+- [[Team_Zoo]] — Japan (Einordnung), fast leer
+- [[Toyo_Ito]] — Doppelordner zu Ito_Toyo
+- [[wang_shu]] — Hangzhou, Pritzker 2012 (Einordnung), fast leer
 
 ### 3.9 Niederlande und Belgien
 
@@ -880,6 +1016,13 @@
 - [[Oud_J_J_Pieter]] — Rotterdam, De Stijl und Weissenhof
 - [[Rietveld_Gery]] — Utrecht (korrekt Gerrit Rietveld), fast leer
 - [[Rocha_Tombai]] — Amsterdam (korrekt Rocha Tombal, Einordnung)
+- [[Van_Doesburg]] — De Stijl, Aubette Strassburg
+- [[Van_Eyck_Aldo]] — Amsterdam, Waisenhaus
+- [[Van_de_Velde_Henry]] — Belgien, Otterlo
+- [[Van_der_Laan_Dom]] — Niederlande, Vaals
+- [[Van_der_Mey]] — Amsterdam, Scheepvaarthuis (Einordnung)
+- [[Vandenhove_Charsl]] — Luettich (korrekt Charles Vandenhove)
+- [[Wijdeveld_Henricus_Theodorus]] — Amsterdam, Wendingen (Ordner leer)
 
 ### 3.10 Nordamerika
 
@@ -915,6 +1058,14 @@
 - [[Saarinen_Eero]] — TWA Terminal und Dulles Airport
 - [[Schindler_Rudolph]] — Los Angeles, Schindler House
 - [[ShOP]] — New York (korrekt SHoP), Uber Headquarter San Francisco
+- [[Soriano_Rafael]] — Kalifornien, Case Study (Einordnung), fast leer
+- [[Stubbins_Hugh_A]] — Boston, Kongresshalle Berlin
+- [[Sullivan_Louis_1856_1924]] — Chicago und Buffalo
+- [[Turnbull_William]] — Kalifornien, MLTW (Einordnung), fast leer
+- [[Venturi_Robert]] — Philadelphia
+- [[Vinoly_Rafael_Architects]] — New York
+- [[Wright_Frank_Lord_1867_1959]] — Chicago und Taliesin, 770 Dateien
+- [[Wurster_William]] — Kalifornien, Bay Region
 
 ## 4 Epoche und Stroemung
 
@@ -943,6 +1094,11 @@
 - [[Santi_Raffael]] — Hochrenaissance, Maler-Baumeister
 - [[Scamozzi_Vincenzo_1548_1616]] — Spaetrenaissance, Theater Sabbioneta
 - [[Serlio_Sebastian_1475_1554]] — Renaissance-Traktatist
+- [[Smythson_Robert]] — elisabethanische Renaissance England
+- [[Vasari_Giorgio]] — Manierismus, Uffizien
+- [[Vignola_Giacomo_Barozzi_da_1507_1573]] — Regelbuch der fuenf Ordnungen
+- [[Vinci_Leonardo_da]] — Renaissance-Universalist (Doppelordner)
+- [[inigo_jones_architecture]] — englischer Palladianismus
 
 ### 4.2 Klassizismus und 19. Jahrhundert
 
@@ -976,6 +1132,11 @@
 - [[Richardson_Henry_Hobson_1838_86]] — Richardsonian Romanesque
 - [[Schinkel_Karl_Friedrich_1781_1841]] — preussischer Klassizismus, Hauptbestand
 - [[Semper_Gottfried_1803_79]] — Historismus zwischen Dresden, Wien und Zuerich
+- [[Soane_Sir_John]] — englischer Klassizismus-Eigenweg
+- [[Stueler]] — Berliner Schinkel-Schule
+- [[Thiersch_von_Friedrich]] — Spaethistorismus
+- [[Wallot_Paul]] — Historismus, Reichstag
+- [[Weinbrenner_Friedrich_1766_1826]] — badischer Klassizismus
 
 ### 4.3 Arts and Crafts und Reformbewegung
 
@@ -999,6 +1160,12 @@
 - [[Schumacher_Fritz]] — Hamburger Reformarchitektur
 - [[Scott_Baillie]] — Arts and Crafts, Blackwell
 - [[Shaw_Richard_Norman]] — Queen-Anne-Revival (Einordnung)
+- [[Soissons_Louis_de_Wellvyn_1919_Gartenstadt]] — Gartenstadt Welwyn
+- [[Tessenow_Heinrich]] — Handwerk und Reform, Hellerau
+- [[Van_de_Velde_Henry]] — Jugendstil und Werkbund
+- [[Voysey_Charles]] — englisches Landhaus
+- [[Wahlman_Lars_Israel]] — schwedische Nationalromantik (Einordnung)
+- [[Webb_Philiph]] — Morris-Kreis, Red House
 
 ### 4.4 Klassische Moderne
 
@@ -1057,6 +1224,14 @@
 - [[Scharoun_Hans]] — organisches Bauen, Philharmonie
 - [[Schindler_Rudolph]] — kalifornische Moderne
 - [[Schmitthenner_Paul]] — traditionsgebundene Moderne, Stuttgarter Schule (Einordnung)
+- [[Strnad_Lurje]] — Wiener Moderne (Einordnung)
+- [[Taut_Bruno]] — Berliner Siedlungsmoderne
+- [[Taut_Max]] — Neues Bauen Berlin
+- [[Van_Doesburg]] — De Stijl
+- [[Vorhoelzer_Robert]] — Neues Bauen Bayern, Postbauschule
+- [[Wagner_Otto]] — Wegbereiter der Wiener Moderne
+- [[Wright_Frank_Lord_1867_1959]] — organische Moderne Amerikas
+- [[Yorke_Breuer]] — britische Moderne der 1930er
 
 ### 4.5 Novecento und Mailaender Rationalismus
 
@@ -1086,6 +1261,7 @@
 - [[Portaluppi_Piero]] — Mailaender Novecento (Einordnung)
 - [[Rossi_Aldo]] — Tendenza-Hauptvertreter, Citta Analoga
 - [[Sartoris_Alberto]] — italienisch-schweizerischer Rationalismus (Einordnung), fast leer
+- [[Terragni_Giuseppe]] — Rationalismus-Hauptvertreter, Casa del Fascio Como
 
 ### 4.6 Nachkriegsmoderne und Brutalismus
 
@@ -1140,6 +1316,21 @@
 - [[Saarinen_Eero]] — amerikanische Nachkriegsmoderne, Schalenbau
 - [[Schwarz_Felix_Rolf_Gutmann_Basel]] — Basler Nachkriegsmoderne (Einordnung)
 - [[Schwippert_Hans]] — deutsche Nachkriegsmoderne, Bonner Bundeshaus (Einordnung)
+- [[Smithson_Peter_Alice]] — New Brutalism, Team X
+- [[Snozzi_Luigi]] — Tessiner Tendenza, Monte Carasso
+- [[Sota_de_la_Alejandro]] — spanische Nachkriegsmoderne
+- [[Steffann_Emil]] — deutscher Kirchenbau der Nachkriegszeit (Einordnung)
+- [[Steiner_Albert_H]] — Zuercher Nachkriegs-Staedtebau
+- [[Stirling_James]] — britische Nachkriegsmoderne bis Postmoderne
+- [[Tami_Rino]] — Tessiner Nachkriegsmoderne (Einordnung)
+- [[Tavora_Fernando]] — Porto-Schule
+- [[Testa_Clorindo]] — argentinischer Brutalismus (Einordnung)
+- [[Tiburtino_Ridolfi_SIK]] — roemischer Neorealismus, Bildsammlung Tiburtino
+- [[Ungers_Oswald_Mathias]] — deutscher Rationalismus, Archipel-Denken
+- [[Utzon_Jørn]] — daenische Nachkriegsmoderne
+- [[Vaccini_Livio]] — Tessiner Tendenza (korrekt Vacchini)
+- [[Van_Eyck_Aldo]] — Strukturalismus
+- [[Wiedemann_Josef]] — Muenchner Nachkriegsmoderne
 
 ### 4.7 Utopie und Avantgarde
 
@@ -1168,6 +1359,7 @@
 - [[Haratori]], [[Hauenstein_LaRoche_Schedler]], [[HdM]], [[Herzog_de_Meuron]], [[Huber_Waser_Mu_hlebach]], [[Hugenberger_Fries_Arch]], [[Igual_Guggenheim]], [[Ilg_Santer_Architekten]], [[Imhof_Lukas]], [[Ishigam_Junya]], [[Isler_Gysel_Architekten]], [[Ito_Toyo]], [[Jackob_Steib]], [[Jauch_Stoltz]], [[Jessen_Vollenweider]], [[Joos_Mathys]], [[Josep_Llinas]], [[Kaeferstein_Meister]], [[Kahn_Adam]], [[Karamuk_Kuo_Architekten]], [[Kengo_Kuma]], [[Kere_Francis]], [[Kerez_Christian]], [[Knapkiewicz_Fickert]], [[Kollhoff_Hans_1946]], [[Koolhaas_Rem_OMA]], [[Krischanitz]], [[Kuehn_Malvezzi]], [[Kummer_Schiess]], [[Lacatonvassal]], [[Ladner_Meyer_Architekten]], [[Lampugnani_Vittorio_Magnago]] — Ergaenzung aus Charge 3/6
 - [[Lemmerzahl_Stephan_SLIK_Architekten]], [[Leutwiler_Architekten]], [[Loelinger_Strub]], [[Lorenz_Architekten_Basel]], [[Luetjens_Padmanabhan_Architekten]], [[Lundgaard_Tranberg_Arkitekter_Copenhagen]], [[Lussi_Halter]], [[MVRDV]], [[MadeIn]], [[Maeckler_Christoph]], [[Maerkli_Peter]], [[Marques_Daniele]], [[Mateo_Josep_Lluis]], [[Meier_Hug]], [[Meier_Richard]], [[Menn_Corinna]], [[Miller_Maranta]], [[Mirlo_urbano_Architekten]], [[Moneo_Raphael]], [[Morger_Degelo]], [[Morger_Dettilin]], [[Mueller_Sigrist]], [[Muelletaler_Rolf]], [[Murcutt_Glenn]], [[Nikisch_Walder]], [[Nimbus_Architekten]], [[Nouvell_Jean]], [[Oester_Pfeninger]], [[Olgiati_Valerio]], [[Ortner_Ortner]], [[Park_Architekten]], [[Pawson_John]], [[Penzel_Architekten]], [[Perraults_Dominique]] — Ergaenzung aus Charge 4/6
 - [[Pezo_von_Ellrichshausen]], [[Phalt_Architekten]], [[Piano_Renzo]], [[Pictet_Charles]], [[Pinos_Carme]], [[Pirzio_Biroli_Roberto]], [[Pool_Architekten]], [[RCR]], [[Radic_Smjlian]], [[Ramser_Schmid]], [[Raumfalter]], [[Raumfindung]], [[Reiluf_Ramstad_Architekten]], [[Rogers_Richard]], [[Rolli_Boss_Architekten]], [[Romero_Schaefle]], [[Ruch_Hansjoerg]], [[Russli_Architekten]], [[S2_Stucki_Schneebeli_Architekten]], [[SANAA]], [[SMARCH_mathys_Stuecheli]], [[SabArchitekten]], [[Sauerbruch_Hotton_Architekten]], [[Scheidegger_Keller]], [[Schneider_Studer_Primas]], [[Schultes_Frank]], [[Seilerlinhard_Architekten]], [[Semadenin_Armon_Architekten]], [[Senn_Andy]], [[Sergison_Bates_Dublin]], [[ShOP]], [[Sik_Miroslav]], [[Siza_Alvaro_Vieira]], [[Siza_Vieira_A_lavaro_Leite]] — Ergaenzung aus Charge 5/6
+- [[Sou_Fugimoto]], [[Souto_de_Moura_Eduardo]], [[Stauffer_Hasler]], [[Stella_Franco]], [[Steven_Holl]], [[Streich_Adrian]], [[Studio_Blay_Streeruwitz]], [[Studio_Mumbai_Betoi]], [[Stuecheli_Ursula]], [[Tadao_Ando]], [[Takamatsu]], [[Taniguchi_Yoshio]], [[Thalhofer_Tom]], [[Toyo_Ito]], [[Trachsel_Hofmann]], [[Tschumi_Bernhard]], [[Utzon_Kim_Architects]], [[Vinoly_Rafael_Architects]], [[Wallraff_Michael]], [[Zaha_Hadid]], [[Zindel_Reto]], [[Zita_Cotti]], [[Zuber_Raphael]], [[Zumthor_Peter]], [[idA_Architekten]], [[mlzd]], [[wang_shu]] — Ergaenzung aus Charge 6/6
 
 ## 5 Haltung und Diskurs
 
@@ -1201,6 +1393,10 @@
 - [[Rowe_Collin]] — Collage City und Ungers-Rowe-Debatte (korrekt Colin Rowe)
 - [[Semper_Gottfried_1803_79]] — Der Stil, Bekleidungstheorie
 - [[Serlio_Sebastian_1475_1554]] — Trattato, tragische Szene
+- [[Tessenow_Heinrich]] — Handwerk und Kleinstadt 1920
+- [[Venturi_Robert]] — Complexity and Contradiction (Einordnung)
+- [[Vitruv]] — De architectura, antiker Grundtraktat
+- [[ebeling]] — Siegfried Ebeling, Der Raum als Membran 1926 (Einordnung)
 
 ### 5.2 Lehre und Hochschule
 
@@ -1228,6 +1424,9 @@
 - [[Schett_Wolfgang]] — ETH-Vorlesungsarchiv Architektur IV
 - [[Schnaidt_Claude]] — HfG Ulm, Bill-Schueler
 - [[Sik_Miroslav]] — ETH-Professur-Archiv mit Semestervorbereitungen, 896 Dateien
+- [[Spieker_Helmut]] — ETH-Professur, E-I-A-T-Planungslehre
+- [[Spiro_Annette]] — ETH-Professur, Treppenreader und Seminarwochen
+- [[Zenghelis_Elia]] — AA London und OMA-Mitgruendung (Einordnung)
 
 ### 5.3 Wettbewerbswesen Schweiz
 
@@ -1256,6 +1455,7 @@
 - [[Raumfindung]] — Siegerprojekt Zentrum Ebnat-Kappel (Hochparterre)
 - [[Rhytmeier_Furrer]] — Wettbewerb Gross-Zuerich 1918, 3. Preis
 - [[Senn_Andy]] — Krematorium St. Gallen (Hochparterre-Bericht)
+- [[Trachsel_Hofmann]] — Jurybericht Ersatzneubauten BG Sued-Ost Schwamendingen
 
 ### 5.4 Referenz- und Raumtypologien-Sammlungen
 
@@ -1282,3 +1482,6 @@
 - [[Mueller_Barbara]] — ETH-Studienarbeit The Monumental (Studio Caruso St John 2008)
 - [[Schwartz_Fabien]] — ETH-Diplom HS 2011 Professur Sik, Studienarbeit
 - [[Sik_Miroslav]] — Professur-Arbeitsarchiv ETH (Administration, Schriftverkehr, Semester), Zuordnung als Lehre-Archiv
+- [[Japanische_Architektur]] — Sammelordner japanische Referenzen, fuehrender Unterstrich im Quellordner
+- [[Sutter_Annabarbara]] — Praktikums-/Studiensammlung (gigon guyer, Accademia), Zuordnung offen
+- [[Wagner]] — ungeklaerter Bildordner «interne», Zuordnung offen
