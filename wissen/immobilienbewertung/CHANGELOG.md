@@ -2,6 +2,48 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-02 — Training-Run 12: Healthcare-Bewertungsbruecke (T17 belegt) + Health-Check-Cleanup
+
+- **T17 (Healthcare-Bewertungsfall) auf der Kosten-/Annuitaetsseite geschlossen** ueber die bisher
+  ungelesene, oeffentliche Healthcare-Bibliothek (`IMMO-06/Healthcare/HEIM`; nicht D8-freigabe-
+  gebunden, da Dritt-/oeffentliche Dokumente): der **Baukredit-Bericht Neubau Pflegeheim Herosé
+  Aarau** (Stadtrat Aarau, Botschaft GV 2018-2021/285, 13.12.2021, 116 Zimmer, 55.8 Mio).
+- **`wiki/realwert-sachwert.md`** (07-02, established): neue Sektion **Healthcare-Neubau-
+  Erstellungskosten-Benchmark** — BKP-Zusammenstellung (55.8 Mio), Kennwerte BKP 2 = **1'105 CHF/m3
+  GV / 3'848 CHF/m2 GF / 346'681 CHF/Zimmer**, **Vier-Heim-Vergleich** (Herosé/Suhrhard/Blumenrain
+  Zollikon/Obere Muehle Lenzburg: 337-418k CHF/Zimmer, Taxe 150-180). Bestaetigt Healthcare-Zuschlag
+  +20-25 % (~3'850-4'000 CHF/m2 GF).
+- **`wiki/ertragswert-dcf.md`** (07-02, established): neue Sektion **Healthcare-Ertragsmodell — realer
+  CH-Fall Herosé** — kostenbasiertes Taxensystem, **Annuitaets-Finanzierung** (lineare Abschreibung
+  **33 J** nach CURAVIVA Handbuch Anlagebuchhaltung V2019, kalk. Zins = **BWO-Referenzzins 1.25 %**),
+  KVG-Abzug 6.812 Mio, Annuitaet/Bett/Tag 43.75+6.08, **Hotellerie-Taxe 120→153 CHF/Tag**,
+  Spezialfinanzierung ueber Investitionsfonds, KoRe-Kostentraeger (ARTISET). Healthcare-Diskontzeile
+  der D3-Tabelle: Kosten-/Annuitaetsseite **belegt** (statt *emerging*/Annahme), Investoren-Markt-
+  Diskont bleibt offen.
+- **`wiki/projektstruktur-deliverables.md`** (07-02): neue Sektion **Healthcare-Bewertung — Bruecke
+  zum Skill `healthcare-wirtschaftlichkeit`** (drei durable Regeln: Erstellungskosten +20-25 %,
+  kostenbasierter Ertragswert via Annuitaet, Deliverable ueber Schwester-Skill).
+- **Run-11-Prozessleck nachgetragen** (Health-Check-Finding E): `ertragswert-dcf.md` `last_updated`
+  30.06.→07-02, Run-11-Eintrag (10-j Eidgenoss 0.24-0.40 %) in der Offen-Sektion protokolliert,
+  Output `outputs/2026-06-30_training-run11.md` angelegt.
+- **Health-Check-Findings B/F bereinigt:** 2 falsche `[[Backlinks]]` → Klartext
+  (`[[healthcare-wirtschaftlichkeit]]`→Skill in `zh-wald-8636`; `[[outputs/…]]`→Report in
+  `sz-wangen-8854`); Frontmatter vereinheitlicht (`zh-thalwil` `plz: 8136`→**8800**; `kanton:`
+  Zuerich→**Zürich** in langnau/zollikon); INDEX `nutzungskonzepte` *emerging*→**established**.
+- **Marktpuls (Web, 02.07.):** alle Anker unveraendert — SNB 0.00 %, Referenzzins 1.25 % (naechste
+  Publ. 01.09.2026), Mietindex Mai-2026 133.7 (+2.5 % YoY), 10-j Eidgenoss ~0.35 %. → [[investorenmarkt-makro]].
+- Register: `raw/_INGESTED.md` (2 neue Quellen + Stand Run 12), `curriculum.md` (E9 Healthcare ✓,
+  E7 Marktpuls), `wissensluecken.md` (T17 reframed + Erledigt), `datenquellen-registry.md` (Healthcare-
+  Zeile), `INDEX.md` (Deskriptoren). Output `outputs/2026-07-02_training-run12.md`.
+
+## 2026-06-30 — Training-Run 11: Marktpuls 10-j Eidgenoss (nachtraeglich protokolliert)
+
+- **`wiki/ertragswert-dcf.md`**: risikofreies Basisniveau der JANS-Diskontsatz-Tabelle (D3) auf
+  **10-j Eidgenoss 0.24-0.40 % (Juni 2026, Ende Juni sinkend auf 0.24 %)** aktualisiert (Web,
+  tradingeconomics/SNB-Datenportal). **Prozessleck:** Run 11 fuehrte `last_updated`/CHANGELOG/Output
+  nicht nach (vom Health-Check 01.07. gemeldet, Finding E) — **nachtraeglich mit Run 12 protokolliert**
+  (dieser Eintrag + `outputs/2026-06-30_training-run11.md`). Kein weiterer inhaltlicher Edit.
+
 ## 2026-07-01 — Wissens-Health-Check (Phase 1, unbeaufsichtigt)
 
 - Audit A-G ueber 26 Wiki-Artikel + Outputs + `_INGESTED`/`training`. Befund: gesunde, sehr gut

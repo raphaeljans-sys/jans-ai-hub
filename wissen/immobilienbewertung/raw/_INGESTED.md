@@ -48,6 +48,20 @@ real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
 
+**Stand Run 12 (2026-07-02):** **T17 (Healthcare-Bewertungsfall) weitgehend geschlossen.** Aus der
+bisher ungelesenen Healthcare-Bibliothek (`06 Kennwerte/Healthcare/HEIM/`, NICHT freigabegebunden —
+oeffentliche/Dritt-Dokumente, im Unterschied zu den JANS-DOCX-Kennwerten D8) zwei Quellen
+ingestiert: (1) der **oeffentliche Baukredit-Bericht Pflegeheim Herosé Aarau** (13.12.2021) liefert
+den lang gesuchten realen CH-Pflegeheim-Anker — Erstellungskosten-Kennwerte (BKP 2 = 3'848 CHF/m2 GF /
+1'105 CHF/m3 GV / 346'681 CHF/Zimmer + 4-Heim-Vergleich) und das **Annuitaets-Finanzierungsmodell**
+(33 J CURAVIVA / BWO-Referenzzins 1.25 %, KVG-/Hotellerie-Taxen-Trennung, Taxe 120→153 CHF/Tag);
+(2) die **ARTISET KVG-KoRe-Fachnews** belegt die standardisierte Betriebskostenrechnung. Damit ist
+T17 auf der **Kosten-/Annuitaetsseite belegt**; offen bleibt nur der Investoren-Markt-Diskont (realer
+Verkaufs-/Fondsfall). Zusaetzlich der **Run-11-Prozessleck** (undokumentierter 30.06.-Edit,
+Health-Check 01.07.) nachgetragen und die drei Health-Check-Findings (Backlinks, Frontmatter) bereinigt.
+Noch nicht gelesen (fuer kuenftige Laeufe): Obsan-Bericht 03/2022, SenioResidenz-Geschaeftsbericht,
+Herosé-Vergleichsheim-Details.
+
 **Stand Run 10 (2026-06-28):** **drei bisher ungelesene, NICHT freigabegebundene Quellen
 ingestiert** (die Freigabe-Sperre betraf nur die `.xlsx`-Tools D4). (1) Raphaels datierte Notiz
 `231231_Residualwert und Diskontierung.docx` (31.12.2023) belegt die **JANS-Diskontsatz-

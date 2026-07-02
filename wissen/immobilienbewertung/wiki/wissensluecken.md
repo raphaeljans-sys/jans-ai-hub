@@ -22,9 +22,23 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T17 | **Healthcare-Bewertungsfall**: im Bewertungsordner existiert keiner (alle Wohnen/MFH/STWE). Brücke zu Skill `healthcare-wirtschaftlichkeit` (2410 WALD/Nova) bauen — ein reales Pflegeheim/Klinik-Bewertungs-Deliverable als Referenz erfassen, sobald vorhanden (Bring-Schuld Raphael) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare-Kennwerte | [[projektstruktur-deliverables]], [[ertragswert-dcf]] |
+| T17 | **Healthcare-Bewertung** — Kosten-/Annuitaetsseite ✓ **belegt** (Run 12, oeffentl. Herosé-Baukredit 2021: Erstellungskosten-Kennwerte + Annuitaets-/Taxenmodell CURAVIVA/BWO). **Rest offen:** ein realer Healthcare-**Verkaufs-/Fondsfall** fuer den Investoren-Markt-Diskont (Kapitalisierung der Betreiber-Miete beim Verkauf, z.B. Nova/Tertianum) — Bring-Schuld Raphael, sobald ein solches Deliverable vorliegt. Zudem noch ungelesen: Obsan 03/2022, SenioResidenz-Geschaeftsbericht (kuenftiger Lauf) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare | [[projektstruktur-deliverables]], [[ertragswert-dcf]], [[realwert-sachwert]] |
 
 ## Erledigt
+
+- ✓ 2026-07-02 **T17 (Kosten-/Annuitaetsseite) + Health-Check-Cleanup** (Run 12): Aus der bisher
+  ungelesenen **oeffentlichen Healthcare-Bibliothek** (`IMMO-06/Healthcare/HEIM`, nicht D8-freigabe-
+  gebunden) den **Baukredit-Bericht Pflegeheim Herosé Aarau** (Stadt Aarau, 13.12.2021) eingearbeitet:
+  Erstellungskosten-Kennwerte (BKP 2 = 3'848 CHF/m2 GF / 1'105 CHF/m3 GV / 346'681 CHF/Zimmer +
+  4-Heim-Vergleich) → [[realwert-sachwert]]; **Annuitaets-Finanzierungsmodell** (lineare Abschreibung
+  33 J CURAVIVA / kalk. Zins BWO-Referenzzins 1.25 %, KVG-/Hotellerie-Taxen-Trennung, Taxe 120→153
+  CHF/Tag, Spezialfinanzierung) → [[ertragswert-dcf]]; Healthcare-Bewertungsbruecke → [[projektstruktur-deliverables]].
+  Plus **ARTISET KVG-KoRe** (Kostentraeger LZP/ToNs/AUEP). Healthcare-Diskontzeile: Kosten-/Annuitaets-
+  seite belegt. Zusaetzlich die drei Health-Check-Findings (01.07.) bereinigt: Run-11-Prozessleck
+  nachgetragen (`ertragswert-dcf` `last_updated`/CHANGELOG/Output), 2 falsche Backlinks korrigiert
+  (`[[healthcare-wirtschaftlichkeit]]`→Skill-Klartext in `zh-wald-8636`; `[[outputs/…]]`→Report-Klartext
+  in `sz-wangen-8854`), Frontmatter vereinheitlicht (Thalwil `plz: 8800`, `kanton: Zürich` in langnau/
+  zollikon, INDEX `nutzungskonzepte` *established*). Marktpuls unveraendert.
 
 - ✓ 2026-06-28 **E8 / D3-Wohnbau-Faustregel** (Run 10) **drei ungelesene Quellen ingestiert**
   (nicht freigabegebunden): R.-Jans-Notiz `231231_Residualwert und Diskontierung.docx` (31.12.2023)
