@@ -57,16 +57,50 @@ const LOGIN_URL = BASE + '/saml/login';
 const ENV_FILE = join(homedir(), '.ebaugesuche-zh.env');
 const SESSION_FILE = join(homedir(), '.ebaugesuche-zh.session.json');
 
-// API-Endpunkte aus main-Bundle extrahiert (02.07.2026). Die mit (?) markierten
-// werden beim ersten echten Lauf verifiziert; Konstante hier anpassen falls anders.
+// API-Endpunkte — am 02.07.2026 live gegen die Plattform verifiziert.
 const ENDPUNKTE = {
-  user:            'api/user/v1',                          // eingeloggter Benutzer (Auth-Probe)
-  dossierListe:    'api/construction/v1',                  // (?) Liste der Baugesuche
-  dossierInfo:     'api/construction/v1/constructionInfo', // (?) Stammdaten/Status eines Dossiers
-  timeline:        'api/timeline/v1',                      // (?) chronologischer Verlauf
-  aktivitaeten:    'api/activity/v1',                      // (?) offene Aktivitaeten/Pendenzen
-  dokumente:       'api/internal/file/v2',                 // (?) Dokumentenliste
+  user:         'api/user/v1',                       // eingeloggter Benutzer (Auth-Probe)
+  dossierListe: 'api/construction/v1',               // ARRAY aller eigenen Baugesuche
+  dossierDetail:(id) => `api/construction/v1/${id}`, // Voll-Dossier inkl. activities/documents/accesses/state
+  aktivitaeten: (id) => `api/activity/v1/${id}`,     // Verlauf (falls Detail-activities leer)
 };
+
+// ZH-Verfahrensstaende (state) im Klartext. Reihenfolge = Ablauf bis Baufreigabe.
+const STATE_TEXT = {
+  SUBMITTED:     'Eingereicht — in behoerdlicher Pruefung',
+  PROCESSING:    'In Bearbeitung durch die Behoerde',
+  SUSPENDED:     'Sistiert — wartet auf Ergaenzung/Freigabe (hier hakt es)',
+  WITHDRAWN:     'Zurueckgezogen',
+  GRANTED:       'Baurechtsentscheid eroeffnet (bewilligt) — Baufreigabe noch ausstehend',
+  APPROVED:      'Baufreigabe erteilt',
+  DECISION_MADE: 'Entscheid erteilt',
+  CLOSED:        'Abgeschlossen',
+};
+// Kompakte Stand-Bezeichnung fuer die Listenspalte (<= 13 Zeichen)
+const STATE_KURZ = {
+  SUBMITTED: 'Eingereicht', PROCESSING: 'In Pruefung', SUSPENDED: 'Sistiert',
+  GRANTED: 'Entscheid', APPROVED: 'Baufreigabe', DECISION_MADE: 'Entscheid',
+  CLOSED: 'Abgeschlossen', WITHDRAWN: 'Zurueckgez.',
+};
+// Verfahrensbalken: Phasen und Zuordnung des aktuellen state
+const PHASEN = ['Eingereicht', 'In Pruefung', 'Baurechtsentscheid', 'Baufreigabe', 'Abgeschlossen'];
+const STATE_PHASE = {
+  SUBMITTED: 0, PROCESSING: 1, SUSPENDED: 1, GRANTED: 2, APPROVED: 3, DECISION_MADE: 4, CLOSED: 4, WITHDRAWN: 4,
+};
+// Was fehlt bis zur Baufreigabe — je nach aktuellem state
+function bisBaufreigabe(state) {
+  switch (state) {
+    case 'APPROVED':      return 'Baufreigabe ist erteilt — das Vorhaben darf gebaut werden.';
+    case 'DECISION_MADE':
+    case 'CLOSED':        return 'Verfahren abgeschlossen; die Baufreigabe liegt vor bzw. ist gegenstandslos.';
+    case 'GRANTED':       return 'Baurechtsentscheid ist eroeffnet. Bis zur Baufreigabe: Rechtsmittelfrist abwarten, allfaellige Auflagen erfuellen, dann erteilt die Behoerde die Baufreigabe (Schritt "Baufreigabe erteilen"; bei Bedarf durch "Baufreigabe beantragen" ausloesen).';
+    case 'SUSPENDED':     return 'Verfahren sistiert. Der letzte Schritt (unten) nennt die Ursache — z.B. Aktenergaenzung, Austauschplaene oder Hindernisbrief. Dieser Punkt muss erledigt werden, damit es weiterlaeuft.';
+    case 'PROCESSING':    return 'In behoerdlicher Pruefung. Naechste Meilensteine bis zur Freigabe: Vollstaendigkeit/Publikation/eAuflage, Baurechtsentscheid, danach Baufreigabe.';
+    case 'SUBMITTED':     return 'Gesuch ist eingereicht. Es folgen Eingangsbestaetigung, Vollstaendigkeitspruefung, Publikation/eAuflage und der Baurechtsentscheid — danach die Baufreigabe.';
+    case 'WITHDRAWN':     return 'Gesuch wurde zurueckgezogen — keine Baufreigabe zu erwarten.';
+    default:              return 'Stand nicht eindeutig ableitbar; bitte Verlauf unten pruefen.';
+  }
+}
 
 // ---------------------------------------------------------------- Hilfen
 function fail(msg) { console.error('FEHLER: ' + msg); process.exit(1); }
@@ -325,83 +359,132 @@ function d(s) { // sechsstelliges Datum TT.MM.JJ aus ISO
   return m ? `${m[3]}.${m[2]}.${m[1].slice(2)}` : String(s);
 }
 
+// Rohe Dossier-Liste holen (ARRAY) — einmal, fuer Auswahl/Aufloesung.
+async function ladeListe() {
+  const arr = await api(ENDPUNKTE.dossierListe);
+  return Array.isArray(arr) ? arr : (arr?.content || arr?.items || []);
+}
+
+// Dossier aus der Liste aufloesen: per publicIdent (UUID), dossierIdentification
+// (z.B. B26-00705.01 / 2024.227) oder Titel-/Ort-Teilstring (z.B. "Bohlweg").
+function findeDossier(liste, ident) {
+  const s = String(ident).toLowerCase().trim();
+  return liste.find(g => String(g.publicIdent).toLowerCase() === s)
+      || liste.find(g => String(g.dossierIdentification || '').toLowerCase() === s)
+      || liste.find(g => String(g.title || '').toLowerCase().includes(s))
+      || liste.find(g => String(g.commune?.name || '').toLowerCase() === s);
+}
+
 async function zeigeListe() {
-  const daten = await api(ENDPUNKTE.dossierListe);
-  const arr = Array.isArray(daten) ? daten : (daten?.content || daten?.items || []);
-  if (!arr.length) { info('Keine Baugesuche gefunden (oder Endpunkt abweichend — siehe --entdecke).'); return; }
-  console.log(`\nBaugesuche (${arr.length}):\n`);
+  const arr = await ladeListe();
+  if (!arr.length) { info('Keine Baugesuche im Konto gefunden.'); return; }
+  console.log(`\nBaugesuche im ZHlogin-Konto (${arr.length}):\n`);
+  console.log('  Nr.'.padEnd(18) + 'Gemeinde'.padEnd(12) + 'Stand'.padEnd(14) + 'Vorhaben');
+  console.log('  ' + '─'.repeat(74));
   for (const g of arr) {
-    const nr = g.publicIdent || g.identifier || g.dossierNr || g.id;
-    const ort = g.commune || g.gemeinde || g.municipality || '';
-    const titel = g.projectTitle || g.title || g.bezeichnung || '';
-    const status = g.status || g.state || g.currentActivity || '';
-    console.log(`  ${String(nr).padEnd(16)} ${String(ort).padEnd(16)} ${status}`);
-    if (titel) console.log(`  ${' '.repeat(16)} ${titel}`);
+    const nr = (g.dossierIdentification && g.dossierIdentification !== 'ID') ? g.dossierIdentification : g.publicIdent.slice(0, 8);
+    const ort = g.commune?.name || '';
+    const stand = STATE_KURZ[g.state] || g.state || '';
+    console.log('  ' + String(nr).padEnd(16) + String(ort).padEnd(12) + String(stand).padEnd(14) + String(g.title || '').slice(0, 44));
   }
-  console.log('');
+  console.log('\n  Statusbericht:  node ebaugesuche-zh.mjs --bericht "<Nr oder Stichwort>"\n');
+}
+
+function verfahrensbalken(state) {
+  const i = STATE_PHASE[state] ?? 0;
+  return PHASEN.map((p, k) => (k === i ? `[${p}]` : p)).join('  ›  ');
 }
 
 async function zeigeBericht(ident, kurz = false) {
-  // Dossier-Info holen (Endpunkt nimmt i.d.R. ?publicIdent= oder /{id})
-  let d0;
-  try { d0 = await api(`${ENDPUNKTE.dossierInfo}?publicIdent=${encodeURIComponent(ident)}`); }
-  catch { d0 = await api(`${ENDPUNKTE.dossierInfo}/${encodeURIComponent(ident)}`); }
-  const dossier = Array.isArray(d0) ? d0[0] : (d0?.content?.[0] || d0);
-  if (!dossier) fail(`Dossier ${ident} nicht gefunden.`);
+  const liste = await ladeListe();
+  const kopf = findeDossier(liste, ident);
+  if (!kopf) fail(`Kein Baugesuch zu "${ident}" gefunden. Verfuegbare: node ebaugesuche-zh.mjs --liste`);
+  const det = await api(ENDPUNKTE.dossierDetail(kopf.publicIdent));
 
-  const nr = dossier.publicIdent || dossier.identifier || ident;
-  const ort = dossier.commune || dossier.gemeinde || dossier.municipality || '—';
-  const titel = dossier.projectTitle || dossier.title || dossier.bezeichnung || '—';
-  const status = dossier.status || dossier.state || dossier.currentActivity || '—';
+  const nr = (det.dossierIdentification && det.dossierIdentification !== 'ID') ? det.dossierIdentification : '—';
+  const gemeinde = det.commune?.name || kopf.commune?.name || '—';
+  const amt = det.commune?.description || '';
+  const adresse = kopf.relevantAddress || '';
+  const state = det.state || kopf.state;
+
+  // Verlauf: aus dem Detail (activities); Fallback auf eigenen Endpunkt
+  let acts = Array.isArray(det.activities) ? det.activities.slice() : [];
+  if (!acts.length) { try { acts = await api(ENDPUNKTE.aktivitaeten(kopf.publicIdent)); } catch {} }
+  acts.sort((a, b) => new Date(b.insertTimestamp || 0) - new Date(a.insertTimestamp || 0));
+  const letzter = acts[0] || {};
 
   const L = [];
-  L.push('════════════════════════════════════════════════════════════');
-  L.push(`  STATUSBERICHT BAUGESUCH — ${nr}`);
-  L.push('════════════════════════════════════════════════════════════');
-  L.push(`  Gemeinde:   ${ort}`);
-  L.push(`  Vorhaben:   ${titel}`);
-  L.push(`  Stand:      ${status}`);
+  L.push('════════════════════════════════════════════════════════════════════');
+  L.push(`  STATUSBERICHT BAUGESUCH${nr !== '—' ? '  ' + nr : ''}`);
+  L.push('════════════════════════════════════════════════════════════════════');
+  L.push(`  Vorhaben:   ${det.title || kopf.title || '—'}`);
+  if (adresse) L.push(`  Adresse:    ${adresse}`);
+  L.push(`  Gemeinde:   ${gemeinde}${amt ? '  (' + amt + ')' : ''}`);
+  L.push(`  Verfahren:  ${det.constructionType?.descDeUI || det.constructionType?.descDe || kopf.constructionTypeDesc || '—'}`);
+  const eingereicht = det.submissionDate || kopf.submissionDate;
+  L.push(`  Eingereicht:${eingereicht ? ' ' + d(eingereicht) : ' —'}`);
   L.push(`  Abgefragt:  ${d(new Date().toISOString())}`);
   L.push('');
+  L.push(`  STAND:  ${STATE_TEXT[state] || state}`);
+  L.push('');
+  L.push('  ' + verfahrensbalken(state));
+  L.push('');
+  L.push('  WAS FEHLT BIS ZUR BAUFREIGABE');
+  L.push('  ─────────────────────────────');
+  for (const zeile of wrap(bisBaufreigabe(state), 66)) L.push('  ' + zeile);
+  if (letzter.messageType) {
+    L.push('');
+    L.push(`  Aktueller Ball: ${d(letzter.insertTimestamp)} · ${quelle(letzter.source)} · ` +
+           `${letzter.messageType.descHistoryDe || letzter.messageType.descDe}`);
+    if (letzter.remark) for (const z of wrap('„' + letzter.remark.trim() + '"', 64)) L.push('    ' + z);
+  }
+  L.push('');
 
-  // Verlauf / Timeline
-  try {
-    const tl = await api(`${ENDPUNKTE.timeline}?publicIdent=${encodeURIComponent(ident)}`);
-    const eintraege = Array.isArray(tl) ? tl : (tl?.content || tl?.items || []);
-    if (eintraege.length) {
-      L.push('  BISHERIGER VERLAUF');
-      L.push('  ──────────────────');
-      for (const e of eintraege.slice(-15)) {
-        const dt = d(e.date || e.timestamp || e.createdAt);
-        const tx = e.title || e.name || e.activity || e.description || '';
-        L.push(`  ${dt.padEnd(10)} ${tx}`);
-      }
-      L.push('');
-    }
-  } catch { /* Endpunkt ggf. anders; via --entdecke verifizieren */ }
+  // Bisheriger Verlauf
+  L.push('  BISHERIGER VERLAUF');
+  L.push('  ──────────────────');
+  for (const a of acts) {
+    const dt = d(a.insertTimestamp);
+    const q = quelle(a.source);
+    const tx = a.messageType?.descHistoryDe || a.messageType?.descDe || '';
+    const docs = (a.documents || []).length;
+    L.push(`  ${dt.padEnd(10)} ${q.padEnd(8)} ${tx}${docs ? `  (${docs} Dok.)` : ''}`);
+  }
+  L.push('');
 
-  // Offene Aktivitaeten / Pendenzen -> "wo hakt es / was fehlt"
-  try {
-    const ak = await api(`${ENDPUNKTE.aktivitaeten}?publicIdent=${encodeURIComponent(ident)}`);
-    const offen = (Array.isArray(ak) ? ak : (ak?.content || ak?.items || []))
-      .filter(a => !(a.done || a.completed || a.status === 'DONE'));
-    L.push('  OFFEN / ZU ERLEDIGEN BIS BAUFREIGABE');
-    L.push('  ────────────────────────────────────');
-    if (offen.length) {
-      for (const a of offen) {
-        const wer = a.assignee || a.role || a.responsible || '';
-        const was = a.title || a.name || a.description || '';
-        const frist = d(a.dueDate || a.deadline);
-        L.push(`  • ${was}${wer ? `  [${wer}]` : ''}${frist ? `  Frist ${frist}` : ''}`);
-      }
-    } else {
-      L.push('  (keine offenen Aktivitaeten in der Plattform hinterlegt)');
+  // Beteiligte
+  const acc = det.accesses || [];
+  if (acc.length) {
+    L.push('  BETEILIGTE');
+    L.push('  ──────────');
+    for (const p of acc) {
+      const name = [p.person?.firstName, p.person?.lastName].filter(Boolean).join(' ') || p.userName || p.person?.organisation || '';
+      L.push(`  ${(ROLLE[p.functionKey] || p.functionKey || '').padEnd(16)} ${name}`);
     }
     L.push('');
-  } catch { /* via --entdecke verifizieren */ }
+  }
 
-  L.push('════════════════════════════════════════════════════════════');
+  // Dokumente (Anzahl + zuletzt eingegangene)
+  const docs = det.documents || [];
+  L.push(`  DOKUMENTE (${docs.length})`);
+  L.push('  ──────────');
+  for (const dc of docs.slice().sort((a, b) => new Date(b.insertTimestamp || 0) - new Date(a.insertTimestamp || 0)).slice(0, 6)) {
+    L.push(`  ${d(dc.insertTimestamp).padEnd(10)} ${quelle(dc.source).padEnd(8)} ${dc.category?.descDe || ''}: ${dc.fileName || dc.standardName || ''}`.slice(0, 70));
+  }
+  if (docs.length > 6) L.push(`  … und ${docs.length - 6} weitere`);
+  L.push('');
+  L.push('════════════════════════════════════════════════════════════════════');
   console.log(L.join('\n'));
+}
+
+// Hilfen fuer den Bericht
+const ROLLE = { OWNER: 'Bauherr/Gesuch', PARTICIPANT: 'Beteiligt', COMMUNE: 'Gemeinde', COMMUNE_USER: 'Gemeinde', AUTHOR: 'Verfasser' };
+function quelle(s) { return s === 'COMMUNE' ? 'Gemeinde' : s === 'OWNER' ? 'Sie' : s === 'CANTON' ? 'Kanton' : (s || ''); }
+function wrap(text, breite) {
+  const worte = String(text).split(/\s+/); const zeilen = []; let z = '';
+  for (const w of worte) { if ((z + ' ' + w).trim().length > breite) { zeilen.push(z.trim()); z = w; } else z += ' ' + w; }
+  if (z.trim()) zeilen.push(z.trim());
+  return zeilen;
 }
 
 async function zeigeSession() {

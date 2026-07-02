@@ -31,6 +31,52 @@ Hinweis: Der Namens-Check ist ein belastbares Indiz, kein amtlicher Entscheid �
 letzte Wort zur "deutlichen Unterscheidbarkeit" hat das Handelsregisteramt/Notar.
 Genutzt u.a. von der KB `firmengruendung-ch` und dem Skill `spec` (Verifier-Stufe).
 
+## ebaugesuche-zh.mjs — eBaugesucheZH (Baubewilligungs-Portal Kt. ZH)
+
+Liest den **Verfahrensstand eigener Baugesuche** auf der kantonalen Plattform
+`portal.ebaugesuche.zh.ch` und erzeugt daraus einen **Statusbericht**: aktueller
+Stand, Verfahrensbalken (Eingereicht › In Pruefung › Baurechtsentscheid › Baufreigabe
+› Abgeschlossen), bisheriger Verlauf, Beteiligte, Dokumente und — abgeleitet aus dem
+ZH-Prozessmodell — **was bis zur Baufreigabe fehlt**. **Read-only** (nur GET; kein Code,
+der etwas einreicht/aendert/loescht).
+
+**Login-Motor:** headless Chromium (Playwright) durch den ZHlogin
+(`idp.zh.ch`, Siemens/DXA) → Profil «Login Private und Unternehmen» → ZHservices
+(`services.zh.ch`, AngularJS) → **Mobile ID** (Freigabe am Handy, nicht automatisierbar).
+Danach wird die Session (`~/.ebaugesuche-zh.session.json`, chmod 600) persistiert und die
+JSON-API direkt per `fetch` angesprochen (kein Browser fuer Lese-Abfragen). Das JWT lebt
+**~10 Tage**; `--refresh` frischt still ueber die `idp.zh.ch`-SSO auf (ohne Handy),
+solange die SSO gueltig ist — sonst meldet er, dass ein `--login` mit Handy noetig ist.
+
+**Zugangsdaten** (pro Station, NIE in Git):
+```
+~/.ebaugesuche-zh.env        # chmod 600
+EBAU_USER=Raphael_Jans
+EBAU_PASSWORD=...             # ZHservices-Passwort
+EBAU_LOGIN_PROFILE=Login Private und Unternehmen
+```
+Voraussetzung einmalig: `npm install playwright && npx playwright install chromium`.
+
+**Befehle:**
+```bash
+node ebaugesuche-zh.mjs --login [--sichtbar]   # Erstlogin (Mobile ID am Handy bestaetigen)
+node ebaugesuche-zh.mjs --refresh              # stille SSO-Auffrischung (ohne Handy)
+node ebaugesuche-zh.mjs --session              # Session-Zustand/Token-Ablauf pruefen
+node ebaugesuche-zh.mjs --liste                # alle eigenen Baugesuche + Stand
+node ebaugesuche-zh.mjs --bericht "B26-00705.01"   # Statusbericht (Nr., Stichwort oder UUID)
+node ebaugesuche-zh.mjs --raw api/construction/v1  # Debug: beliebiger API-Pfad
+```
+
+**Stand 02.07.2026 — komplett validiert** (Login inkl. Mobile ID, Liste, Bericht):
+- Endpunkte: `api/construction/v1` (Dossierliste), `api/construction/v1/<publicIdent>`
+  (Voll-Dossier inkl. `activities`/`documents`/`accesses`/`state`), `api/activity/v1/<id>`
+  (Verlauf), `api/access/v1?publicIdent=<id>` (Beteiligte), `api/user/v1` (Auth-Probe).
+- ZH-Verfahrensstaende (`state`): SUBMITTED → PROCESSING → GRANTED (Baurechtsentscheid
+  eroeffnet) → **APPROVED (Baufreigabe erteilt)** → DECISION_MADE → CLOSED; SUSPENDED =
+  sistiert (Aktenergaenzung/Austauschplaene/Hindernisbrief = «hier hakt es»).
+- Auswahl per `dossierIdentification` (z.B. `B26-00705.01`, `2024.227`), Titel-/Ort-
+  Stichwort (`Bohlweg`, `Kinderspital`) oder `publicIdent`-UUID.
+
 ## truninger-ds3.mjs — Truninger-Plattform (DS3 Data-Share)
 
 Lese-Connector zum Projektraum **ds3.data-share.ch** («Truningerserver», DS3 von
