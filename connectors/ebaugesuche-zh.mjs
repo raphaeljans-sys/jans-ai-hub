@@ -211,8 +211,27 @@ async function fuehreLoginAus({ sichtbar = false, still = false, timeoutSek = 18
       } else {
         info('→ Trage Benutzername und Passwort ein …');
         await userFeld.waitFor({ state: 'visible' });
-        await userFeld.fill(env.EBAU_USER);
-        await passFeld.fill(env.EBAU_PASSWORD);
+        // AngularJS (ng-model) braucht echte Tastatur-Events, sonst bleibt das Modell leer.
+        await userFeld.click();
+        await userFeld.fill('');
+        await userFeld.pressSequentially(env.EBAU_USER, { delay: 30 });
+        await passFeld.click();
+        await passFeld.fill('');
+        await passFeld.pressSequentially(env.EBAU_PASSWORD, { delay: 30 });
+        await passFeld.evaluate((el) => el.blur());
+
+        // Recon: direkt nach dem Absenden den ZHservices-Zustand festhalten (kein 180s-Warten)
+        if (process.env.EBAU_RECON2 === '1') {
+          const submit = page.locator('input[type="submit"][value="Anmelden"], input[type="submit"]').first();
+          await submit.click().catch(() => passFeld.press('Enter'));
+          await page.waitForTimeout(9000);
+          try { await page.screenshot({ path: '/tmp/ebau-postsubmit.png', fullPage: true }); } catch {}
+          try { writeFileSync('/tmp/ebau-postsubmit.html', await page.content()); } catch {}
+          info(`RECON2: Nach Absenden URL = ${page.url()}`);
+          await browser.close();
+          process.exit(0);
+        }
+
         // Submit: Button oder Enter
         const btn = page.locator(
           'input[type="submit"][value="Anmelden"], input[type="submit"], button[type="submit"], button:has-text("Anmelden"), button:has-text("Login"), button:has-text("Weiter")'
@@ -230,23 +249,34 @@ async function fuehreLoginAus({ sichtbar = false, still = false, timeoutSek = 18
       }
     }
 
-    // 4) Warten bis wir wieder im Portal sind und ein Token vorliegt
+    // 4) Warten bis wir wieder im Portal sind und ein Token vorliegt.
+    //    Unterwegs: Zwischenseiten (Weiterleitung/Geraet-merken/Bestaetigen) autoklicken
+    //    und die URL-Wechsel protokollieren, damit man sieht wo es haengt.
     const bis = Date.now() + timeoutSek * 1000;
-    let ok = false;
+    let ok = false, letzteUrl = '';
     while (Date.now() < bis) {
+      const u = page.url();
+      if (u !== letzteUrl) { info(`   … ${u.slice(0, 90)}`); letzteUrl = u; }
       if (zurueckImPortal()) {
         const tok = await page.evaluate(() => window.localStorage.getItem('token')).catch(() => null);
         if (tok) { ok = true; break; }
       }
-      await page.waitForTimeout(1500);
+      // Etwaige Interstitials nach Mobile ID automatisch weiterklicken
+      const weiter = page.locator(
+        'button:has-text("Weiter"), input[type="submit"], button:has-text("Bestätigen"), ' +
+        'button:has-text("Fortfahren"), button:has-text("Ja"), a:has-text("Weiter")'
+      ).first();
+      if (await weiter.count().catch(() => 0)) await weiter.click({ timeout: 1500 }).catch(() => {});
+      await page.waitForTimeout(2000);
     }
     if (!ok) {
-      if (still) {
-        fail('Stille Auffrischung nicht moeglich (idp.zh.ch-SSO abgelaufen).\n' +
-          '  Bitte mit Handy neu einloggen:  node ebaugesuche-zh.mjs --login');
-      }
-      fail('Login nicht abgeschlossen (kein Token / Mobile ID nicht bestaetigt im Zeitfenster).\n' +
-        '  Nochmal versuchen, ggf. mit  --sichtbar  zur Kontrolle.');
+      // Endzustand fuer die Diagnose sichern (der Timeout-Pfad hatte das bisher verpasst)
+      try { await page.screenshot({ path: '/tmp/ebau-login-timeout.png', fullPage: true }); } catch {}
+      try { writeFileSync('/tmp/ebau-login-timeout.html', await page.content()); } catch {}
+      info(`✗ Kein Token. Endstand-URL: ${page.url()}`);
+      info('  Diagnose: /tmp/ebau-login-timeout.png / .html');
+      if (still) throw new Error('Stille Auffrischung nicht moeglich (SSO abgelaufen) — bitte --login mit Handy.');
+      throw new Error('Login nicht abgeschlossen (kein Token / Mobile ID nicht im Zeitfenster bestaetigt).');
     }
 
     // 5) Session sichern
