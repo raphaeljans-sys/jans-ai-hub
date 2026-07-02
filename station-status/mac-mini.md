@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 02.07.2026 07:25:03
+Stand: 02.07.2026 07:35:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:14)
@@ -12,4 +12,4 @@ Stand: 02.07.2026 07:25:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- edc0288 immobilienbewertung Run 12: Healthcare-Bewertungsbruecke (T17 belegt via Herose-Baukredit) + Health-Check-Cleanup
+- 84cb458 nas-selfcommit: 2 Datei(en) 2026-07-02 07:30
