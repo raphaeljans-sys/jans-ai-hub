@@ -1,0 +1,36 @@
+{
+  "slug": "Wagner",
+  "architekt": {
+    "name": "Wagner",
+    "nachname": "Wagner",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Wagner"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wagner",
+  "projekte": [
+    {
+      "raw": "interne",
+      "ort": "interne",
+      "projekt": "interne",
+      "jahre": [],
+      "titel": "interne"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 22,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 22
+  },
+  "dateitypen": {
+    ".jpg": 14,
+    ".png": 7,
+    ".jpeg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Wagner | interne interne",
+  "stand": "2026-07-02T22:51:20"
+}

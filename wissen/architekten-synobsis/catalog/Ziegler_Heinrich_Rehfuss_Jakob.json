@@ -1,0 +1,36 @@
+{
+  "slug": "Ziegler_Heinrich_Rehfuss_Jakob",
+  "architekt": {
+    "name": "Ziegler Heinrich Rehfuss Jakob",
+    "nachname": "Ziegler",
+    "vorname": "Heinrich Rehfuss Jakob",
+    "jahre": [],
+    "ordner": "Ziegler_Heinrich_Rehfuss_Jakob"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ziegler_Heinrich_Rehfuss_Jakob",
+  "projekte": [
+    {
+      "raw": "Zuerich_Sonneggstrasse_48_52_54",
+      "ort": "Zuerich",
+      "projekt": "Sonneggstrasse 48 52 54",
+      "jahre": [],
+      "titel": "Zuerich Sonneggstrasse 48 52 54"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 3
+  },
+  "dateitypen": {
+    "": 1,
+    ".png": 1,
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Ziegler Heinrich Rehfuss Jakob | Zuerich Sonneggstrasse 48 52 54",
+  "stand": "2026-07-02T22:51:53"
+}

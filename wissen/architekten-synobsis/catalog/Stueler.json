@@ -1,0 +1,35 @@
+{
+  "slug": "Stueler",
+  "architekt": {
+    "name": "Stueler",
+    "nachname": "Stueler",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Stueler"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Stueler",
+  "projekte": [
+    {
+      "raw": "Berlin_Neues_Museum",
+      "ort": "Berlin",
+      "projekt": "Neues Museum",
+      "jahre": [],
+      "titel": "Berlin Neues Museum"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 10,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Stueler | Berlin Neues Museum",
+  "stand": "2026-07-02T22:49:53"
+}

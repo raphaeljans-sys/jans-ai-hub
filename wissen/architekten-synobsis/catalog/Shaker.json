@@ -1,0 +1,26 @@
+{
+  "slug": "Shaker",
+  "architekt": {
+    "name": "Shaker",
+    "nachname": "Shaker",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Shaker"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Shaker",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 7,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 7
+  },
+  "dateitypen": {
+    ".jpg": 7
+  },
+  "textauszug": "",
+  "embed_doc": "Shaker",
+  "stand": "2026-07-02T22:48:16"
+}

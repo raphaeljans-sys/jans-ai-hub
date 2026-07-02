@@ -1,0 +1,34 @@
+{
+  "slug": "Schneller_Andreas",
+  "architekt": {
+    "name": "Schneller Andreas",
+    "nachname": "Schneller Andreas",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Schneller Andreas"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Schneller Andreas",
+  "projekte": [
+    {
+      "raw": "Holziken",
+      "ort": "Holziken",
+      "projekt": "Holziken",
+      "jahre": [],
+      "titel": "Holziken"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 20,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 20
+  },
+  "dateitypen": {
+    ".jpg": 20
+  },
+  "textauszug": "",
+  "embed_doc": "Schneller Andreas | Holziken Holziken",
+  "stand": "2026-07-02T22:47:21"
+}

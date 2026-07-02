@@ -1,0 +1,37 @@
+{
+  "slug": "Rogers_Richard",
+  "architekt": {
+    "name": "Rogers Richard",
+    "nachname": "Rogers",
+    "vorname": "Richard",
+    "jahre": [],
+    "ordner": "Rogers_Richard"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rogers_Richard",
+  "projekte": [
+    {
+      "raw": "pdf_buch",
+      "ort": "pdf",
+      "projekt": "buch",
+      "jahre": [],
+      "titel": "pdf buch"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 22,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 2,
+    "total": 25
+  },
+  "dateitypen": {
+    ".tif": 22,
+    ".indd": 1,
+    ".pdf": 1,
+    ".idlk": 1
+  },
+  "textauszug": "Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 1 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 2 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 3 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 4 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 5 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 6",
+  "embed_doc": "Rogers Richard | pdf buch | Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 1 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 2 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 3 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 4 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 5 Richard Burdett Richard Rogers Bauten und Projekte DVA AR AN 163 Lloyd‘s of London, London, 1978-1986 6",
+  "stand": "2026-07-02T22:46:04"
+}

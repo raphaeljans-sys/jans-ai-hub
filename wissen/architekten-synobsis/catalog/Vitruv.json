@@ -1,0 +1,28 @@
+{
+  "slug": "Vitruv",
+  "architekt": {
+    "name": "Vitruv",
+    "nachname": "Vitruv",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Vitruv"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Vitruv",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 1,
+    ".tif": 1,
+    ".doc": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Vitruv",
+  "stand": "2026-07-02T22:51:14"
+}

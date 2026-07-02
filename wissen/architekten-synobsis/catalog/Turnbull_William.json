@@ -1,0 +1,26 @@
+{
+  "slug": "Turnbull_William",
+  "architekt": {
+    "name": "Turnbull William",
+    "nachname": "Turnbull",
+    "vorname": "William",
+    "jahre": [],
+    "ordner": "Turnbull_William"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Turnbull_William",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Turnbull William",
+  "stand": "2026-07-02T22:50:36"
+}

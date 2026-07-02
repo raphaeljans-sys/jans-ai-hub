@@ -1,0 +1,39 @@
+{
+  "slug": "Saenz_de_Oiza_Francisco",
+  "architekt": {
+    "name": "Saenz de Oiza Francisco",
+    "nachname": "Saenz",
+    "vorname": "de Oiza Francisco",
+    "jahre": [],
+    "ordner": "Saenz_de_Oiza_Francisco"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Saenz_de_Oiza_Francisco",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Kirche",
+      "ort": "Kirche",
+      "projekt": "Kirche",
+      "jahre": [],
+      "titel": "Kirche"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Saenz de Oiza Francisco | 00 Architekten | Kirche Kirche",
+  "stand": "2026-07-02T22:46:43"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "Rietveld_Gery",
+  "architekt": {
+    "name": "Rietveld Gery",
+    "nachname": "Rietveld",
+    "vorname": "Gery",
+    "jahre": [],
+    "ordner": "Rietveld_Gery"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rietveld_Gery",
+  "projekte": [
+    {
+      "raw": "Otterlo_Kroller Muller Museum Rietveld Paviljoen",
+      "ort": "Otterlo",
+      "projekt": "Kroller Muller Museum Rietveld Paviljoen",
+      "jahre": [],
+      "titel": "Otterlo Kroller Muller Museum Rietveld Paviljoen"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Rietveld Gery | Otterlo Kroller Muller Museum Rietveld Paviljoen",
+  "stand": "2026-07-02T22:46:00"
+}

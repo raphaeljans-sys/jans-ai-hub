@@ -1,0 +1,57 @@
+{
+  "slug": "Yorke_Breuer",
+  "architekt": {
+    "name": "Yorke Breuer",
+    "nachname": "Yorke",
+    "vorname": "Breuer",
+    "jahre": [],
+    "ordner": "Yorke_Breuer"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Yorke_Breuer",
+  "projekte": [
+    {
+      "raw": "London_Flat_in_Highpoint_Two_North_Hill_Highgate_radiogram",
+      "ort": "London",
+      "projekt": "Flat in Highpoint Two North Hill Highgate radiogram",
+      "jahre": [],
+      "titel": "London Flat in Highpoint Two North Hill Highgate radiogram"
+    },
+    {
+      "raw": "Pavilion for the furniture manufacturer",
+      "ort": "Pavilion for the furniture manufacturer",
+      "projekt": "Pavilion for the furniture manufacturer",
+      "jahre": [],
+      "titel": "Pavilion for the furniture manufacturer"
+    },
+    {
+      "raw": "Sea Lane House, Angmering-on-Sea, West Sussex_1937",
+      "ort": "Sea Lane House, Angmering-on-Sea, West Sussex",
+      "projekt": "Sea Lane House, Angmering-on-Sea, West Sussex",
+      "jahre": [
+        "1937"
+      ],
+      "titel": "Sea Lane House, Angmering-on-Sea, West Sussex 1937"
+    },
+    {
+      "raw": "Torilla_Nast Hyde, Hatfield, Hertfordshire_the fireplace and staircase",
+      "ort": "Torilla",
+      "projekt": "Nast Hyde, Hatfield, Hertfordshire the fireplace and staircase",
+      "jahre": [],
+      "titel": "Torilla Nast Hyde, Hatfield, Hertfordshire the fireplace and staircase"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 7,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 7
+  },
+  "dateitypen": {
+    ".jpg": 7
+  },
+  "textauszug": "",
+  "embed_doc": "Yorke Breuer | London Flat in Highpoint Two North Hill Highgate radiogram | Pavilion for the furniture manufacturer Pavilion for the furniture manufacturer | Sea Lane House, Angmering-on-Sea, West Sussex Sea Lane House, Angmering-on-Sea, West Sussex 1937 | Torilla Nast Hyde, Hatfield, Hertfordshire the fireplace and staircase",
+  "stand": "2026-07-02T22:51:47"
+}

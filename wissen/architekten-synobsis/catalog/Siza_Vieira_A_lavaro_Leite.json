@@ -1,0 +1,35 @@
+{
+  "slug": "Siza_Vieira_A_lavaro_Leite",
+  "architekt": {
+    "name": "Siza Vieira Àlavaro Leite",
+    "nachname": "Siza",
+    "vorname": "Vieira Àlavaro Leite",
+    "jahre": [],
+    "ordner": "Siza_Vieira_Àlavaro_Leite"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Siza_Vieira_Àlavaro_Leite",
+  "projekte": [
+    {
+      "raw": "Casa_Tolo",
+      "ort": "Casa",
+      "projekt": "Tolo",
+      "jahre": [],
+      "titel": "Casa Tolo"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 22,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 22
+  },
+  "dateitypen": {
+    ".jpg": 21,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Siza Vieira Àlavaro Leite | Casa Tolo",
+  "stand": "2026-07-02T22:48:49"
+}

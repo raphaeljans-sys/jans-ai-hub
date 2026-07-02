@@ -1,0 +1,43 @@
+{
+  "slug": "Williams_Amancio",
+  "architekt": {
+    "name": "Williams Amancio",
+    "nachname": "Williams",
+    "vorname": "Amancio",
+    "jahre": [],
+    "ordner": "Williams_Amancio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Williams_Amancio",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Mar_del_Plata_Brueckenhaus_1945",
+      "ort": "Mar",
+      "projekt": "del Plata Brueckenhaus",
+      "jahre": [
+        "1945"
+      ],
+      "titel": "Mar del Plata Brueckenhaus 1945"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Williams Amancio | 00 Architekten | Mar del Plata Brueckenhaus 1945",
+  "stand": "2026-07-02T22:51:32"
+}

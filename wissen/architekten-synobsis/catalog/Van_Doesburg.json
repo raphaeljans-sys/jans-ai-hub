@@ -1,0 +1,43 @@
+{
+  "slug": "Van_Doesburg",
+  "architekt": {
+    "name": "Van Doesburg",
+    "nachname": "Van",
+    "vorname": "Doesburg",
+    "jahre": [],
+    "ordner": "Van_Doesburg"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Van_Doesburg",
+  "projekte": [
+    {
+      "raw": "Strassbourg_Cine_dancing_Strasbourg",
+      "ort": "Strassbourg",
+      "projekt": "Cine dancing Strasbourg",
+      "jahre": [],
+      "titel": "Strassbourg Cine dancing Strasbourg"
+    },
+    {
+      "raw": "berlin_1918",
+      "ort": "berlin",
+      "projekt": "berlin",
+      "jahre": [
+        "1918"
+      ],
+      "titel": "berlin 1918"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Van Doesburg | Strassbourg Cine dancing Strasbourg | berlin berlin 1918",
+  "stand": "2026-07-02T22:50:46"
+}

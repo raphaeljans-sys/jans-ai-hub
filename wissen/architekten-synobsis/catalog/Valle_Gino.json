@@ -1,0 +1,43 @@
+{
+  "slug": "Valle_Gino",
+  "architekt": {
+    "name": "Valle Gino",
+    "nachname": "Valle",
+    "vorname": "Gino",
+    "jahre": [],
+    "ordner": "Valle_Gino"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Valle_Gino",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Sutrio_Casa_Quaglia_1954",
+      "ort": "Sutrio",
+      "projekt": "Casa Quaglia",
+      "jahre": [
+        "1954"
+      ],
+      "titel": "Sutrio Casa Quaglia 1954"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Valle Gino | 00 Architekten | Sutrio Casa Quaglia 1954",
+  "stand": "2026-07-02T22:50:46"
+}

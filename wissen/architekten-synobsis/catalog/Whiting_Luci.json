@@ -1,0 +1,26 @@
+{
+  "slug": "Whiting_Luci",
+  "architekt": {
+    "name": "Whiting Luci",
+    "nachname": "Whiting",
+    "vorname": "Luci",
+    "jahre": [],
+    "ordner": "Whiting_Luci"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Whiting_Luci",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Whiting Luci",
+  "stand": "2026-07-02T22:51:30"
+}

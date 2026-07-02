@@ -1,0 +1,26 @@
+{
+  "slug": "SAM_Architekten",
+  "architekt": {
+    "name": "SAM Architekten",
+    "nachname": "SAM",
+    "vorname": "Architekten",
+    "jahre": [],
+    "ordner": "SAM_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/SAM_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "SAM Architekten",
+  "stand": "2026-07-02T22:46:28"
+}

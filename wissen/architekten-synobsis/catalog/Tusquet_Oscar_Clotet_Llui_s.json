@@ -1,0 +1,83 @@
+{
+  "slug": "Tusquet_Oscar_Clotet_Llui_s",
+  "architekt": {
+    "name": "Tusquet Oscar Clotet Lluìs",
+    "nachname": "Tusquet",
+    "vorname": "Oscar Clotet Lluìs",
+    "jahre": [],
+    "ordner": "Tusquet_Oscar_Clotet_Lluìs"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Tusquet_Oscar_Clotet_Lluìs",
+  "projekte": [
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Lehre",
+      "ort": "02",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "02 Lehre"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Forschung",
+      "ort": "05",
+      "projekt": "Forschung",
+      "jahre": [],
+      "titel": "05 Forschung"
+    },
+    {
+      "raw": "06_Texte",
+      "ort": "06",
+      "projekt": "Texte",
+      "jahre": [],
+      "titel": "06 Texte"
+    },
+    {
+      "raw": "07_Berichte",
+      "ort": "07",
+      "projekt": "Berichte",
+      "jahre": [],
+      "titel": "07 Berichte"
+    },
+    {
+      "raw": "08_Zitate_von_und_Ueber_den_Architekten",
+      "ort": "08",
+      "projekt": "Zitate von und Ueber den Architekten",
+      "jahre": [],
+      "titel": "08 Zitate von und Ueber den Architekten"
+    }
+  ],
+  "projekt_anzahl": 8,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Tusquet Oscar Clotet Lluìs | 01 Projekte | 02 Lehre | 03 Ausstellungen | 04 Literatur | 05 Forschung | 06 Texte | 07 Berichte | 08 Zitate von und Ueber den Architekten",
+  "stand": "2026-07-02T22:50:36"
+}

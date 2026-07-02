@@ -1,0 +1,45 @@
+{
+  "slug": "Reiluf_Ramstad_Architekten",
+  "architekt": {
+    "name": "Reiluf Ramstad Architekten",
+    "nachname": "Reiluf Ramstad Architekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Reiluf Ramstad Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Reiluf Ramstad Architekten",
+  "projekte": [
+    {
+      "raw": "Investment",
+      "ort": "Investment",
+      "projekt": "Investment",
+      "jahre": [],
+      "titel": "Investment"
+    },
+    {
+      "raw": "Oslo",
+      "ort": "Oslo",
+      "projekt": "Oslo",
+      "jahre": [],
+      "titel": "Oslo"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 30,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 2,
+    "total": 33
+  },
+  "dateitypen": {
+    ".jpg": 26,
+    ".png": 4,
+    ".psd": 1,
+    ".pdf": 1,
+    ".pln": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Reiluf Ramstad Architekten | Investment Investment | Oslo Oslo",
+  "stand": "2026-07-02T22:45:45"
+}

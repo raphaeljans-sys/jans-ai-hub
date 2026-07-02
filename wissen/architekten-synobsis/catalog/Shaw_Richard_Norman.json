@@ -1,0 +1,34 @@
+{
+  "slug": "Shaw_Richard_Norman",
+  "architekt": {
+    "name": "Shaw Richard Norman",
+    "nachname": "Shaw",
+    "vorname": "Richard Norman",
+    "jahre": [],
+    "ordner": "Shaw_Richard_Norman"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Shaw_Richard_Norman",
+  "projekte": [
+    {
+      "raw": "Chiswick",
+      "ort": "Chiswick",
+      "projekt": "Chiswick",
+      "jahre": [],
+      "titel": "Chiswick"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 13,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 13
+  },
+  "dateitypen": {
+    ".jpg": 13
+  },
+  "textauszug": "",
+  "embed_doc": "Shaw Richard Norman | Chiswick Chiswick",
+  "stand": "2026-07-02T22:48:17"
+}

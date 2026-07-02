@@ -1,0 +1,184 @@
+{
+  "slug": "Rossi_Aldo",
+  "architekt": {
+    "name": "Rossi Aldo",
+    "nachname": "Rossi",
+    "vorname": "Aldo",
+    "jahre": [],
+    "ordner": "Rossi_Aldo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rossi_Aldo",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Bellinzona_Castelgrande_1974",
+      "ort": "Bellinzona",
+      "projekt": "Castelgrande",
+      "jahre": [
+        "1974"
+      ],
+      "titel": "Bellinzona Castelgrande 1974"
+    },
+    {
+      "raw": "Berlin_Schuetzenstrasse",
+      "ort": "Berlin",
+      "projekt": "Schuetzenstrasse",
+      "jahre": [],
+      "titel": "Berlin Schuetzenstrasse"
+    },
+    {
+      "raw": "Berlin_Wohn_und_Geschaeftshauser_Suedliche_Friedrichstadt_Block_10_1981_1988",
+      "ort": "Berlin",
+      "projekt": "Wohn und Geschaeftshauser Suedliche Friedrichstadt Block 10",
+      "jahre": [
+        "1981",
+        "1988"
+      ],
+      "titel": "Berlin Wohn und Geschaeftshauser Suedliche Friedrichstadt Block 10 1981 1988"
+    },
+    {
+      "raw": "Cattenbroek_Rien_de_Ruiter",
+      "ort": "Cattenbroek",
+      "projekt": "Rien de Ruiter",
+      "jahre": [],
+      "titel": "Cattenbroek Rien de Ruiter"
+    },
+    {
+      "raw": "Celebration_Place",
+      "ort": "Celebration",
+      "projekt": "Place",
+      "jahre": [],
+      "titel": "Celebration Place"
+    },
+    {
+      "raw": "EUR",
+      "ort": "EUR",
+      "projekt": "EUR",
+      "jahre": [],
+      "titel": "EUR"
+    },
+    {
+      "raw": "Fukuoka_Hotel_il_Palazzo_1987",
+      "ort": "Fukuoka",
+      "projekt": "Hotel il Palazzo",
+      "jahre": [
+        "1987"
+      ],
+      "titel": "Fukuoka Hotel il Palazzo 1987"
+    },
+    {
+      "raw": "Genua_Ricostruzione_del_Teatro_Carlo_Felice_1983",
+      "ort": "Genua",
+      "projekt": "Ricostruzione del Teatro Carlo Felice",
+      "jahre": [
+        "1983"
+      ],
+      "titel": "Genua Ricostruzione del Teatro Carlo Felice 1983"
+    },
+    {
+      "raw": "Giussano_Cappella_funeraria_1980",
+      "ort": "Giussano",
+      "projekt": "Cappella funeraria",
+      "jahre": [
+        "1980"
+      ],
+      "titel": "Giussano Cappella funeraria 1980"
+    },
+    {
+      "raw": "Mailand_Citta_Analoga_1977",
+      "ort": "Mailand",
+      "projekt": "Citta Analoga",
+      "jahre": [
+        "1977"
+      ],
+      "titel": "Mailand Citta Analoga 1977"
+    },
+    {
+      "raw": "Mailand_Gallaratese_Wohnsiedlung_1970",
+      "ort": "Mailand",
+      "projekt": "Gallaratese Wohnsiedlung",
+      "jahre": [
+        "1970"
+      ],
+      "titel": "Mailand Gallaratese Wohnsiedlung 1970"
+    },
+    {
+      "raw": "Modena_Friedhof_San_Cataldo_1971",
+      "ort": "Modena",
+      "projekt": "Friedhof San Cataldo",
+      "jahre": [
+        "1971"
+      ],
+      "titel": "Modena Friedhof San Cataldo 1971"
+    },
+    {
+      "raw": "Parma_Supermarket_Centro_Torri_1985",
+      "ort": "Parma",
+      "projekt": "Supermarket Centro Torri",
+      "jahre": [
+        "1985"
+      ],
+      "titel": "Parma Supermarket Centro Torri 1985"
+    },
+    {
+      "raw": "Roma_Interrotta_1978",
+      "ort": "Roma",
+      "projekt": "Interrotta",
+      "jahre": [
+        "1978"
+      ],
+      "titel": "Roma Interrotta 1978"
+    },
+    {
+      "raw": "San_Carlo_alla_Barona",
+      "ort": "San",
+      "projekt": "Carlo alla Barona",
+      "jahre": [],
+      "titel": "San Carlo alla Barona"
+    },
+    {
+      "raw": "Turin_Casa_Aurora",
+      "ort": "Turin",
+      "projekt": "Casa Aurora",
+      "jahre": [],
+      "titel": "Turin Casa Aurora"
+    },
+    {
+      "raw": "Venedig_IL_teatro_del_Mondo_1979",
+      "ort": "Venedig",
+      "projekt": "IL teatro del Mondo",
+      "jahre": [
+        "1979"
+      ],
+      "titel": "Venedig IL teatro del Mondo 1979"
+    }
+  ],
+  "projekt_anzahl": 18,
+  "inventar": {
+    "bilder": 117,
+    "dokumente": 45,
+    "cad": 0,
+    "andere": 3,
+    "total": 165
+  },
+  "dateitypen": {
+    ".jpg": 93,
+    ".pdf": 44,
+    ".tif": 13,
+    ".png": 9,
+    ".gif": 2,
+    ".psd": 1,
+    ".pages": 1,
+    ".indd": 1,
+    ".docx": 1
+  },
+  "textauszug": "12.08.12 14:20Theater! Theater! - NZZ.ch, 14.07.2012 Seite 1 von 3http://www.nzz.ch/aktuell/feuilleton/literatur/theater-theater-1.17354176 NZZ.CH LITERATUR Zweimal Aldo Rossi in Venedig Literatur Samstag, 14. Juli Theater! Theater! Bereits anderthalb Monate vor der Architekturbiennale kommt die Baukunst in Venedig zu einem grossen Auftritt. Zwei Ausstellungen feiern Aldo Rossis architektonische und theoretische Auseinandersetzung mit dem Theater und mit baukünstlerischen Archetypen. Gabriele Detterer Schon bald wird der Vorhang aufgehen! Venedig rüstet sich für die von David Chipperfield geleitete, Ende August beginnende 13. Architekturbiennale. Im Vorfeld nutzt die Lagunenstadt den dramaturgischen Effekt des retardierenden Moments und erinnert mit zwei sehenswerten Ausstellungen an das Wirken des grossen italienischen Architekten Aldo Rossi (1931–1997). In der Ca' Giustinian, dem Sitz der Biennale von Venedig, breitet David Chipperfield in Zusammenarbeit mit der Architekturfakultät der Universität Venedig, IUAV, Material zum Schaffen Rossis aus. Die aus dem Archivio Storico delle Arti Contemporanee stammenden Dokumente vergegenwärtigen Aldo Rossis Tätigkeit als Leiter der 3. Architekturbiennale von Venedig im Jahre 1985. Der Architekt und Theoretiker der Postmoderne schuf Neues im Rückgriff auf architektonische Archetypen, so auch für die Biennale. Als sichtbares Zeichen der von ihm verantworteten Architekturschau entwarf Rossi ein Tor aus fünf Bogen. Die weich geschwungene Form dieser Konstruktion kontrastiert mit der Festigkeit historischer Stadttore und überrascht mit einer seriellen Bogenfolge. Extension des Bühnenraums Von Portalen, die Urbanität eingrenzen, zu den Brettern, die die Welt bedeuten! Den Theaterbühnen als Leuchttürmen urbaner Kultur hatte Aldo Rossi einige Jahre zuvor ein spektakuläres Zeichen gesetzt: Er entwarf 1979 den Samstag, 14. Juli 12.08.12 14:20Theater! Theater! - NZZ.ch, 14.07.2012 Seite 2 von 3http://www.nzz.ch/aktuell/feuilleton/literatur/theater-theater-1.17354176 schwimmenden Teatro del Mondo und verankerte den mit einem oktogonalen Turm bekrönten Kubus im Herzen der Serenissima vor der Punta della Dogana. Wie ein Floss lag der Holzbau auf dem Wasser und wurde als Bühne für die Theaterbiennale 1979/80 genutzt. Danach verschwand die Konstruktion aus dem Panorama der Lagunenstadt, reiste über die Adria nach Dubrovnik und wurde später zerlegt. Mit dem Teatro del Mondo bezog sich Rossi auf den die Baukünstler Venedigs gleichermassen anregenden wie herausfordernden Kontext: das Wasser und die Gezeiten der Lagune. Ebenso ins Spiel brachte der Architekt die historischen Opernhäuser der Terra padana. Diese waren, wie er schrieb, Orte gewesen, an denen sich eine Menschenmenge traf und sich mischte wie die Stimmen der Sänger. Waberte winterlicher Nebel über die Ebene, so sorgten in früheren Zeiten die Theater von Parma, Padua, Pavia, Piacenza, von Mailand und Venedig für Lichtblicke im Grau. Eine poetisch verklärte Rückschau auf die Bühnenkultur Norditaliens und Stilpluralismus verschränken sich im Entwurf des «Welttheaters» zu einem exemplarischen Bau der die Revision des Modernismus betreibenden Architekten. Folgerichtig ist das fünf Meter hohe Modell des Teatro del Mondo Prunkstück und Mittelpunkt der Ausstellung «Aldo Rossi. Teatri». Germano Celant hat die Schau kuratiert. Das Design der Ausstellung im Magazzino del Sale, dem Schauraum der Fondazione Vedova, stammt von Gae Aulenti. Insgesamt 16 Projekte dokumentieren erstmals die intensive Auseinandersetzung Aldo Rossis mit Theaterbühnen. 1964 entwarf Rossi das Projekt «Teatro Paganini» (Parma), in den 1980er Jahren wurde nach seinem zusammen mit Ignazio Gardella und Fabio Reinhart erarbeiteten Plan das Opernhaus Carlo Felice in Genua modernisiert; und in Venedig trägt der Wiederaufbau des 1996 durch Brand zerstörten Gran Teatro La Fenice die Handschrift des Architekten. Schauspielerische Wandlungsfähigkeit Die Ausstellung zeigt ebenso die Ausweitung der Konzeption von Bühnenraum auf Rossis Designobjekte. Mit dem Set «Tea and Coffee Piazza» (1983) übertrug der Meister schauspielerische Wandlungsfähigkeit auf Gegenstände, stellte diese auf eine Bühne und verlieh den Objekten eine ungewöhnliche Gestalt. Zu ihrem Gebrauchsnutzen gesellt sich narrative Ästhetik. Die erzählt von der Lust und Freude am phantasiereichen Verwandlungsspiel und der postmodernen Präferenz, die Monotonie moderner Uni-Form abzulegen. 12.08.12 14:20Theater! Theater! - NZZ.ch, 14.07.2012 Seite 3 von 3http://www.nzz.ch/aktuell/feuilleton/literatur/theater-theater-1.17354176 Einloggen Bis 25. November in der Ca' Giustinian (Gli Archi di Aldo Rossi per la 3. Mostra Internazionale di Architettura 1985) und in der Fondazione Vedova. Katalog: Aldo Rossi. Teatri. Hrsg. Germano Celant und Alberto Ferlenga. Verlag Skira, Mailand 2012. 224 S., € 55.–. Anzeige Jetzt bis zu 25 % sparen! Bei SIXT Premium-Fahrzeuge im Voraus buchen und sparen. Jetzt sichern! Magenprobleme? Wir bringen Ihnen die Apotheke nach Hause, ab CHF 4.60, bis zu 25% sparen! Jetzt bestellen >> FOCUSZONE Behandlung nur CHF 2’475.- pro Augen, inklusive Nachkontrollen Jetzt informieren! Jetzt zuschlagen! Für jedes neu eröffnete Jugendkonto gibt’s bei PostFinance CHF 20.- Startgage. www.postfinance.ch/kontoauf KOMMENTARE Neuen Kommentar hinzufügen Geben Sie hier Ihren Kommentar ein. Jeder Kommentar, den Sie hier abgeben, hilft uns dabei, das System auf seine Funktionalität zu testen. Wir möchten Sie aber darauf hinweisen, das diese Einträge am Ende der Beta-Phase gelöscht werden. Einloggen 04.05.13 15:20Alessi web site Seite 1 von 1http://www.alessi.com/en/azienda/news/aldo-rossi-teatri-theaters-743 ALDO ROSSI. TEATRI (THEATERS) 4 July 2012 The Fondazione Emilio e Annabianca Vedova presents, between 30th June and 25th November, an extraordinary exhibition: “Aldo Rossi. Teatri (Theatres)”, at the Magazz- ino del Sale, curated by Germano Celant in a layout planned by Gae Aulenti. For the first time, the exhibition brings together sixteen projects by the Milanese archi- tect and designer, dating from the early seventies to 1997: from the Teatro Paganini in Parma (1964), which was never realised but was reworked and re-proposed in sketches and drawings, as was typical of Rossi’s way of working, to the Teatro Carlo Felice in Genoa (1983-1989), built in collaboration with Ignazio Gardella. Other projects include the Teatro del Mondo (1979) and the theatre at Frankfurt am Oder (1994), together with the last competition project for the reconstruction of the Gran Teatro la Fenice (1997) in Venice, which Rossi did not live to see finished. The interest shown in theatre also re- sulted in the creation of fantastic visions and affectionate interpretations. Among these, the most well-known is certainly the Teatrino scientifico (1978): a veritable machine for set design and interior design experiments, for which Rossi would paint the backdrops and make removable sets depicting his objects, including his Elba cabins and quota- tions from his architecture, such as the Gallaratese. This should not cause us to over- look the parallel production of designer articles, exemplified by the Tea & Coffee Piaz- za service for Alessi (1982), in which the childlike form of a theatre is echoed in the con- tainer for the coffee pot. The same forms recur frequently in his drawings in similar proportions to the towers and buildings of a city. These were produced by Alessi on a giant scale for the Teatro domestico built for the “Domestic project” exhibition at the Milan Triennale of 1986, in which appear some pieces of furniture and architectural de- tails typical of Rossi. A series of preparatory drawings and objects made for the sets of operas, ballets and tragedies round off the exhibition. Some of these are still in use, like those for Giacomo Puccini’s Madame Butterfly, which inaugurated the summer season of 1986 of the Teatro Comunale di Bologna at the Rocca Brancaleone in ",
+  "embed_doc": "Rossi Aldo | 00 Architekten | Bellinzona Castelgrande 1974 | Berlin Schuetzenstrasse | Berlin Wohn und Geschaeftshauser Suedliche Friedrichstadt Block 10 1981 1988 | Cattenbroek Rien de Ruiter | Celebration Place | EUR EUR | Fukuoka Hotel il Palazzo 1987 | Genua Ricostruzione del Teatro Carlo Felice 1983 | Giussano Cappella funeraria 1980 | Mailand Citta Analoga 1977 | Mailand Gallaratese Wohnsiedlung 1970 | Modena Friedhof San Cataldo 1971 | Parma Supermarket Centro Torri 1985 | Roma Interrotta 1978 | San Carlo alla Barona | Turin Casa Aurora | Venedig IL teatro del Mondo 1979 | 12.08.12 14:20Theater! Theater! - NZZ.ch, 14.07.2012 Seite 1 von 3http://www.nzz.ch/aktuell/feuilleton/literatur/theater-theater-1.17354176 NZZ.CH LITERATUR Zweimal Aldo Rossi in Venedig Literatur Samstag, 14. Juli Theater! Theater! Bereits anderthalb Monate vor der Architekturbiennale kommt die Baukunst in Venedig zu einem grossen Auftritt. Zwei Ausstellungen feiern Aldo Rossis architektonische und theoretische Auseinandersetzung mit dem Theater und mit baukünstlerischen Archetypen. Gabriele Detterer Schon bald wird der Vorhang aufgehen! Venedig rüstet sich für die von David Chipperfield geleitete, Ende August beginnende 13. Architekturbiennale. Im Vorfeld nutzt die Lagunenstadt den dramaturgischen Effekt des retardierenden Moments und erinnert mit zwei sehenswerten Ausstellungen an das Wirken des grossen italienischen Architekten Aldo Rossi (1931–1997). In der Ca' Giustinian, dem Sitz der Biennale von Venedig, breitet David Chipperfield in Zusammenarbeit mit der Architekturfakultät der Universität Venedig, IUAV, Material zum Schaffen Rossis aus. Die aus dem Archivio Storico delle Arti Contemporanee stammenden Dokumente vergegenwärtigen Aldo Rossis Tätigkeit als Leiter der 3. Architekturbiennale von Venedig im Jahre 1985. Der Architekt und Theoretiker der Postmoderne schuf Neues im Rückgriff auf architektonische Archetypen, so auch für die Biennale. Als sichtbares Zeichen der von ihm verantworteten Architekturschau entwarf Rossi ein Tor aus fünf Bogen. Die weich geschwungene Form dieser Konstruktion kontrastiert mit der Festigkeit historischer Stadttore und überrascht mit einer seriellen Bogenfolge. Extension des Bühnenraums Von Portalen, die Urbanität eingrenzen, zu den Brettern, die die Welt bedeuten! Den Theaterbühnen als Leuchttürmen urbaner Kultur hatte Aldo Rossi einige Jahre zuvor ein spektakuläres Zeichen gesetzt: Er entwarf 1979 den Samstag, 14. Juli 12.08.12 14:20Theater! Theater! - NZZ.ch, 14.07.2012 Seite 2 von 3http://www.nzz.ch/aktuell/feuilleton/literatur/theater-theater-1.17354176 schwimmenden Teatro del Mondo und verankerte den mit einem oktogonalen Turm bekrönten Kubus im Herzen der Serenissima vor der Punta della Dogana. Wie ein Floss lag der Holzbau auf dem Wasser und wurde als Bühne für die Theaterbiennale 1979/80 genutzt. Danach verschwand die Konstruktion aus dem Panorama der Lagunenstadt, reiste über die Adria nach Dubrovnik und wurde später zerlegt. Mit dem Teatro del Mondo bezog sich Rossi auf den die Baukünstler Venedigs gleichermassen anregenden wie herausfordernden Kontext: das Wasser und die Gezeiten der Lagune. Ebenso ins Spiel brachte der Architekt die historischen Opernhäuser der Terra padana. Diese waren, wie er schrieb, Orte gewesen, an denen sich eine Menschenmenge traf und sich mischte wie die Stimmen der Sänger. Waberte winterlicher Nebel über die Ebene, so sorgten in früheren Zeiten die Theater von Parma, Padua, Pavia, Piacenza, von Mailand und Venedig für Lichtblicke im Grau. Eine poetisch verklärte Rückschau auf die Bühnenkultur Norditaliens und Stilpluralismus verschränken sich im Entwurf des «Welttheaters» zu einem exemplarischen Bau der die Revision des Modernismus betreibenden Architekten. Folgerichtig ist das fünf Meter hohe Modell des Teatro del Mondo Prunkstück und Mittelpunkt der Ausstellung «Aldo Rossi. Teatri». Germano Celant hat die Schau kuratiert. Das Design der Ausstellung im Magazzino del Sale, dem Schauraum der Fondazione Vedova, stammt von Gae Aulenti. Insgesamt 16 Projekte dokumentieren erstmals die intensive Auseinandersetzung Aldo Rossis mit Theaterbühnen. 1964 entwarf Rossi das Projekt «Teatro Paganini» (Parma), in den 1980er Jahren wurde nach seinem zusammen mit Ignazio Gardella und Fabio Reinhart erarbeiteten Plan das Opernhaus Carlo Felice in Genua modernisiert; und in Venedig trägt der Wiederaufbau des 1996 durch Brand zerstörten Gran Teatro La Fenice die Handschrift des Architekten. Schauspielerische Wandlungsfähigkeit Die Ausstellung zeigt ebenso die Ausweitung der Konzeption von Bühnenraum auf Rossis Designobjekte. Mit dem Set «Tea and Coffee Piazza» (1983) übertrug der Meister schauspielerische Wandlungsfähigkeit auf Gegenstände, stellte diese auf eine Bühne und verlieh den Objekten eine ungewöhnliche Gestalt. Zu ihrem Gebrauchsnutzen gesellt sich narrative Ästhetik. Die erzählt von der Lust und Freude am phantasiereichen Verwandlungsspiel und der postmodernen Präferenz, die Monotonie moderner Uni-Form abzulegen. 12.08.12 14:20Theater! Theater! - NZZ.ch, 14.07.2012 Seite 3 von 3http://www.nzz.ch/aktuell/feuilleton/literatur/theater-theater-1.17354176 Einloggen Bis 25. November in der Ca' Giustinian (Gli Archi di Aldo Rossi per la 3. Mostra Internazionale di Architettura 1985) und in der Fondazione Vedova. Katalog: Aldo Rossi. Teatri. Hrsg. Germano Celant und Alberto Ferlenga. Verlag Skira, Mailand 2012. 224 S., € 55.–. Anzeige Jetzt bis zu 25 % sparen! Bei SIXT Premium-Fahrzeuge im Voraus buchen und sparen. Jetzt sichern! Magenprobleme? Wir bringen Ihnen die Apotheke nach Hause, ab CHF 4.60, bis zu 25% sparen! Jetzt bestellen >> FOCUSZONE Behandlung nur CHF 2’475.- pro Augen, inklusive Nachkontrollen Jetzt informieren! Jetzt zuschlagen! Für jedes neu eröffnete Jugendkonto gibt’s bei PostFinance CHF 20.- Startgage. www.postfinance.ch/kontoauf KOMMENTARE Neuen Kommentar hinzufügen Geben Sie hier Ihren Kommentar ein. Jeder Kommentar, den Sie hier abgeben, hilft uns dabei, das System auf seine Funktionalität zu testen. Wir möchten Sie aber darauf hinweisen, das diese Einträge am Ende der Beta-Phase gelöscht werden. Einloggen 04.05.13 15:20Alessi web site Seite 1 von 1http://www.alessi.com/en/azienda/news/aldo-rossi-teatri-theaters-743 ALDO ROSSI. TEATRI (THEATERS) 4 July 2012 The Fondazione Emilio e Annabianca Vedova presents, between 30th June and 25th November, an extraordinary exhibition: “Aldo Rossi. Teatri (Theatres)”, at the Magazz- ino del Sale, curated by Germano Celant in a layout planned by Gae Aulenti. For the first time, the exhibition brings together sixteen projects by the Milanese archi- tect and designer, dating from the early seventies to 1997: from the Teatro Paganini in Parma (1964), which was never realised but was reworked and re-proposed in sketches and drawings, as was typical of Rossi’s way of working, to the Teatro Carlo Felice in Genoa (1983-1989), built in collaboration with Ignazio Gardella. Other projects include the Teatro del Mondo (1979) and the theatre at Frankfurt am Oder (1994), together with the last competition project for the reconstruction of the Gran Teatro la Fenice (1997) in Venice, which Rossi did not live to see finished. The interest shown in theatre also re- sulted in the creation of fantastic visions and affectionate interpretations. Among these, the most well-known is certainly the Teatrino scientifico (1978): a veritable machine for set design and interior design experiments, for which Rossi would paint the backdrops and make removable sets depicting his objects, including his Elba cabins and quota- tions from his architecture, such as the Gallaratese. This should not cause us to over- look the parallel production of designer articles, exemplified by the Tea & Coffee Piaz- za service for Alessi (1982), in which the childlike form of a theatre is echoed in the con- tainer for the coffee pot. The same forms recur frequently in his drawings in similar proportions to the towers and buildings of a city. These were produced by Alessi on a giant scale for the Teatro domestico built for the “Domestic project” exhibition at the Milan Triennale of 1986, in which appear some pieces of furniture and architectural de- tails typical of Rossi. A series of preparatory drawings and objects made for the sets of operas, ballets and tragedies round off the exhibition. Some of these are still in use, like those for Giacomo Puccini’s Madame Butterfly, which inaugurated the summer season of 1986 of the Teatro Comunale di Bologna at the Rocca Brancaleone in",
+  "stand": "2026-07-02T22:46:24"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "Van_Eesterne",
+  "architekt": {
+    "name": "Van Eesterne",
+    "nachname": "Van",
+    "vorname": "Eesterne",
+    "jahre": [],
+    "ordner": "Van_Eesterne"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Van_Eesterne",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Van Eesterne",
+  "stand": "2026-07-02T22:50:46"
+}

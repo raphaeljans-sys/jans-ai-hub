@@ -1,0 +1,36 @@
+{
+  "slug": "Rocha_Tombai",
+  "architekt": {
+    "name": "Rocha Tombai",
+    "nachname": "Rocha",
+    "vorname": "Tombai",
+    "jahre": [],
+    "ordner": "Rocha_Tombai"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rocha_Tombai",
+  "projekte": [
+    {
+      "raw": "ROCHA_TOMBAL",
+      "ort": "ROCHA",
+      "projekt": "TOMBAL",
+      "jahre": [],
+      "titel": "ROCHA TOMBAL"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 60,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 1,
+    "total": 63
+  },
+  "dateitypen": {
+    ".jpg": 60,
+    ".pdf": 2,
+    ".indd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Rocha Tombai | ROCHA TOMBAL",
+  "stand": "2026-07-02T22:46:03"
+}

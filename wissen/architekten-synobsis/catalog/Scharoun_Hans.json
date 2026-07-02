@@ -1,0 +1,74 @@
+{
+  "slug": "Scharoun_Hans",
+  "architekt": {
+    "name": "Scharoun Hans",
+    "nachname": "Scharoun",
+    "vorname": "Hans",
+    "jahre": [],
+    "ordner": "Scharoun_Hans"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Scharoun_Hans",
+  "projekte": [
+    {
+      "raw": "Berlin_Philharmonie",
+      "ort": "Berlin",
+      "projekt": "Philharmonie",
+      "jahre": [],
+      "titel": "Berlin Philharmonie"
+    },
+    {
+      "raw": "Berliner_Philharmonie_Kammermusiksaal",
+      "ort": "Berliner",
+      "projekt": "Philharmonie Kammermusiksaal",
+      "jahre": [],
+      "titel": "Berliner Philharmonie Kammermusiksaal"
+    },
+    {
+      "raw": "Der_Kammermusiksaal",
+      "ort": "Der",
+      "projekt": "Kammermusiksaal",
+      "jahre": [],
+      "titel": "Der Kammermusiksaal"
+    },
+    {
+      "raw": "Hans Scharoun",
+      "ort": "Hans Scharoun",
+      "projekt": "Hans Scharoun",
+      "jahre": [],
+      "titel": "Hans Scharoun"
+    },
+    {
+      "raw": "Loebau_Haus_Schminke",
+      "ort": "Loebau",
+      "projekt": "Haus Schminke",
+      "jahre": [],
+      "titel": "Loebau Haus Schminke"
+    },
+    {
+      "raw": "Scharoun_Romeo Juliet",
+      "ort": "Scharoun",
+      "projekt": "Romeo Juliet",
+      "jahre": [],
+      "titel": "Scharoun Romeo Juliet"
+    }
+  ],
+  "projekt_anzahl": 6,
+  "inventar": {
+    "bilder": 85,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 32,
+    "total": 118
+  },
+  "dateitypen": {
+    ".tif": 58,
+    ".psd": 31,
+    ".jpg": 21,
+    ".png": 6,
+    ".indd": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Scharoun Hans | Berlin Philharmonie | Berliner Philharmonie Kammermusiksaal | Der Kammermusiksaal | Hans Scharoun Hans Scharoun | Loebau Haus Schminke | Scharoun Romeo Juliet",
+  "stand": "2026-07-02T22:47:04"
+}

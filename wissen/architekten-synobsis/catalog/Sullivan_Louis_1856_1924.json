@@ -1,0 +1,144 @@
+{
+  "slug": "Sullivan_Louis_1856_1924",
+  "architekt": {
+    "name": "Sullivan Louis 1856 1924",
+    "nachname": "Sullivan",
+    "vorname": "Louis",
+    "jahre": [
+      "1856",
+      "1924"
+    ],
+    "ordner": "Sullivan_Louis_1856_1924"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Sullivan_Louis_1856_1924",
+  "projekte": [
+    {
+      "raw": "00_Unklar",
+      "ort": "00",
+      "projekt": "Unklar",
+      "jahre": [],
+      "titel": "00 Unklar"
+    },
+    {
+      "raw": "Buffalo_Guaranty_Building_1894_96",
+      "ort": "Buffalo",
+      "projekt": "Guaranty Building 96",
+      "jahre": [
+        "1894"
+      ],
+      "titel": "Buffalo Guaranty Building 1894 96"
+    },
+    {
+      "raw": "Buffalo_Wainwright_Building",
+      "ort": "Buffalo",
+      "projekt": "Wainwright Building",
+      "jahre": [],
+      "titel": "Buffalo Wainwright Building"
+    },
+    {
+      "raw": "Chicago_Auditorium_Building_Sullivan_Louis_1856_1924",
+      "ort": "Chicago",
+      "projekt": "Auditorium Building Sullivan Louis",
+      "jahre": [
+        "1856",
+        "1924"
+      ],
+      "titel": "Chicago Auditorium Building Sullivan Louis 1856 1924"
+    },
+    {
+      "raw": "Chicago_Carson_Pirie_Scott_Building_Floorplan_Sullivan_Louis_1856_1924",
+      "ort": "Chicago",
+      "projekt": "Carson Pirie Scott Building Floorplan Sullivan Louis",
+      "jahre": [
+        "1856",
+        "1924"
+      ],
+      "titel": "Chicago Carson Pirie Scott Building Floorplan Sullivan Louis 1856 1924"
+    },
+    {
+      "raw": "Chicago_Charnley_House_1891_92_Sullivan_Louis_1856_1924_Wright",
+      "ort": "Chicago",
+      "projekt": "Charnley House 92 Sullivan Louis Wright",
+      "jahre": [
+        "1891",
+        "1856",
+        "1924"
+      ],
+      "titel": "Chicago Charnley House 1891 92 Sullivan Louis 1856 1924 Wright"
+    },
+    {
+      "raw": "Chicago_Ryerson_Building_16_20_E_Randolph_1984_demolished_1939",
+      "ort": "Chicago",
+      "projekt": "Ryerson Building 16 20 E Randolph demolished",
+      "jahre": [
+        "1984",
+        "1939"
+      ],
+      "titel": "Chicago Ryerson Building 16 20 E Randolph 1984 demolished 1939"
+    },
+    {
+      "raw": "Chicago_Stock_Exchange_Sullivan_Louis_1856_1924",
+      "ort": "Chicago",
+      "projekt": "Stock Exchange Sullivan Louis",
+      "jahre": [
+        "1856",
+        "1924"
+      ],
+      "titel": "Chicago Stock Exchange Sullivan Louis 1856 1924"
+    },
+    {
+      "raw": "Iowa_Clinton_John_D_Van_Allen_Store",
+      "ort": "Iowa",
+      "projekt": "Clinton John D Van Allen Store",
+      "jahre": [],
+      "titel": "Iowa Clinton John D Van Allen Store"
+    },
+    {
+      "raw": "Missouri_Union_Trust_Building",
+      "ort": "Missouri",
+      "projekt": "Union Trust Building",
+      "jahre": [],
+      "titel": "Missouri Union Trust Building"
+    },
+    {
+      "raw": "New_York_Bayard_Sullivan_Louis_1856_1924",
+      "ort": "New",
+      "projekt": "York Bayard Sullivan Louis",
+      "jahre": [
+        "1856",
+        "1924"
+      ],
+      "titel": "New York Bayard Sullivan Louis 1856 1924"
+    },
+    {
+      "raw": "Owatonna_National_Farmers_Bank_of_Owatonna",
+      "ort": "Owatonna",
+      "projekt": "National Farmers Bank of Owatonna",
+      "jahre": [],
+      "titel": "Owatonna National Farmers Bank of Owatonna"
+    }
+  ],
+  "projekt_anzahl": 12,
+  "inventar": {
+    "bilder": 159,
+    "dokumente": 35,
+    "cad": 0,
+    "andere": 7,
+    "total": 201
+  },
+  "dateitypen": {
+    ".jpg": 139,
+    ".pdf": 29,
+    ".tiff": 9,
+    ".png": 8,
+    ".docx": 6,
+    ".psd": 3,
+    ".tif": 3,
+    ".pages": 2,
+    ".m4a": 1,
+    ".webarchive": 1
+  },
+  "textauszug": "1 Introduction On the downtown corner of Church and Pearl streets in Buffalo, New Y ork, Louis Sullivan's Guaranty Building rises; clad completely in ornate terracotta, it stands stoic but inviting, whispering forth with a story to tell. But those who pass by , undaunted by the snowy weather, rarely stop to consider the stories implicit in the old skyscraper, or even wonder whose stories they are. Y et through little more than a glance at even its smallest detail, the Guaranty reveals a world of immense complexity demonstrated through an intricate balance of line and shadow . So what forces and what logic begat these forms, which both establish and intervene with the building facade? This research explores the rules, structure, and process of Sullivan's system for architectural ornamentation, in order to create a shape grammar that describes his style. While Sullivan is well known as an architect with a penchant for elaborate, if not dated, detailing, his design artifacts represent a body of work which offers much more insight into the architectural design process than has previously been explored. In both his writings and his work, Sullivan describes designing as an iterative application of sequential steps that serve as a means for form generation. In 1923 he published the lithograph A System of Architectural Ornament which contains a series of annotated drawings and writings that elaborate upon his own morphological design process and motivations, and methods. In it, he notes that ``forms may be changed into any of the other [forms] through a series of systematic organic changes'' (Sullivan, 1990). Being process oriented, his work is particularly well suited to a study using analytical computational tools that can help identify sequences, rules, and emergent patterns to define shapes in the context of his design morphology . As a tool for describing Sullivan's ornament and also as a means to generate new forms using his system, a shape grammar, a computational design tool that was invented by George Stiny and James Gips (Stiny , 2006), has been developed, based upon his works. (1) This grammar defines Framing what we see: the role of ornament in structuring Louis Sullivan's design logic M Giles Phillips Massachusetts Institute of T echnology , 77 Massachusetts Avenue, Cambridge, MA 02139, USA; e-mail: gilesp@mit.edu Received 27 February 2007; in revised form 29 June 2007; published online 14 July 2008 Environment and Planning B: Planning and Design 2008, volume 35, pages 772 ^ 793 Abstract. This paper presents an informal shape grammar that describes Louis Sullivan's system for ornamentation. The goal of the grammar is to serve as an analytical tool to describe Sullivan's existing designs, but also to generate new designs founded in the same logic. Towards this end, the grammar, which is organized into seven groups of rules, is used to generate several of Sullivan's compositions, as well as new designs by the author, as a vehicle both to explore the particular parameters of Sullivan's most intricate work, and to speculate about how Sullivan's system could be implemented in, and impacted by, contemporary technologies. doi:10.1068/b34021 (1) For a thorough introduction to and analysis of shape grammars, see George Stiny's book Shape (2006). The book also includes an extensive bibliography of grammars that have been developed in addition to related concepts and applications. rules that may be used to design both ornamental details and entire facades, with the only variations being those of scale and context. (2) 1.1 Goal of this work In capturing Sullivan's iterative concepts and making them accessible, this shape grammar endeavors to extend his System of Architectural Ornament , by allowing users to follow and to employ his unique process both to analyze and to create designs. This grammar is thus user centric. While many authors and historians (Dollens, 2005; Frampton, 1995; Johnson, 1956; Scully , 1959; V an Ormer, 1960, to name a few) have interpreted, analyzed, and classified Sullivan's design products in terms of their form and cultural or personal meaning, this work is the first attempt, after his own System of Architectural Ornament , to describe his actual design process systematically . The grammar is intended to be used by those interested in understanding more about Sullivan's design system, including scholars and historians, or by designers interested in analyzing and making ornament. As a description of Sullivan's design process, this grammar may be further extended to explore how that process would be impacted or elucidated when coupled with newer production tools. As computer-aided design (CAD) and rapid prototyping (RP) technology continues to reshape the act of designing, this type of foundational study is critical to sustaining creative and relevant design in the profession. This work concludes with a brief discussion of the implications of these technologies in terms of Sullivan's designing. 1.2 Design sources analyzed The grammar was developed through the analysis of four design sources selected from Sullivan's corpus: a single tile from the threshold of the Guaranty building [figure 1(a)], the bronze doors from the Getty T omb in Chicago [figure 1(c)], the fac ° ade of the Owatonna bank in Minnesota [figure 1(b)], and the twenty plates in AS y s t e mo f Architectural Ornament (figure 2). These sources were selected because, through their commonalities and distinctions, they describe his system in different scales (tiny , midsized, and building-sized) and materials (terracotta, bronze, brick, paper and pencil). (a) (b) (c) Figure 1. (a) A rendering of the entry from the Guaranty Building (1896); (b) National Farmer's Bank of Owatonna (1910); (c) door detail from the Getty T omb, Chicago (1890). (2) Not everyone agrees that Sullivan's ornamentation derives from the same fundamental system as his other architectural forms. Philip Johnson notes that ``Sullivan's interest was not in structure, but design; and indeed, more and more, in the ornament which covers his later buildings'' , suggesting that ornament and structure were detached both in form and in concept (Johnson, 1956, page 56). Louis Sullivan's design logic 773 1.3 Sullivan's drawings in brief As a designer Sullivan communicated his intentions almost exclusively through one tool: drawings. Philip Johnson criticized Sullivan as `a man of the pencil' (Johnson, 1956) ö suggesting that the potential range of Sullivan's architectural expression was constrained in some sense by his drawing methodology . Sullivan was taught to draw during his short stay at MIT and during an apprenticeship with Frank Furness (Sullivan, 1959). Furness also exposed him to Owen Jones's Grammar of Ornament ,a visual anthology of the historical ornamentation of different cultures (Frampton, 1995). Sullivan then continued his studies at the E è cole des Beaux-Arts, but he returned home to Chicago before finishing (Morrison, 1998). At MIT and particularly at the E è cole des Beaux-Arts, a strict doctrine on correct architectural style was enforced (Millon, 1990). Sullivan felt that this strict stylistic sensibility left a ``fatal residuum of artificiality'' (Sullivan, 1959), that the architecture was not thoughtful, and that historical architectural styles were thus imposed on modernity , taken for granted as correct. T o the contrary , his later innovations in architectural form and detailing would be derived from the fact that his drawings were not adapted to contemporary notions about architectural correctness. He did, however, refine his drafting and sketching, and utilized drawing as a rigorous foundational exercise, working with the standard tools of the time: straight- edges, T -squares, triangles, and French curves. He actively explored layering, scale, and detail as a means for communicating form, using these tools (Sullivan, 1959), and developed a style through that exploration. A salient qu",
+  "embed_doc": "Sullivan Louis 1856 1924 | 00 Unklar | Buffalo Guaranty Building 96 1894 | Buffalo Wainwright Building | Chicago Auditorium Building Sullivan Louis 1856 1924 | Chicago Carson Pirie Scott Building Floorplan Sullivan Louis 1856 1924 | Chicago Charnley House 92 Sullivan Louis Wright 1891 1856 1924 | Chicago Ryerson Building 16 20 E Randolph demolished 1984 1939 | Chicago Stock Exchange Sullivan Louis 1856 1924 | Iowa Clinton John D Van Allen Store | Missouri Union Trust Building | New York Bayard Sullivan Louis 1856 1924 | Owatonna National Farmers Bank of Owatonna | 1 Introduction On the downtown corner of Church and Pearl streets in Buffalo, New Y ork, Louis Sullivan's Guaranty Building rises; clad completely in ornate terracotta, it stands stoic but inviting, whispering forth with a story to tell. But those who pass by , undaunted by the snowy weather, rarely stop to consider the stories implicit in the old skyscraper, or even wonder whose stories they are. Y et through little more than a glance at even its smallest detail, the Guaranty reveals a world of immense complexity demonstrated through an intricate balance of line and shadow . So what forces and what logic begat these forms, which both establish and intervene with the building facade? This research explores the rules, structure, and process of Sullivan's system for architectural ornamentation, in order to create a shape grammar that describes his style. While Sullivan is well known as an architect with a penchant for elaborate, if not dated, detailing, his design artifacts represent a body of work which offers much more insight into the architectural design process than has previously been explored. In both his writings and his work, Sullivan describes designing as an iterative application of sequential steps that serve as a means for form generation. In 1923 he published the lithograph A System of Architectural Ornament which contains a series of annotated drawings and writings that elaborate upon his own morphological design process and motivations, and methods. In it, he notes that ``forms may be changed into any of the other [forms] through a series of systematic organic changes'' (Sullivan, 1990). Being process oriented, his work is particularly well suited to a study using analytical computational tools that can help identify sequences, rules, and emergent patterns to define shapes in the context of his design morphology . As a tool for describing Sullivan's ornament and also as a means to generate new forms using his system, a shape grammar, a computational design tool that was invented by George Stiny and James Gips (Stiny , 2006), has been developed, based upon his works. (1) This grammar defines Framing what we see: the role of ornament in structuring Louis Sullivan's design logic M Giles Phillips Massachusetts Institute of T echnology , 77 Massachusetts Avenue, Cambridge, MA 02139, USA; e-mail: gilesp@mit.edu Received 27 February 2007; in revised form 29 June 2007; published online 14 July 2008 Environment and Planning B: Planning and Design 2008, volume 35, pages 772 ^ 793 Abstract. This paper presents an informal shape grammar that describes Louis Sullivan's system for ornamentation. The goal of the grammar is to serve as an analytical tool to describe Sullivan's existing designs, but also to generate new designs founded in the same logic. Towards this end, the grammar, which is organized into seven groups of rules, is used to generate several of Sullivan's compositions, as well as new designs by the author, as a vehicle both to explore the particular parameters of Sullivan's most intricate work, and to speculate about how Sullivan's system could be implemented in, and impacted by, contemporary technologies. doi:10.1068/b34021 (1) For a thorough introduction to and analysis of shape grammars, see George Stiny's book Shape (2006). The book also includes an extensive bibliography of grammars that have been developed in addition to related concepts and applications. rules that may be used to design both ornamental details and entire facades, with the only variations being those of scale and context. (2) 1.1 Goal of this work In capturing Sullivan's iterative concepts and making them accessible, this shape grammar endeavors to extend his System of Architectural Ornament , by allowing users to follow and to employ his unique process both to analyze and to create designs. This grammar is thus user centric. While many authors and historians (Dollens, 2005; Frampton, 1995; Johnson, 1956; Scully , 1959; V an Ormer, 1960, to name a few) have interpreted, analyzed, and classified Sullivan's design products in terms of their form and cultural or personal meaning, this work is the first attempt, after his own System of Architectural Ornament , to describe his actual design process systematically . The grammar is intended to be used by those interested in understanding more about Sullivan's design system, including scholars and historians, or by designers interested in analyzing and making ornament. As a description of Sullivan's design process, this grammar may be further extended to explore how that process would be impacted or elucidated when coupled with newer production tools. As computer-aided design (CAD) and rapid prototyping (RP) technology continues to reshape the act of designing, this type of foundational study is critical to sustaining creative and relevant design in the profession. This work concludes with a brief discussion of the implications of these technologies in terms of Sullivan's designing. 1.2 Design sources analyzed The grammar was developed through the analysis of four design sources selected from Sullivan's corpus: a single tile from the threshold of the Guaranty building [figure 1(a)], the bronze doors from the Getty T omb in Chicago [figure 1(c)], the fac ° ade of the Owatonna bank in Minnesota [figure 1(b)], and the twenty plates in AS y s t e mo f Architectural Ornament (figure 2). These sources were selected because, through their commonalities and distinctions, they describe his system in different scales (tiny , midsized, and building-sized) and materials (terracotta, bronze, brick, paper and pencil). (a) (b) (c) Figure 1. (a) A rendering of the entry from the Guaranty Building (1896); (b) National Farmer's Bank of Owatonna (1910); (c) door detail from the Getty T omb, Chicago (1890). (2) Not everyone agrees that Sullivan's ornamentation derives from the same fundamental system as his other architectural forms. Philip Johnson notes that ``Sullivan's interest was not in structure, but design; and indeed, more and more, in the ornament which covers his later buildings'' , suggesting that ornament and structure were detached both in form and in concept (Johnson, 1956, page 56). Louis Sullivan's design logic 773 1.3 Sullivan's drawings in brief As a designer Sullivan communicated his intentions almost exclusively through one tool: drawings. Philip Johnson criticized Sullivan as `a man of the pencil' (Johnson, 1956) ö suggesting that the potential range of Sullivan's architectural expression was constrained in some sense by his drawing methodology . Sullivan was taught to draw during his short stay at MIT and during an apprenticeship with Frank Furness (Sullivan, 1959). Furness also exposed him to Owen Jones's Grammar of Ornament ,a visual anthology of the historical ornamentation of different cultures (Frampton, 1995). Sullivan then continued his studies at the E è cole des Beaux-Arts, but he returned home to Chicago before finishing (Morrison, 1998). At MIT and particularly at the E è cole des Beaux-Arts, a strict doctrine on correct architectural style was enforced (Millon, 1990). Sullivan felt that this strict stylistic sensibility left a ``fatal residuum of artificiality'' (Sullivan, 1959), that the architecture was not thoughtful, and that historical architectural styles were thus imposed on modernity , taken for granted as correct. T o the contrary , his later innovations in architectural form and detailing would be derived from the fact that his drawings were not adapted to contemporary notions about architectural correctness. He did, however, refine his drafting and sketching, and utilized drawing as a rigorous foundational exercise, working with the standard tools of the time: straight- edges, T -squares, triangles, and French curves. He actively explored layering, scale, and detail as a means for communicating form, using these tools (Sullivan, 1959), and developed a style through that exploration. A salient qu",
+  "stand": "2026-07-02T22:49:57"
+}

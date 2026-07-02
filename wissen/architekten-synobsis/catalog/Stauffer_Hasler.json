@@ -1,0 +1,59 @@
+{
+  "slug": "Stauffer_Hasler",
+  "architekt": {
+    "name": "Stauffer Hasler",
+    "nachname": "Stauffer",
+    "vorname": "Hasler",
+    "jahre": [],
+    "ordner": "Stauffer_Hasler"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Stauffer_Hasler",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Boder",
+      "ort": "Boder",
+      "projekt": "Boder",
+      "jahre": [],
+      "titel": "Boder"
+    },
+    {
+      "raw": "GK Urnäsch",
+      "ort": "GK Urnäsch",
+      "projekt": "GK Urnäsch",
+      "jahre": [],
+      "titel": "GK Urnäsch"
+    },
+    {
+      "raw": "St.Gallen_Bundesverwaltungsgericht",
+      "ort": "St.Gallen",
+      "projekt": "Bundesverwaltungsgericht",
+      "jahre": [],
+      "titel": "St.Gallen Bundesverwaltungsgericht"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 105,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 7,
+    "total": 112
+  },
+  "dateitypen": {
+    ".jpg": 73,
+    ".jpeg": 32,
+    ".mov": 4,
+    ".mp4": 2,
+    ".html": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Stauffer Hasler | 00 Architekten | Boder Boder | GK Urnäsch GK Urnäsch | St.Gallen Bundesverwaltungsgericht",
+  "stand": "2026-07-02T22:49:20"
+}

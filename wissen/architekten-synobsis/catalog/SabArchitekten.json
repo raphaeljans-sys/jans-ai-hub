@@ -1,0 +1,52 @@
+{
+  "slug": "SabArchitekten",
+  "architekt": {
+    "name": "SabArchitekten",
+    "nachname": "SabArchitekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "SabArchitekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/SabArchitekten",
+  "projekte": [
+    {
+      "raw": "00_Literatur",
+      "ort": "00",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "00 Literatur"
+    },
+    {
+      "raw": "Basel_Quartierszentrum_Breite_Basel",
+      "ort": "Basel",
+      "projekt": "Quartierszentrum Breite Basel",
+      "jahre": [],
+      "titel": "Basel Quartierszentrum Breite Basel"
+    },
+    {
+      "raw": "Basel_Umbau_Hinterhaus_Birnmannsgasse",
+      "ort": "Basel",
+      "projekt": "Umbau Hinterhaus Birnmannsgasse",
+      "jahre": [],
+      "titel": "Basel Umbau Hinterhaus Birnmannsgasse"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 4,
+    "cad": 0,
+    "andere": 2,
+    "total": 15
+  },
+  "dateitypen": {
+    ".pdf": 4,
+    ".jpg": 4,
+    ".png": 3,
+    ".gif": 2,
+    ".psd": 2
+  },
+  "textauszug": "7 De aedibus 41 - Heinz Wirz 8 Architektonische Moments Martino Stierli 16 Anbau Wohnhaus Aescherstrasse/Annex for Apartment Building Aescherstrasse, Basel 22 Orientierungsschule und Theatersaal/Career Orientation School and Auditorium, La Tour-de 32 Umbau Wohnhaus und Verlag/Conversion of Apartment Building and Publishing House, Stählemühle, Münchhof D 38 Quartierzentrum Breite/Neighbourhood Centre Breite, Basel 44 Der Berg, Weltausstellung 2005/Der Berg, World Expo 2005 in Aichi, Japan 48 Heilpädagogische Schule/School for Therapeutic Pedagogy, Liestal 58 Umbau Wohnhaus Blauenstrasse/Conversion of Apartment Building Blauenstrasse, Basel 66 Umbau Hinterhaus Birmannsgasse/Conversion of Rear Building Birmannsgasse, Basel 72 Umbau und Erweiterung Wohnhaus Signalstrasse/Conversion and Extension of Apartment Building Signalstrasse, Aarau 76 Werkverzeichnis/List of Works 80 Biografíen, Auszeichnungen, Ausstellungen, Bibliografie Biographies, Awards, Exhibitions, Bibliography Sabarchitekten Sabarchitekten cop. 2011 digitalisiert durch IDS Basel/Bern, im Auftrag der Schweizerischen Nationalbibliothek",
+  "embed_doc": "SabArchitekten | 00 Literatur | Basel Quartierszentrum Breite Basel | Basel Umbau Hinterhaus Birnmannsgasse | 7 De aedibus 41 - Heinz Wirz 8 Architektonische Moments Martino Stierli 16 Anbau Wohnhaus Aescherstrasse/Annex for Apartment Building Aescherstrasse, Basel 22 Orientierungsschule und Theatersaal/Career Orientation School and Auditorium, La Tour-de 32 Umbau Wohnhaus und Verlag/Conversion of Apartment Building and Publishing House, Stählemühle, Münchhof D 38 Quartierzentrum Breite/Neighbourhood Centre Breite, Basel 44 Der Berg, Weltausstellung 2005/Der Berg, World Expo 2005 in Aichi, Japan 48 Heilpädagogische Schule/School for Therapeutic Pedagogy, Liestal 58 Umbau Wohnhaus Blauenstrasse/Conversion of Apartment Building Blauenstrasse, Basel 66 Umbau Hinterhaus Birmannsgasse/Conversion of Rear Building Birmannsgasse, Basel 72 Umbau und Erweiterung Wohnhaus Signalstrasse/Conversion and Extension of Apartment Building Signalstrasse, Aarau 76 Werkverzeichnis/List of Works 80 Biografíen, Auszeichnungen, Ausstellungen, Bibliografie Biographies, Awards, Exhibitions, Bibliography Sabarchitekten Sabarchitekten cop. 2011 digitalisiert durch IDS Basel/Bern, im Auftrag der Schweizerischen Nationalbibliothek",
+  "stand": "2026-07-02T22:46:41"
+}

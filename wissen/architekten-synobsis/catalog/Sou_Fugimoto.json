@@ -1,0 +1,49 @@
+{
+  "slug": "Sou_Fugimoto",
+  "architekt": {
+    "name": "Sou Fugimoto",
+    "nachname": "Sou Fugimoto",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Sou Fugimoto"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Sou Fugimoto",
+  "projekte": [
+    {
+      "raw": "Merida",
+      "ort": "Merida",
+      "projekt": "Merida",
+      "jahre": [],
+      "titel": "Merida"
+    },
+    {
+      "raw": "Montpellier Wohnen",
+      "ort": "Montpellier Wohnen",
+      "projekt": "Montpellier Wohnen",
+      "jahre": [],
+      "titel": "Montpellier Wohnen"
+    },
+    {
+      "raw": "StGallen HSG",
+      "ort": "StGallen HSG",
+      "projekt": "StGallen HSG",
+      "jahre": [],
+      "titel": "StGallen HSG"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 19,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 19
+  },
+  "dateitypen": {
+    ".jpg": 18,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Sou Fugimoto | Merida Merida | Montpellier Wohnen Montpellier Wohnen | StGallen HSG StGallen HSG",
+  "stand": "2026-07-02T22:49:13"
+}

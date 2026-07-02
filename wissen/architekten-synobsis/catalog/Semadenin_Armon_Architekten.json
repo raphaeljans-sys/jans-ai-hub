@@ -1,0 +1,35 @@
+{
+  "slug": "Semadenin_Armon_Architekten",
+  "architekt": {
+    "name": "Semadenin Armon Architekten",
+    "nachname": "Semadenin Armon Architekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Semadenin Armon Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Semadenin Armon Architekten",
+  "projekte": [
+    {
+      "raw": "Oerlikon_Tower",
+      "ort": "Oerlikon",
+      "projekt": "Tower",
+      "jahre": [],
+      "titel": "Oerlikon Tower"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".png": 2,
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Semadenin Armon Architekten | Oerlikon Tower",
+  "stand": "2026-07-02T22:47:50"
+}

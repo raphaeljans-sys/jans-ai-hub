@@ -1,0 +1,46 @@
+{
+  "slug": "Villerauxban",
+  "architekt": {
+    "name": "Villerauxban",
+    "nachname": "Villerauxban",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Villerauxban"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Villerauxban",
+  "projekte": [
+    {
+      "raw": "Lyon_Sozialer_Wohnungsbau",
+      "ort": "Lyon",
+      "projekt": "Sozialer Wohnungsbau",
+      "jahre": [],
+      "titel": "Lyon Sozialer Wohnungsbau"
+    },
+    {
+      "raw": "form_die_reserviert_ist",
+      "ort": "form",
+      "projekt": "die reserviert ist",
+      "jahre": [],
+      "titel": "form die reserviert ist"
+    },
+    {
+      "raw": "luxus_vom_rockerfaller_center_wird_in_den_sozialen_wohnungsbau_umgewandelt",
+      "ort": "luxus",
+      "projekt": "vom rockerfaller center wird in den sozialen wohnungsbau umgewandelt",
+      "jahre": [],
+      "titel": "luxus vom rockerfaller center wird in den sozialen wohnungsbau umgewandelt"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Villerauxban | Lyon Sozialer Wohnungsbau | form die reserviert ist | luxus vom rockerfaller center wird in den sozialen wohnungsbau umgewandelt",
+  "stand": "2026-07-02T22:51:13"
+}

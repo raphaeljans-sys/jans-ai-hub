@@ -1,0 +1,35 @@
+{
+  "slug": "Zindel_Reto",
+  "architekt": {
+    "name": "Zindel Reto",
+    "nachname": "Zindel",
+    "vorname": "Reto",
+    "jahre": [],
+    "ordner": "Zindel_Reto"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Zindel_Reto",
+  "projekte": [
+    {
+      "raw": "Rapperswil_Steg",
+      "ort": "Rapperswil",
+      "projekt": "Steg",
+      "jahre": [],
+      "titel": "Rapperswil Steg"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 3,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Zindel Reto | Rapperswil Steg",
+  "stand": "2026-07-02T22:51:54"
+}

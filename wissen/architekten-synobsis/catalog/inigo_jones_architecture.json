@@ -1,0 +1,37 @@
+{
+  "slug": "inigo_jones_architecture",
+  "architekt": {
+    "name": "inigo jones architecture",
+    "nachname": "inigo jones architecture",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "inigo jones architecture"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/inigo jones architecture",
+  "projekte": [
+    {
+      "raw": "soane_jone",
+      "ort": "soane",
+      "projekt": "jone",
+      "jahre": [],
+      "titel": "soane jone"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 8,
+    ".gif": 1,
+    ".png": 1,
+    ".html": 1
+  },
+  "textauszug": "",
+  "embed_doc": "inigo jones architecture | soane jone",
+  "stand": "2026-07-02T22:52:24"
+}

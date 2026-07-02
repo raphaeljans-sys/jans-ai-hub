@@ -1,0 +1,50 @@
+{
+  "slug": "Tschumi_Bernhard",
+  "architekt": {
+    "name": "Tschumi Bernhard",
+    "nachname": "Tschumi",
+    "vorname": "Bernhard",
+    "jahre": [],
+    "ordner": "Tschumi_Bernhard"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Tschumi_Bernhard",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Athen_Akropolismuseum",
+      "ort": "Athen",
+      "projekt": "Akropolismuseum",
+      "jahre": [],
+      "titel": "Athen Akropolismuseum"
+    },
+    {
+      "raw": "Parc_de_la_Villet",
+      "ort": "Parc",
+      "projekt": "de la Villet",
+      "jahre": [],
+      "titel": "Parc de la Villet"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 19,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 19
+  },
+  "dateitypen": {
+    ".jpg": 17,
+    ".png": 1,
+    ".jpeg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Tschumi Bernhard | 00 Architekten | Athen Akropolismuseum | Parc de la Villet",
+  "stand": "2026-07-02T22:50:35"
+}

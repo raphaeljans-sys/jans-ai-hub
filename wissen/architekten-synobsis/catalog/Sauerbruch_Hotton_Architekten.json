@@ -1,0 +1,26 @@
+{
+  "slug": "Sauerbruch_Hotton_Architekten",
+  "architekt": {
+    "name": "Sauerbruch Hotton Architekten",
+    "nachname": "Sauerbruch",
+    "vorname": "Hotton Architekten",
+    "jahre": [],
+    "ordner": "Sauerbruch_Hotton_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Sauerbruch_Hotton_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".png": 9
+  },
+  "textauszug": "",
+  "embed_doc": "Sauerbruch Hotton Architekten",
+  "stand": "2026-07-02T22:46:53"
+}

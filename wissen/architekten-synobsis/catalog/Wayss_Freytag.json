@@ -1,0 +1,91 @@
+{
+  "slug": "Wayss_Freytag",
+  "architekt": {
+    "name": "Wayss Freytag",
+    "nachname": "Wayss",
+    "vorname": "Freytag",
+    "jahre": [],
+    "ordner": "Wayss_Freytag"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wayss_Freytag",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Lehre",
+      "ort": "02",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "02 Lehre"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Forschung",
+      "ort": "05",
+      "projekt": "Forschung",
+      "jahre": [],
+      "titel": "05 Forschung"
+    },
+    {
+      "raw": "06_Texte",
+      "ort": "06",
+      "projekt": "Texte",
+      "jahre": [],
+      "titel": "06 Texte"
+    },
+    {
+      "raw": "07_Berichte",
+      "ort": "07",
+      "projekt": "Berichte",
+      "jahre": [],
+      "titel": "07 Berichte"
+    },
+    {
+      "raw": "08_Zitate_von_und_Ueber_den_Architekten",
+      "ort": "08",
+      "projekt": "Zitate von und Ueber den Architekten",
+      "jahre": [],
+      "titel": "08 Zitate von und Ueber den Architekten"
+    }
+  ],
+  "projekt_anzahl": 9,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 3,
+    ".pdf": 1
+  },
+  "textauszug": "26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 1 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 Home html01pages GO! Hauptmenü Startseite Aktuelle Meldungen Aktuelle Ausgabe Bisherige Ausgaben Vorschau Register Lesezeichen Wer kennt... ? Personalia Redaktion Impressum Leserservice Archiv September 2012 August 2012 Juli 2012 Juni 2012 Mai 2012 April 2012 März 2012 Februar 2012 Januar 2012 Dezember 2011 November 2011 Oktober 2011 September 2011 August 2011 Juli 2011 Juni 2011 Wayss & Freytag (Neustadt/Frankfurt) 1890 Strassenbrücke in der Pulverfabrik Ingolstadt 1891 Nonnenwaldbrücke über die Nagold zw. Ebhausen u. Altensteig, Kreis Calw 1898 Fa. Hauck & Arnold, Friedrichsthal (Decken u. Stützen) 1898 Hochreservoir Deidesheim 1898 Hochreservoir Gimmeldingen 1898 Kabelsteg / Brücke an der Isarlust, München 1898 Wagenschuppen Wayss & Freytag, Neustadt 1899 Hochreservoir Bad Mondorf (Luxemburg) 1899 Hochreservoir für Landbauamt Speyer 1899 Lagerhaus Hafen Straßburg (mit Fa. Ed. Züblin) 1899 Lagerhaus Zuckerfabrik Regensburg 1899 Mech. Werkstätte W & Fr., Neustadt industrie-kulturMagazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 2 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 Mai 2011 April 2011 März 2011 Februar 2011 Januar 2011 Dezember 2010 November 2010 Oktober 2010 September 2010 August 2010 Juli 2010 Juni 2010 Mai 2010 April 2010 März 2010 Februar 2010 Januar 2010 Dezember 2009 November 2009 Oktober 2009 September 2009 August 2009 Juli 2009 Juni 2009 Mai 2009 April 2009 März 2009 Februar 2009 Januar 2009 Dezember 2008 November 2008 Oktober 2008 September 2008 August 2008 Juli 2008 Juni 2008 Mai 2008 1899 Reservoire Stadt Pforzheim 1899 Univ. Strassburg, Decke in der Erdbebenstation 1900 Fabrikneubau (Elektrotechn. Fabrik) Robert Bosch, Stuttgart (spiralarmierte Säulen) 1900 Hotel Rotes Haus, Straßburg 1900 Schulhaus am Kirchstein, München (Treppenanlagen, Decken) 1900 Weinhandlung Jacob Jung, Rhodt (Decke) 1901 Artilleriekaserne Lahr, Pferdeställe 1901 Bombensichere Unterstände für die Festung Ulm (Jungingen, Weinberge, Geiselstetten, Hasslach) 1901 Buchdruckerei Ensslin & Laiblin, Reutlingen 1901 Direktion Sparkasse Luxemburg, Wände 1901 div. Kleinbauten Pulverhütte Rottweil 1901 El. Hochbahn Berlin, Bahnsteigbeläge 1901 Erzbehälter Hüttenwerk (Moselhütte) Mazieres 1901 Hochreservoir in Niederramstadt 1901 Hochstrassen-/ Gebsattelbrücke und Treppenanl., München (Th. Fischer) 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 3 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 April 2008 März 2008 Februar 2008 Januar 2008 Dezember 2007 November 2007 Oktober 2007 September 2007 August 2007 Juli 2007 Juni 2007 Mai 2007 1901 Hochstraßenbrücke über den Schwarzbach bei Gunzesried/Allgäu 1901 Maschinenfabrik Terrot, Stuttgart (Decke) 1901 Papierfabrik Julius Glatz, Neidenfels (1903 Brand) 1901 Schlossbrauerei Laupheim, Gewölbe 1901 Schule Rupprechtsau, Strassburg (Decken) 1901 Schulhausneubau Erlangen 1901 Stähle & Friedel, Stuttgart (Decken) 1902, vor Aussichtsturm bei Offenburg (Stampfbeton) 1902 Ausstellung Ddf 1902 (Decken) 1902 Brückentafel Eybach 1902 Büroneubau W&F, Neustadt 1902 Decke über Gewölbe im Martinsspital, München 1902 Distriktstrassenbrücke über die Vils bei Vilsbiburg 1902 Druckerei C. Schilling, Heilbronn 1902 Festungsgewölbe in Wilhelmshafen 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 4 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 1902 Gasometerbassin Bhf. Jagstfeld 1902 Gerstenweichanlage Löwenbräu, München 1902 Höhere Handelsschule Landau/Pfalz 1902 K. Geiger, Stuttgart (Decken) 1902 Kaolinwerke Hirschau 1902 Kaschlagatschbrücke, Lkr. Jekatrinoslaw, Ukraine 1902 Kläranlage etc., Celluloidfabrik Kirrmeyer & Scherer, Speyer 1902 Konservenfabrik Schiltigheim 1902 Moselbahn-Überführung bei Wasserliesch-Reinig 1902 Oelmühle P.W.Kallen, Neuss (Decke) 1902 Papierfabrik Fr. Wilh. Ebbinghaus, Letmathe 1902 Papierfabrik München-Pasing (Brunnen) 1902 Salzbachbrücke in Niederzenzheim 1902 Schulhaus Traunstein (Decken) 1902 Silo der Odenwälder Hartsteinindustrie, Oberramstadt b. Darmstadt; Roßdorf 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 5 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 1902 Städt. Stallungen u. Maschinenhaus Kopstal, Luxemburg 1902 Stützmauer Forstenriederstr., München 1902 Trottoir und Kuppel, Heilstätten Beelitz b. Berlin 1902 Wasserburg/Inn, Tunnel der Bahnlinie Wasserburg Bahnhof – WB Stadt 1902 Wegeüberführung Grimmelfingen b. Ulm 1903 AG f. Maschinenpapierfabr. Aschaff., Fil. Walsum (Decken im Fabrikgeb. u. Schlafhaus) 1903 Brücke über den Mörsbach b. Rheinberg 1903 Daimler-Motoren-Gesellschaft Untertürkheim, Werkstatt und Unterkunftsgebäude 1903 Gerstensilo Bierbrauerei Robert Leicht, Vaihingen 1903 Glanbrücke bei Ulmet der Pfälz. Eisenbahn 1903 Grünwalder Isarbrücke (EB-Bauges.) 1903 Hochreservoir Lothr. Hüttenverein Aumetz-Friede, Kneuttingen 1903 Kath. Pfarrkirche Martinshöhe/Pfalz, Gewölbe 1903 Korpsbekleidungsamt Bahrenfeld (Decken) 1903 Lagerhaus Opladen der kgl. Eisenbahndirektion Elberfeld 1903 Lagerhaus Ölmühle Kallen, Neuss 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 6 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 1903 Laubbachbrücke Laupheim 1903 Magazingebäude (Lagerhaus) der Militärverwaltung Ulm/Donau 1903 Malzsilo Löwenbrauerei, München (EBG) 1903 Margarethenkirche Sendling, Gewölbe 1903 Maschinenfabrik Martin Häuser, Neustadt (Decken) 1903 Neubau im Föhricht von J. Hauff & Cie, Feuerbach b. Stuttgart 1903 Neubau Rothebühlstrasse, Stadt Stuttgart 1903 Schlachthof Bamberg 1903 Strassenunterführung in Montigny/Lothringen 1903 v. Miller'sche Töchterschule, Regensburg (Treppen) 1903 Viktoria-Luisenschule Wilmersdorf (Decken) 1903 Zentralbahnhof Nürnberg 1904 Augustinerbrauerei Jos. Wagner, München (Decken) 1904 Baumwollmanufaktur Tammerfors/Finnland 1904 Baumwollmanufaktur Wasa / Finnland",
+  "embed_doc": "Wayss Freytag | 00 Architekten | 01 Projekte | 02 Lehre | 03 Ausstellungen | 04 Literatur | 05 Forschung | 06 Texte | 07 Berichte | 08 Zitate von und Ueber den Architekten | 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 1 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 Home html01pages GO! Hauptmenü Startseite Aktuelle Meldungen Aktuelle Ausgabe Bisherige Ausgaben Vorschau Register Lesezeichen Wer kennt... ? Personalia Redaktion Impressum Leserservice Archiv September 2012 August 2012 Juli 2012 Juni 2012 Mai 2012 April 2012 März 2012 Februar 2012 Januar 2012 Dezember 2011 November 2011 Oktober 2011 September 2011 August 2011 Juli 2011 Juni 2011 Wayss & Freytag (Neustadt/Frankfurt) 1890 Strassenbrücke in der Pulverfabrik Ingolstadt 1891 Nonnenwaldbrücke über die Nagold zw. Ebhausen u. Altensteig, Kreis Calw 1898 Fa. Hauck & Arnold, Friedrichsthal (Decken u. Stützen) 1898 Hochreservoir Deidesheim 1898 Hochreservoir Gimmeldingen 1898 Kabelsteg / Brücke an der Isarlust, München 1898 Wagenschuppen Wayss & Freytag, Neustadt 1899 Hochreservoir Bad Mondorf (Luxemburg) 1899 Hochreservoir für Landbauamt Speyer 1899 Lagerhaus Hafen Straßburg (mit Fa. Ed. Züblin) 1899 Lagerhaus Zuckerfabrik Regensburg 1899 Mech. Werkstätte W & Fr., Neustadt industrie-kulturMagazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 2 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 Mai 2011 April 2011 März 2011 Februar 2011 Januar 2011 Dezember 2010 November 2010 Oktober 2010 September 2010 August 2010 Juli 2010 Juni 2010 Mai 2010 April 2010 März 2010 Februar 2010 Januar 2010 Dezember 2009 November 2009 Oktober 2009 September 2009 August 2009 Juli 2009 Juni 2009 Mai 2009 April 2009 März 2009 Februar 2009 Januar 2009 Dezember 2008 November 2008 Oktober 2008 September 2008 August 2008 Juli 2008 Juni 2008 Mai 2008 1899 Reservoire Stadt Pforzheim 1899 Univ. Strassburg, Decke in der Erdbebenstation 1900 Fabrikneubau (Elektrotechn. Fabrik) Robert Bosch, Stuttgart (spiralarmierte Säulen) 1900 Hotel Rotes Haus, Straßburg 1900 Schulhaus am Kirchstein, München (Treppenanlagen, Decken) 1900 Weinhandlung Jacob Jung, Rhodt (Decke) 1901 Artilleriekaserne Lahr, Pferdeställe 1901 Bombensichere Unterstände für die Festung Ulm (Jungingen, Weinberge, Geiselstetten, Hasslach) 1901 Buchdruckerei Ensslin & Laiblin, Reutlingen 1901 Direktion Sparkasse Luxemburg, Wände 1901 div. Kleinbauten Pulverhütte Rottweil 1901 El. Hochbahn Berlin, Bahnsteigbeläge 1901 Erzbehälter Hüttenwerk (Moselhütte) Mazieres 1901 Hochreservoir in Niederramstadt 1901 Hochstrassen-/ Gebsattelbrücke und Treppenanl., München (Th. Fischer) 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 3 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 April 2008 März 2008 Februar 2008 Januar 2008 Dezember 2007 November 2007 Oktober 2007 September 2007 August 2007 Juli 2007 Juni 2007 Mai 2007 1901 Hochstraßenbrücke über den Schwarzbach bei Gunzesried/Allgäu 1901 Maschinenfabrik Terrot, Stuttgart (Decke) 1901 Papierfabrik Julius Glatz, Neidenfels (1903 Brand) 1901 Schlossbrauerei Laupheim, Gewölbe 1901 Schule Rupprechtsau, Strassburg (Decken) 1901 Schulhausneubau Erlangen 1901 Stähle & Friedel, Stuttgart (Decken) 1902, vor Aussichtsturm bei Offenburg (Stampfbeton) 1902 Ausstellung Ddf 1902 (Decken) 1902 Brückentafel Eybach 1902 Büroneubau W&F, Neustadt 1902 Decke über Gewölbe im Martinsspital, München 1902 Distriktstrassenbrücke über die Vils bei Vilsbiburg 1902 Druckerei C. Schilling, Heilbronn 1902 Festungsgewölbe in Wilhelmshafen 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 4 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 1902 Gasometerbassin Bhf. Jagstfeld 1902 Gerstenweichanlage Löwenbräu, München 1902 Höhere Handelsschule Landau/Pfalz 1902 K. Geiger, Stuttgart (Decken) 1902 Kaolinwerke Hirschau 1902 Kaschlagatschbrücke, Lkr. Jekatrinoslaw, Ukraine 1902 Kläranlage etc., Celluloidfabrik Kirrmeyer & Scherer, Speyer 1902 Konservenfabrik Schiltigheim 1902 Moselbahn-Überführung bei Wasserliesch-Reinig 1902 Oelmühle P.W.Kallen, Neuss (Decke) 1902 Papierfabrik Fr. Wilh. Ebbinghaus, Letmathe 1902 Papierfabrik München-Pasing (Brunnen) 1902 Salzbachbrücke in Niederzenzheim 1902 Schulhaus Traunstein (Decken) 1902 Silo der Odenwälder Hartsteinindustrie, Oberramstadt b. Darmstadt; Roßdorf 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 5 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 1902 Städt. Stallungen u. Maschinenhaus Kopstal, Luxemburg 1902 Stützmauer Forstenriederstr., München 1902 Trottoir und Kuppel, Heilstätten Beelitz b. Berlin 1902 Wasserburg/Inn, Tunnel der Bahnlinie Wasserburg Bahnhof – WB Stadt 1902 Wegeüberführung Grimmelfingen b. Ulm 1903 AG f. Maschinenpapierfabr. Aschaff., Fil. Walsum (Decken im Fabrikgeb. u. Schlafhaus) 1903 Brücke über den Mörsbach b. Rheinberg 1903 Daimler-Motoren-Gesellschaft Untertürkheim, Werkstatt und Unterkunftsgebäude 1903 Gerstensilo Bierbrauerei Robert Leicht, Vaihingen 1903 Glanbrücke bei Ulmet der Pfälz. Eisenbahn 1903 Grünwalder Isarbrücke (EB-Bauges.) 1903 Hochreservoir Lothr. Hüttenverein Aumetz-Friede, Kneuttingen 1903 Kath. Pfarrkirche Martinshöhe/Pfalz, Gewölbe 1903 Korpsbekleidungsamt Bahrenfeld (Decken) 1903 Lagerhaus Opladen der kgl. Eisenbahndirektion Elberfeld 1903 Lagerhaus Ölmühle Kallen, Neuss 26.09.12 16:06Wayss & Freytag (Neustadt/Frankfurt) :: Industrie Kultur :: Magazin für Denkmalpflege, Landschaft, Sozial-, Umwelt- und Technikgeschichte Seite 6 von 19http://www.industrie-kultur.de/index.php?module=html01pages&func=display&pid=102 1903 Laubbachbrücke Laupheim 1903 Magazingebäude (Lagerhaus) der Militärverwaltung Ulm/Donau 1903 Malzsilo Löwenbrauerei, München (EBG) 1903 Margarethenkirche Sendling, Gewölbe 1903 Maschinenfabrik Martin Häuser, Neustadt (Decken) 1903 Neubau im Föhricht von J. Hauff & Cie, Feuerbach b. Stuttgart 1903 Neubau Rothebühlstrasse, Stadt Stuttgart 1903 Schlachthof Bamberg 1903 Strassenunterführung in Montigny/Lothringen 1903 v. Miller'sche Töchterschule, Regensburg (Treppen) 1903 Viktoria-Luisenschule Wilmersdorf (Decken) 1903 Zentralbahnhof Nürnberg 1904 Augustinerbrauerei Jos. Wagner, München (Decken) 1904 Baumwollmanufaktur Tammerfors/Finnland 1904 Baumwollmanufaktur Wasa / Finnland",
+  "stand": "2026-07-02T22:51:25"
+}

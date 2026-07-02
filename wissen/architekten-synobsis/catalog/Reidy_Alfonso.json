@@ -1,0 +1,35 @@
+{
+  "slug": "Reidy_Alfonso",
+  "architekt": {
+    "name": "Reidy Alfonso",
+    "nachname": "Reidy Alfonso",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Reidy Alfonso"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Reidy Alfonso",
+  "projekte": [
+    {
+      "raw": "Reidy Affonso Eduardo",
+      "ort": "Reidy Affonso Eduardo",
+      "projekt": "Reidy Affonso Eduardo",
+      "jahre": [],
+      "titel": "Reidy Affonso Eduardo"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 15,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 15
+  },
+  "dateitypen": {
+    ".jpg": 14,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Reidy Alfonso | Reidy Affonso Eduardo Reidy Affonso Eduardo",
+  "stand": "2026-07-02T22:45:43"
+}

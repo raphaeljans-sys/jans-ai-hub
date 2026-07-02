@@ -1,0 +1,41 @@
+{
+  "slug": "Rolli_Boss_Architekten",
+  "architekt": {
+    "name": "Rolli Boss Architekten",
+    "nachname": "Rolli",
+    "vorname": "Boss Architekten",
+    "jahre": [],
+    "ordner": "Rolli_Boss_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rolli_Boss_Architekten",
+  "projekte": [
+    {
+      "raw": "Basel_Helvetiaplatz_10",
+      "ort": "Basel",
+      "projekt": "Helvetiaplatz 10",
+      "jahre": [],
+      "titel": "Basel Helvetiaplatz 10"
+    },
+    {
+      "raw": "Binningen_Schweissbergweg_26",
+      "ort": "Binningen",
+      "projekt": "Schweissbergweg 26",
+      "jahre": [],
+      "titel": "Binningen Schweissbergweg 26"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Rolli Boss Architekten | Basel Helvetiaplatz 10 | Binningen Schweissbergweg 26",
+  "stand": "2026-07-02T22:46:07"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "Wahlman_Lars_Israel",
+  "architekt": {
+    "name": "Wahlman Lars Israel",
+    "nachname": "Wahlman",
+    "vorname": "Lars Israel",
+    "jahre": [],
+    "ordner": "Wahlman_Lars_Israel"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wahlman_Lars_Israel",
+  "projekte": [
+    {
+      "raw": "Engelberktskirche_1905_1914",
+      "ort": "Engelberktskirche",
+      "projekt": "Engelberktskirche",
+      "jahre": [
+        "1905",
+        "1914"
+      ],
+      "titel": "Engelberktskirche 1905 1914"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "236 Stockholm. Wahlman. Engelbrektskirche Lars Israel Wahlman Engelbrektskirche (1905–1914) Östermalmsgatan 20, Stockholm 237Stockholm. Wahlman. Engelbrektskirche",
+  "embed_doc": "Wahlman Lars Israel | Engelberktskirche Engelberktskirche 1905 1914 | 236 Stockholm. Wahlman. Engelbrektskirche Lars Israel Wahlman Engelbrektskirche (1905–1914) Östermalmsgatan 20, Stockholm 237Stockholm. Wahlman. Engelbrektskirche",
+  "stand": "2026-07-02T22:51:23"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Sigg",
+  "architekt": {
+    "name": "Sigg",
+    "nachname": "Sigg",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Sigg"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Sigg",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Sigg",
+  "stand": "2026-07-02T22:48:31"
+}

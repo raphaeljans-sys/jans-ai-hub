@@ -1,0 +1,51 @@
+{
+  "slug": "Senn_Otto",
+  "architekt": {
+    "name": "Senn Otto",
+    "nachname": "Senn",
+    "vorname": "Otto",
+    "jahre": [],
+    "ordner": "Senn_Otto"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Senn_Otto",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Basel_Parkhaus_Zossen_1935-38_Umgebaut_1984",
+      "ort": "Basel",
+      "projekt": "Parkhaus Zossen 1935-38 Umgebaut",
+      "jahre": [
+        "1984"
+      ],
+      "titel": "Basel Parkhaus Zossen 1935-38 Umgebaut 1984"
+    },
+    {
+      "raw": "Berlin_Wohnhaus_Interbau_Berlin",
+      "ort": "Berlin",
+      "projekt": "Wohnhaus Interbau Berlin",
+      "jahre": [],
+      "titel": "Berlin Wohnhaus Interbau Berlin"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 1,
+    ".pdf": 1
+  },
+  "textauszug": "2424 Kompendium Wohnhaus Interbau, Berlin 1967 Architekt Otto Senn Mst. 1:250",
+  "embed_doc": "Senn Otto | 00 Architekten | Basel Parkhaus Zossen 1935-38 Umgebaut 1984 | Berlin Wohnhaus Interbau Berlin | 2424 Kompendium Wohnhaus Interbau, Berlin 1967 Architekt Otto Senn Mst. 1:250",
+  "stand": "2026-07-02T22:48:08"
+}

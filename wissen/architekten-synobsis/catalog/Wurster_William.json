@@ -1,0 +1,44 @@
+{
+  "slug": "Wurster_William",
+  "architekt": {
+    "name": "Wurster William",
+    "nachname": "Wurster",
+    "vorname": "William",
+    "jahre": [],
+    "ordner": "Wurster_William"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wurster_William",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Kalifornien_Aptos_Clark_Beach_House_1937",
+      "ort": "Kalifornien",
+      "projekt": "Aptos Clark Beach House",
+      "jahre": [
+        "1937"
+      ],
+      "titel": "Kalifornien Aptos Clark Beach House 1937"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 15,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 16
+  },
+  "dateitypen": {
+    ".jpg": 15,
+    ".docx": 1
+  },
+  "textauszug": "Arianna Huffington and Gavin Newsom party before the renovated stair at Larry Ellison’s . William Wurster: “ Architecture is not a goal . Architecture is for life and pleasure and work and for people . The picture frame and not the picture .” When one makes the unfair comparison between Wurster’s work and the expressive functionalism of his close friend , the universally beloved Finn Alvar Aalto, the restrictions Wurster put on self expression sound severe . An exception , thanks to the helpful push of his client , might be the unique Saxton Pope House in Lafayette (1940) with its private entry court , an outdoor living space with circular roof opening and fireplace , all enclosed within a corrugated metal surround .",
+  "embed_doc": "Wurster William | 00 Architekten | Kalifornien Aptos Clark Beach House 1937 | Arianna Huffington and Gavin Newsom party before the renovated stair at Larry Ellison’s . William Wurster: “ Architecture is not a goal . Architecture is for life and pleasure and work and for people . The picture frame and not the picture .” When one makes the unfair comparison between Wurster’s work and the expressive functionalism of his close friend , the universally beloved Finn Alvar Aalto, the restrictions Wurster put on self expression sound severe . An exception , thanks to the helpful push of his client , might be the unique Saxton Pope House in Lafayette (1940) with its private entry court , an outdoor living space with circular roof opening and fireplace , all enclosed within a corrugated metal surround .",
+  "stand": "2026-07-02T22:51:46"
+}
