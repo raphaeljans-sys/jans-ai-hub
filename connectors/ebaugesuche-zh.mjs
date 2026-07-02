@@ -178,20 +178,32 @@ async function fuehreLoginAus({ sichtbar = false, still = false, timeoutSek = 18
     if (still && zurueckImPortal()) {
       info('✓ Stille Auffrischung: idp.zh.ch-SSO noch gueltig, keine Handy-Freigabe noetig.');
     } else {
-      // 1) Profilauswahl "Login Private und Unternehmen" (falls angezeigt)
+      // 1) Profilauswahl: pro Profil eine Kachel mit Button id="submit<Profilname>"
+      //    "Login Private und Unternehmen" -> weiter zum ZHservices-Login.
       const profil = env.EBAU_LOGIN_PROFILE || 'Login Private und Unternehmen';
-      const profilEl = page.getByText(profil, { exact: false }).first();
-      if (await profilEl.count().catch(() => 0)) {
-        info(`→ Waehle Login-Profil: ${profil}`);
-        await profilEl.click().catch(() => {});
+      const profilBtn = page.locator(`[id="submit${profil}"]`).first();
+      if (await profilBtn.count().catch(() => 0)) {
+        info(`→ Waehle Login-Profil: ${profil} (weiter zu ZHservices)`);
+        await profilBtn.click().catch(() => {});
         await page.waitForLoadState('domcontentloaded').catch(() => {});
+        await page.waitForLoadState('networkidle').catch(() => {});
       }
 
-      // 2) Benutzername + Passwort (robuste Locator-Kaskade)
+      // Aufklaerungsmodus: nur bis zur ZHservices-Maske, HTML/Screenshot ablegen, dann Stopp.
+      if (process.env.EBAU_RECON === '1') {
+        await page.waitForTimeout(2500);
+        try { await page.screenshot({ path: '/tmp/ebau-zhservices.png', fullPage: true }); } catch {}
+        try { writeFileSync('/tmp/ebau-zhservices.html', await page.content()); } catch {}
+        info(`RECON: ZHservices-Maske abgelegt (URL ${page.url()}).`);
+        await browser.close();
+        process.exit(0);
+      }
+
+      // 2) Benutzername + Passwort — ZHservices-Maske (services.zh.ch, AngularJS)
       const userFeld = page.locator(
-        'input[name*="user" i], input[name*="benutzer" i], input[id*="user" i], input[type="text"]'
+        '#username, input[name="username"], input[name*="user" i], input[type="text"]'
       ).first();
-      const passFeld = page.locator('input[type="password"]').first();
+      const passFeld = page.locator('#password, input[name="password"], input[type="password"]').first();
 
       if (still && !(await passFeld.count().catch(() => 0))) {
         // Kein Passwortfeld trotz --refresh -> SSO hat es schon erledigt
@@ -203,7 +215,7 @@ async function fuehreLoginAus({ sichtbar = false, still = false, timeoutSek = 18
         await passFeld.fill(env.EBAU_PASSWORD);
         // Submit: Button oder Enter
         const btn = page.locator(
-          'button[type="submit"], input[type="submit"], button:has-text("Anmelden"), button:has-text("Login"), button:has-text("Weiter")'
+          'input[type="submit"][value="Anmelden"], input[type="submit"], button[type="submit"], button:has-text("Anmelden"), button:has-text("Login"), button:has-text("Weiter")'
         ).first();
         if (await btn.count().catch(() => 0)) await btn.click().catch(() => passFeld.press('Enter'));
         else await passFeld.press('Enter');
