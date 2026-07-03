@@ -7,6 +7,31 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-03
 
+- **HUB-CHEF-LAUF (erster echter Lauf, Review-Checkpoint):** Signale konsolidiert (Fristen-Register,
+  Logbuch 7-Tage-Horizont, heutige Morgen-Loops radar/zahlungsabgleich/mahnwesen/ag-monitor,
+  bexio `--verzug` + `--abgleich`, Outlook-Mail, Sync-/Remote-Queues, Service-Katalog).
+  - **Neue Befunde:** (a) bexio `--verzug` — zwei NEUE offene KISPI-Rechnungen **RE-00098 (CHF 13'600)**
+    + **RE-00099 (CHF 3'680)**, beide faellig 20.07., noch kein Verzug (ins Register). (b) `--abgleich`:
+    keine neuen Phantom-/Duplikat-Faelle (nur bekannte Altliste 19 Pos.; read-only, Treuhand/bexio-UI).
+    (c) Mail-Triage 02.07. (vom Routine-Radar als «andere Projekte» summiert, hier richtig triagiert):
+    **Thalwil Naeherbaurecht 2414** — SBB/Wiedmer bestaetigt Vordach in separate Vereinbarung ohne
+    Zusatz-Entschaedigung, Bauherr Tschopp gibt gruenes Licht; **Scherbl** praezisiert 4 fehlende
+    Lueftungs-Unterlagen fuer die private Kontrolle KISPI; **Steinmann (Nova)** Ferien 08.-20.07.,
+    Cutoff 06.07.; **eBaugesuche-Einladung** «Umbau Ladenflaeche» (Jashari/acta-ing); **KISPI-SPOC**
+    (Schaefer: A. Spahic alleinige Ansprechperson).
+  - **Aktionen (Whitelist):** A4 — Fristen-Register nachgefuehrt (RE-00098/99 + 5 neue Pendenzen aus der
+    Mail-Triage). A5 — zwei Antwort-Entwuerfe bereitgestellt (SBB Wiedmer / Gruner Duran) und im
+    Briefing eingestellt (NICHT autonom versendet). **Keine A1-Mahnaktion:** RE-00087 steht bereits
+    auf Mahnung 1, Eskalation auf Mahnung 2 ist nicht whitelisted (nur Entwurf); Zahlfrist 08.07. noch
+    nicht erreicht. Verbotsliste eingehalten (kein Versand ausser Briefing, keine Buchung/Loeschung).
+  - **QS (Phase 5):** Briefing + beide Entwuerfe durch `korrektur` (Rechtschreibung 🟢, Layout 🟢) und
+    `twin`-Fidelity-Gate (**92**, beide PASS; Register Verfahrens-Sie SBB / respektvoll-Sie Gruner
+    KB-belegt korrekt). Zwei optionale Twin-Feinungen uebernommen.
+  - **Briefing:** EINE Mail an rj@ versendet (Erledigt/Entwuerfe/Deine Aktion/Faellig/Service/Beobachten
+    + Whitelist-Review-Frage). Verweist auf das Radar-Briefing von heute frueh statt Doppelmeldung.
+  - **Checkpoint offen:** Raphael bestaetigt/justiert die Aktions-Whitelist v1 und den Briefing-Umfang
+    (insb. ob A5-Drafts kuenftig direkt in die Postfach-Entwuerfe statt ins Briefing).
+
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 10.07.)
   und Mail-Eingang (seit 02.07. 17:00) abgeglichen. Sync-Task-Queue: kein offener Task fuer das
   MacBook Pro (nur ein Synobsis-Task fuer den Mac Mini) — keine Radar-Pendenz.
