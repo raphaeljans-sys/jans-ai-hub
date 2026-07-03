@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.07.2026 05:28:14
+Stand: 03.07.2026 05:38:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.07.2026 05:28:14
 - 2 Datei(en): AR - 05 Transfer / Nescha
 
 ## Hub-Git-Stand (NAS)
-- f60728f nas-selfcommit: 2 Datei(en) 2026-07-03 05:15
+- c258a67 nas-selfcommit: 2 Datei(en) 2026-07-03 05:30
