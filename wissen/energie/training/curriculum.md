@@ -57,7 +57,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   → `[[cop-scop-jaz-waermepumpe-gruenenwald]]`; F6 + `[[heizleistung-und-waermeerzeuger]]` geschaerft.
   **Methode fuer projektgenaue JAZ belegt 2026-07-02** (WPesti/SIA 384/3:2021, gratis endk.ch, JAZ aus
   SIA-380/1-Nachweis + WP-Typ + Einbauart) → `[[sia-384-3-wpesti-jaz-methode]]`.
-  Offen: aktuelle **FWS-Feldstatistik** (moderne Geraete-JAZ nach 2004), WPesti-Standardwerte, CHF-Amortisationsvergleich.
+  **Moderne Feld-JAZ (drehzahlvariabel) belegt 2026-07-03** (WPZ Buchs/EnergieSchweiz, 13 Anlagen 2017-2019:
+  LWWP inkl. WW 3,5/3,1/2,8 · SWWP 4,9/4,6/4,3 je Neubau/Sanierung/Altbau; SWWP ~30 % Vorsprung) →
+  `[[wpz-buchs-feldmessung-jaz-2016-2019]]`. **CHF-Vollkostenvergleich belegt 2026-07-03** (EnergieSchweiz
+  EFH/20 J: WP guenstigstes System, Investition ≠ Gesamtkosten) → `[[heizsysteme-vollkostenvergleich-energieschweiz]]`
+  (FAQ **F30** neu). Offen nur noch: **noch aktuellere** Feldstatistik (Anlagen nach 2019), WPesti-Standardwerte.
 - [x] B6 Waermetechnische Anlagen WTA-Formular — belegt 2026-06-10 via Kt.-ZH-Formular 01-2024
   → `[[wta-formular-zh-waermetechnische-anlagen]]` (FAQ F14: Heizungsersatz-Verfahren/Beilagen je
   Waermequelle + fossil-Verbot §10a). **vollstaendig.**

@@ -91,8 +91,14 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   SCOP (EN 14825, CH ~5-7 % zu hoch) vs. JAZ-Feldmessung → `[[cop-scop-jaz-waermepumpe-gruenenwald]]`;
   F6 + Themenartikel `[[heizleistung-und-waermeerzeuger]]` geschaerft. **Methode fuer den projektgenauen
   Wert belegt ✓ 2026-07-02** (WPesti/SIA 384/3:2021, gratis endk.ch, JAZ aus SIA-380/1-Nachweis + WP-Typ +
-  Einbauart) → `[[sia-384-3-wpesti-jaz-methode]]`. Offen nur noch: aktuelle **FWS-Feldstatistik** (moderne
-  Geraete-JAZ nach 2004), WPesti-Standardwerte, CHF-Amortisationsvergleich, WP+PV-Lastmanagement.
+  Einbauart) → `[[sia-384-3-wpesti-jaz-methode]]`. **Moderne Feld-JAZ (drehzahlvariabel) belegt ✓ 2026-07-03**
+  (WPZ Buchs/EnergieSchweiz, 13 Anlagen 2017-2019: LWWP inkl. WW 3,5/3,1/2,8 · SWWP 4,9/4,6/4,3 je Neubau/
+  Sanierung/Altbau; SWWP ~30 % Vorsprung) → `[[wpz-buchs-feldmessung-jaz-2016-2019]]` — loest die «FWS-
+  Feldstatistik nach 2004»-Luecke. **CHF-Vollkosten-/Amortisationsvergleich belegt ✓ 2026-07-03**
+  (EnergieSchweiz EFH/20 J: Erdsonde 4'090 < Luft-WP 4'344 < Fernwaerme 4'940 < Oel 5'043 < Pellets 5'052
+  CHF/Jahr; WP guenstigstes System, Investition ≠ Gesamtkosten) → `[[heizsysteme-vollkostenvergleich-energieschweiz]]`,
+  FAQ **F30** neu. Offen nur noch: **noch aktuellere** Feldstatistik (Anlagen nach 2019), WPesti-Standardwerte,
+  WP+PV-Lastmanagement.
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
   `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)
