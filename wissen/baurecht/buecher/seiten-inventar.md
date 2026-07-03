@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -136,19 +136,19 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 118 | 1 | 234/235 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.08.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
 | 119 | 1 | 236/237 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.10.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
 | 120 | 1 | 238/239 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.12.jpg` | [[band-1/03-erschliessung-landsicherung-teil1]] |
-| 121 | 1 | ~239 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.13.jpg` |  |
-| 122 | 1 | ~241 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.15.jpg` |  |
-| 123 | 1 | ~243 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.17.jpg` |  |
-| 124 | 1 | ~245 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.19.jpg` |  |
-| 125 | 1 | ~247 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.21.jpg` |  |
-| 126 | 1 | ~249 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.23.jpg` |  |
-| 127 | 1 | ~251 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.24.jpg` |  |
-| 128 | 1 | ~253 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.26.jpg` |  |
-| 129 | 1 | ~255 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.28.jpg` |  |
-| 130 | 1 | ~257 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.29.jpg` |  |
-| 131 | 1 | ~259 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.31.jpg` |  |
-| 132 | 1 | ~261 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.33.jpg` |  |
-| 133 | 1 | ~263 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.35.jpg` |  |
+| 121 | 1 | 240/241 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.13.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 122 | 1 | 242/243 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.15.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 123 | 1 | 244/245 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.17.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 124 | 1 | 246/247 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.19.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 125 | 1 | 248/249 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.21.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 126 | 1 | 250/251 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.23.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 127 | 1 | 252/253 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.24.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 128 | 1 | 254/255 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.26.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 129 | 1 | 256/257 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.28.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 130 | 1 | 258/259 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.29.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 131 | 1 | 260/261 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.31.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 132 | 1 | 262/263 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.33.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
+| 133 | 1 | 264/265 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.35.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
 | 134 | 1 | ~265 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.36.jpg` |  |
 | 135 | 1 | ~267 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.38.jpg` |  |
 | 136 | 1 | ~269 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.40.jpg` |  |
@@ -322,20 +322,20 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 304 | 1 | ~604 | [ ] | `Bildschirmfoto 2026-06-07 um 11.49.50.jpg` |  |
 | 305 | 1 | ~606 | [ ] | `Bildschirmfoto 2026-06-07 um 11.49.52.jpg` |  |
 | 306 | 1 | ~608 | [ ] | `Bildschirmfoto 2026-06-07 um 11.49.53.jpg` |  |
-| 307 | 1 | ~610 | [ ] | `Bildschirmfoto 2026-06-07 um 11.49.55.jpg` |  |
-| 308 | 1 | ~612 | [ ] | `Bildschirmfoto 2026-06-07 um 11.49.57.jpg` |  |
-| 309 | 1 | ~614 | [ ] | `Bildschirmfoto 2026-06-07 um 11.49.59.jpg` |  |
-| 310 | 1 | ~616 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.01.jpg` |  |
-| 311 | 1 | ~618 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.02.jpg` |  |
-| 312 | 1 | ~620 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.04.jpg` |  |
-| 313 | 1 | ~622 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.06.jpg` |  |
-| 314 | 1 | ~624 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.08.jpg` |  |
-| 315 | 1 | ~626 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.10.jpg` |  |
-| 316 | 1 | ~628 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.12.jpg` |  |
-| 317 | 1 | ~630 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.13.jpg` |  |
-| 318 | 1 | ~632 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.15.jpg` |  |
-| 319 | 1 | ~634 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.17.jpg` |  |
-| 320 | 1 | ~636 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.19.jpg` |  |
+| 307 | 1 | 609/610 | [x] | `Bildschirmfoto 2026-06-07 um 11.49.55.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 308 | 1 | 611/612 | [x] | `Bildschirmfoto 2026-06-07 um 11.49.57.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 309 | 1 | 613/614 | [x] | `Bildschirmfoto 2026-06-07 um 11.49.59.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 310 | 1 | 615/616 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.01.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 311 | 1 | 617/618 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.02.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 312 | 1 | 619/620 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.04.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 313 | 1 | 621/622 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.06.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 314 | 1 | 623/624 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.08.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 315 | 1 | 625/626 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.10.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 316 | 1 | 627/628 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.12.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 317 | 1 | 629/630 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.13.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 318 | 1 | 631/632 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.15.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 319 | 1 | 633/634 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.17.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
+| 320 | 1 | 635/636 | [x] | `Bildschirmfoto 2026-06-07 um 11.50.19.jpg` | [[band-1/10-widerrechtliche-bauten-teil1]] |
 | 321 | 1 | ~638 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.21.jpg` |  |
 | 322 | 1 | ~640 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.22.jpg` |  |
 | 323 | 1 | ~642 | [ ] | `Bildschirmfoto 2026-06-07 um 11.50.24.jpg` |  |
@@ -402,26 +402,26 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 384 | 2 | 764/765 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.16.jpg` | [[band-2/12-baureife-teil3-versorgung-entsorgung]] |
 | 385 | 2 | 766/767 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.18.jpg` | [[band-2/12-baureife-teil3-versorgung-entsorgung]] |
 | 386 | 2 | 768/769 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.20.jpg` | [[band-2/12-baureife-teil3-versorgung-entsorgung]] |
-| 387 | 2 | ~769 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.21.jpg` |  |
-| 388 | 2 | ~771 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.23.jpg` |  |
-| 389 | 2 | ~773 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.25.jpg` |  |
-| 390 | 2 | ~775 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.26.jpg` |  |
-| 391 | 2 | ~777 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.28.jpg` |  |
-| 392 | 2 | ~779 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.30.jpg` |  |
-| 393 | 2 | ~781 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.32.jpg` |  |
-| 394 | 2 | ~783 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.33.jpg` |  |
-| 395 | 2 | ~785 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.35.jpg` |  |
-| 396 | 2 | ~787 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.37.jpg` |  |
-| 397 | 2 | ~789 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.39.jpg` |  |
-| 398 | 2 | ~791 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.40.jpg` |  |
-| 399 | 2 | ~793 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.42.jpg` |  |
-| 400 | 2 | ~795 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.44.jpg` |  |
-| 401 | 2 | ~797 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.45.jpg` |  |
-| 402 | 2 | ~799 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.47.jpg` |  |
-| 403 | 2 | ~801 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.49.jpg` |  |
-| 404 | 2 | ~803 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.51.jpg` |  |
-| 405 | 2 | ~805 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.53.jpg` |  |
-| 406 | 2 | ~807 | [ ] | `Bildschirmfoto 2026-06-07 um 11.52.54.jpg` |  |
+| 387 | 2 | 770/771 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.21.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 388 | 2 | 772/773 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.23.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 389 | 2 | 774/775 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.25.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 390 | 2 | 776/777 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.26.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 391 | 2 | 778/779 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.28.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 392 | 2 | 780/781 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.30.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 393 | 2 | 782/783 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.32.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 394 | 2 | 784/785 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.33.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 395 | 2 | 786/787 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.35.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 396 | 2 | 788/789 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.37.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 397 | 2 | 790/791 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.39.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 398 | 2 | 792/793 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.40.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 399 | 2 | 794/795 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.42.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 400 | 2 | 796/797 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.44.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 401 | 2 | 798/799 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.45.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 402 | 2 | 800/801 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.47.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 403 | 2 | 802/803 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.49.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 404 | 2 | 804/805 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.51.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 405 | 2 | 806/807 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.53.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
+| 406 | 2 | 808/809 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.54.jpg` | [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] |
 | 407 | 2 | 810/811 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.56.jpg` | [[band-2/13-weitere-grundanforderungen]] |
 | 408 | 2 | 812/813 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.57.jpg` | [[band-2/13-weitere-grundanforderungen]] |
 | 409 | 2 | 814/815 | [x] | `Bildschirmfoto 2026-06-07 um 11.52.59.jpg` | [[band-2/13-weitere-grundanforderungen]] |

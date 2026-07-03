@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -140,6 +140,15 @@ Trainingslauf (`../training/PROGRAMM.md`).
   bewilligung** Art. 17 GSchG, GEP § 8 KGSchV, Anschlussgebuehren). 14 Doppelseiten. Status:
   `emerging` (Rest 12.5 Gebuehren + Abfall/Kehricht + Altlasten Art. 32c USG, S. 770-809 → Teil 4
   offen). Speist [[baureife-und-erschliessung]].
+- [[12-baureife-teil4-gebuehren-abfall-altlasten]] — Kap. 12 Teil 4 / **Schluss** (S. 770-807):
+  **Anschlussgebuehren + Abfall/Kehricht + belastete Standorte/Altlasten** — Anschlussgebuehr
+  verursachergerecht (**Art. 60a GSchG / § 45 EG GSchG**), Abfallbeseitigung/Kehricht (**Art. 30-32b
+  USG**, VVEA/VeVA, AbfG ZH, § 249 PBG, Verursacherprinzip), **Altlasten** (**Art. 32c USG** Sanierung
+  + Kataster belasteter Standorte KbS, **Art. 32d USG** Kostentragung/Verursacher, **Art. 32b bis / 32d bis
+  USG** Bauherren-Altlast + Veraeusserungsbewilligung AWEL, **AltlV** Vor-/Detailuntersuchung/Realleistung
+  Art. 20, VASA/Fonds Art. 32e). Trennung **Realleistungspflicht (Standortinhaber)** vs. **Kostentragung
+  (Verursacher)** in zwei Verfahren. 20 Doppelseiten. Status: `emerging`. **SCHLIESST Kap. 12 «Baureife»
+  vollstaendig.** Speist [[baureife-und-erschliessung]].
 
 ## Band 1 — Planungsrecht, Verfahren, Rechtsschutz
 - [[01-grundlagen]] — Kap. 1 (S. 80-110, **vollstaendig**): **Grundlagen des Planungs- und
@@ -193,6 +202,27 @@ Trainingslauf (`../training/PROGRAMM.md`).
   beitraege 1/4-1/2 § 62 StrG**), NSG/EBG/GueTG. 16 Doppelseiten (Shots 105-120). Status: `emerging`
   (Teil 2: Quartierplan-Detail 3.9 ab S. 238 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung offen).
   Speist [[baureife-und-erschliessung]] + [[baulinien-und-abstandslinien]].
+- [[03-quartierplan-landumlegung-teil2]] — Kap. 3 Teil 2 / **Schluss** (S. 240-265): **Quartierplan +
+  Landumlegung + Grenzbereinigung** — Quartierplan als Feinerschliessungs-Instrument (Zweck **§ 123 Abs. 1
+  PBG**, Teilquartierplan **§ 123 Abs. 2**, landwirtsch. Landumlegung **§ 123a**, Beizugsgebiet **§ 124**),
+  **amtlicher QP § 158** (Gemeindevorstand) vs. **privater QP § 160a** (Einstimmigkeit), Kombination
+  Gestaltungsplan/Sonderbauvorschriften **§ 129 / § 81**, Verfahren (Einleitung **§§ 147/149**, Rekurs
+  **§ 148**, **Quartierplanbann § 150/§ 234**, zwei Entwuerfe **§§ 151-157** 6+4 Mt., Festsetzung/Genehmigung
+  **§ 159**), Umlegungsmethode/Realersatz/Aequivalenz **§§ 137-139**, Geldausgleich **§ 145**, Vollzug
+  **§§ 161-176** (Faelligkeit § 162, **Heimschlag § 165 / 60 Tage**), **Grenzbereinigung §§ 178/181/183**
+  (immer amtlich, ≤ 2 Mt., keine Genehmigung), Gebietssanierung **§ 186 ff.**, Gueterzusammenlegung
+  **§§ 76-94 LG / Art. 20 WaG**. 13 Doppelseiten (Shots 121-133). Status: `emerging`. **SCHLIESST Kap. 3.**
+  Speist [[baureife-und-erschliessung]] + [[baulinien-und-abstandslinien]].
+- [[10-widerrechtliche-bauten-teil1]] — Kap. 10 / **vollstaendig** (S. 609-636): **Widerrechtliche Bauten
+  und deren Sanktionierung** — **formelle vs. materielle Baurechtswidrigkeit** (formell heilbar via
+  nachtraeglichem Baubewilligungsverfahren; materiell → Wiederherstellung), **Wiederherstellung § 341 PBG**
+  (Abbruch/Aenderung, Verhaeltnismaessigkeitsvorbehalt Art. 5 Abs. 2 BV, guter/boeser Glaube),
+  **30-Jahre-Verwirkung** des Wiederherstellungsanspruchs (staendige BGer-Praxis; Ausnahme Polizeigueter/
+  Umwelt), vorsorgliche Massnahmen **§ 339 Abs. 2 PBG / § 6 VRG** (Baustopp/Nutzungsverbot/Siegelung Art. 290
+  StGB), Vollstreckung **§ 30 VRG** (Ersatzvornahme/direkter Zwang, Grundpfand Art. 836 ZGB, Stoererprinzip),
+  **Strafbestimmungen § 340 PBG** (Busse bis 50'000 Fr., trifft auch Architekten/Ingenieure; § 340a
+  Verjaehrung 5 J.), Art. 229/292 StGB, Einziehung Art. 70 f. StGB. 12 Doppelseiten (Shots 307-320). Status:
+  `emerging`. **Letzte Sektion von Band 1.** Speist [[widerrechtliche-bauten-und-sanktionen]].
 - [[07-zustaendigkeiten-entscheide-auskuenfte]] — Kap. 7 Teil 1 (S. 424-447): **Der kommunale
   baurechtliche Entscheid** — Rechtsnatur (Polizeierlaubnis, sachbezogen, mitwirkungsbeduerftig
   BEZ 2014 Nr. 45), **Zustaendigkeit** (oertliche Baubehoerde § 318 PBG; GG-Delegationen: eigen-
@@ -284,11 +314,12 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 21 | Bauen ausserhalb Bauzonen | 🟡 teilweise (Art.16/16a/24/24a-e RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972, S.1459-1503; Rest Art.24d/24e/37a ab Shot 756 offen) |
 | 22 | Privatrechtliche Bauvorschriften | 🟡 teilweise (Nachbarrecht ZGB Art.679/684/685 ff. + §§169-178 EG ZGB Pflanzenabstaende, S.1517-1534) |
 | 23 | Glossar Architektur | 🟡 teilweise (Begriffe mit §-Belegen, S.1537-1549) |
-| 12 | Baureife | 🟡 teilweise (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss, S.707-769; Rest 12.5 Gebuehren + Abfall + Altlasten Art.32c USG S.770-809 offen) |
+| 12 | Baureife | 🟢 vollstaendig (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss + 12.6 Abfall/Kehricht Art.30-32b USG/VVEA + 12.7 Altlasten Art.32c/32d USG/AltlV/KbS + Anschlussgebuehren Art.60a GSchG, S.707-807) |
 | 18 | Brandschutz | ⬜ offen — nur Querverweis auf Skill `brandschutz` (kein Doppelaufbau) |
 | 1 | Grundlagen des Planungs- und Baurechts | 🟢 vollstaendig (oeff./privates Baurecht §317, Kompetenz Bund/Kantone Art.3/42/75 BV, Rechtsquellen, SIA-Normen §3 Abs.12 BBV I/§360 Abs.3 PBG, Verhaeltnismaessigkeit/Treu+Glauben, Aufbau PBG VII Titel, S.80-110) |
 | 2 | Raumplanung, Richt- und Nutzungsplanung | 🟢 weitgehend (Teil 1 Raum-/Richtplanung S.112-143 + Teil 2 Zonenarten/numerus clausus §48 Abs.2 S.144-169 + Teil 3 Sondernutzung/Gestaltungsplan §§83-89/§48 Abs.3/§49b + Verfahren Nutzungsplanung S.170-204; nur BZO-Grundlagen/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set) |
-| 3 | Erschliessung, Landsicherung, Landumlegung | 🟡 teilweise (Teil 1: Begriff/Arten Erschliessung, 15-J-Erschliessungspflicht Art.19 RPG, Erschliessungsplan §§90-95/§93, Baulinien §§96 ff./Niveaulinien §106, Werkplan §§114-119, vorsorgl. Bauverbot §§120-122, StrG-Mehrwertbeitraege §62, S.208-239; Quartierplan-Detail 3.9 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung ab S.238 offen) |
-| 4-5, 10 | uebrige (Band 1: Natur-/Heimatschutz/Entschaedigung/widerrechtl. Bauten) | ⬜ offen |
+| 3 | Erschliessung, Landsicherung, Landumlegung | 🟢 vollstaendig (Teil 1: Begriff/Arten Erschliessung, 15-J-Erschliessungspflicht Art.19 RPG, Erschliessungsplan §§90-95/§93, Baulinien §§96 ff./Niveaulinien §106, Werkplan §§114-119, vorsorgl. Bauverbot §§120-122, StrG-Mehrwertbeitraege §62, S.208-239 + Teil 2: Quartierplan §§123 ff./amtlich §158 vs. privat §160a/Verfahren §§147-159/Umlegung §§137-145/Vollzug §§161-176/Heimschlag §165/Grenzbereinigung §§178-183/Gueterzusammenlegung §§76-94 LG, S.240-265) |
+| 10 | Widerrechtliche Bauten und deren Sanktionierung | 🟢 vollstaendig (formelle/materielle Widrigkeit, Wiederherstellung §341 PBG, 30-J-Verwirkung, vorsorgl. Massnahmen §339 Abs.2/§6 VRG, Vollstreckung §30 VRG, Strafe §340 PBG Busse bis 50'000, S.609-636 = letzte Sektion Band 1) |
+| 4-5 | uebrige (Band 1: Natur-/Heimatschutz P3 / Entschaedigung P3) | ⬜ offen |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.
