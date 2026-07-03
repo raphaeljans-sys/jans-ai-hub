@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-01
+last_updated: 2026-07-03
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -204,6 +204,24 @@ Fassade der Allkompetenz: die Investitions-/Aufbau-Logik («auf dem investierten
 neben dem offenen Eingeständnis der Abhängigkeit. Ehrlichkeit über das eigene Können schlägt Selbstdarstellung.
 Ebenso in der Statusmail an die Bauherrschaft: der blockierende Amtsschritt wird hart benannt («Ohne diese
 Bestätigung bleiben alle Bauarbeiten blockiert»), nicht beschönigt (→ [[arbeitsweise]], [[stimme]]).
+
+## KI-Herkunft offenlegen statt als eigene Arbeit ausgeben (belegt Mailbatch 23, authentisch)
+Wo Raphael ein KI-Werkzeug für eine schnelle Einschätzung nutzt, **deklariert er das offen**, statt die
+Modell-Ausgabe als eigene Analyse auszugeben: er schreibt zuerst seine handgetippte Peer-Einschätzung und
+kündigt den eingefügten Block ausdrücklich an — «**Hier meine ChatGPT Kaupreisempfehlung auf die Schnelle:**»
+(Objekt-Sparring mit Sozial-Peer, 14.01.2026; → [[stimme]] Echo-Falle 6). Ehrlichkeit über die Herkunft
+schlägt Selbstdarstellung — dieselbe Haltung wie «ehrlich über die eigene Werkzeug-/Wissensgrenze» (Batch
+20/21) und «kein Blendwerk». Für den Zwilling doppelt relevant: (a) als Werteprinzip (Quelle transparent
+machen), (b) als Echo-Schutz (solche selbst-deklarierten Passagen sind nie Stilquelle).
+
+## Ehrlich über eigenes Können + aktiv lernbereit statt Allkompetenz-Fassade (belegt Mailbatch 23, authentisch)
+Zweiter Datenpunkt zu «eigene Grenze offen zugeben» (Batch 20/21), hier gegenüber einem Fach-Lieferanten:
+Raphael benennt sowohl seine vorhandene Kompetenz als auch die Lernabsicht — «Grundsätzlich bin ich mit
+Punktwolken und e57 Dateiformaten **vertraut** … habe bereits … **Erfahrung gesammelt**. **Gerne möchte
+ich aber Ihren Input um auf dem neusten Stand der Technik zu sein** sowie allfällige Workarounds … zu
+erfahren» (Matterport-Miete/Kauf, an 3D-Scan-Lieferant, 13.01.2026). Keine Fassade der Allwissenheit,
+sondern selbstbewusste Kompetenz + offene Lernhaltung. Fügt sich zum Selbst-Fallback-Reflex (Fähigkeit ins
+Haus holen und selbst beherrschen lernen, → [[arbeitsweise]]).
 
 ## Lücken → [[QUESTIONS]]
 Haltung bei echter Eskalation/Konflikt mit einem Du-/Stammkontakt (nicht nur Planer).

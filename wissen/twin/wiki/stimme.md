@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -738,6 +738,41 @@ Geschäft → FG+Block») + «Lieber Gruss» 1× / «Lgr» 1× (operativ-Du); An
 «Sehr geehrte/r» (formell/kalt), «Guten Tag» (Behörde/Lieferant), «Hoi Maria»/«Hoi Tom».
 Flüchtigkeit: «Kann ich Die so rauslassen?», «gemäss Deinem Wund», «Name Eigentümer wir …»,
 «Es guest's» — TON übernehmen, `korrektur` zieht es gerade.
+
+## Mündlicher «Also,»-Opener + meinungsstarke Peer-Kritik im Sozial-Du (belegt Mailbatch 23, authentisch)
+Im vertrauten Sozial-Peer-Du (Bauentscheid-Gutnachricht an die Bauherrin «Hoi Undine»; Objekt-Sparring
+mit «Hoi Dani») wird der Ton gesprochen-direkt und ungeschminkt meinungsstark:
+- **«Also,» als mündlicher Satzopener** zum lockeren Einstieg in die Sachlage: «Hoi Undine / **Also,**
+  ich habe dem Baurekursgericht angerufen und kann hiermit bestätigen, dass …» (14.01.2026). Gesprochener
+  Auftakt wie «Du,» (Batch 13) — nur im Du.
+- **Ungepolstert meinungsstarke Sach-/Markturteile** im Sozial-Du: «CHF 11K/m2 HNF ist **zuviel**», «da
+  der Markt **völlig überhitzt** ist», «wie **absurde Preise** bezahlt werden», und ehrliche Ästhetik-
+  Kritik «Ist schon **eher traurig die Architektur** aber vtl. sind die Nachbarn cool» (14.01.2026).
+  Klare Position, saloppe Superlative, kein Weichspülen — nur im Peer-Du, nie im Geschäft/Sie/Dokument
+  (dort zieht `korrektur`/das Register es glatt).
+- **Proaktive Hilfszeile als «P.S.»** nach dem Gruss: «Lieber Gruss / Raphael / **P.S. Ecosens macht auch
+  Prüfberichte für Fassadenputze**» — nachgeschobener nützlicher Tipp (vgl. warme PS «Gratuliere für die
+  Abgabe!», Batch 05/16), hier sachdienlich statt emotional.
+- **Kleingeschriebenes «raphael»** im Sozial-Peer-Signoff bestätigt («Lieber Gruss, raphael», vgl.
+  Mundart-Privatmail). «vtl.» (vielleicht) erneut belegt.
+- Mikro-Metrik Batch 23 (438 W, Sozial-Du + Lieferanten-Sie/Offerte gemischt): **Du-Gross-Quote 1.0**
+  (sauber, liefernd/beratend); Satzlänge ø **15.6 W**; keine Tausender-Apostrophe/Ellipsen (registerbedingt,
+  «CHF 11K/m2» als Kürzel wie Batch 05/06); Grüsse «Freundliche Grüsse» 2× (Sie/Lieferant/Rechnung) /
+  «Lieber Gruss» 2× (Sozial-Du) / «Beste Grüsse» 1× (Lieferant, mittelwarm). Bestätigt: Sozial-Du → warmer
+  Kurzgruss, Lieferant/Rechnung → «Freundliche Grüsse».
+
+## Echo-Falle, 6. Beleg: SELBST-deklarierte ChatGPT-Paste + AI-Report-Folgemail (belegt Mailbatch 23)
+Sechster AI-Paste-Fund und der bislang **explizit selbst gekennzeichnete**: in der «Hoi Dani»-Objekt-Mail
+schreibt Raphael handgetippt seine Einschätzung, kündigt dann aber die eingefügte Modell-Antwort offen an —
+«**Hier meine ChatGPT Kaupreisempfehlung auf die Schnelle:**» + strukturierter Bewertungs-Block («Objekt /
+Technischer Zustand / Kostenannahmen / Marktlogik / Kaufempfehlung / Maximales Gebot / Begründung in Zahlen»,
+Bullet-Listen, fette Zahlen). Die **Folgemail** desselben Threads («Der scheinbare Widerspruch entsteht, weil
+zwei völlig unterschiedliche Preisbegriffe …», mit H2-Überschriften, Tabelle CHF/m², «notwendige Arithmetik»)
+ist durchgehend AI-Report. Beide Paste-Blöcke = **`claude-aera`-äquivalent → NICHT Stilquelle** (Echo-Schutz).
+Neu/wichtig: hier verrät Raphael die AI-Nutzung selbst («meine ChatGPT … auf die Schnelle») — Erkennung also
+nicht nur über Schrift/Struktur, sondern über die **explizite Ankündigung**. Stilquelle bleibt allein der
+handgetippte Rahmen (Peer-Du-Einschätzung + «ruf mich an wenn Du mal Zeit zum quatschen hast»). Dass er die
+KI-Herkunft offenlegt statt sie als eigene Arbeit auszugeben, ist zugleich ein Ehrlichkeits-Marker (→ [[haltung]]).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

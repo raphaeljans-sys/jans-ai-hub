@@ -5,6 +5,29 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-03
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, naechste 7 Tage bis 10.07.)
+  und Mail-Eingang (seit 02.07. 17:00) abgeglichen. Sync-Task-Queue: kein offener Task fuer das
+  MacBook Pro (nur ein Synobsis-Task fuer den Mac Mini) — keine Radar-Pendenz.
+- **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **78 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 = in
+  5 Tagen**, kein Zahlungseingang. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt
+  klaeren).
+- **Kalender naechste 7 Tage (Outlook):** unveraendert zwei Termine, beide bereits im Register —
+  **07.07. 16:00–16:30** TeKoSi finale Tuer-Ausfuehrungsplanung (Teams, KISPI; RJ Organisator) und
+  **09.07. 13:00–14:00** Koordinationssitzung Gruner/Jans/KISPI (Serientermin). Keine neuen Termine.
+- **Mail-Eingang (seit 02.07. 17:00):** keine neue relevante Mail.
+- **SharePoint-Gastzugriff:** Ablauf **10.07.** (6 Gruner-Personen) rueckt in das 7-Tage-Fenster —
+  bei Bedarf Gastfreigaben verlaengern.
+- **AG-Gruendung (unveraendert hoch):** Antwort ans Notariat (Name «Raphael Jans AG» bestaetigen +
+  Urkunde/Statuten 260627 senden) noch nicht raus; UBS-Antwort/angepasstes Formular abwarten.
+- **Offen/faellig naechste 7 Tage:** RE-00087 (ueberfaellig, Mahnung-1-Zahlfrist **08.07.**), Termine
+  07.07. + 09.07., SharePoint-Gastzugriff-Ablauf 10.07., AG-Gruendung (Notariats-Antwort offen).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-07-02
 
 - **HUB-CHEF-HARNESS GEBAUT (Autonomie Stufe 3 autorisiert):** Raphael hat per Spec-Interview

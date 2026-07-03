@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-03 — twin-mail-training (täglich), Batch 23: Sent rj@ 2026-01-13…2026-01-15
+- Sweep-Fortschritt: abgedeckt bis **2026-01-15** (nächster Lauf ab 2026-01-16). 15 Mails gesichtet,
+  5 Volltexte gelesen (3 MS-Support + Share-/Auto-Rauschen ignoriert). Metrik 438 W: Du-Gross 1.0,
+  ø 15.6 W, Grüsse «Freundliche Grüsse» 2× / «Lieber Gruss» 2× / «Beste Grüsse» 1×.
+- **beziehungsregister:** **Bauherrin Undine Hofer kippt Sie→Du** «Hoi Undine»/«Lieber Gruss» nach
+  erfolgreichem Bauentscheid (keine Einsprache) — Register wechselt mit dem Meilenstein ins persönlich-
+  warme Du, hält aber im offenen Verfahren am Sie fest; neue Mappings Daniel «Dani» Buchholz (Sozial-Peer,
+  ↔ «Raphi») + 3D-Scan-Lieferanten (Miro/3dsixty, visualreality3d = Sie).
+- **stimme:** «Also,»-mündlicher Satzopener; meinungsstarke Peer-Kritik im Sozial-Du («Markt völlig
+  überhitzt», «absurde Preise», «traurige Architektur»); proaktive «P.S.»-Hilfszeile; **Echo-Falle 6. Beleg**
+  = SELBST-deklarierte ChatGPT-Paste («Hier meine ChatGPT … auf die Schnelle:») + AI-Report-Folgemail
+  (H2/Tabelle) → ausgeschlossen; Metrik.
+- **haltung:** KI-Herkunft offenlegen statt als eigene Arbeit ausgeben (Ehrlichkeit + Echo-Schutz);
+  ehrlich über eigenes Können + aktiv lernbereit gegenüber Fach-Lieferant.
+- **denken:** Experten-Benchmark-Bauchcheck VOR jeder Rechnung («11K/m² ist zuviel, soviel kostet Neubau»);
+  das WARUM hinter der Zwangslage als Marktsignal/Preiselastizität lesen + Marktwert empirisch prüfen.
+- **fachsignatur:** dritte Säule gefüllt — eigene 3D-/CAD-/Reality-Capture-Toolchain (ArchiCAD 27, Rhino 8,
+  Cinema 4D, Matterport Pro3, Punktwolke/e57 → 2D-Plan); Residual-Rechenschema war AI-Paste → nicht Stilquelle.
+- **arbeitsweise:** Selbst-Fallback verschärft = bislang delegierte Fähigkeit (3D-Reality-Capture) ins Haus
+  holen (Matterport-Kit Miete+Kauf); Offertenanfrage mit A)/B)-Varianten + «Für Sie zur Infor»-Kontext-Briefing;
+  Behörden-Auflagen beweissicher durchstellen + einfachste-Lösung-Empfehlung mit Delegations-Begründung.
+- Nur ein Batch (bounded). Backup via nas-git-commit.sh.
+
 ## 2026-07-02 — twin-mail-training (täglich), Batch 22: Sent rj@ 2025-12-10…2026-01-12
 - Sweep-Fortschritt: abgedeckt bis **2026-01-12** (nächster Lauf ab 2026-01-13). 20 Mails gesichtet,
   5 Volltexte gelesen. Register-Mix: Bopp-STWEG-Korrektur, Weisser-Rechnungen (Bösfeldstrasse 7),

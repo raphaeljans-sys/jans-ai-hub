@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -568,6 +568,24 @@ beweissichere Frage ans Gericht, um den Baufreigabe-Weg rechtlich sauber freizus
 proaktive **Einsprache-Status-Monitoring** («Nach telefonischer Rücksprache mit dem Baurekursgericht
 ist bis Dato keine Einsprache … Definitiv kann nächsten Montag … bekannt gegeben werden», an Bauherrin).
 Reiht sich in den Baufreigabe-Ämter-Kette-Realismus (Batch 21) und die Auflagebereinigung.
+
+## Dritte Säule: eigene 3D-/CAD-/Reality-Capture-Toolchain (belegt Mailbatch 23, authentisch)
+Füllt die 3D-/Pipeline-Säule mit einem belegten, selbst getippten Kompetenz-Profil (nicht Echo): Raphael
+beschreibt seinen eigenen **Digital-/Reality-Capture-Stack** präzise und fachkorrekt — «Ich arbeite mit
+**ArchiCAD 27** von Graphisoft … für spezielle Konvertierung und 3D-Datenbearbeitung **_ Rhino 8 _ Cinema
+4D** … bin mit **Punktwolken und e57 Dateiformaten** vertraut und habe bereits **2D-Pläne per Import von
+3D-Punktwolken im ArchiCAD und anschliessendem Schnitte-/Ansichten-Setzen** Erfahrung gesammelt» (an
+3D-Scan-Lieferant, 13.01.2026). Marker: korrekte Werkzeug-/Formatnamen (ArchiCAD/Rhino/Cinema 4D, e57,
+Matterport Pro3, Matterpak, BIM), das Prozess-Wissen Punktwolke → 2D-Plan, und das Kombinieren von
+Aufnahme (Matterport) mit Bearbeitung (CAD/3D). Bestätigt die Bildregie-/Pipeline-Säule (vgl. Batch
+08–11) und erweitert sie um **Reality Capture / Bestandesaufnahme**. Der Zwilling webt 3D-/CAD-Fachsprache
+korrekt und inline ein (Formate, Werkzeuge, Aufnahme-zu-Plan-Prozess), erfindet aber keine Toolnamen/Kennwerte.
+
+Hinweis Echo-Schutz: das im selben Thread mitgeschickte **Residualwert-Rechenschema** (Marktpreis fertiges
+Produkt vs. Ankaufspreis im Ist-Zustand, Zwangsversteigerungs-Abschlag, CHF/m²-Abzugstabelle) war
+**ChatGPT-Paste** (→ [[stimme]] Echo-Falle 6) und ist NICHT als Fachsignatur-Stilquelle verwertet — der
+authentische fachliche Beitrag ist der Benchmark-Bauchcheck «11K/m² ist zuviel, soviel kostet Neubau»
+(→ [[denken]]), nicht die ausformulierte Arithmetik.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;
