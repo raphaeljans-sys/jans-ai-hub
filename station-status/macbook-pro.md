@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.07.2026 07:29:21
+Stand: 03.07.2026 07:39:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.07.2026 07:29:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f8617c3 baurecht-buch-training Run 20: Kap. 3/10/12 vollstaendig (Quartierplan, Altlasten, widerrechtl. Bauten)
+- 8ed5a7f nas-selfcommit: 2 Datei(en) 2026-07-03 07:30
