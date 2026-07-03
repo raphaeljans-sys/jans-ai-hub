@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.07.2026 06:12:02
+Stand: 03.07.2026 06:22:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 03.07.2026 06:12:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4d512b9 nas-selfcommit: 2 Datei(en) 2026-07-03 06:00
+- 4c843ff energie-training Run 25: moderne WP-Feld-JAZ (WPZ Buchs 2017-2019) + Vollkostenvergleich Heizsysteme (FAQ F30)
