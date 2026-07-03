@@ -1,8 +1,8 @@
 ---
 title: Heizleistung & Waermeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-07-02
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md]
+last_updated: 2026-07-03
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -64,9 +64,13 @@ Die **Jahresarbeitszahl (JAZ)** = gelieferte Waerme je kWh Strom uebers Jahr ist
 Effizienzkennzahl. Drei Kennzahlen auseinanderhalten: **COP** = einzelner Labor-Pruefpunkt (kein
 Maschinenvergleich), **SCOP** = saisonal nach EN 14825, aber mit Klima Strassburg → fuer CH **~5-7 %
 zu hoch**, **JAZ** = im Feld ueber das Jahr gemessen (→ `[[cop-scop-jaz-waermepumpe-gruenenwald]]`).
-**Feldbeweis CH (BFE/FAWA, 236 Anlagen):** Sole/Wasser **Ø 3,5** vs. Luft/Wasser **Ø 2,7** (+32 %; Stand
-2004, moderne Geraete hoeher); Sanierung −9 % (Vorlauftemperatur +5 K), Regler mit Raumtemperatur-
-Aufschaltung +8 %, technische Speicher ohne JAZ-Nutzen, S/W oft zu gross ausgelegt →
+**Feldbeweis CH — moderne Geraete (WPZ Buchs/EnergieSchweiz, 13 drehzahlvariable Anlagen 2017-2019):**
+gemessene JAZ **inkl. Warmwasser** je Vorlauftemperatur — Luft/Wasser **3,5 / 3,1 / 2,8** (Neubau 30 /
+Sanierung 40 / Altbau 50 °C), Sole/Wasser **4,9 / 4,6 / 4,3**; SWWP behalten ~**30 %** Vorsprung selbst
+ggue. modernen drehzahlvariablen LWWP und bleiben bei Sanierung (JAZ > 4) sehr effizient →
+`[[wpz-buchs-feldmessung-jaz-2016-2019]]`. Die aeltere **BFE/FAWA** (236 Anlagen, 2004: S/W Ø 3,5 vs.
+L/W Ø 2,7, +32 %) liefert die zeitlosen Planungslehren: Sanierung −9 % (Vorlauftemperatur +5 K), Regler
+mit Raumtemperatur-Aufschaltung +8 %, technische Speicher ohne JAZ-Nutzen, S/W oft zu gross ausgelegt →
 `[[fawa-jaz-feldanalyse-waermepumpen]]`. Richtwerte je WP-Typ (Bandbreiten, Stand 2026):
 
 | WP-Typ | JAZ-Richtwert | Bedingung |
@@ -97,5 +101,8 @@ kantonsabhaengig. Details → `[[waermepumpe-systemvergleich]]` / FAQ F6.
   (`[[fawa-jaz-feldanalyse-waermepumpen]]`, `[[cop-scop-jaz-waermepumpe-gruenenwald]]`).
 - **Methode** WPesti/SIA 384/3:2021 (projektgenaue JAZ, gratis endk.ch) **belegt ✓ 2026-07-02**
   → `[[sia-384-3-wpesti-jaz-methode]]`.
-- Offen: aktuelle **FWS-Feldstatistik** (moderne Geraete-JAZ nach 2004), WPesti-Standardwerte,
-  CHF-Amortisationsvergleich, WP + PV-Eigenverbrauch (Lastmanagement) — vgl. `[[waermepumpe-systemvergleich]]`.
+- **Moderne Feld-JAZ (drehzahlvariabel, 2017-2019) belegt ✓ 2026-07-03** → `[[wpz-buchs-feldmessung-jaz-2016-2019]]`
+  (loest die «FWS-Feldstatistik nach 2004»-Luecke). **CHF-Amortisations-/Vollkostenvergleich belegt
+  ✓ 2026-07-03** (EnergieSchweiz EFH/20 J: WP guenstigstes System) → `[[heizsysteme-vollkostenvergleich-energieschweiz]]` / FAQ F30.
+- Offen nur noch: **noch aktuellere Feldstatistik** (Anlagen nach 2019), WPesti-Standardwerte,
+  WP + PV-Eigenverbrauch (Lastmanagement) — vgl. `[[waermepumpe-systemvergleich]]`.

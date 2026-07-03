@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-06-29
-sources: [destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-03
+sources: [destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -576,12 +576,21 @@ Vergleichbar sind Maschinen ueber den **SCOP** (saisonal, EN 14825) — der ist 
 Stromrechnung), ist die **JAZ**, die ueber ein ganzes Jahr **im Betrieb gemessene** Effizienz — sie
 haengt nicht nur an der Maschine, sondern an Vorlauftemperatur, Auslegung, Regler und Warmwasser.
 
-**Feldbeweis (Schweiz):** Die BFE-Feldanalyse **FAWA** (236 Anlagen, 1,3 Mio. Betriebsstunden) mass
-Sole/Wasser **Ø 3,5** und Luft/Wasser **Ø 2,7** (S/W **+32 %**; Stand 2004, moderne Geraete hoeher).
-Sie zeigt drei Bauherren-Lehren: **(a)** Sanierungs-Anlagen mit hoeherer Vorlauftemperatur liegen
-**~9 % tiefer** — erst daemmen lohnt doppelt; **(b)** Sole/Wasser-WP werden **haeufig zu gross**
-ausgelegt → unnoetig teuer, Sicherheitszuschlaege vermeiden; **(c)** technische Pufferspeicher bringen
-**keinen** JAZ-Vorteil. Ein Regler mit Raumtemperatur-Aufschaltung bringt dagegen **+8 %**.
+**Feldbeweis (Schweiz) — moderne Geraete:** Die aktuellere WPZ-Buchs-Feldmessung (EnergieSchweiz, 13
+drehzahlvariable Anlagen, Heizperioden 2017-2019) misst je Gebaeudeart (Vorlauftemperatur) — die Zeile
+**«+ Warmwasser» ist der reale Wert fuer die Stromrechnung**:
+
+| gemessene JAZ (Feld) | Neubau (30 °C) | Sanierung (40 °C) | Altbau (50 °C) |
+|---|---|---|---|
+| Luft/Wasser, Heizen + Warmwasser | **3,5** | 3,1 | 2,8 |
+| Sole/Wasser, Heizen + Warmwasser | **4,9** | 4,6 | 4,3 |
+
+Sole/Wasser behaelt **auch gegenueber modernen drehzahlvariablen Luft-WP ~30 %** Vorsprung und bleibt
+selbst bei Sanierung (JAZ > 4) sehr effizient. Die aeltere BFE-Feldanalyse **FAWA** (236 Anlagen, Stand
+2004: S/W Ø 3,5 · L/W Ø 2,7) liefert dazu die zeitlosen **Planungslehren**: **(a)** hoehere Vorlauf-
+temperatur (Sanierung) senkt die JAZ ~9 % — erst daemmen lohnt doppelt; **(b)** Sole/Wasser-WP werden
+**haeufig zu gross** ausgelegt → unnoetig teuer, Sicherheitszuschlaege vermeiden; **(c)** technische
+Pufferspeicher bringen **keinen** JAZ-Vorteil, ein Regler mit Raumtemperatur-Aufschaltung dagegen **+8 %**.
 
 Entscheidungslogik: **(1)** Liegt ein **Fernwaermenetz** an? → meist Fernwaerme (kein Erzeuger/
 Unterhalt im Haus, schlankster Weg, vgl. F14). **(2)** Sonst Neubau/gut gedaemmt → **Luft-Wasser-WP**
@@ -594,18 +603,19 @@ rechnet das **kostenlose** Tool **WPesti** (basiert auf **SIA 384/3**, Ausgabe *
 ausgelegten Anlagen **oft deutlich hoeher** als die Tabellen-Richtwerte (→ `[[sia-384-3-wpesti-jaz-methode]]`,
 `[[minergie-zertifizierung-workflow]]`).
 
-**Quelle:** Heizsystem-/JAZ-Richtwerte → `[[waermepumpe-systemvergleich]]`; **Feld-JAZ (CH-Primaerquelle)**
-→ `[[fawa-jaz-feldanalyse-waermepumpen]]` (BFE/FAWA); **COP/SCOP/JAZ-Begriff** →
-`[[cop-scop-jaz-waermepumpe-gruenenwald]]` (EN 14825); Dimensionierung → `[[bfe-waermeerzeugerleistung-2015]]`
+**Quelle:** Heizsystem-/JAZ-Richtwerte → `[[waermepumpe-systemvergleich]]`; **moderne Feld-JAZ (CH,
+2016-2019)** → `[[wpz-buchs-feldmessung-jaz-2016-2019]]` (WPZ Buchs/EnergieSchweiz); **historischer
+Feld-Boden + Planungslehren** → `[[fawa-jaz-feldanalyse-waermepumpen]]` (BFE/FAWA 2004); **COP/SCOP/JAZ-
+Begriff** → `[[cop-scop-jaz-waermepumpe-gruenenwald]]` (EN 14825); **Vollkosten CHF ueber 20 J** →
+`[[heizsysteme-vollkostenvergleich-energieschweiz]]` / F30; Dimensionierung → `[[bfe-waermeerzeugerleistung-2015]]`
 / F13; Verfahren/Beilagen Heizungsersatz → `[[wta-formular-zh-waermetechnische-anlagen]]` / F14;
-Foerderung → `[[foerderprogramm-energie-zh-2026]]` / F7. ⚠ **Datenstand 2026-06-27:** Die JAZ-Bandbreiten
-sind **Richtwerte**, keine projektgenauen Zahlen — fuer ein Projekt gilt der **WPesti-/SIA-384/3-Wert**;
-die FAWA-**Absolutwerte** sind 2004 (moderne Geraete hoeher), ihre **Relationen/Planungslehren** zeitlos.
-Die **Methode** fuer den projektgenauen Wert ist belegt (WPesti/SIA 384/3:2021, gratis auf endk.ch →
-`[[sia-384-3-wpesti-jaz-methode]]`). Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/
-EVEN pruefen). **Systemwahl/Entscheid + fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11,
-EN-LCC-ZH). Offen: aktuelle **FWS-Feldstatistik** (moderne Geraete-JAZ nach 2004), WPesti-Standardwerte,
-CHF-Amortisationsvergleich.
+Foerderung → `[[foerderprogramm-energie-zh-2026]]` / F7. ⚠ **Datenstand 2026-07-03:** Die Tabellen-JAZ
+sind **Richtwerte** — fuer ein Projekt gilt der **WPesti-/SIA-384/3:2021-Wert** (gratis auf endk.ch,
+`[[sia-384-3-wpesti-jaz-methode]]`); die WPZ-Buchs-Feldwerte (2017-2019, drehzahlvariabel) sind die
+aktuellste CH-Feldmessung, die FAWA-Absolutwerte (2004) historisch, ihre Relationen/Lehren zeitlos.
+Foerder-Mindest-JAZ kantonsabhaengig (ZH am aktuellen Foerderprogramm/EVEN pruefen). **Systemwahl/Entscheid
++ fossiles Heizverbot → Skill `baurecht`** (EnerG §10a/§11, EN-LCC-ZH). Offen: noch aktuellere Feld-
+statistik (Anlagen nach 2019), WPesti-Standardwerte.
 
 ---
 
@@ -1054,6 +1064,43 @@ Heizverbot → Skill `baurecht`.
 
 ---
 
+## F30 — «Was kostet mich mein Heizsystem ueber die ganze Lebensdauer wirklich?»
+
+**Kurz:** Ueber die ganze Nutzungsdauer ist die **Waermepumpe das guenstigste** Heizsystem — trotz der
+hoechsten Investition. Im EnergieSchweiz-Beispiel (EFH, 20 Jahre) kostet eine **Erdsonden-WP rund
+CHF 4'090 pro Jahr** und eine **Luft-Wasser-WP CHF 4'344**, waehrend **Oel (5'043), Fernwaerme (4'940)
+und Pellets (5'052)** deutlich teurer laufen. **Vergleiche nie die Offerten-Investition allein, sondern
+die Vollkosten** (Investition + Foerderung + Betrieb + Unterhalt + Energie).
+
+**Fachlich (EnergieSchweiz-Heizkostenrechner, Beispiel EFH mit alter Oelheizung 2'400 l/Jahr, 20 Jahre;
+Vollkosten ohne Steuerabzuege):**
+
+| Heizsystem | Investition (nach Foerderung) | Vollkosten 20 J | pro Betriebsjahr |
+|---|---|---|---|
+| Luft-Wasser-Waermepumpe | CHF 36'000 | CHF 79'908 | CHF **4'344** |
+| Erdsonden-Waermepumpe | CHF 50'000 | CHF 88'726 | CHF **4'090** |
+| Pelletheizung | CHF 34'000 | CHF 94'455 | CHF 5'052 |
+| Fernwaerme-Anschluss | CHF 20'500 | CHF 94'818 | CHF 4'940 |
+| Oelheizung | CHF 23'000 | CHF 96'409 | CHF 5'043 |
+
+Drei Lehren fuer den Bauherrn: **(1) Investition ≠ Gesamtkosten.** Fernwaerme hat die tiefste Investition
+(20'500), landet ueber 20 Jahre aber fast gleichauf mit Oel; die teuerste Investition (Erdsonde 50'000)
+ergibt die **tiefsten Jahreskosten**. **(2) Die hohe WP-Investition ist ein Vorschuss auf die kleine
+Stromrechnung** — dank hoher Jahresarbeitszahl (JAZ; Erdsonde im Feld ~4,9, Luft ~3,5 inkl. Warmwasser,
+vgl. F6). **(3) Foerderung + fossiler Ausstieg** verschieben die Rechnung weiter zugunsten der WP — Gesuch
+aber **vor Baubeginn** (F7/F28). Rechne das eigene Objekt mit dem **kostenlosen Heizkostenrechner** auf
+**erneuerbarheizen.ch** durch (die absoluten Zahlen haengen an Objekt, Energiepreis und Foerderstand).
+
+**Quelle:** EnergieSchweiz «Erneuerung der Heizung — zu erwartende Kosten» / Heizkostenrechner
+(erneuerbarheizen.ch) → `[[heizsysteme-vollkostenvergleich-energieschweiz]]`; JAZ/Systemwahl → F6 /
+`[[wpz-buchs-feldmessung-jaz-2016-2019]]`; Foerderung → F7 (ZH) / F28 (SZ) / F29; Heizungsersatz-Verfahren
+→ F14. ⚠ **Datenstand 2026-07-03:** ein **konkretes Rechenbeispiel** (EFH Berner Gemeinde), kein
+allgemeiner Tarif und ohne explizites Quelldatum — die CHF-Werte sind volatil (Energiepreise/Foerderung),
+vor dem Zitieren am aktuellen Rechner nachrechnen und nie als feste Zahl versprechen. Systemwahl/Heizverbot
+→ Skill `baurecht`.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1064,10 +1111,16 @@ Heizverbot → Skill `baurecht`.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-02: 29 Kernfragen F1-F29 belegt.** Praezisiert am 2026-07-02: **F6** (WP-JAZ) um
-> die **Methode WPesti/SIA 384/3:2021** (gratis endk.ch, JAZ projektgenau aus SIA-380/1-Nachweis →
-> `[[sia-384-3-wpesti-jaz-methode]]`) und **F29** (Klimapraemie-Laufzeit aufgeloest: **voraussichtlich
-> bis spaetestens Ende 2027**, aeltere «bis 2025»-Seiten veraltet → `[[klimapraemie-heizungsersatz-klik]]`).
+> **FAQ-Stand 2026-07-03: 30 Kernfragen F1-F30 belegt.** Neu am 2026-07-03: **F30 ‹Was kostet mein
+> Heizsystem ueber die Lebensdauer wirklich?›** — EnergieSchweiz-Vollkosten EFH/20 J: Erdsonden-WP
+> CHF 4'090/Jahr < Luft-WP 4'344 < Fernwaerme 4'940 < Oel 5'043 < Pellets 5'052; Investition ≠ Gesamtkosten
+> → `[[heizsysteme-vollkostenvergleich-energieschweiz]]`. Zudem **F6 geschaerft** mit **gemessenen modernen
+> Feld-JAZ** (WPZ Buchs/EnergieSchweiz 2017-2019, drehzahlvariabel: Luft/Wasser inkl. WW 3,5 Neubau,
+> Sole/Wasser 4,9; SWWP ~30 % Vorsprung) → `[[wpz-buchs-feldmessung-jaz-2016-2019]]` (loest die «FWS-
+> Feldstatistik nach 2004»-Luecke). Praezisiert am 2026-07-02: **F6** um die **Methode WPesti/SIA 384/3:2021**
+> (gratis endk.ch, JAZ projektgenau aus SIA-380/1-Nachweis → `[[sia-384-3-wpesti-jaz-methode]]`) und **F29**
+> (Klimapraemie-Laufzeit aufgeloest: **voraussichtlich bis spaetestens Ende 2027**, aeltere «bis 2025»-Seiten
+> veraltet → `[[klimapraemie-heizungsersatz-klik]]`).
 > Zuvor neu **F29 ‹Welche Foerdergelder an MEINEM
 > Standort — auch Gemeinde?›**: `energiefranken.ch` als standortgenaue Suchmaschine EnergieSchweiz/BFE
 > ueber alle Ebenen Bund/Kanton/Gemeinde/EWU/Stiftung; Foerderung als Stapel; Klimapraemie KliK ~360/kW

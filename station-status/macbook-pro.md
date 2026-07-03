@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.07.2026 05:58:31
+Stand: 03.07.2026 06:08:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 03.07.2026 05:58:31
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 05 Transfer / Nescha
+- keine
 
 ## Hub-Git-Stand (NAS)
-- 901e2f1 nas-selfcommit: 2 Datei(en) 2026-07-03 05:45
+- 4d512b9 nas-selfcommit: 2 Datei(en) 2026-07-03 06:00
