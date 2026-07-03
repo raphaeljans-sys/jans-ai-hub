@@ -4,6 +4,16 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-03 — StrAV am Volltext verifiziert, Destillat Kap. 15 Teil 2b korrigiert
+- [fix] **StrAV-Mauerregel praezisiert** (offene Frage aus dem Destillat erledigt): Volltext
+  StrAV LS 700.4 (SharePoint-Gesetzessammlung, `700.4_19.4.78_69.pdf`) gelesen. Korrekt ist:
+  Mauern/geschlossene Einfriedigungen bis 0,8 m an der Strassengrenze ueberall zulaessig; ueber
+  0,8 m an geraden Strecken und Kurven-Aussenseiten; an Innenkurven/Verzweigungen/Ein- und
+  Ausfahrten Entscheid der Baubehoerde (§§ 7-8 StrAV). Die alte Notiz «0,8 m gerade / 0,6 m
+  Kurve» war unpraezis. Zusaetzlich §§ 1, 2, 6, 9, 10, 12, 16 StrAV erfasst
+  ([[band-2/15-lage-von-gebaeuden-teil2b]], Sektion 2.12 + Schwellenwert-Tabelle).
+- [kontext] Anlass: Zusammenstellung Gartenmauern Gemeinde Thalwil (Projekt 2414, Bohlweg 3).
+
 ## 2026-07-03 — Run 20 (Forcierung): 3 Kapitelteile parallel, Kap. 3/10/12 abgeschlossen
 - [fix] **TCC-Blockade aus Run 19 umgangen:** das **Read-Tool** liest die OneDrive-CloudStorage-
   Screenshots problemlos (nur `cat`/`cp`/`xattr` waren blockiert). Shot 121 = verifiziert S.240/241.

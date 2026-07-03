@@ -176,9 +176,19 @@ PBG), weitergehende Vorkehren nur mit Mehrwertrevers (§ 101 Abs. 2 PBG).
   (BEZ 1982 Nr. 20; VB.2003.00382; VB.2006.00510). (S. 1055-1057)
 
 ### 2.12 Weitere Abstandsvorschriften — Mauern, Pflanzen, Reklamen (S. 1059-1061)
-- **Mauern und Einfriedungen (StrAV):** gestuetzt auf § 265 Abs. 3 PBG und § 1 StrAV; geschlossene
-  Einfriedungen/Mauern an geraden Strassenstrecken bis **0,8 m**, an Kurven bis **0,6 m** Hoehe
-  (§ 7 StrAV, Verkehrssicherheit). *(StrAV-Paragraphen am Volltext gegenpruefen.)* (S. 1060)
+- **Mauern und Einfriedungen (StrAV, LS 700.4 — am Volltext verifiziert 03.07.2026, PDF in
+  SharePoint-Gesetzessammlung `02_Zuerich/Planung/00 PBG/Art 265 PBG Strassenabstand/700.4_19.4.78_69.pdf`):**
+  Geltung ganzes Kantonsgebiet ausser Staedte Zuerich und Winterthur (§ 1 StrAV). Mauern = Mauern
+  aller Art: Zier-, Stuetz-, Futter-, Fluegel-, Laermschutzmauern (§ 2 StrAV). An der Strassengrenze
+  zulaessig, sofern Verkehrssicherheit gewahrt (§ 7 StrAV): offene Einfriedigungen; Mauern und
+  geschlossene Einfriedigungen bis **0,8 m** in allen Strassenbereichen; ueber 0,8 m an **geraden
+  Strecken und an der Aussenseite von Kurven**. An Kurven-Innenseiten, bei Verzweigungen und
+  Ein-/Ausfahrten entscheidet die oertliche Baubehoerde ueber Abstandspflicht und Mass (§ 8 StrAV).
+  Hoehenmessung ab Verkehrsflaeche der Anstoesserseite (§ 6 StrAV); funktionsbedingte Stuetzmauern
+  der Strasse von festen Massvorschriften befreit (§ 9 StrAV); Gestaltung nach § 238 PBG (§ 10 StrAV);
+  spitze/scharfe Materialien bis 2,5 m untersagt (§ 12 StrAV); Sichtbereiche an Innenkurven/
+  Verzweigungen/Ausfahrten freihalten, dort Bewuchs max. 0,8 m (§ 16 StrAV). Die frueher hier
+  notierte Fassung «0,8 m gerade / 0,6 m Kurve» war unpraezis. (S. 1060; Volltext LS 700.4)
 - **Pflanzen (§ 14 StrAV):** Mindestabstaende; Lichtraumprofil ueber Trottoir **2,5 m** / ueber
   Fahrbahn **4,5 m** (§ 17 StrAV); Strassenbaeume zusaetzlich § 174bis EG ZGB. *(Masszahlen
   unsicher — am Volltext verifizieren.)* (S. 1060 f.)
@@ -198,7 +208,7 @@ PBG), weitergehende Vorkehren nur mit Mehrwertrevers (§ 101 Abs. 2 PBG).
 | Garagenvorplatz | so lang wie groesster Einstellplatz, **mind. 5,5 m** | § 266 PBG; S. 1043 |
 | Aussenwaermedaemmung (auch an Baulinie) | bis **35 cm** ohne Massanrechnung | § 33a ABV; S. 1043 f. |
 | Strasse vs. Weg (Schwelle Wohneinheiten) | > **10 / 30 WE** = Strasse; bis 30 WE = Weg | Anhang ZN; S. 1053 f. |
-| Einfriedung/Mauer an Strasse | ≤ **0,8 m** (gerade) / **0,6 m** (Kurve) | § 7 StrAV; S. 1060 |
+| Einfriedung/Mauer an Strassengrenze | ≤ **0,8 m** ueberall; > 0,8 m nur gerade Strecken + Kurven-Aussenseite; Innenkurven/Verzweigungen/Ausfahrten: Entscheid Baubehoerde | §§ 7–8 StrAV (Volltext verifiziert); S. 1060 |
 
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
 
