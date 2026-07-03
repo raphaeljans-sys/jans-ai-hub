@@ -3,7 +3,7 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 03.07.2026 (Radar-Lauf; RE-00087 nun 78 Tage ueberfaellig, Zahlfrist 08.07. in 5 Tagen; Kalender + Mail-Eingang unveraendert; keine neuen Fristen)
+Stand: 03.07.2026 (Radar-Lauf; RE-00087 nun 78 Tage ueberfaellig, Zahlfrist 08.07. in 5 Tagen; Kalender + Mail-Eingang unveraendert; keine neuen Fristen. ag-gruendung-monitor 03.07.: kein Eingang UBS/Notariat/REGIX, AG-Eintraege unveraendert)
 
 ## Aktiv
 
