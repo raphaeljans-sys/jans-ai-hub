@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -673,3 +673,46 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   **Gestattungsakt** des Gemeinwesens voraus. Fuer Wohnbauzonen zusaetzlich Art. 5 WEG (Etappen 10-15 J.).
   Eine **Auszonung** ist unzulaessig, wenn sie einzig erfolgt, weil das Gemeinwesen nicht rechtzeitig
   groberschliessen will (BGE 110 Ia 51). (Bd 1, S. 209; Destillat [[band-1/03-erschliessung-landsicherung-teil1]]) _[2026-07-02]_
+
+## Kap. 3 Teil 2 — Quartierplan / Landumlegung (Run 20)
+
+- **F:** Welches Quorum braucht ein **privater** Quartierplan im Kanton ZH? — **A:** **Einstimmigkeit**
+  aller Beteiligten über alle Verfahrensstadien (§ 160a PBG; Bd 1, S. 240). Deshalb ist er in der Praxis
+  selten; der amtliche QP (§ 158 PBG, Gemeindevorstand) ist schon auf Gesuch eines einzigen
+  Grundeigentümers einleitbar (§ 147). _[2026-07-03]_
+- **F:** Innert welcher Frist kann ein im Quartierplan neu zugeteiltes Grundstück heimgeschlagen werden?
+  — **A:** Innert **60 Tagen** nach Genehmigung des Quartierplans an die Gemeinde (§ 165 PBG; Bd 1,
+  S. 259). _[2026-07-03]_
+- **F:** Worin unterscheidet sich die **Grenzbereinigung** verfahrensrechtlich vom ordentlichen QP?
+  — **A:** Sie ist immer amtlich (§ 181), wird **längstens 2 Monate** nach Vorliegen des Entwurfs
+  festgesetzt und bedarf **keiner Genehmigung** durch die Baudirektion (§ 183 PBG; Bd 1, S. 263).
+  _[2026-07-03]_
+
+## Kap. 12 Teil 4 — Anschlussgebühren / Abfall / Altlasten (Run 20)
+
+- **F:** Wer trägt die **Kosten** der Altlastensanierung und wer muss sie **ausführen**? — **A:** Zwei
+  getrennte Pflichten in zwei getrennten Verfahren: **Realleistung/Ausführung** beim **Standortinhaber**
+  (Störerprinzip, Art. 20 AltlV; Bd 2, S. 801 f.), **Kostentragung** beim **Verursacher**
+  (Verursacherprinzip, Art. 32d Abs. 1 USG; Bd 2, S. 801/803). _[2026-07-03]_
+- **F:** Bei einer «Bauherren-Altlast»: in welchem Erwerbsfenster kann der heutige Inhaber Mehrkosten
+  zurückfordern, und wie viel? — **A:** In der Regel **zwei Drittel** der Mehrkosten bei Erwerb zwischen
+  **1.7.1972 und 1.7.1997** (Art. 32b bis USG; Bd 2, S. 803 f.). _[2026-07-03]_
+- **F:** Was braucht der Verkauf eines im KbS eingetragenen Grundstücks im Kt. ZH? — **A:** Eine
+  **Bewilligung des AWEL** (Art. 32d bis USG); erteilt bei keinen zu erwartenden Einwirkungen,
+  gesicherter Kostendeckung oder überwiegendem öffentlichem Interesse (Bd 2, S. 806 f.). _[2026-07-03]_
+
+## Kap. 10 — Widerrechtliche Bauten & Sanktionen (Run 20)
+
+- **F:** Bis wann darf die Baubehörde gegen eine widerrechtliche Baute einschreiten? — **A:** Nach
+  ständiger BGer-Praxis bis **30 Jahre** ab Fertigstellung; danach ist der Wiederherstellungsanspruch
+  verwirkt (Ausnahme: Polizeigüter i. e. S. oder erhebliche Umwelt-/Ortsbildbeeinträchtigung; Bd 1,
+  S. 617/620/623). _[2026-07-03]_
+- **F:** Welche Norm verlangt die Wiederherstellung, und mit welcher Bussenobergrenze wird vorsätzliche
+  Widerhandlung gegen das Baurecht bestraft? — **A:** Wiederherstellung nach **§ 341 PBG** (dem Wortlaut
+  nach ohne Vorbehalt); Busse nach **§ 340 PBG bis 50'000 Franken** (Gewinnsucht unbeschränkt, fahrlässig
+  bis 5'000) — trifft auch Architekt/Ingenieur/GU (Bd 1, S. 618/629). _[2026-07-03]_
+- **F:** Unterschied formelle ↔ materielle Baurechtswidrigkeit und Rechtsfolge der rein formellen? — **A:**
+  Formell = bewilligungspflichtig, aber ohne/abweichend von Bewilligung gebaut; materiell = inhaltlich
+  nicht bewilligungsfähig. Rein formell rechtswidrige (aber bewilligungsfähige) Bauten werden über ein
+  **nachträgliches Baubewilligungsverfahren** geheilt; ein Abbruch wäre unverhältnismässig (Bd 1, S. 612).
+  _[2026-07-03]_

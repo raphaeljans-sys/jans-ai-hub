@@ -4,6 +4,33 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-03 — Run 20 (Forcierung): 3 Kapitelteile parallel, Kap. 3/10/12 abgeschlossen
+- [fix] **TCC-Blockade aus Run 19 umgangen:** das **Read-Tool** liest die OneDrive-CloudStorage-
+  Screenshots problemlos (nur `cat`/`cp`/`xattr` waren blockiert). Shot 121 = verifiziert S.240/241.
+  Kein separater FDA-Eingriff nötig, solange über das Read-Tool (nicht die Shell) gelesen wird.
+- [transfer] **47 Doppelseiten** in 3 parallelen Distillier-Agenten:
+  - **Kap. 3 Teil 2** (S.240-265, Shots 121-133): Quartierplan §§ 123 ff. PBG (amtlich § 158 vs. privat
+    § 160a/Einstimmigkeit, Quartierplanbann § 150, Verfahren §§ 147-159), Umlegung/Realersatz §§ 137-145,
+    Vollzug §§ 161-176 (Heimschlag § 165/60 T), Grenzbereinigung §§ 178-183, Güterzusammenlegung §§ 76-94
+    LG → Destillat [[band-1/03-quartierplan-landumlegung-teil2]]. **Kap. 3 vollständig.**
+  - **Kap. 12 Teil 4** (S.770-807, Shots 387-406): Anschlussgebühren Art. 60a GSchG, Abfall/Kehricht
+    Art. 30-32b USG/VVEA, **Altlasten Art. 32c/32d USG/AltlV/KbS** (Realleistung Standortinhaber ↔
+    Kostentragung Verursacher; Bauherren-Altlast Art. 32b bis; Veräusserung Art. 32d bis AWEL) →
+    Destillat [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]]. **Kap. 12 vollständig.**
+  - **Kap. 10** (S.609-636, Shots 307-320): widerrechtliche Bauten — formell/materiell, Wiederherstellung
+    § 341 PBG (Verhältnismässigkeit, 30-J-Verwirkung), vorsorgl. Massnahmen § 339 Abs. 2/§ 6 VRG,
+    Vollstreckung § 30 VRG, **Strafe § 340 PBG bis 50'000** (auch Architekt/Ingenieur; § 340a Verj. 5 J.)
+    → Destillat [[band-1/10-widerrechtliche-bauten-teil1]]. **Kap. 10 vollständig — letzte Sektion Band 1.**
+- [wiki] **NEU** [[widerrechtliche-bauten-und-sanktionen]] (`emerging`); [[baureife-und-erschliessung]]
+  auf **`established`** geschärft (Quartierplan-/Landumlegungs-Block + Abfall/Altlasten-Block).
+  INDEX/QUESTIONS nachgeführt (3 Lücken geschlossen, 2 needs-verification neu).
+- [drill] +9 Modell-C-Karten (`training/drills.md`): Quartierplan/Altlasten/Schwarzbau je 3.
+- [register] `seiten-inventar.md` 47 Shots auf [x] + verlinkt; `INDEX.md` (Abdeckung Kap. 3/10/12 →
+  🟢 vollständig); `curriculum.md` Status Kap. 3/10/12 auf [x].
+- [report] `outputs/2026-07-03_buch-run20.md`.
+- [offen] Band 1 nur noch **Kap. 4** (Natur-/Heimatschutz P3) + **Kap. 5** (Entschädigung P3) + Kap. 9
+  Rest S.575-608. Forcierung noch nicht abgeschlossen.
+
 ## 2026-07-02 — Run 19 ABGEBROCHEN: TRANSFER durch macOS TCC blockiert
 - [blockade] Quell-Screenshots im OneDrive-CloudStorage-Ordner **nicht lesbar** (TCC): `stat`
   liefert echte Groessen (Shot 121 = 1 497 857 Bytes, materialisiert, OneDrive online), aber

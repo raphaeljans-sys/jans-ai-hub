@@ -1,7 +1,7 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
-status: emerging
-last_updated: 2026-07-02
+status: established
+last_updated: 2026-07-03
 sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md]
 links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
 ---
@@ -197,8 +197,51 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   Erstellung/wesentlicher Änderung ist Meteor-/unverschmutztes Wasser vom verschmutzten **getrennt**
   abzuleiten (§ 232 PBG / Art. 11 GSchG, S. 766). Finanzierung über Anschluss-/Kanalisationsgebühren
   nach Verursacher-, Äquivalenz- und Kostendeckungsprinzip (S. 767 ff.).
-- **Belastete Standorte / Altlasten** (Art. 32c USG) sind bei der Baureife mitzudenken —
-  Detaildistillat noch offen (Kap. 12 Teil 4, S. 770 ff.).
+- **Abfall/Kehricht & belastete Standorte / Altlasten** (Bd 2 S. 783–807; Detail
+  [[12-baureife-teil4-gebuehren-abfall-altlasten]]): Die einwandfreie **Abfallbeseitigung** ist Teil
+  der Erschliessung (§ 236 Abs. 1 PBG); Siedlungsabfall wird über die **kommunale Kehrichtabfuhr**
+  entsorgt (Art. 30 ff. USG, VVEA/VeVA, kant. AbfG; Verursacherprinzip Art. 32 USG). Bei **belasteten
+  Standorten** muss die Baubehörde im Bewilligungsverfahren stets prüfen, ob ein Eintrag im **Kataster
+  der belasteten Standorte (KbS, Art. 32c Abs. 2 USG)** vorliegt, und die **Sanierungsverfügung mit dem
+  Bauentscheid koordinieren** (Art. 3 AltlV). Zentral ist die **Trennung zweier Pflichten**:
+  **Realleistung/Ausführung** trifft den **Standortinhaber** (Störerprinzip, Art. 20 AltlV),
+  **Kostentragung** den **Verursacher** (Verursacherprinzip, Art. 32d USG) — festgelegt in zwei
+  getrennten Verfahren. Sonderfälle: **Bauherren-Altlast** (Sanierung erst durch das Bauvorhaben
+  ausgelöst → Rückforderung i.d.R. 2/3 der Mehrkosten bei Erwerb 1.7.1972–1.7.1997, Art. 32b bis USG),
+  **Veräusserung eines KbS-Grundstücks braucht eine AWEL-Bewilligung** (Art. 32d bis USG). Der
+  KbS-Eintrag wirkt faktisch als kaum widerlegbares Beweismittel → **im JANS-Ankaufscheck immer den KbS
+  abfragen** (Schnittstelle Skill `ankaufspruefung`).
+
+## Quartierplan, Landumlegung & Grenzbereinigung (Kap. 3 Teil 2)
+
+Grundlage aus [[03-quartierplan-landumlegung-teil2]] (Bd 1, Kap. 3, S. 240–265). Der **Quartierplan
+(§§ 123 ff. PBG)** ist das Zürcher Instrument, um eingezontes Land **feinzuerschliessen und baureif zu
+machen** — durch Landumlegung, Erstellung der Erschliessungsanlagen und Verteilung der Kosten auf die
+beteiligten Grundeigentümer («Quartierplangenossen»).
+
+- **Zweck** (§ 123 Abs. 1 PBG): baurechtliche Ordnung im erfassten Gebiet herstellen; **Teilquartierplan**
+  auf einzelne Massnahmen beschränkbar (§ 123 Abs. 2). Beizugsgebiet nach § 124.
+- **Zwei Formen:** **amtlicher QP** — vom **Gemeindevorstand** aufgestellt (§ 158 PBG), schon auf Gesuch
+  eines einzigen Grundeigentümers einleitbar (§ 147); **privater QP** — von den Grundeigentümern
+  aufgestellt (§ 160a PBG), bedarf über alle Verfahrensstadien der **Einstimmigkeit** aller Beteiligten
+  (hohe Hürde, in der Praxis selten). Kombination mit **Gestaltungsplan/Sonderbauvorschriften** möglich
+  (§ 129 / § 81 PBG).
+- **Verfahren** (dauert oft Jahre): Einleitung §§ 147/149, Rekurs gegen Einleitungsbeschluss § 148,
+  **Quartierplanbann** ab Einleitung (§ 150 PBG, Bausperre — vgl. § 234) → weitergehend als die
+  planungsrechtliche Baureife; **zwei Entwürfe/Versammlungen** (§§ 151–157, Auflagefristen 6 + 4 Monate),
+  **Festsetzung und Genehmigung durch die Baudirektion** (§ 159).
+- **Umlegung/Neuzuteilung:** Realersatz nach **Äquivalenzprinzip** (§§ 137–139), **Geldausgleich** für
+  Wertdifferenzen (§ 145); Landbewertung zum Verkehrswert. **Vollzug** §§ 161–176 (Fälligkeit § 162,
+  Rechtsöffnung § 163, Stundung § 164/§ 174). **Heimschlagsrecht:** ein neu zugeteiltes Grundstück kann
+  **innert 60 Tagen** nach Genehmigung an die Gemeinde heimgeschlagen werden (§ 165 PBG).
+- **Verwandte Verfahren:** **Grenzbereinigung §§ 178/181/183** — immer amtlich, wesentlich kürzer
+  (Festsetzung längstens 2 Monate nach Entwurf, **keine Genehmigung** durch die Baudirektion);
+  **Gebietssanierung §§ 186 ff.** (praktisch nie angewandt); landwirtschaftliche **Güterzusammenlegung
+  §§ 76–94 LG / Art. 20 WaG**.
+- **JANS-Anwendung:** Bei unerschlossenem/parzellenscharf ungünstig geschnittenem Bauland ist der
+  Quartierplan der Hebel zur Baureife — im Ankaufs-/Machbarkeitsfall früh prüfen, ob ein QP läuft/nötig
+  ist (Zeithorizont Jahre, Kostenanteil der Genossen) und ob eine **Grenzbereinigung** als schnellerer
+  Weg genügt.
 
 ## Planungsrechtliche Baureife (§ 234 PBG) im Detail
 
@@ -238,4 +281,7 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
 
 Belegquelle / Buchsynthese: [[12-baureife]] (Destillat Bd 2, Kap. 12, S. 707-741) +
 [[12-baureife-teil3-versorgung-entsorgung]] (Teil 3, S. 742-769: rechtliche Sicherung, Wasser/
-Energie/Abwasser). Offen: Teil 4 (S. 770-809: Anschlussgebühren-Rest, Abfall/Kehricht, Altlasten).
+Energie/Abwasser) + [[12-baureife-teil4-gebuehren-abfall-altlasten]] (Teil 4, S. 770-807:
+Anschlussgebühren, Abfall/Kehricht, Altlasten — **Kap. 12 vollständig**); Kap. 3
+[[03-erschliessung-landsicherung-teil1]] (S. 208-239) + [[03-quartierplan-landumlegung-teil2]]
+(S. 240-265: Quartierplan/Landumlegung/Grenzbereinigung — **Kap. 3 vollständig**).

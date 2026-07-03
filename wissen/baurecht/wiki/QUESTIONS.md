@@ -20,6 +20,27 @@ wurden.
 - ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
   [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
 
+## Offene Wissenslücken — neu (2026-07-03, aus Buch-Run 20)
+- ~~**Widerrechtliche Bauten / Schwarzbau / Abbruchrisiko (Kap. 10):**~~ → **erledigt 2026-07-03** (Run 20):
+  neuer Wiki-Artikel [[widerrechtliche-bauten-und-sanktionen]] aus [[10-widerrechtliche-bauten-teil1]]
+  (S. 609-636). Kernaussagen: formell (heilbar via nachträgl. Verfahren) vs. materiell rechtswidrig;
+  Wiederherstellung § 341 PBG unter Verhältnismässigkeit; **30-Jahre-Verwirkung** des Einschreitens;
+  Strafe § 340 PBG bis 50'000 Fr. (auch Architekt/Ingenieur).
+- ~~**Altlasten/Abfall bei der Baureife (Kap. 12 Rest, Art. 32c USG):**~~ → **erledigt 2026-07-03** (Run 20):
+  [[12-baureife-teil4-gebuehren-abfall-altlasten]] (S. 770-807) + Block in [[baureife-und-erschliessung]].
+  Kernaussage: Trennung **Realleistung (Standortinhaber, Art. 20 AltlV)** ↔ **Kostentragung (Verursacher,
+  Art. 32d USG)**; KbS-Eintrag (Art. 32c Abs. 2 USG) als faktisches Beweismittel; Veräusserung braucht
+  AWEL-Bewilligung (Art. 32d bis USG). **Kap. 12 vollständig.**
+- ~~**Quartierplan/Landumlegung (Kap. 3 Rest):**~~ → **erledigt 2026-07-03** (Run 20):
+  [[03-quartierplan-landumlegung-teil2]] + Block in [[baureife-und-erschliessung]]. **Kap. 3 vollständig.**
+- **needs-verification — Wortlaut § 160a / § 81 / § 129 PBG (Quartierplan):** im Kap.-3-Destillat nur
+  referiert, nicht wörtlich zitiert — bei Kundenzitaten am amtlichen PBG-Volltext (raw/) gegenprüfen.
+- **needs-verification — «bis»-Artikel Art. 32b bis / 32d bis USG:** Nomenklatur aus dem Reader-Fliesstext;
+  vor Kundenzitat am Fedlex-USG-Volltext prüfen.
+- **Offene Band-1-Reste:** nur noch **Kap. 4** (Natur-/Heimatschutz, P3, S. 267 ff.) und **Kap. 5**
+  (Planung und Entschädigung, P3, S. 311 ff.). Kap. 9 «Rechtsschutz» Restseiten S. 575-608 (Ablauf/Kosten/
+  Revision) ebenfalls noch offen.
+
 ## Offene Wissenslücken — neu (2026-06-17, aus Buch-Run Kap. 17 Teil 1)
 - ~~**Wohnhygiene/Raumanforderungen §§ 299-306 PBG**~~ → **erledigt 2026-06-17** (Run 9):
   Belichtung/Belüftung § 302 (Fenster ≥ 1/10 Bodenfläche, öffenbar, ins Freie; Lichtschacht-Falle

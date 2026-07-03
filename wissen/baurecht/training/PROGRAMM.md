@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,17 +92,18 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~700 / 1550 (~350 Doppelseiten). Run 18 (2026-07-02, Forcierung): +46
-  Doppelseiten (Kap. 2 T3 S.170-204 / Kap. 3 T1 S.208-239 / Kap. 6 T2 S.402-421) → **Kap. 6
-  vollstaendig, Kap. 2 weitgehend, Kap. 3 eroeffnet**. Ausfuehrlicher Vorstand:
+- **Seiten distilliert:** ~795 / 1550 (~397 Doppelseiten). Run 20 (2026-07-03, Forcierung): +47
+  Doppelseiten (Kap. 3 T2 S.240-265 / Kap. 12 T4 S.770-807 / Kap. 10 S.609-636) → **Kap. 3, Kap. 10,
+  Kap. 12 vollstaendig; Band 1 bis auf Kap. 4/5 komplett.** Run 18 (2026-07-02): +46 Doppelseiten
+  (Kap. 2 T3 / Kap. 3 T1 / Kap. 6 T2). Ausfuehrlicher Vorstand:
   Band 2 weitgehend komplett: Kap. 11/13/14/15
   (inkl. § 274, nur 15.13 offen)/16 (T1+T2)/17 (T1+T2)/19/20 (inkl. § 357 Abs. 4)/21/22/23 + Kap. 12 (T1-T3,
   bis S.769; Teil 4 §236-Rest/Abfall/Altlasten offen); Band 1 **Kap. 1 VOLLSTAENDIG** + **Kap. 2 Teil 1+2**
   (T2 = 2.3 Nutzungsplanung/Zonenarten, Shot 76 offen) + Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** +
   **Kap. 8 Teil 1**. Run 17 (regulaer) 2026-06-30: +12 Doppelseiten Kap. 2 Teil 2.
-- **Kapitel-Destillate:** 30 Buch-Destillate (Run 18 neu: 02-T3, 03-T1, 06-T2) (Band 1: Kap. 1/2×3/3/6×2/7×2/8/9; Band 2: Kap. 11/12 (T1+T2/T3)/13/
+- **Kapitel-Destillate:** 33 Buch-Destillate (Run 20 neu: 03-T2 Quartierplan, 12-T4 Altlasten, 10 widerrechtl. Bauten) (Band 1: Kap. 1/2×3/3×2/6×2/7×2/8/9/10; Band 2: Kap. 11/12 (T1+T2/T3/T4)/13/
   14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/19/20/21/22/23; alle `emerging`).
-- **Wiki:** 17 Artikel (geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
+- **Wiki:** 18 Artikel (Run 20 neu [[widerrechtliche-bauten-und-sanktionen]] `emerging`; [[baureife-und-erschliessung]] auf `established` — Quartierplan + Altlasten. Frueher: geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
   Platzhalter gefuellt** — numerus clausus § 48 Abs. 2 PBG, Typ-Katalog, Neueinzonung Art. 15 RPG,
   Arealueberbauung §§ 69-73; NEU [[grundlagen-planungs-baurecht]] 2026-06-30 `emerging` (oeff./privates Recht/SIA-
   Normen/Verfassungsgrundsaetze); geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 (Planungsstufen-Belege)
@@ -122,7 +123,23 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
   + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
   `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
-- **Letzter Lauf:** Run 18, 2026-07-02 (Forcierung, 3 Kapitelteile parallel, 46 Doppelseiten) —
+- **Letzter Lauf:** Run 20, 2026-07-03 (Forcierung, 3 Kapitelteile parallel, 47 Doppelseiten) —
+  **Kap. 3 Teil 2** (S.240-265, Shots 121-133): **Quartierplan §§ 123 ff. PBG** (amtlich § 158 vs. privat
+  § 160a/**Einstimmigkeit**, Kombination Gestaltungsplan § 129/§ 81, **Quartierplanbann § 150**, Verfahren
+  §§ 147-159, Umlegung/Realersatz/Aequivalenz §§ 137-145, Vollzug §§ 161-176 **Heimschlag § 165/60 T**,
+  **Grenzbereinigung §§ 178-183** ≤ 2 Mt./keine Genehmigung, Gueterzusammenlegung §§ 76-94 LG) →
+  **Kap. 3 vollstaendig**; **Kap. 12 Teil 4** (S.770-807, Shots 387-406): Anschlussgebuehren Art. 60a
+  GSchG, Abfall/Kehricht Art. 30-32b USG/VVEA, **Altlasten Art. 32c/32d USG/AltlV/KbS** (Realleistung
+  Standortinhaber ↔ Kostentragung Verursacher; Bauherren-Altlast Art. 32b bis; Veraeusserung Art. 32d bis
+  AWEL) → **Kap. 12 vollstaendig**; **Kap. 10** (S.609-636, Shots 307-320): widerrechtliche Bauten —
+  formell/materiell, **Wiederherstellung § 341 PBG** (Verhaeltnismaessigkeit, **30-J-Verwirkung**),
+  vorsorgl. Massnahmen § 339 Abs. 2/§ 6 VRG, Vollstreckung § 30 VRG, **Strafe § 340 PBG bis 50'000** (auch
+  Architekt/Ingenieur; § 340a Verj. 5 J.) → **Kap. 10 vollstaendig, letzte Sektion Band 1**. Neue Destillate
+  [[band-1/03-quartierplan-landumlegung-teil2]] / [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]] /
+  [[band-1/10-widerrechtliche-bauten-teil1]]. NEU Wiki [[widerrechtliche-bauten-und-sanktionen]];
+  [[baureife-und-erschliessung]] auf `established`. Modell C (9 Karten). Report `outputs/2026-07-03_buch-run20.md`.
+  OFFEN: Kap. 4 (P3), Kap. 5 (P3), Kap. 9 Rest S.575-608.
+- **Lauf davor:** Run 18, 2026-07-02 (Forcierung, 3 Kapitelteile parallel, 46 Doppelseiten) —
   **Kap. 2 Teil 3** (S.170-204, Shots 76+86-104): Sondernutzung/**Gestaltungsplan §§83-89 PBG** (§83 ersetzt
   Grundordnung; privat **2/3-Quorum §85 Abs.2**; Aufhebung 5 J. §§82/87), **Gestaltungsplanpflicht §48 Abs.3**,
   **preisguenstiger Wohnraum §49b**, **Verfahren Nutzungsplanung** (Auflage 60 T Art.4 RPG/§7, **kant.
@@ -175,16 +192,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
-- **Naechster Lauf:** **Band-1-Tail weiter** — **Kap. 3 Teil 2** (Quartierplan 3.9 §§125/126/237 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung ab S.238/Shot 121), **Kap. 5** (Entschaedigung, S.311), **Kap. 10** (widerrechtliche Bauten, S.609), **Kap. 12 Teil 4** (S.770-809 Altlasten Art.32c USG). *(erledigt Run 18: Kap. 2 T3 / Kap. 3 T1 / Kap. 6 T2.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** **Band-1-Abschluss** — **Kap. 5** (Planung und Entschaedigung/materielle Enteignung, S.311 ff., Shots ~156 ff.) + **Kap. 9 Rest** (Rechtsschutz Ablauf/Kosten/Revision, S.575-608, Shots 290-306); dann **Kap. 4** (Natur-/Heimatschutz, P3, S.267 ff.). Danach Band-2-Reste (Kap. 13 §§239a/240/242/248 ab Shot 431, Kap. 8 Rest S.510-534, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 20 §357 Abs.5/§307, Kap. 21 Art.24d/24e). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten
   Art. 32c USG — schliesst das Kapitel). Band-2-Restschulden nur noch klein (Kap. 13 §§239a/240/242/248,
   Kap. 15.13 Harmonisierungsvorlage, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 19 ab Shot 706,
   Kap. 20 § 357 Abs. 5/§ 307, Kap. 21 Art.24d/24e/37a, Kap. 8 Rest S.510-534).
-- **Restschuld Kap. 12 (Teil 4):** Anschlussgebuehren-Bemessung (Rest 12.5) + Beseitigung Abfall/Kehricht +
-  belastete Standorte/Altlasten (Art. 32c USG/AltlV); **ab S. 770 / Shot 387** bis Kapitelende vor Kap. 13
-  (S. 809). (12.3.6 rechtl. Sicherung + 12.4 Wasser/Energie §236 + 12.5 Abwasser bis S.769 erledigt Run 16.)
+- ~~**Restschuld Kap. 12 (Teil 4):**~~ **erledigt Run 20** (2026-07-03): Anschlussgebuehren + Abfall/
+  Kehricht + Altlasten Art. 32c/32d USG (S. 770-807) distilliert → [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]].
+  **Kap. 12 vollstaendig.**
 - **Restschuld Kap. 8:** 8.3 Sicherheit der Baustelle Detail (Bauherrenhaftung, Schutz Nachbargrundstuecke,
   Werkleitungen) + Kap.-Ende bis S. 534 (Shots 257-269).
 - **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
