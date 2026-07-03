@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.07.2026 13:44:52
+Stand: 03.07.2026 13:54:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/frosty/benz/067c2f  (letzte Aktivitaet 13:29)
@@ -10,7 +10,7 @@ Stand: 03.07.2026 13:44:52
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 7 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 15 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- d6a3ee8 nas-selfcommit: 2 Datei(en) 2026-07-03 13:30
+- 79a6022 wissen/baurecht: StrAV-Mauerregel am Volltext LS 700.4 verifiziert, Destillat Kap. 15 Teil 2b praezisiert
