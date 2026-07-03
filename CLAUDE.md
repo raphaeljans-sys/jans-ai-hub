@@ -411,7 +411,10 @@ wissen/
   belegte Bauherren-Antworten zu Nachhaltigkeit/Klima; speist den Agent `energie-berater`),
   `grobkosten/` (**Kennwerte-Lernmodell** Grobkosten CHF/m3 GV nach BKP 1-5: Seed-Kennwerte
   Wohnbau-Neubau Region ZH, kompoundierend ueber reale Realabrechnungen via `raw/`→`wiki/`; speist
-  den Skill `grobkosten-onepager` + Agent `grobkosten-rechner`).
+  den Skill `grobkosten-onepager` + Agent `grobkosten-rechner`), `spec/` (**Methodik-KB
+  Spec-Methode** Karpathy/Marchese: 3-Layer-Modell + JANS-Gate + Verifier-Zuordnung je Domaene;
+  reale Spec-Anwendungen als Goldstandards in `outputs/`; speist Skill `spec` + Rule `spec-methode`,
+  Lern-Loop `spec-training` alle 3 Tage).
 - **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
   10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
 - **Planungsgrundlagen-Training:** Scheduled Task `planungsgrundlagen-training` (alle 2 Tage)

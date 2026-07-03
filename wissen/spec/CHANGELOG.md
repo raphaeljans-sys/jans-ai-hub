@@ -1,5 +1,21 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-03 — Trainingslauf 3
+- Output `outputs/2026-07-03_training-run3.md`. Ausgewertet: neue Spec-Anwendung
+  **Buchhaltungssystem** (02.07.). Drei Lektionen ins Wiki uebernommen:
+  (1) **Guardrail-Anpassung als bestaetigter Schluesselentscheid** — die Spec ist der Ort, an dem
+  eine Autonomie-Erweiterung sichtbar entschieden + begrenzt wird (Buchen nach Einzelfreigabe
+  oeffnet «Buchungen NIE» kontrolliert) → neues Muster in `anwendung-jans.md`.
+  (2) **Ist-Zustand real scannen + Schwachstelle diagnostizieren** bei System-/Umbau-Vorhaben
+  (nicht nur bestaetigen) → `anwendung-jans.md` Schritt 1 + F2.
+  (3) **Verifier-Zuordnung Domaene Buchhaltung/Steuern** (Treuhand/Steuerbehoerde bindend;
+  `bexio --abgleich`/UBS-Feed Indiz; GA2024 als Format) → neue Zuordnungstabelle in `verifier.md` (F3).
+- **F4 vollstaendig eingeloest:** Cherny-Primaerquelle des «2-3x»-Zitats belegt (X-Post Tip 13/,
+  .../2007179861115511237) und in `verifier.md` zitiert. Damit F4 (Karpathy + Cherny) erledigt.
+- Environment-Audit-Fixes: Metadaten-Drift behoben (`verifier.md`+`anwendung-jans.md` last_updated
+  → 07-03, war Audit E rot); CLAUDE.md KB-Liste um `spec/` ergaenzt (3. Mal geflaggt, jetzt gefixt).
+- Rule `spec-methode.md` unveraendert (Gate ueber 3 Faelle korrekt). Geflaggt: F6 Spec-Template extrahieren.
+
 ## 2026-07-02 — Spec-Anwendung: Hub-Chef-Harness
 - Neue reale Spec-Anwendung abgelegt: `outputs/2026-07-02_hub-chef-harness_spec.md`
   (Dach-Orchestrierung + Service-Produktisierung; Interview via AskUserQuestion, 3

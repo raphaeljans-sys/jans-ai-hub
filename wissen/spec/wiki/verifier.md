@@ -1,9 +1,9 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-06-21
-sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
-links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]]
+last_updated: 2026-07-03
+sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
+links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
 
 # Layer 2 — The Verifier
@@ -13,6 +13,13 @@ ist, **der KI einen Weg zu geben, ihre eigene Arbeit zu pruefen**. Mit diesem Fe
 steigt die Qualitaet des Endprodukts um das **2- bis 3-Fache**. Verifikation sieht je nach
 Domaene anders aus (ein Bash-Befehl, eine Testsuite, ein Browser-/Simulator-Test) — sie
 muss bombenfest sein.
+
+> **Primaerquelle (F4 Cherny eingeloest, 2026-07-03):** Boris Cherny auf X, Tip 13/:
+> *"probably the most important thing to get great results out of Claude Code -- give Claude
+> a way to verify its work. If Claude has that feedback loop, it will 2-3x the quality of the
+> final result. Claude tests every single change I land."* Damit ist das «2-3x»-Zitat nicht
+> mehr nur ueber das Marchese-Transkript belegt, sondern direkt bei der Quelle.
+> URL: https://x.com/bcherny/status/2007179861115511237
 
 Warum: die KI glaenzt, wenn klare Antworten vorliegen, und liegt selbstsicher daneben, wenn
 der Kontext fehlt. Der Verifier faengt genau das ab.
@@ -64,3 +71,18 @@ der Name wurde tatsaechlich auf «Raphael Jans AG» geaendert und das gesamte Be
 260627) darauf neu gezogen, genau weil der Notariats-/HRA-Befund das Connector-Gruen verwarf.
 Die Rangordnung «autoritative Instanz vor Connector» ist damit nicht nur Lehrsatz, sondern
 durch den realen Korrektur-Aufwand belegt.
+
+## Verifier-Zuordnung je Domaene (Compounding-Tabelle, F3)
+Waechst mit jeder realen Spec-Anwendung. Muster: **autoritative Instanz** (bindend) ·
+**externes Signal/Connector** (Indiz) · **Format-Vorlage/Goldstandard** · **zweite Textinstanz**.
+
+| Domaene | Autoritative Instanz (bindend) | Externes Signal (Indiz) | Format-Vorlage | Beleg-Fall |
+|---|---|---|---|---|
+| Recht / Behoerde / Gruendung | Notar · Handelsregisteramt (HRA) | Zefix (`--available`) — nur String-Indiz | Statuten-/Urkunden-Vorlage | AG-Gruendung 2026-06-21 |
+| Buchhaltung / Steuern | Treuhand (Pruefstunde) · Steuerbehoerde ZH | bexio `--abgleich` (Bank↔Buchung) · UBS-Feed · SVA-/CSS-/UBS-Bescheinigungen | GA2024 + Beilageverzeichnis 2024 | Buchhaltungssystem 2026-07-02 |
+| Text / Dokument / Mail | — (kein amtl. Abnehmer) | — | Goldstandard-Dokument | quer (jede Spec) |
+
+Lektion aus dem Buchhaltungs-Fall: das externe Connector-Signal (`bexio --abgleich`) ist hier
+stark, weil es zwei unabhaengige Realitaeten kreuzt (Bankeingang vs. Buchung) — trotzdem bleibt
+die **Treuhand-Pruefstunde vor Einreichung** die bindende Instanz, analog zur Rangordnung oben.
+Kennzahlen nie schaetzen: jede Summe gegen bexio + UBS-Feed belegt (Rule `identifikatoren-verifizieren`).
