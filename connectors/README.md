@@ -134,3 +134,13 @@ node truninger-ds3.mjs --spiegeln Collection-19903221 \
 ```
 Die uebrigen Lose liegen analog unter `70 Unternehmerdokumentation/LOS_<nr>_<gewerk>` —
 DS3-Collection-ID je Los via `--ls Collection-17500039` (= «70 Unternehmerdokumentation»).
+
+## versand/ — Versand- und Routenplanung Onlineshop (Skill `versandplanung`)
+
+Vier Bausteine für den täglichen Versandlauf: `shop-orders.mjs` (Bestellungen aus
+WooCommerce/Shopify/CSV, Klassifizierung Post ↔ Pickup, Doppellauf-Schutz via
+Markierung `jans_versandtag`), `post-label.mjs` (Versandetiketten Post CH DCAPI
+«Barcode» — kostenrelevant, nur mit `--ja`), `circuit.mjs` (Tagesroute in Circuit
+for Teams: Plan → Stops → Optimieren → an Fahrer verteilen) und `drucken.sh`
+(CUPS-Druck auf Labeldrucker/bizhub). Credentials in `~/.versand.env` (chmod 600,
+NIE in Git). Details: `connectors/versand/README.md`.
