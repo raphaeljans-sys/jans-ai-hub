@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-07-02
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8)]
+last_updated: 2026-07-04
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8)]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -232,6 +232,58 @@ Geschäftsflächen-Bewertung:
 - Höhere Anforderungen an **Ausbau/Ausstattung** (Gemeinschaftsflächen, Technik) und Trend zu
   **Serviced Offices** (flexible Mietverträge, voll ausgestattet) — relevant für Ertragswert
   und CapEx von Büroliegenschaften.
+- **Segment-Divergenz Geschaeftsflaechen 2026 (Wuest Partner, Web 07.2026):** Fuer die
+  Angebotsmieten erwartet WP 2026 national **Buero rund +0.5 %**, **Verkaufsflaechen/Detailhandel
+  −1.5 %** (Online-Handel bleibt die zentrale Herausforderung des stationaeren Retails). Bueromieten
+  Q1-2025 zuvor −2.0 % QoQ / −2.6 % YoY. Damit driften die Geschaeftsflaechen-Teilsegmente
+  auseinander — Buero stabilisiert, Detailhandel unter Strukturdruck. Das stuetzt die
+  **Gewerbe-Feinabstufung des Diskontsatzes** je Mietersegment ([[ertragswert-dcf]] D3-Rest:
+  Buero am unteren, Verkauf/EKZ schlechte Lage am oberen Rand des Gewerbe-Zuschlags).
+
+## Healthcare-Immobiliennachfrage — der demografische Nachfragetreiber (Obsan 03/2022)
+
+Warum Alters-/Pflegeimmobilien als eigenes Anlagesegment strukturell wachsen — die belegte
+Nachfrageprognose des Bundes. Quelle: **Obsan-Bericht 03/2022 «Bedarf an Alters- und
+Langzeitpflege in der Schweiz — Prognosen bis 2040»** (Schweiz. Gesundheitsobservatorium,
+Neuchatel 2022; Pellegrini/Dutoit/Pahud/Dorn; Datenbasis 2019, Prognosehorizont 2040,
+mittleres BFS-Bevoelkerungsszenario 2020c). Speist die Investitions-These fuer den Skill
+`healthcare-wirtschaftlichkeit` und die Healthcare-Ertrags-/Kostenanker in [[ertragswert-dcf]]
+und [[realwert-sachwert]].
+
+**Demografie (gesicherte Prognose-Basis):**
+- Bevoelkerung **80+ nahezu verdoppelt**: 453'670 (2019) → 854'046 (2040), **+88.3 %**; die
+  90+ waechst am staerksten (+163.7 %) (Obsan S. 45-46, T 4.1). Anteil 65+ steigt von 18.7 %
+  auf 24.4 % (S. 45).
+- Beschleunigende Dynamik der 80+: +25 % (2010-20), **+42 % (2020-30), +83 % (2030-40)** —
+  der Nachfrageschub kommt erst noch (S. 8/96).
+
+**Pflegebett-/Pflegeplatzbedarf (zentrale Nachfrageprognose):**
+- Pflegeheime zeigen den **staerksten Bedarfsanstieg aller Versorgungsstrukturen: +69.2 %**
+  bis 2040 (Referenzszenario). Es braucht **+54'335 zusaetzliche Langzeitbetten** → Total
+  145'760 Betten (2019: 91'425), d.h. **+2'587 Betten/Jahr bzw. rund +921 zusaetzliche
+  Pflegeheime** (à Ø 59 Betten/Heim) (Obsan S. 6/48/91, G 5.1).
+- Szenario-Bandbreite je Pflegedauer-Annahme: +45'292 (verkuerzte Dauer, +58.7 %) bis
+  +64'359 Betten (verlaengerte Dauer, +80.9 %) → 767 bis 1'090 zusaetzliche Heime (S. 48/96).
+- **Strukturelle Angebotsluecke:** 2014-2020 kamen im Mittel nur **~+600 neue Langzeitbetten/Jahr**
+  dazu — kuenftig noetig **+1'920 bis +2'587/Jahr** (S. 92). Vorlaufzeit Bauprojekte 8-10 J.,
+  Nachfrage duerfte das Angebot bereits vor 2025 uebertreffen (S. 49/96) → Argument fuer
+  fruehzeitige Investitionen.
+- Treiber sind die **80+** (Heimbewohner 80+ +82.5 % vs. 65-79 nur +13.0 %, S. 50).
+- Angrenzend: **betreute Wohnformen** wachsen am schwaechsten (+43 %, ~+13'353 Wohnungen,
+  juengere Klientel); Spitex-Pflege +52 % (S. 6/51/92).
+
+**Kostenvolumen (zitierte Fremdstudien, Szenario):** Die Kosten der Alters-/Langzeitpflege
+koennten sich bis 2045 nahezu verdoppeln und **~3.4 % (Braendle/Colombier 2017) bis ~4.8 %
+des BIP (Eling/Elvedi 2019)** ausmachen (2016: 2.6 %); Felder 2015: +177 % bis 2035 bei
+unveraenderter Versorgungspolitik (Obsan S. 8/97). Personalengpass als Realisierungsrisiko:
+bis 2035 **>+35'000 zusaetzliche Pflegepersonen** in Heimen noetig (S. 8/96).
+
+⚠ **Einordnung:** Ist-Zahlen 2019 sind gesicherte BFS-Statistik; die 2040-Werte sind
+**Modell-Szenarien** (explizit keine Vorhersage, S. 5), determiniert durch Demografie /
+Epidemiologie (Pflegedauer) / Versorgungspolitik. Die Kosten-BIP-Anteile stammen aus zitierten
+Fremdstudien, nicht aus Obsan-Berechnungen. **Bewertungsrelevanz:** die demografisch
+gestuetzte, angebotsknappe Nachfrage begruendet den tieferen Healthcare-Diskontsatz
+(stabile, wenig konjunkturabhaengige Nachfrage → geringeres Ertragsrisiko, [[ertragswert-dcf]]).
 
 ## Bewertungsrelevanz
 
@@ -271,6 +323,14 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
   (+2.5 % YoY)** als juengster publizierter Stand (Juni noch nicht veroeffentlicht), 10-j Eidgenoss
   **~0.35 %** (18.06.). Kein Handlungsbedarf an den Diskont-/Kapitalisierungssaetzen; das tiefe
   Zinsniveau bleibt zementiert. SREBI Q2-2026 noch nicht publiziert.
+- ✓ 2026-07-04 (Run 13): **Healthcare-Nachfragetreiber (Obsan 03/2022)** als neue Sektion —
+  Pflegebett-Bedarf **+69 % / +54'335 Betten bis 2040** (~+921 Heime), strukturelle Angebotsluecke
+  (+600 Ist- vs. +2'587 Soll-Betten/Jahr), Kosten-BIP-Anteil verdoppelt → begruendet den tieferen
+  Healthcare-Diskontsatz. **Marktpuls-Web-Check (07.2026): alle Zins-Anker unveraendert** —
+  SNB-Leitzins **0.00 %** (19.06., gehalten bis Ende 2026), Referenzzins **1.25 %** (gueltig seit
+  02.09.2025, per 02.06.2026 bestaetigt, naechste Publ. 01.09.2026), 10-j Swap-Prognose 0.60→0.80 %
+  (12 Mt). Neu die **WP-2026-Segment-Prognose Geschaeftsflaechen** (Buero +0.5 % / Detailhandel
+  −1.5 %) → stuetzt die Gewerbe-Feinabstufung ([[ertragswert-dcf]] D3-Rest).
 - T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
   **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
   2022/23 (historische Anker).
