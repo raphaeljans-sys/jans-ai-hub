@@ -4,6 +4,19 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-04 — Buch-Run 21: Kap. 5 (Planung und Entschaedigung) vollstaendig
+- [neu] **Destillat Kap. 5** [[band-1/05-planung-und-entschaedigung]] (S. 311-334, Shots 156-168,
+  13 Doppelseiten): formelle Enteignung (Art. 26/36 BV, EntG/AbtrG, Flughafen Laerm/Direktueberflug),
+  materielle Enteignung (2 Tatbestaende BGE 125 II 433, Fallgruppen-Landkarte, Abzonungs-~1/3-Schwelle),
+  weitere Instrumente (Heimschlag/Zugrecht/Vorkaufsrecht/Mehrwertabschoepfung Art. 5 RPG 20 %),
+  Enteignungsverfahren (10-J-Anmeldung § 183ter EG ZGB, Rekurs 20 T § 46 AbtrG, Verkehrswert/Alles-oder-nichts).
+- [neu] **Wiki-Artikel** [[enteignung-und-entschaedigung]] (`emerging`) — Fallgruppen-Tabelle + JANS-Relevanz
+  (Baulandqualitaet als Angelpunkt fuer machbarkeit/ankaufspruefung; Bewertungs-Methodik fuer immobilienbewertung).
+- [update] wiki/INDEX (+ Sektion «Enteignung & Entschaedigung»), QUESTIONS (Band-1-Rest Kap. 5 erledigt;
+  §§ 102/103/104 PBG teilgeklaert), buecher/INDEX (+ Kap. 5), seiten-inventar (Shots 156-168 → [x]),
+  curriculum (Kap. 5 vollstaendig), drills (+8 Modell-C-Karten). **Band 1 offen nur noch Kap. 4 + Kap. 9-Rest.**
+- [modell] C (8 Selbsttest-Karten). Report `outputs/2026-07-04_buch-run21.md`.
+
 ## 2026-07-03 — StrAV am Volltext verifiziert, Destillat Kap. 15 Teil 2b korrigiert
 - [fix] **StrAV-Mauerregel praezisiert** (offene Frage aus dem Destillat erledigt): Volltext
   StrAV LS 700.4 (SharePoint-Gesetzessammlung, `700.4_19.4.78_69.pdf`) gelesen. Korrekt ist:

@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,7 +92,9 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~795 / 1550 (~397 Doppelseiten). Run 20 (2026-07-03, Forcierung): +47
+- **Seiten distilliert:** ~821 / 1550 (~410 Doppelseiten). Run 21 (2026-07-04, regulaer, 1 Kapitel):
+  +13 Doppelseiten (Kap. 5, S.311-334, Shots 156-168) → **Kap. 5 vollstaendig; Band 1 offen nur noch
+  Kap. 4 (P3) + Kap. 9-Rest S.575-608.** Run 20 (2026-07-03, Forcierung): +47
   Doppelseiten (Kap. 3 T2 S.240-265 / Kap. 12 T4 S.770-807 / Kap. 10 S.609-636) → **Kap. 3, Kap. 10,
   Kap. 12 vollstaendig; Band 1 bis auf Kap. 4/5 komplett.** Run 18 (2026-07-02): +46 Doppelseiten
   (Kap. 2 T3 / Kap. 3 T1 / Kap. 6 T2). Ausfuehrlicher Vorstand:
@@ -103,7 +105,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Kap. 8 Teil 1**. Run 17 (regulaer) 2026-06-30: +12 Doppelseiten Kap. 2 Teil 2.
 - **Kapitel-Destillate:** 33 Buch-Destillate (Run 20 neu: 03-T2 Quartierplan, 12-T4 Altlasten, 10 widerrechtl. Bauten) (Band 1: Kap. 1/2×3/3×2/6×2/7×2/8/9/10; Band 2: Kap. 11/12 (T1+T2/T3/T4)/13/
   14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/19/20/21/22/23; alle `emerging`).
-- **Wiki:** 18 Artikel (Run 20 neu [[widerrechtliche-bauten-und-sanktionen]] `emerging`; [[baureife-und-erschliessung]] auf `established` — Quartierplan + Altlasten. Frueher: geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
+- **Wiki:** 19 Artikel (Run 21 neu [[enteignung-und-entschaedigung]] `emerging`; Run 20 neu [[widerrechtliche-bauten-und-sanktionen]] `emerging`; [[baureife-und-erschliessung]] auf `established` — Quartierplan + Altlasten. Frueher: geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
   Platzhalter gefuellt** — numerus clausus § 48 Abs. 2 PBG, Typ-Katalog, Neueinzonung Art. 15 RPG,
   Arealueberbauung §§ 69-73; NEU [[grundlagen-planungs-baurecht]] 2026-06-30 `emerging` (oeff./privates Recht/SIA-
   Normen/Verfassungsgrundsaetze); geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 (Planungsstufen-Belege)
@@ -123,7 +125,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
   + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
   `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
-- **Letzter Lauf:** Run 20, 2026-07-03 (Forcierung, 3 Kapitelteile parallel, 47 Doppelseiten) —
+- **Letzter Lauf:** Run 21, 2026-07-04 (regulaer, 1 Kapitel, 13 Doppelseiten) — **Kap. 5 Planung und
+  Entschaedigung VOLLSTAENDIG** (S.311-334, Shots 156-168): **5.1** Wertaenderungen (Art.26 BV); **5.2
+  formelle Enteignung** (Art.36 BV kumulativ, **EntG SR711/AbtrG LS781**, enteignungsfaehige Rechte,
+  Flughafen **Laerm** [Spezialitaet/Unvorhersehbarkeit Stichtag 1.1.1961/Schwere 10-15 %] ↔ **direkter
+  Ueberflug** [1.25°-ILS-Korridor, ≤150m ja/≥350m nein], MIFLU/ESchK, Strassenlaerm Art.17 LSV); **5.3
+  materielle Enteignung** (Art.26 Abs.2 BV/Art.5 Abs.2 RPG, **2 Tatbestaende** schwerer Eingriff/Sonderopfer
+  **BGE 125 II 433**; Fallgruppen Aus-/Nichteinzonung/Abzonung ~1/3-Schwelle/Umzonung/Baulinien §102/
+  Gewaesserraum Art.36a GSchG/Denkmalschutz BGE 117 Ib 264/Polizei/befristete Bauverbote §§122/235/346);
+  **5.4** Heimschlag §§41-43/165/214, **Zugrecht §43a** >2/3, Vorkaufsrecht §64, Treu+Glauben,
+  **Mehrwertabschoepfung** Art.5 RPG min.20 %/MAG; **5.5 Enteignungsverfahren** (Anmeldung **10 J. §183ter
+  EG ZGB**, Rekurs **20 T §46 AbtrG**, **Verkehrswert BGE 102 Ib 273/Alles-oder-nichts**, Vollzug §56 AbtrG).
+  Destillat [[band-1/05-planung-und-entschaedigung]], Wiki [[enteignung-und-entschaedigung]] neu. Modell C
+  (8 Karten). Report `outputs/2026-07-04_buch-run21.md`. OFFEN: Kap. 4 (P3), Kap. 9 Rest S.575-608.
+- **Lauf davor:** Run 20, 2026-07-03 (Forcierung, 3 Kapitelteile parallel, 47 Doppelseiten) —
   **Kap. 3 Teil 2** (S.240-265, Shots 121-133): **Quartierplan §§ 123 ff. PBG** (amtlich § 158 vs. privat
   § 160a/**Einstimmigkeit**, Kombination Gestaltungsplan § 129/§ 81, **Quartierplanbann § 150**, Verfahren
   §§ 147-159, Umlegung/Realersatz/Aequivalenz §§ 137-145, Vollzug §§ 161-176 **Heimschlag § 165/60 T**,
@@ -192,7 +207,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
-- **Naechster Lauf:** **Band-1-Abschluss** — **Kap. 5** (Planung und Entschaedigung/materielle Enteignung, S.311 ff., Shots ~156 ff.) + **Kap. 9 Rest** (Rechtsschutz Ablauf/Kosten/Revision, S.575-608, Shots 290-306); dann **Kap. 4** (Natur-/Heimatschutz, P3, S.267 ff.). Danach Band-2-Reste (Kap. 13 §§239a/240/242/248 ab Shot 431, Kap. 8 Rest S.510-534, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 20 §357 Abs.5/§307, Kap. 21 Art.24d/24e). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** **Band-1-Abschluss** — **Kap. 9 Rest** (Rechtsschutz Ablauf/Kosten/Revision, S.575-608, Shots 290-306) + **Kap. 4** (Natur-/Heimatschutz, P3, S.267 ff., Shots ~130-155). *(erledigt Run 21: Kap. 5 Planung und Entschaedigung.)* Danach Band-2-Reste (Kap. 13 §§239a/240/242/248 ab Shot 431, Kap. 8 Rest S.510-534, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 20 §357 Abs.5/§307, Kap. 21 Art.24d/24e). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten
