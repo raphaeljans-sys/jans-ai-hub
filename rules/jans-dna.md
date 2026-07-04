@@ -66,7 +66,12 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Du und schliesst mit «Lgr» (Fidelity 260702); im warm-sozialen Peer-Du bei genug Nähe mit «**Gel**»
   öffnen, saloppe Superlative («wäre das Hammer») setzen und die **Wunschzeile den Schluss tragen** lassen
   (kein zusätzlicher Gruss); im operativen Du eine ehrliche Selbst-/Annahmen-Nebenzeile mit «…» zulassen
-  («Vielleicht habe ich da das Terrain … geschoben….»).
+  («Vielleicht habe ich da das Terrain … geschoben….»); in der strukturierten Du-Korrektur-/Liefermail
+  die Detailpunkte als «➢»-Sub-Bullets UNTER dem «_ »-Haupt-Bullet verschachteln (zweite Ebene, Fidelity
+  260704); im iterativen Zwischenstand die leichte Freigabe-Bitte «kurzes OK-Feedback» wählen, bei der
+  abnahmefähigen Schlussabgabe das förmliche «Bitte um Prüfung und Freigabe»; die reine Verfahrens-/
+  Status-Sie-Mail (Bauentscheid) bewusst OHNE Wunschzeile und ohne persönlichen Bezug sachlich halten,
+  mit «melde ich mich unverzüglich» + «Freundliche Grüsse» + Block (Fidelity 260704).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);

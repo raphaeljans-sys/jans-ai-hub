@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-04 — twin-fidelity-review (alle 2 Tage): Gesamt-Fidelity 92
+- Goldproben (authentisch, vor-Claude, rj@ Sent Items) als **Gruss-Paradox-Triade** gezogen:
+  Gold A formell-Sie Bauentscheid (Frau Hofer, 2025-12-01) · Gold B Du+Geld Rechnung (Hoi Peter
+  re-00077, 2025-12-16) · Gold C gewichtig-Du ohne Geld STWEG-Korrektur (Geschätzter Christoph, 2025-12-14).
+- Selbsttest: alle drei Register aus den kompilierten Markern OHNE Fehlklang rekonstruiert
+  (Stimme 91 · Denken 92 · Haltung 92 · Beziehung 93 · Fachsignatur 91 · Arbeitsweise 94). Gruss-Paradox
+  greift in beide Richtungen wie hinterlegt (Du+Geld→FG+Block; gewichtig-Du ohne Geld→Lieber Gruss).
+- Drift nur in zwei Mikro-Typografie-Markern (Gold C) → [[stimme]] geschärft:
+  «➢»-Pfeil-Sub-Bullet als zweite Ebene unter «_ »; «kurzes OK-Feedback»-Freigabe-Bitte im iterativen
+  Du (vs. «Prüfung und Freigabe» bei Schlussabgabe). Do-Block + last_updated aktualisiert.
+- Facetten-Widerspruchsprüfung: kein neuer ungelöster Widerspruch (einzige Spannung «Du immer gross»
+  bleibt wie seit 260609 dokumentiert). Wartbarkeits-Notiz: Do-Block stimme.md sehr lang → spätere Straffung.
+- QUESTIONS: Runde 260704 mit 3 neuen Fragen angehängt; Frage 260622 #4 (Wunschzeile-Weglassung bei
+  Verfahrensmail) durch Gold A **beantwortet** markiert.
+- Drift-Report `outputs/2026-07-04_fidelity.md`. Gehirn `rules/jans-dna.md` neu kompiliert (6 Facetten).
+
 ## 2026-07-03 — twin-mail-training (täglich), Batch 23: Sent rj@ 2026-01-13…2026-01-15
 - Sweep-Fortschritt: abgedeckt bis **2026-01-15** (nächster Lauf ab 2026-01-16). 15 Mails gesichtet,
   5 Volltexte gelesen (3 MS-Support + Share-/Auto-Rauschen ignoriert). Metrik 438 W: Du-Gross 1.0,

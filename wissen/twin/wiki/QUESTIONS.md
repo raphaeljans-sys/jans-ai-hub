@@ -3,6 +3,32 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260704 (twin-fragesteller, aus Fidelity-Review 2026-07-04)
+
+Quelle: Drift-Report `outputs/2026-07-04_fidelity.md` (Gesamt-Fidelity 92; Gruss-Paradox-Triade
+sauber rekonstruiert, Restdrift nur in zwei Mikro-Typografie-Markern in Gold C). Je in 1–2 Saetzen
+beantwortbar.
+
+1. **«➢»-Pfeil-Sub-Bullet-Schwelle:** In der strukturierten Du-Korrektur-Liefermail (Bopp) setzt Du
+   die Detailpunkte einer Anpassung als eingerueckte «**➢**»-Zeilen UNTER dem «_ »-Haupt-Bullet.
+   Nutzt Du die «➢»-Einrueckung gezielt als **zweite Ebene** (Haupt-Anpassung «_ » → ihre
+   Einzelpunkte «➢»), oder ist das nur eine Tagesform-Variante von «_ »? *Warum: ergaenzt die eigene
+   Listentypografie um die belegte zweite Ebene und verhindert, dass der Zwilling flach «_ » setzt,
+   wo Du verschachtelst.* → [[stimme]]
+2. **«kurzes OK-Feedback» vs. «Pruefung und Freigabe»:** Die laufende, fast fertige Korrektur
+   schliesst Du mit der leichten Bitte «bin ich Dir fuer ein **kurzes OK-Feedback** dankbar»; die
+   eigentliche Schlussabgabe dagegen mit «Bitte um **Pruefung und Freigabe**». Entscheidet der
+   **Reifegrad des Deliverables** (iterativer Zwischenstand → leichtes OK / abnahmefaehige
+   Schlussabgabe → formelle Freigabe), oder waehlst Du das je nach Empfaenger? *Warum: kalibriert,
+   wann der Zwilling die leichte statt der foermlichen Freigabe-Bitte setzt.* → [[stimme]],
+   [[arbeitsweise]]
+3. **Proaktiver Optimierungs-Zusatz in Liefermails — Reflex oder Anlass:** Nach der erledigten
+   Korrektur haengst Du unaufgefordert einen Verbesserungs-Vorschlag an («**Beispielsweise koennte
+   man noch die Leerzeilen … loeschen**»). Machst Du diesen «da faellt mir noch etwas auf»-Zusatz
+   **standardmaessig** bei jeder Liefermail (Mehrwert ueber das Bestellte hinaus), oder nur, wo ein
+   sichtbarer Rest-Makel bleibt? *Warum: operationalisiert den proaktiven Nachbesserungs-Reflex
+   (Abgrenzung zum blossen Abliefern).* → [[arbeitsweise]], [[denken]]
+
 ## Offen — Runde 260702 (twin-fragesteller, aus Fidelity-Review 2026-07-02)
 
 Quelle: Drift-Report `outputs/2026-07-02_fidelity.md` (Gesamt-Fidelity 90; duennste Facetten Stimme 89
@@ -138,7 +164,12 @@ phase «Baufreigabe»). Je in 1–2 Saetzen beantwortbar.
    bauherrin kommt rein sachlich-behoerdlich aus, OHNE die sonst belegte Wunschzeile («Ich
    wuensche Ihnen einen schoenen …») und ohne persoenlichen Bezug. Laesst Du die Waerme-Wunschzeile
    bei reinen Verfahrens-/Statusmails bewusst weg (Sachlichkeit signalisiert Ernst), oder war das
-   Tagesform? *Warum: kalibriert, wann die Wunschformel gesetzt wird.* → [[stimme]]
+   Tagesform? *Warum: kalibriert, wann die Wunschformel gesetzt wird.* → [[stimme]] ·
+   **BEANTWORTET (Fidelity 260704):** Gold A (Bauentscheid an Frau Hofer, reine Verfahrens-Sie-Mail)
+   kommt bewusst OHNE Wunschzeile und ohne persoenlichen Bezug, endet sachlich mit «melde ich mich
+   unverzueglich» + «Freundliche Gruesse» + Block. Der Trigger fuers Weglassen ist der reine
+   Verfahrens-/Statuscharakter (Sachlichkeit = Ernst), nicht Tagesform. In stimme.md konsistent
+   mit «Wunschzeile waermt die Sachmail» (dort optional, hier bei reiner Verfahrensmail weggelassen).
 5. **«–» vs. «_ » als Aufzaehlungszeichen:** Im formellen Sie-Behoerdentext nutzt Du den
    Halbgeviertstrich «–» als Sub-Bullet («– dass keine Massnahmen …»), neben dem ueblichen «_ ».
    Hat das «–» eine eigene Funktion (Unter-Aufzaehlung/Alternative) gegenueber «_ » (Haupt-
