@@ -1101,6 +1101,85 @@ vor dem Zitieren am aktuellen Rechner nachrechnen und nie als feste Zahl verspre
 
 ---
 
+## F31 — «Lohnt sich Photovoltaik zusammen mit einer Waermepumpe — und wie nutze ich den Solarstrom selbst?»
+
+**Kurz:** Ja — die Waermepumpe ist der **beste Partner** Deiner PV-Anlage, weil sie den Solarstrom
+**thermisch speichern** kann (Warmwasser, Pufferspeicher, sogar die Betondecken). Mit einem
+**Energiemanagement-System (EMS)** und intelligenter Steuerung laesst sich der solare Anteil an der
+Heizung **etwa verdoppeln** — im Sommer machst Du das **Warmwasser zu 100 % mit eigenem Strom**. Das
+noetige Bauteil dafuer ist **nicht die Batterie, sondern das EMS**; eine Batterie lohnt sich vorerst
+kaum und hilft im Winter nicht.
+
+**Fachlich:** Selbstverbrauchter Strom ist ~**2–3× mehr wert** als eingespeister — jede kWh, die im Haus
+bleibt, spart den vollen Bezugstarif. Die WP hebt den Eigenverbrauch besser als jede Batterie, weil ihr
+**Speicher gratis im Gebaeude steckt**: Massivbau EFH **20–60**, MFH **150–450 kWh** thermisch (3 °C
+Temperaturhub ≈ 20 kWh/K), dazu Warmwasserspeicher (EFH 10 / MFH 20 kWh). Bei PV-Ueberschuss faehrt das
+EMS die WP hoch und «laedt» diese Speicher ueberhoeht. Wieviel das bringt (Steigerungsfaktor ueber den
+Betrieb ohne Optimierung):
+
+| Steuerung | Deckungsgrad Heizen | Deckungsgrad Warmwasser |
+|---|---|---|
+| keine | 1 | 1 |
+| manuell (WP-Lauf auf den Tag schieben) | 1,1 | **2** |
+| automatisch, Puffer ueberhoehen (SG-Ready/EMS) | 1,3 | 2 |
+| automatisch, Gebaeudemasse als Speicher (EMS + Raumfuehler) | **2** | 2 |
+
+Drei Regeln fuer den Bauherrn: **(1)** Erst die **WP korrekt einregulieren** (Heizkurve, hydraulischer
+Abgleich) im ersten Betriebsjahr, **dann** optimieren. **(2) Reihenfolge:** Lasten in die Sonne schieben
+(WP-Warmwasser/Heizen nachmittags, E-Auto tagsueber) → Eigenverbrauch oft von ~30 auf ~50 %; dann
+Speicher/Gebaeudemasse per EMS nutzen; **erst danach** ueber eine Batterie nachdenken — sie **rechnet sich
+wirtschaftlich noch nicht**, hat die schlechtere Oekobilanz und **senkt den Winter-Netzbezug nicht**
+(nur Tagespufferung). **(3)** Nie den Ueberschuss in einen **Heizstab «verbraten»**, nur damit die
+Eigenverbrauchszahl steigt — das drueckt die Jahresarbeitszahl der WP und ist unwirtschaftlich. Achte
+beim Kauf auf **offene Schnittstellen** (Standard **SmartGridready**; sonst SG-Ready/PV-Eingang/Modbus);
+aeltere WP lassen sich ueber den **EVU-Sperreingang** nachruesten.
+
+**Quelle:** EnergieSchweiz/BFE «Waermepumpen, Photovoltaik und Elektromobilitaet — Planungsgrundlagen fuer
+Wohnbauten» (Autor D. Zogg FHNW, V2.0 02.07.2023; Basis >50 reale Installationen 2016–2021) →
+`[[wp-pv-eigenverbrauch-lastmanagement]]`; Absolut-Ertrag/Eigenverbrauch F18 →
+`[[pv-ertrag-eigenverbrauch-praxis]]`; JAZ/WP-Systemwahl F6 → `[[waermepumpe-systemvergleich]]`;
+Themenartikel → `[[pv-eigenverbrauch-zev]]`. Solarstrom im MFH an Mieter vermarkten → F32. ⚠ **Datenstand
+2026-07-04:** Deckungsgrade sind **Faktoren** (Bestwerte Praxis), keine garantierten %-Werte — projektgenau
+via Simulation (Polysun). Batterie-Wirtschaftlichkeit marktabhaengig; Norm SIA 2063 (Lastmanagement) in Vorbereitung.
+
+---
+
+## F32 — «Lohnt sich PV auf meinem Mehrfamilienhaus — und wie verkaufe ich den Strom an die Mieter?»
+
+**Kurz:** Ja, und **deutlich mehr mit einem Zusammenschluss zum Eigenverbrauch (ZEV)**: statt den
+Solarstrom billig ins Netz einzuspeisen, verkaufst Du ihn **direkt an Deine Mieter/Stockwerkeigentuemer**
+— fuer selbst genutzten Strom fallen **keine Netzkosten und Abgaben** an. **Neu (seit 1.1.2025) geht das
+als «virtueller ZEV» ganz ohne interne Umverdrahtung** ueber die bestehenden Zaehler — das ist gerade fuer
+**Bestandsbauten** der grosse Vorteil.
+
+**Fachlich:** Fuer **am Ort der Produktion selbst verbrauchte** Energie sind laut **Art. 16 EnG** keine
+Netznutzungstarife, kein Netzzuschlag (KEV), keine SDL und keine Stromreserve-Abgabe geschuldet — darum ist
+Eigenverbrauch ~2–3× mehr wert als Einspeisung. Ein einzelner Haushalt nutzt die Mittags-Solarspitze kaum;
+der **ZEV (Art. 17 EnG)** buendelt mehrere Parteien und hebt so den Eigenverbrauch (reale MFH-Werte ~33 %).
+
+| | **ZEV** (klassisch, seit 2018) | **vZEV** (neu, ab 1.1.2025) |
+|---|---|---|
+| Verdrahtung | meist eigene interne Verkabelung noetig | **keine** — bestehende Zaehler + Anschlussleitung |
+| Messung | Privatzaehler hinter einem VNB-Messpunkt | VNB aggregiert mehrere Zaehler zu **einem virtuellen Messpunkt** |
+| nach aussen | gilt als **ein** Endverbraucher | gilt als **ein** Endverbraucher |
+
+Praktisch: Ganze geeignete Dachflaeche belegen (Grundkosten hoch, Modul-Zusatzkosten gering). Einen
+**Vertreter** bestimmen, der intern abrechnet und den ZEV nach aussen vertritt (oft ein EVU/Dienstleister);
+Anlagen **≥ 30 kVA** brauchen einen separaten Produktionszaehler. Der **Mieter-Preis** darf nicht ueber dem
+externen Standard-Tarif liegen (Detail: EnergieSchweiz-Leitfaden Eigenverbrauch). **Nicht verwechseln:** die
+**Lokale Elektrizitaetsgemeinschaft (LEG)** — Stromverkauf ueber das **oeffentliche** Quartiernetz — ist ein
+**anderes**, ebenfalls neues Instrument (eigenes Regelwerk BD-LEG).
+
+**Quelle:** VSE «Handbuch Eigenverbrauchsregelung» HER-CH 2025 (verabschiedet 10.02.2025; Rechtsbasis EnG +
+revidierte EnV, Stand 01.01.2025) → `[[zev-eigenverbrauch-mfh-her-2025]]`; Eigenverbrauch technisch heben
+(WP/Lastmanagement) → F31 / `[[wp-pv-eigenverbrauch-lastmanagement]]`; MFH-Eigenverbrauchswerte F18 →
+`[[pv-ertrag-eigenverbrauch-praxis]]`; Themenartikel → `[[pv-eigenverbrauch-zev]]`; STWEG-Reglement → Skill
+`stockwerkeigentum`. ⚠ **Datenstand 2026-07-04:** vZEV/LEG mit dem Stromgesetz frisch — konkrete Tarif-/
+Preisregeln vor Zusagen am aktuellen Stand (VSE/EnergieSchweiz/Standort-VNB) pruefen. Tarif-/Energierecht
+→ Skill `baurecht`.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
