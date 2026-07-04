@@ -124,6 +124,12 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [~] D4 Betriebsenergie vs. Erstellungsenergie ueber den Lebenszyklus — Verhaeltnis 50 J belegt
   2026-06-10 → `[[graue-energie]]` (Betrieb dominiert, graue Energie 20-30 %; bei Minergie kehrt sich
   Gewicht um). Offen: vollstaendige Lebenszyklus-CO₂-Bilanz inkl. Energietraeger.
+- [x] D6 **PV-Eigenverbrauch: selbst nutzen (WP/Lastmanagement) + vermarkten (ZEV/vZEV)** — belegt
+  2026-07-04. Hebel 1 (EnergieSchweiz/Zogg 2023): WP als thermischer Speicher via EMS, solarer
+  Deckungsgrad ~verdoppelbar, SG-Ready/SmartGridready, Batterie erst zuletzt → `[[wp-pv-eigenverbrauch-lastmanagement]]`
+  (FAQ F31). Hebel 2 (VSE HER-CH 2025): ZEV Art. 17 EnG, Eigenverbrauch abgabenfrei Art. 16 EnG, **neu
+  vZEV ab 1.1.2025** ohne Umverdrahtung, LEG separat → `[[zev-eigenverbrauch-mfh-her-2025]]` (FAQ F32).
+  Themenartikel `[[pv-eigenverbrauch-zev]]`. Offen: ZEV-Mieter-Preisregel (Leitfaden Eigenverbrauch), LEG (BD-LEG).
 
 ## Meta
 - [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **alle 17 Kernfragen F1-F17 belegt**

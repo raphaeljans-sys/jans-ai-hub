@@ -132,9 +132,19 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   kennwerte oft nicht verfuegbar → Prognose + Reserve + elastische Stoesse) → Lignum/BFH-AHB 2008
   `[[lignum-schallschutz-holzbau-flankenuebertragung]]`, schallschutz-sia181 + F25 geschaerft. Offen nur
   noch: **konkrete Anschlussdetails + gemessene K_F-/Bauteilwerte Holzbau** (spaetere Lignum-LIT-Doku, eigene Quelle).
-- [ ] **E12** **Naturdaemmstoffe in der Praxis**: Stroh (Bemessungs-λ, Brandverhalten RF, Feuchte) +
+- [~] **E12** **Naturdaemmstoffe in der Praxis**: Stroh (Bemessungs-λ, Brandverhalten RF, Feuchte) +
   Lehmputz (Feuchtepufferung) — Seed `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (2024). Ergaenzt
-  `[[daemmstoffe-lambda]]`. Zudem **ZEV/Areal-PV/«Solarsplitvertrag»** wirtschaftlich/rechtlich (→ `baurecht`).
+  `[[daemmstoffe-lambda]]`. **ZEV/vZEV-Teil belegt ✓ 2026-07-04** (VSE HER-CH 2025: ZEV Art. 17 EnG,
+  Eigenverbrauch abgabenfrei Art. 16 EnG, **neu vZEV ab 1.1.2025** ohne Umverdrahtung; LEG separat BD-LEG)
+  → `[[zev-eigenverbrauch-mfh-her-2025]]`, `[[pv-eigenverbrauch-zev]]`, FAQ F32. **Offen bleibt:** Natur-
+  daemmstoffe Stroh/Lehm; exakte ZEV-Mieter-Preisregel (EnergieSchweiz-Leitfaden Eigenverbrauch); **LEG**
+  (Modell/Netzentgelt, BD-LEG); «Solarsplitvertrag»/Areal-PV rechtlich (→ `baurecht`/`stockwerkeigentum`).
+- [x] **E15** **WP + PV Eigenverbrauch / Lastmanagement** belegt ✓ 2026-07-04 (EnergieSchweiz/Zogg 2023:
+  WP als thermischer Speicher via EMS, solarer Deckungsgrad ~verdoppelbar Faktor 2, Sommer-WW 100 % aus PV,
+  Steigerungsfaktoren-Tabelle, Speichertabelle, Batterie lohnt noch nicht/hilft Winter nicht, Schnittstellen
+  SG-Ready/SmartGridready/EVU-Sperreingang) → `[[wp-pv-eigenverbrauch-lastmanagement]]`, `[[pv-eigenverbrauch-zev]]`,
+  FAQ **F31**. Loest den Run-24/25-Prioritaetspunkt «WP + PV-Eigenverbrauch (Lastmanagement)». Offen: absolute
+  solare Deckungsgrade in % (projektgenau Polysun), Praxisbeispiel-Endzahlen (EnergieSchweiz-Doku S. 59-75), SIA 2063.
 - [x] **E13** **Gebaeudeschadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP) belegt ✓ 2026-06-22 →
   `[[gebaeudeschadstoffe-checkliste-zh]]`, FAQ **F23** (Kt.-ZH-Vierfaelle-Raster vor 1990 / ≤ CHF
   200'000 → Checkliste, darueber Fachperson + private Kontrolle; Stichjahre 1990/1987/1976). Offen:
