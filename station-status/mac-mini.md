@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 04.07.2026 06:29:39
+Stand: 04.07.2026 06:39:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.07.2026 06:29:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b771f01 energie-training Run 26: PV-Eigenverbrauch — WP-Lastmanagement (F31) + ZEV/vZEV im MFH (F32)
+- 94db045 sync: twin-fidelity-review: 2026-07-04
