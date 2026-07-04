@@ -2,6 +2,36 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-04 — Training-Run 13: Healthcare-Vertiefung — T17 vollstaendig geschlossen (Investoren-Markt-Seite)
+
+- **T17 vollstaendig geschlossen** (Kosten- UND Investoren-Markt-Seite). Grosser Healthcare-
+  Vertiefungslauf: sieben bisher ungelesene oeffentliche/Dritt-Quellen aus der Healthcare-Bibliothek
+  + CRB-Marktpreise + Web, parallel via vier Lese-Agenten distilliert, zentral synthetisiert.
+- **`wiki/ertragswert-dcf.md`** (07-04, established): (1) neue Sektion **Healthcare-Investoren-Markt-
+  Diskont** aus **SenioResidenz AG GB 2017** (reiner Healthcare-Immobilien-Investor, WP-DCF): Marktwert
+  21.75 Mio / Soll-Miete 1.145 Mio → **impliziter Brutto-Yield ~5.3 %** (Healthcare ~2 Pp ueber Wohnbau),
+  Belehnung 40-60 %; angewandter Diskontsatz im Bericht nicht beziffert (unsicher). (2) Neue Sektion
+  **Pflegeplatzkosten-Struktur** (BFS «Indikatoren Pflegeheime 2019-2021»: 10'035 CHF/Mt, Ertrag
+  Pension 55 %/Pflege 43 %, Belegung 90 %, 60 % defizitaer; NZZ/Curaviva: Pension 4'124/KVG-Pflege
+  4'401/Betreuung 1'529 CHF/Mt — nur Hotellerie speist die Liegenschaft). (3) **D3-Healthcare-Zeile**
+  von *emerging* auf **belegt** gehoben. (4) **Gewerbe-Feinabstufung** je Mietersegment (Segment-
+  Reihenfolge belegt aus WP-2026-Prognose Buero +0.5 %/Detailhandel −1.5 %) — D3-Rest praezisiert.
+- **`wiki/investorenmarkt-makro.md`** (07-04, established): neue Sektion **Healthcare-Immobiliennachfrage
+  (Obsan 03/2022)** — Pflegebett-Bedarf +69.2 %/**+54'335 Betten bis 2040** (~+921 Heime), 80+ +88 %,
+  strukturelle Angebotsluecke (+600 Ist vs. +2'587 Soll Betten/J), Kosten-BIP-Anteil verdoppelt
+  (3.4-4.8 % bis 2045/50). Marktpuls-Web-Check 07.2026: **alle Zins-Anker unveraendert**; neu WP-2026-
+  Segment-Prognose Geschaeftsflaechen.
+- **`wiki/realwert-sachwert.md`** (07-04, established): neue Sektion **Healthcare-Kostenband erweitert
+  auf Spital** — CRB werk-material (Frauenklinik KSL 3'426 / USZ-Mehrzweckbau 3'767 CHF/m2 GF +
+  BKP-Aufgliederung USZ, Preisstand 2020.04 Ostschweiz). Healthcare-Neubau-Kostenband **~3'400-3'850+
+  CHF/m2 GF** (Pflegeheim unten, Spital oben).
+- **`wiki/projektstruktur-deliverables.md`** (07-04): Healthcare-Bruecke auf **T17 geschlossen**
+  erweitert (Investoren-Marktwert SenioResidenz, Operating-Benchmarks BFS, **JANS-Kennwert-Raster 2411**
+  als Arbeitsstand + realer ZH-Fall Emilienheim Kilchberg).
+- **Register:** `raw/_INGESTED.md` (7 neue Quellen-Zeilen + Stand Run 13), `curriculum.md` (E9
+  Healthcare vollstaendig, E7 Marktpuls), `wissensluecken.md` (T17 → Erledigt; neue Aufgabe **T19**
+  JANS-Kennwert-Raster befuellen), `INDEX.md` (4 Deskriptoren). Output `outputs/2026-07-04_training-run13.md`.
+
 ## 2026-07-02 — Training-Run 12: Healthcare-Bewertungsbruecke (T17 belegt) + Health-Check-Cleanup
 
 - **T17 (Healthcare-Bewertungsfall) auf der Kosten-/Annuitaetsseite geschlossen** ueber die bisher
