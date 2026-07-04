@@ -46,6 +46,8 @@ EVEN-Umstellung 2026 → eigener Artikel `[[energie-energienachweis-zh-formulare
   EN-101…EN-141 liegt jetzt komplett digital in EVEN. PDF bleiben nur: Energienutzungs-Deklaration
   (geringf. Umbau), WTA, **EN-104-ZH**, **EN-110-ZH**, Ausfuehrungskontrolle, Lueftung
   Fahrzeugeinstellraeume/gewerbl. Kuechen. Alt-Projekte → Plattform «Energiehub Gebaeude».
+  **EVEN-Bedienung** (Rollen/Ablauf/Statusmodell/Beilagen-Upload/Private Kontrolle) →
+  `[[energie-even-plattform-bedienung]]` (alle Kantone ausser BE + FL; ZH = Kanton mit PK).
 - **Wer/wo:** rechtzeitig **vor Baubeginn**; Nachweis in EVEN anlegen (frueher: DLZ/Gemeinde).
 - **EN-ZH-Logik:** Art des Vorhabens (Neubau/Anbau/Umbau/Umnutzung) + SIA-Gebaeudekategorie →
   Checkliste kreuzt die betroffenen Fachnachweise an (Energiebedarf, Waermedaemmung, Heizung/WW,
@@ -83,17 +85,22 @@ beschaffbare Planungsgrundlage + das reale JANS-Deliverable:
   ist (Bilanz Erstellung + Betrieb − PV-Ertrag).
 
 ⚠ **Datenstand:** Kt. ZH operativ ueber EnerG seit 1.9.2022 (MuKEn 2014); **MuKEn 2025** von der
-EnDK 08/2025 verabschiedet (Umsetzungshorizont 2025–2030; Neubau neu: graue-Energie-Grenzwerte,
-rein erneuerbare Waermeerzeugung, mehr Eigenstrom), **ZH-Ueberfuehrung Stand 18.06.2026 ausstehend**.
-ZH-PDF (EN-ZH Juli 2022, EN-110-ZH Sept 2022) tragen «gueltig bis 31.12.2025» → ab 2026
-EVEN-Version verwenden.
+EnDK-Plenarversammlung **29.08.2025** verabschiedet (Umsetzungshorizont bis 2030; Neubau neu: graue-
+Energie-THG-Grenzwert nach Minergie-Reglement ab 01.01.2025, vollstaendig erneuerbare Waerme,
+**Eigenstrom 20 W/m² EBF** statt 10). **ZH-Ueberfuehrung Stand 04.07.2026 weiter ausstehend** — bis
+dahin gilt weiterhin MuKEn 2014 (Eigenstrom 10 W/m²). Details/Artikel-Nummern →
+`[[energie-energienachweis-zh-formulare]]` §Datenstand. ZH-PDF (EN-ZH Juli 2022, EN-110-ZH Sept 2022)
+tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden.
 
 ## Offen (→ QUESTIONS)
 - ✓ **D4 erledigt** (2026-06-12): Fachformular-Liste belegt → `[[energie-energienachweis-zh-formulare]]`.
 - ✓ **E6 erledigt** (2026-06-18): Brandschutz/Naturgefahren Solar → `[[energie-pv-brandschutz]]`.
 - ✓ **D7 erledigt** (2026-06-26): Private Kontrolle Energie ZH → `[[energie-private-kontrolle-zh]]`.
 - ~ **D5 teil-erledigt** (2026-06-18): Benchmark-Tabelle Typ A/E/Flachdach belegt; Typ B/C/D offen.
-- ~ **D8/D1 teil** (2026-06-26): graue-Energie-Planungsgrundlage erfasst (SIA 2040 + JANS-Benchmark);
-  ZH-Grenzwert MuKEn 2025 nachziehen, sobald kant. Gesetz/Verordnung publiziert.
-- D6: EVEN-Bedienung am realen KISPI-Fall dokumentieren (Maskenfuehrung/Rollen).
+- ~ **D8/D1 teil** (2026-07-04): graue-Energie-Planungsgrundlage + MuKEn-2025-Neuerungen belegt
+  (SIA 2040 + JANS-Benchmark; MuKEn 2025 = THG-Grenzwert nach Minergie-Reglement, Eigenstrom
+  20 W/m²); konkreter **ZH-Grenzwert** nachziehen, sobald kant. Gesetz/Verordnung publiziert.
+- ✓ **D6 erledigt** (2026-07-04): EVEN-Bedienung (Rollen/Ablauf/Statusmodell/Beilagen/Private
+  Kontrolle) aus EnDK-Schulung V1.4 → `[[energie-even-plattform-bedienung]]`; offen nur noch
+  realer JANS-Screenshot-Walkthrough am KISPI-Fall.
 - Kandidat: eigenes Skill `energie-nachweis`, sobald die Domaene traegt (D3).

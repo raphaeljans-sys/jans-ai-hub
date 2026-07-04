@@ -23,6 +23,11 @@ Projekt-Nachweises** fuehrt, und die Detailformulare EN-105 / EN-110-ZH. Faktenb
 **EN-101 bis EN-141 liegt jetzt komplett auf der EVEN-Plattform** und wird dort digital
 ausgefuellt/eingereicht — die einzelnen PDF zum Download entfallen.
 
+> **Bedienung von EVEN** (Rollen Projektkoordination/Nachweisverfassung, Projektstruktur je EGID,
+> Ablauf, Statusmodell, Freigabe-Kaskade, Beilagen-Upload, Private Kontrolle) → eigener Artikel
+> **`[[energie-even-plattform-bedienung]]`** (belegt 2026-07-04 aus der EnDK-Schulung V1.4). ZH ist
+> ein **Kanton mit Privater Kontrolle**; alle Kantone ausser BE + FL nehmen an EVEN teil.
+
 **Weiterhin als PDF** (nicht in EVEN integriert, Stand 06/2026):
 - **Energienutzungs-Deklaration fuer geringfuegige Umbauten** (PL-04, Version 2022)
 - **WTA — Waermetechnische Anlagen** (Version 01-2024; ⚠ traegt «gueltig bis Ende 2025»)
@@ -151,11 +156,19 @@ bei Neubau **kein** EN-110 (EN-ZH →5).
   EVEN. Vor jeder Einreichung die in EVEN hinterlegte Version verwenden.
 - ⚠ EN-105 (EnDK Aug 2017) gueltig bis 31.12.2026 — laeuft Jahresende aus; EnDK-Nachfolgeversion
   zum Jahreswechsel pruefen (`endk.ch`).
-- ⚠ **MuKEn 2025:** von der EnDK **08/2025** verabschiedet (5. Auflage, Umsetzungshorizont
-  2025–2030). Neubau-Neuerungen: **Grenzwerte fuer graue Energie**, **rein erneuerbare
-  Waermeerzeugung**, **erhoehte Eigenstromerzeugung**. **ZH-Ueberfuehrung** ins kant.
-  Energiegesetz (Stand 18.06.2026) **noch ausstehend** — bis dahin gilt EnerG/MuKEn 2014 ueber
-  EVEN. ZH-Fassung verfolgen (zh.ch «Umsetzung MuKEn 2025»). (belegt endk.ch / energiehub-gebaeude.ch)
+- ⚠ **MuKEn 2025:** von der **EnDK-Plenarversammlung am 29.08.2025** verabschiedet (Umsetzungs-
+  horizont **bis 2030**, Basismodul materiell unveraendert zu uebernehmen). Konkrete Neubau-
+  Neuerungen (belegt energiehub-gebaeude.ch, 04.07.2026): **Waermebedarf vollstaendig erneuerbar/
+  Abwaerme** (Art. 1.28, ersetzt Energiebedarfsrechnung); **Eigenstrom neu min. 20 W/m² EBF**
+  (Art. 1.25 — Verdoppelung ggü. heute 10 W/m²!); **Grenzwert graue Energie** in Treibhausgas-
+  Emissionen (Erstellung + Rueckbau, Art. 1.39), Nachweis **gemaess Minergie-Reglement Fassung ab
+  01.01.2025**, gilt Neubau + neubauartige Umbauten/Auskernungen, **<50 m² neue EBF befreit**
+  (Art. 1.40). Bestand: Waermeerzeugerersatz vollstaendig erneuerbar (Ausnahme ≥25 % hoehere LCC →
+  min. 20 %); zentrale Elektroheizungen mit Wasserverteilung **Sanierungspflicht 5 statt 15 Jahre**;
+  Dachsanierung ab 50 m² → 10 W/m² EBF Eigenstrom. **ACHTUNG:** dies ist die **Mustervorschrift** —
+  sie gilt erst nach Ueberfuehrung ins **kant. ZH-Energiegesetz** (Stand 04.07.2026 **weiter
+  ausstehend**). Bis dahin gilt EnerG/MuKEn 2014 ueber EVEN (Eigenstrom weiterhin **10 W/m² EBF**,
+  siehe EN-104 oben). ZH-Fassung verfolgen (zh.ch «Umsetzung MuKEn 2025»).
 - ✓ **D5 teil-erledigt** (2026-06-18): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
   `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/E + Flachdach belegt; Typ B/C/D offen).
 - Offen: konkrete **EVEN-Bedienung** (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde) am

@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-04 — Training Run 14 (Energie/PL-04): NEU EVEN-Bedienungsartikel (D6) · MuKEn-2025-Praezisierung
+- Schwerpunkt **Energie** (Rotation: Run 13 Kartenportale → Run 14 Energie, Prioritaetsdomaene).
+  Connector-Schritt: **nein** (Energie hat keinen Connector). Quellen: EnDK-Schulung «EVEN —
+  Bewilligungsbehoerden Kantone mit Privater Kontrolle» V1.4 (13.10.2025, 68 Folien); AG-Schulung
+  v0.40; zh.ch/energienachweise; energie-zentralschweiz.ch/vollzug/even; energiehub-gebaeude.ch.
+- **D6 — EVEN-Bedienung erschlossen (Luecke geschlossen):** EVEN (`energievollzug.ch`) ist seit
+  01.01.2026 der verbindliche ZH-Kanal, war aber nur als «Fakt» dokumentiert, nicht in der Handhabung.
+  NEU **[[energie-even-plattform-bedienung]]** (established): was EVEN ist/abdeckt, Teilnehmer (alle
+  Kantone ausser BE + FL), **Projektstruktur** (Projekt→Gebaeude je EGID→Zone→Teilnachweis), **Rollen**
+  (Projektkoordination/Nachweisverfassung; Vollzugsverantwortung/interne+externe Pruefer; **Private
+  Kontrolle** fuer ZH; Admin), **Ablauf Happy Case**, **Aktionen** (Nachtrag/Beanstandung/Ausfuehrungs-
+  +Vollzugskontrolle), **Statusmodell + Freigabe-Kaskade** (Bewilligungs-/Baufreigabe-/Bezugsbereit),
+  Portalfunktionen (kein Undo/Offline, alles protokolliert, GWR-Anbindung), JANS-Merkposten (KISPI).
+- **D1/E5/D8 — MuKEn 2025 praezisiert:** Verabschiedung **EnDK-Plenum 29.08.2025** (statt grob
+  «08/2025»); Neubau neu **Eigenstrom 20 W/m² EBF** (Art. 1.25, Verdoppelung ggü. 10), Waerme
+  vollst. erneuerbar (Art. 1.28), **graue-Energie-THG-Grenzwert** nach Minergie-Reglement ab
+  01.01.2025 (Art. 1.39-40, <50 m² EBF befreit), Elektroheizung-Sanierungspflicht 5 J. Klar getrennt:
+  **ZH-Ueberfuehrung Stand 04.07.2026 weiter ausstehend** → geltend bleibt MuKEn 2014 (10 W/m²).
+  Eingearbeitet in [[energie-energienachweis-zh-formulare]] + [[energie-uebersicht]].
+- Register: INDEX (+EVEN-Artikel, MuKEn-Praezisierung), QUESTIONS (D6 ✓, D8/D1 Update), curriculum
+  (E5 praezisiert, E10 EVEN ✓), raw/_INGESTED (Schulung V1.4 + Web-Quellen). Output: `outputs/
+  2026-07-04_training-run14.md`. **Offen:** D5 Typ B/C/D, KISPI-EVEN-Screenshot-Walkthrough.
+
 ## 2026-07-02 — Training Run 13 (Kartenportale/PL-01): NEU GWR-Artikel · GVOLNORM/GVOLSCE-Decode im Connector (getestet)
 - Schwerpunkt **Kartenportale** (Rotation: Run 12 Brandschutz → Run 13 Kartenportale, Prioritaets-
   domaene). Connector-Schritt: **ja** (`gwr-bund.mjs` erweitert + getestet). Quellen: Merkmalskatalog

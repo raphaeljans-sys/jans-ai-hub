@@ -22,7 +22,8 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 
 ## Energie (PL-04)
 - [[energie-uebersicht]] — Einstieg: U-Wert (→ KB energie), Energienachweis ZH/EN-ZH, EVEN · **established**
-- [[energie-energienachweis-zh-formulare]] — EN-ZH Fachformular-Liste (EN-101…EN-141/S/LN), Detail EN-104 (Eigenstrom)/EN-105/EN-110-ZH, EVEN-Plattform 2026, MuKEn 2025 · **established**
+- [[energie-energienachweis-zh-formulare]] — EN-ZH Fachformular-Liste (EN-101…EN-141/S/LN), Detail EN-104 (Eigenstrom)/EN-105/EN-110-ZH, EVEN-Plattform 2026, MuKEn 2025 (Verabschiedung 29.08.2025, Eigenstrom 20 W/m², graue-Energie-THG-Grenzwert) · **established**
+- [[energie-even-plattform-bedienung]] — **EVEN-Bedienung** (`energievollzug.ch`): Rollen (Projektkoordination/Nachweisverfassung/Vollzugsverantwortung/Interne+Externe Pruefung/**Private Kontrolle**), Projektstruktur je EGID, Ablauf «Happy Case», Aktionen (Nachtrag/Beanstandung/Ausfuehrungs-/Vollzugskontrolle), Statusmodell + Freigabe-Kaskade, Beilagen-Upload; Seed EnDK-Schulung V1.4 (13.10.2025) · **established**
 - [[energie-pv-eignung-typenwahl]] — PV-Typen A–E, Eignung/Ertrag-Werkzeuge, Benchmark-Tabelle kWh/kWp & CHF/kWp (Typ A/E/Flachdach) · **established**
 - [[energie-pv-brandschutz]] — Brandschutz/Naturgefahren Solar (Swissolar-STP zu VKF-BSM 2001-15): Brandmauer-Uebergang, RWA-Abstand, Feuerwehr ≥30 kW, Hagel/Schnee SIA 261 · **established**
 - [[energie-private-kontrolle-zh]] — Private Kontrolle Energie ZH: wer den Energienachweis zeichnet (Befugnisbereiche Wä/He/Kl/Bl/Lä ↔ EN-Formulare), drei Unterschriften (BBV I § 4 / BVV § 6), interkantonale Geltung (SZ nur natuerliche Personen), Minergie-Abkuerzung · **established**

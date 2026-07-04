@@ -140,8 +140,16 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   kWh/kWp**; CHF/kWp typabhaengig **~2'000–7'400**. **Offen Typ B/C/D** (Dachziegel/transparent/
   Fassade) als belegter CHF-Benchmark; SolarApp = Vorprojekt-Schaetzung, an Schlussabrechnung
   verifizieren.
-- [ ] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload) am
-  realen KISPI-Fall dokumentieren, sobald der Nachweis dort gefuehrt ist. (neu 2026-06-12)
+- [x] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload).
+  ✓ **2026-07-04 (Run 14):** aus EnDK-Schulung V1.4 (13.10.2025, Kantone mit Privater Kontrolle)
+  belegt — **Rollen** (Projektkoordination legt an/reicht ein/beauftragt PK · Nachweisverfassung
+  fuellt Teilnachweise · Vollzugsverantwortung/Interne+Externe Pruefung · **Private Kontrolle** nur
+  in PK-Kantonen wie ZH · Admin-Rollen), **Projektstruktur** (Projekt→Gebaeude je EGID→Zone→
+  Teilnachweis), **Ablauf** Login→Projekt→Gebaeude→Teilnachweis verfassen+Beilagen→einreichen→
+  Pruefung→abschliessen, **Aktionen** Nachtrag(Teilnachweis)/Beanstandung(Projekt)/Ausfuehrungs-/
+  Vollzugskontrolle, **Statusmodell** + **Freigabe-Kaskade** (Bewilligungs-/Baufreigabe-/Bezugsbereit),
+  kein Undo/kein Offline/alles protokolliert, GWR-Anbindung → NEU [[energie-even-plattform-bedienung]].
+  Teilnehmer: alle Kantone ausser BE + FL. **Offen:** realer JANS-Screenshot-Walkthrough am KISPI-Fall.
 - [x] **D7** Private Kontrolle Energie ZH: wer unterzeichnet den Energienachweis, welche Befugnis
   deckt welches EN-Formular? ✓ **2026-06-26 (Run 10):** Merkblatt Baudirektion ZH/AWEL «Liste der
   Befugten» (Stand April 2025) + BBV I § 4-7 (LS 700.21) — drei Unterschriften (Bauherr Hauptformular
@@ -152,8 +160,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
 - [~] **D8 / D1** Graue Energie / THGE als ZH-Grenzwert (Pa.Iv. 20.433 → MuKEn 2025). **Stand
   2026-06-26 (Run 10):** Planungsgrundlage erfasst — SIA-2040-Richtwerte Wohnen + reales JANS-
   Oekobilanz-Deliverable (Schlierenweg 31, ZPF 28.03.2022) → [[energie-uebersicht]] §Graue Energie;
-  **Methodik-Tiefe in KB `wissen/energie` [[graue-energie]]** (kein Doppel). **Offen:** konkrete
-  ZH-Gesetzes-/Verordnungsfassung mit graue-Energie-Grenzwert nachziehen, sobald publiziert.
+  **Methodik-Tiefe in KB `wissen/energie` [[graue-energie]]** (kein Doppel). **Update 2026-07-04
+  (Run 14):** MuKEn-2025-Neuerungen praezise belegt (energiehub-gebaeude.ch) — Verabschiedung
+  **EnDK-Plenum 29.08.2025**; graue Energie = **THG-Grenzwert** (Erstellung + Rueckbau, Art. 1.39),
+  Nachweis **nach Minergie-Reglement Fassung ab 01.01.2025**, Neubau + neubauartige Umbauten,
+  **<50 m² neue EBF befreit** (Art. 1.40); dazu **Eigenstrom 20 W/m² EBF** (Art. 1.25, statt 10),
+  Waerme vollstaendig erneuerbar (Art. 1.28) → [[energie-energienachweis-zh-formulare]] §Datenstand.
+  **Offen (weiterhin):** konkrete **ZH-Gesetzes-/Verordnungsfassung** (Ueberfuehrung Stand 04.07.2026
+  ausstehend) — bis dahin gilt MuKEn 2014 (Eigenstrom 10 W/m²).
 
 ## E — Connector/Tooling
 - [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt
