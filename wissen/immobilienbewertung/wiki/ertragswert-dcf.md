@@ -1,8 +1,8 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-07-02
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11]
+last_updated: 2026-07-04
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12; SenioResidenz AG Geschaeftsbericht 2017 19.02.2018 — Healthcare-Investoren-Fall impl. Brutto-Yield ~5.3 %, WP-DCF-Bewertung, Finanzierungsstruktur, Run 13; BFS «Indikatoren der Pflegeheime 2019-2021» Mai 2023 BFS-Nr. 1552-2100 — Beherbergungskosten 10'035 CHF/Mt, Ertrags-/Finanzierungsstruktur, Belegung/Defizitquote, Run 13; NZZ/Curaviva Pflegekosten 13.11.2023 — Kostenstruktur Pension/KVG-Pflege/Betreuung, Run 13), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11; WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026) — Gewerbe-Feinabstufung D3-Rest Run 13]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
 
@@ -207,9 +207,10 @@ nicht (sie liegen ohnehin am unteren Rand), bestaetigt aber die Tieflage des Zin
 | Wohnen — andere Stadtzentren | **2.3-2.5 %** | WP S. 52 | belegt |
 | Wohnen — Durchschnittsgemeinde (Neubau) | **2.6-2.8 %** | WP S. 52/55; JANS lebt **2.70 %** (Residualwert) | belegt |
 | Wohnen — schlechte/teils leerstehende Altbauten | **3.0-3.3 %** | WP S. 55 | belegt |
-| Geschaeft/Gewerbe (Buero) | **2.7-3.8 %** (Wohnen + 0.6-1.5 Pp) | WP S. 55/117 | belegt |
-| Spezial/Risiko (Hotel, EKZ schlechte Lage) | **> 3.8 %** | WP S. 55 (Band offen) | belegt |
-| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 % real** (*Annahme*: Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag); JANS-Arbeitsnotiz nennt nominal 4-8 %; realer Herosé-Fall verankert die **Annuitaetsseite** (33 J / BWO 1.25 % → ~4 % Annuitaetsfaktor, kostenbasierte Taxe, s.o.) | realer CH-Fall Pflegeheim Herosé Aarau (2021) + Skill healthcare-wirtschaftlichkeit; JANS-Notiz Disskontierung.docx | *emerging* — Kosten-/Annuitaetsseite belegt (T17), Investoren-Markt-Diskont noch anzueichen |
+| Geschaeft/Gewerbe (Buero, gute Lage) | **2.7-3.5 %** (Wohnen + ~0.6-1.0 Pp) | WP S. 55/117; Buero stabilisiert (Angebotsmieten 2026 +0.5 %) | belegt |
+| Detailhandel/Verkauf (gute Lage) | **~3.3-3.8 %** (Wohnen + ~1.2-1.5 Pp) | WP S. 55; Detailhandel unter Online-Strukturdruck (Mieten 2026 −1.5 %) | belegt (Segment-Richtung) |
+| Spezial/Risiko (Hotel, EKZ/Verkauf schlechte Lage) | **> 3.8 %** | WP S. 55 (Band offen) | belegt |
+| **Healthcare (Pflege/Klinik)** | **~3.0-4.0 % real** (Wohnen + Betreiber-/Spezialnutzungs-/Fungibilitaetszuschlag); Investoren-Markt-Seite belegt: **impliziter Brutto-Yield ~5.3 % (2017)** — Healthcare-Brutto ~2 Pp ueber Wohnen; Annuitaetsseite Herosé (33 J / BWO 1.25 % → ~4 % Faktor) | realer CH-**Investoren**-Fall SenioResidenz AG (GB 2017, WP-DCF) + realer CH-**Kosten**-Fall Pflegeheim Herosé (2021) + Skill healthcare-wirtschaftlichkeit | **belegt** (T17 geschlossen: Kosten- UND Investoren-Markt-Seite; ⚠ Yield-Stand 2017, real-Satz aus Brutto ableiten) |
 
 **Real vs. nominal (Fisher):** Die obigen Saetze sind **real** und werden auf **real konstante**
 Mieten angewendet (CH-Standard WP/IAZI). Wer **nominal** rechnet (Mieten mit erwarteter Teuerung
@@ -223,10 +224,23 @@ mischen** (haeufigster DCF-Fehler).
 Die Satzwahl ist die heikelste Annahme — im Band bleiben, nie scheingenau auf 1 Bp, und die
 Wahl gegen Makrolagen-Rating + Brutto-/Nettorendite-Gegenprobe plausibilisieren.
 
-**Noch offen (echte Bring-Schuld Raphael, D3):** die **JANS-eigenen Faustregeln** fuer den
-Illiquiditaets-/Objektzuschlag (oben als *Annahme* ausgewiesen), die **Gewerbe-Feinabstufung**
-je Mietersegment und der **Healthcare-Zuschlag** (real, sobald ein Pflegeheim-Bewertungsfall
-vorliegt, T17). Die *belegten* Zeilen sind damit abschliessend; die *Annahme*-Zeilen warten auf
+**Gewerbe-Feinabstufung je Mietersegment (D3-Rest, Segment-Richtung belegt, Run 13):** Der
+pauschale WP-Gewerbezuschlag «+0.6 bis +1.5 Pp ueber Wohnen» (S. 52/55) laesst sich nach
+**Mietersegment** ordnen — je fungibler/nachfragestabiler die Flaeche, desto tiefer der Zuschlag:
+- **Buero gute Lage:** unteres Ende (+~0.6-1.0 Pp). Angebotsmieten 2026 **+0.5 %** (WP), zentrale
+  Lagen stabil (Tech/Finanz), aber Flaechenbedarf/MA sinkt (Home-Office) → moderates Ertragsrisiko
+  ([[investorenmarkt-makro]] Bueromarkt ZH).
+- **Detailhandel/Verkauf gute Lage:** oberes Ende (+~1.2-1.5 Pp). Angebotsmieten 2026 **−1.5 %**
+  (WP) unter **strukturellem Online-Handel-Druck** → hoeheres Ertrags-/Leerstandsrisiko.
+- **Verkauf schlechte Lage / EKZ / Hotel / Spezialnutzung:** > +1.5 Pp (WP-Risikoklasse S. 55).
+Damit ist die Gewerbe-Feinabstufung als **Segment-Reihenfolge belegt** (WP-Prognose-Divergenz
+2026); die praezise Pp-Kalibrierung je Segment bleibt Raphaels Bring-Schuld.
+
+**Noch offen (echte Bring-Schuld Raphael, D3):** die praezise Pp-Kalibrierung der **JANS-eigenen
+Faustregeln** fuer den Illiquiditaets-/Objektzuschlag (oben als *Annahme* ausgewiesen) und die
+Gewerbe-Segment-Zuschlaege (Reihenfolge belegt, s.o.). Der **Healthcare-Zuschlag** ist mit
+Run 13 auf **beiden Seiten belegt** (Kosten/Annuitaet Herosé + Investoren-Yield SenioResidenz,
+T17 geschlossen). Die *belegten* Zeilen sind damit abschliessend; die *Annahme*-Zeilen warten auf
 Raphaels Kalibrierung.
 
 ### JANS-Diskontsatz-Dekomposition + Betriebskosten-Pauschale (belegt, R. Jans 31.12.2023)
@@ -361,6 +375,99 @@ kapitalisiert; der reale Herosé-Fall verankert die **Annuitaetsseite** (33 J / 
 ~4 % Annuitaetsfaktor auf die Investition), die die untere Grenze der Betreiber-Miete markiert.
 Die eigentliche Rendite-/Sensitivitaetsrechnung fuehrt der Skill `healthcare-wirtschaftlichkeit`
 (WALD 2410: Bruttorendite ~6.8 %, Nettorendite via Annuitaet ~1.1 %).
+
+### Healthcare-Investoren-Markt-Diskont — realer CH-Fonds-Fall (SenioResidenz, belegt 2017)
+
+Der Herosé-Fall (oben) belegt die **Kosten-/Annuitaetsseite** (was das Heim intern amortisieren
+muss). Die **Investoren-Marktseite** — was ein Anleger fuer eine Healthcare-Liegenschaft
+bezahlt bzw. mit welcher Rendite er die Betreiber-Miete kapitalisiert — schliesst der
+Geschaeftsbericht der **SenioResidenz AG** (GB 2017, Publikation 19.02.2018, testiert PwC,
+Immobilienbewertung Wuest Partner). Das ist genau das fuer T17 gesuchte **Verkaufs-/Fondsmodell**
+(vgl. Nova/Tertianum): ein reiner Immobilien-**Investor**, der Healthcare-Objekte haelt und an
+Betreibergesellschaften **vermietet/verpachtet** (nicht selbst betreibt).
+
+**Belegter Fall (Datenstand 31.12.2017):**
+- SenioResidenz AG, Immobiliengesellschaft Sitz Zuerich, gegruendet 06.10.2017; Geschaeftsmodell:
+  Investition in Seniorenresidenzen/Pflegeeinrichtungen/Kliniken/Aerztehaeuser, verpachtet an
+  Betreiber (S. 1/2/12). Keine eigenen Mitarbeitenden (Betreiber-Miete = reiner Immobilien-Ertrag).
+- Portfolio per 31.12.2017: **eine** Seniorenresidenz in Presinge GE (37 Zimmer, 61 Betten;
+  Grundstueck 17'610 m2; Baujahr 1937, Renov. 1989/2014), erworben 11.2017 (S. 1/4/15/27).
+- **Soll-Mietertrag (Investoren-Miete) TCHF 1'145 p.a.** (S. 1); **Marktwert (Fair Value) CHF
+  21'750'000** per 31.12.2017 (Wuest Partner, DCF, S. 8/15/27).
+- **Impliziter Investoren-Yield:** 1'145'000 / 21'750'000 = **Brutto-Sollrendite ≈ 5.26 %**;
+  abzgl. direktem Liegenschaftsaufwand (annualisiert ~55'000) **Nettorendite grob ~5.0 %**
+  (Rechenhilfe, im Bericht nicht ausgewiesen).
+- **Bewertungsmethode:** Wuest Partner, **DCF ueber 100 Jahre**, «marktgerechte Diskontierung
+  pro Liegenschaft in Abhaengigkeit ihrer individuellen Chancen und Risiken» (S. 26/27) —
+  objektindividueller, risikogerechter Satz. ⚠ **Der angewandte numerische Diskont-/
+  Kapitalisierungssatz wird NICHT genannt** (unsicher; nur die Methodik ist belegt).
+- **Finanzierungsstruktur:** Hypothek 9.0 Mio gegen Marktwert 21.75 Mio = **Belehnung ~41 %**
+  (Reglement max. 75 %, Ziel langfristig max. 60 %); **EK-Quote 54 %**; Hypothekarzins **3.3 %**
+  (2017); NAV/Aktie CHF 47.41 (S. 5/8/17).
+
+**Durabel fuer die Bewertung (T17 Investoren-Markt-Seite geschlossen):**
+- Der **implizite Brutto-Investoren-Yield einer Healthcare-Renditeliegenschaft lag bei ~5.3 %
+  (2017)** — deutlich **ueber** dem Wohnbau-Brutto derselben Zeit (~3.1 % 2022,
+  [[investorenmarkt-makro]]). Der **Healthcare-Aufschlag** gegenueber Wohnen ist damit real
+  belegt: Betreiber-/Klumpen-/Fungibilitaetsrisiko und Spezialnutzung fordern eine hoehere
+  Anfangsrendite (= hoeherer Kapitalisierungs-/Diskontsatz).
+- Bewertet wird die **nachhaltige Netto-Betreiber-Miete** (nicht die Bewohner-Taxe) mit einem
+  Healthcare-Diskontsatz kapitalisiert; der Herosé-Fall verankert die untere Grenze der
+  Betreiber-Miete (Annuitaet), SenioResidenz die realisierte Investoren-Rendite darauf.
+- ⚠ **Datenstand 2017/2018 (~8-9 J alt)** — nur als historischer Anker; die Groessenordnung
+  (Healthcare-Brutto > Wohnbau-Brutto um ~2 Pp) ist der durable Befund, nicht der Absolutwert.
+  Der Fall bestaetigt zudem die tiefe Belehnung (40-60 %) als Healthcare-Standard.
+
+### Pflegeplatzkosten-Struktur — die Ertragsseite pro Bett (BFS + Curaviva, belegt 2021/2023)
+
+Damit die Betreiber-Miete/Taxe eines Pflegeheims plausibilisiert werden kann, muss man die
+**Kostenstruktur pro Pflegeplatz** kennen — welcher Teil auf die Liegenschaft (Hotellerie/
+Pension) und welcher auf die Pflege (KVG) entfaellt. Zwei belegte, deckungsgleiche Quellen:
+
+**1. Amtliche Benchmark (BFS «Indikatoren der Pflegeheime 2019-2021», Mai 2023, SOMED-
+Vollerhebung — BFS-Nr. 1552-2100):**
+- **Monatliche Beherbergungskosten pro Heimbewohner: CHF 10'035 (2021)** (2019: 9'385; 2020:
+  9'744 — steigend). Zentraler Kostenkennwert pro Bewohner/Monat.
+- **Ertragsstruktur 2021** (ohne Subventionen): **Pensionstaxen 5.72 Mrd = 55.4 %**,
+  **Pflegetaxen 4.33 Mrd = 42.9 %**; Subventionen der oeffentlichen Hand 412 Mio (−27 % YoY).
+- **KVG-Pflegefinanzierung 2021:** Krankenversicherer **46.8 %**, Klienten **14.2 %**, Kantone
+  (Restfinanzierung) **39.0 %**. Gesamtsystem-Finanzierung: Klienten 61 %, Versicherer 20 %,
+  oeffentliche Hand 19 %.
+- **Betriebskennwerte** (bewertungsrelevant): Belegung Langzeit **89.6 %** (2021, pandemie-
+  gepraegt; 2019 noch 94.3 %), **Personaldichte 1.0 VZAe/Platz**, Ø Aufenthaltsdauer **2.4 J**
+  (2021; 48 % < 1 Jahr). **60 % der Pflegeheime schrieben 2021 Verlust** (oeffentliche 78 %);
+  Gesamtverlust 503.6 Mio — Ertragslage strukturell duenn.
+- **Struktur/Konzentration:** 1'543 Heime (2021, −22 vs. 2019), 96'758 Langzeitplaetze;
+  Betriebsgroesse oeffentlich Ø 76 / privat 58 Plaetze; Rechtsform Stiftung 29 %, **AG 24 %**;
+  **6 Grossunternehmen halten >10 % aller Heime**. Versorgungsdichte sinkt: Plaetze je 100
+  Einw. 80+ **20.5 CH** (ZH 22.2) — deckt sich mit der Obsan-Angebotsluecke ([[investorenmarkt-makro]]).
+
+**2. Kostenstruktur pro Platz/Monat (NZZ/Curaviva, 13.11.2023) — Aufschluesselung der ~10'216
+CHF/Monat (Ø CH):**
+
+| Komponente | CHF/Monat | Traeger |
+|---|---|---|
+| **Pension** (Hotellerie/Wohnen) | **4'124** | Bewohner (Liegenschafts-Ertrag!) |
+| **KVG-Pflege** | **4'401** | Versicherer + Bewohner (max 23/Tag) + Gemeinde/Kanton |
+| **Betreuung** | **1'529** | Bewohner |
+| Uebrige | 162 | Bewohner |
+| **Total** | **~10'216** | |
+
+- **Bewertungsrelevant:** Nur die **Pension (Hotellerie ~4'124/Mt = ~135 CHF/Tag)** speist die
+  Liegenschaft — sie enthaelt die **Abschreibung/Annuitaet der Investition** (vgl. Herosé
+  Hotellerietaxe 153 CHF/Tag, davon ~44 CHF Abschreibung). Die KVG-Pflege ist Betreiber-/
+  Personalaufwand, kein Immobilien-Ertrag. Fuer den Healthcare-**Ertragswert** ist also die
+  **Hotellerie-/Pensionstaxe** (bzw. die daraus abgeleitete Netto-Betreiber-Miete) zu
+  kapitalisieren, nicht die Gesamttaxe.
+- KVG-Pflegebeitrag max **115.20 CHF/Tag** (Stufe 12, 9.60/Pflegestufe); Selbstbehalt max
+  **23 CHF/Tag**; Rest Gemeinde/Kanton. Eigenanteil Bewohner total Ø **~175 CHF/Tag ≈ 64'000/J**
+  (VZ, 2020); ~60 % der Bewohner auf Ergaenzungsleistungen angewiesen.
+
+⚠ Werte pandemiegepraegt (2021) bzw. Medienstand 2023; als Groessenordnung belastbar (BFS und
+Curaviva decken sich: ~10'000 CHF/Monat). Realer ZH-Entwicklungsfall dazu: das **Emilienheim
+Kilchberg** (Erweiterung ~25 Mio inkl. 15 quersubventionierenden Alterswohnungen +
+7-geschossigem Neubau; Gestaltungsplan rechtskraeftig 2024) — Alterswohnungen finanzieren den
+Pflegebetrieb quer, damit die Stiftung ohne oeffentliche Hand auskommt ([[projektstruktur-deliverables]]).
 
 ### JANS-Bewertungskonvention (aus realen Faellen belegt, Stand 06.2026)
 
@@ -532,6 +639,16 @@ Nettoertraege + Exitwert werden auf den Barwert abgezinst.
   KVG-/Hotellerie-Taxen-Trennung (Taxe 120→153 CHF/Tag), Spezialfinanzierung ueber Investitions-
   fonds, KoRe-Kostentraeger (ARTISET). Healthcare-Diskontzeile: **Kosten-/Annuitaetsseite belegt**
   (T17 weitgehend geschlossen); offen bleibt der Investoren-Markt-Diskont (Verkauf an Fonds).
+- ✓ 2026-07-04 (T17 geschlossen + D3-Rest, Run 13): **Healthcare-Investoren-Markt-Diskont mit
+  realem CH-Fonds-Fall belegt** — SenioResidenz AG (GB 2017): impliziter Brutto-Investoren-Yield
+  **~5.3 %** auf eine WP-DCF-bewertete Seniorenresidenz (Marktwert 21.75 Mio, Soll-Miete 1.145 Mio),
+  Healthcare-Brutto ~2 Pp ueber Wohnbau, tiefe Belehnung 40-60 % → D3-Healthcare-Zeile von
+  *emerging* auf **belegt** (Kosten- UND Investoren-Seite). **Pflegeplatzkosten-Struktur** (BFS
+  «Indikatoren Pflegeheime 2019-2021»: 10'035 CHF/Mt Beherbergungskosten, Ertragsstruktur
+  Pension 55 %/Pflege 43 %, Belegung 90 %, 60 % defizitaer; NZZ/Curaviva: Pension 4'124 /
+  KVG-Pflege 4'401 / Betreuung 1'529 CHF/Mt) → nur die Hotellerie-/Pensionstaxe speist die
+  Liegenschaft. **Gewerbe-Feinabstufung** je Mietersegment als Segment-Reihenfolge belegt (WP-2026:
+  Buero +0.5 % unten / Detailhandel −1.5 % oben).
 - Terminalwert-Multiplikator-Praxis; Excel-Formeln (D4, Freigabe offen).
-- **D3-Rest (Bring-Schuld):** Gewerbe-Feinabstufung je Mietersegment; Healthcare-**Investoren**-
-  Diskont aus einem realen Verkaufs-/Fondsfall (Kosten-/Annuitaetsseite ist mit Herosé belegt).
+- **D3-Rest (Bring-Schuld, praezisiert):** die exakte Pp-Kalibrierung der Gewerbe-Segment- und
+  Illiquiditaets-/Objektzuschlaege (Segment-Reihenfolge + Healthcare-Yield sind belegt).

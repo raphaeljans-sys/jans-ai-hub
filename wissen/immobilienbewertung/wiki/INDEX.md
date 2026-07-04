@@ -7,9 +7,9 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 - [[bewertungsverfahren-ueberblick]] — die vier Verfahren + Marktwert-Synthese · *established*
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern) · *established*
-- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Ertragsmodell (realer CH-Fall Herosé: Annuitaet/CURAVIVA/BWO-Zins) · *established*
+- [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %, Gewerbe-Feinabstufung je Segment), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Ertragsmodell (Kosten-Fall Herosé + Investoren-Fall SenioResidenz ~5.3 % Yield, Pflegeplatzkosten-Struktur) · *established*
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
-- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025, Healthcare-Neubau-Benchmark Herosé) · *established*
+- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025, Healthcare-Kostenband Pflegeheim Herosé + Spital CRB ~3'400-3'850 CHF/m2 GF) · *established*
 
 ## Gutachten-Produkt (WP-ueberlegen)
 
@@ -21,7 +21,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[flaechendefinitionen-sia]] — SIA 416:2003 normverankert (GSF/GF/NGF/HNF/KF/AGF + Volumen GV + Miet-/STWE-Flaechen FSN/FGN; Abgrenzung aGF/BGF/EBF) · *established*
 - [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil (LK-Schluessel + Tab. 8) · *established*
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
-- [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention + CS-Sensitivitaets-Generator (Break-Even-Formel) · *established*
+- [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention + CS-Sensitivitaets-Generator (Break-Even-Formel) + Healthcare-Bewertungsbruecke (T17 geschlossen: Kosten Herosé + Investor SenioResidenz) · *established*
 
 ## Marktdaten Gemeinden (UBS Fact Sheets, kompiliert)
 
@@ -41,7 +41,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 ## Markt & Konzept (Wuest-Kurs Module 2-4)
 
 - [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *established*
-- [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck, SREBI, Marktpuls 06.2026 · *established*
+- [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck, SREBI, Healthcare-Nachfrage (Obsan +54'335 Betten bis 2040), Marktpuls 07.2026 · *established*
 - [[erfolgsfaktoren-wettbewerb]] — 6 DXMA-Erfolgsfaktoren, Aufwertungsgewinn, A4-Bewertungsblatt · *established*
 
 ## Pflege

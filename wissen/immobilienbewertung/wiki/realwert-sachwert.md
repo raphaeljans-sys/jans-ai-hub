@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-02
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
+last_updated: 2026-07-04
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -170,6 +170,36 @@ effizientes Verhaeltnis Zimmerflaeche zu Gesamt-GF aus (116 x 23.7 = 2'749 m2 Zi
 10'452 m2 GF). ⚠ Stand 2021 → mit Baupreisindex aufindexieren (seit 2021 ~+5-8 %,
 [[investorenmarkt-makro]]); die Ertrags-/Annuitaetsseite dieses Falls steht in [[ertragswert-dcf]].
 
+### Healthcare-Kostenband erweitert — Spital (CRB werk-material, belegt Preisstand 2020.04)
+
+Fuer die obere Kante des Healthcare-Kostenbands (Spital/Klinik, installationsintensiver als
+Pflegeheim) liefert die CRB-Datenbank **werk-material** (Ausdruck 22.05.2021, BKP-Gliederung
+nach SIA 416, Kennwert je m2 GF) zwei reale CH-Spital-Referenzobjekte, alle auf **Preisniveau
+2020.04 Ostschweiz** normiert:
+
+| Objekt (Neubau) | Erstellungskosten CHF/m2 GF | Bauwerk CHF/m2 GF | GF | Fertigstellung |
+|---|---|---|---|---|
+| Frauenklinik Kantonsspital Luzern | **3'426** | 3'064 | 17'031 m2 | 2001 |
+| Universitaetsspital Zuerich, Mehrzweckbau Haldenbachstr. 14 | **3'767** | 2'271 | 2'888 m2 | 1993 |
+
+**BKP-Aufgliederung USZ-Mehrzweckbau (CHF/m2 GF, Preisstand 2020.04, ⚠ Altbau 1993):** BKP 1
+Vorbereitung 315, **BKP 2 Gebaeude 2'695** (davon Rohbau 1 = 966, Rohbau 2 = 312, Elektro 220,
+HLK/Automation 151, Sanitaer 164, Ausbau 1 = 216, Ausbau 2 = 191, Honorare 347), BKP 3
+Betriebseinrichtungen 265, BKP 4 Umgebung 86, BKP 5 Baunebenkosten 94, BKP 9 Ausstattung 173.
+
+**Einordnung Healthcare-Kostenband (alle GF-basiert, ⚠ unterschiedliche Preisstaende):**
+- **Pflegeheim** (Herosé, Preisstand 2021 Nordwestschweiz): BKP 2 = **3'848 CHF/m2 GF**.
+- **Spital** (CRB, Preisstand 2020.04 Ostschweiz): EK **3'426-3'767 CHF/m2 GF** — der USZ-Bau BKP 2
+  liegt mit 2'695 tiefer (Altbau 1993, weniger Technik als heute); die Frauenklinik (2001)
+  hoeher. Heutige Spitalbauten liegen deutlich hoeher (hoher Medizin-/Installationsgrad).
+- Damit ist das **Healthcare-Neubau-Kostenband ~3'400-3'850+ CHF/m2 GF (Preisstand 2020/21)**
+  belegt — Pflegeheim am unteren, Spital am oberen Rand; heute per Baupreisindex aufzuindexieren.
+
+⚠ **Grenzen der CRB-Quelle:** nur zwei Spital-Einzelobjekte (kein Pflegeheim, keine CHF/m3-
+oder CHF/Bett-Kennwerte), Preisstand 2020.04 Ostschweiz (nicht ZH), Fertigstellung 1993/2001 →
+per Baupreisindex hochgerechnet. Als Groessenordnung + BKP-Struktur belastbar, nicht als aktueller
+ZH-Ansatz. Die Betten-/Zimmer-Kennwerte liefert der Herosé-Fall (oben).
+
 ### Alterswertminderung (Schaetzungsanleitung Kap. 5, Tab. 9-11)
 
 Abzug fuer Alter/Abnutzung des Gebaeudes ueber die **Restnutzungsdauer**. Belegtes
@@ -221,5 +251,9 @@ Instandsetzungskosten decken koennen.
   stellung 55.8 Mio, Kennwerte BKP 2 = 1'105 CHF/m3 GV / 3'848 CHF/m2 GF / 346'681 CHF/Zimmer +
   Vier-Heim-Vergleich 337'000-418'000 CHF/Zimmer. Bestaetigt den Healthcare-Zuschlag (Pflege
   +20-25 % → ~3'850-4'000 CHF/m2 GF).
+- ✓ 2026-07-04 (Run 13): **Healthcare-Kostenband auf Spital erweitert** — CRB werk-material
+  (2 CH-Spital-Referenzobjekte: Frauenklinik KSL 3'426 / USZ-Mehrzweckbau 3'767 CHF/m2 GF +
+  BKP-Aufgliederung USZ, Preisstand 2020.04 Ostschweiz). Healthcare-Neubau-Kostenband nun belegt
+  bei **~3'400-3'850+ CHF/m2 GF** (Pflegeheim unten, Spital oben; Preisstand 2020/21).
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).

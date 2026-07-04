@@ -22,9 +22,24 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T17 | **Healthcare-Bewertung** — Kosten-/Annuitaetsseite ✓ **belegt** (Run 12, oeffentl. Herosé-Baukredit 2021: Erstellungskosten-Kennwerte + Annuitaets-/Taxenmodell CURAVIVA/BWO). **Rest offen:** ein realer Healthcare-**Verkaufs-/Fondsfall** fuer den Investoren-Markt-Diskont (Kapitalisierung der Betreiber-Miete beim Verkauf, z.B. Nova/Tertianum) — Bring-Schuld Raphael, sobald ein solches Deliverable vorliegt. Zudem noch ungelesen: Obsan 03/2022, SenioResidenz-Geschaeftsbericht (kuenftiger Lauf) | Skill healthcare-wirtschaftlichkeit / IMMO-06 Healthcare | [[projektstruktur-deliverables]], [[ertragswert-dcf]], [[realwert-sachwert]] |
+| T19 | **JANS-Healthcare-Kennwert-Raster befuellen** — das interne Blatt «Kennwerte von Alters-/Pflegeheime» (R. Jans 27.04.2024) definiert Wirtschaftlichkeitsfaktoren (Bettzahl, Bauvolumen/HNF, HNF/Bett, GF/Bett, Multiplikationsfaktoren) fuer 4 Referenzobjekte (Emilienheim Bestand/Erweiterung, Wald Tertianum Bestand/Szenarios), ist aber **leer**. Aufgabe: mit belegten Werten (BFS/NZZ + reale JANS-Faelle Wald/Emilienheim) befuellen; offene Fachfragen (rentable Mindest-Bettzahl, normale Heimgroesse, Effizienz-Grenze Multiplikationsfaktor) beantworten | IMMO-06 Healthcare (2411 JANS-Raster) + BFS/Obsan + Skill healthcare-wirtschaftlichkeit | [[projektstruktur-deliverables]], [[realwert-sachwert]] |
 
 ## Erledigt
+
+- ✓ 2026-07-04 **T17 vollstaendig geschlossen (Investoren-Markt-Seite)** (Run 13): Aus dem
+  **Geschaeftsbericht der SenioResidenz AG 2017** (reiner Healthcare-Immobilien-**Investor**,
+  WP-DCF-bewertet) den lang gesuchten realen CH-Fonds-/Verkaufsfall eingearbeitet: **impliziter
+  Brutto-Investoren-Yield ~5.3 %** (Marktwert 21.75 Mio / Soll-Miete 1.145 Mio) — Healthcare-Brutto
+  ~2 Pp ueber Wohnbau, tiefe Belehnung 40-60 % → D3-Healthcare-Zeile von *emerging* auf **belegt**
+  (Kosten- UND Investoren-Seite) → [[ertragswert-dcf]]. Dazu die **Pflegeplatzkosten-Struktur**
+  (BFS «Indikatoren Pflegeheime 2019-2021»: 10'035 CHF/Mt, Ertrag Pension 55 %/Pflege 43 %, Belegung
+  90 %, 60 % defizitaer; NZZ/Curaviva: Pension 4'124/KVG-Pflege 4'401/Betreuung 1'529 CHF/Mt — nur
+  Hotellerie speist die Liegenschaft) → [[ertragswert-dcf]]; **CH-Pflegebedarf-Prognose** (Obsan
+  03/2022: +69 %/+54'335 Betten bis 2040, Angebotsluecke) als Nachfragetreiber → [[investorenmarkt-makro]];
+  **Spital-Erstellungskosten** (CRB werk-material: 3'426-3'767 CHF/m2 GF) → Healthcare-Kostenband
+  ~3'400-3'850+ [[realwert-sachwert]]; **Gewerbe-Feinabstufung** je Mietersegment (WP-2026 Buero
+  +0.5 %/Detailhandel −1.5 %, Segment-Reihenfolge belegt) → [[ertragswert-dcf]]. Neue Aufgabe T19
+  (JANS-Kennwert-Raster befuellen).
 
 - ✓ 2026-07-02 **T17 (Kosten-/Annuitaetsseite) + Health-Check-Cleanup** (Run 12): Aus der bisher
   ungelesenen **oeffentlichen Healthcare-Bibliothek** (`IMMO-06/Healthcare/HEIM`, nicht D8-freigabe-

@@ -1,8 +1,8 @@
 ---
 title: Projektstruktur und Deliverables (LB/RW/MA/CS/TDD/STWE)
 status: established
-last_updated: 2026-07-02
-sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22; Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021) + Skill healthcare-wirtschaftlichkeit — Healthcare-Bewertungsbruecke T17 Run 12 2026-07-02]
+last_updated: 2026-07-04
+sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22; Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021) + Skill healthcare-wirtschaftlichkeit — Healthcare-Bewertungsbruecke T17 Run 12 2026-07-02; SenioResidenz AG GB 2017 (Healthcare-Investoren-Fall, impl. Brutto-Yield ~5.3 %) + BFS «Indikatoren Pflegeheime 2019-2021» + NZZ/Curaviva Pflegekosten + JANS-Kennwert-Raster «Alters-/Pflegeheime» (R. Jans 27.04.2024, Struktur) + Emilienheim Kilchberg (realer ZH-Erweiterungsfall) — T17 Investoren-Seite Run 13 2026-07-04]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -323,7 +323,7 @@ Durabler Befund: Beim **Renditeobjekt fuehrt der Ertragswert** (nicht Real-/Verg
 Bewertung endet in einer **Verhandlungsempfehlung gegen das konkrete Angebot** (Ertragswert-Band
 + impl. Rendite). Kaufpreispruefung-, Band- und Ausbau-Rendite-Logik im Detail: [[ertragswert-dcf]].
 
-## Healthcare-Bewertung — Bruecke zum Skill `healthcare-wirtschaftlichkeit` (T17)
+## Healthcare-Bewertung — Bruecke zum Skill `healthcare-wirtschaftlichkeit` (T17 geschlossen)
 
 Im Bewertungsordner `IMMO-01/01 BEWERTUNG PROJEKTE` existiert **kein dediziertes Pflegeheim-
 Bewertungs-Deliverable** (alle Faelle Wohnen/MFH/STWE; Wald 8636 ist Volumenstudie). Die
@@ -339,10 +339,30 @@ belegt am oeffentlichen Realfall Pflegeheim Herosé Aarau (2021, Run 12):
   **Annuitaet** der Investition (lineare Abschreibung **33 Jahre** nach CURAVIVA, kalkulatorischer
   Zins = **BWO-Referenzzinssatz**), getrennt nach KVG-Pflege (Restfinanzierung) und Hotellerie-/
   Betreuungstaxe (Bewohner). Rechenmodell + Realzahlen: [[ertragswert-dcf]] (Herosé-Fall).
+- **Investoren-Marktwert (T17 geschlossen, Run 13):** Wird die Healthcare-Liegenschaft an einen
+  Fonds/Investor verkauft, kapitalisiert dieser die **Netto-Betreiber-Miete** (nicht die
+  Bewohner-Taxe) mit einem Healthcare-Diskontsatz. Belegter Realfall: **SenioResidenz AG**
+  (Immobilien-Investor, GB 2017) hielt eine Seniorenresidenz zum WP-DCF-Marktwert 21.75 Mio bei
+  Soll-Miete 1.145 Mio → **impliziter Brutto-Yield ~5.3 %** (~2 Pp ueber Wohnbau), Belehnung
+  40-60 %. Rechenmodell + Zahlen: [[ertragswert-dcf]] (SenioResidenz-Fall). Damit ist T17 auf
+  **beiden Seiten** belegt (Kosten/Annuitaet Herosé + Investoren-Yield SenioResidenz).
 - **Deliverable:** Rentabilitaets-Memo/XLSX ueber Skill `healthcare-wirtschaftlichkeit`
   (Pflegeplatzkosten, Taxen × Belegung, Brutto-/Nettorendite via Annuitaet, Sensitivitaet),
-  nicht als LB/RW dieser KB. **Offen (T17-Rest):** ein realer Healthcare-**Verkaufs-/Fondsfall**
-  fuer den Investoren-Markt-Diskont (Kosten-/Annuitaetsseite ist mit Herosé belegt).
+  nicht als LB/RW dieser KB. Operating-Benchmarks fuer die Plausibilisierung (BFS 2021:
+  Beherbergungskosten 10'035 CHF/Mt, Belegung 90 %, 1.0 VZAe/Platz, 60 % defizitaer;
+  Kostenstruktur Pension/Pflege/Betreuung): [[ertragswert-dcf]].
+- **JANS-Healthcare-Kennwert-Raster (Arbeitsstand):** Das interne Blatt «Kennwerte von Alters-
+  und Pflegeheime» (R. Jans 27.04.2024) definiert die relevanten Wirtschaftlichkeitsfaktoren —
+  **Bettzahl, Bauvolumen/HNF, HNF/Bett, GF/Bett, Multiplikationsfaktoren** — mit den vier
+  Referenzobjekten Emilienheim (Bestand + Erweiterung) und Wald Tertianum (Bestand + Szenarios).
+  Das Raster ist noch **unbefuellt** (offene Fragen: rentable Mindest-Bettzahl, normale Heimgroesse,
+  ab wann der Multiplikationsfaktor die Effizienz nicht mehr treibt; «Fragen an Bopp» =
+  Projektentwickler-Sicht). Realer ZH-Entwicklungsfall dazu: **Emilienheim Kilchberg** —
+  Erweiterung ~25 Mio (Bauherren-/Medienangabe ~2019) mit 15 quersubventionierenden
+  Alterswohnungen + 7-geschossigem Neubau + 2. Fluegel; Gestaltungsplan (Waldabstand 23→15 m)
+  nach ~2.5 J Rekurs 2024 rechtskraeftig — Modell «Alterswohnungen finanzieren den Pflegebetrieb
+  quer, damit die Stiftung ohne oeffentliche Hand auskommt». Das Raster zu befuellen (Zahlen aus
+  BFS/NZZ + realen JANS-Faellen) bleibt eine offene T-Aufgabe.
 
 ## Output-Ablage (neue Bewertungen)
 
