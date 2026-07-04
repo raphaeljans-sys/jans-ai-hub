@@ -3,7 +3,7 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 03.07.2026 (Radar-Lauf; RE-00087 nun 78 Tage ueberfaellig, Zahlfrist 08.07. in 5 Tagen; Kalender + Mail-Eingang unveraendert; keine neuen Fristen. ag-gruendung-monitor 03.07.: kein Eingang UBS/Notariat/REGIX, AG-Eintraege unveraendert)
+Stand: 04.07.2026 (Radar-Lauf; RE-00087 nun 79 Tage ueberfaellig, Zahlfrist 08.07. in 4 Tagen; Kalender (bis 11.07.) + Mail-Eingang unveraendert, nur eine Graphax-Kreditorenrechnung ohne Handlungsbedarf; keine neuen Fristen, keine neuen Verzugsfaelle; Sync-Queue leer)
 
 Nachtrag Hub-Chef-Lauf 03.07.2026: bexio `--verzug` zeigt zwei NEUE offene KISPI-Rechnungen RE-00098 (CHF 13'600) + RE-00099 (CHF 3'680), beide faellig 20.07.2026 (noch kein Verzug) — aufgenommen. `--abgleich`: keine neuen Phantom-/Duplikat-Faelle (nur bekannte Altliste, 19 Pos.). Mail-Triagen (02.07., vom Routine-Radar als «andere Projekte» summiert): NEU Thalwil Naeherbaurecht 2414 (SBB/Tschopp), Scherbl-Nachreichung praezisiert, Steinmann-Ferien-Cutoff 06.07., eBaugesuche-Einladung Ladenflaeche, KISPI-SPOC-Festlegung (Schaefer). Zwei Antwort-Entwuerfe (SBB Wiedmer, Gruner Duran) via `korrektur`+`twin` (Fidelity 92) bereitgestellt im Briefing.
 
@@ -11,7 +11,7 @@ Nachtrag Hub-Chef-Lauf 03.07.2026: bexio `--verzug` zeigt zwei NEUE offene KISPI
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 78 Tage ueberfaellig — auf **Mahnung 1 (Stufe 2)** (bexio level 2), Zahlfrist **08.07.2026** (in 5 Tagen). Kein Zahlungseingang. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt klaeren) | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 79 Tage ueberfaellig — auf **Mahnung 1 (Stufe 2)** (bexio level 2), Zahlfrist **08.07.2026** (in 4 Tagen). Kein Zahlungseingang. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt klaeren) | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
 | 18.06.2026 | SharePoint-Online-Speicher voll (nun 1055.04 / 1054 GB belegt, Microsoft-Warnung erneut 24.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |

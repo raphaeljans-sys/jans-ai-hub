@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-04 — twin-mail-training (täglich): Batch 24, Sent Items rj@ 2026-01-16…01-22
+- Sweep-Fortschritt: abgedeckt bis **2026-01-22** (nächster Lauf ab 2026-01-23). 20 Mails gesichtet,
+  6 authentische RJ-Volltexte destilliert; Teams-Einladungen + 01-15-Mails (bereits Batch 23) ignoriert.
+  Alle Texte klar vor-Claude-Stil (handgetippte Typos «erkennt habe»/«Ihren Beschreibung»/«abgolbereit»),
+  vor-Claude-Stichtag in rj@ Sent Items weiter nicht erreicht.
+- Stilmetrik (357 W): Du-Gross 1.0, Satzlänge ø 13.2 W, Tausender-Apostroph 1× (15'000), Sie-lastig.
+- Neue belegte Marker: [[stimme]] wiederkehrender Service-Satz + «Frage:»-Opener + ehrlich-derbe Absage
+  («Abounwesen») + gesichtswahrend-bestimmte Klarstellung; [[beziehungsregister]] neuer Nova-AM Steinmann
+  startet Sie (trotz gleicher Rolle wie Angerer/Du) + Nesa/KHGP-Du-Partner (KISPI-Umnutzung) + 3D-Scan-
+  Lieferanten-Sie + gemischte-Stufe-Gruppen-Du «Geschätzter Christoph & Gerry»; [[haltung]] Kosten-Nutzen-
+  Disziplin bei Eigen-Anschaffung (Kauf abgesagt bei versteckter Abo-/Fixkosten-Falle) + zur Entscheidung
+  stehen ohne Streit; [[arbeitsweise]] Selbst-Fallback mit Beschaffungs-/Ausstiegsdisziplin + Offerte trotz
+  fehlender Grundlage mit transparenter Aufwand-Unsicherheit + aktive Netzwerkpflege ZSC/Essen;
+  [[fachsignatur]] Honorarmodell Kostendach + offene Stundenausweisung + Kurzzeitvermietungs-/Business-
+  Apartments-Bewilligungsrecht (Machbarkeit Albertstrasse 7, Nova). _INGESTED-Register + 5 Facetten-
+  last_updated aktualisiert.
+
 ## 2026-07-04 — twin-fidelity-review (alle 2 Tage): Gesamt-Fidelity 92
 - Goldproben (authentisch, vor-Claude, rj@ Sent Items) als **Gruss-Paradox-Triade** gezogen:
   Gold A formell-Sie Bauentscheid (Frau Hofer, 2025-12-01) · Gold B Du+Geld Rechnung (Hoi Peter

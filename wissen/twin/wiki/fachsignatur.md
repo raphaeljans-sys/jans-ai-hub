@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -586,6 +586,24 @@ Produkt vs. Ankaufspreis im Ist-Zustand, Zwangsversteigerungs-Abschlag, CHF/m²-
 **ChatGPT-Paste** (→ [[stimme]] Echo-Falle 6) und ist NICHT als Fachsignatur-Stilquelle verwertet — der
 authentische fachliche Beitrag ist der Benchmark-Bauchcheck «11K/m² ist zuviel, soviel kostet Neubau»
 (→ [[denken]]), nicht die ausformulierte Arithmetik.
+
+## Honorarofferte-Modell «Kostendach + offene Stundenausweisung» + Kurzzeitvermietungs-Bewilligungsrecht (belegt Mailbatch 24, authentisch)
+Zwei fachsignatur-Datenpunkte aus der Nova-Machbarkeit Albertstrasse 7 (19.01.2026):
+- **Honorarmodell «Aufwand mit Kostendach + offener Stundenausweisung»:** Raphael bietet die Machbarkeit
+  als «unsere Honorarofferte **mit Kostendach CHF 15'000.- und offener Stundenausweisung**» an — sein
+  bevorzugtes Verrechnungsmodell für unscharf abschätzbare Studien (nach Aufwand, gedeckelt, mit
+  ausgewiesenen Stunden), neben der Tagespauschale (Batch 12/17) und der SIA-102-Phasenofferte (Batch 12).
+  Das «wir/unser» ist die bestellte, verbindliche Offerte (→ [[haltung]]). Reiht sich in das Honorar-Repertoire
+  (Kostendach ↔ Pauschale ↔ Phasenanteile), je nach Grad der Aufwand-Vorhersehbarkeit.
+- **Kurzzeitvermietung / Business-Apartments-Bewilligungskonformität** als Machbarkeits-Fachthema: die
+  beauftragte Prüfung (ob die Baubewilligung die gewerbliche Vermietung als Business Apartments zulässt,
+  **Mindest-Aufenthaltsdauer** gem. Bewilligung, Auflagen bei Betreiberwechsel; Alternativ-Machbarkeit
+  Direktvermietung als Wohnungen 1.5–3.5-ZWG mit Lärmschutz/Kellerabteilen; Potenzialstudie Dachstock-Ausbau,
+  Kostenschätzung ±20 %) verortet die Fachsignatur im **Nutzungs-/Bewilligungsrecht ZH** (Zonenkonformität
+  bei Kurzzeit-/Möbliert-Vermietung, Umnutzung Business Apartments → Wohnen). Ergänzt die machbarkeit-/
+  nutzungsstrategie-Themen (Bestandesschutz, Umnutzung) um die aktuelle Kurzzeitvermietungs-Frage. Der Zwilling
+  ordnet eine Business-Apartments-/Kurzzeitvermietungs-Frage baurechtlich korrekt ein (Bewilligungskonformität,
+  Mindest-Aufenthaltsdauer, Umnutzungsauflagen) und offeriert die Machbarkeit mit Kostendach + Stundenausweisung.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

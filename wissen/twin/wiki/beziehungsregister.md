@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -510,6 +510,30 @@ ins Du überführen, hält aber im offenen Verfahren am Sie fest.
   Miro**» (Vorname wie Nachname behandelt) bzw. «**Guten Tag Herr Miro P. Quenson**» / «Beste Grüsse»,
   und das unbekannte Portal «**Guten Tag**» / «Freundliche Grüsse» + Block. Der Geräte-/Dienstleistungs-
   Lieferant bleibt Sie (vgl. Gregori/Hinder), auch wenn es um die eigene Ausrüstungsbeschaffung geht.
+
+## Neuer Nova-Kontakt startet Sie trotz identischer Rolle + neue Mappings (belegt Mailbatch 24, authentisch)
+Verstärkt «neue Person startet Sie, auch bei gleicher Firma UND gleicher Funktion» (vgl. Nova: Angerer/
+Asset-Manager Du ↔ Munch/Deputy Sie ↔ Siegel/Buchhaltung Sie):
+- **Roman Steinmann (roman.steinmann@novaproperty.ch, Asset Manager Nova, Machbarkeit Albertstrasse 7):**
+  Sie, «**Sehr geehrter Herr Steinmann**» + «Freundliche Grüsse» + voller Block (verbindliche Honorarofferte,
+  19.01.2026). Zweiter **Asset Manager** bei Nova neben Thomas Angerer — aber wo Angerer über die Zeit ins
+  reziproke Du kippte, startet der neue Steinmann formell Sie. Bestätigt: das Register spiegelt die konkrete
+  Person und die (erst zu erarbeitende) Vertrautheit, nicht das Rollen-Label «Asset Manager». Nova-Mapping nun:
+  Angerer/AM Du · Steinmann/AM Sie · Munch/Deputy Sie · Siegel/Buchhaltung Sie · Bopp (verbunden über
+  ZSC-Einladung) Du «Geschätzter Christoph».
+- **Nesa (info@khgp.ch, Partner-Architektur-/Planungsbüro KHGP, KISPI-Umnutzung 1. OG psychosomatische
+  Station):** Du-Partner auf Augenhöhe — «**Geschätzter Nesa**» (dokumentierende A3-Grundlagen-Lieferung,
+  16.01.) bzw. «**Hoi Nesa & Peter**» (Offerten-Weiterleitung an die Du-Gruppe Nesa + Baumanager Peter Weisser,
+  21.01.). Neuer Healthcare-Projektpartner im Du (kein Auftragsgefälle; JANS liefert Konzept/Pläne zu).
+- **3D-/Reality-Capture-Lieferanten (Sie bestätigt/erweitert):** Beat Agostini (office@visualreality3d.ch,
+  Matterport-Händler) → Sie «**Sehr geehrter Herr Agostini**» / im Konfliktverlauf gekühlt-bestimmt «**Guten Tag
+  Herr Agostini**»; Miro P. Quenson (miro@3dsixty.ch, 3D-Scan/Matterport-Vermietung) → Sie «**Sehr geehrter
+  Herr Quenson**». Der Geräte-/Dienstleistungs-Lieferant bleibt durchweg Sie (vgl. Gregori/Hinder, Batch 23).
+- **Gemischte-Stufe-Gruppen-Du in EINER Anrede:** «**Geschätzter Christoph & Gerry**» (Netzwerk-/Essens-
+  Einladung an zwei Du-Kontakte, 21.01.) mischt die gewichtige Stufe «Geschätzter <Vorname>» (Bopp) mit dem
+  Spitznamen «Gerry» (Gerhard Scherbl/Wintec, bekannt als «Hoi Gerry») in einer gemeinsamen Anrede — vgl. den
+  Register-Mix je Empfänger (KISPI-Team). Der Zwilling darf in der Du-Gruppenanrede unterschiedliche Wärme-/
+  Spitznamen-Stufen kombinieren, wenn beide Empfänger im Du sind.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
