@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -716,3 +716,41 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   nicht bewilligungsfähig. Rein formell rechtswidrige (aber bewilligungsfähige) Bauten werden über ein
   **nachträgliches Baubewilligungsverfahren** geheilt; ein Abbruch wäre unverhältnismässig (Bd 1, S. 612).
   _[2026-07-03]_
+
+## Kap. 5 — Planung und Entschädigung (Run 21)
+
+- **F:** Was ist der Unterschied zwischen formeller und materieller Enteignung? — **A:** **Formelle
+  Enteignung** = zwangsweiser Entzug von Eigentum/Rechten für einen öffentlichen Zweck (Art. 26/36 BV;
+  EntG/AbtrG). **Materielle Enteignung** = der Eigentümer bleibt Eigentümer, wird aber so schwer in der
+  Nutzung eingeschränkt, dass es einer formellen gleichkommt (Art. 26 Abs. 2 BV / Art. 5 Abs. 2 RPG;
+  Bd 1, S. 312/316 f.). _[2026-07-04]_
+- **F:** Welche zwei Tatbestände der materiellen Enteignung unterscheidet das Bundesgericht? — **A:**
+  **Schwerer Eingriff** (eine wesentliche, aus dem Eigentum fliessende Befugnis wird entzogen) **oder**
+  **Sonderopfer** (ein einzelner Eigentümer wird unzumutbar, mit der Rechtsgleichheit unvereinbar
+  getroffen); BGE 125 II 433 (Bd 1, S. 316 f.). _[2026-07-04]_
+- **F:** Löst eine **Nichteinzonung** grundsätzlich eine Entschädigung aus? — **A:** **Nein** (BGE 119 Ib
+  234) — Ausnahmen: grob erschlossenes/überbaubares Land mit erheblichen jüngeren Erschliessungskosten,
+  qualifizierter Vertrauensschutz, oder Grundstück im weitgehend überbauten Gebiet/Baulücke (Art. 15
+  lit. a RPG). Demgegenüber ist die **Auszonung** von Bauland mit Baulandqualität grds. entschädigungs-
+  pflichtig (BGE 131 II 728; Bd 1, S. 318 f.). _[2026-07-04]_
+- **F:** Ab welcher Grössenordnung des Nutzungsverlusts wird eine **Abzonung** praxisgemäss
+  entschädigungspflichtig? — **A:** Faustregel ~**ein Drittel**: 16 % bzw. 29 % (unter einem Drittel)
+  entschädigungslos, 35-45 % / 40 % (Burghölzlihügel) entschädigungspflichtig — massgebend aber
+  Intensität + Sonderopfer, nicht die blosse Prozentzahl (§§ 254 ff. PBG; Bd 1, S. 321). _[2026-07-04]_
+- **F:** Was besagt das «Alles-oder-nichts-Prinzip» bei der Entschädigungshöhe? — **A:** Erreicht der
+  Eingriff die Intensität einer materiellen Enteignung nicht, gibt es **gar keine** Entschädigung — nicht
+  eine reduzierte. Bei bejahtem Tatbestand richtet sich die Höhe nach dem **Verkehrswert** (BGE 102 Ib
+  273; Bd 1, S. 333). _[2026-07-04]_
+- **F:** Innert welcher Frist muss ein Anspruch aus materieller Enteignung im Kt. ZH angemeldet werden,
+  und wie lange läuft die Rekursfrist gegen den Schätzungsentscheid? — **A:** Anmeldung innert **10
+  Jahren** seit Inkrafttreten der Beschränkung (§ 183ter Abs. 1 EG ZGB, sonst verwirkt); **Rekurs** ans
+  Verwaltungsgericht innert **20 Tagen** (nicht 30; § 46 AbtrG; Bd 1, S. 331). _[2026-07-04]_
+- **F:** Ab welcher Überflughöhe besteht bei Kloten kein Entschädigungsanspruch für direkten Überflug —
+  und welche drei Voraussetzungen entfallen dabei? — **A:** Ab **350 m** kein Anspruch (BGE 142 II 128),
+  bis 150 m grds. erfüllt (1.25°-ILS-Korridor). Beim direkten Überflug entfallen **Spezialität,
+  Unvorhersehbarkeit und Schwere** (die für die blosse Lärmentschädigung kumulativ nötig sind; Bd 1,
+  S. 315). _[2026-07-04]_
+- **F:** Welche Mindest-Mehrwertabgabe schreibt Art. 5 RPG bei Einzonungen vor, und was ist die Folge
+  bei Nichtumsetzung? — **A:** Mindestens **20 %** bei Einzonungen (Art. 5 Abs. 1bis RPG). Setzt ein
+  Kanton den Ausgleich nicht bis 30.4.2019 um, darf er keine Neueinzonungen mehr vornehmen
+  (**Einzonungsstopp**, Art. 38a Abs. 4/5 RPG — betraf ZH; Bd 1, S. 327). _[2026-07-04]_

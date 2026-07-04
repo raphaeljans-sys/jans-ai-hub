@@ -37,9 +37,10 @@ wurden.
   referiert, nicht wörtlich zitiert — bei Kundenzitaten am amtlichen PBG-Volltext (raw/) gegenprüfen.
 - **needs-verification — «bis»-Artikel Art. 32b bis / 32d bis USG:** Nomenklatur aus dem Reader-Fliesstext;
   vor Kundenzitat am Fedlex-USG-Volltext prüfen.
-- **Offene Band-1-Reste:** nur noch **Kap. 4** (Natur-/Heimatschutz, P3, S. 267 ff.) und **Kap. 5**
-  (Planung und Entschädigung, P3, S. 311 ff.). Kap. 9 «Rechtsschutz» Restseiten S. 575-608 (Ablauf/Kosten/
-  Revision) ebenfalls noch offen.
+- **Offene Band-1-Reste:** ~~Kap. 5 (Planung und Entschädigung)~~ → **erledigt 2026-07-04** (Run 21,
+  S. 311-334): Destillat [[05-planung-und-entschaedigung]] + Wiki [[enteignung-und-entschaedigung]].
+  Offen nur noch **Kap. 4** (Natur-/Heimatschutz, P3, S. 267 ff.) und **Kap. 9 «Rechtsschutz» Rest**
+  S. 575-608 (Ablauf/Kosten/Revision).
 
 ## Offene Wissenslücken — neu (2026-06-17, aus Buch-Run Kap. 17 Teil 1)
 - ~~**Wohnhygiene/Raumanforderungen §§ 299-306 PBG**~~ → **erledigt 2026-06-17** (Run 9):
@@ -258,7 +259,9 @@ wurden.
   benachbarter Hauptgebäude) in den gelesenen Seiten nicht explizit belegt. **Restschuld Kap. 15.**
 - **§§ 102/103/104 PBG** (Entschädigung materielle Enteignung / Heimschlagsrecht /
   Leitungsbaurecht bei Baulinien): genaue §-Zuordnung am amtlichen Volltext prüfen (im Buch teils
-  zusammengezogen zitiert, S. 1035).
+  zusammengezogen zitiert, S. 1035). *(Teilklärung 2026-07-04, Kap. 5: § 102 PBG = Entschädigung bei
+  besonderer Belastung durch Baulinien/Wald-/Gewässerabstandslinien; Heimschlag Baulinien = § 103 f. PBG;
+  siehe [[enteignung-und-entschaedigung]]. §-Nummern weiterhin am Volltext bestätigen.)*
 - **StrAV-Masszahlen** (Lichtraumprofil 2,5/4,5 m, Pflanzen-/Einfriedungsabstände §§ 7/14/17 StrAV):
   am amtlichen Volltext der Strassenabstandsverordnung gegenprüfen — im Screenshot nur teilweise lesbar.
 - **«Dicht überbautes Gebiet»** (Art. 41c Abs. 1 Satz 2 GSchV): praxistaugliche Kriterien aus

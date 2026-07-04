@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -171,19 +171,19 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 153 | 1 | ~302 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.09.jpg` |  |
 | 154 | 1 | ~304 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.11.jpg` |  |
 | 155 | 1 | ~306 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.12.jpg` |  |
-| 156 | 1 | ~308 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.14.jpg` |  |
-| 157 | 1 | ~310 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.16.jpg` |  |
-| 158 | 1 | ~312 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.18.jpg` |  |
-| 159 | 1 | ~314 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.19.jpg` |  |
-| 160 | 1 | ~316 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.21.jpg` |  |
-| 161 | 1 | ~318 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.23.jpg` |  |
-| 162 | 1 | ~320 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.25.jpg` |  |
-| 163 | 1 | ~322 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.27.jpg` |  |
-| 164 | 1 | ~324 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.28.jpg` |  |
-| 165 | 1 | ~326 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.30.jpg` |  |
-| 166 | 1 | ~328 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.32.jpg` |  |
-| 167 | 1 | ~330 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.33.jpg` |  |
-| 168 | 1 | ~332 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.35.jpg` |  |
+| 156 | 1 | 310/311 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.14.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 157 | 1 | 312/313 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.16.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 158 | 1 | 314/315 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.18.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 159 | 1 | 316/317 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.19.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 160 | 1 | 318/319 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.21.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 161 | 1 | 320/321 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.23.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 162 | 1 | 322/323 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.25.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 163 | 1 | 324/325 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.27.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 164 | 1 | 326/327 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.28.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 165 | 1 | 328/329 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.30.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 166 | 1 | 330/331 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.32.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 167 | 1 | 332/333 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.33.jpg` | [[band-1/05-planung-und-entschaedigung]] |
+| 168 | 1 | 334/335 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.35.jpg` | [[band-1/05-planung-und-entschaedigung]] |
 | 169 | 1 | 336/337 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.37.jpg` | [[band-1/06-baurechtliches-verfahren]] |
 | 170 | 1 | 338/339 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.39.jpg` | [[band-1/06-baurechtliches-verfahren]] |
 | 171 | 1 | 340/341 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.41.jpg` | [[band-1/06-baurechtliches-verfahren]] |

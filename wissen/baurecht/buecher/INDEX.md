@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -213,6 +213,18 @@ Trainingslauf (`../training/PROGRAMM.md`).
   (immer amtlich, ≤ 2 Mt., keine Genehmigung), Gebietssanierung **§ 186 ff.**, Gueterzusammenlegung
   **§§ 76-94 LG / Art. 20 WaG**. 13 Doppelseiten (Shots 121-133). Status: `emerging`. **SCHLIESST Kap. 3.**
   Speist [[baureife-und-erschliessung]] + [[baulinien-und-abstandslinien]].
+- [[05-planung-und-entschaedigung]] — Kap. 5 / **vollstaendig** (S. 311-334): **Planung und Entschaedigung** —
+  Wertaenderungen durch Planungsmassnahmen (5.1); **formelle Enteignung** (5.2, Art. 26/36 BV kumulativ,
+  **EntG SR 711 / AbtrG LS 781**, enteignungsfaehige Rechte, Flughafen Laerm/Direktueberflug **1.25°-Korridor**/
+  Stichtag **1.1.1961**/Schwere **10-15 %**, MIFLU/ESchK, Strassenlaerm Art. 17 LSV); **materielle Enteignung**
+  (5.3, Art. 26 Abs. 2 BV / Art. 5 Abs. 2 RPG, **2 Tatbestaende** schwerer Eingriff/Sonderopfer **BGE 125 II 433**;
+  Fallgruppen Aus-/Nichteinzonung/Abzonung ~1/3-Schwelle/Umzonung/Baulinien **§ 102**/Gewaesserraum Art. 36a
+  GSchG/Denkmalschutz/Polizei/befristete Bauverbote §§ 122/235/346); **weitere Instrumente** (5.4, Heimschlag
+  §§ 41-43/103 f./165/214, **Zugrecht § 43a** > 2/3, Vorkaufsrecht § 64, Treu+Glauben, **Mehrwertabschoepfung**
+  Art. 5 RPG min. **20 %** / MAG); **Enteignungsverfahren** (5.5, Anmeldung **10 J. § 183ter EG ZGB**, Rekurs
+  **20 T § 46 AbtrG**, **Verkehrswert BGE 102 Ib 273 / Alles-oder-nichts**, Methoden Real-/Ertragswert-DCF/hedonisch,
+  Vollzug § 56 AbtrG / Art. 91 EntG). 13 Doppelseiten (Shots 156-168). Status: `emerging`. **SCHLIESST Kap. 5.**
+  Speist [[enteignung-und-entschaedigung]] + [[raumplanung-und-gestaltung]] + [[immobilienbewertung]].
 - [[10-widerrechtliche-bauten-teil1]] — Kap. 10 / **vollstaendig** (S. 609-636): **Widerrechtliche Bauten
   und deren Sanktionierung** — **formelle vs. materielle Baurechtswidrigkeit** (formell heilbar via
   nachtraeglichem Baubewilligungsverfahren; materiell → Wiederherstellung), **Wiederherstellung § 341 PBG**
