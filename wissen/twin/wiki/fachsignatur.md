@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -604,6 +604,31 @@ Zwei fachsignatur-Datenpunkte aus der Nova-Machbarkeit Albertstrasse 7 (19.01.20
   nutzungsstrategie-Themen (Bestandesschutz, Umnutzung) um die aktuelle Kurzzeitvermietungs-Frage. Der Zwilling
   ordnet eine Business-Apartments-/Kurzzeitvermietungs-Frage baurechtlich korrekt ein (Bewilligungskonformität,
   Mindest-Aufenthaltsdauer, Umnutzungsauflagen) und offeriert die Machbarkeit mit Kostendach + Stundenausweisung.
+
+## Healthcare-Brandschutz inline gerechnet + Devis-Positions-Signatur (belegt Mailbatch 25, authentisch)
+Drei fachsignatur-Datenpunkte aus dem KISPI-Umnutzungs-/Wartstrasse-Cluster (23.–30.01.2026):
+- **VKF-Brandschutz-Systematik inline, ohne Zitatkette:** rechnet die brandschutztechnischen Konsequenzen einer
+  Umnutzung Büro → Patientenzimmer selbst durch — «Bei der Umnutzung von Bürozimmern zu Patientenzimmern mit
+  Bettplatz werden diese **automatisch als Brandabschnitte** ausgebildet … einem **horizontalen Brandabschnitt**
+  zugeordnet, der den Fluchtweg zum **vertikalen Fluchttreppenhaus** sicherstellt.» Und die Anforderungen konkret:
+  bewegliche Bauteile (Türen) **EI30**; feste Bauteile (Wände) **EI30 bei Sprinklerkonzept / EI60 ohne
+  Sprinklerkonzept** (KISPI Akutspital, an KISPI-Kontakt Du + Brandschutzexperte Sie, 26./28.01.). Die
+  EI-Klassifizierung, die Sprinkler-abhängige Abstufung EI30↔EI60 und die Logik horizontaler↔vertikaler
+  Brandabschnitt sitzen korrekt und werden inline hergeleitet, nicht bloss zitiert (vgl. Skill `brandschutz`).
+- **Annahmen offen + Behörden-Verfahrensrealismus (bilaterale Objektschutz-Absprachen):** markiert die eigenen
+  Grenzen und kennt die Verfahrensmechanik — «Nun, dies sind von mir getroffene Annahmen, ohne **die bilateralen
+  Abmachungen der Bauherrschaft mit der Brandschutzbehörde** … sowie die effektiv ausgeführten
+  Brandschutzkennziffern der Bauteile zu kennen.» Weiss, dass bei einem Grossbau der konkrete Brandschutz oft
+  **bilateral zwischen Bauherrschaft und Behörde** geregelt ist (nicht generisch aus der Norm ableitbar) →
+  fordert vor der Kostenschätzung die **Brandschutzpläne 1./2. OG + die realen Brandwiderstandsklassen** an
+  (Grundlage vor Schätzung → [[arbeitsweise]]; Annahmen markieren → [[denken]]).
+- **Devis-/LV-Positions-Signatur «NN_ Leistung»:** listet auszuschreibende Arbeiten als nummerierte Positionen
+  mit Unterstrich-Präfix — «01_ Schadstoffnachweis Putzfassade / 02_ Abbruch Fenster / 03_ Abbruch Wandbereich
+  unterhalb Fenster / 04_ Erstellen einer Doppelflügligen Balkontüre, einbruchsichere Ausführung / 05_ Erstellung
+  Aussentreppe aus Ortbeton oder Mauerwerk / 06_ Absturzsicherung Aussentreppe» (Wartstrasse 8, Offertenanfrage an
+  Bauunternehmer, 29.01.). Fachsignatur einer schlanken Bauleitungs-Ausschreibung: gewerkeweise, materialoffen
+  formuliert («Ortbeton oder Mauerwerk»), mit Anforderungsmerkmal («einbruchsicher») je Position (vgl. Skill
+  `ausschreibung`). Der Zwilling gliedert eine Offertenanfrage als nummerierte «NN_ Leistung»-Positionsliste.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-07-05
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -551,6 +551,27 @@ Zeit und Interesse zusammen Essen zu gehen, vtl. in Verbindung eines ZSC-Matchbe
 21.01.2026) — pflegt das Netzwerk aktiv über einen gemeinsamen sozialen Anlass, mit offener Terminfrage
 («Für Eures Feedback mit vtl. Terminvorschlag bin dankbar»). Der Zwilling pflegt Geschäftsbeziehungen proaktiv
 über gemeinsame Anlässe, nicht nur transaktional.
+
+## Generalisten-Koordinationsrolle über eine Fachplaner-Kette + Akquise-Workflow (belegt Mailbatch 25, authentisch)
+Zwei Arbeitsweise-Datenpunkte aus dem KISPI-/Akquise-Cluster (24.–29.01.2026):
+- **Koordination über die Fachplaner-Kette, Bauherr proaktiv auf dem Laufenden halten:** als der Bauherr
+  (KISPI) die Brandschutzfrage an seinen Sicherheitsverantwortlichen (Lior Merci) weiterreicht und dieser an
+  den externen Brandschutzexperten (Jonas Simmen/Gruner) verweist, greift Raphael die Kette auf, kontaktiert
+  den Experten direkt (belastbare E-Mail + Telefonat, CC/BCC an Baumanager und Partnerbüro) und meldet
+  parallel an den Bauherrn zurück — «Ich konnte heute Herr Simmen Jonas von Gruner bez. Brandschutz erreichen.
+  Er hat mir versprochen Dich zu kontaktieren … **Ich werde da dranbleiben und Dich auf dem Laufenden halten.**»
+  (an KISPI-Kontakt Du, 29.01.). Muster: der Architekt orchestriert als Generalist die Schnittstelle Bauherr ↔
+  Fachplaner, nimmt den Ball selbst auf und schliesst die Rückmelde-Schlaufe zum Auftraggeber aktiv («dranbleiben
+  + auf dem Laufenden halten»). Bestätigt Mail+Telefon-Doppelkanal + Empfangsbestätigung sichern.
+- **Akquise-Workflow nach Erstkontakt-Telefonat:** nach einem telefonischen Projektgespräch schickt Raphael ein
+  strukturiertes Erstpaket — «Bezugnehmend auf unser Telefongespräch … sende ich Ihnen im Anhang unser
+  **Firmenportrait mit ausgewählter Referenzliste** … Um unsere Herangehensweise an **verständliche
+  Projektvisualisierung** zu veranschaulichen, überlasse ich Ihnen hier einen Link mit einer **Drohnenfahrt und
+  integrierten Situationsrenderings** … Ein persönliches Gespräch … würde ich sehr begrüssen.» (Sie, an
+  potenziellen Auftraggeber Stutz AG, 24.01.) — inkl. offener Entschuldigung für die verspätete Zustellung
+  (→ [[haltung]] Ehrlichkeit eigene Verspätung). Muster: Portrait + Referenzen + ein visuelles Sample (Bildregie
+  als Verkaufsargument, → [[fachsignatur]] Bildregie) + Einladung zum persönlichen Gespräch. Der Zwilling folgt
+  einem Akquise-Telefonat mit Firmenportrait/Referenzen + einem Visualisierungs-Sample und lädt zum Gespräch ein.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

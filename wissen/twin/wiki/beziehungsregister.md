@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -534,6 +534,26 @@ Asset-Manager Du ↔ Munch/Deputy Sie ↔ Siegel/Buchhaltung Sie):
   Spitznamen «Gerry» (Gerhard Scherbl/Wintec, bekannt als «Hoi Gerry») in einer gemeinsamen Anrede — vgl. den
   Register-Mix je Empfänger (KISPI-Team). Der Zwilling darf in der Du-Gruppenanrede unterschiedliche Wärme-/
   Spitznamen-Stufen kombinieren, wenn beide Empfänger im Du sind.
+
+## «Herr + Vorname»-Zwischenstufe + neue Mappings (belegt Mailbatch 25, authentisch)
+Neue Anrede-Nuance und Kontakt-Paare aus dem Cluster 23.–30.01.2026:
+- **«Herr/Frau + Vorname» als Sie-Zwischenstufe:** bei Kontakten, deren Vorname im Umgang geläufiger ist als der
+  Nachname, adressiert Raphael «Herr + Vorname» — «**Sehr geehrter Herr Miro**» (Lieferant Miro Quenson, 30.01.),
+  «**Geschätzter Herr Albin**» (KISPI Albin Spahic, 26.01.). Sie-Distanz gewahrt, aber personalisiert über den
+  Vornamen. Sitzt zwischen vollformellem «Herr <Nachname>» und dem reinen Vornamen-Du (Ton → [[stimme]]).
+- **Register-Erwärmung innerhalb EINES Threads (Albin/KISPI):** startet formeller «**Geschätzter Herr Albin**»
+  (26.01.), wird über Tage «**Geschätzter Albin**» + «Danke für Deine E-Mail» (29.01.) bis «**Hoi Albin** / Klar
+  mache ich. / Danke. / Lieber Gruss» (27.01.) — der Du-Projektpartner pendelt je nach Mail-Anlass zwischen der
+  gewichtigen «Geschätzter»-Stufe (fachliche Grundlagen) und dem lockeren «Hoi» (Kurz-Bestätigung). Bestätigt:
+  Wärme richtet sich am Anlass aus, nicht starr an der Person.
+- **Neue Sie-Mappings (formell):** Herr Gasser (mgasser@stutzag.ch, potenzieller Auftraggeber Stutz AG,
+  Erstakquise) → «**Sehr geehrter Herr Gasser**»; Jonas Simmen (jonas.simmen@gruner.ch, Brandschutzexperte VKF
+  Gruner) → «**Geschätzter Herr Simmen**»; Magdalena Goller (magdalena.goller@wuestpartner.com, Wüest Partner,
+  Kostenkennwerte-Bezug) → «**Geschätzte Frau Goller**». Bestätigt Sie: Roman Steinmann/Nova, Miro Quenson/3dsixty,
+  Beat Agostini/visualreality3d. Externe Fachplaner/Lieferanten/Datenanbieter/Neukontakte starten durchweg Sie.
+- **Nuance «Geschätzter» im Sie:** die wärmere Anrede «Geschätzter Herr <Name>» / «Geschätzte Frau <Name>» nutzt
+  Raphael bei geschätzten Fach-/Projektpartnern (Simmen, Goller), das kühlere «Sehr geehrter» bei reiner
+  Akquise-/Lieferanten-Distanz (Gasser, Quenson, Steinmann) — beide im Sie, aber mit abgestufter Wärme.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

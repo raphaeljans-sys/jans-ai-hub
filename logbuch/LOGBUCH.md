@@ -5,6 +5,29 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-05
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 12.07.), Mail-Eingang
+  (seit 04.07. 12:00) und Sync-Task-Queue abgeglichen.
+- **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **80 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 = in
+  3 Tagen**, kein Zahlungseingang. Keine neuen Verzugsfaelle; RE-00098/99 (faellig 20.07.) weiter
+  ohne Verzug.
+- **Kalender (bis 12.07.):** unveraendert zwei Termine, beide im Register — **07.07. 16:00–16:30**
+  TeKoSi finale Tuer-Ausfuehrungsplanung (Teams, KISPI; RJ Organisator) und **09.07. 13:00–14:00**
+  Koordinationssitzung Gruner/Jans/KISPI (Serientermin). Keine neuen Termine.
+- **Mail-Eingang (seit 04.07. 12:00):** nur die SharePoint-Ablaufwarnung (J. Simmen verliert am
+  10.07. den Gastzugriff auf JANS DATENAUSTAUSCH) — bereits im Register. Keine neue relevante Mail.
+- **Sync-Task-Queue:** kein offener Task fuers MacBook Pro.
+- **Naechste 7 Tage / Cutoffs:** R. Steinmann (Nova) Cutoff offene Anliegen **06.07. = morgen**
+  (Albertstrasse 7, u.a. Schliessystem Struebi); L. Hiltmann (TeKoSi) erreichbar ab **06.07.**
+  (Tuerfachplanung Los 231.10); Termine **07.07.** + **09.07.**; RE-00087 Zahlfrist **08.07.**;
+  SharePoint-Gastzugriff Ablauf **10.07.** (6 Gruner-Personen). AG-Gruendung weiter hoch:
+  Notariats-Antwort noch nicht raus, UBS-Formular abwarten.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine in den naechsten 7 Tagen).
+
+---
+
 ## 2026-07-04
 
 - **HUB-CHEF-LAUF — ohne Befund (keine Mail).** Signale konsolidiert: bexio `--verzug` (unveraendert

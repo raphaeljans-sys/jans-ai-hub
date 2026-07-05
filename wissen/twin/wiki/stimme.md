@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -828,6 +828,29 @@ Neue/bestätigte Mikromarker aus 2026-01-16…22 (Reality-Capture-Beschaffung, K
   «Geschätzter Christoph & Gerry» / «Hoi Nesa & Peter». Flüchtigkeit «erkennt habe», «das mit dem Kauf»,
   «Ihren Beschreibung», «Sinnvoll» (Binnen-Gross), «abgolbereit» — TON übernehmen, `korrektur` zieht es gerade.
   Bestätigt: die Jan-2026-rj@-Mails sind stilistisch weiter **authentisch handgetippt**, kein Claude-Grundtext.
+
+## «Nun,»-Einschränkungs-Opener, redundantes Danke, «Sehr geehrter Herr <Vorname>» (belegt Mailbatch 25, authentisch)
+Vier Stimm-Datenpunkte aus dem KISPI-/Lieferanten-Cluster (23.–30.01.2026):
+- **«Nun,»-Satzopener zur ehrlichen Selbst-Einschränkung:** leitet die Offenlegung eigener Annahmen mit einem
+  gesprochenen «Nun,» ein — «**Nun, dies sind von mir getroffene Annahmen**, ohne die bilateralen Abmachungen
+  der Bauherrschaft mit der Brandschutzbehörde … zu kennen.» (Sie, «Geschätzter Herr Simmen», 28.01.). Das «Nun,»
+  markiert im Fliesstext den Übergang von der sachlichen Darlegung zur Relativierung — mündlich-nachdenklich, kein
+  Schriftdeutsch-Konnektor (vgl. «Also,»-Opener Batch 23). Reiht sich zu den gesprochenen Satzeröffnungen.
+- **Redundantes Doppel-Danke:** «**Besten Dank** für Ihre ausführliche Erklärung, **danke**.» (Sie, an Lieferant,
+  23.01.) — bedankt sich im selben Satz zweimal (Formel + nachgestelltes «danke»), ein warmes Übermass, das die
+  Höflichkeitsgesten stapelt (vgl. gestapelte «liebe»-Grüsse Batch 14). Nicht glätten — das Doppeln ist echt.
+- **«Sehr geehrter Herr <Vorname>» / «Geschätzter Herr <Vorname>»:** adressiert Kontakte, deren Vorname geläufiger
+  ist als der Nachname, mit «Herr + Vorname» — «**Sehr geehrter Herr Miro**» (Lieferant Miro Quenson, 30.01.),
+  «**Geschätzter Herr Albin**» (KISPI Albin Spahic, 26.01.). Eine Zwischenstufe zwischen vollformellem «Herr
+  <Nachname>» und Du: die Sie-Distanz bleibt, aber über den Vornamen (Register → [[beziehungsregister]]).
+- **«Frage:»-Opener bestätigt** (Batch 24): «**Frage:** Ich versuche Links von den Modellen an Fachplaner zu
+  versenden.» (30.01.) — hängt die eigentliche Rückfrage nach einer nüchternen Lage-Zeile als «Frage:»-Block an.
+- **Mikro-Metrik Batch 25 (853 W, breites Register: Akquise/Brandschutz/Offerte Sie + KISPI-Du):** Du-Gross-Quote
+  **0.667**; Tausender-Apostroph 0×, keine «%»/Ellipsen (registerbedingt); Satzlänge ø **15.0 W**; Anreden «Sehr
+  geehrter Herr» 4× / «Geschätzter Herr/Albin» 4× / «Hoi Albin/Labi» 2× / «Geschätzte Frau» 1× / «Guten Tag» 1×;
+  Grüsse «Freundliche Grüsse» 5× dominant + «Lieber Gruss» 2× + «Lgr» 1×. Handtipp-Typos bestätigt: «geeher»
+  (Sehr geehrter), «Momenten», «das ich» (dass), «Für Ihre Angebot», «ein einem» — TON übernehmen, `korrektur`
+  zieht es gerade. Weiter kein Claude-Grundtext in den rj@-Sent-Items.
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei

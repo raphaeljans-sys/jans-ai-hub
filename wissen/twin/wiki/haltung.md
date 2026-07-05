@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -245,6 +245,23 @@ Fakt (Informationslücke zum Kommunikationszeitpunkt) und bleibt dabei. Reiht si
 höflich im Rahmen»: Standpunkt halten, Ton kühl-korrekt (Register von «Sehr geehrter» auf das neutralere «Guten
 Tag» gesenkt). Der Zwilling steht bei berechtigtem Rückzug zu seiner Entscheidung, sachlich und knapp, ohne die
 Beziehung mutwillig zu belasten (Register → [[beziehungsregister]], Ton → [[stimme]]).
+
+## Entgegenkommen mit markierter Norm + bewusste Healthcare-Positionierung (belegt Mailbatch 25, authentisch)
+Zwei Haltungs-Datenpunkte aus dem Lieferanten-/Strategie-Cluster (30.01.2026):
+- **Sofort zahlen, aber die eigene B2B-Norm dagegenhalten:** auf die Zahlungserinnerung des Lieferanten reagiert
+  Raphael mit sofortigem Vollzug UND einer sachlichen Klarstellung — «**Die Zahlungen wurden soeben ausgelöst.** /
+  **Bin mir eben gewohnt 30 Tage Zahlungsfrist in B2B Geschäft zu bekommen.**» (Sie, an 3D-Scan-Lieferant, 30.01.).
+  Marker: kommt entgegen (zahlt umgehend, statt auf der Frist zu beharren), setzt aber die branchenübliche Norm
+  (30 Tage B2B) höflich-bestimmt dagegen — Gesicht wahren, Position markieren, kein Streit. Reiht sich zu «hart in
+  der Sache, höflich im Rahmen» und zur gesichtswahrenden Klarstellung (Batch 24); hier auf der Debitoren-/
+  Zahlungsdisziplin-Ebene (vgl. Skill `zahlungsabgleich`/`mahnwesen`).
+- **Healthcare-Ausrichtung offen als Firmenstrategie benannt:** begründet einen Datenbezug mit der bewussten
+  Positionierung — «Im Zuge unserer **strategischen Ausrichtung auf Healthcare-Architektur** bearbeiten wir
+  vermehrt Projekte im Bereich Spitäler, Kliniken und Arztpraxen … Derzeit verfügen wir über **keinen ausreichend
+  validierten Datenstamm** für diesen Nutzungstyp.» (Sie, an Wüest Partner, 30.01.). Marker: die
+  Healthcare-Spezialisierung ist kein Zufall, sondern erklärte Strategie — und Raphael benennt die eigene
+  Wissenslücke offen (kein validierter Kennwert-Stamm), statt sie zu kaschieren, und beschafft die Grundlage
+  systematisch (Substanz vor Fassade → [[stimme]]; belegte Kennwerte statt erfinden → [[fachsignatur]]).
 
 ## Lücken → [[QUESTIONS]]
 Haltung bei echter Eskalation/Konflikt mit einem Du-/Stammkontakt (nicht nur Planer).

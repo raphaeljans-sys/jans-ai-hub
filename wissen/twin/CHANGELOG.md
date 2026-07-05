@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-05 — twin-mail-training (täglich): Batch 25, Sent Items rj@ 2026-01-23…01-30
+- Sweep-Fortschritt: abgedeckt bis **2026-01-30** (nächster Lauf ab 2026-01-31). 20 Mails gesichtet,
+  6 authentische RJ-Volltexte destilliert (+ Previews genutzt); Unsubscribe/Teams/Zahlbeleg-Fwd ignoriert.
+  Alle Texte klar vor-Claude-Stil (handgetippte Typos «geeher»/«Momenten»/«das ich»/«Für Ihre Angebot»/«ein
+  einem»), vor-Claude-Stichtag in rj@ Sent Items weiter nicht erreicht (kein Claude-Grundtext, keine AI-Paste).
+- Stilmetrik (853 W): Du-Gross 0.667, Satzlänge ø 15.0 W, kein Apostroph/«%»/Ellipse (registerbedingt);
+  Anreden Sehr geehrter Herr 4× / Geschätzter Herr/Albin 4× / Hoi 2× / Geschätzte Frau 1× / Guten Tag 1×.
+- Neue belegte Marker: [[stimme]] «Nun,»-Einschränkungs-Opener + redundantes Doppel-Danke + «Sehr geehrter/
+  Geschätzter Herr <Vorname>»-Zwischenstufe; [[fachsignatur]] Healthcare-Brandschutz inline (EI30 Tür / EI30
+  m. Sprinkler ↔ EI60 o. Sprinkler, horizontaler↔vertikaler Brandabschnitt) + Behörden-Realismus bilaterale
+  Objektschutz-Absprachen + Devis-Positions-Signatur «NN_ Leistung»; [[arbeitsweise]] Generalisten-Koordination
+  über Fachplaner-Kette (Bauherr↔Sicherheitsverantw.↔Brandschutzexperte, «dranbleiben + auf dem Laufenden
+  halten») + Akquise-Workflow (Firmenportrait/Referenzen + Visualisierungs-Sample + Gesprächseinladung);
+  [[beziehungsregister]] «Herr + Vorname»-Sie-Zwischenstufe + Register-Erwärmung im Thread (Albin) + neue
+  Sie-Mappings Gasser/Simmen/Goller + Nuance «Geschätzter» (Wärme) ↔ «Sehr geehrter» (Distanz) im Sie;
+  [[haltung]] sofort zahlen + eigene B2B-30-Tage-Norm gesichtswahrend markieren + Healthcare-Ausrichtung offen
+  als Firmenstrategie benannt (mit offener Wissenslücke Kennwert-Stamm).
+- Frontmatter last_updated 2026-07-05 + Quelle 260705-mailbatch-25.md in 5 Facetten; _INGESTED.md fortgeschrieben.
+
 ## 2026-07-04 — twin-mail-training (täglich): Batch 24, Sent Items rj@ 2026-01-16…01-22
 - Sweep-Fortschritt: abgedeckt bis **2026-01-22** (nächster Lauf ab 2026-01-23). 20 Mails gesichtet,
   6 authentische RJ-Volltexte destilliert; Teams-Einladungen + 01-15-Mails (bereits Batch 23) ignoriert.
