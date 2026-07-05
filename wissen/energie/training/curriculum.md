@@ -129,7 +129,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Deckungsgrad ~verdoppelbar, SG-Ready/SmartGridready, Batterie erst zuletzt → `[[wp-pv-eigenverbrauch-lastmanagement]]`
   (FAQ F31). Hebel 2 (VSE HER-CH 2025): ZEV Art. 17 EnG, Eigenverbrauch abgabenfrei Art. 16 EnG, **neu
   vZEV ab 1.1.2025** ohne Umverdrahtung, LEG separat → `[[zev-eigenverbrauch-mfh-her-2025]]` (FAQ F32).
-  Themenartikel `[[pv-eigenverbrauch-zev]]`. Offen: ZEV-Mieter-Preisregel (Leitfaden Eigenverbrauch), LEG (BD-LEG).
+  Themenartikel `[[pv-eigenverbrauch-zev]]`. **Ergaenzt 2026-07-05:** ZEV-Mieter-Preisregel (≤80 % des externen
+  Standardtarifs ODER Gestehungskosten − Einspeiseerloes mit halber Ersparnis-Teilung, Mieter-Wahlrecht →
+  `[[zev-mieter-strompreis-eigenverbrauch]]`, F32) + **Hebel 3 LEG** (ab 1.1.2026, Netzentgelt-Rabatt 40 %/20 %,
+  gleiche Gemeinde/Netzebene/≥5 % Produktion → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`, FAQ **F33** neu).
+  Offen: VSE-BD-LEG-Primaerquelle, interne LEG-Preisbildung, Rp/kWh-Zahlenmuster.
 
 ## Meta
 - [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **alle 17 Kernfragen F1-F17 belegt**

@@ -136,9 +136,16 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Lehmputz (Feuchtepufferung) — Seed `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (2024). Ergaenzt
   `[[daemmstoffe-lambda]]`. **ZEV/vZEV-Teil belegt ✓ 2026-07-04** (VSE HER-CH 2025: ZEV Art. 17 EnG,
   Eigenverbrauch abgabenfrei Art. 16 EnG, **neu vZEV ab 1.1.2025** ohne Umverdrahtung; LEG separat BD-LEG)
-  → `[[zev-eigenverbrauch-mfh-her-2025]]`, `[[pv-eigenverbrauch-zev]]`, FAQ F32. **Offen bleibt:** Natur-
-  daemmstoffe Stroh/Lehm; exakte ZEV-Mieter-Preisregel (EnergieSchweiz-Leitfaden Eigenverbrauch); **LEG**
-  (Modell/Netzentgelt, BD-LEG); «Solarsplitvertrag»/Areal-PV rechtlich (→ `baurecht`/`stockwerkeigentum`).
+  → `[[zev-eigenverbrauch-mfh-her-2025]]`, `[[pv-eigenverbrauch-zev]]`, FAQ F32. **ZEV-Mieter-Preisregel belegt
+  ✓ 2026-07-05** (max. externes Standardprodukt; pauschal ≤80 % ODER Gestehungskosten − Einspeiseerloes mit
+  halber Ersparnis-Teilung; Mieter-Wahlrecht + Anfechtung, keine Nettomiet-Ueberwaelzung; EnergieSchweiz-Excel)
+  → `[[zev-mieter-strompreis-eigenverbrauch]]`, F32 geschaerft. **LEG belegt ✓ 2026-07-05** (ab 1.1.2026, StromVG;
+  Netzentgelt-Rabatt 40 %/20 % nur auf Wirkenergie/Wirkleistung/Grundpreis; Voraussetzung gleiche Gemeinde/
+  Netzebene NE5-7/≤36 kV/≥5 % Produktion/Smart Meter; Teilnehmer bleiben VNB-Kunden ohne Solidarhaftung)
+  → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`, FAQ **F33** neu. **Offen bleibt:** Naturdaemmstoffe
+  Stroh/Lehm; exakte EnV-Artikelnummer + Rp/kWh-Zahlenbeispiel der ZEV-Preisregel (Leitfaden-PDF seitengenau);
+  VSE-BD-LEG als Primaerquelle; interne LEG-Preisbildung; «Solarsplitvertrag»/Areal-PV rechtlich
+  (→ `baurecht`/`stockwerkeigentum`).
 - [x] **E15** **WP + PV Eigenverbrauch / Lastmanagement** belegt ✓ 2026-07-04 (EnergieSchweiz/Zogg 2023:
   WP als thermischer Speicher via EMS, solarer Deckungsgrad ~verdoppelbar Faktor 2, Sommer-WW 100 % aus PV,
   Steigerungsfaktoren-Tabelle, Speichertabelle, Batterie lohnt noch nicht/hilft Winter nicht, Schnittstellen
