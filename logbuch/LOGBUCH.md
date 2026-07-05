@@ -7,6 +7,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-05
 
+- **HUB-CHEF-LAUF — ohne Befund (keine Mail).** Signale konsolidiert: bexio `--verzug` (unveraendert
+  ein Verzugsfall RE-00087, 80 Tg, Mahnung 1, Zahlfrist 08.07. laeuft noch; RE-00098/99 ohne Verzug),
+  bexio `--abgleich` (nur bekannte Altliste 19 Pos., keine neuen Phantom-/Duplikat-Faelle), Mail-Eingang
+  seit 04.07. 12:00 (keine neue relevante Mail — nur das eigene Radar-Briefing 05.07. + die bereits
+  registrierte SharePoint-Ablaufwarnung J. Simmen 10.07.), Kalender 7 Tage (07.07. TeKoSi + 09.07.
+  Koordinationssitzung, beide im Register), Sync-/Remote-Task-Queues leer. **Keine neuen Befunde, keine
+  Whitelist-Aktion moeglich** (A1 greift nicht: RE-00087 steht bereits auf Mahnung 1, Eskalation auf
+  Mahnung 2 nicht whitelisted, Zahlfrist 08.07. laeuft, RE-00088-Konflikt vorher zu klaeren; Register
+  durch den Radar heute frueh aktuell), **keine neuen Entwuerfe** (Drafts SBB Wiedmer / Gruner Duran vom
+  03.07. stehen weiter — Wiederholung waere Doppelmeldung). Gemaess SKILL.md keine zweite Mail. Verweist
+  auf das Radar-Briefing von heute frueh. Checkpoint Whitelist v1 + Briefing-Umfang weiter offen (Raphael).
+
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 12.07.), Mail-Eingang
   (seit 04.07. 12:00) und Sync-Task-Queue abgeglichen.
 - **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
