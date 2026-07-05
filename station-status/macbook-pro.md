@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.07.2026 06:25:47
+Stand: 05.07.2026 06:35:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 05.07.2026 06:25:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 143e737 energie-run27: ZEV-Mieter-Preisregel (F32 geschaerft) + LEG (F33 neu)
+- 45591de nas-selfcommit: 2 Datei(en) 2026-07-05 06:30
