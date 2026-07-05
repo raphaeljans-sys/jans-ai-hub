@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 05.07.2026 06:06:18
+Stand: 05.07.2026 06:26:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 05.07.2026 06:06:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6d4cb65 nas-selfcommit: 2 Datei(en) 2026-07-05 06:00
+- 143e737 energie-run27: ZEV-Mieter-Preisregel (F32 geschaerft) + LEG (F33 neu)
