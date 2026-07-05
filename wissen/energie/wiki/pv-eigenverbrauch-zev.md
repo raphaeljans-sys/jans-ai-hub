@@ -1,8 +1,8 @@
 ---
-title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV)
+title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & vermarkten (ZEV/vZEV/LEG)
 status: established
-last_updated: 2026-07-04
-sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
+last_updated: 2026-07-05
+sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[pv-solar-technologien]] [[heizleistung-und-waermeerzeuger]]
 ---
 
@@ -40,11 +40,27 @@ traegt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebae
   virtuellen Messpunkt** aggregiert, die Anschlussleitung darf mitgenutzt werden. Das entschaerft den
   frueheren Hauptaufwand (Steigzonen aufbrechen) — fuer **Bestandsbauten** der grosse Gewinn.
 - **Rollen:** ein **Vertreter** rechnet intern ab und vertritt den ZEV nach aussen (oft ein EVU/Dienstleister).
-  Preis gegenueber Mietern: nicht schlechter als der externe Standard-Tarif (Detailregel: EnergieSchweiz-
-  Leitfaden Eigenverbrauch, ⚠ zu verifizieren). → [[zev-eigenverbrauch-mfh-her-2025]] (VSE HER-CH 2025).
-- **Abgrenzung:** die **Lokale Elektrizitaetsgemeinschaft (LEG)** — Verkauf ueber das **oeffentliche**
-  Quartiernetz mit reduziertem Netzentgelt — ist ein **eigenes**, ebenfalls neues Instrument (Branchendokument
-  BD-LEG), nicht ZEV. Rein rechtlich/tariflich → Skill `baurecht`; STWEG-Reglement → Skill `stockwerkeigentum`.
+  Anlagen ≥ 30 kVA brauchen einen separaten Produktionszaehler. → [[zev-eigenverbrauch-mfh-her-2025]] (VSE HER-CH 2025).
+- **Mieter-Preisregel (konkret):** pro kWh **nie mehr als das externe Standardstromprodukt** — entweder
+  **pauschal ≤ 80 %** dieses Tarifs (ohne Kostennachweis; garantierte 20 % Mieter-Ersparnis) oder **effektiv
+  nach Gestehungskosten** (reale Kosten minus Einspeiseerloes, gedeckelt aufs Standardprodukt; bei tieferen
+  Kosten hoechstens die **halbe Ersparnis** zusaetzlich). Einrechenbar: PV-Produktionskosten, Messtarife,
+  Dienstleistergebuehr, Netzstrom 1:1. Mieter haben ein **Wahlrecht** bei ZEV-Gruendung + Anfechtungsrecht;
+  keine Ueberwaelzung ueber den Nettomietzins. Berechnung mit dem EnergieSchweiz-Excel (2024-03-11).
+  → [[zev-mieter-strompreis-eigenverbrauch]] (EnergieSchweiz-Leitfaden/lokalerstrom.ch, EnV Art. 16).
+
+## Hebel 3 — organisatorisch ueber die Liegenschaft hinaus: die LEG (ab 1.1.2026)
+- Die **Lokale Elektrizitaetsgemeinschaft (LEG)** ist das **dritte** neue Instrument (StromVG, Volksentscheid
+  9.6.2024, in Kraft **1.1.2026**): Strom wird mit Nachbarn **ueber das oeffentliche Verteilnetz** gehandelt.
+- **Netzentgelt-Rabatt 40 %** (keine Transformation) bzw. **20 %** (mit Transformation) — **nur** auf
+  Wirkenergie/Wirkleistung/Grundpreis, **nicht** auf SDL/Stromreserve/Netzzuschlag/Gemeindeabgaben/Messtarife.
+  Der Vorteil ist damit **kleiner als der ZEV-Vorteil** (dort fallen die Netzkosten fuer den Eigenverbrauch
+  ganz weg), reicht aber **ueber die eigene Liegenschaft hinaus**.
+- **Voraussetzungen:** gleiches Netzgebiet, **gleiche Gemeinde**, gleiche Netzebene (NE5/NE7, ≤ 36 kV),
+  **≥ 5 %** Produktionsanteil der Anschlussleistung, Smart Meter. Teilnehmer bleiben **VNB-Kunden** (keine
+  Solidarhaftung, anders als im ZEV). vZEV (in der Liegenschaft) und LEG (darueber hinaus) sind **kombinierbar**.
+  → [[leg-lokale-elektrizitaetsgemeinschaft-2026]] (EKZ/VSE). Rein rechtlich/tariflich → Skill `baurecht`;
+  STWEG-Reglement → Skill `stockwerkeigentum`.
 
 ## Kennzahlen (Definitionen)
 | Kennzahl | Bedeutung |
@@ -53,7 +69,8 @@ traegt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebae
 | **Autarkiegrad** R_aut = E_eig/E_ges | Unabhaengigkeit vom Netz (nie 100 %) |
 | **Solarer Deckungsgrad WP** R_sol,WP = E_eig,WP/E_WP | PV-Optimierung der Waermepumpe |
 
-⚠ **Datenstand 2026-07-04:** vZEV/LEG-Regeln sind mit dem Stromgesetz frisch (EnG + EnV Stand 1.1.2025) und
+⚠ **Datenstand 2026-07-05:** vZEV/LEG-Regeln sind mit dem Stromgesetz frisch (EnG + EnV Stand 1.1.2025,
+LEG ab 1.1.2026) und
 altern schnell — konkrete Tarif-/Preisregeln vor Zusagen am aktuellen Stand (VSE / EnergieSchweiz /
 Standort-VNB) pruefen. Absolut-Ertraege/Eigenverbrauchsquoten → [[pv-ertrag-eigenverbrauch-praxis]];
 Marktpreise → [[pv-marktzahlen-kosten-ch-2025]]; Foerderung Bund → [[pv-einmalverguetung-bund-bfe]].

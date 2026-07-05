@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-04
-sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-05
+sources: [destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1165,18 +1165,63 @@ der **ZEV (Art. 17 EnG)** buendelt mehrere Parteien und hebt so den Eigenverbrau
 
 Praktisch: Ganze geeignete Dachflaeche belegen (Grundkosten hoch, Modul-Zusatzkosten gering). Einen
 **Vertreter** bestimmen, der intern abrechnet und den ZEV nach aussen vertritt (oft ein EVU/Dienstleister);
-Anlagen **≥ 30 kVA** brauchen einen separaten Produktionszaehler. Der **Mieter-Preis** darf nicht ueber dem
-externen Standard-Tarif liegen (Detail: EnergieSchweiz-Leitfaden Eigenverbrauch). **Nicht verwechseln:** die
-**Lokale Elektrizitaetsgemeinschaft (LEG)** — Stromverkauf ueber das **oeffentliche** Quartiernetz — ist ein
-**anderes**, ebenfalls neues Instrument (eigenes Regelwerk BD-LEG).
+Anlagen **≥ 30 kVA** brauchen einen separaten Produktionszaehler.
+
+**Was Du den Mietern verrechnen darfst (konkret):** pro kWh **nie mehr als das externe Standardstromprodukt**.
+Zwei Wege — (1) **pauschal hoechstens 80 %** des normalen Tarifs (kein Kostennachweis noetig, garantierte
+Mieter-Ersparnis von 20 %) oder (2) **effektiv nach Gestehungskosten** (reale Kosten minus Einspeiseerloes,
+Deckel = Standardtarif; liegen die Kosten tiefer, darf **hoechstens die Haelfte der Ersparnis** zusaetzlich
+verrechnet werden). Einrechenbar: PV-Produktionskosten, Messtarife, Dienstleistergebuehr, Netzstrom 1:1 —
+alles zusammen unter der Obergrenze. **Mieterrechte:** bestehende Mieter haben ein **Wahlrecht** bei ZEV-
+Gruendung, koennen den Preis bei der Schlichtungsbehoerde anfechten; die PV-Kosten duerfen **nicht** ueber
+den Nettomietzins ueberwaelzt werden. Rechnen mit dem **EnergieSchweiz-Excel** (Stand 2024-03-11) →
+`[[zev-mieter-strompreis-eigenverbrauch]]`.
+
+**Nicht verwechseln:** die **Lokale Elektrizitaetsgemeinschaft (LEG)** — Stromverkauf ueber das
+**oeffentliche** Quartiernetz — ist ein **anderes**, ebenfalls neues Instrument (→ **F33** /
+`[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`).
 
 **Quelle:** VSE «Handbuch Eigenverbrauchsregelung» HER-CH 2025 (verabschiedet 10.02.2025; Rechtsbasis EnG +
-revidierte EnV, Stand 01.01.2025) → `[[zev-eigenverbrauch-mfh-her-2025]]`; Eigenverbrauch technisch heben
-(WP/Lastmanagement) → F31 / `[[wp-pv-eigenverbrauch-lastmanagement]]`; MFH-Eigenverbrauchswerte F18 →
-`[[pv-ertrag-eigenverbrauch-praxis]]`; Themenartikel → `[[pv-eigenverbrauch-zev]]`; STWEG-Reglement → Skill
-`stockwerkeigentum`. ⚠ **Datenstand 2026-07-04:** vZEV/LEG mit dem Stromgesetz frisch — konkrete Tarif-/
-Preisregeln vor Zusagen am aktuellen Stand (VSE/EnergieSchweiz/Standort-VNB) pruefen. Tarif-/Energierecht
-→ Skill `baurecht`.
+revidierte EnV, Stand 01.01.2025) → `[[zev-eigenverbrauch-mfh-her-2025]]`; Mieter-Preisregel (EnergieSchweiz-
+Leitfaden Eigenverbrauch / lokalerstrom.ch, EnV Art. 16) → `[[zev-mieter-strompreis-eigenverbrauch]]`;
+Eigenverbrauch technisch heben (WP/Lastmanagement) → F31 / `[[wp-pv-eigenverbrauch-lastmanagement]]`;
+MFH-Eigenverbrauchswerte F18 → `[[pv-ertrag-eigenverbrauch-praxis]]`; Themenartikel → `[[pv-eigenverbrauch-zev]]`;
+STWEG-Reglement → Skill `stockwerkeigentum`. ⚠ **Datenstand 2026-07-05:** vZEV/LEG mit dem Stromgesetz frisch —
+konkrete Tarif-/Preisregeln vor Zusagen am aktuellen Stand (VSE/EnergieSchweiz/Standort-VNB) pruefen.
+Tarif-/Energierecht → Skill `baurecht`.
+
+---
+
+## F33 — «Kann ich Solarstrom mit den Nachbarn im Quartier teilen — was ist die Lokale Elektrizitaetsgemeinschaft (LEG)?»
+
+**Kurz:** Ja — **neu ab 1.1.2026** erlaubt die **Lokale Elektrizitaetsgemeinschaft (LEG)**, lokal erzeugten
+Strom mit Nachbarn **ueber das oeffentliche Quartiernetz** zu handeln. Dafuer gibt es einen **Netzentgelt-
+Rabatt von 40 %** (wenn keine Transformation noetig ist) bzw. **20 %** (mit Transformation). Der Vorteil ist
+**kleiner als beim ZEV** (dort fallen die Netzkosten fuer den Eigenverbrauch ganz weg) — dafuer reicht die LEG
+**ueber die eigene Liegenschaft hinaus**.
+
+**Fachlich:** Die LEG ist das **dritte**, mit dem revidierten Stromversorgungsgesetz (StromVG, Volksentscheid
+9.6.2024) geschaffene Eigenverbrauchs-Instrument. Der Rabatt gilt **nur** auf die Netzkomponenten fuer
+**Wirkenergie, Wirkleistung und Grundpreis** — **nicht** auf Swissgrid-SDL, Stromreserve, Netzzuschlag,
+Gemeindeabgaben und Messtarife.
+
+| | **ZEV / vZEV** | **LEG** |
+|---|---|---|
+| Wo | hinter dem Hausanschluss (privat) | ueber das **oeffentliche** Verteilnetz |
+| Kundenstatus | ZEV = **ein** Endverbraucher nach aussen | jeder bleibt **VNB-Kunde**, keine Solidarhaftung |
+| Netzkosten-Vorteil | Eigenverbrauch **abgabenfrei** (voll) | **Rabatt** 40 % / 20 % auf Teil des Netzentgelts |
+| Reichweite | ein/mehrere Grundstuecke ohne Netznutzung | mehrere Liegenschaften **in der Gemeinde** |
+
+**Voraussetzungen:** gleiches Netzgebiet, **gleiche Gemeinde**, gleiche Netzebene (NE5/NE7, nicht ueber 36 kV),
+**Mindest-Produktion ≥ 5 %** der Anschlussleistung aller Teilnehmer, **Smart Meter**. Der Netzbetreiber
+(z. B. EKZ) misst und stellt Einzelrechnungen; die interne LEG-Abrechnung macht ein **LEG-Vertreter**.
+**Faustregel:** eigenes MFH → ZEV/vZEV (groesster Vorteil); Nachbarn/mehrere Eigentuemer im Quartier → LEG;
+beides kombinierbar.
+
+**Quelle:** EKZ «Lokale Elektrizitaetsgemeinschaft» (Umsetzung StromVG) + VSE-Branchenempfehlung LEG →
+`[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`; ZEV/vZEV-Abgrenzung → F32 / `[[zev-eigenverbrauch-mfh-her-2025]]`;
+Themenartikel → `[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-05:** LEG erst seit 1.1.2026 in Kraft,
+Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen. Energierecht → Skill `baurecht`.
 
 ---
 
@@ -1190,7 +1235,14 @@ Preisregeln vor Zusagen am aktuellen Stand (VSE/EnergieSchweiz/Standort-VNB) pru
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-04: 32 Kernfragen F1-F32 belegt.** Neu am 2026-07-04: **F31 ‹Lohnt sich PV zusammen
+> **FAQ-Stand 2026-07-05: 33 Kernfragen F1-F33 belegt.** Neu am 2026-07-05: **F33 ‹Solarstrom mit den
+> Nachbarn teilen — Lokale Elektrizitaetsgemeinschaft (LEG)?›** (neu ab 1.1.2026, StromVG; Netzentgelt-Rabatt
+> 40 %/20 %, nur auf Wirkenergie/Wirkleistung/Grundpreis; Voraussetzung gleiche Gemeinde/Netzebene/≥5 %
+> Produktion; vs. ZEV = hinter dem Anschluss, abgabenfrei → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`,
+> EKZ/VSE). Zugleich **F32 geschaerft** um die **konkrete Mieter-Preisregel**: max. 80 % des externen
+> Standardtarifs (pauschal) oder Gestehungskosten minus Einspeiseerloes mit halber Ersparnis-Teilung;
+> Mieter-Wahlrecht + Anfechtung, keine Nettomiet-Ueberwaelzung → `[[zev-mieter-strompreis-eigenverbrauch]]`
+> (EnergieSchweiz-Leitfaden/lokalerstrom.ch, EnV Art. 16). Zuvor am 2026-07-04: **F31 ‹Lohnt sich PV zusammen
 > mit einer Waermepumpe — Solarstrom selbst nutzen?›** (WP als thermischer Speicher via EMS, solarer
 > Deckungsgrad ~verdoppelbar, Sommer-WW 100 % aus PV; Batterie lohnt sich vorerst nicht/hilft im Winter
 > nicht; SG-Ready/SmartGridready → `[[wp-pv-eigenverbrauch-lastmanagement]]`, EnergieSchweiz/Zogg 2023) und
