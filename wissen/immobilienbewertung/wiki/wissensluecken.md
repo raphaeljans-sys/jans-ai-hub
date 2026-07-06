@@ -22,9 +22,23 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| T19 | **JANS-Healthcare-Kennwert-Raster befuellen** — das interne Blatt «Kennwerte von Alters-/Pflegeheime» (R. Jans 27.04.2024) definiert Wirtschaftlichkeitsfaktoren (Bettzahl, Bauvolumen/HNF, HNF/Bett, GF/Bett, Multiplikationsfaktoren) fuer 4 Referenzobjekte (Emilienheim Bestand/Erweiterung, Wald Tertianum Bestand/Szenarios), ist aber **leer**. Aufgabe: mit belegten Werten (BFS/NZZ + reale JANS-Faelle Wald/Emilienheim) befuellen; offene Fachfragen (rentable Mindest-Bettzahl, normale Heimgroesse, Effizienz-Grenze Multiplikationsfaktor) beantworten | IMMO-06 Healthcare (2411 JANS-Raster) + BFS/Obsan + Skill healthcare-wirtschaftlichkeit | [[projektstruktur-deliverables]], [[realwert-sachwert]] |
+| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen und T19 sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle, D-Freigaben). Naechste Kandidaten sobald verfuegbar: D4 (`.xlsx`-Tool-Formeln), D8 (JANS-Kennwerte-DOCX), Emilienheim-Flaechenkennwerte, Auffrischung Baupreisindex/Zins | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-06 **T19 geschlossen — JANS-Healthcare-Kennwert-Raster befuellt** (Run 14): Das leere
+  interne Blatt «Kennwerte von Alters-/Pflegeheime» (R. Jans 27.04.2024) mit belegten Werten gefuellt
+  aus JANS' eigenem **8-Objekt-Referenzvergleich** (`Kennwerte Altersheime Gesundheitszentren.pdf`,
+  8 reale CH-Heime 2011-2025) + der **SECO/USI-Effizienzstudie** (Crivelli/Filippini/Lunati 2001,
+  835 Heime). Ergebnis: Wirtschaftlichkeitsfaktoren belegt (Bettzahl 28-123; **GF/Bett 90-135 m2**,
+  sinkt mit Groesse; **NF/Bett 51-71 m2**; **Bauvolumen/HNF 4.3-9.7**) → [[projektstruktur-deliverables]];
+  Kostenbasis von 1 auf 8 Objekte verbreitert (**BKP 2 = 2'623-4'250 CHF/m2 GF / 826-1'420 CHF/m3 GV /
+  273'000-780'000 CHF/PZ**) → [[realwert-sachwert]]; Healthcare-Flaechenfaktor **HNF/GF ~0.55** belegt
+  → [[flaechendefinitionen-sia]]. Die 3 Fragestellungen beantwortet: **optimale Betriebsgroesse
+  70-80 Betten** (SE = 1 bei 79), Kostenersparnisse ab ~50 Betten nicht mehr betraechtlich, normale
+  Groesse **Median 52 / Ø 62 Betten**, ~50 % der CH-Heime zu klein → [[ertragswert-dcf]]. Offen (an
+  Bopp): welche Kennwerte fuer den Projektentwickler entscheidend sind; Emilienheim-Flaechenkennwerte
+  (im Referenzblatt nicht hinterlegt).
 
 - ✓ 2026-07-04 **T17 vollstaendig geschlossen (Investoren-Markt-Seite)** (Run 13): Aus dem
   **Geschaeftsbericht der SenioResidenz AG 2017** (reiner Healthcare-Immobilien-**Investor**,

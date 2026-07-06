@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-06 — twin-mail-training (Batch 26): Sweep 2026-02-01…02-05 + Claude-Ära-Zäsur
+- Sent Items rj@, älteste zuerst, ab 2026-01-31: 20 Mails gesichtet, 5 Volltexte destilliert
+  (KISPI-Umnutzung 1.OG Grobkostenschätzung/Wüest-Kennwertanfrage/Themen-Block-Statusmail/
+  Abklärungs-Verlauf; STWEG-Rechnung Biel ans Gremium). Metrik 423 W: Du-Gross 1.0, Apostroph
+  1×, Satzlänge ø 15.7 W, Grüsse Lieber Gruss 2× / Freundliche Grüsse 1× / Bester Gruss 1× /
+  «Hochachtungsvoll Ihr Architekt» 1×.
+- **Echo-Falle 7 = Zäsur:** erster Befund von **Claude-Grundtext** in den rj@-Sent-Items (nicht
+  mehr nur Paste) — poliert strukturierte Kennwert-Plausibilisierungs-/Fazit-Blöcke, wortgleich
+  über zwei Feb-Mails wiederverwendet → als `claude-aera`-äquivalent von der Stilquelle
+  ausgeschlossen; nur die handgetippten Rahmen destilliert. Vor-Claude-Goldkorpus endet faktisch
+  mit Jan 2026; ab Feb Sent-Mails doppelt prüfen. CLAUDE-Authentizitätsregel greift (Echo-Schutz).
+- 6 Facetten geschärft (je Marker + Beleg-Datum + Gewichtung, keine Volltexte gehortet):
+  stimme «Hochachtungsvoll Ihr Architekt» Gremien-Signoff + Echo-Falle-7-/Claude-Ära-Sektion +
+  Metrik Batch 26; beziehungsregister Gremien-/Körperschafts-Anrede STWEG + Sie-Mapping Weber/
+  Wüest + KISPI-Team-Sammelanrede; fachsignatur Healthcare-Umbau-Kennwerte gestaffelt nach
+  Pflegetiefe (+/-25 %, m² NF) + Hochfaktorierung + Gebäudetechnik-Revisionsunterlagenkatalog/
+  Second-Opinion; arbeitsweise Themen-Block-Statusmail + dreistufige Rechnungs-Freigabe-Kette
+  Prüfung→Freigabe→Zahlung + A/B/C-Verlaufschronologie + Budget-Streichliste; haltung Budget
+  gegen eigenes Honorar schützen «nur das zwingendste» + Reifegrad «ungesichertes internes
+  Feedback» markieren; denken Hochfaktorierung vom Bekannten + Genauigkeitsband führen.
+- Frontmatter aller 6 Artikel: Quelle 260706-mailbatch-26.md ergänzt, last_updated 2026-07-06.
+  _INGESTED.md: Batch-26-Zeile + Sweep-Stand 2026-02-05 + Zäsur-Hinweis.
+
 ## 2026-07-06 — twin-fidelity-review (alle 2 Tage): Gesamt-Fidelity 92/100
 - Goldproben (authentisch, vor-Claude, rj@ Sent Items, neues Register-Dreieck): Gold A formell-Sie
   HRA-Vorprüfung Umfirmierung UNARC→JANS GmbH (2025-10-31) · Gold B wärmstes operatives Peer-Du

@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -554,6 +554,26 @@ Neue Anrede-Nuance und Kontakt-Paare aus dem Cluster 23.–30.01.2026:
 - **Nuance «Geschätzter» im Sie:** die wärmere Anrede «Geschätzter Herr <Name>» / «Geschätzte Frau <Name>» nutzt
   Raphael bei geschätzten Fach-/Projektpartnern (Simmen, Goller), das kühlere «Sehr geehrter» bei reiner
   Akquise-/Lieferanten-Distanz (Gasser, Quenson, Steinmann) — beide im Sie, aber mit abgestufter Wärme.
+
+## Gremien-/Körperschafts-Anrede + neue Sie-Mappings (belegt Mailbatch 26, authentisch)
+- **Kollektiv-Organ als Adressat (Eigentümergemeinschaft/Vorstand):** an eine STWEG-Gemeinschaft schreibt Raphael
+  nicht an eine Einzelperson, sondern an das **Gremium als Körperschaft** und stapelt die Organ-Anreden:
+  «**Geschätzte Stockwerkeigentümerschaft** *Ernst-Schüler-Strasse 41, 2502 Biel* / **Werter Präsident, werter
+  Bauvorstand**» (STWEG Biel, Rechnung z.H. der Gemeinschaft, 2026-02-04). Register: förmlich-würdig, gehoben, mit
+  dem Signoff «Hochachtungsvoll Ihr Architekt» (→ [[stimme]]). Reiht sich zur gestapelten Mehrfachanrede je
+  Adressatentyp (KISPI-Team), hier auf ein **Kollektiv-Organ** gerichtet (Präsident + Bauvorstand als Funktionen).
+  Der Zwilling adressiert eine Eigentümer-/Bauherren-Gemeinschaft als Körperschaft + benennt die Organe («werter
+  Präsident, werter Bauvorstand»), nicht die Einzelpersonen. Neues Projekt-Mapping: STWEG Ernst-Schüler-Strasse 41,
+  Biel (Begründung STWEG) → Gremien-Sie, Abwicklung faktisch über Maria Jans + Tom Bickel.
+- **KISPI-Gruppenanrede voll ausgebaut:** «**Geschätztes Projektteam, / Werter Albin, Nesa und Peter**» (Multi-
+  Themen-Statusmail, 2026-02-04) — Team-Sammelanrede + namentliche Du-Reihung der drei Projektpartner (KISPI-
+  Betreiber Albin / Partnerbüro Nesa / Baumanager Peter). Bestätigt den Register-Mix je Empfänger im Du-Team.
+- **Neue Sie-Mappings (formell):** Matthias Weber (matthias.weber@wuestpartner.com, Wüest Partner, Partner MRICS,
+  Kostenkennwerte-Bezug) → «**Sehr geehrter Herr Weber**»; das unbekannte Wüest-Sammelpostfach (office@) startet
+  «**Guten Tag**». Zweiter Wüest-Kontakt neben Magdalena Goller (Batch 25) — bestätigt: der Datenanbieter/
+  Fachpartner ist durchweg Sie. Fabian/Jonas Simmen (Gruner, Brandschutzexperte) → «**Geschätzter Herr Simmen**»
+  (bereits Batch 25); Roman Steinmann (Nova) → «**Sehr geehrter Herr Steinmann**» bestätigt (Akontorechnung Sie
+  + «Freundliche Grüsse» + Block).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

@@ -1,8 +1,8 @@
 ---
 title: Projektstruktur und Deliverables (LB/RW/MA/CS/TDD/STWE)
 status: established
-last_updated: 2026-07-04
-sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22; Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021) + Skill healthcare-wirtschaftlichkeit — Healthcare-Bewertungsbruecke T17 Run 12 2026-07-02; SenioResidenz AG GB 2017 (Healthcare-Investoren-Fall, impl. Brutto-Yield ~5.3 %) + BFS «Indikatoren Pflegeheime 2019-2021» + NZZ/Curaviva Pflegekosten + JANS-Kennwert-Raster «Alters-/Pflegeheime» (R. Jans 27.04.2024, Struktur) + Emilienheim Kilchberg (realer ZH-Erweiterungsfall) — T17 Investoren-Seite Run 13 2026-07-04]
+last_updated: 2026-07-06
+sources: [IMMO-01 Projekte (_Vorlage, BEWERTUNG/STWE/TDD/CONTROLLING/MASSAUFNAHMEN; reale Faelle Thalwil 9568 / Ebmatingen 3932 / Langnau 3338 / Wangen / Niederhasli, Stand 06.2026), LB Thalwil 9568 (250328) + MA Thalwil (241126, 2414_Marktwertanalyse) + LB Ebmatingen 3932 + Neubau-Potenzial Wangen 2622 (260609) — quantitative Kennwert-Auswertung Run 5; CS Niederhasli Seestrasse 64 (250811, 5 S.) + LB Langnau Giebelweg 12 (260603) + LB Wangen Bahnhofstr. 27 (260609) — Deliverable-Methodik Run 6; CS-Sensitivitaets-Generator (verallgemeinertes Schema + geschlossene Break-Even-Formel, hergeleitet/validiert aus den Niederhasli-Ist-Zahlen) — T18 Run 8 2026-06-22; Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021) + Skill healthcare-wirtschaftlichkeit — Healthcare-Bewertungsbruecke T17 Run 12 2026-07-02; SenioResidenz AG GB 2017 (Healthcare-Investoren-Fall, impl. Brutto-Yield ~5.3 %) + BFS «Indikatoren Pflegeheime 2019-2021» + NZZ/Curaviva Pflegekosten + JANS-Kennwert-Raster «Alters-/Pflegeheime» (R. Jans 27.04.2024, Struktur) + Emilienheim Kilchberg (realer ZH-Erweiterungsfall) — T17 Investoren-Seite Run 13 2026-07-04; JANS-8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, 8 reale CH-Heime 2011-2025: Averecura/Dankensberg/Vella/Trotte/Herosé/Lanzeln/Mathysweg/St.Anna) + WALD-Tertianum Richtprojekt-Baumassenberechnung (Gruenegg 3'507 m2, V1-V7) + Crivelli/Filippini/Lunati 2001 «Effizienz der Pflegeheime in der Schweiz» (SECO/USI, 835 Heime, Skalenertraege/optimale Betriebsgroesse) — T19 Raster befuellt Run 14 2026-07-06]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -351,18 +351,67 @@ belegt am oeffentlichen Realfall Pflegeheim Herosé Aarau (2021, Run 12):
   nicht als LB/RW dieser KB. Operating-Benchmarks fuer die Plausibilisierung (BFS 2021:
   Beherbergungskosten 10'035 CHF/Mt, Belegung 90 %, 1.0 VZAe/Platz, 60 % defizitaer;
   Kostenstruktur Pension/Pflege/Betreuung): [[ertragswert-dcf]].
-- **JANS-Healthcare-Kennwert-Raster (Arbeitsstand):** Das interne Blatt «Kennwerte von Alters-
-  und Pflegeheime» (R. Jans 27.04.2024) definiert die relevanten Wirtschaftlichkeitsfaktoren —
-  **Bettzahl, Bauvolumen/HNF, HNF/Bett, GF/Bett, Multiplikationsfaktoren** — mit den vier
-  Referenzobjekten Emilienheim (Bestand + Erweiterung) und Wald Tertianum (Bestand + Szenarios).
-  Das Raster ist noch **unbefuellt** (offene Fragen: rentable Mindest-Bettzahl, normale Heimgroesse,
-  ab wann der Multiplikationsfaktor die Effizienz nicht mehr treibt; «Fragen an Bopp» =
-  Projektentwickler-Sicht). Realer ZH-Entwicklungsfall dazu: **Emilienheim Kilchberg** —
-  Erweiterung ~25 Mio (Bauherren-/Medienangabe ~2019) mit 15 quersubventionierenden
-  Alterswohnungen + 7-geschossigem Neubau + 2. Fluegel; Gestaltungsplan (Waldabstand 23→15 m)
-  nach ~2.5 J Rekurs 2024 rechtskraeftig — Modell «Alterswohnungen finanzieren den Pflegebetrieb
-  quer, damit die Stiftung ohne oeffentliche Hand auskommt». Das Raster zu befuellen (Zahlen aus
-  BFS/NZZ + realen JANS-Faellen) bleibt eine offene T-Aufgabe.
+- **JANS-Healthcare-Kennwert-Raster (T19 befuellt, Run 14 2026-07-06):** Das interne Blatt
+  «Kennwerte von Alters- und Pflegeheime» (R. Jans 27.04.2024) definiert vier
+  Wirtschaftlichkeitsfaktoren (**Anzahl Bettzahl, Bauvolumen/HNF, HNF/Bett, GF/Bett**) in den
+  Stufen Tief/Mittel/Hoch, vier Referenzobjekte (Emilienheim Bestand/Erweiterung, Wald Tertianum
+  Bestand/Szenarios) und drei Fragestellungen. Es lag **leer** vor; die belegten Werte stammen nun
+  aus JANS' eigenem **8-Objekt-Referenzvergleich** (`Kennwerte Altersheime Gesundheitszentren.pdf`,
+  WALD-2410-Arbeitsgrundlagen — 8 reale CH-Alters-/Pflegeheime 2011-2025) und der SECO/USI-
+  Effizienzstudie (Crivelli/Filippini/Lunati 2001, 835 CH-Pflegeheime). Die Kosten-Zeilen dieses
+  Vergleichs (CHF/m2 GF, CHF/m3 GV, CHF/PZ) stehen in [[realwert-sachwert]]; hier die
+  Wirtschaftlichkeits-/Flaechenfaktoren:
+
+  **Belegte Bandbreiten der Wirtschaftlichkeitsfaktoren (8 reale Objekte, ⚠ St. Anna LU =
+  gemischtes Zentrum, Ausreisser):**
+
+  | Faktor | Tief | Mittel | Hoch | Beleg-Bandbreite (Objekte) |
+  |---|---|---|---|---|
+  | **Anzahl Bettzahl (PZ)** | ~28-35 (klein) | ~55-70 (Median) | ~90-123 (gross) | 28 / 34 / 55 / 68 / 89 / 116 / 121 / 123 |
+  | **GF/Bett (m2 GF)** | **90** (gross, effizient) | ~110-118 | ~135 (klein/grosszuegig) | Herosé 90 · Lanzeln 90 · Mathysweg 98 · Averecura 111 · Dankensberg 118 · Trotte 135 |
+  | **NF/Bett (m2 NF)** | ~51-53 (gross) | ~58-67 | ~71 (klein) | Mathysweg 51 · Lanzeln 53 · Trotte 58 · Averecura 67 · Dankensberg 71 |
+  | **Bauvolumen/HNF (m3 GV je m2 HNF)** | **4.3** (kompakt) | ~5.4-6.6 | ~7.1+ | Averecura 4.29 · Dankensberg 5.16 · Lanzeln 5.44 · Mathysweg 6.55 · Trotte 7.08 (Zentrum St. Anna 9.71) |
+
+  **Durabler Skaleneffekt-Befund:** GF/Bett und NF/Bett **sinken mit der Heimgroesse** — die grossen
+  Heime (Herosé 116 PZ, Lanzeln 123 PZ) brauchen nur **~90 m2 GF/Bett**, die kleinen (Averecura
+  28 PZ) **~111 m2 GF/Bett**. Das ist die flaechenseitige Auspraegung der Skalenerträge: pro
+  Pflegeplatz sinkt der Gebaeudeaufwand, je groesser das Heim. Fuer die Grobdimensionierung eines
+  neuen Pflegeheims: **~90-100 m2 GF/Bett** (grosses Heim), **~110-120 m2 GF/Bett** (kleines Heim);
+  HNF/GF-Effizienz Healthcare **~0.43-0.61 (Ø ~0.55)**, deutlich unter Wohnen (0.60-0.75) wegen
+  breiter Erschliessung, Pflegestuetzpunkten und Gemeinschaftsflaechen ([[flaechendefinitionen-sia]]).
+
+  **Antworten auf die drei Fragestellungen (belegt, Crivelli/Filippini/Lunati 2001, SECO):**
+  1. **«Ab welcher Bettzahl ist der Betrieb rentabel / optimal?»** Die oekonometrische
+     Frontierkostenfunktion (835 CH-Pflegeheime) zeigt zunehmende Skalenertraege bei kleinen
+     Heimen (30 Betten: SE = 1.102) und weist die **optimale Betriebsgroesse bei 70-80 Betten**
+     aus (konstante Skalenertraege SE = 1 bei **79 Betten**). **Ab ~50 Betten sind die
+     Kostenersparnisse nicht mehr betraechtlich** — das ist die praktische Untergrenze. ⚠ Rentabel
+     ≠ kostenoptimal: die Studie misst Kosteneffizienz, nicht die Ertragsseite; die betriebliche
+     Rentabilitaet haengt zusaetzlich an Belegung/Taxen (Skill `healthcare-wirtschaftlichkeit`).
+  2. **«In welchem Bereich liegt die normale Groesse?»** Empirisch (835 Heime, Datenstand ~1998):
+     **Median 52 Betten, Mittelwert 62, Interquartilsbereich 33-79 Betten**. Deckt sich mit dem
+     aktuellen BFS-Schnitt 2021 (96'758 Plaetze / 1'543 Heime ≈ **63 Plaetze/Heim**,
+     [[ertragswert-dcf]]) und mit JANS' Referenzset (28-123, Median 89). **Rund 50 % der CH-Heime
+     sind zu klein** (suboptimal).
+  3. **«Ab wann spielt der Multiplikationsfaktor keine Rolle mehr fuer die Effizienz?»** Die
+     Skalenkurve flacht **ab ~50 Betten** deutlich ab (SE faellt von 1.102 bei 30 Betten auf 1.031
+     bei 58 und 1.006 bei 74) und erreicht bei **~79 Betten das Optimum (SE = 1)**; darueber praktisch
+     konstant/leicht abnehmend. **Warnung (Folgerung 7 der Studie):** nicht uebermaessig gross bauen —
+     zu grosse Heime mindern die Qualitaet der menschlichen Kontakte und damit die Pflegewirksamkeit.
+     ⚠ Datenstand ~1998/2001; die Skalenaussage ist ein struktureller (kein Preis-)Befund, daher
+     durabel, die absoluten Bettzahl-Schwellen aber mit heutigen Betriebsmodellen zu plausibilisieren.
+
+  **Referenzobjekte des Rasters (belegt):** «Wald Tertianum» = **WALD/Averecura** (WA-ZH, Studie 2025):
+  Richtprojekt-Kleinvariante **28 PZ, GF 3'100 m2, GV 9'600 m3, HNF 1'880 m2, BKP 2 = 12.34 Mio
+  (1'420 CHF/m3 GV, 4'250 CHF/m2 GF), Hotellerietaxe 150 CHF/Tag**. Die «Szenarios» sind die
+  WALD-Baumassenvarianten V1-V7 auf dem Gruenegg-Grundstueck (3'507 m2): Heim-Baumasse von
+  **2'700 m3 (Bestand) bis 13'620 m3 (Gestaltungsplan L)**, mit JANS-Approximationsfaktoren
+  **GF ≈ 0.33 × Baumasse, NF ≈ 0.20 × Baumasse** (Baumassenberechnung Richtprojekt). «Emilienheim»
+  (Kilchberg) liegt als realer ZH-Entwicklungsfall vor (Erweiterung ~25 Mio, 15 quersubventionierende
+  Alterswohnungen + 7-gesch. Neubau; Gestaltungsplan Waldabstand 23→15 m nach ~2.5 J Rekurs 2024
+  rechtskraeftig — Modell «Alterswohnungen finanzieren den Pflegebetrieb quer»), ist im JANS-
+  Referenzblatt aber (noch) nicht mit Flaechen-Kennwerten hinterlegt. **Offen (an Bopp):** welche
+  dieser Kennwerte fuer den Projektentwickler die Entscheidungsgroesse sind.
 
 ## Output-Ablage (neue Bewertungen)
 

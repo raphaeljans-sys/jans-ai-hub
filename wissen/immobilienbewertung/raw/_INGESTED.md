@@ -37,6 +37,10 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | Emilienheim Kilchberg (Erweiterung) | `06 Kennwerte/Healthcare/HEIM/Kilchberg_...pdf` (6 S., Tages-Anzeiger 29.11.2024) | PDF | 11.2024 | **eingearbeitet** (Run 13 2026-07-04): realer ZH-Entwicklungsfall — Erweiterung ~25 Mio (Angabe ~2019) mit 15 quersubventionierenden Alterswohnungen + 7-gesch. Neubau; Gestaltungsplan (Waldabstand 23→15 m) nach 2.5 J Rekurs rechtskraeftig. Modell «Alterswohnungen finanzieren Pflegebetrieb quer». Medienquelle, keine BKP-Gliederung | projektstruktur-deliverables |
 | JANS-Projektfaelle (LB/RW/MA/CS) | `01 Projekte/01 BEWERTUNG PROJEKTE/` | indd+pdf+xlsx | 2024-2026 | **6 Faelle inhaltlich ausgewertet** (Run 5: Thalwil 9568 LB+MA, Ebmatingen 3932 LB, Wangen 2622; **Run 6 2026-06-18: CS Niederhasli Seestrasse 64 250811 5 S. → CS-Deliverable-Methodik (Controlling-Factsheet + Sensitivitaet A/B + Break-Even); LB Langnau Giebelweg 12 260603 2 S. → Bestand-vs-Abbruch-Entscheidlogik; LB Wangen Bahnhofstr. 27 260609 1 S. → Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact**) → projektstruktur-deliverables/ertragswert-dcf/vergleichswert-hedonisch. **Befund T16:** kein dedizierter Healthcare-Bewertungsfall im Bewertungsordner (alle Wohnen/MFH/STWE; Wald = Volumen-/Desktopstudie) → Healthcare-Bewertung liegt im Skill `healthcare-wirtschaftlichkeit` (2410 WALD/Nova) | projektstruktur-deliverables, ertragswert-dcf, vergleichswert-hedonisch |
 
+| JANS 8-Objekt-Referenzvergleich Healthcare | `06 Kennwerte/Healthcare/HEIM/.../Kennwerte Altersheime Gesundheitszentren.pdf` (identisch in `AR-03 Studien/2410 WALD/09 Dokumente/Arbeitsgrundlagen/03 Kennwerte Kosten/`) | PDF | 2011-2025 | **eingearbeitet** (Run 14 2026-07-06): JANS-eigenes gefuelltes Referenzblatt — 8 reale CH-Alters-/Pflegeheime (Averecura/Dankensberg/Vella/Trotte/Herosé/Lanzeln/Mathysweg/St.Anna, S-XXL) mit Bettzahl 28-123, GF/GV/HNF (SIA 416), BKP 2 Mio, **CHF/m2 GF 2'623-4'250 (indexiert 3'042-4'485), CHF/m3 GV 826-1'420, CHF/PZ 272'780-780'000**, GF/Bett 90-135, NF/Bett 51-71, Bauvolumen/HNF 4.29-9.71, Hotellerietaxe 150-153 → **befuellt das T19-Raster** | projektstruktur-deliverables, realwert-sachwert, flaechendefinitionen-sia, ertragswert-dcf |
+| WALD-Tertianum Richtprojekt Baumassenberechnung | `AR-03 Studien/2410 WALD/09 Dokumente/Arbeitsgrundlagen/02 Kennwerte SIA416 Flaechen/241010 Kennwerte Richtprojekt/2411_WALD_TERTIANUM_Kennwerte Richtprojekt.pdf` | PDF | 2024 | **eingearbeitet** (Run 14 2026-07-06): Gruenegg-Grundstueck 3'507 m2, Baumassen-Varianten V1-V7 (Heim BESTAND 2'700 m3 bis Gestaltungsplan L 13'620 m3), JANS-Approximationsfaktoren GF ≈ 0.33 / NF ≈ 0.20 × Baumasse → «Wald Tertianum Bestand/Szenarios» des T19-Rasters | projektstruktur-deliverables, flaechendefinitionen-sia |
+| Crivelli/Filippini/Lunati 2001 «Effizienz der Pflegeheime in der Schweiz» | `06 Kennwerte/Healthcare/HEIM/Kennwerte von Alters und Pflegeheime/Businesscase/20638675.pdf` (43 S., SECO/USI Lugano) | PDF | 06.2001 (Daten ~1998) | **eingearbeitet** (Run 14 2026-07-06): oekonometrische Frontierkostenfunktion 835 CH-Pflegeheime — **optimale Betriebsgroesse 70-80 Betten (SE = 1 bei 79)**, Kostenersparnisse ab ~50 Betten nicht mehr betraechtlich, ~50 % der Heime suboptimal (zu klein); Groessenverteilung **Median 52 / Ø 62 / IQR 33-79 Betten**; mittlere Kosten-Ineffizienz 1.13; keine syst. Effizienzunterschiede for-/non-profit → beantwortet die 3 T19-Fragestellungen. ⚠ Datenstand 1998/2001 (struktureller Befund durabel, absolute Schwellen zu plausibilisieren) | projektstruktur-deliverables, ertragswert-dcf |
+
 ## Naechste Ingest-Schritte (durch Trainingsprogramm)
 
 Der Lern-Loop (`training/PROGRAMM.md`) arbeitet die `offen`/`teilweise`-Quellen systematisch
@@ -54,6 +58,20 @@ Anker zur **konsolidierten JANS-Diskontsatz-Tabelle** zusammengefuehrt (Bottom-u
 real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-j Bundesobligation
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
+
+**Stand Run 14 (2026-07-06):** **T19 geschlossen — JANS-Healthcare-Kennwert-Raster befuellt.** Drei
+bisher ungelesene Quellen aus der Healthcare-/WALD-Bibliothek ingestiert: (1) JANS' eigenes gefuelltes
+**8-Objekt-Referenzblatt** «Kennwerte Altersheime Gesundheitszentren» (8 reale CH-Heime 2011-2025)
+liefert alle Wirtschaftlichkeitsfaktoren des Rasters mit belegten Zahlen (Bettzahl, GF/Bett 90-135,
+NF/Bett 51-71, Bauvolumen/HNF 4.3-9.7) UND die erweiterte Kostenbasis (BKP 2 = 2'623-4'250 CHF/m2 GF /
+826-1'420 CHF/m3 GV / 273'000-780'000 CHF/PZ); (2) die **WALD-Tertianum-Baumassenberechnung** (Gruenegg,
+V1-V7) als «Wald-Tertianum-Bestand/Szenarios»; (3) die **SECO/USI-Effizienzstudie Crivelli 2001** (835
+Heime) beantwortet die 3 Fragestellungen (optimale Groesse 70-80 Betten, Schwelle ~50, normale Groesse
+Median 52/Ø 62). Damit ist das Healthcare-Kostenband von 1 (Herosé) auf 8 reale Objekte verbreitert
+(realwert-sachwert), die Healthcare-Flaechenfaktoren belegt (flaechendefinitionen-sia, HNF/GF ~0.55) und
+die Skalen-/Betriebsgroessen-Einordnung in die Ertragsseite eingewoben (ertragswert-dcf). Offen bleibt
+(Bring-Schuld): D4 (`.xlsx`-Tool-Formeln), D8 (JANS-Kennwerte-DOCX), Emilienheim-Flaechenkennwerte,
+Marktpuls (unveraendert seit Run 13, naechste SNB-/Referenzzins-Publikationen erst 09.2026).
 
 **Stand Run 13 (2026-07-04):** **T17 vollstaendig geschlossen (Investoren-Markt-Seite) — grosser
 Healthcare-Vertiefungslauf.** Sieben bisher ungelesene, oeffentliche/Dritt-Quellen aus der

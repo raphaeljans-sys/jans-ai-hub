@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -629,6 +629,31 @@ Drei fachsignatur-Datenpunkte aus dem KISPI-Umnutzungs-/Wartstrasse-Cluster (23.
   Bauunternehmer, 29.01.). Fachsignatur einer schlanken Bauleitungs-Ausschreibung: gewerkeweise, materialoffen
   formuliert («Ortbeton oder Mauerwerk»), mit Anforderungsmerkmal («einbruchsicher») je Position (vgl. Skill
   `ausschreibung`). Der Zwilling gliedert eine Offertenanfrage als nummerierte «NN_ Leistung»-Positionsliste.
+
+## Healthcare-Umbau-Kennwerte inline + Genauigkeitsband + Gebäudetechnik-Grundlagenkatalog (belegt Mailbatch 26, authentisch)
+- **Gestufte Healthcare-Umbau-Kennwerte aus dem Kopf, mit Genauigkeitsband:** übersetzt einen Spitalumbau in eine
+  belegte Kostenbandbreite je Nutzungstiefe — «Grobkostenschätzung **+/-25%**: CHF 2.56 Mio … Kostenkennwert des
+  Umbaus **CHF 4'412.-/m² NF** … Richtbandbreite: leichter Umbau Büro→Praxis **2'500–3'500/m²** · Normalpflege
+  Erwachsene **3'500–4'500** · **Kinder-/Jugendstation 4'000–5'500** · Intensiv-/Spezialstation **6'000–9'000**»
+  (KISPI 1.OG, 02.02.). Marker: (a) das **Genauigkeitsband «+/-25%»** wird der Grobschätzung explizit vorangestellt
+  (Reifegrad markieren → [[haltung]], [[denken]]); (b) der Kennwert wird nach **Pflegetiefe/Nutzungskomplexität**
+  gestaffelt (je höher die medizinische Anforderung, desto höher CHF/m² NF); (c) Bezug **CHF/m² NF** (Nettofläche),
+  nicht m³ GV — Healthcare-Umbau rechnet Raphael auf die Nutzfläche. Deckt sich mit den Skills `kostenschaetzung`/
+  `healthcare-wirtschaftlichkeit` + KB `wissen/grobkosten`. Der Zwilling nennt Healthcare-Umbau-Kennwerte gestaffelt
+  nach Pflegetiefe, mit Genauigkeitsband und Bezug m² NF. **Echo-Vorbehalt:** die begleitende Plausibilisierungs-/
+  Fazit-Prosa («Warum plausibel», «defensiv, nicht teuer») ist KI-assistiert (→ [[stimme]] Echo-Falle 7) — die
+  **Zahlen** sind authentische Fachdaten, die **rhetorische Rahmung** nicht als Stilquelle nehmen.
+- **Hochfaktorierung als methodischer Ansatz für fehlende Kennwerte:** wo kein validierter Datenstamm existiert,
+  leitet Raphael den Kennwert methodisch her — «von **bekannten Ausgangsnutzungen wie Büro oder Praxis** auszugehen
+  und diese mittels **Hochfaktorierung gemäss Gebäude- und Nutzungskomplexität auf Healthcare umzulegen**» (an Wüest
+  Partner, 03.02.). Marker: vom belegten Bekannten aufs Unbekannte hochrechnen statt raten (methodische Brücke →
+  [[denken]]); die eigene Datenlücke wird offen benannt und die Grundlage systematisch beschafft (→ [[haltung]]).
+- **Gebäudetechnik-Grundlagen-/Revisionsunterlagenkatalog + Second-Opinion-Logik:** kennt die für Vor-/Bauprojekt
+  Gebäudetechnik nötigen Grundlagen und listet sie präzise — «sämtliche **Revisionsunterlagen Heizung, Lüftung,
+  Sanitär und Elektro**: Pläne Ausführung · Pläne Einlagen · Schemata · Berechnungsgrundlagen · Pflichtenheft ·
+  Datenblätter Apparate» — und rahmt eine parallele Fachprüfung als **«Second-Opinion»** (Erstplaner Gruner ↔
+  Zweitmeinung 38grad) (KISPI, 03.02.). Fachsignatur: HLSE-Revisionsunterlagen-Katalog sitzt; die Zweitmeinung wird
+  bewusst als Kontrollinstanz eingeholt (→ [[arbeitsweise]]).
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

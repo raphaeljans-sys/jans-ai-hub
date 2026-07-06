@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -262,6 +262,25 @@ Zwei Haltungs-Datenpunkte aus dem Lieferanten-/Strategie-Cluster (30.01.2026):
   Healthcare-Spezialisierung ist kein Zufall, sondern erklärte Strategie — und Raphael benennt die eigene
   Wissenslücke offen (kein validierter Kennwert-Stamm), statt sie zu kaschieren, und beschafft die Grundlage
   systematisch (Substanz vor Fassade → [[stimme]]; belegte Kennwerte statt erfinden → [[fachsignatur]]).
+
+## Budget des Bauherrn aktiv schützen + Reifegrad ehrlich markieren (belegt Mailbatch 26, authentisch)
+Zwei Haltungs-Datenpunkte aus dem KISPI-/Kostencluster (02.–04.02.2026):
+- **Das knappe Budget gegen das eigene Honorar verteidigen:** statt das Projekt gross zu halten, schlägt Raphael bei
+  begrenztem Budget von sich aus **Streichungen** vor — «Da das Projektbudget begrenzt ist, schlage ich folgende
+  Vereinfachungen vor: Keine Kücheninsel · Kein Personal-WC mit Dusche · Keine Trennwand … · **Grundsätzlich:
+  wirklich nur das zwingendste planen und bauen.**» (KISPI, 04.02.). Das ist die JANS-Kernhaltung «schützt den
+  Bauherrn vor unnötigem Aufwand/Kosten, auch gegen das eigene Honorar» in ihrer konkretesten Form: er empfiehlt
+  weniger Bauleistung (= weniger Planungsvolumen für sich), weil es dem Bauherrn dient. Reiht sich zu «Betrieb vor
+  Fläche» und zur Rücksicht-Haltung; operationalisiert als **Streich-/Vereinfachungsliste** (→ [[arbeitsweise]]).
+- **Den eigenen Reifegrad/die Unsicherheit ehrlich ausweisen:** kennzeichnet eine frühe Schätzung als das, was sie
+  ist — «Zur Einordnung sende ich Ihnen mein **erstes, noch ungesichertes internes Feedback**» (an Wüest, 03.02.) und
+  stellt der Grobschätzung ein **Genauigkeitsband «+/-25%»** voran (KISPI, 02.02.), mit dem Hinweis, für einen
+  belastbaren Wert brauche es «ein Vor- oder Bauprojekt». Auch die interne Kostenlogik bezeichnet er als «Ausstattung
+  separat ausgewiesen, **nicht schöngerechnet**» — defensiv, nicht optimistisch. Marker: Raphael verkauft eine frühe
+  Zahl nie als härter als sie ist, sondern markiert Reife und Bandbreite offen (Substanz vor Fassade → [[stimme]];
+  belegte Kennwerte statt erfinden → [[fachsignatur]]; Annahmen markieren → [[denken]]). **Vorbehalt:** die polierte
+  «defensiv/plausibel»-Rhetorik selbst ist KI-assistiert (→ [[stimme]] Echo-Falle 7); die *Haltung* dahinter (Reife
+  offenlegen) ist über den handgetippten «ungesicherten internes Feedback»-Satz authentisch belegt.
 
 ## Lücken → [[QUESTIONS]]
 Haltung bei echter Eskalation/Konflikt mit einem Du-/Stammkontakt (nicht nur Planer).

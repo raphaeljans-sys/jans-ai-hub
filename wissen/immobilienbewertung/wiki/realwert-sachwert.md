@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-04
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
+last_updated: 2026-07-06
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -200,6 +200,47 @@ oder CHF/Bett-Kennwerte), Preisstand 2020.04 Ostschweiz (nicht ZH), Fertigstellu
 per Baupreisindex hochgerechnet. Als Groessenordnung + BKP-Struktur belastbar, nicht als aktueller
 ZH-Ansatz. Die Betten-/Zimmer-Kennwerte liefert der Herosé-Fall (oben).
 
+### Healthcare-Kennwerte-Basis erweitert — JANS 8-Objekt-Referenzvergleich (belegt 2011-2025)
+
+Der Herosé-Einzelfall war bisher der einzige datierte Pflegeheim-Anker. JANS' eigenes
+Referenzblatt **«Kennwerte Altersheime Gesundheitszentren»** (WALD-2410-Arbeitsgrundlagen, R. Jans)
+stellt nun **acht reale CH-Alters-/Pflegeheime** (2011-2025, Groessen S bis XXL-Zentrum) mit
+Gebaeudekosten BKP 2, Flaechen (GF/GV/HNF nach SIA 416), Bettzahl und den daraus abgeleiteten
+Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (Run 14):
+
+| Objekt (Groesse) | Jahr | PZ | GF m2 | GV m3 | BKP 2 Mio | CHF/m3 GV | CHF/m2 GF | CHF/PZ (BKP 2) |
+|---|---|---|---|---|---|---|---|---|
+| Averecura WA-ZH (S) | 2025 | 28 | 3'100 | 9'600 | 12.34 | 1'420 | 4'250 | 440'000 |
+| Dankensberg BaS-ZH (S) | 2021 | 34 | 4'040 | 12'500 | 14.00 | 1'120 | 3'465 | 412'000 |
+| Vella GR-VE (M) | 2012 | 55 | 7'150 | 24'000 | 24.5 | 845 | 2'835 | 510'000 |
+| Trotte ZH-ZH (L) | 2019 | 89 | 11'995 | 36'685 | 46.9 | 1'277 | 3'907 | 530'000 |
+| Herosé AA-AR (L) | 2022 | 116 | 10'452 | 36'406 | 40.2 | 1'105 | 3'848 | 347'000 |
+| Lanzeln ST-ZH (XXL) | 2011 | 123 | 11'184 | 35'531 | 29.34 | 826 | 2'623 | 272'780 |
+| Mathysweg ZH-ZH (XXL) | 2022 | 121 | 11'949 | 40'408 | 42.55 | 1'053 | 3'561 | 350'000 |
+| St. Anna LU-LU (Zentrum) | 2021 | 68 | 14'095 | 48'590 | 53.3 | 1'097 | 3'783 | 780'000 |
+
+**Belegte Kennwert-Baender (BKP 2 Gebaeude, Rohwerte je Baujahr):**
+- **CHF/m2 GF: 2'623-4'250** (Median ~3'800); die Neubauten ab 2019 liegen bei **3'560-4'250**,
+  Herosé/Trotte/Mathysweg um **3'850-3'910** — konsistent mit dem frueheren Herosé-Anker.
+- **CHF/m3 GV: 826-1'420** (Median ~1'100); Herosé 1'105 mittig.
+- **CHF/Pflegezimmer (BKP 2, ~24 m2-Zimmer): 272'780-530'000** fuer reine Heime; **780'000** beim
+  St.-Anna-**Zentrum** (Ausreisser, hoher Gemein-/Therapieflaechenanteil). Das erweitert den
+  frueheren Herosé-Vier-Heim-Vergleich (337'000-418'000) nach unten und oben.
+
+**JANS-Teuerungsbereinigung (Referenzblatt, gemeinsamer Index-Stand ~115):** normiert liegen die
+acht Objekte bei **3'042-4'485 CHF/m2 GF** — d.h. auf heutigen Preisstand gerechnet ist das obere
+Band massgebend: **~3'800-4'500 CHF/m2 GF (BKP 2)** fuer einen Pflegeheim-Neubau, mit den
+installations-/gemeinschaftsflaechenreicheren Objekten (Trotte 4'485, St. Anna 4'300, Herosé 4'129)
+oben. Das bestaetigt und praezisiert den Healthcare-Ansatz **~3'850-4'000+ CHF/m2 GF** (WALD-Anker
+~4'000; Herosé 3'848) — fuer gehobene/gemeinschaftsintensive Programme bis **~4'500**.
+⚠ Die genaue Normierungsmechanik der Index-115-Spalte ist aus dem Blatt nicht vollstaendig
+rekonstruierbar (die Abweichung zur reinen Baupreisindex-Rescale deutet auf eine zusaetzliche
+Standard-/Standortkorrektur hin); die **Rohwerte je Baujahr** sind der harte Beleg, die
+Index-Spalte die JANS-interne Vergleichslesart. Hotellerietaxen der Objekte 150-153 CHF/Tag
+(Averecura/Dankensberg 150, Herosé 153) → [[ertragswert-dcf]]. Die Wirtschaftlichkeits-/
+Flaechenfaktoren (Betten, GF/Bett, NF/Bett, Bauvolumen/HNF, optimale Betriebsgroesse) aus
+demselben Blatt: [[projektstruktur-deliverables]] (T19-Raster).
+
 ### Alterswertminderung (Schaetzungsanleitung Kap. 5, Tab. 9-11)
 
 Abzug fuer Alter/Abnutzung des Gebaeudes ueber die **Restnutzungsdauer**. Belegtes
@@ -255,5 +296,10 @@ Instandsetzungskosten decken koennen.
   (2 CH-Spital-Referenzobjekte: Frauenklinik KSL 3'426 / USZ-Mehrzweckbau 3'767 CHF/m2 GF +
   BKP-Aufgliederung USZ, Preisstand 2020.04 Ostschweiz). Healthcare-Neubau-Kostenband nun belegt
   bei **~3'400-3'850+ CHF/m2 GF** (Pflegeheim unten, Spital oben; Preisstand 2020/21).
+- ✓ 2026-07-06 (T19, Run 14): **Healthcare-Kennwerte-Basis von 1 auf 8 reale Objekte erweitert**
+  (JANS-Referenzblatt «Kennwerte Altersheime Gesundheitszentren», 2011-2025) — BKP 2 belegt bei
+  **2'623-4'250 CHF/m2 GF** (roh) bzw. **3'042-4'485** (teuerungsbereinigt Index-115), **826-1'420
+  CHF/m3 GV**, **272'780-780'000 CHF/Pflegezimmer**; Healthcare-Neubauansatz auf **~3'850-4'500
+  CHF/m2 GF** praezisiert. Wirtschaftlichkeits-/Flaechenfaktoren → [[projektstruktur-deliverables]].
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).

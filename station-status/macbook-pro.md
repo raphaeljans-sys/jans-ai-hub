@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.07.2026 06:39:53
+Stand: 06.07.2026 07:10:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:30)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 06:39:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f29e57c nas-selfcommit: 7 Datei(en) 2026-07-06 06:30
+- 76ce53e planungsgrundlagen Training Run 15 (Recht/Norm): Dispensrecht § 220 PBG + Klima-PBG-Korrektur + SZ-Waldabstand

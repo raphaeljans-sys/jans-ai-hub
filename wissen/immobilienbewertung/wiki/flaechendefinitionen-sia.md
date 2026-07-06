@@ -1,8 +1,8 @@
 ---
 title: Flaechendefinitionen (SIA 416 / SIA 416/1)
 status: established
-last_updated: 2026-06-28
-sources: [SIA 416:2003 (SN 504 416) Flaechen und Volumen von Gebaeuden — kanonische Norm-PDF IMMO-03 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf, S. 6-15 vollstaendig verankert Run 10 (Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF, Volumen GV/NGV/KV/AKV, Miet-/STWE-Flaechen FSN/FGN, Abgrenzung 0.1), IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
+last_updated: 2026-07-06
+sources: [SIA 416:2003 (SN 504 416) Flaechen und Volumen von Gebaeuden — kanonische Norm-PDF IMMO-03 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf, S. 6-15 vollstaendig verankert Run 10 (Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF, Volumen GV/NGV/KV/AKV, Miet-/STWE-Flaechen FSN/FGN, Abgrenzung 0.1), IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), JANS 8-Objekt-Referenzvergleich Healthcare «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410, GF/GV/HNF nach SIA 416 → Healthcare-Flaechenfaktoren HNF/GF ~0.55, Run 14 2026-07-06), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
 links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]]
 ---
 
@@ -84,6 +84,28 @@ Konsistenz-Check der Faktoren: HNF/GF = 0.20/0.33 = **0.61** ≈ der angegebene 
 ganze Gebäude → in sich stimmig. Diese JANS-Faktoren ergänzen (und sind gröber als) die
 amtliche Nutzflächen-Anrechnung unten; für Vorstudien/Volumen-zu-Wohnungen sind sie der
 schnelle Weg.
+
+## JANS-Flaechenfaktoren Healthcare (Alters-/Pflegeheim, belegt)
+
+Aus JANS' 8-Objekt-Referenzvergleich (`Kennwerte Altersheime Gesundheitszentren.pdf`, 8 reale
+CH-Heime 2011-2025 mit GF/GV/HNF nach SIA 416) lassen sich die Flaechenfaktoren fuer **Pflegeheime**
+belegen — sie sind **flaechen-ineffizienter als Wohnen**, weil breite Erschliessung,
+Pflegestuetzpunkte und Gemeinschaftsflaechen die Nutzflaeche druecken:
+
+| Faktor | Healthcare | Wohnen (Vergleich) | Bemerkung |
+|---|---|---|---|
+| **HNF zu GF** | **~0.43-0.61 (Ø ~0.55)** | 0.60-0.75 | tiefer wegen Pflegeinfrastruktur; Zentren bis 0.36 |
+| **GF zu Baumasse (GV)** | **~0.29-0.33** | 0.33 | grosse Heime leicht tiefer (0.29) |
+| **HNF zu Baumasse (GV)** | **~0.10-0.20** | 0.20 | fuer grosse/komplexe Objekte deutlich tiefer |
+| **Bauvolumen/HNF (m3 GV je m2 HNF)** | **4.3 (kompakt) … 7.1 (normal) … 9.7 (Zentrum)** | ~5.0 | JANS-Wirtschaftlichkeitsfaktor |
+
+Belege (HNF/GF): Averecura 1'880/3'100 = 0.61 · Dankensberg 2'425/4'040 = 0.60 · Lanzeln
+6'526/11'184 = 0.58 · Mathysweg 6'166/11'949 = 0.52 · Trotte 5'182/11'995 = 0.43 · Zentrum
+St. Anna 5'006/14'095 = 0.36. Fuer die **Grobdimensionierung eines Pflegeheims** aus dem Volumen:
+GF ≈ 0.30-0.33 × m3 GV, HNF ≈ 0.55 × GF; die Flaechen je Bett stehen in
+[[projektstruktur-deliverables]] (T19: ~90-135 m2 GF/Bett, ~51-71 m2 NF/Bett), die Kosten in
+[[realwert-sachwert]]. JANS selbst rechnete im WALD-Richtprojekt mit den generischen Wohn-Faktoren
+(GF = 0.33, NF = 0.20 × Baumasse) — fuer Healthcare eine leichte Ueberschaetzung der HNF.
 
 ## Nutzflaechen-Beispiele Wohnungsbau (Norm SIA 416, S. 9-10)
 
