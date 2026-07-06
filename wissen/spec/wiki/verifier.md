@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-07-06
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -86,3 +86,13 @@ Lektion aus dem Buchhaltungs-Fall: das externe Connector-Signal (`bexio --abglei
 stark, weil es zwei unabhaengige Realitaeten kreuzt (Bankeingang vs. Buchung) — trotzdem bleibt
 die **Treuhand-Pruefstunde vor Einreichung** die bindende Instanz, analog zur Rangordnung oben.
 Kennzahlen nie schaetzen: jede Summe gegen bexio + UBS-Feed belegt (Rule `identifikatoren-verifizieren`).
+
+## Verifier-Zustand «Warten auf die autoritative Instanz»
+Wenn eine autoritative Instanz das Abnahmekriterium haelt (Behoerde/Notar/Bank/Treuhand), ist ihr
+**noch ausstehender Befund** ein gueltiger Verifier-Zustand, kein Stillstand — die Spec ist erst
+«gruen», wenn die Instanz bestaetigt. Der richtige Umgang ist ein **low-noise Monitor-Loop**: er
+prueft periodisch, meldet «NICHTS NEUES» ohne Aktion und eskaliert (Status-Mail) nur bei echter
+Aenderung. Belegt AG-Gruendung (30.06.–06.07.): 8+ Monitor-Eintraege «Keine Status-Mail gesendet,
+nichts Neues», waehrend das Vorhaben auf UBS-Kapitalbescheinigung + Notariats-/HRA-Antwort wartet.
+So bleibt der Verifier scharf (kein Falsch-Gruen durch Ungeduld), ohne Laerm zu erzeugen — die
+Steady-State-Phase einer lebenden Spec (siehe [[anwendung-jans]] Schritt 2).

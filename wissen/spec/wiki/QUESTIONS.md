@@ -18,6 +18,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     Mittelfall in `outputs/`). Alle drei teilen dasselbe Format (AskUserQuestion fuer
     Schluesselentscheide + enge Scopes/Checkpoints) → das Format kristallisiert (→ F6/F7).
     Schwelle unveraendert.
+  - Stand 2026-07-06: AG-Gruendung laeuft jetzt **15 Tage als lebende Spec** (21.06.–06.07.) und
+    zeigt zwei Phasen — aktive Formung (Entscheide kippen) → Steady-State-Monitoring (warten auf
+    autoritative Instanz, low-noise). Staerkster F1-Datenpunkt bisher: die Spec bleibt auch in der
+    langen Wartephase nuetzlich (haelt Ziel/kritischen Pfad stabil, unterdrueckt Laerm). Weiterhin
+    **kein mittelgrosser Gegentest** in `outputs/` → Ueberdehnungs-Frage bleibt offen, Schwelle unveraendert.
 - F2: Wie kurz darf das Ziel-Interview sein, damit es hilft statt bremst? Optimal-Laenge je
   Vorhabenstyp (Studie / Dokument / Mail / Strategie) sammeln.
   - Lektion AG-Gruendung: das Interview muss die **Ausgangslage** explizit fixieren. Hier
@@ -35,6 +40,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     manuellen Ordner-Kontierung). Diese Diagnose ist die Begruendung des Ziels und gehoert als
     eigener Abschnitt «Ist-Zustand (Scan)» vor die Schluesselentscheide (→ [[anwendung-jans]]
     Schritt 1).
+  - Lektion 06.07. (lebende Spec, Steady-State): laeuft ein Vorhaben in die Wartephase auf eine
+    autoritative Instanz, ist die richtige «Interview»-Kadenz ein **low-noise Monitor-Loop** —
+    periodisch pruefen, «NICHTS NEUES» ohne Aktion melden, nur bei echter Aenderung eskalieren
+    (belegt AG-Gruendung, 8+ Eintraege 30.06.–06.07.). → [[verifier]] «Warten auf die autoritative
+    Instanz» + [[anwendung-jans]] Schritt 2 (zwei Phasen der lebenden Spec).
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
@@ -73,6 +83,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     · Plan (enge Scopes + Checkpoints) · Verifikation · Faktenbasis. Das Template ist damit
     empirisch da. → **Vorschlag an Raphael:** als `wissen/spec/templates/spec-vorlage.md`
     extrahieren (neues Artefakt, daher geflaggt statt ungefragt gebaut).
+  - ✓ EINGELOEST 2026-07-06 (Lauf 4): Skelett war 3 Laeufe in Folge geflaggt, empirisch stabil.
+    Template gebaut als `wissen/spec/templates/spec-vorlage.md` (KB-intern, additiv, reversibel —
+    keine Rule-/Skill-Verhaltensaenderung, daher im Rahmen `wissens-bibliothekar` autonom angelegt).
+    Enthaelt das Kopier-Skelett + optionale Abschnitte (Ist-Zustand/Monitor-Log) + die Zwei-Phasen-
+    Notiz zur lebenden Spec. **Raphael kann die Vorlage anpassen/verwerfen.**
 - F7: Reale Spec-Anwendungen als Goldstandard-Beispiele kuratieren (erste: AG-Gruendung 2026-06-21).
   - Stand 2026-07-03: 3 Goldstandard-Specs vorhanden. **Buchhaltungssystem 02.07.** ist der
     sauberste Vertreter des Skeletts oben (v.a. eigener «Ist-Zustand (Scan)»-Abschnitt + kontrollierte

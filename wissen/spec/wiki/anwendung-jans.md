@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-07-06
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
@@ -57,6 +57,14 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    und Liberierung 50 %→100 % kippten nach der Bestaetigung; das ganze Belegset wurde als
    Version 260627 neu erstellt). Annahmen, die erfahrungsgemaess wandern (Name, Kapital,
    Termin), im Interview als «noch beweglich» markieren.
+   Eine lebende Spec durchlaeuft **zwei Phasen** (belegt AG-Gruendung 21.06.–06.07., 15 Tage):
+   **(A) aktive Formung** — Entscheide werden bestaetigt und kippen teils spaet, Belegset wird
+   versioniert nachgezogen (21.–29.06.); **(B) Steady-State-Monitoring** — das Vorhaben wartet
+   auf eine autoritative Instanz (UBS-Kapitalbescheinigung, Notariat/HRA). In Phase B laeuft der
+   Monitor-Log **low-noise**: er meldet «NICHTS NEUES» und eskaliert (Status-Mail) nur bei echter
+   Aenderung (belegt: 8+ Eintraege «Keine Status-Mail gesendet, nichts Neues» 30.06.–06.07.). In
+   Phase B ist die *awartete* autoritative Instanz selbst der Verifier (siehe [[verifier]]) — das
+   Warten ist kein Stillstand, sondern ein gueltiger Verifier-Zustand.
 3. **Praezise + Verifier** — Bewertungskriterien vorab; Goldstandard als Format-Vorlage;
    zweite Pruefinstanz (`korrektur`/`twin`/`/code-review`); externes Signal via Connector.
    Wo eine **autoritative Instanz** entscheidet (Behoerde/Notar/Bank), gilt deren Befund vor
@@ -80,3 +88,5 @@ in den Schluesselentscheide-Abschnitt **und** die betroffene Whitelist/Regel wir
 Jede groessere Spec-Anwendung wird als `outputs/JJJJ-MM-TT_<vorhaben>_spec.md` abgelegt
 (Ziel · Abgrenzung · Annahmen · Kriterien · Plan · Verifikation). Gute Specs werden zur
 Vorlage fuer die naechste — und speisen den Trainings-Loop (`training/PROGRAMM.md`).
+Das aus den drei ersten Specs destillierte Skelett steht als Kopiervorlage unter
+`wissen/spec/templates/spec-vorlage.md` (F6, 2026-07-06 extrahiert).

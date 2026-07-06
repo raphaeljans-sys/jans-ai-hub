@@ -1,5 +1,22 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-06 — Trainingslauf 4
+- Output `outputs/2026-07-06_training-run4.md`. Keine neue Spec-Anwendung seit Lauf 3; ausgewertet
+  wurde der **Verlauf** der lebenden AG-Gruendungs-Spec (15 Tage, Monitor-Log bis 06.07.).
+- **Neue Lektion — zwei Lebensphasen einer lebenden Spec:** (A) aktive Formung (Entscheide kippen,
+  Belegset versioniert) → (B) Steady-State-Monitoring (warten auf autoritative Instanz, low-noise:
+  «NICHTS NEUES», Eskalation nur bei echter Aenderung; belegt 8+ Eintraege 30.06.–06.07.). In Phase B
+  ist die awartete autoritative Instanz selbst der Verifier. → `anwendung-jans.md` Schritt 2 + neue
+  Sektion «Verifier-Zustand ‹Warten auf die autoritative Instanz›» in `verifier.md`.
+- **F6 geschlossen (nach 3 Laeufen geflaggt):** Spec-Template `templates/spec-vorlage.md` gebaut —
+  KB-internes Kopier-Skelett aus den 3 ersten Specs + Zwei-Phasen-Notiz. Additiv/reversibel, keine
+  Rule-/Skill-Aenderung → autonom im Rahmen `wissens-bibliothekar`; Raphael kann anpassen/verwerfen.
+- Environment-Audit: run3-Fixes hielten (Metadaten 07-03, CLAUDE.md-KB-Liste mit `spec/`). Diesen
+  Lauf `verifier.md` + `anwendung-jans.md` auf 07-06 gezogen (inhaltlich ergaenzt). INDEX um
+  «Vorlagen» ergaenzt. Rule `spec-methode.md` unveraendert (Gate korrekt).
+- Quellen-Schuld: keine — F4 (Karpathy+Cherny) + F5 (Anthropic-Doku) vollstaendig eingeloest.
+  Offen: F1-Ueberdehnungs-Gegentest (mittelgrosser Fall fehlt), F3-Tabelle je weitere Domaene.
+
 ## 2026-07-03 — Trainingslauf 3
 - Output `outputs/2026-07-03_training-run3.md`. Ausgewertet: neue Spec-Anwendung
   **Buchhaltungssystem** (02.07.). Drei Lektionen ins Wiki uebernommen:

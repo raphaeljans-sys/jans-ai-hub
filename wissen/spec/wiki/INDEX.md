@@ -10,5 +10,8 @@ uebergeben, dann bauen. Speist den Skill `spec` und die Rule `spec-methode`.
 - [[environment-jans-hub]] — Layer 3: der Arbeitsplatz = der JANS Hub (baut JANS schon)
 - [[anwendung-jans]] — Gate-Test, Abgrenzung, konkrete Durchfuehrung, Compounding
 
+## Vorlagen
+- `templates/spec-vorlage.md` — Kopier-Skelett fuer eine reale Spec (aus den 3 ersten Specs destilliert, F6)
+
 ## Offene Fragen
 Siehe QUESTIONS.md.
