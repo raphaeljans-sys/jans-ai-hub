@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.07.2026 08:21:00
+Stand: 06.07.2026 08:51:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 08:21:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ba8ec36 sync: ag-gruendung-monitor: Status 06.07. unveraendert (keine neue UBS-/Notariat-Post)
+- 079bbef spec-training Run 4: lebende-Spec Zwei-Phasen-Lektion + F6 Template (spec-vorlage.md) gebaut

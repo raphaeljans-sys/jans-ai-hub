@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.07.2026 08:24:12
+Stand: 06.07.2026 08:54:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 08:24:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ba8ec36 sync: ag-gruendung-monitor: Status 06.07. unveraendert (keine neue UBS-/Notariat-Post)
+- 079bbef spec-training Run 4: lebende-Spec Zwei-Phasen-Lektion + F6 Template (spec-vorlage.md) gebaut
