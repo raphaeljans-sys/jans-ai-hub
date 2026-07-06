@@ -72,14 +72,34 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   (Bezug 29.09.2023), Kompensation neue Baute ↔ Rueckbau ≥ 6 m², **Abbruchpraemie ZH ab 01.07.2026**
   (bereits erfolgte Rueckbauten nicht entschaedigt), Bestandesschutz > 30 J direkt seit 01.01.2026.
   **NEU erfasst:** parallele ZH-PBG-Revision **«Klimaangepasste Siedlungsentwicklung»** (teils direkt
-  im Baubewilligungsverfahren, teils kommunale Nutzungsplanung). **Offen:** ZH-PBG-Fassung bei
-  Publikation nachziehen; Klima-PBG-Inkraftdatum beobachten.
+  im Baubewilligungsverfahren, teils kommunale Nutzungsplanung). **✓ Klima-PBG-Teil erledigt
+  2026-07-06 (Run 15):** Revision **in Kraft seit 01.12.2024** (RRB 998/2024; Kantonsrat 121:49;
+  espacesuisse.ch/kantonsrat.zh.ch) — direkt anwendbar (oekolog. Gruenflaechen erhalten/aufwerten,
+  reduzierte Pflanzabstaende 4 m/2 m + Strassenabstaende, **§ 238a PBG** Begruenung Aussenraum),
+  daneben kommunale Musterbestimmungen/BZO → [[recht-norm-quellenlandkarte]]. **Offen (RPG 2):**
+  ZH-PBG-/Richtplan-Umsetzung RPG 2 bei Publikation nachziehen.
 - [~] **B4 (R2)** SZ-Mass-Definitionen aus PL-02/02_Schwyz belegt erfassen. **2026-06-28 (Run 11):**
   Screenshots gelesen — **§ 31i GFZ / § 31g BMZ** (SZ ist IVHB-aligned, AZ kantonal abgeschafft),
   **§ 60 Gebaeudehoehe** (Fassadenmitte, GA 50 % GH min 3 m), **Art. 42 Firsthoehe**, **§ 61
   Nebenbauten** (≤ 3.5/4.5 m, 60 m², GA 2.5 m), **§ 62** ungleiche GA-Verteilung via Dienstbarkeit
   → [[recht-norm-quellenlandkarte]] SZ-Block + Benchmark Willerzell. ⚠ Stand **SRSZ 1.2.2021** (> 18 Mt.)
-  → vor Zitat aktuelle SRSZ-Fassung pruefen. **Offen:** Art. 35 Waldabstand SZ detaillieren.
+  → vor Zitat aktuelle SRSZ-Fassung pruefen. **✓ Waldabstand erledigt 2026-07-06 (Run 15):**
+  Screenshot `Art 35 Waldabstand.png` = **§ 35 PBV SZ (400.111)** regelt die **Waldgrenze** (2 m
+  ausserhalb Stockgrenze) + Waldabstandslinie im Zonenplan — **nicht** das Baumass; das numerische
+  **Waldabstand-Baumass steht in § 67 PBG SZ = 15 m** (Ausnahme-Minima Hauptbau 10/8 m, Nebenbau
+  6/4 m; sz.ch Richtlinie Waldabstand + einsiedeln.ch 2018) → [[recht-norm-quellenlandkarte]]
+  SZ-Tabelle (Zeile korrigiert). **Offen:** ZH-Waldabstand-Baumass (zh.ch «Bauen im Wald und am
+  Waldrand») bei Bedarf ergaenzen.
+- [x] **R3** Dispensrecht: § 220 PBG als Muster-Wegweiser (aus `05_Dispensrecht`). ✓ **2026-07-06
+  (Run 15):** NEU [[recht-norm-dispensrecht]] — 3-Stufen-Pruefung (besondere Verhaeltnisse in
+  Topographie/Form/Lage; NICHT Vielzahl-Faelle/Haerten/persoenl. Verhaeltnisse · negative
+  Voraussetzungen Abs. 2/3, keine Nachbar-Zustimmungsabhaengigkeit · Ermessen Gemeinde, freie
+  Kognition der Rechtsmittelinstanz), **ausnahmebewilligungs-feindliche** zone-praegende Normen
+  (Hoehe/Laenge/Abstand/Ausnuetzung), Abgrenzung § 357 Besitzstand / Art. 24 RPG, Beschaffung
+  **Baurekursgericht-ZH-DB** (login-frei, 4 Sucheinstiege, Rechtsgebiet-Direktlink). Benchmark
+  **BRKE I 0247/2010** (Doppel-EFH-Ersatz W2bII, Dispens verweigert = Vielzahl-Faelle + zone-praegend;
+  best. VB.2011.00041). ⚠ Harmonisierungs-Falle: nicht-harmonisierte BZO → PBG-Fassung bis 28.02.2017.
+  **Offen:** zweiter Benchmark mit *gewaehrtem* Dispens (Hanglage).
 - [x] **B3** `06_Richtlinien` (Behoerden-Richtlinien ZH/Stadt ZH, Minergie, GVZ, BfU) als
   Wegweiser-Block ergaenzen. ✓ 2026-06-20 (Run 7): belegter Wegweiser-Block (BfU/Stadt-ZH-Absturz/
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
