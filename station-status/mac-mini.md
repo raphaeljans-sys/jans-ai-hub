@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.07.2026 08:54:23
+Stand: 06.07.2026 09:14:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 08:54:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 079bbef spec-training Run 4: lebende-Spec Zwei-Phasen-Lektion + F6 Template (spec-vorlage.md) gebaut
+- 0ad2e19 nas-selfcommit: 3 Datei(en) 2026-07-06 09:00
