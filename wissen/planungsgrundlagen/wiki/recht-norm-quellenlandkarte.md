@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-06-28
-sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2), are.admin.ch, espace-suisse.ch]
-links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-baurechtsanalysen-benchmarks]], [[machbarkeit]]
+last_updated: 2026-07-06
+sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG/PBV SZ)]
+links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-baurechtsanalysen-benchmarks]], [[machbarkeit]]
 ---
 
 # Recht & Norm — Quellenlandkarte (PL-02)
@@ -148,14 +148,22 @@ Wuerdigung bleibt der Skill `baurecht`; hier der belegte Datenstand fuer Planung
 - ZH-Detailseite **„Bauen ausserhalb von Bauzonen"** (zh.ch/planen-bauen/bauvorschriften/
   bauen-an-besonderer-lage) als Einstieg fuer Verfahrensfragen.
 
-**Parallele ZH-PBG-Revision «Klimaangepasste Siedlungsentwicklung» (neu erfasst Run 11):**
-Unabhaengig von RPG 2 laeuft im Kt. ZH eine **PBG-Revision zur klimaangepassten Siedlungsentwicklung**
-(zh.ch, Umsetzungshilfe + Musterbestimmung). Sie gibt den Gemeinden Rechtsinstrumente fuer
-klimaangepasstes Bauen; **ein Teil wirkt direkt im Baubewilligungsverfahren**, anderes braucht
-**kommunale Nutzungsplanung** (Musterbestimmung/BZO). Relevanz fuer JANS: bei ZH-Baueingaben kuenftig
-auf Begruenung/Entsiegelung/Hitzevorsorge-Anforderungen achten — je nach Gemeinde-Stand direkt oder
-erst nach BZO-Anpassung. ⚠ Datenstand pruefen, Revision in Bewegung (kein fixes Inkraft-Datum belegt).
-Detail-Wuerdigung → Skill `baurecht`.
+**Parallele ZH-PBG-Revision «Klimaangepasste Siedlungsentwicklung» — IN KRAFT seit 01.12.2024
+(Update 2026-07-06 Run 15):**
+Unabhaengig von RPG 2 hat der Kt. ZH die **PBG-Revision zur klimaangepassten Siedlungsentwicklung**
+bereits **in Kraft gesetzt: seit 01.12.2024** (Regierungsratsbeschluss **RRB 998/2024**; Kantonsrat
+Schlussabstimmung **121 : 49**; Quellen espacesuisse.ch «Zuercher PBG ermoeglicht Klimaanpassung»,
+kantonsrat.zh.ch, zh.ch Umsetzungshilfe). Korrigiert den Run-11-Stand («kein fixes Inkraft-Datum»).
+- **Direkt anwendbar** (kein kommunaler Akt noetig): oekologisch wertvolle **Gruenflaechen erhalten/
+  aufwerten** bei Bauvorhaben; **reduzierte Pflanzabstaende** (4 m grosse Baeume / 2 m kleine Baeume
+  zur Nachbarparzelle) und **reduzierte Strassenabstaende** (Begruenung erleichtern); neue
+  **Begruenungs-Anforderung Aussenraum § 238a PBG**.
+- **Kommunale Stufe:** zahlreiche Regelungsmoeglichkeiten in der **kommunalen Nutzungsplanung** — der
+  Kanton liefert **Musterbestimmungen + Umsetzungshilfe** fuer einheitlichen Vollzug.
+- Relevanz JANS: bei ZH-Baueingaben auf **Begruenungs-/Entsiegelungs-/Hitzevorsorge-Anforderungen**
+  achten — der direkt anwendbare Teil (u.a. § 238a) gilt ueberall, Weitergehendes je nach BZO-Stand
+  der Gemeinde. Stadt ZH setzt Vorgaben via BZO um (Stadtratsbeschluss 04.02.2026, oerebdocs.zh.ch).
+  Detail-Wuerdigung → Skill `baurecht`.
 
 ## SZ ↔ ZH — Messweisen (belegte Kernregeln, Tiefe → `baurecht`)
 
@@ -177,7 +185,8 @@ Detail-Wuerdigung → Skill `baurecht`.
 | **Art. 42 (BauR)** | **Firsthoehe** | lotrecht vom **Messpunkt OK First** bis Terrain; am Hang talseitig massgebend (Diagramm). |
 | **§ 61** | **Nebenbauten / unterirdische Bauten** | Nebenbau = eingeschossig, unbewohnt (Garage/Kleinbau), **≤ 3.50 m GH / 4.50 m FH / 60 m² Grundflaeche** → **Grenzabstand ≥ 2.50 m**. Unterirdische Bauten (Terrain ≤ 1 m ueberragt) duerfen bis 1 m an die Grenze; mit schriftl. Nachbar-Einwilligung bis an die Grenze. |
 | **§ 62** | **Ungleiche Grenzabstands-Verteilung** | bei gewahrtem **Gebaeudeabstand** per **Dienstbarkeitsvertrag** ungleich verteilbar; Dienstbarkeit ins Grundbuch. → vgl. Agent `dienstbarkeiten-pruefer`. |
-| **Art. 35** | Waldabstand | Screenshot vorhanden; Detail → `baurecht`. |
+| **§ 67 PBG SZ** | **Waldabstand (Bau↔Wald)** | Mindestabstand Bauten/Anlagen zur **Waldgrenze = 15 m**, horizontal gemessen (§ 67 Abs. 1 PBG SZ). Ausnahme-Minima bei besonderen Verhaeltnissen: **Hauptbauten** 10 m ab Stockgrenze / 8 m ab Waldgrenze, **Nebenbauten/Terrainveraenderungen/UG-Teile** 6 m ab Stock- / 4 m ab Waldgrenze; Zufahrts-/Land-/Forstwirtschaftswege ausgenommen. Belegt sz.ch «Bauen und Wald» / Richtlinie Waldabstand + einsiedeln.ch Waldabstandsvorschriften 2018. |
+| **§ 35 PBV SZ (400.111)** | **Waldgrenze / Waldabstandslinie** (Bezugslinie, NICHT das Baumass) | Waldgrenzen werden nach Waldgesetzgebung festgestellt (Einzelfall auf Gesuch oder generell beim Zonenplan-Erlass). **Die Waldgrenze verlaeuft 2 m ausserhalb der im Waldfeststellungsverfahren vermessenen Stockgrenze.** In Grundbuch-/Zonenplaenen sind i.d.R. Stock- und Waldgrenze eingetragen; im Zonenplan kann zusaetzlich eine **Waldabstandslinie** eingezeichnet werden (→ Geodaten [[kartenportale-baulinien-abstandslinien-zh]]). Screenshot `Art 35 Waldabstand.png`. **Korrektur Run 15:** frueher hier als «Art. 35 Waldabstand» gefuehrt — § 35 PBV regelt die **Bezugslinie**, das numerische Baumass steht in **§ 67 PBG**. |
 
 - **Planungs-Trap SZ:** die **kantonale** AZ-Abschaffung greift nicht automatisch auf jede
   **kommunale/Bezirks-Ordnung** durch — aeltere Zonen koennen via **Baureglement/Quartiergestaltungsplan
@@ -187,9 +196,12 @@ Detail-Wuerdigung → Skill `baurecht`.
 - Konkrete Abstands-/Hoehen-/Dichtefragen → **Skill `baurecht`** (zitiert aus dieser Sammlung +
   Gesetzessammlung); hier nur belegter Wegweiser, kein Abschreiben.
 
-## Dispensrecht (Verweis `baurecht`)
-`01_Gesetze/05_Dispensrecht` enthaelt einen realen **BRKE-Entscheid** (`BRKE_I_0247_2010_722.pdf`)
-+ Screenshots — als Muster fuer Dispens-/Ausnahmebewilligungs-Argumentation. Wuerdigung → `baurecht`.
+## Dispensrecht / Ausnahmebewilligung → eigener Artikel
+`01_Gesetze/05_Dispensrecht` (BRKE I 0247/2010 + Screenshots) ist der Seed fuer den
+Planungsgrundlagen-Wegweiser **§ 220 PBG** (Ausnahmebewilligung innerhalb Bauzone) — Pruefstruktur
+(besondere Verhaeltnisse / negative Voraussetzungen / Ermessen), Abgrenzung zu § 357 Besitzstand und
+Art. 24 RPG (ausserhalb Bauzone), Beschaffung der ZH-Praezedenzfaelle (Baurekursgericht-DB, login-frei)
+→ **[[recht-norm-dispensrecht]]** (2026-07-06). Rechtliche Wuerdigung eines konkreten Falls → `baurecht`.
 
 ## 06_Richtlinien — Wegweiser (Behoerden-/Fach-Richtlinien)
 
@@ -226,7 +238,14 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
   Restaufgabe nur noch: je Erlass das *exakte* aktuelle Stand-Datum beim konkreten Zitat ziehen.
 - B2: RPG-2-ZH-Umsetzung (PBG/Richtplan) **noch in Erarbeitung** — Stabilisierungs-Zahlen ZH
   (40'807 Gebaeude / 2'594 ha) + Abbruchpraemie 01.07.2026 belegt (Run 11); bei ZH-PBG-Publikation
-  nachziehen. Parallele ZH-PBG-Revision **«Klimaangepasste Siedlungsentwicklung»** beobachten.
+  nachziehen. Parallele ZH-PBG-Revision **«Klimaangepasste Siedlungsentwicklung»** **erledigt
+  2026-07-06 (Run 15): in Kraft seit 01.12.2024** (RRB 998/2024, § 238a PBG) — s. Abschnitt oben.
 - B3: `06_Richtlinien`-Wegweiser **erledigt 2026-06-20** — vertiefen je nach Projektbedarf.
-- R2: SZ-Mass-Definitionen belegt aus Screenshots (Stand **SRSZ 1.2.2021**) — ⚠ >18 Mt., vor
-  Zitat gegen aktuelle SRSZ-Fassung (lexfind.ch/sz.ch) pruefen.
+- R2: **SZ-Mass-Definitionen** (§ 31i/31g/60/61/62, Art. 42) belegt aus Screenshots (Stand
+  **SRSZ 1.2.2021**) — ⚠ >18 Mt., vor Zitat gegen aktuelle SRSZ-Fassung pruefen. **Aktuelle
+  amtliche SRSZ-PDF auf sz.ch:** PBG 400.100 (Stand 1.2.2025) / PBV 400.111 (Stand 1.2.2026),
+  `sz.ch/public/upload/assets/…/400_100.pdf` bzw. `…/400_111.pdf`.
+- R3: **Dispensrecht § 220 PBG erledigt 2026-07-06 (Run 15)** → eigener Artikel
+  [[recht-norm-dispensrecht]]; offen: zweiter Benchmark mit *gewaehrtem* Dispens (Hanglage).
+- B4: **SZ-Waldabstand erledigt 2026-07-06 (Run 15)** — § 67 PBG SZ = 15 m (Ausnahme-Minima
+  10/8 bzw. 6/4 m), § 35 PBV SZ = Waldgrenze 2 m ausserhalb Stockgrenze (s. SZ-Tabelle oben).
