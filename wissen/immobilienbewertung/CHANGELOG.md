@@ -2,6 +2,36 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-06 — Training-Run 14: T19 geschlossen — JANS-Healthcare-Kennwert-Raster befuellt
+
+- **T19 geschlossen** (die letzte offene T-Aufgabe). Drei bisher ungelesene Quellen aus der
+  Healthcare-/WALD-Bibliothek ingestiert und synthetisiert: JANS' eigenes gefuelltes **8-Objekt-
+  Referenzblatt** «Kennwerte Altersheime Gesundheitszentren» (8 reale CH-Heime 2011-2025), die
+  **WALD-Tertianum-Baumassenberechnung** (Richtprojekt, V1-V7) und die **SECO/USI-Effizienzstudie
+  Crivelli/Filippini/Lunati 2001** (835 CH-Pflegeheime).
+- **`wiki/projektstruktur-deliverables.md`** (07-06, established): T19-Raster-Bullet von
+  «Arbeitsstand/leer» auf **befuellt** — Wirtschaftlichkeitsfaktoren-Tabelle (Bettzahl 28-123,
+  **GF/Bett 90-135 m2** sinkend mit Groesse, **NF/Bett 51-71 m2**, **Bauvolumen/HNF 4.3-9.7**), die
+  3 Fragestellungen belegt beantwortet (**optimale Betriebsgroesse 70-80 Betten**, SE = 1 bei 79;
+  Schwelle ~50; normale Groesse Median 52/Ø 62), Referenzobjekte identifiziert (Wald = Averecura
+  28 PZ; Szenarios = Baumassen V1-V7).
+- **`wiki/realwert-sachwert.md`** (07-06, established): Healthcare-Kostenband von 1 (Herosé) auf
+  **8 reale Objekte** verbreitert — neue Tabelle mit **BKP 2 = 2'623-4'250 CHF/m2 GF (indexiert
+  3'042-4'485), 826-1'420 CHF/m3 GV, 273'000-780'000 CHF/PZ**; Healthcare-Neubauansatz auf
+  **~3'850-4'500 CHF/m2 GF** praezisiert.
+- **`wiki/flaechendefinitionen-sia.md`** (07-06, established): neue Sektion **JANS-Flaechenfaktoren
+  Healthcare** — HNF/GF **~0.43-0.61 (Ø ~0.55)**, GF/Baumasse ~0.29-0.33, Bauvolumen/HNF 4.3-9.7;
+  belegt aus dem 8-Objekt-Set, kontrastiert mit Wohnen (0.60-0.75).
+- **`wiki/ertragswert-dcf.md`** (07-06, established): Betriebsgroessen-/Skaleneffizienz-Befund
+  (Crivelli 2001) in die Healthcare-Ertragsseite eingewoben (Optimum 70-80 Betten, ~50 % zu klein →
+  Tragfaehigkeitsrisiko bei knappen Margen).
+- **Register:** `_INGESTED.md` (3 neue Quellen + Stand Run 14), `wissensluecken.md` (T19 → Erledigt,
+  **keine offenen T-Aufgaben mehr**), `curriculum.md` (E10 ✓ + E7-Marktpuls 07-06), `INDEX.md`
+  (4 Artikelbeschreibungen). Marktpuls-Web-Check: SNB 0.00 % / Referenzzins 1.25 % **unveraendert**
+  (naechste Publikationstermine erst 09.2026).
+- **Ausblick:** Loop weiter im Aktualisierungs-/Vertiefungs-Modus. Naechste Kandidaten bei Freigabe:
+  D4 (`.xlsx`-Tool-Formeln), D8 (JANS-Kennwerte-DOCX), Emilienheim-Flaechenkennwerte; sonst Marktpuls.
+
 ## 2026-07-04 — Training-Run 13: Healthcare-Vertiefung — T17 vollstaendig geschlossen (Investoren-Markt-Seite)
 
 - **T17 vollstaendig geschlossen** (Kosten- UND Investoren-Markt-Seite). Grosser Healthcare-
