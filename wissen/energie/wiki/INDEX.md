@@ -36,7 +36,7 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[schallschutz-sia181]] — Schallschutz SIA 181:2020: Anforderungswerte Luft-/Tritt-/Haustechnik-/Aussenlaerm je Empfindlichkeit, erhoehte Anforderung Pflicht bei EFH/STWEG, **Bauwert≠Laborwert: Flanken-Mechanik R_w↔R'_w / K_P+K_F / 12 Nebenwege EN 12354 / C-Werte** (Lignum/BFH 2008) · **established** (FAQ F25)
 - [[lignum-schallschutz-holzbau-flankenuebertragung]] — Flanken-/Nachweis-Mechanik Holzbau (Lignum/BFH-AHB 2008): R_w↔R'_w, K_P/K_F, 12 Nebenwege EN 12354, C/C_tr, Holzbau-Flankenkennwerte-Luecke → Prognose+Reserve+elastische Stoesse · **established** (neu, Destillat) ⚠ SIA 181:2006
 - **Schadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP, Kt. ZH) — bisher FAQ F23 + Destillat `[[gebaeudeschadstoffe-checkliste-zh]]`; eigener Themenartikel Kandidat
-- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, Naturdaemmstoffe/Stroh+Lehm Praxis, konkrete Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku), kg-CO₂-Bauteilwerte KBOB v8.0/SIA-2032-Vorprojektwerte, Schadstoff-Themenartikel)_
+- _(im Aufbau: Fenster/U_w-g-Wert eigener Artikel, konkrete Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku), kg-CO₂-Bauteilwerte KBOB v8.0/SIA-2032-Vorprojektwerte, Schadstoff-Themenartikel)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

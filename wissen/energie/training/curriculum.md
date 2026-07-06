@@ -140,3 +140,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (F6 WP-Systemvergleich neu 2026-06-18). Backlog nur noch Vertiefungen (Primaerquellen, CHF-Vergleiche).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.) — **FAQ traegt jetzt
   (17/17); reif fuer Pruefung.** Naechster Meta-Schritt.
+- [x] D7 **Naturdaemmstoffe (Holzfaser/Zellulose/Hanf/Stroh) — oekologisch daemmen + Sommerhitzeschutz**
+  — belegt 2026-07-06 (gesundes-haus.ch Materialvergleich + Lignum «Holzfaserdaemmung» + Strohballen).
+  Winter: λ 0,038–0,045 wie Mineralwolle → keine dickere Daemmung. Sommer: Speichermasse ρ·c holzbasiert
+  c ~2000–2200 J/(kg·K) ≈2× Mineralwolle → laengere Phasenverschiebung/besserer Hitzeschutz. Diffusionsoffen
+  (Holzfaser bis 15 % Feuchte). Oeko: Stroh ~100× weniger graue Energie, Minergie-ECO-Hebel. Preis: brennbar
+  → CH-VKF **RF3**, Bekleidung/Verputz noetig (Stroh verputzt bis 90 min) → `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`,
+  Themenartikel `[[naturdaemmstoffe]]` (FAQ **F34** neu). Schliesst E12-Naturdaemmstoff-Restluecke. Offen:
+  Produkt-Bemessungswerte/VKF-Anerkennungsnummern, konkrete Phasenverschiebung in Stunden je Aufbau.

@@ -142,8 +142,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   → `[[zev-mieter-strompreis-eigenverbrauch]]`, F32 geschaerft. **LEG belegt ✓ 2026-07-05** (ab 1.1.2026, StromVG;
   Netzentgelt-Rabatt 40 %/20 % nur auf Wirkenergie/Wirkleistung/Grundpreis; Voraussetzung gleiche Gemeinde/
   Netzebene NE5-7/≤36 kV/≥5 % Produktion/Smart Meter; Teilnehmer bleiben VNB-Kunden ohne Solidarhaftung)
-  → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`, FAQ **F33** neu. **Offen bleibt:** Naturdaemmstoffe
-  Stroh/Lehm; exakte EnV-Artikelnummer + Rp/kWh-Zahlenbeispiel der ZEV-Preisregel (Leitfaden-PDF seitengenau);
+  → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`, FAQ **F33** neu. **Naturdaemmstoffe belegt ✓ 2026-07-06**
+  (gesundes-haus.ch Materialvergleich + Lignum: Holzfaser/Zellulose/Hanf/Stroh λ 0,038–0,045 wie Mineralwolle,
+  holzbasiert c ~2000–2200 J/(kg·K) ≈2× → besserer Sommerhitzeschutz/Phasenverschiebung; diffusionsoffen; Stroh
+  ~100× weniger graue Energie, verputzt bis 90 min; brennbar CH-VKF RF3) → `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`,
+  `[[naturdaemmstoffe]]`, FAQ **F34** neu. **Offen bleibt:** exakte EnV-Artikelnummer + Rp/kWh-Zahlenbeispiel der ZEV-Preisregel (Leitfaden-PDF seitengenau);
   VSE-BD-LEG als Primaerquelle; interne LEG-Preisbildung; «Solarsplitvertrag»/Areal-PV rechtlich
   (→ `baurecht`/`stockwerkeigentum`).
 - [x] **E15** **WP + PV Eigenverbrauch / Lastmanagement** belegt ✓ 2026-07-04 (EnergieSchweiz/Zogg 2023:
