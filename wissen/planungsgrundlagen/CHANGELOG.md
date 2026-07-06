@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-06 — Training Run 15 (Recht/Norm/PL-02): NEU Dispensrecht-Artikel (R3) · Klima-PBG-Korrektur · SZ-Waldabstand
+- Schwerpunkt **Recht & Norm** (Rotation: Run 14 Energie → Run 15 Recht/Norm). Connector-Schritt:
+  **nein** (Domaene hat keinen Connector). Quellen: `05_Dispensrecht/BRKE_I_0247_2010_722.pdf` +
+  2 Screenshots (Baurekursgericht-ZH-DB); `02_Schwyz/Art 35 Waldabstand.png`; Web
+  baurekursgericht-zh.ch, zhlex LS 700.1, saputelli-baurecht.ch (PBG aktuell 3/2021),
+  espacesuisse.ch/kantonsrat.zh.ch (Klima-PBG), sz.ch (Waldabstand).
+- **R3 — Dispensrecht erschlossen (Luecke geschlossen):** war nur `[~]` (BRKE verortet). NEU
+  **[[recht-norm-dispensrecht]]** (established): die **3 Ausnahme-Institute** getrennt (§ 220 PBG
+  Dispens innerhalb Bauzone / § 357-358 Besitzstand / Art. 24 ff. RPG ausserhalb Bauzone); **§ 220
+  3-Stufen-Pruefung** (besondere Verhaeltnisse Topographie/Form/Lage — NICHT Vielzahl-Faelle/Haerten/
+  persoenl. Verhaeltnisse · negative Voraussetzungen Abs. 2/3, keine Nachbar-Zustimmungsabhaengigkeit ·
+  Ermessen Gemeinde, freie Kognition der Rechtsmittelinstanz); **ausnahmebewilligungs-feindliche**
+  zone-praegende Normen (Zufahrt/Immissionen/Einordnung/aeussere Abmessung = Hoehe/Laenge/Abstand/
+  Ausnuetzung); Benchmark **BRKE I 0247/2010** (Doppel-EFH W2bII, Dispens verweigert = Vielzahl-Faelle;
+  best. VB.2011.00041); Beschaffung **Baurekursgericht-ZH-DB** (login-frei, 4 Sucheinstiege,
+  Rechtsgebiet-Direktlink); Harmonisierungs-Falle (nicht-harmonisierte BZO → PBG-Fassung bis
+  28.02.2017); JANS-Workflow M2 (behoerden-vorabklaerung / machbarkeit Risiko-Flag).
+- **B2 — Klima-PBG Datenstand korrigiert:** Revision «Klimaangepasste Siedlungsentwicklung» ist
+  **in Kraft seit 01.12.2024** (RRB 998/2024, Kantonsrat 121:49) — nicht mehr «in Bewegung/kein
+  Datum» (Run-11-Stand korrigiert). Direkt anwendbar: Gruenflaechen erhalten/aufwerten, reduzierte
+  Pflanzabstaende 4/2 m + Strassenabstaende, **§ 238a PBG** Begruenung Aussenraum; daneben kommunale
+  Musterbestimmungen/BZO → [[recht-norm-quellenlandkarte]].
+- **B4 — SZ-Waldabstand ergaenzt + Mislabel korrigiert:** § 35 PBV SZ (400.111) regelt die
+  **Waldgrenze** (2 m ausserhalb Stockgrenze) + Waldabstandslinie — **nicht** das Baumass; das
+  numerische **Waldabstand-Baumass = § 67 PBG SZ = 15 m** (Ausnahme-Minima Hauptbau 10/8 m, Nebenbau
+  6/4 m). SZ-Tabelle in [[recht-norm-quellenlandkarte]] berichtigt, aktuelle SRSZ-PDF-Links ergaenzt.
+- Register: INDEX, QUESTIONS (R3 ✓/B4 ✓/B2 ✓), curriculum (R3 [x], R2/R6 ergaenzt), raw/_INGESTED
+  (+3 Zeilen), Output `2026-07-06_training-run15.md`.
+
 ## 2026-07-04 — Training Run 14 (Energie/PL-04): NEU EVEN-Bedienungsartikel (D6) · MuKEn-2025-Praezisierung
 - Schwerpunkt **Energie** (Rotation: Run 13 Kartenportale → Run 14 Energie, Prioritaetsdomaene).
   Connector-Schritt: **nein** (Energie hat keinen Connector). Quellen: EnDK-Schulung «EVEN —
