@@ -42,6 +42,12 @@
         "hooks": [
           {
             "type": "command",
+            "command": "if [ ! -d /Volumes/daten/jans-ai-hub/skills ]; then echo 'WARNUNG NAS-WAECHTER: /Volumes/daten ist nicht gemountet — Skills, Agenten, Commands und Rules fehlen in dieser Session! Beheben: im Buero \"open smb://192.168.1.10/daten\", extern \"open smb://diskstation918.tail8265aa.ts.net/daten\" (Tailscale), danach Session neu starten. Diese Warnung dem Benutzer sofort anzeigen.'; fi",
+            "timeout": 5,
+            "statusMessage": "Prüfe NAS-Mount..."
+          },
+          {
+            "type": "command",
             "command": "bash /Volumes/daten/jans-ai-hub/scripts/sync-task-check.sh --notify 2>/dev/null || true",
             "timeout": 10,
             "statusMessage": "Prüfe Sync-Tasks..."
