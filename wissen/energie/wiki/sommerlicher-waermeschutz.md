@@ -19,7 +19,9 @@ Wetterdaten 2035**.
    Blend- und Sonnenschutz **nicht in einem Behang** kombinieren.
 2. **g-Wert (Verglasung + Beschattung) 0,1–0,15** als Zielwert → 85–90 % der Sonnenwaerme bleiben
    draussen. Bei gekuehlten Raeumen zusaetzlich normierte Anforderung an Steuerung + Windfestigkeit.
-3. **Speichermasse** (Massivdecken/-waende) puffert die Tagesspitze.
+3. **Speichermasse** (Massivdecken/-waende **oder schwere Faserdaemmung**) puffert die Tagesspitze.
+   Im Leichtbau/Dachgeschoss uebernimmt eine **Naturdaemmung mit hoher Speichermasse** (Holzfaser/
+   Zellulose, ρ·c ~2× Mineralwolle) diese Rolle → laengere Phasenverschiebung (`[[naturdaemmstoffe]]`).
 4. **Freecooling / Nachtauskuehlung** (oeffenbare Fenster, Lueftung) fuehrt die gespeicherte Waerme
    nachts ab. Speichermasse ohne Nachtauskuehlung bringt wenig.
 
@@ -46,5 +48,5 @@ zugleich Minergie. → Bauherren-FAQ **F11**.
 - Konkretes Rechenverfahren / Grenzwerte sommerlicher Waermeschutz nach SIA 180:2014 nachtragen.
 - Zusammenspiel mit aktiver Kuehlung/Erdsonden-Freecooling (Healthcare-Relevanz) vertiefen.
 
-Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-standards]]`, `[[daemmstoffe-lambda]]`
-(Holzfaser als Hitzeschutz durch Speichermasse).
+Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-standards]]`, `[[daemmstoffe-lambda]]`,
+`[[naturdaemmstoffe]]` (Holzfaser/Zellulose als Hitzeschutz durch Speichermasse).

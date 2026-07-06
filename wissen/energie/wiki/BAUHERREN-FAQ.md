@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-05
-sources: [destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-06
+sources: [destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1225,6 +1225,36 @@ Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen.
 
 ---
 
+## F34 — «Kann ich oekologisch daemmen, ohne im Winter schlechter dazustehen — und hilft das gegen Sommerhitze?»
+
+**Kurz:** Ja. **Naturdaemmstoffe** (Holzfaser, Zellulose, Hanf, Stroh …) daemmen im **Winter praktisch
+gleich gut** wie Mineralwolle (λ meist 0,038–0,045), brauchen also **keine dickere Daemmung** — und
+sie **schuetzen dank hoher Speichermasse spuerbar besser vor Sommerhitze** und haben **deutlich
+weniger graue Energie**. Der Preis: sie sind **brennbar** (CH-Klasse RF3) und brauchen meist eine
+Bekleidung/Verputz.
+
+**Fachlich:** Fuer den Winter zaehlt λ — hier sind Naturfasern gleichauf. Gegen **Sommerueberhitzung**
+zaehlt nicht λ, sondern die **Waermespeichermasse ρ·c**: sie verzoegert und daempft die Hitzewelle
+(**Phasenverschiebung**). Holzbasierte Daemmstoffe haben c ~2000–2200 J/(kg·K) — rund **doppelt so
+viel wie Steinwolle (~1030) oder EPS (~1450)** — und dazu hoehere Rohdichte, also viel mehr
+Speichermasse bei gleicher Daemmwirkung. Lignum: Holzfaser «schuetzt dank ihres hohen
+Waermespeicherungsvermoegens auch besser als die meisten anderen Daemmstoffe vor Sommerhitze». Sie
+sind zudem **diffusionsoffen und feuchtepuffernd** (Holzfaser nimmt bis 15 % Eigengewicht Feuchte auf)
+und oekologisch top: **Stroh** als Nebenprodukt braucht gemaess CH-Ratgeber **~100× weniger Energie
+als Mineralwolle** → starker Minergie-ECO-/CO₂-Hebel. **Trade-off:** brennbar → **RF3**, Bekleidung/
+Verputz noetig (Stroh **verputzt** erreicht bis **90 min** Feuerwiderstand); hoeheres Gewicht; Holzfaser
+meist etwas teurer. Fuer **nicht brennbare** Anforderungen (Hochhaus, Fluchtweg) bleibt Mineralwolle.
+**Groesste Wirkung:** Steildach/Dachgeschoss (Sommerhitze) und diffusionsoffene Holzbau-Aussenwand.
+
+**Quelle:** Naturdaemmstoff-Vergleich (λ/ρ/c/µ) gesundes-haus.ch + Lignum «Holzfaserdaemmung» →
+`[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`, Themenartikel `[[naturdaemmstoffe]]`; sommerlicher
+Hitzeschutz → F11 / `[[sommerlicher-waermeschutz]]`; graue Energie → F9 / `[[graue-energie]]`,
+`[[kbob-graue-treibhausgasemissionen-2025]]`; λ-Bandbreiten → `[[daemmstoffe-lambda]]`. ⚠ Brandklasse
+in der Quelle als DIN-B2 genannt → **CH-VKF RF3** ist eigene Uebersetzung; verbindlich ist die
+**VKF-Produktanerkennung** je Aufbau → Skill `brandschutz`.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1235,7 +1265,12 @@ Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-05: 33 Kernfragen F1-F33 belegt.** Neu am 2026-07-05: **F33 ‹Solarstrom mit den
+> **FAQ-Stand 2026-07-06: 34 Kernfragen F1-F34 belegt.** Neu am 2026-07-06: **F34 ‹Oekologisch daemmen
+> ohne Winter-Nachteil — hilft das gegen Sommerhitze?›** — Naturdaemmstoffe (Holzfaser/Zellulose/Hanf/
+> Stroh) λ 0,038–0,045 wie Mineralwolle, aber ~2× Speichermasse (c ~2000–2200 J/(kg·K)) → besserer
+> Sommerhitzeschutz via Phasenverschiebung, diffusionsoffen, ~100× weniger graue Energie (Stroh); Preis:
+> brennbar RF3, Bekleidung/Verputz noetig (Stroh verputzt bis 90 min) → `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`,
+> `[[naturdaemmstoffe]]` (gesundes-haus.ch + Lignum). Zuvor am 2026-07-05: **F33 ‹Solarstrom mit den
 > Nachbarn teilen — Lokale Elektrizitaetsgemeinschaft (LEG)?›** (neu ab 1.1.2026, StromVG; Netzentgelt-Rabatt
 > 40 %/20 %, nur auf Wirkenergie/Wirkleistung/Grundpreis; Voraussetzung gleiche Gemeinde/Netzebene/≥5 %
 > Produktion; vs. ZEV = hinter dem Anschluss, abgabenfrei → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`,
