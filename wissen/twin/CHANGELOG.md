@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-06 — twin-fidelity-review (alle 2 Tage): Gesamt-Fidelity 92/100
+- Goldproben (authentisch, vor-Claude, rj@ Sent Items, neues Register-Dreieck): Gold A formell-Sie
+  HRA-Vorprüfung Umfirmierung UNARC→JANS GmbH (2025-10-31) · Gold B wärmstes operatives Peer-Du
+  «Hoi Peter … Café haha» (2025-10-29) · Gold C Mandatsabschluss-Dank im Du an Bopp (2025-10-29).
+  Alle drei ohne Fehlklang rekonstruiert; Restdrift nur in zwei belegten Mikro-Markern.
+- Scores: Stimme 90 · Denken 93 · Haltung 94 · Beziehung 93 · Fachsignatur 92 · Arbeitsweise 93.
+- stimme.md geschärft: (1) Text-Lacher «haha» + Gastgeber-/Kaffee-Geste im wärmsten operativen
+  Peer-Du (belegt Gold B); (2) «Gruss-Block folgt der Länge/Mobile, nicht dem Abschluss-Charakter»
+  (belegt Gold C: Abschluss-Dank → «Freundliche Grüsse», aber Mobile-Kurzreply ohne Block, nur
+  «Raphael»); Do-Block minimal ergänzt; last_updated 2026-07-06 + Quelle 2026-07-06_fidelity.md.
+- QUESTIONS: 260630 #1 (Gruss-Trigger = abschliessend-zusammenfassender Mandatscharakter) + #3
+  (Akquise-Brücke als Standard beim zufriedenen Abschluss) als beantwortet markiert (Gold C).
+  Neue Fragesteller-Runde 260706 angehängt (4 Fragen: haha-Schwelle, Block-im-Kurzreply bewusst/
+  Gerät, Gastgeber-Geste, Amts-Vorprüfung + gebündelte Zweitfrage).
+- Gegenseitige Facetten-Validierung: kein neuer ungelöster Widerspruch; die scheinbare Block-Spannung
+  aufgelöst (Gruss-Wahl vs. Block-Tiefe = zwei unabhängige Achsen). Drift-Report
+  outputs/2026-07-06_fidelity.md. DNA neu kompiliert (rules/jans-dna.md, 6 Facetten).
+
 ## 2026-07-05 — twin-mail-training (täglich): Batch 25, Sent Items rj@ 2026-01-23…01-30
 - Sweep-Fortschritt: abgedeckt bis **2026-01-30** (nächster Lauf ab 2026-01-31). 20 Mails gesichtet,
   6 authentische RJ-Volltexte destilliert (+ Previews genutzt); Unsubscribe/Teams/Zahlbeleg-Fwd ignoriert.

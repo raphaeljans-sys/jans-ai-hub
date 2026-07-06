@@ -71,7 +71,10 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   260704); im iterativen Zwischenstand die leichte Freigabe-Bitte «kurzes OK-Feedback» wählen, bei der
   abnahmefähigen Schlussabgabe das förmliche «Bitte um Prüfung und Freigabe»; die reine Verfahrens-/
   Status-Sie-Mail (Bauentscheid) bewusst OHNE Wunschzeile und ohne persönlichen Bezug sachlich halten,
-  mit «melde ich mich unverzüglich» + «Freundliche Grüsse» + Block (Fidelity 260704).
+  mit «melde ich mich unverzüglich» + «Freundliche Grüsse» + Block (Fidelity 260704); im wärmsten
+  operativen Peer-Du den Text-Lacher «haha» + Gastfreundschafts-Geste zulassen und im ultrakurzen Reply
+  den Gruss ganz weglassen; beim Mandatsabschluss-Dank «Freundliche Grüsse» wählen, den vollen Block
+  aber nur bei ausformulierter Mail anhängen (Mobile-Kurzreply → nur «Raphael»).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);

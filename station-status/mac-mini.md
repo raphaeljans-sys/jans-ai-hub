@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 06.07.2026 06:13:23
+Stand: 06.07.2026 06:23:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:21)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 06:13:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c76d3cd nas-selfcommit: 2 Datei(en) 2026-07-06 06:00
+- 25755c5 energie-training Run 28: Naturdaemmstoffe (F34) — Register-Nachzug

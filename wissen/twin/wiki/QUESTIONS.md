@@ -3,6 +3,34 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260706 (twin-fragesteller, aus Fidelity-Review 2026-07-06)
+
+Quelle: Drift-Report `outputs/2026-07-06_fidelity.md` (Gesamt-Fidelity 92; Restdrift nur in zwei belegten
+Mikro-Markern des wärmsten Peer-Du — Text-Lacher «haha» + Block-im-Mobile-Reply). Je in 1–2 Sätzen
+beantwortbar.
+
+1. **«haha»-Lacher-Schwelle:** Im wärmsten operativen Peer-Du (Baumanager Peter, «Ich erwarte Dich mit
+   einem Café haha») setzt Du den ausgeschriebenen Lacher «haha». Ist «haha» auf die engsten, reziprok-
+   lockeren Peer-Du-Kontakte beschränkt (wie das Smiley 😊), oder darf es auch in ein warmes Geschäfts-Du
+   rutschen, sobald der Anlass sozial/humorvoll ist? *Warum: kalibriert den neu erfassten Text-Lacher
+   gegen die Emoji-Schwelle.* → [[stimme]], [[beziehungsregister]]
+2. **Block-Weglassen im Kurzreply — bewusst oder Gerät:** Beim Mandatsabschluss-Dank wählst Du
+   «Freundliche Grüsse», hängst im ultrakurzen Reply aber nur «Raphael» an (kein Block). Lässt Du den
+   vollen Signaturblock bei einer kurzen Mail **bewusst** weg (Kürze signalisiert Lockerheit), oder hängt
+   das schlicht daran, ob Du am Handy oder am Desktop tippst? *Warum: schärft die «Block folgt der
+   Länge»-Regel gegen ein reines Mobile-Artefakt.* → [[stimme]]
+3. **Gastgeber-/Kaffee-Geste als Standard:** «Ich erwarte Dich mit einem Café» bietest Du dem Baumanager
+   beim angekündigten Bürobesuch an. Ist diese Empfangs-/Gastfreundschafts-Geste Dein Standard bei jedem
+   angekündigten Besuch im neuen Büro (Beziehungspflege), oder nur bei den ganz vertrauten Partnern?
+   *Warum: operationalisiert die neu belegte Gastgeber-Geste (Café-/Büroeinladungs-Familie).*
+   → [[stimme]], [[arbeitsweise]]
+4. **Amts-Vorprüfung + gebündelte Zweitfrage als Standard:** Vor der Umfirmierung lässt Du das
+   Mutationsdossier vom HRA vorab auf Vollständigkeit bestätigen («Mehranläufe vermeiden, Amtsstellen
+   nicht doppelt belasten») UND hängst gleich eine angrenzende Zweitfrage an (Einzelfirma-Zweckanpassung
+   parallel oder separat?). Machst Du diese formfehler-Vorprüfung bei **jedem** beurkundungs-/eintragungs-
+   sensiblen Amtsvorgang, und bündelst Du angrenzende Klärungen bewusst in EIN Schreiben? *Warum: macht
+   den Vorprüfungs-Reflex + das Anliegen-Bündeln operationalisierbar.* → [[arbeitsweise]], [[fachsignatur]]
+
 ## Offen — Runde 260704 (twin-fragesteller, aus Fidelity-Review 2026-07-04)
 
 Quelle: Drift-Report `outputs/2026-07-04_fidelity.md` (Gesamt-Fidelity 92; Gruss-Paradox-Triade
@@ -62,7 +90,12 @@ Stimme 89 — Restdrift in EINEM Gruss-Trigger + einer Anrede-Feinheit). Je in 1
    mit Dir machen») dagegen mit «Freundliche Gruesse» — beide im Du, beide OHNE Geld in der Mail. Ist der
    Ausloeser fuer «Freundliche Gruesse» wirklich der **abschliessend-zusammenfassende Mandatscharakter**
    (der Auftrag wird zitierfaehig abgerundet/beendet), oder eher die Gewichtigkeit des Folgeauftrag-Angebots?
-   *Warum: macht die 260630 gefundene dritte Gruss-Lesart wasserdicht.* → [[stimme]]
+   *Warum: macht die 260630 gefundene dritte Gruss-Lesart wasserdicht.* → [[stimme]] ·
+   **BEANTWORTET (Fidelity 260706):** Gold C (Mandatsabschluss an «Guten Morgen Christoph», kein Geld,
+   «danke für die reibungslose Projektabwicklung» + Folgeauftrag-Angebot) schliesst mit «Freundliche
+   Grüsse». Der Auslöser ist der **abschliessend-zusammenfassende Mandatscharakter** (der Auftrag wird
+   zitierfähig abgerundet/beendet), nicht die Gewichtigkeit des Folgeauftrags — bestätigt. Neu dabei:
+   im ultrakurzen Mobile-Reply fällt der volle Block weg (nur «Raphael»); in stimme.md eingearbeitet.
 2. **Anrede-Grenze namentlich-Lieferant ↔ namentlich-Amt:** Antwortet eine Verkaeuferin/ein Lieferant
    **namentlich**, warmst Du auf «**Guten Tag Frau Gloor**» (Sie-Mittellage); ein namentlich antwortendes
    Amt/Notariat bekommt «**Sehr geehrte Frau …**». Ist die Grenze wirklich kommerziell-Lieferant
@@ -73,7 +106,11 @@ Stimme 89 — Restdrift in EINEM Gruss-Trigger + einer Anrede-Feinheit). Je in 1
    Folgeauftrag** an («Gerne wuerde ich ein interessantes Ausfuehrungsprojekt mit Dir machen»). Machst Du
    diesen Folgeauftrag-Hinweis **standardmaessig** bei jedem zufriedenstellenden Projektabschluss mit einem
    Stammkunden, oder nur, wenn ein konkretes Anschlussprojekt absehbar ist? *Warum: operationalisiert den
-   neu erfassten Akquise-Bruecken-Reflex (D2).* → [[haltung]], [[arbeitsweise]]
+   neu erfassten Akquise-Bruecken-Reflex (D2).* → [[haltung]], [[arbeitsweise]] ·
+   **BEANTWORTET (Fidelity 260706):** Gold C belegt die Akquise-Brücke verbatim («Gerne würde ich ein
+   interessantes Ausführungsprojekt mit Dir machen») beim zufriedenen Stammkunden-Abschluss (Bopp,
+   2025-10-29) — der Folgeauftrag-Hinweis ist der Standard-Anhang beim reibungslosen Mandatsabschluss.
+   In stimme.md verankert (Trigger + Akquise-Brücke).
 
 ## Offen — Runde 260628 (twin-fragesteller, aus Fidelity-Review 2026-06-28)
 
