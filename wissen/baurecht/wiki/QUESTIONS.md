@@ -37,10 +37,15 @@ wurden.
   referiert, nicht wörtlich zitiert — bei Kundenzitaten am amtlichen PBG-Volltext (raw/) gegenprüfen.
 - **needs-verification — «bis»-Artikel Art. 32b bis / 32d bis USG:** Nomenklatur aus dem Reader-Fliesstext;
   vor Kundenzitat am Fedlex-USG-Volltext prüfen.
-- **Offene Band-1-Reste:** ~~Kap. 5 (Planung und Entschädigung)~~ → **erledigt 2026-07-04** (Run 21,
-  S. 311-334): Destillat [[05-planung-und-entschaedigung]] + Wiki [[enteignung-und-entschaedigung]].
-  Offen nur noch **Kap. 4** (Natur-/Heimatschutz, P3, S. 267 ff.) und **Kap. 9 «Rechtsschutz» Rest**
-  S. 575-608 (Ablauf/Kosten/Revision).
+- **Offene Band-1-Reste:** ~~Kap. 5 (Planung und Entschädigung)~~ → **erledigt 2026-07-04** (Run 21).
+  ~~Kap. 9 «Rechtsschutz» Rest S. 576-606 (Ablauf/Kosten/Revision/Mediation)~~ → **erledigt 2026-07-06**
+  (Run 22): Destillat [[09-rechtsschutz-teil2-ablauf-kosten-revision]] + NEU Wiki
+  [[rechtsschutz-und-rechtsmittelverfahren]]. **Kap. 9 vollständig.** Offen nur noch **Kap. 4**
+  (Natur-/Heimatschutz, P3, S. 267 ff., Shots ~130-155/294 ff.).
+- **needs-verification — VRG-Paragraphen Kap. 9 Teil 2 (§ 25/§ 26b/§ 86a-d/§ 87/§ 89 VRG + § 338/§ 339
+  PBG):** aus den Screenshots belegt, aber Fassungsstände (§ 26b in Kraft 1.10.2016; § 339 PBG in Kraft
+  1.7.2014) und Gerichtsgebühr-Bandbreite (500-50'000 Fr.) am amtlichen VRG-/PBG-Volltext (raw/)
+  gegenprüfen, bevor sie in Kundenberatung zitiert werden.
 
 ## Offene Wissenslücken — neu (2026-06-17, aus Buch-Run Kap. 17 Teil 1)
 - ~~**Wohnhygiene/Raumanforderungen §§ 299-306 PBG**~~ → **erledigt 2026-06-17** (Run 9):
