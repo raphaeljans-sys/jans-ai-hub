@@ -754,3 +754,36 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   bei Nichtumsetzung? — **A:** Mindestens **20 %** bei Einzonungen (Art. 5 Abs. 1bis RPG). Setzt ein
   Kanton den Ausgleich nicht bis 30.4.2019 um, darf er keine Neueinzonungen mehr vornehmen
   (**Einzonungsstopp**, Art. 38a Abs. 4/5 RPG — betraf ZH; Bd 1, S. 327). _[2026-07-04]_
+
+## Kap. 9 Teil 2 — Ablauf, Kosten, ausserordentliche Rechtsmittel, Mediation (Run 22, 2026-07-06)
+
+- **F:** Ein Rekurs richtet sich nur gegen die Parkplaetze eines Neubaus. Darf der Rohbau trotzdem
+  begonnen werden? — **A:** **Ja, auf Antrag.** Zwar hat der Rekurs grds. aufschiebende Wirkung
+  (§ 25 Abs. 1 VRG), aber **§ 339 PBG** hemmt den Bau nur, *soweit* der Verfahrensausgang die
+  Bauausfuehrung beeinflussen kann. Der Praesident der Rekursinstanz kann die aufschiebende Wirkung auf
+  die Parkplaetze beschraenken und den Neubau **freigeben** (Bd 1, S. 578). _[2026-07-06]_
+- **F:** Unterbricht ein Wiedererwaegungsgesuch die 30-taegige Rekursfrist? — **A:** **Nein.** Das
+  Wiedererwaegungsgesuch ist kein eigentliches Rechtsmittel, sondern ein formloser Rechtsbehelf ohne
+  gesetzliche Regelung; es unterbricht die Rekursfrist NICHT. Daher immer parallel fristwahrend
+  rekurrieren (§ 9.8.1; RB 2000 Nr. 6; Bd 1, S. 591 f.). _[2026-07-06]_
+- **F:** Nennen Sie die vier Phasen des Rechtsmittelverfahrens. — **A:** **Einleitungsphase,
+  Ermittlungsphase, Entscheidungsphase, Vollstreckungsphase** (§ 9.7; Bd 1, S. 577). _[2026-07-06]_
+- **F:** Wie hoch faellt eine (volle) Parteientschaedigung im Baurekurs-/Verwaltungsgerichtsverfahren
+  erfahrungsgemaess aus, und erhaelt ein obsiegendes Gemeinwesen eine solche? — **A:** Erfahrungsgemaess
+  nur **rund 1'500 bis 2'500 Franken**, pauschal ohne MwSt-Abklaerung (BEZ 2007 Nr. 56). Das obsiegende
+  **Gemeinwesen** erhaelt nach § 17 Abs. 3 VRG nur **ausnahmsweise** eine Umtriebsentschaedigung
+  (Bd 1, S. 588 f.). _[2026-07-06]_
+- **F:** Innert welcher Fristen kann ein Revisionsgesuch (§ 86a VRG) gestellt werden? — **A:** **90 Tage**
+  seit Entdeckung des Revisionsgrunds; **absolut 10 Jahre** seit Mitteilung der Anordnung (danach nur noch
+  beim Strafverfahrens-Tatbestand). Revisionsgruende: neue erhebliche Tatsachen/Beweismittel oder ein im
+  Strafverfahren festgestelltes Verbrechen/Vergehen (Bd 1, S. 593). _[2026-07-06]_
+- **F:** Gelten im baurechtlichen Rekursverfahren die Gerichtsferien (Fristenstillstand 15.7.-15.8. usw.)?
+  — **A:** **Nein.** Bei Beschluessen von Gemeindebehoerden (z.B. Baubewilligungen), bei denen das
+  Baurekursgericht Rechtsmittelinstanz ist, gibt es **keine Gerichtsferien** — die Rechtsmittelfrist
+  verlaengert sich nicht (§ 71 VRG; Bd 1, S. 576). Eine echte Falle gegenueber dem Zivilprozess.
+  _[2026-07-06]_
+- **F (Modell A · Frage→Beleg):** Zwei Nachbarn bekaempfen gegenseitig ihre Baubewilligungen mit Rekursen.
+  Welche Alternative empfiehlt das Buch, und welchen Musterausgang nennt es? — **A:** **Mediation**
+  (§ 9.9.6). Musterbeispiel «Kuchenvergroesserung»: statt zweier Rekurse vereinbaren die Nachbarn den Bau
+  einer **gemeinsamen Tiefgarage** — beide gewinnen (Bd 1, S. 602). Geeignet, weil Nachbarn in einer
+  Dauerbeziehung stehen und ueber ihre privatrechtlichen Belange frei verfuegen koennen. _[2026-07-06]_

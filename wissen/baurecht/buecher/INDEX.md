@@ -290,7 +290,23 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **akzessorische Normenkontrolle** (§ 50a VRG), Verfahrensgrundsaetze (Offizial-/Dispositions-/
   Untersuchungs-/Eventualmaxime, reformatio in peius § 27 VRG), **Rechtsmittelfrist 30 Tage** (§ 22 VRG;
   Fax/E-Mail genuegen nicht). 16 Doppelseiten. Status: `emerging` (Restkap. S. 575-608 Ablauf/Kosten/
-  Revision + §-Verifikation offen). Speist [[baubewilligungsverfahren]] + [[baulinien-und-abstandslinien]].
+  Revision + §-Verifikation offen; Teil 2 erledigt Run 22). Speist [[baubewilligungsverfahren]] +
+  [[baulinien-und-abstandslinien]] + [[rechtsschutz-und-rechtsmittelverfahren]].
+
+- [[09-rechtsschutz-teil2-ablauf-kosten-revision]] — Kap. 9 Teil 2 (S. 576-606, **schliesst Kap. 9**):
+  **Fristen** (30 T § 22 VRG, kein Gerichtsferien-Stillstand § 71 VRG, Ruhetage § 11), **Kostenvorschuss**
+  § 15 VRG, **vier Verfahrensphasen** § 9.7. Kernstueck **aufschiebende Wirkung**: § 25 Abs. 1 VRG (Grundsatz)
+  ↔ **§ 339 PBG** (lex specialis: Hemmung nur soweit ausgangsrelevant → **Teilfreigabe** durch Praesident,
+  BEZ 2004 Nr. 43; Natur-/Heimatschutz keine aufsch. Wirkung § 211 Abs. 4; Bund Art. 103 BGG). Ermittlung
+  (Schriftenwechsel/**Replikrecht** § 26b VRG, Beiladung, Beweis: Urkunden/Augenschein/**Fachbericht § 18
+  OV BRG**/Zeugen § 26c, Parteiverhandlung Art. 6 EMRK). Entscheidung (Abschreibung/Nichteintreten/materiell/
+  Rueckweisung § 64). **Kosten**: Gerichtsgebuehr **500-50'000 Fr.** § 338 PBG (Ø ~5'000), Unterliegerprinzip
+  § 13, Gutheissung Nachbarrekurs je 1/2 (RB 2005 Nr. 12), **Parteientschaedigung ~1'500-2'500 Fr.** § 17
+  (BEZ 2007 Nr. 56; Gemeinwesen nur ausnahmsweise § 17 Abs. 3), unentgeltl. Rechtspflege § 16. **Formlose
+  Rechtsbehelfe**: Wiedererwaegung (**unterbricht Rekursfrist NICHT**), Aufsichtsbeschwerde § 2 lit. b PBG;
+  **ausserordentliche**: **Revision § 86a VRG** (90 T/10 J.), Erlaeuterung/Berichtigung. **Mediation § 9.9.6**
+  (Musterfall gemeinsame Tiefgarage; Mediationsklausel; Art. 213/214 ZPO). 17 Doppelseiten. Status:
+  `emerging`. Speist [[rechtsschutz-und-rechtsmittelverfahren]] + [[baubewilligungsverfahren]].
 
 - [[08-ausfuehrung-von-bauarbeiten]] — Kap. 8 Teil 1 (S. 485-509, Kap. bis S. 534): **Ausfuehrung von
   Bauarbeiten** — **8.1 Bauausfuehrung/Baukontrolle**: Baubeginn = Aushub mit Ausfuehrungswillen (BEZ 1987
@@ -319,7 +335,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 6 | Baurechtliches Verfahren | 🟢 vollstaendig (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405 + Teil 2 Anzeigeverfahren §325/§§13-15 BVV + private Kontrolle §§4-7 BBV I + Empfehlungen S.402-421) |
 | 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟢 vollstaendig (7.1 Entscheid/Nebenbestimmungen §321 + 7.1.5/7.1.6 Gueltigkeit/Widerruf §322/§328, 7.2 besondere kant. Zustaendigkeiten, 7.3 Vorentscheid §§323/324, 7.4 Auskuenfte — S.424-484) |
 | 8 | Ausfuehrung von Bauarbeiten | 🟡 teilweise (8.1 Baufreigabe §326/Meldepflichten §327 Abs.1/Kontrollen §327 Abs.2/Bezugsbewilligung+Schlusskontrolle/Akteneinsicht + 8.2 Unterbruch §328 + 8.3-Anfang §239, S.485-509; 8.3-Detail + Kap.-Ende S.510-534 offen) |
-| 9 | Rechtsschutz | 🟡 teilweise (Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen S.537-575; Ablauf/Kosten/Revision S.575-608 offen) |
+| 9 | Rechtsschutz | 🟢 vollstaendig (Teil 1 Instanzen/Legitimation/Kognition S.537-575; Teil 2 Fristen/**4 Phasen**/aufschieb. Wirkung §339 PBG/Kosten §338/**Revision §86a**/Mediation S.576-606) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 S.1241-1255 + Ausruestungen §§295-298/§4 ABV/Heizung-Fernwaerme + Hindernisfreiheit §§239a/239b BehiG + Schutzraeume S.1256-1303; Garagen §§37-39 BBV I offen) |
 | 19 | Baulicher Umweltschutz | 🟡 teilweise (USG/LRV/LSV, Laerm ES I-IV, Art.31/32 LSV, SIA 181, S.1357-1403; Rest ab Shot 706 offen) |
 | 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie + § 357 Abs.4 Verbesserungen S.1433-1455; § 357 Abs.5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 732 offen) |

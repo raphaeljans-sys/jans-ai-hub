@@ -2,7 +2,7 @@
 name: curriculum
 beschreibung: Kapitel-Landkarte von «Zuercher Planungs- und Baurecht, Band 1+2» (Fritzsche/Boesch/Wipf/Kunz, 6. Aufl. 2019, vzgv/Stutz Medien). Steuert die Erschliessungs-Reihenfolge des Buch-Trainings.
 quelle: Uebersichts-Inhaltsverzeichnis S. 8-9 (Screenshot-Shot 8)
-last_updated: 2026-07-03
+last_updated: 2026-07-06
 ---
 
 # Curriculum — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -26,7 +26,7 @@ Distillieren echte Seitenzahlen nachfuehren.
 | 6 | Baurechtliches Verfahren | 337 | **169** | **P1** | **[x] VOLLSTAENDIG** (Kern S.337-405 Shots 169-201: Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren; **Teil 2** Run 18 S.402-421 Shots 202-211: **Anzeigeverfahren §325 PBG/§§13-15 BVV** + **private Kontrolle §§4-7 BBV I** + Empfehlungen. Destillate [[band-1/06-baurechtliches-verfahren]] + [[band-1/06-baurechtliches-verfahren-teil2]]) |
 | 7 | Baurechtliche Zustaendigkeiten, Entscheide und Auskuenfte | 423 | **213** | **P1** | **[x] VOLLSTAENDIG** (S.424-484, Shots 213-244). Teil 1 (7.1 Der kommunale baurechtl. Entscheid: §318/GG-Delegation/Ausstand/Inhalt/**Nebenbestimmungen §321**/Kostenentscheid). Teil 2 (S.448-484): **Gueltigkeit 3 J. §322** (Verwirkung, nicht verlaengerbar, Fristbeginn letzte Bewilligung, Baubeginn=Aushub), **Widerruf §-/BGE 97 I 752** (Vertrauensschutz, nach Bauvollendung grds. nicht), **Besondere kant. Zustaendigkeiten Anhang BVV** (AFV/ALN/AWEL/UVP-KOFU), **baurechtl. Vorentscheid §§323/324** (teilverbindlich, 3 J., nur Rechtsfragen), **Auskuenfte** (Treu+Glauben, 5 Voraussetzungen) / **Verhandlungsloesungen**. Destillate [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] + [[band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] |
 | 8 | Ausfuehrung von Bauarbeiten | 485 | ~245-269 | P2 | [~] (S.485-509, Shots 244-256, Run 13: **8.1 Bauausfuehrung/Baukontrolle** (Baufreigabe §326, Meldepflichten §327 Abs.1 + Asbest Art.3a ABV, baupolizeil. Kontrollen §327 Abs.2 = Realakt/§10c VRG, Bezugsbewilligung/Schlusskontrolle §12a BBV I/II + SIA 180/358, Akteneinsicht §§8/9 VRG), **8.2 Unterbruch §328** (Arealueberbauung max. 2 J., Ersatzvornahme §30/Pfandrecht §15 VRG), **8.3 Sicherheit/Regeln Baukunde §239** Anfang. Destillat [[band-1/08-ausfuehrung-von-bauarbeiten]]. Rest 8.3-Detail/Kap.-Ende S.510-534 offen) |
-| 9 | Rechtsschutz | 537 | **270** | P2 | [~] (S.537-575: Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen; Rest S.575-608 Ablauf/Kosten/Revision offen) |
+| 9 | Rechtsschutz | 537 | **270** | P2 | **[x] VOLLSTAENDIG** (Teil 1 Run 8, S.537-575: Rechtsmittelweg/Instanzen/Legitimation/Kognition/Fristen, [[band-1/09-rechtsschutz]]. **Teil 2** Run 22, 2026-07-06, S.576-606, Shots 290-306: Fristen/Gerichtsferien §71 VRG, Kostenvorschuss §15, **4 Phasen** §9.7, **aufschiebende Wirkung §25 VRG ↔ §339 PBG** (Teilfreigabe, BEZ 2004 Nr.43), Schriftenwechsel/Replikrecht §26b, Beiladung, Beweisverfahren (Augenschein/Fachbericht §18 OV BRG), Parteiverhandlung Art.6 EMRK, Entscheidungsphase (Abschreibung/Nichteintreten/materiell), **Kosten** §338 PBG (500-50'000)/Parteientschaedigung §17 (~1'500-2'500, Gemeinwesen ausnahmsweise), **Wiedererwaegung** (unterbricht Rekursfrist NICHT)/Aufsichtsbeschwerde/**Revision §86a** (90 T/10 J.)/Erlaeuterung, **Mediation §9.9.6**. Destillat [[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]], NEU Wiki [[rechtsschutz-und-rechtsmittelverfahren]]) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 609 | 307 | P2 | **[x] VOLLSTAENDIG** (Run 20, 2026-07-03, S.609-636, Shots 307-320: **formelle vs. materielle Baurechtswidrigkeit** (formell heilbar via nachtraeglichem Baubewilligungsverfahren), **Wiederherstellung §341 PBG** (Abbruch/Aenderung, Verhaeltnismaessigkeit Art.5 Abs.2 BV, guter/boeser Glaube), **30-Jahre-Verwirkung** (staendige BGer-Praxis; Ausnahme Polizeigueter/Umwelt), vorsorgl. Massnahmen §339 Abs.2/§6 VRG (Baustopp/Siegelung Art.290 StGB), Vollstreckung §30 VRG (Ersatzvornahme/direkter Zwang/Stoererprinzip, Grundpfand Art.836 ZGB), **Strafe §340 PBG Busse bis 50'000** (auch Architekten/Ingenieure; §340a Verjaehrung 5 J.), Art.229/292 StGB. Destillat [[band-1/10-widerrechtliche-bauten-teil1]], Wiki [[widerrechtliche-bauten-und-sanktionen]] neu. **Letzte Sektion Band 1**) |
 
 > Hinweis: Die urspruengliche Shot-Schaetzung der Band-1-Kapitel war FALSCH (Formel galt
@@ -180,7 +180,7 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    mittelweg Baurekursgericht § 19/§ 20 VRG → Verwaltungsgericht § 50 VRG → Bundesgericht Art. 82/95 BGG,
    Legitimation § 21 VRG, akzessorische Normenkontrolle § 50a VRG, Verfahrensgrundsaetze, **Rechtsmittel-
    frist 30 Tage § 22 VRG**. Destillat [[09-rechtsschutz]], speist [[baubewilligungsverfahren]] +
-   [[baulinien-und-abstandslinien]]. Restschuld Kap. 9 S.575-608 Ablauf/Kosten/Revision + Kap. 10 offen.)*
+   [[baulinien-und-abstandslinien]]. **Kap. 9 vollstaendig** (Teil 2 Run 22, S.576-606). Kap. 10 erledigt Run 20.)*
 10. Rest nach Prioritaet (Kap. 1-5, 11, 18-19, 21-23 + Kap.-8-Restschuld). Kap. 18 Brandschutz nur Querverweis
    auf den Skill `brandschutz` (kein Doppelaufbau).
 

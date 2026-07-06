@@ -227,8 +227,9 @@ koennen im konkreten Baufall **akzessorisch** auf ihre Gesetzmaessigkeit ueberpr
   lesbar; insbesondere die genaue Verortung der akzessorischen Normenkontrolle (§ 50a vs. § 19 Abs. 1 VRG).
 - **§ 209f PBG (Behoerdenbeschwerde)** und **§ 335/§ 336 PBG (Baurekursgericht-Organisation)** am PBG-
   Volltext praezisieren — Buchstaben-Suffixe (209f) unsicher.
-- **Restbereich Kap. 9 (S. 575-608)** noch offen: 9.7 Ablauf des Rechtsmittelverfahrens (Einleitungs-/
-  Ermittlungs-/Entscheidungs-/Vollstreckungsphase), vorsorgliche Massnahmen, aufschiebende Wirkung,
-  Kosten/Entschaedigung, Revision — naechster Lauf, Shots ab ~290 (p.576 ff.).
+- **Restbereich Kap. 9 (S. 576-606)** — ~~offen~~ **erledigt 2026-07-06 (Run 22)**: 9.7 Ablauf des
+  Rechtsmittelverfahrens (vier Phasen), vorsorgliche Massnahmen/aufschiebende Wirkung (§ 339 PBG),
+  Kosten/Entschaedigung, Revision, Mediation → Destillat [[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]].
+  **Kap. 9 vollstaendig.**
 - **Streitwert-/Besetzungsregeln** (20'000 Fr.) Stand 2019; aktuelle VRG-/PBG-Fassung separat pruefen.
 - Status insgesamt `emerging`: belegt aus den Buchseiten, amtliche §-Verifikation + Restkapitel ausstehend.

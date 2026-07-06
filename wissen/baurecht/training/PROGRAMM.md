@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-04
+last_updated: 2026-07-06
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,7 +92,14 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~821 / 1550 (~410 Doppelseiten). Run 21 (2026-07-04, regulaer, 1 Kapitel):
+- **Seiten distilliert:** ~855 / 1550 (~427 Doppelseiten). Run 22 (2026-07-06, regulaer, 1 Kapitel):
+  +17 Doppelseiten (Kap. 9 Teil 2, S.576-606, Shots 290-306) → **Kap. 9 Rechtsschutz VOLLSTAENDIG; Band 1
+  offen nur noch Kap. 4** (Natur-/Heimatschutz, P3, Shots ~130-155/294 ff.). Kernstueck: **aufschiebende
+  Wirkung § 339 PBG** (Teilfreigabe bei Nachbarrekurs), Kosten § 338/§ 17 VRG, ausserordentliche Rechtsmittel
+  (Revision § 86a), Mediation. Neues Destillat [[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]], NEU
+  Wiki [[rechtsschutz-und-rechtsmittelverfahren]] (synthetisiert Teil 1+2). Modell C (6 Karten) + Modell A (1).
+  Report `outputs/2026-07-06_buch-run22.md`.
+- **Seiten distilliert (frueher):** ~821 / 1550. Run 21 (2026-07-04, regulaer, 1 Kapitel):
   +13 Doppelseiten (Kap. 5, S.311-334, Shots 156-168) → **Kap. 5 vollstaendig; Band 1 offen nur noch
   Kap. 4 (P3) + Kap. 9-Rest S.575-608.** Run 20 (2026-07-03, Forcierung): +47
   Doppelseiten (Kap. 3 T2 S.240-265 / Kap. 12 T4 S.770-807 / Kap. 10 S.609-636) → **Kap. 3, Kap. 10,
@@ -103,9 +110,10 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   bis S.769; Teil 4 §236-Rest/Abfall/Altlasten offen); Band 1 **Kap. 1 VOLLSTAENDIG** + **Kap. 2 Teil 1+2**
   (T2 = 2.3 Nutzungsplanung/Zonenarten, Shot 76 offen) + Kap. 6 + 9 Kernbereich + **Kap. 7 VOLLSTAENDIG** +
   **Kap. 8 Teil 1**. Run 17 (regulaer) 2026-06-30: +12 Doppelseiten Kap. 2 Teil 2.
-- **Kapitel-Destillate:** 33 Buch-Destillate (Run 20 neu: 03-T2 Quartierplan, 12-T4 Altlasten, 10 widerrechtl. Bauten) (Band 1: Kap. 1/2×3/3×2/6×2/7×2/8/9/10; Band 2: Kap. 11/12 (T1+T2/T3/T4)/13/
+- **Kapitel-Destillate:** 35 Buch-Destillate (Run 22 neu: 09-T2 Rechtsschutz Ablauf/Kosten/Revision; Run 21
+  neu: 05 Planung/Entschaedigung) (Band 1: Kap. 1/2×3/3×2/5/6×2/7×2/8/9×2/10; Band 2: Kap. 11/12 (T1+T2/T3/T4)/13/
   14/15×4-Teile/16 (T1+T2)/17 (T1+T2)/19/20/21/22/23; alle `emerging`).
-- **Wiki:** 19 Artikel (Run 21 neu [[enteignung-und-entschaedigung]] `emerging`; Run 20 neu [[widerrechtliche-bauten-und-sanktionen]] `emerging`; [[baureife-und-erschliessung]] auf `established` — Quartierplan + Altlasten. Frueher: geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
+- **Wiki:** 21 Artikel (Run 22 neu [[rechtsschutz-und-rechtsmittelverfahren]] `emerging`; Run 21 neu [[enteignung-und-entschaedigung]] `emerging`; Run 20 neu [[widerrechtliche-bauten-und-sanktionen]] `emerging`; [[baureife-und-erschliessung]] auf `established` — Quartierplan + Altlasten. Frueher: geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 Run 17: **Zonenarten/BZO-
   Platzhalter gefuellt** — numerus clausus § 48 Abs. 2 PBG, Typ-Katalog, Neueinzonung Art. 15 RPG,
   Arealueberbauung §§ 69-73; NEU [[grundlagen-planungs-baurecht]] 2026-06-30 `emerging` (oeff./privates Recht/SIA-
   Normen/Verfassungsgrundsaetze); geschaerft [[raumplanung-und-gestaltung]] 2026-06-30 (Planungsstufen-Belege)
@@ -207,7 +215,9 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
-- **Naechster Lauf:** **Band-1-Abschluss** — **Kap. 9 Rest** (Rechtsschutz Ablauf/Kosten/Revision, S.575-608, Shots 290-306) + **Kap. 4** (Natur-/Heimatschutz, P3, S.267 ff., Shots ~130-155). *(erledigt Run 21: Kap. 5 Planung und Entschaedigung.)* Danach Band-2-Reste (Kap. 13 §§239a/240/242/248 ab Shot 431, Kap. 8 Rest S.510-534, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 20 §357 Abs.5/§307, Kap. 21 Art.24d/24e). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** **Band-1-Abschluss = Kap. 4 Natur- und Heimatschutz** (P3, S.267-310, Shots ~130-155/294 ff.
+  — echte Buchseite im Bild pruefen, Shot-Schaetzung Band 1 ist unzuverlaessig!). Das ist die **letzte offene
+  Sektion von Band 1**. *(erledigt Run 22: Kap. 9 Teil 2 → Kap. 9 vollstaendig; Run 21: Kap. 5.)* Danach Band-2-Reste (Kap. 13 §§239a/240/242/248 ab Shot 431, Kap. 8 Rest S.510-534, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 20 §357 Abs.5/§307, Kap. 21 Art.24d/24e). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten

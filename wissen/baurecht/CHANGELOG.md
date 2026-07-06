@@ -4,6 +4,26 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-06 — Buch-Run 22: Kap. 9 Teil 2 → Kap. 9 (Rechtsschutz) vollstaendig
+- [neu] **Destillat Kap. 9 Teil 2** [[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]] (S. 576-606,
+  Shots 290-306, 17 Doppelseiten): Fristen/Gerichtsferien § 71 VRG, Kostenvorschuss § 15, vier
+  Verfahrensphasen § 9.7, **aufschiebende Wirkung § 25 VRG ↔ § 339 PBG** (Teilfreigabe, BEZ 2004 Nr. 43),
+  Schriftenwechsel/Replikrecht § 26b, Beiladung, Beweisverfahren (Augenschein/Fachbericht § 18 OV BRG),
+  Parteiverhandlung Art. 6 EMRK, Entscheidungsphase, **Kosten** § 338 PBG (500-50'000)/Parteientschaedigung
+  § 17 (~1'500-2'500, Gemeinwesen ausnahmsweise), **Wiedererwaegung** (unterbricht Rekursfrist NICHT)/
+  Aufsichtsbeschwerde/**Revision § 86a** (90 T/10 J.)/Erlaeuterung, **Mediation § 9.9.6**.
+- [neu] **Wiki-Artikel** [[rechtsschutz-und-rechtsmittelverfahren]] (`emerging`) — synthetisiert Kap. 9
+  Teil 1 (Instanzen/Legitimation/Kognition) + Teil 2 (Fristen/Ablauf/Kosten/ausserordentliche Rechtsmittel/
+  Mediation); schliesst die bisherige Wiki-Luecke «Rechtsschutz».
+- [geaendert] **curriculum.md** Kap. 9 → **VOLLSTAENDIG**; **buecher/INDEX.md** (neues Destillat, Coverage
+  Kap. 9 🟢); **seiten-inventar.md** Shots 290-306 → [x] mit Destillat-Link; **wiki/INDEX.md** (neue Sektion
+  «Rechtsschutz & Rechtsmittel», Artikelzahl 17→21); **wiki/QUESTIONS.md** (Kap. 9 Rest erledigt +
+  needs-verification VRG-§§); **PROGRAMM.md** Tracker.
+- [drill] **training/drills.md** +7 Karten (Modell C, davon 1 Modell A): § 339-Teilfreigabe, Wiedererwaegung
+  ohne Fristunterbruch, 4 Phasen, Parteientschaedigung/Gemeinwesen, Revisionsfristen, Gerichtsferien-Falle,
+  Mediation «gemeinsame Tiefgarage».
+- [status] **Band 1 offen nur noch Kap. 4** (Natur-/Heimatschutz, P3). Kap. 9 damit vollstaendig.
+
 ## 2026-07-04 — Buch-Run 21: Kap. 5 (Planung und Entschaedigung) vollstaendig
 - [neu] **Destillat Kap. 5** [[band-1/05-planung-und-entschaedigung]] (S. 311-334, Shots 156-168,
   13 Doppelseiten): formelle Enteignung (Art. 26/36 BV, EntG/AbtrG, Flughafen Laerm/Direktueberflug),
