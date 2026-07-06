@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.07.2026 08:14:09
+Stand: 06.07.2026 08:24:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 08:14:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7962dac baurecht-buch-training Run 22: Kap. 9 (Rechtsschutz) vollstaendig — Register/Drills/Report nachgefuehrt
+- ba8ec36 sync: ag-gruendung-monitor: Status 06.07. unveraendert (keine neue UBS-/Notariat-Post)
