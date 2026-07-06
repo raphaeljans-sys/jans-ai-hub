@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.07.2026 07:54:01
+Stand: 06.07.2026 08:14:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 07:54:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e1ed2f3 nas-selfcommit: 6 Datei(en) 2026-07-06 07:45
+- 7962dac baurecht-buch-training Run 22: Kap. 9 (Rechtsschutz) vollstaendig — Register/Drills/Report nachgefuehrt

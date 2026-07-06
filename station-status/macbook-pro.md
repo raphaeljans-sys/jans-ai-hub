@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.07.2026 07:50:37
+Stand: 06.07.2026 08:10:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.07.2026 07:50:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e1ed2f3 nas-selfcommit: 6 Datei(en) 2026-07-06 07:45
+- 7962dac baurecht-buch-training Run 22: Kap. 9 (Rechtsschutz) vollstaendig — Register/Drills/Report nachgefuehrt
