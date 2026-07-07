@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -654,6 +654,16 @@ Drei fachsignatur-Datenpunkte aus dem KISPI-Umnutzungs-/Wartstrasse-Cluster (23.
   Datenblätter Apparate» — und rahmt eine parallele Fachprüfung als **«Second-Opinion»** (Erstplaner Gruner ↔
   Zweitmeinung 38grad) (KISPI, 03.02.). Fachsignatur: HLSE-Revisionsunterlagen-Katalog sitzt; die Zweitmeinung wird
   bewusst als Kontrollinstanz eingeholt (→ [[arbeitsweise]]).
+
+- **Brandschutz-Systemwechsel als Kostentreiber-Argument (Healthcare-Umbau):** Raphael begründet den
+  hohen Umbau-Kennwert einer Spitalstation über den brandschutztechnischen Nutzungswechsel des
+  Geschosses — «die Umstellung von einer **offenen Bürolandschaft mit zusammenhängender
+  Entfluchtungsfläche** zu einer **Bettenstation mit Patientenzimmern als Brandabschnitte** entlang
+  eines neuen Entfluchtungskorridors als Brandabschnitt» sei ein «grundlegender Systemwechsel in der
+  Nutzung des Geschosses» (KISPI, 09.02.). Fachsignatur: er übersetzt das Brandschutzkonzept
+  (Einzelzimmer = Brandabschnitte + separater Entfluchtungskorridor) direkt in die Kostenlogik,
+  statt nur einen m²-Kennwert zu nennen — Recht/Norm → wirtschaftliche Konsequenz (→ [[denken]]).
+  Ergänzt die Healthcare-Kennwerte-Staffel (260706) um das WARUM des hohen Umbauwertes.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

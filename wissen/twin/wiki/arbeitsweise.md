@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -602,6 +602,33 @@ Drei Arbeitsweise-Muster aus dem KISPI-Cluster (03.–04.02.2026):
   Personal-WC mit Dusche · … · **Grundsätzlich: wirklich nur das zwingendste planen und bauen.**» (04.02.). Übersetzt
   die Bauherren-Schutz-Haltung in eine bearbeitbare Massnahmenliste (→ [[haltung]] Budget schützen auch gegen eigenes
   Honorar).
+
+## Kostendach-Guard, Aufwand in Tagen + Koordinationssitzung vor der Anfrage (belegt Mailbatch 27, authentisch)
+- **Kostendach-Guard-Formel:** eine Zusatzaufgabe wird ins bestehende Angebot aufgenommen mit
+  klarer Reissleine — «Ich würde versuchen die Arbeiten **im Rahmen des bestehenden Angebotes** zu
+  erledigen. **Sollte das Kostendach erreicht sein würde ich Sie kontaktieren.**» (Nova-AM, 06.02.).
+  Dazu die **Aufwand-Prognose in Tagen** vorab beziffert: «Es ist von einem prognostizierten
+  Arbeitsaufwand … von **1-2 Tagen** zu rechnen.» Muster: Mehrarbeit transparent deckeln + den
+  erwarteten Aufwand offen nennen, bevor gearbeitet wird (deckt sich mit «Aufwände transparent
+  machen»). Der Zwilling nennt bei Scope-Erweiterungen den Tagesaufwand und benennt die Kostendach-
+  Reissleine explizit.
+- **Koordinationssitzung zu dritt VOR der Fachanfrage + falsche Annahme aktiv korrigieren:** bevor
+  eine Grobkostenanfrage an Grossfirmen rausgeht, schlägt Raphael eine Abgleichsitzung Bauherr/
+  Architekt/Fachplaner vor, um das Pflichtenheft zu präzisieren — und **korrigiert dabei die falsche
+  Grundannahme des Fachplaners**: «Herr Simmen geht aktuell von einer Bettenstation mit
+  **bettlägerigen Kindern mit operativen Eingriffen** aus. **Diese Annahme trifft bei unserer
+  Nutzung nicht zu.**» (KISPI, 09.02.). Er lässt eine falsche Annahme nicht in eine teure Anfrage
+  durchlaufen, sondern setzt einen Abgleich-Checkpoint davor (→ [[denken]] Annahmen markieren).
+- **Scope-Negativliste grenzt den Auftrag beweissicher ein:** an den Kostenexperten schickt Raphael
+  die Nutzungs-Eckpunkte primär als **Ausschlussliste** dessen, was NICHT enthalten ist — «_ keine
+  Anpassungen Tragstruktur, Fassade · _ Keine Nasszellen je Zimmer · _ keine Medizintechnik» (Wüest,
+  09.02.). Die Negativliste definiert die Kostenbasis schärfer als eine Positivliste (bekannter
+  Reflex «Scope über das Weglassen definieren», vgl. Streich-/Vereinfachungsliste 260706).
+- **Detektions-Kontrast RAW vs. poliert (Echo-Schutz):** dieselben Healthcare-Kennwerte gingen in
+  EINER Batch an den Fachexperten als **handgetippte RAW «_ »-Liste** (authentisch) und an den
+  Betreiber als **poliert gebullete en-dash-Fassung mit Plausibilisierungs-Prosa** (Claude-assistiert,
+  Echo-Falle 8. Beleg). Der authentische Raphael-Modus ist die knappe «_ »-Liste, nicht die polierte
+  Prosa — → [[stimme]] (en-dash-Tell), _INGESTED.
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

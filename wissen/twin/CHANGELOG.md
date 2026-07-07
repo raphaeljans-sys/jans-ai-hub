@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-07 — twin-mail-training (Batch 27): Sweep 2026-02-06…02-11 + en-dash-Claude-Tell
+- Sent Items rj@, älteste zuerst, ab 2026-02-06: 20 Mails gesichtet, 5 Volltexte gelesen
+  (Nova-AM Sie-Offerten-Erweiterung «Erweitertes Angebot» + Kostendach-Guard; Bauherrin Undine
+  Du Rechnung Akonto 1; Wüest/Weber Sie RAW «_ »-Kennwertliste; KISPI/Albin Koordinationsvorgehen
+  + Kennwert-Plausibilisierung). Metrik 311 W: Du-Gross 1.0, Apostroph 2×, ø 13.5 W, FG 3× /
+  Lieber Gruss 1×.
+- **stimme:** «Ich habe mir erlaubt … in den Auftrag aufzunehmen» (proaktive Scope-Aufnahme);
+  Rechnungs-Du an warme Bauherrin kippt den Geld-«Freundliche Grüsse»-Default zu handgetipptem
+  «Lieber Gruss»; **en-dash «–» in CHF-Bandbreiten als Claude-Tell** (Raphael tippt «-»).
+- **arbeitsweise:** Kostendach-Guard-Formel + Aufwand-Prognose in Tagen; Koordinationssitzung zu
+  dritt VOR der Fachanfrage + falsche Pflichtenheft-Annahme aktiv korrigieren; Scope-Negativliste;
+  RAW-«_ »-Liste (authentisch) vs. poliert-en-dash-Fassung (Claude) als Detektionskontrast.
+- **fachsignatur:** Brandschutz-Systemwechsel (offene Bürolandschaft → Bettenstation mit
+  Patientenzimmern als Brandabschnitte) als Kostentreiber-Argument.
+- **Echo-Falle 8. Beleg:** en-dash-Kennwert-/Plausibilisierungs-Prosa an Albin (09.02.), wortgleiche
+  Wiederverwendung der Batch-26-Blöcke, von Stilquelle ausgeschlossen. Neues hartes Detektionssignal
+  hinterlegt (Gedankenstrich in Zahl-Bandbreiten). raw/260707-mailbatch-27.md + _INGESTED
+  (abgedeckt bis 2026-02-11, nächster Lauf ab 2026-02-12).
+
 ## 2026-07-06 — twin-mail-training (Batch 26): Sweep 2026-02-01…02-05 + Claude-Ära-Zäsur
 - Sent Items rj@, älteste zuerst, ab 2026-01-31: 20 Mails gesichtet, 5 Volltexte destilliert
   (KISPI-Umnutzung 1.OG Grobkostenschätzung/Wüest-Kennwertanfrage/Themen-Block-Statusmail/

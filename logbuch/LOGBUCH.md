@@ -5,6 +5,40 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-07
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 14.07.), Mail-Eingang
+  (seit 06.07. 06:00) und Sync-Task-Queue abgeglichen.
+- **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **82 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 =
+  MORGEN**, kein Zahlungseingang. Keine neuen Verzugsfaelle; RE-00098/99 (faellig 20.07.) ohne Verzug.
+- **Mail-Eingang (seit 06.07. 06:00, 11 Mails):** drei relevante Neueingaenge, Rest Auto-Antworten
+  (Ziegel/Merci/Spahic) + Garmin/privat.
+  - **NEU DRINGEND — Lenggstrasse 30 / KISPI:** A. Soerensen (Stadt ZH, Schutzbauten SRZ, 06.07. 12:03)
+    sendet signierte Verfuegung + Gebuehren-/Ersatzabgaben-Rechnungen (Schutzraeume, 2026/171/0092);
+    M. Spoerri (KISPI, 06.07. 13:33) leitet an Kreditoren weiter: als dringend einlesen, weil die
+    **Baufreigabe der PPTS an der Bezahlung haengt**. Soerensen gibt nach registriertem Zahlungseingang
+    frei. Ins Register (hoch/nachfassen).
+  - **NEU — TeKoSi-Honorarofferte Los 231.10** (L. Hiltmann, 06.07. 16:00, mit Anhang) eingegangen —
+    die nach dem 06.07. erwartete Rueckmeldung. Aktion: pruefen → KISPI zur Freigabe. Register-Punkt
+    26.06. (beobachten) damit erledigt, als Aktion neu gefasst.
+  - **NEU — Offerte Albertstrasse 7 Los 273.00** (A. Rufer, Brunner Schreinerei, 06.07. 09:05, Anhang;
+    Hochschraenke + EI30-Tuere) eingegangen — pruefen. Ins Register (tief/nachfassen). Staehlin (Sanitaer
+    BKP 250) wartet noch auf ewz-Rueckmeldung, Angebot folgt — beobachten.
+- **Kalender (bis 14.07.):** zwei Termine, beide im Register — **07.07. 16:00–16:30** TeKoSi finale
+  Tuer-Ausfuehrungsplanung (RJ Organisator) und **09.07. 13:00–14:00** Koordinationssitzung
+  Gruner/Jans/KISPI. **M. Spoerri hat den TeKoSi-Termin heute abgesagt** (interne Verabschiedung
+  Lernende), klaert Teilnahme mit F. Wuersch / A. Spahic. Keine neuen Termine.
+- **Sync-Task-Queue:** kein offener Task fuers MacBook Pro.
+- **Naechste 7 Tage / Cutoffs:** RE-00087 Zahlfrist **08.07.**; TeKoSi-Termin **07.07.** (Spoerri
+  abgesagt); Koordinationssitzung **09.07.**; SharePoint-Gastzugriff Ablauf **10.07.** (6 Gruner-
+  Personen); Lenggstrasse-Schutzraeume-Rechnung dringend (Baufreigabe PPTS). Steinmann-Cutoff 06.07.
+  verstrichen → Archiv. AG-Gruendung weiter hoch (Notariats-Antwort noch nicht raus, UBS-Formular
+  abwarten).
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Cutoffs in den naechsten 7 Tagen).
+
+---
+
 ## 2026-07-06
 
 - **HUB-CHEF-LAUF — ohne Befund (keine Mail).** Signale konsolidiert: bexio `--verzug` (unveraendert
