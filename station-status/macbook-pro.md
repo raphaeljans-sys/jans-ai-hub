@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.07.2026 06:25:01
+Stand: 07.07.2026 06:35:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 07.07.2026 06:25:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 53a36ad energie-training Run 29 (2026-07-07): Fenster & Verglasung — FAQ F35 + Themenartikel
+- 0c8984f nas-selfcommit: 2 Datei(en) 2026-07-07 06:30
