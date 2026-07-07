@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-06
-sources: [destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-07
+sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1252,6 +1252,46 @@ Hitzeschutz → F11 / `[[sommerlicher-waermeschutz]]`; graue Energie → F9 / `[
 `[[kbob-graue-treibhausgasemissionen-2025]]`; λ-Bandbreiten → `[[daemmstoffe-lambda]]`. ⚠ Brandklasse
 in der Quelle als DIN-B2 genannt → **CH-VKF RF3** ist eigene Uebersetzung; verbindlich ist die
 **VKF-Produktanerkennung** je Aufbau → Skill `brandschutz`.
+
+---
+
+## F35 — «Zweifach- oder Dreifachverglasung — welche Fenster soll ich einbauen, und lohnt sich der Ersatz?»
+
+**Kurz:** Baue **Dreifach-Wärmeschutzfenster** — das ist in der Schweiz mit über 90 % Marktanteil
+der Standard; Zweifachglas nur noch bei Denkmalschutz oder in unbeheizten Räumen. Der einzige
+Kennwert, der zählt, ist der **Uw des ganzen Fensters**: fürs Gesetz (Kt. ZH) und für Minergie
+**≤ 1,0 W/(m²·K)**, für Minergie-P **≤ 0,80**. **Wichtigste Bauherren-Regel: Fenster nie allein
+vor der Wand ersetzen** — sonst kann die Schimmelgefahr steigen.
+
+**Fachlich:** Der Fenster-U-Wert **Uw** ist das flächengewichtete Mittel aus Glas (**Ug**), Rahmen
+(**Uf**) und der Wärmebrücke am Glasrand (**ψg**). Ein sehr guter Glaswert nützt wenig, wenn Rahmen
+oder Randverbund schwach sind:
+- **Verglasung:** Dreifach-Isolierglas hat **Ug 0,4–0,8 W/(m²·K)**, Scheibenzwischenräume mit
+  **Edelgas (Argon/Krypton, ~90 % Füllung)** und Low-E-Beschichtung.
+- **Warme Kante:** der Abstandhalter aus **Kunststoff statt Aluminium** (ψg ≈ 0,035 W/(m·K)) senkt
+  den Fensterverlust **um bis zu 20 %** und beugt Kondensat/Schimmel am Glasrand vor.
+- **Rahmen:** Holz, Kunststoff, Holz-Metall oder **thermisch getrenntes** Aluminium; schlanke
+  Profile erhöhen den Glasanteil und damit den Uw.
+- **g-Wert (Sonnenenergiedurchlass):** hilft im **Winter** solar mit (Qs), erhöht im **Sommer** die
+  Überhitzung → nicht am Glas sparen, sondern **aussenliegenden beweglichen Sonnenschutz** einplanen
+  (vgl. F11).
+- **Reihenfolge:** Werden nur die Fenster getauscht und die Wand bleibt ungedämmt, **wandert der
+  Taupunkt an die verbleibenden Wärmebrücken** (Raumecken, Laibungen) → **Schimmelrisiko steigt**;
+  die nun dichteren Fenster verlangen zudem **bewusstes Lüften oder eine Komfortlüftung**. Dreifach-
+  glas ist nicht prioritär, wenn Dach/Wand die grösseren Verluste verursachen.
+
+Moderne Fenster lassen **weniger als die Hälfte** an Wärme durch wie solche von vor 25–30 Jahren;
+über die Fenster gehen rund **13 %** der zugeführten Energie eines EFH verloren. **Kosten-Richtwerte
+(EnergieSchweiz):** einfache Massnahmen (Dichtungen, Glasersatz mit Beschichtung) **~400 CHF/m²**,
+komplettes Dreifach-Fenster inkl. Anschlüsse/Ausbau/Entsorgung **~1'200 CHF/m²**; Lebensdauer **25–40
+Jahre**; Wertsteigerung EFH **2–3,5 %**.
+
+**Quelle:** EnergieSchweiz «Worauf es bei der Fenstersanierung ankommt»; HSLU/enbau-online «Fenster –
+Verglasung – Sonnen-, Wetter- und Blendschutz»; Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch
+→ `[[fenster-verglasung-uw-g-wert]]`, Themenartikel `[[fenster-verglasung]]`. U-Wert-Grenzwerte → F3 /
+`[[enfk-en-102-waermeschutz-2018]]`; sommerlicher Wärmeschutz/g_tot → F11 / `[[sommerlicher-waermeschutz]]`.
+⚠ **Datenstand 2026-07-07:** MuKEn-/Minergie-Grenzwerte und CHF-Richtwerte periodisch angepasst — vor
+dem Zitieren aktuellen kantonalen Stand (EVEN/EnerG ZH) bzw. minergie.ch prüfen.
 
 ---
 
