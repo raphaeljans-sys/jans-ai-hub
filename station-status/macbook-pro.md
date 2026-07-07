@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.07.2026 21:06:27
+Stand: 07.07.2026 21:26:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 07.07.2026 21:06:27
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 12 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
+- 11 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 - 3 Datei(en): AR - 05 Transfer / Nescha
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 07.07.2026 21:06:27
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 11451bc nas-selfcommit: 2 Datei(en) 2026-07-07 21:00
+- 003ea81 nas-selfcommit: 2 Datei(en) 2026-07-07 21:15
