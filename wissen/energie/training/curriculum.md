@@ -148,3 +148,13 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   → CH-VKF **RF3**, Bekleidung/Verputz noetig (Stroh verputzt bis 90 min) → `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`,
   Themenartikel `[[naturdaemmstoffe]]` (FAQ **F34** neu). Schliesst E12-Naturdaemmstoff-Restluecke. Offen:
   Produkt-Bemessungswerte/VKF-Anerkennungsnummern, konkrete Phasenverschiebung in Stunden je Aufbau.
+- [x] D8 **Fenster & Verglasung — Uw/Ug/Uf, g-Wert, Dreifachglas, Ersatz vs. Sanierung**
+  — belegt 2026-07-07 (EnergieSchweiz «Fenstersanierung» + HSLU/enbau-online + Minergie-Modul Fenster +
+  nachhaltigleben.ch). Uw = flaechengewichtetes Mittel Ug/Uf + Randverbund ψg («ein Top-Ug nuetzt nichts
+  bei schwachem Rahmen»); Dreifachglas Standard >90 % CH (Ug 0,4–0,8, Argon/Krypton 90 %); warme Kante
+  Kunststoff ψg 0,035 → bis −20 % Verlust; g-Wert = Winter-Nutzen (Qs) ↔ Sommer-Risiko → aussenliegender
+  Sonnenschutz + g_tot 0,1–0,15; Uw ≤1,0 ZH/Minergie · ≤0,80 Minergie-P. **Bauherren-Kernwarnung: Fenster
+  nie allein vor der Wand ersetzen** (Taupunkt wandert an Waermebruecken → Schimmel; dichtere Fenster →
+  lueften/Komfortlueftung). Kosten ~400/~1'200 CHF/m², Lebensdauer 25–40 J, 13 % Verlust, Wert +2–3,5 %
+  → `[[fenster-verglasung-uw-g-wert]]`, Themenartikel `[[fenster-verglasung]]` (FAQ **F35** neu).
+  Schliesst E3-Rest. Offen: numerische g-/Uf-Werte je Typ (SZFF-Datenblatt), Fenster-Energieetikette BFE.

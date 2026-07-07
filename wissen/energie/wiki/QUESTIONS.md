@@ -44,8 +44,14 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E2** Bauteilekatalog Kap. 4 (homogene Standardaufbauten Boeden B1-B21 / Waende W1-W26) belegt
   ✓ 2026-06-10 → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (Kap.-4-Abschnitt). Offen: inhomogene
   Bauteile (Sparrendach/Holzbau) + Daecher (Buchseiten 44+).
-- [~] **E3** Fenster/g-Wert: sommerlicher Waermeschutz + g_tot 0,1-0,15 belegt ✓ 2026-06-09
-  → `[[sommerlicher-waermeschutz]]` (FAQ F11). Offen: eigener Fenster-Artikel U_w/Aw + Winter-Zielkonflikt solarer Gewinn.
+- [x] **E3** Fenster/g-Wert: sommerlicher Waermeschutz + g_tot 0,1-0,15 belegt ✓ 2026-06-09
+  → `[[sommerlicher-waermeschutz]]` (FAQ F11). **Eigener Fenster-Artikel belegt ✓ 2026-07-07**
+  (Uw = f(Ug/Uf/ψg), Dreifachglas Standard >90 % CH / Ug 0,4–0,8, warme Kante Kunststoff ψg 0,035 → bis
+  −20 %, g-Wert Winter-Nutzen↔Sommer-Risiko, Uw ≤1,0 ZH/Minergie · ≤0,80 Minergie-P, Schimmelwarnung
+  «Fenster nie allein vor der Wand», Kosten ~400/~1'200 CHF/m²; EnergieSchweiz + HSLU/enbau-online +
+  Minergie + nachhaltigleben.ch) → `[[fenster-verglasung-uw-g-wert]]`, `[[fenster-verglasung]]`, FAQ **F35** neu.
+  Offen nur noch: numerische **g-Werte** je Verglasungstyp + **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblatt);
+  **Fenster-Energieetikette FEA/EAE** (BFE-PDF bildbasiert, separater Lauf).
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,
