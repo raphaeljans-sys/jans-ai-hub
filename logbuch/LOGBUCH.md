@@ -7,6 +7,28 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-07
 
+- **HUB-CHEF-LAUF — mit Befund (Briefing versendet).** Signale konsolidiert: bexio `--verzug`
+  (unveraendert ein Verzugsfall RE-00087, 82 Tg, Mahnung 1, Zahlfrist 08.07. = morgen; RE-00098/99
+  faellig 20.07. ohne Verzug), bexio `--abgleich` (bekannte Altliste 19 Pos., 1 alter Bankeingang
+  2021 — unveraendert), Fristen-Register + heutiges Radar-Briefing (07:00), Mail-Eingang, Whitelist,
+  Sync-/Remote-Task-Queues (leer). **NEU seit dem Radar (07:00):** T. Inniger (Schreinermanufaktur)
+  hakt 07.07. 07:15 bei Los 273.35 Kuechenbau (KISPI) nach — moechte die Kueche kalkulieren, offen
+  ist die gebuendelte JANS/KISPI-Stellungnahme zu seinen acht Gestaltungsfragen.
+  - **A4 (autonom):** Fristen-Register nachgefuehrt — Los-273.35-Zeile um den 07.07.-Nachfass ergaenzt
+    + Hub-Chef-Nachtrag 07.07. eingefuegt.
+  - **A5 (autonom):** Halte-/Koordinations-Entwurf an Inniger (ti@schreinermanufaktur.ch) als **Draft
+    im Postfach** bereitgestellt (Zusage: Stellungnahme bis Ende Woche; nicht versendet). QS: `korrektur`
+    (rechtschreibung gruen nach Umlaut-Konvertierung; layout zuerst rot wegen unvollstaendiger Signatur
+    → auf verbindlichen JANS-Signatur-Standard korrigiert, dann gruen); twin-Voice-Prinzipien direkt
+    angewandt (proportional statt 6-Agenten-Fan-out bei Halte-Reply).
+  - **Keine Whitelist-Zahlungs-/Mahnaktion:** A1 greift nicht auf RE-00087 (bereits Mahnung 1;
+    Eskalation auf Mahnung 2 nicht whitelisted; RE-00088-Konflikt vorher klaeren; Zahlfrist 08.07. laeuft).
+  - **Briefing** (Erledigt / Entwurf bereit / Faellig-Droht 7 Tage / Beobachten) an rj@ versendet
+    (Apple Mail, Absender rj@, echte Umlaute, sechsstellige Daten). Ueberfaelliges/Termine nur als
+    Verweis aufs Radar-Briefing (keine Doppelmeldung). TeKoSi/Brunner-Offerten vom 06.07. als
+    «beobachten/Pruefung ausstehend» gefuehrt (brauchen Anhang-Sichtung → Entwurf spaeter).
+  - Checkpoint Whitelist v1 weiter offen (Raphael).
+
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 14.07.), Mail-Eingang
   (seit 06.07. 06:00) und Sync-Task-Queue abgeglichen.
 - **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
