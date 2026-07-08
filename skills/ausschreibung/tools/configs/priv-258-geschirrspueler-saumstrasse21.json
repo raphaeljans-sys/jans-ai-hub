@@ -44,12 +44,6 @@
         {"pos": "258.32", "bez": "Montage des neuen Geräts inkl. Inbetriebnahme und Funktionskontrolle", "menge": "1", "einheit": "pausch", "spez": "Anschluss gemäss Pos. 258.20 und 258.21"},
         {"pos": "258.33", "bez": "Montage und Ausrichten der Dekorfront", "menge": "1", "einheit": "pausch"}
       ]
-    },
-    {
-      "bereich": "Diverses",
-      "items": [
-        {"pos": "258.90", "bez": "Kleinmaterial (Zulaufschlauch, Befestigungen, Dichtungen)", "menge": "1", "einheit": "pausch", "spez": "nur falls erforderlich, vorgängig anzuzeigen"}
-      ]
     }
   ],
 
