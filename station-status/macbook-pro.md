@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.07.2026 07:54:06
+Stand: 08.07.2026 08:14:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:45)
@@ -9,7 +9,8 @@ Stand: 08.07.2026 07:54:06
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
+- 1 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 121c219 sync: ag-gruendung-monitor: Status 08.07. nichts Neues (UBS/Notariat unveraendert)
+- 9075d29 nas-selfcommit: 2 Datei(en) 2026-07-08 08:00

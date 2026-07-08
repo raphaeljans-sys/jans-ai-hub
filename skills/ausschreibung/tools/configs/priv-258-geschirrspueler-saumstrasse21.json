@@ -1,0 +1,73 @@
+{
+  "los_prefix":            "LOS 258 Geschirrspüler PRIV_Saumstrasse21",
+  "los_titel":             "LOS 258 — Geschirrspüler-Ersatz (Kücheneinrichtungen)",
+  "betreff":               "Offertanfrage – Geschirrspüler-Ersatz, Saumstrasse 21, 8003 Zürich (BKP 258)",
+  "projekt_adresse":       "Saumstrasse 21, 8003 Zürich",
+  "datum_ort":             "Zürich, 8. Juli 2026",
+
+  "bauherr_zeilen": [
+    "Raphael Jans",
+    "Saumstrasse 21",
+    "8003 Zürich"
+  ],
+
+  "anschreiben_einleitung": "Für den Ersatz des bestehenden Geschirrspülers in der Küche an der Saumstrasse 21 in Zürich laden wir Sie ein, ein Angebot einzureichen. Der Leistungsumfang umfasst Lieferung, Demontage und Entsorgung des Altgeräts, sämtliche Installationsarbeiten (Elektro und Sanitär), Anschluss und Montage inklusive Inbetriebnahme sowie die Montage der Dekorfront. Bauseitige Leistungen sind keine vorgesehen; das Angebot ist vollständig und schlüsselfertig zu kalkulieren.",
+  "grundlagen_satz":        "Massgebend ist das beiliegende Leistungsverzeichnis mit den Geräteangaben (Electrolux GA 55 Li, CH-Norm 55 cm, integriert, sowie Dekorfront Electrolux GTF55BR braun). Die Einbausituation ist eine bestehende Küche mit vorhandenem Gerätestandplatz CH-Norm 55 cm. Die Elektroversorgung erfolgt über eine neue Steckdose ab der bestehenden Steckdose (Distanz ca. 1 m); Zu- und Ablauf werden an die bereits vorhandenen Anschlüsse am Spülbeckensiphon angeschlossen.",
+  "gleichwertig_bauseits":  "Gleichwertige Produkte sind zugelassen, sofern die technischen Spezifikationen vollumfänglich erfüllt werden. Sämtliche für den betriebsbereiten Einbau erforderlichen Leistungen sind im Leistungsverzeichnis enthalten; bauseitige Leistungen sind keine vorgesehen.",
+  "eingabefrist_satz":      "Wir bitten Sie, uns Ihr vollständiges Angebot (bepreistes Leistungsverzeichnis und ausgefülltes Antwortformular) bis spätestens Freitag, 24. Juli 2026, zukommen zu lassen.",
+  "besichtigung":           "Eine Besichtigung der Einbausituation an der Saumstrasse 21 ist nach telefonischer Vereinbarung möglich. Wir bitten um kurze Bestätigung, ob Sie einen Besichtigungstermin wünschen.",
+
+  "lv_einleitung":          "Ersatz des bestehenden Geschirrspülers in der Küche an der Saumstrasse 21, 8003 Zürich. Sämtliche Positionen umfassen Lieferung und fachgerechte Montage, soweit nicht anders vermerkt. Das Angebot umfasst alle für den betriebsbereiten Einbau erforderlichen Leistungen inklusive Elektro- und Sanitärinstallation; bauseitige Leistungen sind keine vorgesehen. Gleichwertige Produkte sind zugelassen, sofern die technischen Spezifikationen vollumfänglich erfüllt werden.",
+
+  "bauseits": [],
+
+  "positionen": [
+    {
+      "bereich": "Gerät und Zubehör",
+      "items": [
+        {"pos": "258.10", "bez": "Geschirrspüler Electrolux GA 55 Li, CH-Norm 55 cm, integriert, Bedienblende Chrom", "menge": "1", "einheit": "Stk", "spez": "gleichwertige Produkte zugelassen"},
+        {"pos": "258.11", "bez": "Dekorfront Electrolux GTF55BR, braun (Holz-Optik)", "menge": "1", "einheit": "Stk", "spez": "passend zur aktuellen GA-55-Serie"}
+      ]
+    },
+    {
+      "bereich": "Installationsarbeiten Elektro und Sanitär",
+      "items": [
+        {"pos": "258.20", "bez": "Steckdose Typ 13 neu beim Gerätestandplatz, Anschluss ab bestehender Steckdose, Distanz ca. 1 m", "menge": "1", "einheit": "Stk", "spez": "inkl. Leitungsführung und Kleinmaterial"},
+        {"pos": "258.21", "bez": "Anschluss Zu- und Ablauf des Geschirrspülers an die bereits vorhandenen Anschlüsse am Spülbeckensiphon", "menge": "1", "einheit": "pausch", "spez": "inkl. Schläuche, Dichtungen und Dichtheitskontrolle"}
+      ]
+    },
+    {
+      "bereich": "Lieferung und Montage",
+      "items": [
+        {"pos": "258.30", "bez": "Lieferung an Einbauort Saumstrasse 21, 8003 Zürich, inkl. Vertragen und Entsorgung Verpackung", "menge": "1", "einheit": "pausch"},
+        {"pos": "258.31", "bez": "Demontage und Entsorgung des bestehenden Geschirrspülers (inkl. vRG-Rücknahme)", "menge": "1", "einheit": "pausch"},
+        {"pos": "258.32", "bez": "Montage des neuen Geräts inkl. Inbetriebnahme und Funktionskontrolle", "menge": "1", "einheit": "pausch", "spez": "Anschluss gemäss Pos. 258.20 und 258.21"},
+        {"pos": "258.33", "bez": "Montage und Ausrichten der Dekorfront", "menge": "1", "einheit": "pausch"}
+      ]
+    },
+    {
+      "bereich": "Diverses",
+      "items": [
+        {"pos": "258.90", "bez": "Kleinmaterial (Zulaufschlauch, Befestigungen, Dichtungen)", "menge": "1", "einheit": "pausch", "spez": "nur falls erforderlich, vorgängig anzuzeigen"}
+      ]
+    }
+  ],
+
+  "beilagen_namen": [
+    "Leistungsverzeichnis (zum Bepreisen)",
+    "Antwortformular"
+  ],
+  "beilagen_files": [],
+
+  "anbieter": [
+    {
+      "kurzname": "NETTOSHOP",
+      "zeilen":   ["nettoshop.ch Swiss Household Services AG", "Industrie Haslen 3", "9245 Oberbüren", "Telefon 058 455 91 00", "info@nettoshop.ch"],
+      "empfaenger": ["nettoshop.ch Swiss Household Services AG", "Industrie Haslen 3", "9245 Oberbüren"],
+      "anrede":   "Sehr geehrte Damen und Herren"
+    }
+  ],
+
+  "output_aihub_versand": "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/submission/priv-saumstrasse21-geschirrspueler/260708-versand",
+  "projekt_versand_dir": ""
+}
