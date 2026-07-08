@@ -961,6 +961,41 @@ Du-Mails) + «Freundliche Grüsse» 1× (Wüest-Sie) + «Bester Gruss» 1× (Sta
 Ihr Architekt» 1× (STWEG-Gremium). Bestätigt: die Kostenschätzungs-/Beratungs-Du-Mail (Angebot/Fachauskunft,
 kein gebuchter Beleg) schliesst mit Kurzgruss «Lieber Gruss», nicht mit dem Rechnungs-Block.
 
+## Terser Kommando-/Frage-Sie an Dienstleister + «zur Info»-Weitergabe + Wunschformel-Schluss (belegt Mailbatch 28, authentisch)
+Sie-lastiger Operativ-Batch (163 W, Du-Gross 0.0), mehrere neue authentische Kurzmarker:
+- **Ultrakurzer Kommando-/Frage-Sie an einen Service-/Verkaufskontakt:** «**Guten Tag / Senden Sie
+  mir eine Termineinladung. / Freundliche Grüsse**» bzw. «**Guten Tag, / Könnten Sie mir einen Termin
+  für am 02.03.2026 vorschlagen. / Danke.**» (an den Matterport-/Reality-Capture-Anbieter, 12.02.2026).
+  Ein Satz Auftrag/Frage, kein Vorlauf — der Zwilling darf den reinen Dienstleister-Sie auf **einen
+  imperativen bzw. Höflichkeitsfrage-Satz** kürzen («Senden Sie mir …», «Könnten Sie mir … vorschlagen»),
+  Gruss knapp («Freundliche Grüsse»/«Danke»). Flüchtigkeit «für am 02.03.» (Doppelpräposition) = Echtheit.
+- **«Ich überlasse Ihnen im Anhang … zur Info»** als proaktive Weitergabe-Formel für eigenes Material
+  (bürointerne Kennwert-Auswertung an den Baukostenspezialisten, 13.02.2026). Reiht sich neben «Ich
+  erlaube mir …» / «Ich habe mir erlaubt …»: Raphael stellt eigene Grundlagen unaufgefordert bei, markiert
+  es als Geste («zur Info»), ohne Gegenleistung zu fordern (→ [[haltung]], [[arbeitsweise]]).
+- **Warm-knapper Wunschformel-Schluss im Sie + saloppe Zustimmung:** «Für mich sind die von Ihnen
+  vorgeschlagenen Lieferfristen **absolut in Ordnung**. / **Danke und schönes Wochenende.**» (an Wüest/
+  Minor, 14.02.2026) — «Danke und schönes Wochenende» ersetzt hier sogar den formellen Gruss ganz;
+  «absolut in Ordnung» ist die umgangssprachlich-lockere Zustimmung auch im Sie (vgl. «für uns in
+  Ordnung» an Weber). Reiht sich neben «Ich wünsche Ihnen einen schönen Nachmittag» (Batch 02).
+- **«Guten Morgen Herr <Nachname>» als Sie-Tageszeit-Anrede:** die bekannte Tageszeit-Anrede tritt auch
+  im **Sie** auf, mit «Herr <Nachname>» statt Vornamen (Minor, 14.02.2026) — bisher nur «Guten Morgen
+  <Vorname>» (Du) belegt. → [[beziehungsregister]].
+- **Echo-Falle, 9. Beleg (zwei Signale):** (a) die englischen Website-Konzept-Mails an den Web-Entwickler
+  (12.–13.02.) sind KI-assistiert — die eine «Below are my structured answers»-Fassung mit ol/ul-Struktur,
+  die andere durchgehend in **Times New Roman** mit nummerierten Abschnitten 1)–6) («Homepage structure /
+  Grid and image logic / Typography …»); nur der **handgetippte Rahmen** ist echt (Opener «Hi Hleb,» /
+  «Hello Hleb», Signoff «Best regards, Raphael», und der broken-English-Warmherzigkeits-Ausruf «**Top you
+  make it!**» als Ermutigung an den Freelancer). (b) In der deutschen Weber-Antwort (12.02.) schreibt die
+  **polierte Bullet-Fassung «BKP 1–5» / «pro m² Nettonutzfläche» mit En-dash/Superscript**, während Raphael
+  in seiner eigenen 09.02.-Mail «BKP 1-5» und «CHF 2'000.- - 3'000.-» mit **Bindestrich** tippt — bestätigt
+  den En-dash-in-Bandbreiten-Tell (Batch 27) und die «polierte deutsche Bullet-Prosa = KI-assistiert»-Detektion.
+  Beide als `claude-aera`-äquivalent von der Stilquelle ausgeschlossen (→ _INGESTED, [[fachsignatur]], [[arbeitsweise]]).
+- Mikro-Metrik Batch 28 (163 W, reiner Operativ-Sie): Du-Gross-Quote **0.0** (kein Du im Batch, korrekt);
+  Tausender-Apostroph 1× («CHF 3'000»); Satzlänge ø **9.6 W** (terse Operativ-Sie, nahe den Liefer-Tiefst-
+  werten); Anreden «Sehr geehrter Herr» 4× / «Guten Morgen Herr» 1×; Grüsse «Freundliche Grüsse» 5×; keine
+  Ellipsen/«%» (registerbedingt).
+
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei
 rein technischer Aerospace-Korrespondenz (bislang nur Architektur-Freelancer belegt);
