@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-04
+last_updated: 2026-07-08
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -213,6 +213,18 @@ Trainingslauf (`../training/PROGRAMM.md`).
   (immer amtlich, ≤ 2 Mt., keine Genehmigung), Gebietssanierung **§ 186 ff.**, Gueterzusammenlegung
   **§§ 76-94 LG / Art. 20 WaG**. 13 Doppelseiten (Shots 121-133). Status: `emerging`. **SCHLIESST Kap. 3.**
   Speist [[baureife-und-erschliessung]] + [[baulinien-und-abstandslinien]].
+- [[04-natur-und-heimatschutz]] — Kap. 4 / **vollstaendig** (S. 268-309): **Natur- und Heimatschutz** —
+  Rechtsgrundlagen (Art. 78 BV / NHG; ZH **PBG III. Titel §§ 203-217 + KNHV**), **Schutzobjekt-Katalog
+  § 203 Abs. 1 lit. a-g PBG** (Natur-/Denkmal-/Garten-/Archaeologie-Objekte), **Inventare** (BLN/ISOS/IVS
+  = schutzwuerdig; kant./komm. = Vermutung; **binden nur die Behoerde, nicht den Grundeigentuemer**),
+  **vorsorgliche** Massnahmen (Inventareroeffnung § 209 = 1-J-Veraenderungsverbot, § 210), **definitive**
+  Massnahmen **§ 205 lit. a-d** (Planungsrecht/**Kernzone § 50 ≠ Substanzschutz**/Schutzverordnung/
+  Schutzverfuegung/Schutzvertrag), **Selbstbindung § 204**, projektbezogener Schutzentscheid,
+  **Interessenabwaegung** (rein finanzielle Interessen ueberwiegen i.d.R. nicht) + **Verhaeltnismaessigkeit**
+  (nur denkmalpflegerisch Wichtiges), **Verfahren** (Provokation § 213, Inventarentlassung, Gutachten
+  ENHK/EKD/NHK/KDK/AK, **Rechtsmittel ohne aufschiebende Wirkung § 211 Abs. 4**, Beitraege Art. 13 NHG
+  freiwillig). 22 Doppelseiten (Shots 134-155). Status: `emerging`. **SCHLIESST Band 1 (ausser Kap. 18
+  Brandschutz → Skill `brandschutz`).** Speist [[naturschutz-und-denkmalschutz]] + [[ausnahmebewilligung-und-bestandesschutz]] + [[enteignung-und-entschaedigung]].
 - [[05-planung-und-entschaedigung]] — Kap. 5 / **vollstaendig** (S. 311-334): **Planung und Entschaedigung** —
   Wertaenderungen durch Planungsmassnahmen (5.1); **formelle Enteignung** (5.2, Art. 26/36 BV kumulativ,
   **EntG SR 711 / AbtrG LS 781**, enteignungsfaehige Rechte, Flughafen Laerm/Direktueberflug **1.25°-Korridor**/
@@ -348,6 +360,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 2 | Raumplanung, Richt- und Nutzungsplanung | 🟢 weitgehend (Teil 1 Raum-/Richtplanung S.112-143 + Teil 2 Zonenarten/numerus clausus §48 Abs.2 S.144-169 + Teil 3 Sondernutzung/Gestaltungsplan §§83-89/§48 Abs.3/§49b + Verfahren Nutzungsplanung S.170-204; nur BZO-Grundlagen/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set) |
 | 3 | Erschliessung, Landsicherung, Landumlegung | 🟢 vollstaendig (Teil 1: Begriff/Arten Erschliessung, 15-J-Erschliessungspflicht Art.19 RPG, Erschliessungsplan §§90-95/§93, Baulinien §§96 ff./Niveaulinien §106, Werkplan §§114-119, vorsorgl. Bauverbot §§120-122, StrG-Mehrwertbeitraege §62, S.208-239 + Teil 2: Quartierplan §§123 ff./amtlich §158 vs. privat §160a/Verfahren §§147-159/Umlegung §§137-145/Vollzug §§161-176/Heimschlag §165/Grenzbereinigung §§178-183/Gueterzusammenlegung §§76-94 LG, S.240-265) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 🟢 vollstaendig (formelle/materielle Widrigkeit, Wiederherstellung §341 PBG, 30-J-Verwirkung, vorsorgl. Massnahmen §339 Abs.2/§6 VRG, Vollstreckung §30 VRG, Strafe §340 PBG Busse bis 50'000, S.609-636 = letzte Sektion Band 1) |
-| 4-5 | uebrige (Band 1: Natur-/Heimatschutz P3 / Entschaedigung P3) | ⬜ offen |
+| 4 | Natur- und Heimatschutz | 🟢 vollstaendig (Rechtsgrundlagen Art.78 BV/NHG/§§203-217 PBG+KNHV, Schutzobjekt-Katalog §203 Abs.1 lit.a-g, Inventare BLN/ISOS/IVS, vorsorgl./definitive Massnahmen §§205/209/210, Selbstbindung §204, Interessenabwaegung+Verhaeltnismaessigkeit, Verfahren Provokation §213/Rechtsschutz §211 Abs.4, S.268-309 = letzte Sektion Band 1) |
+| 5 | Planung und Entschaedigung | 🟢 vollstaendig (formelle/materielle Enteignung, Enteignungsverfahren, Mehrwertabschoepfung, S.311-334) |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

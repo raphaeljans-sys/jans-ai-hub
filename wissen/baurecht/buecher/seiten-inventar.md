@@ -149,28 +149,28 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 131 | 1 | 260/261 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.31.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
 | 132 | 1 | 262/263 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.33.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
 | 133 | 1 | 264/265 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.35.jpg` | [[band-1/03-quartierplan-landumlegung-teil2]] |
-| 134 | 1 | ~265 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.36.jpg` |  |
-| 135 | 1 | ~267 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.38.jpg` |  |
-| 136 | 1 | ~269 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.40.jpg` |  |
-| 137 | 1 | ~271 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.41.jpg` |  |
-| 138 | 1 | ~273 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.43.jpg` |  |
-| 139 | 1 | ~275 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.45.jpg` |  |
-| 140 | 1 | ~276 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.46.jpg` |  |
-| 141 | 1 | ~278 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.48.jpg` |  |
-| 142 | 1 | ~280 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.50.jpg` |  |
-| 143 | 1 | ~282 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.51.jpg` |  |
-| 144 | 1 | ~284 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.53.jpg` |  |
-| 145 | 1 | ~286 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.55.jpg` |  |
-| 146 | 1 | ~288 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.57.jpg` |  |
-| 147 | 1 | ~290 | [ ] | `Bildschirmfoto 2026-06-07 um 11.44.58.jpg` |  |
-| 148 | 1 | ~292 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.00.jpg` |  |
-| 149 | 1 | ~294 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.02.jpg` |  |
-| 150 | 1 | ~296 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.03.jpg` |  |
-| 151 | 1 | ~298 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.05.jpg` |  |
-| 152 | 1 | ~300 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.07.jpg` |  |
-| 153 | 1 | ~302 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.09.jpg` |  |
-| 154 | 1 | ~304 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.11.jpg` |  |
-| 155 | 1 | ~306 | [ ] | `Bildschirmfoto 2026-06-07 um 11.45.12.jpg` |  |
+| 134 | 1 | 266/267 (Kap.3-Schluss/Kap.4-Titel) | [x] | `Bildschirmfoto 2026-06-07 um 11.44.36.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 135 | 1 | 268/269 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.38.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 136 | 1 | 270/271 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.40.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 137 | 1 | 272/273 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.41.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 138 | 1 | 274/275 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.43.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 139 | 1 | 276/277 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.45.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 140 | 1 | 278/279 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.46.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 141 | 1 | 280/281 (Inventarblatt-Bsp) | [x] | `Bildschirmfoto 2026-06-07 um 11.44.48.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 142 | 1 | 282/283 (Inventarblatt-Bsp) | [x] | `Bildschirmfoto 2026-06-07 um 11.44.50.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 143 | 1 | 284/285 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.51.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 144 | 1 | 286/287 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.53.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 145 | 1 | 288/289 (VO-Bsp) | [x] | `Bildschirmfoto 2026-06-07 um 11.44.55.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 146 | 1 | 290/291 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.57.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 147 | 1 | 292/293 | [x] | `Bildschirmfoto 2026-06-07 um 11.44.58.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 148 | 1 | 294/295 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.00.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 149 | 1 | 296/297 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.02.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 150 | 1 | 298/299 (Flowchart Verfahren) | [x] | `Bildschirmfoto 2026-06-07 um 11.45.03.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 151 | 1 | 300/301 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.05.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 152 | 1 | 302/303 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.07.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 153 | 1 | 304/305 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.09.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 154 | 1 | 306/307 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.11.jpg` | [[band-1/04-natur-und-heimatschutz]] |
+| 155 | 1 | 308/309 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.12.jpg` | [[band-1/04-natur-und-heimatschutz]] |
 | 156 | 1 | 310/311 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.14.jpg` | [[band-1/05-planung-und-entschaedigung]] |
 | 157 | 1 | 312/313 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.16.jpg` | [[band-1/05-planung-und-entschaedigung]] |
 | 158 | 1 | 314/315 | [x] | `Bildschirmfoto 2026-06-07 um 11.45.18.jpg` | [[band-1/05-planung-und-entschaedigung]] |

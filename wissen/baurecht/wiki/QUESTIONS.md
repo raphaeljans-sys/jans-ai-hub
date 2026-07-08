@@ -40,8 +40,30 @@ wurden.
 - **Offene Band-1-Reste:** ~~Kap. 5 (Planung und Entschädigung)~~ → **erledigt 2026-07-04** (Run 21).
   ~~Kap. 9 «Rechtsschutz» Rest S. 576-606 (Ablauf/Kosten/Revision/Mediation)~~ → **erledigt 2026-07-06**
   (Run 22): Destillat [[09-rechtsschutz-teil2-ablauf-kosten-revision]] + NEU Wiki
-  [[rechtsschutz-und-rechtsmittelverfahren]]. **Kap. 9 vollständig.** Offen nur noch **Kap. 4**
-  (Natur-/Heimatschutz, P3, S. 267 ff., Shots ~130-155/294 ff.).
+  [[rechtsschutz-und-rechtsmittelverfahren]]. **Kap. 9 vollständig.** ~~Offen nur noch **Kap. 4**
+  (Natur-/Heimatschutz, P3)~~ → **erledigt 2026-07-08** (Run 23): Destillat [[04-natur-und-heimatschutz]]
+  (S. 268-309) + NEU Wiki [[naturschutz-und-denkmalschutz]]. **→ BAND 1 SUBSTANZIELL KOMPLETT**
+  (offen nur Kap. 18 Brandschutz = Querverweis auf Skill `brandschutz`).
+
+## Offene Wissenslücken / needs-verification — neu (2026-07-08, aus Buch-Run 23: Kap. 4 Natur-/Heimatschutz)
+- ~~**Natur-/Heimat-/Denkmalschutz nicht im Wiki**~~ → **erledigt 2026-07-08** (Run 23): neuer Wiki-Artikel
+  [[naturschutz-und-denkmalschutz]] (§§ 203-217 PBG + KNHV): Schutzobjekt-Katalog § 203 Abs. 1 lit. a-g,
+  **Inventare binden nur die Behörde** (BLN/ISOS/IVS schutzwürdig, kant./komm. Vermutung), vorsorgl./
+  definitive Massnahmen §§ 205/209/210, **Selbstbindung § 204**, **Kernzone § 50 ≠ Substanzschutz**,
+  Interessenabwägung (finanzielle Interessen überwiegen i.d.R. nicht; Energie vs. Denkmalschutz abwägbar),
+  Verhältnismässigkeit, Provokation § 213 (irreversibel), Rechtsschutz § 211 Abs. 4 (keine aufsch. Wirkung
+  ausser bei Aufhebung/negativem Entscheid), Beiträge Art. 13 NHG freiwillig. Distilliert
+  [[04-natur-und-heimatschutz]] (S. 268-309). **Speist [[ausnahmebewilligung-und-bestandesschutz]] /
+  [[bestandsumbau-eingriffstiefe]] / [[enteignung-und-entschaedigung]] und die Skills `ankaufspruefung`/
+  `machbarkeit`/`planungsgrundlagen`.**
+- **needs-verification — KNHV-Paragraphen (§§ 2a/4/6/7/8/9/10/12/13-32 KNHV):** aus dem Reader-Fliesstext
+  belegt, aber die Kantonale Natur- und Heimatschutzverordnung ist nicht als amtlicher Volltext in raw/ —
+  vor Kundenzitat am LS-Erlass (KNHV) gegenprüfen.
+- **needs-verification — §§ 203/205/207/209/210/211/213/216/217 PBG + § 50/§ 76/§ 238/§ 338b PBG:** im
+  Destillat [[04-natur-und-heimatschutz]] sinngemäss nach Buch S. 268-309; am amtlichen PBG-Volltext (raw/)
+  gegenprüfen (Modell D nächster Lauf). Ebenso Art. 78 BV / Art. 2/3/5/7/8/13/17a/25 NHG am Fedlex-Volltext.
+- **Materielle Enteignung bei Unterschutzstellung:** nur querverwiesen (Buch S. 322) — vertieft in
+  [[enteignung-und-entschaedigung]] (Kap. 5, 5.3). Kein Doppelaufbau, Verknüpfung ok.
 - **needs-verification — VRG-Paragraphen Kap. 9 Teil 2 (§ 25/§ 26b/§ 86a-d/§ 87/§ 89 VRG + § 338/§ 339
   PBG):** aus den Screenshots belegt, aber Fassungsstände (§ 26b in Kraft 1.10.2016; § 339 PBG in Kraft
   1.7.2014) und Gerichtsgebühr-Bandbreite (500-50'000 Fr.) am amtlichen VRG-/PBG-Volltext (raw/)

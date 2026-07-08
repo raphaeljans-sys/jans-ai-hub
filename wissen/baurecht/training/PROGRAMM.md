@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-06
+last_updated: 2026-07-08
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,7 +92,15 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~855 / 1550 (~427 Doppelseiten). Run 22 (2026-07-06, regulaer, 1 Kapitel):
+- **Seiten distilliert:** ~897 / 1550 (~448 Doppelseiten). **Run 23 (2026-07-08, Forcierung, 1 grosses
+  Kapitel, 21 Doppelseiten): Kap. 4 Natur- und Heimatschutz VOLLSTAENDIG** (S. 268-309, Shots 134-155) →
+  **BAND 1 SUBSTANZIELL KOMPLETT** (offen nur Kap. 18 Brandschutz = Querverweis auf Skill `brandschutz`).
+  Kern: Schutzobjekt-Katalog **§ 203 Abs. 1 lit. a-g PBG**, Inventare (BLN/ISOS/IVS schutzwuerdig, **binden
+  nur die Behoerde**), Massnahmen **§ 205 lit. a-d** (**Kernzone § 50 ≠ Substanzschutz**), Selbstbindung
+  § 204, Interessenabwaegung/Verhaeltnismaessigkeit, Provokation § 213 (irreversibel), Rechtsschutz § 211
+  Abs. 4. Neues Destillat [[band-1/04-natur-und-heimatschutz]], NEU Wiki [[naturschutz-und-denkmalschutz]].
+  Modell C (7) + Modell A (1). TCC-Blockade (Run 19) behoben. Report `outputs/2026-07-08_buch-run23.md`.
+- **Seiten distilliert (frueher):** ~855 / 1550. Run 22 (2026-07-06, regulaer, 1 Kapitel):
   +17 Doppelseiten (Kap. 9 Teil 2, S.576-606, Shots 290-306) → **Kap. 9 Rechtsschutz VOLLSTAENDIG; Band 1
   offen nur noch Kap. 4** (Natur-/Heimatschutz, P3, Shots ~130-155/294 ff.). Kernstueck: **aufschiebende
   Wirkung § 339 PBG** (Teilfreigabe bei Nachbarrekurs), Kosten § 338/§ 17 VRG, ausserordentliche Rechtsmittel
@@ -215,9 +223,13 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
-- **Naechster Lauf:** **Band-1-Abschluss = Kap. 4 Natur- und Heimatschutz** (P3, S.267-310, Shots ~130-155/294 ff.
-  — echte Buchseite im Bild pruefen, Shot-Schaetzung Band 1 ist unzuverlaessig!). Das ist die **letzte offene
-  Sektion von Band 1**. *(erledigt Run 22: Kap. 9 Teil 2 → Kap. 9 vollstaendig; Run 21: Kap. 5.)* Danach Band-2-Reste (Kap. 13 §§239a/240/242/248 ab Shot 431, Kap. 8 Rest S.510-534, Kap. 16 «Umgebung», Kap. 17 Garagen §§37-39 BBV I, Kap. 20 §357 Abs.5/§307, Kap. 21 Art.24d/24e). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** ~~Kap. 4 Natur- und Heimatschutz~~ **erledigt Run 23 (2026-07-08) → BAND 1 KOMPLETT.**
+  Jetzt **Band-2-Reste** abarbeiten (Forcierung fortsetzen): Kap. 13 Rest (§§ 239a/240/242/248 ab Shot 431),
+  Kap. 14 Mischrechnungsverbot § 10/13 ABV (Shots 486-495), Kap. 15.13 Harmonisierungsvorlage (S. 1124-1133),
+  Kap. 16 «Umgebung» (ab Shot 601), Kap. 17 Garagen §§ 37-39 BBV I (ab Shot 656), Kap. 19 Rest (ab Shot 706),
+  Kap. 20 § 357 Abs. 5 / Brandstattrecht § 307 (ab Shot 732), Kap. 21 Art. 24d/24e/37a (ab Shot 756) + Kap. 8
+  Rest (S. 510-534, Shots 257-269). Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`. Sobald
+  diese Reste erledigt sind: Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3 (Erhaltung/Drills). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten

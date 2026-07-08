@@ -4,6 +4,33 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-08 — Buch-Run 23: Kap. 4 (Natur-/Heimatschutz) → BAND 1 SUBSTANZIELL KOMPLETT
+- [neu] **Destillat Kap. 4** [[band-1/04-natur-und-heimatschutz]] (S. 268-309, Shots 134-155, 21 Doppelseiten,
+  die letzte offene Sektion von Band 1): **4.1** Rechtsgrundlagen (Art. 78 BV / NHG; ZH PBG III. Titel
+  §§ 203-217 + KNHV); **4.2 Schutzobjekt-Katalog § 203 Abs. 1 lit. a-g** (Natur-/Denkmal-/Garten-/
+  Archaeologie-Objekte; Denkmalschutz = Substanzschutz, Faustregel ~30 J.; Einzelbaum § 76/§ 238 Abs. 3);
+  **4.3 Massnahmen** — Inventare (BLN/ISOS/IVS schutzwuerdig, kant./komm. Vermutung, **binden nur die
+  Behoerde**), vorsorglich (Inventareroeffnung § 209 = 1-J-Veraenderungsverbot / § 210), definitiv
+  **§ 205 lit. a-d** (**Kernzone § 50 ≠ Substanzschutz** / Schutzverordnung / -verfuegung / -vertrag),
+  **Selbstbindung § 204**, projektbez. Schutzentscheid; **4.4** Schutzumfang § 207/§ 10 KNHV,
+  Interessenabwaegung (finanzielle Interessen ueberwiegen i.d.R. nicht; Energie vs. Denkmalschutz abwaegbar),
+  Verhaeltnismaessigkeit; **4.5 Verfahren** — Zustaendigkeit § 211, **Provokation § 213** (irreversibel),
+  Inventarentlassung (keine Massenentlassung), Gutachten ENHK/EKD/NHK/KDK/AK, **Rechtsschutz § 211 Abs. 4**
+  (keine aufsch. Wirkung, Ausnahme Aufhebung/negativ), Beitraege Art. 13 NHG (freiwillig).
+- [neu] **Wiki-Artikel** [[naturschutz-und-denkmalschutz]] (`emerging`) — synthetisiert Schutzobjekt-Katalog,
+  Inventar-Wirkung, die vier definitiven Schutzinstrumente, Interessenabwaegung/Verhaeltnismaessigkeit und
+  Verfahren; Backlinks zu [[ausnahmebewilligung-und-bestandesschutz]] / [[bestandsumbau-eingriffstiefe]] /
+  [[enteignung-und-entschaedigung]] / [[raumplanung-und-gestaltung]] / [[rechtsschutz-und-rechtsmittelverfahren]].
+- [geaendert] **curriculum.md** Kap. 4 → **VOLLSTAENDIG**; **buecher/INDEX.md** (neues Destillat, Coverage
+  Kap. 4 🟢 + Kap. 5 🟢, last_updated); **seiten-inventar.md** Shots 134-155 → [x] mit echten Buchseiten +
+  Destillat-Link; **wiki/INDEX.md** (neue Sektion «Natur- & Denkmalschutz», Artikelzahl 21→22, Statistik);
+  **wiki/QUESTIONS.md** (Kap. 4 erledigt, Band 1 komplett, needs-verification KNHV/§§ PBG/NHG).
+- [hinweis] **TCC-Blockade behoben:** die CloudStorage-Screenshots (Run 19 blockiert) sind mit dem Read-Tool
+  wieder lesbar.
+- [drill] `training/drills.md`: 7 Modell-C-Karten + 1 Modell-A-Drill (Kap. 4).
+- [meilenstein] **Band 1 substanziell komplett** (Kap. 1-10); offen nur Kap. 18 Brandschutz = Querverweis
+  auf Skill `brandschutz`. Report `outputs/2026-07-08_buch-run23.md`.
+
 ## 2026-07-06 — Buch-Run 22: Kap. 9 Teil 2 → Kap. 9 (Rechtsschutz) vollstaendig
 - [neu] **Destillat Kap. 9 Teil 2** [[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]] (S. 576-606,
   Shots 290-306, 17 Doppelseiten): Fristen/Gerichtsferien § 71 VRG, Kostenvorschuss § 15, vier

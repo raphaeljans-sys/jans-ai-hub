@@ -787,3 +787,46 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   (§ 9.9.6). Musterbeispiel «Kuchenvergroesserung»: statt zweier Rekurse vereinbaren die Nachbarn den Bau
   einer **gemeinsamen Tiefgarage** — beide gewinnen (Bd 1, S. 602). Geeignet, weil Nachbarn in einer
   Dauerbeziehung stehen und ueber ihre privatrechtlichen Belange frei verfuegen koennen. _[2026-07-06]_
+
+## Kap. 4 — Natur- und Heimatschutz (Buch-Run 23, 2026-07-08, Bd 1 S. 268-309)
+
+- **F (Modell C):** Wo ist der Natur- und Heimatschutz im Kanton ZH geregelt, und wem weist die
+  Bundesverfassung die Zustaendigkeit primaer zu? — **A:** Im **PBG III. Titel §§ 203-217 + KNHV**;
+  **Art. 78 BV** weist den NHS primaer den **Kantonen** zu (Abs. 1), der Bund tritt nur bei Erfuellung
+  seiner Aufgaben hinzu (Abs. 2; Art. 2/3 NHG). Jede Baupolizeibehoerde ist zugleich Traegerin von
+  NHS-Aufgaben (Bd 1, S. 268 f.). _[2026-07-08]_
+- **F (Modell C):** Bindet ein Inventareintrag den Grundeigentuemer? — **A:** **Nein.** Ein Inventar
+  verpflichtet nur die **Behoerde**; die Inventarisierung ist **keine Schutzmassnahme** und **nicht mit
+  Rechtsmitteln anfechtbar**. Bundesinventare (BLN/ISOS/IVS) belegen die Schutzwuerdigkeit, kantonale/
+  kommunale nur die **Vermutung** (Bd 1, S. 278). _[2026-07-08]_
+- **F (Modell C):** Bewirkt die Zuweisung einer Baute in eine **Kernzone (§ 50 PBG)** automatisch
+  Denkmalschutz / ein Abbruchverbot? — **A:** **Nein.** Die Kernzone bewirkt **keinen Substanzschutz und
+  kein materielles Abbruchverbot**; fuer den Schutz der Bausubstanz ist eine **formelle Unterschutzstellung**
+  noetig (VB.2013.00662). Die BZO kann den Abbruch aber an einen gesicherten Ersatzbau knuepfen (Bd 1,
+  S. 285 f.). _[2026-07-08]_
+- **F (Modell C):** Mit welchen vier Instrumenten wird ein Objekt **definitiv** unter Schutz gestellt? —
+  **A:** **§ 205 lit. a-d PBG:** Planungsrecht (lit. a, z.B. Freihaltezone/Kernzone), Schutzverordnung
+  (lit. b, groessere Gebiete), Schutzverfuegung (lit. c, Einzelobjekt), Schutzvertrag (lit. d,
+  verwaltungsrechtl. Vertrag). Dazu die Selbstbindung § 204 PBG ohne foermliche Unterschutzstellung
+  (Bd 1, S. 284-292). _[2026-07-08]_
+- **F (Modell C):** Ueberwiegt das rein finanzielle Interesse des Grundeigentuemers das oeffentliche
+  Erhaltungsinteresse bei der Interessenabwaegung? — **A:** **In der Regel nein** (BGE 118 Ia 384 / 120 Ia
+  270 / 126 I 219). Nur wenn die Unterschutzstellung sich als **geradezu unzumutbar** erweist, kann das
+  Nutzungsinteresse durchdringen (VB.2003.00120). Energie- gegen Denkmalschutz ist **abwaegbar**, kein
+  absoluter Vorrang (Bd 1, S. 296 f.). _[2026-07-08]_
+- **F (Modell C):** Was ist das **Provokationsverfahren (§ 213 PBG)** und welche Falle steckt darin? —
+  **A:** Der Grundeigentuemer kann bei aktuellem Interesse (Bauabsicht/Erbteilung/Verkauf) einen Entscheid
+  ueber die Schutzwuerdigkeit verlangen (Entscheid innert **1 Jahr, +1**). Falle: das Begehren ist **nicht
+  zurueckziehbar** (BEZ 2016 Nr. 16) — man riskiert, die Unterschutzstellung selbst zu provozieren
+  (Bd 1, S. 302 f.). _[2026-07-08]_
+- **F (Modell C):** Haben Rechtsmittel gegen Schutzanordnungen aufschiebende Wirkung? — **A:** **Grundsaetzlich
+  nein** (§ 211 Abs. 4 PBG) — damit das Objekt waehrend des Verfahrens gesichert ist. **Ausnahme:** ein
+  Rechtsmittel gegen die **Aufhebung** einer Schutzmassnahme bzw. gegen einen **negativen** Schutzentscheid
+  **hat** aufschiebende Wirkung (VB.2015.00057; Bd 1, S. 308 f.). _[2026-07-08]_
+- **F (Modell A · Frage→Beleg):** Ein Bauherr will ein inventarisiertes Altgebaeude abreissen und neu bauen.
+  Genuegt eine «Abstufung» innerhalb des Inventars, und was ist zwingend erforderlich? — **A:** **Nein.** Eine
+  blosse «Abstufung» ist **rechtswidrig** (BEZ 2008 Nr. 10). Wird ein Neubau unter Abbruch einer
+  inventarisierten Altbaute bewilligt, ist die **Entlassung der Altbaute aus dem Inventar zwingend** und muss
+  sorgfaeltig (i.d.R. gestuetzt auf ein Gutachten) begruendet werden; Massenentlassungen sind unzulaessig
+  (VB.2011.00348 / VB.2009.00662; Bd 1, S. 305). Bei entsprechender Zustaendigkeit kann die Inventarentlassung
+  mit dem Bauentscheid verfuegt werden (BEZ 2013 Nr. 10). _[2026-07-08]_
