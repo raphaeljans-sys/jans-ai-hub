@@ -7,6 +7,28 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-08
 
+- **HUB-CHEF-LAUF — ohne Befund (keine Mail).** Signale konsolidiert: bexio `--verzug`
+  (unveraendert ein Verzugsfall RE-00087, 83 Tg, Mahnung 1, Zahlfrist 08.07. = heute erreicht,
+  kein Eingang; RE-00098/99 faellig 20.07. ohne Verzug), bexio `--abgleich` (bekannte Altliste
+  19 Pos., 1 alter Bankeingang 2021 — unveraendert), Fristen-Register + heutiges Radar-Briefing
+  (05:00 UTC), Mail-Eingang seit 07.07. 18:00, Whitelist, Sync-/Remote-Task-Queues (leer).
+  **Mail:** nur Struebi-Absage (bereits erfasst), das eigene Radar-Briefing und EINE neue
+  Auto-Bestaetigung (nettoshop, Ticket 2700460 — JANS-Offertanfrage Geschirrspueler-Ersatz
+  Saumstrasse 21, BKP 258). Keine handlungsrelevante Kundenmail, keine Notariats-/UBS-Antwort.
+  - **A4 (autonom):** Fristen-Register gepflegt — neue Beobachten-Zeile «Saumstrasse 21
+    Geschirrspueler-Ersatz (BKP 258), Offertanfrage an nettoshop raus, Offerte abwarten»;
+    Hub-Chef-Nachtrag 08.07. im Register-Kopf eingefuegt.
+  - **Keine Whitelist-Zahlungs-/Mahnaktion:** A1 greift nicht auf RE-00087 (bereits Mahnung 1;
+    Eskalation auf Mahnung 2 nicht whitelisted; RE-00088-Konflikt vorher klaeren; Zahlfrist 08.07.
+    laeuft heute noch). A2 nicht noetig (Koordinationssitzung 09.07. bereits im Kalender).
+  - **Keine neuen Entwuerfe:** die offenen Offert-Pruefungen (TeKoSi Los 231.10, Brunner Los
+    273.00, Portunus Los 275.00) brauchen die Anhang-Sichtung (groesserer Scope, bereits im
+    Register gefuehrt); Drafts vom 03.07./07.07. (SBB Wiedmer, Gruner Duran, Inniger) stehen.
+  - **Kein zweites Briefing:** alle pressierenden 7-Tage-Punkte (RE-00087 Zahlfrist heute,
+    Koordinationssitzung 09.07., SharePoint-Gastzugriff 10.07., Lenggstrasse-30-Schutzraeume)
+    stehen bereits im Radar-Briefing von heute frueh. Gemaess SKILL.md keine Doppelmeldung.
+    Checkpoint Whitelist v1 weiter offen (Raphael).
+
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 15.07.), Mail-Eingang
   (seit 07.07. 12:00) und Sync-Task-Queue abgeglichen.
 - **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
