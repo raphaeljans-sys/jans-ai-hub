@@ -50,8 +50,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   −20 %, g-Wert Winter-Nutzen↔Sommer-Risiko, Uw ≤1,0 ZH/Minergie · ≤0,80 Minergie-P, Schimmelwarnung
   «Fenster nie allein vor der Wand», Kosten ~400/~1'200 CHF/m²; EnergieSchweiz + HSLU/enbau-online +
   Minergie + nachhaltigleben.ch) → `[[fenster-verglasung-uw-g-wert]]`, `[[fenster-verglasung]]`, FAQ **F35** neu.
-  Offen nur noch: numerische **g-Werte** je Verglasungstyp + **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblatt);
-  **Fenster-Energieetikette FEA/EAE** (BFE-PDF bildbasiert, separater Lauf).
+  **Fenster-Energieetikette FEA belegt (Prinzip) ✓ 2026-07-08** (BFE, freiwillig: Winter-Bilanz Uw,eq am
+  Referenzfenster 1,55×1,15 m = Transmissionsverlust − nutzbarer solarer Gewinn; Klasse A = Gewinne >
+  Verluste) → `[[fenster-energieetikette-fea-bfe]]`, schaerft `fenster-verglasung`. Offen nur noch:
+  numerische **g-Werte** je Verglasungstyp + **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblatt);
+  **exakte FEA-Klassengrenzen A–G** (Uw,eq-Schwellen; BFE-PDF 7731 bildbasiert, separater Lauf).
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,
@@ -173,6 +176,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   versuch + 1,0 m Filterschicht; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022). Querbezug
   Schwammstadt/Begruenung F20. Offen: Bemessungsdetail (AWEL-Regenwasserrechner), Retentions-/Gruendach-
   Anrechnung quantifizieren, andere Kantone (SZ); Wasserrecht-Verfahren → Skill `baurecht`.
+
+- [x] **E16** **GEAK / GEAK Plus — Gebaeudeenergieausweis der Kantone** belegt ✓ 2026-07-08 →
+  `[[geak-gebaeudeenergieausweis-kantone]]`, Themenartikel `[[geak-gebaeudeenergieausweis]]`, FAQ **F36**
+  (amtliche Energieetikette Bestand, 7 Klassen A–G Huelle/Gesamtenergie/CO₂, A=null CO₂ Stufe 5 kg/m²·a;
+  GEAK Plus = bis 5 Sanierungsvarianten + Beratungsbericht, **Pflicht ab CHF 10'000 Foerderung**, 10 J
+  gueltig, nur zertifizierte Expert:innen, kein Fixpreis, ZH/SZ foerdern 1'000/1'500; Abgrenzung Minergie
+  Ist-Zustand vs. Ziellabel). Offen: konkrete **CHF-Kostenspanne** EFH/MFH (nicht amtlich publiziert),
+  **Klassengrenzen kWh/m²·a** je Effizienzklasse (Produktreglement 2026 bildbasiert), Liste der Kantone
+  mit **GEAK-Pflicht bei Handaenderung** (→ Skill `baurecht`).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

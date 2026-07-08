@@ -158,3 +158,13 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   lueften/Komfortlueftung). Kosten ~400/~1'200 CHF/m², Lebensdauer 25–40 J, 13 % Verlust, Wert +2–3,5 %
   → `[[fenster-verglasung-uw-g-wert]]`, Themenartikel `[[fenster-verglasung]]` (FAQ **F35** neu).
   Schliesst E3-Rest. Offen: numerische g-/Uf-Werte je Typ (SZFF-Datenblatt), Fenster-Energieetikette BFE.
+- [x] D9 **GEAK — Gebaeudeenergieausweis der Kantone + Fenster-Energieetikette (FEA)**
+  — belegt 2026-07-08 (geak.ch / EnDK; BFE voluntary labels). **GEAK** = amtliche Energieetikette Bestand,
+  7 Klassen A–G (Huelle / Gesamtenergie inkl. Eigenstrom / direkte CO₂; A=null CO₂, Stufe 5 kg/m²·a);
+  **GEAK Plus** = bis 5 Sanierungsvarianten + Beratungsbericht, **Pflicht ab CHF 10'000 Foerderung**,
+  10 J gueltig, nur zertifizierte Expert:innen, kein Fixpreis (ZH/SZ foerdern 1'000/1'500), Abgrenzung
+  Minergie (Ist-Zustand vs. Ziellabel) → `[[geak-gebaeudeenergieausweis-kantone]]`, Themenartikel
+  `[[geak-gebaeudeenergieausweis]]` (FAQ **F36** neu). Zugleich **FEA** (BFE, freiwillig): Winter-Bilanz
+  Uw,eq am Referenzfenster 1,55×1,15 m, Klasse A = solare Gewinne > Verluste → `[[fenster-energieetikette-fea-bfe]]`
+  (schaerft F35). Offen: GEAK-Klassengrenzen kWh/m²·a (Produktreglement bildbasiert), FEA-Klassengrenzen A–G,
+  numerische g-/Uf-Werte (SZFF).
