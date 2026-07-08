@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -176,6 +176,24 @@ Das frühere «keine Emojis» war überzeichnet. Belegt (authentisch, Okt 2025):
 - Mikro-Metrik Batch 27 (311 W, Sie-Offerte + Du-Rechnung/Koordination gemischt): Du-Gross-Quote
   **1.0**; Tausender-Apostroph 2×; Satzlänge ø **13.5 W**; Anreden «Sehr geehrter Herr» 2× / «Hoi
   Albin» / «Geschätzte Undine»; Grüsse «Freundliche Grüsse» 3× / «Lieber Gruss» 1×; keine Ellipsen/«%».
+
+## Angebot↔Rechnung-Gruss am SELBEN Kontakt/Opener isoliert (belegt Fidelity 260708, authentisch)
+Wasserdichter Beleg für die Kippvariable des Du-Grusses (schliesst QUESTIONS 260626 #1). Zwei
+authentische Peter-Weisser-Mails, gleicher Kontakt, gleicher Opener «Hoi Peter / Im Anhang …», wenige
+Tage auseinander (Dez 2025) — die EINZIGE unterschiedliche Variable ist der Geld-**Charakter** der Mail:
+- **Gebuchte Rechnung/Beleg** («aktualisierte Rechnung», re-00077, 16.12.2025) → «**Freundliche Grüsse**»
+  + voller Block, **plus Service-Satz** «stehe ich Dir jederzeit gerne zur Verfügung» **und Auftrags-Dank**
+  «Ich bedanke mich für den Auftrag».
+- **Verhandelbares Angebot/Offerte** («Im Anhang den Offertenvorschlag. / Ruf mich diesbezüglich doch kurz
+  an.», 19.12.2025) → Kurzgruss «**lgr**», **Telefon-Verlagerung**, OHNE Service-Satz/Auftrags-Dank; der
+  darunter stehende «Freundliche Grüsse»-Block ist die Mobile-Automatik (handgetippter Gruss = «lgr» = echtes
+  Signal, → Doppel-Signoff).
+→ Regel bestätigt: **nicht jeder Geld-Bezug zieht FG+Block — erst die gebuchte, zitierfähige Abwicklung
+(Rechnung/Beleg) tut es.** Ein verhandelbares Angebot bleibt operativ-kurz («lgr»/«Lieber Gruss»), weil es
+vorwärtsgerichtet/besprechbar ist, nicht abgeschlossen; bei «ruf mich an» hält der Zwilling die Mail bewusst
+auf einen Ein-Zeilen-Transmittal und verlagert das Verhandelbare ans Telefon (bestätigt 260626 #3). Der
+Auftrags-Dank erscheint dabei auch beim **eingespielten Stammpartner** (Peter), ist also nicht auf den
+Erst-/Einzelauftrag beschränkt (bestätigt 260628 #2).
 
 ## Text-Lacher «haha» im wärmsten operativen Peer-Du (belegt Fidelity 260706, authentisch)
 Neben dem Smiley-Set (😊 · :) · ;))) existiert der ausgeschriebene **Lacher «haha»** als spontane

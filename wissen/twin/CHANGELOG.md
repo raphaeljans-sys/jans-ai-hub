@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-08 — twin-fidelity-review: Gesamt-Fidelity 93 (+1), Angebot↔Rechnung-Gruss wasserdicht
+- Selbsttest gegen 3 authentische Goldproben (rj@ Sent Items, vor-Claude): Gold A Notariat-Sachwalter
+  (Sehr geehrte Frau Wellinger, Rechnung z.H. Bauherrschaft, 2025-07-10); **Peter-Weisser-Paar am
+  selben Kontakt/Opener** — Gold B Rechnung re-00077 (FG+Block+Service-Satz+Auftrags-Dank, 2025-12-16)
+  ↔ Gold C Offertenvorschlag (lgr+Telefon-Verlagerung, 2025-12-19). Alle drei blind ohne Fehlklang
+  rekonstruiert. Scores: Stimme 93 (+3) · Denken 93 · Haltung 94 · Beziehung 94 (+1) · Fachsignatur 92
+  · Arbeitsweise 93.
+- **stimme:** neue Beleg-Sektion «Angebot↔Rechnung-Gruss am SELBEN Kontakt/Opener isoliert» — nur die
+  gebuchte, zitierfähige Abwicklung (Rechnung/Beleg) zieht FG+Block; ein verhandelbares Angebot bleibt
+  operativ-kurz («lgr») + Telefon-Verlagerung, auch mit Geld-Bezug.
+- **QUESTIONS beantwortet:** 260626 #1 (Angebot↔Rechnung-Gruss), 260626 #3 (Telefon-Verlagerung bei
+  «ruf mich an»), 260628 #2 (Auftrags-Dank auch beim Stammpartner, nicht Erst-only).
+- **QUESTIONS Runde 260708 (4 neu):** Freigabe-Rückfrage vor Rechnungsversand, Erläuterungs-Beilage zur
+  Honorarofferte, Auftrags-Dank-Untergrenze beim reinen Transmittal, Schnell-/Nacht-Turnaround beim Angebot.
+- Facetten-Widerspruchsprüfung: kein neuer Konflikt (Gruss-Mechanik über 3 Achsen konsistent). DNA-
+  Auto-Block bereits aktuell (Marker vorhanden). Drift-Report `outputs/2026-07-08_fidelity.md`.
+
 ## 2026-07-07 — twin-mail-training (Batch 27): Sweep 2026-02-06…02-11 + en-dash-Claude-Tell
 - Sent Items rj@, älteste zuerst, ab 2026-02-06: 20 Mails gesichtet, 5 Volltexte gelesen
   (Nova-AM Sie-Offerten-Erweiterung «Erweitertes Angebot» + Kostendach-Guard; Bauherrin Undine

@@ -3,6 +3,34 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260708 (twin-fragesteller, aus Fidelity-Review 2026-07-08)
+
+Quelle: Drift-Report `outputs/2026-07-08_fidelity.md` (Gesamt-Fidelity 93; das Peter-Paar bestätigte die
+Angebot↔Rechnung-Gruss-Grenze wasserdicht, kein Konzept-Drift). Vier neu freigelegte, je in 1–2 Sätzen
+beantwortbare Feinheiten aus den drei Golds.
+
+1. **Freigabe-Rückfrage vor dem Rechnungsversand:** Bevor Du die Rechnung final «rauslässt», fragst Du den
+   durchleitenden Kontakt zur Kontrolle («Kann ich Die so rauslassen? Stimmen die Angaben?», Peter,
+   15.12.2025). Ist diese kurze Verifikations-Rückfrage Dein **Standard vor jedem Rechnungsversand** an den
+   durchleitenden Partner (Beleg-/Buchhaltungssicherheit), oder nur, wenn Du an den Rechnungsdaten unsicher
+   bist? *Warum: operationalisiert den neu belegten Rechnungs-Verifikations-Reflex.* → [[arbeitsweise]],
+   [[stimme]]
+2. **Erläuterungs-Beilage zur Honorarofferte:** Zum «Offertenvorschlag» an Peter (19.12.2025) legst Du zwei
+   PDF bei — «Honorarofferte_…» UND «Erläuterungen_…». Ist die separate Erläuterungs-/Begleit-Datei ein
+   **Standard-Doppel** zu jeder Honorarofferte (Angebot + erklärender Kontext), oder nur bei erklärungs-
+   bedürftigen Projekten? *Warum: schärft die Offert-Signatur um die Beilagen-Struktur.* → [[fachsignatur]],
+   [[arbeitsweise]]
+3. **Auftrags-Dank-Untergrenze:** «Ich bedanke mich für den Auftrag» steht auf der **Rechnungs**-Du-Mail
+   (auch beim Stammpartner). Lässt Du den Auftrags-Dank beim **reinen internen Zwischen-Transmittal** (Plan-/
+   Status-Weiterleitung ohne Rechnung) bewusst weg, sodass er an den **Beleg-/Abschlusscharakter** gebunden
+   ist, oder taucht er auch in laufenden Nicht-Geld-Liefermails auf? *Warum: zieht die Untergrenze des in
+   260628 #2 als «nicht Erst-only» bestätigten Markers.* → [[stimme]], [[haltung]]
+4. **Schnell-/Nacht-Turnaround beim Angebot:** Auf Peters «ev. ein Projekt, ruf mich an» (18.12. abends)
+   schickst Du binnen Stunden — nachts getippt — bereits Offerte + Erläuterungen (19.12. früh). Ist die
+   **sofortige Angebots-Vorlage** Dein bewusster Akquise-Reflex (Gelegenheit ohne Reibung bedienen), oder
+   war das der Einzelfall? *Warum: klärt, ob der Zwilling bei Projekt-Gelegenheiten proaktiv-schnell offeriert.*
+   → [[arbeitsweise]], [[haltung]]
+
 ## Offen — Runde 260706 (twin-fragesteller, aus Fidelity-Review 2026-07-06)
 
 Quelle: Drift-Report `outputs/2026-07-06_fidelity.md` (Gesamt-Fidelity 92; Restdrift nur in zwei belegten
@@ -126,7 +154,11 @@ Stimme 89 — Restdrift in Mikro-Typografie + Schluss-Markern). Je in 1–2 Saet
 2. **Reichweite Auftrags-Dank:** Beim Zustellen der Rechnung schreibst Du «Ich bedanke mich fuer den
    Auftrag.» Ist diese Dank-Zeile fester Bestandteil **jeder** Rechnungs-/Schluss-Liefermail
    (Beziehungspflege ueber die Abwicklung hinaus), oder nur beim **Erst-/Einzelauftrag** eines
-   Kunden? *Warum: kalibriert den neu erfassten Auftrags-Dank-Marker.* → [[stimme]], [[haltung]]
+   Kunden? *Warum: kalibriert den neu erfassten Auftrags-Dank-Marker.* → [[stimme]], [[haltung]] ·
+   **BEANTWORTET (Fidelity 260708):** Gold B (Rechnung re-00077 an Peter Weisser, 16.12.2025) trägt den
+   Auftrags-Dank «Ich bedanke mich für den Auftrag» **beim eingespielten Stammpartner** (laufende
+   Zusammenarbeit) — also NICHT auf den Erst-/Einzelauftrag beschränkt, sondern Standard-Anhang der
+   Rechnungs-Du-Liefermail. Untergrenze (reines Nicht-Geld-Transmittal?) → Runde 260708 #3.
 3. **Frist + Postweg-Puffer als Standard:** Bei Terminzusagen rechnest Du den Zustellweg explizit auf
    die behoerdliche Frist auf («Einsprachefrist Ende 26.12.2025 + 5 Tage Postalweg»). Machst Du diese
    Puffer-Transparenz (Frist + Postweg/Zustellung) **standardmaessig** bei jeder Fristmitteilung an
@@ -154,7 +186,14 @@ Stimme 87 — Restdrift in feinen Gruss-/Ton-Triggern). Je in 1–2 Saetzen bean
    Trigger **nur die gebuchte, zitierfaehige Abwicklung (Rechnung/Beleg)** ist und ein
    verhandelbares **Angebot/Offerte** («ruf mich an») operativ-kurz bleibt — oder kippt auch
    ein Angebot in den Block, sobald es **verbindlich/unterschriftsreif** wird? *Warum: macht die
-   260626 geschaerfte Angebot↔Rechnung-Grenze wasserdicht.* → [[stimme]]
+   260626 geschaerfte Angebot↔Rechnung-Grenze wasserdicht.* → [[stimme]] ·
+   **BEANTWORTET (Fidelity 260708):** Das Peter-Weisser-Paar am SELBEN Kontakt/Opener («Hoi Peter /
+   Im Anhang …») isoliert die Variable: gebuchte Rechnung (re-00077, 16.12.2025) → «Freundliche Grüsse»
+   + Block + Service-Satz + Auftrags-Dank; verhandelbares Angebot («Offertenvorschlag / ruf mich an»,
+   19.12.2025) → «lgr» + Telefon-Verlagerung. Bestätigt: nur die **gebuchte, zitierfähige Abwicklung**
+   (Rechnung/Beleg) zieht FG+Block; ein Angebot bleibt operativ-kurz, auch mit Geld-Bezug (die Frage
+   «kippt bei unterschriftsreif?» bleibt offen, da hier ein Vorschlag zur Besprechung vorlag). In stimme.md
+   verankert.
 2. **Warm-Wunschformel bei Privat-/Sachkauf:** Deine kommerzielle Kurz-Bestellanfrage an einen
    Hersteller («Guten Tag / … abholbar waere? / Freundliche Gruesse») kommt rein sachlich, OHNE
    Begruendung, Vorab-Dank oder Wunschzeile. Laesst Du die Hoeflichkeits-/Wunschschicht bei
@@ -167,7 +206,11 @@ Stimme 87 — Restdrift in feinen Gruss-/Ton-Triggern). Je in 1–2 Saetzen bean
    mich kurz an»), statt die Sache schriftlich anzureissen. Ist das ein bewusster Reflex (Heikles/
    Verhandelbares gehoert ans Telefon, nicht in die zitierfaehige Mail), oder einfach Tempo?
    *Warum: operationalisiert, wann der Zwilling auf den Telefonkanal verweist statt auszuformulieren.*
-   → [[arbeitsweise]]
+   → [[arbeitsweise]] · **BEANTWORTET (Fidelity 260708):** Gold C (an Peter, 19.12.2025) belegt es
+   verbatim: auf Peters «rufe mich an» spiegelt Raphael «Ruf mich diesbezüglich doch kurz an» + Ein-Zeilen-
+   Transmittal «Im Anhang den Offertenvorschlag», statt die verhandelbare Sache schriftlich anzureissen —
+   bewusster Reflex (Verhandelbares gehört ans Telefon, nicht in die zitierfähige Mail). In stimme.md
+   («Angebot↔Rechnung-Gruss …») verankert.
 4. **Versal-Betonung als bewusstes Mittel:** Im Eil-Du betonst Du einzelne Woerter in Versalien
    («NORDWESTSEITE», «AENDERUNGEN IN DEN ROHRBEZEICHNUNGEN»). Ist das Deine bewusste
    Hervorhebung fuer das sicherheitskritische Wort (das der Empfaenger keinesfalls ueberlesen
