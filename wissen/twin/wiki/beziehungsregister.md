@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-08
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -574,6 +574,26 @@ Neue Anrede-Nuance und Kontakt-Paare aus dem Cluster 23.–30.01.2026:
   Fachpartner ist durchweg Sie. Fabian/Jonas Simmen (Gruner, Brandschutzexperte) → «**Geschätzter Herr Simmen**»
   (bereits Batch 25); Roman Steinmann (Nova) → «**Sehr geehrter Herr Steinmann**» bestätigt (Akontorechnung Sie
   + «Freundliche Grüsse» + Block).
+
+## «Guten Morgen Herr <Nachname>» als Sie-Tageszeit-Anrede + neue Sie-/Peer-Mappings (belegt Mailbatch 28, authentisch)
+- **Sie-Tageszeit-Anrede «Guten Morgen Herr <Nachname>»:** die Tageszeit-Anrede, bisher nur im Du («Guten
+  Morgen <Vorname>»), tritt auch im **Sie** auf — mit «Herr <Nachname>» statt Vornamen (Minor, 14.02.2026,
+  im laufenden Faden nach vorherigem «Sehr geehrter Herr Minor»). Reiht sich als wärmere Sie-Variante neben
+  «Sehr geehrter Herr <Name>» / «Guten Tag Herr <Name>», wenn der Rapport im Thread besteht (→ [[stimme]]).
+- **Neue Sie-Mappings (Datenanbieter/Fachpartner + Lieferant):**
+  - **Matthias Weber & Alexander Minor (Wüest Partner, matthias.weber@ / alexander.minor@wuestpartner.com;
+    Weber Partner MRICS, Minor Director/Baukostenspezialist):** Sie, «**Sehr geehrter Herr Weber/Minor**» bzw.
+    «**Guten Morgen Herr Minor**» + «Freundliche Grüsse» + Block. Der Kostenkennwerte-Datenpartner ist durchweg
+    Sie (vgl. Goller, Batch 25).
+  - **Iris O'David (iodavid@costar.com, Matterport-/CoStar-Vertrieb):** Sie, «**Guten Tag**» + ultrakurzer
+    Kommando-/Frage-Satz — der Reality-Capture-Verkaufskontakt (vgl. 3D-Scan-Lieferanten Agostini/Quenson, Sie).
+  - **Herr Wissmann & Gasser (hobel.ch, Schreinerei/Fenster-Balkontüre, Wartstrasse 8):** Sie, «**Sehr geehrter
+    Herr Wissmann**» — Offertenanfrage an den ausführenden Handwerker/Schreiner, cc an Bauherrin Hofer +
+    Bauunternehmer fsgbau (Sachwalter-Choreografie, → [[arbeitsweise]]).
+- **Hleb Paltanovich (paltanovich.hleb@gmail.com, externer Web-Entwickler JANS-Website):** englisches Peer-Du
+  «**Hi Hleb,**» / «**Hello Hleb**», Signoff «Best regards, Raphael», warm-ermutigend «Top you make it!». Reiht
+  sich neben Yorck ins englischsprachige-Dienstleister-Register (→ [[stimme]] Englisch-Register). RJ führt Regie
+  (Taxonomie/Meta-Felder/Design-Logik vorgeben), inhaltlich aber KI-assistiert verfasst (Echo-Falle 9, → _INGESTED).
 
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation

@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-08 — twin-mail-training Batch 28 (Sent Items rj@, 2026-02-12 bis 2026-02-14)
+- 20 Mails gesichtet, 5 Volltexte destilliert; reiner Operativ-Sie-Batch (163 W, Du-Gross 0.0, ø 9.6 W,
+  Freundliche Grüsse 5×). Raw-Marker: `raw/260708-mailbatch-28.md`.
+- **stimme:** terser Kommando-/Frage-Sie an Dienstleister («Senden Sie mir eine Termineinladung.» /
+  «Könnten Sie mir einen Termin … vorschlagen»); «Ich überlasse Ihnen … zur Info» (proaktive Weitergabe);
+  «Danke und schönes Wochenende» ersetzt den Gruss + «absolut in Ordnung»; «Guten Morgen Herr <Nachname>»
+  Sie-Tageszeit-Anrede; englisch «Top you make it!» broken-English-Wärme.
+- **beziehungsregister:** neue Sie-Mappings Weber/Minor (Wüest), O'David/CoStar-Matterport, Wissmann/Gasser
+  (Schreinerei hobel.ch); Hleb (Web-Entwickler) = englisches Peer-Du; «Guten Morgen Herr <Nachname>» als
+  wärmere Sie-Variante im laufenden Faden.
+- **fachsignatur:** «im Sinne des Objektes» als knappe Gestaltungsleitidee ans ausführende Gewerk; Website
+  als systematisches Archiv (Use/Type/Scale-Filter, «Archive not magazine») = echte Ordnungshaltung.
+- **arbeitsweise:** eigene Grundlagen unaufgefordert beisteuern («zur Info»); Offertenanfrage als Sachwalter-
+  Choreografie mit cc-Bauherrschaft + Bauunternehmer.
+- **Echo-Falle, 9. Beleg (Feb-2026-Zäsur):** englische Website-Konzeptmails (Times New Roman 1)–6) bzw.
+  ol/ul «Below are my structured answers») + polierte deutsche Weber-Bullet-Antwort «BKP 1–5»/«m²» (En-dash)
+  = KI-assistiert → ausgeschlossen; En-dash-in-Bandbreiten-Tell (Batch 27) bestätigt. Nur handgetippte Rahmen
+  destilliert. Coverage bis 2026-02-14; nächster Lauf ab 2026-02-14.
+
 ## 2026-07-08 — twin-fidelity-review: Gesamt-Fidelity 93 (+1), Angebot↔Rechnung-Gruss wasserdicht
 - Selbsttest gegen 3 authentische Goldproben (rj@ Sent Items, vor-Claude): Gold A Notariat-Sachwalter
   (Sehr geehrte Frau Wellinger, Rechnung z.H. Bauherrschaft, 2025-07-10); **Peter-Weisser-Paar am

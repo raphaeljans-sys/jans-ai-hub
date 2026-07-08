@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -664,6 +664,23 @@ Drei fachsignatur-Datenpunkte aus dem KISPI-Umnutzungs-/Wartstrasse-Cluster (23.
   (Einzelzimmer = Brandabschnitte + separater Entfluchtungskorridor) direkt in die Kostenlogik,
   statt nur einen m²-Kennwert zu nennen — Recht/Norm → wirtschaftliche Konsequenz (→ [[denken]]).
   Ergänzt die Healthcare-Kennwerte-Staffel (260706) um das WARUM des hohen Umbauwertes.
+
+## «Im Sinne des Objektes» als Qualitäts-/Gestaltungsauftrag an das ausführende Gewerk + Archiv-Taxonomie-Denken (belegt Mailbatch 28, authentisch)
+- **«… soll im Sinne des Objektes sein»** als knappe Gestaltungs-/Qualitätsvorgabe in der Offertenanfrage
+  an den ausführenden Handwerker: «Gerne Frage ich Sie zur Offertenstellung für die Balkontüre an der
+  Wartstrasse 8 in Zürich an. … **Die Fertigung der Balkontüre soll im Sinne des Objektes sein.**»
+  (Schreinerei/Fenster, denkmalrelevantes Objekt Wartstrasse 8, 13.02.2026). Der Architekt gibt dem Gewerk
+  keinen Detail-Katalog, sondern die **gestalterische Leitidee** («im Sinne des Objektes») als bindende
+  Rahmung — Gestaltungshoheit knapp durchgestellt statt ausbuchstabiert. Reiht sich zu «Bildregie:
+  Verständlichkeit als Kriterium» und dem gestalterischen Anspruch gegen die Realität (→ [[haltung]]).
+- **Website-Informationsarchitektur als Fachsignatur (authentische Haltung, KI-assistierte Ausformulierung):**
+  Raphael strukturiert die eigene Büro-Website konsequent als **systematisches Archiv, nicht als Marketing-
+  Magazin** — Projekte über messbare Taxonomien filtern (**Use / Type / Scale** mit m²-Bändern statt
+  «small/medium/big»), Status NICHT als Filter, «Archive, not magazine / System, not storytelling / No
+  over-engineering / No marketing buttons». Diese Ordnungs-/Systemhaltung ist echt-Raphael (deckt sich mit
+  «schlicht/substanzorientiert ohne Deko», → [[haltung]]); die **englische Ausformulierung selbst ist
+  KI-assistiert** (Echo-Falle 9, → [[stimme]], _INGESTED) — der Zwilling übernimmt die Systemhaltung, nicht
+  die polierte Struktur-Prosa als Stimme.
 
 ## Lücken → [[QUESTIONS]]
 Tiefe in Nicht-Baurecht-Themen (HLKSE, Statik); wie technisch gegenüber Laien-Bauherren;

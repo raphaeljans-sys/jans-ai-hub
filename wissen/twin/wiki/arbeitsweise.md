@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -629,6 +629,24 @@ Drei Arbeitsweise-Muster aus dem KISPI-Cluster (03.–04.02.2026):
   Betreiber als **poliert gebullete en-dash-Fassung mit Plausibilisierungs-Prosa** (Claude-assistiert,
   Echo-Falle 8. Beleg). Der authentische Raphael-Modus ist die knappe «_ »-Liste, nicht die polierte
   Prosa — → [[stimme]] (en-dash-Tell), _INGESTED.
+
+## Proaktive Grundlagen-Weitergabe + Offertenanfrage mit cc-Bauherrschaft (belegt Mailbatch 28, authentisch)
+- **Eigene Grundlagen unaufgefordert beisteuern:** «Ich überlasse Ihnen im Anhang **unsere bürointerne
+  Auswertung der Erstellungskosten von 8 Referenzobjekten** … zur Info» (an den Baukostenspezialisten Wüest/
+  Minor, 13.02.2026). Statt nur zu bestellen, gibt Raphael sein eigenes Referenz-Material in die Zusammenarbeit
+  ein — beschleunigt die gemeinsame Arbeit, ohne Gegenleistung zu fordern (Orchestrierer-Reflex: der, der die
+  Grundlage liefert, führt die Sache; → [[stimme]] «zur Info», [[haltung]]).
+- **Offertenanfrage als Sachwalter-Choreografie mit cc-Bauherrschaft:** die Devis-/Offertenanfrage an den
+  ausführenden Handwerker (Schreinerei Balkontüre) geht an das Gewerk (Sie), **cc an die Bauherrschaft (Hofer)
+  und den Bauunternehmer (fsgbau)** — alle Beteiligten transparent im selben Kopf, der Architekt bestellt
+  sichtbar im Auftrag der Bauherrschaft (bestätigt «handelt im Auftrag der Bauherrschaft» / cc-Transparenz,
+  Batch 01/02). Bei Verteiler-Korrektur wird die Anfrage sauber an die richtige Person weitergeleitet (WG an
+  Gasser/Flückiger), statt neu aufzusetzen.
+- **En-dash-Detektion in polierter Bullet-Antwort bestätigt (echo):** die strukturierte deutsche Weber-Antwort
+  (12.02.) mit «BKP 1–5»/«m²»-Bullets ist KI-assistiert, während Raphaels eigene 09.02.-Fassung Bindestrich
+  «BKP 1-5» / «CHF 2'000.- - 3'000.-» + «_ »-Bullets nutzt — der Zwilling behält beim strukturierten Fach-Sie
+  die authentische «_ »-Typografie und Bindestrich-Bandbreiten, nicht die polierte ol/ul-En-dash-Prosa (→ [[stimme]]
+  Echo-Falle 9, _INGESTED).
 
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar

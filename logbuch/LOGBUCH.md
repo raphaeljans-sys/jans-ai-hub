@@ -5,6 +5,31 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-08
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 15.07.), Mail-Eingang
+  (seit 07.07. 12:00) und Sync-Task-Queue abgeglichen.
+- **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **83 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 =
+  HEUTE erreicht**, kein Zahlungseingang. Keine neuen Verzugsfaelle; RE-00098/99 (faellig 20.07.)
+  weiter ohne Verzug. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt klaeren).
+- **Kalender (bis 15.07.):** nur **09.07. 13:00–14:00** Koordinationssitzung Gruner/Jans/KISPI
+  (Serientermin, bereits im Register). Der TeKoSi-Termin 07.07. ist vorbei → Archiv. Keine neuen Termine.
+- **Mail-Eingang (seit 07.07. 12:00, 2 Mails):** (1) J. Struebi (Portunus, 07.07. 18:40) sagt die
+  parallel angefragte Los-231.10-Tuerfachplanung ab (bietet keine Tuerfachplanung an, Frist zu kurz) —
+  die TeKoSi/Hiltmann-Honorarofferte bleibt damit die massgebende; Register-Zeile ergaenzt. (2) Graphax
+  Kreditorenrechnung Nr. 40973503 — reiner Rechnungseingang, kein Handlungsbedarf/keine Frist.
+- **Sync-Task-Queue:** kein offener Task fuers MacBook Pro.
+- **Naechste 7 Tage / Cutoffs:** RE-00087 Zahlfrist **08.07. = heute** (kein Eingang → Eskalation
+  Mahnung 2 vorbereiten, RE-00088-Konflikt vorher klaeren); Koordinationssitzung **09.07.**;
+  SharePoint-Gastzugriff-Ablauf **10.07.** (6 Gruner-Personen); Lenggstrasse-30-Schutzraeume-Rechnung
+  weiter dringend (Baufreigabe PPTS haengt an der Bezahlung). AG-Gruendung weiter hoch (Notariats-
+  Antwort noch nicht raus, UBS-Formular abwarten). Offene Offert-Pruefungen: TeKoSi Los 231.10,
+  Brunner Los 273.00, Portunus Los 275.00 Schliesssystem.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Cutoffs in den naechsten 7 Tagen).
+
+---
+
 ## 2026-07-07
 
 - **HUB-CHEF-LAUF — mit Befund (Briefing versendet).** Signale konsolidiert: bexio `--verzug`
