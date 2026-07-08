@@ -1,7 +1,7 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-08
 sources: [Crivelli/Filippini/Lunati 2001 «Effizienz der Pflegeheime in der Schweiz» (SECO/USI Lugano, 835 Heime — Skalenertraege/optimale Betriebsgroesse 70-80 Betten, Median 52/Ø 62, Run 14 2026-07-06), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12; SenioResidenz AG Geschaeftsbericht 2017 19.02.2018 — Healthcare-Investoren-Fall impl. Brutto-Yield ~5.3 %, WP-DCF-Bewertung, Finanzierungsstruktur, Run 13; BFS «Indikatoren der Pflegeheime 2019-2021» Mai 2023 BFS-Nr. 1552-2100 — Beherbergungskosten 10'035 CHF/Mt, Ertrags-/Finanzierungsstruktur, Belegung/Defizitquote, Run 13; NZZ/Curaviva Pflegekosten 13.11.2023 — Kostenstruktur Pension/KVG-Pflege/Betreuung, Run 13), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11; WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026) — Gewerbe-Feinabstufung D3-Rest Run 13]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
@@ -493,7 +493,17 @@ Thalwil 26.11.2024, LB Ebmatingen 3932) — sie konkretisieren die WP-Anker fuer
 | **Bruttorendite Geschaeftsflaechen (grob)** | **5.5 %** | MA Thalwil S. 5 (vgl. [[realwert-sachwert]]) |
 | **Grundstuecks-ROE-Ampel** | < 2 % unwirtschaftlich · 2-5 % selbsttragend · **> 5 % wirtschaftlich** | LB-Auswertungsbalken |
 
-**Residualwert-Tool-Struktur (reverse-engineered aus MA Thalwil S. 9 — adressiert D4 teilweise):**
+**Diskont-/Risiko-Kalibrierung im Excel-Tool (D4 vollstaendig geschlossen, Run 15 2026-07-08):**
+Die WP-/JANS-Excel-Tools sind auf Zellebene ausgelesen ([[residualwertmethode]], Sektion
+«Excel-Tool Formel-Logik»). Fuer die Diskont-/Rendite-Seite relevant: Das **JANS-Pre-Check-Tool**
+hat als hinterlegte Defaults **Risiko-/Gewinnanteil 12 %** und **Diskontierung 2.45 %**
+(WP-Original: 7 % / 2.4 %); das **JANS-Einblatt-Tool** ist mit WP identisch (7 % / 2.5 %). Die
+gelebte JANS-Konvention der reifen Faelle (8 % Risiko / **2.70 % Diskont**, unten) liegt zwischen
+diesen Defaults — der 12 %/2.45 %-Pre-Check ist der konservative Schnellcheck, nicht der Ansatz.
+Ertragswert-Formel im Tool bestaetigt: **Ertragswert = Nettoertrag / Diskontierung**; Nettoertrag =
+Soll-Ertrag − Betriebskosten (5 % + Leerstand 1 % + IH 13 + IS 21-24 CHF/m2 HNF).
+
+**Residualwert-Tool-Struktur (reverse-engineered aus MA Thalwil S. 9 + Excel-Zellen Run 15):**
 Wohnungsmix nach Zimmerzahl (1.5-5.5 Zi) mit je eigener **HNF/GF-Effizienz 0.73-0.83**;
 Nettomiete CHF/Monat ohne NK je Typ → Soll-Ertrag → Nettoertrag p.a. nach Abzug
 Betriebs-/Unterhaltskosten; Erstellungskosten BKP 1-9 + Risiko; **Residualwert =

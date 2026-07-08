@@ -2,6 +2,41 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-08 — Training-Run 15: D4 geschlossen — Excel-Residualwert-Tools reverse-engineered
+
+- **D4 geschlossen** (die letzte hoch-priorisierte Daten-/Formel-Luecke): Die vier Residualwert-
+  Excel-Tools (`05 Residualwert/Exel Tabelle/{wp,jans}/`, je Pre-Check + «Residualwert Berechnung»)
+  wurden per **unzip + XML-Zellparser** auf Zellebene ausgelesen. Der SharePoint-Pfad ist entgegen
+  der Freigabe-Annahme TCC-lesbar (keine Freigabe noetig). 10 Themen dieses Laufs: (1-2) WP
+  Pre-Check-Engine + Residualwert-Kette, (3) HNF-Herleitung ohne Grundrisse, (4) Betriebskosten-
+  Parameterset, (5) Diskont-Empfehlungen, (6) Gewerbe-5.5-%-Regel, (7) JANS-Kalibrierungs-Delta,
+  (8) Sensitivitaets-Formel = CS-Break-Even-Generator, (9) JANS- vs WP-Vergleich, (10) Marktpuls.
+- **`wiki/residualwertmethode.md`** (07-08, established): neue Sektion **«Excel-Tool Formel-Logik
+  (D4 — reverse-engineered aus den Zellen)»** — zwei Tool-Familien dokumentiert. Einblatt-Tool
+  «Residualwert Berechnung»: JANS = **formel- und default-identisch mit WP** (nur Kopfzelle). Belegte
+  Rechenkette Soll-Ertrag→Nettoertrag→Ertragswert(=Nettoertrag/Diskont)→Residualwert−Abzuege→Wert
+  n. Fertigstellung/Brutto-/Nettorendite; Defaults Diskont 2.5 %/Risiko 7 %/Betriebsk. 5 %/Leerstand
+  1 %/IH 13/IS 21 CHF-m2HNF/Zeitwert 2 %×3 J; **Gewerbe-Miete = 5.5 % der Erstellungskosten**.
+  Pre-Check-Tool: **«AZ-HNF Tool»-Engine leitet HNF ohne Grundrisse aus einer Planungsziffer ab**
+  (HNF = GF − VF − KF − FF − NNF; Effizienz-Ampel KF/GF 0.18/0.23/0.30; Kompaktheit 1-5; Skalen-/
+  Kostenniveau-Faktoren 0.9-2.1; Hochhausfaktor 1.1). **JANS-Kalibrierung = genau 2 Zellen** (Risiko
+  7 %→12 %, Diskont 2.4 %→2.45 %). Sensitivitaets-Zellformel bestaetigt den T18-Break-Even-Generator.
+  Frontmatter last_updated 06-10→07-08; «Offen»/Tool-Bullet aktualisiert (D4 ✓).
+- **`wiki/ertragswert-dcf.md`** (07-08, established): neue Diskont-/Risiko-Kalibrierungs-Notiz (D4
+  vollstaendig geschlossen) — JANS-Pre-Check-Defaults 12 %/2.45 % vs WP 7 %/2.4 % vs gelebte Praxis
+  8 %/2.70 %; Ertragswert = Nettoertrag/Diskontierung aus Zellen bestaetigt. last_updated 07-06→07-08.
+- **`wiki/investorenmarkt-makro.md`** (07-08, established): **Marktpuls-Web-Check Run 15** —
+  SNB-Leitzins 0.00 % + Referenzzins 1.25 % unveraendert (BWO-Bestaetigung 02.03.2026, erwartet bis
+  Ende 2026 / keine Aenderung vor Mitte 2027). **Neu: BFS-Baupreisindex auf Basis Okt-2025 = 100
+  umgestellt, erster Stand April 2026 = 100.6 (+1.0 % YoY)** → Bauteuerung moderat. last_updated
+  07-04→07-08; Baupreisindex-Zeile + Marktpuls-Log + Quellen ergaenzt.
+- **Register:** `raw/_INGESTED.md` (4 XLSX offen→eingearbeitet + Stand-Run-15-Block), `wiki/
+  wissensluecken.md` (D4 durchgestrichen/erledigt + Erledigt-Eintrag), `training/curriculum.md`
+  (E2 ✓), `wiki/INDEX.md` (residualwertmethode-Zeile). Lern-Report `outputs/2026-07-08_training-run15.md`.
+- **Status:** Alle T-Aufgaben, der Wuest-Kurs, alle lesbaren E-Quellen **und D4** eingearbeitet.
+  Offen nur noch: D5 (buerospezifische Margen-/Finanzierungspraxis, Bring-Schuld Raphael), D8
+  (JANS-Kennwerte-DOCX, Freigabe), Emilienheim-Flaechenkennwerte, laufender Marktpuls.
+
 ## 2026-07-06 — Training-Run 14: T19 geschlossen — JANS-Healthcare-Kennwert-Raster befuellt
 
 - **T19 geschlossen** (die letzte offene T-Aufgabe). Drei bisher ungelesene Quellen aus der

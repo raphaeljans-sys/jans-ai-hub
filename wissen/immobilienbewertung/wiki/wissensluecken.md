@@ -11,7 +11,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | D1 | **UBS Fact Sheets veraltet**  (zudem Langnau am Albis ganz fehlend) | D | hoch | Waedenswil (2022), Einsiedeln/Regensdorf/Wald (12.2023) neu bestellen; relevante Kerngemeinden ergaenzen (deine aktiven Maerkte) |
 | D2 | **Bodenpreise nur Screenshots** | D | hoch | Strukturierte Bodenpreis-Quelle: Zugang Handaenderungs-/Bodenpreisstatistik (Kanton ZH/SZ), oder Wuest-/IAZI-Bodenpreis-Abo. Heute nicht maschinenlesbar |
 | D3 | **Diskontsatz-Herleitung** — Geruest steht, Wohnbau-Faustregel nun belegt | D | niedrig | T-Teil ✓ (Run 9). **Run 10:** Wohnbau-Faustregel belegt aus R.-Jans-Notiz 31.12.2023 (**2.5 %=2.0 % Kapitalverzinsung+0.5 % Abschreibung**). Offen nur noch: **Gewerbe-Feinabstufung je Mietersegment** + **Healthcare-Zuschlag aus realem CH-Fall** (T17). D3 von «mittel» auf «niedrig» zurueckgestuft |
-| D4 | **Excel-Tool-Logik (Residualwert/Pre-Check)** | D/T | hoch | Freigabe, die `Immo-02-P23D-*.xlsx` zu oeffnen/auszulesen, damit die Formel-Logik (Diskontierung, Terminal Value, Margen) reverse-engineered und dokumentiert wird |
+| ~~D4~~ | ~~**Excel-Tool-Logik (Residualwert/Pre-Check)**~~ | — | ✓ | **erledigt Run 15 (2026-07-08)**: Zellformeln aller 4 Tools reverse-engineered (Pfad TCC-lesbar, keine Freigabe noetig). Rechenkette, Defaults, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung (Pre-Check 12 %/2.45 %) in [[residualwertmethode]] + [[ertragswert-dcf]] |
 | D5 | **Margen-/Finanzierungsannahmen** | D | mittel | Uebliche Bautraegermarge (%), Finanzierungszins/Laufzeit, Vermarktungs-/Reserve-% deiner Praxis |
 | D6 | **Ausnuetzungsziffer-Kennwerte fehlen** | D | mittel | `IMMO-06 WOHNEN Ausnuetzungsziffer` ist leer — typische AZ/GFZ je Zone/Gemeinde sammeln (oder via Skill baurecht ziehen) |
 | D7 | **Kennwerte Buero/Gewerbe duenn** | D | niedrig | nur ZH-Bueromarkt; weitere Nutzungen/Regionen bei Bedarf |
@@ -22,9 +22,24 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen und T19 sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle, D-Freigaben). Naechste Kandidaten sobald verfuegbar: D4 (`.xlsx`-Tool-Formeln), D8 (JANS-Kennwerte-DOCX), Emilienheim-Flaechenkennwerte, Auffrischung Baupreisindex/Zins | — | — |
+| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen, T19 **und D4** (Excel-Tool-Formeln, Run 15) sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle, D-Freigaben). Naechste Kandidaten sobald verfuegbar: D8 (JANS-Kennwerte-DOCX, Freigabe), Emilienheim-Flaechenkennwerte, D5 (buerospezifische Margen-/Finanzierungspraxis — Bring-Schuld Raphael), Auffrischung Baupreisindex/Zins (naechste Referenzzins-Publ. 01.09.2026) | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-08 **D4 geschlossen — Excel-Tool-Formeln reverse-engineered** (Run 15): Die vier
+  Residualwert-Tools (WP + JANS, je Pre-Check + «Residualwert Berechnung») auf Zellebene ausgelesen
+  (unzip + XML-Zellparser; der SharePoint-Pfad ist entgegen der Freigabe-Annahme TCC-lesbar). Belegt:
+  die vollstaendige **Rechenkette** (Soll-Ertrag → Nettoertrag → Ertragswert = Nettoertrag/Diskont →
+  Residualwert − Abzuege → Wert n. Fertigstellung/Brutto-/Nettorendite), die **Default-Parameter**
+  beider Tool-Familien, die **Gewerbe-Miete-als-5.5-%-der-Erstellungskosten**-Regel, die
+  **HNF-Herleitung ohne Grundrisse** (Pre-Check-Engine: HNF = GF − VF − KF − FF − NNF, Effizienz-Ampel
+  KF/GF 0.18/0.23/0.30) und die **JANS-Kalibrierung** (Einblatt-Tool = WP unveraendert; Pre-Check
+  genau 2 Zellen: Risiko 7 %→12 %, Diskont 2.4 %→2.45 %). Die **Sensitivitaets-Zellformel** bestaetigt
+  exakt den CS-Break-Even-Generator (T18). → [[residualwertmethode]] (neue Sektion «Excel-Tool
+  Formel-Logik (D4)») + [[ertragswert-dcf]]. Ehrlicher Dreipunkt-Befund: Tool-Default 7 % / gelebte
+  JANS-Praxis 8 % (MA Thalwil) / Pre-Check-Worst-Case 12 % Risiko. Offen bleibt nur D5 (Bring-Schuld).
+  Marktpuls-Web-Check: Zins-Anker unveraendert, **BFS-Baupreisindex neu Basis Okt-2025 = 100,
+  April 2026 = 100.6 (+1.0 % YoY)** → [[investorenmarkt-makro]].
 
 - ✓ 2026-07-06 **T19 geschlossen — JANS-Healthcare-Kennwert-Raster befuellt** (Run 14): Das leere
   interne Blatt «Kennwerte von Alters-/Pflegeheime» (R. Jans 27.04.2024) mit belegten Werten gefuellt

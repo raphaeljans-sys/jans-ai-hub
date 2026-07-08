@@ -1,8 +1,8 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-06-10
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert (Pre-Check-Tool, Residualwert-Tool JANS), IMMO-01 RW Residualwert-Projekte]
+last_updated: 2026-07-08
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte]
 links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]]
 ---
 
@@ -145,6 +145,110 @@ Planungsziffern (AZ, GFZ, UeZ, BMZ oder Gebaeudegrundflaeche GGF), Wohnungsmix-T
 Flaecheneffizienz HNF/GF, Baukostenschaetzung via Benchmarks/Skaleneffekte, Residualwert-/
 Landwertschaetzung. Anwendung lizenzpflichtig (WP).
 
+## Excel-Tool Formel-Logik (D4 — reverse-engineered aus den Zellen, Run 15)
+
+Die vier Excel-Tools (`05 Residualwert/Exel Tabelle/wp/` und `.../jans/`) sind mit Run 15
+(2026-07-08) **auf Zellebene ausgelesen** — damit ist die bisher offene D4-Luecke (die
+Formel-Logik, nicht nur die Kursfolien-Struktur) geschlossen. Es gibt **zwei Tool-Familien**:
+
+### A. «Residualwert Berechnung» (einblaettriges Lehrtool, WP + JANS)
+
+Das saubere, selbstdokumentierende Einblatt-Tool aus dem SIA-Kurs. **Befund: die JANS-Datei
+ist formel- UND default-identisch mit der WP-Datei** — nur die Kopfzelle traegt «JANS» statt
+«© Wuest Partner AG». JANS hat dieses Tool also **nicht rekalibriert** (die JANS-Kalibrierung
+sitzt im Pre-Check-Tool, unten). Belegte Rechenkette (Zellbezuege der WP/JANS-Datei):
+
+```
+Soll-Ertrag Total  = Soll-Ertrag Wohnen + Ertrag Parkplaetze + Soll-Ertrag Gewerbe
+Nettoertrag        = Soll-Ertrag − Betriebskosten & Unterhalt
+Ertragswert        = Nettoertrag / Diskontierung
+Residualwert v.Abz = Ertragswert − (Erstellungskosten + Risiko/Gewinn)
+Residualwert n.Abz = Residualwert v.Abz − Abbruch − Zeitwert-Abzinsung − Mehrwertabgabe
+Wert n.Fertigstlg. = (Erstellungskosten + Risiko) + Residualwert v.Abz.
+Bruttorendite      = Soll-Ertrag / Wert n.Fertigstellung
+Nettorendite       = Nettoertrag / Wert n.Fertigstellung
+```
+
+**Hinterlegte Default-Parameter (WP = JANS, editierbare Zellen):**
+- Diskontierung **2.5 %** (Empfehlungstext in der Zelle: «2.2-2.9 % je nach Lage; 2.2 % ZH/GE,
+  2.3-2.5 % andere Stadtzentren, 2.7 % Durchschnittsgem., 3.0 % schlechte Gem.; Gewerbe +0.6
+  bis +1.5 Pp»).
+- Risiko-/Gewinnanteil **7 %** der Erstellungskosten (Zellhinweis «5-8 % Wohnen; 10-12 % Gewerbe»).
+- Betriebskosten (Verwaltung/Versicherung/Versorgung) **5 %** des Soll-Ertrags (4.5-6.0 %);
+  Uebriges 0.5 %; Liegenschaftssteuer 0 % (0-6 %); struktureller Leerstand **1 %** (1.0-3.5 %);
+  Instandhaltung **13 CHF/m2 HNF** (13-16); Instandsetzung **21 CHF/m2 HNF** (17-25).
+- Zeitwert-Abzinsung = Residualwert − Residualwert/(1.02)^N mit **2 % Zins, N = 3 Jahre** bis
+  Fertigstellung. Abbruch-Benchmark 20-40 CHF/m3; Mehrwertabgabe 20-40 %.
+
+**Wohnungsmix-Defaults (Tool-Zellen, leicht abweichend von den Kursfolien):** HNF je Whg
+1/2/3/4/5 Zi = 35/62/88/108/130 m2; HNF/GF-Effizienz 0.73/0.75/0.77/0.79/0.80 (Ziel-Effizienz
+**0.73-0.78**); Erstellungskosten CHF/m2 HNF (inkl. PP+MwSt) **6'000/5'700/5'500/5'200/5'100**;
+Nettomiete/Mt 1'100/1'450/1'900/2'150/2'450; Einstellplatz 130/Mt, Aussenparkplatz 80/Mt.
+
+**Gewerbe-Mietansatz (belegte Faustregel):** Die Nettomiete Gewerbe wird als **5.5 % der
+Erstellungskosten je Nutzung** gerechnet (Zellformel `Nettomiete = Baukosten/m2 × 0.055`).
+Erstellungskosten je Gewerbenutzung CHF/m2 HNF: Buero 3'700 · Industrie/Gewerbe 3'200 · Lager
+1'800 · Verkauf 4'500 · Gastronomie 5'500; HNF/GF-Effizienz Gewerbe 0.80-0.90. Damit ist die
+Gewerbe-Miete im Tool **kostengekoppelt** (5.5 % Bruttorendite-Ansatz auf die Investition).
+
+### B. «Pre-Check Tool» (zweiblaettrig, mit HNF-Herleitung — hier sitzt die JANS-Kalibrierung)
+
+Zwei Blaetter: das **Cover** (Resultat CHF/m2 GSF + m2 HNF + Sensitivitaetstabelle) und die
+Engine **«AZ-HNF Tool»**, die die Hauptnutzflaeche **ohne Grundrisse allein aus einer
+Planungsziffer** herleitet — der eigentliche Differenzierer gegenueber dem Einblatt-Tool.
+
+**HNF-Herleitung (AZ-HNF-Tool, Kern):** Eingabe **einer** Ziffer (GFZ, AZ, UeZ, BMZ) *oder* der
+Gebaeudegrundflaeche GGF + Umfang → Geschossflaeche GF pro Vollgeschoss. Davon werden abgezogen:
+```
+HNF pro Vollgeschoss = GF − Verkehrsflaeche(VF) − Konstruktionsflaeche(KF)
+                          − Schachtflaechen(FF) − Nebennutzflaeche(NNF, 1 % pauschal)
+```
+- VF = Treppenhaus + Aufzug (1 TH je 500 m2 GGF; 2 Aufzuege ab 10 Geschossen), KF = Aussenwand
+  (Wandstaerken 0.42 Aussen / 0.25 Trennwand / 0.12 Zimmer) + Innenwaende.
+- Flaecheneffizienz-Ampel (Zelle): **KF/GF < 0.18 effizient · 0.23 normal · > 0.30 klein/
+  ineffizient**. Kompaktheits-Faktor 1-5 (schmal/klein → kompakt/gross) skaliert die Wandanteile.
+- **Skalenfaktor Erstellungskosten** (groessere Einheiten guenstiger je m2): 200 m2 → 1.11 …
+  2'000 m2 → 1.04. **Kostenniveau-Skala**: guenstig 0.9 · durchschnittlich 1.0 ·
+  ueberdurchschnittlich 1.1 · gehoben 1.35 · luxurioes 2.1; **Hochhausfaktor ×1.1** wenn
+  GF/Geschoss > 9.9. Faktor BKP 2 → BKP 1-9 = **1.13**.
+
+**Residualwert-Block im Pre-Check** (gleiche Kette wie Einblatt-Tool: Ertragswert =
+Nettoertrag/Diskont; Landwert = Ertragswert − Baukosten − Zeitwert-Abzinsung), aber mit eigenen
+Parametern in den Engine-Zellen: struktureller Leerstand 1 %, Betriebskosten 5 %, Instandhaltung
+13 CHF/m2 HNF, **Instandsetzung 24 CHF/m2 HNF** (Einblatt-Tool: 21), Anfangsleerstand 1. Jahr
+**10 %**, Jahre bis Fertigstellung 3, Zeitwert-Abzinsung 2 %.
+
+### JANS-Kalibrierung vs. WP — die einzigen zwei geaenderten Zellen
+
+Der Vergleich der WP- und JANS-Pre-Check-Dateien zeigt **exakt zwei** rekalibrierte Zellen; alle
+uebrigen Parameter sind identisch:
+
+| Parameter | WP-Default | JANS-Default (Pre-Check) | JANS reale Projektpraxis (MA Thalwil, Run 5) |
+|---|---|---|---|
+| **Risiko-/Gewinnanteil** | 7 % | **12 %** | 8 % |
+| **Diskontierung** | 2.4 % | **2.45 %** | 2.70 % |
+
+Lesart (ehrlich, drei Datenpunkte): Das **Einblatt-Tool** laesst JANS auf WP-Defaults (7 % /
+2.5 %). Im **Pre-Check-Tool** ist ein **12 %-Risiko-/2.45 %-Diskont** hinterlegt — ein
+konservativerer Schnellcheck-Ansatz (hoehere Marge druckt den zahlbaren Landwert). In den
+**reifen realen Faellen** (LB/MA) rechnet JANS 8 % Risiko / 2.70 % Diskont ([[ertragswert-dcf]],
+JANS-Bewertungskonvention). Der 12 %-Wert im Pre-Check ist als **hinterlegter Tool-Default**
+zu lesen (worst-case-Voreinstellung), nicht als die gelebte JANS-Konvention — die realen Saetze
+sind die belastbaren.
+
+### Sensitivitaets-Formel (beide Tools — validiert den CS-Break-Even-Generator T18)
+
+Die automatische Sensitivitaetstabelle rechnet den Residualwert als Funktion von Diskont-
+Verschiebung (Bps) und Werttreiber-Delta:
+```
+RW(δ, Δbps) = ROUND( (1+δ) · Nettoertrag / (Diskont + Δbps/10000) − (Baukosten+Risiko) , −4 )
+```
+Zeilen variieren Nettoertrag ±10/15 %, struktureller Leerstand, Erstellungskosten ±10/20 %;
+Spalten die Diskontierung in Bps. Das ist **exakt** das in [[ertragswert-dcf]]/CS-Methodik
+formalisierte Break-Even-Schema (T18) — die Excel-Zellen bestaetigen die Herleitung aus der
+Quelle: der Wert reagiert linear im Zaehler (Ertrag/Kosten) und hyperbolisch im Nenner (Diskont),
+daher die bekannte Merkzahl −20 Bps → +16 % Marktwert.
+
 ## DXMA-Marktwertschaetzung auf einem A4-Blatt (DXMA-Folien S. 34/35)
 
 N. Lehmann/DXMA verdichtet die ganze Residualwert-/Landwertrechnung auf **ein A4-Blatt** mit
@@ -198,8 +302,9 @@ ueberproportional steigen — Flaecheneffizienz und Kostendisziplin schlagen Mie
 ## Anwendung im JANS-Workflow
 
 - **Tool:** `Immo-02-P23D-Residualwert_Projektbewertung.xlsx` (Wuest-Vorlage, JANS-Variante)
-  und das `Pre-Check_Tool` fuer den Schnellcheck. Formel-Logik der Excel-Tools ist noch
-  nicht reverse-engineered → `wiki/wissensluecken.md`.
+  und das `Pre-Check_Tool` fuer den Schnellcheck. **Formel-Logik der Excel-Tools ist mit
+  Run 15 (2026-07-08) auf Zellebene reverse-engineered** — siehe Sektion «Excel-Tool
+  Formel-Logik (D4)» oben (Rechenkette, Default-Parameter, JANS-Kalibrierung).
 - **Szenarien:** Projekte werden in `hoch/` und `tief/` gerechnet (Best-/Worst-Case) —
   siehe Ordnerstruktur der RW-Projekte. Das ist die Sensitivitaet (CS).
 - **Bezug Machbarkeit:** Das Bauvolumen (aGF/m3) kommt aus dem Skill `machbarkeit`; die
@@ -223,7 +328,10 @@ Resultat — deshalb immer als Bandbreite (hoch/tief), nie als Punktwert ausweis
 
 - JANS-eigene Margen-/Finanzierungspraxis (Zins/Laufzeit, Vermarktungs-%) — WP-Richtwerte
   sind jetzt belegt, die buerospezifische Kalibrierung fehlt (D5).
-- Reverse-Engineering der Excel-Tool-Logik (Zellformeln; die Eingabe-/Resultatstruktur ist
-  ueber die Kursfolien S. 29-66 dokumentiert, die Formeln selbst noch nicht) (D4).
+- ✓ 2026-07-08 (Run 15): **Reverse-Engineering der Excel-Tool-Zellformeln abgeschlossen (D4)** —
+  Rechenkette, Default-Parameter beider Tool-Familien, Gewerbe-5.5-%-Regel, HNF-Herleitung im
+  Pre-Check und die JANS-Kalibrierung (Pre-Check 12 %/2.45 %; Einblatt-Tool = WP unveraendert).
+  Siehe Sektion «Excel-Tool Formel-Logik (D4)». Offen bleibt nur die buerospezifische Margen-/
+  Finanzierungspraxis (D5, Bring-Schuld Raphael).
 - ✓ 2026-06-09: Wuest-Kurs Modul 1 (S. 13-72) vollstaendig eingearbeitet (Lauf 1 des
   Trainings; Schema, Risiko-/Gewinnrichtwerte, Abzuege, Tool-Defaults, Sensitivitaet).

@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-07-04
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8)]
+last_updated: 2026-07-08
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8), BFS Baupreisindex April 2026 (neue Basis Okt-2025 = 100 → 100.6, +1.0 % YoY; Web BFS/fachbau.ch 18.06.2026, Run 15) + Marktpuls-Web-Check 08.07.2026 (SNB 0.00 %/Referenzzins 1.25 % unveraendert, Run 15)]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -216,6 +216,13 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
   grösste regionale Anstiege Ostschweiz +1.0 %, Genferseeregion +0.8 %). Wohnungsbau wächst
   (tiefe Zinsen, hohe Nachfrage), Wirtschaftsbau stagniert. → Erstellungskosten-Benchmarks
   weiter leicht anziehend ([[realwert-sachwert]]).
+- **⚠ Neu-Basierung + April-2026-Stand (Web-Check Run 15, 08.07.2026):** Das BFS hat den
+  Baupreisindex auf **neue Basis Oktober 2025 = 100** umgestellt. Erster Stand der neuen Reihe:
+  **April 2026 = 100.6** (+0.6 % Halbjahr; **+1.0 % YoY** Baugewerbe). Im Hochbau treiben «Rohbau 1»
+  (Mauerarbeiten), «Rohbau 2» (Holz-Metall-Fenster) und «Ausbau 1» (Innentüren Metall). Der
+  YoY-Anstieg (+1.0 %) liegt auf dem Niveau der Vorperiode → Bauteuerung bleibt moderat, kein
+  Kostenschub. Quelle: BFS/fachbau.ch, 18.06.2026. (Umrechnung alte→neue Basis: Faktor ~0.86,
+  116.2 alt entspricht ~100 neu.)
 
 ## Bueromarkt Zuerich (hbre/Savills 2024) — Geschaeftsflaechen-Kontext
 
@@ -331,6 +338,13 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
   02.09.2025, per 02.06.2026 bestaetigt, naechste Publ. 01.09.2026), 10-j Swap-Prognose 0.60→0.80 %
   (12 Mt). Neu die **WP-2026-Segment-Prognose Geschaeftsflaechen** (Buero +0.5 % / Detailhandel
   −1.5 %) → stuetzt die Gewerbe-Feinabstufung ([[ertragswert-dcf]] D3-Rest).
+- ✓ 2026-07-08 (Run 15): **Marktpuls-Web-Check — Zins-Anker unveraendert, ein neuer Bauteuerungs-
+  Stand.** SNB-Leitzins **0.00 %** (SNB erwartet Halten bis Ende 2026), Referenzzins **1.25 %**
+  (BWO-Bestaetigung 02.03.2026; Erwartung: unveraendert bis mindestens Ende 2026, keine Aenderung
+  vor Mitte 2027) — beide gegenueber Run 13/14 unveraendert. **Neu: BFS-Baupreisindex auf Basis
+  Okt-2025 = 100 umgestellt; erster Stand April 2026 = 100.6 (+1.0 % YoY)** → Bauteuerung moderat,
+  kein Kostenschub (Detail oben, Baupreisindex-Zeile). Keine Anpassung der Diskont-/Kapitalisierungs-
+  saetze noetig.
 - T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
   **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
   2022/23 (historische Anker).

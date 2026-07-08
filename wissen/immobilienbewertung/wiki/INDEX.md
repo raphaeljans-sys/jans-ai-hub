@@ -6,7 +6,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 ## Verfahren (Kern)
 
 - [[bewertungsverfahren-ueberblick]] — die vier Verfahren + Marktwert-Synthese · *established*
-- [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern) · *established*
+- [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern; Excel-Tool-Formel-Logik D4 reverse-engineered: Rechenkette, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %) · *established*
 - [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %, Gewerbe-Feinabstufung je Segment), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Ertragsmodell (Kosten-Fall Herosé + Investoren-Fall SenioResidenz ~5.3 % Yield, Pflegeplatzkosten-Struktur) · *established*
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
 - [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025, Healthcare-Kostenband JANS-8-Objekt-Referenzset 2'623-4'250 CHF/m2 GF / 273'000-780'000 CHF/PZ + Spital CRB) · *established*

@@ -12,8 +12,8 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 |---|---|---|---|---|---|
 | Wuest-Kurs "Immobilien entwickeln" | `03 KNOW-HOW/05 Residualwert/Folien WuestPartner/Immo_02_P23D_Praesentation_Nextcloud.pdf` (236 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-236, Training-Run 1 am 2026-06-09; Modul 4 = nur Titelblatt, Inhalt im DXMA-PDF) | residualwertmethode, ertragswert-dcf, realwert-sachwert, nutzungskonzepte, investorenmarkt-makro, vergleichswert-hedonisch, bewertungsverfahren-ueberblick |
 | DXMA Erfolgsfaktoren | `03 KNOW-HOW/05 Residualwert/Folien DXMA/Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf` (37 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-37, Training-Run 2 am 2026-06-10): 6 Faktoren, Aufwertungsgewinn-Prinzip + 10 Referenzfaelle, AZ-Optimierungsformel, A4-Bewertungsblatt | erfolgsfaktoren-wettbewerb, nutzungskonzepte, residualwertmethode |
-| Pre-Check-Tool Wuest | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/wp/Immo-02-P23D-Pre-Check_Tool_WuestPartner.xlsx` | XLSX | 2023 | offen | residualwertmethode |
-| Residualwert-Tool JANS | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Residualwert_Projektbewertung.xlsx` | XLSX | 2024 | offen | residualwertmethode, ertragswert-dcf |
+| Pre-Check-Tool Wuest + JANS | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/{wp,jans}/Immo-02-P23D-Pre-Check_Tool_*.xlsx` | XLSX | 2023/24 | **eingearbeitet** (Run 15 2026-07-08): Zellen ausgelesen (unzip+XML-Parser) — 2 Blaetter Cover + «AZ-HNF Tool»-Engine (HNF-Herleitung aus Planungsziffer: HNF = GF − VF − KF − FF − NNF; Effizienz-Ampel KF/GF 0.18/0.23/0.30; Kompaktheit 1-5; Skalen-/Kostenniveau-Faktoren 0.9-2.1; Hochhausfaktor 1.1). **JANS-Kalibrierung = 2 Zellen: Risiko 7 %→12 %, Diskont 2.4 %→2.45 %; sonst identisch WP.** Residualwert-Kette + Sensitivitaets-Formel RW(δ,Δbps)=(1+δ)·Nettoertrag/(Diskont+Δbps/10000)−Baukosten | residualwertmethode, ertragswert-dcf |
+| Residualwert-Tool «Berechnung» Wuest + JANS | `03 KNOW-HOW/05 Residualwert/Exel Tabelle/{wp,jans}/Immo-02-P23D-Residualwert_Projektbewertung.xlsx` | XLSX | 2023/24 | **eingearbeitet** (Run 15 2026-07-08): einblaettriges Lehrtool. **JANS-Datei = formel- UND default-identisch mit WP** (nur Kopfzelle «JANS»). Belegte Kette Soll-Ertrag→Nettoertrag→Ertragswert(/Diskont)→Residualwert−Abzuege; Defaults Diskont 2.5 %/Risiko 7 %/Betriebsk. 5 %/Leerstand 1 %/IH 13/IS 21 CHF-m2HNF; Zeitwert 2 %×3 J; **Gewerbe-Miete = 5.5 % der Erstellungskosten**; Wohnungsmix HNF 35-130/Effizienz 0.73-0.80/BK 6000-5100 CHF-m2HNF/Miete 1100-2450 | residualwertmethode, ertragswert-dcf |
 | Kursnotizen (handschriftlich) | `03 KNOW-HOW/05 Residualwert/Kursnotizen/IMG_7064-7067.jpeg` | Foto | 06.2023 | **eingearbeitet** (Run 10 2026-06-28): Anfangsrendite=Mietertrag/Kaufpreis, Residualwert ~30 % Land / 8 % Risikomarge, Mehrwertabgabe Reinbau 25 %, WP-Pre-Check-Tool-Layout (IMG_7067 Fotolayout, D4-Teilbeleg ohne Zahlen) | residualwertmethode, ertragswert-dcf |
 | Schaetzungsanleitung Kap. 5 | `03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` (41 S.) | PDF | Stand 2003 | **vollständig eingearbeitet** (Run 2: Tab. 2/3/6/7/8/9/10/11/21/22/23; Run 3 2026-06-12: Tab. 12 Nutzflächen, Tab. 13 Raumeinheiten, Tab. 14/15 Mietkorrektur, Tab. 25-28 Gastgewerbe). Tab. 29/30 Punktierung quergelesen | realwert-sachwert, lageklasse-landwertanteil, ertragswert-dcf, flaechendefinitionen-sia, bewertungsverfahren-ueberblick |
 | Hedonik-Beispielreport | `03 KNOW-HOW/05 Hedonistische_Berechnungsweise/Standortinformation_Beispiel_Report.pdf` (13 S., WP Langenthal 21.06.2023) | PDF | 06.2023 | **eingearbeitet** (Run 3 2026-06-12): WP-Standortreport-Aufbau (Quantil-Preisspektren Wohnen/Geschäft + Bauland residualmodelliert + Datengrundlagen-Anhang) → vergleichswert-hedonisch | vergleichswert-hedonisch |
@@ -58,6 +58,22 @@ Anker zur **konsolidierten JANS-Diskontsatz-Tabelle** zusammengefuehrt (Bottom-u
 real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-j Bundesobligation
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
+
+**Stand Run 15 (2026-07-08):** **D4 geschlossen — die vier Residualwert-Excel-Tools auf Zellebene
+reverse-engineered.** Die bisher als `offen`/freigabegebunden markierten `.xlsx`-Tools (WP + JANS,
+je Pre-Check + Residualwert-Berechnung) sind lesbar (TCC-Blockade betrifft diesen SharePoint-Pfad
+nicht) und wurden per unzip + XML-Zellparser vollstaendig ausgelesen. Kernbefunde: (1) das
+einblaettrige «Residualwert Berechnung»-Tool ist bei JANS **formel- und default-identisch mit WP**
+(nur Label); (2) die JANS-Kalibrierung sitzt ausschliesslich im **Pre-Check-Tool** und besteht aus
+**genau zwei** geaenderten Zellen (Risiko 7 %→**12 %**, Diskont 2.4 %→**2.45 %**); (3) die
+Gewerbe-Miete ist als **5.5 % der Erstellungskosten** kostengekoppelt; (4) die Pre-Check-Engine
+leitet die **HNF ohne Grundrisse** aus einer Planungsziffer ab (HNF = GF − VF − KF − FF − NNF,
+Effizienz-Ampel KF/GF 0.18/0.23/0.30); (5) die Sensitivitaets-Zellformel bestaetigt exakt den
+CS-Break-Even-Generator (T18). Eingearbeitet in [[residualwertmethode]] (neue Sektion «Excel-Tool
+Formel-Logik (D4)») + [[ertragswert-dcf]]. Zusaetzlich Marktpuls-Web-Check: Zins-Anker unveraendert,
+**BFS-Baupreisindex neu Basis Okt-2025 = 100, April 2026 = 100.6 (+1.0 % YoY)** → [[investorenmarkt-makro]].
+Offen bleibt nur D5 (buerospezifische Margen-/Finanzierungspraxis, Bring-Schuld Raphael) + D8
+(JANS-Kennwerte-DOCX) + Emilienheim-Flaechenkennwerte.
 
 **Stand Run 14 (2026-07-06):** **T19 geschlossen — JANS-Healthcare-Kennwert-Raster befuellt.** Drei
 bisher ungelesene Quellen aus der Healthcare-/WALD-Bibliothek ingestiert: (1) JANS' eigenes gefuelltes
