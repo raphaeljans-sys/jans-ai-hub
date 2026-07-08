@@ -3,11 +3,11 @@ name: 14-nutzungsdichte-ausnuetzung
 kapitel: "14 — Nutzungsdichte und Nutzungsart"
 band: 2
 seiten: "919-992 (Ausnuetzung, massgebl. Grundstuecksflaeche, Ausnuetzungsuebertragung, erhoehte Nutzungsziffern, BMZ-Detail/Witterungsbereich, Freiflaechenziffer, Nutzungsart komplett, Wohnanteil, Harmonisierungsvorlage komplett)"
-shots: "462-500 (distilliert: 462-472, 477, 478, 482-500; offen nur 473-476, 479-481)"
-paragraphen: ["§ 49 PBG", "§ 49a PBG", "§ 50 PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 58 PBG", "§ 72 PBG", "§ 251 PBG", "§ 253 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 269 PBG", "§ 276 PBG", "§ 5 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 18 ABV", "§ 11 nABV", "§ 13 nABV", "Art. 22 RPG", "Art. 646 ZGB"]
-status: emerging
+shots: "462-500 (distilliert: 462-476, 477-500; Kap. 14 damit VOLLSTAENDIG bis Shot 500 = Beginn Kap. 15)"
+paragraphen: ["§ 49 PBG", "§ 49a PBG", "§ 50 PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 58 PBG", "§ 72 PBG", "§ 251 PBG", "§ 253 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 269 PBG", "§ 273 PBG", "§ 276 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 5 ABV", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 18 ABV", "§ 27 ABV", "§ 11 nABV", "§ 13 nABV", "§ 20 BBV II", "Art. 22 RPG", "Art. 646 ZGB"]
+status: established
 gelesen: 2026-06-09
-last_updated: 2026-06-09
+last_updated: 2026-07-08
 ---
 
 # Kap. 14 — Nutzungsdichte und Nutzungsart (Ausnuetzung)
@@ -66,6 +66,91 @@ Vollgeschosse` (§ 255 Abs. 2 PBG).
 - **Ueberbauungsziffer/Vorspruenge** (S. 960 f.): oberirdische geschlossene Vorspruenge bis 1.5 m
   Tiefe sowie Balkone als Abzug; Erker/Laubengaenge bis Drittel der Fassadenlaenge privilegiert
   (§ 256 Abs. 2 PBG, Anhang ABV).
+
+## Anrechenbare Geschossflaeche im Detail — Raeume, «verwendbar», Erschliessung (14.1.5, § 255 PBG / § 9-10 ABV, S. 940-957)
+
+Dies ist der **im Bueroalltag haeufigste Streitpunkt der AZ**: welche Raeume zaehlen zur
+anrechenbaren Geschossflaeche? Der Detailkatalog (schliesst die frueher offene «§-10-ABV-Luecke»):
+
+- **Kriterium «dauernder Aufenthalt»** (14.1.5.3, § 255 Abs. 1 PBG, S. 940): Anrechenbar sind alle
+  Raeume, die dem Wohnen/Arbeiten **oder sonst dem dauernden Aufenthalt** dienen. Ausschlag gibt
+  die **Art** des Raums (Sachzweck / Eignung fuer menschliche Taetigkeit), **nicht** die Dauer der
+  Benuetzung — daher zaehlen auch Ausstellungs-, Sport- oder Entspannungsraeume. **Nicht** dem
+  dauernden Aufenthalt dienen: gewerbliche Lagerraeume (unabhaengig vom Geschoss, BEZ 1991 Nr. 2/18),
+  Wasch-/Trockenraeume, Heizraeume, Maschinenraeume, Lift-/Ventilations-/Klimaanlagen, Einstellraeume
+  fuer Motorfahrzeuge/Velos/Kinderwagen/Kehricht, Geraetehaeuser und Besondere Gebaeude (auch wenn
+  sie die Masse von § 49 Abs. 3 PBG ueberschreiten) — reiner Sachzweck (S. 940).
+- **Kriterium «verwendbar»** (14.1.5.4, § 255 Abs. 1 PBG, S. 942): Ein Raum ist auch dann
+  anrechenbar, wenn er nach den Angaben der Bauherrschaft **keinem** Wohn-/Arbeitszweck dient, aber
+  als solcher **verwendbar** ist — d. h. die Eignung ohne wesentliche bauliche Aenderung
+  herbeigefuehrt werden kann (RB 2000 Nr. 100). Massgebend ist die **objektive Eignung**, nicht die
+  Bezeichnung im Plan oder der Parteiwille (BEZ 2005 Nr. 37). Nur wo die Bauherrschaft ausdruecklich
+  eine Nutzung mit dauerndem Aufenthalt nachsucht (z. B. Hobbyraum), ist auf die deklarierte
+  Nutzungsabsicht abzustellen (BEZ 2014 Nr. 30).
+- **Fallrecht «anrechenbar»** (S. 942 f.): Raumhoehe 2.2 m statt 2.3 m + Fensterflaeche 8.5 % (aeltere
+  Bauten, BEZ 1985 Nr. 22); Galerie mit 1.6 m Raumhoehe als Stilelement; Hobbyraum im UG 32 m² mit
+  Belichtung/WC/Dusche; Bastelraum DG; Bastelraeume UG mit niveaugleichem Zugang zur Wohnung; als
+  «Reduits» bezeichnete Raeume im EG eines MFH (private Bueroarbeitsplaetze); ein direkt vom Wohnraum
+  zugaengliches «Reduit» als Ankleide (VB.2008.00012/00135/00272; BEZ 2005 Nr. 37).
+- **Fallrecht «nicht anrechenbar»** (S. 944 f.): frueherer Archivraum (ungenuegende Fenster/Sanitaer,
+  VB.1991.0003); reine Lager-/Archivraeume UG (VB.1996/0196); Waschtrocknungsraum mit kleinen
+  Lichtschaechten (VB.1986.0025); ein nur mit **Glasbausteinen** belichteter, nicht oeffenbarer Raum
+  (BEZ 2001 Nr. 4); (Hobby-)Raeume mit nur ~50 cm tiefem, 1.5 m hohem Schacht + nur ueber Treppenhaus
+  erschlossen (VB.2003.00364); Reduit unter Dachschraege, Belichtung 0.5 m² / Flaeche 6 m² / Hoehe
+  1.8 m (VB.2008.00012); Einstellraum 9.6 m² / 2.2 m ohne direkte Wohnraumerschliessung, unbeheizt,
+  nicht isoliert (VB.2011.00389).
+- **Verhinderung verbotener Nutzung** (S. 945): Eignet sich ein als «Estrich/Waschkueche» deklarierter
+  Raum offensichtlich zur (verbotenen) Wohnnutzung, ist diese durch **bauliche Massnahmen** zu
+  verhindern (nur so wird die Eignung behoben) — eine blosse Grundbuch-Anmerkung (Nutzungsrevers)
+  genuegt nur in Grenzfaellen, wo Missbrauch nicht auf der Hand liegt (BEZ 2010 Nr. 37). Musterklausel
+  Nutzungsrevers (S. 946): «Die … bewilligten Raeume im Dachgeschoss … duerfen nicht zu Wohn-,
+  Schlaf- oder Arbeitszwecken genutzt werden.»
+- **Erschliessungsflaechen** (14.1.5.5, § 255 Abs. 1 PBG, S. 946 f.): «dazugehoerige»
+  Erschliessungsflaechen (Gaenge, Vorraeume, Nischen, Schalter-/Empfangshallen, Windfaenge — auch
+  unbeheizt) sind anrechenbar, **soweit sie zu anrechenbaren Raeumen fuehren** (keine Unterscheidung
+  Haupt-/Nebenerschliessung, BEZ 2017 Nr. 25). **Treppen** werden mit den Massen des **ganzen
+  Treppenhauses** je Geschoss angerechnet (Ausnahme reine **Not-/Feuertreppen**); ein von einem
+  Geschoss ins andere fuehrender Lauf zaehlt **je zur Haelfte** den beiden Geschossen (RB 2005 Nr. 70).
+  **Lifte**: Schachtflaeche je Geschoss mit anrechenbaren Raeumen. Fuehrt die Erschliessung
+  **ausschliesslich** zu nicht anrechenbaren Raeumen (z. B. Hauseingang im UG ohne anrechenbare
+  Raeume), ist sie **nicht** anrechenbar. Offene, nicht ueberdachte Aussentreppen: nicht anrechenbar.
+- **Ausdruecklich nicht anrechenbare Nebenraeume** (14.1.5.9, § 255 Abs. 3 PBG / § 10 ABV, S. 954 f.):
+  Der Verordnungsgeber hat drei Raumgruppen von der AZ ausgenommen —
+  1. der Freizeit dienende **Gemeinschaftsmehrzweckraeume** von MFH/EFH-Siedlungen, soweit ≥ 20 m²
+     und bei groesserem Ausmass **2 %** der anrechenbaren Geschossflaeche nicht uebersteigend;
+  2. der **Arbeitsplatzgestaltung** dienende Nebenraeume (Erfrischungsraeume, kleine Kuechen,
+     Kleiderraeume, Garderoben, Duschen) bis **2 %** der anrechenbaren Geschossflaeche;
+  3. **verglaste Balkone, Veranden und Vorbauten ohne heiztechnische Installationen**, soweit sie dem
+     Energiesparen dienen, bis **10 %** der Summe aller anrechenbaren Geschossflaechen (§ 10 lit. c ABV).
+  Bezugsgroesse ist die **anrechenbare** Geschossflaeche (ohne DG/UG). Ist ein Vorbau **groesser** als
+  die Schwelle, wird nur die **Mehrflaeche** (nicht der ganze Vorbau) angerechnet (S. 957).
+- **Verglaste Vorbauten / Wintergaerten (AZ)** (14.1.5.10, § 10 lit. c ABV, S. 955-957): privilegiert
+  nur, wenn (a) der Vorbau **ueber die Hauptfassaden vorspringt** (nicht innerhalb des Baukoerpers,
+  VB.2008.00012), (b) er den angrenzenden Wohn-/Arbeitsraeumen **untergeordnet** ist (Groesse/Lage),
+  und (c) er **«dem Energiesparen dient»**: nach den Waermedaemmvorschriften 2009 muss der
+  Heizenergiebedarf des Gebaeudes bei Neubauten ≥ **10 %** unter der Normalanforderung liegen bzw. die
+  Energiekennzahlen nach Tabelle 10 eingehalten sein — sonst zaehlt der Vorbau **vollumfaenglich** zur
+  AZ. **Keine Heizinstallation** zulaessig (auch keine Boden-/Elektroheizung); eine auf ≤ ~4 °C
+  ausgelegte **Frostschutzheizung** macht den Wintergarten zum unbeheizten Pufferraum (dann Daemmperimeter
+  an der Aussenhuelle, S. 957).
+- **§ 10 Abs. 2 altABV als Auslegungshilfe** (S. 952): Raeume/Raumteile mit **lichter Hoehe < 1.2 m**
+  in Dachgeschossen gelten als nicht «verwendbar»; die 1992 aufgehobene Norm dient weiterhin als
+  Auslegungshilfe des Begriffs «verwendbar» (BEZ 2011 Nr. 15).
+
+### Untergeschosse als Vollgeschoss — § 9 ABV (S. 952 f.)
+
+- **§ 9 ABV, 2. Halbsatz:** Untergeschosse, die **mehrheitlich ueber dem gewachsenen Boden** liegen,
+  gelten fuer die AZ-Berechnung als **Vollgeschosse** (und sind damit voll anrechenbar) — dies wirkt
+  der ungewollten Verdichtung durch DG-/UG-Privilegierung entgegen (Weisung RR 5.8.1992). «Mehrheitlich»
+  bezieht sich auf das **Volumen**; die **Betondecke** zaehlt zum UG, der **Fertigboden** des darueber
+  liegenden Geschosses zu jenem (BEZ 2009 Nr. 63; VB.2008.00163). *needs-verification:* Die
+  Baurekurskommission I hielt § 9 ABV insoweit fuer mit § 255 PBG unvereinbar/kompetenzueberschreitend
+  (BEZ 1995 Nr. 24; BEZ 2011 Nr. 23) — viele Gemeinden wenden die Bestimmung faktisch nicht mehr an;
+  in der IVHB-angepassten neuen Fassung ist der Passus gestrichen. **Vor Anwendung kommunale Praxis pruefen.**
+- **DG/UG, die ein Vollgeschoss ersetzen** (§ 276 Abs. 2 PBG, S. 953): Werden zulaessige Vollgeschosse
+  durch DG/UG ersetzt (z. B. statt 2 VG + 1 DG nur 1 VG + 2 DG), sind die Raeume jenes Geschosses **voll
+  anrechenbar**, das naeher bei den Vollgeschossen liegt (§ 9 ABV 1. Halbsatz; BEZ 1988 Nr. 36). Diese
+  Konstellation bleibt auch nach der Harmonisierungsvorlage anwendbar.
 
 ## Baumassenziffer im Detail (14.1.7, § 258 PBG, S. 964-971)
 
@@ -260,10 +345,17 @@ bewahrenden Anteil.
 ## Offene Punkte / zu verifizieren
 
 - Exakter Wortlaut § 255 Abs. 2 + § 276 PBG (aktuelle Fassung) gegen amtlichen Volltext
-  `wissen/baurecht/raw/260607_amtlich_zh_pbg.md` abgleichen.
-- § 10 ABV (Liste anrechenbarer Raeume) und § 13 ABV im Detail distillieren (eigene Seiten).
+  `wissen/baurecht/raw/260607_amtlich_zh_pbg.md` abgleichen (Modell D).
 - Vollgeschoss-/Dachgeschoss-Abgrenzung (§ 276 PBG) → Kap. 16 distillieren und [[backlink]].
-- Mischrechnungsverbot (Verbot der Quervergueterung verschiedener Ziffern) noch nicht
-  belegt — gezielt in den Restseiten Kap. 14 (Shots 486-495) suchen.
-- **Erledigt diesem Lauf:** massgebliche Grundstuecksflaeche im Detail, Ausnuetzungsuebertragung,
-  erhoehte Nutzungsziffern, Nutzungsart/Immissionen, Wohnanteil, Harmonisierungsvorlage.
+- **§ 9 ABV needs-verification:** ob eine Gemeinde die «UG mehrheitlich ueber gewachsenem Boden =
+  Vollgeschoss»-Regel noch anwendet, ist kommunal zu pruefen (Baurekurskommission haelt § 9 ABV fuer
+  kompetenzueberschreitend; in vielen Gemeinden faktisch nicht mehr angewandt; IVHB-Fassung gestrichen).
+- **Mischrechnungsverbot** (Verbot der Quervergueterung verschiedener Ziffern) auf den gelesenen
+  Seiten 940-979 **nicht** als eigene Doktrin genannt — vermutlich in 14.1.6 (kombinierte Ziffern)
+  oder bei der Harmonisierungsvorlage; in einem Erhaltungslauf gezielt nachschlagen.
+- **Erledigt Run 24 (2026-07-08):** anrechenbare Geschossflaeche Detailkatalog (14.1.5.3-5.10),
+  «verwendbar»-Kriterium + Fallrecht, Erschliessungsflaechen/Treppen/Lift (§ 255 Abs. 1),
+  § 9 ABV (UG als Vollgeschoss), § 10 ABV Nebenraumgruppen (2 %/2 %/10 %), Wintergaerten/§ 10 lit. c
+  ABV (70 %-Regel), § 276 Abs. 2 (DG/UG ersetzen VG). **Kap. 14 damit VOLLSTAENDIG.**
+- **Frueher erledigt:** massgebliche Grundstuecksflaeche im Detail, Ausnuetzungsuebertragung,
+  erhoehte Nutzungsziffern, Nutzungsart/Immissionen, Wohnanteil, Harmonisierungsvorlage, BMZ/FFZ.

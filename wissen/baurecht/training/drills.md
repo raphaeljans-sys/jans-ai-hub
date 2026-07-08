@@ -830,3 +830,39 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   sorgfaeltig (i.d.R. gestuetzt auf ein Gutachten) begruendet werden; Massenentlassungen sind unzulaessig
   (VB.2011.00348 / VB.2009.00662; Bd 1, S. 305). Bei entsprechender Zustaendigkeit kann die Inventarentlassung
   mit dem Bauentscheid verfuegt werden (BEZ 2013 Nr. 10). _[2026-07-08]_
+
+## Kap. 14 Teil 2 — Anrechenbare Geschossflaeche (§ 255 / § 9-10 ABV) (Buch-Run 24, 2026-07-08, Bd 2 S. 940-979)
+
+- **F (Modell C):** Nach welchem Kriterium ist ein Raum zur Ausnuetzung anrechenbar — nach seiner
+  Bezeichnung im Plan oder nach etwas anderem? — **A:** Nach der **objektiven Eignung** zum Wohnen/Arbeiten
+  bzw. dauernden Aufenthalt («dient **oder verwendbar**», § 255 Abs. 1 PBG). Auf Bezeichnung/Parteiwille
+  kommt es **nicht** an; «verwendbar» heisst: Eignung ohne wesentliche bauliche Aenderung herbeifuehrbar
+  (RB 2000 Nr. 100; BEZ 2005 Nr. 37). _[2026-07-08]_
+- **F (Modell C):** Welche drei Nebenraumgruppen nimmt § 10 ABV (§ 255 Abs. 3 PBG) ausdruecklich von der
+  AZ aus — mit welchen Prozentschwellen? — **A:** (1) Gemeinschafts-Mehrzweckraeume ≥ 20 m², max. **2 %**
+  aGF; (2) Arbeitsplatz-Nebenraeume max. **2 %** aGF; (3) verglaste Balkone/Veranden/Wintergaerten ohne
+  Heizung, energiesparend, max. **10 %** aGF (§ 10 lit. c ABV). Bezugsgroesse ist die **anrechenbare**
+  Geschossflaeche (ohne DG/UG); ueber der Schwelle zaehlt nur die **Mehrflaeche**. _[2026-07-08]_
+- **F (Modell C):** Ab wann ist ein verglaster Wintergarten fuer die AZ privilegiert (nicht anrechenbar)? —
+  **A:** Kumulativ: (a) springt **ueber die Hauptfassade** vor (nicht innerhalb des Baukoerpers), (b) den
+  angrenzenden Raeumen **untergeordnet**, (c) **«dem Energiesparen dienend»** — Heizenergiebedarf des
+  Gebaeudes ≥ 10 % unter Norm bzw. Energiekennzahl Tab. 10 eingehalten, und **keine Heizung** (eine
+  ≤ 4 °C-Frostschutzheizung macht ihn zum unbeheizten Pufferraum). Sonst zaehlt er **voll** zur AZ
+  (§ 10 lit. c ABV; VB.2008.00012; Bd 2 S. 955-957). _[2026-07-08]_
+- **F (Modell C):** Wie werden Treppen und Lifte bei der anrechenbaren Geschossflaeche behandelt? — **A:**
+  Treppen mit den Massen des **ganzen Treppenhauses** je Geschoss (Ausnahme reine Not-/Feuertreppen); ein
+  Lauf zwischen zwei Geschossen zaehlt **je zur Haelfte** (RB 2005 Nr. 70). Lift: Schachtflaeche je Geschoss
+  mit anrechenbaren Raeumen. Fuehrt die Erschliessung **ausschliesslich** zu nicht anrechenbaren Raeumen,
+  ist sie **nicht** anrechenbar (§ 255 Abs. 1 PBG; BEZ 2017 Nr. 25). _[2026-07-08]_
+- **F (Modell C):** Was besagt § 9 ABV zu Untergeschossen und welche Vorsicht ist geboten? — **A:** Ein UG,
+  das **mehrheitlich (dem Volumen nach) ueber dem gewachsenen Boden** liegt, gilt fuer die AZ als
+  **Vollgeschoss** und ist voll anrechenbar. **Vorsicht:** Die Baurekurskommission haelt § 9 ABV fuer
+  kompetenzueberschreitend (BEZ 1995 Nr. 24 / 2011 Nr. 23); viele Gemeinden wenden ihn faktisch nicht mehr
+  an, in der IVHB-Fassung ist er gestrichen → **kommunale Praxis pruefen** (Bd 2 S. 952 f.). _[2026-07-08]_
+- **F (Modell A · Frage→Beleg):** Ein Bauherr deklariert einen 12 m² grossen, gut belichteten Raum im UG mit
+  Zugang direkt von der Wohnung als «Keller». Zaehlt er zur Ausnuetzung? — **A:** **Voraussichtlich ja.**
+  Massgebend ist die objektive **Eignung**, nicht die Bezeichnung (BEZ 2005 Nr. 37). Ist der Raum nach
+  Belichtung (≥ 1/10, § 302), Raumhoehe (≥ 2.4 m, § 304) und Erschliessung zum Aufenthalt geeignet, ist er
+  **anrechenbar**; die Deklaration «Keller» schuetzt nicht. Soll er wirklich nutzungsbeschraenkt bleiben,
+  ist die Eignung **baulich** zu beseitigen — eine blosse Grundbuch-Anmerkung (Nutzungsrevers) genuegt nur
+  in Grenzfaellen (BEZ 2010 Nr. 37; Bd 2 S. 942-946). _[2026-07-08]_
