@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-07-04
+last_updated: 2026-07-08
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -507,7 +507,7 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 489 | 2 | ~973 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.43.jpg` |  |
 | 490 | 2 | ~975 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.44.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 491 | 2 | ~977 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.45.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 492 | 2 | ~979 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.47.jpg` |   |
+| 492 | 2 | ~979 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.47.jpg` |  |
 | 493 | 2 | ~981 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.48.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 494 | 2 | 980 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.50.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 495 | 2 | ~985 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.51.jpg` |  |
