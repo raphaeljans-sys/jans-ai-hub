@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.07.2026 06:22:51
+Stand: 08.07.2026 06:43:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.07.2026 06:22:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2213f68 energie-training Run 30: GEAK/GEAK Plus (F36) + Fenster-Energieetikette FEA — Register/Report
+- 813ed0c nas-selfcommit: 6 Datei(en) 2026-07-08 06:30

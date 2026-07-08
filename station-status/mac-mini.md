@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.07.2026 06:27:34
+Stand: 08.07.2026 06:37:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:26)
@@ -12,4 +12,4 @@ Stand: 08.07.2026 06:27:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d6ffcb7 energie-training Run 30: echte Umlaute in GEAK-Themenartikel + 2 Destillaten (Korrektur-Harness 🟢)
+- 813ed0c nas-selfcommit: 6 Datei(en) 2026-07-08 06:30
