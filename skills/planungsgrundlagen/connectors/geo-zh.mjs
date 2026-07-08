@@ -177,29 +177,90 @@ async function fetchZonenplan(e, n) {
   return { grundnutzung, grundnutzung_proj, revision_laeuft: grundnutzung_proj.length > 0, es_laerm, layer: NP_LAYER };
 }
 
+// --- Geometrie: senkrechter Abstand Linie<->Parzellengrenze (K5-Rest, planar EPSG:2056) ---------
+// Distanz Punkt->Segment (Fusspunkt geklemmt auf [0,1]).
+function distPointSeg(px, py, ax, ay, bx, by) {
+  const dx = bx - ax, dy = by - ay, l2 = dx * dx + dy * dy;
+  let t = l2 ? ((px - ax) * dx + (py - ay) * dy) / l2 : 0;
+  t = t < 0 ? 0 : t > 1 ? 1 : t;
+  return Math.hypot(px - (ax + t * dx), py - (ay + t * dy));
+}
+function segsIntersect(a, b, c, d) {
+  const o = (p, q, r) => Math.sign((q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0]));
+  return o(a, b, c) !== o(a, b, d) && o(c, d, a) !== o(c, d, b);
+}
+function distSegSeg(s1, s2) {
+  const [a, b] = s1, [c, d] = s2;
+  if (segsIntersect(a, b, c, d)) return 0;
+  return Math.min(
+    distPointSeg(a[0], a[1], c[0], c[1], d[0], d[1]),
+    distPointSeg(b[0], b[1], c[0], c[1], d[0], d[1]),
+    distPointSeg(c[0], c[1], a[0], a[1], b[0], b[1]),
+    distPointSeg(d[0], d[1], a[0], a[1], b[0], b[1]),
+  );
+}
+// Segmentliste aus Esri-rings (Parzelle) bzw. GeoJSON-Geometrie (Linien/Flaechen).
+function ringsToSegs(rings) {
+  const segs = [];
+  for (const r of rings || []) for (let i = 0; i < r.length - 1; i++) segs.push([r[i], r[i + 1]]);
+  return segs;
+}
+function geomToSegs(g) {
+  const segs = [], addLine = (co) => { for (let i = 0; i < co.length - 1; i++) segs.push([co[i], co[i + 1]]); };
+  if (!g) return segs;
+  const t = g.type, c = g.coordinates;
+  if (t === "LineString") addLine(c);
+  else if (t === "MultiLineString") c.forEach(addLine);
+  else if (t === "Polygon") c.forEach(addLine);
+  else if (t === "MultiPolygon") c.forEach((p) => p.forEach(addLine));
+  return segs;
+}
+// Kleinster Abstand zweier Segmentmengen (0 = beruehrt/schneidet); null wenn eine leer.
+function segsDist(A, B) {
+  if (!A.length || !B.length) return null;
+  let min = Infinity;
+  for (const sa of A) for (const sb of B) { const dd = distSegSeg(sa, sb); if (dd < min) min = dd; if (min === 0) return 0; }
+  return min;
+}
+
 // K5: Baulinien + Abstandslinien (Wald/Gewaesser) + Gewaesserraum an einem LV95-Punkt (nur Kt. ZH).
 // Linien liegen typischerweise NEBEN der Parzelle -> default ±150 m. Liefert je Layer die Treffer
 // mit Typ/Zweck/Rechtsstatus. Belegt: Baulinie 0158 (typ_txt/zweck_txt), Abstand 0152/0153
 // (typ_txt + Distanz in typ_bemerkungen), Waldgrenze 0150, Gewaesserraum 0185.
-async function fetchBaulinien(e, n, half = 150) {
+// Ist `parcelRings` (Esri-rings der Parzelle) gesetzt, wird je Treffer der senkrechte Abstand
+// Linie<->Parzellengrenze in Metern gerechnet (`dist_m`, 0 = beruehrt) + je Layer `dist_min_m`.
+async function fetchBaulinien(e, n, half = 150, parcelRings = null) {
+  const parcelSegs = parcelRings ? ringsToSegs(parcelRings) : [];
   const out = {};
   for (const [key, layer] of Object.entries(BAULINIE_LAYER)) {
     try {
       const d = await getJson(ogdWfsUrl(layer, e, n, half));
-      out[key] = (d.features || []).map((f) => {
+      const rows = (d.features || []).map((f) => {
         const p = f.properties || {};
+        const dist = parcelSegs.length ? segsDist(parcelSegs, geomToSegs(f.geometry)) : null;
         return {
           typ: p.typ_txt || p.typ || p.gewaesserraumfestlegung_txt || null,
           zweck: p.zweck_txt || p.zweck || p.art_txt || null,
           bemerkung: p.typ_bemerkungen || p.bemerkungen || null,
           rechtsstatus: p.rechtsstatus || p.rechtsstatus_txt || p.inkraftsetzung_txt || null,
           gemeinde: p.gemeindename || null,
+          dist_m: dist == null ? null : Math.round(dist * 10) / 10,
         };
       });
+      // je Layer nach Abstand aufsteigend (naechste Linie zuerst), wenn Distanz vorhanden
+      if (parcelSegs.length) rows.sort((x, y) => (x.dist_m ?? Infinity) - (y.dist_m ?? Infinity));
+      out[key] = rows;
     } catch { out[key] = []; }
   }
   const total = Object.values(out).reduce((s, a) => s + a.length, 0);
-  return { ...out, treffer: total, radius_m: half };
+  const res = { ...out, treffer: total, radius_m: half, gemessen: parcelSegs.length > 0 };
+  if (parcelSegs.length) {
+    for (const key of Object.keys(BAULINIE_LAYER)) {
+      const ds = out[key].map((r) => r.dist_m).filter((v) => v != null);
+      res[`${key}_dist_min_m`] = ds.length ? Math.min(...ds) : null;
+    }
+  }
+  return res;
 }
 // bevorzugte Datei-Endung je Produkt (stacAssets-Fallback: .tif, sonst erstes Asset)
 const STAC_PREF = { gebaeude: ".dxf.zip", punktwolke: ".laz" };
@@ -269,10 +330,12 @@ async function geocodeAddress(text, plz) {
 // --- Schritt 2: Koordinate -> EGRID + Parzelle ---------------------------------
 async function identifyParcel(east, north) {
   const ext = `${east - 50},${north - 50},${east + 50},${north + 50}`;
+  // returnGeometry=true -> Parzellenpolygon (Esri rings, EPSG:2056) fuer die
+  // senkrechte Abstandsmessung Linie<->Grenze (K5-Rest, --produkt baulinien).
   const url = `https://api3.geo.admin.ch/rest/services/all/MapServer/identify`
     + `?geometry=${east},${north}&geometryType=esriGeometryPoint&sr=2056`
     + `&tolerance=1&imageDisplay=100,100,96&mapExtent=${ext}`
-    + `&layers=all:ch.swisstopo-vd.amtliche-vermessung&returnGeometry=false`;
+    + `&layers=all:ch.swisstopo-vd.amtliche-vermessung&returnGeometry=true`;
   const d = await getJson(url);
   const f = (d.results || [])[0];
   if (!f) return null;
@@ -282,6 +345,7 @@ async function identifyParcel(east, north) {
     parzelle: at.number || at.nummer || null,
     bfs: at.bfsnr || at.bfs_nummer || null,
     gemeinde: at.gemeinde || at.bfs_name || null,
+    rings: (f.geometry && f.geometry.rings) || null,
   };
 }
 
@@ -329,6 +393,7 @@ function isoDate() {
       const p = await identifyParcel(hit.east, hit.north);
       if (!p || !p.egrid) throw new Error(`Kein EGRID an Koordinate (E ${hit.east}/N ${hit.north}). Parzelle manuell pruefen.`);
       Object.assign(result, { egrid: p.egrid, parzelle: p.parzelle, bfs: p.bfs, gemeinde: p.gemeinde });
+      result.parzelle_rings = p.rings || null;
       L(`   -> EGRID ${p.egrid} · Parzelle ${p.parzelle} · BFS ${p.bfs}${p.gemeinde ? " " + p.gemeinde : ""}`);
     }
 
@@ -435,16 +500,17 @@ function isoDate() {
             } else if (prod === "baulinien") {
               if (result.kanton !== "zh") throw new Error(`baulinien ist nur fuer Kt. ZH hinterlegt (Kanton ${result.kanton})`);
               const half = a.radius ? Number(a.radius) : 150;
-              const b = await fetchBaulinien(c.east, c.north, half);
+              const b = await fetchBaulinien(c.east, c.north, half, result.parzelle_rings);
               result.produkte.baulinien = b;
+              const dtxt = (k) => (b.gemessen && b[`${k}_dist_min_m`] != null) ? ` (naechste ${b[`${k}_dist_min_m`]} m)` : "";
               const teile = [
-                b.baulinie.length && `${b.baulinie.length} Baulinie`,
-                b.wald.length && `${b.wald.length} Waldabstand`,
-                b.gewaesser.length && `${b.gewaesser.length} Gewaesserabstand`,
-                b.waldgrenze.length && `${b.waldgrenze.length} Waldgrenze`,
-                b.gewaesserraum.length && `${b.gewaesserraum.length} Gewaesserraum`,
+                b.baulinie.length && `${b.baulinie.length} Baulinie${dtxt("baulinie")}`,
+                b.wald.length && `${b.wald.length} Waldabstand${dtxt("wald")}`,
+                b.gewaesser.length && `${b.gewaesser.length} Gewaesserabstand${dtxt("gewaesser")}`,
+                b.waldgrenze.length && `${b.waldgrenze.length} Waldgrenze${dtxt("waldgrenze")}`,
+                b.gewaesserraum.length && `${b.gewaesserraum.length} Gewaesserraum${dtxt("gewaesserraum")}`,
               ].filter(Boolean);
-              L(`   baulinien (±${half}m): ${teile.length ? teile.join(" · ") : "keine Linien/Abstaende im Fenster"}`);
+              L(`   baulinien (±${half}m${b.gemessen ? ", Abstand gemessen" : ""}): ${teile.length ? teile.join(" · ") : "keine Linien/Abstaende im Fenster"}`);
               if (a.out.length) {
                 const fn = `Baulinien-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
                 for (const dir of a.out) {

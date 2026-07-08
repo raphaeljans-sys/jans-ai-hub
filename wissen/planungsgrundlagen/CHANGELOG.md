@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-08 — Training Run 16 (Kartenportale/PL-01): Connector rechnet senkrechten Abstand Linie↔Parzellengrenze (K5-Rest/E4)
+- Schwerpunkt **Kartenportale** (Rotation waere Brandschutz gewesen, aber PL-03 ist bis 08/2026
+  eingefroren — BSV-2026 → 2027/Marschhalt Crans-Montana; Kartenportale hat Prioritaet und eine
+  konkrete testbare Luecke). **Connector-Schritt: ja.** Quellen: geo.admin `identify`
+  (`returnGeometry=true`, Parzellenpolygon Esri-rings EPSG:2056) + OGD-WFS 0158/0152/0153/0150/0185
+  (Live-Test 2026-07-08).
+- **K5-Rest geschlossen (E4):** der Connector `geo-zh.mjs --produkt baulinien` misst jetzt den
+  **senkrechten Abstand Linie↔Parzellengrenze** statt nur «Linie im ±150-m-Fenster».
+  - `identifyParcel`: `returnGeometry=true` → Parzellenpolygon (Esri-`rings`) neben EGRID.
+  - Geometrie-Helfer (reines JS, keine neue Abhaengigkeit): Punkt-zu-Segment + Segment-Schnitt-Test
+    → **Segment-zu-Segment-Distanz**, planar in EPSG:2056 (metrisch exakt auf lokaler Skala).
+  - `fetchBaulinien(e,n,half,parcelRings)`: je Treffer **`dist_m`** (0.1-m-gerundet), Liste **nach
+    Abstand aufsteigend sortiert**, je Layer **`<layer>_dist_min_m`** + Flag **`gemessen`**;
+    `dist_m=0` = Linie beruehrt/schneidet die Parzelle (baurechtlich bindend). Log-Zeile «naechste X m».
+- **Verifikation (Verifier-Signal):** unabhaengige Zweitmethode (Vertex-zu-Segment beidseitig) an
+  Seuzach Kat. 2304 → **29.8 m = 29.8 m** deckungsgleich. Regression `--produkt zonenplan` + EGRID-
+  Aufloesung grün (returnGeometry bricht nichts).
+- **Benchmarks (2026-07-08):** 0 m Dorfstrasse 1 Seuzach (Baulinie durch Parzelle = bindend) ·
+  29.8 m Kirchgasse 2 Seuzach · 116.2 m Baulinie + 105.6 m Waldgrenze Giebelweg 12 Langnau (Hanglage) ·
+  43.9 m Gewaesserabstand + 45.9 m Gewaesserraum Zuercherstrasse 1 Wetzikon (Parz. 6505, BFS 121).
+- Register: QUESTIONS (A/K5 senkr. Abstand ✓ + NEU E4 ✓), curriculum (K5-Rest [x] Run 16), INDEX
+  (Baulinien-Zeile), `raw/_INGESTED` (Run-16-Zeile), Wiki [[kartenportale-baulinien-abstandslinien-zh]]
+  (neuer Abschnitt + Benchmark-Tabelle + Grenzen). **Speist Agent `baulinien-analyst` / M2.**
+- **Naechster Lauf (Run 17):** Rotation → **Energie** (PL-04) hat Prioritaet; offene D5 Typ B/C/D
+  CHF-Benchmark oder KISPI-EVEN-Walkthrough. Alternativ M2 (machbarkeit-Anbindung jetzt mit
+  gemessenem Baulinien-Abstand als Baustein). Kartenportale-Rest: `COUNT=10`-Kappung + proj-
+  Abstandslinien an realem Revisionsfall.
+
 ## 2026-07-06 — Training Run 15 (Recht/Norm/PL-02): NEU Dispensrecht-Artikel (R3) · Klima-PBG-Korrektur · SZ-Waldabstand
 - Schwerpunkt **Recht & Norm** (Rotation: Run 14 Energie → Run 15 Recht/Norm). Connector-Schritt:
   **nein** (Domaene hat keinen Connector). Quellen: `05_Dispensrecht/BRKE_I_0247_2010_722.pdf` +

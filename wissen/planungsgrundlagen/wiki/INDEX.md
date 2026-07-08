@@ -6,7 +6,7 @@ Inhaltsverzeichnis aller Artikel, gruppiert nach den vier Domaenen.
 - [[kartenportale-oereb-egrid-bezug]] — OEREB-Auszug & EGRID beziehen (Kt. ZH) · **established**
 - [[kartenportale-bund-geodaten]] — Hoehe/Orthofoto/DTM/Bauzonen je Parzelle (geo.admin) + Connector `--produkt` · **established**
 - [[kartenportale-zonenplan-zh]] — rechtskraeftige kommunale Grundnutzung/BZO (Zone, BMZ/AZ, Hoehen, ES Laerm) login-frei via OGD-WFS 0156 + Connector `--produkt zonenplan`; **A6 laufende-Revision-Erkennung (proj-Layer, Vorher/Nachher) validiert** · **established**
-- [[kartenportale-baulinien-abstandslinien-zh]] — Baulinien + Abstandslinien (Verkehr 0158, Wald 0152, Gewaesser 0153, Waldgrenze 0150, Gewaesserraum 0185) login-frei via OGD-WFS + Connector `--produkt baulinien` (±150 m) · **established**
+- [[kartenportale-baulinien-abstandslinien-zh]] — Baulinien + Abstandslinien (Verkehr 0158, Wald 0152, Gewaesser 0153, Waldgrenze 0150, Gewaesserraum 0185) login-frei via OGD-WFS + Connector `--produkt baulinien` (±150 m); **senkrechter Abstand Linie↔Parzellengrenze gerechnet** (`dist_m`/`_dist_min_m`, K5-Rest 2026-07-08, Parzellenpolygon via identify returnGeometry, verifiziert; Benchmarks 0/29.8/116.2 m) · **established**
 - [[kartenportale-geoportale-uebersicht]] — welches Portal liefert was + Geodaten-Formate-Kurzleitfaden (K8) · **established**
 - [[kartenportale-sharepoint-ablage]] — Soll-Ablage PL-01 auf SharePoint (Ordner-Landkarte, Hoehenlinie/Topo-Bezug) · **established**
 - [[kartenportale-gwr-bund]] — **GWR-Gebaeudedaten je Parzelle** (Baujahr, Volumen+Norm/Quelle, EBF, Waermeerzeuger) login-frei via `gwr-bund.mjs`; **GVOLNORM/GVOLSCE-Decode** + Baujahr-vor-Bauperiode; Benchmarks KISPI + Giebelweg 12 · **established**
