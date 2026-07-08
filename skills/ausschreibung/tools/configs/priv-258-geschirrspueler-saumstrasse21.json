@@ -55,9 +55,9 @@
 
   "anbieter": [
     {
-      "kurzname": "NETTOSHOP",
-      "zeilen":   ["nettoshop.ch Swiss Household Services AG", "Industrie Haslen 3", "9245 Oberbüren", "Telefon 058 455 91 00", "info@nettoshop.ch"],
-      "empfaenger": ["nettoshop.ch Swiss Household Services AG", "Industrie Haslen 3", "9245 Oberbüren"],
+      "kurzname": "FUST",
+      "zeilen":   ["Fust Swiss Household Services AG", "Industrie Haslen 3", "9245 Oberbüren", "Telefon 0848 559 111", "info@fust.ch"],
+      "empfaenger": ["Fust Swiss Household Services AG", "Industrie Haslen 3", "9245 Oberbüren"],
       "anrede":   "Sehr geehrte Damen und Herren"
     }
   ],
