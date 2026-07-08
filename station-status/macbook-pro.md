@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.07.2026 14:28:20
+Stand: 08.07.2026 14:38:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -16,4 +16,4 @@ Stand: 08.07.2026 14:28:20
 - 1 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 
 ## Hub-Git-Stand (NAS)
-- 8f8b456 nas-selfcommit: 2 Datei(en) 2026-07-08 14:15
+- f0cccaf nas-selfcommit: 2 Datei(en) 2026-07-08 14:30
