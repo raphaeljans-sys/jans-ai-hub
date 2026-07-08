@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.07.2026 19:51:40
+Stand: 08.07.2026 20:11:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,7 +13,6 @@ Stand: 08.07.2026 19:51:40
 - 9 Datei(en): AR - 05 Transfer / Ventilator
 - 2 Datei(en): AR - 05 Transfer / Nescha
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
-- 1 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 
 ## Hub-Git-Stand (NAS)
-- ee3ae98 nas-selfcommit: 1 Datei(en) 2026-07-08 19:45
+- 487dcaa nas-selfcommit: 1 Datei(en) 2026-07-08 20:00
