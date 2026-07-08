@@ -1,9 +1,9 @@
 ---
 title: Fenster & Verglasung — Uw/Ug/Uf, g-Wert, Dreifachglas
 status: established
-last_updated: 2026-07-07
-sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/enfk-en-102-waermeschutz-2018.md]
-links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[sommerlicher-waermeschutz]] [[minergie-standards]] [[BAUHERREN-FAQ]]
+last_updated: 2026-07-08
+sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md]
+links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[sommerlicher-waermeschutz]] [[minergie-standards]] [[fenster-energieetikette-fea-bfe]] [[BAUHERREN-FAQ]]
 ---
 
 # Fenster & Verglasung
@@ -81,11 +81,22 @@ Schallschutz**.
 → Bauherren-Antwort: **F35** in `[[BAUHERREN-FAQ]]`. Grundlagen-Destillat →
 `[[fenster-verglasung-uw-g-wert]]`. U-Wert-System der ganzen Hülle → `[[u-werte-grenzwerte-ch]]`.
 
+## Fenster-Energieetikette (FEA) — der U-Wert reicht nicht
+
+Die freiwillige **Energieetikette für Fenster** des BFE bewertet ein Fenster nicht über den U-Wert
+allein, sondern über die **Winter-Energiebilanz**: **Transmissionsverlust minus nutzbarer solarer
+Gewinn**, ausgedrückt als **energieäquivalenter U-Wert Uw,eq** an einem Referenzfenster von
+**1,55 m × 1,15 m**. **Klasse A** heisst: die solaren Gewinne über die Heizperiode sind **grösser als
+die Verluste** (das Fenster ist übers Jahr energetisch positiv). Genau der g-Wert-Zielkonflikt (oben)
+wird so in einer A–G-Zahl sichtbar — ein sehr tiefer Ug mit tiefem g-Wert kann im Winter Gewinne
+verschenken. Die FEA ist **freiwillig** und ersetzt **nicht** die verbindliche Uw-Anforderung
+(ZH/Minergie ≤ 1,0). Detail → `[[fenster-energieetikette-fea-bfe]]`.
+
 ## Offen
-- Numerische **g-Werte** je Verglasungstyp und **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblätter).
-- **Fenster-Energieetikette (FEA/EAE)** des BFE — Klassierung A–G über die Winter-Energiebilanz
-  (solarer Gewinn − Transmissionsverlust); BFE-PDF bildbasiert, separater Lauf nötig.
-- Referenzfenstergrösse zur Uw-Ermittlung (SN EN 14351 / SIA 331).
+- Numerische **g-Werte** je Verglasungstyp und **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblätter;
+  DE-Blog-Tabellen nicht übernehmen).
+- **Exakte Klassengrenzen A–G** der Fenster-Energieetikette (Uw,eq-Schwellen) — BFE-Faktenblatt 7731
+  bildbasiert, separater seitengenauer Lauf nötig.
 
 ---
 Status: `speculative` → `emerging` → **`established`**.

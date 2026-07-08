@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-07
-sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-08
+sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1295,6 +1295,44 @@ dem Zitieren aktuellen kantonalen Stand (EVEN/EnerG ZH) bzw. minergie.ch prüfen
 
 ---
 
+## F36 — «Brauche ich einen GEAK — was ist das, was bringt er und was kostet er?»
+
+**Kurz:** Der **GEAK** ist der amtliche, schweizweit einheitliche **Gebäudeenergieausweis der Kantone** —
+eine Energieetikette, die Dein Gebäude in **sieben Klassen A–G** einstuft (Gebäudehülle,
+Gesamtenergieeffizienz, direkte CO₂-Emissionen). Der **GEAK Plus** kommt mit einem **Beratungsbericht
+und bis zu fünf Sanierungsvarianten** dazu — und ist **Pflicht, sobald Du über CHF 10'000 Fördergeld aus
+dem Gebäudeprogramm beziehst**. Er ist **bis zu 10 Jahre gültig** und wird nur von **zertifizierten
+GEAK-Expert:innen** ausgestellt. Einen amtlichen Fixpreis gibt es nicht — **mehrere Offerten einholen**;
+in ZH und SZ zahlt der Kanton **CHF 1'000 (GEAK) / 1'500 (GEAK Plus)** dazu.
+
+**Fachlich:** Das **Basisprodukt GEAK** ist die **offizielle Energieetikette der Kantone** und zeigt drei
+grafisch klassierte Achsen (A = beste … G = schlechteste):
+- **Gebäudehülle** — baulicher Wärmeschutz (Dämmung, Fenster, Wärmebrücken);
+- **Gesamtenergieeffizienz / Gebäudetechnik** — gesamter Energiebedarf inkl. Heizung, Warmwasser, Strom,
+  **unter Anrechnung der Eigenstromerzeugung**;
+- **direkte CO₂-Emissionen** — Treibhausgase aus Raumwärme und Warmwasser; **Klasse A = null CO₂**, der
+  **Klassenwechsel in Schritten von 5 kg/(m²·a)**.
+
+Der **GEAK Plus** liefert zusätzlich **bis zu fünf auf das Gebäude zugeschnittene Modernisierungsvarianten**
+plus Beratungsbericht — die eigentliche Entscheidungsgrundlage für die Sanierungsplanung (welche Massnahme
+in welcher Reihenfolge, welcher Effekt auf die Klasse). Der Ausweis entsteht über eine **Gebäudebegehung**
+durch den Experten und wird in einer **zentralen Datenbank** erfasst (dort **bis 10 Jahre** abrufbar).
+
+**Abgrenzung:** Der GEAK bewertet den **Ist-Zustand des Bestands** (wie eine Etikette) — Minergie ist
+demgegenüber ein **freiwilliges Ziellabel** mit Nachweis (→ F5). Und der GEAK klassiert das **ganze
+Gebäude**, die **Fenster-Energieetikette** nur das Bauteil Fenster (→ F35, `[[fenster-energieetikette-fea-bfe]]`).
+
+**Empfehlung:** Wer eine grössere Sanierung plant oder Fördergeld über 10k will, lässt **zuerst einen
+GEAK Plus erstellen** — Fördergesuch immer **vor Baubeginn**.
+
+**Quelle:** Verein GEAK / EnDK — geak.ch (Was ist der GEAK / Produkt GEAK / FAQ / Weg zum GEAK), Stand
+2026; Reglemente 01.01.2026 → `[[geak-gebaeudeenergieausweis-kantone]]`. Förderbeiträge ZH/SZ →
+`[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`; GEAK-Plus-Pflicht ab 10k →
+`[[gebaeudeprogramm-bund-hfm-2015]]`. ⚠ **Datenstand 2026-07-08:** GEAK-Kosten projektabhängig (kein
+Fixpreis); welche Kantone den GEAK bei Handänderung zwingend verlangen, ist kantonsweise zu prüfen.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1305,7 +1343,14 @@ dem Zitieren aktuellen kantonalen Stand (EVEN/EnerG ZH) bzw. minergie.ch prüfen
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-06: 34 Kernfragen F1-F34 belegt.** Neu am 2026-07-06: **F34 ‹Oekologisch daemmen
+> **FAQ-Stand 2026-07-08: 36 Kernfragen F1-F36 belegt.** Neu am 2026-07-08: **F36 ‹Brauche ich einen GEAK —
+> was ist das, was bringt er und was kostet er?›** — GEAK = amtlicher Gebaeudeenergieausweis der Kantone,
+> 7 Klassen A–G (Huelle/Gesamtenergie/CO₂; A=null CO₂, Stufe 5 kg/m²·a), GEAK Plus mit bis zu 5 Sanierungs-
+> varianten + Beratungsbericht, **Pflicht ab CHF 10'000 Foerderung**, **10 J gueltig**, nur zertifizierte
+> Expert:innen, kein Fixpreis (ZH/SZ foerdern 1'000/1'500) → `[[geak-gebaeudeenergieausweis-kantone]]` (geak.ch/
+> EnDK). Zugleich neues Destillat **Fenster-Energieetikette (FEA/BFE)**: freiwilliges Label, Winter-Bilanz
+> Uw,eq am Referenzfenster 1,55×1,15 m (Verlust minus solarer Gewinn), Klasse A = Gewinne > Verluste →
+> `[[fenster-energieetikette-fea-bfe]]` (schaerft F35). Zuvor am 2026-07-06: **F34 ‹Oekologisch daemmen
 > ohne Winter-Nachteil — hilft das gegen Sommerhitze?›** — Naturdaemmstoffe (Holzfaser/Zellulose/Hanf/
 > Stroh) λ 0,038–0,045 wie Mineralwolle, aber ~2× Speichermasse (c ~2000–2200 J/(kg·K)) → besserer
 > Sommerhitzeschutz via Phasenverschiebung, diffusionsoffen, ~100× weniger graue Energie (Stroh); Preis:
