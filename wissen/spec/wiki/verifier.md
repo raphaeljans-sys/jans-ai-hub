@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-09
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -96,3 +96,21 @@ Aenderung. Belegt AG-Gruendung (30.06.–06.07.): 8+ Monitor-Eintraege «Keine S
 nichts Neues», waehrend das Vorhaben auf UBS-Kapitalbescheinigung + Notariats-/HRA-Antwort wartet.
 So bleibt der Verifier scharf (kein Falsch-Gruen durch Ungeduld), ohne Laerm zu erzeugen — die
 Steady-State-Phase einer lebenden Spec (siehe [[anwendung-jans]] Schritt 2).
+
+### Zwei Blocker-Typen im Monitor auseinanderhalten (Lektion AG-Gruendung 09.07.2026)
+Der low-noise Monitor darf nicht jeden offenen Punkt gleich behandeln. In Phase B stehen zwei
+grundverschiedene Blocker nebeneinander:
+- **Externes Warten** — die autoritative Instanz ist am Zug (UBS-Kapitalbescheinigung,
+  Notariats-/HRA-Antwort). Hier ist «NICHTS NEUES» ohne Aktion **richtig**: es gibt nichts zu tun,
+  ausser periodisch zu pruefen.
+- **Selbst-blockierte Owner-Aktion** — ein Schritt haengt an *uns/Raphael*, nicht an der Instanz
+  (im Fall: «Antwort ans Notariat raus» — Name «Raphael Jans AG» bestaetigen + Word-Dateien
+  Urkunde/Statuten senden, offen seit 22.06., d.h. 17 Tage). Diese Owner-Aktion ist **handlungs-
+  bereit** und darf NICHT in der «nichts Neues»-Kadenz mituntergehen.
+
+Belegt: der Monitor fuehrte beide Blocker ~10 Tage (30.06.–09.07.) unter derselben low-noise-Zeile
+(«keine Status-Mail, nichts Neues»); die selbst-blockierte Notariats-Antwort alterte dabei still,
+statt eskaliert zu werden. **Konsequenz:** low-noise gilt nur fuer echtes externes Warten; sobald
+ein Punkt am eigenen Handeln haengt, gehoert er in jeden Monitor-Lauf als **aktive Nudge/Pendenz**
+(nicht als «nichts Neues»), sonst frisst die Steady-State-Ruhe eine erledigbare Aufgabe. Die richtige
+Trennfrage je Blocker: «Wartet hier die Instanz — oder warten wir auf uns selbst?»

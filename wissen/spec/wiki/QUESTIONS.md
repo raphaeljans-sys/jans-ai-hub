@@ -23,6 +23,12 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     autoritative Instanz, low-noise). Staerkster F1-Datenpunkt bisher: die Spec bleibt auch in der
     langen Wartephase nuetzlich (haelt Ziel/kritischen Pfad stabil, unterdrueckt Laerm). Weiterhin
     **kein mittelgrosser Gegentest** in `outputs/` → Ueberdehnungs-Frage bleibt offen, Schwelle unveraendert.
+  - Stand 2026-07-09: **19 Tage** lebende Spec (21.06.–09.07.), Phase B haelt an (Eintraege 07./08./
+    09.07. alle «NICHTS NEUES»). Kein neues Korrektur-Delta, aber ein Praezisierungs-Datenpunkt fuer
+    die Monitor-Kadenz (→ F2): der Steady-State-Monitor hat ~10 Tage eine **selbst-blockierte
+    Owner-Aktion** («Antwort ans Notariat raus», offen seit 22.06.) unter derselben low-noise-Zeile
+    mitlaufen lassen wie das echte externe Warten — die erledigbare Aufgabe alterte still. Schwelle
+    unveraendert; Ueberdehnungs-Gegentest fehlt weiter.
 - F2: Wie kurz darf das Ziel-Interview sein, damit es hilft statt bremst? Optimal-Laenge je
   Vorhabenstyp (Studie / Dokument / Mail / Strategie) sammeln.
   - Lektion AG-Gruendung: das Interview muss die **Ausgangslage** explizit fixieren. Hier
@@ -45,6 +51,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     periodisch pruefen, «NICHTS NEUES» ohne Aktion melden, nur bei echter Aenderung eskalieren
     (belegt AG-Gruendung, 8+ Eintraege 30.06.–06.07.). → [[verifier]] «Warten auf die autoritative
     Instanz» + [[anwendung-jans]] Schritt 2 (zwei Phasen der lebenden Spec).
+  - Praezisierung 09.07. (zwei Blocker-Typen): die low-noise-Kadenz gilt nur fuer echtes **externes**
+    Warten (Instanz am Zug). Haengt ein Punkt am **eigenen** Handeln (selbst-blockierte Owner-Aktion),
+    muss er in jedem Monitor-Lauf als aktive Nudge/Pendenz erscheinen, nicht unter «nichts Neues» —
+    sonst altert er still (belegt: Notariats-Antwort 17 Tage in der «nichts Neues»-Zeile).
+    Trennfrage: «Wartet die Instanz — oder warten wir auf uns selbst?» → [[verifier]] «Zwei Blocker-Typen».
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**

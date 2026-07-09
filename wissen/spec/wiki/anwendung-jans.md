@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-09
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
@@ -65,6 +65,11 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    Aenderung (belegt: 8+ Eintraege «Keine Status-Mail gesendet, nichts Neues» 30.06.–06.07.). In
    Phase B ist die *awartete* autoritative Instanz selbst der Verifier (siehe [[verifier]]) — das
    Warten ist kein Stillstand, sondern ein gueltiger Verifier-Zustand.
+   **Aber:** die low-noise-Kadenz gilt nur fuer echtes *externes* Warten. Haengt ein Punkt am
+   *eigenen* Handeln (selbst-blockierte Owner-Aktion), gehoert er in jeden Monitor-Lauf als aktive
+   Nudge/Pendenz, nicht unter «nichts Neues» — sonst altert eine erledigbare Aufgabe still (belegt
+   AG-Gruendung: «Antwort ans Notariat raus» blieb 17 Tage in der «nichts Neues»-Zeile; siehe
+   [[verifier]] «Zwei Blocker-Typen»).
 3. **Praezise + Verifier** — Bewertungskriterien vorab; Goldstandard als Format-Vorlage;
    zweite Pruefinstanz (`korrektur`/`twin`/`/code-review`); externes Signal via Connector.
    Wo eine **autoritative Instanz** entscheidet (Behoerde/Notar/Bank), gilt deren Befund vor
