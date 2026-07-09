@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.07.2026 09:51:11
+Stand: 09.07.2026 10:11:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,8 @@ Stand: 09.07.2026 09:51:11
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
+- 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0d470b9 nas-selfcommit: 1 Datei(en) 2026-07-09 09:45
+- f3c2d69 Baurecht Buch-Run 24: Kap. 8 Schluss + Kap. 13 T2 + Kap. 16 T3
