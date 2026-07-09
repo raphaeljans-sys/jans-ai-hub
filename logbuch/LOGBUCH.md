@@ -30,11 +30,15 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
   erledigte Punkte weitergeschleppt, weil er den Mailverkehr nur oberflaechlich abklopfte statt die
   Threads/Anhaenge zu lesen. Am Beleg geschlossen: (1) **RE-00088** ist bezahlt (bexio laengst nicht
   mehr im Verzug), Mahnung 2 gegenstandslos, kein Handlungsbedarf → Archiv; (2) **Lenggstrasse 30
-  Schutzraeume-/Ersatzabgaben-Rechnung** ist durch KISPI bezahlt — die Zahlung wurde bereits **06.07.**
-  veranlasst (RJ an A. Soerensen 06.07. 12:11 «Die Rechnung wird sofort ueberwiesen», Weiterleitung an
-  KISPI-Kreditoren 06.07. 12:06); Baufreigabe PPTS folgt nach Zahlungsregistrierung, keine offene
-  JANS-Aktion → Archiv. Das Radar-Briefing von heute frueh (05:00 UTC) enthielt beide Punkte faelschlich
-  noch als offen/dringend; keine Korrektur-Mail versendet (Raphael hat es selbst geflaggt, waere Laerm).
+  Schutzraeume-/Ersatzabgaben-Rechnung** ist bezahlt — **belegt durch das ZKB-Buchungsdetail im Anhang**
+  der Mail «WG: Zahlungsbestaetigung»: Belastung **CHF 21'000.00**, Valuta/Buchungsdatum **08.07.2026**,
+  ab Konto Uni-Kinderspital ZH-El.Stiftung (KISPI) an Stadt Zuerich Finanzverwaltung, Zahlungszweck
+  EAG-Objekt 2026/171/0092 (= Verfuegung Lenggstrasse 30), EBICS-Auftrag Z261893557863. **Wichtig zur
+  Selbstkorrektur:** urspruenglich falsch begruendet mit einer blossen Absichtserklaerung («wird sofort
+  ueberwiesen») — richtig ist der Beleg der effektiv ausgefuehrten Zahlung aus dem Anhang. Baufreigabe
+  PPTS folgt nach Eingangsregistrierung bei der Stadt, keine offene JANS-Aktion → Archiv. Das
+  Radar-Briefing von heute frueh (05:00 UTC) enthielt beide Punkte faelschlich noch als offen/dringend;
+  keine Korrektur-Mail versendet (Raphael hat es selbst geflaggt, waere Laerm).
   **Prozess-Fix hinterlegt** (Radar liest kuenftig je offenem Register-Punkt den neuesten Thread inkl.
   Anhang und schliesst bei Zahlungs-/Erledigungssignalen): scheduled-task `logbuch-radar` SKILL.md +
   Skill `logbuch` SKILL.md + Auto-Verbesserung 09.07.

@@ -49,13 +49,19 @@ Jede Frist/Pendenz ist eine Zeile in `fristen.md`:
 - **Frist heute/ueberfaellig/in <= Horizont** → in die Tagesmeldung aufnehmen.
 - **Beleg-Prinzip:** Fristen werden belegt (Quelle/Datum), nie erfunden. Unklare Daten als
   «zu pruefen» markieren statt raten.
-- **Mail-Verifikation vor Weiterschleppen (Pflicht):** Ein bestehender Punkt darf NICHT erneut als
-  «offen/dringend/nachfassen» erscheinen, ohne dass der **neueste Thread wirklich gelesen** wurde
-  (Body, bei Bedarf Anhang/Rechnung) und keine Erledigung belegt. Als **erledigt** schliessen bei
-  Signalen wie «wird ueberwiesen» / «bezahlt» / «Zahlung veranlasst» / Weiterleitung an die Kreditoren
-  (bei Debitoren zusaetzlich bexio `--verzug` = nicht mehr im Verzug), bzw. geliefert/abgesagt/
-  zurueckgezogen. **Fremd-Rechnungen** (Bauherr/KISPI zahlt, nicht JANS) sind keine offene JANS-Aktion,
-  sobald die Zahlung dort veranlasst ist. Kein tagelanges unveraendertes Wiederholen desselben Punkts.
+- **Mail-/Beleg-Verifikation vor Weiterschleppen (Pflicht):** Ein bestehender Punkt darf NICHT erneut
+  als «offen/dringend/nachfassen» erscheinen, ohne dass der **neueste Thread wirklich gelesen** wurde
+  — inkl. **Anhänge ÖFFNEN und lesen** (PDF-Seiten, nicht nur Dateiname/Betreff), wenn der Status an
+  einem Dokument haengt (Rechnung, Zahlungsbestaetigung, Buchungs-/Bankbeleg, Verfuegung). Fakten
+  (Betrag/Datum/Referenz) dem Beleg entnehmen; Anhang notfalls via `mdfind`/Outlook-Attachment-Cache
+  lokalisieren.
+- **Status aus dem Beleg, nie aus Absicht:** Als **erledigt** gilt ein Zahlungs-/Erledigungspunkt erst,
+  wenn ein BELEG die tatsaechliche Ausfuehrung zeigt (Zahlungsbestaetigung / Buchungsdetail /
+  Bankbelastung; bei Debitoren bexio `--verzug` = nicht mehr im Verzug). Blosse Zusagen («wird
+  ueberwiesen» / «werde zahlen» / «veranlasst») schliessen NICHT — dann weiter beobachten. Liegt der
+  Beleg vor, darauf abstuetzen und im Register/Journal zitieren (Dokument + Betrag + Datum + Referenz).
+  **Fremd-Rechnungen** (Bauherr/KISPI zahlt, nicht JANS) sind keine offene JANS-Aktion, sobald der
+  Beleg die Zahlung zeigt. Kein tagelanges unveraendertes Wiederholen desselben Punkts.
 
 ## Taeglicher Radar (Ablauf)
 
