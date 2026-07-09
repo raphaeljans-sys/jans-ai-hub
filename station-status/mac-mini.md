@@ -1,9 +1,8 @@
 # Stations-Status: mac-mini
 
-Stand: 09.07.2026 15:42:00
+Stand: 09.07.2026 15:52:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/frosty/benz/067c2f  (letzte Aktivitaet 15:20)
 - Developer/jans/ai/hub  (letzte Aktivitaet 15:28)
 
 ## Laufende Arbeits-Prozesse
@@ -20,4 +19,4 @@ Stand: 09.07.2026 15:42:00
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5826093 nas-selfcommit: 2 Datei(en) 2026-07-09 15:30
+- 81696e4 nas-selfcommit: 2 Datei(en) 2026-07-09 15:45
