@@ -4,6 +4,35 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-09 — Buch-Run 24: Kap. 8 Schluss / Kap. 13 T2 / Kap. 16 T3 (Forcierung, 3 Kapitelteile, 49 Doppelseiten)
+- [neu] **Destillat Kap. 8 Schluss** [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] (S. 510-535,
+  Shots 257-269): 8.3 Baustellensicherheit — **Schutz Nachbargrundeigentum § 239 Abs. 1 PBG / Rissprotokoll**
+  (privatrechtl., Beweislast Art. 8 ZGB, BEZ 2016 Nr. 15), Feuerpolizei (→ Skill `brandschutz`),
+  Arbeitnehmerschutz **VUV/BauAV** (Asbest SUVA Art. 60a/60b BauAV), **Baustellenentsorgung Art. 16 VVEA**
+  (Konzept ab > 200 m³), **Bauherren-Altlast 2/3-Rueckgriff Art. 32bis USG**, **Baulaerm** (Stufen A/B/C,
+  Art. 6 LSV), **amtl. Vermessung § 19 KVAV** (1 J.). **Kap. 8 endet S. 535 → Band 1 komplett (ausser Kap. 18).**
+- [neu] **Destillat Kap. 13 Teil 2** [[band-2/13-weitere-grundanforderungen-teil2]] (S. 858-891, Shots 431-448,
+  Shot 434 = Dup): Einordnung-Forts. § 238 (Umgebung/Umschwung § 238 Abs. 3 **ohne** Ausnuetzungswirkung
+  BEZ 2011 Nr. 6, Stuetzmauern, Baumschutz §§ 203 ff./76, Neobiota Art. 15 FrSV), Sonstige Beschaffenheit
+  § 239 (Regeln der Baukunde/Art. 229 StGB, Baumaterialien BauPG/PrSG), **Verkehrssicherheit §§ 240/241**
+  (VSiV/StrAV/EV, **Sichtbereiche 90/150/50 m § 16 StrAV**, Einfriedungen §§ 11/12 StrAV), **Strassenreklamen**
+  (Art. 6 SVG/Art. 95-99 SSV). §§ 242/248 erst nach S. 891.
+- [neu] **Destillat Kap. 16 Teil 3** [[band-2/16-gebaeudedimensionen-teil3-umgebung]] (S. 1194-1229,
+  Shots 601-618): **16.6 Hochhaeuser** (Gebaeudehoehe > 25 m § 282/§ 284, keine erhoehte Ausnuetzung,
+  **Schattenwurf > 2 h § 30 ABV**), **16.7 Gebaeudelaenge/-breite** (flaechenkleinstes Rechteck § 28 ABV),
+  **16.8 Dachaufbauten Drittelsregel ≤ 1/3 Fassadenlaenge § 292 PBG** (Kamine/Solar/Kreuzfirst zaehlen nicht,
+  BEZ 2014 Nr. 9), **16.9 Freilegung UG ≤ 1,5 m ueber gestaltetem Boden § 293 PBG** (§ 280 = gewachsenes T.).
+- [geaendert] **Wiki** [[abstaende-und-hoehen]] (`established`) neue Sektion Hochhaeuser/Gebaeudelaenge/
+  Dachaufbauten (§§ 282/284/292/293/28/30 ABV) + Links/Quellen; [[bauausfuehrung-und-baukontrolle]] Abschn. 6
+  Baustellensicherheit voll ausgebaut (VUV/BauAV/VVEA/Altlast/Baulaerm/KVAV), Quellenspanne → S. 485-535.
+- [geaendert] **buecher/INDEX.md** (3 neue Destillate + Abdeckungs-Matrix: Kap. 8 🟢 vollstaendig, Kap. 13/16
+  🟢 weitgehend); **seiten-inventar.md** Shots 257-269/431-448/601-618 → [x] + Destillat-Link; **curriculum.md**
+  (Status Kap. 8/13/16) + **PROGRAMM.md**-Tracker.
+- [geaendert] **wiki/QUESTIONS.md**: Kap. 8 Restschuld + § 293 PBG erledigt; neue needs-verification (Kap.
+  8/13/16 §§) + neue Kleinluecken §§ 242/248 (Kap. 13) und 16.9-Schluss.
+- [drill] `training/drills.md`: 8 Karten (Modell C, davon 1 Modell-A-Drill Freilegung UG § 293).
+- [report] `outputs/2026-07-09_buch-run24.md`.
+
 ## 2026-07-08 — Buch-Run 23: Kap. 4 (Natur-/Heimatschutz) → BAND 1 SUBSTANZIELL KOMPLETT
 - [neu] **Destillat Kap. 4** [[band-1/04-natur-und-heimatschutz]] (S. 268-309, Shots 134-155, 21 Doppelseiten,
   die letzte offene Sektion von Band 1): **4.1** Rechtsgrundlagen (Art. 78 BV / NHG; ZH PBG III. Titel

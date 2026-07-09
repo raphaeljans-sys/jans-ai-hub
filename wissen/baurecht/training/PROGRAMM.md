@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,7 +92,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~897 / 1550 (~448 Doppelseiten). **Run 23 (2026-07-08, Forcierung, 1 grosses
+- **Seiten distilliert:** ~946 / 1550 (~473 Doppelseiten). **Run 24 (2026-07-09, Forcierung, 3 Kapitelteile,
+  49 Doppelseiten):** Kap. 8 Schluss + Kap. 13 Teil 2 + Kap. 16 Teil 3. **Kap. 8 «Ausfuehrung» VOLLSTAENDIG**
+  (S. 510-535: 8.3 Baustellensicherheit — Rissprotokoll/Beweislast Art. 8 ZGB/BEZ 2016 Nr. 15, VUV/BauAV,
+  Entsorgungskonzept > 200 m³ Art. 16 VVEA, Bauherren-Altlast 2/3 Art. 32bis USG, Baulaerm-Stufen A/B/C,
+  amtl. Vermessung § 19 KVAV; Kap. endet S. 535). **Kap. 13 → 🟢 weitgehend** (S. 858-891: § 238-Forts.
+  Umgebung/Baumschutz, § 239 Regeln der Baukunde/Baumaterialien, **§§ 240/241 Verkehrssicherheit /
+  Sichtbereiche 90/150/50 m § 16 StrAV**, Strassenreklamen Art. 6 SVG; offen §§ 242/248 ab S. 892). **Kap. 16
+  → 🟢 weitgehend** (S. 1194-1229: Hochhaeuser > 25 m § 282/§ 284/Schattenwurf > 2 h § 30 ABV, Gebaeudelaenge
+  § 28 ABV, **Dachaufbauten-Drittelsregel § 292**, Freilegung UG § 293; offen 16.9-Schluss S. 1230 f.).
+  Neue Destillate [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] / [[band-2/13-weitere-grundanforderungen-teil2]]
+  / [[band-2/16-gebaeudedimensionen-teil3-umgebung]]. Wiki geschaerft [[abstaende-und-hoehen]] (Hochhaeuser/
+  Dachaufbauten) + [[bauausfuehrung-und-baukontrolle]] (Baustellensicherheit). Modell C (8 Karten, davon 1
+  Modell-A-Drill). Report `outputs/2026-07-09_buch-run24.md`.
+- **Seiten distilliert (frueher):** ~897 / 1550 (~448 Doppelseiten). **Run 23 (2026-07-08, Forcierung, 1 grosses
   Kapitel, 21 Doppelseiten): Kap. 4 Natur- und Heimatschutz VOLLSTAENDIG** (S. 268-309, Shots 134-155) →
   **BAND 1 SUBSTANZIELL KOMPLETT** (offen nur Kap. 18 Brandschutz = Querverweis auf Skill `brandschutz`).
   Kern: Schutzobjekt-Katalog **§ 203 Abs. 1 lit. a-g PBG**, Inventare (BLN/ISOS/IVS schutzwuerdig, **binden
@@ -223,13 +236,14 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
-- **Naechster Lauf:** ~~Kap. 4 Natur- und Heimatschutz~~ **erledigt Run 23 (2026-07-08) → BAND 1 KOMPLETT.**
-  Jetzt **Band-2-Reste** abarbeiten (Forcierung fortsetzen): Kap. 13 Rest (§§ 239a/240/242/248 ab Shot 431),
-  Kap. 14 Mischrechnungsverbot § 10/13 ABV (Shots 486-495), Kap. 15.13 Harmonisierungsvorlage (S. 1124-1133),
-  Kap. 16 «Umgebung» (ab Shot 601), Kap. 17 Garagen §§ 37-39 BBV I (ab Shot 656), Kap. 19 Rest (ab Shot 706),
-  Kap. 20 § 357 Abs. 5 / Brandstattrecht § 307 (ab Shot 732), Kap. 21 Art. 24d/24e/37a (ab Shot 756) + Kap. 8
-  Rest (S. 510-534, Shots 257-269). Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`. Sobald
-  diese Reste erledigt sind: Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3 (Erhaltung/Drills). *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** ~~Kap. 8 Rest / Kap. 13 «Umgebung» / Kap. 16 «Umgebung»~~ **erledigt Run 24
+  (2026-07-09).** Verbleibende **Band-2-Kleinreste** (Forcierung fortsetzen): Kap. 13 §§ 242 Antennen / 248
+  Camping (ab S. 892, Shots ab ~449), Kap. 14 Mischrechnungsverbot § 10/13 ABV (Shots 486-495), Kap. 15.13
+  Harmonisierungsvorlage (S. 1124-1133), Kap. 16.9-Schluss (S. 1230 f.), Kap. 17 Garagen §§ 37-39 BBV I
+  (ab Shot 656), Kap. 19 Rest (ab Shot 706), Kap. 20 § 357 Abs. 5 / Brandstattrecht § 307 (ab Shot 732),
+  Kap. 21 Art. 24d/24e/37a (ab Shot 756). Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`.
+  Sobald diese Kleinreste erledigt sind: Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3
+  (Erhaltung/Drills) + Modell-D-Volltextabgleich der needs-verification. *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten
@@ -239,8 +253,9 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 - ~~**Restschuld Kap. 12 (Teil 4):**~~ **erledigt Run 20** (2026-07-03): Anschlussgebuehren + Abfall/
   Kehricht + Altlasten Art. 32c/32d USG (S. 770-807) distilliert → [[band-2/12-baureife-teil4-gebuehren-abfall-altlasten]].
   **Kap. 12 vollstaendig.**
-- **Restschuld Kap. 8:** 8.3 Sicherheit der Baustelle Detail (Bauherrenhaftung, Schutz Nachbargrundstuecke,
-  Werkleitungen) + Kap.-Ende bis S. 534 (Shots 257-269).
+- ~~**Restschuld Kap. 8:**~~ **erledigt Run 24 (2026-07-09):** 8.3 Baustellensicherheit + Entsorgung +
+  Bauemissionen + amtl. Vermessung (S. 510-535) → [[band-1/08-ausfuehrung-teil2-baustellensicherheit]].
+  **Kap. 8 vollstaendig (Kap. endet S. 535).**
 - **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
   Missstaende (S. 1456 ff.) + Brandstattrecht § 307 PBG (S. 1457 ff.) — Shots ab 729.
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
