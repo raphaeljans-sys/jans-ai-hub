@@ -62,6 +62,13 @@ Jede Frist/Pendenz ist eine Zeile in `fristen.md`:
   Beleg vor, darauf abstuetzen und im Register/Journal zitieren (Dokument + Betrag + Datum + Referenz).
   **Fremd-Rechnungen** (Bauherr/KISPI zahlt, nicht JANS) sind keine offene JANS-Aktion, sobald der
   Beleg die Zahlung zeigt. Kein tagelanges unveraendertes Wiederholen desselben Punkts.
+- **Eingehend ↔ ausgehend paaren (Pflicht):** Jede relevante Mail wird gelesen, um den SACHVERHALT zu
+  verstehen. Wirft eine **eingehende** Mail eine Frage/Bitte/einen Sachverhalt auf und hat eine spaetere
+  **ausgehende** Mail (von RJ/JANS im selben Thread) diese beantwortet/geliefert/geloest, ist der Punkt
+  **erledigt** → Archiv. Also nicht nur den Eingang, sondern auch die bereits versandte Antwort
+  (Sent Items / Thread-Verlauf) pruefen; «offen/nachfassen» bleibt nur, wenn die loesende Gegenantwort
+  nachweislich noch fehlt. Beim Schliessen kurz belegen (eingehend: Absender/Datum/Anliegen → ausgehend:
+  Antwort Datum/Kerninhalt).
 
 ## Taeglicher Radar (Ablauf)
 
