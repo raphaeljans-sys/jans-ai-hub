@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 09.07.2026 17:42:54
+Stand: 09.07.2026 17:52:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:18)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 09.07.2026 17:42:54
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 4348c96 nas-selfcommit: 2 Datei(en) 2026-07-09 17:30
+- ff4ac23 nas-selfcommit: 2 Datei(en) 2026-07-09 17:45
