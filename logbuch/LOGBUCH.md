@@ -5,6 +5,29 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-09
+
+- **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 16.07.), Mail-Eingang
+  (seit 08.07. 18:00) und Sync-/Remote-Task-Queues abgeglichen.
+- **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **84 Tage ueberfaellig**, Mahnung 1 / bexio level 2) — Zahlfrist **08.07.2026 =
+  GESTERN verstrichen**, kein Zahlungseingang → **Eskalation auf Mahnung 2 jetzt faellig** (nicht
+  whitelisted; vorher RE-00088-Konflikt klaeren). Keine neuen Verzugsfaelle; RE-00098/99 (faellig
+  20.07.) weiter ohne Verzug.
+- **Kalender (bis 16.07.):** nur **HEUTE 09.07. 13:00–14:00** Koordinationssitzung Gruner/Jans/KISPI
+  (Serientermin, bereits im Register). Keine weiteren Termine im 7-Tage-Fenster.
+- **Mail-Eingang (seit 08.07. 18:00):** keine neue Mail (Outlook-Suche leer).
+- **Sync-/Remote-Task-Queue:** kein offener Task fuers MacBook Pro; Remote-Pending leer.
+- **Naechste 7 Tage / Cutoffs:** RE-00087 Zahlfrist **08.07. verstrichen** (kein Eingang → Eskalation
+  Mahnung 2 vorbereiten, RE-00088-Konflikt vorher klaeren); Koordinationssitzung **heute 09.07.**;
+  SharePoint-Gastzugriff-Ablauf **10.07. = morgen** (6 Gruner-Personen); Lenggstrasse-30-Schutzraeume-
+  Rechnung weiter dringend (Baufreigabe PPTS haengt an der Bezahlung). AG-Gruendung weiter hoch
+  (Notariats-Antwort noch nicht raus, UBS-Formular abwarten). Offene Offert-Pruefungen: TeKoSi Los
+  231.10, Brunner Los 273.00, Portunus Los 275.00 Schliesssystem.
+- Briefing-Mail an rj@ versendet (Ueberfaelliges + Faelliges/Termine/Cutoffs in den naechsten 7 Tagen).
+
+---
+
 ## 2026-07-08
 
 - **HUB-CHEF-LAUF — ohne Befund (keine Mail).** Signale konsolidiert: bexio `--verzug`

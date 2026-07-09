@@ -3,7 +3,7 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Stand: 08.07.2026 (Radar-Lauf; RE-00087 nun 83 Tage ueberfaellig, Zahlfrist 08.07. = HEUTE erreicht, kein Zahlungseingang; Lenggstrasse 30 Schutzraeume-Rechnung weiter DRINGEND, Baufreigabe PPTS haengt an der Bezahlung; NEU 07.07.: J. Struebi (Portunus) sagt die Los-231.10-Tuerfachplanung ab (bietet keine Tuerfachplanung an + Frist zu kurz) → parallele Offertlinie geschlossen, TeKoSi/Hiltmann-Offerte bleibt massgebend; TeKoSi-Termin 07.07. vorbei → Archiv; Kalender bis 15.07. nur Koordinationssitzung 09.07.; SharePoint-Gastzugriff-Ablauf 10.07.; Sync-Queue leer)
+Stand: 09.07.2026 (Radar-Lauf; RE-00087 nun 84 Tage ueberfaellig, Zahlfrist 08.07. = GESTERN verstrichen, kein Zahlungseingang → Eskalation auf Mahnung 2 faellig (nicht whitelisted, RE-00088-Konflikt vorher klaeren); Lenggstrasse 30 Schutzraeume-Rechnung weiter DRINGEND, Baufreigabe PPTS haengt an der Bezahlung; Kalender bis 16.07. nur Koordinationssitzung HEUTE 09.07. 13:00-14:00; SharePoint-Gastzugriff-Ablauf 10.07. = morgen; kein Mail-Eingang seit 08.07. 18:00; Sync-/Remote-Queues leer)
 
 Nachtrag Hub-Chef-Lauf 08.07.2026 (ohne Befund, keine zweite Mail): bexio `--verzug` unveraendert (nur RE-00087 im Verzug, Mahnung 1, Zahlfrist 08.07. = heute erreicht, kein Eingang; RE-00098/99 ohne Verzug); `--abgleich` unveraendert (Altliste 19 Pos., 1 alter Bankeingang 2021). Mail seit Radar (07.07. 18:00) nur Struebi-Absage (bereits erfasst) + Auto-Bestaetigung nettoshop (Saumstrasse-21-Geschirrspueler, neu als beobachten aufgenommen). Kalender/Sync-/Remote-Queues ohne Neues. Keine Whitelist-Aktion moeglich (A1 greift nicht auf RE-00087). Alle 7-Tage-Punkte bereits im Radar-Briefing 08.07. — keine Doppelmeldung.
 
@@ -15,7 +15,7 @@ Nachtrag Hub-Chef-Lauf 03.07.2026: bexio `--verzug` zeigt zwei NEUE offene KISPI
 
 | Frist | Was | Quelle | Projekt/Kontext | Prio | Status |
 |---|---|---|---|---|---|
-| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 83 Tage ueberfaellig — auf **Mahnung 1 (Stufe 2)** (bexio level 2), Zahlfrist **08.07.2026 = HEUTE erreicht**. Kein Zahlungseingang. Bei Ausbleiben Eskalation auf Mahnung 2 (vorher RE-00088-Konflikt klaeren) | mahnwesen | 2619 KISPI | hoch | offen |
+| 16.04.2026 | RE-00087 (Kispi, CHF 15'000) 84 Tage ueberfaellig — auf **Mahnung 1 (Stufe 2)** (bexio level 2), Zahlfrist **08.07.2026 = GESTERN verstrichen**, kein Zahlungseingang → **Eskalation auf Mahnung 2 jetzt faellig** (nicht whitelisted; vorher RE-00088-Konflikt klaeren) | mahnwesen | 2619 KISPI | hoch | offen |
 | 16.06.2026 | RE-00088-Konflikt: Kispi (M. Baumgartner) meldet Zahlung am 02.06.; Rechnung in bexio nicht mehr offen (bezahlt/abgeglichen) — die am 13.06. versendete Mahnung 2 war damit gegenstandslos. M. Spoerri bestaetigt 16.06.: Rechnung kontiert und zur Verarbeitung weitergeleitet. Mahnung ggf. zuruecknehmen/entschuldigen | mahnwesen/mail | 2619 KISPI | hoch | zu pruefen |
 | 18.06.2026 | SharePoint-Online-Speicher voll (nun 1055.04 / 1054 GB belegt, Microsoft-Warnung erneut 24.06.) — blockiert die OneDrive-Output-Ablage; Speicher aufstocken oder Altdaten aufraeumen | mail/infrastruktur | M365/OneDrive | mittel | offen |
 | 18.06.2026 | bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen (support@bexio.com inaktiv) | zahlungsabgleich | bexio | mittel | offen |

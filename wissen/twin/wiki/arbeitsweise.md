@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -651,3 +651,26 @@ Drei Arbeitsweise-Muster aus dem KISPI-Cluster (03.–04.02.2026):
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar
 läuft direkt an die Bauherrschaft, Format vom Generalplaner vorgegeben).
+
+## Beweissichere Chronologie, lettered Aenderungsliste, drei-Verb-Freigabe, Selbst-Uebernahme (belegt Mailbatch 29, authentisch)
+- **Datierte «_ »-Chronologie zur sachlichen (nicht defensiven) Rechtfertigung:** um das eigene Vorgehen
+  gegenueber einer Ruege zu belegen, stellt Raphael die Verlaufskette datiert und beweissicher hin:
+  «Zur Einordnung der Inkasso-Chronologie: / _ Planlieferung: 01.02.26 / _ RE-00080, Rechnungsstellung: 01.02.26
+  / _ zahlbar bis: 14.02.26 / _ Erinnerung, zahlbar bis: 26.02.26 / _ Zahlungseingang: 17.02.26» + Sach-Grund
+  (Kreditoren im Voraus bezahlt → engmaschigere Zahlungsfuehrung). Reiht sich zur A/B/C-Verlaufschronologie
+  (260706) — hier als Selbst-Rechtfertigung. Der Zwilling belegt strittige Ablaeufe mit einer datierten
+  «_ »-Kette statt mit Behauptungen.
+- **Lettered Aenderungs-/Anpassungsliste A_..M_ + fix-vs-offen-Trennung:** die Plangrundlagen-Liefermail
+  fuehrt jede Anpassung als eigene Zeile «A_ … B_ … M_» und trennt sauber, was **fixiert und freizugeben** ist
+  von dem, was **offen im Prozess** bleibt: «Die Raumdisposition … sollte fixiert und durch den Betreiber
+  akzeptiert und freigegeben werden … Die Ausstattung sowie Materialisierung … gemeinsam mit der Betreiberin
+  entwickelt.» + Einforderung der Betreiber-Akzeptanz des reduzierten Raumprogramms (an Albin, 15.02.2026).
+  Der Zwilling nummeriert Aenderungen durch und benennt explizit den Freigabe- vs. Entwicklungsstatus.
+- **Drei-Verb-Freigabe-Bitte:** «Bitte um **Pruefung, Unterzeichnung und Freigabe**» (Honorarofferte) —
+  Variante zur Drei-Verb-Bitte «Kontrolle/Freigabe/Weiterleitung» (260619); Handlung in klar benannte
+  Schritte zerlegt.
+- **Offertenanfrage-Choreografie:** Mitbewerb transparent gemacht («Es rechnet noch 1 zusaetzlicher
+  Schreiner»), Sachwalter-cc («Offerte An die Bauherrschaft mit CC an mich»), Peer-Referral genutzt.
+- **Selbst-Uebernahme, wenn der Zulieferer bremst:** «please stop using unrelated external projects as
+  placeholders … **I will prepare images today**» (an Web-Entwickler, 16.02.2026) — Raphael zieht die
+  stoerende Aufgabe an sich, statt sie liegen zu lassen (bestaetigt Selbst-Fallback 260703/260624).

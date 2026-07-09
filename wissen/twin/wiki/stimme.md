@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1000,3 +1000,25 @@ Sie-lastiger Operativ-Batch (163 W, Du-Gross 0.0), mehrere neue authentische Kur
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei
 rein technischer Aerospace-Korrespondenz (bislang nur Architektur-Freelancer belegt);
 Mundart-Schwelle (wann kippt eine Du-Mail von Hochdeutsch in Mundart).
+
+## Leitidee-Formel «im Sinne der …», «Alles klar.»-Opener, A_/B_-Typografie (belegt Mailbatch 29, authentisch)
+- **«im Sinne der/des …»** als knappe Absichts-/Leitidee-Formel («im Sinne der Denkmalpflege», Batch 29;
+  «im Sinne des Objektes», 260708): eine Qualitaets-Absicht in drei Worten statt eines Katalogs. Der Zwilling
+  darf eine Absicht so verdichten.
+- **«Alles klar.»** als knapper zustimmend-annehmender Opener bei berechtigter Kritik (an «Liebe Maria»,
+  17.02.2026) — souveraen, nicht kleinlaut.
+- **Lettered Bullet-Typografie «A_ … B_ … M_»** neben den bekannten Eigenstilen «_ » (Haupt-Aufzaehlung),
+  «A)/B)», «➢» (zweite Ebene) und «–» (Entscheidungsfrage): fuer eine durchnummerierte Aenderungs-/Punkteliste
+  setzt Raphael einen Grossbuchstaben + Unterstrich je Zeile. Ergaenzt das eigene Bullet-Set um die
+  **lettered Variante**.
+- Bestaetigt: «Frage:»-Opener (Offertenanfrage), «ueberlasse ich Euch/Ihnen … zur Info», Service-Satz «Bei
+  Fragen oder Unklarheiten stehe ich Euch jederzeit gerne zur Verfuegung», «Besten Dank fuer das geschenkte
+  Vertrauen» als Mandats-Dank; **«Lieber Gruss» kann auch im Sie-Handwerker-Faden** stehen (Register-Waermung
+  innerhalb des Threads: die urspruengliche Anfrage schloss «Freundliche Gruesse», die Folgemail «Lieber Gruss»).
+- **Echo-Falle, 10. Beleg (Feb-2026-Zaesur):** polierte englische «My notes»-Design-Logik-Bullets im
+  Hleb-Website-Thread = KI-assistiert → ausgeschlossen; nur der handgetippte Rahmen («Hi Hleb, thanks …»,
+  blunt «please stop using … placeholders», ehrliche Wissensgrenze, «Best regards, Raphael») ist authentisch.
+- Mikro-Metrik Batch 29 (684 W, Du-lastiger Mix + Sie-Handwerker/Behoerde): Du-Gross-Quote **0.857**;
+  Tausender-Apostroph 0 (registerbedingt); Satzlaenge oe **15.5 W**; Anreden «Geschaetzter Albin/Nesa» /
+  «Liebe Maria» / «Sehr geehrter Herr» 2×; Gruesse «Freundliche Gruesse» 2× / «Lieber Gruss» 2× (+ Typo
+  «Liebe Gruss»); keine Ellipsen/«%».

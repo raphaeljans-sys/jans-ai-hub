@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -599,3 +599,21 @@ Neue Anrede-Nuance und Kontakt-Paare aus dem Cluster 23.–30.01.2026:
 Feinunterschied «Hoi» vs. «Lieber» (beide Du-warm) — wann welches? Register bei Eskalation
 gegenüber einem Du-Kontakt. Peer-Architekten-Du im Projektverlauf (wie warm/operativ wird es,
 sobald aus der Akquise eine Zusammenarbeit wird)?
+
+## Zwei Honorifika in EINER Gruppen-Du-Anrede + Referral-Waermung (belegt Mailbatch 29, authentisch)
+- **«Geschaetzter Nesa, werter Albin»** (Honorarofferte an Betreiber + Partnerbuero, 18.02.2026): in
+  der Gruppen-Du-Anrede stehen **zwei verschiedene Ehren-Honorifika nebeneinander** («Geschaetzter» +
+  «werter»), je Empfaenger eines. Erweitert die gestapelte Gruppen-Anrede «Geschaetzter Christoph & Gerry»
+  (260704): Raphael differenziert die Waermestufe innerhalb einer Mehr-Empfaenger-Zeile. Der Zwilling darf
+  je Empfaenger ein eigenes Honorifikum setzen, wenn zwei unterschiedlich nahe Kontakte gemeinsam adressiert
+  sind.
+- **Referral-Waermung des Kaltkontakts:** «**Fabio Don hat mir Dankenderweise Ihren Kontakt vermittelt**»
+  oeffnet einen kalten Sie-Erstkontakt (Schreiner Giacometti/Steinmann AG, 18.02.2026), indem der gemeinsame
+  Peer namentlich als Brueckenbauer genannt wird — waermt das foermliche Sie, ohne es zu Du zu machen.
+- **Geld/Rechnung an warm-Du bleibt warm:** Zahlungserinnerungs-Nachgang an eine Familien-/warm-Du-Kontakt
+  («**Liebe Maria**» → «**Lieber Gruss**», 17.02.2026) bestaetigt die Undine-Kippvariable (260707): die
+  persoenliche Naehe sticht den Geld-«Freundliche Gruesse»-Default.
+- Neue/bestaetigte Mappings: **Nesa** (KHGP, Partnerbuero, Du) · **Stefanie Sonderegger** (KISPI, «Geschaetzte
+  Stefanie»/«Hoi Stefanie», Du) · **Giacometti / Steinmann AG** (Schreiner/Fenster, Sie, via Fabio-Referral) ·
+  **Christen** (AfS Bauberatung Denkmalpflege Stadt ZH, Sie-Behoerde) · **Minor** (Wuest Partner, Sie) ·
+  **Maria Jans** (Familie, warm-Du).

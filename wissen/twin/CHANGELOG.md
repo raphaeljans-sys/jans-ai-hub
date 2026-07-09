@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-09 — twin-mail-training Batch 29 (Sent Items rj@, 2026-02-14 bis 2026-02-19)
+- 20 Mails gesichtet, 6 Volltexte gelesen; Du-lastiger Mix + Sie-Handwerker/Behörde (684 W, Du-Gross 0.857,
+  ø 15.5 W, keine Apostroph/Ellipsen). Raw-Marker: `raw/260709-mailbatch-29.md`. Feb-2026-Zäsur beachtet.
+- **beziehungsregister:** «Geschätzter Nesa, werter Albin» = zwei Honorifika in EINER Gruppen-Du-Anrede;
+  Referral-Wärmung «X hat mir Ihren Kontakt vermittelt» öffnet Kalt-Sie; Geld an warm-Du bleibt «Liebe Maria»/
+  «Lieber Gruss»; Mappings Nesa (KHGP)/Sonderegger (KISPI)/Giacometti (Steinmann, Sie)/Christen (AfS)/Minor
+  (Wüest)/Maria Jans (Familie).
+- **haltung:** nicht-defensiv lernbereit auch bei Kritik vom warm-Du/Familie («Alles klar. Ich mache das nächstes
+  Mal besser. Deine Rückmeldung ist dafür hilfreich»); Honorar-Ehrlichkeit — wirtschaftlichen Boden explizit
+  benennen + Schätzung konditional an Bauherren-Mitwirkung koppeln; kooperative Behördenrücksicht «im Sinne der
+  Denkmalpflege».
+- **arbeitsweise:** datierte «_ »-Inkasso-Chronologie als sachliche Selbst-Rechtfertigung; lettered A_..M_
+  Änderungsliste + fix-vs-offen-Trennung (Raumdisposition freigeben lassen / Ausstattung offen); drei-Verb-
+  Freigabe «Prüfung, Unterzeichnung und Freigabe»; Offertenanfrage mit transparentem Mitbewerb + Sachwalter-cc;
+  Selbst-Übernahme wenn Zulieferer bremst.
+- **fachsignatur:** präzise Lichtmass-/RAL-9010-Materialspec + Richtpreis-Frist; Healthcare-Raumcodes inline +
+  ehrliche m²-Knappheits-Kritik; SIA-Honorar 640h → Fr. 93.75/h mit offenem Boden; «im Sinne der Denkmalpflege/
+  des Objektes»-Leitidee-Formel.
+- **stimme:** «im Sinne der …»-Leitidee-Formel; «Alles klar.»-Zustimm-Opener; A_/B_-lettered Bullet-Typografie
+  neben «_ »/«A)»/«➢»/«–»; «Lieber Gruss» auch im Sie-Handwerker-Faden (Register-Wärmung); Echo-Falle 10. Beleg
+  (Hleb-Design-Prosa ausgeschlossen).
+- **_INGESTED:** Sweep-Pointer auf 2026-02-19 vorgerückt; nächster Lauf ab 2026-02-19.
+
 ## 2026-07-08 — twin-mail-training Batch 28 (Sent Items rj@, 2026-02-12 bis 2026-02-14)
 - 20 Mails gesichtet, 5 Volltexte destilliert; reiner Operativ-Sie-Batch (163 W, Du-Gross 0.0, ø 9.6 W,
   Freundliche Grüsse 5×). Raw-Marker: `raw/260708-mailbatch-28.md`.
