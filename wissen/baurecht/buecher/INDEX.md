@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -16,11 +16,29 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Status: `emerging`.
 - [[13-weitere-grundanforderungen]] — Kap. 13 Teil 1 (S. 810-857): **Weitere Grundanforderungen
   an Bauten und Anlagen** — **§ 238 Aesthetik-Generalklausel** (Einordnung), **Solar Art. 18a RPG**.
-  24 Doppelseiten. Status: `emerging` (Rest > Shot 430 offen: §§ 239a/240/242/248).
+  24 Doppelseiten. Status: `emerging`. Teil 2 siehe unten.
+- [[13-weitere-grundanforderungen-teil2]] — Kap. 13 Teil 2 (S. 858-891): **Einordnung Forts. § 238**
+  (Landwirtschafts-/Kleinbauten, Tankstellen, **Umgebung/Umschwung § 238 Abs. 3** ohne Ausnuetzungs-
+  wirkung, Stuetzmauern, Gruenflaechen, Umgebungsplan §§ 71/73, **Baumschutz §§ 203 ff./76**, Neobiota
+  Art. 15 FrSV), **Sonstige Beschaffenheit § 239** (Regeln der Baukunde § 239 Abs. 1 / Art. 229 StGB /
+  Art. 58 OR, Baumaterialien § 239 Abs. 2 / BauPG / PrSG; §§ 239a-d hindernisfrei nur verwiesen → S. 1269),
+  **Verkehrssicherheit §§ 240/241** (VSiV 722.15 / StrAV 700.4 / EV, Ausfahrten/Sichtbereiche **90/150/50 m**
+  § 16 StrAV, Einfriedungen §§ 11/12 StrAV, Ersatzzufahrt-Enteignung § 241), **Strassenreklamen** (Art. 6
+  SVG / Art. 95-99 SSV / § 100 Abs. 3 PBG). 17 Doppelseiten (Shot 434 = Dup 862/863). Status: `emerging`
+  (§§ 242 Antennen / 248 Camping erst nach S. 891 → Folge-Shots offen). Speist [[raumplanung-und-gestaltung]].
 - [[16-gebaeudedimensionen-teil2-hoehen-dach]] — Kap. 16 Teil 2 (S. 1154-1193): **Gebaeude-/First-
   hoehe** — §§ 278/279/280 PBG Gebaeudehoehe, **§ 281 Firsthoehe**, **§ 292/Art. 7a BO «Kaeseglocke»**,
-  **§ 5 ABV gewachsener Boden**. 20 Doppelseiten. Status: `emerging` (Rest «Umgebung» ab Shot 601 offen).
-  Speist [[geschosse-und-kniestock]].
+  **§ 5 ABV gewachsener Boden**. 20 Doppelseiten. Status: `emerging`. Teil 3 siehe unten.
+- [[16-gebaeudedimensionen-teil3-umgebung]] — Kap. 16 Teil 3 (S. 1194-1229): **Hochhaeuser /
+  Gebaeudelaenge-breite / Dachaufbauten / Freilegung UG** — **16.6 Hochhaeuser** (Gebaeudehoehe **> 25 m**
+  § 282 / § 284, keine erhoehte Ausnuetzung, **Schattenwurf > 2 h** § 30 Abs. 1 lit. a ABV), **16.7
+  Gebaeudelaenge/-breite** (laengere/kuerzere Seite flaechenkleinstes Rechteck § 28 ABV; ≤ 0.5 m ueber
+  Terrain nicht eingerechnet), **16.8 Dachaufbauten** (**Drittelsregel ≤ 1/3 Fassadenlaenge § 292 PBG**;
+  Kamine/Solar zaehlen nicht; Kreuzfirst/Quergiebel keine Aufbaute BEZ 2014 Nr. 9), **16.9 Freilegung
+  Untergeschosse/Abgrabungen** (**≤ 1.5 m ueber gestaltetem Boden § 293 PBG**; § 293 misst gestaltetes,
+  § 280 gewachsenes Terrain; kommunal strenger, z.B. 1 m Kuesnacht). 18 Doppelseiten. Status: `emerging`
+  (16.9-Schluss S. 1230 f. offen — laeuft in den bereits distillierten Teil 16.10 Harmonisierung).
+  Speist [[geschosse-und-kniestock]] + [[abstaende-und-hoehen]].
 - [[17-gebaeude-und-raeume-teil2-ausruestungen]] — Kap. 17 Teil 2 (S. 1256-1303): **Ausruestungen** —
   §§ 295-298 PBG Heizung/Fernwaerme, **§ 4 ABV**, **§§ 239a/239b BehiG** (Hindernisfreiheit), Schutzraeume.
   24 Doppelseiten. Status: `emerging` (Garagen §§ 37-39 BBV I noch offen).
@@ -333,7 +351,19 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **8.2 Unterbruch § 328 PBG** («ewige Baustelle», Missverhaeltnis Bauzeit↔Volumen VB.2014.00026; **Areal-
   ueberbauung max. 2 J.**; Aufforderung → Androhung lit. a-d → Ersatzvornahme § 30 VRG / ges. Pfandrecht
   § 15 VRG); **8.3** Sicherheit/**Regeln der Baukunde § 239 PBG** (Anfang). 12 Doppelseiten (245-256). Status:
-  `emerging` (8.3-Detail + Kap.-Ende S. 510-534 offen). Speist [[bauausfuehrung-und-baukontrolle]].
+  `emerging`. **Schluss siehe Teil 2.** Speist [[bauausfuehrung-und-baukontrolle]].
+- [[08-ausfuehrung-teil2-baustellensicherheit]] — Kap. 8 Teil 2 / **Schluss** (S. 510-535): **Sicherheit
+  der Baustelle + Baustellenentsorgung + Bauemissionen + amtliche Vermessung** — **8.3.1.3 Schutz
+  benachbarten Grundeigentums** (§ 239 Abs. 1 PBG, **Rissprotokoll** = privatrechtl. Rechtsbehelf,
+  Beweislast Art. 8 ZGB, BEZ 2016 Nr. 15; §§ 679/684 ZGB, §§ 229 ff. Hammerschlagsrecht), **8.3.2
+  Feuerpolizei Baustelle** (Art. 58 BSN, Brandschutzrichtlinie — Detail → Skill `brandschutz`), **8.3.3
+  Arbeitnehmerschutz** (**VUV** + **BauAV**, SUVA-Meldung Asbest Art. 60a/60b BauAV), **Baustellen-
+  entsorgung** (**Entsorgungskonzept ab > 200 m³ Bauabfaellen oder Schadstoffen** Art. 16 VVEA;
+  Asbestverbot ChemRRV Anh. 1.6; «Bauherren-Altlast» **2/3-Rueckgriff Art. 32bis USG**), **Bauemissionen**
+  (Baulaerm-Richtlinie 3 Massnahmenstufen A/B/C statt Grenzwerten, Art. 6 LSV; Baustellenwasser SIA 431/
+  AWEL-Bewilligung), **8.6 amtliche Vermessung** (Aufnahme binnen 1 J. § 19 KVAV). 13 Doppelseiten
+  (Shots 257-269). Status: `emerging`. **SCHLIESST Kap. 8 (Kap. endet S. 535; damit Band 1 substanziell
+  komplett ausser Kap. 18 Brandschutz → Skill `brandschutz`).** Speist [[bauausfuehrung-und-baukontrolle]].
 
 ## Abdeckungs-Matrix (Kurzform)
 
@@ -341,12 +371,12 @@ Trainingslauf (`../training/PROGRAMM.md`).
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
 | 11 | Allgemeine Bestimmungen Baupolizeirecht | 🟡 teilweise (§§218-232 PBG + Hammerschlagsrecht §§229/230, S.686-704) |
-| 13 | Weitere Grundanforderungen | 🟡 teilweise (§238 Aesthetik-Generalklausel + Solar Art.18a RPG, S.810-857; Rest §§239a/240/242/248 ab Shot 431 offen) |
+| 13 | Weitere Grundanforderungen | 🟢 weitgehend (Teil 1 §238 Aesthetik-Generalklausel + Solar Art.18a RPG S.810-857; Teil 2 §238-Forts. Umgebung/Baumschutz + §239 Regeln der Baukunde/Baumaterialien + §§240/241 Verkehrssicherheit/Sichtbereiche §16 StrAV + Strassenreklamen Art.6 SVG S.858-891; nur §§242 Antennen/248 Camping ab S.892 offen) |
 | 15 | Lage von Gebaeuden | 🟢 weitgehend (System/Gebaeudearten/Wald/Gewaesser/Baulinien + Grenz-/Gebaeudeabstand §§269-273 + Grenzbaurecht §274/§27 Abs.2 ABV, S.995-1123; **nur 15.13 Harmonisierungsvorlage S.1124-1133 offen**) |
-| 16 | Gebaeudedimensionen | 🟡 teilweise (Geschosse + Kniestock S.1135-1153 + Gebaeude-/Firsthoehe §§278-281/§292 «Kaeseglocke»/§5 ABV S.1154-1193; «Umgebung» ab Shot 601 offen) |
+| 16 | Gebaeudedimensionen | 🟢 weitgehend (Geschosse + Kniestock S.1135-1153 + Gebaeude-/Firsthoehe §§278-281/§292 «Kaeseglocke»/§5 ABV S.1154-1193 + Hochhaeuser §282/284 «>25 m»/Schattenwurf §30 ABV + Gebaeudelaenge-breite §28 ABV + **Dachaufbauten Drittelsregel §292** + Freilegung UG §293 S.1194-1229; nur 16.9-Schluss/16.10 Harmonisierung teilw. offen) |
 | 6 | Baurechtliches Verfahren | 🟢 vollstaendig (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405 + Teil 2 Anzeigeverfahren §325/§§13-15 BVV + private Kontrolle §§4-7 BBV I + Empfehlungen S.402-421) |
 | 7 | Zustaendigkeiten/Entscheide/Auskuenfte | 🟢 vollstaendig (7.1 Entscheid/Nebenbestimmungen §321 + 7.1.5/7.1.6 Gueltigkeit/Widerruf §322/§328, 7.2 besondere kant. Zustaendigkeiten, 7.3 Vorentscheid §§323/324, 7.4 Auskuenfte — S.424-484) |
-| 8 | Ausfuehrung von Bauarbeiten | 🟡 teilweise (8.1 Baufreigabe §326/Meldepflichten §327 Abs.1/Kontrollen §327 Abs.2/Bezugsbewilligung+Schlusskontrolle/Akteneinsicht + 8.2 Unterbruch §328 + 8.3-Anfang §239, S.485-509; 8.3-Detail + Kap.-Ende S.510-534 offen) |
+| 8 | Ausfuehrung von Bauarbeiten | 🟢 vollstaendig (Teil 1 8.1 Baufreigabe §326/Meldepflichten §327/Kontrollen §327 Abs.2/Bezugsbewilligung+Schlusskontrolle/8.2 Unterbruch §328/8.3-Anfang §239 S.485-509; Teil 2 8.3 Baustellensicherheit/Nachbarschutz §239 Abs.1/Rissprotokoll + Feuerpolizei + Arbeitnehmerschutz VUV/BauAV + Baustellenentsorgung Art.16 VVEA/Altlasten + Baulaerm + amtl. Vermessung §19 KVAV S.510-535 = Kap.-Ende) |
 | 9 | Rechtsschutz | 🟢 vollstaendig (Teil 1 Instanzen/Legitimation/Kognition S.537-575; Teil 2 Fristen/**4 Phasen**/aufschieb. Wirkung §339 PBG/Kosten §338/**Revision §86a**/Mediation S.576-606) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 S.1241-1255 + Ausruestungen §§295-298/§4 ABV/Heizung-Fernwaerme + Hindernisfreiheit §§239a/239b BehiG + Schutzraeume S.1256-1303; Garagen §§37-39 BBV I offen) |
 | 19 | Baulicher Umweltschutz | 🟡 teilweise (USG/LRV/LSV, Laerm ES I-IV, Art.31/32 LSV, SIA 181, S.1357-1403; Rest ab Shot 706 offen) |

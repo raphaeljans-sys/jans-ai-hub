@@ -124,10 +124,33 @@ wurden.
   auf Gesuch verlängerbar» — korrigiert (§ 322 Abs. 1 PBG: Verwirkung, nicht verlängerbar; Modell D
   in `training/drills.md` dokumentiert).
 
+## Offene Wissenslücken / needs-verification — neu (2026-07-09, aus Buch-Run 24: Kap. 8 T2 / Kap. 13 T2 / Kap. 16 T3)
+- ~~**Rest Kap. 8 (Baustellensicherheit)**~~ → **erledigt 2026-07-09** (Run 24): Kap. 8 Teil 2 (S. 510-535)
+  distilliert [[08-ausfuehrung-teil2-baustellensicherheit]] — Schutz Nachbargrundeigentum § 239 Abs. 1 PBG/
+  **Rissprotokoll** (privatrechtl., Beweislast Art. 8 ZGB, BEZ 2016 Nr. 15), Feuerpolizei (→ `brandschutz`),
+  Arbeitnehmerschutz VUV/BauAV, Baustellenentsorgung Art. 16 VVEA (**Konzept ab > 200 m³**)/Bauherren-Altlast
+  Art. 32bis USG (2/3-Rückgriff), Baulärm-Richtlinie (Stufen A/B/C), amtl. Vermessung § 19 KVAV. Wiki
+  [[bauausfuehrung-und-baukontrolle]] Abschn. 6 geschärft. **Kap. 8 endet S. 535 → Band 1 komplett (ausser
+  Kap. 18 Brandschutz).**
+- **NEU Kap. 13 offen — §§ 242 (Antennen) / 248 (Camping/Fahrnisbauten):** stehen erst **nach S. 891**
+  (Folge-Shots ab ~449), nicht im gelesenen Kap.-13-Teil-2-Bereich (S. 858-891). Bei Gelegenheit nachholen.
+- **needs-verification — Kap. 13 Teil 2 (§§/Erlasse):** § 238 Abs. 3 PBG (Umgebung/Umschwung ohne
+  Ausnützungswirkung, BEZ 2011 Nr. 6), § 239 Abs. 1/2 PBG (Regeln der Baukunde / Baumaterialien; Art. 229
+  StGB, Art. 58 OR, BauPG, PrSG), § 240/§ 241 PBG (Verkehrssicherheit), **§ 16 StrAV Sichtbereiche 90/150/50 m**,
+  §§ 11/12 StrAV (Einfriedungen), Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
+  sinngemäss nach Buch S. 858-891, am amtlichen Volltext gegenprüfen (Modell D). **§§ 239a-d (hindernisfrei)
+  hier nur verwiesen → Buch S. 1269.**
+- **needs-verification — Kap. 16 Teil 3 (§§/Erlasse):** § 282/§ 284 PBG (Hochhaus > 25 m Gebäudehöhe, keine
+  erhöhte Ausnützung), **§ 30 Abs. 1 lit. a ABV Schattenwurf > 2 h** (Vernehmlassung 2018: 3 h), § 28 ABV
+  (Gebäudelänge/-breite flächenkleinstes Rechteck, ≤ 0,5 m nicht eingerechnet), **§ 292 PBG Dachaufbauten
+  ≤ 1/3 Fassadenlänge** (Kamine/Solar/Kreuzfirst zählen nicht, BEZ 2014 Nr. 9), § 293 PBG (Freilegung UG
+  ≤ 1,5 m über *gestaltetem* Boden; § 280 = *gewachsenes* Terrain) — am amtlichen PBG-/ABV-Volltext prüfen.
+- **NEU Kap. 16 offen — 16.9-Schluss (S. 1230 f.):** Abgrabungen/Freilegung UG endet nicht auf S. 1229;
+  läuft in den bereits distillierten Teil 16.10 (Harmonisierung, Shot 619). Kleiner Rest, bei Gelegenheit.
+
 ## Offene Wissenslücken / needs-verification — neu (2026-06-22, aus Buch-Run Kap. 8)
-- **Rest Kap. 8 offen (Restschuld):** ab S. 510 — 8.3 Sicherheit der Baustelle Detail (Bauherrenhaftung,
-  Schutz von Nachbargrundstücken, Werkleitungen), allfälliges 8.4, bis Kapitelende S. 534 (Shots 257-269)
-  noch nicht distilliert.
+- ~~**Rest Kap. 8 offen (Restschuld):** ab S. 510 — 8.3 Sicherheit der Baustelle Detail~~ → **erledigt
+  2026-07-09** (Run 24, siehe oben). Restfrei.
 - **needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 326/327/328/239/329 PBG (Baufreigabe,
   Meldepflichten/Kontrollen, Unterbruch + die lit. a-d des § 328 Abs. 2, anerkannte Regeln der Baukunde),
   § 309 Abs. 1 lit. c PBG (Abbruch-Bewilligungspflicht nur Kernzone), §§ 8/9/10c/15/30 VRG, § 12a BBV I/II,
@@ -243,12 +266,15 @@ wurden.
   Detail distilliert.
 
 ## Offene Wissenslücken — neu (2026-06-10, aus Buch-Run Kap. 16 Teil 1)
-- **Gebäude-/Firsthöhe** (Kap. 16 Teil 2): Messweise Gebäudehöhe, Firsthöhe, Mehrhöhen, Attika,
-  Dachgestaltung/Dachaufbauten/Lukarnen, Terrainveränderung — noch nicht distilliert (Shots ab 581,
-  S. 1154 ff.). Ergänzt dann [[abstaende-und-hoehen]] und [[geschosse-und-kniestock]].
+- ~~**Gebäude-/Firsthöhe** (Kap. 16 Teil 2): Dachgestaltung/Dachaufbauten/Lukarnen, Terrainveränderung~~
+  → **erledigt** (Teil 2 Welle 1 2026-06-29 Höhen/Firsthöhe §§278-281; **Teil 3 Run 24 2026-07-09**
+  Dachaufbauten-Drittelsregel § 292 / Hochhäuser § 282 / Freilegung UG § 293, distilliert
+  [[16-gebaeudedimensionen-teil3-umgebung]], Wiki [[abstaende-und-hoehen]] geschärft).
 - **§ 19 BBV II** (Liftbauten-/Hindernisfrei-Erleichterung für Altbauten): die vier
   Voraussetzungen nur kursorisch erfasst — am amtlichen Volltext (BBV II) verifizieren.
-- **§ 293 PBG** (Freilegung von Untergeschossen): kommunale Konkretisierung in der BZO offen.
+- ~~**§ 293 PBG** (Freilegung von Untergeschossen): kommunale Konkretisierung in der BZO offen.~~
+  → **teil-erledigt Run 24:** § 293 Abs. 1 = **≤ 1,5 m über gestaltetem Boden**, kommunal strenger möglich
+  (§ 293 Abs. 4; z.B. 1,0 m Küsnacht). Genaue BZO-Werte je Gemeinde bleiben einzelfallabhängig.
 
 ## Offene Wissenslücken — neu (2026-06-11, aus Buch-Run Kap. 15 Teil 1)
 - **Grenz-/Gebäudeabstand konkret** (§§ 269-274 PBG): grosser/kleiner Grenzabstand,

@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-04
+last_updated: 2026-07-09
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -866,3 +866,43 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   **anrechenbar**; die Deklaration «Keller» schuetzt nicht. Soll er wirklich nutzungsbeschraenkt bleiben,
   ist die Eignung **baulich** zu beseitigen — eine blosse Grundbuch-Anmerkung (Nutzungsrevers) genuegt nur
   in Grenzfaellen (BEZ 2010 Nr. 37; Bd 2 S. 942-946). _[2026-07-08]_
+
+## Kap. 8 — Ausfuehrung / Baustellensicherheit (Run 24, 2026-07-09)
+
+- **F (Modell C):** Wer traegt die Beweislast fuer Bauschaeden am Nachbargebaeude, und wie sichert man
+  Beweise vor Baubeginn? — **A:** Der **Geschaedigte** (Art. 8 ZGB). Beweissicherung via **Rissprotokoll**
+  (durch den Gemeindeammann, auf eigene Kosten) — ein **privatrechtlicher** Rechtsbehelf; das
+  Baurekursgericht ist dafuer **nicht** zustaendig (BEZ 2016 Nr. 15; Bd 1 S. 510). _[2026-07-09]_
+- **F (Modell C):** Ab welcher Menge/welchen Stoffen braucht es ein Entsorgungskonzept bei Bauabfaellen? —
+  **A:** Ab voraussichtlich **> 200 m³** Bauabfaellen oder bei umwelt-/gesundheitsgefaehrdenden Stoffen
+  (PCB/PAK/Blei/**Asbest**); Bauten vor 1990 erfordern eine Schadstoff-Vorabklaerung (**Art. 16 VVEA**;
+  Bd 1 S. 514). _[2026-07-09]_
+- **F (Modell C):** Wie wird Baulaerm im Kt. ZH beurteilt? — **A:** **Nicht** ueber Grenzwerte, sondern
+  ueber die **Baulaerm-Richtlinie** (BAFU) nach dem **Vorsorgeprinzip** in drei Massnahmenstufen **A/B/C**
+  (Art. 6 LSV / Art. 38 Abs. 2 USG); laermige Arbeiten grds. tagsueber (Bd 1 S. 527 ff.). _[2026-07-09]_
+
+## Kap. 13 — Verkehrssicherheit / Umgebung (Run 24, 2026-07-09)
+
+- **F (Modell C):** Welche Sichtbereiche an Strassenverzweigungen/Ausfahrten sind freizuhalten und wie hoch
+  duerfen Pflanzen darin sein? — **A:** **Innerorts 90 m, ausserorts 150 m, mit begleitendem Radweg 50 m**;
+  Pflanzen ≤ **0,8 m**, zwischen 0,8 m und 3 m keine hineinragenden Teile (**§ 16 StrAV**; Bd 2 S. 880 f.).
+  _[2026-07-09]_
+- **F (Modell C):** Hat § 238 Abs. 3 PBG (Umgebung/Begruenung) eine ausnuetzungsbeschraenkende Wirkung? —
+  **A:** **Nein** — anders als die Freiflaechenziffer § 257 PBG dient § 238 Abs. 3 PBG nur der
+  Siedlungsqualitaet, ohne die Ausnuetzung zu beschraenken (**BEZ 2011 Nr. 6**; Bd 2 S. 862). _[2026-07-09]_
+
+## Kap. 16 — Dachaufbauten / Hochhaeuser (Run 24, 2026-07-09)
+
+- **F (Modell C):** Wie breit duerfen Dachaufbauten insgesamt sein, und was zaehlt nicht dazu? — **A:**
+  Insgesamt hoechstens **ein Drittel (1/3) der betreffenden Fassadenlaenge** (**§ 292 PBG**, soweit BZO
+  nichts anderes sagt). Kamine, Antennen, Solaranlagen und ein **Kreuzfirst/Quergiebel** zaehlen **nicht**
+  als Dachaufbaute (BEZ 2014 Nr. 9; Bd 2 S. 1210 ff.). _[2026-07-09]_
+- **F (Modell C):** Ab welcher Hoehe gilt ein Gebaeude als Hochhaus, und welche Hoehe ist massgebend? —
+  **A:** **Gebaeudehoehe > 25 m** (nicht Gesamthoehe), § 282 i.V.m. § 278 Abs. 3 PBG; nur zulaessig, wo die
+  BZO Hochhaeuser vorsieht (§ 284), **ohne** erhoehte Ausnuetzung (Bd 2 S. 1194 ff.). _[2026-07-09]_
+- **F (Modell A · Frage→Beleg):** Ein nicht anrechenbares Untergeschoss soll an der Hangseite freigelegt
+  werden — wie weit darf es ueber Terrain erscheinen, und welches Terrain zaehlt? — **A:** Hoechstens
+  **1,5 m ueber dem *gestalteten* Boden** (**§ 293 Abs. 1 PBG**); Achtung: § 293 misst das **gestaltete**,
+  § 280 das **gewachsene** Terrain — bei Hanglagen auseinanderhalten. Die Gemeinde kann strenger sein
+  (§ 293 Abs. 4; z.B. 1,0 m in Kuesnacht). Terrainfuehrung → Skill `massgebendes-terrain` (Bd 2 S. 1224 ff.).
+  _[2026-07-09]_

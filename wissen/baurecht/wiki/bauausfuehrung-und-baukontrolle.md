@@ -2,9 +2,9 @@
 name: bauausfuehrung-und-baukontrolle
 beschreibung: Die Bauausfuehrungsphase im ZH-Baurecht — Baufreigabe (§ 326 PBG), Meldepflichten + baupolizeiliche Kontrollen (§ 327 PBG), Bezugsbewilligung/Schlusskontrolle, Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG), Sicherheit der Baustelle (§ 239 PBG).
 status: emerging
-last_updated: 2026-06-22
-quelle_buch: Bd. 1 Kap. 8, S. 485-509 ([[08-ausfuehrung-von-bauarbeiten]])
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV
+last_updated: 2026-07-09
+quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]])
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bis USG; §§ 2/15/19 KVAV
 ---
 
 # Bauausfuehrung und Baukontrolle (Kt. ZH)
@@ -80,7 +80,29 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 Bauten/Anlagen muessen nach **Fundation, Konstruktion, Material** den **anerkannten Regeln der Baukunde**
 entsprechen und duerfen Personen/Sachen nicht gefaehrden (§ 239 Abs. 1 PBG; Bewilligungsvoraussetzung,
 VB.2016.00551). Behoerdenaufgabe im Bewilligungsverfahren (§ 3 BVV) und waehrend der Bauarbeiten; primaere
-Verantwortung bleibt bei Bauherr/Unternehmer/Planer. *(Detail Kap. 8.3 ff. Restschuld.)*
+Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-ausfuehrung-teil2-baustellensicherheit]].
+
+- **Schutz benachbarten Grundeigentums (§ 239 Abs. 1 PBG):** Die Behoerde kann zum Schutz Dritter
+  eingreifen (VB.2016.00551). Bei riskanten Bauvorhaben wird vor Baubeginn ein **Rissprotokoll** des
+  Nachbargebaeudes aufgenommen — ein **privatrechtlicher Rechtsbehelf**; das Baurekursgericht ist dafuer
+  **nicht** zustaendig (BEZ 2016 Nr. 15). **Beweislast fuer Bauschaeden traegt der Geschaedigte** (Art. 8
+  ZGB), Beweissicherung auf eigene Kosten; nachbarrechtliche Grundlage Art. 679/684 ZGB, Inanspruchnahme
+  Nachbargrundstueck §§ 229 ff. PBG (Hammerschlagsrecht → [[11-allgemeine-bestimmungen-baupolizeirecht]]).
+- **Feuerpolizei auf der Baustelle:** seit 2015 Brandschutzrichtlinie «Brandverhuetung/organisator.
+  Brandschutz» (Art. 58 BSN) — Detail **nicht hier**, Skill `brandschutz`.
+- **Arbeitnehmerschutz:** Bundesrecht **VUV** (Unfallverhuetung) + **BauAV** (Bauarbeiten); Asbestsanierung
+  nur durch anerkannte Spezialfirmen mit **SUVA-Meldung** (Art. 60a/60b BauAV). Vollzug SUVA/kant.
+  Arbeitsinspektorat, nicht die Baubehoerde.
+- **Baustellenentsorgung:** **Entsorgungskonzept** einzureichen ab voraussichtlich **> 200 m³ Bauabfaellen**
+  oder bei Schadstoffen (PCB/PAK/Blei/**Asbest**) — Bauten vor 1990 erfordern Schadstoff-Vorabklaerung
+  (Art. 16 VVEA). Asbestverbot heute ueber § 239 Abs. 1/§ 358 PBG + ChemRRV Anh. 1.6. **«Bauherren-Altlast»:**
+  der Standortinhaber kann i.d.R. **2/3 der Mehrkosten** von den Verursachern zurueckfordern (Art. 32bis
+  USG) → Altlasten [[baureife-und-erschliessung]] / [[12-baureife-teil4-gebuehren-abfall-altlasten]].
+- **Bauemissionen:** **Baulaerm** wird nicht ueber Grenzwerte, sondern ueber die **Baulaerm-Richtlinie**
+  (drei Massnahmenstufen A/B/C, Vorsorgeprinzip, Art. 6 LSV / Art. 38 Abs. 2 USG) gesteuert; Baustellen-
+  **abwasser** SIA 431 (SN 409 431), AWEL-bewilligungspflichtig.
+- **Amtliche Vermessung (§§ 2/15/19 KVAV):** neue Bauten sind binnen **1 Jahr** in die amtliche Vermessung
+  aufzunehmen (§ 19 Abs. 1 KVAV) — Kap.-8-Schluss.
 
 ## JANS-Bezug
 

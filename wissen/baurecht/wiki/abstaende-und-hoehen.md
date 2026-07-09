@@ -1,9 +1,9 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-06-16
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111"]
-links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
+last_updated: 2026-07-09
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 284 PBG", "§ 292 PBG", "§ 293 PBG", "§ 28 ABV", "§ 30 Abs. 1 lit. a ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1194-1229"]
+links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[16-gebaeudedimensionen-teil3-umgebung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
 # Abstände und Höhen
@@ -149,3 +149,27 @@ Die einschränkenden **Linien** (Gewässerabstandslinie § 67 PBG, Baulinie § 9
 - **Attikageschoss:** zurückversetztes Geschoss auf dem Flachdach.
 
 Zonenspezifische Höhen- und Abstandswerte: siehe [[zonenkonformitaet]].
+
+## Hochhäuser, Gebäudelänge/-breite und Dachaufbauten (Kap. 16)
+Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
+
+- **Hochhaus** = **Gebäudehöhe > 25 m** (nicht Gesamthöhe; § 282 i.V.m. § 278 Abs. 3 PBG), nur
+  zulässig, wo die BZO Hochhäuser ausdrücklich vorsieht (§ 284 PBG). Ein Hochhaus **erhält keine
+  erhöhte Ausnützung** allein aus seiner Höhe. Grenzabstand: 3,5 + 13 = **16,5 m** (§ 270 Abs. 2 PBG,
+  Deckelung greift auch hier). **Schattenwurf-Schranke:** eine wesentliche Beeinträchtigung des
+  Nachbargrundstücks liegt vor, wenn ein Punkt an einem **mittleren Wintertag > 2 Stunden** beschattet
+  wird (**§ 30 Abs. 1 lit. a ABV**; Vernehmlassung 2018 wollte auf 3 h lockern).
+- **Gebäudelänge/-breite** (§ 28 ABV): Länge = **längere**, Breite = **kürzere** Seite des
+  **flächenkleinsten Rechtecks**, das den Grundriss umschliesst. Bauteile, die den Boden um **≤ 0,5 m**
+  überragen, werden nicht mitgerechnet (§ 28 Abs. 1 ABV). Massgebend für Mehrlängenzuschlag (oben) und
+  Arealüberbauungs-/BZO-Längenbeschränkungen (§§ 286/287 PBG).
+- **Dachaufbauten — Drittelsregel (§ 292 PBG):** Dachaufbauten (Lukarnen, Dachaufbauten, Zwerchgiebel)
+  dürfen **insgesamt höchstens ein Drittel (1/3) der betreffenden Fassadenlänge** einnehmen, soweit die
+  BZO nichts anderes bestimmt. **Nicht als Aufbaute** zählen Kamine, Antennen, Solaranlagen und kleinere
+  technische Aufbauten; ein **Kreuzfirst/Quergiebel** ist ebenfalls keine Dachaufbaute und fällt aus der
+  Drittelsregel (BEZ 2014 Nr. 9). Abzugrenzen vom **Dacheinschnitt** (negative Dachfläche, andere Regel).
+- **Freilegung von Untergeschossen / Abgrabungen (§ 293 PBG):** Ein **nicht anrechenbares Untergeschoss**
+  darf höchstens **1,5 m über dem gestalteten Boden** in Erscheinung treten (§ 293 Abs. 1 PBG). Merksatz
+  zur Bezugsebene: **§ 293 misst das *gestaltete* Terrain**, **§ 280 das *gewachsene*** — bei Hanglagen
+  auseinanderhalten. Die Gemeinde kann strenger sein (§ 293 Abs. 4 PBG; z.B. 1,0 m in Küsnacht).
+  → Hangbauten/Terrainführung: Skill `massgebendes-terrain`.

@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-07-08
+last_updated: 2026-07-09
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -272,19 +272,19 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 254 | 1 | 504/505 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.12.jpg` | [[band-1/08-ausfuehrung-von-bauarbeiten]] |
 | 255 | 1 | 506/507 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.14.jpg` | [[band-1/08-ausfuehrung-von-bauarbeiten]] |
 | 256 | 1 | 508/509 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.16.jpg` | [[band-1/08-ausfuehrung-von-bauarbeiten]] |
-| 257 | 1 | ~510 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.18.jpg` |  |
-| 258 | 1 | ~512 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.20.jpg` |  |
-| 259 | 1 | ~514 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.22.jpg` |  |
-| 260 | 1 | ~516 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.24.jpg` |  |
-| 261 | 1 | ~518 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.27.jpg` |  |
-| 262 | 1 | ~520 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.29.jpg` |  |
-| 263 | 1 | ~522 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.31.jpg` |  |
-| 264 | 1 | ~524 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.33.jpg` |  |
-| 265 | 1 | ~526 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.35.jpg` |  |
-| 266 | 1 | ~528 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.37.jpg` |  |
-| 267 | 1 | ~530 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.39.jpg` |  |
-| 268 | 1 | ~532 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.41.jpg` |  |
-| 269 | 1 | ~534 | [ ] | `Bildschirmfoto 2026-06-07 um 11.48.42.jpg` |  |
+| 257 | 1 | ~510 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.18.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 258 | 1 | ~512 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.20.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 259 | 1 | ~514 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.22.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 260 | 1 | ~516 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.24.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 261 | 1 | ~518 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.27.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 262 | 1 | ~520 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.29.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 263 | 1 | ~522 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.31.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 264 | 1 | ~524 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.33.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 265 | 1 | ~526 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.35.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 266 | 1 | ~528 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.37.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 267 | 1 | ~530 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.39.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 268 | 1 | ~532 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.41.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
+| 269 | 1 | ~534 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.42.jpg` | [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] |
 | 270 | 1 | 536/537 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.44.jpg` | [[band-1/09-rechtsschutz]] |
 | 271 | 1 | 538/539 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.46.jpg` | [[band-1/09-rechtsschutz]] |
 | 272 | 1 | 540/541 | [x] | `Bildschirmfoto 2026-06-07 um 11.48.48.jpg` | [[band-1/09-rechtsschutz]] |
@@ -446,24 +446,24 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 428 | 2 | 852/853 | [x] | `Bildschirmfoto 2026-06-07 um 11.53.35.jpg` | [[band-2/13-weitere-grundanforderungen]] |
 | 429 | 2 | 854/855 | [x] | `Bildschirmfoto 2026-06-07 um 11.53.37.jpg` | [[band-2/13-weitere-grundanforderungen]] |
 | 430 | 2 | 856/857 | [x] | `Bildschirmfoto 2026-06-07 um 11.53.39.jpg` | [[band-2/13-weitere-grundanforderungen]] |
-| 431 | 2 | ~857 | [ ] | `Bildschirmfoto 2026-06-07 um 11.53.41.jpg` |  |
-| 432 | 2 | ~859 | [ ] | `Bildschirmfoto 2026-06-07 um 11.53.42.jpg` |  |
-| 433 | 2 | ~861 | [ ] | `Bildschirmfoto 2026-06-07 um 11.53.44.jpg` |  |
-| 434 | 2 | ~863 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.29.jpg` |  |
-| 435 | 2 | ~865 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.31.jpg` |  |
-| 436 | 2 | ~867 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.32.jpg` |  |
-| 437 | 2 | ~869 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.34.jpg` |  |
-| 438 | 2 | ~871 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.36.jpg` |  |
-| 439 | 2 | ~873 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.38.jpg` |  |
-| 440 | 2 | ~875 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.40.jpg` |  |
-| 441 | 2 | ~877 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.41.jpg` |  |
-| 442 | 2 | ~879 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.43.jpg` |  |
-| 443 | 2 | ~881 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.45.jpg` |  |
-| 444 | 2 | ~883 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.46.jpg` |  |
-| 445 | 2 | ~885 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.48.jpg` |  |
-| 446 | 2 | ~887 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.50.jpg` |  |
-| 447 | 2 | ~889 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.51.jpg` |  |
-| 448 | 2 | ~891 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.53.jpg` |  |
+| 431 | 2 | ~857 | [x] | `Bildschirmfoto 2026-06-07 um 11.53.41.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 432 | 2 | ~859 | [x] | `Bildschirmfoto 2026-06-07 um 11.53.42.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 433 | 2 | ~861 | [x] | `Bildschirmfoto 2026-06-07 um 11.53.44.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 434 | 2 | ~863 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.29.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 435 | 2 | ~865 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.31.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 436 | 2 | ~867 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.32.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 437 | 2 | ~869 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.34.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 438 | 2 | ~871 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.36.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 439 | 2 | ~873 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.38.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 440 | 2 | ~875 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.40.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 441 | 2 | ~877 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.41.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 442 | 2 | ~879 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.43.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 443 | 2 | ~881 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.45.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 444 | 2 | ~883 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.46.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 445 | 2 | ~885 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.48.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 446 | 2 | ~887 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.50.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 447 | 2 | ~889 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.51.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
+| 448 | 2 | ~891 | [x] | `Bildschirmfoto 2026-06-07 um 11.54.53.jpg` | [[band-2/13-weitere-grundanforderungen-teil2]] |
 | 449 | 2 | ~893 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.54.jpg` |  |
 | 450 | 2 | ~895 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.56.jpg` |  |
 | 451 | 2 | ~897 | [ ] | `Bildschirmfoto 2026-06-07 um 11.54.58.jpg` |  |
@@ -616,24 +616,24 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 598 | 2 | 1188/1189 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.22.jpg` | [[band-2/16-gebaeudedimensionen-teil2-hoehen-dach]] |
 | 599 | 2 | 1190/1191 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.23.jpg` | [[band-2/16-gebaeudedimensionen-teil2-hoehen-dach]] |
 | 600 | 2 | 1192/1193 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.24.jpg` | [[band-2/16-gebaeudedimensionen-teil2-hoehen-dach]] |
-| 601 | 2 | ~1196 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.26.jpg` |  |
-| 602 | 2 | ~1198 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.27.jpg` |  |
-| 603 | 2 | ~1200 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.28.jpg` |  |
-| 604 | 2 | ~1202 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.29.jpg` |  |
-| 605 | 2 | ~1204 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.31.jpg` |  |
-| 606 | 2 | ~1206 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.32.jpg` |  |
-| 607 | 2 | ~1208 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.33.jpg` |  |
-| 608 | 2 | ~1210 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.35.jpg` |  |
-| 609 | 2 | ~1212 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.36.jpg` |  |
-| 610 | 2 | ~1214 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.37.jpg` |  |
-| 611 | 2 | ~1216 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.39.jpg` |  |
-| 612 | 2 | ~1218 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.40.jpg` |  |
-| 613 | 2 | ~1220 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.41.jpg` |  |
-| 614 | 2 | ~1222 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.42.jpg` |  |
-| 615 | 2 | ~1224 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.43.jpg` |  |
-| 616 | 2 | ~1226 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.45.jpg` |  |
-| 617 | 2 | ~1228 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.46.jpg` |  |
-| 618 | 2 | ~1230 | [ ] | `Bildschirmfoto 2026-06-07 um 12.05.47.jpg` |  |
+| 601 | 2 | ~1196 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.26.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 602 | 2 | ~1198 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.27.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 603 | 2 | ~1200 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.28.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 604 | 2 | ~1202 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.29.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 605 | 2 | ~1204 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.31.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 606 | 2 | ~1206 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.32.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 607 | 2 | ~1208 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.33.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 608 | 2 | ~1210 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.35.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 609 | 2 | ~1212 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.36.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 610 | 2 | ~1214 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.37.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 611 | 2 | ~1216 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.39.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 612 | 2 | ~1218 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.40.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 613 | 2 | ~1220 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.41.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 614 | 2 | ~1222 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.42.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 615 | 2 | ~1224 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.43.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 616 | 2 | ~1226 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.45.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 617 | 2 | ~1228 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.46.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
+| 618 | 2 | ~1230 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.47.jpg` | [[band-2/16-gebaeudedimensionen-teil3-umgebung]] |
 | 619 | 2 | 1230/1231 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.48.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
 | 620 | 2 | 1232/1233 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.49.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
 | 621 | 2 | 1234/1235 | [x] | `Bildschirmfoto 2026-06-07 um 12.05.51.jpg` | `band-2/kap16-10_gebaeudedimensionen-harmonisierung.md` |
