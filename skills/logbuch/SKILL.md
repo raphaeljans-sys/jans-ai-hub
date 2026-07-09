@@ -49,6 +49,13 @@ Jede Frist/Pendenz ist eine Zeile in `fristen.md`:
 - **Frist heute/ueberfaellig/in <= Horizont** → in die Tagesmeldung aufnehmen.
 - **Beleg-Prinzip:** Fristen werden belegt (Quelle/Datum), nie erfunden. Unklare Daten als
   «zu pruefen» markieren statt raten.
+- **Mail-Verifikation vor Weiterschleppen (Pflicht):** Ein bestehender Punkt darf NICHT erneut als
+  «offen/dringend/nachfassen» erscheinen, ohne dass der **neueste Thread wirklich gelesen** wurde
+  (Body, bei Bedarf Anhang/Rechnung) und keine Erledigung belegt. Als **erledigt** schliessen bei
+  Signalen wie «wird ueberwiesen» / «bezahlt» / «Zahlung veranlasst» / Weiterleitung an die Kreditoren
+  (bei Debitoren zusaetzlich bexio `--verzug` = nicht mehr im Verzug), bzw. geliefert/abgesagt/
+  zurueckgezogen. **Fremd-Rechnungen** (Bauherr/KISPI zahlt, nicht JANS) sind keine offene JANS-Aktion,
+  sobald die Zahlung dort veranlasst ist. Kein tagelanges unveraendertes Wiederholen desselben Punkts.
 
 ## Taeglicher Radar (Ablauf)
 

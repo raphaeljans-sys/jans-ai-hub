@@ -7,6 +7,37 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-09
 
+- **HUB-CHEF-LAUF — A4-Registerpflege, ohne zweite Mail (08:39).** Signale konsolidiert nach dem
+  Radar-Briefing (05:00): bexio `--verzug`, `--abgleich`, Fristen-Register + Logbuch, Outlook-Mail
+  (seit 06:30) + -Kalender (bis 16.07.), Sync-/Remote-Task-Queues, Whitelist.
+  - **Debitoren (live, `--verzug`):** RE-00087 (Kispi, CHF 15'000, 84 Tg ueberfaellig) steht jetzt
+    auf **Mahnung 2** mit **neuer Zahlfrist bis 15.07.2026** — die am 08.07. faellige Eskalation ist
+    damit **vollzogen**. Der offene Flag «Eskalation Mahnung 2 jetzt faellig, Entscheid bei Raphael»
+    ist erledigt; naechste Stufe erst nach Fristablauf 15.07. RE-00098/99 (faellig 20.07.) ohne Verzug.
+  - **`--abgleich`:** unveraendert (Altliste 19 Pos., 1 alter Bankeingang 2021) — keine neuen
+    Phantom-/Duplikat-Faelle.
+  - **Mail:** kein Neueingang seit dem Radar (Outlook 06:30 leer). **Kalender bis 16.07.:** nur die
+    Koordinationssitzung **heute 13:00–14:00** (Serientermin, im Register). **Sync-/Remote-Queues:** leer.
+  - **A4 (autonom):** Fristen-Register nachgefuehrt — RE-00087-Zeile auf Mahnung 2 / Frist 15.07.
+    umgestellt (Status offen → beobachten), Hub-Chef-Nachtrag 09.07. im Register-Kopf eingefuegt.
+  - **Keine Whitelist-Aktion:** A1 greift nicht (RE-00087 bereits Mahnung 2; Stufe 2+ nur als
+    Entwurf/Entscheid Raphael). A2 nicht noetig (Sitzung 09.07. im Kalender).
+  - **Kein zweites Briefing:** die einzige Aenderung (RE-00087 → Mahnung 2) **loest** einen offenen
+    Flag statt neue Arbeit zu schaffen; keine neue Mail, kein neuer Termin, kein neuer Verzugsfall,
+    keine neuen Entwuerfe. Alle 7-Tage-Punkte stehen im Radar-Briefing 05:00 — gemaess SKILL.md keine
+    Doppelmeldung; deckt sich mit Raphaels Rueckmeldung heute frueh (Ueberreporting = Laerm).
+- **KORREKTUR nach Raphaels Rueckmeldung (09.07., Nachmittag):** Der Radar hatte zwei laengst
+  erledigte Punkte weitergeschleppt, weil er den Mailverkehr nur oberflaechlich abklopfte statt die
+  Threads/Anhaenge zu lesen. Am Beleg geschlossen: (1) **RE-00088** ist bezahlt (bexio laengst nicht
+  mehr im Verzug), Mahnung 2 gegenstandslos, kein Handlungsbedarf → Archiv; (2) **Lenggstrasse 30
+  Schutzraeume-/Ersatzabgaben-Rechnung** ist durch KISPI bezahlt — die Zahlung wurde bereits **06.07.**
+  veranlasst (RJ an A. Soerensen 06.07. 12:11 «Die Rechnung wird sofort ueberwiesen», Weiterleitung an
+  KISPI-Kreditoren 06.07. 12:06); Baufreigabe PPTS folgt nach Zahlungsregistrierung, keine offene
+  JANS-Aktion → Archiv. Das Radar-Briefing von heute frueh (05:00 UTC) enthielt beide Punkte faelschlich
+  noch als offen/dringend; keine Korrektur-Mail versendet (Raphael hat es selbst geflaggt, waere Laerm).
+  **Prozess-Fix hinterlegt** (Radar liest kuenftig je offenem Register-Punkt den neuesten Thread inkl.
+  Anhang und schliesst bei Zahlungs-/Erledigungssignalen): scheduled-task `logbuch-radar` SKILL.md +
+  Skill `logbuch` SKILL.md + Auto-Verbesserung 09.07.
 - **Radar-Lauf:** Register gegen bexio (`--verzug`), Kalender (Outlook, bis 16.07.), Mail-Eingang
   (seit 08.07. 18:00) und Sync-/Remote-Task-Queues abgeglichen.
 - **Debitoren (live, `--verzug`):** weiter **nur ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
