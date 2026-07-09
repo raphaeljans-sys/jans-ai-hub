@@ -1,5 +1,21 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-09 — Trainingslauf 5
+- Output `outputs/2026-07-09_training-run5.md`. Keine neue Spec-Anwendung seit Lauf 4; ausgewertet
+  wurde die Fortschreibung der lebenden AG-Gruendungs-Spec (jetzt **19 Tage**, Phase B haelt an;
+  Eintraege 07./08./09.07. alle «NICHTS NEUES»).
+- **Neue Praezisierung — zwei Blocker-Typen im Steady-State-Monitor:** low-noise «NICHTS NEUES» gilt
+  nur fuer echtes **externes** Warten (Instanz am Zug). Eine **selbst-blockierte Owner-Aktion** («Antwort
+  ans Notariat raus», offen seit 22.06. = 17 Tage) darf NICHT in der «nichts Neues»-Zeile mitaltern —
+  sie gehoert in jeden Monitor-Lauf als aktive Nudge/Pendenz. Trennfrage: «Wartet die Instanz — oder
+  warten wir auf uns selbst?» → neue Sektion in `verifier.md`, Phase-B-Absatz in `anwendung-jans.md`
+  ergaenzt, F2 nachgefuehrt. Schaerft F2 (Kadenz) und F1 (19-Tage-Datenpunkt).
+- Environment-Audit: run4-Fixes hielten (Metadaten 07-06 konsistent, CLAUDE.md-KB-Liste, INDEX+Template).
+  Diesen Lauf `verifier.md` + `anwendung-jans.md` auf 07-09 gezogen (inhaltlich ergaenzt). Rule
+  `spec-methode.md` unveraendert (Gate korrekt, kein Ueberdehnungs-Beleg).
+- Quellen-Schuld: keine — F4 (Karpathy+Cherny) + F5 (Anthropic-Doku) vollstaendig eingeloest.
+  Offen: F1-Ueberdehnungs-Gegentest (mittelgrosser Fall fehlt), F3-Tabelle je weitere Domaene, F7.
+
 ## 2026-07-06 — Trainingslauf 4
 - Output `outputs/2026-07-06_training-run4.md`. Keine neue Spec-Anwendung seit Lauf 3; ausgewertet
   wurde der **Verlauf** der lebenden AG-Gruendungs-Spec (15 Tage, Monitor-Log bis 06.07.).
