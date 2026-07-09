@@ -186,5 +186,16 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   **Klassengrenzen kWh/m²·a** je Effizienzklasse (Produktreglement 2026 bildbasiert), Liste der Kantone
   mit **GEAK-Pflicht bei Handaenderung** (→ Skill `baurecht`).
 
+- [x] **E17** **Komfortlüftung / kontrollierte Wohnungslüftung** belegt ✓ 2026-07-09 →
+  `[[komfortlueftung-wohnungslueftung-ch]]`, Themenartikel `[[komfortlueftung]]`, FAQ **F37** (4 Standard-
+  systeme Komfort mit WRG/Abluft/dezentral 75–90 %/Grundlueftung; Handlueftung >2/3 mehr Verlust, ZH EN-105
+  ≥70 %; Aussenluft ~30 m³/h wach /15 schlafend; CO₂ <1'000 gut / ab 2'000 Kopfweh; **Fenster jederzeit
+  oeffenbar**, **trockene Luft = Kaelte-Phaenomen jeder Lueftung** → Enthalpietauscher +bis ~10 % Feuchte +
+  bedarfsgeregelt; Minergie fordert kontrollierte Lufterneuerung ohne System-Vorgabe; Filterwechsel ~1–2×/J,
+  EFH ~CHF 12–25k Markt-Richtwert, Gebaeudeprogramm foerdert bei Sanierung; EnergieSchweiz/Minergie/
+  energie-umwelt.ch). Offen: **WRG-Grad zentraler Anlagen numerisch** (Minergie-üblich ≥80 %), **SIA 382/1
+  Auslegungs-Luftwechsel** (m³/h je Zimmer), **Filterklassen (ISO ePM) + Ventilator-Strom** (SIA-Merkblatt
+  2023/BFE-PDF bildbasiert), **komfortable rel. Raumluftfeuchte %** (SIA 180), **CHF aus neutraler Quelle**.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

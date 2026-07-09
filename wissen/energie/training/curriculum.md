@@ -168,3 +168,17 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Uw,eq am Referenzfenster 1,55×1,15 m, Klasse A = solare Gewinne > Verluste → `[[fenster-energieetikette-fea-bfe]]`
   (schaerft F35). Offen: GEAK-Klassengrenzen kWh/m²·a (Produktreglement bildbasiert), FEA-Klassengrenzen A–G,
   numerische g-/Uf-Werte (SZFF).
+- [x] D10 **Komfortlueftung / kontrollierte Wohnungslueftung**
+  — belegt 2026-07-09 (EnergieSchweiz gebaeudetechnik/lueftung + Minergie «Gute Raumluft» + energie-umwelt.ch).
+  Vier Standardsysteme: **Komfortlueftung mit WRG** (Neubau-Standard), **Abluftanlage** (ohne WRG),
+  **dezentrale Einzelraumlueftung** (WRG 75–90 %, Sanierung), **Grund-/Verbundlueftung** (Minergie ab 2019).
+  Waermeverluste **>2/3 tiefer als Handlueftung** (ZH EN-105 ≥70 %); Aussenluftbedarf ~30 m³/h wach /15
+  schlafend; CO₂ gut <1'000 ppm / Kopfweh ab 2'000 ppm. **Bauherren-Kernbotschaft: die zwei Mythen widerlegt**
+  — Fenster **jederzeit oeffenbar** (man muss nur nicht mehr); **trockene Luft = Kaelte-Phaenomen jeder
+  Lueftung**, gemildert durch **Enthalpietauscher (+bis ~10 % Feuchte)** + bedarfsgeregelten Betrieb.
+  Minergie fordert kontrollierte Lufterneuerung, schreibt **kein System** vor; Fensterlueftung genuegt nicht.
+  Filterwechsel ~1–2×/J, EFH-Invest ~CHF 12–25k (Markt-Richtwert), Gebaeudeprogramm foerdert bei Sanierung
+  → `[[komfortlueftung-wohnungslueftung-ch]]`, Themenartikel `[[komfortlueftung]]` (FAQ **F37** neu).
+  Offen: WRG-Grad zentraler Anlagen numerisch, SIA-382/1-Auslegungsluftwechsel, Filterklassen/Ventilator-
+  Strom (SIA-Merkblatt 2023 / BFE-PDF bildbasiert), komfortable rel. Raumluftfeuchte % (SIA 180), CHF aus
+  neutraler Quelle.

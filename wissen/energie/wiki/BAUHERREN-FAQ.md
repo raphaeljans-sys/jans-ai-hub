@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-08
-sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-09
+sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1333,6 +1333,57 @@ Fixpreis); welche Kantone den GEAK bei Handänderung zwingend verlangen, ist kan
 
 ---
 
+## F37 — «Brauche ich eine Komfortlüftung — und stimmt es, dass die Luft trocken wird und man die Fenster nie mehr öffnen darf?»
+
+**Kurz:** Eine **Komfortlüftung** (kontrollierte Wohnungslüftung mit Wärmerückgewinnung) sorgt
+**automatisch und leise** für frische Luft und gewinnt dabei den grössten Teil der Wärme zurück —
+**Wärmeverluste über zwei Drittel tiefer als beim Lüften von Hand**. Die zwei Sorgen sind entkräftet:
+Du darfst die **Fenster jederzeit öffnen** (musst aber nicht), und **trockene Winterluft ist kein
+Technikfehler** (das passiert mit jeder Lüftung), sondern wird durch eine **Feuchte-/Enthalpierückgewinnung**
+und bedarfsgeregelten Betrieb gemildert. Im **Minergie-Neubau ist die kontrollierte Lüftung Standard**;
+im gewöhnlichen Neubau nicht zwingend, aber bei heute dichter Gebäudehülle **klar empfohlen**.
+
+**Fachlich:** Ein modernes Haus ist **luftdicht** gebaut (Energie, kein Zugluftverlust) — damit fehlt
+der frühere «Selbstlüftungs-Effekt» durch undichte Fenster. Ohne bewussten Luftwechsel steigen CO₂,
+Feuchte und Gerüche; **Feuchtestau an Wärmebrücken bedeutet Schimmelrisiko**. Die vier Standard-Systeme:
+
+- **Komfortlüftung (Zu-/Abluft mit WRG)** — der Neubau-Standard: zwei Kanäle über einen Wärmetauscher,
+  vollautomatisch, höchster Komfort/Effizienz;
+- **Abluftanlage** — nur Absaugen (Küche/Bad), günstig, aber **ohne Wärmerückgewinnung**;
+- **dezentrale Einzelraumlüftung** — Wand-Module mit WRG (**Wirkungsgrad 75–90 %**), ideal für
+  **Sanierungen** ohne Platz für Kanäle;
+- **Grund-/Verbundlüftung** (Minergie ab 2019) — vereinfacht, günstiger bei Modernisierung.
+
+**Nutzen konkret:** stetig gute Luftqualität (CO₂ bleibt unter ~1'000 ppm; ab 2'000 ppm Kopfschmerzen),
+**Schimmelprophylaxe** durch Feuchtemanagement, **Lärmschutz** (Frischluft bei geschlossenem Fenster —
+ruhiges Schlafen ohne Aussenlärm), **Pollen-/Staubfilter** für Allergiker. Der Aussenluftbedarf richtet
+sich nach Personen (Faustwert ~30 m³/h wach, ~15 m³/h schlafend).
+
+**Die zwei Mythen:**
+- **«Man darf die Fenster nicht mehr öffnen.»** Falsch — Fenster **jederzeit** öffnen erlaubt; man
+  *muss* nur nicht mehr fürs Lüften. Bei langem Öffnen im Winter sinkt bloss der WRG-Nutzen.
+- **«Die Luft wird trocken.»** Trockene Winterluft entsteht **mit jeder Lüftungsart** (kalte Aussenluft
+  ist absolut wasserarm), nicht durch die Anlage. Ein **Enthalpietauscher** gibt einen Teil der Feuchte
+  zurück (Raumluftfeuchte **bis ~10 %** höher) und eine **bedarfsgeregelte, tiefere Stufe** überlüftet
+  nicht.
+
+**Unterhalt/Kosten:** im Wesentlichen **Filterwechsel** (üblich ~1–2×/Jahr — an SIA-Merkblatt 2023/
+Hersteller verifizieren); Investition EFH am Markt grob **CHF 12'000–25'000** (kommerzieller Richtwert,
+kein amtlicher Wert). Das **Gebäudeprogramm fördert** die Wohnungslüftung mit WRG bei Sanierung.
+
+**Empfehlung:** Neubau → Komfortlüftung mit WRG von Anfang an mitplanen (Kanalführung!). Sanierung ohne
+Kanalplatz → dezentrale Module oder Grundlüftung. Wer besonders trockene Luft fürchtet (kalt-trockene
+Lage, wenige Personen) → **Enthalpietauscher** wählen.
+
+**Quelle:** EnergieSchweiz/BFE (energieschweiz.ch/gebaeudetechnik/lueftung), Verein Minergie
+(Kernthema «Gute Raumluft»), energie-umwelt.ch (kantonale Energiefachstellen), Stand Juli 2026 →
+`[[komfortlueftung-wohnungslueftung-ch]]`. ZH-Lüftungsnachweis (WRG ≥ 70 %) → `[[en-lueftung-kuehlung-zh]]`;
+Förderung → `[[gebaeudeprogramm-bund-hfm-2015]]`. ⚠ **Datenstand 2026-07-09:** CHF-Kosten und
+Filterintervalle sind Markt-/Richtwerte (nicht amtlich); WRG-Grad zentraler Anlagen und Auslegungs-
+Luftwechsel (SIA 382/1) projektabhängig prüfen.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1343,7 +1394,14 @@ Fixpreis); welche Kantone den GEAK bei Handänderung zwingend verlangen, ist kan
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-08: 36 Kernfragen F1-F36 belegt.** Neu am 2026-07-08: **F36 ‹Brauche ich einen GEAK —
+> **FAQ-Stand 2026-07-09: 37 Kernfragen F1-F37 belegt.** Neu am 2026-07-09: **F37 ‹Brauche ich eine
+> Komfortlüftung — wird die Luft trocken, darf ich die Fenster nie mehr öffnen?›** — kontrollierte
+> Wohnungslüftung mit Wärmerückgewinnung (Wärmeverluste über zwei Drittel tiefer als Handlüftung); vier
+> Standardsysteme (Komfortlüftung/Abluft/dezentral 75–90 % WRG/Grundlüftung); **Fenster jederzeit öffnbar**,
+> **trockene Luft = Kälte-Phänomen jeder Lüftung** (Enthalpietauscher +bis ~10 % Feuchte, bedarfsgeregelt);
+> Minergie-Neubau-Standard, kein System vorgeschrieben; Filterwechsel ~1–2×/Jahr, EFH-Invest ~CHF 12–25k
+> (Markt-Richtwert), Gebäudeprogramm fördert bei Sanierung → `[[komfortlueftung-wohnungslueftung-ch]]`,
+> `[[komfortlueftung]]` (EnergieSchweiz/Minergie/energie-umwelt.ch). Zuvor am 2026-07-08: **F36 ‹Brauche ich einen GEAK —
 > was ist das, was bringt er und was kostet er?›** — GEAK = amtlicher Gebaeudeenergieausweis der Kantone,
 > 7 Klassen A–G (Huelle/Gesamtenergie/CO₂; A=null CO₂, Stufe 5 kg/m²·a), GEAK Plus mit bis zu 5 Sanierungs-
 > varianten + Beratungsbericht, **Pflicht ab CHF 10'000 Foerderung**, **10 J gueltig**, nur zertifizierte
