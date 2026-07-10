@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 10.07.2026 06:57:37
+Stand: 10.07.2026 07:17:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:17)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- aa512484 sync: twin-fidelity-review: 2026-07-10
+- 1c1cfc10 immobewertung-training Run 16: D8 geschlossen — JANS-Kennwerte-DOCX + Healthcare-Umbaukosten
