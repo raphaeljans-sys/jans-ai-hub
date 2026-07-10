@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 10.07.2026 07:17:44
+Stand: 10.07.2026 07:27:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 10.07.2026 07:17:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1c1cfc10 immobewertung-training Run 16: D8 geschlossen — JANS-Kennwerte-DOCX + Healthcare-Umbaukosten
+- 84f42bf9 sync: twin-mail-training: 2026-02-19 bis 2026-02-24 (Batch 30)
