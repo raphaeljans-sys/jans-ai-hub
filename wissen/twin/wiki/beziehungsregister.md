@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -617,3 +617,10 @@ sobald aus der Akquise eine Zusammenarbeit wird)?
   Stefanie»/«Hoi Stefanie», Du) · **Giacometti / Steinmann AG** (Schreiner/Fenster, Sie, via Fabio-Referral) ·
   **Christen** (AfS Bauberatung Denkmalpflege Stadt ZH, Sie-Behoerde) · **Minor** (Wuest Partner, Sie) ·
   **Maria Jans** (Familie, warm-Du).
+
+## Warm-Sie-Stufen: «Geschätzte» an Behörde, herzlicher Handwerker, gemischte Du-Gruppe (belegt Mailbatch 30, authentisch)
+Batch 30 (Wartstrasse-8-Vergabe + AfB-Vorabklärung, 2026-02-19…02-24) füllt die **obere Wärme-Stufe des Sie**:
+- **«Geschätzte Frau Horeni»** an die AfB-Sachbearbeiterin (Denkmalpflege/Wohnanteil, Stadt ZH) nach einem «angenehmen Beratungsgespräch» — das gewichtige «Geschätzte» wandert in den **Behörden-Sie-Raum**, wenn der persönliche Draht gut ist. Bestätigt die Kernthese: «Geschätzt» = Wertschätzung, unabhängig von der Du/Sie-Achse (vgl. Bopp-Du «Geschätzter Christoph» ↔ hier Behörden-Sie-Frau «Geschätzte Frau Horeni»).
+- **Herzlicher Handwerker-Sie:** Guido Giacometti (Steinmann AG, Schreiner/Fensterbau Winterthur) spiegelt Raphaels warmen Ton («Weeeekend das ist cool», «😉») — Raphael antwortet mit «Guten Tag/Grüezi Herr Giacometti» + Wochenend-Wunsch + «Beste Grüsse» + «Sie haben es verdient!!!». Ein Handwerker-Sie kann also deutlich wärmer werden als das kühle Lieferanten-Sie, bleibt aber Sie (→ [[stimme]] warm-Sie).
+- **Gemischte Du-Gruppenanrede in einer Zeile:** «**Hallo Albin, geschätzer Nesa;**» (Mahnung KISPI/KHGP, 2026-02-24) — zwei Du-Kontakte auf zwei Wärmestufen (Albin «Hallo»=neutral-vertraut, Nesa «geschätzer»=gewichtig), in einer Anrede gestapelt. Bestätigt das Muster «zwei Honorifika in EINER Gruppen-Du-Anrede» (260709) und «gemischte-Stufe-Gruppen-Du» (260704).
+- **Neue/geschärfte Mappings:** Claudia Horeni (AfB Stadt ZH, Denkmalpflege/Wohnanteil-Praxis) → **warm-Sie «Geschätzte Frau Horeni»** nach gutem Beratungsgespräch; Guido Giacometti / Steinmann AG (Schreiner Wartstrasse 8) → **warm-Sie** «Grüezi/Guten Tag Herr Giacometti» + «Beste Grüsse»; Tom Battaglia / Meier Villiger AG (Rollladen-Storenbauer) → **kühl-Sie** «Sehr geehrter/Geschätzter Herr Battaglia»; Markus Hupfer / Mensch AG (Storen, empfahl weiter) → Sie «Guten Morgen Herr Jans»-Reziprozität; Rolf Christen (Denkmalpflege Stadt ZH) → Sie; fsgbau / Hobel Genossenschaft (Bauunternehmer/Schreiner Wartstrasse 8) → Sie «Guten Tag».
