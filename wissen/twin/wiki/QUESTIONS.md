@@ -3,6 +3,31 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260710 (twin-fragesteller, aus Fidelity-Review 2026-07-10)
+
+Quelle: Drift-Report `outputs/2026-07-10_fidelity.md` (Gesamt-Fidelity 93; Register-Kontrast operativ-Du /
+formell-Sie-Mahnung / warm-social + ein neuer Echo-Falle). Je in 1–2 Saetzen beantwortbar.
+
+1. **Mahn-«Wir» vs. «Ich»:** In der Zahlungserinnerung an die Zahlstelle (Rohner) mischst Du «**Wir** moechten
+   Sie hoeflich daran erinnern» mit «stehe **ich** Ihnen jederzeit gerne zur Verfuegung». Ist das «Wir» in der
+   Debitoren-/Mahnkommunikation bewusst (die Firma tritt als Institution auf, distanziert-hoeflich), waehrend
+   die persoenliche Verfuegbarkeit im «Ich» bleibt, oder ist das nur ein Fluechtigkeits-Slip? *Warum: kalibriert
+   das Wir/Ich im Mahn-Sie, wo das wir-Verbot der Erstabklaerung nicht greift.* → [[stimme]], [[haltung]]
+2. **Empathie-Baustein der 1. Mahnstufe:** Der weiche Einstieg «Es kann im Alltag rasch einmal vorkommen, dass
+   eine Rechnung uebersehen wird» + die Gekreuzt-Klausel wirken wie ein **fester Textbaustein** Deiner
+   Zahlungserinnerung. Ist das eine gespeicherte Vorlage (Stufe 1 «Erinnerung»), die Du unveraendert einsetzt,
+   oder formulierst Du den Ton pro Fall? *Warum: trennt festen Vorlagentext von tagesaktuellem Stil (Echo-Schutz)
+   und schaerft die mahnwesen-Signatur.* → [[stimme]], [[arbeitsweise]]
+3. **Fertiger Fremd-Textentwurf zum Durchreichen:** Wenn eine Anfrage ueber eine Mittelsperson an einen Dritten
+   laeuft (Gabi → IT-Verantwortlicher Michael), legst Du den **kompletten Text** bei, den der Vermittler nur noch
+   weiterreichen muss. Machst Du das standardmaessig (durchreichfertigen Entwurf mitliefern, damit die
+   Mittelsperson keine Denkarbeit hat), oder war das der Einzelfall? *Warum: operationalisiert den neu belegten
+   Durchreich-Reflex (das Verhalten, nicht den AI-Paste-Wortlaut).* → [[arbeitsweise]], [[beziehungsregister]]
+4. **Versalien belassen oder zu Fett veredeln:** Das sicherheitskritische Wort in Versalien ist jetzt als
+   bewusstes Mittel bestaetigt (260626 #4). Soll `korrektur`/der Zwilling die Versalien **so belassen** (rohe
+   Dringlichkeit, wie Du sie tippst) oder in **Fett** veredeln (gleiche Betonung, ruhigere Typografie im
+   dokumentierenden Register)? *Warum: entscheidet die Veredelungsregel fuer Deine Versal-Betonung.* → [[stimme]]
+
 ## Offen — Runde 260708 (twin-fragesteller, aus Fidelity-Review 2026-07-08)
 
 Quelle: Drift-Report `outputs/2026-07-08_fidelity.md` (Gesamt-Fidelity 93; das Peter-Paar bestätigte die
@@ -24,7 +49,12 @@ beantwortbare Feinheiten aus den drei Golds.
    (auch beim Stammpartner). Lässt Du den Auftrags-Dank beim **reinen internen Zwischen-Transmittal** (Plan-/
    Status-Weiterleitung ohne Rechnung) bewusst weg, sodass er an den **Beleg-/Abschlusscharakter** gebunden
    ist, oder taucht er auch in laufenden Nicht-Geld-Liefermails auf? *Warum: zieht die Untergrenze des in
-   260628 #2 als «nicht Erst-only» bestätigten Markers.* → [[stimme]], [[haltung]]
+   260628 #2 als «nicht Erst-only» bestätigten Markers.* → [[stimme]], [[haltung]] ·
+   **BEANTWORTET (Fidelity 260710):** Gold A (reines Plan-Status-Transmittal an Peter Weisser, «Hoi Peter /
+   Im Anhang der Angepasste Plan / Passt das so für Dich? / Lieber Gruss», 2025-09-26) trägt WEDER den
+   Auftrags-Dank NOCH den Service-Satz. Untergrenze gezogen: der Auftrags-Dank ist an den **Beleg-/
+   Abschlusscharakter** (Rechnung/Beleg) gebunden und fällt beim reinen Zwischen-Transmittal ohne Geld weg.
+   In stimme.md verankert.
 4. **Schnell-/Nacht-Turnaround beim Angebot:** Auf Peters «ev. ein Projekt, ruf mich an» (18.12. abends)
    schickst Du binnen Stunden — nachts getippt — bereits Offerte + Erläuterungen (19.12. früh). Ist die
    **sofortige Angebots-Vorlage** Dein bewusster Akquise-Reflex (Gelegenheit ohne Reibung bedienen), oder
@@ -215,7 +245,10 @@ Stimme 87 — Restdrift in feinen Gruss-/Ton-Triggern). Je in 1–2 Saetzen bean
    («NORDWESTSEITE», «AENDERUNGEN IN DEN ROHRBEZEICHNUNGEN»). Ist das Deine bewusste
    Hervorhebung fuer das sicherheitskritische Wort (das der Empfaenger keinesfalls ueberlesen
    darf), oder reine Tippdynamik? *Warum: entscheidet, ob `korrektur` die Caps zu Fettung
-   veredelt oder ganz glaettet.* → [[stimme]]
+   veredelt oder ganz glaettet.* → [[stimme]] · **BEANTWORTET (Fidelity 260710):** Gold A liefert den
+   2. Beleg («ÄNDERUNGEN IN DEN ROHRBEZEICHNUNGEN», Peter, 2025-09-26) neben «NORDWESTSEITE» — die
+   Versalien sind das **bewusste Hervorhebungsmittel fuer das sicherheitskritische Wort**, kein Tipp-Slip.
+   In stimme.md verankert. Rest «Versalien belassen vs. zu Fett veredeln» → Runde 260710 #4.
 
 ## Offen — Runde 260622 (twin-fragesteller, aus Fidelity-Review 2026-06-22)
 

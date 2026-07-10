@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-10 — twin-fidelity-review (Gesamt-Fidelity 93/100)
+- Register-Kontrast-Trio (authentisch, vor-Claude, rj@ Sent Items): Gold A operatives Du / reines
+  Plan-Transmittal (Peter Weisser, 2025-09-26), Gold B formell-Sie Mahnstufe 1 an die Zahlstelle (Rohner,
+  2025-09-16), Gold C warm-social Büronachbar-Du + eingefügter AI-Paste-Fremdentwurf (Gabi Demme, 2025-09-17).
+  Blind-Twin je Facette 0–100. Report: `outputs/2026-07-10_fidelity.md`.
+- **Scores:** Stimme 93 · Denken 93 · Haltung 94 · Beziehung 95 (+1) · Fachsignatur 92 · Arbeitsweise 93.
+  Einzige echte Stil-Drift: Versal-Betonung (2. Beleg → jetzt als bewusstes Mittel bestätigt).
+- **stimme.md geschärft:** Versal-Betonung = bewusstes Hervorhebungsmittel (beantwortet QUESTIONS 260626 #4);
+  reines Zwischen-Transmittal ohne Auftrags-Dank/Service-Satz (beantwortet 260708 #3); neue **Echo-Falle 9**
+  (AI-Paste eines Fremd-Textentwurfs VOR dem Stichtag, Gabi/Michael). Do-Block ergänzt.
+- **arbeitsweise.md geschärft:** fertiger Fremd-Textentwurf zum Durchreichen an eine Mittelsperson (Verhalten,
+  nicht Wortlaut); Mahnstufe-1-Nachverfolgung an die Zahlstelle bestätigt (2. Beleg zu Batch 14). Do-Block ergänzt.
+- **QUESTIONS:** 260708 #3 + 260626 #4 als beantwortet markiert; neue Runde 260710 mit 4 Fragen (Mahn-Wir/Ich,
+  Empathie-Textbaustein 1. Mahnstufe, Durchreich-Fremdentwurf, Versalien belassen vs. Fett-Veredelung).
+- Gegenseitige Facetten-Validierung: kein neuer Widerspruch; Schluss-Schicht (Service-Satz + Auftrags-Dank)
+  als mail-typ-gebunden gehärtet. DNA neu kompiliert (`rules/jans-dna.md`, 6 Facetten).
+
 ## 2026-07-09 — twin-mail-training Batch 29 (Sent Items rj@, 2026-02-14 bis 2026-02-19)
 - 20 Mails gesichtet, 6 Volltexte gelesen; Du-lastiger Mix + Sie-Handwerker/Behörde (684 W, Du-Gross 0.857,
   ø 15.5 W, keine Apostroph/Ellipsen). Raw-Marker: `raw/260709-mailbatch-29.md`. Feb-2026-Zäsur beachtet.

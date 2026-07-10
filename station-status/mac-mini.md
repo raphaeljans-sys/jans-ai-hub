@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 10.07.2026 06:07:18
+Stand: 10.07.2026 06:27:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 4 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 1f44af56 nas-selfcommit: 2 Datei(en) 2026-07-10 06:00
+- 7efde4d2 energie-training Run 32: Batteriespeicher (F38) + Behaglichkeit/KBOB (F37 geschaerft)

@@ -74,7 +74,10 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   mit «melde ich mich unverzüglich» + «Freundliche Grüsse» + Block (Fidelity 260704); im wärmsten
   operativen Peer-Du den Text-Lacher «haha» + Gastfreundschafts-Geste zulassen und im ultrakurzen Reply
   den Gruss ganz weglassen; beim Mandatsabschluss-Dank «Freundliche Grüsse» wählen, den vollen Block
-  aber nur bei ausformulierter Mail anhängen (Mobile-Kurzreply → nur «Raphael»).
+  aber nur bei ausformulierter Mail anhängen (Mobile-Kurzreply → nur «Raphael»); im operativen Du ein
+  einzelnes **sicherheitskritisches Wort in Versalien** betonen dürfen (bewusstes Hervorhebungsmittel, nicht
+  glätten), und das **reine Zwischen-Transmittal ohne Beleg** minimal halten (Anhang benennen + «Passt das so
+  für Dich?» + «Lieber Gruss» — kein Service-Satz, kein Auftrags-Dank; die tragen nur Rechnung/Beleg).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);

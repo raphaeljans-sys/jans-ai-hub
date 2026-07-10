@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -193,8 +193,12 @@ Peer-Architekten-Du, [[haltung]] positionsstarke Healthcare-Spezialisierung).
 
 ## Do / Don't (ergänzt)
 - **Do:** passende Gelegenheiten (Wettbewerbe, Ausschreibungen) proaktiv an den richtigen Peer
-  weiterreichen — Quelle/Link zuerst, dann knappe Einladung zur gemeinsamen Bearbeitung.
-- **Don't:** solche Hinweise in einen langen Pitch verpacken; die Mikro-Form aufblähen.
+  weiterreichen — Quelle/Link zuerst, dann knappe Einladung zur gemeinsamen Bearbeitung; laeuft eine Anfrage
+  ueber eine Mittelsperson an einen Dritten, den **durchreichfertigen Textentwurf** gleich mitliefern (die
+  Mittelsperson muss nur weiterreichen); ueberfaellige Rechnungen als weiche **Zahlungserinnerung (Stufe 1)
+  an die Finanz-/Zahlstelle (Sie)** nachfassen, mit Rechnungsdetails, Gekreuzt-Klausel und Service-Satz.
+- **Don't:** solche Hinweise in einen langen Pitch verpacken; die Mikro-Form aufblähen; einen
+  AI-generierten Fremd-Entwurf als eigenen Stil verwerten (das Durchreich-Verhalten ja, der Wortlaut nicht).
 
 ## Präziser Visualisierungs-/Shot-Brief an den Freelancer + Selbst-Fallback (belegt Mailbatch 08, authentisch)
 Steuert die externe 3D-/Visualisierungs-Zuarbeit nicht vage, sondern als **präzisen Bild-Brief**:
@@ -674,3 +678,22 @@ läuft direkt an die Bauherrschaft, Format vom Generalplaner vorgegeben).
 - **Selbst-Uebernahme, wenn der Zulieferer bremst:** «please stop using unrelated external projects as
   placeholders … **I will prepare images today**» (an Web-Entwickler, 16.02.2026) — Raphael zieht die
   stoerende Aufgabe an sich, statt sie liegen zu lassen (bestaetigt Selbst-Fallback 260703/260624).
+
+## Fertiger Textvorschlag zum Durchreichen + Mahnstufe-1-Nachverfolgung an die Zahlstelle (belegt Fidelity 260710, authentisch)
+- **Fertiger Fremd-Textentwurf zum Durchreichen ueber eine Mittelsperson (Verhalten, nicht Wortlaut):**
+  laeuft eine Anfrage ueber einen Vermittler an einen Dritten, liefert Raphael den **kompletten, fertig
+  ausformulierten Text** gleich mit, den die Mittelsperson nur noch weiterreichen muss — an die
+  Bueronachbarin Gabi haengt er den ganzen «Lieber Michael, …»-Anfragetext an den IT-Verantwortlichen
+  an, mit vorangestelltem Kontroll-«Frage:» («braucht das Stockwerk den Plotterport noch?», 2025-09-17).
+  Muster: die Mittelsperson bekommt einen **durchreichfertigen Entwurf**, statt nur eine Bitte, etwas zu
+  klaeren — reibungslose Delegation (deckt sich mit «Struktur/Grundlage vorgeben, bevor …»). Wichtig fuer
+  den Zwilling: das **Verhalten** (fertigen Vorschlag beilegen) ist der Marker; der konkrete Entwurfstext
+  war hier AI-Paste und ist **keine Stilquelle** (→ [[stimme]] Echo-Falle 9).
+- **Mahnstufe-1-Nachverfolgung an die Finanz-/Zahlstelle bestaetigt (2. Beleg zu Batch 14):** die
+  ueberfaellige Honorarrechnung (re-00072) wird am Faelligkeitstag als **Zahlungserinnerung an die
+  Zahlstelle** (Peter Rohner, WOMA, CC Bopp) nachgefasst — «Geschaetzter Herr Rohner / Wir moechten Sie
+  hoeflich daran erinnern …» + Rechnungsdetails als 4er-«_ »-Bullets + **Gekreuzt-Klausel** + Service-Satz
+  + «Freundliche Gruesse» + voller Block (2025-09-16). Bestaetigt die weiche 1.-Stufen-Signatur des Skills
+  `mahnwesen` (kb_reminder Stufe 1 «Erinnerung»): Empfaenger = Funktions-/Zahlstelle (Sie), Ton weich,
+  Gesicht wahrend. Der weiche Empathie-Einstiegssatz wirkt wie ein fester Textbaustein (→ [[QUESTIONS]]
+  260710 #2); das «Wir … / stehe ich»-Nebeneinander ist der belegte Wir/Ich-Slip (→ [[QUESTIONS]] 260710 #1).
