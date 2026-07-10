@@ -5,6 +5,38 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-10
+
+- **RADAR-LAUF — ohne Briefing-Mail (KEIN Laerm).** Register gegen bexio (`--verzug`), Kalender
+  (Outlook, bis 17.07.), Mail-Eingang UND -Ausgang (seit 09.07. Nachmittag) und Sync-/Remote-Task-Queues
+  abgeglichen; je offenem Punkt den neuesten Thread inkl. Anhaenge geprueft (Gegen-Verifikation,
+  eingehend↔ausgehend gepaart).
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **85 Tage ueberfaellig**) steht auf **Mahnung 2**, Zahlfrist **15.07.2026** — naechste
+  Stufe erst nach Fristablauf. RE-00098/99 (faellig 20.07.) ohne Verzug.
+- **Mail — mehrere offene Punkte durch RJ selbst erledigt** (am ausgehenden Beleg geschlossen):
+  - **Thalwil 2414 Naeherbaurecht:** RJ sendet 09.07. 16:02 die ergaenzten Plangrundlagen an T. Wiedmer
+    (SBB) + S. Tschopp und verlangt das aktualisierte Naeherbaurecht → JANS-Antwort raus, Register auf
+    **beobachten** (SBB-Vereinbarung abwarten).
+  - **KISPI Los 273.35 Kuechenbau:** F. Wuersch liefert 09.07. 12:29 die KISPI-Antworten; RJ buendelt
+    sie und leitet die definitive Anfrage 13:00 an Inniger/Lanz (Schreinermanufaktur) weiter →
+    **beobachten** (Inniger kalkuliert).
+  - **Jomos Sprinkleranlage:** Auftragsbestaetigung 308115-79 (09.07. 12:39) eingegangen, Auftrag
+    erteilt; KISPI (Spoerri) koordiniert Termine direkt → **Archiv**.
+  - **Private Kontrolle Lueftung:** C. Duran (Gruner) liefert 09.07. Installationsplan +
+    Luftmengenberechnung (SIA); RJ leitet 14:26 an G. Scherbl weiter, verlangt aber 15:03 noch das echte
+    **Strangschema** der neuen Anlage (nicht Prinzipschema) → bleibt **offen/nachfassen**.
+- **Kalender (bis 17.07.):** neu **Koordinationssitzung Tueren 13.07. 09:00–10:00** (RJ Organisator;
+  Bajrami/Jegen, Hiltmann/TeKoSi, Spahic; Spoerri abgesagt/Ferien) — ins Register. Sitzung 09.07. vorbei,
+  archiviert.
+- **Sync-/Remote-Task-Queue:** leer.
+- **Kein Briefing:** das 7-Tage-Bild (RE-00087 Frist 15.07., SharePoint-Gastzugriff-Ablauf 10.07.) stand
+  bereits im Radar-Briefing 09.07.; RE-00087 unveraendert, kein Neuentscheid vor 15.07.; einziger neuer
+  Termin ist RJs eigene Sitzung. Doppelmeldung waere genau das von Raphael 09.07. geflaggte Ueberreporting
+  → nur stille Register-/Journal-Pflege, keine Mail.
+
+---
+
 ## 2026-07-09
 
 - **HUB-CHEF-LAUF — A4-Registerpflege, ohne zweite Mail (08:39).** Signale konsolidiert nach dem

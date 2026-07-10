@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-10 — twin-mail-training (Batch 30, Sent Items rj@ 2026-02-19…02-24)
+- Sequentieller Mail-Sweep fortgesetzt: 20 Mails gesichtet, 5 Volltexte destilliert; Sweep jetzt abgedeckt
+  bis **2026-02-24** (nächster Lauf ab 2026-02-24). Weiter klar vor-Claude-Stil (handgetippte Typos
+  «duper»/«bid»/«do»/«Kösten»/«Bier 1C148/210»); **Echo-Falle 11.** = KI-assistierte Rollladen-Bildanalyse
+  als macOS-Paste (Battaglia), nur handgetippter Rahmen als Stilquelle.
+- **stimme.md +2:** warm-Sie an den Handwerker mit Mundart-Einsprengsel («do»/Wochenend-Wunsch/«Beste Grüsse»)
+  + «Geschätzte Frau <Nachname>» als warmer Behörden-Sie; Echo-Falle 11 dokumentiert. Metrik 325 W, Sie-Batch:
+  Du-Gross 0.0 (registerbedingt), Satzlänge ø 10.5 W, FG 4× dominant.
+- **beziehungsregister.md +1:** obere Wärme-Stufe des Sie («Geschätzte» an Behörde, herzlicher Handwerker-Sie,
+  gemischte Du-Gruppenanrede); Mappings Horeni (AfB, warm-Sie) / Giacometti (Schreiner, warm-Sie) / Battaglia
+  (Storen, kühl-Sie) / Hupfer / Christen / fsgbau.
+- **fachsignatur.md +1:** Baurecht-Vorabklärung Hotelnutzung/Wohnanteil-Anrechenbarkeit mit BEZ-/BGer-Kette
+  inline; Vergabe-«Abgebot» + Sparoption; Storen-/Fenster-Bauteil-Vokabular (Rollladenpanzer≠Faltrollladen,
+  Lichtmasse Leibung innen/Steinleibung aussen, GRIESSER ALUCOLOR).
+- **arbeitsweise.md +1:** Behörden-Auskunft schriftlich beweissicher nachziehen; Vergabe-Nachverhandlungs-
+  Sequenz (Offerte→BH-Besprechung→Abgebot→BH-Freigabe) mit Bauherrin-cc-Transparenz; Mahnung 1 mit
+  persönlicher Du-Vorzeile vor Standard-Mahntext.
+
 ## 2026-07-10 — twin-fidelity-review (Gesamt-Fidelity 93/100)
 - Register-Kontrast-Trio (authentisch, vor-Claude, rj@ Sent Items): Gold A operatives Du / reines
   Plan-Transmittal (Peter Weisser, 2025-09-26), Gold B formell-Sie Mahnstufe 1 an die Zahlstelle (Rohner,
