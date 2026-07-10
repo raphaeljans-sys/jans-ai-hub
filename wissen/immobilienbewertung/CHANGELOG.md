@@ -2,6 +2,44 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-10 — Training-Run 16: D8 geschlossen — JANS-Kennwerte-DOCX + Healthcare-Umbaukosten
+
+- **D8 geschlossen** (die letzte auto-schliessbare Daten-Luecke): Wie schon bei den `.xlsx`-Tools
+  (Run 15) sind auch die als freigabegebunden angenommenen Kennwerte-**DOCX** TCC-lesbar
+  (unzip + XML-Parser). Drei bisher ungelesene JANS-DOCX aus `IMMO-06 Kennwerte` ingestiert.
+  10 Themen dieses Laufs: (1) aGF/GF-Umrechnungsfaktor, (2) JANS-Wohn-Erstellungskosten-Kennwert
+  EFH/ZFH indexiert, (3) BKP2→BKP1-5-Herleitung + TG-Ansatz, (4) Thalwil-Bohlweg-Rechenbeispiel +
+  HNF-Faktor, (5) Healthcare-Spitalumbau-Kostenband CHF/m2 NF, (6) realer Fall Psychiatrie-Teilumbau,
+  (7) realer Fall Kispi ZH Paediatrie, (8) `_Kennwerte_Links.docx` Quellenverzeichnis, (9) Emilienheim-
+  Gap-Bestaetigung, (10) Marktpuls-Web-Check.
+- **`wiki/flaechendefinitionen-sia.md`** (07-10, established): neuer **JANS-Umrechnungsfaktor aGF ↔ GF**
+  (Altbau **0.8** / Neubau **0.9**) in der aGF/BGF-Abgrenzungssektion — Faustwert, um aus der
+  baurechtlich anrechenbaren Flaeche die geometrische GF fuer Volumen-/Kostenrechnung abzuleiten.
+  Frontmatter last_updated 07-06→07-10, Quelle `_Kennwerte Jans.docx` ergaenzt.
+- **`wiki/realwert-sachwert.md`** (07-10, established): zwei neue Sektionen. (a) **«JANS-Erstellungskosten-
+  Kennwert Wohnen (EFH/ZFH)»** — belegte indexierte Herleitung Median 2020 2'900 → 2025 **3'365 CHF/m2
+  GF BKP 2** (Index 116) → BKP2=75 % → **4'485 CHF/m2 GF BKP 1-5**; TG **42'000 CHF/SP**; Worked example
+  Thalwil Bohlweg 1 (950 m2 GF → 4.6 Mio inkl. TG; **HNF-Faktor 7'350 CHF/m2 HNF BKP 1-5**). Aktueller
+  datierter JANS-Ansatzwert, ergaenzt die WP-Benchmarks (Stand 2021-2023). (b) **«Healthcare-Umbau-
+  Kostenband (JANS Spektrumskosten, CHF/m2 NF)»** — 6-stufiges Spitalumbau-Band (Buero→Praxis 2'000-3'000
+  bis OP-Station ab 10'000) + 2 reale JANS-Einordnungsfaelle (Psychiatrie-Teilumbau ~1'100/m2 HNF →
+  Zielkorridor 1'800-2'500; Kispi ZH Paediatrie 4'412/m2 NF). Trennt Umbau (NF) sauber vom Neubau (GF).
+  Frontmatter + Offen-Log aktualisiert.
+- **`wiki/datenquellen-registry.md`** (07-10, established): `_Kennwerte Jans.docx` + Healthcare-Umbaukosten
+  von «offen/DOCX» auf **eingearbeitet**; neue Zeile **`_Kennwerte_Links.docx`** (JANS-Quellen-Linkliste,
+  in die Nutzungsregel gespiegelt). Healthcare-Zeile auf «Neubau- UND Umbaukennwerte belegt».
+- **`wiki/investorenmarkt-makro.md`** (07-10, established): **Marktpuls-Web-Check Run 16** — alle Anker
+  unveraendert (SNB-Leitzins 0.00 %, Referenzzins 1.25 %, SARON 0.78 %, Festhypothek 5 J ab 1.11 %/10 J
+  ab 1.41 %, Mietindex Mai-2026 133.7 +2.5 % YoY, Baupreisindex April-2026 100.6). Kein neuer
+  Publikationstermin seit Run 15.
+- **Register:** `raw/_INGESTED.md` (3 DOCX-Zeilen + Stand-Run-16-Block), `wiki/wissensluecken.md`
+  (D8 durchgestrichen/erledigt + Emilienheim-Gap bestaetigt nicht verfuegbar; nur noch D5 offen),
+  `training/curriculum.md` (E5 ✓ vollstaendig), `wiki/INDEX.md` (realwert-sachwert + flaechendefinitionen-sia).
+  Lern-Report `outputs/2026-07-10_training-run16.md`.
+- **Status:** Alle T-Aufgaben, der Wuest-Kurs, alle lesbaren E-Quellen, **D4 und D8** eingearbeitet.
+  Offen nur noch **D5** (buerospezifische Margen-/Finanzierungspraxis — echte Bring-Schuld Raphael,
+  nicht durch den Loop schliessbar) + laufender Marktpuls (naechste Publikationen 01.09.2026).
+
 ## 2026-07-08 — Training-Run 15: D4 geschlossen — Excel-Residualwert-Tools reverse-engineered
 
 - **D4 geschlossen** (die letzte hoch-priorisierte Daten-/Formel-Luecke): Die vier Residualwert-

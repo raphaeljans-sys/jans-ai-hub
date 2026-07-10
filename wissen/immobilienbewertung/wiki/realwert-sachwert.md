@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-06
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte, IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
+last_updated: 2026-07-10
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -117,6 +117,40 @@ Quervergleiche/Herleitung (alle Werte Datenstand 2021-2023, ⚠ Teuerung seither
   (CRB), kennwerte.ch.
 - Erstellungskosten je Wohnungstyp (Kleinwohnungen teurer): siehe
   [[residualwertmethode]] (Excel-Tool-Defaults 5'300-6'100 CHF/m2 HNF).
+
+### JANS-Erstellungskosten-Kennwert Wohnen (EFH/ZFH) — belegt 25.03.2025 (D8)
+
+Das JANS-interne Kalkulationsblatt **`_Kennwerte Jans.docx`** (`IMMO-06 Kennwerte`, R. Jans,
+Stand **25.03.2025**) haelt den **gelebten, indexierten JANS-Neubau-Kennwert** fuer
+individuelle Ein- und Zweifamilienhaeuser fest — die aktuelle, datierte Ergaenzung zu den
+WP-Benchmarks oben (die auf 2021-2023 stehen). Die belegte Herleitung (Run 16):
+
+- **Ausgangswert (Median):** Gattung **Wohnen individuell, EFH/ZFH, BKP 2, Medianwert 2020 =
+  2'900 CHF/m2 GF** (Quelle Wohnbaupreis-Median).
+- **Indexierung 2020 → 2025:** Index 2020 = 100 → 2025 = **116** → **3'365 CHF/m2 GF BKP 2**
+  (2'900 × 1.16). Deckt sich mit dem BFS-Baupreisindex-Verlauf (Hochbau ~+16 % seit 2020,
+  [[investorenmarkt-makro]]).
+- **BKP 2 → BKP 1-5:** BKP 2 = **75 %** der Gesamt-Erstellungskosten → BKP 1-5 = 100 % →
+  **4'485 CHF/m2 GF BKP 1-5** (3'365 / 0.75). Das ist der **JANS-Ansatz-Kennwert** fuer eine
+  EFH/ZFH-Neuwertrechnung auf Preisstand 2025.
+- **Tiefgaragen-Einstellplatz:** **42'000 CHF/SP BKP 1-5** (separat, nicht in der GF-Rechnung).
+
+**Worked example JANS — Thalwil, Bohlweg 1 (Fall 9568):**
+
+| Position | Menge | Ansatz | Betrag CHF |
+|---|---|---|---|
+| GF inkl. Keller, ohne TG | 950 m2 | 4'485 CHF/m2 GF BKP 1-5 | 4'262'000 |
+| Tiefgarage | 8 SP | 42'000 CHF/SP BKP 1-5 | 335'000 |
+| **Total Erstellungskosten** | | | **4'598'000 → «4.6 Mio»** |
+| **HNF-Faktor** | HNF 580 m2 | 4'262'000 / 580 | **7'350 CHF/m2 HNF BKP 1-5** |
+
+Der HNF-Faktor **7'350 CHF/m2 HNF (BKP 1-5, Gebaeude ohne TG)** ist der belegte JANS-Wert fuer
+ein individuelles Wohnhaus gehobener Lage (Thalwil/Zimmerberg) auf Preisstand 2025 — er liegt
+ueber den WP-MFH-Benchmarks (Wohnen gute/gehobene Lage 5'800-7'000 CHF/m2 HNF oben), was fuer
+ein **EFH/ZFH** (kleinteiliger, weniger Skaleneffekt, hoeherer Ausbaustandard) plausibel ist.
+GF-inkl.-Keller/HNF-Verhaeltnis hier 580/950 = **0.61** ≈ der JANS-HNF/GF-Faktor 0.60
+([[flaechendefinitionen-sia]]). ⚠ Kennwert ist EFH/ZFH-spezifisch und premiumlagen-gepraegt;
+fuer MFH die WP-Tabelle oben verwenden.
 
 ### Healthcare-Neubau — Erstellungskosten-Benchmark (realer CH-Fall, belegt 2021)
 
@@ -241,6 +275,46 @@ Index-Spalte die JANS-interne Vergleichslesart. Hotellerietaxen der Objekte 150-
 Flaechenfaktoren (Betten, GF/Bett, NF/Bett, Bauvolumen/HNF, optimale Betriebsgroesse) aus
 demselben Blatt: [[projektstruktur-deliverables]] (T19-Raster).
 
+### Healthcare-Umbau-Kostenband (JANS «Spektrumskosten», CHF/m2 NF — belegt 2025)
+
+Die Kennwerte oben sind **Neubau** (CHF/m2 GF). Fuer die haeufigere Healthcare-Aufgabe —
+**Umbau/Umnutzung im Bestand** (Buero → Station, Nutzungsaenderung im laufenden Spitalbetrieb) —
+fuehrt JANS ein eigenes, nach Stationstyp gestuftes **Umbau-Kostenband je m2 NF** (Nutzflaeche).
+Belegt aus drei JANS-Arbeitsdokumenten `IMMO-06 Kennwerte/Healthcare` (Run 16): dem
+Kunden-Memo **`Spektrumskosten.docx`** («Memorandum of approximate cost») und zwei realen
+Einordnungs-Faellen (`Umbaukosten 500K.docx`, `Umbaukosten_CHF_2500K.docx`).
+
+**Richtbandbreite Spitalumbau CH (CHF/m2 NF, «Spektrumskosten», JANS-Arbeitsband):**
+
+| Nutzung / Stationstyp | CHF/m2 NF |
+|---|---|
+| Leichter Umbau Buero → Praxis/Therapie | 2'000 – 3'000 |
+| Buero → psychiatrische Normalstation (Uebernachtung, ohne Akutmedizin) | 2'200 – 3'500 |
+| Somatische Normalpflegestation | 3'500 – 4'500 |
+| Kinder-/Jugendstation Akut | 4'000 – 5'500 |
+| Intensiv-/Spezialstation | 6'500 – 9'000 |
+| Neue Spezialstation mit hohem Anteil Operationssaele | ab 10'000 |
+
+**Reale JANS-Einordnungsfaelle (Kennwert-Kalibrierung):**
+- **Psychiatrie, 12 Uebernachtungsplaetze, ohne OP/Hightech:** Umbau ~500'000 CHF / 452 m2 HNF =
+  **~1'100 CHF/m2 HNF** — liegt **deutlich unter** dem Band, weil reiner **Teilumbau** (Tragwerk/
+  Brandschutz/Fluchtwege Bestand, keine Nasszellen je Zimmer, minimale Medizintechnik, Fokus
+  Innenausbau/Lueftung/Sanitaer/Schreiner). Als **Machbarkeits-/Fruehphasenwert plausibel**, als
+  Realwert fuer die Ausfuehrung klar untere Bandgrenze; **realistischer Zielkorridor bei
+  Praezisierung 1'800-2'500 CHF/m2 HNF**. Risikoindikatoren: Brandschutz, Schallschutz Psychiatrie,
+  Sicherheitsbeschlaege Tueren.
+- **Kispi Stadt Zuerich, Administrationsbereich → Kinder-/Jugend-Bettenstation** (Umbau im
+  laufenden Spitalbetrieb): Kennwert **~4'412 CHF/m2 NF** — liegt im **unteren Bereich** des
+  Paediatrie-Bands (4'000-5'500), also **normal bis eher guenstig/defensiv**, nicht teuer: hoher
+  Anteil HLKSE/Lueftung/Sanitaer/Brandschutz, neue Zimmerstruktur mit Nasszellen, erhoehte
+  Paediatrie-Anforderungen, Provisorien/Betriebseinschraenkungen; Ausstattung separat ausgewiesen.
+
+⚠ Bezugsflaeche beachten: das Band ist **CHF/m2 NF** (nicht GF). Der Teilumbau-Wert 1'100 gilt nur
+bei weitgehendem Bestandserhalt der Struktur; sobald Nasszellen/Tragwerk/Medizintechnik dazukommen,
+gilt das volle Stationsband. Der Wert **Umbau ≠ Neubau**: das Umbau-NF-Band (2'000-9'000+) ist mit
+dem Neubau-GF-Band (~3'400-4'500 CHF/m2 GF, oben) **nicht direkt vergleichbar** (andere Bezugsflaeche,
+andere Leistungstiefe). Fuer die Ertrags-/Annuitaetsseite Healthcare: [[ertragswert-dcf]].
+
 ### Alterswertminderung (Schaetzungsanleitung Kap. 5, Tab. 9-11)
 
 Abzug fuer Alter/Abnutzung des Gebaeudes ueber die **Restnutzungsdauer**. Belegtes
@@ -301,5 +375,14 @@ Instandsetzungskosten decken koennen.
   **2'623-4'250 CHF/m2 GF** (roh) bzw. **3'042-4'485** (teuerungsbereinigt Index-115), **826-1'420
   CHF/m3 GV**, **272'780-780'000 CHF/Pflegezimmer**; Healthcare-Neubauansatz auf **~3'850-4'500
   CHF/m2 GF** praezisiert. Wirtschaftlichkeits-/Flaechenfaktoren → [[projektstruktur-deliverables]].
+- ✓ 2026-07-10 (D8, Run 16): **JANS-Erstellungskosten-Kennwert Wohnen (EFH/ZFH) belegt** aus
+  `_Kennwerte Jans.docx` (25.03.2025) — Median 2020 = 2'900 CHF/m2 GF BKP 2, indexiert 2025 =
+  3'365 (BKP 2) / **4'485 CHF/m2 GF BKP 1-5**; TG 42'000 CHF/SP; Thalwil-Bohlweg-Rechenbeispiel
+  (950 m2 GF → 4.6 Mio inkl. TG; **HNF-Faktor 7'350 CHF/m2 HNF BKP 1-5**). Aktueller, datierter
+  JANS-Ansatzwert (ergaenzt die WP-Benchmarks Stand 2021-2023).
+- ✓ 2026-07-10 (Run 16): **Healthcare-Umbau-Kostenband belegt** (JANS «Spektrumskosten», CHF/m2 NF)
+  — 6-stufiges Spitalumbau-Band 2'000-10'000+ + zwei reale JANS-Faelle (Psychiatrie-Teilumbau
+  ~1'100/Zielkorridor 1'800-2'500; Kispi ZH Paediatrie 4'412 CHF/m2 NF). Trennt Umbau (NF) sauber
+  vom Neubau (GF).
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).

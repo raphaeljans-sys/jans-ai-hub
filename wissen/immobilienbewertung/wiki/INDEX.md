@@ -9,7 +9,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern; Excel-Tool-Formel-Logik D4 reverse-engineered: Rechenkette, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %) · *established*
 - [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %, Gewerbe-Feinabstufung je Segment), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Ertragsmodell (Kosten-Fall Herosé + Investoren-Fall SenioResidenz ~5.3 % Yield, Pflegeplatzkosten-Struktur) · *established*
 - [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
-- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS, Baupreisindex 2025, Healthcare-Kostenband JANS-8-Objekt-Referenzset 2'623-4'250 CHF/m2 GF / 273'000-780'000 CHF/PZ + Spital CRB) · *established*
+- [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS; JANS-Wohn-Erstellungskosten-Kennwert EFH/ZFH indexiert 4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350 D8; Healthcare-Neubau-Band JANS-8-Objekt 2'623-4'250 CHF/m2 GF + Spital CRB; Healthcare-**Umbau**-Band CHF/m2 NF 2'000-10'000+ «Spektrumskosten») · *established*
 
 ## Gutachten-Produkt (WP-ueberlegen)
 
@@ -18,7 +18,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 ## Grundlagen & Daten
 
-- [[flaechendefinitionen-sia]] — SIA 416:2003 normverankert (GSF/GF/NGF/HNF/KF/AGF + Volumen GV + Miet-/STWE-Flaechen FSN/FGN; Abgrenzung aGF/BGF/EBF) + JANS-Flaechenfaktoren Wohnen (0.20/0.33/0.60) & Healthcare (HNF/GF ~0.55) · *established*
+- [[flaechendefinitionen-sia]] — SIA 416:2003 normverankert (GSF/GF/NGF/HNF/KF/AGF + Volumen GV + Miet-/STWE-Flaechen FSN/FGN; Abgrenzung aGF/BGF/EBF + JANS-aGF/GF-Faktor Altbau 0.8/Neubau 0.9) + JANS-Flaechenfaktoren Wohnen (0.20/0.33/0.60) & Healthcare (HNF/GF ~0.55) · *established*
 - [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil (LK-Schluessel + Tab. 8) · *established*
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
 - [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention + CS-Sensitivitaets-Generator (Break-Even-Formel) + Healthcare-Bewertungsbruecke (T17: Kosten Herosé + Investor SenioResidenz) + JANS-Healthcare-Kennwert-Raster (T19 befuellt: Bettzahl/GF-Bett/NF-Bett, optimale Groesse 70-80 Betten) · *established*

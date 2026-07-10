@@ -26,6 +26,9 @@ Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergeles
 | Marktpreis-Quellen | `04 Marktpreise/` (12 Quellen) | div. | 2011-2026 | teilweise | datenquellen-registry |
 | Bodenpreise | `05 Bodenpreise/` | png+pdf | 2023-2025 | teilweise | datenquellen-registry, lageklasse-landwertanteil |
 | Kennwerte (Wohnen/Healthcare/Buero) | `06 Kennwerte/` | docx+pdf+png | 2024-2025 | teilweise | datenquellen-registry |
+| JANS-Kennwerte-Sammlung (D8) | `06 Kennwerte/_Kennwerte Jans.docx` | DOCX | 25.03.2025 | **eingearbeitet** (Run 16 2026-07-10): schliesst D8 — (1) aGF/GF-Umrechnungsfaktor Altbau 0.8 / Neubau 0.9 → flaechendefinitionen-sia; (2) JANS-Wohn-Erstellungskosten-Kennwert EFH/ZFH: Median 2020 2'900 → indexiert 2025 3'365 CHF/m2 GF BKP 2 (Index 116) → 4'485 CHF/m2 GF BKP 1-5 (BKP2=75 %); TG 42'000/SP; Thalwil-Bohlweg-Rechenbeispiel 950 m2 → 4.6 Mio; HNF-Faktor 7'350 CHF/m2 HNF BKP 1-5 → realwert-sachwert. Pfad TCC-lesbar (keine Freigabe noetig) | flaechendefinitionen-sia, realwert-sachwert |
+| JANS-Healthcare-Umbaukostenband | `06 Kennwerte/Healthcare/{Spektrumskosten,Umbaukosten 500K,Umbaukosten_CHF_2500K}.docx` | DOCX | 2025 | **eingearbeitet** (Run 16 2026-07-10): Spitalumbau-Kostenband CHF/m2 NF (Buero→Praxis 2'000-3'000 · Psych.-Normalstation 2'200-3'500 · somatische Normalpflege 3'500-4'500 · Kinder-/Jugend Akut 4'000-5'500 · Intensiv/Spezial 6'500-9'000 · OP-Station ab 10'000) + 2 reale JANS-Faelle (Psychiatrie-Teilumbau 1'100/m2 HNF, Zielkorridor 1'800-2'500; Kispi ZH Paediatrie 4'412/m2 NF) → realwert-sachwert | realwert-sachwert |
+| JANS-Quellen-Linkliste | `06 Kennwerte/_Kennwerte_Links.docx` | DOCX | 29.12.2023 | **eingearbeitet** (Run 16 2026-07-10): Benchmark-/Datenquellen-Verzeichnis (ZH Wohnbaupreisindex, werk-material/CRB, keevalue, BFS Baupreise/Mietwohnungen/Leerwohnungen/LIK, GIS ZH, comparis-Mashup, SNB, Wuest Reports/Immo-Monitoring) → in datenquellen-registry gespiegelt | datenquellen-registry |
 | Healthcare Baukredit Pflegeheim Herosé | `06 Kennwerte/Healthcare/HEIM/2021-285 Botschaft Pflegeheim Herosé_Neubau_Baukredit.pdf` (19 S., Stadt Aarau) | PDF | 12.2021 | **eingearbeitet** (Run 12 2026-07-02): 116 Zimmer, Anlagekosten 55.8 Mio (BKP-Zusammenstellung), Kennwerte BKP 2 = 1'105 CHF/m3 GV / 3'848 CHF/m2 GF / 346'681 CHF/Zimmer, 4-Heim-Vergleich (337-418k/Zimmer, Taxe 150-180); Annuitaets-Finanzierung (lineare Abschr. 33 J CURAVIVA, kalk. Zins BWO-Referenzzins 1.25 %, KVG-Abzug 6.812 Mio), Hotellerie-Taxe 120→153 CHF/Tag, Spezialfinanzierung Investitionsfonds → schliesst T17 (Kosten-/Annuitaetsseite) | realwert-sachwert, ertragswert-dcf, projektstruktur-deliverables |
 | ARTISET Betriebswirtschaftliche Instrumente KVG | `06 Kennwerte/Healthcare/HEIM/Archiset Wirtschaftlichkeit/fachnews_kvg_2023_04...pdf` (2 S.) | PDF | 04.2023 | **eingearbeitet** (Run 12 2026-07-02): standardisierte KVG-Kosten-/Leistungsrechnung (KoRe), Kostentraeger LZP/ToNs/AUEP, leistungserbringende Kostenstellen 210-251 Pflege → Beleg Trennung Pflege (KVG) ↔ Hotellerie/Betreuung (Bewohner) | ertragswert-dcf |
 | SenioResidenz AG Geschaeftsbericht 2017 | `06 Kennwerte/Healthcare/HEIM/Pflegeberichte/SenioResidenz_Gesch_Bericht_FINALE-VERSION_19022018.pdf` (40 S.) | PDF | 02.2018 (Stichtag 31.12.2017) | **eingearbeitet** (Run 13 2026-07-04): realer CH-Healthcare-**Investor** (Immobiliengesellschaft, verpachtet an Betreiber) — Seniorenresidenz Presinge GE (61 Betten), Marktwert 21.75 Mio (WP-DCF ueber 100 J), Soll-Miete 1.145 Mio → **impliziter Brutto-Yield ~5.3 %** (Healthcare ~2 Pp ueber Wohnbau), Belehnung 41 %/EK-Quote 54 %/Hypozins 3.3 %. Angewandter Diskontsatz NICHT beziffert. Schliesst T17-Investoren-Seite | ertragswert-dcf, projektstruktur-deliverables |
@@ -58,6 +61,21 @@ Anker zur **konsolidierten JANS-Diskontsatz-Tabelle** zusammengefuehrt (Bottom-u
 real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-j Bundesobligation
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
+
+**Stand Run 16 (2026-07-10):** **D8 geschlossen + Healthcare-Umbau-Kostenband belegt — drei bisher
+ungelesene JANS-DOCX ingestiert.** Wie schon bei den `.xlsx`-Tools (Run 15) sind auch die als
+freigabegebunden angenommenen Kennwerte-DOCX **TCC-lesbar** (unzip + XML-Parser). (1) `_Kennwerte
+Jans.docx` (25.03.2025) schliesst **D8**: der **aGF/GF-Umrechnungsfaktor** (Altbau 0.8 / Neubau 0.9,
+→ flaechendefinitionen-sia) und der **indexierte JANS-Wohn-Erstellungskosten-Kennwert EFH/ZFH**
+(2'900 Median 2020 → 3'365 BKP 2 / **4'485 CHF/m2 GF BKP 1-5** 2025; TG 42'000/SP; Thalwil-Bohlweg-
+Rechenbeispiel; **HNF-Faktor 7'350 CHF/m2 HNF**, → realwert-sachwert). (2) Drei Healthcare-DOCX
+(`Spektrumskosten` + `Umbaukosten 500K/2500K`) liefern das **JANS-Spitalumbau-Kostenband CHF/m2 NF**
+(6 Stationstypen 2'000-10'000+) mit zwei realen Faellen (Psychiatrie-Teilumbau 1'100 → Zielkorridor
+1'800-2'500; Kispi ZH Paediatrie 4'412) → realwert-sachwert. (3) `_Kennwerte_Links.docx` als
+Quellen-Linkverzeichnis → datenquellen-registry. Marktpuls-Web-Check: alle Anker unveraendert (SNB
+0.00 %, Referenzzins 1.25 %, Mietindex Mai-2026 133.7, Baupreisindex April-2026 100.6). Offen bleibt
+nur: D5 (buerospezifische Margen-/Finanzierungspraxis, Bring-Schuld Raphael); Emilienheim-Flaechen-
+kennwerte **bestaetigt nicht verfuegbar** (nur Tages-Anzeiger-PDF, keine Kennwertquelle).
 
 **Stand Run 15 (2026-07-08):** **D4 geschlossen — die vier Residualwert-Excel-Tools auf Zellebene
 reverse-engineered.** Die bisher als `offen`/freigabegebunden markierten `.xlsx`-Tools (WP + JANS,

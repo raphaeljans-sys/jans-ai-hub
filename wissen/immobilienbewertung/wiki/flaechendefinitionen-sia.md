@@ -1,8 +1,8 @@
 ---
 title: Flaechendefinitionen (SIA 416 / SIA 416/1)
 status: established
-last_updated: 2026-07-06
-sources: [SIA 416:2003 (SN 504 416) Flaechen und Volumen von Gebaeuden — kanonische Norm-PDF IMMO-03 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf, S. 6-15 vollstaendig verankert Run 10 (Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF, Volumen GV/NGV/KV/AKV, Miet-/STWE-Flaechen FSN/FGN, Abgrenzung 0.1), IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), JANS 8-Objekt-Referenzvergleich Healthcare «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410, GF/GV/HNF nach SIA 416 → Healthcare-Flaechenfaktoren HNF/GF ~0.55, Run 14 2026-07-06), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
+last_updated: 2026-07-10
+sources: [SIA 416:2003 (SN 504 416) Flaechen und Volumen von Gebaeuden — kanonische Norm-PDF IMMO-03 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf, S. 6-15 vollstaendig verankert Run 10 (Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF, Volumen GV/NGV/KV/AKV, Miet-/STWE-Flaechen FSN/FGN, Abgrenzung 0.1), IMMO-06 Kennwerte `_Kennwerte Jans.docx` (R. Jans 25.03.2025 — JANS-Umrechnungsfaktor aGF/GF Altbau 0.8 / Neubau 0.9, D8, Run 16), IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), JANS 8-Objekt-Referenzvergleich Healthcare «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410, GF/GV/HNF nach SIA 416 → Healthcare-Flaechenfaktoren HNF/GF ~0.55, Run 14 2026-07-06), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
 links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]]
 ---
 
@@ -54,6 +54,19 @@ ist davon der baurechtlich gezaehlte Teil (nicht jedes UG/DG zaehlt).
 Fuer die Bewertung gilt: Mietertrag und Verkaufspreis beziehen sich meist auf **HNF bzw.
 Wohnflaeche**, Baukosten auf **GF bzw. m3 (GV)**. Immer die Bezugsflaeche mit angeben, und beim
 Verweis auf die Norm den Zusatz **«nach Norm SIA 416 (2003)»** anbringen (Vorgabe Norm 0.2).
+
+**JANS-Umrechnungsfaktor aGF ↔ GF (belegt, `_Kennwerte Jans.docx` 25.03.2025, D8):** Fuer die
+rasche Umrechnung zwischen der baurechtlich **anrechenbaren Geschossflaeche (aGF)** und der
+geometrischen **Geschossflaeche (GF, «bGF»)** rechnet JANS mit:
+
+| Fall | aGF / GF | Bemerkung |
+|---|---|---|
+| **Altbau** | **0.8** | mehr nicht angerechnete Flaeche (UG/DG/dicke Waende) |
+| **Neubau** | **0.9** | effizientere, anrechnungsnaehere Kubatur |
+
+D.h. aus einer aGF (aus AZ × Grundstueck) ergibt sich die geometrische GF ueber GF ≈ aGF / 0.9
+(Neubau) bzw. / 0.8 (Altbau). Faustwert fuer die Volumen-/Kostenrechnung, wenn nur die
+anrechenbare Flaeche aus dem Baurecht bekannt ist (Schnittstelle `machbarkeit`/`baurecht`).
 
 ## JANS-Flaechenfaktoren Wohnen (belegt)
 

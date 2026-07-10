@@ -15,16 +15,29 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | D5 | **Margen-/Finanzierungsannahmen** | D | mittel | Uebliche Bautraegermarge (%), Finanzierungszins/Laufzeit, Vermarktungs-/Reserve-% deiner Praxis |
 | D6 | **Ausnuetzungsziffer-Kennwerte fehlen** | D | mittel | `IMMO-06 WOHNEN Ausnuetzungsziffer` ist leer — typische AZ/GFZ je Zone/Gemeinde sammeln (oder via Skill baurecht ziehen) |
 | D7 | **Kennwerte Buero/Gewerbe duenn** | D | niedrig | nur ZH-Bueromarkt; weitere Nutzungen/Regionen bei Bedarf |
-| D8 | **`_Kennwerte Jans.docx` / Healthcare-DOCX** | D/T | mittel | Freigabe zum Auslesen der DOCX-Kennwerte, damit sie als belegte Tabellen ins Wiki kommen |
+| ~~D8~~ | ~~**`_Kennwerte Jans.docx` / Healthcare-DOCX**~~ | — | ✓ | **erledigt Run 16 (2026-07-10)**: Pfad TCC-lesbar (wie D4). `_Kennwerte Jans.docx` → aGF/GF-Faktor 0.8/0.9 + Wohn-Erstellungskosten-Kennwert (4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350); 3 Healthcare-DOCX → Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle. In [[flaechendefinitionen-sia]] + [[realwert-sachwert]] |
 | D9 | **Szenarien-Definitionen** | D | niedrig | exakte Kosten-Abstufung der Stufen lowbudget/standard/gehoben/exklusiv |
 
 ## B. Training-Aufgaben (Claude schliesst sie im Lern-Loop)
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen, T19 **und D4** (Excel-Tool-Formeln, Run 15) sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle, D-Freigaben). Naechste Kandidaten sobald verfuegbar: D8 (JANS-Kennwerte-DOCX, Freigabe), Emilienheim-Flaechenkennwerte, D5 (buerospezifische Margen-/Finanzierungspraxis — Bring-Schuld Raphael), Auffrischung Baupreisindex/Zins (naechste Referenzzins-Publ. 01.09.2026) | — | — |
+| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen, T19, **D4** (Excel-Tool-Formeln, Run 15) **und D8** (JANS-Kennwerte-DOCX + Healthcare-Umbaukosten, Run 16) sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle). Verbleibend: **nur D5** (buerospezifische Margen-/Finanzierungspraxis — echte Bring-Schuld Raphael, nicht durch Loop schliessbar); Emilienheim-Flaechenkennwerte **bestaetigt nicht verfuegbar** (nur Tages-Anzeiger-Medienquelle, keine Kennwertblatt). Naechste Auffrischung: Baupreisindex/Referenzzins-Publ. 01.09.2026, SREBI Q2-2026 | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-10 **D8 geschlossen — JANS-Kennwerte-DOCX + Healthcare-Umbaukosten eingearbeitet**
+  (Run 16): Wie bei D4 sind auch die als freigabegebunden angenommenen Kennwerte-DOCX TCC-lesbar.
+  Aus `_Kennwerte Jans.docx` (25.03.2025): der **aGF/GF-Umrechnungsfaktor Altbau 0.8 / Neubau 0.9**
+  (→ [[flaechendefinitionen-sia]]) und der **indexierte JANS-Wohn-Erstellungskosten-Kennwert EFH/ZFH**
+  (Median 2020 2'900 → 2025 3'365 CHF/m2 GF BKP 2 / **4'485 CHF/m2 GF BKP 1-5**; TG 42'000/SP;
+  Thalwil-Bohlweg-Rechenbeispiel; **HNF-Faktor 7'350 CHF/m2 HNF**) → [[realwert-sachwert]]. Aus drei
+  Healthcare-DOCX (`Spektrumskosten`, `Umbaukosten 500K/2500K`): das **JANS-Spitalumbau-Kostenband
+  CHF/m2 NF** (6 Stationstypen 2'000-10'000+) + 2 reale Faelle (Psychiatrie-Teilumbau 1'100 →
+  Zielkorridor 1'800-2'500; Kispi ZH Paediatrie 4'412) → [[realwert-sachwert]]. `_Kennwerte_Links.docx`
+  → [[datenquellen-registry]]. Damit ist die **letzte auto-schliessbare D-Luecke** zu; verbleibend
+  nur D5 (Bring-Schuld Raphael). Emilienheim-Flaechenkennwerte bestaetigt nicht verfuegbar
+  (nur Medienquelle). Marktpuls-Web-Check: alle Anker unveraendert.
 
 - ✓ 2026-07-08 **D4 geschlossen — Excel-Tool-Formeln reverse-engineered** (Run 15): Die vier
   Residualwert-Tools (WP + JANS, je Pre-Check + «Residualwert Berechnung») auf Zellebene ausgelesen

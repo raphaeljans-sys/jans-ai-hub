@@ -1,8 +1,8 @@
 ---
 title: Datenquellen-Registry (Markt-, Boden-, Kennwert-Daten)
 status: established
-last_updated: 2026-07-02
-sources: [IMMO-02 UBSFS, IMMO-04 Marktpreise, IMMO-05 Bodenpreise, IMMO-06 Kennwerte (inkl. Healthcare Herosé-Baukredit 2021 + ARTISET KVG 2023, Run 12)]
+last_updated: 2026-07-10
+sources: [IMMO-02 UBSFS, IMMO-04 Marktpreise, IMMO-05 Bodenpreise, IMMO-06 Kennwerte (inkl. Healthcare Herosé-Baukredit 2021 + ARTISET KVG 2023, Run 12; JANS-Umbau-Kostenband Spektrumskosten + `_Kennwerte Jans.docx` D8 + `_Kennwerte_Links.docx`, Run 16)]
 links: [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[lageklasse-landwertanteil]], [[bewertungsverfahren-ueberblick]]
 ---
 
@@ -36,12 +36,13 @@ gemeindescharfe Statistik. → strukturierte Bodenpreis-Quelle aufbauen (Wissens
 
 | Bereich | Inhalt | Stand | Status |
 |---|---|---|---|
-| Healthcare | Alters-/Pflegeheim-Kennwerte (Bett, HNF, Umbaukosten 500K/2500K); **NEU eingearbeitet (Run 12):** oeffentl. Baukredit-Bericht Pflegeheim Herosé Aarau (13.12.2021 — BKP-Anlagekosten, CHF/m3-GV/m2-GF/Zimmer, 4-Heim-Vergleich, Annuitaets-/Taxenmodell CURAVIVA/BWO) → [[realwert-sachwert]]/[[ertragswert-dcf]]; ARTISET Betriebswirtschaftliche Instrumente KVG (KoRe, 04.2023); noch offen: Obsan-Bericht, SenioResidenz-Geschaeftsbericht | 2021-2025 | ⭐ solide, jetzt mit realem CH-Bewertungsanker |
+| Healthcare | Alters-/Pflegeheim-Kennwerte (Bett, HNF); Baukredit-Bericht Pflegeheim Herosé Aarau (Run 12), JANS-8-Objekt-Referenzvergleich + SECO/USI-Effizienzstudie (Run 14), SenioResidenz/Obsan/BFS (Run 13); **NEU eingearbeitet (Run 16):** JANS-**Umbau**-Kostenband `Spektrumskosten.docx` + `Umbaukosten 500K.docx` + `Umbaukosten_CHF_2500K.docx` (Spitalumbau CHF/m2 NF 2'000-10'000+ + 2 reale Faelle) → [[realwert-sachwert]] | 2021-2025 | ⭐ solide, Neubau- UND Umbaukennwerte belegt |
 | Wohnen Baumasse | Flaechenkonzeption Wohnen (aGF/BGF/HNF-Faktoren) | 2025 | ok, knapp |
 | Wohnen Ausnuetzungsziffer | — | — | ⚠ LEER |
 | Buero | hbre Bueromarkt ZH | 2024 | nur ZH |
 | Baupreisteuerung | Immo-Monitoring | 2023-2024 | Screenshots |
-| `_Kennwerte Jans.docx` | JANS-interne Kalkulationssammlung | 2025 | wertvoll, DOCX |
+| `_Kennwerte Jans.docx` | JANS-interne Kalkulationssammlung — **eingearbeitet (D8, Run 16):** aGF/GF-Faktor 0.8/0.9 → [[flaechendefinitionen-sia]], Wohn-Erstellungskosten-Kennwert EFH/ZFH indexiert (4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350) + Thalwil-Bohlweg-Rechenbeispiel → [[realwert-sachwert]] | 2025 | ⭐ eingearbeitet |
+| `_Kennwerte_Links.docx` | JANS-Quellen-Linkliste (231229): ZH Wohnbaupreisindex, werk-material/CRB, keevalue.ch, BFS Baupreise/Mietwohnungen/Leerwohnungen/LIK, GIS-Browser ZH, comparis-Mashup, SNB-Statistik, Wuest Reports/Immo-Monitoring, immoverkauf24/immomapper | 2023 | Linkverzeichnis, in Nutzungsregel gespiegelt |
 
 ## Nutzungsregel
 
