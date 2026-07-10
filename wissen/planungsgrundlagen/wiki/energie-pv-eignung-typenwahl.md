@@ -1,8 +1,8 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-06-18
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp-Vorprojekte Reckholdern/Einsiedeln (09.01.2024) + MFH Basel (05.11.2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), uvek-gis.admin.ch, sonnenverlauf.de]
+last_updated: 2026-07-10
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp-Vorprojekte Reckholdern/Einsiedeln (09.01.2024) + MFH Basel (05.11.2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[kartenportale-geoportale-uebersicht]]
 ---
 
@@ -31,9 +31,38 @@ Die fuenf in PL-04/Solaranlage gefuehrten Bauarten (Ordner A–E) und ihr Entsch
 → C. Wenig Dach, viel Fassade / Stadt → D. Flachdach, Ertrag maximieren → E (aufgestaendert).
 Kombination D+E ist bei Hochbauten ueblich (Fassade Winter, Dach Sommer).
 
-> ⚠ Hinweis: Die JANS-Typenordner enthalten ueberwiegend Referenzbilder/Screenshots, ein
-> belegtes Datenblatt (Typ C, SI-Saphir) und Hersteller-Links (megasol, prefa.solar, solar-home/
-> Sunskin). Modul-/Leistungskennwerte je Hersteller bei Bedarf aus den Datenblaettern ziehen.
+> ⚠ Hinweis: Die JANS-Typenordner enthalten Referenzbilder/Screenshots **plus** belegte
+> Hersteller-Datenblaetter/Webshop-Belege — Typ B PREFA Solardachplatte + Eternit Sunskin roof,
+> Typ C SI-Saphir Doppelglas, Typ D Fassaden-BIPV (real: AUE Basel). Die daraus gezogenen
+> **Flaechenleistungen (Wp/m²)** und der **Modul-Preis-Anker** stehen belegt in §1b/§3.
+
+## 1b — Flaechenleistung (Wp/m²) je PV-Typ (belegt, D5)
+
+Der planerisch wichtigste Kennwert der fruehen Studie ist **nicht** primaer CHF/kWp, sondern **wieviel
+kWp auf die gegebene Dach-/Fassadenflaeche passt** — also die **Flaechenleistung Wp/m² verlegte Flaeche**.
+Sie unterscheidet die Typen staerker als der spez. Ertrag und ist ueber Hersteller-Datenblaetter hart belegbar:
+
+| Typ | Produkt (Beleg) | **Wp/m² verlegt** | Flaechenbedarf | Gewicht/Besonderheit | Quelle |
+|---|---|---|---|---|---|
+| **A/E Standard** mono | kristallines Standardmodul | **~170–200** | ~8 m²/kW (16 m²/kW Duennschicht) | Referenzband | EN-104 (EnDK 2019) |
+| **B Dachintegriert** gross | PREFA Solardachplatte gross (1400×420, 100 Wp/Stk, 1.7 Stk/m²) | **~170** (5.88 m²/kWp) | 5.88 m²/kWp | 12.6 kg/m², ab 17°, **keine Durchdringung/keine PV-Statik** | PREFA Solarfolder 09.2023 |
+| **B Dachintegriert** klein | PREFA Solardachplatte klein (700×420, 43 Wp/Stk, 3.4 Stk/m²) | **~146** (6.84 m²/kWp) | 6.84 m²/kWp | 12.6 kg/m², kleinteilig (Ortsbild/Kernzone) | PREFA Solarfolder 09.2023 |
+| **B Dachintegriert** (Alternative) | Eternit Sunskin roof GG-L, 195 Wp/Modul | ~150–170 (typ.) | Vollflaechen-Integration | Glas-Glas, Aura-2-Systemprofil, 25 J/80 % | solar-home.ch (17.11.2024) |
+| **C Transparent** | SI-Saphir M175-M180 Doppelglas (1500×1000, 180 Wp, 40 % Lichtdurchlass) | **~120** (180 Wp / 1.5 m²) | ~8.3 m²/kWp | 30 kg/Modul, **DIBt Z-70.3-204** (Ueberkopf/Fassade), bifazial bis 210 Wp | Datenblatt SI-Saphir |
+| **D Fassade** (vertikal) | BIPV strukturiertes Schmelzglas / Glas-Glas | ~100–150 brutto, **× ~0.6–0.7 Ertragsfaktor** (senkrechter Winkel) | flaechenabh. | architektonische Vollintegration | AUE Basel (jessenvollenweider 2021) |
+
+**Kern-Lehren fuer die Studie:**
+- **Transparenz kostet Leistung:** semitransparentes Modul (Typ C, 40 % Lichtdurchlass) liefert mit
+  **~120 Wp/m²** nur ~60 % der Flaechenleistung eines opaken Standardmoduls (~200 Wp/m²) — der
+  Lichtdurchlass wird durch hohen Zellabstand erkauft. Fuer Pergola/Vordach/Wintergarten bewusst
+  einplanen: mehr Flaeche fuer dieselbe kWp.
+- **Dachintegriert (Typ B) ~146–170 Wp/m²** liegt leicht unter dem opaken Standardmodul, aber der
+  **planerische Gewinn** ist statisch/konstruktiv: **keine Dachdurchdringung, keine separate
+  PV-Unterkonstruktions-Statik** (PREFA), Gewicht nur **12.6 kg/m²**, ab **17° (31 %)** Dachneigung.
+- **Ueberkopf/Fassaden-PV braucht die Glas-Bauzulassung:** das SI-Saphir-Modul traegt die **allgemeine
+  bauaufsichtliche Zulassung DIBt Z-70.3-204** — bei Pergola/Vordach ist das Modul zugleich
+  **Ueberkopfverglasung** (VSG/absturzsichernde Verglasung, Schnee-/Windlast 7200 Pa) → in der Studie
+  als Bauteil der Gebaeudehuelle behandeln, nicht als reines Anbauteil.
 
 ## 2 — Eignung & Ertrag belegt bestimmen (Werkzeuge)
 
@@ -65,6 +94,7 @@ SolarApp-Vorprojekten (PVGIS-basiert) bzw. realer ewz-Korrespondenz — vor Zita
 | **Reckholdern 20, Einsiedeln SZ** (EFH, Abbruch/Neubau) | 2024 | **A Indach** (MATCH Tile, 32 Wp Solarziegel) | 7.90 kWp | 252 | **981** | 58'198 | **≈ 7'370** | `solarapp.ch/Willerzell/2024-01-09 SolarReport` |
 | **MFH Basel** (2 Dachflaechen) | 2022 | **E/Aufdach** Standardmodul | 59.93 kWp | 162 | **852** | 135'257 | **≈ 2'255** | `solarapp.ch/Basel/2022-11-05_SolarReport` |
 | **ewzWHH Greencity** (PS 19.36) | 2019 | **E Flachdach**, V-Anordnung aufgestaendert | — | — | **~850** | — | **~1'600 real / 2'460 Schaetzung** | `D Fassaden PV Anlage/190213 E Vorgehen PV.pdf` |
+| **Eternit Sunskin roof GG-L** (Modul-Listenpreis, netto) | 2024 | **B/D dachintegriert / Fassade** (195 Wp/Modul, inkl. Systemprofil) | — | — | — | 339/Modul | **≈ 1'740 CHF/kWp _nur Modul_** | `A Indach PV Anlage/Bildschirmfoto 2024-11-17` (solar-home.ch, Aktion −20 % bis 31.12.24) |
 
 **Lesart der Bandbreite (belegt):**
 - **Spez. Ertrag** liegt in ZH/SZ-Lagen belegt bei **~850–980 kWh/kWp** (Dachneigung/Verschattung/
@@ -76,6 +106,14 @@ SolarApp-Vorprojekten (PVGIS-basiert) bzw. realer ewz-Korrespondenz — vor Zita
   Typen ziehen.
 - **Foerderung** (Pronovo EIV) senkt die Netto-Investition spuerbar: Basel CHF 22'861 (~17 %),
   Reckholdern CHF 3'674 (~6 %) — als Abzug, nicht als Ertrag verbuchen.
+- **Modul-Preis-Anker vs. Systempreis:** der Eternit-Sunskin-Listenpreis **~1'740 CHF/kWp ist
+  _nur das Modul_** (inkl. Systemprofil, ohne Wechselrichter/Verkabelung/Montage/Elektroanschluss).
+  Der **installierte** BIPV-Systempreis liegt erfahrungsgemaess beim **~1.6–2.5-fachen** des
+  Modulpreises → grob **~3'000–4'500 CHF/kWp installiert** fuer dachintegriert/Fassade — deutlich
+  ueber Standard-Aufdach (Typ E ~2'255), aber unter der kleinteiligen Solarziegel-Loesung
+  (Typ A/B-Tile ~7'370, Reckholdern). Merksatz: **je kleinteiliger/integrierter/vertikaler, desto
+  teurer pro kWp.** Exakten Systempreis nur ueber Installateur-Offerte, nie den Modulpreis als
+  Systempreis zitieren.
 
 ### Detail-Lehre Flachdach V-Anordnung (ewzWHH, ewz/Meili Peter Partner/IBG, 13.02.2019)
 - **Belegungsdichte ↔ spez. Ertrag** ist ein Zielkonflikt: maximale Belegung senkt kWh/kWp
@@ -101,7 +139,12 @@ SolarApp-Vorprojekten (PVGIS-basiert) bzw. realer ewz-Korrespondenz — vor Zita
 
 ## Datenstand / offen
 ⚠ Solarrechner-Kennwerte Stand 10/2022; Modulwirkungsgrade steigen → Faustwert m²/kWp periodisch
-nachziehen. Benchmark-Tabelle §3 deckt **D5** teilweise: Typ A (Indach-Tile 2024) + Typ E (Aufdach
-2022) + Flachdach (2019) belegt; **offen Typ B/C/D** (Dachziegel/transparent/Fassade) als belegter
-CHF-kWp-Benchmark — bei naechstem realen JANS-Projekt nachziehen. SolarApp-Werte sind
-**Vorprojekt-Schaetzungen** (PVGIS), keine Abrechnungen → bei realer Schlussabrechnung verifizieren.
+nachziehen. **D5-Fortschritt 2026-07-10 (Run 17):** die **Flaechenleistung Wp/m² je Typ B/C/D ist
+jetzt belegt** (§1b — PREFA Solardachplatte 146–170, SI-Saphir transparent ~120, Fassade × 0.6–0.7)
+und ein **belegter Modul-Preis-Anker** (Eternit Sunskin ~1'740 CHF/kWp _Modul_, §3) ergaenzt.
+⚠ Datenstaende der Belege: PREFA-Folder **09.2023**, SI-Saphir-Datenblatt **06/2015**, Eternit-Preis
+**11/2024 (mit −20 %-Aktion)** → je >18 Mt.; Wp/m² sind stabile Konstruktions-Kennwerte, aber
+**Modul-Preise vor Zitat aktuell nachschlagen** (Herstellerpreise fallen). **Weiterhin offen:** ein
+belegter **installierter System-CHF/kWp** fuer Typ B/C/D aus einer realen JANS-Schlussabrechnung (die
+CHF-Werte hier sind Modul-Liste bzw. hergeleitetes Band, keine Abrechnung). SolarApp-Werte §3 bleiben
+**Vorprojekt-Schaetzungen** (PVGIS) → bei realer Schlussabrechnung verifizieren.

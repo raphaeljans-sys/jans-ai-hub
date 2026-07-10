@@ -163,9 +163,15 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Benchmark-Tabelle in `[[energie-pv-eignung-typenwahl]]` §3 — **Typ A** Indach-Tile Reckholdern/
   Einsiedeln (7.9 kWp, 981 kWh/kWp, ~7'370 CHF/kWp, SolarApp 2024), **Typ E** MFH Basel (59.93 kWp,
   852 kWh/kWp, ~2'255 CHF/kWp, SolarApp 2022), Flachdach ewzWHH 2019. Ertragsband **~850–980
-  kWh/kWp**; CHF/kWp typabhaengig **~2'000–7'400**. **Offen Typ B/C/D** (Dachziegel/transparent/
-  Fassade) als belegter CHF-Benchmark; SolarApp = Vorprojekt-Schaetzung, an Schlussabrechnung
-  verifizieren.
+  kWh/kWp**; CHF/kWp typabhaengig **~2'000–7'400**. **✓ Typ B/C/D erledigt 2026-07-10 (Run 17):**
+  belegte **Flaechenleistung Wp/m²** (PREFA Solardachplatte gross 170 / klein 146 Wp/m², SI-Saphir
+  transparent ~120 Wp/m² bei 40 % Lichtdurchlass, Fassade ×0.6–0.7 Ertragsfaktor) + **Modul-Preis-Anker**
+  Eternit Sunskin roof GG-L 195W = 339 CHF netto/Modul ≈ 1'740 CHF/kWp _nur Modul_ (solar-home.ch
+  17.11.2024); Systemband hergeleitet ~3'000–4'500 CHF/kWp installiert BIPV; Ueberkopf-PV = Glas-
+  Bauzulassung (DIBt Z-70.3-204); real ref Fassade AUE Basel (jessenvollenweider 2021) →
+  [[energie-pv-eignung-typenwahl]] §1b/§3. **Offen:** installierter System-CHF/kWp Typ B/C/D aus
+  realer JANS-Schlussabrechnung (bisherige CHF sind Modul-Liste/Band); SolarApp = Vorprojekt-
+  Schaetzung, an Schlussabrechnung verifizieren.
 - [x] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload).
   ✓ **2026-07-04 (Run 14):** aus EnDK-Schulung V1.4 (13.10.2025, Kantone mit Privater Kontrolle)
   belegt — **Rollen** (Projektkoordination legt an/reicht ein/beauftragt PK · Nachweisverfassung

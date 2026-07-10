@@ -2,6 +2,38 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-10 — Training Run 17 (Energie/PL-04): Flaechenleistung Wp/m² + Modul-Preis-Anker je PV-Typ B/C/D (D5-Rest)
+- Schwerpunkt **Energie** (Rotation Run 16 Kartenportale → Run 17 Energie, Prioritaet). **Connector-
+  Schritt: nein** (Domaene Energie hat keinen Connector). Quellen aus PL-04/Solaranlage (Typenordner
+  A–D): PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (06/2015, DIBt
+  Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop-Screenshot 17.11.2024),
+  Fassaden-Screenshots (Amt f. Umwelt+Energie Basel, jessenvollenweider 2021), Sunskin roof
+  Verlege-PDF (Rev. 01.2022).
+- **D5-Rest fuer Typ B/C/D geschlossen** — neuer Kern-Kennwert **Flaechenleistung Wp/m² verlegt**
+  (planerisch wichtiger als CHF/kWp, weil er bestimmt, wieviel kWp auf die gegebene Flaeche passt):
+  - **Typ B dachintegriert:** PREFA Solardachplatte gross **~170 Wp/m²** (5.88 m²/kWp) / klein
+    **~146 Wp/m²** (6.84 m²/kWp), 12.6 kg/m², ab 17° (31 %), **keine Durchdringung/keine separate
+    PV-Statik**; Alternative Eternit Sunskin roof GG-L.
+  - **Typ C transparent:** SI-Saphir Doppelglas **~120 Wp/m²** (180 Wp/1.5 m²) bei **40 % Lichtdurchlass**
+    — Transparenz kostet ~40 % Flaechenleistung; DIBt Z-70.3-204, Ueberkopf-/Fassaden-tauglich, 7200 Pa.
+  - **Typ D Fassade:** BIPV strukturiertes Schmelzglas, **× ~0.6–0.7 Ertragsfaktor** (senkrechter
+    Winkel); real ref Amt f. Umwelt+Energie Basel (Spiegelgasse 15, 2021).
+- **Modul-Preis-Anker (belegt):** Eternit Sunskin roof GG-L 195W = **339 CHF netto/Modul ≈ 1'740
+  CHF/kWp _nur Modul_** (solar-home.ch 17.11.2024, −20 %-Aktion). Systemband hergeleitet **~3'000–4'500
+  CHF/kWp installiert** BIPV (~1.6–2.5× Modulpreis) — zwischen Standard-Aufdach (~2'255) und
+  Solarziegel-Tile (~7'370). Merksatz: **je kleinteiliger/integrierter/vertikaler, desto teurer/kWp.**
+- **Fachsignatur-Punkt eingewoben:** Ueberkopf-PV (Pergola/Vordach) ist zugleich Ueberkopfverglasung
+  → als Bauteil der Gebaeudehuelle mit Glas-Bauzulassung (VSG/absturzsichernd) behandeln, nicht als Anbauteil.
+- ⚠ Datenstaende der Belege >18 Mt. (PREFA 09.2023 / SI-Saphir 06/2015 / Eternit 11/2024) — Wp/m²
+  sind stabile Konstruktions-Kennwerte, Modul-**Preise** vor Zitat aktuell nachschlagen. Offen bleibt
+  ein **installierter System-CHF/kWp** fuer B/C/D aus einer realen JANS-Schlussabrechnung.
+- Geaendert: [[energie-pv-eignung-typenwahl]] (NEU §1b Flaechenleistung-Tabelle, §3 Eternit-Zeile +
+  Modul-vs-System-Lehre, Datenstand, Frontmatter). Register: curriculum (E11 [x]), QUESTIONS (D5/D5
+  ✓ Typ B/C/D), INDEX (Artikel-Zeile), raw/_INGESTED (Run-17-Zeile).
+- **Naechster Lauf (Run 18):** Rotation → **Recht/Norm (PL-02)** oder Prioritaets-Vorzug **M2**
+  (Anbindung machbarkeit/ankaufspruefung schaerfen). Energie-Rest fuer spaeter: realer KISPI-EVEN-
+  Screenshot-Walkthrough (D6-Offen) + installierter System-CHF/kWp aus JANS-Schlussabrechnung (D5-Offen).
+
 ## 2026-07-08 — Training Run 16 (Kartenportale/PL-01): Connector rechnet senkrechten Abstand Linie↔Parzellengrenze (K5-Rest/E4)
 - Schwerpunkt **Kartenportale** (Rotation waere Brandschutz gewesen, aber PL-03 ist bis 08/2026
   eingefroren — BSV-2026 → 2027/Marschhalt Crans-Montana; Kartenportale hat Prioritaet und eine
