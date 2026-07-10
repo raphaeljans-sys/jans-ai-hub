@@ -7,6 +7,19 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-10
 
+- **HUB-CHEF-LAUF — ohne Befund, keine zweite Mail (08:40).** Signale nach dem Radar (05:00) selbst
+  gegenverifiziert: bexio `--verzug` unveraendert (nur RE-00087, Kispi, CHF 15'000, **85 Tg**, jetzt
+  **Mahnung 2**, Frist laeuft bis **15.07.** — A1 greift NICHT, Stufe 2+ nur Entwurf/Entscheid Raphael;
+  RE-00098/99 faellig 20.07. ohne Verzug); `--abgleich` unveraendert (Altliste 19 Pos., 1 alter
+  Bankeingang 2021 — keine neuen Phantom-/Duplikatfaelle); **Mail-Eingang seit 06:00 leer** (Outlook);
+  **Kalender bis 17.07.** nur die Koordinationssitzung Tueren **13.07. 09:00–10:00** (RJ Organisator,
+  bereits im Register); Sync-/Remote-Task-Queues leer.
+  - **Keine Whitelist-Aktion:** A1 nicht anwendbar (RE-00087 bereits Mahnung 2, kein anderer Verzug
+    >= 5 Tg). A2 nicht noetig (einziger Termin ist RJs eigene Sitzung, schon im Kalender). Kein neuer
+    Ablage-/Registerbedarf (Register durch Radar aktuell), keine neuen Entwuerfe.
+  - **Kein zweites Briefing:** null neue Befunde/Aktionen/Entwuerfe; alle 7-Tage-Punkte (RE-00087 Frist
+    15.07., SharePoint-Gastzugriff 10.07.) standen schon im Radar-Briefing 09.07. Doppelmeldung waere
+    das von Raphael geflaggte Ueberreporting → nur dieser Journal-Vermerk.
 - **RADAR-LAUF — ohne Briefing-Mail (KEIN Laerm).** Register gegen bexio (`--verzug`), Kalender
   (Outlook, bis 17.07.), Mail-Eingang UND -Ausgang (seit 09.07. Nachmittag) und Sync-/Remote-Task-Queues
   abgeglichen; je offenem Punkt den neuesten Thread inkl. Anhaenge geprueft (Gegen-Verifikation,
