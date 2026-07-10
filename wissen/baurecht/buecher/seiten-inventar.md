@@ -504,18 +504,18 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 486 | 2 | ~967 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.38.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 487 | 2 | ~969 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.40.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 488 | 2 | ~971 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.41.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 489 | 2 | ~973 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.43.jpg` |  |
+| 489 | 2 | 970/971 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.43.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 490 | 2 | ~975 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.44.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 491 | 2 | ~977 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.45.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 492 | 2 | ~979 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.47.jpg` |  |
+| 492 | 2 | 976/977 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.47.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 493 | 2 | ~981 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.48.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 494 | 2 | 980 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.50.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 495 | 2 | ~985 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.51.jpg` |  |
+| 495 | 2 | 982/983 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.51.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 496 | 2 | 984 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.53.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 497 | 2 | ~989 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.55.jpg` |  |
+| 497 | 2 | 986/987 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.55.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 498 | 2 | 988 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.56.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
-| 499 | 2 | ~993 | [ ] | `Bildschirmfoto 2026-06-07 um 12.02.58.jpg` |  |
-| 500 | 2 | ~995 | [ ] | `Bildschirmfoto 2026-06-07 um 12.03.00.jpg` |  |
+| 499 | 2 | 990/991 | [x] | `Bildschirmfoto 2026-06-07 um 12.02.58.jpg` | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
+| 500 | 2 | 992/993 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.00.jpg` (S.993 leer = Kap.14 endet S.992) | [14-nutzungsdichte-ausnuetzung](band-2/14-nutzungsdichte-ausnuetzung.md) |
 | 501 | 2 | ~997 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.01.jpg` | [15-lage-von-gebaeuden](band-2/15-lage-von-gebaeuden.md) |
 | 502 | 2 | ~999 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.03.jpg` | [15-lage-von-gebaeuden](band-2/15-lage-von-gebaeuden.md) |
 | 503 | 2 | ~1001 | [x] | `Bildschirmfoto 2026-06-07 um 12.03.04.jpg` | [15-lage-von-gebaeuden](band-2/15-lage-von-gebaeuden.md) |

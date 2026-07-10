@@ -399,7 +399,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 
 | Kap | Titel | Abdeckung |
 |-----|-------|-----------|
-| 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
+| 14 | Nutzungsdichte/Ausnuetzung | ✅ VOLLSTAENDIG (S.919-992, Shots 462-500 lueckenlos; Ausnuetzung/Anrechnung/BMZ+integr.Garagen/Uebertragung/Nutzungsart+nicht stoerende Betriebe/Pflegewohnung/Nutzweisen-Uebertragung §17 ABV/Wohnanteil/Harmonisierungsvorlage-Formeln nPBG/Verzicht §251 lit.b; Mischrechnungsverbot geklaert) |
 | 11 | Allgemeine Bestimmungen Baupolizeirecht | 🟡 teilweise (§§218-232 PBG + Hammerschlagsrecht §§229/230, S.686-704) |
 | 13 | Weitere Grundanforderungen | 🟢 vollstaendig (Teil 1 §238 Aesthetik-Generalklausel + Solar Art.18a RPG S.810-857; Teil 2 §238-Forts. Umgebung/Baumschutz + §239 Regeln der Baukunde/Baumaterialien + §§240/241 Verkehrssicherheit/Sichtbereiche §16 StrAV + Strassenreklamen Art.6 SVG S.858-891; Teil 3 **Fahrzeugabstellplaetze §§242-247 PBG** Normbedarf/Massnahmenplan Lufthygiene/Wegleitung 1997/autoarme Nutzungen/Fahrtenmodell/Ersatzabgabe/Parkplatzfonds §247/Veloabstellplaetze + **Spiel-/Ruheflaechen §248** S.892-916) |
 | 15 | Lage von Gebaeuden | 🟢 weitgehend (System/Gebaeudearten/Wald/Gewaesser/Baulinien + Grenz-/Gebaeudeabstand §§269-273 + Grenzbaurecht §274/§27 Abs.2 ABV, S.995-1123; **nur 15.13 Harmonisierungsvorlage S.1124-1133 offen**) |

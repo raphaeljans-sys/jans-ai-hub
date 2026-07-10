@@ -92,7 +92,23 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~965 / 1550 (~482 Doppelseiten). **Run 25 (2026-07-10, Forcierung, 3 Kapitelteile,
+- **Seiten distilliert:** ~977 / 1550 (~488 Doppelseiten). **Run 26 (2026-07-10, regulaer/Lueckenschluss,
+  6 Tail-Doppelseiten Kap. 14: Shots 489/492/495/497/499/500, S. 970-992):** **Kap. 14 (P1) damit
+  lueckenlos gelesen (Shots 462-500).** Nachgetragen: **Nutzungsart-Detail 14.2.2-14.2.6** — mit Wohnung
+  zusammenhaengende Arbeitsraeume **Art. 52 Abs. 1 PBG** (1/4-1/3), **nicht stoerende Betriebe** § 52
+  Abs. 1/3 (stillschweigend erlaubt + funktionale Zweckbestimmung BEZ 2010 Nr. 2), **ideelle Immissionen**
+  BGE 108 Ia 140, **Pflegewohnung zonenkonform BEZ 2015 Nr. 36** (Healthcare!), **Parkplatz/Erschliessung
+  Zonenkonformitaet 14.2.4** (dienende Funktion), **besondere Nutzungsanordnungen § 49a Abs. 3** +
+  **Erdgeschoss Laeden/Gaststaetten § 49a Abs. 3 Satz 2**, **Uebertragung von Nutzweisen § 17 Abs. 2 ABV**
+  (Radius 150/300 m BO Zuerich Art. 6, NICHT = Ausnuetzungsuebertragung); **BMZ integrierte Garagen**
+  § 13 ABV/BEZ 2012 Nr. 2; **Harmonisierungsvorlage-Formeln 14.3.3-14.3.6** (AZ/BMZ ueber Terrain/UEZ mit
+  Unterniveaubauten+projizierte Fassadenlinie/Gruenflaechenziffer, +20 % Bonus § 11/13 nABV) +
+  **Verzicht auf Nutzungsziffern § 251 lit. b PBG 14.3.7**. **Mischrechnungsverbot RESOLVIERT:** keine
+  benannte Doktrin in Kap. 14 (jede Ziffer bindet abschliessend, § 251 PBG). Destillat
+  [[band-2/14-nutzungsdichte-ausnuetzung]] `established` erweitert; Wiki [[ausnuetzungsuebertragung]] auf
+  `established` (Abgrenzung Nutzweisen-Uebertragung) + [[nutzungsziffern]] geschaerft. Modell C (5 Karten)
+  + Modell A (1). Report `outputs/2026-07-10_buch-run26.md`.
+- **Seiten distilliert (frueher):** ~965 / 1550 (~482 Doppelseiten). **Run 25 (2026-07-10, Forcierung, 3 Kapitelteile,
   19 Doppelseiten):** Kap. 13 Schluss + Kap. 20 Schluss + Kap. 21 Schluss → **Kap. 13, 20, 21 neu VOLLSTAENDIG**.
   **Kap. 13** (S. 892-916, Shots 449-461): **Fahrzeugabstellplaetze §§ 242-247 PBG** — Normbedarf BZO/PPV
   § 242 Abs. 1, Reduktion + **Maximum § 242 Abs. 2** (Massnahmenplan Lufthygiene/Wegleitung 1997 BGE 124 II 272),
@@ -252,9 +268,10 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
 - **Naechster Lauf:** ~~Kap. 13 Schluss (§§ 242-248) / Kap. 20 Schluss (§ 357 Abs. 5/§ 358/§ 307) / Kap. 21
-  Schluss (Art. 37a/24d/24e)~~ **erledigt Run 25 (2026-07-10) → Kap. 13/20/21 VOLLSTAENDIG.** Verbleibende
-  **Band-2-Kleinreste** (nur noch wenige): **Kap. 14** Mischrechnungsverbot § 10/13 ABV (offene Shots 489/492/
-  495/497), **Kap. 15.13** Harmonisierungsvorlage (S. 1124-1133), **Kap. 16.9-Schluss** (S. 1230 f.), **Kap. 17**
+  Schluss (Art. 37a/24d/24e)~~ **erledigt Run 25 (2026-07-10) → Kap. 13/20/21 VOLLSTAENDIG.** ~~**Kap. 14**
+  Mischrechnungsverbot/Tail (Shots 489/492/495/497/499/500)~~ **erledigt Run 26 (2026-07-10) → Kap. 14 (P1)
+  VOLLSTAENDIG, Mischrechnungsverbot geklaert.** Verbleibende **Band-2-Kleinreste** (nur noch wenige):
+  **Kap. 15.13** Harmonisierungsvorlage (S. 1124-1133), **Kap. 16.9-Schluss** (S. 1230 f.), **Kap. 17**
   Garagen §§ 37-39 BBV I (ab Shot 656), **Kap. 19-Rest** (ab Shot 706), **Kap. 11** (Feinschliff §§ 218-232).
   Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`. **Sobald diese Kleinreste erledigt sind:
   Forcierungs-Phase abgeschlossen → Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3

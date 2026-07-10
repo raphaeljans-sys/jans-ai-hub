@@ -906,3 +906,38 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   § 280 das **gewachsene** Terrain — bei Hanglagen auseinanderhalten. Die Gemeinde kann strenger sein
   (§ 293 Abs. 4; z.B. 1,0 m in Kuesnacht). Terrainfuehrung → Skill `massgebendes-terrain` (Bd 2 S. 1224 ff.).
   _[2026-07-09]_
+
+## Kap. 14 — Nutzungsart / Nutzweisen-Uebertragung / Harmonisierungsvorlage (Run 26, 2026-07-10)
+
+- **F (Modell C):** Ist eine Pflegewohnung fuer sieben zu pflegende Personen in einer Wohnzone
+  zonenkonform? — **A:** **Ja.** Das Baurekursgericht qualifiziert sie als «dem eigentlichen Wohnen so
+  aehnliche Nutzung», dass sie ohne Weiteres **nicht stoerender Betrieb und damit zonenkonform** ist;
+  geltend gemachte ideelle Immissionen (Alter/Sterben) stehen nicht entgegen (**BEZ 2015 Nr. 36**;
+  Bd 2 S. 982). JANS-Merke: kleinteilige Healthcare-/Pflegenutzung ist in ZH-Wohnzonen i.d.R. moeglich.
+  _[2026-07-10]_
+- **F (Modell C):** Worin unterscheidet sich die **Uebertragung von Nutzweisen** von der
+  **Ausnuetzungsuebertragung**? — **A:** Die Ausnuetzungsuebertragung verschiebt **Ausnuetzungsreserve**
+  (§ 259 Abs. 1 PBG, gleiche Zone, Naehe). Die **Nutzweisen-Uebertragung** (z.B. des Wohnanteils) richtet
+  sich **nicht** danach, sondern nach **§ 17 Abs. 2 ABV** — kommunal frei regelbar; BO Zuerich Art. 6:
+  Verlegung des Wohnanteils im **Radius 150 m (Kernzone) / 300 m (uebrige Zonen)**, vor Baubeginn im
+  Grundbuch anzumerken (Bd 2 S. 987). _[2026-07-10]_
+- **F (Modell C):** Gibt es in Kap. 14 ein «Mischrechnungsverbot»? — **A:** **Nicht als benannte
+  Doktrin.** Jede Nutzungsziffer (AZ/BMZ/UEZ/Gruenflaechenziffer) bindet **eigenstaendig und
+  abschliessend** (numerus clausus § 251 PBG); Reserve bei einer Ziffer laesst sich nicht in Mehrnutzung
+  bei einer anderen umrechnen. Zulaessig sind nur Ausnuetzungs- und Nutzweisen-Uebertragung, je auf
+  **dieselbe** Ziffer bezogen (Bd 2 S. 919-992, gesamtes Kap.). _[2026-07-10]_
+- **F (Modell C):** Muss eine ins Hauptgebaeude integrierte Garage ein «Besonderes Gebaeude» nach
+  § 49 Abs. 3 PBG sein, damit ihre Baumasse der Zusatz-BMZ angerechnet wird? — **A:** **Nein.** Sieht die
+  BO das vor, wird die Baumasse integrierter Garagen/Autolifte der BMZ fuer Besondere Gebaeude
+  angerechnet, **ohne** dass die Garage die Maximalgroessen von § 49 Abs. 3 PBG einhalten muss (§ 13 ABV;
+  **BEZ 2012 Nr. 2** Zollikon; Bd 2 S. 971). _[2026-07-10]_
+- **F (Modell C):** Was aendert sich bei der **Ueberbauungsziffer** unter der Harmonisierungsvorlage
+  (§ 256 nPBG)? — **A:** Bezug ist die anrechenbare Gebaeudeflaeche innerhalb der **projizierten
+  Fassadenlinie**; **neu sind Unterniveaubauten anzurechnen** (auch Klein-/Anbauten). Energiespar-Bonus
+  **+20 %** der Grundziffer (§ 11 nABV). Bei der BMZ (§ 258 nPBG) faellt neu das Volumen offener,
+  weniger als zur Haelfte umschlossener Gebaeudeteile ausser Ansatz (Bd 2 S. 990 f.). _[2026-07-10]_
+- **F (Modell A · Frage→Beleg):** Eine Gemeinde legt in einer Kernzone gar keine Nutzungsziffern fest —
+  ist das zulaessig, und woran bemisst sich dann die Ausnuetzung? — **A:** **Zulaessig** (§ 251 lit. b
+  PBG): die Gemeinde darf auf Nutzungsziffern verzichten und die Ausnuetzung **indirekt** nur ueber die
+  primaeren Baubegrenzungen (Abstands-, Hoehen-, Geschosszahlvorschriften) beschraenken; in Kern-/
+  Zentrumszonen ist dies **ueblich** (Bd 2 S. 992). _[2026-07-10]_

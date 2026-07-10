@@ -4,6 +4,15 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-10 — Buch-Run 26: Kap. 14 Lueckenschluss (P1 VOLLSTAENDIG, 6 Tail-Doppelseiten, Shots 489/492/495/497/499/500)
+- [erweitert] **Destillat Kap. 14** [[band-2/14-nutzungsdichte-ausnuetzung]] (`established`): Nutzungsart-Detail 14.2.2-14.2.6 (Arbeitsraeume Art. 52 PBG, nicht stoerende Betriebe § 52 Abs. 1/3, ideelle Immissionen BGE 108 Ia 140, **Pflegewohnung zonenkonform BEZ 2015 Nr. 36** [Healthcare], Parkplatz-Zonenkonformitaet 14.2.4, besondere Nutzungsanordnungen § 49a Abs. 3 + Erdgeschoss § 49a Abs. 3 Satz 2, **Uebertragung von Nutzweisen § 17 Abs. 2 ABV** Radius 150/300 m), BMZ integrierte Garagen (§ 13 ABV/BEZ 2012 Nr. 2), Harmonisierungsvorlage-Formeln nPBG 14.3.3-14.3.6 + **Verzicht auf Nutzungsziffern § 251 lit. b PBG** 14.3.7.
+- [geklaert] **Mischrechnungsverbot** = keine benannte Doktrin in Kap. 14 (jede Ziffer bindet abschliessend, § 251 PBG); Offen-Punkte in Destillat, [[ausnuetzungsuebertragung]], [[nutzungsziffern]] und wiki/QUESTIONS.md geschlossen.
+- [geschaerft] Wiki [[ausnuetzungsuebertragung]] `emerging`→`established`: Abgrenzung Ausnuetzungsuebertragung ↔ Nutzweisen-Uebertragung (§ 17 Abs. 2 ABV, BO Zuerich Art. 6, Vergleichstabelle).
+- [geschaerft] Wiki [[nutzungsziffern]]: Harmonisierungsvorlage-Formeln nPBG (+20 % Energiespar-Bonus § 11/13 nABV), Verzicht § 251 lit. b, Nutzungsart-Abschnitt.
+- [drill] training/drills.md: 5 Modell-C-Karten + 1 Modell-A-Drill (Kap. 14 Nutzungsart/Nutzweisen/IVHB).
+- [register] seiten-inventar Shots 489/492/495/497/499/500 → [x] (echte Seiten 970-992); curriculum Kap. 14 → VOLLSTAENDIG; buecher/INDEX Kap. 14 → ✅; wiki/INDEX-Eintraege aktualisiert.
+- [report] `outputs/2026-07-10_buch-run26.md`.
+
 ## 2026-07-10 — Buch-Run 25: Kap. 13 Schluss / Kap. 20 Schluss / Kap. 21 Schluss (Forcierung, 3 Kapitelteile, 19 Doppelseiten)
 - [neu] **Destillat Kap. 13 Teil 3 / Schluss** [[band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3]]
   (S. 892-916, Shots 449-461): **Fahrzeugabstellplaetze §§ 242-247 PBG** — kommunaler Normbedarf § 242 Abs. 1,

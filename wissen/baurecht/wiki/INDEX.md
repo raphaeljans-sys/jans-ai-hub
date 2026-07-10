@@ -9,9 +9,9 @@ oder umbenannten Artikel aktualisieren.
 ## Fokus-Bereiche & Artikel
 
 ### Mass der Nutzung
-- [[nutzungsziffern]] — AZ (§ 254/255), ÜZ (§ 256), BMZ (§ 254/258 nPBG), Freiflächenziffer (§ 257), massgebliche Grundstücksfläche (§ 259), Boni; **GFZ in ZH nicht verfügbar** · *established*
-- [[ausnuetzungsuebertragung]] — Verschiebung der Ausnützungsreserve aufs Nachbargrundstück: gleiche Zone (§ 72 Abs. 3 PBG), Revers im Grundbuch, kommunaler Daumenwert max. 1/5 · *emerging*
-- [[14-nutzungsdichte-ausnuetzung]] (Destillat Bd 2) — Buchsynthese Kap. 14, Belegquelle der beiden Artikel · *emerging*
+- [[nutzungsziffern]] — AZ (§ 254/255), ÜZ (§ 256), BMZ (§ 254/258 nPBG), Freiflächenziffer (§ 257), massgebliche Grundstücksfläche (§ 259), Boni; **GFZ in ZH nicht verfügbar**; **Harmonisierungsvorlage-Formeln nPBG** (BMZ über Terrain, ÜZ mit Unterniveaubauten, Grünflächenziffer, +20 % Energiespar-Bonus § 11/13 nABV) + **Verzicht auf Nutzungsziffern § 251 lit. b** + **Nutzungsart** (nicht störende Betriebe / Pflegewohnung zonenkonform) — geschärft Run 26 · *established*
+- [[ausnuetzungsuebertragung]] — Verschiebung der Ausnützungsreserve aufs Nachbargrundstück: gleiche Zone (§ 72 Abs. 3 PBG), Revers im Grundbuch, kommunaler Daumenwert max. 1/5; **klar abgegrenzt von der Übertragung von Nutzweisen/Wohnanteil § 17 Abs. 2 ABV** (kommunal frei, BO Zürich Radius 150/300 m); **kein Mischrechnungsverbot als eigene Doktrin** (geklärt Run 26) · *established*
+- [[14-nutzungsdichte-ausnuetzung]] (Destillat Bd 2) — Buchsynthese Kap. 14 **VOLLSTAENDIG** (Ausnützung/BMZ/Nutzungsart/Nutzweisen-Übertragung/Harmonisierungsvorlage), Belegquelle · *established*
 
 ### Abstände & Höhen
 - [[abstaende-und-hoehen]] — Grenz-/Gebäudeabstand (§§ 269-274), **Grenzabstand-Zahlenwerk** (Mindest 3,5 m, Mehrhöhenzuschlag ab 12 m/max 16,5 m § 270, Grund-/Mehrlängenzuschlag §§ 21-24 ABV, Hauptwohnseite, Vorsprung-Privileg § 260 Abs. 3), **Gebäudeabstand = Summe der Grenzabstände § 271** + Verkehrsräume § 272 + **Besondere Gebäude § 273/§ 49 Abs. 3** (≤4/5 m, 3,5 m), **Näherbaurecht § 270 Abs. 3** (7-m-Schranke, Grundbuch), Aussenisolation § 253a (geschärft 2026-06-16), **Waldabstand § 262 PBG** (30/15 m), **Gewässerraum** (Art. 36a GSchG), Höhenbegriffe, **Hochhäuser >25 m § 282/§ 284 + Schattenwurf >2 h § 30 ABV + Gebäudelänge § 28 ABV + Dachaufbauten-Drittelsregel § 292 + Freilegung UG § 293** (geschärft 2026-07-09, Kap. 16 T3) · *established*

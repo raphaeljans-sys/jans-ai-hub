@@ -1,8 +1,8 @@
 ---
 title: Nutzungsziffern (Mass der Nutzung) — Kanton Zürich
 status: established
-last_updated: 2026-07-08
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 276 PBG", "Buch Bd 2 Kap. 14 S. 919-993"]
+last_updated: 2026-07-10
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 17 ABV", "§ 52 PBG", "§ 276 PBG", "§ 255 nPBG", "§ 256 nPBG", "§ 257 nPBG", "§ 258 nPBG", "§ 11 nABV", "§ 13 nABV", "Buch Bd 2 Kap. 14 S. 919-992"]
 links: [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[ausnuetzungsuebertragung]], [[14-nutzungsdichte-ausnuetzung]], [[geschosse-und-kniestock]]
 ---
 
@@ -68,6 +68,30 @@ und der Allgemeinheit dienende öffentliche Fusswege/Eisenbahnanlagen
 > Kanton Zürich NICHT zur Verfügung** (Buch Bd 2 S. 988). ZH steuert die Dichte
 > über AZ/BMZ/ÜZ/Grünflächenziffer. Die frühere Aussage «in neueren Planungen
 > anstelle der AZ verwendet» trifft für ZH nicht zu.
+
+## Harmonisierungsvorlage (nPBG/IVHB) — was sich ändert
+Die Harmonisierungsvorlage kennt vier abschliessende Ziffern (Buch Bd 2 S. 990-992):
+- **AZ (§ 255 nPBG):** Berechnungsweise **unverändert** (aGF / anrechenbare Grundfläche).
+- **BMZ (§ 258 nPBG):** Bauvolumen **über dem massgebenden Terrain** / anrechenbare GSF; **neu** wird
+  das Volumen offener Gebäudeteile, die **weniger als zur Hälfte umschlossen** sind, nicht angerechnet
+  (§ 258 Abs. 3 nPBG, ersetzt den Witterungsbereich-Abzug); Energiespar-Bonus **+20 %** (§ 13 Abs. 2 nABV).
+- **ÜZ (§ 256 nPBG):** anrechenbare Gebäudefläche innerhalb der **projizierten Fassadenlinie**; **neu
+  sind Unterniveaubauten anzurechnen** (auch Klein-/Anbauten); Energiespar-Bonus **+20 %** (§ 11 nABV).
+- **Grünflächenziffer (§ 257 nPBG):** ersetzt die Freiflächenziffer; nur **natürliche, nicht versiegelte,
+  nicht als Abstellfläche dienende** Bodenflächen (auch keine Rasengittersteine).
+
+**Verzicht auf Nutzungsziffern (§ 251 lit. b PBG):** Gemeinden können auf Ziffern **verzichten** und die
+Ausnützung nur **indirekt** über Abstands-, Höhen- und Geschosszahlvorschriften begrenzen — in **Kern-
+und Zentrumszonen** üblich (Buch Bd 2 S. 992).
+
+## Nutzungsart (nicht nur Dichte)
+Die Zone steuert auch die zulässige **Nutzungsart**: in Wohnzonen sind **nicht störende Betriebe
+stillschweigend erlaubt**, **mässig störende** nur wo die BO sie zulässt (§ 52 Abs. 1/3 PBG); zusätzlich
+zur Immissionsverträglichkeit verlangt das VGer die **raumplanerische Zweckbestimmung** (funktionale
+Betrachtung, BEZ 2010 Nr. 2). **Pflegewohnungen/Alterswohnen** sind als wohnähnlich regelmässig
+**zonenkonform** (BEZ 2015 Nr. 36 — Healthcare-relevant). **Wohnanteil** kann über die
+**Nutzweisen-Übertragung** (§ 17 Abs. 2 ABV) verlagert werden — siehe [[ausnuetzungsuebertragung]].
+Detail: [[14-nutzungsdichte-ausnuetzung]].
 
 ## Erhöhte Nutzungsziffern (Boni)
 Gemeinden können erhöhte Ziffern festsetzen: **Gewerbebonus / Familienwohnungen**

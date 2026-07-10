@@ -258,12 +258,15 @@ wurden.
 ## Cross-Article-Spannungen (worth resolving)
 - Noch keine erfasst.
 
-## Offene Wissenslücken — neu (2026-06-09, aus Buch-Run Kap. 14)
-- **Mischrechnungsverbot** (Verbot der Quervergütung zwischen verschiedenen Nutzungs-
-  ziffern): im Buch erwähnt, aber im Destillat noch nicht belegt — gezielt in Shots
-  486-495 (Kap. 14 Restseiten) suchen.
-- **§ 10 ABV** (Liste anrechenbarer Wohn-/Arbeitsräume) und **§ 13 ABV** noch nicht im
-  Detail distilliert.
+## Geklärte Lücken (aus Buch-Run Kap. 14)
+- ~~**Mischrechnungsverbot**~~ — **GEKLÄRT (Run 26, 2026-07-10):** Nach lückenlosem Lesen von Kap. 14
+  (S. 919-992, Shots 462-500) existiert **kein «Mischrechnungsverbot» als benannte Doktrin**. Jede
+  Nutzungsziffer (AZ/BMZ/ÜZ/Grünflächenziffer) bindet **eigenständig und abschliessend** (§ 251 PBG);
+  die einzigen zulässigen Verschiebungen sind Ausnützungsübertragung (§ 259 Abs. 1 PBG) und
+  Nutzweisen-Übertragung (§ 17 Abs. 2 ABV) — je auf dieselbe Ziffer bezogen. Siehe
+  [[ausnuetzungsuebertragung]], [[nutzungsziffern]].
+- ~~**§ 10 ABV / § 13 ABV**~~ — **GEKLÄRT (Run 24 + Run 26):** § 10 ABV Nebenraumgruppen (2 %/2 %/10 %)
+  und § 13 ABV (BMZ-Aufteilung, integrierte Garagen) im Destillat [[14-nutzungsdichte-ausnuetzung]] belegt.
 
 ## Offene Wissenslücken — neu (2026-06-10, aus Buch-Run Kap. 16 Teil 1)
 - ~~**Gebäude-/Firsthöhe** (Kap. 16 Teil 2): Dachgestaltung/Dachaufbauten/Lukarnen, Terrainveränderung~~

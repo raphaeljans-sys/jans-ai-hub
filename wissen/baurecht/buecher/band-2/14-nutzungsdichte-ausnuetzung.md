@@ -2,12 +2,12 @@
 name: 14-nutzungsdichte-ausnuetzung
 kapitel: "14 — Nutzungsdichte und Nutzungsart"
 band: 2
-seiten: "919-992 (Ausnuetzung, massgebl. Grundstuecksflaeche, Ausnuetzungsuebertragung, erhoehte Nutzungsziffern, BMZ-Detail/Witterungsbereich, Freiflaechenziffer, Nutzungsart komplett, Wohnanteil, Harmonisierungsvorlage komplett)"
-shots: "462-500 (distilliert: 462-476, 477-500; Kap. 14 damit VOLLSTAENDIG bis Shot 500 = Beginn Kap. 15)"
-paragraphen: ["§ 49 PBG", "§ 49a PBG", "§ 50 PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 58 PBG", "§ 72 PBG", "§ 251 PBG", "§ 253 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 269 PBG", "§ 273 PBG", "§ 276 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 5 ABV", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 18 ABV", "§ 27 ABV", "§ 11 nABV", "§ 13 nABV", "§ 20 BBV II", "Art. 22 RPG", "Art. 646 ZGB"]
+seiten: "919-992 (Ausnuetzung, massgebl. Grundstuecksflaeche, Ausnuetzungsuebertragung, erhoehte Nutzungsziffern, BMZ-Detail/Witterungsbereich/integrierte Garagen, Freiflaechenziffer, Nutzungsart komplett inkl. nicht stoerende Betriebe/ideelle Immissionen/Pflegewohnung/Uebertragung von Nutzweisen, Wohnanteil, Harmonisierungsvorlage komplett inkl. ziffern-Formeln nPBG/Verzicht auf Nutzungsziffern)"
+shots: "462-500 (distilliert: 462-500 vollstaendig; Tail-Shots 489/492/495/497/499/500 nachgelesen Run 26 2026-07-10; Kap. 14 endet S. 992, Shot 500 = Beginn Kap. 15)"
+paragraphen: ["§ 49 PBG", "§ 49a PBG", "§ 50 PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 58 PBG", "§ 72 PBG", "§ 251 PBG", "§ 253 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 255 nPBG", "§ 256 nPBG", "§ 257 nPBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 269 PBG", "§ 273 PBG", "§ 276 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 5 ABV", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 17 ABV", "§ 18 ABV", "§ 27 ABV", "§ 11 nABV", "§ 13 nABV", "§ 20 BBV II", "Art. 22 RPG", "Art. 52 PBG", "Art. 646 ZGB"]
 status: established
 gelesen: 2026-06-09
-last_updated: 2026-07-08
+last_updated: 2026-07-10
 ---
 
 # Kap. 14 — Nutzungsdichte und Nutzungsart (Ausnuetzung)
@@ -197,6 +197,15 @@ anrechenbaren Geschossflaeche? Der Detailkatalog (schliesst die frueher offene �
   § 13 ABV ist dabei **nicht abschliessend** (BEZ 2012 Nr. 2 — Autolift in Zollikon;
   VB.2005.00518, E. 4). Ein **Balkon** ist Bestandteil des Hauptgebäudes und kann die für
   Besondere Gebäude statuierte Zusatz-Baumasse **nicht** beanspruchen (BEZ 2000 Nr. 33).
+- **In Hauptgebäude integrierte Garagen** (14.1.7.5, S. 971): Sehen Bau-/Zonenordnungen vor,
+  dass die Baumasse **integrierter** Garagen/Fahrzeugunterstände der BMZ für Besondere Gebäude
+  angerechnet wird (zur Garage gehört auch die Zufahrt/ein **Autolift**, BEZ 2012 Nr. 2 Zollikon),
+  so muss es sich bei der integrierten Garage/dem Autolift **nicht um ein Besonderes Gebäude im Sinn
+  von § 49 Abs. 3 PBG handeln** — die dort festgelegten **Maximalgrössen sind nicht beachtlich**.
+  Umgekehrt kann die BO die Zusatz-Baumasse für Garagen auch dem **Hauptgebäude** zuschlagen; die
+  Baumasse steht **so oder so** zur Verfügung (als Zuschlag zur Hauptbaumasse oder als Zusatz-BMZ
+  Besondere Gebäude). Damit erübrigt sich für Garagen die Abgrenzung Hauptgebäude ↔ selbständiges
+  Besonderes Gebäude.
 
 ## Freiflaechenziffer (14.1.8, § 257 PBG, S. 972 f.)
 
@@ -308,6 +317,82 @@ wohnaehnliche Nutzungen (Heime, Geriatrie/**Healthcare**) zaehlen unter Umstaend
 Wohnanteil — Abgrenzung ueber Zweckbestimmung und Eigenstaendigkeit der Nutzungseinheit
 (BEZ 1988 Nr. 14, S. 984 f.).
 
+## Nutzungsart im Detail — Betriebe, Immissionen, Nutzweisen (14.2, S. 976-987, Run 26)
+
+**Mit einer Wohnung zusammenhaengende Arbeitsraeume** (14.2.2, **Art. 52 Abs. 1 PBG**, S. 976):
+Der Wohnnutzung zugerechnet sind Arbeitsraeume, die mit der Wohnung zusammenhaengen und in
+**angemessenem Verhaeltnis** zur Wohnflaeche stehen — Sonderregelung fuer freiberuflich Taetige
+(Aerzte, Architekten, Anwaelte, Grafiker) und Home-Office. Die Arbeitsraeume muessen der Wohnflaeche
+**untergeordnet** sein (Praxis: **ein Viertel bis ein Drittel** der Flaeche darf gewerblich genutzt
+werden). Aus Rechtsgleichheit gilt die Privilegierung nicht nur fuer Freiberufler, sondern auch fuer
+Angestellte im Home-Office (VB.2003.00372).
+
+**Nicht stoerende Betriebe** (14.2.2.2, **§ 52 Abs. 1/3 PBG**, S. 976 f.): In **Wohnzonen** sind
+Bauten «in erster Linie» fuer Wohnbauten bestimmt; gewerbliche Nutzungen sind aber nicht
+ausgeschlossen — **maessig stoerende** Betriebe nur, wo die BO sie zulaesst, **nicht stoerende**
+Betriebe dagegen **stillschweigend erlaubt** (BEZ 2015 Nr. 36; BEZ 1999 Nr. 1). Nicht stoerend =
+hoechstens geringes Konfliktpotenzial, gesundes/ruhiges Wohnen nicht beeintraechtigend (Baeckereien,
+Quartierrestaurants, Arzt-/Anwaltspraxen). Das Verwaltungsgericht verlangt zusaetzlich zur
+Immissionsvertraeglichkeit die **raumplanerische Zweckbestimmung** — ein Betrieb kann auch dann
+zonenwidrig sein, wenn er zwar keine uebermaessigen Immissionen erzeugt, aber nicht den taeglichen
+Beduerfnissen der Quartierbewohner dient (**funktionale Betrachtungsweise**, VB.2015.00019; BEZ 2010
+Nr. 2). Damit koennen Gemeinden einen **raumplanerischen Schutz** ueber den USG-Immissionsschutz
+hinaus schaffen (gilt auch in Quartiererhaltungs-/Kernzonen, wo die BO nur nicht stoerende Betriebe
+zulaesst).
+
+**Ideelle Immissionen** (S. 982): Nach Art. 684 ZGB entwickelte Praxis erfasst auch Einwirkungen auf
+das **seelische/psychische Wohlbefinden** (unangenehme psychische Eindruecke), z. B. Sexgewerbe mit
+aufreizender Werbung (BGE 108 Ia 140). Die Qualifizierung ideeller Immissionen als «stark stoerend»
+setzt ein **erhebliches Konfliktpotenzial** voraus (Erotiksalon in Wohnzone mit 60 % Wohnanteil);
+sexuelle Dienstleistungen aus der Privatwohnung fuehren dagegen nicht zu gleich hohen ideellen
+Immissionen (ZBl 2004 S. 111; BEZ 2000 Nr. 18).
+
+**Pflegewohnung als nicht stoerender Betrieb — Healthcare** (S. 982, **BEZ 2015 Nr. 36**):
+Bemerkenswert fuer JANS — das Baurekursgericht qualifizierte eine **Pflegewohnung fuer sieben zu
+pflegende Personen** als «dem eigentlichen Wohnen so aehnliche Nutzung», dass sie **ohne Weiteres als
+nicht stoerender Betrieb und damit zonenkonform** in der Wohnzone gilt; auch geltend gemachte ideelle
+Immissionen (Alter/Sterben) stehen dem nicht entgegen. Alters-/Pflegewohnungen bringen die Bewohner
+in ihren letzten Lebensabschnitt — das gehoert wie jeder Lebensabschnitt zum Leben und ist in der
+Wohnzone unterzubringen (Parallele zu Kinderkrippen/Kindergaerten). **Merke:** kleinteilige
+Pflege-/Betreuungsnutzungen sind in ZH-Wohnzonen regelmaessig zonenkonform.
+
+**Beurteilung von Parkplaetzen und Erschliessungsflaechen** (14.2.4, S. 983): Ein Abstellplatz/eine
+Parkierungsanlage erfuellt in aller Regel **keinen Selbstzweck**, sondern hat eine **dienende
+Funktion** — die Zonenkonformitaet des Parkplatzes richtet sich nach der **zugehoerigen Baute/Anlage**
+(Hauptbaute zonenkonform → Parkplaetze zonenkonform; Valet-Parking Flughafen BEZ 2016 Nr. 42;
+Parkierung Spital Maennedorf VB.2011.00432; Friedhof-Parkplaetze BEZ 2008 Nr. 47). Eine **selbstaendige**
+Beurteilung ist nur angezeigt, wo eine Parkflaeche **ohne** solchen Zusammenhang **gewerblich** genutzt
+wird (BEZ 1985 Nr. 21). Gleiches gilt fuer **Erschliessungsflaechen** (Zweck der dienenden Bauten
+massgebend, VB.2011.00432).
+
+**Besondere Nutzungsanordnungen** (14.2.5, **§ 49a Abs. 3 PBG**, S. 983-987): Die BO kann fuer ganze
+Zonen/gebietsweise/einzelne Geschosse die Wohn-/Gewerbenutzung zulassen, vorschreiben oder
+beschraenken und dafuer eine **erhoehte Nutzungsziffer** festsetzen (weiter Spielraum, BEZ 1999 Nr. 1);
+sie kann auch **innerhalb** einer zulaessigen Nutzungsart spezielle Nutzungen einschraenken/verbieten
+und damit **Zonenunterarten** schaffen (VB.2010.00673). «Andere Nutzungsbestimmungen» (14.2.5.3):
+z. B. «in der WG3/55 gilt ein Wohnanteil und ein Gewerbeanteil von je mindestens 30 % der
+anrechenbaren Geschossflaeche» — Bezugsgroesse ist im Normalfall die **anrechenbare** (Voll­geschoss-)
+Geschossflaeche (§ 18 ABV). **§ 49a Abs. 3 PBG** ist auch die Ermaechtigungsgrundlage, um
+**Mobilfunkantennen** (Standortbindung, keine Planungspflicht, VB.2011.00643) und das **Sexgewerbe**
+in bestimmten Zonen zu regeln/verbieten (VB.2011.00503). **Erdgeschossnutzung** (14.2.5.4, **§ 49a
+Abs. 3 Satz 2 PBG**, S. 987): In **Kern-/Quartiererhaltungs-/Zentrumszonen** kann fuer geeignete Lagen
+bestimmt werden, dass im **Erdgeschoss nur Laeden und Gaststaetten** zulaessig sind (Belebung der
+Zentrumszonen liegt im oeffentlichen Interesse, VB.2014.00077; Publikumsverkehr gesetzeskonform,
+VB.2013.00560).
+
+**Uebertragung von Nutzweisen** (14.2.6, **§ 17 Abs. 2 ABV**, S. 987) — *nicht mit der
+Ausnuetzungsuebertragung verwechseln:* Die Uebertragung von **Nutzweisen** (insbesondere des
+**Wohnanteils**) von einem auf ein anderes Grundstueck richtet sich **nicht** nach den Regeln der
+Ausnuetzungsuebertragung (die auf § 259 Abs. 1 PBG beruht), sondern nach **§ 17 Abs. 2 ABV**: die
+Gemeinden sind frei, eigene Vorschriften zu erlassen (Nutzungsverlagerungen einschraenken oder ueber
+groessere Distanzen erlauben; das Mass richtet sich nach **kommunalem Recht**). Die Uebertragung muss
+**angemessen** bleiben; die in der kommunalen Nutzungsplanung zugeteilten Nutzungen duerfen nicht
+infrage gestellt werden (Wolf/Kull N 164; BEZ 1996 Nr. 17). **Beispiel BO Zuerich Art. 6 Abs. 3
+(Wohnanteil):** «Die Wohnflaeche kann innerhalb des Gebaeudes und innerhalb eines Kreises mit einem
+**Radius von 150 m in der Kern- und von 300 m in den uebrigen Zonen** verlegt werden. Eine
+Weiterverlegung ueber diesen Kreis hinaus ist nicht zulaessig. Diese Beschraenkung ist **vor
+Baubeginn im Grundbuch anzumerken**.»
+
 ## Nutzungsdichte nach der Harmonisierungsvorlage (14.3, § 255/256/257/258 nPBG, S. 988 f.)
 
 Die **Harmonisierungsvorlage (IVHB / nPBG)** kennt vier abschliessende Nutzungsziffern:
@@ -320,6 +405,37 @@ bewahrenden Anteil.
 > (GFZ) steht im Kanton Zuerich NICHT zur Verfuegung.** ZH steuert die Dichte ueber AZ/BMZ/UEZ/
 > GruenflZ — nicht ueber die GFZ. (Gegenprobe-Korrektur eines frueheren Wiki-Eintrags, der die
 > GFZ als ZH-Instrument bezeichnete — siehe [[nutzungsziffern]].)
+
+**Die vier Ziffern der Harmonisierungsvorlage im Detail** (14.3.3-14.3.6, S. 990-992):
+
+- **Ausnuetzungsziffer (14.3.3, § 255 Abs. 1 nPBG):** Verhaeltnis der **anrechenbaren
+  Geschossflaeche** zur **massgeblichen Grundflaeche**. `AZ = anrechenbare Wohn-/Arbeitsraeume in
+  Vollgeschossen (m²) / anrechenbare Grundstuecksflaeche (m²)`. **An der Berechnungsweise der AZ
+  aendert sich nichts** (S. 990).
+- **Baumassenziffer (14.3.4, § 258 Abs. 1 nPBG):** Verhaeltnis des **Bauvolumens ueber dem
+  massgebenden Terrain** zur anrechenbaren Grundstuecksflaeche. `BMZ = Bauvolumen ueber
+  massgebendem Terrain (m³) / anrechenbare Grundstuecksflaeche (m²)`. **Neu:** das Volumen offener
+  Gebaeudeteile, die **weniger als zur Haelfte durch Abschluesse umgrenzt** sind, wird **nicht**
+  angerechnet (§ 258 Abs. 3 nPBG — ersetzt den bisherigen Witterungsbereich-Abzug § 258 Abs. 2 PBG).
+  Oeffentliche Verkehrsflaechen bleiben nur ausgenommen, soweit es offene Gebaeudeteile sind.
+  **Energiespar-Bonus:** BMZ um **20 %** der zonengemaessen Grundziffer erhoehbar (§ 13 Abs. 2 nABV).
+- **Ueberbauungsziffer (14.3.5, § 256 nPBG):** Verhaeltnis der **anrechenbaren Gebaeudeflaeche** (Flaeche
+  innerhalb der **projizierten Fassadenlinie**) zur anrechenbaren Grundstuecksflaeche. **Neu sind
+  Unterniveaubauten anzurechnen** (auch Kleinbauten, Anbauten, bis zum zulaessigen Mass vorspringende
+  Gebaeudeteile zaehlen zur anrechenbaren Gebaeudeflaeche; unbedeutende rueckspringende Teile bleiben
+  unberuecksichtigt). Gemeinden koennen fuer Kleinbauten eine **separate** UEZ festlegen.
+  **Energiespar-Bonus:** UEZ um **20 %** erhoehbar (§ 11 nABV).
+- **Gruenflaechenziffer (14.3.6, § 257 nPBG):** tritt **anstelle der bisherigen Freiflaechenziffer**.
+  `GruenflZ = anrechenbare Gruenflaeche (m²) / anrechenbare Grundstuecksflaeche (m²)`. Anrechenbar sind
+  nur **natuerliche und bepflanzte, nicht versiegelte** Bodenflaechen, die **nicht als Abstellflaechen**
+  dienen (auch nicht mit Rasengittersteinen); erforderlich ist ein natuerlicher Bodenaufbau bzw.
+  angemessene Humusierung (S. 992).
+
+**Bestimmung der zulaessigen Ausnuetzung OHNE Nutzungsziffern** (14.3.7, **§ 251 lit. b PBG**, S. 992):
+Die Gemeinden koennen **auf die Festlegung von Nutzungsziffern verzichten** und die zulaessige
+Ausnuetzung **indirekt** nur ueber die **primaeren Baubegrenzungsvorschriften** (Abstands-, Hoehen-,
+Geschosszahlvorschriften) beschraenken. Dieser Verzicht auf Nutzungsziffern ist **in Kern- oder
+Zentrumszonen** in den meisten Gemeinden **ueblich**.
 
 ## Anwendungs-Transfer JANS (eigene Einordnung)
 
@@ -350,9 +466,21 @@ bewahrenden Anteil.
 - **§ 9 ABV needs-verification:** ob eine Gemeinde die «UG mehrheitlich ueber gewachsenem Boden =
   Vollgeschoss»-Regel noch anwendet, ist kommunal zu pruefen (Baurekurskommission haelt § 9 ABV fuer
   kompetenzueberschreitend; in vielen Gemeinden faktisch nicht mehr angewandt; IVHB-Fassung gestrichen).
-- **Mischrechnungsverbot** (Verbot der Quervergueterung verschiedener Ziffern) auf den gelesenen
-  Seiten 940-979 **nicht** als eigene Doktrin genannt — vermutlich in 14.1.6 (kombinierte Ziffern)
-  oder bei der Harmonisierungsvorlage; in einem Erhaltungslauf gezielt nachschlagen.
+- **Mischrechnungsverbot — RESOLVIERT (Run 26, 2026-07-10):** Das gesamte Kap. 14 (S. 919-992,
+  Shots 462-500) ist nun gelesen; **ein «Mischrechnungsverbot» taucht in Kap. 14 nicht als eigene,
+  benannte Doktrin auf.** Der Sache nach ist die Quervergueterung verschiedener Ziffern ausgeschlossen,
+  weil jede Nutzungsziffer (AZ/BMZ/UEZ/Gruenflaechenziffer) fuer sich **eigenstaendig und abschliessend
+  bindet** (numerus clausus der Ziffern, § 251 PBG) — es gibt keine Norm, die eine Reserve bei einer
+  Ziffer in Mehrnutzung bei einer anderen umrechnen liesse. Die einzigen zulaessigen «Verschiebungen»
+  sind die **Ausnuetzungsuebertragung** (§ 259 Abs. 1 PBG, gleiche Zone, siehe [[ausnuetzungsuebertragung]])
+  und die **Uebertragung von Nutzweisen** (§ 17 Abs. 2 ABV) — beide je auf **dieselbe** Ziffer/Nutzweise
+  bezogen, nie ziffernuebergreifend. Offen-Punkt geschlossen.
+- **Erledigt Run 26 (2026-07-10):** Nutzungsart-Detail (14.2.2-14.2.6: Arbeitsraeume Art. 52 PBG,
+  nicht stoerende Betriebe § 52 Abs. 3, ideelle Immissionen BGE 108 Ia 140, **Pflegewohnung
+  zonenkonform BEZ 2015 Nr. 36**, Parkplaetze-Zonenkonformitaet 14.2.4, besondere Nutzungsanordnungen
+  § 49a Abs. 3 + Erdgeschoss § 49a Abs. 3 Satz 2, **Uebertragung von Nutzweisen § 17 Abs. 2 ABV**),
+  BMZ integrierte Garagen (§ 13 ABV/BEZ 2012 Nr. 2), Harmonisierungsvorlage-Formeln nPBG (14.3.3-14.3.6)
+  + **Verzicht auf Nutzungsziffern § 251 lit. b PBG** (14.3.7). **Kap. 14 damit lueckenlos gelesen.**
 - **Erledigt Run 24 (2026-07-08):** anrechenbare Geschossflaeche Detailkatalog (14.1.5.3-5.10),
   «verwendbar»-Kriterium + Fallrecht, Erschliessungsflaechen/Treppen/Lift (§ 255 Abs. 1),
   § 9 ABV (UG als Vollgeschoss), § 10 ABV Nebenraumgruppen (2 %/2 %/10 %), Wintergaerten/§ 10 lit. c
