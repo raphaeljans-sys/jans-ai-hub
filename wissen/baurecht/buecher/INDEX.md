@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -26,6 +26,18 @@ Trainingslauf (`../training/PROGRAMM.md`).
   § 16 StrAV, Einfriedungen §§ 11/12 StrAV, Ersatzzufahrt-Enteignung § 241), **Strassenreklamen** (Art. 6
   SVG / Art. 95-99 SSV / § 100 Abs. 3 PBG). 17 Doppelseiten (Shot 434 = Dup 862/863). Status: `emerging`
   (§§ 242 Antennen / 248 Camping erst nach S. 891 → Folge-Shots offen). Speist [[raumplanung-und-gestaltung]].
+- [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] — Kap. 13 Teil 3 / **Schluss** (S. 892-916): **Fahrzeug-
+  abstellplaetze §§ 242-247 PBG** (Pflichtparkplaetze) + **Spiel-/Ruheflaechen § 248 PBG** — Normbedarf BZO/PPV
+  **§ 242 Abs. 1**, Reduktion + **Maximum § 242 Abs. 2**, **Massnahmenplan Lufthygiene** Art. 44a USG/Art. 31 LRV
+  (behoerdenverbindlich, Verkehrs-/Betriebsvorschr. Art. 12 USG direkt anwendbar BEZ 2012 Nr. 37), **Wegleitung
+  Baudirektion 1997** (Gemeindetyp 1/2, BGE 124 II 272), **autoarme Nutzungen** (Mobilitaetskonzept, PPV Zuerich
+  Art. 8 Abs. 5-8), **Fahrtenmodell** (BEZ 2004 Nr. 46), **Behindertenparkplaetze** SIA SN 521 500 (1/25 WE, 100 m),
+  erstellungspfl. Tatbestaende **§ 243** (abschliessend BEZ 2001 Nr. 28), Massnahmen Bestand **§ 243 Abs. 2**,
+  **Lage/nuetzliche Entfernung § 244** (300/600/150-200 m), Verkehrssicherheit/Revers **§ 244 Abs. 2**,
+  Gestaltung/unterirdisch **§ 244 Abs. 3** (kein Legiferierungsspielraum VB.2013.00754, UG-Platz 35-47 kFr.),
+  **Ersatzloesungen §§ 245/246** + **Parkplatzfonds § 247**, **Veloabstellplaetze § 242 Abs. 1** (BEZ 2013 Nr. 15);
+  **§ 248 Spiel-/Ruheflaechen** (nur MFH, Umgebungsplan, Flachdach). 13 Doppelseiten (Shots 449-461). Status:
+  `emerging`. **SCHLIESST Kap. 13.** Speist [[abstaende-und-hoehen]] + [[baureife-und-erschliessung]].
 - [[16-gebaeudedimensionen-teil2-hoehen-dach]] — Kap. 16 Teil 2 (S. 1154-1193): **Gebaeude-/First-
   hoehe** — §§ 278/279/280 PBG Gebaeudehoehe, **§ 281 Firsthoehe**, **§ 292/Art. 7a BO «Kaeseglocke»**,
   **§ 5 ABV gewachsener Boden**. 20 Doppelseiten. Status: `emerging`. Teil 3 siehe unten.
@@ -48,7 +60,17 @@ Trainingslauf (`../training/PROGRAMM.md`).
   24 Doppelseiten. Status: `emerging` (Rest > Shot 705 offen).
 - [[21-bauen-ausserhalb-bauzonen]] — Kap. 21 (S. 1459-1503): **Bauen ausserhalb der Bauzonen** —
   **Art. 16/16a/24/24a-e RPG**, **Art. 42 RPV** (30 % / 100 m²), **Stichtag 1.7.1972**. 23 Doppelseiten.
-  Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a).
+  Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a). Teil 2 siehe unten.
+- [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]] — Kap. 21 Teil 2 / **Schluss** (S. 1504-1513):
+  **zonenfremde Gewerbebauten Art. 37a RPG / Art. 43 RPV** (Stichtag **1.1.1980**, Erweiterung **max. 30 %**
+  der zonenwidrigen Flaeche, ausserhalb Kubus halb, ueber 100 m² nur betriebsnotwendig BEZ 2009 Nr. 7,
+  «Gewerbe bleibt Gewerbe» BGE 140 II 509, restriktiver Baubegriff BGer 1A.186/2004), **landwirtschaftsfremde
+  Wohnnutzung Art. 24d Abs. 1 RPG** («Wohnen bleibt Wohnen», Art. 42a RPV) + **schutzenswerte Bauten Art. 24d
+  Abs. 2 RPG** (Rustico, in ZH kaum nutzbar wegen § 207 Abs. 2 PBG, ZBl 2015 S. 614), **gemeinsame Voraus-
+  setzungen Art. 24d Abs. 3 lit. a-e**, **hobbymaessige Tierhaltung Art. 24e RPG** (seit Mai 2014, Art. 42b RPV),
+  **Bauen im Wald** (Art. 18 Abs. 3 RPG kein Bauland, Art. 20 Abs. 2 WaG, Betreten/Befahren §§ 4-7 WaG-ZH),
+  **§ 358a PBG** (ZH schoepft kant. Erweiterungskompetenz nicht aus). 5 Doppelseiten (Shots 756-760). Status:
+  `emerging`. **SCHLIESST Kap. 21.** Speist [[baurecht]] + [[ausnahmebewilligung-und-bestandesschutz]].
 - [[22-privatrechtliche-bauvorschriften]] — Kap. 22 (S. 1517-1534): **Privatrechtliche Bauvorschriften** —
   Nachbarrecht **ZGB Art. 679/684/685 ff.**, **§§ 169-178 EG ZGB Pflanzenabstaende**. 13 Doppelseiten.
   Status: `emerging`.
@@ -135,8 +157,16 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **neubauaehnliche Umgestaltung/Gesetzesumgehung — KEINE feste Quote**, BEZ 1996 Nr. 3; Nutzungsschutz
   + Beweislast Art. 8 ZGB; Brandschutz/Bundesrecht keine «Bauvorschrift»); erweitert (S. 1450-1455,
   Shots 729-731) um **§ 357 Abs. 4 Verbesserungen** + Erweiterungs-/Nutzungsaenderungs-Kasuistik.
-  11 Doppelseiten. Status: `emerging` (§ 357 Abs. 5 + baupolizeil. Missstaende + Brandstattrecht
-  § 307 PBG, S. 1456 ff., offen). Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
+  11 Doppelseiten. Status: `emerging`. Teil 2 siehe unten.
+- [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] — Kap. 20 Teil 2 / **Schluss** (S. 1456-1457):
+  **§ 357 Abs. 5 PBG** Milderung von Bauvorschriften (energetische Anpassung per VO; wegen **§ 253a PBG**
+  Aussendaemmung bis 35 cm bedeutungslos geworden, Art. 33a ABV aufgehoben), **§ 358 PBG** Massnahmen bei
+  **baupolizeilichen Missstaenden** (Zufahrt BEZ 2015 Nr. 22 / Absturzsicherung VB.2015.00429 / Steinschlag-
+  Aussiedlung BGer 1C_567/2014; i.V.m. § 228 Abs. 1 Unterhaltspflicht; § 243 Abs. 2 Parkplatz-Spezialfall),
+  **§ 307 PBG Brandstattrecht** (Wiederaufbau brand-/katastrophenzerstoerter vorschriftswidriger Bauten in
+  Bauzonen, **innert 3 J.**, Art/Umfang/Lage, verbessernder Wiederaufbau BEZ 1998 Nr. 8; ausserhalb Bauzone
+  Art. 24c Abs. 2 RPG; § 15m HWSchV). 1 Doppelseite (Shot 732). Status: `emerging`. **SCHLIESST Kap. 20.**
+  Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 - [[12-baureife]] — Kap. 12 Teil 1+2 (S. 707-741): **Baureife** als erstes der Grundanforderungen
   (§§ 233-249 PBG) — **technische Erschliessung** (Zugaenglichkeit/Wasser/Energie/Entsorgung,
   § 234/§ 236 PBG, Art. 19 RPG) + **planungsrechtliche Baureife § 234** (nur negative Vorwirkung,
@@ -371,7 +401,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | 🟢 weitgehend (Ausnuetzung, Anrechnung, Uebertragung, Nutzungsart, Wohnanteil, IVHB) |
 | 11 | Allgemeine Bestimmungen Baupolizeirecht | 🟡 teilweise (§§218-232 PBG + Hammerschlagsrecht §§229/230, S.686-704) |
-| 13 | Weitere Grundanforderungen | 🟢 weitgehend (Teil 1 §238 Aesthetik-Generalklausel + Solar Art.18a RPG S.810-857; Teil 2 §238-Forts. Umgebung/Baumschutz + §239 Regeln der Baukunde/Baumaterialien + §§240/241 Verkehrssicherheit/Sichtbereiche §16 StrAV + Strassenreklamen Art.6 SVG S.858-891; nur §§242 Antennen/248 Camping ab S.892 offen) |
+| 13 | Weitere Grundanforderungen | 🟢 vollstaendig (Teil 1 §238 Aesthetik-Generalklausel + Solar Art.18a RPG S.810-857; Teil 2 §238-Forts. Umgebung/Baumschutz + §239 Regeln der Baukunde/Baumaterialien + §§240/241 Verkehrssicherheit/Sichtbereiche §16 StrAV + Strassenreklamen Art.6 SVG S.858-891; Teil 3 **Fahrzeugabstellplaetze §§242-247 PBG** Normbedarf/Massnahmenplan Lufthygiene/Wegleitung 1997/autoarme Nutzungen/Fahrtenmodell/Ersatzabgabe/Parkplatzfonds §247/Veloabstellplaetze + **Spiel-/Ruheflaechen §248** S.892-916) |
 | 15 | Lage von Gebaeuden | 🟢 weitgehend (System/Gebaeudearten/Wald/Gewaesser/Baulinien + Grenz-/Gebaeudeabstand §§269-273 + Grenzbaurecht §274/§27 Abs.2 ABV, S.995-1123; **nur 15.13 Harmonisierungsvorlage S.1124-1133 offen**) |
 | 16 | Gebaeudedimensionen | 🟢 weitgehend (Geschosse + Kniestock S.1135-1153 + Gebaeude-/Firsthoehe §§278-281/§292 «Kaeseglocke»/§5 ABV S.1154-1193 + Hochhaeuser §282/284 «>25 m»/Schattenwurf §30 ABV + Gebaeudelaenge-breite §28 ABV + **Dachaufbauten Drittelsregel §292** + Freilegung UG §293 S.1194-1229; nur 16.9-Schluss/16.10 Harmonisierung teilw. offen) |
 | 6 | Baurechtliches Verfahren | 🟢 vollstaendig (Bewilligungspflicht/Baugesuch/Verfahrensablauf/Aussteckung/Publikation/Zustellbegehren S.337-405 + Teil 2 Anzeigeverfahren §325/§§13-15 BVV + private Kontrolle §§4-7 BBV I + Empfehlungen S.402-421) |
@@ -380,8 +410,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 9 | Rechtsschutz | 🟢 vollstaendig (Teil 1 Instanzen/Legitimation/Kognition S.537-575; Teil 2 Fristen/**4 Phasen**/aufschieb. Wirkung §339 PBG/Kosten §338/**Revision §86a**/Mediation S.576-606) |
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 S.1241-1255 + Ausruestungen §§295-298/§4 ABV/Heizung-Fernwaerme + Hindernisfreiheit §§239a/239b BehiG + Schutzraeume S.1256-1303; Garagen §§37-39 BBV I offen) |
 | 19 | Baulicher Umweltschutz | 🟡 teilweise (USG/LRV/LSV, Laerm ES I-IV, Art.31/32 LSV, SIA 181, S.1357-1403; Rest ab Shot 706 offen) |
-| 20 | Ausnahmen/Bestandesschutz | 🟡 teilweise (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie + § 357 Abs.4 Verbesserungen S.1433-1455; § 357 Abs.5 + baupolizeil. Missstaende + Brandstattrecht § 307 ab Shot 732 offen) |
-| 21 | Bauen ausserhalb Bauzonen | 🟡 teilweise (Art.16/16a/24/24a-e RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972, S.1459-1503; Rest Art.24d/24e/37a ab Shot 756 offen) |
+| 20 | Ausnahmen/Bestandesschutz | 🟢 vollstaendig (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie + § 357 Abs.4/5 Verbesserungen/Milderung (§253a Aussendaemmung) + § 358 baupolizeil. Missstaende + Brandstattrecht § 307 (3-J-Wiederaufbau) S.1433-1457) |
+| 21 | Bauen ausserhalb Bauzonen | 🟢 vollstaendig (Art.16/16a/24/24a-c RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972 S.1459-1503; Teil 2 **Art.37a RPG** Gewerbe Stichtag 1.1.1980/30% + **Art.24d Abs.1/2 RPG** landwirtsch.fremdes Wohnen/Rustico + **Art.24d Abs.3 lit.a-e** + **Art.24e RPG** Hobby-Tierhaltung + **Bauen im Wald** §358a PBG S.1504-1513) |
 | 22 | Privatrechtliche Bauvorschriften | 🟡 teilweise (Nachbarrecht ZGB Art.679/684/685 ff. + §§169-178 EG ZGB Pflanzenabstaende, S.1517-1534) |
 | 23 | Glossar Architektur | 🟡 teilweise (Begriffe mit §-Belegen, S.1537-1549) |
 | 12 | Baureife | 🟢 vollstaendig (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss + 12.6 Abfall/Kehricht Art.30-32b USG/VVEA + 12.7 Altlasten Art.32c/32d USG/AltlV/KbS + Anschlussgebuehren Art.60a GSchG, S.707-807) |

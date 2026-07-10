@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,7 +92,22 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~946 / 1550 (~473 Doppelseiten). **Run 24 (2026-07-09, Forcierung, 3 Kapitelteile,
+- **Seiten distilliert:** ~965 / 1550 (~482 Doppelseiten). **Run 25 (2026-07-10, Forcierung, 3 Kapitelteile,
+  19 Doppelseiten):** Kap. 13 Schluss + Kap. 20 Schluss + Kap. 21 Schluss → **Kap. 13, 20, 21 neu VOLLSTAENDIG**.
+  **Kap. 13** (S. 892-916, Shots 449-461): **Fahrzeugabstellplaetze §§ 242-247 PBG** — Normbedarf BZO/PPV
+  § 242 Abs. 1, Reduktion + **Maximum § 242 Abs. 2** (Massnahmenplan Lufthygiene/Wegleitung 1997 BGE 124 II 272),
+  **autoarme Nutzungen** (Mobilitaetskonzept/Grundbuch-Anmerkung), **Fahrtenmodell** BEZ 2004 Nr. 46,
+  Behindertenparkplaetze SIA SN 521 500, § 243 (abschliessend), **nuetzliche Entfernung § 244** (300/600/150-200 m),
+  Realerfuellung vor **Ersatzabgabe § 246 / Parkplatzfonds § 247**, Veloabstellplaetze, **§ 248 Spiel-/Ruheflaechen**
+  (nur MFH). **Kap. 20** (Shot 732): **§ 357 Abs. 5** Milderung (§ 253a Aussendaemmung 35 cm), **§ 358** Missstaende
+  (BGer 1C_567/2014 Steinschlag-Aussiedlung), **§ 307 Brandstattrecht** (Wiederaufbau innert **3 J.**).
+  **Kap. 21** (S. 1504-1513, Shots 756-760): **Art. 37a RPG** Gewerbe (Stichtag 1.1.1980/+30 %), **Art. 24d Abs. 1/2/3**
+  (Wohnen bleibt Wohnen/Rustico/gemeinsame Voraussetzungen), **Art. 24e** Hobby-Tierhaltung, **Bauen im Wald**,
+  § 358a PBG. Neue Destillate [[band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3]] /
+  [[band-2/20-ausnahmen-teil2-milderung-missstaende-brandstatt]] / [[band-2/21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]].
+  NEU Wiki [[fahrzeugabstellplaetze-und-parkierung]]. Modell A (autoarme Nutzung) + Modell C (6 Karten).
+  Report `outputs/2026-07-10_buch-run25.md`.
+- **Seiten distilliert (frueher):** ~946 / 1550 (~473 Doppelseiten). **Run 24 (2026-07-09, Forcierung, 3 Kapitelteile,
   49 Doppelseiten):** Kap. 8 Schluss + Kap. 13 Teil 2 + Kap. 16 Teil 3. **Kap. 8 «Ausfuehrung» VOLLSTAENDIG**
   (S. 510-535: 8.3 Baustellensicherheit — Rissprotokoll/Beweislast Art. 8 ZGB/BEZ 2016 Nr. 15, VUV/BauAV,
   Entsorgungskonzept > 200 m³ Art. 16 VVEA, Bauherren-Altlast 2/3 Art. 32bis USG, Baulaerm-Stufen A/B/C,
@@ -236,14 +251,14 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Wiki-Artikel [[baureife-und-erschliessung]]. (Run 13, 2026-06-22: Kap. 8 Teil 1; Run 12, 2026-06-21:
   Kap. 7 Teil 2 → Phasenwechsel Phase 2.)
 - **⚠ Run 19 (2026-07-02) ABGEBROCHEN — TCC-Blockade:** Quell-Screenshots im OneDrive-CloudStorage-Ordner nicht lesbar (`cat`/`cp`/`xattr` → «Operation not permitted», auch ohne Sandbox; `stat`/`ls` OK, Dateien materialisiert, OneDrive online). Der ausfuehrende Prozess hat keinen **Festplattenvollzugriff** auf den geschuetzten CloudStorage-Ort (analog launchd→SMB). **Fix noetig, bevor der naechste TRANSFER laufen kann** — Report `outputs/2026-07-02_buch-run19-BLOCKED.md`. Kein Distillat geschrieben, Register unveraendert; +1 belegte Modell-A-Karte aus vorhandenem Destillat.
-- **Naechster Lauf:** ~~Kap. 8 Rest / Kap. 13 «Umgebung» / Kap. 16 «Umgebung»~~ **erledigt Run 24
-  (2026-07-09).** Verbleibende **Band-2-Kleinreste** (Forcierung fortsetzen): Kap. 13 §§ 242 Antennen / 248
-  Camping (ab S. 892, Shots ab ~449), Kap. 14 Mischrechnungsverbot § 10/13 ABV (Shots 486-495), Kap. 15.13
-  Harmonisierungsvorlage (S. 1124-1133), Kap. 16.9-Schluss (S. 1230 f.), Kap. 17 Garagen §§ 37-39 BBV I
-  (ab Shot 656), Kap. 19 Rest (ab Shot 706), Kap. 20 § 357 Abs. 5 / Brandstattrecht § 307 (ab Shot 732),
-  Kap. 21 Art. 24d/24e/37a (ab Shot 756). Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`.
-  Sobald diese Kleinreste erledigt sind: Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3
-  (Erhaltung/Drills) + Modell-D-Volltextabgleich der needs-verification. *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+- **Naechster Lauf:** ~~Kap. 13 Schluss (§§ 242-248) / Kap. 20 Schluss (§ 357 Abs. 5/§ 358/§ 307) / Kap. 21
+  Schluss (Art. 37a/24d/24e)~~ **erledigt Run 25 (2026-07-10) → Kap. 13/20/21 VOLLSTAENDIG.** Verbleibende
+  **Band-2-Kleinreste** (nur noch wenige): **Kap. 14** Mischrechnungsverbot § 10/13 ABV (offene Shots 489/492/
+  495/497), **Kap. 15.13** Harmonisierungsvorlage (S. 1124-1133), **Kap. 16.9-Schluss** (S. 1230 f.), **Kap. 17**
+  Garagen §§ 37-39 BBV I (ab Shot 656), **Kap. 19-Rest** (ab Shot 706), **Kap. 11** (Feinschliff §§ 218-232).
+  Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`. **Sobald diese Kleinreste erledigt sind:
+  Forcierungs-Phase abgeschlossen → Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3
+  (Erhaltung/Drills) + Modell-D-Volltextabgleich der needs-verification.** *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten
@@ -256,8 +271,9 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 - ~~**Restschuld Kap. 8:**~~ **erledigt Run 24 (2026-07-09):** 8.3 Baustellensicherheit + Entsorgung +
   Bauemissionen + amtl. Vermessung (S. 510-535) → [[band-1/08-ausfuehrung-teil2-baustellensicherheit]].
   **Kap. 8 vollstaendig (Kap. endet S. 535).**
-- **Restschuld Kap. 20:** § 357 Abs. 4 (Verbesserungen) + Abs. 5 (Milderungen) + baupolizeiliche
-  Missstaende (S. 1456 ff.) + Brandstattrecht § 307 PBG (S. 1457 ff.) — Shots ab 729.
+- ~~**Restschuld Kap. 20:**~~ **erledigt Run 25 (2026-07-10):** § 357 Abs. 5 Milderung + § 358 baupolizeiliche
+  Missstaende + Brandstattrecht § 307 PBG (S. 1456-1457) → [[band-2/20-ausnahmen-teil2-milderung-missstaende-brandstatt]].
+  **Kap. 20 vollstaendig.**
 - **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
 - **Restschuld Kap. 15:** nur noch § 274 PBG (Grenzbaurecht/geschlossene Bauweise/Anbau) + § 27 Abs. 2 ABV — Shots ab 560, S. 1112 ff. (§§ 269-273 erledigt 2026-06-15/16).
 - **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung

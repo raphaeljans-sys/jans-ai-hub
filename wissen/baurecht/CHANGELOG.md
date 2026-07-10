@@ -4,6 +4,39 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-10 — Buch-Run 25: Kap. 13 Schluss / Kap. 20 Schluss / Kap. 21 Schluss (Forcierung, 3 Kapitelteile, 19 Doppelseiten)
+- [neu] **Destillat Kap. 13 Teil 3 / Schluss** [[band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3]]
+  (S. 892-916, Shots 449-461): **Fahrzeugabstellplaetze §§ 242-247 PBG** — kommunaler Normbedarf § 242 Abs. 1,
+  Reduktion + **Maximum § 242 Abs. 2** (Massnahmenplan Lufthygiene Art. 44a USG/Art. 31 LRV BEZ 2012 Nr. 37,
+  **Wegleitung Baudirektion 1997** Gemeindetyp 1/2 BGE 124 II 272), **autoarme Nutzungen** (Mobilitaetskonzept,
+  PPV Zuerich Art. 8 Abs. 5-8, Grundbuch-Anmerkung), **Fahrtenmodell** (BEZ 2004 Nr. 46), Behindertenparkplaetze
+  SIA SN 521 500 (1/25 WE, 100 m), erstellungspfl. Tatbestaende § 243 (abschliessend BEZ 2001 Nr. 28),
+  Massnahmen Bestand § 243 Abs. 2, Lage/**nuetzliche Entfernung § 244** (300/600/150-200 m), Verkehrssicherheit/
+  Revers § 244 Abs. 2, Gestaltung/unterirdisch § 244 Abs. 3 (kein Legiferierungsspielraum VB.2013.00754,
+  UG-Platz 35-47 kFr.), Ersatzloesungen §§ 245/246 + **Parkplatzfonds § 247**, Veloabstellplaetze § 242 Abs. 1
+  (BEZ 2013 Nr. 15); **§ 248 Spiel-/Ruheflaechen** (nur MFH, Umgebungsplan, Flachdach). **SCHLIESST Kap. 13.**
+- [neu] **Destillat Kap. 20 Teil 2 / Schluss** [[band-2/20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
+  (S. 1456-1457, Shot 732): **§ 357 Abs. 5** Milderung (energetisch; wegen **§ 253a PBG** Aussendaemmung 35 cm
+  bedeutungslos, Art. 33a ABV aufgehoben), **§ 358** baupolizeiliche Missstaende (Zufahrt BEZ 2015 Nr. 22 /
+  Absturzsicherung VB.2015.00429 / Steinschlag-Aussiedlung BGer 1C_567/2014, i.V.m. § 228 Abs. 1),
+  **§ 307 Brandstattrecht** (Wiederaufbau brand-/katastrophenzerstoerter vorschriftswidriger Bauten in Bauzonen
+  **innert 3 J.**, Art/Umfang/Lage, verbessernder Wiederaufbau BEZ 1998 Nr. 8; ausserhalb Bauzone Art. 24c
+  Abs. 2 RPG). **SCHLIESST Kap. 20.**
+- [neu] **Destillat Kap. 21 Teil 2 / Schluss** [[band-2/21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]]
+  (S. 1504-1513, Shots 756-760): **Art. 37a RPG** zonenfremde Gewerbebauten (Stichtag **1.1.1980**, Art. 43 RPV
+  +30 % zonenwidrige Flaeche/ausserhalb Kubus halb/ueber 100 m² betriebsnotwendig BEZ 2009 Nr. 7, «Gewerbe bleibt
+  Gewerbe» BGE 140 II 509, restriktiver Baubegriff BGer 1A.186/2004), **Art. 24d Abs. 1** landwirtschaftsfremdes
+  Wohnen («Wohnen bleibt Wohnen»/Art. 42a RPV) + **Abs. 2** Rustico (ZH kaum, § 207 Abs. 2 PBG/ZBl 2015 S. 614)
+  + **Abs. 3 lit. a-e** gemeinsame Voraussetzungen, **Art. 24e RPG** hobbymaessige Tierhaltung (seit Mai 2014/
+  Art. 42b RPV), **Bauen im Wald** (Art. 18 Abs. 3 RPG/Art. 20 Abs. 2 WaG/§§ 4-7 WaG-ZH), **§ 358a PBG** (ZH ohne
+  kant. Erweiterung). **SCHLIESST Kap. 21.**
+- [neu] **Wiki-Artikel** [[fahrzeugabstellplaetze-und-parkierung]] (`emerging`) — Pflichtparkplaetze ZH als
+  buerotaugliche Landkarte (§§ 242-248 PBG). Neue Sektion in wiki/INDEX.md.
+- [update] Register nachgefuehrt: seiten-inventar (Shots 449-461/732/756-760 → `[x]`), buecher/INDEX (3 neue
+  Destillate + Abdeckungs-Matrix Kap. 13/20/21 auf 🟢 vollstaendig), curriculum (Kap. 13/20/21 VOLLSTAENDIG),
+  wiki/QUESTIONS (3 Gaps geschlossen, 2 needs-verification neu). Modell A (Buerofrage autoarme Nutzung) +
+  Modell C (6 Karten). Report `outputs/2026-07-10_buch-run25.md`.
+
 ## 2026-07-09 — Buch-Run 24: Kap. 8 Schluss / Kap. 13 T2 / Kap. 16 T3 (Forcierung, 3 Kapitelteile, 49 Doppelseiten)
 - [neu] **Destillat Kap. 8 Schluss** [[band-1/08-ausfuehrung-teil2-baustellensicherheit]] (S. 510-535,
   Shots 257-269): 8.3 Baustellensicherheit — **Schutz Nachbargrundeigentum § 239 Abs. 1 PBG / Rissprotokoll**

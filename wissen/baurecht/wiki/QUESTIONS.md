@@ -321,6 +321,28 @@ wurden.
   dem Merkblatt ARE/BAFU/BPUK ergänzen — im Buch nur über Fallrecht (BGE 140 II 428;
   Altendorf/Hurden/Rüschlikon) umrissen.
 
+## Offene Wissenslücken — neu (2026-07-10, aus Buch-Run 25)
+- ~~**Fahrzeugabstellplätze / Pflichtparkplätze (Kap. 13.5):**~~ → **erledigt 2026-07-10** (Run 25):
+  neuer Wiki-Artikel [[fahrzeugabstellplaetze-und-parkierung]] aus [[13-fahrzeugabstellplaetze-spielflaechen-teil3]]
+  (§§ 242-248 PBG, S. 892-916). Kernaussagen: Normbedarf kommunal (§ 242 Abs. 1); Reduktion + **Maximum**
+  (§ 242 Abs. 2) via Massnahmenplan Lufthygiene + Wegleitung 1997; **autoarme Nutzungen** mit
+  Mobilitätskonzept (PPV Zürich Art. 8 Abs. 5-8, Grundbuch-Anmerkung); **Realerfüllung vor Ersatzabgabe**
+  (§§ 244-247, Parkplatzfonds § 247). **Kap. 13 vollständig.**
+- ~~**Bestandesschutz-Rest § 357 Abs. 5 / § 358 / § 307 (Kap. 20):**~~ → **erledigt 2026-07-10** (Run 25):
+  [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]. Kernaussagen: § 357 Abs. 5 Milderung wegen
+  **§ 253a PBG** (Aussendämmung 35 cm) bedeutungslos; **§ 358** baupolizeiliche Missstände (Zufahrt/
+  Absturzsicherung/Steinschlag-Aussiedlung); **§ 307 Brandstattrecht** (Wiederaufbau innert **3 J.**).
+  **Kap. 20 vollständig.**
+- ~~**Ausserhalb-Bauzone-Rest Art. 37a/24d/24e RPG (Kap. 21):**~~ → **erledigt 2026-07-10** (Run 25):
+  [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]]. Kernaussagen: Art. 37a (Gewerbe, Stichtag 1.1.1980,
+  +30 % zonenwidrige Fläche); Art. 24d Abs. 1 «Wohnen bleibt Wohnen»; Art. 24d Abs. 2 Rustico (ZH kaum
+  nutzbar, § 207 Abs. 2 PBG); Art. 24e Hobby-Tierhaltung; ZH ohne kant. Erweiterung (§ 358a PBG). **Kap. 21
+  vollständig.**
+- **needs-verification — Wegleitungs-Tabelle 1 (Parkplatz-Kennzahlen je Nutzung):** im Destillat nur
+  referiert, Zahlenwerk nicht erfasst — bei konkretem Parkplatz-Mandat am kommunalen Erlass/PPV verifizieren.
+- **needs-verification — Rampenneigungen SN 640 291a (15/18 % bzw. 12/15 %):** aus dem Reader-Fliesstext
+  gelesen — vor Ausschreibung an der VSS-Norm gegenprüfen.
+
 ## Beantwortete Fragen / Korrekturen (Archiv)
 - **2026-06-11 (Gegenprobe, Modell D):** [[abstaende-und-hoehen]] nannte für den
   **Waldabstand** fälschlich **§ 268 PBG** und «§ 18b Waldgesetz» sowie eine Reduktion
