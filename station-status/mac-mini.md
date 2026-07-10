@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 10.07.2026 07:47:51
+Stand: 10.07.2026 07:57:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:37)
@@ -12,4 +12,4 @@ Stand: 10.07.2026 07:47:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c0940387 nas-selfcommit: 14 Datei(en) 2026-07-10 07:45
+- f916390a sync: ag-gruendung-monitor: Status 10.07. nichts Neues (UBS/Notariat unveraendert)
