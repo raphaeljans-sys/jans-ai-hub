@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-09
-sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-10
+sources: [destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1365,7 +1365,8 @@ sich nach Personen (Faustwert ~30 m³/h wach, ~15 m³/h schlafend).
 - **«Die Luft wird trocken.»** Trockene Winterluft entsteht **mit jeder Lüftungsart** (kalte Aussenluft
   ist absolut wasserarm), nicht durch die Anlage. Ein **Enthalpietauscher** gibt einen Teil der Feuchte
   zurück (Raumluftfeuchte **bis ~10 %** höher) und eine **bedarfsgeregelte, tiefere Stufe** überlüftet
-  nicht.
+  nicht. **Normativ bestätigt (KBOB/SIA 180):** die Luftfeuchte wird über die **Lüftung** reguliert,
+  eine **aktive Befeuchtung ist bei normalem Klima ausdrücklich nicht nötig** → `[[behaglichkeit-raumklima-kbob-ipb]]`.
 
 **Unterhalt/Kosten:** im Wesentlichen **Filterwechsel** (üblich ~1–2×/Jahr — an SIA-Merkblatt 2023/
 Hersteller verifizieren); Investition EFH am Markt grob **CHF 12'000–25'000** (kommerzieller Richtwert,
@@ -1384,6 +1385,48 @@ Luftwechsel (SIA 382/1) projektabhängig prüfen.
 
 ---
 
+## F38 — «Lohnt sich ein Batteriespeicher zu meiner Solaranlage?»
+
+**Kurz:** Ein Batteriespeicher **erhöht Deine Unabhängigkeit spürbar** (selbst genutzter Solarstrom
+steigt von rund **30 % auf bis zu 70–90 %**), rechnet sich aber **meist gerade knapp** und **hilft im
+Winter praktisch nicht**. Deshalb zuerst die **fast gratis Hebel** ausschöpfen — Verbrauch in die Sonne
+schieben (Wärmepumpe, Warmwasser, E-Auto per Energiemanagement) — und die Batterie **bewusst als
+Komfort-/Autarkie-Entscheid** sehen, nicht als Sparbüchse.
+
+**Fachlich:** Ohne weitere Massnahmen nutzt man rund **30 %** des eigenen Solarstroms selbst; mit einem
+**Energiemanagement (EMS) plus Wärmepumpe/E-Mobilität** steigt das auf **~50 %**, mit **Batterie** auf
+bis zu **~70 %** (Swissolar: bis 90 % möglich), Autarkiegrad **50–80 %**. Entscheidend ist die
+**Wirtschaftlichkeits-Schwelle von EnergieSchweiz: ab ~35 % Eigenverbrauch** lohnt sich eine PV-Anlage —
+**und diese 35 % erreicht man meist schon OHNE Batterie**. Der Speicher ist also der **teuerste** Hebel,
+nicht der erste.
+
+- **Kosten (Swissolar, Stand 2026):** **CHF 600–900 pro kWh** nutzbarer Kapazität, inkl. Wechselrichter
+  und Installation (grösser = günstiger pro kWh). Die Preise sind gesunken, **stabilisieren sich aber** —
+  auf einen weiteren starken Rückgang zu warten lohnt kaum.
+- **Dimensionierung (Swissolar-Faustregeln):** PV-Leistung (kWp) **× 1,5** = kWh **oder**
+  Jahresverbrauch (kWh) **/ 730** = kWh. Beispiel: 6 kWp bzw. 6'000 kWh/Jahr → **~8–9 kWh** Speicher.
+  *So klein wie sinnvoll* — Überdimensionieren bringt kaum Mehrnutzen, verschlechtert Wirtschaftlichkeit
+  und Ökobilanz.
+- **Winter-Realität:** Die Batterie ist ein **Tagesspeicher** (Sonne → Abend). Den **Netzbezug im
+  Winter** senkt sie **nicht wesentlich** — dann fehlt der Solarüberschuss ganz. Der grösste
+  «Gratis-Speicher» bleibt das **Gebäude selbst + der Warmwasserspeicher** (via WP/EMS).
+- **Technik:** ~80 % der Anlagen **Lithium-Eisenphosphat (LFP)**, kobaltfrei, sicher; Lebensdauer
+  **10–20 Jahre**. **Notstrom:** nur **~30 %** der Systeme können bei Netzausfall wirklich das ganze
+  Haus weiterversorgen — wer das will, muss es **ausdrücklich verlangen**.
+
+**Wann eher ja:** hoher Abend-/Nachtverbrauch, Wunsch nach Autarkie/Notstrom, hohe Strompreise /
+tiefe Einspeisevergütung. **Wann eher nein:** tagsüber ohnehin hoher, steuerbarer Verbrauch (WP +
+E-Auto), enges Budget, Fokus reine Rendite.
+
+**Quelle:** Swissolar (swissolar.ch, Wissen «Batteriespeicher»), EnergieSchweiz/BFE
+(energieschweiz.ch/stories/batterien), Stand Juli 2026 → `[[batteriespeicher-heimspeicher-pv-ch]]`,
+`[[batteriespeicher]]`; Reihenfolge der Hebel + thermischer Speicher → `[[wp-pv-eigenverbrauch-lastmanagement]]`,
+`[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-10:** CHF/kWh und Einspeisevergütungen sind volatil;
+eine belegte **Amortisationszeit in Jahren** nennen die amtlichen Quellen bewusst nicht (kommerzielle
+Ratgeber ~8–12 J — Marktangabe, projektgenau nur mit Tarif/Lastprofil rechenbar).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1394,7 +1437,15 @@ Luftwechsel (SIA 382/1) projektabhängig prüfen.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-09: 37 Kernfragen F1-F37 belegt.** Neu am 2026-07-09: **F37 ‹Brauche ich eine
+> **FAQ-Stand 2026-07-10: 38 Kernfragen F1-F38 belegt.** Neu am 2026-07-10: **F38 ‹Lohnt sich ein
+> Batteriespeicher zu meiner Solaranlage?›** — hebt Eigenverbrauch von ~30 % auf bis zu 70–90 %, aber
+> **wirtschaftlich grenzwertig** und **hilft im Winter praktisch nicht**; Wirtschaftlichkeits-Schwelle
+> **ab ~35 % Eigenverbrauch (meist OHNE Batterie erreichbar)**; Kosten **CHF 600–900/kWh** inkl. WR+
+> Installation (Swissolar); Dimensionierung kWp×1,5 bzw. Jahresverbrauch/730; LFP ~80 %, Lebensdauer
+> 10–20 J; **Notstrom nur ~30 % der Systeme**; Reihenfolge der Hebel (EMS/Lastverschiebung zuerst,
+> Batterie zuletzt) → `[[batteriespeicher-heimspeicher-pv-ch]]`, `[[batteriespeicher]]` (Swissolar/
+> EnergieSchweiz). Zugleich **F37 geschärft** um die normative KBOB/SIA-180-Aussage «aktive Befeuchtung
+> bei normalem Klima nicht nötig» → `[[behaglichkeit-raumklima-kbob-ipb]]`. Zuvor am 2026-07-09: **F37 ‹Brauche ich eine
 > Komfortlüftung — wird die Luft trocken, darf ich die Fenster nie mehr öffnen?›** — kontrollierte
 > Wohnungslüftung mit Wärmerückgewinnung (Wärmeverluste über zwei Drittel tiefer als Handlüftung); vier
 > Standardsysteme (Komfortlüftung/Abluft/dezentral 75–90 % WRG/Grundlüftung); **Fenster jederzeit öffnbar**,
