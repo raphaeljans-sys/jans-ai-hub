@@ -196,6 +196,21 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   energie-umwelt.ch). Offen: **WRG-Grad zentraler Anlagen numerisch** (Minergie-üblich ≥80 %), **SIA 382/1
   Auslegungs-Luftwechsel** (m³/h je Zimmer), **Filterklassen (ISO ePM) + Ventilator-Strom** (SIA-Merkblatt
   2023/BFE-PDF bildbasiert), **komfortable rel. Raumluftfeuchte %** (SIA 180), **CHF aus neutraler Quelle**.
+  **Feuchte-Punkt geschaerft ✓ 2026-07-10** (KBOB/IPB-Faktenblatt 1.1.31: **aktive Befeuchtung bei
+  normalem Klima nicht noetig**, Feuchte via Lueftung regulieren; Normbezug SIA 180:2014) →
+  `[[behaglichkeit-raumklima-kbob-ipb]]`, F37 geschaerft. Offen nur noch: **%-Bandbreite** rel. Feuchte
+  (SIA 180:2014 Tab. 10/Fig. 14 kostenpflichtig), WRG zentral numerisch, SIA 382/1-Luftwechsel.
+
+- [x] **E18** **Batteriespeicher (Heimspeicher) — lohnt sich das?** belegt ✓ 2026-07-10 →
+  `[[batteriespeicher-heimspeicher-pv-ch]]`, Themenartikel `[[batteriespeicher]]`, FAQ **F38**
+  (Eigenverbrauch ~30 %→50 % EMS+WP→bis 70–90 % Batterie; **Wirtschaftlichkeit ab ~35 % EV meist OHNE
+  Batterie**; Kosten **600–900 CHF/kWh** inkl. WR+Install. Swissolar; Dimensionierung kWp×1,5 bzw.
+  Jahresverbr./730; LFP ~80 %, Lebensdauer 10–20 J; **Notstrom nur ~30 % der Systeme**; **Winter-
+  Netzbezug nicht senkbar** — Tagesspeicher; Reihenfolge EMS/Lastverschiebung→thermischer Speicher→
+  Batterie; Swissolar + EnergieSchweiz, trianguliert mit Zogg 2023 `[[wp-pv-eigenverbrauch-lastmanagement]]`).
+  Vertieft F31/E15. **Offen:** belegte **Amortisationszeit in Jahren** (amtliche Quellen nennen bewusst
+  keine; kommerzielle Ratgeber ~8–12 J = Marktangabe); kWh-abhaengige CHF/kWh-Kurve + aktuelle
+  Einspeiseverguetungen (kantonal/EWU, projektgenau).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

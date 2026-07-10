@@ -182,3 +182,15 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Offen: WRG-Grad zentraler Anlagen numerisch, SIA-382/1-Auslegungsluftwechsel, Filterklassen/Ventilator-
   Strom (SIA-Merkblatt 2023 / BFE-PDF bildbasiert), komfortable rel. Raumluftfeuchte % (SIA 180), CHF aus
   neutraler Quelle.
+- [x] D11 **Batteriespeicher (Heimspeicher) zur PV — «lohnt sich das?»**
+  — belegt 2026-07-10 (Swissolar «Batteriespeicher» + EnergieSchweiz «Batterien», trianguliert mit Zogg 2023).
+  Eigenverbrauch **~30 % → ~50 % (EMS + WP/E-Auto) → bis 70–90 % (Batterie)**, Autarkie 50–80 %;
+  **Wirtschaftlichkeits-Schwelle ab ~35 % Eigenverbrauch — meist schon OHNE Batterie erreichbar** (der
+  teuerste Hebel, nicht der erste). Kosten **600–900 CHF/kWh** inkl. WR + Installation; Dimensionierung
+  **kWp × 1,5** bzw. **Jahresverbrauch/730**; LFP ~80 %, Lebensdauer 10–20 J; **Notstrom nur ~30 % der
+  Systeme**. **Winter-Realitaet: Tagesspeicher, senkt Winter-Netzbezug nicht** — groesster Gratis-Speicher
+  bleibt Gebaeudemasse + Warmwasser (via WP/EMS). Reihenfolge Lastverschiebung → thermischer Speicher →
+  Batterie → `[[batteriespeicher-heimspeicher-pv-ch]]`, Themenartikel `[[batteriespeicher]]` (FAQ **F38** neu).
+  Zugleich Raumklima-Faktenblatt KBOB/IPB destilliert → `[[behaglichkeit-raumklima-kbob-ipb]]` (aktive
+  Befeuchtung bei normalem Klima nicht noetig; schaerft F37). Offen: belegte Amortisationszeit in Jahren
+  (amtliche Quellen nennen bewusst keine), CHF/kWh-Kurve + Einspeiseverguetungen projektgenau.
