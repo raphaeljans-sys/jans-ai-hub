@@ -16,6 +16,18 @@
 - Quellen-Schuld: keine — F4 (Karpathy+Cherny) + F5 (Anthropic-Doku) vollstaendig eingeloest.
   Offen: F1-Ueberdehnungs-Gegentest (mittelgrosser Fall fehlt), F3-Tabelle je weitere Domaene, F7.
 
+## 2026-07-06 — Neue Spec-Anwendung: Shop-Connector
+- Output `outputs/2026-07-06_shop-connector_spec.md` (nach `templates/spec-vorlage.md`).
+  Vorhaben: Connector fuer automatisierte Verfuegbarkeits-/Preisabfragen bei CH-Online-Shops
+  + vorbereitete Bestell-Uebergabe; entstanden aus realem Fall (Deckenventilator, galaxus.ch
+  blockiert automatisierten Zugriff mit 403).
+- **Besonderheit:** Spec in Remote-Session aufgesetzt, AskUserQuestion nicht zustellbar —
+  Schluesselentscheide 1–4 als «noch beweglich, zu bestaetigen» markiert, Scope 0 des Plans
+  ist die Bestaetigung selbst. Entscheid 5 (Kaufabschluss nur durch Raphael) als nicht
+  bewegliche harte Regel gefuehrt (konsistent AKTIONS-WHITELIST «Geld NIE»).
+- Moeglicher Lern-Kandidat fuer Trainingslauf 5: Muster «Spec ohne erreichbaren Benutzer —
+  Annahmen setzen, beweglich markieren, Bestaetigung als Scope 0 einplanen».
+
 ## 2026-07-06 — Trainingslauf 4
 - Output `outputs/2026-07-06_training-run4.md`. Keine neue Spec-Anwendung seit Lauf 3; ausgewertet
   wurde der **Verlauf** der lebenden AG-Gruendungs-Spec (15 Tage, Monitor-Log bis 06.07.).
