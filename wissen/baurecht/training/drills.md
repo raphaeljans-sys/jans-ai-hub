@@ -978,3 +978,30 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   gewerblicher Garagen/Fahrzeugeinstellraeume darf **nur mit nicht anders nutzbarer Abwaerme** erfolgen;
   das schliesst auch eine blosse Frostschutz-«Temperierung» aus (Ziff. 2.31 Anhang BBV I; Bd 2 S. 1313).
   Zusaetzlich Belueftungspflicht § 37 Abs. 1 BBV I (keine schaedlichen Abgaskonzentrationen). _[2026-07-11]_
+- **F (Modell C):** Was ist unter der Harmonisierungsvorlage (nPBG) die «projizierte Fassadenlinie»
+  und wofuer dient sie? — **A:** Die Projektion der **Fassadenlinie** (Schnittlinie von Fassadenflucht
+  und massgebendem Terrain, § 6a nABV) auf die **Ebene der amtlichen Vermessung** (§ 6b nABV). Sie ist
+  die **Referenzgroesse fuer Abstaende, Laengen und die Ueberbauungsziffer** (§§ 260/100/256 nPBG). Bei
+  Hanglagen faellt sie mit der (auf dem Terrain verlaufenden) Fassadenlinie nicht zusammen (Bd 2 S. 1128 f.).
+  _[2026-07-11]_
+- **F (Modell C):** Wie weit duerfen vorspringende Gebaeudeteile unter nPBG in den Abstandsbereich
+  ragen, und was aendert sich gegenueber dem geltenden Recht? — **A:** Neu **bis 2 m tief** und **bis zur
+  Haelfte des zugehoerigen Fassadenabschnitts** (§ 260 nPBG; § 6c Abs. 1 nABV) — statt der alten
+  **Drittelregel** (§ 260 Abs. 3 PBG). Neben Balkon/Erker gelten neu auch bis aufs Terrain reichende
+  Ausbuchtungen (Windfaenge, Treppenhaeuser) als vorspringend; mehrere Vorspruenge auf verschiedenen
+  Stockwerken werden zusammengezaehlt (§ 6c Abs. 2 nABV). Beispiel: bei 3,5 m Grenzabstand Vorsprung bis
+  1,5 m an die Grenze (Bd 2 S. 1130 f.). _[2026-07-11]_
+- **F (Modell C):** Worin unterscheiden sich unter nPBG «unterirdische Baute» und «Unterniveaubaute»? —
+  **A:** Die **unterirdische Baute** liegt (ausser Erschliessung/Gelaender/Bruestung) **vollstaendig unter
+  dem massgebenden bzw. tiefergelegten Terrain** (§ 2b nABV) — NEU tatsaechlich unter dem Terrain, nicht
+  bloss unter dem gewachsenen. Die **Unterniveaubaute** ueberragt das Terrain **um max. 0,5 m** (§ 269 nPBG;
+  § 2c nABV). Beide sind abstandsfrei, ausser die BZO enthaelt Vorschriften. Verschaerfung: eine Abgrabung
+  kann eine unterirdische Baute zur abstandspflichtigen Unterniveaubaute machen (Bd 2 S. 1127 f.). _[2026-07-11]_
+- **F (Modell A · Frage→Beleg):** Ein Bauherr will unter nPBG ein freistehendes Gartenhaus mit einem
+  40 m² «Hobby-/Fitnessraum» als abstandsprivilegierte Kleinbaute (nur 3,5 m Grenzabstand) erstellen.
+  Zulaessig? — **A:** **Nein.** In Klein- und Anbauten (§ 273 nPBG; § 2a nABV) sind **nur Nebennutzflaechen
+  i.S. der SIA-Norm 416** zulaessig (Waschkueche, Estrich-/Keller-/Abstellraeume, Fahrzeugeinstellraeume,
+  Schutz-/Kehrichtraeume). **Hobbyraeume und Fitnessraeume zaehlen ausdruecklich NICHT dazu** (Bd 2 S. 1126).
+  Ein solcher Raum macht das Gebaeude zum abstandspflichtigen Hauptgebaeude (Abstaende nach BZO, §§ 270-277
+  nPBG). Masse der Kleinbaute im uebrigen: Grundflaeche ≤ 50 m², Gesamthoehe ≤ 4 m / Schraegdach 5 m
+  (§ 2a Abs. 1 nABV). _[2026-07-11]_

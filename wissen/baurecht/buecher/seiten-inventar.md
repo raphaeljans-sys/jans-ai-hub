@@ -581,11 +581,11 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 563 | 2 | 1118/1119 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.30.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
 | 564 | 2 | 1120/1121 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.31.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
 | 565 | 2 | 1122/1123 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.33.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
-| 566 | 2 | 1124/1125 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.34.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
-| 567 | 2 | 1126/1127 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.36.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
-| 568 | 2 | 1128/1129 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.37.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
-| 569 | 2 | 1130/1131 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.39.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
-| 570 | 2 | 1132/1133 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.40.jpg` | [[band-2/15-lage-von-gebaeuden-teil2d]] |
+| 566 | 2 | 1124/1125 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.34.jpg` | [[band-2/15-lage-von-gebaeuden-teil3-harmonisierung]] (15.13; S.1124 links noch 15.12 Brandmauern) |
+| 567 | 2 | 1126/1127 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.36.jpg` | [[band-2/15-lage-von-gebaeuden-teil3-harmonisierung]] (Gebaeudearten/Klein-/Anbaute/Minibaute/UIB/UNB) |
+| 568 | 2 | 1128/1129 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.37.jpg` | [[band-2/15-lage-von-gebaeuden-teil3-harmonisierung]] (Abgrabung UIB→UNB; Fassadenflucht/-linie § 6/6a nABV) |
+| 569 | 2 | 1130/1131 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.39.jpg` | [[band-2/15-lage-von-gebaeuden-teil3-harmonisierung]] (proj. Fassadenlinie § 6b/vorspr. Gebaeudeteile § 6c/Grenzabstaende 15.13.2) |
+| 570 | 2 | 1132/1133 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.40.jpg` | [[band-2/15-lage-von-gebaeuden-teil3-harmonisierung]] (Baubereich § 7/Baulinienbereich § 100 nPBG) |
 | 571 | 2 | 1134/1135 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.42.jpg` | [[16-gebaeudedimensionen]] (Kap.-16-Auftakt) |
 | 572 | 2 | 1136/1137 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.43.jpg` | [[16-gebaeudedimensionen]] (Geschosse § 275/276) |
 | 573 | 2 | 1138/1139 | [x] | `Bildschirmfoto 2026-06-07 um 12.04.45.jpg` | [[16-gebaeudedimensionen]] (Galerie, zusammengeb.) |

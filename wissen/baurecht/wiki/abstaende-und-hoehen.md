@@ -1,9 +1,9 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-07-09
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 284 PBG", "§ 292 PBG", "§ 293 PBG", "§ 28 ABV", "§ 30 Abs. 1 lit. a ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1194-1229"]
-links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[16-gebaeudedimensionen-teil3-umgebung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
+last_updated: 2026-07-11
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 284 PBG", "§ 292 PBG", "§ 293 PBG", "§ 28 ABV", "§ 30 Abs. 1 lit. a ABV", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229"]
+links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
 # Abstände und Höhen
@@ -173,3 +173,39 @@ Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
   zur Bezugsebene: **§ 293 misst das *gestaltete* Terrain**, **§ 280 das *gewachsene*** — bei Hanglagen
   auseinanderhalten. Die Gemeinde kann strenger sein (§ 293 Abs. 4 PBG; z.B. 1,0 m in Küsnacht).
   → Hangbauten/Terrainführung: Skill `massgebendes-terrain`.
+
+## Harmonisierungsvorlage (nPBG/nABV) — neue Messsystematik (Kap. 15.13)
+Buchsynthese: [[15-lage-von-gebaeuden-teil3-harmonisierung]] (Bd 2, S. 1124-1133); für die
+Höhen/Attika/Terrain-Umstellung [[kap16-10_gebaeudedimensionen-harmonisierung]].
+
+> **Fassungsstand:** Dies ist das «neue» Recht der Harmonisierungsvorlage (nPBG/nABV, IVHB).
+> In laufenden Verfahren gilt weiterhin das oben dargestellte PBG/ABV. Vor Anwendung prüfen,
+> ob die Vorlage am Bearbeitungsort in Kraft/umgesetzt ist (`needs-verification`).
+
+- **Alles wird von der *projizierten Fassadenlinie* gemessen.** Drei neue Begriffe:
+  **Fassadenflucht** = Mantelfläche aus den Lotgeraden durch die äussersten Baukörperpunkte
+  über dem massgebenden Terrain (§ 6 nABV); **Fassadenlinie** = deren Schnittlinie mit dem
+  massgebenden Terrain (§ 6a nABV); **projizierte Fassadenlinie** = Projektion auf die Ebene
+  der amtlichen Vermessung (§ 6b nABV) — sie ist Referenz für **Abstände, Längen und die
+  Überbauungsziffer** (§§ 260/100/256 nPBG). Bei Hanglagen fällt Fassadenlinie ≠ projizierte
+  Fassadenlinie auseinander.
+- **Vorspringende Gebäudeteile — 1/2 statt 1/3:** dürfen neu **bis 2 m tief** und **bis zur
+  Hälfte des zugehörigen Fassadenabschnitts** in den Abstandsbereich ragen (§ 260 nPBG;
+  § 6c Abs. 1 nABV) — Ausweitung gegenüber der alten Drittelregel (§ 260 Abs. 3 PBG). Neu
+  gelten neben Balkon/Erker auch bis auf das Terrain reichende Ausbuchtungen (Windfänge,
+  Treppenhäuser) als vorspringend; mehrere Vorsprünge auf verschiedenen Stockwerken werden
+  **zusammengezählt** (§ 6c Abs. 2 nABV). **Unbedeutende Rücksprünge** (max. 1,5 m *und* 1/5
+  des Fassadenabschnitts) bleiben unberücksichtigt (§ 6d nABV).
+- **Gebäudearten vereinheitlicht:** Minibaute (H ≤ 1,5 m / ≤ 2 m², abstandsfrei § 260 Abs. 4
+  nPBG, bewilligungsfrei § 1 lit. a BVV) · bewilligungsfreie Klein-/Anbaute (H ≤ 2,5 m / ≤ 6 m²)
+  · Klein-/Anbaute (H ≤ 4 m Flach / ≤ 5 m Schräg, ≤ 50 m², nur SIA-416-Nebennutzflächen; §§ 49
+  Abs. 3 + 273 nPBG) · **unterirdische Baute** (ganz unter Terrain, § 2b nABV) vs.
+  **Unterniveaubaute** (überragt ≤ 0,5 m, § 2c nABV) · Hauptgebäude (Abstände nach BZO,
+  §§ 270-277 nPBG). **Verschärfung:** die abstandsfreie unterirdische Baute muss neu
+  *tatsächlich* unter dem (auch abgegrabenen) Terrain liegen — eine Abgrabung kann sie zur
+  abstandspflichtigen UNB machen (§ 269 nPBG).
+- **Baubereich (§ 7 nABV):** die überbaubare Fläche kann statt über Abstände über einen
+  grundstücksscharfen **Baubereich** im Ergänzungsplan umschrieben werden (bisher nur
+  Kernzonen/Gestaltungspläne). **Baulinienbereich:** Vorsprünge dürfen die projizierte
+  Fassadenlinie bis 2 m / max. halber Fassadenabschnitt überragen (§ 100 Abs. 2 nPBG; alt
+  § 100 Abs. 1 PBG: 1,5 m, ohne Breitenlimit) → [[baulinien-und-abstandslinien]].

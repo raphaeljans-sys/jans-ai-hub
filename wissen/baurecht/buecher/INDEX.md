@@ -148,8 +148,22 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Verkehrsraeume § 272, **Besondere Gebaeude § 273/§ 49 Abs. 3** (≤ 4/5 m, kein dauernder Aufenthalt,
   3,5 m, ~50 m² BEZ 2015 Nr. 2, kein Dispens BEZ 2004 Nr. 75, Anbau-Selbststaendigkeit VB.2015.00544);
   erweitert (S. 1112-1123, Shots 560-570) um **§ 274 PBG Grenzbaurecht** + **§ 27 Abs. 2 ABV**.
-  24 Doppelseiten. Status: `emerging`. **Schliesst Kap. 15 bis auf 15.13 «Harmonisierungsvorlage»**
-  (S. 1124-1133). Speist [[abstaende-und-hoehen]].
+  24 Doppelseiten. Status: `emerging`. Speist [[abstaende-und-hoehen]].
+
+- [[15-lage-von-gebaeuden-teil3-harmonisierung]] — Kap. 15.13 / **Schluss** (S. 1124-1133):
+  **Lage von Gebaeuden nach der Harmonisierungsvorlage (nPBG/nABV/IVHB)** — neue Messsystematik ueber den
+  Fassadenverlauf: **Fassadenflucht § 6 nABV / Fassadenlinie § 6a nABV / projizierte Fassadenlinie § 6b nABV**
+  (Referenz fuer Abstaende/Laengen/UEZ §§ 260/100/256 nPBG); **Gebaeudearten vereinheitlicht** (Minibaute
+  H ≤ 1,5 m/≤ 2 m² abstandsfrei § 260 Abs. 4 nPBG + bewilligungsfrei § 1 lit. a BVV; bewilligungsfreie
+  Klein-/Anbaute ≤ 2,5 m/≤ 6 m²; Klein-/Anbaute ≤ 4/5 m/≤ 50 m² nur SIA-416-Nebennutzflaechen §§ 49 Abs. 3
+  + 273 nPBG; **unterirdische Baute § 2b** vs. **Unterniveaubaute § 2c** ≤ 0,5 m; Hauptgebaeude §§ 270-277
+  nPBG); **vorspringende Gebaeudeteile neu bis 2 m tief + halber Fassadenabschnitt § 6c Abs. 1 nABV** (statt
+  Drittelregel § 260 Abs. 3 PBG), Zusammenzaehlung § 6c Abs. 2, unbedeutende Ruecksprünge § 6d nABV;
+  **Grenz-/Gebaeudeabstaende 15.13.2** ab projizierter Fassadenlinie; **Baubereich § 7 nABV**;
+  **Baulinienbereich § 100 Abs. 2 nPBG** (Vorsprung bis 2 m, alt § 100 Abs. 1 PBG: 1,5 m). Vorspann S. 1124
+  links noch **15.12-Schluss Brandmauern §§ 289-291 PBG** (geltend). 5 Doppelseiten (Shots 566-570). Status:
+  `emerging`. **SCHLIESST Kap. 15 vollstaendig.** Speist [[abstaende-und-hoehen]] +
+  [[baulinien-und-abstandslinien]] + [[gebaeudearten-und-abstandssystem]].
 
 - [[kap16-10_gebaeudedimensionen-harmonisierung]] — Kap. 16.10 (S. 1230-1239, ECHTE Seiten):
   Gebaeudedimensionen nach **Harmonisierungsvorlage (nPBG/IVHB)** — Geschossarten,

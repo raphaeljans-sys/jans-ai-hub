@@ -20,6 +20,24 @@ wurden.
 - ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
   [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
 
+## Offene Wissenslücken / needs-verification — neu (2026-07-11, aus Buch-Run 28: Kap. 15.13 Harmonisierungsvorlage — LETZTE Restschuld geschlossen)
+- ~~**Kap. 15.13 «Lage von Gebäuden nach der Harmonisierungsvorlage» (S. 1124-1133) nicht distilliert**~~
+  → **erledigt 2026-07-11** (Run 28): Die Shots 566-570 waren im Inventar `[x]`, aber die nPBG/nABV-
+  Systematik war nie erfasst (teil2d = nur geltendes Recht §§ 260-274 PBG). Neues Destillat
+  [[15-lage-von-gebaeuden-teil3-harmonisierung]] + neue nPBG-Sektion in [[abstaende-und-hoehen]]. Kernaussagen:
+  **alles ab projizierter Fassadenlinie** gemessen (Fassadenflucht § 6 / Fassadenlinie § 6a / projizierte
+  Fassadenlinie § 6b nABV; Referenz §§ 260/100/256 nPBG); **vorspringende Gebäudeteile bis 2 m + halber
+  Fassadenabschnitt § 6c nABV** (statt Drittelregel § 260 Abs. 3 PBG); **Gebäudearten** (Minibaute/Klein-
+  /Anbaute nur SIA-416-Nebennutzflächen/unterirdische Baute § 2b vs. Unterniveaubaute § 2c/Hauptgebäude);
+  **Baubereich § 7 nABV**. **→ Kap. 15 vollständig; alle 23 Kapitel substanziell geschlossen (ausser
+  Kap. 18 Brandschutz = Querverweis `brandschutz`).**
+- **needs-verification — Fassungsstand nPBG/nABV (Kap. 15.13):** §§ 2/2a/2b/2c/6/6a/6b/6c/6d/7 nABV und
+  §§ 49 Abs. 3/100/256/260/269/273/270-277 nPBG sinngemäss nach Buch S. 1124-1133 (6. Aufl. 2019 =
+  **Vorlage-Text der Harmonisierung**, IVHB). Vor Zitat in Kundenberatung am **aktuell in Kraft stehenden**
+  kant. Erlass spiegeln (nPBG/nABV bzw. dem heute geltenden PBG/ABV) — die Harmonisierungsvorlage war 2019
+  noch nicht in allen Teilen umgesetzt. Betrifft insb. die 1/2-Vorsprungregel (§ 6c) und die UIB/UNB-
+  Verschärfung (§ 269 nPBG), die für Volumen-/Machbarkeitsstudien direkt relevant sind.
+
 ## Offene Wissenslücken / needs-verification — neu (2026-07-11, aus Buch-Run 27: Kap. 17 T3 Haustechnik / Kap. 19 T2 Lärm+NIS)
 - ~~**Kap. 17 Ausrüstungen-Teil offen (Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen, Briefkästen § 4 ABV, §§ 295-298 PBG, Garagen §§ 37-39 BBV I)**~~ → **erledigt 2026-07-11** (Run 27): Kap. 17 Teil 3 (S. 1304-1319) distilliert [[17-haustechnische-anlagen-teil3]] — **17.9 Haustechnische Anlagen** (Abwärme/WRG/WKK § 30a BBV I, Feuerungen Öl/Gas/Holz § 24 BBV I/LRV/Feuerungskontrolle alle 2 J. Art. 13 LRV, Kaminhöhen 0,5/1,5/2 m, **Elektroheizungsverbot § 10b EnerG**, Warmwasser max. 60 °C § 26 BBV I / Vorlauf ≤ 50 °C-Boden ≤ 35 °C § 23 BBV I, **VHKA ab 5 Nutzeinheiten § 9 EnerG**, besondere Heizungen, Klima/Lüftung § 29 BBV I, **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro NIV Art. 37 ff., **Aufzugspflicht > 5 anrechenb. Geschosse** Kabine 2,10 × 1,10 m/§ 40 Abs. 2 BBV I, Liftanbau Altbau § 19a BBV II, Beförderungsanlagen § 296 PBG/§ 31/32 BBV I, Briefkästen Art. 73 ff. VPG). **Kap. 17 substanziell komplett** (nur 17.10-Rest nPBG offen). Speist [[wohnhygiene-und-raumanforderungen]].
 - ~~**Baulicher Umweltschutz / Lärm / NIS nicht als Themenartikel im Wiki**~~ → **erledigt 2026-07-11** (Run 27): neuer Wiki-Artikel [[laermschutz-und-nichtionisierende-strahlung]] aus [[19-baulicher-umweltschutz-teil2-laerm-nisv]] (S. 1404-1431). Kernaussagen: **Aufhebung Lüftungsfensterpraxis BGE 142 II 100** (IGW an ALLEN Fenstern lärmempfindl. Räume), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse, > 6 dB(A) nie leicht), Fluglärm Art. 31a LSV; **NISV zweistufig IGW/AGW**, **OMEN Art. 3 Abs. 3 NISV** (Balkone/Terrassen NICHT), **Mobilfunk AGW 4-6 V/m** (Bauzone Anspruch § 320 PBG ohne Bedürfnisnachweis BGer 1C_329/2013). **Kap. 19 vollständig.**
