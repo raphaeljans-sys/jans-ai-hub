@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.07.2026 10:42:40
+Stand: 11.07.2026 10:52:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.07.2026 10:42:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 966cd795 nas-selfcommit: 2 Datei(en) 2026-07-11 10:30
+- d146c067 Merge origin/main (nas-selfcommit) in PR-Aufraeum-Stand
