@@ -31,6 +31,30 @@ Hinweis: Der Namens-Check ist ein belastbares Indiz, kein amtlicher Entscheid �
 letzte Wort zur "deutlichen Unterscheidbarkeit" hat das Handelsregisteramt/Notar.
 Genutzt u.a. von der KB `firmengruendung-ch` und dem Skill `spec` (Verifier-Stufe).
 
+## claude-usage.mjs — Claude-Abo-Auslastung (Anthropic)
+
+Fragt die Auslastung des Claude-Max-Abos im Hintergrund ab — ohne Browser/Chrome-
+Erweiterung. Zwei Modi: **offiziell** (5h- und Wochen-Limit in % via Anthropic-OAuth-
+Endpunkt; Fallback ueber die `anthropic-ratelimit-unified-*`-Antwort-Header) und
+**lokal** (Verbrauch der Station als API-Gegenwert aus den lokalen Transkripten via
+`ccusage weekly`). **Read-only**, aendert nichts am Account.
+
+**Einmalige Einrichtung fuer den offiziellen Modus:** Die Desktop-App haelt ihr Token
+verschluesselt — im Terminal einmal `claude` starten und `/login` ausfuehren; danach
+liegt das OAuth-Token in der Keychain (`Claude Code-credentials`) und der Connector
+laeuft unbeaufsichtigt (auch als Scheduled Task). Alternativ Token aus
+`claude setup-token` ablegen: `security add-generic-password -s jans-claude-usage -a claude -w '<token>'`.
+
+**Befehle:**
+```bash
+node claude-usage.mjs            # offizielle Limit-Auslastung (braucht Token, s.o.)
+node claude-usage.mjs --lokal    # Wochen-Verbrauch dieser Station (funktioniert sofort)
+node claude-usage.mjs --alles    # beides
+```
+Entstanden 11.07.2026 (Abo-Frage 20x vs. 5x). Hinweis: lokale Zahlen erfassen nur
+Claude Code dieser Station — iPhone/iPad-Chat zaehlt ins gleiche Wochenlimit, ist
+lokal aber nicht sichtbar; die verbindliche Prozentzahl liefert nur der offizielle Modus.
+
 ## ebaugesuche-zh.mjs — eBaugesucheZH (Baubewilligungs-Portal Kt. ZH)
 
 Liest den **Verfahrensstand eigener Baugesuche** auf der kantonalen Plattform
