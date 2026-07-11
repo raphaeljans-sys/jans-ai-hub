@@ -6,7 +6,7 @@ total_screenshots: 780
 hinweis_seite: Spalte Seite ist GESCHAETZT (lineare Interpolation). Beim Distillieren mit der ECHTEN Buchseite (Reader-Fussnote) ersetzen.
 hinweis_band: Bandgrenze ca. Shot 344 (S. 684/685). Band 1 = Planungsrecht/Verfahren/Rechtsschutz; Band 2 = Bau- und Umweltrecht.
 status_legende: '[ ] offen  /  [~] teilweise  /  [x] distilliert'
-last_updated: 2026-07-09
+last_updated: 2026-07-11
 ---
 
 # Seiten-Inventar — Zuercher Planungs- und Baurecht (Band 1+2)
@@ -671,14 +671,14 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 653 | 2 | 1298/1299 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.32.jpg` | [[band-2/17-gebaeude-und-raeume-teil2-ausruestungen]] |
 | 654 | 2 | 1300/1301 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.33.jpg` | [[band-2/17-gebaeude-und-raeume-teil2-ausruestungen]] |
 | 655 | 2 | 1302/1303 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.34.jpg` | [[band-2/17-gebaeude-und-raeume-teil2-ausruestungen]] |
-| 656 | 2 | ~1306 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.35.jpg` |  |
-| 657 | 2 | ~1308 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.36.jpg` |  |
-| 658 | 2 | ~1310 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.38.jpg` |  |
-| 659 | 2 | ~1312 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.39.jpg` |  |
-| 660 | 2 | ~1314 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.40.jpg` |  |
-| 661 | 2 | ~1316 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.41.jpg` |  |
-| 662 | 2 | ~1318 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.43.jpg` |  |
-| 663 | 2 | ~1320 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.44.jpg` |  |
+| 656 | 2 | 1304/1305 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.35.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 657 | 2 | 1306/1307 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.36.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 658 | 2 | 1308/1309 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.38.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 659 | 2 | 1310/1311 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.39.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 660 | 2 | 1312/1313 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.40.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 661 | 2 | 1314/1315 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.41.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 662 | 2 | 1316/1317 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.43.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
+| 663 | 2 | 1318/1319 | [x] | `Bildschirmfoto 2026-06-07 um 12.06.44.jpg` | [[band-2/17-haustechnische-anlagen-teil3]] |
 | 664 | 2 | ~1322 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.45.jpg` |  |
 | 665 | 2 | ~1324 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.46.jpg` |  |
 | 666 | 2 | ~1326 | [ ] | `Bildschirmfoto 2026-06-07 um 12.06.48.jpg` |  |
@@ -721,20 +721,20 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 703 | 2 | 1398/1399 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.34.jpg` | [[band-2/19-baulicher-umweltschutz]] |
 | 704 | 2 | 1400/1401 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.35.jpg` | [[band-2/19-baulicher-umweltschutz]] |
 | 705 | 2 | 1402/1403 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.36.jpg` | [[band-2/19-baulicher-umweltschutz]] |
-| 706 | 2 | ~1406 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.38.jpg` |  |
-| 707 | 2 | ~1408 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.39.jpg` |  |
-| 708 | 2 | ~1410 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.40.jpg` |  |
-| 709 | 2 | ~1412 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.42.jpg` |  |
-| 710 | 2 | ~1414 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.43.jpg` |  |
-| 711 | 2 | ~1416 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.44.jpg` |  |
-| 712 | 2 | ~1418 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.46.jpg` |  |
-| 713 | 2 | ~1420 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.47.jpg` |  |
-| 714 | 2 | ~1422 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.49.jpg` |  |
-| 715 | 2 | ~1424 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.50.jpg` |  |
-| 716 | 2 | ~1426 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.52.jpg` |  |
-| 717 | 2 | ~1428 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.53.jpg` |  |
-| 718 | 2 | ~1430 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.54.jpg` |  |
-| 719 | 2 | ~1432 | [ ] | `Bildschirmfoto 2026-06-07 um 12.07.56.jpg` |  |
+| 706 | 2 | 1404/1405 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.38.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 707 | 2 | 1406/1407 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.39.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 708 | 2 | 1408/1409 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.40.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 709 | 2 | 1410/1411 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.42.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 710 | 2 | 1412/1413 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.43.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 711 | 2 | 1414/1415 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.44.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 712 | 2 | 1416/1417 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.46.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 713 | 2 | 1418/1419 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.47.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 714 | 2 | 1420/1421 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.49.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 715 | 2 | 1422/1423 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.50.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 716 | 2 | 1424/1425 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.52.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 717 | 2 | 1426/1427 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.53.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 718 | 2 | 1428/1429 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.54.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
+| 719 | 2 | 1430/1431 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.56.jpg` | [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]] |
 | 720 | 2 | ~1434 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.57.jpg` | [[20-ausnahmen-bestandesschutz]] |
 | 721 | 2 | ~1436 | [x] | `Bildschirmfoto 2026-06-07 um 12.07.58.jpg` | [[20-ausnahmen-bestandesschutz]] |
 | 722 | 2 | ~1438 | [x] | `Bildschirmfoto 2026-06-07 um 12.08.00.jpg` | [[20-ausnahmen-bestandesschutz]] |

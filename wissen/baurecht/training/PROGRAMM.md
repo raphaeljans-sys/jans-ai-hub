@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -92,7 +92,25 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der
   P1-Kapitel + Querverlinkung/Verdichtung Wiki. Spaeter Phase 3 (woechentlich, `30 7 * * 1`).
-- **Seiten distilliert:** ~977 / 1550 (~488 Doppelseiten). **Run 26 (2026-07-10, regulaer/Lueckenschluss,
+- **Seiten distilliert:** ~999 / 1550 (~500 Doppelseiten). **Run 27 (2026-07-11, Forcierung, 2 Kapitelteile,
+  22 Doppelseiten):** Kap. 17 Teil 3/Schluss + Kap. 19 Teil 2/Schluss → **Kap. 19 VOLLSTAENDIG, Kap. 17
+  substanziell komplett.** **Kap. 17** (S. 1304-1319, Shots 656-663): **17.9 Haustechnische Anlagen** —
+  Abwaerme/WRG/WKK § 30a BBV I, Feuerungen Oel/Gas/Holz § 24 BBV I/LRV/Feuerungskontrolle 2 J. Art. 13 LRV,
+  **Kaminhoehen 0,5/1,5/2 m**, **Elektroheizungsverbot § 10b EnerG**, Warmwasser **max. 60 °C § 26 BBV I** /
+  Vorlauf ≤ 50 °C-Boden ≤ 35 °C § 23 BBV I, **VHKA ab 5 Nutzeinheiten § 9 EnerG**, besondere Heizungen
+  (Rampen-/**Garagenheizung Ziff. 2.31 Anhang BBV I**), Klima/Lueftung § 29 BBV I/EBF > 1000 m² § 45 Abs. 3,
+  **Garagenlueftung § 37 Abs. 1 BBV I**, Elektro NIV Art. 37 ff., **Aufzugspflicht > 5 anrechenb. Geschosse**
+  (Kabine 2,10 × 1,10 m, > 9 = 2 Aufzuege § 40 Abs. 2 BBV I), Liftanbau Altbau § 19a BBV II, Befoerderungs-
+  anlagen § 296 PBG, Briefkaesten Art. 73 ff. VPG. **Kap. 19** (S. 1404-1431, Shots 706-719): **Laermschutz-
+  Detail** (**Aufhebung Lueftungsfensterpraxis BGE 142 II 100**, **Baubewilligung trotz IGW-Ueberschreitung
+  Art. 31 Abs. 2 LSV**, verschaerfte Schalldaemmung Art. 32 Abs. 2 LSV/SIA 181, **Fluglaerm Art. 31a LSV**) +
+  **NIS/NISV** (zweistufig IGW/**AGW Faktor 10 nur OMEN**, **OMEN Art. 3 Abs. 3 NISV** Balkone NICHT, **Mobilfunk
+  AGW 4-6 V/m** Ziff. 64 Anhang 1 NISV, Bauzone Anspruch § 320 PBG ohne Beduerfnisnachweis BGer 1C_329/2013,
+  Standortdatenblatt Art. 11 NISV). Neue Destillate [[band-2/17-haustechnische-anlagen-teil3]] /
+  [[band-2/19-baulicher-umweltschutz-teil2-laerm-nisv]]. **NEU Wiki [[laermschutz-und-nichtionisierende-strahlung]]**.
+  Modell C (6) + A (1). Report `outputs/2026-07-11_buch-run27.md`. **→ Alle substanziellen Kapitel geschlossen;
+  Forcierungs-Phase kann abgeschlossen werden (nur Kleinreste 15.13/16.9/17.10/11 offen).**
+- **Seiten distilliert (frueher):** ~977 / 1550 (~488 Doppelseiten). **Run 26 (2026-07-10, regulaer/Lueckenschluss,
   6 Tail-Doppelseiten Kap. 14: Shots 489/492/495/497/499/500, S. 970-992):** **Kap. 14 (P1) damit
   lueckenlos gelesen (Shots 462-500).** Nachgetragen: **Nutzungsart-Detail 14.2.2-14.2.6** — mit Wohnung
   zusammenhaengende Arbeitsraeume **Art. 52 Abs. 1 PBG** (1/4-1/3), **nicht stoerende Betriebe** § 52
@@ -270,12 +288,15 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 - **Naechster Lauf:** ~~Kap. 13 Schluss (§§ 242-248) / Kap. 20 Schluss (§ 357 Abs. 5/§ 358/§ 307) / Kap. 21
   Schluss (Art. 37a/24d/24e)~~ **erledigt Run 25 (2026-07-10) → Kap. 13/20/21 VOLLSTAENDIG.** ~~**Kap. 14**
   Mischrechnungsverbot/Tail (Shots 489/492/495/497/499/500)~~ **erledigt Run 26 (2026-07-10) → Kap. 14 (P1)
-  VOLLSTAENDIG, Mischrechnungsverbot geklaert.** Verbleibende **Band-2-Kleinreste** (nur noch wenige):
-  **Kap. 15.13** Harmonisierungsvorlage (S. 1124-1133), **Kap. 16.9-Schluss** (S. 1230 f.), **Kap. 17**
-  Garagen §§ 37-39 BBV I (ab Shot 656), **Kap. 19-Rest** (ab Shot 706), **Kap. 11** (Feinschliff §§ 218-232).
-  Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`. **Sobald diese Kleinreste erledigt sind:
-  Forcierungs-Phase abgeschlossen → Cron auf woechentlich (`30 7 * * 1`) heruntertakten + Phase 3
-  (Erhaltung/Drills) + Modell-D-Volltextabgleich der needs-verification.** *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
+  VOLLSTAENDIG, Mischrechnungsverbot geklaert.** ~~**Kap. 17** Garagen/Haustechnik (ab Shot 656) /
+  **Kap. 19-Rest** (ab Shot 706)~~ **erledigt Run 27 (2026-07-11) → Kap. 17 substanziell komplett, Kap. 19
+  VOLLSTAENDIG.** Verbleibende **Band-2-Kleinreste** (nur noch Feinschliff, je schon `emerging`-Destillat):
+  **Kap. 15.13** Harmonisierungsvorlage (S. 1124-1133), **Kap. 16.9-Schluss / Kap. 17.10-Rest** nPBG
+  (S. 1230 f. / S. 1320 f., teils via [[kap16-10_gebaeudedimensionen-harmonisierung]]), **Kap. 11** (Feinschliff
+  §§ 218-232). Kap. 18 Brandschutz **nur Querverweis** auf Skill `brandschutz`. **Alle substanziellen Kapitel
+  damit geschlossen → Forcierungs-Phase kann abgeschlossen werden: Cron auf woechentlich (`30 7 * * 1`)
+  heruntertakten + Phase 3 (Erhaltung/Drills + Modell-D-Volltextabgleich der needs-verification); die Kleinreste
+  (15.13/16.9/17.10/11) in Phase 3 mitnehmen.** *(erledigt Run 20: Kap. 3 T2 / Kap. 10 / Kap. 12 T4 → Kap. 3/10/12 vollstaendig.)* Alt-Notiz:  **Kap. 2 Teil 2 (HOHE Prio)** — S. 142 ff. / 2.3 Nutzungsplanung (Zonenarten/BZO/
   Sondernutzung/Quartierplan/Nutzungsplanverfahren), Shots ab 73; plus **Band-1-Tail** Kap. 3 (Erschliessung/
   Landumlegung, ab Shot 105/S. 207), Kap. 5 (Entschaedigung), Kap. 10 (widerrechtliche Bauten, S. 609);
   dazu **Kap. 12 Teil 4** (Band 2, S. 770-809: Anschlussgebuehren-Rest + Abfall/Kehricht + Altlasten

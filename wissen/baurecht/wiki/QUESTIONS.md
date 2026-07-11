@@ -20,6 +20,13 @@ wurden.
 - ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
   [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
 
+## Offene Wissenslücken / needs-verification — neu (2026-07-11, aus Buch-Run 27: Kap. 17 T3 Haustechnik / Kap. 19 T2 Lärm+NIS)
+- ~~**Kap. 17 Ausrüstungen-Teil offen (Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen, Briefkästen § 4 ABV, §§ 295-298 PBG, Garagen §§ 37-39 BBV I)**~~ → **erledigt 2026-07-11** (Run 27): Kap. 17 Teil 3 (S. 1304-1319) distilliert [[17-haustechnische-anlagen-teil3]] — **17.9 Haustechnische Anlagen** (Abwärme/WRG/WKK § 30a BBV I, Feuerungen Öl/Gas/Holz § 24 BBV I/LRV/Feuerungskontrolle alle 2 J. Art. 13 LRV, Kaminhöhen 0,5/1,5/2 m, **Elektroheizungsverbot § 10b EnerG**, Warmwasser max. 60 °C § 26 BBV I / Vorlauf ≤ 50 °C-Boden ≤ 35 °C § 23 BBV I, **VHKA ab 5 Nutzeinheiten § 9 EnerG**, besondere Heizungen, Klima/Lüftung § 29 BBV I, **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro NIV Art. 37 ff., **Aufzugspflicht > 5 anrechenb. Geschosse** Kabine 2,10 × 1,10 m/§ 40 Abs. 2 BBV I, Liftanbau Altbau § 19a BBV II, Beförderungsanlagen § 296 PBG/§ 31/32 BBV I, Briefkästen Art. 73 ff. VPG). **Kap. 17 substanziell komplett** (nur 17.10-Rest nPBG offen). Speist [[wohnhygiene-und-raumanforderungen]].
+- ~~**Baulicher Umweltschutz / Lärm / NIS nicht als Themenartikel im Wiki**~~ → **erledigt 2026-07-11** (Run 27): neuer Wiki-Artikel [[laermschutz-und-nichtionisierende-strahlung]] aus [[19-baulicher-umweltschutz-teil2-laerm-nisv]] (S. 1404-1431). Kernaussagen: **Aufhebung Lüftungsfensterpraxis BGE 142 II 100** (IGW an ALLEN Fenstern lärmempfindl. Räume), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse, > 6 dB(A) nie leicht), Fluglärm Art. 31a LSV; **NISV zweistufig IGW/AGW**, **OMEN Art. 3 Abs. 3 NISV** (Balkone/Terrassen NICHT), **Mobilfunk AGW 4-6 V/m** (Bauzone Anspruch § 320 PBG ohne Bedürfnisnachweis BGer 1C_329/2013). **Kap. 19 vollständig.**
+- **needs-verification — BBV-I/BBV-II + EnerG (Fassungsstand):** §§ 21-46a BBV I, § 19a BBV II, §§ 9/9a/10b/12/13 EnerG (Kap. 17) sinngemäss nach Buch S. 1304-1319; die 6. Aufl. 2019 kann durch die EnerG-Revision (MuKEn 2014) überholt sein — am heute geltenden kant. Energierecht spiegeln, bevor harte Werte (VHKA-Schwelle, Vorlauftemperaturen, Elektroheizungsverbot) in Bauherren-Beratung zitiert werden.
+- **needs-verification — LSV/NISV-Artikel (Kap. 19):** Art. 31/31a/32/35/39 LSV + Anhang 5 Ziff. 222 LSV; Art. 2/3/4/5/6/7/8/9/11/12/14/16 NISV + Ziff. 61/62/64 Anhang 1 NISV + Anhang 2 NISV (IGW-Tabelle) — am Fedlex-Volltext gegenprüfen. **5G:** die 6. Aufl. kennt die neuen Frequenzen (700/1400/3500 MHz) nur als Prognose; die zugehörigen AGW am aktuellen Anhang 1 NISV spiegeln.
+- **needs-verification — Kaminhöhen/LRV:** Ziff. 3 Kaminempfehlungen 2013 (0,5/1,5/2 m) + Art. 6/13/20 LRV an der aktuellen BAFU-Empfehlung/Fedlex prüfen.
+
 ## Offene Wissenslücken — neu (2026-07-03, aus Buch-Run 20)
 - ~~**Widerrechtliche Bauten / Schwarzbau / Abbruchrisiko (Kap. 10):**~~ → **erledigt 2026-07-03** (Run 20):
   neuer Wiki-Artikel [[widerrechtliche-bauten-und-sanktionen]] aus [[10-widerrechtliche-bauten-teil1]]
@@ -80,9 +87,12 @@ wurden.
 - **§ 10 BBV II Rauminhalt-Staffelung offen:** Die m³/m²-Staffel für Räume mit grosser Belegung
   (Buch: 2,4 m³/m² bis 200 m², Anstieg «0.002 m²» wirkt wie OCR-Verzerrung, ab 500 m² konstant
   3 m³/m²) am amtlichen BBV-II-Volltext (raw/) gegenprüfen — Zwischenwerte unklar.
-- **Kap. 17 Ausrüstungen-Teil offen:** Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen,
-  Briefkästen (§ 4 ABV), §§ 295-298 PBG (Gebäude > sechs Geschosse) sowie Einstellräume-Detail
-  (Garagenlüftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht vertieft.
+- ~~**Kap. 17 Ausrüstungen-Teil offen:** Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen,
+  Briefkästen (§ 4 ABV), §§ 295-298 PBG sowie Einstellräume-Detail (Garagenlüftung, §§ 37 ff. BBV I)~~
+  → **erledigt 2026-07-11** (Run 27): [[17-haustechnische-anlagen-teil3]] (S. 1304-1319) —
+  17.9 Haustechnik + Klima/Lüftung + Elektro (NIV) + Beförderungsanlagen (**Aufzugspflicht > 5
+  Geschosse, § 40 Abs. 2 BBV I**) + **Garagenlüftung § 37 Abs. 1 BBV I** + Briefkästen Art. 73 ff. VPG.
+  **Kap. 17 substanziell komplett** (nur 17.10-Rest nPBG offen).
 
 ## Offene Wissenslücken — neu (2026-06-18, aus Buch-Run Kap. 20)
 - **§ 357 Abs. 4 (Verbesserungen)** → **teil-erledigt 2026-06-29** (Welle 1): Abs. 4 (Verbesserungen +

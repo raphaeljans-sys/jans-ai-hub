@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -53,11 +53,37 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Speist [[geschosse-und-kniestock]] + [[abstaende-und-hoehen]].
 - [[17-gebaeude-und-raeume-teil2-ausruestungen]] — Kap. 17 Teil 2 (S. 1256-1303): **Ausruestungen** —
   §§ 295-298 PBG Heizung/Fernwaerme, **§ 4 ABV**, **§§ 239a/239b BehiG** (Hindernisfreiheit), Schutzraeume.
-  24 Doppelseiten. Status: `emerging` (Garagen §§ 37-39 BBV I noch offen).
+  24 Doppelseiten. Status: `emerging`.
   Speist [[wohnhygiene-und-raumanforderungen]].
-- [[19-baulicher-umweltschutz]] — Kap. 19 (S. 1357-1403): **Baulicher Umweltschutz** — USG/LRV/LSV,
+- [[17-haustechnische-anlagen-teil3]] — Kap. 17 Teil 3 / **Schluss** (S. 1304-1319): **Haustechnische Anlagen
+  17.9 + Klima/Lueftung + Beförderungsanlagen** — Abwärme/WRG/WKK (**§ 30a BBV I**), eigene Erzeugeranlagen
+  (Art. 15 EnG), Feuerungen Öl/Gas/Holz (**§ 24 BBV I** > 1000 kW = AWEL, LRV, Feuerungskontrolle alle 2 J.
+  Art. 13 LRV), Kaminhöhen (Ziff. 3 Empfehlungen 2013: **0,5 m Dachfirst / 1,5 m Flachdach / 2 m begehbar**),
+  **Elektroheizungsverbot § 10b EnerG**, Warmwasser **max. 60 °C § 26 BBV I** / Vorlauftemp. **≤ 50 °C /
+  Bodenheizung ≤ 35 °C § 23 BBV I**, **VHKA ab 5 Nutzeinheiten § 9 EnerG** (≥ 60 % verbrauchsabh.), besondere
+  Heizungen (Freiluft-/Hallenbäder, Rampen-/Garagenheizung Ziff. 2.31 Anhang BBV I), Klima/Lüftung **§ 29 BBV I**
+  (WRG, EBF > 1000 m² § 45 Abs. 3), **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro (NIV Art. 37 ff.),
+  **Aufzugspflicht > 5 anrechenbare Geschosse** (Kabine 2,10 × 1,10 m, > 9 Gesch. = 2 Aufzüge § 40 Abs. 2 BBV I),
+  Liftanbau Altbau **§ 19a BBV II** (Erstellung vor 1.7.1978), Beförderungsanlagen § 296 PBG / § 31/32 BBV I,
+  Briefkästen Art. 73 ff. VPG; Auftakt 17.10 Harmonisierungsvorlage (lichte Höhe § 304 nPBG). 8 Doppelseiten
+  (Shots 656-663). Status: `emerging`. Speist [[wohnhygiene-und-raumanforderungen]]. **Kap. 17 substanziell komplett**
+  (nur 17.10-Rest nPBG offen). Nächste Sektion S. 1321 = Kap. 18 Brandschutz → Skill `brandschutz`.
+- [[19-baulicher-umweltschutz]] — Kap. 19 Teil 1 (S. 1357-1403): **Baulicher Umweltschutz** — USG/LRV/LSV,
   **Laerm ES I-IV**, **Art. 31/32 LSV** (Empfindlichkeitsstufen/Bauzonen-Laermschutz), SIA 181.
-  24 Doppelseiten. Status: `emerging` (Rest > Shot 705 offen).
+  24 Doppelseiten. Status: `emerging`. Teil 2 siehe unten.
+- [[19-baulicher-umweltschutz-teil2-laerm-nisv]] — Kap. 19 Teil 2 / **Schluss** (S. 1404-1431): **Lärmschutz-Detail
+  (19.3) + Schutz vor nicht ionisierender Strahlung (19.4)** — Schallschutz-Massnahmenübersicht, **Aufhebung
+  Lüftungsfensterpraxis BGE 142 II 100** (IGW an ALLEN Fenstern lärmempfindl. Räume, Mitte offenes Fenster
+  Art. 39 Abs. 1 LSV), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse;
+  > 6 dB(A) nie leicht), verschärfte Schalldämmung Art. 32 Abs. 2 LSV/SIA 181, Lärmgutachten/Formular
+  «Lärmschutz», **Fluglärm** (Art. 31a LSV Nachtstunden, vBR 2012/SIL/Abgrenzungslinie); **NISV** zweistufig
+  **IGW (überall, Anhang 2) + AGW (nur OMEN, Faktor 10, Art. 6 Abs. 3 NISV)**, Lichtimmissionen (SIA 491, Blendung
+  Solar), **OMEN Art. 3 Abs. 3 NISV** (Wohn-/Schlaf-/Schulräume, Patientenzimmer, Arbeitsplätze SECO; Balkone/
+  Terrassen NICHT OMEN), **Mobilfunk** (Systeme GSM/UMTS/LTE/5G, **AGW 4-6 V/m** Ziff. 64 Anhang 1 NISV, Abstand
+  30-50 m; innerhalb Bauzone Anspruch § 320 PBG **ohne Bedürfnisnachweis** BGer 1C_329/2013, ausserhalb Art. 24
+  RPG; § 238/§ 292 PBG anwendbar; Standortplanung Kaskadenmodell; **Standortdatenblatt Art. 11 NISV**, Abnahme
+  bei 80 % AGW). 14 Doppelseiten (Shots 706-719). Status: `emerging`. **SCHLIESST Kap. 19.** Speist
+  [[wohnhygiene-und-raumanforderungen]] + [[baubewilligungsverfahren]] + [[raumplanung-und-gestaltung]].
 - [[21-bauen-ausserhalb-bauzonen]] — Kap. 21 (S. 1459-1503): **Bauen ausserhalb der Bauzonen** —
   **Art. 16/16a/24/24a-e RPG**, **Art. 42 RPV** (30 % / 100 m²), **Stichtag 1.7.1972**. 23 Doppelseiten.
   Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a). Teil 2 siehe unten.

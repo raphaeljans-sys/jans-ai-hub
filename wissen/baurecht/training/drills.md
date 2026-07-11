@@ -941,3 +941,40 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   PBG): die Gemeinde darf auf Nutzungsziffern verzichten und die Ausnuetzung **indirekt** nur ueber die
   primaeren Baubegrenzungen (Abstands-, Hoehen-, Geschosszahlvorschriften) beschraenken; in Kern-/
   Zentrumszonen ist dies **ueblich** (Bd 2 S. 992). _[2026-07-10]_
+
+## Buch-Run 27 (2026-07-11) — Kap. 17 Haustechnik / Kap. 19 Laerm + NIS
+- **F (Modell C):** Reicht es an einer verkehrslaermbelasteten Lage, wenn EIN Fenster jedes
+  laermempfindlichen Raums den Immissionsgrenzwert einhaelt? — **A:** **Nein (nicht mehr).** Das
+  Bundesgericht hat die «Lueftungsfensterpraxis» als bundesrechtswidrig aufgehoben (**BGE 142 II 100**):
+  neu ist der IGW grundsaetzlich bei **allen** Fenstern laermempfindlicher Raeume einzuhalten (Mitte
+  offenes Fenster, Art. 39 Abs. 1 LSV). Schallschutzfenster genuegen NICHT als Massnahme (Bd 2 S. 1407).
+  _[2026-07-11]_
+- **F (Modell C):** Unter welcher Voraussetzung darf trotz ueberschrittenem Laerm-IGW gebaut werden? —
+  **A:** Nur bei einem **ueberwiegenden Interesse an der Errichtung** des Gebaeudes (**Art. 31 Abs. 2 LSV**,
+  Interessenabwaegung der Baubehoerde): z. B. Schliessung von Bauluecken (BGer 1C_40/2009 Villa Patumbah),
+  Erhaltung wertvoller Bausubstanz, Ortsbild-/Denkmalschutz. Eine Ueberschreitung um **6 dB(A) gilt nie
+  als leicht**; kant. Bewilligung + Laermgutachten (Bd 2 S. 1407 ff.). _[2026-07-11]_
+- **F (Modell C):** Was ist der Unterschied zwischen Immissions- und Anlagegrenzwert der NISV? — **A:**
+  Der **IGW** (Anhang 2 NISV) ist ein Gefaehrdungs-/Minimalwert und **ueberall** einzuhalten; der
+  **AGW** (Art. 6 Abs. 3 NISV) betrifft **nur eine einzelne Anlage**, ist **Faktor 10 strenger** und nur
+  an **Orten mit empfindlicher Nutzung (OMEN)** einzuhalten — die eigentliche Vorsorge (Bd 2 S. 1416 f.).
+  _[2026-07-11]_
+- **F (Modell C):** Sind Balkone und Dachterrassen von Attikawohnungen «Orte mit empfindlicher Nutzung»
+  (OMEN) im Sinne der NISV? — **A:** **Nein.** Aufenthaltsorte im Freien (Balkone, Terrassen, auch
+  Dachterrassen von Attikawohnungen) sind keine «Raeume in Gebaeuden» (Art. 3 Abs. 3 lit. a NISV) und
+  gelten nicht als OMEN (VB.2009.00587; parallel Art. 2 Abs. 6 LSV; Bd 2 S. 1419). _[2026-07-11]_
+- **F (Modell C):** Braucht eine Mobilfunkantenne innerhalb der Bauzone einen Bedarfs-/Alternativstandort-
+  Nachweis? — **A:** **Nein.** Ist die Anlage zonenkonform und erfuellt sie NISV + uebriges Recht, besteht
+  Anspruch auf die Baubewilligung (§ 320 PBG); es findet keine umfassende Interessenabwaegung statt, kein
+  Beduerfnisnachweis, keine Alternativstandort-Suche (BGer 1C_329/2013; URP 2015 S. 433). AGW Mobilfunk
+  **4-6 V/m** (Ziff. 64 Anhang 1 NISV). Ein generelles kommunales Verbot in Bauzonen ist unzulaessig
+  (BEZ 2010 Nrn. 25/44; Bd 2 S. 1424 f.). _[2026-07-11]_
+- **F (Modell C):** Ab welcher Gebaeudehoehe/Geschosszahl besteht Aufzugspflicht, und welche
+  Kabinenmasse gelten? — **A:** Ab **mehr als fuenf anrechenbaren Geschossen** ueber/unter dem
+  Eingangsgeschoss = krankentransportgeeigneter Aufzug, lichte Innenmasse **≥ 2,10 × 1,10 m**, Tuerbreite
+  **≥ 0,80 m**; bei **> 9** Geschossen **zwei** Aufzuege (§ 40 Abs. 2 BBV I; Bd 2 S. 1316). _[2026-07-11]_
+- **F (Modell A · Frage→Beleg):** Ein Bauherr will die (nicht gewerbliche) Tiefgarage frostfrei
+  «temperieren». Zulaessig? — **A:** **Nein** ohne erneuerbare Energie/Abwaerme: die Beheizung nicht
+  gewerblicher Garagen/Fahrzeugeinstellraeume darf **nur mit nicht anders nutzbarer Abwaerme** erfolgen;
+  das schliesst auch eine blosse Frostschutz-«Temperierung» aus (Ziff. 2.31 Anhang BBV I; Bd 2 S. 1313).
+  Zusaetzlich Belueftungspflicht § 37 Abs. 1 BBV I (keine schaedlichen Abgaskonzentrationen). _[2026-07-11]_
