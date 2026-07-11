@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-11 — twin-mail-training (Batch 31, Sent Items rj@ 2026-02-24…02-28)
+- Sequentieller Mail-Sweep fortgesetzt: 20 Mails gesichtet, 5 Volltexte destilliert; Sweep jetzt abgedeckt
+  bis **2026-02-28** (nächster Lauf ab 2026-02-28). Weiter klar vor-Claude-Stil (handgetippte Typos
+  «geschätzer»/«Kösten»/«duper»/«bid»/«do»); im destillierten Teil keine Claude-Prosa, die Standard-
+  Mahntext-Boilerplate (RE-00079) als Nicht-Stilquelle ausgeschlossen. Metrik 611 W: Du-Gross 1.0,
+  Satzlänge ø 13.0 W, FG 3×/Beste Grüsse 2×.
+- **stimme.md +1:** «Werte <Vorname>» als weiblich-warmer Du + «Beste Grüsse» als Default-Wärmegruss an
+  den vertrauten Sie-Handwerker + Inline-Merge-Signoff «Bis morgen, schönes Wochenende, Raphael».
+- **beziehungsregister.md +1:** gemischt-geschlechtliche Du-Gruppe genus-korrekt gestapelt («Werte Steffi,
+  geschätzter Albin») + warm-Sie-Handwerker mit Mundart-/Casual-Sprinkeln + «Hallo» kühlt Du für die Mahnung;
+  Mappings Hottinger/Sonderegger/Giacometti/Undine-Freigabe.
+- **fachsignatur.md +1:** Healthcare-Entwurfstreiber Kontrollierbarkeit/Sichtkontrolle (psychosomatische
+  Station) + Brandschutz-Entfluchtungskorridor/Sanitär-Vorbehalt inline + Nutzungsänderung/Anzeigeverfahren/
+  Gestaltungsplan-Bewilligungsrecht.
+- **arbeitsweise.md +1:** Planstand-Liefermail mit «Grund/Hintergrund» je Move + Fachplaner-Vorbehalt «als
+  Vorschlag betrachten» + Koordinations-Choreografie (morgen besprechen, telefonisch dazuschalten) +
+  Vergabe-«Abgebot» mit Aufwand-Stopp.
+- **haltung.md +1:** Fairness-Rahmen in der Vergabe-Nachverhandlung + Schutz des Unternehmer-Aufwands
+  («Schnitte noch nicht zeichnen») — Schutz-Ethik gilt beidseitig, nicht nur bauherrenseitig.
+- Frontmatter aller fünf Artikel: `260711-mailbatch-31.md` als Quelle ergänzt, last_updated 2026-07-11.
+
 ## 2026-07-10 — twin-mail-training (Batch 30, Sent Items rj@ 2026-02-19…02-24)
 - Sequentieller Mail-Sweep fortgesetzt: 20 Mails gesichtet, 5 Volltexte destilliert; Sweep jetzt abgedeckt
   bis **2026-02-24** (nächster Lauf ab 2026-02-24). Weiter klar vor-Claude-Stil (handgetippte Typos

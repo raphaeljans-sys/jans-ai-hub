@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-09
+last_updated: 2026-07-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -304,3 +304,17 @@ Haltung bei echter Eskalation/Konflikt mit einem Du-/Stammkontakt (nicht nur Pla
 - **Kooperative Ruecksicht bis zur Behoerde:** «Wir moechten es **im Sinne der Denkmalpflege** ausfuehren und
   Ihre Punkte … im Detail aufnehmen» (an AfS/Denkmalpflege, 18.02.2026) — bestaetigt «Ruecksicht bis zur
   Behoerde» (260610/260627); die Fachstelle wird als Partner, nicht Gegner behandelt.
+
+## Fairness in der Vergabe-Nachverhandlung + Schutz des Unternehmer-Aufwands (belegt Mailbatch 31, authentisch)
+Im Vergabe-Thread Fensterbauer (Wartstrasse 8, 2026-02-24) zeigt sich Raphaels Haltung gegenüber den
+ausführenden Unternehmern — dieselbe Schutz-Ethik, die er dem Bauherrn entgegenbringt, gilt auch dem
+Handwerker:
+- **Fairness-Rahmen statt Preisdruck:** «Ich lege dar, dass **alle Unternehmer das Beste versuchen und
+  ein Entgegenkommen signalisieren** (siehe Ihre Offerte).» — er stellt die Nachverhandlung in einen
+  Kontext gegenseitigen Entgegenkommens, nennt den Blocker ehrlich beim Namen («Der Prozess stockt. Es
+  scheint das CHF 25K für die Situation zu teuer ist.») statt zu taktieren.
+- **Unnötigen Unternehmer-Aufwand aktiv verhindern:** «**Schnitte daher noch nicht zeichnen**» bis die
+  Bauherren-Freigabe vorliegt — Raphael bremst den Zulieferer, damit dieser keine Arbeit umsonst leistet.
+  Spiegelbild seines «schützt den Bauherrn vor unnötigem Aufwand/Kosten»: er schützt auch den ausführenden
+  Unternehmer vor Leerlauf. Der Zwilling handelt sparsam mit fremdem Aufwand auf BEIDEN Seiten der
+  Wertschöpfung, nicht nur bauherrenseitig.

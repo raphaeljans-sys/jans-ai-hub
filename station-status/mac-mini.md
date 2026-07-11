@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 11.07.2026 06:35:02
+Stand: 11.07.2026 06:55:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:34)
@@ -12,4 +12,4 @@ Stand: 11.07.2026 06:35:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a0b88f1b energie-training Run 33: Elektromobilität/Ladeinfrastruktur am Gebäude (F39 neu, Themenartikel) + Register
+- 42136d5a nas-selfcommit: 2 Datei(en) 2026-07-11 06:45

@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -707,3 +707,25 @@ Batch 30 (Wartstrasse-8-Vergabe + AfB-Vorabklärung, 2026-02-19…02-24):
 - **Baurecht inline, beweissicher, mit Rechtsprechungs-Kette:** schriftliche AfB-Anfrage, ob **klassische Hotelnutzung** nach der BZO-Revision dem **Wohnanteil** anrechenbar bleibt — inline zitiert «Hotelzimmer und andere wohnähnliche Nutzungen gelten als Wohnnutzungen (vgl. **BEZ 1988 Nr. 14**). Die Rechtsprechung hat auch Pflegewohnungen (**BEZ 2015 Nr. 36**) und Kindertagesstätten (**BGer 1C_148/2010**) als Wohnnutzung anerkannt» (2026-02-23). Präzise Abgrenzung über das **Betriebskonzept** (Aufenthaltsdauer Tage bis wenige Wochen, keine fest installierten Kochgelegenheiten, nur mobile Wasserkocher/Kühlschrank). Signatur: Recht → konkrete Ja/Nein-Frage an die Behörde, mit BEZ-/BGer-Belegen inline statt Zitatkette. Der handgetippte Zitat-Slip «Bier 1C148/210» (statt BGer 1C_148/2010) belegt die Authentizität (→ [[stimme]] Flüchtigkeits-DNA).
 - **Vergabe/Preisverhandlung mit dem Unternehmer:** nach der Bauherren-Besprechung erbittet Raphael ein **Abgebot** (Preisnachlass) und nennt selbst eine konkrete Sparoption: «Ich würde gerne Ihnen den Auftrag geben, jedoch wäre die Frage ob Sie ein **Abgebot von CHF 1000.-** machen könnten? … Von Bauherrenseite kann **auf den Zylinder verzichtet** werden um Kösten zu sparen» (Giacometti, Balkontüre, 2026-02-23). Vergabe-Vokabular «Abgebot» + Auftrag-in-Aussicht-stellen + eigener Kostensenkungs-Vorschlag, im Namen der Bauherrschaft.
 - **Bauteil-Fachsprache Storen/Fenster:** «klassischer **Rollladenpanzer**, kein **Falt-Rollladen**»; präzise **Lichtmasse** getrennt nach «Lichtes Mass Leibung Innen» vs. «Lichtes Mass Steinleibung Aussen» (Breite × Höhe); Fabrikat-Erkennung «Typenschild GRIESSER ALUCOLOR». Belegt die Materialpräzision auch im Storen-/Fenstergewerk (die gebullete Bildanalyse selbst = KI-assistiert, → [[stimme]] Echo-Falle 11; die Einordnung Rollladenpanzer≠Faltrollladen und die Lichtmass-Trennung sind authentisch fachlich).
+
+## Healthcare-Planung: Kontrollierbarkeit/Sichtkontrolle als Entwurfstreiber + Brandschutz/Sanitär inline (belegt Mailbatch 31, authentisch)
+Aus dem Planstand-Vorschlag für die psychosomatische Therapiestation KISPI (Umbau 1.OG Büro→Klinik,
+2026-02-27) — Healthcare-spezifische Fach-Einwebung, jede Entwurfsentscheidung fachlich begründet:
+- **Kontrollierbarkeit/Sichtkontrolle ist der leitende Entwurfstreiber der psychosomatischen
+  Station:** Nasszellen «vom Stationszimmer aus direkt kontrollierbar», «Unbeaufsichtigte
+  Doppelduschen sind in Bezug auf die Kontrollierbarkeit nicht ausreichend». Der Zwilling weiss:
+  bei einer Therapie-/Überwachungsstation schlägt **Einsehbarkeit/Aufsicht** die reine Flächen-
+  optimierung — der psychiatrisch-somatische Betrieb diktiert die Grundriss-Logik (Betrieb vor Fläche,
+  → [[haltung]]).
+- **Brandschutz inline gedacht:** «Aus brandschutztechnischer Sicht werden Schränke in
+  Entfluchtungskorridoren mit brennbarem Inhalt voraussichtlich problematisch» → Möblierung stehend
+  zur Fassade statt in den Fluchtweg. Fluchtweg-/Brandlast-Logik als selbstverständliche Nebenbedingung.
+- **Sanitär-Vorbehalt beweissicher markiert:** «Ob diese Lösung technisch hinsichtlich **Steigzonen
+  und Fallleitungen** möglich ist, muss zuerst mit dem Sanitärplaner geprüft werden. Bitte daher
+  vorerst als Vorschlag betrachten.» — die eigene Fachgrenze offen benannt, Annahme als Annahme
+  gekennzeichnet (→ [[arbeitsweise]]).
+- **Healthcare-Bewilligungsrecht in der Vorabklärung:** «Kann eine Baueingabe für eine
+  **Nutzungsänderung (Büro zu Klinik mit Übernachtungsmöglichkeit) im Anzeigeverfahren** durchgeführt
+  werden? / Welche Auflagen sind bezüglich **Gestaltungsplan** … zu berücksichtigen?» (an Bauamt,
+  2026-02-24). Korrekte Verfahrens-/Instrumenten-Kürzel (Anzeigeverfahren, Nutzungsänderung,
+  Gestaltungsplan-Auflagen) im Healthcare-Umnutzungskontext — Recht→Verfahren übersetzt.

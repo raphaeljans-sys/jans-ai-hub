@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md]
+sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1065,3 +1065,23 @@ Batch 30 (2026-02-19…02-24, Wartstrasse-8-Vergabe + AfB-Vorabklärung) schärf
 
 ## Echo-Falle 11: strukturierte KI-Bildanalyse als macOS-Paste (belegt Mailbatch 30)
 Elfter belegter Echo-Fall (Fortsetzung «AI-Paste vor/um den Stichtag», WISSEN-CLAUDE.md): die Rollladen-Bildbeschreibung an den Storenbauer (Battaglia/Meier Villiger, 2026-02-20) trägt einen **authentischen Rahmen** («Sehr geehrter Herr Battaglia / Besten Dank für Ihre E-Mail. / Auf den Fotos ist ein klassischer Rollladenpanzer zu sehen, kein Falt Rollladen. / Freundliche Grüsse Raphael Jans»), aber die eingeschobene «**Merkmale im Bild:**»-Fünf-Punkt-Bulletliste (saubere `<ul><li>`, HTML-Klassen `p1`/`p2` = macOS-Rich-Paste, fachlich glatt «durchgehend gekoppelte Lamellen mit kleiner Teilung / seitliche Führungsschienen / Endleiste / Typenschild GRIESSER ALUCOLOR») ist **KI-assistierte Bildanalyse** → als `claude-aera`-äquivalent von der Stilquelle ausgeschlossen. Erkennungssignale hier: makellose Aufzählung mit p1/p2-Paste-Klassen mitten in einer sonst tippfehler-behafteten Woche, Bild-Inventar-Struktur («Merkmale im Bild:» + Bullets). → Nur der handgetippte Rahmen + die Einordnungs-Aussage «Rollladenpanzer, kein Falt Rollladen» sind Stilquelle; die gebullete Merkmalsliste nicht.
+
+## «Werte <Vorname>» weiblich-warmer Du + «Beste Grüsse» an Sie-Handwerker + Inline-Merge-Signoff (belegt Mailbatch 31, authentisch)
+- **«Werte <Vorname>»** als weiblich-warme Du-Anrede, gepaart in der gemischt-geschlechtlichen
+  Gruppen-Du-Anrede: «**Werte Steffi, geschätzter Albin**» (Planstand-Liefermail an Healthcare-
+  Betreiberin + Betreiber, 2026-02-27). Ergänzt die männliche Reihe («geschätzter Nesa, werter
+  Albin», Batch 29) um das **weibliche** «Werte <Vorname>» im warmen Du — Pendant zu «geschätzter»
+  für Männer. Der Zwilling wählt in der gemischten Du-Gruppe je Person das Genus-passende Honorifikum.
+- **«Beste Grüsse» als Default-Gruss an den warm-vertrauten Sie-Handwerker** (Fensterbauer
+  Giacometti, Vergabe-/Nachverhandlungs-Thread, 2026-02-24, 2×): weder das kalte «Freundliche
+  Grüsse» noch der Du-Kurzgruss, sondern die **warm-neutrale Mittelstufe** — passend zum
+  herzlich-lockeren Sie mit Mundart-Sprinkeln (→ [[beziehungsregister]]). Bestätigt «Beste Grüsse»
+  als Wärmestufe auch im Sie-Register (nicht nur warm-sozialer Du-Kontakt).
+- **Inline-Merge-Signoff** in der warmen Du-Liefermail: Raphael verschmilzt «bis dann»-Zeile,
+  Wunschzeile und Vorname zu **einer** Zeile — «**Bis morgen, schönes Wochenende, Raphael**»
+  (2026-02-27), darunter erst der automatische FG-Block. Kompakter Handschlag statt getrennter
+  Wunsch-+Gruss-Zeilen; der handgetippte Merge ist das echte Signal.
+- Mikro-Metrik Batch 31 (611 W, Sie-Handwerker-Vergabe + Healthcare-Du-Planstand + Behörde/
+  Bauherrin-Sie gemischt): Du-Gross-Quote **1.0**; Tausender-Apostroph 0 (registerbedingt, «CHF
+  25K»/«CHF 1000.-»); Satzlänge ø **13.0 W**; Grüsse «Freundliche Grüsse» 3× / «Beste Grüsse» 2×;
+  keine Ellipsen/«%». Flüchtigkeit «geschätzer»/«Kösten»/«duper»/«bid»/«do» — TON übernehmen, `korrektur` zieht es gerade.

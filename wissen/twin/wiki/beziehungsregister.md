@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -624,3 +624,28 @@ Batch 30 (Wartstrasse-8-Vergabe + AfB-Vorabklärung, 2026-02-19…02-24) füllt 
 - **Herzlicher Handwerker-Sie:** Guido Giacometti (Steinmann AG, Schreiner/Fensterbau Winterthur) spiegelt Raphaels warmen Ton («Weeeekend das ist cool», «😉») — Raphael antwortet mit «Guten Tag/Grüezi Herr Giacometti» + Wochenend-Wunsch + «Beste Grüsse» + «Sie haben es verdient!!!». Ein Handwerker-Sie kann also deutlich wärmer werden als das kühle Lieferanten-Sie, bleibt aber Sie (→ [[stimme]] warm-Sie).
 - **Gemischte Du-Gruppenanrede in einer Zeile:** «**Hallo Albin, geschätzer Nesa;**» (Mahnung KISPI/KHGP, 2026-02-24) — zwei Du-Kontakte auf zwei Wärmestufen (Albin «Hallo»=neutral-vertraut, Nesa «geschätzer»=gewichtig), in einer Anrede gestapelt. Bestätigt das Muster «zwei Honorifika in EINER Gruppen-Du-Anrede» (260709) und «gemischte-Stufe-Gruppen-Du» (260704).
 - **Neue/geschärfte Mappings:** Claudia Horeni (AfB Stadt ZH, Denkmalpflege/Wohnanteil-Praxis) → **warm-Sie «Geschätzte Frau Horeni»** nach gutem Beratungsgespräch; Guido Giacometti / Steinmann AG (Schreiner Wartstrasse 8) → **warm-Sie** «Grüezi/Guten Tag Herr Giacometti» + «Beste Grüsse»; Tom Battaglia / Meier Villiger AG (Rollladen-Storenbauer) → **kühl-Sie** «Sehr geehrter/Geschätzter Herr Battaglia»; Markus Hupfer / Mensch AG (Storen, empfahl weiter) → Sie «Guten Morgen Herr Jans»-Reziprozität; Rolf Christen (Denkmalpflege Stadt ZH) → Sie; fsgbau / Hobel Genossenschaft (Bauunternehmer/Schreiner Wartstrasse 8) → Sie «Guten Tag».
+
+## Gemischt-Gender Du-Gruppe «Werte Steffi, geschätzter Albin» + warm-Sie-Handwerker mit Mundart-Sprinkeln (belegt Mailbatch 31, authentisch)
+- **Gemischt-geschlechtliche Gruppen-Du-Anrede genus-korrekt gestapelt:** «**Werte Steffi,
+  geschätzter Albin**» (Healthcare-Betreiberin Stefanie «Steffi» Sonderegger + Betreiber Albin
+  Spahic, 2026-02-27). Bestätigt/erweitert das Muster «zwei Honorifika in EINER Gruppen-Du-Anrede»
+  (Batch 29): das Genus wird pro Person angepasst («Werte» f / «geschätzter» m), Vorname-Koseform
+  «Steffi» im warm-operativen Healthcare-Du.
+- **Warm-vertrauter Sie an den Handwerker mit Mundart-/Casual-Sprinkeln:** Giacometti (Fensterbauer,
+  Vergabe-Thread) ist durchgehend Sie, aber herzlich-locker: «Ich hoffe Sie konnten Ihr **Weekend
+  do** richtig geniessen! … Das wäre **duper**.» (2026-02-24). Reiht sich in den «herzlichen
+  Handwerker-Sie» (Battaglia, Batch 30) — Sie bleibt, aber der Ton trägt Mundart-Wörtchen («do»),
+  Anglizismen («Weekend», «duper») und Wochenend-Wärme. Gruss dazu: «**Beste Grüsse**» (Mittelstufe,
+  → [[stimme]]), nicht das kalte FG.
+- **Warm-Sie an die Behörde «Geschätzte Frau <Nachname>»** erneut belegt (Kreisarchitektin/Bauamt
+  Angela Hottinger, Vorabklärung, 2026-02-24) — bestätigt «Geschätzte Frau Horeni» (Batch 30): die
+  warme «Geschätzte»-Stufe gilt auch gegenüber der bekannten Behördenperson.
+- **«Hallo <Vorname>» kühlt den Du-Kontakt für die Mahnung:** die Mahnung-1-Vorzeile an die
+  Healthcare-Partner lautet «**Hallo Albin, geschätzer Nesa; Bitte um rasche Bezahlung:**»
+  (2026-02-24) — «Hallo» statt «Hoi» als Register-Kühlung, wenn Geld gemahnt wird (bestätigt das
+  Muster «Geld kühlt das Du» + persönliche Du-Vorzeile vor Standard-Mahntext, Batch 30/24).
+- **Neue/bestätigte Sie-/Du-Mappings:** Angela Hottinger (Bauamt/Kreisarchitektin Stadt ZH) → warm-
+  Sie «Geschätzte Frau Hottinger»; Stefanie «Steffi» Sonderegger (KISPI-Betreiberin, Pflege) → warm-
+  Du «Werte Steffi»; Guido Giacometti (Fensterbauer Steinmann AG) → herzlich-lockerer Sie «Grüezi/
+  Guten Tag Herr Giacometti», «Beste Grüsse»; Undine Hofer (Bauherrin) → Du «Geschätzte Undine» auch
+  in der dokumentierend-formellen Freigabe-Mail (mit FG+Block, → [[stimme]]).

@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -704,3 +704,26 @@ Batch 30 (Wartstrasse-8-Vergabe + AfB-Vorabklärung, 2026-02-19…02-24):
 - **Vergabe-Nachverhandlung als Sequenz im Auftrag der Bauherrschaft:** Offerte einholen (Lichtmasse + Detailfotos + Plangrundlagen + Frist «Erwartung Richtpreis bis heute Abend») → Bauherren-Besprechung → beim Unternehmer ein Abgebot erbitten + Sparoption vorschlagen → Freigabe der Offerte bei der Bauherrschaft beantragen («Ich werde bei der Bauherrschaft die Freigabe Ihrer Offerte beantragen. Sobald dies geschehen ist melde ich mich bei Ihnen»). Klare Rollentrennung: Raphael verhandelt, die Bauherrschaft gibt frei.
 - **Bauherrin durchgehend im cc (Transparenz):** in der ganzen Wartstrasse-8-Vergabe-Korrespondenz an Unternehmer/Storenbauer steht die Bauherrin (Undine Hofer, hofer@undineschneider.com) im **cc** — Offertenanfragen, Nachfragen, Freigabe-Sammelmail «Angebote zur Freigabe». Der Zwilling hält die Bauherrschaft bei Vergabe-/Offerten-Vorgängen per cc lückenlos im Bild.
 - **Mahnung 1 mit persönlicher Du-Anrede vor Standard-Mahntext:** die kb_reminder-Mahnung (RE-00079) an die warmen KISPI/KHGP-Kontakte trägt eine persönliche, gesichtswahrende Du-Vorzeile «**Hallo Albin, geschätzer Nesa; Bitte um rasche Bezahlung:**» VOR dem standardisierten Sie-Mahntext-Boilerplate (inkl. Kreuzungs-Klausel «Sollte sich Ihre Zahlung mit unserer Mahnung gekreuzt haben, ignorieren Sie diese bitte»), Schluss «Freundliche Grüsse» + Block (Geld/Beleg → FG bestätigt). Persönliche Anrede humanisiert das automatisierte Mahnwesen (→ Skill `mahnwesen`).
+
+## Planstand-Liefermail: Entscheid + «Grund/Hintergrund» je Move, Fachplaner-Vorbehalt, Koordinations-Choreografie (belegt Mailbatch 31, authentisch)
+Der Healthcare-Planstand-Vorschlag (Nasszellen/Nebenräume KISPI, an Betreiberin+Betreiber, 2026-02-27)
+zeigt Raphaels Liefermail-Bauplan verdichtet:
+- **Jede Entwurfsentscheidung trägt ihre Begründung mit:** die Detailpunkte werden nicht nur benannt,
+  sondern mit «**Grund:**» / «**Hintergrund:**» explizit gerechtfertigt («Grund: Unbeaufsichtigte
+  Doppelduschen … nicht ausreichend»; «Hintergrund: … Entfluchtungskorridore …»). Der Zwilling liefert
+  Planänderungen nie kommentarlos, sondern koppelt jeden Move an seinen fachlichen Treiber
+  (→ [[denken]] Grundlage→Empfehlung).
+- **«Bitte daher vorerst als Vorschlag betrachten» + Fachplaner-Vorbehalt:** was von einer noch nicht
+  geprüften Fachdisziplin abhängt (Sanitär: Steigzonen/Fallleitungen), wird ausdrücklich als
+  ungesicherter Vorschlag markiert und an den Fachplaner zur Prüfung verwiesen — nie als gesetzt
+  ausgegeben (Reifegrad markieren, wie «ungesichertes internes Feedback», Batch 26).
+- **Nachliefer-Zusage für Offenes:** «Die Normen und spezifischen Anforderungen … kläre ich aktuell ab
+  und **liefere die entsprechenden Unterlagen nach**» — Offenes wird terminiert statt verschwiegen.
+- **Koordinations-Choreografie mit gestuftem Beizug:** «Albin und ich besprechen diesen Stand morgen.
+  Bei Bedarf **schalten wir Dich, Steffi, telefonisch dazu**» — Kern-Runde klein halten, weitere
+  Person nur bei Bedarf telefonisch dazuschalten (bestätigt «Koordinationssitzung zu dritt», Batch 27).
+- **Vergabe-Nachverhandlung mit Fairness-Rahmen + Aufwand-Schutz des Unternehmers:** in der Vergabe
+  (Fensterbauer, 2026-02-24) verhandelt Raphael das «**Abgebot**» offen («ob Sie ein Abgebot von CHF
+  1000.- machen könnten?»), benennt die Spar-Option (Zylinder-Verzicht) und **stoppt unnötigen
+  Unternehmer-Aufwand**: «Schnitte daher **noch nicht** zeichnen» bis die Bauherren-Freigabe da ist
+  (→ [[haltung]]). Bauherrin bleibt im cc (Transparenz, Batch 30).
