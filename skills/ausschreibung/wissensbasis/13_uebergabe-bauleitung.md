@@ -43,8 +43,9 @@ festhalten (kurzes Mail genügt), damit Honorar- und Haftungsgrenzen klar sind.
 
 ## 3. Übergabe-Paket je Los (Standard-Inhalt)
 
-Ablage im Projekt: `03 BKP/<Gewerk-Ordner>/2414 <BKP> 03 AS versand/` (Standard-Nomenklatur),
-Übergabe als **ein ZIP je Übergabe** via WeTransfer an die Bauleitung.
+Ablage im Projekt: `03 BKP/<Gewerk-Ordner>/<Projektnr> <BKP> 03 AS versand/`
+(Standard-Nomenklatur). Die Sendungsform (Einzel-ZIP je Los oder EINE Sammelsendung
+über alle Lose) bestimmt die Projekt-Stammdatei — siehe Ziff. 5.
 
 1. **LV/Devis** (DOCX + PDF): Stammzeile mit Objekt/Bauherrschaft/Bauleitung,
    Positionen mit Mengen, Preisspalten leer, Bauseits-Leistungen ausgewiesen,
@@ -81,11 +82,19 @@ grün sind, geht das ZIP raus:
 
 ## 5. Übergabe-Vorgang
 
-1. ZIP packen: `YYMMDD_2414_<BKP>_<Gewerk>_Submissionsdossier.zip` (Inhalt = Ziff. 3).
-2. Doppel-Ablage: Projekt-Versandordner + `30 JANS AI HUB OUTPUT/submission/<projekt>-<gewerk>/`.
-3. WeTransfer-Versand an die Bauleitung vorbereiten (JANS-Standard: Link-Transfer);
-   Begleitmail kurz: Losbezeichnung, Plan-/LV-Stand, Verweis Übergabeprotokoll,
-   Hinweis «Submissions-Rückfragen der Unternehmer bitte direkt an Bauleitung».
+**Sendungsform gemäss Projekt-Stammdatei** — Standard 2414: **EINE Sammelsendung**
+über alle Lose (Entscheid Raphael 11.07.2026), kein Einzelversand je Los.
+
+1. Je fertiges Los liegt das Dossier (Ziff. 3) in `…03 AS versand/` und hat das
+   Konsistenz-Gate (Ziff. 4) bestanden; Checkpoint Raphael je Los.
+2. Sind ALLE Lose des Pakets freigegeben: **Gesamt-ZIP über alle Gewerk-Ordner** —
+   `YYMMDD_<Projektnr>_Submissionsdossier_GESAMT.zip`, ein Unterordner je Los —
+   ablegen in `03 BKP/99 Übergabe PW Sammelsendung/`; Doppel-Ablage zusätzlich in
+   `30 JANS AI HUB OUTPUT/submission/<projekt>/uebergabe/`.
+3. **Gesamt-Übergabeprotokoll** (1 Seite: alle Lose, Plan-/LV-Stände je Los, offene
+   Punkte = keine) beilegen; EINE WeTransfer-Sammelsendung an die Bauleitung
+   vorbereiten; Begleitmail kurz, Hinweis «Submissions-Rückfragen der Unternehmer
+   bitte direkt an die Bauleitung».
 4. Übergabe im Übergabeprotokoll + Logbuch (Skill `logbuch`) festhalten —
    ab da liegt der Ball bei der Bauleitung (sauberer Schnitt, Beweissicherung).
 

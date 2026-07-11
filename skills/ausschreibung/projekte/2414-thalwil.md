@@ -19,8 +19,15 @@
 
 - JANS macht für 2414 **keinen Devis-Versand, keine Submission-Korrespondenz, keine
   Auswertung**. Die Submission führt die externe Bauleitung Peter Weisser durch.
-- JANS erstellt je Los das **Submissionsdossier (Devisierungsgrundlagen)** und übergibt
-  den kompletten BKP-Ordner **per WeTransfer an Peter Weisser** (sauberer Schnitt).
+- JANS erstellt je Los das **Submissionsdossier (Devisierungsgrundlagen)**; übergeben wird
+  **EINE Sammelsendung** (Gesamt-ZIP über alle Lose, ein Unterordner je Los) per WeTransfer
+  an Peter Weisser — **kein Einzelversand je Los** (Entscheid Raphael 11.07.2026).
+  Staging: `03 BKP/99 Übergabe PW Sammelsendung/`.
+- **BKP-Struktur neu angelegt (11.07.2026):** 11 Gewerk-Ordner nach Stadt-ZH-Konvention
+  (211, 214, 224, 227, 230, 240, 250, 258, 272, 285, 421) mit Phasen-Unterordnern
+  `2414 <BKP> 01 Grundlagen … 11 SR` + `archiv`; dazu `00 Plangrundlagen Ausschreibung/`
+  (Plan-Inbox Raphael) und `99 Übergabe PW Sammelsendung/`. Wegweiser:
+  `03 BKP/_STRUKTUR 2414 LESEMICH.md`. Alt-Ordner unangetastet (Verschieben nur auf Zuruf).
 - Ziel-Qualität: Dossiers **in sich konsistent** (Plan ↔ LV ↔ Baubeschrieb widerspruchsfrei,
   Mengen nachvollziehbar, Bauseits-Abgrenzung klar), sodass **keine Rückfragen an die
   Architektur** entstehen. Massstab: Checkliste in `wissensbasis/13_uebergabe-bauleitung.md`.
