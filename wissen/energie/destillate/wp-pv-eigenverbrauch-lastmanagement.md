@@ -2,10 +2,10 @@
 quelle: «Wärmepumpen, Photovoltaik und Elektromobilität — Planungsgrundlagen für Wohnbauten (EFH und MFH)»
 herausgeber: EnergieSchweiz / Bundesamt für Energie BFE (Autor Prof. Dr. David Zogg, FHNW; Co-Autoren BFE, FWS, Swissolar, Swiss-E-Mobility, SmartGridready, Hubacher Engineering)
 ausgabe: Version 2.0, 02.07.2023 (mit Elektromobilität ergänzt; V1.0 01.10.2021)
-gelesen: 2026-07-04 (S. 1-16 vollst.: Einführung, Grundlagen Eigenverbrauchsoptimierung, Speicher-/Regelungspotenzial, Speicherbewirtschaftung WP; E-Mob/Schnittstellen-Detail/Praxisbeispiele S. 17-76 nur überflogen)
+gelesen: 2026-07-04 (S. 1-16 vollst.); E-Mobilitaets-Teil ergaenzt 2026-07-11 aus dem Zogg-Fachartikel HK-Gebaeudetechnik 4/24 (S. 52-57 vollst.)
 datenstand: 2023 (Basis Forschungsprojekt OPTEG 2016, >50 reale Installationen 2016–2021); SIA 2063 (Energie-/Lastmanagement) in Vorbereitung
 status: established
-last_updated: 2026-07-04
+last_updated: 2026-07-11
 ---
 
 # WP + PV — Eigenverbrauchsoptimierung & Lastmanagement (EnergieSchweiz/Zogg 2023)
@@ -85,6 +85,22 @@ Methode «Laden auf den Tag».
 4. **SmartGridready** — zukuenftiger, herstelleruebergreifender Standard.
 5. **EVU-Sperreingang** — Weg zur **Nachruestung aelterer WP**.
 
+## Das E-Auto als dritter Eigenverbrauchs-Baustein (Zogg-Artikel 2023)
+- Ergaenzend zur WP eignet sich das **Elektroauto sehr gut zur weiteren Eigenverbrauchs-Optimierung**:
+  grosse elektrische Speicherfaehigkeit **ca. 20–100 kWh** je Fahrzeug, Ladeleistung **1,4–22 kW**
+  (Typ 2, je Auto/Ladestation). **Von Fruehling bis Herbst bis zu 100 % aus PV** ladbar; im Sommer
+  nimmt es den PV-Ueberschuss sinnvoll auf. Im Winter zaehlt tiefe Netzbelastung → **Lastmanagement**
+  verteilt die Ladeleistung gleichmaessig und vermeidet Lastspitzen.
+- Ladestation ans **EMS** angebunden (digitale Schnittstelle, i. d. R. **Modbus**), Ladung
+  gesperrt/freigegeben; laden tagsueber in die Sonne, bei Bedarf **nachts mit tiefer Leistung**
+  (Niedertarif). Gebaeudeseitige Kosten **ab CHF 1'000/Ladestation** (Tab. 1) — die «Batterie» im
+  Auto ist gratis dabei.
+- **V2H/V2G** (Vehicle to Home / to Grid, Rueckspeisung ins Gebaeude bzw. Netz) laut Quelle «in naher
+  Zukunft» — heute noch nicht Standard.
+- **Gebaeudeseitige Planung der Ladeinfrastruktur** (Grunderschliessung, SIA 2060, dynamisches
+  Lastmanagement, Rollen/Prozess, Kostentragung) → eigenes Destillat
+  [[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]].
+
 ## Bauherren-Transfer
 - **PV + Waermepumpe gehoeren zusammen** — die WP ist der grosse, guenstige «Speicher», der den
   Solarstrom in Warmwasser und Heizwaerme umwandelt und so aus einer «nur-Mittags»-Anlage ganzjaehrigen
@@ -101,7 +117,8 @@ Methode «Laden auf den Tag».
 ## Offene Punkte
 - Konkrete kWh-/CHF-Endergebnisse der 5 Praxisbeispiele (S. 59–75: EFH Remigen, MFH Wettingen/Wetzikon,
   Areal Moeriken, Erlenmatt Ost) noch nicht destilliert.
-- E-Mobilitaet (intelligentes Laden EFH/MFH, V2H) und Schnittstellen-Detail (Kap. 6/7) nur ueberflogen.
+- E-Mobilitaet ✓ nachgezogen 2026-07-11 (siehe Abschnitt oben + [[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]);
+  Schnittstellen-Detail Kap. 6/7 der Vollpublikation weiterhin nur ueberflogen.
 - Absolute solare Deckungsgrade in % (statt Faktoren) nennt die Quelle nicht generisch — projektgenau via
   Simulation (Polysun, mit hinterlegtem SG-Ready-Regler). Verweis Norm **SIA 2063** (integrales Energie-/
   Lastmanagement) noch in Vorbereitung.
