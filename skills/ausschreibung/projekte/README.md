@@ -23,3 +23,4 @@ und hier festhalten.
 | Projektnr | Objekt | Stammdatei |
 |---|---|---|
 | 2620 | MFH Albertstrasse 7, 8005 Zürich | `2620-albertstrasse-7.md` |
+| 2414 | Umbau + Aufstockung ZFH, Bohlweg 3, 8800 Thalwil | `2414-thalwil.md` |

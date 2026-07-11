@@ -42,6 +42,8 @@ Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
     08_selbsttraining-mecano.md       ← Wissensluecken erkennen → schliessen → integrieren
     09_datenaufbereitung-pipeline.md  ← Reifegrade R0–R5, fortlaufende Veredelung
     10_dokumente-standard.md          ← PFLICHT-Standard LV/Begleitschreiben/Mail (immer anwenden!)
+    12_auslaendische-unternehmer.md   ← AT/DE-Anbieter: MWST/Zoll, Entsendung, EUR-Normierung
+                                         (PFLICHT sobald ein Anbieter Sitz im Ausland hat)
     grundlagen-ablage.md              ← wohin mit Grundlagen (Input)
     wissensluecken.md                 ← LEBENDE Luecken-Registry (bei Unsicherheit eintragen!)
     wochenplan-bauleitung.md          ← alternierender Wochenplan
