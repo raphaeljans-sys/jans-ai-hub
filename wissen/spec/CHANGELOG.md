@@ -1,5 +1,18 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-11 — Zwei Specs parkiert (Scope-0-Entscheid Raphael)
+- **Shop-Connector** (`outputs/2026-07-06_shop-connector_spec.md`): Scope 0 interaktiv
+  durchgefuehrt (AskUserQuestion) — Raphael entscheidet PARKIEREN. Entscheide 1–4 bleiben
+  unbestaetigt, keine Umsetzung, Status-Banner + Monitor-Log-Eintrag gesetzt.
+- **Versandplanung Onlineshop** (`outputs/2026-07-04_versandplanung-onlineshop_spec.md`):
+  ebenfalls PARKIERT — Entscheide E1–E7 unbestaetigt; Skill `versandplanung` + Connectoren
+  bleiben inaktives Geruest (Banner in SKILL.md + CLAUDE.md-Tabelle markiert).
+- Lern-Beobachtung fuer den Trainings-Loop: **«parkiert» als dritter Spec-Endzustand**
+  neben aktiv/erledigt — kein Monitor-Loop (kein externes Warten), keine Pendenz; die
+  Spec konserviert den Denkstand fuer den Wiedereinstieg. Beide entstanden in Remote-
+  Sessions ohne bestaetigtes Interview → Muster «Annahmen beweglich markieren» hat den
+  sauberen Rueckbau erst moeglich gemacht.
+
 ## 2026-07-09 — Trainingslauf 5
 - Output `outputs/2026-07-09_training-run5.md`. Keine neue Spec-Anwendung seit Lauf 4; ausgewertet
   wurde die Fortschreibung der lebenden AG-Gruendungs-Spec (jetzt **19 Tage**, Phase B haelt an;

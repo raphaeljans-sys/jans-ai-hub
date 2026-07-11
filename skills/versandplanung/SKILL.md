@@ -18,6 +18,11 @@ description: >-
 
 # JANS Versandplanung (Onlineshop)
 
+> **STATUS: PARKIERT** (Entscheid Raphael, 11.07.2026) — Projekt bis auf Weiteres nicht
+> weiterverfolgt. Entscheide E1–E7 unbestätigt, keine Credentials hinterlegt, kein
+> Scheduled Task; NICHT proaktiv vorschlagen oder als Pendenz führen. Spec:
+> `wissen/spec/outputs/2026-07-04_versandplanung-onlineshop_spec.md`. Wiedereinstieg bei E1.
+
 Plant den kompletten Versandtag des Onlineshops: **Etiketten, Packzettel und
 Pickup-Point-Liste liegen im Drucker, die Tagesroute liegt fertig optimiert in
 Circuit** — niemand muss mehr disponieren.

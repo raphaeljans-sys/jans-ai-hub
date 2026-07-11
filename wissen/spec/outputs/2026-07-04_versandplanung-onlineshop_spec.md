@@ -1,7 +1,10 @@
 # Spec: KI-Versand- und Routenplanung Onlineshop (Tagesplanung)
 
 **Datum:** 2026-07-04
-**Status:** Entwurf — Schlüsselentscheide müssen von Raphael bestätigt werden
+**Status:** PARKIERT (Entscheid Raphael, 11.07.2026) — Projekt bis auf Weiteres nicht
+weiterverfolgt; Entscheide E1–E7 bleiben unbestätigt, keine offene Pendenz. Skill
+`versandplanung` + Connectoren `connectors/versand/` bleiben als inaktives Gerüst im Hub
+(nichts läuft automatisch). Wiedereinstieg bei E1 (Shopsystem bestätigen).
 **Methode:** Spec-Methode (Karpathy/Marchese) — WAHRES ZIEL zuerst, dann enge Scopes mit Checkpoints
 
 ---

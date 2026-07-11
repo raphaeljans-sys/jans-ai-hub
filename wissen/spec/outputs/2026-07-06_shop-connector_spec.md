@@ -1,5 +1,9 @@
 # Shop-Connector (Verfuegbarkeit + Bestell-Uebergabe) — Spec
 
+**Status: PARKIERT (Entscheid Raphael, 11.07.2026)** — keine Umsetzung bis auf Weiteres;
+keine offene Pendenz. Reaktivierung jederzeit moeglich: Spec ist vollstaendig, Wiedereinstieg
+bei Scope 0 (Entscheide 1–4 bestaetigen).
+
 Erstellt: 2026-07-06 · Methode: Skill `spec` (Karpathy/Marchese) · Faktenbasis: Connector-Muster
 `connectors/bexio.mjs` / `geo-zh.mjs`, `logbuch/AKTIONS-WHITELIST.md`, Skills `mahnwesen` /
 `zahlungsabgleich` (Zwei-Phasen-Muster)
@@ -105,3 +109,7 @@ der verbindliche Kaufabschluss bleibt IMMER bei Raphael.
 ## Monitor-Log
 - 2026-07-06: Spec aufgesetzt (Remote-Session, autonome Annahmen). Naechster Schritt:
   Scope 0 — Schluesselentscheide 1–4 von Raphael bestaetigen lassen.
+- 2026-07-11: Scope 0 durchgefuehrt (AskUserQuestion, interaktive Session): Raphael
+  entscheidet **PARKIEREN** — Entscheide 1–4 bleiben unbestaetigt, keine Umsetzung,
+  keine offene Pendenz. Kein Monitor-Loop noetig (kein externes Warten); Wiedereinstieg
+  nur auf Zuruf.
