@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.07.2026 22:40:15
+Stand: 11.07.2026 22:50:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:33)
@@ -19,4 +19,4 @@ Stand: 11.07.2026 22:40:15
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- a9eaf933 nas-selfcommit: 12 Datei(en) 2026-07-11 22:30
+- 5803eed4 energie-training Run 34: Solarthermie vs PV & Warmwasser (FAQ F40, Themenartikel solarwaerme-warmwasser)
