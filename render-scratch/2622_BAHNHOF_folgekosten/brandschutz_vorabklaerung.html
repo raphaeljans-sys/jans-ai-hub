@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4 portrait; margin: 13mm 14mm 11mm 14mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-family: "Liberation Sans","DejaVu Sans",sans-serif; color:#20242b; font-size: 9.2pt; line-height: 1.32; }
+  .accent { color:#b5651d; } .neg { color:#b3402f; } .ok { color:#2f7d4f; } .muted { color:#6b7280; }
+  .head { border-bottom: 2.5px solid #20242b; padding-bottom:5px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:flex-end; }
+  .head h1 { font-size: 15.5pt; font-weight:800; line-height:1.06; }
+  .head .sub { font-size: 8.8pt; color:#6b7280; margin-top:2px; }
+  .head .brand { text-align:right; font-size:7.8pt; color:#6b7280; line-height:1.35; }
+  .head .brand b { color:#20242b; font-size:8.6pt; }
+  .meta { display:flex; gap:7px; margin-bottom:9px; }
+  .meta div { flex:1; border:1px solid #d7dbe0; border-radius:5px; padding:5px 8px; font-size:8pt; }
+  .meta .k { font-size:7pt; text-transform:uppercase; letter-spacing:.4px; color:#6b7280; }
+  .meta .v { font-weight:700; margin-top:1px; }
+  h2 { font-size:9.6pt; font-weight:800; text-transform:uppercase; letter-spacing:.4px; margin:9px 0 4px; padding-left:7px; border-left:4px solid #b5651d; }
+  p { margin: 3px 0; }
+  table { width:100%; border-collapse:collapse; margin:3px 0; }
+  th,td { border:1px solid #e0e3e7; padding:3px 6px; text-align:left; vertical-align:top; font-size:8.2pt; }
+  th { background:#f4f5f7; font-size:7.4pt; text-transform:uppercase; letter-spacing:.3px; color:#4b5563; }
+  .z { white-space:nowrap; font-weight:700; color:#20242b; }
+  .verdict { border:1.5px solid #d99a5b; background:#fbf2e8; border-radius:6px; padding:7px 10px; margin:7px 0; }
+  .verdict b { color:#9a4a12; }
+  ul { margin:2px 0 2px 16px; } li { margin:1.5px 0; }
+  .foot { margin-top:8px; border-top:1px solid #d7dbe0; padding-top:5px; font-size:7.4pt; color:#6b7280; line-height:1.32; }
+  .foot b { color:#20242b; }
+  .pill { display:inline-block; font-size:7pt; font-weight:700; padding:1px 6px; border-radius:8px; }
+  .pill.no { background:#f7d9d2; color:#9a2f1c; } .pill.ok { background:#d9eede; color:#226641; } .pill.cond { background:#f6dfca; color:#9a4a12; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <div>
+      <h1>Brandschutz-Vorabklärung — Treppenhausbreite</h1>
+      <div class="sub">Dachausbau Maisonette → zwei Wohnungen · Bahnhofstrasse 27, 8855 Wangen SZ</div>
+    </div>
+    <div class="brand">
+      <b>RAPHAEL JANS ARCHITEKTEN ETH/SIA</b><br>
+      Studie 2622 · Brandschutz-Memo<br>
+      Stand 19.06.2026
+    </div>
+  </div>
+
+  <div class="meta">
+    <div><div class="k">Objekt / Parzelle</div><div class="v">Bahnhofstr. 27 · Parz. 25 · EGRID CH379377805305</div></div>
+    <div><div class="k">Gebäudeart (VKF)</div><div class="v">Wohnen + Gewerbe · Gebäude geringer Höhe</div></div>
+    <div><div class="k">Behörde</div><div class="v">Feuerpolizei / GVS Schwyz</div></div>
+  </div>
+
+  <h2>1 · Ausgangslage</h2>
+  <p>Die 7.5-Zi-Maisonette WHG 3 (OG2 + DG, 195.7 m² HNF) soll in <b>zwei Wohnungen</b> geteilt werden.
+  Das gemeinsame Treppenhaus weist einen <b>Treppenlauf von ~1.0 m</b> auf (vor Ort gemessen). Erschliessung
+  EG (Arztpraxis) + OG1 + OG2 + DG; <b>Gebäude geringer Höhe</b> (oberster Wohnungsboden DG +7.93 m), Lift vorhanden.</p>
+
+  <h2>2 · Normbeurteilung — VKF-Brandschutzrichtlinie 16-15 «Flucht- und Rettungswege»</h2>
+  <table>
+    <thead><tr><th style="width:16%">Ziffer</th><th style="width:46%">Anforderung</th><th style="width:38%">Beurteilung Objekt</th></tr></thead>
+    <tbody>
+      <tr><td class="z">2.4.5 Abs. 3</td><td>Geradläufige Treppen inkl. Podeste <b>≥ 1.2 m</b>; nutzungsbezogene Abweichungen nur nach Ziff. 3.</td><td><span class="pill no">unterschritten</span> Treppenlauf 1.0 m &lt; 1.2 m</td></tr>
+      <tr><td class="z">3.1 Abs. 2a</td><td>Reduktion geradläufig auf 0.9 m — nur bei «Gebäude mit geringen Abmessungen» (max. 2 Geschosse).</td><td><span class="pill no">nicht anwendbar</span> 3 Vollgeschosse + DG</td></tr>
+      <tr><td class="z">3.2.2 Abs. 2</td><td>Reduktion geradläufig auf 0.9 m — nur wenn Treppe max. 1 OG + 1 UG erschliesst.</td><td><span class="pill no">nicht anwendbar</span> erschliesst EG/OG1/OG2/DG</td></tr>
+      <tr><td class="z">2.4.2 Abs. 1a</td><td>Geschossfläche bis 900 m² → <b>ein</b> vertikaler Fluchtweg genügt.</td><td><span class="pill ok">erfüllt</span> Geschosse ~150–240 m²</td></tr>
+      <tr><td class="z">2.4.3 Abs. 1</td><td>Gesamtlänge Fluchtweg zu einem Fluchtweg ≤ 35 m.</td><td><span class="pill cond">nachweisen</span> je neue Einheit prüfen</td></tr>
+      <tr><td class="z">geringe Höhe</td><td>Kein Sicherheitstreppenhaus nötig; 2. Rettungsweg über Anleiterung der Feuerwehr zulässig.</td><td><span class="pill ok">günstig</span> DG-Boden +7.93 m anleiterbar</td></tr>
+    </tbody>
+  </table>
+
+  <div class="verdict">
+    <b>Befund:</b> Der Treppenlauf von 1.0 m unterschreitet das VKF-Regelmass von 1.2 m; <b>keine</b> der zwei
+    Reduktions-Ausnahmen greift, weil das Gebäude 3 Vollgeschosse + DG hat und das Treppenhaus mehr als ein
+    Obergeschoss erschliesst. Eine Bewilligung «nach Schema» ist damit ausgeschlossen — möglich ist sie über eine
+    <b>Abweichung im Einzelfall</b> (Ziff. 2.1 Abs. 3: objektbezogene Konzeptmethode in Abstimmung mit der
+    Brandschutzbehörde) mit Kompensationsmassnahmen. Die Verbreiterung des Massivtreppenhauses auf 1.2 m wäre
+    im Bestand baulich unverhältnismässig.
+  </div>
+
+  <h2>3 · Kompensationskonzept (Abweichungsantrag)</h2>
+  <table>
+    <thead><tr><th style="width:34%">Massnahme</th><th>Wirkung / Schutzziel</th></tr></thead>
+    <tbody>
+      <tr><td><b>Sicheres Treppenhaus</b></td><td>Umfassungswände EI 30/EI 60, Wohnungs-/Keller-Türen <b>EI 30 / T30 selbstschliessend</b>, Oberflächen RF1, <b>keine Brandlasten</b> im Treppenraum → rauchfreier Fluchtweg trotz reduzierter Breite.</td></tr>
+      <tr><td><b>2. Rettungsweg je Einheit</b></td><td>Anleiterbares Fenster/Balkon je neue Wohnung + nachgewiesene <b>Feuerwehr-Aufstellfläche</b> an der Bahnhofstrasse (zulässig bei Gebäude geringer Höhe).</td></tr>
+      <tr><td><b>Brandabschnitt zwischen Einheiten</b></td><td>Trennwand/Decke OG2–DG der zwei Wohnungen EI 30 (REI nach Tragwerk) + Schallschutz.</td></tr>
+      <tr><td><b>Detektion (optional)</b></td><td>Rauchmelder in den Wohnungen / im Treppenhaus, ggf. Rauchabzug-Öffnung im Treppenhauskopf — je nach Auflage der Behörde.</td></tr>
+      <tr><td><b>Fluchtweglängen</b></td><td>≤ 35 m je Einheit bis ins Treppenhaus einhalten (Ziff. 2.4.3).</td></tr>
+    </tbody>
+  </table>
+
+  <h2>4 · Empfehlung / Antrag</h2>
+  <p><b>Bewilligungsfähigkeit: bedingt — realistisch machbar mit Auflagen, aber Einzelfallentscheid der Behörde.</b>
+  Bei Wohnumbauten geringer Höhe im Bestand wird ein 1.0-m-Treppenhaus mit sicherem Treppenhaus + Anleiterung
+  regelmässig akzeptiert. <b>Vorgehen:</b> (1) anerkannten Brandschutz-Fachplaner SZ beiziehen; (2) Abweichungsantrag
+  mit obigem Kompensationskonzept bei der Feuerpolizei/GVS Schwyz; (3) Feuerwehr-Aufstellfläche/anleiterbare Fenster
+  belegen. <b>Restrisiko:</b> Besteht die Behörde auf 1.2 m, ist die Zwei-Wohnungs-Teilung baulich kaum umsetzbar →
+  Rückfallebene: eine grosse DG-Einheit belassen.</p>
+
+  <div class="foot">
+    <b>Quelle:</b> VKF-Brandschutzrichtlinie 16-15de «Flucht- und Rettungswege» (rev. 2016), verbindlich in allen Kantonen.
+    <b>Zuständigkeit:</b> Brandschutz ist VKF-harmonisiert (gilt in SZ); das «blaue Buch» (Kommentar PBG/BZO Zürich) ist hier nicht einschlägig.
+    <b>VKF-Hoheit:</b> Die abschliessende Klassifizierung/Beurteilung obliegt dem anerkannten Brandschutz-Fachplaner und der Brandschutzbehörde —
+    dieses Memo bereitet die Vorabklärung vor und nimmt die Beurteilung nicht vorweg. Stand 19.06.2026; keine Bewilligungs-Zusicherung.
+  </div>
+</body>
+</html>

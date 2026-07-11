@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4 portrait; margin: 12mm 13mm 10mm 13mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; color: #20242b; font-size: 9.3pt; line-height: 1.28; }
+  .accent { color: #b5651d; }
+  .neg { color: #b3402f; }
+  .muted { color: #6b7280; }
+
+  .head { border-bottom: 2.5px solid #20242b; padding-bottom: 5px; margin-bottom: 9px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .head h1 { font-size: 17.5pt; font-weight: 800; line-height: 1.05; }
+  .head .sub { font-size: 9pt; color: #6b7280; margin-top: 2px; }
+  .head .brand { text-align: right; font-size: 8pt; color: #6b7280; line-height: 1.35; }
+  .head .brand b { color: #20242b; font-size: 9pt; }
+
+  .kpis { display: flex; gap: 7px; margin-bottom: 10px; align-items: stretch; }
+  .kpi { flex: 1; border: 1px solid #d7dbe0; border-radius: 6px; padding: 8px 10px; display: flex; flex-direction: column; justify-content: center; }
+  .kpi.dark { background: #20242b; border-color: #20242b; color: #fff; }
+  .kpi.hot { background: #fbf2e8; border-color: #d99a5b; border-width: 1.5px; }
+  .kpi .lbl { font-size: 7.6pt; text-transform: uppercase; letter-spacing: .5px; color: #6b7280; }
+  .kpi.dark .lbl { color: #b9c0cc; }
+  .kpi .val { font-size: 15.5pt; font-weight: 800; margin-top: 3px; line-height: 1; }
+  .kpi .note { font-size: 7.5pt; color: #6b7280; margin-top: 3px; }
+  .op { display: flex; align-items: center; font-size: 17pt; font-weight: 800; color: #9aa1ac; padding: 0 1px; }
+
+  h2 { font-size: 10pt; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; margin: 10px 0 5px; padding-left: 8px; border-left: 4px solid #b5651d; }
+  h2 .h2note { font-weight: 600; text-transform: none; letter-spacing: 0; color: #6b7280; font-size: 8pt; }
+
+  table { width: 100%; border-collapse: collapse; }
+  th { font-size: 7.5pt; text-transform: uppercase; letter-spacing: .4px; color: #6b7280; text-align: left; padding: 0 6px 3px; border-bottom: 1px solid #d7dbe0; font-weight: 700; }
+  td { padding: 3.2px 6px; border-bottom: 1px solid #eceef1; vertical-align: middle; }
+  .bauteil { font-weight: 700; }
+  .small { font-size: 7.7pt; color: #6b7280; }
+  .r { text-align: right; white-space: nowrap; }
+  .b { font-weight: 800; }
+  .tag { display:inline-block; font-size: 7pt; font-weight: 700; padding: 1px 6px; border-radius: 8px; }
+  .tag.yes { background: #f6dfca; color: #9a4a12; }
+  .tag.part { background: #fbeede; color: #9a6a2a; }
+  .tag.no { background: #eef0f3; color: #6b7280; }
+  .subtotal td { border-top: 1.5px solid #20242b; border-bottom: none; padding-top: 5px; font-weight: 800; }
+
+  /* waterfall */
+  .wf { margin-top: 2px; }
+  .wfrow { display: flex; align-items: center; margin: 4px 0; }
+  .wflbl { width: 200px; font-size: 8.4pt; }
+  .wflbl .s { display:block; font-size: 7.3pt; color:#6b7280; }
+  .wftrack { flex: 1; position: relative; height: 20px; }
+  .wfbar { position: absolute; top: 0; height: 20px; border-radius: 3px; display: flex; align-items: center; justify-content: flex-end; padding-right: 6px; color: #fff; font-size: 8pt; font-weight: 800; }
+  .ref { background: #c2c7cf; color:#20242b; }
+  .mkt { background: #5b6470; }
+  .ded { background: #b3402f; }
+  .rec { background: #b5651d; }
+  .ghost { position:absolute; top:0; height:20px; border-left: 1.5px dashed #5b6470; }
+
+  .recbox { display:flex; gap:7px; margin-top:4px; }
+  .rc { flex:1; border:1px solid #d7dbe0; border-radius:6px; padding:6px 9px; text-align:center; }
+  .rc.main { background:#b5651d; border-color:#b5651d; color:#fff; }
+  .rc .l { font-size:7.4pt; text-transform:uppercase; letter-spacing:.4px; color:#6b7280; }
+  .rc.main .l { color:#f6dfca; }
+  .rc .v { font-size:13pt; font-weight:800; margin-top:2px; }
+
+  .foot { margin-top: 9px; border-top: 1px solid #d7dbe0; padding-top: 6px; font-size: 7.4pt; color: #6b7280; line-height: 1.34; }
+  .foot b { color: #20242b; }
+  .cols { display: flex; gap: 16px; }
+  .cols > div { flex: 1; }
+</style>
+</head>
+<body>
+
+  <div class="head">
+    <div>
+      <h1>Bereinigte Kaufpreisempfehlung</h1>
+      <div class="sub">Bahnhofstrasse 27, 8855 Wangen SZ &middot; Parz. 25 &middot; gemischtes MFH (Altbau, ~1979) &middot; Halten/Rendite</div>
+    </div>
+    <div class="brand">
+      <b>RAPHAEL JANS ARCHITEKTEN ETH/SIA</b><br>
+      Studie 2622 &middot; Kaufpreis-Bereinigung<br>
+      Stand 19.06.2026 &middot; nach Besichtigung
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="lbl">Marktwert Halten (as-is)</div>
+      <div class="val">CHF 2.6–2.8 Mio</div>
+      <div class="note">Ertragswert-geführt; Mitte 2.70</div>
+    </div>
+    <div class="op">−</div>
+    <div class="kpi">
+      <div class="lbl neg">Investitionsstau 10 J</div>
+      <div class="val neg">CHF ~0.35 Mio</div>
+      <div class="note">zwingender Werterhalt, nicht eingepreist</div>
+    </div>
+    <div class="op">=</div>
+    <div class="kpi hot">
+      <div class="lbl accent">Bereinigte Empfehlung</div>
+      <div class="val accent">CHF ~2.35 Mio</div>
+      <div class="note">Band 2.1–2.5 &middot; Ziel 2.25 / Limite 2.50</div>
+    </div>
+  </div>
+
+  <h2>1 &nbsp; Herleitung Investitionskosten 10 Jahre <span class="h2note">— aus Grobkostenschätzung 19.06.2026 (Flächenkennwerte, BKP 1–5, ±25 %)</span></h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:30%">Bauteil (Block A — Instandsetzung)</th>
+        <th style="width:18%">Bezug · Kennwert</th>
+        <th style="width:14%; text-align:right">Ø Kosten</th>
+        <th style="width:38%">Preisrelevant? (Werterhalt, nicht eingepreist)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="bauteil">Dach — Eindeckung + Nachdämmung</td><td class="small">300 m² · 350–600/m²</td><td class="r b">145'000</td><td><span class="tag yes">JA — voll</span> <span class="small">akut, 47 J, Ende Nutzungsdauer</span></td></tr>
+      <tr><td class="bauteil">Fenster — Ersatz</td><td class="small">150 m² · 900–1'300/m²</td><td class="r b">165'000</td><td><span class="tag yes">JA — voll</span> <span class="small">~5 J fällig, 47 J alt</span></td></tr>
+      <tr><td class="bauteil">Wärmeerzeugung — Öl → Fernwärme</td><td class="small">~45 kW</td><td class="r b">70'000</td><td><span class="tag part">anteilig ~50 %</span> <span class="small">Teil = periodischer Ersatz</span></td></tr>
+      <tr><td class="bauteil">Wärmeverteilung</td><td class="small">720 m² EBF</td><td class="r b">140'000</td><td><span class="tag no">bedingt</span> <span class="small">nur bei Fernwärme → ausserhalb</span></td></tr>
+      <tr><td class="bauteil">Sanitär — Leitsystem</td><td class="small">538 m² HNF</td><td class="r b">110'000</td><td><span class="tag no">bedingt</span> <span class="small">v. a. mit Dachausbau → ausserhalb</span></td></tr>
+      <tr><td class="bauteil">Elektro</td><td class="small">Zustand gut</td><td class="r b">15'000</td><td><span class="tag no">Routine</span> <span class="small">im laufenden Unterhalt</span></td></tr>
+      <tr class="subtotal">
+        <td colspan="2">Block A total (Ø) · davon kaufpreisrelevant</td>
+        <td class="r">≈ 645'000</td>
+        <td class="accent b">→ Investitionsstau-Abzug ≈ 350'000 (Band 300–500')</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="small" style="margin-top:4px">
+    <b>Nicht im Abzug:</b> Dachausbau Maisonette → 2 Whg (Block B, ~0.6 Mio) ist <b>wertsteigernd nur via STWE-Einzelverkauf</b>
+    (Wohnteil-Oberkante ~3.5 Mio) → separate Investitionsentscheidung, hebt den Halten-Kaufpreis nicht.
+  </div>
+
+  <h2>2 &nbsp; Kaufpreis-Bereinigung <span class="h2note">— vom Angebot zum substanz- und investitionsgerechten Preis</span></h2>
+  <div class="wf">
+    <div class="wfrow">
+      <div class="wflbl">Angebot Verkäufer<span class="s">Ausgangslage</span></div>
+      <div class="wftrack"><div class="wfbar ref" style="width:96.9%">3.10 Mio</div></div>
+    </div>
+    <div class="wfrow">
+      <div class="wflbl">Bankschätzung<span class="s">Fremdfinanzierungs-Basis</span></div>
+      <div class="wftrack"><div class="wfbar ref" style="width:90.6%">2.90 Mio</div></div>
+    </div>
+    <div class="wfrow">
+      <div class="wflbl">Marktwert Halten (JANS)<span class="s">Ertragswert-geführt, as-is · Mitte</span></div>
+      <div class="wftrack"><div class="wfbar mkt" style="width:84.4%">2.70 Mio</div></div>
+    </div>
+    <div class="wfrow">
+      <div class="wflbl neg">− Investitionsstau (zwingend)<span class="s">aufgeschobener Werterhalt 10 J</span></div>
+      <div class="wftrack"><div class="wfbar ded" style="left:73.4%; width:11.0%">− 0.35</div></div>
+    </div>
+    <div class="wfrow">
+      <div class="wflbl b accent">= Bereinigte Empfehlung<span class="s muted">substanz- &amp; investitionsgerecht</span></div>
+      <div class="wftrack"><div class="ghost" style="left:84.4%"></div><div class="wfbar rec" style="width:73.4%; font-size:9pt">2.35 Mio</div></div>
+    </div>
+  </div>
+
+  <div class="recbox">
+    <div class="rc main"><div class="l">Empfehlung</div><div class="v">~ 2.35 Mio</div></div>
+    <div class="rc"><div class="l">Verhandlungsziel</div><div class="v">2.25 Mio</div></div>
+    <div class="rc"><div class="l">Schmerzgrenze</div><div class="v">2.50 Mio</div></div>
+    <div class="rc"><div class="l">Abstand zum Angebot</div><div class="v neg">− 0.75 Mio</div></div>
+  </div>
+
+  <div class="foot">
+    <div class="cols">
+      <div>
+        <b>Methodik.</b> Bereinigter Kaufpreis = <b>Marktwert Halten (as-is) − aufgeschobener, noch nicht eingepreister Werterhalt</b> der nächsten 10 Jahre.
+        Bewusst <b>nicht</b> der ganze Investitionsbedarf: Routine-Unterhalt und bedingte Posten (Wärmeverteilung, Sanitär) sind ausgeklammert,
+        damit keine <b>Doppelzählung</b> mit den tiefen Ist-Mieten und der Brutto-Kapitalisierung (5.0 %) entsteht. Abgezogen werden nur die
+        akuten, unvermeidlichen Hüllen-/Technik-Posten (Dach, Fenster, anteilig Heizung).
+      </div>
+      <div>
+        <b>Sensitivität.</b> Nur Dach+Fenster zwingend → Abzug ~0.31 → Empfehlung ~<b>2.39</b>. Inkl. Heizung voll + Teil Sanitär (z. B. Fernwärmepflicht) → Abzug ~0.50 → ~<b>2.20</b>.<br>
+        <b>Strategie.</b> Gilt für <b>Halten/Rendite</b>. Verfolgt der Käufer den <b>STWE-Einzelverkauf</b>, lässt sich ein höherer Preis rechtfertigen — anderes Risikoprofil, separate Rechnung.<br>
+        <b>Vorbehalt.</b> Grobschätzung ±25 %; Marktwert ⚠ aktenbasiert (Mieterspiegel/GVA noch offen); keine Schätzungs-/Rechtsverbindlichkeit. Fotos noch nicht ausgewertet.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
