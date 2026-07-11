@@ -26,8 +26,8 @@ Siehe [[QUESTIONS]]:
 - Nach-Gründung: AHV/BVG/UVG/MWST-Anmeldungen im Detail
 - Verwaltungsrat: Pflichten, Haftung, Konstituierung (eigener Artikel)
 
-## Statistik (Stand 2026-06-02)
+## Statistik (Stand 2026-07-02)
 - Artikel im Wiki: 8
 - Offene Coverage-Lücken: 0 (alle 6 raw/-Quellen eingearbeitet)
-- Outputs: 1 (neue-ag-gruenden_vorgehen)
+- Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
 - Letzter Health-Check: noch keiner (läuft im monatlichen Sammeltask mit)
