@@ -10,4 +10,5 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 
 | Destillat | Norm | Ausgabe | Status |
 |---|---|---|---|
-| — | | | |
+| `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | destilliert |
+| `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | destilliert |
