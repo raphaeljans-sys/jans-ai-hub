@@ -207,3 +207,15 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Themenartikel `[[elektromobilitaet-ladeinfrastruktur]]` (FAQ **F39** neu). Zugleich `[[wp-pv-eigenverbrauch-lastmanagement]]`
   um den E-Auto-Teil geschaerft (offener Punkt geschlossen). Offen: CHF/kW Grunderschliessung je Parkplatz
   (projektabhaengig), SIA 2060 kostenpflichtig, Foerderung Ladeinfrastruktur uneinheitlich, V2H/V2G-Reife.
+
+- **D13 (Run 34, 2026-07-11)** — «Solarthermie oder Photovoltaik — und wie mache ich mein Warmwasser?»
+  — belegt 2026-07-11 (EnergieSchweiz «Solarwärme» + Swissolar «Solarwärme»). Kernaussage: Dach nur
+  **einmal** belegbar → für ein Haus mit **Wärmepumpe** heute meist **PV + WP-Boiler** besser als separate
+  Solarthermie. Solarthermie EFH (4–6 m² Kollektor + ~450 l Speicher) = **60–70 % des Jahres-Warmwassers**,
+  MFH ~1 m²/Person = 30–40 %, Kombianlage mind. 30 % Wärmebedarf; hoher Wirkungsgrad (~70–85 % vs. ~20 % PV)
+  → weniger Dachfläche, aber Solarwärme kann **nur heizen** (Sommerüberschuss verpufft) → **Nutzen pro m²
+  Dach übers Jahr** entscheidend. Solarthermie lohnt bei ganzjährig hohem Warmwasserbedarf (MFH zentral/
+  Hotel/Schwimmbad/Prozesswärme); Wärmepumpenboiler = stromsparender WW-Standard; Förderung 2'400+1'000/kWth
+  → `[[solarthermie-vs-pv-warmwasser-ch]]`, Themenartikel `[[solarwaerme-warmwasser]]` (FAQ **F40** neu).
+  Offen: konkrete CHF-Investition Solarthermie-Anlage (amtlich nicht belegt), Wirkungsgrad 70–85 %/20 %
+  aus Sekundärquellen, PVT-Hybridkollektoren (eigener Lauf).

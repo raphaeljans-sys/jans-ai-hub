@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-11
-sources: [destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+sources: [destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1466,6 +1466,52 @@ dem EnergieSchweiz-Leitfaden referiert); Grunderschliessungs-CHF projektabhängi
 
 ---
 
+## F40 — «Solarthermie oder Photovoltaik auf dem Dach — und wie mache ich mein Warmwasser?»
+
+**Kurz:** Für ein normales Haus mit **Wärmepumpe** ist heute meist **Photovoltaik die bessere Wahl**
+als eine separate Solarthermie-Anlage: Die WP (oder ein **Wärmepumpenboiler**) macht das Warmwasser,
+die PV liefert Strom für **alles** — Warmwasser, Heizung, Haushalt, E-Auto — und die knappe Dachfläche
+bleibt für den **flexibleren** Solarstrom frei. **Sonnenkollektoren** lohnen sich vor allem dort, wo
+das ganze Jahr **viel Warmwasser** gebraucht wird (MFH mit zentralem Warmwasser, Hotel, Schwimmbad).
+
+**Fachlich:** Solarthermie erzeugt **direkt Wärme** und deckt in einem EFH mit einer kleinen Anlage
+(**4–6 m² Kollektor + ~450 l Speicher**) rund **60–70 % des Jahres-Warmwasserbedarfs**; als Kombianlage
+mit Heizungsunterstützung mindestens **30 % des Jahres-Wärmebedarfs** (im Schnitt WW 60 % / Heizung 30 %),
+Brennstoff-Einsparung im Altbau **20–30 %**, im Neubau bis **50 %** (EnergieSchweiz). Der Modul-
+**Wirkungsgrad** ist hoch (~70–85 % Wärme gegenüber ~20 % Strom bei PV), weshalb Solarwärme für die reine
+Wärme **weniger Dachfläche** braucht.
+
+- **Der Wirkungsgrad-Vergleich ist aber nur die halbe Wahrheit:** PV-Strom ist **universell** (heizen via
+  WP, Warmwasser, Haushalt, E-Auto, einspeisen), Solarwärme kann **nur heizen** und liefert im Sommer oft
+  **mehr Wärme als gebraucht** (Überschuss verpufft). Entscheidend ist nicht der Modul-Wirkungsgrad,
+  sondern der **Nutzen pro m² Dach übers ganze Jahr** — und da liegt heute meist PV vorn.
+- **Heutiger Standard (EnergieSchweiz/Swissolar):** Wärmeerzeuger ist die **Wärmepumpe** (macht Heizung
+  **und** Warmwasser); ein **Wärmepumpenboiler** ist «in vielen EFH und grösseren Wohnungen die beste
+  Standardlösung für tiefen Stromverbrauch beim Warmwasser». Dazu **PV** aufs Dach, per Energiemanagement
+  auf den Eigenverbrauch getrimmt (Inverter-WP folgt der PV-Leistung).
+- **Wann Solarthermie trotzdem sinnvoll ist:** hoher, **ganzjähriger** Warmwasserbedarf — **MFH mit
+  zentralem Warmwasser**, Hotel, Schwimmbad, Prozesswärme. Faustregel MFH: ~**1 m² Kollektor pro Person**
+  deckt 30–40 % des Warmwassers. Solarwärme **kombiniert sich mit jedem Heizsystem**, glänzt im
+  Sommerhalbjahr, braucht aber **fast immer ein Zusatzsystem** für Winter/Schlechtwetter.
+- **Reine Warmwasser-Frage:** Ein **Wärmepumpenboiler** ist der einfache, stromsparende Standard; ein
+  **rein elektrischer Boiler** ist billig in der Anschaffung, aber teuer und energieschwach im Betrieb.
+- **Förderung Solarthermie** ist belegt: **CHF 2'400 + 1'000/kWth** (ZH wie SZ).
+
+**Entscheid-Reihenfolge:** (1) Wärmeerzeuger klären (WP als Standard); (2) Dach **primär mit PV** belegen;
+(3) Solarthermie nur bei ganzjährig hohem Warmwasserbedarf — dann bewusst **Kollektorfläche gegen PV-Fläche**
+abwägen (dieselbe Fläche kann nur einmal belegt werden).
+
+**Quelle:** EnergieSchweiz «Solarwärme» (energieschweiz.ch/heizungssysteme/solarwaerme) + Swissolar «Solarwärme»
+(swissolar.ch), Stand Juli 2026 → `[[solarthermie-vs-pv-warmwasser-ch]]`; WP-Boiler/PV-Eigenverbrauch →
+`[[wp-pv-eigenverbrauch-lastmanagement]]`, `[[pv-eigenverbrauch-zev]]`; Heizsystem-Wahl →
+`[[waermepumpe-systemvergleich]]`; Solarthermie-Förderung → `[[foerderprogramm-energie-zh-2026]]` /
+`[[foerderprogramm-energie-sz-2026]]`. ⚠ **Datenstand 2026:** Deckungsgrade/Flächen physikalisch stabil;
+«heute meist PV» ist die aktuelle CH-Markteinordnung (kein Norm-Grenzwert). Der Wirkungsgrad 70–85 % vs.
+20 % stammt aus Sekundärquellen; konkrete CHF-Investition einer Solarthermie-Anlage nennen die amtlichen
+Seiten nicht — offen.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1476,7 +1522,16 @@ dem EnergieSchweiz-Leitfaden referiert); Grunderschliessungs-CHF projektabhängi
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-11: 39 Kernfragen F1-F39 belegt.** Neu am 2026-07-11: **F39 ‹Muss ich mein Haus /
+> **FAQ-Stand 2026-07-11: 40 Kernfragen F1-F40 belegt.** Neu am 2026-07-11 (Run 34): **F40 ‹Solarthermie
+> oder Photovoltaik auf dem Dach — und wie mache ich mein Warmwasser?›** — für ein normales Haus mit
+> **Wärmepumpe** ist heute meist **PV + WP-Boiler** besser als eine separate Solarthermie: WP macht das
+> Warmwasser, PV liefert Strom für **alles** (Warmwasser/Heizung/Haushalt/E-Auto), das knappe Dach bleibt
+> für den flexibleren Solarstrom frei. Solarthermie deckt im EFH (4–6 m² Kollektor + ~450 l Speicher)
+> **60–70 % des Jahres-Warmwassers** und lohnt vor allem bei **ganzjährig hohem Warmwasserbedarf** (MFH mit
+> zentralem Warmwasser, Hotel, Schwimmbad); Wirkungsgrad hoch (~70–85 % vs. ~20 % PV), aber Solarwärme kann
+> **nur heizen** → entscheidend ist der Nutzen pro m² Dach übers Jahr → neues Destillat
+> `[[solarthermie-vs-pv-warmwasser-ch]]` (EnergieSchweiz/Swissolar, Web-Stand Juli 2026). Zuvor am 2026-07-11
+> (Run 33): **F39 ‹Muss ich mein Haus /
 > MFH für Elektroauto-Ladestationen vorbereiten?›** — **Grunderschliessung aller Parkplätze** (intelligent
 > + ausbaufähig + dynamisches Lastmanagement) statt Einzel-Wallbox; Ausbau nach **SIA 2060** in drei Stufen
 > (Power to Garage C1 → Power to Parking C2 → Ready to charge D); Typ 2, **11 kW** üblich; E-Auto (20–100 kWh)

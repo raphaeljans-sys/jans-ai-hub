@@ -2,6 +2,27 @@
 
 Neueste zuoberst.
 
+## 2026-07-11 — Run 34: Solarthermie ↔ Photovoltaik & Warmwasser (F40 neu) + neuer Themenartikel
+- **1 neues Destillat (Web/CH-Quellen) → 68 total:**
+  - `solarthermie-vs-pv-warmwasser-ch` (established) — EnergieSchweiz «Solarwärme»
+    (energieschweiz.ch/heizungssysteme/solarwaerme) + Swissolar «Solarwärme»
+    (swissolar.ch/de/wissen/solartechnologien/solarwaerme), Web-Stand Juli 2026: Solarthermie EFH
+    (4–6 m² Kollektor + ~450 l Speicher) = **60–70 % des Jahres-Warmwassers**, MFH ~1 m²/Person = 30–40 %,
+    Kombianlage (WW + Heizung) mind. **30 % des Wärmebedarfs**; Brennstoff-Einsparung Altbau 20–30 %/Neubau
+    bis 50 %; Wirkungsgrad ~70–85 % Wärme vs. ~20 % Strom (PV) → weniger Dachfläche. **Heutige CH-Empfehlung:
+    für ein Haus mit Wärmepumpe meist PV + WP-Boiler** (PV universell, Solarwärme nur heizen + Sommerüberschuss
+    → Nutzen pro m² Dach übers Jahr entscheidend); Solarthermie sinnvoll bei ganzjährig hohem Warmwasserbedarf
+    (MFH zentral/Hotel/Schwimmbad/Prozesswärme); Wärmepumpenboiler = stromsparender WW-Standard; Förderung
+    Solarthermie 2'400+1'000/kWth (ZH/SZ).
+- **VERDICHTUNG:** **FAQ F40 neu** «Solarthermie oder Photovoltaik auf dem Dach — und wie mache ich mein
+  Warmwasser?» (FAQ jetzt **40 Kernfragen F1–F40**); **neuer Themenartikel `wiki/solarwaerme-warmwasser.md`**
+  (established) mit Backlinks auf `pv-eigenverbrauch-zev`, `heizleistung-und-waermeerzeuger`, `pv-solar-technologien`.
+- **Register:** `destillate/INDEX` (+1 → 68), `wiki/INDEX` (FAQ 39→40, neuer Themenartikel), `wiki/BAUHERREN-FAQ`
+  (F40 + Frontmatter-source + Stand-Box), `wiki/QUESTIONS` (**E20 ✓**), `pdf-inventar` (+1 Web-Zeile),
+  `raw/_INGESTED` (+1), `training/curriculum` (**D13**), Output `outputs/2026-07-11_energie-run34.md`.
+- **Leitplanken:** keine Zahl erfunden; Deckungsgrade/Flächen aus EnergieSchweiz/Swissolar wörtlich;
+  Wirkungsgrad 70–85 %/20 % als Sekundärquelle markiert; konkrete CHF-Investition Solarthermie offen gelassen.
+
 ## 2026-07-11 — Run 33: Elektromobilität — Ladeinfrastruktur am Gebäude (F39 neu) + Zogg-Destillat geschärft
 - **1 neues Destillat (Web/CH-Quellen) → 66 total** + 1 bestehendes geschärft:
   - `e-mobilitaet-ladeinfrastruktur-gebaeude-ch` (established) — EnergieSchweiz/Swiss eMobility

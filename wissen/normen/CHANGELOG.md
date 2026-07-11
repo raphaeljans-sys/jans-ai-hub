@@ -1,5 +1,12 @@
 # CHANGELOG — KB Normen
 
+## 2026-07-11 — Compounding-Zugriff (Anfrage Raphael, Pflichten Architekt/Bauleiter)
+- SIA 102:2020 am Original gelesen (S. 21–26, 30–37, visuell — Scan nicht text-extrahierbar)
+  → Teil-Destillat `destillate/sia-102-2020.md`: **Ziff. 4.41 verifiziert** (Ausschreibung,
+  Offertvergleich, Vergabeantrag = Architekten-Grundleistungen inkl. Durchführung),
+  dazu 4.31–4.33, 4.53, 4.6, Art. 5 als Kurzbefund. Rest (v.a. 4.52 Oberleitung vs.
+  örtliche Bauleitung, Art. 7 Phasenanteile) an den Nacht-Loop delegiert.
+
 ## 2026-07-11 — Nacht-Loop Run 1 (Sonderprogramm: Gültigkeits-Register)
 - **Zugriffs-Check OK:** OneDrive-Normenpfad lesbar (keine TCC-Blockade); PDFs via
   `pdftotext -layout` extrahiert (effizienter als visuelles Lesen für Listen-PDFs).

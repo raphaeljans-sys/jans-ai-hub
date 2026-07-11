@@ -223,5 +223,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   je Parkplatz (projektabhaengig), SIA 2060 kostenpflichtig (Stufen nur referiert), Foerderung Ladeinfrastruktur
   kantonal/kommunal uneinheitlich, V2H/V2G-Reife (bidirektionale Wallbox/Netzbetreiber-Zulassung).
 
+- [x] **E20** **Solarthermie oder Photovoltaik — und wie mache ich mein Warmwasser?** belegt ✓ 2026-07-11 →
+  `[[solarthermie-vs-pv-warmwasser-ch]]`, Themenartikel `[[solarwaerme-warmwasser]]`, FAQ **F40** (Dach nur
+  einmal belegbar → für Haus mit **Wärmepumpe** heute meist **PV + WP-Boiler** besser als separate Solarthermie;
+  Solarthermie EFH 4–6 m²+~450 l = **60–70 % Warmwasser**, MFH ~1 m²/Person = 30–40 %, Kombianlage mind. 30 %
+  Wärmebedarf; Wirkungsgrad ~70–85 % vs. ~20 % PV → weniger Dachfläche, aber nur Wärme → Nutzen pro m² Dach
+  übers Jahr; sinnvoll bei ganzjährig hohem WW-Bedarf MFH/Hotel/Schwimmbad; Wärmepumpenboiler = stromsparender
+  WW-Standard; Förderung 2'400+1'000/kWth; EnergieSchweiz/Swissolar). **Offen:** konkrete CHF-Investition
+  Solarthermie-Anlage (amtlich nicht belegt), Wirkungsgrad 70–85 %/20 % nur aus Sekundärquellen (energieheld/iwb),
+  **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul, eigener Lauf).
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
