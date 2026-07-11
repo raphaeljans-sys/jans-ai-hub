@@ -1,9 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 11.07.2026 09:36:12
+Stand: 11.07.2026 09:56:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub//claude/worktrees/frosty/benz/067c2f  (letzte Aktivitaet 09:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 11.07.2026 09:36:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bd361619 nas-selfcommit: 2 Datei(en) 2026-07-11 09:30
+- 2425563e nas-selfcommit: 2 Datei(en) 2026-07-11 09:45
