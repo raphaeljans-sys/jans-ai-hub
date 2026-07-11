@@ -194,3 +194,16 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Zugleich Raumklima-Faktenblatt KBOB/IPB destilliert → `[[behaglichkeit-raumklima-kbob-ipb]]` (aktive
   Befeuchtung bei normalem Klima nicht noetig; schaerft F37). Offen: belegte Amortisationszeit in Jahren
   (amtliche Quellen nennen bewusst keine), CHF/kWh-Kurve + Einspeiseverguetungen projektgenau.
+- [x] D12 **Elektromobilitaet — Ladeinfrastruktur am Wohngebaeude (EFH/MFH)**
+  — belegt 2026-07-11 (EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» Nov 2024 +
+  «im Bestandsbau» Sept 2025 + Zogg-Artikel HK-Gebaeudetechnik 4/24). Kernbotschaft: **nicht die einzelne
+  Wallbox, sondern die vorausschauende Grunderschliessung aller Parkplaetze** (intelligente, ausbaufaehige
+  Anlage + **dynamisches Lastmanagement**). Ausbau nach **SIA 2060** in drei Stufen: **C1 Power to Garage**
+  (Erschliessung ab Hauptverteilung inkl. Messung fuers Lastmanagement) → **C2 Power to Parking** → **D
+  Ready to charge**. Technik Typ 2 (AC), **11 kW** ueblich (1,4-22 kW), Anbindung ans EMS via Modbus.
+  PV-Kopplung: E-Auto (20-100 kWh) als **flexibler Tagesverbraucher**, **Fruehling-Herbst bis 100 % PV**;
+  Ladestation gebaeudeseitig **ab CHF 1'000** (guenstiger als stationaerer Speicher). Prozess nach SIA-Phasen
+  real 6-9 Mt.; Mietobjekt-Refinanzierung ueber **Parkplatzmiete**; **V2H/V2G** kuenftig → `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`,
+  Themenartikel `[[elektromobilitaet-ladeinfrastruktur]]` (FAQ **F39** neu). Zugleich `[[wp-pv-eigenverbrauch-lastmanagement]]`
+  um den E-Auto-Teil geschaerft (offener Punkt geschlossen). Offen: CHF/kW Grunderschliessung je Parkplatz
+  (projektabhaengig), SIA 2060 kostenpflichtig, Foerderung Ladeinfrastruktur uneinheitlich, V2H/V2G-Reife.

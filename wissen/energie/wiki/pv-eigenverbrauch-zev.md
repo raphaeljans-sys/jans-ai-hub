@@ -3,7 +3,7 @@ title: PV-Eigenverbrauch — Solarstrom selbst nutzen (WP-Lastmanagement) & verm
 status: established
 last_updated: 2026-07-05
 sources: [destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-einmalverguetung-bund-bfe.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[pv-solar-technologien]] [[heizleistung-und-waermeerzeuger]]
+links: [[INDEX]] [[BAUHERREN-FAQ]] [[pv-solar-technologien]] [[heizleistung-und-waermeerzeuger]] [[elektromobilitaet-ladeinfrastruktur]] [[batteriespeicher]]
 ---
 
 # PV-Eigenverbrauch

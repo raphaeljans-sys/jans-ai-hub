@@ -212,5 +212,16 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   keine; kommerzielle Ratgeber ~8–12 J = Marktangabe); kWh-abhaengige CHF/kWh-Kurve + aktuelle
   Einspeiseverguetungen (kantonal/EWU, projektgenau).
 
+- [x] **E19** **Elektromobilitaet / Ladeinfrastruktur am Wohngebaeude** belegt ✓ 2026-07-11 →
+  `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, Themenartikel `[[elektromobilitaet-ladeinfrastruktur]]`,
+  FAQ **F39** (Grunderschliessung aller Parkplaetze statt Einzel-Wallbox; **SIA 2060** Stufen C1 Power-to-
+  Garage / C2 Power-to-Parking / D Ready-to-charge; **dynamisches Lastmanagement**; Typ 2, 11 kW (1,4-22);
+  E-Auto 20-100 kWh, Fruehling-Herbst bis 100 % PV, Ladestation ab CHF 1'000; Prozess 6-9 Mt., Mietobjekt via
+  Parkplatzmiete; NIV SR 734.27; V2H/V2G kuenftig; EnergieSchweiz/Swiss eMobility + Zogg 2023). Loest den
+  Run-32-Prioritaetspunkt «Elektromobilitaet / Ladeinfrastruktur am Gebaeude». Zugleich
+  `[[wp-pv-eigenverbrauch-lastmanagement]]` um den E-Auto-Teil geschaerft. **Offen:** CHF/kW Grunderschliessung
+  je Parkplatz (projektabhaengig), SIA 2060 kostenpflichtig (Stufen nur referiert), Foerderung Ladeinfrastruktur
+  kantonal/kommunal uneinheitlich, V2H/V2G-Reife (bidirektionale Wallbox/Netzbetreiber-Zulassung).
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
