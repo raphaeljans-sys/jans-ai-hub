@@ -5,6 +5,34 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-11
+
+- **RADAR-LAUF — mit Briefing (eine neue JANS-Aktion).** Register gegen bexio (`--verzug`), Kalender
+  (Outlook, bis 18.07.), Mail-Eingang UND -Ausgang (seit 10.07.) und Sync-/Remote-Task-Queues
+  abgeglichen; je offenem Punkt neuester Thread inkl. Anhaenge geprueft (Gegen-Verifikation,
+  eingehend↔ausgehend gepaart).
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall. RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **86 Tage ueberfaellig**) steht auf **Mahnung 2**, Zahlfrist **15.07.2026** —
+  naechste Stufe erst nach Fristablauf. RE-00098/99 (faellig 20.07.) ohne Verzug.
+- **NEU / handlungsrelevant — Thalwil 2414 Naeherbaurecht (Vordach):** T. Wiedmer (SBB, 10.07. 07:44)
+  sendet den **Entwurf der zusaetzlichen Vereinbarung** (Vb_NB_Thalwil_Erweiterung-Vordach_20260710.docx)
+  zur Pruefung. Inhalt: Vordach 12.76 m2 in separate Naeherbaurechtsvereinbarung, KEINE zusaetzliche
+  Entschaedigung; Anpassungen direkt im Word oder Rueckmeldung zwecks Unterzeichnung. Damit von
+  «beobachten» zu **aktiver JANS-Aktion** (Vereinbarung pruefen/mit Bauherr Tschopp abstimmen → SBB
+  bestaetigen → unterzeichnen) — Register auf **nachfassen**, ins 7-Tage-Bild.
+- **Saumstrasse 21 Geschirrspueler (BKP 258):** Fust (telefonverkauf@fust.ch, 10.07. 16:47) offeriert
+  unter Bedingung (ohne Strom-/Wasseranschluss, bauseits vorhanden); RJ bestaetigt 10.07. 17:25 «ja,
+  so anbieten» — eingehend↔ausgehend gepaart, eigentliche Offerte weiter abwarten (**beobachten**).
+- **Kalender (bis 18.07.):** nur **Koordinationssitzung Tueren 13.07. 09:00–10:00** (RJ Organisator;
+  L. Hiltmann/TeKoSi nimmt an) — bereits im Register.
+- **SharePoint-Gastzugriff-Ablauf 10.07.** verstrichen (keine Verlaengerung veranlasst) → **Archiv**.
+- **Sync-/Remote-Task-Queue:** leer.
+- **Briefing an rj@ versendet:** neue SBB-Aktion (Vordach-Vereinbarung pruefen/unterzeichnen) +
+  kompaktes 7-Tage-Bild (RE-00087 Frist 15.07., Tueren-Sitzung 13.07.). Unveraenderte Punkte nur als
+  Einzeiler in Beobachtung — kein Ueberreporting.
+
+---
+
 ## 2026-07-10
 
 - **HUB-CHEF-LAUF — ohne Befund, keine zweite Mail (08:40).** Signale nach dem Radar (05:00) selbst
