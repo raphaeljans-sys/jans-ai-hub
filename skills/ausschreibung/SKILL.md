@@ -44,6 +44,10 @@ Bevor du ein LV/Devis erstellst, nutze die destillierte Bauleitungs-Wissensbasis
     10_dokumente-standard.md          ← PFLICHT-Standard LV/Begleitschreiben/Mail (immer anwenden!)
     12_auslaendische-unternehmer.md   ← AT/DE-Anbieter: MWST/Zoll, Entsendung, EUR-Normierung
                                          (PFLICHT sobald ein Anbieter Sitz im Ausland hat)
+    13_uebergabe-bauleitung.md        ← Übergabe-Modus: Dossier für EXTERNE Bauleitung statt
+                                         Versand (Leistungsschnitt SIA 102, Konsistenz-Gate,
+                                         WeTransfer-Übergabe) — gilt wenn Projekt-Stammdatei
+                                         den Modus setzt (z.B. 2414 Thalwil)
     grundlagen-ablage.md              ← wohin mit Grundlagen (Input)
     wissensluecken.md                 ← LEBENDE Luecken-Registry (bei Unsicherheit eintragen!)
     wochenplan-bauleitung.md          ← alternierender Wochenplan
@@ -105,6 +109,12 @@ BKP-Gruppen-Position „… gesamt"** mit Gruppentitel — **nicht** eine feiner
 5. **Antwortformular vorgegeben** — Anbieter fuellen ein einheitliches Formular aus (Firma, Referenzen, Lieferfrist, Vorbehalte) — vereinfacht spaeteren Vergleich.
 
 ## 3-Phasen-Workflow
+
+**VORAB PRÜFEN — Übergabe-Modus:** Steht in der Projekt-Stammdatei
+(`projekte/<projektnr>-*.md`) der Modus «Übergabe an Bauleitung» (externe örtliche
+Bauleitung macht die Submission), dann gilt NUR Phase 1 plus das Übergabe-Paket nach
+`wissensbasis/13_uebergabe-bauleitung.md` — kein Versand, keine Auswertung durch JANS,
+keine Begleitschreiben an Anbieter. Beispiel: 2414 Thalwil (Bauleitung pw Baumanagement).
 
 ### Phase 1: LV-Erstellung
 - Grundlage einlesen (Offerte eines Spezialplaners, Plaene, Bestand-Aufnahme, Ausschreibungstext)
