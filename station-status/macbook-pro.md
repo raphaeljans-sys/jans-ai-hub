@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 11.07.2026 06:09:49
+Stand: 11.07.2026 06:40:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 11.07.2026 06:09:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4a856801 nas-selfcommit: 2 Datei(en) 2026-07-11 06:00
+- a0b88f1b energie-training Run 33: Elektromobilität/Ladeinfrastruktur am Gebäude (F39 neu, Themenartikel) + Register
