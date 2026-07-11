@@ -112,9 +112,22 @@ async function offizielleAuslastung() {
   let gefunden = false;
   const bekannt = { five_hour: '5-Stunden-Fenster', seven_day: 'Woche (alle Modelle)', seven_day_opus: 'Woche (Opus)', seven_day_oauth_apps: 'Woche (Apps)' };
   for (const [k, v] of Object.entries(d)) {
-    if (v && typeof v === 'object' && ('utilization' in v || 'resets_at' in v)) {
+    if (v && typeof v === 'object' && typeof v.utilization === 'number') {
       druckeBlock(bekannt[k] || k, v); gefunden = true;
     }
+  }
+  // Modell-/Surface-spezifische Limiten (z.B. Fable-Wochenlimit)
+  for (const l of d.limits || []) {
+    if (l.scope && typeof l.percent === 'number') {
+      const name = `Woche (${l.scope.model?.display_name || l.scope.surface || l.kind})`;
+      druckeBlock(name, { utilization: l.percent, resets_at: l.resets_at }); gefunden = true;
+    }
+  }
+  // Extra Usage (kostenpflichtiger Verbrauch nach Limit-Erreichung)
+  const eu = d.extra_usage;
+  if (eu?.is_enabled) {
+    const f = 10 ** (eu.decimal_places ?? 2);
+    console.log(`  Extra Usage:           aktiviert — ${(eu.used_credits ?? 0).toFixed(2)} von ${(eu.monthly_limit / f).toFixed(2)} ${eu.currency}/Monat verbraucht`);
   }
   if (!gefunden) console.log(JSON.stringify(d, null, 2));
   return true;
