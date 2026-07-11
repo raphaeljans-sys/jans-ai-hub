@@ -422,7 +422,12 @@ wissen/
   den Skill `grobkosten-onepager` + Agent `grobkosten-rechner`), `spec/` (**Methodik-KB
   Spec-Methode** Karpathy/Marchese: 3-Layer-Modell + JANS-Gate + Verifier-Zuordnung je Domaene;
   reale Spec-Anwendungen als Goldstandards in `outputs/`; speist Skill `spec` + Rule `spec-methode`,
-  Lern-Loop `spec-training` alle 3 Tage).
+  Lern-Loop `spec-training` alle 3 Tage), `architekten-synobsis/` (**Katalog-/Tool-KB** ohne Wiki:
+  macht die Referenzbibliothek `/Volumes/daten/05_Architekten_Synobsis` — 853 Architekten, ~390'000
+  Dateien — durchsuchbar; Stichwort-/Facetten-/Semantik-Suche + CAD-Index, Batch-Laeufe auf dem
+  Mac Mini), `entwurfs-referenzen/` (Entwurfs-Referenzen fuer skriptorientiertes Entwerfen:
+  maschinenlesbare JSON-Parameter-Sets je Bauaufgabe/Typologie mit Schema-Validierung; speist
+  `volumenstudie`/`machbarkeit`/`grobkosten-onepager`).
 - **Bewertungs-Training:** Scheduled Task `immobewertung-training` (alle 2 Tage) arbeitet
   10 Themen des Wuest-Curriculums in die KB `immobilienbewertung` ein (`training/PROGRAMM.md`).
 - **Planungsgrundlagen-Training:** Scheduled Task `planungsgrundlagen-training` (alle 2 Tage)
