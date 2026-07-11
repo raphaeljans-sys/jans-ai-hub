@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-06
-sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG/PBV SZ)]
-links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-baurechtsanalysen-benchmarks]], [[machbarkeit]]
+last_updated: 2026-07-12
+sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage)]
+links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[machbarkeit]]
 ---
 
 # Recht & Norm — Quellenlandkarte (PL-02)
@@ -169,24 +169,39 @@ kantonsrat.zh.ch, zh.ch Umsetzungshilfe). Korrigiert den Run-11-Stand («kein fi
 
 - **Kt. ZH** wendet die **IVHB** (Interkantonale Vereinbarung Harmonisierung Baubegriffe) ueber
   das PBG/die ABV an — `02_Zuerich/Planung/IVHB_Leitfaden` ist die Lese-/Umsetzungshilfe.
-- **Kt. SZ** definiert die Mass-Begriffe direkt im **PBG SZ (SRSZ 400.100)** — und ist
-  **inzwischen IVHB-aligned**: die `(neu)`-Artikel fuehren **Geschossflaechenziffer (GFZ)** und
-  **Baumassenziffer (BMZ)** als Dichtemasse, **die Ausnuetzungsziffer ist kantonal abgeschafft**
-  (RRB 457/2014, `rrb_457_2014_M_Abschaffung_Ausnuetzungsziffer.pdf`).
+- **Kt. SZ** regelt die **Grenz-/Gebaeude-/Abstands-/Hoehenmasse** direkt im **PBG SZ (400.100,
+  SRSZ 1.2.2025)** — §§ 60/61/62/66/67 (unten amtlich bestaetigt). Die **harmonisierten
+  Dichtemasse (GFZ/BMZ/AZ) sind demgegenueber noch NICHT in Kraft** (Korrektur Run 18, s. Kasten).
 
-**Belegte SZ-Mass-Definitionen** (Screenshots `01_Gesetze/02_Schwyz`, Stand-Konsolidierung
-**SRSZ 1.2.2021** ⚠ >18 Mt. → vor Zitat aktuelle SRSZ-Fassung pruefen, s. QUESTIONS R2):
+> **⚠ Korrektur Run 18 (2026-07-12) — GFZ/BMZ in SZ sind Entwurf, nicht geltendes Recht:**
+> Die frueher hier gefuehrten «§ 31i (neu) GFZ / § 31g (neu) BMZ» stammen **nicht** aus dem
+> amtlichen PBG/PBV, sondern aus der **[Mitberichtsvorlage] «Verordnung zum Planungs- und
+> Baugesetz»** (Aenderung der PBV vom 2.12.1997, gestuetzt auf **§ 52 Abs. 3 PBG SZ** — der RR
+> «definiert die Baubegriffe, Messweisen … Er kann harmonisierte Baubegriffe uebernehmen»,
+> `sz.ch/public/upload/assets/51979/PBV_Vorlage.pdf`). Im Entwurf: **§ 31i = GFZ**, **§ 31j = BMZ**
+> (nicht § 31g!), **§ 31m = AZ**. Das **aktuelle amtliche PBG (400.100, Stand 1.2.2025)** und die
+> **PBV (400.111, Stand 1.2.2026)** enthalten **keine** dieser harmonisierten Dichteziffern (per
+> Volltext-Grep verifiziert 2026-07-12). Bis zur Inkraftsetzung der Verordnung gelten die
+> **kommunalen Baureglemente mit ihren bisherigen Massen** (vielerorts noch die **AZ** —
+> RRB 457/2014 schaffte die AZ kantonal ab, der neue Harmonisierungs-Katalog fuehrt sie als § 31m
+> aber wieder). Die IVHB-Rechenlogik bleibt brauchbar (GFZ = ΣGF/aGSF nach SIA-416-Struktur;
+> BMZ = Bauvolumen ueber massgebendem Terrain / aGSF) — nur die SZ-**§-Nummer** erst nach
+> Inkraftsetzung zitieren. **Vor jeder SZ-Dichteberechnung: pruefen, welches Mass die einschlaegige
+> kommunale/Bezirks-Ordnung wirklich nennt.**
 
-| § / Art. (SZ) | Mass | Belegte Kernregel (sinngemaess, kein Abschreiben) |
+**Belegte SZ-Mass-Definitionen** (PBG 400.100 amtlich **Stand 1.2.2025**, per Volltext geprueft
+2026-07-12 — der fruehere ⚠ >18-Mt.-Flag ist damit aufgeloest; Hoehen-/Neigungsdetails zusaetzlich
+aus Screenshots `01_Gesetze/02_Schwyz`):
+
+| § (PBG SZ 400.100) | Mass | Belegte Kernregel (sinngemaess, kein Abschreiben) |
 |---|---|---|
-| **§ 31i (neu)** | **Geschossflaechenziffer GFZ** | GFZ = ΣGF / aGSF. Geschossflaeche = HNF + NNF + VF + KF + FF (IVHB/SIA-416-Struktur); Flaechen unter gesetzl. Mindesthoehe zaehlen nicht. |
-| **§ 31g (neu)** | **Baumassenziffer BMZ** | BMZ = Bauvolumen ueber massgebendem Terrain / aGSF; Volumen im realen Aussenmass; teilweise umschlossene Bauteile anteilig. |
-| **§ 60** | **Gebaeudehoehe** | Mass vom **ausgemittelten gewachsenen Boden an der Fassadenmitte** bis Schnittpunkt Fassade↔Dachhaut (Flachdach: OK Dachabschluss). Giebeldreieck + Aufbauten ≤ 1/3 Fassadenlaenge **nicht** angerechnet; Dachneigung > 45° wird auf 45° gerechnet; gestaffelte Baukoerper je gesondert. **Grenzabstand = 50 % der Gebaeudehoehe, mind. 3 m** (bis 20 m GH). |
+| **§ 60** | **Gebaeudehoehe / Grenzabstand** | **§ 60 Abs. 1 amtlich:** «Fuer Bauten **bis und mit 30 m** Gebaeudehoehe betraegt der **Grenzabstand 50 % der Gebaeudehoehe, mindestens aber 3 m**.» Gebaeudehoehe = Mass vom **ausgemittelten gewachsenen Boden in der Fassadenmitte** bis Schnittpunkt Fassade↔Dachhaut (Flachdach: OK Dachabschluss). Giebeldreieck + Aufbauten ≤ 1/3 Fassadenlaenge **nicht** angerechnet; Dachneigung > 45° wird auf 45° gerechnet; gestaffelte Baukoerper je gesondert. |
 | **Art. 42 (BauR)** | **Firsthoehe** | lotrecht vom **Messpunkt OK First** bis Terrain; am Hang talseitig massgebend (Diagramm). |
 | **§ 61** | **Nebenbauten / unterirdische Bauten** | Nebenbau = eingeschossig, unbewohnt (Garage/Kleinbau), **≤ 3.50 m GH / 4.50 m FH / 60 m² Grundflaeche** → **Grenzabstand ≥ 2.50 m**. Unterirdische Bauten (Terrain ≤ 1 m ueberragt) duerfen bis 1 m an die Grenze; mit schriftl. Nachbar-Einwilligung bis an die Grenze. |
 | **§ 62** | **Ungleiche Grenzabstands-Verteilung** | bei gewahrtem **Gebaeudeabstand** per **Dienstbarkeitsvertrag** ungleich verteilbar; Dienstbarkeit ins Grundbuch. → vgl. Agent `dienstbarkeiten-pruefer`. |
-| **§ 67 PBG SZ** | **Waldabstand (Bau↔Wald)** | Mindestabstand Bauten/Anlagen zur **Waldgrenze = 15 m**, horizontal gemessen (§ 67 Abs. 1 PBG SZ). Ausnahme-Minima bei besonderen Verhaeltnissen: **Hauptbauten** 10 m ab Stockgrenze / 8 m ab Waldgrenze, **Nebenbauten/Terrainveraenderungen/UG-Teile** 6 m ab Stock- / 4 m ab Waldgrenze; Zufahrts-/Land-/Forstwirtschaftswege ausgenommen. Belegt sz.ch «Bauen und Wald» / Richtlinie Waldabstand + einsiedeln.ch Waldabstandsvorschriften 2018. |
-| **§ 35 PBV SZ (400.111)** | **Waldgrenze / Waldabstandslinie** (Bezugslinie, NICHT das Baumass) | Waldgrenzen werden nach Waldgesetzgebung festgestellt (Einzelfall auf Gesuch oder generell beim Zonenplan-Erlass). **Die Waldgrenze verlaeuft 2 m ausserhalb der im Waldfeststellungsverfahren vermessenen Stockgrenze.** In Grundbuch-/Zonenplaenen sind i.d.R. Stock- und Waldgrenze eingetragen; im Zonenplan kann zusaetzlich eine **Waldabstandslinie** eingezeichnet werden (→ Geodaten [[kartenportale-baulinien-abstandslinien-zh]]). Screenshot `Art 35 Waldabstand.png`. **Korrektur Run 15:** frueher hier als «Art. 35 Waldabstand» gefuehrt — § 35 PBV regelt die **Bezugslinie**, das numerische Baumass steht in **§ 67 PBG**. |
+| **§ 66** | **Gewaesserabstand** | **§ 66 Abs. 1 amtlich:** «Bei Fliessgewaessern und Seen entspricht der Gewaesserabstand dem **Gewaesserraum nach dem [GSchG]**.» Abs. 2: wo auf die Festlegung verzichtet wurde, **kein** Abstand. Abs. 3: Zustimmung kant. Stelle fuer Baubewilligungen im Gewaesserraum + Unterschreitung. → Bemessung [[recht-norm-abstandsvorschriften-wald-gewaesser]] §3–4. |
+| **§ 67** | **Waldabstand (Bau↔Wald)** | **§ 67 Abs. 1 amtlich:** «Bauten und Anlagen haben gegenueber Waeldern einen **Mindestabstand von 15 m ab Waldgrenze** einzuhalten.» Abs. 2: Erschliessungs-/Gueter-/Forststrassen im Abstandsbereich zulaessig. **Praezisierung Run 18:** die Ausnahme-Minima (Hauptbau 10/8, Nebenbau 6/4 m) stehen **nicht in § 67** selbst, sondern in der kant. Richtlinie/Praxis (sz.ch, einsiedeln.ch 2018) → vor Zitat verifizieren. Details → [[recht-norm-abstandsvorschriften-wald-gewaesser]] §2. |
+| **§ 35 PBV SZ (400.111)** | **Waldgrenze / Waldabstandslinie** (Bezugslinie, NICHT das Baumass) | Waldgrenzen werden nach Waldgesetzgebung festgestellt (Einzelfall auf Gesuch oder generell beim Zonenplan-Erlass). **Die Waldgrenze verlaeuft 2 m ausserhalb der im Waldfeststellungsverfahren vermessenen Stockgrenze.** In Grundbuch-/Zonenplaenen sind i.d.R. Stock- und Waldgrenze eingetragen; im Zonenplan kann zusaetzlich eine **Waldabstandslinie** eingezeichnet werden (→ Geodaten [[kartenportale-baulinien-abstandslinien-zh]]). Screenshot `Art 35 Waldabstand.png`. § 35 PBV regelt die **Bezugslinie**, das numerische Baumass steht in **§ 67 PBG**. |
 
 - **Planungs-Trap SZ:** die **kantonale** AZ-Abschaffung greift nicht automatisch auf jede
   **kommunale/Bezirks-Ordnung** durch — aeltere Zonen koennen via **Baureglement/Quartiergestaltungsplan
@@ -241,11 +256,18 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
   nachziehen. Parallele ZH-PBG-Revision **«Klimaangepasste Siedlungsentwicklung»** **erledigt
   2026-07-06 (Run 15): in Kraft seit 01.12.2024** (RRB 998/2024, § 238a PBG) — s. Abschnitt oben.
 - B3: `06_Richtlinien`-Wegweiser **erledigt 2026-06-20** — vertiefen je nach Projektbedarf.
-- R2: **SZ-Mass-Definitionen** (§ 31i/31g/60/61/62, Art. 42) belegt aus Screenshots (Stand
-  **SRSZ 1.2.2021**) — ⚠ >18 Mt., vor Zitat gegen aktuelle SRSZ-Fassung pruefen. **Aktuelle
-  amtliche SRSZ-PDF auf sz.ch:** PBG 400.100 (Stand 1.2.2025) / PBV 400.111 (Stand 1.2.2026),
-  `sz.ch/public/upload/assets/…/400_100.pdf` bzw. `…/400_111.pdf`.
+- R2: **SZ-Mass-Definitionen gegen aktuelle amtliche SRSZ-Fassung geprueft — erledigt 2026-07-12
+  (Run 18):** § 60/61/62/66/67 amtlich bestaetigt (PBG 400.100, **Stand 1.2.2025**, Volltext-Grep),
+  ⚠ >18-Mt.-Flag aufgeloest. **Wesentliche Korrektur:** die harmonisierten Dichtemasse GFZ/BMZ sind
+  in SZ **noch nicht in Kraft** — sie stehen nur in der **Vollzugsverordnungs-Vorlage**
+  (Mitberichtsvorlage, § 31i GFZ / § 31j BMZ / § 31m AZ, gestuetzt § 52 Abs. 3 PBG); amtliches
+  PBG/PBV enthalten sie nicht. **Offen:** Inkraftsetzung der Verordnung ueberwachen (sz.ch), dann §§
+  scharf zitieren.
 - R3: **Dispensrecht § 220 PBG erledigt 2026-07-06 (Run 15)** → eigener Artikel
-  [[recht-norm-dispensrecht]]; offen: zweiter Benchmark mit *gewaehrtem* Dispens (Hanglage).
-- B4: **SZ-Waldabstand erledigt 2026-07-06 (Run 15)** — § 67 PBG SZ = 15 m (Ausnahme-Minima
-  10/8 bzw. 6/4 m), § 35 PBV SZ = Waldgrenze 2 m ausserhalb Stockgrenze (s. SZ-Tabelle oben).
+  [[recht-norm-dispensrecht]]; offen: zweiter Benchmark mit *gewaehrtem* Dispens (Hanglage) — jetzt
+  auch als ZH-Waldabstand-Ausnahmefall in [[recht-norm-abstandsvorschriften-wald-gewaesser]] notiert.
+- B4: **Wald-/Gewaesserabstand ZH + SZ konsolidiert — erledigt 2026-07-12 (Run 18)** → eigener
+  Artikel [[recht-norm-abstandsvorschriften-wald-gewaesser]]: **ZH-Waldabstand 30 m Regel-Mass /
+  § 262 PBG Bauverbot / Dispens § 220 PBG (Gemeinde) + Art. 17 WaG (Forstdienst)**; **ZH-Gewaesserraum
+  GSchV Art. 41a/41b (GSB-abhaengig, See > 0.5 ha ≥ 15 m)**; SZ § 66/67 amtlich. Speist
+  `baulinien-analyst`/[[machbarkeit]] (M2).
