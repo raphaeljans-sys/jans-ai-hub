@@ -2,6 +2,33 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Training Run 18 (Recht/Norm/PL-02): Wald-/Gewaesserabstand ZH & SZ (B4/R8) + SZ-Massweisen-Refresh gegen amtliche SRSZ-Fassung (R2)
+- Schwerpunkt **Recht/Norm** (Rotation Run 17 Energie → Run 18 Recht/Norm). **Connector-Schritt:
+  nein** (Geodaten-Bezug ueber bestehenden `--produkt baulinien`). Quellen: PL-02/02_Zuerich/Wasser
+  AWEL-Merkblatt Gewaesserraum (Juli 2014), zh.ch Merkblatt «Baugesuch im Waldabstand» (Nov 2018) +
+  «Bauen im Wald und am Waldrand», amtliche SRSZ PBG 400.100 (Stand 1.2.2025) / PBV 400.111 (Stand
+  1.2.2026) + Vollzugsverordnungs-Vorlage (sz.ch).
+- **NEU [[recht-norm-abstandsvorschriften-wald-gewaesser]]** (established) — die zwei «gummigen»
+  Baufeld-Masse konsolidiert:
+  - **ZH-Waldabstand:** Regel-Mass **30 m**, Bauverbot Hochbauten **§ 262 PBG** zwischen Waldgrenze
+    und Waldabstandslinie, unterird. = Forstpolizeirecht, < 15 m immer forstlich; Ueberstellung nur
+    mit **§ 220 PBG (Gemeinde) + Art. 17 WaG (kant. Forstdienst)**, strenger Massstab.
+  - **ZH-Gewaesserraum:** GSchG Art. 36a / GSchV **Art. 41a/41b** (nat. GSB × Breitenvariabilitaet
+    ×1/1.5/2; Fliess <2 m→≥11 m / 2–15 m→≥2.5×GSB+7 m; Schutzgebiet-Tabelle; See > 0.5 ha ≥ 15 m ab
+    Ufer), Nutzungsbeschraenkung **Art. 41c**, Verfahren §§ 36–89 PBG + ARE/AWEL 60 Tage, Geodatum
+    gis.zh.ch «Gewaesser-Oekomorphologie» + § 15c HWSchV.
+  - **SZ:** § 66 Gewaesserabstand = Gewaesserraum GSchG / § 67 Waldabstand 15 m ab Waldgrenze.
+- **R2-Refresh + Korrektur in [[recht-norm-quellenlandkarte]]:** § 60/61/62/66/67 PBG SZ per
+  Volltext-Grep amtlich bestaetigt (**Stand 1.2.2025**), ⚠ >18-Mt.-Flag (SRSZ 1.2.2021) aufgeloest.
+  **Wesentliche Korrektur:** die harmonisierten Dichtemasse **GFZ/BMZ sind in SZ noch NICHT in
+  Kraft** — sie stehen nur in der [Mitberichtsvorlage] «Verordnung zum PBG» (§ 31i GFZ / **§ 31j**
+  BMZ statt faelschlich § 31g / § 31m AZ, gestuetzt § 52 Abs. 3 PBG); amtliches PBG/PBV enthalten sie
+  nicht. Bis Inkraftsetzung gelten die kommunalen Baureglemente (oft noch AZ).
+- **Register:** INDEX (neuer Artikel), curriculum (R2 refresh + NEU R8 [x]), QUESTIONS (R8 ✓ +
+  B4/R2-Abschluss), raw/_INGESTED (3 Zeilen), Frontmatter Quellenlandkarte.
+- **Speist** `baulinien-analyst`/[[machbarkeit]] (M2). **Naechster Lauf (Run 19):** Brandschutz
+  (PL-03), C6/B5 BSV 2026.
+
 ## 2026-07-10 — Training Run 17 (Energie/PL-04): Flaechenleistung Wp/m² + Modul-Preis-Anker je PV-Typ B/C/D (D5-Rest)
 - Schwerpunkt **Energie** (Rotation Run 16 Kartenportale → Run 17 Energie, Prioritaet). **Connector-
   Schritt: nein** (Domaene Energie hat keinen Connector). Quellen aus PL-04/Solaranlage (Typenordner

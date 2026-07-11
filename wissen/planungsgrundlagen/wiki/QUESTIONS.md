@@ -84,7 +84,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   reduzierte Pflanzabstaende 4 m/2 m + Strassenabstaende, **§ 238a PBG** Begruenung Aussenraum),
   daneben kommunale Musterbestimmungen/BZO → [[recht-norm-quellenlandkarte]]. **Offen (RPG 2):**
   ZH-PBG-/Richtplan-Umsetzung RPG 2 bei Publikation nachziehen.
-- [~] **B4 (R2)** SZ-Mass-Definitionen aus PL-02/02_Schwyz belegt erfassen. **2026-06-28 (Run 11):**
+- [x] **R8** Wald-/Gewaesserabstand ZH & SZ als beschaffbare Baufeld-Grundlage. ✓ **2026-07-12
+  (Run 18):** NEU [[recht-norm-abstandsvorschriften-wald-gewaesser]] — **ZH-Wald** 30 m Regel-Mass
+  (Merkblatt Abt. Wald Nov 2018), Bauverbot Hochbauten **§ 262 PBG** zwischen Waldgrenze und
+  Waldabstandslinie, < 15 m immer forstlich, Ausnahme = **§ 220 PBG (Gemeinde) + Art. 17 WaG
+  (kant. Forstdienst)**, strenger Massstab; **ZH-Gewaesserraum** GSchV **Art. 41a/41b** (nat. GSB ×
+  Breitenvariabilitaet ×1/1.5/2; Fliess <2 m→≥11 m / 2–15 m→≥2.5×GSB+7 m; Schutzgebiet-Tabelle;
+  See > 0.5 ha ≥ 15 m ab Ufer), Nutzungsbeschraenkung **Art. 41c**, Verfahren §§ 36–89 PBG +
+  ARE/AWEL 60 Tage, Geodatum gis.zh.ch «Gewaesser-Oekomorphologie»; **SZ** § 66 Gewaesserabstand =
+  Gewaesserraum GSchG / § 67 Waldabstand 15 m ab Waldgrenze (amtlich Stand 1.2.2025). Geodatum via
+  Connector 0150/0153/0185 → speist `baulinien-analyst`/M2. **Offen:** ZH-Wald-Ausnahmefall mit
+  *gewaehrtem* Dispens; SZ-Wald-Ausnahme-Minima aus sz.ch-Richtlinie (bisher einsiedeln.ch 2018).
+- [x] **B4 (R2)** SZ-Mass-Definitionen aus PL-02/02_Schwyz belegt erfassen. **2026-06-28 (Run 11):**
   Screenshots gelesen — **§ 31i GFZ / § 31g BMZ** (SZ ist IVHB-aligned, AZ kantonal abgeschafft),
   **§ 60 Gebaeudehoehe** (Fassadenmitte, GA 50 % GH min 3 m), **Art. 42 Firsthoehe**, **§ 61
   Nebenbauten** (≤ 3.5/4.5 m, 60 m², GA 2.5 m), **§ 62** ungleiche GA-Verteilung via Dienstbarkeit
@@ -94,8 +105,13 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   ausserhalb Stockgrenze) + Waldabstandslinie im Zonenplan — **nicht** das Baumass; das numerische
   **Waldabstand-Baumass steht in § 67 PBG SZ = 15 m** (Ausnahme-Minima Hauptbau 10/8 m, Nebenbau
   6/4 m; sz.ch Richtlinie Waldabstand + einsiedeln.ch 2018) → [[recht-norm-quellenlandkarte]]
-  SZ-Tabelle (Zeile korrigiert). **Offen:** ZH-Waldabstand-Baumass (zh.ch «Bauen im Wald und am
-  Waldrand») bei Bedarf ergaenzen.
+  SZ-Tabelle (Zeile korrigiert). **✓ ZH-Waldabstand-Baumass erledigt 2026-07-12 (Run 18):** 30 m
+  Regel-Mass / § 262 PBG Bauverbot → [[recht-norm-abstandsvorschriften-wald-gewaesser]] §1.
+  **✓ Refresh gegen amtliche SRSZ-Fassung 2026-07-12 (Run 18):** § 60/61/62/66/67 amtlich bestaetigt
+  (PBG 400.100 **Stand 1.2.2025**, Volltext-Grep), ⚠ >18-Mt.-Flag aufgeloest. **Korrektur:** GFZ/BMZ
+  noch NICHT in Kraft — nur Vollzugsverordnungs-Vorlage (§ 31i GFZ / § 31j BMZ / § 31m AZ, § 52
+  Abs. 3 PBG); amtliches PBG/PBV enthalten sie nicht (Grep verifiziert). **Offen:** Inkraftsetzung
+  der SZ-Verordnung ueberwachen; SZ-Wald-Ausnahme-Minima aus sz.ch-Richtlinie (bisher einsiedeln.ch).
 - [x] **R3** Dispensrecht: § 220 PBG als Muster-Wegweiser (aus `05_Dispensrecht`). ✓ **2026-07-06
   (Run 15):** NEU [[recht-norm-dispensrecht]] — 3-Stufen-Pruefung (besondere Verhaeltnisse in
   Topographie/Form/Lage; NICHT Vielzahl-Faelle/Haerten/persoenl. Verhaeltnisse · negative
