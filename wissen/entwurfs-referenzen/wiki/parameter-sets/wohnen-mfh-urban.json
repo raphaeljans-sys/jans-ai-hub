@@ -1,0 +1,70 @@
+{
+  "id": "wohnen-mfh-urban",
+  "name": "Mehrfamilienhaus urban — Geschosswohnungsbau (3–6 OG)",
+  "version": "1.0",
+  "quellen": [
+    "BWO Wohnungsmarktbericht 2024",
+    "SIA 416:2003 Flächen und Volumen",
+    "Wüest Partner Baukostenindex 2024",
+    "BFS Gebäudestatistik Kt. ZH"
+  ],
+  "gebaeude": {
+    "geschosse_min": 3,
+    "geschosse_max": 6,
+    "geschosshoehe_m": 2.80,
+    "grundriss_tiefe_m": [12.0, 14.5],
+    "fassaden_raster_m": null,
+    "erschliessung": "spänner",
+    "statik_system": "massivbau",
+    "dachform": "flachdach",
+    "orientierung_regeln": [
+      "Wohnräume Süd/West (Abendsonne)",
+      "Schlafräume Ost (Morgensonne, kühl im Sommer)",
+      "Nasszellen + Küchen nordseitig oder innenliegend",
+      "Durchgesteckte Wohnungen bevorzugt (Querlüftung)"
+    ]
+  },
+  "flaechen": {
+    "hnf_pro_einheit_m2": [75, 110],
+    "einheit_bezeichnung": "Wohnung (3.5–4.5 Zi)",
+    "vf_anteil": 0.18,
+    "agf_bgf_faktor": 0.85,
+    "nf_gf_faktor": 0.72
+  },
+  "materialien": {
+    "tragwerk": "massivbau",
+    "fassade": ["verputz-kompakt", "holz-metall-fenster"],
+    "dach": "flachdach-extensiv-begrünt",
+    "innenausbau_standard": "mittel"
+  },
+  "kosten_referenz": {
+    "chf_m3_gv_band": [700, 900],
+    "bkp_schwerpunkte": ["2 Gebäude", "21 Rohbau", "25 Heizung"],
+    "quelle_kb": "wissen/grobkosten/"
+  },
+  "entwurfs_regeln": [
+    "Mindestens 2 Wohnungen pro Geschoss (Spänner-Erschliessung wirtschaftlich)",
+    "Privater Aussenraum je Wohnung (Balkon/Loggia ≥ 6 m²)",
+    "Veloabstellplätze EG/UG (1.5 pro Wohnung, Kt. ZH)",
+    "Waschküche zentral UG oder eigener Tumbler/Waschmaschine",
+    "Kinderspielplatz ab 6 Wohnungen (PBG ZH §243)",
+    "Grenzabstand nach BZO (Kernzone kleiner, Wohnzone normal/gross)"
+  ],
+  "referenz_projekte": [
+    {
+      "name": "Wohnüberbauung Giebelweg",
+      "jans_nr": "2621",
+      "relevanz": "MFH Hanglage, Stufendach, massgebendes Terrain"
+    },
+    {
+      "name": "Siedlung Klee (pool Architekten)",
+      "jans_nr": null,
+      "architekt": "pool Architekten",
+      "relevanz": "Referenz kompakte Grundrisse, Erschliessung Laubengang"
+    }
+  ],
+  "rendering": {
+    "farbpalette": ["#FFFFFF", "#F0EDE8", "#D4CFC7"],
+    "stil": "weissmodell"
+  }
+}

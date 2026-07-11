@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JANS Entwurfs-Parameter-Set",
+  "description": "Maschinenlesbares Parameter-Set für skriptorientiertes Entwerfen. Beschreibt eine Bauaufgabe so, dass Entwurfstools (volumen_generator.py, c4d_szene.py) die Werte direkt lesen können.",
+  "type": "object",
+  "required": ["id", "name", "version", "gebaeude", "flaechen"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Eindeutiger Bezeichner (kebab-case), entspricht dem Dateinamen ohne .json"
+    },
+    "name": {
+      "type": "string",
+      "description": "Lesbarer Name des Parameter-Sets"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Versionsnummer (major.minor)"
+    },
+    "quellen": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Belegte Quellen für die Kennwerte (Bücher, Normen, Projekte)"
+    },
+    "gebaeude": {
+      "type": "object",
+      "description": "Geometrie-Parameter des Gebäudes",
+      "properties": {
+        "geschosse_min": { "type": "integer", "minimum": 1 },
+        "geschosse_max": { "type": "integer", "minimum": 1 },
+        "geschosshoehe_m": { "type": "number", "minimum": 2.0, "maximum": 8.0 },
+        "grundriss_tiefe_m": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Bandbreite [min, max] der Gebäudetiefe in Metern"
+        },
+        "fassaden_raster_m": {
+          "type": "number",
+          "description": "Fassadenraster / Achsmass in Metern"
+        },
+        "erschliessung": {
+          "type": "string",
+          "enum": ["mittelkorridor", "seitenkorridor", "laubengang", "spänner", "punkthaus-kern", "atrium", "freitreppe"],
+          "description": "Erschliessungstyp"
+        },
+        "statik_system": {
+          "type": "string",
+          "enum": ["skelett", "schottenbau", "massivbau", "holzrahmen", "holzmassiv", "hybridbau", "stahlbau"],
+          "description": "Tragsystem"
+        },
+        "dachform": {
+          "type": "string",
+          "enum": ["flachdach", "satteldach", "pultdach", "walmdach", "mansarddach", "stufendach", "sheddach"],
+          "description": "Dachform"
+        },
+        "orientierung_regeln": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Regeln zur Gebäudeorientierung (z.B. 'Zimmer Süd/Ost')"
+        }
+      }
+    },
+    "flaechen": {
+      "type": "object",
+      "description": "Flächen-Kennwerte",
+      "properties": {
+        "hnf_pro_einheit_m2": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "HNF pro Nutzeinheit [min, max] in m² (z.B. pro Bett, pro Wohnung)"
+        },
+        "einheit_bezeichnung": {
+          "type": "string",
+          "description": "Was ist die Nutzeinheit? (Bett, Wohnung, Arbeitsplatz, Zimmer)"
+        },
+        "vf_anteil": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Verkehrsflächen-Anteil an GF"
+        },
+        "agf_bgf_faktor": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Verhältnis anrechenbare Geschossfläche zu Bruttogeschossfläche"
+        },
+        "nf_gf_faktor": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Nutzflächen-Effizienz (NF/GF)"
+        }
+      }
+    },
+    "materialien": {
+      "type": "object",
+      "description": "Material-Vorgaben (Stichworte für Rendering + Kostenklasse)",
+      "properties": {
+        "tragwerk": { "type": "string" },
+        "fassade": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Fassadenmaterialien (mehrere möglich)"
+        },
+        "dach": { "type": "string" },
+        "innenausbau_standard": {
+          "type": "string",
+          "enum": ["einfach", "mittel", "gehoben", "luxus"],
+          "description": "Ausbaustandard"
+        }
+      }
+    },
+    "kosten_referenz": {
+      "type": "object",
+      "description": "Verknüpfung zu Kostenkennwerten",
+      "properties": {
+        "chf_m3_gv_band": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Kostenbandbreite CHF/m³ GV [min, max]"
+        },
+        "bkp_schwerpunkte": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Relevante BKP-Positionen"
+        },
+        "quelle_kb": {
+          "type": "string",
+          "description": "Pfad zur Quell-KB (z.B. wissen/grobkosten/)"
+        }
+      }
+    },
+    "entwurfs_regeln": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Textuelle Entwurfsregeln (Zonierung, Besonderheiten, Normen)"
+    },
+    "referenz_projekte": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "jans_nr": { "type": ["string", "null"], "description": "JANS-Projektnummer oder null bei externen" },
+          "architekt": { "type": "string", "description": "Architekt (bei externen Referenzen)" },
+          "relevanz": { "type": "string" }
+        },
+        "required": ["name", "relevanz"]
+      }
+    },
+    "rendering": {
+      "type": "object",
+      "description": "Optionale Rendering-Parameter für c4d_szene.py / axo_render.py",
+      "properties": {
+        "farbpalette": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Hex-Farben oder Materialnamen"
+        },
+        "stil": {
+          "type": "string",
+          "enum": ["weissmodell", "materialmodell", "collage", "strichzeichnung"],
+          "description": "Visualisierungsstil"
+        }
+      }
+    }
+  }
+}
