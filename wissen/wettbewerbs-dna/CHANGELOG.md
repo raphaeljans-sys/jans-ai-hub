@@ -1,5 +1,24 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-12 — Volllast-Abschluss (Session MacBook Pro, spaetabends)
+- **Archiv komplett:** die letzten zwei Teilnahmen destilliert + refuter-verifiziert →
+  established: 2501 Steinfabrik «SEESTERN» (nicht rangiert, Sieger «ALINGHI»),
+  2507 PS Halden «LIMO» (Resultat offen, kein Jurybericht). Damit **11 von 11 Teilnahmen**
+  destilliert (2502 leer = pruefen).
+- **Draft-Verifikation:** 2104 Theater, 2205 Guggerbach, 2207 Schliengerweg, 2503 Glockenacker
+  je Refuter geprueft (alle BESTANDEN, Korrekturen eingearbeitet) → established.
+  Stand jetzt: 9 established, 2 draft (nur 2102/2206 wegen Rang-Diskrepanz mit Raphael).
+- **Referenz-Verifikationswelle:** 15 externe Jury-Notizen + 9 Board-DNA-Analysen (48 Agenten,
+  0 Fehler); 22 von 24 auf established gehoben, Rest-draft nur bei OCR-/Scan-Vorbehalt.
+- **Muster-Synthesen (Hauptsession, inline):** `muster/jury-argumente-schulbauten.md`
+  (Jury-DNA aus 15+3 Berichten) und `muster/jans-board-dna.md` (9 Board-Analysen, im
+  Nachbrenner-Lauf zur reicheren «Plakat-Handschrift» ausgebaut).
+- **Normbezug:** SIA 400:2000 destilliert (wissen/normen/), SIA 142/143:2009 bereits vorhanden,
+  im INDEX unter «Normbezug» verlinkt. Reports: Generalprobe Muttenz, PDF-Vektor-Pilot,
+  Massnahmen-Skill-wettbewerb (M1–M6).
+- INDEX komplett neu geschrieben (Registerstand); QUESTIONS um die Rang-Diskrepanzen + neue
+  offene Punkte ergaenzt.
+
 ## 2026-07-12 — Muster-Artikel `muster/jans-board-dna.md` verdichtet (Fach-Bibliothekar-Lauf)
 - **Aktion:** `wiki/muster/jans-board-dna.md` neu geschrieben (Status `draft`) als
   Verdichtung aller neun Board-DNA-Einzelanalysen (2101, 2102, 2103, 2205, 2206, 2207,

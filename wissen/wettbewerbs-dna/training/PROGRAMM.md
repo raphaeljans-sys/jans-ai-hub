@@ -29,6 +29,11 @@ Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
 |---|---|---|---|
 | Seed | 12.07.2026 | KB-Anlage + 2102/2206/2408 destilliert, refuter-verifiziert (2408 established; 2102/2206 draft wegen Rang-Diskrepanz), Muster delta-zum-ersten-rang angelegt | erledigt |
 | Zwischen | 12.07.2026 (~19:00) | 2101, 2103, 2205, 2503 als Dossier `draft` angelegt (raw-Extrakte + Bericht/Programm ausgewertet); Bookkeeping (INDEX/QUESTIONS/CHANGELOG/PROGRAMM) NICHT nachgefuehrt | von Lauf 2 nachgezogen |
-| 2 | 12.07.2026 (23:00) | 2101 KSSG + 2103 Steinhof refuter-verifiziert → **established** (beide BESTANDEN); INDEX auf realen Stand gebracht (2205/2503 als draft eingetragen), QUESTIONS + CHANGELOG nachgefuehrt. Stand: 3 established, 4 draft, 4 ausstehend, 1 pruefen | erledigt |
+| 2 | 12.07.2026 (23:00) | 2101 KSSG + 2103 Steinhof refuter-verifiziert → **established**; INDEX-Reconcile | erledigt |
+| Volllast | 12.07.2026 (Nacht) | 2104/2207/2501/2507 destilliert + verifiziert; 2205/2503 verifiziert; alle → established (ausser 2102/2206 draft). 15 extern + 9 board-dna verifiziert (22/24 established). Muster jury-argumente-schulbauten + jans-board-dna. Normbezug SIA 400/142/143. Reports Generalprobe + PDF-Pilot + Massnahmen | erledigt |
 
-Naechster Lauf: 2205 Guggerbach + 2503 Glockenacker verifizieren (bereits als draft vorhanden), danach 2104/2207/2501/2507 destillieren. 2102/2206 Rang-Diskrepanz mit Raphael klaeren (QUESTIONS). Muster-Verdichtung faellig beim naechsten «dritten Lauf».
+**Endbedingung Etappe 2 (Teil 1) ERREICHT:** alle 11 Teilnahmen destilliert + verifiziert
+(2502 leer). Offen bleibt: (a) Rang-Diskrepanz 2102/2206 mit Raphael klaeren (dann established);
+(b) Muster `delta-zum-ersten-rang` auf alle 11 verdichten; (c) Etappe 3 = konkurado-Erweiterung
+je Ziel-Bauaufgabe (Bauaufgaben-Prioritaeten bei Raphael abholen). Loop kann auf reduzierten
+Takt/Etappe 3 umgestellt werden.

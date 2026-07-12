@@ -1,6 +1,6 @@
 ---
 title: 2501 WB Steinfabrik — Arealentwicklung Hafenareal Pfäffikon SZ (SEESTERN)
-status: draft
+status: established
 last_updated: 2026-07-12
 sources: [2501-steinfabrik-hafenareal_entscheid-preisgericht-eml.txt, 2501-steinfabrik-hafenareal_programm.txt, 2501-steinfabrik-hafenareal_kenndatenblatt-allgemein.txt, 2501-steinfabrik-hafenareal_eigener-projekttext-seestern.txt]
 links: []
@@ -11,11 +11,12 @@ links: []
 ## 1. Stammdaten
 
 - Verfahren: **Zweistufiger Projektwettbewerb im offenen Verfahren**, anonym, nach
-  Ordnung SIA 142 (subsidiär, referenziert Art. 27.1/27.2; Programm S. 18); zwei
+  Ordnung SIA 142 (subsidiär, referenziert Art. 27.1 Programm S. 18, Art. 27.2 Programm
+  S. 19); zwei
   Bearbeitungsstufen plus allfällige Bereinigungsstufe (Programm S. 7, 16). Ausschreibung
   am 10.01.2025 in TEC21 sowie auf espazium.ch und konkurado.ch (Programm S. 21).
 - Auslober/Auftraggeberin: **Hafenareal Pfäffikon SZ AG**, Neutalstrasse 13c, 8852
-  Altendorf (Programm S. 1, Grundeigentümerin der Parzelle Kat. Nr. 581; Programm S. 5).
+  Altendorf (Programm S. 2, Grundeigentümerin der Parzelle Kat. Nr. 581; Programm S. 5).
   Verfahrensbegleitung/Vorprüfung: SUTER • VON KÄNEL • WILD Planer und Architekten AG,
   Zürich (Peter von Känel, Luca Imoberdorf; Programm S. 17). Anonymitätswahrung/
   Rückmeldungen an die Teams: Rechtsanwalt und Notar Christof Brack, Brack & Partner AG,
@@ -29,7 +30,8 @@ links: []
   35). Ca. 20'500 m2 des Areals sollen dem Naturschutzgebiet und einem Pufferbereich
   gewidmet und nicht überbaut werden (Programm S. 4). Betrachtungsperimeter 62'208 m2,
   Bearbeitungsperimeter = Parzelle Kat. Nr. 581, 51'548 m2 (Programm S. 37).
-- Jahr: Programm 09./12.2024 (Programmverabschiedung Dez. 2024; Programm S. 21). Abgabe
+- Jahr: Programm Dez. 2024 (Titelblatt 9.12.2024, Kenndatenblatt 12.12.2024;
+  Programmverabschiedung Dez. 2024; Programm S. 21). Abgabe
   1. Stufe 30.05.2025, Abgabe 2. Stufe Pläne 07.11.2025 / Modell 21.11.2025; Beurteilung
   2. Stufe 27./28.11.2025, Rangierung 11.12.2025; Mitteilung Entscheid 10.02.2026;
   Jurybericht angekündigt «gegen Ende März 2026» (Programm S. 21, 23;
@@ -41,8 +43,9 @@ links: []
   (1. Rang / 1. Preis «ALINGHI» CHF 130'000; 2. «ECOTONE» CHF 70'000; 3. «SRIRACHA»
   CHF 50'000; 4. «VORDERHOF» CHF 35'000; 5. «SOMMERFRISCHE» CHF 30'000; 6. «ZANDER»
   CHF 25'000; 7. «BINSECK» CHF 20'000). Der JANS-Beitrag **SEESTERN erscheint nicht in
-  dieser Rangierung**. Rahmen: Für die 2. Stufe waren «8 bis 12 beste Projektvorschläge»
-  vorgesehen (Programm S. 22), beabsichtigt waren «5 bis 7 Preise» bei Gesamtpreissumme
+  dieser Rangierung**. Rahmen: Für die 2. Stufe waren «Die 8 bis 12 besten
+  Projektvorschläge» vorgesehen (Programm S. 23), beabsichtigt waren «5 bis 7 Preise»
+  bei Gesamtpreissumme
   CHF 500'000 (Programm S. 18). Ob JANS bereits nach der 1. Stufe ausschied oder in der
   2. Stufe unrangiert blieb, ist aus den vorliegenden Quellen nicht eindeutig (siehe
   Offene Fragen).
@@ -69,8 +72,8 @@ links: []
   Gewerbe/Dienstleistung. Gewerbe im westlichen Arealteil (zum Unterdorf/Chilbiplatz
   orientiert), ruhigere Wohnnutzung im östlichen Teil; hochwertiges individuelles Wohnen
   für solvente Kundschaft, dazu Segment preisgünstiger Wohnraum (WFG, SR 842; Programm
-  S. 40). Ladenfläche je Verkaufsgeschäft max. 600 m2; Kindergarten (Raum 72 m2 +
-  Gruppenraum 36 m2) im Gewerbe-EG West zwingend (Programm S. 39).
+  S. 40). Ladenfläche je Verkaufsgeschäft max. 600 m2 (Programm S. 39); Kindergarten
+  (Raum 72 m2 + Gruppenraum 36 m2) im Gewerbe-EG West zwingend (Programm S. 40).
 - Landschaft/Ökologie als Kern der Aufgabe (Programm S. 4–5, 35, 45): ca. 20'500 m2 dem
   erweiterten Naturschutzgebiet Frauenwinkel und einem Pufferbereich widmen; klare
   Gliederung in Naturräume und bebaubare Bereiche; Aufwertung Landschaftsraum und
@@ -79,7 +82,7 @@ links: []
   Salewski Nater Kretz / Rotzler 2020/21 und Testplanung 2021/22 (Programm S. 32–34).
 - Weitere Vorgaben: Seeabstand 30 m, Gewässerraum min. 15 m (Übergang 20 m, noch pendent
   → Flexibilität gefordert); historische Sichtverbindung Schlossturm Pfäffikon ↔ Schloss
-  Rapperswil freihalten (Programm S. 38). Parkierung: Tiefgarage, VSS-Komfortstufe B;
+  Rapperswil freihalten (Programm S. 39). Parkierung: Tiefgarage, VSS-Komfortstufe B;
   Schutzraumpflicht für Wohnnutzung (Programm S. 26, 31).
 - Abgabe: 1. Stufe max. 4 Pläne A0 quer (Schwarzplan 1:2'500, Situationsplan 1:500,
   Regelgrundrisse 1:200, Schema-Grundrisse/Schnitte 1:500, EH-Schema, Erläuterungen)
@@ -148,8 +151,9 @@ links: []
   beurteilt die Projekte der 2. Bearbeitungsstufe wie folgt» — 1. Rang «ALINGHI», 2.
   «ECOTONE», 3. «SRIRACHA», 4. «VORDERHOF», 5. «SOMMERFRISCHE», 6. «ZANDER», 7. «BINSECK».
   Der Beitrag SEESTERN ist nicht rangiert. Das Preisgericht dankt «allen Teilnehmenden
-  der 1. und 2. Bearbeitungsstufe» und verweist auf das «breite Lösungsspektrum der
-  Projektvorschläge».
+  der 1. und 2. Bearbeitungsstufe» und verweist auf das breite Lösungsspektrum der
+  Projektvorschläge (E-Mail verbatim: «Dank dem breiten Lösungsspektrum der
+  Projektvorschläge»).
 - **Keine projektbezogene Würdigung verfügbar.** Die Mitteilung enthält ausschliesslich
   die Rangliste, kein Lob/keine Kritik zu einzelnen Projekten. Der Jurybericht mit den
   «detaillierten Projektwürdigungen» war laut E-Mail erst «gegen Ende März 2026»
