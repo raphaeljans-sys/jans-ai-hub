@@ -214,6 +214,24 @@ dieser automatisch erkannt und ausgefuehrt.
 - **WICHTIG**: Wenn Claude auf einer Station gestartet wird und das NAS gemountet ist,
   IMMER zuerst `/station-sync` pruefen ob offene Tasks von der anderen Station vorliegen.
 
+### Remote-Orchestrierung (Claude-Sessions steuern die Stationen selbstaendig)
+
+Jede Claude-Session kann Arbeit auf den Stationen ausfuehren lassen — ohne
+Bildschirmfreigabe und ohne manuelle Freigabe pro Schritt. Protokoll und
+Beispiele: `remote-tasks/README.md`.
+
+| Von wo | Weg | Latenz |
+|---|---|---|
+| claude.ai/code (Cloud-Container, KEIN LAN-/Tailscale-Zugriff) | Task-Queue: Script nach `remote-tasks/pending/<mac-mini\|macbook-pro>/*.sh`, committen+pushen; Ergebnis kommt via `remote-tasks/results/<name>/` zurueck | ~5–10 Min (git-auto-sync alle 5 Min) |
+| Claude Code lokal auf dem MacBook Pro | direkt `ssh mini "<befehl>"` — Schluessel-Login ohne Passwort, seit 12.07.2026 (SSH+tmux, Konzept: `docs/konzepte/260712-Mac-Mini-Terminal-Verbindung.md`) | sofort |
+| Handy (Dispatch/Cowork) | `scripts/dispatch-run.sh "<Auftrag>"` auf dem Mac Mini | sofort |
+
+- Task-Helfer: `bash scripts/remote-task-create.sh <mini|macbook> <name> [--push]`
+- Voller JANS-Harness in einem Task: darin `bash scripts/dispatch-run.sh "<Auftrag>"` aufrufen
+- Standard-Ziel ist der Mac Mini (Always-On); das MacBook arbeitet Tasks ab, sobald es wach ist
+- Interaktiv fuer Menschen: Befehl `mini` auf dem MacBook (SSH+tmux statt Bildschirmfreigabe);
+  nach Neustart des Mini einmal `security unlock-keychain`, sonst meldet Claude Code «Not logged in»
+
 ## Output-Ablage
 
 Alle Export-Dokumente (PDFs, Reports, Agent-Outputs) werden auf SharePoint abgelegt:

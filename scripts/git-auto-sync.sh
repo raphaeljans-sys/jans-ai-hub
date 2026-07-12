@@ -91,9 +91,9 @@ fi
 # >>> REMOTE-TASK-RUNNER-HOOK (installiert von remote-tasks/install.sh)
 # Nach jedem Pull: pruefen ob Remote-Tasks vorliegen
 if [ -d "$REPO_DIR/remote-tasks/pending" ]; then
-    RTASKS=("$REPO_DIR"/remote-tasks/pending/*.sh)
-    if [ ${#RTASKS[@]} -gt 0 ] && [ -f "${RTASKS[0]}" ]; then
-        log "REMOTE-TASKS: ${#RTASKS[@]} Task(s) gefunden — starte Runner"
+    # Tasks im Root UND in Stations-Unterordnern (mac-mini/, macbook-pro/) erkennen
+    if find "$REPO_DIR/remote-tasks/pending" -name '*.sh' -print -quit 2>/dev/null | grep -q .; then
+        log "REMOTE-TASKS: Task(s) gefunden — starte Runner"
         bash "$REPO_DIR/remote-tasks/runner.sh" >> "$LOG_FILE" 2>&1
     fi
 fi
