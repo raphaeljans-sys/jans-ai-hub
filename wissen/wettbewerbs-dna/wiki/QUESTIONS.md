@@ -11,3 +11,11 @@ Stand: 12.07.2026
 - Druckvorstufen-Standard JANS (PDF/X-Variante, Beschnitt, Druckerei) dokumentieren.
 - Welche Bauaufgaben sind fuer kuenftige Teilnahmen prioritaer? (steuert die
   konkurado-Erweiterung in Etappe 3)
+- 2102 Muttenz — Resultat-Diskrepanz: Raphael bestätigt «2. Platz» (12.07.2026),
+  der Jurybericht (S. 15, 39) belegt aber 4. Rang / 3. Preis für Nr. 20
+  «PATIO IM PIANO NOBILE» (2. Rang ging an Nr. 03 «DER GRÜNE HEINRICH»).
+  Mit Raphael klären; INDEX-Eintrag danach korrigieren.
+- 2102 Muttenz — absolute Kennzahlen (GF/GV/Kosten) des eigenen Beitrags fehlen:
+  Formular Bauökonomie liegt im lokalen OneDrive-Sync nicht vor (Abgabe-Unterordner
+  01 Pläne / 03 Bericht / 04 Beschriftung sind leere Platzhalter); im
+  SharePoint-Original nachschlagen.

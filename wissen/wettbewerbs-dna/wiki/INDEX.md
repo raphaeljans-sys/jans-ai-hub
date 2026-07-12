@@ -7,13 +7,13 @@ Stand: 12.07.2026 (Anlage)
 | Nr | Projekt | Bauaufgabe | Resultat | Dossier | Status |
 |---|---|---|---|---|---|
 | 2101 | WB StGallen KSSG H14 | Spital | offen | — | ausstehend |
-| 2102 | WB Muttenz | Sekundarschule | **2. Platz** | teilnahmen/2102-muttenz.md | in Arbeit |
+| 2102 | WB Muttenz (SEK Hinterzweien) | Sekundarschule + Sporthalle | **4. Rang / 3. Preis** (Jurybericht S. 15; Diskrepanz zu Aussage «2. Platz» offen) | teilnahmen/2102-muttenz.md | draft |
 | 2103 | WB Luzern Steinhofschule | Schulanlage | offen | — | ausstehend |
 | 2104 | WB Luzern Theater | Theater | offen | — | ausstehend |
 | 2205 | WB Guggerbach | offen | offen | — | ausstehend |
-| 2206 | WB Schoental | offen | **2. Platz** | teilnahmen/2206-schoental.md | in Arbeit |
+| 2206 | WB Schoental (Altstaetten) | Primarschule + Kindergarten | **3. Rang / 3. Preis** (Schlussbericht S. 11; Diskrepanz zu Aussage «2. Platz» offen) | teilnahmen/2206-schoental.md | draft |
 | 2207 | WB Basel (Schliengerweg) | offen | offen | — | ausstehend |
-| 2408 | WB BIWAK (Grassen) | Biwak/Huette | offen | teilnahmen/2408-biwak-grassen.md | in Arbeit |
+| 2408 | WB BIWAK (Grassen) | Biwak (18 Schlafplaetze) | ausgeschieden 2. Rundgang | teilnahmen/2408-biwak-grassen.md | draft |
 | 2501 | Hafenareal SZ (Steinfabrik) | offen | offen | — | ausstehend |
 | 2502 | (leer) | — | — | — | pruefen |
 | 2503 | Studienauftrag Glockenacker | offen | offen | — | ausstehend |
@@ -21,7 +21,7 @@ Stand: 12.07.2026 (Anlage)
 
 ## Muster (verallgemeinerte DNA)
 
-- muster/zweite-plaetze-delta.md — Was fehlte zum 1. Platz? (in Arbeit)
+- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? (Basis 3 Dossiers, draft)
 
 ## Offene Fragen
 

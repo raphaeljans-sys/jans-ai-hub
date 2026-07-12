@@ -1,0 +1,90 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/09 Dokumente/08_Abgabe/02_Endabgabe/B12_Formular_Volumen-Flächen.xlsx
+# Extrakt: XML-Zellwerte (sheet1), 12.07.2026 — eigenes Abgabeformular Volumen/Flaechen
+
+A1 | Projektwettbewerb Neubau Schulhaus Schöntal Altstätten
+A3 | Bitte nur die gelb hinterlegten Felder ausfüllen. 
+A4 | Bei keiner Angabe bitte «0» eingeben.
+A6 | Kennwort
+C6 | ARCHE
+A8 | Nachweis Volumen und Flächen  nach SIA 416
+B8 | Neubau m2
+C8 | Kennzahlen 
+A10 | Allgemeine Kennzahlen
+C10 | m2
+A11 | Bearbeitungsgebiet
+C11 | 4940
+A12 | Gebäudegrundfläche Neubau
+C12 | 723
+A13 | Umgebungsfläche Neu
+C13 | 500
+A15 | Geschossfläche (GF)
+C15 | m2
+A16 | GF oberirdisch
+C16 | 1446
+A17 | GF unterirdisch
+C17 | 346
+A18 | GF total:
+C18 | 1792
+A20 | GF Untergeschoss
+C20 | 292
+A21 | Nebennutzfläche (NNF)
+C21 | 8
+A22 | Hauptnutzfläche (HNF)
+C22 | 154
+A23 | Verkehrfläche (VF)
+C23 | 73
+A24 | Funktionsfläche (FF)
+C24 | 57
+A25 | GF 1. Obergeschoss
+C25 | 621
+A26 | Nebennutzfläche (NNF)
+C26 | 78
+A27 | Hauptnutzfläche (HNF)
+C27 | 473
+A28 | Verkehrfläche (VF)
+C28 | 69
+A29 | Funktionsfläche (FF)
+C29 | 1
+A30 | GF 2. Obergeschoss
+C30 | 632
+A31 | Nebennutzfläche (NNF)
+C31 | 17
+A32 | Hauptnutzfläche (HNF)
+C32 | 546
+A33 | Verkehrfläche (VF)
+C33 | 68
+A34 | Funktionsfläche (FF)
+C34 | 1
+A35 | GF 3. Obergeschoss
+C35 | 0
+A36 | Nebennutzfläche (NNF)
+A37 | Hauptnutzfläche (HNF)
+A38 | Verkehrfläche (VF)
+A39 | Funktionsfläche (FF)
+A40 | GF total:
+C40 | 1545
+A41 | Nebennutzfläche (NNF)
+C41 | 103
+A42 | Hauptnutzfläche (HNF)
+C42 | 1173
+A43 | Verkehrfläche (VF)
+C43 | 210
+A44 | Funktionsfläche (FF)
+C44 | 59
+A46 | Gebäudevolumen (GV)
+C46 | m3
+A47 | GV oberirdisch
+C47 | 5710
+A48 | GV unterirdisch
+C48 | 1175
+A49 | GV total:
+C49 | 6885
+A51 | GV Untergeschoss
+C51 | 1175
+A52 | GV 1. Obergeschoss
+C52 | 2820
+A53 | GV 2. Obergeschoss
+C53 | 2890
+A54 | GV 3. Obergeschoss
+A55 | GV total:
+C55 | 6885
