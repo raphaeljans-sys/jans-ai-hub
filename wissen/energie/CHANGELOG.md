@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 38: Wärmebrücken Flachdach-Vordach + -Brüstung (F51–F52) — Gruppe 1 komplett
+- **2 neue Destillate → 80 total:**
+  - `waermebrueckenkatalog-bfe-flachdach-vordach` (emerging) — BFE-Wärmebrückenkatalog Gruppe 1.2
+    (S. 24-32). Ungedämmtes, durchbetoniertes Vordach Ψ 0,40-0,53 W/(m·K) gg. Grenzwert 0,30
+    (1,3-1,8× drüber); mit Dorn-Anschluss (thermisch getrennt statt durchgehende Platte) sinkt der
+    Wert auf −0,08 bis 0,04 — praktisch keine Wärmebrücke mehr.
+  - `waermebrueckenkatalog-bfe-flachdach-bruestung` (emerging) — Gruppe 1.3 (S. 33-38). Zentraler
+    Befund: das Brüstungs-**Material** dominiert stärker als die Dämmung — eine ungedämmte
+    Backstein-Brüstung (Ψ 0,02-0,09) liegt bereits unter dem Grenzwert, eine gedämmte
+    Stahlbeton-Brüstung (Ψ 0,12-0,26) bleibt in derselben Grössenordnung wie die ungedämmte
+    Backstein-Variante.
+- **FAQ 50 → 52 Kernfragen:** F51 (Vordach-Wärmebrücke, Materialwahl der thermischen Trennung),
+  F52 (Attika-/Brüstungs-Wärmebrücke, Material schlägt Dämmung).
+- `u-werte-grenzwerte-ch` um zwei weitere Wärmebrücken-Abschnitte erweitert — mit Balkonplatte
+  (1.1), Vordach (1.2) und Brüstung (1.3) ist **Gruppe 1 (Flachdach-Anschlüsse) des
+  BFE-Wärmebrückenkatalogs jetzt vollständig belegt**.
+- Register nachgeführt: `destillate/INDEX.md`, `training/pdf-inventar.md` (nicht betroffen, ist
+  keine PL-04-Quelle), `training/curriculum.md` (A4: Gruppe 1 abgeschlossen, offen nur noch
+  Steildach/Stützen/Fassadenanker), `wiki/INDEX.md`, `raw/_INGESTED.md` (+2 Zeilen).
+
+## Verifikations-Stufe (Pflicht seit 12.07.2026)
+Beide neuen Destillate bleiben `emerging` trotz Primärquellen-Lektüre: Katalog-Basis 2002/SIA
+380/1:2001, nicht gegen die heute geltende Norm-Edition gegengeprüft; nur Teilauszug der jeweiligen
+Gruppe gelesen. Grössenordnung/Prinzip (thermische Trennung bzw. Materialwahl als dominanter
+Hebel) gilt, exakter Zahlenwert vor einer Baueingabe an aktueller Norm/Software zu verifizieren.
+
 ## 2026-07-12 — Run 37: Wärmebrücken Fensteranschluss + Sockel (F49–F50) + MuKEn-2025-Grauenergie-Formel
 - **2 neue Destillate → 78 total:**
   - `waermebrueckenkatalog-bfe-fensteranschluss` (emerging) — BFE-Wärmebrückenkatalog Gruppe 4.1,

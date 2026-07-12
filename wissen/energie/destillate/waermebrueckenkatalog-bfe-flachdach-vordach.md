@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 1.2 «Flachdach mit Vordach» (S. 24-32), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-12 (S. 24-32 vollst. via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 24-32 vollst. via Read/PDF-Bildextraktion)
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
 status: emerging
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 links: [[waermebrueckenkatalog-bfe-balkonplatte]], [[waermebrueckenkatalog-bfe-flachdach-bruestung]], [[waermebrueckenkatalog-bfe-sockel]], [[waermebrueckenkatalog-bfe-fensteranschluss]]
 ---
 

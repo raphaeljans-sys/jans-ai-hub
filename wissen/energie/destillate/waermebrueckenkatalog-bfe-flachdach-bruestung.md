@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 1.3 «Flachdach mit Brüstung» (S. 33-39), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-12 (S. 33-38 vollst. via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 33-38 vollst. via Read/PDF-Bildextraktion)
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
 status: emerging
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 links: [[waermebrueckenkatalog-bfe-flachdach-vordach]], [[waermebrueckenkatalog-bfe-balkonplatte]], [[waermebrueckenkatalog-bfe-sockel]]
 ---
 
