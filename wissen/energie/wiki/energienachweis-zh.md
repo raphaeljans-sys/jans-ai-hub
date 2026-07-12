@@ -1,9 +1,9 @@
 ---
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-07-12
 sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[u-werte-grenzwerte-ch]] [[minergie-standards]]
+links: [[INDEX]] [[BAUHERREN-FAQ]] [[u-werte-grenzwerte-ch]] [[minergie-standards]] [[muken-2025-verabschiedet]]
 ---
 
 # Energienachweis Kanton Zürich (EN-ZH / EVEN)
@@ -76,6 +76,13 @@ EN-ZH/EN-105/EN-110-ZH ergeben. Modellstaerke ersetzt die Gegenkontrolle nicht �
 Formular-/Identifikatorangaben gilt Rule `identifikatoren-verifizieren`. Der Auflagen-Wortlaut
 selbst ist hier bewusst **nicht** reproduziert (nur die belegte Formularzuordnung). Speist den
 Skill `auflagebereinigung` (Fall 2619).
+
+## Ausblick — MuKEn 2025 (noch nicht in Kraft)
+Die EnDK hat am **29.08.2025** die MuKEn 2025 verabschiedet — die naechste absehbare Revisionsstufe
+fuer das heutige EnerG (Basis MuKEn 2014). Zentrale Aenderungen: **Fossilverbot** statt Mindestquote
+im Neubau, PV-Pflicht verschaerft auf **20 W/m² EBF** (heute ZH 10 W/m², EN-104-ZH), neues **Modul
+Graue Energie (Teil G)**. Noch **kein geltendes Recht** — Umsetzung im Kt. ZH nicht terminiert
+(Stand 2026-07-12). Details → `[[muken-2025-verabschiedet]]`.
 
 ## Quelle / Abgrenzung
 EN-ZH-005 (Baudirektion ZH/AWEL, Juli 2022) → `[[en-zh-nachweis-uebersicht]]`; EVEN-Stand via

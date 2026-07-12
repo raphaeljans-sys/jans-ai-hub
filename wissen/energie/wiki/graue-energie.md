@@ -1,9 +1,9 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-06-26
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
-links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]]
+last_updated: 2026-07-12
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]]
 ---
 
 # Graue Energie & THGE
@@ -63,7 +63,11 @@ zitierte Wert **11 kg CO₂-eq/m²·a gilt fuer Wohn-MFH**; das Produktreglement
   bestehendem UG/Rohbau. **Kompaktheit + einfache Lastabtragung** sind der Schluessel. Beleg/Detail →
   `[[minergie-nachweiskurs-2023-mkz-thge]]`.
 
-(Im gesetzlichen Vollzug noch keine THGE-Pflicht; THGE wird ueber den Minergie-Nachweis erbracht.)
+(Im gesetzlichen Vollzug noch keine THGE-Pflicht; THGE wird ueber den Minergie-Nachweis erbracht.
+**Ausblick:** MuKEn 2025 (EnDK, 29.08.2025) fuehrt erstmals ein eigenes, an die Minergie-Methodik
+angelehntes Graue-Energie-Modul (Teil G) ins kantonale Muster-Baurecht ein — sobald ein Kanton
+MuKEn 2025 umsetzt, wird die THGE-Grenze vom freiwilligen Label-Extra zur gesetzlichen Auflage.
+Noch nicht in Kraft, Umsetzungshorizont 2025-2030 → `[[muken-2025-verabschiedet]]`.)
 Standards-Uebersicht → `[[minergie-standards]]`.
 
 ## Sanieren vor Neubau

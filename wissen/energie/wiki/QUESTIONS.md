@@ -7,7 +7,8 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   → `[[enfk-en-102-waermeschutz-2018]]`. Tab. 2/4/5 erfasst.
 - [x] **E-D6** MuKEn-Umsetzung Kt. ZH: EnerG seit 1.9.2022 (MuKEn 2014). **Vollzug seit 1.1.2026
   elektronisch ueber EVEN (energievollzug.ch), PDF-Formulare abgeloest** ✓ 2026-06-07
-  → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025 (kantonale Umsetzung).
+  → `[[energienachweis-zh]]`. **Inhalt der MuKEn 2025 selbst belegt ✓ 2026-07-12** → siehe **E26**
+  unten. Weiterhin offen: konkrete ZH-Umsetzung/Gesetzesaenderung.
 - [x] **E-D7** Foerderprogramme Kt. ZH (CHF-Saetze) belegt ✓ 2026-06-08 (Stand 01.01.2026)
   → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]`, FAQ F7. **2026 unveraendert
   ggue. 2025 bestaetigt ✓ 2026-06-23** (Baudirektion-Mitteilung 24.10.2025; befristet bis Ende 2026/
@@ -267,6 +268,21 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   WW-Standard; Förderung 2'400+1'000/kWth; EnergieSchweiz/Swissolar). **Offen:** konkrete CHF-Investition
   Solarthermie-Anlage (amtlich nicht belegt), Wirkungsgrad 70–85 %/20 % nur aus Sekundärquellen (energieheld/iwb),
   **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul, eigener Lauf).
+
+- [x] **E26** **MuKEn 2025 — Inhalt der Verabschiedung** belegt ✓ 2026-07-12 →
+  `[[muken-2025-verabschiedet]]`, FAQ **F47** (Kantone verabschiedeten 29.08.2025 neue
+  Muster-Energievorschriften; Fossilverbot Neubau statt Mindestquote, 25-%-Unzumutbarkeitsschwelle
+  Heizungsersatz, PV-Pflicht 20 W/m² EBF Neubau/10 W/m² Dachsanierung, neues Graue-Energie-Modul
+  Teil G; noch kein geltendes Recht, Umsetzung 2025-2030; 3 unabhängige Quellen deckungsgleich →
+  established). Löst den in `[[u-werte-grenzwerte-ch]]` und `[[graue-energie]]` bereits
+  vermerkten Platzhalter-Hinweis auf MuKEn 2025 auf. **Offen:** konkrete kg-CO₂-eq/m²·a-Grenzwerte
+  des neuen Moduls G, ZH-Umsetzungsstand.
+- [x] **E27** **Wärmebrücke Balkonplatte — konkrete Ψ-Werte** belegt ✓ 2026-07-12 →
+  `[[waermebrueckenkatalog-bfe-balkonplatte]]`, FAQ **F48** (BFE-Wärmebrückenkatalog 2002:
+  durchbetoniert Ψ 0,6–1,05 W/(m·K) = 2-3x Grenzwert 0,30; Stahlkorb 0,20–0,26; Dorne 0,06–0,14,
+  beide unter Grenzwert; Zuschläge Bodenheizung/Deckendicke). Erster konkreter Zahlenbeleg für
+  Curriculum-Punkt A4 (Wärmebrücken), bisher nur `[~]`. **Offen:** weitere Detailgruppen
+  (Flachdach/Steildach/Fenster/Stützen), Abgleich gegen aktuelle SIA-380/1-Edition.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

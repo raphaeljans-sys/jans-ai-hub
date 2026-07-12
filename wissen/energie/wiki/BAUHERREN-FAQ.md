@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-12
-sources: [destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+sources: [destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1418,11 +1418,18 @@ nicht der erste.
 tiefe Einspeisevergütung. **Wann eher nein:** tagsüber ohnehin hoher, steuerbarer Verbrauch (WP +
 E-Auto), enges Budget, Fokus reine Rendite.
 
-**Quelle:** Swissolar (swissolar.ch, Wissen «Batteriespeicher»), EnergieSchweiz/BFE
-(energieschweiz.ch/stories/batterien), Stand Juli 2026 → `[[batteriespeicher-heimspeicher-pv-ch]]`,
-`[[batteriespeicher]]`; Reihenfolge der Hebel + thermischer Speicher → `[[wp-pv-eigenverbrauch-lastmanagement]]`,
-`[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-10:** CHF/kWh und Einspeisevergütungen sind volatil;
-eine belegte **Amortisationszeit in Jahren** nennen die amtlichen Quellen bewusst nicht (kommerzielle
+- **Update Batteriemonitor Schweiz 2025 (Swissolar, Mai 2025):** Ein typischer 15-kWh-Heimspeicher
+  kostete 2025 im Schnitt **rund CHF 8'800 installiert** (≈ CHF 586/kWh) — am unteren Rand der
+  600–900-CHF-Spanne, der Preisrückgang setzt sich also fort. Der Markt wächst rasant: Ende 2025
+  waren rund **1,5 GWh** Speicherkapazität hinter dem Verteilnetz installiert, für Ende 2026 wird
+  ein Wachstum auf **~2,5 GWh** erwartet (Neuinstallationen verdoppeln sich nahezu jährlich).
+
+**Quelle:** Swissolar (swissolar.ch, Wissen «Batteriespeicher» + Batteriemonitor Schweiz 2025),
+EnergieSchweiz/BFE (energieschweiz.ch/stories/batterien), Stand Juli 2026 →
+`[[batteriespeicher-heimspeicher-pv-ch]]`, `[[batteriespeicher]]`; Reihenfolge der Hebel +
+thermischer Speicher → `[[wp-pv-eigenverbrauch-lastmanagement]]`, `[[pv-eigenverbrauch-zev]]`.
+⚠ **Datenstand 2026-07-12:** CHF/kWh und Einspeisevergütungen sind volatil; eine belegte
+**Amortisationszeit in Jahren** nennen die amtlichen Quellen bewusst nicht (kommerzielle
 Ratgeber ~8–12 J — Marktangabe, projektgenau nur mit Tarif/Lastprofil rechenbar).
 
 ---
@@ -1458,11 +1465,18 @@ ALLE Parkplätze auf einmal** legen.
   **Mietobjekt** dürfen die Investitionskosten über eine **Erhöhung der Parkplatzmiete** (nicht der
   Wohnungsmiete) gedeckt werden. STWEG-Beschlüsse → Skill `stockwerkeigentum`.
 
+- **CHF-Grössenordnung Grunderschliessung (neu, zwei übereinstimmende Sekundärquellen):** Stufe
+  A «Pipe for Power» **CHF 65**/Wohnung, Stufe B «Power for Building» **CHF 180**/Wohnung, Stufe
+  C1 «Power to Garage» **CHF 350**/Wohnung, Stufe C2 «Power to Parking» **CHF 400**/Wohnung —
+  die Grunderschliessung bis C1/C2 ist damit die mit Abstand günstigste Stufe; erst die
+  betriebsbereite Ladestation selbst (Stufe D) kostet **CHF 3'100 je E-Parkplatz**.
+
 **Quelle:** EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» (Nov 2024) + «im
-Bestandsbau — Rollen und Prozesse» (Sept 2025); Zogg «Wärmepumpen, PV und Elektromobilität» (Juli 2023)
+Bestandsbau — Rollen und Prozesse» (Sept 2025); Zogg «Wärmepumpen, PV und Elektromobilität» (Juli 2023);
+SIA-2060-Kostenzahlen via Kanton-ZH-Infoblatt + Härz AG (zwei übereinstimmende Sekundärquellen)
 → `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, `[[elektromobilitaet-ladeinfrastruktur]]`;
-PV-Kopplung → `[[wp-pv-eigenverbrauch-lastmanagement]]`. ⚠ SIA 2060 kostenpflichtig (Stufen hier aus
-dem EnergieSchweiz-Leitfaden referiert); Grunderschliessungs-CHF projektabhängig.
+PV-Kopplung → `[[wp-pv-eigenverbrauch-lastmanagement]]`. ⚠ SIA 2060 kostenpflichtig (Stufen +
+CHF-Zahlen hier aus Sekundärquellen referiert, nicht aus der Norm selbst gelesen).
 
 ---
 
@@ -1621,6 +1635,49 @@ Zeile für Zeile bestätigt) — **established**. Ergänzt `[[geak-gebaeudeenerg
 
 ---
 
+## F47 — «Ändert sich das Energierecht bald grundlegend — was ist die MuKEn 2025?»
+
+**Kurz:** Die Kantone haben am 29. August 2025 neue Muster-Energievorschriften (MuKEn 2025)
+verabschiedet — das ist noch **kein geltendes Recht**, sondern eine Empfehlung, die jeder Kanton
+erst in sein eigenes Gesetz überführen muss (Umsetzungshorizont laut Fachpresse 2025–2030). Für
+ein heute eingereichtes Baugesuch gilt weiter das aktuelle kantonale Recht.
+
+**Fachlich:** Die wichtigsten Änderungen gegenüber der heutigen Basis (MuKEn 2014, im Kt. ZH als
+EnerG seit 1.9.2022 umgesetzt): Neubauten müssen künftig **vollständig** mit erneuerbarer Energie
+versorgt werden (Verbot statt Mindestquote fossiler Heizungen, Ausnahme nur über eine neue
+25-%-Unzumutbarkeitsschwelle); die PV-Pflicht wird konkretisiert auf **mind. 20 W/m² EBF bei
+Neubauten** bzw. 10 W/m² bei Dachsanierungen; und erstmals gibt es ein **eigenes Modul zur grauen
+Energie** (Teil G), das die Treibhausgasemissionen aus Erstellung und Rückbau begrenzt — nach
+heutigem Recht ist das nur bei freiwilligem Minergie-ECO-Label bindend.
+
+**Quelle:** Medienmitteilung EnDK (29.08.2025) + Folgeberichte VSE/aeesuisse/energie-cluster.ch,
+drei unabhängige Quellen inhaltlich deckungsgleich → `[[muken-2025-verabschiedet]]`, established.
+Ergänzt `[[energienachweis-zh]]` und `[[graue-energie]]` (Ausblick).
+
+---
+
+## F48 — «Meine Balkonplatte kragt aus — wie stark schadet das der Energiebilanz?»
+
+**Kurz:** Massiv — eine **durchbetonierte** (nicht thermisch getrennte) Balkonplatte verursacht
+einen Wärmeverlust, der **zwei- bis dreimal höher** liegt als der zulässige Grenzwert. Eine
+thermisch getrennte Lösung (Bewehrungskorb oder Dorn-/Konsolensystem, z.B. nach dem Prinzip des
+Marken-Isokorbs) senkt diesen Verlust auf einen Bruchteil — der Mehrpreis dafür ist im Verhältnis
+zum Gesamtwert eines Balkons gering.
+
+**Fachlich:** Der BFE-Wärmebrückenkatalog (Grössenordnungswerte, Grundlage SIA 380/1) weist für
+eine **durchbetonierte** Balkonplatte einen Ψ-Wert von **0,6–1,05 W/(m·K)** aus — gegenüber einem
+Grenzwert von **0,30 W/(m·K)**. Ein **Stahlkorb**-Anschluss (bewehrter Anschluss mit
+Dämmeinlage) liegt bei **0,20–0,26 W/(m·K)**, ein **Dorn**-/Konsolensystem sogar nur bei
+**0,06–0,14 W/(m·K)** — beide unter dem Grenzwert. Eine Bodenheizung in der Platte verschlechtert
+den Wert zusätzlich um 0,02–0,07 W/(m·K).
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001/SIA 180:1999) →
+`[[waermebrueckenkatalog-bfe-balkonplatte]]`, emerging (Zahlenwerte aus älterer Katalog-Ausgabe,
+Prinzip unverändert gültig, exakter heutiger Grenzwert vor Baueingabe an aktueller Norm-Edition
+zu prüfen). Ergänzt `[[u-werte-grenzwerte-ch]]` (Curriculum-Punkt A4 Wärmebrücken).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1631,8 +1688,17 @@ Zeile für Zeile bestätigt) — **established**. Ergänzt `[[geak-gebaeudeenerg
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-12: 46 Kernfragen F1-F46 belegt.** Neu am 2026-07-12 (Run 35, TOKEN-VOLLGAS
-> 6-Themen-Batch, lokale PL-04-PDFs erschoepft): **F41 PVT-Hybridkollektoren** (Strom+Waerme kombiniert,
+> **FAQ-Stand 2026-07-12: 48 Kernfragen F1-F48 belegt.** Neu am 2026-07-12 (Run 36): **F47 MuKEn 2025**
+> (Kantone verabschiedeten 29.08.2025 neue Muster-Energievorschriften — noch kein geltendes Recht,
+> aber Fossilverbot Neubau/PV-Pflicht 20 W/m²/neues Graue-Energie-Modul zeigen die Richtung
+> → `[[muken-2025-verabschiedet]]`, established, 3 unabhaengige Quellen) und **F48 Waermebruecke
+> Balkonplatte** (durchbetoniert Psi 0,6-1,05 W/(m·K) = 2-3x Grenzwert 0,30; Stahlkorb/Dorne
+> 0,06-0,26 W/(m·K) unter Grenzwert → `[[waermebrueckenkatalog-bfe-balkonplatte]]`, emerging,
+> Primaerquelle BFE-Katalog 2002 direkt gelesen). Zudem **F38 aktualisiert** (Batteriemonitor 2025:
+> 15-kWh-Speicher ⌀ CHF 8'800/≈586 CHF/kWh, Markt waechst auf 2,5 GWh bis Ende 2026) und **F39
+> aktualisiert** (SIA-2060-Ausbaustufen mit CHF-Werten: A 65/B 180/C1 350/C2 400 CHF je Wohnung,
+> D 3'100 CHF je Ladeplatz — schliesst bisherigen Offen-Punkt teilweise, Status emerging). Zuvor am
+> 2026-07-12 (Run 35, TOKEN-VOLLGAS 6-Themen-Batch, lokale PL-04-PDFs erschoepft): **F41 PVT-Hybridkollektoren** (Strom+Waerme kombiniert,
 > lohnt bei knapper Dachflaeche, Kosten widerspruechlich → `[[pvt-hybridkollektoren]]`, emerging),
 > **F42 Solarthermie-Investitionskosten** (reine WW-Anlage CHF 15'000-20'000, Kombianlage unsicher
 > 22'000-40'000 → `[[solarthermie-investitionskosten-ch]]`, emerging), **F43 Komfortlueftung-Normen +

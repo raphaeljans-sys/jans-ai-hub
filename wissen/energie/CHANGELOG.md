@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-12 — Run 36: MuKEn 2025 + Wärmebrücke Balkonplatte (F47–F48) + Batteriemonitor/SIA-2060-Updates
+- **2 neue Destillate → 76 total:**
+  - `muken-2025-verabschiedet` (established) — Kantone verabschiedeten am 29.08.2025 die MuKEn 2025;
+    noch kein geltendes Recht, Umsetzung 2025–2030. Fossilverbot statt Mindestquote im Neubau,
+    PV-Pflicht 20 W/m² EBF (ZH heute 10 W/m²), neues Graue-Energie-Modul (Teil G). Drei unabhängige
+    Sekundärquellen (VSE, aeesuisse, energie-cluster.ch) deckungsgleich.
+  - `waermebrueckenkatalog-bfe-balkonplatte` (emerging) — BFE-Wärmebrückenkatalog 2002, **Primärdokument
+    vollständig gelesen** (curl-Download + Read/PDF-Bildextraktion, da WebFetch bei bildbasierten
+    Amts-PDFs scheitert). Durchbetonierte Balkonplatte Ψ 0,6–1,05 W/(m·K) = 2–3× Grenzwert 0,30;
+    Stahlkorb 0,20–0,26; Dorne 0,06–0,14 — beide unter Grenzwert.
+- **3 bestehende Destillate ergänzt:** `pvt-hybridkollektoren` (Praxisbeispiel Freibad St. Jakob Basel,
+  Hersteller Solink, keine neue Marktstatistik), `batteriespeicher-heimspeicher-pv-ch` (Batteriemonitor
+  2025: 15-kWh-Speicher ⌀ CHF 8'800/≈586 CHF/kWh, Markt 1,5→2,5 GWh; widersprüchliche private
+  900–1'300-CHF/kWh-Zahl bewusst verworfen), `e-mobilitaet-ladeinfrastruktur-gebaeude-ch` (SIA-2060-
+  Ausbaustufen mit CHF-Werten A 65/B 180/C1 350/C2 400 je Wohnung, D 3'100 je E-Parkplatz — schliesst
+  Offen-Punkt seit Run 32 teilweise).
+- **FAQ 46→48 Kernfragen:** F47 (MuKEn 2025), F48 (Wärmebrücke Balkonplatte); F38 und F39 aktualisiert.
+- **Themenartikel erweitert:** `u-werte-grenzwerte-ch`, `energienachweis-zh`, `graue-energie`,
+  `batteriespeicher`, `elektromobilitaet-ladeinfrastruktur`.
+- **Methodisches Lehrstück:** bildbasierte Amts-PDFs (Wärmebrückenkatalog, SIA-2060-Infoblatt,
+  Minergie-ECO, Swissolar-Batteriemonitor) scheitern an WebFetch — curl-Download + Read-Tool
+  (PDF-Bildrendering) funktioniert und wurde für den Wärmebrückenkatalog erfolgreich eingesetzt;
+  Empfehlung für künftige Läufe im Report festgehalten.
+- **Verifikation:** MuKEn 2025 auf established (3 unabhängige Quellen deckungsgleich); Wärmebrücken-
+  Zahlen bewusst emerging (Katalogbasis 2002, nicht gegen aktuelle Norm-Edition geprüft); SIA-2060-
+  und Batteriemonitor-Updates bewusst nicht künstlich hochgestuft (Sekundärzitate bildbasierter PDFs).
+- Register nachgeführt: `destillate/INDEX.md`, `training/pdf-inventar.md`, `training/curriculum.md`
+  (A4/B4), `wiki/QUESTIONS.md` (E26/E27), `wiki/INDEX.md`, `raw/_INGESTED.md`.
+
 ## 2026-07-12 — Run 35: PVT-Kollektoren, Solarthermie-Kosten, Komfortlüftung vertieft (F41–F46) + Register-Abschluss
 - **6 neue Destillate (Web/CH-Quellen) → 74 total:**
   - `pvt-hybridkollektoren` (emerging) — SPF Institut für Solartechnik OST Rapperswil/EnergieSchweiz

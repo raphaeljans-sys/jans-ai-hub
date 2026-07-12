@@ -1,8 +1,8 @@
 ---
 title: U-Werte & Heizwaermebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-06-09
-sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
+last_updated: 2026-07-12
+sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -35,6 +35,12 @@ Grenzwerte Ψ: Typ 1 (Auskragung) 0,30 · Typ 2/3 (Daemmunterbrechung / Kanten) 
 Typ 5 (Fensteranschlag) 0,15 · χ Typ 6 (Punktdurchdringung) 0,30 W/K. Beim Einzelbauteilnachweis
 im Umbau ohne Grenzwert, beim Systemnachweis in Q_H einzurechnen.
 
+**Konkretes Beispiel Typ 1 (Balkonplatte), BFE-Waermebrueckenkatalog 2002:** durchbetoniert
+(keine thermische Trennung) Ψ 0,6-1,05 W/(m·K) — 2-3x ueber dem Grenzwert 0,30; Stahlkorb-Anschluss
+0,20-0,26; Dorn-/Konsolensystem 0,06-0,14 — beide Systeme unter dem Grenzwert. Details/Tabellen
+→ `[[waermebrueckenkatalog-bfe-balkonplatte]]` (FAQ F48). ⚠ Katalog-Zahlenbasis 2002/SIA 380/1:2001,
+Grenzwert-Groessenordnung gilt weiter, exakter Wert vor Baueingabe an aktueller Norm pruefen.
+
 ## Heizwaermebedarf Q_H
 Formel und Bilanz: `[[sia-380-1-heizwaermebedarf-berechnung]]`
 (Q_h = Q_T + Q_V − η_g·(Q_i + Q_s)). Grenzwert je Kategorie: Q_H,li = Q_H,li0 + ΔQ_H,li·(A_th/A_E),
@@ -65,7 +71,8 @@ Die **Q_h,li-Grundwerte** (Wohnen MFH 55 / EFH 65 / Verwaltung 65 … MJ/m²) si
 
 ## Datenstand / Aktualitaet
 ⚠ Werte SIA 380/1:2009 / EN-102 2018. Kt. ZH operativ ueber EnerG seit **1.9.2022** (MuKEn 2014).
-**MuKEn 2025** von der EnDK **08/2025** verabschiedet, kantonale Umsetzung ZH (Stand 06/2026)
-ausstehend → bei konkreten Grenzwert-Zitaten aktuellen ZH-Stand verifizieren.
+**MuKEn 2025** von der EnDK am **29.08.2025** verabschiedet (Details, Aenderungen ggue. 2014,
+Umsetzungshorizont 2025-2030 → `[[muken-2025-verabschiedet]]`), kantonale Umsetzung ZH (Stand
+2026-07-12) weiterhin ausstehend → bei konkreten Grenzwert-Zitaten aktuellen ZH-Stand verifizieren.
 
 Siehe auch: `[[minergie-standards]]`, Bauherren-FAQ F3.

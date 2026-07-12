@@ -15,7 +15,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] A3 Waermedaemmstoffe waehlen — λ/ρ/μ/BKZ je Materialklasse + Naturdaemmstoffe/VIP/WDVS belegt
   (2026-06-07 + 2026-06-09) via SIA 2001 vollst. → `[[daemmstoffe-lambda]]`. **vollstaendig** (Bemessungswerte-Zuschlag SIA 279 offen).
 - [~] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt via EN-102 + EN-2 (Versionsabgleich
-  2013↔2018 dokumentiert) → `[[u-werte-grenzwerte-ch]]`; offen: BFE-Waermebrueckenkatalog.
+  2013↔2018 dokumentiert) → `[[u-werte-grenzwerte-ch]]`; **BFE-Waermebrueckenkatalog Gruppe 1.1
+  Balkonplatte belegt 2026-07-12** (Primaerdokument via Read/PDF-Bildextraktion gelesen: durchbetoniert
+  Ψ 0,6-1,05 vs. Grenzwert 0,30; Stahlkorb 0,20-0,26; Dorne 0,06-0,14) → `[[waermebrueckenkatalog-bfe-balkonplatte]]`
+  (FAQ F48). Offen: weitere Detailgruppen (Flachdach/Steildach/Fenster/Stuetzen, Gruppen 1.2-6.2).
 - [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
   Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /
@@ -48,7 +51,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   aktualisiert 2026-06-09 via Minergie-Ueberarbeitung 09/2023 (Kennzahl 51/46/29, THGE 11 kg/m²,
   Wetterdaten 2035) → `[[minergie-standards]]` (FAQ F5). **vollstaendig.**
 - [~] B4 MuKEn-Umsetzung Kt. ZH — EnerG seit 1.9.2022 (MuKEn 2014); Vollzug seit 1.1.2026 ueber
-  EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. Offen: konkrete neue Pflichten MuKEn 2025.
+  EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. **Inhaltliche Aenderungen MuKEn 2025 belegt
+  2026-07-12** (verabschiedet 29.08.2025: Fossilverbot Neubau, PV-Pflicht 20 W/m² EBF, neues
+  Graue-Energie-Modul Teil G, Umsetzungshorizont 2025-2030) → `[[muken-2025-verabschiedet]]` (FAQ F47).
+  Offen: konkreter ZH-Umsetzungsstand/Gesetzesaenderung (bei naechster Gelegenheit via `baurecht` pruefen).
 - [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13).
   **Heizsystem-Wahl WP↔Fernwaerme↔Pellets (JAZ-Richtwerte) belegt 2026-06-18** → `[[waermepumpe-systemvergleich]]`

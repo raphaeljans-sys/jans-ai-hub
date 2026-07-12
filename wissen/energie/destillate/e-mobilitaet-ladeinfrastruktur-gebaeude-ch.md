@@ -1,11 +1,11 @@
 ---
-quelle: EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» + «Ladeinfrastruktur im Bestandsbau — Rollen und Prozesse» (energieschweiz.ch/laden-punkt.ch); E-Mobilitaets-Kapitel aus Zogg «Waermepumpen, Photovoltaik und Elektromobilitaet» (HK-Gebaeudetechnik 4/24, Ausgabe Juli 2023)
-herausgeber: Swiss eMobility mit Unterstuetzung EnergieSchweiz / Bundesamt fuer Energie BFE; Fachartikel Prof. Dr. David Zogg (FHNW / Smart Energy Engineering)
-ausgabe: Leitfaden Mietobjekte akt. November 2024 (Faktenblatt April 2025); Leitfaden Bestandsbau September 2025; Zogg-Artikel Juli 2023
-gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read)
-datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt), NIV SR 734.27
+quelle: EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» + «Ladeinfrastruktur im Bestandsbau — Rollen und Prozesse» (energieschweiz.ch/laden-punkt.ch); E-Mobilitaets-Kapitel aus Zogg «Waermepumpen, Photovoltaik und Elektromobilitaet» (HK-Gebaeudetechnik 4/24, Ausgabe Juli 2023); ergaenzt Kanton-Zuerich-Baudirektion «Infoblatt zu Merkblatt SIA 2060» (zh.ch, Primaer-PDF bildbasiert nicht auslesbar) + Haerz AG/elektromobilitaet-schweiz.ch (Zweitquelle, gleiche Zahlen)
+herausgeber: Swiss eMobility mit Unterstuetzung EnergieSchweiz / Bundesamt fuer Energie BFE; Fachartikel Prof. Dr. David Zogg (FHNW / Smart Energy Engineering); SIA-2060-Kostenzahlen ueber Kanton ZH Baudirektion + Haerz AG
+ausgabe: Leitfaden Mietobjekte akt. November 2024 (Faktenblatt April 2025); Leitfaden Bestandsbau September 2025; Zogg-Artikel Juli 2023; SIA 2060 Merkblatt (01.05.2020), ZH-Infoblatt dazu ohne eigenes Datum gefunden
+gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen, Primaer-PDF zweimal nicht textextrahierbar)
+datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), NIV SR 734.27
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 ---
 
 # Elektromobilitaet — Ladeinfrastruktur am Wohngebaeude (CH)
@@ -34,6 +34,27 @@ so laedt das Auto tagsueber guenstig den eigenen Solarstrom, ohne den Hausanschl
   installieren … Ladestationen koennen dann spaeter einfach nachgeruestet werden»).
 - **Neubau:** Einbau einer Ladestation (**oder zumindest deren Grundinstallation**) grundsaetzlich
   empfohlen; Referenz fuer Neubau/Gesamtsanierung ist die **SIA 2060**.
+
+### SIA-2060-Ausbaustufen mit CHF-Mehrkosten (schliesst bisherigen Offen-Punkt teilweise)
+Zwei unabhaengige Sekundaerquellen (Kanton-ZH-Baudirektion-Infoblatt via Suchindex-Zitat +
+Haerz AG/elektromobilitaet-schweiz.ch) nennen **uebereinstimmend** folgende Mehrkosten fuer
+Wohnbauten (die eigentliche SIA-2060-Norm ist kostenpflichtig und liegt nicht im Volltext vor;
+die Primaer-PDFs waren zweimal nicht als Text extrahierbar — Zahlen daher **emerging**, nicht
+established, trotz Uebereinstimmung zweier Quellen):
+
+| Stufe | Bezeichnung | Was | Mehrkosten pro Wohneinheit |
+|---|---|---|---|
+| **A** | «Pipe for Power» | Leerrohre/Platzreserven fuer spaetere Nachruestung | **CHF 65** |
+| **B** | «Power for Building» | Elektrische Zuleitung bereits auf Ladeinfrastruktur dimensioniert | **CHF 180** |
+| **C1** | «Power to Garage» | Stromversorgung per Flachbandkabel bis zum einzelnen Parkplatz | **CHF 350** |
+| **C2** | «Power to Parking» | Anschlusspunkt/Montageplatte am Parkplatz vorbereitet | **CHF 400** |
+| **D** | «Ready to Charge» | Ladestation installiert und betriebsbereit inkl. Lastmanagement | **CHF 3'100** je E-Parkplatz |
+
+**Einordnung:** Die grosse Kostenstufe liegt bei **D** (Ladestation selbst) — die
+**Grunderschliessung bis Stufe C1/C2 kostet nur CHF 350–400 pro Wohnung** und ist damit der mit
+Abstand guenstigste, am meisten empfohlene Schritt (deckt sich mit der Zogg-Aussage «Grundinstallation
+zuerst, Wallbox spaeter»). Bei Gewerbebauten gelten andere Saetze (**CHF 45/250/320 je 100 m²
+Nutzflaeche** fuer A/B/C1, aus dem gleichen Suchergebnis, nicht weiter verifiziert).
 
 ## Dynamisches Lastmanagement — warum es Pflicht wird
 - Laden mehrere Autos gleichzeitig, wuerde der **Hausanschluss ueberlastet**. Das **Lastmanagement
@@ -102,8 +123,9 @@ Eigenverbrauch**; im Winter bleibt Netzbezug massgebend (Effizienz Gebaeude+WP e
   **Parkplatz**miete.
 
 ## Offene Punkte
-- **Konkrete CHF/kW-Kosten** der Grunderschliessung je Parkplatz (Leitfaeden nennen keine
-  Pauschalen — projekt-/objektabhaengig; Elektroplaner-Offerte).
+- **CHF-Mehrkosten der SIA-2060-Ausbaustufen jetzt vorhanden** (siehe Tabelle oben), aber aus zwei
+  Sekundaerquellen, nicht aus dem SIA-Primaerdokument selbst (kostenpflichtig, Vollzugs-Infoblaetter
+  bildbasiert) — Status bewusst nicht auf established gehoben, bis eine primaere Quelle vorliegt.
 - **SIA 2060** ist ein kostenpflichtiges Merkblatt — genaue Stufendefinitionen C1/C2/D hier aus dem
   EnergieSchweiz-Leitfaden referiert, nicht aus der Norm selbst.
 - **Foerderung** fuer Ladeinfrastruktur: kantonal/kommunal uneinheitlich → standortgenau via

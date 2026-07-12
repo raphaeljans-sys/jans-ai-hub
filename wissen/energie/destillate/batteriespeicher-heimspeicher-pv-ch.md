@@ -1,11 +1,11 @@
 ---
-quelle: «Batteriespeicher» (Wissensportal) + «Batteriespeicher für zu Hause» (Story) — Grundlagen Heimspeicher zur PV-Anlage; trianguliert mit den Speicheraussagen aus [[wp-pv-eigenverbrauch-lastmanagement]] (EnergieSchweiz/Zogg 2023)
+quelle: «Batteriespeicher» (Wissensportal) + «Batteriespeicher für zu Hause» (Story) — Grundlagen Heimspeicher zur PV-Anlage; trianguliert mit den Speicheraussagen aus [[wp-pv-eigenverbrauch-lastmanagement]] (EnergieSchweiz/Zogg 2023); ergänzt Swissolar «Batteriemonitor Schweiz 2025» (Kennzahlen via Sekundärquellen-Zitat, Primär-PDF bildbasiert nicht auslesbar) + Ankündigung «Batteriemonitor Schweiz 2026» (März 2026)
 herausgeber: Swissolar (Schweizerischer Fachverband für Sonnenenergie) + EnergieSchweiz / Bundesamt für Energie BFE
-ausgabe: Web-Stand Juli 2026 (swissolar.ch/de/wissen/solarenergie-kombiniert/batteriespeicher; energieschweiz.ch/stories/batterien)
-gelesen: 2026-07-10 (Web via WebFetch: Swissolar-Wissensseite Batteriespeicher + EnergieSchweiz-Story «Batterien»)
-datenstand: 2026 (Marktpreise/Technik-Anteile volatil, ⚠ vor Zitat prüfen); Wirtschaftlichkeits-Grundaussage physikalisch/ökonomisch stabil
+ausgabe: Web-Stand Juli 2026 (swissolar.ch/de/wissen/solarenergie-kombiniert/batteriespeicher; energieschweiz.ch/stories/batterien); Batteriemonitor Schweiz 2025 (Mai 2025) + 2026 (März 2026)
+gelesen: 2026-07-10 (Web via WebFetch); ergänzt 2026-07-12 (WebSearch-Zitate aus Batteriemonitor 2025/2026, Primär-PDF zweimal nicht textextrahierbar)
+datenstand: 2026 (Marktpreise/Technik-Anteile volatil, ⚠ vor Zitat prüfen); Batteriemonitor-Zahlen Stand 2025; Wirtschaftlichkeits-Grundaussage physikalisch/ökonomisch stabil
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Batteriespeicher (Heimspeicher) zur PV-Anlage — lohnt sich das?
@@ -25,6 +25,25 @@ Notstrom-Komfort.
   relativ attraktiver.
 - Quervergleich [[wp-pv-eigenverbrauch-lastmanagement]] (Zogg 2023): stationärer Batteriespeicher
   Zusatzkosten **ab ~CHF 10'000 (EFH, ~10 kWh) / ~20'000 (MFH, 20–30 kWh)**, ab ~5'000 Ladezyklen.
+
+### Update «Batteriemonitor Schweiz 2025» (Swissolar, publiziert Mai 2025)
+- Ein **15-kWh-Heimspeicher** kostete 2025 im Schnitt **rund CHF 8'800 installiert**, das
+  entspricht **≈ CHF 586/kWh** — damit am **unteren Rand** der oben genannten 600–900-CHF-Spanne
+  bzw. leicht darunter; der Preisrückgang setzt sich also fort (⚠ Zahl aus WebSearch-Zitat der
+  Fachpresse zum Monitor, nicht direkt aus dem Primär-PDF gelesen — Primärdokument ist
+  bildbasiert, Textextraktion zweimal gescheitert).
+- **Marktwachstum:** Ende 2025 waren in der Schweiz rund **1'500 MWh (1,5 GWh)** Speicherkapazität
+  hinter dem Verteilnetzanschluss installiert; für Ende 2026 wird ein Wachstum auf **~2,5 GWh**
+  erwartet — die **Neuinstallationen verdoppeln sich nahezu** von Jahr zu Jahr.
+- Ein **Batteriemonitor Schweiz 2026** wurde bereits (März 2026) veröffentlicht und bestätigt die
+  starke Wachstumsdynamik — für eine künftige Vertiefung: Primärdokument
+  `swissolar.ch/02_markt-politik/batteriesmonitor/sws_batteriemonitor_2026.pdf` (ebenfalls
+  bildbasiert, noch nicht ausgelesen).
+- **Wichtige Abgrenzung:** Eine im gleichen Rechercheschritt gefundene Zahl **CHF 900–1'300/kWh**
+  (aus einer privaten Ratgeberseite, nicht Swissolar) **widerspricht** der Batteriemonitor-Zahl
+  von ≈586 CHF/kWh und wurde **bewusst NICHT übernommen** — Beispiel für die Verifikationspflicht:
+  private «Solar-Ratgeber»-Domains (nicht swissolar.ch) sind von der offiziellen Fachverbands-
+  Quelle zu unterscheiden.
 
 ## Dimensionierung — zwei Swissolar-Faustregeln
 1. **Nach PV-Leistung:** Leistung PV-Anlage (kWp) **× 1,5** ≙ Speicherkapazität (kWh).
