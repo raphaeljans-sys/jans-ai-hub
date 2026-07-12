@@ -20,8 +20,9 @@ links: [[delta-zum-ersten-rang]]
   (Schulräume für den Standort «27 Regelklassen + 1 Sportklasse» plus Doppelsporthalle);
   Eingriffe in die Bestandsgebäude waren nicht Teil der Aufgabe (Jurybericht S. 6–7).
 - Jahr: Programm 2021, Abgabe Pläne 25.02.2022, Abgabe Modell 18.03.2022
-  (Wettbewerbsprogramm S. 9), Jurytage 06.05.2022 und 20.05.2022, Jurybericht 14.06.2022
-  (Jurybericht S. 12, 14, 16; PDF-Metadaten).
+  (Wettbewerbsprogramm S. 9), Jurytage 06.05.2022 und 20.05.2022 (Jurybericht S. 12, 14);
+  Genehmigungsvermerk «Muttenz, den 20. Mai 2022» (Jurybericht S. 17); Berichtsdatum
+  14.06.2022 gemäss Dateiname/PDF-Metadaten.
 - Kennwort: **PATIO IM PIANO NOBILE**, Beitrag Nr. 20 (eigene Abgabe:
   `/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/00_Abgabe/220223_Beschriftung_Verfassercouvert.docx`;
   Jurybericht S. 15, 39).
@@ -54,9 +55,9 @@ links: [[delta-zum-ersten-rang]]
   und Schulhof Ost (Wettbewerbsprogramm S. 18; Jurybericht S. 7).
 - Nachhaltigkeit als verbindliche Anforderung: Zertifizierung SNBS (mind. Gold) und
   Minergie-P-Eco (Wettbewerbsprogramm S. 17).
-- Abgabeforderungen: max. 4 Pläne DIN A1 quer (Situationsplan 1:500, Arealplan mit
-  EG 1:200, Grundrisse/Schnitte/Fassaden 1:200, Fassadendetail 1:50, Erläuterungen;
-  Wettbewerbsprogramm S. 25–26); dazu Formular Nachweis Raumprogramm, Formular
+- Abgabeforderungen: max. 4 Pläne DIN A1 quer (Situationsplan 1:500, Grundriss EG mit
+  Zugängen und Perimeter 1:200, Grundrisse/Schnitte/Fassaden 1:200, Fassadendetail 1:50,
+  Erläuterungen; Wettbewerbsprogramm S. 26); dazu Formular Nachweis Raumprogramm, Formular
   Bauökonomie, Verfassercouvert, Couvert digitale Daten (USB), Modell
   (Wettbewerbsprogramm S. 11, 26).
 - Beurteilungskriterien (ohne Gewichtung, Gesamtbewertung; Wettbewerbsprogramm S. 12,
@@ -119,8 +120,8 @@ links: [[delta-zum-ersten-rang]]
   erfüllen» (Jurybericht S. 40).
 - Untergeschoss: kleines oberirdisches Volumen, «das aber einen grossen unterirdischen
   Fussabdruck aufweist» (Jurybericht S. 40).
-- Kennwerte: «sowohl die grösste Geschossfläche wie auch das grösste Volumen …
-  vergleichsweise hohe[n] Kosten» (Jurybericht S. 40).
+- Kennwerte (sinngemäss): grösste Geschossfläche und grösstes Volumen aller Beiträge,
+  entsprechend hohe Kennwerte und Kosten (Jurybericht S. 40).
 
 ### Delta zum 1. Platz («hannes», Nr. 05)
 
@@ -131,21 +132,23 @@ Delta im Einzelnen:
 1. **Zwei Körper statt Stapelung.** «hannes» trennt Schule (viergeschossiger
    Klassentrakt) und Sport (eingeschossige Halle) in zwei Bauten — einfacheres Tragwerk,
    keine Brandschutzanforderung ans oberste Tragwerk, betriebliche Trennung von
-   «lärmigen» und ruhigen Nutzungen (Jurybericht S. 21–22). Unsere Stapelung erzeugte
-   die aufwendige Statik und die grössten Kennwerte (Jurybericht S. 40).
+   «lärmigen» und ruhigen Nutzungen (Jurybericht S. 22). Gestapelte Konzepte verbindet
+   die Jury generisch mit aufwändiger Statik (Erkenntnisse, Jurybericht S. 19); bei uns
+   belegt sind die grössten Kennwerte des Feldes (Jurybericht S. 40).
 2. **Nutzbare Erschliessung statt Luftraum.** Beim Sieger wird die innenliegende Halle
    «und damit fast alle Erschliessungsflächen nutzbar» (Jurybericht S. 22); unsere
    Lernhalle wurde als «kein eigentlicher Mehrwert» gewertet (Jurybericht S. 40).
-3. **Belebtes Erdgeschoss.** «hannes» legt Mehrzweckraum und Mittagstisch ins EG am
-   Pausenhof (unabhängige, konfliktfreie Nutzung; Jurybericht S. 22); unser EG blieb
-   nutzungsleer (Jurybericht S. 40).
+3. **Belebtes Erdgeschoss.** «hannes» legt Mehrzweckraum und Mittagstisch ins EG des
+   Klassentrakts (unabhängige, konfliktfreie Nutzung; Jurybericht S. 22) — die Jury-
+   Empfehlungen wünschen zusätzlich die Orientierung des Mittagstischs zum Pausenplatz
+   (Jurybericht S. 16); unser EG blieb nutzungsleer (Jurybericht S. 40).
 4. **Mehrwert-Angebot Aussenraum.** Sportanlage auf dem Hallendach als «willkommene
    Bereicherung» (Jurybericht S. 22) — ein zusätzliches Angebot, das wir nicht hatten.
 5. **Kennwert-Disziplin.** Sieger: GF und GV «knapp unter dem Mittelwert», Kosten ebenso
    (Jurybericht S. 22); wir: grösste GF, grösstes GV, hohe Kosten (Jurybericht S. 40).
 6. **Betriebliche/pädagogische Flexibilität.** Die Rangierung begründet den Sieg
-   ausdrücklich mit optimaler Unterstützung des pädagogischen Konzepts und
-   «ausserordentlich hoher Flexibilität» (Jurybericht S. 15).
+   ausdrücklich mit optimaler Unterstützung des pädagogischen Konzepts und einer
+   «ausserordentlich hohe[n] Flexibilität» (Jurybericht S. 15).
 
 Auch der Sieger hatte benannte Schwächen (eher grosser Footprint, grosses
 unterirdisches Volumen, Optimierungsbedarf für Minergie-P/Eco/SNBS; Jurybericht S. 22)
@@ -171,8 +174,9 @@ Verallgemeinerbare Regeln (Kandidaten für [[delta-zum-ersten-rang]] und künfti
   abgewertet; nutzbare Erschliessungsflächen (Sieger) sind das Gegenmodell
   (Jurybericht S. 22, 40).
 - **Das EG muss den Pausenplatz beleben.** Mittagstisch/Mehrzweckraum gehören bei
-  Schulbauten ans EG/zum Hof — beim Sieger gelobt, bei uns als Leere kritisiert
-  (Jurybericht S. 22, 40).
+  Schulbauten ins EG — beim Sieger als konfliktfreie EG-Nutzung gelobt (S. 22), von der
+  Jury-Empfehlung mit «Orientierung zum Pausenplatz» weiter verschärft (S. 16), bei uns
+  als Leere kritisiert (S. 40).
 - **Fluchtwege vor Abgabe hart prüfen.** Ein als Fluchtweg deklarierter Balkon, der die
   Anforderung geometrisch nicht erfüllt (Richtungsänderung), liefert der Jury einen
   objektiven Mangel (Jurybericht S. 40).

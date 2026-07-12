@@ -13,7 +13,7 @@ Stand: 12.07.2026 (Anlage)
 | 2205 | WB Guggerbach | offen | offen | — | ausstehend |
 | 2206 | WB Schoental (Altstaetten) | Primarschule + Kindergarten | **3. Rang / 3. Preis** (Schlussbericht S. 11; Diskrepanz zu Aussage «2. Platz» offen) | teilnahmen/2206-schoental.md | draft |
 | 2207 | WB Basel (Schliengerweg) | offen | offen | — | ausstehend |
-| 2408 | WB BIWAK (Grassen) | Biwak (18 Schlafplaetze) | ausgeschieden 2. Rundgang | teilnahmen/2408-biwak-grassen.md | draft |
+| 2408 | WB BIWAK (Grassen) | Biwak (18 Schlafplaetze) | ausgeschieden 2. Rundgang | teilnahmen/2408-biwak-grassen.md | established |
 | 2501 | Hafenareal SZ (Steinfabrik) | offen | offen | — | ausstehend |
 | 2502 | (leer) | — | — | — | pruefen |
 | 2503 | Studienauftrag Glockenacker | offen | offen | — | ausstehend |

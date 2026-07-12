@@ -27,4 +27,4 @@ Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
 
 | Lauf | Datum | Inhalt | Status |
 |---|---|---|---|
-| Seed | 12.07.2026 | KB-Anlage + 2102/2206/2408 | laeuft |
+| Seed | 12.07.2026 | KB-Anlage + 2102/2206/2408 destilliert, refuter-verifiziert (2408 established; 2102/2206 draft wegen Rang-Diskrepanz), Muster delta-zum-ersten-rang angelegt | erledigt |

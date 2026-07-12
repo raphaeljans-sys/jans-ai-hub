@@ -90,11 +90,32 @@ Jede Station destilliert und hakt NUR ihre Familien im `norm-inventar.md` ab. Vo
 Commit `git pull` (Rule sync-kanonische-quelle), damit die Inventar-Staende beider
 Stationen zusammenlaufen.
 
-### Token-Vollgas bis 10.08.2026 (Rule 260712b)
+### Token-Vollgas bis 10.08.2026 (Rule 260712b, eskaliert 260712c: DAUERBETRIEB)
 
-Bis und mit 10.08.2026 gilt maximaler Durchsatz (20x-Abo): Batch-Volumen pro Lauf
-VERDOPPELN gegenueber den oben genannten Richtwerten (z.B. Normen 15-25 Positionen,
-Energie 6-10 PDFs, Planungsgrundlagen 2 Domaenen + 10-16 Fragen, Baurecht 4-6
-Verifikations-Komplexe), Workflow-Parallelisierung als Standard. Ab 11.08.2026
-(5x-Abo) gelten wieder die urspruenglichen Richtwerte und der Sparbetrieb; die
-Ruecktaktung erledigt der One-Time-Task `token-drosselung-100810`.
+Bis und mit 10.08.2026 gilt maximaler Durchsatz (20x-Abo), seit 12.07.2026 abends
+zusaetzlich **Dauerbetrieb** (Entscheid Raphael: «ununterbrochen laufen lassen,
+maximale Rechenleistung»):
+
+- **Batch-Volumen: 30-40 Positionen pro Lauf** (statt 15-25). Ein Lauf bricht nicht
+  aus Budgetgruenden vorzeitig ab; er endet erst, wenn der Batch sauber destilliert,
+  verifiziert, registriert und committet ist.
+- **Taktung: alle 2 Stunden, rund um die Uhr, beide Stationen** (MacBook Pro
+  `normen-training-nacht` SIA/VKF, Mac Mini `normen-training-mini` DIN/VSS/RAL;
+  gemaess Rule 260712c VOLLGAS-ENDLOS). Zusaetzliche Sofort-Laeufe auf Zuruf sind
+  ausdruecklich erwuenscht; Limit-Pausen sind akzeptiert und kein Fehler.
+- **Gross-Normen vorziehen:** die zurueckgestellten scanlastigen Brocken
+  (DIN 18040-1/2, DIN 4102-1/2, DIN 1946-6, VSS 640-Familie) werden NICHT weiter
+  geschoben, sondern via Workflow segmentiert (1 Agent je ca. 20 Seiten) abgearbeitet.
+- **Nach Inventar-Abschluss einer Familie** wechselt der Lauf nicht in den Leerlauf,
+  sondern auf die Vertiefungsstufen: (a) Tiefendestillate der P1-Kernnormen
+  (Artikel-fuer-Artikel, z.B. SIA 118, SIA 102, SIA 416, VKF), (b) Retro-Verifikation
+  bestehender Destillate mit 3 unabhaengigen Widerlegungs-Agenten, (c) Q&A-Selbst-
+  befragung (15-20 Pruefungsfragen je Norm, unabhaengig beantwortet am Original),
+  (d) Querschnitts-Synthesen fuer die Fach-Skills (werkvertrag/honorar/brandschutz/
+  flaechen-nachweis). Erst wenn auch diese Stufen abgearbeitet sind: «INVENTAR
+  KOMPLETT» melden.
+
+Ab 11.08.2026 (5x-Abo) gelten wieder die urspruenglichen Richtwerte und der
+Sparbetrieb; die Ruecktaktung erledigt der One-Time-Task `token-drosselung-100810`.
+Weiterhin unveraendert: Qualitaets-Leitplanken (nichts erfinden, Verifikations-
+Pflicht vor `established`, Stations-Split, git pull vor Commit).

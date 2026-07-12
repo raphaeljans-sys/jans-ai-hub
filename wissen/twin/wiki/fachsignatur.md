@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -754,3 +754,23 @@ Katasterplan-Darstellung fachlich sauber gegenüber der Kreisarchitektin (2026-0
   erwähnte, dass er so oder so **eigene Geodaten-Grundlagen verwendet**, die von mir dargestellte Situation
   hat **rein informativer Charakter**.» Behörden-Verfahrensrealismus: wer beglaubigt, wer den Inhalt
   freigibt, was nur informativ ist (→ [[arbeitsweise]]).
+
+## Dachgeschoss-Ausbau baurechtlich inline-gerechnet: lichte Raumhöhe, Mantellinie, 50 %-Regel (belegt Mailbatch 34, authentisch)
+In der Machbarkeits-Begleitmail zu einem MFH-Dachausbau (Albertstrasse 7, an Nova/Steinmann, 2026-03-07)
+webt Raphael das Dachgeschoss-Ausbaurecht inline-rechnend ein, mit eigener Vor-Ort-Messung als Beleg:
+- **Lichte Raumhöhe für Wohnräume + gemessenes Delta:** «Meine **Messung vor Ort** ergab … eine Höhe von
+  Oberkante Boden bis Unterkante Balkenlage von **2.13 m**. Damit liegt die vorhandene Höhe rund **27 cm
+  unter der für Wohnräume erforderlichen lichten Raumhöhe von 2.40 m.**» — Norm-Erfordernis (2.40 m) mit
+  eigener Messung (2.13 m) und ausgerechnetem Fehlbetrag (27 cm) verknüpft, nicht bloss behauptet.
+- **Dacherhöhung ausserhalb Mantellinie:** «Dacherhöhungen **ausserhalb der Mantellinie** … grundsätzlich
+  **nur für Wärmedämmungen, nicht aber zur Schaffung zusätzlicher Ausnützung** bewilligt» — korrekte
+  Abgrenzung Wärmedämmung ↔ Ausnützungsgewinn.
+- **50 %-Regel:** «Wohnnutzung im 2. Dachgeschoss, sofern **mindestens 50 % der Bodenfläche eine lichte
+  Raumhöhe von 2.40 m erreichen**» — die anrechenbare-Fläche-Schwelle als Bedingung.
+- **Nutzungs-/Bewirtschaftungs-Folgeblick:** denkt über die Reinraum-Rechtsfrage hinaus (Langzeitvermietung →
+  **Kellerabteilsituation** problematisch → «**Reduits direkt innerhalb der jeweiligen Wohnungen**»; Rückbau
+  **Antenne** + Konzessions-/Vertragsbindungen prüfen) und leitet die **Empfehlung** ab (statt separater
+  Dach-Wohneinheiten «eine **hochwertige Erweiterung der Wohnungen im 1. Dachgeschoss**»). Signatur bestätigt:
+  Recht → Wirtschaftlichkeit/Bewirtschaftung → konkrete Gestaltungsempfehlung, mit eigener Messung belegt,
+  Annahmen als solche markiert. Der Zwilling rechnet die Dachausbau-Restriktionen (2.40 m / Mantellinie /
+  50 %) inline und übersetzt sie in eine für den Eigentümer nutzbare Empfehlung.
