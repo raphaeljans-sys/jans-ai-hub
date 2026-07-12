@@ -4,6 +4,16 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-12 — Buch-Run 32 (Phase 3, Modell-D Volltextabgleich §§ 8/9/10c/15 VRG)
+- [verifiziert] § 15 VRG (Kostenvorschuss) im Destillat [[09-rechtsschutz-teil2-ablauf-kosten-revision]] (Abschnitt 2.2, "S. 576-577") gegen amtlichen Volltext `raw/260712_amtlich_zh_vrg.md` geprueft: Paraphrase **bestaetigt** (Abs. 1 Barvorschuss Untersuchungskosten, Abs. 2 lit. a-c Sicherstellung Verfahrenskosten) — keine Korrektur noetig.
+- [neu] [[rechtsschutz-und-rechtsmittelverfahren]] neuer Abschnitt **6b "Akteneinsicht und Realakte"**: §§ 8/9/10c VRG (Akteneinsicht Grundsatz/Ausnahme, Realakte) waren weder im Destillat noch im Wiki erfasst, jetzt direkt aus amtlichem Volltext ergaenzt mit vollem Beleg + JANS-Praxis-Hinweis (§ 10c als Hebel gegen faktisches Verwaltungshandeln ohne Verfuegung).
+- [verweis] [[09-rechtsschutz-teil2-ablauf-kosten-revision]] neue Sektion "4. Verifikations-Notiz" dokumentiert den Abgleich + Cross-Referenz auf den Wiki-Abschnitt 6b (keine Duplizierung im Destillat, da §§ 8/9/10c ausserhalb des dort abgedeckten Seitenbereichs S. 576-606 liegen).
+- [frontmatter] Beide Dateien: `last_updated: 2026-07-12`, `verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32)`; Destillat-Frontmatter `paragraphen` um § 8/§ 9/§ 10c VRG ergaenzt.
+- [index] `wiki/INDEX.md` Statistik-Zeile + Kurzbeschreibung [[rechtsschutz-und-rechtsmittelverfahren]] aktualisiert.
+
+## 2026-07-12 — Wissens-Chef Run 2 (Cross-KB): Artikel-Backlink zu auflagebereinigung
+- [link] [[bauausfuehrung-und-baukontrolle]] JANS-Bezug: Skill-Nennung auflagebereinigung um den konkreten KB-Artikel-Backlink `auflagebereinigung/wiki/fristenlogik-bauentscheid-zh` ergaenzt (operative Frist-Zuteilung). Gegen-Backlink zu den in Run 2 gesetzten Vorwaerts-Links.
+
 ## 2026-07-12 — Buch-Run 31 (Phase 3, Modell-D Volltextabgleich, 5 Komplexe parallel via Workflow)
 - [GROSSER BEFUND] **Fassungsstand-Umkehr §§ 269-274/292 PBG:** Der amtliche PBG-Volltext (LS 700.1, Stand 1.7.2026) fuehrt die **harmonisierte Fassung (IVHB) als geltenden Hauptteil** (proj. Fassadenlinie § 260, Fassadenhoehe §§ 278-280, § 273 «Kleinbauten und Anbauten», § 292 Dachaufbauten **½**); das alte Recht (besondere Gebaeude 4/5 m, Dachaufbauten 1/3) steht nur noch im **Anhang (Stand 28.2.2017, Weitergeltung OS 72, 52)** und gilt uebergangsrechtlich, bis die Gemeinde ihre BZO harmonisiert. Selbst am raw-Volltext gegengeprueft (Z.3012/4463, Z.2842/4377).
 - [korrigiert] [[abstaende-und-hoehen]] (`established` bleibt): Fassungsstand-Box umgekehrt; § 273 + § 292 als **Doppelwerte** (geltend/Anhang). Zahlenwerk 3,5/12/16,5 m + Summe §§ 270-271 + Waldabstand 30 m § 262 CONFIRMED.

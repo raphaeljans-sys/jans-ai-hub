@@ -4,10 +4,12 @@ kapitel: 9 — Rechtsschutz (Teil 2)
 band: 1
 seiten: 576-606 (schliesst das Kapitel; Teil 1 = S.537-575)
 shots: 290-306 (Bildschirmfoto 2026-06-07 um 11.49.23 – 11.49.53)
-paragraphen: ["§ 11 VRG", "§ 12 VRG", "§ 13 VRG", "§ 14 VRG", "§ 15 VRG", "§ 16 VRG", "§ 17 VRG", "§ 22 VRG", "§ 23 VRG", "§ 25 VRG", "§ 26b VRG", "§ 26c VRG", "§ 28 VRG", "§ 29 VRG", "§ 38 VRG", "§ 53 VRG", "§ 58 VRG", "§ 59 VRG", "§ 61 VRG", "§ 64 VRG", "§ 65 VRG", "§ 70 VRG", "§ 71 VRG", "§ 86a VRG", "§ 86b VRG", "§ 86c VRG", "§ 86d VRG", "§ 87 VRG", "§ 89 VRG", "§ 335 PBG", "§ 338 PBG", "§ 339 PBG", "§ 211 PBG", "§ 315 PBG", "§ 317 PBG", "§ 339b PBG", "§ 7 PBG", "§ 44 PBG", "§ 84 PBG", "§ 13 StrG", "§ 28 AbtrG", "Art. 4 RPG", "Art. 46 BGG", "Art. 47 BGG", "Art. 50 BGG", "Art. 62 BGG", "Art. 63 BGG", "Art. 65 BGG", "Art. 68 BGG", "Art. 69 BGG", "Art. 70 BGG", "Art. 100 BGG", "Art. 103 BGG", "Art. 112 BGG", "Art. 145 ZPO", "Art. 197 ZPO", "Art. 213 ZPO", "Art. 214 ZPO", "Art. 235 ZPO", "Art. 6 EMRK", "Art. 29 BV", "Art. 30 BV", "Art. 33b VwVG", "Art. 55c USG", "Art. 12d NHG"]
+paragraphen: ["§ 8 VRG", "§ 9 VRG", "§ 10c VRG", "§ 11 VRG", "§ 12 VRG", "§ 13 VRG", "§ 14 VRG", "§ 15 VRG", "§ 16 VRG", "§ 17 VRG", "§ 22 VRG", "§ 23 VRG", "§ 25 VRG", "§ 26b VRG", "§ 26c VRG", "§ 28 VRG", "§ 29 VRG", "§ 38 VRG", "§ 53 VRG", "§ 58 VRG", "§ 59 VRG", "§ 61 VRG", "§ 64 VRG", "§ 65 VRG", "§ 70 VRG", "§ 71 VRG", "§ 86a VRG", "§ 86b VRG", "§ 86c VRG", "§ 86d VRG", "§ 87 VRG", "§ 89 VRG", "§ 335 PBG", "§ 338 PBG", "§ 339 PBG", "§ 211 PBG", "§ 315 PBG", "§ 317 PBG", "§ 339b PBG", "§ 7 PBG", "§ 44 PBG", "§ 84 PBG", "§ 13 StrG", "§ 28 AbtrG", "Art. 4 RPG", "Art. 46 BGG", "Art. 47 BGG", "Art. 50 BGG", "Art. 62 BGG", "Art. 63 BGG", "Art. 65 BGG", "Art. 68 BGG", "Art. 69 BGG", "Art. 70 BGG", "Art. 100 BGG", "Art. 103 BGG", "Art. 112 BGG", "Art. 145 ZPO", "Art. 197 ZPO", "Art. 213 ZPO", "Art. 214 ZPO", "Art. 235 ZPO", "Art. 6 EMRK", "Art. 29 BV", "Art. 30 BV", "Art. 33b VwVG", "Art. 55c USG", "Art. 12d NHG"]
 status: emerging
 gelesen: 2026-07-06
-last_updated: 2026-07-06
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32; § 15 bestaetigt, §§ 8/9/10c neu aus amtlichem Volltext ergaenzt im Wiki)
+quelle_amtlich: "raw/260712_amtlich_zh_vrg.md"
 ---
 
 # Kap. 9 — Rechtsschutz (Teil 2: Fristen, Ablauf, Kosten, ausserordentliche Rechtsmittel, Mediation)
@@ -305,6 +307,21 @@ VRG; Art. 112 Abs. 1 lit. d BGG). (S. 591)
 | Revisionsfrist | **90 Tage** seit Entdeckung / **10 Jahre** absolut | § 86a-b VRG; S. 593 |
 | Erlaeuterungsbegehren | keine Frist, faktisch **30 Tage** | Treu und Glauben; S. 593-594 |
 | Aufschiebende Wirkung Bund | **keine** (ausdruecklich beantragen) | Art. 103 Abs. 1/3 BGG; S. 578 |
+
+## 4. Verifikations-Notiz (Buch-Run 32, Modell-D, 2026-07-12)
+
+- **§ 15 VRG (Kostenvorschuss, Abschnitt 2.2 oben) gegen amtlichen Volltext geprueft**
+  (`raw/260712_amtlich_zh_vrg.md`): Paraphrase **bestaetigt**, keine Korrektur noetig.
+  Abs. 1 (Barvorschuss bei erheblichen Barauslagen aus einer im Interesse eines Privaten
+  veranlassten Untersuchung) und Abs. 2 lit. a-c (Sicherstellung der Verfahrenskosten bei
+  fehlendem CH-Wohnsitz / offenen Kosten aus erledigtem Verfahren / Zahlungsunfaehigkeit)
+  decken sich wortgetreu mit dem Destillat.
+- **§§ 8, 9, 10c VRG (Akteneinsicht Grundsatz/Ausnahme, Realakte)** liegen ausserhalb des von
+  diesem Destillat abgedeckten Seitenbereichs (S. 576-606 behandelt §§ 11-89 VRG) und wurden
+  im Buch nicht als eigenes Unterkapitel angetroffen. Sie sind neu **direkt aus dem amtlichen
+  Volltext** erschlossen und im Wiki-Artikel [[rechtsschutz-und-rechtsmittelverfahren]],
+  Abschnitt 6b «Akteneinsicht und Realakte», ergaenzt — dort mit vollem Beleg (§ 8/§ 9/§ 10c
+  VRG). Keine Duplizierung hier; Cross-Referenz genuegt.
 
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
 

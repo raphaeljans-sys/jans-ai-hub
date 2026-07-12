@@ -2,9 +2,12 @@
 name: rechtsschutz-und-rechtsmittelverfahren
 titel: Rechtsschutz & Rechtsmittelverfahren (Baurekurs bis Bundesgericht)
 status: emerging
-letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06)"
-last_updated: 2026-07-06
+letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12)"
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32)
+sources: ["raw/260712_amtlich_zh_vrg.md", "band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md", "band-1/09-rechtsschutz.md"]
 backlinks: ["[[band-1/09-rechtsschutz]]", "[[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]]", "[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
+links: ["[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
 ---
 
 # Rechtsschutz & Rechtsmittelverfahren (Baurekurs bis Bundesgericht)
@@ -87,6 +90,38 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemaess.
   beziehungen (Nachbarn) und wo Parteien frei verfuegen. PBG-Instrumente zur Kreis-Eingrenzung:
   Mitwirkungsverfahren (Art. 4 RPG/§ 7 PBG) + Zustellbegehren Drittbeteiligter (§§ 315 f. PBG). Wege:
   ad hoc / Gerichtszuweisung (Art. 213/214 ZPO) / **Mediationsklausel** im Vertrag.
+
+## 6b. Akteneinsicht und Realakte
+
+- **Akteneinsicht, Grundsatz (§ 8 VRG):** Wer durch eine Anordnung beruehrt ist und ein
+  **schutzwuerdiges Interesse** an deren Aufhebung oder Aenderung hat, darf in die Akten
+  Einsicht nehmen (§ 8 Abs. 1 VRG). Ausserhalb eines foermlichen Verfahrens oder nach
+  Vorliegen einer rechtskraeftigen Verfuegung richtet sich das Akteneinsichtsrecht nach dem
+  Informations- und Datenschutzgesetz, nicht mehr nach § 8 VRG (§ 8 Abs. 1 Satz 2 VRG). Die
+  Herausgabe/Zustellung von Akten zur Einsichtnahme regelt der Regierungsrat (§ 8 Abs. 2
+  VRG); vor Verwaltungsgericht gilt fuer Information/Akteneinsicht Dritter die GOG-Verordnung
+  des Plenarausschusses (§ 8 Abs. 3 VRG).
+- **Akteneinsicht, Ausnahme (§ 9 VRG):** Die Einsicht in ein Aktenstueck (insb. ein
+  Einvernahmeprotokoll) kann verweigert werden zur Wahrung **wichtiger oeffentlicher oder
+  schutzwuerdiger privater Interessen** oder im Interesse einer **noch nicht abgeschlossenen
+  Untersuchung** (§ 9 Abs. 1 Satz 1 VRG). Die Verweigerung ist in den Akten zu **vermerken
+  und zu begruenden** (§ 9 Abs. 1 Satz 2 VRG). Der **wesentliche Inhalt** eines gesperrten
+  Aktenstuecks ist trotzdem mitzuteilen, soweit dies ohne Verletzung der zu schuetzenden
+  Interessen moeglich ist; bei muendlicher Bekanntgabe ist ein Protokoll zu erstellen, das
+  der Einsicht-Verlangende unterzeichnet (§ 9 Abs. 2 VRG).
+- **Realakte (§ 10c VRG):** Wer ein schutzwuerdiges Interesse hat, kann von der zustaendigen
+  Behoerde bei Handlungen, die sich auf oeffentliches Recht stuetzen und Rechte oder
+  Pflichten beruehren, verlangen, dass sie (a) widerrechtliche Handlungen unterlaesst,
+  einstellt oder widerruft, (b) die Folgen widerrechtlicher Handlungen beseitigt, oder
+  (c) die Widerrechtlichkeit von Handlungen feststellt (§ 10c Abs. 1 lit. a-c VRG). Die
+  Behoerde erlaesst dazu eine **Anordnung** (§ 10c Abs. 2 VRG) — erst diese ist wieder
+  rekursfaehig nach dem gewoehnlichen Instanzenzug (Abschnitt 2 oben).
+- **Fuer die JANS-Praxis:** Akteneinsichtsgesuche im Baubewilligungs-/Rekursverfahren auf
+  § 8 VRG stuetzen (schutzwuerdiges Interesse an der Anordnung nachweisen); bei Verweigerung
+  nach § 9 VRG die schriftliche Begruendung einfordern und den mitgeteilten wesentlichen
+  Inhalt schriftlich festhalten. § 10c VRG ist der Hebel gegen **faktisches Verwaltungshandeln**
+  ohne foermliche Verfuegung (z.B. informelle behoerdliche Praxis, tatsaechliche Handlungen der
+  Bauaufsicht) — dort zuerst eine Anordnung verlangen, bevor rekurriert werden kann.
 
 ## 7. Fuer die JANS-Praxis
 - Bei unbefriedigendem Entscheid **immer parallel fristwahrend rekurrieren**, auch wenn man mit der Behoerde
