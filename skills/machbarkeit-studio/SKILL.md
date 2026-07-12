@@ -193,3 +193,23 @@ build_studio.py model.json studio.html   +   build_dossier.py model.json dossier
 - **`grobkosten-onepager`** = nur die Kosten auf einer Seite. Hier sind die Kosten ein Baustein.
 - **`immobilienbewertung`** = formaler Verkehrswert eines Objekts. Hier Residualwert/zahlbarer
   **Landwert** einer Entwicklung; bei formaler Bewertung fuehrt `immobilienbewertung`.
+
+## Orchestrierung als Multi-Agent-Workflow (autorisiert 12.07.2026)
+
+Fuer grosse Laeufe dieses Skills sind Multi-Agent-Workflows von Raphael freigegeben
+(Rule auto-verbesserungen 260712). Muster:
+
+1. **Paralleler Fan-out statt sequenzieller Kette:** die unabhaengigen Grundlagen-Stufen
+   (Geodaten/OEREB, Baurecht/Zone, Volumen, Kennwerte/Kosten, Bewertung/Markt) laufen als
+   parallele Workflow-Agenten, nicht nacheinander.
+2. **Judge-Panel:** ein Richter-Schritt prueft die Teilresultate GEGENEINANDER auf
+   Konsistenz (z.B. aGF aus Volumenstufe = aGF in der Kostenstufe; Kennwert-Herkunft belegt;
+   Parzellen-/EGRID-Identitaet ueberall gleich). Widersprueche zurueck an die betroffene Stufe.
+3. **Konformitaets-Schleife bis gruen:** Soll/Ist-Ampel gegen die Anforderungen (Programm,
+   Auftrag, Checkliste) laeuft als Schleife, bis alle Pflichtpunkte erfuellt oder ehrlich
+   als offen markiert sind — nie schoenfaerben.
+4. **Verifikations-Pflicht:** Zahlen und Fundstellen werden von einem unabhaengigen
+   Pruef-Agenten an der Quelle gegengeprueft, bevor sie ins Deliverable gehen
+   (Verifier-Prinzip der Spec-Methode).
+
+Human Gates (Parti, Schluesselentscheide, Versand) bleiben unveraendert bestehen.

@@ -333,3 +333,25 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 - **Kap. 7: erledigt** (Teil 1 + Teil 2, S. 424-484). Restschuld Kap. 6 S. 405-422 offen.
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).
+
+## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
+
+Jede Status-Hebung auf `established` durchlaeuft VOR der Hebung eine unabhaengige
+Widerlegungs-Pruefung (Verifier-Prinzip der Spec-Methode, automatisiert):
+
+- **Adversarial Verify:** 2–3 unabhaengige Pruef-Agenten (oder ein Volltextabgleich an der
+  amtlichen/Original-Quelle, Modell D) versuchen die Aussage zu WIDERLEGEN — jede Fundstelle,
+  Ziffer, Kennwert wird an der Quelle gegengeprueft. Nur was die Pruefung besteht, wird
+  `established`; Beanstandungen werden korrigiert oder auf `speculative` gesenkt.
+- **Workflow-Orchestrierung autorisiert:** Multi-Agent-Workflows (paralleles Destillieren +
+  Verifikations-Pipeline) sind fuer diesen Loop von Raphael freigegeben (12.07.2026).
+  Mechanische Extraktion darf auf guenstigeren Modellen laufen; die Verifikations-/Richter-
+  Stufe laeuft auf dem Hauptmodell.
+- **Protokoll:** Verdikte (bestanden/beanstandet je Artikel/Destillat) gehoeren in den
+  Lauf-Report unter `outputs/` und ins CHANGELOG.
+
+## Intensivphase (ab 12.07.2026, bis auf Widerruf)
+
+Der Loop laeuft intensiviert (auch tagsueber und am Wochenende, Rule 260712), bis ein markant
+besserer Wissensstand erreicht ist (Inventar/Rueckstaende abgearbeitet, keine auto-schliessbaren
+Luecken). Dann Ruecktaktung ins Nachtfenster VORSCHLAGEN (nicht stillschweigend umsetzen).
