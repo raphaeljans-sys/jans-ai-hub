@@ -11,14 +11,14 @@
 |---|---|---|---|---|---|
 | [ ] | P1 | `102.2020.pdf` | 102 | 2020 | gilt (jüngste im Bestand) |
 | [ ] | P1 | `102_2014.pdf` | 102 | 2014 | — ersetzt durch 2020 |
-| [ ] | P1 | `103_2003_d.pdf` | 103 | 2003 |  |
-| [ ] | P1 | `105.2020.pdf` | 105 | 2020 |  |
-| [ ] | P1 | `111.2014.pdf` | 111 | 2014 | gilt (jüngste im Bestand) |
+| [x] 260712 | P1 | `103_2003_d.pdf` | 103 | 2003 |  |
+| [x] 260712 | P1 | `105.2020.pdf` | 105 | 2020 |  |
+| [x] 260712 | P1 | `111.2014.pdf` | 111 | 2014 | gilt (jüngste im Bestand) |
 | [ ] | P1 | `111_2003_d.pdf` | 111 | 2003 | — ersetzt durch 2014 |
-| [ ] | P1 | `112.2014.pdf` | 112 | 2014 |  |
+| [x] 260712 | P1 | `112.2014.pdf` | 112 | 2014 |  |
 | [ ] | P1 | `118_1991_d.pdf` | 118 | 1991 |  |
-| [ ] | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
-| [ ] | P1 | `451_1992_d.pdf` | 451 | 1992 |  |
+| [x] 260712 | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
+| [x] 260712 | P1 | `451_1992_d.pdf` | 451 | 1992 |  |
 | [ ] | P2 | `100_2004_df.pdf` | 100 | 2004 |  |
 | [ ] | P2 | `104_2003_d.pdf` | 104 | 2003 |  |
 | [ ] | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand) |
@@ -412,9 +412,9 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P1 | `01_Brandschutznorm 2015/1-15_Brandschutznorm.pdf` |  |  |  |
+| [x] 260712 | P1 | `01_Brandschutznorm 2015/1-15_Brandschutznorm.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` | 100 |  |  |
-| [ ] | P1 | `02_Brandschutzrichtlinien 2015/16-15_rev2016_flucht_und_rettungswege.pdf` |  | 2016 |  |
+| [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/16-15_rev2016_flucht_und_rettungswege.pdf` |  | 2016 |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/2001-15_VKF-AEAI_BrandschutzMerkblatt_Solaranlange_d.pdf` | 2001 | 2001 |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` |  | 2017 |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Anerkennungsverfahren.pdf` |  |  |  |
@@ -436,12 +436,12 @@
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Löscheinrichtungen.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Lufttechnische Anlage.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Merkblatt_012_d.pdf` |  |  |  |
-| [ ] | P1 | `02_Brandschutzrichtlinien 2015/Nachweisverfahren im Brandschutz.pdf` |  |  |  |
+| [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Nachweisverfahren im Brandschutz.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Qualitätssicherung im Brandschutz.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Rauch & Wärmeabzugsanlagen.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/SService Nr19091815480.pdf` | 1909 |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Sprinkleranlage.pdf` |  |  |  |
-| [ ] | P1 | `02_Brandschutzrichtlinien 2015/Verwendung von Baustoffen.pdf` |  |  |  |
+| [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Verwendung von Baustoffen.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/Wärmetechnische Anlagen.pdf` |  |  |  |
 | [ ] | P1 | `02_Brandschutzrichtlinien 2015/gege-panikprogramm-1.pdf` |  |  |  |
 | [ ] | P2 | `03_Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf` |  |  |  |

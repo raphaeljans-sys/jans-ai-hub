@@ -13,6 +13,12 @@
   referenzieren; Destillat der 1991er nur für Alt-Kontext.
 - [ ] SIA 102: Bestand hält 2014 **und** 2020 — 2020 gilt. Wird 2014 noch für Altverträge
   gebraucht, sonst als «— ersetzt durch 2020» führen (im Inventar markiert).
+- [x] **P1-SIA-Kern (ohne 102/118) + VKF-Kern destilliert — 12.07.2026 (Run 2):** SIA
+  103/105/111/112/416/451 + VKF 1-15/16-15/14-15/27-15, alle am Original adversarial verifiziert
+  (`established`). Befund: **SIA 105:2020 hat kein Art.-7-Baukostenmodell** (nur Kategorie-/
+  Zeitmodell Art. 6) — für `honorarberechnung-sia102` relevant.
+- [ ] SIA 118:1991 (Bestand) noch nicht destilliert (gross; gültige Ausgabe wäre 118:2013,
+  Bring-Schuld Kauf). Nächster SIA-Lauf: Alt-Kontext-Destillat der 1991er über mehrere Nächte.
 - [x] VKF — **beantwortet 11.07.2026 (Web-Verifikation bsvonline.ch):** Die **BSV 2015 sind
   weiterhin die rechtsgültigen** Brandschutzvorschriften; die Totalrevision «BSV 2026» wird
   bezüglich Inkraftsetzung erst an der **IOTH-Plenarversammlung im März 2027** behandelt.
@@ -28,6 +34,7 @@
 - [ ] SIA 385/1: nur Screenshots im Themenordner — PDF fehlt im Bestand `alle`? Prüfen.
 - [ ] SIA 380/1: Register-gültig ist 2009; Bestand-Ordner nennt `SIA 380_1_2016` — 2016er
   Ausgabe im Bestand? Beim Destillieren von 380/1 verifizieren und im Register nachtragen.
+  (In Run 2 nicht bearbeitet — nächster SIA-Lauf.)
 - [x] DIN-Ordner DRM (FileOpenInstaller.dmg) — **teilweise beantwortet 12.07.2026:** die
   getesteten nationalen DIN-PDFs (DIN 277-1, 277-2, 5034-1) waren OHNE DRM-Barriere direkt
   lesbar (kein FileOpen-Prompt, Text/Bild direkt extrahierbar). Für die grossen/gescannten

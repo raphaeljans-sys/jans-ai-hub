@@ -344,3 +344,21 @@ Titelblatt-Angaben (Ersatz für / Ausgabejahr) der jeweiligen Norm entnommen.
 | ZH 722.15 Verkehrssicherheitsverordnung | 15.06.1983 | — | gilt, geändert 05.10.1994 (in Kraft 01.01.1995) |
 | Stadt ZH Merkblatt Veloabstellplätze | 1996, überarb. 1998 | — | städtische Richtlinie, kein SNV-Normtext |
 | RAL-GZ 638 Gitterroste | September 2008 | keine ältere Ausgabe im Bestand | Teil-Destillat, gilt |
+
+## Run-2-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
+
+Gültigkeitsangaben direkt aus dem Titelblatt/Vorwort des jeweiligen Destillats (nicht aus dem
+2013-Register abgeleitet, sondern am PDF belegt):
+
+| Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
+|---|---|---|---|
+| SIA 103 | 2003 | Ordnung SIA 103:1984 (Art. 5–7 genehmigt 21.06.2003) | gilt; Bauingenieur-Honorar analog SIA 102 |
+| SIA 105 | 2020 (gültig ab 2020-01-01) | SIA 105:2014 + SIA 105-K:2018 | gilt; **kein baukostenabhängiges Prozentmodell (Art. 7)** — nur Kategorie-/Zeitmodell (Art. 6) |
+| SIA 111 | 2014 (gültig ab 2014-11-01) | Ordnung SIA 111:2003 | gilt; Verständigungsnorm «Modell Planung und Beratung» |
+| SIA 112 | 2014 (SN 509 112:2014, gültig ab 2014-11-01) | SIA 112:2001 | gilt; Verständigungsnorm «Modell Bauplanung» |
+| SIA 416 | 2003 | SIA 416:1993 + SIA 116:1952 | gilt (bestätigt Register-Abschnitt B «116→416») |
+| SIA 451 | 1992 | SIA 451:1989 | gilt; technisch (LV-Datenformate), Kontext CRB/NPK |
+| VKF 1-15 Brandschutznorm | 2015 (in Kraft 01.01.2015) | BSN 2003 | gilt; BSV 2015 rechtsgültig (BSV 2026 frühestens nach IOTH-Plenum 03/2027, siehe QUESTIONS) |
+| VKF-BRL 16-15 Flucht-/Rettungswege | 2015, Änderungen IOTH 17.09.2015 + 22.09.2016 eingearbeitet (Fassung 01.01.2017) | BRL 16-03 | gilt |
+| VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | BRL 13-03/14-03 (RF-Klassen) | gilt |
+| VKF-BRL 27-15 Nachweisverfahren | 2015 (IVTH-Beschluss 18.09.2014, verbindlich für alle Kantone) | BRL 27-03 | gilt |
