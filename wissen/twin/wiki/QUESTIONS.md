@@ -3,6 +3,31 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260712 (twin-fragesteller, aus Fidelity-Review 2026-07-12)
+
+Quelle: Drift-Report `outputs/2026-07-12_fidelity.md` (Gesamt-Fidelity 93; Drei-Register-Kontrast formell-Sie-
+Bauentscheid / Rechnungs-Du-Freigabe-Rückfrage / warm-Investor-Du-Studie. Einzige echte Drift: der Twin
+überlädt die Rechnungs-Freigabe-Rückfrage mit Service-Satz + Auftrags-Dank). Je in 1–2 Sätzen beantwortbar.
+
+1. **Rechnungs-Freigabe-Rückfrage als schlanker Sub-Typ:** Bevor Du eine Rechnung final rauslässt, schickst Du
+   sie dem durchleitenden Partner (Peter) mit dem Objekt/Projekt/Bauherrschaft-Stempel + «**Kann ich Die so
+   rauslassen? Stimmen die Angaben?**» — Freundliche Grüsse + Block (Beleg liegt bei), aber OHNE Service-Satz
+   und OHNE Auftrags-Dank (re-00077, 15.12.2025). Ist das Weglassen von Service-Satz/Auftrags-Dank bei dieser
+   **Freigabe-/Kontroll-Rückfrage** bewusst (nur die FINALE Rechnungs-Liefermail an die Zahl-/Buchhaltungsstelle
+   trägt beides), oder war es hier Tagesform? *Warum: fixiert die Sub-Typ-Trennung der Rechnungs-Du-Mail und
+   verhindert, dass der Zwilling die Kontroll-Rückfrage überlädt (schärft 260708 #1).* → [[stimme]], [[arbeitsweise]]
+2. **Objekt/Projekt/Bauherrschaft-Stempel als fester Rechnungs-Kopf-Baustein:** In der Rechnungs-Begleitmail
+   setzt Du einen fetten Block «**Objekt** … / **Projekt** _ … / **Bauherrschaft** Name+Adresse» vor die
+   Freigabe-Frage. Ist dieser Objekt-/Adressstempel Dein **fester Kopf-Baustein jeder Rechnungs-Begleitmail**
+   (eindeutige Zuordnung des Belegs), oder nur bei Mehrfach-Objekten/Verwechslungsgefahr? *Warum: macht den neu
+   belegten Rechnungs-Kopf-Baustein operationalisierbar.* → [[arbeitsweise]], [[fachsignatur]]
+3. **«Herzliche Grüsse» = Gruss der warm-liefernden Investor-Du-Mail:** Die gehaltvolle Studien-Liefermail an
+   Thomas Angerer schliesst mit «**Herzliche Grüsse / Raphael**», die operativen Zwischenmails desselben Fadens
+   mit «Bester Gruss»/«Lieber Gruss». Ist «Herzliche Grüsse» gezielt der Gruss der **warm-liefernden,
+   gehaltvollen** Investor-/Stammkunden-Du-Mail (Resultat + Beziehung zugleich), während «Lieber/Bester Gruss»
+   die operativen Zwischenmails trägt? *Warum: kalibriert die Gruss-Mittelstufe im reziprok-warmen Investor-Du.*
+   → [[stimme]], [[beziehungsregister]]
+
 ## Offen — Runde 260710 (twin-fragesteller, aus Fidelity-Review 2026-07-10)
 
 Quelle: Drift-Report `outputs/2026-07-10_fidelity.md` (Gesamt-Fidelity 93; Register-Kontrast operativ-Du /
@@ -39,7 +64,11 @@ beantwortbare Feinheiten aus den drei Golds.
    15.12.2025). Ist diese kurze Verifikations-Rückfrage Dein **Standard vor jedem Rechnungsversand** an den
    durchleitenden Partner (Beleg-/Buchhaltungssicherheit), oder nur, wenn Du an den Rechnungsdaten unsicher
    bist? *Warum: operationalisiert den neu belegten Rechnungs-Verifikations-Reflex.* → [[arbeitsweise]],
-   [[stimme]]
+   [[stimme]] · **GESCHÄRFT (Fidelity 260712):** die Freigabe-Rückfrage (re-00077, 15.12.2025) trägt FG+Block,
+   aber OHNE Service-Satz/Auftrags-Dank — im Kontrast zur finalen/aktualisierten Rechnungs-Liefermail
+   (re-00077, 16.12.2025), die beides trägt (260708-Beleg in stimme.md). Damit ist die Freigabe-Rückfrage ein
+   eigener **schlanker Sub-Typ** der Rechnungs-Du-Mail. In stimme.md/arbeitsweise.md verankert; Rest-Schwelle
+   «bewusst vs. Tagesform» → Runde 260712 #1.
 2. **Erläuterungs-Beilage zur Honorarofferte:** Zum «Offertenvorschlag» an Peter (19.12.2025) legst Du zwei
    PDF bei — «Honorarofferte_…» UND «Erläuterungen_…». Ist die separate Erläuterungs-/Begleit-Datei ein
    **Standard-Doppel** zu jeder Honorarofferte (Angebot + erklärender Kontext), oder nur bei erklärungs-

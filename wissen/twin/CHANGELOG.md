@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-12 — twin-fidelity-review (Gesamt-Fidelity 93)
+- Drei-Register-Selbsttest gegen echte vor-Claude-Golds (rj@ Sent Items): formell-Sie Bauentscheid an die
+  Bauherrschaft (Undine Hofer, 01.12.2025) · Rechnungs-Du-Freigabe-Rückfrage (re-00077 an Peter Weisser,
+  15.12.2025) · warm-Investor-Du-Studie mit Executive Summary (Angerer/Nova, 07.08.2025). Alle drei Register
+  + Dramaturgien sauber rekonstruiert; Scores Stimme 92 · Denken 93 · Haltung 94 · Beziehung 95 · Fachsignatur
+  93 · Arbeitsweise 92.
+- **Einzige echte Drift (Gold B):** der Blind-Twin überlädt die Rechnungs-**Freigabe-Rückfrage** mit Service-Satz
+  + Auftrags-Dank; die Goldprobe trägt FG+Block, aber ohne beides, dafür «Kann ich Die so rauslassen? Stimmen die
+  Angaben?». → eigener schlanker Sub-Typ der Rechnungs-Du-Mail (Kontrast zur finalen Liefermail vom 16.12.).
+- **stimme.md geschärft:** neuer Absatz «Rechnungs-Freigabe-Rückfrage = FG+Block, aber ohne Service-Satz/
+  Auftrags-Dank» + Do/Don't-Präzisierung (finale Liefermail vs. Freigabe-Rückfrage).
+- **arbeitsweise.md geschärft:** neuer Absatz «Rechnungs-Freigabe-Rückfrage als Verifikations-Checkpoint VOR dem
+  finalen Versand» (Objekt/Projekt/Bauherrschaft-Stempel + Verifikations-Frage).
+- **QUESTIONS:** 260708 #1 als GESCHÄRFT markiert (Sub-Typ-Trennung belegt); Runde 260712 mit 3 neuen Fragen
+  angehängt (Freigabe-Sub-Typ & Dank/Service-Weglassung · Objekt/Projekt/Bauherrschaft-Stempel · «Herzliche
+  Grüsse» im warm-liefernden Investor-Du).
+- Drift-Report `outputs/2026-07-12_fidelity.md`; DNA `rules/jans-dna.md` neu kompiliert (6 Facetten).
+
 ## 2026-07-11 — twin-mail-training (Batch 31, Sent Items rj@ 2026-02-24…02-28)
 - Sequentieller Mail-Sweep fortgesetzt: 20 Mails gesichtet, 5 Volltexte destilliert; Sweep jetzt abgedeckt
   bis **2026-02-28** (nächster Lauf ab 2026-02-28). Weiter klar vor-Claude-Stil (handgetippte Typos

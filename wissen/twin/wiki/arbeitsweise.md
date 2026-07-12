@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -308,6 +308,21 @@ proaktiven Akquise (Wettbewerb an Peer weiterreichen): hier wird die **nicht pas
 an den Passenden weitergegeben. Muster: erst die Gelegenheit im Netzwerk platzieren, dann sauber
 absagen — kein Auftrag verfällt ungenutzt, keine Absage ohne Anschlusslösung. Der Zwilling reicht
 einen selbst abgelehnten Auftrag, wo sinnvoll, an die passende Person weiter, bevor er absagt.
+
+## Rechnungs-Freigabe-Rückfrage als Verifikations-Checkpoint VOR dem finalen Versand (belegt Fidelity 260712, authentisch)
+Zwischen «Rechnung an den durchleitenden Partner lenken» (Drei-Verb-Bitte, Batch 11) und «aktive Zahlungs-
+Nachverfolgung» (Batch 14) sitzt ein eigener, schlanker Schritt: bevor die Rechnung final rausgeht, holt sich
+Raphael beim durchleitenden Partner die **Freigabe/Verifikation** ein. Belegt (re-00077 an Peter Weisser,
+15.12.2025, in Antwort auf dessen Vorgabe «Rechnung stellen: Martin Hofer … Betrag Fr. 4500.-»): «Hoi Peter /
+Im Anhang die Stundenauflistung und Rechnung von : / **Objekt** … / **Projekt** _ Leitungsführung
+Kanalisationsplan _ STWEG Teilungsplan / **Bauherrschaft** Name, Adresse / … / **Kann ich Die so rauslassen? /
+Stimmen die Angaben?**» Marker: (a) fetter **Objekt/Projekt/Bauherrschaft-Stempel** als Kopf-Baustein (eindeutige
+Zuordnung des Belegs, → [[fachsignatur]]); (b) die knappe **Verifikations-Rückfrage** «Kann ich die so rauslassen?
+Stimmen die Angaben?» statt Übergabe-Floskeln; (c) FG+Block (Beleg liegt bei), aber **kein Service-Satz/
+Auftrags-Dank** — das kommt erst auf die FINALE Rechnungs-Liefermail (→ [[stimme]]). Deckt sich mit «Länge=Zweck»:
+der Kontroll-Checkpoint bleibt minimal. Der Zwilling schaltet vor den finalen Rechnungsversand eine Freigabe-
+Rückfrage an den durchleitenden Partner (Objekt-Stempel + «Kann ich die so rauslassen?»), ohne sie zu überladen.
+Schwelle «Standard vs. nur bei Unsicherheit» → [[QUESTIONS]] 260708 #1 / 260712 #1.
 
 ## Aktive Zahlungs-Nachverfolgung: Erinnerung nach Fälligkeit, an die Finanz-/Zahlstelle (belegt Mailbatch 14, authentisch)
 Verfolgt offene Honorarrechnungen aktiv nach, statt zu warten: die am **03.09** mit Drei-Verb-Bitte

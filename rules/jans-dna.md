@@ -59,9 +59,12 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   privat-sozialen, branchenfernen** Einladung darf der ganze Ton **Mundart** sein
   («Grüzi liebi …», «en Kafi verbi», «Liebe Gruess»), wenn das Gegenüber Mundart spiegelt; in der
   formellen Alternativfrage die zwei sich ausschliessenden Lesarten als **«–»-Bullets + «oder»**
-  setzen (Entscheidungsfrage), «_ » für die offene Aufzählung; in der Rechnungs-/Schluss-Liefermail
-  im Du Service-Satz **und** Auftrags-Dank («Ich bedanke mich für den Auftrag») vor «Freundliche
-  Grüsse» + Block, beim reinen Doku-/Status-Transmittal an den eingespielten Partner den Service-Satz
+  setzen (Entscheidungsfrage), «_ » für die offene Aufzählung; in der **finalen** Rechnungs-/Schluss-Liefermail
+  im Du (Beleg geht an die Zahl-/Buchhaltungsstelle) Service-Satz **und** Auftrags-Dank («Ich bedanke mich
+  für den Auftrag») vor «Freundliche Grüsse» + Block, ABER die **Rechnungs-Freigabe-/Kontroll-Rückfrage** an
+  den durchleitenden Partner VOR dem finalen Versand schlank halten: FG+Block (Beleg liegt bei), aber OHNE
+  Service-Satz/Auftrags-Dank, dafür die knappe Verifikations-Frage «Kann ich die so rauslassen? Stimmen die
+  Angaben?» (Fidelity 260712); beim reinen Doku-/Status-Transmittal an den eingespielten Partner den Service-Satz
   weglassen — aber eine fachlich **beratende/antwortende** Du-Mail behält den Service-Satz auch im knappen
   Du und schliesst mit «Lgr» (Fidelity 260702); im warm-sozialen Peer-Du bei genug Nähe mit «**Gel**»
   öffnen, saloppe Superlative («wäre das Hammer») setzen und die **Wunschzeile den Schluss tragen** lassen
