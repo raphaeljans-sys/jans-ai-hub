@@ -23,7 +23,26 @@ Stand-Bilanz: 3 established (2101, 2103, 2408), 4 draft (2102, 2205, 2206, 2503)
 
 ## Muster (verallgemeinerte DNA)
 
-- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? (Artikel-Inhalt Basis 3 Dossiers, draft; Verdichtung auf jetzt 6 verfuegbare Dossiers beim naechsten «dritten Lauf» faellig)
+- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? (Basis 6 Dossiers, draft; Verdichtung auf alle Teilnahmen faellig)
+- muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis 15 Fremd-Juryberichte + 3 eigene (draft)
+- muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen (draft)
+
+## Externe Referenz-Juryberichte (wiki/extern/, je draft, Basis fuer Muster)
+
+15 Schul-/Bildungsbau-Berichte 2012–2022: bruehl-solothurn, faellanden, froeschmatt-pratteln,
+heilpaedagogische-schule-bern, kantonsschule-baden, kantonsschule-wattwil, merian-basel,
+sandgruben-basel, schulanlage-grossaffoltern, schule-hausen-am-albis, schulhaus-muhen,
+sekundarschule-sursee, thurgauerstrasse-zuerich, volksschule-stoeckacker-bern, zelgli-schlieren.
+
+## Board-DNA (wiki/board-dna/, je draft)
+
+Plangrafik-Analysen der Abgabe-Boards: 2101, 2102, 2103, 2205, 2206, 2207, 2408, 2501, 2507.
+
+## Reports (outputs/)
+
+- 2026-07-12_generalprobe-muttenz.md — Maschine vs. Jury (3 von 5 Kritikpunkten erkennbar)
+- 2026-07-12_pdf-vektor-pilot.md — PDF-Plangeometrie: Pruef-Connector ja, Bauteilsemantik nein
+- 2026-07-12_massnahmen-skill-wettbewerb.md — abgeleitete Skill-Upgrades (M1–M6)
 
 ## Offene Fragen
 

@@ -1,11 +1,15 @@
 # VOLLGAS-Chef-Radar
 
-Ziel (Auftrag Raphael 12.07.2026, Rule 260712c): Alle Routinen und Lern-Loops laufen im
-Dauerbetrieb rund um die Uhr, bis das 5-Stunden- und Wochenlimit des Max-Abos ausgereizt
-ist. Dieser Radar prueft alle 2 Stunden den Durchsatz, findet Blocker und schlaegt priorisiert
-vor, wo Beschleunigung am meisten bringt. Neueste Eintraege zuoberst.
+Ziel (Auftrag Raphael 12.07.2026, Rules 260712c + 260712e): das WOCHENLIMIT des Max-Abos
+ausschoepfen (Referenz 12.07.: 41% bzw. 52%), indem JEDES rollierende 5-Stunden-Fenster
+maximal ausgereizt wird. Das 5h-Limit auf 100% ist ERFOLG, nicht Fehler — ein volles Fenster
+ist ein voller Baustein zum Wochenlimit. Der Radar ist zugleich TAKTGEBER: er laeuft stuendlich,
+erkennt Limit-Pausen (= gewuenschter Zustand) und sorgt dafuer, dass nach jedem 5h-Reset SOFORT
+wieder ans Maximum gefahren wird, damit zwischen den Fenstern keine ungenutzte Luecke entsteht.
+Neueste Eintraege zuoberst.
 
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
+Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet offen, Vollgas sichern · [LOGIN] headless-Login-Block.
 
 ---
 
