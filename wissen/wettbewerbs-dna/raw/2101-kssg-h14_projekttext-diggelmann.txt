@@ -1,0 +1,6 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2101 WB StGallen KSSG H14/08_Publikationen/01_Texte/Peter Diggelmann/Korrektur von Peter Diggelamnn 210825.docx
+# Extrakt: textutil -convert txt, 2026-07-12
+
+Korrektur von Peter Diggelamnn 210825  Tragwerksystem / Konstruktion / Materialisierung Das Untergeschoss und der Kern werden in Massivbauweise in Ortbeton ausgeführt und flach fundiert. Sie sorgen für die Gebäudeaussteiffung und die Erdbebensicherheit. Die Geschosse über Terrain werden in Holz-Beton-Verbundbauweise erstellt. Die Deckenelemente spannen vom Kern-Tragring zur innenliegenden Fassadenstütze mit einer maximalen Spannweite von ca 6.5m. Die Prefab-Fassadenstützen werden in den Unterzug eingebunden. Die Holzstützen des Kern-Tragring werden mit einem Holzunterzug seitlich an den Betonkern verbunden.
+ Der Teilhybridbau wird zu einem kleinen Teil vor Ort erstellt. Rund 75% des Rohbaus wird industriell vorgefertigt. Die Holzbauteile werden im Werk konfektioniert und als Holz-Beton-Verbund-Elementen fertig – just in time angliefert und versetzt. Das Holztragwerk ist konventionellem Brettschichtholz in unterschiedlichen Festigkeitsklassen geplant. Der hoch belasteten Pfosten ist in Buche ausgebildet. Die Holz-Metallfenster werden der Fassade vorgehängt.
+

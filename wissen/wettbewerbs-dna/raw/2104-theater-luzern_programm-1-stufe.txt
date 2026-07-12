@@ -1,0 +1,2337 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2104 WB Luzern Theater/00 Simap Daten/U01_Programm_1._Stufe.pdf (51 Seiten, pdftotext -layout, Extrakt 2026-07-12)
+
+                                                                                                                  Unterlage 01
+
+
+
+
+Offener Projektwettbewerb in zwei Stufen
+Programm zur 1. Stufe
+
+Stadt Luzern
+Neues Luzerner Theater
+
+Luzern, 28. September 2021
+Version 1.0
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel Zähringerstrasse 19, 6003 Luzern, T +41 58 451 77 00, luzern@bfbag.ch, www.bfbag.ch
+Impressum
+
+Auftraggeber:
+Projektierungsgesellschaft Neues Luzerner Theater
+c/o Stadt Luzern
+Hirschengraben 17
+6002 Luzern
+https://www.stadtluzern.ch/projekte/zentraleprojekte/19090
+
+
+Verfahrensbegleitung:
+Büro für Bauökonomie AG
+Zähringerstrasse 19
+6003 Luzern
+www.bfbag.ch
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+Management Summary
+
+Das vorliegende Wettbewerbsverfahren dient dem Ziel ein Projekt für das Neue Luzerner Theater zu evaluieren,
+welches einerseits den signifikanten städtebaulichen Anforderungen gerecht wird und zum anderen die be-
+trieblichen Anforderungen virtuos umsetzen kann.
+
+Der Projektvorschlag für das Neue Luzerner Theater soll aufzeigen, wie im eng gefassten Planungsperimeter am
+Standort des heutigen Theaters mit dem Theaterplatz eine allumfassende, bauliche Lösung für einen Mehrspar-
+tenbetrieb mit Schwerpunkt Musiktheater realisiert werden kann. Dabei ist nebst den Fragen des Abstandes zur
+Jesuitenkirche und zur Reuss auch dem Bundesinventar der schützenswerten Ortsbilder der Schweiz von natio-
+naler Bedeutung (kurz ISOS) Rechnung zu tragen. Erfolgte Planungsstudien (Testplanung und Machbarkeitsstu-
+die) haben eindeutig aufgezeigt, dass ein betrieblich funktionierendes Mehrspartenhaus in einem Erweiterungs-
+bau des bestehenden Theaters nicht möglich ist.
+
+Das Neue Luzerner Theater soll ein zeitgemässer, künstlerisch und technisch auf höchstem Niveau stehender
+Mehrspartenbetrieb mit Oper, Schauspiel und Tanz werden (siehe ausführliches Betriebskonzept, Unterlage 02).
+Dafür sind die folgenden drei Räume für Veranstaltungen vorgesehen: Der grosse Saal mit Orchestergraben
+und erstklassiger Raumakustik für mindestens 600 Personen, der kleine Saal als ebener multifunktionaler Raum
+und einer Kapazität von max. 350 Personen sowie das Studio, in dem Aufführungen ebenso stattfinden können
+wie Publikums- und Sponsorenanlässe. Ergänzt wird das Raumangebot durch einen grosszügigen, offenen und
+einladenden Foyerbereich. Weiter ist ein Restaurant vorgesehen, welches unabhängig vom Theaterbetrieb das
+ganze Jahr, an sieben Tagen die Woche betrieben wird. Es besteht der Wunsch, dass dieses über einen Aussen-
+bereich, auch als Dachterrasse möglich, verfügt bzw. der prominenten Lage in Nähe zu Reuss, Kapellbrücke
+und Jesuitenkirche Rechnung trägt.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 1 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+Inhaltsverzeichnis                                                           Seite
+
+1.         Vorbemerkung                                                        4
+1.1.       Phase Projektwettbewerb 1. Stufe                                    4
+1.2.       Phase Projektwettbewerb 2. Stufe                                    4
+
+2.         Einleitung                                                         5
+2.1.       Vision Neues Luzerner Theater                                      5
+2.2.       Ausgangslage                                                       6
+2.3.       Testplanung und Machbarkeitsstudie                                 8
+2.4.       Neubau für das Luzerner Theater am Theaterplatz                    9
+2.5.       Betriebskonzept Neues Luzerner Theater                            10
+
+3.         Zielsetzungen                                                     12
+3.1.       Ziele des Verfahrens                                              12
+3.2.       Investitionsvolumen                                               12
+3.3.       Zielsetzung Projekttermine                                        12
+
+4.         Verfahrensbestimmungen                                            13
+4.1.       Veranstalterin                                                    13
+4.2.       Verfahrensbegleitung                                              13
+4.3.       Drittstelle                                                       13
+4.4.       Art des Verfahrens                                                13
+4.5.       Teilnahmeberechtigung                                             13
+4.6.       Teamzusammensetzung                                               13
+4.7.       Befangenheit und Ausstandsgründe                                  14
+4.8.       Sprache                                                           14
+4.9.       Grundlagen und Verbindlichkeit                                    15
+4.10.      Anonymität                                                        15
+4.11.      Vorbehalt Vorbefassung                                            15
+4.12.      Preisgericht / Experten                                           16
+4.13.      Vorprüfung                                                        17
+4.14.      Gesamtpreissumme                                                  17
+4.15.      Bereinigungsstufe                                                 17
+4.16.      Eigentumsverhältnisse und Urheberrechte                           17
+4.17.      Rechtsschutz                                                      18
+4.18.      Kommunikation und Information der interessierten Öffentlichkeit   18
+
+5.         Projektwettbewerb 1. Stufe                                        19
+5.1.       Termine 1. Stufe                                                  19
+5.2.       Versand der Wettbewerbsunterlagen                                 19
+5.3.       Unterlagen zum Projektwettbewerb                                  20
+5.4.       Modell                                                            21
+5.5.       Begehung des Areals                                               21
+5.6.       Fragenbeantwortung                                                21
+5.7.       Einzureichende Unterlagen                                         21
+5.8.       Beschriftung                                                      23
+5.9.       Abgabetermin und Eingabeort                                       23
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 2 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+6.         Projektwettbewerb 2. Stufe                                        24
+6.1.       Termine 2. Stufe                                                  24
+6.2.       Fragenbeantwortung                                                24
+6.3.       Unterlagen 2. Stufe                                               24
+6.4.       Individuelle Rückmeldung                                          24
+6.5.       Modell                                                            24
+6.6.       Einzureichende Unterlagen 2. Stufe                                25
+6.7.       Beschriftung                                                      26
+6.8.       Abgabetermin und Eingabeort                                       26
+
+7.         Rahmenbedingungen zur Aufgabenstellung                            27
+7.1.       Planungsperimeter                                                 27
+7.2.       Raumprogramm                                                      28
+7.3.       Bau- und Nutzungsvorschriften                                     29
+7.4.       Bauinventar, Ortsbildschutz                                       31
+7.5.       Allgemeine und fachspezifische Richtlinien und Normen             32
+7.6.       Brandschutz                                                       32
+7.7.       Behindertengerechte Bauweise – Hindernisfreie Bauten              32
+7.8.       Stadträumliche Lage                                               32
+7.9.       Jesuitenkirche                                                    33
+7.10.      Bahnhofstrasse und Theaterplatz                                   34
+7.11.      Erschliessung, Anlieferung und Parkierung                         36
+7.12.      Freiraum                                                          38
+7.13.      Werkleitungen und Pumpwerk Theaterplatz                           38
+7.14.      Gewässerschutzbereich                                             40
+7.15.      Geologie und Hydrologie                                           40
+7.16.      Energie und Nachhaltigkeit                                        41
+
+8.         Beauftragung Generalplanerteam                                    43
+8.1.       Weiterbearbeitung                                                 43
+8.2.       Teamzusammensetzung Generalplanerteam                             43
+8.3.       Honorarvertrag Generalplanerteam (provisorisch)                   44
+8.4.       Auftragserteilung                                                 44
+8.5.       Auftragsumfang                                                    44
+8.6.       Honorar (Verhandlungsgrundlage)                                   45
+8.7.       BIM-Planung für Projektierung, Ausführung und Realisierung        46
+8.8.       Vorbehalte                                                        46
+
+9.         Beurteilungskriterien                                             47
+9.1.       Beurteilungskriterien 1. Stufe                                    47
+9.2.       Beurteilungskriterien 2. Stufe                                    47
+
+10.        Schlussbestimmungen                                               47
+10.1.      Gerichtsstand                                                     47
+
+11.        Genehmigung                                                       48
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 3 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+1.         Vorbemerkung
+
+1.1.       Phase Projektwettbewerb 1. Stufe
+           Das vorliegende Dokument «Programm zur 1. Stufe» beinhaltet die verbindlichen Vorgaben und den
+           Ablauf für den Projektwettbewerb der 1. Stufe.
+
+1.2.       Phase Projektwettbewerb 2. Stufe
+           Die Veranstalterin behält sich vor, aufgrund von Erkenntnissen aus der 1. Stufe, Anpassungen und
+           Konkretisierungen an Vorgaben und Ablauf der 2. Stufe vorzunehmen. Für die 2. Stufe können das
+           vorliegende Programm in den Ziffern 6 und 7 sowie die Unterlagen zum Verfahren entsprechend an-
+           gepasst und ergänzt werden.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 4 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+2.         Einleitung
+
+2.1.       Vision Neues Luzerner Theater
+           Vorab wird die Vision der Projektierungsgesellschaft Neues Luzerner Theater aufgeführt. Diese Vision
+           stellt auch den Ausgangspunkt für das Betriebskonzept der Stiftung Luzerner Theater dar (siehe auch
+           Ziffer 2.5).
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 5 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+2.2.       Ausgangslage
+           Das Luzerner Theater ist das älteste und einzige professionelle Mehrspartenhaus in der Zentral-
+           schweiz. Es bringt mit eigenen Ensembles in der 10-monatigen Spielplan alle darstellenden Künste auf
+           die Bühne: Oper, Schauspiel, Tanz und Figurentheater. Damit hält das Luzerner Theater die reiche und
+           jahrhundertelange Theatertradition Luzerns lebendig, die bereits mit den mittelalterlichen Oster- und
+           Fastnachtsspielen begann.
+
+           Bereits im 17. Jahrhundert wurden der Marianische Saal und die Michaelskirche sowie die Sakristei
+           der Jesuitenkirche als Theatersäle rege genutzt, bevor 1740 ein „Obrigkeitliches Comödienhaus“ über
+           der Sakristei errichtet wurde, das bald zu klein war. Die Zunft zu Safran finanzierte schliesslich ein
+           klassizistisches Theatergebäude an der Reuss, das 1839 mit „Wilhelm Tell“ von Friedrich Schiller feier-
+           lich eröffnet wurde.
+
+           Seitdem entwickelte sich das Luzerner Theater von der Laienbühne zu einem professionellen Theater-
+           unternehmen mit heute rund 350 freien und festangestellten Mitarbeitenden (zzgl. Luzerner Sinfonie-
+           orchester), seit der Spielzeit 2021/22 unter der Leitung von Intendantin Ina Karr.
+
+           Beim Wiederaufbau nach dem Grossbrand 1925 wurde das Theater aufgestockt und seit 1938 weiter
+           baulich angepasst. Die einzige grössere bauliche Veränderung ist datiert von 1968-70 mit der Ausla-
+           gerung der Kulissenherstellung in die neuen Werkstätten an der Bürgenstrasse und dem Anbau des
+           heutigen Foyers auf der Westseite. Der für eine professionell bespielte Bühne übliche Bühnenturm
+           fehlte von Beginn an. 1997-1999 konnte die Raumsituation durch Rochaden und Umnutzung not-
+           dürftig verbessert werden.
+
+           Das Theater zählt zu den aufwändigsten Kunstformen überhaupt. Das Luzerner Theater produziert
+           heute als Ensembletheater „in Luzern und für Luzern“. Dafür unterhält es eigene Werkstätten und
+           Probenbühnen (welche auch künftig genutzt werden sollen) sowie einen Kostüm- und einen Requisi-
+           tenfundus. Da für eine Opernproduktion heutigen Massstabs gleich eine Vielzahl von Künstlerinnen
+           und Künstlern aus verschiedenen Berufsgruppen zusammenspielen (Bühnenbild, Beleuchtung, Ton,
+           Sängerensemble, Chor, Orchester, Kostüme, Maske, Requisite, Regie, Dramaturgie...) gilt das für Lu-
+           zern als Schwerpunkt anzusehende Musiktheater als „Königsdisziplin“ unter den darstellenden Küns-
+           ten.
+
+           Der künstlerisch-betrieblichen Entwicklung des Luzerner Theaters hält der Bau von 1839 längst nicht
+           mehr stand. Die räumliche Enge schränkt die künstlerischen Möglichkeiten ein, sie provoziert ineffizi-
+           ente Arbeitsabläufe und nicht mehr zeitgemässe Arbeitsplätze. Die gestiegenen Anforderungen in al-
+           len Sicherheitsbereichen werden immer weniger erfüllt. Auch die veränderten Sehgewohnheiten des
+           Publikums (TV-Format 16:9 statt 4:3) lässt das Sichtfeld unattraktiv erscheinen. Der heutige Bau lässt
+           in keine Richtung eine substanzielle Entwicklung zu. Deshalb lassen betriebliche und sicherheitstech-
+           nische Überlegungen einen Neubau des Luzerner Theaters als wünschbar und dringlich erscheinen.
+           Dabei wird der heutige Theaterstandort von Anspruchs- und Bevölkerungsgruppen sowie politischen
+           Exponenten klar präferiert.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 6 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Die Lage des Theaters am Reussufer direkt gegenüber des Rathauses verlieh dem Theater von Beginn
+           an eine hohe städtebauliche Bedeutung. Mit dem Bau des Rathaussteges 1899 wurde die städtebauli-
+           che Akzentuierung der Situation verstärkt; so wird der Blick von der Rathaustreppe direkt auf die
+           Mitte des Theaterbaus gelenkt. Der Theaterbau markiert damit den Ort des Flussübergangs, welcher
+           das Theater direkt mit Rathaustreppe und Rathausplatz verbindet. Als Stadträume haben die Bahn-
+           hofstrasse und der Theaterplatz heute eine hohe Bedeutung. Kapellbrücke, Jesuitenkirche und Thea-
+           ter sind prominente Zielorte in der Stadt. Entsprechend nutzen viele Personen (Einheimische wie
+           Gäste) die Bahnhofstrasse und den Theaterplatz als Durchgangs- oder Aufenthaltsort. Zudem finden
+           hier regelmässig Veranstaltungen und Märkte statt. Auch die Fussgängerbeziehung Rathaussteg –
+           Buobenmattpassage, welche das Hirschmatt-Neustadt Quartier erschliesst, ist stark frequentiert.
+
+
+
+
+           Bild 1: Bestehendes Luzerner Theater (rot) mit Umgebung
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 7 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+2.3.       Testplanung und Machbarkeitsstudie
+           Um die Möglichkeiten einer Erneuerung des Theaters am heutigen Standort Theaterplatz zu prüfen,
+           hat sich die Stadt Luzern im Jahr 2017 für die Durchführung einer Testplanung entschlossen. Mit die-
+           sem diskursiven Verfahren konnten die Erkenntnisse in einem direkten Dialog zusammen mit Beurtei-
+           lungsgremium und drei Bearbeitungsteams erarbeitet werden.
+
+           Im Rahmen der Testplanung wurden zu folgenden Themen Erkenntnisse erwartet:
+            • Umsetzbarkeit eines Umbaus mit Erweiterung des bestehenden Theaters
+            • Dimensionen eines Erweiterungs- oder Neubaus
+            • Bebauungsdichte im Verhältnis zur Umgebung insbesondere zur Jesuitenkirche
+            • Ausloten eines machbaren Raumprogramms für ein Theater der Zukunft am Standort Theaterplatz
+               (Konsolidierung des im Programm zur Testplanung vorgeschlagenen Raumprogramms)
+            • Klärung der Machbarkeit von Untergeschossen
+            • Ausloten eines neuen stadträumlichen Verhältnisses zwischen Bebauung und Freiraum im Umfeld
+               Theaterplatz, Bahnhofstrasse, Reuss
+            • Anlieferung und Erschliessung
+
+           Mit der Testplanung sollten beide Varianten für die Erneuerung des Theaters, sowohl als Ergänzungs-
+           als auch als Neubau, geprüft werden. Die Beiträge der drei Bearbeitungsteams im Rahmen der Test-
+           planung zeigten dabei verschiedene Lösungsansätze auf. Aufgrund der ideenreichen und kreativen
+           Arbeiten konnten wichtige Erkenntnisse in allen wesentlichen Themenbereichen gewonnen werden.
+
+           Während die Testplanung zu wertvollen Erkenntnissen führte, konnte das Beurteilungsgremium keine
+           eindeutige Empfehlung für eine bauliche Variante (Umbau mit Erweiterung oder Neubau) abgeben.
+           Die Testplanung zeigte, dass sich aus städtebaulicher Sicht beide Varianten am Theaterplatz umsetzen
+           lassen, die Varianten jedoch vorwiegend aus betrieblichen Aspekten unterschiedliche Potenziale auf-
+           weisen. Aus diesem Grund sprach sich das Beurteilungsgremium für eine weitere Vertiefungsphase
+           nach Abschluss der Testplanung aus (siehe auch Unterlage 10 A, Schlussbericht).
+
+
+
+
+           Bild 2: Axonometrie, Lageplan und Ansicht Reuss-Seite, Beitrag Testplanung f. Neubau, Bosshard & Luchsinger Arch.
+
+
+           Die Ergebnisse des Testplanungsverfahrens wurden den Eidgenössischen Kommissionen für Denkmal-
+           pflege und für Natur- und Heimatschutz zur Stellungnahme vorgelegt (Unterlage 10 B). In ihrem Gut-
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 8 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           achten vom 11. Juli 2019 (Unterlage 10 C) würdigten diese die entwickelten Ideen kritisch und for-
+           derten die Erstellung einer vertiefenden Machbarkeitsstudie. Die beiden Kommissionen argumentier-
+           ten vor allem mit dem Ortsbildschutz und der prägenden Nordfassade des heutigen Theatergebäudes
+           bzw. dessen «Solitärstellung» im Ortsbild.
+
+           Die vertiefende Machbarkeitsstudie vom Büro Bosshard & Luchsinger Architekten AG, Luzern (Unter-
+           lage 11 A) wurde im Frühjahr 2020 abgeschlossen und in der Folge den beiden eidgenössischen Kom-
+           missionen für Denkmalpflege und Natur- und Heimatschutz präsentiert.
+
+           Die im September 2020 beim Kanton Luzern (Denkmalpflege) eingetroffene Stellungnahme der bei-
+           den eidgenössischen Kommissionen zur Machbarkeitsstudie ist in Unterlage 11 B ersichtlich.
+
+2.4.       Neubau für das Luzerner Theater am Theaterplatz
+           Die Projektierungsgesellschaft (Organisation Projektierungsgesellschaft siehe Ziffer 3.1) sah vor dieser
+           Ausgangslage keinen Weg, unter Berücksichtigung der Forderungen der beiden Kommissionen nach
+           neuerlichen Planungen für einen Erweiterungsbau, einen nächsten zielführenden Lösungsschritt zu
+           entwickeln. Letztlich bliebe für den postulierten Erhalt des heutigen Gebäudesolitärs einzig die Mög-
+           lichkeit einer drastischen Reduktion des Raumprogrammes bis hin zur Aufgabe der verfolgten künstle-
+           risch-inhaltlichen Ziele (namentliche Verzicht auf Musiktheater) oder aber die Suche nach einem
+           neuen Standort, was wiederum mit der entwickelten Vision nicht übereinstimmen würde.
+
+           Es liegt deshalb nicht an mangelnder Wertschätzung gegenüber dem heutigen Gebäude und seinem
+           Erscheinungsbild, sondern an vor allem betrieblich-künstlerischen Notwendigkeiten bzw. Zielen, die
+           die Projektierungsgesellschaft und die dahinterstehenden politischen Behörden von Kanton und Stadt
+           zum Entscheid für einen Neubau führen.
+
+           Nach gegenseitiger Konsultation zwischen Stadtrat, Regierungsrat und Projektierungsgesellschaft ent-
+           stand im Oktober 2020 der gemeinsame Beschluss vorwärts zu schreiten und die Vorbereitungen für
+           einen Projektwettbewerb für einen Neubau am Theaterplatz aufzunehmen. Dieser Entscheid wurde in
+           der Folge kommuniziert und in der Öffentlichkeit weitgehend positiv aufgenommen.
+
+           Mit Blick auf den Projektwettbewerb beschloss die Projektierungsgesellschaft in der Folge die kritische
+           Überprüfung des bisherigen Raumkonzeptes. Dabei ging es darum, ein räumlich-funktionales Raum-
+           programm zu erstellen, dies mit dem Ziel, im Bauprojekt am Theaterplatz in erster Linie die für den
+           Bühnenbetrieb und die bühnennahen Tätigkeiten in einem Musiktheater notwendigen Räume bereit-
+           zustellen. Damit will die Projektierungsgesellschaft auch einer Forderung der Eidgenössischen Kom-
+           mission für Denkmalpflege und der Eidgenössischen Natur- und Heimatschutzkommission nachkom-
+           men. Bei dieser Überprüfung konnte das Gebäudevolumen um Raumgruppen, welche nicht zwingend
+           direkt mit dem produzierenden Theaterbetrieb vor Ort angesiedelt werden müssen, reduziert werden.
+           Bei diesen Raumgruppen handelt es sich um die Kostümabteilung sowie Büro- und Bildschirmarbeits-
+           plätze (siehe auch Ziffer 7.2). Damit konnten die Vorgaben für das Gebäudevolumen über Terrain für
+           den Projektwettbewerb im Vergleich mit jenem aus der Testplanung um rund 10 Prozent reduziert
+           werden.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 9 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+2.5.       Betriebskonzept Neues Luzerner Theater
+           Das Betriebskonzept der Stiftung Luzerner Theater zeigt auf, wie der künftige Betrieb des Theaters
+           mit Schwerpunkt Musiktheater positioniert und organisiert sein soll. Folgende Punkte bilden den Kern
+           der Überlegungen und Planungen (das umfassende Betriebskonzept ist in Unterlage 02 ersichtlich):
+
+           Architektur an zentraler Lage
+           Am angestammten Theaterplatz in Luzern soll in einer einladenden, Akzente setzenden Architektur
+           des 21. Jahrhunderts ein zukunftsgerichteter Theaterbau, insbesondere auch für Musiktheater entste-
+           hen. Das Neue Luzerner Theater wird ein modernes Haus, das als Spielstätte für Produktionen und
+           Nachwuchsprogramme und gleichzeitig als Begegnungsort für Generationen und Bevölkerungsgrup-
+           pen dient. Auf diese Weise entsteht in Luzern und in der Zentralschweiz am Theaterplatz eine künstle-
+           rische, gesellschaftliche und touristische Gravitationskraft, dies im Schnittpunkt der Wegachsen zwi-
+           schen der neu gestalteten Bahnhofstrasse und dem Hirschengraben, zwischen der Altstadt und der
+           Neustadt.
+
+           Offenheit und Öffentlichkeit
+           Das Neue Luzerner Theater versteht sich als ein Haus für alle, das täglich und ganzjährig geöffnet ist
+           sowie seine Kreativität sichtbar macht. Hier entsteht ein Ort, an dem sich die Menschen wohlfühlen
+           und wo sie sich aufhalten wollen.
+
+           Begegnungsort für alle
+           Nicht nur das angestammte Publikum soll sich mit dem neuen Gebäude identifizieren und eine Auf-
+           wertung seines bisherigen Theatererlebnisses erfahren. Das neue Gebäude wird darüber hinaus für
+           alle Menschen in Luzern ein gern frequentierter Ort – gerade auch für solche, die sich bisher noch
+           nicht zu den Besucherinnen und Besuchern des Luzerner Theaters zählen. Das gilt selbstverständlich
+           auch für Gäste von ausserhalb. Mit zum neuen Luzerner Theater gehört darum ein Restaurant mit
+           theaterkonformen Betriebszeiten.
+
+           Das künftige Angebot
+           Das Neue Luzerner Theater versteht sich als Knotenpunkt in einem Netzwerk von Theater- und Kultur-
+           schaffenden in der Zentralschweiz und damit ein bevorzugter Veranstaltungsort von Künstlerinnen
+           und Künstlern aus der Region und aus einem weiteren Einzugsgebiet. Es wirkt mit seinen Ensembles
+           und speziell konzipierten Eigenproduktionen identitätsstiftend und wertschöpfend für die gesamte
+           Zentralschweiz.
+           Dabei bietet es ein reichhaltiges, abwechslungsreiches und kontinuierliches Angebot der darstellen-
+           den Künste Oper, Schauspiel und Tanz. Das kooperative Selbstverständnis des Neuen Luzerner Thea-
+           ters ermöglicht ein noch breiter gefasstes Kulturangebot als bisher. Dank der Kulturpartner Luzerner
+           Sinfonieorchester, Lucerne Festival und weiterer Akteure, etwa aus der Freien Szene oder dem Um-
+           land, kann das Angebot im Neuen Luzerner Theater erweitert und vielfältiger gestaltet werden. Die
+           Qualität des Programms bleibt dabei immer der entscheidende Massstab. Das neue Luzerner Theater
+           ist in seiner Grundstruktur als intendantisch geführtes produzierendes Unternehmen aufgestellt –
+           Gastspiele und andere reproduzierende Formen sind allerdings auch möglich.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 10 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Ausbau auf Ganzjahres-Betrieb
+           Es ist das Ziel und Anliegen des Neuen Luzerner Theaters, möglichst vielen Menschen aller Generatio-
+           nen und mit unterschiedlichen Bedürfnissen den Zugang zu darstellender Kunst zu erleichtern. Das
+           Neue Luzerner Theater entwickelt sich deshalb als erstes Theater in der Schweiz vom klassischen
+           Zehn-Monats-Betrieb mit Sommerpause zu einem ganzjährig betriebenen Kulturunternehmen. Der
+           neue Publikumsmagnet der Zentralschweiz wird mit einem touristisch attraktiven Sommerprogramm
+           aufwarten.
+
+           Räume für vielfältige Nutzungen
+           Drei öffentlich zugängliche Veranstaltungsräume – Grosser Saal, Kleiner Saal, Studio – und ein Foyer
+           werden geschickt einzeln oder kombiniert genutzt. Diese Räume stehen auch den direkten Kulturpart-
+           nern offen; darüber hinaus sind auch Nutzungen für wirtschaftliche und gesellschaftliche Anlässe vor-
+           gesehen. In seinem Selbstverständnis als belebender Netzknotenpunkt für die breite Theaterland-
+           schaft der Zentralschweiz will das Neue Luzerner Theater in Partnerschaft mit Exponenten dieser
+           Szene Formate entwickeln, die diese Räume nutzen und die Vielfalt der Zentralschweizer Theater in
+           Luzern erlebbar werden lässt.
+
+           Schwerpunkt Musiktheater mit herausragender Akustik
+           Das Haus wird eine für seine Grösse aussergewöhnliche Akustik erhalten. Dies trägt dem Schwer-
+           punkt Musiktheater Rechnung. In den entsprechend konzipierten Räumen für Bühne, Orchester und
+           Publikum kann – neben älterer Musik und modernen Produktionen – künftig auch das Kernrepertoire
+           der Opernliteratur des 19. Jahrhunderts in Luzern aufgeführt werden.
+
+           Steigerung von Zusammenarbeit und Nachhaltigkeit
+           Die moderne Infrastruktur mit den neuen, nach internationalen Standards gebauten Bühnen erlaubt
+           neu attraktive Kooperationen mit regionalen, nationalen und internationalen Theatern. Künftig kön-
+           nen Luzerner Produktionen vermehrt an anderen Bühnen weitergespielt werden. Die neue Infrastruk-
+           tur erlaubt einen effektiven und effizienten zukunftsgerichteten Theaterbetrieb. Das Neue Luzerner
+           Theater wird so mit seinen eigenen Kreationen national und international präsent, und es arbeitet
+           nachhaltig. Erstmals werden auch die Kosten für den künstlerischen und den Betrieb des Gebäudes
+           separat und transparent ausgewiesen. Auch wenn die Kosten für den nun ganzjährigen Theaterbe-
+           trieb erst definitiv beziffert werden können, wenn die Ausgestaltung des konkreten Gebäudes be-
+           kannt ist, liegen erste grobe Kalkulationen auf der Basis des Betriebskonzeptes vor. Dabei übersteigt
+           der Mehrwert eines Neuen Luzerner Theaters den gegenüber heute leicht höheren Betrag zur Finan-
+           zierung des Betriebes. Zusätzlich erhalten das Luzerner Theater und seine Partner die Chance, sich
+           wirtschaftlich weiter zu entwickeln.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 11 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+3.         Zielsetzungen
+
+3.1.       Ziele des Verfahrens
+           Der Stadtrat Luzern verfolgt – zusammen mit der Stiftung Luzerner Theater und ihren privaten Part-
+           nern Luzerner Sinfonieorchester, Lucerne Festival und auch Vertretenden der freien Theater- und
+           Tanzszene und sowie dem Kanton Luzern - das Ziel, die Diskussion über die Zukunft des Luzerner The-
+           aters vor dem Hintergrund eines in einem Projektwettbewerb evaluierten, überzeugenden Architek-
+           turprojektes für das Neue Luzerner Theater weiter zu führen. Nach umfassenden Abklärungen mit
+           Testplanung und Machbarkeitsstudie kommt er zum Schluss, dass es sinnvoll ist, als weitere Entschei-
+           dungsgrundlage ein konkretes Projekt zu evaluieren. Seit Ende 2019 arbeitet die Stadt Luzern mit den
+           erwähnten Partnern in der Projektierungsgesellschaft (PG) zusammen, um dieses Ziel zu erreichen.
+
+3.2.       Investitionsvolumen
+           Die Stadt Luzern hat einen Betrag für die Investition Neues Luzerner Theater von CHF 120 Mio. in ihre
+           Finanzplanung eingestellt. Der Betrag ist als Grössenordnung zu verstehen, abgeleitet von den Raum-
+           bedürfnissen und beruht nicht auf einem konkreten Projekt.
+
+3.3.       Zielsetzung Projekttermine
+           Nachfolgend sind die wesentlichen Meilensteine mit deren terminlichen Abfolge, gemäss Planung,
+           aufgeführt:
+
+           Entscheid Projektwettbewerb                                       Herbst / Winter 2022
+           Beschluss Projektierungskredit                                    3. Quartal 2023
+           Umzonungsverfahren                                                ab 2. Halbjahr 2023
+           Bewilligung Baukredit                                             Frühling 2025
+           Baubeginn                                                         Sommer 2026
+           Bezug Gebäude                                                     Ende 2028
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 12 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+4.         Verfahrensbestimmungen
+
+4.1.       Veranstalterin
+           Veranstalterin für das Verfahren ist die Stadt Luzern, Stadtpräsidium, Hirschengraben 17, 6002 Luzern.
+
+4.2.       Verfahrensbegleitung
+           Büro für Bauökonomie AG
+           Edith Portmann, dipl. Architektin FH
+           Zähringerstrasse 19, 6003 Luzern
+           edith.portmann@bfbag.ch
+
+4.3.       Drittstelle
+           Zur Wahrung der anonymen Kommunikation zwischen der 1. und 2. Stufe wird folgende Drittstelle be-
+           stimmt:
+           lic. iur. Marcel Vetsch, Rechtsanwalt und Notar
+           Pilatusstrasse 26, 6003 Luzern
+
+4.4.       Art des Verfahrens
+           Das Verfahren untersteht dem öffentlichen Beschaffungswesen und unterliegt dem GATT/WTO-Über-
+           einkommen. Es handelt sich um einen offenen Projektwettbewerb, welcher in einem zweistufigen,
+           anonymen Verfahren durchgeführt wird.
+
+4.5.       Teilnahmeberechtigung
+           Teilnahmeberechtigt sind Teilnehmende mit Wohn- oder Geschäftssitz in der Schweiz oder einem Ver-
+           tragsstaat des GATT/WTO-Übereinkommens über das öffentliche Beschaffungswesen, insofern dieser
+           das Gegenrecht gewährt (Stichtag 09. Oktober 2021).
+
+4.6.       Teamzusammensetzung
+           In der 1. Stufe des Projektwettbewerbes werden Teams bestehend aus den Fachbereichen Architek-
+           tur, Landschaftsarchitektur (empfohlen) sowie fakultativ Gesamtleitung gesucht. Wobei die Fachkom-
+           petenz Gesamtleitung durch das Architekturbüro selbst oder durch ein spezialisiertes Planungsbüro
+           abgedeckt werden kann. Da in der 1. Stufe des Verfahrens die zentralen Themen zum Städtebau vor-
+           dergründig sind, wird ein Beizung von weiteren Fachplanern als nicht zwingend erachtet.
+
+           In der Beurteilung der 1. Stufe werden 10 - 12 Projekte, aufgrund der formulierten Beurteilungskrite-
+           rien (siehe Ziffer 9.1) für die Weiterbearbeitung in der 2. Stufe vom Preisgericht, ausgewählt.
+
+           Nach Abschluss der 1. Stufe des Projektwettbewerbes haben sich die ausgewählten Teams für die 2.
+           Stufe mit Planenden in nachfolgenden Fachbereichen zu verstärken:
+
+            •   Gesamtleitung (Federführung, falls nicht durch den Fachbereich Architektur erbracht)
+            •   Landschaftsarchitektur
+            •   Bauökonomie (Kostenplanung/Bauleitung)
+            •   Bauingenieurwesen
+            •   Gebäudetechnik (HLKSE) inkl. Gebäudeautomation und Fachkoordination (techn. und räumlich)
+            •   Raumakustik
+            •   Theaterplanung / Bühnentechnik
+            •   Gastroplanung
+            •   Nachhaltigkeitsplanung
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 13 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+            •   Verkehrsplanung (bei Bedarf)
+            •   Brandschutzplanung
+            •   Bauphysik / Akustik
+
+           Weitere Fach- und Spezialplanende sind aus Sicht der Veranstalterin aufgrund der detaillierten Vorga-
+           ben für den Wettbewerb nicht erforderlich, können aber nach Bedarf für die Bearbeitung der Aufga-
+           benstellung individuell beigezogen werden (siehe hierzu auch Ziffer 8.1 und 8.2).
+
+           Für die 1. wie auch 2. Stufe des Verfahrens sind Planer-Arbeitsgemeinschaften erlaubt. Mehrfachteil-
+           nahmen sind in allen Fachbereichen, ausser Architektur, erlaubt. Es liegt in der Eigenverantwortung
+           der jeweiligen Teilnehmenden, dass dieselben Planenden nicht in allzu vielen Teams mitwirken.
+
+4.7.       Befangenheit und Ausstandsgründe
+           Die Teilnehmenden bestätigen, dass:
+            • kein Anstellungsverhältnis zur Auftraggeberin, zu Mitgliedern des Preisgerichts oder zu einem im
+               Programm zum Projektwettbewerb aufgeführten Experten besteht
+            • keine nahe Verwandtschaft und kein berufliches Abhängigkeits- oder Zusammengehörigkeitsver-
+               hältnis zu einem Mitglied des Preisgerichts oder zu einem im Programm zum Projektwettbewerb
+               aufgeführten Experten besteht
+
+           Präzisierung zur Befangenheit innerhalb anderweitiger Planergemeinschaften, Planerteams und Gene-
+           ralplanerteams:
+            • Ein Abhängigkeitsverhältnis liegt vor, falls für den Vertreter des Preisgerichts, für einen Experten
+               oder für einen teilnehmenden Planer ein wesentlicher Umsatz in dieser Vertragskonstellation er-
+               wirtschaftet wird.
+
+           Als weitere Präzisierung gelten die Mitglieder der Stadtbaukommission der Stadt Luzern als nicht be-
+           fangen.
+
+           Die Verantwortung dafür, bei Befangenheit in den Ausstand zu treten bzw. nicht teilzunehmen, liegt
+           bei den Teilnehmenden. Die Beteiligten am Wettbewerb haben sich selbst dann, wenn nur ein An-
+           schein von Befangenheit besteht, so zu verhalten, wie wenn sie befangen wären. Ein Verstoss gegen
+           diese Bedingungen führt zum Ausschluss vom Verfahren.
+
+           Siehe hierzu die SIA-Wegleitung 142i-202d Befangenheit und Ausstandsgründe (www.sia.ch/142i).
+
+4.8.       Sprache
+           Die Sprache des Verfahrens ist Deutsch. Für die Projektierung, Planung und Realisierung des Projektes
+           gilt ebenfalls Deutsch als einzige Verfahrenssprache.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 14 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+4.9.       Grundlagen und Verbindlichkeit
+           Das Verfahren richtet sich nach der interkantonalen Vereinbarung über das öffentliche Beschaffungs-
+           wesen (IVöB, SRL Nr. 733a) vom 25. November 1994/15. März 2001, Stand 01. Juli 2010, dem Gesetz
+           über die öffentlichen Beschaffungen (öBG, SRL Nr. 733) des Kantons Luzern vom 19. Oktober 1998,
+           Stand 01. Juni 2013 und der Verordnung zum Gesetz über die öffentlichen Beschaffungen (öBV, SRL
+           Nr. 734) vom 7. Dezember 1998, Stand 01. Januar 2017. Es gilt die Ordnung SIA 142, Ausgabe 2009,
+           subsidiär zu den Bestimmungen über das öffentliche Beschaffungswesen.
+
+           Die Kommission für Wettbewerbe und Studienaufträge hat das Programm geprüft. Es ist konform zur
+           Ordnung für Architektur- und Ingenieurwettbewerbe SIA 142, Ausgabe 2009. Die Honorarvorgaben
+           im Programm sind nicht Gegenstand der Konformitätsprüfung nach der Ordnung SIA 142.
+
+           Mit Einreichung eines Projektvorschlages haben die Teilnehmenden die Verfahrensgrundsätze als ver-
+           bindlich anerkannt. In gleicher Weise ist es für die Veranstalterin bindend. Die Teilnehmenden akzep-
+           tieren die Entscheide des Preisgerichts in Ermessensfragen.
+
+4.10.      Anonymität
+           Der Wettbewerb wird in der ersten und zweiten Stufe anonym durchgeführt. Alle Teilnehmenden
+           werden schriftlich und ohne detaillierte Begründung über die Wahl oder Nichtwahl zur Teilnahme an
+           der 2. Stufe orientiert. Die Benachrichtigung erfolgt durch den Notar (Drittstelle, gemäss Ziffer 4.3).
+           Alle Beteiligten am vorliegenden Verfahren verpflichten sich das Anonymitätsgebot einzuhalten.
+
+4.11.      Vorbehalt Vorbefassung
+           Das in der Testplanung und Machbarkeitsstudie involvierte Büro Bosshard & Luchsinger Architekten,
+           Luzern ist durch die Mitwirkung von Max Bosshard als Ersatz im Fachpreisgericht, siehe Ziffer 4.12,
+           nicht zum Verfahren zugelassen.
+
+           Die weiteren Beteiligten aus dem vorab genannten und die nachfolgend aufgeführten Bearbeitungs-
+           teams aus der Testplanung ARGE Büro Konstrukt mit TGS Architekten AG, Luzern, HHF architekten
+           eth bsa sia, Basel sowie das Beurteilungsgremium und das Expertenteam, welche im Jahr 2018 an der
+           Testplanung, im Rahmen der Erkenntnisgewinnung bezüglich Erneuerung des Theaters am Theater-
+           platz als Ergänzungs- oder Neubau mitgewirkt haben, dürfen am Verfahren teilnehmen. Diese Bestim-
+           mung gilt auch für die Beteiligten der Machbarkeitsstudie (Unterlage 11 A). Die Testplanung ebenso
+           die Machbarkeitsstudie liegen im Sinne der Transparenz als Unterlagen 10 und 11 vor.
+
+           Weiter gelten die Mitglieder der Stadtbaukommission der Stadt Luzern als nicht vorbefasst.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 15 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+4.12.      Preisgericht / Experten
+           Sachpreisgericht mit Stimmrecht
+            • Beat Züsli, Stadtpräsident Luzern (Vorsitz)
+            • Marcel Schwerzmann, Regierungsrat, Bildungs- und Kulturdirektor Kanton Luzern
+            • Birgit Aufterbeck Sieber, Präsidentin Stiftung Luzerner Theater
+            • Ina Karr, Intendantin Luzerner Theater
+            • Numa Bischof Ullmann, Intendant Luzerner Sinfonieorchester
+            • Michael Häfliger, Intendant Lucerne Festival
+            • David Keller, Vertreter Stiftung Neues Theaterhaus
+
+           Ersatz Sachpreisgericht mit Stimmrecht
+            • Rosie Bitterli, Projektleiterin Neues Luzerner Theater (Ersatz öffentliche Hand Stadt)
+            • Karin Pauleweit, Dr. phil., Leiterin Dienststelle Hochschulbildung und Kultur Kanton Luzern (Ersatz
+               öffentliche Hand Kanton)
+            • Peter Klemm, ehem. Technischer Direktor Luzerner Theater (1. Ersatz Luzerner Theater)
+            • Anja Meyer, Komitee der Freunde Luzerner Theater (2. Ersatz Luzerner Theater)
+
+           Fachpreisgericht mit Stimmrecht
+            • Patrick Gmür, Architekt ETH SIA BSA, Steib Gmür Geschwentner Kyburz, Zürich (Fachvorsitz)
+            • Jette Cathrin Hopp, Dipl.-Ing. Arch., Architect MNAL, Snøhetta, Oslo
+            • Jörg Friedrich, Professor für Entwurf und Architekturgeschichte, PFP Planungs GmbH, Hamburg
+            • Arno Lederer, Professor für Architektur, LRO Lederer Ragnarsdóttir Oei GmbH & Co.KG, Stuttgart
+            • Annette Gigon, Prof. für Architektur ETHZ, Dipl. Architektin ETH BSA SIA, Gigon Guyer, Zürich
+            • Anna Jessen, Prof. Dipl. Architektin ETH BSA, jessenvollenweider Architektur, Basel
+            • Andi Scheitlin, Dipl. Architekt ETH SIA BSA, Luzern
+            • Pascal Hunkeler, Dipl. Architekt ETH SIA, Stadtarchitekt Luzern
+            • Rita Illien, Dipl. Landschaftsarchitektin HTL, Müller Illien Landschaftsarchitekten, Zürich
+
+           Ersatz Fachpreisgericht mit Stimmrecht
+            • Ursula Hürzeler, Dipl. Architektin ETH SIA BSA, Rahbaran Hürzeler Architekten, Basel
+            • Max Bosshard, Dipl. Architekt ETH SIA BSA, Bosshard Luchsinger Architekten AG, Luzern
+
+           Berater- und Expertenteam ohne Stimmrecht
+           • Rosie Bitterli, Projektleiterin Neues Luzerner Theater (Ersatz öffentliche Hand)
+           • Peter Klemm, ehem. Technischer Direktor Luzerner Theater (1. Ersatz Luzerner Theater)
+           • Anja Meyer, Komitee der Freunde Luzerner Theater (2. Ersatz Luzerner Theater)
+           • Stefan Vogel, Betriebsdirektor / COO Luzerner Theater
+           • Deborah Arnold, Co-Leiterin Stadtplanung Luzern
+           • Sibylle Sautier, Projektleiterin Energie/Klima, Umweltschutz Stadt Luzern
+           • Roger Schürmann, Bereichsleiter Projekte, Tiefbauamt der Stadt Luzern
+           • Cony Grünenfelder, Kantonale Denkmalpflegerin Kanton Luzern
+
+            •   Philipp Zingg, Präsident Theater Club Luzern
+            •   Gianluca Pardini, Geschäftsleitung IG Kultur Luzern
+            •   Manuel Kühne, CO-Präsident t.ZENTALSCHWEIZ, freie Theaterschaffende
+            •   Markus Schulthess, Co-Präsident, Quartierverein Hirschmatt-Neustadt Luzern
+            •   Hanspeter Herzog, Vertreter Quartierverein Kleinstadt Luzern
+            •   VertreterIn Junge Erwachsene mit Bezug zu Kunst/Theater
+            •   VertreterIn Kinder- und Jugendparlament
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 16 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+            •   Karlheinz Müller, Raumakustik, München
+            •   Hans-Jörg Huber, Bühnentechnik, Horgen
+            •   Rafael Saupe, desillusion Gastronomiekompetenz und Beratung, Zürich
+            •   Marco Ingold, Dipl. Ing. HLK, PEP Ingenieure AG, Luzern
+            •   Martin Scherer, Dipl. Bauingenieur ETH/SIA, Emch+Berger WSB AG, Emmenbrücke
+            •   Mario Venturini, Eidg. Dipl. Brandschutzexperte, SafeT Swiss AG, Glattbrugg
+            •   Patrick Ernst, Dipl. Arch. FH/SIA, MAS Energieingenieur Gebäude, brücker+ernst gmbh sia, Luzern
+            •   Kurt Messmer, Prof. em. Dr. phil., Historiker, Luzern/Emmenbrücke
+            •   Büro für Bauökonomie AG, Luzern, Begleitung BIM im Wettbewerb
+            •   Roger Gort, Büro für Bauökonomie AG, Luzern
+            •   Edith Portmann, Büro für Bauökonomie AG, Luzern
+
+           Das Preisgericht behält sich vor, bei Bedarf weitere Personen für das Expertenteam beizuziehen.
+
+4.13.      Vorprüfung
+           Die Vorprüfung wird durch die Büro für Bauökonomie AG und das Expertenteam vorgenommen.
+
+4.14.      Gesamtpreissumme
+           Die Gesamtsumme für Preise und allfällige Ankäufe im Rahmen des Projektwettbewerbs beträgt
+           CHF 580 000.00 exkl. MWSt. Im Rahmen der 2. Stufe werden 5 - 8 Preise erteilt. Die Aufteilung er-
+           folgt anlässlich der Beurteilung der 2. Stufe. Weiter wird im Rahmen der 2. Stufe des Verfahrens für
+           die Einreichung eines vollständigen, den Vorgaben entsprechenden Konzeptes einen Teil der Preis-
+           summe als feste Entschädigung in der Höhe von CHF 25 000.00 exkl. MWSt. ausbezahlt. Zudem be-
+           hält sich das Preisgericht vor, allenfalls die Summe der festen Entschädigung zu erhöhen.
+
+           Für Ankäufe stehen höchstens 40% der Preissumme zur Verfügung. Angekaufte Beiträge können
+           durch das Preisgericht rangiert und derjenige im ersten Rang auch zur Weiterbearbeitung empfohlen
+           werden. Erfolgt eine Rangierung mit einem zur Weiterbearbeitung empfohlenen Ankauf als erstran-
+           gierten, so sind dazu mindestens ¾ der Stimmen des Auswahlgremiums und die vollständige Zustim-
+           mung des Sachgremiums, als Vertreter des Auftraggebers, notwendig.
+
+           Die Teilnahme an der 1. Stufe des Projektwettbewerbs wird nicht entschädigt.
+
+4.15.      Bereinigungsstufe
+           Das Preisgericht behält sich vor, falls es sich als notwendig erweist, den Wettbewerb mit einer optio-
+           nalen, anonymen Bereinigungsstufe zu verlängern. Eine allfällige optionale Bereinigungsstufe wird
+           separat entschädigt.
+
+4.16.      Eigentumsverhältnisse und Urheberrechte
+           Die eingereichten Unterlagen gehen mit der Einreichung in das Eigentum der Auftraggeberin über.
+           Das Urheberrecht verbleibt bei den Projektverfassenden.
+
+           Die Auftraggeberin und die Projektverfassenden erhalten das Recht zur Veröffentlichung der Wettbe-
+           werbsbeiträge. Die Veröffentlichung darf erst nach Publikation des Berichts des Preisgerichts bzw.
+           nach offizieller Medienmitteilung der Auftraggeberin erfolgen. Auftraggeberin und Projektverfas-
+           sende sind immer zu nennen.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 17 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+4.17.      Rechtsschutz
+           Die Stadt Luzern erlässt nach Abschluss der 2. Stufe des Projektwettbewerbes eine beschwerdefähige
+           Verfügung mit Rechtsmittelbelehrung.
+
+4.18.      Kommunikation und Information der interessierten Öffentlichkeit
+           Um interessierten Kreisen der Bevölkerung einen Einblick in die Überlegungen des Preisgerichtes zu
+           ermöglichen, um das Bauvorhaben bekannt zu machen und um die öffentliche Diskussion über Städ-
+           tebau und Architektur zu fördern, ist vorgesehen, nach Abschluss des Verfahrens in geeigneter Form
+           darüber zu berichten. Dies ergänzend zur öffentlichen Präsentation der Wettbewerbsprojekte an ei-
+           nem zentralen und für die Öffentlichkeit gut erreichbaren Ort. Auf eine ursprünglich angedachte, öf-
+           fentliche Jurierung wird zur Wahrung der Anonymität verzichtet.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 18 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+5.         Projektwettbewerb 1. Stufe
+5.1.       Termine 1. Stufe
+
+           Publikation des Projektwettbewerbes
+           im Luzerner Kantonsblatt und auf www.simap.ch                             Samstag, 09. Oktober 2021
+
+           Begehung Luzerner Theater (für Interessierte)                                     25. – 29. Okt. 2021
+
+           Anmeldefrist                                                                      05. November 2021
+
+           Fragenstellung schriftlich (Poststempel, A-Post)                                  05. November 2021
+           Fragenbeantwortung als Download                                                   25. November 2021
+
+           Eingabe der Unterlagen                                            Freitag, 04. Februar 2022, 16.00 Uhr
+           Eingabe Gipsmodell                                                                       KW 10, 2022
+
+           Beurteilung                                                                               März 2022
+           Mitteilung Ergebnis 1. Stufe                                                       Anfang April 2022
+
+5.2.       Versand der Wettbewerbsunterlagen
+           Das Programm (Unterlage 01), das Raumprogramm (Unterlage 03 A) und das Anmeldeformular für
+           den Projektwettbewerb können unter www.simap.ch ab Samstag, 09. Oktober 2021, heruntergela-
+           den werden.
+
+           Für den Bezug aller Wettbewerbsunterlagen ist ein Depot von CHF 350.- zu bezahlen. Bei terminge-
+           rechter Abgabe, eines den Anforderungen entsprechenden Projektes, wird das Depot nach Abschluss
+           der 2. Stufe des Projektwettbewerbes zurückerstattet. Die Angaben zur Einzahlung des Depots kön-
+           nen dem Anmeldeformular für den Projektwettbewerb entnommen werden.
+
+           Der Versand des Links zum Download der Wettbewerbsunterlagen erfolgt nach Eintreffen des Anmel-
+           deformulars und der Bestätigung der Einzahlung des Depots (Belegkopie für die Bezahlung) an die
+           Zustelladresse (E-Mail) gemäss Anmeldeformular. Bei der Anmeldung ist das Architekturbüro sowie
+           fakultativ das Landschaftsarchitektur- und das Gesamtleitungsbüro zu benennen (gemäss Anmelde-
+           formular). Von den Teilnehmenden bezogene Unterlagen werden nicht zurückgenommen, das Depot
+           verfällt.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 19 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+5.3.       Unterlagen zum Projektwettbewerb
+
+           Nr.    Unterlage                                                                       Digital
+           01     Programm zum Projektwettbewerb, 1. Stufe vom 28. September 2021                 pdf
+           02     Betriebskonzept für das Neue Luzerner Theater                                   pdf
+                  verfasst durch die Stiftung Luzerner Theater vom 26. November 2020
+           03     A Raumprogramm vom 28. September 2021                                           pdf
+                  B Raumblätter mit Funktionsdiagrammen vom 28. September 2021                    pdf
+                  C Akustische Anforderungen, Karlheinz Müller vom 27. September 2021             pdf
+                  D Eckdaten Gastronomie, desillusion vom 15. September 2021                      pdf
+                  E Vorgaben Technikflächen HLKKSE, PEP Ingenieure vom 15. September 2021         pdf
+           04     A Situation inkl. Planungsperimeter                                             dwg
+                  B Werkleitungen                                                                 pdf / dwg
+                  C Pumpwerk Theaterplatz                                                         pdf
+           05     Digitales Modell                                                                dwg
+           06     Modellgrundlage 1:500 (Gutschein für den Direktbezug)                           pdf
+           07     A Bau- und Zonenreglement der Stadt Luzern (BZR)                                pdf
+                    vom 17.01.2013, Ausgabe vom 01.01.2015
+                  B Teilzonenplan 2 Bruch/Neustadt, genehmigt vom Regierungsrat des Kantons       pdf
+                    Luzern im Sinne seines Entscheides Nr. 631 vom 03. Juni 2014
+           08     Geologisch-geotechnischer Vorbericht vom 11. Dezember 2017                      pdf
+           09     A Siegerprojekt Wettbewerb Neugestaltung Bahnhofstr. und Theaterplatz;          Pdf / dwg
+                    inkl. Baumkataster                                                            pdf / dwg
+                  B Situationsplan mit Höhenangaben zum Bauprojekt vom 25. Juni 2021              pdf
+                  C Denkmalpflegerisches Gutachten Bahnhofstrasse vom 18. Mai 2015                pdf
+           10     A Schlussbericht Testplanung Theater Luzern vom 11. Juli 2018                   pdf
+                  B Schlussabgaben Testplanung der drei Teams vom 23. Mai 2018                    pdf
+                  C Gutachten ENHK/EKD vom 11. Juli 2019                                          pdf
+           11     A Machbarkeitsstudie von Bosshard & Luchsinger Architekten AG, Luzern, vom      pdf
+                    13. Mai 2020
+                                                                                                  pdf
+                  B Beurteilung der Machbarkeitsstudie ENHK/EKD vom 02. September 2020
+           12     A ISOS Ortsbilder, Luzern, 2. Fassung vom 10.2005                               pdf
+                  B Bauhistorisches Gutachten zum Stadttheater Luzern, erstellt durch Büro ADB,   pdf
+                    Burgdorf, vom Januar 2016
+                  C Schweizerischer Kunstführer, Jesuitenkirche Luzern, von André Meyer,
+                    veränderter Nachdruck 2001
+           13     Formular „Nachweis Raumprogramm, Flächen und Volumen“                           Excel
+           14     BIM-Leitfaden zum Projektwettbewerb vom 15. September 2021                      pdf
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 20 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Nr.    Unterlage                                                                           Digital
+           15     Vorlage Verfasserblatt                                                              Word
+           16     Formular „Zeitfenster Begehung“                                                     Word
+
+
+5.4.       Modell
+           Für den Bezug der Modellgrundlage wird den Teilnehmenden nach Eingang der Anmeldung und des
+           Depots ein Gutschein (Unterlage 06) abgegeben, mit dem das Modell direkt beim Modellbauer bezo-
+           gen werden kann.
+
+           Adresse des Modellbauers für Direktbezug gegen Voranmeldung:
+           Plastico Architekturmodelle, Daniele Ciampi
+           Kantonsstrasse 11a, 6207 Nottwil
+           Tel.: 041 921 93 43
+
+5.5.       Begehung des Areals
+           Grundsätzlich ist das Gelände des Planungsperimeters zum vorliegenden Wettbewerbsverfahren frei
+           zugänglich. Für Interessierte am Betrieb des Luzerner Theaters öffnet dieses in der Woche vom 25. –
+           29. Oktober 2021 seine Türen für einen Einblick in die bestehenden Räumlichkeiten am Theaterplatz,
+           diese Begehung ist freiwillig. Da die Räumlichkeiten und Erschliessungen teils sehr eng sind, kann pro
+           teilnehmendes Team maximal eine Person zugelassen werden. An diesen Tagen stehen jeweils Zeit-
+           fenster von rund 90 Minuten für jeweils maximal 10 Personen zur Verfügung. Damit die Gruppen ko-
+           ordiniert werden können, bitten wir Sie, sich im Formular Zeitfenster Begehung (Unterlage 16) einzu-
+           tragen und bis am Dienstag, 19. Oktober 2021 per E-Mail an die Verfahrensbegleitung (siehe Ziffer
+           4.2) zuzustellen. Dabei sind alle möglichen Zeitfenster anzugeben, damit die Zuteilung einfacher vor-
+           zunehmen ist. Anlässlich der Begehung werden keine Fragen beantwortet, diese sind im Rahmen der
+           Fragenbeantwortung, siehe Ziffer 5.6, zu stellen.
+
+5.6.       Fragenbeantwortung
+           Fragen zur Aufgabenstellung und zum Verfahren sind anonym und schriftlich an die Verfahrensbeglei-
+           tung bis am 05. November 2021 (Poststempel, A-Post) zu stellen. Die Antworten zu allen eingegange-
+           nen Fragen werden bis spätestens am 25. November 2021 als verbindliche Ergänzung zum Projekt-
+           wettbewerb als Download (zugestellter Link zum Download der Unterlagen, nicht www.simap.ch)
+           bereitgestellt. Die Teilnehmenden sind selbst verantwortlich, die Antworten herunterzuladen und
+           diese entsprechend für die Ausarbeitung des Projektvorschlages zu berücksichtigen.
+
+5.7.       Einzureichende Unterlagen
+           Die Wettbewerbsteilnehmenden haben folgende Unterlagen einzureichen:
+            • 1 Satz Pläne, ungefaltet in Mappe oder gerollt (in Kartonrolle)
+            • 1 Satz Pläne gefaltet, für die Vorprüfung
+            • 1 Satz auf A3 verkleinert, zur Übersicht
+            • EDV-Daten auf USB-Stick mit den Abgabeplänen als PDF-Dateien, in Originalgrösse A0 und in der
+               Datenmenge reduziert als A3 (ohne Vektorgrafik). Die Daten dürfen keine offensichtlichen Rück-
+               schlüsse auf die Verfassenden zulassen. Die Verantwortung dafür, dass versteckte Hinweise auf
+               die Autorschaft (z.B. Metadaten, Speicherpfade etc.) nicht in den Juryprozess gelangen, liegt bei
+               der Veranstalterin.
+
+           In der 1. Stufe des Projektwettbewerbes werden keine Angaben im BIM-Modell verlangt.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 21 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Abzugeben sind maximal 6 Blätter A0 (Querformat 120/84 cm). Sämtliche Pläne sind auf festem weis-
+           sem Papier und in den geforderten Massstäben (inkl. Massstabsleiste) einzureichen. Eingaben nur auf
+           Datenträger sind nicht erlaubt. Alle Grundrisse sind nach der Situation, Norden nach oben (inkl. Nord-
+           pfeil), auszurichten. Generell ist eine zurückhaltende Darstellung erwünscht. Die Abfolge der Pläne ist
+           zu bezeichnen.
+
+           Die teilnehmenden Teams dürfen nur eine Lösung einreichen. Varianten sind nicht zulässig.
+
+           Darstellungsform                  Informationsinhalt
+           Situationsplan 1:500              Darstellung des Projektvorschlages als Dachaufsicht mit Umgebungsge-
+                                             staltung und Schnittstelle zum Projekt Bahnhofstrasse, unterirdische
+                                             Bauwerke mittels gestrichelter Linien, Parzellengrenzen, bestehende Ge-
+                                             bäude, die Durchwegung zu den angrenzenden Quartieren, die Bezeich-
+                                             nung der Eingänge und Zufahrten mit Höhenkoten müssen ersichtlich
+                                             sein.
+           Grundrisse 1:200                  Alle zum Verständnis notwendigen Grundrisse. Im Erdgeschossgrundriss
+                                             ist der bebaute Arealteil mit der Gestaltung der näheren Umgebung /
+                                             Aussenraumgestaltung mit Höhenkoten zusammenhängend darzustel-
+                                             len. Zur Vereinfachung der Vergleich- und Lesbarkeit der Projekteinga-
+                                             ben ist das Niveau der Bühne im grossen Saal als Höhenkote +/-0.00 zu
+                                             bezeichnen. Alle Räume sind mit den Bezeichnungen gemäss Raumpro-
+                                             gramm inkl. Raumnummern sowie mit der Raumgrösse (m2) zu beschrif-
+                                             ten. Legenden sind nicht zulässig.
+           Schnitte 1:200                    Längs- und Querschnitte durch den Zuschauerraum des grossen Saals
+                                             gelegt, soweit für das Verständnis des Projektes erforderlich, mit beste-
+                                             hendem und neuem Terrainverlauf sowie Höhenkoten.
+           Fassaden 1:200                    Da das Ortsbild von wesentlicher Bedeutung ist, wird die Darstellung al-
+                                             ler Fassaden erwartet, dabei soll der Bezug zu den benachbarten Gebäu-
+                                             den ersichtlich sein, sowie die Höhenkoten.
+           Schemagrundrisse 1:500            Schemapläne der Grundrisse mit nachfolgendem Farbcode, gemäss
+                                             Raumgruppen im Raumprogramm, hinterlegt:
+                                                  1.    Publikumsräume: rot
+                                                  2.    Bühnen- und Veranstaltungsräume: blau
+                                                  3.    Orchesterraum: lila
+                                                  4.    Studier- und Probenräume: gelb
+                                                  5.    Künstlergarderoben: orange
+                                                  6.    Gastronomie: pink
+                                                  7.    Personalräume: braun
+                                                  8.    Fachbereiche Veranstaltungsbetrieb: grün
+                                                  9.    Betriebs-, Gebäude- & Sicherheitstechnik: grau
+                                             Dabei ist das Total Nettofläche (m2) pro Raumgruppe zu bezeichnen.
+           Visualisierung                    Max. eine einfache Visualisierung ist erlaubt.
+           Modell 1:500                      Gipsmodell in Weiss gehalten.
+           Erläuterungsbericht               Mit Aussagen zum städtebaulichen, architektonischen und freiräumli-
+                                             chen Konzept sowie Angaben zum formalen Ausdruck (Materialisie-
+                                             rung), zum einfacheren Verständnis können die Informationen mit Sche-
+                                             mata hinterlegt werden.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 22 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Darstellungsform                  Informationsinhalt
+           Raumprogramm,                     Nachweis Raumprogramm, Geschossflächen und Gebäudevolumen,
+           Flächen und Volumen               Ausmass gemäss Vorlagendokument (U13 Formular „Nachweis Raum-
+                                             programm, Flächen und Volumen“).
+
+           Verfasserkuvert                   Pro Fachbereich ein ausgefülltes Verfasserblatt (U15 Vorlage Verfasser-
+                                             blatt) mit allen Mitarbeitenden. Die Verfasserblätter sind in einem sepa-
+                                             raten, verschlossenen, neutralen Briefumschlag mit dem Vermerk „Ver-
+                                             fasserkuvert“ und dem selbst gewählten Kennwort zu bezeichnen und
+                                             abzugeben.
+
+5.8.       Beschriftung
+           Das Verfahren wird anonym durchgeführt. Sämtliche einzureichenden Unterlagen sind mit einem
+           Kennwort und mit dem Vermerk “Neues Luzerner Theater“ zu beschriften. Entwürfe, bei welchen die
+           Anonymität verletzt ist, werden von der Beurteilung ausgeschlossen.
+
+5.9.       Abgabetermin und Eingabeort
+           Eingabe der Unterlagen 1. Stufe bis:             Freitag, 04. Februar 2022, 16.00 Uhr
+
+           Eingabeort:                                      Büro für Bauökonomie AG
+                                                            Zähringerstrasse 19, 6003 Luzern
+                                                            Öffnungszeiten:
+                                                            Mo – Fr 08.00 – 12.00 Uhr, 13.30 – 17.00 Uhr
+
+           Eingabe der Modelle bis:                         Kalenderwoche 10/2022, die genauen Zeitfenster für die
+                                                            Abgabe der Modelle wird mit der Fragenbeantwortung
+                                                            bekannt gegeben.
+
+           Eingabeort:                                      Der Eingabeort für die Modelle wird mit der
+                                                            Fragenbeantwortung bekannt gegeben.
+
+           Die Veranstalterin hält verbindlich fest, dass die Verantwortung für das rechtzeitige Eintreffen der Un-
+           terlagen ausschliesslich bei den Teilnehmenden liegt. Zu spät eintreffende Unterlagen werden von der
+           Beurteilung ausgeschlossen. Das Datum des Poststempels ist nicht massgebend.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 23 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+6.         Projektwettbewerb 2. Stufe
+
+6.1.       Termine 2. Stufe
+
+           Versand Programm und Unterlagen zur 2. Stufe                                  Anfang Mai (KW 18) 2022
+
+           Fragenstellung schriftlich schriftlich (Poststempel, A-Post)                               27. Mai 2022
+           Fragenbeantwortung als Download                                                            15. Juni 2022
+
+           Eingabe der Unterlagen                                            Freitag, 02. September 2022, 16.00 Uhr
+           Eingabe Gipsmodell                                                Freitag, 23. September 2022, 16.00 Uhr
+
+           Beurteilung                                                                   September / Oktober 2022
+           Mitteilung Ergebnis 2. Stufe mit Verfügung                                             November 2022
+
+6.2.       Fragenbeantwortung
+           Fragen zur Aufgabenstellung und zum Verfahren sind anonym und schriftlich an die Verfahrensbeglei-
+           tung bis am 27. Mai 2022 (Poststempel, A-Post) zu stellen. Die Antworten zu allen eingegangenen
+           Fragen werden bis spätestens am 15. Juni 2022 als verbindliche Ergänzung zum Projektwettbewerb
+           als Download (zugestellter Link zu den Unterlagen zur 2. Stufe) bereitgestellt. Die Teilnehmenden sind
+           selbst verantwortlich, die Antworten herunterzuladen und diese entsprechend für die Ausarbeitung
+           des Projektvorschlages zu berücksichtigen.
+
+6.3.       Unterlagen 2. Stufe
+           Zusätzlich zu den Unterlagen der 1. Stufe des Projektwettbewerbs (Ziffer 5.3) werden in der 2. Stufe
+           nachfolgende Unterlagen abgegeben:
+                                                                                                     Digital
+           20    Programm zum Projektwettbewerb, 2. Stufe                                                PDF
+           21    Formular „Raumprogramm, Flächen, Volumen und Kosten eBKP-H“                             Excel
+                 (ergänzte Unterlage 13 mit der Matrix zu den Baukosten)
+           22    Modellunterlage 1:500 (Gutschein für den Direktbezug)                                   PDF
+
+
+6.4.       Individuelle Rückmeldung
+           Die Teilnehmenden der 2 Stufe erhalten eine individuelle Rückmeldung zur Projektabgabe aus der
+           1. Stufe. Zur Wahrung der Anonymität wird diese durch den Notar (Drittstelle, gemäss Ziffer 4.3) zu-
+           gestellt.
+
+6.5.       Modell
+           Die Modellgrundlage 2. Stufe kann wiederum gemäss Ziffer 5.4 beim Modellbauer, gegen Abgabe
+           des Gutscheins (Unterlage 22), direkt bezogen werden.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 24 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+6.6.       Einzureichende Unterlagen 2. Stufe
+           Zusätzlich zum Inhalt und Umfang der Abgabe aus der 1. Stufe (Ziffer 5.7) werden für die Schlussab-
+           gabe 2. Stufe nachfolgende Inhalte erwartet:
+
+           Darstellungsform                  Informationsinhalt
+           Fassadenschnitt 1:50              Typischer Fassadenschnitt mit Aussenansicht vertikal, die Darstellung soll
+                                             Auskunft über den konstruktiven Aufbau und die beabsichtigte Materia-
+                                             lisierung des Projektes geben (u.a. Fensterdetails, Dachrand, Sockel,
+                                             etc.)
+           Digitales Volumen- und            Im IFC-Format, gemäss Unterlage 14. Die Daten dürfen keine offensicht-
+           Raummodell                        lichen Rückschlüsse auf die Verfassenden zulassen.
+           Kostenermittlung                  Gemäss Vorlagendokument (Unterlage 21 Formular „Raumprogramm,
+                                             Flächen, Volumen und Kosten eBKP-H“).
+           Erläuterungsbericht als           Für die baulichen Konzepte werden grafische Darstellungen bevorzugt.
+           Broschüre und/oder auf             − Konzept Schallschutz (insbesondere bezüglich der äusseren Lärmquel-
+           den Plänen                              len sowie bezüglich inneren Quellen) und Raumakustik
+                                              − Konzepte Gebäudetechnik: Vorwiegend Wärme-/Kälteverteilung und
+                                                   Wärme-/Kälteabgabe sowie Lüftung mit Beschrieb und Schemata
+                                              − Konzept Tragwerk, Nutzlasten, Erdbebensicherheit und Fundation
+                                              − Angaben zu stadtklimatischen Aspekten
+                                              − Angaben zum Retentionskonzept
+                                              − Übergreifendes Brandschutz- und Entfluchtungskonzept mit Angabe
+                                                   zu horizontalen und vertikalen Fluchtwegen, zu Fluchtweglängen, zur
+                                                   Anzahl Fluchttreppenhäuser, zur Zugänglichkeit der Feuerwehr, zum
+                                                   technischen Brandschutz
+                                              − Energie- und Nachhaltigkeitskonzept mit Texten und wo sinnvoll mit
+                                                   grafischen Darstellungen unterstützt. Folgende Vorgaben sind plausi-
+                                                   bel und in geeigneter Form zu erläutern: Umsetzbarkeit der Zertifizie-
+                                                   rung nach Minergie-P, Massnahmen zum reduzierten Ressourcenauf-
+                                                   wand in Erstellung und Betrieb, Integration der erforderlichen PV-An-
+                                                   lagen, adäquate Umsetzung des ECO-Standards, Massnahmen zur Si-
+                                                   cherung des Innenraumklimas mit überwiegend passiven Massnah-
+                                                   men, Massnahmen zur Reduktion des Hitzeinseleffektes.
+           Verfasserkuvert                   Pro Fachbereich ein ausgefülltes Verfasserblatt (Unterlage 15 Verfasser-
+                                             blatt) mit allen Mitarbeitenden. Die Verfasserblätter sind zusammen in
+                                             einem separaten, verschlossenen, neutralen Briefumschlag mit dem Ver-
+                                             merk „Verfasserkuvert“ und dem selbst gewählten Kennwort zu be-
+                                             zeichnen und abzugeben.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 25 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+6.7.       Beschriftung
+           Das Verfahren wird anonym durchgeführt. Sämtliche einzureichenden Unterlagen sind mit demselben
+           Kennwort aus der 1. Stufe und mit dem Vermerk “Neues Luzerner Theater“ zu beschriften. Dem
+           Kennwort ist der Zusatz «2. Stufe» hinzuzufügen. Entwürfe, bei welchen die Anonymität verletzt ist,
+           werden von der Beurteilung ausgeschlossen.
+
+6.8.       Abgabetermin und Eingabeort
+           Eingabe der Unterlagen bis:                      Freitag, 02. September 2022, 16.00 Uhr
+
+           Eingabeort:                                      Büro für Bauökonomie AG
+                                                            Zähringerstrasse 19, 6003 Luzern
+                                                            Öffnungszeiten:
+                                                            Mo – Fr 08.00 – 12.00, 13.30 – 17.00 Uhr
+
+           Eingabe der Modelle bis:                         Freitag, 23. September 2022, 16.00 Uhr
+
+           Eingabeort:                                      Der Eingabeort für die Modelle wird mit der
+                                                            Fragenbeantwortung bekannt gegeben.
+
+           Die Veranstalterin hält verbindlich fest, dass die Verantwortung für das rechtzeitige Eintreffen der Un-
+           terlagen ausschliesslich bei den Teilnehmern liegt. Zu spät eintreffende Unterlagen werden von der
+           Beurteilung ausgeschlossen. Das Datum des Poststempels ist nicht massgebend.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 26 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.         Rahmenbedingungen zur Aufgabenstellung
+7.1.       Planungsperimeter
+           Der Planungsperimeter des vorliegenden Projektwettbewerbes umfasst das Grundstück Nr. 589 (heu-
+           tiges Luzerner Theater) mit 1 070 m2, das Grundstück Nr. 590 (Theaterplatz) mit 1 688 m2, Teile des
+           Grundstückes Nr. 6 (Bahnhofstrasse und Jesuitenplatz) mit 1 375 m2 und Teile des Grundstückes Nr.
+           5 (Hirschengraben) mit 1 050 m2 welche alle sich im Eigentum der Stadt Luzern befinden. Weiter be-
+           findet sich der Anteil von Grundstückteil Nr. 708 mit 175 m2 im Planungsperimeter, dieser befindet
+           sich im Eigentum des Kantons Luzern. Somit beträgt der gesamte Planungsperimeter (siehe Bild 3, rot
+           markierte Fläche) 5 358 m2 und befindet sich im Eigentum der Stadt Luzern.
+
+           Der Planungsperimeter liegt zwischen der Reuss im Norden, gegenüber der Altstadt von Luzern und
+           dem Hirschengraben im Süden hin zur Überbauung Buobenmatt. Im Westen grenzt die Jesuitenkirche
+           an den Planungsperimeter, welche im kantonalen Denkmalverzeichnis aufgeführt ist. Auf der östli-
+           chen Seite des Perimeters führt die Theaterstrasse entlang.
+
+           Innerhalb dieses Planungsperimeters werden von den Teams im Rahmen des Projektwettbewerbes
+           Aussagen bezüglich Bebauung Neues Luzerner Theater, Freiraum sowie Erschliessung erwartet. In der
+           1. Stufe des Wettbewerbsverfahrens gilt als zentrale Aufgabenstellung die Klärung der städtebauli-
+           chen Lösung bezüglich Nähe zur Jesuitenkirche, auch hinsichtlich Lichteinfall in den Kirchenraum. Die
+           Möglichkeit des Anbauens an die Jesuitenkirche ist zwar durch den Planungsperimeter gegeben, wird
+           jedoch vom Fachpreisgericht in Anbetracht der unbestrittenen, architektonischen Qualität und kunst-
+           historischen Bedeutung dieses wichtigen Sakralbaus äusserst kritisch beurteilt. Das heutige Luzerner
+           Theater, welches sich im Planungsperimeter befindet, ist zurückzubauen. Falls die Integration von Ele-
+           menten des heutigen Theatergebäudes zu einer überzeugenden Lösung führt, ist dies zulässig, ohne
+           dass ein Verstoss bzw. Ausschluss vorliegen würde. Dem Planungsperimeter (rot markierte Fläche) ist
+           der Ideenperimeter «Bahnhofstrasse» (grün markierte Umrandung) überlagert. In diesem Perimeter
+           sind allfällige Anpassungen am Projekt Neugestaltung Bahnhofstrasse zur Diskussion zu stellen, siehe
+           hierzu Ziffer 7.10.
+
+
+
+
+                Quartier Kleinstadt                                                                          Quartier
+                                                                                                       Hirschmatt-Neustadt
+           Bild 3: Planungsperimeter (rot) mit Umgebung und gelb gestreift heutiges Luzerner Theater
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 27 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.2.       Raumprogramm
+           Das Betriebskonzept des Neuen Luzerner Theaters (Unterlage 02) wird mit den räumlichen Anforde-
+           rungen des Betriebes im Raumprogramm (Unterlage 03 A) und den Raumblättern mit Funktionsdia-
+           grammen (Unterlage 03 B) dargestellt. Diesen Unterlagen (U03 A und B) zugrunde gelegt sind die
+           Konzepte zu den akustischen Anforderungen der Säle (Unterlage 03 C), zur Gastronomie (Unterlage
+           03 D) und zur Gebäudetechnik (Unterlage 03 E). Das Raumprogramm bildet den Raumbedarf des
+           Neuen Luzerner Theaters am Theaterplatz ab. Aufgrund der engen Platzverhältnisse im Bereich des
+           Planungsperimeters wurden im Vorfeld Szenarien und Konzepte erarbeitet, um Raumgruppen vom
+           Standort Theaterplatz auszulagern. Dabei stand der Fokus auf Nutzungen, welche nicht zwingend di-
+           rekt mit dem produzierenden Theaterbetrieb vor Ort angesiedelt werden müssen. Bei diesen Raum-
+           gruppen handelt es sich um die Kostümabteilung sowie Büro- und Bildschirmarbeitsplätze. Diese
+           Räume sind nicht Bestandteil des vorliegenden Wettbewerbsverfahrens und werden auch nicht im
+           Raumprogramm (Unterlage 03 A) aufgeführt. Damit und mit einer effizienten Ausnützung des mögli-
+           chen Volumens unter Terrain soll das oberirdische Volumen für das Neue Luzerner Theater reduziert
+           werden können.
+
+           Im neuen Luzerner Theater soll ein zukunftsgerichteter, künstlerisch und technisch auf höchstem Ni-
+           veau stehender Theaterbetrieb in den drei klassischen Sparten Musiktheater (Oper, Operette, Musical
+           und dergleichen), Sprechtheater (Schauspiel) und Tanz stattfinden können.
+
+           Im Neuen Luzerner Theater sind drei Räume für Veranstaltungen vorgesehen. Der grosse Saal mit Or-
+           chestergraben und hochstehender Akustik für Musiktheater und grössere Schauspiel- oder Tanzpro-
+           duktionen. Er ist für mindestens 600 Personen ausgelegt. Mit der Möglichkeit den Publikumsraum
+           und den Orchestergraben auf eine Ebene mit der Bühne umzuwandeln, bietet sich zudem ein Wech-
+           sel der Konfiguration mit flachem Boden u. a. für einen Kongresssaal für rund 900 Personen. Der
+           kleine Saal mit hochstehender technischer Ausrüstung und einer Kapazität von max. 350 Personen für
+           kleinere Produktionen aller Sparten sowie als dritter Veranstaltungsraum das Studio, in dem Auffüh-
+           rungen ebenso stattfinden können wie Publikums- und Sponsorenanlässe. Ergänzt wird das Rauman-
+           gebot durch einen grosszügigen und einladenden Foyerbereich, der seinerseits kleinere Publikumsan-
+           lässe zulassen soll. Es wird angestrebt, die Räume so weit möglich parallel bespielen zu können, wo-
+           bei die Einlass- und Foyerkapazitäten hier organisatorische Grenzen setzen dürften.
+
+           Das Neue Luzerner Theater verfügt über eine erstklassige, technische Einrichtung, die möglichst flexi-
+           bel konzipiert sein soll, damit wird ein künstlerisches Arbeiten nach internationalen Standards mög-
+           lich. Die Räume für Garderobe, Maske, Ankleide, Einsingen und –spielen sowie Aufwärmen sind spiel-
+           betrieblich optimal angeordnet. Ein besonderes Augenmerk gilt der Akustik im grossen Saal, die sich
+           auf internationalem Qualitätsniveau bewegen soll.
+
+           Im Neuen Luzerner Theater ist ein Restaurant vorgesehen, welches unabhängig vom Theaterbetrieb
+           das ganze Jahr, an sieben Tage die Woche betrieben wird. Es besteht der Wunsch, dass dieses über
+           einen Aussenbereich, auch als Dachterrasse möglich, verfügt bzw. der prominenten Lage in Nähe zu
+           Reuss, Kapellbrücke und Jesuitenkirche Rechnung trägt. Zur Gastronomie gehört auch eine dezentrale
+           Pausen-, Vor- bzw. Nach-Vorstellungs-Gastronomie sowie eine leistungsfähige Einrichtung für Ban-
+           kette, Sponsorenveranstaltungen und dergleichen. Weiter ist ein Pausenbereich für die Verpflegung
+           der Mitarbeitenden vorgesehen, welcher von der Küche des Restaurants bedient werden kann. Es
+           wird angestrebt, dass jedermann das Theater-Restaurant besucht, ob Passanten oder Kunst- und Mu-
+           sikschaffende, hierfür ist eine gute Zugänglichkeit wesentlich. Weiter gilt es zu prüfen, ob in diesem
+           Kontext eine öffentliche WC-Anlage integriert oder synergetisch genutzt werden könnte.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 28 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Das Luzerner Theater wird auch nach der Realisierung des Bauprojektes am Theaterplatz (Stammhaus)
+           aus weiteren Spiel- und Produktionsstätten bestehen. Es sind dies insbesondere das Probenhaus am
+           Südpol (Gemeinde Kriens) und die Werkstatt an der Bürgenstrasse in Luzern. Künftig findet auch die
+           oben genannte Kostümabteilung im Südpol ihren Platz.
+
+7.3.       Bau- und Nutzungsvorschriften
+           Der Planungsperimeter befindet sich gemäss dem Teilzonenplan 2 Bruch/Neustadt in der Zone für öf-
+           fentliche Zwecke (ÖZ), überlagert mit der Schutzzone A (siehe Bild 4).
+
+
+
+
+           Bild 4: Ausschnitt Teilzonenplan 2 Bruch/Neustadt
+
+
+           Zone für öffentliche Zwecke ÖZ
+           Gemäss Bau- und Zonenreglement der Stadt Luzern (BZR) wird in der Zone für öffentliche Zwecke ÖZ
+           kein Dichtemass festgelegt. Laut BZR Art. 8 legt der Stadtrat in den öffentlichen Zonen das zulässige
+           Mass unter Berücksichtigung der örtlichen Situation und der öffentlichen Interessen fest.
+
+           Durch das vorliegende Verfahren ist das an diesem Ort verträgliche Dichtemass für das Bauvolumen
+           des Neuen Luzerner Theaters zu ermitteln. Die Eckwerte (Gebäudevolumen, Gebäudegrundfläche im
+           Verhältnis zum Freiraum, Gebäudeabstände und insbesondere die Höhenentwicklung) sind mit der
+           Anpassung der Bau- und Zonenordnung neu festzulegen.
+
+           Ortsbildschutzzone A
+           Die Ortsbildschutzzonen bezwecken den Schutz erhaltenswerter Stadtelemente und städtischer En-
+           sembles. Dabei kann der Stadtrat Ausnahmen von den Schutzzonenvorschriften gestatten, sofern be-
+           sondere Verhältnisse dies rechtfertigen, die Ausnahme dem Sinn und Zweck der Schutzzonen nicht
+           widerspricht und ein qualitätsvolles Bauprojekt vorliegt (Art. 15 BZR).
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 29 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           In der Ortsbildschutzzone A gelten zudem die Vorgaben gemäss Art. 16 BZR, wonach historische
+           Stadtteile in ihrer Bausubstanz und ihren Strukturen zu erhalten sind. Diese Nichtvereinbarkeit mit
+           den Vorgaben im Wettbewerbsverfahren ist der Ausloberin bewusst.
+
+           Bestehende Baulinien
+           Das bestehende Gebäudevolumen wird von Baulinien (Bild 4, rote Linie), im Erdgeschoss von einer
+           Erdgeschossbaulinie (Bild 4, blaue Linie) umfasst (siehe auch Art. 25 BZR). Im vorliegenden Verfahren
+           sind die bestehenden Baulinien nicht zu berücksichtigen. Mit der Anpassung der Bau- und Zonenord-
+           nung sind diese gestützt auf das Wettbewerbsergebnis neu festzulegen.
+
+           Grenz- und Gebäudeabstände
+           Der Planungsperimeter befindet sich in der geschlossenen Bauweise. Gemäss Planungs- und Bauge-
+           setz des Kantons Luzern (PBG) vom 07. März 1989 (Stand 01. Januar 2021) Art. 129, gelten in der
+           geschlossenen Bauweise nachfolgende Bestimmungen zu den Grenz- und Gebäudeabständen:
+
+            •   Der Abstand, gemessen ab der Fassade beziehungsweise allfälligen weiter vorspringenden Gebäu-
+                deteilen, ohne Rücksicht auf die Höhe der Gebäude beträgt mindestens 3.50 m von der Grenze
+                und 7.0 m vom Nachbargebäude.
+
+           Diese gesetzlichen Abstandsvorschriften sind grundsätzlich zu wahren. Im Rahmen des Projektwettbe-
+           werbes sind allfällige Unterschreitungen dieser Vorschriften mit einem überzeugenden Vorschlag zu
+           begründen.
+
+           Gefahrenbereich
+           Der Planungsperimeter befindet sich im Gefahrenbereich (Bild 4, graue Schraffur). Gemäss Gefahren-
+           karte der Stadt Luzern (https://www.geo.lu.ch/map/gefahrenkarte) wird das Gebiet der Gebotszone
+           Wasser mit geringer bzw. mittlerer Gefährdung zugewiesen (siehe nachfolgendes Bild 5).
+
+
+
+
+           Bild 5: Ausschnitt Gefahrenkarte, Geoportal Kanton Luzern
+
+
+           Laut BZR, Art. 41 Gebotszone Wasser gilt u.a. folgendes:
+           1 Neubauten, bauliche Veränderungen und Terrainveränderungen sind mit Auflagen zulässig.
+           2
+             Lichtschächte, Einfahrten, Eingänge und andere Gebäudeöffnungen sind gegen einströmendes Was-
+           ser zu sichern.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 30 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           4
+             In ebenem Gelände (Geländeneigung kleiner als 2 Prozent) dürfen bis zur massgebenden Überflu-
+           tungshöhe + 0.05 m Freibord keine ungeschützten Öffnungen angebracht werden.
+           5
+             Beim Vierwaldstättersee gilt eine Schutzkote von 435.20 m ü. M.
+           Bis zu einer Kote von 434.70 m ü. M. müssen fixe Einrichtungen vorhanden sein, die dauerhaft ein
+           Eindringen des Wassers in Gebäudeöffnungen verhindern. Über dieser Kote bis zur Kote 435.20
+           m ü. M. sind mobile Schutzvorrichtungen zulässig (z. B. Dammbalkensystem).
+
+                                                   Schutzkoten gemäss BZR, Art. 41
+                                                   exkl. 0.05 m Freibord
+
+
+                                                   mobile Schutzvorrichtungen
+                                                   bis zur Kote 435.20
+
+
+                                                   fixe Schutzeinrichtungen
+                                                   bis zur Kote 434.70
+
+
+
+
+           Bild 6: Seekoten und ihre Bedeutung für den Vierwaldstättersee
+
+
+           Das Bau- und Zonenreglement der Stadt Luzern (BZR) sowie der Teilzonenplan 2 Bruch/Neustadt sind
+           in Unterlage 07 A und B ersichtlich.
+
+7.4.       Bauinventar, Ortsbildschutz
+           Die Stadt Luzern ist im Bundesinventar der schützenswerten Ortsbilder der Schweiz ISOS als Ortsbild
+           von nationaler Bedeutung eingetragen. Der Planungsperimeter befindet sich gemäss ISOS einerseits
+           im Gebiet 34 «Bahnhofquartier» (Erhalten des Charakters) und andererseits im Gebiet 2 «Kleinstadt»,
+           welches mit dem höchsten Erhaltungsziel (Substanzschutz) belegt ist. Weiter ist das 1837-39 erbaute
+           Stadttheater im ISOS als Einzelobjekt mit dem höchsten Erhaltungsziel (Substanzschutz) belegt. Hinge-
+           gen ist das heutige Gebäude des Luzerner Theaters nicht im Bauinventar des Kantons eingetragen,
+           weil das Gebiet der Ortsbildschutzzone A noch nicht inventarisiert und erfasst ist.
+
+           Im städtischen Umzonungsverfahren gilt es das ISOS zu beachten. Aus rechtlicher Sicht ist darum das
+           Einsprache- und Verfahrensrisiko erheblich und der Ausloberin bewusst.
+
+           Das Dokument ISOS Ortsbilder, Luzern ist in Unterlage 12 A ersichtlich. Weiter liegt die Unterlage 12
+           B Bauhistorisches Gutachten zum Stadttheater Luzern vor.
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 31 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.5.       Allgemeine und fachspezifische Richtlinien und Normen
+           Allgemeine gesetzliche Informationen sind unter https://www.lu.ch/verwaltung/staatskanzlei/Amtli-
+           che_Publikationen/rechtssammlung zu finden.
+
+           Es gelten die üblichen Richtlinien und Normen.
+
+7.6.       Brandschutz
+           Die Brandschutzvorschriften VKF werden als verbindlich vorausgesetzt.
+
+           Schweizerische Brandschutzvorschriften 2015
+           http://www.praever.ch/DE/BS/BSV2015/Seiten/default_bsv2015.aspx
+
+7.7.       Behindertengerechte Bauweise – Hindernisfreie Bauten
+           Das Gebäude, die Erschliessung und die Aussenraumgestaltung sind hindernisfrei zu gestalten. Die
+           Norm SIA 500 “Hindernisfreie Bauten“, Ausgabe 2009 wird als verbindlich vorausgesetzt.
+
+7.8.       Stadträumliche Lage
+           Die Bahnhofstrasse hat sich, nachdem der Stadtkörper im Mittelalter über lange Zeit fast gleich blieb,
+           seit 1833 ebenso gewandelt wie die Stadt selbst, siehe auch Unterlage 09 C denkmalpflegerisches
+           Gutachten zur Bahnhofstrasse. Über Jahrhunderte hinweg blieb die eigentliche Stadt Luzern innerhalb
+           ihrer Stadtmauern. Erst der Stadtbrand von 1833 gab den Startschuss zur Neugestaltung der Stadt
+           Luzern. Das Schuttmaterial des Brandes wurde zur Bildung des Jesuitenquais (heutige Bahnhofstrasse)
+           am Südufer verwendet. Der neu entstandene Platz hatte zur Folge, dass Raum entstand, unter ande-
+           rem auch für den Bau des Theaters.
+
+
+
+
+           Bild 7: Blick auf das Hotel Seidenhof, das Theater, den Freienhof und die Jesuitenkirche, vor 1948
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 32 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Die Lage des Theaters am Quai, direkt gegenüber dem Rathaus auf der anderen Seite der Reuss, ver-
+           lieh dem Theater von Beginn an eine hohe städtebauliche Bedeutung. Mit dem Bau des Rathausstegs
+           1899 wurde die städtebauliche Akzentuierung der Situation verstärkt, so wird der Blick von der Rat-
+           haustreppe direkt auf die Mitte des Theaterbaus gelenkt. Der Theaterbau markiert damit den Ort des
+           Flussübergangs, welcher das Theater direkt mit Rathaustreppe verbindet.
+
+7.9.       Jesuitenkirche
+           Als erster grosser barocker Kirchenbau in der Schweiz mit monumentalem, lichtdurchflutetem Innen-
+           raum gehört die 1677 eingeweihte Jesuitenkirche zu den wichtigsten frühbarocken Sakralbauten
+           nördlich der Alpen. Die Kirche nimmt im Stadtbild eine herausragende Stellung ein, sie begrenzt den
+           unmittelbaren Raum zwischen Theater- und Jesuitenplatz und besitzt mit ihrer eindrücklichen, zur
+           Reuss gerichteten Doppelturmfassade eine enorme Ausstrahlungskraft und Fernwirkung. Die Kirche
+           repräsentiert das damalige Selbstverständnis des Jesuitenordens und der Stadt als katholisches Macht-
+           zentrum und ist ein wichtiger Zeuge der Kirchengeschichte Luzerns. Sie ist im Verzeichnis der Kultur-
+           denkmäler von nationaler Bedeutung eingetragen und steht unter Schutz von Bund und Kanton. Auf-
+           grund ihrer herausragenden kunsthistorischen, historischen, architektonischen und städtebaulichen
+           Bedeutung darf das in unmittelbarer Nähe geplante Bauprojekt für das Neue Luzerner Theater die Je-
+           suitenkirche in ihrer Wirkung in keiner Art und Weise beeinträchtigen. Ausserdem ist nebst dem un-
+           geschmälerten Erhalt der Bausubstanz insbesondere auf die bestehende natürliche Belichtung des Kir-
+           chenraumes Rücksicht zu nehmen. Siehe auch Unterlage 12 C Schweizerischer Kunstführer, Jesuiten-
+           kirche Luzern.
+
+
+
+
+           Bild 8: Blick auf die Jesuitenkirche, den Theaterplatz und das Theater
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 33 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.10.      Bahnhofstrasse und Theaterplatz
+           Trotz ihrer einmaligen Lage im Stadtzentrum und an der Reuss sind die Bahnhofstrasse und der Thea-
+           terplatz als öffentliche Stadträume bezüglich Bedeutung und Funktion aktuell weder adäquat genutzt
+           noch gut gestaltet. Die Stadt Luzern verfolgt deshalb eine Attraktivierungsstrategie, deren erster Um-
+           setzungsschritt die bereits vollzogene Sperrung des Raumes Theaterplatz bis Seidenhofstrasse für den
+           Durchgangsverkehr darstellt.
+
+           Die Stadt Luzern lobte zudem im Dezember 2015 einen einstufigen, offenen Projektwettbewerb in
+           den Bereichen Landschaftsarchitektur, Architektur und Verkehrsplanung aus, um Projektvorschläge
+           für die Neugestaltung der Bahnhofstrasse und den Theaterplatz zu erhalten. Das Projekt «Take a Walk
+           On The Bright Side» von Koepfli Partner GmbH, Luzern, Enzmann + Fischer AG, Zürich, und AKP Ver-
+           kehrsingenieur AG, Luzern wurde vom Preisgericht zur Weiterbearbeitung empfohlen. Mit diesem
+           Projekt erhält die Bahnhofstrasse eine zweite Baumreihe mit 33 zusätzlichen Bäumen und einen kli-
+           mafreundlichen Mergelbelag. Dadurch wird eine vielseitige, flexible Nutzung auf der ganzen Breite
+           und Länge ermöglicht und die Lebens- und Aufenthaltsqualität mit mehr Bäumen und mehr Platz er-
+           höht.
+
+
+
+
+           Bild 9: Siegerprojekt «Take a Walk On The Bright Side» des Wettbewerbs Bahnhofstr. und Theaterplatz
+
+
+           Zurzeit ist die Baubewilligung in Arbeit. Läuft alles planmässig, beginnen die Bauarbeiten für die neue
+           Bahnhofstrasse in der zweiten Jahreshälfte 2022, wobei das Projekt in zwei Etappen umgesetzt wird.
+           Namentlich die Zone rund um das Theater (Theaterplatz) soll zunächst lediglich provisorisch aufgewer-
+           tet werden. Ab der Fertigstellung des Projekts «Bahnhofstrasse» bis zum definitiven Baustart für das
+           Neue Luzerner Theater, der sich derzeit noch nicht fix festlegen lässt, wird eine verhältnismässige und
+           sinnvolle Gestaltung des Theaterplatzes geplant. Für die Bevölkerung und die Gäste soll auch in dieser
+           Übergangszeit ein Mehrwert hinsichtlich Aufenthaltsqualität geschaffen werden.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 34 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           In Unterlage 09 A sind die Pläne zum Siegerprojekt «Take a Walk On The Bright Side» sowie in Unter-
+           lage 09 B der Situationsplan zum Bauprojekt mit Höhenangaben ersichtlich, wie auch ein denkmal-
+           pflegerisches Gutachten zur Bahnhofstrasse (Unterlage 09 C).
+
+           Aufgrund des Wettbewerbsergebnisses für das Neue Luzerner Theater soll im Detail geklärt werden,
+           wie das Verhältnis zwischen der Umgestaltung der Bahnhofstrasse und dem Siegerprojekt aussieht.
+           Grundsätzlich ist der Stadtrat der Auffassung, dass auch bei Realisierung des Neuen Luzerner Theaters
+           das Projekt für die Gestaltung der Bahnhofstrasse umgesetzt werden soll. Am Grundprinzip der Neu-
+           gestaltung der Bahnhofstrasse im Sinne des Siegerprojekts hält der Stadtrat darum fest. Letzteres bil-
+           det somit die Basis für die weiteren Überlegungen für den Bereich Bahnhofstrasse, nicht aber für den
+           Theaterplatz und das heutige Theater. Siehe auch Ziffer 7.1 Planungsperimeter, worin der Ideenperi-
+           meter «Bahnhofstrasse» bezeichnet ist. Der Stadtrat möchte aber im vorliegenden Wettbewerbsver-
+           fahren für den Planungsperimeter die Möglichkeit offenlassen, allfällige Anpassungen am Gestal-
+           tungsvorschlag Bahnhofstrasse zur Diskussion zu stellen. Dies, weil der Stadtrat – gerade auch ange-
+           sichts der räumlichen Einschränkungen durch den Ortsbildschutz – im Wettbewerb eine möglichst
+           grosse Offenheit und Flexibilität anstrebt, damit die baulichen Massnahmen am angrenzenden Reuss-
+           ufer und das Wettbewerbsergebnis aufeinander abgestimmt sind.
+
+           Hindernisfreier Zugang Rathaussteg
+           Im Rahmen der Projektierung der Umgestaltung Bahnhofstrasse wurden verschiedene Möglichkeiten
+           geprüft, wie der Zugang zum Rathaussteg hindernisfrei gewährleistet werden kann. In einem nächs-
+           ten Schritt werden die Möglichkeiten vertieft und ein konkretes Projekt ausgearbeitet. Eine Realisie-
+           rung des hindernisfreien Zugangs kann im Anschluss an die Umgestaltung der Bahnhofstrasse erfol-
+           gen.
+
+
+
+
+           Bild 10: Aktuelle Zugangs-Situation Rathaussteg Seite Theater
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 35 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.11.      Erschliessung, Anlieferung und Parkierung
+           Sobald die Bauarbeiten im Gebiet der Bahnhofstrasse abgeschlossen sind, wird das neue Verkehrskon-
+           zept, welches nachfolgend beschrieben wird, umgesetzt. Dieses gilt es im vorliegenden Wettbewerbs-
+           verfahren zu berücksichtigen.
+
+           Fussverkehr
+           Um dem Fussverkehr gerecht zu werden, wird die gesamte Bahnhofstrasse inklusiv Theaterplatz und
+           Seidenhofstrasse als Begegnungszone signalisiert (siehe Bild 11). Damit entsteht auf der linken Reuss-
+           seite eine zusammenhängende Begegnungszone Kleinstadt/Bahnhofstrasse. Für alle Verkehrsteilneh-
+           menden bedeutet dies, dass der Fussverkehr in dieser Zone Vortritt hat und die Höchstgeschwindig-
+           keit 20 km/h beträgt.
+
+           Veloverkehr inklusive E-Bike
+           Für den Veloverkehr ist die Bahnhofstrasse von hoher Relevanz. Sie ist Bestandteil des nationalen und
+           regionalen Velonetzes. Zukünftig steht für Velofahrende eine attraktive und sichere Fahrbahn zusam-
+           men mit dem spärlichen Erschliessungsverkehr zur Verfügung. Da auf der Bahnhofstrasse viele Men-
+           schen unterwegs sind, ist wie bereits heute gegenseitige Rücksichtnahme notwendig. Wegen der Be-
+           gegnungszone haben zu Fuss Gehende auf diesem kurzen, zentral gelegenen Abschnitt Vortritt.
+
+           Alle Beziehungen sind für den Veloverkehr offen: Die Wegfahrt in Richtung Seebrücke bleibt für Velo-
+           fahrende weiterhin möglich, auch die Seidenhofstrasse kann weiterhin in beide Richtungen befahren
+           werden.
+
+
+
+
+           Bild 11: Plan Verkehrsregime
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 36 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Motorfahrzeuge
+           Auf der Bahnhofstrasse gilt ein Fahrverbot für Motorfahrzeuge, einzig der Veloverkehr, Zubringer-
+           dienst und Taxifahrten bleiben gestattet. Zukünftig wird das Linksabbiegen auf der Seebrücke verbo-
+           ten sein. Der motorisierte Verkehr auf der Bahnhofstrasse wird durch das Fahrverbot auch im Ab-
+           schnitt zur Seebrücke deutlich abnehmen. Die wenigen Zubringer, Taxis und Cars werden künftig von
+           der Bahnhofstrasse nur noch nach rechts abbiegen können. Die Verkehrsbeziehung von der Bahn-
+           hofstrasse Richtung Seebrücke bleibt aber via einen kurzen Umweg über den Bahnhofplatz erhalten.
+
+           Die Einfahrt ins Parkhaus Flora erfolgt über die Pilatusstrasse. Die, aus dem Parkhaus ausfahrenden
+           Fahrzeuge, werden wie heute nach rechts in die Bahnhofstrasse abbiegen. Reisecars und der Anliefe-
+           rungsverkehr werden auch über die Bahnhofstrasse Richtung Bahnhof geführt. Die Führung der en-
+           gen Seidenhofstrasse im Gegenverkehr und die Ausfahrt via Pilatusstrasse schafft mehrere, die Ver-
+           kehrssicherheit betreffende, Problempunkte. Beispielsweise können beim Einbiegen in die Pilatus-
+           strasse die notwendigen Sichtbeziehungen nicht eingehalten werden. Von einer Umgestaltung des
+           Knotens zur Kantonsstrasse wird derzeit abgesehen. Zur sicheren Erschliessung wird das bestehende
+           und funktionierende Regime weitergeführt.
+
+           Für das Neue Luzerner Theater wird vorausgesetzt, dass die Autoparkplätze der umliegenden Park-
+           häuser genutzt werden, wie dies heute der Fall ist.
+
+
+
+
+           Bild 12: Oberirdische Abstellplätze für rund 70 Velos und Mofas (grüne Fläche), 2 Behindertenparkplätze (hellblaue Flä-
+           che), rund 60 Motos (pinke Fläche) und 3 Taxis (gelbe Fläche)
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 37 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Veloparkplätze
+           Auf der Bahnhofstrasse werden zukünftig 70 oberirdische Veloparkplätze angeboten. Diese Abstell-
+           plätze befinden sich verteilt auf dem Abschnitt zwischen dem Theaterplatz und der Seidenhofstrasse
+           (siehe Bild 12). Ein Teil der Abstellplätze ist zwischen den neugepflanzten Bäumen vorgesehen, der
+           andere Teil im multifunktional nutzbaren Bereich. Diese können je nach Bedarf mit Velopfosten be-
+           stückt und durch Verschieben der Pflanzgefässe erweitert werden. Die Gestaltung der Oberfläche an
+           der Bahnhof-strasse lässt klar erkennen, dass der Bereich für Fussgängerinnen und Fussgänger und
+           nicht als Abstellplatz für Velos gedacht ist.
+
+           In der weiteren Projektierung zum Neuen Luzerner Theater gilt es dann zu prüfen, welche Anzahl Ve-
+           loparkplätze für die Mitarbeitenden des Neuen Luzerner Theaters im Planungsperimeter zusätzlich zu
+           erstellen sind.
+
+7.12.      Freiraum
+           Als Stadträume haben die Bahnhofstrasse und der Theaterplatz in der Stadt Luzern eine hohe Bedeu-
+           tung. Kapellbrücke, Jesuitenkirche und Theater sind wichtige Zielorte in der Stadt. Entsprechend nut-
+           zen viele Personen (Einheimische wie Gäste) die Bahnhofstrasse und den Theaterplatz als Durchgangs-
+           oder Aufenthaltsort.
+
+           Je nach Abschnitt sind pro Tag rund 13’000-20'000 Personen in der Bahnhofstrasse zu Fuss unter-
+           wegs. Über die verschiedenen Fussgängerstege queren täglich je rund 13'000 Personen die Reuss. Zu-
+           dem finden hier regelmässig Veranstaltungen wie z. B. der Wochenmarkt (zweimal wöchentlich), der
+           Monatswarenmarkt, das Luzerner Fest, der Luzerner Stadtlauf und einiges mehr statt.
+
+           Stadtklima
+           Mit dem geplanten Bauprojekt verschwindet eine der letzten baulichen Lücken und unbefestigten,
+           begrünten Flächen entlang des linken Reussufers. Dies behindert den Austausch der kühleren Luft
+           über dem Gewässer mit der aufgrund der dichten Bebauung stark aufgeheizten Luft Richtung Neu-
+           stadt und Kleinstadt.
+
+           Die nachfolgenden Punkte sind für eine stadtklimatische (und stadtökologische) Umgebungsgestal-
+           tung zu beachten:
+            • Wahl von Oberflächenmaterialien (Boden-, Wand-, Dachflächen) und Farbe mit geringer Wärme-
+               absorption bzw. mit Begrünungen
+            • Beschattete Orte im Freien vorsehen
+            • Untergrund mitplanen hinsichtlich Bepflanzung (Bäume) oder zur lokalen Speicherung von Wasser
+
+7.13.      Werkleitungen und Pumpwerk Theaterplatz
+           Im Bereich des heutigen Theaterplatzes befindet sich eine rund 20-jährige Abwasser-Pumpstation so-
+           wie diverse Leitungen der öffentlichen Kanalisation der Stadt Luzern. Die Pumpstation dient dazu das
+           Abwasser des gesamten Gebietes Tribschen Langensand, sowie einen Teil der Sternmatt, zu beschleu-
+           nigen, sodass es über den Hirschengraben beim Naturmuseum dem Verbandskanal und damit der
+           Kläranlage zugeführt werden kann. Das Pumpwerk und die Entwässerungsachse über den Theater-
+           platz sind unverzichtbar. Somit müssen diese Anlagen entweder erhalten bleiben oder sind so zu ver-
+           legen, dass sie auch in Zukunft betrieben und unterhalten werden können. Plangrundlagen zum Ab-
+           wasser-Pumpwerk sind in Unterlage 04 C ersichtlich.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 38 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+                                                                                            Pumpstation
+                                                                                            Meteorwasserleitung DN 500
+                                                                                            Mischwasserleitung DN 400
+                                                                                            Mischwasserleitung DN 1100
+                                                                                            Einstiegsöffnungen
+
+
+
+
+           Bild 13: Übersicht Kanalisation, zwingend notwendige Infrastruktur der öffentlichen Kanalisation
+
+
+           Für das vorliegende Wettbewerbsverfahren sind nachfolgende Vorgaben zum Pumpwerk zu berück-
+           sichtigen:
+            • Die Pumpstation kann in der Lage verschoben werden. Dazu braucht es eine Breite von 8.0 Meter
+               freien Platz, vergl. Plan best. Pumpwerk, Unterlage 04 C (ein allfällig notwendiger Abstand zur
+               Jesuitenkirche ist dabei nicht eingerechnet).
+            • Die Pumpstation wird monatlich durch ein Spülfahrzeug (28 Tonnen LKW) angefahren und unter-
+               halten. Dazu sind zwingend fünf Einstiegsöffnungen notwendig (siehe Bild 13). Über diese müs-
+               sen zudem die technischen Einrichtungen (Pumpen, Rückstauklappe, etc.) bei einem Defekt oder
+               für Revisionszwecke ausgebaut werden können.
+            • Die Leitungen können teilweise überbaut werden. Dafür sind vor und nach dem Bauprojekt Kon-
+               trollschächte vorzusehen. Die Entwässerung im freien Gefälle muss jedoch auch in Zukunft funkti-
+               onieren. Dies bedeutet, dass an der bestehenden Höhenlage der Leitung nichts geändert werden
+               kann.
+
+            •   In der 1. Stufe des Wettbewerbsverfahrens kann mit der Infrastruktur so frei wie möglich umge-
+                gangen werden (verschieben, umlegen etc.), das gewählte Konzept muss jedoch die oben ge-
+                nannten Kriterien erfüllen.
+
+           Der gesamte Werkleitungskataster ist in Unterlage 04 B ersichtlich.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 39 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.14.      Gewässerschutzbereich
+           Das Gebiet befindet sich gemäss Gewässerschutzkarte des Kantons Luzern (geo.lu.ch) im Gewässer-
+           schutzbereich Au. Der Bereich Au umfasst die nutzbaren unterirdischen Gewässer (Grundwasser und
+           Quellen) und die zu ihrem Schutz notwendigen Randgebiete. Eine Bewilligung des Kantons Luzern
+           (Dienststelle Umwelt und Energie uwe) ist unter anderem für Bauten und Anlagen unter dem mittle-
+           ren Grundwasserspiegel notwendig.
+
+7.15.      Geologie und Hydrologie
+           In Unterlage 09 ist der geologisch-geotechnische Vorbericht vom 11. Dezember 2017 ersichtlich,
+           hierzu nachfolgendes Fazit:
+            • Einbauten in das Grundwasser sind bewilligungspflichtig. Die hydrogeologische Unbedenklichkeit
+               solcher Einbauten ist bereits in frühen Projektstufen zu prüfen und nachzuweisen, um deren
+               Machbarkeit zu gewährleisten.
+            • Ab dem 2. Untergeschoss ist im Bauzustand der hydraulische Grundbruch (Sohlaufbruch) speziell
+               zu beachten.
+            • Einbauten unter das Niveau von 425.00 m ü.M. sind technisch machbar, jedoch mit grossen geo-
+               technischen Risiken verbunden und vermutlich kaum wirtschaftlich zu realisieren.
+            • Die Realisierung von Untergeschossen ohne darüber liegende Hochbauten ist möglich. Bei diesen
+               Untergeschossen ist die Auftriebssicherheit speziell zu beachten.
+            • Das heute vorhandene Terrain des Theaterplatzes (ca. 435.00 m ü. M.) sollte nicht aufgeschüttet
+               werden, andernfalls sind die Auswirkungen von Schüttungen auf benachbarte Bauten (Setzun-
+               gen!) detailliert aufzuzeigen.
+            • Generell: Je tiefer in den Untergrund Bauten realisiert werden, desto grösser sind die geotechni-
+               schen Risiken und höher die Realisierungskosten.
+
+           Basierend auf dieser Untersuchung wurden mit der kantonalen Fachstelle «Umwelt und Energie»
+           (uwe) Grundlagen für die Machbarkeit von Untergeschossen entwickelt. Für die weitere Planung des
+           potenziellen Neuen Luzerner Theaters können aufgrund der heute zur Verfügung stehenden Grundla-
+           gen sowie der aktuellen Grundwasserschutz-Gesetze folgende Hinweise zur Machbarkeit von Unter-
+           geschossen gemacht werden:
+            • Ein vollflächiges Untergeschoss (bis maximal 5.0 m unter bestehendem Terrain) ist mit Kompensa-
+               tionsmassnahmen zum Erhalt der Durchflusskapazität bewilligungsfähig (Verminderung Durch-
+               flusskapazität um max. 10%). Die Beeinflussung durch Pfahlfundation bzw. durch verbleibende
+               Baugrubenabschlüsse ist dabei zu berücksichtigen. Von einem dauernden, im Untergrund verblei-
+               benden Baugrubenabschluss ist möglichst abzusehen. Die Erhaltung der Durchflusskapazität muss
+               nachgewiesen werden.
+            • Weitere Einbauten (punktuelles zweites Untergeschoss) sind kritisch und kommen nur unter Ein-
+               haltung der Vorgaben in oben erwähntem Punkt in Frage. Bei einem zweiten punktuellen Unter-
+               geschoss ist die Längenentwicklung in Nord-Süd-Richtung (senkrecht zur Reuss) vorzusehen, da-
+               mit der Abfluss des Grundwassers Richtung Reuss möglichst wenig eingeschränkt wird.
+            • Ein zweites, vollflächiges Untergeschoss ist – ausgehend vom heutigen Kenntnisstand – nicht be-
+               willigungsfähig, zudem nur mit hohen Kosten und grossen geotechnischen Risiken realisierbar.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 40 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+7.16.      Energie und Nachhaltigkeit
+           Zielsetzung
+           Der Gebäudestandard 2019.1 (Energie/Umwelt für öffentliche Bauten, Energiestadt) ist verbindlich.
+           Damit verbunden sind folgende Ziele mindestens zu erreichen:
+            • Der Standard Minergie-P mit Zertifizierung
+            • Da für das Theater gegenwärtig noch keine ECO-Zertifizierung umsetzbar ist, sind die ECO-Anfor-
+               derungen für das Projekt soweit möglich und sinngemäss anzuwenden.
+            • Optimierte Bilanz der Grauen Energie und Treibhausgasemissionen aus der Erstellung und Betrieb.
+
+           Erläuterungen und Hinweise
+           Mit dem Projekt soll ein minimaler CO2-Ausstoss für die Erstellung und den Betrieb des Gebäudes re-
+           sultieren. Dabei schaffen Suffizienz, Effizienz und erneuerbare Ressourcen günstige Voraussetzungen
+           für diese Zielerreichung. Folgende Massnahmen können dazu einen Beitrag leisten:
+            • Emissionen im Betrieb minimieren durch eine hohe Energieeffizienz der gebäudetechnischen An-
+                lagen und Beleuchtung sowie dem Einsatz erneuerbarer Energien.
+            • Möglichst grosse, zusammenhängende und unverschattete Photovoltaikflächen architektonisch
+                und ökologisch sinnvoll in Dachflächen integrieren. Ergänzend oder alternativ können Gebäude-
+                fassaden mit Photovoltaik belegt werden. Der geringere Ertrag als bei Anlagen auf dem Dach ist
+                dabei entsprechend zu berücksichtigen. Mindestens 20 % des jahresbilanzierten Strombedarfs
+                werden am oder auf dem Gebäude produziert.
+            • Ein behagliches Innenraumklima ist für die Nutzenden sehr wichtig. Im Sinne einer robusten Lö-
+                sung ist die sommerliche Behaglichkeit primär mit architektonischen Mitteln zu lösen (z.B. passive
+                Verschattung der Fassade, wirksame thermische Speichermasse, effiziente Lüftungsstrategie, wirk-
+                same Beschattungseinrichtungen). Ein geschicktes architektonisches Konzept kann viel dazu bei-
+                tragen, dass die Technisierung zurückhaltend und damit der Energie- und Leistungsbedarf tief ge-
+                halten werden kann.
+            • Die wesentlichen Stellschrauben für eine hohe Behaglichkeit mit reduziertem Aufwand sind:
+                -   Die Räume sollen über genügend thermisch aktive Speichermasse verfügen, um die Tempera-
+                    tur-schwankungen über den Tagesverlauf wirksam abzudämpfen. Dabei sind auch die raum-
+                    akustischen Massnahmen zu berücksichtigen, die häufig eine Abkopplung thermisch aktiver
+                    Bauteilflächen zur Folge haben.
+                -   Die Glasanteile an der Gebäudehülle sind sorgfältig zu dimensionieren, um Tageslichtnutzung
+                    sowie thermische Gewinne und Verluste zu optimieren.
+            • Ressourcenaufwand für die Erstellung minimieren durch eine hohe Flächeneffizienz, kompakte
+                und einfach strukturierte Baukörper sowie durch eine sorgfältige Materialisierung, einen modera-
+                ten Fensteranteil und durch einen sparsamen Materialeinsatz.
+            • Um bauökologisch und gesundheitlich einwandfreie Bauten zu gewährleisten, sind die Anforde-
+                rungen von Minergie-Labelzusatz ECO einzuhalten. Dabei ist auf eine hohe Beständigkeit und
+                Wandelbarkeit der Gebäudestruktur, der Konstruktionen, Medien und Ausbauten zu achten.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 41 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Gebäudetechnik
+           Für die Wärme- und Kälteversorgung bietet sich die in Planung und Aufbau befindliche See-Energie
+           ab Energiezentrale Inseliquai (Bahnhof) an. Die definitive Wahl der Wärmeerzeugung wird in der Pro-
+           jektierungsphase eruiert.
+
+           Unter nachfolgendem Link sind weitere Informationen zur See-Energie in Luzern ersichtlich:
+           https://www.ewl-luzern.ch/privatkunden/energie/see-energie/luzern-zentrum/
+
+
+
+
+           Bild 14: Geplantes Leitungsnetz See-Energie Zentrale Inseliquai
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 42 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+8.         Beauftragung Generalplanerteam
+
+8.1.       Weiterbearbeitung
+           Die Veranstalterin beabsichtigt, das vom Preisgericht ausgewählte Verfasserteam aus dem Wettbe-
+           werb nach Zuschlagserteilung durch die Stadt Luzern mit der weiteren Bearbeitung der Bauaufgabe
+           zu beauftragen. Die Freigabe der Aufträge erfolgt phasenweise: Phase 1 bis und mit Baubewilligungs-
+           verfahren (SIA Phasen 31-33), Phase 2 Ausschreibung und Vergabe (SIA Phasen 41) und Phase 3 Reali-
+           sierung (SIA Phasen 51-53). Diese Absichtserklärung bezieht sich auf das Generalplanerteam beste-
+           hend aus Gesamtleitung, Architektur, Landschaftsarchitektur, Bauökonomie, Bauingenieurwesen, Ge-
+           bäudetechnik (HLKSE) inkl. Gebäudeautomation und Fachkoordination, Raumakustik, Theaterplanung
+           / Bühnentechnik, Gastroplanung, Nachhaltigkeitsplanung, Verkehrsplanung, Brandschutzplanung so-
+           wie Bauphysik / Akustik. Weitere beigezogene Fachspezialistinnen und Fachspezialisten können aus
+           ihrer Beteiligung am Wettbewerbsprojekt keinen Anspruch auf eine Beauftragung ableiten. Allfällige
+           Zusatzaufträge, die sich auf den vorliegenden Grundauftrag beziehen, können gemäss Verordnung
+           über das öffentliche Beschaffungswesen (VÖB) § 13 Abs. 1 lit. h freihändig vergeben werden.
+
+           Vorbehalten bleiben die Projekt- und Kreditgenehmigung durch die fachlichen und politischen Instan-
+           zen.
+
+8.2.       Teamzusammensetzung Generalplanerteam
+           Die Planungsbüros bilden unter der Führung des Gesamtleiters einen Generalplaner in einem rechtlich
+           eigenständigen Mantel. Die interne Organisationsform, die Beteiligungen von Planern sowie die Be-
+           auftragung von Subplanern wird dem Generalplaner überlassen, ist aber gegenüber der Auftraggebe-
+           rin offenzulegen.
+
+           Folgende Funktionen und Kompetenzen sind durch das Generalplanerteam zwingend zu besetzen
+           und zu deklarieren:
+            • Gesamtleitung (Federführung, falls nicht durch den Fachbereich Architektur erbracht)
+            • Architektur
+            • Landschaftsarchitektur
+            • Bauökonomie (Kostenplanung/Bauleitung)
+            • Bauingenieurwesen
+            • Gebäudetechnik (HLKSE) inkl. Gebäudeautomation und Fachkoordination (technisch und
+               räumlich)
+            • Raumakustik
+            • Theaterplanung / Bühnentechnik
+            • Gastroplanung
+            • Nachhaltigkeitsplanung
+            • Verkehrsplanung (bei Bedarf)
+            • Brandschutzplanung
+            • Bauphysik / Akustik
+
+           Auf Bedarf des Generalplaners beigezogene Spezialplanende wie für BIM-Koordination, Aufzugspla-
+           nung, Farbberatung usw. sind grundsätzlich aus den Grundleistungen des Architekten bzw. der Fach-
+           planenden zu honorieren. Wird der Beizug von weiteren Spezialplanenden durch die Auftraggeberin
+           verlangt, werden diese zusätzlich honoriert.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 43 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+8.3.       Honorarvertrag Generalplanerteam (provisorisch)
+           Mit dem siegreichen Generalplanerteam soll ein KBOB -Planervertrag (Planergemeinschaft mit
+           Generalplanerfunktion) abgeschlossen werden.
+
+           Das Generalplanerhonorar setzt sich zusammen aus:
+           • den Grundleistungen der Honorarordnungen SIA 102, 103, 105, 108 (jeweils Ausgabe 2014)
+           • den Honoraren von Spezialplanern
+           • einem GP-Koordinationshonorar
+           • den Zusatzleistungen nach Definition der Auftraggeberin (z.B. PQM, BIM-FM usw.)
+
+           Weitere Eckpunkte zum Honorarvertrag:
+           • Der Auftrag wird phasenweise (Phasen nach den Honorarordnungen SIA) ausgelöst
+           • Es gelten die Allgemeinen Vertragsbedingungen KBOB für Planerleistungen, Ausgabe 2020
+
+8.4.       Auftragserteilung
+           Die zu erbringenden Leistungen basieren auf den SIA-Ordnungen 102, 103, 105 und 108. Die GP-
+           Teams müssen alle Leistungen einbeziehen, welche für die fachgerechte Abwicklung der Bauaufgabe
+           notwendig sind, im Speziellen auch Leistungen für die BIM-Planung und Realisierung, sowie Leistun-
+           gen für ein umfassendes Projektreporting, interne Qualitätssicherung und PQM.
+
+8.5.       Auftragsumfang
+           Die vorgesehene Beauftragung umfasst die vollen Leistungsanteile (100 % TL) über alle Phasen nach
+           den Ordnungen SIA 102, 103, 105 und 108. Planungsleistungen im Zusammenhang mit der Umzo-
+           nung, welche nicht den 100 % TL nach SIA zuzuordnen sind, werden im Zeittarif vergütet.
+
+           Sollte sich die Auftraggeberin in der Projektentwicklung für die Realisierung mit einem GU-Modell
+           entscheiden, erfordert dies eine Reduktion der Leistungsanteile (SIA Phasen 4 und 5) im Fachbereich
+           Baukostenplanung, Ausschreibung und Bauleitung. Die genaue Reduktion ist zum gegebenen Zeit-
+           punkt unter den Beteiligten zu verhandeln.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 44 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+8.6.       Honorar (Verhandlungsgrundlage)
+           Als Verhandlungsbasis für die weitere Projektbearbeitung, gemäss Ziffer 8.1, gelten folgende Hono-
+           rarkonditionen (die Phasen werden einzeln freigegeben):
+
+           Bezeichnung                                                       Faktor           Bemerkungen
+           Schwierigkeitsgrad (n) Architektur, SIA 102                       1.3              Theaterbauten
+           Schwierigkeitsgrad (n) Bauingenieurwesen, SIA 103                 1.2              sehr anspruchsvolle/komplexe Aufgaben
+           Schwierigkeitsgrad (n) Landschaftsarchitektur, SIA 105            1.1              Freiräume von Theatergebäuden, urbane
+                                                                                              Freiräume, Stadtplätze
+           Schwierigkeitsgrad (n) Sanitäringenieurwesen, SIA 108             1.0              Theaterbauten
+           Schwierigkeitsgrad (n) Elektro-, Heizungs- und Kälteingenieurwe- 1.2               Theaterbauten
+           sen, SIA 108
+           Schwierigkeitsgrad (n) Lüftungs-, Klimaingenieurwesen, SIA 108    1.4              Theaterbauten
+           Schwierigkeitsgrad (n) Gebäudeautomation, SIA 108                 1.3              Theaterbauten
+           Schwierigkeitsgrad (n) Fachkoordination, SIA 108                  1.2              Theaterbauten
+           Anpassungsfaktor (r)                                              1.0
+           Faktor für Umbauten (U)                                           1.0
+           Teamfaktor (i)                                                    Max. 1.0
+           Faktor für Sonderleistungen (s)                                   Max. 1.0
+           Angebotener Stundenansatz (h)                                     Max. CHF 135.-
+           GP-Koordination                                                   Max. 5 %
+           Teilleistungen nach Ordnungen SIA 102, 103, 105,108               100 %
+           (Ausgaben 2014)
+
+
+
+
+           Aufwandbestimmende Baukosten
+           Die aufwandbestimmenden Baukosten pro Fachgebiet werden nach den Ordnungen SIA 102, 103,
+           105, 108 (Ausgaben 2014) errechnet und nach Abschluss des Verfahrens festgelegt.
+
+           Präzisierungen zur Berechnung der aufwandbestimmenden Baukosten Architekt (SIA 102/2014):
+           BKP 17        Spezialfundation / Baugrube   Anteil Architekt 50 %
+           BKP 3         Betriebseinrichtungen         Anteil Architekt 50 %
+           BKP 4         Umgebung                      Anteil Architekt 50 %
+           BKP 9         Ausstattung                   Anteil Architekt 50 % für Katalogmobiliar
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 45 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+8.7.       BIM-Planung für Projektierung, Ausführung und Realisierung
+           Für die Planung ab der Weiterbearbeitung bis Bauabschluss wird die Zuhilfenahme einer Gebäudeda-
+           tenmodellierung (Building Information Modeling BIM) für alle beteiligten Planer verbindlich vorgege-
+           ben. Hierzu wird durch die Auftraggeberin ein BIM-Manager beauftragt zur Definition der Informati-
+           onsanforderungen (AIA). Die AIA beinhalten die Bauplanung von Vorprojekt bis und mit Realisierung.
+           Weitergehende Anforderungen (z.B. für Facilitymanagement, Unterhalt usw.) werden separat vergü-
+           tet.
+
+           Die Erarbeitung des BIM-Abwicklungsplans (BAP) sowie die Koordinationsaufgabe (BIM-Koordinator)
+           obliegt dem Generalplanerteam und ist im GP-Honorar enthalten.
+
+8.8.       Vorbehalte
+           Die Auftragserteilung zur weiteren Bearbeitung erfolgt unter Vorbehalt einer Einigung über die Hono-
+           rare und des Zustandekommens eines Vertrags.
+
+           Ein Austausch eines Planers des Generalplanerteams kann nur mit gegenseitiger Zustimmung zwi-
+           schen Aufraggeber und Generalplanerteam erfolgen. Die Auftraggeberin ist jedoch berechtigt, bei
+           Verstössen gegen Treu und Glauben oder bei Nichterfüllung der geforderten Leistungen einzelne Pla-
+           nende des Generalplanerteams aus dem Vertragsverhältnis auszuschliessen.
+
+           Vorbehalten bleibt in jedem Fall die Projekt- und Kreditgenehmigung durch die politischen Instanzen.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 46 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+9.         Beurteilungskriterien
+
+9.1.       Beurteilungskriterien 1. Stufe
+           Für die 1. Stufe des Projektwettbewerbs gelten folgende Beurteilungskriterien:
+
+           Städtebau und Architektur
+            • Städtebauliche Einordnung
+            • Architektonisches Gesamtkonzept
+            • Positionierung und Dimensionierung des Gebäudevolumens
+            • Gestaltung des räumlichen Verhältnisses zur benachbarten Jesuitenkirche, Lichteinfall in den Kir-
+               chenraum
+            • Qualität der Aussen- und Freiräume inkl. Verkehrserschliessung
+            • Lage und Funktionalität der öffentlich zugänglichen Räume
+            • Gestaltung der Innenräume und Aufenthaltsqualität
+            • Fassadenkonzeption und -materialisierung
+
+           Funktionalität
+            • Übergeordnete Strategie der Nutzungsanordnung
+
+9.2.       Beurteilungskriterien 2. Stufe
+           Für die 2. Stufe des Projektwettbewerbes gelten zusätzlich zu jenen aus der 1. Stufe die nachfolgend
+           aufgeführten:
+
+           Städtebau und Architektur
+            • Präzisierung Fassadenkonzeption und -Materialisierung
+
+           Funktionalität
+            • Optimale Umsetzung des Raumprogramms und des Betriebskonzeptes
+            • Stringenz des Erschliessungskonzeptes Aussen und Innen (Personenflüsse)
+
+           Wirtschaftlichkeit
+           • Energie- und kostenbewusste Konzeption bezüglich Erstellung, Betrieb und Unterhalt
+
+           Energie und Nachhaltigkeit
+            • Erreichbarkeit der Zielsetzungen an den Gebäudestandard 2019.1
+            • Beitrag zur Hitzeminderung im Stadtklima
+
+
+10.        Schlussbestimmungen
+
+10.1.      Gerichtsstand
+           Allfällige Streitigkeiten werden an ordentlichen Gerichten entschieden. Als Gerichtsstand gilt einzig
+           und ausschliesslich Luzern-Stadt.
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 47 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+11.        Genehmigung
+           Das vorliegende Programm zur 1. Stufe wurde von der Veranstalterin und vom Preisgericht geneh-
+           migt.
+
+           Luzern, 13. September 2021
+
+
+
+           Beat Züsli (Vorsitz)
+
+
+
+           Marcel Schwerzmann
+
+
+
+           Birgit Aufterbeck Sieber
+
+
+
+           Ina Karr
+
+
+
+           Numa Bischof Ullmann
+
+
+
+           Michael Häfliger
+
+
+
+           David Keller
+
+
+
+           Rosie Bitterli (Ersatz)
+
+
+
+           Karin Pauleweit (Ersatz)
+
+
+
+           Peter Klemm (Ersatz)
+
+
+
+           Anja Meyer (Ersatz)
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 48 / 49
+Neues Luzerner Theater, Stadt Luzern
+Offener Projektwettbewerb in zwei Stufen, Programm zur 1. Stufe
+
+
+
+
+           Patrick Gmür (Fachvorsitz)
+
+
+
+
+           Jette Cathrin Hopp
+
+
+
+
+           Jörg Friedrich
+
+
+
+
+           Arno Lederer
+
+
+
+
+           Annette Gigon
+
+
+
+
+           Anna Jessen
+
+
+
+
+           Andi Scheitlin
+
+
+
+
+           Pascal Hunkeler
+
+
+
+
+           Rita Illien
+
+
+
+
+           Ursula Hürzeler (Ersatz)
+
+
+
+
+           Max Bosshard (Ersatz)
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel / U01 Programm 1. Stufe.docx / ep
+Seite 49 / 49
+

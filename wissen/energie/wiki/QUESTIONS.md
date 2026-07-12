@@ -186,6 +186,41 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   **Klassengrenzen kWh/m²·a** je Effizienzklasse (Produktreglement 2026 bildbasiert), Liste der Kantone
   mit **GEAK-Pflicht bei Handaenderung** (→ Skill `baurecht`).
 
+- [x] **E21** **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul) belegt ✓ 2026-07-12 →
+  `[[pvt-hybridkollektoren]]`, FAQ **F41** (SPF/OST Rapperswil Schlussbericht 2017: elektrisch
+  ~15-20 %/thermisch ~65 % Wirkungsgrad, ~300 CH-Anlagen 2017, Kosten widersprüchlich 210-650 vs.
+  1'100-1'600 CHF/m², lohnt vor allem bei knapper Dachfläche). Status emerging (Kosten nicht
+  adversarial verifiziert). Löst den Run-34-Prioritätspunkt «PVT-Hybridkollektoren». Offen:
+  aktuelle CH-Marktzahlen (nach 2017), belastbare Kostenzahl.
+- [x] **E22** **Solarthermie-Investitionskosten EFH** (CHF) belegt ✓ 2026-07-12 →
+  `[[solarthermie-investitionskosten-ch]]`, FAQ **F42** (reine WW-Kompaktanlage CHF 15'000-20'000,
+  Kombianlage unsicherer 22'000-40'000; hausinfo.ch + Meier Tobler AG, keine amtliche CHF-Quelle).
+  Status emerging, Kombianlage speculative. Löst Run-34-Prioritätspunkt 2 (teilweise — keine
+  amtliche Primärquelle gefunden, das ist das ehrliche Ergebnis, nicht ein Rechercheversagen).
+- [x] **E23** **Komfortlüftung — WRG-Grad zentral + SIA-382-Auslegung** belegt ✓ 2026-07-12, dabei
+  **adversarial korrigiert**: SIA 382/1:2025 gilt weiterhin für ALLE belegten Gebäude inkl.
+  Wohnbauten (Gerätekategorie WLA), SIA 382/5:2021 ist wohnbauspezifische ERGÄNZUNG, ersetzt SIA
+  382/1 nicht (erste Recherchefassung war hier falsch) → `[[komfortlueftung-wrg-sia382-luftwechsel]]`,
+  FAQ **F43**. Minergie-WRG (v2.0, 2023) ≥80 % Temperatur/≥60 % Feuchte; SIA-382/5-Luftmengen
+  30/30/20/90 m³/h bestätigt. **Filterklassen + Stromverbrauch** ebenfalls adversarial korrigiert:
+  ePM1-Zuluft/Coarse-Abluft bestätigt, aber der frühere SFP-Wert 0,34 Wh/m³ ist seit 2021 (Ablösung
+  Merkblatt SIA 2023) **nicht mehr aktuell** — heute gilt EU-1254/2014-Energieeffizienzklasse
+  A/A+ → `[[komfortlueftung-filterklassen-epm-stromverbrauch]]`, FAQ **F44**. Löst Run-34-
+  Prioritätspunkt 3 vollständig, inkl. Aufdeckung von zwei veralteten Zitaten (Verifikations-
+  Stufe hat sich hier bewährt).
+- [x] **E24** **Komfortable relative Raumluftfeuchte in %** (SIA 180) belegt ✓ 2026-07-12 →
+  `[[raumluftfeuchte-komfortbereich-sia180]]`, FAQ **F45** (SIA 180:2014 toleriert 30-70 %, Praxis-
+  Zielband 40-60 %, 30 %-Untergrenze als Planungsanforderung 90 % der Nutzungszeit ohne aktive
+  Befeuchtung; enbau-online.ch + Lungenliga). Status emerging (SIA-180-Volltext nicht direkt
+  eingesehen, keine adversariale Zweitprüfung). Löst Run-34-Prioritätspunkt 4.
+- [x] **E25** **GEAK/FEA-Klassengrenzen** — wichtige Korrektur ✓ 2026-07-12: der GEAK hat **KEINE**
+  festen kWh/m²·a-Grenzwerte je Klasse A-G, sondern klassiert RELATIV zu einem individuell
+  berechneten Referenzgebäude (R = Projektwert/Referenzwert × 100; A=0-50 %, B=50-100 %, …,
+  G=>300 %) — eine im Web kursierende feste Zahlen-Tabelle wurde als falsch widerlegt →
+  `[[geak-klassengrenzen-relative-klassierung]]`, FAQ **F46**, adversarial am Original-PDF (EnDK-
+  Normierungsdokument, Tab. 40/41) bestätigt, **established**. Löst Run-34-Prioritätspunkt 5
+  vollständig (FEA-Klassengrenzen bleiben offen, war separate Frage, Produktreglement bildbasiert).
+
 - [x] **E17** **Komfortlüftung / kontrollierte Wohnungslüftung** belegt ✓ 2026-07-09 →
   `[[komfortlueftung-wohnungslueftung-ch]]`, Themenartikel `[[komfortlueftung]]`, FAQ **F37** (4 Standard-
   systeme Komfort mit WRG/Abluft/dezentral 75–90 %/Grundlueftung; Handlueftung >2/3 mehr Verlust, ZH EN-105

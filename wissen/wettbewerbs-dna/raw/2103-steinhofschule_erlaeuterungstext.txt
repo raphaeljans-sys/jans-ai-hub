@@ -1,0 +1,64 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2103 WB Luzern Steinhofschule/00 Abgabe/05 Texte/PATIO_IN_NOBILE_Erlaeuterungstext.pdf
+# Extrakt: pdftotext -layout, 1 Seite, 2026-07-12
+
+Erläuterungstext „PATIO IN NOBILE“
+
+Lektüre des Ortes
+Das Steinhofquartier liegt an der nordöstlichen Hügelflanke des auslaufenden Hügelzuges des Sonnenberges in
+Luzern. Die leicht erhöhte Lage ermöglicht einen privilegierten Blick über die Dächer der Stadt Luzern hin zur
+atemberaubender Bergsilhouette Dietschiberg - Rigi - Glarner Alpen. Die bestehende Schulanlage Steinhof
+erstreckt sich von der Steinhofstrasse hangaufwärts bis zur Obergütschstrasse und schliesst mit dem
+angrenzenden Wald den Aussenraum U-förmig mit der Öffnung zum Tal.
+
+Städtebauliches Konzept
+1. Neubau als Chance für eine grundlegende Erneuerung; bestehende Baukörperorientierung als Qualität
+beibehalten
+2. Aussenräume maximal freihalten durch kompaktes Bauvolumen
+3. Stärkung des Schulareals Steinhof im Quartier durch eine einladende Parkgestaltung
+4. Bestehende Durchwegung erneuern, weiterführen und stärken
+5. Übersichtliche Erschliessung mit klaren Eingangssituationen
+Konkret bezogen auf das Neubauvolumen äussern sich die obigen Grundsätze in einem kompakten
+Fussabdruck, der möglichst viel Freiraum offenlässt. Die Stapelung des Raumprogramms von Turnhalle und
+Schulräume schafft ein kompaktes Bauvolumen mit kurzen Distanzen zwischen den unterschiedlichen
+Nutzungen.
+
+Architektonisches Konzept
+Das Raumprogramm wird auf vier Geschossen übereinandergestapelt und durch eine zentrale Treppe, die als
+Gelenk zwischen den „Geschoss-Orientierungen“ verbunden. Im Erdgeschoss und 1. Obergeschoss findet die
+Turnhalle sowie die Technik- und die Nebennutzräume Platz. Dies aus dem Grund, da die Turnhalle neue ebenerdig
+zum Aussenspielfeld orientiert werden soll, um so den Hallenraum als öffentlich nutzbaren Quartierraum zu
+aktivieren. Darüber thronen die eigentlichen Schulräume. Sie besitzen eine optimale Belichtung. Der zentrale
+Erschliessungskorridor wird durch ein Oberlicht sowie durch den Treppendurchbruch im 3.OG belichtet.
+Im 2.OG ist das Gemeinschaftgeschoss situiert. Mit der nach Süden orientierten Sonnenterrasse sowie dem
+neuen Eingang zur Obergütschstrasse erfährt die Gemeinschaftsnutzung ein ideale Aussenraumanbindung. Im
+Dachgeschoss befinden sich die Unterrichtsräume mit Lernloggias und Atelier. Der zentrale Korridor ist flexibel
+nutzbar und durch ein Oberlicht sowie der zentralen Treppenanlage gut belichtet und effizient erschlossen.
+
+Erschliessung
+Die Anlieferung erfolgt hauptsächlich von der Steinhofstrasse. Die Warenanlieferung erfolgt über das EG Foyer
+Nord. Es ist möglich mit einem Lastwagen über die Erschliessungsfläche der Parkplätze retour an die Anlieferung
+zu fahren. Kinder halten sich dort keine auf, denn der Haupteingang der Schule ist an der Obergütschstrasse.
+Von den Parkplätzen erfolgt der Zugang zum Pausenplatz mittels Rampe. Die Rampe als einladendes Motiv der
+Zugänglichkeit soll den Quartierbewohnern signalisieren, dass Sie an diesem Ort eingeladen sind.
+
+Freiraum
+Mit dem Ersatzneubau entstehen neue Aussenräume welche den vielseitigen Bedürfnissen eines modernen
+Schulbetriebs und den Anforderungen an eine naturgerechte Umgebungsgestaltung Rechnung tragen. Es
+entsteht einen neuen angenehm gefasster Schulhof mit einem Spielfeld und angrenzenden Sitzbänke die zum
+Verweilen unter Bäumen einladen. Eine perlenkettige Baumgruppenanordnung mit Sitzbänken sowie ein Brunnen
+flankieren den Schulhof nach Süden und macht ihn zu einem einzigartigen Aufenthaltsort.
+
+Flexibilität und Struktur
+Das Gebäude wird in drei Schichten zoniert: Die zentrale Schicht erschliesst, die lateralen Schichten sind frei
+nutzbar. Entlang der Schichtgrenze sind die Stützen angeordnet. Das bedeutet, die Fläche zwischen Tragstütze
+und Fassade ist bis zu den Nasszellentrakten frei nutzbar. Dank des Erschliessungs- und Fluchtwegkonzepts ist
+das Gebäude flexibel nutzbar und kann auf unterschiedlichste didaktische Konzepte reagieren. Diese didaktische
+Flexibilität ist ein grosser Pluspunkt des Projekts. Anschaulich ist das im mittleren, durchgehenden Korridor zu
+erkennen, den die Schule ideal für grössere Projekte und unterschiedliche Lernformen nutzen kann.
+
+Statik und Konstruktion
+Tragstrukturell ist der Sockelbau bis zur Decke über 1.OG in Ortbeton ausgeführt und die zwei darüberliegenden
+Schulgeschosse in Holzbauweise. Die Materialisierung entspricht den Bedürfnissen der jeweiligen Strukturen, mit
+den grossen Abfanglasten, bedeutenden Spannweiten und der Wasserdichtigkeit im Erdreich für den Massivbau
+sowie der leichten, flexiblen und den Anforderungen hinsichtlich Schallschutzes für den Holzbau.
+

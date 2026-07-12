@@ -1,0 +1,14 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2207 WB Basel/08_Publikationen/221123_Kennzahlen_Kennwerte.docx
+# Extrakt: textutil -convert txt, 12.07.2026
+
+Kennzahlen 
+BGF: 1249qm / max. 1293qm
+EBF: 1254qm
+HNF: 928.4qm / soll 900qm
+
+
+Kennwerte für Pilot WBP 1000+
+HNF / GF	 > 928.4 qm / 1314.8qm = 0.7 ( soll 0.7 - 0.75)
+HNF / GV	 > 928.4 qm / 4728qm3 = 0.2 (soll ?)
+
+

@@ -84,7 +84,7 @@ erwartbare Flächen und Wohnungszahlen in der frühen Studienphase (Schnittstell
 | **HNF zu GF (pro Regelgeschoss)** | **0.75** | nur Regelgeschoss (effizienter als Mittel) |
 | Baumassenziffer Hauptgebäude (Fallbeispiel) | 2.4 m³/m² | Grundstück × BMZ = zul. Baumasse |
 
-**Rechenkette (Beispiel):** 5'915 m³ Baumasse → GF ≈ 5'915 × 0.33 = **1'970 m²** → HNF ≈
+**Rechenkette (Beispiel):** 5'915 m³ Baumasse → GF ≈ 5'915 × 0.33 = **1'952 m²** → HNF ≈
 5'915 × 0.20 = **1'183 m²**. Über die zulässige Gebäudehöhe gegenrechnen: 5'915 m³ / 14 m
 (Flachdach) = **422 m² GF/Geschoss**, davon HNF ≈ 422 × 0.75 = **315 m²/Regelgeschoss**.
 

@@ -391,8 +391,9 @@ belegt am oeffentlichen Realfall Pflegeheim Herosé Aarau (2021, Run 12):
   2. **«In welchem Bereich liegt die normale Groesse?»** Empirisch (835 Heime, Datenstand ~1998):
      **Median 52 Betten, Mittelwert 62, Interquartilsbereich 33-79 Betten**. Deckt sich mit dem
      aktuellen BFS-Schnitt 2021 (96'758 Plaetze / 1'543 Heime ≈ **63 Plaetze/Heim**,
-     [[ertragswert-dcf]]) und mit JANS' Referenzset (28-123, Median 89). **Rund 50 % der CH-Heime
-     sind zu klein** (suboptimal).
+     [[ertragswert-dcf]]) und mit JANS' Referenzset (28-123 Betten, Median 78.5 aus den 8 Objekten
+     {28,34,55,68,89,116,121,123}; der Einzelwert 89 ist der 5. Wert, nicht der Median). **Rund 50 % der
+     CH-Heime sind zu klein** (suboptimal).
   3. **«Ab wann spielt der Multiplikationsfaktor keine Rolle mehr fuer die Effizienz?»** Die
      Skalenkurve flacht **ab ~50 Betten** deutlich ab (SE faellt von 1.102 bei 30 Betten auf 1.031
      bei 58 und 1.006 bei 74) und erreicht bei **~79 Betten das Optimum (SE = 1)**; darueber praktisch

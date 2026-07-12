@@ -1,0 +1,245 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2104 WB Luzern Theater/00 Simap Daten/U03_A_Raumprogramm.pdf (6 Seiten, pdftotext -layout, Extrakt 2026-07-12)
+
+                                                                                                                               Unterlage 03 A
+
+
+
+
+ Bild
+
+
+
+
+Bild
+
+
+
+
+Raumprogramm
+
+Stadt Luzern
+Neues Luzerner Theater
+
+
+Luzern, 28. September 2021
+Version 1.0
+
+
+
+
+Büro für Bauökonomie AG | Luzern | Basel Zähringerstrasse 19, 6003 Luzern, T +41 58 451 77 00, luzern@bfbag.ch, www.bfbag.ch
+Stadt Luzern
+Neues Luzerner Theater
+
+
+
+1      Raumprogramm Zusammenstellung
+
+
+
+                                                         Total Nettofläche   Total Nettovolumen
+Nr.    Bezeichnung                                                     m2                    m3
+
+
+1.1    Total Netto                                                6 084               33 004
+1      Publikumsräume                                               998                6 294
+2      Bühnen- und Veranstaltungsräume                            1 696               15 003
+3      Orchesterräume                                               300                  882
+4      Studier- und Probenräume                                     136                  428
+5      Künstlergarderoben                                           270                  810
+6      Gastronomie                                                  500                1 750
+7      Personalräume                                                257                  771
+8      Fachbereiche Veranstaltungsbetrieb                           772                2 316
+9      Betriebs-, Gebäude- & Sicherheitstechnik                   1 155                4 750
+
+
+
+
+Büro für Bauökonomie AG / U03 A Raumprogramm.xlsx / ep
+Seite 2 / 6
+Stadt Luzern
+Neues Luzerner Theater
+
+
+
+1.1    Raumprogramm detailliert
+
+
+                                                                                                                   Total
+                                                     Anzahl   Nettofläche   Total Nettofl.   Raumhöhe     Nettovolumen                                                         Bühnenniveau    Tageslicht    im Untergeschoss
+Nr.    Bezeichnung                                   Räume            m2              m2     im Licht m             m3 Bemerkungen                                               +/- 0.00     erforderlich       möglich
+
+
+       Total Netto                                                               6 084                       33 004
+
+1      Publikumsräume                                                               998                 6 294
+1.1    Foyer                                             1      700                 700 konzeptabhängig       inkl. Fläche mobile Pausen-Bars                                        x             x
+1.2    Zuschauerraum (grosser Saal)                      1 konzeptabhängig                              5 400 ca. Angabe, siehe Konzept Raumakustik (U03 C)                          x
+1.3    Theaterkasse - Shop                               1        35                 35       3.0         105                                                                                      x
+1.4    Publikumsgarderobe                                1      108                 108       3.0         324                                                                                                       x
+1.5    Publikumstoiletten                        konzeptab      110                 110       3.0         330 prüfen Integration/Synergie öffentliche WC-Anlage                                                     x
+1.6    Kinderhort                                        1        30                 30       3.0          90                                                                                      x
+1.7    Sanitätsraum                                      1        15                 15       3.0          45                                                                        x
+
+2      Bühnen- und Veranstaltungsräume                                           1 696                        15 003
+2.1    Hauptbühne (grosser Saal)                         1          260            260           22.5          5 850 inkl. Höhe Bühnenturm, inkl. Schnürboden                        x
+2.2    Seitenbühne rechts (grosser Saal)                 1           60             60            6.5            390                                                                 x
+2.3    Seitenbühne links (grosser Saal)                  1           60             60            6.5            390                                                                 x
+2.4    Hinterbühne (grosser Saal)                        1           72             72            7.0            504                                                                 x
+2.5    Unterbühne                                        1          204            204            6.0          1 224                                                                                                x
+2.6    Steuerung Untermaschinerie                        1           40             40            3.0            120                                                                                                x
+2.7    Steuerung Obermaschinerie                         1           80             80            3.0            240                                                                                                x
+2.8    Tageslager Kulissen & Prospekte                   1          250            250            6.5          1 625                                                                 x
+2.9    Lager Gebrauchsmaterial Bühnenbetrieb             1           80             80            3.0            240
+2.10   Bereitstellungsraum Requisite                     1           30             30            3.0             90                                                                 x
+2.11   Tageslager Requisiten                             1           20             20            3.0             60                                                                 x
+2.12   Inspizienz & Leitung Vorstellungen                1           40             40            3.0            120                                                                                                x
+2.13   Mittlerer Saal                                    1          300            300           10.5          3 150 ca. Angaben, Höhe inkl. Gitterrostdecke à 2.0 m
+2.14   Studio                                            1          200            200            5.0          1 000 ca. Angaben, inkl. Fläche für Lager (Möbel, techn. Equipment)
+
+
+
+
+Büro für Bauökonomie AG / U03 A Raumprogramm.xlsx / ep
+Seite 3 / 6
+Stadt Luzern
+Neues Luzerner Theater
+
+
+
+1.1    Raumprogramm detailliert
+
+
+                                                                                                                   Total
+                                                     Anzahl   Nettofläche   Total Nettofl.   Raumhöhe     Nettovolumen                                             Bühnenniveau    Tageslicht    im Untergeschoss
+Nr.    Bezeichnung                                   Räume            m2              m2     im Licht m             m3 Bemerkungen                                   +/- 0.00     erforderlich       möglich
+
+
+3      Orchesterräume                                                               300                          882
+3.1    Orchestergraben                                   1           90              90           2.8            252                                                  -2.80                             x
+3.2    Orchestergarderoben                               2           40              80           3.0            240 geschlechtergetrennt                                                               x
+3.3    Stimmzimmer                                       4           20              80           3.0            240                                                                                    x
+3.4    Instrumentenlager                                 1           30              30           3.0             90                                                                                    x
+3.5    Orchesterwart / Notenlager                        1           20              20           3.0             60                                                                   x
+
+4      Studier- und Probenräume                                                     136                          428
+4.1    Einzelproben, Einsingen, Einsprechen              2           30              60           3.0            180                                                                   x
+4.2    Warmup & Trainingsraum Tanz                       1           40              40           3.5            140                                                                                    x
+4.3    Studierzimmer für Einzelproben / Studium          3           12              36           3.0            108                                                                   x
+
+5      Künstlergarderoben                                                           270                          810
+5.1    Künstlergarderoben Damen                          3           40             120           3.0            360 inkl. Dusche                                                                       x
+5.2    Künstlergarderoben Herren                         3           40             120           3.0            360 inkl. Dusche                                                                       x
+5.3    Garderoben für bühnennahe Schnellumzüge           2           15              30           3.0             90                                                    x
+
+6      Gastronomie                                                                  500                        1 750
+6.1    Restaurant (Gästeraum)                            1          250             250           4.0          1 000 inkl. Buffet/Bar, Eingang, Garderobe                              x
+6.2    Küche / Abwasch                                   1           95              95           3.0            285                                                                   x
+6.3    Lager Mobiliar für Bankett                        1           30              30           3.0             90                                                                                    x
+6.4    Lager Lebensmittel                                1           75              75           3.0            225 inkl. Entsorgung und Fettabscheider à 25 m2                                        x
+6.5    Garderoben / Duschen / Toiletten Personal         1           30              30           3.0             90                                                                                    x
+6.6    Büro Betriebsleitung / Küchenchef & Archiv        1           20              20           3.0             60                                                                   x
+
+
+
+
+Büro für Bauökonomie AG / U03 A Raumprogramm.xlsx / ep
+Seite 4 / 6
+Stadt Luzern
+Neues Luzerner Theater
+
+
+
+1.1    Raumprogramm detailliert
+
+
+                                                                                                                         Total
+                                                           Anzahl   Nettofläche   Total Nettofl.   Raumhöhe     Nettovolumen                                            Bühnenniveau    Tageslicht    im Untergeschoss
+Nr.    Bezeichnung                                         Räume            m2              m2     im Licht m             m3 Bemerkungen                                  +/- 0.00     erforderlich       möglich
+
+
+7      Personalräume                                                                      257                          771
+7.1    Aufenthalt / Pausenraum / Selbstversorgung              1          100             100           3.0            300 inkl. Haushaltsküche                                             x
+7.2    Ruheraum                                                1           18              18           3.0             54
+7.3    Personalgarderoben Damen                                1           30              30           3.0             90 inkl. Dusche                                                                      x
+7.4    Personalgarderoben Herren                               1           35              35           3.0            105 inkl. Dusche                                                                      x
+7.5    Personalgarderoben Gäste / Freelancer                   1           12              12           3.0             36 inkl. Dusche                                                                      x
+7.6    Personalgarderobe Inspizienten, Assistenzen             1           12              12           3.0             36 inkl. Dusche                                                                      x
+7.7    Personaltoiletten                               konzeptab           50              50           3.0            150 auf die Geschosse verteilt/Konzeptabhängig                                 teils möglich
+
+8      Fachbereiche Veranstaltungsbetrieb                                                 772                        2 316
+8.1    Bühnen-/Veranstaltungstechnik-Unterhaltswerkstatt       1           24              24           3.0             72
+8.2    Bühnen-/Veranstaltungstechnik - Büroarbeitsplatz        1           36              36           3.0            108                                                                  x
+8.3    Tontechnik - Regiekabine                                1           15              15           3.0             45
+8.4    Tontechnik - Aufnahmekabine                             1           16              16           3.0             48
+8.5    Tontechnik - Verstärkerraum                             1           50              50           3.0            150                                                                                   x
+8.6    Tontechnik - Archiv & Materiallager                     1           10              10           3.0             30                                                                                   x
+8.7    Tontechnik - Büroarbeitsplatz                           1           12              12           3.0             36                                                                  x
+8.8    Beleuchtungstechnik - Regieraum (Stellwerk)             1           15              15           3.0             45
+8.9    Beleuchtungstechnik-Unterhaltswerkstatt Equipment       1           25              25           3.0             75
+8.10   Beleuchtung - Lager Ersatzmaterial                      1           16              16           3.0             48                                                                                   x
+8.11   Beleuchtung - Projektionskabine                         1           12              12           3.0             36
+8.12   Elektroverteilung & Lastschränke Bühne-/Eventbel.       1           20              20           3.0             60                                                                                   x
+8.13   Beleuchtung - Büroarbeitsplatz                          1           24              24           3.0             72                                                                  x
+8.14   Multimediatechnik - Serverraum Rangierraum              1           20              20           3.0             60                                                                                   x
+8.15   Multimediatechnik - Regiekabine                         1           10              10           3.0             30
+8.16   Multimediatechnik - Projektionskabine                   1            9               9           3.0             27 inkl. Übertitelsystem
+8.17   Multimediatechnik - Programmierplatz                    1           20              20           3.0             60                                                                  x
+8.18   Kommunikationstechnik Bühnenbetrieb                     1           18              18           3.0             54                                                                                   x
+8.19   Bereitschaftsraum für Proben und Vorstellungen          1           30              30           3.0             90 für alle Fachbereiche                                            x
+8.20   Maske & Perücken - Schminkzimmer                        1           64              64           3.0            192                                                                  x
+8.21   Maske & Perücken - Maskenatelier                        1           70              70           3.0            210                                                                  x
+8.22   Maske & Perücken - Matschraum                           1           20              20           3.0             60                                                                  x
+
+
+
+Büro für Bauökonomie AG / U03 A Raumprogramm.xlsx / ep
+Seite 5 / 6
+Stadt Luzern
+Neues Luzerner Theater
+
+
+
+1.1    Raumprogramm detailliert
+
+
+                                                                                                                       Total
+                                                         Anzahl   Nettofläche   Total Nettofl.   Raumhöhe     Nettovolumen                                                        Bühnenniveau    Tageslicht    im Untergeschoss
+Nr.    Bezeichnung                                       Räume            m2              m2     im Licht m             m3 Bemerkungen                                              +/- 0.00     erforderlich       möglich
+8.23   Maske & Perücken - Büroarbeitsplatz                   1           12               12          3.0             36                                                                              x
+8.24   Maske & Perücken - Lager Verbrauchsmaterial           1           15               15          3.0             45                                                                                               x
+8.25   Maske & Perücken - Tageslager                         1           15               15          3.0             45
+8.26   Requisite - Werkstatt                                 1           40               40          3.0            120                                                                              x
+8.27   Requisite - Lager                                     1           20               20          3.0             60                                                                                               x
+8.28   Requisite - Pyrotechnik- & Waffenkammer               1           12               12          3.0             36                                                                                               x
+8.29   Requisite - Büroarbeitsplatz                          1           12               12          3.0             36                                                                              x
+8.30   Kostümabteilung - Kostümpflege                        1           45               45          3.0            135
+8.31   Kostümabteilung - Assistentenzimmer                   1           15               15          3.0             45
+8.32   Kostümabteilung - Tageslager                          1           50               50          3.0            150
+
+9      Betriebs-, Gebäude- & Sicherheitstechnik                                      1 155                         4 750
+9.1    Pforte / Hausdienst                                   1           12             12            3.0             36                                                                              x
+9.2    Büro Betriebstechnik                                  1           12             12            3.0             36                                                                              x
+9.3    Werkstatt Betriebstechnik                             1           28             28            3.0             84                                                                                               x
+9.4    Raumpflege - Zentrale                                 1           24             24            3.0             72 inkl. Garderoben Personal Reinigung                                                           x
+9.5    Raumpflege - pro Geschoss                     konzeptab            7                           3.0                pro Geschoss
+9.6    Heizzentrale                                          1           60              60           5.0            300                                                                                               x
+9.7    Kältezentrale                                         1           60              60           5.0            300                                                                                               x
+9.8    Warmwasserzentrale und WRG                            1           50              50           4.0            200                                                                                               x
+9.9    Kaltwasser / Aufbereitung                             1           20              20           4.0             80                                                                                               x
+9.10   Wasseraufbereitung Restaurant                         1           15              15           3.0             45                                                                                               x
+9.11   Sprinklerzentrale                                     1           50              50           3.0            150                                                                                               x
+9.12   Elektrozentralen                                      1          110             110           4.0            440 Trafostation, Hauptverteilung, Schwachstromraum, ICT-Zentrale                                 x
+9.13   Elektro Unterverteilungen                     konzeptab           15                           3.0                pro Geschoss
+9.14   Lüftungszentralen 1 + 2                               1          220             220           5.0          1 100
+9.15   Lüftungszentralen 3 - 7                               1          405             405           4.0          1 620                                                                                               x
+9.16   Gewerbliche Kälte (Gastronomie)                       1           20              20           4.0             80                                                                                               x
+9.17   Lager Betriebstechnik                                 1           45              45           3.0            135                                                                                               x
+9.18   Entsorgung                                            1           24              24           3.0             72                                                                                               x
+
+
+
+
+Büro für Bauökonomie AG / U03 A Raumprogramm.xlsx / ep
+Seite 6 / 6
+

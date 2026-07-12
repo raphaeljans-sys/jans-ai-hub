@@ -1,0 +1,1756 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/07 Referenzen/00 Juryberichte/froeschmatt-pratteln-jurybericht.pdf
+# Extrakt: pdftotext -layout, 12.07.2026, 68 Seiten, Jurybericht Froeschmatt Pratteln
+
+JURYBERICHT
+ERNEUERUNG SCHULANLAGE FRÖSCHMATT
+PRATTELN
+Impressum
+Jurybericht Erneuerung Schulanlage Fröschmatt Pratteln
+Ausgabe 01 I 2022 I 1. Auflage
+
+
+
+Auftraggeberin
+Bau- und Umweltschutzdirektion Kanton Basel-Landschaft
+
+Herausgeberin
+Kanton Basel-Landschaft, Hochbauamt
+
+Wettbewerbsbegleitung
+Kontur Projektmanagement AG, Bern
+
+Wettbewerbssekretariat
+Bau- und Umweltschutzdirektion Kanton Basel-Landschaft
+Zentrale Beschaffungsstelle
+Rheinstrasse 29, 4410 Liestal
+zbs@bl.ch
+
+Inhalt und Redaktion
+Kontur Projektmanagement AG, Bern
+
+Layout und Modellfotografie
+Hochbauamt Basel-Landschaft
+
+Druck
+Druckerei Bloch AG, Arlesheim
+
+Bezugsquelle
+Bau- und Umweltschutzdirektion Kanton Basel-Landschaft
+Hochbauamt
+Rheinstrasse 29, 4410 Liestal
+hochbauamt@bl.ch
+www.hba.bl.ch
+INHALT
+
+
+Vorwort des Jurypräsidenten................................................................................ 3
+
+Einleitung. ............................................................................................................. 5
+
+Wettbewerbsaufgabe............................................................................................ 6
+
+Verfahren............................................................................................................... 8
+
+Preisgericht. .......................................................................................................... 9
+
+Vorprüfung............................................................................................................10
+
+Beurteilung...........................................................................................................11
+
+Rangierung und Preiszuteilung.............................................................................13
+
+Empfehlung..........................................................................................................14
+
+Genehmigung.......................................................................................................15
+
+Projektverfassende...............................................................................................16
+
+Rangierte Projekte................................................................................................19
+
+Weitere Projekte. ................................................................................................ 53
+SEITE 3 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+VORWORT DES JURYPRÄSIDENTEN
+
+
+Seit vielen Jahren ist der Schulbau ein zentrales Thema für den Kanton Basel-Landschaft und in der
+Architektur. Viele Bauten aus der Mitte des letzten Jahrhunderts müssen saniert, verändert oder
+ersetzt werden, so auch die Schulanlage Fröschmatt in Pratteln. Neben den Anforderungen aus
+dem Zustand der Bauten haben sich die Anforderungen der Pädagogik geändert. In den letzten
+Jahren haben sich vermehrt autonome Lernformen ausserhalb des Klassenverbands etabliert. Das
+Unterrichtsmodell der Sekundarschule Pratteln stellt «das Lernen der Schülerinnen und Schüler ins
+Zentrum des Unterrichts und den Unterricht ins Zentrum der Organisation». Diese neuen Lernformen
+verlangen andere Raumkonzepte und stellen erhöhte Anforderungen an die Flexibilität und
+Wandelbarkeit. Gleichzeitig spielt der Gedanke der Nachhaltigkeit in all seinen Ausprägungen eine
+immer wichtigere Rolle im Planungsprozess, gerade auf Seiten öffentlicher Bauherren.
+
+Die Wettbewerbsbeiträge bilden dies in der qualitätvollen Auseinandersetzung mit den betrieblichen
+Fragen und Belangen im Kontext der aktuellen Lernkonzepte ab. Eindrücklich, gerade für einen
+offenen anonymen Wettbewerb, sind die unterschiedlichen und anregenden Lösungsansätze für
+die Verwendung des Baustoffs Holz, welche die vielfältigen Möglichkeiten des natürlichen und
+nachwachsenden Rohstoffs aufzeigen.
+
+Der SIA erhebt immer wieder die Forderung nach der Durchführung von offenen Wettbewerben,
+um Architekturbüros, gerade jungen Architektinnen und Architekten, die Möglichkeit zu bieten,
+interessante Planungsaufgaben zu generieren. Als öffentlicher Bauherr fühlt sich das Hochbauamt
+Basel-Landschaft diesem Gedanken verpflichtet. Leider ist in den jüngsten Verfahren, nicht nur im
+Kanton Basel-Landschaft, eine rückläufige Teilnehmendenzahl festzustellen.
+
+Umso mehr gilt mein Dank, neben den Beteiligten in der Vorbereitung und im Preisgericht,
+den Architektur- und Planungsteams, welche sich mit der komplexen Aufgabenstellung
+auseinandergesetzt haben, um für die Schule eine optimale Lösung zu finden und dem Preisgericht
+die Möglichkeit geboten haben, das beste Projekt auszuwählen.
+
+
+
+Marco Frigerio
+Kantonsarchitekt
+SEITE 5 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+EINLEITUNG
+
+
+Ausgangslage
+Die Schulanlage Fröschmatt in Pratteln genügt heutigen Anforderungen an einen zeitgemässen
+Schulraum nicht mehr. Die bisherige Kapazität von 27 Klassen ist ausgeschöpft, weshalb der
+Regierungsrat des Kantons Basel-Landschaft 2018 beschlossen hat, den Sekundarschulstandort
+in Pratteln neu auf eine Grösse von 36 Klassen auszulegen. Der ausgewiesene Erweiterungs- und
+Sanierungsbedarf sowie eine Anpassung an heutige Normen und pädagogische Anforderungen
+machen tiefgreifende bauliche Eingriffe unumgänglich.
+
+Mit dem Projekt soll trotz der örtlichen Konzentration von 36 Klassen am Standort Fröschmatt
+ein Schulraum entstehen, welcher für den einzelnen Schüler und die einzelne Schülerin innerhalb
+seines Wirkungskreises in jeder Beziehung überschaubar bleibt. Als öffentlicher Bauherr trägt die
+Auftraggeberin zudem eine besondere Verantwortung bezüglich der Nachhaltigkeit in der Gesamtheit
+ökologischer, ökonomischer und sozialer Verantwortung bei der Erstellung, Bewirtschaftung und
+Nutzung eines Gebäudes. Das Projekt soll in seinen Investitions- und Betriebskosten wirtschaftlich,
+bedarfsgerecht und somit langfristig nachhaltig sein.
+
+Zur Sicherstellung einer hochwertigen Umsetzung dieser Ziele veranstaltet das Hochbauamt Kanton
+Basel-Landschaft einen Projektwettbewerb im offenen Verfahren.
+
+
+
+Bildungspolitische Rahmenbedingungen
+Die kantonale Schulraumplanung Sekundarstufe I basiert auf der Umsetzung der
+bildungsgesetzlichen Vorgaben, der mittelfristigen Entwickluing der Lernendenzahlen und dem
+baulichen Zustand der Liegenschaften. Notwendige Massnahmen werden gemeinsam von der
+Bau- und Umweltschutzdirektion, vertreten durch das Hochbauamt, und der Bildungs-, Kultur- und
+Sportdirketion entwickelt.
+
+Pädagogisches Konzept
+Der Unterricht hat sich in den letzten Jahren vom klassischen Frontalunterricht zu mehr autonomen
+Lernformen ausserhalb des Klassenverbandes gewandelt. Das Unterrichtsmodell der Sekundarschule
+Pratteln stellt «das Lernen der Schülerinnen und Schüler ins Zentrum des Unterrichts und den
+Unterricht ins Zentrum der Organisation».
+
+Gemäss Schulprogramm und somit im Auftrag des Schulrats ist die Sekundarschule Pratteln
+angehalten, nach der baulichen Erneuerung der Schulanlage den Unterricht für alle Klassen in
+Lernlandschaften zu ermöglichen. Eine multifunktionale Raumkonzeption soll einen Unterricht
+ermöglichen, der selbstständiges, forschendes Lernen unterstützt. Die Lernlandschaft bildet das
+Herzstück des Lernens, wo die Schülerinnen und Schüler auf Inputlektionen sowie eigene Ziele
+hinarbeiten und dabei von den Lehrpersonen begleitet werden.
+ SEITE 6 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+ WETTBEWERBSAUFGABE
+
+
+ Projekt- und Ideenperimeter
+ Der Projektperimeter ist deckungsgleich mit der Parzelle Nr. 437, die sich im Eigentum des Kantons
+ Basel-Landschaft befindet und 17’562 m² umfasst. Im Zonenplan der Gemeinde Pratteln ist die
+ Liegenschaft als Zone für «Öffentliche Werke und Anlagen (OeWA) mit Zweckbestimmungen», Pos.
+ 45 «Schulanlage Fröschmatt» ausgewiesen.
+
+ Die Zehnten- und die Fröschmattstrasse und der Grünstreifen südlich des Projektperimeters (Parzelle
+ Nr. 3434) befinden sich im Besitz der Einwohnergemeinde Pratteln. Die Parzelle Nr. 445, welche
+ den Grossteil der südlichen Arealschliessung abdeckt, befindet sich im Eigentum der BLT Baselland
+ Transport AG. Innerhalb dieses Ideenperimeters (Teile der Parzellen Nr. 3434 und 445) können
+ Gestaltungsvorschläge auf Stufe Aussenraum erarbeitet werden. Hochbauten sind auf diesen beiden
+ Parzellen ausgeschlossen.
+
+
+
+                                       Zehntenstrasse
+
+
+                                1638
+
+                                                                                    4b
+
+                                                                                                                                       2a
+
+
+
+
+                                                                                                                                                           Fröschmattstrasse
+                                                                                                                                                2
+                                                                                                                             Trakt D
+       2
+
+                                  1
+
+
+       2a
+
+
+
+                                                                    Trakt AT
+                                  1a                                                                                                   4
+
+
+
+
+                                                                                                                                                                               409
+
+                                                                                                                                                                                         5a
+       4                          3
+
+                                                                                                                        4a                                                       5
+
+
+                                                                                    9a
+
+1609                            1608
+
+                                                                                                                                                                               1440
+                                                                                                                             Trakt A
+
+
+                 Adlerstrasse
+       6                          5
+                                                                                                                                                                                         7a
+                                                                                              9
+
+                                                                                                                                                     PP
+                                                                                                                                                                                7
+
+
+                                1621
+
+
+
+                                                                                                       437
+                                                                                                                                                                                 413
+       8
+
+                                                                                     Trakt B
+                                                        Trakt AU
+                                1607                                                                                           10a
+
+                                                                                                                                                                                     9
+                                                                                                                                            432
+
+                                  9
+       10                                                                                         7
+                                                                                                                                                                                 1505
+                                               5a                                                            5d
+
+   10b
+                                                          Trakt C                                                                               10
+                                                                                                      5b     7268      13a
+                                                                                                                                                                                11
+                                1606
+                                                                      5
+
+                                  3434
+
+                                                                                         7a                                                                                    429
+                                                                                                                                                                                              1
+                                                                                                                  13
+
+
+                                 G arte                                                                                                    14
+                                       nstra                PP                                                                                                                  13
+                                            sse                                5c
+
+                                                                                                                                           443            430
+            4b
+
+                                                                                                                       13b                                                     1506
+                       4a                           6                                                                                      445
+
+
+
+ Abb. 1: Darstellung Projektperimeter (rot) und Ideenperimeter (blau)
+SEITE 7 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Aufgabenstellung
+Mit dem Wettbewerb soll im Projektperimeter eine neue Gesamtanlage für 36 Schulklassen
+aufgezeigt werden. Angestrebt werden architektonisch herausragende Projektvorschläge, welche die
+betrieblichen Bedürfnisse und Anforderungen an ein zeitgemässes Schulgebäude optimal zu erfüllen
+vermögen. Eine vorbildliche Nachhaltigkeit wird dabei vorausgesetzt.
+
+Die Wettbewerbsteilnehmenden sind in Ihrer Lösungsfindung frei. Der Einbezug der grundlegend
+zu sanierenden Bestandsbauten, deren bauliche Fortschreibung mittels Anbauten oder Einbindung
+in eine neue Gebäudeorganisation sind erlaubt. Vollständige Ersatzneubauten erscheinen durch den
+Rückbau der Bestandesbauten unmittelbar betrachtet weniger nachhaltig. Gleichzeitig erlauben sie
+die Planung von konsequent flexiblen und ökologischen Strukturen und Räumen, welche optimal auf
+die Nutzerbedürfnisse zugeschnitten sind.
+SEITE 8 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+VERFAHREN
+
+
+Gestützt auf § 20 des kantonalen Gesetzes über öffentliche Beschaffungen wird ein anonymer
+Projektwettbewerb im offenen Verfahren für Planerteams durchgeführt. Die Ordnung SIA 142 für
+Architektur- und Ingenieurwettbewerbe gilt subsidiär zu den Bestimmungen über das öffentliche
+Beschaffungswesen. Die Kommission für Wettbewerbe und Studienaufträge hat das Programm
+geprüft und die Konformität mit der Ordnung für Architektur- und Ingenieurwettbewerbe SIA 142,
+Ausgabe 2009, bestätigt.
+
+Ziel des Wettbewerbsverfahrens ist die Erlangung eines den Anforderungen entsprechenden
+Projektvorschlags und damit die Bestimmung eines geeigneten Planerteams für die Erneuerung der
+Sekundarschulanlage Fröschmatt in Pratteln.
+
+Am 4. Februar 2022 werden neun Wettbewerbsbeiträge fristgerecht und vollständig eingereicht.
+SEITE 9 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+PREISGERICHT
+
+
+Fachpreisgericht, stimmberechtigt
+
+Marco Frigerio                 Kantonsarchitekt Kanton Basel-Landschaft (Vorsitz)
+Gundula Zach                   Architektin, Zach + Zünd Architekten, Zürich
+Lorenzo Giuliani               Architekt, Giuliani Hönger Architekten, Zürich
+Margrith Künzel                Landschaftsarchitektin, Künzel Landschaftsarchitekten AG, Binningen
+Tim Oldenburg                  Architekt, Hochbauamt Basel-Landschaft
+Jonas Wirth                    Architekt, Hochbauamt Basel-Landschaft (Ersatz)
+
+
+
+Sachpreisgericht, stimmberechtigt
+
+Petra Schmidt                  Stv. Generalsekretärin
+                               Bildungs-, Kultur- und Sportdirektion (BKSD)
+Konrad Saameli                 Schulleiter Sekundarschule Pratteln
+Roger Schneider                Gemeinderat Bildung, Kultur und Sport, Pratteln
+Vera Cageggi (entschuldigt)    Lehrperson Sekundarschule Pratteln (Ersatz)
+
+
+
+Experten, nicht stimmberechtigt
+
+Rolf Schönenberger             RS Schulberatung, Kreuzlingen / Talent Campus, Winterthur
+Reto Schoch                    Büro für Bauökonomie AG, Basel
+Jörg Lamster                   Durable Planung und Beratung GmbH, Zürich
+Prof. Andreas Müller           Holzbauexperten GmbH, Biel
+Reinhard Wiederkehr            Makiol Wiederkehr AG, Beinwil am See
+Julia Armbruster               Kopitsis Bauphysik AG, Wohlen
+Andreas Stenske                Swiss Safety Center AG, Pratteln
+Jean-Pierre Hueber             Projektleiter, Hochbauamt Basel-Landschaft
+
+
+
+Gäste, nicht stimmberechtigt
+
+Thomas Zaugg                   Stv. Kantonsarchitekt, Hochbauamt Basel-Landschaft
+Tanja Comelli                  Lehrperson Sekundarschule Pratteln
+
+
+
+Wettbewerbsbegleitung, nicht stimmberechtigt:
+
+Manuel Hutter                  Kontur Projektmanagement AG, Bern
+Hansruedi Jegerlehner          Kontur Projektmanagement AG, Bern
+SEITE 10 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+VORPRÜFUNG
+
+
+Vorprüfungsbericht
+Die wertungsfreie Vorprüfung umfasst die Prüfung der Einhaltung der formellen (fristgerechte
+Einreichung, Vollständigkeit, Anonymität) und der gestellten materiellen Rahmenbedingungen und
+wird von der Wettbewerbsbegleitung durchgeführt. Die beteiligten Expertinnen und Experten prüfen
+alle neun Projekte zu den Anforderungen Lärm- und Immissionsschutz, Störfall, Wirtschaftlichkeit,
+Nachhaltigkeit, Tragwerk / Holzbau, Brandschutz und Gebäudetechnik.
+
+
+Zulassung zur Beurteilung und zur Preiserteilung
+Sämtliche neun Wettbewerbsbeiträge erfüllen die formellen Rahmenbedingungen. Das Preisgericht
+beschliesst, alle Projekte zur Beurteilung zuzulassen.
+
+
+Zulassung zur Preiserteilung
+Das Expertengremium stellt bei den folgenden Projekten einzelne Verstösse in verschiedenen
+Bereichen fest
+
+01    FREITAG
+02    Friedrich
+03    AURELIA
+05    MOBYDICK
+06    PRATELLUM
+09    INFINITY
+
+Im Anschluss an einen Informationsrundgang stellt das Preisgericht fest, dass in keinem Fall ein
+grober Verstoss vorliegt und sich keiner der Projektverfassenden einen unrechtmässigen Vorteil
+erwirkt. Das Preisgericht entscheidet, alle Projekte zur Preiserteilung zuzulassen.
+SEITE 11 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+BEURTEILUNG
+
+
+Das Preisgericht trifft sich am 18. März und am 6. April 2022 zur Beurteilung und ist während
+der gesamten Jurierung beschlussfähig. Am ersten Tag sind alle Expertinnen und Experten
+anwesend. Am zweiten Tag ist der Experte Pädagogik anwesend. Thomas Zaugg, Stellvertretender
+Kantonsarchitekt und Tanja Comelli, Lehrperson Sekundarschule Pratteln, sind an beiden Tagen als
+Gäste anwesend.
+
+In mehreren Wertungsrundgängen werden die Projektbeiträge anhand der folgenden Kriterien
+diskutiert und beurteilt
+
+–   Städtebauliche, architektonische und innenräumliche Qualität
+–   Funktionalität und Flexibilität
+–   Erfüllung des Raumprogramms
+–   Nachhaltigkeit und energetische Innovation
+–   Wirtschaftlichkeit in Erstellung und Betrieb
+–   Etappierbarkeit und Rochadeplanung
+
+Die Reihenfolge stellt keine Gewichtung dar. Aufgrund der aufgeführten Kriterien nimmt das
+Preisgericht eine Gesamtwertung vor.
+
+
+
+1. JURYTAG
+
+Vorstellung Vorprüfungsbericht
+Die Feststellungen aus der Vorprüfung und der Expertenbeurteilung werden dem Preisgericht
+anlässlich des ersten Jurytages vom 18. März 2022 bekanntgegeben.
+
+
+Informationsrundgang
+Die Mitglieder des Fach- und Sachpreisgerichts studieren in Gruppen je zwei bzw. einen
+Wettbewerbsbeitrag vertieft und unter Berücksichtigung der Feststellungen aus der Vorprüfung und
+der Expertenbeurteilung. Margrith Künzel, Landschaftsarchitektin, und Rolf Schönenberger, Experte
+Pädagogik, lesen sich in alle neun Projekte bezüglich Freiraum bzw. Pädagogik ein.
+
+In einem ersten, nicht wertenden Informationsrundgang werden anschliessend die neun
+Wettbewerbsbeiträge von den jeweiligen Gruppen im Plenum vorgestellt und erläutert.
+SEITE 12 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Erster Wertungsrundgang
+Das Preisgericht beurteilt die Wettbewerbsbeiträge aufgrund der im Programm beschriebenen
+Kriterien und beschliesst, die folgenden fünf Projekte, die sowohl in städtebaulicher, als auch in
+funktionaler Hinsicht nicht überzeugen können, im ersten Wertungsrundgang auszuscheiden
+
+02    Friedrich
+05    MOBYDICK
+07    DREIKLANG
+08    Erinnerungen
+09    INFINITY
+
+
+Zweiter Wertungsrundgang
+Nach Abschluss eines zweiten Wertungsrundgangs verbleiben folgende vier Projekte in der engeren
+Wahl
+
+01    FREITAG
+03    AURELIA
+04    LUNGO
+06    PRATELLUM
+
+Das Preisgericht beschliesst, als Vorbereitung auf den zweiten Jurytag die provisorischen
+Projektwürdigungen zu sämtlichen neun Projekten zu erstellen.
+
+
+
+2. JURYTAG
+
+Kontrollrundgang
+Zu Beginn des zweiten Jurytages werden die Projektwürdigungen zu den im ersten
+Wertungsrundgang ausgeschiedenen Wettbewerbsbeiträgen von den Preisrichterinnen und
+Preisrichtern vorgelesen. Nach einem Kontrollrundgang bestätigt das Preisgericht die Ergebnisse des
+ersten und zweiten Wertungsrundgangs und die vier Projekte der engeren Wahl.
+
+
+Schlussdiskussion, Wettbewerbsentscheid
+Nach dem Verlesen der von den Preisrichterinnen und Preisrichtern verfassten Projektwürdigungen
+zu den Projekten Nr. 1, 3, 4 und 6 diskutiert das Preisgericht vertieft die in der engeren Wahl
+verbliebenen Projekte und kommt einstimmig zum Schluss, das Projekt LUNGO in den ersten Rang
+zu setzen und zur Weiterbearbeitung zu empfehlen.
+
+
+Kontrollrundgang
+Im abschliessenden Kontrollrundgang werden sämtliche neun Wettbewerbsbeiträge nochmals
+begutachtet. Das Preisgericht bestätigt alle bisherigen Entscheide.
+SEITE 13 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+RANGIERUNG UND PREISZUTEILUNG
+
+
+Für Preise und Ankäufe steht dem Preisgericht eine Gesamtpreissume von CHF 225‘000.– (exkl.
+MWST) zur Verfügung. Aufgrund der begrenzten Anzahl Teilnehmender, der umfangreichen
+Aufgabenstellung und der hohen Bearbeitungstiefe, entscheidet das Preisgericht allen neun
+Projektverfassenden eine fixe Entschädigung von je CHF 10‘000.– (exkl. MWST) auszuzahlen. Für
+die Verteilung von Preisen verbleiben CHF 135‘000.– (exkl. MWST). Das Preisgericht legt folgende
+Rangierung und Preisverteilung fest
+
+
+1. Rang      1. Preis     04     LUNGO                      CHF 55'000.–
+2. Rang      2. Preis     06     PRATELLUM                  CHF 35'000.–
+3. Rang      3. Preis     01     FREITAG                    CHF 30'000.–
+4. Rang      4. Preis     03     AURELIA                    CHF 15'000.–
+SEITE 14 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+EMPFEHLUNG
+
+
+Das Preisgericht empfiehlt das Projekt LUNGO im ersten Rang zur Weiterbearbeitung.
+
+Im Hinblick auf die Weiterbearbeitung des Siegerprojekts LUNGO formuliert das Preisgericht
+folgende Empfehlungen
+
+– Die geplanten Doppelturnhallen sind in ihrer Konzeption, u.a. betreffend der Aufteilung mit der
+  dazwischenliegenden Erschliessung und der Zugänge, der Abstände zum Schulgebäude und zur
+  Baumreihe entlang der Fröschmattstrasse zu überprüfen.
+– Die geplante unterirdische Veloeinstellhalle erscheint betrieblich, wirtschaftlich und unter
+  dem Aspekt der Nachhaltigkeit problematisch. Eine mehrheitlich oberirdische Anordnung der
+  erforderlichen Veloabstellplätze ist zu prüfen.
+– Die vorgeschlagenen Bepflanzungen sind essentiell für die zukünftige Qualität der Aussenräume.
+  Die für die Funktionsfähigkeit erforderlichen, minimalen Erdüberdeckungen sind nachzuweisen.
+– Der hohe Glasanteil der Fassaden ist zu hinterfragen.
+SEITE 15 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+GENEHMIGUNG
+
+
+Pratteln, den 6. April 2022, das Preisgericht:
+
+
+
+
+Fachpreisgericht        Marco Frigerio (Vorsitz)
+
+
+
+
+                        Gundula Zach
+
+
+
+
+                        Lorenzo Giuliani
+
+
+
+
+                        Margrith Künzel
+
+
+
+
+                        Tim Oldenburg
+
+
+
+
+                        Jonas Wirth (Ersatz)
+
+
+
+
+Sachpreisgericht        Petra Schmidt
+
+
+
+
+                        Konrad Saameli
+
+
+
+
+                        Roger Schneider
+SEITE 16 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+PROJEKTVERFASSENDE
+
+
+1. Rang / 1. Preis            04   LUNGO                       Weiterbearbeitung
+Architektur                   Burckhardt+Partner AG, Basel
+                              Verantwortlich: Christoph Jantos
+                              Mitarbeit: Ana Alirangues, Ellen Meyer, Julio Muñoz Gutiérrez
+Landschaftsarchitektur        Atelier Loidl, Berlin (D)
+                              Verantwortlich: Martin Schmitz, André Feldmann
+Bauingenieurwesen             wh-p Ingenieure AG, Basel
+                              Verantwortlich: Lars Keim, Jan Evers
+Energie / Haustechnik         Waldhauser + Hermann AG, Münchenstein
+                              Verantwortlich: Roman Hermann
+Bauphysik / Nachhaltigkeit    Gartenmann Engineering AG, Basel
+                              Verantwortlich: Christian Dietrich, Lisa Haller
+
+
+2. Rang / 2. Preis            06   PRATELLUM
+Architektur                   Stadler Zlokapa GmbH, Basel
+                              Verantwortlich: Magdalena Stadler
+                              Mitarbeit: Srdjan Zlokapa
+Landschaftsarchitektur        Berchtold.Lenzin Basel GmbH, Basel
+                              Verantwortlich: Christian Lenzin, Luis Neumeier
+Bauingenieurwesen             Schnetzer Puskas Ingenieure, Basel
+                              Verantwortlich: Kevin M. Rahner
+
+
+3. Rang / 3. Preis            01   FREITAG
+Architektur                   Demian Peper, Zürich
+                              Verantwortlich: Demian Peper
+Landschaftsarchitektur        Andreas Geser Landschaftsarchitekten, Zürich
+                              Verantwortlich: Andreas Geser
+Bauingenieurwesen             B3 Kolb AG, 8400 Winterthur
+                              Verantwortlich: Ivan Brühwiler
+HLK                           G & T Ingenieure GmbH, Winterthur
+                              Verantwortlich: Dominic Nikles
+
+
+4. Rang / 4. Preis            03   AURELIA
+Architektur                   Degelo Architekten, Basel
+                              Verantwortlich: Heinrich Degelo
+                              Mitarbeit: Florian Walter, Jelena-Kristina Vincetic, Elli Moustaka
+Landschaftsarchitektur        Bischoff Landschaftsarchitektur GmbH, Baden
+                              Verantwortlich: Florian Bischoff, Salome Gohl
+Bauingenieurwesen             wh-p Ingenieure AG, Basel
+                              Verantwortlich: Martin Stumpf
+SEITE 17 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                              02   Friedrich
+Architektur                   Farhad Johann Architekten SIA GmbH, Basel
+                              Verantwortlich: Zahin Farhad
+                              Mitarbeit: Nicole Johann
+Landschaftsarchitektur        Anah - Büro für Architektur / MAS Landscape Architecture ETH, Wien (AT)
+                              Verantwortlich: Wolfgang Novak
+Bauingenieurwesen             Holztage GmbH, Basel
+                              Verantwortlich: Burkhard Schnabel
+
+
+                              05   MOBYDICK
+Architektur                   Kollektiv Seiler architects I Rujbr Architekten, Zürich
+                              Verantwortlich: Thomas Rujbr
+                              Mitarbeit: Samuel Seiler
+Landschaftsarchitektur        Vera Pilloni Landschaftsarchitektin, Zürich
+                              Verantwortlich: Vera Pilloni
+Bauingenieurwesen             Weber Ingenieurbau GmbH, Eschenbach
+                              Verantwortlich: Christian Weber
+Holzbauingenieur              Timbatec, Delémont
+                              Verantwortlich: Florian Fritsche
+Nachhaltigkeit                Zirkular GmbH, Basel
+                              Verantwortlich: Dr. Andreas Oefner
+
+
+                              07   DREIKLANG
+Architektur                   Vischer Architekten AG, Basel
+                              Verantwortlich: Daniel Stark
+                              Mitarbeit: Adam Wiedera, Paul Schreijäg, José Marin, Tomasz Marzec
+Landschaftsarchitektur        Riggenbach GmbH, Oberwangen b. Bern
+                              Verantwortlich: Stefano Riggenbach
+Bauingenieurwesen             Eitel & Partner GmbH, Basel
+                              Verantwortlich: Mark Eitel
+                              und
+                              Büro für Bau + Holz GmbH, Basel
+                              Verantwortlich: Ralf Müller
+Bauphysik, Akustik, SNBS      Gruner AG, Basel
+                              Verantwortlich: Martin Beyeler
+HLKK, SNBS                    Beat Joss & Partner, Basel
+                              Verantwortlich: Beat Joss
+PV-Anlage                     Energie Zukunft Schweiz AG, Zürich
+                              Verantwortlich: Lukas von Känel, Tanja Schöni
+Modulare Provisorienplanung Recon Europe GmbH, Ebbs (AT)
+                            Verantwortlich: René Wurzer
+Brandschutz                   A+F Brandschutz GmbH, Pratteln
+                              Verantwortlich: Marc Weisskopf, Christian Dünki
+SEITE 18 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                              08   Erinnerungen
+Architektur                   matti ragaz hitz architekten ag, Liebefeld-Bern
+                              Verantwortlich: Orfeo Otis
+                              Mitarbeit: Anna Lea Stalder, Ion Kohler, Manuel Covantes,
+                              Stefan Roos, Michael Herzog
+Landschaftsarchitektur        Klötzli Friedli Landschaftsarchitekten AG, Bern
+                              Verantwortlich: Beatrice Friedli, Marco Lehmann, Tamara Hostettler
+Bauingenieurwesen             Indermühle Bauingenieure htl / sia, Thun
+                              Verantwortlich: Daniel Indermühle
+Energie und Haustechnik       EPRO Engineering, Gümligen
+                              Verantwortlich: Thomas Müller
+Brandschutz                   Wälchli Architekten Partner AG, Bern
+                              Verantwortlich: Andreas Wenger
+
+
+                              09   INFINITY
+Architektur                   FFAD Architekten AG, Bern
+                              Verantwortlich: Frank Furrer
+                              Mitarbeit: Afroditi Daskalopoulou, Christoph Holzinger, Joel Furrer,
+                              Andreas Furrer
+Landschaftsarchitektur        David Bosshard Landschaftsarchitekten AG, Bern
+                              Verantwortlich: David Bosshard
+Bauingenieurwesen             Schnetzer Puskas Ingenieure, Bern
+                              Verantwortlich: Jan Stebler
+SEITE 19 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+RANGIERTE PROJEKTE
+
+
+04    LUNGO
+06    PRATELLUM
+01    FREITAG
+03    AURELIA
+SEITE 20 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+LUNGO
+
+
+1. RANG / 1. PREIS            CHF 55‘000.–                   WEITERBEARBEITUNG
+
+
+
+Architektur                   Burckhardt+Partner AG, Basel
+
+Landschaftsarchitektur        Atelier Loidl, Berlin (D)
+
+Bauingenieurwesen             wh-p Ingenieure AG, Basel
+
+Fachingenieure                Waldhauser + Hermann AG, Münchenstein
+                              Gartenmann Engineering AG, Basel
+
+
+
+
+Modellansicht von Südosten
+SEITE 21 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Die Volumetrie und Positionierung des nord-süd ausgerichteten langgestreckten Schulhausneubaus
+leiten die Verfassenden des Beitrags LUNGO nachvollziehbar aus den umgebenden städtebaulichen
+Merkmalen ab. Sie referenzieren auf die Bebauungstypologie von Zeilenbauten in einem erweiterten
+Betrachtungsperimeter entlang der Bahngleise. In Analogie zum nördlich gelegenen Industrieareal
+soll das neue Schulhaus als Denk-, Lern- und Lehrfabrik verstanden werden. Kleinere Pavillonbauten
+und die beiden überwiegend eingegrabenen Doppelturnhallen sollen als «Holzpavillonstrukturen»
+zwischen dem Grossvolumen und den angrenzenden Ein- und Zweifamilienhäusern vermitteln.
+
+Das Areal wird im Norden von der Zehntenstrasse und im Süden von der Gartenstrasse erschlossen.
+Die stirnseitig angeordneten Eingangsbereiche unter den auskragenden Aussengeschossflächen
+des Schulgebäudes decken diverse Funktionen ab. Sie dienen der innen- und aussenliegenden
+Erschliessung, sie bieten gedeckte Pausenplätze, sie sind Orte der Begegnung und verleihen
+dem Gebäude ein Gesicht zum Quartier. Die in diesen Bereichen vorgesehenen Velorampen ins
+Untergeschoss wirken etwas überdimensioniert. Die Alltagstauglichkeit der Velo-Einstellhalle
+ist zu diskutieren. Es sollten mehr Velostellplätze in der Umgebung vorgesehen werden.
+Zwei Nebenzugänge von der Fröschmattstrasse her stärken die Idee eines «Boulevards» auf
+Erdgeschossebene.
+
+Der Aussenraum umfliesst das zentrale Schulgebäude. Grünflächen bilden parkartige, überschaubare
+Räume und Nischen mit Sitzmöglichkeiten. Es werden vielfältige Sport- und Aufenthaltsbereiche
+angeboten. Das Rasenfeld, die Spielfläche und der Allwetterplatz auf dem Dach der Turnhallen
+befinden sich in unmittelbarer räumlicher und visueller Nähe zum Schulgebäude. Die Bepflanzung
+zwischen Schulgebäude und Turnhallen ist wesentlich für die Aufenthaltsqualität. Ihre
+Funktionsfähigkeit muss aufgrund der Unterkellerung überprüft werden. Durch die Reduzierung der
+Baumreihen entlang der Parzellengrenze wirken die Zugangsbereiche im Süden und Osten wenig
+einladend. Die anderen Randbereiche werden hingegen mit Gehölzpflanzungen und Kräutersäumen
+reichhaltig bestückt.
+
+Das Schulhaus zeichnet sich durch seine klare modulare Struktur aus. Die Holzhybridbauweise
+mit drei u-förmigen, massiven Kernen und teilweise vorgefertigten Elementen eröffnet ein hohes
+Mass an Flexibilität. Essentiell im Entwurfskonzept sind die von den Projektverfassenden zusätzlich
+angebotenen Aussengeschossflächen aus Fluchtbalkonen in Längsrichtung und nutzbaren Balkonen
+an den Stirnseiten an. Diese stellen für den Schulbetrieb einen wesentlichen Mehrwert dar,
+reduzieren aber, wie die Unterterrainvolumen, die Wirtschaftlichkeit des Projekts und erschweren die
+Tageslichtversorgung. Nachvollziehbar ist die Motivation, mit dieser Schichtung die Mächtigkeit des
+Gebäudevolumens zu brechen.
+
+Die teilweise im Erdreich versenkten Turnhallen führen zu einem erhöhten Bedarf an Grauer
+Energie. Die minimierte Versiegelung und die Baumpflanzungen (Minderung Hitzeeffekte) und
+die Nutzung des Daches über den Turnhallen wirken sich hingegen positiv auf die Erreichung der
+Nachhaltigkeitsziele aus.
+
+Mit Ausnahme vom Sport werden alle Nutzungen im Neubau untergebracht und vertikal strukturiert.
+Öffentliche Nutzungen sind im Erdgeschoss vorgesehen, was eine sinnvolle ausserschulische
+Nutzung ermöglicht. Die Schulräume werden über drei Treppenhäuser erschlossen. So sind Zugänge
+zu je zwei Lernlandschaften auf den beiden ersten Obergeschossen und den Spezialräumen im 3.
+SEITE 22 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+und 4. Obergeschoss vorgesehen. Die Wege der Lerngruppen sind klar definiert.
+Das Modell mit Lernlandschaften kann pädagogisch gut umgesetzt werden. Die Lernateliers können
+autonom organisiert werden. Die Zugänge zu den WC-Anlagen, Garderoben, zum Kopierraum und zu
+den Inputräumen sind integrierter Bestandteil der Ateliers. Nischen, Gesprächskojen und persönliche
+Arbeitsplätze lassen sich gut organisieren. Durch die klare Struktur bieten die Lernlandschaften den
+Jugendlichen Geborgenheit und fördern so die Identität mit der Lerngruppe.
+
+Die Lernlandschaften an den Gebäudeenden verfügen je über einen gedeckten Aussenraum,
+der zum Lernen genutzt werden kann. Leider fehlt den in der Mitte liegenden Lernlandschaften
+diese Möglichkeit. Durch eine Umverteilung der Nutzungseinheiten könnten auch im 3. bzw. 4.
+Obergeschoss Lernlandschaften mit Aussenraum organisiert werden, was einer «Benachteiligung»
+der innenliegenden Lernateliers entgegenwirken würde.
+
+Die Verfassenden legen mit dem Projekt LUNGO einen überzeugenden Wettbewerbsbeitrag in einer
+bemerkenswerten Bearbeitungstiefe vor. Die räumliche und funktionale Disposition ist auf allen
+Ebenen durchdacht und nachvollziehbar. Das Tragwerkskonzept ist schlüssig und bietet eine hohe
+Flexibilität. Der Massstabssprung zur eher feinkörnigen Umgebung erscheint in seiner Ausarbeitung
+und im Kontext zukünftiger Areal-Entwicklungen möglich und angemessen. Die Aufteilung der
+Sporthallen auf zwei Volumen ist nicht optimal und insbesondere vor dem Hintergrund der
+ausserschulischen Nutzung durch Vereine zu hinterfragen.
+
+
+
+
+LUNGO
+SEITE 23 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Situationsplan
+SEITE 24 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Erdgeschoss mit Umgebung
+
+
+
+
+LUNGO
+SEITE 25 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                                                                      Turnhallen 1. Untergeschoss
+
+
+
+
+Schnitt durch Schulgebäude und Turnhallen
+SEITE 26 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Ansicht Süd
+
+
+
+
+1./2. Obergeschoss
+
+
+
+
+LUNGO
+ SEITE 27 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+4. Obergeschoss / Dachgeschoss                 Fassadenschnitt und -ansicht
+SEITE 28 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+PRATELLUM
+
+
+2. RANG / 2. PREIS            CHF 35‘000.–
+
+
+
+Architektur                   Stadler Zlokapa GmbH, Basel
+
+Landschaftsarchitektur        Berchtold.Lenzin Basel GmbH, Basel
+
+Bauingenieurwesen             Schnetzer Puskas Ingenieure, Basel
+
+
+
+
+Modellansicht von Südosten
+SEITE 29 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Aufgrund der übergeordneten Betrachtung des Stadtraums soll die Fröschmatt als wichtiger,
+öffentlicher Freiraum zugänglich gemacht werden und dem Quartier als Erholungsraum dienen.
+Daher schlagen die Verfassenden des Beitrags PRATELLUM vor, zwei Bestandsbauten (Trakte
+B und C) mit zwei Neubauten zu ergänzen und um den Freiraum zu gruppieren. Während der
+dreigeschossige Neubau mit Unterrichtsräumen diesen Freiraum im Osten fasst, wird der Neubau
+der Dreifachturnhalle im Norden des Areals im Erdreich vergraben und tritt nur durch das Dach als
+Allwetterplatz und die offene Pausenhalle in Erscheinung. Als Besonderheit grenzt der Turnhallen-
+Neubau an die geplante, neue Gleis-Unterführung an. Das Ensemble der Bestands- und Neubauten
+kann ortsbaulich auf den ersten Blick überzeugen, indem ein grosszügiger Freiraum, eine attraktive
+Durchwegung des Schulareals und gute Übergänge ins Quartier geschaffen werden. Hingegen
+schafft das vollständige Versenken der Turnhallen einen beachtlichen Anteil an unterirdischer
+Baumasse und erscheint aus wirtschaftlicher sowie betrieblicher Sicht problematisch. Weiter ist es
+ungünstig, dass der Neubau der Unterrichtsräume in zwei Etappen erfolgen soll.
+
+Das Hauptelement der Aussenraumgestaltung ist in Anlehnung an den historischen Kontext die neue
+Fröschmatt im Zentrum des Areals. Die zwei Bestandsbauten im Süden – Werkhaus und Spezialtrakt
+– und der Schulhausneubau bilden zusammen mit der Pausenhalle am nördlichen Parzellenrand ein
+Raumgefüge und verleihen dem Schulgelände einen angemessenen Rahmen. Das Areal ist durch
+den mittigen Hauptweg in Nord-Süd Ausrichtung mit einem Nebenzugang von der Fröschmattstrasse
+her übersichtlich erschlossen. Verschiedene Orte, wie der zentrale Platz mit dem Fröschmattbrunnen,
+der Baumhain mit Sitzgelegenheiten vor dem Schulhaus, das Rasenfeld, der Vorplatz im Süden, die
+Baumreihe mit Sitzgelegenheiten beim Eingang ins Werkhaus sowie die Pausenhalle bieten viel
+Aufenthaltsqualität. Der Standort des Biotops und des Naturlabors hinter dem Turnhalleneingang
+vermag jedoch nicht zu überzeugen. Ungedeckte Velostellplätze sind gut verteilt bei den
+Arealeingängen angeordnet. Die bestehenden, geschützten Baumreihen werden respektiert. Ob die
+Bäume entlang der Zehntenstrasse bei der Erstellung der unterirdischen Turnhallen erhalten werden
+können, ist fraglich.
+
+Das neue Schulhaus wird als Dreibünder sinnvoll organisiert und liefert eine glaubwürdige
+Antwort für die Ausbildung der Cluster mit Lernlandschaften. Im Erdgeschoss erreicht man über
+ein grosszügiges Foyer die an den Gebäudestirnen liegende Aula und die Mediathek sowie im
+östlichen Bund den Mittagstisch und die Schulleitung. Über drei Erschliessungskerne gelangt man
+zu den Unterrichtsräumen in den zwei Obergeschossen. Diese bestehen jeweils aus Lernateliers
+im Westen, Input-Räumen im Osten und mittigen Begegnungsräumen, welche über angemessen
+dimensionierte Aussenhöfe belichtet werden und attraktive Raumbeziehungen innerhalb der Cluster
+schaffen.
+
+Dem Thema der Lernlandschaft wird ein besonderer Stellenwert eingeräumt. Die Lernateliers
+sind alle gleich aufgebaut und bieten dank der räumlichen Offenheit die Möglichkeit, diese in
+verschiedene Bereiche zu gliedern. Sowohl das herkömmliche als auch das Modell mit den
+Lernlandschaften lässt sich pädagogisch gut umsetzen. WC-Anlagen, Garderoben-, Input- und
+Kopierräume sind integrierender Bestandteil der Lernateliers. Die Ateliers sind um die jeweiligen
+Treppenhäuser organisiert und identisch ausgerichtet, so dass keine Benachteiligungen ersichtlich
+sind. Insgesamt wirken die Lernateliers nicht als selbstständige Lernorte, sondern bilden dank
+der Sichtverbindungen über die Innenhöfe eine Einheit. Alle anderen Spezialräume sind in den
+zu erhaltenden Gebäuden (Trakte B und C) untergebracht. Während diese Raumanordnungen
+SEITE 30 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+grosszügig, flexibel und attraktiv sind, kann die Anordnung der Turnhallen weniger überzeugen.
+Das fehlende Tageslicht, die umständlichen Erschliessungen und der wenig attraktive Anschluss an
+die Gleisunterführung bilden Nachteile, welche durch den ortsbaulichen Vorteil nicht aufgewogen
+werden.
+
+Für die architektonische Erscheinung des Neubaus werden die Gliederungsprinzipien der
+Bestandsbauten übernommen und auf die Holzkonstruktion übertragen. Die primäre Gliederung
+wird als Abbild des inneren Tragwerks mit Füllungen der Fenster und Brüstungen sinnvoll ergänzt.
+Zusätzlich werden den beiden Längsfassaden Stahlkonstruktionen mit schmalen Balkonen für
+Unterhalt und Sonnenschutz der Fassaden vorgelagert. Diese Zusatzkonstruktionen erscheinen
+aufwändig und rechtfertigen den Mehraufwand nicht.
+
+Die Weiternutzung und Erneuerung von Bestandsbauten wirken sich durch die Einsparung grauer
+Energie positiv auf die Nachhaltigkeit aus. Der durch die unterirdische Anordnung der Turnhallen
+verursachte hohe Anteil unterirdischer Baumasse führt aber dazu, dass die Zusatzanforderungen an
+den Effizienzpfad SIA 2040 nicht eingehalten werden können. Der Erhalt der Bestandsbauten und der
+durchschnittliche Flächenbedarf wirken kostendämpfend. Diesen Einsparungen stehen wegen den
+zwei Untergeschossen und den vorgesetzten Stahlkonstruktionen höhere Zusatzkosten gegenüber.
+Die Verfassenden weisen zudem keine Flächen für Schulraumprovisorien aus und schlagen vor, einen
+Teil des Schulbetriebs in das benachbarte Kultur- und Sportzentrum auszulagern.
+
+Das Projekt PRATELLUM stellt insgesamt einen sehr anregenden Beitrag dar. Sowohl der
+ortsbauliche Ansatz mit der Auszeichnung der Fröschmatt als wichtigem öffentlichen Raum als auch
+der Erhalt der Bestandsbauten und die Organisation der verschiedenen Unterrichtsräume im Neubau
+können überzeugen. Als problematisch werden hingegen die im Erdreich vergrabenen Turnhallen
+eingestuft.
+
+
+
+
+PRATELLUM
+SEITE 31 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Situationsplan
+SEITE 32 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Erdgeschoss mit Umgebung
+
+
+
+
+PRATELLUM
+     SEITE 33 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                                         1. Untergeschoss
+
+
+
+
+1.+2. Obergeschoss                       2. Untergeschoss
+
+
+
+
+                                                                           Schnitt 2
+
+
+
+
+                                                                           Schnitt 3
+SEITE 34 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Trakt B - 1. / 2. / 3. Obergeschoss
+
+
+
+
+Trakt C - 1. Obergeschoss
+
+
+
+
+Schnitt 1
+
+
+
+
+PRATELLUM
+SEITE 35 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Konstruktionsschnitt mit Ansicht und Grundrissdetail
+SEITE 36 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+FREITAG
+
+
+3. RANG / 3. PREIS            CHF 30‘000.–
+
+
+
+Architektur                   Demian Peper, Zürich
+
+Landschaftsarchitektur        Andreas Geser Landschaftsarchitekten, Zürich
+
+Bauingenieurwesen             B3 Kolb AG, Winterthur
+
+Fachingenieur                 G & T Ingenieure GmbH, Winterthur
+
+
+
+
+Modellansicht von Südosten
+SEITE 37 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Mit dem Projekt FREITAG schlagen die Verfassenden eine Komposition aus drei Gebäudekörpern
+vor, welche gut proportionierte und den Gebäuden sinnvoll zugeordnete Aussenräume bilden.
+Gleichzeitig wird das Areal so mit der Umgebung vernetzt und auf angemessene Weise ins Quartier
+eingebunden.
+
+Das Hauptgebäude wird als viergeschossiger Längsbau mit überhöhtem Erdgeschoss an der
+zentralen Achse angeordnet. Dem Eingang zum Hauptgebäude gegenüber wird ein Bau gesetzt,
+der im Untergeschoss die zweigeschossige Aula und im Erdgeschoss den Mittagstisch aufnimmt.
+Mit diesem «laternenartigen» Pavillon wollen die Projektverfassenden das öffentliche Schulareal
+und gleichzeitig den Haupteingang markieren. Als weiteres markantes Volumen bildet das
+dreigeschossige Nebengebäude, welches Sport- und Spezialräume beinhaltet, den Arealabschluss
+gegen Nordosten. Die Frage nach dem Sinn des Pavillonbaus als Ersatzneubau stellt sich aus
+Gründen der Nachhaltigkeit, aber auch ganz grundsätzlich, da der Neubau auf dem Footprint des
+bestehenden Traktes B zu stehen kommt, welcher eine an sich bereits funktionierende Aula enthält.
+
+Die Anordnung der drei Neubauten – Längsbau, Pavillon und Nebengebäude – entlang der Nord-
+Süd-Achse spannt den Raum im Areal grosszügig auf und ermöglicht ein strukturiertes Platzgefüge.
+Die Zugänge in das Areal und die unterschiedlichen Nutzungen sind klar lesbar. Im Zentrum wird
+ein grosszügiger Pausenplatz mit Pausenhalle gebildet. Die geschützten Baumreihen entlang
+der Parzellengrenzen werden respektiert, ergänzende Baumpflanzungen im Areal gliedern den
+Aussenraum sinnvoll. Bei den beiden bestehenden Zugängen von der Garten- und von der
+Fröschmattstrasse her werden ungedeckte Velostellplätze angeboten, beim neuen Zugang von
+der Zehntenstrasse werden diese vermisst. Aussagen zur Nutzung und Qualität der grosszügigen
+Pausenräume fehlen, mögliche Spielräume und Nischen werden vermisst. Der vertiefte Hofgarten
+entlang der westlichen Fassade des Längsbaus lässt Tageslicht in die Werkräume im Untergeschoss.
+Dessen Funktion als Werkhof ist nachvollziehbar. Das Rasenfeld und der Allwetterplatz werden im
+Norden am Standort der ehemaligen Sportanlagen und anschliessend an den Längsbau angeordnet.
+Im Gesamten ist das Verhältnis von Belags- und chaussierten Flächen zu Grünflächen im Sinne der
+Biodiversität und der Aufenthaltsqualität zu hinterfragen.
+
+Alle Gebäude sind von der Nord-Süd-Achse her erschlossen. Der Zutritt zum Hauptgebäude erfolgt
+über eine Eingangshalle, von der die Haupttreppe und zwei Nebentreppen in die drei Obergeschosse
+mit den Lernateliers führen. Über eine weitere breite Treppe wird unter der Magistrale hindurch
+die Aula im Untergeschoss erschlossen. Im Untergeschoss des Hauptgebäudes sind zudem die
+Werkräume ideal an einen Hofgarten angeordnet und verfügen so über Aussenarbeitsplätze. In
+den Obergeschossen führt die Haupttreppe in eine Vorzone, welche je vier Lernateliers mit den
+zugehörigen Inputräumen erschliesst und gleichzeitig als Aufenthalt für Schülerinnen und Schüler
+dient. Die erwähnte Erschliessung zur Aula im Untergeschoss, unter der Hauptachse hindurch,
+erscheint fragwürdig und führt dazu, dass die Aula trotz der an sich idealen Positionierung über
+kein angemessenes Foyer verfügt. Die Kombination von Mittagstisch und überdachter Pausenhalle
+erscheint ideal, wobei der Zugang von Osten her jedoch unverständlich ist.
+
+Die Zugänge zum Nebengebäude erfolgen von Süden über den Pausenplatz und von Norden über
+den Vorplatz an der Zehntenstrasse in eine Eingangshalle, welche auch als Tribüne mit Blick in die
+Dreifachturnhalle im Untergeschoss ausgelegt ist. Im Nebengebäude werden die Spezialräume
+und Sportnutzungen kombiniert, was gut vorstellbar ist, betrieblich aber einen erhöhten Aufwand
+SEITE 38 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+bedeutet. Die Anordnung der Einzelturnhalle über den Musikräumen ist konstruktiv anspruchsvoll. Im
+2. Obergeschoss liegen die Räume für Naturwissenschaft und Technik und Hauswirtschaft, welche
+aufgrund der grossen Raumtiefen über Oblichter belichtet werden.
+
+Sowohl die herkömmliche Schulorganisation als auch die Lernlandschaften sind im Projekt ersichtlich
+und pädagogisch sinnvoll umgesetzt. Die Verfassenden bieten zur Umsetzung der Lernlandschaften
+verschiedene Varianten an. Für den schulischen Ablauf sind die von allen Seiten erreichbaren
+Inputräume (Darstellung 2. und 3. Obergeschoss) der im 1. Obergeschoss dargestellten Variante
+vorzuziehen. Die Lernlandschaften sind über ein Haupt- und zwei Nebentreppenhäuser gut
+erschlossen und die WC-Anlagen und Nebenräume sind in unmittelbarer Nähe der Arbeitsplätze
+der Lehrpersonen und Jugendlichen angeordnet. Mit einer Fläche von bis zu 260 m2 bieten die
+Lernateliers zudem genügend Raum, um auch Garderoben und Spinde in die Lernateliers zu
+integrieren.
+
+Ausdruck und Materialität sind stark vom Baustoff Holz geprägt, der überzeugend eingesetzt wird.
+Die in Holz konstruierte Fassade erhält eine weiss lasierte Vertikalschalung. Der Witterungsschutz
+erfolgt durch auskragende Elemente, wobei die Fassadendurchdringung der Träger zu hinterfragen
+ist. Der Sonnenschutz wird mit aussenliegenden Textilstoren gelöst. Die Fassaden von Haupt-
+und Nebengebäuden sind weitgehend gleich aufgebaut. Auch wenn sie sich in der Einteilung
+unterscheiden, bleibt ihr Ausdruck eher schematisch.
+
+Der Projektvorschlag erfüllt die Anforderungen an die Nachhaltigkeit mit Einschränkungen. Der
+erhöhte Ressourcenverbrauch hat zur Folge, dass die Zusatzanforderungen an den Effizienzpfad
+SIA 2040 nicht eingehalten werden können (Graue Energie). Zudem wird aufgrund der hohen
+Gebäudetiefe die Tageslichtversorgung im Unterrichtsgebäude kritisch eingeschätzt. Der
+angemessene unterirdische Volumenanteil und die hohe Flächeneffizienz wirken sich hingegen
+positiv aus.
+
+Das Projekt überzeugt durch eine schöne Aufreihung der Bauten an der Nord-Süd-Achse und eine
+angemessene Körnung, bleibt aber in seinem Ausdruck noch zu schematisch. Die städtebauliche
+Vernetzung im Quartier ist gut gelungen und auch die Nutzungsqualitäten lassen eine vielfältige
+Schullandschaft erwarten. Das Aulagebäude ist in der vorgeschlagenen Form hingegen nicht
+verständlich. Wirtschaftlichkeit und Nachhaltigkeit müssten zudem noch optimiert werden.
+
+
+
+
+FREITAG
+SEITE 39 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Situationsplan
+SEITE 40 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Erdgeschoss mit Umgebung
+
+
+
+
+FREITAG
+    SEITE 41 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                                                                          2./3. Obergeschoss (Variante Lernatelier)
+
+
+
+
+Untergeschoss
+
+
+
+
+                                                                            1. Obergeschoss (Variante Lernatelier)
+
+
+Ansicht Ost
+
+
+
+
+Querschnitt A-A                                                                                       Längsschnitt
+SEITE 42 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                                                                      2. Obergeschoss
+Untergeschoss
+
+
+
+
+Ansicht Ost
+
+
+
+
+                                                                      1. Obergeschoss
+
+
+
+
+Querschnitte B-B / Ansicht Nord                                       Längsschnitt
+
+
+
+
+FREITAG
+SEITE 43 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                                                                      Konstruktion
+SEITE 44 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+AURELIA
+
+
+4. RANG / 4. PREIS            CHF 15‘000.–
+
+
+
+Architektur                   Degelo Architekten, Basel
+
+Landschaftsarchitektur        Bischoff Landschaftsarchitektur GmbH, Baden
+
+Bauingenieurwesen             wh-p Ingenieure AG, Basel
+
+
+
+
+Modellansicht von Südosten
+SEITE 45 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Beim Projektvorschlag AURELIA ergänzen zwei Neubauten massstäblich die umgenutzten
+Bestandsbauten B und C aus den 1970er-Jahren zu einer überschaubaren, campusartigen
+Schulhausanlage. Die zwei- bis viergeschossigen Bauten fügen sich sensibel und selbstverständlich
+in die Nachbarschaft ein. Bestands- und Neubauten bilden im Zusammenspiel gut proportionierte,
+nutzbare Aussenräume. Die einheitliche, äusserst zurückhaltende Fassadenausbildung fasst alle vier
+Bauten zu einer neuen Einheit zusammen.
+
+Die Lesart des Campus als Gruppe autonomer Gebäude mit eigenen Erschliessungen wird durch die
+zentrale, verbindende und als Innenraum konzipierte Eingangshalle verunklärt. Sie unterbricht das
+Kontinuum des Aussenraums und erschwert den öffentlichen Zugang zu den auch ausserschulisch
+genutzten Funktionen wie Sporthallen und Aula.
+
+Die Setzung der Gebäude ermöglicht mehrere Pausenhöfe mit unterschiedlichen
+Aufenthaltsmöglichkeiten, wie der südliche Zugangsplatz mit Mehlbeeren, der östliche Zugangsplatz
+mit Brunnen und Eiche sowie der Blasen-Baumhain im Norden. Die geschützte Baumreihe entlang
+der Zehntenstrasse wird ergänzt, entlang der Fröschmattstrasse wird die geschützte Ahornreihe auf
+Grund des Zustands erneuert. Ergänzende Baumpflanzungen im Areal werden thematisch
+differenziert und die vorgesehenen Strauch- sowie Staudenpflanzungen unterstützen die Gliederung
+der Räume. Bei den jeweiligen Eingangsbereichen werden dezentral angeordnete, gedeckte
+Velostellplätze angeboten. Ein Zugang von der Zehntenstrasse her wird vermisst.
+
+Das Konzept nutzt strategisch geschickt die Neubauten für die neuen Nutzungen wie offene
+Lernateliers und Doppelturnhallen und die Flexibilität der Bestandsbauten für die übrigen
+Fachunterrichtsräume. Die in Trakt B vorgeschlagene Schulleitung sollte funktional näher bei den
+Lernateliers liegen.
+
+Im Schulneubau werden die Lernlandschaften bzw. die Unterrichtsräume über einen zentralen
+Lichthof mit zwei offenen Treppen erschlossen. Auf drei Obergeschossen befinden sich je vier
+Lernlandschaften mit sechs Inputräumen, von denen je zwei auch unabhängig von der Halle her
+erschlossen sind. Sowohl das herkömmliche Schulmodell als auch die Lernlandschaften funktionieren
+aus pädagogischer Sicht. Die Organisation der Lernlandschaften auf sehr knapper Fläche wirkt jedoch
+gedrängt und eng. Für Garderoben ist auf den Geschossen kein Platz vorhanden. Die vorgeschlagene
+zentrale Spindanlage im Erdgeschoss ist eher unpraktikabel und verstellt den Eingang.
+
+Trotz des Erhalts von Trakt B wird die bestehende Aula abgerissen und zusammen mit dem
+Mittagstisch neu erstellt und wiederum unterirdisch angeordnet. Für Charakter, Ausstrahlung und
+Nutzbarkeit beider Räume ist die Untergeschosslage unverständlich. Gesamthaft wird das Potential
+der Erdgeschosse als attraktive und kommunikationsfördernde Eingangsgeschosse an der
+verbindenden Erschliessungsachse nicht ausgeschöpft – und damit entfällt auch ein wesentlicher
+Vorteil der Campusanlage.
+
+Der zentrale Lichthof im Schulneubau funktioniert in seiner beabsichtigten, dargestellten Offenheit
+nicht. Wie im Sporthallenbau und in Trakt B fehlen auch hier vertikale Fluchtwege, die direkt ins Freie
+führen.
+
+Struktur, Aufbau und Gestaltung der Fassaden wirken uninspiriert. Einfachheit droht ins Banale
+SEITE 46 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+zu kippen. Der Charakter der Bestandsbauten B und C aus den 70er Jahren geht durch die neue
+Fassadenausbildung fast gänzlich verloren.
+
+Im Hinblick auf den Ressourcenverbrauch ist der Projektvorschlag dank dem Erhalt und
+der Erneuerung der Trakte B und C ein effizientes Projekt. Die grosse PV-Anlage und die
+differenzierte Aussenraumgestaltung wirken sich zusätzlich positiv auf die Erfüllung der
+Nachhaltigkeitsanforderungen aus. Ein Konzept für die Gebäudetechnik ist hingegen nicht erkennbar
+und die vorgeschlagene Etappierung des Schulneubaus ist nicht praktikabel.
+
+Die überraschend einfache und intelligente Konzeptidee des Schulcampus mit dem Erhalt der Trakte
+B und C und der stimmigen und massstäblichen Ergänzung durch die zwei Neubauten besticht.
+Sie zeigt sich als äusserst flächeneffizient, wirtschaftlich und nachhaltig. Der sensible Einbezug
+der Bestandsbauten in einen zeitgemässen Schulcampus stellt eine überzeugende und wertvolle
+Antwort auf den Umgang mit unserer gebauten Umwelt und deren Weiterverwendung dar.
+
+Das Potenzial des Konzeptes wird jedoch in der Grundriss- und Fassadenentwicklung architektonisch
+nicht genutzt. Insgesamt überwiegen die Defizite, insbesondere in den wenig attraktiven
+Erdgeschossen mit der konzeptionell unverständlichen Eingangshalle, in den gedrängten
+Lerngeschossen und der Ausbildung der Fassaden.
+
+
+
+
+AURELIA
+SEITE 47 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Situationsplan
+SEITE 48 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Erdgeschoss mit Umgebung
+
+
+
+
+AURELIA
+SEITE 49 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Schnitt A-A
+
+
+
+
+Schnitt C-C
+
+
+
+
+1. Obergeschoss
+SEITE 50 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Schnitt B-B
+
+
+
+
+2. Obergeschoss
+
+
+
+
+AURELIA
+SEITE 51 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+                                                                      Visualisierungen
+
+
+
+
+Fassadenschnitt mit Teilansicht
+SEITE 52 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+SEITE 53 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+WEITERE PROJEKTE
+
+
+02    Friedrich
+05    MOBYDICK
+07    DREIKLANG
+08    Erinnerungen
+09    INFINITY
+SEITE 54 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Friedrich
+
+
+Architektur                   Farhad Johann Architekten SIA GmbH, Basel
+
+Landschaftsarchitektur        Anah - Büro für Architektur / MAS Landscape Architecture ETH, Wien (AT)
+
+Bauingenieurwesen             Holztage GmbH, Basel
+
+
+
+
+Mit dem Projektbeitrag Friedrich schlagen die Verfassenden einen einzigen Neubaukörper parallel zur
+Bahnlinie vor, was aus Sicht Störfall eher problematisch einzuschätzen ist. Alle Nutzungen werden
+in diesem viergeschossigen Gebäude kompakt zusammengefasst, wobei die Turnhallen zur Hälfte
+unterirdisch vor dem Gebäude gegen Süden zu liegen kommen.
+
+Durch diese Setzung entsteht südlich des Gebäudevolumens eine grosse Freifläche für die
+Sportnutzungen und auf dem Turnhallendach eine Möglichkeit für einen nutzbaren Aussenraum. Die
+Möglichkeiten zur Gestaltung und Bespielung dieser grossen Aussenfläche sind allerdings zu wenig
+ausgearbeitet. Der Haupteingang liegt gegen Norden und führt in ein Foyer, das wenig grosszügig
+erscheint.
+
+Die verschiedenen Räume werden in allen Geschossen über minimale Gänge erschlossen, eine
+räumliche Vielfalt wird dabei vermisst. Während die Auslegung als Lernatelier grundsätzlich
+denkbar erscheint, ist eine konventionelle Auslegung mit herkömmlicher Klassenzimmerstruktur
+aufgrund der sehr langen und engen Korridore kaum vorstellbar. Die Lernlandschaften sind über
+drei Treppenhäuser zwar gut erreichbar und flexibel nutzbar. Allerdings verfügen nur die äusseren
+Lernlandschaften über einen direkten Zugang zu den WC-Anlagen, was das mittlere Lernatelier
+benachteiligt und den Betrieb aller Lernlandschaften negativ beeinflusst. Die Aufsicht in den
+Lernateliers wird durch die verwinkelte Struktur zu einer herausfordernden Aufgabe.
+
+Die drei Arealzugänge wirken schmal und kleinräumig, der Charakter eines identitätsstiftenden
+Ankunftsortes wird vermisst. Ungedeckte Velostellplätze werden ausschliesslich zwischen
+Schulgebäude und Bahnlinie angeboten, weitere Standorte scheinen nicht vorgesehen zu sein.
+Das Rasenfeld und der Allwetterplatz liegen prominent im südlichen Teil des Areals. Freiflächen
+mit Aufenthaltsmöglichkeiten und Nischen oder ein strukturierter Pausenbereich werden hingegen
+vermisst. Die geschützte Baumreihe entlang der Fröschmattstrasse wird deutlich reduziert, entlang
+der Zehntenstrasse wird diese erhalten.
+
+Das Projekt verspricht zwar eine gute Wirtschaftlichkeit, vermag aber aufgrund der städtebaulichen
+und der erheblichen funktionalen Mängel innerhalb der für den Schulbetrieb zentralen Lernateliers
+dennoch nicht zu überzeugen.
+SEITE 55 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Modellansicht von Südosten
+
+
+
+
+Erdgeschoss
+SEITE 56 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+MOBYDICK
+
+
+Architektur                   Kollektiv Seiler architects I Rujbr Architekten, Zürich
+
+Landschaftsarchitektur        Vera Pilloni Landschaftsarchitektin, Zürich
+
+Bauingenieurwesen             Weber Ingenieurbau GmbH, Eschenbach
+
+Fachingenieure                Timbatec, Delémont
+                              Zirkular GmbH, Basel
+
+
+
+
+Die Verfassenden des Projektbeitrags MOBYDICK schlagen einen viergeschossigen Neubau vor,
+welcher im Norden des Areals das Grundstück vollständig besetzt. Das grosse Gebäude gliedert
+sich in zwei viergeschossige Flügelbauten mit den Unterrichtsräumen und einen zweigeschossigen
+Mitteltrakt mit öffentlichen Grossräumen und erinnert in seiner Typologie an Industriebauten, wie
+sie entlang dem Gleisfeld stehen könnten. Während zu den angrenzenden Strassen und zu den
+Wohnbauten im Westen schmale Vorräume entstehen, bleibt das Grundstück gegen Süden ganz
+offen für die Anordnung der erforderlichen Freiräume.
+
+Der südlich des Gebäudes angeordnete Pausenbereich erscheint im Verhältnis zur Schülerzahl eher
+knapp bemessen und bietet wenig differenzierte Orte für den Aufenthalt. Die weiteren Freiräume
+wie Rasenfeld, Allwetterplatz und Quartierwald vermögen die im Pausenbereich vermisste
+Aufenthaltsqualität auch nicht wettzumachen. Klar lesbare Zugänge ins Areal werden vermisst. Die
+Parzellenränder werden mit neuen Baumpflanzungen unterschiedlich betont, dabei werden die
+geschützten Baumreihen entfernt. Ungedeckte Veloabstellflächen sind dezentral verteilt.
+Der Neubau ist achsensymmetrisch aufgebaut und über zwei gedeckte Pausenhallen mit vier
+Hauptzugängen erschlossen. Im Mitteltrakt befinden sich in den Untergeschossen die Turnhallen,
+im Erdgeschoss die Aula und im 1. Obergeschoss die Mediathek. Die Seitenflügel mit den
+Unterrichtsräumen sind dreibündig organisiert, jeweils über zwei Kerne erschlossen und über einen
+zentralen Lichthof mit zenitalem Tageslicht versorgt. Um die Aula ebenerdig anzuordnen, wird die
+südliche Doppelturnhalle vollständig im Erdreich erstellt, was den Anteil an unterirdischer Baumasse
+stark erhöht.
+
+Der Projektvorschlag kann ortsbaulich wie auch typologisch nicht überzeugen. Durch die einfache
+Grundform entstehen im Areal zu wenig differenzierte Freiräume ohne Aufenthaltsqualität und
+ohne klare Identität. Im Innern sind die offenen, flexibel nutzbaren Lernlandschaften von den
+Input-Räumen stark getrennt. Möglichkeiten zur Abtrennung von Gruppenräumen sind gegeben.
+Die Erschliessungswege wirken teilweise sehr beengend, lang und umständlich. Die Terrasse mit
+Blumenwiese im 2. Obergeschoss ist aufgrund der angrenzenden Unterrichtsräume nur beschränkt
+nutzbar.
+
+Das Projekt beabsichtigt, in Anlehnung an industrielle Gebäudetypologien und mittels der
+ungewohnten Organisation, einen differenzierten, eigenen Schulhaustyp zu entwickeln. Leider
+gelingt es aber nicht, attraktive Raumbeziehungen sowie eine sinnvolle Gestaltung der Freiräume im
+Areal aufzuzeigen.
+SEITE 57 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Modellansicht von Südosten
+
+
+
+
+Erdgeschoss
+SEITE 58 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+DREIKLANG
+
+
+Architektur                   Vischer Architekten AG, Basel
+
+Landschaftsarchitektur        Riggenbach GmbH, Oberwangen b. Bern
+
+Bauingenieurwesen             Eitel & Partner GmbH, Basel
+                              Büro für Bau + Holz GmbH, Basel
+
+Fachingenieure                Gruner AG, Basel
+                              Beat Joss & Partner, Basel
+                              Energie Zukunft Schweiz AG, Zürich
+                              Recon Europe GmbH, Ebbs (AT)
+                              A+F Brandschutz GmbH, Pratteln
+
+
+
+DREIKLANG wird von den Projektverfassenden als grossvolumiger Schulhausneubau konzipiert.
+Um begrünte Innen- und Zwischenhöfe werden Raum- und Funktionseinheiten organisiert, welche
+im 2. und 3. Obergeschoss als drei Volumen lesbar sind. Eine Erschliessungs- und Nebenraumzone
+in Nord-Südrichtung verbindet die Einheiten horizontal und alle Ebenen vertikal. Die städtebauliche
+Setzung des heterogenen Gebäudevolumens folgt der inneren Entwicklung des Gebäudes innerhalb
+des Perimeters mit seinen Rahmenbedingungen.
+
+Ein grosszügiger Zugang von der Fröschmattstrasse mit Baumhain führt zum Haupteingang
+des neuen Schulhauses von Osten. Dieser Zugang dient gleichzeitig als Pausenplatz mit
+Sitzmöglichkeiten unter dem Baumdach. Ein weiterer Pausenplatz befindet sich im Süden. Hier
+wird der Zugang von der Gartenstrasse im Wesentlichen aus dem Bestand übernommen. Die
+Wegeführung im Areal verläuft zum Teil unter dem Vordach des voluminösen Schulgebäudes. Das
+Rasenfeld und der Allwetterplatz sind im Norden der Parzelle angeordnet. Die Baumreihen entlang
+der Zehnten- und der Gartenstrasse werden grossenteils belassen und einzig beim Haupteingang
+von der Gartenstrasse her reduziert. Das Aussenraumkonzept erscheint funktional, Nischen und
+Aufenthaltsmöglichkeiten sind nicht weiter ausformuliert.
+
+In der inneren Organisation und der funktionalen Schichtung ist das Lernlandschaftskonzept gut
+umsetzbar. Im 2. und 3. Obergeschoss sieht das Projekt wichtige Elemente funktionierender
+Lernateliers vor. So sind die Inputräume klar zugeordnet und dennoch flexibel nutzbar. Die
+Lernlandschaften verfügen über einen gestaltbaren Vorraum, der sowohl als Aufenthaltszone als
+auch für den Unterricht genutzt werden kann. Je zwei Lernlandschaften sind um einen begrünten
+Innenhof angeordnet und bilden so eine Einheit. Die Anordnung sämtlicher Spezialräume im 1.
+Obergeschoss führt hingegen zu langen Wegen und viel Betrieb auf dieser Etage, was einem
+geordneten und ruhigen Schulbetrieb nicht förderlich sein wird.
+
+Das Projekt DREIKLANG weist eine hohe Bearbeitungstiefe auf. Die in Teilen überzeugende
+Beantwortung der funktionalen und betrieblichen Anforderungen geht zu Lasten einer
+architektonisch-konzeptionellen Klarheit. Unklar bleibt, ob sich die Raumeinheiten entlang einer als
+Rückgrat formulierten Erschliessung organisieren oder ob sich die Volumen und Höfe aus einem
+teilweise etwas sperrigen «Sockel» heraus entwickeln. Dies führt insgesamt zu einem sehr grossen,
+heterogenen Gebäudevolumen und in der Konsequenz zu einer ungünstigen Wirtschaftlichkeit.
+SEITE 59 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Modellansicht von Südosten
+
+
+
+
+Erdgeschoss
+SEITE 60 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Erinnerungen
+
+
+Architektur               matti ragaz hitz architekten ag, Liebefeld-Bern
+
+Landschaftsarchitektur    Klötzli Friedli Landschaftsarchitekten AG, Bern
+
+Bauingenieurwesen         Indermühle Bauingenieure htl / sia, Thun
+
+Fachingenieure            EPRO Engineering, Gümligen
+                          Wälchli Architekten Partner AG, Bern
+
+Der Erhalt von Trakt A als identitätsstiftendes Element der neuen Schulanlage bildet die Ausgangslage
+des Konzeptvorschlags Erinnerungen. Er wird beidseitig durch zwei neue Volumen zu einem L-förmigen
+Baukörper mit grossen Gebäudetiefen ergänzt, der sich auf die städtebauliche Setzung des Schulhauses
+aus den 1950er-Jahren bezieht und das Grundstück in zwei klar abgegrenzte Aussenräume für Sport und
+Schule teilt. Der umgenutzte Trakt A nimmt als Rückgrat der Anlage die Spezialräume auf, im Norden
+werden die Fachräume und im Süden die Klassenräume angefügt.
+
+Die mittige Lage des Baukörpers auf dem Areal unterteilt den Freiraum in einen nördlichen und einen
+südlichen Bereich. Im Norden sind die Sportnutzungen angeordnet: die Vierfachturnhalle unterirdisch,
+das Rasenfeld und der Allwetterplatz ebenerdig darüber. Zwischen den Spielfeldern befinden sich
+Sitzgelegenheiten in unterschiedlich ausformulierten Grünflächen. Westlich des Schulgebäudes
+verbindet ein Naturlehrpfad den südlichen und den nördlichen Teil der Parzelle. Im Süden wird am
+Standort des ehemaligen Trakt C ein vertiefter Skatepark platziert. Im Zentrum befindet sich ein
+Pausenhof mit Aufenthaltsmöglichkeiten und grosszügiger Pausenhalle. Die Pausenhalle mit intensiv
+begrüntem Dach wird aus dem ehemaligen Trakt B heraus entwickelt, darunter befindet sich ein
+Velokeller. Die geschützten Baumreihen entlang der Zehnten- und der Fröschmattstrasse werden
+respektiert. Das Projekt bemüht sich um ein reichhaltiges Angebot im Aussenraum, jedoch lassen die
+vielseitigen Nutzungsmöglichkeiten eine klare Adressbildung vermissen.
+
+Als Hauptvariante werden im südlichen Gebäudeteil konventionelle Unterrichtsräume mit ergänzenden
+Aufenthaltsräumen dargestellt. Die innenliegenden Aufenthaltsräume werden nur indirekt über den
+Korridor hinweg durch verglaste Erschliessungshöfe belichtet. Die Gebäudestruktur erlaubt, wie
+schematisch dargestellt, differenzierte Zwischenstufen der Öffnung der Klassenzimmer bis hin zur
+Lernlandschaft. Die im Raumprogramm beschriebenen Nutzungseinheiten mit Lernateliers und
+Inputräumen sind in der geforderten Anzahl und Zuordnung jedoch nicht nachgewiesen.
+
+Mit dem konzepttragenden Erhalt von Trakt A wird auch das Prinzip der eingegrabenen Nutzgeschosse
+weitergeführt: die bestehenden Abgrabungen werden im Südteil beidseitig durchgehend für die
+problematische Belichtung des vierten Klassenraumgeschosses ergänzt. Sämtliche Zugänge führen mit
+Brücken über diese «Bärengräben». Das Gebäude versinkt optisch auf dem Grundstück.
+
+Die konzeptionelle Auseinandersetzung mit der Weiterverwendung des Bestandes wird begrüsst. Trakt
+A wird jedoch - ohne die prägenden Elemente des Altbaus aus den 1950er-Jahren zu erhalten - zum
+Torso innerhalb der Gesamtanlage. Der Neubau wird trotz Eingangshalle und im Gegensatz zur heutigen
+Durchlässigkeit zum trennenden Riegel. Zudem entstehen keine Vorteile im Hinblick auf die Etappierung
+und die damit verbundenen Provisorien. Trotz einem interessanten Ansatz kann die städtebauliche und
+funktionale Konzeption der neuen Schulanlage gesamthaft nicht überzeugen.
+SEITE 61 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Modellansicht von Südosten
+
+
+
+
+Erdgeschoss
+SEITE 62 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+INFINITY
+
+
+Architektur                   FFAD Architekten AG, Bern
+
+Landschaftsarchitektur        David Bosshard Landschaftsarchitekten AG, Bern
+
+Bauingenieurwesen             Schnetzer Puskas Ingenieure, Bern
+
+
+
+
+Mit dem vorgeschlagenen Ersatzneubau gelingt den Verfassenden des Projektbeitrags INFINITY
+eine glaubwürdige städtebauliche Setzung. Die aus zwei quadratischen Volumen gebildete
+Grossform findet ein ausgewogenes Verhältnis zwischen Freiraum, benachbarter Bebauung und
+Präsenz im Quartier. Der zentrale Baukörper teilt das Areal in zwei prägende Aussenräume: Einen
+baumbestandenen Eingangs- und Pausenraum im Süden und einen nördlichen, eher funktionalen
+Raum mit den Aussensportflächen, an den die wenig attraktive Pausenhalle anschliesst. Die Zugänge
+von der Garten- und der Fröschmattstrasse verfügen über ungedeckte Veloabstellplätze und führen
+baumgesäumt direkt in eine sehr grosszügige Eingangshalle, welche jedoch eine entsprechende
+Anbindung an die Zehntenstrasse vermissen lässt. Die geschützten Baumreihen entlang der
+Zehnten- und der Fröschmattstrasse werden erhalten und ergänzt.
+
+Der Ersatzneubau vereint sämtliche Nutzungen in einem zusammenhängenden Volumen. Aula,
+Mediathek, Mittagstisch und Schulleitung sind sinnvoll auf Niveau des Erdgeschosses organisiert.
+Der Luftraum der im Untergeschoss liegenden Einfach- und Dreifachturnhallen nimmt einen
+grossen Teil des Erdgeschosses ein. Die Obergeschosse entwickeln sich Loop-förmig um zwei
+zentrale Lichthöfe. Entlang eines sehr breiten Korridors reihen sich sämtliche Unterrichtsräume
+auf. Wie diese überdimensionierten Erschliessungsflächen sinnvoll in den Unterricht eingebunden
+werden können, bleibt offen, u.a. auch brandschutztechnisch. In der Folge beschränken sich
+damit auch die Möglichkeiten zur Umsetzung der Lernateliers, die innerhalb einer konventionellen
+Raumschicht organisiert sind und nicht alle gleichberechtigt organisiert werden können. Die Zugänge
+zu den Inputräumen sind zudem ausschliesslich über Korridore möglich. Die gewählte Typologie
+widerspricht damit grundsätzlich der angestrebten Clusterbildung, die auf den offenen Einbezug von
+Erschliessungsflächen angewiesen ist. Darunter leidet die Flächeneffizienz, ohne eine überzeugende
+Lösung für den Unterricht bieten zu können.
+
+Die Konstruktion als Holzbau ist weitgehend schlüssig durchdacht. Die Organisation sämtlicher
+Funktionen in einem Gebäude führt aufgrund der unterschiedlichen Raumdimensionen zu
+unterschiedlichen Spannweiten mit entsprechendem, weitgehend plausibel aufgezeigtem, jedoch
+aufwändigem Tragwerk. Nicht gelöst ist die Thematik des Brandschutzes, wo unklar bleibt, wie die
+Erschliessungsflächen genutzt werden können.
+
+INFINITY stellt ein städtebaulich adäquates Projekt dar, bietet jedoch keinen angemessenen Beitrag
+für ein zeitgemäss funktionierendes Schulgebäude. Der Projektbeitrag ist zwar weitgehend sorgfältig
+durchgearbeitet, lässt aber in entscheidenden Punkten nachvollziehbare Antworten vermissen.
+SEITE 63 | ERNEUERUNG SCHULANLAGE FRÖSCHMATT PRATTELN – JURYBERICHT
+
+
+
+
+Modellansicht von Südosten
+
+
+
+
+Erdgeschoss
+

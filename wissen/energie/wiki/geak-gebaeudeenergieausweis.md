@@ -1,8 +1,8 @@
 ---
 title: GEAK — Gebäudeenergieausweis der Kantone
 status: established
-last_updated: 2026-07-08
-sources: [destillate/geak-gebaeudeenergieausweis-kantone.md]
+last_updated: 2026-07-12
+sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/geak-klassengrenzen-relative-klassierung.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[foerderung-energie-zh]], [[foerderung-energie-sz]], [[gebaeudeprogramm-bund-hfm-2015]], [[fenster-energieetikette-fea-bfe]]
 ---
 
@@ -47,9 +47,20 @@ Das **Basisprodukt GEAK** zeigt drei grafisch klassierte Achsen (A = beste … G
 - **Gebäude vs. Bauteil:** GEAK klassiert das **ganze Gebäude**, die **Fenster-Energieetikette** nur das
   Bauteil Fenster (→ `[[fenster-energieetikette-fea-bfe]]`) — dieselbe A–G-Logik, andere Bezugsebene.
 
+## Klassierungsprinzip: RELATIV, nicht fix (geklärt 2026-07-12, Run 35, adversarial verifiziert)
+Die Klassen A–G sind **keine festen kWh/m²·a-Werte**, sondern ein **prozentualer Abstand zu
+einem individuell berechneten Referenzgebäude** (R = Projektwert/Referenzwert × 100): A = 0–50 %,
+B = 50–100 %, C = 100–150 %, D = 150–200 %, E = 200–250 %, F = 250–300 %, G = über 300 % — gilt
+identisch für Gebäudehülle (Referenz: SIA-380/1-Neubau-Grenzwert) und Gesamteffizienz (Referenz-
+gebäude mit 80 % des Neubau-Grenzwerts Heizwärme, Standard-Strombedarf MFH 28 / EFH 22 kWh/m²a).
+Eine im Web kursierende feste Zahlen-Tabelle («A bis 25 kWh/m²a…») ist **widerlegt/falsch**. Nur
+die **dritte, separate CO₂-Etikette** ist absolut in 5-kg/(m²a)-Schritten klassiert — nicht mit
+den relativen Achsen verwechseln. Quelle: «Normierung des GEAK» v2.1.0, EnDK, 30.3.2023, Tab.
+40/41 → `[[geak-klassengrenzen-relative-klassierung]]`; adversarial am Original-PDF bestätigt.
+
 ## Offen
 - Konkrete **CHF-Kostenspanne** GEAK/GEAK Plus (EFH↔MFH) — nicht amtlich publiziert (nur reale Offerten).
-- **Klassengrenzen** kWh/m²·a je Effizienzklasse — im Produktreglement 2026 (PDF), späterer seitengenauer Lauf.
 - Liste der Kantone mit **GEAK-Pflicht bei Handänderung**.
 
-**Quelle:** `[[geak-gebaeudeenergieausweis-kantone]]` (geak.ch / EnDK, Stand 2026, Reglemente 01.01.2026).
+**Quelle:** `[[geak-gebaeudeenergieausweis-kantone]]` (geak.ch / EnDK, Stand 2026, Reglemente 01.01.2026),
+`[[geak-klassengrenzen-relative-klassierung]]` (EnDK-Normierungsdokument, 30.3.2023).

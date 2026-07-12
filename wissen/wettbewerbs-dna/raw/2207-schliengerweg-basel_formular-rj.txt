@@ -1,0 +1,4 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2207 WB Basel/10_Abgabe/221124_18_Formular_rj.pdf
+# Extrakt: pdftotext -layout, 12.07.2026
+
+

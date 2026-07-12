@@ -1,8 +1,8 @@
 ---
 title: Solarwärme, Warmwasser & die Entscheidung Solarthermie ↔ Photovoltaik
 status: established
-last_updated: 2026-07-11
-sources: [solarthermie-vs-pv-warmwasser-ch, wp-pv-eigenverbrauch-lastmanagement, pv-marktzahlen-kosten-ch-2025, foerderprogramm-energie-zh-2026, foerderprogramm-energie-sz-2026]
+last_updated: 2026-07-12
+sources: [solarthermie-vs-pv-warmwasser-ch, wp-pv-eigenverbrauch-lastmanagement, pv-marktzahlen-kosten-ch-2025, foerderprogramm-energie-zh-2026, foerderprogramm-energie-sz-2026, solarthermie-investitionskosten-ch, pvt-hybridkollektoren]
 links: [[BAUHERREN-FAQ]], [[pv-eigenverbrauch-zev]], [[heizleistung-und-waermeerzeuger]], [[pv-solar-technologien]]
 ---
 
@@ -47,12 +47,25 @@ Solarthermie wird gefördert: **CHF 2'400 + 1'000/kWth** (ZH wie SZ) → [[foerd
 [[foerderung-energie-sz]]. PV läuft über die **Einmalvergütung des Bundes** (Pronovo) →
 [[pv-einmalverguetung-bund-bfe]].
 
-## Offen
-- Konkrete **CHF-Investition** einer Solarthermie-Anlage (EFH) aus amtlicher CH-Quelle — nicht belegt.
-- **Wirkungsgrad 70–85 % vs. 20 %** aus Sekundärquellen (energieheld/iwb), nicht EnergieSchweiz/Swissolar-Primär.
-- **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul) — eigener Lauf.
+## CHF-Investition Solarthermie (ergänzt 2026-07-12, Run 35)
+Zwei Sekundärquellen (hausinfo.ch 2020, Meier Tobler AG) — keine amtliche CHF-Bestätigung:
+reine Warmwasser-Kompaktanlage **CHF 15'000–20'000** installiert (Schnittmenge beider Quellen);
+Kombianlage Warmwasser + Heizung unsicherer, grob **CHF 22'000–40'000** (Quellen widersprechen
+sich deutlich) → `[[solarthermie-investitionskosten-ch]]`. Status emerging.
 
-**Backlinks:** Destillat [[solarthermie-vs-pv-warmwasser-ch]] · FAQ [[BAUHERREN-FAQ]] (F40) ·
+## PVT-Hybridkollektoren (Strom + Wärme in einem Modul, ergänzt 2026-07-12, Run 35)
+Kombinieren PV-Stromerzeugung und Solarthermie-Wärmenutzung in derselben Fläche; lohnt sich vor
+allem bei **knapper Dachfläche**. Elektrisch ~15–20 %, thermisch ~65 % Wirkungsgrad. In der
+Schweiz 2017 rund 300 Anlagen installiert (CH-Hersteller u.a. PVT Solar AG); Kosten widersprüchlich
+belegt (CHF 210–650 vs. 1'100–1'600/m²) → `[[pvt-hybridkollektoren]]`. Status emerging.
+
+## Offen
+- **Wirkungsgrad 70–85 % vs. 20 %** aus Sekundärquellen (energieheld/iwb), nicht EnergieSchweiz/Swissolar-Primär.
+- PVT-Kosten und aktuelle CH-Marktzahlen (nach 2017) nicht adversarial verifiziert.
+- Solarthermie-Kombianlagenkosten bleiben speculative (widersprüchliche Quellen).
+
+**Backlinks:** Destillat [[solarthermie-vs-pv-warmwasser-ch]] · FAQ [[BAUHERREN-FAQ]] (F40, F41, F42) ·
 PV-Eigenverbrauch/WP-Boiler [[pv-eigenverbrauch-zev]] / [[wp-pv-eigenverbrauch-lastmanagement]] ·
 Wärmeerzeuger [[heizleistung-und-waermeerzeuger]] · PV-Technologien/Ertrag [[pv-solar-technologien]] ·
-PV-Marktkosten [[pv-marktzahlen-kosten-ch-2025]].
+PV-Marktkosten [[pv-marktzahlen-kosten-ch-2025]] · [[solarthermie-investitionskosten-ch]] ·
+[[pvt-hybridkollektoren]].

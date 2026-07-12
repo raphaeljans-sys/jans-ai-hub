@@ -144,7 +144,7 @@ WP-Benchmarks oben (die auf 2021-2023 stehen). Die belegte Herleitung (Run 16):
 | Position | Menge | Ansatz | Betrag CHF |
 |---|---|---|---|
 | GF inkl. Keller, ohne TG | 950 m2 | 4'485 CHF/m2 GF BKP 1-5 | 4'262'000 |
-| Tiefgarage | 8 SP | 42'000 CHF/SP BKP 1-5 | 335'000 |
+| Tiefgarage | 8 SP | 42'000 CHF/SP BKP 1-5 | 336'000 |
 | **Total Erstellungskosten** | | | **4'598'000 → «4.6 Mio»** |
 | **HNF-Faktor** | HNF 580 m2 | 4'262'000 / 580 | **7'350 CHF/m2 HNF BKP 1-5** |
 
@@ -264,6 +264,24 @@ Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (R
 - **CHF/Pflegezimmer (BKP 2, ~24 m2-Zimmer): 272'780-530'000** fuer reine Heime; **780'000** beim
   St.-Anna-**Zentrum** (Ausreisser, hoher Gemein-/Therapieflaechenanteil). Das erweitert den
   frueheren Herosé-Vier-Heim-Vergleich (337'000-418'000) nach unten und oben.
+
+⚠ **Verifikationsnotiz (Run 18, 2026-07-12 — gegen das Original-Referenzblatt geprueft):** Die
+Tabelle oben ist eine **getreue Abschrift** des JANS-Blatts. Zwei Lesehinweise, weil einzelne
+Kennwerte nicht als BKP 2 ÷ Flaeche reproduzierbar sind:
+- **CHF/Pflegezimmer ist auf ein 24-m2-Standardzimmer normiert** (Zeilenlabel im Blatt: «Kosten
+  BKP 2 Pflegezimmer 24 m2»), also **nicht** BKP 2 / effektive Zimmerzahl. Bei Objekten mit ~24-m2-
+  Zimmern faellt es zusammen (Herosé 40.2 Mio / 116 = 347'000 = Tabellenwert), bei groesseren Zimmern
+  weicht es ab (Lanzeln-Tabellenwert 272'780 ≠ 29.34 Mio / 123 = 238'537). Kein Fehler, sondern die
+  Normierung.
+- Die **oberen Rohband-Endpunkte CHF/m2 GF 4'250 und CHF/m3 GV 1'420 (beide Averecura) sowie die
+  ganze Vella-Zeile sind quellenintern nicht reproduzierbar**: Averecura 12.34 Mio / 3'100 = 3'981
+  (nicht 4'250) bzw. / 9'600 = 1'285 (nicht 1'420); Vellas Kennwerte 2'835/845 implizieren beide
+  ~20.3 Mio, waehrend die Zeile BKP 2 = 24.5 Mio nennt. Das sind Inkonsistenzen **im Original-Blatt**,
+  nicht in der Abschrift. Der **BKP 2 ÷ GF reproduzierbare Rohband** liegt damit bei **~2'623-3'981
+  CHF/m2 GF**. Fuer den praktischen Ansatz ist ohnehin die **teuerungsbereinigte Spalte massgebend
+  (3'042-4'485, voll reproduzierbar** — Trotte 4'485 als Oberkante). Verdikt: Kernaussage (Band
+  ~3'800-4'500 CHF/m2 GF fuer Neubau, teuerungsbereinigt) **bestanden**; die beiden Averecura-Roh-
+  Ausreisser und die Vella-Zeile mit ⚠ Vorbehalt (Original-Blatt zu bereinigen → [[wissensluecken]] D10).
 
 **JANS-Teuerungsbereinigung (Referenzblatt, gemeinsamer Index-Stand ~115):** normiert liegen die
 acht Objekte bei **3'042-4'485 CHF/m2 GF** — d.h. auf heutigen Preisstand gerechnet ist das obere

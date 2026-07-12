@@ -1,8 +1,8 @@
 ---
 title: Komfortlüftung / kontrollierte Wohnungslüftung — frische Luft ohne Wärmeverlust
 status: established
-last_updated: 2026-07-09
-sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md]
+last_updated: 2026-07-12
+sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md]
 links: [[INDEX]] [[en-lueftung-kuehlung-zh]] [[minergie-standards]] [[pv-eigenverbrauch-zev]] [[gebaeudeprogramm-bund-hfm-2015]] [[sommerlicher-waermeschutz]] [[BAUHERREN-FAQ]]
 ---
 
@@ -57,11 +57,31 @@ jeder Lüftungstechnik**. Milderung: **Enthalpietauscher** (Feuchterückgewinnun
   masse (→ `[[sommerlicher-waermeschutz]]`), aktive Kühlung braucht den EN-110-Nachweis
   (→ `[[en-lueftung-kuehlung-zh]]`).
 
-## Offene Punkte
-- Filterklassen (ISO ePM) + Wechselintervall, Ventilator-Stromverbrauch (W / kWh·a) und Auslegungs-
-  Luftwechsel (SIA 382/1) seitengenau belegen — BFE-/Minergie-PDFs sind bildbasiert (separater Lauf).
-- WRG-Grad **zentraler** Komfortlüftungen numerisch (Minergie-üblich ≥ 80 %) an Primärquelle.
-- Komfortable relative Raumluftfeuchte in % (SIA 180) belegen.
-- CHF-Kosten aus neutraler/amtlicher Quelle statt Installateur-Schätzung.
+## Normen + Auslegung (ergänzt 2026-07-12, Run 35)
+- **Zwei Normen gelten gemeinsam für Wohnbauten:** SIA 382/1:2025 (Basisnorm, alle belegten
+  Gebäude inkl. Gerätekategorie WLA für Wohnraumlüftung) UND SIA 382/5:2021 (wohnbauspezifische
+  Ergänzung, Auslegungswerte je Raum) — SIA 382/5 ersetzt SIA 382/1 **nicht**, wie eine erste
+  Recherche fälschlich annahm (adversarial korrigiert).
+- **WRG-Grad zentraler Anlagen (Minergie-Modul Komfortlüftung, v2.0, 2023):** Temperatur-
+  Verhältnis ≥ 80 %, Feuchte-Verhältnis ≥ 60 % (EN 13141-7).
+- **Auslegungs-Luftvolumenströme SIA 382/5:** Zimmer 30 m³/h, Bad 30 m³/h, Küche 20 m³/h,
+  Wohnung gesamt mindestens 50 m³/h — 4½-Zi-Wohnung ≈ 90 m³/h.
+- **Filterklassen:** Zuluft mindestens ISO ePM1 50 %, Abluft mindestens ISO Coarse 80 %
+  (bei Rotor-/Push-Pull-Geräten ISO ePM10 50 %).
+- **Stromverbrauch:** seit Minergie-Modul v2.0 (2023) keine feste Wh/m³-Grenze mehr, sondern
+  **EU-1254/2014-Energieeffizienzklasse** mindestens A (grössere Anlagen A+) — der frühere Wert
+  0,34 Wh/m³ (Merkblatt SIA 2023) ist seit 2021 zurückgezogen und **nicht mehr aktuell**.
+- **Komfortable Raumluftfeuchte (SIA 180):** 30–70 % toleriert, Praxis-Zielband 40–60 %; aktive
+  Befeuchtung bei normalem Klima nicht nötig (30 % muss 90 % der Nutzungszeit ohne aktive
+  Befeuchtung überschritten werden) → `[[raumluftfeuchte-komfortbereich-sia180]]`.
 
-→ FAQ `F37` in `[[BAUHERREN-FAQ]]`. Destillat: `[[komfortlueftung-wohnungslueftung-ch]]`.
+Details/Quellen: `[[komfortlueftung-wrg-sia382-luftwechsel]]`,
+`[[komfortlueftung-filterklassen-epm-stromverbrauch]]`.
+
+## Offene Punkte
+- CHF-Kosten aus neutraler/amtlicher Quelle statt Installateur-Schätzung (weiterhin offen).
+- SIA-180-Volltext selbst nicht eingesehen (kostenpflichtig, Zahlen aus Sekundärquelle).
+
+→ FAQ `F37`, `F43`, `F44`, `F45` in `[[BAUHERREN-FAQ]]`. Destillate:
+`[[komfortlueftung-wohnungslueftung-ch]]`, `[[komfortlueftung-wrg-sia382-luftwechsel]]`,
+`[[komfortlueftung-filterklassen-epm-stromverbrauch]]`.

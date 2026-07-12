@@ -283,10 +283,14 @@ Nettoertrag   =  Mietertrag − Betriebskosten & Unterhalt
 Mietertrag    =  Jahresmiete CHF/m2 × HNF
 ```
 Zahlenbeispiel (Einsiedeln, 300 m2 HNF): Jahresmiete CHF 287/m2 (UBS Local Factsheet Einsiedeln,
-Median 90 % → [[vergleichswert-hedonisch]]) × 300 m2 = **85'000** Mietertrag; − 30'000
-Betriebskosten (≈ 2.5 % auf ~3.0 Mio) = **55'000** Nettoertrag; / 2.5 % = **2'200'000**
-Ertragswert; − 2'100'000 Erstellungskosten = **100'000** Residualwert. Die genannte Brutto-
-rendite ≈ 2.9 % (85'000 auf ~3.0 Mio) bestaetigt die Groessenordnung.
+Median 90 % → [[vergleichswert-hedonisch]]) × 300 m2 = **85'000** Mietertrag (Rundung aus 287 × 300 =
+86'100); − 30'000 Betriebskosten & Unterhalt (rund 35 % des Mietertrags — objektbezogener Ansatz der
+Notiz, nicht die 2.5 %-Liegenschaftswert-Pauschale) = **55'000** Nettoertrag; / 2.5 % Diskont =
+**2'200'000** Ertragswert; − 2'100'000 Erstellungskosten = **100'000** Residualwert. Die genannte
+Bruttorendite ≈ 2.9 % bezieht sich auf die Kaufpreis-/Marktwert-Groessenordnung ~2.9 Mio (85'000 /
+2'900'000 = 2.93 %), nicht auf den reinen Ertragswert 2.2 Mio. ⚠ Das Zahlenbeispiel ist illustrativ
+(Groessenordnung); der Betriebskosten-Ansatz hier ist ein Anteil des Mietertrags, waehrend die
+2.5 %-Pauschale weiter oben auf den Liegenschaftswert bezogen ist (zwei getrennte Schnellansaetze).
 
 **Diskontierungs-/Abzinsungsformel (Finanzmathematik, gleiche Notiz):**
 ```

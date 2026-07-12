@@ -1,0 +1,53 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2503 Studienauftrag_Glockenacker/
+# Art: Metadaten-Extrakt aus den drei einzigen Dateien des Ordners (ArchiCAD-Binaerdateien, kein PDF/DOCX vorhanden)
+# Extraktion: strings/Python-Binaerscan (UTF-8 + UTF-16LE) am 12.07.2026; Quelldateien unveraendert (Nur-Lese)
+# WICHTIG: Der Ordner enthaelt KEIN Programm, KEINEN Jurybericht, KEINE Abgabe-PDFs, KEIN Verfassercouvert.
+
+## 1. Ordnerinhalt (vollstaendig)
+
+/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2503 Studienauftrag_Glockenacker/_Transferfile_Studienauftrag_Glockenacker_TL_AC25.pln
+  Groesse 138'196'000 Bytes; FS-ContentChangeDate 2025-11-24 16:12:04 +0000; FS-CreationDate (lokale Kopie) 2025-11-25
+/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2503 Studienauftrag_Glockenacker/_Transferfile_Studienauftrag_Glockenacker_TL_AC26.pln
+  Groesse 136'890'464 Bytes; FS-ContentChangeDate 2025-11-24 16:13:33 +0000; FS-CreationDate (lokale Kopie) 2025-11-25
+/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2503 Studienauftrag_Glockenacker/_Transferfile_Studienauftrag_Glockenacker_TL_AC27.pln
+  Groesse 137'267'472 Bytes; FS-ContentChangeDate 2025-12-19 14:39:06 +0000; FS-CreationDate (lokale Kopie) 2025-11-25
+
+Interpretation Dateinamen: "Transferfile" = ArchiCAD-Austauschdatei, in drei Versionsstaenden
+(ArchiCAD 25/26/27) gespeichert; Namenszusatz "TL" ungeklaert (vermutlich Personen-/Partnerkuerzel).
+
+## 2. Binaerscan _Transferfile_Studienauftrag_Glockenacker_TL_AC27.pln — eingebettete XMP-Metadaten (UTF-8)
+
+In der Datei liegen XMP-Ingredients-Verweise auf extern erstellte Rendering-JPEGs. Originalpfade
+(Windows-Rechner des Visualisierers, Benutzer "blomfelt", Ablage "1_studioblomen"):
+
+file:///C:/Users/blomfelt/Synology%20Drive%20Business/1_studioblomen/01_Auftr%C3%A4ge/288%20Glockenacker%20Witikon/03_Bilder/02_Render/01%20Strasse/Glockenacker_Witikon_01_Strasse_03.jpg
+file:///C:/Users/blomfelt/Synology%20Drive%20Business/1_studioblomen/01_Auftr%C3%A4ge/288%20Glockenacker%20Witikon/03_Bilder/02_Render/01%20Strasse/Glockenacker_Witikon_01_Strasse_05.jpg
+file:///C:/Users/blomfelt/Synology%20Drive%20Business/1_studioblomen/01_Auftr%C3%A4ge/288%20Glockenacker%20Witikon/03_Bilder/02_Render/01%20Strasse/Glockenacker_Witikon_01_Strasse_07.jpg
+file:///C:/Users/blomfelt/Synology%20Drive%20Business/1_studioblomen/01_Auftr%C3%A4ge/288%20Glockenacker%20Witikon/03_Bilder/02_Render/02%20Abstufung/Glockenacker_Witikon_02_Abstufung_02_denoised.jpg
+
+Zusaetzlich als UTF-16-Bildnamen im Dokument:
+Glockenacker_Witikon_01_Strasse
+Glockenacker_Witikon_02_Abstufung
+Glockenacker_Witikon_03_Innenraum_01_upscayl_2x_remacri-4x
+
+Befund: Fuer das Projekt wurden professionelle Visualisierungen durch das Studio "studioblomen"
+(dortige Auftragsnummer "288 Glockenacker Witikon") erstellt und ins ArchiCAD-Modell eingebunden;
+drei Bildmotive: Strassenperspektive, "Abstufung", Innenraum. Ortsbezug "Witikon" (Zuerich-Witikon)
+ist durch die Benennung der Renderings belegt.
+
+## 3. Binaerscan — Modell-/View-Bezeichnungen (UTF-16, schwache Indizien, teils Template-Standard)
+
+"Situationsplan" · View-Ordnerstruktur "00 Alle / 10 Situation / 20 Grundrisse / 30 Schnitte /
+40 Ansichten / 50 Konstruktion / 60 Deta[ils] / 70 3D" · "Attikanachweis" · "Attika (Zeichnung)" ·
+"Raum: Wohnungstypen" · "Fassadenpaneel IfcPlate CURTAIN_PANEL"
+
+Befund (vorsichtig): Modellinhalt deutet auf Wohnungsbau mit Attikageschoss-Nachweis; ob dies
+projektspezifisch oder JANS-Template-Standard ist, laesst sich aus dem Binaerscan nicht trennen.
+
+## 4. Negativbefunde (Stand 12.07.2026)
+
+- Kein weiterer "Glockenacker"-Treffer in der gesamten OneDrive-Bibliothek (mdfind).
+- Keine M365-Mail mit "Glockenacker" oder "studioblomen" auffindbar (outlook_email_search, alle Ordner).
+- Kennwort, Programm, Jurybericht, Auslober, Resultat: im Archiv NICHT vorhanden.
+- Binaerscan ohne Treffer fuer: Studienauftrag, Auftraggeber, Bauherrschaft, Genossenschaft,
+  Kennwort, Abgabe, 8053, Glockenackerstrasse, Witikonerstrasse, Zuerich (als Text), raphaeljans/Jans.

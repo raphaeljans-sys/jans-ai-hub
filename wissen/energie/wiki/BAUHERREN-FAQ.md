@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-11
-sources: [destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+last_updated: 2026-07-12
+sources: [destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1512,6 +1512,115 @@ Seiten nicht — offen.
 
 ---
 
+## F41 — «Lohnt sich ein PVT-Kollektor, der gleichzeitig Strom und Wärme liefert?»
+
+**Kurz:** Ein PVT-Modul erzeugt in derselben Fläche Strom (PV) und Niedertemperaturwärme —
+lohnt sich vor allem bei **knapper Dachfläche**, wenn beides gebraucht wird (z.B. als
+Wärmepumpen-Wärmequelle). Als reine Renditeoptimierung gegenüber getrennten PV-/Solarthermie-
+Anlagen ist er nicht klar im Vorteil, da die Kosten pro m² ähnlich hoch oder höher liegen.
+
+**Fachlich:** Die Wärmeabfuhr an der PV-Zellenrückseite kühlt die Zelle (unbehandelt sinkt der
+PV-Ertrag um ca. 0,2–0,5 %-Punkte pro °C Temperaturanstieg) und liefert zugleich Wärme, z.B. zur
+Trinkwarmwasser-Vorwärmung oder als Sole-Wärmequelle für Wärmepumpen. Elektrischer Wirkungsgrad
+rund 15–20 %, thermischer rund 65 %. In der Schweiz waren 2017 rund 300 Anlagen installiert
+(CH-Hersteller u.a. PVT Solar AG, SOLTOP); aktuelle Marktzahlen fehlen.
+
+**Quelle:** SPF Institut für Solartechnik OST Rapperswil/EnergieSchweiz, Schlussbericht «PVT
+Wrap-Up» 2017 → `[[pvt-hybridkollektoren]]`. ⚠ Status emerging: Kostenangaben widersprüchlich
+(CHF 210–650 vs. 1'100–1'600/m²), aktuelle CH-Marktzahlen offen.
+
+---
+
+## F42 — «Was kostet eine Solarthermie-Anlage bei mir konkret?»
+
+**Kurz:** Für eine reine Warmwasser-Kompaktanlage (4–6 m² Kollektor, ~450–600 l Speicher) rund
+**CHF 15'000–20'000 installiert**; für eine Kombianlage (Warmwasser + Heizungsunterstützung)
+ist die Bandbreite unsicherer, grob **CHF 22'000–40'000** — keine amtliche Quelle (EnergieSchweiz,
+Swissolar) nennt selbst harte CHF-Zahlen, nur Installateur-/Beratungsportale.
+
+**Fachlich:** Zwei Sekundärquellen (hausinfo.ch 2020, Meier Tobler AG) überlappen sich bei der
+reinen Warmwasser-Anlage (CHF 15'000–20'000 gemeinsame Schnittmenge), widersprechen sich aber bei
+der Kombianlage deutlich. Wartungsvertrag ca. CHF 100/Jahr; nationale Einmalvergütung bis 30 % der
+Investition, zusätzlich kantonale Förderung (Solarthermie CHF 2'400 + 1'000/kWth in ZH/SZ).
+
+**Quelle:** hausinfo.ch (07.09.2020) + Meier Tobler AG →
+`[[solarthermie-investitionskosten-ch]]`. ⚠ Status emerging, Kombianlagen-Kosten speculative
+(widersprüchliche Quellen); vor Projektzusage Vor-Ort-Offerte einholen.
+
+---
+
+## F43 — «Welche Norm regelt meine Komfortlüftung — und wieviel Luft braucht ein Zimmer?»
+
+**Kurz:** Für Wohnbauten gelten **zwei Normen gemeinsam**: SIA 382/1:2025 (Basisnorm für alle
+belegten Gebäude) und SIA 382/5:2021 als wohnbauspezifische Ergänzung. Pro Schlaf-/Wohnzimmer
+mindestens **30 m³/h**, Bad **30 m³/h**, Küche **20 m³/h** — eine 4½-Zimmer-Wohnung braucht so
+insgesamt rund **90 m³/h**. Minergie verlangt zusätzlich eine Wärmerückgewinnung von mindestens
+**80 % (Temperatur) / 60 % (Feuchte)**.
+
+**Fachlich:** SIA 382/5 ersetzt die Basisnorm SIA 382/1 für Wohnbauten **nicht** — sie ergänzt sie
+um die Gerätekategorie WLA (Wohnraumlüftungsanlage bis 250 m³/h) und raumweise
+Auslegungswerte. Beispielrechnung 4½-Zi-Wohnung: Zuluft 3 Zimmer × 30 = 90 m³/h; Abluft
+WC/Dusche + Bad = 60 m³/h; massgebend ist der höhere Wert.
+
+**Quelle:** suissetec-Merkblätter SIA 382/1 (Nov. 2025) + SIA 382/5 (Juni 2025), Minergie-Modul
+Komfortlüftung v2.0 (14.09.2023) → `[[komfortlueftung-wrg-sia382-luftwechsel]]`. Adversarial
+verifiziert 2026-07-12 (Korrektur: Normen-Geltungsbereich und Minergie-Zitat waren in der ersten
+Fassung falsch/veraltet).
+
+---
+
+## F44 — «Welche Filterklasse und wieviel Strom braucht meine Lüftungsanlage?»
+
+**Kurz:** Die Zuluft (Aussenluft) braucht mindestens einen **ISO ePM1 50 %**-Filter, die Abluft
+mindestens **ISO Coarse 80 %**. Der Stromverbrauch wird nicht mehr über einen festen Wh/m³-Wert
+geregelt, sondern über die **EU-1254/2014-Energieeffizienzklasse** — mindestens «A», bei
+grösseren Anlagen «A+».
+
+**Fachlich:** Bei Rotor-Wärmeübertragern oder Push-Pull-Geräten gilt für die Abluft die strengere
+Klasse ISO ePM10 50 %. Ein früher kursierender Grenzwert von 0,34 Wh/m³ stammte aus dem 2021
+zurückgezogenen Merkblatt SIA 2023 und gilt **nicht mehr**.
+
+**Quelle:** suissetec-Merkblatt SIA 382/5 (Juni 2025), Minergie-Modul Komfortlüftung v2.0 →
+`[[komfortlueftung-filterklassen-epm-stromverbrauch]]`. Adversarial verifiziert 2026-07-12
+(Korrektur: SFP-Wert war veraltet, Filterklassen bestätigt).
+
+---
+
+## F45 — «Welche Luftfeuchtigkeit ist im Wohnraum komfortabel — muss ich befeuchten?»
+
+**Kurz:** SIA 180 toleriert **30–70 % relative Luftfeuchte** als Komfortband; in der Praxis gilt
+**40–60 %** als angenehmes Zielband. Unter 30 % gilt als zu trocken, über 60–70 % steigt das
+Schimmelrisiko. **Aktive Befeuchtung ist bei normalem Klima nicht nötig** — Feuchte über die
+Lüftung regulieren.
+
+**Fachlich:** SIA 180:2014 verlangt für beheizte/mechanisch belüftete Räume bis 800 m ü.M., dass
+30 % relative Feuchte während 90 % der Nutzungszeit **ohne aktive Befeuchtung** überschritten
+wird — das ist eine Planungsanforderung, kein blosser Komfortwunsch.
+
+**Quelle:** enbau-online.ch (SIA-180-Zitat) + Lungenliga Schweiz →
+`[[raumluftfeuchte-komfortbereich-sia180]]`; ergänzt `[[behaglichkeit-raumklima-kbob-ipb]]`
+(F37/F38). ⚠ Status emerging, SIA-180-Volltext selbst nicht direkt eingesehen (kostenpflichtig).
+
+---
+
+## F46 — «Was bedeutet meine GEAK-Klasse in kWh — kann ich das nachschlagen?»
+
+**Kurz:** Nein — der GEAK hat **keine** festen kWh/m²-Grenzwerte je Klasse A–G. Er klassiert
+**relativ** zu einem für Ihr Gebäude individuell berechneten Referenzgebäude
+(Ihr Wert / Referenzwert × 100 %). Eine im Internet kursierende feste Zahlen-Tabelle ist falsch.
+
+**Fachlich:** Klasse A = 0–50 % des Referenzwerts, B = 50–100 %, C = 100–150 %, D = 150–200 %,
+E = 200–250 %, F = 250–300 %, G = über 300 % — sowohl für die Gebäudehülle (Referenz:
+SIA-380/1-Neubau-Grenzwert) als auch für die Gesamteffizienz (Referenzgebäude mit 80 % des
+Neubau-Grenzwerts Heizwärme, MFH 28 / EFH 22 kWh/m²a Standard-Strombedarf). Nur die separate
+CO₂-Etikette ist absolut in 5-kg/(m²a)-Schritten klassiert.
+
+**Quelle:** «Normierung des GEAK» v2.1.0, EnDK, 30.3.2023 →
+`[[geak-klassengrenzen-relative-klassierung]]`. Adversarial verifiziert 2026-07-12 (Primärquelle
+Zeile für Zeile bestätigt) — **established**. Ergänzt `[[geak-gebaeudeenergieausweis-kantone]]` (F36).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -1522,7 +1631,24 @@ Seiten nicht — offen.
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
-> **FAQ-Stand 2026-07-11: 40 Kernfragen F1-F40 belegt.** Neu am 2026-07-11 (Run 34): **F40 ‹Solarthermie
+> **FAQ-Stand 2026-07-12: 46 Kernfragen F1-F46 belegt.** Neu am 2026-07-12 (Run 35, TOKEN-VOLLGAS
+> 6-Themen-Batch, lokale PL-04-PDFs erschoepft): **F41 PVT-Hybridkollektoren** (Strom+Waerme kombiniert,
+> lohnt bei knapper Dachflaeche, Kosten widerspruechlich → `[[pvt-hybridkollektoren]]`, emerging),
+> **F42 Solarthermie-Investitionskosten** (reine WW-Anlage CHF 15'000-20'000, Kombianlage unsicher
+> 22'000-40'000 → `[[solarthermie-investitionskosten-ch]]`, emerging), **F43 Komfortlueftung-Normen +
+> Luftmengen** (SIA 382/1:2025 UND SIA 382/5:2021 gelten gemeinsam fuer Wohnbauten, 30/30/20/90 m3/h,
+> Minergie-WRG ≥80%/≥60% → `[[komfortlueftung-wrg-sia382-luftwechsel]]`, adversarial korrigiert:
+> Normen-Geltungsbereich + Minergie-Zitat waren in Erstfassung falsch), **F44 Filterklassen + Strom**
+> (Zuluft ePM1 50%, Abluft Coarse 80%, Stromverbrauch neu ueber EU-1254/2014-Effizienzklasse A/A+ statt
+> altem 0,34-Wh/m3-Wert → `[[komfortlueftung-filterklassen-epm-stromverbrauch]]`, adversarial korrigiert),
+> **F45 Raumluftfeuchte-Komfortbereich** (SIA 180: 30-70% toleriert, Praxis 40-60% Zielband, aktive
+> Befeuchtung nicht noetig → `[[raumluftfeuchte-komfortbereich-sia180]]`, emerging), **F46 GEAK-
+> Klassengrenzen** (GEAK klassiert RELATIV zum individuellen Referenzgebaeude, KEINE festen kWh/m2-Werte,
+> A=0-50%/B=50-100%/... → `[[geak-klassengrenzen-relative-klassierung]]`, adversarial bestaetigt,
+> established). **Methodik-Hinweis:** Erstmals in diesem Loop wurden alle 6 Recherchen einer separaten
+> Adversarial-Verify-Stufe unterzogen (Rule 260712, Verifikations-Stufe) — 3 von 6 "established"-Vorschlaege
+> wurden dabei auf "emerging" zurueckgestuft bzw. inhaltlich korrigiert (veraltete Normzitate/Grenzwerte),
+> 1 als "established" bestaetigt (GEAK). Zuvor am 2026-07-11 (Run 34): **F40 ‹Solarthermie
 > oder Photovoltaik auf dem Dach — und wie mache ich mein Warmwasser?›** — für ein normales Haus mit
 > **Wärmepumpe** ist heute meist **PV + WP-Boiler** besser als eine separate Solarthermie: WP macht das
 > Warmwasser, PV liefert Strom für **alles** (Warmwasser/Heizung/Haushalt/E-Auto), das knappe Dach bleibt

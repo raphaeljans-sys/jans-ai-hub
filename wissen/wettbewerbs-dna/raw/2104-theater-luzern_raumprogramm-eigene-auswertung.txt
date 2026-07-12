@@ -1,0 +1,17 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2104 WB Luzern Theater/12 Raumprogramm/220107_Raumprogramm.pdf (pdftotext -layout, Extrakt 2026-07-12)
+
+       1. Publikum   2. Bühne   3. Orchest   4. Probe   5.Garderobe   6.Gastro   7.Personalräume   8. V-Betrieb   9. B-Technik Total
+
+6.OG   -		239qm		-		-		-		-		-			138qm		212qm		589qm
+5.OG   -		-		227qm		64qm		-		-		458qm			285qm		24qm		1‘058qm
+4.OG   -		47qm		-		66qm		-		-		-			366qm		269qm		748qm
+3.OG   219qm		47qm		-		-		355qm		-		-			179qm		86qm		886qm
+2.OG   231qm		-		-		-		-		-		-			-		-		231qm
+1.OG   963qm		836qm		-		-		-		-		-			-		-		1‘799qm
+EG     166qm		274qm		98qm		247qm		-		546qm		266qm			-		-		1‘597qm
+UG     225qm		796qm		-		-		-		-		-			220qm		395qm		1‘636qm
+
+Total 1‘807qm 2‘239qm           325qm		377qm		355qm		546qm		724qm			1‘188qm          986qm		8‘500qm
+Prog 998qm		1‘696qm             300qm		136qm		270qm		500qm		257qm			772qm		1‘155qm          6‘000qm
+DIV - 809qm   - 543qm           - 25qm		 - 241qm - 85qm		 - 46qm		 - 467qm		 - 466qm +169qm - 2‘500qm
+

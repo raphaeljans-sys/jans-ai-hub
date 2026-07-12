@@ -1,0 +1,1199 @@
+# QUELLE: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2507 WETT TKHL/10 architekt/20 referenzen/04 turnhalle/Turnhalle & Tagesbetreuung BE Bätterkinden 2019/jurybericht_neubau_turnhalle_dorfmatt_mit_tagesschule_batterkinden_s.pdf
+# Extrakt: pdftotext -layout, 12.07.2026. PDF 82 Seiten (A4); hier der Berichtsteil S. 1-29
+# (Ausgangslage, Verfahren, Teilnehmende, Rangierung, Empfehlungen, Wuerdigung, Projektbeschriebe,
+# Genehmigung). Der Anhang (Plaene/Boardtexte der Beitraege, S. 30 ff.) ist NICHT enthalten.
+
+        Neubau Turnhalle Dorfmatt mit
+        Tagesschule, Bätterkinden
+        Projektwettbewerb im selektiven Verfahren
+        Bericht des Preisgerichts
+
+
+
+
+Kunde
+Gemeinde Bätterkinden
+Bahnhofstrasse 4
+3315 Bätterkinden
+
+
+
+Datum
+16. Juli 2019
+Impressum
+
+Datum
+16. Juli 2019
+
+Bericht-Nr.
+06071.300 Bericht Preisgericht
+
+Verfasst von
+Preisgericht / REV
+
+Basler & Hofmann AG
+Ingenieure, Planer und Berater
+
+Forchstrasse 395
+Postfach
+CH-8032 Zürich
+T +41 44 387 11 22
+F +41 44 387 11 00
+
+Bachweg 1
+Postfach
+CH-8133 Esslingen
+T +41 44 387 15 22
+F +41 44 387 15 00
+
+
+
+Verteiler
+Preisgericht
+Publikum
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden
+
+
+
+
+                   Inhaltsverzeichnis
+
+
+                   1.          Ausgangslage und Aufgabenstellung                1
+                   1.1         Ausgangslage                                     1
+                   1.2         Aufgabenstellung und Zielsetzung                 2
+
+                   2.          Verfahren                                        3
+                   2.1         Veranstalterin und Verfahrensbegleitung          3
+                   2.2         Art des Verfahrens und Verfahrensbestimmungen    3
+                   2.3         Preisgericht                                     3
+                   2.4         Termine                                          4
+
+                   3.          Teilnehmende                                     5
+
+                   4.          Eingang Projektvorschläge und Vorprüfung         7
+                   4.1         Projektvorschläge                                7
+                   4.2         Vollständigkeit und Vorprüfung                   7
+
+                   5.          Beurteilung der Projektvorschläge                8
+                   5.1         Zulassung zur Beurteilung                        8
+                   5.2         Individuelle Besichtigung aller Projekte         8
+                   5.3         Weitere Vorprüfungen                             8
+                   5.4         Besichtigung in Gruppen                          8
+                   5.5         Augenschein vor Ort                              8
+                   5.6         Wertungsrundgänge                                8
+
+                   6.          Rangierung und Preisvergabe                      9
+
+                   7.          Empfehlungen des Preisgerichts                  10
+                   7.1         Empfehlung zur Auftragsvergabe                  10
+                   7.2         Empfehlungen für Projektüberarbeitung           10
+
+                   8.          Würdigung                                       11
+
+                   10.         Verfasser                                       11
+
+
+                   11.         Projektbeschriebe                               14
+
+                   12.         Genehmigung                                     29
+
+                               Anhang Pläne der Projektvorschläge
+Basler & Hofmann                Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                            1
+
+
+
+
+                                1. Ausgangslage und Aufgabenstellung
+
+                                1.1 Ausgangslage
+Ausgangslage                    Die Gemeinde Bätterkinden hat auf der Basis des prognostizierten Bedarfs an Schul-
+                                raum ein Entwicklungskonzept für alle schulisch genutzten Gebäude der Gemeinde
+                                Bätterkinden erarbeiten lassen. Kernstück des Entwicklungskonzeptes ist die Erstellung
+                                einer neuen Doppelturnhalle mit integrierten Räumlichkeiten für die Tagesschule auf
+                                der Schulanlage Dorfmatt.
+
+
+                                Zur Realisierung dieses Entwicklungskonzepts veranstaltete die Gemeinde Bätterkin-
+                                den einen selektiven Projektwettbewerb für Generalplaner. Das Verfahren wurde von
+                                September 2018 bis Juli 2019 durchgeführt.
+
+Perimeter                       Die zentral gelegene Schulanlage Dorfmatt besteht aus einem Kindergarten, einem Pri-
+                                marschul-, sowie einem Sekundarschulhaus. Dazu gehört auch das bestehende Sport-
+                                hallengebäude mit einer Turn- und einer Gymnastikhalle. Dieses Sporthallengebäude
+                                befindet sich in einem schlechten baulichen Zustand und soll durch eine neue Doppel-
+                                halle ersetzt werden.
+
+
+
+
+A + B Trakte Primarschule                 K  Kindergarten                    1 Blauer Allwetterplatz               3 Sportplatz
+C     Trakt Sekundatschule                AR Aussengeräteraum Sport          2 Bachlauf, grösstenteils eingedolt   4 Bestehender
+T     Turnhallengebäude                   PP Parkplätze                                                              Naturraum
+HW Hauswartwohnung                              Betrachtungsperimeter                Planungsperimeter
+
+Abb. 1 Planungsperimeter Projektwettbewerb
+       Bestehende Schulanlagen Dorfmatt
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                 2
+
+
+
+
+                   1.2 Aufgabenstellung und Zielsetzung
+Aufgabenstellung   Die selektionierten Teams wurden eingeladen, einen Projektvorschlag für die Erstellung
+                   einer Doppelturnhalle mit Räumlichkeiten für ein Tagesschulangebot einzureichen. Da-
+                   bei waren auch die Aussenräume der Schulanlage in den Gestaltungsvorschlag zu in-
+                   tegrieren. Bei der Aussenraumplanung war ein Sportplatz vorzusehen, der dem heuti-
+                   gen Platz mit seinen Abmessungen entspricht. Dem Aussenraumbezug der Tages-
+                   schule war besondere Beachtung zu schenken.
+
+                   Die Veranstalterin beabsichtigt, das bestehende Turnhallengebäude inklusive der
+                   Hauswartwohnung abzubrechen. Die Positionierung des Neubaus innerhalb des Pla-
+                   nungsperimeters war offen. Es durften neben dem erwähnten Turnhallengebäude mit
+                   Hauswartwohnung und Aussengeräteraum keinesfalls weitere Gebäude für einen Ab-
+                   bruch vorgesehen oder ersetzt werden. Die gesamtheitliche Gestaltung des Aussen-
+                   raums im Bereich von Neubauten einschliesslich der Bereiche entlang der Solothurn-
+                   strasse und Teilbereichen der Zähringerstrasse bildeten einen weiteren wichtigen Teil
+                   der Aufgabenstellung.
+
+                   Bei der Positionierung musste des Weiteren berücksichtigt werden, dass der Regional-
+                   verkehr Bern-Solothurn RBS einen Doppelspurausbau des westlich angrenzenden
+                   Gleistrasses plant. Zudem wird der Planungsperimeter von einem eingedolten Bachlauf
+                   durchquert. Wird der Verlauf dieses eingedolten Bachlaufs von einem vorgeschlagenen
+                   Baukörper tangiert, so ist die Offenlegung und Renaturierung des Bachlaufs mit ent-
+                   sprechenden Kostenfolgen als Bestandteil der Aussenraumplanung zu berücksichtigen
+
+Zielsetzung        Der Projektwettbewerb hatte zum Ziel, das bestmögliche pädagogische, städtebauliche
+                   und architektonische Projekt zu evaluieren. Das Projekt sollte die Anforderungen des
+                   Entwicklungskonzepts für die Schulanlage Dorfmatt möglichst optimal umsetzen, wobei
+                   der Wirtschaftlichkeit der Projekte eine hohe Priorität zugemessen wird. Es wurden
+                   Projektvorschläge erwartet, welche das Raumprogramm kosteneffizient umsetzen und
+                   ein möglichst optimales Kosten- Nutzenverhältnis in der Aussenraumgestaltung errei-
+                   chen. Für den Neubau wird der Standard MINERGIE-P angestrebt.
+Basler & Hofmann                  Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                     3
+
+
+
+
+                                  2. Verfahren
+
+                                  2.1 Veranstalterin und Verfahrensbegleitung
+Veranstalterin                    Veranstalterin ist die Gemeinde Bätterkinden
+
+                                  Gemeinde Bätterkinden
+                                  Bahnhofstrasse 4
+                                  3315 Bätterkinden BE                          Link          www.baetterkinden.ch
+
+
+Verfahrensbegleitung              Die Organisation, Begleitung und Vorprüfung des Projektwettbewerbes erfolgt durch
+                                  Basler & Hofmann AG.
+
+                                  Basler & Hofmann AG
+                                  Ingenieure, Planer und Berater                Tel.          044 387 11 22
+                                  Forchstrasse 395, Postfach                    Link          www.baslerhofmann.ch
+                                  8032 Zürich                                   Tel. direkt   044 387 13 88
+                                  Kontaktperson: Reto Vincenz                   E-Mail        reto.vincenz@baslerhofmann.ch
+
+
+
+                                  2.2 Art des Verfahrens und Verfahrensbestimmungen
+Verfahrensart                     Das Verfahren wurde als anonymer, selektiver Projektwettbewerb für ein General-
+                                  planerteam der Fachrichtungen Architektur, Baumanagement, Landschaftsarchitektur,
+                                  Bauingenieurwesen und HLKSE Planer durchgeführt.
+
+Verfahrensbestimmungen            Die Ausschreibung untersteht dem GATT / WTO-Übereinkommen über das öffentliche
+                                  Beschaffungswesen vom 15. April 1994. Es gelten die Bestimmungen der Interkantona-
+                                  len Vereinbarung über das öffentliche Beschaffungswesen (IVöB) vom 25. 11.1994 /
+                                  Stand 01.07.2010, das Gesetz über das öffentliche Beschaffungswesen (ÖBG) vom
+                                  11.06.2002 / Stand 01.10 2014 sowie der Verordnung über das öffentliche Beschaf-
+                                  fungswesen (ÖBV) des Kantons Bern vom 16.10.2002 / Stand 01.01.2015.
+
+Grundlagen                        Grundlage für den Projektwettbewerb im selektiven Verfahren bildete das Wettbe-
+                                  werbsprogramm mit den allgemeinen Bestimmungen und der projektbezogenen Aufga-
+                                  benstellung vom 11. Januar 2019.
+
+
+
+                                  2.3 Preisgericht
+                                  Zur Beurteilung der Ergebnisse des Projektwettbewerbes setzte die Auftraggeberin fol-
+                                  gendes Preisgericht ein:
+
+Fachpreisrichterinnen und Fach-   _ Mattias Boegli, Boegli Kramp Architekten AG (Vorsitz)
+preisrichter
+                                  _ Adrian Kast, Kast Kaeppeli Architekten GmbH
+                                  _ Charlotte Altermatt, Müller Wildbolz Partner GmbH, Landschaftsarchitektur
+                                  _ Stefan Graf, Bauart Architekten AG (Ersatz)
+Basler & Hofmann                   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                              4
+
+
+
+
+Sachpreisrichterinnen und Sach-    _ Beat Linder, Gemeindepräsident
+preisrichter
+                                   _ Thomas Nyffenegger, Gemeinderat, Ressortvorsteher Finanzen
+                                   _ Karin Althaus, Vizepräsidentin Bau- und Liegenschaftskommission (Ersatz)
+
+Experten und Expertinnen (ohne     _ Beat Geiger, Bauverwalter / Stv. Geschäftsleiter
+Stimmrecht)
+                                   _ Urs Bill, Schulleitung
+                                   _ Marco Schneider, Präsident Turnverein
+                                   _ Verena Heuer, Leitung Tagesschule
+                                   _ Rolf Herzog, Leiter Hauswartung
+                                   _ Andreas Zwygart, Mitarbeiter Hauswartung
+
+Verfahrensbegleitung und Vorprü-   _ Reto Vincenz, Architekt Basler & Hofmann, Baurecht und Projektanforderungen
+fung
+                                   _ Tobias Kraft, Basler & Hofmann, Experte Energie / Nachhaltigkeitsbeurteilung
+                                   _ Evangelia Schoretsaniti, Basler & Hofmann, Expertin Brandschutz
+                                   _ Jana Michels, Basler & Hofmann, Expertin Gewässerbau
+                                   _ Peter Frischknecht, PBK AG Zürich, Bauökonom
+
+Beurteilungskriterien              Die eingereichten Arbeiten wurden durch das Preisgericht nach folgenden Kriterien stu-
+                                   fengerecht beurteilt (Reihenfolge ohne Gewichtung):
+                                   _ Städtebaubauliches Gesamtkonzept
+                                   _ Architektonisches Gesamtkonzept
+                                   _ Landschaftsarchitektonisches Gesamtkonzept
+                                   _ Berücksichtigung der betrieblichen Anforderungen
+                                   _ Wirtschaftlichkeit / Nachhaltigkeit
+
+
+
+                                   2.4 Termine
+                                   Für das beschriebene Verfahren waren folgende Termine massgebend
+
+                                    Präqualifikation
+
+                                    Publikation 1. Phase                                           28. September 2018
+
+                                    Frist zur Einreichung der Teilnahmeanträge                     9. November 2018
+
+                                    Benachrichtigung Bewerber durch Verfügung                      14. Dezember 2018
+
+                                    Projektwettbewerb
+
+                                    Versand der Unterlagen Projektwettbewerb                       11. Januar 2019
+
+                                    Frist für Eingang schriftlicher Fragen                         25. Januar 2019
+
+                                    Versand der Beantwortung aller gesammelten Fragen              8. Februar 2019
+
+                                    Frist für Eingang Projektvorschlag (Dokumente / Pläne)         10. Mai 2019
+
+                                    Frist für Eingang Modelle                                      17. Mai 2019
+
+                                    Beurteilung der Wettbewerbsbeiträge                            13. Juni 2019
+
+                                    Publikation Bericht des Preisgerichts, Ausstellungseinladung   Juli / August 2019
+
+                                    Öffentliche Ausstellung                                        Juli / August 2019
+
+                                   Tab. 1 Termine
+                                   Präqualifikation und Wettbewerb
+Basler & Hofmann            Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                             5
+
+
+
+
+                            3. Teilnehmende
+
+Teilnehmende                Aufgrund der fristgerecht eingereichten Bewerbungsunterlagen hat das Preisgericht die
+(Selektion November 2019)   Selektion nach Eignung vorgenommen. Es wurden folgende Planerteams für den Pro-
+                            jektwettbewerb ausgewählt:
+
+
+                            _ E2A Piet Eckert und Wim Eckert Architekten ETH BSA SIA AG, 8048 Zürich
+                              mit:
+                               Cockpit Projektmanagement AG, Zürich
+                               Vetschpartner Landschaftsarchitekten AG, Zürich
+
+                            _ Kuhlbrodt & Peters Architekten,8045 Zürich
+                              mit:
+                              Ortech Sàrl, Neuchâtel
+                              Hoffmann & Müller Landschaftsarchitektur, Zürich
+
+                            _ Comamala Ismail Architectes, 2502 Biel
+                              mit:
+                              Itten + Brechbühl AG, Bern
+                              Metron Bern AG, Bern
+
+                            _ MAK Architectures AG, 8005 Zürich (Nachwuchsteam)
+                              mit:
+                              Hochbaumanagement RS2 AG, Zürich
+                              Kolb Landschaftsarchitektur, Zürich
+
+                            _ Gschwind Architekten BSA SIA, 4051 Basel
+                              mit:
+                              C2m Architekten, Olten
+                              Meta Landschaftsarchitektur, Basel
+
+                            _ Lorenz Architekten, 4057 Basel
+                              mit:
+                              Lehmann AG Baumanagement, Langnau
+                              METTELR Landschaftsarchitektur AG, Gossau
+
+                            _ Ern + Heinzl Architekten, 4500 Solothurn
+                              mit:
+                              Caretta Weidmann Baumanagement AG, Zürich
+                              Dardelet Landschaftsarchitektur GmbH, Egg bei Zürich
+
+                            _ Phalt Architekten, 4500 Solothurn
+                              mit:
+                              Anderegg Partner AG, Bellach
+                              Maurus Schifferli Landschaftsarchitekten AG, Bern
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                               6
+
+
+
+
+                   _ Fiechter & Salzmann Architekten GmbH, 8004 Zürich
+                      mit:
+                      Hauri Baumanagement AG, Aarau
+                      Andreas Geser Landschaftsarchitekten AG, Zürich
+
+                   _ Rahbaran Hürzeler Architekten, 4056 Basel
+                      mit:
+                      Rapp Architekten, Münchenstein
+                      Bryum GmbH, Basel
+
+
+
+Ersatzteams        Folgende Teams wurden als Ersatz nominiert, falls ein qualifiziertes Team die Teil-
+                   nahme am Wettbewerb absagt:
+
+                   _ Meyer Gadient Architekten AG, 6004 Luzern
+                      mit:
+                      Schärli Architekten AG
+                      Appert Zwahlen Partner AG, Landschaftsarchitekten
+
+                   _ architektick , 8047 Zürich
+                      mit:
+                      Andreas Akeret Baumanagement GmbH
+                      Sima / Breer Landschaftsarchitektur
+
+                   Alle selektierten Teams haben ihre Teilnahme am Projektwettbewerb zugesagt, so
+                   dass kein Ersatzteam aufgeboten werden musste.
+Basler & Hofmann                    Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                               7
+
+
+
+
+                                    4. Eingang Projektvorschläge und Vorprüfung
+
+                                    4.1 Projektvorschläge
+                                    Innerhalb der gesetzten Frist wurden folgende Projektvorschläge unter den angegebe-
+                                    nen Kennworten rechtzeitig und anonym eingereicht (Reihenfolge nach Eingang):
+
+Liste Projektvorschläge             1     STÖCK WYYS STICH
+                                    2     PAUSENBROT
+                                    3     ANDREA
+                                    4     HIBOU
+                                    5     FALTWERK
+                                    6     NEIGHBOURHOOD
+                                    7     TOM & JERRY
+                                    8     LES TROIS MOUSQUETAIRES
+                                    9     MATEO
+                                    10    SQUAMA
+
+
+
+                                    4.2 Vollständigkeit und Vorprüfung
+                                    Grundlage für die Vorprüfungen bildete das Wettbewerbsprogramm vom 11. Januar
+                                    2019 und die Fragebeantwortung vom 8. Februar 2019.
+
+Eingangsprüfung / Vollständigkeit   Sämtliche Teilnehmenden haben die verlangten Unterlagen (Plandokumente, Berech-
+                                    nungen, Modell) termingerecht, anonym und vollständig eingereicht. Einzelne Eingaben
+                                    wiesen geringfügige Abweichungen bezüglich Vollständigkeit auf.
+
+Vorprüfung                          Die Vorprüfung erfolgte vom 13. Mai bis 6. Juni 2019 durch verschiedene Experten und
+                                    wurde in einem Vorprüfungsbericht zuhanden des Preisgerichts dokumentiert. Der Be-
+                                    richt enthält folgende Themen:
+                                    _ Resultate der baurechtlichen Vorprüfung
+                                    _ Resultate der Vorprüfung Raumprogramm
+                                    _ Resultate der Vorprüfung Anforderungen Betrieb
+                                    _ Vorprüfung Minergie-P-ECO / Energiekonzept
+                                    _ Resultate Vorprüfung Bachrenaturierung
+                                    _ Resultate Vorprüfung Brandschutz
+Basler & Hofmann         Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                   8
+
+
+
+
+                         5. Beurteilung der Projektvorschläge
+
+                         Das Preisgericht tritt am 13. und 14. Juni 2019 zur Beurteilung der Projektvorschläge
+                         zusammen. Der Anlass findet in der Saalanlage Bätterkinden SAB statt. Das Preisge-
+                         richt ist vollzählig und beschlussfähig.
+
+                         5.1 Zulassung zur Beurteilung
+Bericht der Vorprüfung   Das Preisgericht nimmt zunächst Kenntnis von den Ergebnissen der Vorprüfung. Die
+                         formellen und inhaltlichen Mängel einzelner Projektvorschläge werden als geringfügig
+                         eingestuft. Das Preisgericht beschliesst, alle Projektvorschläge für die folgende Beurtei-
+                         lung zuzulassen.
+
+                         5.2 Individuelle Besichtigung aller Projekte
+                         Um sich einen allgemeinen Überblick über die Projekte zu verschaffen, findet eine indi-
+                         viduelle Besichtigung aller Projektbeiträge durch die Anwesenden statt.
+
+                         5.3 Weitere Vorprüfungen
+Wirtschaftlichkeit       Die bauökonomische Grobbeurteilung der Projekte wird durch Peter Frischknecht,
+                         Firma PBK AG, zuhanden des Preisgerichts vorgestellt.
+
+                         5.4 Besichtigung in Gruppen
+                         Das Preisgericht und die Experten formieren sich zu Gruppen, denen einzelne Projekte
+                         zugeteilt werden. Daraufhin werden die Projekte durch die Gruppen wertungsfrei auf
+                         die Zielsetzungen untersucht.
+
+                         5.5 Augenschein vor Ort
+                         Anschliessend begibt sich das Preisgericht zur Schulanlage Dorfmatt, um als Vorberei-
+                         tung der Wertungsrundgänge den Projektperimeter vor Ort zu besichtigen.
+
+                         5.6 Wertungsrundgänge
+1. Wertungsrundgang      Die einzelnen Projekte werden durch die Fachpreisrichter gemäss Gruppeneinteilung
+                         allen vorgestellt, unter detaillierter Erwähnung der Vorprüfungsresultate. Nach der an-
+                         schliessenden Diskussion beschliesst das Preisgericht, die folgenden Projekte nicht
+                         mehr in einem zweiten Rundgang zu bewerten und von der weiteren Beurteilung aus-
+                         zuscheiden.
+                         _ Pausenbrot
+                         _ Andrea
+                         _ Hibou
+                         _ Neighbourhood
+                         _ Les trois mousquetaires
+Basler & Hofmann      Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                              9
+
+
+
+
+2. Wertungsrundgang   Zweiter Wertungsrundgang mit Diskussion und Beschluss des Preisgerichtes. Folgen-
+                      des Projekt wird nicht mehr in weiteren Rundgängen bewertet und ist ausgeschieden:
+                      _ Tom & Jerry
+
+
+                      Auf einen Rückkommensantrag hin unterzieht das Preisgericht das folgende Projekt
+                      (ausgeschieden im ersten Rundgang) einer erneuten Prüfung. Das Preisgericht be-
+                      schliesst, das Projekt nach dem zweiten Rundgang nicht mehr weiter zu beurteilen:
+                      _ Les trois mousquetaires
+
+                      Für die Rangierung und Preisvergabe verbleiben folgende Projekte:
+                      _ Stöck Wyys Stich
+                      _ Faltwerk
+                      _ Mateo
+                      _ Squama
+
+
+
+                      6. Rangierung und Preisvergabe
+
+Rangierung            Nach einer sorgfältigen Abwägung der Argumente beschliesst das Preisgericht fol-
+                      gende Rangierung. Der Beschluss erfolgt nach Mehrheitsentscheid:
+                      _ 1. Rang: Faltwerk
+                      _ 2. Rang: Stöck Wyys Stich
+                      _ 3. Rang: Mateo
+                      _ 4. Rang: Squama
+
+Preisvergabe          Für Preise und Ankäufe stand im Rahmen dieses Projektwettbewerbs eine gesamte
+                      Preissumme von 100‘000.- CHF inkl. MWST zur Verfügung. Aus dieser Summe spricht
+                      das Preisgericht jedem zur Beurteilung zugelassenen Beitrag eine feste Entschädigung
+                      von 3‘000.- CHF inkl. MWST zu. Die verbleibende Summe wird vollständig als Preise
+                      auf die rangierten Beiträge aufgeteilt. Das Preisgericht beschliesst folgende Rangie-
+                      rung und Preiszuteilung. Die Preisvergabe erfolgt einstimmig:
+
+                      1. Rang I 1. Preis                    Faltwerk                       28'000.- CHF
+                      2. Rang I 2. Preis                    Stöck Wyys Stich               20'000.- CHF
+                      3. Rang I 3. Preis                    Mateo                          12'000.- CHF
+                      4. Rang I 4. Preis                    Squama                         10'000.- CHF
+                      2. Rundgang / ohne Preis              Les trois mousquetaires
+                      2. Rundgang / ohne Preis              Tom & Jerry
+                      1. Rundgang / ohne Preis              Andrea
+                      1. Rundgang / ohne Preis              Hibou
+                      1. Rundgang / ohne Preis              Neighbourhood
+                      1. Rundgang / ohne Preis              Pausenbrot
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                 10
+
+
+
+
+                   7. Empfehlungen des Preisgerichts
+
+                   7.1 Empfehlung zur Auftragsvergabe
+                   Das Preisgericht empfiehlt der Veranstalterin, die Verfasser des erstrangierten Projekt-
+                   vorschlags mit der Planung und Realisierung des Projekts zu beauftragen.
+
+                   7.2 Empfehlungen für Projektüberarbeitung
+                   Das Preisgericht empfiehlt den Verfassern des erstrangierten Projekts, in die weitere
+                   Bearbeitung folgende Hinweise einfliessen zu lassen.
+
+                   Architektur und Städtebau:
+                   _ Die Positionierung des Baukörpers ist bezüglich des relativ geringen Abstandes zur
+                     Zugangssituation des Sekundarschulhauses räumlich zu optimieren.
+                   _ Bei der allseitig gleichwertigen Breite des umlaufenden Dachüberstandes ist zu prü-
+                     fen, ob eine Variation dieser Breite einen aussenräumlichen Mehrwert schafft.
+
+                   Betrieb:
+                   _ Die räumliche Organisation der Tagesschule ist mit den Projektverantwortlichen der
+                     Auftraggeberin zu prüfen.
+                   _ Der innere Übergang des Windfangs ist bezüglich räumlicher Qualität zur anschlies-
+                     senden Offenheit des Foyers / Galerie zu prüfen.
+                   _ Die Aspekte des Brandschutzes und der Entfluchtung aus allen Hallenteilen, im offe-
+                     nen wie im geteilten Zustand, sind gem. gesetzlichen Vorgaben zu überprüfen.
+
+                   Aussenraum:
+                   _ Die südlichen Velounterstände sind neu zu platzieren.
+                   _ Der Aussengeräteraum ist näher beim Allwetterplatz zu platzieren.
+                   _ Die Übergangssituation zur Solothurnstrasse ist zu klären.
+
+                   Die Auftraggeberin behält sich vor, die Qualität der überarbeiteten Punkte durch das
+                   Preisgericht noch einmal beurteilen zu lassen. Der Zeitpunkt und die personelle Zu-
+                   sammensetzung des Preisgerichts werden phasengerecht festgelegt.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                11
+
+
+
+
+                   8. Würdigung
+
+                   Insgesamt haben alle zehn präqualifizierten Büros ihre Beiträge fristgerecht einge-
+                   reicht. Das Preisgericht dankt allen Teilnehmenden für ihre interessanten und engagier-
+                   ten Beiträge. Alle Verfassenden haben sich erkennbar intensiv mit den Nutzungsanfor-
+                   derungen und den städtebaulichen Aspekten der bestehenden Schulanlage befasst.
+                   Die Beiträge weisen dadurch durchgängig ein hohes Bearbeitungsniveau und eine
+                   überraschende Bandbreite von ortsbaulichen und architektonischen Konzepten auf.
+                   Dies hat zu teilweise interessanten Ansätzen geführt, welche dem Preisgericht eine in-
+                   tensive Auseinandersetzung während der Jurierung ermöglicht hat. Angesichts der
+                   Vielfalt der Projektvorschläge und des hohen Bearbeitungsstandes stellt das Preisge-
+                   richt mit Befriedigung fest, dass mit dem Projektwettbewerb ein wesentlicher Beitrag
+                   zur Zielerreichung geleistet wurde. Wir wünschen der Gemeinde Bätterkinden mit dem
+                   erstrangierten Beitrag viel Erfolg
+
+
+
+                   9. Verfasser
+
+                   Die Öffnung der Verfassercouverts ergibt folgende Zuordnung der Projekte zu den Ver-
+                   fassern:
+
+                                                   Kennwort: Faltwerk
+                   Architektur                     MAK architecture AG, 8005 Zürich
+                   Verantwortlich                  Marcia oder Mirko Akermann
+                   Baumanagement                   Hochbau Baumanagement RS2 AG, 8005 Zürich
+                   Verantwortlich                  Ricardo Schmid
+                   Landschaftsarchitektur          KOLB Landschaftsarchitektur GmbH, 8005 Zürich
+                   Verantwortlich                  Thomas Kolb
+                   Bauingenieure                   Ingeni AG Zürich, 8005 Zürich
+                   Verantwortlich                  Francesco Snozzi
+                   HLKSE                           Todt Gmür + Partner AG, 8952 Schlieren
+                   Verantwortlich                  Kurt Hildebrand
+
+                                                   Kennwort: Stöck Wyys Stich
+                   Architektur                     COMAMALA ISMAIL ARCHITECTES, 2502 Biel/Bienne
+                   Verantwortlich                  Ismail-Meyer Toufiq
+                   Baumanagement                   Itten + Brechbühl AG, 3013 Bern
+                   Landschaftsarchitektur          Metron Bern AG, 3001 Bern
+                   Bauingenieure                   WAM Planer und Ingenieure AG, 3005 Bern
+                   HLKSE                           Amstein + Walthert Bern AG, 3001 Bern
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                12
+
+
+
+
+                                                   Kennwort: Mateo
+                   Architektur                     ern + heinzl Architekten, 4500 Solothurn
+                   Verantwortlich                  Christiane Ern, Simeon Heinzl
+                   Baumanagement                   Caretta + Weidmann Baumanagement AG, 8047 Zürich
+                   Verantwortlich                  Rafael Caretta
+                   Landschaftsarchitektur          Dardelet Landschaftsarchitektur, 8132 Elgg b. Zürich
+                   Verantwortlich                  Jean Dardelet
+                   Bauingenieure                   Schnetzer Puskas Ingenieure, 8003 Zürich
+                   Verantwortlich                  Stefan Bänziger
+                   HLKSE                           Gruner Roschi AG, 3098 Köniz
+                   Verantwortlich                  Mario Flühmann
+
+                                                   Kennwort: Squama
+                   Architektur                     phalt Architekten AG, 4500 Solothurn
+                   Verantwortlich                  Cornelia & Mike Mattiello, Frank Schneider,
+                                                   Michal Wasielewski
+                   Baumanagement                   Anderegg Partner AG, 4512 Bellach
+                   Verantwortlich                  Matthias Anderegg
+                   Landschaftsarchitektur          Maurus Schifferli, Landschaftsarchitekten AG,
+                                                   3011 Bern
+                   Verantwortlich                  Maurus Schifferli, Federica Mattei, Melina Kistani
+                   Bauingenieure                   Makiol Wiederkehr AG, 5712 Beinwil am See
+                   Verantwortlich                  Christoph Blättler, Adrian Riedweg
+                   HLKSE                           Enerconom AG, 3001 Bern
+                   Verantwortlich                  Roni Hess, Stephan Kellerhals
+
+                                                   Kennwort: Les trois mousquetaires
+                   Architektur                     Gschwind Architekten BSA SIA, 4051 Basel
+                   Baumanagement                   C2m architekten GmbH, 4600 Olten
+                   Landschaftsarchitektur          Meta Landschaftsarchitektur, 4055 Basel
+                   Bauingenieure                   ZPF Ingenieure AG, 4051 Basel
+                   HLKSE                           Waldhauser + Hermann AG, 4142 Münchenstein
+                   Verantwortlich
+
+                                                   Kennwort: Tom & Jerry
+                   Architektur                     Kuhlbrodt & Peters Architekten, 8045 Zürich
+                   Verantwortlich                  Susanne Kuhlbrodt
+                   Baumanagement                   Ortech Sàrl, 2000 Neuchâtel
+                   Verantwortlich                  Roland Beuchat
+                   Landschaftsarchitektur          Hoffmann & Müller LA, 8003 Zürich
+                   Verantwortlich                  Andreas Hoffmann
+                   Bauingenieure                   EBP Schweiz AG, 8032 Zürich
+                   Verantwortlich                  Daniel Rüegg
+                   HLKSE                           EBP Schweiz AG, 8032 Zürich
+                   Verantwortlich                  Mirco Stillhart + Oliver Blank
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                13
+
+
+
+
+                                                   Kennwort: Andrea
+                   Architektur                     Fiechter & Salzmann Architekten GmbH, 8004 Zürich
+                   Baumanagement                   Hauri Baumanagement AG, 5000 Aarau
+                   Landschaftsarchitektur          Andreas Geser Landschaftsarchitekten AG,
+                                                   8004 Zürich
+                   Bauingenieure                   WMM Ingenieure AG, 4142 Münchenstein
+                   HLKSE                           Amstein + Walthert AG, 8050 Zürich
+                   Verantwortlich
+
+                                                   Kennwort: Hibou
+                   Architektur                     Lorenz Architekten, 4057 Basel
+                   Verantwortlich                  Matthias Lorenz
+                   Baumanagement                   Lehmann AG, 3530 Langnau
+                   Landschaftsarchitektur          Mettler Landschaftsarchitektur AG, 9200 Gossau
+                   Bauingenieure                   Schnetzer Puskas Ingenieure, 4010 Basel
+                   HLKSE                           Ingenieurbüro Stefan Graf, 4051 Basel
+
+                                                   Kennwort: Neighbourhood
+                   Architektur                     ESA / Piet Eckert und Wim Eckert Architekten,
+                                                   8048 Zürich
+                   Baumanagement                   Cockpit Projektmanagement AG, 8005 Zürich
+                   Landschaftsarchitektur          vetschpartner Landschaftsarchitekten AG, 8001 Zürich
+                   Bauingenieure                   Schnetzer Puskas Ingenieure AG, 4010 Basel
+                   HLKSE                           Todt Gmür + Partner AG, 8952 Schlieren
+
+                                                   Kennwort: Pausenbrot
+                   Architektur                     Rahbaran Hürzeler Architekten, 4056 Basel
+                   Baumanagement                   Rapp Architekten AG, 4142 Münchenstein
+                   Landschaftsarchitektur          Bryum GmbH, 4057 Basel
+                   Bauingenieure                   ZPF Ingenieure AG, 4051 Basel
+                   HLKSE                           Rapp Infra AG, 4018 Basel
+Basler & Hofmann            Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                             14
+
+
+
+
+                            10. Projektbeschriebe
+
+                            Projekt FALTWERK
+                            1. Rang / 1. Preis
+
+
+
+
+                            Situationsmodell 1:500                                                       FALTWERK
+
+
+
+
+Städtebau                   Das Projekt "Faltwerk" schlägt einen Neubau vor, in welchem die Turnhalle und Tages-
+                            schule unter einem Dach organisiert sind. Städtebaulich rückt das Volumen von der So-
+                            lothurnstrasse zurück und schafft einen grossen Aussenbereich mit Allwetterplatz, der
+                            sich zum Arealzugang öffnet. Die Verfasser setzen sich damit mit dem grossen Neubau
+                            bewusst von den eher kleinteiligen Gebäudestrukturen entlang der Solothurnstrasse ab
+                            und bilden mit der bestehenden Schulanlage, die sich ebenfalls in die Tiefe der Par-
+                            zelle entwickelt, ein neues Ensemble. Auf der Westseite wird genügend Freiraum be-
+                            lassen, um den bestehenden Bach offenzulegen und zu renaturieren. Dieser Bereich
+                            steht in einem wohltuenden Kontrast zu den eher harten Aussenbereichen vor dem
+                            Neubau auf der Zugangsseite.
+
+Architektonisches Konzept   Durch die halbversenkte Turnhalle und das markante Walmdach tritt das horizontale
+                            Gebäude mit grosser Platzfassade als prägende Silhouette in Erscheinung, ohne das
+                            bestehende Schulgebäude zu konkurrenzieren. Unter dem grossen Dach, das allseitig
+                            vorspringt, öffnet sich das Gebäude zu den umliegenden Pausenflächen und lässt Ein-
+                            blicke in den Turnhallenbetrieb zu. Entsprechend klar ist das Gebäude konstruktiv auf-
+                            gebaut in einen versenkten Teil im Untergeschoss in Beton, die offene Zugangsebene
+                            mit einer rundumlaufenden Stützenkonstruktion und die Dachkonstruktion aus Brett-
+                            schichtholzträgern. Beim Eintritt ins Gebäude auf die Zuschauergalerie kann der ge-
+                            samte Innenraum mit der offenen Dachkonstruktion überblickt werden. Die Fortführung
+                            der Dachträger oberhalb der Tagesschule wird durch Oberlichtbänder bei der Gardero-
+                            benschicht wahrnehmbar.
+Basler & Hofmann                      Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                  15
+
+
+
+
+Landschaftsarchitektur                Der gebäudenahe Aussenraum gliedert sich klar in befestigte Erschliessungs- und
+                                      Durchgangsflächen und chaussierte Aufenthalts- und Spielflächen, in welche der All-
+                                      wetterplatz integriert ist. Der alte Baumbestand wird durch einzelne Bäume ergänzt,
+                                      wodurch ein Baumdach geschaffen wird, das differenzierte Aufenthaltsbereiche schafft.
+                                      Etwas ungünstig erscheint jedoch die Lockerheit der Baumsetzung im Bereich der So-
+                                      lothurnstrasse, in diesem Bereich wäre ein klarerer, starker Abschluss zur Strasse wün-
+                                      schenswert.
+                                      Zu den Sportanlagen und dem Kindergarten findet der gebäudenahe Aussenraum ei-
+                                      nen präzisen Abschluss, welcher trotz seiner Klarheit nicht trennend wirkt. Die im Sü-
+                                      den liegenden Sportanlagen sind kompakt und funktional angelegt. Die Doppelnutzung
+                                      Spielfeld und Laufbahn ist zu präzisieren. Der renaturierte Bach verläuft entlang der
+                                      Westgrenze und quert die Anlage südlich des Neubaus, wodurch er gleichzeitig den
+                                      Aussenbereich Tagesschule auf natürliche Weise abgrenzt und attraktive, kleinteilige
+                                      Räume schafft ohne die Anlage zweizuteilen.
+                                      Das Preisgericht beurteilt das Bemühen den Allwetterplatz zu erhalten als kritisch, eine
+                                      grössere Flexibilität in der Platzierung des Platzes käme der Differenzierung der Auf-
+                                      enthalts- und Spielflächen zu Gute.
+
+Betriebliche Anforderungen            Der Haupteingang befindet sich zwischen den beiden Nutzungseinheiten der Tages-
+                                      schule und der Turnhalle. Folgerichtig ist die Tagesschule auf die Südseite orientiert
+                                      gegen die grosse Grünfläche. Man betritt den Neubau auf der Zuschauergalerie der
+                                      Turnhalle, welche gleichzeitig als Vorzone für die Tagesschule mit Garderoben dient.
+                                      Diese zwei unterschiedlichen Bereiche werden durch einen Nasszellenkern und der Er-
+                                      schliessungstreppe der Garderoben räumlich gegliedert. Unterhalb der Zuschauergale-
+                                      rie und der Tagesschule sind die Garderoben für die Turnhallennutzung auf Hallen-
+                                      ebene zweckmässig angeordnet. Dadurch, dass die Anlieferung zur Tagesschule der
+                                      südseitigen Parzellengrenze entlanggeführt wird, kann zugefahren werden, ohne den
+                                      Schulbetrieb auf den Aussenanlagen zu beeinträchtigen.
+
+Wirtschaftlichkeit / Nachhaltigkeit   Das Projekt Faltwerk weist im Vergleich zu den Konkurrenzprojekten eine geringe
+                                      Grundfläche auf, hat jedoch ein überdurchschnittlich grosses Gebäudevolumen. Durch
+                                      die Platzierung des Neubaus kann auf ein Turnhallenprovisorium während der Bauzeit
+                                      verzichtet werden. Der Rückbau der bestehenden Turnhalle kann erfolgen, nachdem
+                                      der Neubau in Betrieb genommen wurde. Die Tragkonstruktion aus Holz und die Ver-
+                                      wendung von mehrheitlich natürlichen Materialien ermöglichen eine effiziente und
+                                      nachhaltige Umsetzung. Durch die Organisation des Programms in einem kompakten
+                                      Volumen und die damit verbundene Reduktion der Fassadenfläche kann von einer Op-
+                                      timierung der Erstellungskosten ausgegangen werden.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                16
+
+
+
+
+Gesamtwürdigung    Das Projekt besticht durch die klare und nachvollziehbare städtebauliche Setzung und
+                   durch die neue Aussenraumgliederung des Gesamtareals mit der Öffnung der Schulan-
+                   lage zur Solothurnstrasse. Das Gebäude ist übersichtlich organisiert und architekto-
+                   nisch sowohl Aussen wie auch im Innern atmosphärisch durch die grosse Offenheit und
+                   den Materialeinsatz der Brettschichtholzkonstruktion sehr stimmig umgesetzt. Städte-
+                   baulich wäre wünschenswert, wenn der Zugang zum bestehenden Sekundarschulge-
+                   bäude durch die exakte Positionierung des Neubaus gestärkt würde und in die volumet-
+                   rische Aussenraumbildung besser eingebunden werden könnte.
+Basler & Hofmann            Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                               17
+
+
+
+
+                            Projekt STÖCK WYYS STICH
+                            2. Rang / 2. Preis
+
+
+
+
+                            Situationsmodell 1:500                                                STÖCK WYYS STICH
+
+
+
+
+Städtebau                   Das Projekt "Stöck Wyys Stich“ schlägt südlich des bestehenden Schulgebäudes zwei
+                            Gebäudevolumen vor; die Doppelturnhalle im westlichen Bereich an den Geleisen und
+                            die Tagesschule parallel zur Solothurnstrasse. Damit spannen sie zusammen mit der
+                            bestehenden Schule eine grosszügige zentrale Freiraumsituation auf, an welcher sämt-
+                            liche Eingänge angeordnet sind. Das Tagesschulgebäude mit steilem Walmdach
+                            schliesst die Schulanlage zur Strasse hin stimmig ab.
+
+Architektonisches Konzept   Die Volumetrie des Tagesschulgebäudes orientiert sich insbesondere mit der Dachform
+                            an den vorgefundenen wenigen Zeitzeugen der Bauernhäuser im Strassendorf. Die ge-
+                            duckte Erscheinung der Doppelturnhalle mit ihrer speziellen Dachform ist eigenständig.
+                            Die äussere Erscheinung der beiden Baukörper mit den grossen Verglasungen, den
+                            Betonstützen und der Faserzementdacheindeckung ist äusserst dunkel gehalten. Der
+                            Innenraum der beiden Turnhallen wird durch Holzoberflächen geprägt.
+
+Landschaftsarchitektur      Mit dem starken freiraumbezogenen städtebaulichen Konzept entstehen differenzierte
+                            Aufenthaltsbereiche und ein klares, alles verbindendes Wegsystem mit grosser Quali-
+                            tät. Das Herzstück der Anlage bildet der zentrale Platz, welcher durch den renaturierten
+                            Bach geprägt wird und einen sehr grünen Charakter aufweist. Einzelne befestigte Auf-
+                            enthaltsflächen in kreisrunder Form werden in die Grünflächen eingeschoben. Deren
+                            Formensprache ist für das Preisgericht jedoch schwer nachvollziehbar und die einge-
+                            schobenen Flächen wirken fragmentierend, wodurch der Konzeptansatz des zentralen
+                            Platzes geschwächt wird. Die Sportanlagen werden konzentriert im südlichen Bereich
+                            der Anlage angeordnet.
+Basler & Hofmann                      Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                 18
+
+
+
+
+Betriebliche Anforderungen            Vom Pausenplatz her gelangt man unter einem auf der gesamten Gebäudebreite ge-
+                                      deckten Vorbereich in den Eingangsbereich mit Zuschauergalerie der stringent organi-
+                                      sierten Doppelturnhalle. Eine Treppe führt direkt in den knappen Erschliessungsgang
+                                      im Untergeschoss, an welchem, effizient organisiert, sämtliche Garderoben und WC-
+                                      Anlagen angeordnet sind. Gegenüber befinden sich die beiden Geräteräume, bei wel-
+                                      chen eine interne Verbindung wünschenswert wäre. Über der Geräteräumzone im Erd-
+                                      geschoss werden die Aussensportgeräte und die der Schule zu stark abgewandten
+                                      Hauswarträume angeboten.
+                                      Die symmetrisch organisierte Tagesschule betritt man ebenfalls vom zentralen Pausen-
+                                      platz her über eine kleine, gedeckte Vorzone und gelangt in einen zu knapp bemesse-
+                                      nen Erschliessungsgang ohne Eingangsbereich. An den beiden Gebäudeenden sind
+                                      stimmig die beiden sich überhoch ins Dach entwickelnden Aufenthaltsräume situiert,
+                                      die ostseitig über eine Art Enfilade verbunden sind. Das grosse Dachvolumen über
+                                      dem Erdgeschoss wird leider nicht genutzt, Angaben dazu fehlen in den Planunterla-
+                                      gen.
+
+Wirtschaftlichkeit / Nachhaltigkeit   Durch die Setzung der neuen Doppelturnhalle im Westen, kann die bestehende Turn-
+                                      halle abgebrochen werden, ohne dass dafür ein Provisorium nötig ist. In einer zweiten
+                                      Bauetappe kann das Tagesschulgebäude erstellt werden.
+                                      Für die Dachkonstruktion der Doppelturnhalle wird eine Mischbauweise vorgeschlagen.
+                                      Die allseitig im Randbereich abschrägten Dachflächen sind in Beton, das Mittelfeld mit
+                                      Holzträger konstruiert. Die Dachkonstruktion wird über filigrane Stützen und wenige
+                                      Betonscheiben im mehrheitlich verglasten Erdgeschoss ins in Massivbauweise ausge-
+                                      führten Untergeschoss abgeleitet. Insgesamt ein sehr aufwändiger und teurer Vor-
+                                      schlag.
+                                      Die Konstruktion des Tagesschulgebäudes wird mit einer zweischaligen Betonfassade
+                                      und einem Walmdach in Holzbauweise vorgeschlagen. Die Lastabtragung des Daches
+                                      erfolgt grundsätzlich über die vier Gebäudeecken. Das statische Konzept dieses Ge-
+                                      bäudes ist kaum nachvollziehbar und lässt eine sehr aufwändige und entsprechend
+                                      kostenintensive Konstruktion erwarten.
+                                      Das Projekt hat eine überdurchschnittlich grosse Gebäudefläche, liegt aber mit seinem
+                                      Gebäudevolumen im Durchschnitt.
+
+Gesamtwürdigung                       "Stöck Wyys Stich" ist insgesamt ein kraftvoller Beitrag, welcher mit der zentralen Platz-
+                                      situation, der volumetrischen Ausformulierung und der klaren Adressierung das Geviert
+                                      bereichert und ordnet. Der Abschluss zur Strasse mit dem Tagesschulgebäude lässt
+                                      einen guten und geschützten Schulbetrieb erwarten. Die Aussenräume sind vielseitig
+                                      und ausdrucksstark. Die innere Organisation der Doppelturnhalle ist effizient und funkti-
+                                      onal, was in der Tagesschule nicht ganz eingelöst werden kann. Die aufwändige Kon-
+                                      struktion und die grosse Gebäudefläche des Projektes "Stöck Wyys Stich" lässt hohe
+                                      Investitionen erwarten.
+Basler & Hofmann            Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                             19
+
+
+
+
+                            Projekt MATEO
+                            3. Rang / 3. Preis
+
+
+
+
+                            Situationsmodell 1:500                                                         MATEO
+
+
+
+
+Städtebau                   Das Projekt "Mateo" basiert auf der Überzeugung, dass sich die beiden Programmteile
+                            Doppelturnhalle und Tagesschule aus typologischen, massstäblichen, funktionalen und
+                            organisatorischen Gründen nicht in ein Gebäude zusammenfassen lassen. Aus diesem
+                            Grund schlägt das Projekt zwei getrennte Volumen vor. Die Doppelturnhalle wird als
+                            Arealabschluss an den westlichen Parzellenrand gesetzt, die Tagesschule um 90 Grad
+                            gedreht als räumliche Fassung parallel zu den Bestandsbauten positioniert. Die beiden
+                            Neubauten bilden zusammen mit den bestehenden Bauten und dem Baumbestand ei-
+                            nen räumlich attraktiven Schulhof, wodurch jedoch gleichzeitig der grosszügige Bezug
+                            zum südlichen Anlagenteil einschränkt wird. Die beiden Neubauten orientieren sich mit
+                            den Eingangsbereichen auf den Schulhof und erhalten so eine klare Adressierung. Die
+                            Positionierung der Neubauten in der Tiefe der Anlage erlaubt eine Realisierung ohne
+                            Provisorien.
+
+Architektonisches Konzept   Die beiden Gebäude haben trotz ihren unterschiedlichen Massstäben eine gemein-
+                            same Sprache. Die Dächer schweben über dem offen gestalteten Erdgeschoss. Die
+                            Transparenz hilft, die Aussenräume und die Weite der Natur mit dem Geschehen im In-
+                            nern zu verknüpfen. Die Dachvolumen sind mit Holz verkleidet und bilden eine gestalte-
+                            rische Einheit. Grosszügige, überdachte Eingangsbereiche bilden den Übergang vom
+                            Schulhof zu den inneren Räumen. Eine skulpturale Treppenanlage im Foyerbereich
+                            führt die NutzerInnen der Turnhallen attraktiv auf das um ein Geschoss tiefer gelegte
+                            Turnhallengeschoss. Auch die Tagesschule profitiert von einem grosszügigen Foyer als
+                            Vorzone der beiden Tagesschulgruppen. Im Gegensatz zur äusseren Holzhaut be-
+                            stimmt Ortbeton das Innere der Räume.
+Basler & Hofmann                      Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                                20
+
+
+
+
+Landschaftsarchitektur                Der Pausenhof wird durch grüne Intarsien in der Hartfläche strukturiert. Ein breiter
+                                      Baumgürtel bildet die räumliche Fassung entlang der Solothurnstrasse und bildet ein
+                                      starkes Bild, verunklärt aber gleichzeitig durch die Streuung der Bäume die Zugangssi-
+                                      tuation etwas. Eine akzentuiertere Baumsetzung wäre begrüsst worden. Die Sportanla-
+                                      gen werden gebündelt im Süden der neuen Turnhalle platziert. Die Anordnung des in
+                                      den Pausen sehr intensiv genutzten Allwetterplatzes wird vom Preisgericht als kritisch
+                                      betrachtet. Die Freilegung des Baches wurde nur im östlichen Teil berücksichtigt. Eine
+                                      Freilegung im Bereich Allwetterplatz wäre unumgänglich.
+
+Betriebliche Anforderungen            Das Foyer ist grosszügig und attraktiv und funktioniert in Verbindung mit dem Schulhof
+                                      und den Aussensportanlagen. Ein Windfang ist nicht angedacht und fehlt. Die Küche ist
+                                      im Erschliessungskern aus Beton angeordnet und bedient neben dem Foyer auch die
+                                      Aussensportplätze. Die Umkleideräume sind über einen breiten Korridor entlang der
+                                      Turnhallen übersichtlich erschlossen. Sie sind gut organisiert, ebenso die Lehrerräume
+                                      und die öffentliche Toilette, welche im Bereich der Haupterschliessung angeordnet
+                                      sind. Der Haustechnikraum erscheint zu knapp bemessen. Der Geräteraum ist auf der
+                                      Gegenseite der Nebenräume vorgesehen. Der Raum befindet sich im Bereich des zu
+                                      renaturierenden Bachs und kann so weder baurechtlich noch technisch realisiert wer-
+                                      den. Die Konsequenz daraus sind zwei getrennte Geräteräume, was betrieblich un-
+                                      günstig ist.
+                                      Die Tagesschule ist gut organisiert. Die beiden Gruppen werden über ein gemeinsa-
+                                      mes Foyer erschlossen. Der südlich gelegene Aussenraum ist direkt mit dem Foyer
+                                      verbunden. Die Regenerierküche kann das Foyer und die beiden Tagesschulgruppen
+                                      bedienen. Die beiden Haupträume sind gegen Süden orientiert. Die Position des Ruhe-
+                                      raums zwischen den Haupträumen wird aufgrund seiner zentralen Lage in Frage ge-
+                                      stellt. Der Aussengeräteraum ist in das Tagesschulvolumen integriert und funktional am
+                                      richtigen Ort.
+
+Wirtschaftlichkeit / Nachhaltigkeit   "Mateo" liegt im Quervergleich bezüglich der Geschossfläche im oberen Drittel aller
+                                      Projekte. Aufgrund der getrennten Gebäude liegt auch der Formquotient Gebäudehülle
+                                      zu Geschossfläche im oberen Bereich. Das Tragwerk ist in Ortbeton in hoher Sichtqua-
+                                      lität konzipiert. Die Binder sowie die umlaufenden Fassadenwände als Abfangkonstruk-
+                                      tion in Ortbeton sind aufwändig in der Realisierung. Die Systemtrennung in Primär-/Se-
+                                      kundär-und Tertiärsystem, ein einfacher Technisierungsgrad sowie die Option eines
+                                      Daches mit Photovoltaik-Modulen lassen die Vermutung zu, dass der angestrebte Mi-
+                                      nergie-P-Standard erreicht werden könnte.
+
+Gesamtwürdigung                       Das Projekt "Mateo" arbeitet mit zwei präzis gesetzten Volumen und bildet mit dem Be-
+                                      stand einen attraktiven Schulhof. Der Entwurf ist sorgfältig und konsequent durchgear-
+                                      beitet. Die Jury ist jedoch zum Schluss gekommen, dass die Kombination der beiden
+                                      Nutzungen in einem Volumen an diesem Ort zielführender ist. Das Potential für spätere
+                                      Veränderungen oder Verdichtungen ist grösser.
+Basler & Hofmann            Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                             21
+
+
+
+
+                            Projekt SQUAMA
+                            4. Rang / 4. Preis
+
+
+
+
+                            Situationsmodell 1:500                                                        SQUAMA
+
+
+
+
+Städtebau                   Ausgangspunkt der städtebaulichen Setzung ist der Wille, den herausragenden Baum-
+                            bestand mit den wertvollen, identitätsstiftenden Eichen an der Solothurnstrasse zu er-
+                            halten. Das neue Volumen wird folgerichtig an den westlichen Parzellenrand, gegen-
+                            über dem Baumbestand positioniert. Zusammen mit den bestehenden Bauten und den
+                            raumwirksamen Bäumen bildet der Neubau einen klar definierten Aussenraum. Der
+                            Neubau ist präzis gesetzt und fügt sich selbstverständlich und stimmig in das Gebäude-
+                            Ensemble ein. Die Logik der bestehenden Adressierung wird aufgenommen und weiter-
+                            geführt. Die Doppelturnhalle sowie die Tagesschule sind wie selbstverständlich an die
+                            bestehende Erschliessungsachse südlich der Bestandsbauten angebunden.
+
+Architektonisches Konzept   In einem einfachen und klaren Gebäudekörper werden die beiden Programme Doppel-
+                            turnhalle und Tagesschule unter einem Dach vereint. In Analogie zu den mächtigen
+                            Dächern der bestehenden Bauernhäuser wird ein mit Ziegel eingedecktes, asymmetri-
+                            sches Satteldach vorgeschlagen, das alle Nutzungen überspannt und über dem Erdge-
+                            schoss zu schweben scheint. Die unter dem Dachvolumen verlaufende Verglasung er-
+                            möglicht allseitig spannende Ein- und Ausblicke.
+                            Die Doppelturnhalle ist um ein Geschoss in das Erdreich eingegraben, ebenso alle zu-
+                            dienenden Räume der Sportnutzung. Die Tagesschule auf Erdgeschossniveau orien-
+                            tiert sich gegen Norden und wird über einen abgetrennten Aussenraum separat er-
+                            schlossen. Oblichter versorgen die Räume mit zusätzlichem Tageslicht. Trotz Oblich-
+                            tern wird die Nordausrichtung der Tagesschule im Vergleich zu anderen Ausrichtungs-
+                            möglichkeiten eher negativ beurteilt.
+Basler & Hofmann                      Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                              22
+
+
+
+
+Landschaftsarchitektur                Die Aussenraumgestaltung hält sich sehr nahe am Bestand und hält die Eingriffe mög-
+                                      lichst klein, um den grünen Charakter der bestehenden Anlage und den Baumbestand
+                                      zu erhalten. Das Preisgericht begrüsst diesen Ansatz vermisst jedoch das Entstehen
+                                      einer ablesbaren Gesamtanlage. Im Osten wird der Pausenplatz durch einen Baumfil-
+                                      ter, welcher den alten Baumbestand ergänzt, abgeschlossen. Der Allwetterplatz verbin-
+                                      det diesen mit dem Turnhallenneubau. Die Lage der grossen Spielfläche an der viel be-
+                                      fahrenen Solothurnstrasse wird als kritisch beurteilt.
+
+Betriebliche Anforderungen            Die generelle Anordnung der einzelnen Nutzungsteile erscheint logisch und zweckmäs-
+                                      sig. Die innere Organisation der Tageschule funktioniert gut. Die Regenerierküche liegt
+                                      an der Schnittstelle von Tagesschule und Foyer und kann beide Nutzungseinheiten be-
+                                      dienen. Leider ist das Eingangsfoyer zu klein dimensioniert. Wird die Küche bei grösse-
+                                      ren Anlässen vom Foyer her genutzt, offenbart sich die beengte Situation beim Haupt-
+                                      eingang. Ein Windfang ist nicht angedacht und fehlt. Die Zuschauergalerie ist räumlich
+                                      grösstenteils abgekoppelt vom Eingangsfoyer und durch ihre minimale Breite nicht sehr
+                                      attraktiv ausformuliert. Die Umkleideräume im Untergeschoss sind über einen engen
+                                      Korridor erschlossen, funktionieren organisatorisch aber gut. Der Geräteraum ist opti-
+                                      mal positioniert. Der Aussengeräteraum beinhaltet vor allem Geräte, die auf dem Aus-
+                                      sensportplatz genutzt werden. Aus diesem Grund ist er zu peripher angeordnet.
+
+Wirtschaftlichkeit / Nachhaltigkeit   "Squama" ist im Quervergleich eines der kompaktesten Projekte. Die unterirdischen
+                                      Bauteile sind in Stahlbeton vorgesehen. Ab dem Erdgeschossniveau besteht die Kon-
+                                      struktion aus vorfabrizierten Holzbauelementen. Der Behaglichkeit (Optimierte Tages-
+                                      lichtverhältnisse, guter Schallschutz, gesunde Raumluft, reduzierte Wärmebrücken)
+                                      wurde grosse Beachtung geschenkt. Das kompakte Volumen, die einfache Konstrukti-
+                                      onsweise und der hohe Vorfabrikationsgrad des Holzbaus versprechen eine rasche
+                                      Bauweise sowie optimierte Erstellungskosten.
+
+Gesamtwürdigung                       Das Projekt "Squama" überzeugt vor allem durch seine konsequente städtebauliche
+                                      Haltung, die klare Adressierung und präzise Gebäudesetzung. Die innenräumlichen
+                                      Qualitäten können jedoch aufgrund der starken Flächenoptimierung nicht in gleichem
+                                      Masse überzeugen.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                              23
+
+
+
+
+                   Projekt LES TROIS MOUSQUETAIRES
+                   2. Rundgang
+
+
+
+
+                   Situationsmodell 1:500                                       LES TROIS MOUSQUETAIRES
+
+
+
+
+Begründung         Die räumliche Qualität der Hallen ist hoch, korrespondiert jedoch nicht mit der Aufgabe
+                   einer einfachen Turnhalle auf dem Land sowie den erforderlichen Montagemöglichkei-
+                   ten aller Geräte an der Decke. Ausserdem weicht der Hallenquerschnitt mit einsprin-
+                   genden Gebäudeteilen deutlich von der gemäss Norm 201 BASPO geforderten, frei be-
+                   spielbaren Hallenhöhe ab.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                             24
+
+
+
+
+                   Projekt TOM & JERRY
+                   2. Rundgang
+
+
+
+
+                   Situationsmodell 1:500                                                    TOM & JERRY
+
+
+
+
+Begründung         Mit der Aufteilung des Programms in zwei Volumen wird zwar eine klare Adressierung
+                   der Neubauten vom Pausenplatz geschaffen, die Schulanlage wendet sich jedoch von
+                   der Zugangsseite ab, indem die Rückseite der Turnhalle zur Solothurnstrasse orientiert
+                   wird. Trotz versenkter Turnhalle überragt das Volumen aufgrund der massiven Dach-
+                   konstruktion das bestehende Schulhaus. Die Renaturierung des Baches wurde nur in
+                   Teilbereichen berücksichtigt.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                           25
+
+
+
+
+                   Projekt ANDREA
+                   1. Rundgang
+
+
+
+
+                   Situationsmodell 1:500                                                       ANDREA
+
+
+
+
+Begründung         Die durch die beiden neuen Baukörper geschaffene gefasste Platzsituation mit klarem
+                   Abschluss nach Westen erscheint zu städtisch. Neben einigen funktionalen Mängeln ist
+                   insbesondere die Anordnung der Tagesschule im Obergeschoss unbefriedigend. Die
+                   Architektursprache wirkt dem ländlichen Dorfcharakter nicht angemessen.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                              26
+
+
+
+
+                   Projekt HIBOU
+                   1. Rundgang
+
+
+
+
+                   Situationsmodell 1:500                                                            HIBOU
+
+
+
+
+Begründung         Der stark gestaltete Baukörper orientiert sich mit dem Tagesschulbereich deutlich auf
+                   die Platzsituation, wobei die Eingänge der Doppelturnhalle seitlich zu suchen sind. Ge-
+                   gen die Geleise wirkt das Gebäude abgeschnitten. Die Gebäudevolumetrie wirkt insge-
+                   samt für den Ort nicht zufriedenstellend. Die Schnittlösung der Tagesschule wirkt nicht
+                   nachvollziehbar. Durch die Setzung des Neubaus verliert die Anlage den Bezug zwi-
+                   schen Pausenplatz und dem südlichen Anlageteil. Die Renaturierung des Baches
+                   wurde nur in Teilbereichen berücksichtigt.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                         27
+
+
+
+
+                   Projekt NEIGHBOURHOOD
+                   1. Rundgang
+
+
+
+
+                   Situationsmodell 1:500                                              NEIGHBOUHOOD
+
+
+
+
+Begründung         Durch die Positionierung des Gebäudevolumens am westlichen Perimeterrand wird die
+                   geforderte Renaturierung des Baches negiert. Die Erschliessung der Tagesschule im
+                   Erdgeschoss und der Garderobenbereiche im Untergeschoss ist unübersichtlich und
+                   wenig attraktiv. Die Positionierung des Geräteraums zwischen Garderoben und Hallen
+                   verhindert einen klaren räumlichen Bezug und kurze Erschliessungswege.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden                             28
+
+
+
+
+                   Projekt PAUSENBROT
+                   1. Rundgang
+
+
+
+
+                   Situationsmodell 1:500                                                    PAUSENBROT
+
+
+
+
+Begründung         Das am Hauptbaukörper der Doppelturnhalle angefügte Bauvolumen der Tagesschule
+                   erscheint fragil und für einen Neubau nicht adäquat.
+                   Die vertikale Trennung von Garderoben im OG durch das EG mit Eingangsbereich und
+                   Zuschauergalerie mit den Turnhallen im UG ist funktional nicht befriedigend. Die Rena-
+                   turierung des Baches wurde nur in Teilbereichen berücksichtigt.
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden   29
+
+
+
+
+                   11. Genehmigung
+
+                   Das Preisgericht,
+                   Bätterkinden den 16. Juli 2019
+
+
+
+
+                   Mattias Boegli, (Vorsitz)
+
+
+
+
+                   Adrian Kast
+
+
+
+
+                   Charlotte Altermatt
+
+
+
+
+                   Stefan Graf
+
+
+
+
+                   Beat Linder
+
+
+
+
+                   Thomas Nyffenegger
+
+
+
+
+                   Karin Althaus
+Basler & Hofmann   Neubau Turnhalle Dorfmatt mit Tagesschule, Bätterkinden   30
+
+
+
+
+                   Anhang 1
+                   Pläne der Projektvorschläge

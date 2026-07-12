@@ -103,6 +103,10 @@ while :; do
         name="$(basename "$(dirname "$f")")"
         echo "$name" | grep -qiE "$INCLUDE_RE" || continue
         echo "$name" | grep -qiE "$EXCLUDE_RE" && continue
+        # Stations-Split (Rule 260712): auf dieser Station deaktivierte Tasks
+        # ueberspringen (Frontmatter enabled: false), sonst laeuft z.B.
+        # baurecht-buch-training auf dem Mac Mini leer (self-abort) mit.
+        grep -qiE '^enabled:[[:space:]]*false' "$f" && continue
         TASKS+=("$name")
     done
     if [ "${#TASKS[@]}" -eq 0 ]; then
@@ -122,11 +126,16 @@ Sende KEINE Mails ausser der Prompt verlangt es ausdruecklich. Am Ende NAS-Repo
 committen und pushen (pull --rebase bei Konflikt), wie in den Rules vorgeschrieben."
         START_TS=$(date +%s)
         log "START $name"
-        OUT="$("$CLAUDE_BIN" -p "$PROMPT" \
+        # WICHTIG: Prompt via "--"-Separator als Positional uebergeben, NICHT inline
+        # nach -p. Die SKILL.md-Prompts beginnen mit YAML-Frontmatter ("---"); das
+        # optionale Argument von -p wird sonst nicht konsumiert und der Parser liest
+        # den Prompt als (unbekannte) Option -> sofort rc=1 (Blocker 12.07.2026).
+        OUT="$("$CLAUDE_BIN" -p \
             --permission-mode "$PERM_MODE" \
             --max-budget-usd "$BUDGET" \
             --fallback-model sonnet \
-            --output-format text < /dev/null 2>&1)"
+            --output-format text \
+            -- "$PROMPT" < /dev/null 2>&1)"
         RC=$?
         DAUER=$(( $(date +%s) - START_TS ))
         TAIL="$(printf '%s' "$OUT" | tail -c 400 | tr '\n' ' ')"

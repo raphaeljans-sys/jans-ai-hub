@@ -1,0 +1,70 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2207 WB Basel/10_Abgabe/TEXTE/Text_no-ug@_def.docx
+# Extrakt: textutil -convert txt (via lokale Kopie), 12.07.2026
+
+no-ug@
+Pilotprojekt Netto-Null 2040 
+
+
+STÄDTEBAU 
+Als klarer Zeilenbau liegt der Neubau auf der Baulinie am Schliengerweg und schliesst im Norden direkt an die Kirche an. Zum Nachbargrundstück im Westen sind die privaten Aussenbereiche untergebracht.
+
+KONZEPT KINDERGARTEN/ WOHNUNGEN
+Im Erdgeschoss liegen die zwei Kindergärten jeweils an den Stirnseiten mit separaten Eingängen. Über den Garderobenbereich werden die Haupträume erschlossen, in denen die ganze Breite des Gebäudes wahrnehmbar ist. Der heilpädagogische Kindergarten im Norden ist zweiseitig belichtet, der Kindergarten im Süden dreiseitig. In der Mitte des Gebäudes werden die oberen Wohngeschosse über ein Treppenhaus mit einem eingezogenen Eingangsbereich erschlossen. Über das Treppenhaus sind zusätzlich die Waschküche und der Technikraum im Erdgeschoss zugänglich. Der direkte Ausgang der Waschküche ermöglicht es die Wäsche im Aussenbereich zum Trocknen aufzuhängen, wenn der Kindergarten nicht in Betrieb ist. In den oberen Wohngeschossen werden vier gleichgrosse 5.5 Zimmerwohnungen und im Dachgeschoss zwei kleinere 5.5 Zimmerwohnungen untergebracht. Da durch das Wiederverwenden der Rippenplattendecken die Decken von Längsseite zu Längsseite gespannt sind, ermöglicht dies eine flexible Wohnungsgestaltung. Die Wohnungen sind mit einem grosszügigen mäandrierenden Wohnraum organisiert, der unterschiedliche Aufenthaltsqualitäten und Ausblicke bietet, die Erschliessungsfläche minimiert. Der private Aussenraum wird als Balkon ausgebildet. In den Wohnungen sind die Reduits untergebracht. Zusätzliche Abstellräume sind vom Treppenhaus her erschlossen. 
+
+UMGEBUNGSGESTALTUNG
+Die Ziegel der vor Ort abzubrechenden Unterstände werden in die Umgebungsgestaltung integriert, sei es als Bodenbelag oder als Sitzgelegenheiten und Einfriedungen. Die Fassadenbegrünung als bodengebundenes System wird an den wiederverwendeten Trapezblechverkleidungen mit Rankhilfen aus Stahlseilen geführt. Durch die Fassadenbegrünung (z.B. Knöterich) wird die Luftqualität verbessert sowie der Strassenlärm reduziert. Durch die unterschiedliche Bepflanzung im Aussenraum soll die Biodiversität gefördert werden. Für den Kindergarten wird ein attraktiver, naturnaher und sinnesanregender Spielbereich gestaltet. Trampelpfade führen durch eine begrünte Hügellandschaft mit unterschiedlichen Aufenthalts- und Spielorten. 
+
+
+STATIKKONZEPT
+Zentrales Element des flach gegründeten, dreigeschossigen Neubaus sind die quer zum Gebäude angeordneten, wiederverwendeten Rippenplattenelemente, welche die Decken bilden. Die Elemente werden entlang den Längsfassaden auf tragende Holzständerelemente gelegt. Fugen zwischen den Elementen von rund 5cm werden vor Ort mit einem CO2-reduzierten Recyclingbeton vergossen, wobei einzelne Taschen im Überbeton der Elemente freigespitzt und bewehrt werden, so dass die Decken in der Ebene als Scheibe wirken und ein Aufreissen der Fugen infolge Einzellast vermieden werden kann. Die horizontale Aussteifung erfolgt über den zentralen Erschliessungskern in Kombination mit vertikalen Windverbänden in den beiden Stirnwänden. Da die Rippenelemente Lasten aus zurückversetzten Aussenwänden nicht ohne Verstärkung aufnehmen können und auf Stützen im Gebäudeinneren verzichtet wird, ist das Attikageschoss als Dachgeschoss mit Satteldach ausgebildet, wobei Dreigelenkrahmen aus Brettschichtholz den Dachaufbau bilden. Während so der Lastabtrag in den Längsfassaden verteilt wird und ohne Unterzüge erfolgt, sind die Stirnfassaden bis auf die Windverbände ohne Tragelemente und können so sowohl im Bau aber auch in Zukunft frei gestaltet werden. Der stützenfreie Innenraum bietet maximale Flexibilität für die Einteilung und für künftige Umnutzungen.
+
+RECYCLING/
+REUSE-KONZEPT
+Die Masse der wiederverwendeten Rippenplattendecken definiert die Dimension und Struktur des Neubaus. Die ergänzenden neuen Tragelemente werden aus Holz ausgebildet: Holzstützen (integriert in den vorfabrizierten Holzrahmenelementen) für das Aufnehmen der Last der Rippenplattendecken und Brettsperrholzplatten im Treppenhaus zur Aussteifung des Gebäudes. Die starke vertikale Rhythmisierung der Tragstruktur definiert die Gliederung der Fassaden, diese wird mit den wiederverwendeten Trapezblechen in der Vertikalen betont. Die Bleche dienen als Befestigungsgrundlage der Rankhilfe für die Fassadenbegrünung. Im Inneren werden unterschiedliche Ausbauelemente wiederverwendet. Durch die Leichtbauweise der Wohnungstrennwände kann einfach auf neue Bauteile aus anderen Minen reagiert werden (z.B. Türen). Die verwendeten biogenen Baumaterialien können einfach recycelt werden, so zum Beispiel können die Lehmbauplatten einfach zu neuen Platten verarbeitet werden oder die Dämmmaterialien wiederverwendet werden. Da die Heizung nur an den Aussenwänden angebracht ist, kann der Wohnungsgrundriss einfach geändert, ev. auch einer anderen Nutzung zugeordnet werden. Bei einem allfälligen Rückbau kann das Gebäude in seine Einzelteile zerlegt werden. 
+
+KONSTRUKTION/ 
+MATERIALISIERUNG/
+ÖKOLOGISCHE NACHHALTIGKEIT
+NETTO NULL
+
+Das Gebäude soll maximal mit ressourcenschonenden Baumaterialien umgesetzt, die graue Energie minimiert und somit das übergeordnete Netto-Null Ziel erreicht werden. Da kein Untergeschoss geplant ist und somit auch kein Aushub nötig ist, wird schon viel Graue Energie eingespart. Die Aussenwände werden mit vorfabrizierten Holzrahmenelementen vorgesehen, die wiederverwendeten Rippenplattendecken werden direkt daraufgelegt. Die Deckenstirnseiten werden nachträglich ausgedämmt. Die Wohnungsdecken sind von dem Treppenhauskern, der in Trockenbauweise aus Brettsperrholzplatten realisiert wird, akustisch getrennt. Die Verkleidungen aus den wiederverwendeten Trapezblech sowie der horizontalen neuen Holzschalung wird vor Ort angebracht. Der Entscheid auf ein Attikageschoss zu verzichten und ein Dachgeschoss zu realisieren ist nicht nur wegen der tragstrukturellen Klarheit und der maximalen Belegung des Daches durch Solarpanelen geschuldet, sondern auch bezüglich der Optimierung der zu verwendeten Baumaterialien. Das Satteldach ermöglicht die Verwendung von ökologischen Dämmstoffen (da nicht begehbar) und die Abdichtung ist einfach zu realisieren. 
+Die klare und einfache Tragstruktur ermöglicht es im Inneren auf massive Bauteile zu verzichten. Auf eine klassische Trittschalldämmung wird bewusst verzichtet um die Graue Energie zu minimieren. Die Masse der Rippenplattendecken und des Stampflehms sollten für die geforderten Werte ausreichen. 
+Die verwendeten bauökologischen Materialien für die Leichtbauweise gewährleisten ein behagliches Raumklima. Der vorgesehene Lehmputz reguliert die Raumfeuchte, hat aufgrund seiner besonderen Struktur einen guten Schallschutz und speichert Solarwärme im Winter beziehungsweise Nachtkälte im Sommer. Die Räume sind so angeordnet, dass eine Querlüftung zur natürlichen Nachtauskühlung möglich ist. Die hohe Wärmespeicherfähigkeit der Innenmaterialien in Kombination mit der Nachtauskühlung durch Fensterlüftung erlaubt es, das Gebäude auf natürliche Weise zu kühlen.
+Es sind wenige raumhohe Verglasungen in den Obergeschossen geplant, um die Überhitzungsgefahr im Sommer bzw. den Kaltluftabfall im Winter zu reduzieren. Dadurch wird die Wärmespeicherfähigkeit im Innenraum gleichzeitig erhöht, was den Heizungsbedarf reduziert und die natürliche Kühlung noch wirksamer macht. Die raumhohen Verglasungen im Erdgeschoss erleichtern den Zugang zum Aussenraum.  Das Gebäude wird zusätzlich mit aussenliegendem Sonnenschutz vor Überhitzung geschützt.
+
+
+Durch die grosse PV-Anlage kann der überschüssige Strom für die Netto-Null Berechnung gutgeschrieben werden. Das Ziel von Netto-Null 2040 kann somit in dem vorgegebenen Zeitrahmen realisiert werden.
+
+Für die Betriebsphase ist ein Nutzungskonzept vorgesehen, welches unter anderem folgende Aspekte enthalten soll:
+	•	Nutzer:innen und Betreiber:innen sollen für Themen wie Nachhaltigkeit, Energie & Komfort mit Hilfe von Schulungen und Informationen sensibilisiert werden.
+	•	Ein ausführliches Betriebskonzept für die optimale Raumnutzung, das geeignete Lüftungsverhalten und die notwendigen Unterhaltsarbeiten im Gebäude und im Aussenraum (z.B. Gartenpflege) wird zur Verfügung gestellt.
+
+
+GEBÄUDETECHNIK/ ENERGIE
+Es wird so wenig Technik wie möglich und so viel wie nötig geplant. Eine Grundwasserwärmepumpe versorgt das Gebäude mit Wärme. Diese wird durch das vollbelegte Satteldach und die vollbelegten Vordächer im Süden mit Hilfe von Solarpanelen mit Strom versorgt. Überschüssiger Strom wird ins öffentliche Netz übergeben. Der Warmwasserbedarf wird zusätzlich mit Sonnenkollektoren auf dem Dach unterstützt. Auf eine mechanische Lüftung wird verzichtet, die Wohnungstypologie ermöglicht eine natürliche Belüftung aller Räume. Die sehr gute Dämmung erlaubt es, den Heizwärmebedarf so gering wie möglich zu halten, so dass einfache Wandheizungen im Brüstungsbereiche der Aussenwände installiert werden. Im Vergleich zu einer herkömmlichen Fussbodenheizung ist die Flexibilität höher und schont zusätzlich die Ressourcen (durch die verwendeten Baumaterialien). Die Wandheizung zeigt einen guten Kompromiss: Die tiefen Vorlauftemperaturen führen zu einer besseren Effizienz gegenüber konventionellen Heizkörpern, die Elemente sind zusätzlich einfacher demontierbar als gegenüber einer Fussbodenheizung. Für den Kindergarten ist eine Fussbodenheizung mit Bodendämmung vorgesehen, was für die bodennahe Nutzung am sinnvollsten ist.  Die Sanitärräume sind im Bereich des Treppenhauses angeordnet, um die Längen der horizontalen Leitungen zu minimieren. Für das anfallende Regenwasser vom Dach ist ein Wassertank im Hof vorgesehen. Dieses Grauwasser wird anstelle von Trinkwasser für die Gartenbewässerung sowie für die WCs und Waschmaschinen im Erdgeschoss genutzt. In den oberen Etagen wird auf die Grauwasser-Anschlüsse verzichtet, um doppelte Leitungskreisläufe zu vermeiden (bei Trink- und Regenwasser erforderlich), so wird die graue Energie und den Platzbedarf minimiert.
+
+
+KONZEPT HITZERESILIENZ
+Im Aussenraum werden neue vielfältige Grünflächen geschaffen. Die Aufenthaltsräume im Hof und der Zugangsbereich am Schliengerweg sowie das Gebäude werden mit klimaangepassten Baumarten, z.B. Europäische Hopfenbuche oder Seidenbäume beschattet. Zusätzlich wird eine bewachsene Pergola den Aufenthaltsbereich schützen. Der Spielplatz wird mit einer grösstmöglichen Versickerungsfläche ausgebildet. Der Regenwasserkreislauf wird im Aussenbereich im Erdgeschoss über die nichtversiegelten Flächen ermöglicht. Das Regenwasser des Satteldaches wird in einem Grauwassertank gesammelt, überschüssiges Regenwasser wird über einen Überlauf in einem Retentionsbecken versickern. Die Bewässerung der Bepflanzung erfolgt über den Grauwassertank. Das Dach des Veloabstellplatzes wird zusätzlich begrünt. Die Fassaden Ost und West werden mit einer erdgebundenen Fassadenbegrünung bewachsen, auf eine PV-Anlage wird hier wegen der dunklen und reflektierenden Oberfläche von Solarpanelen verzichtet, um den Überhitzungsschutz durch die unterschiedlichen Bepflanzungen zu ermöglichen. Im Süden, wo keine Bepflanzung möglich ist, wird die Fassade mit PV-Vordächern beschattet.
+
+
+
+
+
+
+Notizen/Anmerkungen
+Erwartet werden daher technisch wie konstruktiv-gestalterische
+innovative Vorschläge, die als Pilot für zukünftige Wohnbauprojekte taugen. Klarer die konstruktiv technische grundidee hervorheben? 
+
+Wirtschaftlichkeit
+
+Lärmschutzvorgaben Wohnungen?
+
+Wohnungsflächen 3.og!
+
+Darüber hinaus kann in den Wohnungen auf eine Trittschalldämmung verzichtet und somit weitere Ressourcen eingespart werden. wegen Decke?
+
+Ergänzungen Text: 
+
+Die Geschlossene Brandmauer im Norden soll auch vollflächig begrünt werden. 
+

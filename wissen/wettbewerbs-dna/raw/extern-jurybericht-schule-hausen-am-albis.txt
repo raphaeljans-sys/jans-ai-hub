@@ -1,0 +1,2362 @@
+# QUELLE: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/07 Referenzen/00 Juryberichte/schule-hausen-albis-jurybericht.pdf
+# Extrakt: pdftotext -layout nach OCR (ocrmypdf -l deu; Original ist Scan ohne Textlayer, Konica bizhub C368), erstellt 2026-07-12
+# 53 Seiten, A4; Jurybericht Version 1.1, 15. Januar 2021, Gemeinde Hausen am Albis
+
+ JURYBERICHT
+
+
+ Projektwettbewerb im selektiven Verfahren
+ Neubau Schule und Neubau Sport/Tagesstrukturen
+
+
+
+
+Version       Version 1.1
+
+Stand         15. Januar 2021
+
+Genehmigung   Vom Preisgericht genehmigt am 15. Januar 2021
+IMPRESSUM
+
+
+
+
+Veranstalter   Gemeinde Hausen am Albis
+               Zugerstrasse 10
+
+               8915 Hausen am Albis
+               www. hausen.ch
+
+
+
+Verfasser      Rubach Raumkonzepte GmbH
+               Schwerzelweg 18
+               6315 Oberägeri
+
+               www.rubach-raumkonzepte.ch
+
+
+Hinweise       ‚Aus Gründen der leichteren Lesbarkeit wird teilweise auf eine geschlechtsspezifische
+               Differenzierung verzichtet. Entsprechende Begriffe gelten im Sinne der Gleichberechtigung
+
+               für beide Geschlechter.
+Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+INDEX
+
+
+
+
+1      EINLEITUNG
+
+
+
+2      AUFGABENSTELLUNG
+
+
+       2.1    Teilareale
+       2.2     Neubau Schule
+       2.3     Neubau Sport/Tagesstrukturen                                    sau
+
+
+
+
+       PREISGERICHT
+
+
+
+      TEILNEHMENDE
+
+
+
+      VORPRÜFUNG                                                              10
+
+
+
+       BEURTEILUNG                                                            11
+
+
+
+       RANGIERUNG UND PREISGELD                                               13
+
+
+
+      SCHLUSSFOLGERUNG                                                        14
+
+
+      PROJEKTVERFASSENDE                                                      16
+
+
+
+10    GENEHMIGUNG                                                             19
+
+
+
+11    PROJEKTE
+
+      Projekt Nr. 1 CONCERTO
+      Projekt Nr. 2 SIMBA
+      Projekt Nr. 3 AURELIA
+      Projekt Nr. 4 ZNÜNI
+      Projekt Nr. 5 PING PONG
+      Projekt Nr. 6 SOWOHL ALS AUCH
+      Projekt Nr. 7 TOTORO
+      Projekt Nr. 8 PINOCCHIO UND GEPPETTO
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+1        EINLEITUNG
+
+
+
+
+Ausgangslage            Die Weiterentwicklung der kommunalen Infrastruktur wurde vom Gemein-
+                        derat Hausen am Albis als eines der Ziele für die Legislatur 2018 bis 2022
+                        festgelegt. Die Schulraumplanung nahm jedoch bereits in früheren Jahren
+                        einen hohen Stellenwert ein und es wurden diverse Massnahmen umge-
+                        setzt, um den Schulraumbedarf abdecken zu können. Mittlerweile ist das
+                        Optimierungspotential im Bestand praktisch ausgeschöpft. Aufgrund des
+                        Eintrags der Primarschulanlage ins regionale Inventar der Denkmalpflege ist
+                        der Handlungsspielraum für bauliche Anpassungen im Bestand einge-
+                        schränkt. Um Erweiterungsmöglichkeiten zu prüfen, hat die Gemeinde Hau-
+                        sen daher im Jahr 2015 ein Gesamtentwicklungskonzept erarbeiten lassen.
+                        Als erster Meilenstein konnte mit der Einweihung des Ersatzneubaus für den
+                        Kindergarten Ebertswil per Schuljahresbeginn 2019/20 eine leichte Entspan-
+                        nung der Raumsituation im Ortsteil Ebertswil erreicht werden. Gemäss Pro-
+                        gnosen ist jedoch mit einem weiteren Schülerwachstum zu rechnen.
+                       Als Fazit der Schulraumplanung wurde daher erkannt, dass mit einem
+                        Schulhausneubau für 3 Primarklassen und für die Schulverwaltung sowie
+                        mit einer Dreifachsporthalle inklusive Räumlichkeiten für die Tagesstruktu-
+                        ren die Bedürfnisse der verschiedenen Anspruchsgruppen am besten abge-
+                       deckt werden können. Die Projektierungskredite für die beiden Neubauten
+                       wurden an der Gemeindeversammlung vom 04.12.2019 genehmigt. Nach
+                       Inbetriebnahme der Gebäude sollen die bestehenden Provisorien rückge-
+                        baut werden.
+
+
+
+Verfahren              Um eine möglichst grosse Vielfalt an Lösungsvorschlägen für die Schul-
+                       raumerweiterung zu erhalten, veranstaltete die Gemeinde Hausen am Albis
+                       von Mai bis Dezember 2020 einen anonymen, einstufigen Projektwettbe-
+                       werb im selektiven Verfahren gemäss der Ordnung SIA 142 und den Be-
+                       stimmungen von GATT/WTO, der Interkantonalen Vereinbarung über das öf-
+                       fentliche Beschaffungswesen und den gesetzlichen Grundlagen über das
+                       öffentliche Beschaffungswesen des Kantons Zürich.
+
+
+Teilnahme              Teilnahmeberechtigt waren Projektteams bestehend aus Planern der Fach-
+                       bereiche Architektur und Landschaftsarchitektur mit Wohn- und Geschäfts-
+                       sitz in der Schweiz oder einem Vertragsstaat des WTO-Abkommens über
+                       das öffentliche Beschaffungswesen.
+
+
+
+Zielsetzung            Mit diesem Verfahren ergab sich eine grosse Chance für die Aufwertung des
+                       Gesamtareals und des Schulbauportfolios. Ziel war es, zwei hochwertige
+                       Projekte zu evaluieren, welche die architektonischen, pädagogischen, be-
+                       trieblichen und wirtschaftlichen Anforderungen optimal erfüllen.
+Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis                           |
+
+
+
+
+2         _AUFGABENSTELLUNG
+
+
+2.1       TEILAREALE
+
+
+
+Aufgabe                 Aktuell werden in der Gemeinde Hausen 4.5 Kindergarten-, 12 Primar- und
+                        9 Sekundarklassen unterrichtet. Für die nächsten 10 Jahren werden 3 wei-
+                        tere Primar- und 2 Sekundarklassen prognostiziert. Um die Anbindung an
+                        den Schulbetrieb zu gewährleisten, sollte der Schulhausneubau für die zu-
+                        sätzlichen Primarklassen sowie für die Schulverwaltung anstelle des Schul-
+                        pavillons auf der Parzelle Kat. Nr. 3613 positioniert werden (Bearbeitungs-
+                        perimeter Teilareal A). Für den Neubau Sport und die Tagesstrukturen ist
+                        der südliche Teil der Parzelle Kat. Nr. 3034 vorgesehen (Bearbeitungsperi-
+                        meter Teilareal B). Nach Umsetzung des Neubaus Sport/Tagesstrukturen
+                        wäre der Weg frei, um mit der Umnutzung und Sanierung der alten, denk-
+                        malgeschützten Turnhalle als Gemeindebibliothek ein weiteres attraktives
+                        Angebot an zentraler Lage anbieten zu können. Die Umnutzung der alten
+                        Turnhalle war jedoch nicht Bestandteil der Wettbewerbsaufgabe. Für das
+                        Gesamtkonzept und die Aussenraumgestaltung wurde es als wichtig erach-
+                        tet, die Parzelle Kat. Nr. 3024 der Sekundarschule wie auch die übrige Flä-
+                        che der Parzelle Kat. Nr. 3613 der Primarschule als Betrachtungsperimeter
+                        zu berücksichtigen.
+
+
+                        In nächster Nähe erstrecken sich auf der Parzelle Kat. Nr. 2469 die weit-
+                        läufigen Aussensportanlagen Jonentäli mit Rasenfeldern, Lauf- und
+                        Sprunganlagen. Diese Anlagen sollen der neuen Dreifachsporthalle als
+                        Aussenanlage dienen. Zudem ist eine geeignete Spiel- und Aufenthaltsflä-
+                        che im Aussenraum für die Tagesstrukturen vorgesehen.
+
+
+
+
+Bearbeitungsperimeter
+
+
+
+
+Betrachtungsperimeter
+
+
+
+                                                                     Teilareal B
+                                                                     Parzelle
+                                                                     Nr. 3034
+Jurybericht Wettbewerb Neubau Schule und Neubau          Sport/Tagesstrükturen, Hausen am Albıs
+
+
+
+
+2.2     NEUBAU SCHULE
+
+
+
+Anforderungen          Um einen möglichst modernen und zukunftsgerichteten Schulneubau zu er-
+                       halten, wurden die wichtigsten pädagogischen, betrieblichen, planerischen
+                       und baulichen Anforderungen im Wettbewerbsprogramm sowie in einem se-
+                       paraten Betriebskonzept als Planungsgrundlage vorgegeben. Abgeleitet von
+                       den Leitideen der Primarschule Hausen wurden so beispielsweise die Be-
+                       dürfnisse für eine vielfältige Nutzung der Räume erwähnt. Es sollten Zonen,
+                       Räume und allenfalls auch Nischen geplant werden, welche das Lernen in
+                       unterschiedlichen Sozialformen zulassen (Einzelarbeit, Gruppenarbeit, Halb-
+                       klassenunterricht, Unterricht im Klassenverband). Um einen flexiblen Unter-
+                       richt mit individualisierten Lernzielen und Teamteaching gewährleisten zu
+                       können, waren räumliche Verbindungen zwischen Klassenzimmern und
+                       Gruppenräumen vorzusehen. Zudem sollte auf ein behagliches Raumklima,
+                       ein einladendes Erscheinungsbild und eine entsprechende Materialisierung
+                       geachtet werden. Aus betrieblicher Sicht wurde ein Ergänzungsbau und kein
+                       Anbau an den Bestand gewünscht. Höchste Priorität hatte dabei die optima-
+                       le Anbindung des Gebäudes an den bestehenden Betrieb sowie die Einbet-
+                       tung des Gebäudes in die Topografie. Da das Hauptgebäude wie auch die
+                       alte Turnhalle und die alte Sekundarschule als Ensemble im regionalen In-
+                       ventar der Denkmalpflege registriert sind, wurde ein rücksichtsvoller Um-
+                      gang mit den Bestandsbauten erwartet. Um auf einen allfälligen weiteren
+                      Anstieg der Schülerzahlen vorbereitet zu sein, sollte der Neubau zudem so
+                      vordimensioniert werden, dass eine spätere Aufstockung um ein Geschoss
+                       möglich wäre.
+
+
+
+Raumbeziehungen        Die zu planenden Räume und Raumbeziehungen für den Neubau Schule
+                      wurden im Wettbewerbsprogramm in einem Funktionsdiagramm wie folgt
+                      als Planungsgrundlage dargestellt:
+
+
+                        Singsaaltrakt   Alte Turnhalle        Alte Sekundarschule          Hauptgebäude                  Tumhalle SEK
+
+
+
+
+                                                                                                      Sekundär-            SCHULE
+                                                                                                      eingang
+
+
+
+
+                                                                                                     1.Büro Schulleitung
+
+
+
+                                                                                                      1 Büro Schulverwaltung
+
+
+
+
+                                                                                                 Un
+                                                                                                      1 Sitzungszimmer
+
+
+
+
+                                                                                                      1 Werkstatt Hauswartung
+
+
+
+                                                                                                     Lager / Archiv / Technik
+                                                Sanitäranlagen
+
+
+
+
+                                                         ‚Anbindung an bestehendes Fuss- / Wegnetz, Velo- / Autoparkplätze
+Jurybericht Neubau Schule und Neubau Sport/Tagesstruktu                         Hausen am Albis
+
+
+
+
+2.3     NEUBAU SPORT/TAGESSTRUKTUREN
+
+
+
+Anforderungen
+                       Mit der Kombination der Nutzungen Sport und Tagesstrukturen in einem
+                       Neubau soll ein attraktives Angebot in nächster Nähe zu den bestehenden
+                       Schulbauten geschaffen werden. Im Wettbewerbsprogramm wurden daher
+                       zahlreiche Anforderungen an das Gebäude formuliert. Als wichtigste Pla-
+                       nungsgrundlage galt es, die relevanten Dimensionen und Raumanforderun-
+                       gen der BASPO Schrift 201 für eine Dreifachsporthalle zu erfüllen. Mit Ab-
+                       messungen von 49 m x 28 m kann in der Dreifachsporthalle das grosse
+                       Wettkampffeld Unihockey auf allen Ligastufen angeboten werden. Für Anläs-
+                       se und Veranstaltungen sollte eine Tribüne, resp. eine Zuschauergalerie für
+                       rund 400 Personen vorgesehen werden. Für Veranstaltungen in der Halle
+                       selbst waren ein Lager für die Bodenabdeckung und ein Stuhllager für rund
+                       500 Stühle erwünscht. Als Ergänzung zum Sportunterricht war auch ein
+                       Kraftraum a 45 m? neben der Halle vorzusehen. Bei den Räumen für die Ta-
+                       gesstrukturen der Primarschule und für den Mittagstisch für die Sekundar-
+                       schule galten grundsätzlich ähnliche pädagogische Raumanforderungen wie
+                       für die Unterrichtsräume des Neubaus Schule. Auf eine flexible Aufteilung
+                       sollte ebenso geachtet werden wie auf die Ermöglichung von vielfältigen
+                       Spiel- und Aufenthaltsformen. Um auf unterschiedliche Gruppengrössen re-
+                       agieren zu können, waren zwischen allen Betreuungsräumen Verbindungs-
+                       türen einzuplanen. Zudem sollte eine Regenerierküche für 50 bis 100 Mahl-
+                       zeiten geplant werden, in welcher leichtes Kochen und Backen möglich ist.
+                       Die Küche sollte so geplant werden, dass ein späterer Ausbau in Richtung
+                       Gastroküche nicht gänzlich ausgeschlossen ist.
+
+
+Raumbeziehungen        Analog zum Neubau Schule wurden auch für den Neubau Sport/Tagesstruk-
+                       turen die zu planenden Räume und Raumbeziehungen im Wettbewerbspro-
+                       gramm schematisch illustriert:
+
+
+
+
+                                                                                 Tec                                    von
+                                                 Büro 7 Material                                    Garderoben/
+
+                                                 Roheraum                                           anlagen
+                                                                                                    Sankr-
+
+
+                                             Fan                     f                                                 Geräte:
+                                             "mnagsischr           || 8           -                                    Räume,
+                       =                     |                     1;      ||              Sm                                               =
+                        und                      Küche nk.            En                                 -                  -               ar
+                          o-
+                       Park                      el Personatyvi || E28                                                                         tagen
+                                                                                                                                            Jonenkäti
+                       De                                             33
+                                             ur                       ®                        2
+                                                 au                  Il                        3        Dreifachsporthlle
+                                             # 057 00a                          Foyer || E              Gemäss Baspo 201
+                                             r
+                                                                                                                                                    f
+                                             Mitagstisch SEK               um
+
+
+
+                                                             Sekundär-
+                                                             a                        NEUBAU SPORT / TAGESSTRUKTUREN
+
+
+
+                                                                                      Anbindung an bestehendes Fuss- / Wegnetz
+
+
+
+                                         I                                                 T                                        ]
+
+                               Sekundarschulanlage                          Kontext Gemeinde                                    Primarschulaniage
+Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+3          PREISGERICHT
+
+
+
+
+                       Das Preisgericht für das Wettbewerbsverfahren setzte sich wie folgt zusam-
+                       men:
+
+
+
+
+Sachpreisrichter          Stefan Gyseler, Gemeindepräsident (Vorsitz)
+
+                          Andrea Sidler, Gemeinderätin, Präsidentin Primarschulpflege
+
+
+                          Reto Brönnimann, Gemeinderat, Vorsteher Hochbau
+
+
+                          Beatrice Sommerauer Nägelin, Gemeinderätin, Vorsteherin Finanzen und
+                          Liegenschaften (Ersatz)
+
+
+
+Fachpreisrichter          Christoph Kaech, Architekt
+
+                          Melk Nigg, Architekt
+
+
+                          Carola Antön, Architektin/Landschaftsarchitektin
+
+                          Marcel Graf, Bauplaner/Bauverwalter
+
+
+                          Darko Milosavljevic, Architekt (Ersatz)
+
+
+
+
+Experten                  Roman Weder, Bauökonomie, PBK AG
+
+                          Rolf Hubschmid, Brandschutzexperte, DILECA
+
+
+                          Mike Weber, Nachhaltigkeitsexperte, Werkstatt Architektur und Energie
+
+
+                          Michael Nanz, Verkehrsplanung, gpw Wälter Willa
+              Neubau Schule und Neubau Sport/Tagesstru      Hausen am Albis
+
+
+
+
+4        TEILNEHMENDE
+
+
+
+
+Präqualifikation
+                          Das Wettbewerbsprogramm wurde vom Preisgericht am 05. Mai 2020 ge-
+                          nehmigt. Am 18. Mai 2020 fand die Publikation des Wettbewerbs auf SIMAP
+                         statt. Die Teilnahmeanträge mussten bis am 15. Juni 2020 eingereicht wer-
+                         den. Insgesamt bewarben sich 38 Teams bestehend aus den Fachbereichen
+                         Architektur und Landschaftsarchitektur um eine Teilnahme am Projektwett-
+                          bewerb. Sämtliche Bewerbungen wurden gemäss den im Wettbewerbspro-
+                         gramm erwähnten Kriterien vorgeprüft.
+
+
+Selektionierte Teams     Am 29. Juni 2020 traf sich das Preisgericht zur Präqualifikation. Anhand der
+                         eingereichten Bewerbungsunterlagen nahm das Preisgericht im Rahmen der
+                         Präqualifikation eine Selektion gemäss den Wettbewerbsprogramm erwähn-
+                         ten Zuschlagskriterien und deren Gewichtung vor.
+
+
+                         Aus den Teilnahmeanträgen wählte die Jury folgende 8 Anbieter für die Teil-
+                         nahme am Projektwettbewerb aus:
+
+
+                            Blättler Dafflon Architekten AG, Zürich/
+                            Albiez de Tomasi GmbH, Zürich
+
+
+                            Jonas Wüest Architekten GmbH, Zürich/
+                            Planikum GmbH, Zürich
+
+
+                            Sigrist Schweizer Architekten AG, Luzern/
+                            Goldrand GmbH, Zürich
+
+
+                            Dahinden Heim Partner Architekten AG, Winterthur/
+                            Brogle Rüeger Landschaftsarchitekten, Winterthur
+
+
+                            ARGE Rohrer Sigrist Architekten GmbH- Atelier Brandau Ciccardini
+                            Architekten GmbH, Luzern/Mettler Landschaftsarchitekten AG, Gossau
+
+
+                            Metron Architektur AG, Brugg/
+                            Schläpfer Carstensen Landschaftsarchitekten GmbH, Zürich
+
+
+                            kit architects GmbH, Zürich/
+                            Atelier tp Tijssen/preller Landschaftsarchitekten, Rapperswil
+
+
+                            Felber Fendt Architekten GmbH, Zürich
+
+
+
+                         Alle selektionierten Teams bestätigten ihre Teilnahme am Projektwettbewerb
+                         und nahmen an der Wettbewerbsausgabe inklusive Begehung der Schulan-
+                         lage Hausen am Albis am 23. Juli 2020 teil.
+Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+5        _VORPRÜFUNG
+
+
+
+
+Vorprüfung                  Die Wettbewerbsbeiträge der 8 selektionierten Teams mussten bis am
+                            19. Oktober 2020 eingereicht werden und wurden anschliessend nach den
+                            Grundsätzen der SIA-Ordnung 142, den Anforderungen des Wettbewerbs-
+                            programms und der Fragenbeantwrtung wie folgt vorgeprüft:
+
+
+Zulassung Beurteilung       Zulasssung zur Beurteilung (geprüft durch Annette Rubach)
+                            _ Termingerechte Eingabe der Unterlagen
+                            _ Vollständigkeit der Unterlagen
+
+
+Zulassung Preiserteilung‘   Raumprogramm (geprüft durch Annette Rubach)
+                            _   Vollständigkeit der Pläne
+                            _   Anzahl fehlender Räume
+                            _   Flächenbilanz gemäss Formular Raumprogramm/Wirtschaftlichkeit [H2]
+
+
+
+                            Baurecht (geprüft durch Annette Rubach/Marcel Graf)
+                            _   Einhaltung Perimeter, Strassen- und Wegabstände
+                            _ Gewässerraum
+                            _ Veränderung Terrain
+
+
+
+                            Nutzeranforderungen (geprüft durch Annette Rubach/Marcel Graf)
+                            _   Umgang mit Bestand/Anbindung an Betrieb
+                            _   Einbettung in Topografie/Kontext
+                            _ Raumbeziehungen
+                            _   Aussenraumgestaltung
+
+
+
+                            Ökonomie (geprüft durch Roman Weder, PBK AG)
+                            _   Formquotienten/Wirtschaftlichkeit
+                            _   Erreichung Zielkosten
+                                (Neubau Schule CHF 4.9 Mio, Neubau Sport/Tagesstrukt. CHF 18.3 Mio.)
+
+
+                            Ökologie (geprüft durch Mike Weber, Werkstatt Architektur und Energie)
+                            _   Ressourcenverbrauch/Bauökologie
+                            _   Betriebsenergie (Minergie-P)/Erreichung Standard Minergie-P-ECO
+
+
+
+                            Brandschutz (geprüft durch Rolf Hubschmid, DILECA)
+                            _   Fluchtwege/Brandschutzkonzept
+                            _ Abstände/Brandabschnitte/Tragwerk/Aufstockung/Feuerwehrzufahrt
+
+
+
+                            Hindernisfreiheit SIA 500 (geprüft durch Annette Rubach)
+                            _   Umgebung/Gebäude/Betrachtungsperimeter
+
+
+
+                            Verkehrskonzept (geprüft durch Michael Nanz, gpw Wälter Willa)
+                            _   Erschliessung/Parkierung
+
+
+
+
+                                                                                                       ı0
+Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albıs
+
+
+
+
+6           BEURTEILUNG
+
+
+
+
+Kriterien              Die Jurierung der 8 Wettbewerbsbeiträge fand am 11. November 2020 statt.
+                       Zu Beginn der Jurierung wurden die Ergebnisse aus der Vorprüfung präsen-
+                       tiert. Anschliessend wurden die Projekte besprochen und anhand der nach-
+                       folgenden Kriterien beurteilt. Die Reihenfolge der Kriterien enthielt keine
+                       Wertung.
+
+
+                       Kontext, Städtebau und Architektur
+                       _   Ortsbauliches und architektonisches Konzept für beide Neubauten
+                       _   Qualität der Aussenräume
+                       _   Umgang mit den Inventarobjekten
+
+
+                       Nutzung und Funktionalität
+                       _   Umsetzung des Raumprogramms
+                       _   Umsetzung der Betriebsabläufe für die Nutzungseinheiten Sport,
+                           Tagesstrukturen, Schule und Schulverwaltung
+
+
+                       Wirtschaftlichkeit
+                       _   Bau- und Betriebskosten
+                       _ Flächeneffizienz
+
+
+                       Nachhaltigkeit
+                       _   Nachhaltigkeit in Bau und Betrieb (Architektur- und Gebäudetechnik-
+                           konzept)
+                       _   Materialisierung/Bauökologie
+
+
+Vorgehen               Das Preisgericht entschied, von der im Wettbewerbsprogramm erwähnten
+                       Möglichkeit einer separaten Jurierung der beiden Teilareale Gebrauch zu
+                       machen, da dadurch wesentliche Vorteile in Bezug auf die Erfüllung der An-
+                       forderungen erkennbar waren.
+
+
+Teilareal B            In einem ersten Beurteilungsschritt wurden die Wettbewerbsbeiträge
+                                                                                          für
+                       das Teilareal B begutachtet. Nach intensiver Diskussion entschied das Preis-
+                       gericht, die nachfolgenden Beiträge im 1. Wertungsrundgang aufgrund der
+                       Nachteile bei der städtebaulichen und topografischen Eingliederung, den
+                       Nutzeranforderungen sowie den bauökonomischen und bauökologischen As-
+                       pekten auszuscheiden:
+
+
+                       Projekt Nr. 2 SIMBA
+                       Projekt Nr. 5 PING PONG,
+                       Projekt Nr. 6 sowohl als auch
+                       Projekt Nr. 7 TOTORO
+
+
+                       Das Projekt Nr. 4 ZNÜNI wurde im 2. Wertungsrundgang aufgrund Nachteile
+                       beim architektonischen Ausdruck ausgeschieden. Das Preisgericht entschied
+                      jedoch, dieses Projekt auf dem 4. Rang doch noch mit einem Preisgeld zu
+                      würdigen.
+
+
+
+
+                                                                                                     1
+Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagessı
+
+
+
+
+                       Im 3. Wertungsrundgang wurden nochmals die Vor- und Nachteile diskutiert
+                       und die nachfolgende Rangierung anhand einer Abstimmung festgelegt:
+
+
+                       Rangi            Projekt Nr. 3 AURELIA
+                       Rang 2           Projekt Nr. 1 concerto
+                       Rang 3           Projekt Nr. 8 pinocchio und geppetto
+
+
+                       Im Schlussrundgang fasst die Jury den einstimmigen Entscheid, an dieser
+                       Rangierung festzuhalten.
+
+
+
+Teilareal A            Anschliessend fand die Beurteilung des Teilareals A statt. Nach eingehender
+                       Begutachtung wurden die nachfolgenden Beiträge im 1. Wertungsrundgang
+                       aufgrund Nachteile bei der städtebaulichen und topografischen Eingliede-
+                       rung, den Nutzeranforderungen sowie den bauökonomischen und bauökolo-
+                       gischen Aspekten ausgeschieden:
+
+
+                       Projekt Nr. 2 SIMBA
+                       Projekt Nr. 4 ZNÜNI
+                       Projekt Nr. 5 PING PONG,
+                       Projekt Nr. 6 sowohl als auch
+                       Projekt Nr. 8 pinocchio und geppetto
+
+
+                       Im 2. Wertungsrundgang wurden keine weiteren Projekte ausgeschieden.
+
+
+                       Im 3. Wertungsrundgang fand nochmals eine Abwägung der Projekte der
+                       engeren Wahl statt. Schliesslich wurde die nachfolgende Rangierung anhand
+                       einer Abstimmung festgelegt:
+
+
+                       Rang 1          Projekt Nr. 1 concerto
+                       Rang 2          Projekt Nr. 3 AURELIA
+                       Rang 3          Projekt Nr. 7 TOTORO
+
+
+                       Im Schlussrundgang fasst das Preisgericht den einstimmigen Entscheid, an
+                       dieser Rangierung festzuhalten.
+
+
+
+
+                                                                                                  12
+            ht Neubau Schule und Nei    u Sport/Tagesstruktui   Hausen am Albis
+
+
+
+
+7           RANGIERUNG UND PREISGELD
+
+
+
+
+Preisgeld                  Für Preise, Ankäufe und feste Entschädigungen stand gesamthaft eine Sum-
+                           me von CHF 150'000.- exkl. MWST zur Verfügung. Es war vorgesehen pro
+                          Teilareal 2 - 3 Preise zu vergeben. Für termingerecht eingereichte, vollstän-
+                          dige und vom Preisgericht zur Beurteilung zugelassene Projektvorschläge
+                          wurde eine     Entschädigung von CHF 5'000.- exkl. MWST pro Teilareal fest-
+                          gelegt. Bei einer separaten Jurierung sollte der Restbetrag von CHF 70'000.-
+                          exkl. MWST prozentual gemäss der Preissummenberechnung auf die beiden
+                          Teilareale aufgeteilt werden. Dies entsprach rund CHF 26'000.- exkl. MWST
+                          für Teilareal A und CHF 44'000.- exkl. MWST für Teilareal B. Mit der Ausbe-
+                          zahlung des Preisgeldes und den Entschädigungen sind alle Verpflichtungen
+                          der Veranstalterin gegenüber den Teilnehmenden abgeschlossen und deren
+                          Leistungen im Rahmen des Projektwettbewerbs vollumfänglich abgegolten.
+
+
+
+                          Das Preisgericht setzte folgende Rangierung und Preiszuteilung fest:
+
+
+                          Teilareal A
+
+
+                          Rangi              Projekt Nr. 1 concerto          CHF 5‘000.- + 12'000.-
+                          Rang 2             Projekt Nr. 3 AURELIA           CHF 5'000.- + 8'000.-
+                          Rang 3             Projekt Nr. 7 TOTORO            CHF 5'000.- + 6'000.-
+                                             Projekt Nr. 2 SIMBA             CHF 5'000.-
+                                             Projekt Nr. 4 ZNÜNI             CHF 5°000.-
+                                             Projekt Nr. 5 PING PONG         CHF 5'000.-
+                                             Projekt Nr. 6 sowohl als auch   CHF 5'000.-
+                                             Projekt Nr. 8 pinocchio & gepp. CHF 5'000.-
+
+
+                                                     Total Teilareal A       CHF 66'000.- exkl.MWST
+
+
+                          Teilareal B
+
+
+                          Rangi              Projekt Nr. 3 AURELIA           CHF 5'000.- + 15\000.-
+                          Rang 2             Projekt Nr. 1 concerto          CHF 5'000.- + 12'000.-
+                          Rang 3             Projekt Nr. 7 pinocchio & gepp. CHF 5'000.- + 9'000.-
+                          Rang 4             Projekt Nr. 4 ZNÜNI             CHF 5'000.- + 8'000.-
+                                             Projekt Nr. 2 SIMBA             CHF 5'000.-
+                                             Projekt Nr. 5 PING PONG         CHF 5'000.-
+                                             Projekt Nr. 6 sowohl als auch   CHF 5'000.-
+                                             Projekt Nr. 7 TOTORO            CHF 5'000.-
+
+
+                                                     Total Teilareal B       CHF 84'000.-   exkl. MWST
+                                                     Total TeilarealA+B      CHF 150'000.- exkl. MWST
+
+
+                          Der Gemeinderat Hausen am Albis hat diese Rangierung und Preiszuteilung
+                          am 01. Dezember 2020 genehmigt und die Empfehlung des Preisgerichts
+                          somit bestätigt.
+
+
+
+
+                                                                                                         13
+Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+8        _SCHLUSSFOLGERUNG
+
+
+
+
+Danksagung             Die Gemeinde Hausen am Albis hat mit dem vorliegenden Wettbewerbsre-
+                       sultat einen wichtigen Meilenstein für die Erweiterung der Schulanlage ge-
+                       setzt und anerkennt alle Projekte als wertvolle Beiträge für ein forderndes
+                       Wettbewerbsprogramm. Das Preisgericht, die Gemeinde Hausen wie auch
+                       die Verfahrensbegleitung dankt allen Teilnehmenden für die engagierte Mit-
+                       arbeit. Den beiden Siegerteams wird sehr herzlich zum Wettbewerbserfolg
+                       gratuliert.
+
+
+
+Würdigung und          Für das Siegerprojekt des Teilareals A wird nachfolgende Würdigung inklusi-
+Empfehlungen           ve den Empfehlungen für die Weiterbearbeitung festgehalten:
+Teilareal A
+
+                       Der Wettbewerbsbeitrag Nr. 1 concerto schlägt für beide Teilareale den Ein-
+                       satz einer gemeinsamen Architektursprache in Form und Materialisierung
+                       vor. Zwei minimalistische und kubische Formen bilden die Antwort auf die
+                       Fragestellung des Programms. Das Verfasserteam zeigt mit dem Beitrag,
+                       dass es die Themen rund um den zeitgemässen Schulhaus- und Sporthal-
+                       lenbau beherrscht. Die konsequente Anwendung der Architekturwerkzeuge
+                       wie auch die klare Formengebung für die beiden Bauvolumen treten hier be-
+                       sonders ansprechend hervor.
+
+
+                       Das Projekt Nr. 1 concerto überzeugt insbesondere beim Neubau Schule für
+                       das Teilareal A durch die sehr kompakte Gebäudevolumetrie sowie durch die
+                       funktionale Anordnung der Nutzungseinheiten. Die unterschiedlichen Nut-
+                       zungen lassen sich räumlich gut voneinander trennen ohne dabei eine un-
+                       übersichtliche Wegführung zu generieren. Die klaren Fluchten werden posi-
+                       tiv bewertet. Verbesserungspotential besteht bei der Aussenraum- und
+                       Fassadengestaltung.
+
+
+                       Im Rahmen der weiteren Projektierung sollen daher für das Siegerprojekt
+                       Nr. 1 concerto, Teilareal A nachfolgende Punkte geklärt und weiterentwickelt
+                       werden:
+
+
+                       ®    Generell soll die Material- und Farbensprache im Innen- wie auch im
+                            Aussenbereich lebendiger und kindergerechter gestaltet werden. Es soll
+                            mehr Wärme und Behaglichkeit entstehen.
+                       «e   Die Umgebungsgestaltung muss definierter ausformuliert werden, hier
+                            fehlen die konkreten Aussagen. Die Umgebung soll aus der Optik des
+                            Kindes gesehen und umgesetzt werden.
+                       «    Ein besonderes Augenmerk gilt den Anschlüssen an das gestaltete Ter-
+                            rain für die jeweiligen Funktionen.
+
+
+
+
+                                                                                                     14
+Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Würdigung und          Beim Projekt Nr. 3 AURELIA lobt das Preisgericht die selbstverständliche Er-
+Empfehlungen           scheinung des Neubaus Sport/Tagesstrukturen für das Teilareal B und des-
+Teilareal B            sen Einpassung ins Ortsbild. Die zurückhaltende Gebäudehöhe, die gebro-
+                       chenen Gebäudelängen, die hohe Funktionalität für öffentliche Anlässe
+                       sowie die pädagogisch ansprechende Raumgestaltung der Tagesstrukturen
+                       werden positiv beurteilt.
+
+
+                       Am nordöstlichen Siedlungsrand von Hausen weist die Dorfstruktur ein En-
+                       semble grösserer Bauten auf, die sich parallel zum Hauserberg natürlich in
+                       der Topografie anordnen. Dieses Siedlungsmuster wird von den Architekten
+                       erkannt und geschickt weitergeführt. Parallel zu den dominanten Bestands-
+                       bauten und als Abschluss der Sichtachse und der bestehenden Wegführung
+                      positioniert sich der Neubau in ansprechender Art. Um dem Massstab und
+                      den Proportionen der Umgebung gerecht zu werden, sind die beiden Nut-
+                       zungen Sport und Tagesstruktur auf zwei Volumen verteilt. Zusammenge-
+                      fügt sind sie im Bereich des gemeinsamen Foyers. Mittels Absenkung der
+                      Sporthalle um ein Vollgeschoss und dem vorgesetzten Tribünenraum wird
+                      die Mächtigkeit der Fassade gebrochen, das Gebäude tritt somit maximal
+                      eingeschossig in Erscheinung, was die Jury lobt. Die ebenerdig organisierten
+                      Tagesstrukturen sind funktional optimal mit dem Sportbereich verbunden.
+                      Der Raster des Tragwerks ist auf eine wirtschaftliche Abmessung dimensio-
+                      niert und lässt flexiblen Spielraum zu. Die liebevolle Anordnung und Gestal-
+                      tung der Räume wird aus pädagogischer Perspektive sehr begrüsst.
+
+
+                      Für das Siegerprojekt Nr. 3 AURELIA, Teilareal B sind folgende Punkte zu
+                       berücksichtigen und weiterzuentwickeln:
+
+
+                      *    Die Fassade bedarf einer detaillierteren Ausformulierung. Dabei soll ihre
+                           grosse Qualität von Zurückhaltung weiter gestärkt werden.
+                      ®   Aus der Darstellung ist die Dachform nicht einheitlich erkennbar. Diese
+                          soll so angepasst werden, dass sie sich optimal in den Kontext einfügt.
+                      ®   Hinsichtlich Brandschutz und Haustechnik sind gemäss Erkenntnissen
+                          aus der Vorprüfung in der weiteren Projektentwicklung Anpassungen
+                           notwendig. Ebenso ist der Ressourcenverbrauch im Hinblick auf das un-
+                          terirdische Volumen zu verifizieren.
+                      *   Der Aussenbereich der Tagesstrukturen wurde nordseitig zum Hang hin
+                          angeordnet. Die Jury schätzt die Abgeschiedenheit zur Strasse, wünscht
+                          jedoch eine Überprüfung hinsichtlich der Zugänglichkeit nach SIA 500,
+                          des Terrainverlaufs und der Besonnung.
+                      «   Die Hindernisfreiheit des umfassenden Betrachtungsperimeters, im spe-
+                          ziellen vom Gebäude SEK zum Neubau Sport/Tagesstrukturen ist in der
+                          weiteren Bearbeitung zu thematisieren, beispielsweise mittels Fussweg
+                          auf Parzelle Kat. Nr. 3024.
+                      «   Die südliche Parkierungsanordnung ist in der weiteren Planung zu the-
+                          matisieren und zu optimieren.
+
+
+
+
+                                                                                                    15
+          b Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am: Albis:
+
+
+
+
+9   PROJEKTVERFASSENDE
+
+
+
+
+            Bei der Öffnung der verschlossenen Verfassercouverts wurden nach der Ju-
+            rierung folgende Siegerteams, Verfasserinnen und Verfasser ermittelt:
+
+
+
+
+            Teilareal A
+
+
+            Rangıi                    Projekt Nr. 1    concerto
+
+
+           Architektur                Jonas Wüest Architekten GmbH, Zürich
+                                      Tamara Schubiger, Jonas Wüest
+            Landschaftsarchitektur Planikum GmbH, Zürich
+                                      Florian Glowatz-Frei, Michelle Huber, Greta Inderst
+
+
+
+
+            Rang 2                    Projekt Nr. 3    AURELIA
+
+
+            Architektur               ARGE Rohrer Sigrist Architekten GmbH, Luzern +
+                                      Atelier Brandau Ciccardini Architekten GmbH
+                                      Dirk Brandau, Roman Sigrist, Dani Ciccardini
+            Landschaftsarchitektur Mettler Landschaftsarchitekten AG, Gossau
+                                      Rita Mettler, Marek Langner, Nathanael Bapst
+
+
+
+
+            Rang 3                    Projekt Nr. 7    TOTORO
+
+
+            Architektur               Metron Architektur AG, Brugg
+                                      Harald König, Joschua Bücheler
+            Landschaftsarchitektur Schläpfer Carstensen Landschaftsarchitekten, Zürich
+                                      Sophia Carstensen
+Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+                       Teilareal B
+
+
+
+                       Rang i                   Projekt Nr.3     AURELIA
+
+
+                       Architektur              ARGE Rohrer Sigrist Architekten GmbH, Luzern +
+                                                Atelier Brandau Ciccardini Architekten GmbH
+                                                Dirk Brandau, Roman Sigrist, Dani Ciccardini
+                       Landschaftsarchitektur Mettler Landschaftsarchitekten AG, Gossau
+                                                Rita Mettler, Marek Langner, Nathanael Bapst
+
+
+
+
+                       Rang 2                   Projekt Nr. 1    concerto
+
+
+                       Architektur              Jonas Wüest Architekten GmbH, Zürich
+                                                Tamara Schubiger, Jonas Wüest
+                       Landschaftsarchitektur Planikum GmbH, Zürich
+                                                Florian Glowatz-Frei, Michelle Huber, Greta Inderst
+
+
+
+
+                       Rang 3                   Projekt Nr. 8    pinocchio und geppetto
+
+
+                       Architektur              Sigrist Schweizer Architekten AG, Luzern
+                                                Paolo Birrer, Pascal Lang, Marc Sigrist,
+                                                Daniel Schweizer
+                       Landschaftsarchitektur Goldrand GmbH, Zürich
+                                                Adrian Ulrich
+                      Tragstruktur              Synaxis AG, Zürich
+                                                Robert Sigrist, Matthias Müller (Holzbau)
+
+
+
+
+                       Rang 4                   Projekt Nr.4 ZNÜNI
+
+                      Architektur               Dahinden Heim Partner Architekten AG, Winterthur
+                                                Lorenz Dahinden, Livio De Maria,
+                                                Alexander Dahinden, Dieter Haller
+                       Landschaftsarchitektur Brogle Rüeger Landschaftsarchitekten, Winterthur
+                                                Michael Brogle, Nadja Zaldivar
+                                                       am Albis
+
+
+
+
+Verfassende der weiteren Projekte:
+
+
+
+                       Projekt Nr. 2     SIMBA
+
+
+Architektur            felberfendt Architekten GmbH, Zürich
+                       Franziska Felber, Marcus Fendt, Marco Piatti
+                       Navideh Bloch
+Landschaftsarchitektur felberfendt Architekten, Zürich
+                       Franziska Felber, Vaclav Ulc
+Bauingenieur           Schnetzer Puskas Ingenieure AG, Zürich
+                       Johannes Dudli
+HLKS                   Wirkungsgrad Ingenieure AG, Luzern
+                       Nico Bless
+
+
+
+
+                       Projekt Nr. 5     PING PONG
+
+
+Architektur            kit architects eth sia gmbh, Zürich
+                       Andreas Schelling, Roman Loretan, Gianet Traxler,
+                       Christian Neumair
+Landschaftsarchitektur atelier tp landschaftsarchitekten, Rapperswil
+                       Iris Tijssen, Dorothee Braitmayer
+Baumanagement          HSSP AG, Zürich
+                       Roger Stocker, Yonca Ayilmaztepe
+Bauingenieur           Schnetzer Puskas Ingenieure AG, Zürich
+                       Stefan Bänziger
+Brandschutz/Holzbau    Josef Kolb AG, Romanshorn
+                       Christoph Angehrn
+HLKSE                  Virtuos 3D Modeling AG, Winterthur
+                       Franco Novakovic, Roger Wirth
+Bauphysik              Lemon Consult AG, Zürich
+                       Julian Zanders
+
+
+
+
+                       Projekt Nr. 6     sowohl als auch
+
+
+Architektur            Blättler Dafflon Architekten AG, Zürich
+                       Ralph Blättler, Gilles Dafflon, David Koehn,
+                       Isabelle Cochevelou, Regula Christen
+Landschaftsarchitektur Albiez de Tomasi GmbH, Zürich
+                       Katja Albiez, Federica Mattei
+Brandschutz/Holzbau    Makiol Wiederkehr AG, Beinwil am See
+                       Peter Makiol
+
+
+
+
+                                                                           18
+                bau Schule und Neubau   Sport/Tagesstru     sen am Albis
+
+
+
+
+10     GENEHMIGUNG
+
+
+
+
+Der vorliegende Bericht wurde vom Preisgericht genehmigt.
+Hausen am Albis, 15. Januar 2021
+
+
+
+
+Stefan Gyseler (Vorsitz)
+Gemeindepräsident
+
+
+
+
+Andrea Sidler
+Gemeinderätin, Präsidentin Primarschulpflege
+
+
+
+
+Reto Brönnimann
+Gemeinderat, Vorsteher Hochbau
+
+
+
+
+Beatrice Sommerauer Nägelin
+Gemeinderätin, Vorsteherin Finanzen und
+Liegenschaften (Ersatz)
+
+
+
+
+Christoph Kaech
+Architekt
+
+
+
+
+Melk Nigg
+Architekt
+
+
+
+
+Carola Antön
+Architektin/Landschaftsarchitektin
+
+
+
+
+Marcel Graf
+Bauplaner/Bauverwalter
+
+
+
+
+Darko Milosavljevic
+Architekt (Ersatz)
+
+
+
+
+                                                                           19
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport,
+
+
+
+
+PROJEKT NR. 1 CONCERTO
+
+1. PREIS TEILAREAL A, 2. PREIS TEILAREAL B
+
+
+
+
+ Architektur
+ Jonas Wüest Architekten GmbH, Zürich
+Tamara Schubiger, Jonas Wüest
+
+
+ Landschaftsarchitektur
+ Planikum GmbH, Zürich
+ Florian Glowatz-Frei, Michelle Huber, Greta Inderst
+
+
+
+
+Situation Gesamtareal
+
+
+
+                                                          20
+Jurybericht Neubau        ule und Neubau Sı    t/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Kontext, Städtebau und      Der Neubau Schule auf dem Teilareal A zeigt sich als ein kompaktes Volu-
+Architektur                 men mit einer nahezu quadratischen Grundrissform. Das Bauvolumen rückt
+                            nahe an die Ebertswilerstrasse und kann somit einen grossen Freiraum an
+                            der Nordostfassade hin zum Primarschulhaus generieren. Ein zweiter Frei-
+                            raum bildet sich gegen Nordwesten. Die Grundrisse des zweigeschossigen
+                            Körpers definieren sich über einen mittigen Durchgangsraum, welcher auf
+                            beiden Niveaus als Eingangsbereich mit Garderobe dient und direkt an den
+                            Aussenraum angebunden ist. Diese Massnahme gibt den beiden Funktions-
+                            einheiten einen eigenen Zugang und ermöglicht die jeweilige gewünschte
+                            Autonomie. Die Entfluchtung ist somit perfekt gelöst. Es befindet sich zu-
+                            dem auf jedem Geschoss eine Sanitäranlage. Mit dieser Grundrissidee kön-
+                            nen die Treppen und der Lift wohltuend in den Hintergrund treten. Das mi-
+                            nimalistische Untergeschoss beinhaltet die Lager- und Technikräume. Die
+                            Materialisierung und Fassadengestaltung sind logisch aufgebaut. Es ergeben
+                            sich an wenigen Stellen, wie etwa an der nördlichen Aussentreppe, kleine
+                            Fragezeichen.     Diese können aber in der Weiterberabeitung gelöst werden.
+                            Im Innen- wie Aussenbereich wirken die gewählten Werkzeuge noch etwas
+                            zu wenig lebendig (vgl. Kapitel 8, Würdigung und Empfehlungen zur Weiter-
+                            bearbeitung).
+
+
+                            Analog zum Neubau Schule werden auch beim Neubau Sport/Tagesstruktu-
+                            ren die Grundrisse gekonnt übereinander gestapelt und mit einem Durch-
+                            schuss im Obergeschoss versehen. Auf dem Erdgeschossniveau befinden
+                            sich neben dem Eingang die Garderobenanlagen sowie die Zugänge zu den
+                            Sporthallen und der Aufgang zum Obergeschoss. Alles ist logisch und über-
+                            sichtlich angeordnet. Die Zugangsgestaltung im Erdgeschoss ist bewusst
+                            zurückhaltend gestaltet, so dass keine Konkurrenz zur Eingangsgestaltung
+                            im Obergeschoss entsteht. Im Obergeschoss definiert der grosszügige Ein-
+                            gangsbereich die Szenerie. An ihn angeschlossen sind gegen Südwesten die
+                            Räume der Tagesstrukturen, ideal mit Tageslicht versorgt. Die gewählte
+                            Aussenmaterialisierung und die Fassadengestaltung überzeugen in weiten
+                            Teilen. Es zeigen sich aber gegenüber dem Anschluss an das gestaltete Ge-
+                            lände diverse Schwachpunkte. Der Umgang mit der Sockelthematik scheint
+                            zu willkürlich gelöst zu sein. Innen zeit sich dasselbe Bild wie beim Vor-
+                            schlag für den Neubau Schule. Die gewählte spröde Nüchternheit will nicht
+                            so recht zur Lebendigkeit des Schulalltags passen.
+
+
+
+
+Neubau Schule, Visualisierung                            Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+
+                                                                                                          21
+                 Wettbewerb Neubau Schule und Neubau           Tagesstrukturen, Hausen am Albis
+
+
+
+
+Nutzung und                 Der Neubau Schule auf dem Teilareal A weist eine sehr gute Flächenbilanz
+Funktionalität              auf und überzeugt die Nutzer aufgrund der Einbindung in die Topografie, der
+                            ansprechenden Fensterfronten sowie aufgrund der verschiedenen Eingangs-
+                            bereiche auf zwei Geschossen. Die Räumlichkeiten sind für die vier Nut-
+                            zungseinheiten Schule, Förderunterricht, Schulverwaltung und Hauswartung
+                            mit einer klaren Struktur aufgeteilt, lassen aber Spielraum für eine flexible
+                            Nutzung zu. Die Zufahrt für die Werkstatt Hauswartung muss in der Weiter-
+                            bearbeitung aus Nutzersicht noch präzisiert werden.
+
+
+                            Der kompakte, helle und klar gegliederte Neubau Sport/Tagesstrukturen auf
+                            dem Teilareal B überzeugt durch seine Funktionalität und dem Zusammen-
+                            spiel der verschiedenen Bereiche. Der Haupteingang im Obergeschoss, wel-
+                            cher gleichzeitig als Foyer und Tribüne dient, wird positiv beurteilt. Gleich-
+                            zeitig können Turnklassen den unteren Eingang bei den Garderoben
+                            benutzen, womit eine Entflechtung der Nutzungseinheiten erreicht wird. Die
+                            Räume für die Tagesstrukturen sind gut konzipiert. Einzig die Sanitäranla-
+                            gen und der Zahnputzbereich sind lediglich über die offene Erschliessungs-
+                            zone zu erreichen, was aus betrieblicher Sicht nicht optimal ist. Die südsei-
+                            tig angeordneten Spielmöglichkeiten im Aussenraum sind grosszügig
+                            geplant, es fehlen jedoch die Aussenmaterialräume.
+
+
+Wirtschaftlichkeit          Der Wettbewerbsbeitrag weist für beide Teilareale eine gute Bauökonomie
+                            auf. Die beiden Neubauten überzeugen durch eine effiziente Nutzung wie
+                            auch durch wirtschaftliche Formquotienten,        inbesondere durch ein gutes
+                            Verhältnis Geschossfläche zur Gebäudehülle.
+
+
+
+Nachhaltigkeit              Der Neubau Schule auf dem Teilareal A ist hinsichtlich der Nachhaltigkeit
+                            kompakt geplant und zeichnet sich durch ein konsequentes Rastersystem
+                            aus. Die Anordnung der Räume ist aus schalltechnischer Sicht gut gelöst.
+                            Der Grundriss des Neubaus Sport/Tagesstrukturen kann flexibel gestaltet
+                            und angepasst werden. Das unterirdische Volumen und damit die graue
+                            Energie wird aus energetischer Sicht im Vergleich zum Neubau Schule als
+                            weniger optimal eingeschätzt.
+
+
+
+
+                           Neubau Schule, Innenvisualisierung OG
+
+
+
+                                                                                                             22
+         icht Neubau           und Neubau Sport/Tagesstrukturen, Hausen am Albıs
+
+
+
+
+                                                                                           Sof
+                                                                                                 ESE
+                                                                                           |e|
+
+
+
+                                                                                           g88   EEE
+
+
+
+                                                              K
+                                                          Neubau Schule, Grundriss OG
+
+
+
+
+                                                              Li:              a                       IE mung
+                           =    =               —            BB]                          Ina gl       1    |
+                       i                                                   |
+
+
+Neubau Schule, Schnitt                                    Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG                Neubau Sport/Tagesstrukturen, Grundriss OG
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+PROJEKT NR, 2 SIMBA
+
+
+
+
+ Architektur
+ felberfendt Architekten, Zürich
+ Franziska Felber, Marcus Fendt, Marco Piatti, Navideh Bloch
+
+
+ Landschaftsarchitektur
+ felberfendt Architekten, Zürich
+ Franziska Felber, Vaclav Ulc
+
+
+
+
+Situation Gesamtareal
+
+
+
+                                                                                          24
+Juryberi      Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Kontext, Städtebau und      Beim Wettbewerbsbeitrag SIMBA wird versucht, über die Materialisierung
+Architektur                 des Bestands einen Leitgedanken für die anstehende Weiterentwicklung der
+                            Schul- und Sportanlage zu generieren. Es stellt sich die berechtigte Frage,
+                            ob die beiden Teilprojekte wirklich eine solch starke Anlehnung benötigen
+                            oder ob eine Neuausrichtung nicht zielführender ist. Die Jury war der ein-
+                            stimmigen Meinung, dass der zweite Weg authentischer ist.
+
+
+                            Der Neubau Schule ist grundsätzlich ansprechend gelöst und die meisten
+                            Bedürfnisse des Wettbewerbprogramms sind umgesetzt worden. Die Platzie-
+                            rung des Bauvolumens bildet an der Nordwestseite einen dreistufigen Pau-
+                            senbereich. Das neue Gebäude sucht bewusst die räumliche Nähe zum Be-
+                            stand. In diesem Zwischenbereich befindet sich auch der Hauptzugang zum
+                            neuen Schulhaus. Hier tritt der Baukörper zweigeschossig in Erscheinung,
+                            auf der Gegenseite ist die Fassade dreigeschossig. Der Erdgeschossgrund-
+                            riss wirkt trotz seinem zentralen Begegnungsraum jedoch zu unübersichtlich
+                            und die Anordnung der Sanitäranlagen ist nicht ideal gelöst. Die Positionie-
+                            rung der Schulleitung und Schulverwaltung an der Südwestfassade wird als
+                            richtig eingeschätzt und erlaubt eine gute Übersicht über den Pausenbereich
+                            im Süden und Westen. Über eine periphere Treppe wird die Verbindung zu
+                            den oberen Geschossen angeboten. Die Entfluchtung der Treppenanlage
+                            zeigt sich aber im Aussenbereich wenig motiviert. Auf dem Obergeschoss
+                            werden zwei unterschiedliche Klassenzimmertypen vorgeschlagen, was als
+                            suboptimal erachtet wird.
+
+
+                            Das Volumen für den Neubau Sport/Taggestrukturen ist adäquat in den
+                            Hang eingebettet worden und erscheint an der Südwestfassade zweige-
+                            schossig. Die Fassadensprache wie auch die Materialisierung wirken jedoch
+                            wenig inspirierend und erinnern mehr an einen Gewerbebau. Das Platzieren
+                            der Veloanlage, prominent und direkt vor dem Eingang, wirkt wenig einla-
+                            dend. Auf dem Eingangsniveau befinden sich die Garderoben sowie die Zu-
+                            gänge zu den Sporthallen. Auf dem Obergeschoss befinden sich die Tages-
+                            strukturen und die Zuschauertribüne. Hier wäre eine direkte Anbindung der
+                            Tagesstrukturen an den Aussenraum wünschenswert. Der Grundriss wirkt zu
+                            verwinkelt und intuitiv wenig lesbar. Es wird eine unnötige Komplexität ge-
+                            schaffen, was sich bei der Gegenüberstellung zu den anderen Beiträgen als
+                            nachteilig erweist.
+
+
+
+
+                         m
+
+                          "TE
+                            4
+
+
+
+
+Neubau Schule, Visualisierung                           Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+
+                                                                                                           25
+Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Nutzung und            Der Neubau Schule auf dem Teilareal A fügt sich topografisch gut in die Ge-
+Funktionalität         samtanlage ein. Positiv bewertet wird auch der grosszügige, gedeckte
+                       Hauptzugang. Die Anbindung an den Pausenplatz und den Bestand ist somit
+                       gewährleistet. Die Raumbeziehungen sind gut durchdacht, jedoch insbeson-
+                       dere im Erdgeschoss zu wenig übersichtlich gestaltet. Einzelne Räume sind
+                       zu gross dimensioniert, so beispielsweise die Teeküche für die Schulverwal-
+                       tung. Die Räumlichkeiten für die Hauswartung sind gut zugänglich, jedoch
+                       fehlt der Waschplatz für die Hauswartung. Die Klassenzimmer mit den an-
+                       grenzenden Gruppenräumen sind mit zwei Fensterfronten hell und funktio-
+                       nal konzipiert.
+
+
+                       Der Neubau Turnhalle Sport/Tagesstrukturen auf dem Teilareal B weist eine
+                       gute Gliederung für die verschiedenen Nutzergruppen auf. So ist der Garde-
+                       robenbereich und die Sanitäranlagen im Erdgeschoss vom Haupteingang gut
+                       erreichbar und effizient geplant. Die grosszügigen und hellen Räume für die
+                       Tagesstrukturen überzeugen durch die flexiblen Aufteilungsmöglichkeiten
+                       und den grosszügigen Garderobenbereich. Die Erschliessungsstruktur im
+                       Obergeschoss ist jedoch analog zum Neubau Schule zu wenig übersichtlich
+                       gestaltet. Positiv bewertet werden hingegen die Möglichkeit einer vom
+                       Sportbetrieb unabhängigen Nutzung der Tagesstrukturen sowie die Lage der
+                       Küche in der Nähe zur Tribüne. Die Aussenzugänge für die Anlieferung wie
+                       auch die separaten Eingänge und Nebenräume für die Hauswartung sind gut
+                       durchdacht.
+
+
+
+Wirtschaftlichkeit     Der Wettbewerbsbeitrag für den Neubau Schule weist viel Gebäudevolumen
+                       zur Geschossfläche auf, was eine hohe Raumhöhe generiert. Auch für den
+                       Neubau Sport/Tagesstrukturen wird ein sehr grosses Gebäudevolumen und
+                       eine entsprechend grosse Raumhöhe vorgeschlagen. Beide Gebäude haben
+                       dadurch Defizite in der bauökonomischen Betrachtung. Insbesondere der
+                       Neubau Sport/Tagesstrukturen weist unwirtschaftliche Formquotienten auf.
+
+
+
+Nachhaltigkeit         Mit der vorgeschlagenen Materialwahl und Konstruktion können die ECO-
+                       Kriterien nicht erfüllt werden. Der Verbrauch an grauer Energie ist zu hoch.
+                       Die Tageslichtnutzung wurde hingegen insbesondere beim Neubau Sport/Ta-
+                       gesstrukturen gut gelöst.
+
+
+
+
+                                                                                                   26
+                         Schule und N        agesstrukture             am Albis
+
+
+
+
+                                                             u
+                                                              rg DR
+
+
+Neubau Schule, Grundriss EG                                  Neubau Schule, OG          Neubau Schule, UG
+
+
+
+
+              =
+
+
+           o,-m            lo
+
+
+
+
+Neubau Schule, Schnitt                                       Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG                   Neubau Sport/Tagesstrukturen, Grundriss OG
+
+
+                                                                                                            27
+PROJEKT NR. 3 AURELIA
+
+1. PREIS TEILAREAL B, 2. PREIS TEILAREAL A
+
+
+
+
+ Architektur
+ ARGE Rohrer Sigrist Architekten GmbH + Atelier Brandau Ciccardini Architekten GmbH, Luzern
+ Dirk Brandau, Roman Sigrist, Dani Ciccardini
+
+
+ Landschaftsarchitektur
+ Mettler Landschaftsarchitekten AG, Gossau
+ Rita Mettler, Marek Langner, Nathanael Bapst
+
+
+
+
+”                             »
+
+
+
+
+                 N
+Situation Gesamtareal
+
+
+                                                                                              28
+                                                               Hausen am Albis
+
+
+
+
+ Kontext, Städtebau und     Der doppelgeschossige Neubau Schule auf dem Teilareal A arrangiert sich
+Architektur                 harmonisch und geschickt auf der Parzelle und im Gelände. Die Dreiteilung
+                            des Aussenraums in Grünfläche, Hartplatz und Gebäude strukturiert den
+                            Raum in gleichwertige Einheiten, wobei      die Wahl des quadratischen Volu-
+                            mens eine minimale Fassadenlänge mit maximalen Zwischenräumen zu den
+                            umliegenden Bauten ergibt. Die einseitige, freie Auskragung des Oberge-
+                            schosses über die ganze Länge verklärt die Situation und wirkt in ihrer Art
+                            zu mächtig. Das zusätzliche Vordach stärkt dies weiter, was nicht ortsty-
+                            pisch ist und visuell als fremdartig empfunden wird. Die nicht raumhohen
+                            Fenster werden vom Preisgericht positiv bewertet, sie geben Sichtschutz
+                            von aussen und eine gute Lernatmosphäre im Innenraum.
+
+
+                            Auf dem Teilareal B wird das grossräumige Siedlungsmuster der Längsbau-
+                            ten mit den beiden Baukörpern für Sport und Tagesstrukturen natürlich zum
+                            Abschluss gebracht. Zugleich werden die Neubauten gekonnt in die Topo-
+                            grafie platziert. Die zwei Volumen liegen parallel zum Verlauf des Hauser-
+                            bergs und des Jonenbachs. Die Absenkung der Dreifachhalle um ein Vollge-
+                            schoss und die reduzierte Raumhöhe der Tribüne werden begrüsst. Dadurch
+                            tritt das Gebäude weitgehend eingeschossig in Erscheinung. Die zwei längs
+                            gerichteten Volumen sind auf der schmalen Seite aneinander gefügt. Dies
+                            bricht die Länge der Fassade und adressiert die Eingangssituation beider
+                            Nutzungseinheiten, dessen Wichtigkeit mit einem Vorplatz betont wird. In
+                            diesem Bereich löst sich die Weidstrasse auf und wird Teil des öffentlichen
+                            Platz-Raumes. Der sanfte Übergang von Innen- zu Aussenraum wird mittels
+                            Positionierung einer ebenerdigen Tribüne für die Sporthalle und dem Foyer
+                            mit Essbereich für die Tagesstrukturen geschaffen. Die Nutzer und Besucher
+                            werden so über den offenen, ebenerdigen Zugang           eingeladen, an schuli-
+                            schen und sportlichen Aktivitäten teilzuhaben (vgl. Kapitel 8, Würdigung
+                            und Empfehlungen zur Weiterbearbeitung).
+
+
+
+
+Neubau Schule, Visualisierung                          Neubau Sport/Tagesstrukturen, Visualisierung / Fassade (oben)
+
+
+
+                                                                                                                  29
+ Jurybericht Wettbewerb   Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+ Nutzung und              Das Projekt für den Neubau Schule überzeugt die Nutzer aufgrund der stu-
+ Funktionalität           fengerechten Konzipierung der Übergänge von Aussen- zu Innenraum, Die
+                          Sitzbänke als Aufenthaltsort vor dem Gebäude, die Garderobenbereiche
+                          beim Eingang mit den runden Fenstern wie auch die hellen Zimmer stellen
+                          eine ansprechende Lernumgebung dar. Die Raumaufteilung für die Nutzer
+                          ist logisch und flexibel gelöst worden. Die verschiedenen Bereiche sowie die
+                          separaten Eingänge ermöglichen allen Nutzern einen direkten und prakti-
+                          schen Zugang. Die Anordnung der Garderoben und Schulleitungsräume im
+                          Erdgeschoss funktionieren im Schulalltag, ebenso wie die Schulzimmer und
+                          Gruppenräume im Obergeschoss, konzipiert als Ort mit Ruhe und für den
+                          fokussierten Teil des Unterrichts.
+
+
+                          Der Neubau Sport/Tagesstrukturen überzeugt durch den grosszügigen Ein-
+                          gangsbereich und gleichzeitig durch die klare Aufteilung der einzelnen Nut-
+                          zungseinheiten.    Die Idee der Begegnungszone vor dem Haupteingang der
+                          Sporthalle ist für die Nutzer von grossem Mehrwert. Die Einbettung des Ge-
+                          bäudes in die bestehende Landschaft ist sehr ansprechend gelöst, so dass
+                          der Einblick von aussen in die Turnhalle ermöglicht wird wie auch der Blick
+                          von der Tribüne nach aussen. Die Gliederung der Tagesstrukturen mit einem
+                          Aussenbereich hangseitig ist gut durchdacht, funktional abgetrennt und
+                          dennoch für verschiedene Gruppen und Anlässe flexibel nutzbar. Die Garde-
+                          roben und die Aussenräume sind grosszügig geplant. Unklar ist noch der
+                          Zugang zu den Haustechnikräumen. Dieser Punkt muss in der Weiterbear-
+                          beitung verifiziert werden.
+
+
+Wirtschaftlichkeit        Der Beitrag weist beim Neubau Schule eine hohe Effizienz auf, hervorge-
+                          bracht durch eine gut gewählte Raumhöhe und ein gutes Verhältnis bei der
+                          Geschossfläche zur Gebäudehülle. Der Neubau Sport/Tagesstrukturen weist
+                          in diesem Bereich ein weniger optimales Verhältnis auf. Der Formquotient
+                          Hauptnutzfläche zu Geschossfläche entspricht jedoch einem wirtschaftlichen
+                          Wert.
+
+Nachhaltigkeit            Der Neubau Schule ist kompakt geplant und zeichnet sich durch eine schall-
+                          technisch gute Anordnung der Räume aus. Die Tageslichtnutzung der Innen-
+                          räume ist gut gelöst. Beim Neubau Sport/Tagestrukturen erlaubt der hohe
+                          Fensteranteil eine gute Tageslichtnutzung. Der Grundriss kann flexibel ge-
+                          staltet und angepasst werden. Die Gebäudehüllzahl und das unterirdische
+                          Volumen sind jedoch zu gross, der Energieverbrauch muss entsprechend
+                          kompensiert werden. Hierzu sind Optimierungen vorzusehen.
+
+
+
+
+                                                        a      sid.
+                                                                  „|
+                                                                 I      5          ve           4
+Neubau Schule, Schnitt                                  Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+                                                                                                        30
+                     u Schule und Neul        Hausen am Albis
+
+
+
+
+                                              oh!
+               =
+
+               je,
+                                               ocH
+               IE
+
+
+
+
+Neubau Schule, Grundriss EG                  Neubau Schule, 0G   Neubau Schule, UG
+
+
+
+
+       r
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG
+
+
+
+
+                                                     u!
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss UG
+
+
+
+                                                                                     31
+PROJEKT NR. 4 ZNÜNI
+4. PREIS TEILAREAL B
+
+
+
+
+ Architektur
+ Dahinden Heim Partner Architekten, Winterthur
+ Lorenz Dahinden, Livio De Maria, Alexander Dahinden, Dieter Haller
+
+ Landschaftsarchitektur
+ Brogle Rüeger Landschaftsarchitekten, Winterthur
+ Michael Brogle, Nadja Zaldivar
+
+
+
+
+Situation Gesamtareal
+
+
+
+                                                                      32
+                ubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+ Kontext, Städtebau und     Der Neubau Schule auf dem Teilareal A orientiert sich in seiner Form und
+‚Architektur                Materialwahl am Hauptgebäude der Primarschule von 1958. Der Längsbau
+                            arrangiert sich parallel zum Hang und unterteilt den Aussenraum in eher
+                            unklar zugeordnete Teilgebiete. Die Teilung des rechteckigen Grundrisses in
+                            seiner Länge wirkt als starke Zäsur im Raum und entfaltet eine Tiefenwir-
+                            kung des Korridors. Die Versetzung der Gebäudeebenen um je ein Halbge-
+                            schoss bringt jedoch auch Vorteile mit sich, wie beispielsweise die Angren-
+                            zung ans gewachsene Terrain und die vorgeschlagene Lichtöffnung im Dach.
+                            Der Projektentwurf verfügt lediglich über einen Gebäudezugang für die ver-
+                            schiedenen Nutzungseinheiten, was logistische Erschwernisse mit sich
+                            bringt. Nach eingehender Besprechung ist das Preisgericht einstimmig der
+                            Haltung, die Grundrisstypologie mit der Teilung mittels Splitievel sowie die
+                            materialspezifische Ausformulierung des Hauptgebäudes in dieser Form
+                            nicht repetieren zu wollen.
+
+
+                            Der Neubau Sport/Tagesstrukturen reduziert die Grösse des Volumens ge-
+                            schickt; einerseits ist die Sportebene um eine Etage ins Erdreich vertieft,
+                            andererseits wird die Fassadenhöhe gekonnt mit der Auskragung des Ober-
+                            geschosses gebrochen. Das Projekt zeigt eine einladende und offen wirken-
+                            de Vorplatzsituation. Der Zugang wird adressiert durch das auskragende
+                            Obergeschoss. Durch dessen Länge wird die Dominanz der Auskragung ge-
+                            zeigt, was im Modell klar ersichtlich ist. Die geschosshohen Fenster der Ta-
+                            gesstrukturen und die Verkleidung in Metall verleihen dem Bau eine äus-
+                            serst filigrane und ästhetische, jedoch aus Sicht der Jury etwas zu urbane
+                            Erscheinung für den ländlichen Kontext. Die             ine   ist ledi
+                            Balustrade vorgesehen und bietet für die Öffen!
+                            heiten. Die Anordnung der Tagesstrukturen auf der Längsseite der Sporthal-
+                            le bringt eine sachliche Grundrissgestaltung mit sich, die in ihrer Funktiona-
+                            lität überzeugt, jedoch aufgrund der Länge etwas anonym und dadurch für
+                            die Orientierung der Kinder eher nachteilig erscheint.
+
+
+                            Gelobt wird von der Jury bei beiden Projekten die detaillierte Darstellung
+                            der beiden Schnitte.
+
+
+
+
+Neubau Schule, Visualisierung                             Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+
+                                                                                                           33
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis                      fl
+
+
+
+
+ Nutzung und                Aus Nutzersicht wird die vorgeschlagene Einheit des Neubaus Schule zur
+ Funktionalität             bestehenden Schulanlage positiv beurteilt. Die Ausrichtung des Gebäudes
+                            vermag jedoch nicht ganz zu überzeugen. Die Klassenzimmer sind zwar
+                            grosszügig und hell konzipiert, jedoch fehlt die flexible Nutzung aufgrund
+                            der Splitlevels. Das innenliegende DaZ-Zimmer ist aus Nutzersicht subopti-
+                            mal. Zudem liegt die Werkstatt für die Hauswartung unterirdisch. Der im
+                            Wettbewerbsprogramm geforderte ebenerdige Zugang ist zwar in den Plä-
+                            nen angedeutet, jedoch so nicht umsetzbar. Die     Lage des vorgeschlagenen
+                            Unterstands für die Werkstatt und des Spielbereichs wird aufgrund der Nähe
+                            zur Strasse als wenig ideal erachtet.
+
+
+                            Der grosszügig überdachte Zugangsbereich beim Neubau Sport/Tagesstruk-
+                            turen ist für die verschiedenen Nutzergruppen gut erkennbar. Positiv beur-
+                            teilt wird zudem die Raumeinteilung im Obergeschoss. Die einzelnen Berei-
+                            che sind sehr flexibel nutzbar. Allerdings sind die Sanitärzellen für die
+                            Tagesstrukturen nicht auf dem gleichen Geschoss angeordnet, was aus Nut-
+                            zersicht nicht ideal ist. Auch die gewünschte Positionierung des Kraftraums
+                            neben der Sporthalle wird nicht erfüllt. Der grosszügig gestalteten Aussen-
+                            raum mit direktem Zugang von den Tagesstrukturen ist hingegen gut gelöst
+                            worden.
+
+
+
+Wirtschaftlichkeit          Aus bauökonomischer Sicht benötigt der Neubau Schule viel Geschossfläche
+                            zur Abbildung des Raumprogrammes, was nicht zu optimalen Kennwerten
+                            führt, Der Beitrag für den Neubau Sport/Tagesstrukturen überzeugt durch
+                            gute Formquotienten und einer adäquaten Ausgestaltung der Gebäudehülle.
+
+
+
+Nachhaltigkeit              Bei beiden Neubauten werden massive Konstruktionen vorgeschlagen, wel-
+                            che zu viel graue Energie benötigen. Zudem weisen beide Projektvorschläge
+                            grosse unterirdische Volumen auf. Beim Neubau Sport/Tagesstrukturen wird
+                            die Tageslichtnutzung positiv bewertet.
+
+
+
+
+           u                                                                                             [
+
+
+
+
+Neubau Sport/Tagesstrukturen, Detailschnitt
+
+
+
+                                                                                                          34
+ Jurybericht Neubau Schule               u   Sport/Tagesstrul   uren, Haus
+
+
+
+
+                                                                   1.888
+                                                                 lEsasfels            a                          17
+
+Neubau Schule, Grundriss EG                                     Neubau Schule, OG                  Neubau Schule, UG
+
+
+
+
+Neubau Schule, Schnitt                                          Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG                      Neubau Sport/Tagesstrukturen, Grundriss OG
+
+
+
+                                                                                                                       35
+                        » Neubau Schule und Neub,        trukturen, Hausen am Albis
+
+
+
+
+PROJEKT NR. 5               PING PONG
+
+
+
+
+ Architektur
+ kit architects eth sia gmbh, Zürich
+ Andreas Schelling, Roman Loretan, Gianet Traxler, Christian Neumair
+
+
+ Landschaftsarchitektur
+ atelier tp landschaftsarchitekten, Rapperswil
+ Iris Tijssen, Dorothee Braitmayer
+
+
+
+
+Situation Gesamtareal
+
+
+
+                                                                                      36
+ Jurybericht Neubau Schule und Neubau Sı      t/Tagesstrukturen, Hausen am Albis
+
+
+
+
+ Kontext, Städtebau und     Das Projekt für den Neubau Schule auf dem Teilareal A vermag wohl die ge-
+ Architektur                stellte Aufgabe und das vorgegebene Raumprogramm zu erfüllen. Jedoch
+                            beansprucht das Vorhaben für die Umsetzung eine beträchtliche Geschoss-
+                            fläche und generiert dadurch ein grosses Gebäudevolumen, welches domi-
+                            nant und wuchtig in Erscheinung tritt. Die grossen Vordächer suchen den
+                            Bezug zum Bestand, vermögen diesen aber nicht überzeugend zu assoziii
+                            ren und akzentuieren die mächtige Erscheinung des Baukörpers zusätzlich.
+                            Der Projektvorschlag reagiert mit seinen Halbgeschossen auf den vorherr-
+                            schenden Terrainverlauf. Die beiden symmetrisch angeordneten und gross-
+                            zügig gestalteten Eingangssituationen auf zwei Niveaus sollen als Haupt-
+                            und Sekundärerschliessung funktionieren. Jedoch ist keine räumliche
+                            Differenzierung zwischen beiden erkennbar. Der Fassadenausgestaltung
+                            wurde erhöhtes Augenmerk geschenkt und die Fassade weist eine hohe
+                            Funktionalität auf. Die Materialisierung in Holz ist passend. Die Farbgebung
+                            wird jedoch als gewagt eingeschätzt und durch die Jury hinterfragt.
+
+
+                            Die Gebäudeproportionen für den Neubau Sport/Tagesstruktur auf dem Teil-
+                            areal B sind gut gewählt und das Gebäude fügt sich harmonisch ins Gelände
+                            und in die Umgebung ein. Das Gebäude orientiert sich am Verlauf des Jo-
+                            nenbachs, wobei der Haupteingang auf die Achse der bestehenden Brücke
+                            ausgerichtet ist, welche die Verbindung zwischen Sport und Schule bildet.
+                            Die Idee, das Gebäude in der Höhe und in der Tiefe abzusetzen wird als gu-
+                            ter Ansatz beurteilt, um auf das bestehende Terrain und den bestehenden
+                            Aussenraum zu reagieren. Leider gelingt es nicht ganz, die Vorteile der ge-
+                            gliederten Gebäudestruktur in ein passendes und stimmiges architektoni-
+                            sches Konzept umzuformen. Die Fassaden wirken streng und nur bedingt
+                            einladend. Der Ausdruck der Dachausgestaltung vermag die Jury nicht zu
+                            überzeugen, Die Eingangssituation wirkt eher unpersönlich und eine er-
+                            kennbare attraktive Adressierung fehlt. Es ist zu hinterfragen, warum die
+                            offene Holzfassade im Erdgeschoss nicht zur Belichtung der Innenräume ge-
+                            nutzt wird.
+
+
+
+
+Neubau Schule, Visualisierung                           Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+
+                                                                                                          37
+      ericht Wettbewerb Neubau Schule und Neubau       rt/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Nutzung und              Die einladende und offene Gestaltung der Eingänge beim Neubau Schule
+Funktionalität           werden aus Nutzersicht positiv bewertet. Auch die Idee der grosszügig ge-
+                         planten Halbgeschosse ist spannend. Die Erschliessungsstruktur des Gebäu-
+                         des wird in ansprechender Weise mit dem bestehenden Terrainverlauf ver-
+                         knüpft. Die Anordnung der Räumen ist im Hinblick auf die verschiedenen
+                         Ausblicke und Belichtungssituationen gut gewählt. Jedoch wird die Orientie-
+                         rung innerhalb des Gebäudes und das hindernisfreie, flexible Agieren auf-
+                         grund der Splitlevels eher als schwierig erachtet. Zudem wird die Lage der
+                         Werkstatt Hauswartung und der separat dazu geplante Waschplatz auf ei-
+                         nem unterschiedlichen Niveau als nicht praktikabel eingeschätzt.
+
+
+                         Das zentral positionierte Foyer des Neubaus Sport/Tagesstrukturen mit dem
+                         direkten Aufgang zur Tribüne ist funktional und flexibel nutzbar. Der Pro-
+                         jektvorschlag überzeugt auch damit, dass die einzelnen Bereiche wie Küche,
+                         Tagesstrukturen und Sporthalle mit Garderoben unabhängig voneinander
+                         eingesetzt werden können. Die Verkehrswege sind kurz und effizient gestal-
+                         tet, was die Benutzung der Räume übersichtlich macht. Die Anordnung der
+                         Garderoben für die Dreifachhalle erfolgt in Längsrichtung und wird als eher
+                         beengend empfunden. Zudem wird die natürliche Belichtung dieser Räume
+                         vermisst. Für die Tagesstrukturen wurde ein separater Spielplatz eingeplant,
+                         welcher über einen Sekundärzugang erreichbar ist und daher positiv bewer-
+                         tet wird.
+
+
+Wirtschaftlichkeit       Der Beitrag zeigt für beide Teilareale bauökonomische Defizite. Bei beiden
+                         Projektvorschlägen wird viel Gebäudehülle und Geschossfläche benötigt, um
+                         das Raumprogramm abzubilden. Besonders beim Neubau Schule wird da-
+                         durch ein beträchtliches Gebäudevolumen generiert, was zu sehr unwirt-
+                         schaftlichen Formquotienten führt.
+
+
+Nachhaltigkeit           Die Gebäudehülle wie auch die Materialwahl sind bei beiden Projektvor-
+                         schlägen gut auf die ökologischen Kriterien abgestimmt. Beim Neubau
+                         Schule wird zudem die Tageslichtnutzung und beim Neubau Sport/Tages-
+                         strukturen die Grundrissflexibilität aus Sicht der Nachhaltigkeit positiv beur-
+                         teilt.
+
+
+
+
+                                                               NENNE        SHNFSTSUNEMRN   iR:
+Neubau Schule, Schnitt                             Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+                                                                                                      38
+                                                         Kahn j
+                                               Pr7
+Neubau Schule, Grundriss EG                  Neubau Schule, OG    Neubau Schule, UG
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss OG                        Innenvisualisierung
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG
+
+
+
+                                                                                        39
+                        b Neuba   le und Neub;                            nam Albis
+
+
+
+
+PROJEKT NR. 6 SOWOHL ALS AUCH
+
+
+
+
+ Architektur
+ Blättler Dafflon Architekten AG, Zürich
+ Ralph Blättler, Gilles Dafflon, David Koehn, Isabelle Cochevelou, Regula Christen
+
+
+ Landschaftsarchitektur
+ Albiez de Tomasi GmbH, Zürich
+ Katja Albiez, Federica Mattei
+
+
+
+
+Situation Gesamtareal
+
+
+
+                                                                                      40
+ Jurybericht Neubau Schule und Neubau       Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+ Kontext, Städtebau und         Die ortsbauliche Setzung des Neubaus Schule auf dem Teilareal A ist gut
+ Architektur                gewählt und das Gebäude integriert sich in adäquater Weise in die beste-
+                                hende Anlage ein. Der überdachte Eingangsbereich des Neubaus ist nutzer-
+                            freundlich, wirkt jedoch etwas überdimensioniert. Treppen und Sitzstufen
+                            definieren topografisch den Pausenplatz und bieten Raum zum Aufenthalt
+                            und Verweilen. Neben dem atmosphärischen Ansatz der Vegetation wirken
+                            die Spielgeräte jedoch eher zufällig im Raum platziert und mit der vorge-
+                            schlagenen Veloparkierung wird nur ein geringer Anteil der geforderten Plät-
+                            ze abgedeckt. Kickboardabstellplätze fehlen gänzlich. Das Fassadenbild ist
+                            einfach und schlicht gewählt. Der geringe Anteil an Fensterflächen wird kri-
+                            tisch beurteilt. Die vorgesetzte Natursteinfassade wird als Versuch verstan-
+                            den, einen Bezug zum Bestand zu schaffen. Auch hier vertritt das Preisge-
+                            richt jedoch die Ansicht, dass ein materieller Bezug zur bestehenden
+                            Schulanlage für die Erweiterung nicht unbedingt notwendig ist.
+
+
+                            Die Integration des Neubaus Sport/Tagesstrukturen in die Topografie wird
+                            positiv bewertet. Der Baukörper ist so konzipiert, dass fast sämtliche Raum-
+                            nutzungen seitlich neben der Sporthalle positioniert werden. Durch die anei-
+                            nandergereihte Raumstruktur entsteht ein sehr langgestrecktes Gebäude,
+                            welches strassenseitig markant in Erscheinung tritt. Die grosszügige Ein-
+                            gangshalle mit der Treppenanlage führt zum Obergeschoss, wo die Tages-
+                            strukturen und die Zuschauertribüne angeordnet sind. Das raumbildende
+                            Foyer ermöglicht vielfältige Nutzungen und spannende Sichtbeziehungen.
+                            Leider fehlt den Zugangsbereichen im Obergeschoss nach der Grosszügig-
+                            keit der Treppensituation die Aussagekraft und sie wirken etwas verloren
+                            und eher beengend, insbesondere im Bereich der Garderoben für die Tages-
+                            strukturen. Die strassenseitigen Fensterbänder im Obergeschoss zeigen sich
+                            bei der Sporthalle als geschlossene Fassadenlemente, was vom Preisgericht
+                            kritisch hinterfragt wird. Die gewählte Dachkonstruktion ist mutig und stil-
+                            bildend. Die Jury hinterfragt jedoch, ob eine solch prägende Dachlandschaft
+                            an diesem Ort richtig ist. Der unkonventionelle Ansatz der Parkierungsanla-
+                            gen in Synergienutzung mit einer Skateranlage wird als guter Beitrag zu ei-
+                            ner möglichen Mehrfachnutzung von Aussenräumen gewürdigt.
+
+
+
+
+Neubau Schule, Visualisierung                             Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+
+                                                                                                           41
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+ Nutzung und             Der grosszügig dimensionierte, gedeckte Hauptzugang des Neubaus Schule
+ Funktionalität          ist klar erkennbar und nutzerfreundlich. Das Grundrisskonzept mit der ge-
+                         meinsamen Mitte und den Garderobenräume ist bestechend. Die flexible
+                         Aufteilung der Räume entspricht den Vorstellungen der Nutzer. Auch die se-
+                         paraten Eingänge für die einzelnen Bereiche sind vorhanden. Jedoch ist die
+                         Distanz zwischen dem Tor zur Hauswartung und dem Eingang zur Schulver-
+                         waltung etwas knapp dimensioniert. Die Aufteilung des Gebäudes in Halb-
+                         geschosse wird aus betrieblicher Sicht für die Orientierung innerhalb des
+                         Gebäudes eher als suboptimal betrachtet. Haustechnikräume sind in den
+                         Plänen nicht ersichtlich.
+
+
+                         Beim Neubau Sport/Tagesstrukturen fällt der offen gestaltete Eingangsbe-
+                         reich mit dem grosszügigen Foyer positiv auf. Der Treppenaufgang bietet
+                         ideale Möglichkeiten für den sozialen Austausch und zum Verweilen. Auch
+                         die klare Trennung der beiden Nutzungseinheiten Sport und Tagesstrukturen
+                         ist aus Nutzersicht begrüssenswert. Demgegenüber ist die Positionierung
+                         der Küche wie auch der Zahnputzbereich in den Tagesstrukturen wenig
+                         praktisch konzipiert. Die Anordnung der Garderoben und der Geräteräume
+                         der Turnhalle sind zwar klar und funktional geplant, jedoch eher knapp di-
+                         mensioniert. Es fehlt zudem ein Aussenbereich für die Spielgeräte der Ta-
+                         gesstrukturen.
+
+
+Wirtschaftlichkeit       Die beiden Beiträge weisen aus bauökonomischer Sicht ein gutes Verhältnis
+                         von Hauptnutzfläche zu Geschossfläche auf. Beim Neubau Schule wird auf-
+                         grund der geringen Geschossfläche und der kompakten Volumetrie ein guter
+                         Formquotient erzeugt. Für den Neubau Sport/Tagesstrukturen wird jedoch
+                         viel Geschossfläche für die Ausgestaltung des Raumprogramms benötigt,
+                         was zu einem weniger optimalen Formquotienten führt.
+
+
+Nachhaltigkeit           Der Neubau Schule weist aus energetischer Sicht eine kompakte Hülle auf.
+                         Die Tageslichtnutzung ist gut geplant, der Verbrauch an grauer Energie wird
+                         durch die Materialwahl der Fassade jedoch unnötig vergrössert. Beim Neu-
+                         bau Sport/Tagesstrukturen werden die Materialwahl sowie die Dimensionie-
+                         rung des unterirdischen Volumen positiv bewertet. Die Tageslichtnutzung
+                         könnte verbessert werden und die Dachform ist für die Sonnenergienutzung
+                         nicht gut geeignet.
+
+
+
+
+Neubau Schule, Schnitt                               Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+                                                                                                      42
+ Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albıs
+
+
+
+
+                                                          - ni :               ı;
+
+
+
+
+                                                                                BE
+
+                                                       (meiee|
+                                                     Neubau Schule, 0G                   Neubau Schule, UG
+
+
+
+
+                                                            —Ie]
+
+
+                                                                    |                            Jllliar
+
+
+                                                                           Innenvisualisierung
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG
+
+
+
+                                                                                                         43
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+PROJEKT NR. 7 TOTORO
+
+3. PREIS TEILAREAL A
+
+
+
+
+ Architektur
+ Metron Architektur AG, Brugg
+ Harald König, Joschua Bücheler
+
+
+ Landschaftsarchitektur
+ Schläpfer Carstensen Landschaftsarchitekten, Zürich
+ Sophia Carstensen
+
+
+
+
+Situation Gesamtareal
+
+
+
+                                                                                          44
+ Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albıs
+
+
+
+
+ Kontext, Städtebau und     Der Wettbewerbsbeitrag TOTORO schlägt zwei unterschiedliche Gebäudety-
+Architektur                 pen zur Lösung der Aufgabenstellung vor. Beide lehnen sich bewusst nicht
+                            an den Bestand an. Diese Haltung erweist sich im Hinblick auf die Gesamt-
+                            jurierung als richtig. Es zeigt sich aber, dass eine zu extreme Haltung wie
+                            beim Neubau Sport/Tagesstrukturen nicht zielführend ist.
+
+
+                            Ein Totoro ist ein freundliches Wesen, das nur von Kindern gesehen wird
+                            und nicht sprechen, wohl aber alles verstehen kann. Soll nun der Neubau
+                            Sport/Tagesstrukturen als grosser und der Neubau Schule als kleiner Totoro
+                            angesehen werden? Unterschiedlich wie sie sind?
+
+
+                            Das Schulgebäude auf dem Teilareal A tritt als zweigeschossiges Volumen in
+                            Erscheinung, ausnivelliert auf einer mittleren Höhe zwischen der Ebertswi-
+                            lerstrasse und dem Primarschulhausplatz. Eine hindernisfreie Verbindung
+                            zwischen Bestand und Neubau ist nicht erkennbar. Die Fassade und deren
+                            Materialisierung wirken wohlwollend und kindgerecht. Die Ausgestaltung der
+                            Grundrisse zeigt zudem einen grossen Erfahrungsschatz für zeitgemässen
+                            Schulhausbau. Verschiedene flexible Zonierungsvorschläge werden für die
+                            Schulzimmer inklusive Garderobe und Gruppenraum im Obergeschoss vor-
+                            geschlagen. Auf dem Erdgeschoss werden die Räume der Schulverwaltung,
+                            der Förderbereiche und der Hauswartung angeordnet. Der zentrale Ein-
+                            gangsbereich ist für alle Beteiligten vorgesehen, ein separater Sekundärein-
+                            gang für die Schulverwaltung wäre aber zwingend notwendig. Zudem wird
+                            die Wegführung zu den Sanitäranlagen als suboptimal erachtet.
+
+
+                            Der grosse Totoro für den Neubau Sport/Tagesstrukturen befindet sich am
+                            Waldrand und tritt sehr dominant in Erscheinung. Er will sich als sogenannte
+                            „Schulscheune“ tarnen, eine Art landwirtschaftliche Zweckbaute. Dies ge-
+                            lingt jedoch nicht überzeugend. Die massive Betonformensprache, kombi-
+                            niert mit Glas und Blech, zielt an der Aufgabe vorbei. Es entsteht eine eher
+                            sakrale Architektur im Innen- wie Aussenraum. Der Lift liegt denkbar weit
+                            entfernt und ist in der Visualisierung nicht dargestellt. Zudem erhalten die
+                            Nebenräume der Tagesstrukturen nicht das erforderliche Tageslicht. Hier
+                            zeigt sich, dass der Architektur einen höheren Stellenwert entgegen ge-
+                            bracht wurde als der Funktionalität, ganz im Gegensatz zum Schulhausbau.
+
+
+
+
+Neubau Schule, Visualisierung                          Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+                                                                                                           45
+         icht wettb:   ‚erb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Nutzung und                Der Neubau Schule ist zukunftsgerichtet und visionär geplant worden. Die
+Funktionalität             flexiblen Atelierräume sind für neue pädagogische Konzept einfach umzuge-
+                           stalten, was diesen Neubau sehr anpassungsfähig macht. Mit den hellen
+                           und offenen Räumen wird eine ansprechende Lernumgebung geschaffen.
+                           Das naturnahe Unterrichten kann auch mit den Pflanzbeeten gelebt werden,
+                           welche beim Eingang vorgesehen sind. Als wenig praktikabel wird die offene
+                           Konzeption der Teeküche im Erdgeschoss sowie die Aufteilung der Gardero-
+                           ben im Obergeschoss erachtet. Auch fehlt der Sekundäreingang für die
+                           Schulverwaltung und Schulleitung.
+
+
+                           Die Idee der Schulscheune für den Neubau Sport/Tagesstrukturen ist zwar
+                           interessant und die beiden gedeckten Eingangsbereich mit den zwei separa-
+                           ten Zugängen für Sport und Tagesstrukturen sind aus betrieblicher Sicht gut
+                           positioniert. Der Innenbereich im Erdgeschoss erscheint jedoch zu dunkel
+                           und der geringe Fensteranteil generiert eine beträchtliche Anzahl schlecht
+                           belichteter Räume. Die Positionierung des Lifts, der sanitären Anlagen sowie
+                           der Tribüne wird als wenig ideal eingeschätzt. Zudem werden die grosse
+                           Parkierungsanlage direkt vor dem Neubau und die damit verbundenen
+                           Rückwärtsausfahrten auf die Weidstrasse kritisch beurteilt. Mit dem Aussen-
+                           bereich für die Tagesstrukturen nahe der Strasse kann zudem nur wenig
+                           Aufenthaltsqualität angeboten werden.
+
+
+Wirtschaftlichkeit         Der Beitrag für den Neubau Schule überzeugt aus bauökonomischer Sicht
+                           durch eine gute Ausgestaltung bei den wesentlichen Kennwerten wie Ge-
+                           bäudehülle zu Geschossfläche und der mittleren Raumhöhe. Beim Neubau
+                           Sport/Tagesstrukturen wird ebenfalls eine effiziente Anordnung vorgeschla-
+                           gen, jedoch wird viel Gebäudehülle für den Neubau benötigt, was zu einem
+                           weniger wirtschaftlichen Formquotienten führt.
+
+
+Nachhaltigkeit             Die Gebäudehülle des Neubaus Schule ist aus energetischer Sicht kompakt
+                           geplant worden. Die Grundrissflexibilität wird erfüllt und der hohe Fenster-
+                           anteil bringt eine gute Tageslichtnutzung. Das Volumen beim Neubau Sport/
+                          Tagesstrukturen unter dem Terrain ist der Geländeform angepasst, wodurch
+                           der Verbrauch an grauer Energie verbessert wird.
+
+
+
+
+                          Neubau Schule, Innenvisualisierung OG
+
+
+
+                                                                                                          46
+                 bau Schule   und Neubau     Sport/
+
+
+
+
+                                                                                          Eis
+
+Neubau Schule, Grundriss EG                           Neubau Schule, OG                       Neubau Schule, UG
+
+
+
+
+Neubau Schule, Schnitt                                Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG            Neubau Sport/Tagesstrukturen, Grundriss OG 1 und 2 (oben)
+
+
+
+                                                                                                              47
+              Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+PROJEKT NR. 8 PINOCCHIO UND GEPPETTO
+
+3. PREIS TEILAREAL B
+
+
+
+
+ Architektur
+ Sigrist Schweizer Architekten AG, Luzern
+ Paolo Birrer, Pascal Lang, Marc Sigrist, Daniel Schweizer
+
+
+ Landschaftsarchitektur
+ Goldrand GmbH, Zürich
+ Adrian Ulrich
+
+
+
+
+Situation Gesamtareal
+
+
+                                                                                           48
+ Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+Kontext, Städtebau und      Das Projekt für den Neubau Schule auf dem Teilareal A befasst sich ernst-
+Architektur                 haft mit der Topografie und dem Ziel, eine hindernisfreie Erschliessung des
+                            Schulareals zu schaffen. Der Neubau wird an der südliche Ecke der Parzelle
+                            positioniert. Die neu entstandenen Aussenräume nördlich und östlich wirken
+                            dadurch wohl proportioniert. Die dichte Bepflanzung aus Winterlinden beim
+                            neuen Pausenplatz sowie der Erhalt der beiden grossen, prägenden Bäume
+                            (Ahorn und Platane) werden begrüsst. Erschliessungsstufen im Aussenbe-
+                            reich führen vom gewachsenen Terrain auf den Gebäudesockel unter das
+                            Vordach. Die Ecktreppe ist zwar eine konsequente Lösung, überzeugt aber
+                            in der Gestaltung nicht restlos, da das Gebäude somit noch grösser in Er-
+                            scheinung tritt. Die Fassade zeigt sich aufgrund des regelmässigen Fassa-
+                            denrasters in starker Klarheit und vermittelt wenig schulische Stimmung.
+                            Diese Erscheinung hinterfragt die Jury. Die Umsetzung des Raumprogram-
+                            mes ist jedoch gelungen, im Speziellen die Anordnung und Ausrichtung der
+                            Klassenzimmer im Obergeschoss.
+
+
+                            Der Neubau Sport/Tagesstrukturen auf dem Teilareal B fügt sich gut in die
+                            Topografie ein und wird sowohl bergseitig als auch talseitig optimal an das
+                            bestehende Wegnetz angebunden. Die hangseitig vorgeschlagene Par-
+                            kierungsanlage verfügt über grosses Potential, da dadurch ein verkehrsbe-
+                            ruhigter Vorplatz und eine sichere Verbindung zwischen Neubau und Be-
+                            stand geschaffen werden kann. Mit der Renaturierung des Bachufers und
+                            dem großzügigen, stufenlosen Spielbereich im Südosten wird eine Aufwer-
+                            tung des Aussenraums erreicht. Positiv beurteilt wird zudem das relativ ge-
+                            ringe unterirdische Volumen und die wohlproportionierten Baukörper der
+                            beiden Nutzungen Sport und Tagesstrukturen. Das Steildach überspannt die
+                            Dreifachhalle, tiefer liegt das Dach der Tagesstrukturen, welches der Silhou-
+                            ette des grossen Daches folgt. Die Nutzungsanordnung der Tagesstrukturen
+                            an südostseitiger, zurückgezogener und ruhiger Lage wird vom Preisgericht
+                            ebenfalls honoriert. Innenräumlich stellt sich jedoch die Frage, wie gut sich
+                            die überhohen Räume hinsichtlich der Raumstimmung und Akustik für die
+                            Tagesstrukturen eignen.
+
+
+
+
+Neubau Schule, Visualisierung                          Neubau Sport/Tagesstrukturen, Visualisierung
+
+
+
+                                                                                                          49
+ Jurybericht Wettbewerb Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis
+
+
+
+
+ Nutzung und             Das Grundrisskonzept des Neubaus Schule mit den Klassenzimmern und
+ Funktionalität          den flexibel einsetzbaren Gruppenräumen ist für die Primarschule optimal
+                         gelöst. Auch die offenen, hellen und individuell bespielbaren Lernzonen wer-
+                         den sehr positiv beurteilt. Der gedeckte Zugang ist zum Pausenplatz hin
+                         ausgerichtet, was den Vorstellungen der Nutzer entspricht. Die Sekundärzu-
+                         gänge wie auch die Lagerräume und die Veloabstellplätze sind gut einge-
+                         plant. Einzig die Einbettung des Neubaus in die bestehende Anlage mit der
+                         prägnanten Ecktreppe und die relativ sachlich gehaltene Gebäudeerschei-
+                         nung wird aus Nutzersicht kritisch beurteilt. Zudem wirkt der Spielbereich
+                         im Aussenraum zu wenig stufengerecht ausgestaltet.
+
+
+                         Der Neubau Sport/Tagesstrukturen besticht durch die Aufgliederung der Ta-
+                         gesstrukturen gegen Süden mit dem dazugehörigen Aussenbereich und der
+                         eigenständigen Sporthalle Richtung Ortskern. Die zwei Zugänge berg- und
+                         talseitig ergeben eine klare, sichere und direkte Wegführung. Die separaten
+                         Bereiche für den Sportbetrieb und die Tagesstrukturen wie auch die flexible
+                         Nutzung der Küche sind betrieblich sehr gut gelöst worden. Die Tribüne bie-
+                         tet spannende Sichtbezüge nach innen und aussen. Die hohen Räume
+                         scheinen für die Akustik jedoch problematisch zu sein. Zudem kann der Mit-
+                         tagstisch der Sekundarschule nicht mit dem Foyer als Grossraum zusam-
+                         mengelegt und so für Veranstaltungen eingesetzt werden. Die Haustechnik-
+                         flächen sind zu gering dimensioniert worden.
+
+
+Wirtschaftlichkeit.      Beide Projektvorschläge benötigen sehr viel Geschossfläche für die Umset-
+                         zung des Raumprogrammes. Dadurch entsteht ein unwirtschaftlicher Form-
+                         quotient Hauptnutzfläche zu Geschossfläche. Dieses Defizit vermag auch die
+                         gute Fassadenausgestaltung nicht zu kompensieren.
+
+
+Nachhaltigkeit.          Sowohl der Neubau Schule als auch der Neubau Sport/Tagesstrukturen sind
+                         material- und konstruktionsmässig auf die ökologischen Kriterien ausgelegt
+                         worden. Beim Neubau Schule werden die Tageslichtnutzung und die Flexibi-
+                         lität, beim Neubau Sport/Tagesstrukturen das geringe unterirdische Volu-
+                         men positiv beurteilt.
+
+
+
+
+Neubau Schule, Schnitt                               Neubau Sport/Tagesstrukturen, Schnitt
+
+
+
+                                                                                                      50
+                                             1.am Albis
+
+
+
+
+N
+
+
+
+
+Neubau Sport/Tagesstrukturen, Grundriss EG
+
+
+
+                                                          51
+‚chule und Neubau Spoı
+
+
+
+
+                         52
+53
+
