@@ -1,8 +1,8 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-06-24
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf)]
+last_updated: 2026-07-13
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]]
 ---
 
@@ -25,7 +25,7 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
 | `cadastre.ch` | CH | Cadastralinfo / Grundstueckinformationen | nein |
 | `swisstopo.admin.ch` | CH | Kartenwerke, Hoehenmodelle, Geodaten-Shop | tlw. |
 | `geoshop.lisag.ch` | LU/Region | Datenbezug amtl. Vermessung | Account |
-| ObjektwesenZH | Kt. ZH | Eigentumsabfrage (Objektwesen) per EGRID | — |
+| `maps.zh.ch` «Eigentumsauskunft» (ObjektwesenZH) | Kt. ZH | Eigentuemer-/Grundbuchauskunft (Name, Adresse, Eigentumsform), 5/Tag | SMS-Code, kein Interessennachweis |
 
 ## Kernprodukte fuer eine Studie (Checkliste)
 
@@ -74,9 +74,21 @@ Bild/Terrain, **INTERLIS** nur wenn der modellvollstaendige amtliche Datensatz n
   → [[kartenportale-baulinien-abstandslinien-zh]].
 - A1/A7: Nicht-ZH-Kantone — SZ-OEREB ist via `geo-sz.mjs` geloest (siehe Skill `oereb-schwyz`);
   SZ-Zonen-WFS noch nicht kartiert.
-- **A5: Eigentumsabfrage ObjektwesenZH per EGRID** — **Stand 2026-06-24:** ObjektwesenZH ist das
-  **Grundbuch-Auskunftssystem** (Notariate/Grundbuchaemter ZH). Oeffentlich einsehbar sind nur die
-  **nicht-besonderen** Grundbuchdaten (Eigentuemer-Auskunft) **mit Interessennachweis** (Art. 970
-  ZGB) — kein anonymer Massen-/API-Zugriff. **Nicht login-frei automatisierbar**; bleibt manueller
-  Behoerdenweg (Grundbuchamt/Notariat). Status `speculative` bis ein offizieller Auskunfts-Endpunkt
-  belegt ist.
+- **A5: Eigentumsabfrage ObjektwesenZH per EGRID** — **Korrektur 2026-07-13 (Run 20):** der bisherige
+  Stand (Interessennachweis Art. 970 ZGB noetig) war **zu streng**. Die **elektronische
+  Eigentumsabfrage** laeuft ueber `maps.zh.ch` (GIS-Browser, Karte «Eigentumsauskunft» → Grundstueck
+  anklicken → Abschnitt «Liegenschaften» → «Eigentuemer- und Grundbuchauskunft»): **login-frei**, nur
+  **SMS-Code-Verifikation** (Schweizer Mobilnummer, Code 5 Min. gueltig) — **kein Interessennachweis**
+  noetig (die gesetzliche Grundlage macht die Auskunftserteilung ausdruecklich **nicht** von einem
+  Interessennachweis abhaengig). **5 Abfragen/Tag** je Mobilnummer. Liefert Name/Firma des
+  Eigentuemers, letzte bekannte Wohnadresse, Eigentumsform — sofern kein Sperrvermerk gesetzt (kann
+  der Eigentuemer beim Grundbuchamt beantragen; sperrt nur die Personendaten, nicht die Kartenansicht).
+  **Nicht rechtsverbindlich** (nur der beglaubigte Grundbuchauszug ist es). Wegen der SMS-2FA bleibt
+  es ein **manueller Schnellweg**, keine maschinelle API/Automatisierung — aber deutlich schneller als
+  der bisher dokumentierte formelle Behoerdenweg. Quellen: notariate-zh.ch/de/grundbuch/elektronische-
+  eigentumsabfrage, tagesanzeiger.ch (29.08.2023 «Zuerich ermoeglicht Online-Abfrage von
+  Grundstueckbesitzerinnen»). **Separates ObjektwesenZH-GB-Projekt** (Ablauf einer neuen eCH-
+  konformen Schnittstelle Grundbuch↔Datenlogistik ZH, Laufzeit Anfang 2026 bis Mitte 2027, laut
+  zh.ch/objektwesen.html) betrifft die **Backend-Anbindung**, nicht den oeffentlichen Auskunftsweg.
+  Status: `established` (manueller Weg belegt aus zwei unabhaengigen Quellen), Automatisierbarkeit
+  bleibt `speculative` (keine API, SMS-2FA ist der Blocker).

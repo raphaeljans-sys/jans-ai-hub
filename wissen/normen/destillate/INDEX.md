@@ -17,6 +17,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-105-2020.md` | SIA 105 Leistungen + Honorare Landschaftsarchitekten | 2020 | established (verifiziert 260712) |
 | `sia-111-2014.md` | SIA 111 Modell Planung und Beratung | 2014 | established (verifiziert 260712) |
 | `sia-112-2014.md` | SIA 112 Modell Bauplanung | 2014 | established (verifiziert 260712) |
+| `sia-118-1991.md` | SIA 118 Allgemeine Bedingungen für Bauarbeiten | 1977/1991 | established (Volltext, Kennzahlen Modell-D-verifiziert 260712) |
 | `sia-142-2009.md` | SIA 142 Ordnung Architektur-/Ingenieurwettbewerbe | 2009 | destilliert (Original vollständig gelesen 260712) |
 | `sia-143-2009.md` | SIA 143 Ordnung Architektur-/Ingenieurstudienaufträge | 2009 | destilliert (Original vollständig gelesen 260712) |
 | `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | destilliert (Textlayer vollständig gelesen 260712) |

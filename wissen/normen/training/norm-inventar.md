@@ -16,7 +16,7 @@
 | [x] 260712 | P1 | `111.2014.pdf` | 111 | 2014 | gilt (jüngste im Bestand) |
 | [~] 260712 in Arbeit (MacBook Session) | P1 | `111_2003_d.pdf` | 111 | 2003 | — ersetzt durch 2014 |
 | [x] 260712 | P1 | `112.2014.pdf` | 112 | 2014 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `118_1991_d.pdf` | 118 | 1991 |  |
+| [x] 260712 | P1 | `118_1991_d.pdf` | 118 | 1991 | Volltext-Destillat (75 S. Textlayer), alle Kennzahlen Modell-D-verifiziert (run4) |
 | [x] 260712 | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
 | [x] 260712 | P1 | `451_1992_d.pdf` | 451 | 1992 |  |
 | [~] 260712 in Arbeit (MacBook Session) | P2 | `100_2004_df.pdf` | 100 | 2004 |  |

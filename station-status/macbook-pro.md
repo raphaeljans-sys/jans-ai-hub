@@ -1,10 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.07.2026 23:22:28
+Stand: 12.07.2026 23:43:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:12)
-- /Users/raphaeljans  (letzte Aktivitaet 22:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:43)
+- /Users/raphaeljans  (letzte Aktivitaet 23:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 12.07.2026 23:22:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 91b2bdc8 wettbewerbs-dna: Muster-Synthesen jury-argumente-schulbauten + jans-board-dna, INDEX-Register
+- 33821486 normen-training run4: SIA 118 (1977/1991) Volltext-Destillat, P1-Kernnorm werkvertrag

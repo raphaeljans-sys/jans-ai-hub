@@ -126,7 +126,8 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
 
 - Bauleitung: Baufreigabe vor Aushub einplanen (→ `unternehmerkontrolle`, `kostenkontrolle`); die «vor
   Baubeginn» faelligen Auflagen liefert die [[ausnahmebewilligung-und-bestandesschutz]]-Linie ueber den
-  Skill `auflagebereinigung`.
+  Skill `auflagebereinigung` — die operative Frist-Zuteilung (vor Baubeginn/Arbeitsvergabe/Inbetriebnahme)
+  fuehrt der KB-Artikel `wissen/auflagebereinigung/wiki/fristenlogik-bauentscheid-zh`.
 - Bestand/Umbau (Healthcare-Kernkompetenz): Asbest-Meldepflicht (Art. 3a ABV) und Bezugskontrolle
   (Austrocknung/Hygiene) frueh in `pendenzenliste`/Terminplan.
 

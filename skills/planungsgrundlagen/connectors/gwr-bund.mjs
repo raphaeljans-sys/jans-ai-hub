@@ -133,7 +133,21 @@ const CODES = {
     7580: "Fernwaerme (generisch)", 7581: "Fernwaerme (Hochtemperatur)",
     7582: "Fernwaerme (Niedertemperatur)", 7598: "unbestimmt", 7599: "keine",
   },
+  wstat: { // WSTAT — Wohnungsstatus (Merkmalskatalog GWR 4.2, S. 94; belegt Run 20)
+    3001: "projektiert", 3002: "bewilligt", 3003: "im Bau", 3004: "bestehend",
+    3005: "nicht nutzbar", 3007: "aufgehoben", 3008: "nicht realisiert",
+  },
 };
+// WSTWK — Stockwerk (Merkmalskatalog GWR 4.2, S. 92): 3100 Parterre/Hochparterre,
+// 3101-3199 = 1.-99. Stock, 3401-3419 = 1.-19. Untergeschoss.
+function decStockwerk(code) {
+  if (code === null || code === undefined || code === "") return null;
+  const n = Number(code);
+  if (n === 3100) return "Parterre (inkl. Hochparterre)";
+  if (n >= 3101 && n <= 3199) return `${n - 3100}. Stock`;
+  if (n >= 3401 && n <= 3419) return `${n - 3400}. Untergeschoss`;
+  return `Code ${n}`;
+}
 function dec(map, code) {
   if (code === null || code === undefined || code === "") return null;
   const n = Number(code);
@@ -193,6 +207,30 @@ async function byAdresse(text, plz) {
   return { coord: { east: e, north: n, label: (a.label || "").replace(/<[^>]+>/g, "").trim() }, hits };
 }
 
+// K9-Rest (Run 20): Wohnungs-/EWID-Ebene. Der identify-Treffer auf Gebaeude-Ebene liefert die
+// WHG-Merkmale bereits als parallele Arrays (ewid/warea/wazim/wbauj/wkche/wmehrg/wstat/wstwk/
+// wbez/whgnr/weinr) im selben Call — kein separater Endpunkt noetig. Belegt live am 26-Wohnungen-
+// Fall Albertstrasse 7 Zuerich (EGID 150071) und am 1-Wohnung-Fall Giebelweg 12 (EGID 57977).
+function wohnungen(at) {
+  const arr = (v) => (Array.isArray(v) ? v : v === null || v === undefined ? [] : [v]);
+  const ewid = arr(at.ewid);
+  if (!ewid.length) return [];
+  const g = (v, i) => { const a = arr(v); return a.length ? a[i] ?? null : null; };
+  return ewid.map((id, i) => ({
+    ewid: id,
+    whgnr_administrativ: g(at.whgnr, i),
+    whgnr_physisch: g(at.weinr, i),
+    stockwerk: decStockwerk(g(at.wstwk, i)),
+    lage_stockwerk: g(at.wbez, i),
+    status: dec(CODES.wstat, g(at.wstat, i)),
+    flaeche_m2: num(g(at.warea, i)),
+    zimmer: num(g(at.wazim, i)),
+    baujahr: num(g(at.wbauj, i)),
+    kocheinrichtung: g(at.wkche, i) === 1 ? "ja" : g(at.wkche, i) === 0 ? "nein" : null,
+    mehrgeschossig: g(at.wmehrg, i) === 1 ? "ja (Maisonette)" : g(at.wmehrg, i) === 0 ? "nein" : null,
+  }));
+}
+
 // --- Aufbereitung ---------------------------------------------------------------
 function shape(at) {
   return {
@@ -242,12 +280,21 @@ function shape(at) {
         : "Fuehrende Gemeinde-/Kantonsstelle (GWR-Nachfuehrung) anfragen.",
       gebaeudestatus: dec(CODES.gstat, at.gstat),
     },
+    wohnungen: wohnungen(at),
     _raw: at,
   };
 }
 
 function steckbrief(s) {
-  const i = s.identifikation, l = s.lage, g = s.gebaeude, e = s.energie, b = s.bauprojekt_eproid;
+  const i = s.identifikation, l = s.lage, g = s.gebaeude, e = s.energie, b = s.bauprojekt_eproid, w = s.wohnungen || [];
+  const wohnungenBlock = w.length
+    ? [
+        ``,
+        `## Wohnungen (${w.length}, EWID-Ebene)`,
+        ...w.slice(0, 30).map((x) => `- EWID ${x.ewid}${x.whgnr_administrativ ? ` · Nr. ${x.whgnr_administrativ}` : ""}: ${x.stockwerk ?? "—"}${x.lage_stockwerk ? " " + x.lage_stockwerk : ""} · ${x.flaeche_m2 ?? "—"} m2 · ${x.zimmer ?? "—"} Zi. · ${x.status ?? "—"}${x.mehrgeschossig === "ja (Maisonette)" ? " · Maisonette" : ""}`),
+        ...(w.length > 30 ? [`  … und ${w.length - 30} weitere (siehe --json fuer die volle Liste)`] : []),
+      ]
+    : [];
   return [
     `# GWR-Datensteckbrief — EGID ${i.egid}`,
     ``,
@@ -281,6 +328,7 @@ function steckbrief(s) {
     `- Heizung 2: ${e.heizung2.erzeuger ?? "—"} · ${e.heizung2.traeger ?? "—"}`,
     `- Warmwasser 1: ${e.warmwasser1.erzeuger ?? "—"} · ${e.warmwasser1.traeger ?? "—"}`,
     `- Warmwasser 2: ${e.warmwasser2.erzeuger ?? "—"} · ${e.warmwasser2.traeger ?? "—"}`,
+    ...wohnungenBlock,
     ``,
     `## Bauprojekt / EPROID`,
     `- EPROID: nicht maschinell beziehbar`,

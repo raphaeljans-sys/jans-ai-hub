@@ -1,11 +1,11 @@
 ---
 title: GWR-Gebaeudedaten je Parzelle — Baujahr, Volumen, EBF, Waermeerzeuger (Bund)
 status: established
-last_updated: 2026-07-02
+last_updated: 2026-07-13
 sources:
   - api3.geo.admin.ch (find/identify/SearchServer), Layer ch.bfs.gebaeude_wohnungs_register — Stand 07/2026
-  - Merkmalskatalog eidg. GWR v4.2, housing-stat.ch/files/881-2200.pdf, S. 63f. (GVOLNORM/GVOLSCE) — gelesen 2026-07-02
-  - Benchmark Connector gwr-bund.mjs — KISPI Lenggstrasse 30 (EGID 302064023) + Giebelweg 12 Langnau a.A. (EGID 57977, EGRID CH879777718909), getestet 2026-07-02
+  - Merkmalskatalog eidg. GWR v4.2, housing-stat.ch/files/881-2200.pdf, S. 63f. (GVOLNORM/GVOLSCE), S. 91-94 (WSTWK/WSTAT), S. ~100 (WKCHE) — gelesen 2026-07-02 + 2026-07-13
+  - Benchmark Connector gwr-bund.mjs — KISPI Lenggstrasse 30 (EGID 302064023) + Giebelweg 12 Langnau a.A. (EGID 57977, EGRID CH879777718909), getestet 2026-07-02; Albertstrasse 7 Zuerich (EGID 150071, 26 Wohnungen), getestet 2026-07-13 (Run 20)
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[energie-uebersicht]] [[energie-energienachweis-zh-formulare]]
 ---
 
@@ -103,7 +103,41 @@ liefert **2 Gebaeude** (Mehrdeutigkeit korrekt behandelt):
 Damit ist die M1-End-to-End-Kette (EGRID → OEREB → Zonenplan → Baulinien → Vermessung → DTM/Ortho
 → **GWR** → Behoerden) am Giebelweg-12-Benchmark auch fuer die GWR-Stufe validiert.
 
-## 6 · Wozu im JANS-Workflow
+## 6 · Wohnungs-/EWID-Ebene (K9-Rest, geloest 2026-07-13/Run 20)
+
+Der identify-Treffer auf **Gebaeude-Ebene liefert die Wohnungs-Merkmale bereits mit** — als
+parallele Arrays (`ewid`, `warea`, `wazim`, `wbauj`, `wkche`, `wmehrg`, `wstat`, `wstwk`, `wbez`,
+`whgnr`, `weinr`), ein Element je Wohnung, **kein separater Endpunkt/Layer noetig**. Der Connector
+dekodiert sie seit Run 20 in `wohnungen[]` (JSON) bzw. Abschnitt «Wohnungen» im Steckbrief:
+
+| Feld | Merkmal | Codierung |
+|---|---|---|
+| `ewid` | eidg. Wohnungs-ID | numerisch, Primaerschluessel |
+| `whgnr` / `weinr` | administrative / physische Wohnungsnummer | frei/alphanumerisch |
+| `wstwk` | Stockwerk | **3100** Parterre/Hochparterre, **3101-3199** = 1.-99. Stock, **3401-3419** = 1.-19. UG (Merkmalskatalog S. 92) |
+| `wbez` | Lage auf Stockwerk | Text (Links/Rechts/Mitte o.ae.) |
+| `wstat` | Wohnungsstatus | **3001** projektiert, 3002 bewilligt, 3003 im Bau, **3004** bestehend, 3005 nicht nutzbar, 3007 aufgehoben, 3008 nicht realisiert (S. 94) |
+| `warea` / `wazim` | Wohnungsflaeche m2 / Zimmerzahl | numerisch |
+| `wbauj` | Baujahr der Wohnung | numerisch (kann vom Gebaeude-Baujahr abweichen bei Umbau) |
+| `wkche` | Kocheinrichtung vorhanden | 1=ja/0=nein |
+| `wmehrg` | mehrgeschossig (Maisonette) | 1=ja/0=nein |
+
+**Benchmarks (live getestet):**
+- **KISPI** (EGID 302064023, Klasse Krankenhaus): `ewid` leer → `wohnungen: []` — korrekt, kein
+  Wohngebaeude.
+- **Giebelweg 12** (EGID 57977, EFH): 1 Wohnung, EWID 1, Parterre, 185 m2, 7 Zimmer, Status
+  bestehend, `wmehrg=1` → als Maisonette erkannt.
+- **Albertstrasse 7, 8005 Zuerich** (EGID 150071, Pensions-/Wohngebaeude, `ganzwhg=26`): 26
+  Wohnungen einzeln aufgeloest, EWID 1-26, Flaechen 24-80 m2, 1-3 Zimmer, Stockwerke Parterre bis
+  5. OG, administrative Nummern (2/1/3/4/101…502) — vollstaendige Konsistenz Array-Laenge ↔
+  `ganzwhg`.
+
+Damit ist die K9-Restfrage («Wohnungsdaten liefert der Connector noch nicht») geloest — **kein
+Katalog-v5.0-Wechsel noetig**, die Rohdaten waren immer da, nur ungenutzt. Praxisnutzen: Belegung
+Zimmerzahl-/Flaechenmix (Kleinwohnungen vs. Familienwohnungen) fuer Machbarkeits-/
+Bewertungsstudien, ohne Bauplan-Digitalisierung.
+
+## 7 · Wozu im JANS-Workflow
 
 - **Energienachweis / EVEN** ([[energie-energienachweis-zh-formulare]]): Waermeerzeuger/Energietraeger
   + EBF sind der Ist-Stand, gegen den der Nachweis rechnet (KISPI: WP+Erdsonde → EN-Vorpruefung).

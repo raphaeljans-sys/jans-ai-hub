@@ -1,4 +1,26 @@
 # CHANGELOG — KB Normen
+## 2026-07-12 — Nacht-Run 4 MacBook Pro: SIA 118 (Volltext-Destillat, P1-Kernnorm)
+- Stations-Split eingehalten: NUR SIA destilliert (DIN/VSS/RAL = Mac Mini; lief parallel).
+- **Neu: `sia-118-1991.md`** — SIA 118 «Allgemeine Bedingungen für Bauarbeiten» (Ausgabe 1977/1991),
+  die grösste P1-Kernnorm und das Rückgrat der Skills `werkvertrag`/`unternehmerkontrolle`/`kostenkontrolle`.
+  Volltext gelesen (75 S. mit Textlayer, pdftotext -layout), alle 7 Kapitel (Art. 1–190) über
+  Inhaltsverzeichnis + die JANS-relevanten Artikelblöcke detailliert erfasst (Vergütung/Preisarten
+  Art. 38–61, Bestellungsänderung Art. 84–91, Fristen/Konventionalstrafe Art. 92–98, Ausmass/
+  Rückbehalt/Schlussabrechnung Art. 141–156, Abnahme/Mängel/Garantiefrist/Verjährung/Sicherheit
+  Art. 157–182, vorzeitige Beendigung/Zahlungsverzug Art. 183–190).
+- **Verifikation (Modell D, Volltextabgleich):** alle Kennzahlen per grep gegen den Quelltext
+  gegengeprüft und BESTANDEN (0 Beanstandungen): ±20 % Art. 86; Rückbehalt 10 %/5 % (>300 000)/
+  20 %, min 30 000, max 1 000 000 Art. 150; Bürgschaft 10 %/5 % (>200 000), min 20 000, max
+  1 000 000 Art. 181; Garantiefrist 2 Jahre Art. 172; Verjährung 5/10 Jahre Art. 180; Zahlungsfrist
+  30 Tage Art. 190; Baustelleneinrichtungen 80 %/100 % Art. 146; Regierapport 7 Tage Art. 47;
+  Schlussabrechnung 2 Monate / Prüfung 1–3 Monate Art. 154. → Status `established`.
+- `norm-inventar.md`: SIA 118 auf `[x] 260712`; `INDEX.md`: sia-118-Zeile ergänzt; REGISTER bereits
+  korrekt (Bestand 1991, 2013 gültig/Bring-Schuld). Registry-Zeilen der parallelen run3-Destillate
+  (SIA 232–500, verwaist markiert) NICHT angetastet — werden vom Reconcile-Mechanismus geschlossen.
+- **Hinweis Nebenläufigkeit:** Lauf fiel in ein Fenster mit aktiver run3 (SIA 232–500) + Mac-Mini-DIN;
+  eigener Commit auf die zwei isolierten Neu-Dateien beschränkt, Shared-Registry-Edits dem
+  NAS-Self-Commit/Folgecommit überlassen (Kollisions-/index.lock-Vermeidung, Rule sync-kanonische-quelle).
+
 ## 2026-07-12 — Mini-Run 2 Mac Mini: Reconcile 15 verwaiste Destillate + 5 neue DIN-Destillate
 - Stations-Split eingehalten: NUR DIN/VSS/RAL bearbeitet (SIA/VKF = MacBook Pro).
 - **Reconcile (Bookkeeping-Lücke geschlossen):** 14 DIN/VSS-Destillate + 1 RAL-Vervollständigung

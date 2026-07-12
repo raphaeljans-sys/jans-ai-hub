@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 23:27:40
+Stand: 12.07.2026 23:37:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:27)
 - /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 23:08)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 12.07.2026 23:27:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 04feecfe energie-training Run 36: MuKEn 2025 + Waermebruecke Balkonplatte (F47-F48) + Register-Updates
+- b893723e energie-training Run 37: Waermebruecken Fensteranschluss + Sockel (F49-F50), MuKEn-2025-Grauenergie-Formel

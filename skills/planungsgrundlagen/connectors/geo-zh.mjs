@@ -553,7 +553,11 @@ function isoDate() {
               L(`   baulinien (±${half}m${b.gemessen ? ", Abstand gemessen" : ""}): ${teile.length ? teile.join(" · ") : "keine Linien/Abstaende im Fenster"}`);
               if (b.revision_laeuft) {
                 const projTeile = Object.entries(b.proj).filter(([, v]) => v.length)
-                  .map(([k, v]) => `${v.length} ${k}`).join(" · ");
+                  .map(([k, v]) => {
+                    const dists = v.map((r) => r.dist_m).filter((x) => x != null);
+                    const naechste = dists.length ? ` (naechste ${Math.min(...dists)} m)` : "";
+                    return `${v.length} ${k}${naechste}`;
+                  }).join(" · ");
                 L(`   ⚠ LAUFENDE REVISION im Fenster (±${half}m): ${projTeile}`);
               }
               if (a.out.length) {

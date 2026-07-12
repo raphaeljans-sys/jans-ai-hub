@@ -18,11 +18,18 @@ Plan-/Dokumentenliste.
 | Frist | Bedeutung | Typische Deliverables |
 |---|---|---|
 | **4 Wo vor Baubeginn** | mind. 4 Wochen vorher | Energienachweis-Formulare an UGZ (EN-ZH, Lüftung, Kühlung); Anmeldungen Bauinstallation/öff. Grund/Tiefbauamt |
-| **vor Baubeginn** | vor erstem Spatenstich | abgeänderte Pläne (Fluchtweg), BSK/Brandschutzpläne, Schiebetüren-/Innenwand-Details, FP-Bestätigungen an AfB |
+| **vor Baubeginn** | vor erstem Spatenstich (juristisch = **Aushubbeginn**; Abstecken/Baustelleneinrichtung/Kanalisation sind noch kein Baubeginn, § 326 PBG / RB 1994 Nr. 88) | abgeänderte Pläne (Fluchtweg), BSK/Brandschutzpläne, Schiebetüren-/Innenwand-Details, FP-Bestätigungen an AfB |
 | **vor Arbeitsvergabe** | vor Vergabe des Gewerks | Lüftungskonzept (II.21), BMA (II.25), SPA/Sprinkler (II.26) |
 | **vor Ausführungsbeginn** | vor Start der Arbeiten am Gewerk | Anpassungskonzepte lufttechn. Anlagen, Abschottungen, GVZ-Projektunterlagen |
 | **vor Inbetriebnahme / feuerpol. Abnahme** | vor Nutzungsaufnahme | Übereinstimmungserklärung, nachgeführte BS-/Feuerwehrpläne, Integral-Test-Protokolle |
 | **während Bauzeit** | laufend auf der Baustelle | Luftreinhaltung, Bauabfall-Trennung, org. Brandschutz, Flucht-/Rettungswege frei |
+
+> **Querbezug KB baurecht (Rechtsgrundlage):** Die **Rechtsnatur** jeder Auflage
+> (Auflage/Bedingung/Befristung/Revers, § 321 PBG; im Zweifel Auflage) führt
+> `wissen/baurecht/wiki/nebenbestimmungen-und-reverse`; die **Verfahrensgrundlage** der Fristen
+> (Baufreigabe § 326, Meldepflichten/Bezugsbewilligung § 327 PBG, § 23 BVV)
+> `wissen/baurecht/wiki/bauausfuehrung-und-baukontrolle`. Dieser Artikel bleibt die operative
+> Frist-Zuteilung; die rechtliche Qualifikation kommt von dort.
 
 ## Die Vorbemerkungen-Mechanik (Ziff. II.1–3)
 
