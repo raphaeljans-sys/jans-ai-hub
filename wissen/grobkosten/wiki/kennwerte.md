@@ -13,6 +13,12 @@ Region Zuerich / Zentralschweiz. Preisstand 2026. Immer als Grobschaetzung ±25 
 > Neubau rund **CHF 4'800/m² HNF** (BKP 1–5, inkl. Teuerung). Mit GV/HNF ≈ 4.7 (HNF ≈ 0.70 × GF,
 > GV ≈ 3.3 × GF) entspricht das **≈ CHF 1'020/m³ GV** — das bestaetigt den hier gefuehrten Band
 > 850–1'050 (gehoben). Quelle: `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`.
+>
+> **Querbezug KB immobilienbewertung:** Der Realwert-Artikel `wissen/immobilienbewertung/wiki/realwert-sachwert`
+> fuehrt eine **andere** Wüest-Kennwerttabelle (aus «Immobilien entwickeln», S. 37, qualitaets-/
+> lagegestuft, z.B. Wohnen normale Lage 5'300 / gehoben 7'000 CHF/m² HNF) sowie reale JANS-m³-GV-
+> Werte (Ebmatingen ~855 CHF/m³ GV). Das ist **kein Widerspruch**: verschiedene Wüest-Produkte mit
+> verschiedener Bezugsbasis (Dimensions-Median vs. Ausbaustandard-Tabelle). Beim Vergleich Basis beachten.
 
 ## Wohnbau Neubau (CHF/m³ GV, BKP 1–5)
 

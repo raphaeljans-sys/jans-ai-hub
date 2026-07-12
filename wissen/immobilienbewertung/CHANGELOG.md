@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Kennwerte-Bruecke zu grobkosten
+- [link] [[realwert-sachwert]] -> `grobkosten/wiki/kennwerte` als fuehrende m3-GV-Grobkennwerte-DB (Ankerwert ~1'020 CHF/m3 GV Wohnbau ZH). Bezugsbasis-Warnung ergaenzt (Ausbaustandard-Tabelle S.37 vs. Dimensions-Median = verschiedene Wuest-Produkte).
+- [offen] m2->m3-Faktor-Diskrepanz (grobkosten 0.70 vs. hier 0.60-0.61) -> heikler Fachentscheid Raphael (siehe koordination-Report).
+
 ## 2026-07-12 — Training-Run 17: Auffrischungslauf Marktpuls (keine offene Luecke)
 
 - **Reiner Aktualisierungslauf** — alle auto-schliessbaren Luecken sind seit Run 16 zu; verbleibend

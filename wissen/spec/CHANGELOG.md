@@ -1,5 +1,8 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Querbezug anwendung-jans <-> KB twin
+- [link] [[anwendung-jans]] Abgrenzungs-Abschnitt -> KB `twin` (arbeitsweise/denken) als belegte Verhaltensevidenz, dass Raphaels Arbeitsweise dem Spec-Denken folgt. Gegenrichtung zum twin-Backlink.
+
 ## 2026-07-12 — Trainingslauf 6
 - Output `outputs/2026-07-12_training-run6.md`. **Zwei neue reale Specs** ausgewertet:
   Normen-Harness (11.07., greenfield-System) + Submission 2414 Thalwil (11.07., **Rev. B am selben Tag**).

@@ -112,6 +112,10 @@ Quervergleiche/Herleitung (alle Werte Datenstand 2021-2023, ⚠ Teuerung seither
   Residualwert-Tool mit **6'000 CHF/m2 HNF** (Wohnen Vollausbau, Premiumlage). Die LB
   Ebmatingen setzt **BKP 2 = 4'100 CHF/m2** bzw. BKP 1-5 ~855 CHF/m3 an. Damit ist die
   Tabelle nicht nur Referenz, sondern gelebter JANS-Kostenkennwert ([[projektstruktur-deliverables]]).
+  Für die **m³-GV-Grobkennwerte** (BKP 1-5, CHF/m³ GV, Wohnbau-Neubau Region ZH, kompoundierend
+  aus Realabrechnungen) ist die Kennwerte-DB `wissen/grobkosten/wiki/kennwerte` führend (Ankerwert
+  ~1'020 CHF/m³ GV ≈ 4'800 CHF/m² HNF, Wüest-kalibriert). Achtung Bezugsbasis: die obige Tabelle
+  (Ausbaustandard, S. 37) und der Wüest-Dimensions-Median sind zwei verschiedene Wüest-Produkte.
 - Weitere Benchmark-Quellen (S. 38): Zuercher Index der Wohnbaupreise (Gewichtung:
   BKP 2 = 84.7 %, BKP 1 = 7.0 %, BKP 4 = 5.0 %, BKP 5 = 3.3 %), werk-material.online
   (CRB), kennwerte.ch.

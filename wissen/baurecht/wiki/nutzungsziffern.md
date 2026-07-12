@@ -12,6 +12,11 @@ Die Nutzungsziffern legen fest, wie intensiv ein Grundstück überbaut werden da
 Sie werden in der BZO pro Zone festgelegt (siehe [[zonenkonformitaet]]) und im
 Baubewilligungsverfahren nachgewiesen (siehe [[baubewilligungsverfahren]]).
 
+> **Querbezug KB normen:** Die Flächen-/Volumendefinitionen, auf denen aGF/GF/GV und die
+> anrechenbare Geschossfläche beruhen (GSF/GF/NGF/HNF/NNF/KF/AGF/GV), definiert die Norm
+> **SIA 416:2003** — Destillat `wissen/normen/destillate/sia-416-2003`. Bei Flächennachweisen
+> gilt die dortige Definition; das PBG-Mass (§§ 254-259) ist davon zu unterscheiden.
+
 ## Ausnützungsziffer (AZ)
 Verhältnis der anrechenbaren Geschossfläche (aGF) zur **massgeblichen
 Grundstücksfläche**. Formel: AZ = aGF / massgebliche GSF. Rechtsgrundlage:

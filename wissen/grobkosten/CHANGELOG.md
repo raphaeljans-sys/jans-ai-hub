@@ -1,5 +1,9 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Kennwerte-Bruecke zu immobilienbewertung
+- [link] kennwerte.md -> `immobilienbewertung/wiki/realwert-sachwert` (und zurueck). Klargestellt: die dortige Wuest-Tabelle «Immobilien entwickeln» S. 37 (ausbaustandard-/lagegestuft) und der hier gefuehrte Wuest-Dimensions-Median sind ZWEI verschiedene Wuest-Produkte mit verschiedener Bezugsbasis — kein Widerspruch (adversarial verifiziert, kennwerte-W1/W4 WIDERLEGT). Vergleich nur basisgleich.
+- [offen] Kennwerte-W2 (m2->m3-Umrechnungsfaktor 0.70 in kennwerte vs. 0.60-0.61 dreifach trianguliert in immobilienbewertung) BESTAETIGT + als heikel markiert -> Entscheid Raphael (siehe koordination/outputs/2026-07-12_wissens-chef-run1.md).
+
 ## 010726 — Wissens-Health-Check (Phase 1)
 - Audit A-G unbeaufsichtigt gelaufen. Inhaltlich sauber (A/C/D/E/G gruen), formal 2 Findings:
   B (QUESTIONS.md + raw/_INGESTED.md fehlen), F (kein Frontmatter, ae/oe/ue statt echter Umlaute,

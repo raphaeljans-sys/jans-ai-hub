@@ -80,7 +80,8 @@ als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
 
 - **Velos**: aus «insbesondere Motorfahrzeuge» (§ 242 Abs. 1) folgt, dass die BZO auch
   **Veloabstellplaetze** vorschreiben darf (BEZ 2013 Nr. 15); VSS-Normen SN 640 060/065/066
-  ergaenzend.
+  ergaenzend. Belegte Bemessungswerte (Stellplatzzahl/Fläche je Nutzung) im normen-Destillat
+  `wissen/normen/destillate/vss-merkblatt-veloabstellplaetze-1998`.
 - **Behinderte**: keine PBG-Regel, massgebend **SIA-Norm SN 521 500** — **1 Platz je 25
   Wohnungen** (min. 1) + **1 je Besucher-Standort**, Gehdistanz Richtwert **max. 100 m**.
 

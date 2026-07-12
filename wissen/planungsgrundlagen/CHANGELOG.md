@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Doppelspur Wald/Gewaesser entschaerft, Backlink zu baurecht
+- [link] [[recht-norm-abstandsvorschriften-wald-gewaesser]] -> KB baurecht als fuehrende Rechtsquelle: Fachartikel `abstaende-und-hoehen` (Bemessung/§) + `baulinien-und-abstandslinien` (Rechtswirkung §§ 96/99-101). Dieser Artikel bleibt Geodatum-/Beschaffungs-Wegweiser; bei Abweichung gilt baurecht. Loest die Doppelspur (Rechtsmasse zweimal gepflegt) im Sinne des dispensrecht-Vorbilds.
+- [befund] Die planungsgrundlagen-Fassung des Gewaesserraums (established, 07-12) war die KORREKTE — die baurecht-Fassung wurde daran korrigiert (siehe baurecht-CHANGELOG). Kein Fehler in planungsgrundlagen.
+
 ## 2026-07-12 — Training Run 18 (Recht/Norm/PL-02): Wald-/Gewaesserabstand ZH & SZ (B4/R8) + SZ-Massweisen-Refresh gegen amtliche SRSZ-Fassung (R2)
 - Schwerpunkt **Recht/Norm** (Rotation Run 17 Energie → Run 18 Recht/Norm). **Connector-Schritt:
   nein** (Geodaten-Bezug ueber bestehenden `--produkt baulinien`). Quellen: PL-02/02_Zuerich/Wasser

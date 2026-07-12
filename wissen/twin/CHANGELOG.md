@@ -2,6 +2,9 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Querbezug arbeitsweise <-> KB spec
+- [link] [[arbeitsweise]] Dekompositions-/Orchestrierer-Abschnitt -> KB `spec` (anwendung-jans/the-spec) als formales Geruest desselben Vorgehens; twin bleibt die belegte Verhaltensevidenz. Keine Doppelspur (verschiedene Rollen, adversarial bestaetigt: WIDERLEGT als Widerspruch).
+
 ## 2026-07-12 — twin-mail-training Batch 33 (2026-03-04 bis 2026-03-06)
 - Sent Items rj@ sequentiell weiter, 20 Mails gesichtet, 5 Volltexte destilliert (KISPI-Umnutzung
   Anzeigeverfahren + Wartstrasse-8-Auflagebereinigung). Claude-Ära-Zone doppelt geprüft: alle 5 Rahmen

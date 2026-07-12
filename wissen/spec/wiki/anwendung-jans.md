@@ -35,6 +35,9 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
   in eine Deliverable-Checkliste. Spec-Methode ist *strategisch* vorgelagert: zuerst das
   *wahre Ziel* aufdecken und Schluesselentscheide bestaetigen, bevor zerlegt wird.
 - Skill `korrektur` + `twin`-Gate = die JANS-Auspraegung von Layer 2 (Verifier) fuer Texte.
+  Die **belegte Verhaltensevidenz**, dass Raphaels eigene Arbeitsweise genau diesem
+  Spec-Denken folgt (Komplexes zerlegen, Grundlage→Empfehlung→Ausblick, Freeze/Change-Request
+  als Checkpoint), fuehrt die KB `wissen/twin` (`arbeitsweise` / `denken`).
 - `wissen/` + Trainings-Tasks = Layer 3 (Environment), bereits vorhanden.
 
 ## Wie die drei Schritte im Hub konkret aussehen

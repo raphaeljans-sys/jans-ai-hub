@@ -26,7 +26,10 @@ Zerlegt Komplexes in saubere Teilstücke (Varianten, Gewerke, Deliverables) und 
 geordnet zusammen — dasselbe Prinzip, das der Hub als Rule `auftrags-dekomposition` und in
 den Fan-out-Skills (machbarkeit, ausschreibung, auflagebereinigung) abbildet. Raphael ist
 der **Orchestrierer**: er rahmt, delegiert ans richtige Werkzeug/den richtigen Planer und
-verantwortet die Synthese.
+verantwortet die Synthese. Die **formale Ausbuchstabierung** dieses Vorgehens (erst das wahre
+Ziel als Spec aufdecken, dann agil in engen Scopes mit Verifier) liegt in der KB
+`wissen/spec` (`anwendung-jans` / `the-spec`); dieser Artikel ist die **belegte Verhaltens-
+evidenz**, dass Raphael genau so denkt, die Spec-KB das methodische Gerüst.
 
 ## Delegiert mit klarer Übergabe
 Benennt, was er selbst vertieft und was beim Gegenüber liegt: «Gib mir bescheid wenn ich was
