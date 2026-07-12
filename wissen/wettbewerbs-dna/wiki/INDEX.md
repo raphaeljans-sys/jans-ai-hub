@@ -23,7 +23,7 @@ Stand-Bilanz: 3 established (2101, 2103, 2408), 4 draft (2102, 2205, 2206, 2503)
 
 ## Muster (verallgemeinerte DNA)
 
-- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? (Basis 6 Dossiers, draft)
+- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? (Artikel-Inhalt Basis 3 Dossiers, draft; Verdichtung auf jetzt 6 verfuegbare Dossiers beim naechsten «dritten Lauf» faellig)
 
 ## Offene Fragen
 
