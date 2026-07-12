@@ -9,6 +9,30 @@ Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
 
 ---
 
+## 2026-07-12 23:05 — Mini-Run bestaetigt (rc=0), aber STOP-Macmini haelt Mini an (unklar)
+
+**Lagebild:** Zwei harte Fakten aus dem Mini-Log. (1) Positiv belegt: `planungsgrundlagen-training`
+(Start 22:50:21) lief **832 s und endete rc=0** um 23:04:13 — echter Training-Run 19 mit Output
+`outputs/2026-07-13_training-run19.md`, Register nachgefuehrt, auf GitHub gesichert. Damit ist die
+22:55-These «Mini liefert nach Reset wieder» bewiesen. (2) Neu und kritisch: eine **leere Datei
+`logbuch/vollgas/STOP-Macmini` (erstellt 22:58)** hat den Mini-Runner nach Abschluss des laufenden
+Runs **23:04:43 beendet**. Damit produzieren aktuell BEIDE Prod-Stationen keinen Runner-Durchsatz:
+MacBook Pro «Not logged in», Mac Mini gestoppt. (Die App-Scheduled-Tasks laufen unabhaengig weiter.)
+
+**P1 — STOP-Macmini klaeren (nur melden, NICHT geloescht):** Die Datei ist leer, Herkunft unklar
+(kein Login-/Fehlerbezug — der Mini war eingeloggt und lieferte gerade rc=0). Gemaess Radar-Regel
+wird eine STOP-Datei aus unklarem Grund NICHT eigenmaechtig entfernt, nur gemeldet: moeglicherweise
+hat Raphael den Mini bewusst gestoppt. Wenn NICHT gewollt: `rm logbuch/vollgas/STOP-Macmini` und auf
+dem Mini `bash scripts/vollgas-runner.sh &` — das reaktiviert die staerkste Station (die als einzige
+eingeloggt echten Durchsatz liefert). Bis zur Klaerung traegt keine Station den Runner.
+
+**P1 — MacBook-Login (unveraendert):** «Not logged in», bereits GEMAILT 22:52. Keine Wiederholungsmail.
+
+**Mail-Entscheid 23:05:** KEINE Mail. Der Login-Blocker ist bereits gemailt; die STOP-Herkunft ist
+unklar und evtl. Raphaels eigene Handlung (Mail waere Spam). Das Morgen-Briefing (logbuch-radar/
+hub-chef) surfaced beide Punkte. Sollte sich die STOP als ungewollt und der Login als geloest zeigen,
+faellt der Runner-Durchsatz sofort wieder an.
+
 ## 2026-07-12 22:55 — Kurzcheck: Mac Mini liefert nach Limit-Reset wieder
 
 **Lagebild (nur 3 Min nach 22:52):** Neu und positiv: der Mac Mini hat den 22:50-Limit-Reset
