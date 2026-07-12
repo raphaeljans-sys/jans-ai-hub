@@ -1,6 +1,6 @@
 ---
 title: 2507 WETT TKHL — Neubau Tagesbetreuung und Kindergarten Halden, St.Gallen (LIMO)
-status: draft
+status: established
 last_updated: 2026-07-12
 sources: [2507-tkhl-ps-halden_programm.txt, 2507-tkhl-ps-halden_fragenbeantwortung.txt, 2507-tkhl-ps-halden_abgabe-plaene.txt, 2507-tkhl-ps-halden_projekttext.txt, 2507-tkhl-ps-halden_sia416-abgabe.txt]
 links: []
@@ -164,11 +164,12 @@ links: []
   ausgewiesen; Abgabe-Extrakt Z. 677) und einer «Stoffmarkise als Überhitzungsschutz» (Z. 670).
   Innen prägt ein **zementfreier, stabilisierter Gusslehmboden** die helle, natürliche
   Raumwirkung; Lüftung/Nachtauskühlung über gesteuerte Fenster (Z. 668), Wärmeerzeugung über
-  das Fernwärmenetz (Programm S., Fragenbeantwortung). Ein konkretes Beheizungssystem (z. B.
-  über Zuluft) ist in den vorliegenden Extrakten nicht belegt.
+  das Fernwärmenetz (Fernwärmegebiet; Programm, Fragenbeantwortung). Ein konkretes
+  Beheizungssystem (z. B. über Zuluft) ist in den vorliegenden Extrakten nicht belegt.
 - Freiraum: Konzept «grüne Insel» — jeder Aussenraum wird zu einem thematischen Garten
-  (Wassergarten, Waldgarten, Didaktikgarten, Sportgarten, Spielgarten); das Dach als «fünfte
-  ökologische Fassade» mit aufgeständerten PV-Modulen und einer Substrat-Mikrotopografie
+  (Wassergarten, Waldgarten, Didaktikgarten, Sportgarten, Spielgarten); das Dach als «fünften
+  ökologischen Fassade» (Abgabe-Extrakt Z. 419, Originalwortlaut) mit aufgeständerten PV-Modulen
+  und einer Substrat-Mikrotopografie
   (10–15 cm) für Biodiversität; der Boden wird als zusammenhängendes lebendiges System vom
   Terrain bis zum Dach verstanden (Abgabe-Extrakt).
 - Kennzahlen (SIA 416, aus dem abgegebenen Formular «Berechnungen nach SIA 416 / Schemapläne
@@ -179,8 +180,11 @@ links: []
   EG 186.7 / 1.OG 224.8 / 2.OG 224.6 / 3.OG 224.6 m²) und Nebennutzfläche NNF total 385.1 m²;
   Verkehrsfläche VF total 258.8 m²; Nettogeschossfläche NGF total 1'759.4 m² (UG 371.0 /
   EG 379.7 / 1.OG 336.1 / 2.OG 335.9 / 3.OG 336.7 m²). Flächeneffizienz daraus: HNF/GF ≈ 54 %,
-  NF/GF ≈ 74 %. Fünf oberirdisch gezählte Vollgeschosse UG–3.OG (Hanglage: das «UG»/Gartengeschoss
-  ist talseitig belichtet). **Gebäudevolumen GV (m³) ist im SIA-416-Abgabeformular nicht
+  NF/GF ≈ 74 %. Fünf oberirdisch belichtete Ebenen UG(Gartengeschoss)–3.OG; die eigene
+  Projektbeschreibung nennt den Bau ausdrücklich «vierstöckig» (Projekttext), das unterste
+  Geschoss heisst «Gartengeschoss» bzw. in der SIA-416-Zählung «UG». Ob dieses talseitig
+  belichtete Gartengeschoss als oberirdisches Vollgeschoss zu zählen ist, ist eine
+  Hanglagen-Interpretation im Sinne der ZöBA-Rechtsprechung, nicht belegt (Annahme). **Gebäudevolumen GV (m³) ist im SIA-416-Abgabeformular nicht
   ausgewiesen** (das Formular enthält nur NF- und GF-Blätter); eine belegte GV-Zahl liegt in
   den vorhandenen Quellen nicht vor (die Datei `250828 volumen hülle struktur effizienz.xlsx`
   ist eine parametrische Hüllen-Variantenstudie mit generischen Ersatzgeometrien, kein

@@ -26,7 +26,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-16-15-flucht-rettungswege.md` | VKF-BRL 16-15 Flucht- und Rettungswege | 2015 (rev. 2016) | established (verifiziert 260712) |
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
 | `vkf-brl-nachweisverfahren.md` | VKF-BRL 27-15 Nachweisverfahren im Brandschutz | 2015 | established (verifiziert 260712) |
-| `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | Teil-Destillat (S.1-10/24) |
+| `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | destilliert (vollständig, S.1-24) |
 | `vss-700.5-1987.md` | ZH Zugangsnormalien 700.5 | 1987, in Kraft 1988 | destilliert |
 | `vss-722.15-1983.md` | ZH Verkehrssicherheitsverordnung 722.15 | 1983, geänd. 1995 | destilliert |
 | `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | destilliert |
@@ -34,3 +34,17 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | destilliert |
 | `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | destilliert |
 | `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | destilliert |
+| `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | destilliert |
+| `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | destilliert |
+| `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | destilliert |
+| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | Teil-Destillat (S.1-20+27-37/125) |
+| `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | destilliert |
+| `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
+| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | Teil-Destillat (S.1-20+26-28/28) |
+| `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | destilliert |
+| `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | destilliert |
+| `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | destilliert (Scan nur ungerade Seiten im Bestand) |
+| `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | destilliert |
+| `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | destilliert (S.1-16+31-38/38) |
+| `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | destilliert |
+| `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | destilliert |

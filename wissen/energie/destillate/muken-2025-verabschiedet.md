@@ -55,14 +55,28 @@ nächsten Jahre verbindlich an: **keine fossile Heizung im Neubau mehr**, **mehr
 denkt (Nutzungsdauer 40–60 Jahre), sollte diese drei Punkte bereits vorwegnehmen, auch wenn sie
 formal erst mit der kantonalen Umsetzung (bis 2030) bindend werden.
 
+## Graue-Energie-Modul Teil G — präzisiert (2026-07-12, ecobau.ch/Sekundärquelle)
+Art. 1.39 MuKEn 2025 verlangt für **Neubauten und wesentliche Erneuerungen** (Auskernungen u.ä.)
+mit EBF ≥ 50 m² oder > 20 % der bestehenden EBF (max. 1000 m²) einen **objektspezifischen
+Grenzwert der Grauen Energie** nach Formel:
+
+`GWObjekt = (GWEBF × EBF) + (GWGF-EBF × (GF-EBF)) + ZErdsonde + ZPV + ZThermie`
+
+(Grenzwert je m² Energiebezugsfläche + Grenzwert je m² Rest-Geschossfläche + Zuschläge für
+Erdsonde/PV/Solarthermie). Nachweis nach **SIA-Merkblatt 2032**, akkreditiertes Tool gemäss
+**Minergie-Reglement ab 1.1.2025**/Zusatz ECO. Die MuKEn-Basiswerte liegen gemäss Sekundärquelle
+**2–3 kg CO₂-eq/m²·a über dem Minergie-ECO-Grenzwert 2** (leichter) bzw. **bis zu 4 kg über dem
+strengeren Grenzwert 1**; bei unbeheizten Flächen bis zu 2,7 kg höher. Unbeheizte Bauten: keine
+Grenzwerte, aber Nachweis aller zumutbaren Minimierungsmassnahmen Pflicht. ⚠ Diese Kennwerte
+stammen weiterhin aus einer Sekundärquelle (ecobau.ch, Publikationsdatum 19.09.2025), nicht aus
+dem EnDK-Primärvolltext — Status bleibt `established` für die Fakten Verabschiedung/Zeitplan,
+aber die konkreten kg-Zahlen sind mit Vorbehalt (⚠ nicht am Original verifiziert) zu verwenden.
+
 ## Offene Punkte
-- Genaue **Grenzwerte des neuen Graue-Energie-Moduls (Teil G)** in kg CO₂-eq/m²·a nicht aus der
-  Primärquelle (EnDK-Medienmitteilung/Volltext MuKEn 2025) gelesen — nur aus Sekundärquellen als
-  «an Minergie-Methodik angelehnt» referiert; bei Bedarf EnDK-Volltext direkt beziehen.
-  Bereits belegte Minergie-Werte als Näherung: → [[graue-energie]] (11–17 kg CO₂-eq/m²·a je
-  Gebäudekategorie).
-  <!-- Retrieval-Hinweis für spätere Läufe: EnDK-Primärdokument via https://endk.ch (MuKEn 2025
-  Volltext + Medienmitteilung 20250825) direkt beziehen, nicht nur Sekundärquellen. -->
+- **Absolute kg CO₂-eq/m²·a-Werte** (nicht nur relativ zu Minergie-ECO) weiterhin nicht aus der
+  Primärquelle gelesen — EnDK-Volltext MuKEn 2025 (https://endk.ch) für eine verbindliche Zahl
+  direkt beziehen. Bereits belegte Minergie-Werte als Näherung: → [[graue-energie]]
+  (11–17 kg CO₂-eq/m²·a je Gebäudekategorie).
 - **Stand Kanton ZH/SZ:** noch keine Meldung einer Vernehmlassung/Gesetzesänderung zur Umsetzung
   von MuKEn 2025 gefunden — bei nächster Gelegenheit (z.B. via `baurecht`/Vollzugsordner ZH)
   prüfen, ob eine EnerG-Revision angekündigt ist.

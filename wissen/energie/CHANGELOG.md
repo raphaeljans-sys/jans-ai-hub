@@ -2,6 +2,26 @@
 
 Neueste zuoberst.
 
+## 2026-07-12 — Run 37: Wärmebrücken Fensteranschluss + Sockel (F49–F50) + MuKEn-2025-Grauenergie-Formel
+- **2 neue Destillate → 78 total:**
+  - `waermebrueckenkatalog-bfe-fensteranschluss` (emerging) — BFE-Wärmebrückenkatalog Gruppe 4.1,
+    Primärquelle (bereits lokal vorhanden) weiter gelesen (S. 83-90). Fenster-Wand-Anschluss Ψ
+    0,08-0,36 W/(m·K) gg. Grenzwert 0,30; Aussenanschlag mit Zwischenleibungsdämmung klar am
+    besten; Stahlbetonsturz-Malus bis +0,14, mit 6 cm Sturzdämmung auf +0,02 senkbar.
+  - `waermebrueckenkatalog-bfe-sockel` (emerging) — Gruppe 3.4 (S. 62-68). Beheizter Keller mit
+    reiner Aussendämmung: Dämmtiefe unterhalb UK Kellerdecke entscheidet Faktor 4→1,5 vom
+    Grenzwert 0,20 (0 cm Ψ 0,82; 20 cm 0,61; 50 cm 0,42; 80 cm 0,30, bleibt trotzdem drüber).
+- **1 bestehendes Destillat präzisiert:** `muken-2025-verabschiedet` — Graue-Energie-Formel
+  GWObjekt + relative Grenzwert-Angabe (2-4 kg CO₂-eq/m²·a über Minergie-ECO, ⚠ Sekundärquelle
+  ecobau.ch, nicht am EnDK-Original verifiziert), Geltungsbereich Neubau/wesentliche Erneuerung
+  ≥50 m² EBF.
+- **FAQ 48 → 50 Kernfragen:** F49 (Fensteranschluss-Wärmebrücke), F50 (Sockel/beheizter Keller).
+- `u-werte-grenzwerte-ch` um zwei Wärmebrücken-Abschnitte erweitert — die drei häufigsten
+  Gebäudeanschlüsse (Balkon/Fenster/Sockel) sind damit mit konkreten Ψ-Werten belegt
+  (Curriculum-Punkt A4 weitgehend geschlossen für diese drei Gruppen).
+- Methodisch: dieselbe lokal gespeicherte Wärmebrückenkatalog-PDF (Run 36) ohne erneuten Download
+  für zwei weitere Detailgruppen wiederverwendet.
+
 ## 2026-07-12 — Run 36: MuKEn 2025 + Wärmebrücke Balkonplatte (F47–F48) + Batteriemonitor/SIA-2060-Updates
 - **2 neue Destillate → 76 total:**
   - `muken-2025-verabschiedet` (established) — Kantone verabschiedeten am 29.08.2025 die MuKEn 2025;

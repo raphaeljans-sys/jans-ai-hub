@@ -53,41 +53,41 @@
 | [ ] | P2 | `2040_2017.pdf` | 2040 | 2017 |  |
 | [ ] | P2 | `2051_2018.pdf` | 2051 | 2018 |  |
 | [ ] | P2 | `226_1976_d.pdf` | 226 | 1976 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
+| [x] 260712 | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
+| [x] 260712 | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
 | [ ] | P2 | `241_1988_d.pdf` | 241 | 1988 |  |
 | [ ] | P2 | `244_2006_d.pdf` | 244 | 2006 |  |
 | [ ] | P2 | `246_2006_d.pdf` | 246 | 2006 |  |
 | [ ] | P2 | `248_2006_d.pdf` | 248 | 2006 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `251_2008 Unterlagsboden.pdf` | 251 | 2008 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `252_2002_d.pdf` | 252 | 2002 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `253_2002_d.pdf` | 253 | 2002 |  |
+| [x] 260712 | P2 | `251_2008 Unterlagsboden.pdf` | 251 | 2008 |  |
+| [x] 260712 | P2 | `252_2002_d.pdf` | 252 | 2002 |  |
+| [x] 260712 | P2 | `253_2002_d.pdf` | 253 | 2002 |  |
 | [ ] | P2 | `256_1988_d.pdf` | 256 | 1988 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `257_2005_d.pdf` | 257 | 2005 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `260_2003_d.pdf` | 260 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `261_2003_d.pdf` | 261 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `262_2003_d.pdf` | 262 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `263_2003_d.pdf` | 263 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `264_2003_d.pdf` | 264 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `265_2003_d.pdf` | 265 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `266_2003_d.pdf` | 266 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `267_2003_d.pdf` | 267 | 2003 |  |
+| [x] 260712 | P2 | `257_2005_d.pdf` | 257 | 2005 |  |
+| [x] 260712 | P2 | `260_2003_d.pdf` | 260 | 2003 |  |
+| [x] 260712 | P2 | `261_2003_d.pdf` | 261 | 2003 |  |
+| [x] 260712 | P2 | `262_2003_d.pdf` | 262 | 2003 |  |
+| [x] 260712 | P2 | `263_2003_d.pdf` | 263 | 2003 |  |
+| [x] 260712 | P2 | `264_2003_d.pdf` | 264 | 2003 |  |
+| [x] 260712 | P2 | `265_2003_d.pdf` | 265 | 2003 |  |
+| [x] 260712 | P2 | `266_2003_d.pdf` | 266 | 2003 |  |
+| [x] 260712 | P2 | `267_2003_d.pdf` | 267 | 2003 |  |
 | [ ] | P2 | `270_1992_d.pdf` | 270 | 1992 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `271_2007 Abdichtung von Hochbauten .pdf` | 271 | 2007 |  |
+| [x] 260712 | P2 | `271_2007 Abdichtung von Hochbauten .pdf` | 271 | 2007 |  |
 | [ ] | P2 | `272_1980_d.pdf` | 272 | 1980 |  |
 | [ ] | P2 | `273_1989 Abdichtungen von befahrbaren Flächen im Hochbau.pdf` | 273 | 1989 |  |
 | [ ] | P2 | `273_1998_d.pdf` | 273 | 1998 | jüngste im Bestand; 2013-gültig wäre 273:2008 (nicht im Bestand); 273_1989 ersetzt |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `279_2018.pdf` | 279 | 2018 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `281_2017.pdf` | 281 | 2017 |  |
+| [x] 260712 | P2 | `279_2018.pdf` | 279 | 2018 |  |
+| [x] 260712 | P2 | `281_2017.pdf` | 281 | 2017 |  |
 | [ ] | P2 | `312_2013.pdf` | 312 | 2013 |  |
 | [ ] | P2 | `318_1988_d.pdf` | 318 | 1988 |  |
 | [ ] | P2 | `329_1989_d.pdf` | 329 | 1989 | — ersetzt durch 2018 |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
+| [x] 260712 | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
 | [ ] | P2 | `331_1988_d.pdf` | 331 | 1988 |  |
 | [ ] | P2 | `342_1988_d.pdf` | 342 | 1988 |  |
 | [ ] | P2 | `343.051_2018.pdf` | 343 | 2018 |  |
 | [ ] | P2 | `343_1990_d.pdf` | 343 | 1990 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
+| [x] 260712 | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
 | [ ] | P2 | `370.028_2003_d.pdf` | 370 | 2003 |  |
 | [ ] | P2 | `370.080_2003_d.pdf` | 370 | 2003 |  |
 | [ ] | P2 | `382 1-2014.pdf` | 382 | 2014 |  |
@@ -106,7 +106,7 @@
 | [ ] | P2 | `469_1997_d.pdf` | 469 | 1997 |  |
 | [ ] | P2 | `480_2004_d.pdf` | 480 | 2004 |  |
 | [ ] | P2 | `493_1997_d.pdf` | 493 | 1997 |  |
-| [~] 260712 in Arbeit (MacBook run3) | P2 | `500_2009.pdf` | 500 | 2009 |  |
+| [x] 260712 | P2 | `500_2009.pdf` | 500 | 2009 |  |
 | [ ] | P2 | `564_282.pdf` | 564 |  |  |
 | [ ] | P2 | `592056.pdf` | 5920 |  |  |
 | [ ] | P2 | `721_2001_d.pdf` | 721 | 2001 |  |
@@ -484,38 +484,38 @@
 | [ ] | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | Teil-Destillat (din-1946-6-2009.md, S.1-20+27-37/125), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 1960 |  |
 | [ ] | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 1961 |  |
 | [ ] | P3 | `DIN-Norm/DIN 272.pdf` | 272 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 | 2008 | destilliert (din-276-1-2008.md), Reconcile 260712 Mini-Run2 |
+| [x] 260712 | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 | 2009 | destilliert (din-276-4-2009.md), Reconcile 260712 Mini-Run2 |
 | [x] | P3 | `DIN-Norm/DIN 277-1.pdf` | 277 | 2005 | destilliert 260712 |
 | [ ] | P3 | `DIN-Norm/DIN 277-1_Bildteil_MMMP München.pdf` | 277 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  |  |
 | [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 |
 | [ ] | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | Teil-Destillat (din-4102-1-1998.md, S.1-20+26-28/28), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 |  |  |
 | [x] | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | destilliert 260712 |
-| [ ] | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 | 1985 | destilliert (din-5034-2-1985.md), Reconcile 260712 Mini-Run2 |
+| [x] 260712 | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 | 2007 | destilliert (din-5034-3-2007.md), Reconcile 260712 Mini-Run2 |
+| [x] 260712 | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 | 1994 | destilliert (din-5034-4-1994.md, Scan nur ungerade Seiten), Reconcile 260712 Mini-Run2 |
+| [x] 260712 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | destilliert (din-5034-6-1995.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN V 106.pdf` | 106 |  |  |
@@ -547,9 +547,9 @@
 | [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712 |
 | [ ] | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | gross/scanlastig, naechster Lauf |
 | [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712 |
-| [ ] | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 |  | naechster Lauf |
+| [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | gross/scanlastig (9.2 MB), naechster Lauf |
-| [ ] | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 |  | naechster Lauf |
+| [x] 260712 | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 | 1996 | destilliert (vss-640066-1996.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `VSS 640 281 Parkfelder.pdf` | 640 |  | gross/scanlastig (7.9 MB), naechster Lauf |
 | [ ] | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 |  | gross/scanlastig (20 MB), naechster Lauf |
 | [ ] | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 |  | gross/scanlastig (15 MB), naechster Lauf |
@@ -561,5 +561,5 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 | Teil-Destillat 260712 (S.1-10/24), Rest naechster Lauf |
+| [x] 260712 | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 | destilliert vollstaendig (ral-gz638-2008.md, S.1-24), Reconcile 260712 Mini-Run2 |
 

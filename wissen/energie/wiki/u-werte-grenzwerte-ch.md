@@ -41,6 +41,17 @@ im Umbau ohne Grenzwert, beim Systemnachweis in Q_H einzurechnen.
 → `[[waermebrueckenkatalog-bfe-balkonplatte]]` (FAQ F48). ⚠ Katalog-Zahlenbasis 2002/SIA 380/1:2001,
 Grenzwert-Groessenordnung gilt weiter, exakter Wert vor Baueingabe an aktueller Norm pruefen.
 
+**Fensteranschluss (Gruppe 4.1):** Ψ 0,08-0,36 W/(m·K) gg. Grenzwert 0,30 — Aussenanschlag mit
+Zwischenleibungsdaemmung schneidet klar besser ab als reiner Innenanschlag; Stahlbetonsturz-Malus
+bis +0,14 W/(m·K) bei duenner Sturzdaemmung (2 cm), auf +0,02 senkbar mit 6 cm →
+`[[waermebrueckenkatalog-bfe-fensteranschluss]]` (FAQ F49).
+
+**Sockel (Gruppe 3.4):** bei **unbeheiztem** Keller meist nahe/unter Grenzwert 0,20; bei
+**beheiztem** Keller mit reiner Aussendaemmung eine der groessten Waermebruecken am Gebaeude —
+Daemmtiefe unterhalb UK Kellerdecke entscheidet: 20 cm → Ψ 0,61 (~3× Grenzwert), 80 cm → Ψ 0,30
+(~1,5×, bleibt trotzdem drueber); erst durchgehende Perimeterdaemmung der ganzen Kellerwand
+bringt den Wert in Grenzwertnaehe → `[[waermebrueckenkatalog-bfe-sockel]]` (FAQ F50).
+
 ## Heizwaermebedarf Q_H
 Formel und Bilanz: `[[sia-380-1-heizwaermebedarf-berechnung]]`
 (Q_h = Q_T + Q_V − η_g·(Q_i + Q_s)). Grenzwert je Kategorie: Q_H,li = Q_H,li0 + ΔQ_H,li·(A_th/A_E),

@@ -343,7 +343,7 @@ Titelblatt-Angaben (Ersatz für / Ausgabejahr) der jeweiligen Norm entnommen.
 | ZH 700.5 Zugangsnormalien | 09.12.1987 | Normalien 19.12.1979 | gilt, in Kraft seit 01.01.1988 |
 | ZH 722.15 Verkehrssicherheitsverordnung | 15.06.1983 | — | gilt, geändert 05.10.1994 (in Kraft 01.01.1995) |
 | Stadt ZH Merkblatt Veloabstellplätze | 1996, überarb. 1998 | — | städtische Richtlinie, kein SNV-Normtext |
-| RAL-GZ 638 Gitterroste | September 2008 | keine ältere Ausgabe im Bestand | Teil-Destillat, gilt |
+| RAL-GZ 638 Gitterroste | September 2008 | keine ältere Ausgabe im Bestand | gilt; vollständig destilliert (S.1-24) |
 
 ## Run-2-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
 
@@ -362,3 +362,27 @@ Gültigkeitsangaben direkt aus dem Titelblatt/Vorwort des jeweiligen Destillats 
 | VKF-BRL 16-15 Flucht-/Rettungswege | 2015, Änderungen IOTH 17.09.2015 + 22.09.2016 eingearbeitet (Fassung 01.01.2017) | BRL 16-03 | gilt |
 | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | BRL 13-03/14-03 (RF-Klassen) | gilt |
 | VKF-BRL 27-15 Nachweisverfahren | 2015 (IVTH-Beschluss 18.09.2014, verbindlich für alle Kantone) | BRL 27-03 | gilt |
+
+## Mini-Run-2-Reconcile (12.07.2026, Mac Mini — Destillate ohne Register-/Inventar-Eintrag nachgezogen)
+
+Diese Destillate waren bereits am 12.07.2026 abends (nas-selfcommit 20:00) auf dem NAS
+vorhanden, aber weder im `norm-inventar.md` noch im Destillat-`INDEX.md`/hier erfasst
+(vermutlich Lauf ohne abschliessenden Bookkeeping-Schritt). Inhalt geprüft (Stichprobe
+DIN 4102-1, SN 640 060), Qualität entspricht dem KB-Standard — jetzt nachgezogen:
+
+| Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
+|---|---|---|---|
+| DIN 18040-1 | 2010-10 | — | gilt; Barrierefreies Bauen öffentl. Gebäude |
+| DIN 18065 | 2000-01 | — | gilt; Gebäudetreppen |
+| DIN 18299 | 2010-04 | — | gilt; VOB/C Allg. Regelungen Bauarbeiten |
+| DIN 1946-6 | 2009-05 | — | gilt; Teil-Destillat (125 S., S.1-20+27-37 gelesen) |
+| DIN 276-1 | 2008-12 | — | gilt; Kosten im Bauwesen (Hochbau) |
+| DIN 276-4 | 2009-08 | — | gilt; Kosten im Ingenieurbau |
+| DIN 4102-1 | 1998-05 | DIN 4102-1:1981-05 | gilt; Teil-Destillat (28 S., S.1-20+26-28 gelesen; Anhang B S.21-25 offen) |
+| DIN 5034-2 | 1985-02 | — | gilt |
+| DIN 5034-3 | 2007-02 | — | gilt |
+| DIN 5034-4 | 1994-09 | — | gilt; Quell-PDF im Bestand nur ungerade Seiten (Scan-Lücke, kein Extraktionsfehler) |
+| DIN 5034-6 | 1995-06 | — | gilt |
+| DIN EN 12101-2 | 2003-09 (dt. Fassung EN 12101-2:2003) | — | gilt; Teil-Destillat (38 S., Anhang C-F S.17-30 offen) |
+| SN 640 060 (VSS) | November 1994 | nicht angegeben im Dokument | gilt |
+| SN 640 066 (VSS) | April 1996 | nicht angegeben im Dokument | gilt |

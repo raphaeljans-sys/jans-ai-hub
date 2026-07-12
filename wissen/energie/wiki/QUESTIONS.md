@@ -283,6 +283,19 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   beide unter Grenzwert; Zuschläge Bodenheizung/Deckendicke). Erster konkreter Zahlenbeleg für
   Curriculum-Punkt A4 (Wärmebrücken), bisher nur `[~]`. **Offen:** weitere Detailgruppen
   (Flachdach/Steildach/Fenster/Stützen), Abgleich gegen aktuelle SIA-380/1-Edition.
+- [x] **E28** **Wärmebrücke Fensteranschluss — konkrete Ψ-Werte** belegt ✓ 2026-07-12 →
+  `[[waermebrueckenkatalog-bfe-fensteranschluss]]`, FAQ **F49** (Gruppe 4.1: Ψ 0,08–0,36 W/(m·K)
+  gg. Grenzwert 0,30; Aussenanschlag mit Zwischenleibungsdämmung beste Ausführung; Stahlbetonsturz-
+  Malus bis +0,14, senkbar auf +0,02 mit 6 cm Sturzdämmung). Weitere Curriculum-A4-Ergänzung.
+  **Offen:** Gruppe 4.2 Rollladenkasten, Gruppe 5 Fensterleibung/-brüstung/-sturz separat.
+- [x] **E29** **Wärmebrücke Sockel — konkrete Ψ-Werte, beheizt vs. unbeheizt** belegt ✓ 2026-07-12 →
+  `[[waermebrueckenkatalog-bfe-sockel]]`, FAQ **F50** (Gruppe 3.4: unbeheizter Keller nahe
+  Grenzwert 0,20; beheizter Keller mit Aussendämmung kritisch, Dämmtiefe unterhalb UK Kellerdecke
+  entscheidet Faktor 4→1,5 vom Grenzwert). Schliesst Curriculum-Punkt A4 (Wärmebrücken) für die
+  drei häufigsten Gebäudeanschlüsse (Balkon/Fenster/Sockel) weitgehend ab.
+  **Offen:** Steildach/Stützen/Fassadenanker (Gruppen 3.2/3.3/6) im Katalog nicht destilliert;
+  MuKEn-2025-Graue-Energie-Formel GWObjekt (2026-07-12 ergänzt, ecobau.ch) — absolute
+  kg-CO₂-eq/m²·a-Werte weiterhin nicht aus EnDK-Primärquelle belegt.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
