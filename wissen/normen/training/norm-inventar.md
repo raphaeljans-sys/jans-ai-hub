@@ -93,7 +93,7 @@
 | [ ] | P2 | `382 1-2014.pdf` | 382 | 2014 |  |
 | [ ] | P2 | `384.201_2003_d.pdf` | 384 | 2003 | — ersetzt durch 2017 |
 | [ ] | P2 | `384.201_2017.pdf` | 384 | 2017 | gilt (jüngste im Bestand) |
-| [ ] | P2 | `400_2000_d.pdf` | 400 | 2000 |  |
+| [x] 260712 | P2 | `400_2000_d.pdf` | 400 | 2000 | destilliert (sia-400-2000.md), Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [ ] | P2 | `405_1998_d.pdf` | 405 | 1998 |  |
 | [ ] | P2 | `414_1980_d.pdf` | 414 | 1980 |  |
 | [ ] | P2 | `421_2006_d.pdf` | 421 | 2006 |  |

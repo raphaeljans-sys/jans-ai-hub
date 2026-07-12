@@ -17,6 +17,9 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-105-2020.md` | SIA 105 Leistungen + Honorare Landschaftsarchitekten | 2020 | established (verifiziert 260712) |
 | `sia-111-2014.md` | SIA 111 Modell Planung und Beratung | 2014 | established (verifiziert 260712) |
 | `sia-112-2014.md` | SIA 112 Modell Bauplanung | 2014 | established (verifiziert 260712) |
+| `sia-142-2009.md` | SIA 142 Ordnung Architektur-/Ingenieurwettbewerbe | 2009 | destilliert (Original vollständig gelesen 260712) |
+| `sia-143-2009.md` | SIA 143 Ordnung Architektur-/Ingenieurstudienaufträge | 2009 | destilliert (Original vollständig gelesen 260712) |
+| `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | destilliert (Textlayer vollständig gelesen 260712) |
 | `sia-416-2003.md` | SIA 416 Flächen und Volumen von Gebäuden | 2003 | established (verifiziert 260712) |
 | `sia-451-1992.md` | SIA 451 Datenformate für Leistungsverzeichnisse | 1992 | established (verifiziert 260712) |
 | `vkf-brandschutznorm-2015.md` | VKF 1-15 Brandschutznorm | 2015 | established (verifiziert 260712) |

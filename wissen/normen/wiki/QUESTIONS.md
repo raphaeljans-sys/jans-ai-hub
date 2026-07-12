@@ -46,3 +46,8 @@
 - [ ] Grosse/scanlastige VSS-Dateien (640 065/281/291a/578, je 8-20 MB) wurden aus
   Kostengründen in diesem Lauf zurückgestellt — Familie VSS ist damit noch nicht komplett
   (4 von 11 PDF-Normen destilliert).
+- [ ] Merkblatt SIA 2014 «CAD-Layerorganisation» (der Layerkatalog, auf den SIA 400:2000 Ziff.
+  B.11.3 zwingend verweist: Agent A–/B–/S– + Elementcode + Präsentationscode E/T/D) ist NICHT im
+  Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
+  bei konkreter Layer-Benennung SIA 2014 beiziehen (SIA-Shop, nur auf Zuruf). (Notiert 12.07.2026
+  beim Destillieren von SIA 400.)
