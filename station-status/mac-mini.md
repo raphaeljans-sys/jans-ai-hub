@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 16:05:18
+Stand: 12.07.2026 16:25:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:05)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.07.2026 16:05:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 84698f6a nas-selfcommit: 12 Datei(en) 2026-07-12 16:00
+- 8a800d98 normen-training-nacht Run 2 (MacBook Pro): 10 P1-Destillate SIA/VKF, adversarial verifiziert
