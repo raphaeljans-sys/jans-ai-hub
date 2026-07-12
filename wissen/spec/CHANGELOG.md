@@ -1,5 +1,23 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-12 — Trainingslauf 7
+- Output `outputs/2026-07-12_training-run7.md`. **Eine neue reale Spec** ausgewertet:
+  Wettbewerbs-Layer (12.07., greenfield-System, aktiv). Beleg verifiziert (KB `wissen/wettbewerbs-dna`
+  + Skill `wettbewerb` existieren real).
+- **F3-Tabelle (verifier.md) um die Domaene «Wettbewerb/Design/Studie» erweitert** → schliesst die
+  in Lauf 6 geflaggte «Studie/Design»-Luecke: autoritativ = die **Jury** (Jury-Urteil); Signal =
+  Refuter liest Jurybericht gegen Dossier + SIA-416-Rueckrechnung + `programm-pruefer`. Neue Lektion:
+  **Format-Vorlage ist der 2.-Platz-Jurybericht** (diagnostiziert das Delta zum 1. Platz, prueffaehiger
+  als ein Sieg-Bericht). «Autoritative Instanz muss keine Behoerde sein» haelt jetzt ueber drei Domaenen
+  (Behoerde · abnehmende Bauleitung · Jury).
+- **F2 geschaerft (anwendung-jans.md Schritt 2):** reifste Form des «beweglich markieren» ist eine
+  **Status-Spalte je Schluesselentscheid** (bestaetigt/vorgeschlagen/offen/umgesetzt); der Plan baut nur
+  auf Bestaetigtem, ein offener Entscheid gatet seine eigene Etappe → sauberer teil-bestaetigter Anlauf.
+- Metadaten `verifier.md` + `anwendung-jans.md` bleiben 07-12 (gleicher Tag wie Lauf 6, inhaltlich ergaenzt).
+  Rule `spec-methode.md` unveraendert (Gate ueber 6 belegte Faelle korrekt, kein Ueberdehnungs-Beleg).
+  Quellen-Schuld: keine (F4/F5 eingeloest).
+- Offen: F1-Ueberdehnungs-Gegentest (mittelgrosser Fall) fehlt weiter; F3 offen nur noch Marketing/Text.
+
 ## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Querbezug anwendung-jans <-> KB twin
 - [link] [[anwendung-jans]] Abgrenzungs-Abschnitt -> KB `twin` (arbeitsweise/denken) als belegte Verhaltensevidenz, dass Raphaels Arbeitsweise dem Spec-Denken folgt. Gegenrichtung zum twin-Backlink.
 

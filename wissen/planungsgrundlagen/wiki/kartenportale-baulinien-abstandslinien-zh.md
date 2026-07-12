@@ -1,13 +1,15 @@
 ---
 title: Baulinien & Abstandslinien Kt. ZH — login-frei als Vektor (OEREB-Layer via OGD-WFS)
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-13
 sources:
   - maps.zh.ch/wfs/OGDZHWFS GetCapabilities + GetFeature (GeoJSON, EPSG:2056) — Stand 06/2026
   - OEREB-Kataster vereinfachtes Datenmodell ZH, Datensaetze 0150/0152/0153/0158/0185
   - Benchmark Connector geo-zh.mjs --produkt baulinien, Langnau a.A. Kat. 3338 + Seuzach Kat. 2304, 2026-06-24
   - api3.geo.admin.ch/rest/.../identify returnGeometry=true (Parzellenpolygon Esri-rings, EPSG:2056) — Stand 07/2026
   - Senkrechter-Abstand-Messung (K5-Rest) validiert 2026-07-08, Zweitmethoden-Gegenrechnung Seuzach 29.8 m
+  - proj-Layer-Namensschema per GetCapabilities verifiziert + Live-Benchmark Hardackerstrasse 2 Kloten
+    (Kat. 3061, EGRID CH670577750811) validiert 2026-07-13 (Training Run 19)
 links: [[kartenportale-zonenplan-zh]] [[kartenportale-bund-geodaten]] [[kartenportale-oereb-egrid-bezug]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]
 ---
 
@@ -34,10 +36,19 @@ Vektor** — ueber denselben **ZH-OGD-WFS** `maps.zh.ch/wfs/OGDZHWFS`, der schon
 | **0150** | `ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_l` | Statische **Waldgrenze** (150.1) | Linie |
 | **0185** | `ms:ogd-0185_arv_basis_gewaesserraum_f` | **Gewaesserraum**-Flaeche (185.1) | Flaeche |
 
-Jeder Layer hat ein **`..._proj_l/_f`** (projektiert/in Revision; bei Gewaesserabstand heisst der
-proj-Layer abweichend `ms:ogd-0153_giszhpub_…_proj_l`, beim Bauliniendienst
-`ms:ogd-0158_…_baulinie_proj_l`). Fuer den Vorher/Nachher-Vergleich beide abfragen — analog zur
-Grundnutzung.
+Jeder Layer hat ein **`..._proj`**-Pendant (projektiert/in Revision) — **kein einheitliches
+Namensschema** (per GetCapabilities verifiziert 2026-07-13, Falle beim Nachpflegen):
+
+| Basis-Layer | proj-Layer (TYPENAMES) | Abweichung |
+|---|---|---|
+| 0158 baulinie | `ms:ogd-0158_arv_basis_abstandslinie_baulinie_proj_l` | regulaer |
+| 0152 wald | `ms:ogd-0152_arv_basis_abstandslinie_wald_proj_l` | regulaer |
+| 0153 gewaesser | `ms:ogd-0153_giszhpub_abstandslinie_gewaesser_proj_l` | **Namensraum** `giszhpub` statt `arv_basis` |
+| 0150 waldgrenze | `ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_prj_l` | **`_prj_l`** statt `_proj_l` |
+| 0185 gewaesserraum | `ms:ogd-0185_arv_basis_gewaesserraum_proj_f` | regulaer |
+
+Fuer den Vorher/Nachher-Vergleich beide (rechtskraeftig + proj) abfragen — analog zur Grundnutzung
+(A6). **Seit 2026-07-13 im Connector implementiert und getestet** (→ Abschnitt unten).
 
 ## Punktabfrage — wichtiger Unterschied zur Grundnutzung: groesserer Radius
 
@@ -102,6 +113,34 @@ Ausgabe:
 Verifikation: unabhaengige Zweitmethode (Vertex-zu-Segment beidseitig) an Seuzach Kat. 2304 →
 **29.8 m = 29.8 m** (deckungsgleich mit dem Connector).
 
+## Laufende Revision erkennen (K5-Rest, seit 2026-07-13, Run 19)
+
+Analog zur BZO-Revisionserkennung bei der Grundnutzung (A6) fragt der Connector jetzt bei
+`--produkt baulinien` **zusaetzlich die fuenf proj-Layer** im selben Fenster (±`half` m) ab. Findet
+sich dort ein Treffer, meldet die Log-Zeile **`⚠ LAUFENDE REVISION`** mit Anzahl je Kategorie —
+damit weiss man VOR der Abgabe, ob eine Baulinie/ein Waldabstand/Gewaesserraum in der Naehe gerade
+geaendert wird, statt es erst beim naechsten OEREB-Bezug zu bemerken.
+
+**Live-Benchmark (kantonsweite Probe ohne bekannte Zielparzelle, dann per GWR-`identify`
+reverse-geokodiert):**
+
+| Parzelle | rechtskraeftig (±150 m) | proj-Treffer | Lesart |
+|---|---|---|---|
+| **Kloten**, Hardackerstrasse 2, Kat. 3061 (BFS 62, EGRID CH670577750811) | 10 Baulinie (naechste **0 m**), 5 Waldabstand, 7 Waldgrenze | **4 baulinie** (`laufendeAenderung.Rechtsmittelverfahren`, Projekt 62-AL-1, Aufhebung + Neu gemischt) | Grenzfall: rechtskraeftige Baulinie liegt **auf** der Parzelle, UND die Linienfuehrung selbst ist in Aenderung — beide Zustaende pruefen |
+| Wila/Boppelsen (Wald, `laufendeAenderung.Festsetzung`), Winterthur (Waldgrenze, `oeffentliche_Auflage`), Niederglatt (Gewaesser, `Aufhebung.oeffentliche_Auflage`), Bachs (Gewaesserraum, `oeffentliche_Auflage` OHNE Vorwirkung) | — | je 1 Fund (Existenznachweis) | belegt: **alle fuenf** proj-Layer fuehren aktuell echte Faelle, nicht nur baulinie |
+
+Ausgabe je proj-Treffer: `typ`, `rechtsstatus`, `projektzustand`, `gemeinde`, `auflage` (Datum),
+`dokument` (OEREB-Link) + `dist_m` (falls Parzellenpolygon vorhanden). Aggregiert: `proj_treffer`
+(Gesamtzahl) und `revision_laeuft` (bool) im JSON unter `produkte.baulinien.proj`.
+
+> **Merksatz:** anders als bei der Grundnutzung (wo es meist EIN klares proj-Ergebnis je Parzelle
+> gibt) koennen bei Abstandslinien **mehrere Zustaende gleichzeitig** auftreten (z.B. `Aufhebung`
+> UND `Neu` im selben Projekt, wie in Kloten) — die Rohliste zeigen, nicht auf einen Status
+> verdichten.
+
+Regression gegen die bestehenden Benchmarks (Langnau 7 Baulinie + 1 Waldgrenze, Seuzach 10
+Baulinie/29.8 m) unveraendert gruen — keine proj-Treffer dort, korrekt kein Revisions-Flag.
+
 ## Benchmarks (Abstand gemessen, validiert 2026-07-08)
 
 | Parzelle | ±150-m-Treffer | naechster Abstand (`dist_m`) | Lesart |
@@ -126,4 +165,7 @@ erwartungsgemaess 0 Treffer.
   die **kommunale** Verkehrsbaulinie. Bei Projekten an Kantonsstrassen zusaetzlich pruefen.
 - **`COUNT=10`** je Layer: an sehr linienreichen Parzellen kann die Liste abgeschnitten sein; die
   *naechste* Linie ist zwar meist enthalten, aber fuer Vollstaendigkeit ggf. Count/Radius pruefen.
-- proj-Layer der Abstandslinien noch nicht an realem Revisionsfall validiert (analog A6 Grundnutzung).
+  Gilt jetzt **auch fuer die proj-Layer** (eigenes `COUNT=10`-Fenster je Layer).
+- ✓ **proj-Layer der Abstandslinien seit 2026-07-13 validiert** (Run 19, Live-Benchmark Kloten) —
+  offen bleibt nur, `dist_m` bei proj-Treffern konsequent gegen die Parzellengrenze zu pruefen
+  (aktuell wird die Distanz mitgerechnet, aber im Log noch nicht je proj-Treffer ausgegeben).

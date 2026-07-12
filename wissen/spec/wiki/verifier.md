@@ -82,12 +82,21 @@ Waechst mit jeder realen Spec-Anwendung. Muster: **autoritative Instanz** (binde
 | Buchhaltung / Steuern | Treuhand (Pruefstunde) · Steuerbehoerde ZH | bexio `--abgleich` (Bank↔Buchung) · UBS-Feed · SVA-/CSS-/UBS-Bescheinigungen | GA2024 + Beilageverzeichnis 2024 | Buchhaltungssystem 2026-07-02 |
 | Baurecht / Norm / Fachwissen | die **Norm-Originalquelle** (SIA/VKF-Ziffer im Original-PDF) · **Gueltigkeitsregister** (`ersetzte_normen.pdf` + Gesamtverzeichnis) | `wissenscheck` (unbelegte Claims / veraltete Artikel) · Fundstellen-Stichprobe Destillat↔Original | Register-/Destillat-Schema der KB | Normen-Harness 2026-07-11 |
 | Ausschreibung / Submission (Uebergabe) | **abnehmende Bauleitung** («Null Rueckfragen» = bestandenes Abnahmekriterium) | internes **Konsistenz-Gate** (Baustein 13: Plan↔LV widerspruchsfrei) · `korrektur`+`twin` · Identifikatoren gegen Projektordner (`identifikatoren-verifizieren`) | Goldstandard 2620 Albertstrasse | Submission 2414 Thalwil 2026-07-11 |
+| Wettbewerb / Design / Studie | die **Jury** (Jury-Urteil / Jurybericht = bindende Wertung) | Refuter-Agent liest **Jurybericht gegen Dossier** · SIA-416-Rueckrechnung Zahlen↔Original-Excel · `programm-pruefer`-Konformitaets-Schleife (gruen) · `korrektur`+`twin` | **Jurybericht eines 2. Platzes** (Muttenz/Schoental) — nennt das Delta zum 1. Platz | Wettbewerbs-Layer 2026-07-12 |
 | Text / Dokument / Mail | — (kein amtl. Abnehmer) | — | Goldstandard-Dokument | quer (jede Spec) |
 
 Lektion aus dem Buchhaltungs-Fall: das externe Connector-Signal (`bexio --abgleich`) ist hier
 stark, weil es zwei unabhaengige Realitaeten kreuzt (Bankeingang vs. Buchung) — trotzdem bleibt
 die **Treuhand-Pruefstunde vor Einreichung** die bindende Instanz, analog zur Rangordnung oben.
 Kennzahlen nie schaetzen: jede Summe gegen bexio + UBS-Feed belegt (Rule `identifikatoren-verifizieren`).
+
+Lektion aus dem Wettbewerbs-Fall (2026-07-12): die schaerfste **Format-Vorlage** ist hier nicht der
+gewonnene Wettbewerb, sondern ein **2. Platz** — der Jurybericht eines knapp Unterlegenen benennt das
+konkrete **Delta zum 1. Platz** (was fehlte). Ein Sieg-Bericht lobt, ein 2.-Platz-Bericht diagnostiziert;
+letzterer ist als Goldstandard prueffaehiger. Erweitert die Verifier-Rangordnung um eine Design-Domaene,
+in der die bindende Instanz kein amtlicher Abnehmer, sondern das **Jury-Urteil** ist (analog zum
+«abnehmenden Menschen» beim Submission-Fall) — die Musterlektion «autoritative Instanz muss keine
+Behoerde sein» haelt damit ueber drei Domaenen (Behoerde · abnehmende Bauleitung · Jury).
 
 ## Verifier-Zustand «Warten auf die autoritative Instanz»
 Wenn eine autoritative Instanz das Abnahmekriterium haelt (Behoerde/Notar/Bank/Treuhand), ist ihr

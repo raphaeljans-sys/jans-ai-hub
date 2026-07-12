@@ -30,6 +30,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     bewusst NICHT weiterbaut — das ist **kein** Gate-Fehltreffer, sondern die Spec, die *vor* dem Bau
     das Nicht-Bauen entscheidet (Argument, dass das Gate auch bei spaeterem «doch nicht» nuetzt).
     Mittelgrosser Ueberdehnungs-Gegentest fehlt weiter.
+  - Stand 2026-07-12 (Lauf 7): **sechste reale Spec** (Wettbewerbs-Layer 12.07.) — wieder hoch-einsatzig
+    (Reputation, ganze Produktionskette) + mehr-Scope, Gate korrekt+nuetzlich. Weiterhin **kein**
+    Ueberdehnungs-Beleg. Neu ist ein Datenpunkt fuer **teil-bestaetigten Anlauf** (F2): die Spec baut nur
+    auf bestaetigten Entscheiden (E1/E2/E6), waehrend E3–E5 «offen, vor Bau bestaetigen» bleiben und je
+    eine spaetere Etappe gaten — das Gate erlaubt sauberes Starten, ohne alle Entscheide vorab zu erzwingen.
   - Stand 2026-07-09: **19 Tage** lebende Spec (21.06.–09.07.), Phase B haelt an (Eintraege 07./08./
     09.07. alle «NICHTS NEUES»). Kein neues Korrektur-Delta, aber ein Praezisierungs-Datenpunkt fuer
     die Monitor-Kadenz (→ F2): der Steady-State-Monitor hat ~10 Tage eine **selbst-blockierte
@@ -69,6 +74,10 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     Interview-Konsequenz: bei mehrteiligen Vorhaben von Anfang an damit rechnen, dass ein frueh
     bestaetigter Entscheid im gleichen Lauf noch faellt; die Korrektur landet im Schluesselentscheide-
     Abschnitt + traegt sich in die **Abgrenzung** (die beim Scope-Schwenk am staerksten waechst). → [[anwendung-jans]] Schritt 2.
+  - Praezisierung 12.07. (Lauf 7, Status-Spalte): die reifste Auspraegung des «beweglich markieren» ist
+    eine **Status-Spalte je Schluesselentscheid** (bestaetigt / vorgeschlagen / offen / umgesetzt) direkt
+    in der Entscheide-Tabelle statt eines separaten «Annahmen»-Abschnitts (Wettbewerbs-Layer 12.07.). Ein
+    offener Entscheid gatet seine eigene Etappe → teil-bestaetigter, ungefaehrlicher Anlauf. → [[anwendung-jans]] Schritt 2.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
@@ -88,6 +97,14 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     + Identifikatoren gegen Projektordner. Muster-Erkenntnis: die autoritative Instanz muss keine
     *Behoerde* sein — auch der **abnehmende menschliche Empfaenger** (externe Bauleitung) ist eine
     gueltige bindende Instanz, und «Null Rueckfragen» ist ihr messbares Abnahmekriterium. → [[verifier]] Tabelle.
+  - Fuenfter Eintrag (2026-07-12, Lauf 7), schliesst die geflaggte «Studie/Design»-Luecke:
+    **Wettbewerb/Design/Studie** (Wettbewerbs-Layer 12.07.) — autoritativ = die **Jury** (Jury-Urteil/
+    Jurybericht = bindende Wertung, wieder keine Behoerde); externes Signal = Refuter-Agent liest
+    **Jurybericht gegen Dossier** + SIA-416-Rueckrechnung gegen Original-Excel + `programm-pruefer`-
+    Konformitaets-Schleife. Format-Vorlage = **Jurybericht eines 2. Platzes** (nennt das Delta zum 1. Platz,
+    prueffaehiger als ein Sieg-Bericht). Die Musterlektion «autoritative Instanz muss keine Behoerde sein»
+    haelt jetzt ueber drei Domaenen (Behoerde · abnehmende Bauleitung · Jury). → [[verifier]] Tabelle.
+    Offen bleibt in F3 nur noch **Marketing/Text** als eigene belegte Zeile.
 
 ## Belege / Quellen
 - F4: Originalquellen verlinken/ablegen — Karpathys "LLM Knowledge Bases"-Post und Boris

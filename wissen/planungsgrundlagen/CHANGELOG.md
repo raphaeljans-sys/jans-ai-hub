@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 19 (Kartenportale + Brandschutz, Token-Vollgas 2 Domaenen): proj-Baulinien-Revisionserkennung im Connector + Brandschutzabstaende/Tragwerk-Tabellen/Treppen mit realen JANS-Benchmarks
+- **Kartenportale (Connector-Schritt):** `geo-zh.mjs --produkt baulinien` fragt jetzt zusaetzlich
+  die **5 proj-Layer** der Abstandslinien ab (0150/0152/0153/0158/0185) und meldet
+  `⚠ LAUFENDE REVISION`. Namensschema-Fallen per GetCapabilities verifiziert und dokumentiert:
+  0150 Waldgrenze heisst `_prj_l` (nicht `_proj_l`), 0153 Gewaesser wechselt den Namensraum auf
+  `giszhpub`. Live-Test bestanden: Hardackerstrasse 2, Kloten (EGRID CH670577750811) → 4 proj-
+  baulinie-Treffer (Rechtsmittelverfahren) neben 10 rechtskraeftigen (naechste 0 m); Regression an
+  Langnau/Seuzach unveraendert gruen. Weitere Kantons-Belegfaelle: Wila/Boppelsen (Wald), Winterthur
+  (Waldgrenze), Niederglatt (Gewaesser), Bachs (Gewaesserraum) → [[kartenportale-baulinien-abstandslinien-zh]].
+- **Brandschutz (kein Connector, PL-03-Realfaelle erschlossen):** der einzig offene PL-03-Punkt
+  (BSV 2026) ist bis 08/2026 blockiert; stattdessen die `_Projekte Themen/`-Ordner ausgewertet und
+  drei neue, belegte Abschnitte in [[brandschutz-pl03-wegweiser]] ergaenzt (§4b):
+  - **Brandschutzabstaende zwischen Gebaeuden** (BSR 15-15de Ziff. 2.1-2.4): Regel 5/7.5/10 m,
+    reduziert 4/5/6 m, Sonderfaelle Nebenbauten/Fahrnisbauten/Areal-Ueberbauung; real angewandt
+    Benchmark **Regensdorf** (EFP-AG-Anfrage 16.02.2024 + JANS-Antwort).
+  - **Tragwerk-/Brandabschnitts-Feuerwiderstand nach Gebaeudehoehe × Nutzung** (Tab. 1-3): R30/60/
+    90/120-Matrix; **Healthcare-Kernbefund** — Beherbergung [a] (Krankenhaus/Pflegeheim) durchgaengig
+    R 60 auch bei geringer Hoehe, eine Stufe strenger als Wohnen/Buero; real angewandt Benchmark
+    **Thalwil Bohlweg 3** (Factsheet 05.03.2025: EFH k.A. vs. MFH-Sonderbauvorschrift R 60).
+  - **Treppen innerhalb Nutzungseinheit** (BSR 16-15): keine Anforderung (Z.3.2.2 A3) vs.
+    Fluchtweg-Treppenbreiten 1.2/1.5/0.9 m + 900 m²-Schwelle Brandschutzabschluss-Verzicht.
+  - **BSV-2026-Refresh:** Stand vom 30.06.2026 unveraendert bestaetigt (pol. Vernehmlassung 08/2026,
+    Inkrafttreten Herbst 2027); NEU erfasst Pyroverbot in oeff. Raeumen per 01.04.2026.
+- **Register:** curriculum (K5-Anmerkung + NEU B6/B7/B8), QUESTIONS (K5-Ergaenzung + NEU C7/C8/C9),
+  INDEX (beide Artikel-Zeilen), raw/_INGESTED (6 Zeilen), Frontmatter beider Artikel.
+- **Naechster Lauf (Run 20):** Rotation → Kartenportale/Energie; Rest `dist_m` bei proj-Treffern im
+  Log, K6/A5 ObjektwesenZH formal abschliessen, Energie D5/D6-Rest. BSV 2026 nicht vor 08/2026
+  erneut pruefen (ausser neue Meldung).
+
 ## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Doppelspur Wald/Gewaesser entschaerft, Backlink zu baurecht
 - [link] [[recht-norm-abstandsvorschriften-wald-gewaesser]] -> KB baurecht als fuehrende Rechtsquelle: Fachartikel `abstaende-und-hoehen` (Bemessung/§) + `baulinien-und-abstandslinien` (Rechtswirkung §§ 96/99-101). Dieser Artikel bleibt Geodatum-/Beschaffungs-Wegweiser; bei Abweichung gilt baurecht. Loest die Doppelspur (Rechtsmasse zweimal gepflegt) im Sinne des dispensrecht-Vorbilds.
 - [befund] Die planungsgrundlagen-Fassung des Gewaesserraums (established, 07-12) war die KORREKTE — die baurecht-Fassung wurde daran korrigiert (siehe baurecht-CHANGELOG). Kein Fehler in planungsgrundlagen.

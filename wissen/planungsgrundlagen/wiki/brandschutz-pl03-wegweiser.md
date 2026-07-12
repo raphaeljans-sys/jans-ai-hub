@@ -1,8 +1,8 @@
 ---
-title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS)
+title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
-last_updated: 2026-06-30
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30)]
+last_updated: 2026-07-13
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024) und «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]]
 ---
 
@@ -64,6 +64,14 @@ Ansatz, seit 2018 in Arbeit) ist **doppelt gebremst** und verschiebt sich von 20
 2015-PDFs noch zitiert ist). ⚠ Naechster Check bei Start politische Vernehmlassung (08/2026) bzw.
 Publikation neuer Terminplan. Quellen: bsvonline.ch «Information BSV 2026», VKG-MM «Marschhalt bei
 Liberalisierungsbestrebungen» 06.01.2026 (Stand 2026-06-30).
+
+**Refresh 2026-07-13 (Run 19):** Stand unveraendert bestaetigt — politische Vernehmlassung startet
+gemaess bsvonline.ch weiterhin **08/2026**, Genehmigung IOTH-Plenum 03/2027, Inkrafttreten **Herbst
+2027**. Als **separate Sofortmassnahme** (nicht Teil der BSV-2026-Revision, aber gleicher Ausloeser
+Crans-Montana) hat das IOTH per **01.04.2026** ein **schweizweites Pyroverbot in oeffentlich
+zugaenglichen Raeumen** eingefuehrt (bsvonline.ch «Revision BSV – Sofortmassnahme und weiteres
+Vorgehen») — bei Veranstaltungsflaechen/Versammlungsraeumen-Projekten (Beherbergung [b]/grosse
+Personenbelegung) als aktuelle Betriebsvorschrift vermerken.
 
 ### Online-Werkzeuge (belegt aus den `_LINK`-Dateien)
 - **bsvonline.ch** — zentrale VKF-Plattform: Norm + alle BSR der Ausgabe 2015 (`/de/
@@ -180,6 +188,104 @@ stand, W3xx-Wandaufbauten, DoP-Pruefung, Ertuechtigung Bestand → Skill `brands
 
 ---
 
+## 4b · Brandschutzabstaende zwischen Gebaeuden (Run 19, 2026-07-13)
+
+Quelle: **VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte»** (Stand 01.01.2015,
+Revisionsstand 2017 identisch in der Sache). Beantwortet die haeufige fruehe Planungsfrage «wie
+weit muss mein Neubau vom Nachbargebaeude weg» — eine reine **Planungsgrundlage**, kein Fachdetail,
+daher hier statt im Skill `brandschutz`.
+
+**Messweise:** Abstand zwischen den **Fassaden**; kragen Dachvorspruenge/Bauteile > 1 m aus,
+vergroessert sich der Abstand um das ueberschiessende Mass (Ziff. 2.1).
+
+**Regel-Abstaende (Ziff. 2.2 Abs. 2), je nach aeusserster Schicht der Aussenwandkonstruktion:**
+
+| Aussenwaende | Abstand |
+|---|---|
+| beide RF1 (nicht brennbar) | **5 m** |
+| eine Seite brennbare aeusserste Schicht | **7.5 m** |
+| beide Seiten brennbare aeusserste Schicht | **10 m** |
+
+**Reduzierte Abstaende (Ziff. 2.2 Abs. 3)** — zulaessig zwischen Einfamilienhaeusern, zwischen
+Gebaeuden **geringer Hoehe** (bis 11 m Gesamthoehe) und zwischen Gebaeuden **mittlerer Hoehe**
+(11–30 m), sofern die Aussenwaende (ausser oeffenbare Fenster/Tueren) mind. **30 Min. Feuer-
+widerstand** aufweisen:
+
+| Aussenwaende | reduzierter Abstand |
+|---|---|
+| beide RF1 | **4 m** |
+| eine Seite brennbar | **5 m** |
+| beide Seiten brennbar | **6 m** |
+
+Brennbare Anteile/vorspringende Teile (Balkone, Dachvorspruenge, Wintergaerten) sind entsprechend
+zu beruecksichtigen; **Dachuntersichten ausgenommen** (Ziff. 2.2 Abs. 4).
+
+**Sonderfaelle (Ziff. 2.3):** Nebenbauten sind untereinander/grundstuecksintern abstandsbefreit,
+gegenueber Fremdgrundstuecken gilt **4 m**; mehrere Nebenbauten untereinander befreit bis
+**150 m² Arealflaeche**. Fahrnisbauten ≤ 150 m² sind abstandsbefreit (ausser Lagerung gefaehrlicher
+Stoffe). Buero-/Gewerbe-/Industriebauten (Areal-Ueberbauung, vergleichbare Nutzung/Brandgefahr)
+sind abstandsbefreit bis **3'600 m²** zusammenhaengende Arealflaeche.
+
+**Reale JANS-Anwendung — Benchmark Regensdorf (16.–17.02.2024):** Anfrage der Brandschutzfachstelle
+**EFP AG Regensdorf** (Katrin Panter) an JANS zum «feuerpolizeilichen Mindestabstand»; JANS-Antwort
+zitiert exakt Ziff. 2.1/2.2 der BSR 15-15de (Fassung 01.01.2017) mit den Hoehenband-Praezisierungen
+**geringe Hoehe = bis 11 m / mittlere Hoehe = 11–30 m** — deckt sich mit den Tabellen-Ueberschriften
+unten. Beleg: `PL-03/_Projekte Themen/Brandschutzabstand Regensdorf/`.
+
+### Tragwerk-/Brandabschnitts-Feuerwiderstand nach Gebaeudehoehenkategorie (Ziff. 3.7.1, Tab. 1–3)
+
+Standardloesungen (Abweichungen mit Nachweis nach Art. 11 Brandschutznorm moeglich). Konzept
+**Baulich** = ohne Loeschanlage, **Loeschanlage** = mit Vollschutz-Sprinkler (reduziert Anforderung).
+
+| Nutzung | geringe Hoehe (≤ 11 m), baulich | mittlere Hoehe (≤ 30 m), baulich | Hochhaus (≤ 100 m), baulich |
+|---|---|---|---|
+| Wohnen MFH / Buero / Schule / Verkauf ≤ 1'200 m² / Parking / Gewerbe q ≤ 1'000 MJ/m² | Tragwerk **R 30**, Brandabschnitt-Decke **REI 30** | Tragwerk **R 60**, Decke **REI 60** | Tragwerk **R 90**, Decke **REI 90** |
+| Industrie/Gewerbe q > 1'000 MJ/m² | R 60, REI 60 | R 90, REI 90 | R 120, REI 120 |
+| **Beherbergung [a]** (Krankenhaeuser, Alters-/Pflegeheime) | **R 60**, REI 60, EI 60 | **R 60**, REI 60, EI 60 | R 90, REI 90, EI 60 |
+| Beherbergung [b] (Hotels) / abgelegen [c] (Berghuetten) / Raeume grosse Personenbelegung / Verkaufsgeschaefte | R 60, REI 60, EI 30 | R 60, REI 60, EI 30 | R 90, REI 90, EI 60 |
+
+> **JANS-Healthcare-Kernbefund:** Bei **Krankenhaeusern und Alters-/Pflegeheimen (Beherbergung [a])**
+> gilt **durchgaengig R 60 selbst bei geringer Gebaeudehoehe** (die einzige Nutzungskategorie, die
+> in Tabelle 1 keine R 30-Stufe kennt) — der Tragwerks-Feuerwiderstand ist bei Healthcare-Projekten
+> **eine Stufe strenger** als bei vergleichbaren Wohn-/Buerobauten derselben Hoehe. Mit Loeschanlage
+> reduziert auf R 30 (geringe Hoehe) bzw. R 30/60 (mittlere Hoehe) — Sprinkler-Vollschutz ist damit
+> bei Pflegeheim-Neubauten ein reales Tragwerks-Einsparpotenzial, nicht nur ein Personenschutz-Add-on.
+
+**Ausnahmen ohne Tragwerksanforderung (Ziff. 3.2.3/3.7.2/3.7.3):** eingeschossige Bauten, oberstes
+Geschoss mehrgeschossiger Bauten (geringe/mittlere Hoehe), Gebaeude mit geringen Abmessungen,
+**Einfamilienhaeuser** (inkl. Untergeschosse + Einliegerwohnung) — dort **keine** Anforderung an
+Tragwerk/Waende/Decken.
+
+**Reale JANS-Anwendung — Benchmark Thalwil Bohlweg 3 (Factsheet 05.03.2025, Aufstockung EFH mit
+Einliegerwohnung):** JANS stellt zwei Varianten einander gegenueber, um die bindende Tragwerks-
+anforderung VOR dem Vorprojekt zu klaeren:
+- **Baueingabe als Einfamilienhaus:** Gebaeude geringer Hoehe → Tragwerk **k. A.** (keine Anforderung,
+  Ziff. 3.7.3/6.3.2 der Wohnbauten-Arbeitshilfe).
+- **«Konsumierung Sonderbauvorschrift» als Wohnen MFH, Gebaeude mittlerer Hoehe (bis 30 m):**
+  Tragwerk **R 60** — sobald die Aufstockung die EFH-Befreiung verlaesst (z. B. durch Ausnuetzung
+  einer Sonderbauvorschrift fuer mehr Volumen/Geschosse), greift automatisch die haertere MFH-Tabelle.
+- **Lehre fuers Vorprojekt:** die Nutzungs-/Sonderbauvorschriften-Einstufung entscheidet ueber
+  Tragwerks-Mehrkosten **bevor** die Statik geplant wird — ein Fall fuer den fruehen Grundlagen-Check,
+  nicht erst fuer den Brandschutznachweis. Beleg: `PL-03/_Projekte Themen/Tragwerk Brandschutz-
+  anforderung Thalwil Bohlweg3/250305 Factsheet Brandschutzanforderung Tragwerk.pdf`.
+
+### Treppen innerhalb der Nutzungseinheit (Zusatzfund, BSR 16-15 «Flucht- und Rettungswege»)
+
+Reale JANS-Frage («Treppen innerhalb Nutzungseinheit», eigener PL-03-Projektordner) beantwortet aus
+Ziff. 7.4.2 der Wohnbauten-Arbeitshilfe (= BSR 16-15, Z.3.2.2):
+- **An Treppen INNERHALB der Nutzungseinheit werden keine Anforderungen gestellt** (Z.3.2.2, A3) —
+  z. B. eine interne Wohnungstreppe (Duplex/Maisonette) braucht keine Fluchtweg-Mindestbreite.
+- Zum Vergleich die Anforderungen an **Fluchtweg-Treppen** (vertikale Fluchtwege, ausserhalb der
+  Nutzungseinheit): Mindestbreite geradlaeufig **1.2 m** (inkl. Podeste), gewendelt **1.5 m**
+  (innere Auftrittsbreite ≥ 0.15 m, in Gebaeuden geringer Hoehe 1.2 m bei ≥ 0.1 m zulaessig);
+  reduzierbar auf **0.9 m**, wenn die Treppe max. ein Ober- + ein Untergeschoss erschliesst.
+  Vertikale Fluchtwege duerfen nicht geschossweise versetzt sein.
+- Brandschutzabschluss zwischen horizontalem und vertikalem Fluchtweg entfaellt in Bauten geringer/
+  mittlerer Hoehe, wenn die Geschossflaeche je vertikalem Fluchtweg **≤ 900 m²** bleibt und der
+  horizontale Fluchtweg materiell/feuerwiderstandsmaessig dem vertikalen entspricht.
+
+---
+
 ## 5 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -187,7 +293,10 @@ stand, W3xx-Wandaufbauten, DoP-Pruefung, Ertuechtigung Bestand → Skill `brands
   Konformitaetserklaerung, Factsheet/Memo/LV-Beilage (z. B. BKP 271.1/225.4).
 - **Hier (PL-03-Wegweiser) bleiben** bei: «welche VKF-Dokumente gibt es / wo liegt was», «brauche
   ich einen Brandschutznachweis und wann», «was steht inhaltlich drin», «welche QSS gilt / wer
-  muss ihn unterzeichnen», «aktueller Vorschriftenstand (BSV 2015 vs. 2026)».
+  muss ihn unterzeichnen», «aktueller Vorschriftenstand (BSV 2015 vs. 2026)», «wie weit muss mein
+  Neubau vom Nachbargebaeude weg (Brandschutzabstand)», «welcher Tragwerks-Feuerwiderstand gilt fuer
+  meine Gebaeudehoehe/Nutzung (Vorprojekt-Grobcheck)», «braucht meine interne Treppe einen Fluchtweg-
+  Nachweis» (→ §4b).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]].

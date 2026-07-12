@@ -60,6 +60,12 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    und Liberierung 50 %→100 % kippten nach der Bestaetigung; das ganze Belegset wurde als
    Version 260627 neu erstellt). Annahmen, die erfahrungsgemaess wandern (Name, Kapital,
    Termin), im Interview als «noch beweglich» markieren.
+   Die reifste Form davon ist eine **Status-Spalte je Schluesselentscheid** direkt in der
+   Entscheide-Tabelle — statt eines separaten «Annahmen»-Abschnitts (Lektion Wettbewerbs-Layer
+   12.07.: Tabelle mit Status `bestaetigt` / `vorgeschlagen` / `offen` / `umgesetzt`). Der Plan
+   baut dann **nur auf den bestaetigten** Entscheiden; ein noch offener Entscheid **gatet seine
+   eigene Etappe** («vor Bau nochmals bestaetigen» statt jetzt annehmen). So laeuft eine Spec
+   sauber teil-bestaetigt an, ohne auf ungeklaerten Annahmen vorzupreschen.
    Ein Kippen muss nicht «spaet ueber Tage» sein — es kann **gleich in derselben Session**
    passieren, sobald der Scope besser verstanden ist (Lektion Submission 2414 Thalwil 11.07.:
    **Rev. B am selben Tag** — Schluesselentscheid #5 «JANS liefert nur die Devisierungsgrundlagen,

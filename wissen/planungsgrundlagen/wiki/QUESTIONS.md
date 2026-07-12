@@ -127,6 +127,28 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C7 (B6)** Brandschutzabstaende zwischen Gebaeuden als belegte Kernzahlen. ✓ **2026-07-13
+  (Run 19):** VKF-BSR 15-15de Ziff. 2.1-2.4 — Regel-Abstaende 5/7.5/10 m + reduzierte 4/5/6 m
+  (RF1/einseitig/beidseitig brennbar), Sonderfaelle Nebenbauten (4 m, 150 m² Areal-Befreiung),
+  Fahrnisbauten ≤ 150 m² befreit, Buero/Gewerbe/Industrie Areal-Ueberbauung befreit bis 3'600 m²
+  → NEU [[brandschutz-pl03-wegweiser]] §4b. Real angewandt: Benchmark **Regensdorf** (EFP AG
+  Brandschutzfachstelle-Anfrage 16.02.2024 + JANS-Antwort 17.02.2024, Zitat Ziff. 2.1/2.2 wortgleich).
+- [x] **C8 (B7)** Tragwerk-/Brandabschnitts-Feuerwiderstand nach Gebaeudehoehenkategorie × Nutzung
+  (Tabellen 1-3, Ziff. 3.7.1). ✓ **2026-07-13 (Run 19):** R30/60/90/120-Matrix (geringe/mittlere
+  Hoehe/Hochhaus × Wohnen/Buero/Industrie/Beherbergung) belegt, Konzept baulich vs. Loeschanlage.
+  **JANS-Healthcare-Kernbefund:** Beherbergung [a] (Krankenhaus/Alters-Pflegeheim) durchgaengig
+  **R 60 auch bei geringer Hoehe** (einzige Kategorie ohne R30-Stufe) → Tragwerk bei Healthcare
+  eine Stufe strenger als bei Wohnen/Buero gleicher Hoehe; Sprinkler-Vollschutz senkt auf R30/60.
+  Real angewandt: Benchmark **Thalwil Bohlweg 3** (Factsheet 05.03.2025, EFH k.A. vs. «Konsumierung
+  Sonderbauvorschrift» als MFH R 60 — Nutzungseinstufung entscheidet Tragwerks-Mehrkosten VOR der
+  Statik) → [[brandschutz-pl03-wegweiser]] §4b.
+- [x] **C9 (B8)** Treppen innerhalb Nutzungseinheit vs. Fluchtweg-Treppen (BSR 16-15, reale JANS-
+  Frage). ✓ **2026-07-13 (Run 19):** «An Treppen innerhalb der Nutzungseinheit werden keine
+  Anforderungen gestellt» (Z.3.2.2 A3, z. B. interne Duplex-/Maisonette-Treppe); Fluchtweg-Treppen
+  (vertikale Fluchtwege) dagegen Mindestbreite 1.2 m gerade / 1.5 m gewendelt, reduzierbar auf 0.9 m
+  bei max. 1 OG+1 UG; Brandschutzabschluss-Verzicht horizontal↔vertikal bei ≤ 900 m²/Fluchtweg
+  → [[brandschutz-pl03-wegweiser]] §4b.
+
 - [x] **C1** Klaeren, ob ein duenner Verweis-Artikel auf `brandschutz` reicht oder PL-03-
   Spezifika (Brandschutznachweis-Vorlagen) hier referenziert werden sollen. ✓ **2026-06-22 (Run 8):**
   Entscheid = **schlanker Wegweiser** [[brandschutz-pl03-wegweiser]]: Planungsgrundlagen-Ebene

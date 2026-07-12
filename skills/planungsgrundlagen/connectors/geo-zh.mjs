@@ -121,6 +121,20 @@ const BAULINIE_LAYER = {
   waldgrenze:      "ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_l", // statische Waldgrenze (150.1)
   gewaesserraum:   "ms:ogd-0185_arv_basis_gewaesserraum_f",            // Gewaesserraum-Flaeche (185.1)
 };
+// Projektierte/in Revision befindliche Abstandslinien (K5-Rest/Run 19, analog A6 bei zonenplan).
+// Existenz+Namensschema per GetCapabilities verifiziert 2026-07-13 — ACHTUNG, kein einheitliches
+// Muster (Falle beim Nachpflegen): waldgrenze traegt "_prj_l" (nicht "_proj_l"), gewaesser-Linie
+// wechselt sogar den Namensraum "giszhpub" statt "arv_basis". Live-Benchmarks (Kanton-weite Probe,
+// je 1 Fund ausserhalb ±150 m der bisherigen Testparzellen): baulinie Kloten (Rechtsmittelverfahren),
+// wald Wila/Boppelsen (Festsetzung), waldgrenze Winterthur (oeffentliche Auflage), gewaesser
+// Niederglatt (Aufhebung), gewaesserraum Bachs (oeffentliche Auflage) — Bachs bewusst OHNE Vorwirkung.
+const BAULINIE_PROJ_LAYER = {
+  baulinie:      "ms:ogd-0158_arv_basis_abstandslinie_baulinie_proj_l",
+  wald:          "ms:ogd-0152_arv_basis_abstandslinie_wald_proj_l",
+  gewaesser:     "ms:ogd-0153_giszhpub_abstandslinie_gewaesser_proj_l", // Namensraum weicht ab!
+  waldgrenze:    "ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_prj_l", // "_prj_l" statt "_proj_l"!
+  gewaesserraum: "ms:ogd-0185_arv_basis_gewaesserraum_proj_f",
+};
 function ogdWfsUrl(layer, e, n, half = 2) {
   const bbox = `${e - half},${n - half},${e + half},${n + half},urn:ogc:def:crs:EPSG::2056`;
   return `${OGDZH_WFS}?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=${layer}`
@@ -260,6 +274,32 @@ async function fetchBaulinien(e, n, half = 150, parcelRings = null) {
       res[`${key}_dist_min_m`] = ds.length ? Math.min(...ds) : null;
     }
   }
+  // K5-Rest/Run 19: projektierte/in Revision befindliche Abstandslinien im selben Fenster mitpruefen
+  // (analog A6 bei zonenplan) — meldet, ob im Umkreis eine Aenderung laeuft, BEVOR die rechtskraeftige
+  // Linie ueberholt ist. Gleicher Radius wie die rechtskraeftige Abfrage (±half m).
+  const proj = {};
+  for (const [key, layer] of Object.entries(BAULINIE_PROJ_LAYER)) {
+    try {
+      const d = await getJson(ogdWfsUrl(layer, e, n, half));
+      proj[key] = (d.features || []).map((f) => {
+        const p = f.properties || {};
+        const dist = parcelSegs.length ? segsDist(parcelSegs, geomToSegs(f.geometry)) : null;
+        return {
+          typ: p.typ_txt || p.typ || p.gewaesserraumfestlegung_txt || null,
+          rechtsstatus: p.rechtsstatus || p.rechtsstatus_txt || null,
+          projektzustand: p.projektzustand || null,
+          gemeinde: p.gemeindename || null,
+          auflage: p.auflagedatum || null,
+          dokument: p.dokument || null,
+          dist_m: dist == null ? null : Math.round(dist * 10) / 10,
+        };
+      });
+    } catch { proj[key] = []; }
+  }
+  const projTotal = Object.values(proj).reduce((s, a) => s + a.length, 0);
+  res.proj = proj;
+  res.proj_treffer = projTotal;
+  res.revision_laeuft = projTotal > 0;
   return res;
 }
 // bevorzugte Datei-Endung je Produkt (stacAssets-Fallback: .tif, sonst erstes Asset)
@@ -511,6 +551,11 @@ function isoDate() {
                 b.gewaesserraum.length && `${b.gewaesserraum.length} Gewaesserraum${dtxt("gewaesserraum")}`,
               ].filter(Boolean);
               L(`   baulinien (±${half}m${b.gemessen ? ", Abstand gemessen" : ""}): ${teile.length ? teile.join(" · ") : "keine Linien/Abstaende im Fenster"}`);
+              if (b.revision_laeuft) {
+                const projTeile = Object.entries(b.proj).filter(([, v]) => v.length)
+                  .map(([k, v]) => `${v.length} ${k}`).join(" · ");
+                L(`   ⚠ LAUFENDE REVISION im Fenster (±${half}m): ${projTeile}`);
+              }
               if (a.out.length) {
                 const fn = `Baulinien-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
                 for (const dir of a.out) {

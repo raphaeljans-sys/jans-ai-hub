@@ -62,6 +62,18 @@ real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
 
+**Stand Run 18 (2026-07-12):** **Verifikations-Pass Healthcare-Kennwerte — kein neuer Ingest.**
+Erster Lauf im Verifikations-Modus (PFLICHT ab 12.07.). Modell-D-Volltext-Recompute der tragenden
+Healthcare-Neuwert-Kennwerte gegen die Quell-Zahlen: **bestanden** = Herose-Einzelanker (3'848/1'105/
+346'681, exakt), JANS-Wohn-Kennwert-Kette (2'900×1.16=3'365 → /0.75=4'485 → HNF 7'350) und 6 von 8
+Heim-Objekten der 8-Objekt-Tabelle (CHF/m2 GF **und** CHF/m3 GV reproduzieren aus BKP2÷Flaeche).
+**beanstandet** = 2 Roh-Zeilen (Averecura 4'250/1'420 vs. recompute 3'981/1'285; Vella-Zeile BKP2
+24.5 Mio ÷ 7'150 = 3'427 ≠ Tab. 2'835) → **D10** (Original-Blatt-Bereinigung, Bring-Schuld). CHF/PZ
+als 24-m2-normiert bestaetigt. Kernaussage (Neubau-Band ~3'800-4'500 CHF/m2 GF teuerungsbereinigt)
+bleibt established; Rohband praezisiert auf 2'623-3'981. Neue Luecke **D11** (m3-Richtwerte 2003
+aufindexieren — Index-Faktor 2003→2026 fehlt, nicht geraten). Kein Ingest, Marktpuls unveraendert
+seit Run 17. **Ruecktaktung ins Nachtfenster empfohlen** (auto-schliessbarer Rueckstand abgearbeitet).
+
 **Stand Run 17 (2026-07-12):** **Reiner Auffrischungslauf (Marktpuls) — keine neue Quelle, keine
 offene auto-schliessbare Luecke.** Der Bewertungsordner (`01 Projekte/01 BEWERTUNG PROJEKTE`) wurde
 geprueft: **kein neuer JANS-Bewertungsfall** seit Run 6 (juengster Ordner Wangen 8855, 09.06.). Der

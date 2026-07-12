@@ -1,7 +1,7 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
@@ -50,7 +50,8 @@ Technik 275-375. Bezugsgroessen: EFH = 800 m3, MFH = 5'000 m3 (8 Whg., 8 EH-Plae
 Zuschlag Aufzug Fr. 15-20/m3.
 
 ⚠ **Stand 2003** — fuer eine aktuelle Bewertung ueber den Zuercher Index der Wohnbaukosten
-(Tab. 4 der Quelle, Basis 01.06.1939 = 100) bzw. BFS-Baupreisindex **aufindexieren**; fuer
+(Tab. 4 der Quelle, Basis 01.06.1939 = 100) bzw. BFS-Baupreisindex **aufindexieren** (der belegte
+Index-Faktor 2003→2026 fehlt der KB noch, siehe [[wissensluecken]] D11 — bis dahin nicht geraten); fuer
 HNF-basierte Schaetzungen die aktuellen CHF/m2-HNF-Benchmarks (oben, Wuest 2021-2023) nutzen.
 Die m3-Klassen dienen primaer der **Sachwert-Plausibilisierung** und der Einordnung der
 Bauqualitaet (Klasse I-VI).
@@ -406,5 +407,13 @@ Instandsetzungskosten decken koennen.
   — 6-stufiges Spitalumbau-Band 2'000-10'000+ + zwei reale JANS-Faelle (Psychiatrie-Teilumbau
   ~1'100/Zielkorridor 1'800-2'500; Kispi ZH Paediatrie 4'412 CHF/m2 NF). Trennt Umbau (NF) sauber
   vom Neubau (GF).
+- ✓ 2026-07-12 (Run 18, Verifikations-Pass): **Volltext-Recompute der Healthcare-Neuwert-Kennwerte**
+  gegen die Quell-Zahlen — Herose-Anker (3'848/1'105/346'681), JANS-Wohn-Kennwert-Kette (4'485 /
+  HNF 7'350) und 6 von 8 Heim-Objekten **bestanden/reproduzierbar**; Averecura + Vella-Rohzeilen
+  quellenintern inkonsistent (→ [[wissensluecken]] D10), reproduzierbarer Rohband **~2'623-3'981
+  CHF/m2 GF**, teuerungsbereinigt **3'042-4'485** massgebend. Kernaussage (Band ~3'800-4'500) bleibt
+  established.
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).
+- ⚠ m3-Neuwert-Richtwerte Stand 2003 → aufzuindexieren, sobald der Index-Faktor 2003→2026 belegt
+  vorliegt ([[wissensluecken]] D11; nicht geraten).

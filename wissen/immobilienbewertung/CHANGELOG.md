@@ -2,6 +2,32 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Training-Run 18: Verifikations-Pass Healthcare-Kennwerte (Modell D)
+
+- **Erster Lauf im Verifikations-Modus** (PFLICHT-Stufe ab 12.07., Rule auto-verbesserungen 260712).
+  Kein neuer Ingest — der auto-schliessbare Rueckstand ist seit Run 16 abgearbeitet, Run 17 war
+  Marktpuls. Dieser Lauf haertet die meistgenutzten Kennwerte per **Volltext-Recompute** (BKP2 ÷
+  Flaeche/Zimmer gegen die Quell-Zahlen).
+- **Bestanden:** Herose-Einzelanker (BKP2/GF 3'848, /GV 1'105, /Zimmer 346'681 — exakt); JANS-Wohn-
+  Kennwert-Kette (2'900×1.16=3'365 → /0.75=4'485 → HNF 7'350, rundungsgenau); 6 von 8 Heim-Objekten
+  der 8-Objekt-Tabelle (Dankensberg/Trotte/Herose/Lanzeln/Mathysweg/St.Anna, CHF/m2 GF **und** CHF/m3 GV);
+  USZ-BKP-Teilsumme plausibel; CHF/Pflegezimmer als 24-m2-normiert bestaetigt.
+- **Beanstandet:** Averecura (Tab. 4'250/1'420 vs. recompute 3'981/1'285) + Vella-Zeile (BKP2 24.5 Mio ÷
+  7'150 = 3'427 ≠ Tab. 2'835) → quellenintern inkonsistente Roh-Zeilen im Original-Blatt → neue Luecke
+  **D10** (Bring-Schuld Blatt-Bereinigung). Zusaetzlich neue Luecke **D11** (m3-Richtwerte 2003
+  aufindexieren — Index-Faktor 2003→2026 fehlt, nicht geraten).
+- **Verdikt:** tragende Kennwerte bleiben `established`; Neubau-Band **~3'800-4'500 CHF/m2 GF**
+  (teuerungsbereinigt) unveraendert, reproduzierbarer Rohband praezisiert auf **2'623-3'981**.
+- [edit] [[realwert-sachwert]] — `last_updated` 07-10→07-12; m3-2003-Flag → D11 verlinkt; Verifikations-
+  Verdikt in «Offen / zu vertiefen»; die bestehende (dangling) Run-18-Notiz jetzt durch unabhaengigen
+  Recompute belegt + D10-Verweis aufgeloest.
+- [edit] `wiki/wissensluecken.md` — D10 + D11 in Tabelle A; B-Sektion auf Verifikations-Modus; Run-18-
+  Erledigt-Eintrag; Ruecktaktungs-Empfehlung.
+- [edit] `raw/_INGESTED.md`, `training/curriculum.md`, `wiki/INDEX.md` — Run-18-Verifikationsstand.
+- [output] `outputs/2026-07-12_training-run18.md`.
+- **Empfehlung:** Ruecktaktung des Loops ins Nachtfenster (auto-schliessbarer Rueckstand abgearbeitet;
+  naechstes externes Signal ab 01.09.2026). Entscheid Raphael, nicht stillschweigend umgesetzt.
+
 ## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Kennwerte-Bruecke zu grobkosten
 - [link] [[realwert-sachwert]] -> `grobkosten/wiki/kennwerte` als fuehrende m3-GV-Grobkennwerte-DB (Ankerwert ~1'020 CHF/m3 GV Wohnbau ZH). Bezugsbasis-Warnung ergaenzt (Ausbaustandard-Tabelle S.37 vs. Dimensions-Median = verschiedene Wuest-Produkte).
 - [offen] m2->m3-Faktor-Diskrepanz (grobkosten 0.70 vs. hier 0.60-0.61) -> heikler Fachentscheid Raphael (siehe koordination-Report).

@@ -17,14 +17,31 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | D7 | **Kennwerte Buero/Gewerbe duenn** | D | niedrig | nur ZH-Bueromarkt; weitere Nutzungen/Regionen bei Bedarf |
 | ~~D8~~ | ~~**`_Kennwerte Jans.docx` / Healthcare-DOCX**~~ | — | ✓ | **erledigt Run 16 (2026-07-10)**: Pfad TCC-lesbar (wie D4). `_Kennwerte Jans.docx` → aGF/GF-Faktor 0.8/0.9 + Wohn-Erstellungskosten-Kennwert (4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350); 3 Healthcare-DOCX → Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle. In [[flaechendefinitionen-sia]] + [[realwert-sachwert]] |
 | D9 | **Szenarien-Definitionen** | D | niedrig | exakte Kosten-Abstufung der Stufen lowbudget/standard/gehoben/exklusiv |
+| D10 | **Referenzblatt «Kennwerte Altersheime» — 2 Roh-Zeilen nicht reproduzierbar** | D | niedrig | Run 18 (2026-07-12) Volltext-Recompute: **Averecura** (Tab. CHF/m2 GF 4'250 / CHF/m3 GV 1'420, aber 12.34 Mio ÷ 3'100 = **3'981** bzw. ÷ 9'600 = **1'285**) und die **Vella-Zeile** (Tab. 2'835/845 implizieren beide ~20.3 Mio, waehrend BKP 2 = **24.5 Mio** angegeben ist → 24.5/7'150 = **3'427**) sind quellenintern inkonsistent. Kein KB-Fehler — die Zahlen stehen so im JANS-Original-Blatt. Raphael: die beiden Zeilen im Referenzblatt bereinigen (BKP-2-Summe oder Flaeche/Kennwert je Objekt pruefen). Bis dahin gilt der **reproduzierbare Rohband ~2'623-3'981 CHF/m2 GF** bzw. die voll reproduzierbare teuerungsbereinigte Spalte **3'042-4'485** als Ansatz (→ [[realwert-sachwert]]) |
+| D11 | **m3-Neuwert-Richtwerte Stand 2003 aufindexieren** | D/T | niedrig | Die volumenbasierten CHF/m3-Richtwerte (Schaetzungsanleitung Tab. 2, Bauklasse I-VI) stehen auf **Stand 2003** (Zuercher Index der Wohnbaukosten, Basis 01.06.1939 = 100). Zum Aufindexieren auf 2026 fehlt der KB der **belegte Index-Faktor 2003 → 2026** (die BFS-Reihe ist im Hub erst ab Basis Okt-2020 = 100 dokumentiert; der Zuercher Wohnbaukosten-Index 1939er-Basis ist nicht hinterlegt). NICHT geraten (Leitplanke). Zu schliessen, sobald die lange Index-Reihe (BFS Baupreisindex-Verkettung oder Zuercher Baukostenindex-Historie) als Quelle vorliegt. Die m3-Klassen dienen ohnehin primaer der Sachwert-Plausibilisierung; die aktuellen CHF/m2-HNF- und Healthcare-GF-Kennwerte sind belegt und tragen den Ansatz |
 
 ## B. Training-Aufgaben (Claude schliesst sie im Lern-Loop)
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen, T19, **D4** (Excel-Tool-Formeln, Run 15) **und D8** (JANS-Kennwerte-DOCX + Healthcare-Umbaukosten, Run 16) sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle). Verbleibend: **nur D5** (buerospezifische Margen-/Finanzierungspraxis — echte Bring-Schuld Raphael, nicht durch Loop schliessbar); Emilienheim-Flaechenkennwerte **bestaetigt nicht verfuegbar** (nur Tages-Anzeiger-Medienquelle, keine Kennwertblatt). **Marktpuls-Stand Run 17 (2026-07-12): alle Anker unveraendert**, Durchschnittszinssatz 31.03.2026 leicht auf 1.31 % gesunken. Naechste Auffrischung mit neuem Signal: Referenzzins-Publ. **01.09.2026** (Stichtag 30.06.), SREBI Q2-2026 (~09.2026), Baupreisindex Dez-2026 | — | — |
+| — | **Keine offenen T-Aufgaben (Ingest).** Der Wuest-Kurs, alle lesbaren E-Quellen, T19, **D4** (Excel-Tool-Formeln, Run 15) **und D8** (JANS-Kennwerte-DOCX + Healthcare-Umbaukosten, Run 16) sind eingearbeitet; der Loop ist im **Verifikations-/Aktualisierungs-Modus** (Belege gegenpruefen, Marktpuls, neue reale Faelle). **Neu Run 18 (2026-07-12): Verifikations-Pass Healthcare-Kennwerte** — die tragenden Zahlen (Herose-Anker, JANS-Wohn-Kennwert-Kette, 6 von 8 Heim-Objekten) per Volltext-Recompute **bestanden/reproduzierbar**; 2 Roh-Zeilen (Averecura/Vella) inkonsistent → **D10** (Bring-Schuld Blatt-Bereinigung), m3-2003-Indexierung → **D11** (fehlender Index-Faktor). Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (siehe A-Tabelle). Emilienheim-Flaechenkennwerte **bestaetigt nicht verfuegbar**. **Marktpuls-Stand unveraendert seit Run 17.** → **Empfehlung an Raphael: Ruecktaktung ins Nachtfenster** (der auto-schliessbare Rueckstand ist abgearbeitet; siehe Run-18-Report) | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-12 **Verifikations-Pass Healthcare-Kennwerte (Run 18)** — erster Lauf im
+  Verifikations-Modus (PFLICHT-Stufe ab 12.07., Rule auto-verbesserungen 260712). **Modell D
+  (Volltext-Recompute)** aller tragenden Healthcare-Neuwert-Kennwerte gegen die Quell-Zahlen:
+  **BESTANDEN** = Herose-Einzelanker (BKP2/GF 3'848, /GV 1'105, /Zimmer 346'681 — exakt), die
+  JANS-Wohn-Kennwert-Kette (2'900×1.16=3'365 → /0.75=4'485 → HNF 7'350, alle rundungsgenau) und
+  **6 von 8** Heim-Objekten der 8-Objekt-Tabelle (Dankensberg/Trotte/Herose/Lanzeln/Mathysweg/
+  St.Anna reproduzieren CHF/m2 GF **und** CHF/m3 GV aus BKP2÷Flaeche). **BEANSTANDET** = 2 Roh-Zeilen:
+  **Averecura** (Tab. 4'250/1'420, recompute 3'981/1'285) und **Vella** (Tab. 2'835/845, aber BKP2
+  24.5 Mio ÷ 7'150 = 3'427) sind quellenintern inkonsistent → neue Luecke **D10** (Original-Blatt-
+  Bereinigung, Bring-Schuld). **CHF/Pflegezimmer** als auf 24-m2-Standardzimmer normiert bestaetigt
+  (Lanzeln 272'780 ≠ 29.34 Mio/123). Verdikt: Kernaussage (Neubau-Band **~3'800-4'500 CHF/m2 GF**,
+  teuerungsbereinigt) **bleibt established**; reproduzierbarer Rohband praezisiert auf **2'623-3'981**.
+  Neue Luecke **D11** (m3-Richtwerte 2003 aufindexieren — Index-Faktor 2003→2026 fehlt, nicht geraten).
+  Kein neuer Ingest, keine Marktpuls-Aenderung seit Run 17. **Ruecktaktung ins Nachtfenster empfohlen.**
 
 - ✓ 2026-07-12 **Auffrischungslauf Marktpuls (Run 17)** — reiner Aktualisierungslauf, keine neue
   Quelle. Bewertungsordner geprueft: **kein neuer JANS-Fall** seit Run 6. Web-Marktpuls: alle Zins-/

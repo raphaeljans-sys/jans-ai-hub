@@ -57,3 +57,11 @@ Pro Lauf (alle 2 Tage) werden **10 Themen** gezogen: zuerst die naechsten offene
 Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen. Wenn der
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
+
+**Stand Run 18 (2026-07-12):** Ingest-Curriculum vollstaendig abgearbeitet (Wuest-Kurs + E1-E10,
+alle T-Aufgaben, D4/D8). Der Loop ist im **Verifikations-Modus** (PFLICHT ab 12.07.). Run 18 =
+Modell-D-Volltext-Recompute der Healthcare-Neuwert-Kennwerte: tragende Werte reproduzierbar
+(bestanden), 2 Roh-Zeilen des 8-Objekt-Blatts inkonsistent → D10; m3-2003-Indexierung → D11.
+**Ruecktaktung ins Nachtfenster empfohlen** (kein auto-schliessbares Ingest-Material mehr; naechstes
+externes Signal ab 01.09.2026). Naechster Verifikations-Komplex: Ertragswert-/Diskont-Kennwerte
+([[ertragswert-dcf]]) + Residualwert-Excel-Formeln.
