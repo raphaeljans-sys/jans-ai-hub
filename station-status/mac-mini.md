@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 07:12:44
+Stand: 12.07.2026 07:22:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 12.07.2026 07:12:44
 - 2 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- b157a6e2 immobewertung-training Run 17: Auffrischung Marktpuls (Durchschnittszinssatz 1.31%)
+- 897ed77e nas-selfcommit: 2 Datei(en) 2026-07-12 07:15

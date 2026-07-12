@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.07.2026 07:05:20
+Stand: 12.07.2026 07:25:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:59)
@@ -12,4 +12,4 @@ Stand: 12.07.2026 07:05:20
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 9b28c18d sync: twin-mail-training: 2026-02-28 bis 2026-03-04
+- 897ed77e nas-selfcommit: 2 Datei(en) 2026-07-12 07:15
