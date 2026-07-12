@@ -1,11 +1,13 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/16-15_rev2016_flucht_und_rettungswege.pdf"
+quelle_vorgaenger: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Flucht & Rettungswege.pdf"
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2017 (Ausgabe 2015, Aenderungen IOTH 17.09.2015 und 22.09.2016 eingearbeitet)"
-gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14ff nur ueberflogen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, ohne eigene Kennwerte)"
+ersetzt: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2015 (Original-Ausgabe vor den IOTH-Revisionen 2015/2016) — Delta siehe Abschnitt 'Vorgaenger-Ausgabe' unten"
+gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14ff nur ueberflogen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, ohne eigene Kennwerte). Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Ausgabe 2017 abgeglichen (pdftotext-Volltextvergleich)."
 datenstand: "2015, revidiert 2016, in Kraft 01.01.2017"
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
 
@@ -73,6 +75,50 @@ Verkaufsgeschaefte haben ein eigenes, breiteres Verkehrswegesystem (Verkehrsweg 
 - **healthcare-wirtschaftlichkeit / ankaufspruefung**: Ziff. 3.6.1 (Beherbergungsbetriebe [a], Pflege/Alter) direkt relevant fuer Heim-/Klinikprojekte — Brandabschnitts-Aufenthaltskonzept
 - **wettbewerb / flaechen-nachweis**: Ziff. 3.5 (Verkaufsgeschaefte/grosse Personenbelegung) und Personenbelegungs-Logik relevant bei publikumsintensiven Nutzungen im Raumprogramm
 - **auflagebereinigung**: Fluchtweg-Auflagen aus Bauentscheiden lassen sich gegen diese Kernziffern verifizieren
+
+## Vorgänger-Ausgabe VKF-BRL 16-15de:2015 (01.01.2015, Original vor den IOTH-Revisionen)
+
+In der Normen-Bibliothek liegt zusätzlich die ursprüngliche Ausgabe vom 01.01.2015 als eigene Datei
+("Flucht & Rettungswege.pdf", 34 S., Titelblatt ohne Änderungsvermerk). Es handelt sich um dieselbe
+Richtlinie 16-15de vor den beiden IOTH-Revisionen (17.09.2015 und 22.09.2016), die in die oben
+destillierte Ausgabe 01.01.2017 eingeflossen sind. Kein eigenständiges Volldestillat nötig — die
+Struktur und praktisch alle Kernkennwerte (Fluchtweglängen 35/50 m, Türbreite 0.9 m, Treppenbreiten
+1.2/1.5 m, Ausgangs-Staffelung nach Personenbelegung) sind bereits in der 2015-Fassung identisch zur
+2017-Fassung enthalten. Für laufende Altverfahren/Bewilligungen unter altem Recht relevant sind
+folgende inhaltliche Unterschiede zur Ausgabe 2017 (Volltextvergleich):
+
+- **Ziff. 2.4.2 (Anzahl vertikale Fluchtwege)** — 2015-Original: starre Regel, Geschossfläche
+  > 900 m2 verlangt IMMER mindestens zwei vertikale Fluchtwege (Abs. 1); Räume mit > 100 Personen
+  IMMER mindestens zwei vertikale Fluchtwege (Abs. 2), ohne Bezug zu ebenerdigen Fluchtwegen.
+  Die Revision 22.09.2016 (= aktuelle Fassung oben) hat dies gelockert/präzisiert: die 900 m2-Grenze
+  gilt nur für Geschosse OHNE ausreichende ebenerdige Fluchtwege, gestaffelt a) bis 900 m2 → 1
+  vertikaler Fluchtweg genügt, b) über 900 m2 → 2 nötig; ebenso wurde bei der 100-Personen-Regel die
+  Einschränkung "sofern nicht ausreichend ebenerdig ins Freie führende Fluchtwege zur Verfügung
+  stehen" ergänzt. Praxisrelevanz: die 2015-Fassung war in diesem Punkt strenger/undifferenzierter.
+- **Ziff. 2.5.2 Abs. 3 (Aussentreppen, Brandschutzanforderung Aussenwände)** — 2015-Original:
+  Aussenwände im Bereich von Aussentreppen brauchen EI 30 (Verglasungen/Türen E 30) ODER Baustoffe
+  RF1 (inkl. Verglasungen/Türen). Revision 22.09.2016: differenzierter — EI 30 ODER
+  Aussenwandbekleidungssysteme aus RF1 (Verglasungen/Türen aus RF1 ODER mit Feuerwiderstand);
+  Reduktion ab Abstand ≥ 1.2 m zur Fassade in beiden Fassungen gleich.
+- **Ziff. 3.3.3 (Türen Büro/Gewerbe/Industrie)** — 2015-Original: eine einzige Regel (Reduktion auf
+  0.8 m bei max. 20 Personen, Schiebetüren bis 6 Personen), ohne Bezug zum Arbeitsgesetz. Revision
+  17.09.2015: neu zweigeteilt — Abs. 1 verweist für dem Arbeitsgesetz (ArG Art. 5/7/8, ArGV 4)
+  unterstellte Betriebe auf die ArGV-4-Vorgaben; Abs. 2 die bisherige 0.8-m/Schiebetür-Erleichterung
+  gilt nur noch für NICHT der ArGV 4 unterstellte Betriebe. Praxisrelevanz: bei ArGV-4-pflichtigen
+  Gewerbe-/Industriebetrieben ist seit der Revision die Türbreiten-Erleichterung nicht mehr automatisch
+  anwendbar, sondern die ArGV-4-Anforderungen sind massgebend.
+- **Ziff. 3.4.4 Abs. 2 (Kindertagesstätten)** — redaktionelle Präzisierung "Bei Türen" (2015) →
+  "An Türen" (2016), inhaltlich unverändert (weiterhin Verzicht auf Ziff. 2.4.5/2.5.5-Anforderungen
+  innerhalb der Nutzungseinheit).
+- **Ziffernnummerierung/Anhang-Verweise** — durch die neuen Absätze in 2.4.2 und 3.3.3 verschieben
+  sich ab Ziff. 2.4.3 sämtliche nachfolgenden Ziffern der Ausgabe 2015 gegenüber der Ausgabe 2017 NICHT
+  inhaltlich, aber die Seitenzahlen im Inhaltsverzeichnis differieren leicht (2015: 34 S., 2017: 35 S.);
+  im Fliesstext bleibt die Ziffern-Nummerierung selbst zwischen beiden Ausgaben identisch (2.4.1-2.4.7,
+  2.5.1-2.5.5 etc.), nur die eingefügten Zusatzabsätze und ein paar neue "(siehe Anhang)"-Verweise
+  (Ziff. 2.4.2, 2.5.2, 3.3, 3.3.3) sind 2015 noch nicht vorhanden.
+- Alle übrigen Ziffern (2.1-2.3, 2.4.1, 2.4.3-2.4.7 im Kern, 2.5.1, 2.5.3-2.5.5, Ziff. 3.1-3.2, 3.5-3.10)
+  sind zwischen den beiden Ausgaben inhaltlich identisch — die Kernkennwerte im Abschnitt
+  "Zentrale Tabellen/Kennwerte" oben gelten unverändert auch für die Ausgabe 2015.
 
 ## Offene Punkte
 - Anhang (S. 14-22, Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.5.2, 2.5.5, 3.3, 3.3.3, 3.3.4, 3.5.3, 3.6.1) nur angerissen, nicht im Detail gelesen — enthaelt Praezisierungen (z. B. Messweise mit Kreisbogen, 900 m2-Faustregel Buero/Industrie) die bei Bedarf gezielt nachgezogen werden koennen

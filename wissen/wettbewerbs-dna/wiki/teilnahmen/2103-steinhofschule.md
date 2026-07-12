@@ -1,7 +1,7 @@
 ---
 title: 2103 WB Luzern — Schulanlage Steinhof (PATIO IN NOBILE)
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources: [2103-steinhofschule_jurybericht.txt, 2103-steinhofschule_programm.txt, 2103-steinhofschule_erlaeuterungstext.txt]
 links: [[delta-zum-ersten-rang]]
 ---
@@ -121,7 +121,18 @@ links: [[delta-zum-ersten-rang]]
   darüber zwei Schulgeschosse in Holzbauweise.
 - Freiraum (Erläuterungstext, «Freiraum»): gefasster Schulhof mit Spielfeld,
   Baumgruppen mit Sitzbänken und Brunnen als südliche Fassung.
-- Kennzahlen (GF/GV): nicht belegbar — siehe offene Fragen.
+- Energie/Label: **angestrebt Minergie-P-Eco** («Die Anlage wird Minergie-P-Eco
+  zertifiziert, wonach eine Lüftung eingebaut werden muss»); kontrollierte Lüftung mit
+  Wärmerückgewinnung, Fotovoltaik-Anlage ca. 140 m2 auf dem Dach. Fundstelle:
+  `.../2103 WB Luzern Steinhofschule/00 Abgabe/05 Texte/220324_SH_Steinhof.docx` und
+  Plan `.../00 Abgabe/01 Pläne/PATIO_IN_NOBILE_A0.pdf` (Block «Energie & Nachhaltigkeit»).
+  Das Programm liess Minergie-A-ECO oder -P-ECO zu; JANS wählte die P-ECO-Variante.
+- Kennzahlen (SIA 416, aus dem eigenen Mengengerüst für die Kostenermittlung):
+  **GF total 3'736 m2** (beheizt/temperiert 3'443, kalt/unbeheizt 293),
+  Nettogeschossfläche 3'082 m2, Nutzfläche 2'551 m2 (HNF 2'185, NNF 367),
+  **GV total 16'327 m3** (unter Terrain 1'992, über Terrain 14'335), AGF 293 m2;
+  Kennwert HNF/GV 0.63 (eigene Angabe im Konzept Wirtschaftlichkeit). Fundstelle:
+  `.../2103 WB Luzern Steinhofschule/00 Abgabe/02 Formulare/PATIO_IN_NOBILE_p_WW_Steinhof_LU_I_Mengengeru__st_fu__r_Kostenermittlung.pdf`.
 
 ## 4. Jury-Urteil
 
@@ -189,15 +200,7 @@ links: [[delta-zum-ersten-rang]]
 
 ## Offene Fragen
 
-- GF/GV-Kennzahlen des eigenen Beitrags nicht belegt: das Mengengerüst
-  (`PATIO_IN_NOBILE_p_WW_Steinhof_LU_I_Mengengeru__st_fu__r_Kostenermittlung.xlsx`)
-  und die Abgabe-DOCX in
-  `/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2103 WB Luzern Steinhofschule/00 Abgabe/`
-  liessen sich am 12.07.2026 nicht materialisieren (OneDrive/CloudStorage-Blockade,
-  «fcopyfile failed: Operation timed out»); nachtragen, sobald lesbar.
 - Konkrete Gründe der Rückstufung (welche Kriterien den Ausschlag gaben) sind im
   Jurybericht nicht dokumentiert — allenfalls aus dem Vorprüfungsbericht oder der
   Wettbewerbs-Nachbesprechung rekonstruierbar (Ordner `02 Korrespondenz/`,
   `11 Loggbuch/` noch nicht ausgewertet).
-- Angestrebtes Label (Minergie-A-ECO oder Minergie-P-ECO) des eigenen Beitrags
-  nicht aus dem Erläuterungstext ersichtlich; stünde auf den A0-Plänen.

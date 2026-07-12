@@ -1115,3 +1115,27 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   innert **fuenf Jahren seit Eintritt seiner Rechtskraft** nicht der entsprechende Richtplan ergaenzt und ein
   Werkplan festgesetzt oder das Enteignungsverfahren eingeleitet wird» (**§ 122 Abs. 1 PBG** amtl.). Beleg:
   raw/260607_amtlich_zh_pbg.md § 122. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Im Buch-Destillat steht, ein Untergeschoss duerfe hoechstens 80 cm ueber
+  gewachsenem Terrain liegen, um nicht angerechnet zu werden. Stimmt das? — **A:** **Nein**, dieser Wert ist
+  im PBG nicht auffindbar. Massgebend ist **§ 275 Abs. 3 PBG**: das Untergeschoss darf **im Mittel
+  hoechstens 2,5 m**, an keiner Stelle mehr als **3 m** ueber gewachsenem Boden liegen (Berechnung nach
+  § 29 ABV). Beleg: raw/260607_amtlich_zh_pbg.md § 275. _[2026-07-13]_
+- **F (Modell D · Gegenprobe):** Ab wieviel Stunden Schattenwurf greift die verschaerfte Hochhaus-Pruefung
+  (Besonnung)? — **A:** **3 Stunden**, nicht 2 — die fruehere 2-Stunden-Schwelle wurde durch RRB vom
+  18.03.2020 (in Kraft seit 1.8.2021) auf 3 Stunden gelockert (§ 30 Abs. 1 lit. a/b ABV). Beleg:
+  raw/260607_amtlich_zh_pbg.md (ABV-Teil), Fussnote 18. _[2026-07-13]_
+- **F (Modell A · Frage→Beleg):** Ein Bauherr fragt, ob er Akteneinsicht in ein hängiges Baubewilligungs-
+  verfahren verlangen kann und ob die Behoerde das verweigern darf. Woran haelt sich das Verfahren? —
+  **A:** Grundsatz **§ 8 VRG**: Parteien koennen Akteneinsicht verlangen, soweit nicht wesentliche
+  oeffentliche oder private Interessen entgegenstehen. Ausnahme **§ 9 VRG**: Verweigerung nur, wenn das
+  Interesse an der Geheimhaltung das Interesse an der Einsicht ueberwiegt, mit Substituierungspflicht
+  (Zusammenfassung/Akteneinsicht in nicht schuetzenswerte Teile). Beleg: raw/260712_amtlich_zh_vrg.md
+  §§ 8/9. _[2026-07-13]_
+- **F (Modell D · Gegenprobe):** Steht die Legaldefinition des Anlagegrenzwerts (AGW) in Art. 6 NISV? —
+  **A:** **Nein** — die Definition steht in **Art. 3 Abs. 6 NISV**; Art. 6 NISV regelt die Aenderung
+  bestehender Anlagen. Beleg: raw/260712_amtlich_ch_lsv-nisv.md. _[2026-07-13]_
+- **F (Modell D · Gegenprobe):** Darf bei einem Buerogebaeude > 1000 m² EBF fuer die Elektrizitaets-
+  Grenzwerte Beleuchtung/Lueftung/Klima weiterhin "§ 45 Abs. 3 BBV I" zitiert werden? — **A:** **Nein**,
+  diese Norm existiert in dieser Form nicht mehr — die Grenzwerte stehen heute in der eigenstaendigen
+  **§ 45a BBV I** ("Beleuchtungsanlagen"); § 45 BBV I selbst regelt nur die Klimaanlagen-Definition. Beleg:
+  raw/260607_amtlich_zh_bbv1.md § 45a. _[2026-07-13]_

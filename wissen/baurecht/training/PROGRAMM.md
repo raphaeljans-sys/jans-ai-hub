@@ -91,6 +91,21 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 32 (2026-07-12/13, Modell-D-Volltextabgleich, 5 Komplexe parallel via Agent-Tool — Workflow-Tool
+    scheiterte an Freigabe-Gate im unbeaufsichtigten Lauf):** **§§ 278-293 PBG** (Hoehen/Dach/Hochhaus,
+    [[abstaende-und-hoehen]] KORRIGIERT: Gebaeudehoehe-Beleg falsch zugeordnet, Untergeschoss "80 cm" nicht
+    auffindbar → richtig § 275 Abs. 3 = 2,5 m/3 m, Schattenwurf-Schwelle vertauscht → richtig **3 Std.**
+    nicht 2), **§§ 8/9/10c/15 VRG** (Akteneinsicht/Realakte, echte Luecke in [[rechtsschutz-und-rechtsmittelverfahren]]
+    ergaenzt), **Art. 41a/41b GSchV** (Gewaesserraum-Widerspruch [[abstaende-und-hoehen]] vs.
+    [[15-lage-von-gebaeuden]] AUFGELOEST — kein echter Widerspruch, nur Abs.1/Abs.2-Verwechslung), **LSV/NISV**
+    ([[laermschutz-und-nichtionisierende-strahlung]] KORRIGIERT: AGW-Legaldefinition Art. 3 Abs. 6 NISV nicht
+    Art. 6, Mobilfunk-Grenzwerte frequenzbereichs- statt einzelfrequenz-gestaffelt), **BBV I/II + EnerG**
+    ([[wohnhygiene-und-raumanforderungen]] KORRIGIERT, **Fassungsstand-Befund**: § 42a/§ 45 Abs.3/§ 48 BBV I
+    existieren nicht mehr, §§ 9-13 EnerG im Buch-Destillat teils veraltet gegenueber Nachtrag 129/1.7.2025).
+    **3 neue Quelldateien:** `raw/260712_amtlich_ch_gschv.md`, `raw/260712_amtlich_ch_lsv-nisv.md`,
+    `raw/260712_amtlich_zh_energ.md`. 10 Korrekturen gesamt, 0 Halluzinationen. 5 Drills (3×D/1×A). **Naechste
+    Phase-3-Ziele:** [[geschosse-und-kniestock]] (alte § 275/276-Zaehlweise, noch `emerging`), Anhang 5
+    Ziff. 222 LSV (Detail offen). Report `outputs/2026-07-13_buch-run32.md`.
   - **Run 31 (2026-07-12, Modell-D-Volltextabgleich, 5 Komplexe parallel via Workflow-Tool):** **§§ 218-232
     (Baupolizeirecht), §§ 269-274+292 (Abstaende), § 120/122/150/264/346 (Landsicherung), §§ 203-213 (Natur-/
     Heimatschutz), § 30 VRG** je durch einen Refutations-Agenten geprueft. **GROSSER BEFUND — Fassungsstand-

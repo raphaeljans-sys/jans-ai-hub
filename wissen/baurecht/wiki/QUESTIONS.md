@@ -5,7 +5,36 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
-## Geklärt / verifiziert — 2026-07-12 (Buch-Run 32, Phase 3 · Modell-D Volltextabgleich Art. 41a/41b GSchV, Fedlex SR 814.201)
+## Geklärt / verifiziert — 2026-07-12 (Buch-Run 32, Phase 3 · Modell-D Volltextabgleich, 5 Komplexe)
+- **✅ §§ 278-293 PBG (Fassadenhöhe/Gesamthöhe/Hochhaus/Dachaufbauten) — [[abstaende-und-hoehen]] KORRIGIERT:**
+  3 Fehler behoben (Gebäudehöhe-Beleg war falsch zugeordnet inkl. sachfremder § 12 ABV-Referenz;
+  Untergeschoss-Mass "80 cm" im Gesetz nicht auffindbar, korrekt § 275 Abs. 3 PBG 2,5 m/3 m;
+  Hochhaus-Schattenwurf-Schwelle war vertauscht, geltend sind **3 Stunden** nicht 2 seit RRB
+  18.03.2020). Ergänzt: §§ 279-281/284/293 Abs. 2 PBG mit vollem Beleg (alt/harmonisiert). Status
+  bleibt `established`. Restpunkt: Schwesterartikel [[geschosse-und-kniestock]] noch nicht
+  Modell-D-verifiziert (alte Zählweise § 275/276, `emerging`) — nächstes Ziel.
+- **✅ §§ 8/9/10c/15 VRG (Akteneinsicht/Realakte/Kostenvorschuss):** § 15 VRG (Kostenvorschuss) im
+  Destillat [[09-rechtsschutz-teil2-ablauf-kosten-revision]] bestätigt (keine Korrektur). §§ 8/9/10c
+  VRG (Akteneinsicht Grundsatz/Ausnahme, Realakte) waren eine echte Lücke — neu in
+  [[rechtsschutz-und-rechtsmittelverfahren]] Abschnitt 6b ergänzt, mit JANS-Praxishinweis (§ 10c
+  als Hebel gegen faktisches Verwaltungshandeln ohne Verfügung).
+- **✅ LSV/NISV (Kap. 19) — [[laermschutz-und-nichtionisierende-strahlung]] KORRIGIERT + volltextverifiziert
+  gegen Fedlex (neu `raw/260712_amtlich_ch_lsv-nisv.md`):** 2 Korrekturen — Anlagegrenzwert-Legaldefinition
+  steht in **Art. 3 Abs. 6 NISV** (nicht Art. 6 NISV, das regelt die Änderung neuer Anlagen);
+  Mobilfunk-Grenzwerte (Ziff. 64 Anhang 1 NISV) sind **frequenzbereichs-gestaffelt** (≤ 900 MHz
+  = 4,0 V/m, ≥ 1800 MHz = 6,0 V/m, Kombi-Anlagen = 5,0 V/m), nicht als starre Einzelfrequenz-Liste.
+  Übrige Kernaussagen (Lüftungsfensterpraxis-Aufhebung, Art. 31 Abs. 2 LSV, OMEN Art. 3 Abs. 3 NISV,
+  5G-AGW) CONFIRMED. Status bleibt `emerging` (Restklärung Anhang 5 Ziff. 222 LSV noch offen).
+- **✅ BBV I/II + EnerG (Kap. 17 Haustechnik) — [[wohnhygiene-und-raumanforderungen]] neuer Abschnitt,
+  4 Korrekturen (Fassungsstand 6. Aufl. 2019 überholt):** § 42a BBV I existiert nicht mehr (Befreiung
+  neu vollständig in § 43 BBV I); § 45 Abs. 3 BBV I existiert nicht, die EBF>1000m²-Elektrizitäts-
+  Grenzwerte stehen in eigenständiger **§ 45a BBV I**; § 48 BBV I (WKK) aufgehoben, Materie neu in
+  **§ 12b EnerG**; § 30a Abs. 2 BBV I regelt NUR die Drittabgabepflicht (>2 GWh), die
+  Notstrom/Probeläufe-Schwelle ist **50 Std.** (nicht 30) und steht in § 12b Abs. 1 EnerG. **Zentrales
+  Ergebnis:** die zitierten §§ 9/9a/10b/12/13 EnerG entsprechen NICHT mehr durchgehend der heute
+  (Nachtrag 129, Stand 1.7.2025) geltenden Fassung — neuer Volltext `raw/260712_amtlich_zh_energ.md`
+  als Referenz angelegt; harte Werte (VHKA-Schwelle, Elektroheizungsverbot § 10b) vor Bauherren-
+  Beratung künftig gegen diese Datei statt gegen das Buch-Destillat zitieren.
 - **✅ Gewässerraum-Schwellen-Widerspruch aufgelöst:** Der scheinbare Widerspruch zwischen
   [[abstaende-und-hoehen]] (GSB < 2 m → 11 m) und [[15-lage-von-gebaeuden]] (Sohle < 1 m →
   11 m) ist **kein Widerspruch** — beide Zahlen sind wortgetreu, beziehen sich aber auf

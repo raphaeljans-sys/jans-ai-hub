@@ -1,7 +1,7 @@
 ---
 title: 2102 WB Muttenz — Erweiterung Sekundarschule Hinterzweien (PATIO IM PIANO NOBILE)
 status: draft
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources: [2102-muttenz_jurybericht.txt, 2102-muttenz_programm.txt, 2102-muttenz_eigene-abgabe.txt]
 links: [[delta-zum-ersten-rang]]
 ---
@@ -91,10 +91,16 @@ links: [[delta-zum-ersten-rang]]
   aus Beton über der Doppelsporthalle; Holzfassade, fein gegliedert durch Vordächer/
   Balkone und vertikale Proportionierung mit farbigen Trennelementen (Jurybericht S. 40;
   eigene Abgabe Blatt 4: Holzbau auf massivem Sockel, Minergie-P-Eco).
-- Kennzahlen: absolute GF/GV-Werte sind im lokal gesyncten Archiv nicht belegt (Formular
-  Bauökonomie nicht verfügbar — offene Frage). Belegt ist die Einordnung der Jury:
-  grösste Geschossfläche und grösstes Volumen aller Beiträge, vergleichsweise hohe
-  Kosten (Jurybericht S. 40).
+- Kennzahlen (SIA 416, aus dem eigenen Formular Bauökonomie / Mengengerüst, erstellt
+  durch Büro für Bauökonomie AG, Luzern): **GF total 4'828 m2** (unterirdisch 2'261,
+  oberirdisch 2'567), **GV total 25'300 m3**, **NF total 3'398 m2** (HNF 2'768, NNF 370),
+  AGF 60 m2, GGF 1'592 m2; Kennwert GV/GF 5.24, Kompaktheit HUF/GF oberirdisch 1.35,
+  Fassaden-Perforationsanteil 30.7 %. Fundstelle: `p PIPNMengenger_uest.pdf` Seite 2–3 und
+  `p PIPN Flaechenschemas.pdf` (beide unter `.../2102 WB Muttenz/00_Abgabe/02 Formulare/p_FORMULAR_Bauoekonomie/`).
+  Absolute CHF-Kosten sind in der Abgabe nicht enthalten: das Formular ist ein reines
+  Mengengerüst (Flächen/Volumen nach SIA 416); die Kostenermittlung erfolgt beim Auslober.
+  Dazu passt die Einordnung der Jury: grösste Geschossfläche und grösstes Volumen aller
+  Beiträge, vergleichsweise hohe Kosten (Jurybericht S. 40).
 
 ## 4. Jury-Urteil
 
@@ -188,10 +194,6 @@ Verallgemeinerbare Regeln (Kandidaten für [[delta-zum-ersten-rang]] und künfti
 
 - Diskrepanz Resultat: Raphael bestätigt «2. Platz» (12.07.2026), Jurybericht belegt
   4. Rang / 3. Preis — klären, dann INDEX korrigieren.
-- Absolute Kennzahlen (GF/GV/Kosten) des eigenen Beitrags: Formular Bauökonomie liegt
-  im lokalen OneDrive-Sync nicht vor (Ordner `00_Abgabe/01 Pläne`, `03 Bericht`,
-  `04 Beschriftung` sind lokale Platzhalter ohne Inhalt) — bei Bedarf im
-  SharePoint-Original nachschlagen.
 
 ## Quellen
 

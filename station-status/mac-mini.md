@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 23:57:51
+Stand: 13.07.2026 00:08:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.07.2026 23:57:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 26578ae0 baurecht: Buch-Run 32 Modell-D Volltextabgleich §§ 278-293 PBG (Fassadenhoehe/Gesamthoehe/Hochhaus/Dachaufbauten)
+- 9d4e1614 energie-training run38: Waermebruecken Flachdach-Vordach + -Bruestung (F51-F52), Gruppe 1 komplett

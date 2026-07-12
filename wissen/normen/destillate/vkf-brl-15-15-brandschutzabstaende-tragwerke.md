@@ -1,0 +1,105 @@
+---
+quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 15.pdf (Ausgabe 01.01.2015, ohne Revision) UND .../Brandschutzabstaende Tragwerke 17 BSPUB-1394520214-81.pdf (gleiche Ausgabe 01.01.2015, mit Revision gemäss Beschluss IOTH vom 22.09.2016)"
+herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen) / AEAI / AICAA
+ausgabe: "VKF-Brandschutzrichtlinie 15-15de, Ausgabe 01.01.2015, revidiert per Beschluss IOTH vom 22.09.2016 (Ziff. 2.2 Abs. 2+3, Ziff. 2.4, Ziff. 3.1.2 Abs. 3, Ziff. 3.7.1 Tabelle 1, sowie Anhang zu Ziff. 2.4/3.3.3/3.7.11/3.7.13)"
+ersetzt: "keine frühere Ausgabe im Dokument vermerkt; die vorliegende Fassung ersetzt/präzisiert sich selbst durch die Revision 22.09.2016 (zwei Dateien im Bestand: unrevidierter Stand 04/2015 und revidierter Stand 10/2022-Druck, inhaltsgleich mit Delta gemäss Revisionsvermerk)"
+gelesen: "S. 1-35 beider Dateien (komplett; Delta-Abgleich Ziff. 2.2, 2.4, 3.1.2 Abs. 3, 3.7.1 Tabelle 1 Fussnote [5] gezielt gegengelesen)"
+datenstand: "2015 (Text), Revisionsstand 2016, gegengelesen 2026-07-13"
+status: destilliert
+last_updated: 2026-07-13
+links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
+---
+
+# VKF-BRL 15-15de — Brandschutzabstände, Tragwerke, Brandabschnitte
+
+## Das Wichtigste in 3 Sätzen
+Die Richtlinie regelt zwei getrennte Themenblöcke: erstens die Brandschutzabstände zwischen Bauten und Anlagen (Ziff. 2), zweitens die Anforderungen an Tragwerke, brandabschnittsbildende Wände/Decken und die Brandabschnittsbildung generell (Ziff. 3), inkl. dreier Tabellen mit Feuerwiderstandsanforderungen nach Gebäudehöhenkategorie und Nutzung (Ziff. 3.7.1). Sie konkretisiert damit Art. 11 der Brandschutznorm (Standardlösungen; Abweichungen mit Nachweis möglich, Ziff. 3.7.1 Abs. 2) und ist eine der Kern-Richtlinien für jede Fassaden-/Tragwerks-/Brandabschnittsplanung. Nachweisführung des Feuerwiderstands erfolgt über Normbrand (rechnerisch/Prüfung) oder Naturbrand gemäss der separaten Richtlinie „Nachweisverfahren im Brandschutz" (Ziff. 4, siehe Destillat `vkf-brl-nachweisverfahren`).
+
+## Geltungsbereich
+Ziff. 1 (S. 5): Die Richtlinie regelt die Brandschutzabstände zwischen Bauten und Anlagen sowie die Anforderungen an Tragwerke und Brandabschnitte inkl. der brandabschnittsbildenden Bauteile. In Kraft gesetzt per 1. Januar 2015 durch Beschluss des IVTH-Organs vom 18.09.2014, verbindlich in allen Kantonen (Ziff. 6, S. 17).
+
+## Revision 22.09.2016 (Delta zur Ausgabe 04/2015)
+Im Bestand liegen zwei Druckstände derselben Ausgabe 15-15de/01.01.2015: ein unrevidierter Stand (Datei „…15.pdf", MS-Word-Erstellung 13.04.2015) und ein revidierter Stand (Datei „…17 BSPUB-1394520214-81.pdf", Druck 12.10.2022, mit ausdrücklichem Änderungsvermerk auf S. 2 „Vom IOTH am 22. September 2016 genehmigte Änderungen"). Beide wurden für dieses Destillat vollständig gelesen; die inhaltlichen Deltas sind:
+- **Ziff. 2.2 Abs. 2+3** (S. 5): reine Präzisierung der Formulierung, keine Zahlenänderung. Original: „5 m, wenn die Aussenwände eine äusserste Schicht aus Baustoffen der RF1 aufweisen" (analog b/c). Revidiert: „5 m, wenn die äusserste Schicht **beider Aussenwandkonstruktionen** aus Baustoffen der RF1 besteht" (analog b/c mit „einer der beiden"/„beider"). Die Abstandswerte selbst (5/7.5/10 m bzw. reduziert 4/5/6 m) sind identisch geblieben.
+- **Ziff. 2.4** (S. 6): minimale Wortänderung „Aussenwände" → „Aussenwandkonstruktionen", inhaltlich keine Änderung; neu mit Fussnotenverweis „¹ Fassung gemäss Beschluss IOTH vom 22. September 2016" versehen.
+- **Ziff. 3.1.2 Abs. 3** (S. 7): Original „Zwischen **Nutzungseinheiten** geringer Brandgefahr oder Brandbelastung kann der Feuerwiderstand angemessen reduziert werden." → Revidiert „Zwischen **Brandabschnitten** mit geringer Brandgefahr oder Brandbelastung kann der Feuerwiderstand angemessen reduziert werden." Terminologische Präzisierung: Bezugsgrösse ist der Brandabschnitt, nicht die (unscharfe) Nutzungseinheit.
+- **Ziff. 3.7.1 Tabelle 1, Fussnote [5]** (S. 11) — inhaltliche Erweiterung, nicht nur Wortlaut: Original (04/2015): „Bei zweigeschossigen Bauten mit einer gesamten Geschossfläche von maximal 2'400 m² kann der Feuerwiderstand um 30 Minuten reduziert werden." Revidiert (10/2022-Druck, rev. 2016): „Bei **zweigeschossigen** Bauten mit einer gesamten Geschossfläche **über Terrain** von maximal 2'400 m² gilt: der Feuerwiderstand kann um 30 Minuten reduziert werden, **bei Geschossdecken mit Feuerwiderstand REI 30 kann der Feuerwiderstand nur auf EI 30 reduziert werden**; **bei Beherbergungsbetrieben [c] kann der Feuerwiderstand generell um 30 Minuten reduziert werden**." Die Revision klärt (a) dass nur die Geschossfläche über Terrain zählt, (b) begrenzt die Deckenreduktion bei REI-30-Decken auf EI 30, (c) ergänzt eine eigene Reduktionsregel für abgelegene Beherbergungsbetriebe [c] (z.B. Berghütten).
+- Weitere laut Titelblatt revidierte Stellen (Anhang zu Ziff. 2.4 S. 22-23, Ziff. 3.3.3 S. 27, Ziff. 3.7.11 S. 33, Ziff. 3.7.13 S. 34) betreffen ausschliesslich die Anhang-Grafiken/Varianten-Tabellen und wurden nicht Zeichnung-für-Zeichnung verglichen (Urheberrecht, grafischer Inhalt) — im Zweifel gilt der aktuellere Druckstand (17 BSPUB-Datei).
+- **Praxis-Konsequenz:** Für laufende Projekte ist der revidierte Stand (Datei „17 BSPUB…81.pdf") massgebend, da er die aktuellere, vom IOTH genehmigte Fassung wiedergibt. Der unrevidierte Stand „15.pdf" ist nur noch für die Einordnung von Altprojekten/-verträgen relevant, die vor 2016 auf Basis der Ursprungsfassung erstellt wurden.
+
+## Kernziffern (mit Fundstelle)
+
+### Brandschutzabstände (Ziff. 2)
+- **Ziff. 2.1** — Messweise: Abstände werden zwischen den Fassaden gemessen; kragen Dachvorsprünge/Bauteile mehr als 1 m aus, vergrössert sich der Abstand um das 1 m übersteigende Mass (S. 5)
+- **Ziff. 2.2 Abs. 2** (Fassung 22.09.2016) — Regel-Brandschutzabstände je nach Aussenwandkonstruktion: a) 5 m, wenn die äusserste Schicht beider Aussenwandkonstruktionen aus Baustoffen der RF1 besteht; b) 7.5 m, wenn die äusserste Schicht einer der beiden Aussenwandkonstruktionen aus brennbaren Baustoffen besteht; c) 10 m, wenn die äusserste Schicht beider Aussenwandkonstruktionen aus brennbaren Baustoffen besteht (S. 5; Werte identisch mit Ursprungsfassung 04/2015, dort nur allgemeiner „Aussenwände" statt „äusserste Schicht der Aussenwandkonstruktionen")
+- **Ziff. 2.2 Abs. 3** (Fassung 22.09.2016) — Reduzierte Abstände möglich zwischen Einfamilienhäusern, Bauten geringer Höhe, Bauten mittlerer Höhe (sofern Aussenwände ausser Fenster/Türen mind. 30 Min. Feuerwiderstand): reduziert a) 4 m (beidseitig RF1), b) 5 m (einseitig brennbare äusserste Schicht), c) 6 m (beidseitig brennbare äusserste Schicht) (S. 5)
+- **Ziff. 2.3.1** — Nebenbauten sind von Abstandvorschriften gegenüber grundstückinternen Bauten befreit; gegenüber grundstücksfremden Bauten gilt 4 m; mehrere Nebenbauten untereinander abstandsbefreit sofern zusammenhängende Arealfläche ≤ 150 m2 (S. 5-6)
+- **Ziff. 2.3.2** — Fahrnisbauten ≤ 150 m2 Grundfläche sind abstandsbefreit (ausser bei Lagerung gefährlicher Stoffe) (S. 6)
+- **Ziff. 2.3.4** — Arealüberbauungen aus eingeschossigen Büro-/Gewerbe-/Industriebauten mit vergleichbarer Nutzung/Brandgefahr sind untereinander abstandsbefreit, sofern zusammenhängende Arealfläche ≤ 3'600 m2 (S. 6)
+- **Ziff. 2.3.5** — Landwirtschaftlich genutzte eingeschossige Mehrgebäudeställe abstandsbefreit bis 3'600 m2 Arealfläche; bei mehrgeschossigen Bauten (Galerien/Heubühnen) gilt dieselbe Grenze für zusammenhängende Areal- und Geschossfläche (S. 6)
+- **Ziff. 2.4** — Bei Unterschreitung der Brandschutzabstände gelten erhöhte Anforderungen an Brennbarkeit/Feuerwiderstand der Aussenwände (S. 6); Anhang (S. 22) konkretisiert: bei Abstand < 2 m sind Ersatzmassnahmen um 1 m zu verbreitern; Massnahmen-Katalog Aussenwände (feuerwiderstandsfähige Ausführung/Bekleidung, RF1-Unterbruch brennbarer Flächen), Öffnungen (Brandschutzabschlüsse, nur zu Unterhaltszwecken öffenbare Fenster, versetzte Anordnung), Dachuntersichten (feuerwiderstandsfähige Bekleidung), Bedachungen (Verweis auf BRL „Verwendung von Baustoffen" Ziff. 3.3)
+
+### Tragwerke, Brandabschnitte allgemein (Ziff. 3.1-3.6)
+- **Ziff. 3.1.1** — Feuerwiderstand von Tragwerken/brandabschnittsbildenden Bauteilen richtet sich nach Nutzung/Lage, Gebäudegeometrie, Brandbelastung (Abs. 1); Löschanlagen können berücksichtigt werden (Abs. 2); Feuerwiderstand brandabschnittsbildender Bauteile beträgt mindestens 30 Minuten (Abs. 3); mehrschichtige Bauteile mit brennbaren Anteilen gelten als RF1-Gesamtkonstruktion, wenn RF1-gekapselt, minimaler Kapselungs-Feuerwiderstand K = Bauteil-Feuerwiderstand minus 30 Min., mindestens K30-RF1 (Abs. 4, S. 7)
+- **Ziff. 3.1.2** — Brandabschnittsbildung richtet sich nach Bauart/Lage/Ausdehnung/Geometrie/Nutzung (Abs. 1); zwingend abzutrennen: aneinandergebaute/ausgedehnte Bauten, Geschosse über/unter Terrain, vertikale/horizontale Fluchtwege, Vertikalverbindungen (Schächte), Räume mit Haustechnik, Räume unterschiedlicher Brandgefahr, Bereiche mit techn. Brandschutzeinrichtungen, Evakuierungsbereiche bei Aufenthaltskonzept (Abs. 2, S. 7); bei Nutzungseinheiten geringer Brandgefahr kann Feuerwiderstand reduziert werden (Abs. 3)
+- **Ziff. 3.2.1** — Standsicherheit: Tragwerke müssen unter Brandbeanspruchung ausreichend standsicher bleiben, dürfen nicht durch Einzelbauteilversagen/Wärmedehnung einstürzen, keine unverhältnismässigen Schäden in Nachbarabschnitten (S. 7)
+- **Ziff. 3.2.3** — Feuerwiderstand von Tragwerken gemäss Tabellen Ziff. 3.7.1 (Abs. 1); KEINE Anforderung bei: eingeschossigen Bauten über Terrain, oberstem Geschoss von Bauten geringer/mittlerer Höhe, Gebäuden mit geringen Abmessungen, Einfamilienhäusern inkl. UG (Abs. 2); Tragwerke in UG müssen gleichen Feuerwiderstand wie oberirdische Geschosse aufweisen, mindestens jedoch R 60 (Abs. 3, S. 8)
+- **Ziff. 3.3.1** — Feuerwiderstand brandabschnittsbildender Wände/Decken gemäss Tabellen Ziff. 3.7.1; in UG mindestens EI 60 (S. 8)
+- **Ziff. 3.3.2** (Anhang S. 24) — Nichttragende brandabschnittsbildende Wände: mind. 80 mm Wandstärke; geringere Stärke oder Raumhöhe > 3 m erfordern Standsicherheitsnachweis (Tragsicherheitsnachweis Kaltzustand, horizontale Flächenlast 0.2 kN/m2)
+- **Ziff. 3.4** — Brand-/Rauchschutzabschlüsse: Durchgänge in brandabschnittsbildenden Bauteilen brauchen feuerwiderstandsfähige Abschlüsse (Abs. 1); mindestens EI 30 (Abs. 2), bei sehr kleiner Brandbelastung E 30 zulässig, z.B. Türen zw. horizontalen/vertikalen Fluchtwegen (Abs. 3); reine Rauchabschlüsse Klassifikation S zulässig, z.B. RWA-Konzepte (Abs. 4); betrieblich offengehaltene Abschlüsse brauchen automatische Schliessvorrichtung (Abs. 5); Türen zu vertikalen Fluchtwegen selbstschliessend, ausser Wohnungen/Schulzimmer/Einzelbüro/technische Räume (Abs. 6, S. 8-9)
+- **Ziff. 3.5** — Durchbrüche/Leitungsdurchführungen in brandabschnittsbildenden Bauteilen feuerwiderstandsfähig zu verschliessen (Abs. 1), Abschottungen mind. 30 Min. (Abs. 2); Aussparungen entweder RF1-Material dicht verschlossen oder VKF-anerkannte Abschottungssysteme, bei brandabschnittsbildenden Wänden/Decken EI 30 (Abs. 3); Verzicht auf Abschottung u.a. bei RF1-Rohrleitungen, Rohren ≤ 50 mm Aussendurchmesser (einzeln geführt), ≤ 120 mm in Bauten geringer/mittlerer Höhe sofern keine erhöhte Personengefährdung (Abs. 4, S. 9)
+- **Ziff. 3.6.1** — Installationsschächte über mehrere Geschosse grundsätzlich brandabschnittsbildend, mindestens EI 30 (Abs. 1); Verzicht möglich bei Geschossdecken-Durchführung gemäss Ziff. 3.5 oder VKF-anerkannten Wandsystemen (Abs. 2, S. 9)
+- **Ziff. 3.6.2** — Revisionsöffnungen mit EI 30-Abschlüssen; bei Bauten geringer/mittlerer Höhe genügen RF1-Revisionsdeckel bei geschossweise unterteilten/ausgefüllten Schächten (S. 10)
+- **Ziff. 3.6.3** — Horizontale Unterteilung: Aussparungen bei geschlossenen Schächten je Geschoss RF1-verschliessen (Abs. 1); Verzicht möglich bei RWA-Öffnung (≥ 5 % Schachtquerschnitt) zuoberst, bei hohlraumfrei RF1-gefülltem Schacht (bzw. RF2 bei Bauten geringer/mittlerer Höhe ohne erhöhte Anforderungen) oder bei ausschliesslich RF1-Leitungen (Abs. 2, S. 10)
+- **Ziff. 3.6.4** — Vertikale Unterteilung: Abgasanlagen/Lüftungskanäle mit erhöhten Anforderungen im selben Schacht 30 Min. RF1-Feuerwiderstand voneinander getrennt (S. 10)
+
+### Tabellen Feuerwiderstand nach Gebäudehöhe (Ziff. 3.7.1, S. 11-13)
+Drei Tabellen (Standardlösungen gemäss Art. 11 Brandschutznorm, Abweichungen mit Nachweis möglich) je Gebäudehöhenkategorie, gegliedert nach Nutzung/Konzept (baulich vs. Löschanlage) mit vier Spalten Tragwerk / brandabschnittsbildende Geschossdecken / brandabschnittsbildende Wände u. horizontale Fluchtwege / Fluchtweg vertikal:
+- **Tabelle 1 — Gebäude geringer Höhe** (bis 11 m Gesamthöhe): Wohnen/Büro/Schule/kleine Verkaufsräume baulich R 30 / REI 30 / EI 30 / REI 30; Beherbergung (Krankenhäuser, Alters-/Pflegeheime) baulich R 60/REI 60/EI 60/REI 60, mit Löschanlage reduziert auf R 30/REI 30/EI 30/REI 60 (S. 11)
+- **Tabelle 2 — Gebäude mittlerer Höhe** (bis 30 m Gesamthöhe): Wohnen/Büro baulich R 60/REI 60/EI 30/REI 60; Beherbergung (Krankenhäuser/Pflegeheime) baulich R 60/REI 60/EI 60/REI 60, mit Löschanlage R 30/REI 30/EI 30/REI 60 (S. 12)
+- **Tabelle 3 — Hochhäuser** (bis 100 m Gesamthöhe): Wohnen/Büro baulich R 90/REI 90/EI 60/REI 90; Beherbergung baulich R 90/REI 90/EI 60/REI 90, mit Löschanlage R 60/REI 60/EI 30/REI 90 (S. 13)
+- Zahlreiche Fussnoten je Tabelle (nicht einzeln aufgeführt, im Original S. 11-13 nachlesen): u.a. keine Feuerwiderstandsanforderung an Tragwerk im obersten Geschoss/bei eingeschossigen Bauten, Reduktionsmöglichkeiten bei zweigeschossigen Bauten mit begrenzter Geschossfläche, Erleichterungen bei Parkings mit ≥ 25 % unverschliessbaren Öffnungen
+
+### Nutzungsspezifische Anforderungen (Ziff. 3.7.2-3.7.17, S. 14-16)
+- **Ziff. 3.7.2** Gebäude geringer Abmessungen: keine Anforderung an Tragwerk-Feuerwiderstand/Brandabschnittsbildung, ausser Räume gemäss Ziff. 3.7.14/3.7.15
+- **Ziff. 3.7.3** Wohnen: bei Einfamilienhäusern (inkl. UG/Einliegerwohnung) keine Feuerwiderstandsanforderung; Wohnungen sind separate Brandabschnitte
+- **Ziff. 3.7.4** Büro: zuordenbare Nutzungen (Sitzungszimmer, Archive, Serverräume etc.) im gleichen Brandabschnitt zulässig; ohne Nachweis max. 3'600 m2 zusammenhängende Brandabschnittsfläche über alle ohne Feuerwiderstand verbundenen Geschosse; Empfangsbüros unter bestimmten Bedingungen mit E 30 gegen Treppenhaus bzw. offen gegen Fluchtweg
+- **Ziff. 3.7.5** Gewerbe/Industrie: Fabrikation/Labor/Lager/Büro im gleichen Abschnitt zulässig, Fläche max. 3'600 m2 ohne Nachweis; Anhang S. 29-30 listet Beispielnutzungen nach Brandrisiko (klein bis 500 MJ/m2, mittel 500-1'000 MJ/m2, gross über 1'000 MJ/m2) mit Beispiel-Lagerhöhen
+- **Ziff. 3.7.6** Schule: max. 3'600 m2 ohne Nachweis; Spezialräume (Schulküche, Cafeteria, Werk-/Laborräume) als eigene Brandabschnitte
+- **Ziff. 3.7.7** Landwirtschaft: max. 3'600 m2 ohne Nachweis; Wohn-/Wirtschaftsteil brandabschnittsmässig trennen; bei Gebäudevolumen > 3'000 m3 Brandmauer REI 90 zwischen Wohn- und Wirtschaftsteil (Verweis auf Brandschutzerläuterung „Brandmauern"); Motorfahrzeug-Einstellräume EI 60 abgetrennt oder K 60 bekleidet
+- **Ziff. 3.7.8** Beherbergungsbetriebe: Gäste-/Personal-/Patientenzimmer sowie Untersuchungs-/Behandlungs-/Laborbereiche und technische Räume als eigene Brandabschnitte
+- **Ziff. 3.7.9** Verkaufsgeschäfte: mehrgeschossige, offen verbundene Verkaufsgeschosse als ein Abschnitt (Tragwerk/Decken nach Ziff. 3.7.1); ab 2. UG geschossweise eigene Brandabschnitte
+- **Ziff. 3.7.11** Parking: als eigene Brandabschnitte; zulässige Fläche 4'800 m2 (eingeschossig/separate Geschosse) bzw. 2'400 m2 (offen verbundene Geschosse), verdoppelbar mit Löschanlage; bei ≥ 25 % unverschliessbaren Öffnungen max. 9'600 m2 je Geschoss ohne Brandabschnittsbildung
+- **Ziff. 3.7.13** Hochhäuser: Massnahmen am Deckenanschluss zur Aussenwand gegen Brandausdehnung je Geschoss, entfällt bei Löschanlagenvollschutz; Revisionsöffnungen von Installationsschächten nicht in Sicherheitstreppenhäusern
+- **Ziff. 3.7.16** Atrien/Innenhöfe/Doppelfassaden: Massnahmen gegen Brandausbreitung, Verweis auf separate VKF-Brandschutzerläuterungen
+- **Ziff. 3.7.17** Hochregallager: separate Brandabschnitte
+
+### Nachweis (Ziff. 4, S. 17)
+- **Ziff. 4.1** Normbrand: Feuerwiderstand rechnerisch oder durch genormte Brandversuche nachzuweisen
+- **Ziff. 4.2** Naturbrand: Nachweis gemäss BRL „Nachweisverfahren im Brandschutz" möglich (siehe Destillat `vkf-brl-nachweisverfahren`)
+- **Ziff. 4.3** Nachweise sind der Brandschutzbehörde auf Verlangen vor Baubeginn einzureichen
+
+## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
+Die drei Tabellen in Ziff. 3.7.1 (Gebäude geringer Höhe / mittlerer Höhe / Hochhäuser) sind das Kernstück der Richtlinie: sie setzen je Nutzungsart (Wohnen, Büro, Schule, Verkauf, Parking, Industrie/Gewerbe nach Brandbelastung, Beherbergung a/b/c, Räume mit grosser Personenbelegung) und Konzept (baulich vs. Löschanlage) die vier Feuerwiderstandswerte Tragwerk/Geschossdecken/Wände+horizontale Fluchtwege/vertikaler Fluchtweg fest. Muster: mit steigender Gebäudehöhe steigen die Anforderungen (R 30 → R 60 → R 90 für Standardnutzung Wohnen/Büro); ein Löschanlagenkonzept erlaubt durchgehend eine Reduktion um typischerweise eine Feuerwiderstandsstufe gegenüber dem baulichen Konzept. Bei konkreten Projekten die exakten Werte/Fussnoten im Original nachschlagen (S. 11-13), hier nur das Prinzip wiedergegeben (Urheberrecht).
+
+## Begriffe
+- **Brandschutzabstand**: Mindestabstand zwischen Fassaden benachbarter Bauten zur Vermeidung von Brandübertragung (Ziff. 2.1-2.2)
+- **RF1/RF2**: Reaktion-auf-Feuer-Klassen der Brandschutznorm (nicht in dieser Richtlinie definiert, siehe Destillat `vkf-brandschutznorm-2015`)
+- **R/REI/EI/E**: Feuerwiderstandsklassen (Tragfähigkeit/Raumabschluss/Isolation), Zahl = Minuten
+- **K-Wert (Kapselung)**: minimaler Feuerwiderstand einer RF1-Kapselung bei mehrschichtigen Bauteilen mit brennbaren Anteilen (Ziff. 3.1.1 Abs. 4)
+- **Brandabschnitt**: durch feuerwiderstandsfähige Bauteile abgetrennter Gebäudebereich, der eine Brandausbreitung während definierter Zeit verhindert
+- **Nebenbauten/Fahrnisbauten**: kleinere Bauten mit erleichterten Abstands-/Brandabschnittsvorschriften (Ziff. 2.3.1-2.3.2)
+- **Gebäudehöhenkategorien**: geringe Höhe (bis 11 m), mittlere Höhe (bis 30 m), Hochhaus (bis 100 m) — Grenzwerte gemäss Kopfzeilen der Tabellen 1-3 (nicht in dieser Richtlinie selbst hergeleitet, vermutlich Definition in Brandschutznorm/anderer BRL, hier speculative)
+
+## JANS-Praxis-Transfer
+- Skill `brandschutz`: Kernreferenz für Fassadenabstände (Nachbarbebauung, Grenzabstand-Kombination mit Baurecht) und für die Feststellung des geforderten Feuerwiderstands von Tragwerk/Wänden/Decken/Fluchtwegen je Gebäudehöhenkategorie und Nutzung — direkt anwendbar auf Healthcare-Bauten (Beherbergungsbetriebe Kat. a: Krankenhäuser, Alters-/Pflegeheime, eigene Zeile in allen drei Tabellen)
+- Skill `machbarkeit`/`baurecht`: Brandschutzabstände (Ziff. 2.2) sind bei der Volumenstudie zusätzlich zum baurechtlichen Grenzabstand zu prüfen, insbesondere bei brennbaren Fassaden (Holzbau) — können strenger sein als der baurechtliche Mindestabstand
+- Skill `unternehmerkontrolle`/`kostenkontrolle`: Installationsschächte, Durchbrüche/Abschottungen (Ziff. 3.5-3.6) sind Standard-Kontrollpunkte bei der Bauleitung Haustechnik-Koordination
+- Skill `auflagebereinigung`: Nachweispflicht (Ziff. 4.3) vor Baubeginn — typische Auflage in Bauentscheiden
+- Verweise auf weitere VKF-Dokumente, die noch nicht destilliert sind: Brandschutzerläuterung „Brandmauern" (Ziff. 3.7.7), „Bauten mit Atrien und Innenhöfen" und „Bauten mit Doppelfassaden" (Ziff. 3.7.16), „Gefährliche Stoffe" (Ziff. 2.3.3) — bei Bedarf separat destillieren
+
+## Offene Punkte
+- Vollständige Fussnoten-Details der drei Tabellen (Ziff. 3.7.1, Fussnoten [1]-[9]) nur zusammengefasst wiedergegeben, nicht Wort für Wort — bei konkreter Bemessung Original S. 11-13 konsultieren
+- Anhang-Zeichnungen (Messweise, Nebenbauten, Anschlussvarianten C/D/E, Parking-Grundrisse etc., S. 18-35) sind grafisch und hier nicht reproduziert (Urheberrecht) — bei Detailfragen zu Anschlüssen/Konstruktionen Original konsultieren
+- Verweis-Dokumente „Brandmauern", „Atrien und Innenhöfe", „Doppelfassaden", „Gefährliche Stoffe" nicht im Inventar dieser Session geprüft — Duplikat-/Bestandsprüfung bei nächster Gelegenheit
+- Kein Bezug zu einer Vorgänger-Ausgabe im Dokument selbst gefunden (Feld „ersetzt" daher offen gelassen)

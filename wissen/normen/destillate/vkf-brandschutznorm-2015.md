@@ -6,7 +6,7 @@ ersetzt: "Brandschutznorm vom 26. März 2003 (Art. 61 Abs. 2)"
 gelesen: "Vollstaendig, S. 1–17 (Inhaltsverzeichnis + Art. 1–61), Text-PDF vollstaendig extrahierbar"
 datenstand: "2015"
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
 
@@ -90,3 +90,11 @@ nicht dieser Norm.
   (z.B. konkrete Feuerwiderstandsklassen je Gebaeudekategorie, Fluchtweglaengen, Abstandsmasse).
 - Keine numerischen Fluchtweglaengen oder konkrete Abstandsmasse in dieser Norm enthalten
   (nur Grundsatz-Artikel) — bei Bedarf in Brandschutzrichtlinien nachschlagen.
+
+## Weitere Fundstelle (Duplikat im Inventar, 260713)
+- Dieselbe Brandschutznorm 1-15de (Titel "BRANDSCHUTZNORM 01.01.2015 / 1-15de", Art. 1–61,
+  17 Seiten, identischer Inhalt bis Art. 61 Inkrafttreten) liegt im SharePoint-Inventar
+  zusaetzlich unter `PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/BSPUB-1394520214-57.pdf`
+  ab (falsch einsortiert im Richtlinien-Ordner, PDF-Metadaten-Datum 24.12.2021, aber gleicher
+  Norm-Stand 01.01.2015). Kein inhaltlicher Unterschied zur unter `quelle` gefuehrten Datei
+  festgestellt, deshalb kein separates Destillat.

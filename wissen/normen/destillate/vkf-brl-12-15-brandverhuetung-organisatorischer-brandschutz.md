@@ -1,0 +1,65 @@
+---
+quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Brandverhuetung & organisatorischer Brandschutz.pdf"
+herausgeber: "Vereinigung Kantonaler Feuerversicherungen (VKF)"
+ausgabe: "VKF-Brandschutzrichtlinie 12-15de, Fassung 01.01.2015"
+ersetzt: "unbekannt (im PDF nicht vermerkt)"
+gelesen: "S. 1-16 (komplett: Titelblatt, Inhaltsverzeichnis, Ziff. 1-9, Anhang)"
+datenstand: "2015-01-01"
+status: destilliert
+last_updated: 2026-07-13
+links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
+---
+
+# VKF-BRL 12-15de — Brandverhütung und organisatorischer Brandschutz
+
+## Das Wichtigste in 3 Sätzen
+Die Richtlinie regelt die allgemeine und nutzungsbezogene Brandverhütung, den organisatorischen Brandschutz (Instandhaltung, Sicherheitsbeauftragte, Dekorationen), den Brandschutz auf Baustellen sowie die Sicherheitsorganisation Brandschutz und Brandbekämpfung in Betrieben (Ziff. 1, S. 4). Sie ist primär eine Pflichten- und Organisationsnorm (wer muss was tun), nicht eine bauteilbezogene Anforderungsnorm wie die Brandschutznorm oder die Nachweisverfahren-Richtlinie. In Kraft seit 1. Januar 2015, interkantonal verbindlich erklärt durch das IVTH-Organ am 18.09.2014 (Ziff. 9, S. 12).
+
+## Geltungsbereich
+Ziff. 1 (S. 4): Regelt Anforderungen an die allgemeine und nutzungsbezogene Brandverhütung, die Brandbekämpfung und die Sicherheit in Betrieben und auf Baustellen sowie Dekorationen in Räumen mit Publikumsverkehr; definiert zusätzlich allgemeinverbindliche Sorgfaltspflichten. Bestimmungen, die direkt aus der Brandschutznorm übernommen sind, sind im Original grau hinterlegt (Hinweis Titelblatt, S. 2) — im vorliegenden Textextrakt ohne Farbmarkierung nicht unterscheidbar, bei Detailfragen Original konsultieren.
+
+## Kernziffern (mit Fundstelle)
+- **Ziff. 2 Grundsätze** — 5 Grundpflichten: sorgfältiger Umgang mit Feuer/Energie/gefährlichen Stoffen (Abs. 1); Eigentümer-/Nutzerschaft sorgt eigenverantwortlich für Personen-/Sachensicherheit, hält Flucht-/Rettungswege frei, prüft Brandmelde-/Löscheinrichtungen, instruiert Personal (Abs. 2); Instandhaltungspflicht für baulichen/technischen/abwehrenden Brandschutz + Haustechnik (Abs. 3); Aufsichtspflicht bei Beaufsichtigung Dritter (Abs. 4); sofortige Alarmierungspflicht bei Branderkennung (Abs. 5) (S. 4)
+- **Ziff. 3.1 Allgemeine Brandverhütung** — organisatorische Massnahmen: Freihaltung Flucht-/Rettungswege, brandschutztechnisch einwandfreie Ordnung, periodische Betriebskontrollen, Mängelbehebung (Abs. 1); auf Verlangen der Brandschutzbehörde sind Brandschutz-/Feuerwehreinsatzpläne zu erstellen bei entsprechender Brandgefahr/Personenbelegung/Grösse (Abs. 3) (S. 4)
+- **Ziff. 3.2 Sorgfaltspflichten** — 16 Einzelpflichten (S. 5-6), u.a.: Abstand brennbarer Materialien zu Feuerstellen (Abs. 1); Heissarbeiten (Schweissen/Löten/Trennschleifen) nur mit Erlaubnisschein bei laufendem Betrieb (Abs. 4); Putzlappen mit brennbaren Flüssigkeiten in geschlossenen nichtbrennbaren Behältern (Abs. 9); Pyrotechnik im Gebäudeinnern bewilligungspflichtig ausser Kategorie 1 SprstV (Abs. 10); Flüssiggas-Transportbehälter nie in Untergeschossen (Abs. 15)
+- **Ziff. 3.3 Rauchverbot** — Rauchverbot wo feuer-/explosionsgefährliche Stoffe gelagert/verkauft werden oder erhöhte Brand-/Explosionsgefahr besteht; Kennzeichnungspflicht durch Eigentümer/Nutzer (S. 6)
+- **Ziff. 3.4 Nutzungsbezogene Brandverhütung** — Verkaufsräume: kein offenes Feuer, feuergefährliche Stoffe nur in Tagesbedarfsmenge, grössere Mengen in feuerwiderstandsfähigen Schränken/Räumen (Ziff. 3.4.1, S. 6); Parking >600 m² Grundfläche keine Zweckentfremdung, Ausnahme ein Satz Pneus + Fahrzeugzubehör je Abstellplatz (Ziff. 3.4.3, S. 6, präzisiert im Anhang zu Ziff. 3.4.3: brennbarer Kasten max. 0.5 m³ oder nichtbrennbarer Kasten max. 1 m³, S. 13); Landwirtschaft: Heu/Emd-Kontrolle 6 Wochen mit Temperatursonde, ab 55°C Massnahmen, ab 70°C sofort Feuerwehr (Ziff. 3.4.4, S. 6)
+- **Ziff. 3.5 Temporäre Flüssiggasanlagen** — Meldepflicht mindestens 1 Woche vor Ausführung: Überflur-Tankanlagen bis 13 m³ an zuständige Behörden, Flaschen an Rampe bis 1'100 kg an Brandschutzbehörde (S. 7)
+- **Ziff. 4.2 Instandhaltungs-/Kontrollpflicht** — Betriebsbereitschaft brandschutztechnischer Einrichtungen durch regelmässige Kontrollen/Wartung schriftlich zu dokumentieren; bei Umbau/Reparatur/vorübergehender Ausserbetriebssetzung sofortige Anpassung des Brandschutzkonzepts; bei mehreren technischen Systemen periodische integrale Tests (S. 7)
+- **Ziff. 4.3 Sicherheitsbeauftragte Brandschutz** — zuständig für Einhaltung/Überwachung baulicher, technischer, organisatorischer Brandschutz, wirkt bei Umbauplanung/-ausführung mit, braucht Pflichtenheft + Kompetenzen/Mittel von der Geschäftsleitung (Ziff. 4.3.1, S. 7-8). Pflicht insbesondere bei (Anhang zu Ziff. 4.3, S. 14): Beherbergungsbetriebe [a] sowie fremdrettungs-/aufenthaltskonzeptabhängige Gebäude; Beherbergungsbetriebe [b] >100 Gäste; Verkaufsgeschäfte >2'400 m² Verkaufsfläche; Räume mit >300 Personen Belegung; Betriebe mit grossen Mengen gefährlicher Stoffe; Industrie-/Gewerbe-/Büro-/Verwaltungs-/Schulbauten mit Summe Brandabschnittsflächen >10'000 m²; grosse/komplexe Bauten mit umfangreichen technischen Brandschutzeinrichtungen. Aufgabenkatalog Ziff. 4.3.2 (S. 8): u.a. Freihaltung Flucht-/Rettungswege, Ansprechperson Brandschutzbehörde, periodische Kontrollen, Wartung, Überwachung Umbauarbeiten, Alarmierung Feuerwehr
+- **Ziff. 4.4 Dekorationen** — dürfen Sicherheit/Fluchtwege/Kennzeichnung/Sicherheitsbeleuchtung/Brandmelde- und Löscheinrichtungen nicht beeinträchtigen, keine brennbaren Dekorationen in Flucht-/Rettungswegen (Ziff. 4.4.1, S. 8-9); Material in Räumen mit Publikumsverkehr **RF2**, bei Sprinkleranlage genügt **RF3**, kein brennendes Abtropfen zulässig (Ziff. 4.4.2, S. 9). Ausnahme Anhang zu Ziff. 4.4 (S. 14): Massivholz-Dekorationen (allseitig gesägte Bretter, Dicke ≥10 mm) auch zulässig wo RF2 verlangt
+- **Ziff. 4.5 Pyrotechnik** — Innenraum-Verwendung bewilligungspflichtig (Ausnahme Kategorie 1 SprstV), Brandschutzbehörde kann Brandsicherheitswache verlangen; Verweis auf BRL «Gefährliche Stoffe» (S. 9)
+- **Ziff. 5 Brandschutz auf Baustellen** — bei erhöhter Personengefährdung (Beherbergung, grosse Personenbelegung) und Hochhäusern: Gerüstbekleidungen/Notdächer aus RF2, sonst RF3 genügt (Ziff. 5.1, S. 9); Sicherheitsbeauftragter Brandschutz für Bauphase bei besonderer Gefahr/Grösse (Ziff. 5.1 Abs. 2); brennbares Material/Bauschutt periodisch entfernen (Ziff. 5.3); Flucht-/Rettungswege anlegen/freihalten/kennzeichnen (Ziff. 5.4); Heissarbeiten mit Löschgeräten + Vor-/Nachkontrolle (Ziff. 5.5); mobile Feuerungsaggregate (Lufterhitzer, Bautrockner, Bitumenkocher) mit Sicherheitsabstand, bei fehlender Abgasableitung nur in offenen Hallen/gut belüfteten Rohbauräumen (Ziff. 5.6, S. 10); Teilinbetriebnahmen nur wenn Brandschutzvorschriften für den betroffenen Gebäudeteil erfüllt sind (Ziff. 5.8); Betrieb während Umbau darf Sicherheit der genutzten Gebäudeteile nicht beeinträchtigen, Provisorien nur bei Einhaltung der Schutzziele (Ziff. 5.9, S. 10). Gerüstbekleidungen-Definition im Anhang zu Ziff. 5 (S. 14): Netze/Gewebe/Folien auf der Gerüst-Aussenseite, Abstand zur Fassade immer ≥0.8 m
+- **Ziff. 6 Sicherheitsorganisation Brandschutz** — jeder Betrieb braucht eine situationsangepasste Sicherheitsorganisation (Ziff. 6.1, S. 10-11); Brandfallplanung schriftlich, Rettungskräfte einbeziehen (Ziff. 6.2); Evakuationsplanung Pflicht bei regelmässig orts-/urteilsunfähigen Personen (Ziff. 6.3); praxisbezogene Übungen (Ziff. 6.4, S. 11). **Sprachgesteuerte Informationssysteme** Pflicht in Gebäuden mit besonders grossen Personenansammlungen und Beherbergungsbetrieben [b] (Ziff. 6.1 Abs. 4) — detaillierte Schwellenwerte im Anhang zu Ziff. 6.1 (S. 15-16, siehe Tabelle unten)
+- **Ziff. 7 Brandbekämpfung** — Feuerwehrzugang jederzeit gewährleisten, An-/Vor-/Verbindungsbauten dürfen Einsatz nicht behindern (Ziff. 7.2, S. 11); Betriebsfeuerwehr auf Verlangen der Brandschutzbehörde bei grossem Brandrisiko/erhöhter Personengefährdung/erschwerter Feuerwehr-Einsatzmöglichkeit (Ziff. 7.3, S. 11-12)
+- **Ziff. 9 Inkrafttreten** — von der Interkantonalen Vereinbarung zum Abbau Technischer Handelshemmnisse (IVTH) am 18.09.2014 für verbindlich erklärt, in Kraft seit 01.01.2015, gilt in allen Kantonen (S. 12)
+
+## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
+Schwellenwerte für elektroakustische Notfallwarnsysteme / sprachgesteuerte Informationssysteme (Anhang zu Ziff. 6.1, S. 15-16):
+- Beherbergungsbetriebe [b]: ab 50 Betten Informationssystem mit Individual-Sprachdurchsage je Zimmer; ab 300 Betten zusätzlich elektroakustisches Notfallwarnsystem in öffentlich zugänglichen Bereichen
+- Verkaufsgeschäfte: Informationssystem generell erforderlich; elektroakustisches Notfallwarnsystem (nach SN EN 60849) ab Gesamtverkaufsfläche >4'800 m² (eingeschossig) bzw. >2'400 m² (mehrgeschossig)
+- Räume mit grosser Personenbelegung: Informationssystem ab >300 Personen, elektroakustisches Notfallwarnsystem ab >1'000 Personen
+- Bauten mit mehreren Sälen/gemeinsamen Foyers (Theater, Multiplexkino, Konzertsaal): Informationssystem ab gesamthaft >300 Personen, elektroakustisches Notfallwarnsystem ab >1'000 Personen
+- Messe-/Eventhallen, Bahnhof/Flughafen: Informationssystem generell erforderlich, elektroakustisches Notfallwarnsystem ab Gesamtfläche >4'800 m² (eingeschossig) bzw. >2'400 m² (mehrgeschossig)
+- Stadien: Informationssystem ab >300 Personen, elektroakustisches Notfallwarnsystem ab >10'000 Personen (offene Bauweise) bzw. >5'000 Personen (geschlossene Bauweise)
+- Evakuierungsräume (Aufenthaltskonzept): Informationssystem ab >100 Personen, elektroakustisches Notfallwarnsystem ab >1'000 Personen
+
+Sicherheitsbeauftragte-Brandschutz-Schwellen (Anhang zu Ziff. 4.3, S. 14): Beherbergung [b] >100 Gäste; Verkaufsgeschäfte >2'400 m² Verkaufsfläche; Personenbelegung >300 Personen; Industrie-/Gewerbe-/Büro-/Verwaltungs-/Schulbauten mit Summe Brandabschnittsflächen >10'000 m².
+
+## Begriffe
+- **RF2 / RF3** — Reaktion-auf-Feuer-Klassen für Dekorationsmaterial (RF2 Standard in Räumen mit Publikumsverkehr, RF3 genügt bei Sprinkleranlage, Ziff. 4.4.2) und für Gerüstbekleidungen/Notdächer auf Baustellen (Ziff. 5.1); Klassen-Definition selbst nicht Gegenstand dieser Richtlinie, siehe Brandschutznorm/BRL «Verwendung von Baustoffen»
+- **Sicherheitsbeauftragter Brandschutz** — der Geschäftsleitung direkt unterstellte, für Brandsicherheit im Betrieb verantwortliche Person (Ziff. 4.3)
+- **Sorgfaltspflichten** — allgemeinverbindliche, nicht objektspezifische Verhaltenspflichten im Umgang mit Feuer-/Explosionsgefahren (Ziff. 3.2)
+- **Betriebsfeuerwehr** — vom Betrieb selbst gestellte Feuerwehreinheit, wird von der Brandschutzbehörde bei grossem Risiko angeordnet (Ziff. 7.3)
+- **Beherbergungsbetriebe [a] / [b]** — im PDF nicht selbst definiert (Verweis auf andere BRL/Klassifikation), Kategorien [a]/[b] steuern die Pflicht zum Sicherheitsbeauftragten bzw. zu Informationssystemen (Anhang Ziff. 4.3 und Ziff. 6.1)
+
+## JANS-Praxis-Transfer
+- Skill `brandschutz`: liefert die organisatorische Ebene (Sicherheitsbeauftragter, Instandhaltungspflicht, Sorgfaltspflichten) als Ergänzung zu den bauteilbezogenen Richtlinien (Brandschutznorm, BRL Flucht-/Rettungswege, BRL Verwendung von Baustoffen); insbesondere die RF2/RF3-Anforderung an Dekorationen (Ziff. 4.4.2) und die Schwellenwerte für Sicherheitsbeauftragte/Notfallwarnsysteme sind direkt in Factsheets/Bauleitung-Memos verwendbar
+- Skills `unternehmerkontrolle`/`kostenkontrolle`: Ziff. 5 (Brandschutz auf Baustellen) liefert die Grundlage für Bauleitungs-Auflagen an Unternehmer während der Bauphase (Gerüstbekleidung RF-Klasse, Heissarbeiten-Erlaubnisschein, Lagerung Brennbares)
+- Skill `auflagebereinigung`: Ziff. 4.3 (Sicherheitsbeauftragter Brandschutz) und Ziff. 6 (Sicherheitsorganisation) als mögliche Bauentscheid-Auflage bei grösseren Nutzungen (Verkauf, Beherbergung, grosse Personenbelegung)
+- Skill `werkvertrag`/`ausschreibung`: Ziff. 5.1 Abs. 3 (RF2/RF3 für Gerüstbekleidung/Notdächer) als Fundstelle für LV-Positionen bei Fassaden-/Gerüstarbeiten an sensiblen Nutzungen
+
+## Offene Punkte
+- Definition von «Beherbergungsbetriebe [a]» und «[b]» nicht in diesem PDF enthalten (nur Verweis über Kategorien) — vermutlich in der VKF-Klassifikation/Brandschutznorm oder einer separaten BRL definiert; bei Bedarf dort nachschlagen
+- Keine Angabe im PDF, welche frühere Ausgabe diese BRL 12-15de ersetzt (Feld „ersetzt" im Frontmatter als unbekannt markiert) — bei Bedarf `ersetzte_normen.pdf` im Register prüfen
+- Grau hinterlegte Passagen (Übernahmen aus der Brandschutznorm, Hinweis Titelblatt S. 2) im vorliegenden Textextrakt nicht als solche erkennbar; bei Detailfragen zur Verbindlichkeit einzelner Absätze Original-PDF mit Layout konsultieren
