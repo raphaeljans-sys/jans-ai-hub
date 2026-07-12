@@ -4,6 +4,9 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-12
+- Nacht-Batch (`synobsis-batch-nacht`, Mac Mini) brach zunaechst in Stufe 1 ab: `rebuild_index()` warf `KeyError: 'architekt'` an den zwei am 2026-07-11 dazugekommenen Hilfsdateien `catalog/typology-map.json` + `catalog/raumtypen-beschreibungen.json` (Typologie-Referenzen mit `_meta`-Kopf, keine Architekten-Records). Fix in `tools/synobsis_scan.py`: Guard in `rebuild_index()`, der Records ohne `architekt`-Key ueberspringt (robust ggue. kuenftigen Nicht-Architekten-JSONs im catalog/). Danach sauberer Durchlauf: Stufe 1 nichts zu tun (853/853, offen 0), Stufe 2 `vectors.npz` neu (853 × 768, deterministisch → kein Diff), `INDEX.md` neu gebaut (849 indexiert). Auffaellig: `cad-index.json` wird mit 0 Eintraegen erzeugt (Katalog-Records ohne `cad_dateien`) — nicht committet, zu klaeren; `synobsis_query.py --semantic` faellt mangels numpy im pdftools-venv auf Stichwort-Modus zurueck. Protokoll: `outputs/2026-07-12_batch-lauf.md`.
+
 ## 2026-07-03
 - Stufe 2 (Semantik) auf Mac Mini scharfgeschaltet: python@3.12 via Homebrew installiert, venv ~/.venvs/synobsis mit sentence-transformers 5.6.0 + numpy 2.5.0 eingerichtet; Modell intfloat/multilingual-e5-base (~1 GB) heruntergeladen und gecacht. Vektorindex catalog/vectors.npz mit 853 x 768 Dimensionen erstellt. Zusaetzlich venv ~/.venvs/pdftools (python3.12 + pypdf) angelegt — wird von synobsis_batch.sh als SCAN_PY benoetigt. FDA fuer /bin/bash vorhanden (check-launchd-fda.sh: OK). launchd-Job ch.jans.synobsis-batch geladen (StartInterval 7200 s, Logs -> outputs/batch.log). Kontroll-Batch mit 25 Architekten erfolgreich: alle 853/853 verarbeitet, offen 0, vectors.npz aktuell. Automatisierung ab sofort aktiv.
 

@@ -245,6 +245,11 @@ def rebuild_index():
             r = json.loads(rp.read_text(encoding="utf-8"))
         except Exception:
             continue
+        # Hilfs-/Referenzdateien im catalog/ (z.B. typology-map.json,
+        # raumtypen-beschreibungen.json) tragen keinen Architekten-Record ->
+        # ueberspringen statt crashen.
+        if not isinstance(r, dict) or "architekt" not in r:
+            continue
         a = r["architekt"]["name"]
         inv = r["inventar"]
         rows.append((a, r["projekt_anzahl"], inv["bilder"], inv["dokumente"], inv["total"]))
