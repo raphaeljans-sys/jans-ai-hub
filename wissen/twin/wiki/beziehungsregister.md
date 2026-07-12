@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -671,3 +671,18 @@ Iris Tausch / Christoph Schoch / Rahel Lämmler / Roger Dörig (Stadt-ZH-Fachste
 «Sehr geehrte/r <Nachname>». Kontext-Wechsel bestätigt: Esther Haecki bekommt je nach Anlass «Liebe
 Esther» (Batch 19) ODER «Geschätzte Esther» (Bemusterungs-/Baurechts-Sachmail, Batch 32) — dasselbe
 Du, unterschiedliche Wärmefarbe nach Anlass.
+
+## Register-Bestätigung + neue Behörden-Sie-Mappings (belegt Mailbatch 33, authentisch)
+Fortsetzung des Fachstellen-Versands + Auflagebereinigung KISPI/Wartstrasse (2026-03-04/06). Bestätigt
+und ergänzt:
+- **«Werte Frau Hottinger»** (Kreisarchitektin) auch in der substanziellen Katasterplan-Sachmail — die
+  warme «Werte/r»-Stufe hält über den ganzen laufenden Faden mit der vertrauten Behördenperson, nicht nur
+  in der Anfrage. Bestätigt Batch 32.
+- **Neue/bestätigte Sie-Mappings (neutral-formell «Sehr geehrter Herr»):** Dirk Rinker, Robert Zürcher
+  (beide AfB/UGZ, Auflagenerfüllung Wartstrasse 8) — kalt-formeller Sie für die neu hinzukommenden
+  Amtspersonen im Bedingungen-vor-Frist-Prozess (vs. warm-Sie «Werte/r» für die federführenden Stellen).
+- **Ellipsen-Reply-Schluss «Guten Tag / Besten Dank.»** an die Behörde bei Erledigung (Zürcher, 2026-03-06)
+  — knapp-höfliches Sie ohne Namen, bestätigt das «Guten Tag»-Kurzregister bei Amts-Kurzbestätigungen.
+- **Stefanie «Steffi» Sonderegger** (KISPI-Betreiberin) → warm-Du «Werte Steffi» bestätigt; ihre eigene
+  Anrede an Raphael schwankt «Lieber Raphael/Rafael» (Vorname-Verschreibung ihrerseits, kein Signal für
+  Raphaels Register).

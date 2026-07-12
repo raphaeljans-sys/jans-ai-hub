@@ -1,6 +1,19 @@
-# Runbook — Trainings-Scheduled-Tasks zentralisieren auf den Mac Mini
+# Runbook — Trainings-Scheduled-Tasks: Verteilung auf beide Stationen
 
-**Zweck:** Die kompoundierenden Wissens-Trainings-Loops sollen **nur auf dem Mac Mini**
+> **UEBERHOLT-HINWEIS (12.07.2026, Rule auto-verbesserungen 260712):** Die urspruengliche
+> Zentralisierung «alles auf den Mac Mini» ist SUPERSEDIERT. Das MacBook Pro ist inzwischen
+> Always-On (disablesleep) und Raphael hat die INTENSIVPHASE angeordnet (Trainings auch
+> tagsueber + Wochenende, beide Stationen arbeiten). Es gilt die Zwei-Stationen-Arbeitsteilung:
+>
+> | Station | Loops |
+> |---|---|
+> | **MacBook Pro** | `baurecht-buch-training`, `twin-mail-training`, `twin-fidelity-review`, `immobewertung-training`, `spec-training`, `normen-training-nacht` (SIA+VKF), `wissens-chef` |
+> | **Mac Mini** | `energie-training`, `planungsgrundlagen-training`, `synobsis-batch-nacht`, `normen-training-mini` (DIN+VSS+RAL) |
+>
+> Kein Loop laeuft doppelt auf beiden Stationen (Duplikate auf der jeweils anderen Station
+> deaktivieren, nicht loeschen). TEIL A/B unten nur noch als historische Referenz.
+
+**Zweck (historisch, Stand 08.06.2026):** Die kompoundierenden Wissens-Trainings-Loops sollen **nur auf dem Mac Mini**
 laufen (Always-On), nicht auf dem MacBook Pro. Das MacBook schlaeft/klappt zu; feuert der
 Scheduler beim Aufwachen, sind NAS-SMB und OneDrive-CloudStorage noch nicht oben → die App
 meldet «Geplante Aufgabe … konnte nicht gestartet werden». Genau diese Toasts verschwinden,

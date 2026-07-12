@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-12 — twin-mail-training Batch 33 (2026-03-04 bis 2026-03-06)
+- Sent Items rj@ sequentiell weiter, 20 Mails gesichtet, 5 Volltexte destilliert (KISPI-Umnutzung
+  Anzeigeverfahren + Wartstrasse-8-Auflagebereinigung). Claude-Ära-Zone doppelt geprüft: alle 5 Rahmen
+  klar handgetippt (Kasus-Slips «Herr Ueli Kamm», «Projekt Vorgesprächen», «B**itten?**»), kein
+  Claude-Grundtext im destillierten Teil. Metrik 270 W, Du-Gross 1.0, Satzlänge ø 12.3 W, FG 5× dominant.
+- **stimme:** nackter «<Vorname>,»-Opener ohne «Hoi» bei vertrauter Kurzmail + interpretierende
+  Ein-Zeilen-Deutung hinter weitergeleiteter Amtsauskunft («Das ist eine gute Nachricht»); «Okeey» als
+  salopp-lockere Einzel-Wort-Bestätigung sogar an eine Behörde im laufenden Sie-Faden; «Danke für das
+  gegenseitige Vertrauen» als warm-relationale Ein-Zeilen-Geste vor der Lieferung.
+- **beziehungsregister:** Batch-32-Register-Split bestätigt; neue Sie-Mappings Rinker/Zürcher (formal
+  «Sehr geehrter Herr») vs. Hottinger (warm-Sie «Werte Frau» über ganzen Faden); «Guten Tag/Besten Dank»
+  als Amts-Kurzbestätigung; Steffi Sonderegger warm-Du «Werte Steffi».
+- **arbeitsweise:** reziproker Dokument-Austausch als Prozess-Hebel (dem Amt ein eigenes Muster beilegen,
+  um die amtseigene Liste zu erhalten); Behörden-Koordinationskette explizit nachzeichnen (Rücksprache X →
+  Verweis auf Y); «Bedingungen vor Frist» ziffernscharf tracken (Position I.1.a) + gezielt die einzelne
+  offene Position pushen mit plain-spoken Dringlichkeit «Wir möchten mit Bauen beginnen».
+- **fachsignatur:** Katasterplan bei interner Umnutzung unverändert (keine Aussenwirkung → rein informativ);
+  Zuständigkeits-Realismus Geomatik (beglaubigt) ↔ Kreisarchitekt (Inhalt-Freigabe), eigene Darstellung
+  «rein informativer Charakter».
+- _INGESTED-Sweep-Stand: abgedeckt bis 2026-03-06; nächster Lauf ab 2026-03-06.
+
 ## 2026-07-12 — twin-mail-training Batch 32 (2026-02-28 bis 2026-03-04)
 - Sent Items rj@ sequentiell weiter, 20 Mails gesichtet, 5 Volltexte destilliert (KISPI-Umnutzung +
   Thalwil 2414 + Wartstrasse 8). Alle klar handgetippt/authentisch (Syntax-Slips), kein Claude-Grundtext

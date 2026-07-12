@@ -355,3 +355,12 @@ Widerlegungs-Pruefung (Verifier-Prinzip der Spec-Methode, automatisiert):
 Der Loop laeuft intensiviert (auch tagsueber und am Wochenende, Rule 260712), bis ein markant
 besserer Wissensstand erreicht ist (Inventar/Rueckstaende abgearbeitet, keine auto-schliessbaren
 Luecken). Dann Ruecktaktung ins Nachtfenster VORSCHLAGEN (nicht stillschweigend umsetzen).
+
+### Token-Vollgas bis 10.08.2026 (Rule 260712b)
+
+Bis und mit 10.08.2026 gilt maximaler Durchsatz (20x-Abo): Batch-Volumen pro Lauf
+VERDOPPELN gegenueber den oben genannten Richtwerten (z.B. Normen 15-25 Positionen,
+Energie 6-10 PDFs, Planungsgrundlagen 2 Domaenen + 10-16 Fragen, Baurecht 4-6
+Verifikations-Komplexe), Workflow-Parallelisierung als Standard. Ab 11.08.2026
+(5x-Abo) gelten wieder die urspruenglichen Richtwerte und der Sparbetrieb; die
+Ruecktaktung erledigt der One-Time-Task `token-drosselung-100810`.

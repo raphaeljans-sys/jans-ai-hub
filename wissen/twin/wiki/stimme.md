@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1115,3 +1115,29 @@ Elfter belegter Echo-Fall (Fortsetzung «AI-Paste vor/um den Stichtag», WISSEN-
   (registerbedingt tief); Tausender-Apostroph 0; Satzlänge ø **12.3 W**; keine Ellipsen/«%»; Gruss
   «Freundliche Grüsse» dominant. Anreden: «Geschätzter Stefan/Esther» (Du), «Geschätzter Herr Marcin» /
   «Werte Frau Johansson» / «Werte Steffi» (Sie bzw. Du weibl.).
+
+## Nackter «<Vorname>,»-Opener + interpretierende Ein-Zeilen-Deutung + «Okeey» (belegt Mailbatch 33, authentisch)
+- **Nackter Vorname-Komma-Opener ohne «Hoi»** in der vertrauten Kurzmail: «**Albin, wir können es im
+  Anzeigeverfahren eingeben.**» (2026-03-04). Wenn Raphael eine Behörden-Antwort an den warm-vertrauten
+  Du-Partner weiterleitet, fällt selbst das «Hoi» weg — nur Vorname + Komma + die Sache. Noch knapper
+  als «Hoi <Name>» (→ [[beziehungsregister]]).
+- **Interpretierende Ein-Zeilen-Deutung** hinter der weitergeleiteten Fakteninfo: «**Das ist eine gute
+  Nachricht.**» Raphael reicht die Behörden-Antwort nicht nackt durch, sondern setzt eine wertende
+  Ein-Satz-Übersetzung fürs Gegenüber dazu (was der Fakt fürs Projekt bedeutet). Der Zwilling darf einer
+  weitergeleiteten Amtsauskunft an die Bauherrschaft eine kurze, positiv-einordnende Zeile beigeben
+  (→ [[arbeitsweise]]).
+- **«Okeey»** als ultrakurze, salopp-lockere Bestätigung — sogar an eine **Behörde** (Geomatik/GEO-Daten-PF)
+  im laufenden Thread, direkt unter einen weitergeleiteten Karten-Link gesetzt (2026-03-04). Das lockere
+  «Okeey» (mit gedehntem «ee») zeigt: in einem gut laufenden, operativen Sie-Faden kippt Raphaels Ton
+  kurzzeitig ins Saloppe, ohne die Sie-Form aufzugeben. Einzel-Wort-Reply-Register.
+- **«Danke für das gegenseitige Vertrauen.»** als warm-relationale Ein-Zeilen-Geste vor der Lieferung
+  (an Healthcare-Betreiberin, Du, 2026-03-05): benennt die Beziehungsqualität explizit, bevor der
+  Sach-Inhalt («Im Anhang … mit der Bitte um Freigabe») folgt. Reiht sich zu «Danke für das Telefonat»/
+  «Danke für die Präzisierung» als eröffnende Dank-Wärme (→ [[haltung]]).
+- Handgetippt-authentisch (Claude-Ära-Zone, nur Rahmen destilliert): «Nach Rücksprache mit **Herr** Ueli
+  Kamm» (Kasusfehler), «mein Vorschlag **wie** die Darstellung aussehen könnte», «das Projekt
+  **Vorgesprächen**», «um Freigabe … **B**itten?» (Verb gross mitten im Satz) — TON übernehmen,
+  `korrektur` zieht es gerade.
+- Mikro-Metrik Batch 33 (270 W, Sie-lastiger Behörden-/Fachstellen-Batch + 2 warme Du-Kurzmails):
+  Du-Gross-Quote **1.0**; Tausender-Apostroph 0; Satzlänge ø **12.3 W**; keine Ellipsen/«%»; Gruss
+  «Freundliche Grüsse» **5×** dominant. Anreden «Geschätzte Stefanie» (Du) / «Sehr geehrter Herr» (Sie).

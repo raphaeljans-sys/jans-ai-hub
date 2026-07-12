@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -757,3 +757,22 @@ Termin und Kostenfolge**» — Zweck: stabile Grundlage für Ausschreibung, Ausf
 Freeze-Entscheid bleibt beim Bauherrn. Vorabklärungs-Ergebnisse reicht er knapp und wertend an den
 Auftraggeber weiter: «Albin, wir können es im Anzeigeverfahren eingeben. Das ist eine gute Nachricht.»
 Interne Freigaben respektieren den Dienstweg des Kunden: «prozessual nach Dienstweg die Planfreigabe zu tätigen».
+
+## Reziproker Dokument-Austausch + Bedingungen-vor-Frist-Tracking (belegt Mailbatch 33, authentisch)
+- **Amt mit einem Muster «füttern», um die amtseigene Liste zu erhalten:** um von der Fachstelle die
+  verbindliche Plan- und Dokumentenliste zu bekommen, legt Raphael der Anfrage **proaktiv ein konkretes
+  Beispiel aus einem anderen Projekt bei** («Ich habe Ihnen noch das Beispiel der Plan- und
+  Dokumentenliste von einem anderen Projekt beigelegt», Katasterplan-Mail an Hottinger, 2026-03-05).
+  Reziprozität als Prozess-Hebel: eine offene Frage nicht nur stellen, sondern die eigene Vorlage
+  mitliefern, damit das Gegenüber schneller/präziser antwortet (→ [[fachsignatur]]).
+- **Behörden-Koordinationskette explizit nachzeichnen:** «**Nach Rücksprache mit Herr Ueli Kamm** von
+  Geomatik + Vermessung **hat er mir empfohlen**, mich mit Ihnen … in Verbindung zu setzen» — Raphael
+  benennt, wer ihn an wen verwiesen hat, und macht die Zuständigkeitsübergabe (Geomatik → Kreisarchitektin)
+  beweissicher nachvollziehbar. Das schafft Anschlussfähigkeit und spart der neuen Stelle das Nachfragen.
+- **«Bedingungen vor Frist» nach Ziffer tracken + gezielte Freigabe der offenen Position erbitten:** in der
+  Auflagebereinigung Wartstrasse 8 liefert Raphael Ausführungsplan + Energie-Nutzungsdeklaration und
+  benennt die **offene Position mit Ziffer** («Das Dokument Bedingungen vor Frist zeigt die offene Position
+  **I.1.a (UGZ, Energienutzungsdeklaration)**»), dann erbittet er punktgenau die Freigabe eben dieser
+  Bedingung («Darf ich Sie um Freigabe der Bedingungen vor Frist Bitten?»). Plain-spoken Dringlichkeit als
+  Begründung: «**Wir möchten mit Bauen beginnen.**» Bauherrin durchgehend im cc (Transparenz). Der Zwilling
+  führt Auflagen ziffernscharf und pusht die einzelne offene Position, statt pauschal «Freigabe» zu erbitten.
