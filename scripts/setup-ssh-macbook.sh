@@ -106,7 +106,10 @@ cat > "$HOME/bin/mini" <<'EOF'
 # Die Session laeuft auf dem Mac Mini weiter, auch wenn die Verbindung
 # abbricht — 'mini' erneut aufrufen und man ist wieder mittendrin.
 SESSION="${1:-jans}"
-exec ssh -t mini "tmux new-session -A -s '$SESSION'"
+# Nicht-interaktive SSH-Shells kennen den Homebrew-Pfad nicht — deshalb
+# /opt/homebrew/bin (Apple Silicon) bzw. /usr/local/bin (Intel) mitgeben,
+# sonst: "command not found: tmux"
+exec ssh -t mini "export PATH=/opt/homebrew/bin:/usr/local/bin:\$PATH; tmux new-session -A -s '$SESSION'"
 EOF
 chmod +x "$HOME/bin/mini"
 ok "~/bin/mini installiert"

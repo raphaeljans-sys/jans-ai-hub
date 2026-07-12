@@ -50,6 +50,15 @@ echo ""
 
 # ─── 2. tmux installieren ───────────────────────────────────────────────
 echo "── 2/4: tmux installieren ──"
+# Homebrew liegt unter /opt/homebrew (Apple Silicon) bzw. /usr/local (Intel).
+# In nicht-interaktiven SSH-Sessions fehlt dieser Pfad im PATH — deshalb
+# explizit einbinden, sonst meldet das Script faelschlich "Homebrew fehlt".
+for BREW_BIN in /opt/homebrew/bin/brew /usr/local/bin/brew; do
+    if [ -x "$BREW_BIN" ]; then
+        eval "$("$BREW_BIN" shellenv)"
+        break
+    fi
+done
 if command -v tmux >/dev/null 2>&1; then
     ok "tmux vorhanden ($(tmux -V))"
 elif command -v brew >/dev/null 2>&1; then
