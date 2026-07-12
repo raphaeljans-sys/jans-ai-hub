@@ -80,6 +80,7 @@ else
 # JANS AI Hub — tmux Grundkonfiguration
 set -g mouse on
 set -g history-limit 50000
+set -g focus-events on
 set -g default-terminal "screen-256color"
 set -g status-style "bg=colour236,fg=colour248"
 set -g status-left "[#S] "
