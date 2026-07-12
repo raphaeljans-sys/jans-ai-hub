@@ -13,6 +13,34 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-12 23:15 — KORREKTUR: kein MacBook-Login-Blocker, Token gueltig [FREI]
+
+**Richtigstellung (wichtig fuer kuenftige Laeufe):** Der als P1 gefuehrte «MacBook Pro Not
+logged in»-Blocker war ein DIAGNOSE-FEHLER. Ursache: der Login-Test lief aus `~` OHNE das
+Env-File zu sourcen; der Runner sourcet aber `~/.jans-dispatch.env` vor jedem Aufruf.
+Verifiziert 23:12–23:15: (1) `~/.jans-dispatch.env` enthaelt einen gueltigen
+`CLAUDE_CODE_OAUTH_TOKEN` (108 Zeichen, `sk-ant-o…`); (2) mit gesourctem Env antwortet
+`claude -p … --model haiku` mit «OK» (rc=0); (3) die EXAKTE Runner-Invocation
+(`--permission-mode acceptEdits --max-budget-usd 25 --fallback-model sonnet --output-format text -- "$PROMPT"`)
+mit dem echten `baurecht-buch-training`-Prompt lief **>120 s echte Arbeit** bis zum Test-Abbruch.
+Der MacBook-Runner IST arbeitsfaehig. **Fuer Raphael ist NICHTS zu tun — `setup-token` entfaellt.**
+
+**Neue Erklaerung der rc=1-Zeilen im MacBook-Log:** (a) Beide Stationen nutzen dasselbe Max-Konto
+(ein Token) → sie teilen sich EIN 5h-/Wochenlimit; wenn der Mac Mini das Fenster fuellt, bekommt
+das MacBook Limit-Rueckweisungen (= gewollter [VOLL]-Zustand). (b) Der 19-s-rc=1 bei
+`immobewertung-training` deutet auf einen fehlgeschlagenen ABSCHLUSS-Schritt (git commit/push des
+Tasks) wegen der starken `index.lock`-Contention ueber SMB — die KB-Edits landen trotzdem und
+werden vom nas-selfcommit eingesammelt.
+
+**P2 — Doppelspurigkeit pruefen (statt Login):** MacBook-Runner UND launchd-Scheduled-Tasks
+fahren dieselben Loops; der Runner hat zwar einen pgrep-Doppellauf-Schutz, aber die eigentliche
+Bremse ist die Git-Lock-Contention (mehrere Committer auf EIN NAS-`.git` ueber SMB). Groesster
+realer Hebel jetzt: Commit-Kollisionen entschaerfen (z.B. Tasks committen seltener / gebuendelt,
+oder nas-selfcommit uebernimmt das Pushen exklusiv). Kein Login-Thema mehr.
+
+**Mail:** KEINE. Der 22:52-Login-Blocker ist hiermit als Fehlalarm aufgeloest; eine Entwarnungs-
+Mail waere unnoetiger Laerm (Morgen-Briefing traegt die Korrektur).
+
 ## 2026-07-12 23:05 — Mini-Run bestaetigt (rc=0), aber STOP-Macmini haelt Mini an (unklar)
 
 **Lagebild:** Zwei harte Fakten aus dem Mini-Log. (1) Positiv belegt: `planungsgrundlagen-training`
