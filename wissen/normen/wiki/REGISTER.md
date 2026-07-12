@@ -386,3 +386,42 @@ DIN 4102-1, SN 640 060), Qualität entspricht dem KB-Standard — jetzt nachgezo
 | DIN EN 12101-2 | 2003-09 (dt. Fassung EN 12101-2:2003) | — | gilt; Teil-Destillat (38 S., Anhang C-F S.17-30 offen) |
 | SN 640 060 (VSS) | November 1994 | nicht angegeben im Dokument | gilt |
 | SN 640 066 (VSS) | April 1996 | nicht angegeben im Dokument | gilt |
+
+## Run-3-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
+
+P2-SIA-Batch (Tragwerk 260–267, Hindernisfrei/Sicherheit/Boden/Abdichtung/Dach/Fassade).
+Gültigkeit/«ersetzt» direkt aus Titelblatt/Vorwort des jeweiligen PDF belegt (nicht aus dem
+2013-Register abgeleitet); alle Destillate am Original adversarial verifiziert (`established`):
+
+| Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
+|---|---|---|---|
+| SIA 260 | 2003 | Ziff. 0–3 der SIA 160:1989 | gilt; Grundlagen Tragwerksprojektierung (Tragwerksnormen-Generation 2003, mit SIA 260/1) |
+| SIA 261 | 2003 | mit SIA 261/1 die Ziff. 4 der SIA 160:1989 | gilt; Einwirkungen (Schnee/Wind/Erdbeben, Tab. 8 Nutzlasten, Tab. 25–27 Erdbeben) |
+| SIA 262 | 2003 | mit SIA 262/1 die SIA 162:1993 + SIA 162/1:1989 | gilt; Betonbau (γc=1,5/γs=1,15, Expositionsklassen Tab. 1, Betonsorten Tab. 3) |
+| SIA 263 | 2003 | Ziff. 0–4.6 + 5–6 der SIA 161:1990 | gilt; Stahlbau |
+| SIA 264 | 2003 | mit SIA 264/1 die Ziff. 4.7–4.9 der SIA 161:1990 | gilt; Stahl-Beton-Verbundbau |
+| SIA 265 | 2003 | mit SIA 265/1 die SIA 164:1981/92 + SIA 164/1:1986 | gilt; Holzbau |
+| SIA 266 | 2003 | mit SIA 266/1 die Empf. SIA V177:1995 | gilt; Mauerwerk (γM=2,0, Brand Tab. 10) |
+| SIA 267 | 2003 | Empf. SIA V191:1995, V192:1996, Vornorm SIA 191/1:2001, Merkbl. SIA 2009:1996 | gilt; Geotechnik |
+| SIA 500 | 2009 | SN 521500:1988 (Behindertengerechtes Bauen) | gilt; Hindernisfreie Bauten — Kernnorm Healthcare/öffentliche Bauten |
+| SIA 358 | 2010 | SIA 358:1996 | gilt; Geländer und Brüstungen (Absturzsicherung) |
+| SIA 251 | 2008 | Empf. SIA V251/1:1998 | gilt; Schwimmende Estriche im Innenbereich |
+| SIA 252 | 2002 | techn. Teil SIA 252:1988 | gilt; Fugenlose Industriebodenbeläge |
+| SIA 253 | 2002 | techn. Teil SIA 253 + SIA 254, Ausgabe 1988 | gilt; Bodenbeläge Linoleum/Kunststoff/Gummi/Kork/Textil/Holz |
+| SIA 257 | 2005 | techn. Teile SIA 257:1989 (Maler) + SIA 259:1977 (Tapezierer) | gilt; Maler-, Holzbeiz- und Tapeziererarbeiten |
+| SIA 271 | 2007 | techn. Teile SIA 271:1986 + SIA 271/1:1991 + SIA 271/2:1994 | gilt; Abdichtungen von Hochbauten |
+| SIA 279 | 2018 | SIA 279:2011 + Merkbl. SIA 2001:2015 | gilt; Wärmedämmende Baustoffe — **neuer als 2013-Register (aktuell)** |
+| SIA 281 | 2017 | SIA 281:2013 | gilt; Kunststoff-, Bitumen- und Ton-Dichtungsbahnen — **neuer als 2013-Register** |
+| SIA 232 | 2000 | SIA 238:1988 + Teile SIA 123:1970 / SIA 124:1970 | gilt; Geneigte Dächer |
+| SIA 329 | 2018 | SIA 329:2012 | gilt; Vorhangfassaden — **neuer als 2013-Register** (Abschnitt C führt 2018+1989) |
+| SIA 240 | 1988 | Norm 130:1959 (Schlosser-/Metallarbeiten) | gilt (Bestand); Metallbauarbeiten — alte Ausgabe, aktuellere Ausgabe ggf. Bring-Schuld |
+
+## Mini-Run-2-Neu (12.07.2026, Mac Mini — 5 neue Destillate, am Original gelesen)
+
+| Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
+|---|---|---|---|
+| DIN 1249-11 | September 1986 | nicht angegeben (Erstausgabe Teil 11) | gilt; Flachglas im Bauwesen, Glaskanten (Begriff/Kantenformen) |
+| DIN 68119 | September 1996 | DIN 68119:1990-04 (davor DIN 68119-1:1980-10) | gilt; Holzschindeln |
+| DIN 4426 | September 2001 | DIN 4426:1990-04 | gilt; Instandhaltung baulicher Anlagen — Arbeitsplätze/Verkehrswege Dach+Fassade, Gerüstverankerung |
+| DIN EN 12207 | 2000-06 (dt. Fassung EN 12207:1999-11) | teilweise DIN 18055:1981-10 (nur Ziff. 3.2 Fugendurchlässigkeit) | gilt; Fenster/Türen Luftdurchlässigkeit-Klassifizierung 1–4, NA-Tabelle Korrelation zu alten Beanspruchungsgruppen A/B/C |
+| DIN 1055-2 | 2010-11 | DIN 1055-2:1976-02 | gilt; Bodenkenngrössen — nur Geotechnische Kategorie 1, Gründungstiefe ≤ 3 m |

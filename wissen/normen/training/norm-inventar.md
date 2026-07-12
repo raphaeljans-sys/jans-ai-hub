@@ -476,11 +476,11 @@
 | [ ] | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1053-4.pdf` | 1053 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1054.pdf` | 1054 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1055-2.pdf` | 1055 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 1055-2.pdf` | 1055 | 2010 | destilliert (din-1055-2-2010.md), Bodenkenngroessen |
 | [ ] | P3 | `DIN-Norm/DIN 1072 Beiblatt 1.pdf` | 1072 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1076.pdf` | 1076 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1164-10.pdf` | 1164 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1249-11.pdf` | 1249 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 1249-11.pdf` | 1249 | 1986 | destilliert (din-1249-11-1986.md) |
 | [ ] | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 |  |  |
@@ -505,18 +505,18 @@
 | [ ] | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 |  |  |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | Teil-Destillat (din-4102-1-1998.md, S.1-20+26-28/28), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant |
 | [ ] | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 |  |  |
 | [x] | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | destilliert 260712 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 | 1985 | destilliert (din-5034-2-1985.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 | 2007 | destilliert (din-5034-3-2007.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 | 1994 | destilliert (din-5034-4-1994.md, Scan nur ungerade Seiten), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | destilliert (din-5034-6-1995.md), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md) |
 | [ ] | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 |  |  |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md) |
 | [ ] | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN V 106.pdf` | 106 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN V 107.pdf` | 107 |  |  |

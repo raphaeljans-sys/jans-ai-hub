@@ -51,3 +51,16 @@
   Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
   bei konkreter Layer-Benennung SIA 2014 beiziehen (SIA-Shop, nur auf Zuruf). (Notiert 12.07.2026
   beim Destillieren von SIA 400.)
+
+- [x] **P2-SIA-Batch 1 destilliert — 12.07.2026 (Run 3):** SIA 260–267 (Tragwerk),
+  500/358/251/252/253/257/271/281/279/232/329/240 (Hochbau) — 20 Normen am Original
+  adversarial verifiziert (`established`). Tragwerksnormen-Generation 2003 vollständig
+  im Bestand + destilliert (Grundlagen bis Geotechnik).
+- [ ] **SIA /1-Ergänzungsnormen** (260/1, 261/1, 262/1, 264/1, 265/1, 266/1) nicht
+  separat destilliert — bei tragwerksstatischen Detailfragen (z.B. 261/1 Einwirkungs-
+  Ergänzungen) Original nachlesen. Im Bestand-Inventar prüfen, ob vorhanden.
+- [ ] **SIA 240:1988 (Metallbauarbeiten)** ist eine sehr alte Ausgabe (ersetzt Norm
+  130:1959); aktuellere Ausgabe (falls vorhanden) am SIA-Shop verifizieren — Bring-Schuld
+  Raphael (kein Auto-Web, kein Kauf durch Claude).
+- [ ] **SIA 279:2018 / 281:2017 / 329:2018** sind NEUER als das 2013-Register — als aktuell
+  geführt (am PDF-Deckblatt belegt), gelten bis zur nächsten Revision.

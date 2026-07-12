@@ -48,3 +48,28 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | destilliert (S.1-16+31-38/38) |
 | `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | destilliert |
 | `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | destilliert |
+| `sia-260-2003.md` | SIA 260 Grundlagen der Projektierung von Tragwerken | 2003 | established (verifiziert 260712) |
+| `sia-261-2003.md` | SIA 261 Einwirkungen auf Tragwerke | 2003 | established (verifiziert 260712) |
+| `sia-262-2003.md` | SIA 262 Betonbau | 2003 | established (verifiziert 260712) |
+| `sia-263-2003.md` | SIA 263 Stahlbau | 2003 | established (verifiziert 260712) |
+| `sia-264-2003.md` | SIA 264 Stahl-Beton-Verbundbau | 2003 | established (verifiziert 260712) |
+| `sia-265-2003.md` | SIA 265 Holzbau | 2003 | established (verifiziert 260712) |
+| `sia-266-2003.md` | SIA 266 Mauerwerk | 2003 | established (verifiziert 260712) |
+| `sia-267-2003.md` | SIA 267 Geotechnik | 2003 | established (verifiziert 260712) |
+| `sia-500-2009.md` | SIA 500 Hindernisfreie Bauten | 2009 | established (verifiziert 260712) |
+| `sia-358-2010.md` | SIA 358 Geländer und Brüstungen | 2010 | established (verifiziert 260712) |
+| `sia-251-2008.md` | SIA 251 Schwimmende Estriche im Innenbereich | 2008 | established (verifiziert 260712) |
+| `sia-252-2002.md` | SIA 252 Fugenlose Industriebodenbeläge | 2002 | established (verifiziert 260712) |
+| `sia-253-2002.md` | SIA 253 Bodenbeläge (Linoleum/Kunststoff/Gummi/Kork/Textil/Holz) | 2002 | established (verifiziert 260712) |
+| `sia-257-2005.md` | SIA 257 Maler-, Holzbeiz- und Tapeziererarbeiten | 2005 | established (verifiziert 260712) |
+| `sia-271-2007.md` | SIA 271 Abdichtungen von Hochbauten | 2007 | established (verifiziert 260712) |
+| `sia-279-2018.md` | SIA 279 Wärmedämmende Baustoffe | 2018 | established (verifiziert 260712) |
+| `sia-281-2017.md` | SIA 281 Kunststoff-, Bitumen- und Ton-Dichtungsbahnen | 2017 | established (verifiziert 260712) |
+| `sia-232-2000.md` | SIA 232 Geneigte Dächer | 2000 | established (verifiziert 260712) |
+| `sia-329-2018.md` | SIA 329 Vorhangfassaden | 2018 | established (verifiziert 260712) |
+| `sia-240-1988.md` | SIA 240 Metallbauarbeiten | 1988 | established (verifiziert 260712) |
+| `din-1249-11-1986.md` | DIN 1249-11 Flachglas im Bauwesen, Glaskanten | 1986-09 | destilliert |
+| `din-68119-1996.md` | DIN 68119 Holzschindeln | 1996-09 | destilliert |
+| `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | destilliert |
+| `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | destilliert |
+| `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | destilliert |
