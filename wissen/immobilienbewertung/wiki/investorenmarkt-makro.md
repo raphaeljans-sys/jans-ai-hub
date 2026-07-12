@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-07-10
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8), BFS Baupreisindex April 2026 (neue Basis Okt-2025 = 100 → 100.6, +1.0 % YoY; Web BFS/fachbau.ch 18.06.2026, Run 15) + Marktpuls-Web-Check 08.07.2026 (SNB 0.00 %/Referenzzins 1.25 % unveraendert, Run 15)]
+last_updated: 2026-07-12
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8), BFS Baupreisindex April 2026 (neue Basis Okt-2025 = 100 → 100.6, +1.0 % YoY; Web BFS/fachbau.ch 18.06.2026, Run 15) + Marktpuls-Web-Check 08.07.2026 (SNB 0.00 %/Referenzzins 1.25 % unveraendert, Run 15) + Marktpuls-Web-Check 12.07.2026 (Run 17): Anker unveraendert, neu massgebender Durchschnittszinssatz 31.03.2026 = 1.31 % (von 1.32 %), Web BWO-Entwicklungstabelle/SNB-Lagebeurteilung 19.06.2026/SMG-Mietindex 05-2026/UBS SREBI Q1-2026]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -151,6 +151,16 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
     1.13 %). Nächste Publikation **1. September 2026**. Für die Bewertung heisst das: der für
     Run 6 notierte Aufwärtsdruck auf Bestandes-Cashflows bleibt vorerst aus; Beobachtungspunkt
     weiterhin, ob der Durchschnittszins über 1.37 % steigt. Quelle: BWO/WBF-Mitteilung 01.06.2026.
+  - **Durchschnittszinssatz driftet leicht abwärts — Update 12.07.2026 (Run 17):** Der von der
+    SNB per **Stichtag 31. März 2026** ermittelte massgebende Durchschnittszinssatz ist gegenüber
+    dem Vorquartal von **1.32 % auf 1.31 %** gesunken (BWO). Damit bewegt sich der geglättete Satz
+    **weiter weg von der Erhöhungsschwelle 1.37 %** und Richtung Mitte des Stabilitätsbands
+    (1.13–1.37 %). Für die Bewertung: das **Risiko einer Referenzzins-Erhöhung auf 1.50 % in den
+    nächsten Quartalen sinkt weiter** — der zwischenzeitlich (Run 6) notierte Aufwärtsdruck auf
+    Bestandesmieten ist damit noch unwahrscheinlicher geworden; eher bleibt bei 1.25 % der
+    Referenzzins seitwärts oder es entsteht auf tieferen Basiswerten Senkungspotenzial. Nächste
+    Publikation **1. September 2026** (Stichtag 30. Juni 2026). Quelle: BWO
+    (bwo.admin.ch/entwicklung-referenzzinssatz-und-durchschnittszinssatz), Web-Check 12.07.2026.
 - **SNB-Leitzins: 0.00 % — bestätigt an der geldpolitischen Lagebeurteilung vom 18.06.2026.**
   Die SNB belässt den Leitzins unverändert bei null (seit Mitte 2025 wieder bei null nach der
   Straffung 2022–2023). Die **Teuerung beschleunigte sich auf 0.6 % (Mai 2026)** von 0.1 %
@@ -351,6 +361,24 @@ Baupreisteuerung (`IMMO-06 Immo-Monitoring`) beeinflusst die Erstellungskosten.
   1.11 % / 10 J ab 1.41 %). SMG/Homegate-Mietindex weiterhin **Mai-2026 = 133.7 (+0.2 % MoM,
   +2.5 % YoY)** — juengster publizierter Stand; BFS-Baupreisindex **April 2026 = 100.6 (+1.0 % YoY)**
   unveraendert (Run 15). Kein neuer Publikationstermin seit Run 15 erreicht → keine Anpassung.
+- ✓ 2026-07-12 (Run 17): **Marktpuls-Web-Check — Zins-/Preis-Anker unveraendert, ein neuer Detailwert.**
+  SNB-Leitzins **0.00 %** (Entscheid 19.06.2026 gehalten; Inflation von 0.1 % Feb auf 0.6 % Mai
+  gestiegen, erdoelgetrieben; BIP-Prognose ~1 % 2026 / ~1.5 % 2027; Devisenmarkt-Interventions-
+  bereitschaft weiterhin erhoeht). Referenzzins **1.25 %** (BWO, per 02.06.2026 bestaetigt, naechste
+  Publ. 01.09.2026). **Neu: massgebender Durchschnittszinssatz per 31.03.2026 = 1.31 % (von 1.32 %
+  per 31.12.2025) → driftet weiter weg von der Erhoehungsschwelle 1.37 %** (Detail oben, Referenzzins-
+  Zeile) — reduziert das Risiko einer Referenzzins-Erhoehung weiter. SMG/Homegate-Mietindex weiterhin
+  **Mai-2026 = 133.7 (+2.5 % YoY)** (juengster publ. Stand; regionale YoY-Spitzen Nidwalden +7.7 % /
+  Graubuenden +5.9 % / Uri +5.8 %, Staedte-Spitze Stadt Luzern +7.2 %); BFS-Baupreisindex **April 2026
+  = 100.6 (+1.0 % YoY)** unveraendert (naechste Publ. Dez-2026, Oktober-Erhebung; groesste regionale
+  Anstiege Tessin +1.4 % / Zentralschweiz +1.3 %). **SREBI Q2-2026 weiterhin nicht publiziert** —
+  Q1-2026 = **0.69 «moderat»** bleibt der aktuelle Anker (Risiko-Hotspots GR-Tourismus/Einsiedeln/
+  Stadt ZH/Nidwalden). WP-Sommerprognose 2026 bestaetigt: Wohneigentum-Konsolidierung (~+3 %, EFH
+  +3.1 % / ETW +2.8 %), keine drastischen Preisrueckgaenge, MFH als Anlage weiterhin gefragt. Kein
+  Publikationstermin seit Run 16 erreicht → keine Anpassung der Diskont-/Kapitalisierungssaetze.
+  Quellen: SNB-Lagebeurteilung 19.06.2026, BWO-Referenzzinssatz + Entwicklungstabelle, SMG-Mietindex
+  05/2026, BFS-Baupreisindex (fachbau.ch/BFS 18.06.2026), UBS SREBI Q1-2026, WP-Prognose (Web 07.2026).
 - T10 laufend: naechster SREBI (Q2-2026, erwartet ~09.2026) + naechste Referenzzins-Publikation
-  **01.09.2026** (ob Durchschnittszins ueber 1.37 % steigt); die Wuest-Kurszahlen bleiben Stand
-  2022/23 (historische Anker).
+  **01.09.2026** (Stichtag 30.06.2026; ob Durchschnittszins ueber 1.37 % steigt — aktuell 1.31 %,
+  Tendenz sinkend) + naechster Baupreisindex (Dez-2026, Oktober-Erhebung); die Wuest-Kurszahlen bleiben
+  Stand 2022/23 (historische Anker).

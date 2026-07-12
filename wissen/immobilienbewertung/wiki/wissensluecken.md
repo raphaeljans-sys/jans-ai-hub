@@ -22,9 +22,16 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen, T19, **D4** (Excel-Tool-Formeln, Run 15) **und D8** (JANS-Kennwerte-DOCX + Healthcare-Umbaukosten, Run 16) sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle). Verbleibend: **nur D5** (buerospezifische Margen-/Finanzierungspraxis — echte Bring-Schuld Raphael, nicht durch Loop schliessbar); Emilienheim-Flaechenkennwerte **bestaetigt nicht verfuegbar** (nur Tages-Anzeiger-Medienquelle, keine Kennwertblatt). Naechste Auffrischung: Baupreisindex/Referenzzins-Publ. 01.09.2026, SREBI Q2-2026 | — | — |
+| — | **Keine offenen T-Aufgaben.** Der Wuest-Kurs, alle lesbaren E-Quellen, T19, **D4** (Excel-Tool-Formeln, Run 15) **und D8** (JANS-Kennwerte-DOCX + Healthcare-Umbaukosten, Run 16) sind eingearbeitet; der Loop laeuft im **Aktualisierungs-/Vertiefungs-Modus** (Marktpuls, neue reale Faelle). Verbleibend: **nur D5** (buerospezifische Margen-/Finanzierungspraxis — echte Bring-Schuld Raphael, nicht durch Loop schliessbar); Emilienheim-Flaechenkennwerte **bestaetigt nicht verfuegbar** (nur Tages-Anzeiger-Medienquelle, keine Kennwertblatt). **Marktpuls-Stand Run 17 (2026-07-12): alle Anker unveraendert**, Durchschnittszinssatz 31.03.2026 leicht auf 1.31 % gesunken. Naechste Auffrischung mit neuem Signal: Referenzzins-Publ. **01.09.2026** (Stichtag 30.06.), SREBI Q2-2026 (~09.2026), Baupreisindex Dez-2026 | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-12 **Auffrischungslauf Marktpuls (Run 17)** — reiner Aktualisierungslauf, keine neue
+  Quelle. Bewertungsordner geprueft: **kein neuer JANS-Fall** seit Run 6. Web-Marktpuls: alle Zins-/
+  Preis-Anker unveraendert (SNB 0.00 %, Referenzzins 1.25 %, Mietindex Mai-2026 133.7 / +2.5 % YoY,
+  Baupreisindex Apr-2026 100.6 / +1.0 % YoY, SREBI Q1-2026 0.69). Einziger neuer Detailwert:
+  **Durchschnittszinssatz 31.03.2026 = 1.31 %** (von 1.32 %) → weiter weg von der Erhoehungsschwelle
+  1.37 % → [[investorenmarkt-makro]]. Verbleibend nur D5 (Bring-Schuld Raphael).
 
 - ✓ 2026-07-10 **D8 geschlossen — JANS-Kennwerte-DOCX + Healthcare-Umbaukosten eingearbeitet**
   (Run 16): Wie bei D4 sind auch die als freigabegebunden angenommenen Kennwerte-DOCX TCC-lesbar.

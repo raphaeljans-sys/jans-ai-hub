@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Training-Run 17: Auffrischungslauf Marktpuls (keine offene Luecke)
+
+- **Reiner Aktualisierungslauf** — alle auto-schliessbaren Luecken sind seit Run 16 zu; verbleibend
+  nur D5 (Bring-Schuld Raphael). Keine neue Quelle ingestiert.
+- **Bewertungsordner geprueft** (`IMMO-01/01 BEWERTUNG PROJEKTE`): **kein neuer JANS-Bewertungsfall**
+  seit Run 6 (juengster Ordner Wangen 8855, 09.06.2026) → keine neue reale Fallauswertung.
+- **Marktpuls-Web-Check (12.07.2026):** alle Zins-/Preis-Anker **unveraendert** — SNB-Leitzins 0.00 %
+  (Entscheid 19.06.2026; Inflation 0.1 % Feb → 0.6 % Mai, erdoelgetrieben; BIP ~1 % 2026 / ~1.5 % 2027),
+  Referenzzins 1.25 % (BWO, naechste Publ. 01.09.2026), SMG/Homegate-Mietindex Mai-2026 133.7 (+2.5 % YoY),
+  BFS-Baupreisindex April-2026 100.6 (+1.0 % YoY), UBS SREBI Q1-2026 0.69 «moderat» (Q2 noch nicht publ.),
+  WP-Sommerprognose 2026 Wohneigentum ~+3 % (EFH +3.1 % / ETW +2.8 %).
+- **Einziger neuer Detailwert:** massgebender **Durchschnittszinssatz per 31.03.2026 = 1.31 %** (von
+  1.32 % per 31.12.2025) → driftet weiter weg von der Erhoehungsschwelle 1.37 %; Risiko einer
+  Referenzzins-Erhoehung auf 1.50 % sinkt weiter.
+- **`wiki/investorenmarkt-makro.md`** (07-12, established): Durchschnittszinssatz-Update in der
+  Referenzzins-Marktpuls-Sektion + Run-17-Logeintrag + Frontmatter-Quelle/last_updated 07-10→07-12.
+- Register gepflegt: `raw/_INGESTED.md` (Run-17-Stand-Block), `training/curriculum.md` (E7 ✓ 07-12),
+  `wiki/wissensluecken.md` (Run-17-Erledigt-Zeile), `outputs/2026-07-12_training-run17.md`.
+
 ## 2026-07-10 — Training-Run 16: D8 geschlossen — JANS-Kennwerte-DOCX + Healthcare-Umbaukosten
 
 - **D8 geschlossen** (die letzte auto-schliessbare Daten-Luecke): Wie schon bei den `.xlsx`-Tools

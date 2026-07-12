@@ -62,6 +62,17 @@ real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
 
+**Stand Run 17 (2026-07-12):** **Reiner Auffrischungslauf (Marktpuls) — keine neue Quelle, keine
+offene auto-schliessbare Luecke.** Der Bewertungsordner (`01 Projekte/01 BEWERTUNG PROJEKTE`) wurde
+geprueft: **kein neuer JANS-Bewertungsfall** seit Run 6 (juengster Ordner Wangen 8855, 09.06.). Der
+Web-Marktpuls bestaetigt alle Zins-/Preis-Anker als unveraendert (SNB-Leitzins 0.00 %, Referenzzins
+1.25 %, Mietindex Mai-2026 133.7 / +2.5 % YoY, Baupreisindex Apr-2026 100.6 / +1.0 % YoY, SREBI Q1-2026
+0.69). **Einziger neuer Detailwert: der massgebende Durchschnittszinssatz per 31.03.2026 = 1.31 %**
+(von 1.32 % per 31.12.2025) → weiter weg von der Erhoehungsschwelle 1.37 %, Referenzzins-Erhoehungsrisiko
+sinkt weiter → [[investorenmarkt-makro]]. Verbleibende Luecke unveraendert: nur **D5** (buerospezifische
+Margen-/Finanzierungspraxis, Bring-Schuld Raphael). Naechste erwartete Publikationstermine mit neuem
+Signal: Referenzzins 01.09.2026 (Stichtag 30.06.), SREBI Q2-2026 (~09.2026), Baupreisindex Dez-2026.
+
 **Stand Run 16 (2026-07-10):** **D8 geschlossen + Healthcare-Umbau-Kostenband belegt — drei bisher
 ungelesene JANS-DOCX ingestiert.** Wie schon bei den `.xlsx`-Tools (Run 15) sind auch die als
 freigabegebunden angenommenen Kennwerte-DOCX **TCC-lesbar** (unzip + XML-Parser). (1) `_Kennwerte
