@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Neubau Heilpädagogische Schule Bern (2018)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2103 WB Luzern Steinhofschule/07 Referenzen/00 Berichte/jurybericht_neubau_heilpadagogische_schule_bern.pdf (Bericht des Preisgerichts, Hochbau Stadt Bern, März 2018, 142 S.)"
@@ -18,7 +18,7 @@ Referenz-Jurybericht aus dem Ordner des JANS-Wettbewerbs 2103 WB Luzern Steinhof
 - **Verfahren:** Einstufiger anonymer Projektwettbewerb im offenen Verfahren gemäss GATT/WTO, subsidiär SIA 142 (2009); Teams Architektur + Landschaftsarchitektur (S. 8). 70 eingereichte Projekte (S. 14).
 - **Auslober:** Hochbau Stadt Bern; Bericht des Preisgerichts März 2018 (S. 1). Vorsitz: Stadtbaumeister Thomas Pfluger (S. 13).
 - **Bauaufgabe:** Neubau Heilpädagogische Schule (Sonderschule) mit zehn Klassen, Einfachturnhalle und Quartierküche (rund 500 Mahlzeiten/Tag) als drei autonome Betriebseinheiten, auf flacher Parzelle Nr. 2955 (9'360 m2) im Schulareal der Regelschulen Bümpliz/Statthalter, Bern-Bümpliz. Ziel: Zusammenwachsen von Sonder- und Regelschule (Inklusion), Räume später als Regelschule nutzbar, Minergie-P-ECO, Zielbaukosten CHF 25.2 Mio. exkl. MwSt. (S. 8).
-- **Preissumme:** CHF 190'000 exkl. MwSt.; sechs Preise, keine Ankäufe (S. 21).
+- **Preissumme:** CHF 190'000 exkl. MwSt. für Preise und Ankäufe ausgelobt; effektiv sechs Preise erteilt, keine Ankäufe (S. 21).
 - **Rangierung:** 1. Am Bach (Froelich & Hsu, Zürich) · 2. RUBIK (Herzog Architekten, Zürich) · 3. DREI GÄRTEN (Werkgruppe agw, Bern) · 4. KATSURA (Berrel Berrel Kräutler, Zürich) · 5. JO-JO (ARGE Bleifrei/3B, Bern) · 6. DUPLO (arb Architekten, Bern) (S. 21, 23).
 
 ## Siegerprojekt «Am Bach» (Froelich & Hsu Architekten, Zürich)
@@ -37,7 +37,7 @@ Referenz-Jurybericht aus dem Ordner des JANS-Wettbewerbs 2103 WB Luzern Steinhof
 - **Verkehrsentflechtung (Vorfahrt Kleinbusse / Anlieferung Küche / Fussgänger) wird bei JEDEM Projekt geprüft** und ist bei einer Sonderschule fast ein K.-o.-Kriterium: beim Sieger die zentrale Weiterbearbeitungsauflage (S. 17), bei RUBIK ausdrücklich gelobt (klug organisierte, konsequente Trennung, S. 34), bei DREI GÄRTEN kritisiert (Anlieferung neben Haupteingang, S. 42).
 - **Nutzungsspezifik der Sonderschule schlägt generische Architektur:** Fassaden/Grundrisse, die «an ein Büro-, denn an ein Schulgebäude» erinnern (JO-JO S. 58; sinngemäss identisch DUPLO S. 66: geschosshohe Verglasungen entsprechen nicht der Massstäblichkeit einer Heilpädagogischen Schule; Klassenzimmer schwer zonierbar für Kleinstgruppen-Unterricht). Sicherheit für Kinder mit Beeinträchtigung wird konkret geprüft (Aussenräume «in luftiger Höhe» mit Staketengeländer als offene Sicherheitsfrage, DUPLO S. 66; nicht einsehbare Nischen, Am Bach S. 26).
 - **Introvertierte Typologien scheitern an der Inklusions-/Quartier-Anforderung:** die Hoftypologie JO-JO orientiert sich «stark nach innen», die Turnhalle ist als quartierbezogene Nutzung «von aussen nicht wahrnehmbar» und erhält wenig Tageslicht — Typologie als solche wird als für die Aufgabe untauglich beurteilt (S. 58).
-- **Zerfallen in Einzelgebäude wird bestraft, Zusammenhalt belohnt:** DREI GÄRTEN wird das «Zerfallen» des Baukörpers in Einzelhäuser und die zu karge verbindende Mitte (fast nur Erschliessungsfläche, zu wenig Aufenthaltsqualität) angelastet (S. 42); der Sieger löst genau das mit Dach + zentraler Halle (S. 26).
+- **Zerfallen in Einzelgebäude wird bestraft, Zusammenhalt belohnt:** DREI GÄRTEN wird das «Zerfallen» des Baukörpers in Einzelgebäude und die zu karge verbindende Mitte (fast nur Erschliessungsfläche, zu wenig Aufenthaltsqualität) angelastet (S. 42); der Sieger löst genau das mit Dach + zentraler Halle (S. 26).
 - **Wiederkehrende Fach-Prüfpunkte:** sommerlicher Wärmeschutz bei viel zenitalem Licht (RUBIK S. 34, DREI GÄRTEN S. 42, JO-JO S. 58), Speichermasse/Glasanteil (DUPLO S. 66), Dimensionierung/Verteilung Haustechnik (Am Bach, DREI GÄRTEN), Biodiversität vs. versiegelte Flächen (Am Bach, RUBIK), Lage der Quartierküche im OG mit Lift-Doppelnutzung als betriebliches No-Go (RUBIK S. 34), grosser Verkehrsflächenverbrauch = grösste Volumetrie = höchste Kosten (JO-JO S. 58).
 - **Formales:** Grenzabstands-/Perimeterverstösse führten zum Ausschluss von der Preiserteilung (6 Projekte), nicht aber von der Beurteilung (S. 15).
 

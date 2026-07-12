@@ -157,6 +157,11 @@ GF-inkl.-Keller/HNF-Verhaeltnis hier 580/950 = **0.61** ≈ der JANS-HNF/GF-Fakt
 ([[flaechendefinitionen-sia]]). ⚠ Kennwert ist EFH/ZFH-spezifisch und premiumlagen-gepraegt;
 fuer MFH die WP-Tabelle oben verwenden.
 
+> **Entscheid Wissens-Chef (12.07.2026) — HNF/GF-Faktor kontextabhaengig (kanonisch, gilt Hub-weit):**
+> **Gesamtgebaeude** (inkl. Keller/Sockel/Attika, massgebend fuer die m²↔m³-Kostenbruecke) =
+> **0.60–0.61**; **Regelgeschoss** (effizientes Wohngeschoss) = **0.70**. Die KB `wissen/grobkosten`
+> nutzt 0.70 als Geschoss-Kennwert und verweist fuer die Gesamtgebaeude-Umrechnung hierher.
+
 ### Healthcare-Neubau — Erstellungskosten-Benchmark (realer CH-Fall, belegt 2021)
 
 Fuer die Sachwert-/Neuwert-Rechnung eines **Pflegeheims** fehlten der KB bisher belegte

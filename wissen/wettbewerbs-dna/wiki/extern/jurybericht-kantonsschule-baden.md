@@ -17,13 +17,15 @@ Turnhalle versenkt). Alle Seitenzahlen beziehen sich auf die gedruckte Berichtse
 ## Verfahren / Auslober / Jahr / Bauaufgabe
 
 - Verfahren: einstufiger offener Projektwettbewerb (Generalplaner-Submission), SIA 142
-  subsidiaer; 43 Beitraege, alle zur Beurteilung zugelassen (S. 5, 11).
+  subsidiaer (S. 5); 43 Beitraege, alle zur Beurteilung zugelassen (S. 11).
 - Auslober: Kanton Aargau (Departement BKS + DFR), vertreten durch Immobilien Aargau;
   Verfahrensbegleitung Metron Raumentwicklung AG (S. 5).
 - Jurierung: 10.12.2020 und 28.01.2021; Bericht Maerz 2021 (S. 6, 11-12).
 - Bauaufgabe: Erweiterung der Kantonsschule Baden auf dem denkmalgeschuetzten Campus
   von Fritz Haller (Masterplan Haller/Zulauf): Neubau Cluster MINT mit rund 3'500 m2 HNF
-  plus Doppelsporthalle Typ B mit vereinsunabhaengigem Zugang; Provisorien und Parkdeck
+  plus Doppelsporthalle Typ B mit vom Schulbetrieb (Cluster MINT) unabhaengigem Zugang
+  fuer die Vereinsnutzung (rund ein Drittel der Nutzungszeit entfaellt auf Vereine);
+  Provisorien und Parkdeck
   werden abgebrochen; Aussenraum sehr knapp bemessen, grosse Rasenflaeche und
   Outdoorsportflaechen muessen in aktueller Groesse erhalten bleiben (S. 4, 7-9).
 - Zwingende Nachhaltigkeitsvorgabe: Minergie-P-ECO zertifiziert + SNBS 2.0 inkl.
@@ -80,16 +82,20 @@ Kernargumente der Jury:
   Baukoerper «eine zu starke Zaesur im Quartier erzeugt» und aus denkmalpflegerischer
   Sicht zu wenig zum Ensemble-/Campuscharakter beitraegt (S. 23-24); «Musmeci» (Rang 3)
   wurde durch abweichenden Ausdruck (Bandfenster, Materialisierung) und verschobene
-  Baumreihen «eher aus dem Ensemble herausgeloest» (S. 29-30).
+  Baumreihen zu einer neuen Raumfigur, «die den Neubau eher aus dem Ensemble
+  herauslöst» (S. 29).
 - **Betriebsdistanz als K.-o.-Kriterium.** Fermate liegt «fuer den Betrieb zu weit weg
   vom uebrigen Schulbereich»; der Austausch der Fachschaften wird verhindert (S. 12, 24).
 - **Vereinsnutzung der Sporthalle braucht autonome Erschliessung.** Beim Sieger explizit
   gelobt; bei Musmeci drohen Nutzungskonflikte, weil die Eingangshalle doppelt belegt
   ist (S. 17, 30).
 - **Tageslicht ist ein hartes Pruefkriterium.** Versenkte/unterirdische Nutzungen werden
-  akzeptiert, wenn die Belichtung kompensiert ist (Sieger: dreiseitiger Rundgang);
-  Treppenkerne ohne Tageslicht («Woody»: «grosses Defizit») und nur ueber Oblichter
-  bediente Lehrraeume werden klar negativ gewertet (S. 18, 36).
+  akzeptiert, wenn die Belichtung kompensiert ist (Sieger: dreiseitiger Rundgang, S. 18).
+  Einschaetzung: Tageslichtlose Treppenkerne bzw. nur ueber Oblichter bediente Lehrraeume
+  duerften negativ gewertet werden (z.B. «Woody», das «in Bezug auf den Sport und den
+  Aussenraum eindeutige Nachteile» aufweist, S. 12) — die Woody-Wuerdigung (S. 34-36) ist
+  im vorliegenden RAW-Extrakt jedoch nicht enthalten, das fruehere Woertlich-Zitat
+  «grosses Defizit» daher nicht belegt und entfernt.
 - **Emissionen der Aussensportflaechen aufs Wohnquartier** koennen ein Projekt
   ausscheiden (Logos: Aussenraumprogramm auf dem Hallendach) (S. 12).
 - **Wirtschaftlichkeit relativiert, verhindert aber nicht.** Alle Haller-treuen Projekte
@@ -120,3 +126,9 @@ Kernargumente der Jury:
 - Bezug zur eigenen Teilnahme 2102 WB Muttenz (Turnhallentypologie «versenkt») noch
   nicht verlinkt; Muster-Artikel `wiki/muster/` zu «Turnhalle versenkt» existiert noch
   nicht.
+- Reliabilitaets-Vorbehalt: Die Seitenzuordnungen stammen aus einem pdftotext-Extrakt
+  (`-layout`) eines zweispaltigen Berichts mit teils verschraenkten Spalten; einzelne
+  eingebettete Plan-Texte liegen unvollstaendig vor. Seitenzahlen sind plausibel, aber
+  nicht durchgehend seitenscharf garantiert. Der Extrakt deckt nur Verfahren/Aufgabe/
+  Kriterien und die Wuerdigungen Rang 1-3 ab; die Wuerdigungen der Raenge 4-6 («Woody»,
+  «Logos», «Newton», S. 34 ff.) sind nicht enthalten und aus dem RAW nicht verifizierbar.

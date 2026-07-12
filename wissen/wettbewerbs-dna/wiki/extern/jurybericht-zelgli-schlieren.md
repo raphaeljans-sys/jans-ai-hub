@@ -1,6 +1,6 @@
 ---
 title: "Externer Jurybericht: Projektwettbewerb Schulanlage Zelgli, Schlieren (2023)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2507 WETT TKHL/10 architekt/20 referenzen/01 primarschule/Primarschule & Hort ZH Zelgli 2023/schlieren-zelgli-jurybericht.pdf (Jurybericht November 2023, 56 Seiten)"
@@ -16,7 +16,7 @@ Bauaufgabe Primarschule/Hort — direkt relevant fuer 2507 WETT TKHL.
 
 ## Verfahren / Auslober / Jahr / Bauaufgabe
 
-- **Auslober:** Stadt Schlieren; Verfahrensbegleitung Metron Raumentwicklung AG, Brugg (S. 7).
+- **Auslober:** Stadt/Gemeinde Schlieren (Impressum «Gemeinde Schlieren», Fliesstext «Stadt Schlieren», beide Formen amtlich verwendet); Verfahrensbegleitung Metron Raumentwicklung AG, Brugg (S. 7).
 - **Verfahren:** Projektwettbewerb im **selektiven Verfahren** mit Praequalifikation,
   Generalplanermandat, SIA 142 (2009), IVoeB/SVO ZH (S. 6). Jurierung Sept./Okt. 2023,
   Jurybericht November 2023. 10 Teams (davon 3 Nachwuchsbueros), Preisgeld CHF 155'000 (S. 7).
@@ -39,13 +39,13 @@ Bauaufgabe Primarschule/Hort — direkt relevant fuer 2507 WETT TKHL.
   Erschliessung Halle/Zentralraum — zentrale Wendeltreppenhalle mit **windmuehlenartigem
   Grundrisslayout**, vier ueber Eck spannende Cluster je Geschoss, auf allen Geschossen identisch.
 - **Setzung:** Ergaenzung an der Westseite des Pausenhofs; minimiert Eingriffe in bestehende
-  Aussenraeume, integriert den Neubau schluessig ins Ensemble (S. 18). Jury: «selbstverstaendlicher
-  Staedtebau» (S. 20).
+  Aussenraeume, integriert den Neubau schluessig ins Ensemble (S. 18). Jury: «selbstverständlichen
+  Städtebau» (S. 20).
 - **Kernargumente der Jury:**
   1. **Brandschutz als Entwurfshebel:** ein zweites Fluchttreppenhaus befreit die
      Erschliessungsflaeche von Brandschutzanforderungen — die Zirkulation wird vollstaendig
-     Teil der Lernlandschaft (S. 18). Raumprogramm «beispielhaft umgesetzt», Raum als
-     «dritter Paedagoge» (S. 19).
+     Teil der Lernlandschaft (S. 18). Raumprogramm «beispielhaft umgesetzt», Raum wird zum
+     «dritten Pädagogen» (S. 19).
   2. **Flexibel schaltbare Raumlandschaft:** gestaffelte, schoen proportionierte Raeume,
      Durchblicke, Rundlaufmoeglichkeiten und ruhige Rueckzugsnischen (S. 19).
   3. **Kompaktheit + Nachhaltigkeit:** optimal kompakte Form mit ueberdurchschnittlich
@@ -55,8 +55,9 @@ Bauaufgabe Primarschule/Hort — direkt relevant fuer 2507 WETT TKHL.
   4. Klare, nachvollziehbare Gebaeudetechnik; Lueftungsgeraet im Gebaeude, Dach frei fuer PV (S. 20).
 - **Kritikpunkte trotz Sieg** (zeigen die Toleranzgrenze): laendlich wirkende Holzfassade
   («mehr Verve» wuenschbar), knappe Platzverhaeltnisse in der Erschliessung, ueberdimensionierte
-  Zenitalverglasung; Kostenkennwerte wegen Holzanteil ueber Durchschnitt, aber nur «oberes
-  Mittelfeld» — kein K.-o. (S. 19–20).
+  Zenitalverglasung; Wirtschaftlichkeit im «oberen Mittelfeld der prämierten Projekte», die
+  Kostenkennwerte je Quadrat-/Kubikmeter wegen des Holzanteils «über dem Durchschnitt» (zwei
+  getrennte Jury-Aussagen), aber kein K.-o. (S. 19–20).
 
 ## Wiederkehrende Jury-Argumente / K.-o.-Punkte (alle Projekte)
 

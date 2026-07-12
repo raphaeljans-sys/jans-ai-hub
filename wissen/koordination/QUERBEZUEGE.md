@@ -44,10 +44,11 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 ### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung-Ref — geprueft 2026-07-12 (Run 1)
 - **Befund:** Kennwerte grundsaetzlich konsistent. W1/W4 (Wuest-Tabellen scheinbar widerspruechlich)
   **WIDERLEGT** (verschiedene Wuest-Produkte/Bezugsbasis). **W2 (m2->m3-Faktor 0.70 grobkosten vs.
-  0.60-0.61 immobilienbewertung) BESTAETIGT + HEIKEL** -> Entscheid Raphael offen. W3 (Baupreisindex-
-  Stand) unverifiziert (Verifikations-Agent scheiterte am Schema-Retry) -> Run 2 nachziehen.
-- **Aktion:** 2 Backlinks (grobkosten ↔ immobilienbewertung) + Bezugsbasis-Warnung. **Status:
-  1 offener Entscheid (W2) + 1 offene Verifikation (W3).**
+  0.60-0.61 immobilienbewertung) BESTAETIGT + HEIKEL** -> **ENTSCHIEDEN 12.07.2026 (E1):** Faktor
+  kontextabhaengig — Regelgeschoss 0.70, Gesamtgebaeude 0.60–0.61 (kanonisch fuer m²↔m³-Bruecke),
+  in beiden KBs verankert. W3 (Baupreisindex-Stand) unverifiziert (Schema-Retry) -> Run 2 nachziehen.
+- **Aktion:** 2 Backlinks (grobkosten ↔ immobilienbewertung) + Bezugsbasis-Warnung + E1-Entscheid.
+  **Status: E1 bereinigt; verbleibt 1 offene Verifikation (W3, Run 2).**
 
 ### twin ↔ spec — geprueft 2026-07-12 (Run 1, rotierend)
 - **Befund:** Konzeptuelle Ueberschneidung Arbeitsweise/Methodik, KEIN Widerspruch (W1 doppelspur

@@ -1,6 +1,6 @@
 ---
 title: "Jurybericht Neubau Sekundarschulhaus Sandgruben, Basel (2012) — externes Referenzverfahren Schulanlage"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/12 Berichte/Basel_BVD_Jurybericht_Sandgruben.pdf (78 S.)"
@@ -14,17 +14,17 @@ links:
 ## Verfahren / Auslober / Jahr / Bauaufgabe
 
 - Verfahren: anonymer **Projektwettbewerb im selektiven Verfahren** (Präqualifikation) zur Evaluation eines Generalplanerteams; 20 Teams ausgewählt, alle eingereichten Projekte (Nr. 01–19) zur Beurteilung zugelassen (S. 14–16).
-- Auslober: Kanton Basel-Stadt — Finanzdepartement/Immobilien Basel-Stadt (Eigentümervertretung), Erziehungsdepartement (Nutzervertretung), Bau- und Verkehrsdepartement/Hochbauamt (S. 14). Vorsitz Preisgericht: Fritz Schumacher (S. 73).
+- Auslober: Kanton Basel-Stadt — Finanzdepartement/Immobilien Basel-Stadt (Eigentümervertretung), Erziehungsdepartement (Nutzervertretung), Bau- und Verkehrsdepartement/Hochbauamt (S. 14). Vorsitz Preisgericht: Fritz Schumacher, Kantonsbaumeister (S. 15; Unterschrift S. 73).
 - Jahr: 2012 (Jurytage 11. und 18. Juni, Genehmigung 22. Juni 2012; S. 17, 73).
 - Bauaufgabe: **Neubau Sekundarschulhaus mit Sporthallen** (Dreifachsporthalle, evtl. Substitution Doppelturnhalle und Vereinsgebäude TV Kleinbasel) auf dem Areal der bestehenden Schulanlage Sandgruben; pädagogisches Konzept mit **Lernlandschaften/Clustern**, Flächenbudgets statt fixer Raumliste, Reversibilität gefordert (Lernlandschaft muss wieder in traditionelle Unterrichtsräume wandelbar sein); Minergie-P-Eco als Leitlinie, Kostendach CHF 50 Mio. (BKP 2+4) (S. 10–12).
 - Beurteilungskriterien (S. 13): Architektur und städtebauliches Konzept · Aussenräume und Landschaftsgestaltung · Funktionalität und Flexibilität · Energie/Ökologie · Wirtschaftlichkeit.
-- Rangierung, einstimmig (S. 17): 1. Fit & Fertig ? (Stücheli Architekten, Zürich; GL Stokar + Partner, Basel) CHF 28'000 · 2. mon(t)plaisir (Luca Selva Architekten, Basel) · 3. sandfisch (Boltshauser Architekten, Zürich) · 4. sophie (Degelo/GWJ) · 5. max (Nissen & Wentzlaff) · 6. beaufort (Metron).
+- Rangierung und Preisgelder, einstimmig (S. 17); die Verfassernamen wurden erst bei der Couvertöffnung enthüllt (S. 18): 1. Fit & Fertig ? (Stücheli Architekten, Zürich; GL Stokar + Partner, Basel) CHF 28'000 · 2. mon(t)plaisir (Luca Selva Architekten, Basel) · 3. sandfisch (Boltshauser Architekten, Zürich) · 4. sophie (Degelo/GWJ) · 5. max (Nissen & Wentzlaff) · 6. beaufort (Metron).
 
 ## Siegerprojekt «Fit & Fertig ?» (1. Rang, S. 20–22)
 
-- Typologie (KB-Taxonomie): **Ensemble/Mehrkörper mit Hof/Cluster-Prinzip** — drei als Einzelbauten lesbare Baukörper (Unterricht allgemein, Spezialtrakt, Turnhallen) auf gemeinsamem Sockel, verbunden durch ein eingeschossiges Volumen (Kindergarten/Erschliessung); übernimmt die offene Hoftypologie und Körnung des Quartiers. Erschliessung: Halle/Zentralraum (zweigeschossige gemeinsame Halle) plus vier Treppen je Cluster-Geschoss.
+- Typologie (KB-Taxonomie): **Ensemble/Mehrkörper mit Hof/Cluster-Prinzip** — drei als Einzelbauten lesbare Baukörper (Unterricht allgemein, Spezialtrakt, Turnhallen) auf einem gemeinsamen Sockel (das verbindende Element); der Kindergarten ist als eigenständiges neues eingeschossiges Volumen separat gesetzt (S. 20, 22); übernimmt die offene Hoftypologie und Körnung des Quartiers. Erschliessung: Halle/Zentralraum (zweigeschossige gemeinsame Halle) plus vier Treppen je Cluster-Geschoss.
 - Kernargumente der Jury:
-  1. **Städtebauliche Integration statt Grossform**: die offene Hoftypologie der Umgebung wird fortgeführt, das Ensemble bietet «grosse städtebauliche Durchlässigkeit» mit gleichwertigen Zugängen von drei Seiten (S. 20).
+  1. **Städtebauliche Integration statt Grossform**: die offene Hoftypologie der Umgebung wird fortgeführt, das Ensemble bietet «grosse städtebauliche Durchlässigkeit» mit drei Zugangsmöglichkeiten (Riehenstrasse, Vogelsangweglein, Schwarzwaldallee) (S. 20); die Gleichwertigkeit dieser Zugänge ist eigene Einschätzung, im Bericht nicht ausdrücklich so qualifiziert.
   2. **Cluster-Organisation eingelöst**: drei autonome Gruppen pro Etage, Lernatelier/Inputraum/Gruppenraum klar unterschieden und durch Vorzone verbunden; didaktische Nutzungsvarianten in den Plänen explizit dargestellt (S. 20).
   3. **Unabhängige Erschliessungen** für Schule, Aula/Cafeteria und Sport; Turnhallen geteilt (zwei OG / drei UG), natürlich belichtet und durch Vereine separat nutzbar (S. 20); durch die Kindergarten-Verlegung entsteht ein neuer Innenhof als Zentrum der Anlage (S. 22).
   4. Resumée: städtebaulich, funktional und architektonisch sehr gut entwickelt, pädagogisch «bemerkenswerte Ideen» (S. 22).

@@ -1,7 +1,8 @@
 ---
 title: Externer Jurybericht — Projektwettbewerb Schulhaus Grossaffoltern (BE, 2018/19)
-status: draft
+status: established
 last_updated: 2026-07-12
+hinweis: Textextrakt aus reduziertem Scan (..._s.pdf); Seitenangaben und Zitate stichprobenweise am Extrakt verifiziert, Plan-/Tabellenlayer teils unlesbar. Einschaetzung: Seitenzahlen (S. 23/24/29–30/34/39/44) mangels Seitenanker im Extrakt nicht 1:1 belegt, aber monoton steigend und plausibel.
 sources:
   - /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/07 Referenzen/00 Juryberichte/Jurybericht wbw SA Grossaffoltern_s.pdf (Bericht des Preisgerichts, Januar 2019, 76 S.)
   - /Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-schulanlage-grossaffoltern.txt (pdftotext-Extrakt, 12.07.2026)
@@ -33,7 +34,7 @@ Kernargumente der Jury:
 - Staffelung der Klassenräume erzeugt individualisierte gedeckte Eingänge; die Anordnung von Haupt- und Nebenräumen «reduziert die Zirkulationsfläche auf ein Minimum» (S. 23).
 - Repetitive Module mit glaubwürdig hohem Vorfertigungsgrad; positive Wirkung auf Kosten und Bauzeit erwartet (S. 23).
 - Präzise Bestandes-Eingriffe: Niveaudifferenz der Trakte über grosszügige Treppenanlage räumlich gelöst; Ziegel- und Farbkonzept wertet das Ensemble als Ganzes auf (S. 23–24).
-- Fazit der Jury: Leitidee aus «ortsbaulich bestechender Analyse», Aussenräume von hoher Qualität, Organisation räumlich wie betrieblich stark (S. 24).
+- Fazit der Jury: Leitidee aus «ortsbaulich bestechenden Analyse», Aussenräume von hoher Qualität, Organisation räumlich wie betrieblich stark (S. 24).
 - Auflagen für die Weiterbearbeitung: Bestandes-Eingriffe wirtschaftlich optimieren; Neubau kompakter und klarer zur Strasse zuordnen; Garderoben/WC zusammenlegen, Gruppenräume direkt zugänglich machen (S. 17).
 
 ## Rangierung und wiederkehrende Jury-Argumente

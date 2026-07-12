@@ -1,10 +1,10 @@
 ---
 title: "Extern-Jurybericht: Schulanlage Thurgauerstrasse, Zürich-Seebach — Neubau (2017)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/12 Berichte/Zuerich_Jurybericht_SA_Thurgauerstrasse.pdf (Bericht des Preisgerichts, Stadt Zürich AHB, Dezember 2017, 146 Seiten)"
-  - "Text-Extrakt: /Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-thurgauerstrasse-zuerich.txt"
+  - "Text-Extrakt: /Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-thurgauerstrasse-zuerich.txt (pdftotext-Extrakt, kein OCR: belegt sind Rangierung S. 18 und Würdigungen Ränge 1–3; Details Ränge 4–7 nicht im Extrakt)"
 links:
   - "[[teilnahmen/2102-muttenz]] (Referenz-Bericht aus dem Muttenz-Ordner)"
 ---

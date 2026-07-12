@@ -1073,3 +1073,45 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Hilfspersonen. Bussenrahmen: vorsaetzlich bis 50'000 (Gewinnsucht unbeschraenkt, Abs. 1), fahrlaessig bis
   5'000 (Abs. 2), Verzicht in besonders leichten Faellen (Abs. 3). Verjaehrung Strafverfolgung **und Strafe**
   5 J. (§ 340a). _[2026-07-12]_
+
+## Kap. 11 / 4 / 3 / 15 — Modell-D-Verifikation Run 31 (2026-07-12)
+
+- **F (Modell D · Gegenprobe):** Das Buch nennt fuer Dachaufbauten die «Drittelsregel» (§ 292 PBG) und
+  fuer «besondere Gebaeude» das 4 m/5 m-Kriterium (§ 273 PBG). Sind das die geltenden Masse? — **A:**
+  **Nein, nur uebergangsrechtlich.** Der amtliche PBG-Volltext (LS 700.1, Stand 1.7.2026) fuehrt die
+  **harmonisierte Fassung als geltenden Hauptteil**: § 292 = Dachaufbauten hoechstens **die Haelfte (1/2)**
+  der Fassadenlaenge (amtl. Z.3012); § 273 = **«Kleinbauten und Anbauten»** duerfen im Abstand von 3,5 m
+  errichtet werden (amtl. Z.2842). Die alten Werte (1/3; besondere Gebaeude 4/5 m) stehen nur noch im
+  **Anhang PBG (Stand 28.2.2017, Weitergeltung OS 72, 52)** und gelten in der jeweiligen Gemeinde weiter,
+  **bis diese ihre BZO harmonisiert hat**. Beleg: raw/260607_amtlich_zh_pbg.md Z.3012/4463 + Z.2842/4377. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Regelt § 219 PBG sowohl die Verschaerfung ALS AUCH die Milderung von
+  Bauvorschriften? — **A:** **Nein.** § 219 PBG (Randtitel «B. Verschaerfungen») kennt **ausschliesslich die
+  Verschaerfung** und ist **zwingend** («sind … strengere Bauvorschriften aufzustellen»). Die Erleichterungen
+  (Gartenhaeuser, hohe Bauwerke, Liftanbauten, Baubaracken) stammen aus der **Verordnung BBV II**, nicht aus
+  § 219 selbst. Beleg: § 219 PBG amtl. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** «Von einer Bauvorschrift kann nach § 220 PBG nur abgewichen werden, wo die
+  Norm selbst die Abweichung ausdruecklich zulaesst.» Stimmt das? — **A:** **Nein** — das ist § 218 Abs. 2
+  (privatrechtliche Regelung). **§ 220 PBG** ist die **allgemeine Dispensnorm**: «Von Bauvorschriften ist im
+  Einzelfall zu befreien, wenn **besondere Verhaeltnisse** vorliegen, bei denen die Durchsetzung
+  unverhaeltnismaessig erscheint» (§ 220 Abs. 1 PBG). _[2026-07-12]_
+- **F (Modell C):** Welcher § regelt den BAU der Gemeinschaftswerke, und wie lange hat der Betroffene beim
+  Hammerschlagsrecht Zeit zuzustimmen? — **A:** Bau = **§ 225 Abs. 1 PBG** (durch die beteiligten
+  Grundeigentuemer; § 224 = Ordnung der Rechtsverhaeltnisse bei fehlender Einigung). Zustimmungsfrist
+  Hammerschlagsrecht = **30 Tage seit der Mitteilung, § 230 Abs. 2 PBG** (Abs. 1 = nur schriftliche
+  Mitteilung); danach entscheidet die oertliche Baubehoerde «in raschem Verfahren». _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** In welchem Absatz von § 213 PBG steht die 1-Jahr(+1)-Frist fuer den
+  Unterschutzstellungsentscheid nach einem Provokationsbegehren? — **A:** **§ 213 Abs. 3 PBG** (nicht Abs. 1;
+  Abs. 1 = blosser Anspruch auf Entscheid, Abs. 2 = schriftliches Begehren beim Gemeindevorstand). Liegt vor
+  Fristablauf kein Entscheid vor, kann eine Schutzmassnahme **nur bei wesentlich veraenderten Verhaeltnissen**
+  angeordnet werden. Beleg: § 213 PBG amtl. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Stuetzt sich das gesetzliche Grundpfandrecht zur Sicherung der
+  Ersatzvornahmekosten (Baurecht ZH) auf § 15 VRG? — **A:** **Nein** — auf **Art. 836 ZGB** (kant.
+  oeffentlich-rechtliches Grundpfandrecht). § 15 VRG traegt die Marginalie «Kostenvorschuss» und ist keine
+  Grundpfandnorm. Die Vollstreckung selbst ist **§ 30 Abs. 1 VRG** (Dreiteilung: a Schuldbetreibung /
+  b Ersatzvornahme / c unmittelbarer Zwang). Beleg: raw/260712_amtlich_zh_vrg.md. _[2026-07-12]_
+- **F (Modell A · Frage→Beleg):** Ein Bauherr fragt, ab wann die 5-Jahres-Frist laeuft, nach der ein
+  vorsorgliches Bauverbot fuer ein oeffentliches Werk dahinfaellt. Woran knuepft die Frist an? — **A:** An den
+  **Eintritt der Rechtskraft** des Bauverbots, nicht an dessen Erlass: «Das Bauverbot faellt dahin, wenn
+  innert **fuenf Jahren seit Eintritt seiner Rechtskraft** nicht der entsprechende Richtplan ergaenzt und ein
+  Werkplan festgesetzt oder das Enteignungsverfahren eingeleitet wird» (**§ 122 Abs. 1 PBG** amtl.). Beleg:
+  raw/260607_amtlich_zh_pbg.md § 122. _[2026-07-12]_

@@ -1,7 +1,8 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
 sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 284 PBG", "§ 292 PBG", "§ 293 PBG", "§ 28 ABV", "§ 30 Abs. 1 lit. a ABV", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229"]
 links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
@@ -61,11 +62,22 @@ Detailsynthese: [[15-lage-von-gebaeuden-teil2d]].
   massgeblichen Fassadenlängen **benachbarter Hauptgebäude zusammengerechnet** werden
   (§ 27 Abs. 2 ABV).
 
-### «Besondere Gebäude» (§ 273 i.V.m. § 49 Abs. 3 PBG)
+### «Besondere Gebäude» / Kleinbauten und Anbauten (§ 273 i.V.m. § 49 Abs. 3 PBG)
+> **Fassungsstand (Modell-D-Korrektur 2026-07-12):** Der **geltende** § 273 PBG (LS 700.1,
+> harmonisierter Hauptteil) spricht von **«Kleinbauten und Anbauten»**, die in einem Abstand von
+> 3,5 m von andern Gebäuden errichtet werden dürfen (Randtitel «Kleinbauten und Anbauten»); § 49
+> Abs. 3 lässt für Klein-/Anbauten von den kantonalen Mindestabständen abweichen. Der Begriff
+> **«besonderes Gebäude» mit dem 4 m/5 m-Kriterium** steht nur noch im **Anhang PBG (Stand
+> 28. Februar 2017, Weitergeltung OS 72, 52)** und gilt in der jeweiligen Gemeinde
+> **übergangsrechtlich weiter, bis diese ihre BZO an die harmonisierten Begriffe angepasst hat**.
+> In der Praxis ist daher pro Gemeinde zu prüfen, welche Fassung gilt; die folgende Umschreibung
+> gibt das übergangsrechtliche (in den meisten Gemeinden noch angewandte) Recht wieder.
+
 Wo die BZO nichts anderes sagt, gilt für Gebäude, die **nicht für den dauernden Aufenthalt
 von Menschen** bestimmt sind und deren **grösste Höhe ≤ 4 m** (bei Schrägdächern ≤ 5 m, nur
-bei ≥ 10° Neigung, BEZ 1996 Nr. 30) beträgt, ein Gebäudeabstand von **nur 3,5 m** (§ 273 PBG;
-die Gemeinde kann weniger festlegen oder das Privileg einschränken, § 49 Abs. 3 PBG).
+bei ≥ 10° Neigung, BEZ 1996 Nr. 30) beträgt, ein Gebäudeabstand von **nur 3,5 m** (§ 273 PBG
+Anhang/übergangsrechtlich; die Gemeinde kann weniger festlegen oder das Privileg einschränken,
+§ 49 Abs. 3 PBG).
 - «Grösste Höhe» ist **nicht** die Gebäudehöhe i.S. §§ 278 ff. PBG, sondern jeder Punkt ab
   gewachsenem Boden.
 - Flächen-Richtwert ≈ **50 m²** Grundstücksbedeckung (BEZ 2015 Nr. 2); Teile bis 50 cm über
@@ -169,11 +181,15 @@ Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
   **flächenkleinsten Rechtecks**, das den Grundriss umschliesst. Bauteile, die den Boden um **≤ 0,5 m**
   überragen, werden nicht mitgerechnet (§ 28 Abs. 1 ABV). Massgebend für Mehrlängenzuschlag (oben) und
   Arealüberbauungs-/BZO-Längenbeschränkungen (§§ 286/287 PBG).
-- **Dachaufbauten — Drittelsregel (§ 292 PBG):** Dachaufbauten (Lukarnen, Dachaufbauten, Zwerchgiebel)
-  dürfen **insgesamt höchstens ein Drittel (1/3) der betreffenden Fassadenlänge** einnehmen, soweit die
-  BZO nichts anderes bestimmt. **Nicht als Aufbaute** zählen Kamine, Antennen, Solaranlagen und kleinere
-  technische Aufbauten; ein **Kreuzfirst/Quergiebel** ist ebenfalls keine Dachaufbaute und fällt aus der
-  Drittelsregel (BEZ 2014 Nr. 9). Abzugrenzen vom **Dacheinschnitt** (negative Dachfläche, andere Regel).
+- **Dachaufbauten (§ 292 PBG) — Fassungsstand Drittel/Hälfte:** Dachaufbauten (Lukarnen, Zwerchgiebel)
+  dürfen, soweit die BZO nichts anderes bestimmt, **insgesamt nicht breiter als ein bestimmter Anteil
+  der betreffenden Fassadenlänge** sein. **Geltend (LS 700.1, harmonisierter Hauptteil, § 292): höchstens
+  die HÄLFTE (1/2)**; die frühere **Drittelsregel (1/3)** steht nur noch im **Anhang PBG (Stand
+  28. Februar 2017)** und gilt in der Gemeinde übergangsrechtlich weiter, bis ihre BZO harmonisiert ist.
+  *(Korrektur Modell D 2026-07-12: Buch 2019 nennt 1/3 — geltend ist 1/2; pro Gemeinde prüfen.)*
+  **Nicht als Aufbaute** zählen Kamine, Antennen, Solaranlagen und kleinere technische Aufbauten (in beiden
+  Fassungen ausgenommen); ein **Kreuzfirst/Quergiebel** ist ebenfalls keine Dachaufbaute (BEZ 2014 Nr. 9).
+  Abzugrenzen vom **Dacheinschnitt** (negative Dachfläche, andere Regel).
 - **Freilegung von Untergeschossen / Abgrabungen (§ 293 PBG):** Ein **nicht anrechenbares Untergeschoss**
   darf höchstens **1,5 m über dem gestalteten Boden** in Erscheinung treten (§ 293 Abs. 1 PBG). Merksatz
   zur Bezugsebene: **§ 293 misst das *gestaltete* Terrain**, **§ 280 das *gewachsene*** — bei Hanglagen
@@ -184,9 +200,19 @@ Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
 Buchsynthese: [[15-lage-von-gebaeuden-teil3-harmonisierung]] (Bd 2, S. 1124-1133); für die
 Höhen/Attika/Terrain-Umstellung [[kap16-10_gebaeudedimensionen-harmonisierung]].
 
-> **Fassungsstand:** Dies ist das «neue» Recht der Harmonisierungsvorlage (nPBG/nABV, IVHB).
-> In laufenden Verfahren gilt weiterhin das oben dargestellte PBG/ABV. Vor Anwendung prüfen,
-> ob die Vorlage am Bearbeitungsort in Kraft/umgesetzt ist (`needs-verification`).
+> **Fassungsstand (korrigiert Modell D 2026-07-12 — Umkehr):** Kantonsrechtlich **IST die
+> harmonisierte Fassung in Kraft**: der amtliche Volltext LS 700.1 (Stand 1.7.2026) führt die
+> harmonisierten Begriffe (projizierte Fassadenlinie § 260, Fassadenhöhe §§ 278-280, Gesamthöhe
+> § 281, Hochhaus «Fassadenhöhe > 25 m» § 282, Attikageschoss § 275 Abs. 4, Kleinbauten/Anbauten
+> § 273, Dachaufbauten ½ § 292) als **geltenden Hauptteil**. Das oben dargestellte alte Recht
+> (Fassade/Gebäudehöhe/Firsthöhe, «besondere Gebäude» 4 m/5 m, Dachaufbauten 1/3) steht nur noch
+> im **Anhang PBG (Stand 28. Februar 2017, Weitergeltung OS 72, 52)** und gilt **übergangsrechtlich
+> weiter, bis die jeweilige GEMEINDE ihre Nutzungsplanung/BZO an die harmonisierten Begriffe
+> angepasst hat**. Zu prüfen ist daher nicht «ob die Vorlage in Kraft ist», sondern **ob die
+> konkrete Gemeinde schon harmonisiert hat** — solange nicht, gelten die alten Masse (die dieser
+> Artikel ausführlich abbildet). Die reinen Zahlenwerte des Abstands-Zahlenwerks (3,5 m / 12 m /
+> 16,5 m / Summe der Grenzabstände §§ 270-271, Waldabstand 30 m § 262) sind in beiden Fassungen
+> gleich und am Volltext bestätigt.
 
 - **Alles wird von der *projizierten Fassadenlinie* gemessen.** Drei neue Begriffe:
   **Fassadenflucht** = Mantelfläche aus den Lotgeraden durch die äussersten Baukörperpunkte

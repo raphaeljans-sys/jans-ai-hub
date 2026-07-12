@@ -1,7 +1,8 @@
 ---
 title: Natur- & Denkmalschutz — Kanton Zürich
-status: emerging
-last_updated: 2026-07-08
+status: established
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 keine aufschiebende Wirkung bestätigt)
 sources: ["§ 203 PBG", "§ 204 PBG", "§ 205 PBG", "§ 207 PBG", "§ 208 PBG", "§ 209 PBG", "§ 210 PBG", "§ 211 PBG", "§ 213 PBG", "§ 216 PBG", "§ 217 PBG", "§ 238 PBG", "§ 50 PBG", "§ 76 PBG", "§ 338b PBG", "Art. 78 BV", "Art. 2 NHG", "Art. 3 NHG", "Art. 5 NHG", "Art. 7 NHG", "Art. 8 NHG", "Art. 13 NHG", "Art. 17a NHG", "Art. 25 NHG", "Art. 17 RPG", "KNHV", "04-natur-und-heimatschutz.md"]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[enteignung-und-entschaedigung]], [[raumplanung-und-gestaltung]], [[rechtsschutz-und-rechtsmittelverfahren]]
 ---

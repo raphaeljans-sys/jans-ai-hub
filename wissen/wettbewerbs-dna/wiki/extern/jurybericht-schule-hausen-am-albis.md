@@ -1,6 +1,6 @@
 ---
 title: "Jurybericht Neubau Schule und Neubau Sport/Tagesstrukturen, Hausen am Albis (2021)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/07 Referenzen/00 Juryberichte/schule-hausen-albis-jurybericht.pdf (53 S., Scan; OCR-Extrakt: raw/extern-jurybericht-schule-hausen-am-albis.txt)"
@@ -79,8 +79,9 @@ ist ein Scan, der Extrakt beruht auf OCR (Zahlen-/Namensdreher möglich).
 ## Wiederkehrende Jury-Argumente / K.-o.-Punkte über alle Projekte
 
 1. **Städtebauliche und topografische Eingliederung** war das erste Ausscheidungskriterium:
-   4 von 8 Projekten flogen je Teilareal bereits im 1. Rundgang wegen Nachteilen bei
-   Eingliederung, Nutzeranforderungen und Bauökonomie/Bauökologie raus (S. 11–12).
+   im 1. Wertungsrundgang schieden je Teilareal die Hälfte oder mehr aus wegen Nachteilen bei
+   Eingliederung, Nutzeranforderungen und Bauökonomie/Bauökologie (Teilareal B: 4 Projekte
+   Nr. 2/5/6/7; Teilareal A: 5 Projekte Nr. 2/4/5/6/8) (S. 11–12).
 2. **Kompaktheit/Formquotienten**: Verhältnis Geschossfläche zu Gebäudehülle bzw. HNF/GF
    wird explizit je Projekt bewertet; zu viel Gebäudevolumen und Raumhöhe (z.B. «SIMBA»)
    gilt als bauökonomisches Defizit (S. 22, 26, 30).
@@ -117,5 +118,6 @@ ist ein Scan, der Extrakt beruht auf OCR (Zahlen-/Namensdreher möglich).
 
 ## Offene Punkte
 
-- OCR-Vorbehalt: Scan-Qualität mittel; vor Status-Hebung auf `established` Zitate, Ränge und
-  Teamnamen per Refuter-Lauf am Original-PDF gegenprüfen (Regel 260712).
+- OCR-Vorbehalt: Scan-Qualität mittel. Zitate, Ränge und Teamnamen wurden am OCR-Extrakt
+  (raw/extern-jurybericht-schule-hausen-am-albis.txt, 53 S. vollständig) per Refuter-Lauf
+  gegengeprüft und bestätigt (12.07.2026); Status auf `established` gehoben.

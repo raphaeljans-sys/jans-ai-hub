@@ -1,6 +1,6 @@
 ---
 title: 2205 WB Guggerbach — Zentrum Guggerbach Davos, Wohnungsneubau Generation 65+ (Kennwort Juli)
-status: draft
+status: established
 last_updated: 2026-07-12
 sources: [2205-guggerbach_jurybericht.txt, 2205-guggerbach_programm.txt, 2205-guggerbach_projekttext.txt]
 links: []
@@ -12,7 +12,7 @@ links: []
 
 - **Verfahren:** Einstufiger, anonymer Projektwettbewerb im **selektiven Verfahren** mit Folgeauftrag, nach Ordnung SIA 142 (Ausgabe 2009); IVöB, Submissionsgesetz und Submissionsverordnung des Kantons Graubünden; PQ-Ausschreibung öffentlich auf simap.ch ab 14. Februar 2022 (Jurybericht S. 5, 8; Programm S. 28: Genehmigung 29. März 2022, SIA-142/143-Konformitätsprüfung nachpubliziert).
 - **Auslober/Veranstalterin:** Stiftung Zentrum Guggerbach Davos, Obere Strasse 20, 7270 Davos Platz; Wettbewerbsbetreuung/Sekretariat: Fanzun AG, Birmensdorferstrasse 108, 8003 Zürich (Ansprechpartner Günther Bischof, Marcel Schlandt) (Jurybericht S. 4).
-- **Bauaufgabe:** Ergänzung des bestehenden Alterszentrums (Generation 65+, Wohnen/Betreuung/Pflege) durch einen **Wohnungsneubau mit ca. zwanzig 3½-Zimmer-Wohnungen mit gehobenem Standard** auf Parzelle 110 (Platzstrasse 6, Davos Platz) plus eine neue Ankunfts- und Verteilzone («Knotenpunkt»), die Bestandsbauten und Neubau verbindet und Platz für ein neues Bistro und halböffentliche Nutzungen bietet (Jurybericht S. 3; Programm S. 22: Kataster-Nr. 110/111).
+- **Bauaufgabe:** Ergänzung des bestehenden Alterszentrums (Generation 65+, Wohnen/Betreuung/Pflege) durch einen **Wohnungsneubau mit ca. zwanzig 3½-Zimmer-Wohnungen mit gehobenem Standard** auf Parzelle 110 (Platzstrasse 6, Davos Platz) plus eine neue Ankunfts- und Verteilzone («Knotenpunkt»), die Bestandsbauten und Neubau verbindet und Platz für ein neues Bistro und halböffentliche Nutzungen bietet (Jurybericht S. 3; Programm S. 23: Kataster-Nr. 110/111).
 - **Jahr:** 2022 — Programm 5. April 2022 (Dateiname 220405); Ortsbegehung 7. April 2022; Abgabe Pläne 15. Juli 2022, Abgabe Modell 29. Juli 2022; Jurierung 15./19. August 2022; Bericht/Ausstellung 24./25. September 2022 (Jurybericht S. 8); Jurybericht datiert 22. September 2022 (Dateiname/PDF-Metadaten).
 - **Präqualifikation:** 12 Teams selektioniert — die 10 bestbewerteten Bewerbungen plus 2 Nachwuchsbüros. Das JANS-Team wurde als **Nachwuchsteam Nr. 07** selektioniert: Atelier Arpagaus Sommer Zarn mit Archobau AG, B3 Kolb AG, Collenberg Energietechnik AG (Jurybericht S. 6–7). PQ-Unterlagen: `/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2205 WB Guggerbach/12_PQ/` (Entscheid: `12_PQ/07_Entscheid/Entscheid Präqualifikation Projektwettbewerb Zentrum Guggerbach Davos.pdf`).
 - **Kennwort:** **Juli** (Jurybericht S. 49, Beitrag 7.8 mit Verfasserzuordnung Atelier Arpagaus Sommer Zarn). Hinweis: Im eigenen Verfassernachweis-Formular (`08_Abgabe/A05_Verfassernachweis_ausgefüllt.pdf`) ist das Kennwort-Feld im Textextrakt leer; die Zuordnung Kennwort↔Team ist über den Jurybericht belegt.
@@ -21,7 +21,7 @@ links: []
   - Tragwerksplanung: B3 Kolb AG — Ivan Brühwiler.
   - HLK-Planung: Collenberg Energietechnik AG — Remo Collenberg.
   - Baumanagement: ARCHOBAU AG.
-- **Resultat (belegt):** **Kein Rang, kein Preis.** Von 12 präqualifizierten Teams reichten 11 einen Beitrag ein; alle 11 wurden zur Beurteilung zugelassen (Jurybericht S. 13). «Juli» schied im **1. Beurteilungsrundgang** aus (Jurybericht S. 14). Rangierung: 1. Sonnenblume (CHF 60'000), 2. Compages (CHF 50'000), 3. Tetris (CHF 30'000), 4. Kranich (CHF 20'000, Nachwuchsbüro Nik Werenfels) (Jurybericht S. 15); Preissumme total CHF 160'000, vollumfänglich ausgerichtet, keine Ankäufe (Jurybericht S. 6, 14).
+- **Resultat (belegt):** **Kein Rang, kein Preis.** Von 12 präqualifizierten Teams reichten 11 einen Beitrag ein; alle 11 wurden zur Beurteilung zugelassen (Jurybericht S. 13). «Juli» schied im **1. Beurteilungsrundgang** aus (Jurybericht S. 14). Rangierung: 1. Sonnenblume (CHF 60'000), 2. Compages (CHF 50'000), 3. Tetris (CHF 30'000), 4. Kranich (CHF 20'000, Nachwuchsbüro Nik Werenfels) (Jurybericht S. 15); Preissumme total CHF 160'000, vollumfänglich ausgerichtet, keine Ankäufe (Jurybericht S. 6, 15).
 - **Siegerprojekt:** «Sonnenblume», Frei & Ehrensperger Architekten BSA (Julian Ringler, Colin Cruse), Tragwerk Liesch Ingenieure AG, HLK Züst Haustechnik AG; einstimmig zur Weiterbearbeitung empfohlen (Jurybericht S. 15–17).
 
 ## 2. Programm-Soll
@@ -57,12 +57,12 @@ links: []
 
 ### Delta zum 1. Rang («Sonnenblume», Jurybericht S. 18–19)
 
-- **Ein Körper statt zwei:** Der Sieger setzte EINEN «rundum segmentierten und ausgreifenden Baukörper» auf die Parzelle, von der Strasse abgerückt, auf einem Sockel, der das fallende Terrain aufnimmt (S. 18) — während «Juli» mit zwei identischen Körpern hohe Dichte und Mehrkosten erzeugte (S. 50).
+- **Ein Körper statt zwei:** Der Sieger setzte EINEN «rundum segmentierter und ausgreifender Baukörper» auf die Parzelle, von der Strasse abgerückt, auf einem Sockel, der das fallende Terrain aufnimmt (S. 18) — während «Juli» mit zwei identischen Körpern hohe Dichte und Mehrkosten erzeugte (S. 50).
 - **Verbindendes Herzstück:** Sonnenblume verband alle drei Wohnhäuser im Gartengeschoss durch eine «attraktive, verglaste Gartenhalle» mit Fitness, Coiffeur, Massage, Podologie — als Treffpunkt bis hin zum Spazieren im Winter (S. 18); die Gartenhalle «bietet einen Mehrwert für alle Bewohner, Besucherinnen und Mitarbeiter» (S. 19). «Juli» bot kein vergleichbares verbindendes Element; die Anbindung lag im 2. UG (Projekttext «Architektur»).
 - **Wohnungsqualität mit Nutzerfokus:** Beim Sieger «fächerartig angeordnete» Wohnungen zur Sonne und Berglandschaft, wählbar zuschaltbare Zimmer, «verschiedene Zirkulationsschlaufen», Panoramafenster mit niedriger Brüstung (S. 18); bei «Juli» dagegen zu viele Verkehrsflächen und schlecht möblierbare Räume (S. 50).
 - **Studios als Pluspunkt:** Sonnenblume legte die Studios auf jedes Wohngeschoss (Gäste-/Angehörigenzimmer nahe der Wohnung) (S. 18); «Juli» sammelte die Studios im EG (Projekttext «Architektur»).
 - **Wirtschaftlichkeit:** Sonnenblume «mittelmässig kompakt», wenige Baugrundsicherungen, geringe Eingriffe in Haus A, Erstellungskosten im oberen Durchschnitt = mittlere Wirtschaftlichkeit (S. 19); «Juli» erhebliche statische Eingriffe in Haus A und relativ hohe Kosten pro Wohnung (S. 50).
-- **Einfühlung als Jury-Argument:** «Überhaupt haben sich die Projektverfasserinnen in das Leben der Menschen im Zentrum Guggerbach hineinversetzt» (S. 19); die Empfehlung erfolgte wegen «sehr hohe[r] ortsbaulicher Qualität, typologische[r] Herleitung und Einfügung auf dem Areal» (S. 15).
+- **Einfühlung als Jury-Argument:** «Überhaupt haben sich die Projektverfasserinnen in das Leben der Menschen im Zentrum Guggerbach hineinversetzt» (S. 19); die Empfehlung erfolgte wegen «sehr hohe[r] ortsbauliche[r] Qualität, typologische[r] Herleitung und Einfügung auf dem Areal» (S. 15).
 
 ## 5. Lessons / DNA
 

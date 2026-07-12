@@ -2,7 +2,7 @@
 title: Widerrechtliche Bauten & Sanktionen — Kanton Zürich
 status: established
 last_updated: 2026-07-12
-sources: ["§ 341 PBG", "§ 340 PBG", "§ 340a PBG", "§ 339 Abs. 2 PBG", "§ 309 Abs. 1 lit. c PBG", "§ 322 Abs. 1 PBG", "§ 253 PBG", "§ 6 VRG", "§ 30 VRG", "§ 31 Abs. 1 VRG", "§ 25 Abs. 3 VRG", "§ 22 Abs. 3 VRG", "§ 12a BBV I", "§ 89 GOG", "§ 27 GOG", "Art. 24 ff. RPG", "Art. 25 Abs. 2 RPG", "Art. 5 Abs. 2 BV", "Art. 9 BV", "Art. 229 StGB", "Art. 290 StGB", "Art. 292 StGB", "Art. 70 f. StGB", "Art. 137 Abs. 2 OR", "Art. 836 ZGB", "Art. 354 StPO", "Art. 357 StPO", 10-widerrechtliche-bauten-teil1.md]
+sources: ["§ 341 PBG", "§ 340 PBG", "§ 340a PBG", "§ 339 Abs. 2 PBG", "§ 309 Abs. 1 lit. c PBG", "§ 322 Abs. 1 PBG", "§ 253 PBG", "§ 6 VRG", "§ 30 VRG", "§ 31 Abs. 1 VRG", "§ 25 Abs. 3 VRG", "§ 22 Abs. 3 VRG", "§ 12a BBV I", "§ 89 GOG", "§ 27 GOG", "Art. 24 ff. RPG", "Art. 25 Abs. 2 RPG", "Art. 5 Abs. 2 BV", "Art. 9 BV", "Art. 229 StGB", "Art. 290 StGB", "Art. 292 StGB", "Art. 70 f. StGB", "Art. 137 Abs. 2 OR", "Art. 836 ZGB", "Art. 354 StPO", "Art. 357 StPO", "raw/260712_amtlich_zh_vrg.md (§ 30 VRG volltextverifiziert Run 31)", 10-widerrechtliche-bauten-teil1.md]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baureife-und-erschliessung]], [[nebenbestimmungen-und-reverse]]
 ---
 

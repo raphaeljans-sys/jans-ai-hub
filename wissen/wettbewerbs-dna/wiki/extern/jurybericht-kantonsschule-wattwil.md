@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Ersatzneubau Kantonsschule Wattwil (Campus Wattwil, Kt. SG)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2507 WETT TKHL/10 architekt/20 referenzen/02 oberstufe/Kantonsschule SG Wattwil 2025/kantonsschule-wattwil-jurybericht.pdf (Bericht des Preisgerichts, Kanton St.Gallen Hochbauamt, 29.04.2021; PDF bildbasiert, visuell transkribiert)"
@@ -23,7 +23,8 @@ links:
   um rund 2'000 m2 GF (S. 5, 9). Baufeld rund 9'850 m2 zwischen Thur, Bahnhofstrasse,
   Ebnaterstrasse und Doppelsporthalle Rietstein (S. 5). Kostenziel max. 60 Mio. Fr.
   exkl. MWST (S. 10). SNBS Bildungsbauten, hohe Flexibilitaet, Lernlandschaften (S. 9-10).
-- Jury u.a. Andreas Cukrowicz (Architektur) und Christophe Girot (Landschaft) (S. 27).
+- Jury u.a. Andreas Cukrowicz und Christophe Girot (S. 27; Fachressorts Architektur
+  bzw. Landschaft = Einschaetzung, im Bericht nicht ausgewiesen).
 
 ## Siegerprojekt: 46 CELESTE (Gunz & Kuenzle Architekten, Zuerich)
 
@@ -31,7 +32,7 @@ Typologie nach KB-Taxonomie: **kompakter Solitaer** (flacher, dreigeschossiger
 Grossbaukoerper), Erschliessung **Halle/Zentralraum** — kaskadenartiges, zenital
 belichtetes Atrium als innere Schullandschaft; Klasseneinheiten horizontal ueber
 Bruecken, Gassen und Galerien vernetzt; Arkaden-Vorhalle ueber die ganze Thurfront;
-Holz-Skelettbau mit Holzbetonverbunddecken, aussteifende Betonkerne (S. 46-47, 31).
+Holz-Skelettbau mit Holzbetonverbunddecken, aussteifende Stahlbetonkerne (S. 46-47, 31).
 
 Kernargumente der Jury:
 - Die Projektidee, einen inneren Grossraum als kollektives Zentrum mit umsaeumenden

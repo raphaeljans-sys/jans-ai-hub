@@ -1,0 +1,398 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2507 WETT TKHL/10 architekt/01 cad publisher/TKHL Plan rj SIA416/WETT Abgabe SIA 416.pdf
+# Extrakt: pdftotext -layout, 12 Seiten (SIA-416-Abgabeformular Kennwort LIMO, Schemaplaene 1:200), 12.07.2026
+
+                                  Neubau Tagesbetreuung PS Halden
+
+                                  Kennwort: LIMO
+
+                                  Berechnungen nach SIA 416
+                                  Schemapläne 1:200
+
+                                  Nutzﬂäche NF
+
+                                  UG             : 275.2m2
+                                  EG             : 333.0m2
+                                  1.OG           : 281.3m2
+                                  2.OG           : 280.9m2
+                                  3.OG           : 281.0m2
+                                  Total          : 1'451.4m2
+GSPublisherVersion 0.34.100.100
+                                  710 Büro Team
+                                  45.1
+                                                            742 Technikraum
+                                                            44.3
+
+                                                            VF
+                                                            38.7
+
+
+
+                                  720 Büro Leitung
+                                  18.1
+                                                                         741 Putzraum
+                                                                         21.0
+                                  620 Gruppenraum
+                                  28.6
+
+
+
+
+                                                            0.5
+
+                                  610 Hauptraum             Lift            712 Lager Betreuung
+                                  102.3                     2.8             15.6
+
+
+                                                                           713 Gard. P
+                                                                           16.4
+
+                                                                   4.0
+
+
+                                                                                 630 Materialraum
+                                                                   4.0           11.5
+                                                                   VF
+                                                                   4.2
+
+
+
+
+                                  Eingang       641 Gard.
+                                  5.3           8.6
+
+
+
+
+                                                                                              UG
+
+                                                                                              Nutzﬂäche NF       : 275.2m2
+                                                                                              Hauptnutzﬂäche HNF : 205.6m2
+                                                                                              Nebennutzﬂäche NNF : 69.6m2
+
+                                                                                              VF                 : 51.0m2
+                                                                                              NGF                : 371.0m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  511 Lager Küche
+                                  17.3
+                                                                             510 Küche
+                                                                             58.8
+                                  420
+                                  Gruppen- / Klassenzimmer
+                                  75.8
+
+                                                               6.5
+
+                                                               3.3
+
+                                                         0.3
+
+
+                                                                 4.0
+
+                                                               VF
+                                                               42.8
+
+                                                               0.5
+                                  430
+                                                               Lift
+                                  Themen- / Bewegungsraum                           3.9
+                                                               2.8
+                                  36.1
+
+
+
+
+                                  410
+                                  Gruppen- / Klassenzimmer
+                                  74.8                                 0.3                    441 Gard.
+                                                                                              52.5
+
+
+
+                                                                             Eingang Hort 4
+                                                                             682.65
+
+
+
+
+                                                                                                      EG
+
+                                                                                                      Nutzﬂäche NF       : 333.0m2
+                                                                                                      Hauptnutzﬂäche HNF : 186.7m2
+                                                                                                      Nebennutzﬂäche NNF : 146.3m2
+
+                                                                                                      VF                 : 45.6m2
+                                                                                                      NGF                : 379.7m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  190 Gedeckter Eingang
+                                  10.7
+
+
+                                                                       120
+                                                                       Gruppen- / Klassenzimmer
+                                                                       74.8
+
+                                                Eingang Hort 1
+                                                686.25
+
+
+                                    141 Gard.
+                                    52.7
+                                                                 0.3
+
+
+
+
+                                                                       VF
+                                                                       50.9
+                                                                              130
+                                                                       0.5    Themen- / Bewegungsraum
+                                                                              75.2
+                                                                       Lift
+                                          3.8
+                                                                       2.8
+
+
+
+
+                                    110
+                                    Gruppen- / Klassenzimmer
+                                    74.8
+                                                                              0.3
+
+
+
+
+                                                                                                        1. OG
+
+                                                                                                        Nutzﬂäche NF       : 281.3m2
+                                                                                                        Hauptnutzﬂäche HNF : 224.8m2
+                                                                                                        Nebennutzﬂäche NNF : 56.5m2
+
+                                                                                                        VF                 : 53.7m2
+                                                                                                        NGF                : 336.1m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                                              220
+                                                              Gruppen- / Klassenzimmer
+                                                              74.8
+
+
+
+
+                                  230
+                                  Themen- / Bewegungsraum
+                                                        0.3
+                                  75.0
+
+
+
+
+                                                              0.5
+
+                                                              Lift
+                                                                                  3.9
+                                                              2.8
+
+
+
+
+                                  210                                VF
+                                  Gruppen- / Klassenzimmer           51.1
+                                  74.8
+                                                                     0.3                    241 Gard.
+                                                                                            52.4
+
+
+
+                                                                           Eingang Hort 2
+                                                                           689.85
+
+
+
+
+                                                                                                    2. OG
+
+                                                                                                    Nutzﬂäche NF       : 280.9m2
+                                                                                                    Hauptnutzﬂäche HNF : 224.6m2
+                                                                                                    Nebennutzﬂäche NNF : 56.3m2
+
+                                                                                                    VF                 : 53.9m2
+                                                                                                    NGF                : 335.9m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                                                     320
+                                                                     Gruppen- / Klassenzimmer
+                                                                     74.8
+
+                                             Eingang Hort 3
+                                             693.45
+
+
+                                  341 Gard.
+                                  52.5
+                                                              0.3
+
+
+
+
+                                                                    VF
+                                                                    51.8
+                                                                           330
+                                                                    0.5
+                                                                           Themen- / Bewegungsraum
+                                                                    Lift   75.0
+                                       3.9
+                                                                    2.8
+
+
+
+
+                                  310
+                                  Gruppen- / Klassenzimmer
+                                  74.8                                     0.3
+
+
+
+
+                                                                                                     3. OG
+
+                                                                                                     Nutzﬂäche NF       : 281.0m2
+                                                                                                     Hauptnutzﬂäche HNF : 224.6m2
+                                                                                                     Nebennutzﬂäche NNF : 56.4m2
+
+                                                                                                     VF                 : 54.6m2
+                                                                                                     NGF                : 336.7m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  Neubau Tagesbetreuung PS Halden
+
+                                  Kennwort: LIMO
+
+                                  Berechnungen nach SIA 416
+                                  Schemapläne 1:200
+
+                                  Nutzﬂäche GF
+
+                                  UG             : 422.7m2
+                                  EG             : 422.7m2
+                                  1.OG           : 374.6m2
+                                  2.OG           : 374.6m2
+                                  3.OG           : 374.6m2
+                                  Total          : 1'969.2m2
+GSPublisherVersion 0.34.100.100
+                                  UG
+                                  422.7
+
+
+
+
+                                          UG
+
+                                          Geschossﬂäche GF   : 422.7m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  EG
+                                  422.7
+
+
+
+
+                                          Eingang Hort 4
+                                          682.65
+
+
+
+
+                                                           EG
+
+                                                           Geschossﬂäche GF   : 422.7m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  1. OG
+                                  374.6
+
+                                  190 Gedeckter Eingang
+                                  10.7
+
+
+
+
+                                             Eingang Hort 1
+                                             686.25
+
+
+
+
+                                                              1. OG
+
+                                                              Geschossﬂäche GF   : 374.6m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  2. OG
+                                  374.6
+
+
+
+
+                                          Eingang Hort 2
+                                          689.85
+
+
+
+
+                                                           2. OG
+
+                                                           Geschossﬂäche GF   : 374.6m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+                                  3. OG
+                                  374.6
+
+
+
+
+                                          Eingang Hort 3
+                                          693.45
+
+
+
+
+                                                           3. OG
+
+                                                           Geschossﬂäche GF   : 374.6m2
+
+
+
+
+GSPublisherVersion 0.34.100.100
+

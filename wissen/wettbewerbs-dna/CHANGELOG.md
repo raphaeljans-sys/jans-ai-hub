@@ -1,5 +1,27 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-12 — Muster-Artikel `muster/jans-board-dna.md` verdichtet (Fach-Bibliothekar-Lauf)
+- **Aktion:** `wiki/muster/jans-board-dna.md` neu geschrieben (Status `draft`) als
+  Verdichtung aller neun Board-DNA-Einzelanalysen (2101, 2102, 2103, 2205, 2206, 2207,
+  2408, 2501, 2507). Ersetzt einen frueheren, weniger belegten Zwischenstand desselben
+  Artikels.
+- **Aufbau:** Teil A = verallgemeinerte JANS-Plakat-Handschrift, gegliedert in A0
+  durchgaengige Muster (15 belegte Merkmale, je mit den stuetzenden Teilnahmen), A1
+  haeufig-aber-nicht-durchgaengig, A2 projekt-spezifische Einzelfaelle, A3 Widersprueche/
+  duenne Stellen. Teil B = 14-Punkte-Vorgaben-Checkliste fuer den Agenten `plakat-setzer`
+  (Blattarchitektur, Pflichtleisten Kennwort/Massstab/Nord, Dramaturgie gross→klein,
+  harte Farbregel, Plangrafik-Standard, Anonymitaet).
+- **Staerkste durchgaengige Merkmale:** Querformat (9/9), weisser Fond ohne Rahmen,
+  feste Blattarchitektur, Board-Index-Piktogramm (alle Mehr-Board-Sets), Dramaturgie
+  gross→klein (9/9), Massstab-Kaskade 1:500/1:200/1:50, monochrome Farbdisziplin mit
+  EINEM thesenhaften Akzent, Werkplan-Detail 1:50–1:20 mit Schichtaufbau-Listen,
+  Kreis-Nordpfeil, gestufte Massstabsleiste (haeufig).
+- **Ehrlich vermerkt:** 2206 = Nachweis-Set (kein Finalplakat), 2205 nur Board 1, 2501
+  Plan-only; plan-first-Auftakt und schwere Poche in den 2025er-Boards (2408, 2507)
+  schwaecher (moeglicher Stil-Drift). Board 2104 noch nicht analysiert (offener Punkt).
+- **Status:** `draft`; Hebung auf `established` erst nach Refuter-Pruefung gegen die
+  Original-Boards.
+
 ## 2026-07-12 — Lauf 2: Verifikation 2101 + 2103, INDEX-Reconcile (Session MacBook Pro, 23:00)
 - **Ausgangslage:** In einem Zwischenlauf (Dossiers erstellt ~19:04–19:11, committet via
   nas-selfcommit 20:00) waren 2101, 2103, 2205, 2503 als Status `draft` angelegt, aber

@@ -3,7 +3,7 @@ name: bauausfuehrung-und-baukontrolle
 beschreibung: Die Bauausfuehrungsphase im ZH-Baurecht — Baufreigabe (§ 326 PBG), Meldepflichten + baupolizeiliche Kontrollen (§ 327 PBG), Bezugsbewilligung/Schlusskontrolle, Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG), Sicherheit der Baustelle (§ 239 PBG).
 status: established
 last_updated: 2026-07-12
-quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30)
+quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
 paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bis USG; §§ 2/15/19 KVAV
 ---
 
@@ -86,8 +86,12 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
   bereits erstellten Bauteile und Wiederherstellung des ordentlichen Gelaendestandes (lit. c)**; bei
   Arealueberbauung **Dahinfallen der Bewilligung nach 2 Jahren (lit. d)**; (3) **Kostentragung durch den
   Grundeigentuemer** (§ 328 **Abs. 3** PBG). Durchgesetzt wird die angedrohte Massnahme via **Ersatzvornahme
-  § 30 VRG**, Kostensicherung durch **gesetzliches Grundpfandrecht § 15 VRG** (VRG-Vollstreckung, **nicht**
-  Inhalt von § 328 Abs. 3 PBG). *(Modell-D-Korrektur Run 30: lit. b amtl. = Foerderung, nicht Abbruch.)*
+  § 30 VRG** (Dreiteilung Schuldbetreibung/Ersatzvornahme/unmittelbarer Zwang, § 30 Abs. 1 VRG
+  volltextverifiziert), Kostensicherung durch das **gesetzliche Grundpfandrecht nach Art. 836 ZGB**
+  (kant. oeffentlich-rechtliches Grundpfandrecht; VRG-Vollstreckung, **nicht** Inhalt von § 328 Abs. 3 PBG).
+  *(Modell-D-Korrektur Run 30: lit. b amtl. = Foerderung, nicht Abbruch. Korrektur Run 31: das Grundpfandrecht
+  stuetzt sich auf Art. 836 ZGB, nicht auf § 15 VRG — § 15 VRG traegt die Marginalie «Kostenvorschuss» und ist
+  keine Grundpfandnorm. Beleg: raw/260712_amtlich_zh_vrg.md.)*
 
 ## 6. Sicherheit der Baustelle (§ 239 PBG)
 

@@ -1,6 +1,6 @@
 ---
 title: 2207 WB Basel Schliengerweg — Pilotprojekt MFH mit Kindergarten «Netto Null 2040» (no-ug@)
-status: draft
+status: established
 last_updated: 2026-07-12
 sources: [2207-schliengerweg-basel_programm.txt, 2207-schliengerweg-basel_programm-seite15.txt, 2207-schliengerweg-basel_projekttext.txt, 2207-schliengerweg-basel_kennzahlen.txt, 2207-schliengerweg-basel_formular-rj.txt, 2207-schliengerweg-basel_formulare-team.txt]
 links: []
@@ -39,8 +39,9 @@ Beurteilungsbericht im Archiv** — deshalb wird das Resultat als **offen** gefu
   Ziff. 43). Endpunkt einer nicht vollendeten Blockrandbebauung, im Norden direkt an die Kapelle
   St. Theresia grenzend (Programm S. 17–18).
 - **Jahr:** Programm 11.07.2022; Publikation/Unterlagen 10.08.2022; Anmeldung bis 16.09.2022;
-  **Abgabe Plaene und Modell 24.11.2022, 12:00 Uhr** (Programm S. 5–6 Ziff. 17; S. 12); eigener
-  Projekttext und Kennzahlen datieren 23.11.2022, das rj-Formular 24.11.2022. Juryentscheid war
+  **Abgabe Plaene und Modell 24.11.2022, 12:00 Uhr** (Programm S. 5–6 Ziff. 17; S. 12); die
+  eigene Kennzahlen-Datei datiert 23.11.2022 (Dateiname `221123_...`), das rj-Formular 24.11.2022
+  (der eigene Projekttext traegt kein Datum im Dateinamen). Juryentscheid war
   **voraussichtlich 07.03.2023**, Publikation Vergabe voraussichtlich 11.06.2023 (Programm S. 6).
   Hinweis: Das UNARC-Verfasserformular nennt als Eingabefrist irrtuemlich «24. November **2021**»
   (Formulare-Team, UNARC-Block) — Tippfehler; massgebend ist der Programmtermin 24.11.2022.
@@ -62,7 +63,7 @@ Beurteilungsbericht im Archiv** — deshalb wird das Resultat als **offen** gefu
   - Bauingenieur/Tragwerk: **WaltGalmarini AG**, Drahtzugstrasse 18, 8008 Zuerich — Andreas
     Galmarini, Dr. sc., dipl. Bauing. ETH SIA (Formulare-Team, WALTGALMARINI-Block).
   - Nachhaltigkeit/Umweltingenieurwesen: **Anex Ingenieure AG**, Sempacherstrasse 1, 6003 Luzern
-    — Nadege Vetterli, MSc Umweltingenieurwesen EPFL (Formulare-Team, anex-Block).
+    — Nadège Vetterli, MSc Umweltingenieurwesen EPFL (Formulare-Team, anex-Block).
 - **Preisgericht (belegt):** Fachpreisgericht: Beat Aeberhard (Vorsitz, Kantonsbaumeister
   Basel-Stadt), Andrea Klinge (Prof. Zirkulares Bauen FHNW Muttenz), Marc Loeliger (Loeliger Strub
   Architekten, Zuerich), Nico Ros (ZPF Ingenieure, Ersatz). Sachpreisgericht: Jonathan Koellreuter
@@ -117,10 +118,13 @@ Beurteilungsbericht im Archiv** — deshalb wird das Resultat als **offen** gefu
 
 - **Typologie (Taxonomie): Zeile**; Erschliessung: **zentraler Kern (Mehrspaenner)**.
   Praezisierung: dreigeschossiger, flach gegruendeter **Zeilenbau auf der Baulinie am
-  Schliengerweg**, im Norden direkt an die Kapelle anschliessend (geschlossene, zu begruenende
-  Brandmauer), mit **Dachgeschoss unter Satteldach** statt Attika. Ein zentrales Treppenhaus in
-  der Gebaeudemitte erschliesst die Wohngeschosse (eigener Projekttext, Abschnitte Staedtebau /
-  Konzept Kindergarten-Wohnungen).
+  Schliengerweg**, der im Norden direkt an das Nachbargebaeude anschliesst (der eigene Projekttext
+  schreibt «schliesst im Norden direkt an die Kirche an»; im Programm ist der noerdliche Nachbar
+  die Kapelle St. Theresia, S. 18), mit **Dachgeschoss unter Satteldach** statt Attika. Die
+  geschlossene noerdliche Brandmauer soll begruent werden (aus dem Notiz-/Anmerkungsteil des
+  eigenen Projekttexts, nicht dem redigierten Beschrieb, also Absichts-/Notizstand). Ein zentrales
+  Treppenhaus in der Gebaeudemitte erschliesst die Wohngeschosse (eigener Projekttext, Abschnitte
+  Staedtebau / Konzept Kindergarten-Wohnungen).
 - **Programmanordnung:** EG mit den **zwei Kindergaerten an den Stirnseiten** (separate Eingaenge;
   heilpaedagogischer KG im Norden zweiseitig, Regelkindergarten im Sueden dreiseitig belichtet);
   in der Mitte der eingezogene Wohnungseingang mit Treppenhaus, ueber das auch Waschkueche und
@@ -183,9 +187,11 @@ Wirkung bestaetigt):
    Netto-Null) zum Titel — pruegnant, birgt aber das Risiko der Programm-Abweichung («unterkellert»
    gefordert). Ob die Jury Mut oder Regelbruch sah, ist offen.
 3. **Kennwert-Disziplin belegt.** BGF 1'249 von max. 1'293 m2 und HNF/GF 0.70 zeigen einen
-   ausgenutzten, flaecheneffizienten Beitrag im geforderten Zielband (0.70–0.75) — die Art
-   Kennwert-Naehe, die bei Muttenz (2102) dem Sieger, nicht uns, zugeschrieben wurde. Erst ein
-   Jurybericht zeigt, ob das hier honoriert wurde.
+   ausgenutzten, flaecheneffizienten Beitrag im geforderten Zielband (0.70–0.75). Ob diese
+   Kennwert-Naehe hier honoriert wurde, zeigt erst ein Jurybericht. (Ein moeglicher Querverweis
+   auf das Verfahren 2102 Muttenz — dort soll die Kennwert-Naehe dem Sieger zugeschrieben worden
+   sein — ist aus den Schliengerweg-Quellen nicht belegt und bleibt eine im 2102-Dossier zu
+   pruefende Hypothese.)
 
 ## Offene Fragen (auch in wiki/QUESTIONS.md)
 

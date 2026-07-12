@@ -1,10 +1,11 @@
 ---
 title: "Externer Jurybericht: Gesamtsanierung und Erweiterung Volksschule Stöckacker, Bern (2020)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2507 WETT TKHL/10 architekt/20 referenzen/24 diverse/Primar&Sekundarschule Stöckacker, Bern/volksschule-stöckacker-jurybericht.pdf (Bericht des Preisgerichts, Hochbau Stadt Bern, Oktober 2020, 77 S.)"
   - "/Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-volksschule-stoeckacker-bern.txt (pdftotext-Extrakt)"
+coverage: "Beruht auf dem Text-Extrakt S. 5–61 (Rangierung, Würdigungen Rang 1–4, Vorprüfung); Projektblätter Rang 5/6 und die Rundgänge (S. 62–155) sind nicht ausgewertet."
 links:
   - "[[muster]]"
 ---
@@ -55,9 +56,11 @@ Kernargumente der Jury (alle S. 26–27, Empfehlung S. 17):
 4. **Wirtschaftlichkeit/Ökologie als Argument**: Kompaktheit, Holzhybrid, Vorfabrikation
    und geringe Eingriffstiefe = gute ökonomische Kennwerte, vergleichsweise niedrige
    Kosten, positive Graue-Energie-Bilanz.
-5. Kritikpunkte trotz Sieg (Überarbeitungsauflagen, S. 17): Zufahrt/Parkierung,
-   Betriebsräume, hoher Glasanteil vs. Energieanforderungen, Nachtauskühlung,
-   Statik-/Haustechnikkonzept, Übergang Baukörper–Hügeltopografie.
+5. Kritikpunkte trotz Sieg (Überarbeitungsauflagen S. 17 und Würdigungs-Kritik S. 29):
+   Zufahrt/Parkierung, Betriebsräume, Nachtauskühlung, Statik-/Haustechnikkonzept
+   (Überarbeitungsauflagen S. 17); «eher hohe Glasanteil» vs. Energieanforderungen und
+   die «kaum artikulierte Art, wie Baukörper und Topografie des Hügels zusammentreffen»
+   (Würdigung S. 29).
 
 ## Wiederkehrende Jury-Argumente / K.-o.-Punkte über alle gewürdigten Projekte
 
@@ -68,8 +71,9 @@ Kernargumente der Jury (alle S. 26–27, Empfehlung S. 17):
   S. 38–39; ZABARDAST: Abbruch der Pavillon-Längswand «nicht vertretbar», S. 58–59).
 - **Massstab und Distanz zum Ensemble**: Prämiert wurde, was den fliessenden
   Landschaftsraum und die Pavillon-Körnung respektiert; bestraft wurde, was den
-  Massstab sprengt oder den Bestand bedrängt (ZABARDAST, S. 58) oder ihn durch zu
-  nahe Verwandtschaft «verunklärt» (Herr Nilsson, S. 48–49).
+  Massstab sprengt oder den Bestand bedrängt (ZABARDAST, S. 58) oder ihn durch eine
+  zu enge Anlehnung «verunklärt» (Herr Nilsson: «der Preis für die nahe Verwandtschaft»,
+  S. 48–49).
 - **Klassenzimmer in den Gebäudeecken, zweiseitig belichtet** taucht bei Rang 1 UND 2
   als gelobtes Grundrissprinzip auf (S. 26, 38).
 - **Flexibilität/Schaltbarkeit für Cluster und Ganztagesschule** ist durchgehendes
@@ -89,8 +93,9 @@ Kernargumente der Jury (alle S. 26–27, Empfehlung S. 17):
 
 1. Bei Erweiterung eines geschützten Ensembles gewinnt der **kompakte, distanziert
    gesetzte Solitär**, der das ganze Neuprogramm bündelt und das Areal frei lässt —
-   nicht das Weiterstricken der Bestandstypologie (Rang 3 zeigt: zu nahe Verwandtschaft
-   «verunklärt» die Anlage).
+   nicht das Weiterstricken der Bestandstypologie (Rang 3 zeigt: eine zu enge
+   Anlehnung an den Bestand «verunklärt» die Anlage; die Jury spricht vom «Preis für
+   die nahe Verwandtschaft»).
 2. **Eingriffstiefe im Bestand ist die härteste Währung**: Abbruch geschützter Substanz
    = Ausschluss von der Preiserteilung; minimale Eingriffe sind zugleich Denkmal-,
    Kosten- und Graue-Energie-Argument (dreifacher Hebel in der Würdigung).

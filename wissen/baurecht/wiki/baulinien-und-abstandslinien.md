@@ -1,7 +1,8 @@
 ---
 title: Baulinien und Abstandslinien — Kanton Zürich
-status: emerging
-last_updated: 2026-06-14
+status: established
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich § 264 (Strassenabstand subsidiär zur Verkehrsbaulinie) + § 272 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31; §§ 96-101/§ 266 buchbelegt)
 sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 110a PBG", "§ 220 PBG", "§ 238 Abs. 3 PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV", "§ 15m HWSchV", "Buch Bd 2 S. 1022-1061"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2b]], [[zonenkonformitaet]], [[raumplanung-und-gestaltung]]
 ---

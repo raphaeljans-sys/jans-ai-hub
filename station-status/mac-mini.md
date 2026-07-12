@@ -1,10 +1,10 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 23:07:30
+Stand: 12.07.2026 23:27:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:04)
-- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 23:07)
+- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 23:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 12.07.2026 23:07:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ba17e46b vollgas-radar 23:05: Mini-Run rc=0 bestaetigt, STOP-Macmini (unklar) haelt Mini an
+- 04feecfe energie-training Run 36: MuKEn 2025 + Waermebruecke Balkonplatte (F47-F48) + Register-Updates

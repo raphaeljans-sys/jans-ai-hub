@@ -1,151 +1,328 @@
 ---
-title: "JANS-Board-DNA — die grafische Handschrift der Wettbewerbsabgaben (Synthese aus 9 Plakat-Analysen)"
+title: JANS-Plakat-Handschrift — verallgemeinerte Board-DNA + Vorgaben fuer den Agenten plakat-setzer
 status: draft
 last_updated: 2026-07-12
 sources:
-  - "9 Board-DNA-Analysen in wiki/board-dna/ (2101, 2102, 2103, 2205, 2206, 2207, 2408, 2501, 2507)"
+  - "[[board-dna/2101]] — LOUISE, KSSG Haus 14 St.Gallen (Klinik/IVF), 4 Boards A1 quer"
+  - "[[board-dna/2102]] — PATIO IM PIANO NOBILE, SEK Muttenz (Schule), 4 Boards A1 quer"
+  - "[[board-dna/2103]] — PATIO IN NOBILE, Steinhofschule Luzern (Schule), 4 Boards A0 quer"
+  - "[[board-dna/2205]] — JULI, Guggerbach Davos (Alterszentrum), A0 quer (nur Board 1 analysiert)"
+  - "[[board-dna/2206]] — Schoental Altstaetten (Schule), A1/A2 quer — NACHWEIS-Set, nicht Finalplakat"
+  - "[[board-dna/2207]] — no-ug@, Schliengerweg Basel (Wohnen Netto-Null), 1 Board A0 quer"
+  - "[[board-dna/2408]] — Babuschka, Grassen-Biwak (alpines Biwak), 2 Boards A2 quer"
+  - "[[board-dna/2501]] — Seestern, Areal Steinfabrik Pfaeffikon SZ (Wohnen/Areal), 6 Boards A0 quer — Plan-only"
+  - "[[board-dna/2507]] — LIMO, Tagesbetreuung PS Halden St.Gallen (Hort), 4 Boards A1 quer"
 links:
-  - "[[board-dna/2101]]"
-  - "[[board-dna/2102]]"
-  - "[[board-dna/2103]]"
-  - "[[board-dna/2205]]"
-  - "[[board-dna/2206]]"
-  - "[[board-dna/2507]]"
+  - "[[muster/delta-zum-ersten-rang]]"
   - "[[jury-argumente-schulbauten]]"
 ---
 
-# JANS-Board-DNA
+# JANS-Plakat-Handschrift — Muster ueber neun Board-DNA-Analysen
 
-Verdichtung der visuellen Analysen von neun JANS-Abgabesets (2101 KSSG, 2102 Muttenz,
-2103 Steinhof, 2205 Guggerbach, 2206 Schoental, 2207, 2408 BIWAK, 2501, 2507 TKHL).
-Ziel: die konstante grafische Handschrift festhalten und daraus maschinelle Vorgaben fuer
-den Agenten `plakat-setzer` (Skill `wettbewerb`) ableiten. Der Auftritt zielt erkennbar
-auf eine **Fachjury, die Plaene liest** — Emotionalisierung ueber Licht/Material in wenigen
+Datenbasis: neun visuell analysierte Abgabe-Board-Sets (Belege in den verlinkten
+`board-dna/`-Artikeln; dieser Muster-Artikel verdichtet nur, was dort quellenfest
+steht). Die Bauaufgaben streuen breit — Schule/Hort (2102, 2103, 2206, 2507), Klinik
+(2101), Alterszentrum (2205), Wohnen/Areal (2207, 2501), alpines Biwak (2408). Dass
+dieselbe Handschrift ueber so verschiedene Aufgaben traegt, macht die durchgaengigen
+Merkmale zu echter DNA und nicht zu Aufgaben-Zufall. Der Auftritt zielt erkennbar auf
+eine **Fachjury, die Plaene liest**: Emotionalisierung ueber Licht/Material in wenigen
 Bildern, nicht ueber grossformatige Renderings.
 
-## 1. Format und Blattarchitektur (konstant)
+Zwei Zaehl-Vorbehalte vorweg (damit die Belege ehrlich bleiben):
+- **2206** ist kein finales Praesentations-Board, sondern ein ArchiCAD-Nachweis-/
+  Programmplan-Set (kein Kennwort, kein Nordpfeil, keine Massstabsleiste, keine Bilder
+  sichtbar). Fuer alle bild-, kopf- und leistenbezogenen Merkmale zaehlt es nicht mit.
+- **2205** ist nur mit Board 1 von 4 erfasst, **2501** ist ein reiner Plan-Satz ohne
+  Renderings (moeglicher zweiter Bild-Satz nicht belegt). Wo das die Aussage begrenzt,
+  ist es vermerkt.
 
-- **A0 oder A1 Querformat**, meist 4 Boards als lesbares Set (2103/2205 A0; 2101/2102 A1).
-- **Weisser Fond, kein Rahmen, kein Passepartout, kein Plankopf-Kasten.** Plaene stehen
-  freigestellt auf Weiss; Ordnung entsteht ueber Ausrichtung und Zwischenraum, nie ueber
-  Linien oder Farbflaechen.
-- **Konstante Kopfzeile oben links** auf jedem Board: einzeilig/zweizeilig der Projekttitel
-  in mageren Versalien, darunter das **Kennwort fett + unterstrichen** (Versalien). Das ist
-  die einzige feste Kopf-Marke; keine Logos, anonym.
-- **Board-Index-Piktogramm oben rechts:** ein 2×2-Miniaturraster der vier Blaetter, das
-  aktuelle Board grau/dunkel markiert («wo bin ich im Set»). Wiederkehrendes, seltenes
-  Signatur-Element — auf 2101/2102/2103/2205 nachgewiesen.
-- **Grosszuegiger, gleichmaessiger Aussenrand** (Einschaetzung 2–3 cm im Originalmassstab),
-  viel disziplinierter Weissraum; dicht belegt, nie ueberfuellt.
+---
 
-## 2. Layout-Grundschema je Board
+## Teil A — Die JANS-Plakat-Handschrift
 
-- **Grosse Plan-/Bildflaeche links bzw. oben** (ca. 60–75 % der Breite), **rechts oder
-  unten eine schmalere Spalte** mit Visualisierung(en), Diagrammen und Text.
-- **Text konsequent in Randspalte oder untere Blattzone verbannt**, klein und
-  **zwei-/mehrspaltig**, mit fetten Versal-Zwischentiteln (Muttenz: LEKTUERE DES GEVIERTS,
-  STAEDTEBAU, FREIRAUM, FASSADE, STATIK, BRANDSCHUTZ, ENERGIE, AKUSTIK) oder kursiven
-  Serifen-Titeln (Steinhof). Text ist nie Flaeche, immer schmale Spalte.
-- **Kein Board ist rein textlastig; genau ein Rendering pro Board als Anker** (Ausnahme:
-  reine Organisations-/Nachweisboards ohne Rendering).
+### A0 durchgaengige Muster (ueber mehrere/alle Teilnahmen belegt)
 
-## 3. Dramaturgie: vom Grossen zum Kleinen
+**1. Querformat, immer.** Alle neun Sets sind Querformat, ausnahmslos. Das Blattformat
+selbst variiert mit der Aufgabe/dem Programm: A0 (2103, 2205, 2207, 2501), A1 (2101,
+2102, 2507), A2 (2408), gemischt A1/A2 (2206). Konstante ist die Orientierung, nicht
+das Format.
 
-Feste Reihenfolge ueber das Set: **Stadt/Setzung → Boden/Freiraum → Innenraum/Programm →
-Konstruktion/Nachweis.**
+**2. Weisser Fond, freigestellte Plaene, keine Rahmen/Farbflaechen als Layoutelement.**
+Plaene und Bilder stehen frei auf Weiss; Ordnung entsteht ueber Ausrichtung und
+Zwischenraum, nicht ueber Kaesten oder farbige Hintergruende. Belegt in 2101, 2102,
+2103, 2205, 2207, 2501 und (Nachweis-Ebene) 2206. **Einzelfall-Abweichung:** 2408
+umgibt Board und Felder mit einer feinen **gestrichelten** Rahmen-/Trennlinie — leichte
+Rasterstruktur, aber bewusst zart. Einschaetzung: 2408 ist ein ArchiCAD-Direktexport
+(wie 2206), was den «gerasterten» Blattcharakter erklaeren duerfte; die gelayouteten
+InDesign-Sets (2102, 2103, 2207, 2507, u.a.) verzichten auf jede Rahmung.
 
-- **Board 1 = Ort und Setzung**, Hauptbild ist der **gerenderte Situationsplan 1:500**
-  (atmosphaerische Dachaufsicht, fast Luftbild) — **der Plan selbst ist das Hero-Bild,
-  nicht ein Rendering.** Aussenvisualisierung nur als Sekundaerbild in der Randspalte,
-  dazu Schwarzplan und staedtebauliche Argumentation (oft nummerierte Ziele + Schemata).
-- **Board 2 = Erdgeschoss/Freiraum bzw. Organisation** (kombinierter EG-/Umgebungsplan
-  1:200; Funktions-/Betriebs-Diagramme).
-- **Board 3 = Innenraum/Herzstueck** — hier faellt der emotionale Hoehepunkt (das
-  Rendering, das das Kennwort einloest: der rosa Patio in Muttenz/Steinhof).
-- **Board 4 = Konstruktion/Beweisfuehrung** (Schnitte 1:200, Fassadenschnitt 1:50 mit
-  tabellarischen Schichtaufbau-Listen, Tragwerks-/Brandschutz-/Energieschema).
+**3. Feste Blattarchitektur ueber das ganze Set (Kopf-/Fusszeile konstant).** Kopfzeile
+mit Projekttitel (Versalien) + Kennwort auf jedem Board identisch; eine schmale
+Text-Bild-Randspalte bzw. eine feste Textzone; oft eine konstante Fusszeile mit
+Projektzeile. Belegt in 2101, 2102, 2103, 2501, 2507; sinngemaess 2205. Der ganze
+Satz liest sich als EIN gestaltetes Blatt-System, kein Board tanzt aus der Reihe
+(2501 explizit: «kein Board tanzt aus der Reihe»).
 
-## 4. Plangrafik (die eigentliche Signatur)
+**4. Board-Index-Piktogramm (2x2-Raster, aktuelles Blatt markiert).** Ein kleines
+Vierfelder-/Miniatur-Raster, in dem das aktuelle Blatt gefuellt ist — «wo bin ich in
+der Abgabe». Sehr wiedererkennbares, seltenes Orientierungselement. **Durchgaengig bei
+allen Mehr-Board-Sets:** 2101 (oben rechts), 2102 (oben rechts), 2103 (oben rechts),
+2205 (unten rechts), 2501 (unten rechts, Blatt-Navigator), 2507 (Fusszeile, gefuelltes
+Feld). Fehlt nur dort, wo es keinen Sinn hat: 2207 (Einzelblatt), 2408 (nur 2 Boards,
+stattdessen thematische Board-Titel PROJEKTIDEE/PLAENE), 2206 (Nachweis-Set). Das ist
+eines der staerksten JANS-Signaturelemente ueberhaupt.
 
-- **Massstabskanon durchgehend: 1:500 Situation · 1:200 Grundrisse/Schnitte/Ansichten ·
-  1:50 Fassaden-/Konstruktionsschnitt** (+ Schwarzplan 1:2500).
-- **Strichsprache:** feine, praezise Schwarzweiss-Linien; geschnittene Bauteile satt
-  schwarz gefuellt (Poche); **Bestand hellgrau und duenn zurueckgenommen** — klare
-  Alt-Neu-Hierarchie. **Werkplan-Praezision schon im Wettbewerb:** Achsraster, Achskreise,
-  Massketten (ablesbares Bau-Raster) auch in 1:200; Bauteilaufbau-Listen am 1:50-Schnitt.
-- **Moeblierung in allen Grundrissen vollstaendig durchgezeichnet** (Bestuhlung,
-  Turnhallen-Spielfeldlinien gestrichelt) — Nutzung ohne Legende lesbar.
-- **Farbdisziplin = das Markenzeichen:** Planwerk grundsaetzlich **monochrom SW plus genau
-  EIN wiederkehrender Farbakzent als These** — das **altrosa/mauve eingefaerbte Zentrum**
-  (Patio/Halle/Marktplatz), das den Kennwort-/Konzeptkern markiert und die Signaturfarbe
-  der Renderings zitiert. Sonst tritt Farbe **nur als Information** auf: Funktions-/
-  Energieschemata, gruener Fluchtweg-Nachweis mit Distanzangabe direkt im Plan, rote
-  Projekt-/Baulinie, rote Niveaukoten, normierte Brandschutz-Signalfarben.
-- **Nachweis-Ebene sichtbar im Plan** statt in den Bericht ausgelagert: Fluchtwegpfeile +
-  Distanz («19m/22m/31m»), anrechenbare Geschossflaeche als grosse Kopfzahl ueber dem
-  Grundriss, Modul-Kennzeichnung, Nutzungsszenarien-Matrizen (farbcodierte Mini-Grundriss-
-  Varianten als Flexibilitaetsbeleg — Steinhof «OpenSpace/Classic/Various»).
-- **Vegetation:** weiche, aquarellartig-transparente Baumkronen in **Graugruen/Greige-Olive-
-  Erdtoenen — nie sattes Signalgruen**; Rasen zart, Umgebungsbauten als weisse Volumen mit
-  zarten Dachlinien. Der Situationsplan wirkt atmosphaerisch, nicht technisch.
-- **Beschriftung:** klein, serifenlos, konsequent unter/neben dem Plan; Raumnamen mit
-  m2-Angaben im Plan; Hoehenkoten in m ue. M.; Plantitel als Versal-Unterzeile.
+**5. Dramaturgie vom Grossen zum Kleinen (Stadt/Ort → Gebaeude → Detail).** Ausnahmslos
+in allen Sets: Situationsplan/Schwarzplan → Grundrisse/Betrieb → Innenraum/Nachweis →
+Konstruktionsdetail. Formuliert als «vom Grossen zum Kleinen» (2102), «vom Ort zum
+Detail» (2103), «vom Quartier zum Gebaeude» (2206), «vom Ort zur Zelle» (2501),
+«aussen nach innen ins Detail 1:50» (2507). Universelles Ordnungsprinzip.
 
-## 5. Orientierungs-Elemente (feste Signaturen)
+**6. Massstab-Kaskade 1:500 / 1:200 / 1:50 (bzw. 1:20).** Situation 1:500 →
+Grundrisse/Ansichten/Schnitte 1:200 → Konstruktions-/Fassadendetail 1:50 (2101, 2102,
+2103, 2507) oder 1:20 (2207, 2408). Vorgeschaltet oft ein Schwarzplan 1:2500 (2205,
+2501, 2206) bzw. 1:1000 (2408). Der Massstab steht immer in der Planbeschriftung.
 
-- **Massstabsleiste** als **treppenfoermig/maeanderfoermig gestufte Balkenleiste**
-  (kammartiges Profil, z.B. 0/10/40 m) statt klassischem Balken — eigenwilliges,
-  wiedererkennbares JANS-Element (Muttenz, Steinhof). Unten links bzw. je Planfeld unten
-  rechts. (2205 nutzte nur numerische Massstaebe ohne Leiste — Abweichung.)
-- **Nordpfeil** als schlichter feiner Kreis mit Nadel/«N»; traegt die Blattdrehung, wenn
-  Situation/EG nicht genordet sind (Quartierraster diagonal zum Blatt).
+**7. Plan-first-Auftakt: der (gerenderte) Situations-/Schwarzplan ist das erste Bild,
+kein Hero-Rendering.** Der Plan selbst uebernimmt die Bildrolle («Plan = Bild»). Klar
+belegt in 2102 (Situationsplan statt Hero, Renderings in die rechte Spalte
+diszipliniert), 2103 (gerenderter Situationsplan als Hero), 2501 (Schwarzplan +
+These), 2207 (Situation 1:500 zuerst, argumentgetrieben), 2205 (Staedtebau-Board mit
+seitenhohem Situationsplan). **Ehrliche Abgrenzung — kein Vollmuster:** 2408 fuehrt
+mit dem Stimmungsbild ein («Emotion zuerst, dann Erklaerung, dann Beweis»); 2101 und
+2507 setzen Bild UND Situation gleichzeitig auf Board 1 (Erzaehlung + Setzung
+parallel). Einschaetzung: Die beiden juengeren Schul-/Biwak-Auftritte (2408, 2507,
+beide 2025) und der Klinik-Auftritt 2101 gewichten das Auftaktbild staerker als die
+2102/2103-Generation (2022). Der plan-first-Auftakt ist das dominante, aber nicht das
+alleinige Muster.
 
-## 6. Bildsprache der Renderings
+**8. Farbdisziplin: monochrome Plangrafik, Farbe nie dekorativ.** Basis ist immer
+Schwarz-Weiss; Farbe erscheint nur in einer von zwei kontrollierten Rollen —
+ausnahmslos belegt:
+- **(a) EIN thesenhafter Farbakzent = Kennwort-/Konzept-Einloesung:** der altrosa
+  Patio als einzige Planfarbe (2102, loest «PATIO»-Kennwort ein), Rosa-Akzent fuer
+  Gemeinschaftszonen/Stuetzen (2103), der roetlich-rose gebeizte Holzton als
+  durchgaengige Bildfarbe (2101), der gelbe Textil-/PV-Akzent vom Rendering bis ins
+  Konstruktionsblatt (2507).
+- **(b) funktionaler Farbcode (Legende, nie Schmuck):** Gelb PV / Blau Wasser / Pink
+  Konstruktion / Gruen Begruenung (2207), Magenta Achsen / Rot Perimeter / Blau
+  Tragwerk (2408), dreifarbiger Nutzungscode H/P/G (2501), Programm-Farbcode der
+  Raumkategorien (2206).
+  Ein wiederkehrender Lieblingston ist **Altrosa/Mauve** (2102, 2103, 2206) —
+  Einschaetzung: bevorzugt fuer «Herz»-Raeume (Patio, Lernlandschaft, Marktplatz).
 
-- **Ein Rendering pro Board als bewusst gesetzter Anker**, sonst strenge Planebene.
-- Zwei Spielarten belegt: **fotorealistisch mit warmer Lichtstimmung** (2101/2102, viel
-  Tageslicht, Holz dominiert) und **aquarellartig-zeichnerische Collage mit lasierender
-  Pastell-Kolorierung** (2103) — beide mit **zurueckhaltender Materialpalette Holz +
-  Sichtbeton + der rosa/rote Signaturton**.
-- **Menschen sehr sparsam** (1–3 Figuren, teils halbtransparent) als Massstab, nicht als
-  Erzaehlung; kleine narrative Details (Wimpelkette, Kinder) statt dichter Szenen.
-- **Kursive Bildunterschrift in Anfuehrungszeichen** als atmosphaerischer Claim
-  («Spielen unter Baeumen», «Freiluftschule Steinhof») — die Bilder argumentieren
-  Nutzungssituationen, nicht Architektur-Ikonografie.
-- **Weisse Volumenmodell-Bilder** fuer die staedtebauliche Einordnung (abstrakt neben den
-  atmosphaerischen Bildern); gelegentlich **Referenzfoto mit Quellenangabe** als
-  Haltungs-Beleg (2101 Minoletti).
+**9. Werkplan-Praezision schon im Wettbewerb: Konstruktions-/Fassadendetail 1:50–1:20
+mit tabellarischen Schichtaufbau-Listen direkt am Schnitt.** Technische Tiefe wird
+sichtbar gemacht statt in den Bericht ausgelagert. Belegt in 2101 (1:50,
+Schichtaufbau-Tabellen), 2102 (1:50, Bauteilaufbauten + Achsraster/Massketten/
+4.75-m-Raster schon im 1:200), 2103 (1:50, Bauteil-Beschriebe), 2207 (1:20,
+Schichtaufbauten mm), 2408 (1:20, Schichttabellen A/B/C + konkrete Produkte),
+2507 (1:50, Bild-Schnitt-Hybrid mit mm-Aufbaubeschrieben). Fehlt nur im reinen
+Plan-Satz 2501 und im Nachweis-Set 2206. Sehr starkes Muster (6 von 7 echten
+Board-Sets).
 
-## 7. Vorgaben fuer den Agenten `plakat-setzer` (maschinell umsetzbar)
+**10. Moeblierung in allen Grundrissen durchgezeichnet — auch im 1:200.** Nutzung ist
+ohne Legende lesbar (Bestuhlung, OP-Ausstattung, Betten, Turnhallen-Spielfeldlinien).
+Belegt in 2101, 2102, 2103, 2207, 2408, 2501, 2507 — praktisch universell.
 
-Ein JANS-konformes Board-Geruest (SVG/InDesign-IDML) hat:
+**11. Poche + Alt-Neu-Hierarchie: geschnittene Bauteile schwarz gefuellt, Bestand
+hellgrau/duenn zurueckgenommen.** Belegt in 2101, 2102, 2103, 2206, 2207, 2501, 2408.
+**Einzelfall-Abweichung:** 2507 (juengster Auftritt, 2025) arbeitet bewusst mit feiner
+schwarzer **Linienzeichnung ohne Flaechenschwarz**, «keine schweren Poche-Fuellungen».
+Einschaetzung: moegliche Entwicklung der Strichsprache hin zu leichter — an weiteren
+2025er-Boards zu pruefen.
 
-1. **Blatt:** A0 oder A1 quer, weiss, randlos, umlaufender Rand ~2.5 cm; 4-Board-Set.
-2. **Kopfzeile oben links** (Platzhalter): `PROJEKTTITEL` (Versalien, mager) über
-   `KENNWORT` (fett, unterstrichen, Versalien). **Board-Index 2×2 oben rechts**, aktuelles
-   Feld markiert. Keine Logos/Verfasser (Anonymitaet).
-3. **Rasterzonen:** grosse Plan-/Bildzone (links/oben ~65 %) + schmale Randspalte
-   (rechts/unten) fuer Rendering, Diagramme, mehrspaltigen Kleinsatz mit Versal-Zwischentiteln.
-4. **Board-Sequenz** vorbelegt: 1 Situation 1:500 (Hero-Plan) · 2 EG/Umgebung 1:200 +
-   Betriebsdiagramm · 3 Grundrisse 1:200 + Innen-Hero + Nutzungsszenarien · 4 Schnitte
-   1:200 + Fassadenschnitt 1:50 + Nachhaltigkeits-/Tragwerks-/Brandschutzschema.
-5. **Massstabsleiste** als gestufte Kamm-Balkenleiste + **Kreis-Nordpfeil** unten links/
-   je Planfeld.
-6. **Farbregel hart codiert:** Planwerk monochrom; **genau ein Akzent-Farbslot** (Default
-   Altrosa/Oxidrot — deckt sich mit der JANS-Studienblatt-Palette) fuer den Konzeptkern;
-   zusaetzlich reservierte Info-Farben (gruen Fluchtweg, rot Projektlinie/Koten, normierte
-   Brandschutzfarben). Vegetation Greige-Olive, kein Signalgruen.
-7. **Pflicht-Nachweisslots im Plan:** Fluchtwegpfeile + Distanz, anrechenbare
-   Geschossflaeche als Kopfzahl, Achsraster/Massketten, Bauteilaufbau-Liste am 1:50-Schnitt.
-8. **Kleinsatz:** serifenlos, mehrspaltig, Versal- oder Kursiv-Zwischentitel; Bildclaims
-   kursiv in Guillemets. Kein Gedankenstrich als Stilmittel (Rule dokument-layout-standard).
+**12. Weiche, transparente Baumkronen / atmosphaerische Vegetation.** Aquarellartig
+transparente Kronen (2101 graugruen, 2102, 2103 collagiert, 2205 olivgruen-texturiert,
+2501 hell gefiedert, 2507 feines Astwerk/Nadelgeflecht). Der Situationsplan wirkt
+dadurch atmosphaerisch statt technisch; Erdtoene/Greige-Olive statt Signalgruen (2205
+explizit). Fehlt nur bei der hochalpinen Aufgabe 2408 (dort Fels als facettierte
+Polygonflaechen statt Vegetation).
+
+**13. Bildsprache: wenige, disziplinierte Bilder; Licht/Material statt Grossformat-
+Hero; sparsame, massstabgebende Staffage.** Renderings sind gesetzte Anker (oft genau
+eines je Board, 2101), nie ein blattfuellender Hero; die Emotionalisierung laeuft ueber
+Licht und Material in wenigen Bildern (2102 explizit). Menschen sind sparsam
+(1–3 je Bild), teils halbtransparent, massstabgebend statt erzaehlend (2101, 2102,
+2103, 2408, 2501, 2507); zwei Auftritte verzichten ganz auf Staffage (2205 weisses
+Modellbild ohne Menschen; 2207 stimmungsarmes Innenbild ohne Menschen). Zeichnerische
+Aquarell-Collagen statt Fotorealismus sind eine Variante (2103, 2501); kursive
+Bild-Claims in Guillemets («Spielen unter Baeumen», «Freiluftschule Steinhof»)
+argumentieren Nutzungssituationen statt Architektur-Ikonografie (2103).
+
+**14. Nordpfeil als schlichter Kreis mit Nadel.** Universell, wo ueberhaupt vorhanden:
+2101, 2102, 2103, 2205, 2207, 2408, 2501, 2507 — immer als reduzierter Kreis-Nordpfeil,
+platziert bei Situation/Grundriss (meist unten rechts im Planfeld), nie aufwendig-
+dekorativ; traegt die Blattdrehung, wenn Situation/EG nicht genordet sind (2102). Fehlt
+nur im Nachweis-Set 2206.
+
+**15. Kleinsatz in schmalen Spalten mit Zwischentiteln + Mini-Diagramme.** Fliesstext
+durchgehend klein, serifenlos, in schmalen (zwei- bis mehrspaltigen) Bloecken, gegliedert
+durch Zwischentitel; Argumente zusaetzlich als nummerierte Ziel-Listen und Mini-Schemata
+verdichtet (Schwarzplan, Schulhof-/Baumkonzept, Flexibilitaet, Tragwerk, Brandschutz,
+Funktions-/Geschossstapel-Diagramme). Belegt in 2101, 2102, 2103, 2205, 2207, 2408,
+2501, 2507. Der Zwischentitel-Stil variiert (siehe Einzelfaelle unten).
+
+### A1 haeufig, aber nicht durchgaengig (mehrfach, nicht universell)
+
+- **Gestufte / treppen- bzw. maeanderfoermige Massstabsleiste** als grafische Signatur:
+  belegt in 2101, 2102 (kammartig gestuft), 2103 (maeanderfoermig), 2408 (gezackt,
+  konsistent ueber beide Boards), 2507 (gestuft). **Nicht** so bei 2205 und 2207 (keine
+  bzw. schlichte kurze Leiste) und bei 2501 (grafische, aber nicht als gestuft
+  beschriebene Leiste). Starke, aber nicht ausnahmslose JANS-Grafiksignatur.
+- **Schwarzplan (Figure-Ground) als staedtebauliches Beweisbild:** 2102, 2103, 2205,
+  2206, 2501 — durchgaengig bei staedtebaulichen Aufgaben; fehlt bei Erweiterung/
+  Einzelobjekt (2101 Klinik-Anbau, 2207, 2408, 2507).
+- **Referenzbild mit Quellenangabe als Haltungsbeleg:** SW-Foto Minoletti (2101),
+  Referenzfoto Seeuferlandschaft + Gygaxkarte 1667 (2501), Referenzfotos Spielpavillon
+  (2103). Wiederkehrend, nicht universell.
+- **Kennzahl/Nachweis direkt im Plan** (aGF/m2 je Raum, Fluchtwegdistanzen): stark bei
+  2206 (aGF als Headline, gruene Fluchtweg-Distanzpfeile «19m/22m/31m»), 2501 (m2 je
+  Haus + aGF-Tabelle gegen AZ), auch 2101/2103/2507 (m2 im Plan). Deckt sich mit dem
+  Nachweis-Denken aus [[muster/delta-zum-ersten-rang]] (Kennwert-Disziplin).
+- **Betriebs-/Konzept-Beweisebene als eigenes Diagramm-Set**, passend zur Aufgabe:
+  medizinische Prozess-Pfeile + Geschossstapel (2101 Klinik), paedagogische
+  Nutzungsszenarien-Matrizen «OpenSpace/Deluxe/Classic» (2103 Schule), CO2-Bauteilkatalog
+  mit Kreisfotos + Explosions-Axonometrie (2207 Netto-Null), Bausystem-Axonometrie in
+  Schritten (2408 Biwak). Das Diagramm-Thema folgt der Bauaufgabe.
+
+### A2 Einzelfaelle / projekt-spezifisch (bewusst nicht als DNA werten)
+
+- Kennwort-Platzierung weicht ab: Regelfall **oben links** (2101, 2102, 2103, 2205,
+  2501, 2408). Ausnahmen: 2207 «no-ug@» **oben rechts, gross** (Kennwort = Programm,
+  «kein UG»); 2507 «LIMO» **unten rechts in der Fusszeile**. Kennwort **fett +
+  unterstrichen** ist die 2022er-Signatur (2101, 2102, 2103); **klein gesperrte
+  Versalien** die Areal-/Staedtebau-Variante (2205, 2501).
+- Zwischentitel-Stil: fette Versalien (2101, 2102, 2205, 2207), kursive Serifen-Titel
+  (2103), unterstrichene Titel (2501), fette Titel (2408, 2507). Gesperrte Versalien-
+  Sektionstitel («S I T U A T I O N») speziell 2205.
+- Unterstrich-Notation der Massstaebe («1_200») als typografische Eigenheit nur 2207.
+- Signaturmotive sind projekt-eigen: rosa Patio (2102), Spirale/Rutschbahn (2507),
+  sternfoermige Polygon-Footprints + Bachdelta-Erzaehlfigur (2501), kreisrunde
+  Bauteil-Fotovignetten (2207), Fels-Polygonflaechen + Tageszyklus-Bilder (2408).
+- Software: gelayoutete Boards in **Adobe InDesign** (2102, 2103, 2207, 2507); die zwei
+  weniger «gestalteten» Sets sind **ArchiCAD-Direktexporte** (2206 Nachweis, 2408).
+  Einschaetzung: InDesign-Layout korreliert mit der vollen Blattarchitektur (Kopf-/
+  Fusszeile, Board-Index, gestufte Leiste).
+
+### A3 Widersprueche / duenne Stellen (ehrlich vermerkt)
+
+- **2206** belegt kein einziges Bild-, Kopf- oder Leisten-Merkmal (Nachweis-Set) — es
+  stuetzt nur Farbcode, Fluchtweg-Nachweis, Kennzahl-Headline und Alt-Neu-Poche. Fuer
+  die JANS-«Plakat»-Handschrift ist es der schwaechste Zeuge.
+- **2205** (nur Board 1) und **2501** (Plan-only) koennen zur Renderings-Dramaturgie
+  wenig sagen; die dortige «keine/wenige Bilder»-Aussage ist womoeglich der
+  unvollstaendigen Quelle geschuldet, nicht der Absicht (offene Punkte).
+- Der **plan-first-Auftakt** (Merkmal 7) und die **schwere Poche** (Merkmal 11) sind in
+  den juengsten Auftritten (2408, 2507, beide 2025) am schwaechsten — moeglicher Stil-
+  Drift zu «Bild + Setzung parallel» und «leichtere Strichsprache». An kuenftigen
+  2025er/2026er-Boards zu verifizieren, bevor daraus eine Regel wird.
+
+---
+
+## Teil B — Vorgaben-Liste fuer den Agenten `plakat-setzer`
+
+Ziel: das JANS-Board-Raster reproduzierbar machen. Der Agent baut ein masshaltiges
+Plakat-Geruest (SVG/Layout) mit benannten Platzhaltern; Feinsatz und Parti bleiben Human
+Gate. Jede Vorgabe ist aus Teil A belegt; wo ein Punkt eine Wahl laesst, ist der
+JANS-Regelfall genannt.
+
+1. **Format & Orientierung.** Immer **Querformat**. Blattformat aus dem Programm
+   uebernehmen (A0/A1/A2 zulaessig); wenn frei, A1 quer als Default. Board-Anzahl aus
+   dem Programm; bei 1 Board Einzelblatt-Logik (kein Board-Index, Vorgabe 5).
+
+2. **Fond & Rahmung.** Weisser Fond, **keine** Rahmenlinien, **keine** Farbflaechen als
+   Layout-Hintergrund. Plaene/Bilder freigestellt, an einem unsichtbaren Spaltenraster
+   ausgerichtet; Ordnung ueber Ausrichtung + grosszuegigen Weissraum (umlaufender Rand
+   Richtwert ~2.5 cm im Originalmassstab). Gestrichelte Feldraster nur als bewusste
+   Ausnahme, nicht Default.
+
+3. **Feste Blattarchitektur ueber ALLE Boards identisch:** Kopfzeile (Projekttitel +
+   Kennwort), eine feste Text-Bild-Randspalte bzw. -zone, konstante Fusszeile mit
+   Projektzeile. Kein Board weicht im Grundgeruest ab. Grundschema je Board: grosse
+   Plan-/Bildzone (links/oben ~60–75 %) + schmale Randspalte (rechts/unten) fuer
+   Rendering, Diagramme und Kleinsatz.
+
+4. **Pflichtleiste Kennwort.** Kennwort auf **jedem** Board, Regelfall **oben links**
+   (fett, Versalien; unterstrichen als 2022er-Signatur ODER klein gesperrt als
+   Staedtebau-Variante). Kein Logo, keine Verfasserangabe, keine Bueroschrift —
+   Anonymitaet strikt wahren (siehe Vorgabe 12).
+
+5. **Board-Index-Piktogramm** bei jedem Mehr-Board-Set: kleines 2x2-(bzw. NxM-)Raster
+   der Blattfolge, aktuelles Blatt gefuellt, oben rechts oder in der Fusszeile. Bei
+   Einzelblatt weglassen; bei 2 Boards alternativ thematische Board-Titel.
+
+6. **Pflichtleisten Massstab & Nord je Planfeld:** grafische Massstabsleiste (JANS-
+   Regelfall: **gestufte/treppenfoermige** Balkenleiste) + **Nordpfeil als schlichter
+   Kreis mit Nadel**, platziert unten rechts am Situations-/Grundrissfeld. Massstab
+   zusaetzlich als Zahl in der Planbeschriftung (klein, serifenlos, unter dem Plan).
+
+7. **Dramaturgie-Reihenfolge fest vorgeben (gross → klein):**
+   (1) Schwarzplan/Situation 1:500 (bzw. 1:2500 Schwarzplan) →
+   (2) Grundrisse/Betrieb 1:200 →
+   (3) Innenraum/Nachweis/Betriebsdiagramme →
+   (4) Konstruktions-/Fassadendetail 1:50–1:20.
+   Auftakt-Platzhalter = **Situations-/Schwarzplan** (Plan-first-Regelfall); ein
+   Auftaktbild darf danebentreten, aber nie als blattfuellender Hero (Merkmal 7/13).
+
+8. **Massstab-Kaskade** als Raster-Vorgabe: 1:500 Situation, 1:200 Grundrisse/Ansichten/
+   Schnitte, 1:50 (oder 1:20) Detail; optional Schwarzplan 1:2500/1:1000. Jeder Plan mit
+   Massstab in der Beschriftung.
+
+9. **Werkplan-Tiefe einplanen:** einen Platzhalter fuer **Konstruktions-/Fassadenschnitt
+   1:50–1:20 mit tabellarischen Schichtaufbau-Listen** direkt am Schnitt vorsehen;
+   Achsraster/Massketten schon in den 1:200-Grundrissen anlegen.
+
+10. **Farbregel (hart):** Plangrafik **monochrom** (Poche schwarz, Bestand hellgrau).
+    Farbe nur in EINER von zwei Rollen: (a) EIN thesenhafter Akzent, der das Kennwort/
+    Konzept einloest (Default-Slot Altrosa/Oxidrot — deckt sich mit der JANS-Studienblatt-
+    Palette), ODER (b) ein funktionaler Legenden-Farbcode (Nutzung/Technik/Fluchtweg,
+    normierte Brandschutzfarben, rote Projekt-/Baulinie + Niveaukoten). **Nie** dekorative
+    Farbe, nie farbiger Blatthintergrund. Vegetation weich/transparent in Greige-Olive/
+    Graugruen, nicht signalgruen.
+
+11. **Plangrafik-Standard:** feine, praezise Linien; geschnittene Bauteile schwarz
+    gefuellt (Poche), Bestand hellgrau/duenn (Alt-Neu-Hierarchie); **Moeblierung in allen
+    Grundrissen durchgezeichnet** (Nutzung ohne Legende lesbar); Beschriftung klein,
+    serifenlos, unter dem Plan. Pflicht-Nachweisslots wo sinnvoll: Fluchtwegpfeile +
+    Distanz, anrechenbare Geschossflaeche als Kopfzahl, m2 je Raum.
+
+12. **Anonymitaetswahrung:** kein Buerologo, kein Verfassername, keine JANS-Adresse,
+    keine wiedererkennbare Bueroschrift/-signatur, keine Metadaten-Spur (bei Export
+    pruefen). Einziger Kopf-Inhalt: Projekttitel + Kennwort (+ Board-Index/Fusszeile).
+
+13. **Text & Diagramme:** Fliesstext klein, serifenlos, in schmalen Spalten mit
+    Zwischentiteln; Argumente als nummerierte Ziel-Listen + Mini-Schemata verdichten;
+    Bild-Claims kursiv in Guillemets. Kein Gedankenstrich als Stilmittel (Rule
+    `dokument-layout-standard`). Ein **aufgaben-passendes Betriebs-/Konzept-Diagrammset**
+    vorsehen (Klinik: Prozess-/Geschossstapel; Schule: Flexibilitaets-/Nutzungsszenarien;
+    Nachhaltigkeit: CO2-/Reuse-/Energieschema) — das erfuellt zugleich die «Betriebs-Soll»-
+    Pruefdimension aus [[muster/delta-zum-ersten-rang]].
+
+14. **Bild-Platzhalter diszipliniert:** wenige, gezielt gesetzte Bilder (Richtwert 1 je
+    Board), nie blattfuellender Hero; Staffage sparsam und massstabgebend. Der Agent liefert
+    ehrliche Reife-Ampeln fuer Renderings (nicht vorgetaeuscht) — konsistent mit dem
+    Skill-`wettbewerb`-Prinzip «Bilder als Reife-Ampel».
+
+---
 
 ## Offene Punkte
 
-- 2207/2408/2501/2507 sind analysiert, hier noch nicht einzeln zitiert — beim naechsten
-  Lauf einarbeiten und die zwei Rendering-Spielarten (fotoreal vs. Collage) den Jahren
-  zuordnen (Stil-Entwicklung 2101→2507).
-- 2206 lag nur als Nachweis-Planset vor (kein Feinsatz-Board) — finale Plakate separat
-  suchen; Kennwort-/Massstabsleisten-Signatur dort noch offen.
-- Board-DNA gegen die praemierten Fremdprojekte spiegeln: Decken sich die JANS-Boards mit
-  dem, was Jurys grafisch goutieren? (Verbindung zu [[jury-argumente-schulbauten]].)
+- **2104** (in AR-02 vorhanden) ist noch nicht als Board-DNA analysiert — naechster
+  Kandidat, um die 2021er-Generation zu vervollstaendigen.
+- **2205** Plakate 2–4 (Guggerbach) und die **finalen 2206**-Praesentationsplakate
+  (Schoental — separat vom Nachweis-Set zu lokalisieren) fehlen; damit sind Renderings-/
+  Dramaturgie-Aussagen dieser beiden Teilnahmen unvollstaendig.
+- **2501** moeglicher zweiter Board-Satz mit Visualisierungen/Modellfoto — im Abgabeordner
+  pruefen (Dateiname «p A0 Plaene» legt Parallelbestand nahe).
+- Stil-Drift-Hypothese (leichtere Strichsprache statt schwerer Poche; «Bild + Setzung
+  parallel» statt strengem Plan-first) an weiteren 2025er/2026er-Boards verifizieren,
+  bevor sie als Regel formuliert wird.
+- Restliche der 12 AR-02-Teilnahmen (soweit nicht in board-dna/ erfasst) sichten, um die
+  haeufig-aber-nicht-durchgaengigen Merkmale (gestufte Leiste, Schwarzplan, Referenzbild)
+  statistisch zu haerten.
+- Board-DNA gegen praemierte Fremdprojekte spiegeln: Decken sich die JANS-Boards mit dem,
+  was Jurys grafisch goutieren? (Verbindung zu [[jury-argumente-schulbauten]].)
+- Status-Hebung `draft` → `established`: erst nach Refuter-Pruefung gegen die
+  Original-Boards (Verifikations-Pflicht, KB-Regel) und ggf. Abgleich mit den
+  Teilnahme-Dossiers/Juryberichten.

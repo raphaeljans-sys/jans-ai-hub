@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Neubau Sekundarschulhaus Zirkusplatz, Sursee (2019)"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/1 Schulen/00 Turnhallentypologie/2 Turnhalle freistehend/Surssee Sekundarschule/jurybericht_ww_sek_sursee_070519_.pdf (Jurybericht, 68 S., 07.05.2019)"
@@ -13,7 +13,8 @@ links:
 
 Fremder Referenz-Jurybericht aus dem Muttenz-Referenzordner (Turnhallentypologie,
 Turnhalle freistehend). Alle Aussagen sinngemäss aus dem Jurybericht, Seitenzahlen
-beziehen sich auf das PDF-Dokument.
+beziehen sich auf das PDF-Dokument. Aus maschinellem PDF-Extrakt (pdftotext -layout);
+Seitenzahlen und Eigennamen bei Bedarf am Original gegenprüfen.
 
 ## Verfahren / Auslober / Jahr / Bauaufgabe
 
@@ -33,7 +34,8 @@ beziehen sich auf das PDF-Dokument.
   Nutzung/Betrieb, Flexibilität/Innovation/Erweiterung, Erschliessung/Parkierung,
   Nachhaltigkeit (Wirtschaftlichkeit, Flächen- und Energieeffizienz) (S. 15).
 - Preissumme CHF 180'000, Rangfolge: 1. MANEGE FREI, 2. GIORNI BUONI,
-  3. LERNKURVE, 4. tsírko (S. 18).
+  3. LERNKURVE, 4. tsírko (S. 18). (In der Rangtabelle S. 18 steht der Extrakt-Tippfehler
+  «GUORNI BUONI»; korrekt «GIORNI BUONI» gemäss S. 15/38 des Berichts.)
 
 ## Siegerprojekt: 07 MANEGE FREI (BUR Architekten, Zürich, mit Haag Landschaftsarchitekten)
 
@@ -43,6 +45,7 @@ beziehen sich auf das PDF-Dokument.
   (zweigeschossige Eingangshalle mit Galerie) plus zusammenhängende
   Lernlandschaft im Obergeschoss unter Sheddach; Turnhalle um ein Geschoss
   versenkt im Sockel (S. 25–26).
+- Detail: BUR Architekten wurde als «Ersatz»-Team ins Verfahren aufgenommen (Raw Z. 303).
 - Kernargumente der Jury:
   - Städtebau: Neubau als «Erweiterung der Stadthalle», nimmt geometrisch und
     volumetrisch präzise Bezug, vermittelt zwischen kleinkörniger Altstadt,
@@ -89,7 +92,7 @@ beziehen sich auf das PDF-Dokument.
   bei Rang 1 und 3 explizit gelobt (S. 26, 38); die Vollbesetzung des Areals mit
   drei Baukörpern ohne Entwicklungsspielraum wird bei Rang 2 kritisiert (S. 32).
 - **Selbstreferenzialität wird abgestraft:** Rang 3 verhält sich laut Jury im
-  Umgang mit den Nachbarbauten (Stadthalle) «etwas zu selbstreferenziell»
+  Umgang mit den Nachbarsbauten (Stadthalle) «etwas zu selbstreferenziell»
   (S. 38); die ausdrucksstarke Dachform ersetzt die spezifische
   Auseinandersetzung mit dem Ort nicht.
 - **Prüfthemen der engeren Wahl:** Flächen/Volumen-Nachrechnung mit

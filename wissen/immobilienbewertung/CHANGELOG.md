@@ -2,6 +2,9 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Wissens-Chef Run 1 Nachtrag: E1 entschieden (HNF/GF-Faktor kontextabhaengig)
+- [entscheid] Fachentscheid E1 (Raphael 12.07.2026) Hub-weit verankert: Gesamtgebaeude 0.60–0.61 (m²↔m³-Bruecke), Regelgeschoss 0.70. In realwert-sachwert.md als Entscheid-Box gesetzt; grobkosten verweist hierher. Der Faktor war in dieser KB bereits latent beidseitig genutzt (Z.96 /0.70 Geschoss, Z.156 0.61 Gesamtgebaeude).
+
 ## 2026-07-12 — Training-Run 18: Verifikations-Pass Healthcare-Kennwerte (Modell D)
 
 - **Erster Lauf im Verifikations-Modus** (PFLICHT-Stufe ab 12.07., Rule auto-verbesserungen 260712).

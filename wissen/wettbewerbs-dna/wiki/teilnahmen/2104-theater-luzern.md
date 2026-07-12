@@ -1,6 +1,6 @@
 ---
 title: 2104 WB Luzern Theater — Neues Luzerner Theater am Theaterplatz (offener Projektwettbewerb, 2-stufig; Resultat offen)
-status: draft
+status: established
 last_updated: 2026-07-12
 sources: [2104-theater-luzern_programm-1-stufe.txt, 2104-theater-luzern_raumprogramm-u03a.txt, 2104-theater-luzern_raumprogramm-eigene-auswertung.txt, 2104-theater-luzern_projekttext.txt, 2104-theater-luzern_konzeptideen.txt, 2104-theater-luzern_planstand-220201.txt, 2104-theater-luzern_anmeldung.txt]
 links: []
@@ -132,24 +132,27 @@ Erläuterungsbericht im Extrakt-Bestand). Aussagen zur Setzung sind als **eigene
 belegt, nicht als fertige Abgabe.
 
 - **Typologie (Taxonomie): gegliederter Solitär**, Freitext: städtebauliches **«Eckhaus» mit
-  «Gelenk»-Logik** am Übergang Theaterplatz / Bahnhofstrasse. Der eigene Projekttext will «zur
-  Bahnhofstrasse und zum Rathaussteg auch einen Eingang positionieren», wodurch das «Eckhaus» seine
-  «innere Gelenk-Logik» erhält (eigener Projekttext). Erschliessung/Zentralraum: **Foyer** als
+  «Gelenk»-Logik** am Übergang Theaterplatz / Bahnhofstrasse. Der eigene Projekttext hält es für
+  einen «strategisch klugen Schachzug», «zur Bahnhofstrasse und zum Rathaussteg auch ein Eingang zu
+  positionieren», wodurch das «Eckhaus» seine innere «Gelenk»-Logik erhält (eigener Projekttext,
+  wörtlich). Erschliessung/Zentralraum: **Foyer** als
   öffentliches Herz (Programm-Soll; im Planstand 01.02.2022 als «1.1 Foyer» auf mehreren Geschossen
   belegt) — Zuordnung zur Taxonomie «Halle/Zentralraum» mit Vorbehalt (kein Grundriss-Gesamtbild im
   Extrakt).
 - **Setzung / Städtebau (eigene Entwurfsabsicht, eigener Projekttext):** Leitprinzip — der eigene
-  Baukörper «darf auf keinen Fall der formellen Entwicklung der Jesuitentürme abträglich sein», im
-  Gegenteil, die Türme sollen als «aufstrebendes Thema» gestärkt werden («Das ist Pflicht»).
-  Bevorzugt wird ein **Platz zwischen Kirche und Rathaus** statt einer Strasse, möglichst ein
+  Baukörper «darf auf keinen Fall der formellen Entwicklung der Jesuitentürme abträglich sein»; im
+  Gegenteil, die Türme der Jesuitenkirche sollen durch den städtebaulichen Vorschlag als aufstrebendes
+  Thema gestärkt werden, was der Projekttext ausdrücklich als Pflicht bezeichnet. Bevorzugt wird ein
+  **Platz zwischen Kirche und Rathaus** statt einer Strasse, möglichst ein
   «Abendsonnen-Fängerplatz»; favorisiert die Platzsituation zur Kirche, prüft eine «öffnende
-  Trichterform des Theaterplatzes zum Wasser», um die Turmecke des Nachbarblocks «freizuspielen». Die
+  Trichterform des Theaterplatzes zum Wasser», um die Turmecke des «Nachbar»-Blocks freizuspielen. Die
   Buobenmattpassage sei «noch nicht optimal in den Grundriss integriert» (offener Punkt der eigenen
   Bearbeitung). Direkter Bezug zu den Programm-Vorgaben Jesuitenkirche/Lichteinfall (Programm S. 27,
   S. 33).
-- **Material / Ausdruck (Konzeptideen-Notiz):** **«Leuchtender Naturstein»** (Referenz «Füeg Kirche»
-  — Bezug zu Franz Füegs steinsichtiger, lichtdurchlässiger Kirche St. Pius in Meggen) mit einer
-  **inneren Holzstruktur**; Referenzhinweis Schauspielhaus Zürich (Pfauen-Sanierung). Belegt nur als
+- **Material / Ausdruck (Konzeptideen-Notiz):** **«Leuchtender Naturstein»** mit Referenz
+  «Füeg Kirche Mengen» (Rohwortlaut) und einer **inneren Holzstruktur**; gemeint ist mutmasslich
+  Franz Füegs steinsichtige, lichtdurchlässige Pfarrkirche St. Pius in Meggen (eigene Deutung; im
+  Rohtext «Mengen» geschrieben). Referenzlink Schauspielhaus Zürich (Pfauen-Sanierung). Belegt nur als
   Ideen-Stichwort, nicht als ausgearbeitetes Fassaden-/Tragwerkskonzept
   (`raw/…_konzeptideen.txt`).
 - **Volumetrie / Bühne (Planstand 01.02.2022):** Der Planstand zeigt eine klassische Guckkasten-
@@ -161,8 +164,8 @@ belegt, nicht als fertige Abgabe.
   «6'000 m2» — ein **Überhang von ca. +2'500 m2**. Die grössten Überschreitungen liegen bei
   Publikumsräumen (1'807 statt 998, +809), Bühnen-/Veranstaltungsräumen (2'239 statt 1'696, +543),
   Personalräumen (724 statt 257, +467) und Fachbereichen Veranstaltungsbetrieb (1'188 statt 772,
-  +466); nur die Betriebs-/Gebäudetechnik liegt über dem Soll (986 statt 1'155, d.h. −169 zu wenig
-  ausgewiesen). Achtung Bezugsgrösse: unklar, ob die 8'500 m2 mit dem Programm-Netto (6'084 m2)
+  +466); als einzige Raumgruppe liegt die Betriebs-/Gebäude-/Sicherheitstechnik unter dem Soll
+  (986 statt 1'155, d.h. 169 m2 zu wenig ausgewiesen). Achtung Bezugsgrösse: unklar, ob die 8'500 m2 mit dem Programm-Netto (6'084 m2)
   direkt vergleichbar sind oder Erschliessungs-/Bruttoanteile enthalten (Offene Fragen);
   `raw/2104-theater-luzern_raumprogramm-eigene-auswertung.txt`.
 

@@ -1,6 +1,6 @@
 ---
 title: 2503 Studienauftrag Glockenacker, Zürich-Witikon — Archiv dünn, Resultat offen
-status: draft
+status: established
 last_updated: 2026-07-12
 sources: [2503-glockenacker_pln-metadaten.txt]
 links: []
@@ -39,12 +39,13 @@ AC27-Datei. Dieses Dossier dokumentiert primär die Beleg- und Lückenlage.
 - **Resultat:** **OFFEN — kein Jurybericht/Beurteilungsbericht im Archiv.** Ob Teilnahme abgeschlossen,
   Rang/Empfehlung erzielt oder das Verfahren noch lief, ist aus dem Archiv nicht feststellbar. Belegt ist
   nur, dass **substanziell gearbeitet wurde**: drei grosse Modellstände (Nov./Dez. 2025) und extern
-  beauftragte, professionelle Visualisierungen (siehe unten) — das spricht gegen eine blosse Bewerbung ohne
-  Bearbeitung, beweist aber keine Abgabe.
+  erstellte, professionelle Visualisierungen (siehe unten) — das spricht gegen eine blosse Bewerbung ohne
+  Bearbeitung, beweist aber keine Abgabe. (Ob JANS die Visualisierungen beauftragt hat, ist plausibel, aber
+  nicht wörtlich belegt; belegt ist nur, dass studioblomen sie erstellt hat.)
 - **Team:** JANS (Ablage im JANS-Wettbewerbsarchiv). Externe **Visualisierung: «studioblomen»**
   (Benutzerkonto «blomfelt», dortige Auftragsnummer «288 Glockenacker Witikon») — belegt über
-  XMP-Metadaten der ins Modell eingebetteten Renderings (Raw-Extrakt Abschnitt 2). Bedeutung des
-  Dateinamens-Kürzels «TL»: ungeklärt.
+  eingebettete Rendering-Referenzen (XMP-Ingredients-Verweise auf extern erstellte Rendering-JPEGs) im
+  ArchiCAD-Modell (Raw-Extrakt Abschnitt 2). Bedeutung des Dateinamens-Kürzels «TL»: ungeklärt.
 
 ## 2. Programm-Soll
 
@@ -61,7 +62,9 @@ Abgabeforderungen und Beurteilungskriterien sind unbekannt.
 - **Programmanordnung / Setzung / Material / Tragwerk:** nicht belegt. Einzelindiz «Fassadenpaneel
   IfcPlate CURTAIN_PANEL» im Modell (Raw-Extrakt Abschnitt 3) — zu schwach für eine Aussage.
 - **Visualisierungs-Set (belegt):** drei Bildmotive der Abgabe-/Projektdarstellung — **Strassenperspektive**
-  («01 Strasse», mind. Varianten 03/05/07), **«02 Abstufung»**, **«03 Innenraum»** (Raw-Extrakt Abschnitt 2).
+  («01 Strasse», mind. Varianten 03/05/07) und **«02 Abstufung»** sind mit `file:///`-Renderpfaden belegt;
+  **«03 Innenraum»** ist nur als UTF-16-Bildname («…03_Innenraum_01_upscayl…») ohne Render-Pfad nachgewiesen
+  (Raw-Extrakt Abschnitt 2), also schwächer belegt.
 - **Kennzahlen (GF/GV):** nicht belegt.
 
 ## 4. Jury-Urteil

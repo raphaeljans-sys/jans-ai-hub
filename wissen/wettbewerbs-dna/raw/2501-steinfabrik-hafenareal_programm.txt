@@ -1,4 +1,5 @@
-# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2501 Hafenareal SZ/09_Dokumente/2501 Auslober/_Programm/B_Programm.pdf (51 Seiten, pdftotext -layout, extrahiert 2026-07-12)
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2501 Hafenareal SZ/09_Dokumente/2501 Auslober/_Programm/B_Programm.pdf
+# Extrahiert: pdftotext, 51 Seiten
 
 Entwicklung Areal «Steinfabrik» Pfäffikon SZ
 

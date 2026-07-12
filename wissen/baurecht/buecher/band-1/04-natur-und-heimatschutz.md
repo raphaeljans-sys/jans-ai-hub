@@ -5,9 +5,10 @@ band: 1
 seiten: 268-309
 shots: 135-155
 paragraphen: [§203 PBG, §204 PBG, §205 PBG, §207 PBG, §208 PBG, §209 PBG, §210 PBG, §211 PBG, §213 PBG, §216 PBG, §217 PBG, §238 PBG, §338b PBG, Art. 78 BV, Art. 2 NHG, Art. 3 NHG, Art. 5 NHG, Art. 7 NHG, Art. 8 NHG, Art. 13 NHG, Art. 17a NHG, Art. 25 NHG, Art. 17 RPG, KNHV]
-status: emerging
+status: established
 gelesen: 2026-07-08
-last_updated: 2026-07-08
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213/217 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31)
 ---
 
 # Kap. 4 — Natur- und Heimatschutz (Band 1, S. 268-309)
@@ -94,7 +95,8 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
   Behoerde, nicht den Grundeigentuemer**; Inventarisierung ist **keine Schutzmassnahme** und **nicht mit
   Rechtsmitteln anfechtbar**.
 - **4.3.2 Vorsorgliche Schutzmassnahmen:** mit Inventareroeffnung (§ 209 Abs. 2/3 PBG) oder ohne (§ 210
-  PBG). **Inventareroeffnung** → **einjaehriges Veraenderungsverbot / Bewilligungspflicht** (§ 209 Abs. 2);
+  PBG). **Inventareroeffnung** → **Veraenderungsverbot / Bewilligungspflicht** (§ 209 **Abs. 2**), das
+  **dahinfaellt, wenn nicht innert Jahresfrist eine dauernde Anordnung getroffen wird** (§ 209 **Abs. 3**);
   formelle Verfuegung, anfechtbar, aber **Rekurs ohne aufschiebende Wirkung** (§ 211 Abs. 4). Befristet
   1 Jahr, **Verlaengerung um 1 Jahr** (analog § 213 Abs. 3 PBG; BEZ 2017 Nr. 2). Trifft die Behoerde
   keinen Entscheid → Verbot faellt dahin, **Entlassung aus Inventar** (zu publizieren); Verbaende sind
@@ -176,8 +178,12 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
     Verkauf; BEZ 2016 Nr. 31) einen Entscheid ueber die Schutzwuerdigkeit verlangen; schriftlich beim
     Gemeindevorstand, aktuelles Interesse innert 1 Monat mitteilen (§ 12 Abs. 1 KNHV), ueberkommunal → an
     Baudirektion, Entscheid innert 2 Monaten (§ 12 Abs. 2 KNHV). **Entscheid ueber Unterschutzstellung
-    innert 1 Jahr, ausnahmsweise +1 Jahr** (§ 213 Abs. 1 PBG). **§ 213 Abs. 3 = Verwirkungsfristen**;
-    Provokationsbegehren **nicht zurueckziehbar** (BEZ 2016 Nr. 16). Anspruch auf abschliessende Antwort.
+    innert 1 Jahr, ausnahmsweise +1 Jahr** (**§ 213 Abs. 3 PBG**; Abs. 1 = blosser Anspruch auf Entscheid,
+    Abs. 2 = schriftliches Begehren beim Gemeindevorstand). Liegt vor Fristablauf kein Entscheid vor, kann
+    eine Schutzmassnahme **nur bei wesentlich veraenderten Verhaeltnissen** angeordnet werden (§ 213 Abs. 3
+    Satz 2). Provokationsbegehren **nicht zurueckziehbar** (BEZ 2016 Nr. 16). Anspruch auf abschliessende Antwort.
+    *(Korrektur Modell D 2026-07-12: die 1-Jahr(+1)-Frist steht in Abs. 3, nicht Abs. 1; die fruehere
+    Formulierung «§ 213 Abs. 3 = Verwirkungsfristen» war irrefuehrend — Abs. 3 IST die fristsetzende Norm.)*
   - **4.5.4.2 Gefaehrdung:** Verfallenlassen, Vandalen, Biotop als Lagerplatz/zugeschuettet.
   - **4.5.4.3 Baugesuch:** ein ein inventarisiertes Objekt gefaehrdendes Baugesuch loest vorab einen
     Schutzentscheid aus; das Baugesuch hat aber **nicht** die Rechtswirkung eines Provokationsbegehrens
@@ -207,10 +213,13 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
 ## 3. Formeln & Schwellenwerte
 
 - **Denkmal-Faustregel:** zeitlicher Abstand **~30 Jahre** als Anhaltspunkt fuer Denkmaleigenschaft (S. 273).
-- **Vorsorgliches Veraenderungsverbot:** **1 Jahr**, verlaengerbar um **1 Jahr** (§ 209 Abs. 2 / § 213 Abs. 3 PBG).
+- **Vorsorgliches Veraenderungsverbot:** faellt dahin, wenn nicht **innert Jahresfrist** eine dauernde
+  Anordnung getroffen wird (§ 209 Abs. 2 Verbot / **Abs. 3 Jahresfrist**). *(needs-verification: § 209 PBG
+  enthaelt KEINE ausdrueckliche «+1 Jahr»-Verlaengerung; die im Buch genannte Verlaengerung ist eine Analogie
+  zu § 213 Abs. 3 PBG, BEZ 2017 Nr. 2 — als Analogie kennzeichnen, nicht als Gesetzeswortlaut zitieren.)*
 - **Provokation:** aktuelles Interesse mitteilen **innert 1 Monat** (§ 12 Abs. 1 KNHV); Entscheid bei nicht
   inventarisiertem Objekt **innert 2 Monaten** nach Zustimmung Baudirektion (§ 12 Abs. 2 KNHV);
-  Unterschutzstellungsentscheid **innert 1 Jahr (+1)** (§ 213 Abs. 1 PBG).
+  Unterschutzstellungsentscheid **innert 1 Jahr (+1)** (§ 213 **Abs. 3** PBG).
 - **Rechtsmittelfrist / Aktenauflage:** **30 Tage** (Beschwerde Verwaltungsgericht bzw. Publikationsauflage).
 - **Aufschiebende Wirkung:** grds. **keine** bei Schutzanordnungen (§ 211 Abs. 4 PBG); **ja** bei Aufhebung/
   negativem Schutzentscheid.

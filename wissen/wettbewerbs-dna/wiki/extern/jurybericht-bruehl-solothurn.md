@@ -1,6 +1,6 @@
 ---
 title: "Jurybericht Schulanlage Brühl, Solothurn (2018) — Doppelkindergarten und Tagesschule"
-status: draft
+status: established
 last_updated: 2026-07-12
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/07 Referenzen/00 Juryberichte/Solothurn_Jurybericht_bruhl.pdf (41 Seiten)"

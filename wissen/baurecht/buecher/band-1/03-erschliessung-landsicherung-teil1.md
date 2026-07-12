@@ -82,7 +82,7 @@ Zugeordnet nach Planungsstufe (S. 210–211):
 
 ### 2.10 Vorsorgliches Bauverbot (3.7.2)
 - Fehlt der Richtplaneintrag als Voraussetzung fuer den Werkplan (§ 114 PBG), kann Land fuer oeffentliche Werke ausnahmsweise durch ein **vorsorgliches Bauverbot** gesichert werden (§ 120 PBG). Begehren durch den kuenftigen Werktraeger (§ 121 Abs. 1 PBG); zustaendig bei kantonalen Vorhaben RR, sonst Baudirektion (§ 121 Abs. 2 PBG) (S. 228).
-- **Befristung:** Wird innert **5 Jahren** nach Erlass des vorsorglichen Bauverbots nicht der Richtplan ergaenzt und ein Werkplan festgesetzt oder das Enteignungsverfahren eingeleitet, faellt das Bauverbot dahin (§ 122 PBG) (S. 229).
+- **Befristung:** Das Bauverbot faellt dahin, wenn **innert fuenf Jahren seit Eintritt seiner Rechtskraft** nicht der entsprechende Richtplan ergaenzt und ein Werkplan festgesetzt oder das Enteignungsverfahren eingeleitet wird (**§ 122 Abs. 1 PBG**) (S. 229). *(Korrektur Modell D 2026-07-12: Fristbeginn ist die Rechtskraft, nicht der Erlass.)*
 - Fuer die Sicherung von Flughafen-Erweiterungen darf kein vorsorgliches Bauverbot erlassen werden; dort Projektierungszone nach Luftfahrtgesetz (LFG) durch Bundesbehoerden (keine kantonale Kompetenz; VB.2007.00066) (S. 229).
 
 ### 2.11 Projektierungszone (3.7.3)
@@ -104,7 +104,7 @@ Zugeordnet nach Planungsstufe (S. 210–211):
 (woertlich, mit Beleg)
 - **Erschliessungsfrist Bauzone: 15 Jahre** — Der Erschliessungsplan hat die Erschliessung einer Bauzone innerhalb von 15 Jahren vorzusehen (Art. 15 Abs. 1 RPG); Verzug/Anspruch auf Selbsterschliessung/Bevorschussung nach 15 Jahren (Art. 19 Abs. 2/3 RPG) (S. 209).
 - **Wohnbau-Etappen: 10 bis 15 Jahre** — Grob- und Feinerschliessung dem Wohnungsbau dienender Bauzonen in angemessenen Etappen innerhalb von 10 bis 15 Jahren (Art. 5 WEG) (S. 209).
-- **Vorsorgliches Bauverbot: 5 Jahre** — faellt dahin, wenn nicht innert 5 Jahren Richtplan ergaenzt + Werkplan festgesetzt oder Enteignungsverfahren eingeleitet (§ 122 PBG) (S. 229).
+- **Vorsorgliches Bauverbot: 5 Jahre seit Rechtskraft** — faellt dahin, wenn nicht innert 5 Jahren **seit Eintritt der Rechtskraft** Richtplan ergaenzt + Werkplan festgesetzt oder Enteignungsverfahren eingeleitet (§ 122 Abs. 1 PBG) (S. 229).
 - **Werkplan-Frist Grundeigentuemer: 5 Jahre** — Grundeigentuemer kann verlangen, dass innert 5 Jahren nach Richtplanfestsetzung ein Werkplan festgesetzt wird (§ 115 Abs. 1 PBG) (S. 228).
 - **Baulinien-Vorgartenabstand: mind. 6 m** zur Fahrbahn (VB.2007.00370); Garagenvorplatz-Mindestlaenge **5.5 m** (§ 266 PBG) (S. 223).
 - **Baulinienabstand ueber 30 m** in staedtischen Verhaeltnissen mit Tramlinie moeglich (S. 223).
