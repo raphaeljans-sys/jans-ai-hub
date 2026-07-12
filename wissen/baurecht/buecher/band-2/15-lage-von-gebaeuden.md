@@ -7,7 +7,8 @@ shots: 502-520 (Bildschirmfoto 2026-06-07 um 12.03.03 – 12.03.27)
 paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238 Abs. 3 PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15b/15d/15m HWSchV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
 status: emerging
 gelesen: 2026-06-12
-last_updated: 2026-06-12
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
 ---
 
 # Kap. 15 — Lage von Gebaeuden (Teil 1+2a: System, Wald, Gewaesser, Baulinien)
@@ -115,12 +116,26 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   ausnahmsweise **4-5 m** (BR I/2001 Nr. 95). Dieser Abstand gilt **zusaetzlich** zur
   planungsrechtlichen Waldabstandslinie. (S. 1004 f.)
 
-### 2.6 Gewaesserraum / Gewaesserabstand (S. 1005-1013) — Bundesrecht + HWSchV
+### 2.6 Gewaesserraum / Gewaesserabstand (S. 1005-1013) — Bundesrecht + HWSchV — korrigiert 2026-07-12 (Modell-D Fedlex-Abgleich, Buch-Run 32)
 - **Grundlage:** Art. 36a GSchG (Gewaesserraum), konkretisiert in **Art. 41a/41b/41c
   GSchV**; kantonal die **Hochwasserschutzverordnung (HWSchV)**. (S. 1005 ff.)
-- **Mindestbreite Fliessgewaesser** (Art. 41a Abs. 2 GSchV, ab natuerlicher
-  Gerinnesohle): Sohle < 1 m → mind. **11 m**; Sohle 1-15 m → **2,5 × Sohlenbreite + 7 m**;
+> **Korrektur (Modell D, Fedlex-Volltextabgleich SR 814.201):** Art. 41a GSchV kennt
+> **zwei separate Regime**, die zuvor verwechselt wurden. **Art. 41a Abs. 2** (uebrige
+> Gebiete/Normalfall): Sohle **< 2 m** → mind. **11 m**; Sohle 2-15 m → **2,5 × Sohlenbreite
+> + 7 m**; > 15 m → keine explizite Formel im Wortlaut, kantonaler Einzelfall
+> (Art. 36a Abs. 1 GSchG als Rahmen). **Art. 41a Abs. 1** (Sonderregime nur in Biotopen
+> national, kantonalen Naturschutzgebieten, Moorlandschaften, Wasser-/Zugvogelreservaten,
+> Landschaften national/kantonal mit gewaesserbezogenem Schutzziel): Sohle **< 1 m** →
+> mind. **11 m**; 1-5 m → 6 × Sohle + 5 m; > 5 m → Sohle + 30 m. Die vormalige Fassung
+> hatte die < 1 m-Schwelle faelschlich Abs. 2 zugeschrieben. Beleg: `raw/260712_amtlich_ch_gschv.md`.
+- **Mindestbreite Fliessgewaesser, Normalgebiete** (Art. 41a Abs. 2 GSchV, ab natuerlicher
+  Gerinnesohle): Sohle < 2 m → mind. **11 m**; Sohle 2-15 m → **2,5 × Sohlenbreite + 7 m**;
   > 15 m → keine Vorgabe, Kantone im Einzelfall (Art. 36a Abs. 1 GSchG). (S. 1008)
+- **Mindestbreite Fliessgewaesser, Schutzgebiete** (Art. 41a Abs. 1 GSchV): Sohle < 1 m →
+  mind. **11 m**; Sohle 1-5 m → 6 × Sohlenbreite + 5 m; Sohle > 5 m → Sohlenbreite + 30 m.
+  Gilt nur in Biotopen national, kantonalen Naturschutzgebieten, Moorlandschaften von
+  besonderer Schoenheit und nationaler Bedeutung, Wasser-/Zugvogelreservaten sowie
+  Landschaften national/kantonal mit gewaesserbezogenem Schutzziel.
 - **Stehende Gewaesser** (Art. 41b GSchV): ab Uferlinie mind. **15 m**. (S. 1010)
 - **Kanton ZH:** Gewaesserraum grundeigentuemerverbindlich, auf beschraenkten Gebrauch
   (§ 15d HWSchV); Festlegung durch die Baudirektion (§ 15b HWSchV). **Verzicht** auf die
@@ -281,5 +296,10 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   Shots ab 521 (S. 1034 ff.).
 - **§ 273 PBG** (reduzierte Abstaende besonderer Gebaeude): genauer Wortlaut/Reduktionsmass
   am amtlichen Volltext praezisieren.
-- **2,5 × Sohle + 7 m**: Formel aus Art. 41a Abs. 2 GSchV — am Fedlex-Volltext gegenpruefen
-  (Korrekturfaktoren bei verbauten/eingedolten Gewaessern, Faktor 1,5/2,0 erwaehnt S. 1009).
+- ~~**2,5 × Sohle + 7 m**: Formel aus Art. 41a Abs. 2 GSchV — am Fedlex-Volltext
+  gegenpruefen~~ → **erledigt 2026-07-12** (Buch-Run 32, Modell D): Formel am amtlichen
+  Wortlaut bestaetigt (Art. 41a Abs. 2 lit. b GSchV, Sohle 2-15 m). Dabei zusaetzlich
+  den Fassungsfehler in Sektion 2.6 korrigiert (< 1 m-Schwelle war faelschlich Abs. 2
+  statt Abs. 1 zugeschrieben) — Beleg `raw/260712_amtlich_ch_gschv.md`. Korrekturfaktoren
+  bei verbauten/eingedolten Gewaessern (Faktor 1,5/2,0, S. 1009) bleiben offen, da nicht
+  im GSchV-Wortlaut selbst (vermutlich Vollzugshilfe BAFU) — separat zu pruefen.

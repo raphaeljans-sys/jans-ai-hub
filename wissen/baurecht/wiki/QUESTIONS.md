@@ -5,6 +5,25 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## Geklärt / verifiziert — 2026-07-12 (Buch-Run 32, Phase 3 · Modell-D Volltextabgleich Art. 41a/41b GSchV, Fedlex SR 814.201)
+- **✅ Gewässerraum-Schwellen-Widerspruch aufgelöst:** Der scheinbare Widerspruch zwischen
+  [[abstaende-und-hoehen]] (GSB < 2 m → 11 m) und [[15-lage-von-gebaeuden]] (Sohle < 1 m →
+  11 m) ist **kein Widerspruch** — beide Zahlen sind wortgetreu, beziehen sich aber auf
+  **verschiedene Absätze** von Art. 41a GSchV: **Abs. 2** (übrige/Normalgebiete) kennt
+  Sohle < 2 m → 11 m, Sohle 2-15 m → 2,5 × Sohle + 7 m; **Abs. 1** (Sonderregime nur in
+  Biotopen national, kantonalen Naturschutzgebieten, Moorlandschaften, Wasser-/
+  Zugvogelreservaten, Landschaften national/kantonal mit gewässerbezogenem Schutzziel)
+  kennt Sohle < 1 m → 11 m, 1-5 m → 6 × Sohle + 5 m, > 5 m → Sohle + 30 m. Der Fehler lag
+  in [[15-lage-von-gebaeuden]] (Buchsynthese Bd 2, Kap. 15): dort war die < 1 m-Schwelle
+  fälschlich Abs. 2 zugeschrieben — dort korrigiert (Abs. 1/Abs. 2 jetzt sauber getrennt
+  ausgewiesen). [[abstaende-und-hoehen]] war bereits korrekt, dort nur ergänzt (Verifikations-
+  Vermerk + Präzisierung ">15 m keine explizite Formel" statt "kantonale Vorgabe" und
+  Klarstellung, dass die 0,5-ha-Schwelle bei Art. 41b nur ein Verzichtsgrund ist, keine
+  Formel-Schwelle). Neuer amtlicher Volltext-Beleg **`raw/260712_amtlich_ch_gschv.md`**
+  (Art. 41a/41b GSchV, Fedlex konsolidierte Fassung Stand 1.12.2025) angelegt.
+- **Gewässerabstand 20 m** (Kap. 11, GSchV-Übergangsbestimmung, nicht PBG) bleibt
+  **needs-verification** — nicht Gegenstand dieses Runs.
+
 ## Geklärt / verifiziert — 2026-07-12 (Buch-Run 31, Phase 3 · Modell-D Volltextabgleich §§ 218-232 / §§ 269-274+292 / § 120-122+150+264+346 / §§ 203-213 PBG + § 30 VRG, 5 Komplexe parallel via Workflow)
 Fünf needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.md` (und neu `raw/260712_amtlich_zh_vrg.md`) geprüft (je ein Refutations-Agent). Gesamtergebnis: viele CONFIRMED + **13 Korrekturen/Präzisierungen**, keine Halluzination.
 
