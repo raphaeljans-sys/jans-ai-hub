@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.07.2026 02:22:44
+Stand: 12.07.2026 02:42:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,6 @@ Stand: 12.07.2026 02:22:44
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 93 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -17,6 +16,7 @@ Stand: 12.07.2026 02:22:44
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 46e85886 synobsis: Nacht-Batch wieder lauffaehig (rebuild_index Guard gegen Nicht-Architekten-JSONs)
+- 226d7f11 nas-selfcommit: 3 Datei(en) 2026-07-12 02:30
