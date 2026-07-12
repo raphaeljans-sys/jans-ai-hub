@@ -22,6 +22,10 @@
 
 set -uo pipefail
 
+# PATH fuer nicht-interaktive Kontexte (launchd/SSH): claude & Co. liegen in
+# Homebrew-/User-Pfaden, die dort fehlen (Fix 12.07.2026, «claude: command not found»)
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 REPO_NAS="/Volumes/daten/jans-ai-hub"
 if [ ! -d "$REPO_NAS/sync-tasks" ]; then
     # NAS nicht gemountet → still beenden. ABER: Ist /Volumes/daten laut
@@ -125,7 +129,9 @@ for TASK in "${TASKS[@]}"; do
             for PFAD in $(printf '%s\n' "$SCRIPT" | grep -oE '(/private)?/tmp/[A-Za-z0-9._/-]+' | sort -u); do
                 [ -e "$PFAD" ] || log "  WARNUNG: referenziert $PFAD — existiert auf $STATION nicht (/tmp ist stationslokal)"
             done
-            if eval "$SCRIPT" >> "$LOG" 2>&1; then OK=1; else OK=0; fi
+            # Subshell: eingebettetes `set -e`/`exit` darf nur den Task beenden,
+            # nie den Runner selbst (Fix 12.07.2026 — Queue-Blockade)
+            if ( eval "$SCRIPT" ) >> "$LOG" 2>&1; then OK=1; else OK=0; fi
         else
             log "  kein Bash-Block gefunden — uebersprungen"
             OK=0

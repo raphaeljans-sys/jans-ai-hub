@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 15:45:12
+Stand: 12.07.2026 15:55:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:55)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 12.07.2026 15:45:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 75eebd2a nas-selfcommit: 15 Datei(en) 2026-07-12 15:45
+- 7e64d8aa sync: twin-mail-training: 2026-03-04 bis 2026-03-06 (Batch 33)

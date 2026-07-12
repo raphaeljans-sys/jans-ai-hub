@@ -1,10 +1,10 @@
 ---
 name: bauausfuehrung-und-baukontrolle
 beschreibung: Die Bauausfuehrungsphase im ZH-Baurecht — Baufreigabe (§ 326 PBG), Meldepflichten + baupolizeiliche Kontrollen (§ 327 PBG), Bezugsbewilligung/Schlusskontrolle, Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG), Sicherheit der Baustelle (§ 239 PBG).
-status: emerging
-last_updated: 2026-07-09
-quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]])
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bis USG; §§ 2/15/19 KVAV
+status: established
+last_updated: 2026-07-12
+quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30)
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bis USG; §§ 2/15/19 KVAV
 ---
 
 # Bauausfuehrung und Baukontrolle (Kt. ZH)
@@ -18,16 +18,25 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 ## 1. Baubeginn und Baufreigabe (§ 326 PBG)
 
 - Die Zustellung der Bewilligung verleiht **noch nicht** das Recht, mit den Bauarbeiten zu beginnen.
-  Vor Ausfuehrung ist die schriftliche **Baufreigabe** der zustaendigen Behoerde noetig, die feststellt,
-  dass dem Baubeginn keine Hindernisse mehr entgegenstehen und alle **vor Baubeginn** zu erfuellenden
-  Nebenbestimmungen erfuellt sind (§ 326 PBG). → Nebenbestimmungen: [[nebenbestimmungen-und-reverse]].
+  Nach dem **geltenden § 326 PBG** darf mit der Ausfuehrung nur begonnen werden, wenn **(lit. a)** alle
+  noetigen baurechtlichen Bewilligungen **rechtskraeftig** erteilt und alle **auf den Baubeginn** gestellten
+  Nebenbestimmungen erfuellt sind, **oder (lit. b)** die zustaendige Behoerde den **vorzeitigen Baubeginn
+  elektronisch ueber die Plattform** erlaubt hat (amtlicher Wortlaut; Plattform-Regime der juengeren
+  Revision). Die frueher gebraeuchliche schriftliche **«Baufreigabe»** ist die **praktische Bestaetigung**
+  dieses Zustands, kein eigener Wortlaut-Begriff des heutigen § 326 (Modell-D-Fassungshinweis Run 30).
+  → Nebenbestimmungen: [[nebenbestimmungen-und-reverse]].
 - **Baubeginn = Aushub** (oder Abbruch, wo vorausgesetzt) mit ernsthaftem Ausfuehrungswillen
   (BEZ 1987 Nr. 38). Abstecken, Baustelleneinrichtung, Kanalisationsleitungen sind **kein** Baubeginn
   (RB 1994 Nr. 88). Der Baubeginn wahrt die **3-Jahres-Gueltigkeit** der Bewilligung (§ 322 Abs. 1 PBG,
   Verwirkung, nicht verlaengerbar → [[baurechtlicher-vorentscheid-und-voranfrage]] /
   [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]]).
-- **Vorzeitige Baufreigabe:** ausnahmsweise bei besonderen, von der Bauherrschaft darzulegenden Gruenden;
-  die Bauherrschaft traegt das Risiko spaeterer Aenderungen.
+- **Vorzeitiger Baubeginn (§ 326 lit. b PBG):** ausnahmsweise, von der zustaendigen Behoerde
+  **elektronisch ueber die Plattform** erlaubt (frueher: schriftlich, «besondere Gruende»); die
+  Bauherrschaft traegt das Risiko spaeterer Aenderungen.
+- **Elektronische Verfahrensfuehrung (§ 328a PBG, juengere Revision):** das baurechtliche Verfahren
+  wird grundsaetzlich **elektronisch ueber die Plattform** gefuehrt; Akten, die sich dafuer nicht
+  eignen, werden physisch gefuehrt. *(Im Buch 6. Aufl. 2019 noch nicht enthalten — Nachtrag Run 30;
+  §§ 328b–328g regeln Signatur/Akteneinsicht/Mitteilung/Fristen elektronisch.)*
 
 ## 2. Meldepflichten (§ 327 Abs. 1 PBG)
 
@@ -71,9 +80,14 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
   in einem **Missverhaeltnis** zu Volumen/Aufgabe steht (VB.2014.00026; BEZ 2014 Nr. 46). «Laengere Zeit»
   = Einzelfall, **ausser bei Arealueberbauungen: hoechstens 2 Jahre** (§ 328 Abs. 1 PBG).
 - **Rechtsfolgen:** (1) zwingende **Aufforderung** zur Beendigung innert nuetzlicher Frist; (2) **Androhung**
-  im Saeumnisfall (§ 328 Abs. 2): Ersatzvornahme (lit. a), Abbruch (lit. b), Herstellung ordentlichen
-  Standes (lit. c), bei Arealueberbauung **Verfall der Bewilligung nach 2 Jahren** (lit. d);
-  (3) **Ersatzvornahme** (§ 30 VRG), Kostensicherung durch **gesetzliches Grundpfandrecht** (§ 15 VRG).
+  im Saeumnisfall (§ 328 Abs. 2, amtlicher Wortlaut): **Fertigstellung durch Ersatzvornahme (lit. a)**;
+  **Foerderung/Weiterfuehrung der Bauarbeiten durch die Gemeinde, soweit es die Sicherheit von Personen
+  und Sachen oder der Natur- und Heimatschutz erfordern (lit. b** — **nicht** «Abbruch»!); **Einebnung der
+  bereits erstellten Bauteile und Wiederherstellung des ordentlichen Gelaendestandes (lit. c)**; bei
+  Arealueberbauung **Dahinfallen der Bewilligung nach 2 Jahren (lit. d)**; (3) **Kostentragung durch den
+  Grundeigentuemer** (§ 328 **Abs. 3** PBG). Durchgesetzt wird die angedrohte Massnahme via **Ersatzvornahme
+  § 30 VRG**, Kostensicherung durch **gesetzliches Grundpfandrecht § 15 VRG** (VRG-Vollstreckung, **nicht**
+  Inhalt von § 328 Abs. 3 PBG). *(Modell-D-Korrektur Run 30: lit. b amtl. = Foerderung, nicht Abbruch.)*
 
 ## 6. Sicherheit der Baustelle (§ 239 PBG)
 

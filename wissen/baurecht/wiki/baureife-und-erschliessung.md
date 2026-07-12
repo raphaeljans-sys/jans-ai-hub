@@ -1,7 +1,7 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
 status: established
-last_updated: 2026-07-03
+last_updated: 2026-07-12
 sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md]
 links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
 ---
@@ -19,8 +19,8 @@ planungsrechtlich unbedenklich (§ 234 PBG).
 **1. Technische Erschliessung** — ein Grundstück ist erschlossen, wenn
 - es genügend **zugänglich** ist (Zufahrt für öffentliche Dienste + Benützer, § 237 PBG),
 - ausreichend mit **Wasser und Energie** versorgt wird,
-- die einwandfreie **Beseitigung von Abwässern, Abfallstoffen und Altlasten** gewährleistet ist
-  (Art. 19 RPG i.V.m. § 236 Abs. 1 PBG).
+- die einwandfreie **Behandlung von Abwässern, Abfallstoffen und Altlasten** gewährleistet ist
+  (amtlicher Wortlaut § 236 Abs. 1 PBG: «Behandlung», nicht «Beseitigung»; Art. 19 RPG).
 
 **2. Planungsrechtliche Baureife** — die bauliche Massnahme darf **keine künftige planungsrechtliche
 Festlegung negativ präjudizieren** (§ 234 PBG; befristete Bausperre).
@@ -159,11 +159,16 @@ Instrumente, um Land für künftige öffentliche Werke/Erschliessungen freizuhal
   vor harter Bezifferung die im konkreten Verfahren geltende Fassung (EV-§§ ↔ noch ZN/VSiV/StrAV)
   und die OEV-Erhöhung (§ 4 Abs. 2 ZN / EV) am amtlichen Erlass prüfen.
 
-## Rechtliche Sicherung der Erschliessung (§ 237 Abs. 4 PBG)
+## Rechtliche Sicherung der Erschliessung (§§ 236/237 PBG)
 
 Erschlossen ist nur, was auch **rechtlich gesichert** ist: führt die Zufahrt/Leitung über fremden
 Grund, muss der Bauherr **dauernde, für die vorgesehene Nutzung ausreichende Benützungsrechte
-nachweisen** (§ 237 Abs. 4 PBG; Bd 2 S. 743). Zwei Wege:
+nachweisen** (allgemeiner Grundsatz «erschlossen = rechtlich gesichert», §§ 236/237 PBG
+i.V.m. Rechtsprechung; Bd 2 S. 743) — dies ist **nicht** der Wortlaut von § 237 Abs. 4.
+**§ 237 Abs. 4 PBG** regelt eigenständig: **privatrechtlich geordnete Zugänge dürfen ohne
+Zustimmung der örtlichen Baubehörde weder tatsächlich noch rechtlich verändert oder aufgehoben
+werden; diese Beschränkung ist im Grundbuch anzumerken** (amtlicher Wortlaut). Zwei Wege der
+Sicherung:
 
 - **Zivilrechtlich:** Dienstbarkeit (Fuss-/Fahrwegrecht) im **Grundbuch**, mit hinreichender Breite;
   die Zustimmung muss das genügende Benützungsrecht decken, nicht das «Gutdünken» der Nachbarn
@@ -249,14 +254,19 @@ beteiligten Grundeigentümer («Quartierplangenossen»).
   künftigem Recht bewilligt werden — dessen Rechtskraft ist abzuwarten (VB.2008.00044; RB 1998
   Nr. 113). Das Risiko einer baulichen «Vorleistung» trägt die Bauherrschaft.
 - **Vier Voraussetzungen** (kumulativ): fehlende/zu ändernde Planung · ernsthafte Realisierungs-
-  chancen (nur krasse Fehlplanung bleibt unbeachtlich) · wesentliche Abweichung · behördlicher
-  Antrag.
+  chancen (nur krasse Fehlplanung bleibt unbeachtlich) · wesentliche Abweichung · **Antrag des
+  Gemeindevorstandes** (§ 234 PBG amtlich: «keine noch fehlende oder durch den **Gemeindevorstand**
+  beantragte planungsrechtliche Festlegung» — antragsberechtigt ist der Gemeindevorstand, nicht
+  «eine Behörde» schlechthin).
 - Als künftige «Planung» zählen Nutzungspläne/BZO inkl. Wald-/Gewässerabstandslinien (§§ 66/67),
   Gestaltungspläne (§§ 79 ff.), Baulinien (§§ 96 ff.) → [[baulinien-und-abstandslinien]]; Richtpläne
   erst über konkrete Nutzungsplan-Entwürfe (VB.2014.00195), Masterpläne nur parzellenscharf
   (BGer 1C_317/2008). **Nicht** erfasst: reine Ästhetik-/Massvorschriften.
-- **Verhältnismässigkeit/Dauer:** die Bausperre darf nicht weiter gehen, als der Planungszweck
-  verlangt; sie endet, sobald das beabsichtigte Recht nicht in Kraft gesetzt wird (§ 235 PBG).
+- **Erlassfrist & Dauer (§ 235 PBG):** die entgegengehaltene planungsrechtliche Festlegung ist
+  **innert längstens drei Jahren zu erlassen** (§ 235 PBG). Nach Ablauf dieser Frist darf die
+  fehlende planungsrechtliche Baureife **nur noch geltend gemacht werden, soweit die rechtzeitig
+  erlassene Festlegung wegen Rechtsmitteln noch nicht in Kraft gesetzt werden kann** (amtlicher
+  Wortlaut). Die Bausperre darf zudem nicht weiter gehen, als der Planungszweck verlangt.
 - **Abgrenzungen / Spezialnormen:** Quartierplanbann (§ 150 PBG, weitergehend) · Verkehrsbaulinien
   (§ 264 PBG) · **Planungszone** (§ 346 PBG: längstens 3 J., + 2 J. verlängerbar; entspricht
   Art. 27 RPG) · Landsicherung (vorsorgliches Bauverbot § 120 PBG, Projektierungszonen, Werkplan).

@@ -5,6 +5,26 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## Geklärt / verifiziert — 2026-07-12 (Buch-Run 30, Phase 3 · Modell-D Volltextabgleich §§ 233-237 / 326-329 / 340-341 PBG, parallelisiert via Workflow)
+Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.md` geprüft (je ein Refutations-Agent). **CONFIRMED:** § 233 Abs. 1/2, § 234 (Kern), § 236 Abs. 1 (Reihenfolge Wasser/Energie), § 237 Abs. 1 Satz 2 (OEV-Pflicht «grössere Überbauung»), § 327 Abs. 1/Abs. 2, § 328 Abs. 1 (Arealüberbauung > 2 J.), **§ 329 Abs. 1 (BRG-Anfechtung nach RPG/USG/PBG — vom Volltext bestätigt, Agent-OFFEN aufgelöst)**, § 340 Abs. 1/2, § 340a (5 J.).
+- **✅ Baureife §§ 233-237 (Kap. 12) volltextverifiziert** → Wiki [[baureife-und-erschliessung]] geschärft, **4 Korrekturen:**
+  - **§ 234:** vierte Voraussetzung ist der **Antrag des Gemeindevorstandes** (amtl. «durch den Gemeindevorstand beantragte» Festlegung) — nicht «behördlicher Antrag» schlechthin.
+  - **§ 235:** eigenständige **3-Jahres-Erlassfrist** + Rechtsmittel-Ausnahme ergänzt (Wiki-Paraphrase war logisch verdreht, Frist fehlte).
+  - **§ 236 Abs. 1:** amtl. «einwandfreie **Behandlung**» (nicht «Beseitigung») von Abwässern/Abfallstoffen/Altlasten — Wiki + Destillat korrigiert.
+  - **§ 237 Abs. 4 Fehlzuordnung:** Abs. 4 amtl. = **Veränderungsverbot privatrechtlicher Zugänge + Grundbuch-Anmerkung**; der «Nachweis dauernder Benützungsrechte» ist der allgemeine Grundsatz §§ 236/237 i.V.m. Rechtsprechung, nicht Abs. 4. Sektionsüberschrift + Text richtiggestellt.
+  - Destillat [[12-baureife]]: **Gleisanschlüsse § 237 Abs. 1** amtl. «wo dies technisch möglich und **zumutbar**» — **ohne** «wirtschaftlich» (Buch verengte).
+- **✅ Baufreigabe/Kontrolle/Unterbruch §§ 326-329 (Kap. 8) volltextverifiziert** → Wiki [[bauausfuehrung-und-baukontrolle]] `emerging` → **`established`**, **3 Korrekturen + 1 Nachtrag:**
+  - **§ 328 Abs. 2 lit. b = FEHLLABELUNG:** amtl. lit. b = **Förderung/Weiterführung der Arbeiten durch die Gemeinde** (soweit Sicherheit/Natur-Heimatschutz), **nicht «Abbruch»**; lit. c = **Einebnung** erstellter Bauteile + ordentlicher Geländestand; lit. a Fertigstellung/Ersatzvornahme; lit. d Bewilligungsverfall (Arealüberbauung). Wiki + Destillat [[08-ausfuehrung-von-bauarbeiten]] korrigiert.
+  - **§ 328 Abs. 3** amtl. = **«Kosten trägt der Grundeigentümer»** (der Ersatzvornahme-/Grundpfand-Block ist § 30/§ 15 VRG, war fälschlich als § 328 Abs. 3 etikettiert).
+  - **§ 326 Fassungsstand:** geltend zweistufig lit. a (Bewilligungen rechtskräftig + Nebenbestimmungen) **oder** lit. b (**vorzeitiger Baubeginn elektronisch über die Plattform**); «schriftliche Baufreigabe»/«besondere Gründe» als Praxis markiert.
+  - **Nachtrag § 328a PBG** (elektronische Verfahrensführung über die Plattform, §§ 328b-g) — im Buch 2019 noch nicht enthalten, in Wiki + frontmatter aufgenommen.
+  - **§ 327 Abs. 1** amtl. Qualifier «Abbruch einer Baute **ohne nachfolgenden Neubau**» im Destillat ergänzt.
+- **✅ Strafe/Verjährung/Wiederherstellung §§ 340/340a/341 (Kap. 10) volltextverifiziert** → Wiki [[widerrechtliche-bauten-und-sanktionen]] `emerging` → **`established`**, **3 Korrekturen/Präzisierungen:**
+  - **§ 341 amtl. Wortlaut:** «Die zuständige Behörde hat **ohne Rücksicht auf Strafverfahren und Bestrafung** den **rechtmässigen Zustand herbeizuführen**; hiezu dienen der **Verwaltungszwang und die Schuldbetreibung**.» Die frühere Paraphrase «abzubrechen/ändern — ohne Vorbehalt» gab den Wortlaut ungenau wieder (Vorbehalt betrifft nur die Unabhängigkeit vom Strafverfahren). Substanz (zwingende Wiederherstellung, kein Entschliessungsermessen) bleibt.
+  - **§ 340 Abs. 4/5 präzisiert:** Abs. 4 = Versuch/Anstiftung/**Gehilfenschaft** strafbar (erfasst Architekt/Ingenieur/GU); Abs. 5 = **Solidarhaftung** jur. Personen/Gesellschaften für Bussen/Kosten (Haftungs-, nicht Strafbarkeitsnorm). Abs. 3 (Verzicht in besonders leichten Fällen) im Wiki ergänzt.
+  - **§ 340a:** verjähren **Strafverfolgung *und* Strafe** (nicht nur Verfolgung).
+- **needs-verification (verbleibend, nicht im PBG-Volltext):** § 30 Abs. 1 VRG (Dreiteilung Schuldbetreibung/Ersatzvornahme/direkter Zwang) am VRG-Volltext; 80/40-m-Erreichbarkeit, Notzufahrt 3 m/16 t, AngebotsV-300er-Schwelle (ZN/VSiV/EV/AngebotsV) am geltenden Erlass; URP-Rechtsprechung «OEV kein Erschliessungsanspruch» (jurisprudentiell). **Erledigt** damit die alten Flags: §§ 233/234/235/236/237 PBG (Run 14/16), §§ 326/327/328/329 PBG (Run 24/Kap. 8-Run), §§ 340/341 PBG (Run 20).
+
 ## Geklärt / verifiziert — 2026-07-12 (Buch-Run 29, Phase 3 · Modell-D Volltextabgleich §§ 242-249 PBG)
 - **✅ Fahrzeugabstellplätze §§ 242-248 PBG (Kap. 13 T3) volltextverifiziert** gegen `raw/260607_amtlich_zh_pbg.md` → Destillat + Wiki [[fahrzeugabstellplaetze-und-parkierung]] auf `established`. Dabei **2 Fassungsstand-Korrekturen** (Buch 6. Aufl. 2019 ↔ geltender Volltext):
   - **§ 243 Abs. 2/Abs. 3:** Die «bei bestehenden Bauten Schaffung/Aufhebung»-Regel ist geltend **Abs. 3**; der neue **Abs. 2** (FN 72) = antragsgebundene tiefere Platzzahl.
@@ -187,10 +207,12 @@ wurden.
 ## Offene Wissenslücken / needs-verification — neu (2026-06-22, aus Buch-Run Kap. 8)
 - ~~**Rest Kap. 8 offen (Restschuld):** ab S. 510 — 8.3 Sicherheit der Baustelle Detail~~ → **erledigt
   2026-07-09** (Run 24, siehe oben). Restfrei.
-- **needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 326/327/328/239/329 PBG (Baufreigabe,
-  Meldepflichten/Kontrollen, Unterbruch + die lit. a-d des § 328 Abs. 2, anerkannte Regeln der Baukunde),
-  § 309 Abs. 1 lit. c PBG (Abbruch-Bewilligungspflicht nur Kernzone), §§ 8/9/10c/15/30 VRG, § 12a BBV I/II,
-  §§ 3/23/24 BVV. Im Destillat [[08-ausfuehrung-von-bauarbeiten]] sinngemäss; Modell D nächster Lauf.
+- ~~**needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 326/327/328/329 PBG (Baufreigabe,
+  Meldepflichten/Kontrollen, Unterbruch + die lit. a-d des § 328 Abs. 2)~~ → **erledigt 2026-07-12 (Run 30):**
+  §§ 326-329 volltextverifiziert (Run-30-Sektion oben) — § 328 Abs. 2 lit. b (Förderung, nicht Abbruch),
+  Abs. 3 (Kostenträger Grundeigentümer), § 326-Plattform-Fassung korrigiert, § 328a ergänzt, § 329 Abs. 1
+  (BRG-Anfechtung) bestätigt. **Offen** nur noch (nicht im PBG-Kern): § 239 PBG (anerkannte Regeln der
+  Baukunde), § 309 Abs. 1 lit. c, §§ 8/9/10c/15/30 VRG, § 12a BBV I/II, §§ 3/23/24 BVV — am jeweiligen Volltext.
 - **Art. 3a ABV + Art. 16 VVEA (Asbest-Meldepflicht seit 1.6.2018):** Wortlaut/Verweiskette am amtlichen
   ABV-/VVEA-Volltext sichern — praxisrelevant für Umbau/Abbruch im Bestand.
 - **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** auf das aktuelle ZH-IDG verweisbar prüfen.
@@ -222,9 +244,11 @@ wurden.
   (Standard) / **§ 12 EV** (planerisch), mit § 6 ZN ausdrücklich als Vorgänger; EV hebt die WE-Schwellen
   an (Zufahrtsweg 10 → 50/100 WE). **Rest-needs-verification:** den exakt heute in Kraft stehenden
   EV-Wortlaut/Inkraftsetzungsdatum am amtlichen LS-Erlass spiegeln, bevor harte Masszahlen zitiert werden.
-- **needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 233/234/235/236/237 PBG, § 120 PBG
-  (vorsorgliches Bauverbot), § 150 PBG (Quartierplanbann), § 264 PBG (Verkehrsbaulinien), § 346 PBG
-  (Planungszone, 3+2 J.). Im Destillat [[12-baureife]] sinngemäss nach Buch S. 707-723 — Modell D nächster Lauf.
+- ~~**needs-verification — Wortlaut am amtlichen Volltext (raw/):** §§ 233/234/235/236/237 PBG~~ →
+  **erledigt 2026-07-12 (Run 30):** §§ 233-237 volltextverifiziert (Run-30-Sektion oben) — § 234
+  (Gemeindevorstand-Antrag), § 235 (3-J-Erlassfrist), § 236 («Behandlung»), § 237 Abs. 4 (Grundbuch-
+  Anmerkung) korrigiert. **Offen** noch: § 120 PBG (vorsorgliches Bauverbot), § 150 PBG (Quartierplanbann),
+  § 264 PBG (Verkehrsbaulinien), § 346 PBG (Planungszone, 3+2 J.) — nächster Modell-D-Lauf.
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-30, aus Buch-Run 16: Kap. 1 / Kap. 2 T1 / Kap. 12 T3)
 - ~~**Grundlagen/Rechtsquellen/Verfassungsgrundsätze nicht im Wiki**~~ → **erledigt 2026-06-30** (Run 16):

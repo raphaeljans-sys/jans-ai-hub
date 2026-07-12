@@ -44,17 +44,25 @@ Frist befehlen und im Saeumnisfall Ersatzvornahme/Abbruch/Verfall der Bewilligun
   Rechtskraft/Baufreigabe (S. 487).
 
 **8.1.2 Baufreigabe und vorzeitige Baufreigabe (S. 487)**
-- Die Gemeinden erteilen i.d.R. eine schriftliche **Baufreigabe**, worin festgestellt wird, dass dem
-  Baubeginn keine Hindernisse mehr entgegenstehen und alle auf den Baubeginn gestellten Nebenbestimmungen
-  erfuellt sind.
-- **Vorzeitige Baufreigabe / vorzeitiger Baubeginn:** Die Behoerde kann ausnahmsweise zustimmen, wenn
-  **besondere Gruende** vorliegen, welche von der Bauherrschaft darzulegen sind. Sie ist eine Verfuegung,
-  mit der die Bauherrschaft das Risiko traegt, dass spaeter Aenderungen verlangt werden koennen (S. 487).
+- **Fassungsstand-Hinweis (Modell-D Run 30):** Der **geltende § 326 PBG** verlangt fuer den Baubeginn:
+  **(lit. a)** alle noetigen baurechtlichen Bewilligungen **rechtskraeftig** erteilt und alle auf den
+  Baubeginn gestellten Nebenbestimmungen erfuellt, **oder (lit. b)** die zustaendige Behoerde erlaubt den
+  **vorzeitigen Baubeginn elektronisch ueber die Plattform** (Plattform-Regime der juengeren Revision;
+  § 328a PBG: baurechtliches Verfahren grundsaetzlich elektronisch). Die im Buch (6. Aufl. 2019)
+  beschriebene schriftliche **«Baufreigabe»** / die «besonderen Gruende» sind die **Praxis**, nicht der
+  heutige Wortlaut.
+- (Buchstand:) Die Gemeinden erteilen i.d.R. eine schriftliche **Baufreigabe**, worin festgestellt wird,
+  dass dem Baubeginn keine Hindernisse mehr entgegenstehen und alle auf den Baubeginn gestellten
+  Nebenbestimmungen erfuellt sind.
+- **Vorzeitige Baufreigabe / vorzeitiger Baubeginn:** Die Behoerde kann ausnahmsweise zustimmen (heute
+  elektronisch ueber die Plattform, § 326 lit. b PBG; im Buch: bei **besonderen Gruenden**, von der
+  Bauherrschaft darzulegen). Sie ist eine Verfuegung, mit der die Bauherrschaft das Risiko traegt, dass
+  spaeter Aenderungen verlangt werden koennen (S. 487).
 
 **8.1.3 Meldepflichten (S. 488)**
 - **Im Allgemeinen (§ 327 Abs. 1 PBG):** Baubeginn, Bauvollendung und wesentliche Zwischenstaende sind der
   oertlichen Baubehoerde **rechtzeitig anzuzeigen**, damit eine Ueberpruefung moeglich ist; sinngemaess auch
-  fuer den Abbruch. Wesentliche Zwischenstaende sind namentlich: **Erstellung des Schnurgeruests,
+  **fuer den Abbruch einer Baute ohne nachfolgenden Neubau** (amtlicher Qualifier § 327 Abs. 1 — Run 30). Wesentliche Zwischenstaende sind namentlich: **Erstellung des Schnurgeruests,
   Fertigstellung der Kanalisationsgrundleitungen, Rohbauvollendung** sowie Bezugsbereitschaft (§ 23 BVV).
   Die Meldefrist haengt von der Behoerdenorganisation ab.
 - **Zum Gebaeudeabbruch im Besonderen (S. 488):** Der Abbruch von Gebaeuden untersteht nur in **Kernzonen**
@@ -163,13 +171,21 @@ Frist befehlen und im Saeumnisfall Ersatzvornahme/Abbruch/Verfall der Bewilligun
 - **Androhungen fuer den Saeumnisfall (§ 328 Abs. 2 PBG):** Je nach Stand der Arbeiten ist die Aufforderung
   zu verbinden mit der Androhung:
   - lit. a: **Fertigstellung durch Ersatzvornahme**;
-  - lit. b: **Abbruch durch die Gemeinde**, soweit Sicherheit/Natur-/Heimatschutz erfordern;
-  - lit. c: die bereits erstellten Bauteile sind in den **ordentlichen Stand** zu bringen;
+  - lit. b: die Bauarbeiten werden **soweit durch die Gemeinde gefoerdert (weitergefuehrt)**, als es die
+    **Sicherheit von Personen und Sachen oder der Natur- und Heimatschutz** erfordern (amtlicher Wortlaut —
+    **nicht** «Abbruch»! Modell-D-Korrektur Run 30);
+  - lit. c: die **bereits erstellten Bauteile werden eingeebnet** und das **Gelaende in ordentlichen
+    Stand gebracht** (Einebnung — die frueher notierte blosse «Herstellung des ordentlichen Standes» war
+    unvollstaendig);
   - lit. d: bei **Arealueberbauungen** Dahinfallen der Bewilligung nach **2 Jahren** (Verfall der
     Baubewilligung nur bei Arealueberbauungen ausdruecklich) (S. 506 f.).
-- **Vorgehen bei wirkungsloser Androhung (§ 328 Abs. 3 PBG):** Die angedrohten Massnahmen werden auf dem
-  Weg der **Ersatzvornahme** (§ 30 VRG) durchgesetzt; die Kosten koennen mit einem **gesetzlichen
-  Grundpfandrecht** sichergestellt werden (**§ 15 VRG**; BEZ 1995 Nr. 22; Griffel, VRG § 15 N 14) (S. 507).
+- **Kostentragung (§ 328 Abs. 3 PBG):** Der geltende § 328 **Abs. 3** lautet knapp: **«Die Kosten
+  derartiger Massnahmen traegt der Grundeigentuemer.»** (Modell-D-Korrektur Run 30 — Abs. 3 ist die
+  Kostentragungsnorm, nicht die Ersatzvornahme.)
+- **Durchsetzung bei wirkungsloser Androhung (§ 30 VRG, nicht § 328 Abs. 3 PBG):** Die angedrohten
+  Massnahmen werden auf dem Weg der **Ersatzvornahme** (§ 30 VRG) durchgesetzt; die Kosten koennen mit
+  einem **gesetzlichen Grundpfandrecht** sichergestellt werden (**§ 15 VRG**; BEZ 1995 Nr. 22; Griffel,
+  VRG § 15 N 14) (S. 507).
 
 ### 8.3 Sicherheit der Baustelle (S. 508 f. — Kapitel-Anfang, Rest offen)
 

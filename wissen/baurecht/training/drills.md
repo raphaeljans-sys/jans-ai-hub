@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-09
+last_updated: 2026-07-12
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -1035,3 +1035,41 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Interesse»** (→ tiefere Zahl + Gesamtzahl begrenzen). Der ausformulierte Interessen-Katalog steht amtl.
   in **§ 245 Abs. 2 lit. a PBG** (Gemeinschaftsanlagen). Auch das Ziel «Fahrzeuge ausserhalb des
   oeffentlichen Grundes» steht in **Abs. 2** (nicht Abs. 1). _[2026-07-12]_
+
+## Run 30 (2026-07-12) — Modell D Volltextabgleich §§ 233-237 / 326-329 / 340-341 PBG
+
+- **F (Modell A · Frage→Beleg):** Ein Nachbar will einer Baueingabe die «fehlende Baureife» wegen einer
+  geplanten BZO-Aenderung entgegenhalten. Wer muss diese kuenftige Festlegung beantragt haben, damit das
+  greift? — **A:** Der **Gemeindevorstand** (§ 234 PBG amtl.: «keine noch fehlende oder durch den
+  **Gemeindevorstand** beantragte planungsrechtliche Festlegung»). Ein blosser Behoerdenwunsch genuegt
+  nicht; zudem ist die Festlegung **innert laengstens 3 Jahren zu erlassen** (§ 235 PBG), sonst faellt der
+  Einwand weg (ausser Rechtsmittel-Ausnahme). Beleg: raw/260607_amtlich_zh_pbg.md §§ 234/235. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Das Wiki schrieb, ein Grundstueck sei erschlossen, wenn die «einwandfreie
+  **Beseitigung** von Abwaessern, Abfallstoffen und Altlasten» gewaehrleistet ist. Stimmt der Begriff? —
+  **A:** **Nein** — der amtliche § 236 Abs. 1 PBG verlangt die einwandfreie **BEHANDLUNG** (weiter als
+  «Beseitigung»). Fassungs-/Wortlautkorrektur Run 30. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Was regelt § 237 **Abs. 4** PBG woertlich — den Nachweis dauernder
+  Benuetzungsrechte? — **A:** **Nein.** Abs. 4 amtl.: **privatrechtlich geordnete Zugaenge duerfen ohne
+  Zustimmung der oertlichen Baubehoerde weder tatsaechlich noch rechtlich veraendert oder aufgehoben
+  werden; die Beschraenkung ist im Grundbuch anzumerken.** Der Nachweis dauernder Benuetzungsrechte ist der
+  allgemeine Grundsatz «erschlossen = rechtlich gesichert» (§§ 236/237 i.V.m. Rechtsprechung), nicht der
+  Abs.-4-Wortlaut. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** § 328 Abs. 2 PBG — was droht **lit. b** an, wenn eine Baustelle
+  unterbrochen bleibt? — **A:** **Nicht** «Abbruch»! lit. b amtl.: die Bauarbeiten werden **soweit durch
+  die Gemeinde gefoerdert (weitergefuehrt)**, als es die **Sicherheit von Personen/Sachen oder der Natur-/
+  Heimatschutz** erfordern. Der Abbruch/die **Einebnung** erstellter Bauteile ist **lit. c**; lit. a =
+  Fertigstellung durch Ersatzvornahme; lit. d = bei Arealueberbauungen Verfall der Bewilligung nach 2 J.
+  Kostentraeger ist der **Grundeigentuemer** (Abs. 3). _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Gibt § 341 PBG den Behoerden das Recht, «polizeiwidrige Bauten ohne
+  Vorbehalt abzubrechen»? — **A:** Der amtliche § 341 lautet: «Die zustaendige Behoerde hat **ohne
+  Ruecksicht auf Strafverfahren und Bestrafung** den **rechtmaessigen Zustand herbeizufuehren**; hiezu
+  dienen der **Verwaltungszwang und die Schuldbetreibung**.» Die Wiederherstellungspflicht ist zwingend
+  (kein Entschliessungsermessen, VB.2005.00484), aber der «Vorbehalt» meint nur die **Unabhaengigkeit vom
+  Strafverfahren**, nicht «ohne Vorbehalt» schlechthin. Grenze bleibt die Verhaeltnismaessigkeit. _[2026-07-12]_
+- **F (Modell C):** § 340 PBG — wie ist die Strafbarkeit von Architekt/Ingenieur/GU dogmatisch verankert,
+  und was regelt Abs. 5? — **A:** **Abs. 4**: Versuch, Anstiftung und **Gehilfenschaft** strafbar (erfasst
+  den mitwirkenden Planer/GU). **Abs. 5** ist eine **Haftungs**norm: juristische Personen/Kollektiv-/
+  Kommanditgesellschaften/Einzelfirmen-Inhaber **haften solidarisch fuer Bussen und Kosten** ihrer Organe/
+  Hilfspersonen. Bussenrahmen: vorsaetzlich bis 50'000 (Gewinnsucht unbeschraenkt, Abs. 1), fahrlaessig bis
+  5'000 (Abs. 2), Verzicht in besonders leichten Faellen (Abs. 3). Verjaehrung Strafverfolgung **und Strafe**
+  5 J. (§ 340a). _[2026-07-12]_

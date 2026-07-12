@@ -16,8 +16,9 @@ last_updated: 2026-06-28
 (§§ 233-249 PBG): Bauten duerfen nur auf Grundstuecken erstellt werden, die baureif sind oder
 deren Baureife wenigstens auf die Fertigstellung hin gesichert ist (**§ 233 Abs. 1 PBG**).
 Baureif (= **erschlossen**) ist ein Grundstueck, wenn es genuegend **zugaenglich** ist, **mit
-Wasser und Energie** versorgt wird und die einwandfreie **Beseitigung von Abwaessern, Abfallstoffen
-und Altlasten** gewaehrleistet ist (**§ 234 PBG / § 236 Abs. 1 PBG i.V.m. Art. 19 RPG**) — und
+Wasser und Energie** versorgt wird und die einwandfreie **Behandlung von Abwaessern, Abfallstoffen
+und Altlasten** gewaehrleistet ist (**§ 234 PBG / § 236 Abs. 1 PBG i.V.m. Art. 19 RPG**; amtlicher
+Wortlaut § 236 Abs. 1: «Behandlung», nicht «Beseitigung» — Modell-D-Korrektur Run 30) — und
 wenn die bauliche Massnahme keine kuenftige planungsrechtliche Festlegung negativ beeinflusst
 (**planungsrechtliche Baureife, § 234 PBG**). Zwei Achsen also: (1) die **technische
 Erschliessung** (Zugang/Wasser/Energie/Entsorgung) und (2) die **planungsrechtliche Baureife**
@@ -299,8 +300,9 @@ Minimalloesung (3 m breit, 16 t tragfaehig).
 
 **12.3.4 Besondere Anforderungen fuer groessere Ueberbauungen (S. 735-737)**
 - **12.3.4.1 Gleisanschluesse (§ 237 Abs. 1 PBG, S. 735):** Bei Bauten/Anlagen mit grossem
-  Gueterverkehr sind **Gleisanschluesse** zu verlangen, soweit technisch moeglich und wirtschaftlich
-  zumutbar; das Gueterverkehrsgesetz (GueTG) regelt die Beziehungen Bahn–Anschliesser (WOLF/KULL N 83).
+  Gueterverkehr sind **Gleisanschluesse** zu verlangen, **wo dies technisch moeglich und zumutbar
+  ist** (amtlicher Wortlaut § 237 Abs. 1 Satz 3 — **ohne** das Wort «wirtschaftlich»; Modell-D-
+  Korrektur Run 30); das Gueterverkehrsgesetz (GueTG) regelt die Beziehungen Bahn–Anschliesser (WOLF/KULL N 83).
 - **12.3.4.2 Strassenverkehr (S. 736):** **Trennung Fahrzeug-/Fussgaengerverkehr** (§ 237 Abs. 3 PBG)
   wo das Beduerfnis besteht und wirtschaftlich zumutbar (VB.2005.00370); **unterirdische Anordnung/
   Ueberdeckung von Fahrspuren** verlangbar bei ueberwiegendem oeffentlichem Interesse (§ 237 Abs. 3

@@ -1,7 +1,7 @@
 ---
 title: Widerrechtliche Bauten & Sanktionen — Kanton Zürich
-status: emerging
-last_updated: 2026-07-03
+status: established
+last_updated: 2026-07-12
 sources: ["§ 341 PBG", "§ 340 PBG", "§ 340a PBG", "§ 339 Abs. 2 PBG", "§ 309 Abs. 1 lit. c PBG", "§ 322 Abs. 1 PBG", "§ 253 PBG", "§ 6 VRG", "§ 30 VRG", "§ 31 Abs. 1 VRG", "§ 25 Abs. 3 VRG", "§ 22 Abs. 3 VRG", "§ 12a BBV I", "§ 89 GOG", "§ 27 GOG", "Art. 24 ff. RPG", "Art. 25 Abs. 2 RPG", "Art. 5 Abs. 2 BV", "Art. 9 BV", "Art. 229 StGB", "Art. 290 StGB", "Art. 292 StGB", "Art. 70 f. StGB", "Art. 137 Abs. 2 OR", "Art. 836 ZGB", "Art. 354 StPO", "Art. 357 StPO", 10-widerrechtliche-bauten-teil1.md]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baureife-und-erschliessung]], [[nebenbestimmungen-und-reverse]]
 ---
@@ -43,10 +43,14 @@ nur, wenn günstiger oder das Bewilligungserfordernis in Änderungsabsicht missa
 
 ## Wiederherstellung § 341 PBG & Verhältnismässigkeit (S. 618-624)
 
-- **§ 341 PBG:** polizeiwidrige Bauten/Anlagen(teile) sind grundsätzlich **abzubrechen oder zu
-  ändern** — dem Wortlaut nach **ohne Vorbehalt**; ein Entschliessungsermessen der Behörde besteht
-  grundsätzlich nicht (VB.2005.00484). Verzichtsvereinbarungen ohne Voraussetzungsprüfung sind
-  **nichtig** (BGer 1A.77/2005).
+- **§ 341 PBG (amtlicher Wortlaut):** «Die zuständige Behörde hat **ohne Rücksicht auf Strafverfahren
+  und Bestrafung** den **rechtmässigen Zustand herbeizuführen**; hiezu dienen der **Verwaltungszwang
+  und die Schuldbetreibung**.» Die Wiederherstellung (Abbruch/Änderung polizeiwidriger Bauteile) ist
+  danach **zwingend** — ein Entschliessungsermessen, *ob* die Behörde einschreitet, besteht
+  grundsätzlich nicht (VB.2005.00484). Der Vorbehalt betrifft **nur die Unabhängigkeit vom
+  Strafverfahren** (nicht «ohne Vorbehalt» schlechthin). Verzichtsvereinbarungen ohne
+  Voraussetzungsprüfung sind **nichtig** (BGer 1A.77/2005). *(Modell-D-Korrektur Run 30: die frühere
+  Paraphrase «abzubrechen oder zu ändern — ohne Vorbehalt» gab nicht den geltenden Wortlaut wieder.)*
 - **Korrektiv = Verhältnismässigkeit** (Art. 5 Abs. 2 BV; Leitfall VB.2005.00712): Abbruch entfällt
   bei nur **geringfügiger** Abweichung (z. B. wenige Zentimeter über der Profillinie — RB 1999
   Nr. 126) oder wenn kein hinreichendes öffentliches Interesse besteht. **Guter Glaube** stärkt die
@@ -85,10 +89,17 @@ Veranlassungsstörer; Auswahlermessen der Behörde — VB.2013.00342).
 ## Strafrechtliche Sanktionen (§ 340 PBG, S. 629-636)
 
 - **§ 340 PBG:** vorsätzliche Widerhandlung gegen PBG/Verfügungen → **Busse bis 50'000 Franken**
-  (bei Gewinnsucht unbeschränkt); **fahrlässig bis 5'000 Franken**. Ausdrücklich strafbar sind auch
-  **Mittäter/Gehilfen — Architekt, Ingenieur, Generalunternehmer** (§ 340 Abs. 4/5 PBG).
-- **§ 340a PBG** (seit 7/2014): Verjährung der Strafverfolgung **5 Jahre** (statt 3 nach Art. 109
-  StGB).
+  (bei Gewinnsucht unbeschränkt, Abs. 1); **fahrlässig bis 5'000 Franken** (Abs. 2); in **besonders
+  leichten Fällen kann auf Bestrafung verzichtet werden** (Abs. 3). **Versuch, Anstiftung und
+  Gehilfenschaft sind strafbar** (Abs. 4) — darüber wird der als **Gehilfe/Anstifter** mitwirkende
+  **Architekt, Ingenieur, Generalunternehmer** erfasst. **§ 340 Abs. 5** ist demgegenüber eine
+  **Haftungs-**, keine Strafbarkeitsnorm: **juristische Personen, Kollektiv-/Kommanditgesellschaften
+  und Inhaber von Einzelfirmen haften solidarisch für Bussen und Kosten**, die ihren Organen/
+  Hilfspersonen auferlegt werden (so haftet der GU als juristische Person solidarisch).
+  *(Modell-D-Präzisierung Run 30: Abs. 4 = Strafbarkeit Gehilfenschaft, Abs. 5 = Solidarhaftung.)*
+- **§ 340a PBG** (seit 7/2014): **Strafverfolgung *und* Strafe** für Widerhandlungen nach § 340
+  verjähren nach **5 Jahren** (statt 3 nach Art. 109 StGB) — erfasst damit auch die
+  Vollstreckungsverjährung, nicht nur die Verfolgung.
 - Die **formelle** Baurechtswidrigkeit ist **kein Dauerdelikt**; die blosse Aufrechterhaltung des
   Zustands ist in § 340 PBG nicht mit Strafe bedroht → straflos (nulla poena sine lege; OGer
   SU150096).
@@ -111,8 +122,9 @@ Veranlassungsstörer; Auswahlermessen der Behörde — VB.2013.00342).
 - **30-Jahre-Argument** in [[ankaufspruefung]]/Bestandesbewertung: rechtswidriger Zustand > 30 Jahre
   (ohne Polizeigüter/Umwelt) → Einschreiten verwirkt, Bestand faktisch gesichert. Ein bereits
   erlassener Befehl verjährt separat nach 10 Jahren.
-- **Strafrisiko kommunizieren:** § 340 PBG trifft auch Architekt/Ingenieur/GU (Busse bis 50'000,
-  Verjährung 5 J.), bei Gefährdung zusätzlich Art. 229 StGB.
+- **Strafrisiko kommunizieren:** § 340 PBG trifft auch Architekt/Ingenieur/GU als **Gehilfe/Anstifter**
+  (§ 340 Abs. 4; Busse bis 50'000, Verjährung 5 J.); die GU-**Gesellschaft** haftet zudem **solidarisch
+  für Bussen/Kosten** (Abs. 5). Bei Gefährdung zusätzlich Art. 229 StGB.
 - Zuständigkeitssplit ausserhalb Bauzone (Baudirektion ↔ kommunale Baubehörde) merken.
 
 Speist / verbunden mit: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]],
