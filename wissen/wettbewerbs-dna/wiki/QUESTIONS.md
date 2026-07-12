@@ -31,3 +31,13 @@ Stand: 12.07.2026
   Formular Bauökonomie liegt im lokalen OneDrive-Sync nicht vor (Abgabe-Unterordner
   01 Pläne / 03 Bericht / 04 Beschriftung sind leere Platzhalter); im
   SharePoint-Original nachschlagen.
+- 2101 KSSG — Kein individuelles Jury-Feedback zu «LOUISE» (nur Sammelurteil 2. Rundgang,
+  Bericht S. 13); welche konkreten Kritikpunkte (Mansarddach? Hochparterre?
+  Raumorganisation Praxis?) den Ausschlag gaben, ist nicht belegbar. Zudem: Rolle/Anteil
+  von Meng Li in der Doppel-Autorenschaft unklar; GV und Erstellungskosten (Formular B16,
+  `LOUISE_B16_formular_kostentool.pdf`) noch nicht ausgewertet.
+- 2103 Steinhof — konkrete Gründe der Rückstufung von «Patio in Nobile» aus der engeren
+  Wahl (welche Kriterien den Ausschlag gaben) sind im Jurybericht nicht dokumentiert;
+  evtl. aus Vorprüfungsbericht/Nachbesprechung (Ordner `02 Korrespondenz/`, `11 Loggbuch/`)
+  rekonstruierbar. GF/GV-Kennzahlen des eigenen Beitrags und das angestrebte Minergie-Label
+  (A-ECO oder P-ECO) noch nicht belegt (OneDrive/CloudStorage-Leseblockade am 12.07.2026).
