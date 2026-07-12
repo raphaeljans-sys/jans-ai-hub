@@ -3,7 +3,7 @@ title: Denken & Argumentation
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md]
+sources: [260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -254,3 +254,16 @@ Ein Vertrauens-/Rollenproblem spricht Raphael offen an, entschärft es aber sofo
 Beobachtung: «Letztes Jahr habe ich gespürt, dass hier kein gegenseitiges Vertrauen besteht, wer
 welche Grundlagen erarbeitet. **Das ist keine persönliche Wertung, sondern eine Feststellung.**»
 Er trennt Beobachtung von Vorwurf, um handlungsfähig zu bleiben, ohne die Beziehung zu belasten.
+
+## Konditionale Wenn-dann-Kette mit ehrlich benannter Ungewissheit (belegt Mailbatch 35, authentisch)
+In der baurechtlichen Direktvermietungs-Stellungnahme (Nova/Roman, 17.03.2026) führt Raphael den Gedanken
+als **gestufte Wenn-dann-Kette** und markiert die verbleibende Ungewissheit offen, statt Sicherheit
+vorzutäuschen: «Wird ein Grundriss geändert, **muss** man eine Baueingabe machen» → «Solange keine Baueingabe
+eingereicht wird, muss nichts geändert werden» → «Sobald eine Baueingabe eingereicht wird, kann **entweder**
+nur für die betroffenen Einheiten **oder** für das ganze Haus ein Nebenräume-Nachweis gefordert werden» →
+«**Dies zeigt sich erst nach Reaktion Behörde UGZ.**» Marker: (a) jede Rechtsfolge an ihre auslösende
+Bedingung koppeln (kein pauschales «geht/geht nicht»), (b) das behördliche Ermessen als offene Verzweigung
+(entweder/oder) stehen lassen, (c) den Punkt, an dem erst die Behörde entscheidet, ausdrücklich benennen.
+Reiht sich zum konditionalen Beratungsdenken («Dafür bräuchtest Du … mit den damit verbundenen
+Implikationen») und zur ehrlichen Wissensgrenze (→ [[haltung]]). Der Zwilling rechnet in bedingten Ketten
+und macht die Grenze des Vorhersehbaren transparent, statt sie zu überspielen.

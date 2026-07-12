@@ -2,6 +2,45 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-12 — twin-mail-training Batch 35 (2026-03-12 bis 2026-03-17)
+- Sent Items rj@ sequentiell weiter, 20 Mails gesichtet, 5 Volltexte destilliert (Thalwil 2414
+  Terminplan/Vordach an Stefan-Du; Wartstrasse 8 Werkpläne-Balkontüre an Giacometti + Baumeister-
+  Vorschlag an Beson, Bauherrin Hofer cc; KISPI-Anzeigeverfahren Baugesuchformular-Rollen/
+  Vollmachtsmatrix an Hottinger; Nova Albertstrasse 7 baurechtl. Stellungnahme Nebenräume an Roman).
+  Alle Rahmen klar handgetippt (Slips «ein aktuellen», «heute Abende»), Fach-Stellungnahme in
+  Alltagssyntax = kein Claude-Grundtext. Metrik 450 W, Du-Gross 1.0, ø 12.9 W, FG 4×/Lieber Gruss 1×.
+- **stimme:** «Salut <Vorname>» als lockerer romanisch-CH Du-Opener (Salut Roman / Salut Esther),
+  noch leichter als «Hoi»; «Geschätzter Herr <Vorname Nachname>» als voll-namige Sie-Anrede an den
+  Gewerks-/Werkplaner; Metrik.
+- **beziehungsregister:** Roman Steinmann (Nova-AM) vertieft Sie→Du weiter zu «Salut Roman» (17.03,
+  nach «Geschätzter Roman» 07.03) — Wärmegang über den Mandatsverlauf bestätigt; neue Sie-Mappings
+  Guido Giacometti/Steinmann AG (Werkpläne Balkontüre, RJ tippt «Geschätzter Herr Daniel Schmid») +
+  Beson/fsgbau (Baumeister, «Geschätzter Herr Beson», Bauherrin Hofer cc).
+- **fachsignatur:** Nebenräume-Recht inline gerechnet (Art. 279 PBG + Art. 39 BBV I: Einstellraum
+  8m²/Whg bzw. 5m² bei ≤2 Zi; Waschküche/Trockenraum-Praxis 1 Waschautomat + Trockenraum 10m² pro
+  9 Whg) + «Bestandsgarantie schützt nicht vor Hygieneanforderungen»; Gesims-Absenkung als
+  baurechtl. Konsequenzkette (12 cm/70 statt 80 cm, unter Baueingabe-Umfang); Baugesuchformular-
+  Rollen (Bauherrschaft/Projektverfasser/Grundeigentümer/Bevollmächtigte Vertretung) + Vollmachts-/
+  Unterzeichnungsfragen im Anzeigeverfahren.
+- **arbeitsweise:** baurechtl. Stellungnahme als Frage-für-Frage-Spiegelung (Frage 1/Antwort 1 …) +
+  konkrete Fachplaner-Empfehlung mit Kontakt/Link (Gutknecht Elektro, 38grad Strangsanierung
+  CHF 1'000.-); Sachwalter-cc der Bauherrin + beide Mailadressen genannt + «Die Bauherrschaft möchte
+  das Projekt abschliessen» als Druckbegründung; Grundbuchauszug proaktiv bestellt als Grundlage;
+  Vollmachts-/Unterzeichner-Matrix vorab rollenweise mit der Behörde durchdeklinieren.
+- **haltung:** «kann man machen, muss man nicht» als ehrliche Kosten-/Nutzen-Beratung + «Die
+  baulichen Mehrkosten musst Du selber entscheiden, ob Dir dies wert ist» — Entscheid mit ehrlicher
+  Kostenfolge an den Bauherrn zurückgeben.
+- **denken:** konditionale Wenn-dann-Kette mit ehrlich benannter Ungewissheit («sobald Baueingabe →
+  Nachweis; ob nur betroffene Einheiten oder ganzes Haus zeigt sich erst nach Reaktion Behörde UGZ»).
+- _INGESTED-Sweep-Stand: abgedeckt bis 2026-03-17; nächster Lauf ab 2026-03-17.
+
+## 2026-07-12 — Bookkeeping-Nachtrag Batch 34 (2026-03-06 bis 2026-03-12)
+- Rekonstruktion: ein früherer Lauf heute hatte die Batch-34-Marker bereits in die Facetten
+  destilliert (Roman Sie→Du, Dan Krusi/Nerves Tech-Peer, Claudia-Mundart, Dachgeschoss-50 %-Regel,
+  KI-Dienstleister-Briefing, Versionsdisziplin ungültige Pläne, Vorbehalt nachreichen, faire
+  Gegenleistung, KI-Kompetenzlücke, «_A)/_B)», Fasten-Ferien-Gruss), aber vor _INGESTED/CHANGELOG
+  abgebrochen. Zeilen jetzt nachgetragen (kein erneutes Destillieren, nur Bookkeeping).
+
 ## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): Querbezug arbeitsweise <-> KB spec
 - [link] [[arbeitsweise]] Dekompositions-/Orchestrierer-Abschnitt -> KB `spec` (anwendung-jans/the-spec) als formales Geruest desselben Vorgehens; twin bleibt die belegte Verhaltensevidenz. Keine Doppelspur (verschiedene Rollen, adversarial bestaetigt: WIDERLEGT als Widerspruch).
 

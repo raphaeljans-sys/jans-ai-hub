@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -714,3 +714,22 @@ und ergänzt:
 - **Stefanie «Steffi» Sonderegger** (KISPI-Betreiberin) → warm-Du «Werte Steffi» bestätigt; ihre eigene
   Anrede an Raphael schwankt «Lieber Raphael/Rafael» (Vorname-Verschreibung ihrerseits, kein Signal für
   Raphaels Register).
+
+## Roman Steinmann vertieft Du zu «Salut» + neue Gewerks-Sie-Mappings (belegt Mailbatch 35, authentisch)
+- **Roman Steinmann (Nova-AM) — dritte Stufe der Erwärmung «Salut Roman»:** nach «Sehr geehrter Herr
+  Steinmann» (Akquise Jan 2026) → «Geschätzter Roman» (Du ab 07.03.2026, Batch 34) schreibt Raphael am
+  17.03.2026 «**Salut Roman**» in der laufenden baurechtlichen Beratung — die lockerste Stufe im Verlauf.
+  Bestätigt eindrücklich «Register folgt der wachsenden Vertrautheit»: derselbe Auftraggeber-Kontakt
+  durchläuft Sehr-geehrter → Geschätzter → Salut binnen ~10 Wochen. Nova-Mapping aktualisiert:
+  **Steinmann/AM Sie→«Geschätzter Roman»→«Salut Roman»** (ab März 2026) · Angerer/AM Du · Munch/Deputy Sie ·
+  Siegel/Buchhaltung Sie · Bopp Du. Der Zwilling zieht die Anrede eines gut eingespielten Du-Auftraggebers
+  bis «Salut» hinunter, solange der Faden operativ-vertraut läuft.
+- **Guido Giacometti / Steinmann AG (Werkpläne Balkontüre, Wartstrasse 8):** Sie, Raphael tippt
+  «**Geschätzter Herr Daniel Schmid**» (voll-namige respektvolle Sie-Anrede an den Werkplaner; die
+  Namensvariante Daniel Schmid vs. Empfängeradresse Giacometti = bekanntes Flüchtigkeitsmuster, TON nicht
+  Slip übernehmen). Werk-/Gewerksplaner-Sie mit Bauherrin Hofer im cc.
+- **Beson / fsgbau (Baumeister/Baumeisterarbeiten, Wartstrasse 8):** Sie, «**Geschätzter Herr Beson**» +
+  «Freundliche Grüsse», Bauherrin Hofer im cc. Reiht sich zum Unternehmer-/Handwerker-Sie «Geschätzter Herr
+  <Name>»; im laufenden Umbau bleibt die Bauherrschaft transparent im cc (→ [[arbeitsweise]]).
+- **«Salut <Vorname>» auch an bauherrschaftsnahen Du-Kontakt:** «Salut Esther» (16.03.2026) — bestätigt
+  «Salut» als lockeren Du-Opener über verschiedene Du-Kontakte (Klang/Skala → [[stimme]]).
