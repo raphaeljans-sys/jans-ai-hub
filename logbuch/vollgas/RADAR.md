@@ -13,7 +13,35 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
-## 2026-07-12 23:15 — KORREKTUR: kein MacBook-Login-Blocker, Token gueltig [FREI]
+## 2026-07-12 23:52 — ECHTE URSACHE gefunden: MacBook-Runner war STALE (alte In-Memory-Version) [FREI]
+
+**Aufloesung des Widerspruchs (23:15 vs. Live-Log):** Weder Login noch geteiltes Limit — der
+MacBook-Runner (PID 14028, seit ~19:00) lief eine **veraltete In-Memory-Version** des Skripts.
+Beweis: die 1-s-rc=1-Zeilen im Log tragen den ALTEN Hinweistext («Am Ende NAS-Repo committen und
+pushen … vorgeschrieben.**'**» — mit verirrtem schliessenden Anfuehrungszeichen); das Skript auf
+der Platte hat laengst den KORRIGIERTEN Git-Disziplin-Hinweis (nur lokal committen). Verifikation
+23:47–23:52: mit gesourctem `~/.jans-dispatch.env` liefert `claude -p` «OK» rc=0; die EXAKTE
+Runner-Invocation (acceptEdits, --max-budget-usd 25, --fallback-model sonnet, --output-format text,
+`--`-Separator) mit dem ECHTEN baurecht-Prompt lief **25 s echte Arbeit** (Abbruch nur durch den
+Test), fast-failt also NICHT. Der Bug steckte allein im laufenden Alt-Prozess.
+
+**Selbst erledigt 23:48:** Alten Runner `pkill`t, frisch gestartet (PID 81252 + Subshell 81659,
+PPID-Struktur = gesund wie Mini 58135). Neuer Runner: Zyklus 1 seit 23:48:02, `baurecht-buch-training`
+lief 3+ Min durch (SKIP-Guard bestaetigt aktiven Prozess) — kein 1-s-Fail mehr. Der Runner re-exect
+periodisch und laedt so Skript-Updates selbst nach.
+
+**STOP-Macmini:** beim Aufraeumen bereits verschwunden (keine STOP-Datei mehr); Mini-Runner
+gesund (energie-training 544 s rc=0 um 23:37, nach GitHub gepusht).
+
+**Fazit fuer kuenftige Laeufe:** Bei 1-s-rc=1-Serien trotz gueltigem Token IMMER pruefen, ob der
+laufende Runner-Prozess eine veraltete Skript-Version haelt (Hinweistext im Log-Tail mit der
+Platten-Version vergleichen) — dann `pkill -f vollgas-runner.sh` + Neustart. NICHT Login/Token
+verdaechtigen. Der 23:15-Eintrag lag mit «reines Diagnose-Env-Problem» halb richtig (Token OK),
+aber die eigentliche Ursache war der Stale-Prozess.
+
+**Mail:** KEINE (Blocker selbst behoben, kein Handlungsbedarf fuer Raphael).
+
+## 2026-07-12 23:15 — (teilweise ueberholt durch 23:52) kein MacBook-Login-Blocker, Token gueltig [FREI]
 
 **Richtigstellung (wichtig fuer kuenftige Laeufe):** Der als P1 gefuehrte «MacBook Pro Not
 logged in»-Blocker war ein DIAGNOSE-FEHLER. Ursache: der Login-Test lief aus `~` OHNE das
