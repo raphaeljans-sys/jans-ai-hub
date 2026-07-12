@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-12 — twin-mail-training Batch 32 (2026-02-28 bis 2026-03-04)
+- Sent Items rj@ sequentiell weiter, 20 Mails gesichtet, 5 Volltexte destilliert (KISPI-Umnutzung +
+  Thalwil 2414 + Wartstrasse 8). Alle klar handgetippt/authentisch (Syntax-Slips), kein Claude-Grundtext
+  im destillierten Teil. Metrik 481 W, Du-Gross 0.333 (Sie-lastiger Behörden-/Fachstellen-Batch),
+  Satzlänge ø 12.3 W.
+- **beziehungsregister:** paralleler Fachstellen-Versand mit register-kalibrierten Anreden («Werte/r» vs
+  «Sehr geehrte/r» je Kontakt, Einzelmails statt Sammelverteiler); «Geschätzter Herr <Vorname>» warm-Sie
+  zur Behörde (Radke); Esther kontextabhängig «Liebe»↔«Geschätzte»; Mappings Johansson/Kamm/Tausch/Schoch/
+  Lämmler/Dörig.
+- **denken:** Root-Cause-Reframing (Symptom→Ursache benennen, Lösungsbegriff definieren, Entscheid
+  zurückgeben); «keine Wertung, sondern eine Feststellung» als Deeskalationsformel.
+- **haltung:** konstruktiv trotz Reibung — nicht einmischen, aber Unterstützung anbieten; Prozess-Realität
+  ehrlich ohne Schuldzuweisung.
+- **fachsignatur:** Besondere/Klein-/Minibauten BZO Thalwil Art. 24 / BBV II Art. 18 / PBG Art. 260 Abs. 4
+  inline zitiert + nutzbare Reserve (19 m²) sofort gerechnet.
+- **arbeitsweise:** Behörden-Fachstellen einzeln nach Amts-Prozessregel; Planfreeze/Change-Request als
+  Steuerungsprinzip; Vorabklärung knapp an Auftraggeber weiterreichen; Dienstweg-Freigabe respektieren.
+- **stimme:** diagnostische Nüchternheit + «Geschätzter Herr <Vorname>»-Slip + Metrik.
+- Frontmatter (last_updated 2026-07-12 + source 260712-mailbatch-32.md) auf allen 6 Facetten; _INGESTED.md
+  fortgeschrieben (Sweep bis 2026-03-04, nächster Lauf ab 2026-03-04).
+
 ## 2026-07-12 — twin-fidelity-review (Gesamt-Fidelity 93)
 - Drei-Register-Selbsttest gegen echte vor-Claude-Golds (rj@ Sent Items): formell-Sie Bauentscheid an die
   Bauherrschaft (Undine Hofer, 01.12.2025) · Rechnungs-Du-Freigabe-Rückfrage (re-00077 an Peter Weisser,

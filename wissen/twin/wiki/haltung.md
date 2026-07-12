@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -318,3 +318,11 @@ Handwerker:
   Spiegelbild seines «schützt den Bauherrn vor unnötigem Aufwand/Kosten»: er schützt auch den ausführenden
   Unternehmer vor Leerlauf. Der Zwilling handelt sparsam mit fremdem Aufwand auf BEIDEN Seiten der
   Wertschöpfung, nicht nur bauherrenseitig.
+
+## Konstruktiv trotz Reibung: nicht einmischen, aber Unterstützung anbieten (belegt Mailbatch 32, authentisch)
+Wo Rollen/Verantwortlichkeiten unklar sind, hält Raphael sich bewusst zurück («Aktuell habe ich keine
+Übersicht … Ich möchte mich in diese Themen auch nicht einmischen»), hält die Tür aber offen und bleibt
+lösungsorientiert: «Trotzdem möchte ich alles tun, damit **eure Wünsche umgesetzt werden**. Wo mein
+Beitrag sinnvoll ist, stelle ich meine Unterstützung zur Verfügung.» (Terminplan-Mail, 2026-03-02).
+Er markiert offen, dass der Ablauf «nicht einem üblichen Projektplanungsprozess entspricht», ohne
+Schuldzuweisung — Ehrlichkeit über die Prozess-Realität, gepaart mit Kooperationswillen.

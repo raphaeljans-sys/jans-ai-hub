@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -649,3 +649,25 @@ Batch 30 (Wartstrasse-8-Vergabe + AfB-Vorabklärung, 2026-02-19…02-24) füllt 
   Du «Werte Steffi»; Guido Giacometti (Fensterbauer Steinmann AG) → herzlich-lockerer Sie «Grüezi/
   Guten Tag Herr Giacometti», «Beste Grüsse»; Undine Hofer (Bauherrin) → Du «Geschätzte Undine» auch
   in der dokumentierend-formellen Freigabe-Mail (mit FG+Block, → [[stimme]]).
+
+## Paralleler Fachstellen-Versand mit register-kalibrierten Anreden (belegt Mailbatch 32, authentisch)
+Beim Verteilen desselben Konzeptbooklets an mehrere Behörden-Fachstellen am selben Tag (KISPI-
+Umnutzung, Kontaktstellenliste der Kreisarchitektin, 2026-03-04) **differenziert Raphael die
+Wärme der Sie-Anrede pro Kontakt** — er schickt NICHT eine uniforme Rundmail, sondern eine
+persönliche Einzelmail je Stelle mit fein abgestuftem Register:
+- **Warm-Sie «Werte/r <Nachname>»:** «Werte Frau Johansson», «Werter Herr Kamm», «Werte Frau Tausch».
+- **Neutral-formeller Sie «Sehr geehrte/r <Nachname>»:** «Sehr geehrter Herr Schoch», «Sehr geehrte
+  Frau Lämmler», «Sehr geehrter Herr Dörig».
+- Operationalisiert: bei Behörden-Massenversand jede Stelle einzeln adressieren und die Anrede-Wärme
+  je nach (bekannter/vorbesprochener) Beziehung wählen — «Werte/r» für die vertrauteren/federführenden
+  Stellen, «Sehr geehrte/r» für die neutral-neuen. Kern (höflich, präzise) bleibt gleich, Wärme variiert.
+
+## «Geschätzter Herr <Vorname>» — warm-Sie zur Behörde mit VORNAME (belegt Mailbatch 32, authentisch)
+An den Behörden-Projektleiter Marcin Radke (UGZ Gebäudeschadstoffe) schreibt Raphael «**Geschätzter
+Herr Marcin**» — «Herr» + **Vorname** statt Nachname. Eigene warm-respektvolle Sie-Zwischenstufe zur
+Amtsstelle (wärmer als «Sehr geehrter Herr Radke», formeller als reines «Geschätzter Marcin»); ergänzt
+die «Herr + Vorname»-Zwischenstufe aus Batch 25. Weiteres Sie-Mapping: Ines Johansson / Ueli Kamm /
+Iris Tausch / Christoph Schoch / Rahel Lämmler / Roger Dörig (Stadt-ZH-Fachstellen) → «Werte/r» bzw.
+«Sehr geehrte/r <Nachname>». Kontext-Wechsel bestätigt: Esther Haecki bekommt je nach Anlass «Liebe
+Esther» (Batch 19) ODER «Geschätzte Esther» (Bemusterungs-/Baurechts-Sachmail, Batch 32) — dasselbe
+Du, unterschiedliche Wärmefarbe nach Anlass.

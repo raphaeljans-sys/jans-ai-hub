@@ -5,6 +5,30 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-12
+
+- **RADAR-LAUF — mit Briefing (eine neue Bauherr-Rueckmeldung).** Register gegen bexio (`--verzug`),
+  Kalender (Outlook, bis 19.07.), Mail-Eingang UND -Ausgang (seit 11.07. frueh) und Sync-/Remote-Queues
+  abgeglichen; neuen Thread inkl. Anhang gegenverifiziert.
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **87 Tage ueberfaellig**), **Mahnung 2**, Zahlfrist **15.07.2026** (in 3 Tagen);
+  naechste Stufe erst nach Fristablauf. RE-00098/99 (faellig 20.07.) ohne Verzug.
+- **NEU / handlungsrelevant — Thalwil 2414 Naeherbaurecht (Vordach):** Bauherr S. Tschopp
+  (11.07. 14:47) hat die SBB-Vereinbarung (Vb_NB_Thalwil_Erweiterung-Vordach_20260710.docx) geprueft,
+  ist **mit dem Wortlaut einverstanden**, hat **Punkt 3.10 (besonderes Gebaeude 2)** ergaenzt und
+  liefert einen fertigen Textvorschlag an SBB-Wiedmer. Bauherr-Abgleich damit erledigt → offene
+  JANS-Aktion: **Bestaetigung + aktualisiertes Word an T. Wiedmer (SBB) senden → unterzeichnen**
+  (noch nicht raus, Sent Items im Fenster leer; bleibt nachfassen).
+- **NEU — Thalwil 2414 reduzierte Ausschreibung:** Tschopp legt im selben Mail seine Wunsch-Unternehmer
+  fest (Holzbau Posch, Treppe Koehlmeier, Baumeister/Gartenbau Berberoglu bzw. Nenning Bau, Sanitaer
+  R. Preis, Innenausbau Daniel), sieht eine reduzierte Ausschreibung und bittet um Anrufe bei Posch +
+  Nenning Bau; «lass uns das besprechen». Als eigene Register-Zeile aufgenommen (besprechen).
+- **7-Tage-Fenster (bis 19.07.):** RE-00087 Zahlfrist **15.07.**; Koordinationssitzung Tueren **13.07.
+  09:00-10:00** (RJ Organisator, im Kalender bestaetigt). RE-00098/99 faellig 20.07. (knapp ausserhalb).
+- **Briefing an rj@ versendet.** Sync-/Remote-Task-Queues leer.
+
+---
+
 ## 2026-07-11
 
 - **HUB-CHEF-LAUF — ohne Befund, keine zweite Mail (08:39).** Signale nach dem Radar (mit Briefing)

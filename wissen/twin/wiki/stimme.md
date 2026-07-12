@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1103,3 +1103,15 @@ Elfter belegter Echo-Fall (Fortsetzung «AI-Paste vor/um den Stichtag», WISSEN-
   Bauherrin-Sie gemischt): Du-Gross-Quote **1.0**; Tausender-Apostroph 0 (registerbedingt, «CHF
   25K»/«CHF 1000.-»); Satzlänge ø **13.0 W**; Grüsse «Freundliche Grüsse» 3× / «Beste Grüsse» 2×;
   keine Ellipsen/«%». Flüchtigkeit «geschätzer»/«Kösten»/«duper»/«bid»/«do» — TON übernehmen, `korrektur` zieht es gerade.
+
+## Diagnostische Nüchternheit + «Geschätzter Herr <Vorname>»-Slip (belegt Mailbatch 32, authentisch)
+- **Trennt Beobachtung von Vorwurf** mit einer nüchternen Formel: «Das ist **keine persönliche Wertung,
+  sondern eine Feststellung.**» Sachliche Distanz, die eine heikle Aussage entschärft (→ [[denken]], [[haltung]]).
+- **«Geschätzter Herr <Vorname>»** als warm-formeller Sie-Slip zur Behörde («Geschätzter Herr Marcin»,
+  Herr + Vorname; → [[beziehungsregister]]).
+- Handgetippt-authentisch: «Darf ich Sie **B**itten» (Verb grossgeschrieben), «Ihrer Adressliste **mich**»,
+  «allfällige **weiter** Kontaktstellen», «Projekt **Vorgesprächen**» — TON übernehmen, `korrektur` zieht es gerade.
+- Mikro-Metrik Batch 32 (481 W, Sie-lastiger Behörden-/Fachstellen-Batch): Du-Gross-Quote **0.333**
+  (registerbedingt tief); Tausender-Apostroph 0; Satzlänge ø **12.3 W**; keine Ellipsen/«%»; Gruss
+  «Freundliche Grüsse» dominant. Anreden: «Geschätzter Stefan/Esther» (Du), «Geschätzter Herr Marcin» /
+  «Werte Frau Johansson» / «Werte Steffi» (Sie bzw. Du weibl.).

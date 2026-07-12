@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -742,3 +742,18 @@ zeigt Raphaels Liefermail-Bauplan verdichtet:
   1000.- machen könnten?»), benennt die Spar-Option (Zylinder-Verzicht) und **stoppt unnötigen
   Unternehmer-Aufwand**: «Schnitte daher **noch nicht** zeichnen» bis die Bauherren-Freigabe da ist
   (→ [[haltung]]). Bauherrin bleibt im cc (Transparenz, Batch 30).
+
+## Behörden-Fachstellen einzeln abarbeiten statt Sammelverteiler (belegt Mailbatch 32, authentisch)
+Die Kontaktstellenliste der Kreisarchitektin arbeitet Raphael Stelle für Stelle in getrennten
+Einzelmails ab (KISPI-Umnutzung, 2026-03-04) — kein Sammelverteiler, jede Fachstelle persönlich
+adressiert mit angehängtem Konzeptbooklet und konkreter Terminfrage («Wann hätten Sie Zeit?»). Das
+folgt zugleich dem expliziten Behörden-Wunsch («Bitte setzen Sie nicht mehrere Personen in den
+E-Mail-Verteiler») — er richtet seinen Versand-Workflow nach den Prozessregeln der Amtsstelle.
+
+## Planfreeze / Change-Request als Projektsteuerungsprinzip (belegt Mailbatch 32, authentisch)
+Als Steuerungsinstrument fordert Raphael einen definierten Plan-Freeze und danach ein formelles
+Änderungsmanagement: «Änderungen danach nur über **formelles Änderungsmanagement (Change Request), mit
+Termin und Kostenfolge**» — Zweck: stabile Grundlage für Ausschreibung, Ausführung, Koordination. Der
+Freeze-Entscheid bleibt beim Bauherrn. Vorabklärungs-Ergebnisse reicht er knapp und wertend an den
+Auftraggeber weiter: «Albin, wir können es im Anzeigeverfahren eingeben. Das ist eine gute Nachricht.»
+Interne Freigaben respektieren den Dienstweg des Kunden: «prozessual nach Dienstweg die Planfreigabe zu tätigen».

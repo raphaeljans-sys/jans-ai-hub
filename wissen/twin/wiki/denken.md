@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-06
+last_updated: 2026-07-12
 gewichtung: authentisch
-sources: [260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md]
+sources: [260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -237,3 +237,20 @@ vor der Rechnung (Batch 23).
 
 ## Lücken → [[QUESTIONS]]
 Argumentation in Nicht-Baurecht-Themen (über Gesellschaftsrecht hinaus).
+
+## Root-Cause-Reframing: nicht das Symptom, die Ursache benennen (belegt Mailbatch 32, authentisch)
+Bei einer stockenden Projektlage benennt Raphael nicht das sichtbare Symptom, sondern die eigentliche
+Ursache und stellt sie voran: «Aus meiner Sicht ist grundsätzlich **nicht der Bauprozess das
+Hauptproblem, sondern das Fehlen eines definitiven Planungsstandes im Vorprojekt**» (Terminplan-Mail
+an Bauherr-Partner, 2026-03-02). Danach **definiert er den Lösungsbegriff präzise**, statt ihn
+vorauszusetzen: «Planfreeze bedeutet Planungsstopp mit definierter Version» + Bullets (Planstand
+verbindlich / Änderungen nur über formelles Änderungsmanagement mit Termin und Kostenfolge / Zweck:
+stabile Grundlage für Ausschreibung/Ausführung). Der Entscheid bleibt beim Auftraggeber: «Der
+Planfreeze schlussendlich könnt nur Ihr festlegen.» Muster: **Ursache diagnostizieren → Begriff/
+Mechanik definieren → Entscheid zurückgeben.**
+
+## Zwischenmenschliches diplomatisch benennen: «keine Wertung, sondern eine Feststellung» (belegt Mailbatch 32, authentisch)
+Ein Vertrauens-/Rollenproblem spricht Raphael offen an, entschärft es aber sofort als sachliche
+Beobachtung: «Letztes Jahr habe ich gespürt, dass hier kein gegenseitiges Vertrauen besteht, wer
+welche Grundlagen erarbeitet. **Das ist keine persönliche Wertung, sondern eine Feststellung.**»
+Er trennt Beobachtung von Vorwurf, um handlungsfähig zu bleiben, ohne die Beziehung zu belasten.
