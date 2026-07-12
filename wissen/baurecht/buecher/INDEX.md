@@ -1,7 +1,7 @@
 ---
 name: buecher-index
 beschreibung: Inhaltsverzeichnis aller Buch-Destillate + Abdeckungsstand je Kapitel.
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 ---
 
 # Buch-Destillate — Index & Abdeckung
@@ -440,7 +440,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | Kap | Titel | Abdeckung |
 |-----|-------|-----------|
 | 14 | Nutzungsdichte/Ausnuetzung | ✅ VOLLSTAENDIG (S.919-992, Shots 462-500 lueckenlos; Ausnuetzung/Anrechnung/BMZ+integr.Garagen/Uebertragung/Nutzungsart+nicht stoerende Betriebe/Pflegewohnung/Nutzweisen-Uebertragung §17 ABV/Wohnanteil/Harmonisierungsvorlage-Formeln nPBG/Verzicht §251 lit.b; Mischrechnungsverbot geklaert) |
-| 11 | Allgemeine Bestimmungen Baupolizeirecht | 🟡 teilweise (§§218-232 PBG + Hammerschlagsrecht §§229/230, S.686-704) |
+| 11 | Allgemeine Bestimmungen Baupolizeirecht | 🟢 vollstaendig + **volltextverifiziert Run 31** (§§218-232 PBG + Hammerschlagsrecht §§229/230, S.686-704; Destillat `established`, 6 §-Korrekturen § 219/220/225/230/232/270) |
 | 13 | Weitere Grundanforderungen | 🟢 vollstaendig (Teil 1 §238 Aesthetik-Generalklausel + Solar Art.18a RPG S.810-857; Teil 2 §238-Forts. Umgebung/Baumschutz + §239 Regeln der Baukunde/Baumaterialien + §§240/241 Verkehrssicherheit/Sichtbereiche §16 StrAV + Strassenreklamen Art.6 SVG S.858-891; Teil 3 **Fahrzeugabstellplaetze §§242-247 PBG** Normbedarf/Massnahmenplan Lufthygiene/Wegleitung 1997/autoarme Nutzungen/Fahrtenmodell/Ersatzabgabe/Parkplatzfonds §247/Veloabstellplaetze + **Spiel-/Ruheflaechen §248** S.892-916) |
 | 15 | Lage von Gebaeuden | 🟢 weitgehend (System/Gebaeudearten/Wald/Gewaesser/Baulinien + Grenz-/Gebaeudeabstand §§269-273 + Grenzbaurecht §274/§27 Abs.2 ABV, S.995-1123; **nur 15.13 Harmonisierungsvorlage S.1124-1133 offen**) |
 | 16 | Gebaeudedimensionen | 🟢 weitgehend (Geschosse + Kniestock S.1135-1153 + Gebaeude-/Firsthoehe §§278-281/§292 «Kaeseglocke»/§5 ABV S.1154-1193 + Hochhaeuser §282/284 «>25 m»/Schattenwurf §30 ABV + Gebaeudelaenge-breite §28 ABV + **Dachaufbauten Drittelsregel §292** + Freilegung UG §293 S.1194-1229; nur 16.9-Schluss/16.10 Harmonisierung teilw. offen) |
@@ -460,7 +460,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 2 | Raumplanung, Richt- und Nutzungsplanung | 🟢 weitgehend (Teil 1 Raum-/Richtplanung S.112-143 + Teil 2 Zonenarten/numerus clausus §48 Abs.2 S.144-169 + Teil 3 Sondernutzung/Gestaltungsplan §§83-89/§48 Abs.3/§49b + Verfahren Nutzungsplanung S.170-204; nur BZO-Grundlagen/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set) |
 | 3 | Erschliessung, Landsicherung, Landumlegung | 🟢 vollstaendig (Teil 1: Begriff/Arten Erschliessung, 15-J-Erschliessungspflicht Art.19 RPG, Erschliessungsplan §§90-95/§93, Baulinien §§96 ff./Niveaulinien §106, Werkplan §§114-119, vorsorgl. Bauverbot §§120-122, StrG-Mehrwertbeitraege §62, S.208-239 + Teil 2: Quartierplan §§123 ff./amtlich §158 vs. privat §160a/Verfahren §§147-159/Umlegung §§137-145/Vollzug §§161-176/Heimschlag §165/Grenzbereinigung §§178-183/Gueterzusammenlegung §§76-94 LG, S.240-265) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 🟢 vollstaendig (formelle/materielle Widrigkeit, Wiederherstellung §341 PBG, 30-J-Verwirkung, vorsorgl. Massnahmen §339 Abs.2/§6 VRG, Vollstreckung §30 VRG, Strafe §340 PBG Busse bis 50'000, S.609-636 = letzte Sektion Band 1) |
-| 4 | Natur- und Heimatschutz | 🟢 vollstaendig (Rechtsgrundlagen Art.78 BV/NHG/§§203-217 PBG+KNHV, Schutzobjekt-Katalog §203 Abs.1 lit.a-g, Inventare BLN/ISOS/IVS, vorsorgl./definitive Massnahmen §§205/209/210, Selbstbindung §204, Interessenabwaegung+Verhaeltnismaessigkeit, Verfahren Provokation §213/Rechtsschutz §211 Abs.4, S.268-309 = letzte Sektion Band 1) |
+| 4 | Natur- und Heimatschutz | 🟢 vollstaendig + **volltextverifiziert Run 31** (Rechtsgrundlagen Art.78 BV/NHG/§§203-217 PBG+KNHV, Schutzobjekt-Katalog §203 Abs.1 lit.a-g, Inventare BLN/ISOS/IVS, vorsorgl./definitive Massnahmen §§205/209/210, Selbstbindung §204, Interessenabwaegung+Verhaeltnismaessigkeit, Verfahren Provokation **§213 Abs.3**/Rechtsschutz §211 Abs.4, S.268-309 = letzte Sektion Band 1; Destillat `established`, § 213 Abs.3 + § 209 Abs.2/3 korrigiert) |
 | 5 | Planung und Entschaedigung | 🟢 vollstaendig (formelle/materielle Enteignung, Enteignungsverfahren, Mehrwertabschoepfung, S.311-334) |
 
 Legende: 🟢 weitgehend · 🟡 teilweise · ⬜ offen.

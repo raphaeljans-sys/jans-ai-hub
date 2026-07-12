@@ -91,6 +91,22 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 31 (2026-07-12, Modell-D-Volltextabgleich, 5 Komplexe parallel via Workflow-Tool):** **§§ 218-232
+    (Baupolizeirecht), §§ 269-274+292 (Abstaende), § 120/122/150/264/346 (Landsicherung), §§ 203-213 (Natur-/
+    Heimatschutz), § 30 VRG** je durch einen Refutations-Agenten geprueft. **GROSSER BEFUND — Fassungsstand-
+    Umkehr:** der amtliche PBG-Volltext (LS 700.1, Stand 1.7.2026) fuehrt die **harmonisierte IVHB-Fassung als
+    geltenden Hauptteil** (§ 273 «Kleinbauten und Anbauten», § 292 Dachaufbauten **½**), das alte Recht (bes.
+    Gebaeude 4/5 m, 1/3) nur noch im **Anhang Stand 28.2.2017** (Weitergeltung bis BZO-Harmonisierung der
+    Gemeinde); [[abstaende-und-hoehen]] Fassungsstand-Box umgekehrt + § 273/§ 292 Doppelwerte (bleibt
+    `established`, Zahlenwerk bestaetigt). **13 Korrekturen gesamt:** § 219 nur Verschaerfung/zwingend, § 220
+    allg. Dispens, § 225 (Bau, statt § 224 Abs. 2), § 230 Abs. 2 (30-T-Frist), § 232 Abs. 2/3, § 226 Abs. 2,
+    § 270 Abs. 3 PBG (statt «§ 270 ZGB»); § 213 Abs. 3 (statt Abs. 1), § 209 Abs. 2/3; § 122 Abs. 1 «seit
+    Rechtskraft»; Grundpfand **Art. 836 ZGB** (statt § 15 VRG). **NEU `raw/260712_amtlich_zh_vrg.md`** (§§
+    8/9/10c/15/30 VRG). Status-Hebungen `emerging`→**`established`**: [[11-allgemeine-bestimmungen-baupolizeirecht]],
+    [[04-natur-und-heimatschutz]], [[naturschutz-und-denkmalschutz]], [[baulinien-und-abstandslinien]]. 7 Drills
+    (1×A/6×C-D). **Naechste Phase-3-Ziele:** §§ 278-293 nPBG (harmonisierte Hoehen/Dach/Attika am Hauptteil),
+    §§ 8/9/15 VRG (Rechtsschutz-Verfahren), GSchV Art. 41a/41b (Gewaesserraum-Widerspruch 15-lage↔abstaende).
+    Report `outputs/2026-07-12_buch-run31.md`.
   - **Run 30 (2026-07-12, Modell-D-Volltextabgleich, 3 Komplexe parallel via Workflow-Tool):** **§§ 233-237
     (Baureife), §§ 326-329 (Baufreigabe/Kontrolle/Unterbruch), §§ 340/340a/341 (Strafe/Wiederherstellung)**
     gegen `raw/260607_amtlich_zh_pbg.md` je durch einen Refutations-Agenten geprueft. **7 Korrekturen/
