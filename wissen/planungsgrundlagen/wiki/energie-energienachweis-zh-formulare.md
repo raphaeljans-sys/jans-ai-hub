@@ -1,8 +1,8 @@
 ---
 title: Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 status: established
-last_updated: 2026-06-18
-sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebaeude.ch (MuKEn 2025, abgerufen 18.06.2026), EnerG/BBV I/WDV ZH]
+last_updated: 2026-07-13
+sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebaeude.ch (MuKEn 2025, abgerufen 18.06.2026 + Refresh 13.07.2026), hev-zh.ch/energie-zentralschweiz.ch (Refresh 13.07.2026), EnerG/BBV I/WDV ZH]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[energie-private-kontrolle-zh]]
 ---
 
@@ -168,8 +168,17 @@ bei Neubau **kein** EN-110 (EN-ZH →5).
   Dachsanierung ab 50 m² → 10 W/m² EBF Eigenstrom. **ACHTUNG:** dies ist die **Mustervorschrift** —
   sie gilt erst nach Ueberfuehrung ins **kant. ZH-Energiegesetz** (Stand 04.07.2026 **weiter
   ausstehend**). Bis dahin gilt EnerG/MuKEn 2014 ueber EVEN (Eigenstrom weiterhin **10 W/m² EBF**,
-  siehe EN-104 oben). ZH-Fassung verfolgen (zh.ch «Umsetzung MuKEn 2025»).
-- ✓ **D5 teil-erledigt** (2026-06-18): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
-  `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/E + Flachdach belegt; Typ B/C/D offen).
+  siehe EN-104 oben). ZH-Fassung verfolgen (zh.ch «Umsetzung MuKEn 2025»). **Refresh 2026-07-13
+  (Run 20):** Web-Check bestaetigt Stand unveraendert — EnDK-Umsetzungshorizont weiterhin **bis
+  2030** (kantonale Uebernahme ins Energiegesetz je Kanton individuell), ZH-Ueberfuehrung
+  weiterhin **nicht** publiziert (energiehub-gebaeude.ch, hev-zh.ch, energie-zentralschweiz.ch
+  gegengeprueft). Naechster Check nur bei konkretem Hinweis auf zh.ch, nicht routinemaessig
+  jede Woche wiederholen.
+- ✓ **D5 teil-erledigt** (2026-06-18/2026-07-10): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
+  `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/B/C/D/E + Flachdach belegt). **Offen bleibt:**
+  installierter System-CHF/kWp aus einer **realen JANS-Schlussabrechnung** — Archivsuche
+  2026-07-13 (Run 20) im gesamten Projektordner (`AR - 02/03`, `PL - 04 Energie`) fand nur
+  Referenz-/Planungsunterlagen (Workshop-PDFs, Kennwert-Tools), **keine abgerechnete PV-Anlage**;
+  bisherige CHF-Werte bleiben Modul-Listenpreis/SolarApp-Schaetzung, keine Schlussabrechnung.
 - Offen: konkrete **EVEN-Bedienung** (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde) am
   realen KISPI-Fall dokumentieren, sobald der Nachweis dort gefuehrt ist (→ QUESTIONS D6 neu).

@@ -10,7 +10,11 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   **Merkmalskatalog GWR v4.2 S. 63f.** belegt und im Connector als Decode eingebaut + getestet.
   Merkregel **Baujahr schlaegt Bauperiode** (KISPI: Periode 8023 «2016-2020» vs. Baujahr 2024).
   Benchmarks KISPI EGID 302064023 (Volumen-Norm 969=unbekannt!) + Giebelweg 12 EGID 57977 →
-  NEU [[kartenportale-gwr-bund]]. **Offen:** Wohnungs-/EWID-Ebene (`--wohnungen`), Katalog-v5.0-Abgleich.
+  NEU [[kartenportale-gwr-bund]]. **✓ Wohnungs-/EWID-Ebene geloest 2026-07-13 (Run 20):** im selben
+  identify-Call bereits enthalten (parallele Arrays `ewid`/`warea`/`wazim`/`wstat`/`wstwk`/…),
+  Connector deckt sie neu als `wohnungen[]` auf; Benchmark Albertstrasse 7 Zuerich EGID 150071
+  (26 Wohnungen) → [[kartenportale-gwr-bund]] §6. **Offen:** Katalog-v5.0-Abgleich (gwr.admin.ch/catalog
+  ist clientseitig gerendert, per WebFetch nicht auslesbar — Restaufgabe bleibt).
 - [x] **A1** Nicht-ZH-Kantone: OEREB-Service-Endpunkte kartieren (zuerst SZ). ✓ SZ via
   `geo-sz.mjs` / Skill `oereb-schwyz` geloest; `geo-zh.mjs` `OEREB_SERVICE.sz` hinterlegt.
 - [x] **A2** Zonenplan-/BZO-Ausschnitt automatisiert beziehen. ✓ **GELOEST 2026-06-16**: nicht
@@ -53,11 +57,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   direkt (`geodienste.ch/downloads/interlis/av/ZH/av_ZH_lv95.zip`); DXF-GEOBAU dort nur via
   Rails-Formular (max 5 Grundstuecke, CSRF) — nicht automatisierungstauglich.
   → [[kartenportale-geoportale-uebersicht]]
-- [~] **A5** Eigentumsabfrage ObjektwesenZH per EGRID: Ablauf + ob automatisierbar. **Stand
-  2026-06-24 (Run 9):** ObjektwesenZH = Grundbuch-Auskunftssystem ZH; Eigentuemer-Auskunft nur mit
-  **Interessennachweis** (Art. 970 ZGB), kein anonymer Massen-/API-Zugriff → **nicht login-frei
-  automatisierbar**, bleibt manueller Behoerden-/Grundbuchweg. `speculative` bis offizieller
-  Auskunfts-Endpunkt belegt → [[kartenportale-geoportale-uebersicht]] (Offen A5).
+- [x] **A5** Eigentumsabfrage ObjektwesenZH per EGRID: Ablauf + ob automatisierbar. **Stand
+  2026-06-24 (Run 9):** vorlaeufig als Interessennachweis-pflichtig eingestuft. **✓ Korrektur
+  2026-07-13 (Run 20):** die **elektronische Eigentumsabfrage** (maps.zh.ch, Karte
+  «Eigentumsauskunft») ist **login-frei mit SMS-Code-Verifikation** — **kein Interessennachweis**
+  noetig, 5 Abfragen/Tag/Mobilnummer, liefert Name/Adresse/Eigentumsform (sofern kein
+  Sperrvermerk). Wegen SMS-2FA weiterhin **kein API-Automatisierungsweg**, aber deutlich
+  schnellerer manueller Weg als bisher dokumentiert. Quellen: notariate-zh.ch, tagesanzeiger.ch
+  → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
 - [x] **B1** Aktualitaet der Bundeserlasse in PL-02 gegen fedlex pruefen (Datenstand setzen).
@@ -209,7 +216,9 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Bauzulassung (DIBt Z-70.3-204); real ref Fassade AUE Basel (jessenvollenweider 2021) →
   [[energie-pv-eignung-typenwahl]] §1b/§3. **Offen:** installierter System-CHF/kWp Typ B/C/D aus
   realer JANS-Schlussabrechnung (bisherige CHF sind Modul-Liste/Band); SolarApp = Vorprojekt-
-  Schaetzung, an Schlussabrechnung verifizieren.
+  Schaetzung, an Schlussabrechnung verifizieren. **Archivsuche 2026-07-13 (Run 20):** kein
+  abgerechnetes PV-Projekt im JANS-Bestand gefunden (nur Referenz-/Planungsunterlagen) — bleibt
+  offen bis ein reales Projekt mit PV-Schlussabrechnung anfaellt.
 - [x] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload).
   ✓ **2026-07-04 (Run 14):** aus EnDK-Schulung V1.4 (13.10.2025, Kantone mit Privater Kontrolle)
   belegt — **Rollen** (Projektkoordination legt an/reicht ein/beauftragt PK · Nachweisverfassung
@@ -219,7 +228,10 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Pruefung→abschliessen, **Aktionen** Nachtrag(Teilnachweis)/Beanstandung(Projekt)/Ausfuehrungs-/
   Vollzugskontrolle, **Statusmodell** + **Freigabe-Kaskade** (Bewilligungs-/Baufreigabe-/Bezugsbereit),
   kein Undo/kein Offline/alles protokolliert, GWR-Anbindung → NEU [[energie-even-plattform-bedienung]].
-  Teilnehmer: alle Kantone ausser BE + FL. **Offen:** realer JANS-Screenshot-Walkthrough am KISPI-Fall.
+  Teilnehmer: alle Kantone ausser BE + FL. **✓ Praxisfall-Teil erledigt 2026-07-13 (Run 20):**
+  realer KISPI-Fallverlauf eingearbeitet (Nachweisverfassung-vs-PK-Verwechslung, Kl-Befugnis-
+  Blocker, Einladungsmechanik) → [[energie-even-plattform-bedienung]] §9. **Offen:** Fall selbst
+  ist noch nicht abgeschlossen (Stand 13.07.2026, wartet auf Gruner-Rueckmeldung).
 - [x] **D7** Private Kontrolle Energie ZH: wer unterzeichnet den Energienachweis, welche Befugnis
   deckt welches EN-Formular? ✓ **2026-06-26 (Run 10):** Merkblatt Baudirektion ZH/AWEL «Liste der
   Befugten» (Stand April 2025) + BBV I § 4-7 (LS 700.21) — drei Unterschriften (Bauherr Hauptformular

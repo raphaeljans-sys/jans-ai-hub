@@ -148,6 +148,7 @@ Bewertungsstudien, ohne Bauplan-Digitalisierung.
 
 ## Offene Punkte
 - GKLAS/GKAT/GSTAT-Codelisten im Connector aus Katalog v4.2; bei Umstieg auf **Katalog v5.0**
-  (gwr.admin.ch, aktuell) Codes gegenpruefen (bisher stabil, aber nicht verifiziert).
-- Wohnungsdaten (EWID-Ebene: Zimmerzahl, Flaeche je Wohnung) liefert der Connector noch nicht —
-  bei Bedarf `--wohnungen` ergaenzen (Layer fuehrt die Wohnungs-Sub-Entitaet).
+  (gwr.admin.ch, aktuell) Codes gegenpruefen (bisher stabil, aber nicht verifiziert — Vergleich
+  2026-07-13 an JS-Portal gwr.admin.ch/catalog technisch nicht moeglich, Seite clientseitig
+  gerendert; Restaufgabe bleibt offen).
+- ~~Wohnungsdaten (EWID-Ebene)~~ **✓ geloest 2026-07-13 (Run 20)**, siehe §6.

@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 20 (Kartenportale + Energie, Token-Vollgas 2 Domaenen): GWR-Wohnungs-/EWID-Ebene erschlossen + ObjektwesenZH-Korrektur + realer KISPI-EVEN-Praxisfall
+- **Kartenportale (Connector-Schritt, K9-Rest):** `gwr-bund.mjs` deckt neu die **Wohnungs-/EWID-
+  Ebene** auf — die parallelen Roh-Arrays (`ewid/warea/wazim/wbauj/wkche/wmehrg/wstat/wstwk/wbez/
+  whgnr`) waren im identify-Treffer immer schon enthalten, wurden aber nicht dekodiert. Neue
+  Funktion `wohnungen(at)` + Codetabellen WSTAT (3001-3008) und WSTWK (3100 Parterre/3101-3199
+  Stock/3401-3419 UG) aus dem offiziellen Merkmalskatalog GWR v4.2 (housing-stat.ch, S. 91-94)
+  belegt. Live getestet: KISPI (0 Wohnungen), Giebelweg 12 (1 Wohnung/Maisonette), Albertstrasse 7
+  Zuerich EGID 150071 (26 Wohnungen, Array-Konsistenz mit `ganzwhg` verifiziert) →
+  [[kartenportale-gwr-bund]] §6.
+- **Kartenportale (Connector-Fix, Rest aus Run 19):** `geo-zh.mjs` zeigt bei laufenden Baulinien-
+  Revisionen (proj-Layer) jetzt auch den naechsten `dist_m` im CLI-Log, nicht nur die Trefferzahl.
+  Live-Regression Kloten/Langnau/Seuzach bestanden.
+- **Kartenportale (K6/A5-Korrektur):** der bisherige Stand «Eigentumsabfrage ObjektwesenZH braucht
+  Interessennachweis Art. 970 ZGB» war zu streng — die elektronische Eigentumsabfrage ueber
+  maps.zh.ch ist **login-frei mit SMS-Code**, **ohne** Interessennachweis, 5 Abfragen/Tag/
+  Mobilnummer (Quellen: notariate-zh.ch, tagesanzeiger.ch) → [[kartenportale-geoportale-uebersicht]].
+- **Energie (D6-Praxisbenchmark):** realer Fallverlauf 2619-KISPI in die EVEN-Bedienungsanleitung
+  eingewoben (§9) — konkrete Reibungspunkte, die die generische EnDK-Schulung nicht abdeckt:
+  Nachweisverfassung-vs-Private-Kontrolle-Verwechslung, Kl-Befugnis-Luecke beim beauftragten
+  HLK-Buero (Gruner AG nur Wä+Lä), Einladungsmechanik nur ueber die bei energie@bd.zh.ch
+  hinterlegte Mail. Fall Stand 13.07.2026 nicht abgeschlossen (ehrlich ausgewiesen) →
+  [[energie-even-plattform-bedienung]].
+- **Energie (Refresh, kein neuer Stand):** MuKEn-2025-ZH-Ueberfuehrung weiterhin ausstehend
+  (Web-Refresh bestaetigt unveraendert); D5-Rest (installierter PV-System-CHF/kWp) bleibt offen —
+  Archivsuche im JANS-Projektbestand fand keine abgerechnete PV-Anlage, kein unbelegter Wert
+  eingetragen → [[energie-energienachweis-zh-formulare]].
+- **Register:** curriculum (K9/K6 [x], E10/E5 Refresh-Vermerke), QUESTIONS (A-Sektion K9/A5,
+  D-Sektion D6/D5), INDEX (2 Zeilen praezisiert), raw/_INGESTED (6 neue Zeilen).
+
 ## 2026-07-13 — Training Run 19 (Kartenportale + Brandschutz, Token-Vollgas 2 Domaenen): proj-Baulinien-Revisionserkennung im Connector + Brandschutzabstaende/Tragwerk-Tabellen/Treppen mit realen JANS-Benchmarks
 - **Kartenportale (Connector-Schritt):** `geo-zh.mjs --produkt baulinien` fragt jetzt zusaetzlich
   die **5 proj-Layer** der Abstandslinien ab (0150/0152/0153/0158/0185) und meldet

@@ -1,8 +1,8 @@
 ---
 title: EVEN — Bedienung, Rollen & Workflow (energievollzug.ch)
 status: established
-last_updated: 2026-07-04
-sources: [EnDK-Schulung «EVEN — elektronischer Vollzug energetischer Nachweise / Schulung der Bewilligungsbehoerden in Kantonen mit Privater Kontrolle» Version 1.4 Stand 13.10.2025 (energieagentur-sg.ch, 68 Folien), zh.ch/energienachweise (abgerufen 04.07.2026), energie-zentralschweiz.ch/vollzug/even (abgerufen 04.07.2026), energievollzug.ch]
+last_updated: 2026-07-13
+sources: [EnDK-Schulung «EVEN — elektronischer Vollzug energetischer Nachweise / Schulung der Bewilligungsbehoerden in Kantonen mit Privater Kontrolle» Version 1.4 Stand 13.10.2025 (energieagentur-sg.ch, 68 Folien), zh.ch/energienachweise (abgerufen 04.07.2026), energie-zentralschweiz.ch/vollzug/even (abgerufen 04.07.2026), energievollzug.ch, realer Fallverlauf 2619-KISPI (Projektablage + Buero-Memory, Stand 13.07.2026/Run 20)]
 links: [[energie-energienachweis-zh-formulare]], [[energie-uebersicht]], [[energie-private-kontrolle-zh]], [[kartenportale-gwr-bund]], [[recht-norm-quellenlandkarte]]
 ---
 
@@ -181,10 +181,48 @@ Diese drei Freigaben spiegeln die zwei Nachweis-Zeitpunkte im ZH-Verfahren
 - **Kein Undo, alles geloggt:** sauber arbeiten, da jede Aktion protokolliert und sofort gespeichert
   wird; Nachbesserung laeuft ueber **Nachtrag** (Teilnachweis) bzw. **Beanstandung** (Projekt).
 
+## 9 — Realer Fall: 2619-KISPI (D6-Praxisbenchmark, Stand 2026-07-13/Run 20)
+
+Erster realer JANS-Anwendungsfall der Privaten-Kontrolle-Rolle (§3 C), Projekt Lenggstrasse 30
+Zuerich, Umbau/Umnutzung 1. OG (Auflage BE 1171/26 Ziff. II.8, drei Teilnachweise EN-ZH/EN-105/
+EN-110-ZH). Zeigt Reibungspunkte, die die generische EnDK-Schulung (§§1-8) **nicht** abdeckt:
+
+- **Nachweisverfassung ≠ Private Kontrolle — echte Verwechslungsgefahr.** Der Lueftungsplaner
+  (Gruner AG, Cekdar Duran) hat die Teilnachweise EN-105/EN-110 **als Fachplaner in EVEN
+  ausgefuellt und von JANS freigeben lassen** (Rolle Nachweisverfassung/Projektkoordination-
+  Freigabe) — das ist **nicht** die in §3-C beschriebene Bestaetigung durch eine **Kl-befugte**
+  Person (Befugnis-Matrix Wä/He/**Kl**/Bl/Lä, siehe `[[energie-private-kontrolle-zh]]`). Ohne
+  diese zweite, unabhaengige PK-Bestaetigung haengt die Einreichung.
+- **Befugnis vor Buero pruefen, nicht annehmen.** Das planende HLK-Buero hat nicht automatisch
+  die noetige Befugnis: Gruner AG war in der offiziellen ZH-Liste «Private Kontrolle» (Stand
+  28.04.2026) nur mit **Wä** (Waerme) und **Lä** (Laerm) gefuehrt — **keine Kl-Befugnis** fuer
+  Lueftung/Kaelte (EN-105/EN-110/EN-101/EN-104/EN-132). Konsequenz: **vor** Beauftragung die
+  aktuelle Befugnis-Liste (`energie@bd.zh.ch`, PDF «Private Kontrolle») nach der **Kl-Spalte**
+  pruefen — nicht nach dem planenden Buero fragen, ob es "das macht".
+  Alternativ-Kl-befugte Bueros Raum ZH (Stand 19.06.2026): 3-Plan, Pfiffner, EBP, eicher+pauli,
+  Helbling.
+- **Einladung nur ueber die bei der Fachstelle hinterlegte Mail-Adresse.** Die oeffentliche
+  Befugnis-Liste enthaelt **keine persoenlichen Kontaktdaten** (nur `energie@bd.zh.ch`
+  Sekretariat) — die EVEN-Einladung an eine Kl-befugte Person braucht deren **beim Sekretariat
+  hinterlegte** E-Mail, die man direkt vom Buero/der Person erfragen muss. Kein oeffentliches
+  Verzeichnis mit Mailadressen.
+- **Status 13.07.2026:** Fall **nicht abgeschlossen** — JANS wartete seit 19.06.2026 auf
+  Rueckmeldung von Gruner (Name + EVEN-Mail einer Kl-befugten Person, sonst externe Vergabe).
+  Kein Update auf der Projektablage seit 15.06.2026 gefunden → naechster Schritt bleibt
+  Nachfassen/externe Vergabe pruefen (Kandidaten oben). EVEN-Kontoregistrierung JANS musste
+  Raphael persoenlich vornehmen (Rule-Grenze: Account-/Login-Erstellung nicht durch Assistenten).
+
+**Lehrsatz fuer kuenftige Faelle:** bei Umbau/Umnutzung mit Lueftungs-/Kaelte-Teilnachweis IMMER
+zuerst die **Kl-Befugnis** des vorgesehenen HLK-Planers gegen die aktuelle ZH-Liste pruefen,
+bevor die Teilnachweis-Erfassung beginnt — sonst Doppelaufwand (Fachplaner-Entwurf steht, aber
+keine gueltige PK-Bestaetigung).
+
 ## Datenstand / offen
-- ✓ Belegt aus **EnDK-Schulung V1.4 (13.10.2025)** + zh.ch/energie-zentralschweiz (04.07.2026).
+- ✓ Belegt aus **EnDK-Schulung V1.4 (13.10.2025)** + zh.ch/energie-zentralschweiz (04.07.2026) +
+  realer KISPI-Fallverlauf (§9, Stand 13.07.2026).
 - ⚠ EVEN entwickelt sich laufend; Masken/Statusbezeichnungen koennen sich aendern — vor
   Schulungen/Neuprojekten die aktuelle Version auf `energievollzug.ch` bzw. die EnDK-Schulungsvideos
   pruefen. Screenshots der Schulung basieren auf AG-Testdaten (RC6).
-- Offen: **realer JANS-Screenshot-Walkthrough** am KISPI-Nachweis (sobald dort in EVEN gefuehrt) als
-  Buero-eigene Kurzanleitung; kantonale ZH-Eigenheiten der Formularsaetze im Detail (Nachweis-Sets).
+- Offen: **KISPI-Fall abschliessen** (Kl-befugte PK-Person finden, EVEN-Projekt tatsaechlich
+  einreichen) — sobald erledigt, hier den Freigabe-/Abschluss-Screenshot nachziehen; kantonale
+  ZH-Eigenheiten der Formularsaetze im Detail (Nachweis-Sets).
