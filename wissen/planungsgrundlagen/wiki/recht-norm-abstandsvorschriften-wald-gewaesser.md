@@ -23,6 +23,12 @@ Dieser Artikel hält die belegte Planungsgrundlage — **welches Mass gilt, wie 
 wo man die Linie als Geodatum holt** — für Kt. ZH und Kt. SZ. Rechtliche Würdigung eines
 konkreten Falls → Skill `baurecht`; das Geodatum → [[kartenportale-baulinien-abstandslinien-zh]].
 
+> **Querbezug KB baurecht (führende Rechtsquelle):** Die materielle Bemessung und §-Zuordnung
+> führt der Fachartikel `wissen/baurecht/wiki/abstaende-und-hoehen` (Wald-/Gewässerabstand als
+> Baufeld-Restriktion, § 262/§ 66 PBG, GSchV Art. 41a/41b); die Rechtswirkung der Linien
+> (§§ 96/99-101 PBG) `wissen/baurecht/wiki/baulinien-und-abstandslinien`. Dieser Artikel bleibt
+> der **Geodatum-/Beschaffungs-Wegweiser**; bei Abweichung gilt der baurecht-Fachartikel.
+
 ---
 
 ## 1. Waldabstand — Kanton Zürich

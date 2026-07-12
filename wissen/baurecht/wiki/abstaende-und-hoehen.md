@@ -124,11 +124,17 @@ Waldabstandslinie befreit; Unterschreitung via Ausnahmebewilligung § 220 PBG.
 
 ## Gewässerraum / Gewässerabstand
 **Bundesrecht** (Art. 36a GSchG, Art. 41a/41b GSchV), kantonal die HWSchV — überlagert die
-BZO. Fliessgewässer: Gerinnesohle < 1 m → mind. **11 m**; Sohle 1-15 m → **2,5 × Sohle + 7 m**.
-Stehende Gewässer: mind. **15 m** ab Uferlinie. In ZH ist der Gewässerraum
+BZO. Massgebend ist die **natürliche Gerinnesohlenbreite (GSB)**; zwei Regime sind zu
+unterscheiden (Art. 41a GSchV). **Fliessgewässer, Normalgebiete (Art. 41a Abs. 2):**
+natürliche GSB < 2 m → mind. **11 m**; GSB 2-15 m → **2,5 × GSB + 7 m**; > 15 m → kantonale
+Vorgabe. **In nationalen/kantonalen Schutzgebieten (Art. 41a Abs. 1):** GSB < 1 m → 11 m;
+1-5 m → 6 × GSB + 5 m; > 5 m → GSB + 30 m. Stehende Gewässer (Art. 41b): Wasserfläche
+**> 0,5 ha** → mind. **15 m** ab Uferlinie. In ZH ist der Gewässerraum
 grundeigentümerverbindlich (§ 15d HWSchV); selbst bei **eingedolten** Fliessgewässern sind
-11 m frei zu halten. Beleg: Buch Bd 2 S. 1008-1013. Bei Machbarkeit/Ankauf die
-GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnung prüfen.
+11 m frei zu halten. Beleg: Buch Bd 2 S. 1008-1013 + SR 814.201 GSchV Art. 41a/41b. Bei
+Machbarkeit/Ankauf die GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnung prüfen; das
+**Geodatum** (Linien login-frei als Vektor, senkrechter Abstand) liefert der Beschaffungs-Artikel
+`wissen/planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh`.
 
 **Zusätzlich, nicht ersetzend:** Im Gewässerraum dürfen nur **standortgebundene, im
 öffentlichen Interesse** liegende Anlagen erstellt werden (Art. 41c Abs. 1 GSchV). Eine

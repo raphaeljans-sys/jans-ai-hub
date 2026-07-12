@@ -36,8 +36,13 @@ schalltechnischen) Vorschriften erfuellt. Das EN-ZH-Deckblatt (heute EVEN) ist d
 | Laermschutz | S / LN-1 | Aussenlaerm; **LN-1 fuer Luft/Wasser-Waermepumpen** |
 
 ## Lueftung & Kuehlung — EN-105 / EN-110-ZH (Kerngrenzwerte)
-Beide Module vervollstaendigen die Formularmatrix (Details `[[en-lueftung-kuehlung-zh]]`):
-- **EN-105 Lueftung:** Waermerueckgewinnung **≥ 70 %** (≥ 75 % mit Bypass); Luftgeschwindigkeit
+Beide Module vervollstaendigen die Formularmatrix (Details `[[en-lueftung-kuehlung-zh]]`).
+> **Querbezug KB planungsgrundlagen (Verfahren/Beschaffung):** Die Formular-/EVEN-Bedienung,
+> die vollstaendige EN-105/EN-110-ZH-Kennwertmatrix und die «Private Kontrolle ZH» fuehren
+> `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`,
+> `energie-even-plattform-bedienung` und `energie-private-kontrolle-zh` (Wegweiser fuer den
+> Agent `energie-berater`). Diese energie-KB bleibt fuehrend fuer Fachphysik/Grenzwerte.
+- **EN-105 Lueftung:** Waermerueckgewinnung Temperatur-Aenderungsgrad **≥ 70 %** *oder* feuchtebezogen **≥ 75 %**; Luftgeschwindigkeit
   Ansaug/Ausblas **≤ 2 m/s**, in Kanaelen volumenstromabhaengig 3–7 m/s; Kanaldaemmung nach
   Temperaturdifferenz (5–10 K ≥ 3 cm / 10–15 K ≥ 6 cm / > 15 K ≥ 10 cm).
 - **EN-110-ZH Kuehlung/Befeuchtung (Bestand):** eine von drei Anforderungen — spez. Leistung
