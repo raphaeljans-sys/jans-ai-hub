@@ -57,6 +57,15 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    und Liberierung 50 %→100 % kippten nach der Bestaetigung; das ganze Belegset wurde als
    Version 260627 neu erstellt). Annahmen, die erfahrungsgemaess wandern (Name, Kapital,
    Termin), im Interview als «noch beweglich» markieren.
+   Ein Kippen muss nicht «spaet ueber Tage» sein — es kann **gleich in derselben Session**
+   passieren, sobald der Scope besser verstanden ist (Lektion Submission 2414 Thalwil 11.07.:
+   **Rev. B am selben Tag** — Schluesselentscheid #5 «JANS liefert nur die Devisierungsgrundlagen,
+   die externe Bauleitung macht die Submission» *ersetzte Teile von #2+#4*). Die Mechanik ist
+   identisch: den Schluesselentscheide-Abschnitt selbst korrigieren (hier mit Vermerk «Nr. 5 ersetzt
+   Teile von 2+4»), nicht nur eine Log-Zeile anhaengen. Bei einem solchen Scope-Schwenk waechst
+   typischerweise die **Abgrenzung (NICHT dazu)** am staerksten — sie ist der eigentliche Traeger
+   des Pivots (Thalwil: fuenf neue «NICHT»-Punkte, weil ein ganzer Leistungsteil an die Bauleitung
+   abgegeben wurde; ausgeloest durch eine Budget-Realitaet, knappes Architektur-Honorar).
    Eine lebende Spec durchlaeuft **zwei Phasen** (belegt AG-Gruendung 21.06.–06.07., 15 Tage):
    **(A) aktive Formung** — Entscheide werden bestaetigt und kippen teils spaet, Belegset wird
    versioniert nachgezogen (21.–29.06.); **(B) Steady-State-Monitoring** — das Vorhaben wartet
@@ -95,3 +104,14 @@ Jede groessere Spec-Anwendung wird als `outputs/JJJJ-MM-TT_<vorhaben>_spec.md` a
 Vorlage fuer die naechste — und speisen den Trainings-Loop (`training/PROGRAMM.md`).
 Das aus den drei ersten Specs destillierte Skelett steht als Kopiervorlage unter
 `wissen/spec/templates/spec-vorlage.md` (F6, 2026-07-06 extrahiert).
+
+## Drei Endzustaende einer Spec
+Eine Spec endet in einem von drei Zustaenden — nicht nur «aktiv» oder «erledigt»:
+- **aktiv** — in Formung (Phase A) oder im low-noise Steady-State-Monitor (Phase B, siehe oben).
+- **erledigt** — Ziel erreicht, autoritative Instanz hat abgenommen; Monitor endet.
+- **parkiert** — Denkstand konserviert, aber bewusst NICHT weitergebaut (belegt 11.07.2026:
+  Shop-Connector + Versandplanung Onlineshop; Scope-0-Interview ergab «parkieren»). Wichtig:
+  parkiert ist **kein** Monitor-Loop und **keine** Pendenz — es gibt kein externes Warten und
+  keine Owner-Aktion; die Spec haelt nur den Stand fuer den spaeteren Wiedereinstieg fest
+  (Status-Banner in SKILL.md/Output). Dass die beweglichen Annahmen im Interview markiert waren,
+  machte den sauberen Rueckbau erst moeglich (kein halb gebautes Geruest).

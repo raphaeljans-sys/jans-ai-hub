@@ -26,6 +26,13 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 - **7-Tage-Fenster (bis 19.07.):** RE-00087 Zahlfrist **15.07.**; Koordinationssitzung Tueren **13.07.
   09:00-10:00** (RJ Organisator, im Kalender bestaetigt). RE-00098/99 faellig 20.07. (knapp ausserhalb).
 - **Briefing an rj@ versendet.** Sync-/Remote-Task-Queues leer.
+- **HUB-CHEF-LAUF 08:39 — ohne Befund, keine zweite Mail.** Alle Signale nach dem Radar gegenverifiziert:
+  bexio `--verzug` unveraendert (nur RE-00087, Mahnung 2, Frist 15.07. — A1 greift nicht, Mahnstufe 2+
+  immer nur Entwurf), `--abgleich` unveraendert (Altliste 19 Pos. + 1 Bankeingang 2021), Mail-Eingang
+  seit 06:00 leer, Kalender bis 19.07. nur die Tueren-Sitzung 13.07. 09:00-10:00 (RJs eigene, im
+  Register), Sync-/Remote-Queues leer. Keine Whitelist-Aktion moeglich, keine neuen Entwuerfe. Die
+  aktive SBB-Vordach-Vereinbarung + reduzierte Ausschreibung (Thalwil 2414) standen bereits im
+  Radar-Briefing 06:57 — kein zweites Briefing (Doppelmeldung vermieden).
 
 ---
 

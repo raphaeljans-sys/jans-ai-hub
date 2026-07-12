@@ -23,6 +23,13 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     autoritative Instanz, low-noise). Staerkster F1-Datenpunkt bisher: die Spec bleibt auch in der
     langen Wartephase nuetzlich (haelt Ziel/kritischen Pfad stabil, unterdrueckt Laerm). Weiterhin
     **kein mittelgrosser Gegentest** in `outputs/` → Ueberdehnungs-Frage bleibt offen, Schwelle unveraendert.
+  - Stand 2026-07-12: **zwei neue reale Specs** (Normen-Harness 11.07., Submission 2414 Thalwil 11.07.).
+    Beide hoch-einsatzig + mehr-Scope, das Gate triggerte je korrekt+nuetzlich → weiterhin **kein**
+    Ueberdehnungs-Beleg (kein genervter Mittelfall). Neu ist der dritte Endzustand **«parkiert»**
+    (Shop-Connector/Versandplanung 11.07., via CHANGELOG): eine korrekt getriggerte Spec, die Scope 0
+    bewusst NICHT weiterbaut — das ist **kein** Gate-Fehltreffer, sondern die Spec, die *vor* dem Bau
+    das Nicht-Bauen entscheidet (Argument, dass das Gate auch bei spaeterem «doch nicht» nuetzt).
+    Mittelgrosser Ueberdehnungs-Gegentest fehlt weiter.
   - Stand 2026-07-09: **19 Tage** lebende Spec (21.06.–09.07.), Phase B haelt an (Eintraege 07./08./
     09.07. alle «NICHTS NEUES»). Kein neues Korrektur-Delta, aber ein Praezisierungs-Datenpunkt fuer
     die Monitor-Kadenz (→ F2): der Steady-State-Monitor hat ~10 Tage eine **selbst-blockierte
@@ -56,6 +63,12 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     muss er in jedem Monitor-Lauf als aktive Nudge/Pendenz erscheinen, nicht unter «nichts Neues» —
     sonst altert er still (belegt: Notariats-Antwort 17 Tage in der «nichts Neues»-Zeile).
     Trennfrage: «Wartet die Instanz — oder warten wir auf uns selbst?» → [[verifier]] «Zwei Blocker-Typen».
+  - Praezisierung 12.07. (Kippen kann same-session sein): ein Schluesselentscheid kippt nicht nur
+    «spaet ueber Tage» (AG-Gruendung), sondern auch **gleich in derselben Session**, sobald der Scope
+    besser verstanden ist (Submission 2414 Thalwil: **Rev. B am selben Tag**, #5 ersetzt Teile von #2+#4).
+    Interview-Konsequenz: bei mehrteiligen Vorhaben von Anfang an damit rechnen, dass ein frueh
+    bestaetigter Entscheid im gleichen Lauf noch faellt; die Korrektur landet im Schluesselentscheide-
+    Abschnitt + traegt sich in die **Abgrenzung** (die beim Scope-Schwenk am staerksten waechst). → [[anwendung-jans]] Schritt 2.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
@@ -66,6 +79,15 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     (Bank↔Buchung, kreuzt zwei unabhaengige Realitaeten), UBS-Feed, amtliche Bescheinigungen;
     Format-Vorlage = Goldstandard GA2024 + Beilageverzeichnis. → **Zuordnungstabelle jetzt in
     [[verifier]]** («Verifier-Zuordnung je Domaene»), waechst je Anwendung.
+  - Dritter + vierter Eintrag (2026-07-12), die die geflaggte «Bau/Studie»-Luecke schliessen:
+    **Baurecht/Norm/Fachwissen** (Normen-Harness 11.07.) — autoritativ = die **Norm-Originalquelle**
+    (SIA/VKF-Ziffer im Original-PDF) + **Gueltigkeitsregister** (`ersetzte_normen.pdf`); externes
+    Signal = `wissenscheck` + Fundstellen-Stichprobe Destillat↔Original. **Ausschreibung/Submission-
+    Uebergabe** (Thalwil 11.07.) — autoritativ = die **abnehmende Bauleitung** («Null Rueckfragen» =
+    Abnahmekriterium); interner Verifier = **Konsistenz-Gate Baustein 13** (Plan↔LV) + `korrektur`/`twin`
+    + Identifikatoren gegen Projektordner. Muster-Erkenntnis: die autoritative Instanz muss keine
+    *Behoerde* sein — auch der **abnehmende menschliche Empfaenger** (externe Bauleitung) ist eine
+    gueltige bindende Instanz, und «Null Rueckfragen» ist ihr messbares Abnahmekriterium. → [[verifier]] Tabelle.
 
 ## Belege / Quellen
 - F4: Originalquellen verlinken/ablegen — Karpathys "LLM Knowledge Bases"-Post und Boris
@@ -103,3 +125,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
   - Stand 2026-07-03: 3 Goldstandard-Specs vorhanden. **Buchhaltungssystem 02.07.** ist der
     sauberste Vertreter des Skeletts oben (v.a. eigener «Ist-Zustand (Scan)»-Abschnitt + kontrollierte
     Guardrail-Oeffnung) → als Formatvorlage fuer System-/Prozess-Vorhaben empfohlen.
+  - Stand 2026-07-12: Template hielt fuer **zwei weitere** Specs (Normen-Harness, Thalwil) → Skelett
+    bei 5 konformen Specs stabil. Praezisierung zum «Ist-Zustand (Scan)»-Abschnitt: er ist fuer
+    **Umbau/Prozess-Reparatur** da (Diagnose der Schwachstelle begruendet das Ziel). Bei einem
+    **greenfield-System** (Normen-Harness baut Neues, repariert nichts Kaputtes) faellt der eigene
+    «Ist-Zustand (Scan)»-Abschnitt weg — sein Aequivalent steckt in der **Faktenbasis** (Inventar-Scan
+    528 Dateien). Kein Template-Verstoss, sondern korrekte Abstufung: scannen ja, «Erosion diagnostizieren»
+    nur bei Reparatur-Vorhaben. Thalwil wiederum nutzt zusaetzlich den optionalen Abschnitt **«Annahmen
+    (markiert, zu bestaetigen)»** — genau das F2-Muster «bewegliche Annahmen markieren» als Template-Feld.

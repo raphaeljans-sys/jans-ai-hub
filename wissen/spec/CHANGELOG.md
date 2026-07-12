@@ -1,5 +1,26 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-12 — Trainingslauf 6
+- Output `outputs/2026-07-12_training-run6.md`. **Zwei neue reale Specs** ausgewertet:
+  Normen-Harness (11.07., greenfield-System) + Submission 2414 Thalwil (11.07., **Rev. B am selben Tag**).
+  Belege beider Specs verifiziert (Skill/KB/Rule `normen` + Thalwil-Bausteine 12/13 existieren real).
+- **F3-Tabelle (verifier.md) um zwei belegte Domaenen erweitert** → schliesst die geflaggte
+  «Bau/Studie»-Luecke: (1) **Baurecht/Norm/Fachwissen** — autoritativ = Norm-Originalquelle (Ziffer)
+  + Gueltigkeitsregister, Signal = `wissenscheck`/Fundstellen-Stichprobe. (2) **Ausschreibung/Submission-
+  Uebergabe** — autoritativ = **abnehmende Bauleitung** («Null Rueckfragen»), interner Verifier =
+  Konsistenz-Gate Baustein 13 + `korrektur`/`twin`. Muster: die bindende Instanz muss keine Behoerde
+  sein, auch der abnehmende Mensch zaehlt.
+- **F2 geschaerft (anwendung-jans.md Schritt 2):** ein Schluesselentscheid kann **same-session** kippen
+  (Thalwil Rev. B, #5 ersetzt Teile #2+#4), nicht nur spaet ueber Tage — Mechanik identisch (Abschnitt
+  selbst korrigieren). Ein Scope-Pivot waechst v.a. die **Abgrenzung (NICHT dazu)**.
+- **Neue Wiki-Sektion «Drei Endzustaende einer Spec»** (aktiv/erledigt/parkiert) — der «parkiert»-Zustand
+  war seit 11.07. nur im CHANGELOG, jetzt im Wiki auffindbar.
+- **F7 praezisiert:** «Ist-Zustand (Scan)» ist ein Umbau/Reparatur-Feld; greenfield-Systeme (Normen)
+  scannen in der Faktenbasis, kein eigener Abschnitt noetig. Template hielt fuer 5 konforme Specs.
+- Metadaten `verifier.md` + `anwendung-jans.md` auf 07-12. Rule `spec-methode.md` unveraendert
+  (Gate ueber 5+ Faelle korrekt, kein Ueberdehnungs-Beleg). Quellen-Schuld: keine (F4/F5 eingeloest).
+- Offen: F1-Ueberdehnungs-Gegentest (mittelgrosser Fall) fehlt weiter; F3 Studie/Marketing offen.
+
 ## 2026-07-11 — Zwei Specs parkiert (Scope-0-Entscheid Raphael)
 - **Shop-Connector** (`outputs/2026-07-06_shop-connector_spec.md`): Scope 0 interaktiv
   durchgefuehrt (AskUserQuestion) — Raphael entscheidet PARKIEREN. Entscheide 1–4 bleiben
