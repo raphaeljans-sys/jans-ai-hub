@@ -14,6 +14,10 @@
 # ============================================================================
 
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
+# TOKEN-VOLLGAS (Rule 260712b, bis 10.08.2026): Standard-Deckel 5 USD ist fuer die
+# Intensiv-Laeufe zu knapp (Normen-Run1 stoppte bei 8/15-25 Positionen) → 25 USD.
+# Bei der Drosselung am 10.08. diese Zeile entfernen (zurueck auf Default 5).
+export DISPATCH_MAX_BUDGET_USD=25
 DISPATCH="$HOME/Developer/jans-ai-hub/scripts/dispatch-run.sh"
 LOG="$HOME/Library/Logs/jans-cron-training.log"
 
