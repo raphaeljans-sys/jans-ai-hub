@@ -219,3 +219,38 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   → `[[solarthermie-vs-pv-warmwasser-ch]]`, Themenartikel `[[solarwaerme-warmwasser]]` (FAQ **F40** neu).
   Offen: konkrete CHF-Investition Solarthermie-Anlage (amtlich nicht belegt), Wirkungsgrad 70–85 %/20 %
   aus Sekundärquellen, PVT-Hybridkollektoren (eigener Lauf).
+
+- **D14 (Run 35, 2026-07-12)** — «Lohnt sich ein PVT-Kollektor (Strom + Wärme in einem Modul)?»
+  — belegt 2026-07-12 (SPF Institut für Solartechnik OST Rapperswil/EnergieSchweiz, Schlussbericht
+  «PVT Wrap-Up» 2017 + PVT Solar AG Produktangaben). Elektrisch ~15–20 %/thermisch ~65 % Wirkungsgrad,
+  ~300 CH-Anlagen 2017; lohnt vor allem bei knapper Dachfläche, nicht als Renditeoptimierung gegenüber
+  getrennten Systemen; **Kosten widersprüchlich** (CHF 210–650 vs. 1'100–1'600/m²) → `[[pvt-hybridkollektoren]]`,
+  FAQ **F41** neu, ergänzt `[[solarwaerme-warmwasser]]`. Status emerging (Kosten nicht adversarial verifiziert).
+  Löst den Run-34-Prioritätspunkt «PVT-Hybridkollektoren». Offen: aktuelle CH-Marktzahlen nach 2017.
+- **D15 (Run 35, 2026-07-12)** — «Was kostet eine Solarthermie-Anlage bei mir konkret?»
+  — belegt 2026-07-12 (hausinfo.ch 07.09.2020 + Meier Tobler AG, keine amtliche Primärquelle). Reine
+  WW-Kompaktanlage CHF 15'000–20'000 installiert (Schnittmenge beider Quellen), Kombianlage unsicherer
+  CHF 22'000–40'000 (Quellen widersprechen sich) → `[[solarthermie-investitionskosten-ch]]`, FAQ **F42** neu.
+  Status emerging, Kombianlage speculative. Ergänzt `[[solarwaerme-warmwasser]]`.
+- **D16 (Run 35, 2026-07-12)** — «Komfortlüftung vertieft: Norm, Luftmengen, Filter, Strom»
+  — belegt 2026-07-12, **adversarial korrigiert**: SIA 382/1:2025 gilt weiterhin für alle belegten
+  Gebäude inkl. Wohnbauten (Gerätekategorie WLA), SIA 382/5:2021 ist wohnbauspezifische Ergänzung, ersetzt
+  SIA 382/1 nicht (erste Recherchefassung war falsch); Luftmengen 30/30/20 m³/h je Zimmer/Bad/Küche, Wohnung
+  gesamt ≥50 m³/h (Bsp. 4½-Zi ~90 m³/h); Minergie-WRG ≥80 % Temperatur/≥60 % Feuchte (v2.0, 2023, nicht
+  Stand 2011 wie erst zitiert) → `[[komfortlueftung-wrg-sia382-luftwechsel]]`, FAQ **F43** neu. **Filterklassen**
+  Zuluft ISO ePM1 50 %/Abluft ISO Coarse 80 %, Stromverbrauch über EU-1254/2014-Energieeffizienzklasse
+  A/A+ statt veraltetem 0,34-Wh/m³-Wert (Merkblatt SIA 2023, seit 2021 zurückgezogen) → `[[komfortlueftung-filterklassen-epm-stromverbrauch]]`,
+  FAQ **F44** neu. Löst Run-34-Prioritätspunkt 3 vollständig, inkl. Aufdeckung zweier veralteter Zitate.
+- **D17 (Run 35, 2026-07-12)** — «Welche Raumluftfeuchte ist komfortabel — muss ich befeuchten?»
+  — belegt 2026-07-12 (enbau-online.ch, SIA-180-Zitat, + Lungenliga Schweiz). SIA 180:2014 toleriert
+  30–70 % rel. Feuchte als Komfortband, Praxis-Zielband 40–60 %; 30 %-Untergrenze als quantitative
+  Planungsanforderung (90 % der Nutzungszeit ohne aktive Befeuchtung) → `[[raumluftfeuchte-komfortbereich-sia180]]`,
+  FAQ **F45** neu, ergänzt `[[behaglichkeit-raumklima-kbob-ipb]]`. Status emerging (SIA-180-Volltext nicht
+  direkt eingesehen, keine adversariale Zweitprüfung). Löst Run-34-Prioritätspunkt 4.
+- **D18 (Run 35, 2026-07-12)** — «Was bedeutet meine GEAK-Klasse in kWh — feste Tabelle?»
+  — belegt 2026-07-12, wichtige Korrektur: der GEAK hat KEINE festen kWh/m²·a-Grenzwerte je Klasse
+  A–G, sondern klassiert RELATIV zu einem individuell berechneten Referenzgebäude (R = Projektwert/
+  Referenzwert × 100; A=0-50 %, B=50-100 %, …, G=>300 %) — eine im Web kursierende feste Zahlen-Tabelle
+  wurde als falsch widerlegt → `[[geak-klassengrenzen-relative-klassierung]]`, FAQ **F46** neu, adversarial
+  am Original-PDF (EnDK-Normierungsdokument v2.1.0, Tab. 40/41) bestätigt, **established**. Löst
+  Run-34-Prioritätspunkt 5 vollständig (FEA-Klassengrenzen bleiben offen, separate Frage).

@@ -2,6 +2,49 @@
 
 Neueste zuoberst.
 
+## 2026-07-12 — Run 35: PVT-Kollektoren, Solarthermie-Kosten, Komfortlüftung vertieft (F41–F46) + Register-Abschluss
+- **6 neue Destillate (Web/CH-Quellen) → 74 total:**
+  - `pvt-hybridkollektoren` (emerging) — SPF Institut für Solartechnik OST Rapperswil/EnergieSchweiz
+    «PVT Wrap-Up» Schlussbericht 2017 + PVT Solar AG: elektrisch ~15–20 %/thermisch ~65 % Wirkungsgrad,
+    ~300 CH-Anlagen 2017; Kosten widersprüchlich 210–650 vs. 1'100–1'600 CHF/m² (nicht adversarial
+    verifiziert, bei Projektbezug neu recherchieren).
+  - `solarthermie-investitionskosten-ch` (emerging, Kombianlage speculative) — hausinfo.ch (2020) +
+    Meier Tobler AG: reine WW-Kompaktanlage CHF 15'000–20'000, Kombianlage unsicherer 22'000–40'000;
+    keine amtliche CHF-Primärquelle (EnergieSchweiz/Swissolar nennen selbst keine Zahlen).
+  - `komfortlueftung-wrg-sia382-luftwechsel` (emerging, **adversarial korrigiert**) — suissetec-
+    Merkblätter SIA 382/1 (Nov. 2025) + SIA 382/5 (Juni 2025) + Minergie-Modul Komfortlüftung v2.0
+    (14.09.2023): SIA 382/1:2025 bleibt Basisnorm für ALLE belegten Gebäude inkl. Wohnbauten (Kategorie
+    WLA), SIA 382/5:2021 ist wohnbauspezifische Ergänzung, ersetzt SIA 382/1 NICHT — Erstfassung hatte
+    das falsch dargestellt. Luftmengen 30/30/20 m³/h Zimmer/Bad/Küche, Wohnung ≥50 m³/h; Minergie-WRG
+    ≥80 % Temperatur/≥60 % Feuchte (korrigiert von fälschlich zitiertem Reglementsstand 2011 auf v2.0/2023).
+  - `komfortlueftung-filterklassen-epm-stromverbrauch` (emerging, **adversarial korrigiert**) — Zuluft
+    mind. ISO ePM1 50 %, Abluft mind. ISO Coarse 80 %; Stromverbrauch über EU-1254/2014-Energie-
+    effizienzklasse (mind. A, grössere Anlagen A+) statt dem früheren 0,34-Wh/m³-Grenzwert, der aus dem
+    seit 2021 zurückgezogenen Merkblatt SIA 2023 stammt und fälschlich als aktuell zitiert worden war.
+  - `raumluftfeuchte-komfortbereich-sia180` (emerging) — enbau-online.ch (SIA-180-Zitat) + Lungenliga
+    Schweiz: SIA 180:2014 toleriert 30–70 % rel. Feuchte als Komfortband, Praxis-Zielband 40–60 %;
+    30 %-Untergrenze als quantitative Planungsanforderung (90 % der Nutzungszeit ohne aktive Befeuchtung).
+  - `geak-klassengrenzen-relative-klassierung` (**established**, adversarial am Original-PDF bestätigt)
+    — «Normierung des GEAK» v2.1.0 (EnDK, 30.3.2023): GEAK hat KEINE festen kWh/m²-Grenzwerte je Klasse
+    A–G, sondern klassiert RELATIV zum individuell berechneten Referenzgebäude (A=0–50 %, …, G=>300 %);
+    eine im Web kursierende feste Zahlen-Tabelle wurde als falsch widerlegt. CO₂-Etikette bleibt separat
+    absolut in 5-kg/(m²a)-Schritten.
+- **VERDICHTUNG:** **FAQ F41–F46 neu** (BAUHERREN-FAQ jetzt **46 Kernfragen F1–F46**); Themenartikel
+  `wiki/solarwaerme-warmwasser.md` (+ PVT + Investitionskosten), `wiki/komfortlueftung.md` (+ SIA-382-
+  Vertiefung + Filterklassen + Raumluftfeuchte), `wiki/geak-gebaeudeenergieausweis.md` (+ Klassengrenzen-
+  Korrektur) erweitert.
+- **Register:** `destillate/INDEX` (74 total), `wiki/INDEX` (FAQ-Kopfzeile 40→46, drei Themenartikel-
+  Zeilen nachgeführt), `wiki/QUESTIONS` (E21–E25), `pdf-inventar` (+7 Web-Zeilen inkl. nachgetragener
+  Run-34-Zeile «Solarthermie vs. PV»), `raw/_INGESTED` (+6), `training/curriculum` (D14–D18 neu),
+  Output `outputs/2026-07-12_energie-run35.md`.
+- **Verifikations-Stufe:** zwei Destillate enthalten dokumentierte adversariale Korrekturen gegenüber
+  der Erstrecherche (Normen-Geltungsbereich, veraltete SFP-Kennzahl); ein Destillat wurde am
+  Original-PDF zeilenweise bestätigt und auf `established` gehoben; drei bleiben bewusst `emerging`/
+  `speculative`, weil Kostenangaben bzw. Sekundärquellen nicht unabhängig zweitgeprüft sind.
+- **Leitplanken:** keine Zahl erfunden; widersprüchliche Kostenangaben (PVT, Solarthermie-Kombianlage)
+  explizit als widersprüchlich ausgewiesen statt geglättet; zwei falsche Erstzitate durch Verifikation
+  aufgedeckt und korrigiert statt stillschweigend übernommen.
+
 ## 2026-07-12 — Wissens-Chef Run 1 (Cross-KB): EN-105 WRG-Grenzwert korrigiert + Querbezug planungsgrundlagen
 - [korrigiert] [[energienachweis-zh]] EN-105 Lueftung: «Waermerueckgewinnung >= 70 % (>= 75 % mit Bypass)» war falsch (die 75 % sind keine Bypass-Bedingung). Richtig: **Temperatur-Aenderungsgrad >= 70 % ODER feuchtebezogen >= 75 %** (EN-105-Formular). Adversarial verifiziert gegen planungsgrundlagen/energie-energienachweis-zh-formulare (BESTAETIGT). Cross-KB-Fund energie-W1.
 - [link] [[energienachweis-zh]] -> Verfahrens-/EVEN-Wegweiser der KB planungsgrundlagen (energie-energienachweis-zh-formulare / energie-even-plattform-bedienung / energie-private-kontrolle-zh). Rollenteilung: energie = Fachphysik/Grenzwerte fuehrend, planungsgrundlagen = Verfahren/Beschaffung fuehrend.
