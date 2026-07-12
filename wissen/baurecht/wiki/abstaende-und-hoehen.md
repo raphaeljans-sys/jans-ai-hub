@@ -2,8 +2,8 @@
 title: Abstände und Höhen — Kanton Zürich
 status: established
 last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 282 PBG", "§ 279 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 30 ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 284 PBG", "§ 292 PBG", "§ 293 PBG", "§ 28 ABV", "§ 30 Abs. 1 lit. a ABV", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229"]
+verifiziert: 2026-07-12 (Modell-D §§ 278-293 PBG, Buch-Run 32; zusaetzlich Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum-Schwellen als zwei Absaetze bestaetigt, kein Widerspruch) — vorher: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md"]
 links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
@@ -135,13 +135,26 @@ Waldabstandslinie befreit; Unterschreitung via Ausnahmebewilligung § 220 PBG.
 > ist **15 m**, nicht 10 m via Gestaltungsplan. Beleg: Buch Bd 2 S. 999 f., 1004 f.
 
 ## Gewässerraum / Gewässerabstand
+> **Verifiziert (Modell-D-Volltextabgleich Fedlex SR 814.201, Buch-Run 32, 2026-07-12):**
+> Der amtliche Wortlaut von Art. 41a/41b GSchV bestätigt beide unten genannten Schwellen
+> vollständig — es handelt sich **nicht um einen Widerspruch, sondern um zwei verschiedene
+> Absätze desselben Artikels** (Abs. 2 Normalgebiete vs. Abs. 1 Schutzgebiete), die klar
+> auseinanderzuhalten sind. Der parallele Buchsynthese-Artikel [[15-lage-von-gebaeuden]]
+> hatte die < 1 m-Schwelle fälschlich Abs. 2 zugeschrieben — dort korrigiert. Beleg:
+> `raw/260712_amtlich_ch_gschv.md`.
+
 **Bundesrecht** (Art. 36a GSchG, Art. 41a/41b GSchV), kantonal die HWSchV — überlagert die
 BZO. Massgebend ist die **natürliche Gerinnesohlenbreite (GSB)**; zwei Regime sind zu
 unterscheiden (Art. 41a GSchV). **Fliessgewässer, Normalgebiete (Art. 41a Abs. 2):**
-natürliche GSB < 2 m → mind. **11 m**; GSB 2-15 m → **2,5 × GSB + 7 m**; > 15 m → kantonale
-Vorgabe. **In nationalen/kantonalen Schutzgebieten (Art. 41a Abs. 1):** GSB < 1 m → 11 m;
-1-5 m → 6 × GSB + 5 m; > 5 m → GSB + 30 m. Stehende Gewässer (Art. 41b): Wasserfläche
-**> 0,5 ha** → mind. **15 m** ab Uferlinie. In ZH ist der Gewässerraum
+natürliche GSB < 2 m → mind. **11 m**; GSB 2-15 m → **2,5 × GSB + 7 m**; > 15 m → im
+Wortlaut keine explizite Formel, kantonaler Einzelfall (Art. 36a Abs. 1 GSchG als Rahmen).
+**In nationalen/kantonalen Schutzgebieten (Art. 41a Abs. 1 — Biotope national, kantonale
+Naturschutzgebiete, Moorlandschaften, Wasser-/Zugvogelreservate, Landschaften national/
+kantonal mit gewässerbezogenem Schutzziel):** GSB < 1 m → 11 m; 1-5 m → 6 × GSB + 5 m;
+> 5 m → GSB + 30 m. **Stehende Gewässer (Art. 41b):** ab Uferlinie mind. **15 m** (Abs. 1;
+nicht an eine Flächenschwelle geknüpft); die **0,5-ha-Schwelle** ist kein Formel-Kriterium,
+sondern nur ein **Verzichtsgrund** (Abs. 4 lit. b: bei Wasserfläche < 0,5 ha kann auf die
+Festlegung verzichtet werden). In ZH ist der Gewässerraum
 grundeigentümerverbindlich (§ 15d HWSchV); selbst bei **eingedolten** Fliessgewässern sind
 11 m frei zu halten. Beleg: Buch Bd 2 S. 1008-1013 + SR 814.201 GSchV Art. 41a/41b. Bei
 Machbarkeit/Ankauf die GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnung prüfen; das
@@ -159,24 +172,81 @@ Die einschränkenden **Linien** (Gewässerabstandslinie § 67 PBG, Baulinie § 9
 [[baulinien-und-abstandslinien]].
 
 ## Höhenbegriffe
-- **Gebäudehöhe:** ab gewachsenem Terrain bis Schnittpunkt Fassade/Dach (§ 279 PBG, § 12 ABV).
-- **Firsthöhe:** höchster Punkt des Daches ab gewachsenem Terrain.
-- **Vollgeschoss:** erfüllt Voraussetzungen nach § 276 PBG (Raumhöhe, Fläche).
-- **Untergeschoss:** Oberkante fertiger Boden des darüberliegenden Geschosses max.
-  80 cm über gewachsenem Terrain.
-- **Attikageschoss:** zurückversetztes Geschoss auf dem Flachdach.
+> **Korrektur (Modell D 2026-07-12):** Die bisherige Fassung dieser Liste zitierte teils
+> falsche/unpassende Fundstellen (§ 279 PBG war irrtümlich der Gebäudehöhe-Begriff zugeordnet,
+> § 12 ABV betrifft die anrechenbaren oberirdischen Bereiche und hat mit der Höhenmessung nichts
+> zu tun; das Untergeschoss-Mass «80 cm» ist im Volltext nicht auffindbar). Korrigiert anhand
+> §§ 275/278-281 PBG (beide Fassungen, Volltextabgleich):
+
+- **Fassadenhöhe (harmonisiert, geltend):** grösster Höhenunterschied zwischen der Schnittlinie
+  Fassadenflucht/Oberkante Dachkonstruktion und der zugehörigen Fassadenlinie; bei Flachdachbauten
+  bis Oberkante Brüstung/Geländer, ausser diese ist ≥ 1 m gegenüber der Fassadenflucht
+  zurückversetzt (**§ 278 Abs. 1/2 PBG**). Höchstmass **25 m**, im Übrigen bestimmt die Gemeinde
+  das Mass (auch über Verkehrsbaulinien möglich, massgebend das **geringere** Mass) (**§ 279
+  Abs. 1/2 PBG**). **Giebelseitig** erhöht sich das Mass um die aus 45° Dachneigung folgende Höhe,
+  **höchstens um 7 m**; bei **Attikageschossen** um **3,3 m** auf den fassadenbündigen Seiten,
+  jeweils sofern die BZO nichts anderes bestimmt (**§ 280 Abs. 1/2 PBG**). Wärmedämmung
+  > 20 cm Stärke: Überschreitung um max. 25 cm zulässig (**§ 280 Abs. 4 PBG**, wortgleich zu
+  § 279 Abs. 4 alt).
+- **Gebäudehöhe (alte Fassung, übergangsrechtlich):** bestimmt durch die erlaubte
+  Vollgeschosszahl bzw. Verkehrsbaulinien, massgebend das geringere Mass (**§ 278 Abs. 1/3 PBG
+  alt**), Höchstmass ebenfalls **25 m**. Berechnung ab Vollgeschosszahl: Bruttogeschosshöhe
+  3,3 m (Zentrums-/Industriezone 4 m) + 1,5 m für die Erhöhung des Erdgeschosses (**§ 279 Abs. 1
+  PBG alt**). Gemessen von der Schnittlinie Fassade/Dachfläche auf den darunterliegenden
+  gewachsenen Boden; Rücksprünge bis 1,5 m Tiefe bleiben unbeachtet (**§ 280 Abs. 1 PBG alt**).
+- **Firsthöhe (nur alte Fassung, § 281 PBG alt):** First eines Schrägdaches muss innerhalb der
+  45°-Ebene ab Schnittlinie Fassade/Dach liegen, höchstens aber bis 7 m Höhe parallel zur
+  Verbindungslinie der massgeblichen Schnittlinien. In der harmonisierten Fassung geht dieser
+  Mechanismus in der **giebelseitigen Erhöhung** der Fassadenhöhe auf (§ 280 Abs. 1 PBG, oben) —
+  ein eigener «Firsthöhe»-Begriff existiert dort nicht mehr.
+- **Gesamthöhe (nur harmonisierte Fassung, § 281 PBG):** grösster Höhenunterschied zwischen dem
+  höchsten Punkt der Dachkonstruktion und den lotrecht darunterliegenden Punkten auf dem
+  massgebenden Terrain — die für Hochhäuser (> 25 m **Fassadenhöhe**, nicht Gesamthöhe)
+  relevante Vergleichsgrösse.
+- **Vollgeschoss:** Begriff in **§ 275 Abs. 1 PBG** (harmonisiert: alle Geschosse ausser Unter-,
+  Dach- und Attikageschosse); **§ 276 PBG** regelt nur die **Anrechenbarkeit** (welche Dach-/
+  Attika-/Untergeschosse zur Vollgeschosszahl zählen), nicht den Begriff selbst. Detailsystem
+  (Kniestock, alte Fassung 0,9 m/1,3 m Bestand): [[geschosse-und-kniestock]] — dort **noch nicht**
+  Modell-D-verifiziert, Fassungsstand dort zu prüfen.
+- **Untergeschoss:** Kein «80 cm»-Mass im Gesetz. Harmonisiert (**§ 275 Abs. 3 PBG**): die
+  Oberkante des fertigen Bodens des darüberliegenden Geschosses darf, gemessen in der
+  Fassadenflucht, **im Mittel höchstens 2,5 m** über die Fassadenlinie hinausragen, **an keiner
+  Stelle mehr als 3 m**; die Berechnung des Mittelmasses regelt **§ 29 ABV** (Summe der
+  Fassadenflächen über der Fassadenlinie geteilt durch die Länge der projizierten
+  Fassadenlinie). Alte Fassung (**§ 275 Abs. 3 PBG alt**): horizontale Gebäudeabschnitte, die
+  ganz oder teilweise in den gewachsenen Boden hineinragen (kein Zahlenmass). Davon zu
+  unterscheiden das **nicht anrechenbare** Untergeschoss (Freilegung/Abgrabung, § 293 PBG,
+  1,5 m über gestaltetem Boden) — siehe unten.
+- **Attikageschoss:** auf Flachdächern aufgesetztes, zusätzliches Geschoss; muss bei den
+  fiktiven Traufseiten gegenüber dem darunterliegenden Geschoss um das **halbe Mass seiner
+  eigenen Höhe** zurückversetzt sein (**§ 275 Abs. 4 PBG**, harmonisiert). Fassadenhöhen-Bonus
+  dafür: **+3,3 m** (§ 280 Abs. 2 PBG, oben).
 
 Zonenspezifische Höhen- und Abstandswerte: siehe [[zonenkonformitaet]].
 
 ## Hochhäuser, Gebäudelänge/-breite und Dachaufbauten (Kap. 16)
 Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
 
-- **Hochhaus** = **Gebäudehöhe > 25 m** (nicht Gesamthöhe; § 282 i.V.m. § 278 Abs. 3 PBG), nur
-  zulässig, wo die BZO Hochhäuser ausdrücklich vorsieht (§ 284 PBG). Ein Hochhaus **erhält keine
-  erhöhte Ausnützung** allein aus seiner Höhe. Grenzabstand: 3,5 + 13 = **16,5 m** (§ 270 Abs. 2 PBG,
-  Deckelung greift auch hier). **Schattenwurf-Schranke:** eine wesentliche Beeinträchtigung des
-  Nachbargrundstücks liegt vor, wenn ein Punkt an einem **mittleren Wintertag > 2 Stunden** beschattet
-  wird (**§ 30 Abs. 1 lit. a ABV**; Vernehmlassung 2018 wollte auf 3 h lockern).
+- **Hochhaus** = **Fassadenhöhe > 25 m** (harmonisiert **§ 282 PBG**; alte Fassung: «Höhe von mehr
+  als 25 m», § 282 PBG alt — beide Fassungen inhaltsgleich, nur die Bezugsgrösse heisst neu
+  Fassadenhöhe statt Gebäudehöhe), nur zulässig, wo die BZO Hochhäuser ausdrücklich vorsieht
+  (§ 284 PBG). Anforderungen (**§ 284 PBG**, unverändert in beiden Fassungen): ortsbaulicher Gewinn
+  oder durch Art/Zweckbestimmung bedingt (Abs. 1), architektonisch besonders sorgfältige Gestaltung
+  (Abs. 2), **keine erhöhte Ausnützung** gegenüber gewöhnlicher Überbauung, Ausnahme ausgeschlossen
+  (Abs. 3), keine wesentliche Beeinträchtigung der Nachbarschaft, insbesondere durch Schattenwurf in
+  Wohnzonen/gegenüber bewohnten Gebäuden (Abs. 4). Grenzabstand: 3,5 + 13 = **16,5 m** (§ 270 Abs. 2
+  PBG, Deckelung greift auch hier).
+  > **Korrektur Schattenwurf (Modell D 2026-07-12):** Der amtliche Volltext **§ 30 Abs. 1 lit. a/b
+  > ABV** (Fassung gemäss RRB vom 18. März 2020, **in Kraft seit 1. August 2021**) nennt **drei
+  > Stunden** als Schwelle der wesentlichen Beeinträchtigung durch Schattenwurf im Sinne von
+  > § 284 PBG — nicht zwei Stunden. Die frühere Wiki-Fassung hatte die Werte vertauscht (2 h als
+  > angeblich geltend, 3 h als angeblich nur vorgeschlagen); tatsächlich ist die frühere,
+  > strengere 2-Stunden-Schwelle durch die 2020er-Revision auf **3 Stunden gelockert** worden und
+  > gilt seither. Mass: bei überbauten Grundstücken die an mittleren Wintertagen **länger als
+  > 3 Stunden** dauernde Beschattung bewohnter/in Wohnzonen liegender Nachbargebäude (i.d.R. am
+  > Fusspunkt gemessen, lit. a); bei unüberbauten Grundstücken in Wohnzonen die länger als
+  > 3 Stunden dauernde Beschattung überbaubarer Nachbarflächen, sofern dies eine orts- und
+  > zonenübliche Überbauung verunmöglicht/erheblich erschwert (lit. b).
 - **Gebäudelänge/-breite** (§ 28 ABV): Länge = **längere**, Breite = **kürzere** Seite des
   **flächenkleinsten Rechtecks**, das den Grundriss umschliesst. Bauteile, die den Boden um **≤ 0,5 m**
   überragen, werden nicht mitgerechnet (§ 28 Abs. 1 ABV). Massgebend für Mehrlängenzuschlag (oben) und
@@ -187,13 +257,24 @@ Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
   die HÄLFTE (1/2)**; die frühere **Drittelsregel (1/3)** steht nur noch im **Anhang PBG (Stand
   28. Februar 2017)** und gilt in der Gemeinde übergangsrechtlich weiter, bis ihre BZO harmonisiert ist.
   *(Korrektur Modell D 2026-07-12: Buch 2019 nennt 1/3 — geltend ist 1/2; pro Gemeinde prüfen.)*
-  **Nicht als Aufbaute** zählen Kamine, Antennen, Solaranlagen und kleinere technische Aufbauten (in beiden
-  Fassungen ausgenommen); ein **Kreuzfirst/Quergiebel** ist ebenfalls keine Dachaufbaute (BEZ 2014 Nr. 9).
-  Abzugrenzen vom **Dacheinschnitt** (negative Dachfläche, andere Regel).
+  **Nicht als Aufbaute** zählen laut Gesetzeswortlaut (beide Fassungen wortgleich, § 292 PBG bzw.
+  § 292 PBG alt) **Kamine, Anlagen zur Nutzung von Sonnenenergie und kleinere technisch bedingte
+  Aufbauten** — «Antennen» werden im Gesetzestext **nicht** ausdrücklich genannt (Korrektur Modell D
+  2026-07-12: frühere Wiki-Fassung nannte «Antennen» als eigene Ausnahme; das ist eine unbelegte
+  Ergänzung und wird gestrichen. Eine Antenne fällt allenfalls unter «kleinere technisch bedingte
+  Aufbauten», ist aber nicht als eigener Gesetzesbegriff auffindbar). Ein **Kreuzfirst/Quergiebel**
+  ist ebenfalls keine Dachaufbaute (BEZ 2014 Nr. 9). Abzugrenzen vom **Dacheinschnitt** (negative
+  Dachfläche, andere Regel). Voraussetzung in beiden Fassungen: die Aufbauten müssen bei Schrägdächern
+  über die tatsächliche Dachebene hinausragen (lit. a); bei Flachdächern harmonisiert das
+  vorgeschriebene Rückversetzungsmass unterschreiten (lit. b), alte Fassung: die für ein
+  entsprechendes Schrägdach zulässigen Ebenen durchstossen (lit. b alt).
 - **Freilegung von Untergeschossen / Abgrabungen (§ 293 PBG):** Ein **nicht anrechenbares Untergeschoss**
-  darf höchstens **1,5 m über dem gestalteten Boden** in Erscheinung treten (§ 293 Abs. 1 PBG). Merksatz
-  zur Bezugsebene: **§ 293 misst das *gestaltete* Terrain**, **§ 280 das *gewachsene*** — bei Hanglagen
-  auseinanderhalten. Die Gemeinde kann strenger sein (§ 293 Abs. 4 PBG; z.B. 1,0 m in Küsnacht).
+  darf höchstens **1,5 m über dem gestalteten Boden** in Erscheinung treten (§ 293 Abs. 1 PBG). **Ausnahme
+  (§ 293 Abs. 2 PBG):** Haus- und Kellerzugänge, Gartenausgänge sowie Ein-/Ausfahrten zu Einzel-,
+  Doppel- oder Sammelgaragen sind von dieser Beschränkung ausgenommen (dürfen also weiter/höher
+  freigelegt werden). Merksatz zur Bezugsebene: **§ 293 misst das *gestaltete* Terrain**, **§ 280
+  das *gewachsene*** — bei Hanglagen auseinanderhalten. Die Gemeinde kann die Freilegung von
+  Untergeschossen näher regeln, auch strenger (§ 293 Abs. 4 PBG; z.B. 1,0 m in Küsnacht).
   → Hangbauten/Terrainführung: Skill `massgebendes-terrain`.
 
 ## Harmonisierungsvorlage (nPBG/nABV) — neue Messsystematik (Kap. 15.13)
