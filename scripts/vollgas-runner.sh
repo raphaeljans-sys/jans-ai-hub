@@ -133,8 +133,11 @@ while :; do
         PROMPT="$(cat "$TASKS_DIR/$name/SKILL.md")
 Hinweis: Dieser Lauf ist Teil des VOLLGAS-Endlos-Runners (Auftrag Raphael 12.07.2026).
 Fahre den naechsten Batch gemaess dem jeweiligen training/PROGRAMM.md bzw. Lauf-Zustand.
-Sende KEINE Mails ausser der Prompt verlangt es ausdruecklich. Am Ende NAS-Repo
-committen und pushen (pull --rebase bei Konflikt), wie in den Rules vorgeschrieben."
+Sende KEINE Mails ausser der Prompt verlangt es ausdruecklich. Git-Disziplin (VOLLGAS):
+Am Ende NUR LOKAL committen (git add der geaenderten Dateien, dann git commit mit
+sprechender Nachricht) — NICHT pushen und NICHT pullen. Der git-auto-sync-Job erledigt
+pull --rebase und push alle 5 Min gebuendelt; das vermeidet die Push-Kollisionen zwischen
+den Stationen und laesst jeden Lauf sauber mit rc=0 enden."
         START_TS=$(date +%s)
         log "START $name"
         # WICHTIG: Prompt via "--"-Separator als Positional uebergeben, NICHT inline

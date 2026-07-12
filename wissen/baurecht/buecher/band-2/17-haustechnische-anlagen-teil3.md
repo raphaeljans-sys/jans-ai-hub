@@ -4,10 +4,11 @@ kapitel: 17 (Gebaeude und Raeume; Ausruestungen) — Teil 3 / Schluss
 band: 2
 seiten: 1304-1319
 shots: 656-663
-paragraphen: ["§ 29 BBV I", "§ 30a BBV I", "§ 31 BBV I", "§ 32 BBV I", "§ 33 BBV I", "§ 37 BBV I", "§ 40 BBV I", "§ 42 BBV I", "§ 43 BBV I", "§ 44 BBV I", "§ 45 BBV I", "§ 46 BBV I", "§ 46a BBV I", "§ 48 BBV I", "§ 48c BBV I", "§ 21 BBV I", "§ 22 BBV I", "§ 23 BBV I", "§ 24 BBV I", "§ 26 BBV I", "§ 18 BBV I", "§ 19a BBV II", "§ 296 PBG", "§ 304 nPBG", "§ 309 lit. d PBG", "§ 357 Abs. 4 PBG", "§ 9 EnerG", "§ 9a EnerG", "§ 10b EnerG", "§ 12 EnerG", "§ 13 Abs. 2 EnerG", "Art. 6 LRV", "Art. 13 LRV", "Art. 20 LRV", "Art. 37 ff. NIV", "Art. 73-76 VPG"]
+paragraphen: ["§ 29 BBV I", "§ 30a BBV I", "§ 31 BBV I", "§ 32 BBV I", "§ 33 BBV I", "§ 37 BBV I", "§ 40 BBV I", "§ 42 BBV I", "§ 43 BBV I", "§ 44 BBV I", "§ 45 BBV I", "§ 45a BBV I", "§ 46 BBV I", "§ 46a BBV I", "§ 48c BBV I", "§ 21 BBV I", "§ 22 BBV I", "§ 23 BBV I", "§ 24 BBV I", "§ 26 BBV I", "§ 18 BBV I", "§ 19a BBV II", "§ 296 PBG", "§ 304 nPBG", "§ 309 lit. d PBG", "§ 357 Abs. 4 PBG", "§ 9 EnerG", "§ 10a EnerG", "§ 10b EnerG", "§ 12 EnerG", "§ 12b EnerG", "Art. 6 LRV", "Art. 13 LRV", "Art. 20 LRV", "Art. 37 ff. NIV", "Art. 73-76 VPG"]
 status: emerging
 gelesen: 2026-07-11 (Run 27)
-last_updated: 2026-07-11
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D BBV/EnerG, Buch-Run 32)
 ---
 
 # Kap. 17 «Gebaeude und Raeume; Ausruestungen» — Teil 3 / Schluss: Haustechnische Anlagen (17.9), Klima/Lueftung, Beförderungsanlagen

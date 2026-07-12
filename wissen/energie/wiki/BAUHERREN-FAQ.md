@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-12
-sources: [destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+sources: [destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1716,6 +1716,48 @@ statt Backstein bei der Aussenwand verschlechtert zusätzlich um +0,16 bis +0,32
 **Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
 `[[waermebrueckenkatalog-bfe-sockel]]`, emerging. Ergänzt `[[waermebrueckenkatalog-bfe-balkonplatte]]`
 (Curriculum-Punkt A4 Wärmebrücken).
+
+---
+
+## F51 — «Ich plane ein auskragendes Vordach über dem Eingang oder als Sonnenschutz — worauf muss ich achten?»
+
+**Kurz:** Eine durchgehend betonierte Vordachplatte ohne thermische Trennung ist energetisch die
+schlechteste Lösung — unabhängig davon, wie gut der Rest der Fassade gedämmt ist. Der wirksame
+Hebel ist die thermische Trennung am Austrittspunkt der Platte: mit Dämmelement («Stahlkorb»)
+klar besser, mit punktuellen Dornen statt durchgehender Platte praktisch keine Wärmebrücke mehr.
+Das sollte von Anfang an mit dem Tragwerksplaner als thermisch getrennte Konstruktion geplant
+werden, nicht nachträglich nachgerüstet.
+
+**Fachlich:** Der BFE-Wärmebrückenkatalog weist für ein ungedämmtes, durchbetoniertes Vordach
+Ψ-Werte von **0,40–0,53 W/(m·K)** aus (1,3- bis 1,8-fach über dem Grenzwert 0,30). Ein
+Stahlkorb-Anschluss senkt den Wert auf **0,02–0,15**, ein Dorn-/Konsolensystem auf
+**−0,08 bis 0,04** — praktisch keine messbare Wärmebrücke mehr. Stahlbeton statt Backstein bei
+der Fassadenwand verschlechtert zusätzlich um +0,11 W/(m·K).
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-flachdach-vordach]]`, emerging. Ergänzt
+`[[waermebrueckenkatalog-bfe-balkonplatte]]` (Curriculum-Punkt A4 Wärmebrücken).
+
+---
+
+## F52 — «Meine Attika-/Dachterrassen-Brüstung — soll ich sie in Mauerwerk oder in Beton bauen?»
+
+**Kurz:** Energetisch macht das einen grossen Unterschied. Eine in Backstein gemauerte Brüstung
+unterschreitet den Wärmebrücken-Grenzwert praktisch immer — auch ganz ohne Zusatzdämmung. Eine
+durchgehend betonierte Attika (statisch oft die einfachere Lösung) bleibt dagegen selbst mit
+Dämmung meist eine relevante Wärmebrücke. Bei der Materialwahl der Brüstung lohnt sich deshalb
+ein bewusster Entscheid schon in der Tragwerksplanung.
+
+**Fachlich:** Der BFE-Wärmebrückenkatalog weist für eine ungedämmte Stahlbeton-Brüstung
+Ψ-Werte von **0,41–0,53 W/(m·K)** aus (1,4- bis 1,8-fach über dem Grenzwert 0,30), für eine
+ungedämmte Backstein-Brüstung dagegen nur **0,02–0,09 W/(m·K)** — bereits unter dem Grenzwert.
+Selbst eine gedämmte Stahlbeton-Brüstung (0,12–0,26) bleibt in der Grössenordnung einer
+ungedämmten Backstein-Brüstung; die Wärmeleitfähigkeit des durchgehenden Betonquerschnitts
+dominiert stärker als die zusätzliche Dämmung.
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-flachdach-bruestung]]`, emerging. Ergänzt
+`[[waermebrueckenkatalog-bfe-flachdach-vordach]]` (Curriculum-Punkt A4 Wärmebrücken).
 
 ---
 

@@ -28,6 +28,11 @@ Region Zuerich / Zentralschweiz. Preisstand 2026. Immer als Grobschaetzung ±25 
 > Für die **m²↔m³-Kostenbrücke** (Gesamtkosten ↔ GV) ist daher der **Gesamtgebäude-Wert 0.60
 > massgebend**, nicht 0.70. Die obige ≈ 1'020 CHF/m³-Ankopplung bleibt gültig, weil sie direkt
 > auf dem GV/HNF-Verhältnis 4.7 (Gesamtgebäude) beruht; das 0.70 dient nur als Geschoss-Kennwert.
+>
+> **Teuerungs-Check (12.07.2026):** Die Kalibrierung 2022/23 bleibt gültig — der BFS-Baupreisindex
+> (Stand April 2026 = 100.6 auf neuer Basis Okt-2025, +1.0 % YoY, moderat) ergibt eine kumulierte
+> Bauteuerung seit Kalibrierung von nur ~2–3 %, weit innerhalb der ±25 %-Grobschätzungsspanne.
+> Aktueller Marktstand: `wissen/immobilienbewertung/wiki/investorenmarkt-makro`.
 
 ## Wohnbau Neubau (CHF/m³ GV, BKP 1–5)
 

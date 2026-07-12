@@ -1,7 +1,7 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-12
 sources: [Crivelli/Filippini/Lunati 2001 «Effizienz der Pflegeheime in der Schweiz» (SECO/USI Lugano, 835 Heime — Skalenertraege/optimale Betriebsgroesse 70-80 Betten, Median 52/Ø 62, Run 14 2026-07-06), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12; SenioResidenz AG Geschaeftsbericht 2017 19.02.2018 — Healthcare-Investoren-Fall impl. Brutto-Yield ~5.3 %, WP-DCF-Bewertung, Finanzierungsstruktur, Run 13; BFS «Indikatoren der Pflegeheime 2019-2021» Mai 2023 BFS-Nr. 1552-2100 — Beherbergungskosten 10'035 CHF/Mt, Ertrags-/Finanzierungsstruktur, Belegung/Defizitquote, Run 13; NZZ/Curaviva Pflegekosten 13.11.2023 — Kostenstruktur Pension/KVG-Pflege/Betreuung, Run 13), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11; WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026) — Gewerbe-Feinabstufung D3-Rest Run 13]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
@@ -140,6 +140,15 @@ Relation, Makrolagenrating der Gemeinde (WP Immo-Monitoring/Reports), Objektgroe
   **−14 %**, Geschaeftsliegenschaften **−12 %**; +1 Pp 10-j. Hypothekarzins → STWE −6.7 %,
   EFH −7.2 %. Aber: Zinsanstiege werden oft von Inflation begleitet (Realzinsen kaum
   hoeher, Mieten steigen) → negativer Preiseffekt teilweise kompensiert.
+- ⚠ **Verifikationsnotiz Barwert-Verlust-Tabelle (Modell D, Run 19 2026-07-12):** Recompute
+  ueber die reine Diskontierungsformel (1−(1+i)^−N) trifft die **5 %- und 10 %-Zeile** auf
+  ≤1 Prozentpunkt (z.B. 10 J/5 %: Formel 38.6 % vs. Quelle 38.9 %; 50 J/10 %: Formel 99.15 %
+  vs. Quelle 99.2 %). Die **3 %-Zeile weicht staerker und wachsend mit N** ab (10 J: Formel
+  25.6 % vs. Quelle 27 %, Δ1.4 Pp; 30 J: 58.8 % vs. 62 %, Δ3.2 Pp; 50 J: 77.2 % vs. 81.4 %,
+  Δ4.2 Pp) — passt eher zu einem Satz nahe 3.4 % als zu exakt 3.0 %. Vermutlich Rundung/
+  Basiszins-Variante der WP-Kursfolie S. 69, nicht rekonstruierbar ohne das Original. Die
+  Zahlen bleiben **belegt aus der Quelle** (S. 69) und `established` — nur als Merkzahl mit
+  kleinem Vorbehalt bei der 3 %-Zeile zu lesen.
 
 → Eine **JANS-Diskontsatz-Herleitungstabelle** (je Nutzung/Lage/Risiko) bleibt zu
 kalibrieren (D3) — die WP-Anker oben sind die belegte Ausgangsbasis (Datenstand 2023,
@@ -358,6 +367,22 @@ Hotellerie-Taxe setzt sich zusammen aus Lohnkosten Hotellerie, Infrastruktur (Wa
 Abfall), Lebensmittel/Getraenke, nicht der Pflege/Betreuung zuordenbaren Aufwendungen und den
 **Abschreibungen gemaess Anlagebuchhaltung**. Der Vier-Heim-Vergleich (Herosé Tab. 5,
 [[realwert-sachwert]]) verankert die Hotellerietaxe bei **150-180 CHF/Tag** (Neubauten ~2021).
+
+**2b. Annuitaets-Formel unabhaengig verifiziert (Modell D, Run 19 2026-07-12):** Der Text
+"lineare Abschreibung 33 J + separater kalkulatorischer Zins 1.25 %" liest sich wie
+Abschreibung + durchschnittsbasierte Zinsberechnung (P/N + i·P·(N+1)/(2N) ≈ 1'799'943 fuer
+die Hotellerie-Taxe-Zeile — das trifft die publizierte Annuitaet 1'820'000 nur auf ~1.1 %).
+Der **Volltext-Recompute mit der Standard-Annuitaeten-(Kapitalwiedergewinnungs-)Formel**
+PMT = P·i/(1−(1+i)^−N) trifft dagegen **fast exakt**: Hotellerie-Taxe 48'988'000 × 0.0125 /
+(1−1.0125^−33) = **1'820'730** (publiziert 1'820'000, Abw. 0.04 %); Pflege-Abschreibung
+6'812'000 × 0.0125 / (1−1.0125^−33) = **253'196** (publiziert 253'200, Abw. 0.002 %); daraus
+Annuitaet/Bett (÷114 belegte Betten) 15'972/2'221 und /Tag (÷365) 43.75/6.08 reproduzieren
+sich beide exakt. **Praezisierung:** Die CURAVIVA-Anlagebuchhaltung rechnet also faktisch
+eine **konstante Kapitalwiedergewinnungs-Annuitaet** (Zins- und Tilgungsanteil zusammen
+konstant), nicht eine lineare Abschreibung mit separat draufgerechnetem Durchschnittszins.
+Fuer Nachrechnungen (Skill `healthcare-wirtschaftlichkeit`) ist die Annuitaetenformel oben
+die belastbare Rechenvorschrift. Verdikt: Zahlen **bestanden** (bereits zuvor `established`),
+Formel-Beschreibung jetzt praezisiert.
 
 **4. Spezialfinanzierung:** Die Abteilung Pflegeheime fuehrt seit 2002 ein **Rueckstellungs-/
 Investitionsfonds-System, gespeist aus der Hotellerie-Taxe** (keine Steuergelder). Der Fonds
@@ -673,3 +698,10 @@ Nettoertraege + Exitwert werden auf den Barwert abgezinst.
 - Terminalwert-Multiplikator-Praxis; Excel-Formeln (D4, Freigabe offen).
 - **D3-Rest (Bring-Schuld, praezisiert):** die exakte Pp-Kalibrierung der Gewerbe-Segment- und
   Illiquiditaets-/Objektzuschlaege (Segment-Reihenfolge + Healthcare-Yield sind belegt).
+- ✓ 2026-07-12 (Verifikations-Pass, Run 19): **Herosé-Annuitaeten unabhaengig nachgerechnet**
+  (Modell D) — Standard-Kapitalwiedergewinnungsformel PMT=P·i/(1−(1+i)^−N) trifft beide
+  publizierten Annuitaeten auf ≤0.04 % (praeziser als die zunaechst nahegelegte lineare-
+  Abschreibung-+-Durchschnittszins-Lesart, Abw. ~1.1 %) → Formel-Praezisierung eingearbeitet.
+  **Barwert-Verlust-Tabelle (S. 69)** teilweise nachgerechnet: 5 %/10 %-Zeilen bestehen (≤1 Pp),
+  3 %-Zeile weicht wachsend ab (bis 4.2 Pp bei 50 J) → ⚠-Vermerk, Status bleibt `established`
+  (Quelle bestaetigt Grosstrend, nicht jede Nachkommastelle).

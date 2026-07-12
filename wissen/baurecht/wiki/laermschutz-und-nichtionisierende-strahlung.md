@@ -3,9 +3,10 @@ name: laermschutz-und-nichtionisierende-strahlung
 beschreibung: Baulicher Umweltschutz im Kt. ZH — Laermschutz (LSV, Empfindlichkeitsstufen, Aufhebung Lueftungsfensterpraxis, Baubewilligung trotz IGW-Ueberschreitung Art. 31 Abs. 2 LSV, Fluglaerm) und Schutz vor nicht ionisierender Strahlung (NISV, IGW/AGW, OMEN, Mobilfunkantennen).
 status: emerging
 kanton: ZH
-paragraphen: ["Art. 11-25 USG", "Art. 24 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31a LSV", "Art. 32 LSV", "Art. 39 LSV", "Art. 2 NISV", "Art. 3 NISV", "Art. 6 NISV", "Art. 11 NISV", "Anhang 1 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
+paragraphen: ["Art. 11-25 USG", "Art. 24 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31a LSV", "Art. 32 LSV", "Art. 35 LSV", "Art. 39 LSV", "Anhang 5 Ziff. 222 LSV", "Art. 2 NISV", "Art. 3 Abs. 6 NISV", "Art. 5 NISV", "Art. 11 NISV", "Art. 12 NISV", "Anhang 1 Ziff. 61/62/64 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
 quellen: ["[[19-baulicher-umweltschutz]]", "[[19-baulicher-umweltschutz-teil2-laerm-nisv]]"]
-last_updated: 2026-07-11
+verifiziert: 2026-07-12 (Modell-D LSV/NISV, Buch-Run 32)
+last_updated: 2026-07-12
 ---
 
 # Laermschutz und Schutz vor nicht ionisierender Strahlung (baulicher Umweltschutz ZH)
@@ -64,9 +65,11 @@ zu **verweigern**, es sei denn, es besteht ein **überwiegendes Interesse an der
 ### Zweistufiges Konzept
 - **Immissionsgrenzwert (IGW, Anhang 2 NISV):** Gefährdungs-/Minimalwert, **überall** einzuhalten
   (Orte für kurzfristigen Aufenthalt), 6-Minuten-Mittelwert.
-- **Anlagegrenzwert (AGW, Art. 6 Abs. 3 NISV):** nur die Strahlung **einer einzelnen Anlage**,
+- **Anlagegrenzwert (AGW, Art. 3 Abs. 6 NISV):** nur die Strahlung **einer einzelnen Anlage**,
   **Faktor 10 strenger**, nur an **Orten mit empfindlicher Nutzung (OMEN)** einzuhalten — die
-  eigentliche Vorsorge gegen nicht-thermische Langzeiteffekte.
+  eigentliche Vorsorge gegen nicht-thermische Langzeiteffekte. (Modell-D-Korrektur 12.07.2026:
+  die Legaldefinition steht in Art. 3 Abs. 6 NISV, nicht in Art. 6 NISV — Art. 6 NISV regelt die
+  Änderung neuer Anlagen.)
 
 ### OMEN — Orte mit empfindlicher Nutzung (Art. 3 Abs. 3 NISV)
 - **Empfindliche Räume:** Wohn-/Schlafräume, Badezimmer, ganzjährige Wintergärten, Schulräume,
@@ -77,10 +80,14 @@ zu **verweigern**, es sei denn, es besteht ein **überwiegendes Interesse an der
 - Unüberbaute Grundstücke gelten mit ihrer planungsrechtlich möglichen Bebauung.
 
 ### Mobilfunkantennen (praxisrelevant)
-- **Anlagegrenzwerte (Ziff. 64 Anhang 1 NISV): 400/800/900 MHz = 4 V/m; 1800/2100/2600 MHz =
-  6 V/m; Kombination = 5 V/m** → je nach Netz **4-6 V/m**. Bei höherer Sendeleistung Abstand zu
-  Nachbargebäuden ggf. **30-50 m** (Antenne strahlt vertikal nach unten schwächer → für das
-  Standortgebäude selbst genügt oft ein geringer Abstand).
+- **Anlagegrenzwerte (Ziff. 64 Anhang 1 NISV):** der amtliche Wortlaut staffelt nach
+  **Frequenzbereich**, nicht nach Einzelfrequenz-Liste: Anlagen **ausschliesslich im Bereich um
+  900 MHz oder niedriger = 4,0 V/m**; **ausschliesslich um 1800 MHz oder höher = 6,0 V/m**;
+  **alle anderen (Kombi-Anlagen) = 5,0 V/m**. Für die gängigen Trägerfrequenzen ergibt das in der
+  Praxis: 400/800/900 MHz → 4 V/m; 1800/2100/2600 MHz → 6 V/m; Kombination → 5 V/m → je nach Netz
+  **4-6 V/m**. Bei höherer Sendeleistung Abstand zu Nachbargebäuden ggf. **30-50 m** (Antenne
+  strahlt vertikal nach unten schwächer → für das Standortgebäude selbst genügt oft ein geringer
+  Abstand).
 - **Innerhalb der Bauzone:** Anspruch auf Baubewilligung (**§ 320 PBG**), wenn zonenkonform
   (Art. 22 Abs. 2 lit. a RPG / § 253 PBG, funktionelle Beziehung) — **kein Bedürfnisnachweis, kein
   Alternativstandort-Nachweis, keine umfassende Interessenabwägung** (BGer 1C_329/2013; URP 2015

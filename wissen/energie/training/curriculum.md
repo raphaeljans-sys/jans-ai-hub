@@ -21,8 +21,12 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (FAQ F48). **Gruppe 4.1 Fensteranschluss + Gruppe 3.4 Sockel ebenfalls belegt 2026-07-12** (Ψ
   0,08-0,36 bzw. 0,02-0,82 je nach Ausfuehrung/Daemmtiefe) → `[[waermebrueckenkatalog-bfe-fensteranschluss]]`,
   `[[waermebrueckenkatalog-bfe-sockel]]` (FAQ F49/F50). Damit die drei haeufigsten Gebaeudeanschluesse
-  (Balkon/Fenster/Sockel) mit konkreten Zahlen belegt. Offen: Flachdach/Steildach/Stuetzen/Fassadenanker
-  (Gruppen 1.2/1.3/3.1-3.3/3.5/4.2/5/6).
+  (Balkon/Fenster/Sockel) mit konkreten Zahlen belegt. **Gruppe 1.2 Flachdach mit Vordach + Gruppe
+  1.3 Flachdach mit Bruestung ebenfalls belegt 2026-07-12** (Vordach ungedaemmt Ψ 0,40-0,53 vs.
+  Dorn-Anschluss praktisch null; Bruestung: Material dominiert — Backstein ungedaemmt bereits unter
+  Grenzwert 0,02-0,09, Stahlbeton auch gedaemmt hoch 0,12-0,26) → `[[waermebrueckenkatalog-bfe-flachdach-vordach]]`,
+  `[[waermebrueckenkatalog-bfe-flachdach-bruestung]]` (FAQ F51/F52). Damit Gruppe 1 (Flachdach-Anschluesse)
+  vollstaendig. Offen: Steildach/Stuetzen/Fassadenanker (Gruppen 3.1-3.3/3.5/4.2/5/6).
 - [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
   Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /

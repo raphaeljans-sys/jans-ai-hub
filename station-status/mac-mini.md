@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.07.2026 23:37:42
+Stand: 12.07.2026 23:57:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:27)
-- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 23:08)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +12,4 @@ Stand: 12.07.2026 23:37:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b893723e energie-training Run 37: Waermebruecken Fensteranschluss + Sockel (F49-F50), MuKEn-2025-Grauenergie-Formel
+- 26578ae0 baurecht: Buch-Run 32 Modell-D Volltextabgleich §§ 278-293 PBG (Fassadenhoehe/Gesamthoehe/Hochhaus/Dachaufbauten)

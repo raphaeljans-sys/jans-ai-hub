@@ -24,9 +24,24 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben (Ingest).** Der Wuest-Kurs, alle lesbaren E-Quellen, T19, **D4** (Excel-Tool-Formeln, Run 15) **und D8** (JANS-Kennwerte-DOCX + Healthcare-Umbaukosten, Run 16) sind eingearbeitet; der Loop ist im **Verifikations-/Aktualisierungs-Modus** (Belege gegenpruefen, Marktpuls, neue reale Faelle). **Neu Run 18 (2026-07-12): Verifikations-Pass Healthcare-Kennwerte** — die tragenden Zahlen (Herose-Anker, JANS-Wohn-Kennwert-Kette, 6 von 8 Heim-Objekten) per Volltext-Recompute **bestanden/reproduzierbar**; 2 Roh-Zeilen (Averecura/Vella) inkonsistent → **D10** (Bring-Schuld Blatt-Bereinigung), m3-2003-Indexierung → **D11** (fehlender Index-Faktor). Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (siehe A-Tabelle). Emilienheim-Flaechenkennwerte **bestaetigt nicht verfuegbar**. **Marktpuls-Stand unveraendert seit Run 17.** → **Empfehlung an Raphael: Ruecktaktung ins Nachtfenster** (der auto-schliessbare Rueckstand ist abgearbeitet; siehe Run-18-Report) | — | — |
+| — | **Keine offenen T-Aufgaben (Ingest).** Der Loop bleibt im **Verifikations-/Aktualisierungs-Modus**. **Neu Run 19 (2026-07-12): Verifikations-Pass Ertragswert-/Residualwert-Kennwerte** — Herosé-Annuitaetenformel praezisiert (Kapitalwiedergewinnungsformel statt linear+Durchschnittszins), DXMA-A4-Rechenbeispiel vollstaendig nachgerechnet (aGF/GF-Kostenbasis-Klarstellung gefunden), Barwert-Verlust-Tabelle S. 69 teil-verifiziert (3 %-Zeile mit ⚠). Alles **bestanden**, keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (siehe A-Tabelle, unveraendert seit Run 18). **Marktpuls-Stand unveraendert seit Run 17.** → **Empfehlung an Raphael unveraendert: Ruecktaktung ins Nachtfenster** (der auto-schliessbare Rueckstand ist abgearbeitet, der Loop haertet nur noch bestehende Kennwerte weiter — Grenznutzen sinkend) | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-12 **Verifikations-Pass Ertragswert-/Residualwert-Kennwerte (Run 19)** — zweiter
+  Lauf im Verifikations-Modus, wie im Run-18-Report als naechster Komplex angekuendigt.
+  **Modell D (Volltext-Recompute):** (1) Herosé-Annuitaeten (1'820'000/253'200) reproduzieren
+  sich **fast exakt** (Abw. 0.04 %/0.002 %) mit der Standard-Kapitalwiedergewinnungsformel
+  PMT=P·i/(1−(1+i)^−N) — praeziser als die zunaechst nahegelegte lineare-Abschreibung-+-
+  Durchschnittszins-Lesart (Abw. ~1.1 %) → [[ertragswert-dcf]] praezisiert. (2) **DXMA-A4-
+  Rechenbeispiel** (Ertragswert Miete/STWE, Investition, Landwert) komplett nachgerechnet:
+  bestanden bis auf Rundung; wichtiger Fund — die **BKP-2-Kosten rechnen auf aGF (810 m2),
+  nicht auf GF (1'050 m2)**, bisher implizit im Artikel → [[residualwertmethode]] klargestellt.
+  (3) **Barwert-Verlust-Tabelle** (S. 69): 5 %/10 %-Zeilen bestehen (≤1 Pp Abweichung), 3 %-
+  Zeile weicht wachsend ab (bis 4.2 Pp bei 50 J) → ⚠-Vermerk, Status bleibt established. Keine
+  neue Luecke; beide Artikel bleiben `established`, `last_updated` auf 2026-07-12.
+
+
 
 - ✓ 2026-07-12 **Verifikations-Pass Healthcare-Kennwerte (Run 18)** — erster Lauf im
   Verifikations-Modus (PFLICHT-Stufe ab 12.07., Rule auto-verbesserungen 260712). **Modell D

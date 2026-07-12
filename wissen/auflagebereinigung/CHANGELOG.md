@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Wissens-Chef Run 2 (Cross-KB): Querbezuege zu baurecht + Baubeginn praezisiert
+- [link] [[fristenlogik-bauentscheid-zh]] -> baurecht `nebenbestimmungen-und-reverse` (Rechtsnatur § 321 PBG) + `bauausfuehrung-und-baukontrolle` (Baufreigabe § 326 / Meldepflichten § 327 / § 23 BVV). [[aemter-stadt-zuerich]] -> baurecht `baubewilligungsverfahren` (§ 318/§ 329, Wer-Adressat).
+- [praezisiert] [[fristenlogik-bauentscheid-zh]]: «vor Baubeginn = vor erstem Spatenstich» ergaenzt um juristische Definition **Aushubbeginn** (Abstecken/Installation kein Baubeginn, § 326 PBG / RB 1994 Nr. 88). Cross-KB-Fund W1 adversarial WIDERLEGT (nur Praezisionsstufe, kein Sachwiderspruch) — Praezisierung statt Korrektur.
+
 ## 2026-07-01 — Wissens-Health-Check (Phase 1, Audit) durchgeführt
 
 - Audit A–G, Report `outputs/2026-07-01_health-check.md`. Ampel: B/C/D/F grün, A/E/G orange.

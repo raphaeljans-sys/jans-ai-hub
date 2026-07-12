@@ -13,6 +13,40 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-12 23:56 — Beide Stationen gesund, Volllast bestaetigt; Diagnose-Fallgrube dokumentiert [FREI]
+
+**Fensterzustand [FREI]:** Token gueltig, `claude -p --model haiku` liefert «OK» rc=0 (mit
+korrektem Export). Keine Limit-Rueckweisung → das 5h-Fenster hat noch Kapazitaet, Vollgas laeuft.
+
+**Lagebild (alles gruen):**
+- MacBook-Runner gesund (PID 81252 + Subshell 81659, saubere PPID-Struktur); Zyklus 1 laeuft,
+  `baurecht-buch-training` 3+ Min durchgelaufen, `immobewertung-training` seit 23:51:49 aktiv.
+  Der alte Stale-Prozess von 23:47 (1-s-rc=1-Serie) ist weg — nur ein Runner uebrig.
+- Mini-Runner gesund (PID 61179): `energie-training` 544 s rc=0, `planungsgrundlagen-training`
+  799 s rc=0 (Run 20), Zyklus neu gestartet 23:52:48. Keine STOP-Datei mehr.
+- Durchsatz stark: **24 Commits/90 Min** ueber 6 KBs (baurecht Run 32, normen run4 + mini Run 2,
+  planungsgrundlagen Run 20, energie Run 37, wettbewerbs-dna 11/11-Abschluss, immobewertung Run 18).
+  Beide Runner fahren ~13-Min-Jobs sequenziell back-to-back = kontinuierlicher Token-Burn.
+
+**Diagnose-Fallgrube (fuer kuenftige Laeufe festhalten):** Ein blosses `source ~/.jans-dispatch.env;
+claude -p …` meldet «Not logged in», weil die Token-Zeile im Env-File KEIN `export` traegt — ohne
+`set -a` wird die Variable nicht an den `claude`-Subprozess vererbt. Der Runner macht es richtig
+(`set -a; . env; set +a`, Zeile 34). Also: «Not logged in» im Handtest ist KEIN Login-Blocker,
+solange der Runner-Env-Export intakt ist — vor P1-Login-Alarm IMMER mit `set -a` gegenpruefen.
+
+**Hebel-Priorisierung:** Fenster hat Kapazitaet und wird durch beide Dauer-Runner + launchd-Tasks
+stark gefuellt. Kein akuter Hebel noetig — Kontinuitaet ueber die Fenster sichern.
+- **P2 — Git-Lock-Contention ueber SMB** (Rest-Bremse, wie 23:15): Runner + launchd-Scheduled-Tasks
+  committen parallel auf EIN NAS-`.git` ueber SMB → `index.lock`-Serialisierung frisst Wall-Clock.
+  Sauberer Hebel: Trainings gebuendelt/seltener committen lassen, `nas-selfcommit` uebernimmt das
+  Pushen exklusiv. Strukturelle Aenderung — nicht nachts autonom umbauen, tagsueber vorschlagen.
+- **P3 — wettbewerbs-dna Endbedingung?** Commit «Volllast-Abschluss 11/11 Teilnahmen verifiziert,
+  … konsolidiert» deutet auf ein fertiges Inventar. Beim naechsten Tageslauf pruefen, ob der
+  Loop `wettbewerbs-dna-training`/`-nachbrenner` beendet und die Kapazitaet auf die groesste
+  offene Wissensluecke (Normen-Inventar P1/P2) umgelenkt werden soll.
+
+**Mail:** KEINE (kein neuer P1, kein frisch geloester P1 — die Runner-Reparatur war 23:48/23:52).
+
 ## 2026-07-12 23:52 — ECHTE URSACHE gefunden: MacBook-Runner war STALE (alte In-Memory-Version) [FREI]
 
 **Aufloesung des Widerspruchs (23:15 vs. Live-Log):** Weder Login noch geteiltes Limit — der

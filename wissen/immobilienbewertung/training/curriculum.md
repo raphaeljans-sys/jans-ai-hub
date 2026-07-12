@@ -58,10 +58,13 @@ Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen.
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
 
-**Stand Run 18 (2026-07-12):** Ingest-Curriculum vollstaendig abgearbeitet (Wuest-Kurs + E1-E10,
-alle T-Aufgaben, D4/D8). Der Loop ist im **Verifikations-Modus** (PFLICHT ab 12.07.). Run 18 =
-Modell-D-Volltext-Recompute der Healthcare-Neuwert-Kennwerte: tragende Werte reproduzierbar
-(bestanden), 2 Roh-Zeilen des 8-Objekt-Blatts inkonsistent → D10; m3-2003-Indexierung → D11.
-**Ruecktaktung ins Nachtfenster empfohlen** (kein auto-schliessbares Ingest-Material mehr; naechstes
-externes Signal ab 01.09.2026). Naechster Verifikations-Komplex: Ertragswert-/Diskont-Kennwerte
-([[ertragswert-dcf]]) + Residualwert-Excel-Formeln.
+**Stand Run 19 (2026-07-12):** Ingest-Curriculum vollstaendig abgearbeitet (Wuest-Kurs + E1-E10,
+alle T-Aufgaben, D4/D8). Der Loop ist im **Verifikations-Modus** (PFLICHT ab 12.07.). Run 19 =
+Modell-D-Volltext-Recompute der Ertragswert-/Residualwert-Kennwerte: Herosé-Annuitaetenformel
+praezisiert (Kapitalwiedergewinnungsformel), DXMA-A4-Rechenbeispiel vollstaendig bestanden
+(aGF/GF-Kostenbasis-Klarstellung gefunden), Barwert-Verlust-Tabelle S. 69 teil-verifiziert
+(3 %-Zeile ⚠). Keine neue Luecke. **Ruecktaktung ins Nachtfenster weiterhin empfohlen** (kein
+auto-schliessbares Ingest-Material mehr; naechstes externes Signal ab 01.09.2026). Naechster
+Verifikations-Komplex (falls Intensiv-Takt weiterlaeuft): Nutzungskonzeptions-/Marktanalyse-
+Kennzahlen ([[nutzungskonzepte]]) oder das Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert»
+(S. 153-155, drei Varianten-Zeilen nachrechnen).

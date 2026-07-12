@@ -21,9 +21,11 @@ python3.12 -m venv ~/.venvs/synobsis
 # Erststart laedt das Modell intfloat/multilingual-e5-base (~1 GB) einmalig
 ~/.venvs/synobsis/bin/python tools/synobsis_embed.py
 ```
-Ergebnis: `catalog/vectors.npz`. Test:
+Ergebnis: `catalog/vectors.npz`. Test (numpy/sentence-transformers liegen nur im
+`synobsis`-venv, NICHT im `pdftools`-venv — dort faellt die Suche sonst auf
+Stichwort-Modus zurueck):
 ```bash
-~/.venvs/pdftools/bin/python tools/synobsis_query.py --semantic "introvertierter Hof Beton Kapelle"
+~/.venvs/synobsis/bin/python tools/synobsis_query.py --semantic "introvertierter Hof Beton Kapelle"
 ```
 
 ## 2. Erstdurchlauf anstossen (853 Architekten in Chargen)

@@ -55,8 +55,21 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   **WIDERLEGT** — verschiedene Rollen). Mehrere fehlende Querlinks.
 - **Aktion:** Backlink beide Richtungen (arbeitsweise ↔ anwendung-jans). **Status: bereinigt.**
 
+### auflagebereinigung ↔ baurecht — geprueft 2026-07-12 (Run 2)
+- **Befund:** Inhaltlich konsistent, verschiedene Flughoehen (baurecht = Rechtsnatur/Verfahren,
+  auflagebereinigung = operative Umsetzung). 1 Widerspruch W1 (Baubeginn-Definition, niedrig)
+  **WIDERLEGT** (nur Praezisionsstufe: umgangssprachl. Spatenstich = jur. Aushubbeginn). 1 Doppelspur
+  (Fristen-Phasen = designter Handoff, kein Eingriff). 5 fehlende Backlinks.
+- **Aktion:** 4 Backlinks gesetzt (fristenlogik -> nebenbestimmungen + bauausfuehrung; aemter ->
+  baubewilligungsverfahren; bauausfuehrung -> fristenlogik) + Baubeginn juristisch praezisiert
+  (§ 326 PBG). **Status: bereinigt.**
+
+### W3-Nachverifikation (Baupreisindex) — 2026-07-12 (Run 2)
+- **grobkosten Teuerungsstand vs. immobilienbewertung BFS-Index:** adversarial **WIDERLEGT** — Seed
+  ±25 % legitim, reale Bauteuerung 2023->2026 ~2-3 %. Teuerungs-Check-Verlinkung gesetzt. **Erledigt.**
+
 ## Noch nie gepruefte Paare (Rotation kuenftige Laeufe)
-- auflagebereinigung ↔ baurecht/brandschutz (Aemter/Fristen/QSS)
+- energie ↔ baurecht (Energienachweis-Pflicht im Bewilligungsverfahren) — Vorschlag Run 3
 - kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext)
 - immobilienbewertung ↔ grobkosten (Landwert/Residual ↔ Kennwerte) — vertieft
 - energie ↔ baurecht (Energienachweis-Pflicht im Bewilligungsverfahren)

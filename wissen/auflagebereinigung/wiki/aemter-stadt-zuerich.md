@@ -39,5 +39,9 @@ kantonalen Betrieb des Spitals) läuft separat und kann «ohne Auflagen» ergehe
 im Entscheid nur vorzumerken (Koordinationspflicht § 7 BVV). Die eigentlichen Auflagen
 stammen von den **städtischen** Stellen + GVZ.
 
+> **Querbezug KB baurecht (Verfahrensgrundlage):** Die Zuständigkeit der örtlichen Baubehörde
+> (§ 318 PBG) und der direkte Rekurs ans Baurekursgericht (§ 329 PBG) führt
+> `wissen/baurecht/wiki/baubewilligungsverfahren` — der Rechtsanker für die «Wer-Adressat»-Logik.
+
 ## Offene Punkte
 Direktnummern/Kontaktpersonen je Amt → sammeln (siehe [[QUESTIONS]]).

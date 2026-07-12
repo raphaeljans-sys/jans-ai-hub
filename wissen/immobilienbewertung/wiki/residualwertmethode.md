@@ -1,7 +1,7 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-12
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte]
 links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]]
 ---
@@ -285,6 +285,30 @@ Lesart: Das Blatt rechnet vom Endwert (Block 2) rueckwaerts auf den zahlbaren La
 Es ist die schlanke, praesentierbare Schwester des Excel-Tools — ideal fuer den
 Erstcheck/Off-Market-Deal. Einordnung in die sechs Faktoren: [[erfolgsfaktoren-wettbewerb]].
 
+**Volltext-Recompute des DXMA-Rechenbeispiels (Modell D, Run 19 2026-07-12):** Die Kette
+Block 2 → Block 4 wurde unabhaengig nachgerechnet — **bestanden, exakt bis auf Rundung**:
+Ertragswert Miete 400×808 HNF + 4×140×12 Parking = 330'200/0.025 = **13'208'000 ≈ 13'200'000**;
+Ertragswert STWE 16'500×808 + 4×25'000 = **13'432'000 ≈ 13'430'000**; Landwert STWE
+13'430'000 − 5'440'000 = **7'990'000** (exakt); Landwert Mietobjekt (mit −5 % Baukosten-
+Abschlag) ≈ **8'030'000** (bestaetigt). **Wichtige Praezisierung dabei gefunden:** Die
+**BKP-2-Kosten (4'000 CHF/m2 → 3'230'000) beziehen sich auf die aGF (810 m2), nicht auf die
+GF (1'050 m2)** — 4'000×810=3'240'000≈3'230'000, waehrend 4'000×1'050=4'200'000 klar
+abweicht. Diese Kostenbasis war im Blatt nicht explizit benannt und ist fuer die Nach-
+rechnung entscheidend: **Erstellungskosten (BKP 2) auf aGF, Mietertrag/HNF auf GF-Effizienz**
+— zwei verschiedene Flaechenbezuege im selben Rechenschema. Die **BKP1-5-«80 %-Aufschlag»**-
+Formulierung bedeutet **BKP2 = 80 % von BKP1-5** (Division, nicht Multiplikation):
+3'230'000/0.8=4'037'500≈4'040'000 (bestaetigt; ⚠ abweichend von der 85 %-Regel des
+Wuest-Kurs-Hauptschemas oben — DXMA verwendet 80 %, zwei leicht unterschiedliche Quellen-
+Konventionen). Total Investition 4'040'000+400'000(Risiko 10 %)+800'000(PE 20 %)+
+200'000(Finanzierung, aus 144'000+52'000) = **5'440'000** (exakt). Die EK-Rendite-Basis
+(FK 3'600'000 + EK 2'400'000 = 6'000'000) rechnet auf **Kaufpreis + Working Capital**
+(5'700'000+300'000), nicht auf den Kaufpreis allein (bestaetigt). Einzig die Entwicklungs-
+gewinn-Absolutbetraege (2'380'000/2'340'000) liessen sich nur auf ~2 % genau nachvollziehen
+(Rundungskette ueber mehrere Bloecke); die daraus abgeleiteten EK-Renditen (99 %/98 %)
+reproduzieren sich exakt als Gewinn/EK. **Gesamtverdikt: bestanden**, Artikel bleibt
+`established`; die aGF/GF-Kostenbasis-Klarstellung ist der eigentliche Mehrwert dieser
+Verifikation fuer kuenftige Nachrechnungen.
+
 ## Lehrstueck: hoeherer Ertrag ≠ hoeherer Landwert (S. 153-155)
 
 Varianten-Vergleich auf identischem Grundstueck (GF je 8'760 m2):
@@ -335,3 +359,10 @@ Resultat — deshalb immer als Bandbreite (hoch/tief), nie als Punktwert ausweis
   Finanzierungspraxis (D5, Bring-Schuld Raphael).
 - ✓ 2026-06-09: Wuest-Kurs Modul 1 (S. 13-72) vollstaendig eingearbeitet (Lauf 1 des
   Trainings; Schema, Risiko-/Gewinnrichtwerte, Abzuege, Tool-Defaults, Sensitivitaet).
+- ✓ 2026-07-12 (Verifikations-Pass, Run 19): **DXMA-A4-Rechenbeispiel vollstaendig Modell-D-
+  nachgerechnet** — Ertragswert Miete/STWE, Total Investition und Landwert STWE/Mietobjekt
+  reproduzieren exakt bis auf Rundung; Entwicklungsgewinn nur auf ~2 % nachvollziehbar
+  (Rundungskette). Wichtiger Fund: **BKP-2-Kosten rechnen auf aGF (810 m2), nicht auf GF
+  (1'050 m2)** — bisher nicht explizit im Artikel; jetzt als Klarstellung ergaenzt (wichtig
+  fuer kuenftige Nachrechnungen). DXMA-«80 %-Aufschlag» = BKP2/0.8, abweichend von der
+  85 %-Regel des Wuest-Hauptschemas (zwei Quellen-Konventionen, beide belegt).

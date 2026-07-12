@@ -74,6 +74,17 @@ bleibt established; Rohband praezisiert auf 2'623-3'981. Neue Luecke **D11** (m3
 aufindexieren — Index-Faktor 2003→2026 fehlt, nicht geraten). Kein Ingest, Marktpuls unveraendert
 seit Run 17. **Ruecktaktung ins Nachtfenster empfohlen** (auto-schliessbarer Rueckstand abgearbeitet).
 
+**Stand Run 19 (2026-07-12):** **Verifikations-Pass Ertragswert-/Residualwert-Kennwerte — kein
+neuer Ingest.** Modell-D-Volltext-Recompute: (1) Herosé-Annuitaeten (1'820'000/253'200) reproduzieren
+sich fast exakt (Abw. 0.04 %/0.002 %) mit der Standard-Kapitalwiedergewinnungsformel
+PMT=P·i/(1−(1+i)^−N) — praeziser als die lineare-Abschreibung-+-Durchschnittszins-Lesart (Abw. ~1.1 %)
+→ [[ertragswert-dcf]] praezisiert. (2) DXMA-A4-Rechenbeispiel vollstaendig nachgerechnet: bestanden
+bis auf Rundung; Fund — BKP-2-Kosten rechnen auf aGF (810 m2), nicht auf GF (1'050 m2) →
+[[residualwertmethode]] klargestellt. (3) Barwert-Verlust-Tabelle S. 69: 5 %/10 %-Zeilen bestehen
+(≤1 Pp), 3 %-Zeile weicht wachsend ab (bis 4.2 Pp) → ⚠-Vermerk. Keine neue Luecke, beide Artikel
+bleiben established. Kein Ingest, Marktpuls unveraendert. **Ruecktaktung ins Nachtfenster weiterhin
+empfohlen** (Grenznutzen des Intensiv-Takts sinkend, da Ingest laengst abgearbeitet).
+
 **Stand Run 17 (2026-07-12):** **Reiner Auffrischungslauf (Marktpuls) — keine neue Quelle, keine
 offene auto-schliessbare Luecke.** Der Bewertungsordner (`01 Projekte/01 BEWERTUNG PROJEKTE`) wurde
 geprueft: **kein neuer JANS-Bewertungsfall** seit Run 6 (juengster Ordner Wangen 8855, 09.06.). Der

@@ -2,6 +2,32 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-12 — Training-Run 19: Verifikations-Pass Ertragswert-/Residualwert-Kennwerte (Modell D)
+
+- **Zweiter Lauf im Verifikations-Modus** (Fortsetzung Run 18). Kein neuer Ingest — haertet die
+  am haeufigsten reproduzierten Rechenwege per **Volltext-Recompute**.
+- **Herosé-Annuitaeten** (1'820'000 Hotellerie-Taxe / 253'200 Pflege-Abschreibung): Standard-
+  Kapitalwiedergewinnungsformel PMT=P·i/(1−(1+i)^−N) trifft beide auf ≤0.04 % — praeziser als
+  die zunaechst nahegelegte lineare-Abschreibung-+-Durchschnittszins-Lesart (Abw. ~1.1 %).
+  Formel-Beschreibung in [[ertragswert-dcf]] praezisiert.
+- **DXMA-A4-Rechenbeispiel** (Ertragswert Miete/STWE, Investition, Landwert): vollstaendig
+  nachgerechnet, bestanden bis auf Rundung. Fund: **BKP-2-Kosten rechnen auf aGF (810 m2), nicht
+  auf GF (1'050 m2)** — bisher nicht explizit; jetzt in [[residualwertmethode]] klargestellt.
+  DXMA-«80 %-Aufschlag» = BKP2/0.8 (abweichend von der 85 %-Regel des Wuest-Hauptschemas, zwei
+  belegte Quellen-Konventionen).
+- **Barwert-Verlust-Tabelle** (Wuest-Kurs S. 69): 5 %/10 %-Zeilen bestehen (≤1 Pp Abweichung),
+  3 %-Zeile weicht wachsend ab (1.4 Pp bei 10 J → 4.2 Pp bei 50 J) → ⚠-Vermerk in
+  [[ertragswert-dcf]], Status bleibt established.
+- **Verdikt:** keine neue Luecke, keine Herabstufung. Beide Artikel bleiben `established`,
+  `last_updated` auf 2026-07-12.
+- [edit] [[ertragswert-dcf]] — Annuitaetenformel-Praezisierung, Barwert-Verlust-⚠-Vermerk,
+  `last_updated`, «Offen»-Sektion.
+- [edit] [[residualwertmethode]] — DXMA-Recompute-Sektion, aGF/GF-Klarstellung, `last_updated`,
+  «Offen»-Sektion.
+- [edit] `wiki/wissensluecken.md`, `raw/_INGESTED.md`, `training/curriculum.md`, `wiki/INDEX.md`
+  — Run-19-Verifikationsstand.
+- [output] `outputs/2026-07-12_training-run19.md`.
+
 ## 2026-07-12 — Wissens-Chef Run 1 Nachtrag: E1 entschieden (HNF/GF-Faktor kontextabhaengig)
 - [entscheid] Fachentscheid E1 (Raphael 12.07.2026) Hub-weit verankert: Gesamtgebaeude 0.60–0.61 (m²↔m³-Bruecke), Regelgeschoss 0.70. In realwert-sachwert.md als Entscheid-Box gesetzt; grobkosten verweist hierher. Der Faktor war in dieser KB bereits latent beidseitig genutzt (Z.96 /0.70 Geschoss, Z.156 0.61 Gesamtgebaeude).
 

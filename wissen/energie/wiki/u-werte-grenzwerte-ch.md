@@ -52,6 +52,16 @@ Daemmtiefe unterhalb UK Kellerdecke entscheidet: 20 cm → Ψ 0,61 (~3× Grenzwe
 (~1,5×, bleibt trotzdem drueber); erst durchgehende Perimeterdaemmung der ganzen Kellerwand
 bringt den Wert in Grenzwertnaehe → `[[waermebrueckenkatalog-bfe-sockel]]` (FAQ F50).
 
+**Flachdach mit Vordach (Gruppe 1.2):** durchbetoniertes, ungedaemmtes Vordach Ψ 0,40-0,53
+(1,3-1,8× ueber Grenzwert 0,30) — Groessenordnung wie die durchbetonierte Balkonplatte; mit
+Dorn-Anschluss (thermisch getrennt statt durchgehende Platte) sinkt der Wert auf praktisch null
+oder leicht negativ (−0,08 bis 0,04) → `[[waermebrueckenkatalog-bfe-flachdach-vordach]]`.
+
+**Flachdach mit Bruestung (Gruppe 1.3):** hier dominiert das **Material** ueber die Daemmung —
+eine Backstein-Bruestung liegt praktisch immer (auch ungedaemmt: Ψ 0,02-0,09) unter dem
+Grenzwert 0,30, eine durchgehende Stahlbeton-Bruestung dagegen selbst gedaemmt meist darueber
+oder knapp darunter (Ψ 0,12-0,26) → `[[waermebrueckenkatalog-bfe-flachdach-bruestung]]`.
+
 ## Heizwaermebedarf Q_H
 Formel und Bilanz: `[[sia-380-1-heizwaermebedarf-berechnung]]`
 (Q_h = Q_T + Q_V − η_g·(Q_i + Q_s)). Grenzwert je Kategorie: Q_H,li = Q_H,li0 + ΔQ_H,li·(A_th/A_E),

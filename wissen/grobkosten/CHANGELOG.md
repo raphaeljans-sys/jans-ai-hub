@@ -1,5 +1,9 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-12 — Wissens-Chef Run 2 (Cross-KB): Teuerungs-Check verlinkt
+- [befund] W3 (Teuerungsstand grobkosten «Wüest 2022/23» vs. aktueller BFS-Baupreisindex) adversarial **WIDERLEGT**: Seed-Basis legitim (Werte explizit Seed ±25 %, Kalibrierquelle transparent, reale Bauteuerung 2023->2026 nur ~2-3 %, weit unter der Spanne). Kein Fehler.
+- [link] kennwerte.md: Teuerungs-Check-Note + Verweis auf `immobilienbewertung/wiki/investorenmarkt-makro` (BFS April 2026 = 100.6). Compounding-Verlinkung, keine Wertkorrektur.
+
 ## 2026-07-12 — Wissens-Chef Run 1 Nachtrag: E1 entschieden (HNF/GF-Faktor kontextabhaengig)
 - [entscheid] Fachentscheid E1 (Raphael 12.07.2026): HNF/GF-Faktor ist kontextabhaengig — **Regelgeschoss 0.70**, **Gesamtgebaeude 0.60–0.61** (inkl. Sockel/Attika/UG). Fuer die m²↔m³-Kostenbruecke ist der Gesamtgebaeude-Faktor 0.60 kanonisch. In kennwerte.md verankert; die ~1'020 CHF/m³-Ankopplung bleibt gueltig (beruht auf GV/HNF 4.7 Gesamtgebaeude). Cross-KB-Fund grobkosten-W2 damit aufgeloest.
 

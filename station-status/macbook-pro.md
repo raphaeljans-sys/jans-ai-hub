@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.07.2026 23:43:46
+Stand: 12.07.2026 23:53:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:53)
 - /Users/raphaeljans  (letzte Aktivitaet 23:28)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 12.07.2026 23:43:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 33821486 normen-training run4: SIA 118 (1977/1991) Volltext-Destillat, P1-Kernnorm werkvertrag
+- 4a2b7489 vollgas-radar: MacBook-Fast-Fail geloest — stale Runner-Prozess neu gestartet (nicht Login/Token)
