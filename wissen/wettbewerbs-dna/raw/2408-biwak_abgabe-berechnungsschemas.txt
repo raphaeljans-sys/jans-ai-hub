@@ -1,0 +1,74 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2408 WB BIWAK/10 ABGABE GRASSEN BIWAK 2027 -Babuschka-/-Babuschka- f A4 Berechnungsschemas.pdf
+# Extrakt: pdftotext -layout, erstellt 2026-07-12
+
+                                  BERECHNUNGSSCHEMA
+                                  "Grassenbiwak 2027"
+                                  Kennwort: -Babuschka-
+
+                                  Schemata Flächen-& Volumenberechnung
+                                  nach SIA 416
+
+                                  Seite 1:   GF Geschossﬂächenschemas
+                                  Seite 2:   GV Gbeäudevolumen
+                                  Mst.:      1:100
+GSPublisherVersion 0.56.100.100
+                                  Format:    A4
+                                      OG
+                                    38.2 m2
+
+
+
+
+                                      EG
+                                    34.1 m2
+
+
+
+
+                                      UG
+                                    14.8 m2
+
+
+
+
+                                  GF GESCHOSSFLÄCHENSCHEMAS S.1
+
+                                  OG                  : 38.2 m2
+                                  EG                  : 34.1 m2
+                                  UG                  : 14.8 m2
+                                  Tot.                : 87.1 m2 GF
+
+
+                                  Mst.:       1:100
+                                  Format:     A4
+GSPublisherVersion 0.56.100.100
+                                                  11.03m
+
+
+                                                  9.07m
+
+
+
+
+                                  7.30m
+
+
+
+
+                                          7.30m
+
+
+
+
+                                                           GV GEBÄUDEVOLUMEN S.2
+
+                                                           GV Neubau UG   : 50.50 m3
+                                                           GV Neubau EG   : 103.50 m3
+                                                           GV Neubau OG   : 106.00 m3
+                                                           GV Total       : 260.00 m3
+
+
+                                                           Mst.:     -
+                                                           Format:   A4
+GSPublisherVersion 0.56.100.100
+

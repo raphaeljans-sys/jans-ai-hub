@@ -1,0 +1,94 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2408 WB BIWAK/10 ABGABE GRASSEN BIWAK 2027 -Babuschka-/-Babuschka- f 2_Raumprogramm.pdf
+# Extrakt: pdftotext -layout, erstellt 2026-07-12
+
+ Grassenbiak SAC Sektion Engelberg - Projektwettbewerb im offenen Verfahren - Raumprogramm -Babuschka-
+
+                                                                                                                                                                                                            Fläche Projekt
+
+                                                                                         Fläche Programm
+
+
+                                                                    Techn. Lüftung
+                                                                                                                                                                                                        (projektspezifisch
+
+
+                                            Bezeichnung
+                     Raum Nr.                             beheizt
+                                                                                                                                                                                                                  von den
+                                                                                                                    Anforderung Erweiterungs- / Ergänzungsneubau Grassenbiwak SAC
+
+                                                                                                m2
+                                                                                                                                                                                                         Architekturbüros
+                                                                                                                                                                                                              auszufüllen)
+                                                                                                                                                                                                                   2
+                                                                                                                                                                                                               m
+                       1           Schuh,- Stau- und      nein      nein                       8           Ganzjährig gut zugänglicher Eingang zum Biwak. Platz für Skis, Steigeisen, Seile, Pickel,
+                                       Skiraum                                                             Wanderstöcke.
+                                                                                                                                                                                                              7.80
+                                                                                                           Platz für 18 Paar Bergschuhe, Hüttenfinken und Rucksäcke.
+                                                                                                           Der Fluchtweg ist über einen separaten Raum zu führen.
+                       2        Aufenthaltsraum mit        ja       nein             projektabhänig        18 Essplätze (analog Anzahl Gästeschlafplätze).
+                                Selbstversorger-Küche                                   möglichst          Zentrale Lage in der Hütte.
+
+
+
+
+Bereich Gäste
+                                                                                         effizient         Tische, Bänke, Stühle, Schrank/Gestelle für Geschirr/Kochutensilien/ Putzutensilien.
+                                                                                                           Einfache Küche mit Holzkochherd (Tibaherd mit 2 - 4 Kochplatten), Spülbecken ohne
+                                                                                                                                                                                                             17.70
+                                                                                                           Siphonierung - Anschluss an Trocken-WC
+                                                                                                           Abwärme der Küche nutzen zur Raumbeheizung. Aufhängemöglichkeiten zur Trocknung
+                                                                                                           von nassen Kleidern.
+
+                       3        Schlafraum                nein      nein             projektabhänig        18 Gästeschlafplätze, klug organisiert bzw. zoniert. Möglichst effiziente Raumnutzung und
+                                                                                        möglichst          Vermeidung von Erschliessungsfläche.
+                                                                                         effizient         Betten i.d.R. zweistöckig. Matrazenbreite 75cm, -länge 200cm. Pro Schlafplatz                     11.00
+                                                                                                           Brillenablagen, Kleiderhacken. Natürlich Belichtet und belüftet aber keine Dachfenster
+                                                                                                           (Schnee, Regen).
+                       4        Holzdepot                 nein      nein                       3           Für Spaltholz 3m3. Möglichst guter Zugang von innen und aussen.                              2.40 / 3.00m3
+                       5        Trockentoilette           nein        ja                       2           1 Trockentoilette für Kompostierung. Der Toilettenraum und der darunterliegende
+                                                                                                           Fäkalienraum sind eine Einheit und müssen zwingend übereinanderliegen. Der Zugang zur
+                                                                                                           Toilellte kann von innen oder von aussen erfolgen. Wenn der Zugang von aussen erfolgt,             1.70
+                                                                                                           dann muss der Zugang ganzjährig gewährleistet sein (Schneeverfrachtungen beachten).
+                                                                                                           Entlüftung über Dach.
+
+                       6        Fäkalienraum               ja         ja                       3           Fäkalienraum für Komposierung direkt unterhalb der Trockentoilette. Der Fäkalienraum
+                                                                                                           muss zwingend von aussen gut zugänglich sein. Entlüftung über Dach.                                1.90
+
+                           7 Hüttenwerkstatt/             nein      nein                       6           Raum für kleinere Unterhaltsarbeiten mit Werkbank, kleiner Schrank für Putzutensilien.             6.60
+                             Putzraum
+                           8 Elektroverteilung            nein      nein                    0.5            Elektroverteilung für ganzes Biwak mit Steuerung PV Anlage kann in Baterieraum mit
+                                                                                                                                                                                                              0.60
+                                                                                                           kleiner Hauptverteilung integriert werden.
+                           9 Batterieraum                 nein        ja                       2           Separater Batterieraum. Vorschriften für Batterieräume (https://www.suva.ch/de-
+                                                                                                           CH/material/tools-tests/lueftungsmassnahmen-fuer-bleibatterien) beachten. Mechanische              2.00
+                                                                                                           Lüftung.
+
+
+
+
+Bereich Hüttenchef
+                                Total Fläche Biwak                                                                                                                                                           51.70
+
+                       10 PV-Anlage                       nein      nein                       6           Integriert in Dach und Fassade (keine Schneeabdeckung) mind. je 3 m2, total 6 m2.
+                                                                                                           Intelligentes System PV / Batterie (Restnutzung der Energie für Hüttenchef).                       6.00
+
+                       11 Wasserspeicher für              nein      nein               2'000 Liter         Das Dachwasser (Regenwasser) muss gefasst werden inkl. den notwendigen Filtern. Der
+                          schneefreie                                                                      Überlaufschutz muss so erstellt werden, dass das Wasser geführt nach drausen geleitet
+                          Sommermonate                                                                     wird (Tanks in Auffangwanne bei Überlauf wenn Tanks voll sind).                              12.30 / 2000l
+                                                                                                           Speichervolumen 2 x 1'000 Liter, frostsicher, Tank miteinander gekoppelt. Bezug durch
+                                                                                                           einfacher Wasserhahn diekt ab Tank.
+                       12 Helikopterlandeplatz            nein      nein                     25            Ein Landeplatz von 5 x 5 m für Materialtransporte und Notfälle ist mit minimalen
+                          (optional - wenn möglich)                                                        Geländekorrekturen möglichst landschaftsintegrierend im Bereich der heutigen
+                                                                                                           Fahnenstange optional zu planen. Flacher Platz mit max. 1.5 Meter Erhöhung auf den                25.00
+                                                                                                           Seiten im Bereich von 15 x 15 Metern. In Beilage 8 sind die Landemöglichkeiten
+                                                                                                           aufgezeigt.
+                       12 Warenumschlagsplatz             nein      nein                                   Standort vor dem Biwak für Materilanetze für Holzlieferung per Helikopter, guter Zugang zu
+                                                                                                           Holzlager.                                                                                         6.40
+
+
+
+
+                                22.01.25                                                                                                                                                                               1
+

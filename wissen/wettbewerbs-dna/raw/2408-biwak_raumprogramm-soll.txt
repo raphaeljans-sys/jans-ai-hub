@@ -1,0 +1,18 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2408 WB BIWAK/06 Raumprogramm/_Raumprogramm/RAUMPROGRAMM.pdf
+# Extrakt: pdftotext -layout, erstellt 2026-07-12
+
+RAUMPROGRAMM
+
+
+RAUM                  IST         SOLL    Di/erenz
+1Schuhraum            8.0m2       8.0m2   0.0m2
+2 Aufenthaltsraum     13.5m2      k.A.    0.0m2
+3 Schlafraum          24.0m2      k.A.    0.0m2
+4 Holzdepot           1.7m2       3.0m2   - 1.3m2
+5 Trockentoilette     0.8m2       2.0m2   - 1.2m2
+6 Fäkalienraum        kein Raum   3.0m2   - 3.0m2
+7 Hüttenwerkstatt     6.0m2       6.0m2   0.0m2
+8 Elektroverteilung   0.5m2       0.5m2   0.0m2
+9 Batterieraum        2.0m2       2.0m2   0.0m2
+Total                 56.5m2      -       5.5m2
+

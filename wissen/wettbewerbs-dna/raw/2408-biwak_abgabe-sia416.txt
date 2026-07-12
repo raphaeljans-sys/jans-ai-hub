@@ -1,0 +1,35 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2408 WB BIWAK/10 ABGABE GRASSEN BIWAK 2027 -Babuschka-/-Babuschka- f 6_Tabelle Mengenermittlung nach SIA 416.pdf
+# Extrakt: pdftotext -layout, erstellt 2026-07-12
+
+Mengenermittlung Pojektwettbewerb Grassenbiwak 2027 SAC Sektion Engelberg
+
+
+
+nach SIA 416                                                                                             mit einem massstäblichen, überprüfbaren Grundriss-Schema zu ergänzen
+
+ausfüllen
+
+
+
+                                                                                                                                                                               Gebäudevolumen Bestand /
+
+
+
+
+                                                                                                                                             Gebäudevolumen Neubau
+                                                                        Geschossfläche Bestand /
+
+
+
+                                       Geschossfläche Neubau                                                 Gebäudevolumen gesamt                                                                                  Anzahl Schlafplätze
+               Geschossfläche                                           Umbau                                                                                                  Umbau                                                                 m2 / Schlafplatz             m3 / Schlafplatz
+
+Geschoss       GF                                                                                            GV
+UG                              14.8                           14.8 -                                                                 50.5                            50.5 -                                    -                                -                            -
+EG                              34.1                           34.1 -                                                                103.5                           103.5
+OG                              38.2                           38.2 -                                                                106.0                           106.0                                                                18.0
+                                 0.0                                                                                                   0.0
+
+
+Total                           87.1                           87.1                                0.0                               260.0                           260.0                                0.0                             18.0                          4.8                          14.4
+

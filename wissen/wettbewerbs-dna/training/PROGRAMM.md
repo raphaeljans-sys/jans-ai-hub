@@ -1,0 +1,30 @@
+# Trainingsprogramm — wettbewerbs-dna
+
+Loop: `wettbewerbs-dna-training` · Station: **MacBook Pro** (Zuteilung 12.07.2026;
+OneDrive-Archiv hier lesbar, TCC geprueft). Takt: taeglich 05:22 (Scheduled Task),
+in der Intensivphase (Regel 260712) ergaenzt durch manuelle Session-Laeufe am Tag;
+nach Ruecktaktung: Nachtfenster 22:00–06:00.
+
+## Auftrag je Lauf
+
+1. `wiki/INDEX.md` lesen: naechste Teilnahme mit Status «ausstehend» waehlen (max. 2 je Lauf).
+2. Quellen im OneDrive-Archiv lokalisieren (Programm-PDF, eigene Abgabe, Jurybericht);
+   Text-Extrakte nach `raw/` (mit Quellpfad im Kopf).
+3. Dossier nach CLAUDE.md-Format schreiben (`wiki/teilnahmen/`), Status `draft`.
+4. **Verifikation:** Refuter-Agent prueft Zitate/Rang/Zuordnung gegen Original;
+   bestanden → `established`, sonst korrigieren.
+5. INDEX/QUESTIONS/CHANGELOG nachfuehren; alle 3 Laeufe: Muster-Artikel
+   (`wiki/muster/`) verdichten.
+6. NAS-Repo committen + pushen (Rule git-auto-push).
+
+## Endbedingung Etappe 2
+
+Alle 12 Teilnahmen destilliert + verifiziert, Bild-Katalog `_Admin/03_Referenzen_WB_Abgaben`
+indexiert. Danach Etappe 3 (konkurado-Erweiterung je Ziel-Bauaufgabe) — Bauaufgaben-
+Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
+
+## Stand
+
+| Lauf | Datum | Inhalt | Status |
+|---|---|---|---|
+| Seed | 12.07.2026 | KB-Anlage + 2102/2206/2408 | laeuft |

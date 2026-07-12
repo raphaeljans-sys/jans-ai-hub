@@ -1,0 +1,1561 @@
+# Text-Extrakt (pdftotext -layout) — Quelle (Nur-Lese, unveraendert):
+# /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/220614_SEK_Muttenz_Jurybericht.pdf
+# Extrahiert: 2026-07-12
+
+JURYBERICHT
+ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN
+MUTTENZ
+Impressum
+Jurybericht Erweiterung Sekundarschule Hinterzweien Muttenz - Ausgabe 01 I 2022 I 1. Auflage
+
+Auftraggeberin
+Bau- und Umweltschutzdirektion des Kanton Basel-Landschaft
+
+Herausgeberin
+Kanton Basel-Landschaft, Hochbauamt
+
+Wettbewerbsbegleitung
+Wymann Architektur GmbH, Basel
+
+Wettbewerbssekretariat
+Bau- und Umweltschutzdirektion
+Kanton Basel-Landschaft, Zentrale Beschaffungsstelle
+Rheinstrasse 29, 4410 Liestal
+zbs@bl.ch
+
+Inhalt und Redaktion
+Wymann Architektur GmbH, Basel
+
+Layout und Modellfotografie
+Hochbauamt Basel-Landschaft
+
+Druck
+Druckerei Bloch AG, Arlesheim
+
+Bezugsquelle
+Bau- und Umweltschutzdirektion Kanton Basel-Landschaft, Hochbauamt
+Hochbauamt
+Rheinstrasse 29, CH-4410 Liestal
+hochbauamt@bl.ch
+www.hba.bl.ch
+INHALT
+
+
+Vorwort des Jurypräsidenten........................................................................................... 3
+
+Einleitung . ....................................................................................................................... 5
+
+Wettbewerbsaufgabe....................................................................................................... 6
+
+Verfahren.......................................................................................................................... 8
+
+Preisgericht. ..................................................................................................................... 9
+
+Vorprüfung...................................................................................................................... 10
+
+Beurteilung..................................................................................................................... 11
+
+Rangierung und Aufteilung der Gesamtpreissumme. .................................................... 14
+
+Empfehlungen................................................................................................................ 15
+
+Genehmigung................................................................................................................. 16
+
+Projektverfassende......................................................................................................... 17
+
+Dank und Erkenntnisse. ................................................................................................. 18
+
+Rangierte Projekte.......................................................................................................... 19
+
+Weitere Projekte. ........................................................................................................... 51
+SEITE 3 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+VORWORT DES JURYPRÄSIDENTEN
+
+
+Bei der Vorbereitung des Wettbewerbs für die Erweiterung der Sekundarschulanlage in Muttenz stellte
+sich die Frage nach dem geeigneten Wettbewerbsverfahren, um die Anforderungen von Bauherrschaft
+und Nutzer zu erfüllen und eine gute Lösung für die in mehreren Etappen erweiterte und teilweise bereits
+sanierte Schulanlage zu finden.
+
+In Abwägung der verschiedenen Möglichkeiten haben wir uns auch in diesem Fall für die Durchführung
+eines einstufigen, offenen Wettbewerbes entschieden, bei dem schliesslich 29 Teams mitgemacht haben.
+Die Vielfalt der Beiträge mit grundsätzlich unterschiedlichen Entwurfsansätze hat einmal mehr bewiesen,
+dass sich die Durchführung von Wettbewerben lohnt. Die Aufgabe „Weiterbauen im Bestand“ unter
+konsequenter Berücksichtigung der verschiedenen Aspekte der Nachhaltigkeit wird im Kanton Basel-
+Landschaft in den kommenden Jahren eine unserer Hauptaufgaben darstellen. Die vorliegenden Arbeiten
+haben für diese Diskussion wertvolle Beiträge geliefert, treten sie doch mit unterschiedlichsten Haltungen
+dem heterogenen Gebäudekomplex und der Frage der Nachhaltigkeit entgegen und führten so zu wichtigen
+Diskussionen und Erkenntnissen bei der Beurteilung.
+
+Das in der Schweiz gut etablierte Wettbewerbswesen ist für die Bauherrschaft ein wichtiger und erprobter
+Weg, um zu geeigneten Lösungen für die anstehenden Aufgaben zu kommen und führt in der Regel
+zu guten, manchmal überraschenden Projekten. Für die teilnehmenden Büros ist es seit jeher eine
+Gelegenheit, sich zu messen und Erfahrungen zu gewinnen, gleichzeitig aber auch immer mit grossem
+Aufwand verbunden. Als regelmässiger Veranstalter von Wettbewerben ist das Hochbauamt darauf
+angewiesen, dass sich geeignete Büros beteiligen und ihre Erfahrung und Innovationskraft zur Verfügung
+stellen und einbringen. Wir sind daher bestrebt bei den Ausschreibungen mit Angemessenheit vorzugehen
+und die Anforderungen der Aufgabe entsprechend zu definieren.
+
+Mein herzlicher Dank gilt an dieser Stelle allen Beteiligten. Nebst der engagierten Jury gilt er vor allem
+den Architektur- und Planungsbüros, welche sich intensiv mit der gestellten Aufgabe auseinandergesetzt
+und viel Zeit und Herzblut investiert haben. Sie haben es uns damit ermöglicht, aus einer Vielzahl von
+unterschiedlichen Ansätzen und Vorschlägen das beste Projekt für die Erweiterung der Sekundarschulanlage
+in Muttenz auszuwählen.
+
+Marco Frigerio
+Kantonsarchitekt
+SEITE 5 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+EINLEITUNG
+
+
+Ausgangslage
+Der Standort der Sekundarschule Muttenz besteht aus den beiden räumlich voneinander getrennten
+Schulanlagen Hinterzweien und Gründen. Das Sekundarschulhaus Gründen ist stark sanierungsbedürftig,
+und muss gemäss den vertraglichen Vereinbarungen zwischen Kanton und Gemeinde zurückgebaut
+werden.
+
+Konzentration an einem Standort
+Die Schulanlage Hinterzweien soll erweitert werden, so dass an diesem Standort beide Schulanlagen
+vereint werden können. Sie liegt südlich der Tramstrasse in einem Einfamilienhausquartier. In der nord-
+östlichen Ecke des Gevierts befindet sich die Römisch-Katholische Kirche Johannes Maria-Vianney vom
+Architekten Max Schnetz aus dem Jahr 1964.
+
+27 Regelklassen + 1 Sportklasse
+Die Strategie zur Erweiterung der Sekundarschule Hinterzweien ist das Ergebnis einer gesamtheitlichen
+Betrachtung des Sekundarschulstandortes und umfasst ausserdem Massnahmen für eine räumliche und
+betriebliche Optimierung der Schulanlage auf Basis der mit «27 Regelklassen + 1 Sportklasse» definierten
+Standortgrösse.
+SEITE 6 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+WETTBEWERBSAUFGABE
+
+
+Aufgabenstellung
+Die Wettbewerbsaufgabe bestand in der Erweiterung der bestehenden Sekundarschule Hinterzweien durch
+einen Neubau. Funktionale Raumrochaden und bauliche Anpassungen in den Bestandsgebäuden waren
+nicht Teil der Wettbewerbsaufgabe.
+
+Bestand
+Die Schulanlage besteht aus einem Ensemble mit drei verschiedenen Gebäuden. Der L–förmig angelegte
+Trakt 2 mit Satteldach, die ehemalige Primarschule, stammt aus dem Jahr 1934, die Trakte 1 und 3
+mit Flachdächern von 1966 (G. Belussi + R. Tschudin Architekten). Die drei Trakte sind durch Vordächer
+miteinander verbunden. Im südwestlichen Teil des Areals befinden sich die Aussen-und Freiräume. Der
+Trakt 2 wurde bis 2016 in grossen Teilen saniert. Die übrigen Gebäude befinden sich in einem technisch
+ausreichend guten Zustand. Einzelne, notwendige Sanierungsmassnahmen werden im Rahmen des
+ordentlichen Gebäudeunterhalts vorgenommen.
+
+Perimeter
+Der Projektperimeter umfasste den südwestlichen Teil der Parzelle Nr. 720, den Schulhof West. Das
+gesamte Programm für den Neubau war entsprechend den Anforderungen und Bedingungen innerhalb des
+Projektperimeters sicherzustellen.
+
+Der Betrachtungsperimeter umfasste die Parzelle Nr. 720 mit den bestehenden Bauten Trakt 1, 2 und 3
+sowie dem Schulhof Ost. Von den Teilnehmenden erwartete die Auftraggeberin Vorschläge, wie der Neubau
+in die Gesamtanlage eingebunden werden kann. Über den Aussenraum sollte ein räumlich attraktiver,
+funktionaler und betrieblicher Zusammenhang zwischen den Gebäuden sichergestellt werden.
+SEITE 7 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+SEITE 8 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+VERFAHREN
+
+
+Grundlagen
+Gestützt auf § 20 des kantonalen Gesetzes über öffentliche Beschaffungen wurde ein offener
+Projektwettbewerb in einem einstufigen, anonymen Verfahren durchgeführt. Die Ordnung für Architektur-
+und Ingenieurwettbewerbe SIA 142, Ausgabe 2009, galt subsidiär zu den Bestimmungen über das
+öffentliche Beschaffungswesen. Die Kommission für Wettbewerbe und Studienaufträge SIA 142/143 hat
+das Programm geprüft. Es ist konform zur Ordnung für Architektur- und Ingenieurwettbewerbe SIA 142,
+Ausgabe 2009.
+
+Ziel
+Der Projektwettbewerb hatte zum Ziel, den Lösungsansatz zu eruieren, der den Anforderungen am besten
+entspricht und damit ein geeignetes Planerteam (Architektur und Tragwerksplanung) für die Planung und
+Realisierung der Erweiterung der Sekundarschule Hinterzweien in Muttenz zu bestimmen.
+
+Publikation
+Das Verfahren wurde ordnungsgemäss am 2. September 2021 im Amtsblatt des Kantons Basel-Landschaft
+und auf der Webplattform simap.ch publiziert.
+
+Eingereichte Beiträge
+Es wurden folgende Wettbewerbsbeiträge eingereicht:
+
+01     An der Ecke                 11   La Pergola                    21   Pfifferling
+02     Bernhard                    12   MAAT MONS                     22   Pon
+03     DER GRÜNE HEINRICH          13   max                           23   Rubinrot
+04     equipe                      14   MIKADO                        24   Schlussstein
+05     hannes                      15   MORNING SUN                   25   SINGA
+06     Heartbeat                   16   Nachwuchs                     26   TSCHICK
+07     Hinter Zweigen              17   NIKLAS                        27   Unter einem Dach
+08     Ilija                       18   ONEMENT                       28   ZNÜNI
+09     ISABELLA                    19   outside - inside              29   ZWEIERLEI
+10     kleeblatt                   20   PATIO IM PIANO NOBILE
+SEITE 9 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+PREISGERICHT
+
+
+Fachpreisgericht, stimmberechtigt:
+
+Marco Frigerio               Kantonsarchitekt Kanton Basel-Landschaft (Vorsitz)
+Ünal Karamuk                 Architekt, Zürich
+Anne Marie Wagner            Architektin, Basel
+Christoph Heitz              Bauverwalter Gemeinde Muttenz
+Vinzenz Reist                Architekt, Projektleiter Hochbauamt (Ersatz)
+
+
+
+Sachpreisgericht, stimmberechtigt:
+
+Petra Schmidt                Stv. Generalsekretär, Bildungs-, Kultur- und Sportdirektion (BKSD)
+Simon Schweizer              Schulleitung Sekundarschule Muttenz
+Flavio Naef                  Lehrperson Sekundarschule Muttenz (Ersatz)
+
+
+
+Experten, nicht stimmberechtigt:
+
+Roger Gort                   Büro für Bauökonomie, Basel (Baukosten)
+Hans-Peter Frei              Frei Ingenieure, Basel (Tragwerk)
+Jörg Lamster                 Durable Planung und Beratung, Zürich (Nachhaltigkeit)
+Thomas Andre                 Rapp Infra, Basel (Brandschutz)
+
+
+
+Wettbewerbsbegleitung, nicht stimmberechtigt:
+
+Jean-Pierre Wymann           Wymann Architektur, Basel
+SEITE 10 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+VORPRÜFUNG
+
+
+Vorprüfungsbericht
+Die eingereichten Beiträge wurden vor dem ersten Tag der Jurierung durch die Wettbewerbsbegleitung und
+die Experten für Tragwerksplanung, Nachhaltigkeit und Brandschutz geprüft. Für die Projekte der engeren
+Wahl wurde vor dem zweiten Tag der Jurierung eine vergleichende Grobschätzung der Baukosten erstellt.
+
+Formelle Vorprüfung
+Alle 29 eingereichten Beiträge wurden rechtzeitig und vollständig eingereicht. Bei 10 Beiträgen fehlten die
+digitalen Berechnungen und Schemas. Die Wettbewerbsbegleitung hat dies als unwesentliche Bestandteile
+der Eingaben eingestuft.
+
+Inhaltliche Vorprüfung
+Von den 29 eingereichten Beiträgen weisen 6 Projekte kleine und 4 Projekte gravierende Verstösse gegen
+das Baugesetz auf. Bei verschiedenen Beiträgen wurden Mängel hinsichtlich Tragwerk, Nachhaltigkeit und
+Brandschutz festgestellt.
+
+Zulassung zur Beurteilung
+Die Wettbewerbsbegleitung beantragte, alle Beiträge zur Beurteilung zuzulassen.
+
+Zulassung zur Preiserteilung
+Die Wettbewerbsbegleitung beantragte, folgenden vier Projekte mit gravierenden Verstössen gegen das
+Baugesetz von der Preiserteilung auszuschliessen:
+
+11   La Pergola
+16   Nachwuchs
+27   Unter einem Dach
+29   ZWEIERLEI
+SEITE 11 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+BEURTEILUNG
+
+
+ERSTER TAG DER JURIERUNG
+
+Das Preisgericht war am 6. Mai 2022 vollzählig anwesend und beschlussfähig. Die Experten für
+Brandschutz, Tragwerk und Nachhaltigkeit waren zu Beginn des ersten Jurytages anwesend.
+
+Vorprüfungsbericht
+Die Wettbewerbsbegleitung und die Experten stellten die Ergebnisse der Vorprüfung vor und erläuterten die
+Anträge. Alle Mitglieder des Preisgerichts erhielten einen detaillierten Vorprüfungsbericht. Das Preisgericht
+beschloss, alle Beiträge zur Beurteilung zuzulassen. Folgende Beiträge wurden von der Preiserteilung
+ausgeschlossen:
+
+11     La Pergola
+16     Nachwuchs
+27     Unter einem Dach
+29     ZWEIERLEI
+
+Informationsrundgang
+Es wurden vier Gruppen zur Besprechung von jeweils 7 bis 8 Beiträgen gebildet. Jede Gruppe war
+ausgewogen aus Mitgliedern des Fach- und Sachpreisgerichts zusammengesetzt. Die Gruppen stellten ihre
+Projekte dem Plenum wertfrei vor.
+
+Wertungsrundgänge
+Die Beurteilung der Beiträge erfolgte nach den im Wettbewerbsprogramm festgelegten Beurteilungs-
+kriterien. Deren Reihenfolge stellt keine Gewichtung dar. Das Preisgericht wird aufgrund der aufgeführten
+Kriterien eine Gesamtbewertung vornehmen.
+
+–    Architektur und Städtebau
+–    Funktionalität, Nutzung
+–    Tragwerk, Konstruktion und Materialisierung
+–    Nachhaltigkeit (Gesellschaft, Wirtschaft und Umwelt)
+
+Erster Wertungsrundgang
+Im ersten Wertungsrundgang wurden folgende 14 Beiträge wegen ungenügender Qualität bezüglich
+Architektur und Städtebau und/oder wegen gravierender konzeptioneller und/oder funktionaler Mängel
+ausgeschieden:
+
+04     equipe                        16   Nachwuchs                     23   Rubinrot
+09     ISABELLA                      17   NIKLAS                        25   SINGA
+11     La Pergola                    18   ONEMENT                       28   ZNÜNI
+13    max                            19   outside - inside              29   ZWEIERLEI
+14    MIKADO                         21   Pfifferling
+SEITE 12 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Zweiter Wertungsrundgang
+Im zweiten Wertungsrundgang wurden die verbliebenen Projekte eingehend studiert und intensiv diskutiert.
+Folgende acht Beiträge, die einzelne Beurteilungskriterien nicht oder nur teilweise erfüllen, wurden
+ausgeschieden:
+
+06   Heartbeat                     12   MAAT MONS                     24   Schlussstein
+07   Hinter Zweigen                15   MORNING SUN                   26   TSCHICK
+08   Ilija                         22   Pon
+
+Projekte der engeren Wahl
+Als Projekte der engeren Wahl verblieben folgende 7 Beiträge:
+
+01   An der Ecke                   05   hannes                        27   Unter einem Dach
+02   Bernhard                      10   kleeblatt
+03   DER GRÜNE HEINRICH            20   PATIO IM PIANO NOBILE
+
+Kontrollrundgang
+Im anschliessenden Kontrollrundgang wurden sämtliche eingereichten Beiträge nochmals begutachtet. Das
+Preisgericht bestätigte alle bisherigen Entscheide.
+SEITE 13 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+ZWEITER JURYTAG
+
+Das Preisgericht war am 20. Mai 2022 bis auf Christoph Heitz als Mitglied des Fachpreisgerichts vollzählig
+anwesend und beschlussfähig. Das Ersatzmitglied Vinzenz Reist ersetzte Christoph Heitz am zweiten
+Jurytag als stimmberechtigtes Mitglied. Die Experten für Nachhaltigkeit und Bauökonomie waren zu Beginn
+des zweiten Jurytages anwesend.
+
+Vorprüfung
+Die Wettbewerbsbegleitung sowie die Experten stellten dem Preisgerich die Ergebnisse der Vorprüfung vor.
+
+Projektwürdigungen
+Danach wurden die Projektwürdigungen zu den Beiträgen der engeren Wahl vorgelesen. Von den
+Mitgliedern des Preisgerichts erfolgten keine Rückkommensanträge.
+
+Dritter Wertungsrundgang
+Nach dem Verlesen der Projektwürdigungen beurteilte das Preisgericht vertieft die verbliebenen Projekte
+und beschloss nach eingehender Diskussion, wegen betrieblicher Mängel folgende zwei Beiträge im dritten
+Wertungsrundgang auszuscheiden:
+
+01   An der Ecke
+10   kleeblatt
+SEITE 14 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+RANGIERUNG UND AUFTEILUNG DER
+GESAMTPREISSUMME
+Abschliessend entschied das Preisgericht einstimmig, das Projekt Nr. 5 «hannes» in den ersten Rang zu
+setzen, mit dem ersten Preis auszuzeichnen und zur Weiterbearbeitung zu empfehlen. Das Projekt vermag
+in der Gesamtbeurteilung am meisten zu überzeugen, insbesondere aus städtebaulicher, architektonischer,
+freiräumlicher und konstruktiver, aber auch aus betrieblicher und funktionaler Sicht. Der Beitrag unterstützt
+das pädagogische Konzept der Sekundarschule Muttenz am Standort Hinterzweien optimal und bietet
+sowohl hinsichtlich der Umsetzung des Unterrichts der Sportklassen in Lernateliers als auch in Bezug auf
+mittel- und langfristige Nutzungsänderungen eine ausserordentlich hohe Flexibilität.
+
+Für Preise und Ankäufe stand dem Preisgericht im Rahmen des Projektwettbewerbs eine
+Gesamtpreissumme von CHF 138‘000.-- (exkl. MWST) zur Verfügung. Das Preisgericht legte einstimmig
+folgende Rangierung und Aufteilung der Preise und Ankäufe fest:
+
+1. Rang        1. Preis       05   hannes                           CHF    60‘000.–
+2. Rang        2. Preis       03   DER GRÜNE HEINRICH               CHF    35‘000.–
+3. Rang        1. Ankauf      27   Unter einem Dach                 CHF    20‘000.–
+4. Rang        3. Preis       20   PATIO IM PIANO NOBILE            CHF    13‘000.–
+5. Rang        4. Preis       02   Bernhard                         CHF    10‘000.–
+SEITE 15 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+EMPFEHLUNGEN
+
+
+Das Preisgericht gab zur Weiterbearbeitung des Beitrags «hannes» folgende Empfehlungen ab:
+
+– Eine Orientierung des Mittagstischs zum Pausenplatz ist erwünscht, da er von der ganzen
+  Sekundarschule Hinterzweien genutzt wird.
+– Ein zweiter Fluchtweg aus der Sporthalle ist nachzuweisen.
+– Die natürliche Belichtung der Foyers in den Schulgeschossen ist sicherzustellen.
+– Das schlanke, viergeschossige Schulgebäude wird positiv beurteilt und ist weiterzuverfolgen.
+– Die mit Aluminium verkleidete Fassade ist noch ein wenig schematisch dargestellt. Die Konstruktion und
+  Materialisierung sind weiterzuentwickeln.
+– Die im Wettbewerbsprogramm aufgeführten Standards Minergie-Eco, Minergie-P und SNBS sind zu
+  erfüllen.
+SEITE 16 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+GENEHMIGUNG
+
+
+Muttenz, den 20. Mai 2022, das Preisgericht:
+
+
+
+
+Marco Frigerio (Vorsitz)
+
+
+
+
+Ünal Karamuk
+
+
+
+
+Anne Marie Wagner
+
+
+
+
+Christoph Heitz
+
+
+
+
+Vinzenz Reist (Ersatz)
+
+
+
+
+Petra Schmidt
+
+
+
+
+Simon Schweizer
+
+
+
+
+Flavio Naef (Ersatz)
+SEITE 17 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+PROJEKTVERFASSENDE
+
+
+1. Rang / 1. Preis           05    hannes                   Weiterbearbeitung
+Architektur                  Gschwind Architekten BSA SIA, Basel
+                             Verantwortlich: Christoph Gschwind; Mitarbeit: Roberto Roncoroni
+Tragwerk                     Büro Thomas Boyle + Partner AG / Bauingenieure SIA, Zürich
+                             Verantwortlich: Thomas Boyle; Mitarbeit: Dani Wirthensohn
+
+
+2. Rang / 2. Preis           03    DER GRÜNE HEINRICH
+Architektur                  ARGE Brunhart Kindle Kurt, Zürich
+                             Verantwortlich: Oliver Brunhart; Mitarbeit: Kindle Raphael, Kurt Severin
+Tragwerk                     blesshess, dipl. bauingenieure eth sia usic, Luzern
+                             Verantwortlich: Maximilian Fehr; Mitarbeit: Bless Carlo
+Landschaftsarchitektur       Real Garden Design, Vaduz (LI)
+                             Verantwortlich: Tina Real
+
+
+3. Rang / 1. Ankauf          27    Unter einem Dach
+Architektur                  Arbeitsgemeinschaft:
+                             Märki Sahli Architekten GmbH, Bern und
+                             Kollektiv Palinpsao, Bern
+                             Verantwortlich: Oliver Märki; Mitarbeit: Oliver Märki, Marco Sahli,
+                             Kalliopi Ousoun-Andreou, Stanimir Zhelyazkov
+Tragwerk                     WAM Planer und Ingenieure AG, Bern
+                             Verantwortlich: Patrick Fahmi
+Landschaftsarchitektur       extra Landschaftsarchitekten AG, Bern
+                             Verantwortlich: Simon Schöni
+
+
+4. Rang / 3. Preis           20    PATIO IM PIANO NOBILE
+Architektur                  Jans Raphael, Zürich
+                             Verantwortlich: Raphael Jans; Mitarbeit: Amon Streck, Lucy Strickler,
+                             Selina Bächli, Christina Wieser
+Tragwerk                     INGENI ZÜRICH AG, Zürich
+                             Verantwortlich: Francesco Snozzi
+Landschaftsarchitektur       Andreas Geser Landschaftsarchitekten AG, Zürich
+                             Verantwortlich: Andreas Geser; Mitarbeit: Jonas Münchbach
+
+
+5. Rang / 4. Preis           02    Bernhard
+Architektur                  Oplatek Architekten AG, Basel
+                             Verantwortlich: Niklaus Schädelin; Mitarbeit: Blanka Oplatek,
+                             Markus Ramirez, Jura Oplatek
+Tragwerk                     Aegerter & Bosshardt AG, Basel
+                             Verantwortlich: David Häner
+Haustechnik                  Classen Haustechnik, Basel
+                             Verantwortlich: Ronald Classen
+SEITE 18 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+DANK UND ERKENNTNISSE
+
+
+Die Auftraggeberin bedankt sich bei den Teilnehmenden für ihre wertvollen Beiträge. Der
+Projektwettbewerb im offenen Verfahren mit 29 Beiträgen hat sich als bewährtes Verfahren für diese
+Bauaufgabe erwiesen. Das Preisgericht würdigt die Lösungsvielfalt und die Qualität der eingereichten
+Beiträge. Es nimmt zur Kenntnis, das die Aufgabe wegen der vielfältigen Anforderungen anspruchsvoll war.
+
+Grundsätzlich haben die eingereichten Beiträge zwei unterschiedliche Lösungsansätze verfolgt. Einerseits
+gab es kompakte Beiträge, welche die Schulräume über der Sporthalle gestapelt haben. Andererseits
+gab es Konzepte, welche die beiden Nutzungen in zwei getrennten Gebäuden untergebracht haben.
+Ein weiterer entscheidender Aspekt ist die Lage der Sporthalle – unterirdisch, halbeingegraben oder
+oberirdisch.
+
+Zwei getrennte Gebäude haben den Nachteil einer grösseren Fassadenabwicklung. Die Vorteile liegen
+bei einem einfacheren Tragwerk, das spezifisch auf die unterschiedlichen Spannweiten ausgelegt werden
+kann. Bei einem kompakten Gebäude, das die Schul- und Sportnutzung vereint, liegen die Vorteile in einem
+sehr kompakten Gebäude mit kleiner Fassadenabwicklung. Nachteilig kann sich da die aufwändige Statik
+auswirken, welche die Vertikallasten auf die Umfassungswände der Sporthalle umleitet.
+
+In Bezug auf die Position der Sporthalle gab es ganz verschiedene Konzepte. Einige Projekte schlagen eine
+komplett unterirdische Sporthalle vor, ein anderer Beitrag sieht die Sporthalle im Obergeschoss vor. Vom
+Gesichtspunkt der Nachhaltigkeit sind Projekte mit möglichst wenig unterirdischen Volumen vorteilhaft.
+Aus Sicht der Kosten sind im vorliegenden Fall unterirdische Volumen vorteilhaft, weil der Aushub
+unproblematisch ist und unterirdische Fassaden weniger kosten als oberirdische. Die Setzung der Volumen
+war für die Qualität der Aussenräume von entscheidender Bedeutung.
+
+Die Anforderungen an ein Schulhaus haben sich in den letzten Jahren grundlegend geändert. Die
+Schule rückt immer näher an den Berufsalltag. Sie erinnert eher an die flexible Arbeitsumgebung
+eines Grossraumbüros, denn an das vom Frontalunterricht geprägte, auf die Wandtafel ausgerichtete
+Klassenzimmer. Heute wird deshalb vermehrt Wert auf eine flexible Raumaufteilung gelegt. In der
+Beurteilung hat sich gleichzeig gezeigt, dass eine Trennung der „ruhigeren“ Schulräume von den
+„lärmigeren“ Spezialräumen auf verschiedenen Geschossen betriebliche Vorteile bringt.
+SEITE 19 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+RANGIERTE PROJEKTE
+
+
+05    hannes
+03    DER GRÜNE HEINRICH
+27    Unter einem Dach
+20    PATIO IM PIANO NOBILE
+02    Bernhard
+SEITE 20 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+05 hannes
+
+
+1. RANG / 1. PREIS           CHF 60‘000.–                  WEITERBEARBEITUNG
+
+Architektur                  Gschwind Architekten BSA SIA, Basel
+                             Christoph Gschwind, Roberto Roncoroni
+
+Tragwerk                     Büro Thomas Boyle + Partner AG / Bauingenieure SIA, Zürich
+                             Thomas Boyle, Dani Wirthensohn
+
+
+
+
+Modellansicht von Süden
+SEITE 21 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Das neue Gebäudepaar im Südwesten des bestehenden Pausenplatzes bildet zusammen mit der
+historischen Schule einen grosszügigen, neu definierten Pausenhof, mit dem der alte Baumbestand zu
+einem zweiten Schwerpunkt im Freiraumgefüge der Gesamtanlage wird. Die beiden Neubauten, bestehend
+aus einer eingeschossigen Sporthalle mit Sportanlage auf dem Dach und einem viergeschossigen
+Klassentrakt und ergänzen das bestehende heterogene Ensemble gekonnt. Dabei bildet der
+viergeschossige Schulbau einen dritten Hochpunkt im Geviert.
+
+Die Erweiterung ist über den Fussweg zwischen der Stockert- und der Schützenhausstrasse zugänglich. Der
+Eingang des Klassentrakts befindet sich beim Pausenhof unter dem gedeckten Aussenbereich. Der Eingang
+zur Sporthalle erfolgt separat über den Durchgang zwischen den beiden Gebäuden. Die Sportanlage auf
+dem Dach der Sporthalle ist über zwei gewendelte Treppen zugänglich, die den Pausenhof prägen. Ein
+Baumhain zwischen dem neuen Klassentrakt und der bestehenden Sporthalle schliesst den Pausenhof
+räumlich ab und definiert mit einer chaussierten Fläche einen unterschiedlich nutzbaren Aussenraum.
+
+Die Anordnung des Mehrzweckraums und des Mittagstischs im Erdgeschoss des Klassentrakts erlaubt
+eine vom Schulbetrieb unabhängige und konfliktfreie Nutzung. Die Räume für Lehrpersonen und die
+Spezialräume sind im ersten und zweiten Obergeschoss untergebracht. Darüber befindet sich der
+Raumcluster mit den Klassenzimmer. Die Schulräume sind um eine Halle angelegt und über Eck belichtet.
+Die auf einem klaren Raster basierende Gebäudestruktur ist flexibel und kann sich den wandelnden
+pädagogischen Bedürfnissen anpassen.
+
+Die zusätzliche Aussensport- und Pausenaufenthaltsfläche auf dem Dach der Sporthalle bringt einen
+grossen Mehrwert. Weil die Schulgeschosse vom Treppenhaus abgetrennt sind, wird die innenliegende
+Halle und damit fast alle Erschliessungsflächen nutzbar. Die Aufteilung und Anordnung der verschiedenen
+Räume ist optimal für den Schulbetrieb.
+
+Das Ensemble aus zwei getrennten Baukörpern führt zu einem eher grossen Footprint. Das Gesamtresultat
+wird weiter getrübt durch das grosse unterirdische Volumen. Um die drei Standards Minergie-P, Minergie-
+ECO und SNBS zu erfüllen, muss das Projekt optimiert werden.
+
+Die Aufteilung von Schul- und Sportnutzung in zwei eigenständige Bauten und damit der Verzicht auf eine
+Stapelung dieser Nutzungen vereinfacht das Tragwerk. Der oberirdische Schultrakt ist in Holz vorgesehen,
+mit Hohlkastenelementen mit Dämpfung sowie Stützen und Wände in Nadelholz. Die Spannweiten sind
+grundsätzlich wirtschaftlich, die Gebäudeaussteifung erfolgt über den Betonkern.
+
+Das Schulgebäude als Gebäude mittlerer Höhe kommt aufgrund der Geschossfläche von unter 900 m2 mit
+nur einem vertikalen Fluchtweg aus. Die Aufteilung in zwei Baukörper ist grundsätzlich vorteilhaft, da an das
+Tragwerk des obersten Geschosses keine Brandschutzanforderungen gestellt werden.
+
+Geschossfläche und Gebäudevolumen liegen im Bereich des Mittelfeldes knapp unter dem Mittelwert.
+Dasselbe gilt für die Kosten. Zusätzliche Elemente wie Sportfläche auf dem Hallendach und Ballfangnetz
+erhöhen den Preis leicht.
+
+Der Beitrag «hannes» erfüllt die gestellten Anforderungen von allen eingereichten Beiträgen am besten.
+Das Projekt wirkt insgesamt sehr selbstverständlich und unaufgeregt. Die Setzung der beiden Volumen ist
+raffiniert und austariert. Die Unterbringung von «lärmigen» und weniger «lärmigen» Schulnutzungen auf
+verschiedenen Geschossen bringt betrieblich grosse Vorteile. Die Grundrisse lassen sich flexibel unterteilen
+und nutzen. Das zusätzliche Angebot der Sportanlage auf dem Dach der Sporthalle stellt eine willkommene
+Bereicherung dar.
+SEITE 22 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Situationsplan
+
+
+
+
+Ansicht von Nord-Ost
+SEITE 23 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Erdgeschoss
+
+
+
+
+Ansicht von Süd-Ost
+SEITE 24 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                           3. Obergeschoss
+
+
+
+
+1. Obergeschoss                                            2. Obergeschoss
+
+
+
+
+1. Untergeschoss                                           2. Untergeschoss
+SEITE 25 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Ansicht Nord-Ost
+
+
+
+
+Ansicht Süd-Ost
+
+
+
+
+Querschnitt
+
+
+
+
+Längsschnitt
+SEITE 26 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+03 DER GRÜNE HEINRICH
+
+
+2. RANG / 2. PREIS           CHF 35‘000.–
+
+Architektur                  ARGE Brunhart Kindle Kurt, Zürich
+                             Oliver Brunhart, Kindle Raphael, Kurt Severin
+
+Tragwerk                     blesshess, dipl. bauingenieure eth sia usic, Luzern
+                             Maximilian Fehr, Bless Carlo
+
+Landschaftsarchitektur       Real Garden Design, Vaduz (LI)
+                             Tino Real
+
+
+
+
+Modellansicht von Süden
+SEITE 27 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Der kompakte Solitär setzt sich selbstbewusst in die westliche Parzellenecke. Das zweigeschossige
+Volumen orientiert sich in der Höhe an den umliegenden Schul- und Wohnbauten, was ihm eine
+angemessene Massstäblichkeit gibt. Der aus dem Gebäudevolumen ausgesparte, grosszügig überdachte
+Gebäudeeingang befindet sich vom Pausenplatz gut auffindbar in der östlichen Gebäudeecke. Der
+Pausenhof Süd wird so räumlich durch den Neubau klar gefasst.
+
+Von der Stockertstrasse sowie westlich entlang dem Trakt 3 werden weitere Zugänge zum
+zentralen Pausenhof geschaffen. Entlang diesen Wegverbindungen reihen sich mit Baumdächer und
+Sitzmöglichkeiten bestückte Freiflächen. Mit wenigen Mittel gelingt es den Verfassern, eine Vielzahl von
+unterschiedlichen Aufenthaltsflächen anzubieten, welche durch leichte, topografische Versätze von wenigen
+Stufen eine zusätzliche, räumliche Differenzierung erfahren. Allerdings kann die Vorgabe einer konsequent
+behindertengerechten Erschliessung der Umgebungsflächen so nicht eingehalten werden.
+
+Das dreigeschossige Schulhaus ist einfach und klar organisiert. Im Untergeschoss befindet sich der
+Sportbereich, im Erdgeschoss die öffentlichen Nutzungen wie Mittagstisch und Mehrzweckraum und im
+Obergeschoss die Schulräume. Verbunden werden die unterschiedlichen Nutzungen durch eine offene,
+skulpturale Wendeltreppe. Als einzige vertikale Erschliessung ist sie für den Schulbetrieb nicht geeignet.
+Zudem funktioniert sie nicht als Fluchttreppe und bedürfte einer aufwändigen Brandabschnittsbildung, was
+die Offenheit und Bespielbarkeit der jeweiligen Bereiche um die Treppe sehr einschränken würde.
+
+Im Schulgeschoss sind die Schulzimmer entlang den Längsseiten organisiert und definieren eine
+grosszügige Mittelzone, welche diverse Nebenräume, zenital belichtete Gruppen- und Teamarbeitsräume
+und den Kombiraum beherbergt. Der Kombiraum wird als flexibel mit Vorhängen abtrennbarer, offener
+Raum interpretiert. Dies steht im Widerspruch zu seiner Nutzung als Werkraum und ist betrieblich nicht
+möglich.
+
+Die halbversenkte Doppelsporthalle wird von allen Seiten einsehbar als Herzstück des neuen Schulhauses
+zelebriert. Tagsüber ermöglicht sie Ausblicke in die umliegenden Freiräume. Nachts vermag sie
+umgekehrt die Aktivitäten des Vereinssports in der Halle nach aussen zu vermitteln. Die Transparenz des
+Erdgeschosses verleiht dem grossen Haus eine wohltuende Leichtigkeit.
+
+Die Stapelung des Schul- und Sportgeschosses erfolgt über zwei raumhohe Fachwerkträger aus
+Holz, welche die Sporthallen überspannen und gleichzeitig das Schulgeschoss räumlich gliedern. Die
+Gebäudeaussteifung ist durch Diagonalstreben in den Wänden gewährleistet.
+
+Die Anforderungen an die Nachhaltigkeit können durch ein ganzheitliches Konzept umgesetzt werden. Sie
+werden in erster Linie durch die hohe Kompaktheit, den kleinen Fussabdruck und das kleine, unterirdische
+Volumen erreicht. Das Gebäude ist als konsequenter Holzbau mit Holz-Beton-Verbunddecken konzipiert.
+Der ausgewogene Fensteranteil, der Einsatz von Photovoltaik-Modulen auf den Brüstungsbändern und die
+umlaufenden Brise Soleil ermöglichen eine performative Gebäudehülle.
+
+Die Geschossfläche liegt im Mittelfeld, das Gebäudevolumen ist aber verhältnismässig hoch. Auch
+hinsichtlich der Kosten bewegt sich das Projekt im Mittelfeld. Zusätzliche Fassadenelemente wie Brise
+Soleil und Photovoltaik-Paneele erhöhen den Preis leicht.
+
+Insgesamt handelt es sich aber um einen durchdachten und stimmigen Entwurf, der sich auf vielen Ebenen
+durch seine grosse Sorgfalt in der Bearbeitung auszeichnet.
+SEITE 28 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Situationsplan
+
+
+
+
+Ansicht von Süd-Ost
+SEITE 29 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Erdgeschoss
+
+
+
+
+Innenansicht Sporthalle
+SEITE 30 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+     Obergeschoss
+
+
+
+
+     Untergeschoss
+
+
+
+
+      Ansicht von Süd-Ost
+
+
+
+
+      Ansicht von Süd-West
+SEITE 31 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+ Detail Schnitt, Fassade, Grundriss
+
+
+
+
+Querschnitt
+
+
+
+
+Längsschnitt
+SEITE 32 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+27 Unter einem Dach
+
+
+3. RANG / 1. ANKAUF          CHF 20‘000.–
+
+Architektur                  Arbeitsgemeinschaft:
+                             Märki Sahli Architekten GmbH, Bern und
+                             Kollektiv Palinpsao, Bern
+                             Oliver Märki, Marco Sahli, Kalliopi Ousoun-Andreou, A. Stanimir Zhelyazkov
+
+Tragwerk                     WAM Planer und Ingenieure AG, Bern
+                             Patrick Fahmi
+
+Landschaftsarchitektur       extra Landschaftsarchitekten AG, Bern
+                             Simon Schöni
+
+
+
+
+Modellansicht von Süden
+SEITE 33 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Der einfache, zweigeschossige Neubau geht in seiner, gegenüber dem Geviert mit der Kirche
+kontrapunktischen Setzung, auf grösstmögliche Distanz zu den bestehenden Schulbauten. So ermöglicht
+er trotz den grossen Fassadenlängen eine harmonische Fassung des Pausenhofs. Dabei bilden die halb
+im Boden versenkte Sporthalle und das Dachgeschoss mit den Schulräumen eine gestalterische Einheit.
+Die pointierte Setzung sowie das klare Layout im Innern sind die offensichtlichen Stärken dieses Projektes.
+Sie ermöglichen eine selbstverständlich wirkende Architektur, die sich geschickt im Ort festsetzt sowie
+gleichzeitig unkompliziert und funktional gelöst ist. Dies zeigt sich auch im Erscheinungsbild der Fassade
+des konsequenten Holzbaus.
+
+Man betritt das Gebäude an einer strategisch und räumlich klug platzierten Stelle direkt vom zentralen
+Pausenplatz her. Im Innern wird die für alle Funktionen gemeinsame Vertikalerschliessung über einen
+zentralen Kern gelöst. Das Obergeschoss mit den meisten Schulräumen bietet eine sehr angenehme
+Lichtsituation durch die Integration eines offenen Lichthofes. Durch die statisch prägnante Lösung des
+Geschosstragwerks bietet sich eine gewisse Flexibilität für die Anordnung der Klassenzimmer, wobei der
+Position der Zimmertüren systembedingt Grenzen gesetzt sind.
+
+Die Klassenräume sind in diesem Gebäude im Wesentlichen auf einem Geschoss angeordnet. Über einen
+grosszügigen, gedeckten Aussenbereich gelangt man im Eingangsgeschoss in das zentrale Treppenhaus.
+Dieses Geschoss beherbergt neben den Räumen für die Lehrpersonen und das Personal vor allem auch
+den Mehrzweckraum und den Mittagstisch. Diese haben einen direkten Bezug zu einem ruhigeren und gut
+besonnten Teil der Aussenanlage.
+
+Insgesamt bietet dieses Projekt bezüglich der Nutzung ein gutes Gesamtkonzept. Der sehr grosse
+Pausenbereich wirkt attraktiv und ist gut an die umliegenden, gedeckten Aussenräume angebunden. Ein
+ausgewiesener Aussensportbereich wäre jedoch ein zusätzlicher Mehrwert.
+
+Das Fluchtwegkonzept weist klare Defizite auf. Weder die vorgeschlagene verschränkte Treppenanlage noch
+das Layout und die Länge der Fluchtwege sind brandschutztechnisch so umsetzbar. Die beiden Treppen
+sind nicht voneinander unabhängig und im Untergeschoss sind die maximal zulässigen Fluchtweglängen
+überschritten. Für das Erd- und Untergeschoss ist ein zusätzlicher Fluchtweg erforderlich.
+
+Diese Tragstruktur ist klar und einfach. Zwei zentrale Vierendeelträger aus Beton fangen die Lasten
+im Obergeschoss ab. Über der teilversenkten Sporthalle ist ein reiner Holzbau mit sehr wirtschaftlich
+gewählten Spannweiten vorgesehen. Die Gebäudeaussteifung ist durch Kern, Streben in der
+Fassadenebene sowie das Abfangtragwerk gewährleistet.
+
+Das Projekt punktet bezüglich Nachhaltigkeit vor allem durch ein sehr geringes unterirdisches Volumen und
+geringer Bodenversiegelung. Alle drei Standards Minergie-P, Minergie-ECO und SNBS können grundsätzlich
+erfüllt werden. Allerdings muss dafür der grosse Fensteranteil reduziert werden.
+
+Betreffend Kosten- und Flächeneffizienz gehört der Projektvorschlag zu den besten Beiträgen. Die
+Geschossfläche und das Volumen liegen im Durchschnitt. Insgesamt handelt es sich im Vergleich zu den
+übrigen Beiträgen der engeren Wahl um ein günstiges Projekt.
+
+Das durchaus kompakte und effiziente Projekt ist sorgfältig erarbeitet. Das mit der durchdachten Setzung
+eröffnete Potenzial des Aussenraumes wird aber nicht ganz ausgereizt. Der architektonische Ausdruck wirkt
+zu unspezifisch. Der Beitrag weist zudem einen baurechtlichen Verstoss bei den Abstandsvorschriften zu
+den südlichen Parzellen auf.
+SEITE 34 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Situationsplan
+
+
+
+
+Ansicht von Nord-Ost
+SEITE 35 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Erdgeschoss
+
+
+
+
+Ansicht von Nord-Ost
+SEITE 36 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Obergeschoss
+
+
+
+
+Untergeschoss
+
+
+
+
+Längsschnitt
+SEITE 37 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Ansicht Süd-West
+
+
+
+
+Ansicht Nord-West
+
+
+
+
+Ansicht Süd-Ost
+
+
+
+
+Querschnitt
+SEITE 38 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+20 PATIO IM PIANO NOBILE
+
+
+4. RANG / 3. PREIS           CHF 13‘000.–
+
+Architektur                  Jans Raphael, Zürich
+                             Raphael Jans, Amon Streck, Lucy Strickler, Selina Bächli, Christina Wieser
+
+Tragwerk                     Ingeni Zürich AG, Zürich
+                             Francesco Snozzi
+
+Landschaftsarchitektur       Andreas Geser Landschaftsarchitekten AG, Zürich
+                             Andreas Geser, Jonas Münchbach
+
+
+
+
+Modellansicht von Süden
+SEITE 39 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Das Projekt «PATIO IM PIANO NOBILE» schlägt ein kompaktes Volumen in der westlichen Ecke des
+Schulareals vor. Der sehr grosse Pausenhofbereich, welcher Platz für ein Rasenspielfeld bietet, öffnet
+sich nach Süden zum angrenzenden Einfamilienhausquartier. Die bestehenden Wegverbindungen werden
+untereinander vernetzt und weitergeführt, zum Teil mit leichten Konstruktionen überdeckt, um die
+Orientierung der Gebäude zu verdeutlichen.
+
+Der Schulneubau erhält eine klare Adressierung an der Stockertstrasse. Der kompakte Fussabdruck lässt
+viel Freiraum und ermöglicht eine spätere Erweiterung der Schulanlage. Die zwei Nutzungen, Schule und
+Sport, werden im Neubauvolumen gestapelt. Die unterirdische Doppelsporthalle ragt ins Erdgeschoss,
+um die Halle natürlich über ein grosszügiges Oberlicht zu belichten. Das Ergeschoss ist minimal gehalten.
+Neben dem Luftraum der Sporthalle besteht es lediglich aus zwei seitlichen Eingangshallen und einem
+grosszügigen Treppenhaus, welches die Ober- und Untergeschosse erschliesst.
+
+Im ersten Obergeschoss, dem Piano Nobile, befinden sich alle Spezialräume und der Mittagstisch mit
+dem Mehrzweckraum. Die Mitte des Geschosses besteht, als Herzstück des Gebäudes, aus einer
+zweigeschossigen Lernhalle. Sie ist flexibel nutzbar und verbindet sich räumlich mit dem zweiten
+Obergeschoss in dem sich die restlichen Spezialräumen sowie die Klassenzimmer für die Sportklasse
+befinden. Eine erhöhte Dachlaterne bringt Licht ins Zentrum und ermöglicht eine beidseitige Belichtung
+der Schulräume. Ein Balkon und eine Aussentreppe führen direkt von der Mittagstischzone zum
+Spiel- und Pausenplatz. Dieser Balkon soll als Fluchtweg dienen, kann aber seine Aufgabe wegen der
+Richtungsänderung nicht erfüllen.
+
+Die Fassaden sind aus Holz konstruiert und materialisiert. Sie sind fein gegliedert durch horizontale
+Vordächer oder Balkone und eine vertikale Proportionierung der Öffnungen mit farbigen Trennelementen,
+welche wiederum die Fassade rhythmisieren.
+
+Die Doppelsporthalle ist zu Zweidrittel in den Boden versenkt, die Nebenräume der Sportnutzung
+sind seitlich im ersten und zweiten Untergeschoss untergebracht. Dies führt zwar zu einem kleinen
+oberirdischen Volumen, das aber einen grossen unterirdischen Fussabdruck aufweist.
+
+Das Tragwerk des Sockelbaus ist bis zur Decke über Erdgeschoss in Ortbeton vorgesehen und die zwei
+darüberliegenden Schulgeschosse in Holz-Beton-Verbundbauweise. Ein regelmässiges Strukturraster aus
+Stützen und Unterzügen aus Holz ermöglicht gut proportionierte Räume und eine grosse Flexibilität der
+Raumeinteilung in den Schulgeschossen. Die massive Kassettendecke aus Beton gibt der Doppelsporthalle
+eine starke räumliche Identität und belichtet sie mit Tageslicht.
+
+Das Projekt weist sowohl die grösste Geschossfläche wie auch das grösste Volumen auf. Die hohen
+Kennwerte zeigen sich auch in den vergleichsweise hohen Kosten.
+
+Die Kompaktheit und gleichzeitig die räumliche Grosszügigkeit des Entwurfes sind bemerkenswert.
+Struktur, Funktion und Ausdruck sind in einer hochwertigen Architektur vereint. Durch den präzise gesetzten
+und kompakten Neubau entsteht ein grosszügiger Freiraum. Die zentrale Halle stellt ein zusätzliches
+Angebot dar, ist aber für den Mittagstisch im Obergeschoss nicht nutzbar und stellt deshalb keinen
+eigentlichen Mehrwert dar. Das Erdgeschoss enthält nur die Eingänge mit der vertikalen Erschliessung,
+aber keine Nutzungen, die den Pausenplatz beleben.
+SEITE 40 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Situationsplan
+
+
+
+
+Ansicht von Süd-Ost
+SEITE 41 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Erdgeschoss
+
+
+
+
+Innenansicht Sporthalle
+SEITE 42 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+2. Obergeschoss
+
+
+
+
+1. Obergeschoss
+
+
+
+
+2. Untergeschoss
+SEITE 43 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Ansicht Süd-Ost
+
+
+
+
+Querschnitt
+
+
+
+
+Längsschnitt
+SEITE 44 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+02 Bernhard
+
+
+5. RANG / 4. PREIS           CHF 10‘000.–
+
+Architektur                  Oplatek Architekten AG, Basel
+                             Niklaus Schädelin, Blanka Oplatek, Markus Ramirez, Jura Oplatek
+
+Tragwerk                     Aegerter & Bosshardt AG, Basel
+                             David Häner
+
+Haustechnik                  Classen Haustechnik, Basel
+                             Ronald Classen
+
+
+
+
+Modellansicht von Süden
+SEITE 45 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Oberirdisch teilt das Projekt «Bernhard» das Raumprogramm in zwei Gebäude auf, unterirdisch sind
+sie verbunden. Ein dreigeschossiges Volumen, welches die Schulnutzungen beinhaltet, besetzt die
+westliche Ecke des Schulareals. Südlich davon liegt ein eingeschossiges Volumen für die Sportnutzung.
+Zusammen mit den bestehenden Schultrakten definieren sie einen neuen, zentralen Ort mit dem schönen,
+bestehenden Baumbestand.
+
+Zwei neue Arealzugänge, einer von der Stockertstrasse mit Veloparkplätzen, der zweite vom
+Fussgängerweg im Südwesten, werden durch die Neubauten definiert und führen ins Herz der Anlage.
+Der Hauptzugang von der Seite Schützenhausstrasse zielt auf den Haupteingang des Schulneubaus. Die
+heutige Aussenraumgestaltung wird ergänzt mit einer umlaufenden Überdachung, welche alle Gebäude,
+Neu und Alt, miteinander verbindet und es ermöglicht, dass man trockenen Fusses von einem Gebäude
+zum anderen gelangt. Die Topografie wird mit ein paar Stufen, hie und da aufgenommen. Die Orientierung
+sowie die Erschliessung des westlichen Schulareals werden verbessert.
+
+Um den Footprint der Doppelsporthalle zu kompensieren, ist das extensiv begrünte Dach begehbar und
+direkt über das erste Obergeschoss des Neubaus erreichbar. An dieser Stelle wäre vielleicht die Platzierung
+des Aussensportbereiches möglich, momentan findet er in der Anlage keinen Platz.
+
+Im Erdgeschoss befindet sich zentral positioniert der Mittagstisch mit separatem Office. Er schliesst
+unmittelbar an den Mehrzweckraum an und verfügt über einen schönen Aussenbereich im Südwesten.
+Die Fachklassen (Bildnerisches und Textiles Gestalten sowie Musik) sind auf das Erd- und das erste
+Obergeschoss aufgeteilt; die Unterrichtsräume der Sportklassen besetzen das gesamte zweite
+Obergeschoss. Die drei Geschosse sind über eine grosse, offene und lichtdurchflutete Halle mit
+Treppenanlagen erschlossen. Diese Raumkonzeption ist insgesamt sehr gelungen und für den Schulbetrieb
+optimal, insbesondere für den Unterricht der Sportklassen.
+
+Direkt beim Haupteingang liegt ein vertikaler Erschliessungskern, der alle Obergeschosse verbindet und
+auch zur Sportnutzung ins Untergeschoss führt. Die Sporthallen verfügen über ein dreiseitig umlaufendes
+Oberlichtband und werden so mit genügend Tageslicht versorgt. Die Geräteräume befinden sich auf
+Hallenniveau, ihre Raumgeometrie und die Abtrennung von den Sporthallen mit einem Gang ist nicht
+optimal. Im Zwischengeschoss dient der breite Gang als Empore oder Tribüne für Zuschauer.
+
+Die Neubauten sind unterirdisch bis zur Bodenplatte des Erdgeschosses aus Beton und die Obergeschosse
+sind als Holzkonstruktion konzipiert. Die Fassaden sind allseitig verglast und mit vertikalen ein- oder
+zweigeschossig hohen Holz-Lamellen aus Brettern und horizontalen Lamellenstoren verschattet. Sie
+überzeugen in dieser Kombination nicht.
+
+Im Vergleich der Beiträge der engeren Wahl weist dieses Projekt eine grosse Geschossfläche und mit
+einem eher geringen Volumen aus. Das grosse Aushubvolumen, der hohe Verglasungsanteil der Fassaden
+sowie die dazu vorgesetzten, vertikalen Holzlamellen, wie auch die Überdachungen des Aussenraums
+generieren eines der teureren Projekte im Wettbewerb.
+
+Das Projekt ist sehr sorgfältig und konsequent erarbeitet. Der Entscheid, das Raumprogramms auf zwei
+oberirdische Bauten aufzuteilen, die unterirdisch verbunden bleiben, führt einerseits zu einem massiven,
+unterirdischen Volumen und zu einem grossen Fussabdruck. Gleichzeitig wird städtebaulich ein neuer, klarer,
+in sich abgeschlossener Schulkomplex geschaffen mit einem innenliegenden Pausenhof und eindeutigen
+Erschliessungswegen sowie einer gut funktionierenden Schulnutzung.
+SEITE 46 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Situationsplan
+
+
+
+
+Ansicht vom südlichen Fussweg
+SEITE 47 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+Erdgeschoss
+
+
+
+
+Ansicht von der Stockertstrasse
+SEITE 48 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+2. Obergeschoss
+
+
+
+
+1. Obergeschoss
+
+
+
+
+2. Untergeschoss
+SEITE 49 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+   Detail Schnitt und Fassade
+
+
+
+
+  Querschnitt
+
+
+
+
+   Längsschnitt
+SEITE 50 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+SEITE 51 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+WEITERE PROJEKTE
+
+
+01    An der Ecke
+04    equipe
+06    Heartbeat
+07    Hinter Zweigen
+08    Ilija
+09    ISABELLA
+10    kleeblatt
+11    La Pergola
+12    MAAT MONS
+13    max
+14    MIKADO
+15    MORNING SUN
+16    Nachwuchs
+17    NIKLAS
+18    ONEMENT
+19    outside - inside
+21    Pfifferling
+22    Pon
+23    Rubinrot
+24    Schlussstein
+25    SINGA
+26    TSCHICK
+28    ZNÜNI
+29    ZWEIERLEI
+SEITE 52 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               01    AN DER ECKE
+
+                                                               Architektur
+                                                               Studio Nosu KLG, Zürich
+                                                               Tragwerk:
+                                                               Schnetzer Puskas Ingenieure AG, Basel
+
+
+
+
+                                                               04    équipe
+
+                                                               Architektur
+                                                               AHAD ARCHITEKTEN, Braunschweig (D)
+                                                               Tragwerk
+                                                               Furche Geiger Zimmermann Tragwerksplanung,
+                                                               Köngen (D)
+
+
+
+
+                                                               06    Heartbeat
+
+                                                               Architektur
+                                                               Brandenberger Kloter Architekten AG, Basel
+                                                               Tragwerk
+                                                               HKP Bauingenieure AG, Baden
+SEITE 53 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               07    Hinter Zweigen
+
+                                                               Architektur
+                                                               Kägi Schnabel Architekten ETH BSA SIA, Basel
+                                                               Tragwerk
+                                                               WMM Ingenieure AG, Münchenstein
+
+
+
+
+                                                               08    Ilija
+
+                                                               Architektur
+                                                               Menzi Bürgler Kuithan Architekten AG, Zürich
+                                                               Tragwerk
+                                                               Weber Ingenieurbau GmbH, Eschenbach
+                                                               Landschaftsarchitektur
+                                                               Planetage GmbH, Zürich
+
+
+
+
+                                                               09    ISABELLA
+
+                                                               Architektur
+                                                               Martino Egger, Basel
+                                                               Tragwerk
+                                                               Haller&Partner, Oberwil
+                                                               Haustechnik
+                                                               Leimgruber, Fischer, Schaub Ingenieure USIC,
+                                                               Ennetbaden
+                                                               Photovoltaik / Elektroanlagen
+                                                               Entecs, Oberdorf
+                                                               Brandschutz
+                                                               AF-Brandschutz, Pratteln
+SEITE 54 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               10    kleeblatt
+
+                                                               Architektur
+                                                               Backes Zarali Architekten, Basel
+                                                               Tragwerk
+                                                               Marc Eitel, Basel
+
+
+
+
+                                                               11    La Pergola
+
+                                                               Architektur
+                                                               Gaus Architekten, Göppingen (D)
+                                                               Tragwerk
+                                                               Mayr Ludescher Partner, Stuttgart (D)
+                                                               Brandschutz
+                                                               brandschutz plus GmbH, Berlin (D)
+
+
+
+
+                                                               12    MAAT MONS
+
+                                                               Architektur
+                                                               om:ma Architekten, Zürich
+                                                               Tragwerk
+                                                               Schwarber Staub Bauingenieure KIG, Zürich
+                                                               Landschaftsarchitektur
+                                                               om:ma Architekten, Zürich
+SEITE 55 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               13    max
+
+                                                               Architektur
+                                                               fsp Architekten AG Dipl. Architekten
+                                                               Tragwerk
+                                                               Gruner AG, Zürich
+                                                               Landschaftsarchitektur
+                                                               naef landschaftsarchitekten gmbh, Brugg
+                                                               Brandschutz
+                                                               4 Management 2 Security GmbH, Zürich
+
+
+
+
+                                                               14    MIKADO
+
+                                                               Architektur
+                                                               Herzog Ritter Architekten, Basel
+                                                               Tragwerk
+                                                               Ulaga Weiss AG, Basel
+
+
+
+
+                                                               15    MORNING SUN
+
+                                                               Architektur
+                                                               Richter Tobler GmbH Architekten ETH SIA, Basel
+                                                               Tragwerk
+                                                               Basler & Hofmann AG, Kriens
+SEITE 56 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               16    Nachwuchs
+
+                                                               Architektur
+                                                               Wigger Architekten, Basel
+                                                               Tragwerk
+                                                               Ingenieurbüro Werner Wassmer
+                                                               Energie und Haustechnik
+                                                               Waldhauser+Hermann AG, Münchenstein
+                                                               Gartengestaltung
+                                                               Andreas Sommerhalder, Basel
+                                                               Fotograf
+                                                               Martin Zeller, Basel
+
+
+
+
+                                                               17    NIKLAS
+
+                                                               Architektur
+                                                               Reto Caminada AG, Zürich
+                                                               Tragwerk
+                                                               Reto Caminada AG, Zürich
+                                                               Brandschutz
+                                                               Reto Caminada AG, Zürich
+
+
+
+
+                                                               18    ONEMENT
+
+                                                               Architektur
+                                                               Peter Weeber + Annika Hoffmann
+                                                               Architekten ETH, Zürich
+                                                               Tragwerk
+                                                               Hoffman Ing., Waldbröl (D)
+SEITE 57 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               19    outside - inside
+
+                                                               Architektur
+                                                               TrinklerStulaAchille Architekten AG, Basel
+                                                               Tragwerk
+                                                               Schmidt + Partner Bauingenieure AG, Basel
+
+
+
+
+                                                               21    Pfifferling
+
+                                                               Architektur
+                                                               Atelier Hase, Zürich
+                                                               Tragwerk
+                                                               Holzprojekt GmbH, Luzern
+
+
+
+
+                                                               22    Pon
+
+                                                               Architektur
+                                                               Patrick Arnold Architekt ETH, Zürich
+                                                               Tragwerk
+                                                               Ferrari Gartmann AG, Chur
+SEITE 58 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               23    Rubinrot
+
+                                                               Architektur
+                                                               SELIG ERNY Architekten, Basel
+                                                               Tragwerk
+                                                               wh-p-lngenieure AG, Basel
+
+
+
+
+                                                               24    Schlussstein
+
+                                                               Architektur
+                                                               Studio Hammer/ oitoo lda, Basel
+                                                               Tragwerk
+                                                               merz kley partner AG, Altenrhein
+                                                               Brandschutz
+                                                               A. Aegerter & Dr. 0. Bosshardt AG, Basel
+
+
+
+
+                                                               25    SINGA
+
+                                                               Architektur
+                                                               Qbus GmbH, Basel
+                                                               Tragwerk
+                                                               ZFP Ingenieure, Basel
+                                                               Energie- und Haustechnik
+                                                               Waldhauser + Herrmann AG, Münchenstein
+                                                               Brandschutz
+                                                               AEBO, Aegerter & Bosshard, Basel
+SEITE 59 | ERWEITERUNG SEKUNDARSCHULE HINTERZWEIEN MUTTENZ – JURYBERICHT
+
+
+
+
+                                                               26    TSCHICK
+
+                                                               Architektur
+                                                               Büning-Pfaue Kartmann Architekten GmbH, Basel
+                                                               Tragwerk
+                                                               Baukonstrukt AG, Zürich
+                                                               Landschaftsarchitektur
+                                                               Grand Paysage GmbH Landschaftsarchitektur,
+                                                               Basel
+                                                               Haustechnik
+                                                               Grünig & Partner AG, Liebefeld Bern
+                                                               Brandschutz
+                                                               Wälchli Architekten Partner AG, Bern
+
+
+
+
+                                                               28    Znüni
+
+                                                               Architektur
+                                                               ARGE Streffing & Zickert, Basel
+                                                               Tragwerk
+                                                               WaltGalmarini AG, Zürich
+                                                               Brandschutz
+                                                               WaltGalmarini AG, Zürich
+
+
+
+
+                                                               29    ZWEIERLEI
+
+                                                               Architektur
+                                                               Standke Architekten GmbH BSA, Basel
+                                                               Tragwerk
+                                                               Pirmin Jung Schweiz AG, Frauenfeld
+                                                               Haustechnik
+                                                               Waldhauser + Hermann AG, Münchenstein
+                                                               Landschaftsarchitektur
+                                                               August + Margrith Künzel AG, Binningen
+
