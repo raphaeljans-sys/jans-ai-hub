@@ -119,6 +119,17 @@ while :; do
 
     for name in "${TASKS[@]}"; do
         [ -f "$NAS_DIR/STOP" ] || [ -f "$NAS_DIR/STOP-$HOST" ] && break
+        # Doppellauf vermeiden: laeuft dieser Task bereits (z.B. via launchd-
+        # Scheduled-Task zur Cron-Zeit oder ein ueberlanger Vorlauf), diesen
+        # Zyklus ueberspringen — sonst editieren zwei Agenten dieselbe KB
+        # gleichzeitig (index.lock-Kollisionen, Rule sync-kanonische-quelle).
+        # Match auf die Frontmatter-Zeile "name: <task>" in der argv des
+        # laufenden claude-Prozesses (Scheduled-Task wie Runner tragen sie).
+        if pgrep -f "name: ${name}[^A-Za-z0-9-]" >/dev/null 2>&1; then
+            log "SKIP  $name (laeuft bereits — Doppellauf vermieden)"
+            sleep "$PAUSE_BETWEEN"
+            continue
+        fi
         PROMPT="$(cat "$TASKS_DIR/$name/SKILL.md")
 Hinweis: Dieser Lauf ist Teil des VOLLGAS-Endlos-Runners (Auftrag Raphael 12.07.2026).
 Fahre den naechsten Batch gemaess dem jeweiligen training/PROGRAMM.md bzw. Lauf-Zustand.
