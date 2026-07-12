@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-09
+last_updated: 2026-07-12
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
