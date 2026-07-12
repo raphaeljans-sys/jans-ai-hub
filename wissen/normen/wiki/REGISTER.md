@@ -328,3 +328,19 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.
 Quelle Gültigkeit: SIA `ersetzte_normen.pdf`, Stand 25.02.2013. Fortschreibung bei jeder Revision.*
+
+## B) DIN / VSS / RAL — Gültigkeit der destillierten Normen (Lauf 260712, Mac Mini)
+
+Kein zentrales Rückzugs-/Ersatzregister wie bei SIA vorhanden; Gültigkeit wird aus
+Titelblatt-Angaben (Ersatz für / Ausgabejahr) der jeweiligen Norm entnommen.
+
+| Norm | Ausgabe | Ersetzt | Bemerkung |
+|---|---|---|---|
+| DIN 277-1 | 2005-02 | 1987-06 | gilt |
+| DIN 277-2 | 2005-02 | 1987-06 | gilt |
+| DIN 5034-1 | 1999-10 | 1983-02 | gilt |
+| SN 640 050 (VSS) | Mai 1993 | SN 640 620 (März 1973) | gilt |
+| ZH 700.5 Zugangsnormalien | 09.12.1987 | Normalien 19.12.1979 | gilt, in Kraft seit 01.01.1988 |
+| ZH 722.15 Verkehrssicherheitsverordnung | 15.06.1983 | — | gilt, geändert 05.10.1994 (in Kraft 01.01.1995) |
+| Stadt ZH Merkblatt Veloabstellplätze | 1996, überarb. 1998 | — | städtische Richtlinie, kein SNV-Normtext |
+| RAL-GZ 638 Gitterroste | September 2008 | keine ältere Ausgabe im Bestand | Teil-Destillat, gilt |

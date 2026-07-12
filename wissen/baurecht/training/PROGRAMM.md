@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-11
+last_updated: 2026-07-12
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -91,6 +91,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 30 (2026-07-12, Modell-D-Volltextabgleich, 3 Komplexe parallel via Workflow-Tool):** **§§ 233-237
+    (Baureife), §§ 326-329 (Baufreigabe/Kontrolle/Unterbruch), §§ 340/340a/341 (Strafe/Wiederherstellung)**
+    gegen `raw/260607_amtlich_zh_pbg.md` je durch einen Refutations-Agenten geprueft. **7 Korrekturen/
+    Praezisierungen + 1 Nachtrag:** § 234 (Gemeindevorstand-Antrag), § 235 (3-J-Erlassfrist ergaenzt),
+    § 236 («Behandlung» statt «Beseitigung»), § 237 Abs. 4 (Grundbuch-Anmerkung statt Benuetzungsrechte-
+    Fehlzuordnung), § 237 Abs. 1 Gleisanschluss (ohne «wirtschaftlich»); § 328 Abs. 2 lit. b (Foerderung,
+    **nicht** Abbruch) + Abs. 3 (Kostentraeger) + § 326-Plattform-Fassung, Nachtrag § 328a; § 341 (amtl.
+    Wortlaut «rechtmaessigen Zustand herbeifuehren», Vorbehalt nur ggue. Strafverfahren) + § 340 Abs. 4/5
+    (Gehilfenschaft/Solidarhaftung) + § 340a (Verfolgung UND Strafe). **§ 329 Abs. 1 = BRG-Anfechtung
+    bestaetigt** (Agent-OFFEN am Volltext aufgeloest). Wiki [[bauausfuehrung-und-baukontrolle]] +
+    [[widerrechtliche-bauten-und-sanktionen]] `emerging`→**`established`**; [[baureife-und-erschliessung]]
+    (schon established) geschaerft. 6 Drills (1×A/4×D/1×C). **Naechste Phase-3-Ziele:** § 120/§ 150/§ 264/§ 346
+    PBG (Landsicherung/Baulinien/Planungszone), §§ 8/9/10c/15/30 VRG + § 30 VRG-Dreiteilung, §§ 269-274 PBG
+    (Grenz-/Gebaeudeabstand-Zahlenwerk) am Volltext. Report `outputs/2026-07-12_buch-run30.md`.
   - **Run 29 (2026-07-12, erster Phase-3-Verifikationslauf, Modell D+E):** **Fahrzeugabstellplaetze
     §§ 242-249 PBG** (Kap. 13 T3) gegen `raw/260607_amtlich_zh_pbg.md` abgeglichen → Destillat
     [[band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3]] + Wiki [[fahrzeugabstellplaetze-und-parkierung]]

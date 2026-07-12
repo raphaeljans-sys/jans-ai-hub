@@ -498,16 +498,16 @@
 | [ ] | P3 | `DIN-Norm/DIN 272.pdf` | 272 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 277-1.pdf` | 277 |  |  |
+| [x] | P3 | `DIN-Norm/DIN 277-1.pdf` | 277 | 2005 | destilliert 260712 |
 | [ ] | P3 | `DIN-Norm/DIN 277-1_Bildteil_MMMP München.pdf` | 277 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 |  |  |
+| [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 |
 | [ ] | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 |  |  |
+| [x] | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | destilliert 260712 |
 | [ ] | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 |  |  |
@@ -542,17 +542,17 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 |  |  |
-| [ ] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 |  |  |
-| [ ] | P3 | `Merkblatt-VAPl.98.pdf` |  |  |  |
-| [ ] | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 |  |
-| [ ] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 |  |  |
-| [ ] | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 |  |  |
-| [ ] | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  |  |
-| [ ] | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 |  |  |
-| [ ] | P3 | `VSS 640 281 Parkfelder.pdf` | 640 |  |  |
-| [ ] | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 |  |  |
-| [ ] | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 |  |  |
+| [x] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 | 1987 | destilliert 260712 |
+| [x] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 | 1983 | destilliert 260712 |
+| [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712 |
+| [ ] | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | gross/scanlastig, naechster Lauf |
+| [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712 |
+| [ ] | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 |  | naechster Lauf |
+| [ ] | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | gross/scanlastig (9.2 MB), naechster Lauf |
+| [ ] | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 |  | naechster Lauf |
+| [ ] | P3 | `VSS 640 281 Parkfelder.pdf` | 640 |  | gross/scanlastig (7.9 MB), naechster Lauf |
+| [ ] | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 |  | gross/scanlastig (20 MB), naechster Lauf |
+| [ ] | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 |  | gross/scanlastig (15 MB), naechster Lauf |
 | [ ] | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  |  |
 | [ ] | P3 | `buk/https.docx` |  |  |  |
 | — | — | `xalt/VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | ersetzt/alt (xalt) |
@@ -561,5 +561,5 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 |  |
+| [ ] | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 | Teil-Destillat 260712 (S.1-10/24), Rest naechster Lauf |
 

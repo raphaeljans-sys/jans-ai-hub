@@ -28,3 +28,14 @@
 - [ ] SIA 385/1: nur Screenshots im Themenordner — PDF fehlt im Bestand `alle`? Prüfen.
 - [ ] SIA 380/1: Register-gültig ist 2009; Bestand-Ordner nennt `SIA 380_1_2016` — 2016er
   Ausgabe im Bestand? Beim Destillieren von 380/1 verifizieren und im Register nachtragen.
+- [x] DIN-Ordner DRM (FileOpenInstaller.dmg) — **teilweise beantwortet 12.07.2026:** die
+  getesteten nationalen DIN-PDFs (DIN 277-1, 277-2, 5034-1) waren OHNE DRM-Barriere direkt
+  lesbar (kein FileOpen-Prompt, Text/Bild direkt extrahierbar). Für die grossen/gescannten
+  DIN-EN-Dokumente (4102-1/2, 18040-1/2, 1946-6) wurde dies in diesem Lauf NICHT getestet
+  (aus Kostengründen zurückgestellt) — im nächsten DIN-Lauf prüfen und ggf. als «DRM,
+  manuell» markieren.
+- [ ] DIN 277-3 (Mengen/Bezugseinheiten) fehlt noch als Destillat — Teil 1+2 der Serie sind
+  fertig (260712), Teil 3 gehört in den nächsten Lauf, damit die DIN-277-Serie komplett ist.
+- [ ] Grosse/scanlastige VSS-Dateien (640 065/281/291a/578, je 8-20 MB) wurden aus
+  Kostengründen in diesem Lauf zurückgestellt — Familie VSS ist damit noch nicht komplett
+  (4 von 11 PDF-Normen destilliert).
