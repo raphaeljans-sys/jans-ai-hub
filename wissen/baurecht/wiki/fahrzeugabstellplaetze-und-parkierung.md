@@ -1,11 +1,12 @@
 ---
 name: fahrzeugabstellplaetze-und-parkierung
 beschreibung: Pflicht-Fahrzeugabstellplaetze im Kt. ZH — Normbedarf, Reduktion/Maximum, autoarme Nutzungen, Realerfuellung vs. Ersatzabgabe/Parkplatzfonds, Velo- und Behindertenparkplaetze.
-status: emerging
+status: established
 kanton: ZH
-paragraphen: ["§ 242 PBG", "§ 243 PBG", "§ 244 PBG", "§ 245 PBG", "§ 246 PBG", "§ 247 PBG", "Art. 44a USG", "Art. 12 Abs. 1 lit. c USG", "Art. 31 LRV"]
-quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]"]
-last_updated: 2026-07-10
+paragraphen: ["§ 242 PBG", "§ 243 PBG", "§ 244 PBG", "§ 245 PBG", "§ 246 PBG", "§ 247 PBG", "§ 248 PBG", "§ 309 Abs. 1 lit. i PBG", "Art. 44a USG", "Art. 12 Abs. 1 lit. c USG", "Art. 31 LRV"]
+quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]", "raw/260607_amtlich_zh_pbg.md (§§ 242-249)"]
+last_updated: 2026-07-12
+verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen)
 ---
 
 # Fahrzeugabstellplaetze und Parkierung (Pflichtparkplaetze ZH)
@@ -46,12 +47,16 @@ kommunalen Erlass.
 ## Erstellungspflichtige Tatbestaende (§ 243 PBG)
 
 Abschliessend (BEZ 2001 Nr. 28): (a) **Neuerstellung**; (b) **allgemeine bauliche Aenderung**,
-die einen erheblichen Teil erfasst oder eine wesentlich staerkere Nutzung ermoeglicht;
-(c) **Nutzungsaenderung** mit voraussichtlich wesentlich anderen Verkehrsbeduerfnissen. Bei
-lit. b/c nur der **Mehrbedarf**; die Nutzungsaenderung ist nach § 309 Abs. 1 lit. b PBG
-bewilligungspflichtig. **§ 243 Abs. 2 PBG**: auch ohne Umbau kann die Schaffung/Aufhebung von
-Plaetzen verlangt werden (Verkehrsstoerungen, oder Beschaeftigtenparkplaetze ueber der
-Gesamtzahl) — nicht bei Wohnungs-/Besucher-/Kundenparkplaetzen.
+die einen erheblichen Teil erfasst oder durch die eine wesentlich **andere** Nutzung als bisher
+ermoeglicht wird; (c) **Nutzungsaenderung** mit voraussichtlich wesentlich anderen
+Verkehrsbeduerfnissen. Bei lit. b/c nur der **Mehrbedarf**; die Nutzungsaenderung ist nach
+§ 309 Abs. 1 lit. b PBG bewilligungspflichtig (Fahrzeugabstellplaetze selbst: § 309 Abs. 1
+lit. i PBG). Im **geltenden** Recht (Volltext-Abgleich 2026-07-12): **§ 243 Abs. 2 PBG** =
+antragsgebundene **tiefere** Platzzahl (wenn oeffentlicher Grund nicht uebermaessig beansprucht
+wird); **§ 243 Abs. 3 PBG** = auch ohne Umbau kann die Schaffung/Aufhebung von Plaetzen verlangt
+werden (Verkehrsstoerungen, oder Beschaeftigtenparkplaetze ueber der Gesamtzahl) — nicht bei
+Wohnungs-/Besucher-/Kundenparkplaetzen. *(Das Buch 6. Aufl. 2019 fuehrt die letztere Regel noch
+als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
 
 ## Lage: Realerfuellung vor Ersatz (§§ 244-247 PBG)
 
@@ -62,8 +67,10 @@ Gesamtzahl) — nicht bei Wohnungs-/Besucher-/Kundenparkplaetzen.
 2. **Gemeinschaftsanlage** (§ 245 Abs. 2) — nur, wenn innert nuetzlicher Frist realisiert.
 3. **Ersatzabgabe** (§ 246) — wenn real/Gemeinschaft nicht moeglich; Hoehe schematisiert
    zulaessig (ZBl 2003 S. 551); Streitigkeiten nach AbtrG. Die Abgaben fliessen in den
-   **Parkplatzfonds § 247** mit **nur zwei** Verwendungen: Parkraum in nuetzlicher Entfernung
-   **oder** Ausbau des oeffentlichen Verkehrs.
+   **Parkplatzfonds § 247**, der im **geltenden** Recht (Abgleich 2026-07-12) «**nur fuer die
+   Mobilitaet**» verwendet werden darf (die Gemeinde kann den Zweck einschraenken und muss ihn
+   veroeffentlichen). Die im Buch 2019 genannte enge Bindung (Parkraum in nuetzlicher Entfernung
+   **oder** OEV-Ausbau) ist die fruehere, engere Fassung.
 - **Gestaltung** (§ 244 Abs. 2/3): Verkehrssicherheit, Verlegungsrevers im Strassenabstands-
   bereich; nicht fuer Besucher bestimmte Plaetze **unterirdisch/ueberdeckt**, wenn die Nachbar-
   schaft dadurch geschont wird — kein Legiferierungsspielraum der Gemeinden (VB.2013.00754);

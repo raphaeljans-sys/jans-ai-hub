@@ -1005,3 +1005,33 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Ein solcher Raum macht das Gebaeude zum abstandspflichtigen Hauptgebaeude (Abstaende nach BZO, §§ 270-277
   nPBG). Masse der Kleinbaute im uebrigen: Grundflaeche ≤ 50 m², Gesamthoehe ≤ 4 m / Schraegdach 5 m
   (§ 2a Abs. 1 nABV). _[2026-07-11]_
+
+## Kap. 13 · Fahrzeugabstellplaetze §§ 242-248 PBG — Modell-D Volltextabgleich (2026-07-12, Run 29)
+
+- **F (Modell D · Gegenprobe):** Ein Parkplatz-Revers zitiert die Auflage «Schaffung/Aufhebung von
+  Abstellplaetzen bei bestehenden Bauten» als **§ 243 Abs. 2 PBG**. Stimmt die Absatz-Zaehlung im
+  geltenden Recht? — **A:** **Nein.** Im geltenden ZH-Volltext ist das **§ 243 Abs. 3 PBG**. Der
+  aktuelle **Abs. 2** (revidiert, FN 72) regelt neu die **antragsgebundene tiefere** Platzzahl (wenn
+  oeffentlicher Grund nicht uebermaessig beansprucht wird). Das Buch «Zuercher Planungs- und Baurecht»
+  (6. Aufl. 2019) fuehrt die bestehende-Bauten-Regel noch als Abs. 2 — beim Zitieren in Bewilligungen/
+  Reversen die geltende Zaehlung **Abs. 3** verwenden. _[2026-07-12]_
+- **F (Modell D · Gegenprobe):** Wofuer darf der **Parkplatzfonds § 247 PBG** verwendet werden? — **A:**
+  Im **geltenden** Recht (§ 247 Abs. 1, revidiert): der Fonds «darf **nur fuer die Mobilitaet** verwendet
+  werden»; die Gemeinde **kann** den Zweck einschraenken und muss die Regelung veroeffentlichen. Die im
+  Buch 2019 beschriebene enge Zwei-Zweck-Bindung (Parkraum in nuetzlicher Entfernung **oder** OEV-Ausbau)
+  ist die **fruehere** Fassung. Modell-D-Lehre: bei aelteren Lehrbuch-Belegen die Fonds-Zweckbindung stets
+  am aktuellen Volltext spiegeln. _[2026-07-12]_
+- **F (Modell C):** Was ist unter § 243 Abs. 1 lit. b PBG der ausloesende Tatbestand fuer die
+  Abstellplatz-Erstellungspflicht bei einem Umbau? — **A:** Eine allgemeine bauliche Aenderung, die einen
+  **erheblichen Teil** der Baute erfasst **oder durch die eine wesentlich ANDERE Nutzung als bisher**
+  ermoeglicht wird (amtl. Wortlaut «andere», nicht «staerkere»). Ausgeloest wird nur der **Mehrbedarf**;
+  reine Umnutzung ohne Mehrbedarf verlangt keine neuen Plaetze (BEZ 2001 Nr. 28). _[2026-07-12]_
+- **F (Modell C):** In welchem Paragraphen steht die Bewilligungspflicht fuer Fahrzeugabstellplaetze
+  selbst (als Anlage)? — **A:** **§ 309 Abs. 1 lit. i PBG** («Fahrzeugabstellplaetze, Werk- und
+  Lagerplaetze») — volltextverifiziert 2026-07-12. Davon zu unterscheiden: die parkplatzrelevante
+  **Nutzungsaenderung** ist nach § 309 Abs. 1 lit. b PBG bewilligungspflichtig. _[2026-07-12]_
+- **F (Modell C):** Enthaelt § 242 Abs. 2 PBG den Interessen-Katalog «Schutz von Wohngebieten, Natur-/
+  Heimatschutz, Gewaesser»? — **A:** **Nein.** § 242 Abs. 2 nennt nur das **«ueberwiegende oeffentliche
+  Interesse»** (→ tiefere Zahl + Gesamtzahl begrenzen). Der ausformulierte Interessen-Katalog steht amtl.
+  in **§ 245 Abs. 2 lit. a PBG** (Gemeinschaftsanlagen). Auch das Ziel «Fahrzeuge ausserhalb des
+  oeffentlichen Grundes» steht in **Abs. 2** (nicht Abs. 1). _[2026-07-12]_

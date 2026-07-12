@@ -87,7 +87,19 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 
 ## Fortschritts-Tracker
 
-- **Phase:** **2 (Vertiefung, alle 2 Tage) — Start 2026-06-21.** Mit Run 12 (Kap. 7 Teil 2) sind
+- **Phase:** **3 (Erhaltung/Drills + Modell-D-Volltextabgleich) — Start 2026-07-11 (Run 28).** Alle 23 Kapitel
+  substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
+  Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
+  auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 29 (2026-07-12, erster Phase-3-Verifikationslauf, Modell D+E):** **Fahrzeugabstellplaetze
+    §§ 242-249 PBG** (Kap. 13 T3) gegen `raw/260607_amtlich_zh_pbg.md` abgeglichen → Destillat
+    [[band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3]] + Wiki [[fahrzeugabstellplaetze-und-parkierung]]
+    auf **`established`**. **2 Fassungsstand-Korrekturen:** § 243 Abs. 2→**Abs. 3** (bestehende Bauten;
+    neuer Abs. 2 = antragsgebundene Reduktion), § 247 Abs. 1 «**nur fuer die Mobilitaet**» (statt enger
+    Parkraum/OEV-Bindung); dazu lit. b «andere» statt «staerkere», § 309 Abs. 1 lit. i bestaetigt. 5 Drills
+    (2×D/3×C). **Naechste Phase-3-Ziele:** §§ 233-237 (Baureife), §§ 326-328 (Baufreigabe), § 340/§ 341
+    (Wiederherstellung/Strafe) am Volltext. Report `outputs/2026-07-12_buch-run29.md`.
+- **Phase (historisch):** **2 (Vertiefung, alle 2 Tage) — Start 2026-06-21.** Mit Run 12 (Kap. 7 Teil 2) sind
   **ALLE P1-Kapitel (14/16/15/17/20/6/7) im Kern erfasst** → Phase-1-Aufbau (taeglich) abgeschlossen.
   **Cron auf alle 2 Tage** (`30 7 */2 * *`) heruntergetaktet per update_scheduled_task (2026-06-21).
   Fokus Phase 2: restliche Kapitel (8, 12/13, 9-Rest, 10, 1-5, 11, 19, 21-23) + Restschulden der

@@ -5,6 +5,14 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## Geklärt / verifiziert — 2026-07-12 (Buch-Run 29, Phase 3 · Modell-D Volltextabgleich §§ 242-249 PBG)
+- **✅ Fahrzeugabstellplätze §§ 242-248 PBG (Kap. 13 T3) volltextverifiziert** gegen `raw/260607_amtlich_zh_pbg.md` → Destillat + Wiki [[fahrzeugabstellplaetze-und-parkierung]] auf `established`. Dabei **2 Fassungsstand-Korrekturen** (Buch 6. Aufl. 2019 ↔ geltender Volltext):
+  - **§ 243 Abs. 2/Abs. 3:** Die «bei bestehenden Bauten Schaffung/Aufhebung»-Regel ist geltend **Abs. 3**; der neue **Abs. 2** (FN 72) = antragsgebundene tiefere Platzzahl.
+  - **§ 247 Abs. 1:** geltend «nur für die Mobilität» (breiter); die Parkraum/ÖV-Zweckbindung ist die frühere Fassung.
+  - Zusatz: § 243 Abs. 1 lit. b amtl. «wesentlich **andere**» (nicht «stärkere») Nutzung; § 309 Abs. 1 lit. i = Fahrzeugabstellplätze (bestätigt).
+- **needs-verification (verbleibend, kommunal/nicht im amtl. PBG-Volltext):** Wegleitungs-Tabelle 1 (Parkplatzkennzahlen je Nutzung), PPV Stadt Zürich Art. 8 Abs. 5-8 (autoarm), VSS-Rampenneigungen SN 640 291a — an geltenden kommunalen Erlassen/VSS-Normen prüfen.
+- **Methodenlehre Phase 3:** Bei Lehrbuch-Belegen aus der 6. Aufl. 2019 sind revidierte Absätze (Fussnote-Marker im Volltext, z. B. «72») ein systematischer Fehlerherd bei der **Absatz-Zählung** und bei **Zweckbindungen** — solche § immer am Volltext gegenprüfen, bevor sie in Bewilligungen/Reversen zitiert werden.
+
 ## Offene Wissenslücken (Coverage-Gaps)
 - **Praxisfälle JANS:** `raw/260602_docs-baurecht-praxisfaelle.md` ist ein **leerer
   Platzhalter** (nur Themen-Kategorien, keine echten Fälle) — keine Coverage-Lücke.
