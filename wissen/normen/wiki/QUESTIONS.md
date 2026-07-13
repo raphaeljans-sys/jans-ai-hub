@@ -142,9 +142,12 @@
   VdS-Richtlinie 2234 (DRM-verdaechtig, print+copy erlaubt), Rest DIN 1054 (S.61-77+94-105),
   alle 5 offenen VSS-Grossdateien (40 291, 640 065, 640 281, 640 291a, 640 578).
 
-- [ ] **SN 640 105a (Verbreiterung der Fahrbahn in Kurven, Dez. 2000)** liegt als Anhang ab
-  S.25 in `VSS 640 291a Parkieren Geometrie.PDF`, wurde aber nicht destilliert (ausserhalb
-  Auftragsumfang Mac-Mini-Run4, 13.07.2026). Eigenstaendiges Destillat fuer naechsten Lauf.
+- [x] **SN 640 105a (Verbreiterung der Fahrbahn in Kurven, Dez. 2000)** — **destilliert
+  13.07.2026 (Mac Mini Run 6):** vollstaendig gelesen (S.25-37 des Traegerdokuments
+  `VSS 640 291a Parkieren Geometrie.PDF`, 13/13 S.), eigenstaendiges Destillat
+  `destillate/sn-640105a-2000.md`. Volltextabgleich-Verifikation (Modell D): alle Kernwerte
+  (D-Werte Kategorien A-D, Formel e=Ra-√(Ra²-D²), Bagatellgrenzen, Geltungsbereich 11,25-500m)
+  gegen den Originaltext geprueft, established.
 - [x] **Mac Mini Run 4 (13.07.2026): DIN/VSS/RAL-Inventar vollstaendig abgearbeitet.** Alle
   zuvor offenen DIN-Sonstiges-Dateien (Inhaltsverzeichnis, Planungsgrundlagen, VdS 2234,
   Komm DIN 18024 Rest) sowie alle 5 grossen VSS-Scans (40 291, 640 065, 640 281, 640 291a,
@@ -160,3 +163,11 @@
   Qualitätslücken (nicht blockierend, siehe oben): Duplikat-Merge VKF (Zeile 73, destruktiv,
   Rückfrage nötig), Teil-Destillat DIN EN 1627:2011, SN 640 105a als Anhang nicht separat
   destilliert, fehlende CH-Pendants (SIA 500/SWKI 99-3/SIA 260er) für den SIA/VKF-Loop.
+- [x] **Mac Mini Run 6 (13.07.2026): Deepening-Stufe (a) begonnen, SN-640-105a-Lücke
+  geschlossen.** Gemäss Token-Vollgas-Eskalation (`training/PROGRAMM.md`, Rule 260712c) geht
+  der Loop nach Inventar-Abschluss NICHT in den Leerlauf, sondern in die Vertiefungsstufen
+  über. Erster Schritt: die in Run 5 als offen vermerkte Lücke SN 640 105a (Anhang in
+  `VSS 640 291a Parkieren Geometrie.PDF`, S.25-37) vollständig destilliert und verifiziert
+  (siehe oben). Verbleibende Deepening-Kandidaten für den nächsten Lauf: DIN EN 1627:2011
+  (Vollnorm-Beschaffung), Retro-Verifikation bestehender DIN/VSS/RAL-Destillate mit
+  unabhängigen Widerlegungs-Agenten, Q&A-Selbstbefragung je Kernnorm.

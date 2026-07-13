@@ -552,7 +552,8 @@
 | [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung |
 | [x] 260712 | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 | 1996 | destilliert (vss-640066-1996.md), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `VSS 640 281 Parkfelder.pdf` | 640 | 2006 | destilliert (vss-640281-2006.md) |
-| [x] 260713 | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 | 2005 | destilliert (vss-640291a-2005-parkieren-anordnung-geometrie.md), historisch/ersetzt durch 40 291:2021; enthaelt ab S.25 SN 640 105a (nicht destilliert, in QUESTIONS vermerkt) |
+| [x] 260713 | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 | 2005 | destilliert (vss-640291a-2005-parkieren-anordnung-geometrie.md), historisch/ersetzt durch 40 291:2021; enthaelt ab S.25 SN 640 105a (destilliert 260713 Run 6, sn-640105a-2000.md) |
+| [x] 260713 | P3 | `SN 640 105a Verbreiterung Fahrbahn Kurven (Anhang in VSS 640 291a-PDF, S.25-37)` | 640 | 2000 | destilliert (sn-640105a-2000.md), vollstaendig 13/13 S., Volltextabgleich verifiziert (Mini-Run 6) |
 | [x] 260713 | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 | 2006 | destilliert (vss-640578-2006.md), Laermimmissionen Parkierungsanlagen |
 | — | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  | keine Norm, kurze Notiz/Übersicht (nennt SN 640 291:2020, SIA 500:2009, SN 640 075:2014, ZH-PPV) — übersprungen |
 | — | P3 | `buk/https.docx` |  |  | keine Norm, enthält nur URL zu buk.arch.ethz.ch/Dokumentation/Parkieren — übersprungen |

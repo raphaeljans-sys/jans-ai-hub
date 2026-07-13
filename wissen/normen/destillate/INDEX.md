@@ -164,6 +164,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | destilliert (vollstaendig, S.1-42/42) |
 | `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | destilliert (vollstaendig, S.1-32/32) |
 | `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | destilliert (historisch) |
+| `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | destilliert (vollstaendig, S.1-13/13) |
 | `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | destilliert (vollstaendig, S.1-18/18) |
 | `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | destilliert (vollstaendig, S.1-21/21) |
 | `vss-640578-2006.md` | SN 640 578 Laermimmissionen Parkierungsanlagen Berechnung | 2006-08 | destilliert (vollstaendig, S.1-36/36) |

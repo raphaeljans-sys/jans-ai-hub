@@ -1,3 +1,18 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 6: Deepening-Stufe (a), SN 640 105a destilliert
+- Nach der KOMPLETT-Meldung in Run 5 gemäss Token-Vollgas-Eskalation (`training/PROGRAMM.md`,
+  Rule 260712c) NICHT in den Leerlauf gegangen, sondern in die Vertiefungsstufen übergegangen.
+- Neues, vollständiges Destillat `destillate/sn-640105a-2000.md` (SN 640 105a «Verbreiterung der
+  Fahrbahn in Kurven», Dez. 2000, 13/13 S.) — lag als Anhang (S.25-37) in
+  `VSS 640 291a Parkieren Geometrie.PDF` und war seit Run 4/5 als offene Einzellücke vermerkt.
+- Verifikations-Stufe: Volltextabgleich (Modell D) aller Kernwerte (D-Werte Kategorien A-D,
+  Formel e=Ra-√(Ra²-D²), Bagatellgrenzen, Geltungsbereich 11,25-500 m) direkt gegen den
+  Originaltext — Status `established`.
+- Register nachgeführt: `destillate/INDEX.md`, `training/norm-inventar.md`, `wiki/REGISTER.md`
+  (neue Sektion Mini-Run-6), `wiki/QUESTIONS.md` (Lücke geschlossen). Report:
+  `outputs/2026-07-13_normen-mini-run6.md`.
+- Verbleibende Deepening-Kandidaten für den nächsten Lauf: Retro-Verifikation bestehender
+  Grossdatei-Destillate, Q&A-Selbstbefragung, Querschnitts-Synthese für Fach-Skills.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 5: DIN/VSS/RAL KOMPLETT (Endbedingung erreicht)
 - Inventar-Abgleich gegen den echten SharePoint-Ordnerinhalt: 4 bisher nicht erfasste
   Nicht-Norm-Dateien nachgetragen (`FileOpenInstaller.dmg`, 2 Screenshots, 1 Foto) — DIN-Header

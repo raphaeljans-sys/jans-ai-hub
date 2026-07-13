@@ -426,3 +426,9 @@ Gültigkeit/«ersetzt» direkt aus Titelblatt/Vorwort des jeweiligen PDF belegt 
 | DIN 4426 | September 2001 | DIN 4426:1990-04 | gilt; Instandhaltung baulicher Anlagen — Arbeitsplätze/Verkehrswege Dach+Fassade, Gerüstverankerung |
 | DIN EN 12207 | 2000-06 (dt. Fassung EN 12207:1999-11) | teilweise DIN 18055:1981-10 (nur Ziff. 3.2 Fugendurchlässigkeit) | gilt; Fenster/Türen Luftdurchlässigkeit-Klassifizierung 1–4, NA-Tabelle Korrelation zu alten Beanspruchungsgruppen A/B/C |
 | DIN 1055-2 | 2010-11 | DIN 1055-2:1976-02 | gilt; Bodenkenngrössen — nur Geotechnische Kategorie 1, Gründungstiefe ≤ 3 m |
+
+## Mini-Run-6 (13.07.2026, Mac Mini — Deepening nach Inventar-Abschluss, am Original gelesen)
+
+| Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
+|---|---|---|---|
+| SN 640 105a (VSS) | Dezember 2000 | SNV 640 105 (Oktober 1975) | gilt (keine neuere Ausgabe im Bestand); Verbreiterung der Fahrbahn in Kurven, vollständig als Anhang (S.25-37) in `VSS 640 291a Parkieren Geometrie.PDF` gelesen |
