@@ -94,3 +94,15 @@ kein Git-Diff auf der Binaerdatei). Einzige Aenderung: Zeitstempel in `catalog/I
 CAD-Dateien, inhaltlich unveraendert. Kein neuer Stoff, keine neuen Befunde. Der Hinweis
 aus dem fuenften Lauf bleibt unveraendert gueltig: reine Wiederholungslaeufe bringen ohne
 neues Rohmaterial keinen weiteren Fortschritt mehr.
+
+## Siebter Lauf, 19:24 Uhr
+Erneuter Aufruf `synobsis_batch.sh 25` (VOLLGAS-Taktung, Task `synobsis-batch-nacht`).
+Ergebnis identisch zu den sechs vorherigen Laeufen des Tages: Stufe 1 nichts zu tun
+(853/853, offen 0), Stufe 2 `vectors.npz` deterministisch neu geschrieben (853 x 768,
+kein Git-Diff auf der Binaerdatei). Einzige Aenderung: Zeitstempel in `catalog/INDEX.md`
+(19:24) und `catalog/cad-index.json` (19:24:31) — weiterhin 15 Architekten mit
+CAD-Dateien, inhaltlich unveraendert. Kein neuer Stoff, keine neuen Befunde. Solange
+kein neues Rohmaterial in `/Volumes/daten/05_Architekten_Synobsis` auftaucht und keine
+Freigabe fuer die Stufe-3-Nacharbeit an `wiki/QUESTIONS.md` vorliegt, bleiben weitere
+Laeufe reine Vektorindex-Frischhaltung ohne inhaltlichen Fortschritt (Inventar seit
+2026-07-02 bei 853/853 vollstaendig).
