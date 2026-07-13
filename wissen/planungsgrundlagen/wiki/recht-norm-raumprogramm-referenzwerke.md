@@ -2,8 +2,8 @@
 title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012)]
-links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]]
+sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
+links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]]
 ---
 
 # Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
@@ -126,8 +126,66 @@ geschlechtergetrennte Einheit je 2 Klassenzimmer.
 die Personal- und Publikums-Schlüssel geben in der Vorprojektphase sofort die nötige
 Sanitärraum-Anzahl fürs Raumprogramm, bevor das HLS-Planer-Detail vorliegt.
 
+## 4. Trockenräume/Nebenräume Wohnhäuser — § 297 PBG / § 39 BBV I + Stadt-ZH-Praxis (MPP, neu erschlossen Run 26)
+
+Realer Auskunfts-Mailwechsel Meili Peter Architekten (16.12.2004) belegt die **Stadt-ZH-Vollzugspraxis**
+zu Nebenräumen in Wohnhäusern, ergänzend zur reinen Gesetzesnorm:
+
+- **§ 297 PBG:** In Wohnhäusern müssen **ausreichende Nebenräume** wie Trockenräume und
+  Einstellgelegenheiten für Vorräte, Hausrat u.dgl. geschaffen werden (Lage nicht vorgeschrieben —
+  Keller, Estrich, Wohnungsréduit gleichermassen zulässig).
+- **§ 39 BBV I:** Diese Einstellgelegenheiten müssen **pro Wohnung mindestens 8 m² Grundfläche**
+  aufweisen; für Wohnungen mit **höchstens zwei Zimmern genügen 5 m²**.
+- **Stadt-ZH-Vollzugspraxis (Waschküchen/Trockenräume, nicht im Gesetzestext, sondern gelebte Praxis
+  gemäss Auskunft AfB):** **pro 9 Wohnungen 1 Waschautomat + 1 Trockenraum à 10 m²**, ODER
+  **1 kombinierter Trockenraum mit Waschautomat à 12 m²**.
+- Dazu die nötigen **Einstellräume für Velos und Kinderwagen** (Faustregel Stadt ZH): Wohnung bis
+  2½ Zimmer → **1 m²**; Wohnung ab 3 Zimmer → **2 m²**.
+
+**Relevanz JANS:** direkt anwendbar als Nebenraum-Richtwert im Wohnungsbau-Raumprogramm (Kellergeschoss-
+/Technikgeschoss-Bemessung), ergänzt die reinen Wohnflächen-Kennwerte aus WBS 2015 (§2 oben) um die
+**Nebenraum-Seite** des Raumprogramms — WBS nennt zwar Wasch-/Trocknungsräume als eigenes Kriterium
+(K13), aber keine Flächenzahl; die hier belegte Stadt-ZH-Praxis liefert die konkrete m²-Zahl.
+
+## 5. Bettenlifte in Wohnhäusern — § 40 BBV I, Reichweite eingeschränkt (BRKE I Nr. 0117/1999, MPP)
+
+Realer Anfragefall haratori Architekten (Projekt Freilagerareal Teilgebiet C, Mai 2011) klärt eine
+**häufige Fehlannahme**: dass jedes Gebäude mit mehr als 5 anrechenbaren Geschossen über/unter dem
+Eingangsgeschoss einen Bettenlift statt eines normalen Personenlifts braucht.
+
+- **§ 40 Abs. 1 BBV I (Wortlaut sinngemäss, Auskunft AfB):** Bei Gebäuden mit **mehr als 5 anrechenbaren
+  Geschossen über oder unter dem Eingangsgeschoss** muss ein auch für **Krankentransporte geeigneter
+  Aufzug** eingebaut werden — Kabinenmasse **1.10 × 2.10 m** (Bettenlift) statt der üblichen
+  **1.10 × 1.40 m** (Personenlift).
+- **BRKE I Nr. 0117 vom 4.6.1999 (Baurekurskommission I, bestätigt telefonisch/schriftlich durch AfB
+  Stadt Zürich, Kreisarchitekt Dario Cappilli, 19.05.2011):** Die Tragweite von § 40 Abs. 1 BBV I wird
+  **eingeschränkt**. Ein grosser (Betten-)Aufzug ist nur bei **speziellen Bewerbungsarten** verlangt,
+  bei denen **vermehrt mit Krankentransporten** zu rechnen ist. Ausdrücklich **ausgenommen** ist die
+  **«normale» Wohnnutzung** — unabhängig vom Wohnungsstandard —, weil dort **nicht** damit gerechnet
+  werden müsse, dass gehäuft Unfälle/Krankheiten auftreten.
+  - **Massgebend** (Bettenlift-Pflicht): Altersheime, Krankenheime, Pflegeheime.
+  - **Nicht massgebend** (normaler Personenlift genügt): normale Wohnnutzung — auch wenn die
+    Wohnungen faktisch (auch) von älteren Menschen bewohnt werden, solange sie nicht **speziell als
+    Alterswohnungen geplant, organisiert und eingerichtet** sind (z.B. Pflege-/Aussenraum-Zugänge nur
+    über eine Treppe höher gelegen).
+  - **Zwischenstufe «Alterswohnungen»** (eigens organisiert/eingerichtet für ältere Bewohner, aber kein
+    Heim): gemäss AfB-Auskunft **massgebend** (Bettenlift-Pflicht greift).
+
+**Relevanz JANS (Kernsegment Healthcare):** Bei Studien/Vorprojekten für **Altersheim/Krankenheim/
+Pflegeheim** ist der Bettenlift (Kabine 1.10×2.10 m) **zwingend** ab > 5 anrechenbaren Geschossen über/
+unter Eingangsgeschoss einzuplanen (Mehrkosten Aufzugsanlage, grösserer Schachtquerschnitt/Vorraum) —
+direkt relevant für [[healthcare-wirtschaftlichkeit]] und die Erschliessungsflächen-Bemessung in
+`machbarkeit`. Bei **normalem Wohnungsbau** (auch mit Seniorenwohnungen ohne Heim-Charakter) ist der
+teurere Bettenlift **nicht** vorgeschrieben — diese BRKE-Praxis als Kostenargument gegenüber der
+Bauherrschaft/Behörde nutzbar, wenn ein Bettenlift unnötig gefordert würde.
+
 ## Offen
 - Raumpilot-Kapitel "Wohnen" (S. 155–348) noch nicht im Detail ausgewertet — bei konkretem
   Wohnungsbau-Raumprogramm-Bedarf vertiefen.
 - WBS-Kriterientabelle vollständig (K1–K25) nur als Struktur erfasst, nicht alle 25 Kriterien im
   Detail — bei konkretem Fall mit Wohnbauförderungs-Bezug (Gemeinnütziger Wohnungsbau) vertiefen.
+- § 297 PBG / § 39 BBV I / § 40 BBV I sind hier aus **Sekundärquellen** (Mailauskünfte AfB/Anwalt,
+  2004/2011) zitiert, nicht aus dem amtlichen Gesetzestext selbst nachgeprüft — vor einer verbindlichen
+  Anwendung den aktuellen PBG-/BBV-I-Wortlaut gegenprüfen (BBV I könnte zwischenzeitlich durch die
+  IVHB-Harmonisierung angepasst/umnummeriert worden sein, vgl. Harmonisierungs-Falle in
+  [[recht-norm-dispensrecht]]).

@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Dispensrecht / Ausnahmebewilligung (PL-02)
 status: established
-last_updated: 2026-07-06
-sources: [PL - 02_Recht_Norm/01_Gesetze/05_Dispensrecht (SharePoint), BRKE I 0247/2010, baurekursgericht-zh.ch, zhlex LS 700.1, saputelli-baurecht.ch (PBG aktuell 3/2021), sz.ch/lexfind (PBG/PBV SZ)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-baurechtsanalysen-benchmarks]], [[kartenportale-baulinien-abstandslinien-zh]], [[machbarkeit]]
+last_updated: 2026-07-13
+sources: [PL - 02_Recht_Norm/01_Gesetze/05_Dispensrecht (SharePoint), BRKE I 0247/2010, baurekursgericht-zh.ch, zhlex LS 700.1, saputelli-baurecht.ch (PBG aktuell 3/2021), sz.ch/lexfind (PBG/PBV SZ), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/Mehrwertrevers Beseitigungsrevers/ (ZBl 1993 Bösch, Screenshot notariate-zh.ch, Run 26)"]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-baurechtsanalysen-benchmarks]], [[kartenportale-baulinien-abstandslinien-zh]], [[machbarkeit]], [[ankaufspruefung]]
 ---
 
 # Recht & Norm — Dispensrecht / Ausnahmebewilligung (PL-02)
@@ -115,6 +115,33 @@ Realer Musterfall aus `05_Dispensrecht` (bestaetigt vom Verwaltungsgericht mit *
 > Kraft stehende PBG-Fassung** (Uebergangsrecht). Vor einem Dispens-Gesuch pruefen, **welche
 > PBG-/BZO-Fassung** in der Standortgemeinde massgebend ist → sonst falsche Bezugsnorm. Mass-Begriffe →
 > `02_Zuerich/Planung/IVHB_Leitfaden`, Detail → `baurecht`.
+
+## Verwandtes Institut: Revers statt Dispens (Mehrwertrevers/Beseitigungsrevers)
+
+**Kein Doppel** — die materielle Behandlung liegt in der Baurechts-KB
+(`wissen/baurecht/wiki/nebenbestimmungen-und-reverse.md`, §§ 100 Abs. 4/101 Abs. 2 PBG). Hier nur der
+**Planungsgrundlagen-Fundort und die Abgrenzung**, neu erschlossen Run 26 (`01_Gesetze/02_Zuerich/
+Planung/Mehrwertrevers Beseitigungsrevers/` — Ordnerinhalt: ein allgemeiner ZBl-1993-Aufsatz von
+Peter Bösch zu Grundbuch↔Baubewilligungsverfahren, ein Screenshot der Notariate-ZH-Erläuterung, ohne
+substanziell neue Rechtsfakten ggue. der bereits vorhandenen Baurechts-KB).
+
+- **Mehrwertrevers/Beseitigungsrevers ≠ Mehrwertabgabe (RPG Art. 5):** Verwechslungsgefahr am Namen.
+  Der hier gemeinte Revers ist eine **Grundbuch-Anmerkung**, keine Abgabe/Steuer.
+- **Auslöser laut Notariate-ZH-Quelle (Screenshot, PL-02-Ordner):** wird im Rahmen des
+  Baubewilligungsverfahrens eine **Ausnahmebewilligung** erteilt, wird der Grundeigentümer oft
+  verpflichtet, auf behördliches Verlangen den **ursprünglichen Zustand wiederherzustellen**
+  (**Beseitigungsrevers**); wird zusätzlich jeder Entschädigungsanspruch für eine solchermassen
+  erzwungene Beseitigung ausgeschlossen, handelt es sich um den **Mehrwertrevers**. Diese Formulierung
+  ist **breiter** als die in der Baurechts-KB dokumentierte Baulinien-spezifische Herleitung (§ 100/101
+  PBG) — sie zeigt, dass die Revers-Mechanik nicht nur bei Baulinien, sondern **bei jeder
+  Ausnahmebewilligung** (also auch bei einem § 220 PBG Dispens dieses Artikels) als Sicherungsmittel
+  in Frage kommt. Nicht als eigene Rechtsquelle geprüft (nur Screenshot einer Kanzlei-Webseite,
+  `law.ch`/`notariate-zh.ch`) — bei einem realen Dispens-mit-Revers-Fall den genauen kantonalen
+  Rechtsgrund verifizieren.
+- **Relevanz JANS:** Wird ein Dispens (§ 220 PBG) oder eine sonstige Ausnahmebewilligung erteilt, ist in
+  der Praxis zu prüfen, ob die Behörde einen **Revers zur Grundbuch-Anmerkung** verlangt — das
+  beeinflusst die Wirtschaftlichkeitsrechnung (kein Vertrauen auf dauerhaften Mehrwert) und ist bei
+  Ankaufsprüfungen (`ankaufspruefung`) als bestehende Grundbuch-Last zu prüfen.
 
 ## SZ-Pendant (kurz, Wuerdigung → `baurecht`)
 

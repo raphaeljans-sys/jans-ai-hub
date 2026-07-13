@@ -94,6 +94,19 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R12–R17** (Run 26, 2026-07-13) Sechs bisher unerschlossene PL-02-Unterordner ausgewertet:
+  **Radonschutz** (StSV-Totalrevision 2017 statt SharePoint-Stammfassung 1994, Referenzwert
+  300 Bq/m³ → NEU [[recht-norm-radonschutz]]), **Zivilschutz-Bautechnik** (TPH-18 Durchfuehrungen,
+  Ersatzbeitrag CHF 1'400/SP ab 01.01.2026 → NEU [[recht-norm-zivilschutz-bautechnik]]),
+  **Arbeitsplatz-Bauvorschriften** ArGV 3/4 (Luftraum/Tageslicht/Raumhoehe/Verkehrswege → NEU
+  [[recht-norm-arbeitsplatz-bauvorschriften]]), **Trockenraeume + Bettenlift-Pflicht** (MPP-
+  Praxisnotizen → [[recht-norm-raumprogramm-referenzwerke]] §4/§5), **Mehrwertrevers/
+  Beseitigungsrevers** (Cross-Ref statt eigenem Artikel, kaum neue Fakten ggue. `wissen/baurecht`
+  → [[recht-norm-dispensrecht]]), **Attika-Praxisfall Zuerichseegut** (Namensverwechslung ZSG
+  aufgeloest → [[recht-norm-baurechtsanalysen-benchmarks]]). Details siehe `training/curriculum.md`
+  R12-R17. Offen: fedlex-ELI fuer SR 520.11/822.113/822.114 noch nicht ermittelt; `twp84d.pdf` +
+  `TPH-19-d` nicht gelesen; Schutzplatz-Bemessungsformel nicht gefunden; `07_Neuffert`/
+  `04_Merkblätter` unter `01_Gesetze/01_Bund/` geprueft, aber leer.
 - [x] **R10** Raumprogramm-Bemessungsgrundlagen (Raumpilot, WBS 2015, Sanitaeranlagen) — welche
   Referenzwerke ergaenzen die rechtlich bindenden Masse fuers Raumprogramm? ✓ **2026-07-13
   (Run 23):** NEU [[recht-norm-raumprogramm-referenzwerke]] — **Raumpilot** (Jocher/Loch,
@@ -191,6 +204,15 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C15–C19 (B14-B18)** (Run 26, 2026-07-13) Bisher unerschlossene PL-03-Ordner ausgewertet:
+  **Musterplansatz bsvonline.ch** (Legende/Symbolik + Objektdatenblatt Feuerwehrplaene → NEU
+  §5b), **Feuerwehr-Bewegungs-/Stellflaechen** (6×11 m, Schlauchlaenge 60 m ⚠ Quelle nur Foto,
+  Verifikation offen → NEU §5c), **Fluchtwegkonzept Beherbergung [a]** (BSR 16-15 Ziff. 3.6.1,
+  mind. 2 unabhaengige Brandabschnitte je Bettengeschoss, real KISPI-Ordner → NEU §5d),
+  **Blaues Buch Kap. 18** (§ 305 PBG geht vor BSN wo strenger, nur 2/>10 Seiten gelesen → NEU
+  §5e), **VKF-Verzeichnis 40-15** (Konkordanz-Tabelle, niedrige Prioritaet bestaetigt → NEU §5f)
+  → alle [[brandschutz-pl03-wegweiser]]. Ordner `11 Projekte/` geprueft: leer. Details siehe
+  `training/curriculum.md` B14-B18.
 - [x] **C11 (B10)** Atrien/Innenhoefe — ab wann gilt ein Raum als Atrium, welche Massnahmen? ✓
   **2026-07-13 (Run 24):** VKF-Erlaeuterung 101-15de vollstaendig — Definition (>3'600 m²/
   >3 Geschosse/>11 m), 3 Typen A/B/C, Innenhof-Sonderregel <5 m Breite → NEU

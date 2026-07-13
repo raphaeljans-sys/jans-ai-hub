@@ -2,6 +2,58 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 26 (Recht/Norm + Brandschutz, Token-Vollgas 2 Domaenen, Multi-Agent-Workflow): sechs + fuenf nie erschlossene PL-02/PL-03-Unterordner ausgewertet
+- Rotation nach Run 25: Recht & Norm (PL-02) + Brandschutz (PL-03). Beide Domaenen waren im
+  Curriculum/QUESTIONS praktisch vollstaendig `[x]` — Methode wie Run 25: `find`-Abgleich der
+  Ordnerbaeume gegen `raw/_INGESTED.md`, um bisher nie geoeffnete Unterordner zu finden. Zwei
+  parallele Fach-Agenten (Recht/Norm, Brandschutz) haben die Tiefenrecherche unabhaengig
+  durchgefuehrt (Autorisierung Rule auto-verbesserungen 260712), der Hauptlauf hat die Register
+  danach zentral konsolidiert (Vermeidung von Schreibkonflikten auf gemeinsamen Dateien).
+- **NEU [[recht-norm-radonschutz]] (established):** Radonschutz nach Strahlenschutzverordnung —
+  wichtigster Fund: die abgelegte SharePoint-PDF `814.501.pdf` ist die **Stammfassung von 1994**
+  und seit der Totalrevision vom 26.04.2017 (in Kraft 01.01.2018) ersetzt; per fedlex `cc/2017/502`
+  korrigiert. Radonreferenzwert **300 Bq/m³** (Art. 155), Arbeitsplatz-Schwelle 1000 Bq/m³
+  (Art. 156), Bauherrenpflicht bei Neu-/Umbau (Art. 163, kein eigenes Formular), Sanierungspflicht
+  (Art. 166); BAG-Vorsorgemassnahmen (durchgehende Bodenplatte, RDS-Durchfuehrungen, SIA 272/
+  180/2023); aktuelle Radonkarte `ch.bag.radonkarte` (map.geo.admin.ch) loest die alte
+  Gemeinde-Statistik ab.
+- **NEU [[recht-norm-zivilschutz-bautechnik]] (emerging):** TPH-18 (BABS 19.05.2003, gasdichte/
+  druckfeste Durchfuehrungen durch Schutzraum-Huellen, Pruefpflicht ab Ø 60 mm); **Ersatzbeitrag-
+  Revision ZSV per 01.01.2026: CHF 1'400/Schutzplatz** (vorher 800, neu auch Um-/Anbauten),
+  kreuzverifiziert mit dem bereits in `wissen/auflagebereinigung` dokumentierten Fall 2619-KISPI
+  (15 SP × 1'400 = 21'000 CHF).
+- **NEU [[recht-norm-arbeitsplatz-bauvorschriften]] (established):** ArGV 3/4 — Luftraum 12/10 m³
+  pro Person (Art. 12 ArGV 3), Tageslicht-Grundsatz + Kompensation fensterloser Raeume (Art. 15
+  ArGV 3), gestaffelte Mindest-Raumhoehe 2.75-4.00 m (Art. 5 ArGV 4), Verkehrswegbreite 1.20 m
+  (Art. 6 ArGV 4).
+- **[[recht-norm-raumprogramm-referenzwerke]] erweitert (§4/§5):** Trockenraeume (§ 297 PBG/
+  § 39 BBV I + Stadt-ZH-Vollzugspraxis, 1 Trockenraum/10 m² je 9 Wohnungen) und Bettenlift-Pflicht
+  (§ 40 BBV I ab >5 Geschossen), **eingeschraenkt durch BRKE I 0117/1999 auf Alters-/Krankenheime**
+  — direkte Healthcare-Relevanz fuer `healthcare-wirtschaftlichkeit`.
+- **[[recht-norm-baurechtsanalysen-benchmarks]] erweitert:** Attika-Praxisfall «Zuerichseegut»
+  (Namensverwechslung ZSG im Dateinamen aufgeloest — Projektabkuerzung, nicht Zivilschutzgesetz),
+  Art. 292 PBG Aesthetikermessen/Firstrichtungs-Vermutung/zonenfremde Nutzung.
+- **[[recht-norm-dispensrecht]] ergaenzt:** Mehrwertrevers/Beseitigungsrevers als Cross-Referenz
+  (Revers ≠ Mehrwertabgabe RPG Art. 5; Tiefe bereits in `wissen/baurecht` vorhanden — bewusst kein
+  eigener Artikel, um Dopplung zu vermeiden).
+- **[[brandschutz-pl03-wegweiser]] erweitert um §5b-§5f:** bsvonline.ch-Musterplansatz (Legende/
+  Symbolik BS-Plan einfach EI60/EI30-RF1-Farbcode, Objektdatenblatt Feuerwehrplaene); Feuerwehr-
+  Bewegungs-/Stellflaechen (6×11 m, Schlauchlaenge 60 m, Stuetzenlast 800 kN/m² — ⚠ Quelle nur
+  Foto ohne erkennbaren Dokumenttitel, Verifikation offen); **Fluchtwegkonzept Beherbergung [a]
+  nach BSR 16-15 Ziff. 3.6.1** (horizontale Evakuierung, mind. 2 unabhaengige Brandabschnitte je
+  Bettengeschoss — Kernparameter fuer Kinderspital-/Pflegeheim-Layout, real am KISPI-Ordner
+  belegt); Blaues Buch Kap. 18 Brandschutz (§ 305 PBG geht vor BSN wo strenger, z.B. Haustuer-
+  Lichtmass 1 m statt 0.9 m — nur 2 von vermutlich >10 Doppelseiten gelesen, Rest offen);
+  VKF-Verzeichnis 40-15 «Weitere Bestimmungen» (Konkordanz-Tabelle, niedrige Prioritaet als
+  schlanker Hinweis eingeordnet).
+- **Geprueft, keine Inhalte:** Ordner `PL-03/11 Projekte/` ist leer; `PL-02/01_Gesetze/01_Bund/
+  07_Neuffert` und `04_Merkblätter` sind leer.
+- **Offen fuer Folgelaeufe:** fedlex-ELI fuer SR 520.11 (ZSV) und SR 822.113/822.114 (ArGV 3/4)
+  noch nicht ermittelt; `twp84d.pdf`/`TPH-19-d` nicht gelesen; Schutzplatz-Bemessungsformel
+  (Personen/m²) nicht gefunden; Feuerwehr-Bewegungsflaechen-Quelle (§5c) gegen die formelle
+  VKF-Publikation verifizieren; Blaues Buch Kap. 18 restliche Ziffern nachziehen.
+- Naechste Domaenen laut Rotation: Kartenportale + Energie.
+
 ## 2026-07-13 — Training Run 25 (Kartenportale + Energie, Token-Vollgas 2 Domaenen): eBau SZ + historisches Terrain neu erschlossen, Rutschgebiete vertieft, CLT-Bauphysik belegt
 - Curriculum/QUESTIONS beider Domaenen waren praktisch vollstaendig `[x]` — Methode dieses Laufs:
   vollstaendiger `find`-Abgleich des PL-01/PL-04-Ordnerbaums gegen `raw/_INGESTED.md`, um bisher

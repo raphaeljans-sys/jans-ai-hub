@@ -2,7 +2,7 @@
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH) und «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz)]
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -552,6 +552,207 @@ Feuerwiderstand») bleiben Fachplaner-/Skill-`brandschutz`-Tiefe, hier nur die E
 
 ---
 
+## 5b · Wie sieht ein Brandschutz-/Feuerwehrplansatz konkret aus (bsvonline.ch, Run 26, 2026-07-13)
+
+Quelle: `PL - 03 Brandschutz/00 Brandschutzplaene bsvonline.ch/Brandschutzplaene BSPUB-1394520214-207/`
+— ein realer, ueber den bsvonline.ch-Webshop bezogener **Muster-Plansatz** (anonymisiertes Objekt
+«Firma Hans Muster», Hotel- und Kongresszentrum), der zeigt, was §2/Punkt F («Brandschutzplaene,
+Massstab 1:100/1:200, Symbole nach VKF-Merkblatt 2003-15») konkret als Liefergegenstand bedeutet.
+
+**Der Plansatz gliedert sich in vier Teilprodukte** (je eigener Unterordner):
+- **Flucht- und Rettungswegplan** (je Geschoss, hier Beispiel 10. OG) — der Aushang-Plan fuer
+  Nutzer/Personal.
+- **Brandschutzplaene «detailliert»** (Situation, UG, EG, Schnitt, Regelgeschoss) — fuer QSS 3
+  und komplexere Nutzungen.
+- **Brandschutzplaene «einfach»** (Schnitt, DG, EG, Regelgeschosse, Legende) — reduzierter
+  Detaillierungsgrad fuer einfachere Objekte/tiefere QSS.
+- **Feuerwehrplaene** (Titelblatt, Objektdatenblatt, Anfahrtsplan, Situationsplan, Detailplaene je
+  Geschoss, Oekologieplan, Lagerliste) — inkl. optionaler Zusatzvariante **«Stoerfall ABC-Objekt»**
+  fuer Betriebe mit gefaehrlichen Stoffen.
+
+**Legende «BS-Plan einfach» (Plot 16.12.2016) — die tatsaechlich verwendete Farb-/Symbolsprache:**
+Feuerwiderstand als **Farbcode** (EI 60-RF1 dunkelblau, EI 30-RF1 hellblau, EI 60 dunkelorange,
+EI 30 orange/gelb, E 30 rosa); Fluchtwege als Flaechenfarbe (vertikal dunkelgruen, horizontal
+hellgruen, freizuhaltende Flaeche gruen schraffiert) mit Pfeil-Symbolen fuer Notausgang,
+Fluchtweglaenge (m) und Fluchtwegbreite (z. B. 1.20 m); feuerwehrbezogene Symbole (Hauptzugang
+Feuerwehr, Zugang SPA-Z, Handfeuerloescher, Wasserloeschposten WLP mit Standort/Schlauchlaenge,
+RWA-Bedienstelle, Entrauchung LRWA in m³/h, Oeffnung natuerliche Abstroemung AOe in m², mobiler
+Lueter Feuerwehr, Sprinklerzentrale SPA-Z, gesprinklerte Bodenflaeche, Brandmeldeanlage-
+Bedienstelle BMA-BS, Brandmeldeueberwachung BMA, Schluesseldepot aussen, Raum/Schrank mit
+Explosionsgefaehrdung, Personenbelegung «xxx Pers.», Treppenhaus-Bezeichnung «TH Nr.», Aufzug).
+
+**Objektdatenblatt Feuerwehrplaene** (Kopfdaten Objekt/Betriebsname/Objektnummer/Adresse/Nutzung/
+Gemeinde/erstellt-aktualisiert-Datum/Visum Feuerwehr) fasst pro Objekt zusammen: Sofortmassnahmen,
+besondere Gefahren, Zufahrt, Schluesseldepot, Feuerwehraufzug, Flucht-/Rettungswege, Sammelplatz;
+**Technischer Brandschutz** (BMA Voll-/Teilueberwachung, Sprinkler Voll-/Teilschutz, stationaere
+Loescheinrichtungen, RWA-/Rauchschutz-Druckanlage-/Evakuierungsanlage-Standorte); **Loeschwasser-
+versorgung** (Steigleitung, Innenhydranten, Areal-Hydranten, Gewaesser); **Gefahren** (Elektrizitaet/
+Trafostation, Photovoltaik, ABC-Gefahren, «Gefahr durch Loeschen mit Wasser» bei wasserreaktiven
+Lagerguetern) und **Oekologie/Entwaesserung** (Loeschwasserrueckhalt).
+
+**JANS-Praxiswert:** diese Legenden-/Objektdatenblatt-Struktur ist eine belegte **Checkliste**, wenn
+JANS in einem Vorprojekt/einer Machbarkeitsstudie fruehzeitig abschaetzen will, welche Angaben ein
+spaeterer Brandschutzplaner ueberhaupt braucht (Zufahrt, Schluesseldepot-Lage, Sammelplatz,
+Loeschwasserversorgung) — die eigentliche Planerstellung (meist ueber bsvonline.ch-Tools bestellt)
+bleibt Fachplaner-/Skill-`brandschutz`-Aufgabe.
+
+---
+
+## 5c · Feuerwehrzufahrten, Bewegungs- und Stellflaechen — reale Bemessung (Pflegeheim Wald, Run 26, 2026-07-13)
+
+Quelle: `PL - 03 Brandschutz/_Projekte Themen/Pflegeheim Wald/IMG_0546.jpeg` — Foto einer
+Schulungs-/Praesentationsfolie «9 | Flaechen fuer Gebaeude mittlerer Hoehe: bis 30 m Gesamthoehe»
+(VKF-Feuerwehrzufahrten-Thematik; die Folie selbst nennt keine formelle Dokumentnummer — als Foto
+einer Praesentation, nicht als gepruefte Originalnorm zu behandeln, inhaltlich aber mit den
+Feuerwehr-Bewegungsflaechen-Anforderungen konsistent, wie sie in der Praxis bei Gebaeuden mittlerer
+Hoehe verlangt werden).
+
+**Bewegungsflaeche/Standort Loeschfahrzeug** (Notwendigkeit: Zugang fuer das Loeschfahrzeug bis
+nahe an den Gebaeudeeingang):
+- Breite **min. 6 m** / Laenge **min. 11 m**.
+- Abgewickelte Schlauchlaenge vom Loeschfahrzeug bis zum Gebaeudeeingang **max. 60 m**.
+- Gesamtgewicht Fahrzeug **18 t**.
+
+**Stellflaeche/Standort Hubrettungsfahrzeug** (Notwendigkeit: Anleitern entlang einer Fassade):
+- Breite **min. 6 m** / Laenge **min. 11 m**.
+- Abstand **min. 5 m bis max. 6.50 m** bis Achse Stellflaeche.
+- Uebergangsbereich (fahrzeugfrei) **min. 4 m**.
+
+**Stuetzenlast-Nachweis fuer die Abstuetzung des Hubrettungsfahrzeugs** (18 t Gesamtgewicht):
+- **Nicht unterkellert:** Bodendruckfestigkeit **800 kN/m²**.
+- **Unterkellert:** punktfoermige Stuetzenlast **144 kN** bei einem Stuetzenteller von **0.18 m²**.
+
+**JANS-Praxisrelevanz:** die Feuerwehr-Bewegungs-/Stellflaeche ist ein **Vorprojekt-Parameter**,
+nicht erst eine spaetere Brandschutz-Detailfrage — sie bindet eine Flaeche entlang mindestens einer
+Fassade mit klaren Geometrie- und Traglastanforderungen (relevant fuer die Unterkellerungs-Statik
+bei Tiefgaragen unter der Zufahrt/Stellflaeche). Ergaenzt die Erschliessungsgeometrie aus
+[[recht-norm-tiefgarage-erschliessung]] (dort Fahrzeug-/Rampengeometrie allgemein) um die
+feuerwehrspezifische Traglast- und Anleiterbarkeits-Anforderung — bei Healthcare-Neubauten mit
+Unterkellerung fruehzeitig mit dem Statiker/Tiefbauplaner abzustimmen. **Offen:** exakte
+Dokumentquelle/Ausgabestand der Folie (nur Foto verfuegbar) — bei naechster Gelegenheit gegen die
+formelle VKF-Publikation «Zufahrten, Bewegungsflaechen und Stellflaechen fuer die Feuerwehr»
+verifizieren, falls diese in der PL-03-Ablage auffindbar wird.
+
+---
+
+## 5d · Beherbergungsbetriebe [a] — Fluchtwegkonzept mit horizontaler Evakuierung (KISPI-Fund, Run 26, 2026-07-13)
+
+Quelle: `PL - 03 Brandschutz/_Projekte Themen/KISPI/IMG_3798.jpeg` + `IMG_3797.jpeg` — Fotos aus
+**VKF-BSR «Flucht- und Rettungswege» 16-15de**, Ziff. 3.3.2–3.3.4 sowie **Ziff. 3.6
+«Beherbergungsbetriebe»** (3.6.1 [a], 3.6.2 [b]/[c]). Ergaenzt §3 (QSS-Einstufung Beherbergung
+[a] → QSS 2–3) und §4f (20-Personen-Schwelle) um das konkrete **Fluchtwegkonzept**.
+
+**Ziff. 3.6.1 Beherbergungsbetriebe [a] — das Aufenthaltskonzept (JANS-Healthcare-Kernbefund):**
+1. In Bettengeschossen, in denen **dauernd oder voruebergehend kranke, pflegebeduerftige oder auf
+   fremde Hilfe angewiesene Personen** untergebracht sind, muessen die horizontalen Fluchtwege so
+   unterteilt werden, dass zusammen mit den Patientenzimmern **mindestens zwei voneinander
+   unabhaengige Brandabschnitte** entstehen — damit eine **horizontale Evakuierung** moeglich ist
+   («Aufenthaltskonzept»). Kernprinzip: statt einer vertikalen Flucht ins Freie werden nicht selbst
+   rettungsfaehige Personen im Brandfall auf derselben Ebene in den **benachbarten** Brandabschnitt
+   verschoben.
+2. Empfangsbueros, die von den angrenzenden Raeumen mit **EI 60** abgetrennt sind: gegen vertikale
+   Fluchtwege genuegt ein **EI 30**-Abschluss, gegen horizontale Fluchtwege mind. ein Abschluss aus
+   **RF1**-Baustoffen; Tueren mit **Selbstschliessern**.
+3. Zu einer Wohneinheit zusammengefasste Zimmer sind moeglich, sofern die Fluchtwege ueber eine
+   **gemeinsam genutzte Vorzone** fuehren und die maximale Fluchtweglaenge bis in einen
+   horizontalen/vertikalen Fluchtweg **20 m** betraegt.
+
+**Ziff. 3.6.2 Beherbergungsbetriebe [b] und [c] (Hotellerie, zum Vergleich):**
+Empfangstheken/Reception (EI 30 abgetrennt) duerfen im horizontalen Rettungsweg stehen;
+Hotelzimmertueren mind. **0.8 m** breit, muessen nicht in Fluchtrichtung oeffnen; Tueren innerhalb
+Hotelsuiten ohne Anforderung; bei [c] muessen Hauseingangstueren nicht in Fluchtrichtung oeffnen und
+gewendelte Treppen mit **1.2 m** Breite sind zulaessig (innere Auftrittsbreite mind. 0.1 m) — spuerbar
+weniger streng als [a].
+
+**Ergaenzend Ziff. 3.3.3 Tueren / 3.3.4 Fluchtweg innerhalb der Nutzungseinheit** (allgemeine
+Grundlage, gilt flankierend auch fuer Beherbergung): in Betrieben ausserhalb des Geltungsbereichs
+der Verordnung 4 zum Arbeitsgesetz (ArGV 4) kann bei Raeumen mit **max. 20 Personen** Belegung das
+lichte Durchgangsmass von Tueren auf **0.8 m** reduziert werden, bei **max. 6 Personen** sind
+Schiebetueren moeglich; der Fluchtweg innerhalb einer Nutzungseinheit darf ueber **maximal einen**
+angrenzenden Raum (z. B. Kombizonen) zu einem horizontalen/vertikalen Fluchtweg fuehren.
+
+**JANS-Praxisrelevanz:** bei einem Kinderspital/Pflegeheim (Beherbergung [a], Patienten teils nicht
+selbst rettungsfaehig) ist das **Zwei-Brandabschnitte-Aufenthaltskonzept** kein nachtraeglicher
+Brandschutz-Nachweispunkt, sondern ein **Vorprojekt-Layoutparameter**: die Lage der EI-Abschluesse
+bestimmt direkt, wie Bettenzimmer/Stationen auf einem Geschoss angeordnet werden koennen (mind. zwei
+unabhaengige Abschnitte pro Geschoss von Anfang an mitdenken). Detailbemessung (genaue
+Brandabschnittsflaechen, Anschlussdetails) bleibt Skill-`brandschutz`-/Fachplaner-Tiefe.
+
+---
+
+## 5e · PBG-rechtliche Verankerung des Brandschutzes — Blaues Buch Kap. 18 (Run 26, 2026-07-13)
+
+Quelle: `PL - 03 Brandschutz/07 Blaues Buch/` — zwei Buchseiten-Fotos aus **Fritzsche/Boesch/Wipf/
+Kunz «Zuercher Planungs- und Baurecht», Band 2**, **Kapitel 18 «Brandschutz»** (S. 1331 Ziff. 18.3
+«Ziele und Grundsaetze», S. 1343 Ziff. 18.5 «Baulicher Brandschutz»). Dasselbe Standardwerk wie in
+der `baurecht`-KB — dort wird Kap. 18 **bewusst ausgespart** und auf den Skill `brandschutz` verwiesen
+(`wissen/baurecht/buecher/INDEX.md` Zeile 463: «⬜ offen — nur Querverweis auf Skill brandschutz,
+kein Doppelaufbau»); dieser Fund gehoert also **hierher**, nicht in die baurecht-KB — **kein
+Doppel**, sondern die Luecke schliessend.
+
+**Ziff. 18.3.2/18.3.3 — Schutzziel und Kriterien (Art. 8/9 BSN):**
+Bauten und Anlagen sind so zu erstellen/betreiben/instand zu halten, dass die Sicherheit von
+Personen und Tieren gewaehrleistet ist, der Entstehung von Braenden und Explosionen vorgebeugt wird,
+die Ausbreitung des Feuers begrenzt wird, die Tragfaehigkeit waehrend einer bestimmten Zeit erhalten
+bleibt und eine wirksame Brandbekaempfung moeglich ist (Art. 8 BSN). Die konkreten Anforderungen
+richten sich nach Bauart, Lage, Nachbarschaftsgefaehrdung, Ausdehnung/Nutzung, Gebaeudegeometrie/
+Geschosszahl, Personenbelegung, Brandbelastung, Aktivierungsgefahr und Brandbekaempfungsmoeglichkeit
+durch die Feuerwehr (Art. 9 Abs. 1 BSN); zusaetzliche Sicherheitsstandards fuer Behinderte sind im
+Einzelfall mit der Behoerde festzulegen (Art. 9 Abs. 2 BSN).
+**Geschossbegriff fuer den Brandschutz** (Art. 13 Abs. 4 BSN): als Geschosse zaehlen alle Voll-,
+Dach- und Attikageschosse ueber Terrain; Geschosse mit >50 % der Aussenwandflaeche unter Terrain
+gelten als Untergeschosse, Zwischengeschosse mit >50 % der Geschossflaeche als Vollgeschosse — eine
+eigene, vom baurechtlichen Geschossbegriff (§ 275 ff. PBG) **losgeloeste** Definition, die JANS bei
+Vorprojekten nicht verwechseln darf.
+
+**Ziff. 18.5 — Baulicher Brandschutz, Fluchtwege (Art. 37/38 BSN + § 305 PBG):**
+Mindestmasse Treppen/Tueren in Fluchtwegen (lichte Durchgangsbreite Tueren mind. 0.9 m, Hoehe
+mind. 2 m; horizontale Fluchtwege mind. 2.1 m), mit nutzungsbezogenen Abweichungsmoeglichkeiten und
+Erleichterungen bei untergeordneten Raeumen (Putzraum/Kleinlager/Sanitaerraum). **Wichtig fuer JANS:**
+**§ 305 PBG geht vor, soweit er strengere Anforderungen stellt** — das betrifft insbesondere
+**Haustueren (Lichtmass 1 m)** und Treppen im Wohnungsinnern (Verweis Entscheid VB.2012.00854); die
+rein VKF-/BSN-seitige Mindestbreite (0.9 m) reicht in diesen Faellen **nicht**. Flucht- und
+Rettungswege koennen als Verkehrswege genutzt werden, muessen aber jederzeit frei/sicher benutzbar
+bleiben und duerfen ausserhalb der Nutzungseinheit keinem anderen Zweck dienen (Art. 37 Abs. 1 BSN);
+je nach Nutzung/Geschosszahl sind Treppenhaeuser mit RWA auszuruesten (Art. 37 Abs. 2 BSN).
+Kennzeichnung/Sicherheitsbeleuchtung nach Personenbelegung/Nutzung (Art. 38 BSN).
+
+**Einordnung:** Kap. 18 des Blauen Buchs ist die **kantonalrechtliche (PBG-)Verankerung** des
+Brandschutzes — sie ergaenzt die bundesweit/interkantonal geltenden VKF-Vorschriften (§1–§5 dieses
+Artikels) um die **Stellen, an denen das zuercherische PBG eigene, teils strengere Anforderungen**
+stellt (§ 305 PBG). Fuer die Fach-/Detailbemessung bleibt der Skill `brandschutz` massgebend; hier
+nur die rechtliche Einordnung, warum ein Brandschutznachweis in Zuercher Baueingaben nicht nur an
+der BSV 2015, sondern auch an § 305 PBG zu pruefen ist. **Offen:** die uebrigen Ziff. 18.1/18.2/18.4/
+18.6ff. des Kapitels sind noch nicht gelesen (nur 2 von vermutlich >10 Doppelseiten vorliegend) —
+bei weiterem Bildmaterial im Ordner `07 Blaues Buch/` nachziehen.
+
+---
+
+## 5f · VKF-Verzeichnis «Weitere Bestimmungen» 40-15de — die Konkordanz-Tabelle (Run 26, 2026-07-13)
+
+Quelle: `PL - 03 Brandschutz/03 Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf`
+(VKF/AEAI, Stand 01.01.2015, «in Ueberarbeitung»-Wasserzeichen im vorliegenden Exemplar).
+
+Das Verzeichnis ist eine reine **Konkordanz-/Zuordnungstabelle**: es listet zu jeder der **19
+VKF-Brandschutzrichtlinien (BSR 10-15 bis 28-15)** und jeder der **9 VKF-Brandschutzerlaeuterungen
+(BSE 100-15 bis 108-15)**, welche **weiteren Erlasse/Normen** (SR-Verordnungen, SN-EN-Normen, SIA,
+SUVA, VSG/SVGW-Regelwerke) daneben zu beachten sind — gegliedert bis auf einzelne Ziffern der
+jeweiligen Richtlinie. Beispiel **BSR 16-15 «Flucht- und Rettungswege»** (→ §5d): SR 822.114 ArGV 4,
+SR 832.30 Unfallverhuetungsverordnung VUV, SN EN 179/1125 (Tuerverschluesse in Rettungswegen). Beispiel
+**BSR 18-15 «Loescheinrichtungen»**: Chemikalienverordnung/ChemRRV, SN EN 671 (Wandhydranten/
+Schlauchanlagen), SVGW-Regelwerk W3 (Trinkwasserinstallationen). Beispiel **BSR 19-15
+«Sprinkleranlagen»**: SVGW-Regelwerk W5 (Anschluss an Trinkwasserversorgungsnetz), SN EN 1717
+(Trinkwasserschutz vor Rueckfliessen).
+
+**Einordnung fuer JANS:** kein eigenstaendiger Fachinhalt, sondern ein **Nachschlage-Werkzeug** fuer
+den Moment, in dem ein Brandschutznachweis (§2) oder eine Fachplaner-Ausschreibung (z. B. Sprinkler-/
+Loeschanlagen-LV) erstellt wird und geprueft werden muss, ob neben der VKF-Richtlinie noch eine
+SN-EN-/SVGW-Norm einzuhalten ist (z. B. Trinkwasserschutz bei Sprinkleranschluss). Bewusst **kein**
+eigener Wiki-Abschnitt pro BSR — das waere Skill-`brandschutz`-Tiefe; hier nur der Hinweis, **dass**
+und **wo** dieses Nachschlagewerk liegt.
+
+---
+
 ## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -566,7 +767,13 @@ Feuerwiderstand») bleiben Fachplaner-/Skill-`brandschutz`-Tiefe, hier nur die E
   (→ §4c), «ab wann gilt mein Innenhof/Wintergarten als Atrium» (→ §4d), «welche Auflagen gelten
   fuer eine Doppelfassade, insbesondere bei Bewohnerzimmern» (→ §4e), «gilt meine kleine Huette/
   Unterkunft ueberhaupt als Beherbergungsbetrieb» (→ §4f), «welche Feuerwiderstandsklasse erreicht
-  ein Holzbauteil, was heisst RF1/K30-RF1» (→ §5, Grobeinordnung — Detailbemessung Fachplaner).
+  ein Holzbauteil, was heisst RF1/K30-RF1» (→ §5, Grobeinordnung — Detailbemessung Fachplaner),
+  «wie sieht ein fertiger Brandschutz-/Feuerwehrplansatz konkret aus, welche Symbole/Angaben
+  braucht es» (→ §5b), «wie gross/tragfaehig muss die Feuerwehrzufahrt-/Anleiterflaeche sein»
+  (→ §5c), «wie muss ein Bettengeschoss im Kinderspital/Pflegeheim brandschutztechnisch unterteilt
+  werden (horizontale Evakuierung)» (→ §5d), «gilt fuer meinen Fall zusaetzlich zur BSV auch das
+  PBG (§ 305), und was steht im Blauen Buch zum Brandschutz» (→ §5e), «welche SN-EN-/SVGW-Norm
+  gilt neben einer bestimmten VKF-Richtlinie» (→ §5f).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →

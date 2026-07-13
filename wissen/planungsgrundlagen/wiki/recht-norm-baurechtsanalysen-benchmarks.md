@@ -1,9 +1,9 @@
 ---
 title: Baurechtsanalysen — reale JANS-Faelle als Benchmark (PL-02/08)
 status: emerging
-last_updated: 2026-06-28
-sources: [PL - 02_Recht_Norm/01_Gesetze/08_Baurechtsanalysen (SharePoint)]
-links: [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-egrid-bezug]]
+last_updated: 2026-07-13
+sources: [PL - 02_Recht_Norm/01_Gesetze/08_Baurechtsanalysen (SharePoint), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/131017 184 ZSG Abklärung Attika RA.pdf (Aktennotiz Meili Peter Architekten, 17.10.2013, Telefonat mit RA Michael Budliger, Gfeller Budliger Kunz)"]
+links: [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]]
 ---
 
 # Baurechtsanalysen — reale JANS-Faelle als Benchmark (PL-02/08)
@@ -60,6 +60,50 @@ Hoehe ≥ 2.20 m; am **Hang** ist nur **1 Untergeschoss** zusaetzlich zulaessig.
 > Bezirks-Revision. → [[recht-norm-quellenlandkarte]] (SZ-Messweisen, Planungs-Trap). Dieselbe Parzelle
 > Reckholdern ist OEREB-seitig ueber Skill `oereb-schwyz` / Connector `geo-sz.mjs` beziehbar.
 
+## Attika-/Dachaufbau-Praxisfall: «184 Zürichseegut», Stäfa (131017) — gelesen 2026-07-13 (Run 26)
+
+**Fundort-Korrektur:** die Datei liegt nicht (nur) unter `08_Baurechtsanalysen`, sondern (mind.) auch
+unter `01_Gesetze/02_Zuerich/Planung/MPP/131017 184 ZSG Abklärung Attika RA.pdf` — «ZSG» ist hier
+**kein** Verweis auf das Zivilschutzgesetz, sondern die Projekt-Kurzbezeichnung **«Zürichseegut»**
+(Stäfa ZH). Zur Verwechslungsgefahr: Zivilschutz-Themen → [[recht-norm-zivilschutz-bautechnik]].
+
+**Inhalt (Aktennotiz Meili Peter Architekten, 17.10.2013, Telefonat mit RA Michael Budliger, Gfeller
+Budliger Kunz):** reale anwaltliche Kurzeinschätzung zu Attikaausbildung und Balkonen, Grundlage
+BZO Gemeinde Stäfa + PBG/ABV Kt. ZH. Die **rechtliche Substanz von Art. 292 PBG (Dachaufbauten) selbst**
+ist bereits ausführlich in der Baurechts-KB dokumentiert (`wissen/baurecht/wiki/abstaende-und-hoehen.md`,
+Fassungsstand Drittel/Hälfte) — dieser Fall ergänzt die dortige gesetzliche Analyse um die
+**Praxis-/Argumentationsebene**, die dort fehlt:
+
+- **Art. 292 PBG als «Ästhetikartikel»:** nach Einschätzung des Anwalts ist Art. 292 PBG nicht nur eine
+  quantitative Schranke, sondern ein **Ermessensartikel zur guten Einordnung** — Abweichungen von der
+  ursprünglichen Konzept-Idee (klare Firstrichtung gemäss ABV) kann die Bewilligungsbehörde im Sinne der
+  **guten Einordnung** bewilligen oder ablehnen. Das eröffnet einen **Argumentationsspielraum**, der über
+  die reine Gesetzeslektüre hinausgeht.
+- **Argumentationsfigur «zonenfremde Nutzung»:** in einer Wohn- und Gewerbezone mit hoher geforderter
+  Dichte muss die Gestaltung **nicht der Charakteristik einer klassischen Kernzone folgen** — solche
+  Grundstücke werden oft ohnehin durch **Gestaltungspläne neugeregelt**. Argumentationsansatz für
+  Fälle, in denen die «klassische» Attika-/Giebel-Logik nicht zur tatsächlichen Nutzung/Dichte passt.
+- **Präzedenz zur Konzentration an einer Giebelwand:** laut Anwalt wurde die Konzentration der «zwei
+  Drittel» (Bezug zur alten Drittelsregel, vgl. [[recht-norm-quellenlandkarte]]/`abstaende-und-hoehen.md`)
+  an **einer** Giebelwand mit **Bundesgerichtsbeschluss** unter Berücksichtigung von Art. 292 PBG erlaubt
+  — Aktennotiz nennt kein Aktenzeichen/Datum, daher **nicht als zitierfähige Quelle**, nur als
+  Praxis-Hinweis verwertbar (Aktenzeichen bei realem Bedarf beim Anwalt/Bundesgericht nachrecherchieren).
+- **Firstrichtungs-Vermutung:** ist die Firstrichtung nicht ausdrücklich festgehalten, wird sie
+  **naturgemäss in Längsrichtung** angenommen; Quergiebel werden **nicht** berücksichtigt. Im Fall
+  «Zürichseegut» liess sich die Firstrichtung zusätzlich mit der **Längsausrichtung zum See** begründen.
+- **Balkone/Baubereich (Art. 4 BZO Stäfa):** Art. 4 BZO regelt die Bauweise **unter Ausschluss des PBG
+  abschliessend** («endgültig»); ein Überbauen des Baubereichs durch Balkone scheint dieser kommunalen
+  Norm zu widersprechen, obwohl dies nicht ausdrücklich schriftlich festgehalten ist — Beispiel dafür,
+  dass eine **kommunale BZO-Bauweise-Bestimmung das PBG verdrängen** kann (lokale Nutzungsplanung vor
+  kantonalem Auffangrecht) und vor jeder Balkon-/Vorbau-Argumentation zuerst geprüft werden muss.
+
+**Lehre für JANS:** bei strittiger Attika-/Dachgestaltung erst die **gesetzliche Grundregel** (Anteil-
+Fassadenlänge, Fassungsstand Drittel/Hälfte) über `baurecht`/`abstaende-und-hoehen.md` klären, dann bei
+Bedarf die **Ästhetik-Ermessens-Argumentation** (guter-Einordnung-Spielraum, zonenfremde Nutzung,
+Firstrichtungs-Vermutung) als zusätzliche Verhandlungslinie gegenüber der Bewilligungsbehörde ziehen —
+analog zur Dispens-Logik in [[recht-norm-dispensrecht]] (dort § 220 PBG, hier ein spezifischer
+Ermessensspielraum innerhalb einer bestehenden Norm, kein eigentlicher Dispens).
+
 ## Fall-Index (Benchmark-Tabelle)
 
 Charakterisierung aus Dateinamen + (Maur) gelesenem Inhalt; «demonstriert» aus Dateiname inferiert
@@ -76,7 +120,7 @@ Charakterisierung aus Dateinamen + (Maur) gelesenem Inhalt; «demonstriert» aus
 | `180517_MPP Flurstrasse_Baurecht_V2` | 2018 | Flurstrasse | Baurechts-Teil V2 (MPP = Mehrparteienprojekt) | Dateiname |
 | `180515_MPP Flurstrasse_Protokoll_rev` | 2018 | Flurstrasse | Behoerden-/Sitzungsprotokoll | Dateiname |
 | `170711_MPP Flurstrasse_Rechtsgrundlagen` | 2017 | Flurstrasse | Rechtsgrundlagen-Zusammenstellung | Dateiname |
-| `131017_184 ZSG Abklaerung Attika RA` | 2013 | ZH | **Attika-Abklaerung** — Dachaufbau/Attika-Definition (haeufige gummige Frage) | Dateiname |
+| `131017_184 ZSG Abklaerung Attika RA` | 2013 | Staefa ZH («Zürichseegut») | **Attika-/Dachaufbau-Ästhetikermessen** (Art. 292 PBG), Firstrichtungs-Vermutung, zonenfremde-Nutzung-Argumentation, Balkone/Art. 4 BZO Stäfa — Details oben Abschnitt «Attika-/Dachaufbau-Praxisfall» | **gelesen 2026-07-13 (Run 26)** |
 | `100118_CK Haus Mueller_Zusammenfassung` | 2010 | ZH | aeltester Fall — Zusammenfassungs-Format | Dateiname |
 
 ## Nutzung im Harness
