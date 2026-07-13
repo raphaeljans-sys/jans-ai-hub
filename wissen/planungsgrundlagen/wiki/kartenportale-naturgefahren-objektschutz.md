@@ -195,7 +195,69 @@ Grundwasservorkommen als eigener Themenlayer im GIS-Browser, bisher nicht als Co
 kartiert — Anschlussaufgabe an den naechsten Kartenportale-Run, sinngemaess wie beim
 Naturgefahren-Endpunkt unten).
 
-## 7. Offene Punkte
+## 7. Rutschgebiete im Detail — Praxishilfe inggeol.ch (Run 25, 2026-07-13)
+
+Bisher unbearbeitete Quelle im selben Ordner (`Objektschutz/_schutz-vor-naturgefahren.ch/inggeol/`):
+**"Bauen im Rutschgebiet — Hinweise fuer Bauherrschaften und Baubehoerden"** (inggeol.ch —
+Ingenieurgeologie Schweiz, Arbeitsgruppe Geologie und Naturgefahren AGN-DNG, 1. September 2023,
+im Auftrag des BAFU/Abteilung Gefahrenpraevention). Vertieft den Prozess **Rutschung**, der in der
+Naturgefahrenkarte (Abschnitt 2-4 oben) nur als Gefahrenstufe erscheint, aber ohne dieses
+Hintergrundwissen fuer Nicht-Fachleute unterschaetzt wird.
+
+**Kernbotschaft:** die Naturgefahrenkarte bildet nur den **ungestoerten, natuerlichen Zustand**
+ab (Rutschgeschwindigkeit ohne Bauvorhaben). Ein Bauvorhaben selbst — Baugrube, Aushubdepot,
+Wassereintrag — ist eine **Zustandsaenderung**, die eine seit Jahrzehnten scheinbar stabile
+Rutschung (auch in der **gelben** Gefahrenstufe!) aktivieren kann. Dieses baubedingte
+Gefahrenpotenzial ist **projektabhaengig und in der Karte nicht ersichtlich** — der haeufigste
+Grund, weshalb gerade das gelbe "geringe Risiko" in der Praxis unterschaetzt wird.
+
+- **Was ist eine Rutschung:** Bewegung entlang eines Gleithorizonts im Untergrund, Wasserverhaeltnisse
+  massgeblich; rund **6 % der Schweizer Landesflaeche** sind instabile Haenge (permanente
+  Rutschungen). Rutschungen sind nicht auf Steilhaenge beschraenkt — treten auch im Gelaende mit
+  10-15°, in Extremfaellen unter 10° Neigung auf; Flaeche wenige Aren bis mehrere km². Tiefe des
+  Gleithorizonts: flachgruendig (wenige Meter) / mittelgruendig (bis 10 m) / tiefgruendig
+  (Zehnermeter bis hunderte Meter) — die Naturgefahrenkarte macht dazu **keine Angaben**.
+- **Typische baubedingt ausgeloeste Rutschursachen:** (1) talseitiges Abgraben (z.B. Baugrube),
+  (2) hangseitige Auflasten (z.B. Aushubdepot), (3) Eintrag von Wasser in Untergrund/Gleitflaeche
+  (z.B. Abhumusieren, Drainagen, Lecks). Schaeden zunaechst meist Riss-/Setzungsbilder, im
+  fortschreitenden Fall Gebaeude-Verkippung/Unbewohnbarkeit; besonders tueckisch sind unsichtbare
+  Untergrundschaeden (z.B. eine reissende Wasserleitung, die ihrerseits eine Hangmure ausloesen kann).
+  Schadenfaelle haben fast immer ein **juristisches Nachspiel** — die rechtliche/versicherungs-
+  technische Aufarbeitung ist oft aufwendiger als die eigentliche Sicherung.
+- **Massnahmen zur Risikominderung (Kap. 7, die praktisch wichtigste Stelle):**
+  - Fuer **Baubehoerden**: bei der Einzonung Bereiche mit speziellen Auflagen im Bau-/Zonenreglement
+    ausscheiden; Stabilitaetsnachweise + Ueberwachungskonzepte als auflagenrelevant definieren;
+    bei der Baubewilligung projektspezifische geologisch-geotechnische Baugrunduntersuchungen
+    verlangen; bei der Baueingabe ein Konzept fuer Ueberwachung/Kontrolle/Intervention waehrend
+    der Bauphase einfordern.
+  - Fuer **Bauherrschaften/Planer**: umsichtige Planung unter Beizug ausgewiesener Fachpersonen
+    (Bauingenieure/Geotechniker/Geologen mit Rutschungserfahrung); detaillierte Baugrundkenntnisse
+    gestuetzt auf aussagekraeftige geologisch-geotechnische Untersuchungen; robuste Konzipierung/
+    Bemessung; adaequate Bauueberwachung gemaess Konzept.
+  - **Bewaehrte Rollenverteilung** (typisch): Architekturfirma/Generalunternehmung = Gesamtprojekt-
+    leitung + Bauleitung (verantwortlich fuer Bauueberwachung); Bauingenieurbuero = Projektplaene +
+    Sicherheitsnachweise (Projektverfasser), waehrend Bauphase geotechnische Fachbauleitung;
+    Geologiebuero = geologisch-geotechnische Grundlagen (Spezialist), waehrend Bauphase Beratung der
+    Bauleitung gemaess Aufgebot. **JANS-Praxisrelevanz:** in Rutschgebieten braucht das
+    Vorprojekt-Team zusaetzlich zum Bauingenieur ein **separates Geologiebuero** — nicht nur eine
+    Linienposition im Devis, sondern eine eigene Fachdisziplin mit eigenem Auftrag.
+- **Einordnung ZGB:** auch bei gutem Baugrund sind gewisse Immissionen/kleinere Schaeden
+  (lokale Setzungen) zumutbar hinzunehmen (ZGB-Nachbarrecht) — die Grenze zur haftungsrelevanten
+  Rutschungsausloesung liegt bei der Zustandsaenderung durch das Bauvorhaben selbst.
+- **Fallbeispiele (Anhang 1):** 3 positive (Neubau/Ueberbauung in rutschanfaelligem bzw.
+  tiefgruendigem Rutschhang mit fachgerechtem Vorgehen erfolgreich) + 3 negative (Baugrube loest
+  weitraeumige Rutschung/Hangdeformationen aus, forsches Bauvorgehen destabilisiert Rutschhang) —
+  belegen konkret, dass fachgerechtes Bauen in Rutschgebieten moeglich ist, aber Sorgfalt verlangt.
+- **Normen-Fundstellen** (Literaturverzeichnis Kap. 8): SN 505 267 Geotechnik + 267/1 Ergaenzende
+  Festlegungen, SN 505 261 Einwirkungen auf Tragwerke + 261/1, SN 670 305 Ueberwachung von
+  Bauwerken in nicht stabilem Gelaende (inkl. Beobachtungsinstrumente-Liste).
+
+**Anschluss an die Skills:** ergaenzt `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` um
+eine konkrete Frueherkennungs-Frage bei Hanglagen: "Ist die Rutschgefahrenstufe (auch gelb!)
+gesetzt, UND veraendert das Bauvorhaben Topografie oder Wasserhaushalt des Hangs?" — bei Ja ist ein
+Geologiebuero fruehzeitig (Vorprojekt, nicht erst Baubewilligung) beizuziehen.
+
+## 8. Offene Punkte
 
 - **ZH-Endpunkt fuer Naturgefahrenkarte** — Versuch in diesem Lauf (Run 24, 2026-07-13):
   `maps.zh.ch/wfs/OGDZHWFS` beantwortet ein `GetCapabilities`-Request mit dem Fehler *"WFS request

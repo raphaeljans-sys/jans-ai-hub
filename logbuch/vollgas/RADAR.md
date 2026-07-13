@@ -13,6 +13,51 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 07:13 — Volllast, 27 Commits/90 Min; Mount-Flappen im Remote-Betrieb entdeckt [FREI]
+
+**Fensterzustand [FREI]:** `claude -p --model haiku` liefert nach kurzer Kaltstart-Latenz «OK»
+rc=0 (Token gueltig). Keine Limit-Rueckweisung → das 5h-Fenster hat Kapazitaet, Vollgas laeuft.
+Das vorige Fenster wurde gemaess 05:50-Eintrag regelmaessig auf 100 % gefahren (03:49) und sofort
+wieder gefuellt.
+
+**Lagebild (gruen):**
+- MacBook-Runner gesund: Haupt-PID 81252 (seit 23:51) + Re-Exec-PID 54873 (16 Min, laedt
+  Skript-Updates selbst nach). Aktiv `claude -p` PID 54874 = baurecht-buch-training. Zyklus 49,
+  8 Loops back-to-back. Letzte ENDE-Zeilen rc=0: immobewertung 417 s, spec-training 370 s,
+  twin-fidelity 422 s, twin-mail 615 s. Keine STOP-Datei.
+- Mini-Runner gesund (Log frisch 06:57): Zyklus 108, normen-training-mini 841 s rc=0,
+  planungsgrundlagen Run 24 289 s rc=0, synobsis 127 s rc=0. Keine STOP-Datei.
+- **Durchsatz stark:** 27 NAS-Commits in 90 Min (Trainings-Commits + gebuendelte
+  `nas-selfcommit`-Pushes). Beide Stationen brennen Token in 300–1600 s-Langlaeufen.
+
+**Hebel-Priorisierung:** Fenster wird regelmaessig voll gefahren → gemaess Schritt 5 ist die
+Lage **optimal**; nur Kontinuitaet sichern, keine zusaetzliche Frequenz stapeln. Kein Eingriff
+noetig (Taktgeber-Re-Exec + Auto-Wiederaufnahme arbeiten selbsttaetig).
+
+- **P2 NEU — NAS-Mount flappt im Remote-Betrieb, Auto-Remount zielt auf LAN-IP:** Das MacBook
+  ist derzeit **remote** (Mount ueber Tailscale `diskstation918.tail8265aa.ts.net`). Waehrend
+  dieses Laufs ist der SMB-Mount mehrfach kurz weggebrochen (stale handle) und von selbst
+  zurueckgekommen. Mehrere Trainings-Shells (PIDs 57535/57664/57665/57695) versuchen bei
+  Mount-Verlust einen Remount via `osascript … mount volume "smb://192.168.1.10/daten"` — das ist
+  die **LAN-IP**, die ausserhalb des Bueros nicht erreichbar ist; der Remount kann remote also
+  nicht greifen, die Laeufe haengen an der Selbstheilung des Tailscale-Mounts. Robustheitsluecke:
+  der Remount-Fallback sollte remote den **Tailscale-Hostnamen** verwenden (bzw. LAN-IP nur im
+  Buero). Kein Nacht-Umbau — im Morgen-Briefing an Raphael (Remount-Snippet in Trainings/Runner
+  um Tailscale-Fallback ergaenzen).
+- **P3 — normen-training-nacht 1× per Budget-Cap abgebrochen ($25/Lauf, rc=1, 681 s):** einmalig
+  heute; kein chronisches Leck. Da das 5h-Fenster die bindende Grenze ist und ohnehin auf 100 %
+  laeuft, senkt der Cap den Wochenverbrauch nicht — er verwirft nur die Teil-Scan-Arbeit dieses
+  einen Laufs (Token ohne durables Destillat). Kleine Effizienznotiz fuer Raphael: `--max-budget-usd`
+  im Runner (Default 25) fuer die scanlastigen Normen-Laeufe hochsetzen, damit sie durchlaufen.
+- **P3 — Endbedingungs-Kandidaten (unveraendert, fuer Tageslauf):** immobewertung-training meldet
+  **5. Verifikationslauf in Folge ohne Befund** → Ruecktaktung ins Nachtfenster empfohlen;
+  wettbewerbs-dna + -nachbrenner laufen leer (warten auf Bauaufgaben-Prioritaeten/Jurybericht);
+  energie-training PDF-Inventar erschoepft; synobsis 853/853 komplett. Freie Kapazitaet auf die
+  groesste offene Luecke: **Normen DIN-Inventar** (aktiv, Mini Run 4 = DIN/VSS-Rest komplett gemeldet
+  → naechster Lauf soll «DIN/VSS/RAL KOMPLETT» bestaetigen und Task-Ende vorschlagen).
+
+**Mail:** KEINE (kein neuer/geloester P1; volle Fenster sind Erfolg, kein Mail-Anlass).
+
 ## 2026-07-13 05:50 — Volllast bestaetigt, 18 Commits/90 Min, Kontinuitaet gesichert [FREI]
 
 **Fensterzustand [FREI]:** `claude -p --model haiku` liefert «OK» rc=0 (Token gueltig, korrekter
