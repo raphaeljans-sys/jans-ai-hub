@@ -57,12 +57,15 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Speist [[wohnhygiene-und-raumanforderungen]].
 - [[17-haustechnische-anlagen-teil3]] — Kap. 17 Teil 3 / **Schluss** (S. 1304-1319): **Haustechnische Anlagen
   17.9 + Klima/Lueftung + Beförderungsanlagen** — Abwärme/WRG/WKK (**§ 30a BBV I**), eigene Erzeugeranlagen
-  (Art. 15 EnG), Feuerungen Öl/Gas/Holz (**§ 24 BBV I** > 1000 kW = AWEL, LRV, Feuerungskontrolle alle 2 J.
+  (Art. 15 EnG), Feuerungen Öl/Gas/Holz (Grossfeuerung **> 1000 kW § 21 Abs. 2 BBV I**, AWEL-Bewilligung
+  Ziff. 4.2 Anhang BVV, Mengenzähler-Pflicht **§ 24 BBV I** — korrigiert 14.07.2026, § 24 ist NICHT die
+  Bewilligungsgrundlage; LRV, Feuerungskontrolle alle 2 J.
   Art. 13 LRV), Kaminhöhen (Ziff. 3 Empfehlungen 2013: **0,5 m Dachfirst / 1,5 m Flachdach / 2 m begehbar**),
   **Elektroheizungsverbot § 10b EnerG**, Warmwasser **max. 60 °C § 26 BBV I** / Vorlauftemp. **≤ 50 °C /
   Bodenheizung ≤ 35 °C § 23 BBV I**, **VHKA ab 2/3 Nutzeinheiten § 9 EnerG** (Neubau ≥ 2 WW / Bestand ≥ 3, ≥ 60 % verbrauchsabh.; verifiziert Run 38 — nicht «5»), besondere
   Heizungen (Freiluft-/Hallenbäder, Rampen-/Garagenheizung Ziff. 2.31 Anhang BBV I), Klima/Lüftung **§ 29 BBV I**
-  (WRG, EBF > 1000 m² § 45 Abs. 3), **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro (NIV Art. 37 ff.),
+  (WRG, EBF > 1000 m² Beleuchtungs-Grenzwert **§ 45a BBV I** — korrigiert 14.07.2026, «§ 45 Abs. 3» existiert
+  nicht; Komfortklima max. 12 W/m² § 45 Abs. 2 BBV I), **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro (NIV Art. 37 ff.),
   **Aufzugspflicht > 5 anrechenbare Geschosse** (Kabine 2,10 × 1,10 m, > 9 Gesch. = 2 Aufzüge § 40 Abs. 2 BBV I),
   Liftanbau Altbau **§ 19a BBV II** (Erstellung vor 1.7.1978), Beförderungsanlagen § 296 PBG / § 31/32 BBV I,
   Briefkästen Art. 73 ff. VPG; Auftakt 17.10 Harmonisierungsvorlage (lichte Höhe § 304 nPBG). 8 Doppelseiten
@@ -292,7 +295,9 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **Baulinien §§ 96 ff. PBG** (Bauverbot § 99, Niveaulinien § 106, Ski-/Schlittellinien § 111), **Werkplan
   §§ 114-119 PBG** (Enteignungs-/Vorkaufsrecht, Heimschlag), **vorsorgliches Bauverbot §§ 120-122 PBG**
   (verfaellt nach 5 J.), Quartierplan §§ 125/126/237, **StrG** (Staats-/Gemeindestrassen, **Mehrwert-
-  beitraege 1/4-1/2 § 62 StrG**), NSG/EBG/GueTG. 16 Doppelseiten (Shots 105-120). Status: `emerging`
+  beitraege § 62 lit. c/d StrG: max. 1/2 Wertvermehrung/3/4 Kosten bzw. max. 1/2 Trottoir-Kosten** —
+  korrigiert 14.07.2026, kein kommunal/kantonal-Split 1/4-1/2/1/4), NSG/EBG/GueTG. 16 Doppelseiten
+  (Shots 105-120). Status: `emerging`
   (Teil 2: Quartierplan-Detail 3.9 ab S. 238 + Grenzbereinigung/Landumlegung/Gueterzusammenlegung offen).
   Speist [[baureife-und-erschliessung]] + [[baulinien-und-abstandslinien]].
 - [[03-quartierplan-landumlegung-teil2]] — Kap. 3 Teil 2 / **Schluss** (S. 240-265): **Quartierplan +

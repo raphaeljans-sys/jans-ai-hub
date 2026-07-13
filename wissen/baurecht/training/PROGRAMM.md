@@ -91,6 +91,24 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 40 (2026-07-14, Modell-D BBV-I-Wortlaut vollständig abgeschlossen + § 62 StrG Nachzug, kein
+    Agent-Fan-out — Kollisionsvermeidung zu Parallel-Lauf «Run 38» KNHV/USG/VRG):** [[17-haustechnische-
+    anlagen-teil3]] `emerging`→**`established`** — §§ 18/21/22/23/24/26/29/30a/31/32/33/37/40/42/43/44/
+    45/45a/46/46a BBV I + § 19a BBV II volltextverifiziert gegen `raw/260607_amtlich_zh_bbv1.md`/`bbv2.md`.
+    **Zweite Wiki↔Destillat-Divergenz nach Run 39 gefunden:** die bereits am 2026-07-13 (Run 32/33) im
+    Wiki [[wohnhygiene-und-raumanforderungen]] korrigierten Fehler (§ 24 BBV I ≠ AWEL-Bewilligung, «§ 45
+    Abs. 3» existiert nicht → § 45a, § 42a aufgehoben → § 43) waren im Destillat noch nicht nachgeführt;
+    **plus 2 bisher unentdeckte Fehler** (§ 29 Abs. 2 BBV I keine «Ausnahme innenliegende Räume»; § 42
+    Abs. 1 BBV I kein «> 1 Kochplatte»-Kriterium). 6 Korrekturen, 1 Ergänzung (12-W/m²-Komfortklimadeckel).
+    **Zweiter Komplex:** § 62 StrG Mehrwertbeiträge — die am 2026-07-13 (Run 36) im Wiki
+    [[baulinien-und-abstandslinien]] korrigierte Regel (§ 62 lit. c/d, max. ½ Wertvermehrung/¾ Kosten
+    bzw. ½ Trottoir-Kosten, kein kommunal/kantonal-Split) an 4 weiteren Stellen nachgezogen (Buch-Destillat
+    `03-erschliessung-landsicherung-teil1.md`, Wiki [[baureife-und-erschliessung]], `buecher/INDEX.md`
+    2×). 8 Drills (6×D, 2×C). **BBV-I-Wortlaut damit vollständig abgeschlossen** — das war die letzte
+    explizit benannte Restschuld aus Run 39. **Naechste Phase-3-Ziele:** § 357 Abs. 5 PBG
+    Verordnungspraxis (Shots ab 732), Kap. 17 Restteile §§ 295-298 PBG, Kap. 2 Teil 3 Gestaltungsplan
+    (noch kein Wiki-Artikel), § 48 BBV I im Destillat nachtragen (geringe Prio). Report
+    `outputs/2026-07-14_buch-run40.md`.
   - **Run 39 (2026-07-14, Modell-D EnerG §§ 9-14 Fassungsstand, kein Agent-Fan-out — Kollisionsvermeidung
     bei mehreren zeitgleichen VOLLGAS-Instanzen):** Wiki↔Destillat-Divergenz geschlossen — die EnerG-
     Korrekturen aus Run 32 (Wiki [[wohnhygiene-und-raumanforderungen]]) waren im Buch-Destillat

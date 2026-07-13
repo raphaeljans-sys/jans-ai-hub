@@ -144,8 +144,14 @@ Instrumente, um Land für künftige öffentliche Werke/Erschliessungen freizuhal
   (§ 122 PBG, S. 228).
 - **Projektierungszone** (Bundesebene): Instrument der Planungssicherung für Bundesvorhaben
   (Nationalstrassen, Eisenbahnen; S. 229).
-- **Mehrwertbeiträge** (§ 62 StrG): Grundeigentümer tragen bei Strassenbau/-korrektionen je nach
-  Sondervorteil **¼ bis ½ der Kosten** — BKP-relevante Nebenkosten für Grobkosten/Wirtschaftlichkeit.
+- **Mehrwertbeiträge (§ 62 StrG, volltextverifiziert 2026-07-13/nachgeführt 14.07.2026 gegen
+  raw/260713_amtlich_zh_strg.md, Übergangsbestimmung aus dem StrG von 1893):** Grundeigentümer
+  tragen bei Strassen-/Platzverbesserung (lit. c) max. **½ der individuellen Wertvermehrung**
+  (Summe aller Beiträge max. **¾ der Kosten** nach Abzug Bundes-/Staatsbeiträge); bei
+  erstmaliger Trottoir-Erstellung (lit. d) Summe der Anstösserbeiträge max. **½ der vollen
+  Kosten**. **KORRIGIERT: kein eigener kommunal/kantonal-Split ¼-½/¼ im Gesetzeswortlaut**
+  (Buch-Sekundärquelle, S. 237, nicht bestätigt) — BKP-relevante Nebenkosten für
+  Grobkosten/Wirtschaftlichkeit bleiben zu berücksichtigen.
 
 ## Rechtsgrundlagen & Verordnungsstand
 

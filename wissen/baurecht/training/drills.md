@@ -1277,3 +1277,64 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Energiebezugsfläche** (§ 10c Abs. 1). Wer die Mindestanforderungen nach § 10a unterschreitet, kann
   auf die Erfüllung verzichten (Abs. 2); Details in der Verordnung (Abs. 3). Beleg:
   raw/260712_amtlich_zh_energ.md. _[2026-07-14]_
+
+## Kap. 17.9 — BBV-I-Wortlaut (Buch-Run 40, 2026-07-14, Modell D gegen raw/260607_amtlich_zh_bbv1.md + bbv2.md)
+
+### Modell D — Gegenprobe/Adversarial
+
+- **F:** Das Buch-Destillat schreibt: «Grossfeuerungsanlagen > 1000 kW = Bewilligung AWEL (§ 24 BBV I)».
+  Stimmt der Paragraph? — **A:** **Nein, teilweise falsch.** § 21 Abs. 2 BBV I liefert nur die
+  Legaldefinition («Grossfeuerungsanlagen sind Feuerungen mit einer Feuerungswärmeleistung von mehr
+  als 1000 kW»). **§ 24 BBV I regelt NICHT die Bewilligungspflicht**, sondern verlangt lediglich, dass
+  Grossfeuerungsanlagen für flüssige/gasförmige Brennstoffe mit einem **Mengenzähler** für den
+  Brennstoffverbrauch ausgerüstet sind. Die AWEL-Bewilligungspflicht stützt sich (soweit im Hub
+  verifizierbar) auf Ziff. 4.2 Anhang BVV, nicht auf § 24 BBV I. Beleg: raw/260607_amtlich_zh_bbv1.md.
+  _[2026-07-14]_
+- **F:** Das Buch-Destillat ordnet die Bedingungen für die direkt-elektrische Erwärmung von Brauch-
+  warmwasser bei Neubau/Ersatz § 23 BBV I zu. Korrekt? — **A:** **Nein.** § 23 BBV I regelt die
+  Vorlauftemperatur (≤ 50 °C / Bodenheizung ≤ 35 °C) und die Einzelraumregelung. Die Brauchwarmwasser-
+  Bedingungen (direkt-elektrisch nur, wenn a) während der Heizperiode mit dem Wärmeerzeuger
+  miterwärmt oder b) zu wesentlichem Anteil erneuerbar/Abwärme erwärmt) stehen in **§ 26 Abs. 2 BBV I**
+  — derselbe Paragraph wie die 60-°C-Grenze (Abs. 1), nicht § 23. Beleg: raw/260607_amtlich_zh_bbv1.md.
+  _[2026-07-14]_
+- **F:** Kennt § 29 Abs. 2 BBV I (WRG-Pflicht für Aussen-/Fortluft-Anlagen) eine Ausnahme für
+  innenliegende Räume? — **A:** **Nein, dieser Zusatz ist nicht im Gesetzeswortlaut.** § 29 Abs. 2
+  verlangt Wärmerückgewinnung mit Temperatur-Änderungsgrad nach Stand der Technik und kennt nur die
+  Erleichterung eines getrennten Betriebs bei wesentlich abweichenden Nutzungen/Betriebszeiten — keine
+  Ausnahme für «innenliegende Räume». Der unbelegte Zusatz wurde aus dem Destillat gestrichen. Beleg:
+  raw/260607_amtlich_zh_bbv1.md. _[2026-07-14]_
+- **F:** Wo steht der Elektrizitäts-Grenzwert für Beleuchtung bei Neubau/Umbau/Umnutzung mit
+  EBF > 1000 m² — in § 45 Abs. 3 BBV I? — **A:** **Nein, § 45 BBV I hat gar keinen Abs. 3** (nur
+  Abs. 1 Klimaanlagen-Definition, Abs. 2 Komfortklimaanlagen-Grenzwerte). Der Beleuchtungs-
+  Elektrizitätsgrenzwert (Ausnahme Wohnnutzung) steht in einem **eigenständigen Paragraphen § 45a
+  BBV I** («Beleuchtungsanlagen»). Beleg: raw/260607_amtlich_zh_bbv1.md. _[2026-07-14]_
+
+### Modell C — Selbsttest (Karteikarte)
+
+- **F:** Was verlangt § 45 Abs. 2 BBV I konkret von Komfortklimaanlagen an bestehenden Bauten? —
+  **A:** Alternativ zu erfüllen: a) elektrischer Leistungsbedarf für Medienförderung/-aufbereitung
+  (Kühlung/Befeuchtung/Entfeuchtung/Wasseraufbereitung) **max. 12 W/m²**, oder b) Kaltwasser-
+  temperaturen/Leistungszahlen Kälteerzeugung nach Stand der Technik, oder c) PV-Eigenstromanlage
+  deckt den Kältebedarf-Leistungsbedarf. _[2026-07-14]_
+- **F:** Was ist eine «Nutzeinheit» nach § 42 Abs. 1 BBV I — und was NICHT? — **A:** Bei Miete i.d.R.
+  > 1 Jahr: a) Wohnungen mit **eigener Kücheneinrichtung**, b) Betriebe/Büros/Verkaufsläden mit
+  **eigenem Stromzähler**; Alterssiedlungen mit überwiegendem Gemeinschaftsraum-Anteil = eine
+  Nutzeinheit. Das oft zitierte Kriterium **«mehr als eine Kochplatte»** ist im Gesetzeswortlaut
+  NICHT enthalten — bestenfalls Praxis-/Sekundärquelle, kein Gesetzestext. _[2026-07-14]_
+- **F:** Ab welchem Beckeninhalt gilt ein Wasserbecken als «Freiluftbad» im Sinne von § 46 BBV I? —
+  **A:** Bei einem Inhalt von **mehr als 8 m³** (nicht «ab 8 m³» — ein Becken mit genau 8 m³ zählt
+  noch nicht als Freiluftbad). _[2026-07-14]_
+
+## Kap. 3 — § 62 StrG Mehrwertbeiträge (Buch-Run 40, 2026-07-14, Nachzug einer Wiki→Destillat-Divergenz)
+
+### Modell D — Gegenprobe/Adversarial
+
+- **F:** Das Buch-Destillat (S. 237) behauptet: «§ 62 StrG: Mehrwertbeiträge kommunal ¼-½, kantonal
+  max. ¼». Ist dieser kommunal/kantonal-Split im amtlichen Wortlaut zu finden? — **A:** **Nein.**
+  § 62 StrG (Übergangsbestimmung, führt §§ 17a-17h StrG von 1893 weiter) kennt stattdessen: lit. c
+  (Strassen-/Platzverbesserung) — Einzelbeitrag max. **½ der Wertvermehrung**, Summe aller Beiträge
+  max. **¾ der Kosten**; lit. d (erstmalige Trottoir-Erstellung) — Summe der Anstösserbeiträge max.
+  **½ der vollen Kosten**. Kein eigener kommunal/kantonal-Split. Diese Korrektur war bereits am
+  2026-07-13 im Wiki [[baulinien-und-abstandslinien]] vorgenommen worden, aber nicht ins Buch-
+  Destillat und den zweiten Wiki-Artikel [[baureife-und-erschliessung]] nachgezogen — Lehrstück für
+  Wiki→Destillat-Divergenzen bei parallelen Läufen. Beleg: raw/260713_amtlich_zh_strg.md. _[2026-07-14]_

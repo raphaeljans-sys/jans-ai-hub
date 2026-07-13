@@ -198,6 +198,15 @@ Modell-D-Volltextabgleich (Buch-Run 32, Phase 3) des Buch-Destillats
   **§ 12b Abs. 2/3 EnerG**. Buch-Aussage war ungenau verkürzt/vermischt — künftig
   getrennt zitieren: § 30a BBV I (Abwärme allgemein) vs. § 12b EnerG (WKK-Anlagen
   spezifisch, inkl. 50-h-Schwelle).
+- **Zwei weitere Korrekturen, ergänzt 2026-07-14 (Buch-Run 40, beim Nachziehen der
+  Destillat-Divergenz [[17-haustechnische-anlagen-teil3]]):** (1) **§ 29 Abs. 2 BBV I
+  kennt KEINE «Ausnahme innenliegende Räume»** bei der WRG-Pflicht für Aussen-/
+  Fortluft-Anlagen — dieser Zusatz stand nur im Buch-Destillat, nicht im amtlichen
+  Wortlaut, und wurde dort gestrichen. (2) **§ 42 Abs. 1 BBV I kennt kein «> 1
+  Kochplatte»-Kriterium** — die Nutzeinheit-Definition lautet amtlich nur «Wohnungen
+  mit eigener Kücheneinrichtung» (lit. a) bzw. «Betriebe/Büros/Verkaufsläden mit
+  eigenem Stromzähler» (lit. b); das Kochplatten-Kriterium ist allenfalls
+  Buch-Sekundärquelle/Praxis, kein Gesetzestext.
 
 **EnerG-Fassungsstand (zentrales Ergebnis der Verifikation):** Die im Buch
 (6. Aufl. 2019) und im Buch-Destillat zitierten §§ 9, 9a, 10b, 12, 13 Abs. 2
