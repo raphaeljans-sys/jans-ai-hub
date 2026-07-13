@@ -2,6 +2,22 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 42: SIA 380/1:2016 gegenüber 2009 — Kernänderungen belegt (F60 neu)
+- **1 neues Destillat:** `sia-380-1-2016-aenderungen-gegenueber-2009` (Web-Sekundärquellen:
+  SIA-Shop-Produktmetadaten + espazium.ch-Fachartikel Mennel/Friedli, 23.03.2017). Status
+  emerging — Norm-Volltext nicht gekauft.
+- **Kernbefund:** Referenz-Jahresmitteltemperatur neu 9,4 °C (statt 8,5 °C) nach SIA 2028,
+  Temperaturkorrektur neu 6 %/K (statt 8 %/K); Gebäudehüllzahl von b-Werten entkoppelt;
+  Bauteilanforderungen an MuKEn 2014 verschärft; neues Lüftungs-Berechnungsmodell; 16
+  Himmelsrichtungen; Umkehrdach-Pauschalzuschlag gestrichen. Methodik (Einzelbauteil-/
+  Systemnachweis) unverändert.
+- **Ehrlich offen:** konkrete neue Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie bleiben ohne
+  gekauften Norm-Volltext unbelegt — Sekundärquellen-Grenze transparent ausgewiesen.
+- **FAQ F60 neu**; Themenartikel `u-werte-grenzwerte-ch.md` ergänzt; `wiki/QUESTIONS.md` (E-D8)
+  und `training/curriculum.md` (A2) nachgeführt. Grund: PDF-Inventar seit Run 41 vollständig
+  abgearbeitet, Web-Vertiefung offener Punkte (Option 1 aus Run-41-Empfehlung) fortgesetzt.
+- Report: `outputs/2026-07-13_energie-run42.md`.
+
 ## 2026-07-13 — Run 41: Wärmebrücken Gruppe 6.2 Fassadenanker vollständig (22 Systeme, F58 geschärft) — PDF-Inventar Priorität 1+2 abgeschlossen
 - **1 Destillat erweitert (kein neues, INDEX bleibt bei 87 total):**
   `waermebrueckenkatalog-bfe-stuetzen-fassadenanker` — Gruppe 6.2 von 2 auf alle 22

@@ -11,7 +11,12 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
-  → `[[sia-380-1-beispiel-monatsbilanz]]`, `[[sia-380-1-standardnutzungswerte-tab24-25]]`. **vollstaendig.**
+  → `[[sia-380-1-beispiel-monatsbilanz]]`, `[[sia-380-1-standardnutzungswerte-tab24-25]]`. **Kernaenderungen
+  der Norm SIA 380/1:2016 selbst ggue. 2009 belegt 2026-07-13** (Referenz-Jahresmitteltemperatur 9,4 °C statt
+  8,5 °C, Temperaturkorrektur 6 %/K statt 8 %/K, Gebaeudehuellzahl von b-Werten entkoppelt, MuKEn-2014-
+  Verschaerfung, neues Lueftungsmodell) → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]` (FAQ F60);
+  Sekundaerquellen, konkrete neue Q_H,li-Zahlenwerte je Kategorie ohne Norm-Volltext weiterhin offen.
+  **vollstaendig** (im Rahmen der ohne kostenpflichtigen Norm-Volltext erreichbaren Tiefe).
 - [x] A3 Waermedaemmstoffe waehlen — λ/ρ/μ/BKZ je Materialklasse + Naturdaemmstoffe/VIP/WDVS belegt
   (2026-06-07 + 2026-06-09) via SIA 2001 vollst. → `[[daemmstoffe-lambda]]`. **vollstaendig** (Bemessungswerte-Zuschlag SIA 279 offen).
 - [x] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt via EN-102 + EN-2 (Versionsabgleich

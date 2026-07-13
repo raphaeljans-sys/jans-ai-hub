@@ -37,7 +37,14 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   noch exakter 2026-CHF-Satz + hartes Enddatum (Live-Pruefung klimapraemie.ch, je Projekt).
 - [~] **E-D8** SIA 380/1 2009 ↔ 2016: **Q_h,li-Grundwerte stabil** (EN-2 2013 = EN-102 2018, ✓ 2026-06-09
   → `[[enfk-en-02-waermeschutz-2013]]`); zudem Versionsabweichungen Fenster 1,3→1,0 / Ψ-Fensteranschlag /
-  Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. Offen: konkrete :2016-Aenderungen der Standardnutzung.
+  Umbau-Faktor dokumentiert in `[[u-werte-grenzwerte-ch]]`. **Kernaenderungen der Norm SIA 380/1:2016
+  selbst (nicht nur der EnFK-Vollzugshilfen) belegt ✓ 2026-07-13** aus Sekundaerquellen (SIA-Shop-
+  Metadaten + espazium.ch-Fachartikel Mennel/Friedli 2017): Referenz-Jahresmitteltemperatur 9,4 °C
+  (statt 8,5 °C) nach SIA 2028, Temperaturkorrektur 6 %/K (statt 8 %/K), Gebaeudehuellzahl von
+  b-Werten entkoppelt, Bauteilanforderungen an MuKEn 2014 verschaerft, neues Lueftungs-
+  Berechnungsmodell, 16 Himmelsrichtungen, Umkehrdach-Zuschlag gestrichen → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`,
+  FAQ **F60** neu. Weiterhin offen (Norm-Volltext nicht gekauft): konkrete neue Q_H,li0/ΔQ_H,li-
+  Zahlenwerte je Nutzungskategorie.
 
 ## Inhaltliche Luecken
 - [x] **E1** λ-Wert-Bandbreiten Daemmstoffe inkl. **Naturdaemmstoffe/VIP/WDVS** belegt ✓ 2026-06-09

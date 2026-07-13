@@ -2,7 +2,7 @@
 title: U-Werte & Heizwaermebedarf — Grenzwerte Schweiz
 status: established
 last_updated: 2026-07-13
-sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md]
+sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -135,6 +135,16 @@ Kanton aktuell verbindliche Ausgabe (ZH heute SIA 380/1:2016 / EVEN):
   vor dem Zitieren konkret gegen die geltende Ausgabe pruefen.
 - **Waermebruecke Fensteranschlag Ψ (Typ 5):** EN-2 (2013) **0,10** ↔ 0,15 (EN-102 2018).
 Die **Q_h,li-Grundwerte** (Wohnen MFH 55 / EFH 65 / Verwaltung 65 … MJ/m²) sind in beiden Ausgaben identisch.
+
+**Was die Norm SIA 380/1:2016 selbst gegenueber SIA 380/1:2009 aendert** (belegt aus Sekundaerquellen,
+SIA-Shop-Metadaten + espazium.ch-Fachartikel Mennel/Friedli 2017, Norm-Volltext nicht gekauft):
+Referenz-Jahresmitteltemperatur neu **9,4 °C** (statt 8,5 °C) nach SIA 2028, Temperaturkorrektur neu
+**6 %/K** (statt 8 %/K); Gebaeudehuellzahl von den b-Werten entkoppelt; Bauteilanforderungen an
+MuKEn 2014 verschaerft; neues Lueftungs-Berechnungsmodell (Betriebsweise Lueftungsanlage im
+projektspezifischen Nachweis, nicht aber im Grenzwertvergleich); 16 Himmelsrichtungen statt weniger;
+Umkehrdach-Pauschalzuschlag gestrichen → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`.
+Die konkreten neuen Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie bleiben ohne Norm-Volltext
+weiterhin offen.
 
 ## Datenstand / Aktualitaet
 ⚠ Werte SIA 380/1:2009 / EN-102 2018. Kt. ZH operativ ueber EnerG seit **1.9.2022** (MuKEn 2014).
