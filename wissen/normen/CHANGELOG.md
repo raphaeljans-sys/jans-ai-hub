@@ -1,3 +1,19 @@
+## 2026-07-13 — Mac Mini Run 11: Retro-Verifikation VSS-Altbestand + 13 DIN-Einzelnormen (10/16 beanstandet-korrigiert)
+- 16 Destillate adversarial gegen Original-PDF verifiziert (Volltextabgleich Modell D, 16
+  parallele Agenten): vss-700.5-1987, vss-722.15-1983, vss-merkblatt-veloabstellplaetze-1998,
+  din-919-1-1991, din-1164-10-2004, din-1356-1-1995, din-1356-6-2006, din-1946-7-2009,
+  din-18560-2-2009, din-107-1974, din-272-1986, din-1072-beiblatt1-1988, din-1076-1999,
+  din-1249-11-1986, din-68119-1996, din-4426-2001.
+- 10 von 16 (62,5%) hatten reale Fehler/Lücken, korrigiert; 6 bestanden ohne Änderung.
+- Kernbefund: **din-272-1986** hatte einen sachlichen Faktor-10-Zahlenfehler (Vorlast
+  Oberflächenhärte (10 ± 1) N statt korrekt (10 ± 0,1) N). **vss-700.5-1987** und
+  **vss-merkblatt-veloabstellplaetze-1998** hatten trotz "vollständig gelesen"-Vermerk mehrere
+  komplett fehlende Abschnitte/Anhang-Tabellen.
+- Nebenbefund: stales `.git/index.lock` (kein haltender Prozess) blockierte zwischenzeitlich
+  Git-Status-Abfragen, entfernt nach `lsof`-Bestätigung.
+- `destillate/INDEX.md` (16 Zeilen auf `established`), `training/norm-inventar.md` (16
+  Bemerkungen), `wiki/QUESTIONS.md` nachgeführt. Details: `outputs/2026-07-13_normen-mini-run11.md`.
+
 ## 2026-07-13 — SIA D 0165 Kennzahlen im Immobilienmanagement: Teil-Destillat aus Fragment
 - Nachtrag zum vorigen Lauf (dort d0165 als im Hintergrund laufend vermerkt, aber nicht
   registriert): `d 0165.pdf` (5-seitiges Scan-Fragment, S. 14-17 der Publikation +
