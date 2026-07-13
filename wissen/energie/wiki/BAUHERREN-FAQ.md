@@ -1965,14 +1965,20 @@ und Inkrafttreten sind offen.
 Lebensdauer, finanzielle Unzumutbarkeit, fehlende Abnahmekapazität des Netzbetreibers, sowie
 Interessenabwägung bei Landschafts-/Ortsbild-/Denkmalschutz. Parallel soll ein Auftrag an die
 Netzbetreiber (federführend EKZ) zur Förderung von Energie-Langzeitspeichern eingeführt werden,
-finanziert über eine Abgabe von max. 0,5 Rp./kWh (~2 % Strompreiserhöhung geschätzt). Der HEV
-Kanton Zürich unterstützt die Pflicht bei Neubauten, lehnt sie für Bestandsbauten ab. Die Regelung
-ist enger gefasst als die MuKEn-2025-PV-Pflicht (20 W/m² EBF, siehe F47) — sie zielt spezifisch auf
-grossflächige Dächer (typisch MFH, Gewerbe, Institutionsbauten) statt auf alle Neubauten.
+finanziert über eine Abgabe von max. 0,5 Rp./kWh (~2 % Strompreiserhöhung geschätzt). Beide
+Vorlagen sind als Regierungsratsbeschluss erfasst (RRB Nr. 1229/2025 Solarpflicht, RRB Nr.
+1231/2025 Langzeitspeicher, je 06.01.2026). Politisch zeichnet sich der Streitpunkt nicht bei der
+Solarpflicht als solcher ab: der HEV Kanton Zürich unterstützt sie bei Neubauten, lehnt sie für
+Bestandsbauten ab; SP und Grüne begrüssen beide Vorlagen grundsätzlich, finden sie aber **nicht
+weitgehend genug**. Die Regelung ist enger gefasst als die MuKEn-2025-PV-Pflicht (20 W/m² EBF,
+siehe F47) — sie zielt spezifisch auf grossflächige Dächer (typisch MFH, Gewerbe,
+Institutionsbauten) statt auf alle Neubauten.
 
-**Quelle:** Medienmitteilung Kanton Zürich (06.01.2026) + Presseecho (20 Minuten, NZZ, pv magazine)
-→ `[[zh-energiegesetz-revision-solarpflicht-2026]]`, emerging. **Offen:** Kantonsrats-Geschäftsnummer/
-Beratungsstand, exakter Gesetzeswortlaut, Inkrafttretensdatum.
+**Quelle:** Medienmitteilung Kanton Zürich (06.01.2026) + Presseecho (20 Minuten, NZZ,
+Tages-Anzeiger, pv magazine) → `[[zh-energiegesetz-revision-solarpflicht-2026]]`, emerging.
+**Offen:** die daraus abgeleitete Kantonsrats-Geschäftsnummer/der Beratungsstand (kantonsrat.zh.ch
+ist als JS-Single-Page-App per WebFetch nicht auslesbar, zwei Versuche 2026-07-13 erfolglos),
+exakter Gesetzeswortlaut, Inkrafttretensdatum.
 
 ---
 

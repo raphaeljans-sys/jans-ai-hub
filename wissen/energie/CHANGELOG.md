@@ -2,6 +2,29 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 46: ZH-Solarpflicht-Destillat ergänzt (RRB-Nummern + politische Reaktionen); Kantonsrats-Geschäftsnummer bleibt Werkzeug-Grenze
+- **PDF-Inventar weiterhin erschöpft** (`find -newer` erneut bestätigt: kein neuer Zeitstempel in
+  `PL - 04 Energie` seit Run 41). Block 1 (Transfer) daher wie in Run 42-45 nicht durchführbar.
+- **Zweiter gezielter Rechercheversuch** zum in Run 45 offen gebliebenen Punkt (Kantonsrats-
+  Geschäftsnummer/Beratungsstand der ZH-Solarpflicht-Vorlage): `kantonsrat.zh.ch` liefert per
+  WebFetch strukturell nur die Navigation, keine Geschäftsdetails (Single-Page-App) — bestätigt als
+  Werkzeug-Grenze, keine Recherchelücke. Stattdessen über die zh.ch-Medienmitteilung + Tages-
+  Anzeiger/20-Minuten-Presseecho zwei neue konkrete Fakten gefunden: die **Regierungsratsbeschluss-
+  Nummern RRB Nr. 1229/2025 (Solarpflicht) und RRB Nr. 1231/2025 (Langzeitspeicher)**, beide
+  06.01.2026, sowie die politischen Erstreaktionen **SP/Grüne** («begrüssen grundsätzlich, gehen
+  aber nicht weit genug») neben der bereits bekannten HEV-Position.
+- **Kein neues Destillat** — bestehendes `zh-energiegesetz-revision-solarpflicht-2026.md` (Status
+  weiterhin `emerging`) um Frontmatter (RRB-Nummern), Verfahrensstand-Abschnitt (Parteireaktionen)
+  und Offene-Punkte-Abschnitt (Werkzeug-Grenze explizit benannt) ergänzt.
+- **Register nachgeführt:** `wiki/BAUHERREN-FAQ.md` (F61 präzisiert), `wiki/QUESTIONS.md` (E31
+  ergänzt), `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`.
+- **Ehrlich zum Loop-Zustand (wiederholt aus Run 44/45):** das PDF-Inventar ist seit Run 41 leer,
+  und auch die Web-Nachträge zu offenen Curriculum-Punkten werden zunehmend granularer (heute:
+  zwei Beschlussnummern + eine Partei-Position, kein neuer Sachinhalt). Die Empfehlung an Raphael
+  bleibt unverändert und wird hier zum dritten Mal in Folge wiederholt: Meta-Entscheidung **M2**
+  (eigener Skill `energie`?) treffen und/oder den Loop-Takt zurücknehmen, bis neues Rohmaterial
+  (reale PL-04-PDFs, JANS-Projekte mit Energiethemen) anfällt.
+
 ## 2026-07-13 — Run 45: ZH-Energiegesetz-Revision 2026 (Solarpflicht Dächer >300 m²) neu belegt (FAQ F61)
 - **PDF-Inventar weiterhin erschöpft** (`find -newer` bestätigt: kein neuer Zeitstempel in
   `PL - 04 Energie` seit Run 41). Block 1 (Transfer) daher wie in Run 42-44 nicht durchführbar.

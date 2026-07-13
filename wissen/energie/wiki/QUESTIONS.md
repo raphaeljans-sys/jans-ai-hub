@@ -330,8 +330,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Netzkapazität/Denkmalschutz); zusätzlich Langzeitspeicher-Auftrag Netzbetreiber via Abgabe
   max. 0,5 Rp./kWh; HEV ZH unterstützt Neubau-Teil, lehnt Bestand-Teil ab). Löst den in E-D6/E26
   offen vermerkten «ZH-Umsetzungsstand»-Punkt teilweise: es ist eine **eigenständige, engere
-  ZH-Vorlage**, nicht die volle MuKEn-2025-Übernahme. **Offen:** Kantonsrats-Geschäftsnummer/
-  Beratungsstand, Inkrafttretensdatum, ob eine separate volle-MuKEn-2025-Vorlage noch folgt.
+  ZH-Vorlage**, nicht die volle MuKEn-2025-Übernahme. **Ergänzt ✓ 2026-07-13 (Run 46):**
+  Regierungsratsbeschluss-Nummern gefunden (RRB Nr. 1229/2025 Solarpflicht, RRB Nr. 1231/2025
+  Langzeitspeicher) + politische Erstreaktionen SP/Grüne («grundsätzlich begrüsst, geht aber nicht
+  weit genug») ergänzen die bereits bekannte HEV-Position. **Weiterhin offen** trotz zweitem
+  gezieltem Rechercheversuch: Kantonsrats-Geschäftsnummer/Beratungsstand — `kantonsrat.zh.ch` ist
+  eine JS-Single-Page-App, WebFetch liefert dort strukturell nur die Navigation, keine
+  Geschäftsdetails; das ist keine Recherchelücke, sondern eine Werkzeug-Grenze (bräuchte
+  interaktiven Browser-Zugriff oder eine strukturierte API). Inkrafttretensdatum, ob eine separate
+  volle-MuKEn-2025-Vorlage noch folgt.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

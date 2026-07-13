@@ -13,6 +13,50 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 09:27 — Fenster um 08:49 voll ausgereizt, um 8:50 Reset, Vollgas laeuft von selbst wieder [VOLL→FREI]
+
+**Fensterzustand [VOLL→FREI, Taktgeber greift]:** Das vorige 5h-Fenster wurde von ~08:01 bis
+08:49 voll ausgereizt — mehrere Loops beider Stationen mit «You've hit your session limit ·
+resets 8:50am» (normen-nacht, spec, wettbewerbs-nachbrenner auf dem MacBook; normen-mini,
+planungsgrundlagen auf dem Mini). Das ist der GEWUENSCHTE Zustand (voller Baustein zum
+Wochenlimit). Um 8:50 Reset; danach **automatische Wiederaufnahme ohne Eingriff**: baurecht-buch
+09:17 rc=0 (1431 s), immobewertung 09:20 rc=0, normen-nacht 09:20:49 gestartet; 133 aktive
+`claude -p`. Keine ungenutzte Luecke zwischen den Fenstern — Taktgeber-Soll erfuellt.
+
+**Kein Login-Block (Klarstellung):** Der blanke `claude -p --model haiku` aus der Radar-Shell
+meldete «Not logged in» — das ist ein **Env-Artefakt** (die Radar-Shell sourced den
+`CLAUDE_CODE_OAUTH_TOKEN` aus `~/.jans-dispatch.env` nicht, der Runner schon). Mit gesourctem
+Env ist der Token vorhanden (verifiziert: JA) und der Runner arbeitet rc=0 durch. **KEIN P1.**
+
+**Lagebild (gruen):**
+- Beide Runner gesund, keine STOP-Datei. MacBook: Haupt-PID 81252 (seit 23:51) + Re-Exec 69402
+  (09:20, laedt Skript-Updates selbst nach). Zyklus 50 laeuft. Mini: Zyklus 142, energie Run 44
+  357 s rc=0, normen-mini Run 7 522 s rc=0.
+- **Durchsatz:** 9 NAS-Commits/90 Min (bewusst weniger als die 27 um 07:13 — ~50 Min des Fensters
+  lagen in der gewollten Limit-Pause 08:01–08:49). Substanz: normen-mini Run 7 (DIN/VSS-
+  Retroverifikation, 4 Fehler korrigiert, 50 % Fehlerquote in der Stichprobe → Verifikations-
+  Pflicht bestaetigt), energie Run 45 (ZH-Energiegesetz-Revision 2026 Solarpflicht belegt),
+  setup-ssh-macbook.
+
+**Hebel-Priorisierung:** Das Fenster wird regelmaessig auf 100 % gefahren (gerade eben 08:49) und
+sofort wieder gefuellt → gemaess Schritt 5 ist die Lage **optimal**. Nur Kontinuitaet sichern,
+keine zusaetzliche Frequenz stapeln. Kein Eingriff noetig.
+
+- **P2 (unveraendert) — NAS-Mount-Remount zielt remote auf LAN-IP:** Remount-Fallback in
+  Trainings/Runner nutzt `smb://192.168.1.10/daten` (LAN), remote via Tailscale nicht erreichbar.
+  Fuer Morgen-Briefing: Remount-Snippet um Tailscale-Hostnamen-Fallback ergaenzen. Kein Nacht-Umbau.
+- **P3 — Leerlauf-Loops als Endbedingungs-Kandidaten (fuer Tageslauf):** immobewertung-training
+  (09:20 rc=0 «keine konkrete Anfrage angekommen», KB gesaettigt) und synobsis-batch (853/853
+  komplett) drehen faktisch leer; energie meldet KB-Saettigung (91 Destillate / 61 FAQ, «marginal
+  value thinning», M2-Entscheid «eigener energie-Skill» offen). Diese senken den Wochenverbrauch
+  nicht (Fenster bleibt bindend + voll), verwerfen aber Slot-Potenzial ohne durables Ergebnis.
+  Empfehlung: immobewertung/synobsis/energie ins Nachtfenster ruecktakten und freie Kapazitaet auf
+  die **Normen DIN/VSS-Verifikation** lenken (dort findet Run 7 real 50 % Fehler → substanzielle
+  Arbeit). Entscheid liegt bei Raphael (Ruecktaktung nicht stillschweigend).
+
+**Mail:** KEINE (kein neuer/geloester P1; das planmaessige Voll-Fahren des Fensters ist Erfolg,
+kein Mail-Anlass).
+
 ## 2026-07-13 07:13 — Volllast, 27 Commits/90 Min; Mount-Flappen im Remote-Betrieb entdeckt [FREI]
 
 **Fensterzustand [FREI]:** `claude -p --model haiku` liefert nach kurzer Kaltstart-Latenz «OK»

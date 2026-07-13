@@ -1,8 +1,8 @@
 ---
-quelle: Medienmitteilung Kanton Zürich «Regierungsrat will Versorgungssicherheit mit Solarstrom und Energiespeichern verbessern» (zh.ch, 06.01.2026) + Presseecho (20 Minuten, NZZ, pv magazine)
+quelle: Medienmitteilung Kanton Zürich «Regierungsrat will Versorgungssicherheit mit Solarstrom und Energiespeichern verbessern» (zh.ch, 06.01.2026) + Presseecho (20 Minuten, NZZ, Tages-Anzeiger, pv magazine)
 herausgeber: Regierungsrat Kanton Zürich (Baudirektion)
-ausgabe: Botschaft an den Kantonsrat zur Änderung des Energiegesetzes (EnerG), zwei Vorlagen (Solarpflicht + Langzeitspeicherung)
-gelesen: 2026-07-13 (Web via WebSearch/WebFetch, Medienmitteilung + Sekundärpresse; Botschaftstext/Kantonsrat-Geschäftsnummer nicht direkt eingesehen)
+ausgabe: Botschaft an den Kantonsrat zur Änderung des Energiegesetzes (EnerG), zwei Vorlagen (Solarpflicht + Langzeitspeicherung); Regierungsratsbeschlüsse Nr. 1229/2025 (Solarpflicht) und Nr. 1231/2025 (Langzeitspeicher)
+gelesen: 2026-07-13 (Web via WebSearch/WebFetch, Medienmitteilung + Sekundärpresse; Botschaftstext/Kantonsrat-Geschäftsnummer weiterhin nicht direkt eingesehen — kantonsrat.zh.ch liefert bei WebFetch nur Navigationsstruktur, kein Geschäftsdetail, 2. Versuch 2026-07-13 ebenfalls erfolglos)
 datenstand: 2026-01-06 — ⚠ Botschaft des Regierungsrats an den Kantonsrat, NOCH KEIN Gesetz. Kantonsrat-Beratung/Abstimmung und Referendumsfrist stehen noch aus; Inkrafttreten nicht datiert.
 status: emerging
 last_updated: 2026-07-13
@@ -44,6 +44,10 @@ erst eine Botschaft, kein geltendes Recht.
   bekannt**.
 - Der **Hauseigentümerverband (HEV) Kanton Zürich** unterstützt die Solarpflicht bei Neubauten,
   lehnt sie aber für **bestehende Wohnbauten** ab und warnt vor «Überregulierung».
+- **SP und Grüne** begrüssen die Vorlagen des Regierungsrats grundsätzlich, finden die Änderungen
+  im Energiegesetz aber **nicht weitgehend genug** (Tages-Anzeiger, 20 Minuten, Stand 2026-07-13
+  recherchiert) — die politische Auseinandersetzung dürfte sich also nicht an der Solarpflicht als
+  solcher entzünden, sondern an ihrer Reichweite (v.a. Bestandesbauten).
 - **Kein direkter Bezug zur MuKEn 2025** in der Medienmitteilung selbst gefunden — diese
   ZH-Vorlage (300-m²-Dachschwelle, vollflächige Pflicht) ist enger/spezifischer gefasst als die
   MuKEn-2025-Formulierung (20 W/m² EBF bei Neubauten, siehe `[[muken-2025-verabschiedet]]`) und
@@ -60,9 +64,14 @@ die Lebensdauer und Denkmalschutz) sind bei der Argumentation gegenüber der Beh
 relevanten Ansatzpunkte, falls eine Ausnahme gesucht wird.
 
 ## Offene Punkte
-- **Kantonsrats-Geschäftsnummer und Beratungsstand** nicht ermittelt (Kantonsrat-Website lieferte
-  beim Abruf nur die Navigationsstruktur, kein Geschäftsdetail) — bei Bedarf über
-  `www.kantonsrat.zh.ch/geschaefte` nachschlagen.
+- **Regierungsratsbeschluss-Nummern jetzt bekannt** (RRB Nr. 1229/2025 Solarpflicht, RRB Nr.
+  1231/2025 Langzeitspeicher, beide 06.01.2026) — die daraus abgeleitete **Kantonsrats-
+  Geschäftsnummer und der Beratungsstand (Kommission/Lesungen)** bleiben aber offen: die Website
+  `www.kantonsrat.zh.ch/geschaefte` ist eine JS-Single-Page-App, WebFetch liefert dort wiederholt
+  (2026-07-13, zwei unabhängige Versuche) nur die Navigationsstruktur statt des Geschäftsdetails.
+  Für eine belastbare Antwort müsste die Geschäftssuche interaktiv (Browser) oder über eine
+  strukturierte Schnittstelle der Kantonsrats-Website abgefragt werden — reine Text-Websuche/
+  WebFetch reicht hier nicht aus.
 - **Exakter Gesetzestext** (Wortlaut der EnerG-Änderung, genaue Definition «geeignetes Dach»,
   Berechnungsmethode Wirtschaftlichkeit) nicht eingesehen — nur Medienmitteilungs-Zusammenfassung.
 - **Zeitplan/Inkrafttreten** unbekannt; Vernehmlassung zu einer separaten, früheren EnerG/Richtplan-
