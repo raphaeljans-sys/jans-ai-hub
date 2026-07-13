@@ -24,22 +24,22 @@
 | [x] 260713 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); Reconcile 260713: sia-108-2014.md |
 | — | — | `108_2003_d.pdf` | 108 | 2003 | ersetzt durch 108:2014 (destilliert sia-108-2014.md); Altausgabe uebersprungen |
 | [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (Status draft, ggf. Vertiefung noetig)  |
-| [ ] | P2 | `121_2003_d.pdf` | 121 | 2003 |  |
-| [ ] | P2 | `125_2017.pdf` | 125 | 2017 |  |
+| [x] 260713 | P2 | `121_2003_d.pdf` | 121 | 2003 | Teil-Destillat (Formularblaetter S.18-22 nicht im Detail); verifiziert 260713, 1 Fehler korrigiert (Ziff. 3.7); sia-121-2003.md |
+| [x] 260713 | P2 | `125_2017.pdf` | 125 | 2017 | established, verifiziert 260713; sia-125-2017.md |
 | — | — | `142_1998_d.pdf` | 142 | 1998 | ersetzt durch 142:2009 (destilliert sia-142-2009.md); Altausgabe uebersprungen |
 | [x] 260712 | P2 | `142_2009.pdf` | 142 | 2009 | gilt (jüngste im Bestand)  bereits destilliert (sia-142-2009.md), Inventar nachgezogen |
 | [x] 260712 | P2 | `143_2009.pdf` | 143 | 2009 |   bereits destilliert (sia-143-2009.md), Inventar nachgezogen |
-| [ ] | P2 | `144_2013.pdf` | 144 | 2013 |  |
-| [ ] | P2 | `150_2018.pdf` | 150 | 2018 |  |
-| [ ] | P2 | `162.051_2000_d.pdf` | 162 | 2000 |  |
-| [ ] | P2 | `162.152_2001_d.pdf` | 162 | 2001 |  |
-| [ ] | P2 | `166_2004_d.pdf` | 166 | 2004 |  |
-| [ ] | P2 | `16954_2018_de.pdf` | 1695 | 2018 |  |
-| [ ] | P2 | `179_1998_d.pdf` | 179 | 1998 |  |
-| [ ] | P2 | `180.081_2017.pdf` | 180 | 2017 |  |
-| [ ] | P2 | `180.082_2017.pdf` | 180 | 2017 |  |
-| [ ] | P2 | `180_2014.pdf` | 180 | 2014 |  |
-| [ ] | P2 | `181_2006_d.pdf` | 181 | 2006 |  |
+| [x] 260713 | P2 | `144_2013.pdf` | 144 | 2013 | established, verifiziert 260713; sia-144-2013.md |
+| [x] 260713 | P2 | `150_2018.pdf` | 150 | 2018 | established, verifiziert 260713; sia-150-2018.md |
+| [ ] | P2 | `162.051_2000_d.pdf` | 162 | 2000 | destilliert (sia-162-051-2000.md), Verifikation laeuft/ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `162.152_2001_d.pdf` | 162 | 2001 | established, verifiziert 260713; sia-162-152-2001.md |
+| [x] 260713 | P2 | `166_2004_d.pdf` | 166 | 2004 | established, verifiziert 260713; sia-166-2004.md |
+| [x] 260713 | P2 | `16954_2018_de.pdf` | 1695 | 2018 | established, verifiziert 260713; sia-1695-4-2018.md |
+| [x] 260713 | P2 | `179_1998_d.pdf` | 179 | 1998 | established, verifiziert 260713; sia-179-1998.md |
+| [x] 260713 | P2 | `180.081_2017.pdf` | 180 | 2017 | established, verifiziert 260713; sia-180-081-2017.md |
+| [x] 260713 | P2 | `180.082_2017.pdf` | 180 | 2017 | Teil-Destillat, verifiziert 260713; sia-180-082-2017.md |
+| [x] 260713 | P2 | `180_2014.pdf` | 180 | 2014 | Teil-Destillat (Kernkapitel, Anhaenge A-H offen), verifiziert 260713; sia-180-2014.md |
+| [x] 260713 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (normativer Kern + Teile Anhang), verifiziert 260713; sia-181-2006.md |
 | [ ] | P2 | `184_1972_d.pdf` | 184 | 1972 |  |
 | [ ] | P2 | `193.111_1999_d.pdf` | 193 | 1999 |  |
 | [ ] | P2 | `195_1999_d.pdf` | 195 | 1999 |  |
