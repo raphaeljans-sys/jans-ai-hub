@@ -33,6 +33,7 @@ Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
 | Volllast | 12.07.2026 (Nacht) | 2104/2207/2501/2507 destilliert + verifiziert; 2205/2503 verifiziert; alle → established (ausser 2102/2206 draft). 15 extern + 9 board-dna verifiziert (22/24 established). Muster jury-argumente-schulbauten + jans-board-dna. Normbezug SIA 400/142/143. Reports Generalprobe + PDF-Pilot + Massnahmen | erledigt |
 | Nachbrenner | 13.07.2026 | Rang-Klaerung 2102/2206 eingearbeitet (Report vom 12.07. bereits erzeugt, Nachtrag in Dossiers/INDEX/QUESTIONS/PROGRAMM); beide auf established gehoben; Board-DNA-Luecke 2104/2503 als „nicht anwendbar" dokumentiert | erledigt |
 | 3 | 13.07.2026 | 2502 als leerer Ordner bestaetigt (kein Dossier moeglich, QUESTIONS geklaert); Muster `delta-zum-ersten-rang` von 3 auf alle 6 verfuegbaren Dossiers (2101/2102/2103/2205/2206/2408) erweitert, 10 Befunde, refuter-verifiziert (VERDIKT BESTANDEN) → established | erledigt |
+| Beobachtung | 13.07.2026 | Kein neues Material: 2501-Entscheidmitteilung (260210) bereits im Dossier verarbeitet, 2507-Jurybericht-Ordner weiterhin leer. Keine Destillation, Etappe 3 weiter blockiert auf Raphaels Bauaufgaben-Prioritaeten | erledigt (kein Content-Update) |
 
 **Endbedingung Etappe 2 VOLLSTAENDIG ERREICHT (13.07.2026):** alle 11 destillierbaren
 Teilnahmen established (2502 kein Dossier moeglich, Ordner leer); Rang-Diskrepanz 2102/2206

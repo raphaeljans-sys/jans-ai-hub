@@ -1,5 +1,21 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Beobachtungs-Lauf: keine neuen Juryberichte, Etappe 3 weiter blockiert
+- **Ausgangslage:** Endbedingung Etappe 2 ist seit Lauf 3 (13.07.2026) vollstaendig erreicht;
+  naechster Schritt Etappe 3 (konkurado-Erweiterung) ist blockiert, bis Raphael die
+  Bauaufgaben-Prioritaeten liefert (offene Frage in QUESTIONS.md). Dieser Lauf prueft daher nur,
+  ob die beiden noch ausstehenden Juryberichte (2501 Steinfabrik, angekuendigt Ende Maerz 2026;
+  2507 TKHL Halden, seit 12.07.2026 faellig) inzwischen im OneDrive-Archiv eingetroffen sind.
+- **Befund:** Kein neues Material. 2501 hat zwar eine Entscheid-Mitteilung des Preisgerichts
+  (`02_Korrespondenz/brackpartner.ch/260210 ... Mitteilung Entscheid Preisgericht ...eml`),
+  diese ist aber bereits als Quelle im established-Dossier verarbeitet (Rangierung/Preisverteilung
+  2. Bearbeitungsstufe). 2507 hat einen vorbereiteten Ordner `90 dokumentation/00 wettbewerb/
+  02 jurybericht`, dieser ist jedoch weiterhin leer.
+- **Konsequenz:** Kein Dossier-/Status-Update noetig. Keine Destillationsarbeit in diesem Lauf.
+  Empfehlung an Raphael (naechstes Tagesbriefing): diesen Loop auf reduzierten Takt (Beobachtung
+  statt taeglich mehrfach) umstellen oder pausieren, bis entweder (a) einer der beiden
+  Juryberichte eintrifft oder (b) die Bauaufgaben-Prioritaeten fuer Etappe 3 vorliegen.
+
 ## 2026-07-13 — Lauf 3: Muster `delta-zum-ersten-rang` auf alle 6 verfuegbaren Dossiers verdichtet, 2502 geklaert
 - **Ausgangslage:** Nach dem Nachbrenner-Lauf (Rang-Klaerung 2102/2206) waren zwei Punkte
   der Endbedingung Etappe 2 (Teil 1) noch offen: (a) `muster/delta-zum-ersten-rang.md` deckte
