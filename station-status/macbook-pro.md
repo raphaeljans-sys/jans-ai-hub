@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 21:02:25
+Stand: 13.07.2026 21:12:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:48)
@@ -19,4 +19,4 @@ Stand: 13.07.2026 21:02:25
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3011297d normen-training-mini Run 15: Retro-Verifikation Sammel-Batch (8 DIN/VSS/RAL-Destillate)
+- a204aa89 sync: ag-gruendung-monitor: Status 13.07. unveraendert (kein UBS-/Notariats-Eingang)
