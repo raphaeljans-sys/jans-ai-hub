@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 13:57:19
+Stand: 13.07.2026 14:07:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:46)
@@ -19,4 +19,4 @@ Stand: 13.07.2026 13:57:19
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 996ff30d normen: DIN 276-1:2008 adversarial verifiziert, 3 Korrekturen eingearbeitet
+- cc49ef19 nas-selfcommit: 13 Datei(en) 2026-07-13 14:00

@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review Fünftlauf (wir/ich-Feinschliff, Apple Mail ausgefallen)
+- Fünfter Fidelity-Lauf des Tages (nach 260713/260713b/260713c/260713d). Gesamt-Fidelity 94/100.
+  **Apple Mail durchgehend AppleEvent-Timeout (-1712)** — auch minimale Abfragen (Mailbox-Name,
+  Nachrichtenanzahl) liefen nicht durch, vermutlich Ressourcenkonflikt mit den parallel laufenden
+  VOLLGAS-Endlos-Loops derselben Station (Regel 260712c). M365-MCP ebenfalls nicht verbunden.
+  Statt Live-Pull: Kreuz-Synthese aus bereits vorhandenem, vom Benutzer authentisch bestätigtem
+  Rohkorpus (`raw/260607-behoerden-korpus.md`, `raw/260607-kispi-korpus.md`, Wartstrasse-8-Beleg
+  aus `arbeitsweise.md`).
+- **Geschärft (haltung.md):** wir/ich-Regel um einen satzweisen Feinschliff ergänzt — innerhalb
+  einer bereits «wir-erlaubten» Mail trägt «wir» nur die kollektive Büro-/Projekthandlung/-absicht,
+  während «ich» für die direkte persönliche Bitte/Meinung/Anrede an das Gegenüber bleibt (Verben
+  bitten/denke/benötige). Dreifach triangeliert (Wartstrasse 8, KISPI-Bauentscheid unbekannte
+  Fachstelle, KISPI-Honorar-Abgebotsrunde). Beantwortet zugleich die von 260713d offen gelassene
+  Frage: Vertrautheit der Behörde ändert am wir/ich-Verhalten nichts.
+- Drift-Report `outputs/2026-07-13e_fidelity.md`. Drei neue Selbstfragen an QUESTIONS.md (Runde
+  260713e): Verbtyp-Grenze (Handlung vs. Meinung), Kollektiv-«wir» im Du ausserhalb Geld-Kontext,
+  Reihenfolge/Dramaturgie des wir/ich-Wechsels.
+- DNA neu kompiliert (`build_dna.py`) nach der haltung.md-Schärfung.
+
 ## 2026-07-13 — twin-mail-training Batch 41 (2026-04-16 bis 2026-04-22)
 - Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Apple Mail osascript
   (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elemente") — M365-MCP wie in Batch

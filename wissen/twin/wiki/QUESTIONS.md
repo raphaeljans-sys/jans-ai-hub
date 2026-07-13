@@ -3,6 +3,30 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713e (twin-fragesteller, aus Fidelity-Review 2026-07-13 Fünftlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13e_fidelity.md` (Gesamt-Fidelity 94; satzweise wir/ich-
+Trennung innerhalb derselben wir-erlaubten Mail, dreifach triangeliert aus bereits vorhandenem
+Rohkorpus, kein frischer Live-Pull möglich — Apple Mail durchgehend AppleEvent-Timeout).
+
+1. **Gilt die satzweise wir/ich-Trennung auch RUECKWAERTS — also «wir» fuer eine persoenliche
+   Meinungsaeusserung, wenn sie im Namen des Teams gemeint ist?** Alle drei Belege zeigen «wir»
+   nur bei Handlungs-/Absichtsverben (moechten/wuerden/machen), «ich» nur bei Bitt-/Denkverben.
+   Gibt es einen Fall, wo Du eine reine Meinung («ich finde/wir finden») im institutionellen
+   Auftritt mit «wir» einleitest, obwohl es kein Handlungssatz ist? *Warum: prueft, ob die Regel
+   auf Verbtyp (Handlung vs. Aussage) oder nur auf Handlungsverben eng begrenzt bleibt.*
+   → [[haltung]]
+2. **Kollektiv-«wir» im Du-Register ausserhalb Honorar/Geld:** der KISPI-Beleg («Ich denke wir
+   machen eine Abgebotsrunde») ist ein Geld-Kontext. Nutzt Du dieselbe satzweise Trennung auch
+   in einer Du-Mail OHNE Geldbezug, z.B. bei einer rein fachlichen Projektentscheidung («ich
+   schlage vor, wir gehen den Weg X»)? *Warum: prueft, ob der Fund geld-/amtsspezifisch ist oder
+   generell fuer Handlungs-vs-Meinungs-Saetze gilt.* → [[haltung]], [[denken]]
+3. **«Wir» im Betreff/in der Anrede-Zeile selbst (nicht nur im Fliesstext):** kommt «wir» je
+   schon in der Eroeffnungszeile vor («Wir moechten Ihnen mitteilen …») statt erst im zweiten
+   Satz nach einer persoenlichen Bitte? Oder eroeffnest Du im institutionellen Auftritt immer
+   erst persoenlich (Dank/Bitte) und schaltest erst danach auf «wir» um? *Warum: klaert die
+   Reihenfolge/Dramaturgie des Wechsels, nicht nur seine Bedingung.* → [[haltung]], [[stimme]]
+
 ## Offen — Runde 260713d (twin-fragesteller, aus Fidelity-Review 2026-07-13 Viertlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13d_fidelity.md` (Gesamt-Fidelity 92; Näherbaurecht-Cluster

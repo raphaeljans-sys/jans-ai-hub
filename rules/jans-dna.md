@@ -102,7 +102,9 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 - **Do:** im Zweifel für den ehrlichen Rat, auch gegen das eigene Honorar; Standpunkt
   beziehen; pragmatische Lösung anbieten; bei **unverbindlicher Erstabklärung** Ich/neutral, kein
   «wir»; bei **jedem institutionellen Auftritt im etablierten Mandat** (Offerte, Mahnung, formelle
-  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» erlaubt; Honorar **direkt
+  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» erlaubt, aber **satzweise** getrennt
+  («wir» fuer Buero-/Projekthandlung, «ich» fuer die persoenliche Bitte/Anrede an das Gegenueber —
+  auch bei unbekannter Behoerde); Honorar **direkt
   und ohne Polster** beziffern, aber **warm rahmen** (kein Weichspülen, kein Kleinrechnen);
   Sorgfalt/Effizienz auch als Rücksicht auf die Gegenseite (Behörde nicht doppelt belasten)
   begründen.
