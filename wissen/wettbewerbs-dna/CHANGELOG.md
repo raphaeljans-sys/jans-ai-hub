@@ -1,5 +1,20 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-14 — Nachbrenner-Task erneut ausgeloest, Bestand bereits vollstaendig (kein Content-Update)
+- **Auftrag:** Scheduled Task `wettbewerbs-layer-nachbrenner` (23:05) lief erneut mit dem
+  Original-Auftrag vom 12.07.2026 (Vollendung der damals durch das Session-Limit
+  abgeschnittenen Arbeiten). Bestand gegen alle 8 Schritte des Auftrags geprueft.
+- **Befund:** Alle 8 Schritte bereits durch die Folge-Laeufe vom 13.07.2026 erledigt
+  (Lauf 5 + Nachbrenner-Fix jury-argumente-schulbauten): 11/11 destillierbare Dossiers
+  `established`, Muster jans-board-dna + jury-argumente-schulbauten + delta-zum-ersten-rang
+  established, Referenz-Katalog indexiert, INDEX/QUESTIONS/CHANGELOG/PROGRAMM konsistent,
+  Massnahmen-Report vorhanden, Rang-Diskrepanz 2102/2206 durch Raphael bestaetigt und in
+  QUESTIONS.md unter "Geklaert" dokumentiert. `git log`/`git status` zeigen keine
+  ausstehenden Aenderungen an `wissen/wettbewerbs-dna/`.
+- **Konsequenz:** Kein neuer Inhalt erzeugt. Externe Beobachtung 2501/2507 nicht erneut
+  durchgefuehrt (bereits 5x ergebnislos geprueft, QUESTIONS.md empfiehlt Taktreduktion).
+  Etappe 3 bleibt blockiert auf Raphaels Bauaufgaben-Prioritaeten.
+
 ## 2026-07-13 — Nachbrenner: `jury-argumente-schulbauten.md` korrigiert, Zweitlauf BESTANDEN → established
 - **Auftrag:** Abarbeitung der 10 Korrekturauflagen aus dem durchgefallenen Refuter-Erstlauf
   (siehe Eintrag weiter unten), danach fokussierter zweiter Refuter-Lauf nur auf die
