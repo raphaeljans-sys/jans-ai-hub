@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 13:37:07
+Stand: 13.07.2026 13:57:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 24 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 28 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 13.07.2026 13:37:07
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 41934b52 nas-selfcommit: 2 Datei(en) 2026-07-13 13:30
+- 996ff30d normen: DIN 276-1:2008 adversarial verifiziert, 3 Korrekturen eingearbeitet
