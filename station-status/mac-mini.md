@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 05:09:34
+Stand: 13.07.2026 05:29:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:09)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:29)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 05:09:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8e956170 nas-selfcommit: 17 Datei(en) 2026-07-13 05:00
+- b2afe59f synobsis: Nacht-Batch 13.07.2026 — Vektorindex aktualisiert, CAD-Index gefuellt

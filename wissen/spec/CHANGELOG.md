@@ -1,5 +1,30 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-13 — Trainingslauf 8
+- Output `outputs/2026-07-13_training-run8.md`. **Keine neue reale Spec-Anwendung** seit Lauf 7
+  (letzter Output 12.07. 18:15, bereits ausgewertet). Schwerpunkt dieses Laufs: Environment-Audit.
+- **Befund + Fix (P1):** `rules/jans-dna.md` (das "Gehirn" des Twin-Harness) war vollstaendig
+  ausformuliert, dokumentiert sich selbst UND `skills/twin/SKILL.md` als "@-Import ganz oben in
+  CLAUDE.md" — der Import fehlte aber komplett in `CLAUDE.md`. Klar belegter Verdrahtungsfehler,
+  direkt behoben: `jans-dna.md` als ersten Rule-Import in `CLAUDE.md` ergaenzt.
+- **Befund + geflaggt (P1, NICHT autonom geloest):** `rules/sync-single-committer.md` ebenfalls
+  nicht importiert UND inhaltlich im Widerspruch zur aktiven `git-auto-push.md` (rohes Git direkt
+  aufs NAS-Repo vs. Verbot dessen). Nur Registry-Nachtrag in `rules/README.md` gemacht, @-Import
+  bewusst offen gelassen — **Raphael-Entscheid noetig**, welche Regel fuer NAS-Git-Schreib-
+  operationen gilt.
+- **Befund + Fix (P3):** `rules/README.md` "Aktive Rules" fehlten 5 existierende Dateien
+  (anrede-kontakte, jans-absenderadresse, normen-referenz, jans-dna, sync-single-committer) —
+  nachgetragen. `wiki/environment-jans-hub.md` hatte veraltete Zaehlstaende (43→47 Skills,
+  11→16 KBs) — aktualisiert + neue Audit-Sektion "Trainingslauf 8" ergaenzt.
+- **Lektion fuer den Loop:** eine Rule-Datei anlegen entfaltet allein keine Wirkung — die drei
+  Listen (Dateisystem `rules/*.md`, `rules/README.md`, `CLAUDE.md`-@-Import) koennen unbemerkt
+  auseinanderlaufen. Kuenftige Audits sollten das explizit gegenchecken statt nur zu zaehlen.
+- Metadaten `verifier.md`/`anwendung-jans.md` unveraendert (kein neuer Spec-Anwendungsfall).
+  Rule `spec-methode.md` unveraendert (kein Ueberdehnungs-/Untertrigger-Beleg). Quellen-Schuld:
+  keine (F4/F5 weiterhin vollstaendig eingeloest).
+- Offen: F1-Ueberdehnungs-Gegentest fehlt weiter; F3 nur noch Marketing/Text offen;
+  Raphael-Entscheid Git-Committer-Modell (siehe oben) aussteht.
+
 ## 2026-07-12 — Trainingslauf 7
 - Output `outputs/2026-07-12_training-run7.md`. **Eine neue reale Spec** ausgewertet:
   Wettbewerbs-Layer (12.07., greenfield-System, aktiv). Beleg verifiziert (KB `wissen/wettbewerbs-dna`

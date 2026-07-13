@@ -1862,20 +1862,31 @@ Backstein-Rollierung kostet zusätzlich bis zu +0,08 W/(m·K).
 ## F58 — «Meine Fassade wird hinterlüftet verkleidet und eine Stütze durchstösst die Bodenplatte — sind das kritische Wärmebrücken?»
 
 **Kurz:** Die Fassadenanker-Unterkonstruktion ist meist unkritisch, vor allem bei **Holzlattung**
-(kleiner Zuschlag unabhängig vom Mauerwerk). Die durchstossende Stütze ist der grössere Hebel:
-**Stahlbeton statt Stahl** senkt den Wärmeverlust auf einen Bruchteil.
+(kleiner Zuschlag unabhängig vom Mauerwerk) und bei Metall-Systemen **mit thermischer Trennung**.
+Ohne thermische Trennung im engen Raster kann es aber der teuerste Einzelposten der ganzen
+Fassade werden. Die durchstossende Stütze ist der zweite grosse Hebel: **Stahlbeton statt Stahl**
+senkt den Wärmeverlust auf einen Bruchteil.
 
 **Fachlich:** Der BFE-Wärmebrückenkatalog rechnet Fassadenanker als **ΔU-Wert-Zuschlag** auf die
-Wandfläche (nicht separat): eine kreuzweise Holzlattung kostet nur **+0,02 bis +0,03 W/(m²·K)**,
-eine Alu-Unterkonstruktion mit thermischer Trennung je nach Ankerraster **+0,02 bis +0,19
-W/(m²·K)** (grösseres Raster = kleinerer Zuschlag). Eine durchstossende **Stahlstütze** wird als
-punktförmige Wärmebrücke mit **X-Wert in W/K** erfasst (Grenzwert 0,30 W/K je Durchstossung) und
-liegt bei **0,20–0,37 W/K** — teils über dem Grenzwert bei grösserem Durchmesser. Dieselbe Stütze
-in **Stahlbeton** liegt bei nur **0,05–0,12 W/K**, klar darunter: Der Beton-Mantel dämmt das
-Detail spürbar besser als eine durchgehende Stahlkonstruktion.
+Wandfläche (nicht separat) und hat dafür **22 marktübliche Systeme** durchgerechnet (Holzlattung,
+Alu-/Stahl-Unterkonstruktion, Chrom-Nickel-Halteanker, Systemanker ATK/Clickpress/Halfen SUK/
+A-PL/UK 1000/WSZ): eine kreuzweise Holzlattung kostet nur **+0,02 bis +0,03 W/(m²·K)**, unabhängig
+vom Ankerraster. Metallsysteme **mit thermischer Trennung** liegen je nach Raster meist bei
+**+0,01 bis +0,19 W/(m²·K)** (grösseres Raster = kleinerer Zuschlag). **Ohne thermische Trennung**
+verdoppelt bis verdreifacht sich der Zuschlag beim engsten Raster (0,2 m²) auf Stahlbeton — bis
+**+0,57 W/(m²·K)**, das ist der Extremwert der ganzen Gruppe und mehr als der U-Wert-Zielwert einer
+kompletten gedämmten Aussenwand. Eine durchstossende **Stahlstütze** wird separat als punktförmige
+Wärmebrücke mit **X-Wert in W/K** erfasst (Grenzwert 0,30 W/K je Durchstossung) und liegt bei
+**0,20–0,37 W/K** — teils über dem Grenzwert bei grösserem Durchmesser. Dieselbe Stütze in
+**Stahlbeton** liegt bei nur **0,05–0,12 W/K**, klar darunter: Der Beton-Mantel dämmt das Detail
+spürbar besser als eine durchgehende Stahlkonstruktion.
 
-**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
-`[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]`, emerging.
+**Bauherren-Rat:** Bei der Systemwahl der Fassaden-Unterkonstruktion aktiv nach **«mit thermischer
+Trennung»** fragen (die meisten Hersteller bieten beide Varianten an) und wo möglich ein
+**grosszügiges Ankerraster** wählen — beides zusammen senkt den Zuschlag um Faktor 5-10.
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001, S. 113-126 vollständig
+gelesen) → `[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]`, emerging.
 
 ---
 

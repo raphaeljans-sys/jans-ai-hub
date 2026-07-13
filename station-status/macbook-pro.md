@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 05:08:05
+Stand: 13.07.2026 05:28:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:45)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 05:08:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8e956170 nas-selfcommit: 17 Datei(en) 2026-07-13 05:00
+- b2afe59f synobsis: Nacht-Batch 13.07.2026 — Vektorindex aktualisiert, CAD-Index gefuellt
