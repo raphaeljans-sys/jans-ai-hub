@@ -428,23 +428,33 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   (RiLuMi 2022.1, S. 1-8 Primärquelle vollständig gelesen: qE50 Minergie Neubau ≤1,2/
   Erneuerung ≤1,6, Minergie-P/-A Neubau ≤0,8/Erneuerung ≤1,6; SN EN ISO 9972, ±15 %
   Messunsicherheit). Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet Themenkomplex D28.
-  Offen: RiLuMi Kap. 4-8 (Konzept-/Messdetails), CHF-Kosten Blower-Door-Test Schweiz.
+  **Kap. 4-8 vollständig nachgezogen ✓ 2026-07-13 (Run 55)** via curl-Download + pdftotext (51 S.
+  Volltext): Luftdichtheitskonzept-Pflichten, Messzonen-Stichprobenlogik, objektspezifischer
+  Grenzwert bei Erweiterungen, Messbericht-Pflichtangaben — plus Zusatzfund **SIA 180:2014
+  selbst setzt Luftdichtheits-Grenzwerte für JEDES Gebäude** (nicht nur Minergie): Neubau
+  2,4/1,6 m³/(h·m²) natürlich/mechanisch belüftet, Umbau 3,6/2,4. Status established. Löst den
+  Run-54-Prioritätspunkt 1 vollständig; offen bleibt nur CHF-Kosten Blower-Door-Test CH (reines
+  Marktthema, in dieser Quelle nicht enthalten).
 - [x] **E42** **Fernwärme-Anschlusspflicht Kt./Stadt Zürich — § 295 PBG** belegt ✓ 2026-07-13
   (Run 54) → `[[fernwaerme-anschlusspflicht-zh]]`, FAQ **F64** neu (keine generelle Pflicht,
   aber Verfügungsmöglichkeit bei ≥70 % Abwärme/erneuerbar + Gleichwertigkeit, kommunale
   Energieplanung als Grundlage, Stadt Zürich 8-Jahres-Übergangsfrist Bestandsheizungen).
-  Status emerging — **§ 295 Abs. 1-3 PBG-Wortlaut nicht direkt aus zhlex.zh.ch gelesen**
-  (Web-Fetch lieferte nur Navigationsseite), nur zwei übereinstimmende Sekundärquellen. Vor
-  einer rechtsverbindlichen Aussage im Einzelfall den Originaltext verifizieren (→ Skill
-  `baurecht`, evtl. PDF-Direktdownload der Gesetzessammlung in einem Folgelauf versuchen).
-  Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet Themenkomplex D29.
+  **Wortlaut Abs. 1+2 direkt verifiziert ✓ 2026-07-13 (Run 55)** via ortsplanung.ch (per curl
+  gegengelesen, kein WebFetch-Paraphrase): § 295 PBG hat nur **zwei** Absätze (Run-54-Annahme
+  von drei Absätzen war falsch) — Abs. 1 allgemeine Heizzentralen-Ausrüstungspflicht, Abs. 2
+  Anschlusspflicht; der Gesetzestext selbst nennt **keine feste 70‑%-Schwelle und keine feste
+  Jahreszahl** — beide Werte stammen aus dem städtischen Vollzugs-Merkblatt, nicht aus dem PBG.
+  Status established. Löst den Run-54-Prioritätspunkt 2 vollständig (die amtliche
+  zhlex.zh.ch-PDF-Datei selbst wurde weiterhin nicht direkt geöffnet — geringes Restrisiko,
+  siehe Destillat-Vorbehalt).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F62
-  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37), MuKEn-Modul-G, LEG-
-  Branchenempfehlung UND SIA-382/1-WRG-Grenzwerte primaerquellen-/volltext-verifiziert established
-  (E38, E39, E40) — Meta-Punkt M2 ist SEIT RUN 45 (also neun Laeufen in Folge) spruchreif fuer eine
-  Entscheidung und wird hier zum neunten Mal vermerkt. Der Loop kann sie nicht selbst treffen —
-  braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht sich der
-  Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**
+  **Stand 2026-07-13 (Run 55): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F64 Vertiefungen belegt, Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G, LEG-
+  Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit UND § 295 PBG jetzt
+  primaerquellen-/volltext-verifiziert established (E38-E42) — Meta-Punkt M2 ist SEIT RUN 45
+  (also ELF Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum elften Mal
+  vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort von Raphael
+  in einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue
+  Substanz zu erzeugen.**

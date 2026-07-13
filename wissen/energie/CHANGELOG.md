@@ -2,6 +2,24 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 55: RiLuMi Kap. 4-8 + § 295 PBG Wortlaut — beide Run-54-Themen auf established
+- **Run-Report** `outputs/2026-07-13_energie-run55.md`. Kein neues Thema eröffnet, stattdessen
+  die beiden Run-54-Prioritätspunkte vollständig abgeschlossen (Primärquelle direkt via curl
+  geladen statt WebFetch-Zusammenfassung — deutlich vollständigerer Rohtext).
+- **Luftdichtheit:** RiLuMi vollständig (51 S., curl+pdftotext) statt nur S. 1-8. Neu: Konzept-
+  Pflichten je Standard/Gebäudetyp, Messzonen-Stichprobenlogik (Tabelle 7), objektspezifischer
+  Grenzwert bei Erweiterungen (Formel), Messbericht-Pflichtangaben. **Zusatzfund:** SIA 180:2014
+  selbst setzt Luftdichtheits-Grenzwerte für JEDES Gebäude (nicht nur Minergie): Neubau 2,4/1,6,
+  Umbau 3,6/2,4 m³/(h·m²) → `destillate/rilumi-minergie-luftdichtheit-n50.md` established, FAQ
+  F63 geschärft.
+- **Fernwärme-Anschlusspflicht:** § 295 PBG-Wortlaut Abs. 1+2 direkt via ortsplanung.ch verifiziert
+  (per curl gegengelesen). Ergebnis: nur **zwei** Absätze (nicht drei wie zunächst vermutet);
+  Gesetzestext selbst nennt keine feste 70‑%-Schwelle/Jahreszahl — beide stammen aus dem
+  städtischen Vollzugs-Merkblatt → `destillate/fernwaerme-anschlusspflicht-zh.md` established,
+  FAQ F64 geschärft.
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`
+  (D28/D29), `wiki/QUESTIONS.md` (E41/E42 geschlossen, E-S1-Zähler auf elf Läufe erhöht).
+
 ## 2026-07-13 — Run 54: Zwei neue Themenkomplexe — Luftdichtheit (Blower-Door/Minergie) + Fernwärme-Anschlusspflicht
 - **Run-Report** `outputs/2026-07-13_energie-run54.md`. PDF-Inventar bleibt vollständig
   abgearbeitet; statt einer weiteren Vertiefung bestehender Punkte wurden zwei bisher

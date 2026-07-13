@@ -405,8 +405,16 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Erneuerung ≤1,6 m³/(h·m²); Messnorm SN EN ISO 9972 (löst EN 13829 ab), ±15 % Gesamt-
   messunsicherheit, Konzeptpflicht schon bei Minergie-Basisstandard, Messpflicht erst ab -P/-A →
   `[[rilumi-minergie-luftdichtheit-n50]]`, FAQ **F63** neu. Neues Thema, kein Curriculum-Punkt
-  bisher vorhanden — eröffnet neuen Themenkomplex «Luftdichtheit». Offen: RiLuMi Kap. 4-8
-  (Konzept-Details, Messdurchführung, Messbericht), CHF-Kosten Blower-Door-Test.
+  bisher vorhanden — eröffnet neuen Themenkomplex «Luftdichtheit». **Kap. 4-8 vollständig
+  nachgezogen 2026-07-13 (Run 55)** via direktem curl-Download + pdftotext (51 S. Volltext statt
+  nur Bildextraktion S.1-8): Luftdichtheitskonzept-Pflichten je Standard/Gebäudetyp, Messzonen-
+  Stichprobenlogik (Tabelle 7), objektspezifischer Grenzwert bei Erweiterungen/Umnutzungen
+  (Formel), provisorische Abdichtungen (Tabelle 8), Messbericht-Pflichtangaben — UND wichtiger
+  Zusatzfund: **SIA 180:2014 selbst setzt Luftdichtheits-Grenzwerte für JEDES Gebäude**
+  (Neubau 2,4/1,6 natürlich/mechanisch belüftet, Umbau 3,6/2,4 m³/(h·m²)), unabhängig von
+  Minergie — Minergie verschärft nur die ohnehin geltende SIA-Norm. Status established, FAQ F63
+  geschärft. **Damit vollständig** (offen nur noch: CHF-Kosten Blower-Door-Test in der Schweiz —
+  fehlt in dieser Quelle vollständig, reines Marktthema).
 - **D29 (Run 54, 2026-07-13)** — «Muss ich mein Haus an einen kommunalen Fernwärme-Wärmeverbund
   anschliessen, wenn die Gemeinde einen baut?» — belegt 2026-07-13 (§ 295 Abs. 2 PBG ZH via
   Sekundärzitate ortsplanung.ch/Baurekursgericht-Praxisübersicht + Stadt-Zürich-Merkblatt direkt
@@ -414,8 +422,15 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   erneuerbar + wirtschaftlicher Gleichwertigkeit eine anfechtbare Anschlussverfügung erlassen,
   gestützt auf die kommunale Energieplanung (Wärmeversorgungsgebiete); Stadt Zürich: 8-Jahres-
   Übergangsfrist bei bestehenden fossilen Heizungen → `[[fernwaerme-anschlusspflicht-zh]]`,
-  FAQ **F64** neu. Status emerging (§-Wortlaut nicht direkt am Primärtext gelesen — offener
-  Verifikationspunkt für einen Folgelauf oder Skill `baurecht`). Neues Thema «Wärmeverbund-Recht».
+  FAQ **F64** neu. **Wortlaut § 295 Abs. 1+2 direkt verifiziert 2026-07-13 (Run 55)** via
+  ortsplanung.ch (per curl gegengelesen, keine WebFetch-Zusammenfassung): § 295 PBG hat nur
+  **zwei** Absätze (nicht drei wie zunächst vermutet) — Abs. 1 ist eine allgemeine
+  Heizzentralen-Ausrüstungspflicht bei luftverschmutzenden Brennstoffen, Abs. 2 die eigentliche
+  Anschlusspflicht; der Gesetzestext selbst nennt **keine feste 70‑%-Schwelle und keine feste
+  Jahreszahl** — beide konkreten Werte stammen aus dem städtischen Vollzugs-Merkblatt, nicht aus
+  dem PBG. Status established, FAQ F64 geschärft. Löst den Run-54-Prioritätspunkt vollständig
+  (die amtliche zhlex.zh.ch-PDF-Datei selbst wurde weiterhin nicht direkt geöffnet — geringes
+  Restrisiko, siehe Destillat).
 
 - **D27 (Run 53, 2026-07-13)** — «Welchen Wärmerückgewinnungsgrad verlangt die Norm SIA 382/1
   selbst (nicht nur Minergie), und wieviel Luft braucht ein Zimmer/eine Wohnung als schnelle

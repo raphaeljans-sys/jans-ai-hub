@@ -2159,12 +2159,15 @@ ausgewiesenen Versorgungsgebiet liegt — dann ist der Fernwärmeanschluss meist
 wirtschaftlichere Wahl, weil die Alternative (eigene fossile Heizung) absehbar ausläuft. Bei
 einem Neubau ohne Umbauarbeiten läuft das Anschlussverfahren als einfache Meldung (30 Tage
 Bearbeitungsfrist), bei einer bestehenden Baubewilligung braucht es ein vollständiges
-Baugesuch über den Kreisarchitekten.
+Baugesuch über den Kreisarchitekten. **Wortlaut jetzt verifiziert (Run 55):** § 295 PBG hat nur
+zwei Absätze — Abs. 1 ist eine allgemeine Heizzentralen-Ausrüstungspflicht, die eigentliche
+Anschlusspflicht steht in Abs. 2 und nennt selbst **keine feste 70‑%-Schwelle und keine feste
+Fristdauer** («innert angemessener Frist») — die konkreten Zahlen 70 % und 8 Jahre stammen aus
+dem städtischen Vollzugs-Merkblatt, nicht aus dem Gesetzestext.
 
-**Quelle:** § 295 Abs. 2 PBG ZH (Sekundärzitate ortsplanung.ch/Baurekursgericht-Praxis) +
-Merkblatt Stadt Zürich «Fernwärmeanschluss» → `[[fernwaerme-anschlusspflicht-zh]]`. Status
-emerging (§-Wortlaut nicht direkt am Primärtext gelesen, vor Rechtsfall verifizieren →
-Skill `baurecht`).
+**Quelle:** § 295 PBG ZH, Wortlaut Abs. 1+2 direkt verifiziert (ortsplanung.ch, per curl
+gegengelesen, Run 55) + Merkblatt Stadt Zürich «Fernwärmeanschluss» →
+`[[fernwaerme-anschlusspflicht-zh]]`. Status established.
 
 ---
 
@@ -2177,6 +2180,17 @@ Skill `baurecht`).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
+
+> **FAQ-Stand 2026-07-13 (Run 55):** F63 und F64 auf **established** gehoben — beide
+> Run-54-Prioritätspunkte gelöst. RiLuMi Kap. 4-8 vollständig via curl+pdftotext gelesen (51 S.
+> Volltext statt nur S. 1-8 Bildextraktion), dabei Zusatzfund: **SIA 180:2014 selbst** setzt
+> Luftdichtheits-Grenzwerte für JEDES Gebäude, nicht nur für Minergie-zertifizierte (Neubau
+> 2,4/1,6 m³/(h·m²) natürlich/mechanisch belüftet, Umbau 3,6/2,4). § 295 PBG-Wortlaut (Abs. 1+2,
+> es sind nur zwei, nicht drei wie zunächst vermutet) direkt via ortsplanung.ch verifiziert (per
+> curl gegengelesen statt WebFetch-Paraphrase) — Gesetzestext selbst nennt keine feste
+> 70‑%-Schwelle/Jahreszahl, beide stammen aus dem städtischen Vollzugs-Merkblatt. Meta-Punkt M2
+> (eigenes Skill `energie`?) bleibt zum elften Mal in Folge spruchreif für eine Entscheidung
+> Raphaels (siehe `wiki/QUESTIONS.md`, E-S1).
 
 > **FAQ-Stand 2026-07-13 (Run 54):** zwei neue Fragen zu bisher unbelegten Themen (nicht nur
 > Vertiefung bestehender Punkte) — **F63 ‹Blower-Door-Test bei Minergie Pflicht?›**

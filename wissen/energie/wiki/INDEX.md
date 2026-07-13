@@ -43,14 +43,17 @@ Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 - [[schallschutz-sia181]] — Schallschutz SIA 181:2020: Anforderungswerte Luft-/Tritt-/Haustechnik-/Aussenlaerm je Empfindlichkeit, erhoehte Anforderung Pflicht bei EFH/STWEG, **Bauwert≠Laborwert: Flanken-Mechanik R_w↔R'_w / K_P+K_F / 12 Nebenwege EN 12354 / C-Werte** (Lignum/BFH 2008) · **established** (FAQ F25)
 - [[lignum-schallschutz-holzbau-flankenuebertragung]] — Flanken-/Nachweis-Mechanik Holzbau (Lignum/BFH-AHB 2008): R_w↔R'_w, K_P/K_F, 12 Nebenwege EN 12354, C/C_tr, Holzbau-Flankenkennwerte-Luecke → Prognose+Reserve+elastische Stoesse · **established** (neu, Destillat) ⚠ SIA 181:2006
 - **Schadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP, Kt. ZH) — bisher FAQ F23 + Destillat `[[gebaeudeschadstoffe-checkliste-zh]]`; eigener Themenartikel Kandidat
-- **Luftdichtheit Gebaeudehuelle / Blower-Door-Test** (neu, Run 54) — Grenzwerte qE50 Minergie/-P/-A
-  Neubau vs. Erneuerung, Messnorm SN EN ISO 9972, Konzeptpflicht schon bei Minergie-Basisstandard →
-  `[[rilumi-minergie-luftdichtheit-n50]]` (FAQ F63) · **established** (Primärquelle-Ausschnitt)
-- **Fernwaerme-Anschlusspflicht Kt./Stadt Zuerich** (neu, Run 54) — § 295 Abs. 2 PBG: keine generelle
-  Pflicht, aber Verfuegungsmoeglichkeit bei ≥70 % erneuerbar/Abwaerme, Stadt Zuerich 8-Jahres-
-  Uebergangsfrist bei fossilen Bestandsheizungen → `[[fernwaerme-anschlusspflicht-zh]]` (FAQ F64) ·
-  **emerging** (§-Wortlaut nur sekundaerquellen-belegt, vor Rechtsfall verifizieren → Skill `baurecht`)
-- _(im Aufbau: konkrete Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku), kg-CO₂-Bauteilwerte KBOB v8.0/SIA-2032-Vorprojektwerte, Schadstoff-Themenartikel, numerische g-/Uf-Werte je Fenstertyp/Rahmen, Klassengrenzen A–G Fenster-Energieetikette (Uw,eq-Schwellen, PDF 7731 bildbasiert), GEAK-Klassengrenzen kWh/m²·a je Klasse (Produktreglement 2026), Luftdichtheitskonzept-Details RiLuMi Kap. 4-8, § 295 PBG Primärwortlaut)_
+- **Luftdichtheit Gebaeudehuelle / Blower-Door-Test** (Run 54+55) — Grenzwerte qE50 Minergie/-P/-A
+  Neubau vs. Erneuerung, Messnorm SN EN ISO 9972, Konzeptpflicht schon bei Minergie-Basisstandard,
+  Messzonen-Stichprobenlogik, objektspezifischer Grenzwert bei Erweiterungen, **SIA 180:2014 setzt
+  eigene Grenzwerte fuer JEDES Gebaeude (nicht nur Minergie)** →
+  `[[rilumi-minergie-luftdichtheit-n50]]` (FAQ F63) · **established** (Primärquelle vollständig, Run 55)
+- **Fernwaerme-Anschlusspflicht Kt./Stadt Zuerich** (Run 54+55) — § 295 PBG (nur 2 Absätze, Wortlaut
+  verifiziert): keine generelle Pflicht, aber Verfuegungsmoeglichkeit bei ≥70 % erneuerbar/Abwaerme
+  (Wert aus Vollzugs-Merkblatt, nicht im Gesetzestext), Stadt Zuerich 8-Jahres-Uebergangsfrist bei
+  fossilen Bestandsheizungen → `[[fernwaerme-anschlusspflicht-zh]]` (FAQ F64) ·
+  **established** (§-Wortlaut Abs. 1+2 direkt verifiziert, Run 55)
+- _(im Aufbau: konkrete Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku), kg-CO₂-Bauteilwerte KBOB v8.0/SIA-2032-Vorprojektwerte, Schadstoff-Themenartikel, numerische g-/Uf-Werte je Fenstertyp/Rahmen, Klassengrenzen A–G Fenster-Energieetikette (Uw,eq-Schwellen, PDF 7731 bildbasiert), GEAK-Klassengrenzen kWh/m²·a je Klasse (Produktreglement 2026), CHF-Kosten Blower-Door-Test CH, amtliche zhlex.zh.ch-PDF § 295 PBG)_
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

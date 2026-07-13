@@ -17,13 +17,29 @@ und zu wirtschaftlich/technisch gleichwertigen Bedingungen wie eine konventionel
 anbietet (§ 295 Abs. 2 PBG); bestehende fossile Heizungen in der Stadt Zürich müssen dann
 **spätestens innert 8 Jahren** umgestellt werden.
 
-## Rechtsgrundlage § 295 Abs. 2 PBG ZH
-Mit der Energiegesetz-Revision vom 25.06.1995 wurde in § 295 Abs. 2 PBG die gesetzliche
-Grundlage für eine **Anschlusspflicht an Fernwärme** geschaffen: Nutzt eine öffentliche
-Fernwärmeversorgung **lokale Abwärme oder erneuerbare Energien** und bietet sie Wärme zu
-**technisch und wirtschaftlich gleichwertigen Bedingungen** wie konventionelle Anlagen an, kann
-der Kanton oder die Gemeinde Grundeigentümer verpflichten, ihr Gebäude **innert angemessener
-Frist** an das Verteilnetz anzuschliessen, und ein Durchleitungsrecht einräumen.
+## Rechtsgrundlage § 295 PBG ZH — Wortlaut (Abs. 1 + 2, vollständig, direkt verifiziert)
+§ 295 PBG hat **nur zwei Absätze** (nicht drei, wie in einem früheren Lauf vermutet). Wortlaut,
+via ortsplanung.ch direkt aus der Gesetzessammlung reproduziert und per curl gegengelesen:
+
+> **Abs. 1:** «Werden Heizungen mit Brennstoffen betrieben, die Luftverschmutzungen bewirken, so
+> sind die Überbauungen mit standortgerechten Heizzentralen auszurüsten, die auch Abwärme und
+> Energie aus erneuerbaren Quellen nutzen können.»
+>
+> **Abs. 2:** «Wenn eine öffentliche Fernwärmeversorgung lokale Abwärme oder erneuerbare
+> Energien nutzt und die Wärme zu technisch und wirtschaftlich gleichwertigen Bedingungen wie
+> aus konventionellen Anlagen anbietet, kann der Staat oder die Gemeinde Grundeigentümer
+> verpflichten, ihr Gebäude innert angemessener Frist an das Leitungsnetz anzuschliessen und
+> Durchleitungsrechte zu gewähren.»
+
+**Bauherren-relevante Präzisierung durch den Wortlaut:** Abs. 1 ist eine **allgemeine
+Ausrüstungspflicht** für Heizzentralen bei Überbauungen mit luftverschmutzenden Brennstoffen
+(nicht direkt eine Anschlusspflicht) — die eigentliche **Anschlusspflicht an Fernwärme** steht
+ausschliesslich in Abs. 2 und ist an zwei kumulative Bedingungen geknüpft: (1) die
+Fernwärmeversorgung nutzt lokale Abwärme/erneuerbare Energie, UND (2) sie bietet die Wärme zu
+technisch/wirtschaftlich **gleichwertigen** Bedingungen wie eine konventionelle Anlage an. Der
+Gesetzestext selbst nennt **keine feste 70‑%-Schwelle** und **keine feste Fristdauer** («innert
+angemessener Frist») — diese konkreten Zahlen (70 %, 8 Jahre) stammen aus dem städtischen
+Vollzugs-Merkblatt, nicht aus dem PBG-Wortlaut selbst (siehe unten).
 
 Wichtige Differenzierung (Baurekursgericht-Praxis, sekundär zitiert): § 295 Abs. 2 PBG regelt
 die Anschlusspflicht für **Wärmebezüger**, nicht für Grundeigentümer, die selbst Abwärme
@@ -64,12 +80,15 @@ Anfang an einzuplanen (Verfahren einfacher, keine Übergangsfrist nötig) als be
 bestehenden fossilen Heizung, wo die 8‑Jahres-Frist ab Verfügung läuft.
 
 ## Offen / Einschränkungen dieses Destillats
-- Der **vollständige Wortlaut** von § 295 Abs. 1-3 PBG konnte nicht direkt aus der amtlichen
-  Gesetzessammlung (zhlex.zh.ch) gelesen werden (Web-Fetch lieferte nur eine Navigationsseite);
-  die obigen Aussagen stammen aus zwei übereinstimmenden **Sekundärquellen** (ortsplanung.ch,
-  baurekursgericht-zh.ch-Praxisübersicht), nicht aus dem Primärtext selbst — vor einer
-  rechtsverbindlichen Aussage im Einzelfall den Originaltext auf zhlex.zh.ch verifizieren
-  (→ Skill `baurecht`).
+- Der Wortlaut von § 295 Abs. 1+2 PBG ist jetzt direkt verifiziert (siehe oben); die **amtliche
+  PDF-Fassung auf zhlex.zh.ch selbst** wurde weiterhin nicht direkt geöffnet (Web-Fetch liefert
+  dort nur eine Navigationsseite, keine Paragraphen-Volltexte) — ortsplanung.ch reproduziert den
+  Gesetzestext zwar wortgetreu erkennbar (Formatierungsartefakte wie Weichtrennzeichen im
+  Rohtext deuten auf einen direkten Copy-Export aus der amtlichen Quelle hin), ist aber technisch
+  gesehen weiterhin eine Drittquelle, keine zhlex.zh.ch-Originaldatei. Für eine
+  rechtsverbindliche Aussage im Einzelfall bleibt eine Verifikation über eine amtliche PDF-Fassung
+  oder Skill `baurecht` empfehlenswert, das Risiko einer Textabweichung ist nach dieser
+  Prüfung aber gering.
 - Konkrete Rechtsprechung des Baurekursgerichts zu strittigen Anschlussfällen nicht ausgewertet.
 - Regelung anderer Zürcher Gemeinden ausserhalb der Stadt Zürich (eigene Wärmeverbünde,
   z.B. Winterthur) nicht recherchiert.
