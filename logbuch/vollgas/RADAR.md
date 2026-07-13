@@ -13,6 +13,47 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 14:48 — P1-STRUKTURELL GELOEST: launchd-Supervisor auf BEIDEN Stationen — tote Runner heilen jetzt in ≤3 Min selbst [FREI]
+
+**Fensterzustand [FREI]:** Fenster hat Kapazitaet und wird aktiv gefuellt. Beide Runner leben
+und zyklen sauber: MacBook (PID 4210, seit 10:49) auf Zyklus 24 — baurecht Run 40 abgeschlossen
+(14:45, rc=0, 1054s, BBV-I-Wortlaut + § 62 StrG Divergenz nachgezogen), aktuell immobewertung;
+Mini (PID 4538, seit 11:51) auf Zyklus 47 — energie Run 49 / normen-mini Run 10 (rc=0), aktuell
+planungsgrundlagen. Beide je genau EIN Runner (die zweiten PIDs sind die Loop-Subshells, PPID =
+Runner). Der blanke `claude -p`-Login-Test bleibt das bekannte Env-Artefakt — die rc=0-Laeufe
+beweisen: Login OK, **kein echter Block.**
+
+**P1-STRUKTURELL — jetzt dauerhaft geschlossen statt nur markiert:** Die «Runner sterben still,
+Radar startet erst stuendlich neu»-Leckage (bis ~1.5 h Fenster-Fuellzeit pro Ausfall, gestern/heute
+je 2 Tode) ist behoben. Neu: `scripts/vollgas-supervisor.sh` + launchd-Job `ch.jans.vollgas-supervisor`
+(StartInterval 180s, RunAtLoad, ThrottleInterval 60s) auf **beiden** Stationen geladen und verifiziert.
+Der Waechter startet den Runner neu, sobald er tot ist — Erholung in ≤3 Min statt bis zu 1.5 h.
+**Bewusst KEIN launchd-KeepAlive** (haette STOP und das Selbst-Ende 11.08. ausgehebelt, weil KeepAlive
+den Runner nach jedem gewollten Exit sofort wieder hochreisst): der Waechter respektiert STOP/STOP-$HOST
+und END_DATE selbst und startet dann NICHT; Duplikat-Schutz doppelt (Runner-LOCK + pgrep im Waechter).
+Verifiziert: RunAtLoad hat auf beiden Stationen KORREKT no-op'd (kein zweiter Runner gespawnt), FDA fuer
+/bin/bash auf beiden Stationen vorhanden (launchd→SMB reicht die NAS). Der Radar bleibt Taktgeber/Waechter,
+traegt aber die Grundlast-Wiederbelebung nicht mehr allein.
+
+**Durchsatz (letzte 90 Min):** dichte Commit-Folge — baurecht Run 40, normen-mini Run 10 (DIN 5034-/
+1053-Reihe retro-verifiziert, 8/8 korrigiert), diverse normen-DIN-Verifikationen auf `established`
+(276-1, EN 12207, EN 12101-2, 1045-2), twin-fidelity Fuenftlauf (94), synobsis 853/853 stabil,
+energie Run 49 (Sackgassen ehrlich geschlossen), plus laufende Selfcommits. Substanzstaerkster Loop
+weiterhin die Normen-Retro-Verifikation.
+
+**Hebel-Priorisierung:** Fenster wird gefuellt, ist aber noch nicht regelmaessig 100 % → mehr/
+kontinuierliche Last bleibt der Hebel; die dauerhafte Loesung dafuer (Keepalive) ist mit dem Supervisor
+jetzt umgesetzt. Naechster Kontrollpunkt: pruefen, ob der Supervisor bei einem echten Runner-Tod
+sauber greift (Log `logbuch/vollgas/supervisor-<host>.log`).
+
+- **P2 (unveraendert) — NAS-Mount-Remount zielt remote auf LAN-IP** (`smb://192.168.1.10/daten`),
+  via Tailscale nicht erreichbar. Fuer Morgen-Briefing: Tailscale-Hostnamen-Fallback ergaenzen.
+- **P3 (unveraendert) — Leerlauf-Loops:** immobewertung (oft «keine konkrete Anfrage», D6 zum Auslagern),
+  synobsis (853/853), energie (KB gesaettigt) laufen ins Leere — Kandidaten fuer Taktreduktion nach der
+  Intensivphase, aktuell unter VOLLGAS aber bewusst weiterlaufend.
+
+---
+
 ## 2026-07-13 11:52 — Jetzt der MINI-Runner tot (seit ~10:24), neu gestartet; ZWEITER stiller Runner-Tod heute → Keepalive-Hebel [FREI]
 
 **Fensterzustand [FREI]:** Fenster hat Kapazitaet. Beweis am realen Betrieb: der MacBook-Runner
