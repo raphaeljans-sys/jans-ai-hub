@@ -1678,12 +1678,19 @@ insgesamt rund **90 m³/h**. Minergie verlangt zusätzlich eine Wärmerückgewin
 **Fachlich:** SIA 382/5 ersetzt die Basisnorm SIA 382/1 für Wohnbauten **nicht** — sie ergänzt sie
 um die Gerätekategorie WLA (Wohnraumlüftungsanlage bis 250 m³/h) und raumweise
 Auslegungswerte. Beispielrechnung 4½-Zi-Wohnung: Zuluft 3 Zimmer × 30 = 90 m³/h; Abluft
-WC/Dusche + Bad = 60 m³/h; massgebend ist der höhere Wert.
+WC/Dusche + Bad = 60 m³/h; massgebend ist der höhere Wert. **Wichtig fürs Gerät:** Die Norm
+SIA 382/1:2025 selbst verlangt als gesetzliches **Minimum nur 73 % Temperatur-WRG** (70 % bei
+Kreislaufverbundsystemen) — Minergie mit ≥80 % ist die freiwillig strengere Messlatte, ein Gerät
+das nur die Norm knapp erfüllt, reicht für Minergie NICHT. Für die Büro-/Schulraumlüftung (nicht
+Wohnen) gibt die Norm zusätzlich Aussenluftmengen pro Person vor: Standardfall 29 m³/h/Person
+(Kategorie IDA 2), ohne Fensterlüftungs-Option strenger 57 m³/h/Person (IDA 1).
 
-**Quelle:** suissetec-Merkblätter SIA 382/1 (Nov. 2025) + SIA 382/5 (Juni 2025), Minergie-Modul
-Komfortlüftung v2.0 (14.09.2023) → `[[komfortlueftung-wrg-sia382-luftwechsel]]`. Adversarial
-verifiziert 2026-07-12 (Korrektur: Normen-Geltungsbereich und Minergie-Zitat waren in der ersten
-Fassung falsch/veraltet).
+**Quelle:** suissetec-Merkblätter SIA 382/1 (Nov. 2025, **2026-07-13 vollständig lokal gelesen,
+12 S., Tab. 1-3**) + SIA 382/5 (Juni 2025), Minergie-Modul Komfortlüftung v2.0 (14.09.2023) →
+`[[komfortlueftung-wrg-sia382-luftwechsel]]`. Adversarial verifiziert 2026-07-12 (Korrektur:
+Normen-Geltungsbereich und Minergie-Zitat waren in der ersten Fassung falsch/veraltet); Run 53
+(2026-07-13) ergänzt die offiziellen Norm-Grenzwerte selbst (vorher nur Minergie-Anforderung
+bekannt).
 
 ---
 
@@ -2084,6 +2091,28 @@ Tages-Anzeiger, pv magazine) → `[[zh-energiegesetz-revision-solarpflicht-2026]
 **Offen:** die daraus abgeleitete Kantonsrats-Geschäftsnummer/der Beratungsstand (kantonsrat.zh.ch
 ist als JS-Single-Page-App per WebFetch nicht auslesbar, zwei Versuche 2026-07-13 erfolglos),
 exakter Gesetzeswortlaut, Inkrafttretensdatum.
+
+---
+
+## F62 — «Als grobe Faustregel: wieviel Luft braucht meine Wohnung wirklich, und welcher WRG-Typ reicht?»
+
+**Kurz:** Als schnelle Faustregel (BFE-Dimensionierungshilfe): **30 m³/h Zuluft pro Wohn-/Schlaf-/
+Arbeitszimmer**; Abluft **Küche 40 m³/h, Bad/Dusche 40 m³/h, WC 20 m³/h**. Beim
+Wärmetauscher-Typ liefern Gegenstrom- und Rotationswärmetauscher rund **80 % WRG**, ein
+einfacher Kreuzstrom-Typ nur **50-60 %** — Letzterer erfüllt zwar knapp die Norm (73 %-Minimum),
+aber nicht Minergie.
+
+**Fachlich:** Diese BFE-Faustregel stützt sich noch auf das 2021 zurückgezogene Merkblatt SIA
+2023 und weicht bei Küche/Bad leicht von der heute geltenden SIA-382/5-Tabelle ab (30/30/20 m³/h,
+siehe F43) — beide Quellen bestätigen aber dieselbe 30-m³/h-Zuluft-Faustregel und dieselbe
+Grössenordnung. Praktisch: bei ungleichem Zu-/Abluft-Total wird zuerst der Küchenwert erhöht
+(bis ~60 m³/h), damit beide Seiten gleich gross werden (sonst Unter-/Überdruck-Risiko,
+Radon/Feuerungsstörung). Schallgrenze in Wohnräumen: 25 dBA. Türspalt als kostenloser
+Überström-Durchlass: 7 mm Spalthöhe genügt für ~30 m³/h.
+
+**Quelle:** BFE-Publikation «Komfortlüftung — Dimensionierungshilfe, Teil 1: Allgemein»
+(pubdb.bfe.admin.ch, 9 S., 2026-07-13 vollständig gelesen) → `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`.
+Status emerging (Faustregel-Charakter, Grundlage SIA 2023 formell zurückgezogen).
 
 ---
 

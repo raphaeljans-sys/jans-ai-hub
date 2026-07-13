@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 53: Komfortlüftung-WRG-Grenzwerte der Norm SIA 382/1 selbst + BFE-Dimensionierungshilfe
+- **Run-Report** `outputs/2026-07-13_energie-run53.md`. PDF-Inventar weiterhin vollständig
+  abgearbeitet; Block 1 lief über gezielte Web-Recherche zum verbleibenden Run-52-Prioritätspunkt
+  «WRG-Grad zentraler Anlagen numerisch».
+- **suissetec-Merkblatt SIA 382/1 (Nov. 2025) diesmal vollständig lokal gelesen** (per curl
+  heruntergeladen + pdftotext, 12 S., vorher nur eine Web-Fetch-Zusammenfassung ohne
+  Tabellenwerte): offizielle Norm-Grenzwerte für die Wärmerückgewinnung (Tab. 2, Ziff. 5.7.3.1)
+  — Temperatur-Bruttoeffizienz **73 %** (70 % bei Kreislaufverbundsystemen), Feuchte-
+  Bruttoeffizienz **50 %** (Zielwert 60 %) — sowie IDA-Kategorien für den Aussenluft-
+  Volumenstrom pro Person (Tab. 1: 29/57/18 m³/h) und Raumluftfeuchte-Grenzen (30-62 %, Ziff.
+  2.2.6.1) → `destillate/komfortlueftung-wrg-sia382-luftwechsel.md` von emerging auf
+  **established** gehoben.
+- **Neue Quelle: BFE «Komfortlüftung — Dimensionierungshilfe, Teil 1: Allgemein»**
+  (pubdb.bfe.admin.ch, 9 S., vollständig gelesen) — praxisnahe Faustregeln (Zuluft 30 m³/h je
+  Zimmer, Abluft Küche/Bad 40 + WC 20 m³/h, WRG je Wärmetauscher-Bautyp Gegenstrom/Rotation
+  ~80 % vs. Kreuzstrom 50-60 %, Schallgrenze 25 dBA) mit explizitem Hinweis, dass ihre Grundlage
+  (SIA-Merkblatt 2023) 2021 zurückgezogen wurde → neues Destillat
+  `destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md`.
+- **FAQ:** F43 geschärft (Norm-Minimum vs. Minergie-Anforderung, IDA-Aussenluftmengen), F62 neu
+  (Faustregel-Frage). Themenartikel `wiki/komfortlueftung.md` ergänzt.
+- **Uf-Werte SZFF** (Run-52-Zweitkandidat) dritter Suchversuch erneut ergebnislos — als
+  QUESTIONS-Eintrag E40 dokumentiert, kein neuer Fund.
+- **Register:** `destillate/INDEX.md`, `training/pdf-inventar.md` (2 neue Web-Quellen-Zeilen),
+  `training/curriculum.md` (D10 geschlossen, D27 neu), `wiki/QUESTIONS.md` (E40 neu, M2-Zähler
+  auf neuntes Mal erhöht).
+
 ## 2026-07-13 — Run 52: VSE-Branchenempfehlung LEG (BD-LEG) primärquellen-verifiziert
 - **Run-Report** `outputs/2026-07-13_energie-run52.md`. PDF-Inventar weiterhin vollständig
   abgearbeitet; Block 1 lief über gezielte Web-Recherche zu einem der drei Run-51-Kandidaten.

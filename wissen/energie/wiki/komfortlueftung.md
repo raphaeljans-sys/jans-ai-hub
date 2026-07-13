@@ -1,8 +1,8 @@
 ---
 title: Komfortlüftung / kontrollierte Wohnungslüftung — frische Luft ohne Wärmeverlust
 status: established
-last_updated: 2026-07-12
-sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md]
+last_updated: 2026-07-13
+sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md]
 links: [[INDEX]] [[en-lueftung-kuehlung-zh]] [[minergie-standards]] [[pv-eigenverbrauch-zev]] [[gebaeudeprogramm-bund-hfm-2015]] [[sommerlicher-waermeschutz]] [[BAUHERREN-FAQ]]
 ---
 
@@ -16,7 +16,11 @@ und schadstoffarme Luft** — beides ohne ständiges Fensteröffnen.
 ## Kernbotschaft
 - **Energie:** Komfortlüftung mit WRG → **Wärmeverluste über zwei Drittel tiefer als Handlüftung**
   (EnergieSchweiz). Kanton ZH verlangt im Lüftungsnachweis **WRG ≥ 70 %** (→ `[[en-lueftung-kuehlung-zh]]`);
-  dezentrale Wand-Module erreichen **75–90 %**.
+  dezentrale Wand-Module erreichen **75–90 %**. Die Norm SIA 382/1:2025 selbst setzt als
+  Minimum **73 % Temperatur-WRG** (70 % bei Kreislaufverbundsystemen) — Minergie verlangt mit
+  ≥80 %/≥60 % deutlich mehr; Wärmetauscher-Bautyp entscheidet: Gegenstrom-/Rotationswärme-
+  tauscher ~80 %, einfacher Kreuzstrom-Typ nur 50–60 % (→ `[[komfortlueftung-wrg-sia382-luftwechsel]]`,
+  `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`).
 - **Komfort/Gesundheit:** stetig gute Luftqualität (CO₂ unter ~1'000 ppm), **Schimmelprophylaxe**,
   **Pollen-/Staubfilter**, **Lärmschutz** (Frischluft bei geschlossenem Fenster).
 - **Zwei Mythen widerlegt:** Fenster **jederzeit öffnbar**; trockene Winterluft ist ein **Kälte-

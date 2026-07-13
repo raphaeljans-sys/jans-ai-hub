@@ -229,9 +229,14 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Minergie fordert kontrollierte Lufterneuerung, schreibt **kein System** vor; Fensterlueftung genuegt nicht.
   Filterwechsel ~1–2×/J, EFH-Invest ~CHF 12–25k (Markt-Richtwert), Gebaeudeprogramm foerdert bei Sanierung
   → `[[komfortlueftung-wohnungslueftung-ch]]`, Themenartikel `[[komfortlueftung]]` (FAQ **F37** neu).
-  Offen: WRG-Grad zentraler Anlagen numerisch, SIA-382/1-Auslegungsluftwechsel, Filterklassen/Ventilator-
-  Strom (SIA-Merkblatt 2023 / BFE-PDF bildbasiert), komfortable rel. Raumluftfeuchte % (SIA 180), CHF aus
-  neutraler Quelle.
+  **WRG-Grad zentraler Anlagen numerisch + SIA-382/1-Auslegungsluftwechsel belegt 2026-07-13 (Run 53)**
+  via vollständig gelesenem suissetec-Merkblatt SIA 382/1 (12 S.): offizielle Norm-Grenzwerte Temperatur-
+  Bruttoeffizienz 73 % (70 % KVS), Feuchte-Bruttoeffizienz 50 %/Zielwert 60 %, IDA-Kategorien
+  Aussenluft-Volumenstrom 29/57/18 m³/h pro Person, Raumluftfeuchte-Grenzen 30-62 % →
+  `[[komfortlueftung-wrg-sia382-luftwechsel]]` auf established gehoben, FAQ F43 geschärft. Ergänzend
+  BFE-Dimensionierungshilfe (Faustregeln Zuluft 30 m³/h/Zimmer, Abluft Küche/Bad 40+WC 20 m³/h, WRG je
+  Bautyp Gegenstrom/Rotation ~80 % vs. Kreuzstrom 50-60 %) → `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`,
+  FAQ **F62** neu. Damit D10 vollständig soweit ohne kostenpflichtigen Normvolltext erreichbar.
 - [x] D11 **Batteriespeicher (Heimspeicher) zur PV — «lohnt sich das?»**
   — belegt 2026-07-10 (Swissolar «Batteriespeicher» + EnergieSchweiz «Batterien», trianguliert mit Zogg 2023).
   Eigenverbrauch **~30 % → ~50 % (EMS + WP/E-Auto) → bis 70–90 % (Batterie)**, Autarkie 50–80 %;
@@ -391,3 +396,21 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   primärquellen-verifiziert** gehoben, FAQ F33 + Themenartikel `[[pv-eigenverbrauch-zev]]` geschärft.
   Löst den seit D6/D24/E37 offen geführten Prioritätspunkt «VSE-Branchenempfehlung LEG seitengenau»
   vollständig ab.
+
+- **D27 (Run 53, 2026-07-13)** — «Welchen Wärmerückgewinnungsgrad verlangt die Norm SIA 382/1
+  selbst (nicht nur Minergie), und wieviel Luft braucht ein Zimmer/eine Wohnung als schnelle
+  Faustregel?» — belegt 2026-07-13. Das suissetec-Merkblatt zur Norm SIA 382/1:2025 wurde
+  diesmal per curl direkt heruntergeladen und **vollständig lokal per pdftotext gelesen** (12 S.,
+  vorher nur eine Web-Fetch-Zusammenfassung ohne Tabellenwerte). Ergebnis: die Norm selbst setzt
+  als gesetzliches Minimum nur **73 % Temperatur-Bruttoeffizienz** (70 % bei
+  Kreislaufverbundsystemen), **50 % Feuchte-Bruttoeffizienz** (Zielwert 60 %) — deutlich
+  weniger streng als die freiwillige Minergie-Anforderung (≥80 %/≥60 %); zusätzlich IDA-
+  Kategorien für Aussenluft-Volumenstrom pro Person (29/57/18 m³/h) und Raumluftfeuchte-Grenzen
+  30-62 % → `[[komfortlueftung-wrg-sia382-luftwechsel]]` von emerging auf **established**
+  gehoben, FAQ F43 geschärft. Ergänzend wurde die BFE-Dimensionierungshilfe (praxisnahe
+  Faustregeln, Zuluft 30 m³/h/Zimmer, Abluft Küche/Bad 40 + WC 20 m³/h, WRG je
+  Wärmetauscher-Bautyp 50-80 %) gefunden und destilliert, mit explizitem Hinweis, dass ihre
+  Grundlage (SIA-Merkblatt 2023) 2021 zurückgezogen wurde → `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`,
+  FAQ **F62** neu. Löst den Run-51/Run-52-Prioritätspunkt «WRG-Grad zentraler Anlagen numerisch,
+  SIA-382/1-Auslegungsluftwechsel» aus D10 vollständig ab (nur der Uf-Werte-SZFF-Kandidat blieb
+  erneut ergebnislos — dritter erfolgloser Versuch, siehe QUESTIONS E40).

@@ -413,13 +413,22 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   seit D6/D24/E37 offen gefuehrten Punkt «VSE-Branchenempfehlung LEG seitengenau» vollstaendig ab.
   Die amtliche Rp/kWh-Bandbreite bleibt bewusst offen — die Primaerquelle bestaetigt ausdruecklich
   freie Preisbildung ohne regulatorische Vorgabe, keine Recherchelücke.
+- [x] **E40** **WRG-Grad SIA 382/1 selbst + Auslegungs-Luftvolumenstroeme** belegt ✓ 2026-07-13
+  (Run 53) → `[[komfortlueftung-wrg-sia382-luftwechsel]]` established (Norm-Minimum 73 %/70 % KVS
+  Temperatur, 50-60 % Feuchte, IDA-Kategorien 29/57/18 m³/h/Person, Raumluftfeuchte 30-62 %);
+  ergaenzend BFE-Faustregel-Destillat neu → `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`,
+  FAQ F43 geschaerft + F62 neu. Loest den Run-51/52-Punkt "WRG-Grad zentraler Anlagen numerisch"
+  aus D10. **Uf-Werte-SZFF-Kandidat (Run-52-Prioritaet) erneut ergebnislos** — dritter erfolgloser
+  Suchversuch ("SZFF Uf-Wert Rahmenmaterial Tabelle"), liefert nur generische DE-Fensterportale,
+  keine SZFF-Tabelle auffindbar; bleibt offen fuer einen vierten Versuch mit anderen Suchbegriffen
+  oder als Sackgasse zu dokumentieren, falls ein naechster Versuch ebenfalls scheitert.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F59
-  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37), MuKEn-Modul-G UND
-  LEG-Branchenempfehlung primaerquellen-verifiziert established (E38, E39) — Meta-Punkt M2 ist SEIT
-  RUN 45 (also acht Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum achten Mal
-  vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort von Raphael in
-  einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu
-  erzeugen.**
+  **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F62
+  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37), MuKEn-Modul-G, LEG-
+  Branchenempfehlung UND SIA-382/1-WRG-Grenzwerte primaerquellen-/volltext-verifiziert established
+  (E38, E39, E40) — Meta-Punkt M2 ist SEIT RUN 45 (also neun Laeufen in Folge) spruchreif fuer eine
+  Entscheidung und wird hier zum neunten Mal vermerkt. Der Loop kann sie nicht selbst treffen —
+  braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht sich der
+  Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**
