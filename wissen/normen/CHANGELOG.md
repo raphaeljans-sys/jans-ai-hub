@@ -1,3 +1,19 @@
+## 2026-07-13 — Mac Mini Mini-Run 14: Retro-Verifikation DIN-Batch (6 Destillate, 6 Parallel-Agenten)
+- DIN/VSS/RAL-Basisinventar ist seit Mini-Run 5/12 vollständig; Deepening-Stufe (b) Retro-
+  Verifikation fortgesetzt (Empfehlung Run 13) für sechs bislang unverifizierte, JANS-relevante
+  Destillate: **din-1946-4-2008** (Healthcare-RLT), **din-4102-1-1998** (Brandverhalten
+  Baustoffe), **din-18232-2-2007** (RWA-Bemessung), **din-1961-2010** (VOB/B), **din-en-1627-2011**
+  (Einbruchhemmung, Teil-Destillat), **din-105-5-1984** (Leichtlanglochziegel).
+- Adversariale Prüfung (je 1 unabhängiger Agent gegen das Original-PDF): ca. 290 Einzelaussagen
+  geprüft, **10 Fehler + 5 substanzielle Ergänzungen korrigiert**. Grösster Fund: din-4102-1
+  (6 Fehler in Anhang-B-Massangaben + Bodenbelag-/Kennzeichnungs-Lücken + komplett fehlende
+  Ziff. 5.2.4); din-en-1627 ein sicherheitsrelevanter Klassifizierungsfehler (RC 4 fälschlich
+  pauschal "Elektrowerkzeuge" statt Säge-/Schlagwerkzeuge). din-1961 und din-105-5: keine Fehler.
+- **Register-Hygiene:** din-1946-6-2009 (Retro-Verifikation bereits in Mini-Run 13 abgeschlossen,
+  aber INDEX.md/norm-inventar.md nicht nachgeführt) nachträglich auf `verifiziert 260713` gesetzt.
+- Nachgeführt: `destillate/INDEX.md` (7 Zeilen), `training/norm-inventar.md` (7 Zeilen),
+  `wiki/QUESTIONS.md` (DIN-EN-1627-Vollversions-Lücke). Report: `outputs/2026-07-13_normen-mini-run14.md`.
+
 ## 2026-07-13 — MacBook Pro Run 5: SIA/VKF-Basisinventar VOLLSTÄNDIG (Workflow, 37 Positionen)
 - Multi-Agent-Workflow (60 Agenten, 0 Fehler, ~11.9 Mio Token, ~30 Min): 24 Destillate als
   Destillier→Verifizier-Pipeline + 12 Retro-Verifikationen, plus Nachzug SN EN 13200-1:2019.

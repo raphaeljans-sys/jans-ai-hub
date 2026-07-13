@@ -53,7 +53,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (verifiziert 260713, vollständig S.1-125/125, adversariale Retro-Verifikation Mini-Run 13: 4 Pruef-Agenten, ca. 100 Aussagen geprueft, 14 Fehler korrigiert) |
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
-| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12) |
+| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (verifiziert 260713, vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12; Mini-Run 14: 6 Fehler korrigiert + Ziff. 5.2.4 ergänzt) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch; Teil-Destillat, Scan nur ungerade Seiten im Bestand) |
@@ -91,10 +91,10 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | established |
 | `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | established (verifiziert 260713) |
 | `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | destilliert |
-| `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | destilliert |
+| `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | established (verifiziert 260713, Mini-Run 14: 13 Aussagen geprüft, keine Fehler) |
 | `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | established (verifiziert 260713, mehrere Ziffern + Tabelle 1 komplett nachgetragen, vollständig S.1-5/5) |
 | `din-1053-3-1990.md` | DIN 1053 Teil 3 Bewehrtes Mauerwerk | 1990-02 | established (verifiziert 260713, Ziffer-Zuordnung + Tabellen korrigiert, vollständig S.1-8/8) |
-| `din-en-1627-2011.md` | DIN EN 1627 Einbruchhemmung, Anforderungen/Klassifizierung | 2011-09 | Teil-Destillat (nur 4/44 S. im Bestand) |
+| `din-en-1627-2011.md` | DIN EN 1627 Einbruchhemmung, Anforderungen/Klassifizierung | 2011-09 | Teil-Destillat, verifiziert 260713 (nur 4/44 S. im Bestand, pdfinfo bestätigt; Mini-Run 14: 1 Klassifizierungsfehler RC 4 korrigiert) |
 | `din-1072-beiblatt1-1988.md` | Beiblatt 1 zu DIN 1072 Strassen-/Wegbrücken, Lastannahmen Erläuterungen | 1988-05 | established |
 | `din-1076-1999.md` | DIN 1076 Ingenieurbauwerke, Überwachung/Prüfung | 1999-11 | established |
 | `din-272-1986.md` | DIN 272 Prüfung von Magnesiaestrich | 1986-02 | established |
@@ -158,10 +158,10 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | destilliert (vollständig, S.1-32/32) |
 | `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | Teil-Destillat (S.1-60+78-93/105, ca. 72%) |
 | `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | established (verifiziert 260713, vollständig, S.1-34/34) |
-| `din-18232-2-2007.md` | DIN 18232-2 Rauch- und Wärmeabzugsanlagen (RWA) Teil 2, Bemessung | 2007-11 | destilliert (vollständig, S.1-30/30) |
-| `din-1946-4-2008.md` | DIN 1946-4 Raumlufttechnik in Gebäuden des Gesundheitswesens | 2008-12 | destilliert (vollständig, S.1-66/66) |
+| `din-18232-2-2007.md` | DIN 18232-2 Rauch- und Wärmeabzugsanlagen (RWA) Teil 2, Bemessung | 2007-11 | established (verifiziert 260713, vollständig, S.1-30/30; Mini-Run 14: 66 Aussagen geprüft, 1 Ergänzung) |
+| `din-1946-4-2008.md` | DIN 1946-4 Raumlufttechnik in Gebäuden des Gesundheitswesens | 2008-12 | established (verifiziert 260713, vollständig, S.1-66/66; Mini-Run 14: 55 Aussagen geprüft, 2 Fehler korrigiert) |
 | `din-1960-2010.md` | DIN 1960 VOB Teil A, Vergabe von Bauleistungen | 2010-08 | destilliert |
-| `din-1961-2010.md` | DIN 1961 VOB Teil B, Allgemeine Vertragsbedingungen Bauleistungen | 2010 | destilliert |
+| `din-1961-2010.md` | DIN 1961 VOB Teil B, Allgemeine Vertragsbedingungen Bauleistungen | 2010 | established (verifiziert 260713, Mini-Run 14: 85 Aussagen geprüft, keine Fehler) |
 | `din-inhaltsverzeichnis-normensammlung-2012.md` | DIN Inhaltsverzeichnis Normensammlung Buero | Stand 2012-04 | destilliert (Register ~450 Normen) |
 | `vds-2234-1999-brand-komplextrennwaende.md` | VdS 2234 Brand-/Komplextrennwaende (D-Versicherungsmerkblatt) | 1999-05 | destilliert (vollstaendig, S.1-30/30) |
 | `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | established (vollstaendig, S.1-42/42, Mini-Run 12) |
