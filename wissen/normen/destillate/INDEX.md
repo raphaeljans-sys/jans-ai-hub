@@ -143,3 +143,14 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | 2015 | destilliert |
 | `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | destilliert |
 | `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | destilliert |
+| `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | destilliert (vollständig, S.1-62/62) |
+| `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | destilliert (vollständig, S.1-28/28) |
+| `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | destilliert (vollständig, S.1-32/32) |
+| `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | destilliert (vollständig, S.1-39/39) |
+| `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | destilliert (vollständig, S.1-32/32) |
+| `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | Teil-Destillat (S.1-60+78-93/105, ca. 72%) |
+| `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | destilliert (vollständig, S.1-34/34) |
+| `din-18232-2-2007.md` | DIN 18232-2 Rauch- und Wärmeabzugsanlagen (RWA) Teil 2, Bemessung | 2007-11 | destilliert (vollständig, S.1-30/30) |
+| `din-1946-4-2008.md` | DIN 1946-4 Raumlufttechnik in Gebäuden des Gesundheitswesens | 2008-12 | destilliert (vollständig, S.1-66/66) |
+| `din-1960-2010.md` | DIN 1960 VOB Teil A, Vergabe von Bauleistungen | 2010-08 | destilliert |
+| `din-1961-2010.md` | DIN 1961 VOB Teil B, Allgemeine Vertragsbedingungen Bauleistungen | 2010 | destilliert |

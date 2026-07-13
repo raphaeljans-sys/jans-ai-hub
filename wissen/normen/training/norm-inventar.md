@@ -467,15 +467,15 @@
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
 | [ ] | P3 | `0 Anleitung.docx` |  |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 | 2008 | destilliert (din-1045-2-2008.md), vollstaendig S.1-62/62 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 | 2012 | destilliert (din-105-100-2012.md), vollstaendig S.1-28/28, ersetzt DIN V 105-100:2005 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 | 1984 | destilliert (din-105-5-1984.md) |
-| [ ] | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1053-100.pdf` | 1053 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 | 1996 | destilliert (din-1053-1-1996.md), vollstaendig S.1-32/32 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-100.pdf` | 1053 | 2007 | destilliert (din-1053-100-2007.md), vollstaendig S.1-39/39 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-2.pdf` | 1053 | 1996 | destilliert (din-1053-2-1996.md) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 | 1990 | destilliert (din-1053-3-1990.md) |
-| [ ] | P3 | `DIN-Norm/DIN 1053-4.pdf` | 1053 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1054.pdf` | 1054 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-4.pdf` | 1053 | 2011 | destilliert (din-1053-4-2011.md), vollstaendig S.1-32/32 |
+| [~] 260713 Teil-Destillat | P3 | `DIN-Norm/DIN 1054.pdf` | 1054 | 2010 | din-1054-2010.md, S.1-60+78-93/105 (~72%) gelesen, Rest naechster Lauf |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1055-2.pdf` | 1055 | 2010 | destilliert (din-1055-2-2010.md), Bodenkenngroessen |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1072 Beiblatt 1.pdf` | 1072 | 1988 | destilliert (din-1072-beiblatt1-1988.md) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1076.pdf` | 1076 | 1999 | destilliert (din-1076-1999.md) |
@@ -485,16 +485,16 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 | 2006 | destilliert (din-1356-6-2006.md) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 | 2011 | Teil-Destillat (din-en-1627-2011.md, nur 4/44 S. im Bestand), KB-Luecke in QUESTIONS.md |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 | 2011 | destilliert (din-18040-2-2011.md), Pendant zu DIN 18040-1 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 | 2007 | destilliert (din-18232-2-2007.md), vollstaendig S.1-30/30, Brandschutz-relevant (NRA) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md) |
-| [ ] | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 | 2008 | destilliert (din-1946-4-2008.md), vollstaendig S.1-66/66, Healthcare-RLT-Norm |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | Teil-Destillat (din-1946-6-2009.md, S.1-20+27-37/125), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 | 2009 | destilliert (din-1946-7-2009.md) |
-| [ ] | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 1960 |  |
-| [ ] | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 1961 |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 2010 | destilliert (din-1960-2010.md), VOB Teil A |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 2010 | destilliert (din-1961-2010.md), VOB Teil B |
 | [x] 260713 | P3 | `DIN-Norm/DIN 272.pdf` | 272 | 1986 | destilliert (din-272-1986.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 | 2008 | destilliert (din-276-1-2008.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 | 2009 | destilliert (din-276-4-2009.md), Reconcile 260712 Mini-Run2 |

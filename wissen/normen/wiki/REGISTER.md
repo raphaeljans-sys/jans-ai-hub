@@ -373,6 +373,7 @@ DIN 4102-1, SN 640 060), Qualität entspricht dem KB-Standard — jetzt nachgezo
 | Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
 |---|---|---|---|
 | DIN 18040-1 | 2010-10 | — | gilt; Barrierefreies Bauen öffentl. Gebäude |
+| DIN 18040-2 | 2011-09 | DIN 18025-1:1992-12 + DIN 18025-2:1992-12 | gilt; Barrierefreies Bauen Wohnungen (Destillat 13.07.2026, Pendant zu DIN 18040-1) |
 | DIN 18065 | 2000-01 | — | gilt; Gebäudetreppen |
 | DIN 18299 | 2010-04 | — | gilt; VOB/C Allg. Regelungen Bauarbeiten |
 | DIN 1946-6 | 2009-05 | — | gilt; Teil-Destillat (125 S., S.1-20+27-37 gelesen) |

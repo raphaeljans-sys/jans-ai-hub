@@ -130,3 +130,19 @@
   105-100, 1053-1/-4, 1053-100, 1054, 18040-2, 18232-2, 1946-4, 1960, 1961, 4844-2, DIN V 105-100,
   DIN V 106, DIN 277-1 Bildteil/MMMP Muenchen (Duplikate/Zusatzmaterial zu bereits destilliertem
   DIN 277-1)` bleiben offen fuer den naechsten Lauf.
+
+- [ ] **Mac Mini Run 3 (13.07.2026, Intensiv-Lauf): CH-Pendants weiterhin offen + Budget-Grenze
+  erreicht.** 9 neue Vollstaendig-Destillate (DIN 1045-2, 105-100, 1053-1, 1053-100, 1053-4,
+  18040-2, 18232-2, 1946-4) plus Teil-Destillat DIN 1054 (72%). Neue CH-Pendant-Luecke: **SWKI
+  99-3** (Heiz-/Raumlufttechnik Spitalbauten) fehlt als Schweizer Pendant zu DIN 1946-4
+  (Healthcare-RLT) — Kandidat fuer Ergaenzung, relevant fuer `healthcare-wirtschaftlichkeit`/
+  `energie-berater`. Ebenso referenziert aber nicht destilliert: DIN 4159 (Ziegel-Tabellen,
+  aus DIN 1053-4) und DIN 4149 (Erdbebenzonen D). Workflow-Tool verweigerte erneut die
+  Freigabe ("Review dynamic workflow before running") - Fallback auf 9 parallele Agent-Aufrufe
+  in einem Batch; das hat ca. $17 von $25 Sessionbudget verbraucht (ca. $1.9/Agent bei
+  60-100-seitigen Volltexten) - fuer den naechsten Lauf kleinere Batches (5-6 statt 9) oder
+  kuerzere Dokumente zuerst planen. **Offen fuer naechsten Lauf:** DIN 4844-2, DIN V 105-100,
+  DIN V 106, Sonstiges/Baupreisindizes, Sonstiges/Inhaltsverzeichnis (DRM-verdaechtig, print
+  erlaubt/copy gesperrt - noch nicht getestet), Sonstiges/Komm Din 18024 Teil 1, Sonstiges/
+  VdS-Richtlinie 2234 (DRM-verdaechtig, print+copy erlaubt), Rest DIN 1054 (S.61-77+94-105),
+  alle 5 offenen VSS-Grossdateien (40 291, 640 065, 640 281, 640 291a, 640 578).
