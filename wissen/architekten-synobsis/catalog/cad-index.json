@@ -1,5 +1,144 @@
 {
-  "stand": "2026-07-12T23:53:29",
-  "architekten_mit_cad": 0,
-  "eintraege": []
+  "stand": "2026-07-13T05:23:36",
+  "architekten_mit_cad": 15,
+  "eintraege": [
+    {
+      "slug": "Jans_Raphael",
+      "name": "Jans Raphael",
+      "cad_counts": {
+        "vwx": 9,
+        "dxf": 53,
+        "dwg": 760,
+        "pln": 58,
+        "skp": 4
+      },
+      "cad_total": 884
+    },
+    {
+      "slug": "Brassel_Architekten",
+      "name": "Brassel Architekten",
+      "cad_counts": {
+        "vwx": 88,
+        "dxf": 3,
+        "dwg": 22,
+        "pln": 3
+      },
+      "cad_total": 116
+    },
+    {
+      "slug": "Back_Lukas",
+      "name": "Back Lukas",
+      "cad_counts": {
+        "vwx": 1,
+        "dxf": 7,
+        "dwg": 2,
+        "pln": 17
+      },
+      "cad_total": 27
+    },
+    {
+      "slug": "1_Selection",
+      "name": "1 Selection",
+      "cad_counts": {
+        "dwg": 23,
+        "pln": 1
+      },
+      "cad_total": 24
+    },
+    {
+      "slug": "HdM",
+      "name": "HdM",
+      "cad_counts": {
+        "dwg": 20
+      },
+      "cad_total": 20
+    },
+    {
+      "slug": "Christ_Gantenbein",
+      "name": "Christ Gantenbein",
+      "cad_counts": {
+        "vwx": 1,
+        "dwg": 16
+      },
+      "cad_total": 17
+    },
+    {
+      "slug": "EMI",
+      "name": "EMI",
+      "cad_counts": {
+        "vwx": 1,
+        "dxf": 4,
+        "dwg": 2,
+        "pln": 1
+      },
+      "cad_total": 8
+    },
+    {
+      "slug": "Burnham_Roots",
+      "name": "Burnham Roots",
+      "cad_counts": {
+        "dwg": 2,
+        "pln": 1
+      },
+      "cad_total": 3
+    },
+    {
+      "slug": "BBPR",
+      "name": "BBPR",
+      "cad_counts": {
+        "dwg": 1,
+        "pln": 1
+      },
+      "cad_total": 2
+    },
+    {
+      "slug": "Caminada_Marco",
+      "name": "Caminada Marco",
+      "cad_counts": {
+        "dwg": 1,
+        "pln": 1
+      },
+      "cad_total": 2
+    },
+    {
+      "slug": "Ban_Shigeru",
+      "name": "Ban Shigeru",
+      "cad_counts": {
+        "3dm": 1
+      },
+      "cad_total": 1
+    },
+    {
+      "slug": "BischoffKopp",
+      "name": "BischoffKopp",
+      "cad_counts": {
+        "dwg": 1
+      },
+      "cad_total": 1
+    },
+    {
+      "slug": "Fischer_Ammann_Architekten_Schulanlage_Freilager_Zu_rich_Albisrieden",
+      "name": "Fischer Ammann Architekten, Schulanlage Freilager Zürich Albisrieden",
+      "cad_counts": {
+        "dwg": 1
+      },
+      "cad_total": 1
+    },
+    {
+      "slug": "Frochoax",
+      "name": "Frochoax",
+      "cad_counts": {
+        "dwg": 1
+      },
+      "cad_total": 1
+    },
+    {
+      "slug": "Hugenberger_Fries_Arch",
+      "name": "Hugenberger Fries Arch",
+      "cad_counts": {
+        "dwg": 1
+      },
+      "cad_total": 1
+    }
+  ]
 }

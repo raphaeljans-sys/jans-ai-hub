@@ -4,6 +4,9 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-13
+- Nacht-Batch (`synobsis-batch-nacht`, Mac Mini): Stufe 1 nichts zu tun (853/853, offen 0), Stufe 2 `vectors.npz` neu geschrieben (853 × 768, deterministisch → kein Diff), Stufe 3 entfaellt (keine neuen Eintraege). `catalog/cad-index.json` enthaelt neu 15 Architekten mit erkannten CAD-Dateien (`architekten_mit_cad: 15`) statt der am 12.07. vermerkten 0 Eintraege — diesmal committet, da nicht mehr leer. Protokoll: `outputs/2026-07-13_batch-lauf.md`.
+
 ## 2026-07-12
 - Nacht-Batch (`synobsis-batch-nacht`, Mac Mini) brach zunaechst in Stufe 1 ab: `rebuild_index()` warf `KeyError: 'architekt'` an den zwei am 2026-07-11 dazugekommenen Hilfsdateien `catalog/typology-map.json` + `catalog/raumtypen-beschreibungen.json` (Typologie-Referenzen mit `_meta`-Kopf, keine Architekten-Records). Fix in `tools/synobsis_scan.py`: Guard in `rebuild_index()`, der Records ohne `architekt`-Key ueberspringt (robust ggue. kuenftigen Nicht-Architekten-JSONs im catalog/). Danach sauberer Durchlauf: Stufe 1 nichts zu tun (853/853, offen 0), Stufe 2 `vectors.npz` neu (853 × 768, deterministisch → kein Diff), `INDEX.md` neu gebaut (849 indexiert). Auffaellig: `cad-index.json` wird mit 0 Eintraegen erzeugt (Katalog-Records ohne `cad_dateien`) — nicht committet, zu klaeren; `synobsis_query.py --semantic` faellt mangels numpy im pdftools-venv auf Stichwort-Modus zurueck. Protokoll: `outputs/2026-07-12_batch-lauf.md`.
 
