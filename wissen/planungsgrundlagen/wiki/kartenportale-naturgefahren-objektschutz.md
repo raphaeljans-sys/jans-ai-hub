@@ -24,10 +24,15 @@ sources:
   - PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Ökomorphologie_Fliessgewässer/
     ökomorpho_Fliesgewässer.pdf (WebGIS Kt. SZ, 22.11.2023 10:44, dieselbe Parzelle Reckholdern —
     Kartenexport traegt den Titel «Grundwasserkarte Mittelwasserstand», die mitexportierte Legende
-    enthaelt zusaetzlich die Kategorien der **Gewaesser-Oekomorphologie**, Run 26)
+    enthaelt zusaetzlich die Kategorien der **Gewaesser-Oekomorphologie**, Run 27)
+  - PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Erdwaermenutzung/231122_Erdwaermenutzung.pdf
+    (WebGIS Kt. SZ, 22.11.2023 10:50, dieselbe Parzelle Reckholdern — Layer «Erdwaermenutzung»
+    mit Zulaessigkeitszonierung + Bestandeskataster Erdregister/Energiekorb/Energiepfahl/
+    Erdwaermesonde, Run 27)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
   [[recht-norm-abstandsvorschriften-wald-gewaesser]] [[kartenportale-sharepoint-ablage]]
   [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[brandschutz-pl03-wegweiser]]
+  [[energie-pv-eignung-typenwahl]]
 ---
 
 # Naturgefahrenkarte & Objektschutzkonzept
@@ -204,7 +209,7 @@ Grundwasservorkommen als eigener Themenlayer im GIS-Browser, bisher nicht als Co
 kartiert — Anschlussaufgabe an den naechsten Kartenportale-Run, sinngemaess wie beim
 Naturgefahren-Endpunkt unten).
 
-## 6b. Gewaesser-Oekomorphologie als mitgelieferte Planungsgrundlage (Run 26, 2026-07-13)
+## 6b. Gewaesser-Oekomorphologie als mitgelieferte Planungsgrundlage (Run 27, 2026-07-13)
 
 Derselbe Kartenexport (`ökomorpho_Fliesgewässer.pdf`, WebGIS Kt. SZ, 22.11.2023 10:44 — gleiche
 Zentrumskoordinaten E=2'703'221/N=1'222'915 wie die Grundwasserkarte oben, offenbar derselbe

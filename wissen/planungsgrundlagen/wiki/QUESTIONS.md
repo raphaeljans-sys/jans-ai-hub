@@ -3,6 +3,16 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K17-K19 (Run 27, 2026-07-13)** Drei bisher unerschlossene PL-01-Unterordner ausgewertet:
+  **Grundbuchamt ZH** (formelle Grundbuchauszug-Bestellung via Notariat statt Selbstbedienungs-
+  Eigentumsabfrage → [[kartenportale-geoportale-uebersicht]], emerging), **Willerzell-WebGIS-Batch
+  SZ** (Gewaesser-Oekomorphologie 6-stufig + Erdwaermenutzung-Zonierung/Bestandeskataster, gleicher
+  Kartenexport-Batch wie die bereits dokumentierte Grundwasserkarte → [[kartenportale-naturgefahren-objektschutz]]
+  §6b/§6c + [[recht-norm-abstandsvorschriften-wald-gewaesser]]), **SZ-Geoshop lisag.ch** (gebuehrenfrei,
+  login-freie URL, Region UR/SZ/OW/NW/ZG) **+ Werkleitungsbezug EW Lachen AG Einsiedeln** (kein
+  Webportal, nur E-Mail-Bestellung, Entwaesserungsplan SN 592 000 → [[kartenportale-geoportale-uebersicht]]
+  + [[kartenportale-werkleitungskataster]] §7). geodatenshop.zh.ch als Doppel zum bereits dokumentierten
+  Geoshop-API bestaetigt (kein neuer Artikel). Details siehe `training/curriculum.md` K17-K19.
 - [x] **K10-Rest** Checkliste Gebaeudeschutzmassnahmen (VKG/SIA/HEV) im Detail + Grundwasserkarte
   als eigenstaendige Planungsgrundlage. ✓ **2026-07-13 (Run 24):** Checkliste vollstaendig gelesen —
   Gefaehrdungsabklaerung je Naturgefahr mit Normzuordnung, **SIA 261 Neubau vs. SIA 269/8 Umbau bei
@@ -293,6 +303,16 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D5-D7 (Run 27, 2026-07-13)** Drei bisher unerschlossene PL-04-Unterordner ausgewertet:
+  **Betriebsenergie-Praxisfall** (`_Betriebsenergie/` 15 Screenshots — reale "Facts & Figures"
+  Sanierung EFH 1957/120 m², PV 14 kWp + Batterie + WP-Boiler + Dachdaemmung, Gasbezug
+  28'613→19'073 kWh, Amortisation ≈ 7 Jahre → NEU Abschnitt "Betriebsenergie" in
+  [[energie-uebersicht]], emerging), **Minergie-Referenzprojekt «Maison Climat»** (reales
+  Minergie-A-Projekt Seelandweg Biel, 20 Wohnungen Holzbau-Ersatzneubau, PV-integriert +
+  Erdwaermesonde → NEU [[energie-minergie-referenzprojekt-maison-climat]], emerging),
+  **forumenergie.ch** (aktiver Weiterbildungsanbieter, JANS-eigener Kursbeleg 26.09.2023 →
+  Weiterbildungs-Hinweis in [[energie-private-kontrolle-zh]] §5, ⚠ Datenstand 2023). pronovo.ch-
+  Ordner bestaetigt leer. Details siehe `training/curriculum.md` E15-E17.
 - [~] **D1** Aktuelle ZH-Energievorgaben (MuKEn-Umsetzung) mit Datum nachziehen. ✓ Stand gesetzt
   2026-06-06 (EnerG seit 1.9.2022/MuKEn 2014; MuKEn 2025 EnDK 08/2025, ZH-Umsetzung offen) —
   bei konkreter ZH-Fassung weiter verifizieren. **Update 2026-06-12:** Vollzug seit 01.01.2026

@@ -110,7 +110,7 @@ Empfehlung: Anfrage bei EKZ (oder zustaendigem Gemeindewerk) + Swisscom + Sunris
 stellen, sobald das Projekt Ausfuehrungsreife erreicht — wegen der kurzen Gueltigkeit (2 Wochen
 EKZ) nicht frueher.
 
-## 7. SZ-Fall: EW Lachen AG — Wasser/Gas/Fernwaerme/Kanalisation Bezirk Einsiedeln (Run 26, 2026-07-13)
+## 7. SZ-Fall: EW Lachen AG — Wasser/Gas/Fernwaerme/Kanalisation Bezirk Einsiedeln (Run 27, 2026-07-13)
 
 Realer JANS-Bezug (Perimeter KTN 3301 Einsiedeln, Reckholdernstrasse Willerzell, 17.11.2023)
 zeigt den Kt.-SZ-Ablauf fuer die Sparten, die EKZ/Swisscom/Sunrise **nicht** abdecken. Anders als

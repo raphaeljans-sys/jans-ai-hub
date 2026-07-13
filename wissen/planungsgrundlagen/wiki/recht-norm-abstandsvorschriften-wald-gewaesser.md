@@ -9,7 +9,7 @@ sources: [
   "SR 814.20 GSchG Art. 36a / SR 814.201 GSchV Art. 41a/41b/41c",
   "PBG SZ 400.100 §§ 52/66/67 (SRSZ 1.2.2025)",
   "SR 921.0 WaG Art. 17 / KWaG ZH LS 921.1",
-  "PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Ökomorphologie_Fliessgewässer/ökomorpho_Fliesgewässer.pdf (WebGIS Kt. SZ, 22.11.2023, Run 26)"
+  "PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Ökomorphologie_Fliessgewässer/ökomorpho_Fliesgewässer.pdf (WebGIS Kt. SZ, 22.11.2023, Run 27)"
 ]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-dispensrecht]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[machbarkeit]], [[kartenportale-naturgefahren-objektschutz]]
 ---
@@ -174,7 +174,7 @@ senkrechten Abstand (`gewaesserraum_dist_min_m`, `gewaesser_dist_min_m`) →
   Gewässerraum** und (b) die **Unterschreitung des Mindestabstands**.
 - Abs. 4: Die **Zugänglichkeit für den Gewässerunterhalt** ist im Zonenplan sicherzustellen.
 
-**Geodatum (Run 26, 2026-07-13):** Analog zur ZH-Karte «Gewässer-Ökomorphologie» (Abschnitt 3c)
+**Geodatum (Run 27, 2026-07-13):** Analog zur ZH-Karte «Gewässer-Ökomorphologie» (Abschnitt 3c)
 führt das **WebGIS Kt. SZ** (`map.geo.sz.ch`) einen eigenen Themenlayer **Gewässer-Ökomorphologie**
 für Fliessgewässer mit sechsstufiger Klassifizierung (natürlich/naturnah, wenig beeinträchtigt,
 stark beeinträchtigt, naturfremd/künstlich, eingedolt, nicht bestimmt) — real belegt am Kartenexport

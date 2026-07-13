@@ -2,7 +2,7 @@
 title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 26), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 26), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 26)]
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[recht-norm-dispensrecht]]
 ---
 
@@ -43,7 +43,7 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
   (AV-Datenmodell ZH) als DXF je Gemeinde oder EGRID-Parzelle, asynchron mit Polling
   (validiert 2026-06-11, Langnau am Albis). Kein DWG im Angebot — DXF ist das CAD-Format.
 - **Grundstueckkataster / amtliche Vermessung Kt. SZ (DXF fuer CAD)** → **`geoshop.lisag.ch`**
-  (Run 26, real erprobt Bezirk Einsiedeln/Willerzell 2023): Datenmodell **DM01AV_UR_SZ_OW_NW**
+  (Run 27, real erprobt Bezirk Einsiedeln/Willerzell 2023): Datenmodell **DM01AV_UR_SZ_OW_NW**
   (interkantonaler Verbund Zentralschweiz), Formate MOpublic (INTERLIS2/1, **DXF-DWG**, SHAPE,
   Geopackage), GEOBAU DXF-DWG, Punktkoordinaten, Katasterplan-PDF, Hoehenpunkte/-kurven.
   **Zwei Zustaende** abrufbar: rechtsgueltig (Ebene «Liegenschaften», Grundbuch-Mutation
@@ -166,7 +166,7 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   Status: `established` (manueller Weg belegt aus zwei unabhaengigen Quellen), Automatisierbarkeit
   bleibt `speculative` (keine API, SMS-2FA ist der Blocker).
 - **Formeller Behoerdenweg (Grundbuchauszug) — Abgrenzung zur Selbstbedienungs-Eigentumsabfrage
-  (Run 26):** die A5-Eigentumsabfrage oben liefert nur eine **nicht rechtsverbindliche**
+  (Run 27):** die A5-Eigentumsabfrage oben liefert nur eine **nicht rechtsverbindliche**
   Kurzauskunft (Eigentuemer/Adresse/Eigentumsform). Ein **rechtsverbindlicher, beglaubigter
   Grundbuchauszug** (z.B. fuer Beseitigungsrevers-/Mehrwertrevers-Eintraege, → [[recht-norm-dispensrecht]]
   Abschnitt «Revers statt Dispens») wird beim **oertlich zustaendigen Notariat** bestellt — in

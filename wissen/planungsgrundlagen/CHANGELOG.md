@@ -2,6 +2,53 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 27 (Kartenportale + Energie, Token-Vollgas 2 Domaenen, Multi-Agent-Workflow): sechs bisher unerschlossene PL-01/PL-04-Fundstellen ausgewertet
+- Rotation nach Run 26: Kartenportale (PL-01) + Energie (PL-04). Beide Domaenen waren im
+  Curriculum/QUESTIONS praktisch vollstaendig `[x]` — Methode wie Run 25/26: `find`-Abgleich
+  der Ordnerbaeume gegen `raw/_INGESTED.md`, um bisher nie geoeffnete Unterordner zu finden.
+  Zwei parallele Fach-Agenten (Kartenportale, Energie) haben die Tiefenrecherche unabhaengig
+  durchgefuehrt (Autorisierung Rule auto-verbesserungen 260712), der Hauptlauf hat danach die
+  Register zentral konsolidiert und eine offene Luecke (Erdwaermenutzung SZ) selbst geschlossen.
+- **Kartenportale — drei Fundstellen:** **Grundbuchamt ZH** (formelle, rechtsverbindliche
+  Grundbuchauszug-Bestellung via Notariat statt Selbstbedienungs-Eigentumsabfrage; ZH kombiniert
+  Notariat/Grundbuchamt/Konkursamt je Bezirk/Quartier, Fundstelle notariate-zh.ch) →
+  [[kartenportale-geoportale-uebersicht]], emerging. **Willerzell-WebGIS-Batch SZ** (derselbe
+  Kartenexport-Batch wie die bereits dokumentierte Grundwasserkarte): Gewaesser-Oekomorphologie
+  (6-stufig natuerlich→nicht bestimmt, Kt.-SZ-Entsprechung zur ZH-GSB-Karte) →
+  [[recht-norm-abstandsvorschriften-wald-gewaesser]] + [[kartenportale-naturgefahren-objektschutz]]
+  §6b; **Erdwaermenutzung** (Zulaessigkeitszonierung zulaessig/Abklaerung noetig/nicht zulaessig
+  + Bestandeskataster Erdregister/Energiekorb/Energiepfahl/Erdwaermesonde) → NEU
+  [[kartenportale-naturgefahren-objektschutz]] §6c. **SZ-Geoshop (lisag.ch)** — AV-Daten
+  **gebuehrenfrei** ueber vorausgefuellte login-freie URL (Region UR/SZ/OW/NW/ZG), Connector
+  noch nicht gebaut → [[kartenportale-geoportale-uebersicht]]; **geodatenshop.zh.ch** als
+  Web-UI-Doppel zum bereits dokumentierten Geoshop-API bestaetigt (kein neuer Artikel); **EW
+  Lachen AG Einsiedeln** (Wasser/Gas/Fernwaerme/Kanalisation) hat kein Webportal, nur
+  E-Mail-Bestellung, plus Liegenschaftsentwaesserungs-Praxis SN 592 000 → NEU
+  [[kartenportale-werkleitungskataster]] §7.
+- **Energie — drei Fundstellen:** **Betriebsenergie-Praxisfall** (`_Betriebsenergie/`, private
+  Drittquelle) — realer Sanierungsfall EFH Baujahr 1957/120 m², PV 14 kWp + Batterie +
+  WP-Boiler + Dachdaemmung, Gasbezug 28'613→19'073 kWh, Amortisation ≈ 7 Jahre → NEU Abschnitt
+  "Betriebsenergie" in [[energie-uebersicht]], emerging. **Minergie-Referenzprojekt «Maison
+  Climat»** — reales Minergie-A-Projekt Seelandweg Biel (20 Mietwohnungen, Holzbau-Ersatzneubau,
+  PV-integriert + Erdwaermesonde) → NEU [[energie-minergie-referenzprojekt-maison-climat]],
+  emerging (Typologiebeispiel, keine uebertragbaren Kennwerte). **forumenergie.ch** — realer,
+  aktiver Weiterbildungsanbieter, JANS-eigener Kursbeleg 26.09.2023 → Weiterbildungs-Hinweis in
+  [[energie-private-kontrolle-zh]] §5. pronovo.ch-Ordner bestaetigt leer.
+- **Neue Artikel:** [[energie-minergie-referenzprojekt-maison-climat]] (emerging).
+- **Erweiterte Artikel:** [[kartenportale-geoportale-uebersicht]], [[kartenportale-naturgefahren-objektschutz]]
+  (§6b/§6c), [[kartenportale-werkleitungskataster]] (§7), [[recht-norm-abstandsvorschriften-wald-gewaesser]],
+  [[energie-uebersicht]], [[energie-private-kontrolle-zh]].
+- **Verifikations-/Qualitaetshinweis:** alle Quellen direkt im Original gelesen (PDF/DOCX/Screenshot/
+  eml), keine Endpunkte/Kennwerte erfunden. Zwei Fundstellen sind bewusst als `emerging` statt
+  `established` markiert (Betriebsenergie-Fall: Urheber der Drittquelle unbekannt; Grundbuchamt ZH:
+  Einzelfall-Beleg). Ein Nacharbeitspunkt der Agenten-Laeufe: beide hatten die neu geschriebenen
+  Abschnitte faelschlich mit "Run 26" statt "Run 27" beschriftet (Konsolidierungslauf hat das in
+  allen betroffenen Wiki-Dateien korrigiert) — Lehre fuers naechste Mal: Agenten-Prompts sollten die
+  korrekte Run-Nummer nochmals explizit im Text wiederholen, nicht nur im Prompt-Kontext.
+- **Was als naechstes:** Rotation naechster Lauf Recht & Norm + Brandschutz (PL-02/PL-03); beide
+  Domaenen sind aehnlich weit abgearbeitet wie Kartenportale/Energie — auch dort weiterhin per
+  `find`-Abgleich nach unbearbeiteten Restordnern suchen statt Curriculum-Punkte zu wiederholen.
+
 ## 2026-07-13 — Training Run 26 (Recht/Norm + Brandschutz, Token-Vollgas 2 Domaenen, Multi-Agent-Workflow): sechs + fuenf nie erschlossene PL-02/PL-03-Unterordner ausgewertet
 - Rotation nach Run 25: Recht & Norm (PL-02) + Brandschutz (PL-03). Beide Domaenen waren im
   Curriculum/QUESTIONS praktisch vollstaendig `[x]` — Methode wie Run 25: `find`-Abgleich der
