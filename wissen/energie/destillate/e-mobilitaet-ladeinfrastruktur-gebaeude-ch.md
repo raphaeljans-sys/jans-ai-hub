@@ -1,11 +1,11 @@
 ---
-quelle: EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» + «Ladeinfrastruktur im Bestandsbau — Rollen und Prozesse» (energieschweiz.ch/laden-punkt.ch); E-Mobilitaets-Kapitel aus Zogg «Waermepumpen, Photovoltaik und Elektromobilitaet» (HK-Gebaeudetechnik 4/24, Ausgabe Juli 2023); ergaenzt Kanton-Zuerich-Baudirektion «Infoblatt zu Merkblatt SIA 2060» (zh.ch, Primaer-PDF bildbasiert nicht auslesbar) + Haerz AG/elektromobilitaet-schweiz.ch (Zweitquelle, gleiche Zahlen)
-herausgeber: Swiss eMobility mit Unterstuetzung EnergieSchweiz / Bundesamt fuer Energie BFE; Fachartikel Prof. Dr. David Zogg (FHNW / Smart Energy Engineering); SIA-2060-Kostenzahlen ueber Kanton ZH Baudirektion + Haerz AG
-ausgabe: Leitfaden Mietobjekte akt. November 2024 (Faktenblatt April 2025); Leitfaden Bestandsbau September 2025; Zogg-Artikel Juli 2023; SIA 2060 Merkblatt (01.05.2020), ZH-Infoblatt dazu ohne eigenes Datum gefunden
-gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen, Primaer-PDF zweimal nicht textextrahierbar)
-datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), NIV SR 734.27
+quelle: EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» + «Ladeinfrastruktur im Bestandsbau — Rollen und Prozesse» (energieschweiz.ch/laden-punkt.ch); E-Mobilitaets-Kapitel aus Zogg «Waermepumpen, Photovoltaik und Elektromobilitaet» (HK-Gebaeudetechnik 4/24, Ausgabe Juli 2023); ergaenzt Kanton-Zuerich-Baudirektion «Infoblatt zu Merkblatt SIA 2060» (zh.ch, seit 2026-07-13 per pdftotext vollstaendig als Primaerquelle gelesen) + Haerz AG/elektromobilitaet-schweiz.ch (Zweitquelle, gleiche Zahlen, keine eigene Herleitung); Vertiefung mit Recherche nach weiteren Drittquellen in [[sia-2060-kosten-ladeinfrastruktur-vertiefung]]
+herausgeber: Swiss eMobility mit Unterstuetzung EnergieSchweiz / Bundesamt fuer Energie BFE; Fachartikel Prof. Dr. David Zogg (FHNW / Smart Energy Engineering); SIA-2060-Kostenzahlen ueber Kanton ZH Baudirektion AWEL (IBG Engineering AG Winterthur) + Haerz AG
+ausgabe: Leitfaden Mietobjekte akt. November 2024 (Faktenblatt April 2025); Leitfaden Bestandsbau September 2025; Zogg-Artikel Juli 2023; SIA 2060 Merkblatt (01.05.2020), ZH-Infoblatt datiert 13. Oktober 2020 (Datum jetzt gesichert)
+gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen); ergaenzt 2026-07-13 (ZH-Infoblatt-PDF vollstaendig per pdftotext gelesen, Drittquellen-Recherche ohne neuen unabhaengigen Fund, siehe Vertiefung)
+datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), ZH-Kostenbasis 13.10.2020, NIV SR 734.27
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 ---
 
 # Elektromobilitaet — Ladeinfrastruktur am Wohngebaeude (CH)
@@ -123,9 +123,12 @@ Eigenverbrauch**; im Winter bleibt Netzbezug massgebend (Effizienz Gebaeude+WP e
   **Parkplatz**miete.
 
 ## Offene Punkte
-- **CHF-Mehrkosten der SIA-2060-Ausbaustufen jetzt vorhanden** (siehe Tabelle oben), aber aus zwei
-  Sekundaerquellen, nicht aus dem SIA-Primaerdokument selbst (kostenpflichtig, Vollzugs-Infoblaetter
-  bildbasiert) — Status bewusst nicht auf established gehoben, bis eine primaere Quelle vorliegt.
+- **CHF-Mehrkosten der SIA-2060-Ausbaustufen jetzt vorhanden** (siehe Tabelle oben) und seit 2026-07-13
+  vertieft geprueft: das Kanton-ZH-Baudirektion-Infoblatt liess sich per `pdftotext -layout` nun doch
+  vollstaendig im Volltext lesen (datiert 13.10.2020) und bestaetigt die Tabelle zahlengenau — siehe
+  [[sia-2060-kosten-ladeinfrastruktur-vertiefung]]. Eine echte, methodisch unabhaengige DRITTE Quelle
+  mit eigener Kostentabelle wurde trotz breiter Recherche NICHT gefunden (Haerz AG uebernimmt dieselben
+  Zahlen ohne eigene Quellenangabe); Status bleibt daher bewusst **emerging** statt established.
 - **SIA 2060** ist ein kostenpflichtiges Merkblatt — genaue Stufendefinitionen C1/C2/D hier aus dem
   EnergieSchweiz-Leitfaden referiert, nicht aus der Norm selbst.
 - **Foerderung** fuer Ladeinfrastruktur: kantonal/kommunal uneinheitlich → standortgenau via
@@ -136,4 +139,5 @@ Eigenverbrauch**; im Winter bleibt Netzbezug massgebend (Effizienz Gebaeude+WP e
 **Backlinks:** PV-/WP-Eigenverbrauch & EMS [[wp-pv-eigenverbrauch-lastmanagement]] · Mehrparteien-
 Vermarktung [[zev-eigenverbrauch-mfh-her-2025]] / [[pv-eigenverbrauch-zev]] · Batterie-Abgrenzung
 [[batteriespeicher-heimspeicher-pv-ch]] · Foerderung [[energiefranken-foerder-suchmaschine-ch]] ·
-PV-Marktzahlen [[pv-marktzahlen-kosten-ch-2025]].
+PV-Marktzahlen [[pv-marktzahlen-kosten-ch-2025]] · Kosten-Vertiefung SIA 2060
+[[sia-2060-kosten-ladeinfrastruktur-vertiefung]].

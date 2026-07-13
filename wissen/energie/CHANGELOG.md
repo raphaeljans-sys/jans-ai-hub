@@ -2,6 +2,23 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Neues Destillat: g-Werte je Verglasungstyp (2-fach/3-fach/Sonnenschutzglas)
+- **Neues Destillat `[[g-werte-verglasungstypen-ch]]`:** schliesst den in
+  `[[fenster-verglasung-uw-g-wert]]` offen geführten Punkt «konkrete g-Werte je Verglasungstyp»
+  orientierend. Werte: Zweifach-Wärmeschutzglas g ~0,58–0,62 (Flachglas Schweiz vetroTherm
+  1.0/1.1) bzw. DE-Bandbreite 0,60–0,75; Dreifachglas Standard g ~0,61 (vetroTherm G Plus Trio)
+  bzw. DE-Bandbreite 0,50–0,60; Sonnenschutzglas (vetroSol A-Typen/Trio) g 0,17–0,37 je nach
+  Beschichtungsstärke. Der bereits primär belegte g_tot mit aussenliegendem Sonnenschutz
+  (0,10–0,15, EN-102) bleibt der Zielwert für den Sommernachweis.
+- **Quellenqualität bewusst als `needs-verification` markiert:** Direktabruf der flachglas.ch-
+  Produktseiten lieferte nur eine Platzhalterseite (Website im Umbau); die Zahlen stammen aus der
+  Suchmaschinen-Zusammenfassung des zuvor indexierten Seiteninhalts, nicht aus eigenem
+  Volltext-Lesen. SZFF-Energieetikette-Faktenblatt und energie-umwelt.ch-Seite lieferten keine
+  Typen-Tabelle (nur Definition + ein Beispielwert g=0,55).
+- **`[[fenster-verglasung]]`** (Wiki) im Offen-Abschnitt und den Frontmatter-Links ergänzt.
+- Output: kein separater `outputs/`-Report (Direktauftrag ohne KB-weite Frage), Ergebnis lebt
+  direkt im neuen Destillat.
+
 ## 2026-07-13 — Vertiefung SIA-2060-Kosten Ladeinfrastruktur: Primärquelle jetzt gelesen, keine dritte unabhängige Quelle gefunden
 - **Neues Destillat `destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md`:** vertieft den in
   `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]` offen gelassenen Punkt «SIA-2060-Kostentabelle nur
