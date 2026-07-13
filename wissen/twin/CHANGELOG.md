@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review Drittlauf (Fidelity 95/100, Lieferanten-Sie + Healthcare-Kennwert-Kontrastpaar)
+- Dritter Fidelity-Lauf des Tages (nach Morgenlauf `2026-07-13_fidelity.md` Fidelity 93 und
+  Zweitlauf `2026-07-13b_fidelity.md` Fidelity 94, VOLLGAS-Intensivphase Regel 260712c). Neue,
+  bisher ungenutzte Goldproben via Apple Mail (Bundle-ID `com.apple.mail`, "Gesendete Elemente"
+  rj@raphaeljans.ch; m365-CLI/MCP auf dieser Station nicht verfuegbar): Lieferanten-Sie-Bestaetigung
+  mit proaktiver Zahlungszusage (Quenson/3dsixty, 2026-02-12), und ein echtes Kontrastpaar — dieselbe
+  Healthcare-Kostenkennwerttabelle am selben Tag (2026-02-09) einmal im Du an den Betreiber (Hoi Albin)
+  und einmal im Sie an den Fachplaner (Sehr geehrter Herr Weber, Wüest Partner).
+- Hoechster Fidelity-Wert der drei heutigen Laeufe (95/100): die Kennwert-Herleitung UND das
+  Telefonat-Fixierungs-Muster (Gold C) sind bereits wortgleich als Marker im Wiki verankert
+  (fachsignatur.md, arbeitsweise.md). Nur zwei kleine, neue Mikro-Bausteine (je 1 Beleg, noch nicht
+  generalisiert): (1) verschmolzener Schluss-Satz «Besten Dank und freundliche Gruesse» statt der
+  sonst belegten getrennten Form; (2) Fachbegriff «ausserordentlicher Zahlungslauf» als proaktive,
+  konkret terminierte Zahlungszusage gegenueber einem Lieferanten.
+- Beide Mikro-Marker mit Vorbehalt (1 Beleg) in `stimme.md` bzw. `arbeitsweise.md` ergaenzt, OHNE
+  die Do/Don't-Bloecke zu aendern (dafuer zu duenn belegt) — `build_dna.py` meldet entsprechend
+  «Auto-Block bereits aktuell», keine DNA-Aenderung noetig.
+- 3 neue Selbstfragen an `wiki/QUESTIONS.md` (Runde 260713c): verschmolzener Dank-Gruss-Satz bewusst/
+  Tagesform, «ausserordentlicher Zahlungslauf» als fester Begriff, Kennwerttabellen-Form Du-Fliesstext
+  vs. Sie-Bullet. Keine neuen Facetten-Widersprueche (Schritt 3). Report: `outputs/2026-07-13c_fidelity.md`.
+
 ## 2026-07-13 — twin-fidelity-review Zweitlauf (Fidelity 94/100, komplementaere Register)
 - Komplementaerer Zweitlauf zum Morgen-Review (05:30, `2026-07-13_fidelity.md`, Fidelity 93,
   formell-Sie + warm-privat-Du). In der VOLLGAS-Intensivphase (Regel 260712c) mit drei ANDEREN

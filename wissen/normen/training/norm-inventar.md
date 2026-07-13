@@ -466,7 +466,7 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P3 | `0 Anleitung.docx` |  |  |  |
+| — | P3 | `0 Anleitung.docx` |  |  | keine Norm, Admin-Anleitung Download/FileOpen-Plugin (Büro Meili Peter Architekten, Stand 2014) — übersprungen |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 | 2008 | destilliert (din-1045-2-2008.md), vollstaendig S.1-62/62 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 | 2012 | destilliert (din-105-100-2012.md), vollstaendig S.1-28/28, ersetzt DIN V 105-100:2005 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 | 1984 | destilliert (din-105-5-1984.md) |
@@ -499,8 +499,8 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 | 2008 | destilliert (din-276-1-2008.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 | 2009 | destilliert (din-276-4-2009.md), Reconcile 260712 Mini-Run2 |
 | [x] | P3 | `DIN-Norm/DIN 277-1.pdf` | 277 | 2005 | destilliert 260712 |
-| [ ] | P3 | `DIN-Norm/DIN 277-1_Bildteil_MMMP München.pdf` | 277 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  |  |
+| — | P3 | `DIN-Norm/DIN 277-1_Bildteil_MMMP München.pdf` | 277 |  | Foto-Scan Bildteil, Duplikat von DIN 277-1:2005-02 (bereits din-277-1-2005.md) — übersprungen |
+| — | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  | Foto-Scan desselben Bürobuch-Exemplars DIN 277-1:2005-02, inhaltlich Duplikat von din-277-1-2005.md — übersprungen |
 | [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | Teil-Destillat (din-4102-1-1998.md, S.1-20+26-28/28), Reconcile 260712 Mini-Run2 |
@@ -553,8 +553,8 @@
 | [ ] | P3 | `VSS 640 281 Parkfelder.pdf` | 640 |  | gross/scanlastig (7.9 MB), naechster Lauf |
 | [ ] | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 |  | gross/scanlastig (20 MB), naechster Lauf |
 | [ ] | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 |  | gross/scanlastig (15 MB), naechster Lauf |
-| [ ] | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  |  |
-| [ ] | P3 | `buk/https.docx` |  |  |  |
+| — | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  | keine Norm, kurze Notiz/Übersicht (nennt SN 640 291:2020, SIA 500:2009, SN 640 075:2014, ZH-PPV) — übersprungen |
+| — | P3 | `buk/https.docx` |  |  | keine Norm, enthält nur URL zu buk.arch.ethz.ch/Dokumentation/Parkieren — übersprungen |
 | — | — | `xalt/VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | ersetzt/alt (xalt) |
 
 ## RAL (1 Dateien)

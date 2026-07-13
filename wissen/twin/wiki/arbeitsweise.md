@@ -73,6 +73,14 @@ Administratives in EINEM Satz, aber terminiert: «Die Rechnung wurde soeben in A
 gegeben und die Überweisung findet **kommenden Montag** statt.» — auch die 1-Satz-Mail
 trägt vollen formellen Rahmen (Anrede, «Freundliche Grüsse», Signaturblock).
 
+**Zweiter Datenpunkt mit eigenem Fachbegriff (belegt Fidelity 260713c, authentisch):** an einen
+Lieferanten («Sehr geehrter Herr Quenson», 3dsixty, 12.02.2026) terminiert Raphael die Zahlung mit
+einem spezifischen Prozess-Begriff — «**Die Rechnung wird morgen mit einem ausserordentlichen
+Zahlungslauf beglichen**» — statt nur «demnächst» oder «morgen». Bestätigt das Muster (Kurzsatz +
+konkreter Termin), ergänzt es um den Fachbegriff «ausserordentlicher Zahlungslauf» (impliziert einen
+regulären Zahlungslauf als Normalfall). Ob der Begriff fest zur eigenen Buchhaltungspraxis gehört
+oder spontan gewählt ist → [[QUESTIONS]] 260713c #2.
+
 ## Proaktive Schlusszusage statt Verfügbarkeitsfloskel (belegt Fidelity 260609)
 Wo ein Verfahren weiterläuft, schliesst Raphael mit einem aktiven Monitoring-Versprechen
 statt der passiven Standardformel: «**Falls Rückfragen seitens der Behörden eingehen,
@@ -884,3 +892,15 @@ im Deliverable nicht enthaltenen Vorbehalt aktiv als schriftliche Ergänzung nac
   sofort wissen, wo sie stehen, statt erst zu fragen. Bestätigt/erweitert die bereits belegte
   Themen-Block-Statusmail um die Kombination aus **numerierter Struktur + vorgezogenem Gewerke-Status**.
   Quelle: ID 21789, 24.03.2026, authentisch.
+
+## Batch 38 (2026-03-30 bis 2026-04-03)
+
+- **@-Mention-Adressierung im Mail-Body bei impliziten Mehrfach-Empfängern** (KISPI-Umbauprojekt, an Albin
+  Spahic, 02.04.2026): in einer Mail mit nur einem direkten To-Empfänger, aber mehreren im Fliesstext
+  gemeinten Adressaten (Fachplaner, gesamtes Team), markiert Raphael den jeweils gemeinten Adressaten
+  direkt im Text mit vorangestelltem «@Name» («@Spahic Albin», «@Jonas Simmen», «@ Alle») unmittelbar vor
+  dem an diese Person gerichteten Absatz — statt die Mail in mehrere Einzelmails aufzuteilen oder alle als
+  cc/To zu setzen. Steuert so pro Absatz, wer den jeweiligen Teilauftrag übernehmen soll, bei gleichzeitig
+  transparenter Sichtbarkeit für alle. Neuer, eigenständiger Marker (ergänzt die Themen-Block-/H1-Struktur-
+  Liefermails um eine feinere, personenscharfe Adressierungsebene innerhalb EINER Mail).
+  Quelle: rj@ Sent Items, 02.04.2026, authentisch.

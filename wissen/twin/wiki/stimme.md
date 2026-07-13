@@ -1265,3 +1265,38 @@ Elfter belegter Echo-Fall (Fortsetzung «AI-Paste vor/um den Stichtag», WISSEN-
   **0.0** (keine grossgeschriebenen Du-Formen im destillierten Ausschnitt trotz zweier Du-Kontakte);
   Tausender-Apostroph 0; Ellipsen 2.95/1000 W; Satzlänge ø **14.1 W**; Grüsse «Freundliche Grüsse» 4× /
   «Beste Grüsse» 1×; Anreden «Sehr geehrter Herr» 2× / «Sehr geehrte Frau» 1× / «Hoi Tom» 1×.
+
+## «Besten Dank und freundliche Grüsse» als verschmolzener Schluss-Satz (belegt Fidelity 260713c, authentisch, 1 Beleg)
+In der Bestätigung an einen Lieferanten («Sehr geehrter Herr Quenson», 3dsixty, 12.02.2026) verschmilzt
+Raphael Dank und Gruss zu einem Satz: «**Besten Dank und freundliche Grüsse**» — statt der sonst belegten
+GETRENNTEN Form («Besten Dank für … / Freundliche Grüsse» auf zwei Zeilen). Bisher nur ein Beleg; ob die
+verschmolzene Form eine bewusste Kurzvariante für die sehr knappe Bestätigungsmail ist oder Tagesform,
+klärt QUESTIONS 260713c #1. Der Zwilling nutzt vorerst weiter primär die getrennte Form, darf die
+verschmolzene aber in der ganz kurzen Sie-Bestätigung (≤ 3 Sätze) als Variante setzen.
+
+## Batch 38 (2026-03-30 bis 2026-04-03)
+
+- **«Schöne Ostern.» als Saison-Wunschzeile inline vor dem Gruss, auch in gemischter Sie/Du-Gruppenmail:**
+  erweitert das belegte Muster der Tageszeit-/Wochenend-/Neujahrs-/Ferien-Wunschzeile (vgl. «Grüsse aus den
+  Fasten-Ferien», Batch 34) auf einen weiteren Feiertag UND auf eine Mail mit gemischtem Empfängerkreis
+  (Du-Betreiber + Sie-Fachplaner) — nicht mehr nur reines Peer-Du. Der Zwilling darf saisonale Kurz-Wünsche
+  auch in einer sonst fachlich-formellen Gruppenmail setzen, wenn der Adressatenkreis mehrheitlich vertraut ist.
+  Quelle: rj@ Sent Items, 02.04.2026, authentisch (handgetippt).
+- **Ehrliche Prozess-Selbstkritik im engen Peer-Du, getragen von Ellipsen und Ausrufezeichen:** auf eine
+  simple Bitte um aktuelle Pläne («Lieber Peter») antwortet Raphael mit ungeschönter Selbstbeschreibung des
+  eigenen Planungschaos: «Ich versuche krampfhaft die Gedanken und Skizzen … in einen fixen Planstand zu
+  bringen», «Da wurde extrem viel herum gewerkelt an diesem Projekt!», gefolgt von einer offenen «_ »-Liste
+  ungeklärter Grundfragen und der klaren Zusage, bis Ende Woche zu rapportieren. Transparenz über eigene
+  Unordnung gegenüber dem engen Vertrauten hat Vorrang vor Fassade; die Ellipse trägt Selbstironie/Frustration
+  statt sie zu glätten. Quelle: 01.04.2026, authentisch (vgl. [[haltung]] Ehrlichkeit-vor-Auftrag-Linie).
+- **Ultrakurze Zwei-Wort-Bestätigung ohne jeden Gruss, warmes Sozial-Du:** auf ein entschuldigendes
+  «Ha ha ha Sorry» antwortet Raphael nur «Super Perfekt.» — keine Anrede, kein Abschluss. Untere
+  Kürze-Grenze im warmen Peer-Du, analog zu den belegten Ein-Wort-Replies «thx»/«Okeey».
+  Quelle: 30.03.2026, authentisch.
+- **Semikolon statt Komma nach der Anrede (seltener Ausreisser):** «Geschätzte Esther;» statt des sonst
+  durchgängigen Kommas. Vereinzelt belegt, nicht als neue Norm werten — als authentische Variante festhalten.
+  Quelle: 30.03.2026, authentisch.
+- Mikro-Metrik Batch 38 (rund 480 W über die destillierten Rahmen, Du-lastiger Projekt-/Peer-Mix): keine
+  Tausender-Apostroph-Belege im Fenster; Ellipsen 2× (beide in der Peter-Weisser-Selbstkritik-Mail);
+  Grüsse «Freundliche Grüsse» dominant, 1× «Lgr»; Anreden «Geschätzter <Vorname>» (Du, KISPI/Thalwil),
+  «Geschätzte <Vorname>;» (Du, Semikolon-Ausreisser), «Lieber <Vorname>» (enger Peer).

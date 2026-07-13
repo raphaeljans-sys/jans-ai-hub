@@ -83,6 +83,42 @@ Bauten.
   Sportstadien >10'000: Abschrankung Innenbereich min. 2,20 m, Blöcke max. 2'500
   Personen, Wellenbrecher alle 5 Stufenreihen (Höhe 1,10 m, Länge 3-5,50 m).
 
+### Rettungswege im Betrieb, Besucherplätze, Brandverhütung, technische Einrichtungen (§§ 31-33, 36-37, S. 20-23)
+
+- **§ 31 Abs. 3, Türen im Betrieb:** während des Betriebs müssen alle Türen in
+  Rettungswegen unverschlossen sein.
+- **§ 32 Besucherplätze:** Zahl und Anordnung der Besucherplätze gemäss Bestuhlungs-
+  und Rettungswegeplan (§ 44) sind bindend, dürfen nicht überschritten/geändert
+  werden; eine Ausfertigung des Plans muss beim Haupteingang des Versammlungsraums
+  gut sichtbar angebracht sein; je nach Veranstaltungsart erforderliche
+  Abschrankungen der Stehplatzbereiche vor Szenenflächen (Massgabe § 29 Abs. 2)
+  sind auch bei Versammlungsstätten mit **≤5'000 Besucherplätzen** vorzusehen.
+- **§ 33 Vorhänge/Sitze/Ausstattungen/Requisiten/Ausschmückungen (Abschnitt 2
+  Brandverhütung):** Bühnen-/Szenenflächen-Vorhänge mind. schwerentflammbar; Sitze
+  in Versammlungsstätten mit **>5'000 Besucherplätzen** mind. schwerentflammbar
+  (Unterkonstruktion nichtbrennbar); Ausstattungen mind. schwerentflammbar (bei
+  automatischer Feuerlöschanlage auf Bühne/Szenenfläche normalentflammbar
+  zulässig); Requisiten mind. normalentflammbar; Ausschmückungen mind.
+  schwerentflammbar (in notwendigen Fluren/Treppenräumen nichtbrennbar),
+  unmittelbar an Wänden/Decken/Ausstattungen anzubringen oder frei hängend mit
+  min. **2,50 m** Bodenabstand, natürlicher Pflanzenschmuck nur solange frisch;
+  der Raum unter einem Schutzvorhang ist von Ausstattungen/Requisiten/
+  Ausschmückungen freizuhalten; brennbares Material ist von Zündquellen (inkl.
+  Scheinwerfern/Heizstrahlern) so fernzuhalten, dass eine Entzündung ausgeschlossen
+  ist.
+- **§ 36 Bedienung/Wartung technischer Einrichtungen (Abschnitt 3):** Schutzvorhang
+  täglich vor der ersten Vorstellung/Probe durch Auf- und Abziehen auf
+  Betriebsbereitschaft zu prüfen, nach jeder Vorstellung herabzulassen und
+  ausserhalb der Betriebszeiten geschlossen zu halten; Automatik der
+  Sprühwasserlöschanlage darf während Anwesenheit einer/eines Verantwortlichen für
+  Veranstaltungstechnik abgeschaltet werden, die automatische Brandmeldeanlage
+  ebenso, sofern nach Art der Veranstaltung vertretbar und mit Feuerwehr/
+  Brandschutzdienststelle abgestimmt; die Sicherheitsbeleuchtung muss in Betrieb
+  sein, sobald sich Personen in nicht ausreichend tageslichtbeleuchteten,
+  sicherheitsbeleuchtungspflichtigen Räumen aufhalten.
+- **§ 37 Laseranlagen:** der Betrieb von Laseranlagen in für Besucherinnen und
+  Besucher zugänglichen Bereichen darf deren Gesundheit nicht beeinträchtigen.
+
 ### Betriebsvorschriften — Rest (§§ 34-43, S. 21-27)
 
 - **§ 34 Aufbewahrung von Materialien:** Ausstattungen/Requisiten/Ausschmückungen nur ausserhalb Bühnen/Szenenflächen lagern (Ausnahme Tagesbedarf); pyrotechnische Gegenstände nur in dafür vorgesehenen Lagerräumen.

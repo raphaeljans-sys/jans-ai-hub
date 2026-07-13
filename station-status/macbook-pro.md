@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 06:29:26
+Stand: 13.07.2026 06:39:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:12)
@@ -12,4 +12,4 @@ Stand: 13.07.2026 06:29:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 648320c5 normen: SIA 181:2006 Schallschutz im Hochbau destilliert
+- 0da59e5b normen+planungsgrundlagen: laufende Destillate/Wiki-Updates (auto-erfasst vor Sync)

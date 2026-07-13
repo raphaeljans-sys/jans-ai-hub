@@ -3,6 +3,32 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713c (twin-fragesteller, aus Fidelity-Review 2026-07-13 Drittlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13c_fidelity.md` (Gesamt-Fidelity 95; Golddatensatz Lieferanten-
+Sie-Zahlungszusage + Healthcare-Kennwert-Kontrastpaar Du/Sie). Je in 1–2 Saetzen beantwortbar.
+
+1. **«Besten Dank und freundliche Gruesse» als verschmolzener Schluss-Satz:** In der Bestaetigung an
+   Quenson (3dsixty, 12.02.2026) schreibst Du «**Besten Dank und freundliche Gruesse**» als EINEN Satz,
+   statt Dank und Gruss (wie sonst belegt) auf zwei Zeilen zu trennen. Ist das eine bewusste, kompakte
+   Schluss-Variante fuer die ganz kurze Bestaetigungsmail (weniger als 3 Saetze Inhalt), oder reine
+   Tagesform/Zufall? *Warum: bisher nur 1 Beleg dieser verschmolzenen Form — klaert, ob sie als eigene
+   Kurzform neben der getrennten «Besten Dank … / Freundliche Gruesse»-Zeile gehoert.* → [[stimme]]
+2. **«Ausserordentlicher Zahlungslauf» als eigener Fachbegriff:** Du kuendigst einem Lieferanten
+   proaktiv an, wann seine Rechnung bezahlt wird, mit dem Begriff «**ausserordentlicher Zahlungslauf**»
+   (Quenson, 12.02.2026). Ist das ein feststehender Begriff aus Deiner eigenen Buchhaltungspraxis (regulaerer
+   vs. ausserordentlicher Zahlungslauf als zwei unterschiedene Prozesse), oder eine spontane Formulierung
+   fuer «ich ueberweise sofort, ausserhalb des normalen Rhythmus»? *Warum: klaert, ob der Zwilling diesen
+   Begriff als festen Baustein bei Eil-Zahlungen an Lieferanten einsetzen soll.* → [[arbeitsweise]],
+   [[fachsignatur]]
+3. **Kennwerttabelle im Du vs. Sie — identischer Inhalt, unterschiedliche Form?** Am selben Tag (09.02.2026)
+   sendest Du dieselbe Healthcare-Kostenkennwert-Tabelle einmal im Fliesstext mit Gedankenstrich-Bindestrich
+   («CHF 2'000.- bis 3'000.-: Leichter Umbau …», an Albin/Du) und einmal mit «_ »-Unterstrich-Bullet-Praefix
+   («CHF 2'000.- - 3'000.- _ Leichter Umbau …», an Weber/Sie). Ist die Bullet-Form bewusst dem foermlicheren
+   Sie-Fachplaner-Register vorbehalten (praeziser/tabellarischer), waehrend der Fliesstext im Du dem
+   Betreiber die Lesbarkeit erleichtert, oder ist das reine Tagesform? *Warum: praezisiert, ob die
+   Listentypografie auch vom Register (nicht nur vom Inhaltstyp) abhaengt.* → [[stimme]], [[fachsignatur]]
+
 ## Offen — Runde 260713b (twin-fragesteller, aus Fidelity-Review 2026-07-13 Zweitlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13b_fidelity.md` (Gesamt-Fidelity 94; komplementaerer Zweitlauf mit

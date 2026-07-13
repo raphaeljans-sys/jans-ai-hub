@@ -811,3 +811,15 @@ webt Raphael das Dachgeschoss-Ausbaurecht inline-rechnend ein, mit eigener Vor-O
   nicht nur WER welche Rolle einnimmt, sondern welches EINZELNE Unterschriftenfeld welche Legitimation
   braucht — Behörden-Verfahrensrealismus bis auf Formularfeld-Präzision.
   Quelle: ID 21896, 27.03.2026, authentisch (handgetippt: «Ausgefüllt», «gelasen», «es es wie folgt»).
+
+## Batch 38 (2026-03-30 bis 2026-04-03)
+
+- **Kontinuitäts-Argument mit dem Fachbegriff «Formensprache» bestätigt** (Brandschutz-Abtrennung KISPI,
+  02.04.2026): eine neu einzubauende Schiebetüre (Brandabschnitts-Abtrennung) wird nicht nur funktional
+  begründet, sondern explizit an den Bestand gekoppelt: «Diese Trennung soll architektonisch analog zu den
+  Empfangssituationen der Stationen im 2. Obergeschoss umgesetzt werden … Dadurch integriert sich die
+  Abtrennung selbstverständlich in den Bestand und übernimmt die vorhandene Formensprache der Architektur.»
+  Bestätigt die bereits belegte Linie «konstruktiv-materielle Kontinuität als Entwurfsidee» (Mailbatch 10)
+  mit einem neuen wörtlichen Beleg: **«Formensprache»** als Fachbegriff, mit dem Raphael Bestandskontinuität
+  gegenüber Behörden/Fachplanern begründet, statt sie nur zu behaupten.
+  Quelle: rj@ Sent Items, 02.04.2026, authentisch.
