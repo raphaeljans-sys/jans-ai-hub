@@ -6,7 +6,7 @@ ersetzt: ""
 gelesen: "S. 1–2 (vollständig)"
 datenstand: "1996/1998"
 status: established (städtische Richtlinie, kein SNV-Normtext, aber verbindlich in Stadt Zürich)
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -51,8 +51,10 @@ bzw. 0,45 × 2,00 m (höhenversetzt); Detailmasse verweisen auf VSS-Norm SN 640 
 
 ## JANS-Praxis-Transfer
 Für Raumprogramm-/Baueingabe-Prüfung in Stadt Zürich (Skill `machbarkeit`, `flaechen-nachweis`)
-liefert dieses Merkblatt die konkrete Bedarfszahl für Veloabstellplätze nach Nutzung — ergänzt
-die kantonale Parkplatzverordnung (PPV) für Zweiräder, wo die kantonale Norm offen bleibt.
+liefert dieses Merkblatt die konkrete Bedarfszahl für Veloabstellplätze nach Nutzung — konkretisiert
+Art. 4 der **städtischen** Verordnung über Fahrzeugabstellplätze (PPV, gestützt auf §§ 242 ff. PBG),
+deren offene Formulierung ("an geeigneter Lage") in der Praxis sonst erst spät im Planungsstadium zu
+Restflächen-Problemen führt.
 Praktisch relevant: ein gedeckter Veloabstellplatz (Witterungsschutz) darf NICHT vor der
 Baulinie/im Strassenabstandsbereich stehen — bei der Situierung im Vorbereich immer prüfen.
 
