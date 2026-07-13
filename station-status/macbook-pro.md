@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 20:11:49
+Stand: 13.07.2026 20:21:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 19:59)
@@ -19,4 +19,4 @@ Stand: 13.07.2026 20:11:49
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3b5dc195 spec-training Lauf 13: KB-zu-Skill-Sync-Luecke in skills/spec/SKILL.md geschlossen (Verifier-Tabelle + Spec-Vorlage nachgezogen)
+- febcc75d normen-training MacBook Pro Run 5: SIA/VKF-Basisinventar vollstaendig (37 Positionen)
