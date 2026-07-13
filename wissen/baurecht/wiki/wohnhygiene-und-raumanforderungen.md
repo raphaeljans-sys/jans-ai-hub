@@ -1,9 +1,9 @@
 ---
 name: wohnhygiene-und-raumanforderungen
 beschreibung: Wohnhygienische Mindestanforderungen an Aufenthaltsraeume (ZH) — Belichtung/Belueftung (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie; § 302 PBG), Mindestflaeche ≥ 10 m² (§ 303), lichte Raumhoehe 2,4 m / Kernzone 2,3 m (§ 304), innere Erschliessung und Aufzugspflicht (§ 305 PBG / § 40 BBV I). Zusaetzlich Haustechnik-/Energie-Anschluss (§§ 21-46a BBV I, § 19a BBV II, EnerG) volltextverifiziert (Modell D, Buch-Run 32). Entscheidet die Wohn-/Arbeitsraum-Nutzbarkeit, gerade bei Umnutzung von UG-/Dach-/Sockelraeumen.
-status: emerging
+status: established
 last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D BBV II §§ 7/10/11 volltext + LRV/Kaminempfehlungen, Buch-Run 33; BBV I §§ 36/40 + Haustechnik-Run 32; PBG-Kern §§ 299-306 + ABV noch nicht amtlich volltextverifiziert)
+verifiziert: 2026-07-13 (Modell-D BBV II §§ 7/10/11 volltext + LRV/Kaminempfehlungen, Buch-Run 33; BBV I §§ 36/40 + Haustechnik-Run 32; PBG-Kern §§ 299-306 amtlich volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md, § 32/§ 4 ABV amtlich volltextverifiziert gegen raw/260607_amtlich_zh_abv.md — alle Kernaussagen CONFIRMED, siehe Abschnitt "Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV")
 quelle_destillat: "[[17-gebaeude-und-raeume]] (Bd 2, Kap. 17, S. 1241-1255); [[17-haustechnische-anlagen-teil3]] (Bd 2, Kap. 17.9, S. 1304-1319)"
 paragraphen: ["§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 40 BBV I", "§ 36 BBV I", "§ 32 ABV", "§ 7 BBV II", "§ 10 BBV II", "§ 11 BBV II", "§ 21 BBV I", "§ 22 BBV I", "§ 23 BBV I", "§ 24 BBV I", "§ 26 BBV I", "§ 29 BBV I", "§ 30a BBV I", "§ 37 BBV I", "§ 42 BBV I", "§ 43 BBV I", "§ 44 BBV I", "§ 45 BBV I", "§ 45a BBV I", "§ 19a BBV II", "§ 9 EnerG", "§ 10a EnerG", "§ 10b EnerG", "§ 12 EnerG", "§ 12b EnerG", "§ 13 EnerG (aufgehoben)"]
 ---
@@ -67,6 +67,70 @@ interesse allein genuegt nicht**.
 Die §§ 303-305 PBG gelten **nicht** fuer Einfamilienhaeuser und vergleichbare Wohnungsarten
 (kein gemeinsames Treppenhaus + eigener Zugang ins Freie + tritt als EFH in Erscheinung;
 § 32 ABV). Kuechen-Anforderungen sind separat geregelt (§ 306 PBG / § 36 BBV I).
+
+## Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV (Modell D, adversarial, 2026-07-13)
+
+Volltextabgleich gegen `raw/260607_amtlich_zh_pbg.md` (§§ 299-306) und
+`raw/260607_amtlich_zh_abv.md` (§ 32, § 4). Alle acht PBG-Paragraphen und beide
+ABV-Paragraphen sind **CONFIRMED** — Wortlaut, Zahlen und Zuordnung stimmen:
+
+- **§ 299 PBG (Geltungsbereich):** CONFIRMED. Gilt für Wohn-/Schlafräume, Küchen,
+  Räume mit festem/möglichem Arbeitsplatz (Abs. 1) sowie Räume, die durch Ausbau/
+  Ausrüstung dem Aufenthalt von Menschen dienstbar gemacht werden können (Abs. 2) —
+  Wortlaut exakt wie im Wiki wiedergegeben.
+- **§ 300 PBG (Ausgestaltung/Ausrüstung):** CONFIRMED (nicht im Wiki einzeln
+  zitiert, aber im Destillat korrekt als Grundlagenparagraph erfasst: Schutz gegen
+  Lärm/Erschütterung/Feuchtigkeit/Temperatur/Brand, zweckentsprechende Ausrüstung
+  inkl. sanitärer Einrichtungen).
+- **§ 301 PBG (Besonnung):** CONFIRMED (im Destillat, nicht im Wiki-Kurztext
+  einzeln geführt — Ausrichtungsverbot NO/NW für Mehrzimmerwohnungen, Ausnahmen
+  Kern-/Zentrumszonen/Hotels/besondere Verhältnisse).
+- **§ 302 PBG (Belichtung/Belüftung):** CONFIRMED. Fensterfläche **"wenigstens
+  einen Zehntel der Bodenfläche"** (Abs. 2), Kriterien über dem Erdreich/ins Freie/
+  ausreichend öffenbar; Abweichungen Abs. 3 bei besonderen Verhältnissen (Schutz vor
+  Einwirkungen öffentlicher Bauten, Schutzbestimmungen Kernzonen/Einzelobjekte).
+  Wiki-Fassung stimmt wortgetreu.
+- **§ 303 PBG (Mindestfläche):** CONFIRMED. **"beträgt 10 m²"**, EFH-Ausnahme
+  bereits **direkt im Paragraphentext selbst** ("ausser solchen in Einfamilienhäusern
+  und bei vergleichbaren Wohnungsarten") — nicht nur über § 32 ABV vermittelt, wie
+  die Formulierung im Wiki nahelegen könnte. Küchen-Sonderregelung Abs. 2 delegiert
+  an den Regierungsrat (= § 36 BBV I, dort bereits korrekt referenziert).
+- **§ 304 PBG (Raumhöhe):** CONFIRMED für die **aktuell geltende Fassung**
+  (Hauptfliesstext, Zeile 3102 ff.): 2,4 m / Kernzone 2,3 m (Abs. 2), punktuelle
+  Unterschreitung durch technisch bedingte Bauteile (Abs. 2 Satz 2), Dachraum-Regel
+  "wenigstens über der halben Bodenfläche" (Abs. 3). **Wichtiger Zusatzfund:** Der
+  Raw-Text enthält am Dokumentende zusätzlich eine **frühere, nur übergangsrechtlich
+  anwendbare Fassung** von § 304 (Teil der "Übergangsbestimmungen zur Änderung vom
+  14. September 2015", dort mit EFH-Ausnahme direkt im Wortlaut von § 304 selbst).
+  Diese gilt nur so lange, wie eine einzelne Gemeinde ihre BZO noch nicht an die
+  Änderung 2015 angepasst hat (Frist war 8 Jahre, also faktisch nur noch in
+  Restfällen relevant) — keine Korrektur der Wiki-Aussage nötig, aber als Nuance
+  ergänzt.
+- **§ 305 PBG (Innere Erschliessung):** CONFIRMED. Haustüren Lichtmass 1 m, Treppen/
+  Gänge zu dauernd genutzten Räumen 1,2 m, EFH/vergleichbare Wohnungen sowie
+  wohnungsinterne Treppen 0,9 m (Abs. 1); Fluchtweg-Grundpflicht Abs. 2 (Detail
+  → Skill `brandschutz`).
+- **§ 306 PBG (Küchen):** CONFIRMED. Küchen dürfen ohne Abtrennung mit Wohnräumen
+  verbunden sein, wenn wirksamer Brandschutz und einwandfreie Lüftungsanlagen
+  vorliegen — Wortlaut exakt wie im Wiki.
+- **§ 32 ABV (Geltungsbereich-Ausnahme EFH):** CONFIRMED. Referenziert im Wortlaut
+  ausdrücklich **"§§ 303–305 PBG"** (nicht 299-306 gesamt) und definiert
+  einfamilienhausähnliche Wohnungsarten kumulativ: (a) kein gemeinsames Treppenhaus
+  mit anderen Wohnungen + unmittelbarer Zugang ins Freie, (b) Gebäudeteil tritt
+  äusserlich ähnlich einem EFH in Erscheinung. Die Ausnahme betrifft also **nicht**
+  §§ 299-302 und § 306 (Belichtung/Belüftung/Besonnung/Küchen gelten für EFH
+  unverändert) — Wiki-Formulierung "§§ 303-305 PBG gelten nicht für EFH" ist präzise
+  richtig, keine Korrektur nötig.
+- **§ 4 ABV (Ausrüstungen):** CONFIRMED. "Ausrüstungen sind technische Einrichtungen
+  von Bauten und Anlagen, die der Benützung oder der Sicherheit dienen" — Wortlaut
+  exakt wie im Destillat zitiert (dort mit Beispielliste aus dem Kontext ergänzt,
+  die selbst nicht im § 4 steht, sondern sinngemäss aus Figur 1.2/Systematik
+  abgeleitet ist — als eigene Einordnung bereits korrekt gekennzeichnet).
+
+**Kein Fehler gefunden.** Keine erfundenen Paragraphen, keine falschen Zahlen, keine
+falsche Zuordnung. Einzige Präzisierung: § 303 PBG trägt die EFH-Ausnahme bereits im
+eigenen Wortlaut (zusätzlich zur Verweisnorm § 32 ABV, die sich auf §§ 303-305
+insgesamt bezieht) — das ist keine Diskrepanz, nur eine Ergänzung der Fundstelle.
 
 ## JANS-Anwendung
 

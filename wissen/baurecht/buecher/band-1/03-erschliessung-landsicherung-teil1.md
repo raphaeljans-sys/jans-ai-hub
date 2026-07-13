@@ -7,7 +7,8 @@ shots: 105–120 (16 Doppelseiten, alle gelesen)
 paragraphen: ["Art. 4 WEG", "Art. 5 WEG", "Art. 15 RPG", "Art. 19 RPG", "Art. 14 ff. RPG", "Art. 26 RPG", "Art. 87 BV", "Art. 83 BV", "Art. 18q ff. EBG", "Art. 18t EBG", "Art. 62 EBG", "Art. 22 NSG", "Art. 12 ff. NSG", "Art. 21 ff. NSG", "Art. 39 NSG", "Art. 2 GueTG", "Art. 4 GueTG", "Art. 12 ff. GueTG", "Art. 2 GueTV", "Art. 25 ff. GueTV", "Art. 15 ff. EleG", "§ 2 StrG", "§ 6 StrG", "§ 1 StrG", "§ 3 StrG", "§ 4 StrG", "§§ 12 ff. StrG", "§ 13 StrG", "§ 14 StrG", "§ 15 StrG", "§ 16 StrG", "§ 17 StrG", "§ 18 ff. StrG", "§ 21 StrG", "§ 23 StrG", "§§ 43 ff. StrG", "§§ 46 f. StrG", "§§ 53 ff. StrG", "§ 56 StrG", "§ 62 lit. b ff. StrG", "§ 33a E-StrG", "§ 33b E-StrG", "§ 5 PBG", "§ 7 PBG", "§ 24 PBG", "§ 30 PBG", "§ 31 PBG", "§§ 90 ff. PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 95 PBG", "§ 96 PBG", "§§ 96 ff. PBG", "§ 97 PBG", "§ 99 PBG", "§§ 99-101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 108 PBG", "§§ 108 f. PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§§ 114 ff. PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§§ 120 ff. PBG", "§ 121 PBG", "§ 122 PBG", "§ 125 PBG", "§ 126 PBG", "§ 129 PBG", "§ 160a PBG", "§ 167 PBG", "§ 168 PBG", "§ 237 PBG", "§ 264 PBG", "§ 266 PBG", "§ 268 PBG", "§ 280 PBG", "§ 88 PBG", "§§ 71 ff. GG", "§§ 15a/15b GG", "§ 11 QPV"]
 status: emerging
 gelesen: 2026-07-02
-last_updated: 2026-07-02
+last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95/96-101/106/111/114-122 PBG gegen raw/260607_amtlich_zh_pbg.md; § 62 StrG NICHT verifizierbar, kein StrG-Volltext im Hub — bleibt Buch-Sekundärquelle)
 ---
 
 # Kap. 3 — Erschliessung, Landsicherung und Landumlegung (Teil 1)
@@ -70,7 +71,7 @@ Zugeordnet nach Planungsstufe (S. 210–211):
 - **Betriebsanlagen zu Verkehrsbauten** (3.6.4.1): oeffentliche Parkhaeuser, Grossparkierungs-/Park-and-Ride-Anlagen, Gebaeude fuer Unterhalts-/Ueberwachungs-/Versorgungsdienst (§ 96 Abs. 2 lit. b PBG); Rechtswirkungen wie Verkehrsbaulinien (§ 264 PBG) (S. 224).
 - **Fluss- und Bachkorrektionen** (3.6.4.2, § 96 Abs. 2 lit. b PBG): sichern geplante Korrektionsflaechen; nicht mit Gewaesserabstandslinien (§ 67 PBG) zu verwechseln (BEZ 1997 Nr. 13). Gewaesserabstandslinie = Abstand Baute–Grenze des oeffentlichen Gewaessers; Gewaesserkorrektionslinie sichert den Rand des kuenftigen Gewaessers (z.B. Bachoeffnung) (S. 224).
 - **Versorgungsleitungen** (3.6.4.3): sichern Flaechen bestehender/geplanter Leitungen (Versorgungsplan) und Industriegleise; Bauten auf diese Baulinien nur, wenn Grenz-/Gebaeudeabstaende gegenueber Nachbargrundstuecken es erlauben (§ 268 PBG) (S. 224).
-- **Niveaulinien** (3.6.4.4, § 106 PBG): bestimmen die Hoehenlage der durch Verkehrsbaulinien gesicherten Anlagen (praktisch Neigung der Strassenachse). Fuer die Hoehenlage anstossender Gebaeude nur massgebend, wo die Gebaeudehoehe durch den Baulinienabstand bestimmt wird (§ 280 Abs. 2 PBG) — heute selten, praktisch nur in Staedten (S. 224).
+- **Niveaulinien** (3.6.4.4, § 106 PBG): bestimmen die Hoehenlage der Anlagen, die durch **Verkehrsbaulinien ODER Baulinien fuer kantonale und kommunale Wasserbauprojekte** gesichert werden (Wortlaut § 106 PBG, verifiziert 2026-07-13 — nicht nur Verkehrsbaulinien/Strassenachse, wie eine verkuerzte Lesart nahelegen koennte). Fuer die Hoehenlage anstossender Gebaeude nur massgebend, wo die Gebaeudehoehe durch den Baulinienabstand bestimmt wird (§ 280 Abs. 2 PBG) — heute selten, praktisch nur in Staedten (S. 224).
 - **Ski- und Schlittellinien** (3.6.4.5, § 111 PBG): sichern Ski-/Schlittelabfahrten; befristete Betretungsrechte und Hagraeumungspflichten moeglich. Verbot, hohes Gras im Winter stehen zu lassen, ist nicht zulaessig (BEZ 1984 Nr. 12) (S. 227).
 
 ### 2.9 Landsicherung fuer oeffentliche Werke — Werkplan (3.7.1)
@@ -110,7 +111,7 @@ Zugeordnet nach Planungsstufe (S. 210–211):
 - **Baulinienabstand ueber 30 m** in staedtischen Verhaeltnissen mit Tramlinie moeglich (S. 223).
 - **Baulinie / altes Baugesetz:** nur bei Baulinienabstand von **18 m** oder mehr war Gebaeudehoehe von **20 m** und **sechs Geschosse** zulaessig (§ 62 und § 69 Abs. 2 BauG, historisch) (S. 220).
 - **Heimschlag Baulinie:** Entschaedigungspflicht entsteht i.d.R. nicht, wenn die Baulinie nicht mehr als **ein Drittel** des Grundstuecks belegt (S. 220).
-- **Mehrwertbeitraege (§ 62 lit. b ff. StrG):** kommunale Anlagen mind. **1/4** und hoechstens **1/2** der Kosten (inkl. Landwert); kantonale Anlagen hoechstens **1/4** (S. 237).
+- **Mehrwertbeitraege (§ 62 lit. b ff. StrG):** kommunale Anlagen mind. **1/4** und hoechstens **1/2** der Kosten (inkl. Landwert); kantonale Anlagen hoechstens **1/4** (S. 237). *(Hinweis Modell D 2026-07-13: NICHT amtlich volltextverifiziert — im Hub liegt kein StrG-Volltext vor, nur das PBG. Diese Angabe stuetzt sich ausschliesslich auf das Buch als Sekundaerquelle; vor Verwendung in einem JANS-Dokument den StrG-Volltext beschaffen und gegenpruefen.)*
 - **Auflagefrist Bau-/Niveaulinien: 60 Tage** (§ 108 Abs. 3 PBG) (S. 220).
 - **Verfahrensfristen Strassen (StrG):** oeffentliche Auflage 30 Tage, Einsprachen innert 30 Tagen (§§ 16/17 StrG; siehe Flowcharts S. 233–235).
 
@@ -150,6 +151,15 @@ Zugeordnet nach Planungsstufe (S. 210–211):
 - **Verfahrensrealismus:** Die StrG-Flowcharts (Auflage 30 Tage, Einsprache 30 Tage, Enteignungsverfahren) helfen, in Terminplaenen realistische Vorlaufzeiten fuer die Groberschliessung anzusetzen. Vgl. [[behoerdenverfahren-fristen]].
 
 ## 6. Offene Punkte / zu verifizieren
+- **Modell-D-Volltextabgleich 2026-07-13:** §§ 90-95 PBG (Erschliessungsplan, inkl. § 93
+  Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Skilinien) und §§ 114-122 PBG
+  (Werkplan, vorsorgliches Bauverbot § 120, Heimschlag) wurden gegen `raw/260607_amtlich_zh_pbg.md`
+  geprueft — alle im amtlichen Volltext aufgefunden und bestaetigt, EINE Korrektur (§ 106
+  Niveaulinien bezieht sich auch auf Wasserbau-Baulinien, nicht nur Verkehrsbaulinien). Ergebnisse
+  in [[baulinien-und-abstandslinien]] eingearbeitet (Sektionen 0, 3a-3d).
+- **§ 62 StrG bleibt unverifiziert:** kein StrG-Volltext im Hub vorhanden (nur PBG LS 700.1);
+  Mehrwertbeitraege-Angabe (S. 237) ist reine Buch-Sekundärquelle. StrG-Volltext beschaffen, wenn
+  eine Ausschreibung/ein Bericht sich auf § 62 StrG stuetzt.
 - Alle 16 Shots (S. 208–239) wurden gelesen; keine OneDrive-I/O-Fehler.
 - `speculative` — Die Jahresangabe **RRB 262/2010 vom 13.1.2010** (Gestaltungsgrundsaetze Staatsstrassen, S. 221) ist im Reader schwer lesbar (Nummer «262/2010» unsicher); am amtlichen Volltext gegenpruefen.
 - `speculative` — Bei den Strassen-Verfahrens-Flowcharts (S. 232–235) sind einzelne Paragraphenzahlen in Rauten/Kaesten teils klein; die im Fliesstext belegten §§ (12–17, 21, 23, 41, 45 StrG) sind gesichert, die exakte Zuordnung einzelner Diagrammschritte ggf. am StrG-Volltext verifizieren.

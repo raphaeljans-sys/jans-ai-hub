@@ -1,9 +1,14 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-07-02
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 328 PBG", "§§ 13-15 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md]
+last_updated: 2026-07-13
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]]
+verifiziert:
+  - datum: 2026-07-13
+    methode: "Modell-D-Volltextabgleich (adversarial)"
+    umfang: "Anzeigeverfahren: § 325 PBG, § 325a PBG, §§ 13-15 BVV, §§ 4-7 BBV I"
+    ergebnis: "CONFIRMED mit Praezisierungen (Normhierarchie § 325 PBG/§ 13 BVV, Minergie-Vermutung § 4 Abs. 4 BBV I ergaenzt); Fassungsstand amtlicher Volltext 1.7.2026"
 ---
 
 # Baubewilligungsverfahren
@@ -16,22 +21,61 @@ sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltu
 ## Verfahrensarten
 - **Ordentliches Verfahren:** mit Baugespann (Aussteckung § 311 PBG) und öffentlicher
   Publikation/Auflage (§ 314 PBG).
-- **Anzeige-/vereinfachtes Verfahren (§ 325 PBG / §§ 13-15 BVV):** beschleunigt, **ohne
-  Aussteckung und ohne öffentliche Auflage**, Anzeige an die Nachbarn mit **30-Tage-Frist**.
-  Zulässig nur bei **drei kumulativen** Voraussetzungen (§ 14 BVV): (a) Vorhaben von
-  **untergeordneter Bedeutung** (Katalog § 14 BVV), (b) **keine Drittinteressen berührt** bzw.
-  **schriftliches Einverständnis** der Betroffenen, (c) **kein Antrag** einer Partei auf das
-  ordentliche Verfahren. Es **fällt weg** in **Kern- und Quartiererhaltungszonen** sowie bei
-  **BehiG-relevanten** Umbauten (hindernisfreies Bauen). Beleg
-  [[06-baurechtliches-verfahren-teil2]] (Bd 1, S. 402-421).
-- **Bewilligungsfrei:** bestimmte Bauten nach BBV I (z.B. kleine Gartenbauten,
-  gewisse Solaranlagen).
+- **Anzeige-/vereinfachtes Verfahren (§ 325 PBG als Delegationsnorm / §§ 13-15 BVV als
+  materielle Regelung):** beschleunigt, **ohne Aussteckung und ohne öffentliche Auflage**
+  (§ 13 Abs. 2 BVV), **Behandlungsfrist 30 Tage** ab Eingang der vollständigen Unterlagen.
+  § 325 Abs. 1 PBG ermächtigt den Verordnungsgeber, das Verfahren zu vereinfachen/durch
+  ein Anzeigeverfahren zu ersetzen, «wenn nach den Umständen keine Interessen von Nachbarn
+  oder des Natur- und Heimatschutzes berührt werden können» — die eigentliche
+  Voraussetzungs-/Verfahrensregelung steht in §§ 13-18 BVV. Zulässig bei **drei kumulativen**
+  Voraussetzungen (§ 13 BVV): (a) Vorhaben von **untergeordneter Bedeutung** (nicht
+  abschliessender Katalog § 14 BVV, lit. a-p), (b) **keine zum Rekurs berechtigenden
+  Interessen Dritter berührt** (§ 13 Abs. 1, § 15 Abs. 1 BVV) bzw. bei Betroffenheit
+  **nachgewiesene Zustimmung** der offensichtlich rekursberechtigten Dritten (§ 15 Abs. 2-3
+  BVV, qualifizierte E-Signatur oder eingescannte Unterschrift), (c) **kein Antrag** der
+  Gesuchstellenden auf das ordentliche Verfahren (§ 13 Abs. 3 BVV). Dachflächenfenster/
+  -aufbauten/-einschnitte im Katalog nur zulässig bis **1/20 der betreffenden Dachfläche**
+  (§ 14 lit. d BVV, = 5 %); **ausgenommen Kern- und Quartiererhaltungszonen**. Bei
+  **BehiG-relevanten** Umbauten (hindernisfreies Bauen) fällt das Anzeigeverfahren weg, wenn
+  Interessen beschwerdeberechtigter Behinderter tangiert sind. In Zweifelsfällen wird
+  öffentlich bekannt gemacht; folgt innert Auflagefrist ein Zustellbegehren nach § 315 PBG,
+  greift das ordentliche Verfahren, sonst das Anzeigeverfahren (§ 15 Abs. 4 BVV) — die
+  30-Tage-Frist beginnt dann am 3. Tag nach Ablauf der Auflagefrist. Beleg
+  [[06-baurechtliches-verfahren-teil2]] (Bd 1, S. 402-421); Modell-D-Volltextabgleich
+  2026-07-13 gegen § 325 PBG + §§ 13-15 BVV (amtlicher Volltext, Fassungsstand 1.7.2026):
+  CONFIRMED, mit Präzisierung der § 325/§ 13-BVV-Normhierarchie (Delegationsnorm vs.
+  materielle Regel).
+- **Bewilligungsfrei:** bestimmte Kleinbauten/-anlagen nach **§ 1 BVV** (z.B. Bauten bis
+  2,5 m Höhe/6 m2 Grundfläche, steckerfertige Solaranlagen bis 4 m2 ausserhalb
+  Kernzonen/Schutzgebieten). *Korrektur Modell-D-Abgleich 2026-07-13:* zuvor fälschlich
+  «nach BBV I» — die Befreiungstatbestände stehen in § 1 BVV, nicht in der BBV I.
+
+## Energetische Sanierungen im Anzeigeverfahren (§ 325a PBG)
+**§ 325a PBG** ordnet energetische Sanierungen der Gebäudehülle **zwingend dem
+Anzeigeverfahren** zu («Energetische Sanierungen der Gebäudehülle werden im Anzeigeverfahren
+beurteilt.») — unabhängig vom Katalog des § 14 BVV und unabhängig von den Baukosten. Für
+JANS relevant bei Fassadendämmungen/Fensterersatz im Bestand: kein ordentliches Verfahren
+nötig, sofern nicht ausnahmsweise Drittinteressen/Kernzonen-Restriktionen greifen.
+*Modell-D-Volltextabgleich 2026-07-13:* § 325a PBG ist im amtlichen konsolidierten
+PBG-Volltext (Fassungsstand 1.7.2026) **unverändert vorhanden**, Wortlaut deckt sich exakt
+mit dem Buch-Destillat (Bd 1, S. 409). Der im Destillat offen gelassene
+`speculative`-Vermerk («aktuellen Stand/Wortlaut prüfen») ist damit **aufgelöst: CONFIRMED**,
+keine Revision seit der 6. Auflage (2019) erkennbar am Gesetzestext selbst.
 
 ## Private Baukontrolle (§§ 4-7 BBV I)
 Freiwilliger Beizug einer privaten Fachperson («Befugter»), der die baurechtliche Kontrolle
-übernimmt: **Projektbestätigung** vor der Baufreigabe, **Ausführungskontrolle** vor der
-Bezugsabnahme. Verlagert erhebliche **Haftung** auf den Befugten (bis Urkundenfälschung bei
-Falschbestätigung). Beleg [[06-baurechtliches-verfahren-teil2]].
+übernimmt: **Projektbestätigung** vor der Baufreigabe (§ 4 Abs. 2 BBV I, elektronisch über
+die Plattform, qualifizierte E-Signatur), **Ausführungskontrolle** vor der Bezugsabnahme.
+Verlagert erhebliche **Haftung** auf den Befugten (bis Urkundenfälschung bei
+Falschbestätigung; Entzug der Befugnis bei Missbrauch/grober Unsorgfalt, § 5 Abs. 1 BBV I).
+Die Befugnis wird durch Aufnahme in eine öffentlich einsehbare Liste erteilt (§ 6 BBV I),
+über die eine Kommission bei der Baudirektion berät (§ 7 BBV I). **Minergie-Vermutung**
+(§ 4 Abs. 4 BBV I): Wird das Minergie-Label zugesichert und erteilt, gelten die
+energetischen Anforderungen gemäss Anhang Ziff. 3.2/3.3/3.4.1/3.4.2 BBV I als erfüllt —
+relevant für den Energienachweis bei JANS-Neubauten/-Sanierungen mit Minergie-Ziel. Beleg
+[[06-baurechtliches-verfahren-teil2]]; Modell-D-Volltextabgleich 2026-07-13 gegen §§ 4-7
+BBV I (amtlicher Volltext): CONFIRMED, Minergie-Vermutung (§ 4 Abs. 4) als Ergänzung
+aufgenommen (im ursprünglichen Destillat/Wiki nicht erwähnt).
 
 ## Prinzip des einmaligen Rechtsschutzes
 Was in einem **Zonen- oder Gestaltungsplan** abschliessend geregelt ist, kann im späteren

@@ -21,7 +21,12 @@ paragraphen:
   - "Art. 7/9/10 BehiG (Behinderten-Beschwerderecht, Unentgeltlichkeit)"
 status: emerging
 gelesen: 2026-07-02
-last_updated: 2026-07-02
+last_updated: 2026-07-13
+verifiziert:
+  - datum: 2026-07-13
+    methode: "Modell-D-Volltextabgleich (adversarial)"
+    umfang: "Anzeigeverfahren: § 325 PBG, § 325a PBG, §§ 13-15 BVV, §§ 4-7 BBV I gegen amtlichen Volltext 260607_amtlich_zh_pbg.md / _bvv.md / _bbv1.md (Fassungsstand 1.7.2026)"
+    ergebnis: "CONFIRMED mit Praezisierungen; siehe Sektion 6"
 ---
 
 # Kap. 6 — Baurechtliches Verfahren (Teil 2 / Restschuld)
@@ -61,13 +66,13 @@ Der Abschluss von Kap. 6 behandelt das Zustellbegehren als Prozessvoraussetzung 
 - **«Killerentscheid» / Hindernisschreiben** (§ 6.7.8.6): Stellt das örtliche Bauamt oder ein kantonales Amt fest, dass ein Vorhaben zu verweigern ist, teilt es dies unter Orientierung der weiteren Stellen mit («Hindernisschreiben»). Wird das Gesuch nicht zurückgezogen, wird einstweilen nur der ablehnende Einzelentscheid eröffnet («Killerentscheid», § 12 Abs. 3 BVV). Drei Wege für die Gesuchsstellenden: Rückzug, Anfechtung des Killerentscheids (Zeitgewinn), oder Beharren auf vollständige Behandlung. Verfahrensablauf zwingend (§ 18 Abs. 2 BVV verweist ausdrücklich auf § 12 Abs. 1/2 BVV, nicht auf Abs. 3). (S. 408)
 
 ### Anzeigeverfahren (§ 6.7.9) — S. 409-416
-- **Voraussetzungen / Grundsätze** (§ 6.7.9.1): Für Bauvorhaben von untergeordneter Bedeutung, durch die keine zum Rekurs berechtigenden Interessen Dritter berührt werden, gilt anstelle des ordentlichen Verfahrens das Anzeigeverfahren (§ 325 Abs. 1 PBG; § 13 Abs. 1 BVV; im Einklang mit Art. 22 RPG). Grundsätze näher in § 14 BVV (untergeordnete Bedeutung) und § 15 BVV (Interessen Dritter). (S. 409)
+- **Voraussetzungen / Grundsätze** (§ 6.7.9.1): Für Bauvorhaben von untergeordneter Bedeutung, durch die keine zum Rekurs berechtigenden Interessen Dritter berührt werden, gilt anstelle des ordentlichen Verfahrens das Anzeigeverfahren (§ 13 Abs. 1 BVV; im Einklang mit Art. 22 RPG). *Praezisierung Modell-D-Abgleich 2026-07-13:* § 325 Abs. 1 PBG selbst ist eine **Delegationsnorm** («... kann durch die Verordnung das Bewilligungsverfahren vereinfacht oder durch ein Anzeigeverfahren ersetzt werden, wenn nach den Umständen keine Interessen von Nachbarn oder des Natur- und Heimatschutzes berührt werden können») — die materielle Voraussetzungs-/Ablaufregelung steht in §§ 13-18 BVV. Grundsätze näher in § 14 BVV (untergeordnete Bedeutung) und § 15 BVV (Interessen Dritter). (S. 409)
 - **Drei kumulative Voraussetzungen** (S. 409):
   1. Das Bauvorhaben ist untergeordnet (§ 13 Abs. 1 BVV).
   2. Keine zum Rekurs berechtigenden Interessen Dritter berührt (§ 13 Abs. 1 BVV) ODER schriftliches Einverständnis der Betroffenen (§ 15 Abs. 2 BVV).
   3. Die Gesuchsstellenden verlangen nicht die Durchführung des ordentlichen Verfahrens (§ 13 Abs. 3 BVV).
 - Auch möglich bei kantonalen Beurteilungen/Nebenbestimmungen (BEZ 2003 Nr. 53), aber Bagatellprojekten vorbehalten. Keinen Einfluss haben die Baukosten. Energetische Sanierungen der Gebäudehülle werden nach § 325a PBG ohnehin im Anzeigeverfahren beurteilt. (S. 409)
-- **Anwendungskatalog** § 14 BVV (nicht abschliessend, S. 410): Vordächer/Balkone/Nischen, kleinere Dachaufbauten/Dachkamine, Dachflächenfenster/Dacheinschnitte (bis 5 % Dachfläche, ausser Kernzonen/Quartiererhaltungszonen), unwesentliche Verkleinerungen, einzelne Fassadenöffnungen (Türen/Fenster), innere Trennwände, Zweckänderung einzelner Räume ohne Nutzungsänderung, Heizungen/Öltanks, Empfangsantennen, **Solaranlagen in Bauzonen (§ 48 Abs. 2 lit. b-f PBG, soweit nicht meldepflichtig)**, offene Schwimmbäder, Gartenhäuser/Schöpfe (§ 18 Abs. 1 BBV II), Reklameeinrichtungen (ausser Kernzonen), Mauern/Einfriedungen bis 1.5 m ab massgebendem Terrain, Grundstücksunterteilung. (S. 410)
+- **Anwendungskatalog** § 14 BVV (nicht abschliessend, lit. a-p, S. 410): Vordächer (a), Balkone/Nischen/rück-/vorspringende Gebäudeteile (b), Dachkamine/kleinere technisch bedingte Dachaufbauten (c), Dachflächenfenster/Dachaufbauten (Lukarnen, Gauben)/Dacheinschnitte (d, **wörtlich «bis 1/20 der betreffenden Dachfläche»** = 5 %, ausser Kernzonen/Quartiererhaltungszonen), unwesentliche Verkleinerungen von Grundriss/Baukubus (e), Veränderung einzelner Fassadenöffnungen/Türen/Fenster (f), Verschieben/Einziehen innerer Trennwände (g), Zweckänderung einzelner Räume ohne Änderung der Nutzweise (h), Heizungen/Erdwärmesonden/Öltanks soweit nicht meldepflichtig (i), Empfangsantennen soweit bewilligungspflichtig (j), offene nicht gewerbliche Schwimmbäder (k), Gartenhäuser/Schöpfe gemäss § 18 Abs. 1 BBV II soweit bewilligungspflichtig (l), Reklameeinrichtungen soweit bewilligungspflichtig, ausser Kernzonen (m), Mauern/geschlossene Einfriedigungen bis 1,5 m Höhe ab massgebendem Terrain (n), Grundstücksunterteilung gemäss § 309 Abs. 1 lit. e PBG (o), Fällen erhaltungspflichtiger Bäume gemäss § 309 Abs. 1 lit. n PBG (p). *Korrektur Modell-D-Abgleich 2026-07-13:* **Solaranlagen sind im geltenden § 14 BVV-Katalog NICHT (mehr) enthalten.** Der im Destillat zuvor genannte Bezug «Solaranlagen in Bauzonen (§ 48 Abs. 2 lit. b-f PBG, soweit nicht meldepflichtig)» ist überholt: die Solaranlagen-Regelung wurde aus dem Anzeigeverfahren-Katalog herausgelöst und ist heute in einem eigenen Regime in § 1 BVV (**bewilligungsfrei**: steckerfertige Solaranlagen bis 4 m2, ausser in Kernzonen/Schutzgebieten) sowie in § 2a-2c BVV (**meldepflichtig**: Dach-Solaranlagen nach Art. 32a RPV angepasst, Fassaden-Solaranlagen unter techn. Voraussetzungen, freistehende Anlagen bis 20 m2 in Bauzonen bzw. unbeschränkt in Industrie-/Gewerbezonen) geregelt. Bewilligungspflichtig bleiben Solaranlagen nur in Kernzonen/Ortsbild-/Denkmalschutzgebieten (§ 2a Abs. 2 BVV) — dort dann im ordentlichen, nicht im Anzeige-Verfahren. Fund belegt gegen § 1, § 2a-2c BVV (amtlicher Volltext 1.7.2026); § 48 PBG selbst regelt nur allgemein die Zonenordnung/Sonnenenergie-Erleichterung, keine Solar-Meldepflicht. (S. 410)
 - **Interessen Dritter** (§ 15 BVV, S. 411): Bei Betroffenheit ist das schriftliche Einverständnis der offensichtlich zum Rekurs berechtigten Dritten nachzuweisen (§ 15 Abs. 2 BVV) — schriftlich, projektbezogen. Mieter/Pächter sind grundsätzlich rekurslegitimiert; Zustimmung kann bis zum Entscheid zurückgezogen werden (dann ordentliches Verfahren mit nachgeholter Publikation/Aussteckung). Bei Natur-/Heimatschutz-Verbänden ist das Anzeigeverfahren nicht möglich (§ 325 Abs. 1 PBG). (S. 411)
 - **Besonderheiten nach BehiG** (S. 411): Untergeordnete Vorhaben, die behindertengerechte Belange tangieren (Geltungsbereich BehiG, Art. 7/9), dürfen nicht mehr im Anzeigeverfahren bewilligt werden, wenn der Umbau die Interessen beschwerdeberechtigter Behinderter tangiert (z.B. Grundrissänderungen). (S. 411)
 - **Vorgehen in Zweifelsfällen** (§ 6.7.9.2, S. 412): Vorhaben aussstecken (falls darstellbar) und öffentlich bekannt machen; bei Zustellbegehren innert Auflagefrist → ordentliches Verfahren, sonst Anzeigeverfahren. Behandlungsfrist 30 Tage beginnt am dritten Tag nach Ablauf der Auflagefrist (§ 15 Abs. 3 BVV). (S. 412)
@@ -86,7 +91,8 @@ Der Abschluss von Kap. 6 behandelt das Zustellbegehren als Prozessvoraussetzung 
 - **Bereiche** (§ 6.8.1): Private Kontrolle durch befugte private Fachleute in Bereichen der BBV I; Ablauf/Voraussetzungen in §§ 4-7 BBV I. Unterstellte Fachbereiche (Anhang Ziff. 3 BBV I): Schutz vor Lärm, Wärmedämmung, Heizungsanlagen (auch Wärmepumpen), Höchstanteil nicht erneuerbarer Energien, Klima-/Belüftungsanlagen, Beleuchtungs-/Beförderungsanlagen, Industrieabwasser/-abfall, Löschwasserrückhaltung, Lageranlagen, Liegenschaftsentwässerung, individuelle Wärmeverbrauchsmessung. Liste der Befugten öffentlich einsehbar (§ 6 Abs. 1 BBV I). (S. 417)
 - **Befugnis zur privaten Kontrolle** (§ 6.8.2): Erteilung an Personen mit nötigen Fachkenntnissen und gutem Leumund; Entzug bei Missbrauch/grober Unsorgfältigkeit/Wegfall der Voraussetzungen (BEZ 2002 Nr. 36). Beurteilung durch «Kommission private Kontrolle» der Baudirektion; Verfügung durch die Baudirektion (§§ 4-7 BBV I). (S. 417)
 - **Aufgaben** (§ 6.8.3): Befugte bestätigen unterschriftlich die **Projektbestätigung** (§ 4 Abs. 2 BBV I) — bei Baueingabe meist noch nicht möglich, i.d.R. vor Baufreigabe — sowie die **Ausführungskontrolle** (§ 4 Abs. 2 BBV I). Baubehörde zu eigenen Sachverhaltsabklärungen berechtigt, nicht verpflichtet (§ 4 Abs. 5 BVV); Kontrollfunktion auf Stichproben beschränkbar. Erhebliche Verantwortung des Befugten: bei Nichterfüllung Verweis, Entzug der Befugnis (§ 5 Abs. 1 BBV I) oder strafrechtliche Sanktion wegen Urkundenfälschung. (S. 418)
-- **Form der Projektbestätigung** (§ 6.8.4): Projektbestätigung auf Plänen und in nachvollziehbarem Bericht (§ 4 Abs. 2 BBV I). Nachweis-Hauptformular «Energetische und schalltechnische Massnahmen». Bei Ausnahmebewilligung (§ 220 PBG) oder Abweichung von Richtlinien/Normalien (§ 360 Abs. 3 PBG) ausdrücklich aufmerksam machen (§ 4 Abs. 4 BBV I). (S. 418)
+- **Form der Projektbestätigung** (§ 6.8.4): Projektbestätigung auf Plänen und in nachvollziehbarem Bericht (§ 4 Abs. 2 BBV I). Nachweis-Hauptformular «Energetische und schalltechnische Massnahmen». Bei Ausnahmebewilligung (§ 220 PBG) oder Abweichung von Richtlinien/Normalien (§ 360 Abs. 3 PBG) ausdrücklich aufmerksam machen (§ 4 Abs. 5 BBV I, *Korrektur Modell-D-Abgleich 2026-07-13: im geltenden Volltext Abs. 5, nicht Abs. 4 — Abs. 4 regelt die Minergie-Vermutung, siehe unten*). (S. 418)
+- **Minergie-Vermutung** (§ 4 Abs. 4 BBV I, Ergänzung Modell-D-Abgleich 2026-07-13): Wird bei einem Bauvorhaben das Minergie-Label zugesichert und erteilt, gelten die in Ziff. 3.2, 3.3, 3.4.1 und 3.4.2 des BBV-I-Anhangs genannten Rechtsnormen, soweit sie energetische Anforderungen betreffen, als erfüllt. Im Buch-Destillat (Kap. 6, 6. Aufl. 2019) nicht erwähnt; für JANS relevant als Vereinfachung des Energienachweises bei Minergie-Zielprojekten.
 - **Bestätigung über die Ausführungskontrolle** (§ 6.8.5): Vor Bezugsabnahme Berichte über private Ausführungskontrolle beibringen (§ 4 Abs. 2 BBV I); Formular «Anmeldung zur Bezugsabnahme» (§ 9a BBV I). (S. 420)
 - **Behördliche Kontrolle** (§ 6.8.6): Private Kontrolle ist freiwillig; Gesuchsstellende können darauf verzichten und behördliche Kontrolle verlangen. Gemeinde kann für Gesuchseingabe ohne private Kontrolle erhöhte Gebühren verlangen. (S. 420)
 
@@ -132,8 +138,37 @@ Der Abschluss von Kap. 6 behandelt das Zustellbegehren als Prozessvoraussetzung 
 
 ## 6. Offene Punkte / zu verifizieren
 
-- Die genaue Fassung/Nummerierung der zitierten **BVV- und BBV-I-Paragraphen** (§§ 4-7, 9, 9a, 12-19, 21 BVV; §§ 4-7 BBV I) stammt aus der 6. Aufl. 2019 — `speculative` bzgl. aktueller Nummerierung; am amtlichen ZH-Volltext (BVV = Bauverfahrensverordnung, BBV I = Besondere Bauverordnung I) gegenprüfen.
-- Der Verweis auf **§ 48 Abs. 2 lit. b-f PBG** (Solaranlagen/Meldepflicht) sollte am aktuellen PBG-Volltext verifiziert werden, da die Solar-Meldepflicht seit 2019 mehrfach revidiert wurde. `speculative`.
-- **§ 325a PBG** (energetische Sanierungen im Anzeigeverfahren) als «Gesetzesnovelle» erwähnt (S. 409) — aktuellen Stand/Wortlaut prüfen.
-- Die beiden **Ablaufgrafiken** (Anzeigeverfahren S. 412-414; Ablauf Private Kontrolle S. 419) sind hier nur textlich zusammengefasst; für Details ggf. Original-Screenshots (11.46.46 und 11.46.51) heranziehen.
-- Literaturhinweise (Haller/Karlen 1999, Mäder 1991, Walker Späh 1999, Störi 2007, Herz 2004, Häfelin/Müller/Uhlmann) nur als Fundstelle notiert, nicht inhaltlich distilliert.
+**Modell-D-Volltextabgleich 2026-07-13 (adversarial) — Ergebnis:**
+
+- **§ 325 PBG:** CONFIRMED, aber präzisiert. Geltender Wortlaut ist eine **Delegationsnorm**
+  («... kann durch die Verordnung ... vereinfacht oder durch ein Anzeigeverfahren ersetzt
+  werden, wenn ... keine Interessen von Nachbarn oder des Natur- und Heimatschutzes berührt
+  werden können»), nicht die unmittelbare Voraussetzungsnorm — diese steht in §§ 13-18 BVV.
+  Der bisherige Wiki-Verweis «Anzeigeverfahren nicht möglich bei Natur-/Heimatschutz-Verbänden
+  (§ 325 Abs. 1 PBG)» ist inhaltlich richtig verortet (§ 325 PBG, nicht §§ 13-15 BVV), da die
+  BVV selbst diesen Ausschluss nicht mehr wörtlich enthält.
+- **§ 325a PBG:** CONFIRMED. Im amtlichen konsolidierten Volltext (Fassungsstand 1.7.2026)
+  unverändert vorhanden, Wortlaut deckt sich exakt mit S. 409 des Buchs («Energetische
+  Sanierungen der Gebäudehülle werden im Anzeigeverfahren beurteilt»). Der zuvor offene
+  `speculative`-Vermerk ist aufgelöst: keine erkennbare Revision seit der 6. Auflage (2019).
+- **§§ 13-15 BVV:** CONFIRMED mit einer Präzisierung: Dachflächenfenster-Schwelle ist wörtlich
+  «1/20 der betreffenden Dachfläche» (§ 14 lit. d BVV) — rechnerisch identisch mit den 5 % im
+  Destillat, jetzt mit Originalwortlaut hinterlegt. Vollständiger Katalog § 14 lit. a-p BVV
+  jetzt lückenlos aufgeführt (zuvor gekürzt).
+- **Solaranlagen (bisher «§ 48 Abs. 2 lit. b-f PBG»):** KORRIGIERT. Dieser Bezug ist überholt/
+  nicht mehr auffindbar. Solaranlagen sind heute eigenständig in § 1 BVV (bewilligungsfrei
+  bis 4 m2 steckerfertig) und § 2a-2c BVV (meldepflichtig, gestaffelt nach Lage/Grösse/Zone)
+  geregelt — nicht mehr Teil des Anzeigeverfahren-Katalogs § 14 BVV. Siehe Korrektur oben.
+- **§§ 4-7 BBV I (private Kontrolle):** CONFIRMED, inhaltlich korrekt zusammengefasst. Ergänzt:
+  Minergie-Vermutung § 4 Abs. 4 BBV I (im Buch/Destillat bisher nicht erwähnt); die
+  Ausnahmebewilligungs-/Richtlinien-Hinweispflicht liegt im geltenden Recht in § 4 Abs. 5 BBV I
+  (nicht Abs. 4, wie zuvor notiert).
+- Die genaue Fassung/Nummerierung der übrigen zitierten **BVV- und BBV-I-Paragraphen**
+  (§§ 9, 9a, 12, 16-19, 21 BVV) wurde in diesem Lauf NICHT im Detail gegengeprüft — bleibt
+  `needs-verification` für einen künftigen Modell-D-Lauf (Fokus dieses Laufs: Anzeigeverfahren
+  + private Kontrolle gemäss Auftrag).
+- Die beiden **Ablaufgrafiken** (Anzeigeverfahren S. 412-414; Ablauf Private Kontrolle S. 419)
+  sind hier nur textlich zusammengefasst; für Details ggf. Original-Screenshots (11.46.46 und
+  11.46.51) heranziehen.
+- Literaturhinweise (Haller/Karlen 1999, Mäder 1991, Walker Späh 1999, Störi 2007, Herz 2004,
+  Häfelin/Müller/Uhlmann) nur als Fundstelle notiert, nicht inhaltlich distilliert.

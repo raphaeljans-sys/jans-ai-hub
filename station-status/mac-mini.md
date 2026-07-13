@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 05:29:41
+Stand: 13.07.2026 05:59:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:29)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 05:29:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b2afe59f synobsis: Nacht-Batch 13.07.2026 — Vektorindex aktualisiert, CAD-Index gefuellt
+- e3e05b2b planungsgrundlagen-training: Run 23 (Energie + Recht/Norm, Token-Vollgas)

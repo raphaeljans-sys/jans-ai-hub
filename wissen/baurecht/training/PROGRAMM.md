@@ -91,6 +91,21 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 36 (2026-07-13, Modell-D-Volltextabgleich, 5 Komplexe parallel via Agent-Tool — Workflow-Tool
+    bewusst vermieden, siehe Run-32-Lehre):** [[wohnhygiene-und-raumanforderungen]] `emerging`→`established`
+    (PBG §§ 299-306 + § 32/§ 4 ABV, alle 10 Fundstellen CONFIRMED, 0 Fehler); [[ausnahmebewilligung-und-
+    bestandesschutz]] ergaenzt (§ 357 Abs. 5 PBG Milderung-von-Bauvorschriften, echte Luecke geschlossen);
+    [[abstaende-und-hoehen]] doppelt verifiziert (§282/284/292/293 PBG + § 30 ABV Schattenwurf **3 Std.**
+    CONFIRMED, **§ 28 ABV korrigiert:** 0,5-m-Regel ist Gerichtspraxis VB.2005.00519, kein Gesetzeswortlaut);
+    [[baulinien-und-abstandslinien]] erweitert (§§ 90-95/§ 111/§§ 114-122 PBG neu, **§ 106 PBG korrigiert:**
+    Niveaulinien auch ueber Baulinien fuer Wasserbauprojekte, nicht nur Verkehrsbaulinien; § 62 StrG bleibt
+    offen mangels Volltext); [[baubewilligungsverfahren]] praezisiert (§ 325/§ 325a PBG, **Solaranlagen-
+    Zuordnung korrigiert:** § 1/§§ 2a-2c BVV statt nicht mehr existentem PBG-Verweis). **3 Korrekturen,
+    0 Halluzinationen.** Ein erster Kap.-16-Agent lieferte keinen Diff und wurde erfolgreich neu gestartet.
+    5 neue Drills (4×C/D, 1×A). **Naechste Phase-3-Ziele:** § 62 StrG (Volltext beschaffen), § 357 Abs. 5
+    PBG Verordnungspraxis (Buchtext Shots ab 732), Kap. 17 Restteile §§ 295-298 PBG, Kap. 2 Teil 3
+    (§ 49b/§§ 83-89/§ 87a/§ 44a PBG Gestaltungsplan, noch kein Wiki-Artikel). Report
+    `outputs/2026-07-13_buch-run36.md`.
   - **Run 33-35 (2026-07-13, Modell-D-Volltextabgleich, zwei zeitgleiche VOLLGAS-Laeufe mit teilweiser
     Ziel-Ueberschneidung — Details je CHANGELOG.md):** [[geschosse-und-kniestock]] `emerging`→`established`
     (Fassungsstand-Umkehr: harmonisiert § 275/276 PBG Kniestock **1,5 m**/4 Geschossarten inkl. Attika ist

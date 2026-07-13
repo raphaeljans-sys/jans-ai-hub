@@ -8,6 +8,7 @@ paragraphen: ["§ 295 PBG", "§ 297 PBG", "§ 299 PBG", "§ 300 PBG", "§ 301 PB
 status: emerging
 gelesen: 2026-06-07
 last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D Volltextabgleich §§ 299-306 PBG + § 32/§ 4 ABV gegen raw/260607_amtlich_zh_pbg.md und raw/260607_amtlich_zh_abv.md — alle CONFIRMED, siehe "Offene Punkte" fuer Rest-Umfang des Kapitels)
 ---
 
 # Kap. 17 — Gebaeude und Raeume; Ausruestungen (Teil 1: §§ 295-306 PBG)
@@ -203,7 +204,34 @@ zwei (§ 40 BBV I).
 - **Schnittstelle Brandschutz:** Fluchtwege § 305 Abs. 2 PBG (Detail S. 1340) und Brandschutz
   generell → **kein** Doppelaufbau, Verweis auf Skill `brandschutz`.
 
-## Offene Punkte / zu verifizieren
+## Modell-D-Volltextabgleich §§ 299-306 PBG + § 32/§ 4 ABV (2026-07-13, adversarial)
+
+Alle acht PBG-Kernparagraphen (§§ 299-306) und beide ABV-Paragraphen (§ 32, § 4)
+wurden gegen `raw/260607_amtlich_zh_pbg.md` und `raw/260607_amtlich_zh_abv.md`
+gegengeprueft. Ergebnis: **CONFIRMED, keine Fehler.** Details und vollstaendige
+Fundstellen-Herleitung siehe Wiki [[wohnhygiene-und-raumanforderungen]], Abschnitt
+"Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV". Kurzfassung:
+
+- § 299 (Geltungsbereich), § 300 (Ausgestaltung/Ausruestung), § 301 (Besonnung),
+  § 302 (Belichtung/Belueftung, "wenigstens einen Zehntel der Bodenflaeche"),
+  § 303 (Mindestflaeche "10 m²", EFH-Ausnahme **bereits im eigenen Wortlaut**),
+  § 304 (Raumhoehe 2,4 m/Kernzone 2,3 m, Dachraum "wenigstens ueber der halben
+  Bodenflaeche"), § 305 (Innere Erschliessung 1 m/1,2 m/0,9 m), § 306 (Kuechen
+  ohne Abtrennung bei Brandschutz+Lueftung) — alle wortgetreu bestaetigt.
+- § 32 ABV referenziert im Wortlaut **explizit "§§ 303–305 PBG"** (nicht 299-306
+  gesamt); Belichtung/Belueftung/Besonnung (§§ 301/302) und Kuechen (§ 306) gelten
+  fuer EFH **unveraendert**, nur Mindestflaeche/Raumhoehe/innere Erschliessung
+  entfallen bei EFH-aehnlichen Wohnungen.
+- § 4 ABV ("Ausruestungen sind technische Einrichtungen von Bauten und Anlagen,
+  die der Benuetzung oder der Sicherheit dienen") wortgetreu bestaetigt.
+- **Zusatzfund (keine Korrektur, nur Nuance):** Der PBG-Rohtext enthaelt am
+  Dokumentende zusaetzlich eine fruehere, nur uebergangsrechtlich (Aenderung vom
+  14.9.2015, max. 8 Jahre) anwendbare Fassung von § 304 mit EFH-Ausnahme direkt im
+  Wortlaut — relevant nur, falls eine einzelne Gemeinde ihre BZO noch nicht
+  angepasst hat. Die im Buch/Destillat referenzierte Fassung ist die aktuell
+  geltende.
+
+## Offene Punkte / zu verifizieren (Rest-Kapitel, unveraendert)
 
 - **Raumhoehen Kernzone 2,3 m** und **Rauminhalt-Staffelung § 10 BBV II** am amtlichen
   BBV-II-Volltext gegenpruefen (raw/), insbesondere die Zwischenwerte der m³/m²-Staffel

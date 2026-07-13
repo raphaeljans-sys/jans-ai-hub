@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review Zweitlauf (Fidelity 94/100, komplementaere Register)
+- Komplementaerer Zweitlauf zum Morgen-Review (05:30, `2026-07-13_fidelity.md`, Fidelity 93,
+  formell-Sie + warm-privat-Du). In der VOLLGAS-Intensivphase (Regel 260712c) mit drei ANDEREN
+  Registern gezogen (rj@ Sent Items via `outlook_email_search`-Connector): operativ-Du
+  Controlling-Liefermail (Hoi Peter/Niederhasli, 2025-08-11), warm-liefernder Investor-Du
+  Studie+Schlussrechnung (Lieber Thomas/Averecura, 2025-08-07), lockerstes Akquise-Peer-Du
+  (Hoi Gerry/Immobilienentwicklung, 2025-08-08). Morgen-Report NICHT ueberschrieben (eigener
+  Dateiname `…13b…`).
+- Register/Tonfall im Blind-Twin durchgehend korrekt ueber alle drei Kanaele; einzige Drift =
+  **Binnen-Fettung entscheidender Kennzahlen inline** — dieselbe Drift wie im Morgenlauf (dort
+  fette Fachbegriffe im formell-Sie), jetzt auch im warm-Investor-Du belegt → **registeruebergreifend**.
+- **QUESTIONS 260712 #3 BEANTWORTET:** «Herzliche Grüsse» ist gezielt der Gruss der warm-liefernden,
+  gehaltvollen Investor-/Stammkunden-Du-Mail (Gold B verbatim; operative Zwischenmails desselben
+  Fadens tragen «Lieber/Bester Gruss»). In `stimme.md` als neuer Marker verankert.
+- 3 neue Selbstfragen an `wiki/QUESTIONS.md` (Runde 260713b): Binnen-Fettung-Schwelle registeruebergreifend,
+  Gruss-Mittelstufen-Skala im reziproken Du, «Kurz zusammengefasst:» als Ergebnis-Mail-Kopf.
+- DNA-Auto-Block unveraendert (nur Marker-Ergaenzung in stimme.md, Do/Don't-Gruss-Logik bereits
+  generisch abgedeckt; `build_dna.py`: «Auto-Block bereits aktuell»). Report: `outputs/2026-07-13b_fidelity.md`.
+
 ## 2026-07-13 — twin-mail-training Batch 37 (2026-03-24 bis 2026-03-27)
 - Sent Items rj@ sequentiell weiter, 24 Mails gesichtet (nach Ausschluss Teams-Auto-Annahmen/
   leerer Weiterleitungen), 10 Volltexte gelesen. Zugriff diese Session ueber **Apple Mail via

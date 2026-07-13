@@ -2,9 +2,9 @@
 title: Abstände und Höhen — Kanton Zürich
 status: established
 last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Querverweis-Aktualisierung nach Modell-D-Verifikation von [[geschosse-und-kniestock]], Buch-Run 33) — vorher: 2026-07-12 (Modell-D §§ 278-293 PBG, Buch-Run 32; zusaetzlich Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum-Schwellen als zwei Absaetze bestaetigt, kein Widerspruch) — vorher: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md"]
-links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich adversarial § 282/§ 284/§ 292/§ 293 PBG + § 28/§ 30 ABV gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md, beide Fassungen Haupt-/Anhangteil geprueft: Hochhaus-Schwelle 25 m, Dachaufbauten 1/2 harmonisiert vs. 1/3 alt, Freilegung UG 1,5 m, Schattenwurf 3 Std. alle CONFIRMED; § 28 ABV „≤ 0,5 m"-Regel als Gerichtspraxis statt Gesetzeswortlaut praezisiert) — vorher: 2026-07-13 (Querverweis-Aktualisierung nach Modell-D-Verifikation von [[geschosse-und-kniestock]], Buch-Run 33) — vorher: 2026-07-12 (Modell-D §§ 278-293 PBG, Buch-Run 32; zusaetzlich Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum-Schwellen als zwei Absaetze bestaetigt, kein Widerspruch) — vorher: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 28 Abs. 1/2/3 ABV", "§ 28 Abs. 1/2 ABV alt", "§ 30 Abs. 1 lit. a/b ABV", "§ 2c ABV", "VB.2005.00519", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md"]
+links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil2-hoehen-dach]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
 # Abstände und Höhen
@@ -249,9 +249,21 @@ Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
   > 3 Stunden dauernde Beschattung überbaubarer Nachbarflächen, sofern dies eine orts- und
   > zonenübliche Überbauung verunmöglicht/erheblich erschwert (lit. b).
 - **Gebäudelänge/-breite** (§ 28 ABV): Länge = **längere**, Breite = **kürzere** Seite des
-  **flächenkleinsten Rechtecks**, das den Grundriss umschliesst. Bauteile, die den Boden um **≤ 0,5 m**
-  überragen, werden nicht mitgerechnet (§ 28 Abs. 1 ABV). Massgebend für Mehrlängenzuschlag (oben) und
-  Arealüberbauungs-/BZO-Längenbeschränkungen (§§ 286/287 PBG).
+  **flächenkleinsten Rechtecks, das die projizierte Fassadenlinie umfasst** (§ 28 Abs. 1/2 ABV
+  harmonisiert, wörtlich; alte Fassung § 28.8 ABV: „…grösste, durch die massgebliche
+  Fassadenlänge gebildete Gebäudeumfassung“ — inhaltsgleich). Anbauten fallen ausser Ansatz,
+  soweit die BZO nichts anderes bestimmt (§ 28 Abs. 3 ABV harmonisiert / § 28 Abs. 2 ABV alt,
+  Verweis auf «Besondere Gebäude» § 49 Abs. 3 PBG).
+  > **Präzisierung (Modell-D-Volltextabgleich 2026-07-13):** Die häufig zitierte Regel, wonach
+  > Gebäudeteile, die den Boden um **≤ 0,5 m** überragen, nicht in die Gebäudelänge/-breite
+  > eingerechnet werden, steht **nicht im Wortlaut von § 28 ABV** (weder harmonisiert noch alt)
+  > — dort fehlt jede Zahlenangabe. Sie ist **Gerichtspraxis** zur Auslegung des „flächenkleinsten
+  > Rechtecks" (VB.2005.00519, BEZ 2003 Nr. 34; Buchsynthese [[16-gebaeudedimensionen-teil3-umgebung]]
+  > S. 1201) und dort korrekt als Praxisregel, nicht als Gesetzeswortlaut zu zitieren. Sie deckt sich
+  > mit der 0,5-m-Schwelle der abstandsfreien Bauten (§ 269 PBG, oben) und der Unterniveaubauten-
+  > Definition (§ 2c ABV harmonisiert), ist aber eine eigenständige Praxisregel zur Gebäudelänge.
+  Massgebend für Mehrlängenzuschlag (oben) und Arealüberbauungs-/BZO-Längenbeschränkungen
+  (§§ 286/287 PBG).
 - **Dachaufbauten (§ 292 PBG) — Fassungsstand Drittel/Hälfte:** Dachaufbauten (Lukarnen, Zwerchgiebel)
   dürfen, soweit die BZO nichts anderes bestimmt, **insgesamt nicht breiter als ein bestimmter Anteil
   der betreffenden Fassadenlänge** sein. **Geltend (LS 700.1, harmonisierter Hauptteil, § 292): höchstens

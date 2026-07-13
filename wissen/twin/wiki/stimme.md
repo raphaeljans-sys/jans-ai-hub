@@ -234,6 +234,19 @@ Rechnungs-Du-Mail, sauber getrennt am selben Beleg (re-00077, Peter Weisser, Dez
 knappe Verifikations-Frage «Kann ich die so rauslassen? Stimmen die Angaben?» und hält den Objekt/Projekt/
 Bauherrschaft-Stempel als Kopf (→ [[arbeitsweise]]). Schwelle «bewusst vs. Tagesform» → [[QUESTIONS]] 260712 #1.
 
+## «Herzliche Grüsse» = Gruss der warm-liefernden, gehaltvollen Investor-/Stammkunden-Du-Mail (belegt Fidelity 260713b, authentisch)
+Beantwortet QUESTIONS 260712 #3 wasserdicht an EINEM Faden (Averecura, an Thomas Angerer/Nova). Die
+**gehaltvolle Studien-Liefermail** (Machbarkeitsstudie + Schlussrechnungs-Ankündigung, mit den fett
+gesetzten Kernkennzahlen CHF 12.34 Mio / 44 Pflegezimmer / 2'400 m² / 600 m² / 16 Pflegezimmer,
+2025-08-07) schliesst mit «**Herzliche Grüsse / Raphael**» + vollem Block — während die **operativen
+Zwischenmails desselben Fadens** «**Lieber Gruss**» (Übergabe-Zwischenmail 06.08.) bzw. «**Bester
+Gruss**» (Offert-Transmittal 29.07.) tragen. → «Herzliche Grüsse» ist gezielt der Gruss der
+**warm-liefernden, gehaltvollen Investor-/Stammkunden-Du-Mail** (Resultat UND Beziehung zugleich),
+nicht der operativen Zwischenmail. Reiht sich zwischen «Lieber/Bester Gruss» (operativ-warm) und
+«Freundliche Grüsse» + Block (dokumentierend/formell): eine warm-persönliche Liefer-Mittelstufe im
+reziproken Du. Der Zwilling wählt beim warm-liefernden, inhaltlich gehaltvollen Du-Ergebnis
+«Herzliche Grüsse», bei den operativen Zwischenmails desselben Kontakts «Lieber/Bester Gruss».
+
 ## Echo-Falle 9: AI-Paste eines Fremd-Textentwurfs VOR dem Stichtag (belegt Fidelity 260710)
 Neuer belegter Echo-Fall (verschärft «AI-Paste vor dem Stichtag», WISSEN-CLAUDE.md): in einer warm-sozialen
 Du-Mail an die Büronachbarin (Gabi Demme, 2025-09-17) ist der **Kopf authentisch** («Hoi liebe Gabi / Danke!

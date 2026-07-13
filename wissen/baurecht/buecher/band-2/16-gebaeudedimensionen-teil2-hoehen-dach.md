@@ -7,7 +7,8 @@ shots: "581-600 (distilliert; schliesst die Restschuld Hoehen/Dach an Teil 1 [[1
 paragraphen: ["§ 275 PBG", "§ 278 PBG", "§ 279 PBG", "§ 280 PBG", "§ 281 PBG", "§ 292 PBG", "§ 5 ABV", "Art. 7 BO Zuerich", "Art. 7a BO Zuerich"]
 status: emerging
 gelesen: 2026-06-29
-last_updated: 2026-06-29
+last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §28 ABV-Querverweis praezisiert nach Abgleich mit [[16-gebaeudedimensionen-teil3-umgebung]] gegen raw/260607_amtlich_zh_abv.md — Rest des Destillats [Gebaeudehoehe/Firsthoehe/gewachsener Boden §278-281/§5 ABV] nicht Gegenstand dieses Laufs, siehe „Offene Punkte")
 ---
 
 # Kap. 16 — Gebaeudedimensionen und Umgebung (Teil 2: Hoehen, Dachgestaltung, Umgebung)
@@ -265,8 +266,13 @@ Gemeinden, die auf den Verkehrsbaulinien beruhende Berechnungsweise auszuschlies
 - **Art. 7 / Art. 7a BO Zuerich:** stadtzuercher Sonderregelung (fiktiver Kniestock,
   Bruestungs-/Rueckspring-Ausnahme) — gilt nur fuer Stadt ZH; in anderen Gemeinden die jeweilige
   BO pruefen, nicht uebertragen.
-- **§ 28 ABV (Fassaden-/Gebaeudehoehe):** am Rande zitiert (S. 1159) — im naechsten Lauf bei
-  Kap. 16/17 vertiefen.
+- **§ 28 ABV (Fassaden-/Gebaeudehoehe):** am Rande zitiert (S. 1159) — vertieft und
+  Modell-D-verifiziert in [[16-gebaeudedimensionen-teil3-umgebung]] (Kap. 16.7, S. 1200-1203):
+  § 28 ABV regelt in Wahrheit **Gebaeudelaenge/-breite** (nicht Fassaden-/Gebaeudehoehe), amtlicher
+  Wortlaut „flaechenkleinstes Rechteck, welches die projizierte Fassadenlinie umfasst" (harmonisiert)
+  bzw. „...durch die massgebliche Fassadenlaenge gebildete Gebaeudeumfassung" (alt); enthaelt **keine**
+  0,5-m-Zahl im Gesetzestext (die 0,5-m-Nichteinrechnung ist Gerichtspraxis VB.2005.00519, nicht
+  Gesetzeswortlaut). Siehe auch [[abstaende-und-hoehen]] (Modell-D 2026-07-13).
 - **Kanton:** durchgehend **Zuercher** Recht (PBG/ABV/BO ZH). SZ-Faelle nur sinngemaess
   (Skill `baurecht`, Quelle SZ separat).
 - **Anschluss naechster Abschnitt:** ab Shot 601 (S. 1194 ff.) folgt die Fortsetzung

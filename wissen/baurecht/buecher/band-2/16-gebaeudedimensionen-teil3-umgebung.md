@@ -5,9 +5,10 @@ band: 2
 seiten: "1194-1229"
 shots: "601-618"
 paragraphen: ["§282 PBG", "§284 PBG", "§278 Abs. 3 PBG", "§72 PBG", "§220 PBG", "§270 Abs. 2 PBG", "§260 Abs. 2 PBG", "§285 PBG (aufgehoben)", "§30 ABV", "§19 BBV II", "§359 Abs. 1 PBG", "Art. 63 VIL", "§49 Abs. 2 lit. b PBG", "§49 Abs. 3 PBG", "§28 ABV", "§27 ABV", "§§286/287 PBG", "§270 Abs. 3 PBG", "§292 PBG", "§292 lit. a/b PBG", "§281 Abs. 1 lit. a PBG", "§280 PBG", "§238 PBG", "Art. 7a BO Zuerich", "§293 PBG", "§276 PBG", "Art. 37 BO Kuesnacht", "Art. 20 BO", "Art. 17 BO Uster"]
-status: emerging
+status: established
 gelesen: 2026-07-09
-last_updated: 2026-07-09
+last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich adversarial §282/§284/§292/§293 PBG + §28/§30 ABV gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md — Schattenwurf-Schwelle und Dachaufbauten-Mass haben sich seit Buchdruck 2019 geaendert, siehe Verifikationsblock vor Abschnitt 3)
 ---
 
 # 16 Gebaeudedimensionen und Umgebung — Teil 3 (Hochhaeuser, Gebaeudelaenge/-breite, Dachaufbauten, Freilegung Untergeschosse/Abgrabungen)
@@ -55,13 +56,37 @@ Dieser Kapitelteil behandelt die restlichen Gebaeudedimensionen: **Hochhaeuser**
 - **§293 Abs. 4 PBG**: Gemeinden koennen Freilegung/Abgrabungen naeher (auch weniger weitgehend, z.B. Gemeinde Erlenbach) regeln; gehen der kantonalen Regelung vor. Abgrabungsvorschriften: gestalterisch + teils nutzungsbeschraenkend (wo Ausnuetzung via **Baumassenziffer** geregelt und keine Geschosszahlvorschriften).
 - **Auslegung**: «natuerlich anfallend» / «Geringfuegigkeit von Abgrabungen». Bsp. **Art. 37 BO Kuesnacht**: geringfuegig = Abgrabungen bis **einen Meter** (Wegleitung). Abgrenzung zu **§280 PBG** (Gebaeudehoehe ab gewachsenem Terrain) — kantonale (technische) vs. kommunale (gestalterische) Bestimmung strikt zu unterscheiden.
 
+> **Modell-D-Volltextabgleich (2026-07-13, adversarial gegen `raw/260607_amtlich_zh_pbg.md` +
+> `raw/260607_amtlich_zh_abv.md`):** Das Buch (Stand 2019) gibt oben korrekt den **damaligen**
+> Rechtsstand wieder — der **heute amtlich geltende Stand** weicht an zwei Stellen ab (Gesetz seither
+> geaendert):
+> 1. **Schattenwurf-Schwelle:** Die vom Buch als „Vernehmlassung 2018" bezeichnete Aenderung auf
+>    **3 Stunden** ist seither erlassen (RRB vom 18. Maerz 2020) und **seit 1. August 2021 in Kraft**.
+>    Der amtliche Volltext § 30 Abs. 1 lit. a/b ABV nennt heute durchgehend **drei Stunden** — nicht
+>    mehr die vom Buch als „heute" bezeichneten zwei Stunden. Fuer aktuelle Projekte gilt **3 Std.**
+> 2. **Dachaufbauten-Mass (§ 292 PBG):** Die vom Buch zitierte **Drittelsregel (1/3)** steht heute nur
+>    noch im **Anhang PBG (Stand 28. Februar 2017)** und gilt **uebergangsrechtlich**, bis die jeweilige
+>    Gemeinde ihre BZO an die harmonisierten Begriffe angepasst hat. Der **geltende Hauptteil** LS 700.1
+>    (harmonisiert) nennt neu **die HAELFTE (1/2)** der betreffenden Fassadenlaenge (§ 292 PBG
+>    harmonisiert, Amtsdruck bestaetigt: „…insgesamt nicht breiter als die Haelfte der betreffenden
+>    Fassadenlaenge"). Pro Gemeinde pruefen, welche Fassung gilt.
+> Alle uebrigen Werte der Tabelle (Hochhaus-Schwelle 25 m, Luftfahrthindernis-Meldepflicht,
+> Vorspruenge 1,3 m, Freilegung UG 1,5 m) sind am amtlichen Volltext **bestaetigt**, keine Aenderung.
+> Zur **Gebaeudelaenge/-breite (§ 28 ABV)**: der amtliche Gesetzeswortlaut selbst („flaechenkleinstes
+> Rechteck, welches die projizierte Fassadenlinie umfasst", § 28 Abs. 1/2 ABV harmonisiert) enthaelt
+> **keine 0,5-m-Zahl** — diese ist, wie in der Tabelle korrekt referenziert, **Gerichtspraxis**
+> (VB.2005.00519), nicht Gesetzeswortlaut. Die Buch-Zuordnung „§28 Abs. 1 ABV; VB.2005.00519" ist damit
+> sachlich richtig (Praxis zur Auslegung der Norm), sollte aber nicht als direktes Zitat des
+> Gesetzestexts missverstanden werden. Siehe auch [[abstaende-und-hoehen]] (Wiki-Synthese, dort
+> ebenfalls praezisiert).
+
 ## 3. Formeln & Schwellenwerte (woertlich belegt)
 
 | Groesse | Wert | Beleg |
 |---|---|---|
 | Hochhaus | Gebaeudehoehe **> 25 m** | §282 Abs. 1 PBG (S. 1194) |
-| Schattenwurf-Schwelle (heute) | Beschattung **> 2 Stunden** an mittleren Wintertagen, am Fusspunkt | §30 Abs. 1 lit. a ABV (S. 1196) |
-| Schattenwurf-Schwelle (Vernehmlassung 2018) | neu **3 Stunden** | RRB Nr. 1055/2018 v. 7.11.2018 (S. 1198) |
+| Schattenwurf-Schwelle (Buchstand 2019) | Beschattung **> 2 Stunden** an mittleren Wintertagen, am Fusspunkt | §30 Abs. 1 lit. a ABV (S. 1196) — **ueberholt, siehe unten** |
+| Schattenwurf-Schwelle (geltend, verifiziert 2026-07-13) | **> 3 Stunden** (beide lit. a/b) | Fassung gemaess RRB vom 18. Maerz 2020, in Kraft seit 1. August 2021 — amtlicher Volltext `raw/260607_amtlich_zh_abv.md` § 30 Abs. 1 lit. a/b ABV; ersetzt die im Buch (6. Aufl. 2019, S. 1198) noch als Vernehmlassung (RRB 1055/2018) gefuehrte 2-Stunden-Schwelle |
 | Meldepflicht Luftfahrthindernis | **> 60 m** dicht besiedelt / **> 25 m** andere Gebiete | Art. 63 VIL (S. 1201) |
 | Nicht-Einrechnung in Gebaeudelaenge | Gebaeudeteile, die gewachsenes Terrain **≤ 0.5 m** ueberragen | §28 Abs. 1 ABV; VB.2005.00519 (S. 1201) |
 | Vorspruenge zur Fassadenlaenge | geschlossene Hoehe **> 1.3 m** ueber mehr als ein Geschoss | §27 Abs. 1 ABV (S. 1226) |
@@ -117,7 +142,7 @@ Dieser Kapitelteil behandelt die restlichen Gebaeudedimensionen: **Hochhaeuser**
 
 ## 6. Offene Punkte / zu verifizieren
 
-- **Status Aenderung §30 ABV** (2-Std. → 3-Std.-Schatten): 2018 in Vernehmlassung (RRB 1055/2018). Ob seither in Kraft gesetzt, im aktuellen ABV verifizieren (Buchstand 6. Aufl. 2019). `speculative` bis geprueft.
+- **Status Aenderung §30 ABV** (2-Std. → 3-Std.-Schatten): 2018 in Vernehmlassung (RRB 1055/2018) — **geklaert (Modell-D-Volltextabgleich 2026-07-13):** die Vernehmlassung wurde umgesetzt. Amtlicher Volltext `raw/260607_amtlich_zh_abv.md` § 30 Abs. 1 lit. a/b ABV (Fussnote 18: "Fassung gemaess RRB vom 18. Maerz 2020, OS 76, 263; ABl 2020-03-27. In Kraft seit 1. August 2021") nennt wortwoertlich **drei Stunden** in beiden Litera — nicht mehr die im Buch (Stand 6. Aufl. 2019) referierten zwei Stunden. Buchstand damit ueberholt; massgebend ist die 3-Stunden-Schwelle. Nicht mehr `speculative`.
 - Seitenspanne Teil 3: **1194-1229**. Der Anfang von S. 1194 traegt noch den Schluss von **16.5** (Gebaeudeprofil Flachdach/«Kaeseglocke», Unterscheidung zur Gebaeudehoehe §280/§281 PBG) — bereits in Teil 2 abgedeckt, hier nur als Uebergang vermerkt.
 - **16.9 endet nicht auf S. 1229** — der Abgrabungs-/Freilegungs-Abschnitt laeuft ueber S. 1229 hinaus weiter (Shot 618 ist die letzte gelesene Doppelseite 1228/1229). Der Rest von 16.9 und der Uebergang zu **16.10 Harmonisierungsvorlage** (ab S. 1230 / Shot 619, bereits distilliert) sind hier nicht erfasst — ggf. S. 1230 f. nachlesen, ob 16.9 dort noch endet.
 - Exakte Fundstelle-Nr. VB.2002.000149 (Maur) im Buch mit doppelter Null geschrieben — so uebernommen, Schreibweise am Original verifizieren.

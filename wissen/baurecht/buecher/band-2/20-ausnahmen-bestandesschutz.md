@@ -3,11 +3,11 @@ name: 20-ausnahmen-bestandesschutz
 kapitel: "20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen"
 band: 2
 seiten: "1433-1455 (Uebersicht 20.1; Ausnahmebewilligung § 220 PBG 20.2 mit Geltungsbereich/Abgrenzungen/Voraussetzungen besondere Verhaeltnisse-Gesetzeszweck-Nachbarschutz-Zustaendigkeit; Bestandesschutz § 357 Abs. 1 PBG 20.3 mit rechtmaessiger Erstellung, Widerspruch zu Bauvorschriften, zulaessige Massnahmen Umbau/Erweiterung/Nutzungsaenderung; NEU S. 1450-1455: Erweiterungen-Kasuistik/Massvorschriften 20.3.3.3, Praxisbeispiele Umbauten/Erweiterungen, Nutzungsaenderungen, weitergehende Abweichungen 20.3.3.5, Schranke oeffentl./nachbarl. Interessen 20.3.3.4, Verbesserungen § 357 Abs. 4 PBG 20.3.4)"
-shots: "720-731 (distilliert, S. 1433-1455; Kapitelfortsetzung § 357 Abs. 5 Milderungen + baupolizeiliche Missstaende S. 1456 ff. + Brandstattrecht § 307 PBG S. 1457 ff. weiterhin offen — Shots ab 732 nicht in diesem Lauf)"
+shots: "720-731 (distilliert, S. 1433-1455; § 357 Abs. 5 Milderungsklausel ergaenzt via amtlichen PBG-Volltext, Modell-D-Refuter 2026-07-13, raw/260607_amtlich_zh_pbg.md Z. 3770-3773 — Buch-Abschnitt zu Abs. 5 selbst noch nicht gelesen; baupolizeiliche Missstaende S. 1456 ff. + Brandstattrecht § 307 PBG S. 1457 ff. weiterhin offen — Shots ab 732 nicht in diesem Lauf)"
 paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 262 PBG", "§ 67 PBG", "§ 49 Abs. 3 PBG", "§ 100 PBG", "§ 101 PBG", "§ 269 PBG", "§ 275 Abs. 2 PBG", "§ 360 PBG", "§ 21 WWG", "Art. 24 RPG", "Art. 24c RPG", "Art. 24c Abs. 2 RPG", "Art. 37a RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 9 BV", "Art. 8 ZGB", "§ 34 BBV I"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-07-13
+last_updated: 2026-07-13 (§ 357 Abs. 5 Wortlaut ergaenzt)
 ---
 
 # Kap. 20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen
@@ -339,14 +339,41 @@ Gesamtwuerdigung zu beurteilen.
 > gegenzupruefen (Rule `identifikatoren-verifizieren`). Kernaussagen (keine feste Quote, Identitaets-/
 > Umgehungstest, Interessenabwaegung, § 357 Abs. 4 Verbesserungen bei Zumutbarkeit) sind belegt.
 
+### 20.3.5 Milderung von Bauvorschriften — § 357 Abs. 5 PBG (amtlicher Wortlaut, Buch-Abschnitt offen)
+
+- **Wortlaut (amtlicher PBG-Volltext verifiziert, raw/260607_amtlich_zh_pbg.md Z. 3770-3773,
+  Modell-D-Refuter 2026-07-13):**
+  «**Bauvorschriften, die eine zweckmaessige Anpassung bestehender Bauten und Anlagen an
+  Vorschriften im ueberwiegenden oeffentlichen Interesse nicht zulassen, koennen durch
+  Verordnung entsprechend gemildert werden. Nachbarn duerfen nicht unzumutbar benachteiligt
+  werden. Solange keine Verordnung darueber besteht, sind Anpassungen im Einzelfall
+  zulaessig.**»
+- **Regelungslogik:** Anders als Abs. 1 (Bewilligung von Umbau/Erweiterung/Nutzungsaenderung)
+  und Abs. 4 (Verbesserungen verlangbar) richtet sich Abs. 5 an den **Verordnungsgeber**: Wo
+  eine bestehende Bauvorschrift eine im **ueberwiegenden oeffentlichen Interesse** liegende,
+  **zweckmaessige Anpassung** des Bestands **verhindert**, kann diese Vorschrift **durch
+  Verordnung gemildert** werden. Nachbarschutz-Schranke (**nicht unzumutbar benachteiligt**)
+  wie in Abs. 3/4. **Solange keine Verordnung besteht**, sind **Anpassungen im Einzelfall**
+  zulaessig — die Baubehoerde kann die Milderungswirkung also subsidiaer direkt im Einzelfall
+  herbeifuehren.
+- **Status dieses Eintrags:** Dieser Absatz wurde **direkt aus dem amtlichen Gesetzestext**
+  ergaenzt (Modell-D-Volltextabgleich 2026-07-13), **nicht** aus dem Buch-Destillat — der
+  entsprechende Buch-Abschnitt (mutmasslich unmittelbar nach S. 1455, vor «baupolizeiliche
+  Missstaende» S. 1456) wurde in den bisherigen Leseläufen **noch nicht erfasst** (Shots ab 732
+  offen). Insbesondere fehlen noch: ob/welche gestuetzt auf Abs. 5 erlassenen Verordnungen
+  existieren, sowie Gerichtspraxis zur Einzelfall-Variante. Nicht geraten — als offener Punkt
+  unten vermerkt.
+
 ## Formeln & Schwellenwerte (woertlich, mit Beleg)
 
 - **§ 220 PBG:** Befreiung im Einzelfall bei **besonderen Verhaeltnissen** + Unverhaeltnismaessigkeit
   (Abs. 1), Wahrung Sinn/Zweck + oeffentl. Interessen (Abs. 2), kein unzumutbarer Nachbarnachteil,
   aber keine Zustimmungsabhaengigkeit (Abs. 3). (S. 1434)
 - **§ 357 PBG:** fuenf Absaetze; **Abs. 1** Umbau/Erweiterung/Nutzungsaenderung an bestehenden
-  bauvorschriftswidrigen Bauten **in der Bauzone**; **Abs. 4** Verbesserungen verlangbar; **Abs. 5**
-  Milderungen. (S. 1443)
+  bauvorschriftswidrigen Bauten **in der Bauzone**; **Abs. 2/3 aufgehoben**; **Abs. 4**
+  Verbesserungen verlangbar; **Abs. 5** Milderung von Bauvorschriften durch Verordnung bzw. (ohne
+  Verordnung) im Einzelfall, Nachbarschutz-Schranke (amtlicher Wortlaut verifiziert, S. 1443;
+  Text siehe 20.3.5). (S. 1443)
 - **Keine numerische Erweiterungsgrenze** in § 357 (kein «Drittel»): Grenze ist die
   **neubauaehnliche Umgestaltung**, Einzelfall-Gesamtwuerdigung. (S. 1448-1449)
 - **Besondere Gebaeude:** Hoehe 4 m / 5 m (§ 49 Abs. 3 PBG) ist **Definitionsmerkmal**, kein
@@ -404,7 +431,10 @@ Gesamtwuerdigung zu beurteilen.
   «es sei denn, es wuerde die Erfuellung einer dem Gemeinwesen gesetzlich obliegenden Aufgabe
   verunmoeglicht oder uebermaessig erschwert».
 - **§ 357 Abs. 4 (Verbesserungen)** distilliert (Lauf 2026-06-29, S. 1455). **§ 357 Abs. 5
-  (Milderungen)** noch offen — Shots ab 732 / S. 1456 ff.
+  (Milderungen):** amtlicher Wortlaut jetzt verifiziert und ergaenzt (Modell-D-Refuter
+  2026-07-13, Abschnitt 20.3.5) — der zugehoerige **Buch-Abschnitt** (Kommentierung/Praxis/
+  erlassene Verordnungen) ist aber weiterhin **nicht gelesen**, vermutlich unmittelbar vor
+  S. 1456 — Shots ab 732 nachholen.
 - **Baupolizeiliche Missstaende** (S. 1456 ff.) und **Brandstattrecht § 307 PBG** (S. 1457 ff.) —
   vierter/dritter Tatbestand der Uebersicht — weiterhin offen (Shots ab 732 nicht in diesem Lauf).
 - Verhaeltnis § 357 ↔ **§ 101 PBG** (baulinienwidriger Bestand, schon in [[baulinien-und-abstandslinien]])

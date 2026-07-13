@@ -1208,3 +1208,41 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   der Lueftungsfensterpraxis (BGE 142 II 100)**, konkretisiert im Vollzugsschreiben Baudirektion ZH
   22.6.2016 — also korrekt dem BGer und nicht dem Verordnungswortlaut zuzuschreiben. Beleg:
   raw/260712_amtlich_ch_lsv-nisv.md Z. 84-102. _[2026-07-13]_
+
+## Kap. 17 / 20 / 16 / 3 / 6 — Buch-Run 36 (Modell-D-Volltextabgleich, 5 Komplexe)
+
+- **F:** Verweist § 32 ABV auf die gesamten §§ 299-306 PBG oder nur einen Teil davon? — **A:**
+  Nur auf **§§ 303-305 PBG** (Mindestflaeche/Raumhoehe/innere Erschliessung) — nicht auf den ganzen
+  Wohnhygiene-Block §§ 299-306. Die EFH-Ausnahme fuer § 303 steht zudem bereits direkt im eigenen
+  Wortlaut von § 303 PBG, nicht erst ueber § 32 ABV. Beleg: raw/260607_amtlich_zh_abv.md, Buch-Run 36.
+  _[2026-07-13]_
+- **F:** Was regelt § 357 Abs. 5 PBG, und wer ist Regelungsadressat? — **A:** Die **Milderung von
+  Bauvorschriften** durch **Verordnung**, wenn diese eine zweckmaessige Anpassung bestehender Bauten
+  an Vorschriften im ueberwiegenden oeffentlichen Interesse nicht zulassen — Nachbarn duerfen dabei
+  nicht unzumutbar benachteiligt werden. Solange keine solche Verordnung besteht, sind **Anpassungen
+  im Einzelfall** zulaessig. Regelungsadressat ist der **Verordnungsgeber**, nicht direkt die
+  Baubehoerde. Beleg: raw/260607_amtlich_zh_pbg.md Z. 3770-3773. _[2026-07-13]_
+- **F:** Steht die «≤ 0,5 m werden bei der Gebaeudelaenge/-breite nicht eingerechnet»-Regel im
+  Gesetzeswortlaut von § 28 ABV? — **A:** **Nein.** § 28 ABV definiert nur das «flaechenkleinste
+  Rechteck» als Messmethode; die 0,5-m-Toleranz ist **Gerichtspraxis** (VB.2005.00519), keine
+  Normbestimmung. Vorsicht bei der Zitierweise: «gemaess Praxis», nicht «gemaess § 28 ABV».
+  _[2026-07-13]_
+- **F:** Wie unterscheiden sich Niveaulinien (§ 106 PBG) und Verkehrsbaulinien in ihrer Funktion? —
+  **A:** Niveaulinien bestimmen die **Hoehenlage von Anlagen** und werden durch **Verkehrsbaulinien
+  ODER Baulinien fuer Wasserbauprojekte** gesichert — nicht ausschliesslich ueber die Neigung der
+  Strassenachse (Verkehrsbaulinien). Fruehere Wiki-Fassung war auf den Verkehrsbaulinien-Fall verengt.
+  Beleg: raw/260607_amtlich_zh_pbg.md, Buch-Run 36. _[2026-07-13]_
+- **F:** Sind Solaranlagen im Anzeigeverfahren-Katalog nach § 14 BVV geregelt? — **A:** **Nein.**
+  Solaranlagen sind eigenstaendig in **§ 1 BVV** (bewilligungsfrei bis 4 m²) und **§§ 2a-2c BVV**
+  (gestaffelte Meldepflicht) geregelt — nicht Teil des Anzeigeverfahren-Katalogs § 14 BVV. Der
+  fruehere Verweis auf «§ 48 Abs. 2 lit. b-f PBG» existiert im geltenden Recht nicht mehr in diesem
+  Kontext. _[2026-07-13]_
+
+### Modell A — Frage→Beleg-Drill
+
+- **F:** Gilt bei Hochhaeusern (§ 282/284 PBG) heute die 3-Stunden- oder die 2-Stunden-Schattenwurf-
+  Schwelle nach § 30 Abs. 1 lit. a/b ABV? — **A (Beleg):** **Drei Stunden.** Der amtliche ABV-Volltext
+  nennt in lit. a UND lit. b durchgehend «drei Stunden»; Fussnote 18 belegt «Fassung gemaess RRB vom
+  18. Maerz 2020 ... in Kraft seit 1. August 2021». Das Buch (6. Aufl. 2019) kannte nur den 2019-Stand
+  (2 Std., Vernehmlassung → 3 Std.) — das Buch-Destillat war insofern ueberholt und wurde
+  nachgefuehrt. Beleg: raw/260607_amtlich_zh_abv.md. _[2026-07-13]_

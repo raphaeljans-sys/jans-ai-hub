@@ -3,6 +3,30 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713b (twin-fragesteller, aus Fidelity-Review 2026-07-13 Zweitlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13b_fidelity.md` (Gesamt-Fidelity 94; komplementaerer Zweitlauf mit
+operativ-Du / Investor-Du / Peer-Du; einzige Drift = Binnen-Fettung von Kennzahlen, jetzt registeruebergreifend
+belegt). Je in 1–2 Saetzen beantwortbar.
+
+1. **Binnen-Fettung registeruebergreifend — Schwelle:** In der warm-liefernden Investor-Du-Studienmail (Thomas)
+   fettest Du die Kernkennzahlen inline (CHF 12.34 Mio, 44 Pflegezimmer, 2'400 m²), genau wie die Fachbegriffe
+   in der formellen Behoerden-Anfrage (Steiger, Morgenlauf). Ist die Binnen-Fettung Dein festes Mittel fuer
+   **jede fachlich dichte Mail** (die eine Zahl/den einen Begriff, den der Empfaenger auf einen Blick erfassen
+   soll — Du wie Sie), oder setzt Du sie nur bei Ergebnis-/Kennzahl-Liefermails? *Warum: die Drift trat in
+   BEIDEN Laeufen registeruebergreifend auf — klaert, ob der Zwilling die Fettung als Standard-Scan-Hilfe
+   nachbilden soll.* → [[stimme]], [[fachsignatur]]
+2. **Gruss-Mittelstufen-Skala im reziproken Du:** Am selben Investor-Du-Faden stehen «Bester Gruss» (Offert-
+   Transmittal), «Lieber Gruss» (operative Uebergabe) und «Herzliche Grüsse» (gehaltvolle Studien-Liefermail).
+   Ist die Reihenfolge der Waerme bewusst gestuft (Bester → Lieber → Herzliche, steigend mit Gehalt/Naehe der
+   Einzelmail), oder greifst Du im warmen Du eher frei zur Tagesform? *Warum: kalibriert die drei belegten
+   Du-Mittelstufen gegeneinander.* → [[stimme]], [[beziehungsregister]]
+3. **«Kurz zusammengefasst:» als fester Ergebnis-Mail-Kopf:** Die Studien-Liefermail eroeffnet den Ergebnis-
+   teil mit dem fetten «Kurz zusammengefasst:» + Kennzahl-Block. Ist das Dein **fester Baustein** fuer jede
+   Ergebnis-/Studien-Liefermail (Verdichtung der Kernzahlen an den Anfang, bevor die Details/Anhaenge kommen),
+   oder nur bei umfangreichen Berichten? *Warum: operationalisiert den neu belegten Ergebnis-Mail-Kopf.*
+   → [[arbeitsweise]], [[stimme]]
+
 ## Offen — Runde 260713 (twin-fragesteller, aus Fidelity-Review 2026-07-13)
 
 Quelle: Drift-Report `outputs/2026-07-13_fidelity.md` (Gesamt-Fidelity 93; Register-Kontrast eigene
@@ -57,7 +81,11 @@ Bauentscheid / Rechnungs-Du-Freigabe-Rückfrage / warm-Investor-Du-Studie. Einzi
    mit «Bester Gruss»/«Lieber Gruss». Ist «Herzliche Grüsse» gezielt der Gruss der **warm-liefernden,
    gehaltvollen** Investor-/Stammkunden-Du-Mail (Resultat + Beziehung zugleich), während «Lieber/Bester Gruss»
    die operativen Zwischenmails trägt? *Warum: kalibriert die Gruss-Mittelstufe im reziprok-warmen Investor-Du.*
-   → [[stimme]], [[beziehungsregister]]
+   → [[stimme]], [[beziehungsregister]] · **BEANTWORTET (Fidelity 260713b):** JA. An EINEM Averecura-Faden
+   (Thomas Angerer/Nova) trägt die gehaltvolle Studien-Liefermail (Machbarkeitsstudie + Schlussrechnung +
+   fette Kernkennzahlen, 2025-08-07) «Herzliche Grüsse» + Block, die operativen Zwischenmails desselben Fadens
+   «Lieber Gruss» (06.08.) bzw. «Bester Gruss» (29.07.). «Herzliche Grüsse» ist gezielt der Gruss der
+   warm-liefernden, gehaltvollen Investor-/Stammkunden-Du-Mail. In stimme.md verankert.
 
 ## Offen — Runde 260710 (twin-fragesteller, aus Fidelity-Review 2026-07-10)
 

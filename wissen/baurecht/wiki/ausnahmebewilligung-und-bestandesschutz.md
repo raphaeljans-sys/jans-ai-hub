@@ -3,9 +3,9 @@ name: ausnahmebewilligung-und-bestandesschutz
 beschreibung: Die zwei kantonalen Werkzeuge fuer vorschriftswidrige Bauten im Kt. ZH — die Ausnahmebewilligung (Dispens) nach § 220 PBG bei besonderen Verhaeltnissen, und die Besitzstandsgarantie / erweiterte Bestandesgarantie nach § 357 PBG (Umbau/Erweiterung/Nutzungsaenderung am rechtmaessig erstellten, durch Rechtsaenderung vorschriftswidrig gewordenen Bestand). Kernaussage: kein fester «Drittel»-Schwellenwert; Grenze ist die neubauaehnliche Umgestaltung/Gesetzesumgehung im Einzelfall. § 220 dispensiert nur kantonales/kommunales Recht, nie Bundesrecht.
 status: established
 last_updated: 2026-07-13
-verifiziert: "§ 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/307/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13."
-quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1449)"
-paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
+verifiziert: "§ 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/307/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13. § 357 Abs. 5 (Milderungsklausel) am amtlichen PBG-Volltext verifiziert (Z. 3770-3773), Modell-D-Refuter 2026-07-13."
+quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)"
+paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
 links: [[bestandsumbau-eingriffstiefe]], [[baubewilligungsverfahren]], [[baulinien-und-abstandslinien]], [[zonenkonformitaet]]
 ---
 
@@ -88,6 +88,41 @@ Baubehoerde verlangen, dass gegenueber dem bestehenden Zustand **Verbesserungen*
 werden, die **im oeffentlichen Interesse** liegen und **nach den Umstaenden zumutbar** sind
 (Gedanke: der Umbau verlaengert die Lebensdauer, daher ein gewisses Entgegenkommen bei der
 Anpassung; Grenze = Zumutbarkeit als Teil der Verhaeltnismaessigkeit).
+
+**Milderung von Bauvorschriften (§ 357 Abs. 5 PBG):** Wortlaut (amtlicher PBG-Volltext
+verifiziert, raw/260607_amtlich_zh_pbg.md Z. 3770-3773, Modell-D-Refuter 2026-07-13):
+
+> «**Bauvorschriften, die eine zweckmaessige Anpassung bestehender Bauten und Anlagen an
+> Vorschriften im ueberwiegenden oeffentlichen Interesse nicht zulassen, koennen durch
+> Verordnung entsprechend gemildert werden. Nachbarn duerfen nicht unzumutbar benachteiligt
+> werden. Solange keine Verordnung darueber besteht, sind Anpassungen im Einzelfall zulaessig.**»
+
+Regelungsgehalt (drei Elemente):
+
+- **Adressat der Norm ist der Verordnungsgeber**, nicht direkt die Baubehoerde: Abs. 5 ist eine
+  **Rechtsetzungsdelegation**. Sie greift dort, wo eine bestehende Bauvorschrift eine an sich
+  im **ueberwiegenden oeffentlichen Interesse** liegende, **zweckmaessige Anpassung** des
+  Bestands **verhindert** — die Vorschrift selbst kann dann durch Verordnung **gemildert**
+  werden.
+- **Nachbarschutz-Schranke:** Auch bei einer Milderung duerfen Nachbarn **nicht unzumutbar
+  benachteiligt** werden — dieselbe Zumutbarkeitslogik wie in Abs. 4 und beim Nachbarschutz
+  von § 220 Abs. 3.
+- **Uebergangsregel bis zur Verordnung:** Solange **keine Verordnung** zur Milderung besteht,
+  sind **Anpassungen im Einzelfall** zulaessig — d. h. die Milderungswirkung kann, solange der
+  Verordnungsgeber (noch) nicht tätig geworden ist, **direkt im Einzelfall** durch die
+  Baubehoerde herbeigefuehrt werden (subsidiaere Einzelfall-Anpassung anstelle der generellen
+  Verordnungsmilderung).
+
+**Einordnung/Abgrenzung zu Abs. 1 und § 220:** Abs. 5 setzt an einer **anderen Stelle** an als
+Abs. 1 (dort: Bewilligung von Umbau/Erweiterung/Nutzungsaenderung am **bestehenden Bauwerk**)
+und als § 220 (dort: Dispens **im Einzelfall** von einer geltenden Vorschrift). Abs. 5 zielt auf
+die **Vorschrift selbst**: sie kann fuer die Anpassung bestehender Bauten generell (via
+Verordnung) oder — mangels Verordnung — im Einzelfall gemildert werden, wenn die strikte
+Vorschrift eine im ueberwiegenden oeffentlichen Interesse liegende Bestandsanpassung sonst
+verunmoeglichen wuerde. Zur konkreten Anwendungspraxis (welche Verordnung(en) gestuetzt auf
+Abs. 5 bereits erlassen wurden, Gerichtspraxis zur Einzelfall-Variante) liegt im Buch-Destillat
+noch **kein** Abschnitt vor (Kap. 20 des Standardwerks endet mit Abs. 4, S. 1455) — als offene
+Frage in [[20-ausnahmen-bestandesschutz]] vermerkt, nicht geraten.
 
 ### Die Grenze: keine feste Quote, sondern «neubauaehnliche Umgestaltung»
 
