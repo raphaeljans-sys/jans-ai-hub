@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 05:58:54
+Stand: 13.07.2026 06:09:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 05:58:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e3e05b2b planungsgrundlagen-training: Run 23 (Energie + Recht/Norm, Token-Vollgas)
+- 94b5778a energie-training Run 42: SIA 380/1:2016 vs. 2009 Kernaenderungen belegt (FAQ F60)
