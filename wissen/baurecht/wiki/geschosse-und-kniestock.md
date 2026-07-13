@@ -4,7 +4,7 @@ title: Geschosse und Kniestock — Kanton Zürich
 beschreibung: Voll-/Dach-/Attika-/Untergeschoss, Anrechenbarkeit und die Kniestock-Regel in zwei Fassungen — harmonisiert (geltender Hauptteil, Kniestock bis 1,5 m, 4 Geschossarten) vs. alt (Anhang PBG, Kniestock 0,9 m / Bestand 1,3 m, Messweise 0,4 m hinter Fassade, 3 Geschossarten) — entscheidend für Dachausbauten und die Geschosszahl.
 status: established
 last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 275-277 PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 33 — Fassungsstand-Umkehr analog [[abstaende-und-hoehen]], Kniestock-/Geschossarten-Doppelwerte belegt)
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 275-277 PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 34 — Fassungsstand-Umkehr analog [[abstaende-und-hoehen]], Kniestock-/Geschossarten-Doppelwerte belegt)
 quelle_destillat: "[[16-gebaeudedimensionen]] (Bd 2, Kap. 16, S. 1135-1153) — gibt nur die alte Fassung wieder (Buch 2019)"
 sources: ["§ 275 PBG", "§ 275 PBG alt", "§ 276 PBG", "§ 276 PBG alt", "§ 277 PBG (aufgehoben)", "§ 49 Abs. 2 lit. c PBG", "§ 49a Abs. 2 PBG", "§ 77 PBG", "§ 293 PBG", "raw/260607_amtlich_zh_pbg.md Z.2857-2886 (Hauptteil) / Z.4387-4400 (Anhang)"]
 paragraphen: ["§ 275 PBG", "§ 276 PBG", "§ 277 PBG", "§ 275 PBG alt", "§ 276 PBG alt", "§ 77 PBG", "§ 293 PBG"]

@@ -113,7 +113,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Terrassenhaus § 77, Geschosszahl-Ersatz § 276 II) + **Kniestock** (0,9 m / Bestand 1,3 m,
   Messweise 0,4 m hinter Fassade, auskragendes Dachgeschoss). 10 Doppelseiten. Status:
   `emerging` (Hoehen/Dachgestaltung S. 1154 ff. offen; Buch gibt nur die **alte** PBG-Fassung
-  wieder, seit Buch-Run 33 mit Fassungsstand-Hinweis versehen). Speist [[geschosse-und-kniestock]]
+  wieder, seit Buch-Run 34 mit Fassungsstand-Hinweis versehen). Speist [[geschosse-und-kniestock]]
   (dort Modell-D-verifiziert 2026-07-13, `established`, beide Fassungen — harmonisiert/alt —
   mit vollem Beleg gegenübergestellt).
 - [[15-lage-von-gebaeuden]] — Kap. 15 Teil 1+2a (S. 995-1033): **Abstandssystem** §§ 260-274 PBG,
@@ -123,8 +123,10 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **Uferstreifen-Messweise**, dicht ueberbautes Gebiet (Art. 41c GSchV), Besitzstand/Brandstattrecht
   (§ 15m HWSchV vor § 307/§ 357 PBG), **Gewaesserabstandslinien § 67 PBG**, Hochwasser-Gefahren-
   bereiche (WWG/WBV), **Baulinien-Arten § 96 PBG** + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG.
-  20 Doppelseiten. Status: `emerging` (Grenz-/Gebaeudeabstand-Zahlenwerk §§ 269-274 offen, Shots ab 535).
-  Speist [[abstaende-und-hoehen]] + [[gebaeudearten-und-abstandssystem]] + [[baulinien-und-abstandslinien]].
+  20 Doppelseiten. Status: `emerging` (Grenz-/Gebaeudeabstand-Zahlenwerk §§ 269-274 offen, Shots ab 535);
+  Gebaeudearten-/Minibau-Fundstellen in Buch-Run 34 (2026-07-13) am Volltext korrigiert (§ 260 Abs. 4 PBG /
+  § 2 Abs. 2 ABV statt § 2 Abs. 1; Messweise § 260 Abs. 1 PBG statt § 269).
+  Speist [[abstaende-und-hoehen]] + [[gebaeudearten-und-abstandssystem]] (Wiki `established` 2026-07-13) + [[baulinien-und-abstandslinien]].
 - [[15-lage-von-gebaeuden-teil2b]] — Kap. 15 Teil 2b (S. 1034-1061): **Baulinien-Rechtswirkungen**
   (Bauverbot § 99, Vorspruenge 1,5 m § 100 Abs. 1, weitergehende Beanspruchung + Beseitigungsrevers
   § 100 Abs. 3, baulinienwidriger Bestand § 101, Ueberpruefungsanspruch § 110a, Gebaeudeabstand ueber

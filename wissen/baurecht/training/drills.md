@@ -1140,7 +1140,7 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   **§ 45a BBV I** ("Beleuchtungsanlagen"); § 45 BBV I selbst regelt nur die Klimaanlagen-Definition. Beleg:
   raw/260607_amtlich_zh_bbv1.md § 45a. _[2026-07-13]_
 
-## Kap. 16 — Geschosse/Kniestock, Modell-D-Verifikation (Buch-Run 33, 2026-07-13)
+## Kap. 16 — Geschosse/Kniestock, Modell-D-Verifikation (Buch-Run 34, 2026-07-13)
 
 - **F (Modell D · Gegenprobe):** Das Buch (6. Aufl. 2019) nennt fuer den Kniestock 0,9 m (Neubau) /
   1,3 m (Bestand vor 1.7.1978), gemessen 0,4 m hinter der Fassade. Ist das die heute geltende Zahl? —
@@ -1158,3 +1158,53 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   fiktiven Traufseiten) — die alte Fassung (Anhang) kennt nur drei Geschossarten und keinen eigenen
   Attika-Begriff in § 275. Auch § 276 Abs. 1/2 PBG (Anrechenbarkeit/Ersatz) wurde entsprechend um Attika
   erweitert. Beleg: raw/260607_amtlich_zh_pbg.md § 275/276 (Hauptteil). _[2026-07-13]_
+
+## Buch-Run 34 (2026-07-13) — Modell-D-Verifikation Bestandesschutz / Gebaeudearten / Wohnhygiene / LSV
+
+### Modell C — Selbsttest-Karten
+
+- **F (Bestandesschutz):** Ein bestehendes, zonenwidriges Gebaeude soll umgebaut werden. Welche
+  eigenstaendige Tatbestandsvoraussetzung neben «keine ueberwiegenden oeffentlichen/nachbarlichen
+  Interessen» verlangt § 357 Abs. 1 PBG ausdruecklich? — **A:** Die Baute muss sich **fuer eine
+  zonengemaesse Nutzung nicht eignen** («…sofern sie sich fuer eine zonengemaesse Nutzung nicht
+  eignen…»). Erst dann sind Umbau/Erweiterung/Nutzungsaenderung zulaessig; neue oder weiter gehende
+  Abweichungen bleiben § 220 vorbehalten. Zusaetzlich kann die Baubehoerde nach **§ 357 Abs. 4 PBG**
+  zumutbare Verbesserungen im oeffentlichen Interesse verlangen. Beleg: raw/260607_amtlich_zh_pbg.md
+  Z. 3760-3769. _[2026-07-13]_
+- **F (Dispens-Falle):** Auf welchen § stuetzt sich die Ausnahmebewilligung fuer «besondere
+  Verhaeltnisse» — § 218 oder § 220 PBG? — **A:** **§ 220 PBG** (Abs. 1 besondere Verhaeltnisse /
+  Unverhaeltnismaessigkeit, Abs. 2 kein Verstoss gegen Sinn und Zweck + keine ueberwiegenden
+  oeffentlichen Interessen, Abs. 3 kein unzumutbarer Nachbarnachteil, aber nicht von
+  Nachbar-Zustimmung abhaengig). **§ 218 PBG regelt die Rechtsnatur** (oeffentliches Recht), NICHT die
+  Dispens-Voraussetzungen — haeufige Verwechslung. Beleg: raw/…_pbg.md Z. 2186-2194 (§ 220) / 2177-2179
+  (§ 218). _[2026-07-13]_
+- **F (Gebaeudearten):** Wo steht die «Minibau»-Grenze (nicht als Gebaeude geltend, 1,5 m / 2 m²) —
+  in § 2 Abs. 1 ABV? — **A:** **Nein.** § 2 Abs. 1 ABV ist die **allgemeine Gebaeudedefinition**
+  («Gebaeude sind ortsfeste Bauten…») und enthaelt kein Mass. Richtig sind **§ 260 Abs. 4 PBG**
+  (harmonisiert) bzw. **§ 2 Abs. 2 ABV** (uebergangsrechtlich, «gilt nicht als Gebaeude»); die
+  bewilligungsfreie Kleinbaute ≤ 2,5 m / ≤ 6 m² steht in **§ 1 lit. a BVV** (ohne Nutzungsvoraussetzung —
+  «ohne Wohnraeume» ist unbelegt und wurde gestrichen). Merke: **bewilligungsfrei ≠ abstandsfrei**
+  (§ 2 Abs. 2 BVV). _[2026-07-13]_
+- **F (Wohnhygiene, § 10 BBV II):** Welchen Mindest-Rauminhalt schreibt § 10 BBV II fuer Verkaufs-/
+  Publikumsraeume mit grosser Personenbelegung vor? — **A:** **2,40 m³ je m²** fuer Bodenflaechen bis
+  200 m²; **+ 0,002 m³** je zusaetzlichem m²; ab **500 m²** bleibt der Mindestinhalt konstant bei
+  **3,0 m³ je m²** (Rechenprobe: 200 m² + 300 × 0,002 = +0,6 → 3,0). Mittlere Hoehe ueber mindestens
+  einem Drittel der Bodenflaeche (§ 10 Abs. 2). **Achtung:** § 9 BBV II ist aufgehoben (RRB 18.12.1996) —
+  die Begriffe stehen in §§ 3/6/7 BBV II (§ 7: > 100 Personen bzw. 50 Plaetze). Beleg:
+  raw/260607_amtlich_zh_bbv2.md Z. 81-84 / 97-103. _[2026-07-13]_
+- **F (LSV, Anhang 5 Ziff. 222):** Was regelt Anhang 5 Ziffer 222 LSV, und ueber welchen Artikel
+  greift er beim Bauen? — **A:** **Belastungsgrenzwerte in Lrn fuer den Laerm ziviler Flugplaetze**
+  (Nacht) — **nicht** Strassen-/anderer Laerm. In der Baubewilligung greift er ueber **Art. 31a LSV**:
+  bei erfuellten Voraussetzungen (Nachtruhe flugfrei, erhoehter Schallschutz, Schlafraumfenster mit
+  automatischem Schliessmechanismus 22-24 Uhr) gelten die IGW nach Anhang 5 Ziff. 222 fuer die
+  Nachtstunden als eingehalten. Beleg: raw/260712_amtlich_ch_lsv-nisv.md Z. 38-58 / 104-109. _[2026-07-13]_
+
+### Modell A — Frage→Beleg-Drill
+
+- **F:** «Der IGW ist seit BGE 142 II 100 bei *allen* Fenstern laermempfindlicher Raeume einzuhalten» —
+  aus welcher Quelle stammt das «alle Fenster», aus dem Wortlaut von Art. 39 LSV? — **A (Beleg):**
+  **Nein.** Art. 39 Abs. 1 LSV sagt nur «in der **Mitte der offenen Fenster** laermempfindlicher Raeume»
+  (Messort), nicht «bei allen». Das «bei allen Fenstern» folgt aus der **Rechtsprechung zur Aufhebung
+  der Lueftungsfensterpraxis (BGE 142 II 100)**, konkretisiert im Vollzugsschreiben Baudirektion ZH
+  22.6.2016 — also korrekt dem BGer und nicht dem Verordnungswortlaut zuzuschreiben. Beleg:
+  raw/260712_amtlich_ch_lsv-nisv.md Z. 84-102. _[2026-07-13]_

@@ -56,7 +56,11 @@ zu **verweigern**, es sei denn, es besteht ein **überwiegendes Interesse an der
   Voraussetzung für Neueinzonung von Wohngebäuden (Art. 24 USG).
 - **Art. 31a LSV (seit 2.2.2015):** Bauen trotz nächtlicher Grenzwertüberschreitung möglich, wenn
   Nachtruhe 24-06 h flugfrei, lärmempfindliche Räume mit erhöhtem Schallschutz und **Schlafräume
-  ein Fenster mit automatischem Schliessmechanismus (22-24 Uhr)** haben.
+  ein Fenster mit automatischem Schliessmechanismus (22-24 Uhr)** haben. Massgebend sind die
+  **Immissionsgrenzwerte nach Anhang 5 Ziffer 222 LSV** (Belastungsgrenzwerte in Lrn für die
+  Nachtstunden ziviler Flugplätze, Art. 40 Abs. 1 LSV); bei erfüllten Voraussetzungen des Art. 31a
+  gelten sie für die Nachtstunden als eingehalten (volltextverifiziert, raw/260712_amtlich_ch_lsv-nisv.md
+  Z. 38-58 / Anhang 5 Z. 104-109).
 - **Abgrenzungslinie** (kant. Richtplan Kap. 4.7.1, seit 24.3.2014): innerhalb keine Neu-/
   Aufzonungen mit IGW-Überschreitung am Tag; massgebend Lärmkurven vBR 2012 / SIL.
 

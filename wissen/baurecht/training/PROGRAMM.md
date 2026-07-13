@@ -91,6 +91,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 33-35 (2026-07-13, Modell-D-Volltextabgleich, zwei zeitgleiche VOLLGAS-Laeufe mit teilweiser
+    Ziel-Ueberschneidung — Details je CHANGELOG.md):** [[geschosse-und-kniestock]] `emerging`→`established`
+    (Fassungsstand-Umkehr: harmonisiert § 275/276 PBG Kniestock **1,5 m**/4 Geschossarten inkl. Attika ist
+    heute geltender Hauptteil, alt 0,9/1,3 m nur noch Anhang-Weitergeltung — analog [[abstaende-und-hoehen]]);
+    [[ausnahmebewilligung-und-bestandesschutz]] + [[gebaeudearten-und-abstandssystem]] `emerging`→`established`;
+    [[laermschutz-und-nichtionisierende-strahlung]] `emerging`→`established` (Anhang 5 Ziff. 222 LSV
+    Restklaerung geschlossen); [[fahrzeugabstellplaetze-und-parkierung]] verifiziert (Wegleitung 1997
+    CONFIRMED, PPV Stadt Zuerich Art. 8 Abs. 5-8 Wortlaut ergaenzt, VSS-Fehlzitat "SN 640 060" entfernt);
+    [[naturschutz-und-denkmalschutz]] § 209 PBG "+1 Jahr"-Verlaengerung als reine Analogie bestaetigt (kein
+    Gesetzeswortlaut, keine Halluzination); [[wohnhygiene-und-raumanforderungen]] Kaminhoehen/LRV verifiziert
+    (Art. 20 LRV per 1.1.2022 aufgehoben, Feuerungskontroll-Rhythmus praezisiert 4/2/3 Jahre statt pauschal
+    2). **Hinweis fuer Radar:** Zeitgleiche ueberlappende Laeufe fuehrten zu doppelter Bearbeitung derselben
+    Ziele (geschosse-und-kniestock, PPV) — Lock-Mechanismus fuer `baurecht-buch-training` pruefen. Reports
+    `outputs/2026-07-13_buch-run32.md` (Vortag) + `outputs/2026-07-13_buch-run35.md`.
   - **Run 32 (2026-07-12/13, Modell-D-Volltextabgleich, 5 Komplexe parallel via Agent-Tool — Workflow-Tool
     scheiterte an Freigabe-Gate im unbeaufsichtigten Lauf):** **§§ 278-293 PBG** (Hoehen/Dach/Hochhaus,
     [[abstaende-und-hoehen]] KORRIGIERT: Gebaeudehoehe-Beleg falsch zugeordnet, Untergeschoss "80 cm" nicht
