@@ -24,6 +24,11 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 - **Token gestern (12.07.):** MacBook 614.8 Mio. (~899 USD) + Mini 205.7 Mio. (~101 USD) = ~1'000 USD
   Aequivalent.
 - **Briefing an rj@ versendet.** Sync-/Remote-Task-Queues leer (nur automatische Self-Commit-Tasks).
+- **HUB-CHEF-LAUF 14:00 — MIT Befund (neuer Kundenverkehr NACH dem Radar).** Der Radar meldete heute frueh «ruhig»; seit ~06:00 sind mehrere Geschaeftsmails eingegangen, daher hat der Hub-Chef heute echte Befunde. Signale gegenverifiziert: bexio `--verzug`/`--abgleich` unveraendert (RE-00087 Mahnung 2 Frist 15.07.; Altliste 19 Pos. + 1 Bankeingang 2021), Kalender bis 20.07. nur die heutige Tueren-Sitzung (durchgefuehrt), Sync-/Remote-Queues leer.
+  - **AKTION A5 (autonom, mit Guards):** Nachfass-Mail-Entwurf an Gruner AG (Duran/Kuebler/Ziegel, Cc Wuersch/Spahic/Scherbl) fuer das fehlende **Lueftungs-Strangschema mit Flaechennutzungen** (KISPI private Kontrolle), Frist 14.07., mit AWEL-Beleg. **Ausloeser:** G. Scherbl (Wintec, 13.07. 14:56) steigt aus (ab 15.07. Ferien), Strangschema fehlt weiterhin, AWEL bestaetigt die Anforderung. **Guards:** A5 = nur Entwurf, kein autonomer Versand; QS bestanden (rechtschreibung gruen, layout 🟡 4 Signatur-Korrekturen uebernommen, twin-chef Fidelity 92). **Ergebnis:** Draft im Postfach (Absender rj@), NICHT versendet.
+  - **AKTION A4:** Register aktualisiert — Scherbl/Strangschema-Item eskaliert (Prio hoch, Frist 14.07., Entscheide fuer Raphael vermerkt), Fust-Offerte Saumstrasse 21 als eingetroffen (nachfassen), Keller/reap-Querangebot KISPI Kueche neu (beobachten).
+  - **Kein autonomer Mahnschritt:** A1 greift nicht auf RE-00087 (bereits Mahnung 2; Stufe 2+ immer nur Entwurf, hier nicht faellig vor 15.07.).
+  - **ENTSCHEIDE fuer Raphael (im Briefing):** (a) Weg private Kontrolle Lueftung (neuer Kontrolleur vs. Eingabe ohne Unterschrift, da Scherbl ab 15.07. weg); (b) Verrechnungsadresse fuer Scherbls Aufwand 2.75 h à CHF 157.00; (c) Fust-Geschirrspueler Saumstrasse 21 bestellen. **Briefing an rj@ versendet** (verweist auf Radar-Briefing 06:57 statt Doppelmeldung des 7-Tage-Bildes).
 
 ---
 
