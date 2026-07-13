@@ -345,6 +345,74 @@ VRG; Art. 112 Abs. 1 lit. d BGG). (S. 591)
   Abschnitt 6b «Akteneinsicht und Realakte», ergaenzt — dort mit vollem Beleg (§ 8/§ 9/§ 10c
   VRG). Keine Duplizierung hier; Cross-Referenz genuegt.
 
+## 4a. Verifikations-Notiz (Buch-Run, Modell-D, 2026-07-14, adversarial)
+
+Amtlicher Volltext neu beschafft: `raw/260714_amtlich_zh_vrg_rechtsschutz2.md` (VRG §§ 25,
+26, 26a-d, 55, 58, 86-90; PDF 175.2_24.5.59_133.pdf, Stand-Fussnote «1. 7. 26 - 133», direkt
+von zhlex.zh.ch geladen); PBG-Pruefung gegen bereits vorhandene `raw/260607_amtlich_zh_pbg.md`.
+
+- **§ 25 Abs. 1 VRG (aufschiebende Wirkung, Grundsatz):** CONFIRMED wortwoertlich —
+  «Dem Lauf der Rekursfrist und der Einreichung des Rekurses kommt aufschiebende Wirkung zu.»
+- **§ 25 Abs. 3 VRG (Entzug/gegenteilige Anordnung):** KORRIGIERT. Destillat sprach verkuerzt
+  von «Entzug durch anordnende Behoerde» — der amtliche Wortlaut nennt DREI moegliche Akteure:
+  «Die anordnende Instanz, die Rekursinstanz und der Vorsitzende der Rekursinstanz koennen aus
+  besonderen Gruenden gegenteilige Anordnungen treffen.» Korrektur oben in Abschnitt 2.4
+  eingearbeitet.
+- **§ 26b VRG (Schriftenwechsel, alle 4 Absaetze):** TEILWEISE KORRIGIERT.
+  - Abs. 1 (Vernehmlassung): CONFIRMED.
+  - Abs. 2 (Frist 30 Tage / 5 Tage Stimmrechtssachen): CONFIRMED im Kern, aber der Zusatz
+    «nicht mehr erstreckbar» steht NICHT im Wortlaut von Abs. 2 selbst — er folgt aus § 12
+    Abs. 1 VRG (gesetzliche Fristen grds. nicht erstreckbar). Praezisierung eingearbeitet.
+  - Abs. 3 (weiterer Schriftenwechsel ODER muendliche Verhandlung): CONFIRMED, ein Absatz mit
+    «oder»-Verknuepfung (nicht zwei getrennte Rechtsfolgen).
+  - **Abs. 4: WESENTLICH KORRIGIERT.** Destillat behauptete ein «Replikrecht» als Inhalt von
+    Abs. 4. Amtlicher Wortlaut: «Die Rekursinstanz stellt die Vernehmlassungen den andern
+    Verfahrensbeteiligten zu.» Das ist eine reine Zustellungspflicht, KEIN im Gesetz
+    kodifiziertes Replikrecht. Das Replikrecht (unverzueglich ~10 Tage Bandbreite 10-20) ist
+    Rechtsprechung (BGE 132 I 42 E. 3.3; BGer 5D_81/2015; VB.2012.00543) aus dem rechtlichen
+    Gehoer (Art. 29 Abs. 2 BV) i.V.m. der Zustellungspflicht — nicht Gesetzeswortlaut. Korrektur
+    in Abschnitt 2.5 eingearbeitet.
+- **§ 86a-d VRG (Revision):** CONFIRMED vollstaendig — Gruende (Strafverfahren-Beeinflussung /
+  neue Tatsachen-Beweismittel), Unzulaessigkeit bei vorheriger Geltendmachungsmoeglichkeit,
+  Fristen **90 Tage seit Entdeckung** / **10 Jahre** absolut (danach nur noch
+  Strafverfahrens-Tatbestand), Verfahren (Gesuch mit Gruenden + Antraegen, Vollstreckungsaufschub
+  nur auf behoerdlichen Entscheid), Entscheid (Aufhebung + Neuerlass). Keine Korrektur noetig.
+- **§ 87 VRG (im Destillat als «Erlaeuterung und Berichtigung» zitiert): WESENTLICH KORRIGIERT /
+  WIDERLEGT.** Der amtliche Volltext zeigt: § 87 VRG regelt HEUTE (Stand 1.7.2026) «Wahl und
+  Stellung der Ombudsperson» — nicht Erlaeuterung/Berichtigung. Grund: der Fuenfte Abschnitt
+  «Die Ombudsperson» (§§ 87-91) wurde per **1. Mai 2024** durch KRB vom 12.12.2022 (OS 79, 157)
+  komplett neu gefasst UND neu nummeriert (Fussnoten 74/75 im amtlichen PDF). Eine Volltextsuche
+  nach «erlaeutern», «berichtigen», «Kanzleiversehen», «Redaktionsversehen» im aktuellen VRG
+  ergab keinen Treffer — das Institut «Erlaeuterung und Berichtigung» ist im heutigen
+  VRG-Wortlaut NICHT auffindbar. Bleibt als **needs-verification** offen: wo (falls ueberhaupt
+  noch im VRG) das Institut heute geregelt ist, bzw. ob es sich um reine Rechtsprechung ohne
+  eigene Kodifikation handelt. NICHT geraten — Korrektur mit offenem Punkt in Abschnitt 2.8
+  eingearbeitet.
+- **§ 89 VRG (Ombudsperson-Aufgabenbereich, Recht und Billigkeit, Gemeinden-Option):** CONFIRMED.
+  Abs. 1: «Die Ombudsperson prueft, ob die Behoerden und Verwaltungseinheiten des Kantons und
+  der Bezirke nach Recht und Billigkeit verfahren.» Abs. 2 lit. b: Gemeinden koennen das
+  Taetigwerden der Ombudsperson ueber ihre Gemeindeordnung vorsehen. Zitierweise «§§ 87 ff. VRG»
+  im Destillat auf «§ 89 VRG» korrigiert (§ 87 VRG betrifft seit 1.5.2024 nicht mehr dasselbe
+  Thema).
+- **§ 338 PBG (Gerichtsgebuehr):** CONFIRMED wortwoertlich gegen `raw/260607_amtlich_zh_pbg.md`
+  (bereits vorhandener amtlicher Volltext, Zeilen 3538-3541). Abs. 1: Gebuehr nach Zeitaufwand,
+  Schwierigkeit, Streitwert/tatsaechlichem Streitinteresse. Abs. 2: «Die Gerichtsgebuehr betraegt
+  in der Regel Fr. 500 bis Fr. 50 000.» Keine Korrektur noetig.
+- **§ 339 PBG (aufschiebende Wirkung, lex specialis):** CONFIRMED wortwoertlich gegen
+  `raw/260607_amtlich_zh_pbg.md` (Zeilen 3591-3594). Abs. 1: «Rechtsmittel gegen eine
+  baurechtliche Bewilligung hindern den Baubeginn und den Baufortgang nur soweit, als der
+  Ausgang des Verfahrens die Bauausfuehrung beeinflussen kann.» Abs. 2: «Ueber den Umfang der
+  aufschiebenden Wirkung und ueber den Erlass von vorsorglichen Massnahmen entscheidet auf
+  Gesuch einer Partei oder von Amtes wegen der Praesident der Rekurs- oder Beschwerdeinstanz.»
+  Fussnote 57 im amtlichen VRG-PDF bestaetigt zusaetzlich die Datierung: «Fassung gemaess
+  Planungs- und Baugesetz vom 28. Oktober 2013 [...]. In Kraft seit 1. Juli 2014» — der
+  Destillat-Vermerk «Fassung 28.10.2013, in Kraft 1.7.2014» ist damit **CONFIRMED korrekt**.
+
+**Ergebnis:** 8 von 8 gepruefte Aussagen abgeglichen — 4 CONFIRMED (§ 25 Abs. 1, § 86a-d, § 338,
+§ 339), 3 KORRIGIERT/praezisiert (§ 25 Abs. 3, § 26b Abs. 2+4, § 89-Zitierweise), 1 wesentlich
+WIDERLEGT mit offenem Punkt (§ 87 VRG "Erlaeuterung/Berichtigung" existiert im heutigen VRG so
+nicht mehr / Fundstelle unklar).
+
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
 
 - **BEZ 2004 Nr. 43** — Entzug der aufschiebenden Wirkung, Provisorium Eisstadion Zuerich (S. 578).

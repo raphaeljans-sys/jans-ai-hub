@@ -16,6 +16,16 @@ die **Unterschutzstellung eines Schutzobjekts (§ 203 Abs. 1 lit. a-g PBG)**: vo
 unter **Interessenabwägung** und **Verhältnismässigkeit**. Buchsynthese:
 [[04-natur-und-heimatschutz]] (Bd 1, Kap. 4, S. 268-309).
 
+**Zum Rechtsstatus der KNHV (Klärung 2026-07-14):** Die Kantonale Natur- und Heimatschutzverordnung
+(KNHV, LS 702.11) ist **weiterhin in Kraft** und wurde **nicht** durch einen Nachfolgeerlass ersetzt.
+Ein früherer Verifikationslauf hatte die Geltungsdauer-Angabe der Vorfassung («Nachtrag 099, in
+Kraft bis 01.08.2025») fälschlich als Gesamtaufhebung der Verordnung gedeutet. Tatsächlich gilt seit
+01.08.2025 unter derselben LS-Nummer 702.11 die revidierte Fassung **Nachtrag 130**, gestützt auf
+den Regierungsratsbeschluss vom 15.01.2025 (OS 80, 179; ABl 2025-01-31). Geändert wurden dabei nur
+**§ 3** (Bundesinventare) und **§ 3a** (Zuständigkeit/Delegation ALN/ARE) — beide hier nicht als
+Fundstelle zitiert. Alle in diesem Artikel verwendeten KNHV-Paragraphen (§ 10, § 12) bleiben
+unverändert. Volltext und Herleitung: `raw/260714_amtlich_zh_knhv.md`.
+
 ## Der Schutzobjekt-Katalog § 203 Abs. 1 PBG (lit. a-g)
 
 | lit. | Schutzobjekt |
