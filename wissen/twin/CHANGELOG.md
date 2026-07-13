@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 41 (2026-04-16 bis 2026-04-22)
+- Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Apple Mail osascript
+  (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elemente") — M365-MCP wie in Batch
+  36-38 nicht verfuegbar (npm package not found). Fenster 2026-04-16 bis 2026-04-22, 33 Mails im Fenster
+  gesichtet, 7 Volltexte gelesen: KISPI-Umbau Innere Verglasungen/BKP 274.01 (Bodenlast-Diskrepanz Statik
+  an Jegen+Albin, Submissionsvorbereitung Arter), Elektroplanung-DWG-Nachforderung an Albin,
+  Sprinkleranlage-Fristsetzung an Gruner/Kuebler, Gebaeudeentwaesserung-Auflagevermeidung an UGZ/Stubbe,
+  Brandschutz-Absage an Spaeth/BIQS, Thalwil 2414 Naeherbaurecht-Fortsetzung an Stefan Tschopp. Alle
+  Rahmen klar handgetippt/authentisch, keine Echo-Falle. Metrik 787 W (7 Kernmails): Du-Gross-Quote 0.5,
+  Satzlaenge ø 14.1 W, Tausender-Apostroph 1×, «Freundliche Gruesse» 6× dominant.
+- Geschaerft: **fachsignatur** (neue Statik-/Bauphysik-Ebene: rechnerische Bodenlast-Diskrepanz Faktor
+  ~4,5 gegen SIA 251/252 + Massnahmen-Optionen A/B/C + Begruendung Linienlast≠Punktlast; gestalterisches
+  Warnbild "Favela" statt Floskel bestaetigt), **beziehungsregister** ("Werter Albin" als
+  Zwischenstufe-Anrede in primaer externer Sie-Mail an Mehrfachempfaenger, Register folgt Hauptadressat),
+  **arbeitsweise** (direkte Fristfrage an Fachplaner-Sie + @-Mention bestaetigt; eigene Fachaussage
+  intern→Behoerde wortgleich weitergereicht), **haltung** (gesichtswahrende Absage an unterlegenen
+  Anbieter bestaetigt, neuer Kontext Brandschutz-Vergabe), **stimme** (Metrik-Eintrag + "Werter
+  Albin"/"Lgr" bestaetigt).
+- Naechster Lauf: ab 2026-04-22.
+
 ## 2026-07-13 — twin-fidelity-review Viertlauf (Näherbaurecht-Cluster Thalwil/SBB + Amts-Freigabe KISPI)
 - Vierter Fidelity-Lauf des Tages (nach 260713/260713b/260713c). Gesamt-Fidelity 92/100. Golds via
   Apple Mail (M365-MCP in dieser Session nicht verfügbar) aus Gesendete Elemente rj@raphaeljans.ch,

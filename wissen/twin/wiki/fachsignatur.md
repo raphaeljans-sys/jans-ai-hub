@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -863,3 +863,22 @@ Vier Fach-Marker aus Batch 40 (KISPI-Umbau/Lenggstrasse 30, April 2026):
   werden zu Schlafzimmer») löst die Fachstelle Lärmschutz (vor Bauentscheid) aus; Raphael sucht die
   Vorbesprechung, seit «01.04.26 ein neues Lärmschutzgesetz besteht» — er übersetzt die Rechtsänderung sofort
   in eine konkrete Handlung (Fachstelle vor Bauentscheid kontaktieren, → [[denken]]).
+
+## Statik-/Bauphysik-Fachsignatur: rechnerische Bodenlast-Diskrepanz + Massnahmen-Optionen (belegt Mailbatch 41, authentisch)
+
+Neuer Fach-Marker (16.04.2026, KISPI-Umbau Innere Verglasungen BKP 274.01): Raphael leitet aus den vom Anbieter
+gelieferten Rohdaten (Gewicht 118 kg/m, Streckenlast 1'158 N/m, Flächenpressung ca. 13,6 kN/m²) selbst eine
+bauphysikalische Diskrepanz her, indem er die Herstellerangabe gegen den verbauten Bodenaufbau rechnet (zulässige
+Flächenlast qk ≤ 3 kN/m², Einzellast Qk ≤ 4 kN, Beanspruchungsklasse B2/3 gem. SIA 251/252) und den Unterschied
+quantifiziert («Faktor ~4,5»). Er erklärt zusätzlich, WARUM die Einzellast-Grenze hier nicht greift (Linienlast
+statt Punktlast, keine radiale Plattenwirkung des Estrichs möglich) — Fachtiefe über die reine Zahl hinaus.
+Struktur der Mail: Sachverhalt → Mögliche Massnahmen (A/B/C nummeriert) → Offene Fragen (nummeriert 1.–5.) an
+zwei Fachadressaten gleichzeitig (Schreiner Jegen + Bauherrenvertreter Albin). Erweitert die Fachsignatur um die
+**Statik-/Bauphysik-Ebene neben Baurecht/Brandschutz** — Kennwerte werden nie übernommen, sondern selbst
+gegengerechnet (→ [[denken]] Rechnen statt Behaupten). Quelle: 16.04.2026, authentisch.
+
+- **Gestalterisches Warnbild statt Floskel** (bestätigt, neuer Beleg 20.04.2026, Thalwil 2414
+  Windschutzwand-Ästhetik): «Eine vollflächige Ausbildung aus der Wand heraus würde ... viele problematische
+  Anschlussdetails erzeugen ... zudem ginge die Ästhetik Richtung „Favela", also informelles Weiterbauen.» Die
+  Ablehnung einer Bauteil-Variante wird mit einem plastischen, wertenden Bild begründet statt mit einer blossen
+  Geschmacksaussage — reiht sich zur bereits belegten Design-Referenz-Praxis (Batch 15/17).

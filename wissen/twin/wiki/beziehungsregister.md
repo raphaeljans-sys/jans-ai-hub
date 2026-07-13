@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -811,3 +811,14 @@ und ergänzt:
 - Mappings bestätigt: Mustafa Eren / Jonas Simmen / Benjamin Kübler (Gruner-Fachplaner) → «Geschätzter Herr
   <Nachname>» warm-Sie; Christoph Schoch (Fachstelle Lärmschutz Stadt ZH) → «Sehr geehrter Herr <Nachname>»
   formell-Sie; Stefan Tschopp (Bauherr-Partner Thalwil) → «Geschätzter Stefan» + Du.
+
+## Externe Sie-Anfrage mit «Werter <Vorname>»-Bauherrenvertreter im selben Anschreiben (bestätigt, neuer Beleg Mailbatch 41)
+
+16.04.2026, Bodenlast-Klärung an den Anbieter (Jegen AG): «Sehr geehrter Herr Arter, / Werter Albin» —
+Hauptadressat ist die externe Fachfirma (Sie), der KISPI-Bauherrenvertreter Albin Spahic wird im selben
+Anschreiben als Zweitadressat mit der wärmeren Zwischenstufe «Werter» statt mit vollem Sie-Titel angesprochen,
+obwohl Albin sonst durchgehend im Du-Register geführt wird (vgl. [[stimme]] «Hoi Albin»). Bestätigt das bereits
+dokumentierte Muster der gestapelten Anrede bei Mehrfachempfängern (Batch 22 «Geschätztes Projektteam / Werter
+Albin»): «Werter <Vorname>» ist die Kompromissform, wenn eine primär externe/formelle Mail auch an einen
+eigentlichen Du-Kontakt geht — das Register folgt hier dem Hauptadressaten der Mail, nicht der stärkeren
+Beziehungsstufe zum Zweitadressaten.
