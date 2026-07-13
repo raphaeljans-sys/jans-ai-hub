@@ -1,3 +1,17 @@
+## 2026-07-13 — din-276-1-2008 adversarial verifiziert: beanstandet-korrigiert, auf established gehoben
+- Destillat `destillate/din-276-1-2008.md` gegen das Original-PDF (26 S., vollständig gelesen)
+  geprüft. Drei Korrekturen: (1) Geltungsbereich behauptete faelschlich «für Ingenieurbau gilt
+  DIN 276-4» — das Vorwort (S. 3) sagt tatsächlich, dass ein Teil 2 (nicht Teil 4) für den
+  Ingenieurbau in Vorbereitung war; korrigiert. (2) KG 470 Nutzungsspezifische Anlagen: die
+  Aufzählung liess «475 Feuerlöschanlagen» aus (Sprinkler-, Gaslöschanlagen,
+  Löschwasserleitungen, Wandhydranten, Handfeuerlöscher) — brandschutzrelevant, ergänzt. (3) KG
+  740 Gutachten und Beratung: die Aufzählung liess «746 Brandschutz», «747 Sicherheits- und
+  Gesundheitsschutz» und «748 Umweltschutz, Altlasten» aus — ergänzt; zusätzlich KG 730 um «734
+  Planung der Ingenieurbauwerke und Verkehrsanlagen» ergänzt. Alle übrigen Ziffern (Begriffe
+  2.1–2.13, Grundsätze 3.1–3.3.11, Stufen der Kostenermittlung 3.4.1–3.4.5, Kostengliederung
+  4.1–4.2, KG 100–700 Struktur der 1./2. Ebene) gegen das Original bestätigt korrekt. Status auf
+  `established`, `last_updated` auf 2026-07-13 gesetzt.
+
 ## 2026-07-13 — normen-verify-abschluss MacBook: 9 Retro-Verifikationen (2x bestanden, 7x beanstandet-korrigiert) + Brandmauern-Duplikat gemerged
 - Die letzten 9 Draft-Destillate des MacBook-Intensivlaufs vom 12.07. adversarial am
   Original-PDF verifiziert; alle 9 auf `established` gehoben. Verdikte:
