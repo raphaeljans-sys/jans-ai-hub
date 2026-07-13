@@ -1033,3 +1033,25 @@ Drei Arbeitsmarker aus Batch 40 (KISPI-Baueingabe/Lenggstrasse 30, April 2026):
   Gastroküche / Innere Verglasungen / Plattenarbeiten / Abbruch Leichtbauwände / Neu
   Leichtbauwände» — fünf Substantiv-Zeilen vor einer Teams-Einladung, bestätigt die Minimalform
   der reinen Agenda-Mail (Batch 42). Quelle: 13.05.2026, authentisch.
+
+## Mailbatch 45 (2026-05-13 bis 2026-05-20, KISPI Sprinkler/AfB-Dachbewilligung/Brandschutz + Albertstrasse-7-Honorarofferte)
+
+- **Technischer Brief in drei benannte Abschnitte gegliedert, die das Telefonat spiegeln.** Ein
+  Fachschreiben an einen neuen Brandschutz-Spezialisten trägt die Struktur «**Unsere Anfrage
+  formuliert sich wie folgt:**» → «**Termin-Besichtigung**» → «**Sachfragen gemäss Telefon:**» —
+  jeder Abschnitt greift einen eigenen Strang des vorausgegangenen Telefongesprächs auf und macht
+  ihn einzeln schriftlich fest, statt alles in einen Fliesstext zu packen. Bestätigt/schärft das
+  DNA-Prinzip «Besprochenes schriftlich fixieren» um die konkrete Umsetzung: **Gliederung nach
+  Gesprächssträngen, nicht nach Chronologie**. Quelle: 18.05.2026, authentisch (→ [[fachsignatur]]
+  Leichtbauwand-Ertüchtigung).
+- **Verfahrens-Beschleunigung aktiv anbieten, statt auf die Behörde zu warten.** Gegenüber der
+  AfB-Sachbearbeiterin (Dach-Bewirtungsbewilligung) bietet Raphael unaufgefordert die eigene
+  Vorarbeit an: «Ich habe zugriff auf alle Dokumenten und könnte so ein Zielgerichtete Abschluss
+  dieses Anliegen forcieren.» — er wartet nicht passiv auf die nächste Rückfrage, sondern
+  positioniert sich selbst als Beschleuniger des Verfahrens. Quelle: 18.05.2026, authentisch
+  (→ [[beziehungsregister]] Hottinger).
+- **Teilnahme-Optionalität explizit im Meeting-Betreff/-Text vermerkt.** Eine reine
+  Teams-Termin-Mail an einen Bauherrenvertreter trägt den Zusatz «**Optionale Teilnahme, nicht
+  zwingend**» direkt neben dem Namen — die Minimalform der Agenda-Mail (bereits belegt, Batch 42)
+  wird hier um eine explizite Anwesenheitspflicht-Kennzeichnung ergänzt, die dem Empfänger die
+  Selektionsarbeit abnimmt, ob er teilnehmen muss. Quelle: 19.05.2026, authentisch.

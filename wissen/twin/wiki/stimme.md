@@ -1516,3 +1516,30 @@ osascript (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elem
   Honorarofferte); Satzlänge ø **18.6 W**; Grüsse «Freundliche Grüsse» **4×** dominant, «Beste
   Grüsse» 1×; Anreden gemischt (Hoi Albin/Hoi Marco/Geschätzter Albin/Geschätzter Herr/Sehr
   geehrter Herr — je 1×). Quelle: 06.–08.05.2026, authentisch.
+
+## Mailbatch 45 (2026-05-13 bis 2026-05-20, KISPI Sprinkler/AfB-Dachbewilligung/Brandschutz + Albertstrasse-7-Honorarofferte)
+
+- **«Darf ich Dich um X bitten» — die formale Bitte-Formel funktioniert auch im Du.** Bisher war
+  «Darf ich Sie bitten» als förmliche Behörden-Eröffnung belegt (Rule `jans-dna.md`). Hier
+  dieselbe Konstruktion im vertrauten Bauherren-Du: «**Darf ich Dich um Freigabe des Angebote…
+  bitten.**» (an Albin, Sprinkler-Offerte) — die Höflichkeits-Bitte-Formel ist damit
+  registerunabhängig, nicht an «Sie» gebunden; im Du bleibt sie trotzdem als formale
+  Bitte-um-Handlung erkennbar (nicht «kannst Du…», sondern «darf ich Dich… bitten»), wenn die
+  Sache selbst formell ist (Rechnungs-/Angebotsfreigabe). Quelle: 13.05.2026, authentisch.
+- **Doppel-Sign-off im Peer-Du-Investor-Register: Kurzgruss + voller Signaturblock kombiniert.**
+  In einer Honorarofferte an Roman Steinmann (Hoi-Du, Albertstrasse 7) schliesst Raphael mit
+  «**Ruf mich doch an wenn Du Zeit hast. / Gruss, Raphael**» — und hängt DANACH trotzdem noch
+  den vollständigen «Freundliche Grüsse RAPHAEL JANS…»-Signaturblock an. Neues Muster: bei
+  einer inhaltlich dichten (Honorar-)Mail im Peer-Du kann der handschriftlich wirkende
+  Kurzgruss («Gruss, Raphael») dem offiziellen Signaturblock VORAUSGEHEN statt ihn zu
+  ersetzen — Wärme und Formalität werden nacheinander gesetzt, nicht gegeneinander
+  ausgespielt. Quelle: 19.05.2026, authentisch (→ [[beziehungsregister]] Roman Steinmann).
+- **Grammatik-Slip als Authentizitätsbeleg: «ob es du» statt «ob Du es».** «Du kannst sagen ob
+  **es du** pauschalisiert oder nach Aufwand ausgewiesen haben möchtest» — Wortstellungs-Slip im
+  Nebensatz, typisch für zügiges Handtippen ohne Nachkontrolle; reiht sich zu den bereits
+  belegten Flüchtigkeitsfehlern (kein Echo-Text). Quelle: 19.05.2026, authentisch.
+- **Mikro-Metrik Batch 45** (333 W über `stilmetrik.py`, 5 Kernmails ohne zitierte Fremdmails/
+  Signaturen): Du-Gross-Quote **0.857**; Tausender-Apostroph 2 (CHF 6'400.- ×2); Ellipsen 0;
+  Satzlänge ø **13.9 W**; Grüsse «Freundliche Grüsse» **4×**; Anreden gemischt («Hoi Roman»,
+  «Geschätzter Albin», «Geschätzte Frau» [Hottinger], «Geschätzter Herr» [Stadelmann] — je 1×).
+  Quelle: 13.–19.05.2026, authentisch.

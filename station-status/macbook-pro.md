@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 23:54:35
+Stand: 14.07.2026 00:14:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:47)
@@ -9,8 +9,8 @@ Stand: 13.07.2026 23:54:35
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 11 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 10 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- f28174ce nas-selfcommit: 2 Datei(en) 2026-07-13 23:45
+- 14763145 normen: Mini-Run 16 (Mac Mini) — Q&A-Selbstbefragung DIN-Kernnormen abgeschlossen

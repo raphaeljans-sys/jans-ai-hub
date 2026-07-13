@@ -958,3 +958,26 @@ Vorschrift NICHT auszulösen**, ohne den funktionalen Massstab zu senken. Quelle
   Querschnittangaben … lichte Höhe und Breite, inklusive Isolation»). Technisches Vokabular:
   Elektrotrasse, Dunstabzugshaube, Lüftungskanal, Abschottung, Druckverhältnisse. Quelle:
   13.05.2026, authentisch (→ [[arbeitsweise]] Baustellenbefund-zu-Pendenzenliste).
+
+## Mailbatch 45 (2026-05-13 bis 2026-05-20, KISPI Sprinkler/Brandschutz + Albertstrasse-7-Honorarofferte)
+
+- **Leichtbauwand-Ertüchtigung: Typenwand-Code präzise, Boden-/Deckenanschluss als bindende
+  Variable.** Anfrage an den Brandschutz-Fachspezialisten benennt die Bestands-Typenwände exakt
+  («**W340-00, EI00, 45dB, GKB**» / «**W320-00, EI00, 35dB, GKB**») und das Zielniveau
+  («**EI30-RF1**»), formuliert Anfrage und Ziel getrennt («Fragestellung: … Ziel:
+  Konformitätsnachweis für Brandschutzpolizei…») und identifiziert selbst die technisch
+  entscheidende Unbekannte: **ob die jeweilige Wand auf der Betondecke oder auf dem
+  Unterlagsboden steht** — diese Anschlussdetail-Frage entscheidet über die Ertüchtigungs-
+  Machbarkeit, nicht der Wandaufbau selbst. Schärft die bereits belegte «Bestandskontinuität als
+  Konstruktionsprinzip» (Batch 41) um die konkrete Trockenbau-Fachfrage. Quelle: 18.05.2026,
+  authentisch (→ [[beziehungsregister]] Stadelmann, Skill `brandschutz`).
+- **Honorarofferte Albertstrasse 7: Leistungen einzeln beziffert, Aufwand in Wochen UND Stunden
+  ausgewiesen.** Zwei Teilleistungen («Massaufnahme vor Ort und Plandoku» / «Ausschreibung
+  Arbeiten gemäss Liste») je mit eigenem Betrag «CHF 6'400.- exkl. MwSt.», dazu Stundenansatz
+  «CHF 160.-» UND eine Aufwandschätzung, die Wochen UND Stunden zugleich nennt («2 Wochen (1Woche
+  Aufnahme und Pläne / 1Woche Ausschreibung Richtpreisofferte) 84h») — die Offerte bleibt für den
+  Investor auf zwei Ebenen nachvollziehbar (Kalenderzeit fürs Timing, Stunden für die
+  Plausibilität des Pauschalpreises), und die Wahl Pauschal-vs-Aufwand wird explizit dem Kunden
+  überlassen («Du kannst sagen ob es du pauschalisiert oder nach Aufwand ausgewiesen haben
+  möchtest»). Quelle: 19.05.2026, authentisch (→ [[stimme]] Doppel-Sign-off, [[haltung]] Honorar
+  direkt beziffern).

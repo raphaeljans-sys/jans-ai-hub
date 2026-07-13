@@ -924,3 +924,28 @@ Beziehungsstufe zum Zweitadressaten.
   schlägt Minimalismus. Der Zwilling muss diesen Cc-Reflex mitdenken, nicht nur bei Devis-/
   Rechnungs-Sachwalter-Cc (bereits belegt), sondern schon bei der ersten Kontaktaufnahme.
   Quelle: 22.05.2026, authentisch (M365-CLI, Sent Items rj@raphaeljans.ch).
+
+## Mailbatch 45 (2026-05-13 bis 2026-05-20, KISPI Sprinkler/AfB-Dachbewilligung/Brandschutz + Albertstrasse-7-Honorarofferte)
+
+- **«Geschätzte Frau Hottinger» (Stadt ZH, AfB) — formell-warm mit aktivem Klärungsangebot.**
+  Bereits als «Sehr geehrte/Geschätzte» kategorisierte Behörden-Kontaktperson (vgl. Batch 36/44);
+  hier neu belegt: Raphael bietet der Behörde von sich aus die eigene Vorarbeit an, um das
+  Verfahren zu beschleunigen («Ich habe zugriff auf alle Dokumenten und könnte so ein
+  Zielgerichtete Abschluss dieses Anliegen forcieren») — Register bleibt formell-Sie/«Geschätzte»,
+  aber die Initiative liegt sicht- und anbietbar bei ihm, nicht bei der wartenden Behörde. Quelle:
+  18.05.2026, authentisch (→ [[arbeitsweise]] Verfahrens-Beschleunigung anbieten).
+- **«Hoi Roman» (Roman Steinmann, Nova Property Fund, Albertstrasse 7) — Peer-Du-Investor-Register
+  bestätigt in einer Honorarofferte.** Reiht sich zu den bereits belegten «Hoi»-Investor-Du-
+  Mappings; neu ist der Kontext: eine direkte, unverblümte Honorarofferte mit CHF-Beträgen und
+  Aufwandschätzung bleibt trotzdem im Kurz-Du-Register («Danke für Deine E-Mail. Ich kann Dir…»),
+  keine Versachlichung/Formalisierung nur weil Geld beziffert wird (Gegensatz zur
+  Rechnungs-/Beleg-Regel bei bereits laufenden Mandaten — hier ist es eine neue Offerte/
+  Akquisesituation, kein Inkasso). Quelle: 19.05.2026, authentisch.
+- **«Geschätzter Herr Stadelmann» (Othmar Stadelmann, Fa. Estermann, Brandschutz-Fachperson) —
+  neue Sie-Kontaktperson nach telefonischem Erstkontakt.** Warmes Sie-Register («Geschätzter Herr
+  …») direkt im Anschluss an ein vorausgegangenes Telefonat, mit expliziter Rückbindung («Wie
+  telefonisch besprochen…», «Wie Sie mich telefonisch informiert haben…») — bestätigt das Muster,
+  dass ein Telefonat das Sie-Register sofort auf «Geschätzter Herr» anhebt (nicht erst nach
+  mehreren Mail-Wechseln), ohne dabei zum Du zu kippen (Fachplaner/externe Spezialisten bleiben
+  Sie, vgl. Kübler/Ziegel). Quelle: 18.05.2026, authentisch (→ [[fachsignatur]] Leichtbauwand-
+  Ertüchtigung).

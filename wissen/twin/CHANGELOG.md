@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14 — twin-mail-training Mailbatch 45 (2026-05-13 bis 2026-05-20)
+- Sequentieller Sweep fortgesetzt: Sent Items rj@, Index 421 bis 390 (32 Mails gesichtet, 5
+  Volltexte destilliert). Zugriff via Apple Mail osascript (Bundle-ID `com.apple.mail`, Account
+  «Exchange», Mailbox «Gesendete Elemente») — M365-MCP-Server in dieser Session ohne
+  `@pnp/cli-microsoft365`-Paket nicht erreichbar, Cowork-Connector `outlook_email_search` nicht
+  verfügbar; dritte etablierte Zugriffsroute (wie Batch 36-38/41/44).
+- Hauptfäden: KISPI-Umbau Sprinkler-Freigabe, AfB-Dach-Bewirtungsbewilligung (neue
+  Beschleunigungs-Initiative gegenüber Hottinger), Ertüchtigung Leichtbauwände Brandschutz (neuer
+  Kontakt Stadelmann/Estermann), Albertstrasse-7-Honorarofferte an Roman Steinmann (Direktvermietung
+  Nova Property).
+- Eingearbeitet: [[stimme]] (Du-Variante der Bitte-Formel «Darf ich Dich… bitten», Doppel-Sign-off
+  Kurzgruss+Signaturblock im Peer-Du-Investor-Register, Metrik), [[beziehungsregister]]
+  (Stadelmann/Estermann-Mapping, Hottinger-Beschleunigungsangebot, Steinmann-Hoi-Du in
+  Honorarofferte bestätigt), [[fachsignatur]] (Leichtbauwand-Ertüchtigung EI00→EI30-RF1 mit
+  Boden-/Deckenanschluss-Fachfrage, Honorarofferte-Doppel-Einheit Wochen+Stunden),
+  [[arbeitsweise]] (technischer Brief in drei telefonspiegelnde Abschnitte gegliedert,
+  Verfahrens-Beschleunigung aktiv anbieten, Teilnahme-Optionalität im Meeting-Text).
+- Register `raw/_INGESTED.md` nachgeführt: Sequential-Sweep jetzt abgedeckt bis **2026-05-20,
+  14:02 Uhr** einschliesslich (Index 390 in Gesendete Elemente); nächster Lauf ab Index 389.
+- Keine Echo-Falle im destillierten Teil dieses Batches.
+
 ## 2026-07-13h — twin-fidelity-review Achtlauf (Selbsttest, Gap-Suche statt Sequential-Sweep)
 - Modus: Fidelity-Review-Selbsttest, achter Lauf am 13.07.2026 (nach a–g mit Fidelity 92–95).
   Statt weiterer chronologischer Sequential-Sweep-Fortsetzung (bereits dicht bis 2026-05-13)
