@@ -432,3 +432,42 @@ Gültigkeit/«ersetzt» direkt aus Titelblatt/Vorwort des jeweiligen PDF belegt 
 | Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
 |---|---|---|---|
 | SN 640 105a (VSS) | Dezember 2000 | SNV 640 105 (Oktober 1975) | gilt (keine neuere Ausgabe im Bestand); Verbreiterung der Fahrbahn in Kurven, vollständig als Anhang (S.25-37) in `VSS 640 291a Parkieren Geometrie.PDF` gelesen |
+
+## Run-5 (13.07.2026, MacBook Pro — SIA/VKF-Basisinventar-Abschluss, am Original destilliert+verifiziert)
+
+Mit diesem Lauf ist das **SIA/VKF-Basisinventar vollstaendig** (alle P1-P3-Positionen destilliert
+oder begruendet uebersprungen). Neu registriert bzw. praezisiert:
+
+| Norm | Ausgabe (Bestand) | Ersetzt laut PDF | Bemerkung |
+|---|---|---|---|
+| SIA 195 | 1999 (in Kraft 1.1.2000) | SIA 195:1992 «Pressvortrieb» | gilt; Rohrvortrieb, grabenlose Leitungen |
+| SIA 196 | 1998 | SIA 196:1983 | gilt; Baulüftung im Untertagbau (Teil-Destillat, Kern) |
+| SIA 197 | 2004 (in Kraft 1.10.2004) | Kap. 1+2 der SIA 198:1993 | gilt; Projektierung Tunnel – Grundlagen (mit 197/1, 197/2) |
+| SIA 198 | 2004 (in Kraft 1.10.2004) | SIA 198:1993 (Ausführungsteil) | gilt; Untertagbau Ausführung (vertragl. Teil neu SIA 118/198) |
+| SIA 199 | 1998 | SIA 199:1975 | gilt; Erfassen des Gebirges im Untertagbau |
+| SIA 203 | 1997 | — | gilt; Deponiebau (setzt TVA um) |
+| SIA 272 | 1980 (Nachdruck 3/1997) | — | gilt (Bestand); Grundwasserabdichtungen |
+| SIA 282 (SN 564282) | **2019** (gültig ab 1.8.2019) | SIA 282:2011 | gilt; Flüssig aufzubringende Abdichtungen — **neuer als 2013-Register**; Datei `sia-564-282.md` |
+| SIA 405 | 1998 | Empfehlung SIA 405:1985 | gilt; GEO405 Leitungskataster (Teil-Destillat) |
+| SIA 431 | 1997 (in Kraft 1.12.1997) | — | gilt; Entwässerung von Baustellen (SIA/VSA) |
+| SIA 450 | 1993 (Druck 4/1994) | — | gilt (Bestand); Informatik Kosteninformationen im Bauwesen |
+| SIA 480 | 2004 | — | gilt; Wirtschaftlichkeitsrechnung Investitionen Hochbau |
+| SIA 493 | 1997 (in Kraft 1.3.1998) | — | gilt; Deklaration ökologischer Merkmale von Bauprodukten |
+| SIA 2014 | **2017** (gültig ab 1.9.2017) | SIA 2014:1996 | gilt; CAD-Layerstruktur — **neuer als 2013-Register** |
+| SIA 2040 | **2017** (gültig ab 1.5.2017) | SIA 2040:2011 | gilt; SIA-Effizienzpfad Energie (2000-Watt) — **neuer als 2013-Register** |
+| SIA 2051 | **2017** (gültig ab 1.12.2017) | — (Erstausgabe) | gilt; BIM-Grundlagen — Datei `sia-2051-2018.md` |
+| SIA 2056 (SNR 592056) | **2019** (gültig ab 1.8.2019) | SIA 380/4:2006 | gilt; Elektrizität in Gebäuden Energie-/Leistungsbedarf — **neuer als 2013-Register**; Datei `sia-592-056.md` (Teil-Destillat) |
+| SIA 370.028 (SN EN 81-28) | 2003 | — | gilt; Fern-Notruf für Aufzüge (Übernahme EN 81-28:2003) |
+| SIA 370.080 (SN EN 81-80) | 2003 (gültig ab 1.7.2004) | Merkblatt SIA 2019:2000 | gilt; Sicherheit bestehender Aufzüge SNEL (Übernahme EN 81-80) |
+| SIA 343.051 (SN EN 14351-2) | **2018** (CH gültig ab 1.1.2019) | SN EN 14351-2:2012? (Erst-CH-Übernahme) | gilt; Innentüren-Produktnorm — **neuer als 2013-Register**; Feuer/Rauch NICHT abgedeckt (EN 16034); Teil-Destillat |
+| SIA 382/1 | **2014** (gültig ab 1.7.2014) | SIA 382/1:2007 | gilt; Lüftungs-/Klimaanlagen Grundlagen — **neuer als 2013-Register**; Teil-Destillat (Kern S.1-63) |
+| SIA 384/201 (SN EN 12831-1) | **2017** (gültig ab 1.12.2018) | SN EN 12831:2003 | gilt; Norm-Heizlast-Berechnung — **neuer als 2013-Register**; Teil-Destillat |
+| SIA 193.111 (SN EN 12063) | 1999 (gültig ab 1.8.1999) | — | gilt (Bestand); Spundwandkonstruktionen Spezialtiefbau |
+| SN EN 13200-1 | **2019** (gültig ab 1.9.2019) | SN EN 13200-1:2012 | gilt; Zuschaueranlagen Teil 1 — **neuer als 2013-Register**; Datei `sia-en-13200-1-2019.md` |
+| SIA 162.051 (SN EN 206-1) | 2000 (gültig ab 1.1.2003) | SIA V162.051:1994 / ENV 206:1990 | gilt (Bestand); Beton Teil 1 — spätere Ausgabe SN EN 206:2013 nicht im Bestand (Bring-Schuld) |
+| VKF-BRL 107-15 | 2015 (genehmigt 23.9.2014) | — | gilt; Flüssiggasanlagen (Erläuterung zur Brandschutzrichtlinie) |
+
+Zusätzlich am Original **retro-verifiziert** (established, Stand 260713): SIA 244:2006, 246:2006,
+248:2006 (Kunst-/Naturstein-/Plattenarbeiten), SIA 312:2013 (Dachbegrünung), SIA 370.028:2003,
+SIA 462:1994, 465:1998, 469:1997 (Erhaltung/Sicherheit bestehender Bauwerke), SIA 721:2001,
+752:2002, 753:2002 (NVB Bohren/Böden).

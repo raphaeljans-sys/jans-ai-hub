@@ -104,11 +104,19 @@
   höherer Tokenverbrauch: ca. 150k Tokens je Agent, Budget für 13 Destillate nahezu ausgeschöpft
   bei $22 von $25 Sessionbudget). Für künftige Läufe: entweder Workflow-Tool-Verhalten in
   Hintergrundläufen klären, oder bewusst mit kleineren Agent-Batches (8-10 statt 13-19) planen.
-- [ ] **DIN EN 1627:2011 (Einbruchhemmung) — nur Teilbestand.** Die Datei
-  `DIN-Norm/DIN 1627_Auszuege .pdf` enthält laut Dateiname und Inhalt nur einen Auszug
-  (4 von 44 Seiten der Vollnorm); Destillat `din-en-1627-2011.md` ist deshalb als
-  `teil-destillat` markiert. Für Widerstandsklassen-Details (RC1-RC6, Bauteilanforderungen)
-  über die 4 gelesenen Seiten hinaus die Vollnorm via Beuth-Verlag oder erneute
+- [ ] **DIN EN 1627:2011 (Einbruchhemmung) — nur Teilbestand, Lücke bestätigt.** Die
+  Datei `DIN-Norm/DIN 1627_Auszuege .pdf` enthält laut `pdfinfo` nachweislich nur
+  4 von 44 Seiten der Vollnorm (Titelblatt, Ziff. 5-6, Anhang NA.6, NA.10-NA.11);
+  Destillat `din-en-1627-2011.md` bleibt `teil-destillat`. Retro-Verifikation
+  Mini-Run 14 (260713) hat die 4 vorhandenen Seiten vollständig gegen das Destillat
+  geprüft (13 Aussagen) und 1 Fehler korrigiert: RC 4 war fälschlich pauschal als
+  «Elektrowerkzeuge»-Einsatzklasse geführt, das Original nennt für RC 4 aber
+  Säge-/Schlagwerkzeuge + Akku-Bohrmaschine (echte Elektrowerkzeuge erst ab RC 5).
+  Ergänzt wurden zudem die Korrelationstabelle NA.7 für RC 1N/RC 2N (keine bzw. nur
+  teilweise Entsprechung zu den WK-Altklassen) und der Orientierungscharakter der
+  Tabelle NA.6 (fachkundige Beratung nötig). Für Widerstandsklassen-Details über die
+  4 gelesenen Seiten hinaus (v. a. die vollständige Klassentabelle, Prüfverfahren-
+  Anhänge, Ziff. 1-4) weiterhin die Vollnorm via Beuth-Verlag oder erneute
   SharePoint-/M365-Suche beschaffen. Notiert 13.07.2026 (normen-training-mini, Mac Mini).
 - [ ] **Schweizer Pendants zu deutschen Sonstiges-Destillaten fehlen noch (Mac Mini Run,
   13.07.2026):** Beim Destillieren mehrerer deutscher Nicht-DIN-Dokumente (BauNVO, ArbStättV,
@@ -269,3 +277,30 @@
 - [x] **Retro-Verifikation für din-1946-6-2009 (125 S.)** — erledigt Mini-Run 13 (260713):
   4 unabhängige Prüf-Agenten, ca. 100 Aussagen geprüft, 14 Fehler/Lücken gefunden und im
   Destillat korrigiert (siehe destillate/din-1946-6-2009.md, Abschnitt „Offene Punkte").
+- [x] **SIA/VKF-Basisinventar VOLLSTÄNDIG — 13.07.2026 (MacBook Pro Run 5):** Alle SIA- und
+  VKF-Positionen (P1-P3) im `norm-inventar.md` sind destilliert oder begründet übersprungen
+  (0 offene `[ ]`). Letzter Batch (Workflow, 24 Destillate + 12 Retro-Verifikationen +
+  EN 13200-1): SIA 195/196/197/198/199/203/272/282(564)/405/431/450/480/493/2014/2040/2051/
+  2056(592)/343.051/370.080/382-1/384.201/193.111 + SN EN 13200-1 + VKF-BRL 107-15;
+  retro-verifiziert established: SIA 162.051/244/246/248/312/370.028/462/465/469/721/752/753.
+  **Nächste Läufe → Vertiefungsstufen** (Programm PROGRAMM.md): (a) Tiefendestillate der
+  P1-Kernnormen artikelweise (SIA 118/102/416/VKF), (b) Retro-Verifikation mit 3 Agenten,
+  (c) Q&A-Selbstbefragung, (d) Querschnitts-Synthesen. Rücktaktung ins Nachtfenster ist
+  Raphael vorzuschlagen, sobald die Vertiefung abgearbeitet ist.
+- [ ] **Dateiname ↔ Norm-Nummer-Diskrepanzen (dokumentiert, kein Fehler):** `592056.pdf` ist
+  inhaltlich **SIA 2056:2019** (SNR 592056), nicht eine Norm «592 056»; `564_282.pdf` ist
+  **SIA 282:2019** (SN 564282). Die Destillate behalten den PDF-abgeleiteten Dateinamen
+  (`sia-592-056.md`, `sia-564-282.md`), INDEX/REGISTER weisen die echte Norm-Nr aus. Bei
+  Bedarf später umbenennen (destruktiv → nur mit Bestätigung).
+- [ ] **Teil-Destillate mit offenen Anhängen (Vertiefung Stufe a):** SIA 196 (Anh. A1-A4),
+  SIA 382/1 (Anh. A-G), SIA 384/201 (Kap. 7-9 + Anh. A-I), SIA 2056/592 (Detailkataloge
+  Kap. 3.2-3.9/4/6.3+), SIA 343.051 (informative Anh. D/E), SIA 405 (medienspez. Datenkataloge),
+  SIA 193.111 (Anh. A-G). Normativer Kern jeweils established/verifiziert; Anhänge nachziehen.
+- [ ] **Fehlende verlinkte Destillate (Cross-Link-Lücke):** `sia-en-13200-1-2019.md` verweist
+  auf [[sia-500-2009]] (SIA 500 Hindernisfreie Bauten — Rollstuhlplatzzahl) und die VKF-
+  Fluchtweg-Richtlinie; SIA 500 ist noch nicht als eigenes Destillat vorhanden (Bestand
+  `500_2009.pdf` ist destilliert? prüfen) — als logische Anschlussnorm nachziehen.
+- [x] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich (Teil-Grundlage vorhanden):** SIA 382/1
+  ist seit Run 5 (260713) als Destillat verfügbar (`sia-382-1-2014.md`, Kern S.1-63,
+  Aussenluft-Volumenstrom/Klassierung AUL/RAL/ABL); der Detailvergleich CH- vs. DE-Modell
+  kann darauf aufbauen (Anhänge A-G von SIA 382/1 noch offen).

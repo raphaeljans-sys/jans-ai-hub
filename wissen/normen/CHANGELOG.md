@@ -1,3 +1,27 @@
+## 2026-07-13 — MacBook Pro Run 5: SIA/VKF-Basisinventar VOLLSTÄNDIG (Workflow, 37 Positionen)
+- Multi-Agent-Workflow (60 Agenten, 0 Fehler, ~11.9 Mio Token, ~30 Min): 24 Destillate als
+  Destillier→Verifizier-Pipeline + 12 Retro-Verifikationen, plus Nachzug SN EN 13200-1:2019.
+- **Neu destilliert+verifiziert (SIA):** 195 (Rohrvortrieb), 196 (Baulüftung Untertagbau),
+  197 (Tunnel Grundlagen), 198 (Untertagbau Ausführung), 199 (Erfassen des Gebirges),
+  203 (Deponiebau), 272 (Grundwasserabdichtungen), 282:2019/`564_282` (flüssige Abdichtungen),
+  405 (GEO405 Leitungskataster), 431 (Baustellenentwässerung), 450 (Kosteninformationen),
+  480 (Wirtschaftlichkeitsrechnung), 493 (Ökodeklaration Bauprodukte), 2014:2017 (CAD-Layer),
+  2040:2017 (Effizienzpfad Energie), 2051:2017 (BIM), 2056:2019/`592056` (Elektr. Energiebedarf),
+  343.051:2018/EN 14351-2 (Innentüren), 370.080/EN 81-80 (Aufzüge-Nachrüstung), 382/1:2014
+  (Lüftung/Klima), 384/201/EN 12831-1 (Norm-Heizlast), 193.111/EN 12063 (Spundwände),
+  SN EN 13200-1:2019 (Zuschaueranlagen) + VKF-BRL 107-15 (Flüssiggasanlagen).
+  Bilanz: 18 established, 6 teil-destillat (Kern verifiziert, Anhänge offen); 13/24 beanstandet-korrigiert.
+- **Retro-verifiziert → established (12):** SIA 162.051/EN 206-1 (Beton), 244/246/248
+  (Kunst-/Naturstein-/Plattenarbeiten), 312 (Dachbegrünung, BKP-224-Korrektur), 370.028/EN 81-28
+  (Fern-Notruf Aufzüge), 462 (Tragsicherheit), 465 (Sicherheit Bauten), 469 (Erhaltung Bauwerke),
+  721 (Bohren/Trennen NVB), 752 (Industrieböden NVB), 753 (Bodenbeläge NVB). 3 beanstandet-korrigiert.
+- **Nachgeführt:** norm-inventar.md (0 offene [ ]-Positionen mehr), INDEX.md (35 Einträge ergänzt),
+  REGISTER.md (Run-5-Nachtrag inkl. Norm-Nr-Präzisierungen 592056→SIA 2056, 564_282→SIA 282),
+  QUESTIONS.md. Report: `outputs/2026-07-13_normen-nacht-run5.md`.
+- **Endbedingung:** SIA/VKF-Basisinventar komplett → nächste Läufe wechseln auf die
+  Vertiefungsstufen (Tiefendestillate P1-Kern, 3-Agenten-Retro-Verifikation, Q&A-Selbstbefragung,
+  Querschnitts-Synthesen, offene Anhänge der 6 Teil-Destillate). «SIA/VKF KOMPLETT» erst danach.
+
 ## 2026-07-13 — Mac Mini Run 13: din-1946-6 adversarial retro-verifiziert, Tabelle-D.4-Unstimmigkeit geklärt (Deepening-Stufe b)
 - Erster Lauf der Deepening-Stufe (b) Retro-Verifikation gemäss `training/PROGRAMM.md`,
   nachdem das DIN/VSS/RAL-Basisinventar seit Run 5/12 vollständig ist.

@@ -491,7 +491,7 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md)  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 | 2008 | destilliert (din-1946-4-2008.md), vollstaendig S.1-66/66, Healthcare-RLT-Norm |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | established (din-1946-6-2009.md, vollstaendig S.1-125/125, Mini-Run 12 Workflow-Fanout), Retro-Verifikation neuer Abschnitte offen |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | established, verifiziert 260713 (din-1946-6-2009.md, vollstaendig S.1-125/125, adversariale Retro-Verifikation Mini-Run 13: 14 von ca. 100 Aussagen korrigiert) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 | 2009 | destilliert (din-1946-7-2009.md)  verifiziert 260713 (beanstandet-korrigiert) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 2010 | destilliert (din-1960-2010.md), VOB Teil A |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 2010 | destilliert (din-1961-2010.md), VOB Teil B |

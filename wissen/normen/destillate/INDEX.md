@@ -50,7 +50,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
-| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (vollständig S.1-125/125, Mini-Run 12; Retro-Verifikation neuer Abschnitte offen) |
+| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (verifiziert 260713, vollständig S.1-125/125, adversariale Retro-Verifikation Mini-Run 13: 4 Pruef-Agenten, ca. 100 Aussagen geprueft, 14 Fehler korrigiert) |
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
 | `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12) |
@@ -171,3 +171,38 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260713, vollstaendig S.1-18/18) |
 | `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | established (verifiziert 260713, vollstaendig S.1-21/21) |
 | `vss-640578-2006.md` | SN 640 578 Laermimmissionen Parkierungsanlagen Berechnung | 2006-08 | established (verifiziert 260713, vollstaendig S.1-36/36) |
+| `sia-195-1999.md` | SIA 195 Rohrvortrieb (grabenlose Leitungen) | 1999 | established (verifiziert 260713) |
+| `sia-196-1998.md` | SIA 196 Baulüftung im Untertagbau | 1998 | teil-destillat (Kern S.1-37; verifiziert 260713) |
+| `sia-197-2004.md` | SIA 197 Projektierung Tunnel – Grundlagen | 2004 | established (verifiziert 260713) |
+| `sia-198-2004.md` | SIA 198 Untertagbau, Ausführung | 2004 | established (verifiziert 260713) |
+| `sia-199-1998.md` | SIA 199 Erfassen des Gebirges im Untertagbau | 1998 | established (verifiziert 260713) |
+| `sia-203-1997.md` | SIA 203 Deponiebau (Abfalldeponien) | 1997 | established (verifiziert 260713) |
+| `sia-272-1980.md` | SIA 272 Grundwasserabdichtungen | 1980 | established (verifiziert 260713) |
+| `sia-405-1998.md` | SIA 405 GEO405: Geoinformationen unterird. Leitungen (Leitungskataster) | 1998 | teil-destillat (verifiziert 260713) |
+| `sia-431-1997.md` | SIA 431 Entwässerung von Baustellen | 1997 | established (verifiziert 260713) |
+| `sia-450-1993.md` | SIA 450 Informatik: Kosteninformationen im Bauwesen | 1993 | established (verifiziert 260713) |
+| `sia-480-2004.md` | SIA 480 Wirtschaftlichkeitsrechnung Investitionen Hochbau | 2004 | established (verifiziert 260713) |
+| `sia-493-1997.md` | SIA 493 Deklaration ökologischer Merkmale von Bauprodukten | 1997 | established (verifiziert 260713) |
+| `sia-564-282.md` | SIA 282 Flüssig aufzubringende Abdichtungen (SN 564282) | 2019 | established (verifiziert 260713) |
+| `sia-343-051-2018.md` | SIA 343.051 / SN EN 14351-2 Innentüren (Produktnorm Teil 2) | 2018 | teil-destillat (verifiziert 260713) |
+| `sia-370-080-2003.md` | SIA 370.080 / SN EN 81-80 Sicherheit bestehender Aufzüge (SNEL) | 2003 | established (verifiziert 260713) |
+| `sia-382-1-2014.md` | SIA 382/1 Lüftungs-/Klimaanlagen: Grundlagen und Anforderungen | 2014 | teil-destillat (Kern S.1-63; verifiziert 260713) |
+| `sia-384-201-2017.md` | SIA 384/201 / SN EN 12831-1 Norm-Heizlast-Berechnung | 2017 | teil-destillat (Kap.1-6; verifiziert 260713) |
+| `sia-193-111-1999.md` | SIA 193.111 / SN EN 12063 Spundwandkonstruktionen (Spezialtiefbau) | 1999 | established (Kern S.1-46; verifiziert 260713) |
+| `sia-2014-2017.md` | SIA 2014 CAD-Datenaustausch: Layerstruktur/Layerschlüssel | 2017 | established (verifiziert 260713) |
+| `sia-2040-2017.md` | SIA 2040 SIA-Effizienzpfad Energie (2000-Watt) | 2017 | established (verifiziert 260713) |
+| `sia-2051-2018.md` | SIA 2051 BIM – Grundlagen zur Anwendung der BIM-Methode | 2017 | established (verifiziert 260713) |
+| `sia-592-056.md` | SIA 2056 Elektrizität in Gebäuden: Energie-/Leistungsbedarf (SNR 592056) | 2019 | teil-destillat (verifiziert 260713) |
+| `sia-en-13200-1-2019.md` | SN EN 13200-1 Zuschaueranlagen, Teil 1 Allg. Merkmale | 2019 | established (verifiziert 260713) |
+| `sia-162-051-2000.md` | SIA 162.051 / SN EN 206-1 Beton Teil 1 (Festlegung/Konformität) | 2000 | established (verifiziert 260713) |
+| `sia-244-2006.md` | SIA 244 Kunststeinarbeiten: Beläge/Bekleidungen/Werkstücke | 2006 | established (verifiziert 260713) |
+| `sia-246-2006.md` | SIA 246 Natursteinarbeiten: Beläge/Bekleidungen/Werkstücke | 2006 | established (verifiziert 260713) |
+| `sia-248-2006.md` | SIA 248 Plattenarbeiten Keramik/Glas/Asphalt | 2006 | established (verifiziert 260713) |
+| `sia-312-2013.md` | SIA 312 Begrünung von Dächern | 2013 | established (verifiziert 260713) |
+| `sia-370-028-2003.md` | SIA 370.028 / SN EN 81-28 Fern-Notruf Aufzüge | 2003 | established (verifiziert 260713) |
+| `sia-462-1994.md` | SIA 462 Beurteilung Tragsicherheit bestehender Bauwerke | 1994 | established (verifiziert 260713) |
+| `sia-465-1998.md` | SIA 465 Sicherheit von Bauten und Anlagen | 1998 | established (verifiziert 260713) |
+| `sia-469-1997.md` | SIA 469 Erhaltung von Bauwerken | 1997 | established (verifiziert 260713) |
+| `sia-721-2001.md` | SIA 721 Bohren/Trennen von Beton und Mauerwerk (NVB) | 2001 | established (verifiziert 260713) |
+| `sia-752-2002.md` | SIA 752 Fugenlose Industriebodenbeläge (NVB zu SIA 252) | 2002 | established (verifiziert 260713) |
+| `sia-753-2002.md` | SIA 753 Bodenbeläge Linoleum/Kunststoff/Textil/Holz (NVB zu SIA 253) | 2002 | established (verifiziert 260713) |
