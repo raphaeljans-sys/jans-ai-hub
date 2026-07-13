@@ -58,6 +58,21 @@ Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen.
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
 
+**Stand Run 25 (2026-07-13):** D6 (Dichte-Kennwerte je Gemeinde) **substanziell geschlossen**.
+Nach Run 24 (Thalwil + Waedenswil) in diesem Lauf 7 weitere JANS-Bezugsmaerkte direkt aus der
+amtlichen BZO/dem Baureglement extrahiert und belegt in [[az-gfz-kennwerte]]: Maur, Regensdorf,
+Wangen SZ, Muri AG (Ausnuetzungsziffer), Zollikon, Wald ZH (Baumassenziffer), Einsiedeln
+(Ueberbauungsziffer); Luzern als System-Beschrieb (Gesamthoehe-Klassen A-F + UEZ je Ordnungs-
+nummer); Langnau am Albis BZO 2005 ausser Kraft (Revision 2026/27). **Kernbefund:** drei nicht
+umrechenbare Bezugsgroessen — der Artikel warnt jetzt explizit davor, AZ/BMZ/UEZ zu vermischen.
+Damit hat die KB nach den Runs 18-23 (reine Bestaetigungen) wieder zwei Laeufe mit echtem,
+belegtem Erkenntnisgewinn produziert (Run 24+25). **Naechster Lauf:** Wiedervorlage Langnau nach
+Revision, Luzern-Per-Ordnungsnummer bei konkretem Standort, Muri-Aktualisierung 2019; sonst
+faellt die KB in den reinen Marktpuls-/Bewertungsfall-Beobachtungsmodus zurueck (naechster
+Publikationstermin der Zins-Anker ab 01.09.2026) → Ruecktaktung ins Nachtfenster erneut
+sinnvoll, sobald diese Rest-Vorbehalte extern abhaengig bleiben. Details:
+`outputs/2026-07-13_training-run25.md`.
+
 **Stand Run 23 (2026-07-13):** Sechste Bestaetigung in Folge ohne neue Erkenntnis. Statt
 eine der fuenf bestandenen Verifikationen erneut zu fahren, drei konkrete Kandidaten
 geprueft: kein neuer JANS-Bewertungsfall (Ordner direkt gelistet), D6 (AZ/GFZ-Kennwerte)

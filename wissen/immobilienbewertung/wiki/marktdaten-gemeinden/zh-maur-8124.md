@@ -8,7 +8,7 @@ plz: 8124
 ms_region: Glattal-Furttal
 stand: 2024-07
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Maur.pdf (UBS CIO GWM, 7/2024, Preisdaten Stand 2024-Q1)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Maur (ZH) — UBS Fact Sheet 7/2024

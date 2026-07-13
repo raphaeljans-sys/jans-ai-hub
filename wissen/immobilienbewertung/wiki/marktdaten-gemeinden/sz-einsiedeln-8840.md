@@ -8,7 +8,7 @@ plz: 8840
 ms_region: Einsiedeln
 stand: 2023-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet SZ Einsiedeln 2312.pdf (UBS CIO GWM, 12/2023, Preisdaten Stand 2023-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Einsiedeln (SZ) — UBS Fact Sheet 12/2023

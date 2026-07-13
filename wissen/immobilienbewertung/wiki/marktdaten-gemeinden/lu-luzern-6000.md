@@ -8,7 +8,7 @@ plz: 6000
 ms_region: Luzern
 stand: 2023-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet LU Luzern 2312 (UBS CIO GWM, 12/2023, Preisdaten Stand 2023-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Luzern (Stadt, LU) — UBS Fact Sheet 12/2023

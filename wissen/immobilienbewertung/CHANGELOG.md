@@ -2,6 +2,33 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 25: D6 substanziell geschlossen — 7 weitere Gemeinden (Dichte-Kennwerte)
+
+- **[[az-gfz-kennwerte]] massiv erweitert** um 7 Gemeinden, je direkt aus der amtlichen
+  BZO/dem Baureglement extrahiert (`curl` + `pdftotext -layout` auf die amtliche PDF; bei
+  Wangen SZ Spaltenzuordnung per Zeichenpositions-Alignment verifiziert, Kernzone als
+  leftmost-Spalte erkannt):
+  - **AZ (Ausnuetzungsziffer):** Maur ZH (nBZO 2023: W1 20/W2 35-45/W3 60 %), Regensdorf ZH
+    (BZO 2020: W2A 27/W2B 35/W3 50 %), Wangen SZ (W1 0.25/W2 0.45/W3 0.55/W4 0.70, +GP-Werte),
+    Muri AG (Stand 2012: W1 0.3/W2 0.4/W3 0.5).
+  - **Baumassenziffer (m3/m2):** Zollikon ZH (BZO 1996: W 1.25-2.60, WG bis 2.90), Wald ZH
+    (W 1.1-2.8, WG 2.0-2.8; Geschossaufteilung frei).
+  - **Ueberbauungsziffer:** Einsiedeln SZ (Baureglement 2025: W1/W4 20/W2 28/W3 24 %).
+  - **Luzern (Stadt):** anderes System — Wohnzonen A-F nach Gesamthoehe + Ueberbauungsziffer
+    je Zonenplan-Ordnungsnummer; als System-Beschrieb erfasst, Per-Zonenwerte offen.
+  - **Langnau am Albis:** BZO 2005 ausser Kraft (Revision 2026/27), kein in-Kraft-PDF —
+    als Status-/Vorbehalt-Eintrag erfasst (JANS-Fall 2621 Giebelweg).
+- **Kernbefund (neu):** die Gemeinden regeln Dichte ueber DREI nicht ineinander umrechenbare
+  Kennziffern (AZ / Baumassenziffer / Ueberbauungsziffer). Artikel erhielt Uebersichtstabelle
+  + explizite Warnung, dass zonenuebergreifende Vergleiche nur bei gleicher Bezugsgroesse
+  zulaessig sind; Artikel-Titel/Frontmatter entsprechend generalisiert.
+- Register gepflegt: `wissensluecken.md` (D6 auf «niedrig»/substanziell geschlossen, Tabelle B),
+  `INDEX.md` (Eintrag aktualisiert), Backlinks `[[az-gfz-kennwerte]]` in 8 Gemeinde-Fact-Sheets
+  (zollikon/maur/regensdorf/wald/wangen/einsiedeln/muri/luzern).
+- Kein neuer JANS-Bewertungsfall (Bewertungsordner-Stand seit Run 6). Marktpuls unveraendert
+  seit Run 17 (kein neuer Publikationstermin, naechster ab 01.09.2026).
+- Report: `outputs/2026-07-13_training-run25.md`.
+
 ## 2026-07-13 — Training-Run 24: D6-Sackgasse durchbrochen — AZ/GFZ-Kennwerte Thalwil + Waedenswil
 
 - **Neuer Wiki-Artikel [[az-gfz-kennwerte]]:** amtliche Ausnuetzungsziffer-Tabellen

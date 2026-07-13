@@ -8,7 +8,7 @@ plz: 8105
 ms_region: Glattal-Furttal
 stand: 2023-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Regensdorf 2312 (UBS CIO GWM, 12/2023, Preisdaten Stand 2023-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[marktdaten-gemeinden/zh-maur-8124]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[marktdaten-gemeinden/zh-maur-8124]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Regensdorf (ZH) — UBS Fact Sheet 12/2023

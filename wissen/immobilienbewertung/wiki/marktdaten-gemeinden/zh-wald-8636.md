@@ -8,7 +8,7 @@ plz: 8636
 ms_region: Zürcher Oberland
 stand: 2023-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Wald 2312.pdf (UBS CIO GWM, 12/2023, Preisdaten Stand 2023-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Wald (ZH) — UBS Fact Sheet 12/2023

@@ -8,7 +8,7 @@ plz: 8125
 ms_region: Pfannenstiel
 stand: 2025-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Zollikon 8125.pdf (UBS CIO, 12/2025, Daten 2025-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Zollikon (ZH) — UBS Fact Sheet 12/2025

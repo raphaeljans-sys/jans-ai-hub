@@ -8,6 +8,15 @@ Ingest-Stand fest. Basis-Pfad:
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
+**Externe amtliche Quellen (Run 24/25, D6 — Dichte-Kennwerte):** die BZO/Baureglemente der
+JANS-Bezugsmaerkte liegen NICHT in den IMMO-Ordnern, sondern werden bei Bedarf direkt von der
+Gemeinde-/Kantonsseite gezogen (`curl` amtliche PDF → `pdftotext -layout` → Grundmasse-Tabelle).
+Eingearbeitet in [[az-gfz-kennwerte]]: Thalwil, Waedenswil (Run 24); Zollikon (oerebdocs docid=1611,
+BZO 1996), Maur (maur.ch, nBZO 2023), Wald ZH (wald-zh.ch), Einsiedeln (einsiedeln.ch, Baureglement
+2025), Wangen SZ (wangensz.ch), Regensdorf (oerebdocs docid=8897, BZO 2020), Muri AG (muri.ch,
+Stand 2012), Luzern (stadtluzern.ch, BZR 2022, System-Beschrieb) — Run 25. Offen: Langnau am Albis
+(BZO ausser Kraft, Revision 2026/27).
+
 | Quelle | Pfad (ab IMMO) | Typ | Stand | Status | Ziel-Artikel |
 |---|---|---|---|---|---|
 | Wuest-Kurs "Immobilien entwickeln" | `03 KNOW-HOW/05 Residualwert/Folien WuestPartner/Immo_02_P23D_Praesentation_Nextcloud.pdf` (236 S.) | PDF | 06.2023 | **eingearbeitet** (S. 1-236, Training-Run 1 am 2026-06-09; Modul 4 = nur Titelblatt, Inhalt im DXMA-PDF) | residualwertmethode, ertragswert-dcf, realwert-sachwert, nutzungskonzepte, investorenmarkt-makro, vergleichswert-hedonisch, bewertungsverfahren-ueberblick |

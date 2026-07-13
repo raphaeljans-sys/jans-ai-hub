@@ -8,7 +8,7 @@ plz: 8854
 ms_region: March
 stand: 2025-12
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet SZ Wangen 8854.pdf (UBS CIO, 12/2025, Daten 2025-Q3)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Wangen (SZ) — UBS Fact Sheet 12/2025
