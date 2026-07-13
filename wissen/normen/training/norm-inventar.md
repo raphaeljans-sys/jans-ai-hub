@@ -421,26 +421,26 @@
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/BSPUB-1394520214-57.pdf` |  | 2021 |  Reconcile 260713: vkf-brandschutznorm-1-15de-bspub57.md  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/BSV2015-Bericht und Änderungen.pdf` | 2015 | 2015 |  Reconcile 260713: vkf-bsv2015-bericht-aenderungen.md (+ vkf-bsv2015-vernehmlassungsbericht.md, unterschiedlicher Fokus, pruefen)  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf` |  |  |  Reconcile 260713: vkf-brl-13-15-baustoffe-bauteile.md  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Beförderungsanlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-23-15-befoerderungsanlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Beförderungsanlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-23-15-befoerderungsanlagen.md  | verifiziert 260714 (Run 7)
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Begriffe & Definitionen.pdf` |  |  |  Reconcile 260713: vkf-brl-10-15-begriffe-definitionen.md  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Blitzschutzsysteme.pdf` |  |  |  Reconcile 260713: vkf-brl-22-15-blitzschutzsysteme.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Blitzschutzsysteme.pdf` |  |  |  Reconcile 260713: vkf-brl-22-15-blitzschutzsysteme.md  | verifiziert 260714 (Run 7)
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandmeldeanlage.pdf` |  |  |  Reconcile 260713: vkf-brl-20-15-brandmeldeanlagen.md  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutz-Praevention.pdf` |  |  |  Reconcile 260713: vkf-merkblatt-brandschutzklassifikation-bauteile.md (Dateiname/Inhalt-Mismatch, Rename offen)  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 15.pdf` |  |  |  Reconcile 260713: vkf-brl-15-15-brandschutzabstaende-tragwerke.md (deckt 15+17-Revision ab)  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 17 BSPUB-1394520214-81.pdf` |  | 2021 |  Reconcile 260713: vkf-brl-15-15-brandschutzabstaende-tragwerke.md (deckt 15+17-Revision ab)  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandverhuetung & organisatorischer Brandschutz.pdf` |  |  |  Reconcile 260713: vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 15.pdf` |  |  |  Reconcile 260713: vkf-brl-15-15-brandschutzabstaende-tragwerke.md (deckt 15+17-Revision ab)  | verifiziert 260714 (Run 7)
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 17 BSPUB-1394520214-81.pdf` |  | 2021 |  Reconcile 260713: vkf-brl-15-15-brandschutzabstaende-tragwerke.md (deckt 15+17-Revision ab)  | verifiziert 260714 (Run 7)
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandverhuetung & organisatorischer Brandschutz.pdf` |  |  |  Reconcile 260713: vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md  | verifiziert 260714 (Run 7)
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf` | 1210 |  |  Reconcile 260713: din-en-12101-2-2003.md (Dublette gleiche Norm im VKF-Ordner)  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Flucht & Rettungswege.pdf` |  |  |  Reconcile 260713: vkf-brl-16-15-flucht-rettungswege.md (identisch/abgedeckt mit 16-15_rev2016)  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Gefährliche Stoffe.pdf` |  |  |  Reconcile 260713: vkf-brl-26-15-gefaehrliche-stoffe.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Gefährliche Stoffe.pdf` |  |  |  Reconcile 260713: vkf-brl-26-15-gefaehrliche-stoffe.md  | verifiziert 260714 (Run 7)
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Kennzeichnung von Fluchtwegen.pdf` |  |  |  Reconcile 260713: vkf-brl-17-15-kennzeichnung-fluchtwege.md  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Löscheinrichtungen.pdf` |  |  |  Reconcile 260713: vkf-brl-18-15-loescheinrichtungen.md  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Lufttechnische Anlage.pdf` |  |  |  Reconcile 260713: vkf-brl-25-15-lufttechnische-anlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Löscheinrichtungen.pdf` |  |  |  Reconcile 260713: vkf-brl-18-15-loescheinrichtungen.md  | verifiziert 260714 (Run 7)
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Lufttechnische Anlage.pdf` |  |  |  Reconcile 260713: vkf-brl-25-15-lufttechnische-anlagen.md  | verifiziert 260714 (Run 7)
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Merkblatt_012_d.pdf` |  |  |  Reconcile 260713: vst-merkblatt-012-tueren-fluchtwegen.md  |
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Nachweisverfahren im Brandschutz.pdf` |  |  |  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Qualitätssicherung im Brandschutz.pdf` |  |  |  Reconcile 260713: vkf-brl-11-15-qualitaetssicherung-brandschutz.md  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Rauch & Wärmeabzugsanlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-21-15-rauch-waermeabzugsanlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Qualitätssicherung im Brandschutz.pdf` |  |  |  Reconcile 260713: vkf-brl-11-15-qualitaetssicherung-brandschutz.md  | verifiziert 260714 (Run 7)
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Rauch & Wärmeabzugsanlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-21-15-rauch-waermeabzugsanlagen.md  | verifiziert 260714 (Run 7)
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/SService Nr19091815480.pdf` | 1909 |  |  Reconcile 260713: szs-steeldoc-brandschutz-stahlbau-2015.md  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Sprinkleranlage.pdf` |  |  |  Reconcile 260713: vkf-brl-19-15-sprinkleranlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Sprinkleranlage.pdf` |  |  |  Reconcile 260713: vkf-brl-19-15-sprinkleranlagen.md  | verifiziert 260714 (Run 7)
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Verwendung von Baustoffen.pdf` |  |  |  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Wärmetechnische Anlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-24-15-waermetechnische-anlagen.md  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/gege-panikprogramm-1.pdf` |  |  |  Reconcile 260713: en-179-1125-2009-panikbeschlaege-gege.md  |

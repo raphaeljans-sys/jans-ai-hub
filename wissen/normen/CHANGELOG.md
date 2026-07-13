@@ -1,3 +1,20 @@
+## 2026-07-14 — normen-training-nacht MacBook Pro Run 7: Retro-Verifikation 10 VKF-Brandschutzrichtlinien (P1-Kern)
+- Vertiefungsstufe (b) fortgesetzt (SIA/VKF-Basisinventar seit Run 5 vollständig, gedrosselt auf
+  1x täglich gemäss Rule `auto-verbesserungen` 260713): 10 parallele Retro-Verifikations-Agenten
+  prüften die in Run 6 destillierten, aber noch nicht verifizierten VKF-Brandschutzrichtlinien
+  11-15, 12-15, 15-15 (beide Ausgaben), 18-15, 19-15, 21-15, 22-15, 23-15, 25-15, 26-15 —
+  der P1-Kern des Skills `brandschutz`.
+- **Bilanz:** 4 bestanden ohne Befund, 6 beanstandet-korrigiert. Keine sicherheitsrelevanten
+  Fehlangaben — durchweg fehlende Präzisierungen/Ergänzungen. Wichtigster Fund: **BRL 15-15**
+  hatte ein falsches Ausgabedatum für die Revisionsfassung (fälschlich 2015 statt korrekt
+  01.01.2017) sowie eine komplett fehlende Parking-Ausnahme im Revisions-Delta (Ziff. 3.7.11,
+  offene oberirdische Parkings mit Löschanlage: flächenmässig unbegrenzt in der 2017er-Fassung).
+- Alle 10 auf `established (verifiziert)` gehoben, `last_updated: 2026-07-14`. Nachgeführt:
+  `destillate/INDEX.md`, `training/norm-inventar.md` (11 Zeilen inkl. beide BRL-15-15-PDFs).
+  Report: `outputs/2026-07-14_normen-nacht-run7.md`. Nächster Lauf: verbleibende 3 VKF-Positionen
+  aus Run 6 (Verzeichnis 40-15, Arbeitshilfen 1000/1001/1002) sowie ~35 weitere unverifizierte
+  SIA/VKF-Destillate aus dem Basisinventar (Run 5) retro-verifizieren.
+
 ## 2026-07-14 — Normen-Mini-Run 17 (Mac Mini): Retro-Verifikation 13 DIN/VSS-Destillate, 9 substanzielle Fehler korrigiert
 - Stufe (b) Retro-Verifikation fortgesetzt: 13 unverifizierte DIN/VSS-Destillate parallel gegen
   die Original-PDFs geprueft (din-18041-2004, vss-700.5-1987, vss-722.15-1983,
