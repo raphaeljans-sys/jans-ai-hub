@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 19:29:19
+Stand: 13.07.2026 19:39:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 19:29:19
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 84e30df7 synobsis-batch-nacht Lauf 7 (13.07.2026 19:24): 853/853 weiterhin vollstaendig, kein neuer Stoff
+- 6f0aa694 Energie-Training Run 53: SIA-382/1-WRG-Grenzwerte primaerquellen-gelesen + BFE-Dimensionierungshilfe

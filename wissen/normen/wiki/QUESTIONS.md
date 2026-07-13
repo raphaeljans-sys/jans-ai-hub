@@ -259,11 +259,10 @@
   §9-12 Ausführung/Dokumentation/Inbetriebnahme/Instandhaltung, Anhänge A-J). Zusätzlich
   din-abkuerzungsverzeichnis-2010 und din-planungsgrundlagen-hoai-vorschriften-2004 auf
   `established` gehoben (reine Referenzwerke, geringes Fehlerrisiko).
-- [ ] **din-1946-6-2009, Tabellennummer D.4 unstimmig (S.90/91-Grenze):** die beiden
-  parallel lesenden Agenten für S.69-90 und S.91-110 haben je eine «Tabelle D.4» mit
-  unterschiedlichem Inhalt gemeldet (vermutlich Tabellenfortsetzung über den Seitenumbruch,
-  von einem Agenten falsch zugeordnet). Im nächsten Lauf S.89-92 im Volltext direkt
-  nachlesen und korrigieren.
+- [x] **din-1946-6-2009, Tabellennummer D.4 unstimmig (S.90/91-Grenze)** — geklärt
+  Mini-Run 13 (260713): Volltextabgleich S.89-92 direkt am Original zeigt EINEN
+  informativen Anhang D mit einer einzigen, über den Seitenumbruch 90/91 fortgesetzten
+  Tabelle D.4 (Nr. 1-15); Destillat korrigiert.
 - [ ] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich** weiterhin offen (Schweizer
   Lüftungsauslegung über Aussenluft-Volumenstrom/Person/Fläche + Lüftungseffizienz vs.
   deutsches 4-Stufen-Modell) — eigene Recherche in SIA 382/1 nötig.
