@@ -4,11 +4,11 @@ kapitel: 4
 band: 1
 seiten: 268-309
 shots: 135-155
-paragraphen: [§203 PBG, §204 PBG, §205 PBG, §207 PBG, §208 PBG, §209 PBG, §210 PBG, §211 PBG, §213 PBG, §216 PBG, §217 PBG, §238 PBG, §338b PBG, Art. 78 BV, Art. 2 NHG, Art. 3 NHG, Art. 5 NHG, Art. 7 NHG, Art. 8 NHG, Art. 13 NHG, Art. 17a NHG, Art. 25 NHG, Art. 17 RPG, KNHV]
+paragraphen: [§50 PBG, §76 PBG, §203 PBG, §204 PBG, §205 PBG, §207 PBG, §208 PBG, §209 PBG, §210 PBG, §211 PBG, §213 PBG, §216 PBG, §217 PBG, §238 PBG, §338b PBG, Art. 78 BV, Art. 2 NHG, Art. 3 NHG, Art. 5 NHG, Art. 7 NHG, Art. 8 NHG, Art. 13 NHG, Art. 17a NHG, Art. 25 NHG, Art. 17 RPG, KNHV]
 status: established
 gelesen: 2026-07-08
-last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213/217 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31)
+last_updated: 2026-07-13
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213/217 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31); 2026-07-13 (Modell-D §§ 203/205/207/210/211/216/217/50/76/238/338b PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 37 — alle CONFIRMED bis auf § 238 Abs. 3-Zitat korrigiert auf Abs. 2, aufgehobener Absatz)
 ---
 
 # Kap. 4 — Natur- und Heimatschutz (Band 1, S. 268-309)
@@ -63,7 +63,13 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
   BV → **Art. 18 ff. NHG**. **«Wertvoll» (lit. f)** = nicht nur biologisch/oekologisch, auch
   gestalterisch-aesthetisch. **Einzelbaum** nur schutzwuerdig, wenn er dominierenden, aussergewoehnlichen
   Akzent setzt und Quartier-/Strassenbild wesentlich mitpraegt (BEZ 2006 Nr. 29); sonst **planerischer
-  Baumschutz § 76 PBG** oder **Umgebungsschutz § 238 Abs. 3 PBG**.
+  Baumschutz § 76 PBG** oder **Umgebungsschutz § 238 Abs. 2 PBG** *(Korrektur Modell D
+  2026-07-13: § 238 Abs. 3 PBG ist aufgehoben — raw/260607_amtlich_zh_pbg.md Zeile 2413 zeigt
+  nur noch «3 . . .71» ohne Normtext; die tragende Norm fuer Umgebungsschutz/Ruecksichtnahme
+  auf NHS-Objekte ist der weiterhin geltende § 238 Abs. 2 PBG, Zeile 2412: «Auf Objekte des
+  Natur- und Heimatschutzes ist besondere Ruecksicht zu nehmen; sie duerfen auch durch
+  Nutzungsaenderungen und Unterhaltsarbeiten nicht beeintraechtigt werden, fuer die keine
+  baurechtliche Bewilligung noetig ist.»)*.
 - **4.2.3 Denkmalschutzobjekte:** Ortskerne/Quartiere/Anlagen/Plaetze/Gebaeudegruppen/Gebaeude —
   **Substanzschutz** (nicht bloss «schoene» Erscheinung). Wichtiger Zeuge historischer/gesellschaftl./
   wirtschaftl./techn. Entwicklung → auch **Industriebauten/Bahnhoefe** (§§ 23-28 KNHV), Maschinen/Anlagen
@@ -260,7 +266,8 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
 - **Umbau eines Schutzobjekts:** Schutz erfasst nur das **denkmalpflegerisch Wichtige**, moderne Ergaenzungen
   (Anbau/Dachaufbau/Zwischenboden) sind zulaessig → Spielraum fuer die Projektierung. Verbindet sich mit
   [[bestandsumbau-eingriffstiefe]] (§ 357 PBG, Kap. 20).
-- **Umgebungsschutz § 238 Abs. 2/3 PBG** trifft auch **Nachbargrundstuecke im Nahbereich** eines Schutzobjekts —
+- **Umgebungsschutz § 238 Abs. 2 PBG** *(Korrektur Modell D 2026-07-13: Abs. 3 aufgehoben,
+  nicht mehr mitzitieren)* trifft auch **Nachbargrundstuecke im Nahbereich** eines Schutzobjekts —
   bei Neubauten neben geschuetzten Bauten mitdenken.
 - **Wert-/Kostenfolge:** Restaurierung ist teurer + Nutzung eingeschraenkt → Einbusse; Bund-Finanzhilfen (Art. 13
   NHG) sind **freiwillig**. Fuer `immobilienbewertung` (Sanierungsabschlag) + `kostenschaetzung` beachten.
