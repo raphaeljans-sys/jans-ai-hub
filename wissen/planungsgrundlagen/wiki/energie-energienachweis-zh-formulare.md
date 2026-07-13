@@ -217,7 +217,11 @@ erfasst — offener Punkt fuer einen kuenftigen Recht/Norm-Lauf.
   ZH lief bereits seit 01.01.2026 (siehe oben), waehrend die Zentralschweizer Kantone zum
   gleichen Zeitpunkt erst starten. Fuer SZ-Projekte (JANS-Kerngebiet neben ZH) heisst das:
   ab 2026 ebenfalls EVEN-Pflicht, aber als neu eingefuehrtes System — mit entsprechend geringerer
-  Prozesserfahrung bei den SZ-Bewilligungsbehoerden zu rechnen als in ZH.
+  Prozesserfahrung bei den SZ-Bewilligungsbehoerden zu rechnen als in ZH. **Refresh 2026-07-13
+  (Run 34):** WebSearch erneut unveraendert bestaetigt — keine ZH-spezifische Umsetzungsfrist
+  auffindbar (Suchtreffer HEV ZH/energiehub-gebaeude.ch bestaetigen nur den generellen EnDK-
+  Zeithorizont bis 2030); kein neuer ZH-Termin. Naechster Check weiterhin nur bei konkretem
+  Hinweis, nicht jeden Lauf wiederholen.
 - ✓ **D5 teil-erledigt** (2026-06-18/2026-07-10): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
   `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/B/C/D/E + Flachdach belegt). **Offen bleibt:**
   installierter System-CHF/kWp aus einer **realen JANS-Schlussabrechnung** — Archivsuche

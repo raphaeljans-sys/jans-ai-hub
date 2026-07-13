@@ -42,6 +42,22 @@ Blaues Buch/` (PBG/BZO-Kommentar ZH, brandschutzrelevante Stellen), `08 QS/` (JA
 QS-Vorlagen), `11 Projekte/` + `_Projekte Themen/` (projektbezogene Querverweise),
 `z_Administration/` (VKF-Bestellung/Lieferschein Norm).
 
+**Einzeltitel-Register Ordner `02 Brandschutzrichtlinien 2015-17-22/` (Run 34, 2026-07-13):** der
+Ordner enthaelt >20 einzelne BSR-PDF, die bis Run 33 nur pauschal als «02 BSR» kartiert waren.
+Bereits ausgewertet: **11-15 Qualitaetssicherung** (§3), **15-15 Brandschutzabstaende/Tragwerke**
+(§4b), **16-15 Flucht- und Rettungswege** (§4b/§5d/§5u), **17-15 Kennzeichnung von Fluchtwegen**
+(§5r), **18-15 Loescheinrichtungen** (§5q), **19-15 Sprinkleranlagen** (§5p), **20-15
+Brandmeldeanlagen** (§5o), **21-15 Rauch- und Waermeabzugsanlagen** (§5l), **23-15
+Befoerderungsanlagen** (§5q), **27-15 Nachweisverfahren im Brandschutz** (§5s), sowie das
+Verzeichnis-Glossar **10-15 Begriffe und Definitionen** (§5t). Noch NICHT ausgewertet (fuer
+Folgelaeufe, niedrigere Prioritaet, kein akuter Healthcare-Bezug erkennbar): Baustoff & Bauteile,
+Befoerderungsanlagen-Anhaenge, Blitzschutzsysteme, Brandschutz-Praevention (1 S., vermutlich nur
+Deckblatt), Brandverhuetung & organisatorischer Brandschutz, DIN EN 12101-2 (RWA-Klappen-Norm,
+Ergaenzung zu §5l), Gefaehrliche Stoffe, Lufttechnische Anlage, Waermetechnische Anlagen (42 S.,
+ueberschneidet sich vermutlich mit `endk.ch`-WTA-Formular aus [[energie-baueingabe-zusatzformulare]]),
+100-15 Brandmauern (bereits als Erlaeuterung 04/100-15 vorhanden — Delta-Check offen), Anerkennungs-
+verfahren, gege-panikprogramm (Herstellerdatenblatt), Merkblatt_012_d.
+
 **Datenstand / ⚠ Totalrevision BSV 2026 (Stand 2026-06-30 verifiziert):** Aktuell in Kraft ist
 **BSV 2015 mit den Revisionen 2017 und 2022**. Die **Totalrevision BSV 2026** (risikoorientierter
 Ansatz, seit 2018 in Arbeit) ist **doppelt gebremst** und verschiebt sich von 2026 auf **2027**:
@@ -954,6 +970,242 @@ Gleichwertigkeit) noetig ist.
 
 ---
 
+## 5o · Brandmeldeanlagen (BMA) — BSR 20-15de (Run 34, 2026-07-13)
+
+Quelle: **BSR 20-15de «Brandmeldeanlagen»** (VKF, 01.01.2015, IVTH-Beschluss 18.09.2014, verbindlich
+alle Kantone), `PL-03/02 Brandschutzrichtlinien 2015-17-22/Brandmeldeanlage.pdf` — bisher nie
+ausgewertetes VKF-Kerndokument (eines von >20 einzelnen BSR-Titeln im Ordner, die nur pauschal
+als «02 BSR» kartiert waren, siehe §1).
+
+**Notwendigkeit Beherbergungsbetriebe (Ziff. 2.2.2) — direkt JANS-Healthcare-relevant:**
+- **Beherbergung [a]** (Krankenhaeuser, Alters-/Pflegeheime): **IMMER** BMA mit **Vollueberwachung**
+  erforderlich — keine Schwelle, keine Ausnahme. Praezisiert/ergaenzt den bereits in §3 (QSS)
+  dokumentierten Befund «Beherbergung [a] → QSS 2–3»: die BMA-Pflicht selbst ist bei [a]
+  bedingungslos.
+- **Beherbergung [b]/[c]** (Hotels/Ferienunterkuenfte): Vollueberwachungs-BMA nur ab **2 Geschossen
+  UND >50 beherbergten Personen** ODER **3 Geschossen UND >30 Personen**; bei [b]/[c] mit
+  **Loeschanlagenkonzept** (Sprinkler) und geringer Gebaeudehoehe kann auf die BMA verzichtet
+  werden — die Sprinkler-BMA-Substitution gilt nur bei [b]/[c], nicht bei [a] (deckt sich mit dem
+  bereits in §5n dokumentierten Befund, dass Sprinkler bei Beherbergung [a] KEINE Tragwerks-
+  Erleichterung bringt — analoge Asymmetrie [a] vs. [b]/[c] auch bei der BMA-Substitution).
+
+**Weitere Kernzahlen:**
+- **Anwesenheits-/Erkundungsverzoegerung** (Ziff. 3.4.2): max. **3 Minuten** Anwesenheits-,
+  max. **5 Minuten** Erkundungsverzoegerung vor Weiterleitung an die oeffentliche Feuermeldestelle
+  — nur waehrend instruierter Personalanwesenheit zulaessig, muss taeglich mind. 1x auf
+  «unverzoegert» zurueckgestellt werden.
+- **Handfeuermelder**: Montagehoehe ca. **1.5 m**; in vertikalen Fluchtwegen ueber >2 UG separate
+  Meldergruppen je UG-/OG-Bereich (Ziff. 3.7.3).
+- **Raumanzeigelampen/Indikatoren** (Ziff. 3.7.4): grundsaetzlich Pflicht an Zugaengen zu
+  ueberwachten Raeumen, Montagehoehe **≥1.7 m**; Ausnahme **explizit fuer Beherbergungsbetriebe in
+  Bettengeschossen** mit beschrifteten Zimmern inkl. Zugangsweg-Kennzeichnung («Geschoss 3 /
+  Zimmer 301-309 ←→») — ergaenzt §5d (Fluchtwegkonzept Beherbergung [a]) um die BMA-seitige
+  Signalisierungs-Anforderung im Bettengeschoss.
+- **Galerien** (Anhang zu Ziff. 3.2.2): BMA-Pflicht nur bei **gleichzeitig** Breite >3 m UND Flaeche
+  >30 m²; sonst keine Ueberwachungspflicht.
+- **Brandbelastungs-Schwellen Zwischenraeume** (Doppelboden/Unterdecke, Anhang zu Ziff. 3.2.2):
+  <50 MJ/m² ohne Aktivierungsgefahr → keine BMA-Pflicht; ≥50 MJ/m² mit Aktivierungsgefahr (z. B.
+  Transformatoren, Lueftungsklappen-Motoren) → BMA-Pflicht.
+- **Beurteilung nach Betriebsdauer** (Ziff. 4.5): nach **15 Jahren** ist die Anlage auf konzeptionelle
+  Auslegung, technologische Verfuegbarkeit und Wirksamkeit (Nutzungsaenderungen) neu zu beurteilen
+  — Delta zur Sprinkler-Generalueberholungsfrist (§5p: **20 Jahre**).
+- **Kombinierte Anlagen** (Ziff. 3.6): BMA + Einbruchmeldeanlage in einer Zentrale (CPU) zulaessig,
+  wenn beide Teilsysteme ihre Anforderungen unabhaengig erfuellen und Fehlfunktionen sich nicht
+  gegenseitig beeinflussen.
+
+## 5p · Sprinkleranlagen — BSR 19-15de (Run 34, 2026-07-13)
+
+Quelle: **BSR 19-15de «Sprinkleranlagen»** (VKF, 01.01.2015, gleiches IVTH-Inkrafttreten),
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Sprinkleranlage.pdf`.
+
+**Notwendigkeits-Schwellen (Ziff. 2.2), praezisiert/ergaenzt §4c (Parkhaeuser):**
+- **Verkaufsgeschaefte**: Sprinklerpflicht ab Brandabschnittsflaeche **>2'400 m²** (inkl.
+  angrenzender Lager-/Betriebsraeume), zwingend mit Handfeuermeldern ergaenzt.
+- **Einstellraeume/Parkhaeuser** (Ziff. 2.2.4, Delta zu §4c Arbeitshilfe 1002-03d von 2003 — hier
+  die aktuellere 2015er-Systematik): unterirdisch ein-/mehrgeschossig >**4'800 m²**/Geschoss ODER
+  bei offenen Verbindungen >**2'400 m²** → Sprinkler; oberirdisch geschlossen >**4'800 m²** ODER
+  teilweise offen (Umfassungswaende ≥25 % unverschliessbare Oeffnungen) >**9'600 m²**/Geschoss →
+  Sprinkler (offene Verbindungen dort zulaessig); mechanische Kompaktparkierung >**50 Fahrzeuge**
+  → immer Sprinkler.
+- **Besondere Bauten** (Ziff. 2.3): Hochhaeuser, Hochregallager, Atriumbauten (→ §4d), Bauten mit
+  Doppelfassaden (→ §4e), Verkehrsanlagen, Messehallen — auf Verlangen der Brandschutzbehoerde.
+
+**Kernzahlen:**
+- **Nennwirkzeit t_N** (Ziff. 3.5, Wasserversorgung): 45 Min. bis 900 m² Brandabschnittsflaeche
+  (alle Raumhoehen bis 12 m), 60 Min. ab >900 m² bzw. bei Raumhoehe >12 m; Hochhaeuser bis 100 m
+  Hoehe 90 Min., darueber nach Angabe Brandschutzbehoerde.
+- **Ausnahmen vom Sprinklerschutz** (Ziff. 3.2.2): u. a. Kuehl-/Tiefkuehlraeume (50/200/600 m² je
+  nach Waermedaemmung — identische Staffelung wie bei BMA-Anhang), Aufzugsschaechte, Zwischen-
+  klimazonen von Doppelfassaden (Delta/Ergaenzung zu §4e), Kleinraeume ≤4 m².
+- **Sprinklerzentrale** (Ziff. 3.4): eigener Brandabschnitt mind. EI30, im 1.OG/EG/1.UG, Tueren EI30
+  — analog zur Brandmeldezentrale (§5o).
+- **Generalueberholung** (Ziff. 5.4): nach **20 Jahren** Pflicht (vs. BMA-Beurteilung nach 15 Jahren,
+  §5o) — unterschiedliche Lebenszyklen der beiden zentralen Anlagentypen fuer die Kostenkontrolle/
+  Lebenszyklusplanung relevant.
+- Sprinkleranlagen koennen (Ziff. 2.1) explizit bei der **Bemessung von Tragwerks-Feuerwiderstand
+  und zulaessiger Brandabschnittsgroesse** beruecksichtigt werden — die rechnerische Basis fuer die
+  bereits in §5n dokumentierte Sprinkler-Reduktion bei Hotels [b] (nicht bei [a]).
+
+## 5q · Loescheinrichtungen (WLP/HFL) + Befoerderungsanlagen (Aufzuege) — BSR 18-15/23-15 (Run 34, 2026-07-13)
+
+Quellen: **BSR 18-15de «Loescheinrichtungen»** und **BSR 23-15de «Befoerderungsanlagen»** (beide
+VKF, 01.01.2015), `PL-03/02 Brandschutzrichtlinien 2015-17-22/Löscheinrichtungen.pdf` +
+`Beförderungsanlagen.pdf`.
+
+**Loescheinrichtungen:** Handfeuerloescher (HFL) Richtwert **1 je 600 m²** Grundflaeche; Wasser-
+loeschposten (WLP) mit Leitungsanschluss min. DN 32, Schlauchlaenge max. 40 m, Ruhedruck min.
+3 bar, max. Gehweglinie zum naechsten Loeschgeraet **40 m**; Hochhaeuser zusaetzlich nasse/trockene
+Loeschleitungen (Innenhydranten, DN 80, 16 bar). **Loeschgeraete gehoeren in unmittelbare Naehe von
+Fluchtweg-Raumausgaengen — aber Wasserloeschposten sind in Sicherheitstreppenhaeusern explizit
+NICHT zulaessig** (Ziff. 3.1.1) — neue Praezisierung zur Fluchtweg-Systematik (§4b/§5).
+
+**Befoerderungsanlagen (Aufzuege) — direkt Healthcare-relevant fuer Spital/Pflegeheim:**
+- Hochhaeuser sind zwingend mit **Feuerwehraufzuegen** auszuruesten (Ziff. 4.11); Brandfallsteuerung
+  ist Pflicht fuer Aufzuege in Hochhaeusern, Beherbergungsbetrieben, Verkaufsgeschaeften oder
+  Bauten mit grosser Personenbelegung mit **>3 Haltestellen** (Ziff. 3.7).
+- **Feuerwehraufzug-Kabine**: min. **1.1 × 2.1 m**, Tragfaehigkeit min. **1'000 kg**, muss mit einer
+  **beladenen Tragbahre** zugaenglich sein (Ziff. 4.5.1/4.3) — die Richtlinie kennt keinen
+  eigenstaendigen «Evakuierungsaufzug»; Personenrettung bettlaegeriger Patienten laeuft ueber den
+  Feuerwehraufzug in Zusammenarbeit mit der Feuerwehr.
+- Aufzugsschacht Feuerwiderstand min. **EI30** (bei Brandbelastung >1'000 MJ/m² sogar E60 fuer die
+  Schachttueren); Feuerwehraufzugsschaechte/-schleusen zusaetzlich mit **Rauchschutz-Druckanlage
+  (RDA)** gegen eindringenden Rauch — ein von der RWA (natuerlicher Abzug, §5l) zu unterscheidendes
+  Druckbelueftungssystem, neue Ergaenzung zur RWA-KB.
+- Sicherheitsstromversorgung wirksam spaetestens nach **15 Sekunden**; entfernteste Geschoss muss
+  binnen **60 Sekunden** nach Schliessen der Schachttueren erreicht sein.
+
+**JANS-Praxisrelevanz:** Bei jeder Spital-/Pflegeheim-Vorprojektierung mit mehr als 3 Aufzugs-
+haltestellen ist frueh zu klaeren, ob ein Feuerwehraufzug mit Tragbahren-Zugaenglichkeit vorgesehen
+werden muss — das bestimmt Kabinengeometrie (min. 1.1×2.1 m) und Schachtkonstruktion (RDA) bereits
+im Vorprojekt, nicht erst im Brandschutzkonzept.
+
+## 5r · Kennzeichnung von Fluchtwegen / Sicherheitsbeleuchtung — BSR 17-15de (Run 34, 2026-07-13)
+
+Quelle: **BSR 17-15de «Kennzeichnung von Fluchtwegen, Sicherheitsbeleuchtung, Sicherheits-
+stromversorgung»** (VKF, 01.01.2015), `PL-03/02 Brandschutzrichtlinien 2015-17-22/Kennzeichnung
+von Fluchtwegen.pdf`.
+
+**Kernzahlen:** Sicherheitsbeleuchtung wirksam spaetestens **15 Sekunden** nach Stoerung der
+Normalversorgung (Ziff. 3.2.2.1); Betriebsdauer der Sicherheitsstromversorgung mind. **30 Minuten**
+(Ziff. 3.2.1.2); Beleuchtungsstaerke in Fluchtwegen mind. **1 Lux** (Ziff. 3.2.4); Standort der
+Stromquellen mind. EI30, Abtrennung von Verteilanlagen EI60 (Ziff. 3.3.3); periodische Kontrolle
+mind. 2x jaehrlich (Leuchten) / 1x jaehrlich unter Last (Stromversorgung, Ziff. 4.3). Rettungszeichen
+rechteckig/quadratisch, weiss auf gruenem Grund, Mindestseitenlaenge ≥150 mm, quer zur
+Fluchtrichtung auf Tuerstuzhoehe montiert (Ziff. 3.1.2/3.1.4) — die Richtlinie verweist nur pauschal
+auf «anerkannte Normen» fuer die Piktografik, ohne ISO 7010/SN EN namentlich zu nennen.
+
+**Healthcare-relevant:** Beherbergungsbetriebe (explizit inkl. «Krankenhaeuser, Alters- und
+Pflegeheime», Anhang zu Ziff. 2.2) verlangen die **hoechste Anforderungsstufe** der Nutzungstabelle
+— zwingend sicherheitsbeleuchtete Rettungszeichen UND durchgehende Sicherheitsbeleuchtung in allen
+Fluchtwegen. Ergaenzt §5d (Fluchtwegkonzept Beherbergung [a]) um die beleuchtungstechnische Seite.
+
+## 5s · Nachweisverfahren im Brandschutz — BSR 27-15de (Run 34, 2026-07-13)
+
+Quelle: **BSR 27-15de «Nachweisverfahren im Brandschutz»** (VKF, 01.01.2015),
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Nachweisverfahren im Brandschutz.pdf` — die
+**prozessuale Alternative** zum praeskriptiven Standardnachweis nach den einzelnen BSR: Ingenieur-
+methoden/Schutzzielnachweis bei Erfuellung der Schutzziele der Brandschutznorm ueber eine
+**ganzheitliche Betrachtungsweise** (Ziff. 1), statt Detailregel-fuer-Detailregel.
+
+**Prozess** (Ziff. 3): Vorstudien → Projektierung (Schutzziel-/Leistungskriterien, Risikobeurteilung,
+Bemessungsszenarien, Nachweisfuehrung, Dokumentation — vorgaengig mit Brandschutzbehoerde
+abgestimmt) → Ausschreibung → Realisierung → Bewirtschaftung.
+
+**Rollen** (Ziff. 6/8): Nachweisfuehrer muessen die QSS-Anforderungen erfuellen (Verweis auf BSR
+11-15 «Qualitaetssicherung im Brandschutz», bereits in §3 dokumentiert — hier keine eigene
+Stufenliste, nur der Verweis); die Brandschutzbehoerde prueft formell + materiell und kann die
+Pruefung an Dritte delegieren.
+
+**Kernzahlen fuer Rauchgas-/Entrauchungsnachweise** (Ziff. 7, Anhang): raucharme Schicht mind.
+**2.5 m** ab oberster begehbarer Ebene, Gastemperatur raucharme Schicht ≤50°C, Extinktions-
+koeffizient ≤0.20 m⁻¹, Rauchschicht-Gastemperatur ≤200°C; bei unbestimmbarem Brandgut ist ein
+Stoff mit hoher Rauchausbeute (z. B. Polyurethan) zu verwenden, Kaltrauchversuche sind unzulaessig
+(nur Warmrauch-/Realbrandversuche). Tragwerksnachweis nach Eurocode-Naturbrand-Bemessung
+erfordert Freigabe eines qualifizierten Bauingenieurs; das Sicherheitsniveau muss dem
+Normbrand-Nachweis entsprechen.
+
+**JANS-Praxisrelevanz:** massgeblich bei Spital-/Pflegeheimprojekten mit komplexer Geometrie
+(grosse raucharme Atrien → §4d, spezielle Fluchtwegkonzepte → §5d), wenn vom praeskriptiven
+Standard abgewichen und stattdessen ein performance-based Nachweis (Rauchgas-/Evakuierungs-
+simulation) mit der Brandschutzbehoerde vereinbart werden soll.
+
+## 5t · VKF-Glossar «Begriffe und Definitionen» — BSR 10-15de (Run 34, 2026-07-13)
+
+Quelle: **BSR 10-15de «Begriffe und Definitionen»** (VKF, 01.01.2015), `PL-03/02
+Brandschutzrichtlinien 2015-17-22/Begriffe & Definitionen.pdf` — das kanonische Glossar aller
+VKF-Brandschutzbegriffe (alphabetisch Abgasanlagen bis Zwischenlager, S. 10-35) + Anhang mit
+Erlaeuterungszeichnungen (S. 36-47: Aussenwandkonstruktionen, Doppelfassaden, Membranfassaden,
+Wärmedämmverbundsysteme u. a.).
+
+**Amtlicher Wortlaut der fuer JANS wichtigsten Begriffe:**
+- **Brandabschnitt**: «Bereiche von Bauten und Anlagen, die durch brandabschnittsbildende Bauteile
+  voneinander getrennt sind.»
+- **Nutzungseinheit**: «Zusammenschluss von einzelnen Raeumen mit vergleichbarer oder
+  zusammengehoerender Nutzung (z. B. Wohnung, Arztpraxis, Kombibuero, Schulraeume, **Wohngruppen**,
+  Kindertagesstaetten, Hotelsuiten)» — «Wohngruppen» direkt Pflegeheim-relevant.
+- **Fluchtweg**: «der kuerzeste Weg, der Personen zur Verfuegung steht, um von einer beliebigen
+  Stelle in Bauten und Anlagen an einen sicheren Ort ins Freie oder an einen sicheren Ort im
+  Gebaeude zu gelangen.»
+- **Rettungsweg**: «der kuerzeste Weg, der der Feuerwehr und den Rettungskraeften als Einsatzweg
+  dient. Fluchtwege koennen als Rettungswege dienen.» — Fluchtweg (Nutzersicht) und Rettungsweg
+  (Einsatzsicht) sind zwei verschiedene Begriffe, die sich ueberschneiden koennen, aber nicht
+  deckungsgleich sind.
+- **Sicherheitstreppenhaus**: Treppenhaus, «das gegen das Eindringen von Rauch und Feuer besonders
+  geschuetzt, auf jedem Geschoss nur durch Schleusen oder ueber staendig ins Freie offene Gaenge
+  und Vorplaetze zugaenglich ist.»
+- **Beherbergungsbetriebe [a]/[b]/[c] — amtliche Definition (praezisiert §3/§4f/§5d):** [a]
+  Krankenhaeuser, Alters-/Pflegeheime mit **≥20 auf fremde Hilfe angewiesenen Personen**; [b]
+  Hotels/Pensionen/Ferienheime mit **≥20 nicht hilfsbeduerftigen Personen**; [c] abgelegene, nicht
+  erschlossene Beherbergungsbetriebe (Berghuetten) — die **20-Personen-Schwelle** aus §4f gilt
+  damit fuer ALLE drei Kategorien gleichermassen, nicht nur als Abgrenzung «Beherbergung vs. gar
+  keine»; unterhalb 20 Personen faellt ein Betrieb ganz aus der Beherbergungs-Systematik.
+- **Raeume mit grosser Personenbelegung** (Norm-Definition): «mehr als 300 Personen […],
+  insbesondere Mehrzweck-, Sport- und Ausstellungshallen […] sowie Verkaufsraeume bis 1'200 m²
+  Verkaufsflaeche.»
+
+**Nicht als eigene Begriffe vorhanden:** «Vollschutz/Teilschutz» und ein eigenstaendiger Begriff
+«gebaeudetechnische Anlage» fehlen in diesem Glossar (nur Teilaspekte: Waermetechnische/
+Lufttechnische/Befoerderungsanlagen als eigene Eintraege) — Vollschutz/Teilschutz werden
+stattdessen je Anlagenrichtlinie selbst definiert (vgl. §5o/§5p: «Sprinkleranlagen fuer Vollschutz
+umfassen gesamte Bauten»).
+
+**Delta zur IVHB-Baubegriffe-KB** ([[recht-norm-ivhb-baubegriffe]]): **Gesamthoehe** verweist
+EXPLIZIT auf die IVHB («Dabei gelten die Bestimmungen der Interkantonalen Vereinbarung zur
+Harmonisierung der Baubegriffe») — kein Delta, direkte Uebernahme der baurechtlichen Definition.
+**Geschosszahl/Geschossflaeche** dagegen ist eine EIGENSTAENDIGE VKF-Definition (Untergeschoss-
+Kriterium >50 % Aussenwandflaeche unter Terrain) — Delta ja: die brandschutztechnische
+Geschossdefinition ist NICHT deckungsgleich mit der baurechtlichen (§ 275 PBG); bei Fassaden-/
+Gebaeudehoehen-Grenzfaellen (Vorprojekt-Grobcheck §4b) beide Definitionen separat pruefen.
+
+## 5u · Flucht- und Rettungswege — Vollstaendiger Volltext BSR 16-15de bestaetigt + neue Kernzahlen (Run 34, 2026-07-13)
+
+Quelle: **BSR 16-15de «Flucht- und Rettungswege»** (VKF, 01.01.2015, 34 S.),
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Flucht & Rettungswege.pdf` — Volltext-Gegenpruefung des
+bisher nur als Foto-Auszug bekannten Dokuments (§4b/§5d). **Kein Delta bei den bereits bekannten
+Kernzahlen** (Treppenbreiten 1.2/1.5/0.9 m, keine Anforderung an Treppen innerhalb Nutzungseinheit,
+Ziff. 3.6.1-Aufenthaltskonzept Beherbergung [a] wortgleich bestaetigt) — aber **drei bisher nicht
+dokumentierte Kernzahlen-Bloecke** aus dem Volltext:
+
+1. **Fluchtweglaengen** (Ziff. 2.4.3/2.4.4): max. **35 m** bei nur einem Fluchtweg, max. **50 m**
+   bei zwei unabhaengigen vertikalen Fluchtwegen/Ausgaengen ab jeder Stelle im Gebaeude.
+2. **Anzahl Ausgaenge nach Personenbelegung** (Ziff. 2.4.6): ≤50 Pers. ein Ausgang 0.9 m; ≤100
+   Pers. zwei Ausgaenge à 0.9 m; ≤200 Pers. drei à 0.9 m oder zwei (0.9 + 1.2 m); >200 Pers.
+   mehrere Ausgaenge ≥1.2 m.
+3. **Breitenformel bei >200 Personen** (Ziff. 2.4.7): **0.6 m je 100 Personen** ebenerdig, **0.6 m
+   je 60 Personen** ueber Treppen — direkt anwendbar fuer Grossraumtrakte (Eingangshalle Spital,
+   Cafeteria, Mehrzwecksaal).
+4. **Sicherheitstreppenhaus-Geometrie bei Hochhaeusern** (Ziff. 3.9): Schleuse mind. **1.2 × 2.4
+   m**; bei Feuerwehraufzug zusaetzlich Vorplatz mind. **2.4 × 2.4 m** (identisch mit der bereits in
+   §5q dokumentierten Feuerwehraufzug-Schleusenflaeche aus BSR 23-15 — konsistente Zahl ueber beide
+   Richtlinien hinweg bestaetigt).
+
+**JANS-Praxisrelevanz:** die Fluchtweglaengen- und Breitenformel-Kernzahlen sind fuer die
+Vorprojekt-Layoutplanung von Empfangshallen/Wartebereichen in Spital-/Pflegeheimprojekten direkt
+anwendbar (Anzahl/Breite der Ausgaenge bereits im Konzept mitdenken, nicht erst im
+Brandschutzkonzept nachtragen).
+
+---
+
 ## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -976,7 +1228,15 @@ Gleichwertigkeit) noetig ist.
   PBG (§ 305), und was steht im Blauen Buch zum Brandschutz» (→ §5e), «welche SN-EN-/SVGW-Norm
   gilt neben einer bestimmten VKF-Richtlinie» (→ §5f), «ab wann gilt ein Raum als «Parking» und
   wann braucht es eine Schleuse zum Fluchtweg» (→ §5g), «ab welcher Flaeche braucht die Tiefgarage
-  eine Rauch- und Waermeabzugsanlage» (→ §5l).
+  eine Rauch- und Waermeabzugsanlage» (→ §5l), «braucht mein Projekt eine Brandmeldeanlage, und ab
+  wann bei einem Hotel/Beherbergungsbetrieb» (→ §5o), «ab welcher Flaeche braucht mein Parkhaus/
+  Verkaufsgeschaeft eine Sprinkleranlage» (→ §5p), «wieviele Handfeuerloescher/Wasserloeschposten
+  brauche ich, und was gilt fuer den Feuerwehraufzug bei bettlaegerigen Patienten» (→ §5q), «welche
+  Anforderungen gelten fuer Fluchtweg-Kennzeichnung und Sicherheitsbeleuchtung» (→ §5r), «wann darf
+  ich statt dem Standardnachweis einen Rauchgas-/Ingenieur-Nachweis (Schutzzielnachweis) fahren»
+  (→ §5s), «was bedeutet ein bestimmter VKF-Fachbegriff genau (Brandabschnitt/Nutzungseinheit/
+  Fluchtweg vs. Rettungsweg/Sicherheitstreppenhaus)» (→ §5t), «wie lang darf mein Fluchtweg sein,
+  wie breit muessen die Ausgaenge bei grosser Personenbelegung sein» (→ §5u).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →

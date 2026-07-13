@@ -1,5 +1,32 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Refuter-Lauf gegen `wiki/muster/jury-argumente-schulbauten.md`: NICHT BESTANDEN
+- **Auftrag:** Vor Hebung des Dossiers "Jury-DNA Schul- und Bildungsbauten" (Status `draft`)
+  auf `established` wurde ein unabhaengiger Refuter-Lauf durchgefuehrt (5 parallele Agenten,
+  Abgleich jeder Zuordnung/Zahl/Zitat gegen die 17 `raw/extern-jurybericht-*.txt`-Extrakte und
+  die drei JANS-Teilnahme-Notizen).
+- **Verdikt:** NICHT BESTANDEN. Materielle Fehler gefunden: (1) Fermate (Baden) faelschlich als
+  "Ausschluss/K.-o." bezeichnet, tatsaechlich 2. Rang/2. Preis; (2) Froeschmatt Pratteln
+  faelschlich als "Kantonsschule" kategorisiert, ist eine Sekundarschule; (3) Merian-Zitat
+  "reine Zirkulation ohne Mehrwert" faelschlich LINK zugeordnet, gehoert zum Sieger LAUSCHSICHT;
+  (4) Muhen-Begriff "Mittelzone" im Original nicht auffindbar/falsch zugeordnet; (5)
+  Sandgruben-Beispiel fuer "K.-o. im 1. Rundgang" betrifft tatsaechlich ein Rang-3-Projekt
+  (SANDFISCH), keinen 1.-Rundgang-Ausscheider; (6) Merian-COMEPURE als Beleg fuer "kann isoliert
+  zum Ausscheiden fuehren" ungeeignet (COMEPURE wurde 4. Rang, nicht ausgeschieden). Zusaetzlich
+  strukturelle Ueberzeichnung der Beleglage: Dossier behauptet "15 destillierte Referenzberichte",
+  nutzt effektiv nur 11 von 17 verfuegbaren aktiv im Fliesstext (Sursee nur im Frontmatter,
+  5 weitere bereits destillierte Berichte komplett ungenutzt); von den drei genannten eigenen
+  JANS-Teilnahmen (Muttenz/Steinhof/Schoental) tragen Steinhof und Schoental nur dekorativ
+  (Einleitung) bei, ohne Wirkung auf Siegargumente/K.-o.-Liste/Typologietabelle. Vollstaendiger
+  Bericht mit allen 10 Korrekturauflagen: `outputs/2026-07-13_refuter-jury-argumente-schulbauten.md`.
+- **Positiv:** Mehrheit der geprueften Einzelbelege (u.a. Bruehl 44/68, Faellanden JOAN/TETE-A-TETE,
+  Froeschmatt PRATELLUM/INFINITY, Grossaffoltern R2-&gt;R1-Delta, Hausen CONCERTO-Nuechternheit,
+  Muhen PAPAGENO/erkaufte Parkplaetze, Muttenz eigener Beitrag) haelt der Gegenprobe wortgetreu
+  stand — die Kernthese (Betrieb schlaegt Architektur) bleibt plausibel, das Problem liegt in
+  der Praezision einzelner Zuordnungen, nicht im Gesamtbefund.
+- **Naechster Schritt:** Die 10 Korrekturauflagen im Refuter-Report abarbeiten, danach fokussierter
+  Zweitlauf nur auf die geaenderten Stellen, erst dann Status auf `established`.
+
 ## 2026-07-13 — Lauf 4: QUESTIONS-Punkt 2103 Steinhof geklaert (Ausscheidungsgruende nicht rekonstruierbar) + 4. Beobachtung 2501/2507
 - **Ausgangslage:** Etappe 2 vollstaendig erreicht (11/11 established); Etappe 3 weiter blockiert
   auf Raphaels Bauaufgaben-Prioritaeten. Statt eines reinen Leerlauf-Beobachtungslaufs wurde ein

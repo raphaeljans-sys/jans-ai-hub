@@ -2,7 +2,7 @@
 title: Heizwaermebedarf (SIA 380/1) & Waermeerzeugerleistung (SIA 384/1, 384.201) — Berechnungsverfahren
 status: established
 last_updated: 2026-07-13
-sources: [PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf (Reader "Energetische Gesamtoptimierung", SIA 380/1 S.104-105), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf (dass. S.106-107, Beispiel Büroraum Zürich-Stadt), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf (dass. S.146-147/108-109, SIA 380/1 Anhang A Tab.24/25), PL - 04 Energie/_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf (EnergieSchweiz/BFE + suissetec + Minergie, "Ermittlung der Wärmeerzeugerleistung", Broschüre 6, 12.2015), PL - 04 Energie/_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (dass. S.88-89, "Grundsätze"), PL - 04 Energie/_Heizwaermebedarf/Betriebsenergie.pdf (dass. S.116, "Graue Energie — Größenordnung")]
+sources: [PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf (Reader "Energetische Gesamtoptimierung", SIA 380/1 S.104-105), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf (dass. S.106-107, Beispiel Büroraum Zürich-Stadt), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf (dass. S.146-147/108-109, SIA 380/1 Anhang A Tab.24/25), PL - 04 Energie/_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf (EnergieSchweiz/BFE + suissetec + Minergie, "Ermittlung der Wärmeerzeugerleistung", Broschüre 6, 12.2015), PL - 04 Energie/_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (dass. S.88-89, "Grundsätze"), PL - 04 Energie/_Heizwaermebedarf/Betriebsenergie.pdf (dass. S.116, "Graue Energie — Größenordnung"), PL - 04 Energie/U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf (EnFK Vollzugshilfe Dez. 2018), PL - 04 Energie/U Wert berechnung/VoHi_EN02_de.pdf (Vollzugshilfe Feb. 2013), PL - 04 Energie/U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf (BFE/EnergieSchweiz 2002), PL - 04 Energie/U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf (S.14-37 Luftdichtheit/Feuchte)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[energie-energienachweis-zh-formulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[grobkosten-onepager]]
 ---
 
@@ -163,6 +163,56 @@ Plausibilitaetstest, ob ein Ingenieur-Resultat "in der richtigen Groessenordnung
   senken (Rechenbeispiel im Original). Tiefe Methodik/ZH-Grenzwert → KB `wissen/energie`
   `[[graue-energie]]` und `[[energie-uebersicht]]` §Graue Energie (kein Doppel, hier nur die
   Faustregel als Ergaenzung).
+
+## 5 — Vollzugshilfen EN-102/VoHi-EN02 + Bauteilkatalog + CLT-Luftdichtheit (Run 34, 2026-07-13)
+
+Ordner `PL - 04 Energie/U Wert berechnung/` — bisher nur teilweise erschlossen (nur CLT-Waermeschutz-
+Kapitel, E13). Vier weitere Dateien ausgewertet:
+
+**EN-102-d «Waermeschutz von Gebaeuden», Vollzugshilfe Dez. 2018 (Basis SIA 380/1:2009), EnFK/
+AG MuKEn** — konkretisiert SIA 380/1 fuer den behoerdlichen Vollzug (interkantonal harmonisiert,
+nicht ZH-spezifisch). Delta zur bestehenden Grenzwerttabelle: (a) **separate Umbau/Umnutzung-
+Grenzwerte** (opake Bauteile 0.25 statt 0.17 W/m²K Neubau; Systemnachweis 1.5-facher Neubau-
+Grenzwert), bisher nicht erfasst; (b) **Waermebruecken-Grenzwerte** Typ 1/2/3/5/6 (Ψ-/χ-Werte);
+(c) **Kapitel 8 Sommerlicher Waermeschutz** (g-Wert-Diagramme nach Orientierung, Windwiderstands-
+klassen SIA 342, Verfahren 1-3 nach SIA 180) — komplett neu gegenueber der bereits dokumentierten
+Winterlichen Formelkette.
+
+**VoHi_EN02 «Waermeschutz von Gebaeuden», Vollzugshilfe Feb. 2013 (Vorgaenger von EN-102-d)** —
+kein eigenstaendiges Delta (durch EN-102-d ersetzt, MJ/m² statt kWh/m², U-Wert-Grenzen weniger
+streng 0.20 statt 0.17); nur fuer Altbauten mit Baubewilligung vor 2018 relevant. Einzige noch
+brauchbare Zusatzregel: 3-fach-Waermeschutzverglasung mit Ug≤0.9 gilt automatisch als U=1.3
+erfuellend (Vereinfachungsregel, vermutlich implizit weitergefuehrt).
+
+**«U-Wert-Berechnung und Bauteilekatalog — Neubauten» (BFE/EnergieSchweiz, Kurt Marti, 2002,
+Ablösung der 1988er-Ausgabe)** — ECHTES Delta: keine reinen Grenzwerte, sondern ein **Katalog
+konkreter Referenz-Schichtaufbauten** (Kap. 4, S. 25-64): Boeden B1-B21, Waende W1-W7i, dazu
+Daecher/Decken, je als Schnittzeichnung mit benannten Schichten (z. B. Innenputz/Backstein/
+Waermedaemmung/Aussenputz; Bodenbelag/Zementueberzug/Trittschalldaemmung/Beton) UND U-Wert-Lookup-
+Tabelle nach Daemmschichtdicke (6-24 cm) x λ-Wert (0.020-0.050 W/mK), inkl. hinterlueftete
+Fassaden mit Waermebrueckenzuschlag. Publikation von 2002 (Grenzwerte seither verschaerft), aber
+die **Konstruktionslogik/Schichtfolgen bleiben als Vorprojekt-Referenzbibliothek gueltig** — direkt
+nuetzlich fuer schnelle Bauteilaufbau-Vorschlaege, wenn noch kein Fachplaner beauftragt ist.
+
+**CLT-Luftdichtheit/Feuchte (Stora-Enso-Dokumentation, Ergaenzung zu E13, S.14-37 nach dem bereits
+bekannten Waermeschutz-Kapitel S.4-13):**
+- **Luftdichtheit:** CLT-Platten sind ab **3-schichtigem Aufbau von sich aus luftdicht**
+  (TU-Graz-Pruefung 2013/14 nach OeNORM EN 12114, Plattenstoesse ausserhalb des messbaren
+  Volumenstrom-Bereichs) — eine zusaetzliche Luftdichtheitsfolie ist in der Regel NICHT noetig,
+  nur ein komprimierbares Dichtungsband an den Plattenstoessen. Massgeblich ist der **n50-Wert**
+  (Blower-Door): ohne RLT-Anlage 3/h, mit RLT-Anlage 1.5/h, Passivhaus 0.6/h (OeNORM B 8110-1).
+- **Feuchte:** CLT ist luftdicht, aber NICHT dampfdicht — die **Leimfugen** wirken als eigentliche
+  Dampfbremse (sd-Wert = Fichtenvollholz gleicher Staerke + 26 mm Zuschlag/Lage, Quelle
+  Holzforschung Austria 2008). CLT verhaelt sich als **feuchtevariable Dampfbremse** (diffusions-
+  offener im Sommer, dichter im Winter) — reguliert aktiv die Raumluftfeuchte. Konstruktionsregel:
+  sd-Wert zur Aussenflaeche hin **5-10 m niedriger** als zur Konstruktionsmitte (Beispielaufbau
+  hinterlueftete Fassade: Gipskarton sd=0.273 m, CLT sd=3.9 m, Aussendaemmung sd=0.25 m,
+  diffusionsoffene Folie sd≤0.3 m — von innen nach aussen konsequent dichter zu duenner).
+
+**JANS-Praxisrelevanz:** bei CLT-Projekten (z. B. Biwak Grassen, E14) ist die Luftdichtheits-
+Erleichterung (keine zusaetzliche Folie noetig ab 3-Schicht-CLT) eine direkte Kosten-/Detail-
+Vereinfachung gegenueber Holzrahmenbau; die sd-Wert-Regel (Aussenseite duenner/dichter als
+Innenseite) ist beim Fassadenaufbau-Vorprojekt zu pruefen, um Tauwasserausfall zu vermeiden.
 
 ## Datenstand / offen
 - Quelle ist ein anonymer Fachbuch-Reader ohne durchgehend erkennbaren Titel/Autor auf den

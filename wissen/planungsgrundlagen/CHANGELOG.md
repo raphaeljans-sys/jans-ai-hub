@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 34 (Brandschutz + Energie, Token-Vollgas): acht bisher nie ausgewertete VKF-Einzelrichtlinien + U-Wert-Ordner-Delta
+- Fund: Ordner `PL-03/02 Brandschutzrichtlinien 2015-17-22/` enthaelt >20 einzelne VKF-BSR-PDF,
+  von denen nur 3 ausgewertet waren — der Rest war nur pauschal als «02 BSR» kartiert.
+- Acht Volltexte neu gelesen und in [[brandschutz-pl03-wegweiser]] §5o-§5u eingearbeitet:
+  Brandmeldeanlagen (BSR 20-15, Beherbergung [a] IMMER Vollueberwachung), Sprinkleranlagen
+  (BSR 19-15, Verkaufsgeschaefte/Parkhaus-Schwellen), Loescheinrichtungen + Befoerderungsanlagen
+  (BSR 18-15/23-15, Feuerwehraufzug tragbahrentauglich), Kennzeichnung von Fluchtwegen (BSR 17-15),
+  Nachweisverfahren im Brandschutz (BSR 27-15), Begriffe und Definitionen (BSR 10-15, amtliches
+  Glossar), Flucht- und Rettungswege Volltext (BSR 16-15, neue Fluchtweglaengen/Breitenformel).
+  §1-Register mit vollstaendiger Titelliste + Rest-Backlog ergaenzt.
+- Energie: Ordner `U Wert berechnung/` — drei echte Deltas (EN-102-d Vollzugshilfe 2018,
+  Bauteilkatalog Neubauten BFE 2002 mit konkreten Schichtaufbauten, CLT-Luftdichtheit/Feuchte) in
+  [[energie-heizwaermebedarf-waermeerzeugerleistung]] §5 eingearbeitet; MuKEn-2025-ZH-Refresh
+  unveraendert bestaetigt.
+- Register: `training/curriculum.md` (B27/E29), `wiki/QUESTIONS.md` (C29/D21), `raw/_INGESTED.md`,
+  `wiki/INDEX.md` nachgefuehrt. Report: `outputs/2026-07-13_training-run34.md`.
+
 ## 2026-07-13 — Training Run 33 (Recht & Norm + Kartenportale, Token-Vollgas): letzte offene Curriculum-Punkte geloest statt neuer Ordner-Rundgang
 - Curriculum nach 32 Laeufen fast lueckenlos abgearbeitet — statt eine weitere Ordner-Vollsuche
   zu fahren, wurden die verbliebenen "Offen"-Vermerke gezielt aufgeloest.

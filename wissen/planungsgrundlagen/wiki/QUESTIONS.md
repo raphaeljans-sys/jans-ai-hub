@@ -261,6 +261,27 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C29 (B27) (Run 34, 2026-07-13)** Acht bisher nie ausgewertete VKF-Einzelrichtlinien im
+  >20-Titel-Ordner `02 Brandschutzrichtlinien 2015-17-22/` gelesen (Volltext): **BSR 20-15
+  Brandmeldeanlagen** (Beherbergung [a] IMMER Vollueberwachung, keine Schwelle; [b]/[c] erst ab
+  2 Geschossen/>50 Pers. oder 3 Geschossen/>30 Pers.), **BSR 19-15 Sprinkleranlagen**
+  (Verkaufsgeschaefte >2'400 m², Parkhaus-Schwellen 4'800/2'400/9'600 m², Generalueberholung
+  20 J. vs. BMA-Beurteilung 15 J.), **BSR 18-15 Loescheinrichtungen** (HFL 1/600 m², WLP 40 m
+  Gehweglinie, kein WLP in Sicherheitstreppenhaus), **BSR 23-15 Befoerderungsanlagen**
+  (Feuerwehraufzug 1.1×2.1 m/1'000 kg/tragbahrentauglich, RDA-Druckbelueftung als von RWA zu
+  unterscheidendes System), **BSR 17-15 Kennzeichnung von Fluchtwegen** (Sicherheitsbeleuchtung
+  15 Sek./30 Min./1 Lux, hoechste Anforderungsstufe bei Beherbergung), **BSR 27-15
+  Nachweisverfahren im Brandschutz** (Ingenieurmethoden/Schutzzielnachweis-Prozess als Alternative
+  zum praeskriptiven Standard, raucharme Schicht ≥2.5 m), **BSR 10-15 Begriffe und Definitionen**
+  (amtliches VKF-Glossar — Beherbergung [a]/[b]/[c] amtliche 20-Personen-Schwelle bestaetigt,
+  Fluchtweg≠Rettungsweg-Abgrenzung, Delta-Check IVHB-Geschossbegriffe: Gesamthoehe = IVHB-Verweis
+  kein Delta, Geschosszahl = eigenstaendige VKF-Definition Delta ja), **BSR 16-15 Flucht- und
+  Rettungswege Volltext** (bestaetigt bisherigen Foto-Auszug wortgleich, plus neue Kernzahlen
+  Fluchtweglaengen 35/50 m, Ausgaenge-Staffelung nach Personenzahl, Breitenformel 0.6 m/100 bzw.
+  60 Pers.) → alle NEU §5o-§5u [[brandschutz-pl03-wegweiser]]; §1-Register mit vollstaendiger
+  Titelliste + Rest-Backlog (niedrige Prioritaet: Baustoff&Bauteile, Blitzschutz, DIN EN 12101-2,
+  Gefaehrliche Stoffe, Lufttechnische/Waermetechnische Anlage) ergaenzt. Details siehe
+  `training/curriculum.md` B27.
 - [x] **C27–C28 (B25-B26) (Run 30, 2026-07-13)** B25-Verifikations-Retry gelang + eine neue
   Fundstelle: **Lignum «Erdbebengerechte mehrgeschossige Holzbauten»** (2010) — die seit Run 24
   wiederholt als OneDrive-Cloud-Platzhalter unlesbare Datei liess sich in diesem Lauf vollstaendig
@@ -377,6 +398,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D21 (Run 34, 2026-07-13, E29)** Vier bisher unausgewertete Dateien im Ordner `U Wert
+  berechnung/` gepruefte, drei mit echtem Delta: **EN-102-d** (Vollzugshilfe Dez. 2018) — Umbau/
+  Umnutzung-Grenzwerte + Waermebruecken-Typen 1/2/3/5/6 + Kap. 8 Sommerlicher Waermeschutz (g-Wert/
+  SIA 180); **Bauteilkatalog Neubauten** (BFE 2002) — konkrete Schichtaufbau-Bibliothek B1-B21/
+  W1-W7i mit U-Wert-Lookup nach Daemmdicke×λ (Konstruktions- statt Grenzwertebene, direkt fuer
+  Vorprojekt-Bauteilaufbau-Vorschlaege nutzbar); **CLT-Luftdichtheit/Feuchte** (Ergaenzung zu E13)
+  — ab 3-Schicht-CLT von sich aus luftdicht (n50-Werte), Leimfugen als feuchtevariable Dampfbremse,
+  sd-Wert-Konstruktionsregel (aussen duenner/dichter als innen) → alle NEU §5
+  [[energie-heizwaermebedarf-waermeerzeugerleistung]]. **VoHi_EN02** (2013) = ueberholter
+  Vorgaenger von EN-102-d, kein Delta. Zusaetzlich MuKEn-2025-ZH-Refresh per WebSearch: unveraendert
+  bestaetigt (kein neuer ZH-Termin) → [[energie-energienachweis-zh-formulare]] §Datenstand.
+  Details siehe `training/curriculum.md` E29.
 - [x] **D19-D20 (Run 31, 2026-07-13, E27-E28)** Zwei bisher unerschlossene PL-04-Unterordner unter
   `Solaranlage/` ausgewertet (nach vollstaendigem Ordnerabgleich, Domaene ansonsten weitgehend
   ausgeschoepft — E1-E26 bereits belegt): **Dachausstiege** (Wartungszugang Flachdach-PV, 6
