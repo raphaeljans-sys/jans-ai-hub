@@ -956,9 +956,10 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   als leicht**; kant. Bewilligung + Laermgutachten (Bd 2 S. 1407 ff.). _[2026-07-11]_
 - **F (Modell C):** Was ist der Unterschied zwischen Immissions- und Anlagegrenzwert der NISV? — **A:**
   Der **IGW** (Anhang 2 NISV) ist ein Gefaehrdungs-/Minimalwert und **ueberall** einzuhalten; der
-  **AGW** (Art. 6 Abs. 3 NISV) betrifft **nur eine einzelne Anlage**, ist **Faktor 10 strenger** und nur
+  **AGW** (Art. 3 Abs. 6 NISV) betrifft **nur eine einzelne Anlage**, ist **Faktor 10 strenger** und nur
   an **Orten mit empfindlicher Nutzung (OMEN)** einzuhalten — die eigentliche Vorsorge (Bd 2 S. 1416 f.).
-  _[2026-07-11]_
+  _[2026-07-11, Fundstelle korrigiert 2026-07-14 Run 43: Art. 6 Abs. 3 regelt die Aenderung neuer
+  Anlagen, nicht die AGW-Legaldefinition]_
 - **F (Modell C):** Sind Balkone und Dachterrassen von Attikawohnungen «Orte mit empfindlicher Nutzung»
   (OMEN) im Sinne der NISV? — **A:** **Nein.** Aufenthaltsorte im Freien (Balkone, Terrassen, auch
   Dachterrassen von Attikawohnungen) sind keine «Raeume in Gebaeuden» (Art. 3 Abs. 3 lit. a NISV) und
@@ -1394,3 +1395,55 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   aus konventionellen Anlagen anbieten; dann können Staat/Gemeinde Anschluss + Durchleitungsrechte
   verlangen. Nur wenn diese Gleichwertigkeit gegeben ist. Beleg: raw/260607_amtlich_zh_pbg.md
   Z. 3034-3040. _[2026-07-14]_
+
+## Buch-Run 43 (2026-07-14) — Modell-D Gestaltungsplan §§ 83-89 + § 44a PBG
+
+### Modell D — Gegenprobe/Adversarial
+
+- **F:** Braucht ein privater Gestaltungsplan (§ 85 PBG) die Zustimmung ALLER einbezogenen
+  Grundeigentümer, um allgemeinverbindlich erklärt zu werden? — **A:** **Nein**, kein
+  Einstimmigkeitszwang: Es genügt die Zustimmung der Grundeigentümer, denen **mindestens zwei
+  Drittel der einbezogenen Flächen** gehören, sofern keine schutzwürdigen Interessen der übrigen
+  Grundeigentümer verletzt werden (§ 85 Abs. 2 PBG) — dieselbe Zweidrittel-Schwelle gilt auch für
+  Änderungen. Verwechslungsgefahr mit dem Quartierplan (§ 160a PBG, dort **Einstimmigkeit** beim
+  privaten Verfahren) — unterschiedliche Institute, unterschiedliche Schwelle. Beleg:
+  raw/260607_amtlich_zh_pbg.md Z. 928-933. _[2026-07-14]_
+- **F:** Braucht jeder private Gestaltungsplan die Zustimmung der Gemeinde-Legislative
+  (Gemeindeversammlung/-parlament)? — **A:** **Nicht zwingend.** Grundsätzlich braucht ein privater
+  GP die Zustimmung des für den Erlass der BZO zuständigen Organs (i.d.R. Legislative); überschreitet
+  er aber den für Arealüberbauungen im betreffenden Gebiet geltenden Rahmen **nicht**, genügt die
+  Zustimmung des **Gemeindevorstands** (§ 86 PBG) — ein «exekutorischer» GP nur innerhalb der
+  bestehenden Grundordnung. Beleg: raw/260607_amtlich_zh_pbg.md Z. 945-946. _[2026-07-14]_
+- **F:** Ab wann kann ein Gestaltungsplan frühestens aufgehoben werden? — **A:** § 87 PBG verweist auf
+  die Sonderbauvorschriften-Regel § 82 PBG: **frühestens 5 Jahre nach Inkrafttreten**, und nur wenn
+  weder eine wesentliche Bautätigkeit von den eingeräumten Möglichkeiten Gebrauch gemacht hat noch
+  entsprechende ernsthafte Bestrebungen nachgewiesen werden. Für **untergeordnete Änderungen** gilt
+  diese Schranke **nicht**. Beleg: raw/260607_amtlich_zh_pbg.md Z. 903-906/950. _[2026-07-14]_
+
+### Modell C — Selbsttest (Karteikarte)
+
+- **F:** Welche Fristen gelten für die freiwillige Vorprüfung von BZO/Sonderbauvorschriften/
+  Gestaltungsplänen durch die zuständige Direktion? — **A:** **2 Monate** im Regelfall, **3 Monate**
+  wenn eine UVP notwendig ist (§ 87a Abs. 1/2 PBG). _[2026-07-14]_
+- **F:** Wer setzt einen Gestaltungsplan für Bauten/Anlagen fest, die im kantonalen oder einem
+  regionalen Richtplan enthalten sind — die Gemeinde oder der Kanton? — **A:** Die **zuständige
+  Direktion** (kantonal), nicht die Gemeinde; die Gemeinden werden vor der Festsetzung über das
+  Auflageergebnis orientiert und können eine Einigungsverhandlung verlangen (§ 84 Abs. 2 PBG).
+  _[2026-07-14]_
+
+### Modell A — Frage → Beleg (Fundstellen-Drill)
+
+- **F:** Bauherr fragt: «Unsere Nachbarparzelle gehört zu einem geplanten privaten Gestaltungsplan.
+  Wie viel Flächenanteil müssen die zustimmenden Grundeigentümer mindestens vertreten, damit der
+  Gestaltungsplan für uns alle verbindlich wird?» — **A:** **Fundstelle: § 85 Abs. 2 PBG.** Mindestens
+  **zwei Drittel der einbezogenen Flächen** müssen den zustimmenden Grundeigentümern gehören, UND es
+  dürfen keine schutzwürdigen Interessen der übrigen Grundeigentümer verletzt werden. Beleg:
+  raw/260607_amtlich_zh_pbg.md Z. 928-933. _[2026-07-14]_
+
+**Ergebnis Modell-D-Volltextabgleich §§ 83-89 + § 44a PBG (Gestaltungsplan):** alle Absätze gegen
+raw/260607_amtlich_zh_pbg.md Z. 483-493/909-972 gegengeprüft — **CONFIRMED, 0 Fehler.** Wiki
+[[raumplanung-und-gestaltung]] war bereits vollständig und korrekt; erstmals mit explizitem
+Verifikations-Vermerk versehen (Frontmatter trug bisher gar kein `verifiziert`-Feld). Zusätzlich zwei
+Fundstellen-Divergenzen bereinigt: `wiki/INDEX.md` (NISV-AGW «Art. 6 Abs. 3» → «Art. 3 Abs. 6», Zeile
+war vom Run-39-Fix im separaten `buecher/INDEX.md` nicht mit-erfasst) und ein Drill-Karte in
+`training/drills.md` (dieselbe Fundstelle).

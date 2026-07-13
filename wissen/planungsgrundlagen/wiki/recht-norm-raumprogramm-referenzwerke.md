@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-13 (Run 35)
 sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
 links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]], [[recht-norm-sanitaerraeume-planungsgrundlagen]]
 ---
@@ -17,11 +17,25 @@ Machbarkeitsstudie) und bei subventioniertem Wohnungsbau.
 ## 1. Raumpilot — Gebäudelehre-Nachschlagewerk (05_Raumpilot)
 
 **Raumpilot Grundlagen** (Thomas Jocher / Sigrid Loch, Institut Wohnen und Entwerfen Uni
-Stuttgart, hrsg. Wüstenrot Stiftung, Karl Krämer Verlag 2012, ISBN 978-3-7828-1551-2, 580 S.) ist
+Stuttgart, hrsg. Wüstenrot Stiftung, Karl Krämer Verlag 2012, ISBN 978-3-7828-1551-2, 582 S.) ist
 ein **Neufert-analoges Nachschlagewerk** (die PL-02-Struktur führt `07_Neuffert` als eigenen,
 separaten Ordner — beide sind komplementäre Standardwerke, kein Doppel zueinander). Die
-vierbändige Reihe gliedert sich in **Grundlagen · Wohnen · Arbeiten · Lernen** (Letztere zwei nicht
-im JANS-Bestand — nur der Grundlagenband liegt vor).
+Publikationsreihe besteht offiziell aus vier separat verlegten Bänden (Grundlagen/Jocher+Loch ·
+Wohnen/Stamm-Teske+Fischer+Haag · Arbeiten/Gasser+zur Brügge+Tvrtković ·
+Lernen/Lederer+Pampe, je eigene ISBN).
+
+**Korrektur (Run 35, 2026-07-13):** Die frühere Annahme «nur der Grundlagenband liegt vor,
+Arbeiten/Lernen nicht im JANS-Bestand» ist **falsch** und hiermit aufgelöst — das vorliegende PDF
+`Raumpilot-Grundlagen.pdf` (582 S., Volltext-Inhaltsverzeichnis S. 4 geprüft) enthält selbst
+**vollständige Typologie-Kapitel zu allen vier Themenbereichen**: Grundlagen (S. 11–154), Wohnen
+(S. 155–348), **Arbeiten (S. 349–454)**, **Lernen (S. 455–571)**, Anhang (S. 572–580). Stichprobe
+S. 468 bestätigt substanziellen Inhalt (nicht nur Verweis): Schultypologie-Vergleich «Kompaktes
+System» vs. «Pavillon-System» (Belichtung/Raumbildung/Erschliessung/Erweiterbarkeit) samt
+Funktionsschema-Diagramm (Foyer–Aula–Bibliothek–Unterrichtsräume–Verwaltung–Lehrer–
+Fachunterricht–Schulhof). **JANS-Relevanz:** Schul-/Bildungsbau ist eine erklärte
+Prioritäts-Bauaufgabe (Skill `wettbewerb`) — der Lernen-Abschnitt liefert direkt nutzbare
+Typologie-Referenzen für Raumprogramm-Plausibilisierung bei Schulprojekten, ohne dass die separat
+verlegten Vertiefungsbände beschafft werden müssten.
 
 **Struktur des Grundlagenbands** (Inhaltsverzeichnis S. 8, für gezielten Zugriff beim nächsten
 realen Bedarf):

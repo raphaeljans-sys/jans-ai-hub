@@ -4,6 +4,14 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-14 — Buch-Run 43 (Phase 3, Modell-D Gestaltungsplan §§ 83-89 + § 44a PBG + zwei NISV-Fundstellen-Divergenzen bereinigt)
+- [verifiziert] **§§ 83-89 + § 44a PBG (Gestaltungsplan) CONFIRMED, 0 Fehler** gegen `raw/260607_amtlich_zh_pbg.md` (Z. 483-493/909-972). Wiki [[raumplanung-und-gestaltung]] bleibt `established`, erhält erstmals ein `verifiziert`-Frontmatter-Feld (trug bisher gar keins, obwohl der Artikel bereits established war).
+- [korrigiert] `wiki/INDEX.md`: NISV-AGW-Fundstelle «Art. 6 Abs. 3» → **«Art. 3 Abs. 6 NISV»** (Zeile [[laermschutz-und-nichtionisierende-strahlung]]) — der Run-39-Fix hatte nur `buecher/INDEX.md` erfasst, diese zweite Index-Datei war noch veraltet.
+- [korrigiert] `training/drills.md`: Modell-C-Karte vom 2026-07-11 trug dieselbe falsche NISV-Fundstelle — korrigiert auf Art. 3 Abs. 6 NISV.
+- [ergänzt] `training/drills.md`: neuer Block «Buch-Run 43» — 3× Modell D, 2× Modell C, 1× Modell A zum Gestaltungsplan §§ 83-89/§ 44a PBG.
+- [geklärt] `wiki/QUESTIONS.md`: Run-43-Eintrag oben eingefügt — dokumentiert die Divergenz-Bereinigung und die neue Lehre «`buecher/INDEX.md` ↔ `wiki/INDEX.md` sind zwei separate Dateien, beide müssen bei einer Korrektur mitgezogen werden».
+- Bericht: `outputs/2026-07-14_buch-run43.md`.
+
 ## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): Querbezug zu KB energie gesetzt
 - [link] `baubewilligungsverfahren.md`: Querbezug-Block → KB energie (`energienachweis-zh` Nachweisphysik) + planungsgrundlagen (Formulare/EVEN); Rollenteilung Verfahrensrecht=baurecht / Nachweis=energie fixiert. Kein Widerspruch gefunden (Paar energie↔baurecht: 0 Widersprueche). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
 

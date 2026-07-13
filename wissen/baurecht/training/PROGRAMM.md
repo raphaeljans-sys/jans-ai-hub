@@ -91,6 +91,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 43 (2026-07-14, Modell-D Gestaltungsplan §§ 83-89 + § 44a PBG, kein Agent-Fan-out —
+    Kollisionsvermeidung zu einer parallel laufenden Instanz, die zeitgleich Kap. 17 Ausruestungen als
+    „Run 42" bereits committet hatte):** Wiki [[raumplanung-und-gestaltung]] (bleibt `established`,
+    erstmals `verifiziert`-Feld) gegen `raw/260607_amtlich_zh_pbg.md` Z. 483-493/909-972 gegengeprueft
+    — **§§ 83-89 PBG (Gestaltungsplan Inhalt/oeffentlich/privat/Zustimmung/Aufhebung/Vorpruefung-
+    Festsetzung-Genehmigung) + § 44a PBG (Materialgewinnung/-ablagerung) alle CONFIRMED, 0 Fehler.**
+    Zusaetzlich zwei liegen gebliebene **NISV-AGW-Fundstellen-Divergenzen** («Art. 6 Abs. 3» statt
+    «Art. 3 Abs. 6 NISV») bereinigt, die der Run-39-Fix (dort nur `buecher/INDEX.md`) nicht erfasst
+    hatte: `wiki/INDEX.md` (Zeile [[laermschutz-und-nichtionisierende-strahlung]]) und eine Drill-Karte
+    in `training/drills.md`. 6 neue Drills (3×D/2×C/1×A). **Neue Lehre:** `buecher/INDEX.md` und
+    `wiki/INDEX.md` sind zwei separate Dateien mit redundanten Kurzfassungen — eine Korrektur muss
+    beide treffen, nicht nur eine. **Nebenbefund:** die PROGRAMM-Tracker-Nachfuehrung fuer Run 41 fehlte
+    (Report/CHANGELOG vorhanden, aber kein Tracker-Eintrag) — hier nicht rekonstruiert, nur vermerkt.
+    Report `outputs/2026-07-14_buch-run43.md`.
   - **Run 40 (2026-07-14, Modell-D BBV-I-Wortlaut vollständig abgeschlossen + § 62 StrG Nachzug, kein
     Agent-Fan-out — Kollisionsvermeidung zu Parallel-Lauf «Run 38» KNHV/USG/VRG):** [[17-haustechnische-
     anlagen-teil3]] `emerging`→**`established`** — §§ 18/21/22/23/24/26/29/30a/31/32/33/37/40/42/43/44/

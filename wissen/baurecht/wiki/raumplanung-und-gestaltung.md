@@ -1,7 +1,8 @@
 ---
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
+verifiziert: 2026-07-14 (Buch-Run 43, Modell-D Volltextabgleich §§ 83-89 PBG (Gestaltungsplan: Inhalt/oeffentlich/privat/Zustimmung/Aufhebung/Vorpruefung-Festsetzung-Genehmigung) + § 44a PBG (Gestaltungsplan Materialgewinnung/-ablagerung) gegen raw/260607_amtlich_zh_pbg.md Z. 483-493/909-972 — alle Absaetze CONFIRMED, 0 Fehler, keine Korrektur noetig)
 sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---

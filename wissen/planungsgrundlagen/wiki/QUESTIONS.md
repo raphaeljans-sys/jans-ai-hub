@@ -125,6 +125,24 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R32–R35 (Run 35, 2026-07-13)** Vier weitere bisher unerschlossene PL-02-Ordner ausgewertet
+  (systematischer Top-Level-Ordnerabgleich, analog der K27/K28/K31-Methodik in Kartenportale):
+  **`08_Richtplan`** (irrefuehrend benannt — kein kantonaler Richtplan, sondern das
+  **Richtprojekt** als verbindliche Massskizze im Anhang einer privaten Sondernutzungsplanung;
+  realer Fall Ueberbauungsordnung «VistaRotonda» Kt. Bern, Datenblatt Landflaeche 11'400 m²/
+  BGF 6'966 m²/Parkplatzbedarf Art. 19.2 Baureglement/Kubatur SIA 116 32'825 m³; **korrigiert eine
+  private KI-generierte Fehlquelle** die «Richtprojekt» faelschlich als SIA-102-Phase einordnete,
+  Terminologie-Delta Kt. Bern «Ueberbauungsordnung» vs. Kt. ZH «Gestaltungsplan» § 83 PBG erstmals
+  dokumentiert → NEU [[recht-norm-richtprojekt-ueberbauungsordnung]]), **`05_Raumpilot`**
+  (bestehende KB-Annahme "nur Grundlagenband, Arbeiten/Lernen fehlen" anhand des Volltext-
+  Inhaltsverzeichnisses widerlegt — die 582-seitige PDF enthaelt vollstaendige Typologie-Kapitel
+  Arbeiten UND Lernen/Schulbau, Stichprobe S. 468 belegt echten Inhalt, direkt nutzbar fuer die
+  JANS-Prioritaet Schul-/Bildungsbau → Korrektur [[recht-norm-raumprogramm-referenzwerke]] §1),
+  **`01_Gesetze/01_Bund/Eisenbahngesetz`** (bestaetigter Nicht-Fund — reine AB-EBV/VEAB-
+  Bahnbetreiber-Infrastrukturtechnik, keine Bahnabstandslinie fuer Drittbauten, ehrlich als
+  Nicht-Fund dokumentiert, kein Artikel), **`10 Lärmschutz`** (kein Delta — reiner Link auf
+  bauen-im-laerm.ch, bereits in [[recht-norm-quellenlandkarte]] erfasst). Details siehe
+  `training/curriculum.md` R32-R35.
 - [x] **R22–R26 (Run 30, 2026-07-13)** Fuenf bisher unerschlossene PL-02-Einzelordner ausgewertet:
   **2-Stunden-Schatten-Grobnachweis** (§ 284 Abs. 4 PBG / § 30 ABV, Konstruktionsverfahren +
   Azimut/Sonnenhoehe-Tabelle), **Post-Briefkastenanlage** (UVEK-Postverordnung 1998, Standort +
@@ -261,6 +279,12 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [ ] **Carried forward (Wissens-Chef Run 3, 2026-07-13):** Doppelspur-Flag in
+  [[brandschutz-pl03-wegweiser]] — die dort direkt eingearbeiteten VKF-BSR-Ziffern/Kennwerte
+  (Run 34) sollen kuenftig aus der fuehrenden KB `wissen/normen` (`vkf-*`-Destillate) gezogen
+  statt dupliziert werden (Rule `normen-referenz.md`); zusaetzlich ein Ausgaben-Delta 2015 vs.
+  Rev. 2022 bei [[energie-pv-brandschutz]] offen. Dieser Run (35) war Recht-&-Norm-fokussiert,
+  daher nicht bearbeitet — Aufgabe fuer den naechsten Brandschutz-Rotationslauf.
 - [x] **C29 (B27) (Run 34, 2026-07-13)** Acht bisher nie ausgewertete VKF-Einzelrichtlinien im
   >20-Titel-Ordner `02 Brandschutzrichtlinien 2015-17-22/` gelesen (Volltext): **BSR 20-15
   Brandmeldeanlagen** (Beherbergung [a] IMMER Vollueberwachung, keine Schwelle; [b]/[c] erst ab

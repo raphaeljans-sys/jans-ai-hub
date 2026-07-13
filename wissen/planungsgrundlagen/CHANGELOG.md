@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 35 (Recht & Norm, Token-Vollgas): «Richtprojekt»/Ueberbauungsordnung neu + Raumpilot-Fehlannahme korrigiert
+- Systematischer Top-Level-Ordnerabgleich PL-01/PL-02 gegen das Curriculum (Methodik analog
+  Run 31 K27/K28/K31): Kartenportale bestaetigt erschoepft (994 Dateien, kein neuer Ordner, keine
+  seit 01.07.2026 geaenderte Datei); Recht & Norm foerdert vier bisher nie kartierte Ordner zutage.
+- NEU [[recht-norm-richtprojekt-ueberbauungsordnung]]: Ordner `08_Richtplan` (irrefuehrend
+  benannt) enthaelt kein Richtplan, sondern das **Richtprojekt** — die verbindliche Massskizze im
+  Anhang einer privaten Sondernutzungsplanung (Gestaltungsplan ZH § 83 PBG / Ueberbauungsordnung
+  Kt. Bern). Realer Fall UeO «VistaRotonda» Kt. Bern, Datenblatt Landflaeche/BGF/Parkplatzbedarf/
+  Kubatur SIA 116. **Korrigiert eine private KI-generierte Fehlquelle** (Copilot-Notiz ordnete
+  «Richtprojekt» faelschlich als SIA-102-Projektphase ein).
+- Korrektur [[recht-norm-raumprogramm-referenzwerke]] §1: die seit Run 23 gefuehrte Annahme
+  «Raumpilot Arbeiten/Lernen nicht im JANS-Bestand» war falsch — das Volltext-Inhaltsverzeichnis
+  der 582-seitigen `Raumpilot-Grundlagen.pdf` zeigt vollstaendige Typologie-Kapitel Arbeiten
+  (S. 349-454) und Lernen/Schulbau (S. 455-571), Stichprobe verifiziert echten Inhalt.
+- Zwei ehrliche Nicht-Funde dokumentiert: Eisenbahngesetz-Ordner (reine Bahnbetreiber-Technik
+  AB-EBV/VEAB, kein Bahnabstand fuer Drittbauten), `10 Lärmschutz` (kein Delta, bereits erfasst).
+- Wissens-Chef-Doppelspur-Flag (Brandschutz-KB-normen-Referenzierung) als offene Aufgabe fuer den
+  naechsten Brandschutz-Rotationslauf in `wiki/QUESTIONS.md` §C vermerkt (dieser Lauf war
+  Recht-&-Norm-fokussiert).
+- Bericht: `outputs/2026-07-13_training-run35.md`.
+
 ## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): 2 Querbezuege zur fuehrenden KB normen
 - [link] `brandschutz-pl03-wegweiser.md`: Querbezug-Block → KB normen (`vkf-*`-Destillate) als kanonische VKF-Fundstelle (Rule `normen-referenz.md`). **Doppelspur-Flag:** Run 34 hat VKF-BSR-Ziffern/Kennwerte direkt eingearbeitet; die Werte sind deckungsgleich (kein Widerspruch), aber materielle VKF-Ziffern sollen kuenftig aus normen gezogen statt dupliziert werden → offener Punkt fuer den naechsten `planungsgrundlagen-training`-Lauf.
 - [link] `energie-pv-brandschutz.md` → normen `vkf-merkblatt-2001-15-solaranlagen`; ⚠ Ausgaben-Delta 2015 (normen) vs. Rev. 2022 (hier belegt), z.B. Unterdachbahnen RF3(cr)/RF4(cr). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
