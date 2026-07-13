@@ -49,14 +49,14 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
 | `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | Teil-Destillat (S.1-20+27-37/125, verifiziert 260713) |
-| `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | destilliert |
+| `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
 | `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | Teil-Destillat (S.1-20+26-28/28, verifiziert 260713) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | destilliert |
-| `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | destilliert |
+| `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | destilliert (Scan nur ungerade Seiten im Bestand) |
 | `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | destilliert |
-| `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | destilliert (S.1-16+31-38/38) |
+| `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | established (verifiziert 260713, Anhang D/F korrigiert, vollständig S.1-38/38) |
 | `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | established (verifiziert 260713) |
 | `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | established (verifiziert 260713) |
 | `din-v-105-100-2005.md` | DIN V 105-100 Mauerziegel mit besonderen Eigenschaften | 2005-10 (Vornorm) | established (verifiziert 260713, vollständig S.1-31/31) |
@@ -87,7 +87,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1249-11-1986.md` | DIN 1249-11 Flachglas im Bauwesen, Glaskanten | 1986-09 | destilliert |
 | `din-68119-1996.md` | DIN 68119 Holzschindeln | 1996-09 | destilliert |
 | `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | destilliert |
-| `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | destilliert |
+| `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | established (verifiziert 260713) |
 | `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | destilliert |
 | `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | destilliert |
 | `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | destilliert |
@@ -149,7 +149,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | 2015 | destilliert |
 | `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | destilliert |
 | `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | destilliert |
-| `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | destilliert (vollständig, S.1-62/62) |
+| `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | established (verifiziert 260713, Fehler Expositionsklasse XF korrigiert, vollständig S.1-62/62) |
 | `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | destilliert (vollständig, S.1-28/28) |
 | `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | destilliert (vollständig, S.1-32/32) |
 | `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | destilliert (vollständig, S.1-39/39) |

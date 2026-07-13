@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 14:07:26
+Stand: 13.07.2026 14:27:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:05)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 20 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 21 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 13.07.2026 14:07:26
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- cc49ef19 nas-selfcommit: 13 Datei(en) 2026-07-13 14:00
+- 52b912b8 energie-training Run 49: Recherche-Sackgassen ehrlich geschlossen
