@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 20:21:57
+Stand: 13.07.2026 20:32:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:59)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:12)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 20:21:57
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- febcc75d normen-training MacBook Pro Run 5: SIA/VKF-Basisinventar vollstaendig (37 Positionen)
+- 1d980cd7 nas-selfcommit: 2 Datei(en) 2026-07-13 20:30
