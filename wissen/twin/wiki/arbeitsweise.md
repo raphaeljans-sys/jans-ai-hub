@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -904,3 +904,25 @@ im Deliverable nicht enthaltenen Vorbehalt aktiv als schriftliche Ergänzung nac
   transparenter Sichtbarkeit für alle. Neuer, eigenständiger Marker (ergänzt die Themen-Block-/H1-Struktur-
   Liefermails um eine feinere, personenscharfe Adressierungsebene innerhalb EINER Mail).
   Quelle: rj@ Sent Items, 02.04.2026, authentisch.
+
+## Batch 39 (2026-04-03 bis 2026-04-09)
+
+- **Ablage-Disziplin ans Fachplanerteam mit expliziter Begriffsdefinition «Arbeitsordner»** (KISPI, 03.04.2026):
+  Raphael bittet das gesamte Fachplanerteam, Besprechungsgrundlagen in einen datierten Arbeitsordner
+  («260402_Grundlagen_Besprechung_1») abzulegen, begründet das mit «interner Berichterstattung» und definiert
+  den Begriff gleich mit, damit kein Missverständnis über den Reifegrad entsteht: «Arbeitsordner meint, die
+  Pläne sind nicht fix, sondern in Bearbeitung und dies wird auch so gehandhabt.» Bestätigt/erweitert die
+  belegte Linie «Zwischenpläne aktiv als nicht-fix/ungültig kennzeichnen» (Batch 34) um die **strukturierte
+  Team-Ablage mit selbsterklärter Ordner-Semantik**. Quelle: 03.04.2026, authentisch.
+- **Zahlungserinnerung mit klarem Leistungs-Junktim** (Akonto-Erinnerung an Bauherr, 07.04.2026): die offenen
+  Akonto-Rechnungen werden einzeln mit Nummer/Zeitraum/Betrag aufgelistet, gefolgt von der unmissverständlichen
+  Kopplung «Sobald die Rechnungen beglichen sind, werde ich die Baueingabe einreichen.» Zahlung und nächster
+  Projektschritt werden explizit verknüpft — eine sachliche Druckmechanik statt blosser Bitte, im warmen Du und
+  mit der Buchhaltung im cc. Ergänzt die belegte Debitoren-/Mahn-Linie (Batch 14/29) um das **Junktim
+  Zahlung→Leistungsfreigabe**. Quelle: 07.04.2026, authentisch.
+- **Submissions-Anfrage-Sequenz: telefonisch anbahnen → Grundlagen-Link + Besichtigungsvorschlag →
+  Fragenkatalog** (08.04.2026): «Wie telefonisch besprochen sende ich Ihnen die Plangrundlagen … sowie ein
+  Vorschlag für ein Besichtigungstermin vor Ort», danach ein durchbuchstabierter Fragenkatalog an den Anbieter
+  (_A) Türertüchtigung, _B) benötigte Plangrundlagen). Bestätigt das belegte Muster «Offertenanfrage
+  telefonisch vorbereiten + eigene Grundlagen proaktiv beistellen» (Batch 25/28) und koppelt es mit dem
+  «_A)/_B)»-Fragenkatalog-Typografie-Marker. Quelle: 08.04.2026, authentisch.

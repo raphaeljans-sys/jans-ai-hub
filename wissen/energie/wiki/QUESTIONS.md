@@ -60,9 +60,12 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Minergie + nachhaltigleben.ch) → `[[fenster-verglasung-uw-g-wert]]`, `[[fenster-verglasung]]`, FAQ **F35** neu.
   **Fenster-Energieetikette FEA belegt (Prinzip) ✓ 2026-07-08** (BFE, freiwillig: Winter-Bilanz Uw,eq am
   Referenzfenster 1,55×1,15 m = Transmissionsverlust − nutzbarer solarer Gewinn; Klasse A = Gewinne >
-  Verluste) → `[[fenster-energieetikette-fea-bfe]]`, schaerft `fenster-verglasung`. Offen nur noch:
-  numerische **g-Werte** je Verglasungstyp + **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblatt);
-  **exakte FEA-Klassengrenzen A–G** (Uw,eq-Schwellen; BFE-PDF 7731 bildbasiert, separater Lauf).
+  Verluste) → `[[fenster-energieetikette-fea-bfe]]`, schaerft `fenster-verglasung`. **Exakte FEA-
+  Klassengrenzen A–G belegt ✓ 2026-07-13** (Faktenblatt pubdb 7731 diesmal vollstaendig als Text lesbar,
+  nicht mehr bildbasiert: A < 0, B 0–0,1, C 0,1–0,2, D 0,2–0,3, E 0,3–0,4, F 0,4–0,8, G ≥ 0,8 W/(m²·K);
+  plus Formel + Musterbeispiel Uw 1,1/g 60 % → Klasse A) → Destillat auf **established** gehoben. Offen
+  bleibt nur noch: numerische **g-Werte** je Verglasungstyp + **Uf** je Rahmenmaterial
+  (Hersteller-/SZFF-Datenblatt), Konstanten c1/c2 der Formel.
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,
@@ -190,8 +193,10 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   (amtliche Energieetikette Bestand, 7 Klassen A–G Huelle/Gesamtenergie/CO₂, A=null CO₂ Stufe 5 kg/m²·a;
   GEAK Plus = bis 5 Sanierungsvarianten + Beratungsbericht, **Pflicht ab CHF 10'000 Foerderung**, 10 J
   gueltig, nur zertifizierte Expert:innen, kein Fixpreis, ZH/SZ foerdern 1'000/1'500; Abgrenzung Minergie
-  Ist-Zustand vs. Ziellabel). Offen: konkrete **CHF-Kostenspanne** EFH/MFH (nicht amtlich publiziert),
-  **Klassengrenzen kWh/m²·a** je Effizienzklasse (Produktreglement 2026 bildbasiert), Liste der Kantone
+  Ist-Zustand vs. Ziellabel). **CHF-Kostenspanne belegt ✓ 2026-07-13** (Marktrichtwerte, Sekundärquelle
+  immoverkauf24.ch — geak.ch/EnDK publiziert bewusst keine Preise: GEAK EFH 450–650, GEAK MFH 500–800,
+  GEAK Plus EFH 1'400–2'100 CHF, dazu amtliche Zertifizierungsgebühren 80/190 CHF → `[[geak-kosten-efh-mfh]]`,
+  emerging). Offen: MFH-GEAK-Plus-Preisspanne konkret, zweite unabhängige Kostenquelle, Liste der Kantone
   mit **GEAK-Pflicht bei Handaenderung** (→ Skill `baurecht`).
 
 - [x] **E21** **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul) belegt ✓ 2026-07-12 →

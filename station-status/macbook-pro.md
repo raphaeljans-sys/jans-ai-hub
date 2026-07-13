@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 06:39:36
+Stand: 13.07.2026 06:49:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:12)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:30)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 06:39:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0da59e5b normen+planungsgrundlagen: laufende Destillate/Wiki-Updates (auto-erfasst vor Sync)
+- 45434559 normen-training-mini: Mac Mini Run 4 - DIN/VSS-Sonstiges-Rest + 5 grosse VSS-Scans komplett

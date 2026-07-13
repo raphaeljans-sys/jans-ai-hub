@@ -1286,6 +1286,11 @@ Moderne Fenster lassen **weniger als die Hälfte** an Wärme durch wie solche vo
 komplettes Dreifach-Fenster inkl. Anschlüsse/Ausbau/Entsorgung **~1'200 CHF/m²**; Lebensdauer **25–40
 Jahre**; Wertsteigerung EFH **2–3,5 %**.
 
+**Ergänzung — die Fenster-Energieetikette (FEA):** Wer die Zielkonflikt-Logik (Uw vs. g-Wert) konkret
+in Zahlen sehen will: die freiwillige FEA (FFF/SZFF/EnergieSchweiz) klassiert Fenster von **A** (Uw,eq
+< 0, solare Gewinne übersteigen die Verluste) bis **G** (Uw,eq ≥ 0,8); ein Musterfenster mit Uw 1,1 und
+g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` (exakte Klassentabelle).
+
 **Quelle:** EnergieSchweiz «Worauf es bei der Fenstersanierung ankommt»; HSLU/enbau-online «Fenster –
 Verglasung – Sonnen-, Wetter- und Blendschutz»; Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch
 → `[[fenster-verglasung-uw-g-wert]]`, Themenartikel `[[fenster-verglasung]]`. U-Wert-Grenzwerte → F3 /
@@ -1303,7 +1308,9 @@ Gesamtenergieeffizienz, direkte CO₂-Emissionen). Der **GEAK Plus** kommt mit e
 und bis zu fünf Sanierungsvarianten** dazu — und ist **Pflicht, sobald Du über CHF 10'000 Fördergeld aus
 dem Gebäudeprogramm beziehst**. Er ist **bis zu 10 Jahre gültig** und wird nur von **zertifizierten
 GEAK-Expert:innen** ausgestellt. Einen amtlichen Fixpreis gibt es nicht — **mehrere Offerten einholen**;
-in ZH und SZ zahlt der Kanton **CHF 1'000 (GEAK) / 1'500 (GEAK Plus)** dazu.
+**Marktrichtwerte** liegen bei **CHF 450–650 (GEAK EFH)**, **CHF 500–800 (GEAK MFH)** und **CHF 1'400–
+2'100 (GEAK Plus EFH)**; in ZH und SZ zahlt der Kanton **CHF 1'000 (GEAK) / 1'500 (GEAK Plus)** dazu —
+bei einem EFH-GEAK-Plus deckt die Förderung damit oft mehr als die Hälfte der Kosten.
 
 **Fachlich:** Das **Basisprodukt GEAK** ist die **offizielle Energieetikette der Kantone** und zeigt drei
 grafisch klassierte Achsen (A = beste … G = schlechteste):
@@ -1328,8 +1335,10 @@ GEAK Plus erstellen** — Fördergesuch immer **vor Baubeginn**.
 **Quelle:** Verein GEAK / EnDK — geak.ch (Was ist der GEAK / Produkt GEAK / FAQ / Weg zum GEAK), Stand
 2026; Reglemente 01.01.2026 → `[[geak-gebaeudeenergieausweis-kantone]]`. Förderbeiträge ZH/SZ →
 `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`; GEAK-Plus-Pflicht ab 10k →
-`[[gebaeudeprogramm-bund-hfm-2015]]`. ⚠ **Datenstand 2026-07-08:** GEAK-Kosten projektabhängig (kein
-Fixpreis); welche Kantone den GEAK bei Handänderung zwingend verlangen, ist kantonsweise zu prüfen.
+`[[gebaeudeprogramm-bund-hfm-2015]]`; Kosten-Marktrichtwerte → `[[geak-kosten-efh-mfh]]` (⚠ Sekundärquelle,
+nicht amtlich). ⚠ **Datenstand 2026-07-13:** GEAK-Kosten projektabhängig (kein amtlicher Fixpreis, nur
+Marktrichtwerte einer Quelle); welche Kantone den GEAK bei Handänderung zwingend verlangen, ist
+kantonsweise zu prüfen.
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
-last_updated: 2026-07-02
-sources: [260602_docs-baurecht-pbg-zh.md, "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 83-89 PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
+last_updated: 2026-07-13
+sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---
 
@@ -71,25 +71,81 @@ Bedarf/Erschliessung/Überbauung innert 15 J. + kein Kulturland-Zerstückeln + r
 gesicherte Verfügbarkeit (S. 163 f.).
 
 #### Sondernutzungsplanung — Gestaltungsplan (§§ 83–89 PBG)
-Der **Gestaltungsplan (GP, § 83 PBG)** ist das schärfste Verdichtungsinstrument: er darf von
-Ausnützung, Abständen und Höhen der Grundordnung **abweichen und ersetzt sie** (§ 83 Abs. 1
-PBG) — projektbezogene Sonderordnung gegen erhöhte gestalterische/öffentliche Mehrleistung
-(Bd 1, Kap. 2, S. 170 ff.). Preis: eine **zusätzliche Planungsstufe** vor dem Baugesuch.
-- **Öffentlicher GP** (§ 84 PBG): von der Gemeinde festgesetzt, setzt ein qualifiziertes
-  **öffentliches Interesse** voraus; **Gestaltungsplanpflicht** kann die BZO für bestimmte Zonen
-  vorschreiben (§ 48 Abs. 3 PBG; VB.2005.00046) — dann ist ein Baugesuch erst nach GP zulässig.
-- **Privater (allgemeinverbindlicher) GP** (§ 85 PBG): Grundeigentümer können ihn beantragen;
-  es genügt die Zustimmung von **zwei Dritteln der Fläche** (§ 85 Abs. 2 PBG) — **kein
-  Einstimmigkeitszwang**, auch für Änderungen reicht der Mehrheitsbeschluss.
-- **Zuständigkeit/Änderung** (§ 86 PBG): «exekutorischer» GP durch den Gemeindevorstand nur im
-  Rahmen der Grundordnung; eröffnet er weitergehende Möglichkeiten, braucht es die Legislative.
-  Änderung/Aufhebung nach dem Grundsatz der **«Parallelität der Formen»**.
-- **Aufhebung** (§§ 82/87 PBG): frühestens **5 Jahre** nach Inkrafttreten, wenn keine
-  wesentliche Bautätigkeit erfolgt ist; danach (bundesrechtlicher) Anspruch auf Anpassung bei
+Der **Gestaltungsplan (GP, § 83 PBG)** ist das schärfste Verdichtungsinstrument: mit ihm werden
+für bestimmt umgrenzte Gebiete Zahl, Lage, äussere Abmessungen sowie Nutzweise und
+Zweckbestimmung der Bauten **bindend festgelegt**; dabei darf von der Regelbauweise und von
+den **kantonalen Mindestabständen abgewichen werden** (§ 83 Abs. 1 PBG, verifiziert am
+amtlichen Volltext) — projektbezogene Sonderordnung gegen erhöhte gestalterische/öffentliche
+Mehrleistung (Bd 1, Kap. 2, S. 170 ff.). Für die Projektierung ist ein **angemessener
+Spielraum** zu belassen (§ 83 Abs. 2 PBG); der GP ordnet auch die Erschliessung sowie die
+gemeinschaftlichen Ausstattungen/Ausrüstungen, soweit nicht bereits durch Quartierplan geregelt,
+und kann Festlegungen zur weiteren Umgebungsgestaltung enthalten (§ 83 Abs. 3 PBG). In
+weitgehend überbauten Gebieten ohne Bedarf an umfassender Regelung kann sich der Inhalt auf
+einzelne Anordnungen beschränken (§ 83 Abs. 4 PBG). Preis: eine **zusätzliche Planungsstufe**
+vor dem Baugesuch.
+- **Öffentlicher GP** (§ 84 PBG): die Gemeinden können ihn festsetzen, wenn ein **wesentliches
+  öffentliches Interesse** daran besteht (§ 84 Abs. 1 PBG); **Gestaltungsplanpflicht** kann die
+  BZO für bestimmte Zonen vorschreiben (§ 48 Abs. 3 PBG; VB.2005.00046) — dann ist ein Baugesuch
+  erst nach GP zulässig. GP für Bauten/Anlagen aus dem kantonalen oder einem regionalen Richtplan
+  setzt die zuständige Direktion fest; die Gemeinden sind vorher über das Auflageergebnis zu
+  orientieren, auf Verlangen ist eine Einigungsverhandlung durchzuführen, berechtigten
+  Gemeinde-Begehren ist zu entsprechen, verbleibende Abweichungen sind zu begründen
+  (§ 84 Abs. 2 PBG). Zu unterscheiden vom **überkommunalen** GP nach § 44a PBG (siehe unten).
+- **Privater (allgemeinverbindlicher) GP** (§ 85 PBG): Grundeigentümer können ihn mit
+  öffentlich-rechtlicher Wirkung selbst aufstellen (§ 85 Abs. 1 PBG); er kann als
+  allgemeinverbindlich erklärt werden, wenn ihm die Grundeigentümer zustimmen, denen mindestens
+  **zwei Drittel der einbezogenen Flächen** gehören, und wenn keine schutzwürdigen Interessen der
+  übrigen Grundeigentümer verletzt werden (§ 85 Abs. 2 PBG) — **kein Einstimmigkeitszwang**, auch
+  für Änderungen reicht der Mehrheitsbeschluss.
+- **Zustimmung/Zuständigkeit** (§ 86 PBG): private Gestaltungspläne bedürfen der Zustimmung des
+  für den Erlass der BZO zuständigen Organs (i.d.R. Legislative); überschreiten sie den für
+  Arealüberbauungen im betreffenden Gebiet geltenden Rahmen **nicht**, genügt die Zustimmung des
+  Gemeindevorstands (§ 86 Satz 2 PBG) — «exekutorischer» GP nur innerhalb der Grundordnung, bei
+  weitergehenden Möglichkeiten braucht es die Legislative. Änderung/Aufhebung nach dem Grundsatz
+  der **«Parallelität der Formen»**.
+- **Aufhebung** (§ 87 PBG): Gestaltungspläne können in gleicher Weise wie Sonderbauvorschriften
+  aufgehoben werden (Verweis auf § 82 PBG: frühestens **5 Jahre** nach Inkrafttreten, wenn weder
+  eine wesentliche Bautätigkeit von den eingeräumten Möglichkeiten Gebrauch gemacht hat noch
+  entsprechende ernsthafte Bestrebungen nachgewiesen werden); diese Bestimmungen gelten **nicht**
+  für untergeordnete Änderungen (§ 87 PBG). Danach (bundesrechtlicher) Anspruch auf Anpassung bei
   wesentlich geänderten Verhältnissen (Art. 21 Abs. 2 RPG).
-- **Preisgünstiger Wohnraum** (§ 49b PBG, `speculative` — Fassung 2019 am Volltext/PWV prüfen):
-  ermächtigt Gemeinden, bei Auf-/Einzonungen einen Mindestanteil preisgünstiger Wohnungen
-  festzulegen (mit Grundbuch-Anmerkung zur dauerhaften Sicherung der Mietzinse).
+- **Vorprüfung, Festsetzung, Genehmigung — gemeinsame Bestimmungen** (§§ 87a–89 PBG): BZO,
+  Sonderbauvorschriften und Gestaltungspläne können **vor** ihrer Festsetzung der zuständigen
+  Direktion zur freiwilligen **Vorprüfung** eingereicht werden (§ 87a Abs. 1 PBG); diese erfolgt
+  innert **zwei Monaten**, bei notwendiger UVP innert **drei Monaten** (§ 87a Abs. 2 PBG). Die
+  **Festsetzung** von BZO, Sonderbauvorschriften und öffentlichen Gestaltungsplänen erfolgt je
+  nach Gemeindeordnung durch Gemeindeversammlung, Gemeindeparlament oder Urnenabstimmung
+  (§ 88 PBG). Zur **Genehmigung** sind BZO, Sonderbauvorschriften und Gestaltungspläne der
+  zuständigen Direktion einzureichen; diese ist bei der Genehmigung an den Vorprüfungsbericht
+  gebunden (§ 89 PBG).
+- **Überkommunaler Gestaltungsplan für Materialgewinnung/-ablagerung** (§ 44a PBG, systematisch
+  bei den Freihaltezonen, nicht bei §§ 83–89, aber verwandtes Institut): kantonale und regionale
+  Gestaltungspläne für Materialgewinnung und Materialablagerung (Kiesgruben, Steinbrüche,
+  Deponien) werden nach örtlichem/zeitlichem Bedarf für die im Richtplan dafür vorgesehenen
+  Flächen festgesetzt (§ 44a Abs. 1 PBG). Der GP legt im Rahmen eines Gesamtkonzepts die
+  beanspruchte Landfläche, Abbautiefe/Auffüllhöhe sowie den Abbau-/Deponievorgang samt
+  Etappierung fest (§ 44a Abs. 2 PBG) und muss auch Bauten/Anlagen, Wiederherstellung/
+  Neugestaltung, Bodenaufbau, Erschliessung/Transportwege sowie die für die UVP nötigen Angaben
+  enthalten (§ 44a Abs. 3 PBG); vor der Festsetzung sind die Gemeinden über das Auflageergebnis
+  zu orientieren, mit Einigungsverhandlung auf Verlangen (§ 44a Abs. 4 PBG). Für JANS-Praxis
+  ohne unmittelbare Relevanz (kein Wohn-/Verdichtungsinstrument), aber terminologisch vom
+  «gewöhnlichen» GP nach § 83 ff. PBG zu unterscheiden.
+- **Preisgünstiger Wohnraum** (§ 49b PBG, verifiziert am amtlichen Volltext, Stand 1.7.2026 —
+  Bestimmung in Kraft, `speculative`-Vermerk entfernt): Führen Zonenänderungen,
+  Sonderbauvorschriften **oder Gestaltungspläne** zu erhöhten Ausnützungsmöglichkeiten, kann für
+  ganze Zonen, gebietsweise oder für einzelne Geschosse, die ganz oder teilweise für Wohnzwecke
+  bestimmt sind, ein **Mindestanteil an preisgünstigem Wohnraum** festgelegt werden
+  (§ 49b Abs. 1 PBG) — die Bestimmung greift damit ausdrücklich auch beim Gestaltungsplan und
+  gehört systematisch zum Verdichtungsinstrumentarium dieses Abschnitts. Die höchstzulässigen
+  Mietzinse orientieren sich an Investitionskosten, laufenden Kosten, Erneuerungsrückstellungen,
+  Abschreibungen und einer angemessenen Rendite; die Mietzinse sind **dauerhaft zu sichern**
+  (Grundbuch-Anmerkung), der Regierungsrat regelt die Einzelheiten in der Verordnung
+  (§ 49b Abs. 2 PBG, ausführende PWV). Die Gemeinden erlassen ergänzend Bestimmungen zur
+  angemessenen Belegung der Wohnräume (§ 49b Abs. 3 PBG). Historisch: von den Stimmberechtigten
+  am 28.09.2014 angenommen, Inkrafttreten samt PWV im Verlauf 2019 (Buch-Destillat,
+  Bd 1, Kap. 2, S. 170 f.) — am amtlichen Volltext (Stand 1.7.2026) ist § 49b PBG als geltendes
+  Recht ohne Suspensions- oder Übergangsvermerk abgedruckt, der frühere Unsicherheitsvermerk zur
+  Fassung 2019 ist damit aufgelöst.
 
 #### Verfahren der Nutzungsplanung (Fristenkette)
 Buchbare Kette (Bd 1, Kap. 2, S. 188 ff.): **öffentliche Auflage 60 Tage** (Art. 4 Abs. 2 RPG /

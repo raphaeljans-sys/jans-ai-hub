@@ -10,7 +10,10 @@ paragraphen:
   - § 220 PBG (Ausnahmebewilligung)
   - § 2 BBV I (Sicherheit, anerkannte Regeln der Baukunde)
   - § 4 ABV (haustechnische Ausruestungen, Stand der Technik)
-  - §§ 295-298 PBG (Heizungsanlagen, standortgerechte Heizzentralen, Anschluss Fernwaerme)
+  - § 295 PBG (Heizungsanlagen, standortgerechte Heizzentralen, Anschluss Fernwaerme)
+  - § 296 PBG (Befoerderungsanlagen, zweckgerecht/fachgemaess)
+  - § 297 PBG (Nebenraeume in Wohnhaeusern)
+  - § 298 PBG (besondere Anforderungen Gebaeude > 6 anrechenbare Geschosse)
   - § 17 EnerG / EnerG (kantonales Energierecht)
   - § 15 BBV I / Anhang BBV I (Waermedaemmvorschriften)
   - § 47a BBV I (Hoechstanteil nicht erneuerbarer Energien)
@@ -22,7 +25,8 @@ paragraphen:
   - StFV / § 239 PBG (Stoerfallvorsorge)
 status: emerging
 gelesen: 2026-06-29
-last_updated: 2026-06-29
+last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 295-298 PBG, Refutations-Pruefung: alle CONFIRMED, Luecke §§ 296-298 geschlossen)
 ---
 
 # Kap. 17 — Gebaeude und Raeume; Ausruestungen (Teil 2: Ausruestungen)
@@ -143,6 +147,23 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
     (Projektierung/Dimensionierung); Bewilligung/Aufsicht AWEL (§ 36 KGSchV) (S. 1303).
   - **Nutzung Erdwaerme/Luft/Wasser § 10a EnerG:** Neubau so ausruesten, dass ≤ 80 % des
     Waermebedarfs aus nicht erneuerbaren Energien (Querverweis § 47a BBV I) (S. 1302).
+  - **Befoerderungsanlagen § 296 PBG (volltextverifiziert 13.07.2026, Modell D):** Aufzuege,
+    Rolltreppen und andere Befoerderungsanlagen fuer Personen und Waren muessen
+    zweckgerecht sein; sie sind fachgemaess zu erstellen, zu betreiben, zu unterhalten
+    und, wo die Sicherheit es verlangt, der technischen Entwicklung anzupassen (ein
+    einziger Absatz, keine Unterabsaetze). Konkretisiert durch § 31/§ 32/§ 33 BBV I
+    (technische Vorschriften, Bewilligungs-/Kontrollverfahren) — Details siehe
+    [[17-haustechnische-anlagen-teil3]] Abschnitt 17.9.5.
+  - **Nebenraeume in Wohnhaeusern § 297 PBG (volltextverifiziert 13.07.2026, Modell D):**
+    In Wohnhaeusern muessen ausreichende Nebenraeume, wie Trockenraeume und
+    Einstellgelegenheiten fuer Vorraete, Hausrat und dergleichen, geschaffen werden
+    (ein einziger Absatz).
+  - **Besondere Anforderungen bei Hochhaeusern § 298 PBG (volltextverifiziert 13.07.2026,
+    Modell D):** Fuer Gebaeude mit **mehr als sechs anrechenbaren Geschossen** kann der
+    Regierungsrat hinsichtlich der Sicherheit der Bewohner und ueber die Ausruestung
+    strengere Bestimmungen erlassen (ein einziger Absatz; Kann-Vorschrift/Delegations-
+    norm zugunsten des Regierungsrats, keine self-executing Schwellenregel im Gesetz
+    selbst).
 
 ## 3. Formeln & Schwellenwerte (woertlich aus dem Buch)
 
@@ -201,9 +222,15 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
   17.4-17.9. Die Garagen-/Abstellplatz-Regelung liegt in einem anderen Seitenbereich
   (vermutlich frueher in Kap. 17 oder bei den Abstellplaetzen/Erschliessung). **Noch offen,
   in spaeterem Shot-Bereich zu suchen.**
-- **§§ 296-298 PBG im Wortlaut:** Das Buch behandelt § 295 PBG ausfuehrlich; §§ 296-298
+- ~~**§§ 296-298 PBG im Wortlaut:** Das Buch behandelt § 295 PBG ausfuehrlich; §§ 296-298
   (Lueftung/Klima/Elektro im engeren Sinn) sind in diesem Bereich nur gestreift — genauer
-  Inhalt noch zu belegen.
+  Inhalt noch zu belegen.~~ → **geschlossen 13.07.2026 (Modell-D-Volltextabgleich):**
+  vollstaendiger amtlicher Wortlaut §§ 296-298 PBG (raw/260607_amtlich_zh_pbg.md,
+  Z. 3042-3057) oben unter «17.9 Haustechnische Anlagen» ergaenzt. § 296 = Befoerderungsanlagen
+  (zweckgerecht/fachgemaess), § 297 = ausreichende Nebenraeume in Wohnhaeusern, § 298 =
+  Delegationsnorm an den Regierungsrat fuer Gebaeude **> 6 anrechenbare Geschosse**. Alle
+  drei CONFIRMED gegen den amtlichen Text, keine inhaltlichen Fehler im bisherigen Destillat
+  gefunden (die Luecke war reine Unvollstaendigkeit, kein Fehlzitat).
 - **Klima-/Lueftungs- und Elektroanlagen** als eigene Ausruestungs-Unterkapitel: hier nur
   ueber § 4 ABV (Stand der Technik) und den Vollzugsordner Energie abgedeckt; ob das Buch
   ihnen eigene Unterabschnitte widmet, ist im erfassten Bereich nicht ersichtlich.

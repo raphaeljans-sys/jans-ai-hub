@@ -1,7 +1,7 @@
 ---
 title: Fenster & Verglasung — Uw/Ug/Uf, g-Wert, Dreifachglas
 status: established
-last_updated: 2026-07-08
+last_updated: 2026-07-13
 sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md]
 links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[sommerlicher-waermeschutz]] [[minergie-standards]] [[fenster-energieetikette-fea-bfe]] [[BAUHERREN-FAQ]]
 ---
@@ -83,20 +83,28 @@ Schallschutz**.
 
 ## Fenster-Energieetikette (FEA) — der U-Wert reicht nicht
 
-Die freiwillige **Energieetikette für Fenster** des BFE bewertet ein Fenster nicht über den U-Wert
-allein, sondern über die **Winter-Energiebilanz**: **Transmissionsverlust minus nutzbarer solarer
-Gewinn**, ausgedrückt als **energieäquivalenter U-Wert Uw,eq** an einem Referenzfenster von
-**1,55 m × 1,15 m**. **Klasse A** heisst: die solaren Gewinne über die Heizperiode sind **grösser als
-die Verluste** (das Fenster ist übers Jahr energetisch positiv). Genau der g-Wert-Zielkonflikt (oben)
-wird so in einer A–G-Zahl sichtbar — ein sehr tiefer Ug mit tiefem g-Wert kann im Winter Gewinne
-verschenken. Die FEA ist **freiwillig** und ersetzt **nicht** die verbindliche Uw-Anforderung
-(ZH/Minergie ≤ 1,0). Detail → `[[fenster-energieetikette-fea-bfe]]`.
+Die freiwillige **Energieetikette für Fenster** (FFF/SZFF/EnergieSchweiz) bewertet ein Fenster nicht
+über den U-Wert allein, sondern über die **Winter-Energiebilanz**: **Transmissionsverlust minus
+nutzbarer solarer Gewinn**, ausgedrückt als **energieäquivalenter U-Wert Uw,eq** an einem Referenzfenster
+von **1,55 m × 1,15 m**. Sieben Klassen, exakt (primärquellenbelegt, Faktenblatt S. 2):
+
+| Klasse | Uw,eq [W/(m²·K)] | Klasse | Uw,eq [W/(m²·K)] |
+|---|---|---|---|
+| A | < 0 (Energiegewinn) | E | ≥ 0,3 bis < 0,4 |
+| B | ≥ 0 bis < 0,1 | F | ≥ 0,4 bis < 0,8 |
+| C | ≥ 0,1 bis < 0,2 | G | ≥ 0,8 |
+| D | ≥ 0,2 bis < 0,3 | | |
+
+**Musterbeispiel aus dem Faktenblatt:** ein Fenster mit Uw 1,1 (nicht extrem tief), Ug 0,6, Uf 1,1,
+g-Wert 60 % und ψg 0,03 erreicht bereits **Uw,eq = −0,08 → Klasse A** — der Beleg, dass ein hoher
+g-Wert die Bestklasse auch ohne Rekord-Uw erreichbar macht. Genau der g-Wert-Zielkonflikt (oben) wird
+so in einer A–G-Zahl sichtbar. Die FEA ist **freiwillig** und ersetzt **nicht** die verbindliche
+Uw-Anforderung (ZH/Minergie ≤ 1,0). Detail inkl. Formel → `[[fenster-energieetikette-fea-bfe]]`.
 
 ## Offen
 - Numerische **g-Werte** je Verglasungstyp und **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblätter;
   DE-Blog-Tabellen nicht übernehmen).
-- **Exakte Klassengrenzen A–G** der Fenster-Energieetikette (Uw,eq-Schwellen) — BFE-Faktenblatt 7731
-  bildbasiert, separater seitengenauer Lauf nötig.
+- Konstanten c1/c2 der Uw,eq-Formel (nur auf Einzelzertifikat, nicht im Faktenblatt beziffert).
 
 ---
 Status: `speculative` → `emerging` → **`established`**.

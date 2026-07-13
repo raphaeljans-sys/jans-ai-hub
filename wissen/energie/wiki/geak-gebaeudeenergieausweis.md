@@ -1,8 +1,8 @@
 ---
 title: GEAK — Gebäudeenergieausweis der Kantone
 status: established
-last_updated: 2026-07-12
-sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/geak-klassengrenzen-relative-klassierung.md]
+last_updated: 2026-07-13
+sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/geak-kosten-efh-mfh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[foerderung-energie-zh]], [[foerderung-energie-sz]], [[gebaeudeprogramm-bund-hfm-2015]], [[fenster-energieetikette-fea-bfe]]
 ---
 
@@ -30,8 +30,10 @@ Das **Basisprodukt GEAK** zeigt drei grafisch klassierte Achsen (A = beste … G
 - **Gültigkeit: bis 10 Jahre**, erfasst in einer **zentralen Datenbank**.
 - Ausstellung **nur durch zertifizierte GEAK-Expert:innen**, über **Gebäudebegehung** + Datenaufnahme
   (geak.ch: neunstufiger Weg vom Handlungsbedarf bis zur Umsetzung).
-- **Kosten: kein amtlicher Fixpreis** — projektabhängig, mehrere Offerten einholen (hier bewusst **keine
-  Zahl**).
+- **Kosten: kein amtlicher Fixpreis** — projektabhängig, mehrere Offerten einholen. **Marktrichtwerte**
+  (Sekundärquelle, nicht amtlich): GEAK EFH CHF 450–650, GEAK MFH CHF 500–800, **GEAK Plus EFH
+  CHF 1'400–2'100** (MFH grössenabhängig, keine feste Spanne publiziert); dazu amtliche
+  Zertifizierungsgebühren CHF 80 (GEAK) / CHF 190 (GEAK Plus) → `[[geak-kosten-efh-mfh]]`.
 
 ## Bezug zur Förderung
 - **GEAK Plus obligatorisch ab CHF 10'000 Förderbeitrag** aus dem Gebäudeprogramm
@@ -59,8 +61,10 @@ den relativen Achsen verwechseln. Quelle: «Normierung des GEAK» v2.1.0, EnDK, 
 40/41 → `[[geak-klassengrenzen-relative-klassierung]]`; adversarial am Original-PDF bestätigt.
 
 ## Offen
-- Konkrete **CHF-Kostenspanne** GEAK/GEAK Plus (EFH↔MFH) — nicht amtlich publiziert (nur reale Offerten).
+- **MFH-GEAK-Plus-Preisspanne konkret** (Marktquelle nennt nur «grössenabhängig», keine Zahl); zweite
+  unabhängige Quelle zur Triangulierung der EFH-Richtwerte.
 - Liste der Kantone mit **GEAK-Pflicht bei Handänderung**.
 
 **Quelle:** `[[geak-gebaeudeenergieausweis-kantone]]` (geak.ch / EnDK, Stand 2026, Reglemente 01.01.2026),
-`[[geak-klassengrenzen-relative-klassierung]]` (EnDK-Normierungsdokument, 30.3.2023).
+`[[geak-klassengrenzen-relative-klassierung]]` (EnDK-Normierungsdokument, 30.3.2023),
+`[[geak-kosten-efh-mfh]]` (immoverkauf24.ch, Marktrichtwerte, emerging).

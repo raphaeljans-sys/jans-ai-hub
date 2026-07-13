@@ -2,6 +2,31 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 39 (2026-04-03 bis 2026-04-09)
+- Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Cowork-Connector
+  `outlook_email_search` + `read_resource` (diese Session verfuegbar). Fenster 2026-04-03 bis
+  2026-04-09, 40 Mails gesichtet, 5 Volltexte gelesen (KISPI-Projektstart: Fachplaner-Arbeitsordner,
+  Akonto-Zahlungserinnerung an Bauherr, Submissionsvorbereitung BKP 274.01/258.06 an Anbieter
+  Jegen/Alig, Website-Rebuild Hleb englisch). Metrik 367 W, Du-Gross 1.0, Satzlaenge ø 17.5 W, FG 3×.
+- **Echo-Falle, 13. Beleg:** gebulletes englisches Hleb-«FINALISIERUNG WEBSEITE»-CORRECTION-Brief
+  (04.04., roem. I.–IV. + A–P-Lettering, Aptos) = `claude-aera`-aequivalent, von der Stilquelle
+  ausgeschlossen; nur der handgetippte Kontroll-/Chase-Rahmen gewertet.
+- Neue Marker: (1) `stimme.md` — blunt-handgetippter englischer Kontroll-/Chase-Ton gegenueber dem
+  Web-Dienstleister («confirm you understand before I answer» / «Please answer my question!») + Metrik;
+  (2) `beziehungsregister.md` — «Liebes Fachplanerteam»/«Euch» Kollektiv-Du an gemischtes Fachplaner-
+  Team; Akonto-Erinnerung an Bauherr bleibt warmes «Geschaetzter Albin»-Du (praezisiert «Geld kuehlt
+  Peer-Du» = nur punktuelle Rechnung an Sozial-Peer, nicht Akonto im laufenden Mandat); Mappings
+  Bajrami/Alig/Eren/Steiger; (3) `fachsignatur.md` — Submissions-Betreff BKP-Los-Struktur (BKP 274.01
+  Innere Verglasungen, LOS Sued) + Brandschutz-Tuerertuechtigung EI00→EI30 tuerscharf mit ID-Nummern +
+  Phase 33 Baubewilligung/Eroeffnungstermin als Dringlichkeitsanker; (4) `arbeitsweise.md` —
+  Arbeitsordner-Ablagedisziplin mit Begriffsdefinition (nicht-fixe Plaene), Zahlungs→Leistungs-Junktim
+  («Baueingabe erst nach Begleichung»), Submissions-Anfrage-Sequenz telefonisch→Grundlagen→
+  Besichtigung→Fragenkatalog _A)/_B).
+- Frontmatter der 4 Facetten: `last_updated` 2026-07-13, Quellen-Tag `260713-mailbatch-39.md` ergaenzt.
+- `_INGESTED.md`: Batch-39-Zeile + Sweep-Range auf 2026-04-09 gehoben. Batch-38-Eintrag war zwischen-
+  zeitlich von einem Parallel-Lauf (Multi-Station) ergaenzt worden; Batch 39 schliesst lueckenlos an,
+  additive Marker, keine Kollision.
+
 ## 2026-07-13 — twin-mail-training Batch 38 (2026-03-30 bis 2026-04-03)
 - Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Apple Mail
   (Bundle-ID `com.apple.mail`, "Gesendete Elemente"; M365-MCP wie in Batch 36/37 nicht verfuegbar,

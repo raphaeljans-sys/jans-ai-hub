@@ -2,6 +2,26 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 43: Fenster-Energieetikette-Klassengrenzen + GEAK-Kosten belegt (F35/F36 geschärft)
+- **PDF-Inventar bleibt erschöpft** (seit Run 41 vollständig `[x]`/`[-]`) — kein neues Rohmaterial in
+  `PL - 04 Energie`. Statt PDF-Transfer wurden zwei konkrete, in Run 42 benannte Web-Vertiefungspunkte
+  bearbeitet.
+- **1 Destillat aktualisiert, auf `established` gehoben:** `fenster-energieetikette-fea-bfe` — das
+  BFE/EnergieSchweiz-Faktenblatt (pubdb 7731) liess sich diesmal vollständig als Text lesen (vorheriger
+  Zugriff 2026-07-08 war bildbasiert). Damit primärquellenbelegt: **exakte Uw,eq-Klassengrenzen A–G**
+  (A < 0, B 0–0,1, C 0,1–0,2, D 0,2–0,3, E 0,3–0,4, F 0,4–0,8, G ≥ 0,8 W/(m²·K)), die Bilanzformel
+  (Uw,eq = [Hw − Hs]/Aw) und ein Musterbeispiel (Uw 1,1/Ug 0,6/g 60 %/ψg 0,03 → Uw,eq −0,08 → Klasse A).
+- **1 Destillat neu:** `geak-kosten-efh-mfh` (Sekundärquelle immoverkauf24.ch, emerging — geak.ch/EnDK
+  publiziert bewusst keine Preise): GEAK EFH CHF 450–650, GEAK MFH CHF 500–800, GEAK Plus EFH
+  CHF 1'400–2'100, Zertifizierungsgebühren CHF 80/190.
+- **FAQ F35 + F36 geschärft** (kein neues F-Nummer, bestehende Antworten ergänzt); Themenartikel
+  `fenster-verglasung.md` und `geak-gebaeudeenergieausweis.md` mit den neuen Zahlen aktualisiert;
+  `wiki/QUESTIONS.md` (E3, E16) und `destillate/INDEX.md` nachgeführt.
+- **Ehrlich offen:** GEAK-Kosten stützen sich auf nur eine kommerzielle Sekundärquelle (Status bleibt
+  emerging); numerische g-Werte/Uf je Material bleiben unbelegt (Faktenblatt liefert nur ein
+  Musterbeispiel, keine Materialtabelle).
+- Report: `outputs/2026-07-13_energie-run43.md`.
+
 ## 2026-07-13 — Run 42: SIA 380/1:2016 gegenüber 2009 — Kernänderungen belegt (F60 neu)
 - **1 neues Destillat:** `sia-380-1-2016-aenderungen-gegenueber-2009` (Web-Sekundärquellen:
   SIA-Shop-Produktmetadaten + espazium.ch-Fachartikel Mennel/Friedli, 23.03.2017). Status

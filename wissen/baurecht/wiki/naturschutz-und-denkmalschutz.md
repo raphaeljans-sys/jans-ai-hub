@@ -33,7 +33,8 @@ unter **Interessenabwägung** und **Verhältnismässigkeit**. Buchsynthese:
   zeitlicher Abstand für Denkmaleigenschaft.
 - **Einzelbaum** nur schutzwürdig, wenn er einen dominierenden Akzent setzt und das Quartier-/
   Strassenbild wesentlich mitprägt (BEZ 2006 Nr. 29); sonst **planerischer Baumschutz § 76 PBG** oder
-  **Umgebungsschutz § 238 Abs. 3 PBG**.
+  **Umgebungsschutz § 238a PBG** (bis 30.11.2024: § 238 Abs. 3 PBG, seither aufgehoben und in
+  § 238a PBG «Begrünung im Besonderen» übergeführt, G vom 8.4.2024, in Kraft seit 1.12.2024).
 - Geschützt ist nur «**Gebautes**» / materielle Kulturgüter — **Gebäudenutzungen sind nicht schützbar**
   (Kino Razzia BGer 1P.660/1991; Manor BEZ 2016 Nrn. 26/30). ZH schützt **keine beweglichen Kulturgüter**.
 

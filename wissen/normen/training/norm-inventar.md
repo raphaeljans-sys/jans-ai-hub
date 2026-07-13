@@ -22,11 +22,11 @@
 | [x] 260713 | P2 | `100_2004_df.pdf` | 100 | 2004 |  Reconcile 260713: sia-100-2004.md  |
 | [x] 260713 | P2 | `104_2003_d.pdf` | 104 | 2003 |  Reconcile 260713: sia-104-2003.md (Status draft, ggf. Vertiefung noetig)  |
 | [x] 260713 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); Reconcile 260713: sia-108-2014.md |
-| [ ] | P2 | `108_2003_d.pdf` | 108 | 2003 | — ersetzt durch 2014 |
+| — | — | `108_2003_d.pdf` | 108 | 2003 | ersetzt durch 108:2014 (destilliert sia-108-2014.md); Altausgabe uebersprungen |
 | [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (Status draft, ggf. Vertiefung noetig)  |
 | [ ] | P2 | `121_2003_d.pdf` | 121 | 2003 |  |
 | [ ] | P2 | `125_2017.pdf` | 125 | 2017 |  |
-| [ ] | P2 | `142_1998_d.pdf` | 142 | 1998 | — ersetzt durch 2009 |
+| — | — | `142_1998_d.pdf` | 142 | 1998 | ersetzt durch 142:2009 (destilliert sia-142-2009.md); Altausgabe uebersprungen |
 | [x] 260712 | P2 | `142_2009.pdf` | 142 | 2009 | gilt (jüngste im Bestand)  bereits destilliert (sia-142-2009.md), Inventar nachgezogen |
 | [x] 260712 | P2 | `143_2009.pdf` | 143 | 2009 |   bereits destilliert (sia-143-2009.md), Inventar nachgezogen |
 | [ ] | P2 | `144_2013.pdf` | 144 | 2013 |  |
@@ -75,13 +75,13 @@
 | [ ] | P2 | `270_1992_d.pdf` | 270 | 1992 |  |
 | [x] 260712 | P2 | `271_2007 Abdichtung von Hochbauten .pdf` | 271 | 2007 |  |
 | [ ] | P2 | `272_1980_d.pdf` | 272 | 1980 |  |
-| [ ] | P2 | `273_1989 Abdichtungen von befahrbaren Flächen im Hochbau.pdf` | 273 | 1989 |  |
+| — | — | `273_1989 Abdichtungen von befahrbaren Flächen im Hochbau.pdf` | 273 | 1989 | ersetzt durch 273:1998 (Bestand, destilliert 260713 Run 7); Altausgabe uebersprungen |
 | [ ] | P2 | `273_1998_d.pdf` | 273 | 1998 | jüngste im Bestand; 2013-gültig wäre 273:2008 (nicht im Bestand); 273_1989 ersetzt |
 | [x] 260712 | P2 | `279_2018.pdf` | 279 | 2018 |  |
 | [x] 260712 | P2 | `281_2017.pdf` | 281 | 2017 |  |
 | [ ] | P2 | `312_2013.pdf` | 312 | 2013 |  |
 | [ ] | P2 | `318_1988_d.pdf` | 318 | 1988 |  |
-| [ ] | P2 | `329_1989_d.pdf` | 329 | 1989 | — ersetzt durch 2018 |
+| — | — | `329_1989_d.pdf` | 329 | 1989 | ersetzt durch 329:2018 (destilliert sia-329-2018.md); Altausgabe uebersprungen |
 | [x] 260712 | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
 | [ ] | P2 | `331_1988_d.pdf` | 331 | 1988 |  |
 | [ ] | P2 | `342_1988_d.pdf` | 342 | 1988 |  |
@@ -91,7 +91,7 @@
 | [ ] | P2 | `370.028_2003_d.pdf` | 370 | 2003 |  |
 | [ ] | P2 | `370.080_2003_d.pdf` | 370 | 2003 |  |
 | [ ] | P2 | `382 1-2014.pdf` | 382 | 2014 |  |
-| [ ] | P2 | `384.201_2003_d.pdf` | 384 | 2003 | — ersetzt durch 2017 |
+| — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
 | [ ] | P2 | `384.201_2017.pdf` | 384 | 2017 | gilt (jüngste im Bestand) |
 | [x] 260712 | P2 | `400_2000_d.pdf` | 400 | 2000 | destilliert (sia-400-2000.md), Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [ ] | P2 | `405_1998_d.pdf` | 405 | 1998 |  |
