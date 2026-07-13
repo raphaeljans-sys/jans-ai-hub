@@ -1,3 +1,32 @@
+## 2026-07-13 — Mac Mini Run 13: din-1946-6 adversarial retro-verifiziert, Tabelle-D.4-Unstimmigkeit geklärt (Deepening-Stufe b)
+- Erster Lauf der Deepening-Stufe (b) Retro-Verifikation gemäss `training/PROGRAMM.md`,
+  nachdem das DIN/VSS/RAL-Basisinventar seit Run 5/12 vollständig ist.
+- **Tabelle-D.4-Unstimmigkeit geklärt** (offener Punkt aus Run 12): Volltextabgleich
+  S. 89-92 direkt am Original (DIN 1946-6.pdf) zeigt EINEN informativen Anhang D
+  (nicht wie vom Destillat fälschlich angenommen zwei getrennte Anhänge D
+  informativ/normativ) mit einer einzigen, über den Seitenumbruch 90/91 fortgesetzten
+  Tabelle D.4 (Nr. 1-15). Destillat- und Fundstellenstruktur korrigiert.
+- **Adversariale Retro-Verifikation din-1946-6-2009 (125 S., grösstes DIN-Destillat,
+  Healthcare-RLT-relevant):** 4 unabhängige Prüf-Agenten haben das komplette Destillat
+  gegen das Original geprüft (ca. 100 Einzelaussagen: Ziffern, Formeln, Tabellenwerte,
+  Fundstellen). Ergebnis: 14 Fehler/Lücken gefunden und korrigiert, u.a. „Geltungsbereich"
+  → „Anwendungsbereich" (Ziff. 1), unbelegter Klammerzusatz bei Ziff. 3.1.25 entfernt,
+  Tabelle 10 (Differenzdruck) unvollständige Werte ergänzt, „Zweitnutzung"→„Zweifachnutzung"
+  (Ziff. 5.3.2) korrigiert, zwei verschmolzene Windhindernis-Regeln (Ziff. 7.2.5) getrennt,
+  fehlende Bedingungseinschränkung bei der 10-%-Regel (Ziff. 11.2.2.2, gilt nur bei
+  vereinbarter „E"-Kennzeichnung) ergänzt, Anhang-B-NE-Verweis präzisiert, Anhang-E-Fundstelle
+  E.2.1→E.2.1.2 korrigiert, ein Original-interner Widerspruch bei den Winddaten Anhang H
+  (Bild-H.1- vs. Tabelle-H.1-Legende) transparent gemacht statt stillschweigend übernommen,
+  fehlende Formel Gl. I.2 + Fussnote (Halbierung bei nur einer windexponierten Fassade) +
+  Abschirmungsklassen S. 118 in Anhang I ergänzt, Literaturliste „über 30"→„rund 50" korrigiert.
+  Rest (ca. 86 Aussagen) bestätigt korrekt — insbesondere alle Zahlenwerte in den
+  Kernziffern-Tabellen 5-10, den Komponentenauslegungs-Tabellen 11-19 und dem
+  Gleichwertigkeitsnachweis Anhang G (Gleichung G.1/G.5, Rechenbeispiel) exakt bestätigt.
+- Status `din-1946-6-2009.md` bleibt `established`, jetzt mit abgeschlossener
+  Retro-Verifikation. Offen bleiben: SIA-382/1-Methodenvergleich (eigene Recherche nötig),
+  Anhang-H-Seitenumfang über S. 110 hinaus.
+- Report: `outputs/2026-07-13_normen-mini-run13.md`.
+
 ## 2026-07-13 — Mac Mini Run 12: din-4102-1 + din-1946-6 zu vollständigen Destillaten ausgebaut, DIN/VSS/RAL-Basisinventar komplett established
 - Statuscheck der Frontmatter aller DIN/VSS/RAL-Destillate zeigte 2 aktionable Lese-Lücken
   trotz komplett abgehaktem Basisinventar: `din-4102-1-1998.md` (Anhang B, S.21-25 offen)

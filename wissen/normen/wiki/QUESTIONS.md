@@ -266,5 +266,6 @@
 - [ ] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich** weiterhin offen (Schweizer
   Lüftungsauslegung über Aussenluft-Volumenstrom/Person/Fläche + Lüftungseffizienz vs.
   deutsches 4-Stufen-Modell) — eigene Recherche in SIA 382/1 nötig.
-- [ ] **Retro-Verifikation für din-1946-6-2009 (jetzt vollständig, 125 S.)** steht noch aus —
-  wegen Healthcare-Relevanz (RLT-Norm) im nächsten Verifikationslauf priorisieren.
+- [x] **Retro-Verifikation für din-1946-6-2009 (125 S.)** — erledigt Mini-Run 13 (260713):
+  4 unabhängige Prüf-Agenten, ca. 100 Aussagen geprüft, 14 Fehler/Lücken gefunden und im
+  Destillat korrigiert (siehe destillate/din-1946-6-2009.md, Abschnitt „Offene Punkte").
