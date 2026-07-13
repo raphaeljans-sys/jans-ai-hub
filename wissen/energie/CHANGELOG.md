@@ -2,6 +2,38 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Vertiefung Strohdämmung (Bemessungswert/Brandschutz/Feuchte)
+- **Neues Destillat `destillate/strohdaemmung-bemessungswert-brandschutz.md`:** vertieft den in
+  `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]` und `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`
+  offen gelassenen Punkt «Stroh eigene belegte Quelle» (Bemessungswert, VKF, Feuchte).
+- **λ-Bemessungswert:** 0,049 W/(m·K) allgemein (FASBA/ETA-17/0247), richtungsabhängig 0,052 W/(m·K)
+  quer zur Halmrichtung (Standard-Einbau) vs. 0,080 W/(m·K) in Halmrichtung (BauNetz Wissen,
+  Sekundärzitat) — Diskrepanz als offener Punkt vermerkt.
+- **Brandschutz:** Grundlage ist die deutsche abZ Z-23.11-1595 (DIBt 2014) + ETA-17/0247, Feuerwiderstand
+  30/90 Minuten verputzt via AbP MPA Braunschweig nach DIN 4102. **Kein CH-VKF-Registereintrag für
+  Stroh/Baustroh auffindbar** (bsronline.ch Registersuche geprüft) — ehrlich als offene CH-Lücke
+  dokumentiert, nicht erfunden; nächster Schritt wäre eine direkte Anfrage bei der VKF.
+- **Feuchte:** µ ≈ 2, Grenzfeuchte ≤ 15 % beim Einbau (Sekundärquelle, nicht im Original verifiziert),
+  Nachweis über WUFI-Bio statt Glaser-Verfahren (DIN 4108), Bauzeit-Schutz vor Schlagregen als
+  Hauptrisiko statt Dauerzustand-Risiko.
+- Alle Werte klar als **DE/EU-Herkunft** gekennzeichnet (Echo-Schutz) — status `emerging`, da keine
+  CH-Primärquelle für die zentrale VKF-Frage. `wiki/naturdaemmstoffe.md` verlinkt und ergänzt.
+
+## 2026-07-13 — Run 48: MuKEn-2025-Modul-G-Grenzwerte gefunden (Lauf 47 hatte Negativbefund gemeldet)
+- **Neues Destillat `[[muken-2025-modul-g-co2-grenzwerte]]`:** Auf gezielte Nachfrage (Lauf 48)
+  wurde der MuKEn-2025-Volltext (Art. 1.39, Basismodul Teil G) über einen alternativen Web-Fetch-
+  Reader (statt direkter WebFetch, der bei binären PDF-Inhalten zuvor scheiterte) doch erschlossen:
+  **Basisgrenzwerte GW_EBF 12,4-19,9 kg CO₂-eq/m²EBF·a** je nach Gebäudekategorie (I Wohnen MFH
+  12,4 ... VIII Spitäler 19,9), **GW_(GF-EBF) 5,5 kg CO₂-eq/m²·a** für unbeheizte Flächen (alle
+  Kategorien gleich), plus Zuschläge Erdsonde (+0,3), PV (+7,1/m² Panelfläche), Solarthermie
+  (+5,6 kg CO₂-eq/m² Kollektorfläche). Zweimal unabhängig abgefragt, identische Werte; Google-
+  Suchindex bestätigt 12,4 kg unabhängig. Status bewusst `emerging` (Web-Fetch-Extraktion statt
+  direktem PDF-Lesen) — nächster Schritt: lokale Textextraktion des Original-PDF zur Hebung auf
+  `established`.
+- **`[[muken-2025-verabschiedet]]` ergänzt** um Verweis auf das neue Detail-Destillat.
+- Output: kein separater `outputs/`-Report (Direktauftrag ohne KB-weite Frage), Ergebnis lebt
+  direkt im neuen Destillat.
+
 ## 2026-07-13 — Run 47: GEAK-Handänderungspflicht (4 Kantone) + Batteriespeicher-Amortisation (Marktangabe) ergänzt; 3 Negativbefunde dokumentiert
 - **PDF-Inventar weiterhin vollständig abgearbeitet** (siehe Run 46) — Block 1 (Transfer) läuft
   daher wie in den letzten Läufen auf Web-Themen aus dem Curriculum-Backlog.

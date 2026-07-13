@@ -2,7 +2,7 @@
 title: Naturdämmstoffe — ökologisch dämmen, Sommerhitze puffern
 status: established
 last_updated: 2026-07-06
-sources: [destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/sia-2001-waermedaemmstoffe-lambda.md]
+sources: [destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/strohdaemmung-bemessungswert-brandschutz.md]
 links: [[INDEX]] [[daemmstoffe-lambda]] [[sommerlicher-waermeschutz]] [[graue-energie]] [[BAUHERREN-FAQ]]
 ---
 
@@ -28,6 +28,10 @@ Schafwolle, Stroh, Kork**. Sie sind die Antwort auf drei gleichzeitige Bauherren
   **Bekleidung/Verputz**. Verbindlich ist die **VKF-Produktanerkennung** je Aufbau → Skill `brandschutz`.
 - **Stroh verputzt** (Lehm/Kalk) erreicht als Wand einen hohen Feuerwiderstand (**bis 90 min**,
   gesundes-haus.ch) — für EFH ausreichend.
+- **Stroh im Detail (produktspezifisch):** λ-Bemessungswert 0,049–0,052 W/(m·K) (DE/EU-Zulassung
+  ETA-17/0247, richtungsabhängig quer/in Halmrichtung), µ ≈ 2, Feuerwiderstand 30/90 min verputzt
+  (DE-Prüfzeugnis AbP MPA Braunschweig) — **kein eigener CH-VKF-Registereintrag auffindbar**, Einzelfall-
+  Nachweis mit Feuerpolizei klären → `[[strohdaemmung-bemessungswert-brandschutz]]`.
 
 ## Materialwahl (Kurz)
 | Einbauort/Ziel | Empfehlung |
