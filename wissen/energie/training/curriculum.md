@@ -345,3 +345,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`, FAQ F39 geschärft. Status bleibt `emerging`.
   Schliesst D12-Offenpunkt «SIA 2060 kostenpflichtig» orientierend (Primärquelle jetzt gelesen, echte
   Zweitquelle bleibt offen).
+
+- **D23 (Run 49, 2026-07-13)** — Zwei explizite Recherche-Sackgassen aus dem Run-48-Prioritätenblock
+  geprüft und ehrlich als Sackgasse dokumentiert (kein neuer Fund, aber verhindert Doppel-Recherche):
+  Empa-Projekt «DemoUpCARMA» betrifft Beton-Carbonatisierung, nicht Sanieren-vs-Neubau; Uni-Bern-
+  Foliensatz «Sanierung oder Ersatzneubau?» (Lenel) ist bildbasiert ohne Zahlentext;
+  `sia2060online.ch` per WebFetch bestätigt als reines interaktives JS-Tool (Werkzeug-Grenze wie
+  Kantonsrat ZH E31). Kein Curriculum-Punkt geschlossen, aber Backlog bereinigt →
+  `[[graue-energie-sanieren-vs-neubau-amortisation]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`, QUESTIONS E36.

@@ -383,6 +383,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   interaktiven Browser-Zugriff oder eine strukturierte API). Inkrafttretensdatum, ob eine separate
   volle-MuKEn-2025-Vorlage noch folgt.
 
+- [x] **E36** **Zwei Recherche-Sackgassen geschlossen (Run 49, 2026-07-13):** (1) Empa-Projekt
+  «DemoUpCARMA» behandelt Carbonatisierung von Recyclingbeton (negative Emissionen), NICHT den
+  Sanieren-vs-Neubau-Kipppunkt — Lead aus E33 als irrelevant verworfen. (2) Foliensatz «Sanierung
+  oder Ersatzneubau?» (Lenel, Uni Bern) ist reines Bildmaterial ohne extrahierbaren Zahlentext.
+  (3) `sia2060online.ch` bestätigt als rein interaktives JS-Tool ohne per WebFetch auslesbare
+  Beispielrechnung — dieselbe Werkzeug-Grenze wie beim Kantonsrat ZH (E31). Kein neuer Fund, aber
+  verhindert, dass künftige Läufe dieselben drei Sackgassen erneut abklappern →
+  `[[graue-energie-sanieren-vs-neubau-amortisation]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F59

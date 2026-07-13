@@ -5,7 +5,7 @@ ausgabe: Studie 1 Stand Juni 2020 (Bearbeitungszeitraum November 2019 bis Juni 2
 gelesen: Studie 1 vollstaendig als PDF via WebFetch + lokaler pdftotext-Volltextsuche (2026-07-13); Blog 2 vollstaendig via WebFetch (2026-07-13); INFRAS-Seite und espazium-Artikel vollstaendig via WebFetch (2026-07-13, jeweils keine verwertbare Jahreszahl zur Kernfrage)
 datenstand: 2026-07-13. Studie 1 rechnet mit einer fiktiven Beispielliegenschaft (zweistoeckiges MFH, Agglomeration) und ist gemaess eigenem Vorbehalt NICHT 1:1 auf den gesamten Gebaeudebestand uebertragbar
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-13 (Run 49: Empa-DemoUpCARMA + Uni-Bern-Foliensatz geprüft, beide ohne verwertbare Zahl)
 ---
 
 # Destillat — Amortisationsschwelle Sanieren vs. Ersatzneubau (graue Energie/CO2)
@@ -141,6 +141,14 @@ Erweiterung) lohnt:
   Empa-Berichten mit «Break-even-Punkt» oder «Kipppunkt» Sanierung/Ersatzneubau suchen, sowie
   nach der aktualisierten SIA-390/1-Vernehmlassung (Klimapfad), die laut
   `[[kbob-graue-treibhausgasemissionen-2025]]` konkrete Zielwerte inkl. Betrieb setzt.
+- **Empa-Lead geprüft und verworfen (2026-07-13, Run 49):** Das naheliegend klingende Empa-Projekt
+  «DemoUpCARMA» (ETH-geführt, mit Empa/Eawag/PSI) behandelt **Carbonatisierung von Recyclingbeton**
+  zur Erzeugung negativer Emissionen — ein anderes Thema, **kein** Sanieren-vs-Neubau-Kipppunkt.
+  Ebenfalls geprüft: Foliensatz «Sanierung oder Ersatzneubau?» (Lenel, Uni Bern/forum.unibe.ch) —
+  reine Bild-/Grafik-Slides ohne extrahierbaren Zahlentext. Beide Leads schliessen sich damit als
+  Sackgasse; sie müssen in künftigen Läufen nicht erneut verfolgt werden. Die Kernfrage bleibt
+  offiziell unbelegt (siehe oben), NEST/Empa-Publikationslisten direkt (nicht nur Websuche) wären
+  der einzig verbleibende aussichtsreiche nächste Schritt.
 
 **Backlinks:** Faktenblatt-Rahmen und 9 Reduktionshebel `[[kbob-graue-treibhausgasemissionen-2025]]` ·
 Themenartikel Graue Energie & THGE (Grössenordnung, Bauteilaufteilung, Minergie-THGE-Grenzwerte)

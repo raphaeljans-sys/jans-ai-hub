@@ -2,6 +2,23 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 49: zwei Recherche-Sackgassen ehrlich geschlossen (kein neuer Fund)
+- **Run-Report** `outputs/2026-07-13_energie-run49.md`. PDF-Inventar weiterhin vollständig
+  abgearbeitet, keine neuen PDFs im SharePoint-Ordner seit letzter Inventarpflege gefunden.
+- **Sackgassen aus Run 48 geprüft und geschlossen** (kein neuer Fund, aber verhindert künftige
+  Doppel-Recherche): Empa-Projekt «DemoUpCARMA» betrifft Beton-Carbonatisierung statt
+  Sanieren-vs-Neubau; Uni-Bern-Foliensatz «Sanierung oder Ersatzneubau?» (Lenel) ist bildbasiert
+  ohne Zahlentext; `sia2060online.ch` per WebFetch bestätigt als reines interaktives JS-Tool ohne
+  auslesbare Beispielrechnung (Werkzeug-Grenze wie Kantonsrat ZH).
+- **Destillate ergänzt (kein Statuswechsel):** `[[graue-energie-sanieren-vs-neubau-amortisation]]`,
+  `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]` — beide bleiben `emerging`, Kernfragen
+  weiterhin ehrlich unbelegt.
+- **Register:** `training/curriculum.md` (D23 neu), `wiki/QUESTIONS.md` (E36 neu).
+- **Uf-Werte-Recherche (SZFF)** ohne neuen Fund wiederholt — keine Änderung an
+  `[[uf-werte-rahmenmaterial-grobuebersicht]]` vorgenommen.
+- **Meta-Hinweis:** M2 (Skill-`energie`-Entscheid) zum fünften Mal in Folge als «spruchreif»
+  vermerkt (Run 45–49), weiterhin ohne Entscheidung.
+
 ## 2026-07-13 — Run 48: Synthese der 5 parallelen Vertiefungen (FAQ/Register)
 - **Run-Report** `outputs/2026-07-13_energie-run48.md` fasst die 5 parallel gelaufenen
   Vertiefungs-Recherchen dieses Laufs zusammen (MuKEn-2025-Modul-G, graue-Energie-Amortisation,

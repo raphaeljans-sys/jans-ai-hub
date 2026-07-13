@@ -5,7 +5,7 @@ ausgabe: Infoblatt datiert 13. Oktober 2020 (Datum jetzt erstmals gesichert able
 gelesen: 2026-07-13 (ZH-Infoblatt-PDF vollständig per pdftotext -layout extrahiert und im Volltext gelesen, S. 1-4 von 4; Härz-AG-Seite per WebFetch erneut gelesen; 5 weitere Quellen per WebFetch/WebSearch auf Kostenangaben geprüft, keine enthielt eine eigene A/B/C1/C2/D-Tabelle)
 datenstand: 13.10.2020 (Kostenschätzung Kanton ZH, Basis: Durchschnittswerte Wohn-/Gewerbeobjekte Region Zürich, Preisstand Netzbeitrag/Kabel Stand Juni 2019); Härz-AG-Seite ohne eigenes Aktualisierungsdatum
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-13 (Run 49: sia2060online.ch als interaktives JS-Tool bestätigt, kein Text extrahierbar)
 ---
 
 # SIA 2060 — Kosten je Ausbaustufe (A/B/C1/C2/D): Vertiefung und Quellenlage
@@ -112,6 +112,11 @@ nicht durch eine zweite unabhängige Berechnung bestätigt» zu behandeln sind.
 - Sollte künftig der SIA-2060-Online-Rechner (sia2060online.ch/rechner) mit konkreten Beispieleingaben
   durchgerechnet werden können, liesse sich daraus eine echte zweite, unabhängige Zahlenreihe ableiten
   — das wäre der nächste sinnvolle Vertiefungsschritt, um den Status auf established zu heben.
+  **Versuch 2026-07-13 (Run 49):** WebFetch auf sia2060online.ch liefert nur die statische
+  Marketing-Beschreibung («Schnellcheck»/«Detailcheck», PDF-Export) — der Rechner selbst ist ein
+  interaktives JS-Formular ohne im HTML sichtbare Beispielwerte oder Formeln. Bestätigt: dieser
+  Schritt braucht echten interaktiven Zugriff (Browser, keine Text-Extraktion) und bleibt offen;
+  nicht erneut per WebFetch versuchen.
 - Die Kostenbasis ist inzwischen über 5 Jahre alt (Preisstand 2019/2020); eine aktualisierte
   Kostenschätzung (Teuerung, Materialpreise E-Installation) liegt nicht vor.
 
