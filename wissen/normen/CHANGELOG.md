@@ -1,3 +1,20 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 8: Retro-Verifikation 12 Destillate, 12/12 beanstandet
+- Stufe (b) Fortsetzung: 12 DIN/VSS-Destillate adversarial gegen Original geprueft
+  (din-18065-2000, din-18299-2010, din-4844-2-2001, vss-640060-1994, vss-640066-1996,
+  vss-640281-2006, vss-640578-2006, vss-40291-2021, vss-640065-2011, din-v-105-100-2005,
+  din-v-106-2005, komm-din18024-t1-bayern-2001) — ALLE 12 beanstandet (100%, deutlich hoeher
+  als Run 7s 50%). Fehlerbild: falsche Fundstellen, vermischte Tabellenspalten (B/F bei
+  vss-40291, Kapazitaeten bei vss-640066), fehlende Ziffern trotz "vollstaendig"-Anspruch,
+  eine Bedeutungsumkehr (din-18065-2000: Tragbolzentreppen faelschlich ausgeschlossen statt
+  als Bauart-Beispiel mit erfasst).
+- Korrekturen als "Verifikations-Hinweis"-Abschnitt an jedes Destillat angehaengt (Original-
+  Fundstelle + Korrekturtext), Frontmatter-Status auf "beanstandet, korrigiert siehe
+  Verifikations-Hinweis" gesetzt (noch nicht `established` — Fliesstext-Einarbeitung folgt).
+- `komm-din18024-t1-bayern-2001.md` INDEX.md-Eintrag korrigiert: war faelschlich "Teil-
+  Destillat (S.1-40/68)" gefuehrt, Volltextpruefung bestaetigt Vollstaendigkeit (S.1-68/68).
+- Report: `outputs/2026-07-13_normen-mini-run8.md`. Naechster Schritt: Verifikations-Hinweise
+  in Fliesstext einarbeiten, dann `established`.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 7: Deepening-Stufe (b), Retro-Verifikation 8 Destillate, 4 Fehler korrigiert
 - Stufe (b) des Deepening-Programms: 8 bestehende DIN/VSS-Destillate mit adversarialem
   Volltextabgleich (Modell D, je 1 Agent, Ziel Widerlegung) gegen das Original geprüft.

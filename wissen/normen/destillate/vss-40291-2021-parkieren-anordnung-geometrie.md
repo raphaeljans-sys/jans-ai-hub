@@ -7,7 +7,7 @@ ersetzt: "VSS 40 291a:2019-03"
 ersetzt_durch: ""
 gelesen: "S. 1-32 von 32 (vollständig)"
 datenstand: 2026-07-13
-status: destilliert (vollständig, S.1-32/32)
+status: "beanstandet, korrigiert siehe Verifikations-Hinweis, 260713"
 last_updated: 2026-07-13
 links: [[vss-640291a-2005-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
 ---
@@ -166,3 +166,9 @@ Zusammenhang zur Zwischenausgabe VSS 40 291a:2019-03 (welche laut Titelblatt dur
 vorliegende Ausgabe 2021-12 ersetzt wurde) ist nicht im Bestand verifiziert; nur die
 Vorgängerausgabe SN 640 291a:2005/2006 liegt im Normenordner vor (siehe
 [[vss-640291a-2005-parkieren-anordnung-geometrie]]).
+
+## Verifikations-Hinweis (Retro-Verify Mini-Run 8, 260713)
+Beanstandet, Korrekturen dokumentiert (Original gegengeprueft):
+- Tab. 4 Parkfeldbreite B bei 60°/45°/30°: korrekt 2,50-2,80/2,50/2,50 m — Destillat verwechselte B mit F-Werten (3,20 statt 2,50 bei 45°/30°).
+- Tab. 10 90°: Ds1/As2 = 0,80/0,10 m fehlte, faelschlich mit Ds2(max.)=1,10 m vermischt.
+- Abschnitt D "Anordnung der Parkierungsanlagen" (Ziff. 7-10, S. 8-13, u.a. Sicherheitsabstand 0,50 m, optimaler 45°-Winkel) fehlte trotz "vollstaendig"-Status komplett.

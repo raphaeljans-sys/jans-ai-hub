@@ -7,7 +7,7 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-68 von 68 (vollständig)"
 datenstand: "2001-08"
-status: "destilliert (vollständig, S.1-68/68)"
+status: "beanstandet, korrigiert siehe Verifikations-Hinweis, 260713"
 last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
@@ -415,3 +415,11 @@ Kernlücke bestehen, dass die massgebende CH-Norm SIA 500 «Hindernisfreies Baue
 in dieser KB destilliert ist (P1-Lücke, s. Sektion «JANS-Praxis-Transfer») — dieser
 Bayern-Kommentar dient nur als Vergleichsgrösse/Prüfraster, nicht als zitierfähige
 Rechtsgrundlage für CH-Projekte.
+
+## Verifikations-Hinweis (Retro-Verify Mini-Run 8, 260713)
+Beanstandet, Korrekturen dokumentiert (Original gegengeprueft, Vollstaendigkeit S.1-68/68 bestaetigt, INDEX.md-Eintrag "Teil-Destillat" war veraltet):
+- Ziff. 4.8: 150 cm TIEF (nicht breit) neben Pkw-Laengsseite.
+- Ziff. 4.12: nur Tiefe 250 cm spezifiziert (keine Breite 400 cm, das gehoert zu Ziff. 4.2).
+- Stellplatz-Vorschriften vermengt: 700 cm (Gegenverkehr-Verbreiterung, Ziff. 4.8) und 750 cm (separate BTW-Vorschrift Abschnitt 16) sind zwei verschiedene Regeln, keine Bandbreite.
+- Abschnitt 7 Tuer (lichte Breite 90 cm, Hoehe 210 cm, >6N Oeffnungskraft -> elektrisch) fehlte komplett.
+- Abschnitt 9 Verweilplatz (ueberdacht, taktil/optisch kontrastierend auffindbar) fehlte.

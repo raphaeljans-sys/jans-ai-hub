@@ -62,7 +62,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-v-106-2005.md` | DIN V 106 Kalksandsteine mit besonderen Eigenschaften | 2005-10 (Vornorm) | destilliert (vollständig, S.1-26/26) |
 | `din-4844-2-2001.md` | DIN 4844-2 Sicherheitskennzeichnung, Darstellung Sicherheitszeichen | 2001-02/03 | destilliert (vollständig, S.1-23/23) |
 | `baupreisindizes-statistisches-bundesamt-2010.md` | Baupreisindizes Statistisches Bundesamt (Methodik-Referenz D, keine DIN) | Februar 2010 | destilliert (vollständig, S.1-23/23) |
-| `komm-din18024-t1-bayern-2001.md` | Bayerischer Kommentar/Leitfaden zu DIN 18024-1 (Strassen/Plätze/Wege/Grünanlagen/Spielplätze) | 2001-08 | Teil-Destillat (S.1-40/68) |
+| `komm-din18024-t1-bayern-2001.md` | Bayerischer Kommentar/Leitfaden zu DIN 18024-1 (Strassen/Plätze/Wege/Grünanlagen/Spielplätze) | 2001-08 | beanstandet, korrigiert 260713 (vollstaendig S.1-68/68 bestaetigt) |
 | `sia-260-2003.md` | SIA 260 Grundlagen der Projektierung von Tragwerken | 2003 | established (verifiziert 260712) |
 | `sia-261-2003.md` | SIA 261 Einwirkungen auf Tragwerke | 2003 | established (verifiziert 260712) |
 | `sia-262-2003.md` | SIA 262 Betonbau | 2003 | established (verifiziert 260712) |
