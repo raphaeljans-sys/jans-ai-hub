@@ -13,6 +13,52 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 20:52 — Stall-Killer-Fix bestaetigt wirksam, MacBook-Fenster fuellt sauber, keine offene P1 [FREI]
+
+**Fensterzustand [FREI]:** Login OK (claude -p mit gesourctem OAuth-Token → «OK»; das nackte «Not
+logged in» ohne Token ist ein Test-Artefakt, KEIN Blocker — der Runner arbeitet mit Token). Aktuelles
+5h-Fenster (18:50–23:50) wird aktiv gefuellt, noch nicht regelmaessig 100 %. Das vorige Fenster
+(13:50–18:50) war um 15:50 sauber ausgereizt (Session-Limit, Reset 18:50) — [VOLL].
+
+**Der Stall-Killer aus dem 19:53-Lauf wirkt — Beleg:** Der haengende `baurecht-buch-training`-Lauf ist
+um 19:50 sauber gekappt worden (ENDE rc=143 nach 14209s = ~4 h), genau wie beabsichtigt. Seither
+zykliert der MacBook-Runner strikt sequenziell und produktiv durch: immobewertung (rc=0, 507s) →
+normen-nacht → spec (rc=0, 368s) → twin-fidelity (rc=0, 354s) → twin-mail (rc=0, 659s) → wettbewerbs-dna
+(rc=0, 702s) → aktuell wettbewerbs-layer-nachbrenner. Das ~1 h-Leerlauf-Loch, das der vorige Lauf
+diagnostiziert hatte, ist geschlossen. Supervisor-Fix persistent verifiziert (`vollgas-supervisor.sh`
+Z. 36–64, `MAX_RUN_SECS=3600`). Der `git log` bestaetigt den Durchsatz: **21 Commits in 90 Min**, beide
+Stationen rc=0 (Mini Zyklus 136: energie Run 54 / normen-mini Run 14 / planungsgrundlagen Run 34 / synobsis
+853/853; MacBook: baurecht Run 41, twin-mail Batch 44, spec Lauf 13, immobewertung Run 26).
+
+**Prozess-Sanity (kein Problem):** Zwei `vollgas-runner.sh`-Prozesse auf dem MacBook, ABER kein Duplikat —
+PID 4210 (Parent launchd, 10 h) ist der Haupt-Runner, PID 70186 ist dessen per-Loop-Subshell-Kind. Das
+Log ist strikt sequenziell (keine interleaved/doppelten Zyklen). Die ~20 gleichzeitigen `claude`-Kinder
+sind das Sub-Agenten-Fan-out des laufenden wettbewerbs-Loops (Refuter-Verifikation `jury-argumente-
+schulbauten.md`, 15 externe + 3 eigene Jury-Reports) — unter VOLLGAS gewuenschter Token-Verbrauch, kein
+Doppellauf.
+
+**Hebel-Priorisierung:** Fenster noch nicht regelmaessig 100 % → weniger Leerlauf bleibt der Hebel; nach
+dem Stall-Killer sind aktuell keine Leerlauf-Loecher offen. Keine P1.
+
+- **P3 (neu) — Leerlauf-Slot `normen-training-nacht` (MacBook):** liefert intermittierend Leerlaeufe
+  (heute 4s/7s/13s «kein Auftrag» rc=1/0, dazwischen ein echter 784s-Lauf). Die echte SIA/VKF-Normenarbeit
+  laeuft ohnehin ueber `normen-training` MacBook Run 5 (febcc75d) + `normen-training-mini` auf dem Mini —
+  dieser Nacht-Slot ist teils redundant. Unter VOLLGAS ist ein 13s-Nulllauf ein kleiner verschenkter
+  Fenster-Slot; Prompt-Zuweisung des Loops beim naechsten ruhigen Lauf pruefen (nicht mitten im Zyklus
+  editieren → Byte-Offset-Risiko).
+- **P3 (unveraendert) — M365-MCP-Connector faellt systematisch aus** (twin-fidelity-Nebenbefund, Batch 36
+  bis heute): Apple-Mail-Fallback greift zuverlaessig, aber an Hub-Chef/Heartbeat melden.
+- **P3 (unveraendert) — Leerlauf-Loops:** synobsis 853/853 gesaettigt; normen DIN/VSS/RAL «Basisinventar
+  komplett established»; energie M2 «eigener Skill energie?» seit dem 9. Mal eskaliert (braucht Raphaels
+  Entscheid, kein Mail-Anlass). Kandidaten fuer Taktreduktion nach der Intensivphase.
+- **P3 (unveraendert) — normen-Budget 50 / NAS-Remount-Hostname:** greifen erst ab naechster
+  Runner-Generation bzw. Tailscale-Fallback ausstehend.
+
+Kein Mail-Anlass (keine neue oder frisch geloeste P1; die P1 vom 19:53-Lauf war dort schon im selben Lauf
+behoben und dokumentiert).
+
+---
+
 ## 2026-07-13 19:53 — P1 behoben (haengender Run entblockt) + P2 strukturell geschlossen (Stall-Killer im Supervisor) [FREI]
 
 **Fensterzustand [FREI]:** Session-Limit war um 15:50 erreicht (Reset 18:50, Meldung im MacBook-Log:
