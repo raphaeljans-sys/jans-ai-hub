@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 21:12:32
+Stand: 13.07.2026 21:22:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 21:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 21:12:32
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a204aa89 sync: ag-gruendung-monitor: Status 13.07. unveraendert (kein UBS-/Notariats-Eingang)
+- 989c9c63 nas-selfcommit: 1 Datei(en) 2026-07-13 21:15

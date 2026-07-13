@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 21:09:48
+Stand: 13.07.2026 21:29:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:50)
+- Developer/jans/ai/hub  (letzte Aktivitaet 21:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 41 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 31 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 13.07.2026 21:09:48
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3011297d normen-training-mini Run 15: Retro-Verifikation Sammel-Batch (8 DIN/VSS/RAL-Destillate)
+- 989c9c63 nas-selfcommit: 1 Datei(en) 2026-07-13 21:15
