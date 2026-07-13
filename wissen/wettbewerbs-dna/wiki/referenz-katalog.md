@@ -11,7 +11,7 @@ links:
 
 # Referenz-Katalog Wettbewerbs-Abgaben
 
-Der buerointerne **grafische Referenz- und Vorlagenspeicher** fuer Wettbewerbsabgaben.
+Der bürointerne **grafische Referenz- und Vorlagenspeicher** für Wettbewerbsabgaben.
 Anders als die Teilnahme-Dossiers (`wiki/teilnahmen/`) und die Board-Analysen
 (`wiki/board-dna/`) enthaelt dieser Ordner keine eigenen Abgaben, sondern die
 **Bausteine, aus denen JANS Boards baut**: Diagramm-Vorlagen, Flaechennachweis-Muster,
@@ -41,7 +41,7 @@ Angelegt 17.11.2025. Bestand 13.07.2026: rund 250 Dateien (105 jpg, 84 pdf, 46 p
 | **Modellbilder** | Modellfoto-Referenzen (u.a. Kerez-Modelle SwissRe/Holcim/Warschau, tif); eigene Modell-Fotoserie DSC0279x | Plakat-Bildsprache, `volumenstudie` (Modell-Look) |
 | **Volumenstudien** | Fruehe Programm-/Volumen-Analyse-Blaetter (Programmanalyse A2, Raumprogramm-Zuordnung, Volumenstudien-PDF) | `volumenstudie`, `machbarkeit` |
 | **Tiefgaragen** | TG-Variantenplaene, VSS-Normen, Planungshilfen, Beispiele (u.a. Knorr), Planer-Kontakte | TG-Layout in Abgaben, `ausschreibung` |
-| **Moeblierung Buero** | Bueromoeblierungs-Referenzen (REF 216 Swiss Re Studie, REF 237 Helvetia, REF 251 Bakery) | Grundriss-Moeblierung Buero-/Geschaeftsbau |
+| **Moeblierung Buero** (Ordnername) | Büromöblierungs-Referenzen (REF 216 Swiss Re Studie, REF 237 Helvetia, REF 251 Bakery) | Grundriss-Möblierung Büro-/Geschäftsbau |
 | **Inspiration** | Lose Bild-Inspiration (wenige Dateien) | Ideengeber, kein System |
 
 ## Nutzung
