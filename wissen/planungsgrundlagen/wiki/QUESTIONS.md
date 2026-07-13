@@ -85,6 +85,26 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R10** Raumprogramm-Bemessungsgrundlagen (Raumpilot, WBS 2015, Sanitaeranlagen) — welche
+  Referenzwerke ergaenzen die rechtlich bindenden Masse fuers Raumprogramm? ✓ **2026-07-13
+  (Run 23):** NEU [[recht-norm-raumprogramm-referenzwerke]] — **Raumpilot** (Jocher/Loch,
+  Wuestenrot Stiftung 2012, Gebaeudelehre-Nachschlagewerk analog Neufert, Kapitelstruktur
+  Anthropometrie/Barrierefrei/Treppe/Aufzug/Rettung/Ruhender Verkehr/Energie, methodischer
+  Grundsatz Funktionsbereiche statt fertiger Raumtypen), **WBS 2015** (Bundesamt fuer
+  Wohnungswesen, Wohnungs-Bewertungs-System, 25-Kriterien-System max. 100 Punkte,
+  **Grundausstattungs-Tabelle Nettowohnflaeche 30/45/60/80/100/120/140 m² je 1-7-Zimmer-Wohnung**),
+  UGZ-Toilettenanlagen-Bemessung Stadt ZH (Personal-Schluessel nach ArGV3, Publikums-Schluessel
+  35-150 Personen/Einheit, Betreuungsstaetten-Tabellen Krippe/Hort/Kindergarten).
+- [x] **R11** Aktuelle regulatorische Entwicklungen ZH (Denkmalschutz-PBG-Revision + LSV-Novelle) —
+  gibt es neue, noch nicht erfasste PBG-Vorlagen oder Verordnungsaenderungen? ✓ **2026-07-13
+  (Run 23):** **Denkmalschutz-PBG-Revision** — RRB verabschiedet **02.07.2026** zuhanden
+  Kantonsrat (Vernehmlassung bereits erfolgt, Inkrafttreten offen): vereinfachtes Verfahren fuer
+  kleinere Aenderungen an Baudenkmaelern (kein separater Schutzbeschluss mehr), staerkere
+  Gewichtung energetische Modernisierung/zeitgemaesse Nutzung/Barrierefreiheit, vertragliche
+  Unterschutzstellung bevorzugt, Gemeinden bleiben zustaendig. **LSV-Novelle:** USG und LSV per
+  **01.04.2026** geaendert (bauen-im-laerm.ch), inhaltliche Details noch offen → beide in
+  [[recht-norm-quellenlandkarte]] neue Abschnitte. **Offen:** Kantonsratsbeschluss Denkmalschutz-
+  Vorlage verfolgen; LSV-Novelle-Details bei realem Fall vertiefen.
 - [x] **R9** Tiefgarage-/Parkierungserschliessung (VSS 640 050/281/291a) als beschaffbare
   Planungsgrundlage — Rampenneigung, Parkfeld-/Fahrgassenmasse, Wendehammer. ✓ **2026-07-13
   (Run 21):** NEU [[recht-norm-tiefgarage-erschliessung]] — Zufahrtstyp A/B/C (VSS 640 050),
@@ -237,7 +257,21 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   + Energie-Artikel nachziehen.
 - [x] **D2** U-Wert-Grenzwerte SIA 380/1 als belegte Kennwert-Tabelle. ✓ 2026-06-06 — belegt in
   KB `wissen/energie/` (`[[u-werte-grenzwerte-ch]]`); planungsgrundlagen verlinkt statt dupliziert.
-- [ ] **D3** Pruefen: eigenes Skill `energie-nachweis` rechtfertigt sich?
+- [x] **D3** Pruefen: eigenes Skill `energie-nachweis` rechtfertigt sich? ✓ **2026-07-13
+  (Run 23) ENTSCHIEDEN: NEIN.** Die Domaene ist bereits vollstaendig im Wiki + ueber den Agent
+  `energie-berater` organisiert (EN-Formulare/EVEN/Private Kontrolle/PV/Zusatzformulare je eigener
+  Artikel); ein eigenes Skill wuerde nur Struktur duplizieren, ohne eine neue Faehigkeit (Generator/
+  Workflow) zu schaffen → [[energie-uebersicht]] §Offen.
+- [x] **D9** Zusatzformulare neben EN-ZH/EVEN (WTA, Formular S Schallschutz Aussenlaerm, Gesuch
+  Versickerung Regenwasser) — Verfahren, Zustaendigkeit, Schwellenwerte? ✓ **2026-07-13 (Run 23):**
+  NEU [[energie-baueingabe-zusatzformulare]] — **WTA-Formular** (alle Waermeerzeuger, 3-stufige
+  Verfahrensweiche Melde-/Anzeige-/Ordentliches Verfahren je nach Anlagetyp, Neubau-Kopplung
+  **immer EN-103 mit Privater Kontrolle** noetig sonst kostenpflichtige Behoerdenkontrolle,
+  GWR-Ausfuehrungskontrolle Seite 5); **Formular S** (Aussenlaerm, Abgrenzung zu LN-1a/1b
+  Anlagen-eigener Laerm bei Luft-WP), LSV-Novelle 01.04.2026 vermerkt; **Gesuch Versickerung
+  Regenwasser AWEL** (Bewilligungsschwelle Flaechenverhaeltnis >5:1 bzw. Bagatellgrenze 20 m²,
+  **50-m²-Schwelle unbeschichtete Metallflaechen → Adsorberpflicht**, Fassadenfaktor 0.2, Normbasis
+  SN 592 000).
 - [x] **D4** EN-ZH **Fachformular-Liste** je Fachbereich (Inhalt der einzelnen Energie-Beilagen)
   belegt erfassen. ✓ 2026-06-12: vollstaendige Liste EN-101a…EN-141 + S/LN-1 mit Inhalt &
   Rechtsbezug (EN-ZH S.2-4), Detail EN-105/EN-110-ZH, EVEN-Umstellung 01.01.2026 →

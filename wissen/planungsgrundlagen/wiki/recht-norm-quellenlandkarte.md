@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-12
-sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage)]
-links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[machbarkeit]]
+last_updated: 2026-07-13
+sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch]
+links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[machbarkeit]]
 ---
 
 # Recht & Norm — Quellenlandkarte (PL-02)
@@ -131,6 +131,13 @@ Wuerdigung bleibt der Skill `baurecht`; hier der belegte Datenstand fuer Planung
   **kantonale Umsetzung (PBG/Richtplan) ist weiterhin in Erarbeitung** — kein
   Fertigstellungsdatum publiziert. ⚠ Vor einem Projekt ausserhalb Bauzone in ZH den aktuellen
   Stand auf zh.ch pruefen.
+- **Refresh 2026-07-13 (Run 23):** Stand unveraendert bestaetigt — die zh.ch-Seite
+  "Umsetzung RPG 2" nennt weiterhin kein PBG-/Richtplan-Fertigstellungsdatum, verweist aber neu
+  auf ein **Kreisschreiben Mai 2026** + Gemeindeseminare zur Umsetzung (Vollzugshilfe fuer
+  Gemeinden, kein Gesetzesstand). Naechster Check bei konkretem Projektbedarf oder wenn eine
+  PBG-Vorlage zuhanden Kantonsrat gemeldet wird (Praezedenz: die parallele
+  **Denkmalschutz-PBG-Revision** ging genau diesen Weg, s. Abschnitt unten — RPG-2-Vorlage koennte
+  denselben Verfahrensschritten folgen).
 - **Direkt seit 01.01.2026 (belegt zh.ch, Run 11):** u.a. Vorrang Landwirtschaft + **Bestandes-/
   Besitzstandsschutz fuer ueber 30 Jahre bestehende Gebaeude** ausserhalb Bauzone gilt unmittelbar.
 - **ZH-Stabilisierungswert (absolute Zahlen, belegt zh.ch 2026-06-28):** der 2-%-Schwellenwert
@@ -164,6 +171,41 @@ kantonsrat.zh.ch, zh.ch Umsetzungshilfe). Korrigiert den Run-11-Stand («kein fi
   achten — der direkt anwendbare Teil (u.a. § 238a) gilt ueberall, Weitergehendes je nach BZO-Stand
   der Gemeinde. Stadt ZH setzt Vorgaben via BZO um (Stadtratsbeschluss 04.02.2026, oerebdocs.zh.ch).
   Detail-Wuerdigung → Skill `baurecht`.
+
+## Denkmalschutz-Revision PBG — Vereinfachung Weiterentwicklung Baudenkmäler (NEU, Stand 2026-07-13)
+
+**Aktueller Verfahrensstand (Run 23, Web-Recherche 2026-07-13):** der Regierungsrat ZH hat am
+**02.07.2026** eine PBG-Revision zum **Denkmalschutz** zuhanden des Kantonsrats verabschiedet (eine
+Vernehmlassung hat bereits stattgefunden; **Inkrafttreten offen**, abhängig vom Kantonsratsbeschluss —
+vor Anwendung den aktuellen Stand auf zh.ch prüfen). Ziel: die bauliche Weiterentwicklung
+geschützter Gebäude erleichtern.
+
+**Kernpunkte der Vorlage (Medienmitteilung 02.07.2026):**
+- **Vereinfachtes Verfahren:** kleinere Änderungen an Baudenkmälern werden künftig direkt im
+  Baubewilligungsverfahren geprüft, **ohne separaten Schutzbeschluss**.
+- **Gestärkte Interessen:** energetische Modernisierung, zeitgemässe Nutzung und barrierefreies
+  Bauen werden **gesetzlich höher gewichtet** gegenüber dem reinen Erhaltungsinteresse.
+- **Eigentümerrechte:** vertragliche Unterschutzstellung wird bevorzugt (statt hoheitlicher
+  Verfügung); Eigentümer werden bei Inventaraufnahmen informiert.
+- **Einheitliche Inventare:** schärfere Kriterien für die Denkmalklassifizierung; die Zuständigkeit
+  bleibt bei den **Gemeinden**.
+
+**Relevanz JANS:** direkt relevant für Sanierungs-/Umbauprojekte an inventarisierten/geschützten
+Bauten (Überschneidung mit `ankaufspruefung`, `machbarkeit` Typ A bei Bestandsbauten) — insbesondere
+die höhere Gewichtung von **energetischer Modernisierung** koppelt an die Energie-Domäne
+(→ [[energie-uebersicht]]). Bei einem konkreten Denkmalschutz-Fall den Kantonsratsbeschluss/das
+Inkrafttretensdatum verifizieren, bevor auf das vereinfachte Verfahren abgestellt wird.
+
+## Lärmschutz — LSV-Vollzug & Praxishilfe (10 Lärmschutz, ergänzt 2026-07-13)
+
+`10 Lärmschutz` verweist auf **bauen-im-laerm.ch** — die Cercle-Bruit-Schweiz-Implementierung von
+**Kapitel 5 LSV** (Planen und Bauen in lärmbelasteten Gebieten): Empfindlichkeitsstufen (ES I
+Erholungszonen · ES II reine/gemischte Wohnzonen ohne störende Betriebe · ES III Wohn-/
+Gewerbe-Mischzonen · ES IV Industriezonen), Ausnahmebewilligungs-Mindestvoraussetzungen für Bauten
+in Zonen mit Grenzwertüberschreitung. **⚠ USG und LSV wurden per 01.04.2026 geändert** — vor
+Anwendung den aktuellen Stand auf bauen-im-laerm.ch/zh.ch prüfen (inhaltliche Details der Novelle
+noch nicht vertieft). Formularseitig ergänzt durch **Formular S Schallschutznachweis Aussenlärm**
+(Kt. ZH, Zusatzformular zum Energienachweis) → [[energie-baueingabe-zusatzformulare]].
 
 ## SZ ↔ ZH — Messweisen (belegte Kernregeln, Tiefe → `baurecht`)
 
@@ -245,7 +287,10 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
 - **Aktuelle Erlass-Fassung zum Zitieren** → fedlex (Schema oben), nicht die Ordner-PDF.
 - **Reale Praezedenz / Benchmark** → [[recht-norm-baurechtsanalysen-benchmarks]] (`08_`).
 - **Normtext** → `02_Normen/<Normgeber>` (VKF → `brandschutz`, VSS → Tiefgarage/Verkehr).
-- **Mass-/Raumkennwerte** → `05_Raumpilot`, `07_Neuffert`, `09_Sanitaereinrichtung`.
+- **Mass-/Raumkennwerte** → [[recht-norm-raumprogramm-referenzwerke]] (`05_Raumpilot`,
+  `07_Neuffert`, `09_Sanitaereinrichtung`, WBS 2015 Wohnbaufoerderung).
+- **Laermschutz-Vorabklaerung** → Abschnitt "Laermschutz" oben (bauen-im-laerm.ch) +
+  [[energie-baueingabe-zusatzformulare]] (Formular S).
 
 ## Offen (→ QUESTIONS)
 - B1: fedlex-ELI-Mapping **vollstaendig erledigt 2026-06-28 (Run 11)** — LRV 814.318.142.1 =
@@ -253,8 +298,16 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
   Restaufgabe nur noch: je Erlass das *exakte* aktuelle Stand-Datum beim konkreten Zitat ziehen.
 - B2: RPG-2-ZH-Umsetzung (PBG/Richtplan) **noch in Erarbeitung** — Stabilisierungs-Zahlen ZH
   (40'807 Gebaeude / 2'594 ha) + Abbruchpraemie 01.07.2026 belegt (Run 11); bei ZH-PBG-Publikation
-  nachziehen. Parallele ZH-PBG-Revision **«Klimaangepasste Siedlungsentwicklung»** **erledigt
-  2026-07-06 (Run 15): in Kraft seit 01.12.2024** (RRB 998/2024, § 238a PBG) — s. Abschnitt oben.
+  nachziehen. **Refresh 2026-07-13 (Run 23):** unveraendert, neu Kreisschreiben Mai 2026 als
+  Vollzugshilfe fuer Gemeinden bekannt. Parallele ZH-PBG-Revision **«Klimaangepasste
+  Siedlungsentwicklung»** **erledigt 2026-07-06 (Run 15): in Kraft seit 01.12.2024** (RRB 998/2024,
+  § 238a PBG) — s. Abschnitt oben.
+- R10 (NEU): **Denkmalschutz-PBG-Revision erfasst 2026-07-13 (Run 23)** — RRB verabschiedet
+  02.07.2026 zuhanden Kantonsrat, Inkrafttreten offen; s. Abschnitt oben. Bei
+  Kantonsratsbeschluss/Inkrafttreten nachziehen.
+- R11 (NEU): **Laermschutz/LSV-Novelle 01.04.2026 erfasst 2026-07-13 (Run 23)** — Praxishilfe
+  bauen-im-laerm.ch dokumentiert, inhaltliche Details der Novelle noch offen; bei realem
+  Laermschutz-Fall vertiefen.
 - B3: `06_Richtlinien`-Wegweiser **erledigt 2026-06-20** — vertiefen je nach Projektbedarf.
 - R2: **SZ-Mass-Definitionen gegen aktuelle amtliche SRSZ-Fassung geprueft — erledigt 2026-07-12
   (Run 18):** § 60/61/62/66/67 amtlich bestaetigt (PBG 400.100, **Stand 1.2.2025**, Volltext-Grep),

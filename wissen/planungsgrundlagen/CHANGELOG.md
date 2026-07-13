@@ -2,6 +2,41 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 23 (Energie + Recht & Norm, Token-Vollgas 2 Domaenen): Zusatzformulare Baueingabe, Raumprogramm-Referenzwerke, Denkmalschutz-PBG-Revision neu erfasst; D3-Skill-Entscheid gefaellt
+- **NEU [[energie-baueingabe-zusatzformulare]] (E12/D9):** drei bisher unbearbeitete `PL-04/
+  endk.ch`-Unterordner vollstaendig ausgewertet — **WTA-Formular** (Gesuch-/Meldeformular
+  waermetechnische Anlagen, Ausgabe Januar 2024): 3-stufige Verfahrensweiche (Melde-/Anzeige-/
+  Ordentliches Verfahren) je Anlagentyp, Zustaendigkeits-Matrix Gemeindebauamt/Feuerpolizei/AWEL/
+  GVZ, Neubau-Kopplung an **EN-103 mit Privater Kontrolle** (sonst kostenpflichtige Behoerden-
+  kontrolle), GWR-Ausfuehrungskontrolle (Seite 5, derselbe Datensatz wie `gwr-bund.mjs`);
+  **Formular S Schallschutznachweis Aussenlaerm** (Abgrenzung zu LN-1a/1b bei Luft-WP, LSV-Novelle
+  01.04.2026 vermerkt); **Gesuch Versickerung Regenwasser AWEL** (Bewilligungsschwelle Flaechen-
+  verhaeltnis >5:1 / Bagatellgrenze 20 m², **50-m²-Schwelle unbeschichtete Metallflaechen →
+  Adsorberpflicht** mit Fassadenfaktor 0.2 — Planungsrelevanz bei Kupfer/Zink-Fassaden/Sanierungen).
+- **NEU [[recht-norm-raumprogramm-referenzwerke]] (R10):** drei bisher unbearbeitete PL-02-Ordner
+  erschlossen — **Raumpilot** (Jocher/Loch, Wuestenrot Stiftung 2012, Gebaeudelehre-Nachschlagewerk
+  analog Neufert, aber methodisch auf **Funktionsbereiche statt fertige Raumtypen** ausgerichtet;
+  Kapitelstruktur Anthropometrie/Barrierefrei/Treppe/Aufzug/Rettung/Ruhender Verkehr/Energie
+  dokumentiert, Rechtsverweise im Buch sind deutsches Recht — nur Kennwerte uebertragbar);
+  **WBS 2015** (Bundesamt fuer Wohnungswesen, Wohnungs-Bewertungs-System, 25-Kriterien-System,
+  **Grundausstattungs-Tabelle Nettowohnflaeche 30/45/60/80/100/120/140 m² je 1-7-Zimmer-Wohnung**,
+  Rahmenbedingung SIA 500 hindernisfrei) als schneller Raumprogramm-Plausibilitaets-Check;
+  **UGZ-Toilettenanlagen-Bemessung** Stadt ZH (Personal-Schluessel ArGV3, Publikums-Schluessel
+  35-150 Personen/Einheit, Betreuungsstaetten-Tabellen Krippe/Hort/Kindergarten) — direkt
+  anwendbar bei Healthcare-/Bildungs-/Publikumsbauten.
+- **[[recht-norm-quellenlandkarte]] erweitert:** zwei neue Abschnitte — **Denkmalschutz-PBG-
+  Revision** (NEU erfasst: Regierungsrat ZH verabschiedete 02.07.2026 eine PBG-Revision zuhanden
+  Kantonsrat, die kleinere Aenderungen an Baudenkmaelern direkt im Baubewilligungsverfahren ohne
+  separaten Schutzbeschluss ermoeglicht und energetische Modernisierung/Barrierefreiheit staerker
+  gewichtet — Inkrafttreten noch offen) und **Laermschutz — LSV-Vollzug & Praxishilfe**
+  (bauen-im-laerm.ch als Cercle-Bruit-Werkzeug, USG/LSV-Novelle **01.04.2026** vermerkt). RPG-2-
+  ZH-Refresh: Stand unveraendert, neu Kreisschreiben Mai 2026 als Vollzugshilfe bekannt.
+- **D3 entschieden:** kein eigenes Skill `energie-nachweis` — die Domaene ist bereits vollstaendig
+  im Wiki + ueber den Agent `energie-berater` organisiert, ein Skill wuerde nur Struktur
+  duplizieren ohne neue Faehigkeit zu schaffen.
+- Alle Kennzahlen aus Original-PDF/Web-Quelle direkt gelesen (kein Sekundaerzitat); zwei neue
+  Web-Fakten je per WebFetch der Original-Medienmitteilung verifiziert.
+
 ## 2026-07-13 — Training Run 22 (Kartenportale + Meta, Token-Vollgas 2 Domaenen): Naturgefahren/Objektschutz + Werkleitungskataster neu erschlossen, M2-Anbindung geschaerft
 - **NEU [[kartenportale-naturgefahren-objektschutz]] (K10):** vollstaendiger Artikel aus dem bisher
   unbearbeiteten Ordner `PL-01/Objektschutz/` — Rechtsgrundlagen (Art. 6/15 RPG, § 20/17 PBG SZ),

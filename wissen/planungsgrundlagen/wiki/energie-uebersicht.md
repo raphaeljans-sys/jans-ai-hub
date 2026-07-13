@@ -1,9 +1,9 @@
 ---
 title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
 status: established
-last_updated: 2026-06-12
+last_updated: 2026-07-13
 sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1]
-links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]]
+links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]]
 ---
 
 # Energie — Uebersicht (PV, U-Wert, Energienachweis)
@@ -60,6 +60,10 @@ EVEN-Umstellung 2026 → eigener Artikel `[[energie-energienachweis-zh-formulare
   `[[energie-private-kontrolle-zh]]` (belegt 2026-06-26, Merkblatt AWEL Stand April 2025).
 - **Reale Anwendung JANS:** 2619-KISPI (Auflage UGZ II.8.a/b/c → EN-ZH / EN-105 / EN-110-ZH),
   gefuehrt in EVEN.
+- **Zusatzformulare neben EN-ZH/EVEN** (WTA fuer waermetechnische Anlagen, Formular S
+  Schallschutznachweis Aussenlaerm, Gesuch Versickerung Regenwasser) — eigenstaendige Verfahren,
+  kein Bestandteil des Energienachweises selbst → eigener Artikel
+  `[[energie-baueingabe-zusatzformulare]]` (2026-07-13).
 
 ## Graue Energie / THGE als Planungsgrundlage (PL-04, kommender Grenzwert)
 
@@ -103,4 +107,12 @@ tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden.
 - ✓ **D6 erledigt** (2026-07-04): EVEN-Bedienung (Rollen/Ablauf/Statusmodell/Beilagen/Private
   Kontrolle) aus EnDK-Schulung V1.4 → `[[energie-even-plattform-bedienung]]`; offen nur noch
   realer JANS-Screenshot-Walkthrough am KISPI-Fall.
-- Kandidat: eigenes Skill `energie-nachweis`, sobald die Domaene traegt (D3).
+- **D3 entschieden (2026-07-13, Run 23): KEIN eigenes Skill `energie-nachweis`.** Begruendung:
+  die Domaene ist bereits vollstaendig abgedeckt — Fachformulare/Prozess in
+  `[[energie-energienachweis-zh-formulare]]` + `[[energie-baueingabe-zusatzformulare]]`,
+  Plattform-Bedienung in `[[energie-even-plattform-bedienung]]`, Unterschriftsbefugnis in
+  `[[energie-private-kontrolle-zh]]`, PV-Fachfragen in `[[energie-pv-eignung-typenwahl]]` +
+  `[[energie-pv-brandschutz]]`, und der Agent `energie-berater` bedient all das bereits als
+  Fan-out des Skills `planungsgrundlagen`. Ein eigenes Skill wuerde nur Struktur duplizieren, ohne
+  neue Faehigkeit zu schaffen (kein eigener Generator/Workflow, der einen Skill rechtfertigen
+  wuerde) — Entscheid gegen Proliferation, Domaene bleibt im Wiki + Agent organisiert.
