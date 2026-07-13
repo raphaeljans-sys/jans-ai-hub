@@ -2,6 +2,24 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Vertiefung SIA-2060-Kosten Ladeinfrastruktur: Primärquelle jetzt gelesen, keine dritte unabhängige Quelle gefunden
+- **Neues Destillat `destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md`:** vertieft den in
+  `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]` offen gelassenen Punkt «SIA-2060-Kostentabelle nur
+  aus Sekundärzitaten, Primär-PDF bildbasiert nicht auslesbar».
+- **Durchbruch:** Das Kanton-ZH-Baudirektion-Infoblatt (zh.ch) liess sich diesmal per `pdftotext -layout`
+  vollständig als Text extrahieren (statt WebFetch-HTML-Konvertierung) — Primärquelle jetzt im Volltext
+  gelesen, datiert **13. Oktober 2020**, Herausgeber AWEL (IBG Engineering AG Winterthur). Bestätigt die
+  bisherige Tabelle **zahlengenau**: A CHF 65/Wohnung, B CHF 180, C1 CHF 350, C2 CHF 400, D CHF 3'100 je
+  E-Parkplatz (Gewerbebau separat: A 45/B 250/C1 320/C2 380 je 100 m², D gleich 3'100).
+- **Echte dritte, unabhängige Quelle mit eigener Kostentabelle NICHT gefunden** trotz Prüfung von 6
+  weiteren Stellen (EnergieSchweiz/BFE-Leitfaden «laden-punkt.ch» V2.0 Dez. 2025, Energie 360°,
+  Migrol-Blog, SIA-2060-Online-Rechner, Referat Vogelsang/Energieagentur SG, SIA-Shop) — alle verweisen
+  nur auf den kostenpflichtigen Rechner/die Norm, ohne eigene Zahlen zu publizieren. Die bisherige
+  Zweitquelle (Härz AG) nennt keine eigene Herleitung und übernimmt vermutlich dieselbe ZH-Zahlenbasis.
+- **Status bewusst weiterhin `emerging`** (nicht `established`), da die strenge Regel 2 methodisch
+  unabhängige Quellen verlangt — hier liegt nur 1 Primärquelle + 1 nicht-eigenständige Zweitquelle vor.
+  `e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md` aktualisiert (Frontmatter + Offene Punkte + Backlink).
+
 ## 2026-07-13 — Vertiefung Strohdämmung (Bemessungswert/Brandschutz/Feuchte)
 - **Neues Destillat `destillate/strohdaemmung-bemessungswert-brandschutz.md`:** vertieft den in
   `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]` und `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`

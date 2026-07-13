@@ -5,7 +5,7 @@ ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung a
 gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Primär-Medienmitteilung endk.ch referenziert, nicht direkt volltext-gelesen)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
@@ -73,10 +73,12 @@ dem EnDK-Primärvolltext — Status bleibt `established` für die Fakten Verabsc
 aber die konkreten kg-Zahlen sind mit Vorbehalt (⚠ nicht am Original verifiziert) zu verwenden.
 
 ## Offene Punkte
-- **Absolute kg CO₂-eq/m²·a-Werte** (nicht nur relativ zu Minergie-ECO) weiterhin nicht aus der
-  Primärquelle gelesen — EnDK-Volltext MuKEn 2025 (https://endk.ch) für eine verbindliche Zahl
-  direkt beziehen. Bereits belegte Minergie-Werte als Näherung: → [[graue-energie]]
-  (11–17 kg CO₂-eq/m²·a je Gebäudekategorie).
+- **Absolute kg CO₂-eq/m²·a-Werte:** jetzt vertieft in einem eigenen Destillat gefunden —
+  → [[muken-2025-modul-g-co2-grenzwerte]] (Art. 1.39, Basisgrenzwerte 12,4–19,9 kg CO₂-eq/
+  m²EBF·a je Gebäudekategorie, plus Zuschläge Erdsonde/PV/Thermie). Status dort bewusst
+  `emerging` (Web-Fetch-Extraktion, noch nicht lokal am Original gegengelesen). Bereits belegte
+  Minergie-Werte als Näherung weiterhin: → [[graue-energie]] (11–17 kg CO₂-eq/m²·a je
+  Gebäudekategorie).
 - **Stand Kanton ZH (präzisiert 2026-07-13):** eine EnerG-Revision ist im Gang, aber es ist
   **nicht die MuKEn-2025-Gesamtumsetzung** — der Regierungsrat hat dem Kantonsrat am 06.01.2026
   eine **separate, engere Vorlage** vorgelegt (Solarpflicht Dächer >300 m² + Langzeitspeicher-
@@ -87,4 +89,5 @@ aber die konkreten kg-Zahlen sind mit Vorbehalt (⚠ nicht am Original verifizie
   recherchiert.
 
 **Backlinks:** [[energienachweis-zh]] · [[graue-energie]] · [[foerderung-energie-zh]] ·
-[[foerderung-energie-sz]] · Themenartikel [[energienachweis-zh]] (neuer Ausblick-Abschnitt).
+[[foerderung-energie-sz]] · [[muken-2025-modul-g-co2-grenzwerte]] · Themenartikel
+[[energienachweis-zh]] (neuer Ausblick-Abschnitt).
