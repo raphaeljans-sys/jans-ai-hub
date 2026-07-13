@@ -13,6 +13,43 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 04:48 — 3:50-Reset sauber abgefangen, beide Stationen unter Volllast [FREI]
+
+**Fensterzustand [FREI] (nach vollem Fenster):** Um 03:49 hat das vorige 5h-Fenster **100 %**
+erreicht (beide Stationen meldeten «You've hit your session limit · resets 3:50am») — das ist der
+Ziel-Zustand, ein voller Baustein zum Wochenlimit. Der Reset um 03:50 wurde vom Taktgeber-Mechanismus
+**automatisch abgefangen**: beide Runner nahmen binnen ~30 s wieder Arbeit auf, ohne Eingriff. Live
+gegengeprueft: mit `set -a; . ~/.jans-dispatch.env` liefert `claude -p --model haiku` «OK» (Token JA,
+rc=0) → neues Fenster hat Kapazitaet, Vollgas laeuft.
+
+**Lagebild (gruen):**
+- MacBook-Runner gesund (Haupt-PID 81252 seit 23:51 + frische Subshell 35565 um 04:46 = periodisches
+  Re-Exec, laedt Skript-Updates selbst nach). Zyklus 47 laeuft: baurecht-buch-training 1572 s rc=0,
+  immobewertung-training 272 s rc=0, jetzt normen-training-nacht aktiv. Back-to-back-Langlaeufe.
+- Mini-Runner gesund (Log frisch 04:43): energie-training 1231 s rc=0, normen-training-mini 1149 s
+  rc=0, planungsgrundlagen-training 668 s (Run 21) rc=0; Zyklus 104, energie neu gestartet. Keine STOP-Datei.
+- Durchsatz kontinuierlich: Jobs laufen ueberwiegend 600–1600 s sequenziell auf beiden Stationen =
+  Dauer-Token-Burn. (Commit-Zaehler unterzaehlt, weil Trainings lokal committen und der
+  `nas-selfcommit`-Cron sie gebuendelt pusht — die Log-Laufzeiten sind das verlaessliche Signal.)
+
+**Hebel-Priorisierung:** Fenster wird regelmaessig voll gefahren (03:49 = 100 %) und sofort wieder
+gefuellt → gemaess Schritt 5 ist die Lage optimal; nur **Kontinuitaet sichern**, keine zusaetzliche
+Frequenz stapeln.
+- **P2 — baurecht-buch-training ohne Ueberlappungs-Lock:** Run-35-Report meldet, 2 von 4 Zielen
+  wurden **doppelt** bearbeitet (verschwendete Tokens auf Duplikat-Arbeit). Der Trainingslauf selbst
+  empfiehlt einen Lock-Mechanismus fuer ueberlappende Laeufe. Strukturelle Aenderung an Runner/Task —
+  nicht nachts autonom umbauen, Raphael tagsueber vorschlagen (kleiner Lockfile-Guard im PROGRAMM
+  oder Runner-Skip, wenn schon ein baurecht-Prozess laeuft).
+- **P3 — Endbedingungs-Kandidaten (fuer Tageslauf):** (a) `wettbewerbs-dna-training` faellt leer aus
+  («keine konkrete Anfrage», 11 s rc=0) — passt zum 11/11-Abschluss vom 23:56; Loop liefert nichts
+  mehr. (b) `immobewertung-training` meldet den **3. Verifikationslauf in Folge ohne neuen Befund**
+  und empfiehlt selbst die Ruecktaktung ins Nachtfenster. Beide sind Signale, Kapazitaet auf die
+  groesste offene Luecke (Normen-Inventar DIN/VSS/RAL — DIN 1045-2/DIN 1960 + ~12 kleinere laut
+  normen-mini-Report) umzulenken. Kein Autonom-Umbau; im Morgen-Briefing an Raphael melden.
+
+**Mail:** KEINE (kein neuer P1, kein frisch geloester P1 — die letzte Runner-Reparatur war 23:48/23:52
+und bereits verbucht; das volle 03:49-Fenster ist Erfolg, kein Mail-Anlass).
+
 ## 2026-07-12 23:56 — Beide Stationen gesund, Volllast bestaetigt; Diagnose-Fallgrube dokumentiert [FREI]
 
 **Fensterzustand [FREI]:** Token gueltig, `claude -p --model haiku` liefert «OK» rc=0 (mit
