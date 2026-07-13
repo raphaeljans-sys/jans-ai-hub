@@ -3,6 +3,17 @@
 - [flag] `destillate/vkf-merkblatt-2001-15-solaranlagen.md` (Offene Punkte teilweise beantwortet): belegte **Rev. 01.01.2022** (Quelle planungsgrundlagen `energie-pv-brandschutz`), Delta Unterdachbahnen RF3(cr)/RF4(cr); 2022er Re-Destillat empfohlen. QUESTIONS-Eintrag ergaenzt.
 - [befund] Doppelspur VKF-BSR normen ↔ planungsgrundlagen: Werte deckungsgleich (0 Widersprueche); normen bleibt fuehrend, planungsgrundlagen verweist neu hierher. Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
 
+## 2026-07-13 — Mac Mini Mini-Run 15: Retro-Verifikation Sammel-Batch (8 Destillate, Deepening-Stufe b)
+- DIN/VSS/RAL-Basisinventar war bereits seit Run 5/12 vollstaendig; letzte 8 noch nicht
+  adversarial verifizierte Volltext-Destillate in 8 parallelen Agenten geprueft: din-1054-2010
+  (Baugrund), din-1053-4-2011, din-105-100-2012, din-1055-2-2010, din-276-4-2009, din-1960-2010
+  (VOB/A), ral-gz638-2008, sn-640105a-2000. Ca. 335 Aussagen geprueft, 15 Fehler korrigiert,
+  11 Ergaenzungen. Sicherheitsrelevanter Fund: sn-640105a-2000 hatte einen Formelfehler
+  (Reduktionsfaktor p waere doppelt angewandt worden).
+- Alle 8 auf `established` gehoben; `destillate/INDEX.md` + `training/norm-inventar.md`
+  nachgefuehrt. Report: `outputs/2026-07-13_normen-mini-run15.md`.
+- Einzelagenten-Protokolle unten (jeder Agent hat sein Ergebnis bereits separat vermerkt).
+
 ## 2026-07-13 — Mini-Run 15: Retro-Verifikation ral-gz638-2008 (Gitterroste)
 - Destillat `destillate/ral-gz638-2008.md` adversarial gegen das Original-PDF (24 S.)
   gegengeprüft: 46 Aussagen verglichen, 6 Ergänzungen/Korrekturen eingearbeitet
