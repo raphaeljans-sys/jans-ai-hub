@@ -65,6 +65,10 @@ traegt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebae
   Preisbildung **frei**; ein kommerzieller Solar-Ratgeber rechnet beispielhaft mit **12-15 Rp./kWh
   LEG-Gemeinschaftsstrom** vs. **~7 Rp./kWh Referenz-Einspeiseverguetung** — plausible Groessenordnung
   fuers Bauherren-Gespraech, projektgenau beim VNB verifizieren → [[leg-lokale-elektrizitaetsgemeinschaft-2026]].
+- **Timing verifiziert (13.07.2026, Primaerquelle BD LEG – CH 2025 V2 lokal gelesen):** Anmeldeanspruch erst
+  ab 1.1.2026, unter der 3-Monats-Frist damit **fruehestens per 1.4.2026** aktiv. Speicher lassen sich in
+  der LEG **ohne Zusatzzaehler** betreiben, solange auf die Rueckerstattung des Netznutzungsentgelts fuer
+  Speicher-Rueckspeisungen verzichtet wird → [[batteriespeicher-heimspeicher-pv-ch]].
 
 ## Kennzahlen (Definitionen)
 | Kennzahl | Bedeutung |

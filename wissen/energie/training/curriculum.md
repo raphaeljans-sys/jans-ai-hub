@@ -374,3 +374,20 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   = 1,72 kg CO₂-eq/m²EBF·a (nur Eigenverbrauch zu 100 %, Einspeisung nur zu 40 % angerechnet) →
   `[[muken-2025-modul-g-co2-grenzwerte]]`, FAQ F47 geschärft. Löst den Run-50/D19-Prioritätspunkt
   «Rechenbeispiel MuKEn-2025-Formel» vollständig.
+
+- **D26 (Run 52, 2026-07-13)** — «VSE-Branchenempfehlung LEG (BD-LEG) seitengenau als Primärquelle
+  finden und lesen — bestätigt sich die 40 %/20 %-Rabattlogik und die 5 %-Voraussetzung?» — belegt
+  2026-07-13. Die amtliche Primärquelle «Branchenempfehlung Lokale Elektrizitätsgemeinschaften (LEG),
+  BD LEG – CH 2025 V2» (VSE/AES, verabschiedet 27.06.2025, offiziell publiziert auf strom.ch) wurde
+  gefunden (strom.ch/de/media/15458/download), lokal heruntergeladen und vollständig per Read-Tool
+  gelesen (35 Seiten). **Ergebnis:** alle bisher aus Sekundärquellen (EKZ) übernommenen Kernzahlen
+  bestätigen sich zahlengenau (40 %/20 %-Netzentgelt-Rabatt, ≥5 %-Produktionsverhältnis, keine
+  Solidarhaftung, freie interne Preisbildung). Zusätzlich neu erschlossen: die genaue
+  Anschlussleistungs-Formel + Rechenbeispiel (19,2 kVA), das Gründungs-Timing (Anmeldeanspruch erst ab
+  1.1.2026, frühestens aktiv 1.4.2026 wegen 3-Monats-Frist), die vollständige Speicher-Übergangsregelung
+  (Kap. 8, vier Anwendungsfälle, i.d.R. ohne Zusatzzähler) sowie Vergütungs-/HKN-Regeln (Kap. 9-10:
+  LEG-interner Strom trägt automatisch die Qualität der LEG-Produktionsanlage, keine separate
+  Stromkennzeichnung) → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` auf **established,
+  primärquellen-verifiziert** gehoben, FAQ F33 + Themenartikel `[[pv-eigenverbrauch-zev]]` geschärft.
+  Löst den seit D6/D24/E37 offen geführten Prioritätspunkt «VSE-Branchenempfehlung LEG seitengenau»
+  vollständig ab.

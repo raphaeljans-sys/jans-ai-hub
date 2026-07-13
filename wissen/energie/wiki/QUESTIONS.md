@@ -401,12 +401,25 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Minergie/ecobau-Methodikpapier (12.09.2023) lokal per Read-Tool gelesen bestaetigt die E34-Zahlen
   zahlengenau und liefert das bisher fehlende PV-Rechenbeispiel (1,72 kg CO₂-eq/m²EBF·a bei 65 m²
   Panelflaeche/42 % Eigenverbrauch/175 m² EBF). Loest Run-50-Prioritaetspunkt «Rechenbeispiel».
+- [x] **E39** **VSE-Branchenempfehlung LEG (BD-LEG) seitengenau als Primaerquelle gefunden und
+  gelesen** belegt ✓ 2026-07-13 (Run 52) → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` auf
+  **established, primaerquellen-verifiziert** gehoben (vorher nur EKZ-Sekundaerquelle + Sekundaerzitat
+  der VSE-Kernaussage). Primaerquelle: «Branchenempfehlung Lokale Elektrizitaetsgemeinschaften (LEG),
+  BD LEG – CH 2025 V2» (VSE/AES, verabschiedet 27.06.2025), amtlich publiziert auf strom.ch, lokal
+  heruntergeladen und komplett (35 S.) per Read-Tool gelesen. Bestaetigt 40 %/20 %-Rabatt und
+  ≥5 %-Produktionsverhaeltnis zahlengenau, ergaenzt Anschlussleistungsformel + Rechenbeispiel,
+  Gruendungs-Timing (fruehestens 1.4.2026 aktiv), vollstaendige Speicher-Uebergangsregelung sowie
+  Verguetungs-/HKN-Regeln. FAQ F33 + Themenartikel `[[pv-eigenverbrauch-zev]]` geschaerft. Loest den
+  seit D6/D24/E37 offen gefuehrten Punkt «VSE-Branchenempfehlung LEG seitengenau» vollstaendig ab.
+  Die amtliche Rp/kWh-Bandbreite bleibt bewusst offen — die Primaerquelle bestaetigt ausdruecklich
+  freie Preisbildung ohne regulatorische Vorgabe, keine Recherchelücke.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F59
-  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37), MuKEn-Modul-G established
-  (E38) — Meta-Punkt M2 ist SEIT RUN 45 (also sieben Laeufen in Folge) spruchreif fuer eine
-  Entscheidung und wird hier zum siebten Mal vermerkt. Der Loop kann sie nicht selbst treffen —
-  braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht sich der
-  Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**
+  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37), MuKEn-Modul-G UND
+  LEG-Branchenempfehlung primaerquellen-verifiziert established (E38, E39) — Meta-Punkt M2 ist SEIT
+  RUN 45 (also acht Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum achten Mal
+  vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort von Raphael in
+  einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu
+  erzeugen.**

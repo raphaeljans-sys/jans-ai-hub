@@ -2,6 +2,29 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 52: VSE-Branchenempfehlung LEG (BD-LEG) primärquellen-verifiziert
+- **Run-Report** `outputs/2026-07-13_energie-run52.md`. PDF-Inventar weiterhin vollständig
+  abgearbeitet; Block 1 lief über gezielte Web-Recherche zu einem der drei Run-51-Kandidaten.
+- **Primärquelle gefunden und vollständig gelesen:** die amtliche VSE-Branchenempfehlung
+  «Lokale Elektrizitätsgemeinschaften (LEG), BD LEG – CH 2025 V2» (VSE/AES, verabschiedet
+  27.06.2025, strom.ch/de/media/15458/download) wurde lokal heruntergeladen und komplett (35
+  Seiten) per Read-Tool gelesen — bisher war die KB nur auf die EKZ-Umsetzungsseite und
+  Sekundärzitate der VSE-Kernaussage gestützt.
+- **Ergebnis:** die bisherigen Kernzahlen (40 %/20 %-Netzentgelt-Rabatt, ≥5 %-Produktions-
+  verhältnis, keine Solidarhaftung, freie interne Preisbildung) bestätigen sich **zahlengenau**
+  aus der Primärquelle. Neu erschlossen: Anschlussleistungsformel + Rechenbeispiel (19,2 kVA),
+  Gründungs-Timing (Anmeldeanspruch erst ab 1.1.2026, unter 3-Monats-Frist frühestens aktiv
+  1.4.2026), vollständige Speicher-Übergangsregelung (Kap. 8, vier Anwendungsfälle, i.d.R. ohne
+  Zusatzzähler) sowie Vergütungs-/HKN-Regeln (Kap. 9-10: LEG-interner Strom ohne separate
+  Stromkennzeichnung, trägt automatisch Qualität der LEG-Produktionsanlage).
+- **Destillate/Wiki ergänzt:** `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` (Frontmatter auf
+  primärquellen-verifiziert established, neue Sektionen Gründung/Speicher/Vergütung+HKN), FAQ
+  F33 geschärft, Themenartikel `[[pv-eigenverbrauch-zev]]` ergänzt.
+- **Register:** `training/pdf-inventar.md` (neue Web-Quelle), `destillate/INDEX.md`,
+  `training/curriculum.md` (D26 neu), `wiki/QUESTIONS.md` (E39 neu, Meta-Zähler auf «achtes Mal»).
+- **Meta-Eskalation:** M2 (Skill-`energie`-Entscheid) zum **achten Mal in Folge** als spruchreif
+  vermerkt (Run 45-52) — keine Mail versendet, nur Vermerk gemäss Vorgabe.
+
 ## 2026-07-13 — Run 51: MuKEn-2025-Modul-G established + PV-Rechenbeispiel
 - **Run-Report** `outputs/2026-07-13_energie-run51.md`. PDF-Inventar weiterhin vollstaendig
   abgearbeitet; kein neues PDF im SharePoint-Ordner gefunden.

@@ -1230,10 +1230,20 @@ Gemeindeabgaben und Messtarife.
 | Reichweite | ein/mehrere Grundstuecke ohne Netznutzung | mehrere Liegenschaften **in der Gemeinde** |
 
 **Voraussetzungen:** gleiches Netzgebiet, **gleiche Gemeinde**, gleiche Netzebene (NE5/NE7, nicht ueber 36 kV),
-**Mindest-Produktion ≥ 5 %** der Anschlussleistung aller Teilnehmer, **Smart Meter**. Der Netzbetreiber
-(z. B. EKZ) misst und stellt Einzelrechnungen; die interne LEG-Abrechnung macht ein **LEG-Vertreter**.
-**Faustregel:** eigenes MFH → ZEV/vZEV (groesster Vorteil); Nachbarn/mehrere Eigentuemer im Quartier → LEG;
-beides kombinierbar.
+**Mindest-Produktion ≥ 5 %** der Anschlussleistung aller Teilnehmer (Anlagen mit ≤500 Betriebsstunden/Jahr
+zaehlen nicht mit), **Smart Meter**. Der Netzbetreiber (z. B. EKZ) misst und stellt Einzelrechnungen; die
+interne LEG-Abrechnung macht ein **LEG-Vertreter**. **Faustregel:** eigenes MFH → ZEV/vZEV (groesster
+Vorteil); Nachbarn/mehrere Eigentuemer im Quartier → LEG; beides kombinierbar.
+
+**Gruendung — Ablauf und Timing (aus der VSE-Primaerquelle, verifiziert 13.07.2026):** Der Anmeldeanspruch
+fuer eine LEG besteht erst **ab 1.1.2026**; unter Beruecksichtigung der 3-Monats-Meldefrist ist eine LEG
+damit **fruehestens per 1.4.2026** aktiv, ausser der VNB stimmt einer frueheren Umsetzung bilateral zu.
+Bildung/Aufloesung/Teilnehmerwechsel muessen dem VNB **3 Monate im Voraus** gemeldet werden (Ein-/Austritte
+1 Monat). **Keine Solidarhaftung** unter den Teilnehmern (anders als beim ZEV) — jeder haftet dem VNB nur
+fuer seinen eigenen Bezug; das Einverstaendnis des Grundeigentuemers ist (anders als bei ZEV/vZEV) nicht
+zwingend Voraussetzung fuer den Beitritt eines Mieters. Ein **Batteriespeicher** kann in der LEG ohne
+zusaetzlichen Zaehler betrieben werden, solange auf die Rueckerstattung des Netznutzungsentgelts fuer
+Speicher-Rueckspeisungen verzichtet wird → [[batteriespeicher-heimspeicher-pv-ch]].
 
 **Preis-Groessenordnung (⚠ Marktbeispiel, nicht amtlich, ergaenzt 2026-07-13):** Die Preisbildung **innerhalb**
 der LEG ist laut VSE-Branchenempfehlung **frei waehlbar** (keine regulatorische Vorgabe). Ein kommerzieller
@@ -1244,10 +1254,13 @@ das rechnerisch rund CHF 600/Jahr Mehrertrag ggue. reiner Einspeisung. Diese Zah
 VSE-/ElCom-Vorgabe**, nur eine plausible Marktrechnung — fuer ein konkretes Projekt zwingend beim
 Standort-VNB verifizieren.
 
-**Quelle:** EKZ «Lokale Elektrizitaetsgemeinschaft» (Umsetzung StromVG) + VSE-Branchenempfehlung LEG →
+**Quelle:** EKZ «Lokale Elektrizitaetsgemeinschaft» (Umsetzung StromVG) + VSE-Branchenempfehlung «BD LEG –
+CH 2025 V2» (verabschiedet 27.06.2025) — **established, 13.07.2026 vollstaendig lokal aus der amtlichen
+35-seitigen Primaerquelle gelesen** (strom.ch/de/media/15458/download) →
 `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`; ZEV/vZEV-Abgrenzung → F32 / `[[zev-eigenverbrauch-mfh-her-2025]]`;
 Themenartikel → `[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-05/2026-07-13:** LEG erst seit 1.1.2026 in
-Kraft, Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen. Energierecht → Skill `baurecht`.
+Kraft, Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen (Preisbildung ist gemaess
+Primaerquelle ausdruecklich frei, keine amtliche Bandbreite vorgegeben). Energierecht → Skill `baurecht`.
 
 ---
 
