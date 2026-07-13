@@ -360,6 +360,34 @@ Healthcare-Projekten mit grosser Stellplatzzahl) ist **früh im Vorprojekt** zu 
 räumlich getrennte vertikale Fluchtwege ins UG-Layout passen; das ist ein Grundriss-Parameter,
 kein nachträglich lösbares Detail.
 
+> **KORREKTUR/AKTUALISIERUNG (Run 28, 2026-07-13):** Der eingangs zu §4c angebrachte
+> Datenstand-Vorbehalt («Arbeitshilfe 1002-03d von 2003, vor Anwendung gegen bsvonline.ch
+> prüfen») bestätigt sich als berechtigt. Die **aktuelle** VKF-Brandschutzarbeitshilfe
+> **1001-15de «Wohnbauten»** (Stand 2015/2018, Ziff. 12.2, unter Verweis auf die geltende
+> BSR 15-15 Z.3.7.11) nennt für **Parkings** (BSN-Begriff: Einstellräume **> 600 m²** Grund-
+> fläche, siehe §5g) **höhere** zulässige Brandabschnittsflächen als die 2003er-Arbeitshilfe:
+>
+> | Konfiguration | 2003 (Arbeitshilfe 1002-03d, oben zitiert) | 2015/aktuell (Wohnbauten-Arbeitshilfe Ziff. 12.2) |
+> |---|---|---|
+> | eingeschossig / Geschosse einzeln abgetrennt | 4'000 m² | **4'800 m²** |
+> | mehrgeschossig, offene Verbindung | 2'000 m² | **2'400 m²** |
+> | teilweise offen, je Geschoss | 8'000 m² | **9'600 m²** |
+> | mit Sprinkler-Vollschutz | verdoppelbar | verdoppelbar (unverändert) |
+>
+> Auch die **RWA-Verzichtsschwellen** aus der 2003er-Arbeitshilfe sind überholt: die aktuelle
+> **VKF-Grundrichtlinie «Rauch- und Wärmeabzugsanlagen» (BSR 21-15, Stand 01.01.2015, → §5l)**
+> verlangt eine RWA für Parkings **unter Terrain/allseitig geschlossen** erst ab **> 3'600 m²
+> mit Löschanlage** (2003-Arbeitshilfe: bereits ab > 1'200 m²) bzw. **über Terrain, nicht
+> allseitig geschlossen** erst ab **> 4'800 m² mit Löschanlage** (2003: bereits ab > 2'400 m²).
+> Die ohne-Löschanlage-Schwelle (600 m² bzw. 2'400 m²) ist in beiden Quellen identisch geblieben.
+>
+> **Praxiskonsequenz:** Für ein laufendes Bewilligungsverfahren gelten die **aktuellen** Zahlen
+> (Wohnbauten-Arbeitshilfe Ziff. 12.2 / BSR 21-15) — die oben stehenden Werte aus der
+> 2003er-Parkhaus-Arbeitshilfe sind als **historisch/überholt** zu lesen, nicht als
+> Bemessungsgrundlage. Die uebrigen, nicht flächenbezogenen Kernzahlen aus §4c (Tragwerk R60/
+> R30, Fluchtweg-Kernzahlen 600/900 m² je Treppenanlage, Löschposten-Gehweglinie 40 m) werden
+> durch die neuen Quellen nicht widerlegt und bleiben stehen.
+
 ---
 
 ## 4d · Bauten mit Atrien und Innenhoefen (Run 24, 2026-07-13)
