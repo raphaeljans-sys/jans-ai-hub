@@ -28,9 +28,10 @@
 - [ ] **BSV 2026 überwachen:** Sobald die definitiven Norm-/Richtlinientexte auf
   bsvonline.ch publiziert sind (erwartet nach IOTH-Entscheid März 2027), herunterladen und
   neben den 2015er-Bestand legen; Skill `brandschutz` erst NACH Inkraftsetzung umstellen.
-- [ ] DIN-Ordner enthält `FileOpenInstaller.dmg` + Anleitung — sind die DIN-PDFs DRM-geschützt
-  (FileOpen)? Falls headless nicht lesbar: im Inventar als «DRM, manuell» markieren. (Prüfen in
-  einem der nächsten Läufe, wenn P3/DIN dran ist.)
+- [x] DIN-Ordner enthält `FileOpenInstaller.dmg` + Anleitung — **beantwortet, DIN/VSS/RAL
+  komplett 13.07.2026 (Run 5):** alle 72 DIN-Dateien wurden destilliert oder als Nicht-Norm
+  übersprungen, kein DRM-Hindernis aufgetreten; `FileOpenInstaller.dmg` selbst ist kein
+  Norm-PDF und im Inventar als übersprungen erfasst.
 - [ ] SIA 385/1: nur Screenshots im Themenordner — PDF fehlt im Bestand `alle`? Prüfen.
 - [ ] SIA 380/1: Register-gültig ist 2009; Bestand-Ordner nennt `SIA 380_1_2016` — 2016er
   Ausgabe im Bestand? Beim Destillieren von 380/1 verifizieren und im Register nachtragen.
@@ -41,11 +42,10 @@
   DIN-EN-Dokumente (4102-1/2, 18040-1/2, 1946-6) wurde dies in diesem Lauf NICHT getestet
   (aus Kostengründen zurückgestellt) — im nächsten DIN-Lauf prüfen und ggf. als «DRM,
   manuell» markieren.
-- [ ] DIN 277-3 (Mengen/Bezugseinheiten) fehlt noch als Destillat — Teil 1+2 der Serie sind
-  fertig (260712), Teil 3 gehört in den nächsten Lauf, damit die DIN-277-Serie komplett ist.
-- [ ] Grosse/scanlastige VSS-Dateien (640 065/281/291a/578, je 8-20 MB) wurden aus
-  Kostengründen in diesem Lauf zurückgestellt — Familie VSS ist damit noch nicht komplett
-  (4 von 11 PDF-Normen destilliert).
+- [x] DIN 277-3 (Mengen/Bezugseinheiten) — **destilliert 260712** (din-277-3-2005.md),
+  DIN-277-Serie (Teil 1-3) komplett.
+- [x] Grosse/scanlastige VSS-Dateien (640 065/281/291a/578) — **destilliert 260713 (Run 4)**,
+  Familie VSS im Inventar vollstaendig abgearbeitet.
 - [ ] Merkblatt SIA 2014 «CAD-Layerorganisation» (der Layerkatalog, auf den SIA 400:2000 Ziff.
   B.11.3 zwingend verweist: Agent A–/B–/S– + Elementcode + Präsentationscode E/T/D) ist NICHT im
   Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
@@ -123,13 +123,8 @@
   Treppen) — alle wurden dennoch destilliert, da im Inventar gelistet (Kompoundierungs-Pflicht),
   aber mit deutlichem Vermerk "kein CH-Bezug" im JANS-Praxis-Transfer. Fuer kuenftige Laeufe:
   gleiche Vorsicht bei Interpretation als "verbindliche Norm" gegenueber diesen Auszuegen.
-- [ ] **Offene Gross-Dateien DIN-Sonstiges/DIN-Norm (Mac Mini Run, 13.07.2026):**
-  `Sonstiges/Baupreisindizes.pdf` (23 S.), `Sonstiges/Inhaltsverzeichnis.pdf` (24 S.),
-  `Sonstiges/Planungsgrundlagen.pdf` (42 S., Baurecht Teil weiter), `Sonstiges/Komm Din 18024
-  Teil 1.pdf`, `Sonstiges/VdS-Richtlinie 2234.pdf` (10.9 MB, scanlastig), `DIN-Norm/DIN 1045-2,
-  105-100, 1053-1/-4, 1053-100, 1054, 18040-2, 18232-2, 1946-4, 1960, 1961, 4844-2, DIN V 105-100,
-  DIN V 106, DIN 277-1 Bildteil/MMMP Muenchen (Duplikate/Zusatzmaterial zu bereits destilliertem
-  DIN 277-1)` bleiben offen fuer den naechsten Lauf.
+- [x] **Gross-Dateien DIN-Sonstiges/DIN-Norm** — alle in Run 3+4 (13.07.2026) destilliert,
+  siehe Inventar. Keine offenen Positionen mehr.
 
 - [ ] **Mac Mini Run 3 (13.07.2026, Intensiv-Lauf): CH-Pendants weiterhin offen + Budget-Grenze
   erreicht.** 9 neue Vollstaendig-Destillate (DIN 1045-2, 105-100, 1053-1, 1053-100, 1053-4,
@@ -155,3 +150,13 @@
   Komm DIN 18024 Rest) sowie alle 5 grossen VSS-Scans (40 291, 640 065, 640 281, 640 291a,
   640 578) destilliert; verbleibende 5 Dateien als Nicht-Normen begruendet uebersprungen.
   RAL war bereits komplett. **Naechster Lauf: Endbedingung pruefen und ggf. Task beenden.**
+- [x] **DIN/VSS/RAL KOMPLETT — Mac Mini Run 5 (13.07.2026), Endbedingung erreicht.**
+  Inventar-Abgleich gegen den echten SharePoint-Ordnerinhalt (DIN_Norm 72, VSS_Norm 17,
+  RAL_Norm 1 Dateien) ergab 4 zuvor nicht erfasste Nicht-Norm-Dateien (FileOpenInstaller.dmg,
+  2 Screenshots, 1 Foto) — als übersprungen nachgetragen. Danach: **0 offene [ ]-Positionen**
+  in den DIN-, VSS- und RAL-Abschnitten von `training/norm-inventar.md` — jede Datei ist
+  destilliert oder begründet übersprungen. Der Scheduled Task `normen-training-mini` kann
+  gemäss Endbedingung (Skill-Prompt Schritt 9) beendet werden; entscheidet Raphael. Verbleibende
+  Qualitätslücken (nicht blockierend, siehe oben): Duplikat-Merge VKF (Zeile 73, destruktiv,
+  Rückfrage nötig), Teil-Destillat DIN EN 1627:2011, SN 640 105a als Anhang nicht separat
+  destilliert, fehlende CH-Pendants (SIA 500/SWKI 99-3/SIA 260er) für den SIA/VKF-Loop.

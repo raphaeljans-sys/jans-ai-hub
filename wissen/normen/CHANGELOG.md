@@ -1,3 +1,14 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 5: DIN/VSS/RAL KOMPLETT (Endbedingung erreicht)
+- Inventar-Abgleich gegen den echten SharePoint-Ordnerinhalt: 4 bisher nicht erfasste
+  Nicht-Norm-Dateien nachgetragen (`FileOpenInstaller.dmg`, 2 Screenshots, 1 Foto) — DIN-Header
+  71→72, VSS-Header 14→17 korrigiert.
+- Danach 0 offene `[ ]`-Positionen in DIN (72)/VSS (17)/RAL (1) — jede Datei destilliert oder
+  begruendet uebersprungen. `wiki/QUESTIONS.md` bereinigt (durch Run 3/4 bereits erledigte
+  Eintraege auf `[x]` gesetzt).
+- Meldung **DIN/VSS/RAL KOMPLETT** an Raphael: Scheduled Task `normen-training-mini` kann beendet
+  werden; verbleibende Arbeit ist Qualitaetsvertiefung (VKF-Duplikat-Merge, Teil-Destillate,
+  fehlende CH-Pendants), kein Inventar-Loop mehr noetig. Report: `outputs/2026-07-13_normen-mini-run5.md`.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 4: DIN/VSS-Sonstiges-Rest + alle 5 grossen VSS-Scans komplett
 - Stations-Split eingehalten: NUR DIN/VSS/RAL bearbeitet (SIA/VKF bleiben MacBook Pro). RAL-Familie
   war bereits vollstaendig (1/1).

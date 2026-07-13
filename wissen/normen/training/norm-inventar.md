@@ -462,7 +462,7 @@
 | — | — | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 | keine Norm, Bestellformular — übersprungen |
 | — | — | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 | keine Norm, Lieferschein — übersprungen |
 
-## DIN (71 Dateien)
+## DIN (72 Dateien)
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
@@ -537,8 +537,9 @@
 | [x] 260713 | P3 | `Sonstiges/Planungsgrundlagen.pdf` |  |  | destilliert (din-planungsgrundlagen-hoai-vorschriften-2004.md), HOAI-Leistungsphasen/MBO, kein CH-Bezug |
 | [x] 260713 | P3 | `Sonstiges/Skript_Treppen.pdf` |  |  | destilliert (treppen-hcu-hamburg-2008.md), HCU-Lehrskript + Neufert-Planungsgrundlagen |
 | [x] 260713 | P3 | `Sonstiges/VdS-Richtlinie 2234.pdf` |  |  | destilliert vollstaendig (vds-2234-1999-brand-komplextrennwaende.md), D-Versicherungsmerkblatt, kein CH-Normwerk |
+| — | P3 | `FileOpenInstaller.dmg` |  |  | keine Norm, Installer-Programm (FileOpen-Plugin) — übersprungen, Nachtrag Mini-Run 5 (260713) |
 
-## VSS (14 Dateien)
+## VSS (17 Dateien)
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
@@ -556,6 +557,9 @@
 | — | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  | keine Norm, kurze Notiz/Übersicht (nennt SN 640 291:2020, SIA 500:2009, SN 640 075:2014, ZH-PPV) — übersprungen |
 | — | P3 | `buk/https.docx` |  |  | keine Norm, enthält nur URL zu buk.arch.ethz.ch/Dokumentation/Parkieren — übersprungen |
 | — | — | `xalt/VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | ersetzt/alt (xalt) |
+| — | P3 | `Bildschirmfoto 2021-04-29 um 18.38.50.png` |  |  | keine Norm, Screenshot — übersprungen, Nachtrag Mini-Run 5 (260713) |
+| — | P3 | `Rampe.JPG` |  |  | keine Norm, Foto — übersprungen, Nachtrag Mini-Run 5 (260713) |
+| — | P3 | `buk/SEB250.png` |  |  | keine Norm, Bild — übersprungen, Nachtrag Mini-Run 5 (260713) |
 
 ## RAL (1 Dateien)
 
