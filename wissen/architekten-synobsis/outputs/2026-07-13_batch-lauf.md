@@ -42,3 +42,14 @@ das Inventar bleibt bei 853/853 vollstaendig. Naechster inhaltlicher Fortschritt
 neuem Rohmaterial in `/Volumes/daten/05_Architekten_Synobsis` oder bei einer Erweiterung
 der Aufbereitung (z.B. Stufe-3-Kuratierungs-Nacharbeit an den vermerkten offenen Punkten
 in `wiki/QUESTIONS.md`).
+
+## Dritter Lauf, 06:55–06:56 Uhr
+Erneuter Aufruf `synobsis_batch.sh 25` (VOLLGAS-Taktung, Task `synobsis-batch-nacht`).
+Ergebnis identisch zu den zwei vorherigen Laeufen desselben Tages: Stufe 1 nichts zu tun
+(853/853, offen 0), Stufe 2 `vectors.npz` deterministisch neu geschrieben (853 × 768,
+kein Git-Diff). Einzige Aenderung: Zeitstempel in `catalog/INDEX.md` (06:55) und
+`catalog/cad-index.json` (06:55:44) — weiterhin 15 Architekten mit CAD-Dateien,
+inhaltlich unveraendert. Kein neuer Stoff, keine neuen Befunde. Das Vollstaendigkeits-
+Inventar (853/853) bleibt seit 2026-07-02 unveraendert erreicht; dieser und die
+vorangegangenen Laeufe des Tages dienen nur der Vektorindex-Frischhaltung im Rahmen der
+VOLLGAS-Taktung, nicht dem inhaltlichen Fortschritt.
