@@ -5,8 +5,14 @@ ausgabe: "Beiblatt 1 zu DIN 1072, Mai 1988"
 ersetzt: "Ausgabe 07.87"
 gelesen: "S. 1-10 (vollständig, Gesamtumfang 10 Seiten)"
 datenstand: "Mai 1988"
-status: destilliert
+status: established
 last_updated: 2026-07-13
+verifikation: "verifiziert 260713, Volltextabgleich Run 11: 3 Fehler korrigiert
+  (Brueckenklassen faelschlich Abschnitt 2 statt 3.3.1 zugeordnet; Temperaturschwankungen-
+  Regel falsch als 'Temperaturunterschiede nicht abziehen' statt 'Hohlraum-Querschnitt bei
+  Mindestdicke nicht abziehen' wiedergegeben; Anprall-Ersatzlast 500 kN faelschlich an
+  '>18 t' statt an die Versuchsgrundlage 'etwa 18 t' geknuepft; ausserdem StVO/StVZO in
+  Zitierte-Normen-Liste ergaenzt)"
 links: [[REGISTER]]
 ---
 
@@ -28,15 +34,19 @@ genormten Festlegungen, sondern Hintergrundinformationen zum Verständnis der No
 
 ## Kernziffern mit Fundstellen
 
-- **Zu Abschnitt 2, S. 2:** Brückenklassen 60/30 (übergeordnetes Strassennetz, Bund/
-  Land/Kreis/Stadt/Gemeinde) und 30/30 (untergeordnetes Netz, Forst-/Landwirtschaft);
-  Brückenklasse 12 weggefallen, Nachrechnungsklasse 12/12 dafür eingeführt.
+- **Zu Abschnitt 3.3.1 Brückenklassen, S. 1-2** (Korrektur: nicht Abschnitt 2, dort geht
+  es nur um die Einteilung der Lasten/Lastfälle): Brückenklassen 60/30 (übergeordnetes
+  Strassennetz BAB/Bundesstrasse/Landesstrasse, i.d.R. auch Kreis-/Stadt-/Gemeindestrassen)
+  und 30/30 (untergeordnetes Netz, Ortsverkehr/Forst-/Landwirtschaft); Brückenklasse 12
+  weggefallen, Nachrechnungsklasse 12/12 dafür eingeführt.
 - **Zu Abschnitt 3.3.1, Tabelle 1 Zeile 1, S. 2:** Einzelachslast 130 kN für
   Regelklasse 30 als Bestandteil des Lastschemas.
 - **Zu Abschnitt 4.1.2 Temperaturschwankungen, S. 4:** zusätzlich zu Abschnitt 6.1
-  zu beachten; bei vollständig umschlossenen Querschnitten (Hohlräume) müssen
-  Temperaturunterschiede nicht abgezogen werden, wenn Querschnitt ≤ 50 % der
-  jeweiligen Gesamtquerschnittsdicke.
+  zu beachten (die angegebenen Temperaturschwankungen decken die über die Lebensdauer
+  möglichen Grenzwerte nicht ab); beim Feststellen der geringsten Bauteildicke müssen
+  vollständig umschlossene Hohlräume (z.B. bei Hohlplatten) NICHT abgezogen werden,
+  wenn ihr Querschnitt nicht mehr als 50 % des jeweiligen Gesamtquerschnitts der
+  zugehörigen Bauteile ausmacht (nicht: "Temperaturunterschiede werden nicht abgezogen").
 - **Zu Abschnitt 4.2 Windlasten, S. 5:** Formel W = c_f · q · A; Beispielwert
   Windlast 2,1 kN/m² nach Tabelle 4 entspricht Staudruck q = 1,25 kN/m² (mittlere
   Windwirkung, Wiederkehrperiode 50 Jahre, Höhe 50 m) mit aerodynamischem
@@ -45,9 +55,11 @@ genormten Festlegungen, sondern Hintergrundinformationen zum Verständnis der No
   (Annäherung an Militärfahrzeug-Bremslasten); Radlast Fahrbahnübergänge maximal
   65 kN, abgeleitet aus Einzelachslast 130 kN der Regelklasse 30/30.
 - **Zu Abschnitt 5.3 Ersatzlasten Anprall, Tabelle 5, S. 7:** Seitenlast 500 kN
-  rechtwinklig zur Fahrtrichtung bei Anprall von Lastkraftwagen (>18 t,
-  60-80 km/h) auf Stützen.
+  rechtwinklig zur Fahrtrichtung bei Anprall auf Stützen; Versuchsgrundlage der 500-kN-Last
+  sind Lastkraftwagen von je ETWA 18 t Gesamtgewicht bei 60-80 km/h (Korrektur: nicht
+  ">18 t"; auf Verkehrswegen mit Lastkraftwagen über 18 t und über 80 km/h sind zusätzlich
+  kombinierte, abweisende/anprallenergiemindernde Sicherheitsvorkehrungen vorgesehen).
 - **Zu Abschnitt 6.2 Lagesicherheit, S. 8:** Nachweis gegen Abheben und Umkippen
   wird ausdrücklich gefordert, beschränkt auf Lager- und Gründungsfugen.
 - **Zitierte Normen (S. 10):** DIN 1055 T1/T4, DIN 1072, DIN 1075, DIN-4141-Reihe,
-  DIN 18800 T1/T7, DIN 18809, DIN 50100, DS 804 (Eisenbahnbrücken).
+  DIN 18800 T1/T7, DIN 18809, DIN 50100, DS 804 (Eisenbahnbrücken), StVO, StVZO.
