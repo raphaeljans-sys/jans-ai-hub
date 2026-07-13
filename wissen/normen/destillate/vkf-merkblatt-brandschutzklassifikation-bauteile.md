@@ -1,11 +1,11 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Brandschutz-Praevention.pdf"
-herausgeber: "Brandschutzfachstellen NSV (Nidwaldnische Sachversicherung), Gebäudeversicherung Luzern, Kanton Schwyz, Kanton Obwalden, Kanton Uri"
-ausgabe: "Merkblatt «Brandschutz-Klassifikation von häufig verwendeten Bauteilen», undatiert (Auszug aus BSV 2015, BSR 13-15)"
+herausgeber: "Brandschutzfachstellen NSV (Nidwaldner Sachversicherung), Gebäudeversicherung Luzern, Kanton Schwyz, Kanton Obwalden, Kanton Uri"
+ausgabe: "Merkblatt «Brandschutz-Klassifikation von häufig verwendeten Bauteilen», Version V.1 (PDF-Metadaten: erstellt 11.12.2014; auf dem Blatt selbst kein Datum), Auszug aus BSV 2015, BSR 13-15"
 ersetzt: null
 gelesen: "1/1 Seiten (vollständig, reine Tabelle)"
 datenstand: "2015 (Bezug BSV 2015)"
-status: draft
+status: established
 last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
@@ -47,8 +47,8 @@ Systematik der Kurzbezeichnungen (europäische Klassifikation, sinngemäss zusam
 - **R** — Tragfähigkeit allein (z.B. Stützen ohne Raumabschlussfunktion).
 - **EI** — Raumabschluss mit Wärmedämmungsanforderung (z.B. nichttragende Wände, Brandschutzabschlüsse mit Wärmedämmung).
 - **E** — Raumabschluss ohne Wärmedämmungsanforderung (z.B. Brandschutzabschlüsse zwischen horizontalem und vertikalem Fluchtweg).
-- **RF1** — Reaktion-auf-Feuer-Klasse «nicht brennbar» für Baustoffe.
-- **K 30-RF1** — Kapselungsklasse: Bekleidung, die während 30 Minuten den Beitrag brennbarer Kernschichten zur Brandentwicklung verhindert, kombiniert mit RF1-Anforderung an die Bekleidung selbst.
+- **RF1** — Reaktion-auf-Feuer-Klasse für Baustoffe mit «keinem Brandbeitrag» (umgangssprachlich: nicht brennbar). Das Merkblatt selbst definiert RF1 nicht; Definition gemäss BSR 13-15.
+- **K 30-RF1** — Kapselungsklasse: Bekleidung aus RF1-Baustoffen, die dahinterliegende brennbare Schichten während 30 Minuten vor Entzündung schützt (Definition nicht im Merkblatt, sinngemäss aus BSR 13-15; dort im Vollwortlaut nachprüfen — speculative im Detail).
 
 ## JANS-Praxis-Transfer
 - Skill `brandschutz`: schnelle Übersetzungstabelle für Bauleitungs-Factsheets, wenn eine Bestand- oder Neubauwand/-decke/-stütze in eine REI/EI/R/E-Klasse eingeordnet werden muss (z.B. «EI30-Wand» vs. «EI30-RF1-Wand» Unterscheidung inkl. Kapselungsanforderung K 30-RF1).
@@ -58,5 +58,5 @@ Systematik der Kurzbezeichnungen (europäische Klassifikation, sinngemäss zusam
 
 ## Offene Punkte
 - Die vollständige Brandschutzrichtlinie «Baustoffe und Bauteile» (BSV 2015, BSR 13-15), aus der dieses Merkblatt einen Auszug bildet, liegt als eigene Datei `02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf` im Inventar (Stand 260713: separat in Bearbeitung) — bei Fertigstellung dorthin verlinken und prüfen, ob Redundanzen zu bereinigen sind.
-- Kein Erscheinungsdatum auf dem Merkblatt selbst vermerkt; Datenstand «2015» aus dem referenzierten BSV 2015 abgeleitet (speculative bezüglich exaktem Ausgabedatum des Merkblatts).
+- Kein Erscheinungsdatum auf dem Merkblatt selbst vermerkt; die PDF-Metadaten weisen Version «V.1» und Erstellungsdatum 11.12.2014 aus (Autor «NSV05»), passend zum Bezug auf die per 1.1.2015 in Kraft getretenen BSV-2015-Richtlinien.
 - Kategorien-/Beispiel-Liste ist nicht abschliessend («häufig verwendete Bauteile») — bei selteneren Bauteiltypen (z.B. Sonderkonstruktionen) auf die volle BSR 13-15 zurückgreifen.

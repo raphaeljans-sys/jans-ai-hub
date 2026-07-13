@@ -58,6 +58,15 @@ Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen.
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
 
+**Stand Run 23 (2026-07-13):** Sechste Bestaetigung in Folge ohne neue Erkenntnis. Statt
+eine der fuenf bestandenen Verifikationen erneut zu fahren, drei konkrete Kandidaten
+geprueft: kein neuer JANS-Bewertungsfall (Ordner direkt gelistet), D6 (AZ/GFZ-Kennwerte)
+bleibt offen (Skill `baurecht` liefert nur Rechtssystematik, keine Zonen-Kennwerttabelle —
+Grossrecherche noetig, nicht in einem Trainingslauf zu leisten), Marktpuls unveraendert
+(SNB 0.00 %/Referenzzins 1.25 %, sechster Check ohne neuen Wert). **Diese KB hat aktuell
+keine vom Loop selbststaendig schliessbare Aufgabe mehr** — Details/Empfehlung siehe
+`outputs/2026-07-13_training-run23.md`.
+
 **Stand Run 22 (2026-07-13):** Fuenfter Verifikations-Lauf in Folge — die beiden von Run 20
 als naechste Kandidaten benannten Komplexe **beide** gegengelesen: (1) DXMA-Aufwertungsgewinn-
 Tabelle + alle vier Baurecht-Fallbeispiele ([[erfolgsfaktoren-wettbewerb]]) und (2) Schwamendingen-

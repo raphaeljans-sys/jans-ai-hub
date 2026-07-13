@@ -1,3 +1,32 @@
+## 2026-07-13 — normen-verify-abschluss MacBook: 9 Retro-Verifikationen (2x bestanden, 7x beanstandet-korrigiert) + Brandmauern-Duplikat gemerged
+- Die letzten 9 Draft-Destillate des MacBook-Intensivlaufs vom 12.07. adversarial am
+  Original-PDF verifiziert; alle 9 auf `established` gehoben. Verdikte:
+  bestanden: en-179-1125-2009-panikbeschlaege-gege, vkf-brl-100-15-brandmauern (Merge);
+  beanstandet-korrigiert: sia-104-2003, sia-110-2003, szs-steeldoc-brandschutz-stahlbau-2015,
+  vkf-brl-17-15-kennzeichnung-fluchtwege, vkf-brl-aenderungen-2017,
+  vkf-merkblatt-brandschutzklassifikation-bauteile, vkf-bsv2015-vernehmlassungsbericht,
+  vst-merkblatt-012-tueren-fluchtwegen.
+- Wichtigste Korrektur-Befunde: 2 Bedeutungsumkehrungen (steeldoc: Treppenanlagen sind von
+  der Geschossfläche ENTKOPPELT, nicht gekoppelt; VST 012: Schliesszwangfunktion C = begrenzte
+  Schlüsseldrehung, nicht begrenzte Öffnungszeit); vkf-brl-aenderungen-2017 mit 12 substanziellen
+  Beanstandungen (u.a. QS-Tabelle S.5 falsch dargestellt, Galerie-Definition verdreht,
+  Tabelle-1-Fussnote [5] als eigentliche Änderung, Wärmedämmschichten 3.7.4 umgekehrt);
+  sia-104: falsche «abweichend von SIA 103»-Behauptung entfernt (SIA 103 hat wortgleiche
+  10-Jahres-Klausel); sia-110: Qualifikationstabelle 6.2.5 und Ziffern-Notation auf Original
+  korrigiert; BRL 17-15: «Ziff. 5.1/5.2» → «Ziff. 5 Abs. 1/Abs. 2», Anforderungsstufen [a]/[b]
+  richtiggestellt; NSV-Merkblatt: Herausgeber «Nidwaldner Sachversicherung (NSV)», Datierung
+  V.1/11.12.2014 aus PDF-Metadaten belegt; Vernehmlassungsbericht: Seitenangaben + IOTH als
+  interkantonales Organ der IVTH präzisiert.
+- Brandmauern-Duplikat gemerged: `vkf-brl-brandmauern-100-15.md` in
+  `vkf-brl-100-15-brandmauern.md` zusammengeführt (Basis Fassung A, Ergänzungen aus B:
+  RF1-Materialisierung REI 180, VKF-anerkannte Konstruktion, Anhang-Zeichnungsliste,
+  JANS-Transfer ausschreibung/werkvertrag; scheinbarer Widerspruch Anhang S. 11 am PDF
+  komplementär aufgelöst; Standfestigkeits-Beispiele S. 13 ergänzt), Duplikatdatei gelöscht.
+- INDEX.md und training/norm-inventar.md nachgeführt (9x established, Merge-Vermerk erledigt).
+- Report: `outputs/2026-07-13_normen-verify-abschluss-macbook.md`. Offen bleiben die weiteren
+  Duplikat-Merges (vkf-brl-aenderungen-2017, Solaranlagen, Anerkennungsverfahren) und die
+  REGISTER-Gegenprüfung BRL 100-15 auf spätere Ausgabe.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 9: 12 Verifikations-Korrekturen in Fliesstext eingearbeitet, alle auf established
 - Prioritaet 1 aus Run 8 abgearbeitet: die 12 in Run 8 angehaengten "Verifikations-Hinweis"-
   Abschnitte (din-18065-2000, din-18299-2010, din-4844-2-2001, vss-640060-1994,

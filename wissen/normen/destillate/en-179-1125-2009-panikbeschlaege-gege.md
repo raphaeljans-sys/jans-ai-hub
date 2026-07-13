@@ -5,7 +5,7 @@ ausgabe: "Kurzfassung de 01/09 (Revisionsstand Jan. 2009 lt. Fusszeile S. 8; PDF
 ersetzt: "unbekannt"
 gelesen: "S. 1-8 (komplett, 8 Seiten)"
 datenstand: "2009 (Katalogstand), PDF 2013"
-status: draft
+status: established
 links: [[REGISTER]]
 ---
 

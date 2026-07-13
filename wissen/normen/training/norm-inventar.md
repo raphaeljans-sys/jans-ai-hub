@@ -20,10 +20,10 @@
 | [x] 260712 | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
 | [x] 260712 | P1 | `451_1992_d.pdf` | 451 | 1992 |  |
 | [x] 260713 | P2 | `100_2004_df.pdf` | 100 | 2004 |  Reconcile 260713: sia-100-2004.md  |
-| [x] 260713 | P2 | `104_2003_d.pdf` | 104 | 2003 |  Reconcile 260713: sia-104-2003.md (Status draft, ggf. Vertiefung noetig)  |
+| [x] 260713 | P2 | `104_2003_d.pdf` | 104 | 2003 |  Reconcile 260713: sia-104-2003.md (verifiziert established 260713)  |
 | [x] 260713 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); Reconcile 260713: sia-108-2014.md |
 | — | — | `108_2003_d.pdf` | 108 | 2003 | ersetzt durch 108:2014 (destilliert sia-108-2014.md); Altausgabe uebersprungen |
-| [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (Status draft, ggf. Vertiefung noetig)  |
+| [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (verifiziert established 260713)  |
 | [x] 260713 | P2 | `121_2003_d.pdf` | 121 | 2003 | Teil-Destillat (Formularblaetter S.18-22 nicht im Detail); verifiziert 260713, 1 Fehler korrigiert (Ziff. 3.7); sia-121-2003.md |
 | [x] 260713 | P2 | `125_2017.pdf` | 125 | 2017 | established, verifiziert 260713; sia-125-2017.md |
 | — | — | `142_1998_d.pdf` | 142 | 1998 | ersetzt durch 142:2009 (destilliert sia-142-2009.md); Altausgabe uebersprungen |
@@ -413,7 +413,7 @@
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
 | [x] 260712 | P1 | `01_Brandschutznorm 2015/1-15_Brandschutznorm.pdf` |  |  |  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` | 100 |  |  Reconcile 260713: vkf-brl-100-15-brandmauern.md (Duplikat vkf-brl-brandmauern-100-15.md, Merge offen)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` | 100 |  |  Reconcile 260713: vkf-brl-100-15-brandmauern.md (Duplikat vkf-brl-brandmauern-100-15.md, Merge erledigt 260713; verifiziert established)  |
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/16-15_rev2016_flucht_und_rettungswege.pdf` |  | 2016 |  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/2001-15_VKF-AEAI_BrandschutzMerkblatt_Solaranlange_d.pdf` | 2001 | 2001 |  Reconcile 260713: vkf-brm-2001-15-solaranlagen.md (Duplikat vkf-merkblatt-2001-15-solaranlagen.md, Merge offen)  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` |  | 2017 |  Reconcile 260713: vkf-brl-aenderungen-2017.md (Duplikat vkf-aenderungen-brandschutzrichtlinien-2017.md, Merge offen)  |

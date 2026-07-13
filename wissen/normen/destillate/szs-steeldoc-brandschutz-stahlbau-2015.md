@@ -5,8 +5,9 @@ ausgabe: "steeldoc 03/15, September 2015 — tec 02:2015 «Brandschutz im Stahlb
 ersetzt: "steeldoc tec 02/06 (Erstausgabe 2006, durch diese Ausgabe 2015 überarbeitet/ersetzt)"
 gelesen: "S. 1-43 komplett (ganzes Heft: Titelblatt, Teil I Brandschutz im Stahlbau Kap. 1-9, Teil II Bemessung Kap. 1-6, Anhänge 1-4, Dank/Impressum)"
 datenstand: "2015-09"
-status: draft
+status: established
 last_updated: 2026-07-13
+verifiziert: "2026-07-13 Retro-Verify am Quell-PDF (OCR-Volltextabgleich, alle Fundstellen geprüft; 8 Korrekturen eingearbeitet)"
 links: [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-nachweisverfahren]], [[sia-263-2003]], [[sia-260-2003]]
 ---
 
@@ -37,13 +38,15 @@ Das Heft erklärt in Teil I die Grundlagen des Brandschutzes im Stahlbau
 bauliche/technische Massnahmen wie Bekleidungen, Spritzputz, Verbundbauweisen)
 und in Teil II das **rechnerische Bemessungsverfahren** für den Feuerwiderstand
 von Stahlbauteilen nach SIA 260/263 und Eurocode SN EN 1993-1-2 samt Nomogramm
-und acht durchgerechneten Anwendungsbeispielen (S. 4-37). Kernaussage: Stahl ist
-nicht brennbar, verliert aber ab ca. 500 °C kritische Streckgrenze/E-Modul, so
+und acht durchgerechneten Anwendungsbeispielen (Teil I S. 4-24, Teil II
+S. 25-37). Kernaussage: Stahl ist nicht brennbar, aber seine rechnerische
+Streckgrenze sinkt oberhalb 400 °C und der E-Modul oberhalb 200 °C; die
+kritische Temperatur liegt i.d.R. bei 500-700 °C, so
 dass der Feuerwiderstand entweder über klassierte Bauteile aus dem
 Schweizerischen Brandschutzregister **oder** über einen rechnerischen
 Nachweis (vereinfacht oder verfeinert mit Ausnutzungsgrad) geführt werden kann,
 was gegenüber der reinen Registerklassierung regelmässig deutlich geringere
-Bekleidungsdicken ergibt (S. 32-33, Beispiel H). Ergänzt wird dies durch neun
+Bekleidungsdicken ergibt (S. 32-34, Beispiele F/H). Ergänzt wird dies durch acht
 reale Referenzobjekte (Kap. 9, S. 22-24) und einen Formel-/Bezeichnungs-Anhang
 (Kap. 6, S. 37).
 
@@ -69,8 +72,9 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   Hochhausgrenze neu bei **30 m Gesamthöhe**; Gebäude mit geringen Abmessungen
   (max. 600 m² Gesamtgeschossfläche, ohne Sondernutzungen) grundsätzlich nur
   noch sehr geringe Brandschutzanforderungen (mit Fussnote-Verweis); Anzahl
-  Treppenanlagen neu an Geschossfläche statt Flächeneinheiten gekoppelt (bis
-  900 m² nur 1 Treppenanlage); horizontale Fluchtweglänge neu generell auf
+  Treppenanlagen neu von der Geschossfläche entkoppelt: bis 900 m² genügt
+  1 Treppenanlage, darüber massgebend die maximal zulässigen Fluchtweglängen
+  (nicht mehr Flächeneinheiten); horizontale Fluchtweglänge neu generell auf
   35 m erhöht; bis 50% höhere Brandabschnittsgrössen in Industrie/Gewerbe
   zulässig; klare Trennung Feuerwiderstand/Brennbarkeit; Integration der
   europäischen Baustoffklassifizierung (RF1-RF4 = Brandverhaltensgruppen,
@@ -117,8 +121,9 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   ebene; Nachweis kann mit Naturbrandkurven bei geringer Brandbelastung
   reduzierten/keinen Feuerwiderstand ergeben, braucht dann Zustimmung der
   Brandschutzbehörde zu den Parametern (S. 11).
-- **Kap. 5** — Baulicher Brandschutz: ungeschützter Stahl (bis R30, mit
-  statischer Überdimensionierung auch mehr in Innenräumen), Brandschutz-
+- **Kap. 5** — Baulicher Brandschutz: ungeschützter Stahl (bis R 30; in
+  Innenräumen dank statischer Überdimensionierung erreichbar, insbesondere
+  bei kompakten Profilen oder dreiseitig beflammten Trägern), Brandschutz-
   beschichtungen (dämmschichtbildend, nur für R30/R60 in CH anerkannt,
   objektbezogene Bewilligung der Brandschutzbehörde nötig, Anwendung durch
   VKF-geprüfte Applikateure), Bekleidungen (typisch 18 mm für R30, 30 mm für
@@ -137,9 +142,9 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   nachgewiesen an Cardington-Tests), Tragstruktur im Aussenraum oft
   ungeschützt möglich (S. 18-19).
 - **Kap. 7** — Löschanlagen (v.a. Sprinkler) verhindern den Übergang zur
-  Vollbrandphase und werden bei Standardkonzepten ohne Rechennachweis mit
-  einer Reduktion des geforderten Feuerwiderstands um 30 Minuten honoriert
-  (S. 20). Kosten Löschanlageneinbau ca. 20-30 CHF/m² (relativ bescheiden),
+  Vollbrandphase und werden bei Standardkonzepten ohne Rechennachweis für die
+  meisten Nutzungen mit einer Reduktion des geforderten Feuerwiderstands um
+  30 Minuten honoriert (S. 20). Kosten Löschanlageneinbau ca. 20-30 CHF/m² (relativ bescheiden),
   mit Prämienrabatten 40-80% bei Sprinkleranlagen laut Grobkosten-Tabelle
   Abb. 37 (S. 21).
 - **Kap. 8** — Praxis-Ablauf Brandschutzplanung: Bauvorhaben definieren →
@@ -148,7 +153,7 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   leistungsbasierte Konzepte prüfen (Varianten, Kontakt Brandschutzbehörde) →
   Brandschutzpläne → Baubewilligung → Ausführung/QS → Abnahme/Schlusskontrolle
   → Überwachung/Unterhalt (S. 20-21).
-- **Kap. 9** — Neun Referenzobjekte mit Kennzahlen (Objektname, Ort, Volumen,
+- **Kap. 9** — Acht Referenzobjekte mit Kennzahlen (Objektname, Ort, Volumen,
   Feuerwiderstand, Brandschutzlösung, Baujahr): u.a. FIBA-Hauptsitz Mies
   (Naturbrandnachweis statt R60-Standardkonzept), Mehrzweckhallen Puidoux,
   Messeturm Basel, Hoferweiterung Jelmoli, La Ferriera Locarno, Kuppeldach
@@ -161,11 +166,16 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
 - **Kap. 1.1-1.2** — Zwei Nachweisniveaus: **vereinfachter Nachweis** ohne
   Berechnung des Ausnutzungsgrads (Registerwerte, kritische Temperatur pauschal
   500 °C angenommen) vs. **verfeinerter Nachweis** mit rechnerischem
-  Ausnutzungsgrad μ_fi,t = E_d,fi / R_d,fi,t=0, der bei typischen Ausnutzungs-
-  graden < 0.65 regelmässig deutlich höhere kritische Temperaturen (580-650 °C)
-  und damit geringere erforderliche Bekleidungsdicken ergibt (S. 25).
-- **Kap. 2** — Nomogramm-Verfahren nach EN 1993-1-2/ECCS Explanatory Document
-  N°92 zur Bestimmung der Feuerwiderstandsdauer aus Profilfaktor (A_m/V) und
+  Ausnutzungsgrad μ_fi = E_d,fi / R_d,fi,t=0; der Ausnutzungsgrad liegt bei
+  Wohn-/Bürogebäuden in der Regel unter 0.65, und schon für μ_fi = 0.65 ergibt
+  sich eine kritische Temperatur von 510-630 °C (je nach Anpassungsfaktor κ) —
+  deutlich über den pauschalen 500 °C, entsprechend geringere erforderliche
+  Bekleidungsdicken (S. 25).
+- **Kap. 2** — Nomogramm-Verfahren nach EN 1993-1-2 und ECCS-Euro-Nomogramm
+  (im Text als «ECCS Explanatory Document N°92» zitiert; das Literatur-
+  verzeichnis [11] führt das Dokument als «Explanatory Document for ECCS
+  No. 89 'Euro-Nomogramm' Fire Resistance of Steel Structures», ECCS/EKS 1999)
+  zur Bestimmung der Feuerwiderstandsdauer aus Profilfaktor (A_m/V) und
   thermischem Profilfaktor (A_p·λ_p/d_p) bei bekleideten Profilen; enthält
   Abschattungsfaktor k_sh für verschiedene Querschnittsformen (S. 26-29).
 - **Kap. 3** — Acht durchgerechnete Anwendungsbeispiele A-H (bekleidete
@@ -174,8 +184,10 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   Brandschutzbeschichtung/Spritzputz, unbekleidete Stütze, Stütze mit
   Brandschutzbeschichtung) zeigen konsistent: der verfeinerte Nachweis mit
   Ausnutzungsgrad reduziert die erforderliche Trockenschichtdicke gegenüber
-  dem vereinfachten Registernachweis regelmässig um 40-60% (z.B. Beispiel G/H:
-  1700 µm statt 2350 µm bzw. 600 µm statt 1200 µm) (S. 30-34).
+  dem vereinfachten Registernachweis (Θ_crit = 500 °C) regelmässig um rund
+  die Hälfte oder mehr (Beispiel F: 1000 µm statt 2350 µm; Beispiel H:
+  600 µm statt 1700 µm nach Brandschutzregister bzw. statt 1200 µm nach den
+  umfangreicheren DIBt-Zulassungstabellen) (S. 30-34).
 - **Kap. 4** — Besondere Verfahren: andere Stahlqualitäten (nichtrostende/
   warmfeste Stähle mit günstigerem Brandverhalten), spezielle Brandkurven
   (Hydrokarbon-, Aussenbrandkurve für Tunnel/Spezialfälle), Naturbrandkurven
@@ -195,8 +207,9 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   Applikationsvorgaben (Untergrund gestrahlt Sa 2½, Taupunktabstand min. 3 °C),
   Grobkosten ca. 60 CHF/m² für R30 inkl. Deckbeschichtung, ca. 120 CHF/m² für
   R60 (S. 39).
-- **Anhang 3** — Profilfaktor-Tabellen A_m/V für Walzprofile (IPE/HEA/HEB/
-  HEM/HL/HD/INP/UNP/UPE), bekleidet und unbekleidet (S. 40).
+- **Anhang 3** — Profilfaktor-Tabellen A_m/V (bzw. A_p/V) für Walzprofile
+  (IPE/IPEA/INP/HEA/HEB/HEM/UNP/UPE sowie schwere HD-/HL-Reihen), bekleidet
+  und unbekleidet (S. 40).
 - **Anhang 4** — Literaturverzeichnis; zentrale Referenz [1] «Schweizerische
   Brandschutzvorschriften VKF 2015» (VKF, Bern), Referenz [3] «Schweizerisches
   Brandschutzregister VKF» via praever.ch (S. 41).
@@ -209,7 +222,8 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
   Gebäudehöhe/Geschosszahl/Fläche und Konzeptart (baulich vs. Löschanlage) den
   erforderlichen Feuerwiderstand R30/R60/R90/R120 vor; systematisch steigt die
   Anforderung mit Gebäudehöhe und Nutzungsrisiko, eine Löschanlage reduziert
-  die Anforderung durchgehend um eine Stufe. Für die exakten Werte je
+  die Anforderung für die meisten Nutzungen um eine Stufe (30 Minuten). Für
+  die exakten Werte je
   Nutzungs-/Höhenkombination ist die **VKF-BRL 15-15** selbst (noch nicht in
   dieser KB destilliert) bzw. das Original dieses Heftes zu konsultieren.
 - **Grobkosten Brandschutzmassnahmen (Abb. 37, S. 21):** Bekleidung
@@ -272,7 +286,7 @@ Beton- oder Mauerwerksbau (dort andere SIA-Normen/VKF-Richtlinien massgebend).
 
 - **VKF-BRL 15-15 «Brandschutzabstände Tragwerke Brandabschnitte»** ist die
   in diesem Heft am häufigsten zitierte Primärquelle (u.a. Abb. 5-Tabelle,
-  Fussnoten 1/3/5/9/10/14) und noch **nicht** in dieser KB destilliert
+  Teil I Fussnoten 3/9/10/14, Teil II Fussnote 1) und noch **nicht** in dieser KB destilliert
   (INDEX führt bisher nur BRL 16-15 Flucht/Rettungswege, BRL 14-15 Verwendung
   von Baustoffen, BRL 27-15 Nachweisverfahren, BRL 11-15 Qualitätssicherung
   wird nur erwähnt) — Datei `100-15_Brandmauern.pdf` bzw. eine BRL-15-15-Datei

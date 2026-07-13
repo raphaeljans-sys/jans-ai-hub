@@ -201,3 +201,17 @@
   `outputs/2026-07-13_normen-mini-run9.md`. **Nächster Lauf:** weitere Retro-Verifikation
   des grossen Rests unverifizierter DIN/VSS-Destillate (DIN 5034-Reihe, DIN 1053-Reihe,
   weitere DIN-EN-Normen, VSS-Altbestand), danach Stufe (c) Q&A-Selbstbefragung.
+- [ ] **Verify-Abschluss MacBook (13.07.2026): neue offene Punkte aus den 9
+  Retro-Verifikationen.** (1) Drei Duplikat-Merges noch offen:
+  `vkf-aenderungen-brandschutzrichtlinien-2017.md` → `vkf-brl-aenderungen-2017.md`,
+  `vkf-merkblatt-2001-15-solaranlagen.md` → `vkf-brm-2001-15-solaranlagen.md`,
+  `vkf-brl-anerkennungsverfahren.md` → `vkf-brl-28-15-anerkennungsverfahren.md`
+  (Brandmauern-Merge ist erledigt 260713). (2) sia-104-2003: SIA-111/112-Vergleich als
+  (speculative) markiert — an den Originalen SIA 111/112 gegenprüfen. (3) NSV-Merkblatt
+  Brandschutzklassifikation: K-30-RF1-Definition nur sinngemäss aus BSR 13-15 (speculative)
+  — am BSR-13-15-Original wortgetreu prüfen; Rename wegen Dateiname/Inhalt-Mismatch
+  («Brandschutz-Praevention.pdf») weiterhin offen. (4) steeldoc 03/15: quell-interne
+  Diskrepanz ECCS-Nomogramm (Text «N°92» [10] vs. Literaturverzeichnis [11] «ECCS No. 89»,
+  1999) — nur mit ECCS-Original auflösbar. (5) BRL 100-15 Brandmauern: Gegenprüfung des
+  REGISTERs auf eine allfällig spätere Ausgabe. Details:
+  `outputs/2026-07-13_normen-verify-abschluss-macbook.md`.

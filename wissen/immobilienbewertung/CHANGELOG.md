@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 23: sechste Bestaetigung ohne neue Erkenntnis, kein Ingest
+
+- **Kein neuer Ingest, keine neue Verifikation.** Statt eine der fuenf bereits bestandenen
+  Verifikationen zu wiederholen, drei konkrete Kandidaten geprueft: (1) Bewertungsordner
+  direkt gelistet — kein neuer JANS-Fall seit Wangen 8855 (09.06.); (2) D6 (AZ/GFZ-Kennwerte)
+  gegen `wissen/baurecht/wiki/nutzungsziffern.md` geprueft — nur Rechtssystematik, keine
+  kompilierte Zonen-Kennwerttabelle vorhanden, hub-weite Suche findet nur duenne
+  Einzelwerte (SZ Landhauszone 0.2, Basel-Wettbewerbsfaelle) → D6 bleibt offen, nicht
+  erfunden; (3) Marktpuls-Web-Check — SNB 0.00 % und Referenzzins 1.25 % weiterhin
+  unveraendert (sechster Check in Folge ohne neuen Wert, naechste Publikation 01.09.2026).
+- Report: `outputs/2026-07-13_training-run23.md`. Empfehlung an Raphael verschaerft:
+  D6 als eigene Recherche-Grossaufgabe auslagern oder Takt fuer diese KB auf reine
+  Marktpuls-Checks reduzieren, bis neues Material/ein neuer Fall eintrifft.
+
 ## 2026-07-13 — Training-Run 22: Verifikations-Pass Erfolgsfaktoren + Schwamendingen + Neuwert-Tabellen (Modell D)
 
 - **Fuenfter Lauf in Folge im Verifikations-Modus.** Kein neuer Ingest — drei Komplexe per

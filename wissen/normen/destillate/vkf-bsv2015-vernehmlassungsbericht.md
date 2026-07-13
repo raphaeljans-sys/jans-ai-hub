@@ -5,7 +5,7 @@ ausgabe: "Erläuternder Bericht für die Vernehmlassung, 01.11.2013 / V-3-0de"
 ersetzt: "kein eigenständiger Normtext; erläutert die Gesamtrevision der Brandschutzvorschriften VKF 2003 → 2015"
 gelesen: "Vollständig, S. 1–21 (Titelblatt + Kap. 1–4, Text-PDF vollständig extrahierbar; Anhang gemäss Inhaltsverzeichnis auf S. 22 im vorliegenden Dokument nicht enthalten)"
 datenstand: "2013 (Vernehmlassung), Inkrafttreten der revidierten BSV per 01.01.2015"
-status: draft
+status: established
 links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
 ---
 
@@ -26,8 +26,8 @@ oder die Entstehungsgründe einer heutigen Anforderung der VKF 2015-Richtlinien 
 
 ## Geltungsbereich
 Kein eigener Geltungsbereich als Rechtsnorm — der Bericht dokumentiert den Revisionsprozess
-2010–2013 der VKF-Fachkommission «Brandschutzvorschriften» im Auftrag des IOTH (Interkantonale
-Vereinbarung zum Abbau technischer Handelshemmnisse) und begründet die inhaltlichen Änderungen,
+2010–2013 der VKF-Fachkommission «Brandschutzvorschriften» im Auftrag des IOTH (Interkantonales
+Organ der Vereinbarung zum Abbau technischer Handelshemmnisse, IVTH) und begründet die inhaltlichen Änderungen,
 die dann per 01.01.2015 in Norm VKF 1-15 und den zugehörigen Brandschutzrichtlinien (BRL) in
 Kraft gesetzt wurden (S. 6–7, 11).
 
@@ -44,7 +44,7 @@ Kraft gesetzt wurden (S. 6–7, 11).
   2003er-Werk), auf Basis Wissenschaftsprojekt ETH «Wirtschaftliche Optimierung im vorbeugenden
   Brandschutz» (S. 2, 6–8) und Berücksichtigung des Standes der Technik/europäischer Normung
   (S. 2, 7).
-- **Rahmenbedingungen Projektausschuss (S. 10)**: für ca. 80% der Bauten sollen weiterhin
+- **Rahmenbedingungen Projektausschuss (S. 7)**: für ca. 80% der Bauten sollen weiterhin
   Standardkonzepte ohne Risikobeurteilung/Ing.-Berechnung gelten (kein vollständiger
   Systemwechsel zu risikobasiert); Brandschutzvorschriften müssen die Anwendung harmonisierter
   EU-Normen ermöglichen; Ergebnisse ETH-Projekt einbeziehen; Reduktion der Anforderungen
@@ -74,14 +74,17 @@ Kraft gesetzt wurden (S. 6–7, 11).
 - **Einfamilienhäuser**: keine Brandabschnittsbildungs-Vorschriften mehr zwischen
   Garage-Wohnhaus oder Heizung-Wohnhaus (ausser Holzzentralheizung) (S. 3).
 - **Neue Kategorie «Gebäude mit geringen Abmessungen»**: max. 600 m² Gesamtgeschossfläche,
-  grundsätzlich keine Brandschutzmassnahmen mehr erforderlich, ausser bei spezifischen
-  Nutzungen (Kindergarten, Altersheim, KMU-Betriebe mit kleineren Risiken) (S. 3, 15).
+  grundsätzlich keine Brandschutzmassnahmen mehr erforderlich (die Anforderungen an Flucht-
+  und Rettungswege bleiben); ausgenommen sind spezifische Nutzungen wie Kindergarten oder
+  Altersheim. Die Kategorie widerspiegelt oft vorkommende Gebäudetypen mit kleineren Risiken
+  (z.B. KMU-Betriebe) (S. 3, 20).
 - **Flucht- und Rettungswege** (S. 3, 15–16, dort im Detail in eigener Richtlinie destilliert):
   Entkopplung Anzahl Treppenanlagen von der Geschossfläche (bis 900 m² eine Treppenanlage
   ausreichend statt fix pro 900-m²-Einheit); zulässige horizontale Fluchtwegdistanz generell
   auf 35 m erhöht, ohne Aufteilung Raum/Korridor (vorher max. 20 m Raum + 35 m inkl. Korridor);
-  Begründung ETH-Studie: Zeitdifferenz 20 m vs. 35 m liegt im Sekundenbereich, entscheidend ist
-  der Zeitpunkt der Ereigniswahrnehmung, nicht die Fluchtwegdistanz (S. 15).
+  Begründung ETH-Studie: Zeitdifferenz 20 m vs. 35 m liegt im rauchfreien Raum im einstelligen
+  Sekundenbereich, entscheidend ist der Zeitpunkt der Ereigniswahrnehmung, nicht die
+  Fluchtwegdistanz (S. 3, 15).
 - **Ausgangsbreiten**: bisherige Aufrundungsregel (Breite > 1.2 m auf nächstes Vielfaches von
   0.6 m aufrunden) entfällt — effektiv ermittelte Breite gilt direkt (S. 16).
 - **Brandabschnittsgrösse Industrie/Gewerbe**: in einzelnen Bereichen um bis zu 50% erhöht
@@ -112,8 +115,9 @@ Kraft gesetzt wurden (S. 6–7, 11).
   nur noch einsatztaktisch sinnvolle Geschosse anfahren (Abweichung von EN wegen erkanntem
   Fehler) (S. 17–18).
 - **Wärmetechnische Anlagen**: Anforderungen reduziert (Bezug Energieverordnung/
-  Luftreinhalteverordnung: nur noch kondensierende Feuerungsaggregate, Russbrände praktisch
-  ausgeschlossen, Oberflächentemperaturen < 80°C); Brandabschnittsbildung bei Öl-/Gasfeuerungen
+  Luftreinhalteverordnung: für Raumheizung/Warmwasser nur noch kondensierende
+  Feuerungsaggregate bei Betrieb mit gasförmigen oder flüssigen Brennstoffen, Russbrände
+  praktisch ausgeschlossen, Abgas- und Oberflächentemperaturen < 80°C); Brandabschnittsbildung bei Öl-/Gasfeuerungen
   im Einfamilienhaus nicht mehr gerechtfertigt (ETH-Studie) (S. 18).
 - **Gasmeldeanlagen**: Richtlinie ersatzlos aufgehoben, da kein konkretisierbarer
   Anwendungsbereich (S. 20).
@@ -142,10 +146,12 @@ Kraft gesetzt wurden (S. 6–7, 11).
 - Koordination mit Arbeitsgesetz/ArGV4 (SECO zuständig) bei Flucht-/Rettungswegen — Verhandlungen
   zur materiellen Vereinheitlichung liefen zum Zeitpunkt des Berichts erfolglos; Risiko
   unterschiedlicher Anforderungen je nach Gebäudenutzer (Bewohner vs. Arbeitnehmer) (S. 9–10).
-- **Zuständigkeit für Erlass**: das Interkantonale Organ (IOTH) gemäss Art. 4/6 der Vereinbarung
-  zum Abbau technischer Handelshemmnisse vom 23.10.1998 (S. 21).
-- **Keine kantonalen Ausnahmen** (Art. 6 IVTH würde dies grundsätzlich erlauben): der
-  Projektausschuss verzichtet ausdrücklich auf die Bewilligung kantonaler Ausnahmen, weil das
+- **Zuständigkeit für Erlass**: das Interkantonale Organ gemäss Art. 4 i.V.m. Art. 6 der
+  Interkantonalen Vereinbarung zum Abbau technischer Handelshemmnisse (IVTH) vom
+  23.10.1998 (S. 21).
+- **Keine kantonalen Ausnahmen** (Art. 6 IVTH würde dies grundsätzlich erlauben; unter den
+  aktuell gültigen Vorschriften waren einzelnen Kantonen noch Ausnahmen bewilligt): auf die
+  Bewilligung von Ausnahmen für einzelne Kantone wird ausdrücklich verzichtet, weil das
   Regelwerk als abgestimmtes Gesamtwerk konzipiert ist («Das Feuer brennt in allen Kantonen
   gleich», S. 21).
 - Erwarteter Ausbildungsbedarf für Brandschutzinstanzen/Planer/Anwender wegen neuer,
@@ -171,7 +177,7 @@ Dokument sammelt (vorher über einzelne Richtlinien verstreut).
   25/30 m) so und nicht anders lautet — nützlich bei Rückfragen von Bauherrschaft/Behörde nach
   der Begründung einer Erleichterung oder Verschärfung gegenüber 2003.
 - Skill `machbarkeit` / `behoerden-vorabklaerung`: Kategorie «Gebäude mit geringen Abmessungen»
-  (max. 600 m² Gesamtgeschossfläche, S. 3, 15) und die erhöhte Hochhausgrenze (30 m statt 25 m,
+  (max. 600 m² Gesamtgeschossfläche, S. 3, 20) und die erhöhte Hochhausgrenze (30 m statt 25 m,
   S. 3) sind relevante Schwellenwerte für die frühe Einordnung eines Bauvorhabens.
 - Skill `ankaufspruefung`: bei Bestandsbauten, die noch nach BSV 2003 bewilligt wurden, liefert
   dieser Bericht die Vergleichsbasis, welche Anforderungen sich seit 2015 gelockert bzw.

@@ -13,6 +13,61 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 10:48 — MacBook-Runner ~1.5 h tot (Luecke geschlossen), neu gestartet; Mini durchgehend voll [FREI]
+
+**Fensterzustand [FREI]:** Fenster hat Kapazitaet. Beweis am realen Betrieb: der Mac-Mini-Runner
+faehrt durchgehend rc=0 (energie Run 47 10:14, normen-mini Run 8+9 bis 10:24, planungsgrundlagen
+Run 27 10:24) und NAS-Commits laufen bis 10:45 — das Konto ist eingeloggt und das 5h-Fenster (Reset
+war 08:50) noch nicht ausgereizt. Der blanke `claude -p --model haiku` aus der Radar-Shell meldet
+weiterhin «Not logged in» = bekanntes **Env-Artefakt** (Token vorhanden: TOKEN_SET=JA; der Runner
+sourced ihn korrekt). **KEIN echter Login-Block.**
+
+**P1 (in diesem Lauf selbst behoben) — MacBook-Runner war tot:** Der MacBook-Runner ist nach
+`START normen-training-nacht` um 09:20:49 stumm ausgefallen (kein ENDE, 0 aktive `claude -p`, kein
+Runner-Prozess, keine STOP-Datei) — ~1 h 28 min ungenutzte Luecke, in der nur der Mini + der Radar
+Token zogen. Genau die Luecke, die der Taktgeber verhindern soll. Da Login OK, Fenster frei und
+keine STOP-Datei: Runner unter der stehenden VOLLGAS-Autorisierung neu gestartet (10:49, PID 4210,
+Zyklus 1). Verifiziert: laeuft, baurecht-buch-training aktiv (1 `claude -p` rc-Fortschritt).
+
+**Lagebild (gruen, ausser der behobenen Luecke):**
+- Mini-Runner gesund (Log frisch 10:24, Zyklus 144). MacBook-Runner ab 10:49 wieder aktiv.
+- **Durchsatz:** 16 NAS-Commits/90 Min (davon nur der Mini + Selfcommits, da MacBook ausgefallen —
+  wieder anziehend, sobald der MacBook-Zyklus greift). Substanz: normen-mini Run 8 (12/12 DIN/VSS-
+  Destillate retro-verifiziert und korrigiert) + Run 9 (12 Korrekturen in den Fliesstext eingearbeitet,
+  alle auf `established`), energie Run 46+47 (ZH-Solarpflicht RRB-Belege, GEAK-Handaenderungspflicht,
+  Batteriespeicher-Amortisation), planungsgrundlagen Run 26+27, wettbewerbs-dna (Rang-Entscheid Raphael
+  belegt). Die Normen-DIN/VSS-Verifikation bleibt der substanzstaerkste Loop.
+
+**Hebel-Priorisierung:** Weil der MacBook-Runner ausgefallen war, wurde das Fenster auf der
+MacBook-Seite NICHT gefuellt — mehr Last (= Runner-Neustart) war hier der richtige Hebel, jetzt
+umgesetzt. Empfehlung fuer den naechsten Lauf: pruefen, ob der MacBook-Runner erneut still ausfaellt
+(Wiederholungsmuster) — falls ja, launchd-Keepalive fuer den Runner erwaegen statt manuellem Neustart.
+
+**Selbstverschuldeter Nebeneffekt (ehrlich vermerkt):** Beim Bereinigen eines auf dem SMB-Mount
+haengen gebliebenen `git commit` habe ich `pkill -f "git commit"` benutzt — das hat auch den
+laufenden `baurecht-buch-training`-`claude -p` getroffen (dessen Prompt-Text den String «git commit»
+enthaelt), Ergebnis rc=143 nach 679 s. Der Runner hat sich sofort erholt (START immobewertung 11:00:58),
+Verlust ~1 Loop-Iteration; baurecht laeuft im naechsten Zyklus erneut. **WARNUNG fuer kuenftige
+Radar-Laeufe: NIE `pkill -f "git commit"` auf dieser Station** — die Trainings-Prompts enthalten diesen
+String. Stattdessen den haengenden git-Prozess ueber die konkrete PID killen (`ps` → PID, `kill <PID>`)
+und Prozesse mit `claude -p` im Kommando ausschliessen.
+
+**Git-Ablage dieses Eintrags:** Der `git commit` auf dem SMB-gemounteten NAS-Repo lief mehrfach in den
+2-Min-Timeout (bekannte SMB-Langsamkeit + Multi-Committer-Kontention der Loops). RADAR.md ist auf Disk
+geschrieben und **staged**; die DSM-native `nas-selfcommit` (alle 15 Min, ext4, nicht ueber SMB)
+committet + pusht den Eintrag automatisch — das ist genau ihr Zweck. Kein weiterer manueller
+Commit-Versuch (verschaerft nur die Lock-Kontention).
+
+- **P2 (unveraendert) — NAS-Mount-Remount zielt remote auf LAN-IP** (`smb://192.168.1.10/daten`),
+  via Tailscale nicht erreichbar. Fuer Morgen-Briefing: Tailscale-Hostnamen-Fallback ergaenzen.
+- **P3 (unveraendert) — Leerlauf-Loops:** immobewertung (10:20 «keine Anfrage»), synobsis (853/853,
+  8 s Leerlauf), energie (KB gesaettigt, Meta-Frage M2 «eigener energie-Skill?» seit Run 41
+  entscheidungsreif). Empfehlung: diese drei ins Nachtfenster ruecktakten, freie Kapazitaet auf die
+  Normen-DIN/VSS-Verifikation lenken. Entscheid bei Raphael (Ruecktaktung nicht stillschweigend).
+
+**Mail:** KEINE. Die Runner-Luecke war selbst behebbar (kein Raphael-only Login-/Credential-Block),
+in diesem Lauf behoben — kein Mail-Anlass gemaess Disziplin.
+
 ## 2026-07-13 09:27 — Fenster um 08:49 voll ausgereizt, um 8:50 Reset, Vollgas laeuft von selbst wieder [VOLL→FREI]
 
 **Fensterzustand [VOLL→FREI, Taktgeber greift]:** Das vorige 5h-Fenster wurde von ~08:01 bis

@@ -5,7 +5,7 @@ ausgabe: "Technisches Merkblatt Nr. 012, Erstausgabe 2009, Version 2009_1"
 ersetzt: null
 gelesen: "S. 1-9 (komplett)"
 datenstand: "2009"
-status: draft
+status: established
 last_updated: 2026-07-13
 links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]]
 ---
@@ -16,7 +16,7 @@ links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznor
 Das Merkblatt des Verbands Schweizerische Türenbranche (VST) übersetzt die gesetzlichen Anforderungen an Fluchtwegtüren (VKF-Brandschutzvorschriften, Arbeitsgesetz) in die konkrete Schloss-/Beschlagtechnik und richtet sich an Türenhersteller, Architekten, Planer und Generalunternehmer (Einleitung, S. 1). Kernunterscheidung ist Notausgangstüre (mechanisch nach EN 179 bzw. elektrisch nach prEN 13637, ortskundige Nutzer, eine Handbewegung/Drücker) versus Panikausgangstüre (mechanisch nach EN 1125 bzw. elektrisch nach prEN 13633, Panikstange/Pushbar, für Räume mit grossen oder ortsfremden Personenansammlungen); der Entscheid Notausgang vs. Paniktüre liegt bei der Behörde (Ziff. 4.1/5.1, S. 3). Anhang I zitiert die (zum Publikationszeitpunkt 2009 geltenden) einschlägigen Artikel der VKF-Vorschriften zu Fluchtwegtüren (Begriff, Breiten, Türanforderungen) — dieser Anhang ist historisch (alte VKF-Normtext-Nummerierung Art. 37/47/48) und deckt sich nicht zwingend mit der Ziffern-Struktur der aktuellen VKF-Brandschutznorm 1-15:2015 (Destillat `vkf-brandschutznorm-2015.md`), weshalb bei aktuellen Projekten primär die BRL 16-15 «Flucht- und Rettungswege» (Destillat `vkf-brl-16-15-flucht-rettungswege.md`) und die Brandschutznorm 2015 massgebend sind und dieses Merkblatt nur ergänzend zur Schlosstechnik dient.
 
 ## Geltungsbereich
-Das Merkblatt ist keine amtliche Norm, sondern eine Branchenpublikation des VST (Verband Schweizerische Türenbranche, Tel. 043 411 44 68, www.vst.ch) zur praktischen Umsetzung der gesetzlichen und normativen Anforderungen an Türen in Fluchtwegen (Einleitung, S. 1). Es adressiert primär die Schloss-/Beschlagtechnik (mechanisch und elektrisch gesteuert) von Fluchtwegtüren, nicht die brandschutztechnische Grundkonzeption (Fluchtweglängen, Anzahl Fluchtwege) — dafür sind die VKF-Brandschutzvorschriften massgebend (Ziff. 1.2, S. 2). Über die gesetzlichen Mindestanforderungen entscheidet die zuständige Brandschutzbehörde und, sobald Arbeitsplätze betroffen sind, zusätzlich das Arbeitsinspektorat (Einleitung, S. 1).
+Das Merkblatt ist keine amtliche Norm, sondern eine Branchenpublikation des VST (Verband Schweizerische Türenbranche, Tel. 043 411 44 68, www.vst.ch) zur praktischen Umsetzung der gesetzlichen und normativen Anforderungen an Türen in Fluchtwegen (Einleitung, S. 1). Es adressiert primär die Schloss-/Beschlagtechnik (mechanisch und elektrisch gesteuert) von Fluchtwegtüren; die massgebenden schweizerischen Vorschriften (VKF-Brandschutznorm, ArGV 4) beschreiben dabei nicht das Produkt selbst, sondern die objektbezogenen Auslegungen und Funktionen der zu verwendenden Bauteile, und die Anforderungen von Brandschutzbehörde und Arbeitsinspektorat gelten als Mindestanforderungen (Ziff. 1.2, S. 2). Über die gesetzlichen Mindestanforderungen entscheidet die zuständige Brandschutzbehörde und, sobald Arbeitsplätze betroffen sind, zusätzlich das Arbeitsinspektorat (Einleitung, S. 1).
 
 ## Kernziffern (mit Fundstelle)
 
@@ -55,7 +55,7 @@ Vier Teilziele für Fluchtwegtüren:
 ### 6. Funktionen mechanischer Panikschlösser (Ziff. 6, S. 4-5)
 Vier genormte Funktionstypen (Buchstaben-Kennzeichnung, Hersteller können im Detail abweichen — Funktionsbeschreibung der Fabrikate immer prüfen):
 - **Umschaltfunktion B**: beidseitig Drücker mit getrennter Nuss; per Schlüsseldrehung wird Aussendrücker an-/abgekoppelt; von innen immer über Drücker frei begehbar
-- **Schliesszwangfunktion C**: Aussendrücker grundsätzlich abgekoppelt, nur begrenzte Öffnungszeit nach Schlüsseldrehung (automatischer Rücksprung als Sicherungsfunktion gegen Vergessen des Verschliessens)
+- **Schliesszwangfunktion C**: Aussendrücker grundsätzlich abgekoppelt; nach einer begrenzten Schlüsseldrehung in Öffnungsrichtung kann die Türe von aussen über den Drücker geöffnet werden, nach Schlüsselabzug ist der Drücker automatisch wieder auf Leerlauf (Sicherungsfunktion: das Verschliessen kann nicht vergessen werden)
 - **Durchgangsfunktion D**: Aussendrücker in Grundstellung angekoppelt (beidseitig frei begehbar); nach Fluchttürauslösung automatisch wieder in Grundstellung
 - **Wechsel-Funktion E**: Fluchtseite Drücker, Interventionsseite Schild mit feststehendem Knauf; Öffnung aussen nur über Schlüssel-Wechselfunktion
 - Selbstverriegelnde Panikschlösser (SVP): Schlossriegel wird beim Schliessen automatisch ausgestossen — bei einigen Fabrikaten nur in Position «Verriegelt» — versicherungstechnisch relevant, da nur ausgestossener Riegel als «verschlossen» gilt

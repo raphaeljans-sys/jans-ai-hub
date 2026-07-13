@@ -3,7 +3,7 @@ name: ausnahmebewilligung-und-bestandesschutz
 beschreibung: Die zwei kantonalen Werkzeuge fuer vorschriftswidrige Bauten im Kt. ZH — die Ausnahmebewilligung (Dispens) nach § 220 PBG bei besonderen Verhaeltnissen, und die Besitzstandsgarantie / erweiterte Bestandesgarantie nach § 357 PBG (Umbau/Erweiterung/Nutzungsaenderung am rechtmaessig erstellten, durch Rechtsaenderung vorschriftswidrig gewordenen Bestand). Kernaussage: kein fester «Drittel»-Schwellenwert; Grenze ist die neubauaehnliche Umgestaltung/Gesetzesumgehung im Einzelfall. § 220 dispensiert nur kantonales/kommunales Recht, nie Bundesrecht.
 status: established
 last_updated: 2026-07-13
-verifiziert: "§ 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/307/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13. § 357 Abs. 5 (Milderungsklausel) am amtlichen PBG-Volltext verifiziert (Z. 3770-3773), Modell-D-Refuter 2026-07-13."
+verifiziert: "§ 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13. § 357 Abs. 5 (Milderungsklausel) am amtlichen PBG-Volltext verifiziert (Z. 3770-3773), Modell-D-Refuter 2026-07-13. § 307 Abs. 1/2 PBG (Brandstattrecht) und § 358 PBG (baupolizeiliche Missstaende) vertieft volltextverifiziert (Z. 3129-3144, 3778), Modell-D-Refuter 2026-07-13 — Details in [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]."
 quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)"
 paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
 links: [[bestandsumbau-eingriffstiefe]], [[baubewilligungsverfahren]], [[baulinien-und-abstandslinien]], [[zonenkonformitaet]], [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
@@ -160,7 +160,7 @@ Ermessens- und Auslegungsspielraum**» der Gemeinde — und begruendet die dorti
 - **Gewaesserraum:** Art. 41c Abs. 1/2 GSchV.
 - **Strassenabstand / Baulinienbereich:** **§ 101 PBG** (baulinienwidriger Bestand) →
   [[baulinien-und-abstandslinien]].
-- **Wiederaufbau zerstoerter Gebaeude:** Brandstattrecht **§ 307 PBG** (eigener Tatbestand).
+- **Wiederaufbau zerstoerter Gebaeude:** Brandstattrecht **§ 307 PBG** (eigener Tatbestand, volltextverifiziert 2026-07-13 gegen `raw/260607_amtlich_zh_pbg.md` — Details/Absaetze in [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]).
 
 ## JANS-Anwendung (Default)
 
