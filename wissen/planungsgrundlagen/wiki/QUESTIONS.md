@@ -3,6 +3,12 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K20-K21 (Run 29, 2026-07-13)** Zwei weitere Kandidaten-Fundstellen geprueft, beide OHNE
+  Delta (ehrlich dokumentierte Nicht-Funde): **XML-Datenformate-Ordner** (3 Screenshots,
+  generische "Was ist XML"-Web-Erklaerung ohne Geodatenbezug, kein Delta zur K8-Formattabelle) und
+  **Baumkataster-Ordner oberste Ebene** (identische GEOINFO-Produktblatt-Datei zweimal abgelegt +
+  zwei generische map.geo.admin.ch-Kartenausdrucke ohne dedizierten Baumkataster-Layer, bestaetigt
+  K12). Details siehe `training/curriculum.md` K20-K21.
 - [x] **K17-K19 (Run 27, 2026-07-13)** Drei bisher unerschlossene PL-01-Unterordner ausgewertet:
   **Grundbuchamt ZH** (formelle Grundbuchauszug-Bestellung via Notariat statt Selbstbedienungs-
   Eigentumsabfrage → [[kartenportale-geoportale-uebersicht]], emerging), **Willerzell-WebGIS-Batch
@@ -331,6 +337,25 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D10-D18 (Run 29, 2026-07-13, E18-E26)** Zwei bisher nie erschlossene PL-04-Unterordner
+  ausgewertet + zwei Refresh-Checks: **Minergie-Nachweiskurs-Unterlagen** (`wissen.minergie.ch/
+  Kursunterlagen_230926/`) — die reale Fallstudie "Maison Climat" (MFH Seelandweg 15 Biel)
+  liefert konkrete Nachweis-Kennzahlen (Heizwaermebedarf 96.8→86.9 MJ/m² bzw. mit WRG-Lueftung
+  78.9→62 MJ/m², SIA-2060-Elektromobilitaet 60%/20%-Ausbaustufen, PV 56.25+18.28 kWp,
+  Monitoring-Pflicht ab 1'000 m²) → [[energie-minergie-referenzprojekt-maison-climat]] von
+  `emerging` auf `established` gehoben; Kursprofil bestaetigt Kursattest zaehlt zur
+  Minergie-Fachpartnerschaft-Voraussetzung → [[energie-private-kontrolle-zh]] §5.
+  **`_Heizwaermebedarf/`-Ordner** (nie in curriculum.md erfasster PL-04-Top-Level-Ordner) —
+  vollstaendiges SIA-380/1-Berechnungsverfahren (11-Schritt-Formelkette + Beispielrechnung) +
+  SIA-380/1-Anhang-A-Standardnutzungswerte (inkl. Kategorie Spitaeler fuer Healthcare) +
+  SIA-384/1/384.201-Waermeerzeugerleistung-Dimensionierung (Formel + Holz/Pellet/Oel/Gas-
+  Berechnungsbeispiele + Kontrollwerte spez. Heizleistung) → NEU [[energie-heizwaermebedarf-waermeerzeugerleistung]].
+  **EN-101c Kt. Schwyz** (Willerzell-Fall) — SZ-Pendant zum EN-ZH-System (PV-Ersatzabgabe-
+  Befreiung Globalstrahlung <1'120 kWh/m²a via map.geo.sz.ch, VHKA-Pflicht KEnV §26 SZ) →
+  Ergaenzung [[energie-energienachweis-zh-formulare]]. **Refresh-Checks:** E17-⚠ aufgeloest
+  (Kurs 2026 weiterhin als "Workshop Minergie-Nachweisformular" angeboten); MuKEn-2025-ZH-
+  Umsetzung unveraendert ausstehend, NEU-Fund EVEN-Rollout Zentralschweiz erst Anfang 2026
+  (gestaffelt zu ZH). Details siehe `training/curriculum.md` E18-E26.
 - [x] **D5-D7 (Run 27, 2026-07-13)** Drei bisher unerschlossene PL-04-Unterordner ausgewertet:
   **Betriebsenergie-Praxisfall** (`_Betriebsenergie/` 15 Screenshots — reale "Facts & Figures"
   Sanierung EFH 1957/120 m², PV 14 kWp + Batterie + WP-Boiler + Dachdaemmung, Gasbezug

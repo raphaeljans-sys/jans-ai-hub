@@ -2,7 +2,7 @@
 title: Private Kontrolle Energie Kt. ZH — wer den Energienachweis unterzeichnet
 status: established
 last_updated: 2026-07-13
-sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, zh.ch/energienachweise, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023)]
+sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, zh.ch/energienachweise, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf (Kursprofil 26.09.2023) + WebSearch forumenergie.ch Kursprogramm (Run 29, 2026-07-13)]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]]
 ---
 
@@ -118,8 +118,18 @@ zugehoerige Formular bei «Private Kontrolle» unterzeichnen. Fuenf Befugnisbere
   JANS hat am 26.09.2023 selbst den Kurs «Minergie-Nachweis: Tipps & Tricks zu den
   Nachweistools» besucht (Rechnung 605559, CHF 450, PL-04/`forumenergie.ch/230926_RE.pdf`);
   Kursprogramm-Quelle `230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf` (Stand Fruehling/Sommer
-  2023). ⚠ Datenstand 2023 — vor einer Kursempfehlung aktuelles Programm auf `forumenergie.ch/
-  kurse` pruefen, ob die genannten Kurse weiterhin angeboten werden.
+  2023). **✓ Datenstand-Check erledigt (Run 29, 2026-07-13):** Websuche bestaetigt, das Kursformat
+  wird **2026 weiterhin angeboten** — inzwischen unter dem Namen **"Workshop
+  Minergie-Nachweisformular"** (CHF 450 regulaer / CHF 360 mit 20 %-Rabatt fuer FEZ-/Minergie-
+  Fachpartner-/IFMA-/Casafair-/energie-bewegt-winterthur-Mitglieder), inhaltlich gleich
+  positioniert ("ideal als Ergaenzung zum Minergie-Grundkurs", Vorkenntnis SIA 380/1 empfohlen).
+  Der urspruengliche 2023er-Kurs selbst (Referenten Robert Minovsky/Maximilian Schaffrinna,
+  Minergie; Kursunterlagen inkl. **Fallstudie "Maison Climat"** →
+  `[[energie-minergie-referenzprojekt-maison-climat]]`) diente der Minergie-Grundausbildung
+  (Kursattest zaehlt zur Voraussetzung fuer die Minergie-Fachpartnerschaft + Kompetenzerhalt
+  fuer bestehende Fachpartner). Sponsoren/Traeger 2023: EKZ, anex, Flumroc, Gruenberg+Partner,
+  Kt. ZH Baudirektion, energie360°, Amstein+Walthert, energieschweiz, Neukom Engineering,
+  Stadtwerk Winterthur, energie Uster, Belimo, Minergie, EM, ecowin, Isover, Zehnder.
 
 ## Datenstand / offen
 - Liste der Befugten: hier abgelegter Auszug **Stand April 2025** — fuer eine konkrete

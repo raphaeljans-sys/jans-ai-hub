@@ -138,6 +138,42 @@ bei Neubau **kein** EN-110 (EN-ZH →5).
   Kaltwasser (Kuehldecken/-segel bzw. Umluftkuehler).
 - Page 2: Distribution du froid, Raumklima, interne Waermelasten, g-Wert, Annexes, Signaturen.
 
+## SZ-Pendant: EN-101c "Energienachweis fuer einfache Bauten" (Kt. Schwyz, Run 29 2026-07-13)
+
+Kt. SZ hat ein eigenes, zum ZH-System paralleles Kontrollformular **EN-101c** (nicht Teil der
+EN-ZH-Liste oben — belegt am realen Fall **Willerzell, Gemeinde Einsiedeln SZ, Einfamilienhaus**,
+Parz. 3301, gleicher Fall wie `[[kartenportale-ebau-sz-baugesuch]]`/`[[kartenportale-naturgefahren-objektschutz]]`):
+
+- **Titel:** "Kontrolle EN-101c — Energienachweis fuer einfache Bauten"; **nur fuer Wohnbauten
+  zulaessig** (expliziter Hinweis im Formular).
+- **Struktur (Kontroll-Checkliste erfuellt/nicht erfuellt je Position):** Vollstaendigkeit der
+  Beilagen (Kontaktdaten/U-Wert-Berechnungen/Waermebrueckencheckliste/Fenster-Daten/Angaben
+  Eigenstromerzeugung/Planunterlagen) → Grunddaten Gebaeude (Kanton, Klimastation, **Hoehenlage
+  ueber `www.map.geo.admin.ch`**, Gebaeudekategorie, A_e, A_th, Gebaeudehuellzahl) → Spezifische
+  Daten Gebaeudehuelle (Bauweise/Speichermasse, U-Werte opak/Fenster, g-Werte, Fensteranteil,
+  Lueftungsanlagetyp) → Spezifische Daten Gebaeudetechnik (Heizung, Warmwasser, Solaranlage,
+  Grenzwert Energiebedarf) → Weitere Anforderungen (aussenliegender Sonnenschutz, Kuehlverbot,
+  Bauteile im Erdreich <0.25 W/m²K, Waermebrueckennachweis, max. 10 % Bauteile ueber Vorgabe,
+  **VHKA-Pflicht-Pruefhinweis**) → Eigenstromerzeugung.
+- **PV-/Ersatzabgabe-Befreiung (SZ-spezifisch, belegt):** "Befreiung moeglich, wenn Globalstrahlung
+  **< 1'120 kWh/m²·a**" — Beurteilung der Globalstrahlung unter **`map.geo.sz.ch`** (kantonales
+  Geoportal, nicht geo.admin.ch). Ein SZ-spezifischer, quantifizierter Schwellenwert, der im
+  ZH-Pendant (EN-104, dort Flaechenbedarf 8/16 m²/kW, kein Globalstrahlungs-Schwellenwert) keine
+  Entsprechung hat.
+- **VHKA-Pflicht (Verbrauchsabhaengige Heizkostenabrechnung):** Formular verweist auf eine
+  **"verschaerfte VHKA-Anforderung im Kt. SZ (KEnV § 26)"** — im Formular als separat zu
+  pruefender Punkt markiert, nicht automatisch aus den uebrigen Kennwerten abgeleitet.
+- **Einordnung:** analog zur ZH-Logik unterschreibt ein **Verfasser Nachweis** (Dropdown-Feld)
+  sowie ein **Kontrollbeauftragter**; die fachliche Struktur (U-Werte, Waermebruecken,
+  Grenzwert Energiebedarf) deckt sich mit dem ZH-System (§§ SIA 380/1 bleiben gesamtschweizerisch
+  gleich), nur das **Formularlayout und die Verfahrensbegriffe** sind kantonal (KEnV statt
+  EnerG/BBV I).
+
+Status `emerging` (ein einzelnes belegtes Formularbeispiel, keine vollstaendige SZ-KEnV-Analyse);
+Quelle: Kontrollformular-Screenshot PL-04/`_Energienachweise/`, Fallbezug Willerzell. Tiefe
+SZ-Rechtsgrundlage (KEnV) noch nicht als eigener Abschnitt in `[[recht-norm-quellenlandkarte]]`
+erfasst — offener Punkt fuer einen kuenftigen Recht/Norm-Lauf.
+
 ## Praxis-Merkposten JANS
 - **Reihenfolge:** EN-ZH zuerst (Checkliste «welche Nachweise betrifft mein Projekt»), dann die
   angekreuzten EN-Fachnachweise in EVEN; Schallschutz **S** und WP-Laerm **LN-1** nicht vergessen.
@@ -173,7 +209,15 @@ bei Neubau **kein** EN-110 (EN-ZH →5).
   2030** (kantonale Uebernahme ins Energiegesetz je Kanton individuell), ZH-Ueberfuehrung
   weiterhin **nicht** publiziert (energiehub-gebaeude.ch, hev-zh.ch, energie-zentralschweiz.ch
   gegengeprueft). Naechster Check nur bei konkretem Hinweis auf zh.ch, nicht routinemaessig
-  jede Woche wiederholen.
+  jede Woche wiederholen. **Refresh 2026-07-13 (Run 29):** WebSearch bestaetigt unveraendert —
+  "Aufgabe ist jetzt, MuKEn 2025 in die kantonale Energiegesetzgebung einzuarbeiten", ZH-Fassung
+  weiterhin nicht auffindbar. **Neuer Nebenfund:** die **EVEN-Plattform wird in der
+  Zentralschweiz (UR/SZ/OW/NW/ZG/LU) erst per Anfang 2026 eingefuehrt** (energie-zentralschweiz.ch)
+  — d.h. der EVEN-Rollout ist nicht gleichzeitig fuer alle Kantone erfolgt, sondern gestaffelt;
+  ZH lief bereits seit 01.01.2026 (siehe oben), waehrend die Zentralschweizer Kantone zum
+  gleichen Zeitpunkt erst starten. Fuer SZ-Projekte (JANS-Kerngebiet neben ZH) heisst das:
+  ab 2026 ebenfalls EVEN-Pflicht, aber als neu eingefuehrtes System — mit entsprechend geringerer
+  Prozesserfahrung bei den SZ-Bewilligungsbehoerden zu rechnen als in ZH.
 - ✓ **D5 teil-erledigt** (2026-06-18/2026-07-10): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
   `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/B/C/D/E + Flachdach belegt). **Offen bleibt:**
   installierter System-CHF/kWp aus einer **realen JANS-Schlussabrechnung** — Archivsuche

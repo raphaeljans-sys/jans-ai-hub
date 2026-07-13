@@ -2,7 +2,7 @@
 title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27)]
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[recht-norm-dispensrecht]]
 ---
 
@@ -85,6 +85,12 @@ Welches Format wofuer, wenn man die Rohdaten weiterverarbeitet:
 Faustregel JANS: **GeoJSON** zum Abfragen/Pruefen, **DXF** in den CAD-Plan, **GeoTIFF** fuer
 Bild/Terrain, **INTERLIS** nur wenn der modellvollstaendige amtliche Datensatz noetig ist.
 
+**Re-Check ohne Delta (K20, Run 29 2026-07-13):** der Unterordner `Datenformate_Geokartenmaterial/
+XML/` (3 Screenshots, 05.06.2024) enthaelt **keinen geodatenspezifischen Inhalt** — die Bilder
+zeigen eine generische Web-Erklaerung "Was ist XML?" (Adobe-Artikel-Ausschnitt) und eine
+Google-Suchergebnis-Seite zu "xml datei"; kein Bezug zu INTERLIS/GML/geodatenspezifischem
+XML-Schema. Kein Delta zur bestehenden 7-Format-Tabelle oben (K8).
+
 ## Baumkataster (K12, niedrige Prioritaet, Run 24 2026-07-13)
 
 Bisher unbearbeiteter PL-01-Ordner `Baumkataster/`. Ergebnis: der **Baumkataster ist kein
@@ -109,6 +115,15 @@ fuer die fachliche Einordnung (Vendor-Produktblatt als einzige Quelle). Naechste
 realem Bedarf: pruefen, ob die konkrete Standortgemeinde einen oeffentlichen Baumkataster-Layer im
 eigenen Geoportal fuehrt (analog `KtLU Luzern`-Struktur, dort z. T. eigene Themenordner pro
 Gemeinde-GIS).
+
+**Re-Check ohne Delta (K21, Run 29 2026-07-13):** der PL-01-Ordner `Baumkataster/` (oberste Ebene,
+nicht die Pro-Projekt-Unterordner) enthaelt **keine neuen Fakten** — `Baumkataster.pdf` und
+`Baumkataster-Mac mini von Raphael.pdf` sind **byte-identisch dasselbe** GEOINFO-IT-AG-
+Produktblatt (bereits oben ausgewertet), die beiden `map.geo.admin.ch_*.pdf`-Ausdrucke zeigen
+lediglich generische Baum-Symbole (gruene Punkte) aus einer normalen Kartenansicht — **kein
+dedizierter Baumkataster-Layer**, sondern ein persoenlicher Kartenausdruck mit Standort-Pin
+(Steinhofstrasse/Zuerich-Gebiet). Bestaetigt die bestehende Einordnung: kein zentrales
+Baumkataster-Geoportal, gemeinde-/portalspezifisch zu klaeren.
 
 ## Weitere Kantone/regionale Portale (K17/K18, Run 25 2026-07-13, niedrige Prioritaet)
 
