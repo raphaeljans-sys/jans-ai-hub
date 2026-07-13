@@ -2,6 +2,58 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 30 (Recht & Norm + Brandschutz, Token-Vollgas): 2h-Schatten/Post-Briefkasten/Absturzsicherung/Zimmerzaehlung/STWEG-Teilungsplan + Lignum-Erdbeben geloest
+- Rotation nach Run 29: **Recht & Norm (PL-02) + Brandschutz (PL-03)**. Beide Domaenen sind nach
+  29 Laeufen so weit erschlossen, dass zuerst die komplette Ordnerstruktur gegen das Curriculum
+  abgeglichen wurde, um echte Luecken statt bereits dokumentierter Themen zu finden.
+- **Recht & Norm — drei Planungsdetail-Arbeitshilfen (R22-R24), ein Delta-Check (R25), ein
+  Materialbuendel (R26):** **2-Stunden-Schatten** (§ 284 Abs. 4 PBG/§ 30 ABV, Konstruktions-
+  verfahren + Azimut/Sonnenhoehe-Tabelle), **Post-Briefkastenanlage** (UVEK-Postverordnung 1998,
+  Standort/Mindestmasse), **Absturzsicherungen im Hochbau** (Richtlinie Stadt Zuerich 1.6.2019,
+  Gelaender/Bruestungshoehen, kindersicher/nicht kindersicher, 15-%-Bestandsschwelle) → alle drei
+  NEU [[recht-norm-arbeitshilfen-planungsdetails]]. **Zimmerzaehlung ZH-Wohnbaufoerderung**
+  (Kt.-ZH-Merkblatt 15, halbe-Zimmer-Definition, eigenstaendiges kantonales Instrument, kein Delta
+  zur Bundes-WBS) → Ergaenzung [[recht-norm-raumprogramm-referenzwerke]] §2b. **STWEG-Teilungsplan-
+  Vermessungsseite** (reales JANS-5-Phasen-Vorgehen Ebmatingen/WOMA + amtliche swisstopo-
+  Empfehlung «Digitale Dokumentation Stockwerkeigentum – Aufteilungsplan» 05.05.2020 mit INTERLIS
+  DM.StWE + reale Wertquotenberechnung-Benchmark Hafenstrasse 46 Romanshorn) → NEU
+  [[recht-norm-stweg-teilungsplan-wertquoten]], speist Skill `stockwerkeigentum` + Agent
+  `wertquoten-rechner`.
+- **Brandschutz — B25 geloest + ein Delta-Check (B25-B26):** die seit Run 24 wiederholt als
+  OneDrive-Cloud-Platzhalter unlesbare Datei **«Erdbebengerechte mehrgeschossige Holzbauten»**
+  (Lignum/SIA/SGEB 2010) liess sich in diesem Lauf vollstaendig lesen (reines Sync-Timing) — SIA
+  260-267/261/265, Ersatzkraft-/Antwortspektrenverfahren, Grundschwingzeit-Schaetzformel T1=2√u,
+  duktiles Tragwerksverhalten → NEU §5m [[brandschutz-pl03-wegweiser]]. **Lignatec «Bauten in Holz
+  — Brandschutz-Anforderungen»** (kein Delta zu §4b, sondern holzbau-spezifische Feuerwiderstands-
+  Tabelle nach Geschosszahl×Nutzung×Konzept; Healthcare-Kernbefund: Sprinkler reduziert die
+  Tragwerksanforderung nur bei Hotels [b], bei Krankenhaeusern/Pflegeheimen [a] NICHT) → NEU §5n
+  [[brandschutz-pl03-wegweiser]].
+- **Neue Artikel:** [[recht-norm-arbeitshilfen-planungsdetails]],
+  [[recht-norm-stweg-teilungsplan-wertquoten]] (beide `established`).
+- **Ehrlichkeit zum Umfang:** 8 belegte Funde statt der Token-Vollgas-Zielgroesse 10-16 — die
+  verbleibenden ungenutzten Ordner enthalten entweder bereits abgedeckte Themen oder generisches
+  Firmen-/Verwaltungsmaterial ohne Planungsgrundlagen-Bezug (siehe Report fuer die bewusst nicht
+  vertieften Fundstellen).
+- Report: `outputs/2026-07-13_training-run30.md`.
+
+## 2026-07-13 — Training Run 29 (Kartenportale + Energie, Token-Vollgas) — Nachtrags-Eintrag
+- **Nachtrag:** dieser Lauf war inhaltlich bereits am 13.07.2026 ausgefuehrt (curriculum.md K20/K21
+  + E18-E26, Wiki-Artikel via NAS-Selfcommit `74cb18e6` gesichert), aber ohne Output-Report/
+  CHANGELOG-Eintrag beendet worden. Nachgetragen zu Beginn von Run 30, kein neuer Recherche-Inhalt.
+- **Kartenportale — zwei bestaetigte Nicht-Funde (K20/K21):** XML-Datenformate-Ordner (generische
+  Web-Erklaerung ohne Geodatenbezug, kein Delta zu K8) und Baumkataster-Ordner oberste Ebene
+  (identische Dateien wie K12, kein neuer Layer) — beide ehrlich dokumentiert statt uebersprungen.
+- **Energie — zwei neu erschlossene Ordner + zwei Refresh-Checks:** Minergie-Nachweiskurs-
+  Unterlagen (reale Fallstudie «Maison Climat» mit konkreten Nachweis-Kennzahlen — Heizwaermebedarf,
+  SIA-2060-Elektromobilitaet, PV-Dimensionierung, Monitoring-Pflicht) hebt
+  [[energie-minergie-referenzprojekt-maison-climat]] auf `established`; `_Heizwaermebedarf/`-Ordner
+  (SIA-380/1-Berechnungsverfahren + SIA-384/1/384.201-Waermeerzeugerleistung) → NEU
+  [[energie-heizwaermebedarf-waermeerzeugerleistung]]; EN-101c Kt. Schwyz (SZ-Pendant zum
+  EN-ZH-System) → Ergaenzung [[energie-energienachweis-zh-formulare]]; E17-⚠-Flag aufgeloest,
+  EVEN-Rollout-Zentralschweiz-Datenstand nachgetragen.
+- **Neue Artikel:** [[energie-heizwaermebedarf-waermeerzeugerleistung]] (`established`).
+- Report: `outputs/2026-07-13_training-run29.md`.
+
 ## 2026-07-13 — Training Run 28 (Recht & Norm + Brandschutz, Token-Vollgas 2 Domaenen): vier unerschlossene PL-02-Ordner + Verifikations-Nachtrag Brandschutz-Parkings
 - Rotation nach Run 27: **Recht & Norm (PL-02) + Brandschutz (PL-03)**. Dieser Lauf setzt einen
   bereits VOR Laufbeginn begonnenen, aber unvollstaendig gebliebenen Vorgang fort: vier

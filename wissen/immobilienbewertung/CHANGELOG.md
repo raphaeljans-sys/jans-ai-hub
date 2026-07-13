@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 24: D6-Sackgasse durchbrochen — AZ/GFZ-Kennwerte Thalwil + Waedenswil
+
+- **Neuer Wiki-Artikel [[az-gfz-kennwerte]]:** amtliche Ausnuetzungsziffer-Tabellen
+  (Art. 3 Grundmasse) fuer Thalwil (W1-WG4, AZ 30-70 %, inkl. reale vs. statutarische
+  AZ +48-82 %) und Waedenswil (W2/30%-WG5/85%, AZ 30-85 %, inkl. Behindertenwohnen-
+  Bonus) direkt aus den amtlichen BZO-PDFs extrahiert (`pdftotext -layout` auf den
+  lokal zwischengespeicherten WebFetch-Anhang, da WebFetch selbst bei diesen PDFs nur
+  Binaerdaten zurueckgibt).
+- **Korrektur der Run-23-Einschaetzung:** D6 war als "Grossrecherche noetig, nicht in
+  einem Trainingslauf zu leisten" eingestuft. Praxistest zeigt: pro Gemeinde ist es ein
+  einzelner, gut handhabbarer Fetch+Extraktions-Schritt — die Grossrecherche liegt im
+  Umfang (11 Gemeinden), nicht in der Methode. D6 damit von "Bring-Schuld Raphael" auf
+  "D/T, Methode erprobt, 9 Gemeinden offen" neu eingestuft.
+- Kein neuer JANS-Bewertungsfall (Bewertungsordner erneut geprueft). Marktpuls
+  unveraendert seit Run 17 (kein neuer Publikationstermin) — kein Web-Check noetig.
+- Register gepflegt: `wissensluecken.md` (D6-Zeile + Tabelle B), `INDEX.md` (neuer
+  Eintrag), Backlinks in `zh-thalwil-8800.md` + `zh-waedenswil-8820.md`.
+- Report: `outputs/2026-07-13_training-run24.md`.
+
 ## 2026-07-13 — Training-Run 23: sechste Bestaetigung ohne neue Erkenntnis, kein Ingest
 
 - **Kein neuer Ingest, keine neue Verifikation.** Statt eine der fuenf bereits bestandenen

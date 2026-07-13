@@ -20,6 +20,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 
 - [[flaechendefinitionen-sia]] — SIA 416:2003 normverankert (GSF/GF/NGF/HNF/KF/AGF + Volumen GV + Miet-/STWE-Flaechen FSN/FGN; Abgrenzung aGF/BGF/EBF + JANS-aGF/GF-Faktor Altbau 0.8/Neubau 0.9) + JANS-Flaechenfaktoren Wohnen (0.20/0.33/0.60) & Healthcare (HNF/GF ~0.55) · *established*
 - [[lageklasse-landwertanteil]] — Lageklasse 1-10 → Landwertanteil (LK-Schluessel + Tab. 8) · *established*
+- [[az-gfz-kennwerte]] — Ausnuetzungsziffer je Gemeinde/Zone aus amtlicher BZO (D6: Thalwil + Waedenswil vollstaendig, Methode fuer weitere Gemeinden erprobt) · *emerging*
 - [[datenquellen-registry]] — Markt-/Boden-/Kennwert-Quellen + Aktualitaet · *established*
 - [[projektstruktur-deliverables]] — LB/RW/MA/CS-Ordner + Namenskonvention + CS-Sensitivitaets-Generator (Break-Even-Formel) + Healthcare-Bewertungsbruecke (T17: Kosten Herosé + Investor SenioResidenz) + JANS-Healthcare-Kennwert-Raster (T19 befuellt: Bettzahl/GF-Bett/NF-Bett, optimale Groesse 70-80 Betten) · *established*
 

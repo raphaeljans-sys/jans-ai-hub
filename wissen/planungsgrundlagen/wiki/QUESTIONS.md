@@ -110,6 +110,20 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R22–R26 (Run 30, 2026-07-13)** Fuenf bisher unerschlossene PL-02-Einzelordner ausgewertet:
+  **2-Stunden-Schatten-Grobnachweis** (§ 284 Abs. 4 PBG / § 30 ABV, Konstruktionsverfahren +
+  Azimut/Sonnenhoehe-Tabelle), **Post-Briefkastenanlage** (UVEK-Postverordnung 1998, Standort +
+  Mindestmasse je Gebaeudetyp), **Absturzsicherungen im Hochbau** (Richtlinie Stadt Zuerich
+  1.6.2019, Gelaender/Bruestungshoehen, kindersicher/nicht kindersicher, 15-%-Bestandsschwelle)
+  → alle drei NEU [[recht-norm-arbeitshilfen-planungsdetails]]; **Zimmerzaehlung ZH-Wohnbau-
+  foerderung** (Kt.-ZH-Merkblatt 15, halbe-Zimmer-Definition, eigenstaendiges kantonales
+  Instrument neben der Bundes-WBS) → Ergaenzung [[recht-norm-raumprogramm-referenzwerke]] §2b;
+  **STWEG-Teilungsplan-Vermessungsseite** (reales JANS-5-Phasen-Vorgehen Ebmatingen/WOMA +
+  amtliche swisstopo-Empfehlung «Digitale Dokumentation Stockwerkeigentum – Aufteilungsplan»
+  05.05.2020 mit INTERLIS DM.StWE + reale Wertquotenberechnung-Benchmark Hafenstrasse 46
+  Romanshorn, gewichtete Faktoren 0.20-1.20 je Nutzungsart/Geschoss) → NEU
+  [[recht-norm-stweg-teilungsplan-wertquoten]], speist Skill `stockwerkeigentum` + Agent
+  `wertquoten-rechner`. Details siehe `training/curriculum.md` R22-R26.
 - [x] **R18–R21 (Run 28, 2026-07-13)** Vier bisher unerschlossene PL-02-Unterordner ausgewertet
   (Fund/Registrierung eines vorher unterbrochenen Laufs, dessen Wiki-Artikel bereits geschrieben
   waren, aber ohne Register-Nachfuehrung — gegen die Original-PDFs verifiziert, alle Quellen auf
@@ -232,6 +246,17 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C27–C28 (B25-B26) (Run 30, 2026-07-13)** B25-Verifikations-Retry gelang + eine neue
+  Fundstelle: **Lignum «Erdbebengerechte mehrgeschossige Holzbauten»** (2010) — die seit Run 24
+  wiederholt als OneDrive-Cloud-Platzhalter unlesbare Datei liess sich in diesem Lauf vollstaendig
+  lesen (reines Sync-Timing, kein Recherche-Problem); Inhalt: SIA 260-267/261/265,
+  Ersatzkraft-/Antwortspektrenverfahren, Grundschwingzeit-Schaetzformel T1=2√u (261.39), duktiles
+  Tragwerksverhalten via Verbindungen Beplankung↔Rippen, Bestand → Merkblatt SIA 2018 → NEU §5m
+  [[brandschutz-pl03-wegweiser]]. **Lignatec «Bauten in Holz — Brandschutz-Anforderungen»**
+  (kein Delta zu B13/§4b, sondern eigenstaendige holzbau-spezifische Fassung der Feuerwiderstands-
+  Tabelle nach Geschosszahl×Nutzung — Healthcare-Kernbefund: Sprinkler reduziert bei Hotels [b]
+  die Tragwerksanforderung, bei Krankenhaeusern/Pflegeheimen [a] NICHT) → NEU §5n
+  [[brandschutz-pl03-wegweiser]]. Details siehe `training/curriculum.md` B25-B26.
 - [x] **C20–C26 (B19-B25) (Run 28, 2026-07-13)** Verifikations-Nachtrag + zwei neue PL-03-Fundstellen:
   **§4c-Korrektur abgeschlossen** — die Referenzen "§5g"/"§5l" (bereits im §4c-Korrekturblock eines
   vorherigen unterbrochenen Laufs angelegt) wurden mit vollstaendigem, gegen die Originalquelle

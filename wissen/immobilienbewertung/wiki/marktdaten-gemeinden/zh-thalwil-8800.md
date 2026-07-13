@@ -8,7 +8,7 @@ plz: 8800
 ms_region: Zimmerberg
 stand: 2024-07
 sources: ["IMMO-02 UBSFS/UBS Real Estate Local Fact Sheet ZH Thalwil 2407 (UBS CIO GWM, 7/2024, Preisdaten Stand 2024-Q1)"]
-links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[projektstruktur-deliverables]]
+links: [[marktdaten-gemeinden/README]], [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[ertragswert-dcf]], [[projektstruktur-deliverables]], [[az-gfz-kennwerte]]
 ---
 
 # Marktdaten Thalwil (ZH) — UBS Fact Sheet 7/2024
