@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 33 (Recht & Norm + Kartenportale, Token-Vollgas): letzte offene Curriculum-Punkte geloest statt neuer Ordner-Rundgang
+- Curriculum nach 32 Laeufen fast lueckenlos abgearbeitet — statt eine weitere Ordner-Vollsuche
+  zu fahren, wurden die verbliebenen "Offen"-Vermerke gezielt aufgeloest.
+- **Recht & Norm:** IVHB-Leitfaden Ziff. 5.1-8.5 vollstaendig gelesen (Gesamthoehe/Fassadenhoehe/
+  Kniestockhoehe/lichte Hoehe, Voll-/Unter-/Dach-/Attikageschosse, Grenz-/Gebaeudeabstand/
+  Baulinien/Baubereich, Baumassen-/Ueberbauungs-/Gruenflaechen-/Ausnuetzungsziffer +
+  Dachaufbauten-/Wintergarten-Boni, amtlicher Wortlaut §§ ABV/PBG) → [[recht-norm-ivhb-baubegriffe]]
+  jetzt vollstaendig. `4094.pdf` im SubV-Ordner identifiziert (Kantonsratsvorlage 23.7.2003,
+  Weisung zur SVO-Revision, Entstehungsgeschichte IVoeB-Beitritt 1996/SVO in Kraft 1997) →
+  [[recht-norm-submissionsverordnung-zh]].
+- **Kartenportale:** ZH-OGD-WFS-`GetCapabilities` erneut abgerufen (Run-24-Fehler war transient) —
+  Grundwasserschutzzonen-Endpunkt gefunden (`ogd-0143_..._gws_zone_f` + `ogd-0149_..._gws_areal_f`),
+  per `GetFeature` an 2 Benchmarks schema-valide getestet (0 Treffer, Endpunkt funktioniert) →
+  [[kartenportale-naturgefahren-objektschutz]] §8, emerging. Naturgefahrenkarte-Layer weiterhin
+  nicht im WFS-Katalog; WMS-Rateversuch bestaetigt login-gesperrt.
+- Report: `outputs/2026-07-13_training-run33.md`.
+
 ## 2026-07-13 — Training Run 30 (Recht & Norm + Brandschutz, Token-Vollgas): 2h-Schatten/Post-Briefkasten/Absturzsicherung/Zimmerzaehlung/STWEG-Teilungsplan + Lignum-Erdbeben geloest
 - Rotation nach Run 29: **Recht & Norm (PL-02) + Brandschutz (PL-03)**. Beide Domaenen sind nach
   29 Laeufen so weit erschlossen, dass zuerst die komplette Ordnerstruktur gegen das Curriculum
