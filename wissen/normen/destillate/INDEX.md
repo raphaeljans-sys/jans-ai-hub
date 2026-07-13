@@ -24,6 +24,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-416-2003.md` | SIA 416 Flächen und Volumen von Gebäuden | 2003 | established (verifiziert 260712) |
 | `sia-421-2006.md` | SIA 421 Raumplanung – Nutzungsziffern (GFZ/AZ/BMZ/ÜZ/GZ) | 2006 | destilliert (Original vollständig gelesen 260713) |
 | `sia-451-1992.md` | SIA 451 Datenformate für Leistungsverzeichnisse | 1992 | established (verifiziert 260712) |
+| `sia-723-2001.md` | SIA 723 Thermische Energie im Hochbau – NVB zur Norm SIA 380/1 | 2001 | destilliert (Original vollständig gelesen 260713) |
 | `vkf-brandschutznorm-2015.md` | VKF 1-15 Brandschutznorm | 2015 | established (verifiziert 260712) |
 | `vkf-brl-16-15-flucht-rettungswege.md` | VKF-BRL 16-15 Flucht- und Rettungswege | 2015 (rev. 2016) | established (verifiziert 260712) |
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |

@@ -56,9 +56,9 @@
 | [x] 260712 | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
 | [x] 260712 | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
 | [x] 260713 | P2 | `241_1988_d.pdf` | 241 | 1988 | destilliert (sia-241-1988.md), Schreinerarbeiten |
-| [ ] | P2 | `244_2006_d.pdf` | 244 | 2006 |  |
-| [ ] | P2 | `246_2006_d.pdf` | 246 | 2006 |  |
-| [ ] | P2 | `248_2006_d.pdf` | 248 | 2006 |  |
+| [x] 260713 | P2 | `244_2006_d.pdf` | 244 | 2006 | destilliert (sia-244-2006.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `246_2006_d.pdf` | 246 | 2006 | destilliert (sia-246-2006.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `248_2006_d.pdf` | 248 | 2006 | destilliert (sia-248-2006.md), Verifikation ausstehend (naechster Lauf) |
 | [x] 260712 | P2 | `251_2008 Unterlagsboden.pdf` | 251 | 2008 |  |
 | [x] 260712 | P2 | `252_2002_d.pdf` | 252 | 2002 |  |
 | [x] 260712 | P2 | `253_2002_d.pdf` | 253 | 2002 |  |
@@ -79,7 +79,7 @@
 | [x] 260713 | P2 | `273_1998_d.pdf` | 273 | 1998 | destilliert (sia-273-1998.md); ACHTUNG Dateiname/Inhalt-Diskrepanz: PDF selbst datiert 1989, siehe QUESTIONS.md; jüngste im Bestand; 2013-gültig wäre 273:2008 (nicht im Bestand); 273_1989 ersetzt |
 | [x] 260712 | P2 | `279_2018.pdf` | 279 | 2018 |  |
 | [x] 260712 | P2 | `281_2017.pdf` | 281 | 2017 |  |
-| [ ] | P2 | `312_2013.pdf` | 312 | 2013 |  |
+| [x] 260713 | P2 | `312_2013.pdf` | 312 | 2013 | destilliert (sia-312-2013.md), Verifikation ausstehend (naechster Lauf) |
 | [x] 260713 | P2 | `318_1988_d.pdf` | 318 | 1988 | destilliert (sia-318-1988.md), Garten- und Landschaftsbau |
 | — | — | `329_1989_d.pdf` | 329 | 1989 | ersetzt durch 329:2018 (destilliert sia-329-2018.md); Altausgabe uebersprungen |
 | [x] 260712 | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
@@ -88,7 +88,7 @@
 | [ ] | P2 | `343.051_2018.pdf` | 343 | 2018 |  |
 | [x] 260713 | P2 | `343_1990_d.pdf` | 343 | 1990 | destilliert (sia-343-1990.md), Türen und Tore |
 | [x] 260712 | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
-| [ ] | P2 | `370.028_2003_d.pdf` | 370 | 2003 |  |
+| [x] 260713 | P2 | `370.028_2003_d.pdf` | 370 | 2003 | destilliert (sia-370-028-2003.md), Verifikation ausstehend (naechster Lauf) |
 | [ ] | P2 | `370.080_2003_d.pdf` | 370 | 2003 |  |
 | [ ] | P2 | `382 1-2014.pdf` | 382 | 2014 |  |
 | — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
@@ -101,18 +101,18 @@
 | [x] 260713 | P2 | `430_1993_d.pdf` | 430 | 1993 | destilliert (sia-430-1993.md), Entsorgung von Bauabfällen |
 | [ ] | P2 | `431_1997_d.pdf` | 431 | 1997 |  |
 | [ ] | P2 | `450_1993_d.pdf` | 450 | 1993 |  |
-| [ ] | P2 | `462_1994_d.pdf` | 462 | 1994 |  |
-| [ ] | P2 | `465_1998_d.pdf` | 465 | 1998 |  |
-| [ ] | P2 | `469_1997_d.pdf` | 469 | 1997 |  |
+| [x] 260713 | P2 | `462_1994_d.pdf` | 462 | 1994 | destilliert (sia-462-1994.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `465_1998_d.pdf` | 465 | 1998 | destilliert (sia-465-1998.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `469_1997_d.pdf` | 469 | 1997 | destilliert (sia-469-1997.md), Verifikation ausstehend (naechster Lauf) |
 | [ ] | P2 | `480_2004_d.pdf` | 480 | 2004 |  |
 | [ ] | P2 | `493_1997_d.pdf` | 493 | 1997 |  |
 | [x] 260712 | P2 | `500_2009.pdf` | 500 | 2009 |  |
 | [ ] | P2 | `564_282.pdf` | 564 |  |  |
 | [ ] | P2 | `592056.pdf` | 5920 |  |  |
-| [ ] | P2 | `721_2001_d.pdf` | 721 | 2001 |  |
-| [ ] | P2 | `723_2001_d.pdf` | 723 | 2001 |  |
-| [ ] | P2 | `752_2002_d.pdf` | 752 | 2002 |  |
-| [ ] | P2 | `753_2002_d.pdf` | 753 | 2002 |  |
+| [x] 260713 | P2 | `721_2001_d.pdf` | 721 | 2001 | destilliert (sia-721-2001.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `723_2001_d.pdf` | 723 | 2001 | destilliert (sia-723-2001.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | destilliert (sia-752-2002.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `753_2002_d.pdf` | 753 | 2002 | destilliert (sia-753-2002.md), Verifikation ausstehend (naechster Lauf) |
 | [ ] | P2 | `EN 13200-12019.pdf` | 1320 | 2019 |  |
 | [ ] | P2 | `d 0165.pdf` | 0165 |  |  |
 | — | — | `e/112_2001_e.pdf` | 112 | 2001 | Sprachvariante |

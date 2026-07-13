@@ -1,3 +1,25 @@
+## 2026-07-13 — normen-training-nacht MacBook: 12 neue SIA-Destillate (Verifikation ausstehend)
+- Workflow-Tool blockierte im unbeaufsichtigten Lauf ("Review dynamic workflow before running");
+  Fallback auf parallele Einzel-Agenten (PROGRAMM.md-Fallback bei Workflow nicht verfuegbar).
+- 12 neue Destillate geschrieben: sia-723-2001, sia-752-2002, sia-753-2002, sia-721-2001,
+  sia-462-1994, sia-370-028-2003, sia-465-1998, sia-469-1997, sia-244-2006, sia-246-2006,
+  sia-312-2013, sia-248-2006. Alle mit Status `destilliert` (Fundstellen belegt), OHNE
+  separate Verifikations-Stufe (Budget-Abbruch dieses Laufs) -- Status bewusst NICHT auf
+  `established` gehoben, Verifikation ist naechster Schritt.
+- Weitere Destill-Agenten liefen zum Abbruchzeitpunkt noch im Hintergrund (d0165, 199,
+  2051, 2014, 272, 423, 431, VKF-107-15 Fluessiggasanlagen) -- deren Resultate sind auf der
+  Platte zu pruefen und im naechsten Lauf zu registrieren, bevor neue Positionen begonnen werden.
+- Duplikat-Bereinigung (VKF Anerkennungsverfahren/Solaranlagen/Aenderungen-2017, aus
+  QUESTIONS.md) bewusst NICHT ausgefuehrt -- Loeschen ist destruktiv (Rule wissens-bibliothekar),
+  braucht Rueckfrage in einer interaktiven Session.
+- `training/norm-inventar.md` fuer die 12 destillierten Positionen auf `[x] 260713` gesetzt,
+  Bemerkung "Verifikation ausstehend". `destillate/INDEX.md` wurde von den Agenten direkt
+  nachgefuehrt.
+- Naechster Lauf: (1) Register fuer die im Hintergrund fertiggestellten, aber hier nicht mehr
+  verarbeiteten Destillate nachziehen, (2) Verifikations-Stufe fuer alle 12+ neuen Destillate
+  nachholen (adversarial gegen Original-PDF), (3) restliche offene SIA-Positionen (384.201,
+  450, 382/1, 193.111, 592056 -- Gross-Normen) angehen.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 10: Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe, 8/8 beanstandet-korrigiert
 - Stufe (b) Deepening-Fortsetzung: 8 DIN-Destillate adversarial gegen das Original-PDF geprüft
   (din-5034-1, din-5034-2, din-5034-4, din-5034-6, din-1053-1, din-1053-2, din-1053-3,
