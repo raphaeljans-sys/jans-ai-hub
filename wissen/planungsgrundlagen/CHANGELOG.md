@@ -2,6 +2,49 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 28 (Recht & Norm + Brandschutz, Token-Vollgas 2 Domaenen): vier unerschlossene PL-02-Ordner + Verifikations-Nachtrag Brandschutz-Parkings
+- Rotation nach Run 27: **Recht & Norm (PL-02) + Brandschutz (PL-03)**. Dieser Lauf setzt einen
+  bereits VOR Laufbeginn begonnenen, aber unvollstaendig gebliebenen Vorgang fort: vier
+  Recht/Norm-Wiki-Artikel waren bereits (durch einen vorherigen, unterbrochenen Trainingsdurchgang)
+  vollstaendig geschrieben, aber weder in `curriculum.md`/`QUESTIONS.md`/`INDEX.md` registriert noch
+  im CHANGELOG protokolliert; im Brandschutz-Artikel war eine Korrektur (§4c) bereits mit Verweisen
+  auf zwei noch nicht existierende Abschnitte «§5g»/«§5l» angelegt. Dieser Lauf hat (1) alle vier
+  Recht/Norm-Quellen gegen die Original-PDFs auf Disk verifiziert und die Register nachgefuehrt,
+  (2) die fehlenden Abschnitte §5g/§5l recherchiert, geschrieben und gegen die Originalquellen
+  verifiziert, (3) vier weitere Brandschutz-Kandidaten gegengeprueft (zwei ergaben Substanz, drei
+  bestaetigte Nicht-Funde, ein technischer Zugriffsfehler) — und dokumentiert alles ehrlich,
+  inklusive der Nicht-Funde und des technischen Problems.
+- **Recht & Norm — vier neue Artikel (R18-R21):** **Baueingabe-Verfahren ZH** (Drei-Spuren-Modell,
+  Phasenprinzip mit Fristen, Plandarstellungskonvention § 4 Abs. 4 BVV, reale Fallbeleg-Kennzahlen
+  Wartstrasse 8 Zuerich + Bohlweg 3 Thalwil) → NEU [[recht-norm-baueingabe-verfahren-zh]].
+  **IVHB-Leitfaden Kt. ZH** (29-Begriffe-Inventar, amtlicher Wortlaut Massgebendes Terrain § 5 ABV +
+  Gebaeude-/Kleinbauten-/Fassadenflucht-Begriffe) → NEU [[recht-norm-ivhb-baubegriffe]].
+  **Regenwasserentsorgung + Gewaesserraum-Verfahren ZH** (Versickerung vor Einleitung,
+  GWS-Zonen-Verbote, Verfahren 2/3 Gewaesserraum-Festlegung) → NEU
+  [[recht-norm-regenwasser-gewaesserraum-zh]]. **Submissionsverordnung Kt. ZH** (4 Vergabearten,
+  Fristen, Abgrenzung zur privaten JANS-Devisierung) → NEU [[recht-norm-submissionsverordnung-zh]].
+- **Brandschutz — Verifikations-Abschluss + zwei Fundstellen (B19-B25):** **§5g «Parking»-Begriff**
+  (>600 m² Abgrenzung Ziff. 2.4, Schleusenpflicht ab 1'200 m² Brandabschnittsflaeche — bisher nicht
+  dokumentierte Kernzahl) und **§5l BSR 21-15 RWA-Grundrichtlinie** (vollstaendige Parking-Tabelle
+  600/3'600/2'400/4'800 m²) schliessen die in §4c bereits zitierte, aber unvollstaendige Korrektur
+  der ueberholten 2003er-Parkhaus-Arbeitshilfe ab — beide neuen Quellen bestaetigen die dort
+  genannten Zahlen. **BS-Symbole 01.01.2017** (kanonischer Vollkatalog, Delta RDA/SLA/Poller/
+  PV-Symbole zum bereits dokumentierten Musterplansatz) → Ergaenzung §5b. Bestaetigte Nicht-Funde:
+  **08-QS-Docx** (private, bereits referenzierte Notiz, kein neuer Inhalt), **Solaranlagen-Ordner**
+  (byte-identische Datei wie [[energie-pv-brandschutz]]), **07 Blaues Buch** (kein weiteres
+  Bildmaterial vorhanden). **Technisch nicht abschliessbar:** Lignum Erdbeben-PDF ist ein
+  OneDrive-Cloud-Platzhalter, wiederholt nicht lesbar («Resource deadlock avoided») — offener
+  Punkt fuer den naechsten Lauf.
+- **Neue Artikel:** [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-ivhb-baubegriffe]],
+  [[recht-norm-regenwasser-gewaesserraum-zh]], [[recht-norm-submissionsverordnung-zh]] (alle
+  `established`).
+- **Erweiterte Artikel:** [[brandschutz-pl03-wegweiser]] (§5g NEU, §5l NEU, §5b ergaenzt, §4c-
+  Korrektur referenziell geschlossen).
+- **Verifikations-Stufe:** alle vier Recht/Norm-Quellen sowie beide Brandschutz-Nachtraege wurden
+  in diesem Lauf **direkt gegen die Original-PDFs auf Disk geprueft** (Dateiexistenz + Stichproben-
+  Volltextabgleich), bevor sie als registriert/`established` galten — kein blindes Uebernehmen
+  unregistrierter Vorarbeit.
+
 ## 2026-07-13 — Training Run 27 (Kartenportale + Energie, Token-Vollgas 2 Domaenen, Multi-Agent-Workflow): sechs bisher unerschlossene PL-01/PL-04-Fundstellen ausgewertet
 - Rotation nach Run 26: Kartenportale (PL-01) + Energie (PL-04). Beide Domaenen waren im
   Curriculum/QUESTIONS praktisch vollstaendig `[x]` — Methode wie Run 25/26: `find`-Abgleich

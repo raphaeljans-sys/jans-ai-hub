@@ -104,6 +104,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R18–R21 (Run 28, 2026-07-13)** Vier bisher unerschlossene PL-02-Unterordner ausgewertet
+  (Fund/Registrierung eines vorher unterbrochenen Laufs, dessen Wiki-Artikel bereits geschrieben
+  waren, aber ohne Register-Nachfuehrung — gegen die Original-PDFs verifiziert, alle Quellen auf
+  Disk bestaetigt): **Baueingabe-Verfahren ZH** (Drei-Spuren-Modell, Fristen, Plandarstellung
+  rot/gelb/schwarz, reale Fallbeleg-Kennzahlen Wartstrasse 8/Bohlweg 3 → NEU
+  [[recht-norm-baueingabe-verfahren-zh]]), **IVHB-Leitfaden Kt. ZH** (29-Begriffe-Inventar, amtlicher
+  Wortlaut Massgebendes Terrain § 5 ABV + Gebaeude-/Kleinbauten-Begriffe → NEU
+  [[recht-norm-ivhb-baubegriffe]]), **Regenwasserentsorgung + Gewaesserraum-Verfahren ZH**
+  (Versickerung vor Einleitung, GWS-Zonen-Verbote, Verfahren 2/3 Gewaesserraum-Festlegung → NEU
+  [[recht-norm-regenwasser-gewaesserraum-zh]]), **Submissionsverordnung Kt. ZH** (4 Vergabearten,
+  Fristen, Abgrenzung zur privaten JANS-Devisierung → NEU [[recht-norm-submissionsverordnung-zh]]).
+  Details siehe `training/curriculum.md` R18-R21.
 - [x] **R12–R17** (Run 26, 2026-07-13) Sechs bisher unerschlossene PL-02-Unterordner ausgewertet:
   **Radonschutz** (StSV-Totalrevision 2017 statt SharePoint-Stammfassung 1994, Referenzwert
   300 Bq/m³ → NEU [[recht-norm-radonschutz]]), **Zivilschutz-Bautechnik** (TPH-18 Durchfuehrungen,
@@ -214,6 +226,22 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C20–C26 (B19-B25) (Run 28, 2026-07-13)** Verifikations-Nachtrag + zwei neue PL-03-Fundstellen:
+  **§4c-Korrektur abgeschlossen** — die Referenzen "§5g"/"§5l" (bereits im §4c-Korrekturblock eines
+  vorherigen unterbrochenen Laufs angelegt) wurden mit vollstaendigem, gegen die Originalquelle
+  verifiziertem Inhalt gefuellt: **§5g «Parking»-Begriff** (>600 m² Abgrenzung, Schleusenpflicht ab
+  1'200 m² Brandabschnittsflaeche — bisher nicht dokumentierte Kernzahl) und **§5l BSR 21-15 RWA-
+  Grundrichtlinie** (vollstaendige Parking-Tabelle 600/3'600/2'400/4'800 m², LRWA/MRWA/NRWA) →
+  [[brandschutz-pl03-wegweiser]]. **BS-Symbole 01.01.2017** (kanonischer Vollkatalog, Delta zum
+  Musterplansatz §5b: RDA/SLA/Poller/PV-Symbole) → Ergaenzung §5b. Drei bestaetigte
+  Nicht-Funde (ehrlich dokumentiert statt verschwiegen): **08 QS-Docx** (private ChatGPT-Notiz,
+  kein neuer Inhalt), **Solaranlagen-Ordner** (identische Datei wie [[energie-pv-brandschutz]],
+  Cross-Reference-Duplikat), **07 Blaues Buch** (nur die bereits in §5e ausgewerteten 2 Screenshots
+  vorhanden, kein weiteres Material). Ein Fund technisch nicht abschliessbar: **Lignum Erdbeben**
+  (`Erdbebengerechte_Holzbauten_d.pdf`) ist ein OneDrive-Cloud-Platzhalter, der wiederholt mit
+  «Resource deadlock avoided» nicht lesbar war (kein anderer Prozess haelt die Datei, `lsof` leer) —
+  offener technischer Punkt fuer den naechsten Lauf. Details siehe `training/curriculum.md`
+  B19-B25.
 - [x] **C15–C19 (B14-B18)** (Run 26, 2026-07-13) Bisher unerschlossene PL-03-Ordner ausgewertet:
   **Musterplansatz bsvonline.ch** (Legende/Symbolik + Objektdatenblatt Feuerwehrplaene → NEU
   §5b), **Feuerwehr-Bewegungs-/Stellflaechen** (6×11 m, Schlauchlaenge 60 m ⚠ Quelle nur Foto,
