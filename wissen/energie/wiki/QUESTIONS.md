@@ -63,9 +63,12 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Verluste) → `[[fenster-energieetikette-fea-bfe]]`, schaerft `fenster-verglasung`. **Exakte FEA-
   Klassengrenzen A–G belegt ✓ 2026-07-13** (Faktenblatt pubdb 7731 diesmal vollstaendig als Text lesbar,
   nicht mehr bildbasiert: A < 0, B 0–0,1, C 0,1–0,2, D 0,2–0,3, E 0,3–0,4, F 0,4–0,8, G ≥ 0,8 W/(m²·K);
-  plus Formel + Musterbeispiel Uw 1,1/g 60 % → Klasse A) → Destillat auf **established** gehoben. Offen
-  bleibt nur noch: numerische **g-Werte** je Verglasungstyp + **Uf** je Rahmenmaterial
-  (Hersteller-/SZFF-Datenblatt), Konstanten c1/c2 der Formel.
+  plus Formel + Musterbeispiel Uw 1,1/g 60 % → Klasse A) → Destillat auf **established** gehoben. **Grobe
+  Uf-Orientierung nach Rahmenmaterial ergänzt ✓ 2026-07-13** (Einzel-Sekundärquelle bawos.ch, nicht
+  amtlich: Holzrahmen Uf ca. 1,3–1,8 W/(m²·K); Kunststoff/Holz-Metall weiterhin unbeziffert; SZFF selbst
+  führt keine öffentliche Material-Tabelle) → `[[uf-werte-rahmenmaterial-grobuebersicht]]` (`speculative`).
+  Offen bleibt nur noch: belastbare **g-Werte** je Verglasungstyp + systematische amtliche **Uf**-Tabelle
+  je Rahmenmaterial (Hersteller-/SZFF-Datenblatt), Konstanten c1/c2 der Formel.
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,

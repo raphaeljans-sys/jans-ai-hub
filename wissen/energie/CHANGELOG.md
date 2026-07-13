@@ -2,6 +2,31 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 44: Uf-Werte je Rahmenmaterial (grobe, nicht amtliche Orientierung) ergänzt (F35 geschärft)
+- **PDF-Inventar weiterhin erschöpft**, kein neues Rohmaterial in `PL - 04 Energie` (geprüft: neuestes
+  Dateidatum 2026-06-11, kein neuer Zeitstempel seit Run 41/42/43).
+- **Web-Recherche zu den beiden von Run 43 benannten Restpunkten:** (1) numerische Uf-Werte je
+  Rahmenmaterial — SZFF-Primärquelle (Faktenblatt pubdb 7731, per WebFetch+Read vollständig als PDF
+  gelesen) bestätigt, dass es **keine öffentliche Material-Tabelle** gibt, nur ein Einzelzertifikat-
+  Beispiel (Uf 1,1 W/(m²·K)); (2) eine einzelne Web-Sekundärquelle (bawos.ch) liefert eine grobe
+  Bandbreite für Holzrahmen (Uf ca. 1,3–1,8 W/(m²·K)).
+- **1 Destillat neu (Status `speculative`, bewusst NICHT höher):** `uf-werte-rahmenmaterial-grobuebersicht`
+  — dokumentiert die Bandbreite mit deutlichem Vorbehalt (Einzelquelle, undatiert, kein Ersatz für den
+  Hersteller-/SZFF-Wert des gewählten Produkts).
+- **Register nachgeführt:** `wiki/BAUHERREN-FAQ.md` (F35 um Uf-Grobwert-Hinweis ergänzt, keine neue
+  Nummer), Themenartikel `wiki/fenster-verglasung.md` (Sektion «Offen»), `wiki/QUESTIONS.md` (E3),
+  `destillate/INDEX.md`.
+- **Ehrlich:** DE-Quellen mit g-Wert-Tabellen (fensterblick.de, sanier.de) bewusst NICHT übernommen
+  (Regel: keine ungeprüften DE-Werte als CH-Werte). Die systematische amtliche Uf-/g-Wert-Matrix je
+  Material bleibt eine Lücke, die nur über Hersteller-/SZFF-Datenblätter (projektbezogen) schliessbar
+  ist — keine weitere Web-Suche versprechend.
+- **Meta-Hinweis für Raphael:** Das PDF-Inventar ist seit Run 41 (3 Tage / >10 Läufe) vollständig
+  abgearbeitet; die verbliebenen offenen Punkte sind zunehmend eng/herstellerspezifisch und liefern nur
+  noch marginalen neuen Bauherren-Nutzen pro Lauf. Die Meta-Entscheidung **M2** (eigener Skill `energie`?)
+  aus `curriculum.md` steht weiterhin aus — mit 90 Destillaten und 60 Kernfragen ist die KB reif dafür.
+  Empfehlung: nächstes Mal mit Raphael die Rücktaktung auf Sparbetrieb bzw. den Skill-Entscheid klären,
+  statt weiter im Stundentakt nach immer kleineren Lücken zu suchen.
+
 ## 2026-07-13 — Run 43: Fenster-Energieetikette-Klassengrenzen + GEAK-Kosten belegt (F35/F36 geschärft)
 - **PDF-Inventar bleibt erschöpft** (seit Run 41 vollständig `[x]`/`[-]`) — kein neues Rohmaterial in
   `PL - 04 Energie`. Statt PDF-Transfer wurden zwei konkrete, in Run 42 benannte Web-Vertiefungspunkte

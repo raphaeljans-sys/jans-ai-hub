@@ -1291,6 +1291,12 @@ in Zahlen sehen will: die freiwillige FEA (FFF/SZFF/EnergieSchweiz) klassiert Fe
 < 0, solare Gewinne übersteigen die Verluste) bis **G** (Uw,eq ≥ 0,8); ein Musterfenster mit Uw 1,1 und
 g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` (exakte Klassentabelle).
 
+**Ergänzung — Uf grob nach Rahmenmaterial:** Eine einzelne, nicht amtliche Web-Quelle nennt für
+**Holzrahmen** Uf ca. **1,3–1,8 W/(m²·K)**; für Kunststoff/Holz-Metall gibt es keine belastbare Zahl.
+Nur als **grobe erste Orientierung** verwenden, nie als Ersatz für den Hersteller-/SZFF-Wert des
+gewählten Produkts (die SZFF selbst führt keine öffentliche Material-Tabelle) →
+`[[uf-werte-rahmenmaterial-grobuebersicht]]` (Status `speculative`).
+
 **Quelle:** EnergieSchweiz «Worauf es bei der Fenstersanierung ankommt»; HSLU/enbau-online «Fenster –
 Verglasung – Sonnen-, Wetter- und Blendschutz»; Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch
 → `[[fenster-verglasung-uw-g-wert]]`, Themenartikel `[[fenster-verglasung]]`. U-Wert-Grenzwerte → F3 /

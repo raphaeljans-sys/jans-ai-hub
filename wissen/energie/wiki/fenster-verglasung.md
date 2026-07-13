@@ -103,7 +103,10 @@ Uw-Anforderung (ZH/Minergie ≤ 1,0). Detail inkl. Formel → `[[fenster-energie
 
 ## Offen
 - Numerische **g-Werte** je Verglasungstyp und **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblätter;
-  DE-Blog-Tabellen nicht übernehmen).
+  DE-Blog-Tabellen nicht übernehmen). **Grobe, nicht amtliche Orientierung ergänzt 2026-07-13:**
+  Holzrahmen Uf ca. 1,3–1,8 W/(m²·K) (Einzelquelle, `speculative`, kein Ersatz für den
+  Hersteller-/SZFF-Wert des gewählten Produkts) → `[[uf-werte-rahmenmaterial-grobuebersicht]]`.
+  Systematische amtliche Uf-Tabelle je Material bleibt offen.
 - Konstanten c1/c2 der Uw,eq-Formel (nur auf Einzelzertifikat, nicht im Faktenblatt beziffert).
 
 ---
