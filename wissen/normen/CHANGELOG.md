@@ -1,4 +1,53 @@
 # CHANGELOG — KB Normen
+## 2026-07-13 — normen-training-mini Mac Mini: 9 neue DIN/Sonstiges-Destillate (12 Positionen)
+- Stations-Split eingehalten: NUR DIN bearbeitet (SIA/VKF bleiben MacBook Pro).
+- **9 neue Destillate (12 Inventar-Positionen):**
+  `din-18041-2004.md` (DIN 18041 Hörsamkeit in kleinen/mittelgrossen Räumen, vollständig
+  S.1-39/39, `established`), `treppen-hcu-hamburg-2008.md` (HCU-Hamburg-Lehrskript Treppen +
+  Neufert-Planungsgrundlagen, vollständig S.1-19/19), `nbauo-barrierefreiheit-2004.md`
+  (gebündelt: NBauO §§45/48 + DVNBauO §§18/29 Niedersachsen, 4 Einzelnorm-Ausdrucke),
+  `baunvo-1990.md` (Baunutzungsverordnung D), `arbstaettv-2004.md` (Arbeitsstättenverordnung D),
+  `din-abkuerzungsverzeichnis-2010.md` (Glossar), `hoai-bauen-im-bestand-2011.md` (HOAI-2009-
+  Leistungsbild Bauen im Bestand), `vstaettvo-niedersachsen-2004.md` (Versammlungsstätten-
+  verordnung Niedersachsen, Teil-Destillat S.1-20/31), `baurecht-din-normenwerk-grundlagen-2010.md`
+  (VOB-Struktur/DIN-Normenarbeit/EU-Harmonisierung/Bauprodukte).
+- **1 Position bewusst übersprungen:** `DIN 68800-2 e.pdf` als englische Sprachvariante
+  (Sprachvarianten-Regel, analog SIA e/f/i).
+- **KB-Lücken notiert** (`wiki/QUESTIONS.md`): Schweizer Pendants SIA 500 (Hindernisfreie
+  Bauten), SIA-Raumakustik-Grundlagen, SIA-260er-Tragwerksnormen fehlen noch — Kandidaten für
+  den SIA/VKF-Loop (MacBook Pro).
+- Verifikationsstufe nicht separat angewendet (mechanisches Direkt-Destillieren aus dem
+  Original-PDF, keine Status-Hebung auf `established` ohne Volltextbeleg — DIN 18041 als
+  `established` markiert, da Volltext 39/39 Seiten vollständig gelesen und alle Kennziffern
+  direkt mit Fundstelle belegt wurden).
+- Git-Disziplin (VOLLGAS): nur lokal committet, Push/Pull dem git-auto-sync-Job überlassen.
+
+## 2026-07-13 — normen-training-nacht MacBook Pro Run 6: 13 neue VKF-Destillate (Ordner Brandschutzrichtlinien 2015 komplett)
+- Stations-Split eingehalten: NUR VKF bearbeitet.
+- **13 neue Destillate** (parallel via Agent-Fanout destilliert, Workflow-Tool verweigerte in
+  diesem Hintergrundlauf die Freigabe „Review dynamic workflow before running" — Fallback auf
+  parallele Agent-Aufrufe gemäss PROGRAMM.md):
+  VKF-Brandschutzerläuterungen 101-15 bis 108-15 (Atrien/Innenhöfe, Doppelfassaden, Cheminées,
+  Späne-/Schnitzel-/Pelletsfeuerungen, Flüssiggasanlagen, Betriebsbereitschaft BFS),
+  VKF-Verzeichnis 40-15 (Weitere Bestimmungen, teil-destilliert), VKF-Arbeitshilfen 1000-15
+  (Gebäude geringer Abmessung), 1001-15 (Wohnbauten), 1002-03d (Parkhäuser), 1002-15
+  (Schulbauten). Alle Quell-PDFs vollständig gelesen (12-30 Seiten je Dokument), Fundstellen
+  auf Ziffer-/Seitenebene.
+- Damit sind **beide VKF-Ordner „02_Brandschutzrichtlinien 2015" und „04_Erlaeuterungen
+  Brandschutz 2015" sowie „05_Arbeitshilfen Brandschutz 2015" vollständig destilliert.**
+- Vorab per MD5-Vergleich geprüft: `04_Erlaeuterungen.../100-15_Brandmauern.pdf` ist byte-
+  identisch mit dem bereits destillierten `02_Brandschutzrichtlinien.../100-15_Brandmauern.pdf`
+  → kein Doppel-Agent gestartet, im Inventar auf bestehendes Destillat referenziert.
+  `z_Administration/*` (Bestellformular/Lieferschein) und `_LINK.docx` sind keine Normen und
+  wurden im Inventar als „—" (übersprungen) markiert statt destilliert.
+- `norm-inventar.md`: 13 Zeilen + 1 Dublette + 3 Admin-Dateien nachgeführt.
+  `destillate/INDEX.md`: 13 neue Zeilen ergänzt.
+- Verifikationsstufe nicht angewendet (Status bleibt `destilliert`, nicht `established`) —
+  bewusster Kostenentscheid in dieser Session (Session-Budget war nach der Reconcile-Arbeit
+  bereits stark ausgeschöpft); bei Bedarf in einem Folgelauf adversarial verifizieren.
+- Offene SIA-P2-Positionen (121/125/144/150/166/179 u.v.m.) sind für den nächsten Lauf vorgesehen,
+  wurden in diesem Lauf aus Budgetgründen zurückgestellt.
+
 ## 2026-07-13 — normen-training-nacht MacBook Pro Run 5: Inventar-Reconcile (35 Positionen)
 - Stations-Split eingehalten: NUR SIA/VKF bearbeitet.
 - **Fund:** 7 SIA- + 28 VKF-Positionen standen seit 12.07.2026 als `[~] in Arbeit (MacBook

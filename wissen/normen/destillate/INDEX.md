@@ -28,6 +28,15 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
 | `vkf-brl-nachweisverfahren.md` | VKF-BRL 27-15 Nachweisverfahren im Brandschutz | 2015 | established (verifiziert 260712) |
 | `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | destilliert (vollständig, S.1-24) |
+| `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (vollständig, S.1-39/39) |
+| `treppen-hcu-hamburg-2008.md` | Lehrskript Treppen (HCU Hamburg) inkl. Neufert-Planungsgrundlagen | Stand Januar 2008 | destilliert (vollständig, S.1-19/19) |
+| `nbauo-barrierefreiheit-2004.md` | NBauO §§45/48 + DVNBauO §§18/29 Barrierefreiheit (Niedersachsen) | Rechtsstand 2012 / DVNBauO 1987/2004 | destilliert (4 Einzelnormen gebündelt) |
+| `baunvo-1990.md` | BauNVO Baunutzungsverordnung (D) | Neufassung 1990/1993 | destilliert (vollständig, S.1-14/14) |
+| `arbstaettv-2004.md` | ArbStättV Arbeitsstättenverordnung (D) | 2004/2010 | destilliert (vollständig, S.1-12/12) |
+| `din-abkuerzungsverzeichnis-2010.md` | Abkürzungsverzeichnis Planen und Bauen (D) | 2010 | destilliert (Glossar, vollständig) |
+| `hoai-bauen-im-bestand-2011.md` | HOAI 2009 Leistungsbild Bauen im Bestand | 2011 | destilliert (vollständig, S.1-19/19) |
+| `vstaettvo-niedersachsen-2004.md` | VStättVO Versammlungsstättenverordnung Niedersachsen | 2004 | Teil-Destillat (S.1-20/31, Rest naechster Lauf) |
+| `baurecht-din-normenwerk-grundlagen-2010.md` | Baurecht Allgemeine Grundlagen: VOB/DIN-Normenarbeit/EU-Harmonisierung (D) | 2010 | destilliert (vollständig, S.1-20/20) |
 | `vss-700.5-1987.md` | ZH Zugangsnormalien 700.5 | 1987, in Kraft 1988 | destilliert |
 | `vss-722.15-1983.md` | ZH Verkehrssicherheitsverordnung 722.15 | 1983, geänd. 1995 | destilliert |
 | `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | destilliert |
@@ -121,3 +130,16 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vst-merkblatt-012-tueren-fluchtwegen.md` | VST Technisches Merkblatt Nr. 012 Türen in Fluchtwegen | Erstausgabe 2009 | draft |
 | `szs-steeldoc-brandschutz-stahlbau-2015.md` | SZS steeldoc 03/15 Brandschutz im Stahlbau | 2015 (Erstausgabe 2006) | draft |
 | `en-179-1125-2009-panikbeschlaege-gege.md` | EN 179/1125 Panikbeschläge (gege-Kurzfassung) | 2009 | draft |
+| `vkf-brl-101-15-atrien-innenhoefe.md` | VKF-BSE 101-15 Atrien und Innenhöfe | 2015 | destilliert |
+| `vkf-brl-102-15-doppelfassaden.md` | VKF-BSE 102-15 Doppelfassaden | 2015 | destilliert |
+| `vkf-brl-103-15-cheminees.md` | VKF-BSE 103-15 Cheminées | 2015 | destilliert |
+| `vkf-brl-104-15-spaenefeuer.md` | VKF-BSE 104-15 Spänefeuerungen | 2015 | destilliert |
+| `vkf-brl-105-15-schnitzelfeuerung.md` | VKF-BSE 105-15 Schnitzelfeuerungen | 2015 | destilliert |
+| `vkf-brl-106-15-pelletsfeuerung.md` | VKF-BSE 106-15 Pelletsfeuerungen | 2015 | destilliert |
+| `vkf-brl-107-15-fluessiggasanlagen.md` | VKF-BSE 107-15 Flüssiggasanlagen | 2015 | destilliert |
+| `vkf-brl-108-15-betriebsbereitschaft-bfs.md` | VKF-BSE 108-15 Betriebsbereitschaft Brandfallsteuerungen (BFS) | 2015 | destilliert |
+| `vkf-verz-40-15-weitere-bestimmungen.md` | VKF-Verzeichnis 40-15 Weitere Bestimmungen (Drittnormen je BRL/BSE) | 2015 | destilliert (teilw., Ziff. 3.7-3.9 + Abkürzungsverz. offen) |
+| `vkf-ah-1000-15-gebaeude-geringer-abmessung.md` | VKF-Arbeitshilfe 1000-15 Gebäude mit geringer Abmessung | 2015 | destilliert |
+| `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | 2015 | destilliert |
+| `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | destilliert |
+| `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | destilliert |

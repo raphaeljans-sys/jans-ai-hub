@@ -444,20 +444,20 @@
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Verwendung von Baustoffen.pdf` |  |  |  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Wärmetechnische Anlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-24-15-waermetechnische-anlagen.md  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/gege-panikprogramm-1.pdf` |  |  |  Reconcile 260713: en-179-1125-2009-panikbeschlaege-gege.md  |
-| [ ] | P2 | `03_Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf` |  |  |  |
+| [x] 260713 | P2 | `03_Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf` |  |  |  destilliert (vkf-verz-40-15-weitere-bestimmungen.md)  |
 | [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/100-15_Brandmauern.pdf` | 100 |  | identisch (MD5) mit bereits destilliertem `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` → vkf-brl-100-15-brandmauern.md |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/101-15_Atrien u Innenhöfe.pdf` | 101 |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/102-15_Doppelfassaden.pdf` | 102 |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/103-15_Cheminees.pdf` | 103 |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/104-15_Spänefeuer.pdf` | 104 |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/105-15_Schnitzelfeuerung.pdf` | 105 |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/106-15_Pelletsfeuerung.pdf` | 106 |  |  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/101-15_Atrien u Innenhöfe.pdf` | 101 |  |  destilliert (vkf-brl-101-15-atrien-innenhoefe.md)  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/102-15_Doppelfassaden.pdf` | 102 |  |  destilliert (vkf-brl-102-15-doppelfassaden.md)  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/103-15_Cheminees.pdf` | 103 |  |  destilliert (vkf-brl-103-15-cheminees.md)  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/104-15_Spänefeuer.pdf` | 104 |  |  destilliert (vkf-brl-104-15-spaenefeuer.md)  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/105-15_Schnitzelfeuerung.pdf` | 105 |  |  destilliert (vkf-brl-105-15-schnitzelfeuerung.md)  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/106-15_Pelletsfeuerung.pdf` | 106 |  |  destilliert (vkf-brl-106-15-pelletsfeuerung.md)  |
 | [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/107-15_Flüssiggasanlagen.pdf` | 107 |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/108-15_Betriebsbereitschaft BFS.pdf` | 108 |  |  |
-| [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1000-15_Gebäude mit geringer Abmessung.pdf` | 1000 |  |  |
-| [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf` | 1001 |  |  |
-| [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-03d_Parkhaeuser.pdf` | 1002 |  |  |
-| [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-15_Schulbauten.pdf` | 1002 |  |  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/108-15_Betriebsbereitschaft BFS.pdf` | 108 |  |  destilliert (vkf-brl-108-15-betriebsbereitschaft-bfs.md)  |
+| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1000-15_Gebäude mit geringer Abmessung.pdf` | 1000 |  |  destilliert (vkf-ah-1000-15-gebaeude-geringer-abmessung.md)  |
+| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf` | 1001 |  |  destilliert (vkf-ah-1001-15-wohnbauten.md)  |
+| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-03d_Parkhaeuser.pdf` | 1002 |  |  destilliert (vkf-ah-1002-03-parkhaeuser.md)  |
+| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-15_Schulbauten.pdf` | 1002 |  |  destilliert (vkf-ah-1002-15-schulbauten.md)  |
 | — | — | `_LINK.docx` |  |  | keine Norm, Verweis-/Linkdatei — übersprungen |
 | — | — | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 | keine Norm, Bestellformular — übersprungen |
 | — | — | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 | keine Norm, Lieferschein — übersprungen |
@@ -513,30 +513,30 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 | 1994 | destilliert (din-5034-4-1994.md, Scan nur ungerade Seiten), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | destilliert (din-5034-6-1995.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md) |
-| [ ] | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  |  |
+| — | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  | englische Fassung, uebersprungen (Sprachvarianten-Regel) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md) |
 | [ ] | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN V 106.pdf` | 106 |  |  |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz |
-| [ ] | P3 | `DIN-Norm/DIN_18041.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  |  |
-| [ ] | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/Allgemeine_Grundlagen.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/ArbStättV.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/BauNVO.pdf` |  |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume |
+| [~] 260713 Teil-Destillat | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | vstaettvo-niedersachsen-2004.md, S.1-20/31 gelesen, Rest naechster Lauf |
+| [x] 260713 | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  | destilliert (din-abkuerzungsverzeichnis-2010.md), reines Glossar |
+| [x] 260713 | P3 | `Sonstiges/Allgemeine_Grundlagen.pdf` |  |  | destilliert (baurecht-din-normenwerk-grundlagen-2010.md), VOB/DIN-Normenarbeit/EU-Harmonisierung |
+| [x] 260713 | P3 | `Sonstiges/ArbStättV.pdf` |  |  | destilliert (arbstaettv-2004.md) |
+| [x] 260713 | P3 | `Sonstiges/BauNVO.pdf` |  |  | destilliert (baunvo-1990.md) |
 | [ ] | P3 | `Sonstiges/Baupreisindizes.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/DVNBauO_18.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/DVNBauO_29.pdf` |  |  |  |
+| [x] 260713 | P3 | `Sonstiges/DVNBauO_18.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt mit DVNBauO_29+NBauO Par45/Par48) |
+| [x] 260713 | P3 | `Sonstiges/DVNBauO_29.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
 | [ ] | P3 | `Sonstiges/Inhaltsverzeichnis.pdf` |  |  |  |
 | [ ] | P3 | `Sonstiges/Komm Din 18024 Teil 1.pdf` | 1802 |  |  |
-| [ ] | P3 | `Sonstiges/NBauO_§_45.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/NBauO_§_48.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/Planen_und_Bauen_im_Bestand.pdf` |  |  |  |
+| [x] 260713 | P3 | `Sonstiges/NBauO_§_45.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
+| [x] 260713 | P3 | `Sonstiges/NBauO_§_48.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
+| [x] 260713 | P3 | `Sonstiges/Planen_und_Bauen_im_Bestand.pdf` |  |  | destilliert (hoai-bauen-im-bestand-2011.md), HOAI-2009-Leistungsbild Bauen im Bestand |
 | [ ] | P3 | `Sonstiges/Planungsgrundlagen.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/Skript_Treppen.pdf` |  |  |  |
-| [ ] | P3 | `Sonstiges/VdS-Richtlinie 2234.pdf` |  |  |  |
+| [x] 260713 | P3 | `Sonstiges/Skript_Treppen.pdf` |  |  | destilliert (treppen-hcu-hamburg-2008.md), HCU-Lehrskript + Neufert-Planungsgrundlagen |
+| [ ] | P3 | `Sonstiges/VdS-Richtlinie 2234.pdf` |  |  | gross/scanlastig (10.9 MB), naechster Lauf |
 
 ## VSS (14 Dateien)
 

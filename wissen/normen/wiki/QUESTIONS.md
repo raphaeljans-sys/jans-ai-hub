@@ -92,9 +92,41 @@
 - [ ] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
   ist eine Dublette der bereits unter DIN destillierten `din-en-12101-2-2003.md` (Mac Mini) — beim
   Reconcile referenziert statt neu destilliert, keine Aktion nötig.
+- [ ] **VKF-Verzeichnis 40-15 (Weitere Bestimmungen) — Teil-Destillat.** Ziff. 3.7-3.9
+  (Pelletsfeuerungen/Flüssiggas-temporär/BFS) und das Abkürzungsverzeichnis (Kap. 4) fehlen im
+  Destillat `vkf-verz-40-15-weitere-bestimmungen.md` (21/ca. 22 Seiten gelesen); im nächsten
+  VKF-Lauf ergänzen. Notiert 13.07.2026 (Run 6).
+- [ ] **Workflow-Tool blockiert Hintergrundläufe:** In diesem Scheduled-Task-Lauf (13.07.2026)
+  verweigerte das Workflow-Orchestrierungstool die Ausführung mit „Review dynamic workflow
+  before running" — vermutlich ein interaktives Freigabe-Gate, das in einem unbeaufsichtigten
+  Hintergrundlauf nicht bedient werden kann. Fallback auf parallele Agent-Aufrufe (13 Agenten in
+  einer Nachricht) hat funktioniert, ist aber weniger effizient (keine Pipeline/Verify-Stufe,
+  höherer Tokenverbrauch: ca. 150k Tokens je Agent, Budget für 13 Destillate nahezu ausgeschöpft
+  bei $22 von $25 Sessionbudget). Für künftige Läufe: entweder Workflow-Tool-Verhalten in
+  Hintergrundläufen klären, oder bewusst mit kleineren Agent-Batches (8-10 statt 13-19) planen.
 - [ ] **DIN EN 1627:2011 (Einbruchhemmung) — nur Teilbestand.** Die Datei
   `DIN-Norm/DIN 1627_Auszuege .pdf` enthält laut Dateiname und Inhalt nur einen Auszug
   (4 von 44 Seiten der Vollnorm); Destillat `din-en-1627-2011.md` ist deshalb als
   `teil-destillat` markiert. Für Widerstandsklassen-Details (RC1-RC6, Bauteilanforderungen)
   über die 4 gelesenen Seiten hinaus die Vollnorm via Beuth-Verlag oder erneute
   SharePoint-/M365-Suche beschaffen. Notiert 13.07.2026 (normen-training-mini, Mac Mini).
+- [ ] **Schweizer Pendants zu deutschen Sonstiges-Destillaten fehlen noch (Mac Mini Run,
+  13.07.2026):** Beim Destillieren mehrerer deutscher Nicht-DIN-Dokumente (BauNVO, ArbStättV,
+  VStättVO Niedersachsen, DIN 18041 Hörsamkeit, Treppen-Lehrskript) fiel wiederholt auf, dass
+  die zugehörige Schweizer Grundlage in dieser KB noch fehlt: **SIA 500 "Hindernisfreie Bauten"**
+  (Pendant zu NBauO-Barrierefreiheit/ArbStättV §3a Abs.2), **SIA-Grundlagen Raumakustik**
+  (Pendant zu DIN 18041) und die **SIA 260er-Tragwerksnormen** (Pendant zu den Eurocodes,
+  DIN EN 1990-1999). Fuer den SIA/VKF-Loop (MacBook Pro) als Ergaenzungskandidaten vormerken.
+- [ ] **DIN-Sonstiges-Ordner: gemischter Inhalt, nicht alles sind Normen.** Der Ordner
+  `DIN_Norm/Sonstiges/` enthaelt neben echten DIN-Normen auch deutsche Landesrecht-Auszuege
+  (NBauO/DVNBauO Niedersachsen), HOAI-Leistungsbild-Exzerpte und ein Lehrskript (HCU Hamburg
+  Treppen) — alle wurden dennoch destilliert, da im Inventar gelistet (Kompoundierungs-Pflicht),
+  aber mit deutlichem Vermerk "kein CH-Bezug" im JANS-Praxis-Transfer. Fuer kuenftige Laeufe:
+  gleiche Vorsicht bei Interpretation als "verbindliche Norm" gegenueber diesen Auszuegen.
+- [ ] **Offene Gross-Dateien DIN-Sonstiges/DIN-Norm (Mac Mini Run, 13.07.2026):**
+  `Sonstiges/Baupreisindizes.pdf` (23 S.), `Sonstiges/Inhaltsverzeichnis.pdf` (24 S.),
+  `Sonstiges/Planungsgrundlagen.pdf` (42 S., Baurecht Teil weiter), `Sonstiges/Komm Din 18024
+  Teil 1.pdf`, `Sonstiges/VdS-Richtlinie 2234.pdf` (10.9 MB, scanlastig), `DIN-Norm/DIN 1045-2,
+  105-100, 1053-1/-4, 1053-100, 1054, 18040-2, 18232-2, 1946-4, 1960, 1961, 4844-2, DIN V 105-100,
+  DIN V 106, DIN 277-1 Bildteil/MMMP Muenchen (Duplikate/Zusatzmaterial zu bereits destilliertem
+  DIN 277-1)` bleiben offen fuer den naechsten Lauf.
