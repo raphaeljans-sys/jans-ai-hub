@@ -1,5 +1,28 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-13 — Trainingslauf 9
+- Output `outputs/2026-07-13_training-run9.md`. **Keine neue reale Spec-Anwendung** seit
+  Lauf 8. Schwerpunkt: den in Lauf 8 geflaggten P1-Grenzfall (Git-Committer-Modell NAS-Repo,
+  `git-auto-push.md` vs. `sync-single-committer.md`) durch Betriebs-Empirie geklaert statt an
+  Raphael zu eskalieren.
+- **Befund:** `git log`/`git config` auf dem NAS-Repo zeigen, dass praktisch alle Trainings-
+  Loops direkt ueber SMB committen (nicht ueber `nas-git-commit.sh`); `scripts/
+  nas-selfcommit.sh` (DSM-Cron, 15 Min, kein SMB) laeuft bereits produktiv als Sicherheitsnetz;
+  `sync-tasks/log/selfcommit-202607.log` zeigt keine Korruption seit der DSM-Migration. Der
+  Konflikt existierte nur auf dem Papier.
+- **Umgesetzt:** `rules/sync-single-committer.md` mit Status-Banner "nicht aktiv/historisch"
+  versehen; `rules/sync-kanonische-quelle.md`s veralteter "Backlog"-Eintrag auf den Live-Stand
+  korrigiert; `rules/README.md`-Registry nachgezogen; `wiki/environment-jans-hub.md` um Sektion
+  "Trainingslauf 9" ergaenzt. `git-auto-push.md` unveraendert (beschrieb den Ist-Zustand
+  bereits korrekt).
+- **Methodische Lektion:** ein Regel-Widerspruch braucht nicht immer eine Raphael-Eskalation,
+  wenn belegbare Betriebs-Empirie (Logs/Git-Historie) eindeutig ist — "die Praxis als
+  autoritative Instanz" ist selbst ein Verifier-Muster. Eskalieren bleibt richtig bei
+  mehrdeutiger Empirie oder Sicherheits-/Kostenfragen.
+- Metadaten `verifier.md`/`anwendung-jans.md` unveraendert (kein neuer Spec-Anwendungsfall).
+  Rule `spec-methode.md` unveraendert. Quellen-Schuld: keine.
+- Offen: F1-Ueberdehnungs-Gegentest weiterhin offen; F3 nur noch Marketing/Text offen.
+
 ## 2026-07-13 — Trainingslauf 8
 - Output `outputs/2026-07-13_training-run8.md`. **Keine neue reale Spec-Anwendung** seit Lauf 7
   (letzter Output 12.07. 18:15, bereits ausgewertet). Schwerpunkt dieses Laufs: Environment-Audit.

@@ -42,9 +42,17 @@ geteilten Inhalte: `skills/`, `rules/`, `agents/`, `commands/`, `scripts/`,
 
 ## Bekannte Luecke / spaeter
 
-Manuelle NAS-Edits **ausserhalb** von Claude werden erst beim naechsten Claude-Push gesichert.
-Saubere Loesung (Backlog): Git **nativ auf der Synology (DSM)** laufen lassen statt ueber SMB,
-dann kann ein NAS-seitiger Cron sicher committen/pushen.
+Manuelle NAS-Edits **ausserhalb** von Claude werden erst beim naechsten Push gesichert.
+
+**Update 2026-07-13 (Spec-Training Lauf 9):** die hier als Backlog gefuehrte Loesung ist
+**bereits umgesetzt** — `scripts/nas-selfcommit.sh` laeuft nativ auf der Synology (DSM-Cron,
+alle 15 Min, ext4 statt SMB) und sichert liegen gebliebene NAS-Edits automatisch, inkl.
+Pull/Push. Er ergaenzt (ersetzt nicht) Claudes direkten Commit+Push nach Aenderungen — beide
+laufen parallel als Sicherheitsnetz. Damit ist auch das Verbot "kein automatischer Git-Job
+ueber SMB" in der NIE-Liste oben praezise zu lesen als *kein Job ueber den SMB-Mount*; der
+DSM-Cron laeuft nicht ueber SMB, sondern lokal auf dem NAS-Dateisystem — kein Widerspruch.
+Details/Belege: `rules/sync-single-committer.md` (Status-Banner), Memory
+`project_systemaudit_260610`.
 
 ## Geltungsbereich
 

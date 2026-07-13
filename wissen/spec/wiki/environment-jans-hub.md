@@ -65,6 +65,38 @@ sondern bei Rules explizit gegenchecken, ob jede Datei unter `rules/*.md` sowohl
 (Dateisystem, README, CLAUDE.md-Import) koennen unbemerkt auseinanderlaufen, weil das
 Anlegen einer Rule-Datei allein noch keine Wirkung entfaltet.
 
+## Environment-Audit Trainingslauf 9 (2026-07-13) — Grenzfall aus Lauf 8 durch Empirie geloest
+
+Lauf 8 flaggte Punkt 2 oben als **Raphael-Entscheid** (welche Regel gilt: `git-auto-push.md`
+vs. `sync-single-committer.md`?). Dieser Lauf hat die Frage nicht per Ermessen entschieden,
+sondern **den tatsaechlichen Betrieb belegt** und daraus die Antwort abgeleitet — eine dritte
+Option, die beide Konflikt-Parteien in Lauf 8 nicht auf dem Schirm hatten:
+
+- `git log` auf dem NAS-Repo (Autor-Feld + Commit-Messages) zeigt: praktisch **jeder**
+  Trainings-Loop (baurecht-buch, normen, immobewertung, planungsgrundlagen, twin-mail,
+  wettbewerbs-dna, auch dieser spec-training-Loop selbst) committet **direkt** ueber den
+  SMB-Mount — mit sprechenden Messages, nicht ueber `nas-git-commit.sh`/Sync-Task-Umweg.
+- `scripts/nas-selfcommit.sh` (die in `sync-single-committer.md` als "Backlog" bezeichnete
+  Ziel-Architektur) laeuft **bereits produktiv** als DSM-Cron alle 15 Min direkt auf der
+  Synology (kein SMB) und faengt liegen gebliebene Aenderungen ab, inkl. Pull/Push.
+- `sync-tasks/log/selfcommit-202607.log` (2359 Zeilen) zeigt **keine Korruption** seit der
+  DSM-Migration — nur sauber abgefangene, transiente `index.lock — skip`-Meldungen.
+- **Schluss:** der Konflikt existiert nur auf dem Papier. In der Praxis hat sich weder die
+  eine noch die andere Regel durchgesetzt, sondern ein drittes, robusteres Muster: direktes
+  Commit von jeder Station (wie `git-auto-push.md` vorschreibt) *plus* ein NAS-natives
+  Sicherheitsnetz (das, was `sync-single-committer.md` eigentlich wollte, nur anders gebaut
+  als dort beschrieben). Umgesetzt: `sync-single-committer.md` traegt jetzt ein Status-Banner
+  ("nicht aktiv, historischer Kontext"), `sync-kanonische-quelle.md`s "Backlog"-Eintrag ist
+  auf den Live-Stand korrigiert, `rules/README.md` nachgezogen. `git-auto-push.md` bleibt
+  unveraendert die aktive Regel — sie beschrieb den Ist-Zustand bereits korrekt.
+
+**Methodische Lektion fuer den Loop:** ein im Audit gefundener Regel-**Widerspruch** muss
+nicht immer an Raphael eskaliert werden, wenn die **Betriebs-Empirie** (Logs, Git-Historie)
+eine eindeutige, unabhaengig ueberpruefbare Antwort liefert — das ist selbst eine Form von
+Verifier (die Praxis als autoritative Instanz, vgl. [[verifier]]). Eskalieren bleibt richtig,
+wenn die Empirie mehrdeutig waere oder eine Sicherheits-/Kostenfrage beruehrt; hier war beides
+nicht der Fall (rein infrastrukturell, seit Tagen beobachtbar stabil).
+
 Karpathys 3-Schichten-Hoheit (`raw/` unveraenderlich · `wiki/` Claude pflegt ·
 `frameworks/` gemeinsam) entspricht 1:1 dem JANS-Schema `raw/` / `wiki/` / `outputs/`
 (Rule `wissens-bibliothekar`, Meta `WISSEN-CLAUDE.md`).
