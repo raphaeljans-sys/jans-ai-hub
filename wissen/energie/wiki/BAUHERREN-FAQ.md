@@ -1235,10 +1235,19 @@ Gemeindeabgaben und Messtarife.
 **Faustregel:** eigenes MFH → ZEV/vZEV (groesster Vorteil); Nachbarn/mehrere Eigentuemer im Quartier → LEG;
 beides kombinierbar.
 
+**Preis-Groessenordnung (⚠ Marktbeispiel, nicht amtlich, ergaenzt 2026-07-13):** Die Preisbildung **innerhalb**
+der LEG ist laut VSE-Branchenempfehlung **frei waehlbar** (keine regulatorische Vorgabe). Ein kommerzieller
+Solar-Ratgeber rechnet beispielhaft mit **12-15 Rp./kWh fuer LEG-Gemeinschaftsstrom** gegenueber
+**~7 Rp./kWh Referenz-Einspeiseverguetung** (BFE-Quartalswert) und ~27-30 Rp./kWh Netzstromtarif — die
+LEG positioniert den Preis also zwischen Einspeisung und Netzbezug. Fuer eine 30-kWp-MFH-Anlage ergibt
+das rechnerisch rund CHF 600/Jahr Mehrertrag ggue. reiner Einspeisung. Diese Zahlen sind **keine amtliche
+VSE-/ElCom-Vorgabe**, nur eine plausible Marktrechnung — fuer ein konkretes Projekt zwingend beim
+Standort-VNB verifizieren.
+
 **Quelle:** EKZ «Lokale Elektrizitaetsgemeinschaft» (Umsetzung StromVG) + VSE-Branchenempfehlung LEG →
 `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`; ZEV/vZEV-Abgrenzung → F32 / `[[zev-eigenverbrauch-mfh-her-2025]]`;
-Themenartikel → `[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-05:** LEG erst seit 1.1.2026 in Kraft,
-Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen. Energierecht → Skill `baurecht`.
+Themenartikel → `[[pv-eigenverbrauch-zev]]`. ⚠ **Datenstand 2026-07-05/2026-07-13:** LEG erst seit 1.1.2026 in
+Kraft, Umsetzung frisch — konkrete Rp/kWh-Wirkung standortabhaengig beim VNB pruefen. Energierecht → Skill `baurecht`.
 
 ---
 

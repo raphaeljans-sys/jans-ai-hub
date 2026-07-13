@@ -61,6 +61,10 @@ traegt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebae
   Solidarhaftung, anders als im ZEV). vZEV (in der Liegenschaft) und LEG (darueber hinaus) sind **kombinierbar**.
   → [[leg-lokale-elektrizitaetsgemeinschaft-2026]] (EKZ/VSE). Rein rechtlich/tariflich → Skill `baurecht`;
   STWEG-Reglement → Skill `stockwerkeigentum`.
+- **Preis-Groessenordnung (⚠ Marktbeispiel, nicht amtlich):** die VSE-Branchenempfehlung selbst laesst die
+  Preisbildung **frei**; ein kommerzieller Solar-Ratgeber rechnet beispielhaft mit **12-15 Rp./kWh
+  LEG-Gemeinschaftsstrom** vs. **~7 Rp./kWh Referenz-Einspeiseverguetung** — plausible Groessenordnung
+  fuers Bauherren-Gespraech, projektgenau beim VNB verifizieren → [[leg-lokale-elektrizitaetsgemeinschaft-2026]].
 
 ## Kennzahlen (Definitionen)
 | Kennzahl | Bedeutung |

@@ -176,7 +176,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Standardtarifs ODER Gestehungskosten − Einspeiseerloes mit halber Ersparnis-Teilung, Mieter-Wahlrecht →
   `[[zev-mieter-strompreis-eigenverbrauch]]`, F32) + **Hebel 3 LEG** (ab 1.1.2026, Netzentgelt-Rabatt 40 %/20 %,
   gleiche Gemeinde/Netzebene/≥5 % Produktion → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`, FAQ **F33** neu).
-  Offen: VSE-BD-LEG-Primaerquelle, interne LEG-Preisbildung, Rp/kWh-Zahlenmuster.
+  **Rp/kWh-Marktbeispiel ergaenzt 2026-07-13 (Run 50)** (12-15 Rp./kWh LEG vs. ~7 Rp./kWh Referenz-
+  Einspeiseverguetung, nicht amtlich) → siehe D24. Offen: VSE-BD-LEG-Primaerquelle seitengenau,
+  amtliche Rp/kWh-Bandbreite.
 
 ## Meta
 - [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **alle 17 Kernfragen F1-F17 belegt**
@@ -353,3 +355,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `sia2060online.ch` per WebFetch bestätigt als reines interaktives JS-Tool (Werkzeug-Grenze wie
   Kantonsrat ZH E31). Kein Curriculum-Punkt geschlossen, aber Backlog bereinigt →
   `[[graue-energie-sanieren-vs-neubau-amortisation]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`, QUESTIONS E36.
+- **D24 (Run 50, 2026-07-13)** — «LEG-Gemeinschaftsstrom: was zahlt/bekommt man in Rp/kWh
+  ungefähr?» — belegt 2026-07-13 (gwa-energie.ch VNB-Kostenbeispiel + upgrid.ch Solar-Ratgeber,
+  beide **nicht amtlich**, explizit als Marktbeispiel markiert). VSE-Kernaussage bestätigt: Preisbildung
+  in der LEG frei wählbar, keine regulatorische Vorgabe. Marktbeispiel: 12-15 Rp./kWh LEG-Gemeinschaftsstrom
+  vs. ~7 Rp./kWh Referenz-Einspeisevergütung vs. 27-30 Rp./kWh Netzstrom; 30-kWp-MFH-Rechenbeispiel ca.
+  CHF 600/Jahr Mehrertrag → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` ergänzt, FAQ F33 geschärft,
+  `[[pv-eigenverbrauch-zev]]` ergänzt. Schliesst D6-Offenpunkt «Rp/kWh-Zahlenmuster» orientierend (amtliche
+  VSE-Branchenempfehlung selbst bleibt unpaginiert/nicht seitengenau gelesen — offen).

@@ -2,6 +2,22 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 50: LEG-Rp/kWh-Marktbeispiel ergaenzt + M2-Entscheid zum 6. Mal eskaliert
+- **Run-Report** `outputs/2026-07-13_energie-run50.md`. PDF-Inventar weiterhin vollstaendig
+  abgearbeitet; kein neues PDF im SharePoint-Ordner gefunden.
+- **Neuer Fund (kein Sackgassen-Wiederholung):** LEG-Preisbildung ist laut VSE-Branchenempfehlung
+  frei waehlbar; zwei nicht-amtliche Sekundaerquellen (gwa-energie.ch VNB-Kostenbeispiel + upgrid.ch
+  Marktrechnung) liefern eine plausible Groessenordnung: 12-15 Rp./kWh LEG-Gemeinschaftsstrom vs.
+  ~7 Rp./kWh Referenz-Einspeiseverguetung vs. 27-30 Rp./kWh Netzstrom, 30-kWp-MFH-Beispiel ca.
+  CHF 600/Jahr Mehrertrag. Explizit als Marktbeispiel markiert, nicht als amtliche Vorgabe.
+- **Destillate/Wiki ergaenzt:** `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` (neue Sektion
+  "Konkrete Rp/kWh — Marktbeispiele"), FAQ F33 geschaerft, `[[pv-eigenverbrauch-zev]]` ergaenzt.
+- **Register:** `training/curriculum.md` (D24 neu, D6-Offenpunkt geschaerft), `wiki/QUESTIONS.md`
+  (E37 neu).
+- **Meta-Eskalation:** M2 (Skill-`energie`-Entscheid) zum **sechsten Mal in Folge** als spruchreif
+  vermerkt (Run 45-50) — der Loop kann diese Entscheidung nicht selbst treffen, braucht eine
+  explizite Antwort von Raphael in einer interaktiven Session.
+
 ## 2026-07-13 — Run 49: zwei Recherche-Sackgassen ehrlich geschlossen (kein neuer Fund)
 - **Run-Report** `outputs/2026-07-13_energie-run49.md`. PDF-Inventar weiterhin vollständig
   abgearbeitet, keine neuen PDFs im SharePoint-Ordner seit letzter Inventarpflege gefunden.

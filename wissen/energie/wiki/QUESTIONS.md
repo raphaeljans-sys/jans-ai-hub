@@ -391,8 +391,17 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Beispielrechnung — dieselbe Werkzeug-Grenze wie beim Kantonsrat ZH (E31). Kein neuer Fund, aber
   verhindert, dass künftige Läufe dieselben drei Sackgassen erneut abklappern →
   `[[graue-energie-sanieren-vs-neubau-amortisation]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`.
+- [x] **E37** **LEG-Rp/kWh-Marktbeispiel** belegt ✓ 2026-07-13 (Run 50) → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`
+  ergaenzt, FAQ F33 geschaerft (gwa-energie.ch VNB-Kostenbeispiel + upgrid.ch Marktrechnung, **beide nicht
+  amtlich**, explizit markiert: 12-15 Rp./kWh LEG-Gemeinschaftsstrom vs. ~7 Rp./kWh Referenz-Einspeiseverguetung).
+  Schliesst D6-Offenpunkt «Rp/kWh-Zahlenmuster» orientierend. Offen bleibt: VSE-Branchenempfehlung LEG
+  (BD-LEG) seitengenau als Primaerquelle, amtliche Rp/kWh-Bandbreite (VSE/ElCom).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F59
-  Vertiefungen belegt — Meta-Punkt M2 ist jetzt spruchreif fuer eine Entscheidung.**
+  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37) — Meta-Punkt M2 ist SEIT
+  RUN 45 (also sechs Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum sechsten Mal
+  vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort von Raphael in
+  einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz
+  zu erzeugen.**
