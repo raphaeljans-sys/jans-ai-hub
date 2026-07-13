@@ -13,7 +13,6 @@
     "geschosse_max": 6,
     "geschosshoehe_m": 2.80,
     "grundriss_tiefe_m": [12.0, 14.5],
-    "fassaden_raster_m": null,
     "erschliessung": "spänner",
     "statik_system": "massivbau",
     "dachform": "flachdach",

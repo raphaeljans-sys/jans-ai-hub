@@ -1,12 +1,8 @@
 # QUESTIONS — KB wettbewerbs-dna
 
-Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
+Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
-
-- **Bauaufgaben-Prioritäten für Etappe 3:** Für welche Bauaufgaben will JANS künftig
-  antreten? Steuert die konkurado-/espazium-Erweiterung (externe Juryberichte je
-  Ziel-Bauaufgabe). → Entscheid Raphael.
 - **Druckvorstufen-Standard JANS:** Im gesamten Wettbewerbsarchiv existiert kein
   dokumentierter Prepress-Standard (keine .joboptions, kein PDF/X-/Beschnitt-/
   Druckerei-Dokument; geprüft 12.07.2026). Muss neu aufgesetzt werden (Vorschlag:
@@ -42,6 +38,10 @@ Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
 
 ## Geklärt (Archiv)
 
+- **Bauaufgaben-Prioritäten für Etappe 3 (14.07.2026, Entscheid Raphael):**
+  1. Schulbau, 2. Healthcare, 3. Wohnungsbau. Damit ist Etappe 3 entblockt;
+  Programm und Stand in `training/ETAPPE-3.md`. Steuert die Quellen-Sweeps
+  (Hochbauämter/espazium/konkurado-Index) je Ziel-Bauaufgabe.
 - **Bild-/Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` (13.07.2026, Lauf 5):**
   indexiert im neuen Artikel `wiki/referenz-katalog.md`. Damit ist der letzte offene
   Deliverable-Punkt der Endbedingung Etappe 2 erfüllt (~250 Dateien, 10 Themen-Ordner

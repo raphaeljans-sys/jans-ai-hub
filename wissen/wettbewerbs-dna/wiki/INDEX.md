@@ -58,14 +58,16 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 15, ganz ueberwiegend established
+## Externe Referenz-Juryberichte (wiki/extern/) — 17, ganz ueberwiegend established
 
 Schul-/Bildungsbau 2012–2022: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, kantonsschule-baden, kantonsschule-wattwil, merian-basel,
-sandgruben-basel, schulanlage-grossaffoltern, schule-hausen-am-albis, schulhaus-muhen,
-sekundarschule-sursee, thurgauerstrasse-zuerich, volksschule-stoeckacker-bern, zelgli-schlieren.
-(Verifikationswelle 12.07.: 22 von 24 extern+board auf established gehoben; Rest-draft nur bei
-nicht aufloesbarem OCR-/Scan-Vorbehalt.)
+sandgruben-basel, schulanlage-grossaffoltern, schule-hausen-am-albis, schulhaus-littau-luzern,
+schulhaus-muhen, sekundarschule-sursee, thurgauerstrasse-zuerich,
+turnhalle-tagesschule-baetterkinden, volksschule-stoeckacker-bern, zelgli-schlieren.
+(Reconcile 14.07.2026: littau-luzern + baetterkinden nachgetragen — lagen als Artikel+Extrakt
+vor, fehlten in dieser Liste. Verifikationswelle 12.07.: 22 von 24 extern+board auf established
+gehoben; Rest-draft nur bei nicht aufloesbarem OCR-/Scan-Vorbehalt.)
 
 ## Board-DNA (wiki/board-dna/) — 9, ueberwiegend established
 
