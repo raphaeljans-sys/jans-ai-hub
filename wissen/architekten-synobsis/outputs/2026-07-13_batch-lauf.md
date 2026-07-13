@@ -30,3 +30,15 @@ Teil des VOLLGAS-Endlos-Runners (Auftrag Raphael 12.07.2026).
 ## Fortschritt
 853/853 Architekten weiterhin vollstaendig gescannt. Dieser Lauf hat keinen neuen Stoff
 eingelesen, den Vektorindex aktualisiert und den CAD-Index-Fortschritt bestaetigt.
+
+## Zweiter Lauf, 05:59–06:00 Uhr
+Erneuter Aufruf `synobsis_batch.sh 25` rund 35 Minuten nach dem ersten Lauf (VOLLGAS-
+Taktung). Ergebnis identisch zum ersten Lauf: Stufe 1 nichts zu tun (853/853, offen 0),
+Stufe 2 `vectors.npz` erneut deterministisch neu geschrieben (kein Git-Diff). Einzige
+Aenderung: Zeitstempel in `catalog/INDEX.md` und `catalog/cad-index.json` (weiterhin
+15 Architekten mit CAD-Dateien, inhaltlich unveraendert) — automatisch vom
+NAS-Selfcommit-Job erfasst (Commit `efd9383d`). Kein neuer Stoff, keine neuen Befunde;
+das Inventar bleibt bei 853/853 vollstaendig. Naechster inhaltlicher Fortschritt erst bei
+neuem Rohmaterial in `/Volumes/daten/05_Architekten_Synobsis` oder bei einer Erweiterung
+der Aufbereitung (z.B. Stufe-3-Kuratierungs-Nacharbeit an den vermerkten offenen Punkten
+in `wiki/QUESTIONS.md`).

@@ -5,6 +5,7 @@ und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
 ## 2026-07-13
+- Zweiter Nacht-Batch-Aufruf desselben Tages (05:59–06:00, VOLLGAS-Taktung): identisches Ergebnis wie der 05:24-Lauf — 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert (weiterhin 15 Architekten mit CAD). Kein neuer Stoff, kein inhaltlicher Fortschritt gegenueber dem ersten Lauf. Bereits vom NAS-Selfcommit erfasst (`efd9383d`). Ergaenzung in `outputs/2026-07-13_batch-lauf.md`.
 - Nacht-Batch (`synobsis-batch-nacht`, Mac Mini): Stufe 1 nichts zu tun (853/853, offen 0), Stufe 2 `vectors.npz` neu geschrieben (853 × 768, deterministisch → kein Diff), Stufe 3 entfaellt (keine neuen Eintraege). `catalog/cad-index.json` enthaelt neu 15 Architekten mit erkannten CAD-Dateien (`architekten_mit_cad: 15`) statt der am 12.07. vermerkten 0 Eintraege — diesmal committet, da nicht mehr leer. Protokoll: `outputs/2026-07-13_batch-lauf.md`.
 
 ## 2026-07-12
