@@ -139,7 +139,10 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   Gilt nur in Biotopen national, kantonalen Naturschutzgebieten, Moorlandschaften von
   besonderer Schoenheit und nationaler Bedeutung, Wasser-/Zugvogelreservaten sowie
   Landschaften national/kantonal mit gewaesserbezogenem Schutzziel.
-- **Stehende Gewaesser** (Art. 41b GSchV): ab Uferlinie mind. **15 m**. (S. 1010)
+- **Stehende Gewaesser** (Art. 41b GSchV): ab Uferlinie mind. **15 m** (Abs. 1). Auf die
+  Festlegung kann verzichtet werden, wenn keine ueberwiegenden Interessen entgegenstehen und
+  die Wasserflaeche **< 0,5 ha** ist bzw. das Gewaesser kuenstlich angelegt ist (Abs. 4 lit. b/c);
+  die 0,5-ha-Schwelle ist damit ein Verzichtsgrund, keine Breitenformel. (S. 1010)
 - **Kanton ZH:** Gewaesserraum grundeigentuemerverbindlich, auf beschraenkten Gebrauch
   (§ 15d HWSchV); Festlegung durch die Baudirektion (§ 15b HWSchV). **Verzicht** auf die
   Festlegung moeglich bei sehr kleinen Gewaessern (Art. 41a Abs. 5 GSchV); bei
@@ -151,9 +154,12 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   solche gilt die Begrenzungslinie eines Gewaessers, in der Regel beim regelmaessig
   wiederkehrenden hoechsten Wasserstand abgestellt (Art. 41a GSchV). Der Gewaesserraum ist
   ein **Korridor**, in dem das Gewaesser nicht zwingend in der Mitte fliessen muss. (S. 1014)
-- **Stehende Gewaesser ab 0,5 ha:** Uferstreifen **20 m** ab Uferlinie (Art. 41b Abs. 2
-  GSchV); ZH-Uebergangsbestimmung **§ 15 HWSchV** (13.12.2011): bei stehenden Gewaessern
-  **bis 0,5 ha** Uferstreifen **8 m**. (S. 1014)
+- **Stehende Gewaesser, historische Uferstreifen-Masse:** **20 m** ab Uferlinie (ab 0,5 ha)
+  bzw. **8 m** (unter 0,5 ha). **Korrektur (Modell D, Buch-Run 37):** Diese Masse beruhen
+  **NICHT** auf Art. 41b Abs. 2 GSchV (der regelt ausschliesslich die Erhoehungsgruende), sondern
+  auf der **Uebergangsbestimmung zur GSchV-Aenderung vom 4.5.2011** bzw. kantonal **§ 15 HWSchV**
+  (13.12.2011). Operativ gilt fuer stehende Gewaesser Art. 41b Abs. 1 GSchV (mind. 15 m ab
+  Uferlinie). (S. 1014)
 - **Fliessgewaesser (ZH-Uebergangsrecht):** Uferstreifen = **8 m plus Breite der bestehenden
   Gerinnesohle** bis 12 m Sohlenbreite; **20 m** bei Sohle > 12 m. Buchbeispiel: Sohle 6 m →
   Gewaesserraum **insgesamt 34 m** (Sohle 6 m + je Seite [Sohle 6 m + 8 m]). (S. 1015)

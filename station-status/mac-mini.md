@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 07:20:14
+Stand: 13.07.2026 07:40:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:28)
 
 ## Laufende Arbeits-Prozesse
 - claude -p --permission-mode acceptEdits --max-budget-usd 25 --fallback-model sonnet --output-format text -- ---
@@ -53,4 +53,4 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden.
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fdaeed69 nas-selfcommit: 9 Datei(en) 2026-07-13 07:15
+- 25d875ca normen-training-mini Mac Mini Run 6: SN 640 105a destilliert (Deepening nach Inventar-Abschluss)
