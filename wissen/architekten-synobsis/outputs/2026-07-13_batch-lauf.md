@@ -84,3 +84,13 @@ read-only ist und nie ohne Freigabe veraendert wird). Reine Wiederholungslaeufe 
 Vektorindex-Rebuilds ohne neuen Quellstoff bringen ab hier keinen weiteren Erkenntnis-
 gewinn mehr; sinnvoller naechster Schritt waere entweder neues Rohmaterial oder die
 Freigabe-Rueckfrage an Raphael fuer die Stufe-3-Bereinigung.
+
+## Sechster Lauf, 14:53 Uhr
+Erneuter Aufruf `synobsis_batch.sh 25` (VOLLGAS-Taktung, Task `synobsis-batch-nacht`).
+Ergebnis identisch zu den fuenf vorherigen Laeufen des Tages: Stufe 1 nichts zu tun
+(853/853, offen 0), Stufe 2 `vectors.npz` deterministisch neu geschrieben (853 x 768,
+kein Git-Diff auf der Binaerdatei). Einzige Aenderung: Zeitstempel in `catalog/INDEX.md`
+(14:53) und `catalog/cad-index.json` (14:53:26) — weiterhin 15 Architekten mit
+CAD-Dateien, inhaltlich unveraendert. Kein neuer Stoff, keine neuen Befunde. Der Hinweis
+aus dem fuenften Lauf bleibt unveraendert gueltig: reine Wiederholungslaeufe bringen ohne
+neues Rohmaterial keinen weiteren Fortschritt mehr.
