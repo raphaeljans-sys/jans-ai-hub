@@ -2,7 +2,7 @@
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole)]
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -859,6 +859,98 @@ Verkaufsgeschaefte pauschal ab **600 m²** unabhaengig von einer Loeschanlage.
 ueberholten 2003er-Parkhaus-Arbeitshilfe (RWA-Schwellen 600/3'600 m² unter Terrain, 2'400/4'800 m²
 ueber Terrain) — die Werte stammen direkt aus **BSR 21-15 Ziff. 3.1** und sind die massgebende
 Grundlage fuer laufende Bewilligungsverfahren.
+
+---
+
+## 5m · Erdbebensicherheit mehrgeschossiger Holzbauten — Lignum/SIA/SGEB (Run 30, 2026-07-13)
+
+Quelle: **«Erdbebengerechte mehrgeschossige Holzbauten»** (Technische Dokumentation der Lignum,
+Projektpartner SIA/SGEB/usic/HEV Schweiz, 2010), `PL-03/06 Lignum Brandschutz/Lignum Erdbeben/
+Erdbebengerechte_Holzbauten_d.pdf`. Kein Brandschutz-Thema im engeren Sinn, sondern die
+Tragwerks-/Erdbebensicherheits-Seite des Holzbaus — hier abgelegt, weil der Ordner unter
+«Lignum Brandschutz» einsortiert ist; inhaltlich eine Ergaenzung zu §5 (Holzbau-Feuerwiderstand).
+**Vorlauf-Notiz:** dieselbe Datei war in den Runs 24/26/28 wiederholt mit «Resource deadlock
+avoided» nicht lesbar (OneDrive-Cloud-Platzhalter, 0 Byte lokal); in diesem Lauf war sie
+vollstaendig heruntergeladen (1.3 MB) und liess sich lesen — reines Sync-Timing, kein
+inhaltliches Problem.
+
+**Normbasis:** SIA-Tragwerksnormen 260–267 (Ausgabe 2003, Eurocode-basiert, seither
+Schweizer Praxisrecht), insbesondere **SIA 261** (Einwirkungen auf Tragwerke, Erdbebenzonenkarte
+Schweiz mit 4 Erdbebenzonen) und **SIA 265** (Holzbau). Die Publikation ist eine
+Anwendungshilfe fuer den Ingenieur, keine eigene Norm.
+
+**Zwei Berechnungsverfahren (Tragwerksanalyse, Kap. 3.1):**
+
+| Verfahren | Anwendungsbereich | Aufwand |
+|---|---|---|
+| **Ersatzkraftverfahren** | regelmaessige Tragwerke, Grundschwingzeit T1 < 2 s (Regelmaessigkeitskriterien SIA 261 Ziff. 16.5.1.3/16.5.1.4) | klein |
+| **Antwortspektrenverfahren** | alle Faelle, auch unregelmaessige Tragwerke, immer per Computerprogramm | mittel |
+
+Mehrgeschossige Holzbauten weisen meist eine deutlich kleinere horizontale Steifigkeit auf als
+Massivbauten, wodurch die Grundschwingzeit ueber 2 s ansteigen kann — dann ist das
+Ersatzkraftverfahren **nicht mehr zulaessig**, sondern zwingend das Antwortspektrenverfahren.
+
+**Schaetzformel Grundschwingzeit (261.39, holzbau-brauchbar fuer die Vorbemessung):**
+T1 = 2·√u, wobei u die rechnerische Auslenkung der Gebaeudeoberkante infolge horizontal
+angesetzter staendiger und quasi-staendiger Lasten ist (mit realistischen Steifigkeitsannahmen
+fuer Tragelemente, Verbindungen, Verankerungen berechnet). Die vereinfachte Formel (261.38) der
+SIA 261, die die Grundschwingzeit nur in Abhaengigkeit der Gebaeudehoehe bestimmt, **unterschaetzt
+bei Holzbauten in der Regel** die Grundschwingzeit und ergibt zu hohe Erdbebenbeanspruchungen —
+fuer Holzbauten wird 261.39 (Rayleigh-Quotient) empfohlen.
+
+**Konzept des duktilen Tragwerksverhaltens:** zentrale Rolle spielen die **mechanischen
+Verbindungen zwischen Beplankung und Rippen** (z. B. Verklammerung der Tragwand in
+Holzrahmenbauweise) als geplante, bemessene **duktile Bereiche**; alle uebrigen Tragwerksteile
+(Rippen, Beplankungen, Anschluesse) muessen so ueberbemessen werden, dass sie die zyklische
+Plastifizierung der duktilen Bereiche gewaehrleisten koennen, ohne selbst sproede ausserhalb
+dieser Bereiche zu versagen (Kapazitaetsbemessung).
+
+**JANS-Praxisrelevanz:** Erdbebeneinwirkung ist bei neu erstellten mehrgeschossigen Holzbauten in
+der Schweiz **weder zu ueberbewerten noch zu unterschaetzen** — bei eingehaltenen Regeln des
+erdbebengerechten Entwurfs gelingt der rechnerische Nachweis meist ohne Mehraufwand. Bei
+**bestehenden Gebaeuden** (Umbau/Ertuechtigung) gelten zusaetzlich die risikobasierten
+Beurteilungskriterien des Merkblatts SIA 2018 (2004) — fuer JANS-Ankaufspruefungen/TDD an
+Holzbau-Bestand relevant (→ Skill `ankaufspruefung`).
+
+## 5n · Holzbau-Feuerwiderstand nach Geschosszahl x Nutzung — Lignatec-Tabelle (Run 30, 2026-07-13)
+
+Quelle: **Lignatec «Bauten in Holz — Brandschutz-Anforderungen»** (Lignum, gepruefte
+materielle Uebereinstimmung mit den VKF-Brandschutzvorschriften Ausgabe 2003, gueltig seit
+1.1.2005, als «Stand der Technik» anerkannt), `PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz
+- Brandschutzanforderungen/Lignatec_brandschutz.pdf`. Ergaenzt §4b (VKF-Tragwerks-/
+Brandabschnitts-Tabelle nach Gebaeudehoehenkategorie) um die **holzbau-spezifische Fassung**
+derselben Fragestellung — kein Delta, sondern dieselbe Systematik detaillierter nach
+Geschosszahl (1/2/3/4/5–6/7–8) x Nutzung x Konzept (baulich/Sprinkler) aufgeschluesselt.
+
+**Bezeichnungssystem der Bauteil-Anforderungen (Tab. 2):** von «Keine Anforderung» (freie
+Holzanwendung) ueber **Mindestkantenabmessung** (ausreichend dimensionierte Holzbauteile nach
+SIA/Lignum-Dokumentation 83 Kap. 3.4, keine zusaetzliche Verbindungs-Anforderung) bis zu den
+klassierten Stufen **R30/EI30/REI30**, **R60/EI60/REI60**, **R90/EI90/REI90** — je mit oder ohne
+Zusatz **(nbb)** = nicht brennbare Baustoffe, und mit/ohne nicht brennbarer Verkleidung
+(«Verkleidung EI30(nbb)»/«EI60(nbb)» als eigene Bauteilschicht bei Brandeinwirkung).
+
+**Kernbefund fuer JANS-Healthcare (Tabelle 3, Beherbergungsbetriebe [a] — Krankenhaeuser/
+Alters-/Pflegeheime):** einzige Nutzungskategorie, die **bereits ab 1 Geschoss und oberstem
+Geschoss** ein Feuerwiderstand-Bauteil verlangt (**EI60(nbb)**, baulich) bzw. **R60(nbb)/EI60(nbb)**
+ab 2 Geschossen — Wohnbauten/Buero/Schule kommen bei 1–2 Geschossen dagegen ohne Anforderung
+oder mit blosser Mindestkantenabmessung aus. Deckt sich mit dem bereits in §4b dokumentierten
+Befund «Beherbergung [a] durchgaengig R60, keine R30-Stufe» — die Lignatec-Tabelle liefert
+zusaetzlich die **Sprinklerkonzept-Reduktion**: mit Sprinkleranlage sinkt die Anforderung bei
+Hotels (Beherbergungsbetriebe [b]) bei kleineren Geschosszahlen auf R30(nbb)/EI30(nbb)(4)
+zurueck (Fussnote 4: «Auf den Einbau einer Brandmeldeanlage kann verzichtet werden»), bei
+Krankenhaeusern/Pflegeheimen [a] bleibt die Anforderung dagegen ueber alle Geschosszahlen
+unveraendert R60(nbb)/EI60(nbb) — Sprinkler reduziert dort **nicht** die Tragwerksanforderung.
+
+**5–6-geschossige Holzbauten (Fussnote 3):** Wohnbauten/Buero/Schule/Industrie duerfen ab 5–6
+Geschossen nur mit **anerkanntem Fachingenieur** und **Brandschutzkonzept vor Baubeginn**
+erstellt werden; das ausfuehrende Unternehmen braucht ein Qualitaetssicherungssystem — eine
+zusaetzliche Verfahrensauflage neben der reinen Bauteil-Klassierung.
+
+**JANS-Praxisrelevanz:** Bei jedem Holzbau-Projekt (Vorprojekt-Grobcheck analog §4b, aber
+holzbau-scharf) direkt Tabelle 3 dieser Quelle statt der generischen VKF-BSR-Tabelle konsultieren
+— sie beantwortet zugleich, ob **Standardkonzept** (Holzbauweise als Bauteil-Standardloesung,
+blau markiert) oder **Objektbezogenes Konzept** (Art. 11 Brandschutznorm, nur mit Nachweis der
+Gleichwertigkeit) noetig ist.
 
 ---
 

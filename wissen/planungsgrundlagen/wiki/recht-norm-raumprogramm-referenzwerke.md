@@ -2,7 +2,7 @@
 title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
+sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
 links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]]
 ---
 
@@ -86,6 +86,38 @@ Raumprogramm in frühen Studien — insbesondere bei subventioniertem/gemeinnüt
 (WBS ist dort das Prüfinstrument von Bund/Kanton) oder als generische Qualitätsreferenz, wenn kein
 spezifisches Bauherren-Raumprogramm vorliegt. Kein Ersatz für ein konkretes Raumprogramm der
 Bauherrschaft.
+
+## 2b. Zimmerzählung — ZH-Wohnbauförderungsreglement (Run 30, 2026-07-13)
+
+Delta zur WBS-2015-Zimmergrösse oben: `01_Gesetze/06_Wohnbauförderung/Zimmerzählung Wohnungen.pdf`
+ist tatsächlich das **kantonale ZH-Merkblatt 15 «Wohnbauförderungsreglement» (Volkswirtschafts-
+direktion, Mai 2017, Auszug für Subventionsempfänger)** — ein eigenständiges, **kantonales**
+Prüfinstrument (Subventionsvergabe Kt. ZH), nicht das WBS des Bundes.
+
+**Art. 4 Wohnungsgrösse — die Zählregel für «halbe Zimmer»:**
+
+- **Wohnküche** mit Nettowohnfläche ≥ 12 m² zählt als **halbes Zimmer**.
+- **Wohndiele/Essplatz** mit Fenster ins Freie und verkehrsfreier Fläche ≥ 6 m² Nettowohnfläche
+  zählt ebenfalls als halbes Zimmer.
+- Pro Wohnung wird **höchstens ein** halbes Zimmer angerechnet (auch wenn beide Kriterien erfüllt
+  sind).
+- Nettowohnfläche = **Hauptnutzfläche nach SIA 416**. Eingebaute Abstellräume zählen mit, sofern
+  zusätzlich ein nicht anrechenbares Kellerabteil (Mindestfläche § 39 BBV) vorhanden ist.
+  Abgeschrägte Räume zählen ab 150 cm lichter Höhe (bei genügendem Dachneigungswinkel); offene
+  Fensternischen ab 200 cm lichter Höhe ab fertig Boden; Fensternischen mit Brüstung/Heizkörper
+  sowie Vorwandinstallationen zählen **nicht** zur Nettowohnfläche.
+
+**Weitere Subventions-Eckwerte (Art. 5–21, nur bei laufenden ZH-Subventionsgeschäften relevant):**
+Pauschal-Erstellungskosten je Autoabstellplatz (Fr. 36'000 UN-Garage / Fr. 20'000 gedeckt /
+Fr. 10'000 Freien) und Bastelraum (Fr. 25'000); Teuerungsanerkennung nach Zürcher Index der
+Wohnbaukosten (Art. 12); Auszahlungslogik der Darlehen inkl. 80-%-Teilzahlung bei brandversichertem
+Rohbau (Art. 14/15); Zweckerhaltungskontrolle via Mieterblatt (Art. 17).
+
+**Relevanz JANS:** Diese Zählregel ist **strenger/spezifischer** als die generische WBS-Tabelle
+oben (dort keine «halbes Zimmer»-Definition) — bei einem **subventionierten ZH-Wohnbauprojekt**
+massgebend für die Zimmerzahl-Deklaration im Baugesuch/Fördergesuch, unabhängig vom WBS-Punktesystem
+des Bundes. Bei nicht subventionierten Projekten bleibt die generische Marktkonvention
+(Wohnküche ≥ 12 m² = halbes Zimmer) trotzdem der branchenübliche Referenzwert.
 
 ## 3. Sanitäranlagen-Bemessung — Toilettenanlagen für Personal und Publikum (09_Sanitaereinrichtung)
 
