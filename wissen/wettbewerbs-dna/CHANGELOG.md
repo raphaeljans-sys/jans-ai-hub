@@ -1,5 +1,21 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Beobachtungs-Lauf 2: extern geprueft (konkurado/espazium), weiterhin kein neues Material
+- **Ausgangslage:** Etappe 2 unveraendert vollstaendig erreicht (11/11 established); Etappe 3
+  weiter blockiert auf Raphaels Bauaufgaben-Prioritaeten. Dieser Lauf prueft erneut, ob 2501
+  Steinfabrik oder 2507 TKHL Halden einen Jurybericht erhalten haben — diesmal zusaetzlich zur
+  lokalen Archiv-Pruefung auch extern via konkurado.ch und competitions.espazium.ch.
+- **Befund lokal:** unveraendert kein neues Material (2507-Jurybericht-Ordner weiterhin leer,
+  angelegt 25.11.2025, nie befuellt).
+- **Befund extern:** konkurado.ch fuehrt «Areal Steinfabrik Pfaeffikon SZ» als «abgeschlossen»,
+  der Jurybericht ist dort aber noch NICHT publiziert; die im Bestand vermerkte Erwartung
+  «Ende Maerz 2026» ist damit ueberholt und wurde in QUESTIONS.md korrigiert (kein neues Datum
+  ersichtlich). competitions.espazium.ch fuehrt «Tagesbetreuung und Kindergarten Halden» weiterhin
+  als laufendes Verfahren (Planabgabe war 30.10.2025), kein Entscheid publiziert.
+- **Konsequenz:** Keine Destillationsarbeit. QUESTIONS.md: Datumsangabe 2501 korrigiert, neuer
+  Punkt "Loop-Takt" ergaenzt (2. folgenloser Beobachtungslauf am selben Tag — Empfehlung
+  Taktreduktion an Raphael verschaerft, siehe naechstes Tagesbriefing/hub-chef).
+
 ## 2026-07-13 — Rang-Entscheid Raphael + QUESTIONS-Bereinigung (Session MacBook Pro)
 - **Rang-Entscheid:** Raphael hat via Rueckfrage «Belegte Raenge uebernehmen» bestaetigt —
   2102 Muttenz 4. Rang / 3. Preis, 2206 Schoental 3. Rang / 3. Preis sind damit

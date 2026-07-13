@@ -23,9 +23,17 @@ Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
 - **2103 Steinhof:** Konkrete Gründe der Rückstufung aus der engeren Wahl sind im
   Jurybericht nicht dokumentiert; evtl. aus `02 Korrespondenz/` / `11 Loggbuch/`
   rekonstruierbar (niedrige Priorität).
-- **Ausstehende Juryberichte:** 2501 Steinfabrik (Bericht angekündigt Ende März 2026 —
-  nachfassen, dann Dossier + Muster ergänzen); 2507 PS Halden (Verfahren jung, Bericht
-  ausstehend). Bei Eintreffen: Dossier ergänzen, Delta-Muster erweitern.
+- **Ausstehende Juryberichte:** 2501 Steinfabrik (externe Prüfung 13.07.2026 via
+  konkurado.ch: Verfahren als «abgeschlossen» markiert, Jurybericht dort noch nicht
+  publiziert — die im Bestand vermerkte Erwartung «Ende März 2026» war überholt, aktuell
+  kein neues Datum ersichtlich; nachfassen); 2507 PS Halden (laut competitions.espazium.ch
+  13.07.2026 weiterhin im laufenden Verfahren, Planabgabe war 30.10.2025, Entscheid noch
+  nicht publiziert). Bei Eintreffen (lokal im Archiv ODER extern via
+  konkurado.ch/competitions.espazium.ch): Dossier ergänzen, Delta-Muster erweitern.
+- **Loop-Takt wettbewerbs-dna-training:** Zwei aufeinanderfolgende Beobachtungs-Läufe
+  (13.07.2026) ohne neues Material bei 2501/2507, Etappe 3 weiter blockiert auf
+  Bauaufgaben-Prioritäten. Empfehlung: Takt auf Nachtfenster/Beobachtung reduzieren, bis
+  einer der beiden Blocker sich löst — Entscheid Raphael.
 
 ## Geklärt (Archiv)
 
