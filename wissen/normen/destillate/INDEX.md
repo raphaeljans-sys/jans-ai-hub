@@ -23,6 +23,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | destilliert (Textlayer vollständig gelesen 260712) |
 | `sia-416-2003.md` | SIA 416 Flächen und Volumen von Gebäuden | 2003 | established (verifiziert 260712) |
 | `sia-421-2006.md` | SIA 421 Raumplanung – Nutzungsziffern (GFZ/AZ/BMZ/ÜZ/GZ) | 2006 | destilliert (Original vollständig gelesen 260713) |
+| `sia-d0165-2000-kennzahlen-immobilienmanagement.md` | SIA D 0165 Kennzahlen im Immobilienmanagement (SIA/SVIT) | Juli 2000 | Teil-Destillat (nur 5-S.-Fragment S.14-17 gelesen; Vollversion 73 S. in xalt offen) |
 | `sia-451-1992.md` | SIA 451 Datenformate für Leistungsverzeichnisse | 1992 | established (verifiziert 260712) |
 | `sia-723-2001.md` | SIA 723 Thermische Energie im Hochbau – NVB zur Norm SIA 380/1 | 2001 | destilliert (Original vollständig gelesen 260713) |
 | `vkf-brandschutznorm-2015.md` | VKF 1-15 Brandschutznorm | 2015 | established (verifiziert 260712) |

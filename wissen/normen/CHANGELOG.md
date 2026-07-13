@@ -1,3 +1,18 @@
+## 2026-07-13 — SIA D 0165 Kennzahlen im Immobilienmanagement: Teil-Destillat aus Fragment
+- Nachtrag zum vorigen Lauf (dort d0165 als im Hintergrund laufend vermerkt, aber nicht
+  registriert): `d 0165.pdf` (5-seitiges Scan-Fragment, S. 14-17 der Publikation +
+  Titelblatt) gegen den Bestand geprueft — kein vorhandenes Destillat gefunden.
+- Vollversion (73 S.) liegt bereits als `xalt/SIA D0165_2000 Kennzahlen im
+  Immobilienmanagement.pdf` und `xalt/neu/...` im Bestand, war aber ebenfalls noch nicht
+  destilliert. Da nur das Fragment gelesen wurde, neues Destillat als **Teil-Destillat**
+  angelegt: `sia-d0165-2000-kennzahlen-immobilienmanagement.md` (Flaechenhierarchie
+  Konstruktionsflaeche/NGF/Funktionsflaeche/Verkehrsflaeche/Nutzflaeche/HNF/NNF sowie
+  Mietflaechen VMF/VTF/LF/VWAGF/EMF/DMF, Abschnitt 3.1 der Publikation).
+- Offen fuer naechsten Lauf: Vollversion (73 S.) aus xalt vollstaendig lesen und dieses
+  Destillat ergaenzen (Basisgroesse GF, Zuschlagsflaeche ZF, Anhaenge 1/2/5, evtl. weitere
+  Kosten-/Ertrags-Kennzahlenkapitel).
+- `destillate/INDEX.md` und `training/norm-inventar.md` (Zeile `d 0165.pdf`) nachgefuehrt.
+
 ## 2026-07-13 — normen-training-nacht MacBook: 12 neue SIA-Destillate (Verifikation ausstehend)
 - Workflow-Tool blockierte im unbeaufsichtigten Lauf ("Review dynamic workflow before running");
   Fallback auf parallele Einzel-Agenten (PROGRAMM.md-Fallback bei Workflow nicht verfuegbar).

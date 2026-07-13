@@ -114,7 +114,7 @@
 | [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | destilliert (sia-752-2002.md), Verifikation ausstehend (naechster Lauf) |
 | [x] 260713 | P2 | `753_2002_d.pdf` | 753 | 2002 | destilliert (sia-753-2002.md), Verifikation ausstehend (naechster Lauf) |
 | [ ] | P2 | `EN 13200-12019.pdf` | 1320 | 2019 |  |
-| [ ] | P2 | `d 0165.pdf` | 0165 |  |  |
+| [x] 260713 | P2 | `d 0165.pdf` | 0165 | 2000 | Teil-Destillat (sia-d0165-2000-kennzahlen-immobilienmanagement.md), nur 5-S.-Fragment gelesen; Vollversion 73 S. in xalt offen |
 | — | — | `e/112_2001_e.pdf` | 112 | 2001 | Sprachvariante |
 | — | — | `e/260_2003_e.pdf` | 260 | 2003 | Sprachvariante |
 | — | — | `e/261_2003_e.pdf` | 261 | 2003 | Sprachvariante |
