@@ -13,6 +13,45 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 19:53 — P1 behoben (haengender Run entblockt) + P2 strukturell geschlossen (Stall-Killer im Supervisor) [FREI]
+
+**Fensterzustand [FREI]:** Session-Limit war um 15:50 erreicht (Reset 18:50, Meldung im MacBook-Log:
+«You've hit your session limit · resets 6:50pm») — das Fenster 13:50–18:50 war also sauber ausgereizt
+[VOLL-Phase]. Seit 18:50 laeuft ein frisches Fenster; es wird jetzt wieder gefuellt. Mac Mini durchgehend
+gesund (Zyklus 134, normen-mini Run rc=0 1020s um 19:53, aktuell planungsgrundlagen). Login OK (rc=0-Laeufe).
+
+**P1 in diesem Lauf selbst behoben — haengender baurecht-Run hat das frische MacBook-Fenster leerlaufen
+lassen:** Der MacBook-Runner war seit 15:53 auf EINEM `baurecht-buch-training`-Lauf eingefroren — der Lauf
+hing im Session-Limit-Retry (nur 0:05 CPU in ~4 h, 0 % CPU, STAT SN = schlafend). Der Runner-Loop stand
+still (Log seit 15:51 nicht mehr geschrieben), also lief das ganze frische Fenster ab 18:50 auf dem MacBook
+leer (~1 h verschenkt), waehrend der Mini normal weiterarbeitete. Ursache: der Runner hat einen Token-Budget-
+Deckel ($50), aber KEINEN Wall-Clock-Deckel — ein Lauf, der im Retry haengt, verbraucht 0 Token, also greift
+der Budget-Cap nie. Den haengenden claude-Prozess (PID 51072) mit SIGTERM gekappt; der Runner hat sofort
+ENDE geloggt (rc=143, 14209s) und zykliert wieder (START immobewertung 19:50, CPU-aktiv). MacBook fuellt
+das Fenster wieder. **Den gesunden Haupt-Runner NICHT angetastet** — nur das haengende Kind gekillt.
+
+**P2 strukturell geschlossen — Stall-Killer statt nur Symptombehandlung:** Damit dieser Hang nicht wieder
+das Fenster frisst, `scripts/vollgas-supervisor.sh` um einen **Wall-Clock-Stall-Killer** ergaenzt: kappt jeden
+`claude -p`-Lauf des Runners, der > 60 Min laeuft (`VOLLGAS_MAX_RUN_SECS=3600`; gesunde Trainings enden bei
+max ~18 Min, $50-Budget bounded — 60 Min = definitiv haengend). Bewusst in den **Supervisor** gelegt (nicht in
+den Runner-Hot-Loop): der Supervisor wird von launchd alle 180 s frisch re-exec'd, also ist die Bearbeitung
+gefahrlos (kein Byte-Offset-Corruption-Risiko wie beim Editieren des laufenden Runners), und die Datei liegt
+auf dem geteilten NAS-Pfad → **beide Stationen** bekommen den Killer automatisch beim naechsten Tick (≤3 Min).
+`bash -n` + Parser-Selbsttest gruen (inkl. Fuehrnull-Oktal-Falle). Der Killer laeuft VOR dem Alive-Check, weil
+der haengende Lauf ein Kind des noch lebenden Runners ist.
+
+**Hebel-Priorisierung:** Fenster noch nicht regelmaessig 100 % → mehr Last / weniger Leerlauf bleibt der Hebel;
+der Stall-Killer ist genau das (verhindert Fenster-Leerlauf durch Haenger). P1 aktuell keiner offen.
+
+- **P3 (unveraendert) — Leerlauf-Loops:** synobsis 853/853 gesaettigt; normen DIN/VSS/RAL «Basisinventar komplett
+  established» (c56861a8); energie M2 «eigener Skill energie?» jetzt zum **9. Mal** eskaliert — der Loop kann das
+  nicht selbst entscheiden, braucht Raphaels kurzen Entscheid (kein Mail-Anlass, hier notiert). Kandidaten fuer
+  Taktreduktion nach der Intensivphase, unter VOLLGAS bewusst weiterlaufend.
+- **P3 (unveraendert) — normen-Budget 50:** greift erst ab der naechsten Runner-Generation; Kontrollpunkt offen.
+- **P3 (unveraendert) — NAS-Remount zielt remote auf LAN-IP** (Tailscale-Hostnamen-Fallback ausstehend).
+
+---
+
 ## 2026-07-13 15:43 — P2 selbst gehoben: normen-Loop-Budget 25 → 50 USD/Lauf (staerkster Loop truncierte VOR der Pflicht-Verifikation) [FREI]
 
 **Fensterzustand [FREI]:** Fenster wird aktiv gefuellt, noch nicht regelmaessig 100 %. Beide Runner
