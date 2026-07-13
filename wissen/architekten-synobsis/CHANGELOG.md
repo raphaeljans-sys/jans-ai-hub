@@ -4,6 +4,9 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-14
+- Nacht-Batch (`synobsis-batch-nacht`, Mac Mini, 00:27–00:27): identisches Ergebnis wie die Serie der Wiederholungslaeufe seit 2026-07-13 09:29 — 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert (weiterhin 15 Architekten mit CAD). Kein neuer Stoff. Ergaenzung in `outputs/2026-07-14_batch-lauf.md`.
+
 ## 2026-07-13
 - Siebter Batch-Aufruf desselben Tages (19:24, VOLLGAS-Endlos-Taktung): identisches Ergebnis wie die sechs vorherigen Laeufe — 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert. Kein neuer Stoff. Ergaenzung in `outputs/2026-07-13_batch-lauf.md`.
 - Sechster Batch-Aufruf desselben Tages (14:53–14:53, VOLLGAS-Endlos-Taktung): identisches Ergebnis wie die fuenf vorherigen Laeufe — 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert. Kein neuer Stoff. Ergaenzung in `outputs/2026-07-13_batch-lauf.md`.
