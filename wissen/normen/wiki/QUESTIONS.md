@@ -191,3 +191,13 @@
   verbleibenden ~15 unverifizierten DIN/VSS-Destillaten (Kandidaten: din-18065-2000,
   din-18299-2010, din-4844-2-2001, vss-640060/066/281/578), danach Stufe (c)
   Q&A-Selbstbefragung.
+- [x] Retro-Verify Run 8 (12 Stichproben) — **beantwortet 13.07.2026 (Run 9):** alle 12 in
+  Run 8 beanstandeten Destillate (din-18065-2000, din-18299-2010, din-4844-2-2001,
+  vss-640060-1994, vss-640066-1996, vss-640281-2006, vss-640578-2006, vss-40291-2021,
+  vss-640065-2011, din-v-105-100-2005, din-v-106-2005, komm-din18024-t1-bayern-2001)
+  wurden im Fliesstext korrigiert (Ersetzung statt Anhang) und auf `established` gehoben;
+  4 davon (din-18065-2000, vss-640060-1994, vss-640281-2006, vss-40291-2021) enthielten
+  komplett fehlende Ziffern, die aus dem Original-PDF nachgetragen wurden. Details:
+  `outputs/2026-07-13_normen-mini-run9.md`. **Nächster Lauf:** weitere Retro-Verifikation
+  des grossen Rests unverifizierter DIN/VSS-Destillate (DIN 5034-Reihe, DIN 1053-Reihe,
+  weitere DIN-EN-Normen, VSS-Altbestand), danach Stufe (c) Q&A-Selbstbefragung.

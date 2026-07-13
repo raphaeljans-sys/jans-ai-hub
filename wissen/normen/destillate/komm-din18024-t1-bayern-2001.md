@@ -7,7 +7,7 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-68 von 68 (vollständig)"
 datenstand: "2001-08"
-status: "beanstandet, korrigiert siehe Verifikations-Hinweis, 260713"
+status: "established"
 last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
@@ -38,14 +38,14 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 ### Bewegungs-/Begegnungsflächen (Abschnitt 4-5, S. 10-22) — Zusammenstellung Mindestmasse (S. 22)
 
 **Bewegungsflächen:**
-- 400×250 cm: Schutzinsel v. Fahrbahnen (4.2); Haltestelle öffentlicher Verkehrsmittel (4.12).
+- 400×250 cm: Schutzinsel v. Fahrbahnen (4.2).
 - 300 cm breit: Gehweg b. Schulen/Kindergärten/Einkaufszentren, Fussgängerüberweg (4.3).
 - 300×200 cm: Verweilfläche auf Fussgängerüberweg (4.4).
 - 200 cm breit: Gehweg an stärker befahrener Fahrbahn (4.5).
 - 150×150 cm: Wende-/Rangierfläche mit Rollstuhl (4.6) — als Quadrat definiert (nicht Kreis
   150 cm Durchmesser), da für unsichere/schwächere Personen realistischer.
 - 150 cm breit: Gehweg an weniger befahrener Fahrbahn und in Grünanlage (4.7).
-- 150 cm breit längs neben Pkw: auf Stellplatz (4.8).
+- 150 cm tief längs neben Pkw: auf Stellplatz (4.8).
 - 130 cm breit: zwischen Umlaufschranken (4.9).
 - 120 cm breit: auf Rampe, situationsbedingt auf Gehweg i. Grünanlage (4.10).
 - 90 cm breit: Durchgang an Kasse/Kontrolle, Nebenweg i. Grünanlage (4.11).
@@ -69,8 +69,15 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 - Längsstellplätze (Normalbreite 2,0 m): Ein-/Ausstieg findet auf der Fahrbahn statt — nur in
   Strassen mit geringem Verkehrsaufkommen (Anliegerstrassen) barrierefrei nutzbar.
 - Bei Gegenverkehr auf stärker belasteten Strassen: Längsparkbucht um 150 cm verbreitert UND
-  um ca. 150 cm verlängert (Gesamtlänge 700-750 cm), damit Fahrer UND Beifahrer auf der
-  Stellplatzfläche aus-/einsteigen können.
+  um ca. 150 cm verlängert (Gesamtlänge 700 cm), damit Fahrer UND Beifahrer auf der
+  Stellplatzfläche aus-/einsteigen können. Diese Verbreiterungs-Vorschrift (4.8) ist eine
+  eigenständige Regel und nicht mit der separaten BTW-Längsparkplatz-Vorschrift (750 cm,
+  Abschnitt 16, s. unten «Pkw-Stellplatz — Vertiefung») zu einer Bandbreite zu vermischen.
+
+### Tür (Abschnitt 7)
+
+- Lichte Breite mind. 90 cm, Höhe mind. 210 cm; bei einer Öffnungskraft von mehr als 6 N
+  ist ein elektrischer Antrieb vorzusehen.
 
 ### Oberflächen, Fussgängerverkehrsfläche, Gefälle (Abschnitt 6, 8, S. 23-28)
 
@@ -89,6 +96,11 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
   komfortablen Passieren.
 - Muldenrinnen: Tiefe auf technisches Minimum begrenzen (wünschenswert 1/30 der Breite,
   bei Pflastersteinen technisch oft nur 1/15 erreichbar — EAE-Wert).
+
+### Verweilplatz (Abschnitt 9)
+
+- Verweilplätze sind überdacht auszubilden und müssen taktil sowie optisch kontrastierend
+  auffindbar sein.
 
 ### Zugang/Überquerung (Abschnitt 10-11, S. 31-35)
 
@@ -415,11 +427,3 @@ Kernlücke bestehen, dass die massgebende CH-Norm SIA 500 «Hindernisfreies Baue
 in dieser KB destilliert ist (P1-Lücke, s. Sektion «JANS-Praxis-Transfer») — dieser
 Bayern-Kommentar dient nur als Vergleichsgrösse/Prüfraster, nicht als zitierfähige
 Rechtsgrundlage für CH-Projekte.
-
-## Verifikations-Hinweis (Retro-Verify Mini-Run 8, 260713)
-Beanstandet, Korrekturen dokumentiert (Original gegengeprueft, Vollstaendigkeit S.1-68/68 bestaetigt, INDEX.md-Eintrag "Teil-Destillat" war veraltet):
-- Ziff. 4.8: 150 cm TIEF (nicht breit) neben Pkw-Laengsseite.
-- Ziff. 4.12: nur Tiefe 250 cm spezifiziert (keine Breite 400 cm, das gehoert zu Ziff. 4.2).
-- Stellplatz-Vorschriften vermengt: 700 cm (Gegenverkehr-Verbreiterung, Ziff. 4.8) und 750 cm (separate BTW-Vorschrift Abschnitt 16) sind zwei verschiedene Regeln, keine Bandbreite.
-- Abschnitt 7 Tuer (lichte Breite 90 cm, Hoehe 210 cm, >6N Oeffnungskraft -> elektrisch) fehlte komplett.
-- Abschnitt 9 Verweilplatz (ueberdacht, taktil/optisch kontrastierend auffindbar) fehlte.

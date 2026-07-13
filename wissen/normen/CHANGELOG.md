@@ -1,3 +1,18 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 9: 12 Verifikations-Korrekturen in Fliesstext eingearbeitet, alle auf established
+- Prioritaet 1 aus Run 8 abgearbeitet: die 12 in Run 8 angehaengten "Verifikations-Hinweis"-
+  Abschnitte (din-18065-2000, din-18299-2010, din-4844-2-2001, vss-640060-1994,
+  vss-640066-1996, vss-640281-2006, vss-640578-2006, vss-40291-2021, vss-640065-2011,
+  din-v-105-100-2005, din-v-106-2005, komm-din18024-t1-bayern-2001) wurden per 12 parallelen
+  Agenten in den Fliesstext eingearbeitet (Ersetzung statt Anhang) statt nur angehaengt.
+- 4 Destillate (din-18065-2000, vss-640060-1994, vss-640281-2006, vss-40291-2021) hatten
+  komplett fehlende Ziffern — dafuer wurden gezielt Original-PDF-Seiten nachgelesen und die
+  fehlenden Ziffern akkurat ergaenzt (keine Erfindungen).
+- Frontmatter-Status aller 12 auf `established` gehoben, `destillate/INDEX.md` nachgefuehrt.
+- DIN/VSS/RAL-Basisinventar bleibt vollstaendig (0 offene Positionen seit Run 5); alle
+  ehemals "beanstandet"-Destillate aus Run 8 sind bereinigt.
+- Report: `outputs/2026-07-13_normen-mini-run9.md`. Naechster Schritt: weitere Retro-
+  Verifikation des Rests unverifizierter DIN/VSS-Destillate, danach Q&A-Selbstbefragung.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 8: Retro-Verifikation 12 Destillate, 12/12 beanstandet
 - Stufe (b) Fortsetzung: 12 DIN/VSS-Destillate adversarial gegen Original geprueft
   (din-18065-2000, din-18299-2010, din-4844-2-2001, vss-640060-1994, vss-640066-1996,
