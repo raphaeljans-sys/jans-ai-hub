@@ -1338,3 +1338,59 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   2026-07-13 im Wiki [[baulinien-und-abstandslinien]] vorgenommen worden, aber nicht ins Buch-
   Destillat und den zweiten Wiki-Artikel [[baureife-und-erschliessung]] nachgezogen — Lehrstück für
   Wiki→Destillat-Divergenzen bei parallelen Läufen. Beleg: raw/260713_amtlich_zh_strg.md. _[2026-07-14]_
+
+## Kap. 17 / BBV I / KNHV (Buch-Run 41, 2026-07-14 — §§ 295-298 PBG, § 48 BBV I aufgehoben, KNHV-Status)
+
+### Modell D — Gegenprobe/Adversarial
+
+- **F:** § 295 PBG regelt nur eine Pflicht zu «standortgerechten Heizzentralen». Kann eine Gemeinde
+  gestützt auf § 295 PBG einen Grundeigentümer auch zum **Anschluss an eine Fernwärmeleitung**
+  zwingen? — **A:** **Ja — § 295 Abs. 2 PBG.** Nutzt eine öffentliche Fernwärmeversorgung lokale
+  Abwärme/erneuerbare Energien und bietet die Wärme zu **technisch und wirtschaftlich
+  gleichwertigen** Bedingungen wie konventionelle Anlagen an, können **Staat oder Gemeinde** den
+  Grundeigentümer verpflichten, das Gebäude innert angemessener Frist **anzuschliessen** und
+  **Durchleitungsrechte** zu gewähren. Abs. 1 (standortgerechte Heizzentralen mit Abwärme/
+  erneuerbaren) ist nur der erste Teil. Beleg: raw/260607_amtlich_zh_pbg.md Z. 3033-3040. _[2026-07-14]_
+- **F:** Ab welcher Gebäudegrösse darf der Regierungsrat gestützt auf § 298 PBG strengere
+  Sicherheits-/Ausrüstungsbestimmungen erlassen — ab «Hochhaus» (> 25 m Fassadenhöhe)? — **A:**
+  **Nein, die Schwelle ist geschossbezogen:** § 298 PBG greift bei Gebäuden mit **mehr als sechs
+  anrechenbaren Geschossen** (nicht an die Hochhaus-Definition § 282 PBG gekoppelt). Er ist eine
+  reine Delegationsnorm an den RR (Sicherheit der Bewohner + Ausrüstung). Beleg:
+  raw/260607_amtlich_zh_pbg.md Z. 3055-3057. _[2026-07-14]_
+- **F:** Das Wiki hält fest, § 48 BBV I sei aufgehoben. Stimmt das, und mit welchem Erlass? — **A:**
+  **Bestätigt aufgehoben** — der amtliche Volltext führt § 48 BBV I als leeren Paragraphen mit
+  Fussnote 80: **«Aufgehoben durch RRB vom 14. Juli 2021 (OS 77, 369; ABl 2021-07-23)».** Die
+  Folgeparagraphen **§§ 48a/48b/48c BBV I** (Grossverbraucher — zumutbare Massnahmen / Zielver-
+  einbarung / Betriebsoptimierung) bleiben in Kraft; § 48c befreit Betriebsstätten mit Elektrizitäts-
+  verbrauch < 200'000 kWh/Jahr bzw. mit Grossverbraucher-Zielvereinbarung. Beleg:
+  raw/260607_amtlich_zh_bbv1.md Z. 908 + Fussnote Z. 1383. _[2026-07-14]_
+- **F:** Die zhlex-Seite zur KNHV (LS 702.11) zeigt «Aufhebungsdatum 01.08.2025». Ist die KNHV damit
+  ersatzlos aufgehoben und sind alle KNHV-Zitate im Hub obsolet? — **A:** **Nein.** Das
+  «Aufhebungsdatum» bezog sich auf das **Ende der Geltungsdauer der Fassung Nachtrag 099**, nicht auf
+  eine Aufhebung der Verordnung. Seit 01.08.2025 gilt unter **derselben LS 702.11** die Fassung
+  **Nachtrag 130** (Teilrevision RRB 15.01.2025, OS 80, 179), die **nur § 3 und § 3a** (Bundes-
+  inventare/Zuständigkeit) ändert. Alle übrigen zitierten §§ (4/6/7/8/10/12/23-28) bleiben
+  unverändert in Kraft — kein Nachfolgeerlass. Beleg: raw/260714_amtlich_zh_knhv.md. _[2026-07-14]_
+
+### Modell C — Selbsttest (Karteikarte)
+
+- **F:** Welche Nebenräume verlangt § 297 PBG in Wohnhäusern, und wo wird das mengenmässig
+  konkretisiert? — **A:** «Ausreichende Nebenräume, wie Trockenräume und Einstellgelegenheiten für
+  Vorräte, Hausrat und dergleichen.» Mengenmässig konkretisiert in **§ 39 BBV I: 8 m² je Wohnung,
+  5 m² bei Wohnungen mit höchstens 2 Zimmern.** _[2026-07-14]_
+- **F:** Was verlangt § 296 PBG von einem bestehenden Aufzug, wenn sich der Stand der Technik
+  weiterentwickelt? — **A:** Beförderungsanlagen müssen zweckgerecht sein und sind fachgemäss zu
+  erstellen, zu betreiben, zu unterhalten und **— wo die Sicherheit es verlangt — der technischen
+  Entwicklung anzupassen** (Nachrüstpflicht bei sicherheitsrelevanter Weiterentwicklung, nicht bei
+  jeder Neuerung). _[2026-07-14]_
+
+### Modell A — Frage → Beleg (Fundstellen-Drill)
+
+- **F:** Bauherr fragt: «In einem MFH-Neubau mit Fernwärme-Erschliessung — auf welcher Grundlage kann
+  die Gemeinde uns zum Anschluss verpflichten, und welche Bedingung muss dafür erfüllt sein?» Nenne
+  die Fundstelle und die entscheidende Bedingung. — **A:** **Fundstelle: § 295 Abs. 2 PBG** (LS 700.1).
+  Entscheidende Bedingung: die öffentliche Fernwärmeversorgung muss **lokale Abwärme oder erneuerbare
+  Energien** nutzen UND die Wärme zu **technisch und wirtschaftlich gleichwertigen Bedingungen** wie
+  aus konventionellen Anlagen anbieten; dann können Staat/Gemeinde Anschluss + Durchleitungsrechte
+  verlangen. Nur wenn diese Gleichwertigkeit gegeben ist. Beleg: raw/260607_amtlich_zh_pbg.md
+  Z. 3034-3040. _[2026-07-14]_

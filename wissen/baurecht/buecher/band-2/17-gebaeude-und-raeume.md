@@ -8,7 +8,7 @@ paragraphen: ["§ 295 PBG", "§ 297 PBG", "§ 299 PBG", "§ 300 PBG", "§ 301 PB
 status: emerging
 gelesen: 2026-06-07
 last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D Volltextabgleich §§ 299-306 PBG + § 32/§ 4 ABV gegen raw/260607_amtlich_zh_pbg.md und raw/260607_amtlich_zh_abv.md — alle CONFIRMED, siehe "Offene Punkte" fuer Rest-Umfang des Kapitels)
+verifiziert: 2026-07-13 (Modell-D Volltextabgleich §§ 299-306 PBG + § 32/§ 4 ABV gegen raw/260607_amtlich_zh_pbg.md und raw/260607_amtlich_zh_abv.md — alle CONFIRMED, siehe "Offene Punkte" fuer Rest-Umfang des Kapitels); 2026-07-14 (Buch-Run 41 — Destillat↔Destillat-Divergenz geschlossen: §§ 295-298 PBG waren im Schwester-Destillat 17-gebaeude-und-raeume-teil2-ausruestungen seit 2026-07-13 Modell-D-verifiziert, hier aber noch «offen». Grundnorm-Kurzfassung ergaenzt + auf teil2 verlinkt, eigenstaendig gegen raw/260607_amtlich_zh_pbg.md Z. 3033-3057 gegengeprueft, alle CONFIRMED. Status bleibt emerging: Ausruestungen-Teil § 4 ABV + Einstellraeume-Detail §§ 37-39 BBV I ab Shot 632 noch ungelesen)
 ---
 
 # Kap. 17 — Gebaeude und Raeume; Ausruestungen (Teil 1: §§ 295-306 PBG)
@@ -40,11 +40,14 @@ zwei (§ 40 BBV I).
   Benuetzung oder Sicherheit dienen (Heizungs-, Klima-/Belueftungs-, Elektroanlagen,
   Befoerderungsanlagen, Briefkaesten).
 
-### Allgemeine Anforderungen an Gebaeude (§§ 295-298 PBG) — volltextverifiziert (Modell D, 2026-07-14)
+### Allgemeine Anforderungen an Gebaeude (§§ 295-298 PBG) — volltextverifiziert (Modell D)
 
 Die §§ 295-298 PBG bilden die **I. Allgemeinen Anforderungen an Gebaeude** (vor den §§ 299 ff.
-«II. Zum Aufenthalt von Menschen bestimmte Raeume»). Gegen `raw/260607_amtlich_zh_pbg.md`
-(Z. 3033-3057) Absatz fuer Absatz geprueft — alle **CONFIRMED**:
+«II. Zum Aufenthalt von Menschen bestimmte Raeume»). **Kanonische, vertiefte Fundstelle** (inkl.
+§ 71 PBG Energieplan-Anschlusspflicht, WKK, ≥ 3 Baukoerper) ist das Schwester-Destillat
+[[17-gebaeude-und-raeume-teil2-ausruestungen]], dort seit **2026-07-13** Modell-D-verifiziert. Hier
+die **Grundnorm-Kurzfassung am strukturell richtigen Ort**. Gegen `raw/260607_amtlich_zh_pbg.md`
+(Z. 3033-3057) Absatz fuer Absatz geprueft (2026-07-14) — alle **CONFIRMED**:
 
 - **§ 295 PBG — Waermeversorgung** (harmonisierte Fassung, Fussnote 27): *Abs. 1* — werden
   Heizungen mit **luftverschmutzenden Brennstoffen** betrieben, sind die Ueberbauungen mit
@@ -280,9 +283,11 @@ Fundstellen-Herleitung siehe Wiki [[wohnhygiene-und-raumanforderungen]], Abschni
   Beleg: `raw/260607_amtlich_zh_bbv2.md`, Zeilen 91-114.
 - ~~**§§ 295-298 PBG** (Anforderungen an Gebaeude > sechs Geschosse, Waermeversorgung,
   Befoerderungsanlagen, Nebenraeume) nur uebersichtsweise erwaehnt (S. 1242) — Detail offen.~~
-  **Erledigt 2026-07-14 (Buch-Run 39/dieser Lauf):** §§ 295-298 PBG volltextverifiziert gegen
-  `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057), eigener Abschnitt «Allgemeine Anforderungen an
-  Gebaeude» oben ergaenzt, alle CONFIRMED.
+  **Erledigt 2026-07-14 (Buch-Run 41):** war eine **Destillat↔Destillat-Divergenz** — §§ 295-298 PBG
+  waren im Schwester-Destillat [[17-gebaeude-und-raeume-teil2-ausruestungen]] bereits seit 2026-07-13
+  Modell-D-volltextverifiziert, hier aber noch als «offen» geführt. Grundnorm-Kurzfassung im Abschnitt
+  «Allgemeine Anforderungen an Gebaeude» oben ergänzt + auf teil2 als vertiefte Fundstelle verlinkt;
+  eigenständig gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057) gegengeprüft, alle CONFIRMED.
 - **Ausruestungen-Teil** (Heizung/Klima/Elektro/Befoerderungsanlagen/Briefkaesten, § 4 ABV) und
   **Einstellraeume-Detail** (Garagen-Lueftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht
   vertieft.

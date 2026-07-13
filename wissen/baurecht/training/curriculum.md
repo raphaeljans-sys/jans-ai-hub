@@ -104,8 +104,9 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    § 10 BBV II, **innere Erschliessung § 305 + Aufzugspflicht § 40 BBV I** (> 5 Geschosse,
    krankentransporttauglich 2,1 × 1,1 m), Geltungsbereich-Ausnahme EFH § 32 ABV. Destillat
    [[17-gebaeude-und-raeume]], neuer Wiki-Artikel [[wohnhygiene-und-raumanforderungen]]. Restschuld
-   Kap. 17: Einstellraeume-Detail (Garagen §§ 37-39 BBV I) + Ausruestungen/Beförderungsanlagen § 4 ABV
-   + §§ 295-298 PBG, Shots ab 632.)*
+   Kap. 17: Einstellraeume-Detail (Garagen §§ 37-39 BBV I) + Ausruestungen § 4 ABV, Shots ab 632.
+   (§§ 295-298 PBG erledigt: seit 2026-07-13 in teil2-ausruestungen Modell-D-verifiziert, 2026-07-14
+   Run 41 Destillat↔Destillat-Divergenz geschlossen — Grundnorm-Kurzfassung auch in teil1 + verlinkt.)*
 5. **Kap. 20** Ausnahmen/Bestandesschutz — § 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie.
    *(Kern distilliert 2026-06-18, Run 10, S. 1433-1449, Shots 720-728: **§ 220 PBG** Ausnahmebewilligung
    (besondere Verhaeltnisse / Gesetzeszweck / Nachbarschutz; nur kant./komm. Recht, Legaldefinitionen
