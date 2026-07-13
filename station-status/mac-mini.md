@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 16:08:11
+Stand: 13.07.2026 16:28:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 16:08:11
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9b2c2c36 nas-selfcommit: 31 Datei(en) 2026-07-13 16:00
+- 2b684641 sync: twin-fidelity-review: 2026-07-13 Sechstlauf — Signatur-Automatik-Artefakt Desktop generalisiert (Fidelity 94);twin-mail-training: Batch 43 (KISPI-Umnutzung 01.-06.05.2026)
