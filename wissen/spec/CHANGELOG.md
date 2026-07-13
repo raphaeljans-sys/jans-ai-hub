@@ -1,5 +1,24 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-13 — Trainingslauf 10
+- Output `outputs/2026-07-13_training-run10.md`. **Keine neue reale Spec-Anwendung** seit Lauf 7.
+  Dritter Lauf am selben Tag; arbeitet die zwei offenen «naechstes»-Punkte aus Lauf 9 ab.
+- **Follow-up Lauf 8 (Drei-Listen-Konsistenz):** erstmals ausgefuehrt. `rules/*.md` (20) ↔
+  `rules/README.md` (alle 20 registriert) ↔ `CLAUDE.md`-@-Import (19; einzige Differenz
+  `sync-single-committer.md` = bewusst historisch nicht importiert). Listen konsistent, die
+  Lauf-8-Fixes halten. Die von Lauf 8 geforderte Gegenpruefung ist damit tatsaechlich gelaufen.
+- **Follow-up Lauf 9 (Twin-Fidelity-Kausalverdacht) — widerlegt:** der Verdacht, der
+  `jans-dna.md`-Import-Fix habe die Twin-Fidelity gehoben, haelt nicht: Fidelity stieg schon
+  vor dem Fix stetig (84→90→93), die drei 13.07.-Fidelity-Outputs erwaehnen den Import nicht und
+  schreiben ihren Wert dem gezogenen Golddatensatz zu, und der `twin-chef`-Selbsttest liest
+  `jans-dna.md` direkt (unabhaengig vom `CLAUDE.md`-@-Import) → Mass orthogonal zum Fix.
+- **Umgesetzt:** `wiki/verifier.md` neue Sektion «Ein Mass validiert eine Aenderung nur, wenn der
+  Mess-Prozess die Aenderung konsumiert» (Verifier-Disziplin Korrelation≠Kausalitaet).
+  `wiki/QUESTIONS.md` F1-Stand 13.07. (Lauf 10) ergaenzt.
+- Rule `spec-methode.md` + `anwendung-jans.md` unveraendert (kein neuer Anwendungsfall/kein
+  Ueberdehnungsbeleg). Quellen-Schuld: keine.
+- Offen: F1-Ueberdehnungs-Gegentest weiter offen; F3 nur noch Marketing/Text offen.
+
 ## 2026-07-13 — Trainingslauf 9
 - Output `outputs/2026-07-13_training-run9.md`. **Keine neue reale Spec-Anwendung** seit
   Lauf 8. Schwerpunkt: den in Lauf 8 geflaggten P1-Grenzfall (Git-Committer-Modell NAS-Repo,

@@ -35,6 +35,12 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     Ueberdehnungs-Beleg. Neu ist ein Datenpunkt fuer **teil-bestaetigten Anlauf** (F2): die Spec baut nur
     auf bestaetigten Entscheiden (E1/E2/E6), waehrend E3–E5 «offen, vor Bau bestaetigen» bleiben und je
     eine spaetere Etappe gaten — das Gate erlaubt sauberes Starten, ohne alle Entscheide vorab zu erzwingen.
+  - Stand 2026-07-13 (Lauf 10): **keine neue reale Spec** seit Lauf 7 (Wettbewerbs-Layer 12.07.).
+    Laeufe 8–10 waren Environment-/Methodik-Laeufe ohne neuen Anwendungsfall → F1-Ueberdehnungs-
+    Gegentest (mittelgrosser, genervter Mittelfall) weiterhin **nicht** in `outputs/`, Schwelle
+    unveraendert. Verbrauchter «naechstes»-Punkt aus Lauf 9: der Twin-Fidelity-Kausalverdacht
+    (Import-Fix → Fidelity 94) ist **widerlegt** (siehe [[verifier]], «Mass validiert nur, wenn der
+    Mess-Prozess die Aenderung konsumiert») — kein Beleg, dass der Lauf-8-Fix die Metrik hob.
   - Stand 2026-07-09: **19 Tage** lebende Spec (21.06.–09.07.), Phase B haelt an (Eintraege 07./08./
     09.07. alle «NICHTS NEUES»). Kein neues Korrektur-Delta, aber ein Praezisierungs-Datenpunkt fuer
     die Monitor-Kadenz (→ F2): der Steady-State-Monitor hat ~10 Tage eine **selbst-blockierte

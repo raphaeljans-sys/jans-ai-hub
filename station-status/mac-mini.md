@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 09:10:46
+Stand: 13.07.2026 09:20:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:56)
@@ -53,4 +53,4 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden.
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- aeecc7f3 setup-ssh-macbook: Schritt-2-Fehlbefund beheben, Schritt 3 ehrlich machen
+- 1f68b73f nas-selfcommit: 1 Datei(en) 2026-07-13 09:15

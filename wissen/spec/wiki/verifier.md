@@ -125,3 +125,24 @@ statt eskaliert zu werden. **Konsequenz:** low-noise gilt nur fuer echtes extern
 ein Punkt am eigenen Handeln haengt, gehoert er in jeden Monitor-Lauf als **aktive Nudge/Pendenz**
 (nicht als «nichts Neues»), sonst frisst die Steady-State-Ruhe eine erledigbare Aufgabe. Die richtige
 Trennfrage je Blocker: «Wartet hier die Instanz — oder warten wir auf uns selbst?»
+
+## Ein Mass validiert eine Aenderung nur, wenn der Mess-Prozess die Aenderung konsumiert (Lektion Spec-Lauf 10, 13.07.2026)
+Naheliegende Verwechslung von Korrelation und Kausalitaet im Verifier: Lauf 8 hatte einen echten
+Verdrahtungsfehler behoben (Rule `jans-dna.md` fehlte im `CLAUDE.md`-@-Import) und im selben Log
+notiert, dass danach ein Twin-Fidelity-Zweitlauf «94» erreichte — mit dem Verdacht, der Fix habe
+die Fidelity gehoben. Die Nachpruefung (Lauf 10) widerlegt den Kausalschluss:
+- Die Fidelity stieg **schon vor** dem Fix stetig (84 am 14.06. → 90 am 30.06. → 93 am 12.07.); der
+  Sprung 93→94→95 an den drei 13.07.-Laeufen ist die Fortsetzung eines bestehenden Trends.
+- **Keiner** der drei 13.07.-Fidelity-Outputs erwaehnt den Import; jeder schreibt seinen Wert
+  ausdruecklich dem **gezogenen Golddatensatz** zu (dichter im Wiki verankerte Golds → hoeherer Wert).
+- Strukturell entscheidend: der Fidelity-Selbsttest wird vom `twin-chef`-Harness gefahren, der
+  `jans-dna.md` + die Facetten-Wikis **direkt** liest — unabhaengig davon, ob `CLAUDE.md` die Rule
+  @-importiert. Das Mass ist damit **orthogonal** zum Fix: der Import verbessert den echten
+  Live-Session-Output (DNA laedt im Normalbetrieb ueberhaupt), aber der twin-eigene Selbst-Score
+  misst genau das nicht.
+
+**Regel fuer den Verifier:** bevor eine Metrik-Bewegung einer Aenderung zugeschrieben wird, pruefen,
+ob der Mess-Prozess die Aenderung ueberhaupt konsumiert. Tut er es nicht, kann die Metrik den Fix
+weder bestaetigen noch widerlegen — Trennfrage: «Fliesst mein Eingriff in genau den Pfad, den diese
+Zahl misst?» Ergaenzt die «Praxis als autoritative Instanz» aus Lauf 9: dort belegte Empirie statt
+Ermessen, hier die Warnung, belegte Empirie nicht ueber einen falschen Kanal zu lesen.
