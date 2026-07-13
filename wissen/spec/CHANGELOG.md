@@ -1,5 +1,27 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-14 — Trainingslauf 14
+- Output `outputs/2026-07-14_training-run14.md`. **Keine neue reale Spec** seit Lauf 7 (Wettbewerbs-
+  Layer 12.07.) — Verifikationslauf.
+- **Reue-Pruefungs-Korrektur (Praezisierung, nicht Widerruf):** Git-Commit-Historie von
+  `logbuch/fristen.md` unabhaengig geprueft (nicht nur Dateiinhalt) — der `ag-gruendung-monitor` hat
+  am 13.07. **nach** Lauf 12 (15:22) und Lauf 13 (20:05) doch noch einen Eintrag geschrieben
+  («Monitor 13.07. … Stand unveraendert», zwischen den nas-selfcommits 15:45 und 21:00). Lauf 12s
+  "haelt an, nicht selbst geheilt" war fuer den Pruefzeitpunkt richtig, aber keine Aussage fuer den
+  Rest des Tages. Die Kernlehre "ein Flag ist keine Reparatur" bleibt bestehen (keine belegte
+  Kausalitaet KB-Eskalation → Wiederaufnahme); neu ist die Lehre, dass **eine "haelt an"-Diagnose
+  ein Ablaufdatum hat** — Reue-Pruefungen muessen auch pruefen, ob sich seit dem letzten Check-
+  Zeitpunkt am selben Tag etwas veraendert hat.
+- **Umgesetzt:** `wiki/verifier.md` (Update-Absatz unter "Eine Monitor-Lektion haelt nicht von
+  selbst", `last_updated` → 07-14), `wiki/QUESTIONS.md` F2 nachgefuehrt.
+- **Bewusst nicht getan:** kein vierter Breitband-Environment-Sweep (Lauf 13 hat Drei-Listen-
+  Konsistenz + KB→Skill-Sync bereits frisch geprueft — ein Wiederholungs-Sweep ohne neuen Anlass
+  waere selbst Gate-Ueberdehnung nach innen); keine erfundene F1/F3-Fuellung; keine `logbuch`-
+  Reparatur (ausserhalb Mandat, Eskalation an Raphael bleibt mit praezisiertem Befund bestehen);
+  kein Mail-Versand; `spec-methode.md` unveraendert.
+- Offen: F1-Ueberdehnungs-Gegentest weiter unbelegt; F3 nur noch Marketing/Text; ob der Monitor am
+  14.07. weiterlaeuft, ist noch offen (heute noch kein neuer `fristen.md`-Commit).
+
 ## 2026-07-13 — Trainingslauf 13
 - Output `outputs/2026-07-13_training-run13.md`. **Keine neue reale Spec** seit Lauf 7; sechster
   Lauf am selben Tag. Bewusst **keine** vierte Wiederholung der AG-Gruendung-Reue-Pruefung

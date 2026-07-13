@@ -2,6 +2,28 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 37 (Brandschutz-Rueckstand + Recht/Norm, Token-Vollgas, Fan-out): Doppelspur-Fix + vier PL-03-Nachzuegler + drei neue PL-02-Funde
+- **Brandschutz — Rueckstand vollstaendig geschlossen:** Doppelspur-Flag (aeltester offener Punkt,
+  Wissens-Chef Run 3) geloest — §5o-§5y in [[brandschutz-pl03-wegweiser]] Ziffer-fuer-Ziffer gegen
+  `wissen/normen/destillate/vkf-brl-*` verifiziert (keine Abweichung) und auf Destillat-Verweis +
+  JANS-Anwendungsnotiz gekuerzt (Rule `normen-referenz.md`), Ausnahme §5s (raucharme-Schicht-
+  Zahlenwerte, direkt gegen Original S. 10 verifiziert, bleiben stehen). Rest-Backlog aus Run 34
+  vollstaendig abgearbeitet: §4 Baustoff&Bauteile BSR 13-15 (Verweis auf Normen-KB-Destillat,
+  F30/F60→EI-Tabelle), §5z Gefaehrliche Stoffe BSR 26-15 (niedrige Prioritaet bestaetigt, Ausnahme
+  Notstromaggregate-Diesel dokumentiert), §5aa DIN EN 12101-2 (Produktnorm-Ebene NRWG), §5ab
+  Brandmauern 100-15 (0-Byte-Sync-Problem geloest, REI 180/90/60-Hierarchie). Solaranlagen-Merkblatt
+  2001-15: Rev.-2022-Datenstand bestaetigt, aber Original nicht im SharePoint-Inventar →
+  [[energie-pv-brandschutz]] Datenstand-Vermerk.
+- **Recht & Norm — Ordner-Abgleich `04_Merkblätter` (~110 Dateien, nie systematisch geoeffnet):**
+  drei Funde — NEU [[recht-norm-hindernisfreies-bauen-zh]] (BehiG-Geltungsbereich, Aufzugs-/
+  Wohnungsbau-Fixmasse, Mehrkosten-Schwelle 20 %/5 %, schliesst SIA-500-Vollzugsluecke aus Run 32),
+  §7b [[kartenportale-naturgefahren-objektschutz]] (Hochwassergefahrenkarte ZH, § 22 WWG,
+  Gefahrenstufen), [[recht-norm-ivhb-baubegriffe]] (Dachlandschaften-Leitfaden AFS, PV-Kategorien
+  nach Denkmalschutz-Anspruch). RPG-2-Refresh: Stand unveraendert seit 2026-06-28/07-13 (amtlich
+  gegengeprueft) → [[recht-norm-quellenlandkarte]] R6-Ergaenzung.
+- Methodik: Fan-out ueber zwei parallele Agenten (Brandschutz + Recht/Norm), Verifikations-Stufe
+  Pflicht eingehalten (Ziffer-Abgleich + Original-Gegenprobe). Report: `outputs/2026-07-14_training-run37.md`.
+
 ## 2026-07-14 — Training Run 36 (Brandschutz + Energie, Token-Vollgas): vier VKF-Richtlinien §5v-§5y + Pronovo-Foerdersystematik
 - **Brandschutz:** vier weitere VKF-Einzelrichtlinien aus dem B27-Rest-Backlog gelesen und als
   §5v-§5y in [[brandschutz-pl03-wegweiser]] eingearbeitet — **BSR 12-15** (Sicherheitsbeauftragter-

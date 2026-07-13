@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch]
 links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[machbarkeit]]
 ---
@@ -138,6 +138,16 @@ Wuerdigung bleibt der Skill `baurecht`; hier der belegte Datenstand fuer Planung
   PBG-Vorlage zuhanden Kantonsrat gemeldet wird (Praezedenz: die parallele
   **Denkmalschutz-PBG-Revision** ging genau diesen Weg, s. Abschnitt unten — RPG-2-Vorlage koennte
   denselben Verfahrensschritten folgen).
+- **Refresh 2026-07-14 (Run 37, WebSearch + WebFetch zh.ch/de/planen-bauen/raumplanung/
+  raumplanung-flexdata/fachthema-projekt/raumplanungsgesetz-rpg-2-umsetzung.html):** Stand
+  weiterhin **unveraendert** — die zh.ch-Seite "Umsetzung RPG 2" nennt nach wie vor **kein**
+  PBG-/Richtplan-Fertigstellungsdatum, nur den Grundsatz "PBG und kantonaler Richtplan werden
+  entsprechend den Bundesvorgaben angepasst" und die Bundes-Etappen 01.01./01.07.2026 (s.o.).
+  Kein neuer Kantonsrats-Termin bekannt. Zum Vergleich bestaetigt: die **Denkmalschutz-PBG-Revision**
+  (RRB 02.07.2026, s. Abschnitt unten) ist weiterhin **beim Kantonsrat haengig**, kein
+  Schlussabstimmungs-Datum — bleibt die naechste Praezedenz-Vorlage, an der sich das Verfahrenstempo
+  einer PBG-Aenderung ablesen laesst. Naechster Check bei konkretem Projektbedarf oder Kantonsrats-
+  Traktandierung.
 - **Direkt seit 01.01.2026 (belegt zh.ch, Run 11):** u.a. Vorrang Landwirtschaft + **Bestandes-/
   Besitzstandsschutz fuer ueber 30 Jahre bestehende Gebaeude** ausserhalb Bauzone gilt unmittelbar.
 - **ZH-Stabilisierungswert (absolute Zahlen, belegt zh.ch 2026-06-28):** der 2-%-Schwellenwert

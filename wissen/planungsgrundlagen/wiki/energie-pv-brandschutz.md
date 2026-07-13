@@ -1,8 +1,8 @@
 ---
 title: PV/Solar — Brandschutz & Naturgefahren (Schnittstelle Architekt/Bauleitung)
 status: established
-last_updated: 2026-06-18
-sources: [PL - 04 Energie/Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf (Swissolar Stand-der-Technik-Papier V4.00, 12/2022, red. 11/2023), VKF-Brandschutzmerkblatt 2001-15 «Solaranlagen» (Rev. 01.01.2022), VKF-Brandschutzvorschriften BSV 2015, NIN SN 411000 Kap. 7.12 (NIN 2020), SIA 261/261-1:2020]
+last_updated: 2026-07-14
+sources: [PL - 04 Energie/Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf (Swissolar Stand-der-Technik-Papier V4.00, 12/2022, red. 11/2023), VKF-Brandschutzmerkblatt 2001-15 «Solaranlagen» (Rev. 01.01.2022, Delta-Bestaetigung Run 37 2026-07-14 direkt aus STP S. 3), VKF-Brandschutzvorschriften BSV 2015, NIN SN 411000 Kap. 7.12 (NIN 2020), SIA 261/261-1:2020]
 links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]]
 ---
 
@@ -135,3 +135,16 @@ anerkannte Bauprodukte», `bsvonline.ch`).
 Swissolar aktualisiert das STP periodisch → vor grossen Projekten die **aktuelle Fassung**
 (`swissolar.ch`) und das geltende **VKF-BSM 2001-15** pruefen. Bauteil-Klassen/EI/RF → Skill
 `brandschutz`. Offen: VKF-BSM-2001-15-Aktualitaet >18 Mt. periodisch nachziehen.
+
+**Rev.-2022-Delta bestaetigt (Run 37, 2026-07-14):** die Swissolar-STP-Quelle selbst belegt
+(S. 3, Vorwort): «haben die betroffenen Fachverbaende unter Federfuehrung der VKF das
+Brandschutzmerkblatt (VKF-BSM 2001-15) "Solaranlagen" erarbeitet und dieses per 1. Januar 2022
+aktualisiert.» Die STP wurde am 15.09.2022 von der TKB-VKF auf Uebereinstimmung mit den
+Mindestanforderungen der BSV 2015 (Stand 1.8.2021) geprueft. Damit ist die Rev. 2022 real und
+keine Fehlinterpretation. Das im Hub abgelegte VKF-PDF selbst
+(`PL-03/02 Brandschutzrichtlinien 2015-17-22/2001-15_VKF-AEAI_BrandschutzMerkblatt_Solaranlange_d.pdf`,
+destilliert in `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen.md` +
+`vkf-brm-2001-15-solaranlagen.md`) traegt jedoch weiterhin nur den Ausgabestempel **06.03.2015** —
+die eigenstaendige 2022er-VKF-Merkblatt-PDF liegt NICHT separat im SharePoint-Inventar vor, nur
+die daraus zitierten Aenderungen ueber die Swissolar-STP. Re-Destillat der 2022er-Merkblattfassung
+bleibt offen, bis das Original-PDF beschafft ist.

@@ -10,7 +10,7 @@ sources: [
   "Konstruktionslehre Hochbau (Verlag unbekannt aus PDF-Auszug, 'KL_Hochbau'), Kap. «Sanitäre Anlagen» BKP 251 (S. 22-25) und BKB 256 «Sanitärraumeinrichtungen» (S. 53-56), PL-02/09_Sanitaereinrichtung",
   "Stadt Zürich UGZ, Merkblatt «Toilettenanlagen für Personal und Publikum» (Mai 2012 / Dezember 2020) — siehe [[recht-norm-raumprogramm-referenzwerke]] §3 für Bedarfszahlen, hier nur Fixture-Bezug"
 ]
-links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-arbeitshilfen-planungsdetails]], [[healthcare-wirtschaftlichkeit]], [[ankaufspruefung]], [[machbarkeit]]
+links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-arbeitshilfen-planungsdetails]], [[healthcare-wirtschaftlichkeit]], [[ankaufspruefung]], [[machbarkeit]], [[recht-norm-hindernisfreies-bauen-zh]]
 ---
 
 # Sanitärräume — Apparate-Bemessung und altersgerechtes/barrierefreies Bad (09_Sanitaereinrichtung)

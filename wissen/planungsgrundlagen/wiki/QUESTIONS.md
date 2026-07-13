@@ -125,6 +125,24 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R36–R38 (Run 37, 2026-07-14)** Drei weitere bisher unerschlossene Dateien im Ordner
+  `04_Merkblätter` ausgewertet (systematischer Ordner-Abgleich, analog der R32-R35-Methodik):
+  **UGZ Hindernisfreie Aufzüge + UGZ Wohnungsbau hindernisfrei** (Stadt-ZH-Vollzugspraxis zum
+  hindernisfreien Bauen — Geltungsbereich-Staffelung BehiG Art. 3, Aufzugs-Kabinenmasse SIA 500
+  inkl. § 40 BBV I Krankentransport-Mass, vollstaendige Wohnungsbau-Fixmasse-Tabelle → NEU
+  [[recht-norm-hindernisfreies-bauen-zh]], schliesst die in R27 offen benannte SIA-500-Luecke),
+  **GVZ_Leitfaden_Hochwassergefahrenkarte.pdf** (⚠ Datenstand 2003 — ZH-Rechtsgrundlage § 22 WWG
+  fuer die Naturgefahr Hochwasser, Gefahrenmatrix + Gefahrenstufen rot/blau/gelb deckungsgleich
+  zur bereits dokumentierten SZ-Stufung, rechtliche Wirkung als entschaedigungslose
+  Eigentumsbeschraenkung → Ergaenzung [[kartenportale-naturgefahren-objektschutz]] §7b; **schliesst
+  den ZH-Rechts-/Verfahrensteil, der GIS-Layer-Endpunkt bleibt weiterhin offen**), **AFS_Leitfaden
+  Dachlandschaften.pdf** (⚠ Datenstand 2010 — informelle staedtebauliche Gestaltungspraxis Amt
+  fuer Staedtebau, kein Gesetzestext extrahierbar; 5-Kategorien-Solaranlagen-Tabelle nach
+  Denkmalschutz-Anspruch direkt anschlussfaehig an Agent `energie-berater` → Ergaenzung
+  [[recht-norm-ivhb-baubegriffe]]). Zusaetzlich RPG-2/R6-Refresh (WebSearch+WebFetch 2026-07-14):
+  ZH-Umsetzungsstand weiterhin unveraendert, kein PBG-/Richtplan-Fertigstellungsdatum; parallele
+  Denkmalschutz-PBG-Revision (RRB 02.07.2026) bestaetigt weiterhin beim Kantonsrat haengig →
+  [[recht-norm-quellenlandkarte]]. Details siehe `training/curriculum.md` R36-R38.
 - [x] **R32–R35 (Run 35, 2026-07-13)** Vier weitere bisher unerschlossene PL-02-Ordner ausgewertet
   (systematischer Top-Level-Ordnerabgleich, analog der K27/K28/K31-Methodik in Kartenportale):
   **`08_Richtplan`** (irrefuehrend benannt — kein kantonaler Richtplan, sondern das
@@ -279,12 +297,29 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
-- [ ] **Carried forward (Wissens-Chef Run 3, 2026-07-13):** Doppelspur-Flag in
-  [[brandschutz-pl03-wegweiser]] — die dort direkt eingearbeiteten VKF-BSR-Ziffern/Kennwerte
-  (Run 34) sollen kuenftig aus der fuehrenden KB `wissen/normen` (`vkf-*`-Destillate) gezogen
-  statt dupliziert werden (Rule `normen-referenz.md`); zusaetzlich ein Ausgaben-Delta 2015 vs.
-  Rev. 2022 bei [[energie-pv-brandschutz]] offen. Dieser Run (35) war Recht-&-Norm-fokussiert,
-  daher nicht bearbeitet — Aufgabe fuer den naechsten Brandschutz-Rotationslauf.
+- [x] **Carried forward (Wissens-Chef Run 3, 2026-07-13) — ERLEDIGT Run 37, 2026-07-14:**
+  Doppelspur-Flag in [[brandschutz-pl03-wegweiser]] behoben — §5o-§5u (Run 34) und §5v-§5y
+  (Run 36) auf Destillat-Verweis gekuerzt (`wissen/normen/destillate/vkf-brl-*`), Volltext-Ziffern
+  nur noch dort, im Wegweiser JANS-Anwendungsnotiz + 1-2 verifizierte Kernzahlen mit Fundstelle;
+  Ausnahme §5s (Nachweisverfahren BSR 27-15): die Rauchgas-Kernzahlen (raucharme Schicht 2.5 m
+  etc.) waren im Destillat bewusst NICHT uebernommen (Urheberrechts-Vorbehalt) — direkt gegen S. 10
+  des Originals nachverifiziert und bestaetigt, deshalb im Wegweiser belassen. Ausgaben-Delta 2015
+  vs. Rev. 2022 bei [[energie-pv-brandschutz]] bestaetigt: die Swissolar-STP-Quelle selbst belegt
+  (S. 3) die VKF-Merkblatt-Aktualisierung per 01.01.2022; das im Hub abgelegte VKF-PDF traegt aber
+  weiterhin nur den Ausgabestempel 2015 — die eigenstaendige 2022er-Merkblatt-PDF liegt NICHT
+  separat vor (offener Punkt: Original beschaffen fuer Re-Destillat). Details siehe
+  `training/curriculum.md` B29.
+- [x] **C30 (B29) (Run 37, 2026-07-14)** Rest-Backlog aus C29 (Baustoff&Bauteile, Gefaehrliche
+  Stoffe, DIN EN 12101-2, Brandmauern 100-15) abgearbeitet + Doppelspur-Fix: **BSR 13-15
+  Baustoffe/Bauteile** JANS-Anwendungsnotiz ergaenzt in §4 (RF-Klasse↔Leistungserklaerung-Bruecke,
+  Bestand-Uebersetzung F30/F60→EI ueber BSR-Nr. 201-238), **BSR 26-15 Gefaehrliche Stoffe**
+  niedrige Prioritaet bestaetigt (Ausnahme: Diesel/Heizoel-Notstromaggregate Spital/Pflegeheim
+  koennen ab Lagermenge unter die Richtlinie fallen) → NEU §5z, **DIN EN 12101-2** (Produktnorm
+  NRWG-Ausloesevorrichtungen, ergaenzt BSR 21-15/§5l um die Komponenten-/Leistungserklaerungs-Ebene)
+  → NEU §5aa, **100-15 Brandmauern**: beide Datei-Kopien waren 0-Byte, jetzt synchronisiert und
+  lesbar (analog Lignum-Erdbeben-Fall) — Destillat bereits vollstaendig vorhanden
+  (`vkf-brl-100-15-brandmauern.md`), Kernzahlen REI 180/90/60 + 1.0 m/0.3 m-Regel (deckt sich mit
+  [[energie-pv-brandschutz]]) → NEU §5ab. Details siehe `training/curriculum.md` B29.
 - [x] **C29 (B27) (Run 34, 2026-07-13)** Acht bisher nie ausgewertete VKF-Einzelrichtlinien im
   >20-Titel-Ordner `02 Brandschutzrichtlinien 2015-17-22/` gelesen (Volltext): **BSR 20-15
   Brandmeldeanlagen** (Beherbergung [a] IMMER Vollueberwachung, keine Schwelle; [b]/[c] erst ab

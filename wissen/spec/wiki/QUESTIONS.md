@@ -101,6 +101,15 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     im Wiki/an einen Menschen gerichtete Notiz remediert nichts, solange kein Prozess das Flag konsumiert
     (Kausal-Zwilling zu Lauf 10). → [[verifier]] «ein Flag ist keine Reparatur». Weiter an Raphael/`logbuch`
     zu eskalieren, mit Zusatz «Dokumentation nach 3 Tagen wirkungslos».
+  - Praezisierung 14.07. (Lauf 14): Git-Diff von `fristen.md` (Commit-Historie, nicht nur Inhalt) zeigt,
+    dass der Monitor am **13.07. NACH Lauf 12 (15:22) und Lauf 13 (20:05)** doch noch einen Eintrag
+    schrieb («Monitor 13.07.: … Stand unveraendert», zwischen den nas-selfcommits 15:45 und 21:00). Lauf
+    12s "haelt an, nicht selbst geheilt" war fuer den Pruefzeitpunkt korrekt, aber keine Aussage fuer den
+    Rest des Tages. Lehre: **eine "haelt an"-Diagnose hat ein Ablaufdatum** — Reue-Pruefungen muessen auch
+    fragen, ob sich seit dem letzten Check-Zeitpunkt **am selben Tag** etwas veraendert hat, nicht nur den
+    alten Befund wiederholen. Die Kernlehre "ein Flag ist keine Reparatur" bleibt bestehen (keine belegte
+    Kausalitaet KB-Flag → Wiederaufnahme); nur die Dauerhaftigkeit der Stille war ueberschaetzt. →
+    [[verifier]] Update-Absatz.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**

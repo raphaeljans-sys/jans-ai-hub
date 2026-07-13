@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — IVHB-Leitfaden Kt. ZH (harmonisierte Baubegriffe)
 status: established
-last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/IVHB_Leitfaden/IVHB_Leitfaden_01.03.2017.pdf (Kt. ZH Baudirektion Generalsekretariat/Stab Recht, "Harmonisierung der Baubegriffe — Leitfaden", 1. Maerz 2017, 49 Seiten, §§ ABV)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[machbarkeit]], [[massgebendes-terrain]]
+last_updated: 2026-07-14
+sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/IVHB_Leitfaden/IVHB_Leitfaden_01.03.2017.pdf (Kt. ZH Baudirektion Generalsekretariat/Stab Recht, "Harmonisierung der Baubegriffe — Leitfaden", 1. Maerz 2017, 49 Seiten, §§ ABV), PL-02/04_Merkblätter/AFS_Leitfaden Dachlandschaften.pdf (Stadt Zuerich, Amt fuer Staedtebau, "Leitfaden Dachlandschaften — Projektierungshilfe fuer die Bauten im Dachbereich", Praesentation 9. Maerz 2010, ⚠ Datenstand 2010, Run 37 2026-07-14)]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[machbarkeit]], [[massgebendes-terrain]], [[energie-pv-eignung-typenwahl]]
 ---
 
 # Recht & Norm — IVHB-Leitfaden Kt. ZH (harmonisierte Baubegriffe)
@@ -295,6 +295,48 @@ hinausragen bzw. bei Flachdaechern das Rueckversetzungsmass unterschreiten
 sind bis **20 %** der anrechenbaren Geschossflaeche **nicht** an die AZ
 anzurechnen (bisher 10 %) und erhalten zusaetzlich den **20-%-Bonus** bei
 BMZ/UeZ (s.o.) — die drei Boni sind **kumulativ** je Ziffer zu pruefen.
+
+### Staedtebauliche Gestaltungsvorgabe Dachlandschaft (informell, Run 37, 2026-07-14)
+
+Bisher unerschlossener Fund im Ordner `04_Merkblätter`: der **«Leitfaden Dachlandschaften —
+Projektierungshilfe für die Bauten im Dachbereich»** (Stadt Zürich, Amt für Städtebau, Praesentation
+9. März 2010). **Kein Gesetzestext** (im extrahierten Volltext keine §-Verweise auffindbar,
+vermutlich nur als Grafik auf der Folie «Gesetzliche Grundlagen» hinterlegt) — eine **informelle
+staedtebauliche Praxishilfe** des Amts für Städtebau, ergänzend zu den oben belegten IVHB-/PBG-
+Definitionen für Dachaufbauten/Attikageschosse. ⚠ Datenstand 2010 (> 18 Monate) — vor Anwendung
+gegen die aktuelle Vollzugspraxis des Amts für Städtebau prüfen.
+
+**Kern-Grundsätze Dachaufbau/Dacheinschnitt:** Bezug zum gebauten Kontext (Proportion, Gliederung,
+Materialisierung, Farbigkeit je nach Dachform/-geometrie/Lage); Unterordnung unter den Hauptbau;
+Dachfläche muss zusammenhängend lesbar bleiben; klare Anordnung (Symmetrie/Serie/Achsenbezug),
+keine Kumulation mit anderen Elementen; klare Trennung Fassade/Dach; **Traufe in der Regel nicht
+unterbrechen**.
+
+**Aufstockung:** Grundsatz 1 — die Hierarchie des Gebäudes muss erhalten bleiben, die Aufstockung
+soll dem Hauptvolumen **untergeordnet** sein (deckt sich mit dem bereits belegten IVHB-Grundsatz
+zu Attikageschossen oben: kleineres, zurückversetztes Geschoss).
+
+**Solaranlagen — 5 Kategorien nach Denkmalschutz-Anspruch** (direkt anschlussfaehig an den Agenten
+`energie-berater`/PV-Eignungspruefung):
+
+| Kat. | Situation | Einordnung |
+|---|---|---|
+| A | Kollektor/PV auf Flachdach | einfache Ausgangslage, gut moeglich |
+| B | Kollektor auf Steildach | anspruchsvoller, sorgfaeltig integriert gut moeglich |
+| C | PV auf Steildach | anspruchsvoller, sorgfaeltig integriert moeglich |
+| D | Kollektor/PV auf Flachdach Inventarobjekt | erhoehte Gestaltungsanforderung, in der Regel moeglich — bewilligbar, wenn additiv/untergeordnet/ablesbar |
+| E | Kollektor/PV auf Steildach Inventarobjekt | sehr hohe Anforderung, **objektspezifischer Entscheid**; bei Ortsbildern von uebergeordneter Bedeutung/Kernzonen/Schutzobjekten oft **nicht vertraeglich** |
+
+Gestaltungsregeln (Kat. A/B): Paneele rechteckig anordnen, in Feldern/Gruppen zusammenfassen,
+parallel zur Hausgeometrie ausrichten, vom Dachrand zuruecksetzen, Konstruktionshoehe beschraenken;
+bei Kollektoren auf Steildach muss das Dach in seiner Erscheinung weiterhin **lesbar** bleiben
+(sichtbare Dachflaeche > Solaranlage), Farbigkeit dem Dachmaterial anpassen, Leitungsfuehrung im
+Dach integrieren.
+
+**Einordnung:** ergaenzt die oben belegten **rechtlich verbindlichen** IVHB-/PBG-Masse (§ 292 PBG
+Dachaufbauten-Breite, § 275 PBG Attikageschoss) um die **gestalterische** Beurteilungsebene der
+Stadt Zuerich — relevant fuer Wettbewerbs-/Bewilligungsgespraeche mit dem Amt fuer Staedtebau,
+aber selbst keine eigenstaendige Rechtsnorm.
 
 ## Verhaeltnis zur bereits dokumentierten ZH↔SZ-Messweisen-Tabelle
 

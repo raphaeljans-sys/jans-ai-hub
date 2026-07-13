@@ -1,8 +1,11 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources:
+  - PL-02/04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf ("Leitfaden zur Umsetzung der
+    Gefahrenkarten Hochwasser", Baudirektion Kt. ZH/AWEL Abt. Wasserbau + Gebäudeversicherung
+    Kt. ZH, Autor Ernst Basler + Partner AG, © 2003 — ⚠ Datenstand 2003, Run 37 2026-07-14)
   - Kt. SZ, Amt fuer Wald und Naturgefahren — "Naturgefahrenkarten: Das Wesentliche in Kuerze"
     (I:\AWN\Schwyz\Natgef\Gefahrenkarten\Umsetzung\Info_zumThema.doc, 5 S.) — Rechtsgrundlagen,
     Gefahrenstufen, Perimeter A/B/C, Umsetzung Nutzungsplanung
@@ -86,7 +89,7 @@ bautechnische Auflage.
 | Kanton | Portal | Layer/Endpunkt | Login |
 |---|---|---|---|
 | **SZ** | `map.geo.sz.ch` | Gruppe `grp_Naturrisiken_Naturgefahrenkarte_V2`, Layer `ch.sz.a012b.naturgefahrenkarte.{gefahrenflaechen,hinweisflaechen,perimeter_nicht_beurteilt,perimeter_in_ueberarbeitung}.ueberlagert` — direkter Kartenlink mit Zentrumskoordinate (E/N) + Zoom moeglich (siehe Beispiel unten) | login-frei (WebGIS-Ansicht) |
-| **ZH** | vermutlich `maps.zh.ch` GIS-Browser (AWEL-Zustaendigkeit) analog zum Gewaesserraum-Layer | **noch nicht kartiert/getestet** — offene Aufgabe | offen |
+| **ZH** | vermutlich `maps.zh.ch` GIS-Browser (AWEL-Zustaendigkeit) analog zum Gewaesserraum-Layer | **noch nicht kartiert/getestet** — offene Aufgabe (der **rechtliche/verfahrensmaessige** Unterbau fuer Hochwasser ist seit Run 37 belegt, s. Abschnitt 9) | offen |
 | **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentuemer/Architekten-Ansicht) + generische Gebaeudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Oeffnungen/Zugaenge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
 
 **Beispiel echter SZ-Direktlink** (Reckholdernstrasse 20, Willerzell, Zentrumskoordinate
@@ -324,6 +327,86 @@ Grund, weshalb gerade das gelbe "geringe Risiko" in der Praxis unterschaetzt wir
 eine konkrete Frueherkennungs-Frage bei Hanglagen: "Ist die Rutschgefahrenstufe (auch gelb!)
 gesetzt, UND veraendert das Bauvorhaben Topografie oder Wasserhaushalt des Hangs?" — bei Ja ist ein
 Geologiebuero fruehzeitig (Vorprojekt, nicht erst Baubewilligung) beizuziehen.
+
+## 7b. ZH-Rechtsgrundlage Hochwassergefahrenkarte (GVZ/AWEL-Leitfaden, Run 37, 2026-07-14)
+
+Bisher unerschlossener Fund im Ordner `04_Merkblätter`: der **«Leitfaden zur Umsetzung der
+Gefahrenkarten Hochwasser»** (Baudirektion Kt. ZH/AWEL Abt. Wasserbau + Gebäudeversicherung
+Kt. ZH, Autor Ernst Basler + Partner AG, **© 2003**) — schliesst den in Abschnitt 3 offen
+geführten ZH-Rechts-/Verfahrens-Teil für die Naturgefahr **Hochwasser**, auch wenn der
+GIS-Layer-Endpunkt weiterhin nicht kartiert ist.
+
+> ⚠ **Datenstand 2003 — über 20 Jahre alt.** Die genannten Fristen/Prioritätenlisten sind
+> überholt; die **gesetzliche Grundmechanik** (WBG/WaG/RPG Bund, WWG § 22 ZH) ist nach
+> aktueller Kenntnis unverändert in Kraft, wurde aber in diesem Lauf **nicht** gegen die
+> aktuelle Fassung von `zh.ch`/`lexfind` verifiziert — vor einer verbindlichen Aussage im
+> Projekt gegenprüfen.
+
+**Rechtsgrundlage:**
+- **Bund:** WBG (Wasserbaugesetz, 1991) + WaG (Waldgesetz, 1991) verpflichten die Kantone,
+  Gefahrenkarten zu erstellen und bei raumwirksamen Tätigkeiten zu berücksichtigen — konkretisiert
+  den Auftrag zur Ausscheidung gefährdeter Gebiete nach **Art. 6 RPG**.
+- **Kanton ZH:** **§ 22 WWG** (Wasserwirtschaftsgesetz, 2.6.1991) verpflichtet die **Gemeinden**,
+  die Gefahrenbereiche bei planungsrechtlichen Festlegungen **und** bei baurechtlichen Verfahren
+  zu berücksichtigen. Die **Baudirektion erlässt** — nach Anhören der Gemeinden — die Pläne über
+  die Gefahrenbereiche.
+- Zuständig für die Kartierung: **AWEL, Abteilung Wasserbau** (in einer ersten Phase die am
+  meisten gefährdeten Gemeinden, danach Prüfung weiterer Gemeinden — Prioritätenliste von 2003
+  „hat keinen abschliessenden Charakter", kann sich durch Ereignisse verschieben).
+
+**Gefahrenarten + Gefahrenstufen (deckungsgleiches Schema zur bereits dokumentierten SZ-Tabelle
+in Abschnitt 2, ZH-Terminologie mit Farbcode statt Rot/Blau/Gelb-Wortlaut):**
+
+| Gefahrenart | Beschreibung |
+|---|---|
+| Überschwemmung | im Kt. ZH aufgrund der Topografie **die dominante** Gefahrenart |
+| Ufererosion | v.a. in steilen Bachtobeln oberhalb Siedlungsgebiet, kann Rutschungen auslösen |
+| Übermurung | Ablagerung von Geröll/Schlamm |
+
+Intensitätsstufen nach Überschwemmungstiefe (h) / Fliessgeschwindigkeit×Tiefe (v×h):
+**stark** h > 2 m oder v×h > 2 m²/s · **mittel** 0.5–2 m oder 0.5–2 m²/s · **schwach** h < 0.5 m
+oder v×h < 0.5 m²/s. Eintretenswahrscheinlichkeit: **hoch** = HQ30 oder häufiger, **mittel** =
+HQ30–HQ100, **gering** = HQ100–HQ300, **sehr gering** = Restgefährdung/Extremereignis. Aus der
+**Gefahrenmatrix** (Intensität × Wahrscheinlichkeit) resultieren die Gefahrenstufen:
+
+| Zone | Bedeutung |
+|---|---|
+| **rote Zone** (erhebliche Gefährdung, Verbotsbereich) | Personengefährdung innerhalb UND ausserhalb Gebäude; Gebäudezerstörung möglich |
+| **blaue Zone** (mittlere Gefährdung, Gebotsbereich) | Personengefährdung v.a. ausserhalb; Gebäudeschäden möglich |
+| **gelbe Zone** (geringe Gefährdung, Hinweisbereich) | kaum Personengefährdung; geringe Schäden |
+| **gelb-weiss gestreift** (Restgefährdung, Hinweisbereich) | sehr geringe Eintretenswahrscheinlichkeit |
+| **weiss** | keine/vernachlässigbare Gefährdung |
+
+Deckt sich konzeptionell 1:1 mit der bereits in Abschnitt 2 dokumentierten SZ-Stufung
+rot/blau/gelb/gelb-weiss/weiss — **dasselbe Bundes-Empfehlungsschema** (BWW/BRP/BUWAL 1997) liegt
+beiden Kantonen zugrunde.
+
+**Rechtliche Wirkung / Eigentumsbeschränkung (für Machbarkeitsstudien direkt relevant):**
+- Eine Massnahme zum Hochwasserschutz kann durchgesetzt werden, wenn sie auf **genügender
+  gesetzlicher Grundlage** beruht, durch **ausreichendes öffentliches Interesse** gedeckt ist und
+  den **Grundsatz der Verhältnismässigkeit** wahrt — diese drei Grundsätze gelten als erfüllt bei
+  Grundstücken/Objekten in **roter und blauer Zone**.
+  - Kein Entschädigungsanspruch: Der Eintrag in die Gefahrenkarte gilt als
+  **entschädigungslose, öffentlich-rechtliche Eigentumsbeschränkung** — kein Anspruch auf
+  Schadenersatz wegen Wertverminderung (die materielle-Enteignungs-Schwelle wird in der Regel
+  nicht erreicht, weil das Eigentum beim Grundeigentümer verbleibt und die Massnahme polizeilich
+  motiviert ist).
+- Die Gemeinde trägt eine **Informationspflicht**: Gefahrenkarten sind auf Anfrage offenzulegen
+  (kein Interessennachweis nötig); unterlässt die Gemeinde die aktive Information, drohen ihr
+  Schadenersatzforderungen bei späteren Hochwasserschäden.
+
+**JANS-Praxisrelevanz:** analog zur bereits dokumentierten SZ-Blauzonen-Warnung («keine
+besonders sensiblen Objekte») gilt für ZH: Ein Vorhaben in der **blauen Zone** ist zwar bewilligt
+grundsätzlich möglich (Gebotsbereich, Bauen mit Auflagen), aber bei **Alters-/Pflegeheimen** ist
+die Auflagenlast sorgfältig zu prüfen — dieselbe Healthcare-Fallgrube wie bei den Rutschungs-Stufen
+in Abschnitt 2.
+
+**Aktueller Bezugsweg für die konkrete Parzelle:** weiterhin **offen** — der Leitfaden von 2003
+beschreibt nur das Verfahren, nicht den heutigen GIS-Zugriffspunkt. Naheliegendster moderner
+Nachfolger ist der **GIS-Browser Naturgefahren ZH** (`maps.zh.ch`, AWEL-Thema, vermutlich
+`ogd-Datensatz Hochwasserrisikokarte` oder analog zum bereits erschlossenen
+Gewässerraum-Layer 0185) — im nächsten Lauf gezielt gegen `GetCapabilities` und die AWEL-Fachstelle
+prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in Abschnitt 8).
 
 ## 8. Offene Punkte
 

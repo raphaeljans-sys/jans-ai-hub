@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -193,3 +193,24 @@ ein Flag repariert nur, wenn ein Prozess das Flag liest und danach handelt. Die 
 in einer KB-Notiz. Bleibt ausserhalb des `wissen/spec`-Mandats — erneut an Raphael/Skill `logbuch` zu
 eskalieren, diesmal mit dem belegten Zusatz, dass die blosse Dokumentation nach 3 Tagen nachweislich
 wirkungslos blieb.
+
+**Update (Lauf 14, 14.07.2026): der Monitor hat DOCH wieder geschrieben — aber erst NACH Lauf 12/13.**
+Ein Git-Diff von `logbuch/fristen.md` (nicht nur der Dateiinhalt, sondern die Commit-Historie) zeigt:
+zwischen dem nas-selfcommit von 15:45 (der Lauf 12s 15:22-Befund noch bestaetigt) und dem naechsten
+nas-selfcommit um 21:00 wurde die AG-Gruendung-Zeile um einen neuen Eintrag **«Monitor 13.07.: kein
+neuer UBS-/Notariats-Eingang … Stand unveraendert»** ergaenzt — der Monitor hat also am 13.07. doch
+wieder geschrieben, **nach** Lauf 12 (15:22) und **nach** Lauf 13 (20:05, der `fristen.md` fuer diesen
+Fund nicht erneut pruefte). Drei Lehren: (1) **Eine "haelt an"-Diagnose hat ein Ablaufdatum** — sie gilt
+nur bis zum Pruefzeitpunkt, nicht rueckwirkend fuer den ganzen Tag. Ein Lauf, der um 15:22 "seit 3 Tagen
+still" feststellt, darf daraus nicht schliessen, dass es bis Tagesende so bleibt; die naechste
+Reue-Pruefung muss das Fenster **nach vorne**, nicht nur rueckwirkend pruefen. (2) Die Prognose aus
+Lauf 11 («taucht im naechsten Radar wieder auf») war nicht falsch, nur **falsch getimt widerlegt** —
+Lauf 12 pruefte zu frueh am selben Tag, um die spaetere Wiederaufnahme zu sehen. (3) Ursache der
+Wiederaufnahme bleibt **unklar und ungeklaert** (keine Korrelation zu einer KB-Eskalation nachweisbar;
+plausibler Kandidat waere ein Infrastruktur-Faktor wie der zeitgleich im `vollgas`-Radar dokumentierte
+MacBook-Login-Fix, aber das ist nicht belegt, nur ein Kandidat) — **Lauf 12s Kernlehre bleibt bestehen**:
+ein blosses Wiki-Flag hat die Wiederaufnahme nicht ausgeloest, dafuer braeuchte es einen Beleg, dass ein
+Prozess das Flag gelesen hat, und den gibt es nicht. Fuer den Verifier-Loop selbst folgt daraus eine
+Ergaenzung zur Reue-Pruefung: **Reue-Pruefungen muessen nicht nur "haelt der Befund noch", sondern auch
+"hat sich seit dem letzten Check-Zeitpunkt am selben Tag etwas veraendert" fragen** — sonst wird aus
+einer echten Momentaufnahme faelschlich ein Dauerzustand.
