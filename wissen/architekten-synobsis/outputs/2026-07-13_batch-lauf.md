@@ -68,3 +68,19 @@ durch diesen Lauf. Kein neuer Stoff, keine neuen Befunde. Das Vollstaendigkeits-
 erst bei neuem Rohmaterial in `/Volumes/daten/05_Architekten_Synobsis` oder bei einer
 Erweiterung der Aufbereitung (Stufe-3-Kuratierungs-Nacharbeit an den offenen Punkten in
 `wiki/QUESTIONS.md`).
+
+## Fuenfter Lauf, 14:15-14:16 Uhr
+Erneuter Aufruf `synobsis_batch.sh 25` (VOLLGAS-Taktung, Task `synobsis-batch-nacht`).
+Ergebnis identisch zu den vier vorherigen Laeufen: Stufe 1 nichts zu tun (853/853, offen
+0), Stufe 2 `vectors.npz` deterministisch neu geschrieben (853 x 768, kein Git-Diff auf
+der Binaerdatei). Einzige Aenderung: Zeitstempel in `catalog/INDEX.md` und
+`catalog/cad-index.json` (weiterhin 15 Architekten mit CAD-Dateien). Kein neuer Stoff.
+Das Vollstaendigkeits-Inventar (853/853) bleibt seit 2026-07-02 unveraendert erreicht.
+Naechster inhaltlicher Fortschritt setzt entweder neues Rohmaterial in
+`/Volumes/daten/05_Architekten_Synobsis` voraus, oder eine von Raphael freigegebene
+Stufe-3-Nacharbeit an den in `wiki/QUESTIONS.md` gesammelten offenen Punkten (Doppel-
+ordner-Zusammenfuehrungen, Slug-Korrekturen — alle "nach Freigabe", da die Quelle
+read-only ist und nie ohne Freigabe veraendert wird). Reine Wiederholungslaeufe des
+Vektorindex-Rebuilds ohne neuen Quellstoff bringen ab hier keinen weiteren Erkenntnis-
+gewinn mehr; sinnvoller naechster Schritt waere entweder neues Rohmaterial oder die
+Freigabe-Rueckfrage an Raphael fuer die Stufe-3-Bereinigung.
