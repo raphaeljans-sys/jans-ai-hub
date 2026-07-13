@@ -13,6 +13,42 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 00:50 — Neues 5h-Fenster laeuft lueckenlos an, beide Stationen voll, keine P1 [FREI]
+
+**Fensterzustand [FREI]:** Login OK (`claude -p` mit gesourctem OAuth-Token → «OK»; das nackte «Not
+logged in» ohne Token bleibt ein Test-Artefakt, kein Blocker). Der Runner ist sauber ins neue 5h-Fenster
+(ab ~23:50) gerollt: `baurecht-buch-training` startete 00:12:59 und lief die vollen ~18 Min durch
+(rc=0, 1107s, Run 43). Kein Reset-Loch zwischen den Fenstern — genau die Taktgeber-Vorgabe.
+
+**Durchsatz stark, beide Stationen tragen:** **19 Commits in 120 Min**, rc=0 auf beiden. MacBook
+(Zyklus 63): baurecht Run 43 → immobewertung Run (rc=0, 570s) → aktuell normen-nacht. Mac Mini
+(Zyklus 216): energie Run 56+57, normen-mini Run 16 (DIN 1054/1946-4 Q&A), planungsgrundlagen Run 35,
+synobsis 853/853. Inhaltlicher Fortschritt echt, nicht nur Wiederholung: DIN 1076/1072/VSS retro-verifiziert
+(je 1 Fehler korrigiert), energie um LSV-Waermepumpen-Laermschutz + Solarpflicht AG/BS/GR gewachsen.
+
+**Prozess-Sanity (kein Problem):** Zwei `vollgas-runner.sh` auf dem MacBook, aber KEIN Duplikat —
+PID 4210 (Parent, seit 13.07 10:49) ist der Haupt-Runner, PID 28369 dessen per-Loop-Subshell-Kind
+(PPID 4210). Log strikt sequenziell, keine STOP-Datei.
+
+**Hebel-Priorisierung:** Fenster wird gefuellt, aber noch nicht sichtbar 100 % (Login gibt aktuell «OK»
+= Kapazitaet frei). Kein Leerlaufloch offen, kein Stall — daher kein Selbst-Eingriff noetig (Loops nicht
+mitten im Zyklus editieren, Byte-Offset-Risiko). Der Batch-Volumen-Hebel wird erst nach der Messung
+`token-messung-140716` (heute 16:00) beurteilt: zeigt sie, dass die 5h-Fenster NICHT regelmaessig
+ausgereizt werden, dann Batch-Volumen der Normen-/Baurecht-Loops erhoehen; hitten sie das Limit, ist
+alles optimal und nur Kontinuitaet ueber die Fenster sichern.
+
+- **P3 (unveraendert) — energie M2 «eigener Skill energie?»:** jetzt 13 Laeufe reif, braucht Raphaels
+  Entscheid in einer interaktiven Session; der Loop kann es nicht selbst loesen. Kein Mail-Anlass.
+- **P3 (unveraendert) — normen-training-nacht Leerlauf-Slot (MacBook):** laeuft gerade (START 00:41), beim
+  naechsten ruhigen Lauf Prompt-Zuweisung pruefen; teils redundant zu normen-training/-mini.
+- **P3 (unveraendert) — immobewertung-Lauf notierte langsamen SMB-Git-Zugriff** (Lauf trotzdem rc=0/570s
+  abgeschlossen); nur beobachten, kein Blocker.
+- **P3 (unveraendert) — M365-MCP-Connector-Ausfall / normen-Budget 50 / NAS-Remount-Hostname:** wie 20:52.
+
+Kein Mail-Anlass: keine neue P1, die P1-Login war bereits am 13.07 (19:53/20:52) geloest und dokumentiert.
+
+---
+
 ## 2026-07-13 20:52 — Stall-Killer-Fix bestaetigt wirksam, MacBook-Fenster fuellt sauber, keine offene P1 [FREI]
 
 **Fensterzustand [FREI]:** Login OK (claude -p mit gesourctem OAuth-Token → «OK»; das nackte «Not
