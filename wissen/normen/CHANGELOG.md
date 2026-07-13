@@ -1,3 +1,15 @@
+## 2026-07-13 — Mini-Run 15: Retro-Verifikation ral-gz638-2008 (Gitterroste)
+- Destillat `destillate/ral-gz638-2008.md` adversarial gegen das Original-PDF (24 S.)
+  gegengeprüft: 46 Aussagen verglichen, 6 Ergänzungen/Korrekturen eingearbeitet
+  (Ziff. 1.2 Begriffsdefinition Gitterrost ergänzt, Ziff. 2.3–2.5 Randeinfassung/
+  Toleranzen-Verweis/Korrosionsschutz DIN EN ISO 1461 neu aufgenommen, Ziff. 3.1
+  Belastungsarten auf alle vier Lastarten vervollständigt, Ziff. 4 Abminderungsfaktor
+  v (0,9 Pressroste/0,85 Steckroste, verzinkt) + n-Formel ergänzt, Seitenrange
+  Berechnungsbeispiel 3 von S. 10 auf S. 10–11 korrigiert, Begriff «Lastanordnung 1/2»
+  präzisiert (Drehung der Lastaufstandsfläche 90°, nicht «Position»)). Status auf
+  `established (verifiziert)` gesetzt. Keine sachlichen Fehler in Kernziffern/Zahlenwerten
+  gefunden — alle Lücken waren fehlende, nicht falsche Inhalte.
+
 ## 2026-07-13 — Mac Mini Mini-Run 14: Retro-Verifikation DIN-Batch (6 Destillate, 6 Parallel-Agenten)
 - DIN/VSS/RAL-Basisinventar ist seit Mini-Run 5/12 vollständig; Deepening-Stufe (b) Retro-
   Verifikation fortgesetzt (Empfehlung Run 13) für sechs bislang unverifizierte, JANS-relevante
