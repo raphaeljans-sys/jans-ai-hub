@@ -8,7 +8,7 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 - [x] **E-D6** MuKEn-Umsetzung Kt. ZH: EnerG seit 1.9.2022 (MuKEn 2014). **Vollzug seit 1.1.2026
   elektronisch ueber EVEN (energievollzug.ch), PDF-Formulare abgeloest** ✓ 2026-06-07
   → `[[energienachweis-zh]]`. **Inhalt der MuKEn 2025 selbst belegt ✓ 2026-07-12** → siehe **E26**
-  unten. Weiterhin offen: konkrete ZH-Umsetzung/Gesetzesaenderung.
+  unten. **Konkrete ZH-Gesetzesrevision belegt ✓ 2026-07-13** → siehe **E31** unten.
 - [x] **E-D7** Foerderprogramme Kt. ZH (CHF-Saetze) belegt ✓ 2026-06-08 (Stand 01.01.2026)
   → `[[foerderprogramm-energie-zh-2026]]`, `[[foerderung-energie-zh]]`, FAQ F7. **2026 unveraendert
   ggue. 2025 bestaetigt ✓ 2026-06-23** (Baudirektion-Mitteilung 24.10.2025; befristet bis Ende 2026/
@@ -323,6 +323,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   endgültig. Zugleich PDF-Inventar `training/pdf-inventar.md` geschlossen: die letzten 6 offenen
   Quellen (5 FEZ-Kursflyer + 1 Rechnung) geprüft und als reine Logistik-/Verwaltungsdokumente
   ohne Fachinhalt verworfen ([-]).
+- [x] **E31** **ZH-Energiegesetz-Revision 2026 — konkrete Solarpflicht** belegt ✓ 2026-07-13 →
+  `[[zh-energiegesetz-revision-solarpflicht-2026]]`, FAQ **F61** (Regierungsrat-Botschaft
+  06.01.2026 an den Kantonsrat: Solarpflicht Dächer >300 m² vollflächig, Neubau ab Erstellung/
+  Bestand bei Dachsanierung, 4 Befreiungsgründe (Unwirtschaftlichkeit/finanzielle Unzumutbarkeit/
+  Netzkapazität/Denkmalschutz); zusätzlich Langzeitspeicher-Auftrag Netzbetreiber via Abgabe
+  max. 0,5 Rp./kWh; HEV ZH unterstützt Neubau-Teil, lehnt Bestand-Teil ab). Löst den in E-D6/E26
+  offen vermerkten «ZH-Umsetzungsstand»-Punkt teilweise: es ist eine **eigenständige, engere
+  ZH-Vorlage**, nicht die volle MuKEn-2025-Übernahme. **Offen:** Kantonsrats-Geschäftsnummer/
+  Beratungsstand, Inkrafttretensdatum, ob eine separate volle-MuKEn-2025-Vorlage noch folgt.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).

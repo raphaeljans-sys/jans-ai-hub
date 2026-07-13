@@ -86,7 +86,12 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   EVEN (2026-06-07, Web) → `[[energienachweis-zh]]`. **Inhaltliche Aenderungen MuKEn 2025 belegt
   2026-07-12** (verabschiedet 29.08.2025: Fossilverbot Neubau, PV-Pflicht 20 W/m² EBF, neues
   Graue-Energie-Modul Teil G, Umsetzungshorizont 2025-2030) → `[[muken-2025-verabschiedet]]` (FAQ F47).
-  Offen: konkreter ZH-Umsetzungsstand/Gesetzesaenderung (bei naechster Gelegenheit via `baurecht` pruefen).
+  **Konkrete ZH-Gesetzesrevision belegt 2026-07-13** (Regierungsrat-Botschaft 06.01.2026 an den
+  Kantonsrat: Solarpflicht Daecher >300 m² vollflaechig + Langzeitspeicher-Auftrag Netzbetreiber;
+  eigenstaendige, engere Vorlage — NICHT die volle MuKEn-2025-Uebernahme) →
+  `[[zh-energiegesetz-revision-solarpflicht-2026]]` (FAQ F61). Offen: Kantonsrats-Beratungsstand/
+  Inkrafttreten, ob/wann die volle MuKEn-2025-Uebernahme (Fossilverbot/20-W/m²-PV-Pflicht/Teil G)
+  als eigene ZH-Vorlage folgt.
 - [x] B5 Waermeerzeugerleistung dimensionieren — belegt 2026-06-08 via BFE Nr. 2781
   → `[[bfe-waermeerzeugerleistung-2015]]`, `[[heizleistung-und-waermeerzeuger]]` (FAQ F13).
   **Heizsystem-Wahl WP↔Fernwaerme↔Pellets (JAZ-Richtwerte) belegt 2026-06-18** → `[[waermepumpe-systemvergleich]]`

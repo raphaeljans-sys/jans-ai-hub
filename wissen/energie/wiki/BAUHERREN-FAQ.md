@@ -1953,6 +1953,29 @@ Vollzugshilfe, nicht über diese Zusammenfassung, wenn eine bindende Zahl gebrau
 
 ---
 
+## F61 — «Mein Gebäude hat ein grosses Dach — kommt bald eine Solarpflicht im Kanton Zürich?»
+
+**Kurz:** Der Regierungsrat hat dem Kantonsrat am 6. Januar 2026 eine Änderung des Energiegesetzes
+vorgelegt: **Dächer über 300 m²** sollen künftig **vollflächig** mit einer Solaranlage belegt
+werden müssen — bei Neubauten ab Erstellung, bei Bestandsbauten erst im Zeitpunkt einer
+Dachsanierung. Das ist **noch kein Gesetz**, sondern eine Botschaft an den Kantonsrat; Beratung
+und Inkrafttreten sind offen.
+
+**Fachlich:** Vier Befreiungsgründe sind vorgesehen: fehlende Wirtschaftlichkeit über die gesamte
+Lebensdauer, finanzielle Unzumutbarkeit, fehlende Abnahmekapazität des Netzbetreibers, sowie
+Interessenabwägung bei Landschafts-/Ortsbild-/Denkmalschutz. Parallel soll ein Auftrag an die
+Netzbetreiber (federführend EKZ) zur Förderung von Energie-Langzeitspeichern eingeführt werden,
+finanziert über eine Abgabe von max. 0,5 Rp./kWh (~2 % Strompreiserhöhung geschätzt). Der HEV
+Kanton Zürich unterstützt die Pflicht bei Neubauten, lehnt sie für Bestandsbauten ab. Die Regelung
+ist enger gefasst als die MuKEn-2025-PV-Pflicht (20 W/m² EBF, siehe F47) — sie zielt spezifisch auf
+grossflächige Dächer (typisch MFH, Gewerbe, Institutionsbauten) statt auf alle Neubauten.
+
+**Quelle:** Medienmitteilung Kanton Zürich (06.01.2026) + Presseecho (20 Minuten, NZZ, pv magazine)
+→ `[[zh-energiegesetz-revision-solarpflicht-2026]]`, emerging. **Offen:** Kantonsrats-Geschäftsnummer/
+Beratungsstand, exakter Gesetzeswortlaut, Inkrafttretensdatum.
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**

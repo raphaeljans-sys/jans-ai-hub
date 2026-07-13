@@ -77,9 +77,12 @@ aber die konkreten kg-Zahlen sind mit Vorbehalt (⚠ nicht am Original verifizie
   Primärquelle gelesen — EnDK-Volltext MuKEn 2025 (https://endk.ch) für eine verbindliche Zahl
   direkt beziehen. Bereits belegte Minergie-Werte als Näherung: → [[graue-energie]]
   (11–17 kg CO₂-eq/m²·a je Gebäudekategorie).
-- **Stand Kanton ZH/SZ:** noch keine Meldung einer Vernehmlassung/Gesetzesänderung zur Umsetzung
-  von MuKEn 2025 gefunden — bei nächster Gelegenheit (z.B. via `baurecht`/Vollzugsordner ZH)
-  prüfen, ob eine EnerG-Revision angekündigt ist.
+- **Stand Kanton ZH (präzisiert 2026-07-13):** eine EnerG-Revision ist im Gang, aber es ist
+  **nicht die MuKEn-2025-Gesamtumsetzung** — der Regierungsrat hat dem Kantonsrat am 06.01.2026
+  eine **separate, engere Vorlage** vorgelegt (Solarpflicht Dächer >300 m² + Langzeitspeicher-
+  Auftrag Netzbetreiber), siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`. Ob/wann die
+  volle MuKEn-2025-Übernahme (Fossilverbot, 20-W/m²-PV-Pflicht, Graue-Energie-Modul Teil G) als
+  eigene ZH-Vorlage folgt, ist weiterhin offen. Stand Kt. SZ unveraendert offen.
 - Genaue Ausgestaltung der **25-%-Unzumutbarkeitsschwelle** (Berechnungsbasis) nicht im Detail
   recherchiert.
 

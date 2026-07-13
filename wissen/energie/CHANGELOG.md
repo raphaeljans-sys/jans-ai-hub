@@ -2,6 +2,28 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 45: ZH-Energiegesetz-Revision 2026 (Solarpflicht Dächer >300 m²) neu belegt (FAQ F61)
+- **PDF-Inventar weiterhin erschöpft** (`find -newer` bestätigt: kein neuer Zeitstempel in
+  `PL - 04 Energie` seit Run 41). Block 1 (Transfer) daher wie in Run 42-44 nicht durchführbar.
+- **Web-Recherche zum offenen Curriculum-Punkt B4** («konkreter ZH-Umsetzungsstand MuKEn 2025»):
+  Regierungsrat-Botschaft vom 06.01.2026 an den Kantonsrat gefunden — Solarpflicht für Dächer
+  >300 m² (vollflächig, Neubau ab Erstellung/Bestand bei Dachsanierung, 4 Befreiungsgründe) +
+  Langzeitspeicher-Förderauftrag an Netzbetreiber (Abgabe max. 0,5 Rp./kWh). Wichtige Präzisierung:
+  das ist eine **eigenständige, engere ZH-Vorlage**, nicht die volle MuKEn-2025-Übernahme
+  (Fossilverbot/20-W/m²-Pflicht/Graue-Energie-Modul Teil G bleiben für ZH weiterhin unbeschlossen).
+- **1 Destillat neu (Status `emerging`):** `zh-energiegesetz-revision-solarpflicht-2026` — Quelle
+  Medienmitteilung zh.ch + Presseecho (20 Minuten/NZZ/pv magazine); Verfahrensstand ausdrücklich
+  als Botschaft (noch kein Gesetz) markiert, Kantonsrats-Geschäftsnummer/Inkrafttreten als offen
+  vermerkt (Kantonsrat-Website lieferte beim Abruf nur Navigationsstruktur, kein Geschäftsdetail).
+- **Register nachgeführt:** `wiki/BAUHERREN-FAQ.md` (neue **F61**), `destillate/muken-2025-verabschiedet.md`
+  (Offene-Punkte-Sektion präzisiert), `training/curriculum.md` (B4), `wiki/QUESTIONS.md` (E-D6 + neue
+  **E31**), `destillate/INDEX.md`.
+- **Ehrlich zum Loop-Zustand:** wie in Run 44 vermerkt bleibt die Grenznutzen-Kurve pro Lauf flach —
+  dieser Fund war die erste genuin neue, hochrelevante Information seit mehreren Läufen, aber
+  vergleichbare Web-Recherchen werden seltener fündig. Die Empfehlung aus Run 44 (Meta-Entscheidung
+  M2 «eigener Skill `energie`?» treffen und/oder Loop-Takt zurücknehmen, bis neues Rohmaterial
+  anfällt) bleibt unverändert an Raphael offen.
+
 ## 2026-07-13 — Run 44: Uf-Werte je Rahmenmaterial (grobe, nicht amtliche Orientierung) ergänzt (F35 geschärft)
 - **PDF-Inventar weiterhin erschöpft**, kein neues Rohmaterial in `PL - 04 Energie` (geprüft: neuestes
   Dateidatum 2026-06-11, kein neuer Zeitstempel seit Run 41/42/43).
