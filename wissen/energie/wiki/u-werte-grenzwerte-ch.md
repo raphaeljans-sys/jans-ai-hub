@@ -88,10 +88,13 @@ Stahlbetonsturz statt Backstein kostet bis +0,08
 → `[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]`.
 
 **Stuetzen/Fassadenanker (Gruppe 6, andere Systematik — punktbezogener X-Wert in W/K statt
-Ψ in W/(m·K)):** durchstossende Stahlstuetze 0,20-0,37 W/K (teils ueber Grenzwert 0,30 je
-Durchstossung), dieselbe Stuetze in Stahlbeton nur 0,05-0,12 W/K; Fassadenanker hinterluefteter
-Fassaden als **ΔU-Wert-Zuschlag** auf die Wand gerechnet: Holzlattung nur +0,02-0,03 W/(m²·K),
-Alu-Unterkonstruktion mit thermischer Trennung je nach Ankerraster +0,02-0,19 W/(m²·K)
+Ψ in W/(m·K); vollstaendig, alle 22 Fassadenanker-Systeme durchgerechnet):** durchstossende
+Stahlstuetze 0,20-0,37 W/K (teils ueber Grenzwert 0,30 je Durchstossung), dieselbe Stuetze in
+Stahlbeton nur 0,05-0,12 W/K; Fassadenanker hinterluefteter Fassaden als **ΔU-Wert-Zuschlag** auf
+die Wand gerechnet: Holzlattung durchgehend nur +0,02-0,03 W/(m²·K), Metallsysteme (Alu/Stahl/
+ATK/Clickpress/Halfen/A-PL/UK1000/WSZ) mit thermischer Trennung +0,01-0,19 W/(m²·K), **ohne**
+thermische Trennung im engen Raster auf Stahlbeton bis **+0,57 W/(m²·K)** (Extremwert der Gruppe,
+mehr als der U-Wert-Zielwert einer ganzen gedaemmten Aussenwand)
 → `[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]`.
 
 **Geschossdecke/Kellerdecke/Innenwandanschluss (Gruppe 2, Grenzwert 0,20, kleinste Detailgruppe,

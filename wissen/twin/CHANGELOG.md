@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review (Fidelity 93/100)
+- Selbsttest mit 3 frischen Goldproben (rj@ Sent Items via `m365 outlook message list`, CLI direkt
+  per Bash statt des in dieser Session defekten MCP-Tools `mcp__microsoft-365__m365_run_command`):
+  Notariat Hottingen (GmbH-Statutenänderung, Sie), Aline Steiger/Gemeinde Thalwil (Vordach-
+  Bewilligungspraxis, Sie), Esther Haecki (Referenzen Ausziehtreppe/Gartenmauer, warm-Du).
+  Register/Tonfall im Blind-Twin durchgehend korrekt; Drift nur noch in drei Formatierungs-Details
+  (Buchstaben-Liste a-f statt «_ »-Bullet für Dokumentenkataloge, Bullet-Block mitten im Satz vor
+  der eigentlichen Bitte, fette Fachbegriffe inline in formellen Behördenanfragen). Keine
+  Facetten-Widersprüche. Report: `outputs/2026-07-13_fidelity.md`.
+- 4 neue Selbstfragen an `wiki/QUESTIONS.md` (Runde 260713) angehängt: Buchstaben-Listen-Schwelle,
+  Bullet-mitten-im-Satz bewusst/Eile, Fett-Hervorhebung als Scan-Hilfe, Schlussdank-Formel-Varianz.
+- DNA neu kompiliert (`build_dna.py` → `rules/jans-dna.md`), keine inhaltlichen Änderungen an den
+  Facetten-Artikeln in dieser Runde (Fragen offen, noch nicht eingearbeitet).
+
 ## 2026-07-13 — twin-mail-training Batch 36 (2026-03-18 bis 2026-03-24)
 - Sent Items rj@ sequentiell weiter, 33 Mails gesichtet, 6 Volltexte destilliert. Zugriff diese
   Session via MCP-Server `microsoft-365` (CLI fuer Microsoft 365, `m365 outlook message

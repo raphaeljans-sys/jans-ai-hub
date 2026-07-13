@@ -172,7 +172,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **alle 17 Kernfragen F1-F17 belegt**
   (F6 WP-Systemvergleich neu 2026-06-18). Backlog nur noch Vertiefungen (Primaerquellen, CHF-Vergleiche).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.) — **FAQ traegt jetzt
-  (17/17); reif fuer Pruefung.** Naechster Meta-Schritt.
+  (17 Kernfragen + F18-F59 Vertiefungen, 87 Destillate); PDF-Inventar 2026-07-13 vollstaendig
+  abgearbeitet (alle Quellen [x]/[-]).** Reif fuer eine Entscheidung — naechster Meta-Schritt,
+  Raphael vorlegen statt weiter aufzuschieben.
 - [x] D7 **Naturdaemmstoffe (Holzfaser/Zellulose/Hanf/Stroh) — oekologisch daemmen + Sommerhitzeschutz**
   — belegt 2026-07-06 (gesundes-haus.ch Materialvergleich + Lignum «Holzfaserdaemmung» + Strohballen).
   Winter: λ 0,038–0,045 wie Mineralwolle → keine dickere Daemmung. Sommer: Speichermasse ρ·c holzbasiert

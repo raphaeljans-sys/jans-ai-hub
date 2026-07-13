@@ -3,6 +3,37 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713 (twin-fragesteller, aus Fidelity-Review 2026-07-13)
+
+Quelle: Drift-Report `outputs/2026-07-13_fidelity.md` (Gesamt-Fidelity 93; Register-Kontrast eigene
+Gesellschaftsrechts-Sache-Sie / Behörden-Fachanfrage-Sie / warm-privates Du. Die Drift sitzt diesmal
+ausschliesslich in Formatierungs-/Struktur-Details, nicht mehr im Tonfall). Je in 1–2 Sätzen beantwortbar.
+
+1. **Buchstaben-Liste (a, b, c, …) vs. «_ »-Bullet:** In der Notariats-Anfrage zur Statutenänderung
+   listest Du die Dokumenten-Checkliste mit **a) bis f)**, nicht mit dem sonst üblichen «_ »-Bullet.
+   Ist die Buchstaben-Liste Dein bewusstes Format für **abschliessende, formal abzuhakende Dokumenten-/
+   Unterlagenkataloge** (jeder Punkt einzeln bestätigbar), während «_ »/«–» für argumentative
+   Aufzählungen/Alternativen bleibt? *Warum: schärft die Listentypografie um eine bisher unbelegte
+   dritte Form.* → [[fachsignatur]], [[arbeitsweise]]
+2. **Bullet-Block mitten im Satz vor der eigentlichen Bitte:** In derselben Notariats-Mail steht der
+   Aufzählungsblock (Firmenbezeichnung/Büroadresse/Zweck) MITTEN im Satz, bevor das Verb «ersuche»
+   kommt («Im Hinblick eine geplante … Statutenänderung: – … – … – … einer GmbH ersuche ich Sie …»).
+   Ist das ein bewusster Kompaktions-Trick (die Kernpunkte auf einen Blick, bevor die Bitte kommt),
+   oder tippst Du in Eile und würdest es bei Gelegenheit grammatikalisch glätten? *Warum: klärt, ob der
+   Zwilling diese ungewöhnliche Satzstruktur nachbilden oder in eine saubere Einleitung + Liste
+   auflösen soll.* → [[stimme]], [[arbeitsweise]]
+3. **Fette Fachbegriffe inline im Fliesstext formeller Behördenanfragen:** In der Vordach-Anfrage an
+   Frau Steiger hebst Du Kernbegriffe (Normstelle, Rechtsquelle, Kennzahl) fett hervor, mitten im
+   Fliesstext, nicht nur in Listen/Überschriften. Ist diese Binnen-Fettung Dein bewusstes Mittel, damit
+   die Fachstelle die entscheidenden Punkte beim Überfliegen sofort erfasst, und setzt Du es bei jeder
+   fachlich dichten Sie-Anfrage ein, oder nur bei besonders komplexen/strittigen Fällen? *Warum: legt ein
+   bisher nur inhaltlich, nicht visuell erfasstes Fachsignatur-Mittel offen.* → [[fachsignatur]], [[stimme]]
+4. **Schlussdank-Variante «Für Ihre Antwort bin ich Ihnen dankbar» vs. «Ich danke Ihnen im Voraus für
+   die Klärung»:** Beide Formeln stehen im selben formellen Sie-Register (Notariat bzw. Gemeinde), aber
+   mit unterschiedlichem Wortlaut. Wählst Du die Formel nach Anlass (Bestätigungsbitte vs. inhaltliche
+   Klärung), oder ist es freie Variation ohne Regel? *Warum: prüft, ob eine weitere feste
+   Schluss-Bausteine-Unterscheidung im formellen Sie-Register existiert.* → [[stimme]]
+
 ## Offen — Runde 260712 (twin-fragesteller, aus Fidelity-Review 2026-07-12)
 
 Quelle: Drift-Report `outputs/2026-07-12_fidelity.md` (Gesamt-Fidelity 93; Drei-Register-Kontrast formell-Sie-

@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 41: Wärmebrücken Gruppe 6.2 Fassadenanker vollständig (22 Systeme, F58 geschärft) — PDF-Inventar Priorität 1+2 abgeschlossen
+- **1 Destillat erweitert (kein neues, INDEX bleibt bei 87 total):**
+  `waermebrueckenkatalog-bfe-stuetzen-fassadenanker` — Gruppe 6.2 von 2 auf alle 22
+  Ausführungsvarianten (U1-U22, S. 117-126 BFE-Primärquelle vollständig gelesen) erweitert.
+  22 marktübliche Fassadenanker-Systeme: Holzlattung, Stahl-/Alu-Unterkonstruktion mit/ohne
+  thermische Trennung, Chrom-Nickel-Halteanker, ATK 100/101 Minor, ATK 601, UK 1000 (CrNi/Alu),
+  Halfen SUK, Clickpress L-/T-Profil, A-PL, UK-System WSZ.
+- **Kernbefund:** thermische Trennung dominiert über Ankermaterial — ohne thermische Trennung
+  verdoppelt bis verdreifacht sich der ΔU-Wert-Zuschlag im engen Raster. Die **zwei Extremwerte
+  der ganzen Gruppe 6.2**: A-PL ohne thermische Trennung (U20) **+0,57 W/(m²·K)** und Alu-UK
+  ohne thermische Trennung (U5) +0,41 W/(m²·K) — beide bei 0,2 m² Raster auf Stahlbeton. Zum
+  Vergleich: Holzlattung bleibt unabhängig vom Raster durchgehend bei +0,02-0,03. Chrom-Nickel-
+  Stahl-Systeme (U6/U12/U14) und ATK 601 (U11) sind die günstigsten Metallvarianten.
+- **FAQ F58 geschärft:** Extremwert +0,57 W/(m²·K) ergänzt, konkreter Bauherren-Rat («nach
+  thermischer Trennung fragen» + «grosszügiges Ankerraster wählen» senkt Zuschlag Faktor 5-10).
+- **Damit ist der BFE-Wärmebrückenkatalog (2002, 126 S.) vollständig ausgewertet** — schliesst
+  den in E27-E29/Run-39-Notiz offen vermerkten letzten Detailpunkt endgültig.
+- **PDF-Inventar geschlossen:** die letzten 6 offenen Quellen in `training/pdf-inventar.md`
+  (5 FEZ-Kursflyer «ENERGIE VorOrt»/«ENERGIE Events»/Kursprofil/Teilnehmerliste + 1 Rechnung
+  Forum Energie Zürich) via Read geprüft — reine Veranstaltungs-/Verwaltungslogistik ohne
+  Fachinhalt, als `[-]` markiert statt offen stehen zu lassen. **Priorität 1 und Priorität 2
+  des PDF-Inventars sind damit vollständig abgearbeitet** (alle Einträge `[x]` oder `[-]`).
+- **Meta-Punkt M2** (eigener Skill `energie`?) als «spruchreif» markiert — Curriculum + QUESTIONS
+  empfehlen, das Raphael zur Entscheidung vorzulegen statt weiter aufzuschieben.
+- Register nachgeführt: `destillate/INDEX.md`, `training/pdf-inventar.md` (Abschluss-Vermerk),
+  `training/curriculum.md` (M2 geschärft), `wiki/QUESTIONS.md` (E30 neu, E-S1 ergänzt),
+  `raw/_INGESTED.md` (+2 Zeilen), `wiki/u-werte-grenzwerte-ch.md` (Gruppe-6-Abschnitt erweitert).
+- **Report:** `outputs/2026-07-13_energie-run41.md`.
+
 ## 2026-07-13 — Run 40: Wärmebrücken Gruppe 6 Stützen/Fassadenanker + Gruppe 2 Geschossdecke/Kellerdecke (F58-F59) — Curriculum A4 wirklich vollständig
 - **2 neue Destillate → 87 total:**
   - `waermebrueckenkatalog-bfe-stuetzen-fassadenanker` (emerging) — Gruppe 6.1 Stützen vollständig

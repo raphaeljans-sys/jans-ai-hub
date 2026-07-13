@@ -297,5 +297,19 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   MuKEn-2025-Graue-Energie-Formel GWObjekt (2026-07-12 ergänzt, ecobau.ch) — absolute
   kg-CO₂-eq/m²·a-Werte weiterhin nicht aus EnDK-Primärquelle belegt.
 
+- [x] **E30** **Wärmebrücke Gruppe 6.2 Fassadenanker — alle 22 Systeme** belegt ✓ 2026-07-13 →
+  `[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]` erweitert (Primärquelle S. 117-126
+  vollständig gelesen, vorher nur U1/U4 von 22 Varianten). Kernbefund: thermische Trennung
+  dominiert über Ankermaterial — Extremwert **+0,57 W/(m²·K)** (System A-PL ohne thermische
+  Trennung, 0,2 m² Raster, Stahlbeton) übertrifft den U-Wert-Zielwert einer ganzen gedämmten
+  Aussenwand; Holzlattung bleibt unabhängig vom Raster bei +0,02-0,03. FAQ F58 geschärft.
+  **Damit ist der BFE-Wärmebrückenkatalog (2002, 126 S.) vollständig ausgewertet** — schliesst
+  den in E27-E29 offen vermerkten Restpunkt «Gruppe 6.2 Spezialanker nicht destilliert»
+  endgültig. Zugleich PDF-Inventar `training/pdf-inventar.md` geschlossen: die letzten 6 offenen
+  Quellen (5 FEZ-Kursflyer + 1 Rechnung) geprüft und als reine Logistik-/Verwaltungsdokumente
+  ohne Fachinhalt verworfen ([-]).
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
+  **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F59
+  Vertiefungen belegt — Meta-Punkt M2 ist jetzt spruchreif fuer eine Entscheidung.**

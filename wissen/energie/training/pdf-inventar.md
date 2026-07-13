@@ -1,8 +1,12 @@
 # PDF-Inventar — Konvertier-Warteschlange (PL-04 Energie)
 
 Generiert 2026-06-05. Jede Quelle wird vom taeglichen Loop in ein lesbares
-.md-Destillat (`destillate/`) ueberfuehrt. Status: [ ] offen · [~] begonnen · [x] destilliert.
+.md-Destillat (`destillate/`) ueberfuehrt. Status: [ ] offen · [~] begonnen · [x] destilliert ·
+[-] geprueft, nicht einzeln destilliert (Kursflyer/Rechnung/Datenblatt, keine Fachinhalte).
 Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln destilliert.
+
+**Stand 2026-07-13: Inventar vollstaendig abgearbeitet** — alle Quellen sind [x] oder [-].
+Neue Themen laufen ueber `curriculum.md` (Web-Quellen) oder Nachtrags-PDFs bei Bedarf.
 
 ## Prioritaet 1 — Fachgrundlagen (hoechster Bauherren-Nutzen)
 | Status | Quelle (PL-04/...) | KB-Datenstand |
@@ -32,11 +36,11 @@ Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln des
 | [x] `endk.ch/Waermetechnischen Anlagen/2024_01_08_WTA_Formular_Version_01-2024.pdf` | 2026-06-10 (vollst., 5 S.; Heizungsersatz-Verfahren/Beilagen je Quelle → wta-formular-zh-waermetechnische-anlagen) |
 | [x] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Fallstudie_Nachweiskurs-230925-172638.pdf` | 2026-06-17 (S. 1-12; Plusenergie-MFH «Maison Climat» Biel → minergie-fallstudie-maison-climat) |
 | [x] `wissen.minergie.ch/Kursunterlagen_230926/Download/230925_Nachweiskurs-230925-172638.pdf` | 2026-06-18 (vollst.; Teil 1 S. 1-42 → minergie-nachweiskurs-2023-mkz-thge; Teil 2/3 S. 43-57 Antrag/Label-Plattform/Pruefprozess → minergie-zertifizierung-workflow; Anhang ab S. 65 nicht einzeln) |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Flyer_ENERGIE_VorOrt_2023_WEB-230913-120608.pdf` | — |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kurse_Herbst_Winter_2023_WEB-230913-120548.pdf` | — |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf` | — |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_TN_Liste_Minergie_Nachweis_20230926-230921-104712.pdf` | — |
-| [ ] `wissen.minergie.ch/Kursunterlagen_230926/Download/fez_energie_events_2023_24_WEB-230913-120622.pdf` | — |
+| [-] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Flyer_ENERGIE_VorOrt_2023_WEB-230913-120608.pdf` | 2026-07-13 (geprueft: Sommerprogramm-Veranstaltungsflyer 2023, reine Event-/Sponsoren-Auflistung, keine Bauherren-relevanten Kennwerte; nicht einzeln destilliert) |
+| [-] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kurse_Herbst_Winter_2023_WEB-230913-120548.pdf` | 2026-07-13 (Kurskatalog Forum Energie Zuerich, reine Kursbeschreibungen ohne Fachinhalt; nicht einzeln destilliert) |
+| [-] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf` | 2026-07-13 (geprueft: Kurslogistik Minergie-Nachweiskurs — Datum/Ort/Referenten/Anmeldung, keine Fachinhalte; nicht einzeln destilliert) |
+| [-] `wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_TN_Liste_Minergie_Nachweis_20230926-230921-104712.pdf` | 2026-07-13 (Teilnehmerliste, keine Fachinhalte; nicht einzeln destilliert) |
+| [-] `wissen.minergie.ch/Kursunterlagen_230926/Download/fez_energie_events_2023_24_WEB-230913-120622.pdf` | 2026-07-13 (geprueft: Winterhalbjahr-Eventprogramm 2023/24, reine Referats-/Anlassankuendigungen ohne Bauherren-Kennwerte; nicht einzeln destilliert) |
 | [x] `wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf` | 2026-06-09 (S. 1-16; Minergie-Ueberarbeitung 09/2023 — neue Kennzahlen + THGE) |
 
 ## Prioritaet 2 — Solar/PV + ZH-Formulare (neu erfasst 2026-06-19, nicht im Inventar 2026-06-05)
@@ -57,7 +61,7 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [x] `_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf` | 2026-06-22 (vollst., 8 S.; AWEL Entsorgungskonzept, 4-Faelle-Raster vor 1990 / ≤200k / 200 m³, Asbest/PCB/CP-Stichjahre → gebaeudeschadstoffe-checkliste-zh; FAQ F23 neu) |
 | [x] `endk.ch/Gesuch zur Versickerung von Regenwasser HLS Planer/gesuch_zur_versickerung_von_regenwasser.pdf` | 2026-06-23 (vollst., 3 S.; AWEL ZH Regenwasser-Versickerung — Bewilligungspflicht >20 m²/Zustaendigkeit Gemeinde-AWEL/Metall-Adsorber >50 m² → regenwasserbewirtschaftung-versickerung-zh; FAQ F24 neu, neuer Themenartikel) |
 | [-] Datenblaetter (SI-Saphir, megasol M385, PREFA-Farbsortiment, Usermanual, Maison-Climat-Plaene) | nicht einzeln destilliert (geringe Uebertragbarkeit) |
-| [ ] `forumenergie.ch/230926_RE.pdf` + FEZ-Kurs-Flyer (forumenergie/wissen.minergie) | — (Kurs-/Veranstaltungsflyer, geringe Uebertragbarkeit) |
+| [-] `forumenergie.ch/230926_RE.pdf` | 2026-07-13 (geprueft: Rechnung Forum Energie Zürich an JANS für Kursteilnahme, reines Buchhaltungsdokument, keine Fachinhalte; nicht einzeln destilliert) |
 
 ## Web-Quellen (Aktualitaet/Recht/Foerderung — mit Datenstand)
 | Status | Quelle | Datenstand |
