@@ -89,7 +89,9 @@ Zukunftsinstitut Frankfurt).
 
 ## Fallbeispiele (S. 138-155)
 
-- **Zuerich Schwamendingen** (Glatt-/Grosswiesenstrasse), drei Positionierungen:
+- **Zuerich Schwamendingen** (Glatt-/Grosswiesenstrasse), drei Positionierungen — Referenz
+  fuer Positionierungsvorschlag 1 ist das real gebaute Projekt **«Vertikale Gartenstadt»**,
+  Penzel Valier in ARGE mit Robertneun, 240 Wohnungen, **1. Rang Studienauftrag 2020** (S. 67):
   1. **Hortus Conclusus** — vertikale Gartenstadt, kleine Wohnungen (Ø 40-70 m2 HNF) mit
      grosszuegigen privaten Aussenraeumen; Mix Silver Ager 40 % / Hobby-Gaertner-Familien
      30 % / naturverbundene Singles 30 %.
@@ -161,6 +163,14 @@ dann einen hoeheren Wert, wenn das hoehere Risiko im Diskontsatz korrekt abgebil
   belegt: in Ingenbohl Adaptiv-Pragmatische + Buergerliche Mitte ueber-, Postmaterielle/
   Performer/Konsumorientierte Basis unterrepraesentiert (nicht als Dezimalwerte erfasst,
   Leitplanke).
+- ✓ 2026-07-13 (Run 22, Verifikations-Pass): **Schwamendingen-Fallbeispiel S. 138-145** per
+  Modell-D-Volltext-Gegenlesung gegen die Originalfolien geprueft — die drei Nutzermix-Quoten
+  (Hortus Conclusus 40/30/30, Low-Tech-Siedlung 50/40/10, Patchwork City 50/30/20), die
+  Wohnungsgroessen (40-70 / 60-120 / 40-120 m2 HNF) und die Mietzinseinschaetzung
+  (Preisspektrum 250-400 CHF/m2/Jahr, Einordnung 50%-Quantil) reproduzieren **alle exakt**.
+  Verdikt **bestanden**, keine Korrektur. Neu ergaenzt: Referenzprojekt Hortus Conclusus =
+  real gebaute «Vertikale Gartenstadt» (Penzel Valier/Robertneun, 240 Wohnungen, 1. Rang
+  Studienauftrag 2020, S. 67) — bisher nicht im Artikel erfasst.
 - Healthcare-/Alterswohnen-Kennwerte mit `IMMO-06 Healthcare` verknuepfen.
 - Wirtschaftlichkeits-Zahlen der Varianten (Landwert-Vergleich): [[residualwertmethode]],
   Abschnitt «Lehrstueck».

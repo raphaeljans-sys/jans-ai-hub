@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 22: Verifikations-Pass Erfolgsfaktoren + Schwamendingen + Neuwert-Tabellen (Modell D)
+
+- **Fuenfter Lauf in Folge im Verifikations-Modus.** Kein neuer Ingest — drei Komplexe per
+  Modell-D-Volltext-Gegenlesung gegen die Original-PDFs geprueft (die beiden von Run 20
+  benannten Kandidaten plus ein dritter, selbst identifizierter Komplex).
+- **Nachgeprueft & exakt reproduziert:**
+  1. DXMA-Aufwertungsgewinn-Tabelle (10 Zeilen, S. 7) + vier Baurecht-Fallbeispiele
+     (Breitensteinstrasse, Stampfenbachstrasse, Fabrikstrasse, S. 10/12/14/15) gegen die
+     Original-DXMA-Folien → [[erfolgsfaktoren-wettbewerb]].
+  2. Schwamendingen-Nutzermix-Quoten (Hortus Conclusus/Low-Tech-Siedlung/Patchwork City,
+     S. 138-145) + Wohnungsgroessen + Mietzinseinschaetzung gegen die Original-Wuest-Folien →
+     [[nutzungskonzepte]]. Neu ergaenzt: Hortus-Conclusus-Referenzprojekt (reale «Vertikale
+     Gartenstadt», Penzel Valier/Robertneun, 1. Rang Studienauftrag 2020).
+  3. Tab. 2 (Neuwert-Richtwerte Bauklasse I-VI, EFH/MFH + Grossgewerbe/Industrie) + Tab. 3
+     (BKP-Anteile MFH-mittlerer-Standard Baujahr 1985) aus dem Schaetzungsanleitungs-Anhang
+     Kapitel 5 → [[realwert-sachwert]].
+- **Verdikt:** alle drei Komplexe bestanden, keine Korrektur. Alle drei Artikel bleiben
+  `established`, `last_updated` auf 2026-07-13 gesetzt.
+- **Zusatzbefund:** der Zuercher Index der Wohnbaukosten (Tab. 4 im selben Anhang) endet im
+  Quelldokument bei 01.04.2004 = 907.6 — reicht nicht bis 2026. D11 (m3-Richtwerte aufindexieren)
+  bleibt offen; eine aktuelle Fortsetzung der Indexreihe muss separat beschafft werden.
+- Bewertungsordner geprueft: weiterhin kein neuer JANS-Fall seit Run 6 (Wangen 8855, 09.06.).
+  Marktpuls nicht erneut geprueft (unveraendert seit Run 17, kein neuer Publikationstermin).
+- **Befund:** damit sind saemtliche von den Runs 18-21 identifizierten Verifikations-Kandidaten
+  abgearbeitet; kein weiterer auto-schliessbarer Kandidat identifiziert. Empfehlung Ruecktaktung
+  ins Nachtfenster zum fuenften Mal in Folge, jetzt mit Nachdruck — der Loop erzeugt ohne neues
+  Rohmaterial (D1/D2/D5/D6/D7/D9/D10/D11) oder einen neuen JANS-Fall keinen weiteren
+  Erkenntnisgewinn mehr.
+
 ## 2026-07-13 — Training-Run 21: Verifikations-Pass Nutzungskonzeptions-Kennzahlen S. 123-133 (Modell D)
 
 - **Vierter Lauf in Folge im Verifikations-Modus.** Kein neuer Ingest — Modell-D-Volltext-

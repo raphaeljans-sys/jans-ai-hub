@@ -58,6 +58,23 @@ Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen.
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
 
+**Stand Run 22 (2026-07-13):** Fuenfter Verifikations-Lauf in Folge — die beiden von Run 20
+als naechste Kandidaten benannten Komplexe **beide** gegengelesen: (1) DXMA-Aufwertungsgewinn-
+Tabelle + alle vier Baurecht-Fallbeispiele ([[erfolgsfaktoren-wettbewerb]]) und (2) Schwamendingen-
+Nutzermix-Quoten S. 138-145 ([[nutzungskonzepte]]) — **beide bestanden, exakt reproduziert**.
+Zusaetzlich als dritter Komplex **Tab. 2 (Neuwert-Richtwerte) + Tab. 3 (BKP-Anteile)** aus dem
+Schaetzungsanleitungs-Anhang ([[realwert-sachwert]]) gegengelesen — ebenfalls **bestanden, exakt**.
+Kleine Anreicherung: Hortus-Conclusus-Referenzprojekt (Vertikale Gartenstadt Schwamendingen,
+Penzel Valier/Robertneun, 1. Rang 2020) neu erfasst. Bewertungsordner geprueft: weiterhin **kein
+neuer JANS-Fall** seit Wangen 8855 (09.06.). Marktpuls nicht erneut geprueft (unveraendert seit
+Run 17, kein neuer Publikationstermin erreicht). **Damit sind saemtliche von den Runs 18-21
+identifizierten Verifikations-Kandidaten abgearbeitet — kein neuer auto-schliessbarer Kandidat
+in Sicht.** Empfehlung Ruecktaktung ins Nachtfenster zum fuenften Mal in Folge, jetzt mit
+Nachdruck: der Loop hat in fuenf Laeufen keinen einzigen materiellen Korrekturbefund mehr erzeugt,
+nur Bestaetigungen. Verbleibend nicht-auto-schliessbar: D5 (Margen-/Finanzierungspraxis, Bring-
+Schuld Raphael), D10 (Original-Blatt-Bereinigung 2 Healthcare-Zeilen, Bring-Schuld), D11 (Index-
+Fortsetzung 2003→2026, externe Quelle noetig).
+
 **Stand Run 21 (2026-07-13):** Vierter Verifikations-Lauf in Folge, wie im Run-20-Report als
 naechster Kandidat angekuendigt: **Nutzungskonzeptions-Kennzahlen S. 123-133 gegen die
 Originalfolien gegengelesen (Modell D)**. Verdikt **bestanden** — Sinus-Milieu-Kennzahlen

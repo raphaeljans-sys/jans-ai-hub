@@ -1,7 +1,7 @@
 ---
 title: Erfolgsfaktoren — Markttauglichkeit von Entwicklungsprojekten
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-07-13
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 4 Erfolgsfaktoren, N. Lehmann/DXMA), IMMO-03 Folien DXMA "Immo-02-P23D-Praesentation_Erfolgsfaktoren.pdf" (37 S., 06.2023) vollstaendig eingearbeitet]
 links: [[residualwertmethode]], [[nutzungskonzepte]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[realwert-sachwert]], [[lageklasse-landwertanteil]]
 ---
@@ -145,3 +145,11 @@ Ein Bewertungs-Output kann so als **Optimierungs-Feedback** an den Entwurf zurue
   Baukosten-Effizienz, A4-Bewertungsblatt (T4 erfuellt).
 - AZ-Optimierungsformel an einem realen JANS-Fall gegenrechnen und um Kt.-SZ-Messweise
   ergaenzen (Skill `baurecht`).
+- ✓ 2026-07-13 (Run 22, Verifikations-Pass): **DXMA-Aufwertungsgewinn-Tabelle (S. 7) + alle
+  vier Baurecht-Fallbeispiele (S. 10/12/14/15)** per Modell-D-Volltext-Gegenlesung gegen die
+  Originalfolien geprueft — die 10-Zeilen-Tabelle (Kloten 80 % bis Zollikerberg 19 %),
+  Breitensteinstrasse (1'196 m2 × 90 % / 3 VG × 3.5 VG × 108 % = 1'356 GF/1'017 HNF +27 %;
+  UG-Optimierung 1'550 GF/1'163 HNF +45 %), Stampfenbachstrasse (Split-Zone 260 % gemischte
+  AZ → 1'880 GF/1'412 HNF +24 %) und Fabrikstrasse (19.5 Mio Kaufpreis, +50 % Ausnuetzung,
+  +148 % Mietertrag, +163 % Marktwert, +98 % Aufwertungsgewinn) reproduzieren **alle exakt**.
+  Verdikt **bestanden**, keine Korrektur.

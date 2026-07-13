@@ -1,7 +1,7 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
@@ -422,3 +422,16 @@ Instandsetzungskosten decken koennen.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).
 - ⚠ m3-Neuwert-Richtwerte Stand 2003 → aufzuindexieren, sobald der Index-Faktor 2003→2026 belegt
   vorliegt ([[wissensluecken]] D11; nicht geraten).
+- ✓ 2026-07-13 (Run 22, Verifikations-Pass): **Tab. 2 (Neuwert-Richtwerte Bauklasse I-VI) +
+  Tab. 3 (BKP-Anteile MFH 1985)** per Modell-D-Volltext-Gegenlesung gegen das Original-Anhang-PDF
+  (`schaetzungsanleitung_kap5.pdf`, Kapitel 5) geprueft — alle sechs Bauklassen EFH/MFH-Werte
+  (I 425-500/350-425 bis VI 750-950/625-750), die Grossgewerbe/Industrie-Bandbreiten
+  (100-200/150-250/200-325/275-375), die Bezugsgroessen (EFH 800 m3/MFH 5'000 m3/Aufzugszuschlag
+  15-20 Fr./m3) sowie alle BKP-Anteile (Baugrube 2.73 %, Rohbau 1 35.95 %, Rohbau 2 9.42 %,
+  Elektro 4.63 %, HLK 4.10 %, Sanitaer 8.16 %, Transport 0.56 %, Ausbau 1 12.60 %, Ausbau 2
+  9.30 %, Honorare 12.55 %) reproduzieren **alle exakt**. Verdikt **bestanden**, keine Korrektur.
+  Zusatzbefund: das Original-Kapitel enthaelt auch den **Zuercher Index der Wohnbaukosten**
+  (Tab. 4, Basis 01.06.1939 = 100) mit Reihe bis mind. 01.04.2004 = 907.6 — die Reihe endet im
+  Dokument selbst (Publikationsstand ~2004) und reicht damit NICHT bis 2026; **D11 bleibt offen**
+  (der Index-Faktor 2003→2026 ist aus dieser Quelle nicht ableitbar, eine aktuelle Fortsetzung der
+  Reihe muesste separat beschafft werden — nicht geraten).

@@ -24,9 +24,27 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben (Ingest).** Der Loop bleibt im **Verifikations-/Aktualisierungs-Modus**. **Neu Run 21 (2026-07-13): Verifikations-Pass Nutzungskonzeptions-Kennzahlen** (S. 123-133) — Sinus-Milieu-%/Alter/Einkommen, Best-Ager, Expats, Aktive Familien, Nutzermix Wohnen + Geschaeftsflaechen per Modell-D-Gegenlesung gegen die Originalfolien nachgeprueft: **alle exakt reproduziert, bestanden**, keine Korrektur; kleine Anreicherung (Milieuzugehoerigkeit Aktive Familien 35/25/25/15 %). Keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (unveraendert seit Run 18). **Marktpuls-Stand unveraendert seit Run 17** (kein neuer Web-Check noetig, kein Publikationstermin erreicht). → **Empfehlung an Raphael unveraendert, jetzt zum vierten Mal in Folge: Ruecktaktung ins Nachtfenster** (vier Verifikationslaeufe ohne materiellen Befund — Grenznutzen der Intensivphase fuer diese KB praktisch null) | — | — |
+| — | **Keine offenen T-Aufgaben (Ingest) — auch keine offenen Verifikations-Kandidaten mehr.** **Run 22 (2026-07-13):** die beiden von Run 20 benannten Kandidaten (DXMA-Aufwertungsgewinne + Baurecht-Fallbeispiele, Schwamendingen-Nutzermix) UND zusaetzlich Tab. 2/3 der Schaetzungsanleitung (Neuwert-Richtwerte, BKP-Anteile) per Modell D gegengelesen: **alle drei Komplexe bestanden, exakt reproduziert**, keine Korrektur. Kleine Anreicherung: Hortus-Conclusus-Referenzprojekt (Penzel Valier/Robertneun, 1. Rang 2020). Kein neuer JANS-Bewertungsfall (Bewertungsordner geprueft). Keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5/D10/D11** (Bring-Schulden Raphael bzw. externe Quelle noetig). **Kein weiterer auto-schliessbarer Verifikations-Kandidat identifiziert** — die KB hat keine offene Ingest- oder Verifikations-Aufgabe mehr, die Claude selbststaendig schliessen kann. → **Empfehlung an Raphael zum fuenften Mal in Folge, jetzt mit Nachdruck: Ruecktaktung ins Nachtfenster.** Ohne neues Rohmaterial (D1/D2/D5/D6/D7/D9/D10/D11) oder einen neuen JANS-Bewertungsfall produziert der Intensiv-Takt fuer diese KB keinen weiteren Erkenntnisgewinn mehr — nur noch Bestaetigungs-Wiederholungen. | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-13 **Verifikations-Pass Erfolgsfaktoren + Schwamendingen + Neuwert-Tabellen (Run 22)** —
+  fuenfter Lauf im Verifikations-Modus. **Modell D (Volltext-Gegenlesung):** (1) DXMA-Aufwertungs-
+  gewinn-Tabelle (10 Zeilen, S. 7) + alle vier Baurecht-Fallbeispiele (Breitensteinstrasse,
+  Stampfenbachstrasse, Fabrikstrasse, S. 10/12/14/15) gegen die Original-DXMA-Folien → **alle exakt
+  reproduziert** → [[erfolgsfaktoren-wettbewerb]] bleibt `established`. (2) Schwamendingen-Nutzermix-
+  Quoten (Hortus Conclusus 40/30/30, Low-Tech-Siedlung 50/40/10, Patchwork City 50/30/20) +
+  Wohnungsgroessen + Mietzinseinschaetzung (S. 138-145) gegen die Original-Wuest-Folien → **alle
+  exakt reproduziert** → [[nutzungskonzepte]] bleibt `established`; neu ergaenzt: Hortus-Conclusus-
+  Referenzprojekt (reale «Vertikale Gartenstadt», Penzel Valier/Robertneun, 1. Rang 2020). (3) Tab. 2
+  (Neuwert-Richtwerte Bauklasse I-VI) + Tab. 3 (BKP-Anteile MFH 1985) aus dem Schaetzungsanleitungs-
+  Anhang → **alle Werte exakt reproduziert** → [[realwert-sachwert]] bleibt `established`. Zusatzbefund:
+  der Zuercher Index der Wohnbaukosten (Tab. 4) im Original-Dokument endet bei 01.04.2004 — reicht
+  nicht bis 2026, D11 bleibt offen (externe Fortsetzung noetig, nicht geraten). Bewertungsordner
+  geprueft: weiterhin kein neuer JANS-Fall seit Run 6. Keine neue Luecke. **Damit sind alle von den
+  Runs 18-21 benannten Verifikations-Kandidaten abgearbeitet — kein weiterer auto-schliessbarer
+  Kandidat identifiziert.** Empfehlung Ruecktaktung ins Nachtfenster zum fuenften Mal in Folge,
+  jetzt mit Nachdruck (Grenznutzen des Intensiv-Takts fuer diese KB erschoepft ohne neues Rohmaterial).
 
 - ✓ 2026-07-13 **Verifikations-Pass Nutzungskonzeptions-Kennzahlen (Run 21)** — vierter Lauf
   im Verifikations-Modus, wie im Run-20-Report als naechster Kandidat angekuendigt. **Modell D
