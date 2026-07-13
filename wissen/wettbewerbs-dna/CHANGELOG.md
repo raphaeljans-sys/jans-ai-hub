@@ -1,5 +1,28 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Lauf 4: QUESTIONS-Punkt 2103 Steinhof geklaert (Ausscheidungsgruende nicht rekonstruierbar) + 4. Beobachtung 2501/2507
+- **Ausgangslage:** Etappe 2 vollstaendig erreicht (11/11 established); Etappe 3 weiter blockiert
+  auf Raphaels Bauaufgaben-Prioritaeten. Statt eines reinen Leerlauf-Beobachtungslaufs wurde ein
+  lokal abschliessbarer offener QUESTIONS-Punkt bearbeitet.
+- **2103 Steinhof — Ausscheidungsgruende:** Der QUESTIONS-Punkt «evtl. aus 02 Korrespondenz /
+  11 Loggbuch rekonstruierbar» wurde abgearbeitet. Befund: `02 Korrespondenz/` enthaelt
+  ausschliesslich Abgabe-Logistik (Modellbauer Pfister/Kamerich, Velo-Kurier/swissconnect,
+  Konkurado-Eingabe, Geser-DWG) und keine Jury-/Nachbesprechungs-Korrespondenz; `11 Loggbuch/`
+  enthaelt nur zwei Entwurfs-/Programm-Dokumente aus der Eingabephase («LogBuch Entwurf
+  Steinhofschule.docx» = Konzeptnotizen 30m-Koerper/Doppellichtkerne; «Stichworte
+  Wettbewerbsprogramm Steinhofschule.docx» = Programm-Stichworte). Beide datieren vor der Jurierung
+  (Abgabe Maerz 2022, Jurybericht 23.05.2022). **Es existiert kein Post-Jury-Debrief im Archiv —
+  die konkreten Gruende der Rueckstufung aus der engeren Wahl sind aus dem vorhandenen Material
+  definitiv nicht rekonstruierbar.** Punkt von «Offen» nach «Geklaert» verschoben.
+- **Beobachtung 2501/2507 (4. Lauf in Folge):** lokal unveraendert kein neues Material
+  (OneDrive-Zeitstempel 2501 juengste Datei 19.03.2026, 2507 juengste Datei 12.11.2025 — beide
+  identisch zu Lauf 2/3). Kein neuer Jurybericht eingetroffen.
+- **Konsequenz:** Ein QUESTIONS-Punkt geschlossen (2103); INDEX/QUESTIONS/PROGRAMM nachgefuehrt.
+  Taktreduktions-Empfehlung bleibt bestehen, ist aber in der laufenden VOLLGAS-Intensivphase
+  (Regel 260712c) nachrangig: Loops laufen dort bewusst durchgehend; ein Rueckbau auf das
+  Nachtfenster ist erst mit der Ruecktaktung (nach bestaetigtem Wissensstand bzw. ab 10.08.2026)
+  vorgesehen. Bis dahin fuellt der Loop Leerlaeufe mit lokal abschliessbaren Rest-Fragen (wie hier).
+
 ## 2026-07-13 — Beobachtungs-Lauf 3: extern erneut per WebFetch geprueft, weiterhin kein neues Material
 - **Ausgangslage:** Etappe 2 unveraendert vollstaendig erreicht (11/11 established); Etappe 3
   weiter blockiert auf Raphaels Bauaufgaben-Prioritaeten. Dritter Beobachtungslauf am selben Tag

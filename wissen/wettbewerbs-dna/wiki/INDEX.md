@@ -1,8 +1,9 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 13.07.2026 (Lauf 3: Muster `delta-zum-ersten-rang` auf alle 6 verfuegbaren
-Dossiers mit Jury-Delta verdichtet und established, 2502 als leerer Ordner bestaetigt;
-alle 11 Teilnahmen established; 15 Jury-Referenzen + 9 Board-Analysen geprueft;
+Stand: 13.07.2026 (Lauf 4: QUESTIONS-Punkt 2103 Steinhof geklaert — Ausscheidungsgruende
+aus dem Archiv definitiv nicht rekonstruierbar, da nur Abgabe-Logistik + Eingabephasen-
+Loggbuch vorhanden, kein Post-Jury-Debrief; 4. Beobachtung 2501/2507 ohne neues Material.
+Weiterhin: alle 11 Teilnahmen established; 2502 leer; 15 Jury-Referenzen + 9 Board-Analysen;
 3 Muster-Artikel; 4 Reports; Normbezug SIA 400/142/143)
 
 ## Teilnahmen (Dossiers) — 11 von 11 destilliert und verifiziert

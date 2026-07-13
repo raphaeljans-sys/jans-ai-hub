@@ -20,9 +20,6 @@ Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
 - **2101 KSSG:** Kein individuelles Jury-Feedback zu «LOUISE» (nur Sammelurteil
   2. Rundgang, Bericht S. 13) — welche Kritikpunkte den Ausschlag gaben, bleibt
   unbelegbar, sofern keine Nachbesprechungs-Notizen existieren.
-- **2103 Steinhof:** Konkrete Gründe der Rückstufung aus der engeren Wahl sind im
-  Jurybericht nicht dokumentiert; evtl. aus `02 Korrespondenz/` / `11 Loggbuch/`
-  rekonstruierbar (niedrige Priorität).
 - **Ausstehende Juryberichte:** 2501 Steinfabrik (externe Prüfung 13.07.2026 via
   konkurado.ch, 3x geprüft: Verfahren als «abgeschlossen» markiert, im Terminplan der
   Seite steht «Jurybericht: 14.01.2026», das Dokument selbst ist aber weiterhin nicht
@@ -32,15 +29,26 @@ Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
   30.10.2025, Entscheid noch nicht publiziert). Bei Eintreffen (lokal im Archiv ODER
   extern via konkurado.ch/competitions.espazium.ch): Dossier ergänzen, Delta-Muster
   erweitern.
-- **Loop-Takt wettbewerbs-dna-training:** Drei aufeinanderfolgende Beobachtungs-Läufe
+- **Loop-Takt wettbewerbs-dna-training:** Vier aufeinanderfolgende Beobachtungs-Läufe
   (13.07.2026) ohne neues Material bei 2501/2507, Etappe 3 weiter blockiert auf
-  Bauaufgaben-Prioritäten. Empfehlung verschärft sich mit jedem ergebnislosen Lauf:
-  Takt auf Nachtfenster/seltenere Beobachtung reduzieren, bis einer der beiden Blocker
-  sich löst — Entscheid Raphael. Ohne neues Material bringt ein 4. Vollcheck kurzfristig
-  keinen Erkenntnisgewinn.
+  Bauaufgaben-Prioritäten. Reine Beobachtung bringt ohne aussenliegendes Ereignis
+  (Publikation eines Juryberichts) keinen Erkenntnisgewinn. ABER: in der laufenden
+  VOLLGAS-Intensivphase (Regel 260712c) laufen Loops bewusst durchgehend; eine
+  Taktreduktion auf das Nachtfenster ist erst mit der Rücktaktung (bestätigter
+  Wissensstand bzw. ab 10.08.2026) vorgesehen. Bis dahin füllt der Loop Leerläufe mit
+  lokal abschliessbaren Rest-Fragen (Lauf 4: 2103-Steinhof-Punkt geschlossen) statt mit
+  redundanten Vollchecks. Nach Rücktaktung: auf seltenere Beobachtung stellen, bis einer
+  der beiden Blocker sich löst — Entscheid Raphael.
 
 ## Geklärt (Archiv)
 
+- **2103 Steinhof — Ausscheidungsgründe (13.07.2026, Lauf 4):** definitiv nicht
+  rekonstruierbar. `02 Korrespondenz/` enthält nur Abgabe-Logistik (Modellbauer, Velo-
+  Kurier, Konkurado-Eingabe, DWG-Austausch), `11 Loggbuch/` nur zwei Entwurfs-/Programm-
+  Dokumente aus der Eingabephase — alles vor der Jurierung (Abgabe März 2022, Jurybericht
+  23.05.2022). Kein Post-Jury-Debrief im Archiv. Die konkreten Rückstufungsgründe bleiben
+  unbelegbar, sofern nicht Raphael eigene Nachbesprechungs-Notizen beibringt (Bring-Schuld,
+  niedrige Priorität). Nicht mehr erneut prüfen.
 - **Rang-Entscheid (13.07.2026, Raphael via Rückfrage bestätigt: «Belegte Ränge
   übernehmen»):** 2102 Muttenz = 4. Rang / 3. Preis; 2206 Schöntal = 3. Rang / 3. Preis.
   Beleg: `outputs/2026-07-12_rang-klaerung-2102-2206.md` (vollständige Ranglisten,
