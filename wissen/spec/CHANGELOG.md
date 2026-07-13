@@ -1,5 +1,25 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-13 — Trainingslauf 11
+- Output `outputs/2026-07-13_training-run11.md`. **Keine neue reale Spec-Anwendung** seit Lauf 7.
+  Vierter Lauf am selben Tag; statt eines weiteren Breitband-Environment-Sweeps eine gezielte
+  **Reue-Pruefung** der Lauf-9-Lektion («Zwei Blocker-Typen») am selben realen Fall.
+- **Befund (Regression):** die AG-Gruendung-Owner-Aktion («Antwort ans Notariat raus») ist NICHT
+  mehr wie in Lauf 9 nur «leise unter nichts Neues gealtert» — sie ist seit 10.07. komplett aus der
+  taeglichen Sichtbarkeit verschwunden: der `ag-gruendung-monitor` schrieb seit 10.07. keinen
+  Eintrag mehr (3 Tage Stillstand), und `logbuch-radar` erwaehnte die Zeile in 4 Briefings in Folge
+  (10.–13.07.) nicht mehr, obwohl `fristen.md` sie unveraendert «offen»/«hoch» fuehrt (16 Tage alt,
+  Notariats-Befund 21 Tage alt).
+- **Umgesetzt:** `wiki/verifier.md` neue Sektion «Eine Monitor-Lektion haelt nicht von selbst —
+  Reue-Pruefung noetig» (ergaenzt Lauf 10s «Mass validiert nur, wenn der Mess-Prozess die Aenderung
+  konsumiert» um die Fortdauer-Frage). `wiki/QUESTIONS.md` F2 um den Regressionsbefund ergaenzt.
+- **Bewusst nicht getan:** keine Reparatur an `logbuch`/Scheduled Tasks (ausserhalb KB-Mandat) —
+  als Befund dokumentiert und an Raphael/Skill `logbuch` geflaggt, kein Mail-Versand.
+- Rule `spec-methode.md` + `anwendung-jans.md` unveraendert (Betriebsfrage, kein Gate-Beleg).
+  Quellen-Schuld: keine.
+- Offen: F1-Ueberdehnungs-Gegentest weiter offen; F3 nur noch Marketing/Text offen; die
+  geflaggte AG-Gruendung-Sichtbarkeitsluecke sollte im naechsten `logbuch-radar` wieder auftauchen.
+
 ## 2026-07-13 — Trainingslauf 10
 - Output `outputs/2026-07-13_training-run10.md`. **Keine neue reale Spec-Anwendung** seit Lauf 7.
   Dritter Lauf am selben Tag; arbeitet die zwei offenen «naechstes»-Punkte aus Lauf 9 ab.

@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -146,3 +146,32 @@ ob der Mess-Prozess die Aenderung ueberhaupt konsumiert. Tut er es nicht, kann d
 weder bestaetigen noch widerlegen — Trennfrage: «Fliesst mein Eingriff in genau den Pfad, den diese
 Zahl misst?» Ergaenzt die «Praxis als autoritative Instanz» aus Lauf 9: dort belegte Empirie statt
 Ermessen, hier die Warnung, belegte Empirie nicht ueber einen falschen Kanal zu lesen.
+
+## Eine Monitor-Lektion haelt nicht von selbst — Reue-Pruefung noetig (Lauf 11, 13.07.2026)
+Lauf 9 (09.07.) formulierte die Regel «Zwei Blocker-Typen» oben: eine selbst-blockierte
+Owner-Aktion muss in jedem Monitor-Lauf als **aktive Nudge** erscheinen, nicht in der
+«nichts Neues»-Zeile altern. Die Gegenpruefung 4 Tage spaeter (Lauf 11, belegt am selben
+AG-Gruendung-Fall) zeigt: die Lage hat sich **verschlechtert statt verbessert**.
+- Der `ag-gruendung-monitor`-Loop selbst hat seit **10.07.2026 keinen einzigen Eintrag mehr**
+  geschrieben (3 Tage Stillstand, weder Aktion noch «nichts Neues») — die letzte Zeile im
+  Monitor-Log (`outputs/2026-06-21_ag-gruendung_spec.md`) bleibt der 10.07.-Eintrag.
+- Der taegliche `logbuch-radar` (`logbuch/LOGBUCH.md`) hat die AG-Gruendung/Notariat-Zeile in
+  **vier aufeinanderfolgenden Briefings** (10./11./12./13.07.) **gar nicht mehr erwaehnt** —
+  obwohl `logbuch/fristen.md` dieselbe Zeile unveraendert mit Status **«offen»**, Prioritaet
+  **«hoch»** fuehrt (Eintrag datiert 27.06., damit **16 Tage** ohne Fortschritt; die zugrunde
+  liegende Notariats-Feststellung ist **21 Tage** alt).
+- Damit ist die Owner-Aktion nicht bloss «leise gealtert» (der Lauf-9-Befund), sondern **komplett
+  aus der taeglichen Sichtbarkeit verschwunden** — ein staerkerer Fehlerfall als der urspruenglich
+  beschriebene. Eine im Wiki dokumentierte Regel ist offensichtlich kein Selbstlaeufer: sie wurde
+  einmal befolgt (07.–09.07., "hoch"-Zeile taeglich sichtbar) und ist danach wieder abgerissen.
+
+**Konsequenz fuer den Verifier:** eine Verhaltenskorrektur braucht nicht nur einen Beleg, dass sie
+einmal gewirkt hat, sondern eine **wiederkehrende Reue-Pruefung**, ob sie noch wirkt — Compliance
+kann driften, ohne dass irgendwo ein Fehler geloggt wird (das System meldet ja gerade nichts, wenn
+ein Punkt verschwindet). Trennfrage fuer kuenftige Trainingslaeufe: «Ist die zuletzt behobene
+Monitor-/Nudge-Lektion beim naechsten Blick noch sichtbar in der Praxis — oder nur noch im Wiki?»
+Ergaenzt Lauf 10 («ein Mass validiert nur, wenn der Mess-Prozess die Aenderung konsumiert»): dort
+fehlte die Konsumierung eines Fixes durch ein Mass, hier fehlt die **Fortdauer eines Verhaltens**
+ueberhaupt. Ausserhalb des Mandats von `wissen/spec` (Aenderung an `logbuch`-Betrieb/Scheduled Tasks
+liegt beim Skill `logbuch`) — hier nur als Befund dokumentiert und an Raphael/`logbuch` geflaggt,
+nicht autonom repariert.

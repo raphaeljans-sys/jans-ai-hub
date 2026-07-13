@@ -84,6 +84,15 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     eine **Status-Spalte je Schluesselentscheid** (bestaetigt / vorgeschlagen / offen / umgesetzt) direkt
     in der Entscheide-Tabelle statt eines separaten «Annahmen»-Abschnitts (Wettbewerbs-Layer 12.07.). Ein
     offener Entscheid gatet seine eigene Etappe → teil-bestaetigter, ungefaehrlicher Anlauf. → [[anwendung-jans]] Schritt 2.
+  - Regression 13.07. (Lauf 11): die Lauf-9-Lektion «selbst-blockierte Owner-Aktion als aktive Nudge,
+    nie unter nichts Neues» haelt **nicht von selbst**. Gegenpruefung 4 Tage spaeter am selben Fall
+    (AG-Gruendung/Notariat): der `ag-gruendung-monitor` hat seit 10.07. **keinen Eintrag mehr** geschrieben,
+    und der taegliche `logbuch-radar` hat die Zeile in 4 Briefings in Folge **gar nicht mehr erwaehnt** —
+    obwohl `fristen.md` sie unveraendert «offen»/«hoch» fuehrt (16 Tage alt). Schlechter als der
+    urspruengliche Befund (dort wenigstens noch sichtbar unter «nichts Neues»). Neue Praezisierung: eine
+    Monitor-Regel braucht eine **wiederkehrende Reue-Pruefung**, nicht nur einen einmaligen Beleg, dass sie
+    griff. → [[verifier]] «Eine Monitor-Lektion haelt nicht von selbst». Ausserhalb des KB-Mandats: an
+    Raphael/Skill `logbuch` geflaggt, nicht autonom repariert.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
