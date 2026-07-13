@@ -8,6 +8,12 @@ links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[BAUHERREN-FAQ]]
 
 # Dämmstoffe & λ-Werte
 
+> **Querbezug KB normen (Bemessungswerte):** Der Bemessungswert-Zuschlag (λ_D → λ_Bemessung) und
+> die Umstellung auf SN-EN-Bemessungswerte fuehrt die aktuelle **SIA 279:2018** (Bemessungswert-
+> Tabelle 1) — Destillat `wissen/normen/destillate/sia-279-2018`. Das hier zitierte Merkblatt
+> **SIA 2001:2005** ist zurueckgezogen (über SIA 2001:2015 durch SIA 279:2018 abgeloest); für den
+> gueltigen Wert dort nachschlagen.
+
 Der **λ-Wert** (Waermeleitfaehigkeit, W/(m·K)) ist die Kernkennzahl jedes Daemmstoffs: je kleiner,
 desto besser daemmt das Material bei gleicher Dicke. Er geht direkt in den U-Wert ein
 (→ [[u-werte-grenzwerte-ch]]).

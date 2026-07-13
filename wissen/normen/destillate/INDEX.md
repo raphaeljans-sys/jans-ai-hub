@@ -30,7 +30,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-16-15-flucht-rettungswege.md` | VKF-BRL 16-15 Flucht- und Rettungswege | 2015 (rev. 2016) | established (verifiziert 260712) |
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
 | `vkf-brl-nachweisverfahren.md` | VKF-BRL 27-15 Nachweisverfahren im Brandschutz | 2015 | established (verifiziert 260712) |
-| `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | destilliert (vollständig, S.1-24) |
+| `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | established (verifiziert 260713 Mini-Run 15, 46 Aussagen, 6 Ergaenzungen) |
 | `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (vollständig, S.1-39/39) |
 | `treppen-hcu-hamburg-2008.md` | Lehrskript Treppen (HCU Hamburg) inkl. Neufert-Planungsgrundlagen | Stand Januar 2008 | destilliert (vollständig, S.1-19/19) |
 | `nbauo-barrierefreiheit-2004.md` | NBauO §§45/48 + DVNBauO §§18/29 Barrierefreiheit (Niedersachsen) | Rechtsstand 2012 / DVNBauO 1987/2004 | destilliert (4 Einzelnormen gebündelt) |
@@ -52,7 +52,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
 | `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (verifiziert 260713, vollständig S.1-125/125, adversariale Retro-Verifikation Mini-Run 13: 4 Pruef-Agenten, ca. 100 Aussagen geprueft, 14 Fehler korrigiert) |
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
-| `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
+| `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | established (verifiziert 260713 Mini-Run 15, 62 Aussagen, 0 Fehler) |
 | `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (verifiziert 260713, vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12; Mini-Run 14: 6 Fehler korrigiert + Ziff. 5.2.4 ergänzt) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
@@ -90,7 +90,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-68119-1996.md` | DIN 68119 Holzschindeln | 1996-09 | established |
 | `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | established |
 | `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | established (verifiziert 260713) |
-| `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | destilliert |
+| `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | established (verifiziert 260713 Mini-Run 15, 24 Aussagen, 2 Fehler korrigiert) |
 | `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | established (verifiziert 260713, Mini-Run 14: 13 Aussagen geprüft, keine Fehler) |
 | `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | established (verifiziert 260713, mehrere Ziffern + Tabelle 1 komplett nachgetragen, vollständig S.1-5/5) |
 | `din-1053-3-1990.md` | DIN 1053 Teil 3 Bewehrtes Mauerwerk | 1990-02 | established (verifiziert 260713, Ziffer-Zuordnung + Tabellen korrigiert, vollständig S.1-8/8) |
@@ -152,22 +152,22 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | destilliert |
 | `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | destilliert |
 | `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | established (verifiziert 260713, Fehler Expositionsklasse XF korrigiert, vollständig S.1-62/62) |
-| `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | destilliert (vollständig, S.1-28/28) |
+| `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | established (verifiziert 260713 Mini-Run 15, 48 Aussagen, 0 Fehler) |
 | `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | established (verifiziert 260713, Tabelle 12 Mindestdruckfestigkeit korrigiert, vollständig S.1-32/32) |
 | `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | established (verifiziert 260713, Zug-/Schub-/aussergewöhnliche-Einwirkung-Verfahren ergänzt, vollständig S.1-39/39) |
-| `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | destilliert (vollständig, S.1-32/32) |
-| `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | Teil-Destillat (S.1-60+78-93/105, ca. 72%) |
+| `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | established (verifiziert 260713 Mini-Run 15, 42 Aussagen, 0 Fehler) |
+| `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | established (vollstaendig S.1-105/105, verifiziert 260713 Mini-Run 15, 45+ Aussagen, 1 Praezisierung) |
 | `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | established (verifiziert 260713, vollständig, S.1-34/34) |
 | `din-18232-2-2007.md` | DIN 18232-2 Rauch- und Wärmeabzugsanlagen (RWA) Teil 2, Bemessung | 2007-11 | established (verifiziert 260713, vollständig, S.1-30/30; Mini-Run 14: 66 Aussagen geprüft, 1 Ergänzung) |
 | `din-1946-4-2008.md` | DIN 1946-4 Raumlufttechnik in Gebäuden des Gesundheitswesens | 2008-12 | established (verifiziert 260713, vollständig, S.1-66/66; Mini-Run 14: 55 Aussagen geprüft, 2 Fehler korrigiert) |
-| `din-1960-2010.md` | DIN 1960 VOB Teil A, Vergabe von Bauleistungen | 2010-08 | destilliert |
+| `din-1960-2010.md` | DIN 1960 VOB Teil A, Vergabe von Bauleistungen | 2010-08 | established (verifiziert 260713 Mini-Run 15, 28 Aussagen, 5 Fehler korrigiert) |
 | `din-1961-2010.md` | DIN 1961 VOB Teil B, Allgemeine Vertragsbedingungen Bauleistungen | 2010 | established (verifiziert 260713, Mini-Run 14: 85 Aussagen geprüft, keine Fehler) |
 | `din-inhaltsverzeichnis-normensammlung-2012.md` | DIN Inhaltsverzeichnis Normensammlung Buero | Stand 2012-04 | destilliert (Register ~450 Normen) |
 | `vds-2234-1999-brand-komplextrennwaende.md` | VdS 2234 Brand-/Komplextrennwaende (D-Versicherungsmerkblatt) | 1999-05 | destilliert (vollstaendig, S.1-30/30) |
 | `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | established (vollstaendig, S.1-42/42, Mini-Run 12) |
 | `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | established (verifiziert 260713, vollstaendig S.1-32/32) |
 | `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | destilliert (historisch) |
-| `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | destilliert (vollstaendig, S.1-13/13) |
+| `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | established (verifiziert 260713 Mini-Run 15, 40 Aussagen, 2 Fehler korrigiert) |
 | `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260713, vollstaendig S.1-18/18) |
 | `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | established (verifiziert 260713, vollstaendig S.1-21/21) |
 | `vss-640578-2006.md` | SN 640 578 Laermimmissionen Parkierungsanlagen Berechnung | 2006-08 | established (verifiziert 260713, vollstaendig S.1-36/36) |

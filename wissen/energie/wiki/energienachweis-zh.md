@@ -42,6 +42,11 @@ Beide Module vervollstaendigen die Formularmatrix (Details `[[en-lueftung-kuehlu
 > `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`,
 > `energie-even-plattform-bedienung` und `energie-private-kontrolle-zh` (Wegweiser fuer den
 > Agent `energie-berater`). Diese energie-KB bleibt fuehrend fuer Fachphysik/Grenzwerte.
+> **Querbezug KB baurecht (Verfahrensrecht):** Die **Verfahrensart** fuehrt
+> `wissen/baurecht/wiki/baubewilligungsverfahren` — insbesondere **§ 325a PBG**, der
+> energetische Sanierungen der Gebaeudehuelle (Fassadendaemmung/Fensterersatz im Bestand,
+> der haeufigste JANS-Energiefall) **zwingend dem Anzeigeverfahren** zuordnet, sowie die
+> Beilagepflicht des Energienachweises. Recht = baurecht, Nachweisphysik = diese KB.
 - **EN-105 Lueftung:** Waermerueckgewinnung Temperatur-Aenderungsgrad **≥ 70 %** *oder* feuchtebezogen **≥ 75 %**; Luftgeschwindigkeit
   Ansaug/Ausblas **≤ 2 m/s**, in Kanaelen volumenstromabhaengig 3–7 m/s; Kanaldaemmung nach
   Temperaturdifferenz (5–10 K ≥ 3 cm / 10–15 K ≥ 6 cm / > 15 K ≥ 10 cm).

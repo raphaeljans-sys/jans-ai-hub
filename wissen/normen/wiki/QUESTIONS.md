@@ -13,6 +13,14 @@
   referenzieren; Destillat der 1991er nur für Alt-Kontext.
 - [ ] SIA 102: Bestand hält 2014 **und** 2020 — 2020 gilt. Wird 2014 noch für Altverträge
   gebraucht, sonst als «— ersetzt durch 2020» führen (im Inventar markiert).
+- [ ] **SIA 181:2020 re-destillieren (Wissens-Chef Run 3, 2026-07-13):** Register führt bislang
+  2006 (2013-Benchmark), KB energie arbeitet bereits mit **SIA 181:2020**. Aktuelle Ausgabe am
+  Original erfassen, dann REGISTER Zeile 109 auf 2020 heben. Ausgabe kostenpflichtig (SIA-Shop,
+  Bring-Schuld Raphael — Claude tätigt keine Käufe).
+- [ ] **VKF-Merkblatt 2001-15 Solaranlagen — Ausgabe 2022 (Wissens-Chef Run 3, 2026-07-13):**
+  Destillat führt Ausgabe 2015; belegte Rev. 01.01.2022 (Beleg planungsgrundlagen
+  `wiki/energie-pv-brandschutz`). Delta u.a. Unterdachbahnen RF3(cr) statt RF4(cr). 2022er
+  Original re-destillieren.
 - [x] **P1-SIA-Kern (ohne 102/118) + VKF-Kern destilliert — 12.07.2026 (Run 2):** SIA
   103/105/111/112/416/451 + VKF 1-15/16-15/14-15/27-15, alle am Original adversarial verifiziert
   (`established`). Befund: **SIA 105:2020 hat kein Art.-7-Baukostenmodell** (nur Kategorie-/

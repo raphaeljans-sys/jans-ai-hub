@@ -2,6 +2,14 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): 5 Querbezuege zu baurecht + normen gesetzt
+- [link] `energienachweis-zh.md` → baurecht `baubewilligungsverfahren` (§ 325a PBG Anzeigeverfahren).
+- [link] `minergie-standards.md` → baurecht `baubewilligungsverfahren` (Minergie-Vermutung § 4 Abs. 4 BBV I).
+- [link] `schallschutz-sia181.md` → normen `sia-181-2006`/REGISTER; ⚠ Ausgaben-Flag: energie fuehrt SIA 181:**2020**, normen-Register noch 2006 (Re-Destillat in normen ausstehend).
+- [link] `sommerlicher-waermeschutz.md` → normen `sia-180-2014` (schliesst «Offen»: Rechenverfahren/Grenzwerte).
+- [link] `daemmstoffe-lambda.md` → normen `sia-279-2018` (schliesst «Offen»: Bemessungswerte; SIA 2001:2005 zurueckgezogen).
+- [link] `u-werte-grenzwerte-ch.md` → normen REGISTER SIA 380/1 (Ausgaben-Abgleich 2009/2016). Keine Widersprueche (Paar normen↔energie: 0). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
+
 ## 2026-07-13 — Run 55: RiLuMi Kap. 4-8 + § 295 PBG Wortlaut — beide Run-54-Themen auf established
 - **Run-Report** `outputs/2026-07-13_energie-run55.md`. Kein neues Thema eröffnet, stattdessen
   die beiden Run-54-Prioritätspunkte vollständig abgeschlossen (Primärquelle direkt via curl

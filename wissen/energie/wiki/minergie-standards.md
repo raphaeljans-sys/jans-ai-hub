@@ -14,6 +14,12 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[
 - **Minergie:** freiwilliges Qualitaetslabel **ueber** dem Gesetz — geprueftes Gesamtergebnis,
   nicht nur Einzelmassnahme.
 
+> **Querbezug KB baurecht (verfahrensrechtliche Wirkung):** Das freiwillige Label hat im
+> Bewilligungsverfahren eine konkrete Rechtsfolge — die **Minergie-Vermutung § 4 Abs. 4 BBV I**:
+> wird das Minergie-Label zugesichert und erteilt, gelten die energetischen Anforderungen als
+> erfuellt (mit Zertifikat entfallen EN-101 bis EN-111, siehe `[[energienachweis-zh]]`).
+> Rechtsgrundlage gefuehrt in `wissen/baurecht/wiki/baubewilligungsverfahren`.
+
 ## Die drei Standards (+ ECO)
 | Standard | Idee | Profil |
 |---|---|---|

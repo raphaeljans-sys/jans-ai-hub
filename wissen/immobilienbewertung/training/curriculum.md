@@ -51,6 +51,22 @@ Prioritaet**. Der Hauptfoliensatz (236 S.) ist damit vollstaendig eingearbeitet.
 | E10 | IMMO-06 Healthcare Kennwerte-Bibliothek (JANS-8-Objekt-Referenzblatt + WALD-Richtprojekt-Baumassen + SECO/USI-Effizienzstudie Crivelli 2001) | Healthcare-Wirtschaftlichkeits-/Flaechen-/Kostenkennwerte, optimale Betriebsgroesse → T19-Raster | projektstruktur-deliverables, realwert-sachwert, flaechendefinitionen-sia, ertragswert-dcf | ✓ **2026-07-06 (Run 14)**: T19-Raster befuellt — 8 reale CH-Heime (Bettzahl/GF-Bett/NF-Bett/Bauvol-HNF + BKP-2-Kosten 2'623-4'250 CHF/m2 GF), optimale Groesse 70-80 Betten. Offen: Emilienheim-Flaechenkennwerte, D8-DOCX |
 | E7 | Marktpuls (Web, laufend) | Zins/Mietzins/Referenzzins aktuell | investorenmarkt-makro | laufend ✓ **2026-07-12 (Run 17)**: Web-Check **alle Zins-/Preis-Anker unveraendert**; neu **massgebender Durchschnittszinssatz 31.03.2026 = 1.31 %** (von 1.32 % per 31.12.2025) → driftet weg von der Erhoehungsschwelle 1.37 %, Referenzzins-Erhoehungsrisiko sinkt weiter. SNB 0.00 % (Inflation 0.6 % Mai erdoelgetrieben, BIP ~1 %/1.5 %), SREBI Q2-2026 weiter nicht publiziert (Q1 0.69 bleibt Anker), WP-Sommerprognose 2026 Wohneigentum ~+3 % (EFH +3.1 %/ETW +2.8 %) bestaetigt. Frueher: ✓ 2026-07-06 (Run 14): Web-Check **alle Zins-Anker unveraendert** — SNB-Leitzins 0.00 % (Juni-2026-Entscheid gehalten, naechster Entscheid 09.2026), Referenzzins 1.25 % (naechste Publ. 01.09.2026). Kein neuer Publikationstermin seit Run 13 erreicht. Frueher: ✓ 2026-07-04 (Run 13): Web-Check **alle Zins-Anker unveraendert** — SNB 0.00 % (bis Ende 2026), Referenzzins 1.25 % (gueltig seit 02.09.2025, naechste Publ. 01.09.2026), 10-j Swap-Prognose 0.60→0.80 %; neu **WP-Segment-Prognose Geschaeftsflaechen 2026** (Buero +0.5 %/Detailhandel −1.5 %) → Gewerbe-Feinabstufung D3-Rest. Frueher: ✓ 2026-07-02 (Run 12): Web-Check **alle Anker unveraendert** — SNB 0.00 % (naechst. Entscheid 09.2026), Referenzzins 1.25 % (naechst. Publ. 01.09.2026), Mietindex Mai-2026 133.7 (+2.5 % YoY, juengster publ. Stand), 10-j Eidgenoss ~0.35 %. Frueher: ✓ 2026-06-26 (Run 9): Web-Check **SNB 0.00 % (19.06) + Referenzzins 1.25 % unveraendert**; neu **10-j Eidgenoss ~0.32-0.40 % (Juni 2026)** als risikofreies Basisniveau → konsolidierte JANS-Diskontsatz-Tabelle (D3). Run 8: SMG/Homegate-**Mietindex Mai-2026 133.7 (+2.5 % YoY)** > Prognose +0.7 %, Luzern +7.2 %; Referenzzins 1.25 % stabil + SREBI Q1-2026 0.69 bestaetigt. Run 7 (06-20): **SNB-Lagebeurteilung 18.06 Leitzins 0.00 %** gehalten, Referenzzins per 01.06 bei 1.25 % bestaetigt (Sprung auf 1.50 % NICHT eingetreten), WP-Prognose 2026 EW +2.8 % / EFH +3.1 % / Bauinvest. +5.3 % (Run 7 hatte keinen separaten Report). Run 6: SREBI Q1-2026 0.69, Durchschnittssatz 1.31 %. Laufend |
 
+**Stand Run 27 (2026-07-13):** Erster echt produktiver Lauf seit Run 24 — D6 breit ausgebaut
+statt weiterer Verifikations-Wiederholung. Multi-Agent-Workflow (8 parallele Extraktions-Agenten,
+Rule 260712c/Workflow-Autorisierung; alle 8 belegt, 0 Fehler) hat die amtlichen BZO-Dichtemasse
+von **8 weiteren JANS-Bezugsmaerkten** in [[az-gfz-kennwerte]] eingearbeitet: Niederhasli (CS-Fall),
+Oberrieden (Studio-Markt), Kilchberg (Emilienheim), Horgen, Kuesnacht, Meilen (Goldkueste/Zimmerberg),
+Adliswil, Richterswil. **Zwei materielle Befunde:** (1) **Niederhasli** (IVHB-BZO 2024) fuehrt eine
+**vierte Steuerungslogik** ein — Wohnzonen ohne Kennziffer, reine Huellensteuerung (Fassadenhoehe +
+Gebaeudemasse + Gruenflaechenziffer); (2) **Oberrieden-Hoehenkorrektur** — amtlich 8.5 m traufseitig,
+nicht 9.0 m (9.0 m ist die Flachdach-Fassadenhoehe); die Altannahme in Rule 260624 ist falsch und an
+Raphael zu flaggen. D6 deckt nun **19 Gemeinden** ab (alle 10 UBS-FS + alle mit realem JANS-Bewertungs-
+fall). Marktpuls (E7) unveraendert (SNB 0.00 %/Referenzzins 1.25 %, naechste Publikation 01.09.2026),
+kein neuer JANS-Bewertungsfall (juengster Wangen 8855). **Kernlektion:** die als «Grossrecherche noetig»
+abgetane D6-Ader (Run 23) ist per Workflow-Fan-out effizient batchweise zu schliessen — ein Agent je
+Gemeinde, ein amtlicher BZO-Fetch. Naechste Kandidaten nur noch bei konkretem Studienbedarf; sonst
+Ruecktaktung ins Nachtfenster. Details: `outputs/2026-07-13_training-run27.md`.
+
 **Stand Run 26 (2026-07-13):** Zwei der drei D6-Restvorbehalte aus Run 25 geschlossen. Direkter
 Web-Fund einer Textebene-freien, aber via Read-Tool visuell lesbaren **Muri-AG-Revision
 2018/2019** (RRB-genehmigt 27.02.2019) — deutliche AZ-Erhoehung + neue Hochdichte-Zone W3+

@@ -4,6 +4,9 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): Querbezug zu KB energie gesetzt
+- [link] `baubewilligungsverfahren.md`: Querbezug-Block → KB energie (`energienachweis-zh` Nachweisphysik) + planungsgrundlagen (Formulare/EVEN); Rollenteilung Verfahrensrecht=baurecht / Nachweis=energie fixiert. Kein Widerspruch gefunden (Paar energie↔baurecht: 0 Widersprueche). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
+
 ## 2026-07-14 — Buch-Run 41 (Phase 3, Modell-D §§ 295-298 PBG + § 48 BBV I aufgehoben + KNHV-Divergenz-Cleanup)
 - [hinweis] Drei Aufgaben, direkt geprüft (kein Agent-Fan-out; Fokus auf Rest-/Cleanup-Punkte, die keine Parallelinstanz bearbeitet). Schwerpunkt: Divergenzen und Rest-Flags schliessen.
 - [korrigiert] `buecher/band-2/17-gebaeude-und-raeume.md` (teil1): **Destillat↔Destillat-Divergenz** geschlossen — §§ 295-298 PBG waren im Schwester-Destillat [[17-gebaeude-und-raeume-teil2-ausruestungen]] bereits seit 2026-07-13 Modell-D-verifiziert, in teil1 aber noch als «Detail offen» geführt. Grundnorm-Kurzfassung «Allgemeine Anforderungen an Gebaeude» (§ 295 Waermeversorgung/Fernwaerme-Anschlusspflicht Abs. 2, § 296 Befoerderungsanlagen, § 297 Nebenraeume, § 298 RR-Delegation > 6 Geschosse) am strukturell richtigen Ort (vor §§ 299 ff.) ergänzt + auf teil2 als kanonische vertiefte Fundstelle verlinkt; eigenständig gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057) gegengeprüft, alle CONFIRMED. Offene-Punkte-Bullet + Frontmatter nachgeführt. Status bleibt `emerging` (Ausruestungen § 4 ABV + Einstellraeume §§ 37-39 BBV I ab Shot 632 noch ungelesen).

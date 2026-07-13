@@ -8,6 +8,13 @@ links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-lan
 
 # Residualwertmethode — Landwert aus der Projektentwicklung
 
+> **Querbezug KB grobkosten (Erstellungskosten-Kennwert):** Die Erstellungskosten (BKP 1–5) sind
+> der groesste Landwert-Hebel im Residual. Die kanonischen **CHF/m³-GV-Kennwerte** fuehrt
+> `wissen/grobkosten/wiki/kennwerte` (Wohnbau-Neubau Region ZH, kompoundierend). Fuer die
+> m²↔m³-Bruecke gilt der bereits entschiedene Faktor **0.70 Regelgeschoss / 0.60–0.61
+> Gesamtgebaeude** (E1, konsistent in beiden KBs). Das DXMA-Beispiel hier rechnet mit ~1'000
+> CHF/m³ inkl. UG — bei aktuellen Projekten den grobkosten-Kennwert gegenpruefen.
+
 Die **wichtigste Kennzahl der Projektevaluation** ist der **Landwert** — und der zentrale
 Lerninhalt des Wuest-Kurses: "Sie lernen den Landwert aus der Entwicklung eines typischen
 Mehrfamilienhauses zu berechnen." (Wuest-Kurs S. 2)

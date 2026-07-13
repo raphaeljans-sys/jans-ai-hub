@@ -1,3 +1,8 @@
+## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): 2 Aktualitaets-Flags in der fuehrenden Normen-KB
+- [flag] REGISTER Zeile 109 SIA 181: neuere Ausgabe **SIA 181:2020** vermerkt (KB energie fuehrt sie als aktuell); Re-Destillat 2020 ausstehend. QUESTIONS-Eintrag ergaenzt.
+- [flag] `destillate/vkf-merkblatt-2001-15-solaranlagen.md` (Offene Punkte teilweise beantwortet): belegte **Rev. 01.01.2022** (Quelle planungsgrundlagen `energie-pv-brandschutz`), Delta Unterdachbahnen RF3(cr)/RF4(cr); 2022er Re-Destillat empfohlen. QUESTIONS-Eintrag ergaenzt.
+- [befund] Doppelspur VKF-BSR normen ↔ planungsgrundlagen: Werte deckungsgleich (0 Widersprueche); normen bleibt fuehrend, planungsgrundlagen verweist neu hierher. Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
+
 ## 2026-07-13 — Mini-Run 15: Retro-Verifikation ral-gz638-2008 (Gitterroste)
 - Destillat `destillate/ral-gz638-2008.md` adversarial gegen das Original-PDF (24 S.)
   gegengeprüft: 46 Aussagen verglichen, 6 Ergänzungen/Korrekturen eingearbeitet

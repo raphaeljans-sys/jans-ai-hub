@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): 2 Querbezuege zur fuehrenden KB normen
+- [link] `brandschutz-pl03-wegweiser.md`: Querbezug-Block → KB normen (`vkf-*`-Destillate) als kanonische VKF-Fundstelle (Rule `normen-referenz.md`). **Doppelspur-Flag:** Run 34 hat VKF-BSR-Ziffern/Kennwerte direkt eingearbeitet; die Werte sind deckungsgleich (kein Widerspruch), aber materielle VKF-Ziffern sollen kuenftig aus normen gezogen statt dupliziert werden → offener Punkt fuer den naechsten `planungsgrundlagen-training`-Lauf.
+- [link] `energie-pv-brandschutz.md` → normen `vkf-merkblatt-2001-15-solaranlagen`; ⚠ Ausgaben-Delta 2015 (normen) vs. Rev. 2022 (hier belegt), z.B. Unterdachbahnen RF3(cr)/RF4(cr). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
+
 ## 2026-07-13 — Training Run 34 (Brandschutz + Energie, Token-Vollgas): acht bisher nie ausgewertete VKF-Einzelrichtlinien + U-Wert-Ordner-Delta
 - Fund: Ordner `PL-03/02 Brandschutzrichtlinien 2015-17-22/` enthaelt >20 einzelne VKF-BSR-PDF,
   von denen nur 3 ausgewertet waren — der Rest war nur pauschal als «02 BSR» kartiert.

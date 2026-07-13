@@ -106,7 +106,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 180 | 1999 | 1999✓ · 1988✗ | Bestand 2014 → **neuer als Register 2013** (2013 gueltig: 1999); Bestand vermutlich aktuell |
 | SIA 180/1 | —(alle zurueckgezogen) | 1988✗ |  |
 | SIA 180/4 | —(alle zurueckgezogen) | 1982✗ |  |
-| SIA 181 | 2006 | 2006✓ · 1988✗ | Bestand 2006 = gueltig 2013 ✓ |
+| SIA 181 | 2006 | 2006✓ · 1988✗ | Bestand 2006 = gueltig 2013 ✓; **⚠ neuere Ausgabe SIA 181:2020** (in KB energie `wiki/schallschutz-sia181` als aktuell gefuehrt) → Re-Destillat 2020 ausstehend (Wissens-Chef Run 3, 13.07.2026) |
 | SIA 183 | —(alle zurueckgezogen) | 1996✗ |  |
 | SIA 184 | 1972 | 1972✓ | Bestand 1972 = gueltig 2013 ✓ |
 | SIA 190 | 2000 | 2000✓ · 1993✗ |  |

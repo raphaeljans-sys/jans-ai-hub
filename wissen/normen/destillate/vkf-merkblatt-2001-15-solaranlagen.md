@@ -64,3 +64,8 @@ Anhang Ziff. 5 (S. 11): Prinzipskizze der PV-Anlagenkette von Solargenerator üb
 - Exakte RF-Klassen/Brandkennziffer-Zellwerte der Tabelle 1 (S. 6) bewusst nicht wörtlich übernommen (Urheberrecht); bei Bedarf im Original nachschlagen.
 - Verweis-Dokumente noch nicht als eigene Destillate vorhanden: BRL 22-15de "Blitzschutzsysteme", BRL 14-15 "Verwendung von Baustoffen", BSE 100-15 "Brandmauern", VKF-Wegleitung "Objektschutz gegen meteorologische Gefahren", VKF-Beschluss B vom 1.6.2014 (Hagelwiderstandsklassen) — je separates Destillat empfohlen, sobald benötigt.
 - Keine Angabe im Dokument, ob/wie dieses Merkblatt durch eine spätere Ausgabe ersetzt wurde — im REGISTER (`ersetzte_normen.pdf`) gegenprüfen.
+  - **Teilweise beantwortet (Wissens-Chef Run 3, 2026-07-13):** In KB planungsgrundlagen
+    (`wiki/energie-pv-brandschutz`) ist die **Rev. 01.01.2022** dieses Merkblatts belegt (dort mit
+    Swissolar-STP V4.00). Sichtbares Delta zur hier destillierten Ausgabe 2015: Unterdachbahnen
+    **RF3(cr)** (2022er Stand der Technik) statt **RF4(cr)** (Ziff. 3.2.3, 2015). → Re-Destillat der
+    Ausgabe 2022 empfohlen (dann führt normen wieder den aktuellen amtlichen Wortlaut).

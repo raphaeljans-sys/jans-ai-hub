@@ -2,7 +2,7 @@
 title: Dichte-Kennwerte (AZ / Baumassenziffer / Überbauungsziffer) je Gemeinde/Zone (D6)
 status: emerging
 last_updated: 2026-07-13
-sources: ["Thalwil: Bau- und Zonenordnung vom 18.03.2005 (teilrevidiert), Art. 3 Grundmasse, Synopse-Fassung (habitatmobilite.ch-Spiegel des amtlichen Thalwil-BZO-PDF)", "Wädenswil: Bau- und Zonenordnung (BZO), Art. 3 Grundmasse (ortsplanung.ch, offizieller Spiegel der Stadt Wädenswil)", "Zollikon: BZO Stand 5.4.2013, Art. 11+15 Grundmasse (zollikon.ch/_doc/4980595, konsolidierter Neudruck 19.02.2024; materiell identisch mit Erlass 26.06.1996; Teilrevision Gemeinderat-Beschluss 20.08.2025 noch nicht in Kraft)", "Maur: BZO neue Fassung (Ortsplanungsrevision, BDV-Genehmigung 26.09.2023), Art. 14/16 Grundmasse (maur.ch, Synoptische Darstellung 19.10.2021)", "Wald ZH: BZO, Art. 43 Grundmasse (wald-zh.ch)", "Einsiedeln: Baureglement Ausgabe 2025, Art. 49 Masse Wohnzonen (einsiedeln.ch sre_610100)", "Wangen SZ: Baureglement, Tabelle der Grundmasse (wangensz.ch)", "Regensdorf: BZO 2020, Art. 16 Grundmasse (oerebdocs.zh.ch docid=8897)", "Muri AG: Bau- und Nutzungsordnung (BNO) vom 21.06.2018, genehmigt RRB Nr. 2019-000184 vom 27.02.2019, § 9 Bauzonen-Tabelle (muri.ch, Bild-PDF ohne Textebene, visuell gelesen)", "Luzern Stadt: Bau- und Zonenreglement BZR 2022, Art. 40/43 (stadtluzern.ch)", "Langnau am Albis: langnauamalbis.ch/bzo, Revisions-Zeitplan BZO 2026/27 (Stand Juli 2026)"]
+sources: ["Thalwil: Bau- und Zonenordnung vom 18.03.2005 (teilrevidiert), Art. 3 Grundmasse, Synopse-Fassung (habitatmobilite.ch-Spiegel des amtlichen Thalwil-BZO-PDF)", "Wädenswil: Bau- und Zonenordnung (BZO), Art. 3 Grundmasse (ortsplanung.ch, offizieller Spiegel der Stadt Wädenswil)", "Zollikon: BZO Stand 5.4.2013, Art. 11+15 Grundmasse (zollikon.ch/_doc/4980595, konsolidierter Neudruck 19.02.2024; materiell identisch mit Erlass 26.06.1996; Teilrevision Gemeinderat-Beschluss 20.08.2025 noch nicht in Kraft)", "Maur: BZO neue Fassung (Ortsplanungsrevision, BDV-Genehmigung 26.09.2023), Art. 14/16 Grundmasse (maur.ch, Synoptische Darstellung 19.10.2021)", "Wald ZH: BZO, Art. 43 Grundmasse (wald-zh.ch)", "Einsiedeln: Baureglement Ausgabe 2025, Art. 49 Masse Wohnzonen (einsiedeln.ch sre_610100)", "Wangen SZ: Baureglement, Tabelle der Grundmasse (wangensz.ch)", "Regensdorf: BZO 2020, Art. 16 Grundmasse (oerebdocs.zh.ch docid=8897)", "Muri AG: Bau- und Nutzungsordnung (BNO) vom 21.06.2018, genehmigt RRB Nr. 2019-000184 vom 27.02.2019, § 9 Bauzonen-Tabelle (muri.ch, Bild-PDF ohne Textebene, visuell gelesen)", "Luzern Stadt: Bau- und Zonenreglement BZR 2022, Art. 40/43 (stadtluzern.ch)", "Langnau am Albis: langnauamalbis.ch/bzo, Revisions-Zeitplan BZO 2026/27 (Stand Juli 2026)", "Niederhasli: BZO Nr. 700.1, festgesetzt GV 11.12.2024, in Kraft ab 08.08.2025 (Totalrevision, IVHB), Art. 20/4/23 (niederhasli.ch/_doc/6004822)", "Oberrieden: BZO vom 12.09.2013, Stand 26.01.2026 (IVHB-Teilrevision), Art. 15/1/6 (oerebdocs.zh.ch docid=1253)", "Kilchberg: BZO Teilrevision, GV 23.05.2012, genehmigt 06.01.2014/18.02.2015, Massvorschriften Ziff. 2.1 (oerebdocs.zh.ch docid=1184)", "Horgen: BZO Gesamtrevision GV 15.09.2011, genehmigt 05.07.2016, TR 09.12.2021 genehmigt 05.06.2023, Ziff. 5.1 (oerebdocs.zh.ch docid=1101)", "Kuesnacht: BZO Stand Juli 2019, Art. 1/19/19b (kuesnacht.ch 700.1)", "Meilen: BZO GV 17.09.2020, in Kraft 01.05.2025, Art. 2/28/30 (meilen.ch _docn/2708348)", "Adliswil: BZO festgesetzt 05.04.1995, konsolidiert Stand Juni 2024, Art. 28/25/24/19 (adliswil.ch _docn/51379)", "Richterswil: BZO 1984 mit Aenderungen bis 08.09.2022, genehmigt 31.05.2023, Stand 18.08.2023, Art. 3 (richterswil.ch/_doc/4649779)"]
 links: [[marktdaten-gemeinden/zh-thalwil-8800]], [[marktdaten-gemeinden/zh-waedenswil-8820]], [[marktdaten-gemeinden/zh-zollikon-8125]], [[marktdaten-gemeinden/zh-maur-8124]], [[marktdaten-gemeinden/zh-regensdorf-8105]], [[marktdaten-gemeinden/zh-wald-8636]], [[marktdaten-gemeinden/sz-wangen-8854]], [[marktdaten-gemeinden/sz-einsiedeln-8840]], [[marktdaten-gemeinden/ag-muri-5630]], [[marktdaten-gemeinden/lu-luzern-6000]], [[residualwertmethode]], [[realwert-sachwert]], [[flaechendefinitionen-sia]], [[wissensluecken]]
 ---
 
@@ -18,15 +18,27 @@ Grossrecherche liegt nur im Umfang, nicht in der Methode.
 
 ## Achtung: unterschiedliche Bezugsgrössen — nicht direkt vergleichbar
 
-Der zentrale Befund aus Run 25: die Gemeinden regeln die bauliche Dichte über **drei
-verschiedene, nicht ineinander umrechenbare Kennziffern**. Ein Vergleich «AZ Gemeinde A ↔
-AZ Gemeinde B» ist nur zulässig, wenn beide dieselbe Bezugsgrösse verwenden:
+Der zentrale Befund (Run 25, erweitert Run 27): die Gemeinden regeln die bauliche Dichte
+über **vier verschiedene, nicht ineinander umrechenbare Logiken**. Ein Vergleich «AZ
+Gemeinde A ↔ AZ Gemeinde B» ist nur zulässig, wenn beide dieselbe Bezugsgrösse verwenden:
 
-| Kennziffer | Definition | Grössenordnung Wohnen | Gemeinden (hier) |
+| Kennziffer/Logik | Definition | Grössenordnung Wohnen | Gemeinden (hier) |
 |---|---|---|---|
-| **Ausnützungsziffer (AZ)** | anrechenbare Geschossfläche ÷ anrechenbare Landfläche | 0.20–0.85 | Thalwil, Wädenswil, Maur, Wangen SZ, Regensdorf, Muri AG |
-| **Baumassenziffer (BMZ/BZ)** | oberirdisches Bauvolumen (m³) ÷ anrechenbare Landfläche (m²) | 1.1–3.0 m³/m² | Zollikon, Wald ZH |
-| **Überbauungsziffer (ÜZ)** | anrechenbare Gebäudegrundfläche ÷ anrechenbare Landfläche | 0.20–0.31 | Einsiedeln, Luzern |
+| **Ausnützungsziffer (AZ)** | anrechenbare Geschossfläche ÷ anrechenbare Landfläche | 0.20–0.85 | Thalwil, Wädenswil, Maur, Wangen SZ, Regensdorf, Muri AG, Oberrieden, Adliswil, Richterswil |
+| **Baumassenziffer (BMZ/BZ)** | oberirdisches Bauvolumen (m³) ÷ anrechenbare Landfläche (m²) | 1.0–3.8 m³/m² | Zollikon, Wald ZH, Kilchberg, Horgen, Küsnacht, Meilen |
+| **Überbauungsziffer (ÜZ)** | anrechenbare Gebäudegrundfläche ÷ anrechenbare Landfläche | 0.20–0.31 | Einsiedeln, Luzern, Adliswil (nur Kernzone Ober-Leimbach) |
+| **Keine Kennziffer — reine Hüllensteuerung** | Dichte ausschliesslich geometrisch: Fassadenhöhe (max.) + Gebäudelänge/-breite (max.) + Grünflächenziffer (min.); IVHB-Regelbauweise | — (Volumen ergibt sich aus der Hülle) | Niederhasli (BZO 2024) |
+
+**Vierte Logik neu (Run 27):** Niederhasli hat mit der Totalrevision 2024 (IVHB) die
+klassischen Dichte-Kennziffern in den **Wohnzonen ganz abgeschafft** — es gibt kein AZ,
+kein BMZ, kein ÜZ mehr. Die zulässige Dichte ergibt sich allein aus der maximalen
+Gebäudehülle (Fassadenhöhe, Länge, Breite) plus der Grünflächenziffer als einziger
+prozentualer Zonenziffer. Für die Bewertung/Machbarkeit heisst das: das Volumen ist **aus
+der Hüllgeometrie zu rechnen**, nicht aus einer Ziffer × Landfläche. Klassische BMZ/ÜZ
+existieren dort nur noch in den Gewerbe-/Industriezonen. Dieselbe IVHB-Umstellung findet
+sich bei Meilen und Oberrieden, die die Kennziffer aber (BMZ bzw. AZ) behalten haben —
+die Kennziffer-Abschaffung ist also ein Gestaltungsentscheid der Gemeinde, keine zwingende
+IVHB-Folge.
 
 Faustregel-Umrechnung (grob, **Annahme**, nur zur Einordnung, nie für die Bewertung
 selbst): BMZ ÷ ~3.0–3.2 m Geschosshöhe ≈ AZ pro Vollgeschoss-Äquivalent; ÜZ × Anzahl
@@ -330,6 +342,198 @@ Revision rechtskräftig ist. (Wichtig für den JANS-Fall 2621 Giebelweg 12 — Z
 harmonisiert nach **IVHB** definiert werden, innere Verdichtung in Einfamilienhausquartieren
 gefördert, preisgünstiger Wohnraum an ausgewählten Lagen. Kein neues in-Kraft-Datum.
 
+## Niederhasli (ZH, PLZ 8155) — keine Kennziffer / reine Hüllensteuerung (BZO 2024, IVHB)
+
+Quelle: Bauordnung (BZO) Niederhasli Nr. 700.1, festgesetzt Gemeindeversammlung 11.12.2024,
+**in Kraft ab 08.08.2025** (Totalrevision, IVHB-harmonisiert), Art. 20 (Wohn-/Zentrumszonen),
+Art. 4 (Kernzonen), Art. 23 (Gewerbe-/Industriezonen) — `niederhasli.ch/_doc/6004822`.
+**JANS-Bezug: CS-Bewertungsfall Seestrasse 64 (2025).** Kernbefund: die Wohnzonen haben
+**keine AZ/BMZ/ÜZ** mehr; die Dichte wird geometrisch über die Gebäudehülle plus
+Grünflächenziffer (min. 20 %, Zentrumszone 10 %) gesteuert.
+
+| Zone | Dichte-Kennziffer | Fassadenhöhe max. | Gebäudelänge / -breite max. | Bemerkung |
+|---|---|---|---|---|
+| WE2 | keine (nur EFH/DEFH, Art. 21) | 7.50 m | 16.00 / 16.00 m | giebelseitig +7 m (45°-Schrägdach); Attika +3.3 m; kl. Grundabstand 5.00 m |
+| W2 | keine | 8.10 m | 22.00 / 14.00 m | Arealüberbauung: +1 Vollgeschoss → 11.40 m, Länge 40 m |
+| W3 | keine | 10.50 m | 30.00 / 14.00 m | Arealüberbauung: → 13.50 m, Länge 50 m; QEZ an W3 angelehnt (Höhen via Höhenkoten) |
+| WG2 | keine (Gewerbeanteil ≥ 10 %) | 8.10 m | 30.00 / 14.00 m | — |
+| WG3 | keine (Gewerbeanteil ≥ 10 %) | 11.40 m | 50.00 / 14.00 m | — |
+| WG4 | keine (Gewerbeanteil ≥ 10 %) | 14.70 m | 60.00 / 14.00 m | giebelseitig +5 m |
+| Z (Zentrumszone) | keine (Gewerbe ≥ 20 %) | 15.40 m | 70.00 / unbeschränkt | Grünflächenziffer nur 10 % |
+| K3 (Kernzone Niederhasli) | max. 3 VG + 2 DG | 10.50 m | 30.00 / 14.00 m | Satteldach 40–50° |
+| K2 (Kernzone übrige) | max. 2 VG + 2 DG | 8.10 m | 30.00 / 14.00 m | Satteldach 40–50° |
+
+Alle Wohnzonen zusätzlich: Grünflächenziffer min. 20 %, kleiner Grundabstand min. 5.00 m,
+Gebäudeabstand min. 10.00 m; Attikageschoss (Flachdach) +3.3 m fassadenbündig, +1.00 m bei
+offener Absturzsicherung. Zusätzliche Dichte via Arealüberbauung (Art. 27–29, +10 %
+Geschossfläche / zusätzliches Vollgeschoss, ab 3'000 m²). Klassische BMZ (6–7 m³/m²) und ÜZ
+(65 %) existieren nur in den **Gewerbe-/Industriezonen** (GA6, GB6, I7, IT7; Art. 23), nicht
+in den Wohnzonen.
+
+## Oberrieden (ZH, PLZ 8942) — Ausnützungsziffer (BZO 2013, Stand 26.01.2026 IVHB)
+
+Quelle: BZO Oberrieden vom 12.09.2013, **Stand 26.01.2026** (IVHB-Teilrevision, GV-Beschluss
+05.06.2025, in Kraft seit 26.01.2026), Art. 15 (Grundmasse Wohnzonen), Art. 1 (Zonen/
+Kennziffern), Art. 6 (Kernzonen) — `oerebdocs.zh.ch/getDoc?docid=1253`. **JANS-Bezug:
+Machbarkeits-Studio-Markt (Zürichsee-Westufer).** Massgebend bleibt die AZ; Gewerbezonen
+G3/G6 nutzen BMZ (3 bzw. 6 m³/m²).
+
+| Zone | AZ | Vollgeschosse | Fassadenhöhe trauf / giebel / Flachdach | Gesamthöhe Flachdach | Grünflächenz. min. |
+|---|---|---|---|---|---|
+| W2 (25 %) | 25 % | 2 | 8.5 / 13.0 / 9.0 m | 12.3 m | 40 % |
+| W2 (35 %) | 35 % | 2 | 8.5 / 13.0 / 9.0 m | 12.3 m | 40 % |
+| WG2 (30 %) | 30 % | 2 | 8.5 / 13.0 / 9.0 m | 12.3 m | 40 % (ES III) |
+| W3 (55 %) | 55 % | 3 | 11.5 / 17.0 / 12.0 m | 15.3 m | 30 % |
+| WG3 (50 %) | 50 % | 3 | 11.5 / 17.0 / 12.0 m | 15.3 m | 30 % (ES III) |
+| Kernzone KB | 35 % | 2 | 7.5 / 13.0 m | — | 30 % (Gebäudebreite max. 12 m) |
+| Kernzone KA | — (keine AZ) | 3 | 10.5 / 16.0 m | — | 20 % |
+
+W2/W3: Dachgeschoss max. 1 bzw. 2, Attikageschoss max. 1, anrechenbare UG max. ½;
+Gebäudelänge max. 25 m (W2) / 40 m (W3), Grundabstand min. 5 m. Bei Flachdach mit offener/
+transparenter Brüstung +1 m Fassadenhöhe.
+
+**Korrektur einer JANS-Altannahme (wichtig):** Eine frühe interne Notiz (Grundlage von Rule
+`auto-verbesserungen` 260624) führte für die Oberriedner W2 «9.0 m traufseitig / 13.0 m
+giebelseitig». Amtlich ist die **traufseitige Fassadenhöhe 8.5 m**; 9.0 m gilt nur für die
+**Flachdach**-Fassadenhöhe (Gesamthöhe Flachdach 12.3 m). Für Volumenstudien in Oberrieden
+sind die drei Höhenmasse (trauf 8.5 / giebel 13.0 / Flachdach 9.0 m) sauber auseinanderzuhalten.
+
+## Kilchberg (ZH, PLZ 8802) — Baumassenziffer
+
+Quelle: BZO Kilchberg, Teilrevision Nutzungsplanung, GV 23.05.2012, genehmigt 06.01.2014 /
+18.02.2015, Teil B «Massvorschriften» Ziff. 2.1 — `oerebdocs.zh.ch/getDoc?docid=1184`.
+**JANS-Bezug: Healthcare-Fall Emilienheim.** Kennziffer: **Baumassenziffer (BMZ, m³/m²)**.
+
+| Zone | BMZ Hauptgeb. | Vollgeschosse | Gebäudehöhe max. | Gesamtlänge max. | BMZ bes. Geb. |
+|---|---|---|---|---|---|
+| W1 | 1.40 | 1 | 4.80 m | 24.00 m | 0.20 |
+| W2A | 1.60 | 2 | 8.10 m | 24.00 m | 0.30 |
+| W2B | 1.80 | 2 | 8.10 m | 32.00 m | 0.30 |
+| W3A | 2.00 | 3 | 11.40 m | 40.00 m | 0.40 |
+| W3B | 2.50 | 3 | 11.40 m | 40.00 m | 0.40 |
+| WG2 | 1.90 | 2 | 8.10 m | 32.00 m | 0.30 (ES III) |
+| WG3 | 2.60 | 3 | 11.40 m | 40.00 m | 0.40 (ES III) |
+
+Anrechenbare Dachgeschosse max. 2 (Schrägdach) / 1 (Flachdach), anrechenbares UG max. 1;
+Grundabstand 5–6 m. Zuschlag bis max. 0.2 m³/m² zur BMZ Hauptgebäude für Pflichtabstellplätze
+im Hauptgebäude über gewachsenem Terrain (Ziff. 2.2).
+
+## Horgen (ZH, PLZ 8810) — Baumassenziffer (Zonencode = BMZ)
+
+Quelle: BZO Horgen, Gesamtrevision GV 15.09.2011, genehmigt 05.07.2016, jüngste Teilrevision
+09.12.2021 (genehmigt 05.06.2023), Ziff. 5.1 Grundmasse — `oerebdocs.zh.ch/getDoc?docid=1101`.
+Kennziffer: **BMZ Hauptgebäude** (die Zonenbezeichnung codiert die BMZ direkt, z.B. W2.5 =
+BMZ 2.5). **Alte Messweise** (PBG/ABV/BBV, NICHT IVHB); keine Vollgeschosszahl (Aufteilung
+auf Dach-/Unter-/Vollgeschosse innerhalb der Höhe frei, Ziff. 5.1.1).
+
+| Zone | BMZ | Gebäudehöhe max. | Firsthöhe max. | Gesamtlänge max. | Grundabstand kl./gr. |
+|---|---|---|---|---|---|
+| W1.2 | 1.2 | 7.5 m | 7.0 m | 25.0 m (30 bei GH ≤ 7.5) | 4.0 / 8.0 m |
+| W1.6 | 1.6 | 7.5 m | 7.0 m | 25.0 m | 4.0 / 8.0 m |
+| W1.9 | 1.9 | 10.5 m | 7.0 m | 30.0 m | 4.0 / 10.0 m |
+| W2.5 | 2.5 | 10.5 m | 7.0 m | 30.0 m | 4.0 / 10.0 m |
+| W2.7 | 2.7 | 13.5 m | 7.0 m | 40.0 m | 5.0 / 12.0 m |
+| W3.3 | 3.3 | 16.5 m | 7.0 m | 50.0 m | 5.0 / 15.0 m |
+| WG1.6 | 1.6 | 7.5 m | 7.0 m | 30.0 m | 4.0 / 8.0 m |
+| WG2.5 | 2.5 | 10.5 m | 7.0 m | 40.0 m | 4.0 / 10.0 m |
+| WG4.8 | 4.8 | Gesamthöhe 24.5 m | — | — | 4.0 / 10.0 m |
+
+WG-Zonen: Baumassenzifferzuschlag ¼ der Grundausnützung für dauernd gewerblich genutzte
+Teile (Ziff. 5.5.3), Gewerbeanteil min. 15 % (WG4.8).
+
+## Küsnacht (ZH, PLZ 8700) — Baumassenziffer (Goldküste, vgl. Zollikon)
+
+Quelle: BZO Küsnacht, Stand Juli 2019, Art. 1 (Zoneneinteilung/BMZ), Art. 19 (Grundmasse) +
+Art. 19b (Sonderbauvorschriften) — `kuesnacht.ch/.../700.1_Bau-_und_Zonenordnung.pdf`.
+Kennziffer: **BMZ (m³/m²)**; die W2 ist allein über die BMZ-Stufe (7 Stufen) differenziert.
+
+| Zone | BMZ | Vollgeschosse | Gebäudehöhe | Firsthöhe | Gebäudelänge |
+|---|---|---|---|---|---|
+| W2 | 1.00 | 2 | 7.5 m (2 VG + DG) / 8.1 m (2 VG + UG) | 4.5 m | 25.0 m |
+| W2 | 1.15 | 2 | 7.5 / 8.1 m | 4.5 m | 25.0 m |
+| W2 | 1.20 | 2 | 7.5 / 8.1 m | 4.5 m | 25.0 m |
+| W2 | 1.30 | 2 | 7.5 / 8.1 m | 4.5 m | 25.0 m |
+| W2 | 1.40 | 2 | 7.5 / 8.1 m | 5.0 m | 25.0 m |
+| W2 | 1.50 | 2 | 7.5 / 8.1 m | 5.0 m | 25.0 m |
+| W2 | 1.75 | 2 | 7.5 / 8.1 m | 5.0 m | 25.0 m |
+| WG2 | 2.30 | 2 | 10.5 m | 5.0 m | 25.0 m |
+| W3 | 2.40 | 3 | 10.5 m | 6.0 m | 30.0 m |
+| W3 | 2.75 | 3 | 10.5 m | 6.0 m | 30.0 m |
+| WG3 | 2.75 | 3 | 10.5 m | 6.0 m | 40.0 m |
+| W4 | 3.80 | 4 | 13.5 m | 6.0 m | 40.0 m |
+| W4 | ohne BMZ (oB) | 4 | 13.5 m | 6.0 m | 40.0 m |
+
+BMZ besondere Gebäude 0.20 (bis 1'000 m² 0.20, darüber 0.10); bei beidseitig geneigtem
+Schrägdach BMZ Hauptgebäude +0.10 (Art. 19 Abs. 5); Grundgrenzabstand 5–7 m. W4 «oB»: in
+bezeichneten Gebieten gilt keine Baumassenziffer (Art. 19 Abs. 2).
+
+## Meilen (ZH, PLZ 8706) — Baumassenziffer (BZO 2020, in Kraft 01.05.2025, IVHB)
+
+Quelle: BZO Meilen, Revision Nutzungsplanung, GV 17.09.2020, **in Kraft seit 01.05.2025**,
+Art. 2 (Zonen/BMZ), Art. 28 (Grundmasse), Art. 30 (Wohnzone mit Gewerbeanteil) —
+`meilen.ch/_docn/2708348`. Kennziffer: **BMZ**; keine Vollgeschosszahl (IVHB, Fassadenhöhe
+traufseitig gemessen).
+
+| Zone | BMZ | Fassadenhöhe trauf max. | Gesamtlänge max. | ES |
+|---|---|---|---|---|
+| W 1.0 | 1.0 | 7.5 m | 20 m | II |
+| W 1.4 | 1.4 | 7.5 m | 30 m | II |
+| W 1.8 | 1.8 | 7.5 m | 30 m | II |
+| W 2.2 | 2.2 | 10.5 m | 30 m (50 in bez. Gebieten) | II |
+| W 2.4 | 2.4 | 10.5 m | 30 / 50 m | II |
+| W 2.6 | 2.6 | 13.5 m | 50 m | II |
+| WG 1.4 | 1.4 | 8.1 m | — | III |
+| WG 2.2 | 2.2 | 11.4 m | wie W 2.2 | III |
+| WG 2.4 | 2.4 | 11.4 m | — | III |
+| WG 2.8 | 2.8 | 14.7 m | 50 m | III |
+
+Zuschläge Fassadenhöhe (Art. 28 Abs. 2): Attika +3.3 m (= zugleich Gesamthöhe), Schrägdach
++5 m giebelseitig; Dachneigung Schrägdächer 15–45°. WG: erhöhte Fassadenhöhe wegen
+Gewerbeanteil; BMZ für dauernd gewerblich genutzte Bauten erhöhbar (Art. 30 Abs. 2).
+
+## Adliswil (ZH, PLZ 8134) — Ausnützungsziffer (Alt-BZO 1995, Stand Juni 2024)
+
+Quelle: BZO Stadt Adliswil, festgesetzt 05.04.1995, genehmigt RR 04.10.1995, konsolidierte
+Fassung **Stand Juni 2024**, Art. 28 (Wohnzonen), Art. 25 (Zentrumszonen), Art. 24
+(Quartiererhaltungszonen), Art. 19 (Kernzone Ober-Leimbach) — `adliswil.ch/_docn/51379`.
+**JANS-Bezug: Zimmerberg, Nachbar Langnau am Albis.** Kennziffer: **AZ** (Alt-BZO, nicht IVHB);
+Kernzone Ober-Leimbach abweichend **ÜZ**.
+
+| Zone | AZ | Vollgeschosse | Gebäudehöhe max. | Firsthöhe max. | ES |
+|---|---|---|---|---|---|
+| W2 | 30 % | 2 (+1 DG) | 7 m | 4 m | II |
+| W3 | 50 % | 3 | 9 m | 3 m | II |
+| W4 | 70 % | 4 | 12 m | 3 m | II |
+| WG | 70 % | 4 (+1 DG) | 14 m | 4 m | III |
+| ZW (Zentrum West) | 110 % | 5 (+1 DG) | 16 m | 4 m | III |
+| ZO (Zentrum Ost) | 85 % | 4 (+1 DG) | 14 m | 4 m | III |
+| ZQ (Zentrum Quartier) | 100 % | 5 | 16 m | — (kein First) | III |
+| K Ober-Leimbach | 20 % ÜZ (25 % inkl. bes. Geb.) | 3 (+2 DG) | 8.5 m | — | — |
+
+Quartiererhaltungszonen QE Büni (2 VG, GH 6 m) und QE Grundstrasse (3 VG, GH 9 m) ohne AZ —
+Dichte über Vollgeschosse/Höhe/Gebäudemasse. Grundabstand W2/W3 klein 5 / gross 9 m, W4/WG
+6 / 10 m. Adliswil hat mit ZW 110 % / 5 VG spürbar höhere Dichten als die Zürichsee-
+Wohngemeinden — Vorortsstadt-Charakter am Sihltal.
+
+## Richterswil (ZH, PLZ 8805) — Ausnützungsziffer (Zonencode = AZ)
+
+Quelle: BZO Richterswil, erlassen 02./04.10.1984 mit Änderungen bis 08.09.2022, genehmigt
+Baudirektion 31.05.2023, **Stand 18.08.2023**, Art. 3 Grundmasse — `richterswil.ch/_doc/4649779`.
+Kennziffer: **AZ** (Zonencode codiert AZ-Grundwert, z.B. W3/50 = AZ 50 %). Nur W2/W3, keine
+W1/W4.
+
+| Zone | AZ | Vollgeschosse | Fassadenhöhe trauf max. | giebelseitig / Flachdach | Gebäudelänge |
+|---|---|---|---|---|---|
+| W2/30 | 30 % | 2 (+1 DG/Attika) | 7.5 m | +5.0 m Schrägdach / +3.3 m Attika / +1.0 m Flachdach | 30.0 m |
+| WG2/30 | 30 % | 2 (+1 DG/Attika) | 7.5 m | wie W2/30 | 30.0 m |
+| W3/50 | 50 % | 3 (+1 DG/Attika) | 10.5 m | +5.0 m / +3.3 m / +1.0 m | — |
+| WG3/60 | 60 % | 3 (+1 DG/Attika) | 10.5 m | wie W3/50 | — |
+
+AZ-Boni: Arealüberbauung +5 %; nachhaltige Siedlungserneuerung +17 % (W3) / +20 % (WG3,
+Art. 9a); Arealüberbauung mit preisgünstigem Wohnungsbau +10 % (Art. 34). Anrechenbare UG
+max. 1; Grundabstand W2 4.0 / 8.0 m. Hanglagen-Zuschlag ab 15 % Hangneigung (talseitige
+Fassadenhöhe erhöht, Fussnote 2) — relevant am Zürichsee-Hang.
+
 ## Offen / nächste Schritte
 
 - **Langnau am Albis** — Wiedervorlage, sobald die BZO 2026/27 rechtskräftig ist (Run 26:
@@ -341,6 +545,18 @@ gefördert, preisgünstiger Wohnraum an ausgewählten Lagen. Kein neues in-Kraft
   gültiger Stand 5.4.2013 bestätigt materiell identisch mit 1996, Zentrumszone ergänzt).
 - **Muri AG** — ✓ Run 26 geschlossen: Revision 2018/2019 vollständig erfasst (Bild-PDF
   visuell gelesen), neue Zone W3+ (AZ 0.8) + generelle AZ-Erhöhung dokumentiert.
-- Damit ist D6 für die JANS-Bezugsmärkte **weitgehend geschlossen**: 9 von 11 Gemeinden
-  mit vollständiger, aktueller Dichte-Tabelle, 1 System-Beschrieb (Luzern), 1 mit
-  Status-Vorbehalt (Langnau ausser Kraft, Revision hängig).
+- **Run 27 (2026-07-13):** 8 weitere JANS-Bezugsmärkte ergänzt — Niederhasli (CS-Fall),
+  Oberrieden (Studio-Markt), Kilchberg (Emilienheim/Healthcare), Horgen, Küsnacht, Meilen
+  (Goldküste/Zimmerberg), Adliswil, Richterswil. Zwei materielle Befunde: (a) **Oberrieden-
+  Höhenkorrektur** — amtlich 8.5 m traufseitig (nicht 9.0 m; 9.0 m ist die Flachdach-
+  Fassadenhöhe); korrigiert eine Altannahme aus Rule 260624. (b) **Niederhasli** (IVHB-BZO
+  2024) führt die **vierte Steuerungslogik** ein: Wohnzonen ohne Kennziffer, reine
+  Hüllensteuerung. Übrige Goldküsten-/Zimmerberg-Gemeinden bestätigen das BMZ-Muster
+  (Kilchberg/Horgen/Küsnacht/Meilen wie Zollikon), Adliswil/Richterswil das AZ-Muster.
+- Damit deckt D6 nun **19 Gemeinden** ab: 16 mit vollständiger, aktueller Dichte-Tabelle
+  (9 AZ, 6 BMZ, 1 keine-Kennziffer/Hülle), 1 System-Beschrieb (Luzern, ÜZ), 1 mit
+  Status-Vorbehalt (Langnau ausser Kraft, Revision hängig). Alle 10 UBS-FS-Gemeinden plus
+  alle Gemeinden mit realem JANS-Bewertungsfall sind erfasst.
+- **Nächste Kandidaten** (falls der Intensiv-Takt weiterläuft): weitere JANS-Studien-
+  Gemeinden nach Bedarf; sonst fällt die KB in den Marktpuls-/Bewertungsfall-Beobachtungs-
+  modus zurück (Rücktaktung ins Nachtfenster erneut sinnvoll).

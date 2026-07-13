@@ -23,10 +23,10 @@ paragraphen:
   - § 71 PBG (Anschlusspflicht Fernwaerme via Energieplan)
   - Art. 45 BZG, ZSV, KZV (Schutzraeume)
   - StFV / § 239 PBG (Stoerfallvorsorge)
-status: emerging
+status: established
 gelesen: 2026-06-29
-last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 295-298 PBG, Refutations-Pruefung: alle CONFIRMED, Luecke §§ 296-298 geschlossen)
+last_updated: 2026-07-14
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 295-298 PBG, Refutations-Pruefung: alle CONFIRMED, Luecke §§ 296-298 geschlossen); 2026-07-14 (Buch-Run 42 — § 4 ABV CONFIRMED gegen raw/260607_amtlich_zh_abv.md Z. 87-88; §§ 37/38/39/40 BBV I CONFIRMED gegen raw/260607_amtlich_zh_bbv1.md Z. 523-542 [Detailtext liegt in Teil 1]; § 239a/§ 239b PBG KORRIGIERT — Zuordnung > 8-WE-Schwelle war faelschlich § 239b statt § 239a Abs. 2 zugeordnet, siehe Abschnitt 17.5. Status emerging→established, keine offenen needs-verification-Punkte mehr.)
 ---
 
 # Kap. 17 — Gebaeude und Raeume; Ausruestungen (Teil 2: Ausruestungen)
@@ -85,8 +85,12 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
   «wichtigen Gruenden» (§ 360 Abs. 3 PBG) (S. 1271).
 - **Drei Kategorien (Art. 3 BehiG):** oeffentlich zugaengliche Bauten/Anlagen; Wohngebaeude;
   Gebaeude mit Arbeitsplaetzen (S. 1273-1274).
-- **§ 239b PBG:** Inneres bei > 8 WE behindertengerecht zugaenglich; bei > 5 WE Inneres
-  «anpassbar» mit geringem baulichem Aufwand (S. 1276-1278).
+- **§ 239b PBG [KORRIGIERT 2026-07-14, Modell D]:** die Zuordnung im Buch/Destillat war
+  vertauscht. Amtlich (raw/260607_amtlich_zh_pbg.md Z. 2450-2461): **§ 239a Abs. 2 PBG**
+  regelt die **> 8-WE-Schwelle** (alle Einheiten zugaenglich, Inneres anpassbar); **§ 239b
+  PBG** regelt die **5-8-WE-Schwelle** (mind. ein Geschoss zugaenglich, Zugang zu den
+  uebrigen Einheiten anpassbar, Inneres aller Einheiten anpassbar). Siehe Tabelle Zeile
+  "BehiG Wohngebaeude" unten, ebenfalls korrigiert.
 - **Kostenkriterium / Verhaeltnismaessigkeit (Art. 12 BehiG):** unverhaeltnismaessig, wenn
   Anpassungskosten **> 5 % des Gebaeudeversicherungs-/Neuwertes** (bzw. > 20 % der
   Erneuerungskosten) (Art. 7 BehiV) (S. 1284). Umfassende Interessenabwaegung (Art. 11
@@ -125,10 +129,15 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
   (Art. 47 ZSV, § 23 ZSV; § 27/28 KZV) — Beitrag vor Baubeginn (Art. 21 ZSV) (S. 1294-1295).
 
 ### 17.9 Haustechnische Anlagen (S. 1296-1303)
-- **§ 4 ABV (Allgemeine Bauverordnung):** Ausruestungen fachgerecht erstellen und
-  betreiben; **fachgerecht = nach dem jeweiligen Stand der Technik** und nach
-  ausreichender Erfahrung/Untersuchung als geeignet/wissenschaftlich anerkannt; Richtlinien
-  und Normen staatlich anerkannter Fachverbaende beachtlich (§ 2 BBV I) (S. 1296).
+- **§ 4 ABV (Allgemeine Bauverordnung) [CONFIRMED 2026-07-14, Modell D]:** Ausruestungen
+  fachgerecht erstellen und betreiben; **fachgerecht = nach dem jeweiligen Stand der Technik**
+  und nach ausreichender Erfahrung/Untersuchung als geeignet/wissenschaftlich anerkannt;
+  Richtlinien und Normen staatlich anerkannter Fachverbaende beachtlich (§ 2 BBV I) (S. 1296).
+  Amtlicher Wortlaut (raw/260607_amtlich_zh_abv.md Z. 87-88, Legaldefinition): «Ausruestungen
+  sind technische Einrichtungen von Bauten und Anlagen, die der Benuetzung oder der Sicherheit
+  dienen.» — Buch-Paraphrase deckt sich, § 4 ABV selbst ist nur die Begriffsdefinition, die
+  Fachgerecht-/Stand-der-Technik-Anforderung stammt aus dem systematischen Zusammenspiel mit
+  § 2 BBV I.
 - **Heizungsanlagen §§ 295-298 PBG:**
   - **Begriff** = alle Arten von Waermeproduktionsanlagen (Heizkessel, Waermepumpen,
     Fernwaermestation, Elektroheizung, WKK) (S. 1297).
@@ -172,7 +181,7 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 | Hoechstanteil nicht erneuerbare Energie (Neubau) | ≤ 80 % des zul. Waermebedarfs | § 47a BBV I / § 10a EnerG, S. 1262/1302 |
 | Waermedaemmung Systemnachweis | ≥ 80 % der zul. Waermebedarfe gedeckt | SIA 380/1, S. 1260 |
 | Gesamtenergiedurchlassgrad Sonnenschutzglas (Einzelanf.) | < 0.3 | S. 1260 |
-| BehiG Wohngebaeude | > 8 Wohneinheiten (Inneres zugaenglich), > 5 WE «anpassbar» | § 239b PBG, S. 1276 |
+| BehiG Wohngebaeude | 5-8 WE: 1 Geschoss zugaenglich + Inneres aller WE anpassbar (§ 239b PBG); > 8 WE: alle WE zugaenglich + Inneres anpassbar (§ 239a Abs. 2 PBG, korrigiert) | §§ 239a/239b PBG, S. 1276 |
 | BehiG Arbeitsplaetze | > 50 Arbeitsplaetze | Art. 3 BehiG, S. 1280 |
 | Kostenschranke Behindertenanpassung | > 5 % Gebaeudeversicherungs-/Neuwert (bzw. > 20 % Erneuerungskosten) | Art. 7 BehiV / Art. 12 BehiG, S. 1284 |
 | Geländer/Brustung erforderlich ab | Absturzhoehe > 1 m | SIA 358, S. 1290 |
@@ -217,11 +226,15 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 
 ## 6. Offene Punkte / zu verifizieren
 
-- **Garagen-/Einstellraeume-Detail §§ 37-39 BBV I** (Teil der urspruenglichen Restschuld)
-  ist in den Shots 632-655 (S. 1256-1303) **nicht enthalten** — diese Seiten behandeln
-  17.4-17.9. Die Garagen-/Abstellplatz-Regelung liegt in einem anderen Seitenbereich
-  (vermutlich frueher in Kap. 17 oder bei den Abstellplaetzen/Erschliessung). **Noch offen,
-  in spaeterem Shot-Bereich zu suchen.**
+- ~~**Garagen-/Einstellraeume-Detail §§ 37-39 BBV I**~~ → **geschlossen 2026-07-14 (Modell-D-
+  Volltextabgleich):** liegt tatsaechlich im Schwester-Destillat **Teil 1**
+  (`17-gebaeude-und-raeume.md`, Abschnitt «Einstellraeume/Nebenraeume», S. 1254 f.), nicht in
+  diesem Shot-Bereich — dort gegen `raw/260607_amtlich_zh_bbv1.md` Z. 523-542 volltextverifiziert:
+  **§ 37 Abs. 1 BBV I** (Garagenlueftung, keine schaedlichen Abgaskonzentrationen), **§ 38 BBV I**
+  (Kehrichtabfuhr-Anlagen, Geruchsvermeidung, Containerraeume/-schaechte entlueften), **§ 39 BBV I**
+  (Einstellgelegenheiten Vorraete/Hausrat **8 m² je Wohnung, 5 m² bei ≤ 2 Zimmern**), **§ 40 BBV I**
+  (Aufzugspflicht **> 5 anrechenbare Geschosse**, Kabine min. 210×110 cm/Tuerbreite 80 cm, **> 9
+  Geschosse** = 2 Aufzuege) — alle CONFIRMED, keine Abweichung vom Buchtext.
 - ~~**§§ 296-298 PBG im Wortlaut:** Das Buch behandelt § 295 PBG ausfuehrlich; §§ 296-298
   (Lueftung/Klima/Elektro im engeren Sinn) sind in diesem Bereich nur gestreift — genauer
   Inhalt noch zu belegen.~~ → **geschlossen 13.07.2026 (Modell-D-Volltextabgleich):**

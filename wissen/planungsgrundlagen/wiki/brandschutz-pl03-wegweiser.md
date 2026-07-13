@@ -21,6 +21,15 @@ wann noetig, Vorlagen) und die **Qualitaetssicherungsstufen (QSS)** als Planungs
 > bindet sich der Brandschutznachweis ins **Baubewilligungsverfahren** ein. Muster war der
 > Solar-Schnittstellen-Artikel [[energie-pv-brandschutz]] (Grundlage statt Doppel).
 
+> **Querbezug KB normen (fuehrende VKF-Fundstelle):** Die einzelnen **VKF-Brandschutz-
+> richtlinien** (BSR 10/11/13/15/16/19/20/21-15, BSE 101/102-15, Merkblatt 2001-15) liegen als
+> ziffern-genaue Destillate in `wissen/normen/destillate/vkf-*` — laut Fuehrungs-Matrix ist
+> **normen** die kanonische Fundstelle fuer SIA/VKF-Normzitate (Rule `normen-referenz.md`).
+> Dieser Wegweiser nennt VKF-Kennwerte nur als **Orientierung** und soll die materielle Ziffer
+> aus dem normen-Destillat ziehen statt sie zu duplizieren (sonst driften die Werte bei der
+> naechsten VKF-Revision auseinander). Verbleibende Doppelfuehrung: offener Punkt fuer den
+> naechsten `planungsgrundlagen-training`-Lauf (Wissens-Chef Run 3, 2026-07-13).
+
 ---
 
 ## 1 · VKF-Vorschriftenstruktur 2015 (B3) — was liegt wo

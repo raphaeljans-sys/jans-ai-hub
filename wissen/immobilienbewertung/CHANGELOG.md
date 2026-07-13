@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 27: D6 breit ausgebaut — 8 JANS-Bezugsmärkte via Workflow-Fan-out
+
+- **[[az-gfz-kennwerte]] erweitert von 11 auf 19 Gemeinden.** Multi-Agent-Workflow (8 parallele
+  Extraktions-Agenten, Workflow-Autorisierung Rule 260712c; alle 8 `obtainable=true`, 0 Fehler)
+  zog je die amtliche BZO-Grundmasse der Wohnzonen: **Niederhasli** (BZO 2024, IVHB, in Kraft
+  08.08.2025), **Oberrieden** (BZO 2013/Stand 26.01.2026), **Kilchberg** (BZO 2012/14/15),
+  **Horgen** (BZO 2011/16 TR 2021/23), **Küsnacht** (Stand 2019), **Meilen** (BZO 2020 IVHB),
+  **Adliswil** (BZO 1995/Stand 2024), **Richterswil** (Stand 2023). Alle mit exakter Quelle
+  (Artikel + URL), nichts geraten.
+- **Zwei materielle Befunde:** (1) **Niederhasli** (IVHB-Totalrevision 2024) hat die Dichte-
+  Kennziffern in den Wohnzonen **ganz abgeschafft** — kein AZ/BMZ/ÜZ, reine Hüllensteuerung
+  (Fassadenhöhe + Gebäudemasse + Grünflächenziffer). Das ist eine **vierte Steuerungslogik**;
+  die Bezugsgrössen-Tabelle wurde von drei auf vier Modi erweitert. (2) **Oberrieden-Höhen-
+  korrektur:** amtlich 8.5 m traufseitig / 13.0 m giebelseitig / 9.0 m Flachdach — die
+  Altannahme «9.0 m traufseitig» in Rule `auto-verbesserungen` 260624 ist falsch. **Flag an
+  Raphael:** das illustrative Beispiel in Rule 260624 korrigieren (8.5 m trauf statt 9.0 m).
+- **Register gepflegt:** INDEX, wissensluecken (D6-Zeile + Section-B + Erledigt), _INGESTED
+  (externe amtliche Quellen), curriculum (Stand Run 27). Marktpuls (E7) unverändert (SNB
+  0.00 %/Referenzzins 1.25 %), kein neuer JANS-Bewertungsfall. Report:
+  `outputs/2026-07-13_training-run27.md`.
+- **Kernlektion:** die in Run 23 als «Grossrecherche nötig, nicht in einem Trainingslauf
+  leistbar» abgetane D6-Ader ist per Workflow-Fan-out (ein Agent je Gemeinde) effizient
+  batchweise zu schliessen — Vorlage für künftige belegpflichtige Batch-Extraktionen.
+
 ## 2026-07-13 — Training-Run 26: D6 weiter geschlossen — Muri-AG-Revision 2018/19 + Zollikon bestaetigt
 
 - **[[az-gfz-kennwerte]] aktualisiert:** **Muri AG** von Stand 31.10.2012 auf die **Revision

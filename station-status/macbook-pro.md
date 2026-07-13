@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 20:42:11
+Stand: 13.07.2026 20:52:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:12)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:48)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 20:42:11
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f98aae52 sync: twin-fidelity-review: 2026-07-13 Siebtlauf (Fidelity 93, 2 neue Drift-Punkte, 3 neue Fragen)
+- fb7bc490 wettbewerbs-dna: Nachbrenner-Fix jury-argumente-schulbauten (10 Refuter-Korrekturen, Zweitlauf bestanden, established) + Lauf 5 Referenz-Katalog

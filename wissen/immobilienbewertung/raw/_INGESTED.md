@@ -14,8 +14,13 @@ Gemeinde-/Kantonsseite gezogen (`curl` amtliche PDF → `pdftotext -layout` → 
 Eingearbeitet in [[az-gfz-kennwerte]]: Thalwil, Waedenswil (Run 24); Zollikon (oerebdocs docid=1611,
 BZO 1996), Maur (maur.ch, nBZO 2023), Wald ZH (wald-zh.ch), Einsiedeln (einsiedeln.ch, Baureglement
 2025), Wangen SZ (wangensz.ch), Regensdorf (oerebdocs docid=8897, BZO 2020), Muri AG (muri.ch,
-Stand 2012), Luzern (stadtluzern.ch, BZR 2022, System-Beschrieb) — Run 25. Offen: Langnau am Albis
-(BZO ausser Kraft, Revision 2026/27).
+Stand 2012→Run 26 Revision 2018/2019), Luzern (stadtluzern.ch, BZR 2022, System-Beschrieb) — Run 25.
+**Run 27:** Niederhasli (niederhasli.ch/_doc/6004822, BZO 2024 IVHB — keine Kennziffer), Oberrieden
+(oerebdocs docid=1253, BZO 2013 Stand 26.01.2026), Kilchberg (oerebdocs docid=1184, BZO 2012/14/15,
+BMZ), Horgen (oerebdocs docid=1101, BZO 2011/16 TR 2021/23, BMZ), Kuesnacht (kuesnacht.ch 700.1,
+Stand 2019, BMZ), Meilen (meilen.ch _docn/2708348, BZO 2020 IVHB, BMZ), Adliswil (adliswil.ch
+_docn/51379, BZO 1995 Stand 2024, AZ), Richterswil (richterswil.ch/_doc/4649779, BZO Stand 2023, AZ).
+Offen: Langnau am Albis (BZO ausser Kraft, Revision 2026/27).
 
 | Quelle | Pfad (ab IMMO) | Typ | Stand | Status | Ziel-Artikel |
 |---|---|---|---|---|---|

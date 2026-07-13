@@ -8,6 +8,14 @@ links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]]
 
 # PV/Solar — Brandschutz & Naturgefahren (Schnittstelle Architekt/Bauleitung)
 
+> **Querbezug KB normen (VKF-Wortlaut):** Der amtliche VKF-Quelltext zu Solaranlagen —
+> **VKF-Brandschutzmerkblatt 2001-15** (Brandmauer-Uebergang, RWA-Abstand 2 m, 1200-m²-RF1-Grenze,
+> Kennzeichnung) — liegt als fuehrendes Destillat in
+> `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen`. Dieser Artikel behaelt die
+> **Solar-Schnittstellen-/Praxisableitung** (Swissolar-STP V4.00, Merkposten). ⚠ Ausgaben-Stand:
+> das normen-Destillat fuehrt die Ausgabe **2015**, hier ist die **Rev. 01.01.2022** belegt
+> (Folge z.B. Unterdachbahnen RF3(cr) statt 2015er RF4(cr)) — 2022er-Re-Destillat in normen offen.
+
 Beantwortet **E6/C1** (curriculum/QUESTIONS): die brandschutz- und naturgefahren-relevanten
 **Planungs-Schnittstellen** einer Solaranlage zum Gebaeude — nicht die Bauteil-Klassifizierung
 selbst. Quelle ist das **Swissolar Stand-der-Technik-Papier (STP) zum VKF-Brandschutzmerkblatt

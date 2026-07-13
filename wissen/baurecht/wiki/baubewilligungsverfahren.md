@@ -123,6 +123,13 @@ Berechnung der Nutzungsziffern (siehe [[nutzungsziffern]]), Energienachweis,
 Brandschutznachweis (ab bestimmter Grösse), Grundbuchauszug, Katasterplan,
 ggf. Lärm-/Altlastennachweis.
 
+> **Querbezug KB energie (Nachweisführung/Formulare):** Den **Energienachweis** selbst —
+> EN-ZH/EVEN-Formularmatrix, Grenzwerte, Private Kontrolle — führt die energie-KB
+> `wissen/energie/wiki/energienachweis-zh` (Fachphysik) bzw. der Wegweiser
+> `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare` (Bedienung, Agent
+> `energie-berater`). Dieser Artikel bleibt führend für die **verfahrensrechtliche**
+> Einbindung (Beilagepflicht, Anzeige- vs. ordentliches Verfahren, Minergie-Vermutung).
+
 ## Häufige Stolpersteine
 Unvollständige Unterlagen (Nachforderung mit Zeitverlust), Baugespann nicht
 fristgerecht, Waldabstand 30 m nicht eingehalten — führt zu Verzögerung (siehe [[abstaende-und-hoehen]]),

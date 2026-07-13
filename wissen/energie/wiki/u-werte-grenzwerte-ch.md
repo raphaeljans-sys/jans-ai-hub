@@ -11,6 +11,11 @@ links: [[INDEX]], [[BAUHERREN-FAQ]]
 Themenartikel zu den verbindlichen Anforderungen des winterlichen Waermeschutzes. Faktenbasis:
 EnFK-Vollzugshilfe EN-102 (Dez 2018, SIA 380/1:2009).
 
+> **Querbezug KB normen (Fundstelle/Ausgabe SIA 380/1):** Norm-Fundstelle und Gueltigkeitsstand
+> fuehrt das normen-Register `wissen/normen/wiki/REGISTER` (Zeile 204 SIA 380/1). Ausgaben-Kette:
+> 1988→2001→2007→2009→**2016**; Kt. ZH heute **SIA 380/1:2016** (dieser Artikel), die Register-
+> Tabellenzeile fuehrt die 2013-Benchmark-Ausgabe **2009** mit Fussnoten-Verweis auf 2016.
+
 ## Die zwei Nachweiswege
 - **Einzelbauteilnachweis** — feste U-Wert-Grenzwerte je Bauteil. Einfach, aber jede Anforderung
   muss einzeln eingehalten sein.

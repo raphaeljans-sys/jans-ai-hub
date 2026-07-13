@@ -8,6 +8,11 @@ links: [[INDEX]], [[BAUHERREN-FAQ]]
 
 # Sommerlicher Waermeschutz & Hitzeschutz
 
+> **Querbezug KB normen (Rechenverfahren/Grenzwerte):** Das konkrete Rechenverfahren und die
+> Grenzwerte des sommerlichen Waermeschutzes nach **SIA 180:2014** (g_tot-Anforderung Ziff. 5.2.4.1,
+> Glasanteil-Tabelle 8 Ziff. 5.2.2.3) liegen ziffern-genau im Destillat
+> `wissen/normen/destillate/sia-180-2014` — von dort ziehen statt hier nachrechnen.
+
 Mit dem Klimawandel wird der **sommerliche** Waermeschutz so wichtig wie der winterliche. Ziel: ein
 Gebaeude, das auch im heisser werdenden Klima ohne (oder mit minimaler) aktiver Kuehlung komfortabel
 bleibt. Minergie verlangt seit der Ueberarbeitung 2023 den Nachweis auf Basis **modellierter

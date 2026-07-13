@@ -11,6 +11,12 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschu
 Schnellreferenz fuer die verbindlichen CH-Schallschutz-Anforderungen. Speist FAQ **F25** (Schallschutz-
 Pflicht) und schaerft **F17** (taugt CLT-Holzbau akustisch). Faktenbasis → `[[sia-181-schallschutz-anforderungswerte]]`.
 
+> **Querbezug KB normen (Fundstelle/Ausgabe):** Norm-Fundstelle SIA 181 fuehrt die normen-KB
+> (`wissen/normen/destillate/sia-181-2006`, Register `wissen/normen/wiki/REGISTER` Zeile 109).
+> ⚠ **Ausgaben-Diskrepanz:** dieser Artikel arbeitet mit der aktuellen Ausgabe **SIA 181:2020**;
+> das normen-Register fuehrt bislang **2006** als gueltig (2013-Register-Benchmark). Re-Destillat
+> SIA 181:2020 in normen ausstehend (Wissens-Chef Run 3, 2026-07-13).
+
 ## Vier Schutzziele, eine Logik
 SIA 181:2020 regelt vier Laermarten: **Luftschall** (Stimme/TV durch die Wand), **Trittschall**
 (Gehen oben), **Haustechnik** (WP/Lueftung/Sanitaer) und **Aussenlaerm** (Strasse/Bahn). Bewertet

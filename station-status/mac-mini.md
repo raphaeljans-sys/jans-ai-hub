@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 20:39:41
+Stand: 13.07.2026 20:59:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 20:39:41
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b3213909 planungsgrundlagen-training Run 34: acht VKF-Einzelrichtlinien (BMA/Sprinkler/Loescheinrichtungen/Befoerderungsanlagen/Kennzeichnung/Nachweisverfahren/Begriffe/Fluchtwege) + U-Wert-Ordner-Delta (EN-102-d/Bauteilkatalog/CLT-Feuchte)
+- 7c586510 normen-training Mini-Run 15: Retro-Verifikation ral-gz638-2008 (Gitterroste)
