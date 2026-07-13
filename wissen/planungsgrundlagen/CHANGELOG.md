@@ -2,6 +2,40 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 24 (Kartenportale + Brandschutz, Token-Vollgas 2 Domaenen): Naturgefahren-Checkliste vertieft, Grundwasserkarte + Baumkataster neu, vier Brandschutz-Sonderbauaufgaben (Atrien/Doppelfassaden/Kleinstbeherbergung/Holzbau) erschlossen
+- **[[kartenportale-naturgefahren-objektschutz]] erweitert (K10-Rest):** VKG/SIA/HEV-Checkliste
+  «Gebaeudeschutzmassnahmen» (Dez. 2020) vollstaendig gelesen — Gefaehrdungsabklaerung je
+  Naturgefahr mit Normzuordnung, **Praezisierung SIA 261 (Neubau) vs. SIA 269/8 (Umbau) bei
+  Erdbeben** (JANS-Kerngeschaeft ist ueberwiegend Umbau/Sanierung, die falsche Norm waere ein
+  Fehler), Bauteilkatalog-Prinzip, Hagelregister.ch + HW3-Empfehlung (Querverweis
+  [[energie-pv-brandschutz]]). **NEU §6 Grundwasserkarte** (AGI Kt. SZ, 1:2'000) als eigenstaendige
+  UG-/Unterkellerungs-Planungsgrundlage (Weisse-Wanne-Entscheid). Offen bleibt ehrlich dokumentiert:
+  ZH-Endpunkt fuer Naturgefahren + Grundwasser nicht gefunden (`GetCapabilities`-Discovery an
+  `maps.zh.ch/wfs/OGDZHWFS` schlaegt fehl — kein Layer-Katalog abrufbar, nur bekannte Alias-IDs).
+- **NEU Abschnitt [[kartenportale-geoportale-uebersicht]] §Baumkataster (K12, niedrige Prioritaet):**
+  Baumkataster ist **kein** kantonal/schweizweit standardisiertes Geoportal-Produkt, sondern eine
+  kommunale GIS-Fachanwendung (Quelle: Produktblatt GEOINFO IT AG) — Bezugsweg gemeinde-/
+  portalspezifisch, bewusst kein Connector-Anspruch.
+- **[[brandschutz-pl03-wegweiser]] um vier neue Sonderbauaufgaben-Abschnitte erweitert:**
+  - **§4d Atrien/Innenhoefe** (VKF-Erlaeuterung 101-15de) — Healthcare-relevant fuer grosse
+    verglaste Eingangs-/Wartehallen; Definition + 3 Typen A/B/C mit Brandabschnittsbildung/RWA/
+    Loeschanlage/Fluchtweg-Simulationsnachweis.
+  - **§4e Doppelfassaden** (VKF-Erlaeuterung 102-15de) — **JANS-Healthcare-Kernbefund:** Typ B
+    (unsegmentierte Zwischenklimazone) zieht bei schlafenden Personen zwingend BMA-Vollueberwachung
+    UND ein Verbot oeffenbarer Fenster nach sich — ein Konflikt mit natuerlicher Lueftung, der
+    schon in der Fassadenkonzeption zu loesen ist.
+  - **§4f Kleine Beherbergungsbetriebe/Berghuetten < 20 Personen** — Schwellenwert-Ausnahme von der
+    strengeren Beherbergungs-QSS-Kategorie, realer JANS-Benchmark **Biwak Grassen** (QSS 2, R30
+    statt R60, BMA-Erleichterung Rauchwarnmelder statt Alarmaufschaltung).
+  - **§5 Holzbau-Brandschutz** (Lignum-Dokumentation Themenblock 4) — R/EI/REI-Systematik, RF1
+    begrenzt auf REI 30/60/90 (nicht 120/180/240), Kapselungsregel K30-RF1, Abgleich zu R60/R90-
+    Schwellen aus §4b — fruehzeitiger Warnhinweis fuer Holzbau-Ambition bei Healthcare-Grossprojekten.
+- Alle sechs Quellen (Checkliste SvN, Grundwasserkarte, Baumkataster-Produktblatt, 2× VKF-
+  Erlaeuterung, Lignum-Dokumentation, realer Biwak-Grassen-Fall) im Original/PDF direkt gelesen,
+  keine Sekundaerzitate. Nachtrag: dieser CHANGELOG-Eintrag sowie curriculum.md/QUESTIONS.md/
+  `_INGESTED.md` wurden nachtraeglich zum bereits im Wiki vorhandenen Run-24-Inhalt ergaenzt
+  (die inhaltliche Arbeit lief bereits, die Registerpflege war noch offen).
+
 ## 2026-07-13 — Training Run 23 (Energie + Recht & Norm, Token-Vollgas 2 Domaenen): Zusatzformulare Baueingabe, Raumprogramm-Referenzwerke, Denkmalschutz-PBG-Revision neu erfasst; D3-Skill-Entscheid gefaellt
 - **NEU [[energie-baueingabe-zusatzformulare]] (E12/D9):** drei bisher unbearbeitete `PL-04/
   endk.ch`-Unterordner vollstaendig ausgewertet — **WTA-Formular** (Gesuch-/Meldeformular

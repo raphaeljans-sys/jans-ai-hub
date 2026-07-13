@@ -3,6 +3,15 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K10-Rest** Checkliste Gebaeudeschutzmassnahmen (VKG/SIA/HEV) im Detail + Grundwasserkarte
+  als eigenstaendige Planungsgrundlage. ✓ **2026-07-13 (Run 24):** Checkliste vollstaendig gelesen —
+  Gefaehrdungsabklaerung je Naturgefahr mit Normzuordnung, **SIA 261 Neubau vs. SIA 269/8 Umbau bei
+  Erdbeben** praezisiert, Bauteilkatalog/Hagelregister.ch/HW3; **NEU §6** Grundwasserkarte Kt. SZ
+  (Weisse-Wanne-Entscheid bei Unterkellerung) → [[kartenportale-naturgefahren-objektschutz]] §3b/§6.
+  Offen bleibt: ZH-Endpunkt Naturgefahren + Grundwasser (Discovery-Versuch dokumentiert erfolglos).
+- [x] **K12** Baumkataster als Planungsgrundlage (niedrige Prioritaet). ✓ **2026-07-13 (Run 24):**
+  kein kantonal/schweizweit standardisiertes Portal, kommunale GIS-Fachanwendung, kein
+  Connector-Anspruch → NEU [[kartenportale-geoportale-uebersicht]] §Baumkataster.
 - [x] **K10** Naturgefahrenkarte/Objektschutzkonzept als eigenstaendige Planungsgrundlage. ✓
   **2026-07-13 (Run 22):** NEU [[kartenportale-naturgefahren-objektschutz]] — SZ-Rechtsgrundlagen
   (§ 20/17 PBG, Art. 6/15 RPG), **Gefahrenstufen rot/blau/gelb/gelb-weiss** mit Bauvorschrift je
@@ -182,6 +191,21 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C11 (B10)** Atrien/Innenhoefe — ab wann gilt ein Raum als Atrium, welche Massnahmen? ✓
+  **2026-07-13 (Run 24):** VKF-Erlaeuterung 101-15de vollstaendig — Definition (>3'600 m²/
+  >3 Geschosse/>11 m), 3 Typen A/B/C, Innenhof-Sonderregel <5 m Breite → NEU
+  [[brandschutz-pl03-wegweiser]] §4d.
+- [x] **C12 (B11)** Doppelfassaden — verschaerfte Anforderungen bei schlafenden Personen? ✓
+  **2026-07-13 (Run 24):** VKF-Erlaeuterung 102-15de — Typ A/B, **JANS-Healthcare-Kernbefund**
+  Typ B zieht BMA-Vollueberwachung + Verbot oeffenbarer Fenster nach sich → NEU
+  [[brandschutz-pl03-wegweiser]] §4e.
+- [x] **C13 (B12)** Kleine Beherbergungsbetriebe/Berghuetten < 20 Personen — gilt die strengere
+  Beherbergungs-QSS-Kategorie? ✓ **2026-07-13 (Run 24):** 20-Personen-Schwelle belegt, realer
+  Benchmark Biwak Grassen (QSS 2, R30, BMA-Erleichterung) → NEU [[brandschutz-pl03-wegweiser]] §4f.
+- [x] **C14 (B13)** Holzbau-Brandschutz — Einordnung in die VKF-Feuerwiderstandssystematik
+  (R/EI/REI, RF1)? ✓ **2026-07-13 (Run 24):** Lignum-Dokumentation Themenblock 4 — RF1 begrenzt
+  auf REI 30/60/90, Kapselungsregel K30-RF1, Abgleich zu §4b R60/R90-Schwellen → NEU
+  [[brandschutz-pl03-wegweiser]] §5.
 - [x] **C10 (B9)** Parkhaeuser/Einstellraeume als eigene Brandschutz-Bauaufgabe (Tragwerk/
   Brandabschnitte/Fluchtwege/RWA/Sprinkler) — reale JANS-Frage bei Healthcare-/Wohnbauten mit
   Tiefgarage. ✓ **2026-07-13 (Run 21):** VKF-Arbeitshilfe 1002-03d ausgewertet (⚠ Datenstand
