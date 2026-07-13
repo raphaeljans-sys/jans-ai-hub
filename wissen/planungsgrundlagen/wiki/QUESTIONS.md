@@ -67,6 +67,16 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R9** Tiefgarage-/Parkierungserschliessung (VSS 640 050/281/291a) als beschaffbare
+  Planungsgrundlage — Rampenneigung, Parkfeld-/Fahrgassenmasse, Wendehammer. ✓ **2026-07-13
+  (Run 21):** NEU [[recht-norm-tiefgarage-erschliessung]] — Zufahrtstyp A/B/C (VSS 640 050),
+  Parkfeld-/Fahrgassenmasse + lichte Hoehe je Komfortstufe A/B/C (VSS 640 291a), **Rampenneigung
+  12-18 % je nach Komfortstufe/Deckung** + Neigungsknicke ≤6 %, Kurvenverbreiterung, Kontroll-
+  einrichtungs-Layout (max. 3 % Neigung); reale ZH-Kantonspraxis Ausfahrtstyp A (IBV Huesler AG,
+  Neigungsknicke bis 18 %) deckungsgleich mit Norm; Wendehammer-Nachweis 12-m-LKW (VRV Art.
+  64/65/65a, Enz & Partner GmbH, 3 Geometrie-Beispiele); Praxis-Benchmark Tiefgarage Flurstrasse
+  (externe Referenz, Komfortstufe B, Stuetzenabstand-Befund deckt sich mit Norm-Minimum).
+  Querverbindung zur brandschutztechnischen Seite → [[brandschutz-pl03-wegweiser]] §4c.
 - [x] **B1** Aktualitaet der Bundeserlasse in PL-02 gegen fedlex pruefen (Datenstand setzen).
   ✓ Teil-erledigt 2026-06-08 (Schema + RPG/EnG); **vollendet 2026-06-20 (Run 7):** alle relevanten
   SR auf fedlex-ELI gemappt — BehiG `cc/2003/667`, NHG `cc/1966/1637_1694_1679` (Aend. AS 2025 429),
@@ -134,6 +144,17 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C10 (B9)** Parkhaeuser/Einstellraeume als eigene Brandschutz-Bauaufgabe (Tragwerk/
+  Brandabschnitte/Fluchtwege/RWA/Sprinkler) — reale JANS-Frage bei Healthcare-/Wohnbauten mit
+  Tiefgarage. ✓ **2026-07-13 (Run 21):** VKF-Arbeitshilfe 1002-03d ausgewertet (⚠ Datenstand
+  06.08.2003, vor Anwendung gegen bsvonline.ch pruefen) — Tragwerk UG mind. R 60 (nbb) bzw. R 30
+  bei eingeschossig/unterirdisch/nicht ueberbaut; Brandabschnittsflaechen 4'000/2'000/8'000 m²
+  (mit Sprinkler verdoppelbar); **Fluchtweg-Kernzahlen: 1 Treppenanlage nur bis 600 m² BGF, 2+
+  Treppenanlagen bis 900 m² je, Gesamt-Fluchtweglaenge 35/50 m**; RWA-Verzichtsschwellen 600/1'200 m²
+  (mit Sprinkler verdoppelt); Sprinklerpflicht ab 4'000/2'000/8'000 m² bzw. ab 50 Kompaktparkplaetzen.
+  **JANS-Praxisrelevanz:** grosse Healthcare-Untergeschosse brauchen frueh im Vorprojekt zwei
+  raeumlich getrennte vertikale Fluchtwege → [[brandschutz-pl03-wegweiser]] §4c. Querverbindung zur
+  Erschliessungsgeometrie (VSS-Normen) → [[recht-norm-tiefgarage-erschliessung]].
 - [x] **C7 (B6)** Brandschutzabstaende zwischen Gebaeuden als belegte Kernzahlen. ✓ **2026-07-13
   (Run 19):** VKF-BSR 15-15de Ziff. 2.1-2.4 — Regel-Abstaende 5/7.5/10 m + reduzierte 4/5/6 m
   (RF1/einseitig/beidseitig brennbar), Sonderfaelle Nebenbauten (4 m, 150 m² Areal-Befreiung),

@@ -2,8 +2,8 @@
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024) und «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH)]
-links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]]
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024) und «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH)]
+links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]]
 ---
 
 # Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS)
@@ -286,6 +286,82 @@ Ziff. 7.4.2 der Wohnbauten-Arbeitshilfe (= BSR 16-15, Z.3.2.2):
 
 ---
 
+## 4c · Parkhäuser und Einstellräume für Motorfahrzeuge (Run 21, 2026-07-13)
+
+Quelle: **VKF-Brandschutzarbeitshilfe 1002-03d «Parkhäuser und Einstellräume für Motorfahrzeuge»**
+(genehmigt **06.08.2003** — datiert **vor** der BSV-2015-Generation, `05 Arbeitshilfen Brandschutz
+2015/1002-03d_Parkhaeuser.pdf`). ⚠ **Datenstand-Vorbehalt:** die Arbeitshilfe selbst verweist auf
+`bsvonline.vkf.ch` für die aktuelle Ausgabe — vor Anwendung in einem realen Nachweis **gegen die
+dortige Fassung/Stand pruefen** (Status hier bewusst `established` nur für die Grössenordnung/
+Systematik, nicht für punktgenaue Zahlen in einem laufenden Bewilligungsverfahren). Ergänzt die
+Erschliessungsgeometrie in [[recht-norm-tiefgarage-erschliessung]] (VSS-Normen) um die
+brandschutztechnische Seite derselben Bauaufgabe.
+
+**Geltungsbereich:** Einstellräume (Parkhäuser, Garagen, Unterstände) **> 150 m²** Grundfläche für
+Motorfahrzeuge (Verbrennungsmotor) sowie E-Fahrzeuge.
+
+**Schutzabstände zu Nachbargebäuden (Ziff. 3):** identisch zur allgemeinen BSR-15-15de-Systematik
+(→ §4b) — 10 m / 7.5 m / 5 m je nach Brennbarkeit der Aussenwand-Aussenschicht.
+
+**Tragwerk (Ziff. 5, Tab. 1/2):** Untergeschoss-Einstellräume brauchen **mind. R 60 (nbb)**, bzw.
+**R 30** bei eingeschossigen, unterirdischen, nicht überbauten Einstellräumen — unabhängig von der
+Tabellen-Systematik nach Geschosszahl/Fläche. Mit Sprinkleranlage (Tab. 2) reduzierbar (z. B. R 60
+→ R 30 bei 4 Geschossen). **Kein Tragwerksnachweis** nötig bei eingeschossigen oberirdischen
+Bauten oder im obersten Geschoss.
+
+**Brandabschnittsbildung (Ziff. 6.1.1/6.2):** Parkhäuser/Einstellräume sind eigene Brandabschnitte,
+getrennt von anderen Nutzungen. Bei mehrgeschossigen Einstellräumen mit **offener Verbindung**
+(Rampen) umfasst der Brandabschnitt **alle verbundenen Geschosse**. Zulässige
+Brandabschnittsfläche: **4'000 m²** (eingeschossig oder Geschosse einzeln abgetrennt), **2'000 m²**
+bei offener Geschossverbindung, **8'000 m²/Geschoss** bei teilweise offenen Anlagen — mit
+Sprinkler **verdoppelbar**. Brandmauern zwischen zusammengebauten Parkhäusern: **REI 180 (nbb)**,
+bei ≤ 3 Geschossen **REI 90 (nbb)** genügt.
+
+**Fluchtwege (Ziff. 7) — die praxisrelevantesten Kernzahlen:**
+
+| Kriterium | Wert |
+|---|---|
+| Max. Bruttogeschossfläche bei nur EINER Treppenanlage | 600 m² |
+| Max. Bruttogeschossfläche je Treppenanlage bei MEHREREN | 900 m² |
+| Max. Abstand Treppenanlage zum Gebäudeende | 15 m |
+| Fluchtweglänge im Raum, EIN Ausgang | max. 20 m |
+| Fluchtweglänge im Raum, ZWEI+ Ausgänge | max. 35 m |
+| Gesamtlänge Fluchtweg zu EINER Treppenanlage/Ausgang | max. 35 m |
+| Gesamtlänge Fluchtweg zu ZWEI+ Treppenanlagen/Ausgängen | max. 50 m |
+| Min. Breite Treppen/Korridore | 1.2 m |
+| Min. lichtes Durchgangsmass Türen | 0.9 m |
+
+Untergeschosse mit **2 oder mehr UG** brauchen grundsätzlich **mind. 2 Treppenanlagen**.
+Treppenhäuser als Fluchtweg: Feuerwiderstand **mind. REI 60 (nbb)**, Brandschutzabschlüsse
+**mind. EI 30**; bei ≤ 3 Geschossen und zulässiger brennbarer Bauweise genügt REI 60 mit nicht
+brennbarer Dämmung + beidseitiger Verkleidung EI 30 (nbb). Korridore als Fluchtweg: mind. EI 30
+(nbb), in Untergeschossen faktisch identisch behandelt.
+
+**Rauch- und Wärmeabzug RWA (Ziff. 7.6 Treppenhaus / 8.3 Einstellraum selbst):**
+- **Treppenhäuser** ab 4 Geschossen (ohne UG) ohne ausreichende direkte Lüftungsflügel: RWA-Öffnung
+  zuoberst, freie Fläche **5 % der Grundfläche, min. 0.5 m²**, von der Eingangsebene aus bedienbar,
+  betriebsbereit auch bei Stromausfall.
+- **Einstellraum selbst:** RWA-Verzicht möglich bei unterirdischen/allseits geschlossenen
+  Brandabschnitten **≤ 600 m²** (mit Sprinkler ≤ 1'200 m²) bzw. oberirdisch nicht allseits
+  geschlossenen **≤ 1'200 m²** (mit Sprinkler ≤ 2'400 m²). Bis **2'400 m²** (Sprinkler 4'800 m²)
+  genügen Entrauchungsöffnungen mit min. **1 % der Brandabschnittsfläche** freier geometrischer
+  Lüftungsfläche; darüber ist ein **nutzungsbezogenes RWA-Konzept** erforderlich.
+
+**Löscheinrichtungen (Ziff. 8.1):** Wasserlöschposten so verteilt, dass die **Gehweglinie zum
+nächsten Löschgerät max. 40 m** beträgt.
+
+**Sprinklerpflicht (Ziff. 8.2):** ab Brandabschnittsfläche **> 4'000 m²** (unterirdisch/
+eingeschossig) bzw. **> 2'000 m²** (mehrgeschossig offen verbunden) bzw. **> 8'000 m²/Geschoss**
+(teilweise offen); **immer** bei mechanischen Kompaktparkier-Systemen für **> 50 Fahrzeuge**.
+
+**JANS-Praxisrelevanz:** Healthcare-/Wohnbauten mit Tiefgarage brauchen in aller Regel **1
+Treppenanlage genügt nur bis 600 m² BGF je UG** — bei grösseren Untergeschossen (häufig bei
+Healthcare-Projekten mit grosser Stellplatzzahl) ist **früh im Vorprojekt** zu prüfen, ob zwei
+räumlich getrennte vertikale Fluchtwege ins UG-Layout passen; das ist ein Grundriss-Parameter,
+kein nachträglich lösbares Detail.
+
+---
+
 ## 5 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -296,7 +372,9 @@ Ziff. 7.4.2 der Wohnbauten-Arbeitshilfe (= BSR 16-15, Z.3.2.2):
   muss ihn unterzeichnen», «aktueller Vorschriftenstand (BSV 2015 vs. 2026)», «wie weit muss mein
   Neubau vom Nachbargebaeude weg (Brandschutzabstand)», «welcher Tragwerks-Feuerwiderstand gilt fuer
   meine Gebaeudehoehe/Nutzung (Vorprojekt-Grobcheck)», «braucht meine interne Treppe einen Fluchtweg-
-  Nachweis» (→ §4b).
+  Nachweis» (→ §4b), «welche Brandschutzanforderungen gelten fuer die Tiefgarage/das Parkhaus»
+  (→ §4c).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
-  [[energie-pv-brandschutz]].
+  [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →
+  [[recht-norm-tiefgarage-erschliessung]].

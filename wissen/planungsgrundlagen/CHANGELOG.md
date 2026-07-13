@@ -2,6 +2,43 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 21 (Recht/Norm + Brandschutz, Token-Vollgas 2 Domaenen): Tiefgarage-Erschliessungsgeometrie + Brandschutz Parkhaeuser/Einstellraeume neu erschlossen
+- **NEU [[recht-norm-tiefgarage-erschliessung]] (R9):** vollstaendiger Artikel aus den bisher
+  unbearbeiteten VSS-Normen `PL-02/Tiefgarage/1 VSS-Norm/` — Grundstueckzufahrt Typ A/B/C
+  (VSS 640 050, Tab. 1/2), Parkierungsanlagen-Geometrie (VSS 640 291a): Parkfeld-/Fahrgassenmasse
+  je Komfortstufe A/B/C (Laengs- und Schraeg-/Senkrechtparkierung, Tab. 2-7), lichte Hoehe
+  (Tab. 8, 2.20-3.00 m), **Rampenneigung 12-18 % je nach Komfortstufe/Deckung** (Tab. 11) +
+  Neigungsknicke ≤ 6 % (Tab. 12), Kurvenverbreiterung (Tab. 9/10), Kontrolleinrichtungs-Layout
+  (max. 3 % Neigung im Schrankenbereich); Bedarfsermittlung VSS 640 281 als getrennte, nur
+  quantitative Norm eingeordnet. Reale ZH-Kantonspraxis (IBV Huesler AG, Normschnitt Ausfahrtstyp A,
+  23.01.2017) und ein reales Pruef-Aktennotiz-Beispiel (Meili Peter/IBV, Tiefgarage 246 Flurstrasse,
+  17.04.2018, externe Referenz) bestaetigen die Norm-Werte unabhaengig (Stuetzenabstand-Idealmass
+  10 cm ≥ Norm-Minimum 0 cm, Ausfahrts-Restneigung 3 % = Kontrolleinrichtungs-Regel). Zusaetzlich
+  Wendehammer-Nachweis fuer 12-m-Lastwagen (Enz & Partner GmbH, VRV Art. 64/65/65a, drei
+  Geometrie-Varianten T/Y/Kreuz).
+- **[[brandschutz-pl03-wegweiser]] NEU §4c (B9/C10):** Parkhaeuser und Einstellraeume fuer
+  Motorfahrzeuge — aus VKF-Brandschutzarbeitshilfe 1002-03d (`PL-03/05 Arbeitshilfen Brandschutz
+  2015/`): Tragwerk (R 60 (nbb) UG-Standard, R 30 bei eingeschossig/unterirdisch), Brandabschnitts-
+  bildung (4'000/2'000/8'000 m², sprinklerverdoppelbar), **Fluchtweg-Kernzahlen** (1 Treppenanlage
+  ≤ 600 m² BGF, 2+ Treppenanlagen ≤ 900 m² je, Gesamtlaenge 35/50 m — direkte Vorprojekt-Relevanz
+  fuer grosse Healthcare-Tiefgaragen), RWA-Schwellen (600/1'200/2'400 m²) und Sprinklerpflicht
+  (4'000/2'000/8'000 m² bzw. > 50 Kompaktparkplaetze). ⚠ **Datenstand-Vorbehalt bewusst gesetzt:**
+  Arbeitshilfe genehmigt 06.08.2003 (vor der BSV-2015-Generation) — im Artikel explizit als vor
+  Anwendung in einem laufenden Nachweis gegen bsvonline.ch zu pruefen markiert (Status established
+  nur fuer Systematik/Groessenordnung, nicht fuer punktgenaue Zahlen).
+- **Verifikation:** VSS-Normen + VKF-Arbeitshilfe direkt aus den Original-PDF gelesen (Modell-D-
+  Volltextabgleich, keine Sekundaerzitate). R9 zusaetzlich durch zwei unabhaengige, konvergierende
+  Praxisdokumente verifiziert (Norm + reale Kantonspraxis + reale Pruefnotiz, kein Widerspruch).
+  Datenstand-Unsicherheit bei der Brandschutz-Arbeitshilfe (2003) transparent als Vorbehalt
+  ausgewiesen statt stillschweigend als aktuell behandelt.
+- **Register:** curriculum (R9/B9 `[x]`), QUESTIONS (B-Sektion R9, C-Sektion C10), INDEX
+  (recht-norm-tiefgarage-erschliessung neu, brandschutz-pl03-wegweiser §4c ergaenzt),
+  raw/_INGESTED (6 neue Quellenzeilen + 2 Sammelzeilen-Updates PL-02/PL-03). Bericht:
+  `outputs/2026-07-13_training-run21.md`.
+- **Naechster Lauf:** M2 (Anbindung `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung`)
+  identifiziert als echte offene Luecke — keiner der drei Skills referenziert `planungsgrundlagen`
+  bisher; Kandidat fuer eine dedizierte Meta-Runde.
+
 ## 2026-07-13 — Training Run 20 (Kartenportale + Energie, Token-Vollgas 2 Domaenen): GWR-Wohnungs-/EWID-Ebene erschlossen + ObjektwesenZH-Korrektur + realer KISPI-EVEN-Praxisfall
 - **Kartenportale (Connector-Schritt, K9-Rest):** `gwr-bund.mjs` deckt neu die **Wohnungs-/EWID-
   Ebene** auf — die parallelen Roh-Arrays (`ewid/warea/wazim/wbauj/wkche/wmehrg/wstat/wstwk/wbez/
