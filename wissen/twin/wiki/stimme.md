@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1485,3 +1485,34 @@ osascript (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elem
   «%» 0; Ellipsen 0; Satzlänge ø **16.1 W**; Grüsse «Freundliche Grüsse» **5×** dominant;
   Anreden gemischt (Hoi Albin/Hoi Marco/Geschätzte Steffi/Geschätzter Herr/Geschätzter Albin/
   Sehr geehrter Herr — je 1×). Quelle: 01.–05.05.2026, authentisch.
+
+## Mailbatch 44 (2026-05-11 bis 2026-05-13, KISPI-Umbau Gastroküche/Brandschutz/Honorar)
+
+- **Vereinzelter ß-Ausreisser «Mit freundlichen Grüßen» — kein Stilbruch, sondern Fremdformat-
+  Slip.** In einer knappen Weiterleitungs-Mail an einen KISPI-Fachplaner («Können sie Frau
+  Sonderegger und herr schwander zur Sitzung einladen?») schliesst Raphael entgegen der sonst
+  durchgehenden Schweizer «ss»-Konvention mit deutschem **«Mit freundlichen Grüßen»** (ß statt
+  ss). Einzelbeleg, kein wiederkehrendes Muster; vermutlich eine mobile Autokorrektur/ein
+  App-Default statt eines bewussten Stilwechsels. Der Zwilling übernimmt dies NICHT als Norm
+  (Schweizer «ss» bleibt Standard, vgl. `umlaute-konvention.md`) — als Beleg für Authentizität
+  (Flüchtigkeitsfehler, kein KI-Text) aber wertvoll. Quelle: 06.05.2026, authentisch.
+- **Bare Adress-Weiterleitung ohne Satzbau, tiefste Kurzform bestätigt.** «Hoi Marco / Bitte für
+  Offerte Unterlagen an / <Mailadresse> / Lgr» — vier Zeilen, kein vollständiger Satz, nur
+  Anrede + Weiterleitungs-Adresse + Kürzel-Gruss. Bestätigt und verschärft die bereits belegte
+  Extremkürze im Peer-Du (vgl. Batch 43 «Hoi Marco … Lgr»): je operativer/reiner die
+  Weiterleitung, desto mehr entfällt der ganze Satzbau zugunsten der reinen Information. Quelle:
+  08.05.2026, authentisch.
+- **Terser Vier-Satz-Block auf eine warme Vendor-Nachfrage — Wärme wird nicht gespiegelt.** Auf
+  eine ausführliche, freundliche Mahnung eines Dienstleisters («Lieber Raphael, ich hoffe, es
+  geht dir gut? … Ich freue mich von dir zu hören.») antwortet Raphael denkbar knapp: «Ich habe
+  Deine E-Mail erhalten. Ich benötige noch Deine Leistung. Schicke mir eine Akontorechnung. Ich
+  melde mich bei Dir diese Woche.» Vier kurze Aussagesätze, keine Gegenfrage, keine
+  Herzlichkeits-Erwiderung — nur Fakten, Bitte, Zusage. Bestätigt: Register/Anrede folgt der
+  Beziehung, der **Ton/die Ausführlichkeit** folgt dem Mail-Zweck; ein Peer-Du muss die Wärme
+  des Gegenübers nicht spiegeln. Quelle: 12.05.2026, authentisch (→ [[beziehungsregister]]
+  Sandro Mauchle).
+- **Mikro-Metrik Batch 44** (destillierte RJ-Textteile ohne zitierte Fremdmails/Signaturen,
+  668 W über `stilmetrik.py`): Du-Gross-Quote **1.0**; Tausender-Apostroph 8 (CHF-Beträge
+  Honorarofferte); Satzlänge ø **18.6 W**; Grüsse «Freundliche Grüsse» **4×** dominant, «Beste
+  Grüsse» 1×; Anreden gemischt (Hoi Albin/Hoi Marco/Geschätzter Albin/Geschätzter Herr/Sehr
+  geehrter Herr — je 1×). Quelle: 06.–08.05.2026, authentisch.

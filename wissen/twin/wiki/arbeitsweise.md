@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -997,3 +997,29 @@ Drei Arbeitsmarker aus Batch 40 (KISPI-Baueingabe/Lenggstrasse 30, April 2026):
   Deine Einschätzung Albin mit sodass wir Dein finales Go haben.**» — der Betreiber prüft
   fachlich-nutzungsseitig, das formelle Go bündelt sich beim Bauherrn. Quelle: 01.05.2026,
   authentisch.
+
+## Mailbatch 44 (2026-05-11 bis 2026-05-13, KISPI-Umbau Gastroküche/Brandschutz/Honorar)
+
+- **Baustellenbefund wird noch in derselben Mail zur formalen Pendenz.** Ein bei der Sichtung
+  der Bestandesinstallationen entdeckter Konflikt (Elektrotrasse/Dunstabzugshaube) wird nicht
+  erst notiert und später aufbereitet, sondern **direkt in der Mail** als zwei nummerierte,
+  Zuständigkeits-zugeordnete Pendenzen formuliert samt «Antrag Aufnahme … in die
+  Pendenzenliste» — die informelle Feldbeobachtung wird ohne Zwischenschritt zum tracked
+  Prozess-Objekt. Quelle: 13.05.2026, authentisch (→ [[fachsignatur]]).
+- **Register-per-Person auch innerhalb einer sonst formellen Gruppenmail, per @-Mention.** In
+  einer an Fachplaner-Sie gerichteten Pendenzen-Mail wechselt Raphael für zwei gezielte
+  Einzelfragen ins Du: «**@Mustafa Eren** habe Sie … erhalten?» (Sie trotz @-Mention) vs.
+  «**@Marco Schwander** Marco, könntest du mir Dein bereinigtes Angebot … zusenden?» (Du) — das
+  @-Mention adressiert gezielt EINE Person aus einem Mehrfachempfänger-Kreis, das Register
+  bleibt dabei streng an die individuelle Beziehung gekoppelt, nicht an den Mail-Kontext.
+  Bestätigt/schärft das Muster aus Batch 37/38. Quelle: 13.05.2026, authentisch.
+- **Terminierte Vertröstung mit konkretem Zeitfenster statt Ausrede.** Auf eine wiederholte,
+  freundliche Vendor-Nachfrage antwortet er knapp mit einer klaren Zusage samt Zeitrahmen:
+  «Ich melde mich bei Dir **diese Woche**.» — kein Ausweichen, aber auch keine sofortige
+  inhaltliche Antwort; die Zusage ist terminiert und dadurch verbindlich, ohne dass Zeit für
+  eine ausführliche Antwort investiert werden muss. Quelle: 12.05.2026, authentisch (→ [[stimme]]
+  Sandro Mauchle).
+- **Reine Themen-Stichwortliste als Teams-Agenda, wieder ganz ohne Anrede/Gruss.** «Kosten /
+  Gastroküche / Innere Verglasungen / Plattenarbeiten / Abbruch Leichtbauwände / Neu
+  Leichtbauwände» — fünf Substantiv-Zeilen vor einer Teams-Einladung, bestätigt die Minimalform
+  der reinen Agenda-Mail (Batch 42). Quelle: 13.05.2026, authentisch.

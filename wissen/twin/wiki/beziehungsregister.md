@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -865,3 +865,29 @@ Beziehungsstufe zum Zweitadressaten.
   (Sie→Du-Kippe aus Batch 42 gefestigt); dokumentierende Offert-/Grundlagen-Mails an ihn tragen
   trotz Du «Freundliche Grüsse», die operative Kurzbitte «Hoi Marco … Lgr». Quelle: 01.–05.05.2026,
   authentisch (→ [[stimme]] Gruss-Kontrast).
+
+## Neue Mappings Mailbatch 44 (2026-05-11 bis 2026-05-13)
+
+- **Marco Schwander — voller Name jetzt belegt** («@Marco Schwander Marco, könntest du mir Dein
+  bereinigtes Angebot Gastroküche zusenden?»), bestätigt Du-Register innerhalb einer sonst an
+  Fachplaner-Sie gerichteten Gruppen-Pendenzenmail (Register-per-Person-in-einer-Mail, vgl.
+  Batch 37). Quelle: 13.05.2026.
+- **Sandro Mauchle** — Marketing Consultant (Website-Rebuild/-Betreuung), Joweid Zentrum Rüti.
+  Du; «Hoi Sandro» (Raphael) ↔ «Lieber Raphael» (Sandro, wärmer). **Asymmetrische Wärme:** der
+  Dienstleister ist im Anschreiben deutlich wärmer/ausführlicher («Ich hoffe, es geht dir gut?»)
+  als Raphaels knappe Sachantwort — Beleg, dass das Du-Register keine gespiegelte Herzlichkeit
+  erzwingt (→ [[stimme]] terser Vier-Satz-Block). Quelle: 12.05.2026, authentisch.
+- **Ralph Bigger** — Kanton Zürich, Gesundheitsdirektion, Kantonales Labor Zürich, Abteilung
+  LMI-Gewerbebetriebe Stadt, Lebensmittelkontrolleur. Sie, formell («Guten Tag Herr Jans» /
+  «Sehr geehrter Herr Bigger»). **Neuer Behörden-Kontakttyp:** nicht Bauamt/Brandschutz, sondern
+  Lebensmittelhygiene-Zuständigkeit für Spital-Gastroküchen im Kt. ZH. Quelle: 11.05.2026,
+  authentisch.
+- **Bojan Stevanovic** — Gruner AG, Nachfolge-Ansprechpartner Brandschutz nach Abgang Simmen/
+  Abwesenheit Ziegel. Sie, «Geschätzter Herr». Quelle: 11.05.2026, authentisch.
+- **Valentina Scherbl** — Gruner AG, Technikerin HF Hochbau/Brandschutzfachfrau VKF,
+  Projektleiterin Generalplanung & Brandschutz. Sie, formell. Quelle: 11.05.2026, authentisch.
+- **Geschätztes Care-Team-Gastroküche» — Gruppen-Sammelanrede für einen funktionsdefinierten,
+  gemischten Empfängerkreis** (Betreiberin + Techniker + Bauherr-Vertreter + Lieferant), analog
+  zu «Geschätztes Projektteam» — bestätigt das Muster einer neutralen, rollenbasierten
+  Kollektivanrede statt Einzelnamen bei projektübergreifenden Fachverteilern. Quelle: 11.05.2026,
+  authentisch.

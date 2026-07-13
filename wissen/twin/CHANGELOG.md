@@ -2,6 +2,28 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 44 (2026-05-11 bis 2026-05-13)
+- Scheduled Task `twin-mail-training`. M365-MCP-Server in dieser Session nicht konfiguriert/
+  erreichbar, Cowork-Connector `outlook_email_search` ebenfalls nicht verfügbar — Zugriff über
+  Apple Mail (Bundle-ID `com.apple.mail`, Account "Exchange", Mailbox "Gesendete Elemente").
+- **Bookkeeping-Korrektur:** `_INGESTED.md` vermerkte Deckung nur bis 2026-05-06, das Wiki
+  zeigte aber bereits Marker bis 2026-05-08 (Parallel-/Vorlauf ohne Registernachführung,
+  Multi-Station-Race analog Batch 39). Vor Beginn per Grep gegen alle `wiki/*.md` verifiziert
+  und das Fenster 06.–08.05. korrekt als bereits destilliert übersprungen — Batch 44 deckt
+  lückenlos 11.–13.05.2026 (09.–10.05. mailfrei/Wochenende).
+- 30 Mails im Fenster gesichtet, 7 Volltexte gelesen; Hauptfäden KISPI-Umbau Honorarofferte
+  Psychosomatische Therapiestation (Zweiphasen-Modell + Doppelbeleg SIA102-K/Wüest),
+  Gastroküche-Materialentscheid Holz/Metall (neuer Behörden-Kontakt Kantonales Labor ZH),
+  Pendenzen-Mail mit Elektrotrasse/Dunstabzugshaube-Kollision, NEU Kontakt Sandro Mauchle.
+- Facetten aktualisiert: `stimme.md` (ß-Ausreisser als Fremdformat-Slip, bare Adress-
+  Weiterleitung, terser Vier-Satz-Block gegen warme Vendor-Anfrage, Mikro-Metrik), `beziehungs
+  register.md` (Mappings Schwander-Vollname/Mauchle/Bigger/Stevanovic/Scherbl + Gruppen-
+  Sammelanrede), `fachsignatur.md` (Zweiphasen-Honorarmodell, Materialentscheid-Dreiebenen-
+  Antwort, Pendenz-Formulierung HLK/ELE/SAN), `arbeitsweise.md` (Baustellenbefund-zu-Pendenz,
+  Register-per-Person-@-Mention, terminierte Vertröstung, Themen-Stichwort-Agenda), `haltung.md`
+  (offene Fachplaner-Tempo-Kritik gegenüber Bauherr mit Sachbeleg).
+- `_INGESTED.md` Registereintrag Batch 44 + Deckungsstand auf 2026-05-13, 14:53 Uhr fortgeschrieben.
+
 ## 2026-07-13 — twin-fidelity-review Siebtlauf (Selbsttest + Drift-Report + QUESTIONS)
 - Scheduled Task `twin-fidelity-review`, siebter Lauf des Tages (nach a–f). M365-MCP-Connector
   in dieser Session nicht verfügbar (wie Batches 36–43) — drei frische Goldproben ueber Apple
