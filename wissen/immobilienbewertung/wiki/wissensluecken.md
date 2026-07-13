@@ -24,9 +24,25 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben (Ingest).** Der Loop bleibt im **Verifikations-/Aktualisierungs-Modus**. **Neu Run 20 (2026-07-13): Verifikations-Pass Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert»** (S. 153-155) — alle drei Varianten-Zeilen (Office-Homes/Perlenhaeuser/Best-Ager-Community) per Modell-D-Volltext-Recompute nachgerechnet: Landwert = Ertragswert − Erstellung stimmt exakt bzw. auf Rundungsgrenze; CHF/m2-GSF-Kennwert bestaetigt implizit identisches Grundstueck. **Bestanden**, keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (unveraendert seit Run 18). **Marktpuls-Stand unveraendert seit Run 17** (kein neuer Web-Check noetig, kein Publikationstermin erreicht). → **Empfehlung an Raphael unveraendert, jetzt zum dritten Mal in Folge: Ruecktaktung ins Nachtfenster** (drei Verifikationslaeufe ohne Befund in Folge — Grenznutzen der Intensivphase fuer diese KB sinkt weiter) | — | — |
+| — | **Keine offenen T-Aufgaben (Ingest).** Der Loop bleibt im **Verifikations-/Aktualisierungs-Modus**. **Neu Run 21 (2026-07-13): Verifikations-Pass Nutzungskonzeptions-Kennzahlen** (S. 123-133) — Sinus-Milieu-%/Alter/Einkommen, Best-Ager, Expats, Aktive Familien, Nutzermix Wohnen + Geschaeftsflaechen per Modell-D-Gegenlesung gegen die Originalfolien nachgeprueft: **alle exakt reproduziert, bestanden**, keine Korrektur; kleine Anreicherung (Milieuzugehoerigkeit Aktive Familien 35/25/25/15 %). Keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (unveraendert seit Run 18). **Marktpuls-Stand unveraendert seit Run 17** (kein neuer Web-Check noetig, kein Publikationstermin erreicht). → **Empfehlung an Raphael unveraendert, jetzt zum vierten Mal in Folge: Ruecktaktung ins Nachtfenster** (vier Verifikationslaeufe ohne materiellen Befund — Grenznutzen der Intensivphase fuer diese KB praktisch null) | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-13 **Verifikations-Pass Nutzungskonzeptions-Kennzahlen (Run 21)** — vierter Lauf
+  im Verifikations-Modus, wie im Run-20-Report als naechster Kandidat angekuendigt. **Modell D
+  (Volltext-Gegenlesung S. 123-133 gegen die Originalfolien):** Sinus-Milieu-Kennzahlen
+  (Arrivierte 9 % / Ø 47 J / >9'000 CHF, Postmaterielle 13 % / Ø 45 J / 6'000+, Performer 11 % /
+  Ø 39 J / 9'000+), Best-Ager-Community (55-75 / 2.5-4.5 Zi / ueberdurchschn. Einkommen), Expats
+  (Ø 44.2 J / 82 % Hochschulabschluss / 7 Typen, InterNations 2018), Aktive Familien (40-50 % /
+  3.5-5.5 Zi / 30-45 J / ~2 Kinder) und die Nutzermix-Quoten Wohnen (20-30/40-50/30-40 %) sowie
+  Geschaeftsflaechen (Plug&Live 65 / Quartiersversorgung 25 / Kuenstlerhaus 10 %) reproduzieren
+  **alle exakt**. Verdikt **bestanden**, keine Korrektur → [[nutzungskonzepte]] bleibt `established`,
+  `last_updated` 2026-07-13. Kleine Anreicherung: Milieuzugehoerigkeit der Aktiven Familien
+  (Buergerliche Mitte 35 / Buergerlich-Gehobene 25 / Adaptiv-Pragmatische 25 / Postmaterielle 15 %)
+  neu erfasst. Feingliedrige Sinus-Verteilungstabelle (Ingenbohl/Innerschweiz/SZ/Schweiz) nur
+  approximativ lesbar → nur qualitativer Befund (Ingenbohl: Adaptiv-Pragmatische + Buergerliche
+  Mitte ueberrepraesentiert), keine Dezimalwerte uebernommen (Leitplanke). Marktpuls unveraendert
+  seit Run 17. Keine neue Luecke. Ruecktaktung ins Nachtfenster zum vierten Mal in Folge empfohlen.
 
 - ✓ 2026-07-13 **Verifikations-Pass Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert» (Run 20)** —
   dritter Lauf im Verifikations-Modus. **Modell D (Volltext-Recompute)** der drei Varianten-

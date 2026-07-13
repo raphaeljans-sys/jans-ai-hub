@@ -1,7 +1,7 @@
 ---
 title: Nutzungskonzepte — Mehrwert durch Positionierung
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-07-13
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 2 Nutzungskonzeption, M. Waeckerlin; S. 73-161 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Nutzungskonzeption S. 17-26)]
 links: [[bewertungsverfahren-ueberblick]], [[residualwertmethode]], [[investorenmarkt-makro]], [[erfolgsfaktoren-wettbewerb]], [[vergleichswert-hedonisch]]
 ---
@@ -70,7 +70,9 @@ Kommunikation/Architektur/Nutzung (S. 186).
 - Zielgruppen-Steckbriefe (Beispiele): **Best-Ager-Community** (55-75, pensioniert,
   ueberdurchschnittliches Einkommen, 2.5-4.5 Zi, Komfort/Lift/Gemeinschaftsraeume);
   **Aktive Familien** (30-45, ~2 Kinder, 3.5-5.5 Zi, grosszuegige Kuechen-/Wohnbereiche,
-  private Aussenraeume, Spielplatz, idealer Nutzermix-Anteil **40-50 %**); **Expats**
+  private Aussenraeume, Spielplatz, idealer Nutzermix-Anteil **40-50 %**;
+  Milieuzugehoerigkeit Buergerliche Mitte 35 % / Buergerlich-Gehobene 25 % /
+  Adaptiv-Pragmatische 25 % / Postmaterielle 15 %, S. 41 Foliennr.); **Expats**
   (Ø 44.2 J., 82 % Hochschulabschluss, 7 Typen nach InterNations 2018).
 - Nutzermix-Beispiel Wohnen (S. 133): Junge performative Pendler 20-30 %, Familien
   40-50 %, Silver Ager 30-40 %. Geschaeftsflaechen (S. 151): Plug&Live-Gewerbe 65 %,
@@ -147,6 +149,18 @@ dann einen hoeheren Wert, wenn das hoehere Risiko im Diskontsatz korrekt abgebil
 - ✓ 2026-06-09: Modul 2 vollstaendig eingearbeitet (Positionierungs-Kreislauf, fuenf
   strategische Fragen, Zielgruppensegmentierung/Sinus-Milieus, 7 Wohntrends,
   Fallbeispiele Schwamendingen + Regensdorf mit Nutzermix-Quoten) (T2 erfuellt).
+- ✓ 2026-07-13 (Run 21, Verifikations-Pass): Zielgruppensegmentierungs-/Nutzermix-Block
+  S. 123-133 per Modell-D-Volltext-Gegenlesung gegen die Originalfolien **bestanden** —
+  Sinus-Kennzahlen (Arrivierte ~9 % / Ø 47 J / >9'000 CHF; Postmaterielle ~13 % / Ø 45 J /
+  6'000+; Performer ~11 % / Ø 39 J / 9'000+), Best-Ager 55-75 / 2.5-4.5 Zi, Expats
+  Ø 44.2 J / 82 % / 7 Typen (InterNations 2018), Aktive Familien 40-50 % / 3.5-5.5 Zi /
+  30-45 J / ~2 Kinder, Nutzermix Wohnen 20-30/40-50/30-40 % und Geschaeftsflaechen
+  65/25/10 % reproduzieren alle exakt. Keine Korrektur. Neu ergaenzt: Milieuzugehoerigkeit
+  der Aktiven Familien (35/25/25/15 %). Die feingliedrige Sinus-Verteilungstabelle
+  (Ingenbohl/Innerschweiz/Kt. SZ/Schweiz) ist nur approximativ lesbar; qualitativer Befund
+  belegt: in Ingenbohl Adaptiv-Pragmatische + Buergerliche Mitte ueber-, Postmaterielle/
+  Performer/Konsumorientierte Basis unterrepraesentiert (nicht als Dezimalwerte erfasst,
+  Leitplanke).
 - Healthcare-/Alterswohnen-Kennwerte mit `IMMO-06 Healthcare` verknuepfen.
 - Wirtschaftlichkeits-Zahlen der Varianten (Landwert-Vergleich): [[residualwertmethode]],
   Abschnitt «Lehrstueck».

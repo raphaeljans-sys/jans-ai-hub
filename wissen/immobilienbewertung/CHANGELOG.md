@@ -2,6 +2,32 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 21: Verifikations-Pass Nutzungskonzeptions-Kennzahlen S. 123-133 (Modell D)
+
+- **Vierter Lauf in Folge im Verifikations-Modus.** Kein neuer Ingest — Modell-D-Volltext-
+  Gegenlesung des Zielgruppensegmentierungs-/Nutzermix-Blocks (Wuest-Kurs S. 123-133) gegen die
+  Originalfolien; im Run-20-Report als naechster Verifikations-Kandidat angekuendigt.
+- **Nachgeprueft & exakt reproduziert:** Sinus-Milieu-Kennzahlen (Arrivierte 9 % / Ø 47 J / >9'000
+  CHF, Postmaterielle 13 % / Ø 45 J / 6'000+, Performer 11 % / Ø 39 J / 9'000+), Best-Ager
+  (55-75 / 2.5-4.5 Zi), Expats (Ø 44.2 J / 82 % / 7 Typen, InterNations 2018), Aktive Familien
+  (40-50 % / 3.5-5.5 Zi / 30-45 J / ~2 Kinder), Nutzermix Wohnen (20-30/40-50/30-40 %) und
+  Geschaeftsflaechen (65/25/10 %). Alle deckungsgleich mit den Folien.
+- **Verdikt:** bestanden, keine Korrektur. [[nutzungskonzepte]] bleibt `established`,
+  `last_updated` auf 2026-07-13.
+- **Anreicherung:** Milieuzugehoerigkeit der Aktiven Familien (Buergerliche Mitte 35 /
+  Buergerlich-Gehobene 25 / Adaptiv-Pragmatische 25 / Postmaterielle 15 %) neu in
+  [[nutzungskonzepte]] erfasst (war bisher nicht dokumentiert).
+- **Leitplanke gewahrt:** die feingliedrige Sinus-Verteilungstabelle (Ingenbohl/Innerschweiz/
+  Kt. SZ/Schweiz, Foliennr. 51) ist nur approximativ lesbar → nur qualitativer Befund erfasst
+  (Ingenbohl: Adaptiv-Pragmatische + Buergerliche Mitte ueber-, Postmaterielle/Performer/
+  Konsumorientierte Basis unterrepraesentiert), keine unsicheren Dezimalwerte uebernommen.
+- **Marktpuls (E7) nicht erneut geprueft** — unveraendert seit Run 17 (2026-07-12), kein neuer
+  Publikationstermin erreicht.
+- **Register gepflegt:** curriculum.md (Stand Run 21), wissensluecken.md (B-Tabelle + Erledigt),
+  outputs/2026-07-13_training-run21.md.
+- **Empfehlung:** Ruecktaktung ins Nachtfenster zum **vierten Mal in Folge** — vier Verifikations-
+  laeufe ohne materiellen Befund; auto-schliessbare Rueckstaende seit Run 16 abgearbeitet.
+
 ## 2026-07-13 — Training-Run 20: Verifikations-Pass Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert» (Modell D)
 
 - **Dritter Lauf in Folge im Verifikations-Modus.** Kein neuer Ingest — Modell-D-Volltext-

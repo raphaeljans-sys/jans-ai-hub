@@ -58,6 +58,24 @@ Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen.
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
 
+**Stand Run 21 (2026-07-13):** Vierter Verifikations-Lauf in Folge, wie im Run-20-Report als
+naechster Kandidat angekuendigt: **Nutzungskonzeptions-Kennzahlen S. 123-133 gegen die
+Originalfolien gegengelesen (Modell D)**. Verdikt **bestanden** — Sinus-Milieu-Kennzahlen
+(Arrivierte 9 % / Ø 47 J, Postmaterielle 13 % / Ø 45 J, Performer 11 % / Ø 39 J samt Einkommens-
+schwellen), Best-Ager 55-75 / 2.5-4.5 Zi, Expats Ø 44.2 J / 82 % / 7 Typen (InterNations 2018),
+Aktive Familien 40-50 % / 3.5-5.5 Zi / 30-45 J, Nutzermix Wohnen 20-30/40-50/30-40 % und
+Geschaeftsflaechen 65/25/10 % reproduzieren alle exakt. Keine Korrektur; [[nutzungskonzepte]]
+bleibt `established`, kleine Anreicherung (Milieuzugehoerigkeit Aktive Familien 35/25/25/15 %).
+Die feingliedrige Sinus-Verteilungstabelle (Ingenbohl/Innerschweiz/SZ/Schweiz) nur approximativ
+lesbar → nur qualitativer Befund erfasst, keine Dezimalwerte (Leitplanke). Marktpuls (E7)
+unveraendert seit Run 17 (kein neuer Publikationstermin erreicht). Keine neue Luecke.
+**Ruecktaktung ins Nachtfenster jetzt zum vierten Mal in Folge empfohlen** — vier Verifikations-
+laeufe ohne materiellen Befund; die auto-schliessbaren Rueckstaende sind seit Run 16 abgearbeitet,
+der Grenznutzen des Intensiv-Takts fuer diese KB ist praktisch null. Verbleibende Kandidaten
+(falls Intensiv-Takt weiterlaeuft): Erfolgsfaktoren-Referenzfaelle ([[erfolgsfaktoren-wettbewerb]],
+DXMA-Aufwertungsgewinne) und die Schwamendingen-Nutzermix-Quoten ([[nutzungskonzepte]] S. 138-145)
+gegen die Originalfolien.
+
 **Stand Run 20 (2026-07-13):** Ingest-Curriculum vollstaendig abgearbeitet (Wuest-Kurs + E1-E10,
 alle T-Aufgaben, D4/D8). Der Loop bleibt im **Verifikations-Modus**. Run 20 = Modell-D-Volltext-
 Recompute des Lehrstuecks «hoeherer Ertrag ≠ hoeherer Landwert» (S. 153-155): alle drei
@@ -67,7 +85,4 @@ implizit identisches Grundstueck ueber alle Varianten. Verdikt bestanden, keine 
 [[residualwertmethode]] bleibt `established`. Marktpuls (E7) unveraendert seit Run 17
 (kein neuer Publikationstermin erreicht) — kein neuer Web-Check noetig. Keine neue Luecke.
 **Ruecktaktung ins Nachtfenster weiterhin empfohlen** (dritter Verifikationslauf in Folge ohne
-neuen Befund; Grenznutzen der Intensivphase fuer diese KB sinkt weiter). Naechster
-Verifikations-Kandidat (falls Intensiv-Takt weiterlaeuft): Nutzungskonzeptions-Kennzahlen
-([[nutzungskonzepte]], Sinus-Milieu-%-Angaben und Nutzermix-Quoten S. 123-133) gegen die
-Originalfolien nachrechnen/gegenlesen.
+neuen Befund; Grenznutzen der Intensivphase fuer diese KB sinkt weiter).
