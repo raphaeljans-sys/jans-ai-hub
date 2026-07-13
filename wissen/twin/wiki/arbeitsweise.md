@@ -865,3 +865,22 @@ im Deliverable nicht enthaltenen Vorbehalt aktiv als schriftliche Ergänzung nac
   Rückkanal. Reiht sich zur bereits belegten Themen-Block-Statusmail, neu mit expliziter H1-Nummerierung
   und der Bündelung von technischer Koordination und Zahlungs-Freigabe in EINER Mail statt getrennter
   Nachfassmails.
+
+## Batch 37 (2026-03-24 bis 2026-04-05)
+
+- **Explizite Selbst-Rollenklärung gegenüber dem Planerteam** (an das KISPI-Fachplaner-Team Gruner,
+  24.03.2026): «Für mich als Architekt haben die Fachplaner in dieser Phase oberste Priorität. Meine Aufgabe
+  besteht darin, die Plangrundlagen innerhalb der bestehenden KISPI-Struktur so aufzubereiten und
+  bereitzustellen, dass für die Fachplaner eine effiziente Projektabwicklung gewährleistet ist.» Raphael
+  benennt proaktiv die eigene Rolle/den eigenen Fokus im Koordinationsgefüge, statt sie implizit zu lassen —
+  schafft Klarheit über Zuständigkeiten UND signalisiert dem Team, worauf es sich verlassen kann. Neuer
+  Marker: **Rollenklärung in eigener Sache** als eigenständiges rhetorisches Mittel neben der
+  Themen-Block-Liefermail.
+- **Numerierter 01–06-Themenkatalog mit gewerkspezifischem Status-Vorgriff** (KISPI-Projektstart-Mail an
+  vier Gruner-Fachplaner, 24.03.2026): sechs Themenfelder (Pflichtenheft/Raumpläne, Brandschutz, Machbarkeit
+  Umbau, Planwerk, Baueingabe, Termin) je mit eigenem Vorschlag/Fragenkatalog (teils lettered A)–E)); bei der
+  Baueingabe wird der Status **je Gewerk vorgezogen** benannt («Sanitär: Voraussichtlich kein
+  Kanalisationsbegehren … Lüftung: Voraussichtlich keine Unterlagen erforderlich»), damit die Fachplaner
+  sofort wissen, wo sie stehen, statt erst zu fragen. Bestätigt/erweitert die bereits belegte
+  Themen-Block-Statusmail um die Kombination aus **numerierter Struktur + vorgezogenem Gewerke-Status**.
+  Quelle: ID 21789, 24.03.2026, authentisch.

@@ -752,3 +752,27 @@ und ergänzt:
 - **Neue Sie-Mappings Wartstrasse 8:** Guido Giacometti/Steinmann AG weiterhin Sie («Geschätzter Herr Daniel
   Schmid»), Beson/fsgbau weiterhin Sie («Geschätzter Herr Beson»), beide mit Bauherrin Hofer im cc
   (bestätigt Muster aus Batch 35).
+
+## Batch 37 (2026-03-24 bis 2026-04-05)
+
+- **Register ist an die PERSON gebunden, nicht an die Firma — selbst innerhalb desselben Subunternehmers:**
+  fsgbau ist auf dem Projekt Wartstrasse 8 gegenüber «Beson» durchgehend förmlich-Sie («Geschätzter Herr
+  Beson», vgl. Batch 35/36), auf dem Parallelprojekt KISPI Albertstrasse 7 gegenüber dem Ansprechpartner
+  **Besnik** dagegen informell-Du mit nacktem Vorname-Opener ohne Anrede-Formel: «Besnik, Wie besprochen
+  Offerten bis Ende KW16. Lgr». Derselbe Betrieb, zwei Personen, zwei Register — bestätigt, dass Raphael das
+  Register konsequent an die individuelle Beziehung knüpft, nicht an die Firma als Ganzes.
+  Quelle: ID 21931, 26.03.2026, authentisch.
+- **Dreifach gestaffelte Anrede in EINEM Mail-Kopf an eine gemischte Empfängergruppe:** an AfB Team 2 +
+  AfB-Rechtsabteilung + Kreisarchitektin Angela Hottinger (alle im selben «An»-Feld) öffnet die Mail mit drei
+  parallel gestaffelten Anreden — «Geschätztes Team 2, / Werte Rechtsabteilung, / Sehr geehrte Frau
+  Hottinger» — von warm-informell (bekanntes Sachbearbeiter-Team) über neutral-förmlich (unbekannte
+  Abteilung) bis zur wärmsten persönlich-formellen Stufe (die bekannte Kontaktperson). Schärft das bereits
+  belegte Muster registerkalibrierter **Parallel**-Anschreiben (Batch 32, dort separate Einzelmails je Amt)
+  um die Variante **einer einzigen** Mail an eine gemischte Empfängerliste, in der jede Zeile der
+  Anrede-Kaskade einen anderen Vertrautheitsgrad trägt. Quelle: ID 21896, 27.03.2026, authentisch (bestätigt
+  «Sehr geehrte Frau Hottinger»/Team-2-Mapping, Zeile 52).
+- **Neue/bestätigte Mappings:** Fabio Don (fabiodon.com) «Hallo Fabio» warm-neutrales Du für privaten
+  Terminvorschlag (bestätigt bekannten Sozial-Peer-Kontakt); Guido Giacometti/Steinmann AG erneut warm-Sie
+  mit übersteigerter Emoticon-Geste (→ [[stimme]]); Tom Bickel/ROTOTEC «Hoi Tom» bestätigt reziprokes
+  Peer-Du auch für einen Marketing-/SEO-Tipp (nicht nur Bau-/Finanzthemen); Jonas Simmen/Gruner (Brandschutz)
+  weiterhin Sie «Sehr geehrter Herr Simmen».

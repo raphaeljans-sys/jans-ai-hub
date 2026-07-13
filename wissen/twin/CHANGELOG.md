@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 37 (2026-03-24 bis 2026-03-27)
+- Sent Items rj@ sequentiell weiter, 24 Mails gesichtet (nach Ausschluss Teams-Auto-Annahmen/
+  leerer Weiterleitungen), 10 Volltexte gelesen. Zugriff diese Session ueber **Apple Mail via
+  osascript** (Bundle-ID `com.apple.mail`, Account "Exchange" = rj@raphaeljans.ch, Mailbox
+  "Gesendete Elemente") — sowohl der MCP-Server `microsoft-365` (Fehler "npm package not
+  found") als auch der Cowork-Connector `outlook_email_search` waren in dieser Session nicht
+  verfuegbar; dritte funktionierende Zugriffsroute auf dieselbe Sent-Items-Quelle.
+- **stimme:** Klammerkette «😊)))))))» als uebersteigerte Lach-Geste im warmen Handwerker-Sie
+  (Giacometti); «Beste Gruesse»/«Lgr» in neuen Kontexten bestaetigt; Metrik 339 W, Du-Gross 0.0
+  (Sie-lastiger Batch), Satzlaenge ø 14.1 W.
+- **beziehungsregister:** Register haengt an der Person, nicht an der Firma (fsgbau: Beson
+  foermlich-Sie vs. Besnik informell-Du); dreifach gestaffelte Anrede «Geschaetztes Team 2 /
+  Werte Rechtsabteilung / Sehr geehrte Frau Hottinger» in EINER Mail an gemischte
+  Empfaengerliste.
+- **fachsignatur:** Unterschriftenfelder-Eingabequittung als Fragenkatalog A)-D) auf
+  Formularfeld-Praezision (Vertiefung der bereits belegten Vollmachtsmatrix vom 16.03.).
+- **arbeitsweise:** explizite Selbst-Rollenklaerung gegenueber dem Planerteam + numerierter
+  01-06-Themenkatalog mit vorgezogenem Gewerke-Status.
+- `_INGESTED.md` fortgeschrieben (abgedeckt bis 2026-03-27), Rohnotiz `raw/260713-mailbatch-
+  37.md` angelegt (nur destillierte Marker, keine Volltexte).
+
 ## 2026-07-13 — twin-fidelity-review (Fidelity 93/100)
 - Selbsttest mit 3 frischen Goldproben (rj@ Sent Items via `m365 outlook message list`, CLI direkt
   per Bash statt des in dieser Session defekten MCP-Tools `mcp__microsoft-365__m365_run_command`):

@@ -1230,3 +1230,25 @@ Elfter belegter Echo-Fall (Fortsetzung «AI-Paste vor/um den Stichtag», WISSEN-
   0; keine Ellipsen; «%» kam nicht vor; Satzlänge ø **14.1 W**; Grüsse «Freundliche Grüsse» 3× / «Lieber
   Gruss» 2×; Anreden «Salut Albin» / «Hoi Sandro» / «Hoi Stefan» / «Geschätzter Stefan» / «Geschätzte
   Seraina».
+
+## Batch 37 (2026-03-24 bis 2026-04-05)
+
+- **Wiederholte Klammern als Lach-/Wohlwollens-Emoticon im warmen Handwerker-Sie:** an Guido Giacometti
+  (Steinmann AG, Fensterbauer) schliesst die Werkplan-Freigabe mit «Danke und Schönes Wochenende. Heute
+  nicht zulange arbeiten 😊)))))))» — ein Emoji gefolgt von einer Kette schliessender Klammern als
+  zusätzliche, übersteigerte Lach-/Sympathie-Geste. Bestätigt/schärft den bereits belegten Befund, dass ein
+  Handwerker-Sie deutlich wärmer werden darf als das kühle Lieferanten-Sie (→ [[beziehungsregister]]), hier
+  mit einem bisher nicht dokumentierten Interpunktions-Mittel.
+  Quelle: rj@ Sent Items, 27.03.2026, ID 21901, authentisch (handgetippt).
+- **«Beste Grüsse» als warmer Gruss im ultrakurzen Sozial-Du-Terminvorschlag:** «Hallo Fabio … Gib mir kurz
+  Bescheid. Beste Grüsse Raphael» — bestätigt «Hallo <Vorname>» als neutral-freundlichen Du-Einstieg
+  (Fabio Don) und «Beste Grüsse» als warm-neutrale Gruss-Mittelstufe auch bei knappem Terminvorschlag ohne
+  Fachinhalt. Quelle: ID 21767, 24.03.2026, authentisch.
+- **«Lgr» bestätigt in zwei neuen Kontexten:** operative Fristsetzung an Bauunternehmer («Besnik, Wie
+  besprochen Offerten bis Ende KW16. Lgr») und Website-SEO-Tipp an Sozial-Peer Tom Bickel («Das ist massiv
+  ausbaufähig.. Lgr») — «Lgr» bleibt der Kurzgruss für operative/informelle Du-Mails unabhängig vom Thema
+  (Vergabe, Marketing-Tipp). Quelle: ID 21931/21816, 25.–26.03.2026, authentisch.
+- Mikro-Metrik Batch 37 (339 W über die destillierten Rahmen, Sie-lastiger Operativ-Mix): Du-Gross-Quote
+  **0.0** (keine grossgeschriebenen Du-Formen im destillierten Ausschnitt trotz zweier Du-Kontakte);
+  Tausender-Apostroph 0; Ellipsen 2.95/1000 W; Satzlänge ø **14.1 W**; Grüsse «Freundliche Grüsse» 4× /
+  «Beste Grüsse» 1×; Anreden «Sehr geehrter Herr» 2× / «Sehr geehrte Frau» 1× / «Hoi Tom» 1×.

@@ -797,3 +797,17 @@ webt Raphael das Dachgeschoss-Ausbaurecht inline-rechnend ein, mit eigener Vor-O
   Zeichnungsberechtigung (Statuten-Zeichnungsberechtigung vs. Vollmacht an interne Vertretung; ob bestehende
   Vollmacht aus erster Baueingabe weiter genügt). Verfahrensrealismus: die Rollen-/Vollmachtsmatrix wird vor
   der Einreichung mit der Behörde abgestimmt (→ [[arbeitsweise]]).
+
+## Batch 37 (2026-03-24 bis 2026-04-05)
+
+- **Unterschriftenfelder-Eingabequittung als eigener Fragenkatalog A)–D)** (Folgemail an dieselbe
+  AfB-Rollen-/Vollmachts-Klärung, 27.03.2026): Raphael listet die fünf Beteiligten-Rollen der Baueingabe
+  im Anzeigeverfahren durch (Bevollmächtigte Vertretung / Projektverfasser / Vertretung Eigentümerschaft /
+  Bauherrschaft / Grundeigentümer) und stellt dann gezielt PRO Unterschriftenfeld der Eingabequittung eine
+  eigene Frage: A) «Berechtigt mich die Vollmacht im Anhang zur Unterzeichnung in diesem Abschnitt?»,
+  C1) «Kann dieses Feld leer gelassen werden oder muss trotz Bevollmächtigung eine Unterschrift von zwei
+  zeichnungsberechtigten [Personen] vorliegen?», C2) «Reicht es, wenn ich hier aufgrund der Vollmacht
+  unterzeichne?». Vertieft die bereits belegte Vollmachtsmatrix (16.03.) um die konkrete Formular-Feld-Ebene:
+  nicht nur WER welche Rolle einnimmt, sondern welches EINZELNE Unterschriftenfeld welche Legitimation
+  braucht — Behörden-Verfahrensrealismus bis auf Formularfeld-Präzision.
+  Quelle: ID 21896, 27.03.2026, authentisch (handgetippt: «Ausgefüllt», «gelasen», «es es wie folgt»).
