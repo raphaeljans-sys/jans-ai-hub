@@ -2,6 +2,27 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 54: Zwei neue Themenkomplexe — Luftdichtheit (Blower-Door/Minergie) + Fernwärme-Anschlusspflicht
+- **Run-Report** `outputs/2026-07-13_energie-run54.md`. PDF-Inventar bleibt vollständig
+  abgearbeitet; statt einer weiteren Vertiefung bestehender Punkte wurden zwei bisher
+  **unbelegte** Themenkomplexe recherchiert, um die KB breiter statt nur tiefer wachsen zu lassen.
+- **Luftdichtheit Gebäudehülle / Blower-Door-Test:** Primärquelle «Richtlinie Luftdichtheit bei
+  Minergie-Bauten (RiLuMi)», Version 2022.1 (Minergie/theCH), S. 1-8 direkt als PDF geladen und
+  vollständig per Read-Tool gelesen. Grenzwerte qE50 [m³/(h·m²)]: Minergie Neubau ≤1,2/
+  Erneuerung ≤1,6, Minergie-P/-A Neubau ≤0,8/Erneuerung ≤1,6; Messnorm SN EN ISO 9972 (löst
+  EN 13829 ab), ±15 % Gesamtmessunsicherheit, Konzeptpflicht schon bei Minergie-Basisstandard →
+  `destillate/rilumi-minergie-luftdichtheit-n50.md`, FAQ **F63** neu. Status **established**.
+- **Fernwärme-Anschlusspflicht Kt./Stadt Zürich:** § 295 Abs. 2 PBG ZH (Sekundärzitate
+  ortsplanung.ch + Baurekursgericht-Praxisübersicht) + Stadt-Zürich-Merkblatt (direkt gelesen).
+  Keine generelle Anschlusspflicht, aber Kanton/Gemeinde können sie bei ≥70 % Abwärme/erneuerbar
+  + wirtschaftlicher Gleichwertigkeit per Verfügung anordnen (gestützt auf kommunale
+  Energieplanung); Stadt Zürich: 8-Jahres-Übergangsfrist bestehende fossile Heizungen →
+  `destillate/fernwaerme-anschlusspflicht-zh.md`, FAQ **F64** neu. Status **emerging** — §-295-
+  Wortlaut nicht direkt aus zhlex.zh.ch gelesen (nur Sekundärquellen), vor Rechtsfall verifizieren.
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`
+  (D28/D29), `wiki/QUESTIONS.md` (E41/E42), `wiki/BAUHERREN-FAQ.md` (Frontmatter + Changelog-Absatz).
+- Meta-Punkt M2 (eigenes Skill `energie`?) bleibt spruchreif, zehnter Vermerk ohne neue Substanz.
+
 ## 2026-07-13 — Run 53: Komfortlüftung-WRG-Grenzwerte der Norm SIA 382/1 selbst + BFE-Dimensionierungshilfe
 - **Run-Report** `outputs/2026-07-13_energie-run53.md`. PDF-Inventar weiterhin vollständig
   abgearbeitet; Block 1 lief über gezielte Web-Recherche zum verbleibenden Run-52-Prioritätspunkt

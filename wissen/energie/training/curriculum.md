@@ -397,6 +397,26 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Löst den seit D6/D24/E37 offen geführten Prioritätspunkt «VSE-Branchenempfehlung LEG seitengenau»
   vollständig ab.
 
+- **D28 (Run 54, 2026-07-13)** — «Brauche ich bei meinem Minergie-Neubau zwingend einen
+  Blower-Door-Test, und welcher n50/qE50-Grenzwert gilt?» — belegt 2026-07-13 (Minergie/theCH
+  RiLuMi Version 2022.1, S. 1-8 vollständig via Read/PDF-Bildextraktion gelesen — erstes echtes
+  Primärdokument dieses Themas, da das PDF-Inventar seit 2026-07-13 vollständig abgearbeitet
+  ist). Grenzwerte qE50: Minergie Neubau ≤1,2/Erneuerung ≤1,6, Minergie-P/-A Neubau ≤0,8/
+  Erneuerung ≤1,6 m³/(h·m²); Messnorm SN EN ISO 9972 (löst EN 13829 ab), ±15 % Gesamt-
+  messunsicherheit, Konzeptpflicht schon bei Minergie-Basisstandard, Messpflicht erst ab -P/-A →
+  `[[rilumi-minergie-luftdichtheit-n50]]`, FAQ **F63** neu. Neues Thema, kein Curriculum-Punkt
+  bisher vorhanden — eröffnet neuen Themenkomplex «Luftdichtheit». Offen: RiLuMi Kap. 4-8
+  (Konzept-Details, Messdurchführung, Messbericht), CHF-Kosten Blower-Door-Test.
+- **D29 (Run 54, 2026-07-13)** — «Muss ich mein Haus an einen kommunalen Fernwärme-Wärmeverbund
+  anschliessen, wenn die Gemeinde einen baut?» — belegt 2026-07-13 (§ 295 Abs. 2 PBG ZH via
+  Sekundärzitate ortsplanung.ch/Baurekursgericht-Praxisübersicht + Stadt-Zürich-Merkblatt direkt
+  gelesen). Keine generelle Anschlusspflicht; Kanton/Gemeinde können bei ≥70 % Abwärme/
+  erneuerbar + wirtschaftlicher Gleichwertigkeit eine anfechtbare Anschlussverfügung erlassen,
+  gestützt auf die kommunale Energieplanung (Wärmeversorgungsgebiete); Stadt Zürich: 8-Jahres-
+  Übergangsfrist bei bestehenden fossilen Heizungen → `[[fernwaerme-anschlusspflicht-zh]]`,
+  FAQ **F64** neu. Status emerging (§-Wortlaut nicht direkt am Primärtext gelesen — offener
+  Verifikationspunkt für einen Folgelauf oder Skill `baurecht`). Neues Thema «Wärmeverbund-Recht».
+
 - **D27 (Run 53, 2026-07-13)** — «Welchen Wärmerückgewinnungsgrad verlangt die Norm SIA 382/1
   selbst (nicht nur Minergie), und wieviel Luft braucht ein Zimmer/eine Wohnung als schnelle
   Faustregel?» — belegt 2026-07-13. Das suissetec-Merkblatt zur Norm SIA 382/1:2025 wurde

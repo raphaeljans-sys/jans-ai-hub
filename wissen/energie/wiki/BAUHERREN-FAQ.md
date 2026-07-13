@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-13
-sources: [destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+sources: [destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -2116,6 +2116,52 @@ Status emerging (Faustregel-Charakter, Grundlage SIA 2023 formell zurückgezogen
 
 ---
 
+## F63 — «Brauche ich bei meinem Minergie-Neubau zwingend einen Blower-Door-Test?»
+
+**Kurz:** Bei **Minergie-P/-A ja, zwingend** (inkl. Leckageortung), bei einfachem **Minergie
+nein** — dort ist nur ein **Luftdichtheitskonzept** mit dem Zertifizierungsantrag Pflicht, die
+Messung selbst ist freiwillig (aber empfehlenswert, um verdeckte Leckagen vor der Verkleidung
+zu finden). Der Grenzwert (Kennzahl qE50, nicht n50) liegt bei Minergie-Neubau ≤ 1,2 m³/(h·m²),
+bei Minergie-P/-A ≤ 0,8; bei einer **Erneuerung** ist die Anforderung einheitlich lockerer:
+≤ 1,6.
+
+**Fachlich:** Gemessen wird nach der internationalen Norm SN EN ISO 9972 (löst seit 2015 die
+ältere EN 13829 ab), mit max. ±15 % Gesamtmessunsicherheit und max. 5 Pa natürlicher
+Druckdifferenz während der Messung. Die Kenngrösse qE50 bezieht sich auf die **Hüllfläche**
+(m²), nicht wie das deutsche n50 auf das Innenvolumen — ein direkter Vergleich mit deutschen
+Passivhaus-Faustwerten (n50 ≤ 0,6 h⁻¹) ist deshalb nicht ohne Umrechnung möglich. Wichtig für
+die Bauplanung: die Messung sollte **vor Fertigstellung der Bekleidung** («vorgezogene
+Messung») angesetzt werden — danach sind gefundene Leckagen nur noch mit Rückbau behebbar.
+
+**Quelle:** Minergie/theCH «Richtlinie Luftdichtheit bei Minergie-Bauten (RiLuMi)», Version
+2022.1 (S. 1-8 vollständig gelesen) → `[[rilumi-minergie-luftdichtheit-n50]]`. Status
+established (Grenzwerttabelle amtliche Primärquelle).
+
+## F64 — «Muss ich mein Haus an die Fernwärme anschliessen, wenn die Gemeinde einen Wärmeverbund baut?»
+
+**Kurz:** Eine **generelle** Anschlusspflicht gibt es in Zürich nicht — aber Kanton oder
+Gemeinde **können** den Anschluss per Verfügung verlangen, wenn der Wärmeverbund **mindestens
+70 % Abwärme oder erneuerbare Energie** nutzt und zu **wirtschaftlich/technisch gleichwertigen**
+Bedingungen wie eine konventionelle Heizung anbietet (§ 295 Abs. 2 PBG ZH). In der Stadt Zürich
+gilt für bestehende fossile Heizungen dann eine Übergangsfrist von **maximal 8 Jahren**.
+
+**Fachlich:** Grundlage der behördlichen Anordnung ist die **kommunale Energieplanung**: die
+Gemeinde weist darin Wärmeversorgungsgebiete aus; das ist die Entscheidgrundlage für eine
+spätere, individuell anfechtbare Anschlussverfügung (kein Automatismus). Vor einer
+Heizsystem-Wahl deshalb bei der Standortgemeinde abklären, ob die Parzelle in einem
+ausgewiesenen Versorgungsgebiet liegt — dann ist der Fernwärmeanschluss meist ohnehin die
+wirtschaftlichere Wahl, weil die Alternative (eigene fossile Heizung) absehbar ausläuft. Bei
+einem Neubau ohne Umbauarbeiten läuft das Anschlussverfahren als einfache Meldung (30 Tage
+Bearbeitungsfrist), bei einer bestehenden Baubewilligung braucht es ein vollständiges
+Baugesuch über den Kreisarchitekten.
+
+**Quelle:** § 295 Abs. 2 PBG ZH (Sekundärzitate ortsplanung.ch/Baurekursgericht-Praxis) +
+Merkblatt Stadt Zürich «Fernwärmeanschluss» → `[[fernwaerme-anschlusspflicht-zh]]`. Status
+emerging (§-Wortlaut nicht direkt am Primärtext gelesen, vor Rechtsfall verifizieren →
+Skill `baurecht`).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -2126,6 +2172,16 @@ Status emerging (Faustregel-Charakter, Grundlage SIA 2023 formell zurückgezogen
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
+> **FAQ-Stand 2026-07-13 (Run 54):** zwei neue Fragen zu bisher unbelegten Themen (nicht nur
+> Vertiefung bestehender Punkte) — **F63 ‹Blower-Door-Test bei Minergie Pflicht?›**
+> (Grenzwerte qE50: Minergie Neubau ≤1,2/Erneuerung ≤1,6, Minergie-P/-A Neubau ≤0,8/Erneuerung
+> ≤1,6, Messnorm SN EN ISO 9972, ±15 % Messunsicherheit → `[[rilumi-minergie-luftdichtheit-n50]]`,
+> established) und **F64 ‹Fernwärme-Anschlusspflicht Kt. Zürich?›** (keine generelle Pflicht,
+> aber Kanton/Gemeinde können bei ≥70 % erneuerbar/Abwärme + Gleichwertigkeit verfügen, Stadt
+> Zürich 8-Jahres-Übergangsfrist → `[[fernwaerme-anschlusspflicht-zh]]`, emerging, §-Wortlaut
+> nur sekundärquellen-belegt). Da das PDF-Inventar seit 2026-07-13 vollständig abgearbeitet ist
+> (siehe `training/pdf-inventar.md`), lief dieser Run rein über Web-Primärquellen (Minergie-PDF
+> direkt gelesen, PBG-Wortlaut nur sekundär) statt über neue SharePoint-PDFs.
 > **FAQ-Stand 2026-07-12: 50 Kernfragen F1-F50 belegt.** Neu am 2026-07-12 (Run 37, dritter/vierter
 > Lauf des Tages): **F49 Fensteranschluss-Wärmebrücke** (Anschlagstyp entscheidet über bis zu das
 > Doppelte des Wärmeverlusts, Ψ 0,08-0,36 W/(m·K) gg. Grenzwert 0,30; Stahlbetonsturz-Malus bis

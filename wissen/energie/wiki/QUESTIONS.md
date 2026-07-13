@@ -423,6 +423,22 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   keine SZFF-Tabelle auffindbar; bleibt offen fuer einen vierten Versuch mit anderen Suchbegriffen
   oder als Sackgasse zu dokumentieren, falls ein naechster Versuch ebenfalls scheitert.
 
+- [x] **E41** **Luftdichtheit Gebäudehülle / Blower-Door-Test — n50/qE50-Grenzwerte Minergie**
+  belegt ✓ 2026-07-13 (Run 54) → `[[rilumi-minergie-luftdichtheit-n50]]`, FAQ **F63** neu
+  (RiLuMi 2022.1, S. 1-8 Primärquelle vollständig gelesen: qE50 Minergie Neubau ≤1,2/
+  Erneuerung ≤1,6, Minergie-P/-A Neubau ≤0,8/Erneuerung ≤1,6; SN EN ISO 9972, ±15 %
+  Messunsicherheit). Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet Themenkomplex D28.
+  Offen: RiLuMi Kap. 4-8 (Konzept-/Messdetails), CHF-Kosten Blower-Door-Test Schweiz.
+- [x] **E42** **Fernwärme-Anschlusspflicht Kt./Stadt Zürich — § 295 PBG** belegt ✓ 2026-07-13
+  (Run 54) → `[[fernwaerme-anschlusspflicht-zh]]`, FAQ **F64** neu (keine generelle Pflicht,
+  aber Verfügungsmöglichkeit bei ≥70 % Abwärme/erneuerbar + Gleichwertigkeit, kommunale
+  Energieplanung als Grundlage, Stadt Zürich 8-Jahres-Übergangsfrist Bestandsheizungen).
+  Status emerging — **§ 295 Abs. 1-3 PBG-Wortlaut nicht direkt aus zhlex.zh.ch gelesen**
+  (Web-Fetch lieferte nur Navigationsseite), nur zwei übereinstimmende Sekundärquellen. Vor
+  einer rechtsverbindlichen Aussage im Einzelfall den Originaltext verifizieren (→ Skill
+  `baurecht`, evtl. PDF-Direktdownload der Gesetzessammlung in einem Folgelauf versuchen).
+  Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet Themenkomplex D29.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F62
