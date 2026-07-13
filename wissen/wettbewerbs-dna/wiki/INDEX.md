@@ -1,8 +1,9 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 13.07.2026 (Nachbrenner: Rang-Klaerung 2102/2206 abgeschlossen, alle 11 Teilnahmen
-established; 15 Jury-Referenzen + 9 Board-Analysen geprueft; 3 Muster-Artikel; 4 Reports;
-Normbezug SIA 400/142/143)
+Stand: 13.07.2026 (Lauf 3: Muster `delta-zum-ersten-rang` auf alle 6 verfuegbaren
+Dossiers mit Jury-Delta verdichtet und established, 2502 als leerer Ordner bestaetigt;
+alle 11 Teilnahmen established; 15 Jury-Referenzen + 9 Board-Analysen geprueft;
+3 Muster-Artikel; 4 Reports; Normbezug SIA 400/142/143)
 
 ## Teilnahmen (Dossiers) — 11 von 11 destilliert und verifiziert
 
@@ -17,12 +18,13 @@ Normbezug SIA 400/142/143)
 | 2207 | WB Basel (Schliengerweg) | Wohnen (Netto-Null) | offen (kein Jurybericht); GP-Team «RARA», Beitrag «no-ug@» | **established** |
 | 2408 | WB BIWAK (Grassen) | alpines Biwak (18 Schlafplaetze) | ausgeschieden 2. Rundgang; Kennwort «Babuschka», Sieger «bergkristall» | **established** |
 | 2501 | Hafenareal SZ (Steinfabrik) | Wohn-Areal Pfaeffikon SZ | nicht rangiert; Kennwort «SEESTERN», Sieger «ALINGHI» (152 Whg., aGF 29'993 m2) | **established** |
-| 2502 | (leer) | — | Ordner leer — zurueckgezogen/reserviert? | pruefen |
+| 2502 | (leer) | — | Ordner leer (bestaetigt 13.07.2026, nur Verzeichnis ohne Inhalt vom 25.11.2025) — zurueckgezogen/reserviert, keine Teilnahme zum Destillieren | kein Dossier moeglich |
 | 2503 | Studienauftrag Glockenacker | Wohnen (Zuerich-Witikon) | offen (Archiv duenn, nur ArchiCAD-Transferfiles Nov./Dez. 2025) | **established** |
 | 2507 | WETT TKHL (PS Halden) | Tagesbetreuung/Hort St.Gallen | offen (kein Jurybericht, Verfahren jung); Kennwort «LIMO» | **established** |
 
-Stand-Bilanz: **10 established, 1 pruefen.** 2102/2206 sind seit dem Nachbrenner-Lauf 13.07.2026
-established: die dedizierte Rang-Klaerung (`outputs/2026-07-12_rang-klaerung-2102-2206.md`) hat
+Stand-Bilanz: **11 von 11 destillierbaren Teilnahmen established** (2502 kein Dossier
+moeglich, Ordner leer). 2102/2206 sind seit dem Nachbrenner-Lauf 13.07.2026 established:
+die dedizierte Rang-Klaerung (`outputs/2026-07-12_rang-klaerung-2102-2206.md`) hat
 beide Raenge zusaetzlich unabhaengig verifiziert (2206 zudem durch die amtliche Schulrats-
 Verfuegung Altstaetten) und mittels Querpruefung des gesamten Archivs ausgeschlossen, dass ein
 realer 2. Rang von JANS irgendwo dokumentiert ist. Raphaels Erinnerung «2. Platz» bei beiden
@@ -30,9 +32,15 @@ Wettbewerben weicht vom Beleg ab — dies bleibt in QUESTIONS.md als Kenntnisnah
 Raphael offen, blockiert aber die Status-Hebung nicht mehr (Beleglage ist eindeutig und
 mehrfach gegengeprueft).
 
+**Endbedingung Etappe 2 damit vollstaendig erreicht** (Teil 1 destillieren+verifizieren UND
+Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`).
+
 ## Muster (verallgemeinerte DNA)
 
-- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? (Basis 6 Dossiers; Verdichtung auf alle 11 faellig)
+- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? 10 Befunde,
+  Basis alle 6 Dossiers mit verfuegbarem Jury-Delta (2101/2102/2103/2205/2206/2408) —
+  strukturelles Maximum, da die uebrigen 5 Teilnahmen keinen Jurybericht im Archiv haben.
+  Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis 15 Fremd-Juryberichte + 3 eigene
 - muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen
 

@@ -2,7 +2,10 @@
 
 Stand: 13.07.2026
 
-- 2502: Ordner ist leer — Teilnahme zurueckgezogen oder nur reserviert?
+- 2502 (GEKLAERT, 13.07.2026): Ordner ist bestaetigt leer (nur ein Verzeichnis, keine
+  Dateien, Anlagedatum 25.11.2025) — ob zurueckgezogen oder nur reserviert bleibt offen,
+  ist aber irrelevant fuer die KB: ohne Inhalt ist kein Dossier destillierbar. Nicht mehr
+  in Folge-Laeufen pruefen, ausser der Ordner fuellt sich.
 - SIA 142/143 (Ordnungen Wettbewerbe/Studienauftraege): liegen nicht im Archiv —
   ueber Normenbibliothek `PL - 02_Recht_Norm/02_Normen` beschaffen und destillieren.
 - SIA 400 (Planbearbeitung): dito, fuer die Plangrafik-Konventionen.

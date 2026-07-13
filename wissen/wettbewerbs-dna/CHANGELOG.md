@@ -1,5 +1,45 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Lauf 3: Muster `delta-zum-ersten-rang` auf alle 6 verfuegbaren Dossiers verdichtet, 2502 geklaert
+- **Ausgangslage:** Nach dem Nachbrenner-Lauf (Rang-Klaerung 2102/2206) waren zwei Punkte
+  der Endbedingung Etappe 2 (Teil 1) noch offen: (a) `muster/delta-zum-ersten-rang.md` deckte
+  erst 3 von 6 moeglichen Dossiers ab (Basis-Angabe in INDEX war „6 Dossiers", das Dokument
+  selbst zitierte aber nur 2102/2206/2408 — Diskrepanz durch diesen Lauf aufgeloest); (b) die
+  Frage, ob der leere Ordner 2502 eine zurueckgezogene/reservierte Teilnahme ist, war ungeklaert.
+- **2502 geklaert:** `ls -la` auf den OneDrive-Ordner bestaetigt: reines leeres Verzeichnis
+  (Anlagedatum 25.11.2025, keine Dateien). Kein Dossier destillierbar, keine weitere Pruefung
+  noetig. INDEX/QUESTIONS entsprechend nachgefuehrt (Status „kein Dossier moeglich" statt
+  „pruefen").
+- **Muster `delta-zum-ersten-rang.md` von 3 auf alle 6 verfuegbaren Dossiers erweitert:**
+  Dossiers 2101 (St.Gallen KSSG), 2103 (Steinhof), 2205 (Guggerbach) neu eingearbeitet — alle
+  drei enthalten eine belegte «Delta zum 1. Rang»-Sektion mit woertlichen Jury-Zitaten. Aus
+  urspruenglich 6 Einzelbefunden wurden **10 Befunde**: bestehende vertieft (Befund 1 Setzung/
+  Konstruktion, Befund 2 Betrieb/Nutzerlogik, Befund 3 Nutzen-Nachweis, Befund 4
+  Kennwert-Disziplin, Befund 5 jetzt zweigeteilt — Gliederung bei Mischmassstab VS. Ein-Koerper
+  bei homogenem Programm — Befund 6 Weiterbauen/Bestandsschonung); vier neue Befunde ergaenzt
+  (7 Staedtebau als Passstueck bei Lueckenschluss, 8 Terrain als Entwurfsgeber, 9 Bestand
+  schonen zaehlt doppelt, 10 verbindende Herzstuecke als Siegargument). Explizit dokumentiert:
+  fuer die uebrigen 5 Teilnahmen (2104/2207/2501/2503/2507) liegt **kein** Jurybericht im
+  Archiv vor — die Verdichtung auf „alle 11" aus der urspruenglichen PROGRAMM-Formulierung war
+  strukturell nicht erreichbar; das Dokument benennt das jetzt explizit als Quellenlagen-Grenze,
+  nicht als offene Arbeit.
+- **Verifikation (Pflicht, Regel 260712):** unabhaengiger Refuter-Agent hat jedes woertliche
+  Zitat gegen die sechs Quell-Dossiers gegengelesen (Wortlaut, Seitenzahl, Sieger-/
+  Projektzuordnung, Kennzahlen, Deckung der Regel-Verallgemeinerungen durch die Belege).
+  **VERDIKT: BESTANDEN** — keine erfundenen Zahlen, keine falschen Seitenverweise, keine
+  Fehlzuordnungen; eine woertliche Wortstellungs-Inversion in einem Zitat (Guggerbach Befund 5)
+  als sinnwahrende zulaessige Kurzform gewertet, kein Korrekturbedarf. Status von `draft` auf
+  `established` gehoben.
+- **Nachgefuehrt:** INDEX.md (Stand-Datum, Muster-Eintrag, Stand-Bilanz „11 von 11
+  destillierbaren Teilnahmen established", Endbedingung-Vermerk), QUESTIONS.md (2502
+  als geklaert markiert), training/PROGRAMM.md (Stand-Tabelle Nachbrenner + dieser Lauf
+  ergaenzt, Endbedingung Etappe 2 als vollstaendig erreicht markiert).
+- **Naechster Schritt:** Etappe 3 (konkurado-Erweiterung je Ziel-Bauaufgabe) — Bauaufgaben-
+  Prioritaeten muessen zuerst bei Raphael abgeholt werden (offene Frage in QUESTIONS.md).
+  Dieser Lauf schlaegt vor, das im naechsten Tagesbriefing (hub-chef) anzustossen; der
+  taegliche Trainings-Takt kann bis dahin pausieren oder auf Beobachtung der 5 offenen
+  Jury-Berichte (v.a. 2501, 2507) reduziert werden.
+
 ## 2026-07-13 — Nachbrenner: Rang-Klaerung eingearbeitet, 2102/2206 auf established gehoben
 - **Anlass:** Der Volllast-Lauf vom 12.07.2026 endete am Session-Limit (Reset 22:50), bevor
   der bereits erzeugte Report `outputs/2026-07-12_rang-klaerung-2102-2206.md`
