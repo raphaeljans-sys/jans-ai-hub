@@ -42,6 +42,14 @@ Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
 
 ## Geklärt (Archiv)
 
+- **Bild-/Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` (13.07.2026, Lauf 5):**
+  indexiert im neuen Artikel `wiki/referenz-katalog.md`. Damit ist der letzte offene
+  Deliverable-Punkt der Endbedingung Etappe 2 erfüllt (~250 Dateien, 10 Themen-Ordner
+  je speisendem Agenten zugeordnet). Nicht mehr als offener Punkt führen.
+- **2501/2507 Juryberichte — 5. Beobachtung (13.07.2026, Lauf 5):** lokal unverändert
+  (2501 jüngste Datei 19.03.2026, 2507 12.11.2025); extern konkurado.ch für 2501 erneut
+  ohne downloadbaren Jurybericht. Bleibt unter «Ausstehende Juryberichte» offen (externes
+  Ereignis abwarten) — kein Erkenntnisgewinn durch weitere Vollchecks.
 - **2103 Steinhof — Ausscheidungsgründe (13.07.2026, Lauf 4):** definitiv nicht
   rekonstruierbar. `02 Korrespondenz/` enthält nur Abgabe-Logistik (Modellbauer, Velo-
   Kurier, Konkurado-Eingabe, DWG-Austausch), `11 Loggbuch/` nur zwei Entwurfs-/Programm-

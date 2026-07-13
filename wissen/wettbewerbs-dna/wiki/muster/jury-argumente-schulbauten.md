@@ -1,6 +1,6 @@
 ---
 title: "Jury-DNA Schul- und Bildungsbauten — was in Schweizer Schulwettbewerben gewinnt (Synthese aus 11 ausgewerteten Juryberichten)"
-status: draft
+status: established
 last_updated: 2026-07-13
 sources:
   - "11 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (von 17 dort destillierten; 2012–2022, überwiegend Schul-/Bildungsbau)"
@@ -40,8 +40,11 @@ der Betriebs-/Paedagogik-Ebene.**
 **Verifikations-Hinweis (13.07.2026):** Diese Fassung wurde nach einem unabhaengigen
 Refuter-Lauf (`outputs/2026-07-13_refuter-jury-argumente-schulbauten.md`, Verdikt «nicht
 bestanden») ueberarbeitet: mehrere Fehlzuordnungen von Zitaten, ein Kategorisierungsfehler
-und die uebertriebene Quellenzahl wurden korrigiert (Details unten je Fundstelle sowie im
-CHANGELOG).
+und die uebertriebene Quellenzahl wurden korrigiert. Ein zweiter, fokussierter Refuter-Lauf
+hat alle 10 Korrekturen einzeln gegen die Rohquellen gegengeprueft; 9 sofort bestaetigt, der
+10. (Heilpaed. Bern «6 Ausschluesse») nach einer Praezisierung der Rundgang-Bezeichnung
+(«Ausschluss von der Preiserteilung» statt «2. Wertungsrundgang») ebenfalls bestaetigt.
+Status seither `established`.
 
 ## 1. Die Rangordnung der Kriterien (empirisch, nicht die Ausschreibungs-Reihenfolge)
 
@@ -61,15 +64,19 @@ das Programm die Kriterien gewichtet oder als Gesamtwuerdigung fuehrt:
    gewinnt fast nie (Faellanden Rang 3 war das billigste), das teuerste/groesste wird
    abgestraft (Muhen Rang 3 «hoechste Kennwerte»; Muttenz eigener Beitrag «groesste GF+GV»).
 4. **Architektonischer Ausdruck / Material** — kann isoliert zum Ausscheiden fuehren
-   (Hausen «ZNUENI» wegen Ausdruck; Merian schematische Plaene), rettet aber nie ein
-   betrieblich unterlegenes Projekt aufs Podest.
+   (Hausen «ZNUENI»: Ausscheiden im 2. Wertungsrundgang Teilareal A explizit wegen
+   «Nachteile beim architektonischen Ausdruck»), rettet aber nie ein betrieblich unterlegenes
+   Projekt aufs Podest — umgekehrt kostet reiner Ausdrucksmangel auch platzierte Projekte
+   Raenge, ohne sie auszuscheiden: Merian «COMEPURE» wurde fuer «sehr schematische und
+   teilweise unsorgfaeltige Bearbeitung der Plaene» geruegt, blieb aber immerhin **4. Rang,
+   4. Preis** (kein Ausscheider, sondern ein Gegenbeispiel: Kritik ohne Ausschluss).
 
 Konsequenz fuer JANS: Ein Beitrag muss auf Ebene 1 und 2 fehlerfrei sein. Brillanz auf
 Ebene 4 ist wertlos, solange Ebene 2 eine Luecke hat.
 
 ## 2. Die Gewinner-Typologien je Aufgabentyp
 
-Aus den 15 Siegerprojekten laesst sich pro Aufgabenzuschnitt ein praemiertes Muster ableiten:
+Aus den 11 ausgewerteten Siegerprojekten laesst sich pro Aufgabenzuschnitt ein praemiertes Muster ableiten:
 
 | Aufgabe | Praemierte Typologie | Belege |
 |---|---|---|
@@ -89,16 +96,39 @@ unbegruendete Grossform.
 
 1. **Setzung baut den Bestand weiter.** Geometrie/Flucht des Hauptgebaeudes aufnehmen,
    Bestandselemente (Baumreihe, Wege, Hofkante) als verbindende Figur weiterfuehren.
-   Autonome, gedrehte Setzung erzeugt «Verunsicherung» (Heilpaed. Bern «KATSURA» S. 50;
-   Merian; Grossaffoltern Rang 5).
+   Autonome, nicht aus dem Bestand hergeleitete Setzung erzeugt «Verunsicherung» — woertlich
+   belegt bei Heilpaed. Bern «KATSURA» (4. Rang, S. 50: «Seine genaue Positionierung erzeugt
+   eine gewisse Verunsicherung, sie folgt weder der Ausrichtung der bestehenden Schulanlage
+   noch einer der angrenzenden Strassen.»); sinngemaess (nicht wortgleich) auch bei
+   Grossaffoltern Rang 5 «NICHT WEIT VOM STAMM» (Uebereckstellung «kann ortsbaulich nicht
+   ueberzeugen», «schwach gefasst»). Fuer Merian ist kein passendes Zitat auffindbar — dort
+   nicht als Beleg verwenden.
 2. **Freiraum wird zoniert:** oeffentlicher Vorplatz mit Quartier-Adresse + baulich
    gefasster, geschuetzter Schulfreiraum (Merian alle drei Spitzenraenge; Bruehl).
-3. **Bestehende Freiraeume sind Schutzgueter.** Spielwiese, Sportfeld, geschuetzte Baeume
-   in voller Groesse erhalten — Eingriff kostet den 1. Rang (Grossaffoltern Delta R2→R1;
-   Bruehl; Muttenz-Referenz Baden: Rasenflaechen erhalten).
+3. **Bestehende Freiraeume UND Bestandesbauten sind Schutzgueter.** Spielwiese, Sportfeld,
+   geschuetzte Baeume in voller Groesse erhalten — Eingriff kostet den 1. Rang (Grossaffoltern
+   Delta R2→R1; Bruehl; Muttenz-Referenz Baden: Rasenflaechen erhalten). Dasselbe Prinzip gilt
+   fuer brauchbare Bestandesbauten: in 2103 Steinhof entschied die Jury die Grundsatzfrage
+   Erhalt-vs.-Ersatz der bestehenden Turnhalle zugunsten des **Erhalts** — der Sieger
+   «Gigelisuppe» erweiterte die bestehende Turnhalle statt sie zu ersetzen («Dem hangseitig
+   erweiterten, bestehenden Turnhallentrakt wird ein neues, zum bestehenden Volumen leicht
+   versetztes Schulhausgebaeude zur Seite gestellt.», Jurybericht S. 20), waehrend JANS mit
+   komplettem Ersatzneubau und gestapelter Halle antrat (Jurybericht S. 13, 15, 22-23; siehe
+   [[teilnahmen/2103-steinhofschule]]).
 4. **Nutzbare Erschliessung statt Korridor.** Zentrale moeblierbare Halle / Marktplatz,
    die zugleich Aufenthalts-/Unterrichtsflaeche ist (Faellanden «JOAN»-Halle; Wattwil
-   Atrium; Muhen Mittelzone). Reine Zirkulation ohne Mehrwert = Malus (Merian «LINK»).
+   Atrium; Muhen «Marktplatz», von oben belichtet als raeumliches Zentrum — Achtung: dieser
+   Beleg stammt aus der Wuerdigung von PAPAGENO, **3. Rang**, nicht aus dem Siegerprojekt;
+   die Qualitaet allein reichte dort nicht zum Sieg). Reine Zirkulation ohne Mehrwert kann
+   auch beim Sieger selbst geruegt werden: in Merian wurden die Aussentreppen-Sitzstufen des
+   **Siegerprojekts LAUSCHSICHT** (nicht LINK) bemaengelt, sie «bringen kaum einen
+   raeumlichen Mehrwert – weder fuer die Schule noch fuer das Quartier». Die **Sichtbeziehung
+   zwischen Lernlandschaft und Klassenzimmer** ist ein eigener, oft entscheidender Unterpunkt:
+   in 2206 Schoental verlor der JANS-Beitrag «ARCHE» explizit daran («Leider fehlt die
+   Transparenz zwischen den beiden noerdlichen Klassenzimmern und der Lernlandschaft.»,
+   Schlussbericht S. 28-29), waehrend der Sieger «NORDLICHTER» die Lernlandschaften «den
+   Klassenzimmern vorgelagert und mit diesen gut verbunden» loeste (S. 17; siehe
+   [[teilnahmen/2206-schoental]]).
 5. **Gleichwertige, vollstaendige Lerncluster.** Jedes Lernatelier mit Aussenraumbezug,
    integriertem WC/Garderobe/Input, Aufsicht moeglich; Reversibilitaet in klassische
    Zimmer nachweisen. Korridorschule/benachteiligtes Atelier = K.-o. im 1. Rundgang
@@ -112,8 +142,11 @@ unbegruendete Grossform.
    Faellanden). Aber: Kompaktheit nur bis zur Funktionsgrenze — unterschrittene Mindestmasse
    kippen tiefe Kennwerte vom Vorteil ins Defizit (Wattwil «cubes lignea»).
 8. **Vereinssport / oeffentliche Bausteine (Aula) brauchen eigene Adresse + Erschliessung
-   + Hindernisfreiheit.** Doppelbelegte Eingangshallen erzeugen Nutzungskonflikte (Baden;
-   Merian Aula-Lage; Sandgruben unabhaengige Erschliessungen).
+   + Hindernisfreiheit.** Doppelbelegte Eingangshallen erzeugen Nutzungskonflikte — konkret
+   belegt am **Rang-3-Projekt «Musmeci»** in Baden (nicht am Sieger achtmalacht, der getrennte
+   Eingaenge vorsah): «Da diese Halle auch unabhaengig vom Schulbetrieb im Rahmen von
+   Sportveranstaltungen genutzt werden soll, koennten jedoch Nutzungskonflikte entstehen.»
+   Gleiches Muster bei Merian Aula-Lage und Sandgruben unabhaengige Erschliessungen.
 9. **Vorfabrikation / Systemtrennung / natuerliche Materialien** liefern Flexibilitaet +
    Wirtschaftlichkeit + Wertbestaendigkeit als Argumentpaket (Bruehl, Froeschmatt,
    Baden, Heilpaed. Bern) — und sind bei Umnutzbarkeits-Vorgaben (Regelschule spaeter)
@@ -125,23 +158,36 @@ unbegruendete Grossform.
 ## 4. Die K.-o.-Punkte (Verbotsliste — jeder einzelne kann den Sieg kosten)
 
 - **Unterirdische/versenkte Baumasse ohne Tageslichtkonzept** — der meistwiederholte
-  Abwertungsgrund ueberhaupt (Froeschmatt: Hauptgrund gegen Rang 1 bei «PRATELLUM»;
-  Sandgruben Rang 3; Baden). Versenken ist nur praemierbar mit kompensierter Belichtung
-  (Rundgang/Oblicht) und ueber Grundwasser (Baden «achtmalacht», Sandgruben Sieger).
+  Abwertungsgrund ueberhaupt (Froeschmatt: Hauptgrund gegen Rang 1 bei «PRATELLUM»; auch bei
+  einem platzierten Projekt geruegt, Sandgruben «SANDFISCH» Rang 3: «Turnhallen und die
+  unterirdischen Unterrichtsraeume ungenuegend mit Tageslicht versorgt»). Versenken ist nur
+  praemierbar mit kompensierter Belichtung (Rundgang/Oblicht) und ueber Grundwasser (Baden
+  «achtmalacht», Sandgruben Sieger).
 - **Graue Energie / SIA 2040 verfehlt** — fliesst als Expertenurteil direkt in die Wertung
   (Froeschmatt «nicht eingehalten»; jedes Verfahren mit ECO-Abschnitt je Projekt).
 - **Perimeter-/Aufgabentyp-Verstoss** — kein Punktabzug, sondern Ausschluss: Ersatzneubau
-  statt Erweiterung (Merian «ZAEAEMEKO»), Perimeterueberschreitung (Merian, Heilpaed. Bern
-  6 Projekte), Bauen ausserhalb (Muhen «erkaufte» Parkplaetze).
+  statt Erweiterung (Merian «ZAEAEMEKO»), Bauen ausserhalb (Muhen «erkaufte» Parkplaetze).
+  Bei Heilpaed. Bern schieden im vorgelagerten Abschnitt «Ausschluss von der Preiserteilung»
+  (vor dem 1. Wertungsrundgang, nicht zu verwechseln mit dem spaeteren 2. Wertungsrundgang)
+  6 Projekte aus — davon **1** klar wegen Perimeterueberschreitung (UBUNTU), die uebrigen 5
+  wegen anderer Baurechts-/Grenzabstandsverletzungen; nicht pauschal als «6× Perimeter»
+  zitieren.
 - **Fluchtwege / Hindernisfreiheit am Plan nicht erfuellt** — zu enge Kaskadentreppe stellt
   «die Raumdisposition grundsaetzlich in Frage» (Faellanden «TETE-A-TETE»); zu steile Rampen
   (Grossaffoltern). Nie per Erlaeuterungstext behaupten — muss geometrisch stimmen.
-- **Betriebsdistanz** — Erweiterungsbau zu weit vom uebrigen Schulbetrieb = Ausschluss
-  trotz Praezision (Baden «Fermate»).
 - **Introvertierte Typologie bei Quartier-/Inklusionsauftrag** (Heilpaed. Bern «JO-JO»-Hof);
   **Zerfall in Einzelhaeuser** ohne verbindende Mitte (Heilpaed. Bern «DREI GAERTEN»).
 - **Extremwert im Kennwert-Feld** — groesste GF/GV/Kosten (Muttenz eigener Beitrag; Muhen
   Rang 3) oder kuenstlich tiefste durch unterschrittene Masse (Wattwil).
+
+**Kein K.o., aber teuer: Betriebsdistanz.** Anders als die obigen Punkte fuehrt eine zu
+grosse Distanz des Erweiterungsbaus zum uebrigen Schulbetrieb nicht zwingend zum Ausschluss
+— sie kann auch ein sehr praezise ausgearbeitetes Projekt Raenge kosten. Beleg: Baden
+«Fermate» erreichte trotz dieser Kritik **2. Rang, 2. Preis** («Das Projekt N° 27: Fermate
+wird aus staedtebaulicher und denkmalpflegerischer Sicht als schwierig beurteilt. ... ist fuer
+den Betrieb zu weit weg vom uebrigen Schulbereich.»). Betriebsdistanz gehoert damit in die
+Liste der Siegargumente/Rangverlust-Gruende (vgl. Punkt 6 oben), nicht in die harte
+Verbotsliste.
 
 ## 5. Verfahrens-Mechanik (taktisch)
 
@@ -169,14 +215,30 @@ Diese Synthese liefert die Inhalte fuer die in der Generalprobe Muttenz
 2. **Kennwert-Benchmark-Stufe** (Befund 7, K.-o. Extremwert) im `flaechen-nachweis`:
    GF/Gebaeudehuelle, HNF/GF, Anteil unterirdisch gegen einen Feld-Korridor.
 3. **Verbots-/K.-o.-Checkliste** (Sektion 4) als harter Vor-Filter: Perimeter, unterirdische
-   Baumasse ohne Tageslicht, Fluchtweg-Geometrie, Betriebsdistanz.
+   Baumasse ohne Tageslicht, Fluchtweg-Geometrie; Betriebsdistanz separat als weiche
+   Rangverlust-Warnung (kein K.o., siehe Sektion 4 unten).
 4. **Typologie-Vorschlag** (Sektion 2): der Harness schlaegt zu Aufgabe+Ort die belegt
    praemierte Typologie als Startpunkt vor (Human Gate bleibt beim Parti).
 
 ## Offene Punkte
 
-- Datenbasis Schulbau bereits sehr breit (15 Berichte); vor Status `established` je Notiz
-  Refuter-Lauf (mehrere sind OCR-/Scan-basiert). Nicht-Schulbau (Wohnen/Healthcare/Theater)
-  ist noch duenn — eigene Muster-Artikel bei genug Material.
+- **Sechs destillierte Berichte noch nicht ausgewertet:** Sursee (im Frontmatter verlinkt,
+  aber bisher ohne Textbeleg genutzt), Littau-Luzern, Thurgauerstrasse Zuerich, Turnhalle/
+  Tagesschule Baetterkinden, Volksschule Stoeckacker Bern, Zelgli Schlieren — Kandidaten fuer
+  eine Folgeverdichtung, die die Beleg-Basis von 11 auf bis zu 17 erweitern wuerde.
+- **Bruehl-Solothurn nur teilweise gegengeprueft:** Der Refuter-Lauf vom 13.07.2026 konnte aus
+  Kapazitaetsgruenden nur die ersten 780 von 1944 Zeilen des Rohextrakts lesen (Verfahren +
+  1.-Rundgang-Ausscheideliste, inkl. bestaetigter «44 von 68»-Zahl). Die im Dossier zitierte
+  Rang-2/3-Wuerdigung (Spielhaus/Bei Zwergen, Elfen und Waldtrollen: architektonisch gelobt,
+  betrieblich verloren) wurde am 13.07.2026 nachtraeglich direkt anhand `raw/extern-jurybericht-
+  bruehl-solothurn.txt` (Zeilen 1040-1180) verifiziert und woertlich bestaetigt — Punkt
+  geschlossen.
+- **Wattwil-Extrakt ist eine KI-Transkription, kein Primaertext:** laut eigenem Dateikopf keine
+  pdftotext-Rohextraktion, sondern eine von Claude erstellte visuelle Transkription eines
+  bildbasierten 134-Seiten-Scans. Die CELESTE/ERRATIKER-Bereinigungsstufen-Erzaehlung sollte
+  bei Gelegenheit gegen eine echte OCR/den Originalscan nachgezogen werden, bevor sie als
+  hartbelegt gilt.
+- Nicht-Schulbau (Wohnen/Healthcare/Theater) ist noch duenn — eigene Muster-Artikel bei genug
+  Material.
 - Verbindung zu den Turnhallen-Referenzen (Muttenz-Ordner «Turnhalle versenkt/freistehend»):
   eigener Vertiefungsartikel `wiki/muster/turnhalle-typologie.md` waere faellig.

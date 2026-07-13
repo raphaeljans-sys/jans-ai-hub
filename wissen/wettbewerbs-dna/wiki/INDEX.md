@@ -1,10 +1,12 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 13.07.2026 (Lauf 4: QUESTIONS-Punkt 2103 Steinhof geklaert — Ausscheidungsgruende
-aus dem Archiv definitiv nicht rekonstruierbar, da nur Abgabe-Logistik + Eingabephasen-
-Loggbuch vorhanden, kein Post-Jury-Debrief; 4. Beobachtung 2501/2507 ohne neues Material.
-Weiterhin: alle 11 Teilnahmen established; 2502 leer; 15 Jury-Referenzen + 9 Board-Analysen;
-3 Muster-Artikel; 4 Reports; Normbezug SIA 400/142/143)
+Stand: 13.07.2026 (Lauf 5: **Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert**
+— der letzte offene Endbedingung-Punkt Etappe 2, neuer Artikel `wiki/referenz-katalog.md`;
+5. Beobachtung 2501/2507 ohne neues Material lokal + extern. Zusaetzlich: `muster/jury-
+argumente-schulbauten.md` nach durchgefallenem Refuter-Lauf ueberarbeitet (10 Korrekturen)
+und im fokussierten Zweitlauf 10/10 bestaetigt → **established**. Weiterhin: alle 11
+Teilnahmen established; 2502 leer; 15 Jury-Referenzen + 9 Board-Analysen; 3 Muster-Artikel
++ 1 Katalog; 4 Reports; Normbezug SIA 400/142/143)
 
 ## Teilnahmen (Dossiers) — 11 von 11 destilliert und verifiziert
 
@@ -42,8 +44,19 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   Basis alle 6 Dossiers mit verfuegbarem Jury-Delta (2101/2102/2103/2205/2206/2408) —
   strukturelles Maximum, da die uebrigen 5 Teilnahmen keinen Jurybericht im Archiv haben.
   Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN)
-- muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis 15 Fremd-Juryberichte + 3 eigene
+- muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis 11 aktiv ausgewertete von 17 destillierten Fremd-Juryberichten + 3 eigene. Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt)
 - muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen
+
+## Referenz-Katalog (wiki/referenz-katalog.md) — established
+
+- referenz-katalog.md — Index des buerointernen Vorlagen-/Referenzspeichers
+  `OneDrive/AR - 02 Wettbewerbe/_Admin/03_Referenzen_WB_Abgaben` (~250 Dateien, 10 Themen-
+  Ordner: Diagramme, Wettbewerbsbeispiele, Flaechenberechnung, Grobkostenberechnung,
+  Modellbilder, Volumenstudien, Tiefgaragen, Moeblierung Buero, Inspiration). Der
+  Werkzeugkasten VOR der Board-Produktion — speist `schema-zeichner` (Diagramm-Vorlagen),
+  `plakat-setzer` (Vorbild-Boards), `flaechen-nachweis` (SIA-416-Muster je Bauaufgabe),
+  `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
+  Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
 ## Externe Referenz-Juryberichte (wiki/extern/) — 15, ganz ueberwiegend established
 

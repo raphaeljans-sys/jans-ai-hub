@@ -17,11 +17,12 @@ nach Ruecktaktung: Nachtfenster 22:00–06:00.
    (`wiki/muster/`) verdichten.
 6. NAS-Repo committen + pushen (Rule git-auto-push).
 
-## Endbedingung Etappe 2
+## Endbedingung Etappe 2 — VOLLSTAENDIG ERREICHT (13.07.2026, Lauf 5)
 
-Alle 12 Teilnahmen destilliert + verifiziert, Bild-Katalog `_Admin/03_Referenzen_WB_Abgaben`
-indexiert. Danach Etappe 3 (konkurado-Erweiterung je Ziel-Bauaufgabe) — Bauaufgaben-
-Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
+Alle 12 Teilnahmen destilliert + verifiziert (11 established, 2502 Ordner leer) UND
+Bild-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert (`wiki/referenz-katalog.md`,
+Lauf 5). Damit auch der Deliverable-Teil komplett. Danach Etappe 3 (konkurado-Erweiterung
+je Ziel-Bauaufgabe) — Bauaufgaben-Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
 
 ## Stand
 
@@ -37,6 +38,8 @@ Prioritaeten vorher bei Raphael abholen (QUESTIONS.md).
 | Beobachtung 2 | 13.07.2026 (2. Lauf) | Lokal weiterhin kein neues Material (2507-Jurybericht-Ordner leer bestaetigt). Zusaetzlich extern geprueft (konkurado.ch, competitions.espazium.ch): 2501 Steinfabrik als "abgeschlossen" markiert, Jurybericht dort noch nicht publiziert (Alt-Erwartung "Ende Maerz 2026" war ueberholt, QUESTIONS korrigiert); 2507 TKHL Halden laut espazium weiterhin im laufenden Verfahren, kein Entscheid publiziert. Keine Destillation. Empfehlung Taktreduktion in QUESTIONS.md verschaerft (2. Beobachtungslauf ohne Befund) | erledigt (kein Content-Update, KB-Korrektur) |
 | Beobachtung 3 | 13.07.2026 (3. Lauf) | Lokal weiterhin kein neues Material (OneDrive-Zeitstempel 2501 juengste Datei 19.03.2026, 2507 juengste Datei 12.11.2025 — beide unveraendert seit Lauf 2). Extern erneut per WebFetch geprueft: konkurado.ch fuer 2501 Steinfabrik zeigt im Terminplan „Jurybericht: 14.01.2026", das Dokument selbst ist aber weiterhin NICHT verlinkt/downloadbar (Terminplan-Datum ist kein Publikationsbeleg, keine neue Erkenntnis); competitions.espazium.ch fuer 2507 Halden steht weiterhin unter „Wettbewerbsausschreibungen" (nicht „Entschiedene Wettbewerbe"), kein Entscheid publiziert. Keine Destillation — dritter Beobachtungslauf in Folge ohne Befund. Etappe 3 weiter blockiert auf Raphaels Bauaufgaben-Prioritaeten; Taktreduktions-Empfehlung (QUESTIONS.md) bleibt zur Entscheidung bei Raphael offen | erledigt (kein Content-Update) |
 | 4 | 13.07.2026 (4. Lauf) | Statt reiner Leerlauf-Beobachtung ein lokal abschliessbarer QUESTIONS-Punkt bearbeitet: **2103 Steinhof Ausscheidungsgruende** — `02 Korrespondenz/` enthaelt nur Abgabe-Logistik (Modellbauer, Velo-Kurier, Konkurado-Eingabe, DWG), `11 Loggbuch/` nur zwei Eingabephasen-Dokumente (Konzeptnotizen + Programm-Stichworte); alles vor der Jurierung (Abgabe Maerz 2022, Jurybericht 23.05.2022). Kein Post-Jury-Debrief im Archiv → Gruende definitiv nicht rekonstruierbar, Punkt von Offen → Geklaert. Zusaetzlich 4. Beobachtung 2501/2507: lokal unveraendert kein neues Material. Loop-Takt-Note in QUESTIONS mit VOLLGAS-Kontext (260712c: Loops laufen bis Ruecktaktung durchgehend) praezisiert | erledigt (1 QUESTIONS-Punkt geschlossen) |
+| 5 | 13.07.2026 (5. Lauf) | **Letzter offener Endbedingung-Punkt Etappe 2 erledigt: Bild-/Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert** — neuer established-Artikel `wiki/referenz-katalog.md` (~250 Dateien, 10 Themen-Ordner je speisendem Agenten zugeordnet: schema-zeichner/plakat-setzer/flaechen-nachweis/grobkosten-onepager/volumenstudie). Reines Direkt-Inventar, per Ordner-Listing verifiziert. Zusaetzlich 5. Beobachtung 2501/2507: lokal unveraendert (2501 19.03.2026, 2507 12.11.2025), extern konkurado.ch fuer 2501 weiter ohne downloadbaren Jurybericht — kein neues Material | erledigt (Katalog indexiert, Endbedingung Etappe 2 nun auch im Deliverable-Teil vollstaendig) |
+| Nachbrenner-Fix | 13.07.2026 | **`muster/jury-argumente-schulbauten.md` von draft auf established gehoben:** die 10 Korrekturauflagen aus dem durchgefallenen Refuter-Erstlauf (Fehlzuordnungen Fermate/Froeschmatt/Merian-LINK/Muhen/Sandgruben/Merian-COMEPURE, uebertriebene Quellenzahl, dekorative Steinhof/Schoental-Verlinkung) einzeln gegen die Rohquellen in `raw/` korrigiert und mit Zitat/Seite belegt. Fokussierter Zweitlauf (unabhaengiger Refuter-Agent) prueft alle 10 Punkte gegen die Originaltexte: 9/10 sofort bestaetigt, 1 Praezisierung (Heilpaed.-Bern-Ausschluss gehoert zum Abschnitt «Ausschluss von der Preiserteilung», nicht «2. Wertungsrundgang») nachgezogen und selbst verifiziert. Status jetzt `established` | erledigt |
 
 **Endbedingung Etappe 2 VOLLSTAENDIG ERREICHT (13.07.2026):** alle 11 destillierbaren
 Teilnahmen established (2502 kein Dossier moeglich, Ordner leer); Rang-Diskrepanz 2102/2206

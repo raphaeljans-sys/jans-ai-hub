@@ -1,5 +1,53 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Nachbrenner: `jury-argumente-schulbauten.md` korrigiert, Zweitlauf BESTANDEN → established
+- **Auftrag:** Abarbeitung der 10 Korrekturauflagen aus dem durchgefallenen Refuter-Erstlauf
+  (siehe Eintrag weiter unten), danach fokussierter zweiter Refuter-Lauf nur auf die
+  geaenderten Stellen.
+- **Korrekturen (jede einzeln gegen die Rohquelle in `raw/` verifiziert, siehe Zweitlauf):**
+  (1) Fermate (Baden) von der K.-o.-Liste in einen eigenen Absatz «kein K.o., aber teuer:
+  Betriebsdistanz» verschoben (2. Rang/2. Preis, nicht Ausschluss); (2) Froeschmatt-Typologiezeile
+  von «Kantonsschule» auf «Sekundarschule» korrigiert; (3) Merian-Zitat «kaum einen raeumlichen
+  Mehrwert» richtig LAUSCHSICHT (Sieger, Sitzstufenkritik) statt LINK zugeordnet; (4) Muhen
+  «Marktplatz» (nicht «Mittelzone») korrekt PAPAGENO (3. Rang) statt dem Sieger zugeordnet, mit
+  Hinweis dass die Qualitaet dort nicht zum Sieg reichte; (5) Sandgruben-K.o.-Beispiel korrigiert:
+  SANDFISCH ist 3. Rang, kein 1.-Rundgang-Ausscheider — Beleg in die Tageslicht-K.o.-Kategorie
+  verschoben; (6) Merian-COMEPURE als Gegenbeispiel reformuliert (4. Rang, nicht ausgeschieden —
+  entkraeftet die eigene These eher, als sie zu stuetzen); (7) «15 Berichte» auf «11 aktiv
+  ausgewertet von 17 destilliert» korrigiert, die 6 ungenutzten Berichte in «Offene Punkte»
+  vermerkt; (8) Steinhof/Schoental-Anspruch eingeloest: Turnhalle-Erhalt-Debatte (Steinhof,
+  Argument 3) und Lernlandschaft-Transparenz-Kritik (Schoental, Argument 4) mit Zitaten
+  eingearbeitet statt nur dekorativ verlinkt; (9) Bruehl-Solothurn Rang-2/3-Wuerdigung (Spielhaus/
+  Bei Zwergen, Elfen und Waldtrollen) direkt gegen `raw/extern-jurybericht-bruehl-solothurn.txt`
+  (Zeilen 1040-1180) nachverifiziert und woertlich bestaetigt; (10) Heilpaed.-Bern-KATSURA-Zitat
+  bestaetigt (echt, S. 50), Grossaffoltern/Merian als «sinngemaess, nicht wortgleich» bzw. «kein
+  Beleg» praezisiert.
+- **Zweitlauf (fokussierter Refuter, gegen die Rohquellen):** 9 von 10 Punkten sofort
+  BESTAETIGT. Punkt 10 (Heilpaed. Bern «6 ausgeschlossene Projekte») initial mit falscher
+  Rundgang-Bezeichnung («2. Wertungsrundgang» statt korrekt «Ausschluss von der Preiserteilung»,
+  ein vorgelagerter Abschnitt vor dem 1. Wertungsrundgang) — Bezeichnung korrigiert, die
+  Aufteilung 1× Perimeter (UBUNTU) / 5× Baurecht war bereits sachlich richtig. Nach der
+  Korrektur eigenstaendig gegen `raw/extern-jurybericht-heilpaedagogische-schule-bern.txt`
+  (Zeilen 215-245) nachverifiziert: bestaetigt.
+- **Ergebnis:** Status von `draft` auf **`established`** gehoben. Datei
+  `wiki/muster/jury-argumente-schulbauten.md`; Verifikations-Hinweis im Artikel-Kopf ergaenzt.
+
+## 2026-07-13 (Lauf 5) — Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert (letzter Endbedingung-Punkt Etappe 2)
+- **Auftrag:** Loop-Lauf; lokal + extern kein neues Material fuer die zwei offenen Blocker
+  (2501 Steinfabrik: juengste Datei unveraendert 19.03.2026; 2507 Halden: unveraendert
+  12.11.2025; externe Pruefung konkurado.ch fuer 2501 erneut ohne downloadbaren Jurybericht).
+  Statt eines fuenften reinen Beobachtungslaufs den **letzten offenen Endbedingung-Punkt
+  Etappe 2** abgearbeitet: den Bild-/Referenz-Katalog indexiert, der in `training/PROGRAMM.md`
+  als Etappe-2-Deliverable genannt, aber nie erstellt worden war.
+- **Ergebnis:** Neuer Artikel `wiki/referenz-katalog.md` (Status `established`, da reines
+  Direkt-Inventar — keine Jury-Claims zu widerlegen, per Ordner-Listing 13.07.2026 verifiziert):
+  indexiert `OneDrive/AR - 02 Wettbewerbe/_Admin/03_Referenzen_WB_Abgaben` (~250 Dateien, 10
+  Themen-Ordner) mit Zuordnung je Ordner → speisender Agent (schema-zeichner, plakat-setzer,
+  flaechen-nachweis, grobkosten-onepager, volumenstudie). Abgrenzung zu `jans-board-dna`
+  (Handschrift der eigenen Abgaben) dokumentiert.
+- **Bookkeeping:** INDEX.md (Katalog-Sektion + Kopf), QUESTIONS.md (Endbedingung-Punkt
+  geschlossen, 5. Beobachtung vermerkt), PROGRAMM.md (Stand-Tabelle Lauf 5) nachgefuehrt.
+
 ## 2026-07-13 — Refuter-Lauf gegen `wiki/muster/jury-argumente-schulbauten.md`: NICHT BESTANDEN
 - **Auftrag:** Vor Hebung des Dossiers "Jury-DNA Schul- und Bildungsbauten" (Status `draft`)
   auf `established` wurde ein unabhaengiger Refuter-Lauf durchgefuehrt (5 parallele Agenten,
