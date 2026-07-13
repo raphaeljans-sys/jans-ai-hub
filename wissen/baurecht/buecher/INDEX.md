@@ -60,7 +60,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   (Art. 15 EnG), Feuerungen Öl/Gas/Holz (**§ 24 BBV I** > 1000 kW = AWEL, LRV, Feuerungskontrolle alle 2 J.
   Art. 13 LRV), Kaminhöhen (Ziff. 3 Empfehlungen 2013: **0,5 m Dachfirst / 1,5 m Flachdach / 2 m begehbar**),
   **Elektroheizungsverbot § 10b EnerG**, Warmwasser **max. 60 °C § 26 BBV I** / Vorlauftemp. **≤ 50 °C /
-  Bodenheizung ≤ 35 °C § 23 BBV I**, **VHKA ab 5 Nutzeinheiten § 9 EnerG** (≥ 60 % verbrauchsabh.), besondere
+  Bodenheizung ≤ 35 °C § 23 BBV I**, **VHKA ab 2/3 Nutzeinheiten § 9 EnerG** (Neubau ≥ 2 WW / Bestand ≥ 3, ≥ 60 % verbrauchsabh.; verifiziert Run 38 — nicht «5»), besondere
   Heizungen (Freiluft-/Hallenbäder, Rampen-/Garagenheizung Ziff. 2.31 Anhang BBV I), Klima/Lüftung **§ 29 BBV I**
   (WRG, EBF > 1000 m² § 45 Abs. 3), **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro (NIV Art. 37 ff.),
   **Aufzugspflicht > 5 anrechenbare Geschosse** (Kabine 2,10 × 1,10 m, > 9 Gesch. = 2 Aufzüge § 40 Abs. 2 BBV I),
@@ -77,7 +77,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Art. 39 Abs. 1 LSV), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse;
   > 6 dB(A) nie leicht), verschärfte Schalldämmung Art. 32 Abs. 2 LSV/SIA 181, Lärmgutachten/Formular
   «Lärmschutz», **Fluglärm** (Art. 31a LSV Nachtstunden, vBR 2012/SIL/Abgrenzungslinie); **NISV** zweistufig
-  **IGW (überall, Anhang 2) + AGW (nur OMEN, Faktor 10, Art. 6 Abs. 3 NISV)**, Lichtimmissionen (SIA 491, Blendung
+  **IGW (überall, Anhang 2) + AGW (nur OMEN, Faktor 10, Art. 3 Abs. 6 NISV)**, Lichtimmissionen (SIA 491, Blendung
   Solar), **OMEN Art. 3 Abs. 3 NISV** (Wohn-/Schlaf-/Schulräume, Patientenzimmer, Arbeitsplätze SECO; Balkone/
   Terrassen NICHT OMEN), **Mobilfunk** (Systeme GSM/UMTS/LTE/5G, **AGW 4-6 V/m** Ziff. 64 Anhang 1 NISV, Abstand
   30-50 m; innerhalb Bauzone Anspruch § 320 PBG **ohne Bedürfnisnachweis** BGer 1C_329/2013, ausserhalb Art. 24

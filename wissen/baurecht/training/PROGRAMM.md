@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-12
+last_updated: 2026-07-14
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -91,6 +91,17 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 39 (2026-07-14, Modell-D EnerG §§ 9-14 Fassungsstand, kein Agent-Fan-out — Kollisionsvermeidung
+    bei mehreren zeitgleichen VOLLGAS-Instanzen):** Wiki↔Destillat-Divergenz geschlossen — die EnerG-
+    Korrekturen aus Run 32 (Wiki [[wohnhygiene-und-raumanforderungen]]) waren im Buch-Destillat
+    [[17-haustechnische-anlagen-teil3]] + `buecher/INDEX.md` NICHT nachgeführt (trotz «verifiziert»-Vermerk).
+    Gegen `raw/260712_amtlich_zh_energ.md` (Nachtrag 129): **VHKA-Schwelle «ab 5 Nutzeinheiten» korrigiert →
+    Neubau ≥ 2 / Bestand ≥ 3 (§ 9 Abs. 1/3), Befreiung § 9 Abs. 5**; **fossile WKK/Notstrom § 12b EnerG
+    (Probeläufe ≤ 50 h), nicht § 30a Abs. 2 BBV I / § 13**; **§ 13 aufgehoben, § 9a existiert nicht**; § 10a/§ 10c
+    (Eigenstromerzeugung/PV) als neu erfasst. Zusätzlich **NISV-INDEX-Fundstelle «Art. 6 Abs. 3» → «Art. 3 Abs. 6
+    NISV»** korrigiert. **5 Korrekturen, 0 Halluzinationen**, 4 neue Drills (3×D, 1×A). Kollisionsfrei zu
+    Parallel-Lauf «Run 38» (KNHV/USG/VRG). **Offen:** BBV-I-Wortlaut Kap. 17 (raw bbv1). Report
+    `outputs/2026-07-14_buch-run39.md`.
   - **Run 36 (2026-07-13, Modell-D-Volltextabgleich, 5 Komplexe parallel via Agent-Tool — Workflow-Tool
     bewusst vermieden, siehe Run-32-Lehre):** [[wohnhygiene-und-raumanforderungen]] `emerging`→`established`
     (PBG §§ 299-306 + § 32/§ 4 ABV, alle 10 Fundstellen CONFIRMED, 0 Fehler); [[ausnahmebewilligung-und-

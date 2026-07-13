@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -1246,3 +1246,34 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   18. Maerz 2020 ... in Kraft seit 1. August 2021». Das Buch (6. Aufl. 2019) kannte nur den 2019-Stand
   (2 Std., Vernehmlassung → 3 Std.) — das Buch-Destillat war insofern ueberholt und wurde
   nachgefuehrt. Beleg: raw/260607_amtlich_zh_abv.md. _[2026-07-13]_
+
+## Kap. 17.9 — Haustechnik/EnerG-Fassungsstand (Buch-Run 38, 2026-07-14, Modell D gegen raw/260712_amtlich_zh_energ.md)
+
+- **F:** Ab wie vielen Nutzeinheiten greift die verbrauchsabhaengige Heiz-/Warmwasserkosten-
+  abrechnung (VHKA) nach dem geltenden § 9 EnerG? — **A:** Nicht «ab 5» (ueberholter Buch-Wert 6.
+  Aufl. 2019), sondern **Neubauten ab 2 Nutzeinheiten** (Warmwasser-Erfassung, § 9 Abs. 1 EnerG) bzw.
+  **bestehende Gebäude ab 3 Nutzeinheiten pro Gebäude** bei Gesamterneuerung Heizung/Warmwasser
+  (§ 9 Abs. 3, in Kraft seit 1.9.2025). Befreiung bei besonderen Verhältnissen: **§ 9 Abs. 5** (nicht
+  Abs. 4). Beleg: raw/260712_amtlich_zh_energ.md (Nachtrag 129). _[2026-07-14]_
+- **F:** In welcher Norm steht heute die Wärmenutzungs-/Notstrom-Regelung für fossile Elektrizitäts-
+  erzeugungsanlagen, und wie lange sind Probeläufe ohne Abwärmenutzung zulässig? — **A:** **§ 12b EnerG**
+  (Wärmenutzung bei Elektrizitätserzeugungsanlagen), NICHT § 30a Abs. 2 BBV I / § 13 EnerG. Notstrom-
+  anlagen dürfen ohne Abwärmenutzung betrieben werden; **Probeläufe längstens 50 Stunden pro Jahr**
+  (§ 12b Abs. 1 — nicht 30 h). Beleg: raw/260712_amtlich_zh_energ.md. _[2026-07-14]_
+- **F:** Gilt der alte § 13 EnerG (Abnahmepflicht der EW/Gemeinden für dezentral erzeugten Strom, ehem.
+  Art. 7 EnG) noch, und existiert ein § 9a EnerG? — **A:** **Nein zu beidem.** § 13 EnerG (Abnahme-
+  pflicht) ist **per 1.9.2022 aufgehoben** (G vom 19.4.2021); die Einspeisung richtet sich heute nach
+  Bundesrecht (Art. 15 EnG). Ein **§ 9a EnerG existiert nicht** — die Numerierung springt von § 9 direkt
+  zu § 10 (aufgehoben) und § 10a. Die neuen §§ 13a-13d regeln anderes (Grossverbraucher/GEAK/Minergie/
+  Betriebsoptimierung). Beleg: raw/260712_amtlich_zh_energ.md. _[2026-07-14]_
+
+### Modell A — Frage→Beleg-Drill
+
+- **F:** Ein Bauherr plant einen Neubau und fragt, ob er selbst Strom erzeugen muss. Welche EnerG-Norm
+  greift, und was ist die Bemessungsgrundlage? — **A (Beleg):** **§ 10c EnerG (Eigenstromerzeugung),
+  neu eingefügt G vom 19.4.2021, in Kraft seit 1.9.2022 — im Buch 2019 noch nicht enthalten:** Bei
+  Neubauten wird ein Teil der benötigten Elektrizität selbst erzeugt (Anlage auf dem Grundstück oder
+  Zusammenschluss zum Eigenverbrauch nach Art. 17 EnG); **massgebende Berechnungsgrundlage ist die
+  Energiebezugsfläche** (§ 10c Abs. 1). Wer die Mindestanforderungen nach § 10a unterschreitet, kann
+  auf die Erfüllung verzichten (Abs. 2); Details in der Verordnung (Abs. 3). Beleg:
+  raw/260712_amtlich_zh_energ.md. _[2026-07-14]_
