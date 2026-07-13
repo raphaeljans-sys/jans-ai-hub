@@ -1,0 +1,2044 @@
+# Text-Extrakt (pdftotext -layout) — Quelle (Web, oeffentlich publiziert):
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2026-06/niederrohrdorf-primarschule-jurybericht.pdf (Jurybericht 2026, 56 Seiten, abgerufen 2026-07-14)
+# Extrakt: pdftotext -layout, 56 Seiten, erstellt 2026-07-14
+
+Jurybericht
+
+
+Selektiver
+Projektwettbewerb
+Erweiterung
+Primarschule
+Niederrohrdorf
+Vom der Jury genehmigt am 21. April 2026
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Ausgangslage
+
+
+
+                       Die vorhandenen Räumlichkeiten der Primarschule
+                       Niederrohrdorf reichen in naher Zukunft nicht aus, um
+                       die ansteigenden Schülerzahlen aufzufangen und die
+                       heutigen pädagogischen Anforderungen an Schulräume
+                       abzudecken. Darum soll zeitnah neuer Schulraum
+                       gebaut werden. Im Rahmen einer Machbarkeitsstudie
+                       wurde der Schulraumbedarf überprüft, festgelegt und
+                       der Standort beim bestehenden Schulareal bestätigt.
+                       In einem qualitätssichernden Verfahren wurde das
+                       beste Projekt für die Aufgabenstellung gesucht. Auf
+                       Basis der Resultate sollen die Leistungen in den
+                       Fachbereichen Architektur, Landschaftsarchitektur
+                       und Bauingenieurwesen vergeben werden.
+
+
+
+
+2
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Inhalt
+
+
+                       1        Wettbewerbsaufgabe                                       5
+
+                       2        Verfahrensbestimmungen                                   7
+                       2.1      Auftraggeberschaft und Verfahrensbegleitung              7
+                       2.2      Verfahren und massgebende Grundlagen                     7
+                       2.3      Teilnehmende                                             8
+                       2.4      Jury                                                     10
+                       2.5      Beurteilungskriterien                                    11
+                       2.6      Preise und Ankäufe                                       12
+                       2.7      Termine                                                  12
+
+                       3        Jurierung                                                13
+                       3.1      Beschlussfähigkeit                                       13
+                       3.2      Vorprüfung                                               13
+                       3.3      Erster Beurteilungsrundgang                              14
+                       3.4      Zweiter Beurteilungsrundgang                             14
+                       3.5      Vertiefte Beurteilung                                    15
+                       3.6      Kontrollrundgang                                         15
+                       3.7      Rangierung und Preiserteilung                            15
+
+                       4        Empfehlungen der Jury und Würdigung                      16
+                       4.1      Empfehlungen zur Weiterbearbeitung                       16
+                       4.2      Projektspezifische Empfehlungen Palimpsest               16
+                       4.3      Würdigung aller Projektbeiträge                          17
+
+                       5        Genehmigung                                              18
+
+                                Dokumentation der Projektbeiträge                        20
+                                Rangierte Projekte                                       20
+                                Projekte zweiter Beurteilungsrundgang                    47
+                                Projekte erster Beurteilungsrundgang                     51
+
+
+
+
+3
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       1          Wettbewerbsaufgabe
+                       Perimeter
+                       Der Betrachtungsperimeter umfasst das gesamte Schulareal, inkl. Kreisschule
+                       sowie Teile der Strassenparzellen.
+
+
+
+
+                       Situationsplan der Schulanlagen und Wettbewerbsperimeter
+
+
+
+
+                       Aufgabenstellung
+                       Es wird eine überzeugende Lösung für ein dichtes, funktionales und qualitäts-
+                       volles Primarschulareal gesucht, das alle notwendigen Nutzungen umfasst. In
+                       einer ersten Etappe soll nördlich der Mehrzweckhalle ein Schulhausneubau /
+                       Anbau an die bestehende eingeschossige Mehrzweckhalle realisiert werden. Ist
+                       der Schulhausneubau realisiert, steht das bestehende Schulhaus Rüsler zum
+                       Rückbau zur Disposition (EG und OG, ohne Sockelgeschoss). Weiter wird ein
+                       Neubau für eine Aula mit Foyer, Bibliothek und Musikschulräumen benötigt, mit
+                       welchem idealerweise zeitgleich der Überbau der bestehenden Zivilschutzanlage
+                       gelöst werden kann.
+                       Der Neubau für die Aula kann zeitgleich mit der ersten Etappe realisiert werden,
+                       jedoch nur, wenn das Schulhaus Rüsler während der Realisierung stehen bleiben
+                       kann. Andernfalls kann die Aula für eine 2. Realisierungsetappe vorgesehen
+                       werden.
+5
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Wettbewerbsaufgabe
+
+
+                       Zielsetzungen gemäss Wettbewerbsprogramm
+                       Ziel ist die Erlangung von architektonisch, ökologisch und ökonomisch vor-
+                       teilhaften Projektvorschlägen, welche zeitnah realisiert werden können. Diese
+                       sollen auf der städtebaulichen Disposition der Variante 4d der Machbarkeitsstu-
+                       die vom Juni 2024 aufbauen und die daraus vorgegebene Etappierung berück-
+                       sichtigen.
+                       Durch eine geschickte Anknüpfung an den Bestand soll ein dichtes und funktio-
+                       nal überzeugendes Primarschulareal entstehen, das alle Bedürfnisse der Nutzen-
+                       den (Schüler*innen, Lehrerschaft, Eltern, Vereine) optimal erfüllt und zugleich
+                       eine gute Wirtschaftlichkeit erreicht.
+                       Das Areal soll trotz einer deutlichen baulichen Verdichtung über gestalterisch
+                       hochwertige, gut nutzbare Aussenräume und Spielflächen verfügen, die aus-
+                       reichend Bewegungsmöglichkeiten bieten. Die Projektvorschläge sollen stufen-
+                       gerechte, atmosphärisch ansprechende Räume ausweisen, die verschiedene
+                       Lernsettings ermöglichen, zu einer positiven Lernumgebung beitragen sowie
+                       das Zusammengehörigkeitsgefühl der unterschiedlichen Altersgruppen stärken.
+                       Zugleich sollen die Vorschläge so konzipiert werden, dass sie sowohl baulich als
+                       auch betrieblich optimiert sind.
+
+
+
+
+6
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       2       Verfahrensbestimmungen
+
+                       2.1 Auftraggeberschaft und Verfahrensbegleitung
+                       2.1.1   Auftraggeberschaft
+                       Gemeinde Niederrohrdorf
+                       Bremgartenstrasse 2
+                       5443 Niederrohrdorf
+
+                       2.1.2   Verfahrensbegleitung
+                       Roesti & Pereira GmbH
+                       Hofweg 10
+                       3013 Bern
+                       Ansprechperson: Ana Pereira, BSc Architektur ETH, MSc RE & IS ETH, MA in
+                       Art history with special qualification in Cultural Heritage
+                       verfahrensbegleitung@roestipereira.ch / +41 31 543 36 08
+
+
+                       2.2 Verfahren und massgebende Grundlagen
+                       Das Verfahren ist dem öffentlichen Beschaffungsrecht im Staatsvertragsbereich
+                       (GATT/WTO Übereinkommen über das öffentliche Beschaffungswesen vom 15.
+                       April 1994) unterstellt.
+                       Als massgebende gesetzliche Grundlage ist in erster Linie die Interkantonale
+                       Vereinbarung über das öffentliche Beschaffungswesen (IVöB) des Kantons Aar-
+                       gau und weiter das kantonale Dekret über das öffentliche Beschaffungswesen
+                       (DöB) zu beachten.
+                       Es gilt die Ordnung SIA 142, Ausgabe 2009, subsidiär zu den Bestimmungen
+                       über das öffentliche Beschaffungswesen.
+                       Das Verfahren wurde gemäss SIA 142, Ausgabe 2009, Art. 3.3 sowie Art. 7 als
+                       selektiver einstufiger Projektwettbewerb ausgeschrieben und anonym durchge-
+                       führt (vgl. auch IVöB Art. 19 + 22).
+                       Die Sprache des Wettbewerbs und der späteren Projektbearbeitung ist Deutsch.
+
+
+
+
+7
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Verfahrensbestimmungen
+
+
+
+                       2.3 Teilnehmende
+                       2.3.1   Teamzusammensetzung
+                       Im Sinne einer gesamtheitlichen Planung richtete sich der vorliegende Projekt-
+                       wettbewerb an Teams, zusammengesetzt mindestens aus Planenden aus den
+                       Fachbereichen Architektur, Landschaftsarchitektur und des Bauingenieurwe-
+                       sens. Die Federführung hatte in jedem Fall durch die Teilnehmenden der Fach-
+                       richtung Architektur zu erfolgen.
+                       Die Mehrfachteilnahme von Architektur-, Landschaftsarchitektur- und Bauin-
+                       genieurbüros wurde ausgeschlossen. Das Bauingenieurbüro konnte jedoch auch
+                       nach der Präqualifikation bestimmt und mit der Teilnahmebestätigung der Ver-
+                       fahrensbegleitung mitgeteilt werden.
+                       Für weitere freiwillig beigezogene Fachplanende wurde auf die Wegleitung SIA
+                       142i-201d «Teambildung bei Projektwettbewerben» verwiesen. Mehrfachteilnah-
+                       men für freiwillig beigezogene Fachplanende sind zulässig.
+
+                       2.3.2 Teilnahmeberechtigung, Befangenheit und Ausstandsgründe
+                       Teilnahmeberechtigt waren Planungsgemeinschaften, die kumulativ folgende
+                       Eignungskriterien erfüllen:
+                       –   Wohn- oder Geschäftssitz in der Schweiz oder in einem Vertragsstaat des
+                           GATT/WTO - Übereinkommens über das öffentliche Beschaffungswesen,
+                           soweit der Staat Gegenrecht gewährt.
+                       –   Alle Teilnehmenden müssen gemäss den Bestimmungen ihres Geschäftssit-
+                           zes zur Berufsausübung zugelassen sein (bei Bewerbungen aus dem Ausland
+                           ist der Anmeldung ein Beleg beizulegen, welcher die Äquivalenz des auslän-
+                           dischen Diploms zu einem Schweizer Diplom nachweist) und die Anforderun-
+                           gen des öffentlichen Beschaffungswesens erfüllen.
+                       –   Die Teilnehmenden dürfen kein Abhängigkeitsverhältnis zum Veranstalter
+                           oder zu Mitgliedern der Jury haben. Gemäss Wegleitung «Befangenheit und
+                           Ausstandsgründe SIA 142i-202d» ist es Gebot der Teilnehmenden, bei nicht
+                           zulässigen Verbindungen zur Auftraggeberschaft oder zu einem Mitglied der
+                           Jury, auf eine Teilnahme zu verzichten.
+                       Die Einhaltung aller weiteren Bedingungen (Arbeitsschutzbestimmungen, GAV
+                       / ortsübliche Arbeitsbedingungen, Lohngleichheit und Nichtdiskriminierung,
+                       Umweltschutzbestimmungen Bezahlung von Steuern und Sozialabgaben etc.)
+                       waren mit der Selbstdeklaration im Rahmen der Bewerbung zur Präqualifikation
+                       zu bestätigen. Pro Fachrichtung und beteiligtes Büro / Unternehmen war eine
+                       separate Selbstdeklaration auszufüllen.
+                       Als Stichtag für die Teilnahmeberechtigung galt der Tag der Bewerbung zur
+                       Präqualifikation.
+
+
+
+
+8
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Verfahrensbestimmungen
+
+
+                       2.3.3 Publikation und Präqualifikation
+                       Die Ausschreibung erfolgte ausschliesslich auf der Plattform für öffentliche Be-
+                       schaffungen simap.ch.
+                       Aufgrund der Präqualifikation und anhand der Eignungskriterien (siehe Kapitel
+                       3.3) wurden 10 Teams für die Teilnahme am Projektwettbewerb ausgewählt. Eine
+                       Nachnominierung von Teams bei Absagen von ausgewählten Bewerbenden lag
+                       im Ermessen der Jury.
+
+                       2.3.4 Selektionierte Teams
+                       Im Rahmen der Präqualifikation wurden anhand der ausgeschriebenen Eignungs-
+                       kriterien und gemäss den Vorgaben des Wettbewerbsprogrammes folgende zehn
+                       Teams für die Teilnahme am Projektwettbewerb ausgewählt:
+
+
+                       Büroname Architektur                                              Büroname Landschaftsarchitektur
+                       Stoos Architekten AG, Brugg                                       SKK Landschaftsarchitekten AG,
+                                                                                         Wettingen
+                       Bürgi Burkhard von Euw GmbH,                                      Andreas Geser
+                       Luzern                                                            Landschaftsarchitekten AG, Zürich
+                       Blättler Dafflon Architekten AG,                                  Balliana Schubert Landschaftsarchi-
+                       Zürich                                                            tekten AG, Zürich
+                       KUMMER / SCHIESS Architekten                                      Rosenmayer Landschaftsarchitektur
+                       GmbH, Zürich                                                      GmbH BSLA, Zürich
+                       Ernst Niklaus Fausch Partner AG,                                  Schläpfer Carstensen Landschafts-
+                       Zürich                                                            architekten GmbH, Zürich
+                       UNIK Architektur AG, Zürich                                       Bergland GmbH, Kilchberg
+
+
+                       Diagonal Architekten AG, Winterthur                               Brogle Rüeger Landschaftsarchitekten
+                                                                                         BSLA, Winterthur
+                       MJ2B Architekten AG, Bern                                         Klötzli Friedli Landschaftsarchitekten
+                                                                                         AG, Bern
+                       Meier Leder Architekten, Baden                                    META Landschaftsarchitektur GmbH,
+                                                                                         Basel
+                       Thomas De Geeter Arcchitektur                                     Cukrowicz Landschaften GmbH,
+                       GmbH, Zürich                                                      Schaffhausen
+
+
+
+
+9
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Verfahrensbestimmungen
+
+
+
+                       2.4 Jury
+                       Sachjury
+                       Kevin Van		                     Gemeinderat, Ressort Bildung und Soziales
+                       Patrik Hitz		                   Gemeinderat, Ressort Finanzen und Hochbau
+                       Andreas Ritter		                Leitung Planung und Bau (Ersatz)
+
+                       Fachjury
+                       Vinzenz Luginbühl               Dipl. Architekt ETH SIA
+                       			                             wahlirüefli Architekten und Raumplaner, Biel-Bienne
+                       Claudia Mühlebach               Dipl. Architektin ETH SIA BSA
+                       			                             Huber Waser Mühlebach Architektur, Luzern
+                       Florian Bischoff                Landschaftsarchitekt HTL BSLA SIA
+                       			                             Bischoff Landschaftsarchitektur GmbH, Baden
+                       Matthias Sozzi Dipl. Architekt FH. Bele Architekten + Partner AG GmbH,
+                       			Niederrohrdorf (Ersatz)
+
+                       Expert:innen (ohne Stimmrecht)
+                       Maik Heiniger		                 Bauingenieur FHO
+                       			                             Franz Bitterli AG, Hunzenschwil
+                       Sandra König		                  Mitglied Schulraumplanungskommission
+                       Anneli Rash		                   Schulleiterin Primarschule Niederrohrdorf
+                       Andres Rippstein                Leitung Hausdienst
+                       Raphael Roth		                  Bauökonom / Eidg. dipl. Bauleiter Hochbau HFP
+                       			                             Michel Bauökonomie GmbH, Leissigen
+                       Hansruedi Vogler                Vertreter Vereine / politische Parteien (Turnverein / FDP),
+                       			Mitglied Schulraumplanungskommission
+                       Andreas Wenger                  Brandschutzexperte,
+                       			                             Wälchli Architekten Partner AG, Bern
+
+
+
+
+10
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Verfahrensbestimmungen
+
+
+
+                       2.5 Beurteilungskriterien
+                       Die eingereichten Projektvorschläge wurden durch die Jury nach den nachfolgen-
+                       den Kriterien beurteilt:
+
+                       Zuschlagskriterien
+                       –   Städtebauliche Qualität: Integration Neubauten / Ersatzneubauten ins
+                           Schulareal, Berücksichtigung Vorgaben Machbarkeitsstudie, Etappierung.
+                       –   Architektonische Qualität: Räumliche und atmosphärische Qualitäten,
+                           kindgerechte Architektur und Angebot von stufengerechten Schulräumen
+                           Materialisierung, Umsetzung Raumprogramm, betrieblich und pädagogisch
+                           optimierte Raumanordnung.
+                       –   Freiraumqualität: Qualität Freiraumkonzept, Aufenthaltsqualität und Nutz-
+                           barkeit der Schulumgebung trotz Verdichtung, Lösungsvorschlag für Er-
+                           schliessung, Parkierung und Anlieferung.
+                       –   Soziale Nachhaltigkeit: Anbindung ans Quartier, Identität und Ausstrahlung
+                           als Primarschulareal, Zugänglichkeit und Auffindbarkeit, subjektives Sicher-
+                           heitsempfinden und Berücksichtigung der Bedürfnisse aller Nutzenden.
+                       –   Ökologische Nachhaltigkeit: Energie und Nachhaltigkeit in Bau- und Be-
+                           trieb, ressourcenschonende Materialisierung, ökologische Aspekte im Frei-
+                           raumkonzept (standortgerechte und vielfältige Bepflanzung, Einsatz von
+                           sickerfähigen Belägen etc.).
+                       –   Wirtschaftlichkeit: Wirtschaftlichkeit der Grundrisse, Tragwerke, Konstruk-
+                           tion und Installationen, Baukosten gesamt, optimierte Lebenszykluskosten.
+                       Die Kriterien wurden im Verbund bewertet. Die dargestellte Reihenfolge
+                       entspricht keiner Gewichtung.
+
+
+
+
+11
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Verfahrensbestimmungen
+
+
+
+                       2.6 Preise und Ankäufe
+                       Preissumme
+                       Insgesamt stand eine Summe von CHF 148’000 (exkl. MwSt.) für Preise und
+                       Ankäufe zur Verfügung, die in jedem Fall voll ausbezahlt wird. Gemäss Wettbe-
+                       werbsprogramm konnten 3–5 Preise vergeben werden.
+
+
+                       2.7 Termine
+                       Die Ausschreibung wurde am Freitag, 08. August 2025 auf der Plattform für
+                       öffentliche Beschaffungen simap.ch publiziert. Die Selektion der Teams durch
+                       die Jury erfolgte am 17. September 2025.
+                       Die obligatorische Begehung fand am 15. Oktober 2025 statt. Am 06. Februar
+                       2026 mussten die Pläne und Unterlagen eingereicht werden, am 27. Februar
+                       2026 die Modelle.
+
+                       Grobterminplan Realisierung (provisorisch):
+                       Zuschlag GR                                                            1. Quartal 2026
+                       Bereinigung Wettbewerbsprojekt                                        2. Quartal 2026
+                       Projektierungskredit bis und mit Phase 41                         15. September 2026
+                       Projektierung und Bewilligungsverfahren                                 ab Mitte 2026
+                       Baukredit                                                                  Mitte 2027
+                       Realisierung                                                            ab Mitte 2027
+                       Inbetriebnahme Schulhaus                                          voraussichtlich 2029
+                       Inbetriebnahme Aula                                               voraussichtlich 2030
+
+
+
+
+12
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       3       Jurierung
+
+                       3.1 Beschlussfähigkeit
+                       Die Jury tagte am 4. und 11. März 2026 und war an beiden Terminen beschluss-
+                       fähig. Es lagen keine Befangenheits- und Ausstandsgründe vor.
+
+
+                       3.2 Vorprüfung
+                       3.2.1   Formelle Vorprüfung
+                       Alle Projekte wurden durch die Verfahrensbegleitung einer formellen Vorprüfung
+                       unterzogen. Dabei wurden die Wahrung der Anonymität, die Einhaltung der
+                       Fristen sowie die Vollständigkeit der Abgabe gemäss den Vorgaben im Wettbe-
+                       werbsprogramm überprüft.
+                       Es wurden 9 Projekte fristgerecht und vollständig abgegeben. Die Anonymität
+                       der Verfassenden blieb gewahrt.
+                       Somit entsprachen sämtliche Projekteingaben den formellen Vorgaben des Ver-
+                       fahrens. Die Jury beschloss demzufolge einstimmig, alle Projekte zur Beurtei-
+                       lung zuzulassen.
+
+                       3.2.2 Materielle Vorprüfung
+                       Ein Teil der materiellen Vorprüfung erfolgte durch die Verfahrensbegleitung und
+                       umfasste die Überprüfung der folgenden Themen:
+                       −   Einhaltung der zwingenden Programmbestimmungen
+                       −   Einhaltung des Raumprogrammes
+                       −   Anforderungen hindernisfreies Bauen / Einhaltung Vorgaben SIA 500
+
+                       Vertiefte materielle Vorprüfung durch Experten
+                       −   Einhaltung der Brandschutzanforderungen
+                       −   Wirtschaftlichkeit und Baukosten
+
+
+                       Alle Projekte wiesen nur als unwesentlich eingestufte Verstösse gegen die mate-
+                       riellen Kriterien und Rahmenbedingungen auf.
+                       Die Ergebnisse der Vorprüfung wurden in einem Bericht festgehalten, der Jury
+                       präsentiert und zur Verfügung gestellt.
+
+
+
+
+13
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Jurierung
+
+
+
+                       3.3 Erster Beurteilungsrundgang
+                       Nach einer intensiven Phase des individuellen Einlesens und Kennenlernens der
+                       Projekte wurden alle Projekte im Plenum vorgestellt.
+                       Anschliessend führte die Jury einen ersten Beurteilungsrundgang durch. Dabei
+                       wurden alle Projekte einzeln und anschliessend im Quervergleich diskutiert. Die
+                       Projekte, die in Bezug auf ein oder mehrere Hauptkriterien und insbesondere im
+                       städtebaulichen Bereich wesentliche konzeptionelle Mängel aufweisen, wurden
+                       im ersten Rundgang ausgeschlossen:
+                       –   Nr. 2 Serafin
+                       –   Nr. 3 Kapla
+                       –   Nr. 8 Ensemble
+
+
+                       3.4 Zweiter Beurteilungsrundgang
+                       Im zweiten Rundgang wurden die Projekte vertieft beurteilt und entschieden,
+                       dass die folgenden Projekte nicht mehr weiterverfolgt werden sollen. Dies, ob-
+                       wohl sie zwar in gewissen Aspekten ein grosses Potenzial aufweisen, aber den-
+                       noch gesamthaft zu wenig überzeugen:
+
+                       Nr. 6 weitergeflext und ausgeklappt
+                       Das Projekt weist einen interessanten städtebaulichen Ansatz und einen innova-
+                       tiven Umgang mit dem Bestand auf. Die Jury würdigt die landschaftsarchitekto-
+                       nische Qualität, die stimmigen Beziehungen zwischen Innen- und Aussenraum
+                       und die Durchlässigkeit des Areals, auch über verschiedene Niveaus hinweg.
+                       Leider fehlt dem Entwurf in gewissen Bereichen die Stringenz. So vermag der
+                       vorgesehene Abbruch des Annexbaus (bei gleichzeitigem Erhalt des Schulhau-
+                       ses) nicht zu überzeugen. Die Wiederaufnahme der Grundrissorganisation des
+                       Schulhauses Rüsler im Neubau wirkt weder plausibel noch zielführend. Die
+                       erwähnten Widersprüche sowie die mangelnde Wirtschaftlichkeit führen dazu,
+                       dass das Projekt als Ganzes nicht zu überzeugen vermag.
+
+                       Nr. 8 Susi und Strolch
+                       Es handelt sich um einen zurückhaltenden und konsequenten Entwurf, der sich
+                       insbesondere durch den Erhalt von möglichst viel Bausubstanz auszeichnet.
+                       Leider nimmt aufgrund der städtebaulichen Disposition der Nutzungsdruck auf
+                       die Aussenräume und insbesondere auf den Pausenplatz stark zu und die Quali-
+                       tät der Freiräume wird teilweise etwas vermisst. Einerseits wird der erfrischende
+                       und vergleichsweise kostengünstige Ansatz von der Jury gewürdigt. Anderer-
+                       seits verstösst das Projekt gegen die vorgegebene Etappierung und handelt sich
+                       damit betriebliche Nachteile ein. Das bestehende Schulhaus müsste für den
+                       Weiterbetrieb grundlegend optimiert werden, was der Bauherrschaft aufgrund
+                       des heutigen Erkenntnisstands als nicht zielführend erscheint. Die Jury ist sich
+                       einig, dass das Projekt in keinem Kriterium ausreichend überzeugt, dass über
+                       die festgestellten Mängel hinweggesehen werden könnte.
+
+
+
+14
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Jurierung
+
+
+
+                       3.5 Vertiefte Beurteilung
+                       Am zweiten Jurierungstag wurden, unter Berücksichtigung der verfassten
+                       Projektbeschriebe, in einer vertieften Diskussion folgende Erkenntnisse festge-
+                       halten:
+                       Die Projekte Nr. 1 Purple Rain und Nr. 9 Rudi vermögen insgesamt weniger zu
+                       überzeugen als die anderen beiden Projekte der engeren Wahl.
+                       Ausserdem wird festgehalten, dass das Projekt Nr. 4 Palimpsest mit überzeu-
+                       genden Grundrissen und architektonischer Qualität punktet, während die Umge-
+                       bungsgestaltung weniger ausgearbeitet ist.
+                       Beim Projekt Nr. 7 Raum für Alle überzeugen die Gestaltung der Aussenflächen
+                       und die Eingangssituation. Es wirkt aus architektonischer Sicht jedoch weniger
+                       ausgearbeitet. Die Unterrichtsgeschosse und die Organisation der Grundrisse
+                       weisen Mängel auf.
+                       Die vertieften Erkenntnisse zu den vier Projekten der engeren Wahl sind den
+                       Projektbeschrieben in der Dokumentation der Projektbeiträge zu entnehmen.
+
+
+                       3.6 Kontrollrundgang
+                       Vor der Festlegung der Rangierung wurde ein Kontrollrundgang durchgeführt.
+                       Dabei wurden die bisherige Einstufung der Projekte bestätigt:
+
+                       Ausgeschieden im 1. Rundgang
+                       Nr. 2 Serafin, Nr. 3 Kapla, Nr. 8 Ensemble
+
+                       Ausgeschieden im 2. Rundgang
+                       Nr. 5 Susi und Strolch, Nr. 6 weitergeflext und ausgeklappt
+
+
+                       3.7 Rangierung und Preiserteilung
+                       Nach der finalen Beurteilung und dem Kontrollrundgang wurde die folgende
+                       Rangierung festgelegt:
+                       1. Rang / 1. Preis              Palimpsest		                      CHF 30‘000
+                       2. Rang / 2. Preis              Raum für Alle		                   CHF 22’000
+                       3. Rang / 3. Preis              Purple Rain		                     CHF 14’000
+                       4. Rang / 4. Preis              Rudi			                           CHF 10’000
+
+
+                       Zusätzlich zu den oben aufgeführten Preisgeldern wird allen Verfassendenteams
+                       eines zur Jurierung zugelassenen Projekts eine Unkostenpauschale von CHF
+                       8’000.– (exkl. MwSt.) ausbezahlt.
+                       Die zur Verfügung stehende Preissumme von CHF 148‘000.- (exkl. MwSt.) wird
+                       voll ausbezahlt und gemäss der vorangehenden Aufstellung ausgeschüttet.
+
+
+
+
+15
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       4       Empfehlungen der Jury und Würdigung
+
+                       4.1 Empfehlungen zur Weiterbearbeitung
+                       Die Jury empfiehlt der Auftraggeberschaft das Projekt Palimpsest (1. Rang / 1.
+                       Preis) einstimmig zur Weiterbearbeitung. Weiter empfiehlt die Jury, die Verfas-
+                       senden dieses Projekts im Rahmen des im Wettbewerbsprogramm in Aussicht
+                       gestellten Auftrags (Architektur, Landschaftsarchitektur und Bauingenieurwe-
+                       sen) mit der Weiterbearbeitung zu beauftragen.
+                       Die Jury würdigt den mutigen und projektprägenden Ansatz in der Tragwerks-
+                       planung – trotz gewisser Unschärfen, wie sie Beiträgen aus Projektwettbewerben
+                       naturgemäss eigen sind. Um das Planungsrisiko zu minimieren, soll ein Aus-
+                       schuss der Fach- und Sachjury die vertiefte statische Überprüfung und Umset-
+                       zung des Vorprojekts erneut begutachten und danach die weiteren Phasen frei-
+                       geben. Dies erscheint den Vertreter:innen der Fachjury im Zusammenhang mit
+                       den nachfolgend formulierten projektspezifischen Empfehlungen sinnvoll. Ob
+                       weitere nachgelagerte Beratungen (z. B. in Bezug auf das Bauprojekt) erforder-
+                       lich sind, sei im Rahmen einer solchen Ausschusssitzung zu bestimmen.
+
+
+                       4.2 Projektspezifische Empfehlungen Palimpsest
+                       Das Wettbewerbsprojekt weist hinsichtlich der Machbarkeit aus statischer und
+                       tragwerksplanerischer Sicht noch gewisse Unschärfen auf, insbesondere was die
+                       Auskragung des Neubaus über die bestehende Mehrzweckhalle betrifft. Die Jury
+                       betont, dass gerade aufgrund dieser Überschneidung von Bestand und Neubau
+                       ein städtebaulicher Mehrwert entsteht, für den es sich lohnt, diese temporäre
+                       Unschärfe in Kauf zu nehmen. Wie das Projekt in einem bauökonomisch an-
+                       gemessenen Rahmen umgesetzt werden kann, muss aus Sicht der Jury in einer
+                       frühen Projektphase (Vorprojektstand) nachgewiesen werden.
+                       Weiter sollen die Organisation und die Qualität des Aussenraums geschärft
+                       werden, insbesondere im nördlichen Bereich zwischen der Esterlistrasse und
+                       dem Neubaukörper. Die Lage und Ausrichtung der zweibündigen Parkierungsan-
+                       lage gilt es zu schärfen und so die Nutzbarkeit und Qualität der Pausenbereiche
+                       maximal zu optimieren. Der Einfluss der neuen Fluchttreppe (auf der östlichen
+                       Stirnseite des Neubaus) auf die Nutzbarkeit und die Gestaltung des Aussen-
+                       raums muss klarer ausformuliert und aufgrund der Erkenntnisse spezifisch
+                       optimiert werden. Auf den vorgesehenen Dachgarten soll aufgrund der Dimen-
+                       sionierung des bestehenden Hallendachs verzichtet werden.
+
+
+
+
+16
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Empfehlungen der Jury und Würdigung
+
+
+
+                       4.3 Würdigung aller Projektbeiträge
+                       Die Jury dankt allen Projektverfassenden für die geleistete Arbeit und würdigt
+                       die hohe Qualität der eingereichten Beiträge. Die gewählte Anzahl der Teams
+                       und die sorgfältige Selektion hinsichtlich der Eignung hat der Jury eine wertvolle
+                       Auswahl an Projekten geboten, die es zu vergleichen und bewerten galt. Der se-
+                       lektive Projektwettbewerb hat so bestmöglich zum Ziel beigetragen, einen hoch-
+                       wertigen Projektvorschlag für die Primarschule Niederrohrdorf zu ermitteln.
+                       Die hohen Anforderungen und teilweise komplexen Rahmenbedingungen in
+                       Kombination mit den spezifischen Vorgaben aus der Machbarkeitsstudie hin-
+                       sichtlich der Etappierung haben eine breite Vielfalt an Vorschlägen hervor-
+                       gebracht. Gleichzeitig hat sich bestätigt, dass die getroffenen Annahmen und
+                       Schlussfolgerungen aus der Phase der Machbarkeitsstudie schlüssig waren. Die
+                       Projekte der engeren Wahl haben sich allesamt eng an diese Variante gehalten.
+                       Dennoch würdigt die Jury diejenigen Beiträge positiv, die mit ihren Beiträgen
+                       valide Alternativen aufgezeigt haben. Insbesondere war es bereichernd für die
+                       Diskussionen in der Jury, dass einige Teams den Abbruch des Bestandsgebäudes
+                       (Schulhaus Rüsler) ganz oder teilweise in Frage gestellt haben.
+                       Der positive Effekt einer interdisziplinären Zusammenarbeit in den Teams, ins-
+                       besondere der Disziplinen Architektur und Landschaftsarchitektur, aber auch
+                       des Bauingenieurwesens, war in diversen Beiträgen sichtbar. Dies führte unter
+                       anderem dazu, dass auch die Aspekte der Nachhaltigkeit angemessen in die Pro-
+                       jektbeiträge eingeflossen sind. Dies stellt ein wertvolles Gut im aktuellen Fach-
+                       diskurs dar.
+
+
+
+
+17
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       5       Genehmigung
+                       Der vorliegende Jurybericht wurde von der Jury am 21. April 2026 genehmigt.
+
+
+
+                       Sachjury
+
+
+                       Kevin Van
+
+
+                       Patrik Hitz
+
+
+                       Andreas Ritter (Ersatz)
+
+
+                       Fachjury
+
+
+                       Vinzenz Luginbühl
+
+
+                       Claudia Mühlebach
+
+
+                       Florian Bischoff
+
+
+                       Matthias Sozzi (Ersatz)
+
+
+
+
+18
+     Dokumentation der Projektbeiträge
+
+     Rangierte Projekte
+
+
+
+
+Dokumentation der Projektbeiträge
+
+
+Rangierte
+Projekte
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Übersicht
+                       Nach dem Formulieren der Projektbeschriebe und Empfehlungen durch die Jury,
+                       zeigten sich mit der Couvertöffnung die folgenden Teams als verantwortliche
+                       Verfassende der rangierten / prämierten Projekte:
+
+                       Rangierte Projekte
+                       Palimpsest                   1. Rang / 1. Preis                   Team Bürgi Burkhard von Euw
+                       Raum für Alle                2. Rang / 2. Preis                   Team Meier Leder Architekten
+                       Purple Rain                  3. Rang / 3. Preis                   Team Blättler Dafflon Architekten
+                       Rudi                         4. Rang / 4. Preis                   Team MJ2B Architekten
+
+                       2. Rundgang
+                       Susi & Strolch                                                    Team Unik Architektur
+                       weitergeflext und aufgeklappt                                     Team Stoos Architekten
+
+                       1. Rundgang
+                       Serafin                                                           Team Ernst Niklaus Fausch Partner
+                       Kapla                                                             Team Diagonal Architekten
+                       Ensemble                                                          Team Kummer Schiess Architekten
+
+
+
+
+21
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+                       1. Rang / 1. Preis                                                Projekt Nr. 4 Palimpsest
+                       Architektur
+                       Bürgi Burkhard von Euw GmbH, Luzern
+                       Michael Bürgi, Lukas Burkhard, Sven von Euw
+
+
+                       Landschaftsarchitektur
+                       Andreas Geser Landschaftsarchitekten AG, Zürich
+                       Andreas Geser, Liya Bernasconi, Paul Kienzle
+
+
+                       Bauingenieurwesen
+                       blesshess AG, Luzern
+                       Philipp Hess
+
+
+
+
+22
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Städtebau
+                       Das Projekt Palimpsest schlägt zwei präzise gesetzte und wohlproportionierte
+                       Neubauten vor: Das viergeschossige Schulhaus überkragt dabei teilweise die
+                       bestehende Mehrzweckhalle, was dem vorliegenden Ankunfts- und Pausenplatz
+                       eine wohltuende Grösse verleiht.
+                       Das quadratische Aulagebäude fasst den zentralen Aussenraum und vermittelt
+                       zu einem Schulgarten auf der Terrasse des bestehenden Untergeschosses. Dieser
+                       neue, geschützte Platz verbindet weiter zu den Sportanlagen.
+
+
+
+
+                       Situation mit Dachaufsicht
+
+23
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Architektur und Betrieb
+                       Das neue Primarschulgebäude orientiert sich zur Esterlistrasse und wird zum
+                       Zentrum der Anlage. Das schafft eine klare Adressierung und stärkt die Identität
+                       der Schule. Ein grosszügiger zentraler Eingang führt zwischen zwei symmet-
+                       risch angeordneten Treppenanlagen und schafft einen neuen Zugang zur Mehr-
+                       zweckhalle. Es entsteht ein räumlich interessanter Bezug zwischen Neu- und
+                       Bestandsbau. Die von zwei bestehenden Bauten flankierte Mehrzweckhalle wird
+                       zum Sockel des Schulgebäudes und gibt das statische Raster vor.
+                       Acht Unterrichtsräume mit dazwischenliegenden Gruppenräumen sind in den
+                       drei Obergeschossen des Schulhauses geschickt organisiert. Je drei Klassenzim-
+                       mer sind dabei an den Stirnfassaden zu Clustern zusammengefasst. Der ver-
+                       bindende Mittelbereich wird um ein Oblicht so angeordnet, dass je ein weiterer
+                       Raum in Klassenzimmergrösse für Sondernutzungen daran angegliedert wird.
+                       Der Erschliessungsgang ist gut proportioniert und springt an den Stirnfassaden
+                       so zurück, dass geschossübergreifende Galerien entstehen. Die Treppenhäuser
+                       und Nebenräume befinden sich in den tageslichtarmen Zwischenzonen. Aufbau-
+                       end auf dem vorgeschlagenen System ist eine mögliche Schulhauserweiterung
+                       auf der Ostseite angedacht.
+                       Die Aula orientiert sich mit einem gedeckten, symmetrisch angeordneten Ein-
+                       gang ebenfalls auf den neu geschaffenen Schulhof. Sie nimmt die Materialisie-
+                       rung des Sockelgeschosses der Schule auf, was ein schönes Ensemble der beiden
+                       Gebäude schafft. Vom Eingangsbereich führt eine neue, interne Treppe ins
+                       Untergeschoss, welches alle Gebäude intern verbindet und die Schule in eine zu-
+                       sammenhängende Anlage überführt.
+                       Die Nutzungen im Untergeschoss bleiben weitgehend erhalten. Einer der Flucht-
+                       wege aus der Mehrzweckhalle führt folgerichtig in die Eingangshalle und schafft
+                       so eine sinnvolle Verbindung zum Schulhaus. Der zweite Fluchtweg wird an die
+                       Stirnfassade des Schulhauses verlegt und bleibt als unabhängiger Zugang nutzbar.
+
+                       Freiraum
+                       Dank der städtebaulichen Setzung entsteht ein grosszügiger Freiraum zwischen
+                       dem Hauptgebäude und der Esterlistrasse. Dieser Freiraum wird in unterschied-
+                       lich beanspruchbare Zonen aufgeteilt. Es entsteht ein Wartebereich mit Rund-
+                       bänken und Schattenbäumen auf einem durchlässigen Platz. Im Nordosten ist
+                       die Auto- und Veloparkierung angeordnet, was sich positiv auf die Entflechtung
+                       zwischen dem motorisierten Individualverkehr und zu Fuss Gehenden auswirkt.
+                       Zwischen Aula und Werken spannt sich ein Platz auf, der mit einer Pergola über-
+                       deckt wird. Dieser Raum bietet eine gute Aufenthaltsqualität, auch wenn der
+                       Massstab der Pergola sehr gross wirkt. Von diesem gedeckten Ort führt eine
+                       Wendeltreppe nach oben auf einen als Aussenklassenzimmer nutzbaren Dach-
+                       garten, eine weitere nach unten zum Rasenspielfeld. Der Vorschlag des Dachgar-
+                       tens auf der Mehrzweckhalle kann wegen der bestehenden Statik und fehlenden
+                       Aufbauhöhe vermutlich nicht realisiert werden.
+                       Die vorgeschlagenen Quer- und Längsverbindungen sind stimmig und vernetzen
+                       das Schulareal mit dem Quartier. Allgemein wirkt die Ausarbeitung des Frei-
+                       raums noch etwas schematisch. In der weiteren Bearbeitung müssen Spiel- und
+                       Aufenthaltswerte der Pausenbereiche noch gesteigert werden.
+24
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Erdgeschoss
+
+
+
+
+                       Visualisierung
+
+
+
+
+25
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Untergeschoss
+
+
+
+
+                                                            Grundriss 3. Obergeschoss (Regelgeschoss)
+
+
+
+
+                       Konstruktion, Materialisierung und Nachhaltigkeit
+                       Das Projekt überzeugt hinsichtlich der Wirtschaftlichkeit der Grundrisse, ins-
+                       besondere dank einer hohen Flächeneffizienz und der Kompaktheit des Neubau-
+                       körpers.
+                       Die statisch anspruchsvolle Rückbindung der über die Mehrzweckhalle kragen-
+                       den Kräfte geschieht mit Betonscheiben und den Holz-Betonverbunddecken. Das
+                       Schulhaus wird demzufolge auch mit einem massiven, eingefärbten Betonsockel
+                       ausgestaltet. Die drei darüberliegenden Schulgeschosse treten als Leichtbau aus
+                       Holz in Erscheinung. Der gelungene architektonische Ausdruck der Fassade wird
+                       aus diesem Zusammenspiel entwickelt und farblich akzentuiert.
+                       Der mutige Vorschlag des Überkragens des Neubaus über die Mehrzweckhalle
+                       bedingt eine komplexe Lastableitung durch das bestehende Untergeschoss sowie
+                       kostspielige und aufwendige Fundationen. Diese Massnahmen rechtfertigen sich
+                       aber durch mehrere daraus entstehende qualitative und funktionale Vorteile:
+                       Neben dem reduzierten Fussabdruck werden Bestand und Neubau so zu einer
+                       Einheit mit neuen Qualitäten. Auf einen Zwischenraum zwischen Mehrzweckhal-
+                       le und Primarschulgebäude wird verzichtet, so kann eine klare Eingangssituation
+                       zur Esterlistrasse hin geschaffen werden. Auch reduziert sich dadurch in der
+                       Situation die Überschneidung von Aula und Schulhaus, so dass die Bezüge unter
+                       den Aussenräumen nicht abgeschnitten werden.
+26
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Ansicht Nord
+
+
+
+
+                       Ansicht Ost                                          Ansicht Süd
+
+
+
+
+                       Ansicht West                                                       Querschnitt
+
+
+
+
+                       Längsschnitt
+
+
+
+
+                       Gesamtwürdigung
+                       Das Projekt überzeugt durch eine durchdachte und intelligente Organisation und
+                       die daraus sorgfältig entwickelte Ausgestaltung. Durch gezielte Eingriffe schafft
+                       das Projekt Palimpsest aus bestehenden Fragmenten ein neues Ganzes.
+
+
+
+
+27
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+                       2. Rang / 2. Preis                                            Projekt Nr. 7 Raum für Alle
+                       Architektur
+                       Meier Leder Architekten BSA, Baden
+                       Rolf Meier
+                       Carole Allenbach, Bianca Disch
+
+
+                       Landschaftsarchitektur
+                       Meta Landschaftsarchitektur GmbH, Basel
+                       Lars Uellendahl, Sonja Müller,
+                       Lukas von Reinersdorff
+
+
+                       Bauingenieurwesen
+                       B3 Kolb AG, Winterthur
+                       Ivan Brühwiler
+
+
+                       Weitere
+                       Roger Zeier Bauökonomie AG, Windisch
+
+
+
+
+28
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Städtebau
+                       Die Verfassenden gliedern auf der Nordseite direkt an die bestehende Mehr-
+                       zweckhalle einen viergeschossigen Neubau für die Primarschule an. Durch den
+                       teilweisen Erhalt des Schulhauses Rüsler entsteht ein Ensemble aus Bestand und
+                       Neubau, das den Ort differenziert weiterentwickelt und die bauliche Identität
+                       stärkt. Der Neubau tritt klar als Hauptbau in Erscheinung und steht in einem
+                       ausgewogenen Verhältnis zum zweigeschossigen Aulagebäude. Die Adressbil-
+                       dung von Primarschulhaus und Mehrzweckhalle wird gestärkt. Der Grundriss
+                       des Erdgeschosses mit zentralen Eingängen auf der Nordseite und einem offe-
+                       nen Foyer präsentiert sich transparent, so werden Sichtbezüge zur dahinterlie-
+                       genden Mehrzweckhalle ermöglicht. Allerdings vermag die räumliche Qualität
+                       dieses überdeckten Aussenraums nicht vollständig zu überzeugen.
+
+                       Architektur und Betrieb
+                       Separate Eingänge im Erdgeschoss ermöglichen eine parallele und unabhängige
+                       Nutzung durch die Schule und extern Nutzenden. So funktioniert das Foyer bei
+                       Sportanlässen unabhängig von den Schulräumen. Diese Flexibilität schafft gros-
+                       sen Nutzen für die Gemeinde. Für Aussenstehende wäre die Wegführung wohl
+                       nicht immer leicht erkennbar.
+
+
+
+
+                       Situation mit Dachaufsicht
+
+29
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Aus betrieblicher Sicht ist die zweigeschossige Aula nicht unproblematisch.
+                       Sämtliche Räumlichkeiten für die Lehrpersonen befinden sich hier im Oberge-
+                       schoss und dadurch nicht im Hauptgebäude. Es entstehen lange Wege zwischen
+                       den Nutzungen des Aulagebäudes und den Nutzungen der Primarschule, die sich
+                       mehrheitlich in den Obergeschossen des Neubaus befinden. Ausserdem fehlt
+                       eine direkte Verbindung zwischen der Aula und den Räumlichkeiten im Sockel-
+                       geschoss und somit der Mehrzweckhalle.
+                       Der Versuch die Unterrichtsgeschosse über nur eine Treppe zu erschliessen
+                       (Grundlage dafür würden die flexibleren Vorgaben der Brandschutzverordnung
+                       2027 bilden), wird aus ökonomischer Sicht positiv bewertet. Ob sich diese eine
+                       Treppe jedoch im Alltag bezüglich der Schülerzahl bewähren würde, muss in
+                       Frage gestellt werden.
+                       Generell zeichnet sich das Projekt durch einen sparsamen Umgang bezüglich
+                       Geschossflächen aus. Dies ist aus ökonomischer Sicht vorteilhaft, aus betrieb-
+                       licher Sicht werden die Korridor und Garderobenflächen jedoch als zu beengt
+                       betrachtet und auch die räumlich-architektonischen Qualitäten der Unterrichts-
+                       geschosse werden von der Jury in Frage gestellt.
+
+                       Freiraum
+                       Dank der gewählten städtebaulichen Setzung wird ein grosszügiger Freiraum
+                       zwischen Hauptgebäude und der Esterlistrasse freigespielt. Dieser Raum wird
+                       in einen grossen Spielgarten und Hartflächen als Bewegungs- und Zirkulations-
+                       flächen aufgeteilt. Der gedeckte Aussenbereich vor dem Hauptgebäude ist sehr
+                       grosszügig und verbindet das Schulhaus stimmig mit dem Garten und wird
+                       mehrheitlich positiv bewertet. Ob die in Richtung Spielhain orientierte Vergla-
+                       sung der Längsfassade vier Eingänge aufweisen müsste, wird in Frage gestellt.
+                       Hier würden maximal zwei Eingänge, einen für die Mehrzweckhalle und einen
+                       für das Schulhaus, wohl eine bessere Adressierung ermöglichen.
+                       Im Nordosten ist die Autoparkierung angeordnet. Diese wird mit einer Hecke als
+                       Blickschutz gefasst. Die Veloparkierung ist linear daneben angeordnet. Zwi-
+                       schen Aulagebäude und bestehendem Annexbau entsteht ein Platz, der durch
+                       vier Bäume in Trögen beschattet wird. Diese überzeugen weder statisch noch
+                       hinsichtlich des den Bäumen zur Verfügung stehenden Wurzelraums. Eine neue
+                       Aussentreppe führt zum Rasenspielfeld. Die Quer- und Längsverbindungen sind
+                       gut gelegen und vernetzen das Schulareal mit dem Quartier und dem Sportplatz.
+
+                       Konstruktion, Materialisierung und Nachhaltigkeit
+                       Die Gestaltung des Neubaus ist eng an die Tragwerkskonzeption und die Nut-
+                       zung geknüpft. So sind die Stützen sowie die Holzdecken einschliesslich der
+                       Unterzüge bewusst ablesbar. Der Skelettbau ermöglicht eine hohe Flexibilität,
+                       was die Nutzung der Räumlichkeiten anbelangt.
+                       Der Lastenabtrag präsentiert sich bis ins Untergeschoss durchdacht und orien-
+                       tiert sich am Stützenraster der Unterrichtsgeschosse. Die sichtbaren statischen
+                       Elemente und die horizontalen Fensterbänder schaffen einen optischen Bezug
+                       zum bestehenden Schulhaus Rüsler. Weiter sollen Fassadenpaneele des Schul-
+                       hauses beim Neubau wiederverwendet und dort in eine zeitgemässe Architektur-
+
+30
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Erdgeschoss
+
+
+
+
+                       Visualisierung
+
+
+
+
+31
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Untergeschoss
+
+
+
+
+                       Grundriss Regelgeschoss
+
+
+
+
+                       Längsschnitt
+
+
+
+
+32
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Ansicht Nord
+
+
+
+
+                       Ansicht West                                                      Querschnitt
+
+
+
+
+                       sprache adaptiert werden. Dies ist aus ökologischer Sicht vorbildlich, gestalte-
+                       risch und vom Bauablauf her jedoch nicht einfach zu lösen.
+                       Das Projekt Raum für Alle überzeugt aus bauökonomischer Sicht, da es eine
+                       hohe Flächeneffizienz und vergleichsweise niedrige Erstellungskosten aufweist.
+                       Neben der kleinen Geschossfläche ist dieser Umstand auch dem Teilerhalt des
+                       Schulhauses Rüsler geschuldet. Dieser ermöglicht eine ressourcenschonende
+                       Weiterverwendung der bestehenden Struktur und stellt in verschiedener Hin-
+                       sicht eine sinnvolle Alternative zum vollständigen Ersatz dar. Allerdings wären
+                       die Sanierung des Bestands und die notwendigen Anpassungen an die heutigen
+                       Bedürfnisse – insbesondere was den sommerlichen Wärmeschutz anbelangt – aus
+                       bauökonomischer Sicht mit grösseren Unsicherheiten behaftet.
+
+                       Gesamtwürdigung
+                       Das Projekt Raum für Alle ist sorgfältig ausgearbeitet. Neben der nachvollzieh-
+                       baren städtebaulichen Setzung, ist der räumliche Mehrwert des freigespielten
+                       Erdgeschosses mit Foyer und der gedeckten, dem Haupteingang vorgelagerten
+                       Begegnungszone hervorzuheben. Die Setzung des Hauptbaus generiert zusam-
+                       men mit der gedeckten Vorzone grosszügige Aussenräume.
+                       Der gewählte ökologiebewusste Ansatz zeigt sich nicht nur durch den Teilerhalt,
+                       sondern wird auch beim Entwurf des Neubaus konsequent umgesetzt.
+                       Die fehlende Anbindung der Räumlichkeiten für Lehrpersonen und die etwas
+                       beengende Organisation der Grundrisse, insbesondere der Unterrichtsgeschosse
+                       werfen jedoch aus räumlich-betrieblicher Sicht Fragen auf.
+
+
+
+
+33
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+                       3. Rang / 3. Preis                                                Projekt Nr. 1 Purple Rain
+                       Architektur
+                       Blättler Dafflon Architekten AG ETH SIA, Zürich
+                       Gilles Dafflon, Ralph Blättler
+                       Beatrice Raith, Patrick Haiser
+
+
+                       Landschaftsarchitektur
+                       Balliana Schubert Landschaftsarch. AG, Zürich
+                       Christoph Schubert, Viola Pechy, Corinne Schmid
+
+
+                       Bauingenieurwesen
+                       CES Bauingenieur AG, Sursee
+                       Misha Rossi
+
+
+
+
+34
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Städtebau
+                       Purple Rain gliedert einen viergeschossigen Schulhausneubau nördlich an die
+                       bestehende Mehrzweckhalle an und platziert – in einer zweiten Etappe – einen
+                       eingeschossigen Aula-Pavillon auf dem Sockelgeschoss des rückgebauten Schul-
+                       hauses Rüsler. Durch diese städtebauliche Disposition wird ein zusammenhän-
+                       gender Grünraum im Norden des Areals geschaffen. Gute Zwischenräume und
+                       Querbezüge zeichnen den Projektvorschlag aus. Die beiden Neubauten und der
+                       Annexbau bilden einen offenen Hofraum, der den Pausenplatz erweitert und den
+                       Blick auf die Sportanlagen nach Westen freigibt. Bedauerlicherweise wird keine
+                       oberirdische Verbindung dieser beiden Niveaus angeboten.
+                       Der transparente Aula-Pavillon, mit einem minimierten Fussabdruck und um-
+                       laufenden, weit auskragenden Vordach, wird seinem öffentlichen Charakter ge-
+                       recht. Während unter dem Vordach ein wichtiger gedeckter Aussenraum für die
+                       Schule entsteht und die schlanke Gebäudeform einen wohltuenden Abstand zum
+                       Schulgebäude erlaubt, wird die Setzung in Bezug auf die notwendige Überde-
+                       ckung der bestehenden Zivilschutzanlage in Frage gestellt.
+                       Ein weiterer gedeckter Aussenraum in Form eines Verbindungsdaches zwischen
+                       Annex, Mehrzweckhalle und neuem Schulhaus schmälert die gewonnene räum-
+                       liche Weite der westlichen Querverbindung.
+
+
+
+
+                       Situation mit Dachaufsicht
+
+35
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Architektur und Betrieb
+                       Eine Kernidee des Vorschlags ist die horizontale Vernetzung der öffentlichen
+                       und gemeinschaftlichen Nutzungen über das Erdgeschoss – Begegnungen sollen
+                       gefördert werden. In dieser Konsequenz ist der Schwellenraum zwischen der
+                       Mehrzweckhalle und dem Schulgebäude als offenes Foyer gestaltet. Über eine
+                       Fuge mit Oberlichtern gelangt Tageslicht in die Gebäudemitte und der Raum, der
+                       an eine lebendige Markthalle erinnert, bietet einen willkommenen Mehrwert für
+                       die Schule. Das grosszügige Foyer wird über neue Rundfenster visuell mit der
+                       Mehrzweckhalle verknüpft und über zusätzliche Treppen direkt angebunden.
+                       Diese enden im Untergeschoss allerdings im ohnehin schon schmalen Korridor-
+                       bereich, sodass dessen Nutzbarkeit eingeschränkt wird.
+                       Der Schulbetrieb kann dank direkter Nebeneingänge zum grossen Pausenplatz
+                       hin auch unabhängig von Anlässen in den Hallen gewährleistet werden. Dass die
+                       Hauptzugänge des neuen Schulhauses jedoch seitlich in der Verlängerung des
+                       Foyers liegen, erscheint aus ortbaulicher Sicht fragwürdig. Eine klare Adressie-
+                       rung des Gebäudes wird vermisst.
+
+
+
+
+                       Visualisierung
+
+36
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Erdgeschoss
+
+
+
+
+                       Die Unterrichtsgeschosse des Schulhauses sind übersichtlich strukturiert, indem
+                       immer vier Klassenzimmer einen Lerncluster bilden und die Erschliessung und
+                       die dienenden Räume in der Gebäudemitte platziert sind. Zwischen zwei Unter-
+                       richtsräumen liegt ein transparenter Gruppenraum, und die Garderobenzone
+                       stösst stirnseitig an die Fassade. Leider müsste dieser Bereich, um das Raumpro-
+                       gramm zu erfüllen, auf einem Geschoss beidseitig als Gruppenraum abgetrennt
+                       werden, was den Lerncluster weniger grosszügig erscheinen lässt.
+
+                       Freiraum
+                       Der Freiraum wird in klar erkennbare Zonen aufgeteilt: Der Pausenplatz – im
+                       Norden des Areals gelegen – grenzt direkt an den Neubau an und reicht bis zur
+                       Esterlistrasse. Die Auto- und Veloparkierung wird im Nordosten des Areals an-
+                       geordnet, was eine positive Entflechtung von Verkehr und Pausenbetrieb ermög-
+                       licht. Ein weiterer ruhiger Pausenplatz auf der Westseite spannt sich zwischen
+                       Aula und Annex auf. Ein ruhigerer, mit Bäumen beschatteter Platz, ergänzt das
+                       Freiraumangebot. Allerdings wirft die Anordnung auf dem unterbauten Ge-
+                       bäudeteil statische Fragen auf, und die Vitalität und Grösse der Bäume würden
+                       aufgrund des eingeschränkten Wurzelraums beschränkt.
+                       Die Quervernetzung ist gut gelöst. Die Längsvernetzung wird jedoch durch den
+                       grossen Fussabdruck des Hauptgebäudes auf einen schmalen Weg vor den Schul-
+                       leitungsbüros reduziert, was zu Konflikten führen kann. Als überdeckter Be-
+                       reich dient die Vorzone der Aula.
+                       Die zusätzliche Parkierung entlang der Rüslerstrasse wäre nur mit einer Stütz-
+                       mauer möglich, was einen Erhalt der bestehenden Bäume in Frage stellt.
+37
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Untergeschoss
+
+
+
+
+                                                                    Grundriss Regelgeschoss
+
+
+
+
+                       Konstruktion, Materialisierung und Nachhaltigkeit
+                       Die beiden Neubauten sind als Holz-Skelettbauten mit einem regelmässigen
+                       Raster konstruiert, was eine Flexibilität für zukünftige Anpassungen bietet.
+                       Während die Innenräume aufgrund der Konstruktion in Holzbauweise eine
+                       atmosphärische Raumstimmung versprechen, wirkt der Vorschlag für die Fas-
+                       sadengestaltung mit folierten Glasplatten als Brüstungselemente eher kühl
+                       und abweisend und es stellt sich die Frage, ob dieser Ausdruck der Nutzung als
+                       Primarschule gerecht wird. Die Projektverfassenden schlagen vor, für diese Glas-
+                       brüstungen die Fensterscheiben des Schulhauses Rüsler wiederzuverwenden.
+                       Diese Idee funktioniert aufgrund der vorgeschlagenen Etappierung jedoch nicht.
+                       Die Geschossfläche des Projekts liegt unter dem Durchschnitt, gleichzeitig weist
+                       das Projekt einen hohen Neubauanteil auf. Insgesamt resultiert aufgrund des ho-
+                       hen Nebennutzflächenanteils und unterdurchschnittlichen Hauptnutzflächenan-
+                       teils nur eine mittlere Flächeneffizienz. Die vergleichenden Investitionskosten
+                       liegen leicht über dem Mittelwert, daraus ergibt sich ein erhöhter Investitions-
+                       kennwert pro Quadratmeter Geschossfläche.
+38
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Ansicht Nord
+
+
+
+
+                       Querschnitt Aula und Ansicht West                                 Querschnitt
+
+
+
+
+                       Längsschnitt
+
+
+
+
+                       Längsschnitt
+
+
+
+
+                       Gesamtwürdigung
+                       Das Projekt Purple Rain ist auf vielen Ebenen sorgfältig ausgearbeitet. Neben
+                       der nachvollziehbaren städtebaulichen Setzung ist der Mehrwert des Foyers als
+                       Begegnungszone hervorzuheben. Auch die Unterrichtsgeschosse erlauben einen
+                       einer Primarschule angemessenen, klassenübergreifenden Unterricht.
+                       Als nicht ganz stimmig erscheint der Jury hingegen die äussere Erscheinung der
+                       Neubauten.
+                       In Bezug auf die Adressierung auf Erdgeschossniveau wirft das Projekt die
+                       grössten Fragen auf. Dem neuen Schulhaus, das sich städtebaulich zum Pausen-
+                       platz orientiert, fehlt nordseitig ein angemessener Ankunfts- und
+                       Eingangsbereich.
+39
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+                       4. Rang / 4. Preis                                                Projekt Nr. 9 Rudi
+                       Architektur
+                       MJ2B Architekten AG
+                       Beat Buri, Manuel Jüni
+                       Kim Bellon, Robin Bohman
+
+
+                       Landschaftsarchitektur
+                       Klötzli Friedli Landschaftsarchitekten, Bern
+                       Beatrice Friedli, Chloé Schindler
+
+
+                       Bauingenieurwesen
+                       WAM Planer und Ingenieure AG, Bern
+                       Michael Karli, Karol Lazarczyk
+
+
+
+
+                                                                       Schwarzplan
+
+
+
+
+40
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Städtebau
+                       Der viergeschossige Neubau für die Primarschule wird direkt an die bestehende
+                       Mehrzweckhalle angegliedert und bildet zusammen mit dem schlanken recht-
+                       eckigen Volumen des Aulaneubaus ein klar lesbares Ensemble. Der Abstand
+                       zwischen Aula und Schulhaus ist angemessen gewählt und führt zu stimmigen
+                       räumlichen Qualitäten innerhalb des Schulareals.
+                       Die bestehenden Arealzugänge bleiben erhalten. Für die Orientierung im Quar-
+                       tier und innerhalb des Schulareals ergeben sich dadurch keine wesentlichen
+                       Veränderungen, was grundsätzlich gewürdigt wird. Die seitlich angeordneten
+                       und gleichwertig ausgebildeten Zugänge der neuen Primarschule vermögen
+                       jedoch aus Sicht der Jury keine klare Adressierung zu gewährleisten. Die vorge-
+                       schlagene Setzung des Primarschulgebäudes, verbunden mit dem beachtlichen
+                       Volumen, führt dazu, dass der Freiraum im Norden als Restraum wahrgenommen
+                       werden könnte.
+
+
+
+
+                       Situation mit Dachaufsicht
+
+41
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+                       Architektur und Betrieb
+                       Die Neubauten mit gestrichenen Holzfassaden fügen sich gut in das bestehende
+                       Areal ein und setzen gleichzeitig einen eigenständigen farblichen Akzent. Wäh-
+                       rend das Aulagebäude eine charakteristische vertikale Gliederung aufweist, wird
+                       die Fassadengliederung des Primarschulgebäudes durch vertikale Lisenen sowie
+                       geschossweise vorspringende Vordächer geprägt. Es entsteht ein ausgewogener,
+                       massstabs- und nutzungsgerechter Ausdruck.
+                       Aus pädagogischer und konzeptioneller Sicht wird der Projektvorschlag grund-
+                       sätzlich positiv beurteilt. Die Anordnung der Unterrichtsräume in den Ober-
+                       geschossen überzeugt. Jeweils vier Unterrichtsräume bilden zusammen mit drei
+                       Gruppenräumen sowie einer mittig angeordneten Vorzone mit Garderoben eine
+                       clusterartige Einheit.
+                       Der Erdgeschossgrundriss dagegen vermag die Jury nicht zu überzeugen. Die im
+                       Gebäudeinneren angeordnete Vertikalerschliessung, die Längsorientierung des
+                       Korridors sowie die Anordnung von wenig frequentierten Nebenräumen schrän-
+                       ken die Möglichkeiten für eine hochwertige natürliche Belichtung und somit die
+                       räumlichen Qualitäten ein. Die Durchlässigkeit zum neu grosszügiger ausgebil-
+                       deten und somit besser nutzbaren Galeriebereich der Mehrzweckhalle bildet
+                       einen klaren Mehrwert.
+                       Über den Aulaneubau wird mittels einer grosszügigen Treppenanlage ein neuer
+                       Zugang zur Mehrzweckhalle geschaffen. Diese Eingangszone kann dabei als
+                       Auftakt zum Foyer im Untergeschoss gelesen werden, und die Zugänglichkeit
+                       der Mehrzweckhalle wird deutlich verbessert. Aula, Musikgrundschule und Bib-
+                       liothek im eingeschossigen Pavillon bilden ein stimmiges Ensemble.
+
+
+
+
+                       Visualisierung
+
+42
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Erdgeschoss
+
+
+
+
+                       Freiraum
+                       Durch die Lage und Grösse des Hauptbaus wird in Richtung Norden ein recht
+                       kleiner Spielbereich ausgebildet. Grosse Bäume sorgen für genügend Schatten,
+                       allerdings richten sich auch die Räume für die Lehrpersonen und die Schullei-
+                       tung auf diesen Pausenplatz aus, was zu Nutzungskonflikten führen könnte.
+                       Zwischen Aula und Annex spannt sich ein grosszügiger Pausenplatz auf. Dieser
+                       ist teilweise mit durchlässigem Belag ausgebildet, muss aber ganz ohne Schatten
+                       auskommen, was sich als nachteilig erweisen könnte. Gestaltung und Möblie-
+                       rung sind noch wenig differenziert und vermögen in Bezug auf ihre Nutzbarkeit
+                       nicht vollständig zu überzeugen.
+                       Die vorgeschlagene Freiraumkonzeption ermöglicht eine gute Interaktion zwi-
+                       schen Gebäuden und Umgebung. Um die Gebäude herum fällt ein hoher Anteil
+                       an befestigten Flächen auf. Diese dienen der barrierefreien Durchwegung und
+                       werden soweit möglich durch sickerfähige Beläge in den naturnahen Pausenbe-
+                       reichen kompensiert. Insgesamt ist das Areal in Querrichtung für den Langsam-
+                       verkehr gut durchlässig konzipiert. Die Längsquerung wird durch den breiten
+                       Fussabdruck des Hauptbaukörpers etwas gestört. Eine aussenliegende Wendel-
+                       treppe verbindet die unterschiedlichen Ebenen und schafft zusätzliche räumli-
+                       che Bezüge.
+                       Die Parkplätze werden peripher an unterschiedlichen Stellen angeordnet. Die
+                       klare Entflechtung vom Schulbetrieb wirkt konsequent und grundsätzlich über-
+                       zeugend. Der grüne Pausenbereich südlich der Esterlistrasse wird jedoch zu
+                       einem grossen Teil durch die bereits bestehenden Parkplätze entlang der Esterli-
+                       strasse belegt, wodurch sein ökologischer und räumlicher Beitrag eingeschränkt
+                       bleibt.
+43
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Grundriss Untergeschoss
+
+
+
+
+                                                                  Grundriss 3. Geschoss (Regelgeschoss)
+
+
+
+
+                       Konstruktion, Materialisierung und Nachhaltigkeit
+                       Der Verzicht auf komplexe Speziallösungen, die Möglichkeit zur Vorfertigung
+                       von Bauteilen sowie die systemische Trennung der Gebäudetechnik sollen eine
+                       kurze Bauzeit, Langlebigkeit und einfache Wartung gewährleisten. Die vorge-
+                       sehenen Vordächer über den Obergeschossen eignen sich für eine Belegung mit
+                       Solarziegeln und tragen zugleich zum sommerlichen Wärmeschutz bei.
+                       Drei Schutzraumabteile werden zugunsten hochwertiger Aussenräume und einer
+                       reduzierten Unterkellerung rückgebaut und im Neubau kompensiert. Obwohl
+                       die geforderte Schutzraumüberdeckung eingehalten werden kann, werden der
+                       Teilrückbau und der umfassende Eingriff in das bestehende Untergeschoss aus
+                       Überlegungen der Nachhaltigkeit kritisch beurteilt. Angesichts der vergleichs-
+                       weise hohen Investitionskosten weist das Projekt bauökonomisches Optimie-
+                       rungspotenzial auf. Gleichzeitig zeigen die Grundrisse eine geringe Flächeneffi-
+                       zienz und lassen in ihrer Wirtschaftlichkeit Fragen offen.
+44
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – rangierte Projekte
+
+
+
+
+                       Ansicht Nord
+
+
+
+
+                       Querschnitt Annex und Ansicht Ost Aulagebäude                     Ansicht West
+
+
+
+
+                       Längsschnitt
+
+
+
+
+                                                                       Querschnitt
+
+
+
+
+                       Gesamtwürdigung
+                       Der Projektvorschlag Rudi überzeugt durch eine klare städtebauliche Setzung
+                       und eine funktional gut organisierte Struktur der Unterrichtsgeschosse. Positiv
+                       hervorgehoben wird die neue Erschliessung der Mehrzweckhalle über den Aula-
+                       neubau, welche zusammen mit dem Foyer eine räumlich attraktive Eingangssitu-
+                       ation schafft. Gleichzeitig wirft der Beitrag tiefgreifende Fragen hinsichtlich der
+                       Freiraumqualität, der Adressierung, der Organisation des Erdgeschosses sowie
+                       des Umgangs mit dem bestehenden Schutzraumbau auf.
+
+
+
+
+45
+46
+     Projekte zweiter Beurteilungsrundgang
+
+
+
+
+Dokumentation der Projektbeiträge
+
+
+Zweiter Beurtei-
+lungsrundgang
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – zweiter Beurteilungsrundgang
+
+
+
+                                                                                   Projekt Nr. 5 Susi & Strolch
+                       Architektur
+                       UNIK Architektur, Zürich
+                       Nina Eggenschwiler
+                       Christoph Bieri, Sarah Gischig
+
+
+                       Landschaftsarchitektur
+                       Bergland GmbH, Kilchberg
+                       Janina Berger
+
+
+                       Bauingenieurwesen
+                       Ingeni AG, Zürich
+                       Lorenzo Moresi, Francesco Snozzi
+
+
+
+
+                       Situation mit Dachaufsicht
+
+48
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – zweiter Beurteilungsrundgang
+
+
+
+                                               Projekt Nr. 6 weitergeflext und aufgeklappt
+                       Architektur
+                       Stoos Architekten AG, Brugg
+                       Jann Stoos, Maja Stoos
+                       Henrique Bivar, Anna Stoos
+
+
+                       Landschaftsarchitektur
+                       SKK Landschaftsarchitekten AG, Wettingen
+                       Sven Reithel, Thalia Poziou
+
+
+                       Bauingenieurwesen
+                       HKP Bauingenieure AG, Baden
+                       Matthias Bechter
+                       Makiol Wiederkehr AG, Beinwil am See
+                       Raphael Greder, Jonas Schmid
+
+
+                       Weitere
+                       Waldhauser + Hermann AG, Münchenstein
+                       Marcol Waldhauser
+                       x-frame Visualisierungen, Ennetbaden
+                       Marcel Schaufelberger
+
+
+
+
+                       Situation
+
+49
+     Projekte erster Beurteilungsrundgang
+
+
+
+
+Dokumentation der Projektbeiträge
+
+
+Erster Beurteilungs-
+rundgang
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – erster Beurteilungsrundgang
+
+
+
+                                                                                         Projekt Nr. 2 Serafin
+                       Architektur
+                       Ernst Niklaus Fausch Partner AG, Zürich
+                       Bertram Ernst, Sandra Scholz, Darius Frese
+
+
+                       Landschaftsarchitektur
+                       Schläpfer Carstensen
+                       Landschaftsarchitekten GmbH, Zürich
+                       Daniel Schläpfer
+
+
+                       Bauingenieurwesen
+                       Lüchinger Meyer Partner AG, Zürich
+                       Hans Seelhofer
+
+
+
+
+                       Situation mit Dachaufsicht
+
+52
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – erster Beurteilungsrundgang
+
+
+
+                                                                                         Projekt Nr. 3 Kapla
+                       Architektur
+                       Diagonal Architekten AG, Winterthur
+                       Alex Cazurra Baste
+                       Enrique Arazuri Marzal, Cristina Knaf, Alba
+                       Villanueva Gimeno
+
+
+                       Landschaftsarchitektur
+                       Brogle Rüeger Landschaftsarchitekten BSLA
+                       Michael Brogle
+
+
+                       Bauingenieurwesen
+                       Solubois GmbH / Synaxis AG, Zürich
+                       Carlo Bianchi, Maurice Mühlemann
+
+
+                       Weitere
+                       IBG Egnieering AG, St. Gallen
+                       Dominic Lenz
+
+
+
+
+                       Situation mit Dachaufsicht
+
+53
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+                       Dokumentation der Projektbeiträge – erster Beurteilungsrundgang
+
+
+
+                                                                                         Projekt Nr. 8 Ensemble
+                       Architektur
+                       Kummer Schiess Architekten GmbH, Zürich
+                       Luc Kummer, Martin Schiess
+                       Markus Werner
+
+
+                       Landschaftsarchitektur
+                       Rosenmayr Landschaftsarchitektur GmbH, Zürich
+                       Matthias Rosenmayr, Elisabeth Strickner
+
+
+                       Bauingenieurwesen
+                       Büro Thomas Boyle + Partner AG, Zürich
+                       Thomas Boyle, Daniel Wirthensohn
+
+
+                       Weitere
+                       Raumanzug Bauphysik GmbH, Zürich
+                       Daniel Gilgen
+
+
+
+
+                       Situation mit Dachaufsicht
+
+54
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Bern, 21. April 2026
+
+
+
+
+55
+Roesti & Pereira GmbH SIA
+
+Auftraggeberschaft: Gemeinde Niederrohrdorf
+Jurybericht zum selektiven Projektwettbewerb «Erweiterung Primarschule Niederrohrdorf»
+
+Ana Pereira
+031 543 36 08 / verfahrensbegleitung@roestipereira.ch
+
+Bern, 21. April 2026
+

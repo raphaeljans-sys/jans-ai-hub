@@ -1,0 +1,2739 @@
+# Text-Extrakt (pdftotext -layout) — Quelle (Web, oeffentlich publiziert):
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2025-02/waedenswil-kantonsschule-zimmerberg-jurybericht.pdf (Jurybericht 2024, 64 Seiten, abgerufen 2026-07-14)
+# Extrakt: pdftotext -layout, 64 Seiten, erstellt 2026-07-14
+Kanton Zürich
+Baudirektion
+Hochbauamt
+
+
+Neubau
+Kantonsschule Zimmerberg
+Au ZH, Wädenswil
+Projektwettbewerb im offenen Verfahren
+Bericht des Preisgerichts
+Zürich, 7. November 2024
+
+
+
+
+Neubau
+Kantonsschule Zimmerberg
+Au ZH, Wädenswil
+Projektwettbewerb im offenen Verfahren
+Bericht des Preisgerichts
+Inhalt
+
+
+
+
+3
+Einleitung
+Gegenstand des Verfahrens
+Ausgangslage
+Planungsaufgabe
+Wettbewerbsverfahren und Teilnahme­berechtigung
+
+
+6
+Projektwettbewerb
+Jury und Vorprüfung
+Ausschreibung und Termine
+Vorprüfung
+Beurteilung der Wettbewerbseingaben
+Rangierung und Preisfestsetzung
+Empfehlung und Würdigung
+Genehmigung
+
+
+16
+Die prämierten Projekte
+
+
+46
+Die weiteren Projekte
+
+
+
+
+2
+                                                                       Einleitung
+
+
+
+
+Gegenstand des Verfahrens
+Die Baudirektion Kanton Zürich, vertreten durch das Hochbaumamt (HBA), ver-
+anstaltete im Auftrag des Immobilienamtes (IMA) und der Bildungsdirektion (BI)
+einen offenen Projektwettbewerb zur Vergabe von Generalplanungsleistungen
+für die Planung, Ausschreibung und Realisierung einer neuen Kantonsschule für
+1200 Schüler­innen und Schüler auf dem Gelände « AuPark » in Au ZH, Wädenswil.
+
+
+Ausgangslage
+Das Bevölkerungswachstum im Kanton Zürich führt auch zu einem Anstieg der
+Schülerzahlen. Mit einer neuen Kantonsschule für die Region Zimmerberg (KZI)
+reagiert der Kanton auf die prognostizierte Bevölkerungsentwicklung. Der peri-
+phere Standort am linken Seeufer verkürzt den Schulweg zahlreicher Schülerinnen
+und Schüler und entlastet zudem die S-Bahn-Linien Richtung Stadt Zürich.
+
+Das Areal « AuPark » an der nordwestlichen Grenze von Wädenswil wurde als
+geeigneter Standort für die neue Kantonsschule evaluiert. Das ehemalige Indus­
+trie- und Gewerbeareal an landschaftlich attraktiver Lage wird zurzeit etappenweise
+zu einem gemischt genutzten Gebiet mit Wohnen, Gewerbe, Verkauf und Bildung
+transformiert. Hierfür bildet ein durch die ehemalige Grundeigentümerin Intershop
+entwickelter Gestaltungsplan die baurechtliche Grundlage. Die Parzelle im Nord-
+westen des Entwicklungsgebiets bietet optimale Bedingungen für eine bestens an
+das öffentliche Verkehrsnetz angebundene Schule mit hoher Standortqualität.
+
+Um auf den zunehmenden kantonalen Schulraumbedarf zeitgerecht und wirtschaft-
+lich zu reagieren und die Bereitstellung der dringend benötigten schulräumlichen
+Infrastruktur zu gewährleisten, hat der Regierungsrat des Kantons Zürich mit Regie-
+rungsratsbeschluss RRB 1311/2022 die Bildungsdirektion und die Baudirektion mit
+dem Projekt « Schulbauten der Zukunft » beauftragt. Es galt, die daraus entwickel-
+ten Raumstandards und die Massnahmen zur Vereinfachung der Planungs- und
+Bauweise im vorliegenden Verfahren als Pilotprojekt umzusetzen. Alle relevanten
+Ergebnisse wurden in die Wettbewerbsunterlagen eingearbeitet.
+
+Gesucht wurden Projekte mit gesamtheitlichem Gestaltungsanspruch, die das
+Schulhaus als Lern- und Lehrwerkstatt neu interpretieren. Neben ortsbaulichen
+Aspekten wie der Einbettung der Schulanlage in ihre direkte Nachbarschaft und
+ihre Bezüge zum See und zur Halbinsel Au war ein besonderer Fokus auf die öko­
+nomische und ökologische Bauweise zu legen. Erwartet wurden i­nterdisziplinär
+erarbeitete, innovative Projekte, die als Pilot für künftige Kantonsschulbauten
+taugen.
+
+
+
+
+                                                                                 3
+Einleitung
+
+
+
+
+Abbildung 1 : Luftbild Areal « AuPark », ehemaliger Standort der Radio Alcatel AG um 1990, im Hinter-
+grund ist der Bahnhof Au sichtbar. (Quelle : ETH Zürich Bildarchiv)
+
+
+
+
+Abbildung 2 : Im Besitz des Kantons Zürich ist die Parzelle Kat.-Nr. WE13805 mit einer Fläche von
+10’880 m². Die angrenzende Parzelle, welche im Gestaltungsplan mitentwickelt wurde, ist im Besitz
+der Swiss Life AG. (Quelle : GIS-ZH Orthofoto ZH 2014 – 2024)
+
+
+
+
+4
+                                                                       Einleitung
+
+
+
+
+Planungsaufgabe
+Mit dem Entscheid, auf dem Areal « AuPark » in Wädenswil bis 2031 eine Kantons-
+schule zu realisieren, wird ein für den Kanton Zürich und die Region Zimmerberg
+bedeutsamer, neuer Schulstandort etabliert. Es ist vorgesehen, alle Maturitätspro-
+file und sowohl das vierjährige Kurz- als auch das sechsjährige Langgymnasium
+anzubieten. Die neue Schulanlage wird sämtliche Infrastrukturen einer vollwertigen
+und zeitgemässen Kantonsschule umfassen, wobei gewisse Aussen- und Sport­
+flächen aufgrund der örtlichen Gegebenheiten ausgelagert werden.
+
+Die Rahmenbedingungen zur Überbauung des im kantonalen Richtplan als Zen­
+trumsgebiet mit hoher baulicher Dichte ausgewiesenen ehemaligen Industrieareals
+sind im Gestaltungsplan « AuPark » definiert. Die neue Schulanlage war als Teil des
+Gesamtperimeters und im Zusammenhang mit den benachbarten Siedlungen zu
+konzipieren.
+
+Exemplarisch soll die Kantonsschule Zimmerberg die Anforderungen der « Schul-
+bauten der Zukunft » verkörpern und einen neuen Standard für künftige Schulbau-
+projekte setzen. Gesucht wurde ein schlüssiges Gesamtkonzept für eine innovative,
+möglichst effiziente, über den gesamten Lebenszyklus kostengünstige und war-
+tungsarme Schulanlage, die der Umwelt gerecht wird und einen hohen Schulkom-
+fort bietet.
+
+Um die Kosten im Vergleich zu herkömmlichen Projekten zu redu­zieren und die
+Bauzeit zu verkürzen, wurden eine integrale Planung der Schulanlage und der Ein-
+satz von rationellen Konstruktionen und Bauweisen erwartet. Ein weiterer Fokus
+war auf Rückbaubarkeit und die Lebenszykluskosten zu legen.
+
+Durch das gut orchestrierte Zusammenspiel von räumlichen Bezügen, Nutzungs-
+verteilung und Erschliessung war die offene Schulanlage in ihre unmittelbare Umge-
+bung einzubinden. Neben der Herausforderung, die ortsbauliche Situation im Rah-
+men der Gestaltungsplanvorgaben zu interpretieren, war der Ausbildung sicherer
+und qualitativ hochwertiger Freiräume besondere Sorgfalt zu widmen. Zur Entlas-
+tung der umliegenden Freiflächen und um Nutzungskonflikte zu vermeiden, waren
+vielfältige, für unterschiedliche Bedürfnisse gestaltete Aufenthaltsbereiche sowie
+attraktive Erschliessungs-, Spiel- und Sportflächen gefragt. Ausserdem wurde auf
+die Förderung der Biodiversität und des Stadtklimas spezielles Gewicht gelegt.
+
+Die den « Schulbauten der Zukunft » zugrunde liegende, pädagogische Leitidee der
+« Lehr- und Lernlandschaft » geht von der Aktivierung des gesamten Schulareals
+als Lehr- und Lernort mit hoher Aneignungsqualität aus. Die Projektierenden waren
+aufgefordert, die Schule als gemeinsamen Lebensraum zu begreifen, der auch über
+den Unterricht hinaus zum Bleiben einlädt. Eine zentrale Rolle sollten hierbei das
+Lernen, sich Begegnen und die gemeinsame Freizeitgestaltung spielen.
+
+Auf baulicher Ebene erforderten die Massnahmen für die « Schulbauten der Zukunft »
+die Konzentration auf das Wesentliche. Innerhalb einer einheitlichen Grundstruktur
+sollte räumliche Grosszügigkeit durch eine geschickte Organisation und intelligente
+Raumbezüge erreicht werden. Eine optimierte Erschliessung und mehrfach nutzbare
+Flächen sollten zu einem kompakten Volumen führen. Weiter wurden Vorschläge
+zur Minimierung der Lebenszykluskosten, ein effizientes Gebäudetechnikkonzept
+und sinnvolle Massnahmen zur Klimaanpassung erwartet. Zu berücksichtigen
+waren hierbei die im Raumprogramm und in den ergänzenden Vorgaben definierten
+Raumbedürfnisse, wobei nutzungsspezifische Anforderungen, Nutzungsflexibilität
+und langfristige Adaptierbarkeit gegeneinander abzuwägen waren.
+
+
+
+
+                                                                                 5
+Einleitung/ Projektwettbewerb
+
+
+
+
+Wettbewerbsverfahren und
+Teilnahme­berechtigung
+Das Wettbewerbsverfahren unterstand dem WTO-Übereinkommen über das
+öffentliche Beschaffungswesen und dem Binnenmarktgesetz. Es wurde als Pla-
+nungswettbewerb im offenen Verfahren gemäss Art. 18 und Art. 21 Ziff. 2 lit. i der
+interkantonalen Vereinbarung über das öffentliche Beschaffungswesen (IVöB)
+durchgeführt. Subsidiär galt die SIA-Ordnung 142 für Architektur- und Ingenieur-
+wettbewerbe, Ausgabe 2009. Nach SIA handelte es sich um einen einstufigen, offe-
+nen Projektwettbewerb.
+
+Das Verfahren war anonym und wurde in deutscher Sprache geführt. Die Ermittlung
+der Namen der Verfasserinnen und Verfasser, die Veröffentlichung des Berichts
+sowie die Ausstellung sämtlicher Wettbewerbsarbeiten erfolgten nach der Beurtei-
+lung durch das Preisgericht.
+
+Teilnahmeberechtigt am Wettbewerb waren Generalplanungsteams (Gesamtlei-
+tung Architektur oder Baumanagement) mit Planungsleistungen aus den Berei-
+chen Architektur, Baumanagement, Landschaftsarchitektur, Bauingenieurwesen
+und Gebäudetechnik (HLKKSE). Voraussetzung für alle Teams war ein Wohn- oder
+Geschäftssitz in der Schweiz oder in einem Vertragsstaat des WTO-Übereinkom-
+mens über das öffentliche Beschaffungswesen, soweit dieser Staat Gegenrecht
+gewährt.
+
+
+
+
+Jury und Vorprüfung
+Fachjurorinnen / Fachjuroren
+David Vogt, stv. Kantonsbaumeister, Hochbauamt (Vorsitz)
+Jeannette Kuo, Karamuk Kuo Architekten GmbH
+Jan Kinsbergen, Jan Kinsbergen Architects Ltd.
+Klaus Müller, Müller Illien Landschaftsarchitekten
+Marius Hug, Michael Meier Marius Hug Architekten AG (Ersatz)
+Tamara Schubiger, Jonas Wüest Architekten GmbH (Ersatz)
+
+Sachjurorinnen
+Sandra Mischke, Abteilungsleiterin Bauten, Generalsekretariat der Bildungsdirektion
+Susanne Groux, Portfoliomanagerin Bereitstellung, Immobilienamt
+Alexandra Siegrist-Tsakanakis, Rektorin, Kantonsschule Zimmerberg
+
+Expertinnen / Experten
+Pascal Stalder, 2ap / Abplanalp Affolter Partner (Baukosten)
+Katrin Pfäffli, Preisig Pfäffli (Nachhaltigkeit)
+Pia Jöckel, BIQS Brandschutzingenieure (Brandschutz)
+Dragana Ivelj, Projektleitung GT, Hochbauamt (Gebäudetechnik)
+Silvan Stierli, Timbatec (Tragstruktur)
+Martin Schmid, planzeit GmbH (Verfahrensbegleitung)
+Stefan Schnetzler, Grolimund Partner Ingenieure
+Myriam Bernauer, Projektleiterin, Bildungsdirektion
+Stefan Huber, Leiter Fachstelle Baukostenmanagement, Hochbauamt
+Yvonne Grunwald, Projektleiterin, Hochbauamt
+Denise Ulrich, Projektleiterin Fachstelle Wettbewerbe, Hochbauamt
+Rhea Lesniak, Leiterin Fachstelle Wettbewerbe, Hochbauamt
+
+Eine allfällige Ersatzperson für das Sachpreisgericht war aus der entsprechenden
+Organisationseinheit in Absprache mit den Mitgliedern der Jury zu bestimmen.
+
+Vor der Beurteilung wurde die Einhaltung der Programmbestimmungen bei sämtli-
+chen Eingaben überprüft. Die Vorprüfung der Wettbewerbsprojekte erfolgte unter
+der Leitung des Hochbauamtes durch das Büro planzeit GmbH, Zürich.
+
+Bei den Projekten der engeren Wahl fand eine vertiefte Vorprüfung in den Bereichen
+Raumprogramm, Baurecht, Barrierefreiheit, Nutzungskonzept, Gebäudetechnik
+HLKKSE, Baukosten, Nachhaltigkeit, Brandschutz und Lärmschutz statt.
+
+
+6
+                                                           Projektwettbewerb
+
+
+
+
+Ausschreibung und Termine
+Die öffentliche Ausschreibung des Projektwettbewerbs erfolgte am 26. Januar 2024
+auf der Ausschreibungsplattform simap, der Website des Hochbauamtes und in
+der Fachpresse. Ab diesem Datum standen sämtliche Wettbewerbsunterlagen
+allen Interessierten auf der Website des Hochbauamtes zur Verfügung. Bis zum
+Ablauf der Anmeldefrist meldeten sich insgesamt 86 Generalplanungsteams zur
+Teilnahme am Wettbewerb an. Die Fragenbeantwortung wurde den Teilnehmenden
+am 28. März 2024 auf der Website des Hochbauamtes zugänglich gemacht. Der
+Termin für die Wettbewerbseingabe wurde für die Planunterlagen auf den 28. Juni
+2024 und für die Modelle auf den 11. Juli 2024 festgelegt.
+
+Bis zum Eingabetermin trafen 47 anonyme, mit einem Kennwort versehene Einga-
+ben beim Hochbauamt Kanton Zürich ein und wurden registriert.
+01 Stromboli
+02 PIAF
+03 TRABANT
+04 Belvedere
+05 LINK
+06 MINERVA
+07 LILIENTHAL
+08 Harry !
+09 A CLOCKWORK ORANGE
+10 wädi vidi vici
+11 inside AUt
+12 KAUZ
+13 BILLIE
+14 Beletage (1)
+15 HENRY
+16 AVENTIN
+17 DOMINO
+18 KANTI AU
+19 AUNIVERSE
+20 Sonic Youth
+21 ALLEGRO MA NON TROPPO
+22 pieno vuoto pieno
+23 Wimperfledermaus
+24 der AUfstieg
+25 PLURIENNE
+26 VIERZIGECK
+27 Tom Bombadil
+28 Baukasten+
+29 weniger ist mehr
+30 PAS DE TROIS
+31 EXEDRA
+32 OBELIX
+33 AHA-MOMENT
+34 YARD
+35 PANGOLIN
+36 Prometheus
+37 CHANDRASANA
+38 Three-Body Problem
+39 palazzo modesto
+40 Basis
+41 BELETAGE (2)
+42 AHOI
+43 Jules Verne
+44 AUF KLEINEM FUSS
+45 Schule in der Luft
+46 NIAGARA
+47 Graf Tüpo
+
+
+
+
+                                                                              7
+Projektwettbewerb
+
+
+
+
+Vorprüfung
+Alle eingereichten Projekte wurden unter Berücksichtigung der Bestimmungen des
+Wettbewerbsprogramms nach folgenden Kriterien vorgeprüft.
+– Termingerechter Eingang der Arbeiten
+– Vollständigkeit und Überprüfbarkeit der eingereichten Unterlagen
+– Verstösse gegen die Vorgaben des Wettbewerbsprogramms
+– Plausibilisierung des Raumprogramms und der Kennzahlen
+
+Die Vorprüfung ergab folgende Resultate.
+– Alle Eingaben gingen fristgerecht beim Hochbauamt ein.
+– 47 Projekte waren im Wesentlichen vollständig und überprüfbar.
+– Bei einigen Entwürfen zeigten sich kleinere Abweichungen vom vorgegebenen
+    Raumprogramm, Verstösse beim Baurecht sowie Abweichungen bei der Ein-
+    haltung der Vorgaben bezüglich Nutzung und Betrieb, die im Vorprüfungsbe-
+    richt detailliert aufgeführt waren.
+
+
+Beurteilung der Wettbewerbseingaben
+Vorbemerkungen
+Die Jury trat am 23. und 26. August sowie am 19. September 2024, in den Räumlich-
+keiten des Hochbauamtes an der Waltersbachstrasse 5 in Zürich zur Beurteilung
+der eingereichten Wettbewerbsarbeiten zusammen. Jeannette Kuo, Fachjurorin,
+war am 23. August ganztägig abwesend. Sie wurde durch Marius Hug ersetzt. Die
+Beschlussfähigkeit des Preisgerichts war während der drei Sitzungstage gegeben.
+
+Zu Beginn der Sitzung erläuterte David Vogt, Vorsitzender des Preisgerichts, das
+Verfahren und die Verfahrensregeln. Dabei wies er zusätzlich darauf hin, dass eine
+Gesamtlösung unter Berücksichtigung aller Beurteilungskriterien gesucht wird und
+die im Wettbewerbsprogramm formulierten Kriterien keiner Gewichtung folgen.
+
+Die Vorprüfung der ersten Runde wurde stellvertretend für alle involvierten Exper-
+tinnen und Experten von Martin Schmid, planzeit GmbH, vorgetragen. Nach der
+Präsentation beriet das Preisgericht grundsätzlich über die Zulassung der Projekte
+zur Beurteilung und beschloss einstimmig, alle Projekte zuzulassen.
+
+Die Vorstellung der vertieften Vorprüfung für die Projekte der engeren Wahl erfolgte
+am dritten Jurytag durch alle Expertinnen und Experten vor Ort.
+
+Individueller Rundgang
+Der erste Jurytag begann mit einem individuellen Rundgang durch die Ausstellung
+der Wettbewerbsmodelle, der eine erste Einschätzung der Projekte ermöglichte.
+
+Informationsrundgang
+Nach einer Begutachtung und dem Studium der Projekte in Kleingruppen wurden alle
+eingereichten Arbeiten aufgrund der Erkenntnisse aus dem Informationsrundgang
+durch die jeweiligen Jurorinnen und Juroren erläutert. Einzelne Abweichungen und
+Verstösse gegen die Programmbestimmungen wurden im Rahmen des Rundgangs
+vor den jeweiligen Projekten nochmals diskutiert. Nach Abschluss des Informations-
+rundgangs bestätigte das Preisgericht seinen Entscheid, sämtliche 47 Projekte zur
+Beurteilung zuzulassen.
+
+Erster Wertungsrundgang
+Im Rahmen des ersten Wertungsrundganges erläuterte die Jury die einzelnen
+Arbeiten vertiefter. Im Anschluss wurden sämtliche Projekte im Plenum einge-
+hend besprochen und anhand der Beurteilungskriterien im Programm aus einer
+gesamtheitlichen Sicht beurteilt. Dabei wurde insbesondere auf die bei der Vorprü-
+fung festgestellten Mängel eingegangen. Das Preisgericht beschloss einstimmig,
+die f­olgenden vierzehn Projekte auszuschliessen, die trotz teilweise interessanter
+Ansätze und diskussionswürdiger Lösungsvorschläge im Quervergleich nicht zu
+überzeugen vermochten.
+02 PIAF
+03 TRABANT
+05 LINK
+
+
+
+8
+                                                              Projektwettbewerb
+
+
+
+
+09   A CLOCKWORK ORANGE
+11   inside AUt
+18   KANTI AU
+22   pieno vuoto pieno
+26   VIERZIGECK
+32   OBELIX
+34   YARD
+39   palazzo modesto
+41   BELETAGE (2)
+44   AUF KLEINEM FUSS
+47   Graf Tüpo
+
+Kontrollrundgang
+Nach Abschluss des ersten Wertungsrundganges erfolgte ein Kontrollrundgang.
+
+Zweiter Wertungsrundgang
+Im zweiten Wertungsrundgang wurden die verbliebenen Projekte einer vertieften
+Beurteilung unterzogen und gegeneinander abgewogen. Intensiv wurden unter
+anderem das architektonische Konzept und der Städtebau diskutiert. Ein beson-
+derer Fokus lag auf der Adressbildung und der Einbettung in den Freiraum sowie
+den Lösungsansätzen für die geforderten Lehr- und Lernkonzepte. Ausgeschieden
+wurden folgende Arbeiten, die entweder ortsbaulich nicht überzeugten oder in kon-
+zeptioneller und/oder in funktionaler Hinsicht wenig Potenzial aufwiesen.
+04 Belvedere
+07 LILIENTHAL
+08 Harry!
+10 wädi vidi vici
+12 KAUZ
+14 Beletage (1)
+17 DOMINO
+19 AUNIVERSE
+23 Wimperfledermaus
+24 der AUfstieg
+25 PLURIENNE
+28 Baukasten+
+29 weniger ist mehr
+31 EXEDRA
+33 AHA-MOMENT
+35 PANGOLIN
+36 Prometheus
+37 CHANDRASANA
+38 Three-Body Problem
+42 AHOI
+43 Jules Verne
+45 Schule in der Luft
+
+Dritter Wertungsrundgang
+Im dritten Wertungsrundgang fand eine vertiefte Auseinandersetzung mit dem
+Nutzungskonzept statt. Besonders intensiv wurde das Innovationspotenzial der
+Grundrisse und deren Eignung für die « Schulbauten der Zukunft » sowie die kon-
+struktiven Konzepte besprochen. Ausgeschlossen wurden jene Projekte, die zwar
+interessante Beiträge zu Fragen der Architektur, der Nutzung, der Funktionalität und
+der Umgebungsgestaltung leisteten, in der Gesamtbetrachtung jedoch nicht über­
+zeugten. Dies betraf die nachstehend aufgeführten Projekte.
+13 BILLIE
+16 AVENTIN
+20 Sonic Youth
+27 Tom Bombadil
+40 Basis
+
+Kontrollrundgang und engere Wahl
+In einem Kontrollrundgang wurden die Resultate der bisherigen Beurteilung und
+die sechs Projekte der engeren Wahl bestätigt und somit auch das Ziel für die Prä-
+mierung (Rang/Preis) von drei Projekten gemäss Wettbewerbsprogramm erreicht.
+
+
+                                                                                  9
+Projektwettbewerb
+
+
+
+
+01   Stromboli
+06   MINERVA
+15   HENRY
+21   ALLEGRO MA NON TROPPO
+30   PAS DE TROIS
+46   NIAGARA
+
+Mit dem Kontrollrundgang sowie der Formulierung von Arbeitsaufträgen für eine
+nochmalige Vertiefung der Vorprüfung der Projekte der engeren Wahl in einzelnen
+Fachbereichen (Baurecht, Barrierefreiheit, Nutzungs- und Gebäudetechnikkonzept,
+Raumprogramm, Bauökonomie, Lebenszykluskosten sowie die Prüfung der Pro-
+jekte hinsichtlich der Einhaltung der gesetzlichen Anforderungen an die Nachhal-
+tigkeit, den Lärmschutz und den Brandschutz) wurde der zweite Beurteilungstag
+abgeschlossen.
+
+Vierter Wertungsrundgang und Kontrollrundgang
+Die Jury trat am 19. September 2024 zum dritten Mal zusammen. Einleitend wur-
+den die Erkenntnisse der vertieften Vorprüfung vorgestellt. Danach diskutierte das
+Gremium intensiv und erörterte die Vor- und Nachteile der einzelnen Projekte. Qua-
+litative Unterschiede in den Projekten wurden vor allem betreffend den Themen
+Eignung als Pilotprojekt für die «Schulbauten der Zukunft» sowohl in baulicher als
+auch in funktionaler und betrieblicher Hinsicht festgestellt.
+
+Anschliessend wurden die Projektbeschriebe im Rahmen des vierten Wertungs-
+rundgangs vor den Plänen im Conceptboard im Plenum einzeln verlesen. Das Preis-
+gericht diskutierte anhand der Projektbeschriebe nochmals intensiv und verglich
+die Stärken und Schwächen der sechs Projekte der engeren Wahl. Schwergewich-
+tig wurden ihre Qualitäten als Lehr-, Lern- und Lebensraum sowie die ortsbauliche
+Einbettung der Schulanlage und deren Bezüge zur Nachbarschaft beurteilt. Das
+Thema Nachhaltigkeit und das Konzept für die «Schulbauten der Zukunft » wurden
+vertieft besprochen. Die Modelle wurden ebenfalls nochmals im Detail verglichen.
+Das Gremium beschloss einstimmig, das Projekt « ALLEGRO MA NON TROPPO » aus-
+zuscheiden, weil die zwar sehr eigenständige und vielversprechende innenräumliche
+Konfiguration bei näherer Betrachtung weder hinsichtlich ihrer funktionalen Zusam-
+menhänge noch auf gestalterisch-konstruktiver Ebene zu überzeugen vermochte.
+
+Bei einem letzten Kontrollrundgang mittels einer Umfrage unter allen Mitgliedern
+des Preisgerichts stellte David Vogt als Vorsitzender des Preisgerichts sicher, dass
+die im Programm formulierten Ziele und die Erwartungen an das Projekt weiterhin
+allseitig mitgetragen werden. Ebenso konnte gemeinsam festgestellt werden, dass
+der bisherige Ablauf des Verfahrens klar und transparent nachvollziehbar durchge-
+führt wurde. Dabei wurden die Entscheidungen aus den erfolgten Wertungsrund-
+gängen durch das Preisgericht einstimmig bestätigt.
+
+
+Rangierung und Preisfestsetzung
+Die nochmalige Gegenüberstellung der Projekte der engeren Wahl und eine inten-
+sive Auseinandersetzung mit den einzelnen Vorschlägen führten zur definitiven Ran-
+gierung und Preiszuteilung. Zur Prämierung von mindestens drei Entwürfen (Preise
+und Ankäufe) standen dem Preisgericht insgesamt CHF 290’000 (exkl. MWST) zur
+Verfügung. Angekaufte Beiträge konnten durch das Preisgericht rangiert, aber nicht
+zur Weiterbearbeitung empfohlen werden.
+
+1. Rang   1. Preis   NIAGARA                                          CHF 85’000
+2. Rang   2. Preis   MINERVA		                                         CHF 75’000
+3. Rang   3. Preis   Stromboli		                                       CHF 55’000
+4. Rang   4. Preis   HENRY	                                           CHF 45’000
+5. Rang   5. Preis   PAS DE TROIS                                      CHF 30’000
+
+Alle 47 eingereichten Projekte haben zu intensiven und wertvollen Diskussionen
+und einer vertieften Auseinandersetzung mit der Aufgabenstellung im Preisgericht
+beigetragen. Nach abschliessender Rangierung, Preiszuteilung und der Formulie-
+rung der Empfehlungen für die Weiterbearbeitung wurde die Anonymität mit folgen-
+dem Resultat aufgehoben.
+
+
+10
+                                      Projektwettbewerb
+
+
+
+
+1. Rang/1. Preis Architektur / Baumanagement
+    CHF 85’000 Gunz & Künzle Architekten GmbH | Manessestrasse 170, 8045 Zürich
+
+  Projekt Nr. 46 Mitarbeit
+      NIAGARA Gilles Gasser, Jiro Akita, Mathias Gunz, Michael Künzle
+
+                   Bauingenieurwesen
+                   Pirmin Jung Schweiz AG | Bahnhofstrasse 86, 8500 Frauenfeld
+                   Mitarbeit
+                   Matthias Müller
+
+                   Landschaftsarchitektur
+                   Uniola AG | Bergstrasse 50, 8032 Zürich
+                   Mitarbeit
+                   Patrick Altermatt, Nina Ziegler, Marie Lintel
+
+                   HLKKSE-Ingenieurwesen
+                   Amstein + Walthert AG Zürich | Andreasstrasse 5, 8500 Zürich
+                   Mitarbeit
+                   Patrick Stierli
+
+                   Brandschutz / Bauphysik / Akustik / Konstruktiver Holzbau
+                   Pirmin Jung Schweiz AG | Bahnhofstrasse 86, 8500 Frauenfeld
+                   Mitarbeit
+                   Lars Weber
+
+
+
+2. Rang/2. Preis Architektur / Baumanagement
+     CHF 75’000 ARGE Michael Riker, Balasingam Kunz Architekten GmbH | Gabriel Merkli,
+                  ­Florence Gilbert | Kernstrasse 57, 8004 Zürich
+   Projekt Nr. 06
+       MINERVA Mitarbeit
+                   Sindusan Balasingam, Michael Riker, Gabriel Merkli, Florence Gilbert, Cyril Kunz
+
+                   Bauingenieurwesen
+                   Dr. Deuring + Oehninger AG | Römerstrasse 21, 8401 Winterthur
+                   Mitarbeit
+                   Bastian Leu, Tobias Glauser
+
+                   Landschaftsarchitektur
+                   Ganz Landschaftsarchitekten GmbH | Grubenstrasse 45, 8045 Zürich
+                   Mitarbeit
+                   Daniel Ganz
+
+                   HLKK-Ingenieurwesen
+                   Kalt + Halbeisen Ingenieurbüro AG | Albulastrasse 47, 8048 Zürich
+                   Mitarbeit
+                   Roger Rotzler
+
+                   Brandschutz
+                   siQS GmbH | Grubenstrasse 91, 8200 Schaffhausen
+                   Mitarbeit
+                   Domagoj Lucic
+
+                   Bauphysik / Nachhaltigkeit
+                   Gartenmann Engineering | Cysatstrasse 23A, 6004 Luzern
+                   Mitarbeit
+                   Attila Gygax
+
+
+
+
+                                                          11
+                  Projektwettbewerb
+
+
+
+
+3. Rang / 3. Preis Architektur
+     CHF 55’000 Bischof Föhn Architekten ETH SIA | Feldstrasse 133, 8004 Zürich
+
+  Projekt Nr. 01 Mitarbeit
+      Stromboli Rico Traxler, Norbert Föhn, Stephan Bischof, Fabian Sauser, Konrad Höbel,
+                 Jonas Schüpbach, Lea Andermatt
+
+                  Baumanagement
+                  Jaeger Coneco AG | Schindlerstrasse 26, 8006 Zürich
+                  Mitarbeit
+                  Ewa Keck, Kevin Amstadt, Patrick Burger
+
+                  Bauingenieurwesen / Brandschutz
+                  Atlas Tragwerke AG | Zähringerstrasse 37, 8001 Zürich
+                  Mitarbeit
+                  Christian Baudet, Christoph Angehrn
+
+                  Landschaftsarchitektur
+                  Appert Zwahlen Partner AG | Zugerstrasse 4, 6330 Cham
+                  Mitarbeit
+                  Benjamin Gorzawski, Karin Meissle
+
+                  HLKK-Ingenieurwesen
+                  Gruenberg + Partner AG | Nordstrasse 31, 8006 Zürich
+                  Mitarbeit
+                  Patric Baggi, Vineeth Kottarathil, Corinne Ott
+
+                  Sanitäringenieurwesen
+                  Gruenberg + Partner AG | Nordstrasse 31, 8006 Zürich
+                  Mitarbeit
+                  Patric Baggi, Stefan von Rotz, Jannik Lamprecht
+
+                  Elektroingenieurwesen
+                  Schmidiger + Rosasco AG | Leutschenbachstrasse 95, 8050 Zürich
+                  Mitarbeit
+                  Michael Huber, Daniel Giacu, Antonio Mele
+
+                  Bauphysik
+                  Kuster + Partner AG | Badenerstrasse 144, 8041 Zürich
+                  Mitarbeit
+                  Jan De Vos, Barbara Grüter
+
+
+
+
+                  12
+                                       Projektwettbewerb
+
+
+
+
+4. Rang/4. Preis Architektur / Baumanagement
+    CHF 45’000 wulf architekten gmbh Stuttgart, Zweigniederlassung Basel |
+                  Breisachstrasse 66, 8057 Basel
+   Projekt Nr. 15
+         HENRY Mitarbeit
+                  Tobias Wulf, Jan-Michael Kallfass, Gabriel Wulf, Anna Lenz, Mona Nheili,
+                  Damla Kinasakal
+
+                   Bauingenieurwesen
+                   wh-p Ingenieure AG | Malzgasse 20, 4052 Basel
+                   Mitarbeit
+                   Martin Stumpf
+
+                   Landschaftsarchitektur
+                   Jacob Planung GmbH | Bättwilerstrasse 7, 4001 Basel
+                   Mitarbeit
+                   Donald Jacob
+
+                   HLKKSE-Ingenieurwesen
+                   Amstein + Walthert Basel AG | Henric Petri-Strasse 15, 4051 Basel
+                   Mitarbeit
+                   Stefan Oesterle, Carsten Schwarz, Michael Stähli
+                   Energie und Klimatechnik
+                   Transsolar Energietechnik GmbH | Curiestrasse 2, 70563 Stuttgart DE
+                   Mitarbeit
+                   Volkmar Bleicher
+
+
+
+5. Rang/5. Preis Architektur
+    CHF 30’000 MAK architecture AG | Ankerstrasse 53, 8004 Zürich
+
+  Projekt Nr. 30 Mitarbeit
+ PAS DE TROIS Marcia Ackermann, Mirko Ackermann, Alain Vorlet, Pacific Nkiambi
+
+                   Baumanagement
+                   Laterza Graf Baupartner AG | Beckenhofstrasse 6, 8006 Zürich
+                   Mitarbeit
+                   Gian Piero Laterza-Peter
+
+                   Bauingenieurwesen
+                   Ingeni AG Zürich | Technoparkstrasse 1, 8005 Zürich
+                   Mitarbeit
+                   Francesco Snozzi
+
+                   Landschaftsarchitektur
+                   USUS Landschaftsarchitektur | Bäckerstrasse 40, 8004 Zürich
+                   Mitarbeit
+                   Roger Keller, Kitti Biró-Varga
+
+                   HLKKS-Ingenieurwesen
+                   Hochstrasser Glaus & Partner Consulting AG | Max-Högger-Strasse 6, 8048 Zürich
+                   Mitarbeit
+                   Peter Glaus
+
+                   Elektroingenieurwesen
+                   IBG Engineering AG | Hintermühlenstrasse 4, 8409 Winterthur
+                   Mitarbeit
+                   Marcel Ebnöther
+
+                   Brandschutz
+                   PROTEXON AG | St. Jakob-Strasse 41, 4132 Muttenz
+                   Mitarbeit
+                   Matthias Bosshart
+
+
+                                                       13
+Projektwettbewerb
+
+
+
+
+Empfehlung und Würdigung
+Das Preisgericht empfiehlt der Veranstalterin einstimmig, das Verfasserteam des
+Projektes Nr. 46 mit dem Kennwort « NIAGARA » mit der Weiterbearbeitung der Bau-
+aufgabe zu beauftragen. Das Gremium ist sich bewusst, dass die Aufgabenstellung
+mit den beschriebenen Rahmenbedingungen anspruchsvoll war. Zum einen galt es
+die Anforderungen an die «Schulbauten der Zukunft» in ein rationales und dennoch
+räumlich attraktives Gesamtkonzept zu überführen, zum anderen sollte die Schule
+als Lehr- und Lernlandschaft interpretiert und als einladende und über den Schul­
+alltag hinaus gerne genutzte Anlage entworfen werden.
+
+Die Jury kommt zum Schluss, dass der Projektvorschlag « NIAGARA » unter allen
+Wettbewerbseingaben die Kriterien des Städtebaus, der Architektur, der Funktio-
+nalität, der Wirtschaftlichkeit und der Nachhaltigkeit in der Gesamtbetrachtung am
+besten erfüllt. Das Projekt gibt eine angemessene Antwort auf die Anforderungen
+und ermöglicht einen zukunftsgerichteten Betrieb.
+
+Im Rahmen der anstehenden Projektierung sind die in der vertieften Vorprüfung kriti-
+sierten Aspekte zu prüfen. Insbesondere sind folgende Punkte zu optimieren.
+– Die Gestaltung des offenen, jedoch ablesbaren Übergangs vom Schulareal
+     zum Au-Park.
+– Die direkte Zugänglichkeit des Aussenklassenzimmers im Westen des
+     Gebäudes.
+– Die Abstimmung des Tragwerksrasters auf die standardisierten Raumgrössen
+     und Raumgeometrien.
+– Die Versorgung einzelner Räume im Sockelgeschoss mit Tageslicht.
+– Die Geometrie der Tiefgarage und die Umsetzung der geforderten Anzahl
+     Parkplätze.
+– Der Anteil an Aussen- und Innenverglasungen.
+
+Das Preisgericht zeigte sich vom grossen Engagement der Teilnehmenden beein-
+druckt und dankt allen Projektverfassenden für ihre wertvolle Arbeit. Das vielfältige
+Spektrum an Projektvorschlägen sowie das damit verbundene Ausloten der tole-
+rablen Grenzen boten eine beachtenswerte Grundlage für intensive Diskussionen
+und brachten Erkenntnisse für die Weiterbearbeitung und Realisierung des Bauvor-
+habens hervor. Die Gegenüberstellung der Projekte zeigte, dass die Erfüllung der
+speziellen Projektanforderungen sowie der rechtlichen und betrieblichen Vorgaben
+eine besondere Herausforderung darstellten.
+
+Die Jury würdigt den einstufigen Projektwettbewerb im offenen Verfahren, der eine
+Vielzahl an Lösungsansätzen für die umfassende Aufgabe aufzeigte.
+
+Die Veranstalterin bedankt sich an dieser Stelle bei sämtlichen Teams für ihre
+engagierten, qualitativ wertvollen und innovativen Beiträge. Sie dankt dem Preis­
+gericht, den Expertinnen und den Experten für den fachkompetenten Beitrag
+sowie für die intensive Auseinandersetzung mit dem Neubau der Kantonsschule
+Zimmerberg.
+
+
+
+
+14
+                                                            Projektwettbewerb
+
+
+
+
+Genehmigung
+Der vorliegende Bericht wurde von der Baudirektion Kanton Zürich als Veranstalte-
+rin, vertreten durch das Hochbauamt, in Absprache mit allen Mitgliedern des Preis-
+gerichtes genehmigt.
+
+
+
+
+Fachpreisgericht
+
+
+
+
+David Vogt (Vorsitz)                                Jeannette Kuo
+stv. Kantonsbaumeister,                             Architektin,
+Hochbauamt                                          Karamuk Kuo Architekten GmbH
+
+
+
+
+Jan Kinsbergen                                      Klaus Müller
+Architekt,                                          Landschaftsarchitekt,
+Jan Kinsbergen Architects Ltd.                      Müller Illien Landschaftsarchitekten
+
+
+
+
+Marius Hug (Ersatz)                                 Tamara Schubiger (Ersatz)
+Architekt,                                          Architektin,
+Michael Meier Marius Hug Architekten AG             Jonas Wüest Architekten GmbH
+
+
+
+
+Sachpreisgericht
+
+
+
+
+Sandra Mischke                                      Susanne Groux
+Abteilungsleiterin Bauten,                          Portfoliomanagerin Bereitstellung,
+Generalsekretariat der Bildungsdirektion            Immobilienamt
+
+
+
+
+Alexandra Siegrist-Tsakanakis
+Rektorin,
+Kantonsschule Zimmerberg
+
+
+
+
+                                                                               15
+                                      Die prämierten Projekte
+
+
+
+
+          1. Rang               Die Klarheit dieses Projektvorschlags ist beeindruckend. Mit der eingängigen For-
+                                mulierung « Schulhaus in der Landschaft – Landschaft im Schulhaus » bringen die
+          Projekt Nr. 46 Verfassenden ihre architektonische Absicht auf den Punkt : Auf städtebaulicher
+                 NIAGARA Ebene definiert das neue Volumen den Ort und erweitert den Park – im Inneren bil-
+                                det die geschickte räumliche Verbindung des Au-Platzes mit dem Au-Park über die
+                    Architektur kollektiven Räume wie Aula, Kulturraum, Mensa und Aufenthalt das Herzstück der
+Gunz & Künzle Architekten GmbH
+            Manessestrasse 170 Schule und verleiht dem Projekt seinen Namen.
+                     8045 Zürich
+                        Mitarbeit     Elegant und schlicht schliesst das kompakte Schulhaus die Gesamtanlage des
+                   Gilles Gasser,     « AuPark » zur Seestrasse hin ab und prägt das neue Gesicht des transformierten
+                       Jiro Akita,    Gewerbeareals. Der Hauptzugang befindet sich wie die Eingänge der benachbarten
+                  Mathias Gunz,
+                  Michael Künzle      Gebäude am Au-Platz und führt die Vorzone mit repräsentativen Eingangsberei-
+                                      chen, Aufenthalts- und Verkehrsflächen adäquat weiter. Neben einer Direktverbin-
+           Bauingenieurwesen          dung auf die Au-Terrasse sind hier Veloabstellplätze, die Anlieferung und die Einfahrt
+         Pirmin Jung Schweiz AG
+              Bahnhofstrasse 86       zur ­Tiefgarage selbstverständlich in die Platzgestaltung eingebunden. Freiräume
+                 8500 Frauenfeld      mit direktem Bezug zu den Schulnutzungen wie die Aussenbereiche der Mensa, ein
+                        Mitarbeit     Freiluftklassenzimmer oder der Sportplatz sind in den bis zum Schulhaus erwei-
+                  Matthias Müller     terten Au-Park integriert und prägen diesen als weitere, öffentlich zugängliche
+       Landschaftsarchitektur         Bereiche mit einladender Atmosphäre mit. Die Interpretation der Schulanlage als
+                    Uniola AG         lebendige, gemischt genutzte Landschaft überzeugt insbesondere im Gesamt­
+               Bergstrasse 50         zusammenhang mit der Nachbarschaft « AuPark ».
+                  8032 Zürich
+                        Mitarbeit     Im Innern untermalen grosse Gesten auf verschiedenen Geschossen das Verständ-
+                Patrick Altermatt
+                     Nina Ziegler     nis der Schule als gemeinschaftliche Lehr- und Lernlandschaft. Die bereits erwähnte
+                     Marie Lintel     Verbindung der beiden Eingangsebenen über eine raumgreifende Treppenkaskade
+     HLKKSE-Ingenieurwesen
+                                      bietet sich als Ort der Begegnung mit hoher Aufenthaltsqualität an. Zwei offene,
+    Amstein + Walthert AG Zürich      das grosszügige Atrium in den obersten Geschossen überspannende Lernzentren
+               Andreasstrasse 5       ergänzen das Raumangebot mit Arbeitsplätzen an spektakulärer Lage und verkür-
+                    8500 Zürich
+                                      zen die Distanz zwischen den pragmatisch umlaufenden Klassenzimmern. Weiter
+                        Mitarbeit     ergänzen zwei in den Luftraum gesetzte Wendeltreppen die sehr funktional aus­
+                    Patrick Stierli
+                                      gebildeten Treppenkerne und verbinden die Einheit der Unterrichtsbereiche auf
+     Brandschutz / Bauphysik /        spielerische Weise mit Vertikalverbindungen, die das Atrium erlebbar machen. Ein-
+Akustik / Konstruktiver Holzbau       blicke und Durchblicke prägen die trotz einfacher räumlicher Prinzipien vielfältige
+          Pirmin Jung Schweiz AG
+               Bahnhofstrasse 86      Innenwelt des Schulhauses, wobei die konsequente Modularität die Nutzungsof-
+                  8500 Frauenfeld     fenheit und freie Bespielbarkeit der Schulgeschosse auch langfristig gewährleistet.
+                        Mitarbeit
+                      Lars Weber      Neben der geschickten Konzentration des Raumprogramms im sechsgeschos-
+                                      sigen Volumen verweist auch die räumliche Entkoppelung der Sportanlage auf
+                                      die konsequent lösungsorientierte Entwurfshaltung. Die Integration der Hallen
+                                      mit gros­sen Spannweiten im nicht überbauten Sockel ist konstruktiv sinnvoll und
+                                      trägt zur moderaten Erscheinung des Gebäudevolumens bei. Folgerichtig nimmt
+                                      das Turnhallendach mit der Aussensportanlage und der Mensaterrasse die in ihrer
+                                      Ausdehnung minimierten befestigten Flächen auf, während die nicht unterbauten
+                                      Freiraumbereiche für Retentionsmulden, hochstämmige Bäume und artenreiche
+                                      Wiesen- und Hochstaudenflächen zur Verfügung stehen.
+
+                                      Dem modularen Raumkonzept entsprechend wird das Schulhaus als Holzsystem-
+                                      bau mit angemessenen Spannweiten und direkter Lastabtragung konzipiert. Das
+                                      auf wenigen, einfachen Details beruhende Tragwerk und gut integrierte Massnah-
+                                      men zur Gewährleistung eines angenehmen Raumklimas zeichnen die Konstruktion
+                                      der über dem Terrain liegenden Gebäudeteile aus. Die Untergeschosse, die Turn-
+                                      halle und statisch wirksame Elemente wie die Treppenhauskerne oder die Abfang-
+                                      decke über der Aula werden in Massivbau ausgeführt. Die Pfosten-Riegel-Fassade
+                                      aus Holz bildet das modulare Konstruktionsprinzip auch nach aussen hin ab. Ver-
+                                      glaste und opake Elemente in Holz rhythmisieren das durch vorgehängte Stoffmar-
+                                      kisen bespielte Erscheinungsbild und verleihen dem Gebäude eine zurückhaltende
+                                      Präsenz.
+
+
+
+
+                                      16
+                                                       Die prämierten Projekte
+
+
+
+
+Der minimierte Massivbauanteil und ein hoher Wiederholungs- und Vorfertigungs-
+grad für die in Trockenbauweise erstellten Konstruktionen ermöglichen eine effizi-
+ente Erstellung innerhalb des ambitionierten Kostenrahmens. Sorgfältig entkoppelte
+Primär-, Sekundär- und Tertiärstrukturen, getrennte Systeme und sichtbar geführte
+Medien gewährleisten die Zugänglichkeit der Bauelemente, ermöglichen Anpas-
+sungen im Betrieb oder den Rückbau des Gebäudes und die Wiederverwendung
+der auf Dauerhaftigkeit ausgelegten Materialien. Die Reduktion der gebäudetechni-
+schen Installationen auf ein sinnvolles und unterhaltsarmes Minimum und der Einbe-
+zug natürlicher Be- und Entlüftung sowie witterungsgeschützter Nachtauskühlung
+leisten einen wesentlichen Beitrag zur ressourcenschonenden Bewirtschaftung des
+Gebäudes. Als einzige Konzession an den möglichst sparsamen Einsatz technolo-
+gisierter Lösungen wird der Brandschutz des raumprägenden, über alle Geschosse
+offenen Atriums durch eine aufwendige Löschanlage gewährleistet.
+
+Mit der ausgewogenen Balance zwischen gezielten ortspezifischen Massnahmen
+im Sockelbereich und der in hohem Mass prototypisch ausformulierten, seriel-
+len Raum- und Gebäudestruktur der Unterrichtsgeschosse erfüllt das Projekt
+­« NIAGARA» die anspruchsvollen Anforderungen der « Schulbauten der Zukunft »
+ sowohl in schulischer als auch in baulicher Hinsicht überwiegend elegant und
+ souverän. Gleichzeitig gelingt es den Verfassenden, mit dem auf jedem Geschoss
+ unterschiedlich erlebbaren Atrium als verbindende Mitte und der unaufgeregten
+ Einbettung des schlichten, jedoch prägnanten Baukörpers in seine direkte Nach-
+ barschaft überzeugende Bilder für die zukünftige Lehr- und Lernlandschaft zu
+ zeichnen, die in einer nachhaltigen Grundhaltung verwurzelt sind.
+
+
+
+
+Modellfoto
+
+
+
+                                                                               17
+                    Die prämierten Projekte
+
+
+
+
+Situation 1: 1500
+
+
+
+
+Aussenansicht
+
+
+
+                    18
+                              Die prämierten Projekte
+
+
+
+
+                                    Innenansicht
+
+
+
+
+Konstruktionsschnitt 1: 100
+
+
+
+                                                   19
+                         Die prämierten Projekte
+
+
+
+
+2. Obergeschoss 1: 800
+
+
+
+
+Erdgeschoss 1: 800
+
+
+
+                         20
+                         Die prämierten Projekte
+
+
+
+
+4. Obergeschoss 1: 800         5. Obergeschoss 1: 800
+
+
+
+
+Längsschnitt 1: 800
+
+
+
+
+Querschnitt 1: 800
+
+
+
+                                              21
+                                               Die prämierten Projekte
+
+
+
+
+                   2. Rang             Die räumliche Idee des Projekts «MINERVA» lässt sich aus der prägnanten Schnitt-
+                                       perspektive herauslesen : Intelligent sind die kollektiven Räume in den unteren
+                  Projekt Nr. 06 Geschossen zu einem kompakten, dreidimensionalen Gefüge gestapelt und über
+                         MINERVA eine gut orchestrierte Raumsequenz schlüssig miteinander verbunden. Die in ein
+                                       die gesamte Gebäudetiefe einnehmendes Forum mündende Erschliessungsfigur
+         Architektur / Baumanagement bindet die Gebäudezugänge auf unterschiedlichen Niveaus beiläufig zusammen
+                   ARGE Michael Riker,
+     Balasingam Kunz Architekten GmbH, und verankert die Schule präzis in ihrer Nachbarschaft.
+           Gabriel Merkli, Florence Gilbert
+                            Kernstrasse 57     Das Schulhaus ist über den zum Haupteingang führenden Vorplatz an der Austrasse
+                               8004 Zürich
+                                               adressiert. Gleichzeitig knüpft es jedoch über weitere, den teilöffentlich genutzten
+                                   Mitarbeit   Räumen vorgelagerte Freiräume auf verschiedenen Ebenen direkt ans Weg- und
+     Sindusan Balasingam, Michael Riker,
+Gabriel Merkli, Cyril Kunz, Florence Gilbert   Freiraumnetz des Quartiers an. Der Au-Platz vor den Sporthallen, das Aussenfoyer
+                                               vor der Aula und der Pausenplatz am Au-Park vor der Mensa bieten sich für Nut-
+                     Bauingenieurwesen         zungsüberlagerungen und vielfältige Begegnungen an, auch über den Schulalltag
+               Dr. Deuring + Oehninger AG
+                          Römerstrasse 21      hinaus. Die städtebauliche Setzung des Baukörpers an der Austrasse vergrössert
+                           8401 Winterthur     den zentralen Parkraum. Gestalterisch orientieren sich der lang gestreckte Schul-
+                                 Mitarbeit     hausplatz im Übergang zum Au-Park und die in einem lockeren Baumhain unterge-
+               Bastian Leu, Tobias Glauser     brachte Sportfläche an der zentralen Wiesenfläche. Aussagen zum topografischen
+               Landschaftsarchitektur          Übergang zwischen Au-Promenade und Park fehlen, während auf der gegenüber-
+      Ganz Landschaftsarchitekten GmbH         liegenden Seite an der Austrasse der Velounterstand die Topografie zur Promenade
+                      Grubenstrasse 45         sinnfällig löst. Die Böschung südlich des Schulhauses wirkt als Übergang zur Pro-
+                             8045 Zürich
+                                               menade etwas gedrungen.
+                                 Mitarbeit
+                               Daniel Ganz
+                                               Grosse Freitreppen entlang des Baukörpers verbinden die Ebene des Au-Platzes mit
+                 HLKK-Ingenieurwesen           derjenigen des Au-Parks. Dieses Treppenformat findet sich im Innenraum wieder:
+         Kalt+Halbeisen Ingenieurbüro AG       Eine raffinierte Art, die Erschliessung über den Kontext adäquat zu lösen. Es ent-
+                         Albulastrasse 47
+                             8048 Zürich       steht ein räumlicher Fluss – innen wie aussen –, welcher betrieblich in den unteren
+                                 Mitarbeit
+                                               Geschossen sehr gut funktioniert. Anekdotisch wird die rationale Gebäudestruktur
+                             Roger Rotzler     durch weitere Treppenformate bespielt. Zwei aussen liegende Wendeltreppen, klei-
+                                               nere Niveausprünge überwindende Innentreppen im Forum oder aber die funktio-
+                            Brandschutz
+                              siQS GmbH        nalen Fluchttreppenhäuser an der Fassade bilden ein reichhaltiges Wegnetz, das
+                         Grubenstrasse 91      auch die drei identisch strukturierten Obergeschosse einbindet. Hier befinden sich
+                        8200 Schaffhausen      die Klassen- und Gruppenräume – leider oft mit der kürzeren Raumseite – an der
+                                Mitarbeit      Fassade, während die Lernzentren neben weiteren, durch Vorhänge abgetrennten
+                            Domagoj Lucic      Räumen um die zentralen Lichthöfe angeordnet sind. Obschon ein grosser Anteil
+              Bauphysik / Nachhaltigkeit       der Fassadenfläche der Lichthöfe von Schächten und Toilettenanlagen beansprucht
+                 Gartenmann Engineering        wird, ist die Belichtung der Unterrichtsbereiche mit einigen Ausnahmen ausrei-
+                       Cysatstrasse 23A        chend. Die auf den ersten Blick grosszügig anmutende offene Raumdisposition
+                             6004 Luzern
+                                               erweist sich allerdings bei genauerer Betrachtung als etwas willkürliche Ansamm-
+                                   Mitarbeit   lung unterschiedlichster Raumtypen ohne klare Trennung von Erschliessungs- und
+                               Attila Gygax
+                                               Unterrichtsbereichen. Das Potenzial der Lernzentren, die eigentlich die gesamte
+                                               Typologie der Unterrichtsgeschosse prägen könnten, wird nicht ausgeschöpft.
+
+                                               Pragmatisch und durchaus positiv erscheint die strukturelle Disposition. Die als
+                                               Skelettrahmenbau ausgebildete Primärstruktur aus Beton basiert auf einem konse-
+                                               quent durchgehenden Raster und nimmt ein Holz-Lehm-Deckensystem sowie nicht
+                                               tragende Wände auf. Sämtliche Nutzungen werden in das gleiche räumliche Sys-
+                                               tem eingebunden, in dem für grössere Spannweiten einfach höhere Träger gefer-
+                                               tigt werden. Diese Systemlösung ist robust und flexibel und könnte im Sinne eines
+                                               modularen Pilotprojektes weiterentwickelt werden.
+
+                                               Innovativ ist das Lüftungskonzept basierend auf der vertikalen Verteilung über Quell-
+                                               luft. Allerdings stellt sich die Frage, ob der konstruktive Anschluss von Stütze und
+                                               Träger bezüglich Flexibilität nicht zu unnötigen Einschränkungen führt und somit
+                                               der tragfähigen Gebäudestruktur widerspricht. Überlegungen zur Nachhaltigkeit
+                                               prägen mehrere Entwurfsentscheidungen. Die Kombination von Beton, Holz und
+                                               Lehm verspricht ein angenehmes Raumklima. Die freundliche, äussere Erscheinung
+                                               wird durch vorgelagerte vertikale Betonstützen, vertikale Holzverkleidungen sowie
+                                               horizontale PV-Brüstungselemente charakterisiert.
+
+
+
+
+                                               22
+                                                      Die prämierten Projekte
+
+
+
+
+Der Projektvorschlag ist sehr sorgfältig durchgearbeitet und von hoher Qualität.
+Viele, zum Teil auch komplexe, funktionale Anforderungen werden mit bewährten
+Mitteln souverän in räumlich attraktive Raumfolgen umgesetzt – im Aussenraum
+wie im Innenraum. Sowohl die Ebene der Seestrasse als auch jene des Au-Parks
+werden durch die Setzung und Organisation des Gebäudes architektonisch auf-
+gewertet. In Bezug auf die konfliktfreie Nutzung der Unterrichtsgeschosse bleiben
+jedoch zu viele Fragen ungelöst, einige Entscheidungen wirken eher zufällig. Die
+zahlreichen, in den Entwurf mit aufgenommenen Ideen verunklären die strukturelle
+Logik eher, anstatt aus ihr die tragenden Entwurfskriterien abzuleiten.
+
+
+
+
+Modellfoto
+
+
+
+                                                                              23
+                     Die prämierten Projekte
+
+
+
+
+Situation 1: 1500
+
+
+
+
+Schnittperspektive
+
+
+
+                     24
+                                Die prämierten Projekte
+
+
+
+
+                              Innenansicht
+
+
+
+
+                              Aussenansicht
+
+
+
+
+Konstruktionsschnitt 1: 100
+
+
+
+                                                    25
+                         Die prämierten Projekte
+
+
+
+
+2. Obergeschoss 1: 800
+
+
+
+
+Erdgeschoss 1: 800
+
+
+
+                         26
+                         Die prämierten Projekte
+
+
+
+
+4. Obergeschoss 1: 800         6. Obergeschoss 1: 800
+
+
+
+
+Ansicht West 1: 800
+
+
+
+
+Längsschnitt 1: 800
+
+
+
+                                              27
+                                                 Die prämierten Projekte
+
+
+
+
+                     3. Rang                     Der unerwartete und einzigartige städtebauliche Ansatz des Projekts «Stromboli»
+                                                 wurde von der Jury positiv aufgenommen. Die intelligente Neuinterpretation des
+                       Projekt Nr. 01            Sockels als neue, grosszügige und einladende Adresse an einer wichtigen Kreu-
+                          Stromboli              zung führte zu grundlegenden Diskussionen über die Rolle einer öffentlichen Schule
+                                                 in einem wachsenden Viertel und über die einer solchen Institution angemessene
+                              Architektur        und zeitgemässe architektonische Sprache. Während viele Projekte mit dem Mass-
+          Bischof Föhn Architekten ETH SIA
+                           Feldstrasse 133       stabssprung in Richtung Seestrasse zu kämpfen hatten – eine Schwierigkeit, die
+                               8004 Zürich       durch den zuweilen erdrückenden Sockel noch verstärkt wird –, soll durch die einfa-
+                                   Mitarbeit     che Geste der Neuausrichtung auf die Ecke, an der viele Schülerinnen und Schüler
+Rico Traxler, Norbert Föhn, Stephan Bischof,     mit dem Bus oder zu Fuss ankommen werden, ein Campus geschaffen werden, der
+Fabian Sauser, Konrad Höbel, Jonas Schüp-        für alle offen ist und dennoch seine Grenzen absteckt.
+                        bach, Lea Andermatt
+
+                          Baumanagement       Die durchlässige Ecke ist als überdachter Aussenraum ausgebildet, der einen gross-
+                          Jaeger Coneco AG    zügigen Innenhof umgibt. Dieser ist gleichzeitig Veloparkplatz und Begegnungsort
+                         Schindlerstrasse 26
+                                8006 Zürich   und wird auf mehreren Ebenen zum Eingang in den Campus. Das Gebäude fügt
+                                    Mitarbeit
+                                              sich durch diese architektonische Geste nahtlos in die Topografie der Austrasse ein
+                                   Ewa Keck und bleibt gegenüber den Nachbarn relativ niedrig. Es gelingt, klare Zugänge und
+               Kevin Amstadt, Patrick Burger Abgrenzungen zu schaffen, ohne eine Festung auszubilden.
+
+       Bauingenieurwesen / Brandschutz
+                     Atlas Tragwerke AG          Das Nutzungsprogramm für den Aussenraum wird auf verschiedenen Ebenen ange-
+                     Zähringerstrasse 37         boten. Die Adresse für Schule und Sport befindet sich am Au-Platz. Der Hauptzu-
+                             8001 Zürich
+                                                 gang erfolgt auf dem Niveau des Platzes über einen offenen, nicht unterbauten
+                                   Mitarbeit     und intensiv bepflanzten Innenhof. Von hier aus gelangt man über eine Rampe zur
+        Christian Baudet, Christoph Angehrn
+                                                 Terrasse auf dem Niveau der Mensa. Diese Ebene funktioniert als Verteiler, Aufent-
+                  Landschaftsarchitektur         haltsbereich und Aussenbereich der Mensa, wirkt aber für die Summe all dieser
+                 Appert Zwahlen Partner AG       Funktionen räumlich knapp bemessen. Ergänzt werden diese Nutzungen durch den
+                            Zugerstrasse 4
+                               6330 Cham         Sportplatz, der sinnigerweise an der Austrasse angeordnet ist, und die Dachgärten
+                                 Mitarbeit
+                                                 mit Schulgarten und Aussenunterricht. Unter anderem durch die Verknüpfung mit
+         Benjamin Gorzawski, Karin Meissle       Au-Terrasse und Au-Park fügt sich die Aussenraumgestaltung gut in das Gesamt-
+                                                 areal ein.
+                    HLKK-Ingenieurwesen
+                    Gruenberg + Partner AG
+                           Nordstrasse 31        Organisatorisch ist das Projekt in zwei Baukörper gegliedert. Zum Au-Park hin
+                               8006 Zürich       bildet ein viergeschossiger Klassenzimmertrakt den Abschluss, der eine klare
+                                     Mitarbeit   Adresse und Grenze definiert und gleichzeitig eine repräsentative Fassade zum
+Patric Baggi, Vineeth Kottarathil, Corinne Ott   öffentlichen Raum hin aufweist. Entlang der Au-Promenade fasst ein niedrigeres,
+                   Sanitäringenieurwesen         zweigeschossiges Volumen alle kollektiven Räume in einem Gebäude zusammen,
+                    Gruenberg + Partner AG       indem es die Mensa auf die Sporthalle stapelt und darüber einen Dachgarten mit
+                            Nordstrasse 31       Sportplätzen vorsieht. Die beiden Gebäude sind auf der Ebene der Seestrasse und
+                               8006 Zürich
+                                                 des Zwischengeschosses miteinander verbunden, um eine Allwetterverbindung zu
+                                    Mitarbeit    ermöglichen. Bemerkenswert ist auch der Verzicht auf Untergeschosse, was nicht
+               Patric Baggi, Stefan von Rotz,
+                          Jannik Lamprecht       nur die Kosten und die Bauzeit optimiert, sondern auch den Einsatz von Beton redu-
+                                                 ziert. Vor allem aber strahlt dieses Ensemble eine angemessene Präsenz aus, ohne
+                  Elektroingenieurwesen
+                  Schmidiger + Rosasco AG        monumental zu wirken, und reagiert über die Positionierung seiner Volumina auf
+                  Leutschenbachstrasse 95        intelligente Weise auf die Nachbargebäude. Allerdings führt die ortsbaulich attrak-
+                               8050 Zürich       tive, überschaubare Grösse des Gebäudes zu einer relativ konventionellen Anord-
+                                   Mitarbeit     nung der Klassenzimmer und einer räumlich stark definierten Disposition mit wenig
+  Michael Huber, Daniel Giacu, Antonio Mele      Spielraum für zukünftige Alternativen. Zudem sind die Haupttreppen und die Kollek-
+                                 Bauphysik       tivräume für die Schülerinnen und Schüler zu gering dimensioniert.
+                         Kuster + Partner AG
+                         Badenerstrasse 144 Konstruktiv ist der Klassentrakt überwiegend in Holzskelettbauweise ausgeführt,
+                                 8041 Zürich
+                                            während die unteren Geschosse aus Recyclingbeton bestehen. Da die oberen
+                                  Mitarbeit Geschosse überwiegend vorgefertigt und in Trockenbauweise inklusive Hohlkas-
+                 Jan De Vos, Barbara Grüter
+                                            tendecken gedacht sind, kann der Bauablauf optimiert werden. Die Rationalität
+                                            der Struktur basiert auf einem einfachen System, das dennoch eine Vielzahl von
+                                            Raumerlebnissen ermöglicht. So sind das doppelgeschossige Lernzentrum und die
+                                            kollektiven Räume in dasselbe Grundraster integriert wie die Klassenräume.
+
+
+
+
+                                                 28
+                                                       Die prämierten Projekte
+
+
+
+
+Der tektonische Ausdruck und das Bild der Fassade zeigen eine Leichtigkeit und
+Ungezwungenheit, die auf eine flexible, im Laufe der Zeit anpassbare Infrastruktur
+hinweisen. Die Trennung der Bauelemente ermöglicht eine einfache Wartung und
+Langlebigkeit im Einklang mit den Nachhaltigkeitszielen des Projekts. Als verpasste
+Chance wird hingegen die fehlende Integration des HLK-Konzepts in die – für eine
+leichte, innovative Low-Tech-Lösung prädestinierte – Gebäudestruktur erachtet.
+Fehlende Schächte und unterdimensionierte Technikräume verschärfen das Pro-
+blem zusätzlich.
+
+Die Jury würdigte insbesondere die sehr standortspezifische Interpretation dieses
+Projektvorschlags. Als Pilotprojekt für die « Schulbauten der Zukunft » suchte sie
+jedoch einen stärker systemorientierten Ansatz mit dem Potenzial, langfristig eine
+grössere Flexibilität und Vielfalt zu garantieren.
+
+
+
+
+Modellfoto
+
+
+
+                                                                                29
+                    Die prämierten Projekte
+
+
+
+
+Situation 1: 1500
+
+
+
+
+Projektübersicht
+
+
+
+                    30
+                                             Die prämierten Projekte
+
+
+
+
+                              Innenansicht
+
+
+
+
+Konstruktionsschnitt 1: 100   Aussenansicht
+
+
+
+                                                                 31
+                         Die prämierten Projekte
+
+
+
+
+2. Obergeschoss 1: 800
+
+
+
+
+Erdgeschoss 1: 800
+
+
+
+                         32
+                                                     Die prämierten Projekte
+
+
+
+
+4. Obergeschoss 1: 800                        5. Obergeschoss 1: 800           6. Obergeschoss 1: 800
+
+
+
+
+Ansicht West / Querschnitt Turnhalle 1: 800
+
+
+
+
+Ansicht Nord / Querschnitt Schulgebäude 1: 800
+
+
+
+                                                                         33
+                                              Die prämierten Projekte
+
+
+
+
+                  4. Rang            Das Projekt «HENRY» zeigt eine ausgeprägte Auseinandersetzung mit der vorgefer-
+                                     tigten Modulbauweise, die sowohl die äussere Gestaltung als auch die Innenräume
+                  Projekt Nr. 15 prägt. Das umfassende Raumprogramm wird in einem grossvolumigen Bau unter-
+                            HENRY gebracht, der sich in der nordwestlichen Ecke entlang der Kante des im Gestal-
+                                     tungsplan vorgegebenen Sockelbaus positioniert. Dies verleiht der Schule eine
+         Architektur / Baumanagement markante Adresse zur Seestrasse und zum Bahnhof hin.
+wulf architekten gmbh Stuttgart, Zweignie-
+                         derlassung Basel
+                       Breisachstrasse 66     Die Aussenräume um das Schulhaus werden als Erweiterung der im Masterplan
+                               8057 Basel     angelegten Freiflächen interpretiert. Während der Au-Platz nahtlos entlang des
+                                Mitarbeit     Sockels weitergeführt wird, erfährt der Au-Park durch die hangparallele Anordnung
+        Tobias Wulf, Jan-Michael Kallfass,­   des Baus eine seitliche Verlängerung, die zu einem zusammenhängenden, grossen
+                Gabriel Wulf, Anna Lenz,
+            Mona Nheili, Damla Kinasakal      Freiraum führt. Zur Austrasse hin bildet eine Treppenanlage die Verbindung zwi-
+                                              schen den beiden Ebenen. Der obere Pausenplatz wird sorgfältig als schulische
+                    Bauingenieurwesen         Aussenfläche gestaltet und mit unterschiedlichen Bereichen und Aufenthaltsqua-
+                     wh-p Ingenieure AG
+                           Malzgasse 20       litäten ausgestattet. Die Ausrichtung dieses Hauptpausenplatzes zu den Wohn-
+                             4052 Basel       bauten wird allerdings kritisch beurteilt. Die vorgeschlagene Begrünung über der
+                                 Mitarbeit    Turnhalle mit geringer Aufbaustärke lässt eine Baumpflanzung in diesem Bereich
+                            Martin Stumpf     unrealistisch erscheinen. Die Höhendifferenz zur angrenzenden Promenade wird
+                Landschaftsarchitektur        gekonnt durch in die Gestaltung integrierte Elemente wie eine Stützmauer, Treppen-
+                   Jacob Planung GmbH         anlagen, Sekundärbauten und die Entlüftung der Turnhalle aufgenommen. Leider
+                      Bättwilerstrasse 7      gelingt es nicht, den markanten Höhenversatz zur Au-Terrasse ebenso selbstver-
+                             4001 Basel
+                                              ständlich einzubinden.
+                                Mitarbeit
+                            Donald Jacob
+                                              Das Gebäude basiert auf einem quadratischen Raster, das durch die markanten
+              HLKKSE-Ingenieurwesen           Kreuzkopfstützen betont wird. Im Sockelgeschoss befinden sich die Aula und
+             Amstein + Walthert Basel AG      Musikräume, im Zwischengeschoss die Verwaltungs- und Schulleitungsräume. Die
+                 Henric Petri-Strasse 15
+                             4051 Basel       Turnhalle ist hangseitig unter dem Pausenplatz angeordnet und durch ein Oblicht
+                                 Mitarbeit
+                                              belichtet und entlüftet. Die Unterrichtsräume sind im 1. und 2. Obergeschoss
+        Stefan Oesterle, Carsten Schwarz,     untergebracht, während das 3. Obergeschoss den Naturwissenschaftsräumen vor-
+                            Michael Stähli    behalten ist. Die Zimmer sind ringförmig entlang der Fassade angeordnet, während
+             Energie und Klimatechnik         die grosse Mitte durch vier versetzt angeordnete Innenhöfe vertikal durchdrungen
+         Transsolar Energietechnik GmbH       wird. Diese zonieren zusammen mit den vier Kernbereichen, die Nasszellen und
+                           Curiestrasse 2     Fluchttreppen enthalten, das Gebäudeinnere und schaffen ein attraktives, span-
+                      70563 Stuttgart DE
+                                              nendes Raumgefüge. In den Unterrichtsgeschossen sind hier die Lernzentren und
+                                Mitarbeit     Gruppenräume untergebracht, deren räumliche Qualität und hohe Nutzbarkeit von
+                         Volkmar Bleicher
+                                              der Jury gelobt werden. Im Sockelgeschoss hingegen wirken die Lichtführung
+                                              sowie die Bäume in den tiefen Innenhöfen unglaubhaft. Zudem überschreiten die
+                                              Dachaufbauten der vier Lichthöfe die baurechtlich zulässige Gebäudehöhe.
+
+                                              Das Zentrum des Gebäudes wird durch eine offene, flachstufige, einläufige Treppe
+                                              geprägt, die mittig angeordnet ist und den Bewegungsfluss der Schülerinnen und
+                                              Schüler intuitiv aufnimmt. Sie führt die Ankommenden vom unteren Haupteingang
+                                              durch den zweigeschossigen Sockel zum Erdgeschoss und weiter in die Oberge-
+                                              schosse. Die Treppe bietet eine klare Orientierung innerhalb des Gebäudes und
+                                              verleiht dem Bau ein markantes, einprägsames Element. Die innere Organisation ist
+                                              stimmig und funktioniert betrieblich gut. Kritisiert wird jedoch die offene Anordnung
+                                              der Sammlungsräume im Naturwissenschaftsgeschoss und die nicht an die Sport-
+                                              halle angrenzenden Geräteräume.
+
+                                              Die Fassade des Gebäudes kombiniert Beton im Sockelbereich mit Holz in den
+                                              oberen Geschossen. Das äussere Erscheinungsbild wird durch die innere Struk-
+                                              tur geprägt, insbesondere durch die plastischen Stützenköpfe, die in der Fassade
+                                              sichtbar werden und dem Gebäude einen industriellen Charakter verleihen.
+
+                                              Das Tragwerk des Gebäudes ist in den Obergeschossen als vorgefertigter Holz­
+                                              skelettbau in Modulbauweise konzipiert, wobei einheitliche Elemente verwendet
+                                              und in sich biegesteif verbunden werden. Die Decken sind als Hohlkastenelemente
+                                              aus Holz vorgesehen, während im Sockelbereich Stahlbetonträger zum Einsatz
+                                              kommen. Das gewählte System überzeugt durch seine hohe Wiederverwendbarkeit
+                                              sowie die Möglichkeit einer flexiblen Erweiterung. Auch die Gebäudetechnik ist sehr
+                                              sorgfältig ausgearbeitet : Eine klare Systemtrennung ist gewährleistet und die zen-
+                                              tralen Steigzonen sind gut zugänglich geplant. Dank der gleichmässigen Struktur
+                                              lässt sich die Gebäudetechnik gut anpassen.
+
+
+
+
+                                              34
+                                                       Die prämierten Projekte
+
+
+
+
+Die vorgeschlagene Nutzung der Innenhöfe als Solarkamine mit Erdregister, die eine
+natürliche Belüftung der Innenräume unterstützen und den Einsatz von Lüftungs­
+anlagen reduzieren, wird als sehr positiver und innovativer Ansatz bewertet. Aller-
+dings ist der Glasanteil des Gebäudes sehr hoch, was sich negativ auf die Bau-
+kosten und die graue Energie auswirkt. Zudem erschweren die Eckverglasungen
+die Gewährleistung des sommerlichen Wärmeschutzes. Zusammen mit dem über-
+durchschnittlich grossen, unterirdischen Bauvolumen und den Betonelementen an
+der Sockelfassade führt dies zu einem deutlich höheren Ressourcenverbrauch.
+
+Das Projekt «HENRY» ist ein sorgfältig ausgearbeiteter und wertvoller Beitrag zum
+Thema der modularen Systembauweise. Die einheitlichen Elemente bilden zusam-
+men mit der Gebäudetechnik ein gut durchdachtes, anpassungsfähiges System.
+Die architektonischen Elemente im Innenraum werden geschickt eingesetzt und
+schaffen ein spannungsvolles und überzeugendes Raumangebot. Die Lernzen-
+tren sind mustergültig angeordnet und bieten optimale Voraussetzungen für den
+Unterricht sowie individuelles und gemeinschaftliches Lernen. Der Hauptnutzflä-
+chenanteil ist jedoch im Verhältnis zur Geschossfläche ungünstig niedrig. «HENRY»
+schneidet daher im Vergleich zu den anderen Projekten als eines der kosteninten-
+sivsten ab und liegt in Bezug auf die Nachhaltigkeit im unteren Durchschnitt. Trotz
+hoher architektonischer Qualitäten bleibt das Projekt daher in der Gesamtbewer-
+tung hinter den anderen Beiträgen zurück.
+
+
+
+
+Modellfoto
+
+
+
+                                                                                35
+                    Die prämierten Projekte
+
+
+
+
+Situation 1: 1500
+
+
+
+
+Projektübersicht
+
+
+
+                    36
+                                Die prämierten Projekte
+
+
+
+
+                              Innenansicht
+
+
+
+
+                              Aussenansicht
+
+
+
+
+Konstruktionsschnitt 1: 100
+
+
+
+                                                    37
+                         Die prämierten Projekte
+
+
+
+
+2. Obergeschoss 1: 800
+
+
+
+
+Erdgeschoss 1: 800
+
+
+
+                         38
+                         Die prämierten Projekte
+
+
+
+
+5. Obergeschoss 1: 800
+
+
+
+
+4. Obergeschoss 1: 800
+
+
+
+
+Querschnitt 1: 800
+
+
+
+
+Längsschnitt 1: 800
+
+
+
+                                             39
+                                                Die prämierten Projekte
+
+
+
+
+                    5. Rang                     Der Entwurf «PAS DE TROIS» gruppiert drei Baukörper um einen zentralen Hof, der
+                                                als Verteilraum und Aufenthaltsraum dient. Durch die erhöhte Lage des Pausenhofs
+                      Projekt Nr. 30            eröffnen sich den Nutzerinnen und Nutzern weite Blicke über die Seelandschaft.
+                     PAS DE TROIS               Der westliche Abschluss der Gesamtüberbauung wird durch den öffentlichen Trakt
+                                                mit Zugang zu den Sporthallen, der Mensa und der Aula auf Pausenhofniveau gebil-
+                              Architektur       det. Die Anordnung des Aussensportplatzes auf dem Dach, eingefasst von einer fili-
+                       MAK architecture AG
+                          Ankerstrasse 53       granen Einfriedung, hebt die öffentliche Bedeutung dieses Teils des Projekts hervor
+                               8004 Zürich      und schafft eine markante Adressbildung an dieser exponierten Lage. Entlang der
+                                    Mitarbeit   Seestrasse bildet der Schultrakt mit Blickbezug zum Bahnhof einen städtebaulich
+      Marcia Ackermann, Mirko Ackermann,        sinnfälligen Auftakt für die Gesamtanlage « AuPark ».
+               Alain Vorlet, Pacific Nkiambi
+
+                         Baumanagement          Der Pausenhof wird von zwei identisch gestalteten Schultrakten gefasst : Schul­
+                Laterza Graf Baupartner AG      trakt 1 schliesst die Anlage im Süden entlang der Au-Promenade ab, während
+                        Beckenhofstrasse 6      der fünfgeschossige Schultrakt 2 eine räumliche Verbindung zum angrenzenden
+                               8006 Zürich
+                                                Au-Park schafft. Die gestaffelte Höhenentwicklung der Gebäude berücksichtigt
+                                  Mitarbeit     das heterogene Umfeld: Im Süden befinden sich Wohnbauten, während der Au-
+                   Gian Piero Laterza-Peter
+                                                Park im Osten weitläufig ist. Der Abstand zwischen den Gebäuden schafft eine
+                      Bauingenieurwesen         präzise Anbindung an die Alte Landstrasse im Süden und verleiht der Schulanlage
+                           Ingeni AG Zürich
+                       Technoparkstrasse 1      eine klare Struktur.
+                               8005 Zürich
+                                  Mitarbeit     Die differenzierte Adressierung der Zugänge – mit der Sporthallenzufahrt und Velo-
+                          Francesco Snozzi      parkierung am Au-Platz sowie dem Zugang zum Pausenhof an der Austrasse –
+                                                stellt eine logische Antwort auf die topografischen Herausforderungen dar. Dabei
+                Landschaftsarchitektur
+              USUS Landschaftsarchitektur       wird die Gestaltung des Au-Platzes mit dem Zugang zur Sportnutzung als Vorzone
+                        Bäckerstrasse 40        entlang der Austrasse fortgeführt und leitet als weiterer Zugang in den zentralen
+                             8004 Zürich        Schulhof über. Der öffentliche Bereich wird durch eine sorgsam gestaltete Fassade
+                                    Mitarbeit   akzentuiert, die sowohl die Sporthallen belichtet als auch den Haupteingang mit
+               Roger Keller, Kitti Biró-Varga   einer grossen Wendeltreppe markiert, welche die Verbindung zwischen Au-Platz
+                 HLKKS-Ingenieurwesen           und Pausenhof herstellt. Eine zusätzliche, aussen liegende Wendeltreppe unter-
+Hochstrasser Glaus & Partner Consulting AG      stützt die Vernetzung zwischen diesen Bereichen. Im Sinne einer funktionalen Ent-
+                    Max-Högger-Strasse 6
+                               8048 Zürich      flechtung wird die Einfahrt zur Parkgarage unauffällig an der Stirnseite des südli-
+                                                chen Baukörpers entlang der Austrasse angeordnet. Diese Vielzahl an Zugängen
+                                   Mitarbeit
+                                 Peter Glaus    und ihre klare Hierarchisierung sind Ausdruck einer sorgfältigen Analyse des Stand-
+                                                orts und führen zu einer vielfältigen Vernetzung der Schulanlage. Insbesondere das
+                  Elektroingenieurwesen         Zurücksetzen des östlichen Schultraktes von der Sockelbegrenzung schafft eine
+                       IBG Engineering AG
+                     Hintermühlenstrasse 4      fliessende Verbindung zwischen dem Au-Park und dem Schulhof entlang der zur
+                           8409 Winterthur      Seelandschaft ausgerichteten Terrasse des Sockelbauwerks.
+                                   Mitarbeit
+                            Marcel Ebnöther     Das «PAS DE TROIS» der drei Baukörper um den zentralen Schulhof wird durch
+                              Brandschutz
+                                                aussen liegende Brücken zwischen den Gebäuden betont. Die einfache Typolo-
+                             PROTEXON AG        gie der Raumstruktur als zweibündige Anlage wird durch diese Verbindungen auf
+                       St. Jakob-Strasse 41     den Geschossen miteinander vernetzt. Die Lernzonen, als offene Unterrichtsräume
+                              4132 Muttenz
+                                                konzipiert, sind alternierend entlang der etwas breiteren Erschliessungsflächen
+                                   Mitarbeit    angeordnet. Diese Raumkonzeption erwartet keine Innovationen in Bezug auf neue
+                          Matthias Bosshart
+                                                Unterrichtsformen, sondern entspricht eher einem Anspruch an einfache und klare
+                                                räumliche und tragwerksplanerische Strukturen.
+
+                                                Die Tragstruktur selbst ist als Hybridkonstruktion ausgearbeitet und bis ins Detail
+                                                sorgfältig konzipiert. Aspekte wie Systemtrennung, Rückbaubarkeit, Effizienz und
+                                                Modularität des Holzskeletts mit Hybriddeckenplatten sind präzise nachgewie-
+                                                sen. Die Konstruktion ermöglicht eine flexible Anordnung der Raumprogramme
+                                                und sorgt für eine effiziente Lastabtragung, was sich am Beispiel des öffentlichen
+                                                Schultraktes mit der Aula und der darunterliegenden Turnhalle zeigt. Ortbeton wird
+                                                für eine Reduktion des ökologischen Fussabdrucks nur minimal eingesetzt – in den
+                                                Treppen­häusern und den erdberührten Bauteilen. Der architektonische Ausdruck
+                                                wird durch die Verwendung von Holz, durch die sorgfältige Strukturierung durch
+                                                Lisenen, den Rhythmus des Tragwerkes, die Modularität und den konstruktiven
+                                                Holzschutz aus PV-Modulen bestimmt.
+
+
+
+
+                                                40
+                                                       Die prämierten Projekte
+
+
+
+
+Das Projekt will ein Gemeinschaftsgefühl schaffen, indem der zentral gelegene
+Schulhof sinnvoll mit dem Sockelbauwerk und dem angrenzenden Au-Park verbun-
+den wird. Die Adressbildung erfolgt mit klarer Gewichtung am Au-Platz, während
+sekundäre Zugänge entlang der Austrasse und dem Au-Park ebenfalls berücksich-
+tigt werden.
+
+Im Inneren bleibt die Gestaltung der Erschliessungsstruktur mit einer linearen Auf-
+reihung der Unterrichtsräume konventionell, was wenig Raum für Innovation im
+Innenraum zulässt. Lediglich im Bereich der überhohen Mensa und des Kultur-
+raums wird das räumliche Potenzial deutlicher sichtbar.
+
+Die Brücken zwischen den Gebäuden wirken in ihrer Ausführung eher als zusätzliche
+Elemente und nicht als zwingend notwendige Bestandteile der Gesamtkonzeption.
+Der auf dem Dach des Schultrakts gelegene Sportplatz, während er das Projekt in
+seiner öffentlichen Funktion stärkt, schwächt gleichzeitig die zentrale Bedeutung
+des Schulhofs, da seine Erreichbarkeit und Nutzung umständlich erscheinen.
+
+
+
+
+Modellfoto
+
+
+
+                                                                                41
+                                   Die prämierten Projekte
+
+
+
+
+Situation 1:1500
+
+
+
+
+Nachhaltigkeit / Kostenreduktion
+
+
+
+                                   42
+                                Die prämierten Projekte
+
+
+
+
+                              Innenansicht
+
+
+
+
+                              Aussenansicht
+
+
+
+
+Konstruktionsschnitt 1: 100
+
+
+
+                                                    43
+                         Die prämierten Projekte
+
+
+
+
+4. Obergeschoss 1: 800
+
+
+
+
+2. Obergeschoss 1: 800
+
+
+
+                         44
+                         Die prämierten Projekte
+
+
+
+
+1. Obergeschoss 1: 800
+
+
+
+
+Längsschnitt 1: 800
+
+
+
+
+Querschnitt 1: 800
+
+
+
+                                             45
+                                                    Die weiteren Projekte
+
+
+
+
+                          Projekt Nr. 02
+                                   PIAF
+                               Architektur
+      Krecl Lamoth Reimann + Halter Hunziker,
+                     8832 Wilen bei Wollerau
+Mitarbeit : Patrick Krecl, Tibor Lamoth, ­Andreas
+      Reimann, Thomas Halter, Woonjung Park
+                            Baumanagement
+                Halter Hunziker Architekten AG,
+                         8640 Rapperswil-Jona
+                   Bauingenieurwesen
+      SCHNETZER PUSKAS INGENIEURE AG,
+                           8003 Zürich
+                    Landschaftsarchitektur
+                   Karl Landschaftsarchitektur,
+                           80799 München DE
+                  HLKKSE-Ingenieurwesen
+     Amstein + Walthert AG Zürich, 8500 Zürich
+                               Brandschutz
+    AG für Holzbauplanung, 6418 Rothenthurm
+
+
+
+                          Projekt Nr. 03
+                             TRABANT
+                            Architektur
+      SAATSCHALLER GbR, 04177 Leipzig DE
+          Mitarbeit : Robert Saat, Felix Schaller
+                             Baumanagement
+               ffbk Architekten AG, 8047 Zürich
+                   Bauingenieurwesen
+      SCHNETZER PUSKAS INGENIEURE AG,
+                            4051 Basel
+                     Landschaftsarchitektur
+                        taktyk, 75010 Paris FR
+                  HLKKS-Ingenieurwesen
+    Wirkungsgrad Ingenieure AG, 6003 Luzern
+                  Elektro-Ingenieurwesen /
+                     MSRL-Ingenieurwesen
+               Boess + Partner AG, 8047 Zürich
+                                       Grafik
+        Marleen Clara Bauer, 04177 Leipzig DE
+
+
+
+
+                          Projekt Nr. 04
+                             Belvedere
+             Architektur / Baumanagement
+ Froelich & Hsu Architekten ETH/BSA/SIA AG,
+                                 8005 Zürich
+         Mitarbeit : Adrian Froelich, Martin Hsu,
+                               Julian Iseli-Degen
+                      Bauingenieurwesen
+       Ingenieurwesen für Bauwesen GmbH
+Schweickhardt Erchinger, 78532 Tuttlingen DE
+                   Landschaftsarchitektur
+    Eberle Landschaftsarchitektur, 8752 Näfels
+                    HLKKS-Ingenieurwesen
+                 Grunder AG Köniz, 3098 Köniz
+                   Elektro-Ingenieurwesen
+          IBG Engineering AG, 8409 Winterthur
+           Sicherheitstechnik / Brandschutz
+                        Siplan AG, 3014 Bern
+
+
+
+
+                                                    46
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 05
+                        LINK
+                        Architektur / Baumanagement
+                        STUDIOPEZ GmbH, 4057 Basel
+                        Mitarbeit : Isabela Avila Silva, ­Marcos
+                        ­Brugarolas, Paul Enze, Kateryna
+                         ­Chaplynska, Mike Nussberger, Diego Pena,
+                          Pedro Pena, Daniel Zarhy
+                        Bauingenieurwesen
+                        INGENI AG, 8005 Zürich
+                        Landschaftsarchitektur
+                        Chaves Biedermann GmbH, 4053 Basel
+                        HLKKSE-Ingenieurwesen
+                        ANIMA AG, 4051 Basel
+                        Brandschutz
+                        Rapp AG, 4018 Basel
+
+
+
+
+                        Projekt Nr. 07
+                        LILIENTHAL
+                        Architektur / Baumanagement
+                        Burkard Meyer Architekten BSA,
+                        5400 Baden
+                        Mitarbeit : Adrian Meyer, Oliver Dufner,
+                        Leon Bloch, David Eckert, Elene
+                        ­Giakoumaki, Pascal Vollmar, Thomas
+                         Wernli, Mischa Ayfer
+                        Bauingenieurwesen
+                        SCHNETZER PUSKAS INTERNATIONAL AG,
+                        4010 Basel
+                        Landschaftsarchitektur
+                        Maurus Schifferle Landschaftsarchitekt,
+                        3011 Bern
+                        HLKKSE-Ingenieurwesen
+                        3-Plan AG, 8404 Winterthur
+                        Bauphysik/Nachhaltigkeit
+                        Siplan AG, 3014 Bern
+
+
+
+
+                        Projekt Nr. 08
+                        Harry!
+                        Architektur
+                        ARGE Duelapis Architektur + Stefan Apitz
+                        Architektur, 4051 Basel
+                        Mitarbeit : Giusy La Licata,
+                        Luca Borlenghi, Stefan Apitz
+                        Baumanagement
+                        Baufeld AG, 9244 Niederuzwil
+                        Bauingenieurwesen
+                        co-struct AG, 8004 Zürich
+                        Landschaftsarchitektur
+                        METTLER Landschaftsarchitektur AG,
+                        9200 Gossau
+                        HLKKSE-Ingenieurwesen
+                        Aicher, De Martin, Zweng AG, 8045 Zürich
+                        Enerpeak AG, 8600 Dübendorf
+                        Brandschutzplanung
+                        Kasburg Siemon Ingenieure KIG, 4125 Riehen
+                        Verkehrsplanung
+                        Rapp AG, 4142 Münchenstein
+
+                  47
+                                                      Die weiteren Projekte
+
+
+
+
+               Projekt Nr. 09
+       A CLOCKWORK ORANGE
+                                 Architektur
+  ARGE Martin Gjoleka, Era Merkuri, ­Aleksandar
+      Todorov, Maša Mori, 76185 Karlsruhe DE
+         Mitarbeit : Martin Gjoleka, Era Merkuri,
+               ­Aleksandar Todorov, Maša Mori
+                           Baumanagement
+         Aigis Group GmbH, 70178 Stuttgart DE
+                          Bauingenieurwesen
+                       imagine structure GmbH,
+                    60329 Frankfurt am Main DE
+                Landschaftsarchitektur
+   LABORATÓRIUM ARCHITEKTÚRY KRAJINY
+                 s.r.o., 81107 Bratislava SK
+                   HLKKSE-Ingenieurwesen
+             Amstein + Walthert AG, 8050 Zürich
+                        Brandschutzplanung
+             Amstein + Walthert AG, 8050 Zürich
+
+
+
+
+                           Projekt Nr. 10
+                           wädi vidi vici
+                                 Architektur
+    Cukrowicz Nachbaur Architekten ZT GmbH,
+                            6900 Bregenz AT
+   Mitarbeit : A. Cukrowicz, A. Nachbaur-Sturm,
+               T. M. Schnell, R. Jakowski, T. Hölz,
+                            L. Richter, M. Stocker
+                             Baumanagement
+               Ghisleni Partner AG, 8002 Zürich
+                         Bauingenieurwesen
+          merz kley partner ag, 9423 Altenrhein
+                     Landschaftsarchitektur
+Mettler Landschaftsarchitektur AG, 9200 Gossau
+                  HLKKSE-Ingenieurwesen
+ Meierhans + Partner AG, 8603 Schwerzenbach
+           Schudel + Schudel, 8483 Kollbrunn
+         IBG Engineering AG, 8409 Winterthur
+               Nachhaltigkeit/Brandschutz
+             Transsolar Energietechnik GmbH,
+                          81549 München DE
+  Kasburg Siemon Ingenieure KIG, 4125 Riehen
+
+
+                           Projekt Nr. 11
+                              inside AUt
+              Architektur / Baumanagement
+              SSP Rüthnick Architekten GmbH,
+                              10999 Berlin DE
+                      Mitarbeit : Marius Scheffer,
+                    Dimitri Bohl, ­Paulene Kaiser,
+                 Hilke Leuchter, Evelyn Walendy
+                         Bauingenieurwesen
+                     CRP Bauingenieure GmbH,
+                              10589 Berlin DE
+                   HLKKSE-Ingenieurwesen
+               Ingenieurgesellschaft W33 mbH,
+                               10999 Berlin DE
+                                Visualisierung
+            Daniel Esser Architekturdarstellung,
+                             52066 Aachen DE
+
+
+
+
+                                                      48
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 12
+                        KAUZ
+                        Architektur / Baumanagement
+                        op-arch AG, 8047 Zürich
+                        Mitarbeit : Pablo Baumann, Samuel Benz,
+                        Manuel Kost, Reto Pfenninger, Stefan
+                        Willener
+                        Bauingenieurwesen
+                        Lüchinger Meyer Bauingenieure AG,
+                        8005 Zürich
+                        Landschaftsarchitektur
+                        Nipkow Landschaftsarchitektur AG,
+                        8008 Zürich
+                        HLKKSE-Ingenieurwesen
+                        eicher + pauli, 3014 Bern
+                        Brandschutzplanung
+                        siQS GmbH, 8200 Schaffhausen
+                        Visualisierung
+                        indievisual AG, 8004 Zürich
+
+
+
+
+                        Projekt Nr. 13
+                        BILLIE
+                        Architektur
+                        Aequipe GmbH, 4057 Basel
+                        Mitarbeit : Simon Davis, Lukas Manz,
+                        Anna Farquet, Barbara Thüler
+                        Baumanagement
+                        Perita AG, 8003 Zürich
+                        Bauingenieurwesen
+                        ZPF Structure AG, 4051 Basel
+                        Landschaftsarchitektur
+                        METTLER Landschaftsarchitektur AG,
+                        9200 Gossau
+                        HLKKSE-Ingenieurwesen
+                        Hefti. Hess. Martignoni. Aarau AG,
+                        5001 Aarau
+                        Bauphysik/Nachhaltigkeit
+                        Durable Planung und Beratung GmbH,
+                        8045 Zürich
+
+
+
+
+                        Projekt Nr. 14
+                        Beletage (1)
+                        Architektur
+                        Bauart Architekten und Planer AG,
+                        8004 Zürich
+                        Mitarbeit : R. Graf, S. Fuchs, P. C. Jakob,
+                        X. Temme, L. Ciak, M. Ringeisen, L. Gut
+                        Baumanagement
+                        PBK AG, 8006 Zürich
+                        Bauingenieurwesen
+                        EBP Schweiz AG, 8032 Zürich
+                        Landschaftsarchitektur
+                        Schrämmli Landschaftsarchitektur GmbH,
+                        5200 Brugg
+                        HLKKSE-Ingenieurwesen
+                        EBP Schweiz AG, 8032 Zürich
+                        Bauphysik / Nachhaltigkeit
+                        Raumanzug GmbH, 8003 Zürich
+                        Holzbauingenieur/Brandschutzplanung
+                        Makiol Wiederkehr AG, 5712 Beinwil am See
+
+
+                  49
+                                                 Die weiteren Projekte
+
+
+
+
+                      Projekt Nr. 16
+                          AVENTIN
+          Architektur / Baumanagement
+          Itten + Brechbühl AG, 4053 Basel
+  Mitarbeit : J. Andura, J. Brögger, L. Gilad,
+ M. Frei, P. Chan Woo, A. Passos, T. Heller,
+      M. Lourdes de Gertiser, G. Schnyder
+                    Bauingenieurwesen
+             ZPF Structure AG, 4051 Basel
+               Landschaftsarchitektur
+     Skala Landschaft Stadt Raum GmbH,
+                             8045 Zürich
+                  HLKK-Ingenieurwesen
+            Stokar+Partner AG, 4053 Basel
+               Sanitär-Ingenieurwesen
+Amstein + Walthert AG Zürich, 8050 Zürich
+               Elektro-Ingenieurwesen
+Amstein + Walthert AG Zürich, 8050 Zürich
+                            Brandschutz
+                       AFC AG, 8005 Zürich
+
+
+
+                      Projekt Nr. 17
+                          DOMINO
+        Architektur / Baumanagement /
+               Landschaftsarchitektur
+      Hurst Song Architekten, 8005 Zürich
+       Mitarbeit : Alex Hurst, James Smith,
+        Florian Johann, Alexandra Santos
+                  Bauingenieurwesen
+      HKP Bauingenieure AG, 8003 Zürich
+               HLKKS-Ingenieurwesen
+           Raumanzug GmbH, 8003 Zürich
+            Elektro-Ingenieurwesen
+ Thomas Lüem Partner AG, 8953 Dietikon
+             Bauphysik / Nachhaltigkeit
+           Raumanzug GmbH, 8003 Zürich
+
+
+
+
+                      Projekt Nr. 18
+                         KANTI AU
+         Architektur / Baumanagement /
+                Landschaftsarchitektur
+          Dimitri Thut GmbH, 8302 Kloten
+                      Mitarbeit : Dimitri Thut
+                     Bauingenieurwesen
+                 BJ Partner AG, 8308 Illnau
+               HLKKSE-Ingenieurwesen
+               Kevin Holbe, 8307 Effretikon
+
+
+
+
+                                                 50
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 19
+                        AUNIVERSE
+                        Architektur / Baumanagement /
+                        Landschaftsarchitektur
+                        ARGE atelier ww Architekten SIA AG &
+                        Hauswirth Architekten SIA GmbH,
+                        8045 Zürich
+                        Mitarbeit : Michael Frey, Stefan Hauswirth,
+                        Pol Mercadé, Leire Lamata, Luca Cesano
+                        Bauingenieurwesen
+                        Henauer Gugler AG, Ingenieure und Planer,
+                        8021 Zürich
+                        HLKKSE-Ingenieurwesen
+                        3-Plan AG, 8404 Winterthur
+                        Brandschutz
+                        4 Management 2 Security GmbH,
+                        8021 Zürich
+
+
+
+
+                        Projekt Nr. 20
+                        Sonic Youth
+                        Architektur
+                        KKWSM3W, 8032 Zürich
+                        Mitarbeit : Rico Oberholzer
+                        Bauingenieurwesen
+                        SCHNETZER PUSKAS INGENIEURE AG,
+                        8003 Zürich
+                        HLKKSE-Ingenieurwesen
+                        PZM Zürich AG, 8048 Zürich
+                        Nachhaltigkeit / Brandschutz
+                        Basler & Hofmann AG, 8032 Zürich
+
+
+
+
+                        Projekt Nr. 21
+                        ALLEGRO MA NON TROPPO
+                        Architektur
+                        GARBIZU COLLAR ARCHITECTURE KLG,
+                        4055 Basel
+                        Mitarbeit : Jon Garbizu Etxaide, Victoria
+                        ­Collar Ocampo, Cristina Rosa Cervelló
+                        Baumanagement
+                        Rapp AG, 4142 Münchenstein
+                        Bauingenieurwesen / Fassadenplanung
+                        Lüchinger + Meyer Bauingenieure AG,
+                        8005 Zürich
+                        Landschaftsarchitektur
+                        Etal, 8050 Zürich
+                        HLKKSE-Ingenieurwesen / Brandschutz
+                        Abicht Zug AG, 6300 Zug
+
+
+
+
+                  51
+                                                       Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 22
+                    pieno vuoto pieno
+                                   Architektur
+Galli Rudolf Architekten AG ETH BSA, 8003 Zürich
+           Mitarbeit : D. Luri, F. Nur Topbas, L. Xu
+                            Baumanagement
+ BGS & Partner Architekten AG, 8640 Rapperswil
+                         Bauingenieurwesen
+            Solubois ZH GmbH, 8400 Winterthur
+                       Landschaftsarchitektur
+               Chaves Biedermann Landschafts­
+             architekten GmbH, 8500 Frauenfeld
+                    HLKKSE-Ingenieurwesen
+               Waldhauser + Hermann Energie + ­
+     Haustechnik Ingenieure, 4142 Münchenstein
+           Gruenberg + Partner AG, 8006 Zürich
+              R+B Engineering AG, 8005 Zürich
+     Bauphysik/Nachhaltigkeit/Brandschutz
+     Bakus Bauphysik & Akustik AG, 8045 Zürich
+   4 Management 2 Security GmbH, 8021 Zürich
+
+
+
+                      Projekt Nr. 23
+                  Wimperfledermaus
+                                 Architektur
+                      WALDRAP AG, 8064 Zürich
+     Mitarbeit : Renate Walter, Sebastian Lippok,
+          Linus Huber, Fabian Gaile, Martin Wey
+                               Baumanagement
+                         Confirm AG, 8045 Zürich
+                          Bauingenieurwesen
+        Dr. Lüchinger + Meyer Bauingenieure AG,
+                                    8005 Zürich
+                        Landschaftsarchitektur
+      Atelier Oriri Landschaftsarchitekten GmbH,
+                                   6365 Kehrsiten
+                    HLKKSE-Ingenieurwesen
+                 JUNGENERGIE AG, 8050 Zürich
+                   GODE AG Zürich, 8048 Zürich
+    Bauphysik/Nachhaltigkeit/Brandschutz
+    Weber Energie und Bauphysik AG, 3011 Bern
+        Amstein + Walthert Bern AG, 3001 Bern
+
+
+
+
+                            Projekt Nr. 24
+                             der AUfstieg
+               Architektur / Baumanagement
+          NYX ARCHITECTS GmbH, 8004 Zürich
+             Mitarbeit : Nathanaël Chollet, Yann
+    ­Gramegna, Antonio Correia, Gonçalo Duarte
+                         Bauingenieurwesen
+                  WaltGalmarini AG, 8008 Zürich
+                    Landschaftsarchitektur
+     Andreas Geser Landschaftsarchitekten AG,
+                                 8004 Zürich
+                      HLKKS-Ingenieurwesen
+                  Müller.Bucher AG, 8048 Zürich
+                     Elektro-Ingenieurwesen
+                R+B engineering ag, 8005 Zürich
+
+
+
+
+                                                       52
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 25
+                        PLURIENNE
+                        Architektur / Baumanagement /
+                        Landschaftsarchitektur
+                        GNWA – Gonzalo Neri & Weck
+                        Architekten GmbH, 8005 Zürich
+                        Mitarbeit : Cristina Gonzalo Nogués,
+                        Markus Weck, Cloé Sermier, Anita Gustuti,
+                        Nicolò Lastrico, Alessandro Ricci
+                        Bauingenieurwesen
+                        Dr. Lüchinger + Meyer Bauingenieure AG,
+                        8005 Zürich
+                        HLKKSE-Ingenieurwesen
+                        PZM Zürich AG, 8048 Zürich
+
+
+
+
+                        Projekt Nr. 26
+                        VIERZIGECK
+                        Architektur / Baumanagement /
+                        Landschaftsarchitektur
+                        Studio Urbaite, 8006 Zürich
+                        Mitarbeit : João dos Santos, Marija Urbaite,
+                        Zeno Zanderigo, Eugenio Thiella
+                        Baumanagement
+                        VALKE GmbH, 6010 Kriens
+                        Bauingenieurwesen
+                        dsp Ingenieure + Planer AG, 8610 Uster
+                        HLKKSE-Ingenieurwesen
+                        Amstein + Walthert AG Zürich, 8050 Zürich
+
+
+
+
+                        Projekt Nr. 27
+                        Tom Bombadil
+                        Architektur / Baumanagement
+                        Liechti Graf Zumsteg Architekten
+                        ETH SIA BSA AG, 5200 Brugg
+                        Mitarbeit : Markus Busslinger, Marian Gerth,
+                        Walter Gloor, Andreas Graf, Peggy Liechti
+                        Bauingenieurwesen
+                        dsp Ingenieure + Planer AG, 8610 Uster
+                        Landschaftsarchitektur
+                        david & von arx landschaftsarchitektur,
+                        4500 Solothurn
+                        HLKKS-Ingenieurwesen / Gebäude­
+                        automation / Nachhaltigkeit / Brandschutz
+                        Abicht Zug AG, 6300 Zug
+                        Elektro-Ingenieurwesen
+                        Enerpeak AG, 8600 Dübendorf
+                        Visualisierung
+                        indievisual AG, 8004 Zürich
+
+
+
+
+                  53
+                                                    Die weiteren Projekte
+
+
+
+
+                         Projekt Nr. 28
+                          Baukasten+
+                                Architektur
+                       DÜRIG AG, 8004 Zürich
+      Mitarbeit : Guillermo Dürig, Alice Bidorini
+                         Baumanagement
+       Demmel & Partner Baumanagement AG
+                              8048 Zürich
+                        Bauingenieurwesen
+          Dr. Neven Kostic GmbH, 8002 Zürich
+                 Landschaftsarchitektur
+S2L GmbH Landschaftsarchitektur, 8048 Zürich
+                 HLKKSE-Ingenieurwesen
+           Amstein + Walthert AG, 8050 Zürich
+                              Generalplanung
+      uas ag – unternehmen für architektur und
+                     ­städtebau ag, 8004 Zürich
+
+
+
+
+                     Projekt Nr. 29
+                   weniger ist mehr
+                                 Architektur
+         Annette Gigon / Mike Guyer Dipl. Arch.
+                ETH/BSA/SIA AG, 8032 Zürich
+   Mitarbeit : Mike Guyer, Carlo Magnaguagno,
+           Elena Hofbeck, Celia Diederichsen,
+                               Stefan Thommen
+                         Baumanagement
+     Drees & Sommer Schweiz AG, 8003 Zürich
+                       Bauingenieurwesen
+                WaltGalmarini AG, 8008 Zürich
+                    Landschaftsarchitektur
+              Vogt Landschaftsarchitekten AG,
+                                 8006 Zürich
+                     HLKK-Ingenieurwesen
+     Waldhauser + Herrmann AG Ingenieurbüro
+           suisse.ing SIA, 4142 Münchenstein
+             Nachhaltigkeit / Brandschutz
+      Gartenmann Engineering AG, 3001 Bern
+
+
+
+
+                         Projekt Nr. 31
+                              EXEDRA
+                             Architektur
+                PARABASE GmbH, 4057 Basel
+                    Mitarbeit : Carla Ferrando,
+           Pablo Garrido Arnaiz, Joby Thoppil,
+             Gustavo Kubli, Valentin Dürselen
+                            Baumanagement
+                      Confirm AG, 8045 Zürich
+                        Bauingenieurwesen
+             Monotti Ingegneri Consulenti SA,
+                                6600 Locarno
+                   Landschaftsarchitektur
+    Skala Landschaft Stadt Raum, 8045 Zürich
+                     HLKK-Ingenieurwesen
+           Amstein + Walthert AG, 8050 Zürich
+                               Brandschutz
+                        RISAM AG, 4057 Basel
+
+
+
+
+                                                    54
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 32
+                        OBELIX
+                        Architektur / Baumanagement
+                        BUREAU FAB AG, 8005 Zürich
+                        Mitarbeit : Leandro Dietz, Nikola Endres,
+                        Elon Rachamin, Julian Fischer, Urban Blaas
+                        Bauingenieurwesen
+                        Dr. Lüchinger + Meyer, 8005 Zürich
+                        Landschaftsarchitektur
+                        SKK Landschaftsarchitekten AG,
+                        5430 Wettingen
+                        HLKKSE-Ingenieurwesen
+                        Gähler und Partner AG,
+                        5408 Ennetbaden
+
+
+
+
+                        Projekt Nr. 33
+                        AHA-MOMENT
+                        Architektur / Baumanagement
+                        P. Sulser Architektur GmbH, 8340 Hinwil
+                        Mitarbeit : Erik Fichter,
+                        Paweł Bejm, Rémi Jourdan
+                        Bauingenieurwesen
+                        Ferrari Gartmann AG, 7000 Chur
+                        Landschaftsarchitektur
+                        Beatrice Kiser, 8003 Zürich
+                        HLKKS-Ingenieurwesen
+                        RMB Engineering AG Zürich,
+                        8048 Zürich
+                        Elektro-Ingenieurwesen
+                        HGK Engineering AG Schlieren,
+                        8952 Schlieren
+                        Brandschutz
+                        AFC AG, 8005 Zürich
+
+
+
+
+                        Projekt Nr. 34
+                        YARD
+                        Architektur / Baumanagement
+                        wild bär heule Architekten AG,
+                        8008 Zürich
+                        Mitarbeit : Ivar Heule, Thomas Wild,
+                        Giorgio Turri, Helena Rempel
+                        Bauingenieurwesen
+                        Gruner AG, 4020 Basel
+                        Landschaftsarchitektur
+                        Uniola AG, 8032 Zürich
+                        HLKS-Ingenieurwesen
+                        3-Plan AG, 8404 Winterthur
+
+
+
+
+                  55
+                                                         Die weiteren Projekte
+
+
+
+
+                             Projekt Nr. 35
+                                PANGOLIN
+                            Architektur
+ HÖRNEROPREA Architekten GmbH, 4051 Basel
+Mitarbeit : C. Oprea, S. Hörner, M. Webb, V. Hollek
+                               Baumanagement
+                       Martin Schäfer, 4057 Basel
+                    Bauingenieurwesen
+       SCHNETZER PUSKAS INGENIEURE AG,
+                             4051 Basel
+                        Landschaftsarchitektur
+                               Estar, 1207 Genf
+                 HLKKSE-Ingenieurwesen
+       RMB Engineering AG Zürich, 8048 Zürich
+         HGK Engineering AG, 8952 Schlieren
+    Bauphysik/Nachhaltigkeit/Brandschutz
+          Gartenmann Engineering, 4052 Basel
+   A. Aegerter & Dr. O. Bosshard AG, 4052 Basel
+                         Akustik / Lärmschutz
+     Martin Lienhard – Büro für Bau- und Raum­-
+       akustik, Lärmschutz, 4438 Langenbruck
+
+
+                             Projekt Nr. 36
+                              Prometheus
+                                   Architektur
+    Dachtler Partner AG Architekten, 8036 Zürich
+    Mitarbeit : R. Pelizzari, O. Strebel, D. Prandini,
+                           M. Perkovic, M. Moonen
+                           Baumanagement
+       Caretta + Weidmann Baumanagement AG,
+                                 8047 Zürich
+                            Bauingenieurwesen
+                          Synaxis AG, 8050 Zürich
+                      Landschaftsarchitektur
+       vetschpartner Landschaftsarchitekten AG,
+                                   8001 Zürich
+                    HLKKSE-Ingenieurwesen
+                             HTR AG, 8050 Zürich
+                 maneth stiefel ag, 8952 Schlieren
+                     Bauphysik/Brandschutz
+            Kopitsis Bauphysik AG, 5610 Wohlen
+Zostera Brandschutzplanung GmbH, 8050 Zürich
+
+
+
+
+                          Projekt Nr. 37
+                        CHANDRASANA
+             Architektur / Generalplanung
+   PENZISBETTINI. Architekten ETH/SIA GmbH,
+                                 8002 Zürich
+                          Mitarbeit : Giulio Bettini,
+                     Daniel Penzis, Michiel Swerts
+                               Baumanagement
+                        Konstrukt AG, 8004 Zürich
+                           Bauingenieurwesen
+             Dr. Lüchinger + Meyer Ingenieure AG,
+                                      8005 Zürich
+                     Landschaftsarchitektur
+                 LAND Suisse Sagl, 6900 Lugano
+                      HLKKSE-Ingenieurwesen
+                        eicher + pauli, 4410 Liestal
+
+
+
+
+                                                         56
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 38
+                        Three-Body Problem
+                        Architektur / Baumanagement
+                        ARGE Guerra Clauss Architekt:innen SIA GmbH |
+                        Studio Hammer GmbH, 4056 Basel
+                        Mitarbeit : Ana Sofia Guerra,
+                        Arthur Clauss, Jan Skoček,
+                        Duarte Brito, Nuno Silva, Giona Badoni
+                        Bauingenieurwesen
+                        ZPF Structure AG, 4051 Basel
+                        Landschaftsarchitektur
+                        BÖE studio, 8005 Zürich
+                        HLKKS-Ingenieurwesen
+                        Waldhauser + Hermann AG, 4142 Münchenstein
+                        Elektro-Ingenieurwesen
+                        Pro Engineering AG, 4051 Basel
+                        Nachhaltigkeit
+                        Nova Energie Basel AG, 4056 Basel
+                        Brandschutz
+                        Quantum Brandschutz GmbH, 8047 Zürich
+
+
+
+                        Projekt Nr. 39
+                        palazzo modesto
+                        Architektur
+                        Notaton AG, 9450 Altstätten
+                        Mitarbeit : Aldo Duelli, Irene Duelli,
+                        Karin Locher
+                        Baumanagement
+                        Werkwert GmbH, 8753 Mollis
+                        Bauingenieurwesen
+                        Dr. Neven Kostic GmbH, 8002 Zürich
+                        Landschaftsarchitektur
+                        OePlan GmbH, 9450 Altstätten
+
+
+
+
+                        Projekt Nr. 40
+                        Basis
+                        Architektur
+                        Berrel Kräutler AG, 8045 Zürich
+                        Mitarbeit : Maurice Berrel, Simon Weber,
+                        ­Abinash Arumugavel, Florian Schmid,
+                         ­Tilmann Weissinger, Lukas Burkhard
+                        Bauingenieurwesen
+                        Ulaga Weiss AG, 4001 Basel
+                        Landschaftsarchitektur
+                        Byrum GmbH, 4057 Basel
+                        HLKKS-Ingenieurwesen
+                        Gruenberg + Partner AG, 8006 Zürich
+                        Elektro-Ingenieurwesen
+                        HKG Engineering AG, 8952 Schlieren
+                        Bauphysik / Nachhaltigkeit / Brandschutz
+                        Kuster Partner AG, 8853 Lachen
+
+
+
+
+                  57
+                                                   Die weiteren Projekte
+
+
+
+
+                       Projekt Nr. 41
+                      BELETAGE (2)
+    Architektur / Landschaftsarchitektur
+   BÜRO KONSTRUKT Architekten ETH SIA
+                        BSA, 6005 Luzern
+   Mitarbeit : S. Kurt, M. Gutzwiller, P. Egger,
+         A. Appel, S. Businger, F. Kaufmann
+                       Baumanagement
+     Büro für Bauökonomie AG, 6005 Luzern
+           Bau-/Holzbauingenieurwesen
+    Dr. Lüchinger + Meyer Bauingenieure AG,
+                               6005 Luzern
+      Pirmin Jung Schweiz AG, 6210 Sursee
+                HLKKSE-Ingenieurwesen
+                  eicher + pauli, 6010 Kriens
+              HGK Engineering AG Rotkreuz,
+                              6343 Rotkreuz
+                           Nachhaltigkeit
+      brücker + ernst gmbh sia, 6003 Luzern
+                         Visualisierungen
+        Night Nurse Images AG, 8005 Zürich
+
+
+                        Projekt Nr. 42
+                                AHOI
+                               Architektur
+          Atelier Anachron KLG, 8045 Zürich
+         Mitarbeit : Gregor Bieri, Jonas Brun
+                         Baumanagement
+                     Fanzun AG, 8003 Zürich
+                      Bauingenieurwesen
+                  SEFORB s.à r.l., 8610 Uster
+                Landschaftsarchitektur
+              Claudia Ernst & Jodok Imhof
+        Landschafts­architektur, 4045 Zürich
+                  HLKKS-Ingenieurwesen
+          Kalt + Halbeisen Ingenieurbüro AG,
+                                 5200 Brugg
+                Elektro-Ingenieurwesen
+           maneth stiefel ag, 8952 Schlieren
+                            Nachhaltigkeit
+         Büro für Nachhaltigkeit am Bau AG,
+                                 8045 Zürich
+
+
+
+                        Projekt Nr. 43
+                         Jules Verne
+          Architektur / Baumanagement
+ARGE Anaïs Architektur, Gebhard / Hoffmann
+       Architektur & Takt Baumanagement,
+                              8003 Zürich
+        Mitarbeit : Nina Bühlmann, Stephanie
+        Gebhard, Thomas Leder, Peter Siegl
+                        Bauingenieurwesen
+                       Ingeni AG, 8005 Zürich
+                Landschaftsarchitektur
+Zwischenraum Landschaftsarchitektur GmbH,
+                           8852 Altendorf
+                  HLKKS-Ingenieurwesen
+          Kalt + Halbeisen Ingenieurbüro AG,
+                                 5200 Brugg
+                 Elektro-Ingenieurwesen
+              Enerpeak AG, 8400 Winterthur
+
+
+
+
+                                                   58
+Die weiteren Projekte
+
+
+
+
+                        Projekt Nr. 44
+                        AUF KLEINEM FUSS
+                        Architektur
+                        Schneider Studer Primas Architekten GmbH,
+                        8005 Zürich
+                        Mitarbeit : Héloïse Mathey-Doret,
+                        Dirk Podbielski, Laura Moreda, Nan Wang,
+                        Fabio Isler, Urs Primas
+                        Baumanagement
+                        Proplaning AG, 8005 Zürich
+                        Bauingenieurwesen
+                        Caprez Ingenieure AG, 8003 Zürich
+                        Landschaftsarchitektur
+                        Skala Landschaft Raum Stadt GmbH,
+                        8045 Zürich
+                        HLKKSE-Ingenieurwesen
+                        GTI Solutions GmbH, 3005 Bern
+
+
+
+
+                        Projekt Nr. 45
+                        Schule in der Luft
+                        Architektur / Baumanagement
+                        ARGE Wolfgang Rossbauer + Florian Nagler,
+                        8004 Zürich
+                        Mitarbeit : Wolfgang Rossbauer,
+                        Florian Nagler, Isabella Liskow,
+                        Vicenzo Pagano, Max Nagler
+                        Bauingenieurwesen
+                        merz kley partner GmbH, 6850 Dornbirn AT
+                        Landschaftsarchitektur
+                        BEM Landschaftsarchitekten
+                        Stadtplaner Part mbB, 81254 München DE
+                        HLKKSE-Ingenieurwesen
+                        Transsolar Energietechnik GmbH,
+                        70563 Stuttgart DE
+
+
+
+
+                        Projekt Nr. 47
+                        Graf Tüpo
+                        Architektur / Baumanagement /
+                        Landschaftsarchitektur
+                        ARGE GEMELLI, 8003 Zürich
+                        Mitarbeit : Stephan Mauser,
+                        Gaëtan Iannone
+                        Bauingenieurwesen / Brandschutz
+                        Makiol Wiederkehr AG,
+                        5712 Beinwil am See
+                        HLKKSE-Ingenieurwesen
+                        Enerconom AG, 3012 Bern
+
+
+
+
+                  59
+                                   Impressum
+
+                                        Inhalt :
+                                  Denise Ulrich
+                       Fachstelle Wettbewerbe
+                    Hochbauamt Kanton Zürich
+
+                                   Modellfotos :
+                            Fabian Guggenbühl
+                Information und Dokumentation
+                    Hochbauamt Kanton Zürich
+
+           Gestaltung, Layout, Prepress / Druck :
+                  DT Druck-Team AG, Wetzikon
+
+                                       Auflage :
+                                 250 Exemplare
+
+                                Herausgeberin :
+© 2024 Baudirektion Kanton Zürich, Hochbauamt
+

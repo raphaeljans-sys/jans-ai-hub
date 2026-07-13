@@ -1,0 +1,2882 @@
+# Text-Extrakt (pdftotext -layout) — Quelle (Web, oeffentlich publiziert):
+# Quelle: https://www.stadt.sg.ch/home/raum-umwelt/ausschreibungen/wettbewerbe-hochbauamt/_jcr_content/Par/stsg_accordion_list/AccordionListPar/stsg_accordion/AccordionPar/downloadlist_1419375_909148486/DownloadListPar/stsg_download.ocFile/BOPP%20Tagesbetreuung%20Bericht%202022_hohe%20Aufl%C3%B6sung.pdf (Jurybericht 2022, 92 Seiten, abgerufen 2026-07-14)
+# Extrakt: pdftotext -layout, 92 Seiten, erstellt 2026-07-14
+              Tagesbetreuung
+                 Boppartshof
+⁄ Neubau Wolfgangstrasse 15 ⁄ Projektwettbewerb im offenen Verfahren
+   Bericht des Preisgerichts ⁄ Mai 2022 ⁄ Hochbauamt Stadt St.Gallen
+Impressum
+
+Herausgeberin
+Stadt St.Gallen Hochbauamt
+www.hochbauamt.stadt.sg.ch
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+Inhalt
+
+1    Einleitung                                                                    6
+
+2    Auftraggeberin und Verfahren                                                  7
+
+3    Ausgangslage und Ziele                                                        8
+
+4    Aufgabenstellung                                                             10
+
+5    Preisgericht                                                                 12
+
+6    Vorprüfung                                                                   13
+
+7    Beurteilung                                                                  14
+
+8    Überarbeitung                                                                19
+
+9    Rangierung                                                                   20
+
+10   Allgemeine Feststellungen                                                    21
+
+11   Empfehlungen und Genehmigung                                                 23
+
+12   Würdigung Projekte der engeren Wahl                                          25
+
+13   Alle Projekte                                                                65
+
+
+
+
+                                           Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+6
+
+
+
+
+             1 Einleitung
+
+             Im Westen der Stadt liegt in der beginnenden Hügellandschaft das familienfreundliche
+             Quartier Hinterberg-Wolfgang-Haggen. Die zentral gelegene campusartige Schulanlage
+             Boppartshof wurde in vorausschauender Planung 1965-1973 noch auf der grünen Wiese
+             erstellt, inzwischen ist das Schulareal von Wohnsiedlungen umgeben. Die Anlage ist für
+             22 Primarklassen ausgelegt. Die Anzahl Kinder, die das familienergänzende Betreuungs-
+             angebot nutzen möchten, steigt fortlaufend; 2009 wurde darum auf der Schulanlage ein
+             Pavillon für die Betreuung aufgestellt. Die Kapazität des bestehenden Raumangebots
+             reicht trotz zugemieteter Räume nicht mehr aus, die Nachfrage an Betreuungsplätzen
+             abzudecken. Deshalb plant die Stadt St.Gallen auf dem Schulareal einen Neubau für die
+             Betreuung, in vorteilhafter Nähe zu den Schulräumen und den bestehenden Sport- und
+             Spielflächen.
+
+             Qualitativ gute familienergänzende Betreuungsangebote beeinflussen die kindliche
+             Entwicklung positiv und leisten einen wichtigen Beitrag im Bereich der Gesundheitsför-
+             derung sowie der sozialen Integration. Für berufstätige Eltern ist es zudem zentral, ein
+             finanziell tragbares sowie schul- und wohnortnahes Betreuungsangebot für ihre Kinder
+             zur Verfügung zu haben.
+
+             Die Schulanlage Boppartshof der Basler Architekten Förderer, Otto und Zwimpfer ist
+             im Inventar der schützenswerten Bauten eingetragen. Der Aussenraum ist vielfältig
+             und sorgsam gegliedert. Dementsprechend behutsam muss ein neues Volumen für die
+             Tagesbetreuung eingefügt werden: Mit diesem offenen Projektwettbewerb wurde ein
+             betrieblich, architektonisch und städtebaulich überzeugender Neubau für die Betreuung
+             der Schülerinnen und Schüler aus dem Einzugsgebiet der Primarschule gesucht. Innova-
+             tive Lösungen waren willkommen.
+
+
+
+
+    Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                 7
+
+
+
+
+2 Auftraggeberin und Verfahren
+
+Die Stadt St.Gallen, vertreten durch das Hochbauamt, hat Architekturbüros zu einem
+anonymen Projektwettbewerb im offenen Verfahren eingeladen. Gesucht waren Realisie-
+rungsvorschläge für einen Neubau einer Tagesbetreuung im Boppartshof an der Wolf-
+gangstrasse 15 in St.Gallen.
+
+
+
+
+                                              Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+8
+
+
+
+
+             3 Ausgangslage und Ziel
+
+             In der Stadt St.Gallen ist die familienergänzende Betreuung ein zentrales familienpoliti-
+             sches Anliegen; sie hat eine lange Tradition. Die Qualität der Betreuung steht dabei im
+             Zentrum. Die Kinder werden von professionell ausgebildeten Personen begleitet, betreut
+             und gefördert. Dafür sind Räume nötig, die den Bedürfnissen der jungen Nutzerinnen
+             und Nutzer entsprechen. Kinder brauchen Raum um sich zu bewegen, um sich zurück-
+             zuziehen, um kreativ zu sein, Gesellschaft zu erfahren, Hausaufgaben zu machen, zu
+             plaudern, in überschaubaren Gruppen zu essen, sich draussen auszutoben.
+
+             Der Stadtrat hat 2017 dem Stadtparlament im Postulatsbericht «Planung und Ausbau
+             der FSA+ Angebote» die Stossrichtung für den Ausbau der Tagesbetreuung dargelegt.
+             Jedem Kind soll bei Bedarf bis 2026 ein Tagesbetreuungsplatz im entsprechenden Schul-
+             quartier zur Verfügung stehen. Die Angebote werden schrittweise ausgebaut.
+
+             Im Jahr 2003 wurde für das Schuleinzugsquartier Boppartshof ein eigenes Betreuungs-
+             angebot «FSA-freiwilliges Schulhausangebot» mit begrenzten Öffnungszeiten eingeführt
+             in Mieträumen, welche auch durch die Musikschule genutzt wurden. Die Nachfrage
+             nach Betreuungsplätzen stieg kontinuierlich. So wurde 2009 auf der Schulanlage ein
+             provisorischer Holzmodulbau mit professioneller Kücheninfrastruktur als Mittagstisch
+             für 80 Kinder erstellt. Seit dem Jahr 2013 wird eine bedarfsgerechte Tagesbetreuung
+             von Montag bis Freitag während 48 Wochen von 7-18 Uhr geführt. Die Kinder besuchen
+             teilweise nur den Mittagstisch, andere nutzen das Angebot an fünf ganzen Tagen. Heute
+             reicht das Raumangebot des Holzmodulbaus und der ergänzenden zwei Aussenstellen
+             (Mieträume) nicht mehr aus für den Bedarf an Betreuungsplätzen. Die Aufteilung des
+             Betreuungsangebots auf drei Standorte beeinträchtigt effiziente Betriebsabläufe.
+
+             In den Schulgebäuden kann das Richtraumprogramm für 22 Klassen umgesetzt werden,
+             es gibt jedoch keine zusätzlichen Flächen, die der Betreuung exklusiv zur Verfügung
+             gestellt werden könnten. Ein Neubau für die Tagesbetreuung Boppartshof soll die Be-
+             treuungsangebote des Einzugsgebiets an einem Standort zusammenführen. Die Stadt
+             St.Gallen prüfte in einer Machbarkeitsstudie verschiedene Standorte auf ihre Eignung
+             für einen Neubau der Tagesbetreuung. Dabei standen insbesondere die freien Flächen
+             auf dem Schulareal und der Standort Haggen-Centrum im Fokus vertiefter Abklärungen.
+             Auch ein Ersatzneubau am Standort des Pavillons oder dessen Erweiterung wurden
+             geprüft.
+
+             Der Standort in der Nordwestecke (N) der Parzelle kommt nicht in Frage. Dieser natur-
+             nahe Grüngürtel um die Schule soll als vielfältiger Aussenraum erhalten bleiben.
+
+    Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+          Stadt St.Gallen
+
+
+                                                                                                     9
+
+                           Schrägluftbild
+           mit den Standorten N, P und O
+
+
+
+                                            N
+
+                                                                                 O
+
+
+
+                                                 P
+
+
+
+
+          Kontakt                                              Informationen
+          Stadtverwaltung St. Gallen                           Schrägluftbild : 006_034_110002247
+          Geomatik und Vermessung                              Position:
+          Neugasse 3                                           x:2743101.80 y:1251976.02 z:680.39
+          9004 St. Gallen
+          Telefon +41 71 224 67 45
+
+          Notizen
+
+
+Die Erweiterung des heutigen Provisoriums (P), des Holzbau-Pavillons, bringt grosse
+Nachteile. Einerseits würde der Schulbetrieb stärker beeinträchtigt, andererseits fehlte
+während der Bauzeit eine Übergangslösung. Der Holzbau wurde seinerzeit als Provisori-
+um erstellt, man ging davon aus, dass dieser Ort langfristig nicht überbaut werden sollte.
+
+Die Prüfung eines dezentralen Standorts – beispielsweise im Zentrum von Haggen –
+zeigte, dass bei dieser Variante hohe Zusatzkosten entstehen. Denn die Aussenanlagen
+der neuen Tagesbetreuung müssten von Grund auf neu erstellt und zusätzlich zu den
+bestehenden unterhalten werden. Dies verursacht langfristig hohe Folgekosten.
+
+Der Standort Ost (O) neben dem öffentlichen Spielplatz hat die höchste Übereinstim-
+mung mit den Qualitätskriterien. Die beiden Betriebe Betreuung und Primarschule kön-
+nen autonom und störungsfrei parallel geführt werden, die Räume können gegenseitig
+nach Absprache mitbenutzt werden. Der etwas abseits der Schulzimmer befindliche Ort
+des Neubaus grenzt an den schönen Baumbestand mit schattenspendenden Platanen
+und den bestehenden Spielplatz. Diese Anlage wird bereits heute sehr geschätzt und
+vom Quartier rege genutzt. Diese Qualitäten sollen erhalten bleiben, damit auch die
+Kinder in der Tagesbetreuung davon profitieren können. Die Hangkante im Gelände er-
+möglicht eine optimale, ebenerdige Anbindung von zwei Geschossen an die Umgebung,
+so dass die Tagesbetreuung direkten Bezug zum Aussenraum erhält. Der Neubau wird
+so gesetzt, dass ein Spielfeld mit 44.5x57 Metern erhalten bleibt. Dieses erfüllt gemäss
+Ausführungsbestimmungen des SFV zu den Spielfeldgrössen im Juniorenfussball, die
+Anforderungen für 9-er-Fussball in der Kategorie Junioren D. So bleibt eine grosse und
+wertvolle Freifläche erhalten. Sie bildet eine willkommene Bewegungsfläche für die
+Kinder des Quartiers, der Schule und der Tagesbetreuung.
+
+Mit der Standortwahl Ost (O) kann ein Bauprovisorium vermieden werden, weil die
+bestehenden Räumlichkeiten im Pavillon bis zur Eröffnung des Neubaus regulär weiter-
+betrieben werden können. Die Grundfläche des bestehenden Pavillons wird nach den
+Baumassnahmen und dem Rückbau der Module wieder bepflanzt. Dadurch werden die
+Grünflächen ausgeglichen und die gesamten Aussenräume aufgewertet.
+
+Das Verfahren sollte insbesondere Auskunft über die optimale Einfügung, Gesamtwir-
+kung, Massstäblichkeit, Volumetrie und Stellung des Neubaus in dessen bebautem Um-
+feld und Aussenanlagen geben. Es war auf den sorgsamen Umgang mit der verfügbaren
+Bodenfläche, auf eine ökologisch vorbildliche und haptisch erfahrbare Materialisierung zu
+achten.
+
+                                                  Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+10
+
+
+
+
+              4 Aufgabenstellung
+
+              Aufgabe war es, einen betrieblich, architektonisch und ortsbaulich überzeugenden
+              Neubau für die Tagesbetreuung von 292 Kindergarten- und Schulkindern, wovon 204
+              am Spitzentag gleichzeitig betreut werden, zu entwerfen. Das Gebäude soll östlich der
+              Spielwiese situiert und 2026 bezogen werden können.
+
+              Ziel dieser Aufgabe war es, ein nachhaltiges Projekt zu entwickeln, welches das vor-
+              handene Potential des Orts erkennt und die geforderten Bedürfnisse in eine adäquate,
+              städtebaulich, frei- und innenräumlich überzeugende Architektur zu übersetzen vermag.
+
+              Das geplante Neubauvolumen musste sich in ein bebautes Umfeld integrieren; die fünf
+              Schulgebäude sind im Inventar der Denkmalpflege beschrieben. Der Neubau hatte auf
+              den Bestand und die Massstäblichkeit der umgebenden Bauten Bezug zu nehmen.
+              Dabei war auf den sorgsamen Umgang mit der verfügbaren Bodenfläche und den er-
+              haltenswerten Grünbestand zu achten. Die Anschlüsse an Wege, Spielplatz und Terrain
+              waren sorgfältig zu planen, sodass die Besucher der Anlage auf natürliche Weise geführt
+              werden können. Alle öffentlichen Bauten und Anlagen waren so zu gestalten, dass sie
+              hindernisfrei zugänglich und benutzbar sind.
+
+              Im Gebäude waren möglichst einfache Strukturen für gute betriebliche Abläufe und Räu-
+              me gefragt, welche den Kindern, trotz der recht grossen Altersspanne (4-12 Jahre), eine
+              familiäre Atmosphäre bieten. Die Erschliessung ermöglicht die Entflechtung der Bewe-
+              gungsströme, andererseits schafft sie Synergien bei den Toiletten und gemeinschaftlich
+              genutzten Räumen (Küche, Arbeitsräume, Besprechung). Die Raumstruktur sollte auf
+              selbstverständliche Art und Weise eine grösstmögliche Flexibilität für mögliche künftige
+              Nutzungsänderungen anbieten.
+
+              Der Neubau war so zu planen, dass der Energieverbrauch minimiert wird und die Auf-
+              enthaltsräume zu jeder Jahreszeit behaglich sind. Als weiterer Aspekt der Nachhaltigkeit
+              waren bewährte, ökologische und kostengünstige Bausysteme, Konstruktionen, Mate-
+              rialien und Betriebseinrichtungen zu wählen. Die Oberflächen sollten haptisch angnehm,
+              robust und benutzerfreundlich sein. In allen Aufenthaltsräumen galten hohe Anforderun-
+              gen an die Behaglichkeit, die Raumluft und die Akustik.
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                   11
+
+
+
+
+Betreuungsbauten sind Häuser für unsere Kinder. Sie verbringen hier ihre Freizeit und
+doch ist es nicht ihr Zuhause. So sind diese Häuser und deren Aussenräume mehr als
+Wohnhäuser und deren Gärten im herkömmlichen Sinne. Vielfältigkeit, Flexibilität und
+Räume unterschiedlichster Qualitäten mit durchaus auch überraschenden Bezügen
+sollten den verschiedenen Bedürfnissen der Kinder entsprechen und dem Betrieb unter-
+schiedliche Möglichkeiten anbieten. Inspiriert vom forschenden und lebendigen Werk-
+charakter sind die Ausbauten und die Materialen einfach, echt und robust. In diesem
+Sinne typologisch neu gedacht, soll der Entwurf unmittelbar zu eigener Stimmung und
+spezifischem Ausdruck finden.
+
+
+
+
+                                                Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+12
+
+
+
+
+          5 Preisgericht
+
+          Sachpreisrichterinnen und Sachpreisrichter
+          – Markus Buschor, Stadtrat, Direktion Planung und Bau Stadt St.Gallen (Vorsitz)
+          – Mathias Gabathuler, Stadtrat, Direktion Bildung und Freizeit Stadt St.Gallen
+          – Tanja Rissle, Abteilungsleiterin Tagesbetreuung Centrum-West,
+            Dienststelle Schule und Musik Stadt St.Gallen
+          – Chantale Gasser, Leiterin Tagesbetreuung Boppartshof,
+            Dienststelle Schule und Musik Stadt St.Gallen (Ersatz)
+
+          Fachpreisrichterinnen und Fachpreisrichter
+          – Hansueli Rechsteiner, Stadtbaumeister, Hochbauamt Stadt St.Gallen (Moderation)
+          – Thomas Fischer, Architekt, Zürich
+          – Marco Merz, Architekt, Basel
+          – Markus Zbinden, Architekt, St.Gallen
+          – Katrin Eberhard, Stadtbaumeister-Stv., Hochbauamt Stadt St.Gallen (Ersatz)
+
+          Expertinnen und Experten
+          – Martin Keller, Abteilungsleiter Bauten und Beschaffung IBF Stadt St.Gallen
+          – Romana Müller, Schulleiterin Primarschule Boppartshof,
+            Schule und Musik Stadt St.Gallen
+          – Matthias Fischer, Wissenschaftlicher Mitarbeiter Denkmalpflege,
+            Stadtplanung Stadt St.Gallen
+          – Adrian Stolz, Leiter Stadtgrün Stadt St.Gallen
+          – Fachstelle Haustechnik, Hochbauamt Stadt St.Gallen
+          – Fachstelle Nachhaltigkeit, Hochbauamt Stadt St.Gallen
+          – Susanne Lüthi, Projektleiterin Projektmanagement, Hochbauamt Stadt St.Gallen
+          – Zwei Vertreter des Quartiers Bruggen, St.Gallen
+          – Monique Santner, Fachstelle Wettbewerbsverfahren, Hochbauamt Stadt St.Gallen
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                   13
+
+
+
+
+6 Vorprüfung
+
+Es wurden insgesamt 75 Wettbewerbsbeiträge fristgerecht und anonym beim Hoch-
+bauamt eingereicht. Zwei Projekte waren mit dem gleichen Kennwort versehen. Zur
+Vermeidung einer Verwechslung wurden diese zwei Kennwörter um eine Ziffer erwei-
+tert. Bei wenigen Projektabgaben musste, zur Wahrung der Anonymität, die Packetab-
+senderadresse entfernt werden. Alle abgegebenen Texte sind lesbar und in deutscher
+Sprache verfasst.
+
+Die Vorprüfung erfolgte durch das Hochbauamt sowie durch Expertinnen und Exper-
+ten. Grundlage bildeten das Wettbewerbsprogramm und die Fragenbeantwortung. Die
+Projekte wurden formell und materiell geprüft.
+
+– Formelle Kriterien
+  Fristgerechte Einreichung, Vollständigkeit der eingereichten Unterlagen, Lesbarkeit,
+  Anonymität, Sprache
+
+– Materielle Kriterien
+  Erfüllung der Wettbewerbsaufgabe und des Raumprogramms, Einhaltung der 		
+  Rahmenbedingungen
+
+Vor den ersten zwei Beurteilungstagen fand eine grobe Vorprüfung aller Projekte statt.
+Die Ergebnisse wurden im Vorprüfungsbericht festgehalten. Darin sind die Verstösse
+der einzelnen Projekte detailliert aufgelistet.
+
+Die in der engeren Wahl verbliebenen Projekte wurden bis zur zweiten Sitzung des
+Preisgerichts vertieft vorgeprüft, insbesondere im Hinblick auf Betriebsabläufe, Bau-
+recht, Brandschutz, Nachhaltigkeit und Wirtschaftlichkeit. Die Berichte der Expertinnen
+und Experten sind in den Vorprüfungsbericht eingeflossen.
+
+
+
+
+                                                Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+14
+
+
+
+
+              7 Beurteilung
+
+              Die aussergewöhnliche Situation rund um die Covid-19-Pandemie hatte nur organisato-
+              rische Auswirkungen auf die Auslobung dieses Wettbewerbes. Die geforderten und
+              empfohlenen Massnahmen des Bundes (BAG) als auch der Empfehlungen des SIA zu
+              Recht und Methodik im Wettbewerbswesen konnten umgesetzt und eingehalten wer-
+              den.
+
+              Das Preisgericht tagte am 29. und 30. September 2021 sowie am 19. November 2021.
+              Die Jurierung fand an der Haggenstrasse 45 in St.Gallen statt. Der Vorprüfungsbericht
+              wurde dem Preisgericht jeweils vorgängig zugestellt.
+
+              Als Vertreter des Quartiervereins Bruggen nahmen zwei Vorstandsmitglieder, namentlich
+              Stevan Dronjak (Präsident) und Marcel Stadler an der Beurteilung teil.
+
+
+
+              Ausschlüsse von der Beurteilung
+
+              Die Erfüllung der formellen Kriterien entscheidet über die Zulassung zur Beurteilung. Auf
+              Antrag der Vorprüfenden wurden folgende formelle Verstösse von der Jury besprochen:
+
+              – Bei einem Zehntel der Planabgaben sind die verlangten Situationen 1:500 / 1:200 		
+                nicht massstäblich abgegeben. Die Vorprüfenden gehen von technischen Problemen
+                aus. Das Preisgericht befand die Beiträge trotzdem als beurteilbar.
+
+              – Bei einer Mehrzahl der Projekte ist die detaillierte Umgebungsgestaltung sehr dürftig
+                bearbeitet. Dies wurde als Nachteil für die Teilnehmenden gewertet.
+
+              – Bei mehreren Projekten sind die Eingriffe in die Substanz wenig erkennbar, es fehlen
+                die Koten und/oder die abzulesende Terrainveränderung. Das Preisgericht befand die
+                Beiträge trotzdem als beurteilbar.
+
+              Da sich die Verfassenden dadurch keinen Wettbewerbsvorteil verschafft haben und die
+              zu beurteilenden Unterlagen termingerecht abgegeben wurden, konnten alle Projekte
+              zur Beurteilung zugelassen werden.
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                   15
+
+
+
+
+Ausschlüsse von der Preiserteilung
+
+Die Erfüllung der materiellen Kriterien entscheidet über die Zulassung zur Preisertei-
+lung. Einige der Projekte weisen einen Verstoss gegen baurechtliche Rahmenbedingun-
+gen auf.
+
+Bei folgenden Beiträgen wird der Perimeter nicht eingehalten:
+
+Nr. 04   sorellina
+Nr. 12   Bobbie
+Nr. 36   TAMINA DAS TREIBHOLZ
+Nr. 40   Lichtkegel
+
+Das Preisgericht entschied, die genannten Beiträge, welche wesentlich gegen die Peri-
+metervorgabe verstossen, von der Preiserteilung auszuschliessen.
+
+Mehrere Projekte weisen einen oder mehrere materielle Verstösse auf. Im Preisgericht
+wurden weitere Verstösse genauer betrachtet:
+
+– Einige Projekte verletzen die vorgegebenen Strassenabstände. In der Regel sind die
+  Verstösse jedoch unwesentlich respektive heilbar oder wurden bewusst in Kauf ge-
+  nommen. Die Jurymitglieder waren mit dem Vorschlag einverstanden, im Einzelfall
+  über die Schwere des Verstosses zu entscheiden.
+
+– Leider wurde der Wunsch der Ausloberin, den schattenspendenden Baumbestand
+  (insbesondere Platanus hispanica 1469) zu erhalten, in vielen Fällen nicht erfüllt.
+  Da im Perimeter keine schützenswerten Bäume verzeichnet sind einigte man sich
+  darauf, den Umgang mit den Bäumen im Zusammenhang mit dem Gesamtkonzept
+  individuell zu beurteilen.
+
+Nach Überprüfung der Verstösse im Einzelfall befand das Preisgericht, diese Verstösse
+als nicht projektrelevant und somit als unwesentlich. Somit wurde beschlossen, keine
+weiteren Projekte von der Preiserteilung auszuschliessen.
+
+
+
+
+                                                Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+16
+
+
+
+
+          Beurteilungsrundgänge
+
+          Für die Jurierung der Projekte galten folgende Beurteilungskriterien als Zuschlagskriterien:
+
+          – Städtebaulich freiräumliche Qualität
+          – Architektonische Qualität
+          – Betriebliche Abläufe
+          – Wirtschaftlichkeit
+          – Nachhaltigkeit, inkl. Flexibilität für künftige Nutzungsänderungen
+
+          Die Reihenfolge entspricht nicht der Gewichtung der Kriterien.
+
+          Nach mehreren Wertungsrundgängen und einem anschliessenden Kontrollrundgang
+          wurden an den ersten zwei Beurteilungstagen folgende Projekte ausgeschieden:
+
+          im 1. Rundgang:
+
+          Nr. 04    sorellina                           Nr. 43   SIRO
+          Nr. 06    Tiramisu                            Nr. 47   OTAVA
+          Nr. 08    LICHTSPIEL                          Nr. 49   SCHNEGGEHUUS
+          Nr. 12    Bobbie                              Nr. 51   SILBERMÖVE
+          Nr. 14    Tiger & Bär                         Nr. 55   Amerigo Vespucci
+          Nr. 16    nidum                               Nr. 56   ORION
+          Nr. 18    Pinwheel                            Nr. 58   ASTAIRE
+          Nr. 19    GASTON                              Nr. 59   Perennia
+          Nr. 21    AMADEA                              Nr. 60   Cailler
+          Nr. 25    IN and OUT                          Nr. 61   TATAMI
+          Nr. 28    FIGGI UND MÜLI (2)                  Nr. 62   Desiderio
+          Nr. 31    weitergestrickt                     Nr. 65   BOPPARTSBROGG
+          Nr. 37    KASIMIR                             Nr. 70   mateu
+          Nr. 39    LOGGIA                              Nr. 71   FROSCHKÖNIG
+          Nr. 40    Lichtkegel                          Nr. 73   ROLLO
+          Nr. 41    MURMELI                             Nr. 74   Pan
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                   17
+
+
+
+
+im 2. Rundgang:
+
+Nr. 01   Country House                      Nr. 34   MOMO
+Nr. 02   'Chelonia'                         Nr. 35   CAELI
+Nr. 03   Judy                               Nr. 36   TAMINA DAS TREIBHOLZ
+Nr. 05   blaues Wunder                      Nr. 38   LEITERSPIEL
+Nr. 10   MEXIKO                             Nr. 44   CUR NON
+Nr. 11   Rotonda                            Nr. 52   BOPP ART
+Nr. 13   BELLEVUE                           Nr. 53   N°6
+Nr. 20   STRAWBERRY FIELDS                  Nr. 57   nibling
+Nr. 23   SYÖMÄÄN                            Nr. 69   RAUPE NIMMERSATT
+Nr. 26   TABO                               Nr. 75   flickflack
+Nr. 32   Les Pilotis
+
+
+
+im 3. Rundgang:
+
+Nr. 07   DUPLO                              Nr. 46   FUCHUR
+Nr. 09   DON                                Nr. 63   ANDERSON
+Nr. 15   Figgi + Müli (1)                   Nr. 64   FORUM
+Nr. 22   Verde y Vivo                       Nr. 66   PRIMITO
+Nr. 27   SPIELRAUM                          Nr. 67   NIMA
+Nr. 29   KONTINUUM                          Nr. 68   JOHANN
+Nr. 42   elsa                               Nr. 72   PIEP
+
+
+
+Qualifiziert für den 4. Rundgang und somit in der engeren Wahl verbleiben:
+
+Nr. 17   Kleeblatt                          Nr. 45   baumboppi
+Nr. 24   foglia                             Nr. 48   DÉJEUNER SUR L'HERBE
+Nr. 30   Zaunkönigin                        Nr. 50   WALPURGISNACHT
+Nr. 33   RONDOMI                            Nr. 54   RUFUS
+
+
+
+
+                                                Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+18
+
+
+
+
+              Der dritte Beurteilungstag an der Haggenstrasse 45 begann mit den Erläuterungen der
+              Erkenntnisse aus der zweiten, vertieften Vorprüfung. Als Einstieg in die Beurteilung
+              und Gegenüberstellung der acht in der engeren Wahl verbliebenen Projekte lasen die
+              Fachjurorinnen und Fachjuroren die Beschriebe vor. Ergänzt durch die Vorprüfungsergeb-
+              nisse der anwesenden Fachexperten und zukünftigen Nutzerschaft wurden die Projekte
+              erläutert und beschrieben.
+
+              Nach eingehender Beratung wurden folgende Projekte ausgeschieden:
+
+              Nr. 17 Kleeblatt
+              Nr. 45 baumboppi
+
+
+
+              Wider Erwarten konnte schliesslich kein Beitrag gefunden werden, der das Preisgericht
+              vollständig überzeugte. Deshalb wurde entschieden, wie im Wettbewerbsprogramm
+              vorbehalten, zwei Projekte überarbeiten zu lassen.
+
+              Zur Überarbeitung wurden folgende Beiträge ausgewählt:
+
+              Nr. 24 foglia
+              Nr. 33 RONDOMI
+
+
+
+              Die beiden Vorschläge erfüllten zwar die wesentlichen Anforderungen, wiesen jedoch
+              noch Mängel auf, bei denen nicht selbstverständlich davon ausgegangen werden
+              konnte, dass diese nach der Auftragserteilung zufriedenstellend gelöst werden können.
+
+              Das Verfahren wurde anonym weitergeführt. Die Teilnehmerschaft wurde Ende Dezem-
+              ber 2021 mit einem Schreiben über das weitere Vorgehen, die Überarbeitungsstufe und
+              die neu geltenden Termine informiert. Die Verfassenden der zur Überarbeitung emp-
+              fohlenen Beiträge erhielten Anfang Januar 2022 je die ihr Projekt betreffende Kritik des
+              Preisgerichtes. Zur Wahrung der Anonymität wurde für den Versand der notwendigen
+              Unterlagen und Entgegennahme der Beiträge das Amtsnotariat St.Gallen beauftragt. Für
+              die Überarbeitung galten die Grundsätze des ursprünglichen Wettbewerbsprogramms
+              einschliesslich der Beurteilungskriterien.
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                      19
+
+
+
+
+8 Überarbeitung
+
+
+Die überarbeiteten Pläne und Modelle gingen fristgerecht beim Amtsnotariat St.Gallen
+ein. Vor der Beurteilung wurden die Beiträge wiederum auf ihre Übereinstimmung mit
+dem Wettbewerbsprogramm geprüft. Beide Projekte erfüllen sowohl die formellen als
+auch die materiellen Kriterien. Die Ergebnisse der vertieften Vorprüfung sind schriftlich
+festgehalten.
+
+Am Morgen des 31. März 2022 kam das Preisgericht erneut zusammen. Chantale Gasser
+vertrat die entschuldigt abwesende Sachpreisrichterin Tanja Rissle. Die Beurteilung fand
+wiederum an der Haggenstrasse 45 in St.Gallen statt. Die Sitzung begann mit einer kur-
+zen Zusammenfassung der vorangegangenen Beurteilungstage und den Erkenntnissen
+aus der vertieften Vorprüfung der verbleibenden Projekte der engeren Wahl.
+
+Anschliessend wurden die beiden überarbeiteten Vorschläge anhand der Beurteilungs-
+kriterien und der vertieften Vorprüfung besprochen. Nach eingehender Diskussion der
+Vor- und Nachteile der beiden Projekte sowie einem weiteren Kontrollrundgang einigte
+sich das Preisgericht auf die Rangierung.
+
+
+
+
+                                                   Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+20
+
+
+
+
+              9 Rangierung
+
+              Für die Auszeichnung von Preisen und Ankäufen stand dem Preisgericht eine Summe
+              von insgesamt CHF 105’000 (exkl. MWST.) zur Verfügung. Das Preisgericht setzte folgen-
+              de Rangierung und Preiszuteilung fest:
+
+              1. Rang, 1. Preis
+              Nr. 24                     foglia				                     Preissumme CHF 30’000
+
+              2. Rang, 2. Preis
+              Nr. 33                     RONDOMI			                     Preissumme CHF 25’000
+
+              3. Rang, 3. Preis
+              Nr. 48                     DÉJEUNER SUR L'HERBE		         Preissumme CHF 15’000
+
+              4. Rang, 4. Preis
+              Nr. 50                     WALPURGISNACHT		               Preissumme CHF 13’000
+
+              5. Rang, 5. Preis
+              Nr. 30                     Zaunkönigin			                 Preissumme CHF 13’000
+
+              6. Rang, 6. Preis
+              Nr. 54                     RUFUS				                      Preissumme CHF 9’000
+
+
+
+              Die Überarbeitung wurde separat entschädigt.
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                     21
+
+
+
+
+10 Allgemeine Feststellungen
+
+Die eingereichten Arbeiten zeugen von einer intensiven und sorgfältigen Auseinander-
+setzung mit der Aufgabe und dem Ort. Aufgrund der grossen Varianz der Vorschläge
+konnte das Beurteilungsgremium seine Erörterungen an verschiedensten Positionen
+eingehend und umfassend führen.
+
+Aufgrund der Diskussionen im Preisgericht kann folgendes festgehalten werden:
+
+– Die Aufgabenstellung war offenbar so anspruchsvoll, dass nur wenige Projekte alle 		
+  Themen in Einklang bringen konnten: betriebliche Anforderungen, Nachhaltigkeit
+  und Nutzungsflexibilität, Umgang mit der Topografie und die Einbindung ins Quartier.
+
+– Als grosse Herausforderung hat sich die Setzung des Gebäudes im ortsbaulichen 		
+  Kontext und der Topografie erwiesen.
+
+– Dennoch wurde die Geländekante häufig entwerferisch klug genutzt, um die Er-
+  schliessung der Betreuungseinheiten (Gruppen) effizient und unabhängig zu gewähr-
+  leisten. Es hat sich gezeigt, dass mit einer geschickten Entflechtung der Erschlies-
+  sung auch mehrgeschossige Betreuungsbauten betrieblich gut funktionieren können.
+
+– Die Ausloberin möchte mit dem Neubau einen wichtigen Begegnungsort im Quartier
+  erhalten und sogar Mehrwert sein, der nicht nur auf Kinder einladend wirkt, sondern
+  auch eine breite Öffentlichkeit anspricht. Wie offen respektive geschlossen der Aus-
+  senraum sein soll, war dabei eine der grundsätzlichen Fragen, welche es projektspezi-
+  fisch zu beantworten galt.
+
+– Verschiedene Entwürfe konnten dem Wunsch der Ausloberin nach haushälterischem
+  Umgang mit den Landressourcen nicht entsprechen.
+
+– Einige Projekte wirken flächig und überdimensioniert und führen zu einer starken 		
+  Zäsur zwischen Spielfläche und Spielplatz. Zudem wird einerseits der Aussenraum 		
+  beeinträchtigt, andererseits ist die Einbettung in die bauliche Struktur und in die 		
+  Topografie unbefriedigend. Es entstehen wenig attraktive abgegrenzte Aussenräume
+  ohne die gewünschte und angestrebte Einbettung in die bestehende Situation.
+
+
+
+
+                                                  Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+22
+
+
+
+
+              – Die Umgebung und insbesondere der direkte Aussenraum werden bei einer Vielzahl
+                der Projekte sehr stiefmütterlich bearbeitet, wozu sich das Preisgericht mehr Aussa-
+                gen gewünscht hätte. Dies bleibt wohl auch der Empfehlung zum Beizug eines Land-
+                schaftsarchitekten geschuldet.
+
+              – Das Beurteilungsgremium hat von der Möglichkeit Gebrauch gemacht zwei Projekt-
+                vorschläge aus der engeren Wahl in einer weiteren Stufe überarbeiten zu lassen. 		
+                Unter Wahrung der Anonymität konnten beiden Planerteams je vertiefende Aufgaben
+                gestellt werden. Beide Überarbeitungen zeitigten erfreuliche Verbesserungen unter
+                Wahrung der ursprünglichen Qualitäten. So konnte das Beurteilungsgremium 		
+                basierend auf diesen neuen Erkenntnissen sicher beraten. Es dankt den beiden Pla-		
+                nerteams für ihre Bereitschaft diesen zusätzlichen Effort zu leisten.
+
+              – In der Weiterbearbeitung umfasst der Betrachtungsperimeter das ganze Schul-
+                areal mit öffentlichem Spielplatz und Gehölzgruppe. Darin werden die ortsbaulichen
+                und betrieblichen Bedürfnisse von Freiraum, Ballschutz, Spielplatzstruktur und Baum-
+                erhalt geklärt und projektspezifisch definiert.
+
+              Die Beiträge der engeren Wahl werden mit einem separaten Beschrieb gewürdigt. Allen
+              Teilnehmenden gelten der Dank und die Anerkennung des Preisgerichts.
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                    23
+
+
+
+
+11 Empfehlungen und Genehmigung
+
+Das Preisgericht empfiehlt einstimmig das Projekt Nr. 24 «foglia» zur Weiterbearbei-
+tung. Bei der Projektierung sind die allgemeinen Feststellungen des Preisgerichts, die
+im Projektbeschrieb festgehaltenen Kritikpunkte und spezifischen Empfehlungen zu
+berücksichtigen.
+
+
+
+
+Markus Buschor			
+
+Thomas Fischer
+
+Mathias Gabathuler		
+
+Marco Merz			
+
+Hansueli Rechsteiner		
+
+Tanja Rissle			
+
+Markus Zbinden			
+
+Katrin Eberhard (Ersatz)
+
+Chantale Gasser (Ersatz)
+
+
+
+
+                                                 Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+24
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                       25
+
+
+
+
+12 Würdigung Projekte der engeren Wahl
+
+
+
+
+                    Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+26
+
+
+
+        Projekt Nr. 24
+
+        foglia
+        1. Rang
+        Architektur		 Allemann Bauer Eigenmann
+        			           Architekten AG, Dipl. Architekten ETH
+        			SIA BSA, Zürich
+
+        Landschaftsarchitektur Mettler Landschaftsarchitektur,
+        			Gossau
+        Holzbau / Brandschutz B3 Kolb AG, Romanshorn
+        HLKKS 		               Edwin Keller + Partner AG, Gossau
+        Baumanagement          Baukom AG, St.Gallen
+
+
+
+
+     Würdigung der Überarbeitung
+
+     Das Projekt foglia besteht aus einem viergeschossi-          ermöglicht eine präzise Setzung entlang des wertvol-
+     gen, organisch geformten Hauptbau, der über einen            len Baumbestands an der Wolfgangstrasse; darüber
+     Sockelbau an die Hangkante und an die Erschlies-             hinaus bewirkt sie aber auch eine optische Verkleine-
+     sungsstrasse zur bestehenden Turnhalle angebunden            rung des neuen Betreuungsgebäudes. Im Aussenraum
+     ist. Durch die Verteilung der Nutzflächen auf vier           ergeben sich so vielfältige Aufenthaltsmöglichkeiten,
+     Vollgeschosse kommen die Urheberinnen und Urhe-              die die Qualität des vorhandenen Spielplatzes ergänzen
+     ber mit einem vergleichsweise kleinen Fussabdruck            und stärken. Die schönen, schattenspendenden Bäu-
+     aus. Natürlich geht dieser Entscheid einher mit einer        me können weitgehend erhalten bleiben; auch über
+     räumlichen Distanz des zweiten Obergeschosses zum            ein zusätzliches Wegnetz wird der Neubau auf sehr
+     Aussenraum, die aber vom Betrieb als bewältigbar             selbstverständliche Weise in die bestehende Anlage
+     eingestuft wird. Der Schwarzplan macht deutlich, wie         eingebunden.
+     gut sich das neue Gebäude städtebaulich in das beste-
+     hende Ensemble einfügt: Es hat den nötigen Abstand           Der architektonische Ausdruck der Tagesbetreuung
+     zu den benachbarten Bauten, und trotzdem ist sofort          unterscheidet sich absichtlich von jenem der geschütz-
+     klar, dass es sich um eine Ergänzung des Schulareals         ten Schulanlage und sucht, sowohl was die Farbigkeit,
+     handelt. Diese Herangehensweise spiegelt eine der            aber auch die vertikale Gestaltung der Fassaden be-
+     Hauptanforderungen des Programms: Es handelt                 trifft, eher die Nähe der Bäume und des Grünraums.
+     sich beim geplanten Haus nämlich nicht einfach um            Die stehenden Holzlamellen der Fassadenverkleidung
+     ein weiteres Schulgebäude, sondern um eine eigene            verweisen auf die Tragkonstruktion in Holzbauweise.
+     Bautypologie, die sich zeitlich, örtlich und gestalterisch   Die Analogie zum Blatt, konkret wohl zum Kleeblatt, ist
+     zwischen der Schule und dem Zuhause der Kinder               am Grundriss des Hauses zu sehen: Um einen zentra-
+     befindet. Den Verfasserinnen und Verfassern ist es           len Raum, eine Art Halle, gruppieren sich auf allen vier
+     gelungen, dem klar als öffentlich erkennbaren Gebäu-         Geschossen jeweils vier Raumpaare. Am «Stiel» nord-
+     de durch sparsamen, aber wirkungsvollen Einsatz von          wärts zum Hang hin sind jeweils das Treppenhaus und
+     Wohnbau-Elementen einen ganz eigenen Ausdruck zu             die Garderobe angeordnet, in den anderen drei Him-
+     verleihen, beispielsweise durch die geschosshohen,           melsrichtungen befinden sich die Hauptnutzflächen.
+     strukturellen französischen Fenster. Die facettierte         Die unregelmässig geschnittenen Räume sind geprägt
+     Hülle des Neubaus mit ihren Vor- und Rücksprüngen            durch geschosshohe Verglasungen mit eingezogenen
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                            27
+
+
+Lüftungsflügeln: Der wechselnde Sonnenstand und            te Abläufe. Auch die allmittägliche Essensverteilung
+die unterschiedlichen Ausblicke in die Bäume und ins       funktioniert optimal: Die Servierwagen können direkt
+Quartier lassen eine grosse Varianz an Raumeindrü-         vom Office, wo sie abgestellt werden, über den Lift auf
+cken erwarten. Wie gefordert könnten jeweils zwei der      die verschiedenen Geschosse geschickt werden, ohne
+Betreuungsräume bei einer allfälligen Umnutzung ein        dass die Wege der hereinströmenden Kinder oder
+Klassenzimmer bilden. Die Entflechtung der gut 200         Schmutzbereiche gequert werden müssen.
+Kinder gelingt über drei unterschiedliche Zugänge von
+aussen, so dass das Treppenhaus nur noch von den           Durch die auf jedem Geschoss vorhandene, zentrale
+Horteinheiten im ersten und zweiten Obergeschoss           Horthalle, die nicht im Raumprogramm enthalten ist,
+benutzt werden muss. Optimal gelöst ist auch der           erhält das Projekt eine etwas grössere Fläche und
+Zugang von der Garderobe, die als Schmutzbereich           eine höhere Kubatur, was sich auch in den Baukosten
+dient, über den zentralen Verteilerraum in die einzelnen   niederschlägt. Aus Sicht der Sach- und der Fachjury ist
+Kammern: Keines der Zimmer ist über ein anderes            diese Kostensteigerung jedoch vertretbar, da sich da-
+erschlossen, so dass ein Höchstmass an Ruhe und            durch ein betrieblich optimaler Grundriss ergibt, der die
+ungestörtem Spiel möglich sind. Die Personalräume          täglichen Abläufe in der Betreuung wesentlich verein-
+sind geschickt über die Etagen verteilt. Die auf Erdge-    facht. Die zusätzliche Halle ist nicht nur Verkehrsfläche,
+schossniveau angeordnete Küche kann ihre zentrale          sondern hat Aufenthaltsqualität, was in der Belegung
+Aufgabe als Herzstück der Tagesbetreuung optimal           der Horteinheiten berücksichtigt werden kann.
+erfüllen: Durch die verschiedenen Öffnungen zum In-
+nen- wie zum Aussenraum erhalten die Kinder Einblick       Dieses Projekt überzeugt insgesamt durch die sehr
+in die tägliche Essenszubereitung und die Köche und        sorgfältige Planung und den eigenständigen, der Auf-
+Köchinnen einen angenehmen Arbeitsplatz mit viel           gabe und der Umgebung angemessenen Ausdruck.
+Tageslicht. Die ebenerdige und direkte Anlieferung von     Insgesamt gewinnt das Projekt in der Überarbeitung
+Küche und Lagerräumen von den Parkplätzen an der           nochmals merklich an Qualität, ohne dadurch konzep-
+Wolfgangstrasse her verspricht schnelle und effizien-      tionelle Stärke einzubüssen.
+
+
+
+
+Empfehlungen für die Weiterbearbeitung
+
+– Der Annex beim Eingang, der noch zu sehr an 		           – Ein Raumabtausch zwischen Geräte- und Putzraum,
+  einen Abstellraum erinnert, sollte gestalterisch 		        damit Kleinfahrzeuge und Gerätschaften an die be-		
+  besser eingebunden werden. Auch die (farblich)             festigte Fläche anschliessen, ist zu prüfen.
+  sehr prominent angelegte Anlieferung der Küche 		        – Die Nutzungsflexibilität als späteren Schulraum ist 		
+  wirkt zu dominant.                                         einzuplanen. So z.B. pro Schulzimmer ein Schul-
+– Im Zuge der Weiterbearbeitung soll geprüft wer-		          wandbrunnen, in den südlichen Themenräumen 		
+  den, ob die Dachfläche dieses Gebäudeteils eine 		         zusätzliche Wasseranschlüsse.
+  zusätzliche Aussenraumnutzung aufnehmen                  – Im Sinne der Nachhaltigkeit ist die Dimensionie-		
+  könnte.                                                    rung der Lüftungsflügel und der benötigte Abluft-
+– Die Gestaltung des gesamten Aussenraums inklu-		           strom für eine effiziente Nachtauskühlung einzupla-		
+  sive des beliebten Quartierspielplatzes soll noch          nen. Weiter sind entsprechende Vorkehrungen zu 		
+  weiter vertieft werden; hier wird der Beizug einer 		      treffen, um die Auskühlung zu begünstigen.
+  Landschaftsarchitektin oder eines Landschafts-           – Das Brandschutzkonzept soll in der weiteren Be-		
+  architekten empfohlen.                                     arbeitung frühzeitig mitberücksichtigt und einge-
+– Die Materialisierung einzelner Gebäudeteile wie 		         plant werden. Der Beizug einer Brandschutzexper-		
+  z.B. Fensterbänke und Dachränder, welche in 		             tin oder eines Brandschutzexperten wird empfoh-		
+  Kupferblech vorgeschlagen sind, müssen bezüglich           len.
+  deren Nachhaltigkeit nochmals überprüft werden.
+
+
+
+
+                                                                         Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+28
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   29
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+30
+
+
+
+       Projekt Nr. 24
+
+       foglia
+       Zur Überarbeitung empfohlen
+
+
+
+
+ Kritik der Jury
+
+ Der über die Geschosse fast identische und dadurch
+ ökonomische Aufbau der Grundrisse verdrängt die
+ Küche in den rückwärtigen Bereich im Sockelgebäu-
+ de. Trotz Tageslicht ist sie dort, auch aus Gründen der
+ Logistik, noch nicht am richtigen Ort.
+
+
+
+     Bereinigung
+
+ – Standort der Küche: Die Küche ist am aktuell vor-       – Interne Mahlzeitenverteilung: Auch auf die allmittäg-
+   gesehenen Ort für eine Mehrheit der Kinder weder 		       liche Essensverteilung sind die Standorte von Küche
+   sicht- noch erfahrbar. Sie hat aber, wie im Pro-          und Lift noch nicht optimal abgestimmt. Einerseits 		
+   gramm beschrieben, eine zentrale Aufgabe als 		           kreuzen sich die Wege der hereinströmenden Kin-
+   Herzstück der Tagesbetreuung und ist wichtige 		          der mit denen der Servierwagen. 				
+   Anlaufstelle.                                             Andererseits ist auch die wiederholte Querung von 		
+ – Anlieferung der Küche: Die Anlieferung der Küche 		       Schmutzbereichen mit den Wägeli nicht optimal; im
+   geschieht im Erdgeschoss zwingend durch eine 		           Bereich der Garderoben muss zudem mit herum-		
+   Kinder-Garderobe bis zum Lift; ein Geschoss tiefer		      liegenden Schuhen o.ä. gerechnet werden, was
+   muss wieder eine Garderobe gequert werden, 		             die schnelle Auslieferung der Mahlzeiten erschwert.
+   bevor der/die Lieferant/in über einen schmalen 		       – Technikräume und Abstellplatz Servierwagen: Die 		
+   Gang bis zu den Lagerräumen gelangt. Dieser Weg 		        Technikräume und der Abstellplatz für die 14 Servier-
+   ist sehr umständlich. Eine ebenerdige Anlieferung 		      wagen sind gemäss Raumprogramm auszuweisen.
+   über den Boppartweg ist ebenfalls umständlich, da
+   die für die Anlieferung zu nutzenden Parkplätze ent-
+   lang der Wolfgangstrasse weit entfernt sind. Der 		
+   Boppartweg ist nicht befahrbar.
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           31
+                                                           Schwarzplan Gde
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Projektwettbewerb Neubau Tagesbetreuung Boppartshof St.Gallen                                                                                          foglia
+
+                                                                                                                                                                                                                                 Städtebau
+
+                                                                                                                                                                                                                                 Der Neubau der Tagesbetreuung Boppartshof steht als drei- bis vierge-                                                                                                                                                                                                                                                          eliw
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     eg
+
+                                                                                                                                                                                                                                 schossiger Baukörper über organischer Grundform im Südosten des Schul-                                                                                                                                                                                                                                                       Lind
+
+                                                                                                                                                                                                                                 areals. Zusammen mit dem markanten Baumbestand entlang der Wolfgang-
+                                                                                                                                                                                                                                 strasse bildet das Haus die neue Adresse der ansonsten zum Strassenraum
+                                                                                                                                                                                                                                 wenig präsenten Schulanlage. Während sich der Neubau zum Boppartweg
+                                                                                                                                                                                                                                 an der Geschossigkeit der benachbarten Wohnsiedlung Wolfganghof
+                                                                                                                                                                                                                                 orientiert, gliedert sich das Volumen nordwärts durch das ansteigende
+                                                                                                                                                                                                                                 Terrain in die Höhenentwicklung der bestehenden Schulgebäude ein und
+                                                                                                                                                                                                                                 respektiert so auch die kleinteiligere Bebauungsstruktur jenseits der Strasse.
+                                                                                                                                                                                                                                 Durch seine organische Grundform sind die absoluten Dimensionen des
+                                                                                                                                                                                                                                 Baukörpers aus der Fussgängerperspektive nicht erfassbar, das Haus wirkt
+                                                                                                                                                                                                                                 kleiner, als es tatsächlich ist. Damit erweist es einerseits den ebenfalls
+                                                                                                                                                                                                                                 kompakt erscheinenden, volumetrisch gestaffelten Schulhäusern Referenz                                                                                                                                                                                                                                                                                   W
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           olfg
+                                                                                                                                                                                                                                 und bildet anderseits ein angemessenes Gegenüber zu den benachbarten                                                                                                                                                                                                                                                                                          an
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  gs
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    tras
+                                                                                                                                                                                                                                 Doppelhäusern an der Wolfgangstrasse.                                                                                                                                                                                                                                                                                                                                  se
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Hell
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              erst
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  rass
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     e
+
+
+
+
+                                                                                                                                                                                                                                 Aussenraum
+
+                                                                                                                                                                                                                                 Die Freiraumgestaltung bindet den charakteristischen Baumbestand sowie
+                                                                                                                                                                                                                                 die spezifische Topographie in das Konzept ein. Mit der Setzung des Neu-
+                                                                                                                                                                                                                                 baus werden die Aussenräume neu definiert. An den bestehenden Verbin-
+                                                                                                                                                                                                                                 dungsweg zur Schulanlage dockt eine Eingangsterrasse an und empfängt
+                                                                                                                                                                                                                                 Kinder, Personal und Eltern mit einem Ausblick über die Spielwiese und das
+                                                                                                                                                                                                                                 Quartier bis ins Appenzellerland. Von der Terrasse führen beidseits Treppen
+                                                                                                                                                                                                                                 auf das Niveau des Gartengeschosses, wo kleine Höfe gefasste Aufenthalts-
+                                                                                                                                                                                                                                 bereiche mit Morgen- bzw. Nachmittagssonne bieten. Ein Weg und ein Pfad
+                                                                                                                                                                                                                                 führen von den Höfen nach Südosten, wo sich ein grosszügiger, topogra-
+                                                                                                                                                                                                                                 phisch modellierter Freiraum zum Quartier öffnet. Ein Abenteuerspielplatz
+                                                                                                                                                                                                                                 ergänzt das bestehende Spielgeräteangebot und wird mit neuen Sitzgele-                               Für die Richtigkeit und Aktualität der Daten wird keine Garantie übernommen.
+                                                           Massstab 1: 5'000                                                                                                                                                     genheiten ergänzt. Damit wird ausserhalb des Schulbetriebes die wichtige                                                      Es gelten die Nutzungsbedingungen des Geoportals.
+                                                           Koordinaten 2'743'054, 1'252'088                                                                                                                                      Doppelfunktion als Quartiertreffpunkt weiter gestärkt. Weg und Pfad binden                                                                                              16.06.2021
+                                                                                                                                                                                                                                 die Aussenanlage der Tagesbetreuung an das bestehende Wegenetz an und
+                                                                                                                                                                                                                                 erhöhen damit die Durchlässigkeit der Schulanlage.
+                                                                                                                                                                                                                                 Die Bestandsbäume werden mit heimischen Baumarten und Sträuchern
+Dachaufbau                                                                                                                                                                                                                       ergänzt. Grosskronige Arten wie Wildkirsche, Ahorn, Linde und Nussbaum
+                                                                                                                                                                                                                                 spenden an sonnigen Tagen Schatten und gliedern den Freiraum.
+Photovoltaikmodule
+Blechabschlüsse in Kupfer
+Substrat für extensive Begrünung
+Drainage- und Schutzlage
+Abdichtung 2-lagig Polymerbitumen                                                                                                                                                                                                Architektonischer Ausdruck
+Wärmedämmung PUR im Gefälle, Dampfbremse
+Brettstapeldecke                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Boppartweg
+Akustikdecke in Weisstanne Sichtqualität
+mit Schafwollehinterlage                                                                                                                                                                                                         Das Haus setzt sich dezidiert von der Architektur der bestehenden Anlage
+                                                                                                                                                                                                                                 ab und artikuliert so seine ambivalente Funktion zwischen Schulbau und
+Wandaufbau                                                                                                                                                                                                                       temporärem Zuhause für die Kinder. Die aus der organischen Grundform
+Holzlamellen 30x60mm,                                                                                                                                                                                                            resultierenden facettierten Ansichten schaffen eine angemessene Mass-
+farbig gestrichen mit Holzlasur
+Lattung, Hinterlüftung
+                                                                                                                                                                                                                                 stäblichkeit und etablieren einen spezifischen Ausdruck mit Identifikations-
+Winddichtung                                                                                                                                                                                                                     potential. Die Fassadenverkleidung aus vertikalen Holzlamellenscharen
+Weichfaserplatte, Ständer, OSB-Platte dampfdicht
+ausgedämmt mit Cellulosedämmung                                                                                                                                                                                                  verweist sowohl auf die Holzkonstruktion wie auch auf den baumbestande-
+Installationsschicht ausgedämmt,
+Gipsfaserplatte, Lehmputz
+                                                                                                                                                                                                                                 nen Kontext, mit dem das Haus eine optische Symbiose eingeht.
+                                                                                                                                                                                                                                 Dachuntersichten, Türen, Fensterrahmen und Vertikalmarkisen setzen
+                                                                                                                                                                                                                                 Farbakzente, welche eine der Nutzung adäquate, heitere Atmosphäre
+                                                                                                                                                                                                                                 evozieren.
+Fenster
+
+Holz-/Metall-Fenster, Glas 3-fach IV, VSG,
+λ ≤ 0.60 W/m2K, g-Wert 55 %
+Rahmen in Fichte Sichtqualität, geölt                                                                                                                                                                                            Raumkonzept / Nutzungsdisposition
+Profile aussen Aluminium, farbig eloxiert
+alle Fensterflügel öffenbar
+zusätzlicher, opaker Lüftungsflügel hinter                                                                                                                                                                                       Die Hauseingänge liegen im Garten- und Erdgeschoss und führen zur gross-
+Fassadenlattung zur Nachtauskühlung
+Fensterbank in Kupferblech                                                                                                                                                                                                       zügigen Treppenanlage, die Garderobe im Erdgeschoss verfügt zudem über                                                                                                                                                                                                                                                                                                                                                                                         0   5    10              25 m
+Geländerelement mit Seilgeflechtfüllung
+                                                                                                                                                                                                                                                                                                                              Situation 1:500
+                                                                                                                                                                                                                                 einen direkten Zugang. Auf diese Weise können die Verkehrsströme bereits
+                                                                                                                                                                                                                                 vor dem Haus optimal entflochten werden, die Treppe erschliesst eigentlich
+Bodenaufbau                                                                                                                                                                                                                      nur noch die beiden obersten Geschosse und dient der internen Zirkulation.
+Hartbeton geschliffen                                                                                                                                                                                                            Pro Geschoss ist eine jeweils identisch organisierte Horteinheit angeordnet.
+Integrierte Bodenheizung
+Trittschalldämmung mineralisch
+                                                                                                                                                                                                                                 Aus dem Treppenhaus führt der Weg in die Garderobe, welche die Schleuse
+Überbeton bewehrt                                                                                                                                                                                                                zwischen Strassenschuh- und Finkenbereich bildet. Von der Garderobe ge-
+Brettstapeldecke
+Akustikdecke in Weisstanne Sichtqualität                                                                                                                                                                                         langen die Kinder über eine niedrigere Zwischenraumschicht am Thekregal
+mit Schafwollehinterlage
+                                                                                                                                                                                                                                 vorbei in die zentrale Halle. Dort öffnen sich mit verglasten Türfronten die
+                                                                                                                                                                                                                                 gegenüberliegenden Ess- und Gruppenräume, es finden sich die Zahnputz-
+                                                                                                                                                                                                                                 gelegenheit ebenso wie die Zugänge zum Bewegungs- und Themenraum
+Sonnenschutz                                                                                                                                                                                                                     sowie die Toiletten. Alle Aufenthaltsräume profitieren dank der polygonalen
+Textile Senkrechtmarkise
+                                                                                                                                                                                                                                 Grundform von mehrseitigen Ausblicken. Sie sind mit Türen untereinander
+zertifiziert für erhöhte Windlasten                                                                                                                                                                                              verbunden und bieten so eine alternative Zirkulationsmöglichkeit entlang den
+Behang aus Acryl-Gewebe, wasser- und
+schmutzabweisend, elektrischer Antrieb                                                                                                                                                                                           Aussenwänden. Die Tragstruktur ist so konzipiert, dass jeweils zwei benach-
+                                                                                                                                                                                                                                 barte Räume zusammengelegt werden können und so auch als Schulzimmer
+                                                                                                                                                                                                                                 nutzbar sind. Küche und Infrastrukturräume liegen im rückwärtigen Bereich
+                                                                                                                                                                                                                                 des Gartengeschosses. Die Anlieferung im Erdgeschoss und die Verteilung
+                                                                                                                                                                                                                                 der Speisen funktioniert über den Lift.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    +14.50                                                                                                                                                                                                              +14.50
+
+Bodenaufbau gegen Erdreich
+
+Hartbeton geschliffen                                                                                                                                                                                                            Brandschutzkonzept
+Integrierte Bodenheizung
+Trittschalldämmung
+Wärmedämmung                                                                                                                                                                                                                     Brandschutztechnisch handelt es sich um ein «Gebäude mittlerer Höhe»,
+Feuchtigkeitsabdichtung
+Betonplatte                                                                                                                                                                                                                      welches der Nutzung «Schule» zuzuordnen ist. Das Gebäude ist im bau-
+                                                                                                                                                                                                                                 lichen Konzept ohne Löschanlage angedacht. Aufgrund der Geschoss-
+                                                                                                                                                                                                                                 flächen < 900 m2 und der Einhaltung der Fluchtweglängen von 20 m für
+                                                                                                                                                                                                                                 Kindertagesstätten ist ein vertikaler Fluchtweg ausreichend. Dieser führt im
+                                                                                                                                                                                                                                 Erd- und Gartengeschoss jeweils direkt ins Freie. Ausser dem brandschutz-
+                                                                                                                                                                                                                                 technisch abgetrennten Fluchttreppenhaus sind keine weiteren Fluchtwege
+                                                                                                                                                                                                                                 auszubilden. Somit können auch die Garderoben und Hallen nutzungsflexibel
+                                                                                               witterungsgeschützter und einbruchsicherer                                                                                        mit Mobiliar bespielt und mit brennbaren Oberflächen materialisiert werden.
+                                                                                               Lüftungsflügel zur Nachtauskühlung
+                                                                                                                                                                                                                                 Bis auf den vertikalen Fluchtweg, den Liftschacht, die Küche und einzelne                                               +3.10
+                                                                                                                                                                                                                                 technische Räume im Gartengeschoss können die Flächen je Geschoss zu
+                                                                                                                                                                                                                                 einem Brandabschnitt zusammengefasst werden. Somit bestehen an die
+                                                                                                                                                                                                                                 weiteren Wände aus brandabschnittsbildender Sicht keine Anforderungen,
+                                                                                                                                                                                                                                 was die Massnahmen an die Haustechnikführung stark vereinfacht. An die                                                  680.00 = ±0.00
+
+                                                                                                                                                                                                                                 Geschossdecken und das Tragwerk besteht eine Feuerwiderstandsanforde-
+                                                                                                                                                                                                                                 rung von 60 Minuten. Die Holzfassade wird zur Einhaltung der Schutzziele
+                                                                                                                                                                                                                                 bezüglich Brandausbreitung gemäss den Vorgaben der Lignum-Publikation
+                                                                                                                                                                                                                                 «Aussenwände – Konstruktion und Bekleidungen» umgesetzt.
+
+
+Detailgrundriss / -schnitt / -ansicht 1:50                                                                                                         0        50         100                          250 cm                                                                                                                    Ansicht Nordwest 1:200                                                                                                                                                      Ansicht Südwest 1:200                                                                                                                                                                 0   2             5      10 m
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Projektwettbewerb Neubau Tagesbetreuung Boppartshof St.Gallen                                                                                          foglia
+                                                                                                                                             684                                                                                                                                                                                                       684
+
+              Tragwerkskonzept Holzbau
+
+                                                                                                                                             683                                                                             A                                                                                                                         683                                                                           A                                                                                                                                                                                                                       A
+              Die Tragkonstruktion ist in Holzbauweise konzipiert. Lediglich die Fundation,
+              die Bodenplatte sowie alle erdberührten Bauteile sind in Stahlbeton materiali-
+              siert. Die Lastabtragung erfolgt über Holz-Beton-Verbunddecken auf die
+              Aussenwände und auf teilweise tragende Innenwände in Holzrahmenkon-
+              struktion sowie auf Unterzüge. Mittels dem Überbeton ausgebildete, in die                                                      682                                                                                                                                                                                                       682
+
+              Decke integrierte Unterzüge gewährleisten die sturzfreie Überspannung der                                                                                                                                                        Putzraum 40
+                                                                                                                                                                                              Anschluss Fernwärme 8
+              Fenster. Die tragende Struktur ist über alle Geschosse durchlaufend, was
+              einen einfachen und optimalen Lastabtrag ermöglicht.                                                                                 +2.00=682.00                                                                      +3.50=683.50                                                                                                            +2.00=682.00                                                                    +3.50=683.50
+              Die Abtragung von Horizontallasten infolge Wind und Erdbeben erfolgt über                                                                                                                                                                            Wildhecke                                                                                                                                                                                            Wildhecke
+                                                                                                                                                                                                                                                                                                                                                                             Asphalt sickerfähig
+              die Verbunddeckenscheiben in Kombination mit den beiden durchlaufenden                                                                                 Lüftung Küche 20                   Lager Kü 16
+
+              Kernbereichen und zwei Innenwänden. Diese aussteifenden Bauteile sind in
+              Bezug auf eine Gebäudeverdrehung optimal im Grundriss angeordnet und
+              ebenfalls in Holz konstruiert. Alle übrigen Innenwände sind nichttragend und
+                                                                                                                                                                                                                                          Lager Betreuung 14
+              gewährleisten eine grosse Planungs- und Nutzungsflexibilität.
+              Die Holzbauweise ermöglicht einen hohen Vorfertigungsgrad im Werk, was
+              zu einer kurzen Bauzeit führt.
+                                                                                                                                                                     Küche 42                                                               Aussengeräte 36
+
+                                                                                                                                                   ±0.00=680.00                                                                                                                                                                                              ±0.00=680.00
+                                                                                                                                                                                                        Sanitär 6
+
+
+
+
+                                                                                                                                                                                                        Elektro 6
+
+
+                                                                                                                                                                                                                                                               Chaussierung                                                                                                                                                                                         Chaussierung
+                                                                                                                                                                                                        WC/Du IV 6
+                                                                                                                                                                                   ±0.00=680.00                                                                                                                                                                                                +3.50                                                                                                                                                                                                               +7.00/+10.50
+
+                                                                                                                                                                                                            Garderobe 41                                                                                                                                                                                            Garderobe 41                                                                                                                                                                                                            Garderobe 41
+                                                                                                                                                                                                                                                                                                                     683                                                                                                                                                                                                                683
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    Besprechung 18
+                                                                                                                                                                                                                                  WC                                                                                                                                                                                                      WC                                                                                                                                                                                                                      WC
+                                                                                                                                                                                                                                  D/H                                                                                                                                                                                                     D/H                                                                                                                                                                                                                     D/H
+                                                                                                                                                                                                                                              Umkleide / Schränke Pers. 18
+
+
+              Prinzipschema Tragstruktur (aussteifende Wände rot)
+                                                                                                                                                                                                                           Zähne putzen                                                                                                                                                                                            Zähne putzen                                                                                                                                                                                                            Zähne putzen
+
+
+
+                                                                                                                                                                             Ess-/Gruppenraum 38                                            Büro Team 19                                                             682                                                               Ess-/Gruppenraum 38                                        Büro Leitung 19                                                                       682                                                                  Ess-/Gruppenraum 38                                          Ess-/Gruppenraum 38
+
+                                                                                                                                                                             Ess-/Gruppenraum 38                                            Ess-/Gruppenraum 38                                                                                                                        Ess-/Gruppenraum 38                                        Ess-/Gruppenraum 38                                                                                                                                        Ess-/Gruppenraum 38                                          Ess-/Gruppenraum 38
+              Nachhaltigkeit / Oekologie
+                                                                                                                                                                                                     Horteinheit S                                                                                                                                                                                           Horteinheit S                                                                                                                                                                                                           Horteinheit M
+              Der minimierte Fussabdruck und die kompakte Disposition des Baukörpers
+              bilden die Basis für ein ökologisch wie ökonomisch nachhaltiges Projekt. Die                                                                                                           WC K     WC M                                                                                                                                                                                           WC K     WC M                                                                                                                                                                                                           WC K     WC M
+              Tragstruktur wie auch die Fassaden bestehen aus einheimischem Holz und
+              kompensieren damit den Primärenergieverbrauch der wenigen in Beton
+              materialisierten Bauteile. Für diese wird generell Recyclingbeton mit CO2-                                                                                                          Themenraum 41                                                                                                                                                                                          Themenraum 41                                                                                                                                                                                                            Themenraum 41
+              reduziertem Zement verwendet. Der Überbeton der Verbunddecken, die
+              Hartbetonböden sowie der Lehmputz an den Wänden dienen als Speicher-
+                                                                                                                                                                                                                                                                                                                Wasserspiel                                                                                                                                                                                                        Wasserspiel
+              masse für ein ausgeglichenes Raumklima. Der Fensteranteil ist nutzungsbe-
+              zogen optimiert, die Textilmarkisen gewährleisten einen flexiblen und effizi-
+              enten Sonnenschutz.
+              Sämtliche Materialien sind bezüglich Nachhaltigkeit aus der Abwägung von                                                                                                                                            Bewegungsraum 38                                                                                                                                                                                        Bewegungsraum 38                                                                                                                                                                                                        Bewegungsraum 38
+              Ökologie, Lebenszyklen und Robustheit gewählt. Dabei stehen gutes Alter-
+              ungsverhalten, einfacher Unterhalt sowie ein optimaler Gebrauchswert im
+              Vordergrund. Die hauptsächlich verwendeten Materialien sind durchwegs                                                                                                                                                                                                    Sandfläche
+                                                                                                                                                                                                                                                                                                                     681
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Sandfläche
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        681
+              nachwachsend oder gut rezyklierbar. Eine konsequente Trennung von Roh-                                                                   Weg                                                                                                                                                                                                       Weg
+                                                                                                                                                       Asphalt sickerfähig                                                                                                                                                                                       Asphalt sickerfähig
+              bau, Ausbau und Installationen ermöglicht im gesamten Gebäudelebens-
+                                                                                                                                                                                                                             A                                                                                                                                                                                                       A                                                                                                                                                                                                                       A
+              zyklus die gezielte Instandsetzung oder Erneuerung sanierungsbedürftiger
+              Elemente, ohne dabei intakte Substanz zu tangieren.
+              Auf dem begrünten Dach über dem 3. OG ist eine Photovoltaikanlage instal-
+                                                                                                                                                                                                                                                                               Pfad                                                                                                                                                                                                              Pfad
+              liert. Diese deckt einen grossen Anteil des prognostizierten Strombedarfs                                                                                                                                                                                        Betonplatten                                                                                                                                                                                                      Betonplatten
+              des Hauses. Zusammen mit der Eingangsterrasse im Erdgeschoss funktio-
+              nieren die beiden Dächer auch als Retentionsvolumen.
+              Die Umgebungsgestaltung berücksichtigt die Anforderungen der Biodiver-
+              sität und schafft durch den hohen Vegetationsanteil und ökologische Aus-
+              gleichsflächen ein angenehmes Lokalklima. Der Anteil versiegelter Flächen ist
+              minimiert.                                                                                                                                                                                                                                   Holzschnitzel                                                                                                                                                                                        Holzschnitzel
+              Eine Zertifizierung nach SNBS ist möglich.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1. und 2. Obergeschoss 1:200
+              Lüftungskonzept                                                                                         Spielfeld
+              Sämtliche an den Fassaden gelegene Aufenthaltsräume werden natürlich                                   57x44.5m          Ballfang
+
+              belüftet. Alle raumhohen Fenster sind öffenbar und erlauben so im Tages-
+              betrieb eine individuell steuerbare Luftmenge. Flankiert werden sie von
+              schmalen, opaken Lüftungsflügeln, welche witterungs- und einstiegsge-                                                                                                                                                                                                                 Wildhecke                                                                                                                                                                                                          Wildhecke
+              schützt hinter der offenen Fassadenschalung liegen und mittels Querlüftung
+              eine effiziente Nachtauskühlung gewährleisten. Die innenliegende Halle
+              sowie die darum gruppierten Sanitärräume verfügen über eine einfache Zu-
+              und Abluftanlage mit Wärmerückgewinnung auf dem Dach. Unmittelbar
+              neben der Küche liegt auch deren Lüftungsgerät. Damit sind alle Wege für
+              die Medienverteilung auf ein Minimum reduziert.
+
+                                                                                                                   Gartengeschoss 1:200                                                                                                                                                                                           Erdgeschoss 1:200
+
+
+
+
+                                                                                                                                                                                                               +14.50                                                                                                                                                                                                                                                                                       +14.50
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            +10.50
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            +7.00
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            +3.50
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   680.00 = ±0.00
+
+
+
+
+              Ansicht Südost 1:200                                                                                                                                                                                                                                                       Schnitt A 1:200                                                                                                                                                                                     0        2                5                 10 m
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                       Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+32
+
+
+
+     Projekt Nr. 33
+
+     RONDOMI
+     2. Rang
+     Architektur		 STUDIO JES Architektur & Städtebau
+     			GmbH, Zürich
+
+     Landschaftsarchitektur Rosenmayr Landschaftsarchitektur
+     			GmbH BSLA, Zürich
+
+
+
+
+ Würdigung der Überarbeitung
+
+ Ein viergeschossiger kompakter Solitärbau organi-        Die Stärke des Projektes ist dessen innere Organisa-
+ siert die Tagesbetreuung mit vier nahezu identischen     tion, sowie die Aufenthaltsqualitäten der jeweiligen
+ übereinander liegenden Horteinheiten. Die Projekt-       Hortcluster. Besonders hervorzuheben ist eine zweite
+ verfassenden argumentieren mit einer typologischen       interne Verbindung, die «Finkentreppe» genannt
+ Fortschreibung der bestehenden Schule von Förde-         wird, und innerhalb der Wohnetagen eine wertvolle
+ rer Otto Zwimpfer Architekten und schlagen einen         Verknüpfung macht. Das über eine gut proportionierte
+ windmühlenartig organisierten und durch grosszügige      Halle organisierte Stockwerk bietet überall Räume mit
+ Verglasungen charakterisierten Bau vor. Das luftig       hohen Aufenthaltsqualitäten. Der Grundriss ist konse-
+ leichte Volumen steht kompakt am Hangfuss im Nor-        quent ohne Korridor von Raum zu Raum organisiert
+ den des Perimeters und lässt dadurch viel Aussenraum     und durchdacht. Innere Verglasungen und bewegliche
+ unversiegelt und öffentlich zugänglich. Nördlich des     Faltwände bieten den Nutzern flexible und hochwerti-
+ Rasenspielfeldes ausserhalb des Perimeters wird eine     ge Möglichkeiten den Hortalltag aktiv und transparent
+ neue Sitztribüne vorgeschlagen, was ein interessanter    zu organisieren. Die Farbgebung und Innenmateria-
+ Vorschlag zur Verbesserung der aktuellen Situation       lisierung ist zu überdenken und zu präzisieren. Der
+ darstellt. Östlich des Rasenspielfeldes vermittelt       Arbeitsbereich mit Sitzungs- und Büroräumlichkeiten
+ eine grosszügig konzipierte und platzbildende Umge-      des Betreuungsteams sind zentral dem Treppenhaus
+ bungsgestaltung zwischen Schulanlage, vorgeschla-        angegliedert übereinander angeordnet, was ein ho-
+ genem Hortgebäude und Boppartsweg. Eine offene           hes Mass an Funktionalität und kurze Wege möglich
+ bodennahe Eingangssituation im Halbsouterrain wird       macht. Die Anlieferung erfolgt direkt von aussen über
+ durch eine kluge vertikale Innenerschliessung, die das   die Küche und funktioniert problemlos. Ein sorgfältig
+ darüberliegende Erdgeschoss elegant mit einbezieht,      dimensionierter Vorbereich im Norden des Hauses
+ fortgesetzt.                                             lässt auch dort eine gemeinschaftliche Platzbildung
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                           33
+
+
+
+
+entstehen, die aussenäumlich gut mit seiner Umge-          Der architektonische Ausdruck macht dadurch Anklän-
+bung verknüpft ist. Die Fassadengestaltung als Wech-       ge an Freiluftschulen der Pionierzeit der Moderne, was
+selspiel von entmaterialisierend gestrichener verti-       eine angemessene Ergänzung zu den Bestandsbauten
+kaler Bretterschalung und grosszügig vorkragenden,         darstellt.
+Schatten spendenden Bauteilen an Dach und oberhalb
+der Fenster wirkt überzeugend. Als konstruktiver Son-      Ein kompakter Baukörper, ein geringer Fussabdruck
+nenschutz, Witterungsschutz der Holzhaut und innerer       sowie eine Konstruktion mit Struktur und Bekleidung in
+Raumerweiterung zugleich verleihen diese Kragbau-          Holz sind gute Voraussetzungen für einen nachhaltigen
+teile dem Projekt Leichtigkeit und Plastizität zugleich.   Bau.
+
+
+
+
+                                                                        Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+34
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   35
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+36
+
+
+
+     Projekt Nr. 33
+
+     RONDOMI
+     Zur Überarbeitung empfohlen
+
+
+
+
+ Kritik der Jury
+
+ Das vorgeschlagene Volumen steht am Hangfuss im           nicht herzustellen und direkte Wegbeziehungen zu
+ Norden des Perimeters und lässt viel Aussenraum           den grünen Aussenspielbereichen gibt es nicht. Die
+ - auch gedanklich - unberührt. Östlich des Rasenspiel-    Fassadengestaltung als Wechselspiel von vertikaler
+ feldes führt ein schmaler geplättelter Weg hin zum        Bretterschalung und liegend verschalten Bauteilen an
+ Boppartsweg. Ein ungedeckter Eingangsbereich zur          Dach und unterhalb der Fensterbänke wirkt behäbig.
+ untersten Horteinheit schliesst daran an und lässt eine   Der architektonische Ausdruck macht unbeabsichtigt
+ der Nutzung angemessene Vorplatzsituation vermis-         Anklänge an anonyme Siedlungsbauten der sechziger
+ sen.                                                      und siebziger Jahre und vermag deshalb nicht, einem
+ Die eigentliche Stärke des Projektes ist die innere       zeitgenössischen Gemeinschaftshaus für Kinder und
+ Organisation, sowie die Aufenthaltsqualitäten der         Jugendliche gestalterischen Ausdruck zu verleihen.
+ jeweiligen Hortcluster.                                   Durch den konsequent von Norden adressierten Bau
+ Dadurch dass zwei Horteinheiten eigenständig er-          wendet sich das Projekt typologisch vom attraktiven
+ schlossen sind, scheint das eher knappe bemessene         Aussenraum im Süden ab. Ergänzend zur sehr schlüs-
+ «Schmutztreppenhaus» in seinen Dimensionen                sigen Innenorganisation soll ein architektonischer
+ vertretbar. Die Lage und Anlieferung zur Küche sind       Ausdruck und eine Adressierung gefunden werden,
+ optimal, auch die Entflechtung der verschiedenen          die dem Anspruch eines Hortgebäudes an der Schwel-
+ Horteinheiten ist gut gelöst. Der Putzraum ist hin-       le von Freizeit, Familie und Quartier gerecht werden
+ gegen zu knapp bemessen.                                  kann.
+ Was dem Projekt fehlt ist eine gemeinschaftliche          Der Vorschlag eines freistehenden Geräteschuppens
+ aussenräumliche Platzbildung für Alle. Die knappe         für den Raumprogrammpunkt Aussengeräte ist nicht
+ Fläche im selbst verschatteten Norden vermag diese        erwünscht.
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                           37
+
+
+
+
+Bereinigung
+
+– RONDOMI orientiert sich zu stark an den bestehen-		      – Die Adressierung des Horts im Gartengeschoss 		
+  den schulischen Gebäuden.                                  fehlt, der nach Westen orientierte Eingang soll
+  Obwohl die Räume so proportioniert sein müssen, 		         witterungsgeschützt ausgebildet werden.
+  dass sie auch als Schulraum funktionieren, darf die 		     Weiter sollte untersucht werden, wie das Projekt 		
+  primäre Nutzung als familienergänzende und frei-           insbesondere im Gartengeschoss funktional und 		
+  zeitorientierte Tagesbetreuung sichtbar sein. Der 		       räumlich stärker auf den Aussenraum der Spiel-
+  architektonische Ausdruck des Neubaus soll eigen-          wiese eingehen kann.
+  ständig und zeitgemäss sein.                             – Der freistehende Aussengeräteraum wird vom 		
+– Durch die Anbindung nach Norden und die konse-		           Preisgericht als städtebaulich störendes Volumen 		
+  quente Schuh- und Finkenzone wendet sich das 		            in der freien Zone entlang des Boppartwegs beur- 		
+  Gebäude von den Grünflächen im Süden ab. Die 		            teilt. Der Schopf wird Kleinfahrzeuge (Bobby Cars, 		
+  Dimensionierung der Vorplätze und Durchwegung 		           Go-Karts, Kickboards u.ä.) enthalten und soll an eine
+  zu den Spielräumen draussen soll für die Anzahl der        befestigte Fläche anschliessen.
+  sich bewegenden Kinder überprüft werden.
+
+
+
+
+                                                                        Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+38
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   39
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+40
+
+
+
+     Projekt Nr. 48
+
+     DÉJEUNER SUR L'HERBE
+     3. Rang
+     Architektur		 Valentin Lang Architekt MSc ETH,
+     			Zürich
+
+
+
+
+ Die Projektverfassenden organisieren die vier Hort-        «Aussenraumkammern», die in der Lage sind, beste-
+ einheiten in einem zweigeschossigen organisch              hende Baumgruppen zu integrieren sowie durch neue
+ entwickelten Pavillonbau und schaffen für das neue         Vegetation und Spielgeräte den umgebenden Aussen-
+ Betreuungsgebäude ein «vom Unterricht der Schul-           raum allseits für Freizeitnutzungen unterschiedlicher
+ anlage abgegrenzten (...) Wohnraum im Grünen für die       Art zu aktivieren.
+ familienergänzende Tagesbetreuung». Der zurückhal-
+ tende Flachbau ist halbgeschossig versetzt und macht       Die Innenwelten sind entsprechend reich vom Umge-
+ mit seiner bewegten Gebäudekontur den Grünraum             bungsgrün geprägt, welches über die wechselhaften
+ und das Gelände erlebbar. Resultat ist eine selbstver-     Abwicklungen der Gebäudekontur nach innen dringt.
+ ständliche Volumenstaffelung, die der ortsbaulichen        Die clusterartige Organisation der vier Hortgruppen ist
+ Situation entlang der abschüssigen Wolfgangstrasse         selbstverständlich. Die jeweiligen Eingangssituationen
+ entspricht. Der bestehende öffentliche Spielplatz erhält   wahlweise über helle Garderobenbereiche zwanglos
+ im Wechselspiel mit dem neuen Hortpavillon eine            auffindbar. Dreieckige, an ihren Ecken jeweils zum
+ Aufwertung. Die Beziehung Quartier zu Hort ist nieder-     Aussenraum hin offene, Erschliessungshallen ver-
+ schwellig. Die geometrisch freie, doch sehr präzise        wandeln sich in Kombination mit den durch Faltwän-
+ Anordnung der Raumgruppen erzeugt ein genauso              de öffenbaren Themenräumen zu hervorragenden
+ spannend wie selbstverständlich gegliedertes Volu-         gemeinschaftlichen Aktionswelten. Die hellen Büros
+ men, das mittels Vor- und Rücksprüngen den Übergang        der Hortmitarbeitenden sind gut auffindbar und zentral
+ von Gebäude und Grünraum in hohem Mass sinnlich            in das Gesamtgefüge integriert. Die zentrale Treppen-
+ wirksam macht. Die Verfassenden schreiben von              anlage im Split-Level-Typus mit nach Ost und West
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                           41
+
+
+
+
+grosszügig gedeckten Zugängen schafft eine stimmige       atmosphäre von natürlichem Licht und Vegetation
+und direkte Durchdringung von aussen und innen.           unterstützt. Die zentral gut gelegene Küche lässt einen
+Die beiden erdgeschossbezogenen Einheiten lassen          angemessenen Fensteranteil vermissen und würde
+sich wahlweise unabhängig und direkt betreten. Die        durch eine direktere Verbindung zum Eingang West
+Fassadengestaltung in klassisch moderner Rahmen-          mehr Teilhabe am Alltagsleben des Hortes erhalten.
+bauweise, die schlichte Hülle aus gut proportionierten
+Holztafeln und im Besonderen die über Eck stehenden       Geringer Aushub, grossflächiger Einsatz von Holzbau-
+Fensterflächen sind eine subtile Interpretation der be-   stoffen, viel Dachfläche für PV-Anlagen, konsequente
+stehenden Architektur von Förderer, Otto und Zwimp-       Systemtrennung der Bauteile und vor allem der Vor-
+fer, was dem Projektansatz eine zusätzliche Ortsge-       schlag, Nachhaltigkeit ohne mechanische Lüftungsan-
+bundenheit verleiht. Bei der Farbgebung von Böden         lagen zu erreichen sind sehr gute Voraussetzungen für
+und Storen wäre ein ästhetisch langlebigerer Ansatz       einen nachhaltigen und wirtschaftlichen Bau.
+wünschenswert, der die verheissungsvolle Innenraum-
+
+
+
+
+                                                                        Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+42
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   43
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+44
+
+
+
+     Projekt Nr. 50
+
+     WALPURGISNACHT
+     4. Rang
+     Architektur		 Gut Deubelbeiss Architekten AG,
+     			Luzern
+
+     HLKS			                    Zurfluh Lottenbach GmbH, Luzern
+     Holzbau			                 Lauber Ingenieure AG, Luzern
+
+
+
+
+ Die Autoren erleben die bestehende Schulanlage als         Die feldseitigen Baumpflanzungen komplettieren
+ hofartigen Campus, welche geschickt in das leicht          sinnfällig, müssen aber als wenig realistisch taxiert
+ abfallende Gelände gestaffelt, mit seinem Repertoire       werden.
+ kleinteiliger Strukturen (Mauern, Pflanztröge und          Über die Brücke und die Treppenhäuser ersteigen die
+ Treppenanlagen, Arkaden) einen differenziert geglieder-    Kinder das Baumhaus- von der Krautschicht bis in die
+ ten gemeinsamen Hofraum aufspannt. Sie wünschen            Kronen - um in den Wipfeln zu leben, so das poetische
+ dieses Ensemble nordöstlich zu ergänzen, bleiben           Bild der Autorinnen. Allseitig gleich gestalten sie denn
+ dazu mit ihrem Baukörper in der Orthogonalität des         auch ihren Bau(m)körper. Sie zeigen - wohl auch dem
+ Bestandes, wahren respektvoll Abstand und binden           konstruktiven Sonnenschutz verpflichtet - die horizon-
+ ihn mit einem Brückenschlag an das bestehende Weg-         tale Schichtung der Geschosse, dazwischen betonen
+ netz an. Die Absicht der Ergänzung will weder formal       sie mit den stehenden Formaten der Fenster und vor-
+ noch inhaltlich ganz gelingen, pflegt doch ihr Vorschlag   gestellten Faltläden in einfachem Tackt die Vertikalität.
+ nicht denselben Umgang mit der Topographie, weder          Dies ist den Autoren wichtig, könnte aber im veräs-
+ als gestaffelter Baukörper noch mit begleitenden           telten Kontext auch weniger gerichtet gedacht sein.
+ Strukturen. Er bleibt, was er ist: ein kubisches Gebäu-    Auch betrieblich bleiben sie nahe am Bild des Baumes.
+ de auf flachem Grund, ein Haus in den Bäumen - ein         Eine Erschliessungscorona ummantelt die im Inneren
+ Baumhaus also. Muss folglich die These des Weiter-         dicht gepackten eigentlichen Betreuungsräume. Diese
+ bauens weitgehend verworfen werden, zeigt sich             können über Schiebetüren zusammengelegt werden
+ diejenige des Baumhauses wesentlich ergiebiger. Ein        und eine Vielzahl von Betriebsmodi ist möglich. Die
+ viergeschossiger Kubus, flankiert von zwei offenen         lichte Geschosshöhe von circa drei Metern ist hin-
+ Treppentürmen - einem hangseitigen mit Brücke              sichtlich der verschieden Raumproportionen sicherlich
+ und einem talseitigen - gesellt sich in den mächtigen      notwendig.
+ Baumbestand. Als annähernd unabhängiger Solitär mit
+ knappem Fussabdruck kann er sich nun seinen Ort im         Die Anlieferung über die Brücke ist möglichst kurzge-
+ und mit dem Baumbestand suchen, seine Anbindun-            halten, bedient direkt die Küche, welche sich ihrerseits
+ gen, die Distanz zum Rasenfeld, die Mikrotopografie        zu den Betreuungsräumen öffnet und so unmittelbar
+ behutsam auswägen. So können viele der Qualitäten          Teil des Geschehens wird, was sehr willkommen ist.
+ des Ortes bewahrt und ergänzt werden.                      So einfach und inspirierend sich das variable Raum-
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                            45
+
+
+
+
+konzept anbietet, zeigt es sich doch in verschiedenen       Holz- Beton - Hybridbauweise ist weit entwickelt, setzt
+betrieblichen Belangen wenig überzeugend. Mit               Beton gerichtet und zurückhaltend ein. Die Fassade ist
+Zwischenwänden werden die Wege zu Toiletten,                ebenso konsequent wie konventionell in Holz gehalten
+Garderobe und Zahnputzraum lang - ohne sind und             und sorgt für konstruktiven Sonnenschutz. Als vierge-
+werden die einzelnen Gruppen gestört. Auch die bei-         schossiger Baukörper auf geringem Fussabdruck weist
+den Treppentürme führen aufgrund ihrer dezentralen          er ein günstiges Oberflächen-Volumenverhältnis auf.
+Lage zu langen Wegen. Annähernd der gesamte Gar-            Obschon schlüssig entwickelt, hält sich der Innovati-
+derobenbereich, also der äussere Umgang, muss als           onsgehalt der Haustechnik in Grenzen. Das Potential,
+Schmutzzone betrachtet werden, was die funktionale          welches die Raumschichtung hinsichtlich natürlicher
+Vielschichtigkeit konterkariert. Ein Finkenbetrieb über     Lüftung, Bauteilaktivierung oder Nachtauskühlung
+das ganze Haus ist nicht denkbar. Die innere Haut ist       bieten mag, wird nicht ausgelotet.
+der natürlichen Belichtung wegen vollverglast. Diese
+Transparenz ist in ihrer Vollständigkeit nicht erwünscht,   Der Beitrag findet mit der These des Hauses als Baum
+da die Intimität eingebüsst und die Möblierbarkeit auf      in den Bäumen contre coeur zu einer unabhängigen
+die Innenwände beschränkt wird, welche ihrerseits als       Position und setzt diese vielschichtig um. Variable
+mobile Strukturen hierfür auch wenig dienlich sind.         Strukturen eröffnen erzählerisch eine anregende
+                                                            Nutzungsbreite, lassen aber wesentliche betriebliche
+Vier Betontürme - Stämmen nicht unähnlich - rotations-      Anforderungen unbeantwortet. Dennoch gelingen
+symmetrisch angeordnet, spannen die quadratischen           ein kluger Vorschlag und eine wertvolle Auseinander-
+Geschossebenen ein, steifen damit das Gebäude aus           setzung zur Aufgabe im Allgemeinen und zum Ort im
+und vermögen auch innenräumlich zu gliedern. Die            Spezifischen.
+
+
+
+
+                                                                         Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+46
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   47
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+48
+
+
+
+       Projekt Nr. 30
+
+       Zaunkönigin
+       5. Rang
+        Architektur		 Johannes Walterbusch Architektur,
+        			Zürich
+
+
+
+
+     Die Zaunkönigin sitzt auf der ganzen Breite zwischen       Beim Versuch einer Einordung der architektonischen
+     Spielfeld und Spielplatz. Um über den städtebaulichen      Qualitäten fällt das Projekt durch seinen vielleicht
+     Ansatz zu sprechen, muss man einen Blick in die Pro-       etwas zeitgeistigen Ausdruck auf. Dies ist aber nicht
+     grammierung des Projektes vorwegnehmen. Wenn im            prioritär, da die Tagesbetreuung auf einer durchdachten
+     ersten Moment die kontextuelle Verknüpfung mit dem         Organisation beruht.
+     Ort und seiner Umgebung auf der städtebaulichen            Über dem gemeinschaftlichen, frei bespielbaren und
+     Ebene vielleicht etwas vermisst wird, kann das Projekt     offenen Erdgeschoss mit der Küche ruhen die beiden
+     dem Ort eine neue Bedeutung geben. Das zentrale            Obergeschosse auf einer klaren Struktur. Über eine
+     Anliegen der Autorenschaft ist, einen gemeinsamen          durchgehende Mittelzone sind links und rechts Raum-
+     Ort mit einem offenen Erdgeschoss für die Tagesbe-         taschen angeordnet, die sich geschickt als Grossraum
+     treuung, die Schule und das Quartier, anzubieten.          oder als Einzelräume bespielen lassen. Mit den beid-
+     Durch ein freies Erdgeschoss läuft die Topografie          seitigen Fensterbändern entstehen zwei lichtdurchflu-
+     unter dem Baukörper durch und die Zaunkönigin hebt         tete Ebenen mit Sichtbezügen über das Spielfeld und
+     sich mit den beiden Obergeschossen geschickt in die        in die Bäume des Spielplatzes.
+     Ebene der Baumkronen.                                      Das offene Erdgeschoss wird im Alltag zu einem Ort
+     Das Projekt versucht nicht, auf das denkmalgeschützte      des Ankommens für alle Kinder. Ob es regnet oder die
+     Schulareal mit seiner zeitlich verankerten Architek-       Sonne scheint, er wird zum kollektiven Treffpunkt. Die
+     tursprache einzugehen. Es nimmt das heterogene             Küche im Zentrum bekommt insbesondere für Anlässe
+     Quartier oder die Stadt als Vorbild für seinen typologi-   im Freien eine besonders schöne Bedeutung. Leider
+     schen Ansatz einer autonomen und individualisierten        ist die Küche im Erdgeschoss für die Kinder kaum
+     Architektur.                                               Teil des gemeinsamen Alltags und liegt auch für die
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                              49
+
+
+
+
+betrieblichen Abläufe zu peripher. Die Anlieferung über      Trotz seinem grossen Fussabdruck und seiner Ab-
+einen Lift im 1. Obergeschoss ist nicht überzeugend.         wicklung der äusseren Haut hat das Projekt durch die
+Weiter sind die notwendigen Nebenräume ungenü-               Einfachheit eines additiven Prinzips ein grosses ökono-
+gend und im Untergeschoss nicht unmittelbar an die           misches Potenzial. Die Obergeschosse sind in seiner
+funktionalen Abläufe angebunden.                             strukturellen Reduktion auch für Nutzungsänderungen
+Die zwei primären Nutzungsgeschosse befinden sich,           hervorragend geeignet.
+abgelöst vom offenen Erdgeschoss, in den beiden
+Obergeschossen. Vertikal sind die Obergeschosse              Auf der Ebene der Materialität bildet der gut ausgear-
+über äussere Treppen an den beiden Enden erschlos-           beitete Konstruktionsansatz mit einem Wechsel eines
+sen. In der Mitte wird mit einer inneren Erschliessung       Massivbaus im Erdgeschoss zu einem Holzbau in den
+die infrastrukturelle Verbindung direkt hergestellt und      Obergeschossen bereits eine überzeugende Antwort
+die beiden Obergeschosse mit einer Finkentreppen im          auf die anstehende Verantwortung bezüglich eines
+Alltag ideal verbunden.                                      ressourcenschonenden Materialeinsatzes.
+Die einzelnen Horteinheiten werden jeweils über eine
+Halle von den Garderoben erschlossen. Die Räume für          Das Projekt zeugt von einer hohen Fähigkeit die Aufga-
+die Tagesbetreuung sind zu beiden Seiten in einem of-        be von Architektur mit zusätzlichen Inhalten zu füllen
+fenen System mit Faltwänden flexibel bespielbar. Der         und dies in eine frische und leichtfüssige Sprache zu
+strukturierte Grundriss entpuppt sich als gut organisiert    verwandeln. Die Idee dem Ort und der Gesellschaft
+und sehr vielfältig nutzbar. Dieser ist bis zu einer opti-   mehr Möglichkeiten anzubieten, als das Raumpro-
+malen Adaption in Schulräume überzeugend möglich.            gramm einfordert, ist sehr bemerkenswert.
+
+
+
+
+                                                                           Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+50
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   51
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+52
+
+
+
+       Projekt Nr. 54
+
+       RUFUS
+       6. Rang
+        Architektur		 Häni Joho Birchler
+        			Architekten GmbH, Zürich
+
+        Energieplanung 		           S3 GmbH, Dübendorf
+
+
+
+
+     RUFUS nimmt als zweigeschossiger Körper auf dem          Die Qualität von RUFUS liegt in der Idee, jede der vier
+     nördlichen Teil des Perimeters seinen Platz ein. Der     Einheiten als ein Haus mit ebenerdigem Zugang zu
+     pavillonartige Bau nähert sich auf der Nordseite dem     organisieren. Mit der räumlichen Formulierung einer
+     Topografiesprung mit der unteren Erschliessung der       zweigeschossigen Eingangshalle wird der jeweiligen
+     Schulanlage. Im Süden entsteht ein kleiner Vorbereich,   Einheit sein Herz implantiert und so für die Kinder ihr
+     der eine räumliche Verbindung der Spielwiese und des     Hort zu ihrem Haus. Ein Ansatz, der in seinem räum-
+     Spielplatzes zulässt.                                    lichen Wesen für die Kinder eine direkt erfahrbare
+     Die Idee des Projektes ist eine Addition von anein-      Qualität entwickeln kann.
+     andergereihten Häusern für die Tagesbetreuung. Bei       Das additive Prinzip der einzelnen Häuser ermöglicht
+     einem ordnenden Prinzip der Reihung muss auf der         eine horizontale Erweiterung jeder Einheit auf beiden
+     städtebaulichen Ebene die Frage nach dem Anfang          Geschossen. Zusammen mit der vertikalen Organi-
+     bzw. dem Ende gestellt werden. Im Süden reagiert         sation des jeweiligen Hortes führt dies zu einem
+     der Körper abgesehen von einem axialen Zugang zum        Bewusstsein auch Teil eines Ganzen zu sein. Diese
+     Büro kaum auf den gestalteten Vorplatz. Im Norden        Möglichkeit einer täglichen Entdeckungsreise kann
+     wäre das Prinzip gefordert auf den anspruchsvollen       die Raumorganisation geschickt anbieten.
+     Übergang zum Terrainversprung einzugehen. Leider
+     kann der durchaus schwierige Übergang weder räum-        Die Abläufe im Alltag einer Horteinheit sind aus der
+     lich noch von seiner architektonischen Formulierung      Perspektive der Kinder überzeugend und klar. Für die
+     restlos überzeugen.                                      Betreuung ist die Aufteilung über zwei Geschosse und
+     Obschon die Autoren erwähnen, dass ihr Projekt als       den jeweils kaum einsehbaren Räumen mit einem
+     eine Interpretation der bestehenden Schulanlage mit      erhöhten Aufwand verbunden.
+     deren Erschliessung gedacht ist, wirkt es eher als       Betrieblich sind die Erschliessung der Küche und die
+     eigenständiger Pavillon in der Gesamtanlage.             Verteilung der Mittagessen über die jeweiligen Einhei-
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                           53
+
+
+
+
+ten nicht ideal und kann zu einem störenden Faktor im     von ineinandergreifenden Dreiecksflächen im Dach,
+Alltag führen.                                            können in seiner innenräumlichen Qualität überzeu-
+Die verteilte Lage der Küche sowie der gemeinsamen        gen. Letztendlich wirken sie aber zu wenig präzis und
+Büros am Rande der Struktur, werden ihrer Bedeutung       werden konstruktiv mit einem hohen Aufwand verbun-
+nicht ganz gerecht und sind für die Öffentlichkeit kaum   den sein. Weiter ist eine Belichtung in der Faltung für
+auffindbar. In der Logik der Einzelhäuser hätte eine      diese Dimension und Nutzung kaum als Gewinn zu
+eigenständige Organisation in einer Einheit ev. zu mehr   sehen.
+Klarheit geführt.                                         Weiter ist diese Typologie der Einzelhäuser etwas im
+                                                          Widerspruch zu einer nutzungsneutralen Struktur.
+Das Projekt RUFUS beeindruckt durch ein sehr              So besteht die Möglichkeit einzelne Einheiten in
+kompaktes Volumen und einer dichten Organisation          Zukunft auch als Schulräume zusammen zu schalten.
+der Räume. An die zweigeschossige Eingangshalle           Die Raumstruktur entfaltet seine Qualität aber in der
+mit den Garderoben reihen sich im EG und im OG            heutigen Nutzung und nicht in einer Erweiterung der
+sämtliche Räume ohne grosse Erschliessungsflächen         Schulnutzung.
+aneinander.
+                                                          RUFUS ist ein Projekt, das mit seiner Idee von «einem
+Das Projekt wird in einem Holzbau erstellt. Ein Vor-      Haus für jedes Kind» eine überzeugende räumliche
+schlag, der für die Bauaufgabe auf der Hand liegt und     Komplexität erreicht. Das interessante Geflecht von
+überzeugt. Auch wird mit den umlaufenden Lauben-          Zugehörigkeit zum Einzelnen und der Aneignung des
+gängen der konstruktive Wetterschutz ideal mit einem      Ganzen bereichert die Wahrnehmung der Kinder. In
+funktionalen Mehrwert verbunden.                          seiner architektonischen Formulierung stellt das fast
+Etwas zum Widerspruch der Einfachheit des konstru-        schon pädagogische Konzept einen sehr wertvollen
+ktiven Einsatzes von Holz, wird der Umgang mit der        Beitrag dar.
+Dachgeometrie gesehen. Den alternierenden Wechsel
+
+
+
+
+                                                                        Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+54
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   55
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+56
+
+
+
+       Projekt Nr. 17
+
+       Kleeblatt
+       engere Wahl
+        Architektur		 Ospelt Strehlau Architekten AG,
+        			Schaan (LI)
+
+
+
+
+     Der Neubau orientiert sich an der campusartigen         angeliefert werden. Parkplätze befinden sich entlang
+     Schulanlage aus den 1960er-Jahren. Das kompakte         der Wolfgangstrasse und werden von hochstämmigen
+     Volumen - im Massstab der bestehenden Trakte - dockt    Bäumen gesäumt. Alle Betreuungsräume weisen
+     an die Erschliessung der Turnhalle an. Die gegenüber    einen direkten Zugang zum Freiraum auf.
+     dem Boppartsweg zurückversetzte, präzise Setzung
+     des viergeschossigen Baukörpers mit geringem            Das Punktgebäude ist mit Vor- und Rücksprüngen
+     Fussabdruck ermöglicht einen durchgängigen, gut         ähnlichen der Bestandesbauten wohlproportioniert
+     besonnten Aussenraum mit Spielwiese, Trockenplatz       gegliedert. Das Gebäude ist einfach aufgebaut und
+     und bepflanztem Grünbereich. Auf der Südseite ist das   ermöglicht gute Betriebsabläufe. Die vier Horteinheiten
+     Sockelgeschoss ab dem Boppartsweg für die Aus-          sind auf vier Geschosse verteilt. Die Betreuungsräume
+     senaktivitäten auf dem Spielplatz und der Spielwiese    sind übersichtlich angeordnet. Die Küche befindet sich
+     direkt zugänglich. Nordseitig kann das Erdgeschoss      im Erdgeschoss an zentraler Lage in unmittelbarer
+     ab der Wolfgangstrasse optimal erschlossen und          Nähe zur Anlieferung. Der Eingangsbereich und der
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                          57
+
+
+
+
+Zugang zur Küche sind sehr eng - eine Entflechtung ist   Das kompakte Bauvolumen, das durchgängige Trag-
+kaum möglich. Der Zugang im Sockelgeschoss durch         system und die einfache Gebäudeform versprechen
+den Windfang zu den Garderoben, Nass- und Trocken-       eine hohe Wirtschaftlichkeit.
+bereich nicht getrennt, muss bemängelt werden. Die
+Büroräumlichkeiten wie auch das Reinigungslager sind     Insgesamt basiert das Projekt Kleeblatt auf einer inte-
+zu klein dimensioniert.                                  ressanten Grunddisposition, doch die Verkehrsflächen
+                                                         sind sehr knapp bemessen.
+Das Haus ist in Holz materialisiert, verfügt über eine
+gute Nutzungsdichte und einen angemessenen Fens-
+teranteil in Bezug zur Fassadenfläche, somit können
+die Anforderungen bezüglich der Nachhaltigkeit gut
+erfüllt werden.
+
+
+
+
+                                                                       Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+58
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   59
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+60
+
+
+
+     Projekt Nr. 45
+
+     baumboppi
+     engere Wahl
+     Architektur		 bürge wendel architekten gmbh,
+     			Weinfelden
+
+     Landschaftsarchitektur     Martin Klauser, Rorschach
+     Holzbau / Brandschutz      Krattiger Engineering AG, Happerswil
+     Haustechnik		              Eisenbart + Partner AG, Münchwilen
+
+
+
+
+ Der quadratische drei- respektive viergeschossige      gangsplatz, halbgeschossig abgesenkt und leider, was
+ Baukörper wir axial zur Spielwiese situiert. Diese     sehr ungünstig ist, vom Schulbetrieb abgekoppelt. Die
+ Platzierung bildet zwei gut proportionierte und gut    zentrale Funktion und Lage der Küche ist nicht erfüllt
+ besonnte Zugangsbereiche aus. Gegen Norden, ab der     - der Küchenbetrieb ist für die Kinder nicht erlebbar.
+ Turnhallenerschliessung, mit Anlieferungsmöglichkeit   Die vier Horteinheiten sind übereinander organisiert.
+ und gegen Süden, ab dem Boppartsweg, entstehen         Jede Horteinheit ist über eine zentrale Halle erschlos-
+ Aussenräume mit guter Aufenthaltsqualität. Gegen       sen. Faltwände ermöglichen eine flexible Zuschaltung
+ Osten kann der bestehende Spielplatz mit schönem       der umliegenden Räume zum zentralen Raum und
+ Baumbestand harmonisch angeschlossen werden.           belichten diesen zusätzlich. Die beiden oberen Horte
+ Die Sockelmauer der Turnhalle wird ums Eck geführt     verfügen über einen gedeckten Aussenraum als
+ und bildet die Zugangsterrasse zum Neubau.             Angebot zum fehlenden ebenerdigen Aussenbezug.
+                                                        Eine interne Servicetreppe fürs Personal verbindet
+ Jeweils zwei Horteinheiten werden über den nördli-     die Horteinheiten und den Personalbereich mit Küche
+ chen- respektive südlichen- Aussenraum erschlossen,    und Lager. Schmutz- und Trockenbereiche sind sauber
+ ebenerdig oder über gedeckte Aussentreppen. Die        getrennt.
+ Küche verbirgt sich im Sockelbereich unter dem Zu-
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                             61
+
+
+
+
+Robuste und rohe Materialien bestimmen das Er-
+scheinungsbild im Inneren und Äusseren. Der vierge-
+schossige Baukörper ist als Holzelementbau konzipiert,
+Pfosten und Unterzüge aus Fichte, Zwischendecken
+und Dach als Holz-Beton-Verbund. Durch die Wahl der
+Konstruktion und den gradlinigen Lastabtrag durch das
+ganze Gebäude ist eine kurze Bauzeit und hohe Flexibi-
+lität in Zukunft gewährleistet.
+
+Der Projektvorschlag zeigt interessante Teilaspekte wie
+die individuellen Erschliessungen der Horte oder der
+asymmetrische Aufbau des Punkthauses im Grundriss
+und Aufriss. Durch den mehrgeschossigen Luftraum
+über den Aussenerschliessungen wirkt das Volumen
+wuchtig und sehr dominant. Insgesamt vermag baum-
+boppi nicht zu überzeugen.
+
+
+
+
+                                                          Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+62
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                   63
+
+
+
+
+Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+64
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                      65
+
+
+
+
+13 Alle Projekte
+
+
+
+
+                   Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+66
+
+
+
+       Projekt Nr. 01
+
+       Country House
+
+        Architektur		 Architekturbüro Kontext,
+        			Moskau (RUS)
+
+
+
+
+       Projekt Nr. 02
+
+       'Chelonia'
+
+        Architektur		 Patrick Arnold Architekt ETH,
+        			Zürich
+
+
+
+
+       Projekt Nr. 03
+
+       Judy
+        Architektur		 Arge Gauves
+        			Arbeitsgemeinschaft Gautschi - Vesely,
+        			Zürich
+
+        Landschaftsarchitektur AG für Landschaft, Zürich
+        Bauingenieur 		        Bänziger Partner AG, Zürich
+        Bauphysik		            Kopitsis Bauphysik AG, Wohlen
+        HKLS			                PFENNINGER & PARTNER,
+        			Zürich 		
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                          67
+
+
+
+Projekt Nr. 04
+
+sorellina
+
+Architektur		 Studio 21 ARGE
+			           Treier Architekten AG & Kontrastfabrik
+			GmbH, St.Gallen
+Mitarbeit		   Andreas Treier, St.Gallen
+			Pascal Zöllig, Fischenthal
+
+
+
+
+Projekt Nr. 05
+
+blaues Wunder
+
+Architektur		       Studio VGM, Stuttgart (DE)
+
+
+
+
+Projekt Nr. 06
+
+Tiramisu
+Architektur		 dipl. arch USI Ilinca Maican,
+			Bukarest (RO)
+
+
+
+
+                                                       Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+68
+
+
+
+     Projekt Nr. 07
+
+     DUPLO
+
+     Architektur		 ARGE Bianca Anna Boeckle
+     			           Architektur / Studio David Klemmer,
+     			Zürich
+
+
+
+
+     Projekt Nr. 08
+
+     LICHTSPIEL
+
+     Architektur		              mw-plan UG, Berg (DE)
+
+
+
+
+     Projekt Nr. 09
+
+     DON
+     Architektur		 Tekura - Architektur & Kontext
+     			Alexander Albertini
+     			Architekten ETH/FH, Zürich
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                            69
+
+
+
+Projekt Nr. 10
+
+MEXIKO
+
+Architektur		       STUDIO VLORA, Zürich
+
+HLKS 			            Visani Rusconi Talleri SA, Taverne
+
+
+
+
+Projekt Nr. 11
+
+Rotonda
+
+Architektur		 kimlim architekten eth/sia gmbh,
+			St.Gallen
+
+
+
+
+Projekt Nr. 12
+
+Bobbie
+Architektur		 Cristuzzi Architektur AG
+			Atelier Lietha, Zürich
+
+
+
+
+                                                         Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+70
+
+
+
+       Projekt Nr. 13
+
+       BELLEVUE
+
+        Architektur		               Stadler Zlokapa GmbH, Basel
+
+
+
+
+       Projekt Nr. 14
+
+       Tiger & Bär
+
+        Architektur		 Locher Architekten GmbH,
+        			Appenzell
+
+
+
+
+       Projekt Nr. 15
+
+       Figgi + Müli (1)
+        Architektur		 Philip Loskant Architekt ETH / SIA,
+        			Zürich
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                71
+
+
+
+Projekt Nr. 16
+
+nidum
+
+Architektur		 laterza graf baupartner ag
+			           Dipl. Architekten ETH HTL HF SIA,
+			Zürich
+Mitarbeit		   Diana Virga, Gian Piero Laterza
+
+Landschaftsarchitektur SIMA ¦ BREER GmbH, Winterthur
+Haustechnik / Bauphysik Wirkungsgrad Ing., Rapperswil-Jona
+Holzbau / Brandschutz PIRMIN JUNG, Holzbau, Frauenfeld
+
+
+
+
+Projekt Nr. 17
+
+Kleeblatt
+engere Wahl
+Architektur		 Ospelt Strehlau Architekten AG,
+			Schaan (LI)
+
+
+
+
+Projekt Nr. 18
+
+Pinwheel
+Architektur		           Studio Lindström, Zürich
+
+
+
+
+                                                             Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+72
+
+
+
+       Projekt Nr. 19
+
+       GASTON
+
+        Architektur		               om:ma Architekten, Zürich
+
+        Landschaftsarchitektur om:ma Architekten, Zürich
+        Holzbau			             Holzbaubüro Reusser GmbH,
+        			Winterthur
+
+
+
+
+       Projekt Nr. 20
+
+       STRAWBERRY FIELDS
+
+        Architektur		               ARGE: Garbizu Collar Architecture
+        			                         KLG + Miriam Stierle, Basel
+
+        Bauingenieurwesen SCHNETZER PUSKAS INGENIEURE,
+        			Basel
+        HLKS-E Ingenieur  ABICHT ZUG AG, Zug
+
+
+
+
+       Projekt Nr. 21
+
+       AMADEA
+        Architektur		 Via Crux Ventus, Zürich
+        			Arbeitsgemeinschaft Nadine Weger,
+        			Eliane Windlin und Susanne Croce
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                              73
+
+
+
+Projekt Nr. 22
+
+Verde y Vivo
+
+Architektur		 ARGE Pascal Müller Architekt GmbH
+			und Sandro Inauen, St.Gallen
+
+Landschaftsarchitektur PR Landschaftsarchitektur GmbH,
+			Arbon
+Tragwerk / Brandschutz B3 Kolb AG, Romanshorn
+
+
+
+
+Projekt Nr. 23
+
+SYÖMÄÄN
+
+Architektur		 Maja Hodel Architektin MSc ETH, 		
+			Zürich
+
+Holzbau			             WAM Planer + Ingenieure AG, Bern
+Visualisierungen		     studio épicéa
+
+
+
+
+Projekt Nr. 24
+
+foglia
+1. Rang
+Architektur		 Allemann Bauer Eigenmann
+			           Architekten AG, Dipl. Architekten ETH
+			SIA BSA, Zürich
+
+Landschaftsarchitektur Mettler Landschaftsarchitektur,
+			Gossau
+Holzbau / Brandschutz B3 Kolb AG, Romanshorn
+HLKKS 		               Edwin Keller + Partner AG, Gossau
+Baumanagement          Baukom AG, St.Gallen
+
+
+
+
+                                                           Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+74
+
+
+
+     Projekt Nr. 25
+
+     IN and OUT
+
+     Architektur		 wulf architekten gmbh Stuttgart,
+     			Basel
+
+
+
+
+     Projekt Nr. 26
+
+     TABO
+
+     Architektur		 ARGE Brandenberger Kloter
+     			Architekten AG, Basel
+     			André Campos.Joana
+     			Mendes - Arquitectos, Porto, (PT)
+
+     HLS			                     Häusler Ingenieure AG, Langenthal
+
+
+
+
+     Projekt Nr. 27
+
+     SPIELRAUM
+     Architektur		 Oeschger Schermesser Architekten
+     			os.arch GmbH, Zürich
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                      75
+
+
+
+Projekt Nr. 28
+
+FIGGI UND MÜLI (2)
+
+Architektur		 ARGE
+			           Cyrill Zugliani, Arch. MSc ETH SIA
+			Laura Zgraggen, Arch. MA FHNW,
+			Chur
+
+
+
+
+Projekt Nr. 29
+
+KONTINUUM
+
+Architektur		       Kollektiv Palinpsao, Bern
+
+
+
+
+Projekt Nr. 30
+
+Zaunkönigin
+5. Rang
+Architektur		 Johannes Walterbusch Architektur,
+			Zürich
+
+
+
+
+                                                   Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+76
+
+
+
+     Projekt Nr. 31
+
+     weitergestrickt
+
+     Architektur		 Schönenberger Architektur,
+     			Ebnat-Kappel
+     Mitarbeit 		  KUNSTWERKSTATT ¦ Architektur +
+     			Gestaltung, Ebnat-Kappel
+
+
+
+
+     Projekt Nr. 32
+
+     Les Pilotis
+
+     Architektur		 Jung Berger Architekten GmbH und
+     			Studio UH GmbH, St.Gallen
+
+     Landschaftsarchitektur     Jacqueline Kissling, Staad
+     Holzbau			                 Klauser Holzplan GmbH, Degersheim
+
+
+
+
+     Projekt Nr. 33
+
+     RONDOMI
+     2. Rang
+     Architektur		 STUDIO JES Architektur & Städtebau
+     			GmbH, Zürich
+
+     Landschaftsarchitektur Rosenmayr Landschaftsarchitektur
+     			GmbH BSLA, Zürich
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                               77
+
+
+
+Projekt Nr. 34
+
+MOMO
+
+Architektur		          Studio Bellaria, Zürich
+
+Landschaftsarchitektur Heinrich Landschaftsarchitektur 		
+			GmbH, Winterthur
+Nachhaltigkeit		       Lemon Consult AG, Zürich
+Gebäudetechnik		       Huustechnik Rechberger AG, Zürich
+Bauingenieur		         Synaxis AG, Zürich
+
+
+
+
+Projekt Nr. 35
+
+CAELI
+
+Architektur		          Murtezi Architekten GmbH, Goldach
+
+
+
+
+Projekt Nr. 36
+
+TAMINA DAS TREIBHOLZ
+
+Architektur		 ARGE Morris Enzmann,
+			           Andrea Giger, Ludwig Hänssler,
+			Marius Oneta Zürich
+
+
+
+
+                                                            Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+78
+
+
+
+     Projekt Nr. 37
+
+     KASIMIR
+
+     Architektur		              TB ARCH GmbH, Zürich
+
+
+
+
+     Projekt Nr. 38
+
+     LEITERSPIEL
+
+     Architektur		    BRYUM GmbH, Basel
+     Mitarbeit		      Daniel Baur, Sela Tamar Farner, Sabrina
+     			Fuchs, Andreas Marcel Bachmann
+     Holzbau 		       holzprojekt gmbh, Basel
+     Bauingenieur		   Weber +Brönnimann Bauing. AG, Bern
+     Haustechnik		    Grünig + Partner, Liebefeld-Bern
+     Brandschutz		    Amstein + Walthert Bern AG, Bern
+     Nachhaltigkeit		 Durable GmbH, Zürich
+
+
+
+
+     Projekt Nr. 39
+
+     LOGGIA
+     Architektur		 M.Arch. Alejandro Garin Odriozola,
+     			Basel
+
+     Bauingenieur		 Ferrari Gartmann AG, Chur
+     Haustechnik		  WALDHAUSER + HERMANN AG,
+     			Münchenstein
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                              79
+
+
+
+Projekt Nr. 40
+
+Lichtkegel
+
+Architektur		       DÜRIG AG, Zürich
+
+Generalplanung		    uas ag - unternehmen für architektur
+			                 und städtebau ag, Zürich
+
+
+
+
+Projekt Nr. 41
+
+MURMELI
+
+Architektur		       Brunner & Larocca AG, Winterthur
+Mitarbeit		         Carmen Föhn
+
+
+
+
+Projekt Nr. 42
+
+elsa
+Architektur		 Christian Miller Architekt,
+			Schlier (DE)
+
+
+
+
+                                                           Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+80
+
+
+
+     Projekt Nr. 43
+
+     SIRO
+
+     Architektur		 Andreas Thalmann Architekt,
+     			Winterthur
+
+
+
+
+     Projekt Nr. 44
+
+     CUR NON
+
+     Architektur		 Gähler Flühler Architekten AG
+     			BSA SIA, St.Gallen
+     Mitarbeit		   Diego Gähler, Bernhard Flühler,
+     			           Andreas Fankhauser, Matthias Noger,
+     			Dario Chiarello
+
+
+
+
+     Projekt Nr. 45
+
+     baumboppi
+     engere Wahl
+     Architektur		 bürge wendel architekten gmbh,
+     			Weinfelden
+
+     Landschaftsarchitektur     Martin Klauser, Rorschach
+     Holzbau / Brandschutz      Krattiger Engineering AG, Happerswil
+     Haustechnik		              Eisenbart + Partner AG, Münchwilen
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                               81
+
+
+
+Projekt Nr. 46
+
+FUCHUR
+
+Architektur		 Isler Gysel Architekten
+			Dipl. Architekten ETH SIA, Zürich
+
+Ingenieur Holzbau   PIRMIN JUNG Schweiz AG, Sargans
+
+
+
+
+Projekt Nr. 47
+
+OTAVA
+
+Architektur		       ARGE
+			                 Simon Mahringer, Dipl. Arch. ETH &
+			                 Opus Architecture Ltd., Helsinki (FI)
+
+
+
+
+Projekt Nr. 48
+
+DÉJEUNER SUR L'HERBE
+3. Rang
+Architektur		 Valentin Lang Architekt MSc ETH,
+			Zürich
+
+
+
+
+                                                            Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+82
+
+
+
+       Projekt Nr. 49
+
+       SCHNEGGEHUUS
+
+        Architektur		 Dähler Dietschweiler Architekten,
+        			Zürich
+
+
+
+
+       Projekt Nr. 50
+
+       WALPURGISNACHT
+       4. Rang
+        Architektur		 Gut Deubelbeiss Architekten AG,
+        			Luzern
+
+        HLKS			                     Zurfluh Lottenbach GmbH, Luzern
+        Holzbau			                  Lauber Ingenieure AG, Luzern
+
+
+
+
+       Projekt Nr. 51
+
+       SILBERMÖVE
+        Architektur		 atelier 4036 GmbH
+        			Architekt*innen ETH SIA, Zürich
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                           83
+
+
+
+Projekt Nr. 52
+
+BOPP ART
+
+Architektur		 ARGE
+			           studio te GmbH, Zürich
+			Architectum GmbH, Luzern
+
+
+
+
+Projekt Nr. 53
+
+N°6
+
+Architektur		 markus jandl_architekten,
+			Zürich
+
+Beratung Lüftung    3-Plan Haustechnik AG, Winterthur
+
+
+
+
+Projekt Nr. 54
+
+RUFUS
+6. Rang
+Architektur		 Häni Joho Birchler
+			Architekten GmbH, Zürich
+
+Energieplanung 		   S3 GmbH, Dübendorf
+
+
+
+
+                                                        Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+84
+
+
+
+       Projekt Nr. 55
+
+       Amerigo Vespucci
+
+        Architektur		 Nigg & Raffainer Architekten ETH,
+        			Zürich
+
+
+
+
+       Projekt Nr. 56
+
+       ORION
+
+        Architektur		               Seifert Architekten, Zürich
+
+        Landschaftsarchitektur Mettler Landschaftsarchitektur AG,
+        			Gossau
+        HLKKS-Planung		             Iten Gebäudetechnik GmbH, Buttikon
+        Holzbauingenieur LIGNITEC Ingenieurbüro für Holzbau,
+        			Gossau
+
+
+
+
+       Projekt Nr. 57
+
+       nibling
+        Architektur		 Architekturbüro Püntener,
+        			Zürich
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                             85
+
+
+
+Projekt Nr. 58
+
+ASTAIRE
+
+Architektur		 CSA Christoph Schmid
+			Architekt ETH/SIA, Zürich
+
+
+
+
+Projekt Nr. 59
+
+Perennia
+
+Architektur		    Lejon Kriman, Zürich
+
+
+
+
+Projekt Nr. 60
+
+Cailler
+Architektur		    Tudor Munteanu, Zürich
+
+
+
+
+                                          Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+86
+
+
+
+       Projekt Nr. 61
+
+       TATAMI
+
+        Architektur		               3C Architektur GmbH, Baden
+
+
+
+
+       Projekt Nr. 62
+
+       Desiderio
+
+        Architektur		               Alessandra Villa Architektur, Zürich
+
+        Haustechnik 		              Technik im Bau AG, Luzern
+
+
+
+
+       Projekt Nr. 63
+
+       ANDERSON
+        Architektur		 Elena Rucsandra Zara - birou
+        			individual de arhitectura,
+        			Bukarest (RO)
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                     87
+
+
+
+Projekt Nr. 64
+
+FORUM
+
+Architektur		            studiospazio
+			                      Tao Baerlocher Architekt ETHZ, Zürich
+
+Holzbau / Brandschutz    PIRMIN JUNG Schweiz AG, Sargans
+HLKS / Nachhaltigkeit    Raumanzug GmbH, Zürich
+
+
+
+
+Projekt Nr. 65
+
+BOPPARTSBROGG
+
+Architektur		            Joaquin Hurtado Architekt, Luzern
+
+Landschaftsarchitektur   Cadrage Landschaftsarchitektur, Zürich
+HLKS			                  Beat Dellenbach, Luzern
+Umweltingenieur          Alain Greter, Luzern
+
+
+
+
+Projekt Nr. 66
+
+PRIMITO
+Architektur		            Focketyn del Rio Studio, Basel
+
+Landschaftsarchitektur Neuland ArchitekturLandschaft
+			GmbH, Zürich
+Lüftungskonzept        Waldhauser+Hermann AG, St.Gallen
+Statik			              Schnetzer Puskas Ing. AG, Basel
+Fassadenplanung        xmade GmbH, Basel
+Baumanagement          Drees & Sommer Schweiz AG, Zürich
+
+
+
+
+                                                                  Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+88
+
+
+
+     Projekt Nr. 67
+
+     NIMA
+
+     Architektur		              Duo Plus, Zürich
+
+
+
+
+     Projekt Nr. 68
+
+     JOHANN
+
+     Architektur		 Kocher Minder Architekten,
+     			Steffisburg
+
+     Landschaftsarchitektur w+s Landschaftsarchitekten AG,
+     			Solothurn
+     Holzbauingenieur       Timbatec Holzbauing. Schweiz AG,
+     			Bern
+
+
+
+
+     Projekt Nr. 69
+
+     RAUPE NIMMERSATT
+     Architektur		 Inhelder Osterwalder Architekten,
+     			Biel
+
+
+
+
+ Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+                                                                                                                  89
+
+
+
+Projekt Nr. 70
+
+mateu
+
+Architektur		           vitor lamego architekt, Erlenbach
+
+Landschaftsarchitekt KOLB Landschaftsarchitektur GmbH,
+			Zürich
+
+
+
+
+Projekt Nr. 71
+
+FROSCHKÖNIG
+
+Architektur		 Atelier Schweizer Vollmer,
+			Zürich
+
+
+
+
+Projekt Nr. 72
+
+PIEP
+Architektur		 Müller & Truninger
+			Architekten ETH SIA, Zürich
+
+Landschaftsarchitektur Lorenz Eugster Landschaftsarchitektur
+			und Städtebau GmbH, Zürich
+Bauingenieur		         Pirmin Jung Schweiz AG, Rain
+HLKS-Planung		         Andy Wickart Haustechnik AG, Zürich
+
+
+
+
+                                                               Bericht Tagesbetreuung Boppartshof St.Gallen, Neubau
+90
+
+
+
+       Projekt Nr. 73
+
+       ROLLO
+
+        Architektur		 Florian Ringli & Raphael Stähelin,
+        			Architektur GmbH, Zürich
+
+         Holzingenieur		            Spuhler Holz, Würenlingen
+
+
+
+
+       Projekt Nr. 74
+
+       Pan
+
+        Architektur		               Jan Schmid Architekt, St.Gallen
+
+
+
+
+       Projekt Nr. 75
+
+       flickflack
+        Architektur		 Gauch & Schwartz GmbH
+        			Architekten ETH SIA, Zug
+
+        Bauingenieur		              Dr. Schwartz Consulting AG, Zug
+
+
+
+
+     Tagesbetreuung Boppartshof St.Gallen, Neubau Bericht
+Stadt St.Gallen
+Hochbauamt
+Amtshaus
+Neugasse 1
+9004 St.Gallen
+
+www.hochbauamt.stadt.sg.ch
+

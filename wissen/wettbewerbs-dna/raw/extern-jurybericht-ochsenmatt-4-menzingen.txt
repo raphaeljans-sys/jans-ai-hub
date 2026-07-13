@@ -1,0 +1,1617 @@
+# Text-Extrakt (pdftotext -layout) — Quelle (Web, oeffentlich publiziert):
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2026-04/menzingen-ochsenmatt-jurybericht.pdf (Jurybericht 2026, 78 Seiten, abgerufen 2026-07-14)
+# Extrakt: pdftotext -layout, 78 Seiten, erstellt 2026-07-14
+NEUBAU SCHULHAUS OCHSENMATT 4
+MENZINGEN
+
+BERICHT DES PREISGERICHTS
+                                          Inhalt
+Einleitung5
+Ausgangslage6
+Teilnehmende, Preisgericht, Vorprüfung   8
+Beurteilung, Rangierung                  9
+Schlussfolgerungen10
+Empfehlungen11
+Impressionen Sitzungen Preisgericht      12
+Genehmigung13
+Projektverfassende14
+Projekte17
+Impressum
+
+Herausgeberin:
+Einwohnergemeinde Menzingen
+
+Inhalt/Redaktion:
+Elisa Schwartz-Uppendieck, planzeit GmbH
+Martin Schmid, planzeit GmbH
+
+Fotos:
+planzeit GmbH
+
+Modellfotos:
+agentur guldin GmbH, Baar
+
+Zürich, 5. Februar 2026
+                                                                  Einleitung
+
+
+Die Gemeinde Menzingen möchte die Schulanlage Ochsenmatt mit einem
+Neubau ergänzen, um der erhöhten Nachfrage nach schulergänzender
+Betreuung gerecht zu werden und ein zukunftsfähiges Konzept für Kinder-
+garten-, Primarschul- und Betreuungsräume am zentralen Standort Ochsen-
+matt auf den Weg zu bringen. Das Raumprogramm des neu zu planenden
+Schulhauses umfasst hauptsächlich 6 Kindergartenklassen, 6 Primarschul-
+klassen sowie Flächen der schulergänzenden Betreuung inklusive Mittags-
+tisch für maximal 160 Schülerinnen und Schüler. Darüber hinaus möchte
+die Gemeinde Menzingen öffentliche Plätze entlasten und daher am Stand-
+ort Ochsenmatt eine Tiefgarage mit ca. 100 Parkplätzen umsetzen. Die
+Durchführung eines anonymen Projektwettbewerbs im selektiven Verfahren
+hatte das Ziel, den bestgeeigneten Projektentwurf zu ermitteln und ein
+Generalplanungsteam auszuwählen. Der vorliegende Bericht des Preis-
+gerichts dokumentiert den Weg bis hin zum ausgewählten Projekt, welches
+der Bauherrschaft zur weiteren Bearbeitung und Ausführung empfohlen
+wurde.
+Ausgangslage
+   Ausgangslage                                                                         westlich der Spielwiese liegenden Bereich des Grundstücks. Der Bebauungsperi-
+   Im Zuge der strategischen Planung der Gemeinde Menzingen wurden mehrere              meter liegt nördlich der Mehrzweckhalle Schützenmatt. Die Holzhäusernstrasse,
+   Standorte für die Bereitstellung der erforderlichen Primarschulflächen und der       die Mattenstrasse und die Luegetenstrasse rahmen die Liegenschaft im Norden,
+   schulergänzenden Betreuung geprüft. Mehrere Machbarkeitsstudien zeigten,             Westen und Süden.
+   dass der Standort auf dem Schulareal Ochsenmatt am besten geeignet ist, um
+   die zukünftigen betreiblichen Anforderungen zu erfüllen. Sowohl der Neubau als       Auftraggeberin und Art des Verfahrens
+   auch die bestehenden Schulnutzungen profitieren von der optimalen Anbindung          Die Einwohnergemeinde Menzingen hat einen einstufigen Projektwettbewerb im
+   der Schülerinnen und Schüler an das neue Angebot. Zudem werden sämtliche             selektiven Verfahren für Generalplanende, Architekt*innen und Landschafts-
+   Kindergärten am Standort Ochsenmatt gebündelt.                                       architekt*innen mit 10 Teams veranstaltet, um Vorschläge für einen Ersatzneu-
+                                                                                        bau Ochsenmatt 4 zur Erweiterung der Schulanlage Ochsenmatt zu erhalten.
+   Aufgabe Projektwettbewerb
+   Im Fokus der Bearbeitung stand die Planung der städtebaulich und archi-
+   tektonisch qualitätsvollen Neukonzeption für die Primarschulnutzung, Kinder-
+   gärten und Betreuung inklusive Umgebung am Standort des heutigen Kinder-
+   gartens Sonnengrund auf dem Areal Ochsenmatt.
+   Die Wirtschaftlichkeit hatte eine sehr hohe Priorität. Die Anlage sollte auf lange
+   Sicht Flexibilität in den Nutzungen und deren Weiterentwicklung ermöglichen
+   und einen überzeugenden Baustein im Ort setzen.
+   Der zweite Teil der Aufgabe bestand darin, eine Tiefgarage zu konzipieren, die
+   der Gemeinde als zentrales Angebot dient und öffentliche Plätze entlasten soll.
+   Dabei galt es die Weiterentwicklung des Areals, die Nutzbarkeit der Aussen-
+   räume (z.B. Baumpflanzungen) sowie die Konzeption des neuen Schul- und
+   Betreuungsgebäudes möglichst wenig einzuschränken. Ein Grundkonzept zur
+   Tiefgarage lag vor, welches projektspezifisch zu adaptieren war.
+   Der sehr geschätzte und grosszügige Aussenraum in der Mitte der Anlage sollte
+   erhalten werden. Zudem sollte auch zukünftig ein multifunktional einsetzbarer
+   Hartplatz mit Bezug zur Mehrzweckhalle Schützenmatt geplant werden und ver-
+   schiedene Nutzungen im Aussenraum waren umzusetzen.
+
+   Perimeter
+   Das Grundstück mit der Katasternummer 94 liegt an zentraler Lage im Norden
+   Menzingens. Der Betrachtungsperimeter deckt sich mit der Grundstücksgrösse
+   und umfasst eine Fläche von 25’388 m2. Der Gestaltungsperimeter umfasst den
+
+                 6
+                                                                                                                                   Ausgangslage
+Ziele Projektwettbewerb                                                              Betreuung inklusive Anlieferung an die Regenerierküche
+Ziel des Ersatzneubaus war das langfristig bestmögliche Projekt hinsichtlich       • Konzept Tiefgarage und Zufahrt
+Wirtschaftlichkeit, Pädagogik und Architektur zu finden. Dafür sollte der Neu-     • Zusammenhang mit den anderen Schulnutzungen auf dem Areal
+bau Ochsenmatt 4 zu einem zeitgemässen Schul- und Betreuungsstandort ent-          • Gebrauchswert der Anlage
+wickelt werden, an dem sowohl die Primar- als auch die Kindergartenstufe
+optimale Bedingungen vorfinden werden. Zudem sollten sämtliche Kinder-             Umwelt
+gärten an diesem Standort gebündelt werden, um Synergien in der Betreuung,         • Ökologisch nachhaltige Projekte
+der Nutzung von Räumen und der pädagogischen Arbeit zu schaffen.                   • Niedriger Energiebedarf und optimale CO2-Bilanz in Erstellung, Betrieb und
+                                                                                     Unterhalt
+Beurteilungskriterien                                                              • Bauökologisch einwandfreie Konstruktionssysteme und Materialien
+Für die Beurteilung galten die untenstehenden Kriterien. Die Reihenfolge ent-      • Förderung der Biodiversität und des klimagerechten Bauens, auch im Aus-
+spricht keiner Gewichtung. Das Preisgericht hat aufgrund der aufgeführten            senraum
+Beurteilungskriterien eine Gesamtwertung vorgenommen. Beurteilt wurden die
+Vorschläge für den Ersatzneubau «Schulhaus» (Kindergarten, Primarschule,
+Betreuung) sowie die adaptierten Konzepte der Tiefgarage. Massgeblich war die
+Beurteilung des «Schulhauses». Die Ausarbeitung der Tiefgarage erfolgt im Rah-
+men der Projektierung.
+
+Wirtschaftlichkeit
+• Wirtschaftlichkeit der Projekte in Hinblick auf Erstellungskosten, Betrieb und
+  Unterhalt
+• Das Kostendach der Zielerstellungskosten muss eingehalten werden
+
+Städtebau, Architektur, Freiraum
+• Einbindung in den ortsbaulichen und baulichen Kontext
+• Architektonische Qualität und Ausdruck
+• Qualität und Nutzbarkeit der Freiräume
+• Einbindung der öffentlichen Wegverbindung, Erschliessung und Adress-
+   bildung
+
+Betrieb und Gesellschaft
+• Einhaltung Raumprogramm und betriebliche Anliegen
+• Nutzungsqualitäten der Primarschule, Kindergärten und Schulergänzenden
+
+                                                                                                                                                 7
+Teilnehmende, Preisgericht, Vorprüfung
+   Teilnehmerinnen und Teilnehmer                                              Team 7
+   Folgende Teams wurden mit der Präqualifikation am 04. Juni 2025 durch das   • Innauer Matt Architekten ZT GmbH, Bezau
+   Preisgericht ausgewählt und haben am Wettbewerb teilgenommen:               • Andreas Geser Landschaftsarchitektur AG, Zürich
+
+   Team 1                                                                      Team 8 (Nachwuchs)
+   • PENZISBETTINI Generalplaner GmbH, Zürich                                  • ARGE Gilbert Berthold Architekt March, Zürich
+   • Jaeger Coneco Baumanagement AG, Zürich                                    • Studio Zaluska GmbH, Lodz (Polen)
+   • Zwahlen + Zwahlen AG Landschaftsarchitektur, Cham                         • Emch&Berger ImmoConsult AG, Zürich
+                                                                               • Kollektiv Nordost GmbH, St. Gallen
+   Team 2
+   • illiz architektur GmbH, Zürich                                            Team 9 (Nachwuchs)
+   • HSSP AG, Zürich                                                           • Jäger Charpié Architekten GmbH, Luzern
+   • HABITAT Landschaftsarchitektur KLG, Zürich                                • Rogger Ambauen AG, Emmenbrücke
+                                                                               • Berchtold.Lenzin Zürich GmbH, Zürich
+   Team 3
+   • Rahbaran Hürzeler Architekten AG, Basel                                   Team 10 (Nachwuchs)
+   • HSSP AG, Zürich                                                           • BothAnd Architecture GmbH, Zürich
+   • Westpol Landschaftsarchitektur, Basel                                     • Bau+Kon AG, Windisch
+                                                                               • Atelier Amont Gmbh, Basel
+   Team 4
+   • Gauch & Schwartz GmbH, Zug                                                Preisgericht
+   • iten landschaftsarchitektur gmbh, Unterägeri                              Sachjury:
+                                                                               • Christian Ehrbar, Gemeinderat Menzingen
+   Team 5                                                                      • Andreas Etter, Gemeindepräsident Menzingen
+   • NYX ARCHITECTES GMBH, Zürich                                              • Walter Holdener, Rektor Schule Menzingen
+   • Jung Meyerhans AG, Luzern                                                 • Isabelle Menzi, Gemeinderätin, Menzingen (Ersatz)
+   • Eberli Landschaftsarchitektur GmbH, Zürich
+                                                                               Fachjury:
+   Team 6                                                                      • Samuel Bünzli, Architekt, Zürich (Vorsitz)
+   • Bienert Kintat Architekten, Zürich                                        • Christian Schnieper, Architekt, Zug
+   • Cukrowicz Landschaften GmbH, Schaffhausen                                 • Florian Glowatz, Landschaftsarchitekt, Zürich
+                                                                               • Lukas Windlin, Leiter Bau, Gemeinde Menzingen
+                                                                               • Alois M. Fischer, Architekt, Cham (Ersatz)
+
+                8
+                                                                                                   Beurteilung, Rangierung
+Experten:                                                                         Am zweiten Jurierungstag wurden alle Projektbeschriebe verlesen. Nach
+• Regula Staub, Leiterin SEB Schule Menzingen                                     Kenntnisnahme der zweiten Vorpüfung diskutierte das Preisgericht vertieft die
+• Romana Carrara, Schulleitung Zyklus 1 Menzingen                                 Projekte der engeren Wahl. In einem dritten Wertungsrundgang schieden die
+• Kosten: Marcel Tschudi, PBK AG                                                  Projekte «Silberfalter» und «ALADDIN» aus.
+• Nachhaltigkeit: Thomas Wüthrich, durable Planung und Beratung GmbH              Nach ausführlichen Abwägungen der verbliebenen Projekte, eingehenderen Dis-
+                                                                                  kussionen der Projekte «À QUAI» und «LABUBU» und einem abschliessenden
+Vorprüfung und Sekretariat:                                                       Kontrollrundgang, kam das Preisgericht zum Schluss, der Bauherrschaft das Pro-
+• Elisa Schwarz-Uppendiek, planzeit GmbH                                          jekt «À QUAI» zur Weiterbearbeitung und Ausführung zu empfehlen.
+
+Vorprüfung                                                                        Rangierung
+Die zehn eingereichten Projekte wurden gemäss den Anforderungen des Pro-          Für Preise und Entschädigungen stand im Rahmen des Wettbewerbs eine Summe
+gramms beurteilt, folgende Punkte wurden bei der Vorprüfung berücksichtigt:       von CHF 150‘000.– (exkl. MwSt.) zur Verfügung. Davon erhielt jedes Team eine
+                                                                                  feste Entschädigung von CHF 7‘000.– (exkl. MwSt.). Das Preisgericht setzte die
+•   Termingerechtigkeit und Vollständigkeit der eingereichten Projektunterlagen   Rangierung und Preiszuteilung wie folgt fest:
+•   Einhaltung Perimeter
+•   Einhaltung der baurechtlichen Vorgaben                                              1. Rang/ 1. Preis: CHF 35’000.— «À Quai»
+•   Einhaltung brandschutztechnischer ­Vorschriften                                     2. Rang/ 2. Preis: CHF 25’000.— «LABUBU»
+•   Erfüllung Raumprogramm                                                              3. Rang/ 3. Preis: CHF 11’000.— «Silberfalter»
+•   Betriebliche und funktionelle Qualitäten des Projekts                               4. Rang/ 4. Preis: CHF 9’000.— «ALADDIN»
+•   Erschliessung und Verkehr, Hindernisfreiheit
+•   Nachhaltigkeit
+•   Grobkostenvergleich
+
+Beurteilung
+Das Preisgericht tagte am 25. November und 10. Dezember 2025.
+Nach einer freien Besichtigung der Projekte nahm das Preisgericht vom Ergebnis
+der Vorprüfung Kenntnis und beschloss, sämtliche Projekte zur Preiserteilung
+zuzulassen. Das Preisgericht hat zunächst alle Projekte in Gruppen nachvoll-
+zogen und in einer ersten wertungsfreien Vorstellungsrunde im Plenum präsen-
+tiert. Anschliessend diskutierte das Preisgericht die Projektvorschläge ein-
+gehend anhand der Beurteilungskriterien. Nach zwei Wertungsrundgängen und
+einem Kontrollrundgang verblieben die vier Projekte «À QUAI», «Silberfalter»,
+«ALADDIN» und «LABUBU» in der engeren Wahl.
+
+                                                                                                                                                9
+Schlussfolgerungen
+   Schlussfolgerungen                                                                 wichtige Beurteilungskriterien. Aufgrund der Topografie und der Einbindung in
+   Die Gemeinde Menzingen verfügt mit der Schulanlage Ochsenmatt über einen           den städtebaulichen Kontext sollte das neue Schulhaus über mindestens zwei
+   grossen Bildungscampus an sehr zentraler Lage. Dieser soll westlich der Spiel-     gleichwertige, gut auffindbare Zugänge verfügen. In den Diskussionen hat sich
+   wiese durch ein zusätzliches, zeitgemässes Unterrichtsgebäude mit Räumen für       gezeigt, dass sich die Räume der Betreuung idealerweise auf dem Niveau der
+   die Betreuung erweitert werden. Um städtebaulich mehr Spielraum zu erhalten,       Sportplätze befinden und die räumliche Nähe von Kindergärten und Primar-
+   werden die Parkplätze auf dem Areal zukünftig in einer Tiefgarage untergebracht.   schule bedeutsam ist, um möglichen zukünftigen Unterrichtsformen genügen zu
+   Zudem kann das bestehende Kindergartengebäude abgebrochen werden.                  können. Zudem wurde die Bedeutung der Erschliessungsbereiche diskutiert;
+   Weiterhin benötigt wird eine zusammenhängende, multifunktional nutzbare            diese müssen – trotz gewünschter Effizienz – grosszügig genug für einen funktio-
+   Asphaltfläche angrenzend an die Mehrzweckhalle.                                    nierenden Schulalltag bemessen sein. Die Auswahl an Projekten wurde durch
+                                                                                      diese, grösstenteils im Programm klar formulierten, Forderungen eingeschränkt.
+   Die zehn eingegangenen Projektbeiträge boten ein breites Spektrum an unter-
+   schiedlichen städtebaulichen, organisatorischen und gestalterischen Ansätzen.      In der Bewertung der Nachhaltigkeit und Wirtschaftlichkeit lagen die Wett-
+   Wie sich im Verlauf der Jurierung und der dabei gewonnenen Erkenntnisse            bewerbsbeiträge nahe beieinander. Die Projekte waren alle weitgehend kompakt
+   zeigte, war die Aufgabenstellung sehr anspruchsvoll. Dies insbesondere auf-        und fast ausnahmslos wurde eine Holzbauweise mit massiven Betonkernen vor-
+   grund des umfangreichen Raumprogramms, der begrenzten Platzverhältnisse            geschlagen. In der Umsetzung zeigten sich dennoch klare Unterschiede: Gebäude
+   auf dem Areal, des Niveauunterschieds zwischen den Sportanlagen und der            mit einer klaren, einfachen Struktur und präzise gesetzten, minimierten Kernen
+   Holzhäusernstrasse sowie der spezifischen Anforderungen der unterschied-           ermöglichen einen sehr rationalen und dadurch auch effizienten Holzbau. Dieser
+   lichen Nutzungseinheiten.                                                          bildet zugleich eine gute Ausgangslage für die geforderte Flexibilität und ist
+                                                                                      somit auch in Bezug auf zukünftige Entwicklungen nachhaltig.
+   Bei der städtebaulichen Beurteilung der Wettbewerbsbeiträge wurden ins-
+   besondere die Setzung der Gebäude im Verhältnis zum Bestand, der Umgang mit        Unter all den eingereichten Wettbewerbsbeiträgen gelang es dem Projekt À
+   der Topografie sowie die Lage der Aufenthalts- und Pausenbereiche diskutiert.      QUAI des Teams NYX ARCHITECTES / Jung Meyerhans Baumanagement / Eberli
+   Dabei hat sich gezeigt, dass die Nähe zur bestehenden Sporthalle einen sehr        Landschaftsarchitektur am besten, die unterschiedlichen Anforderungen zu
+   engen, unattraktiven Zwischenraum erzeugt. Aufgrund der knappen Platzver-          berücksichtigen und in einem selbstverständlichen, in seiner Klarheit über-
+   hältnisse entsteht an dieser Stelle zudem eine topografisch schwierig zu lösende   zeugenden Ganzen zusammenzufügen.
+   Situation. Gleichzeitig wurden diejenigen Projektvorschläge bevorzugt, welche
+   die Pausenbereiche und Sportplätze in der Mitte der Gesamtanlage konzentrie-       Das Preisgericht gratuliert dem siegreichen Team zum Erfolg und bedankt sich
+   ren konnten. Aufgrund dieser Beurteilung bevorzugte die Jury daher Gebäude         bei allen Wettbewerbsteilnehmenden für die geleistete umfangreiche Arbeit.
+   mit einer höheren Anzahl Geschosse und einem entsprechend kleineren Fussab-        Die sehr unterschiedlichen Projektbeiträge bildeten eine gute Ausgangslage für
+   druck, welche dadurch eine vom Bestand unabhängigere Setzung ermöglichten.         eine spannende und interessante Diskussion im Rahmen der beiden Jurytage.
+
+   Die Lage der Eingänge, die Nutzungsverteilung und die Flexibilität der Grund-
+   rissstruktur waren, im Hinblick auf den angestrebten Schulbetrieb, weitere
+
+                 10
+                                                                                 Empfehlungen
+Empfehlungen
+Das Preisgericht empfiehlt der Bauherrschaft einstimmig das Projekt «À QUAI»
+unter Berücksichtigung der Kritik im Projektbeschrieb und den nachfolgenden
+Empfehlungen zur Weiterbearbeitung und Ausführung.
+
+• Die Setzung des Gebäudes ist auf der West-Ost-Achse in Hinblick auf einen
+  angemessenen Freiraum und den geeigneten Abstand zur Nachbarbebauung
+  im Westen zu überprüfen.
+• Die Grundrisse und die Fassaden der Eckklassenzimmer sind in Bezug auf
+  adäquat dimensionierte Fensterflächen – vor dem Hintergrund von
+  Möblierungsmöglichkeiten und dem Schutz vor sommerlicher Überhitzung
+  – zu überprüfen.
+• Der Ausdruck und die Materialisierung der Fassade, insbesondere der Brüs-
+  tungen, sind weiterzuentwickeln.
+• Es ist zu überprüfen, wie der öffentliche Zugang zur Tiefgarage barrierefrei
+  gelöst werden kann.
+• Das Projekt ist mit den gebäudetechnischen Konzepten abzustimmen und
+  weiterzuentwickeln.
+
+
+
+
+                                                                                     11
+12
+                                             Genehmigung
+Menzingen, 08. Dezember – Das Preisgericht
+
+
+
+
+     Samuel Bünzli (Vorsitz)
+
+
+
+     Christian Ehrbar
+
+
+
+     Andreas Etter
+
+
+
+     Alois M. Fischer
+
+
+
+     Florian Glowatz
+
+
+
+     Walter Holdener
+
+
+
+     Isabelle Menzi
+
+
+
+     Christian Schnieper
+
+
+
+     Lukas Windlin
+
+
+
+
+                                                13
+Projektverfassende
+     Empfehlung zur Weiterbearbeitung                                        3. Rang, 3. Preis
+     1. Rang, 1. Preis                                                       Projekt 06          Silberfalter
+     Projekt 03               À Quai                                         Architektur         Jäger Charpié Architekten GmbH, Luzern
+     Architektur              NYX ARCHITECTES GMBH, Zürich                   Verantwortlich      Jonas Jäger, Yannick Charpié
+     Verantwortlich           Nathanaël Chollet und Yann Gramegna            Mitarbeit           Nadina Häni,
+     Mitarbeit                Nathanaël Chollet, Yann Gramegna, Ianna Kat-   Baumanagement       Rogger Ambauen AG, Emmenbrücke
+                              sarou, Christoph Holzinger, Gonçalo Duarte     Landschaft          Berchtold Lenzin Zürich GmbH, Zürich
+     Baumanagement            Jung Meyerhans AG, Luzern                      Verantwortlich      Roman Berchtold
+     Landschaft               Eberli Landschaftsarchitektur GmbH, Zürich     Mitarbeit           Irene Diez Prieto
+     Verantwortlich           Samuel Eberli                                  Bauingenieurwesen   BlessHess AG, Luzern
+     Mitarbeit                Patrick Schönenberger                          Haustechnik         Stalder & Felber Planungs AG, Reiden
+     Bauingenieurwesen        INGENI AG, Zürich                              Sanitär             Peter Sanitär Planung AG, Luzern
+     Haustechnik              Müller Bucher AG, Zürich                       Elektroplanung      Elektroplan AG, Kriens
+                                                                             Gebäudeautomation   ISP und Partner AG, Sursee
+                                                                             Brandschutz         Gruner AG, Zug
+
+
+
+     2. Rang, 2. Preis                                                       4. Rang, 4. Preis
+     Projekt 08               LABUBU                                         Projekt 07          ALADDIN
+     Architektur              Innauer Matt Architekten ZT GmbH, Bezau        Architektur         ARGE Gilbert Berthold Architekt, Zürich + Stu-
+     Verantwortlich           Arch DI Sven Matt                                                  dio Zaluska GmbH, Lodz (Polen)
+     Mitarbeit                Nina Lässer, Johannes Auerbach, Ben Schmitt    Verantwortlich      Gilbert Berthold, Adam Zaluska, Mateusz
+     Landschaft               Andreas Geser Landschaftsarchitekten AG,                           Zaluska,
+                              Zürich                                         Mitarbeit           Eunika Szumowska
+     Verantwortlich           Andreas Geser                                  Baumanagement       Emch+Berger ImmoConsult AG, Zürich
+     Mitarbeit                Liya Bernasconi                                Landschaft          KOLLEKTIV NORDOST, St. Gallen
+     Bauingenieurwesen        Walter Bieler AG, Chur                         Verantwortlich      Louis Wenger
+                                                                             Mitarbeit           Roman Häne, Dominik Rhyner, Norian Hempele
+                                                                             Bauingenieurwesen   Pirmin Jung Schweiz AG, Sargans
+                                                                             Haustechnik         Wirkungsgrad Ingenieure AG, Rapperswil-Jona
+                                                                             Brandschutz         Pirmin Jung Schweiz AG, Sargans
+
+
+
+
+             14
+                                                                                                   Projektverfassende
+Projekt 01                LUFTIBUS & KUNTERBUNT                            Projekt 04              FULL HOUSE
+Architektur               RAHBARAN HÜRZELER ARCHITEKTEN GmbH               Architektur             BothAnd Architecture GmbH, Zürich
+                          SIA, Basel                                       Verantwortlich          Bianca Anna Boeckle
+Verantwortlich            Ursula Hürzeler                                  Mitarbeit               Bianca Anna Boeckle, David Klemmer, Loan
+Mitarbeit                 Shadi Rahbaran, Anna-Lena Kriz, Dominik Lüthi,                           Amont, Dawid Roszkowski
+                          Hilma Hultquist                                  Baumanagement           Bau+Kon AG, Windisch
+Baumanagement             HSSP AG, Zürich                                  Landschaft              Atelier Amont GmbH, Basel
+Landschaft                Westpol Landschaftsarchitektur, Basel            Verantwortlich          Logan Amont
+Verantwortlich            Andy Schönholzer                                 Holzbauingenieurwesen   Pirmin Jung Schweiz AG, Frauenfeld
+Mitarbeit                 Elodie Dietz, Filippo Marconi, Aster Sittoni     Bauingenieurwesen       JägerPartner AG Bauingenieure sia usic, Zürich
+Bauingenieurwesen         Schnetzer Puskas Ingenieure AG, Basel            Visualisierung          Studio Diode, Zürich
+Haustechnik               JOP Josef Ottiger + Partner AG, Rothenburg       Brandschutz             Pirmin Jung Schweiz AG, Frauenfeld
+Elektro/Gebäudeautomation Gähler und Partner AG, Ennetbaden
+
+
+
+
+Projekt 02                PETER PAN                                        Projekt 05              Ferdinand
+Architektur               PENZISBETTINI Architekten ETH/SIA GmbH,          Architektur             Bienert Kintat Architekten, Zürich
+                          Zürich                                           Verantwortlich          Volker Bienert
+Verantwortlich            Daniel Penzis, Giulio Bettini                    Mitarbeit               Susann Kintat
+Mitarbeit                 Maureen Keller                                   Baumanagement           JK Baumanagement GmbH, Elgg
+Baumanagement             Jaeger Coneco AG, Zürich                         Landschaft              Crucowicz Landschaften GmbH, Schaffhausen
+Landschaft                Zwahlen + Zwahlen AG Landschaftsarchitektur,     Verantwortlich          Markus Crucowicz
+                          Cham                                             Bauingenieurwesen       Gudenrath AG, Ziegelbrücke
+Verantwortlich            Lilian Zwahlen, Erich Zwahlen                    Haustechnik             Amstein Walthert AG, Zürich
+Bauingenieurwesen         Lüchinger Meyer Partner AG, Zürich               Elektro                 Elektrowerk GmbH, Amriswil
+Haustechnik               RMB Engineering AG, Zürich                       Brandschutz             Sibra GmbH, Winterthur
+Visualisierung            Nightnurse Images AG, Zürich                     Bauphysik               Mühlebach Partner, Winterthur
+
+
+
+
+                                                                                                                                  15
+Projekt 09              SCALINO
+Architektur             Gauch & Schwartz GmbH Architekten ETH SIA
+Verantwortlich          Fabien Schwartz
+Mitarbeit               Karin Gauch
+Landschaft              iten landschaftsarchitekten gmbh, Unterägeri
+Verantwortlich          Dominik Iten
+Mitarbeit               Nadine Camastral, Antoine Janssen
+Holzbauingenieurwesen   Solubois ZH GmbH, Winterthur
+Bauingenieurwesen       Syntaxis Ag, Zürich
+Haustechnik             OLOS AG, Ingenieure für Energie- und Gebäude-
+                        technik, Baar
+Elektro                 HKG Engineering AG, Schlieren
+
+
+
+
+Projekt 10              Nexus
+Architektur             illiz architektur GmbH, Zürich
+Verantwortlich          Petra Meng
+Mitarbeit               Lea Marquardt, Johannes Müntinga, Marie Neu-
+                        mann, David Qui, Amely Wenzl
+Baumanagement           HSSP AG, Zürich
+Landschaft              Habitat Landschaftsarchitektur GmbH, Zürich
+Verantwortlich          Andreas Hoffmann
+Mitarbeit               Luana Presta
+Bauingenieurwesen       WaltGalmarini AG, Zürich
+Haustechnik             WEGO Gebäudetechnik GmbH, Zürich
+Brandschutz             RFS RISK FIRE SAFETY GmbH, Staldenried
+Projekte
+NYX ARCHITECTES GMBH, Zürich
+À Quai
+1. Rang / Empfehlung zur Weiterbearbeitung
+
+                 Projekt 03                 À Quai
+                                            1. Rang / Empfehlung zur Weiterbearbeitung
+                 Architektur                NYX ARCHITECTES GMBH, Zürich
+                 Landschaft                 Eberli Landschaftsarchitektur GmbH, Zürich
+
+
+
+
+          Die Projektverfassenden verstehen ihr Gebäude als ein Schiff, das im Hafen der      zweckraum, die Lehreraufenthalts- und Arbeitsbereiche sowie die Spezialräume
+          Schulanlage angedockt hat und die beiden Ebenen von Dorf und Schule mit-            organisiert. Die beiden Treppenhauskerne sind so positioniert, dass sie jeweils
+          einander verbindet. Der kompakte viergeschossige Baukörper bezieht sich durch       direkt von den entsprechenden Eingangshallen erreicht werden können. Dadurch
+          seine Ausrichtung auf den bestehenden Kontext, tritt aufgrund seiner Positionie-    gelingt es die einzelnen Geschosse von der Vertikalerschliessung zu entkoppeln.
+          rung aber auch eigenständig in Erscheinung. Zwischen Neubau und Bestand ent-        Davon profitieren insbesondere die beiden Obergeschosse mit den Kindergärten
+          steht an zentraler Lage ein grosszügiger, attraktiver Aufenthalts- und Erschlies-   und der Primarschule. Die zentralen Hallen können dadurch sehr gut als zusätz-
+          sungsbereich. Über einem zweigeschossigen Sockel thronen die beiden an den          liche Aufenthalts- und Unterrichtsbereiche genutzt werden. Zusammen mit den
+          Stirnseiten weit auskragenden Obergeschosse. Die dadurch geschaffenen,              Klassenzimmern und den Gruppenräumen entstehen so flexibel nutzbare Schul-
+          gedeckten Vorzonen markieren die auf unterschiedlichen Ebenen gelegenen             einheiten. Die Nähe von Kindergarten und Primarschule, die sehr klare Grund-
+          gleichwertigen Zugänge von Norden und von Süden. Die markante Gebäudevolu-          rissstruktur und die unabhängige Erschliessung bieten sehr gute Voraus-
+          metrie inszeniert aber auch den das Grundstück prägenden Terrainverlauf. Die        setzungen, um die angestrebten pädagogischen Konzepte umsetzen zu können.
+          beiden Eingangsbereiche zeichnen sich durch großzügige Vorzonen aus und die
+          Verbindungswege fügen sich harmonisch in das sanft gestaltete Gelände.              Die klare Grundrissstruktur mit den beiden massiven Treppenhauskernen in
+          Erschliessung, Anlieferung, Sportflächen, Aufenthaltszonen sowie Spiel- und         Beton und den gleich tiefen Raumschichten bildet die ideale Voraussetzung für
+          Bewegungsangebote ergänzen sich sinnvoll und schaffen eine Gesamtanlage von         einen Holzbau mit hohem Vorfertigungsanteil. Die Tragstruktur besteht aus
+          hoher Qualität. Die vorgeschlagene Bepflanzung ist ausreichend dicht, um einen      Brettschichtstützen und -trägern in Längsrichtung und dazwischen gespannten
+          zukunftsfähigen Freiraum zu schaffen. Verbesserungsmöglichkeiten gibt es ins-       Rippen in Querrichtung. Diese gewährleisten im Verbund mit den minimierten
+          besondere bei den westlich des Neubaus gelegenen Aussenbereichen, die der-          CLT-Platten und den beiden Kernen die Aussteifung des Gebäudes. Zwei-
+          zeit noch etwas beengt wirken.                                                      geschossige Fachwerkträger im Bereich der Haupttragachsen ermöglichen die
+                                                                                              Auskragungen an den beiden Stirnseiten. Die Tragstruktur in Holz prägt
+          Im zweigeschossigen Sockel befinden sich die öffentlichsten Nutzungseinheiten.      zusammen mit den abgehängten Akustikelementen und dem durchgehenden,
+          Die Betreuung mit dem Mittagstisch ist auf der unteren Ebene angeordnet und         grünlich eingefärbten Hartbeton die helle und freundliche Atmosphäre der
+          profitiert von der Nähe zu den grossen Pausen- und Spielflächen. Über ein Foyer     Innenräume. Aussen sind, neben den beiden grossen Auskragungen, die
+          gelangt man in die zentrale Halle, welche als Garderobe und Verteilraum zwi-        geschossweise angebrachten Vordächer die markantesten Gestaltungs-
+          schen den eigentlichen Aufenthalts- und Verpflegungsbereichen dient. Die            elemente. Diese sind mit PV-Elementen belegt und dienen zusätzlich dem
+          obere Zugangsebene ist analog konzipiert. Um die zentrale Halle sind der Mehr-      sommerlichen Wärmeschutz. Die Untersichten sind mit Holz verkleidet und las-
+
+                        18
+                                                                                                                                         NYX ARCHITECTES GMBH, Zürich
+                                                                                                                                                                 À Quai
+                                                                                                                             1. Rang / Empfehlung zur Weiterbearbeitung
+
+
+
+
+sen den Neubau zusammen mit den massiven Holzstützen auch aussen als Holz-       xibel gestalteten Unterricht. Die strenge Gliederung mit den minimierten massi-
+bau in Erscheinung treten. Die dazwischen liegenden Füllungen bestehen jeweils   ven Kernen ermöglicht zudem eine durchgehende einheitliche Holztragstruktur,
+aus einem Fenster- und einem Brüstungselement in Aluminium. Die klare Gliede-    welche im Innern des Gebäudes in Szene gesetzt wird. Die beiden Auskragungen,
+rung, die auf die Stützen minimierte Struktur und die Beschränkung auf wenige    die Vordächer und die vorgeschlagene Materialisierung prägen das spezifische
+Materialien korrespondieren mit der Gestaltung im Innern und verleihen dem       Erscheinungsbild des Gebäudes von aussen. Die Ziele hinsichtlich Nachhaltig-
+Gebäude zusammen mit den markanten Vordächern einen sehr spezifischen            keit und Wirtschaftlichkeit können mit der vorgeschlagenen Kompaktheit, der
+Ausdruck.                                                                        Gebäudestruktur und der Konstruktionsweise ebenfalls erreicht werden. Der
+                                                                                 Projektvorschlag überzeugt durch eine Klarheit und Einfachheit, die sich von der
+Das kompakte Gebäude schafft durch seine Positionierung gut nutzbare, hoch-      städtebaulichen Setzung bis hin zur Fassadengestaltung durchzieht und die
+wertige Aussenräume. Es fügt sich sehr selbstverständlich in die bestehende      einzelnen Elemente zu einem selbstverständlichen Ganzen zusammenfügt.
+Topografie ein und markiert mit den beiden Auskragungen klar definierte
+Zugangsbereiche. Die Nutzungsverteilung ist sehr schlüssig und bildet zusammen
+mit der einfachen Grundrissstruktur die Grundlage für einen zeitgemässen, fle-
+
+                                                                                                                                                19
+NYX ARCHITECTES GMBH, Zürich
+À Quai
+1. Rang / Empfehlung zur Weiterbearbeitung
+
+
+
+
+          Situation 1:2000
+
+
+                             20
+                                                                              NYX ARCHITECTES GMBH, Zürich
+                                                                                                      À Quai
+                                                                  1. Rang / Empfehlung zur Weiterbearbeitung
+
+
+
+
+1.Obergeschoss 1:750   2.Obergeschoss 1:750
+
+
+
+
+                                              Erdgeschoss 1:750
+
+
+
+
+Schnitt Quer 1:750                                                                 Schnitt Längs 1:750
+
+
+                                                                                   21
+NYX ARCHITECTES GMBH, Zürich
+À Quai
+1. Rang / Empfehlung zur Weiterbearbeitung
+
+
+
+
+                                                        1.Untergeschoss 1:2000
+
+
+
+                                             Tiefgaragengeschoss 1:1500
+
+
+
+          Sockelgeschoss 1:750
+
+
+
+
+          Ansicht Süd 1:750                                                      Ansicht West 1:750
+
+
+
+                          22
+                                                                                      NYX ARCHITECTES GMBH, Zürich
+                                                                                                              À Quai
+                                                                          1. Rang / Empfehlung zur Weiterbearbeitung
+
+
+
+
+Ausschnitt Grundriss 1.Obergeschoss 1:250
+
+
+
+
+                                            Detailschnitt Fassade 1:100
+                                                                                           23
+Innauer Matt Architekten ZT GmbH, Bezau
+LABUBU
+
+
+
+                Projekt 08                 LABUBU
+                                           2. Rang
+                Architektur                Innauer Matt Architekten ZT GmbH, Bezau
+                Landschaft                 Andreas Geser Landschaftsarchitekten AG
+
+
+
+
+         Der zum Dorf viergeschossige, zum Schulcampus fünfgeschossige, eigen-              Zugänge zu den Pausen- und Spielflächen nach Westen und Osten werden im
+         ständige, rechteckige Solitär mit einem kleinen Fussabdruck wird von den           Grundsatz geschätzt. Der fehlende Eingang im Süden widerspricht jedoch der
+         Projektverfassenden südwestlich der Dreifachturnhalle gesetzt. Dadurch wird        einladenden Geste der Fassade und der intuitiven Erschliessung des Gebäudes.
+         das Potential, einen grosszügigen Aussenraum zu schaffen, maximal aus-             Ein Teil des Sockelgeschosses ist als Unterniveaubau konzipiert, weshalb die
+         geschöpft. Der kompakte, eigenständige Baukörper ist allseitig im Dialog mit       Belichtung einiger Räume, u. a. der innenliegenden Küche, kritisch eingeschätzt
+         dem Schulcampus und dem Dorf, während die ruhige und konsequent durch-             wird.
+         geplante Lochfassade dem neuen Schul- und Betreuungsgebäude einen eigen-
+         ständigen und edlen Charakter verleiht.                                            Die funktionale und integrative Mitte als Herz und öffentliche Ebene im Erd-
+                                                                                            geschoss auf dem Niveau Holzhäusernstrasse überzeugt. Über einen gedeckten
+         Der Projektvorschlag sieht eine Terrassierung des Geländes mit hohen Stütz-        Eingang gelangen Schülerinnen und Schüler sowie Besuchende in ein grosszügi-
+         mauern vor, wodurch zwei grosszügig bemessene und in ihren Dimensionen sehr        ges Foyer, zum Mehrzweckraum, zu den Aufenthaltsräumen für Lehrpersonen
+         geschätzte ebene Schulfreiräume entstehen. Entlang der Holzhäusernstrasse          sowie zu den Spezialräumen. Zwei identische Treppenhäuser mit WC-Anlagen
+         befindet sich ein gut begrünter Pausen- und Eingangsbereich. Die Freiflächen       erschliessen grundsätzlich geschickt die weiteren Geschosse, in denen der
+         auf dem unteren Niveau sind überwiegend sportlichen Aktivitäten vorbehalten,       Zusammenhang der Nutzungen von Kindergarten und Primarschule positiv
+         allerdings gibt es dort zu wenige gliedernde Strukturen, die Aufenthaltsqualität   bewertet wird. Auch das Layout mit seiner funktionalen Flexibilität sowie die
+         erzeugen könnten. Während der obere Zugang durch den Freiraum klar definiert       zweiseitige Belichtung der Klassenzimmer, welche eine hohe Raum- und Aufent-
+         ist, wirken die drei unteren Zugänge in ihrer Anordnung wenig durchdacht und       haltsqualität erwarten lassen, bewertete das Preisgericht positiv. Die einfache
+         sind lediglich mit Sportanlagen beziehungsweise einer rückwärtigen Wiese ver-      Materialisierung verspricht eine hohe Nutzungsqualität und Raumatmosphäre
+         bunden. Die Planung der unterirdischen Gebäudeteile erscheint nicht nach-          und die Wahl der vorgesehenen Hölzer scheint präzis auf deren konstruktive,
+         vollziehbar – insbesondere hinsichtlich der Positionierung von Oberlichtern –      statische und ästhetische Fähigkeiten ausgelegt.
+         und weist bezüglich Rampe und Treppe noch Entwicklungsbedarf auf. Die
+         Verschiebung der Laufbahn Richtung Westen und Süden schafft Platzprobleme          Kritisch hinterfragt wurde hingegen die Verteilung der Schul- und Kindergarten-
+         für die Einfahrt der Tiefgarage.                                                   räume über drei Geschosse und damit einhergehend die längeren Distanzen zum
+                                                                                            Aussenraum für die kleineren Kinder. Etwas ungünstig beurteilte die Jury die
+         Das Preisgericht schätzt die Anordnung der Nutzungseinheiten mit der schul-        fehlenden, nutzbaren Wandflächen in den Klassenzimmern.
+         ergänzenden Betreuung im Sockelgeschoss auf Platzniveau. Auch die direkten         Der polyvalent nutzbare Raum in der Gebäudemitte – belichtet über ein zentra-
+
+                       24
+                                                                                                                                     Innauer Matt Architekten ZT GmbH, Bezau
+                                                                                                                                                                    LABUBU
+
+
+
+
+les, rundes Oblicht und Galerien über drei Geschosse – wurde im Grundsatz              höhe mit seinen fünf Geschossen beurteilt die Jury allerdings sowohl in Hinblick
+geschätzt, der verbleibende Raum zur Nutzung aber eher als knapp eingeschätzt.         auf eine adäquate städtebauliche Antwort im Kontext des Schulcampus als auch
+                                                                                       für die Nutzbarkeit der kleineren Kinder als kritisch. Zudem werden die Quali-
+Der konsequent durchgeplante konstruktive Holzbau ab Sockelgeschoss erfüllt            täten der oberen Geschosse im Sockelgeschoss vermisst und fehlende Ver-
+die ökologischen und energetischen Anforderungen und erlaubt eine kurze Bau-           knüpfungen räumlicher Ideen führen zu Irritationen. Insgesamt zeigte das Pro-
+zeit. Die einfache, durchdachte Konstruktion mit dem kleinen Fensteranteil             jekt einen sehr wertvollen Beitrag zur Beurteilung der Wettbewerbsaufgabe.
+unterstützt die gute Ökobilanz. Die Schindelfassade weist ebenfalls Potenzial
+auf, einen positiven Beitrag zu leisten. Das Projekt liegt bezüglich Wirtschaftlich-
+keit in einem guten mittleren Bereich.
+
+Das Projekt «LABUBU» besticht mit seinem eigenständigen Ansatz, dem kom-
+pakten Baukörper, dem grosszügigen Aussenraum, der geschickten Nutzungs-
+anordnung mit hohen Raumqualitäten und der flexiblen Struktur. Die Gebäude-
+
+                                                                                                                                                      25
+Innauer Matt Architekten ZT GmbH, Bezau
+LABUBU
+
+
+
+
+         Situation 1:2000
+
+
+                            26
+                        Innauer Matt Architekten ZT GmbH, Bezau
+                                                       LABUBU
+
+
+
+
+3. Obergeschoss 1:750
+
+
+
+
+2. Obergeschoss 1:750
+
+
+
+                                       Erdgeschoss 1:750
+
+
+
+
+1. Obergeschoss 1:750                      Schnitt 1:750
+
+                                      27
+Innauer Matt Architekten ZT GmbH, Bezau
+LABUBU
+
+
+
+
+                                          Tiefgaragengeschoss 1:1500
+
+
+
+
+         Sockelgeschoss 1:750
+
+
+
+
+           Ansicht Nord 1:750                                          Ansicht Ost 1:750
+
+
+                         28
+                                                                          Innauer Matt Architekten ZT GmbH, Bezau
+                                                                                                         LABUBU
+
+
+
+
+Ausschnitt Grundriss 2.Obergeschoss 1:250
+
+
+
+
+                                            Detailschnitt Fassade 1:100
+                                                                                        29
+Jäger Charpié Architekten GmbH, Luzern
+SILBERFALTER
+
+
+
+                Projekt 06                 SILBERFALTER
+                                           3. Rang
+                Architektur                Jäger Charpié Architekten GmbH, Luzern
+                Landschaft                 Berchtold Lenzin Zürich GmbH, Zürich
+
+
+
+
+         Der Projektvorschlag positioniert einen längsorientierten Baukörper parallel zur    Zugänge, wirkt jedoch insgesamt additiv und nur teilweise räumlich integriert.
+         Tartanbahn. Zwischen Gebäude und Sportanlage entsteht eine lineare Durchwe-         Die Grundstruktur des Gebäudes wird von einem zentral verlaufenden Erschlies-
+         gung mit Grün und adressbildenden Zugangsbereichen und Aufenthaltszonen.            sungsraum geprägt, der alle drei Geschosse überspannt. Die Nutzräume sind
+         Während die Visualisierungen diesem Bereich mit einer grosszügigen Freitreppe       beidseitig entlang dieser Achse angeordnet, welche an Nord- und Südfassade in
+         eine Attraktivität und hohe Aufenthaltsqualität zuschreiben, vermögen die           grossflächig befensterten Aufenthaltsbereichen kulminiert. Diese Zonen bieten
+         Grundrisse diese räumlichen Versprechen nicht einzulösen. Die tatsächlichen         potenziell gute Tageslichtqualitäten und Aussichtsmöglichkeiten.
+         Dimensionen erscheinen deutlich enger, was die Nutzbarkeit insbesondere zu
+         Ankunfts- und Pausenzeiten beeinträchtigen dürfte. Die Grünraumachse wirkt zu       Die Positionierung von zwei Infrastrukturkernen pro Geschoss in der zentralen
+         eingeengt und kann ihre Wirkung nicht entfalten. Zwischen Neubau und                Zone führt allerdings zu räumlichen Engstellen, die den Charakter der Erschlies-
+         Holzhäusernstrasse erstreckt sich ein weitläufiger, spröde gestalteter Schulfrei-   sung beeinträchtigen und sowohl funktionale Flexibilität als auch Aufenthalts-
+         raum mit verschiedenen Spiel-, Bewegungs- und Begegnungsmöglichkeiten. Die          qualität limitieren. Der lineare Aufbau wird dadurch in seiner räumlichen Klar-
+         Anbindung an das Quartier erscheint leider beliebig und vermag es nicht,            heit geschwächt.
+         gestalterische und funktionale Potenziale zu aktivieren. Auf der Westseite
+         erzeugt die Distanz zur Strasse und zu den Nachbargebäuden einen ausreichend        Im Sockelgeschoss sind die Kindergärten mit direktem Aussenraumbezug
+         dimensionierten Freiraum. Die vorgeschlagene Ausformulierung als parkartig          angeordnet. Das Erdgeschoss nimmt die SEB und den Mehrzweckraum auf, wäh-
+         durchzogener Grünraum mit schmalen Wegen wirkt jedoch eher wie eine klassi-         rend im Obergeschoss die Räume der Primarschule organisiert sind. Die Tren-
+         sche Parkszenerie als wie ein kindgerechter, abwechslungsreicher Schulfreiraum      nung der Kindergärten von der Primarschule widerspricht dem Anspruch der
+         mit robusten Aufenthalts- und Spielangeboten. Die räumliche Reaktion auf die        Schule, diese beiden Stufen näher zueinanderzubringen. Die Ausprägung einzel-
+         pädagogischen Bedürfnisse bleibt entsprechend zurückhaltend. Topografisch           ner Zonen – insbesondere der Erschliessungsbereiche – wirft Fragen hinsichtlich
+         tritt das Gebäude vom südlichen inneren Freiraum her als dreigeschossiger, von      betrieblicher Abläufe, pädagogischer Flexibilität und langfristiger Resilienz des
+         der nördlichen Strassenseite her als zweigeschossiger Baukörper in Erscheinung.     Raumprogramms auf.
+         Die Höhenentwicklung wird als stimmig im Kontext beurteilt. Aus der Fassaden-
+         struktur ausgefaltete Vordächer schützen die Vorzonen der Zugänge. Im Sockel-       Aufgrund des hohen Stahlbetonanteils weist das Projekt eine unterdurchschnitt-
+         geschoss befinden sich diese an der Ost- und Westfassade; im Erdgeschoss wer-       liche Ökobilanz auf. Die Fassade und die nicht tragenden Elemente sind in Holz-
+         den die nördliche Strassenseite und die östliche Brückenverbindung zur              elementbauweise erstellt. Die Konstruktion und die kompakte Geschossfläche
+         Dreifachsporthalle adressiert. Diese Mehrseitigkeit erzeugt zwar direkte            tragen zu einer hohen Wirtschaftlichkeit bei.
+
+                       30
+                                                                                                                                    Jäger Charpié Architekten GmbH, Luzern
+                                                                                                                                                              SILBERFALTER
+
+
+
+
+Die Setzung des Gebäudes schafft auf der Westseite grosszügige Freiflächen, die     läufen auf. Ausserdem wird der Zusammenhang von Kindergarten und Primar-
+jedoch nicht konsequent in einen lebendigen, kindgerechten Schulfreiraum            schule vermisst.
+übersetzt werden. In der Folge entstehen auf der Ostseite beengte räumliche
+Verhältnisse, die durch die topografische Bearbeitung mittels einer kaskadie-       Der Entwurf weist in einzelnen Aspekten – insbesondere der topografischen
+renden Treppenanlage zwar räumliche Qualität erzeugen, zugleich aber funktio-       Bearbeitung – interessante Ansätze auf. In seiner Gesamtheit vermag «Silber-
+nale Einschränkungen mit sich bringen.                                              falter» das Preisgericht jedoch nicht vollständig zu überzeugen, da die struktu-
+                                                                                    rellen Einschränkungen und die unzureichend entwickelten Freiraumqualitäten
+Die innere Organisation zeigt sich strukturell schlüssig und konsequent ent-        die potenziellen Stärken überwiegen.
+wickelt. Kritisch beurteilt werden jedoch die Verengungen im zentralen Erschlies-
+sungsbereich sowie die Tatsache, dass eine beträchtliche Anzahl von Neben-
+und Funktionsflächen in diesen Zonen untergebracht ist. Dies wirft grundlegende
+Fragen zur funktionalen Resilienz, zur Flexibilität und zu möglichen Betriebsab-
+
+                                                                                                                                                   31
+Jäger Charpié Architekten GmbH, Luzern
+SILBERFALTER
+
+
+
+
+         Situation 1:2000
+
+
+                            32
+                     Jäger Charpié Architekten GmbH, Luzern
+                                               SILBERFALTER
+
+
+
+
+Obergeschoss 1:750                 Erdgeschoss 1:750
+
+
+
+
+                                   Schnitt Quer 1:750
+
+
+                                  33
+Jäger Charpié Architekten GmbH, Luzern
+SILBERFALTER
+
+
+
+
+                                         Tiefgaragengeschoss 1:1500
+
+
+         Sockelgeschoss 1:750
+
+
+
+
+         Ansicht Süd 1:750                                            Ansicht West 1:750
+
+
+                         34
+                                                                          Jäger Charpié Architekten GmbH, Luzern
+                                                                                                    SILBERFALTER
+
+
+
+
+Ausschnitt Grundriss 1.Obergeschoss 1:250
+                                            Detailschnitt Fassade 1:100
+                                                                                       35
+ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+ALADDIN
+
+
+
+                 Projekt 07                 ALADDIN
+                                            4. Rang
+                 Architektur                ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+                 Landschaft                 KOLLEKTIV NORDOST, St. Gallen
+
+
+
+
+          Mit einem Punktbau ergänzt der Projektvorschlag die bestehende Schulanlage            die angrenzenden Freiräume dominieren könnte.
+          und integriert die geforderten Nutzungen in einem nahezu quadratischen Volu-          Die Nutzungsverteilung ist klar strukturiert. Im Sockelgeschoss befinden sich die
+          men. Der Baukörper wird eng an die Holzhäusernstrasse gerückt und tritt von           Kindergärten, im Erdgeschoss die SEB mit Mehrzweckraum und im Obergeschoss
+          der Strassenseite zweigeschossig, vom südlich gelegenen inneren Freiraum drei-        die Primarschule. Die Trennung der Kindergärten von der Primarschule wider-
+          geschossig in Erscheinung. Diese Höhenstaffelung reagiert grundsätzlich nach-         spricht dem Anspruch der Schule, diese beiden Stufen näher zueinander zu brin-
+          vollziehbar auf die Topografie, führt jedoch zu sehr knappen Aussenräumen im          gen. Der direkte Aussenraumbezug der Kindergärten hat hingegen aus pädago-
+          Norden und Westen. Ausserdem führt die Gestaltung des Geländes mit steilen            gischer Sicht Potenzial, verliert jedoch aufgrund der real beengten
+          Böschungen dazu, dass die zur Holzhäusernstrasse orientierten Freiräume des           Aussenraumbedingungen, vor allem aufgrund der Böschung, an Wert. Die
+          Kindergartens isoliert erscheinen.                                                    umgebenden schmalen Freiräume lassen eine robuste, sichere und differen-
+          Die Erschliessung erfolgt von mehreren Seiten. Im Sockelgeschoss wird der Ein-        zierte Bespielbarkeit kaum zu.
+          gang konsequent nach Süden zum inneren Freiraum orientiert; im Erdgeschoss
+          liegt der Haupteingang plateauartig zur Holzhäusernstrasse und ein zweiter            Räumlich ordnet das Projekt die Klassen-, Gruppen- und Aufenthaltsräume um
+          Zugang findet sich an der Ostfassade, der über ein Brückenbauwerk an die Drei-        einen zentralen multifunktionalen Innenraum an – einen «Marktplatz», der als
+          fachsporthalle angebunden ist. Diese Mehrseitigkeit stärkt zwar die funktionale       gemeinschaftliches Herzstück jedes Geschosses konzipiert ist. Dieser Raum wird
+          Einbindung in den Campus, vermag die schwierigen aussenräumlichen                     durch vier volumetrische Einschnitte gegliedert: zwei massive Infrastruktur-
+          Bedingungen jedoch nicht zu kompensieren.                                             kerne sowie zwei transparente und zum Aussenraum offene Glasvolumen, die als
+          Die Sportflächen, Spielbereiche und Aufenthaltszonen sind auf dem unteren             Innenhöfe belichtet und räumlich aktiviert werden. Diese Struktur schafft poten-
+          Niveau angeordnet und werden durch Baumstrukturen klug ergänzt, was im                ziell differenzierte Lern- und Aufenthaltsorte mit hoher atmosphärischer Quali-
+          Grundsatz eine Aufenthaltsqualität im Freien auch an heissen Tagen erwarten           tät und guter Nutzbarkeit. Allerdings generieren die Setzungen der vier volu-
+          lässt. Die Positionierung unmittelbar entlang der Laufbahn führt jedoch zu räum-      metrischen Einschnitte im Verhältnis zum zentralen «Marktplatz» viele periphere
+          lichen Verengungen im Aussenbereich, die durch einen zentral angeordneten             Gangzonen.
+          Pavillon verstärkt werden.
+          Die horizontal gegliederte Fassade mit durchlaufenden Verglasungen verleiht           Die innere Erschliessung ist funktional organisiert. Die Mehrfachnutzung des
+          dem Baukörper eine gewisse Leichtigkeit und gewährleistet eine grosszügige            zentralen Raums ersetzt jedoch teilweise klassische Erschliessungsflächen, was
+          natürliche Belichtung der Innenräume. Gleichzeitig verstärkt die horizontale          zu betrieblich anspruchsvollen Situationen führen kann.
+          Betonung die Wahrnehmung des Volumens als monolithischen Punktbau, der                Das Projekt ist mehrheitlich in ökologischer Bauweise mit einem hohen Holz-
+
+                        36
+                                                                                             ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+                                                                                                                                                               ALADDIN
+
+
+
+
+anteil als Holzbau erstellt. Nachteilig wirkt sich der hohe Fensteranteil und die   senz des Punktbaus entstehen im Norden und Westen stark eingeschränkte Frei-
+grosse Volumetrie aus. Der sommerliche Wärmeschutz wird als kritisch ein-           flächen, die durch Stützmauern und steile Böschungen geprägt sind. Gleichzeitig
+geschätzt. Hinsichtlich der bauökonomischen Beurteilung lässt das Projekt auf-      werden diesen Freiräumen im Projekt wichtige Nutzungen zugewiesen, die sie
+grund der maximalen Geschossfläche verhältnismässig hohe Kosten erwarten.           räumlich kaum leisten können. Dies führt insbesondere für den Kindergarten zu
+                                                                                    unzureichenden Bedingungen hinsichtlich Sicherheit, Aufenthaltsqualität und
+Der Projektvorschlag überzeugt im Inneren durch seine klare Strukturierung und      Bewegungsangebot.
+den zentralen «Marktplatz», der eine identitätsstiftende, flexibel nutzbare räum-
+liche Mitte bildet. Die Möglichkeit, dieses Herzstück je nach Ebene – Kinder-       Insgesamt zeigt «Aladdin» eine überzeugende innere räumliche Idee, die aber
+garten, SEB, Primarschule – unterschiedlich auszugestalten, ist ein starker         Mängel in den räumlichen Zusammenhängen und der Flexibilität zukünftiger
+Ansatz und wird als pädagogisch wertvoll beurteilt. Der Zusammenhang zwi-           pädagogischer Konzepte aufweist. Die «sperrige» städtebauliche und freiräum-
+schen Primarschule und Kindergarten wird aber vermisst.                             liche Einbindung vermag nicht zu überzeugen. Die Aussenräume können die
+                                                                                    pädagogischen Anforderungen nicht erfüllen und beeinträchtigen damit die
+Ausserdem stehen den inneren Qualitäten aussenräumliche Defizite gegenüber.         Gesamttauglichkeit des Vorschlags wesentlich.
+Durch die enge Setzung des Baukörpers zur Strasse und die volumetrische Prä-
+
+                                                                                                                                                  37
+ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+ALADDIN
+
+
+
+
+          Situation 1:2000
+
+
+                             38
+                                        ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+                                                                                                          ALADDIN
+
+
+
+
+Obergeschoss 1:750
+
+
+
+
+                                                                                          Erdgeschoss 1:750
+
+
+
+
+                     Schnitt AA 1:750                                                         Schnitt BB 1:750
+
+
+                                                                                         39
+ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+ALADDIN
+
+
+
+
+                                                                              Tiefgaragengeschoss 1:1500
+
+
+
+
+          Sockelgeschoss 1:750
+
+
+
+
+          Ansicht Süd 1:750                                                                                Ansicht Nord 1:750
+
+                          40
+                                                                          ARGE Gilbert Berthold Architekt, Zürich + Studio Zaluska GmbH, Lodz (Polen)
+                                                                                                                                            ALADDIN
+
+
+
+
+Ausschnitt Grundriss Betreuung 1:250
+
+
+
+
+Ausschnitt Grundriss Lernlandschaft 1:250
+
+
+
+
+Ausschnitt Grundriss Klassenzimmer 1:250
+
+
+
+                                            Detailschnitt Fassade 1:100
+                                                                                                                           41
+RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+LUFTIBUS & KUNTERBUNT
+
+
+
+              Projekt 01                 LUFTIBUS & KUNTERBUNT
+              Architektur                RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+              Landschaft                 Westpol Landschaftsarchitektur, Basel
+
+
+
+
+        Die Projektverfassenden erhalten als einzige das bestehende Kindergarten-        Für den Neubau wird eine Hybridbauweise vorgeschlagen. Die massiven Kerne
+        gebäude. Zusammen mit dem viergeschossigen, allseitig gestaffelten Neubau-       sowie die vorfabrizierten Stützen und Unterzüge bilden eine effiziente Primär-
+        volumen ganz im Westen der Anlage bildet dieses einen grundsätzlich stimmi-      struktur in Beton. Die weiteren Bauteile sind in ökologischer Bauweise aus-
+        gen Abschluss des Schulcampus. Der Neubau orientiert sich mit den beiden         gebildet – Decken aus Brettschichtholzelementen, nichttragende Wände aus
+        gedeckten Eingängen zum Innenhof und fasst einen grosszügigen Pausenplatz,       Holzständern mit Lehmplatten. Dunkle Stützen, helle Metallbrüstungen und
+        der Sport- und Aufenthaltsmöglichkeiten ansprechend vereint. Der Aussenbe-       metallfarbene Fenster prägen das äussere Erscheinungsbild des Neubaus und
+        reich zu den Bauten entlang der Holzhäusernstrasse wie auch der Hartplatz im     verleihen diesem im Gegensatz zur Atmosphäre im Inneren einen zu kühlen
+        Süden wirken aufgrund der städtebaulichen Setzung jedoch zu knapp bemessen.      industriellen Ausdruck.
+        Der geforderte Allwetterplatz fehlt und die vorgeschlagene Überlagerung von
+        Sport-, Pausen- und Spielbereich wird von dem Preisgericht kritisch beurteilt.   Der Projektvorschlag überzeugt hinsichtlich Nachhaltigkeit durch den Erhalt des
+        Die angestrebte Atmosphäre mit den grossen, schattenspendenden Bäumen auf        Bestandes, die Ergänzung mit einem kompakten Neubauvolumen sowie eine im
+        dem Pausenplatz erscheint aufgrund ihrer Lage auf dem Dach der Tiefgarage        Grundsatz effiziente Konstruktionsweise. Die städtebauliche Setzung mit zwei
+        nicht glaubwürdig.                                                               Gebäuden führt jedoch zu beengten Platzverhältnissen, welche die Nachbar-
+                                                                                         bauten bedrängen und die Qualität der Aussenbereiche stark mindern. Zudem
+        Die verschiedenen Nutzungseinheiten sind schlüssig auf die beiden Gebäude        können die unflexiblen Grundrisse des Neubaus mit ihren zu knapp bemessenen
+        verteilt. Die Räume für den Mittagstisch und die ausserschulische Betreuung      und somit wenig brauchbaren Aufenthaltsbereichen den heutigen Anforderungen
+        sind als unabhängige Einheit im bestehenden Trakt untergebracht. Der Mehr-       an einen zeitgemässen Unterricht nicht genug Rechnung tragen.
+        zwecksaal befindet sich an zentraler Lage im Erdgeschoss des Neubaus. Über
+        zwei separate Treppenhäuser gelangt man zu den Unterrichtsräumen der Primar-
+        schule und des Kindergartens, die als eigene Einheiten jeweils über drei
+        Geschosse organisiert sind.
+
+        Die Erschliessungs- und Aufenthaltsbereiche mit den Garderoben erscheinen zu
+        knapp bemessen und die Nebenräume sowie der Lift sind nur von den Kinder-
+        gärten direkt zugänglich. Betrieblich kann das neue Schulgebäude den
+        Anforderungen an einen flexiblen offenen Unterricht, auch aufgrund der sehr
+        starren Grundrissstruktur, nicht genügen.
+
+                     42
+RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+                      LUFTIBUS & KUNTERBUNT
+
+
+
+
+                       43
+RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+LUFTIBUS & KUNTERBUNT
+
+
+
+
+        Situation 1:2000
+
+
+                           44
+                                                                        RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+                                                                                              LUFTIBUS & KUNTERBUNT
+
+
+
+
+Sockelgeschoss 1:750    1. Obergeschoss 1:750   2. Obergeschoss 1:750
+
+
+
+
+1. Obergeschoss 1:750   2. Obergeschoss 1:750   3. Obergeschoss 1:750
+
+
+
+
+                                                                                                Erdgeschoss 1:750
+
+
+
+
+Schnitt Quer 1:750
+
+
+                                                                                               45
+RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+LUFTIBUS & KUNTERBUNT
+
+
+
+
+                                                Tiefgaragengeschoss 1:1500
+
+
+
+
+        Schnitt Längs 1:750                                                  Schnitt Quer 1:750
+
+
+                        46
+                                                                          RAHBARAN HÜRZELER ARCHITEKTEN GmbH SIA, Basel
+                                                                                                LUFTIBUS & KUNTERBUNT
+
+
+
+
+Ausschnitt Grundriss 2.Obergeschoss 1:250
+
+
+
+
+                                            Detailschnitt Fassade 1:100
+                                                                                                 47
+PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+PETER PAN
+
+
+
+               Projekt 02                 PETER PAN
+               Architektur                PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+               Landschaft                 Zwahlen + Zwahlen AG Landschaftsarchitektur, Cham
+
+
+
+
+         Ein länglicher dreigeschossiger Baukörper führt die Struktur der bestehenden         einheiten Kindergarten und Primarschule ist nicht gegeben, was die angestrebte
+         Anlage selbstverständlich weiter. Die städtebauliche Setzung ermöglicht gross-       stufenübergreifende Flexibilität einschränkt. Die Gebäudestruktur mit den lan-
+         zügige Aussenbereiche für die Sportplätze im Süden und die Aufenthalts- und          gen Korridoren wirkt effizient, aber uninspiriert und verfügt in den Unterrichts-
+         Spielbereiche im Westen. Zwischen dem Neubau und dem Sockel der Sporthalle           geschossen über wenig Aufenthaltsqualität.
+         entsteht hingegen ein sehr beengt und unattraktiv wirkender Einschnitt. Das
+         Neubauvolumen gliedert sich in ein Sockelgeschoss, ein an den beiden Längs-          Die Gebäudestruktur überzeugt mit der geschickten hybriden Bauweise, ihrer
+         seiten auskragendes Hauptgeschoss sowie ein Dachgeschoss. Das Erdgeschoss            Klarheit und der direkten Lastabtragung. Die Primärstruktur besteht aus Stützen
+         mit den gedeckten Vorbereichen suggeriert eine öffentlich zugängliche Zwei-          und Trägern in Brettschichtholz und schlanken, gerippten Betondecken, welche
+         seitigkeit. Stattdessen befindet sich der Haupteingang im Norden auf dem             als Speichermasse dienen. Im Zusammenspiel mit den Fliessestrichböden und
+         Niveau der Holzhäusernstrasse und ist durch Stützmauern und Treppenanlagen           den hellen Wänden entsteht im Innern eine einheitliche ruhige Atmosphäre, die
+         sehr klar von den Sportanlagen und Pausenplätzen getrennt. Die obere Ein-            geschätzt wird. Aussen prägt das architektonisch sichtbare Hauptgeschoss den
+         gangsebene bietet wenig Aufenthaltsqualität. Im westlichen, peripher gelegenen       Charakter des Gebäudes. Dunkelgrüne Metalllisenen und Gitterelemente für die
+         Bereich befinden sich der baumbestandene Spielplatz und der Zugang zum               Brüstungsbereiche fassen die Fensterelemente mit den lachsfarbenen Storen.
+         Kindergarten. Die übrigen Freiflächen wirken schlicht und sind kaum bepflanzt,       Im Gegensatz dazu sind das Sockel- und das Dachgeschoss sehr zurückhaltend
+         was dazu führt, dass sie wenig zum Verweilen einladen.                               gestaltet. Insgesamt erhält das neue Schulhaus einen zu technischen Ausdruck,
+                                                                                              welcher eher an Gewerbebauten erinnert.
+         Die Gliederung des Baukörpers entspricht der Nutzungsverteilung im Innern,
+         was im Grundsatz positiv bewertet wird. Auch nachvollziehbar ist, dass im            Durch die städtebauliche Setzung entsteht im Westen ein vom Zentrum der
+         Hauptgeschoss mit dem Mehrzwecksaal sowie den Räumen der Betreuung die               Schulanlage isolierter Aufenthaltsbereich und im Osten ein enger, unattraktiver
+         öffentlichsten Nutzungen untergebracht sind. Eine Aussentreppe ermöglicht            Zwischenraum. Es fehlt ein angemessener Zugang zum Gebäude von der unteren
+         eine zusätzliche direkte Erschliessung von den Sportanlagen, verfügt jedoch          Platzebene. Die Lage der Kindergärten ist aufgrund der Verschattung und der
+         über keinen angemessenen Ankunftsort. Die Kindergärten befinden sich im Erd-         fehlenden Intimität im Erdgeschoss problematisch. Die Trennung von Schule und
+         geschoss, ungünstig angrenzend an die rege genutzten Aussenplätze. Durch die         Kindergarten verhindert die angestrebte Nutzungsflexibilität. Die strenge
+         Auskragung sind die Räume zudem sehr stark verschattet. Die Primarschule liegt       Gebäudestruktur mit den gleichförmigen langen Korridoren und der archi-
+         im Dachgeschoss und verfügt über vorgelagerte Terrassen, die im Zusammen-            tektonische Ausdruck wirken wenig einladend. Daher vermag der Projektvor-
+         hang mit der Aussentreppe betrieblich aufgrund des Sicherheitsrisikos eher als       schlag trotz nachvollziehbarer Grundideen nicht zu überzeugen.
+         problematisch erachtet werden. Die gewünschte Nähe der beiden Unterrichts-
+
+                      48
+PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+                                    PETER PAN
+
+
+
+
+                     49
+PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+PETER PAN
+
+
+
+
+         Situation 1:2000
+
+
+                            50
+                                 PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+                                                                     PETER PAN
+
+
+
+
+Grundriss 1.Obergeschoss 1:750
+
+
+                                                        Erdgeschoss 1:750
+
+
+
+
+                                                       Schnitt Längs 1:750
+
+
+                                                       51
+PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+PETER PAN
+
+
+
+
+         Sockelgeschoss 1:750                    Tiefgaragengeschoss 1:1500
+
+
+
+
+                                                                              Ansicht Süd 1:750
+
+
+                        52
+                                                                          PENZISBETTINI Architekten ETH/SIA GmbH, Zürich
+                                                                                                              PETER PAN
+
+
+
+
+Ausschnitt Grundriss 2.Obergeschoss 1:250
+
+
+
+
+                                            Detailschnitt Fassade 1:100
+                                                                                               53
+BothAnd Architecture GmbH, Zürich
+FULL HOUSE
+
+
+
+                Projekt 04                 FULL HOUSE
+                Architektur                BothAnd Architecture GmbH, Zürich
+                Landschaft                 Atelier Amont GmbH, Basel
+
+
+
+
+         Der Neubau wird als kompakter Punktbau parallel zur Tartanbahn und in               Das expressive Versprechen des Giebelaufbaus wird dadurch nur bruchstückhaft
+         unmittelbarer Nähe zur Holzhäusernstrasse positioniert. Strassenseitig tritt das    eingelöst.
+         Gebäude dreigeschossig, südseitig aufgrund der Topografie viergeschossig in
+         Erscheinung. Die Setzung generiert auf der Südseite einen grosszügigen, poten-      Die innere Organisation folgt den betriebsseitigen Vorgaben grundsätzlich
+         ziell hochwertigen Freiraum mit guter Besonnung. Allerdings wird dieser räum-       schlüssig. Die SEB im Erdgeschoss verfügt über einen direkten Bezug zum Aus-
+         liche Mehrwert durch die Platzierung eines zentralen Aussengeräteraums mit          senraum, während der strassenseitige Eingang ins erste Obergeschoss die
+         Treppenzugang zur Tiefgarage im Kern der Freifläche wesentlich beeinträchtigt.      Kindergärten adressiert. Das zweite Obergeschoss nimmt weitere Kindergarten-
+         Mit dieser Entscheidung verliert der Aussenraum seine Grosszügigkeit, räum-         räume sowie die Werkräume auf, das dritte Obergeschoss die Primarschule. Die
+         liche Durchlässigkeit und intuitive Bespielbarkeit – Qualitäten, die insbesondere   Nähe zwischen Kindergärten und Primarschule und die klare Zuordnung des SEB
+         im Kontext von Schule, Kindergärten und gesellschaftlicher Nutzungen ent-           zum Freiraum werden als funktional stimmig bewertet.
+         scheidende Vorteile wären. Der Eingang von der Holzhäusernstrasse ist damm-
+         artig gestaltet. Der im Norden liegende Abschnitt des Pausenplatzes wirkt iso-      Das zentral angelegte Atrium dient als räumliches Rückgrat der internen
+         liert. Die Sorgfalt des ökologischen Konzepts im Aussenraum wird geschätzt.         Erschliessung. Zwei Infrastrukturvolumen sowie ein Fahrstuhlkern strukturieren
+                                                                                             den Raum und schaffen differenzierte Blickachsen und Aufenthaltszonen. Die
+         Der Mehrzweckraum wird als eigenständige Volumetrie in Form eines Giebel-           vertikale Grosszügigkeit und gute Tageslichtführung über drei Obergeschosse
+         hauses auf das viergeschossige Flachdachvolumen aufgesetzt. Dieser «Haus-           hinweg sind gute Qualitäten des Projekts. Gleichzeitig erzeugt die räumliche
+         auf-Haus» - Ansatz erzeugt eine formelle Eindeutigkeit und gibt dem Projekt auf     Ausformulierung eine Atmosphäre, die an Oberstufengebäude erinnert und
+         den ersten Blick eine charaktervolle Silhouette. Die Positionierung fassaden-       weniger auf die Bedürfnisse von Kindern im Kindergarten- und Primarschulalter
+         bündig an Süd- und Ostseite verstärkt diesen architektonischen Ausdruck. Das        ausgerichtet scheint. Zudem birgt das offen durchlaufende Atrium erhebliche
+         Potenzial dieser Setzung wird jedoch durch funktionale und gestalterische Ent-      schalltechnische Herausforderungen zwischen den schulischen Zyklen – ein
+         scheidungen geschwächt. Die westseitige Erschliessungsanordnung mit Treppe          Aspekt, der im Betrieb zu Einschränkungen führen kann.
+         und Lift führt zu einer Fassadenschliessung und verhindert visuelle und räum-       Die hybride Konstruktionswiese mit dem zentralen Betonskelettbau, der Holz-
+         liche Bezüge nach Westen. Die Terrasse auf der Nordseite bietet nur einen limi-     struktur in den äusseren Zonen, den Holz-Beton-Verbunddecken und der Holz-
+         tierten Aussenraumbezug und die gestalterisch ausgesprochen zurückhaltend           fassade überzeugt im Grundsatz.
+         behandelte Dachlandschaft – inklusive Photovoltaik, Atriumoberlicht und Rück-
+         kühler – wirkt additiv und widerspricht dem Anspruch einer integralen, über-        Der Projektvorschlag zeichnet sich durch einen kompakten, effizienten Bau-
+         zeugenden Dacharchitektur.                                                          körper aus, der grosszügige Freiräume freispielt. Diese Qualität wird jedoch
+
+                       54
+                                                                                                                                            BothAnd Architecture GmbH, Zürich
+                                                                                                                                                                  FULL HOUSE
+
+
+
+
+durch die zentrale Setzung des Infrastrukturpavillons relativiert, der die Bespiel-   Insgesamt liefert das Projekt wertvolle Beiträge zur Diskussion und zeigt vielver-
+barkeit und räumliche Offenheit des Aussenraums reduziert.                            sprechende Ansätze. Als Gesamtentwurf bleibt es jedoch hinter seinem eigenen
+                                                                                      räumlichen und architektonischen Anspruch zurück und vermag das Preisgericht
+Die innere Organisation überzeugt durch Klarheit und funktionale Logik. Das           nicht zu überzeugen.
+Atrium bildet einen identitätsstiftenden räumlichen Fokus, bringt jedoch akusti-
+sche und atmosphärische Herausforderungen mit sich. Der Giebelaufbau kün-
+digt einen potenziell markanten Ort für schulische und gemeinschaftliche
+Anlässe an, verfehlt dieses Potenzial aber aufgrund seiner suboptimalen
+Erschliessung und der unzureichend integrierten Dachgestaltung. Die starke
+architektonische Geste verliert dadurch an Überzeugungskraft und wirkt in Tei-
+len überformt.
+
+
+
+                                                                                                                                                       55
+BothAnd Architecture GmbH, Zürich
+FULL HOUSE
+
+
+
+
+         Situation 1:2000
+
+
+                            56
+                                                               BothAnd Architecture GmbH, Zürich
+                                                                                     FULL HOUSE
+
+
+
+
+2.Obergeschoss 1:750
+
+
+
+
+1.Obergeschoss 1:750                       Erdgeschoss 1:750
+
+
+
+
+                       Schnitt AA 1:1000                                 Schnitt BB 1:1000
+
+
+                                                                       57
+BothAnd Architecture GmbH, Zürich
+FULL HOUSE
+
+
+
+
+         Sockelgeschoss 1:750
+
+
+
+
+                                    Tiefgaragengeschoss 1:1500
+
+
+
+
+         Ansicht West 1:750                                      Ansicht Ost 1:750   Ansicht Süd 1:750
+
+
+                        58
+                                                           BothAnd Architecture GmbH, Zürich
+                                                                                 FULL HOUSE
+
+
+
+
+Ausschnitt Grundriss 1:250
+
+
+
+
+Ausschnitt Grundriss 1:250
+
+
+
+
+                             Detailschnitt Fassade 1:100
+                                                                   59
+Bienert Kintat Architekten, Zürich
+Ferdinand
+
+
+
+                 Projekt 05                 Ferdinand
+                 Architektur                Bienert Kintat Architekten, Zürich
+                 Landschaft                 Crucowicz Landschaften GmbH, Schaffhausen
+
+
+
+
+          Der Projektvorschlag bespielt das Areal mit einem schlanken, längs orientierten     Der zentrale Erschliessungsraum wird auf allen Geschossen stirnseitig durch
+          Baukörper, der parallel zur Tartanbahn und in knapper Distanz zur Holzhäusern-      Gruppenräume gefasst, was zu einer klaren räumlichen Orientierung führt.
+          strasse positioniert wird. Die Ost-West-Positionierung des Gebäudes erzeugt auf     Gleichzeitig sind Materialräume und Garderoben weitgehend in die Erschlies-
+          beiden Längsseiten Freiräume mit vergleichbaren Raumtiefen und Besonnungs-          sungszone integriert, was deren Aufenthaltsqualität limitiert und eine funktio-
+          verhältnissen. Diese Gleichwertigkeit eröffnet das Potenzial für differenzierte,    nale Durchmischung erzeugt, die nicht überall betrieblich sinnvoll erscheint. Die
+          gleichermassen attraktive Aufenthaltsbereiche für Kinder beider Schulstufen.        Trennung von Kindergarten und Primarschule durch das Geschoss mit der Tages-
+          Jedoch wird die periphere Lage des Allwetterplatzes bemängelt und das Ein-          betreuung wird bemängelt. Ausserdem kritisiert das Preisgericht die ungünstig
+          engen des Hartplatzes vor der Mehrzweckhalle Schützenmatt durch die Nähe            schmal proportionierten Räume für die unterstützenden Angebote.
+          des Neubaus kritisiert. Die zentrale Freiraumachse wirkt vor der sehr langen
+          Fassade unterdimensioniert.                                                         Der Hybridbau mit Betonkernen und Holzskelett, Holz-Beton-Verbunddecken
+                                                                                              und der Holzfassade wird aus ökologischer Sicht als adäquat und effizient
+          Der natürliche Terrainverlauf wird auf eine schmale Böschung entlang der            erachtet.
+          Holzhäusernstrasse reduziert, wodurch das Gebäude trotz seiner Nähe zur             Die Setzung des Baukörpers erzeugt zwei grundsätzlich hochwertige Freiräume,
+          Strasse auf dem Niveau des inneren Freiraums zu liegen kommt. In der Folge ver-     die für das pädagogische Nutzungsspektrum attraktive Potenziale bieten. Die
+          fügt der Baukörper über keinen ebenerdigen Zugang von der Strasse. Das              starke Reduktion des Terrainsprungs führt zu einem dominanten Rampenbau-
+          erforderliche Rampen- und Treppenbauwerk, das den Höhensprung über-                 werk, das den Zugang von der Strasse aus aufwändig erscheinen lässt. Zudem
+          windet, wirkt konstruktiv aufwendig und beansprucht wertvolle Freifläche.           ragt der lange Baukörper tief in den inneren Freiraum und schränkt damit die
+                                                                                              räumlichen Beziehungen zum Hartplatz ein, was in diesem Arealteil zu beengten
+          Die innere Organisation folgt einer linearen, streng strukturierten Logik entlang   Situationen führt.
+          eines zentralen Erschliessungsraums. Im Erdgeschoss befinden sich die Kinder-
+          gärten sowie sämtliche Hauptzugänge. Die westseitigen Eingänge adressieren          Die Vorzone der primarschulseitigen Eingänge überzeugt durch eine klare
+          die Kindergärten, während an der Ostfassade die Zugänge für Primarschule und        Adressbildung und hohe Aufenthaltsqualität. Gleichzeitig führt die Positionie-
+          Tagesbetreuung geführt werden. Letztere erhält einen zusätzlichen, separaten        rung der Kindergärten und Lehrerzimmer im Erdgeschoss dazu, dass deren
+          Zugang über eine ostseitige Spindeltreppe. Die mehrfache Erschliessung erzeugt      Privatsphäre nur durch vorgelagerte Pflanzflächen gewährleistet werden kann,
+          zwar klare Adressierungen, wirkt in ihrer räumlichen Anordnung jedoch teils         was aus räumlicher und wirtschaftlicher Sicht wenig effizient wirkt.
+          additiv und technisch motiviert.
+
+
+                        60
+                                                                                  Bienert Kintat Architekten, Zürich
+                                                                                                          Ferdinand
+
+
+
+
+Die innere Organisation ist konsequent aus der linearen Gebäudefigur ent-
+wickelt, wirkt jedoch in Teilen von der strukturellen Starrheit des Entwurfs zu
+sehr bestimmt. Die Erschliessung der SEB zeigt Unschärfen, und die Dimensio-
+nierung diverser Kleinräume im 2. Obergeschoss erfüllt den Anspruch an eine
+hochwertige pädagogische Nutzung nicht.
+
+Das Projekt präsentiert eine klare Alternative im Umgang mit Gebäudeform, Set-
+zung und Topografie. Die mit dieser Haltung verbundenen Nachteile – ins-
+besondere die eingeschränkte Freiraumqualität, die erzwungene Bearbeitung
+der Topografie und die funktionalen Einschränkungen der linearen Struktur –
+überwiegen jedoch im Vergleich zu den potenziellen Vorteilen. Als Gesamtent-
+wurf vermag «Ferdinand» das Preisgericht daher nicht zu überzeugen.
+
+
+                                                                                         61
+Bienert Kintat Architekten, Zürich
+Ferdinand
+
+
+
+
+          Situation 1:2000
+
+
+                             62
+                                                                                           Bienert Kintat Architekten, Zürich
+                                                                                                                   Ferdinand
+
+
+
+
+1. Obergeschoss 1:750   2. Obergeschoss 1:750
+
+
+                                                Erdgeschoss 1:750
+
+
+
+
+Schnitt Quer 1 1:750                                                Schnitt Quer 2 1:750
+
+
+                                                                                                  63
+Bienert Kintat Architekten, Zürich
+Ferdinand
+
+
+
+
+                                            Tiefgaragengeschoss 1:1500
+
+
+
+
+                                                                  Ansicht West 1:750   Ansicht Nord 1:750
+
+
+
+
+                                     Ansicht Süd 1:750                                  Ansicht Ost 1:750
+
+
+
+                        64
+                                                                          Bienert Kintat Architekten, Zürich
+                                                                                                  Ferdinand
+
+
+
+
+Ausschnitt Grundriss 2.Obergeschoss 1:250
+
+
+
+
+                                            Detailschnitt Fassade 1:100
+
+
+                                                                                 65
+Gauch & Schwartz GmbH Architekten ETH SIA
+SCALINO
+
+
+
+                Projekt 09                 SCALINO
+                Architektur                Gauch & Schwartz GmbH Architekten ETH SIA
+                Landschaft                 iten landschaftsarchitekten gmbh, Unterägeri
+
+
+
+
+         Ein viergeschossiger Winkelbau wird westlich der bestehenden Dreifachturn-          der flexiblen Weiterentwicklung pädagogischer Konzepte sehr geschätzt. Die
+         halle zur Holzhäusernstrasse gesetzt und überzeugt im Grundsatz als räumliches      zweiseitige Belichtung aller Klassenzimmer verspricht eine hohe Raum- und Auf-
+         Konzept mit einem kleinen Fussabdruck und mit den mit der Gebäudegeometrie          enthaltsqualität. Bemängelt wird hingegen die Organisation mit einem wesent-
+         abgestimmten Eingangssituationen. Die städtebauliche Positionierung wirkt           lich zu kleinen Treppenhaus, das betrieblich den Stosszeiten nur schwer stand-
+         allerdings ungenau und zu nah an den Bestand gerückt. Das neue Volumen ver-         halten könnte. Zudem warf das Treppenhaus, welches die Kinder dann in zwei
+         mittelt dafür geschickt zwischen den grossmassstäblichen öffentlichen Bauten        Gebäudeteile verteilt, Fragen zur Orientierung im Gebäude auf. Auch wenn das
+         und den kleineren Privathäusern entlang der Holzhäusernstrasse, wo die Haupt-       Preisgericht die clusterartige Anordnung grundsätzlich interessant findet, wer-
+         adresse schlüssig angesiedelt ist. Ein zweiter Eingang orientiert sich grosszügig   den ihre inneren Erschliessungszonen als massgeblich zu beengt beurteilt und
+         zur Ebene des Pausen- und Sportplatzes und wird durch ein schattenspendendes        die Organisation mit den Garderoben als nicht betriebstauglich eingestuft. Aus-
+         Baumdach im Vorbereich akzentuiert. Alle weiteren Nutzungen und gestalteten         serdem werden die Proportionen der Spezialzimmer bemängelt und die
+         Freiraumelemente befinden sich ebenfalls auf dem unteren Niveau, welche mit         Anlieferung der Küche als nicht funktional und aufwändig beurteilt.
+         dem oberen Niveau durch eine nutzbare, sanft geneigte Böschung und eine
+         Rampenanlage verbunden ist. Eine Baumreihe und zwei langgestreckte Pavillons        Das Projekt ist mit seinem massiven Skelettbau, Flachdecken und der Holz-
+         strukturieren als zentrale Achse den Freiraum, wirken in ihrer Ausführung jedoch    fassade effizient konstruiert. Der kleine Fussabdruck, die geringe Geschoss-
+         tendenziell trennend und zu wenig verbindend. Das Preisgericht stellt ausser-       fläche und das kleine Volumen lassen einen wirtschaftlichen und weitestgehend
+         dem den Mehrwert der additiven Anordnung der Sportfelder hinsichtlich ihrer         ökologisch nachhaltigen Bau erwarten. Jedoch stehen diese Vorteile im Gegen-
+         Aufenthaltsqualität in Frage. Die zentrale Anordnung des Allwetterplatzes wird      satz zu den betrieblichen Einschränkungen, die damit einhergehen.
+         hingegen geschätzt. Das vorgeschlagene Bepflanzungskonzept mit den Pavillons
+         schränkt zum Teil die für die Mehrzweckhalle Schützenmatt wichtige polyvalente      Der Projektvorschlag «SCALINO» weist mit dem Winkelbau ein grosses Potential
+         Nutzungen der Sportplätze ein.                                                      bezüglich Städtebau, Architektur, Freiraum und Wirtschaftlichkeit auf, welches
+                                                                                             leider nicht ausgeschöpft wird. Es wird Präzision in der städtebaulichen Setzung
+         Die Schulergänzende Betreuung SEB, der Mittagstisch sowie der zweigeschossige       vermisst und die vielversprechenden räumlichen Qualitäten der Klassenzimmer
+         Mehrzweckraum werden im Sockelgeschoss angeordnet und sind für die Schüle-          finden sich zu wenig in den Erschliessungsbereichen. Die eingeschränkte
+         rinnen und Schüler des gesamten Schulareals und auch für externe Besuchende         betriebliche Funktionsfähigkeit beeinträchtigt den interessanten Ansatz zu
+         gut erreichbar. Die westlichen Aussenräume bieten ergänzend gute Erholungs,-        wesentlich, so dass das Projekt das Preisgericht insgesamt nicht zu überzeugen
+         und Spielmöglichkeiten. Die zusammenhängende Anordnung von Kindergarten-            vermag.
+         und Schulnutzungen in den drei darüber liegenden Geschossen wird im Sinne
+
+                       66
+Gauch & Schwartz GmbH Architekten ETH SIA
+                                SCALINO
+
+
+
+
+                 67
+Gauch & Schwartz GmbH Architekten ETH SIA
+SCALINO
+
+
+
+
+         Situation 1:2000
+
+
+                            68
+                                                                                     Gauch & Schwartz GmbH Architekten ETH SIA
+                                                                                                                     SCALINO
+
+
+
+
+                    2. Obergeschoss 1:750
+
+
+
+
+                    1. Obergeschoss 1:750
+
+                                                                                                       Erdgeschoss 1:750
+
+
+
+
+Ansicht Süd 1:750                           Ansicht Ost 1:750   Ansicht West 1:750
+
+                                                                                                      69
+Gauch & Schwartz GmbH Architekten ETH SIA
+SCALINO
+
+
+
+
+                                            Untergeschoss 1:1500
+
+
+
+
+         Sockelgeschoss 1:750
+
+
+
+
+                                                                   Schnitt Längs 1:750
+
+
+                        70
+                                                                          Gauch & Schwartz GmbH Architekten ETH SIA
+                                                                                                          SCALINO
+
+
+
+
+Ausschnitt Grundriss Sockelgeschoss 1:250   Detailschnitt Fassade 1:100
+
+
+
+
+                                                                                           71
+Illiz architektur GmbH, Zürich
+NEXUS
+
+
+
+                 Projekt 10                NEXUS
+                 Architektur               Illiz architektur GmbH, Zürich
+                 Landschaft                Habitat Landschaftsarchitektur GmbH, Zürich
+
+
+
+
+          Ein viergeschossiger quadratischer Punktbau wird auf der unteren Ebene des       Das Projekt ordnet auf dem unteren Niveau, der Ebene Pausenplatz, die Schul-
+          Schulareals zentral platziert. Der Zugang von der Holzhäusernstrasse wird über   ergänzende Betreuung SEB mit dem Mittagstisch an. In den drei darüber liegen-
+          Rampen ermöglicht. Die Böschung wird als kleines Wäldchen gestaltet und ver-     den Geschossen werden der Mehrzweckraum, Kindergarten und Schulnutzungen
+          leiht dem gesamten Areal nach Norden hin einen wohltuenden Abschluss. Die        vorgesehen. Der Zusammenhang der Kindergarten- und Schulnutzungen wird im
+          Erschliessung erfolgt schlüssig von Norden und Süden auf dem Pausenplatz-        Sinne der flexiblen Entwicklung pädagogischer Konzepte sehr geschätzt.
+          niveau und wird mit einem Eingang auf einer Ebene darüber ergänzt. Eine Brücke
+          verbindet das Gebäude mit dem höheren Niveau der bestehenden Schulanlage         Die zweiseitig belichteten Klassenzimmer sowie die multifunktionalen Räume in
+          und stellt damit deren direkte Anbindung sicher.                                 der Gebäudemitte samt nutzbarer Treppenanlage versprechen eine hohe Raum-
+                                                                                           und Aufenthaltsqualität.
+          Als wesentliche Elemente des Projekts präsentieren sich Laubengänge mit aus-
+          kragenden Balkonen und geschwungenen Treppenanlagen, die die Funktion der        Der Holzbau mit seinem geschickt gewählten Stützenraster bietet Flexibilität
+          Fluchtreppen erfüllen und so den Innenraum mit seiner grosszügigen Treppe von    und das Potenzial bedarfsweise räumliche Veränderungen vorzunehmen und die
+          brandschutztechnischen Vorgaben hinsichtlich Fluchtwege befreien. Darüber        Konstruktion lässt eine gute ökologische Bilanz erwarten. Die Geschossflächen
+          hinaus soll die vorgesetzte aussenliegende Gebäudeschicht einen Mehrwert als     sind aufgrund der ausgelagerten Erschliessung vergleichsweise gering. Auf-
+          zusätzlicher Schulraum schaffen. Dieser wird aber im Kontext der Kindergarten-   grund des grossen Anteils von Aussengeschossflächen ist insgesamt mit einer
+          und Primarschulnutzung in Frage gestellt, da die Gewährleistung der Sicherheit   durchschnittlichen Wirtschaftlichkeit zu rechnen.
+          zu erheblichen betrieblichen Aufwänden führen würde.
+                                                                                           Das Projekt «Nexus» besticht mit seiner klaren Form, der baulichen Flexibilität
+          Durch die zentrale Platzierung des Neubaus entwickeln sich die Spielbereiche,    und den innenräumlichen Qualitäten. Die städtebauliche Setzung und die der
+          Sportstätten und Erschliessungsflächen in alle Richtungen gleichermassen.        Fassade vorgelagerten Aussenbereiche werden im Kontext der Schulanlage
+          Diese wirken jedoch durch fehlende räumliche Zuordnungen sowie Kleinbauten       sowie der Kindergarten- und Primarschulnutzung jedoch als formal und betrieb-
+          und Brücken zergliedert. Insbesondere die unmittelbare Nähe des Baukörpers       lich unpassend beurteilt. Auch wenn die Umkehrung der Erschliessung für den
+          zur – und der Brückenbau entlang – der Laufbahn iritieren, da sie aussenräum-    Innenraum gute Qualitäten erzeugt, vermag das Gesamtkonzept aufgrund der
+          lich einschränkend wirken. Ausserdem rückt das Gebäude zu nah an die             Unstimmigkeiten nicht zu überzeugen.
+          bestehende Mehrzweckhalle Schützenmatt, wodurch die Nutzung des polyva-
+          lenten Hartplatzes davor eingeschränkt wird.
+
+
+                        72
+Illiz architektur GmbH, Zürich
+                       NEXUS
+
+
+
+
+   73
+Illiz architektur GmbH, Zürich
+NEXUS
+
+
+
+
+          Situation 1:2000
+
+
+                             74
+                                              Illiz architektur GmbH, Zürich
+                                                                     NEXUS
+
+
+
+
+1.Obergeschoss 1:750   2.Obergeschoss 1:750
+
+
+
+
+                                                  Erdgeschoss 1:750
+
+
+
+
+3.Obergeschoss 1:750
+
+
+
+
+                                                Schnitt Längs 1:1000
+
+
+                                                 75
+Illiz architektur GmbH, Zürich
+NEXUS
+
+
+
+
+                                                       Tiefgaragengeschoss 1:1500
+
+
+
+
+           Ansicht West 1:750    Ansicht Nord 1:1000                                Ansicht Süd 1:1000
+
+
+                         76
+                                                           Illiz architektur GmbH, Zürich
+                                                                                  NEXUS
+
+
+
+
+Ausschnitt Grundriss 1:250
+
+
+
+
+                             Detailschnitt Fassade 1:100
+                                                              77
+planzeit GmbH
+
+Bauherrenberatung
+Projektentwicklung
+Baukommunikation
+
+Ankerstrasse 24
+8004 Zürich
+Telefon 044 201 37 70
+
+www.planzeit.ch
+
