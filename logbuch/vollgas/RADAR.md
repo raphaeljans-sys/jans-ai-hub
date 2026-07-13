@@ -13,6 +13,61 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 11:52 — Jetzt der MINI-Runner tot (seit ~10:24), neu gestartet; ZWEITER stiller Runner-Tod heute → Keepalive-Hebel [FREI]
+
+**Fensterzustand [FREI]:** Fenster hat Kapazitaet. Beweis am realen Betrieb: der MacBook-Runner
+faehrt seit 10:49 sauber durch (baurecht 11:00, immobewertung 11:14, normen-nacht 11:34, spec 11:35,
+twin-fidelity 11:42, twin-mail ab 11:42:57 — alle rc=0), 2 aktive `claude -p`. Das 5h-Fenster (Reset
+war 08:50, naechster ~13:50) ist noch nicht ausgereizt. Der blanke `claude -p --model haiku` aus der
+Radar-Shell meldet erneut «Not logged in» trotz TOKEN_SET=JA = bekanntes **Env-Artefakt** (der Runner
+sourced den Token korrekt und faehrt rc=0). **KEIN echter Login-Block.**
+
+**P1 (in diesem Lauf selbst behoben) — MINI-Runner war tot:** Der Mac-Mini-Runner ist nach
+`START planungsgrundlagen-training` um 10:24:39 stumm ausgefallen — Macmini.log-mtime seit 10:24:33
+eingefroren, `pgrep vollgas-runner` = KEIN Prozess, keine STOP-Datei. Rund **1 h 27 min** Luecke, in der
+auf der Mini-Seite nur ein einzelner verwaister `planungsgrundlagen`-`claude -p` (PID 2958, etime 21:07,
+im Normalbereich, produktiv) Token zog statt des vollen 4-Loop-Zyklus. Da Login OK, Fenster frei und
+keine STOP-Datei: Mini-Runner unter der stehenden VOLLGAS-Autorisierung via `ssh mini` detached neu
+gestartet (11:51:47, PID 4538, Zyklus 1). Verifiziert: laeuft, energie-training aktiv. Den verwaisten
+`claude -p` 2958 **bewusst NICHT gekillt** (produktiver Lauf im Normalbereich) — kurzer Doppellauf ist
+unter VOLLGAS erwuenscht, nicht schaedlich.
+
+**P1-STRUKTURELL (groesster Hebel jetzt) — beide Runner sterben still, je 1x heute Morgen:**
+MacBook-Runner ~09:20 tot → 10:49 neu; Mini-Runner ~10:24 tot → 11:51 neu. **Zwei stille Runner-Tode
+in einem Vormittag** auf beiden Stationen zeigen: das Modell «Radar startet stuendlich manuell neu»
+leckt bis zu ~1.5 h Fenster-Fuellzeit pro Ausfall — genau die Luecke, die der Taktgeber schliessen
+soll. Empfehlung fuer den naechsten Schritt: **launchd-KeepAlive fuer `vollgas-runner.sh` auf beiden
+Stationen** (`ch.jans.vollgas-runner`, KeepAlive=true, RunAtLoad=true), damit ein toter Runner in
+Sekunden statt in bis zu einer Stunde neu anlaeuft. Der Radar bleibt Taktgeber/Waechter, muss dann aber
+nicht mehr die Grundlast tragen. (Persistente launchd-Config auf beiden Stationen — im naechsten Lauf
+umsetzbar; hier bewusst nur stark markiert statt still gebaut.)
+
+**Durchsatz/Substanz (letzte 90 Min):** 8 NAS-Commits (Selfcommits + Inhalt: twin-mail Batch 40,
+wettbewerbs-dna Rang-Entscheid belegt, normen-mini Run 9 — 12 Retro-Verify-Korrekturen in den
+Fliesstext eingearbeitet, alle auf `established`). MacBook-Loops substanziell: normen-nacht (14 SIA-
+Destillate abgeschlossen, Verifikations-Stufe fuer den naechsten Lauf offen), twin-fidelity (Runde
+260713d, 4 Selbstfragen + Gehirn neu kompiliert). Normen-DIN/VSS-Retro-Verifikation bleibt der
+substanzstaerkste Loop.
+
+**Hebel-Priorisierung:** Fenster wird auf der MacBook-Seite gefuellt, war auf der Mini-Seite
+untergefuellt (nur 1 statt 4 Loops) — mehr Last (= Runner-Neustart) war der richtige Hebel, umgesetzt.
+Fenster ist noch NICHT regelmaessig 100 %, also bleibt mehr/kontinuierliche Last der Hebel → der
+Keepalive (P1-strukturell) ist die dauerhafte Loesung.
+
+- **P2 (unveraendert) — NAS-Mount-Remount zielt remote auf LAN-IP** (`smb://192.168.1.10/daten`),
+  via Tailscale nicht erreichbar. Fuer Morgen-Briefing: Tailscale-Hostnamen-Fallback ergaenzen.
+- **P3 (unveraendert) — Leerlauf-Loops:** immobewertung (11:14 «keine konkrete Anfrage», D6 zum
+  Auslagern empfohlen), synobsis (853/853, 8 s Leerlauf), energie (KB gesaettigt, Meta-Frage M2
+  «eigener energie-Skill?» seit Run 41 entscheidungsreif). Empfehlung: diese drei ins Nachtfenster
+  ruecktakten, freie Kapazitaet auf die Normen-DIN/VSS-Verifikation lenken. Entscheid bei Raphael.
+
+**WARNUNG (unveraendert, Bestand):** NIE `pkill -f "git commit"` auf diesen Stationen — die Trainings-
+Prompts enthalten den String «git commit» und werden mitgetroffen. Haengende git-Prozesse ueber die
+konkrete PID killen, `claude -p`-Prozesse ausschliessen.
+
+**Mail:** KEINE. Der Mini-Runner-Ausfall war selbst behebbar (kein Raphael-only Login-/Credential-
+Block), in diesem Lauf behoben — kein Mail-Anlass gemaess Disziplin.
+
 ## 2026-07-13 10:48 — MacBook-Runner ~1.5 h tot (Luecke geschlossen), neu gestartet; Mini durchgehend voll [FREI]
 
 **Fensterzustand [FREI]:** Fenster hat Kapazitaet. Beweis am realen Betrieb: der Mac-Mini-Runner
