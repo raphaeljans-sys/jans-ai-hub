@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1347,3 +1347,38 @@ Näherbaurecht-Fortsetzung Fensteranpassungen an Stefan Tschopp). Metrik 787 W (
 Satzlänge ø 14.1 W, Tausender-Apostroph 1×, «Freundliche Grüsse» 6× dominant, keine Ellipsen. **Neu:** «Werter
 Albin» als Zwischenstufe-Anrede in primär externer Sie-Mail (→ [[beziehungsregister]]); «Lgr»-Kürzel bestätigt
 in reinem KISPI-Du-Kontext. Alle Rahmen klar handgetippt/authentisch, keine Echo-Falle im destillierten Teil.
+
+## Mailbatch 42 (2026-04-23 bis 2026-05-01)
+
+Sent Items rj@ sequentiell weiter (15 Mails im Fenster gesichtet, 7 Volltexte gelesen, 5 Teams-Koordinations-
+Einladungen/-Annahmen als Rauschen übersprungen; Hauptfäden KISPI-Umbau Gastroküche [Lieferant Gastro-Online/
+Schwander, Offertenandresse+Terminfahrplan KW18-KW21] + Nachbesprechung 3. Fachplanersitzung [reine Agenda-Mail
+an Albin] + Website-Rebuild Hleb [englischer Korrektur-Thread]. Zugriff via Apple Mail osascript
+(Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elemente"; M365-MCP in dieser Session nicht
+verfügbar — `@pnp/cli-microsoft365` nicht gefunden, wie bereits in Batch 36-38/41).
+
+- **Tippfehler-Anrede «Geschätzer» statt «Geschätzter» (weiterer Beleg):** «Geschätzer Marco,» — derselbe
+  Buchstaben-Ausfall wie bereits mehrfach belegt («geschätzer» in den Mahnungs-Vorzeilen Batch 29/31). Kein
+  Einzelfall mehr, sondern ein wiederkehrender authentischer Tippfehler-Marker (nicht zu glätten, nicht als
+  Norm zu übernehmen — nur als Beleg für Handschrift/Echtheit zu werten). Quelle: 28.04.2026, authentisch.
+- **Echo-Falle, 14. Beleg (neues Muster — Register-Bruch MITTEN in derselben Mail, nicht als separater
+  Zitat-Block):** im Hleb-Website-Korrekturthread (23.04., «Re: Quick question») beginnt Raphael im
+  gewohnten holprig-direkten Englisch («claudia's concept ist fix! … and now you have to do it without
+  questions.» — Kleinschreibung, Tippfehler), wechselt aber im selben Mail-Fliesstext unvermittelt in
+  druckreifes, thesenartig gegliedertes Fach-Englisch («The source of truth for spacing and typography is
+  the Claudia layout concept — not Figma. … Figma is a component library, not the specification. … So to
+  your question: I am not measuring pixels …»). Bisherige Echo-Fallen waren stets abgrenzbare eingefügte
+  Blöcke (zitierter Fremdtext, separate Korrektur-Briefe); hier verschwimmt die Grenze innerhalb einer einzigen
+  authentischen Mail. Für die Stilquelle wird nur der erkennbar holprige Rahmen (Anrede-Ersatz «claudia's
+  concept ist fix!», Schlusszeile, Signatur) gewertet, der polierte Mittelteil ausgeschlossen. Setzt die
+  Hleb-Echo-Fallen-Serie (Batch 21/28/29/39) fort, verschärft die Erkennungsregel: **auch INNERHALB einer
+  Mail auf Stilbruch prüfen, nicht nur auf Blockebene.** Quelle: 23.04.2026, teilweise `claude-aera`-äquivalent.
+- **Kontrastbeleg im selben Thread (24 Min. früher, 23.04. 14:21):** dieselbe Mail an Hleb bleibt im zweiten
+  Beispiel («AW: Quick question») durchgehend im gebrochenen, handgetippten Englisch («I am going to prepair
+  mor for you this evening.» / «Pleas do it exactly how claudia's layout is described.» / «Please dont't
+  waist that invest witch we did so many times») — klar authentisch, keine Register-Politur. Bestätigt: die
+  Echo-Falle betrifft gezielt einzelne Passagen, nicht den ganzen Thread. Quelle: 23.04.2026, authentisch.
+- Mikro-Metrik Batch 42 (319 W über `stilmetrik.py`, reiner Sie-/warm-Du-Mix ohne Teams-Rauschen): Du-Gross-
+  Quote **1.0**; Tausender-Apostroph 0; Ellipsen 0; Satzlänge ø **15.2 W**; Grüsse «Freundliche Grüsse» **3×**
+  durchgehend (auch im warmen Du-Lieferantenkontakt Marco, da dokumentierender Adress-/Terminfahrplan-Inhalt,
+  vgl. [[beziehungsregister]]); Anreden «Sehr geehrter Herr» 2× (kalte Erstansprache Würsch/Schwander).

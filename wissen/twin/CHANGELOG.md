@@ -2,6 +2,33 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 42 (2026-04-23 bis 2026-05-01)
+- Neuer Sent-Items-Batch destilliert (`raw/260713-mailbatch-42.md`-Eintrag in `_INGESTED.md`,
+  Volltexte nicht dauerhaft gehortet). M365-MCP weiterhin nicht verfügbar
+  (`@pnp/cli-microsoft365` fehlt); Zugriff über Apple Mail osascript, Bundle-ID `com.apple.mail`.
+  **Technischer Hinweis für Folgeläufe:** einfache `tell application id "com.apple.mail"`-Blöcke
+  liefen zunächst wiederholt in den AppleEvent-Timeout (-1712), obwohl Mail.app lief; das Problem
+  liess sich mit einem expliziten `with timeout of 90/120 seconds`-Wrapper um den `tell`-Block
+  zuverlässig umgehen — für künftige Batches als Standard-Pattern verwenden statt auf Nicht-
+  Verfügbarkeit zu schliessen.
+- **Stimme:** Tippfehler-Anrede «Geschätzer» (statt «Geschätzter») als wiederkehrender, nicht mehr
+  vereinzelter Marker bestätigt. **Echo-Falle, 14. Beleg** — neues Muster: erstmals ein Register-
+  Bruch MITTEN in einer einzelnen authentischen Mail (nicht als separater Zitat-/Korrektur-Block)
+  im Hleb-Website-Thread; nur der holprige Rahmen als Stilquelle gewertet, der polierte Mittelteil
+  ausgeschlossen. Erkennungsregel geschärft: künftig auch innerhalb einer Mail auf Stilbruch prüfen.
+- **Beziehungsregister:** Marco Schwander (Gastro-Online, Küchen-Lieferant) kippt Sie→Du nach
+  Telefonat; dokumentierender Adress-/Terminfahrplan-Inhalt bleibt trotzdem bei «Freundliche
+  Grüsse» statt «Lieber Gruss» (Beleg-/Dokumentations-Regel auf neuen Falltyp erweitert). Neuer
+  Marker: Familien-Referral-Kaltakquise bleibt formell-Sie trotz persönlichem Aufhänger.
+- **Arbeitsweise:** reine nummerierte Agenda-Mail (01/02/03 + «_ »-Bullets) ganz ohne Anrede/Gruss
+  als dokumentierte Minimalform interner Sitzungs-Recaps.
+- **Fachsignatur:** neues Argumentationsmuster «Rechtlich-vs-funktional-Trennung» (Vorschrift
+  bewusst nicht auslösen, ohne den funktionalen Anspruch zu senken).
+- Mikro-Metrik (`stilmetrik.py`, 319 W): Du-Gross 1.0, Satzlänge ø 15.2 W, «Freundliche Grüsse» 3×,
+  «Sehr geehrter Herr» 2×.
+- `_INGESTED.md` aktualisiert: Sweep-Abdeckung jetzt bis **2026-05-01** einschliesslich, nächster
+  Lauf ab 2026-05-01.
+
 ## 2026-07-13 — twin-fidelity-review Fünftlauf (wir/ich-Feinschliff, Apple Mail ausgefallen)
 - Fünfter Fidelity-Lauf des Tages (nach 260713/260713b/260713c/260713d). Gesamt-Fidelity 94/100.
   **Apple Mail durchgehend AppleEvent-Timeout (-1712)** — auch minimale Abfragen (Mailbox-Name,
