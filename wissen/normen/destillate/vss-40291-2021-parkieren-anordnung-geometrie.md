@@ -7,7 +7,7 @@ ersetzt: "VSS 40 291a:2019-03"
 ersetzt_durch: ""
 gelesen: "S. 1-32 von 32 (vollständig)"
 datenstand: 2026-07-13
-status: "beanstandet, korrigiert siehe Verifikations-Hinweis, 260713"
+status: "established"
 last_updated: 2026-07-13
 links: [[vss-640291a-2005-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
 ---
@@ -43,6 +43,48 @@ Abweichungen, S. 8).
 - Diese Werte decken rund 88 % der zugelassenen Personenwagentypen ab (Forschungsbericht
   Nr. 1569 «Geometrie des Fahrzeugparks der Schweiz», ASTRA 2016).
 
+**Anordnung der Parkierungsanlagen und Parkfelder (Ziff. 7-10, S. 8-13):**
+- *Grundsätze (Ziff. 7, S. 8):* Der Parkierungsverkehr darf den Verkehrsfluss des öffentlichen
+  Strassennetzes nicht unzumutbar behindern (insbesondere durch Manöver auf der Fahrbahn oder
+  Rückstau an Einfahrten) und darf Fussgänger und Velofahrende nicht gefährden oder deren Komfort
+  unnötig verringern (z.B. durch Umwege). Für Standortwahl und Einfügung in die Umgebung gilt
+  VSS 40 280 «Parkieren: Grundlagen», für die Ermittlung des Angebots an Parkfeldern VSS 40 281
+  «Parkieren; Angebot an Parkfeldern für Personenwagen». Parkfelder für gehbehinderte Personen
+  sind leicht zugänglich, in der Nähe der Ein- und Ausgänge oder der Aufzüge anzuordnen (SIA 500,
+  VSS 40 075).
+- *Parkieren ausserhalb des Strassenraumes (Ziff. 8, S. 8-10):* Anbindung ans Strassennetz gemäss
+  VSS 40 050. Parkierungsanlagen werden i.d.R. schräg oder senkrecht angeordnet, in gewissen
+  Fällen auch längs (Organisationstypen gemäss Abb. 1: interne Zirkulation, Sackgasse,
+  Durchfahrt). Einzelgaragen an öffentlichen Strassen sollen einen Vorplatz aufweisen, auf dem
+  ein Fahrzeug abgestellt und gleichzeitig das Tor geöffnet werden kann, ohne den öffentlichen
+  Verkehrsraum zu beanspruchen (Ausnahmen aus Gründen des Ortsbildes oder bei geringem
+  Verkehrsaufkommen möglich). Bei Anlagen mit Veloabstellplätzen sind Fahrwege für
+  Motorfahrzeuge und Velos getrennt zu führen (unterschiedliche Anforderungen an Rampenneigung
+  und Lichtraumprofil); Langzeitparkfelder für Velos sind in geschlossenen Parkhäusern in einem
+  baulich abgetrennten Raum anzuordnen (Details VSS 40 066).
+- *Parkieren innerhalb des Strassenraumes (Ziff. 9, S. 10-11):* Parkierungsanlagen mit Manövern
+  auf der Fahrbahn sind in der Regel nur auf siedlungsorientierten Strassen zulässig. Parkfelder
+  können auf oder neben der Fahrbahn angeordnet werden; die Wahl richtet sich vor allem nach den
+  Platzverhältnissen (Fahrbahnbreite gemäss VSS 40 201 sowie Tab. 4-6). Im Bereich von Knoten und
+  Grundstückszufahrten sind die Sichtweiten gemäss VSS 40 273 einzuhalten. Bei Längsparkierung
+  (Abb. 2, 2A/2B) wird der Gehweg i.d.R. hinter den Parkfeldern geführt (Konflikt beim
+  Türöffnen beachten). Bei Schräg-/Senkrechtparkierung ist anhand von Fussgänger-/Velofrequenz,
+  Umschlagshäufigkeit und Publikumsnutzungen (Verkaufsflächen, Schaufenster) zu prüfen, ob der
+  Gehweg hinter (2C) oder vor (2D) den Parkfeldern geführt wird; zwischen Schräg-/
+  Senkrechtparkfeldern und Fahrbahn/Gehweg ist ein **Sicherheitsabstand von mind. 0,50 m**
+  einzuhalten.
+- *Parkierungsformen (Ziff. 10, S. 12-13):* Die Parkierungsform wird durch den Parkfeldwinkel zur
+  Fahrtrichtung definiert. Längsparkierung (Winkel 0°) liegt parallel zur Fahrspur.
+  Schrägparkierung (Winkel 30-75°) bedingt vorwärts Einparkieren und Einrichtungsverkehr in der
+  Fahrgasse; je kleiner der Winkel, desto grösser die nicht nutzbaren Restflächen. Bei
+  gegengerichteter Fahrtrichtung in benachbarten Fahrgassen sind alle Parkfeldwinkel möglich, bei
+  gleichgerichteter Fahrtrichtung ist ein **Winkel von 45° optimal** (Abb. 3). Senkrechtparkierung
+  (Winkel 90°) erlaubt Ein- oder Zweirichtungsverkehr in der Fahrgasse; in Sackgassen mit
+  senkrecht angeordneten Parkfeldern sind Manövrierflächen für das Ausparkieren am
+  Sackgassenende zu berücksichtigen (Abb. 4) und der Längenzuschlag zur Fahrgasse gemäss Tab. 3
+  einzurechnen (z.B. F = 6,50 m → Lfz = 1,50 m; F = 5,00 m → Lfz = 2,25 m); ohne
+  Parkplatzzuordnung ist zusätzlich die Notwendigkeit einer Wendemöglichkeit zu prüfen.
+
 **Längsparkfelder (Ziff. 11, Abb. 5, S. 14):** Fahrgassenbreite F = 3,50 m; Breite eines
 Parkfeldes B = 1,90 m; Länge eines Parkfeldes L = 6,00 m; reduzierte Länge Lr = 5,00 m (bei
 Manövrierbereichen ausserhalb der Parkfelder); Manövrierzuschlag zur Breite MB = 0,30 m;
@@ -56,9 +98,9 @@ Sicherheitsabstand von mind. 0,70 m zwischen Radstreifen und Längsparkfeldern e
   U = 0,50 m.
 - 75°: F 4,50/5,00 m, B 2,50/2,65 m, L 5,30 m, U = 0,50 m.
 - 70°: F 4,00/4,50 m, B 2,50/2,70 m, L 5,30 m, U = 0,50 m.
-- 60°: F 3,20-3,50 m, B 2,70-2,80 m, L 5,25 m, U = 0,45 m.
-- 45°: F 3,20 m, B 3,20 m, L 4,80 m, U = 0,35 m.
-- 30°: F 3,20 m, B 3,20 m, L 4,10 m, U = 0,25 m.
+- 60°: F 3,20-3,50 m, B 2,50-2,80 m, L 5,25 m, U = 0,45 m.
+- 45°: F 3,20 m, B 2,50 m, L 4,80 m, U = 0,35 m.
+- 30°: F 3,20 m, B 2,50 m, L 4,10 m, U = 0,25 m.
 Zwischenmasse können linear interpoliert werden. Bei hohen Umschlagfrequenzen kann B um
 +0,10 m erhöht werden (Komfort); bei beengten Rahmenbedingungen (Bestand) um -0,10 m reduziert
 werden (Komforteinbusse).
@@ -90,8 +132,8 @@ Zuschlag bei Hindernissen):
 
 **Wände und Stützen (Ziff. 16, Abb. 9, Tab. 10, S. 22-23):** Abstände Ds1/As1 (Stütze zur
 Fahrgasse/zum Parkfeld) und Aw/Dw (Abstand zur Wand) sind je Parkfeldwinkel definiert, z.B.
-90°: Aw = 0,30 m, Dw = 1,20 m, Ds1/As1 = 0,00/0,30 m, Ds1/As2 max. = 1,10 m; 45°: Aw = 0,45 m,
-Dw = 0,85 m. Runde/ovale Stützen mit glatter Oberfläche werden empfohlen (geringeres
+90°: Aw = 0,30 m, Dw = 1,20 m, Ds1/As1 = 0,00/0,30 m, Ds1/As2 = 0,80/0,10 m, Ds2(max.) = 1,10 m;
+45°: Aw = 0,45 m, Dw = 0,85 m. Runde/ovale Stützen mit glatter Oberfläche werden empfohlen (geringeres
 Karosserieschaden-Risiko).
 
 **Vertikale Abmessungen (Ziff. 17, S. 23):** Minimale lichte Höhe LH = 2,30 m (Abweichung zu
@@ -166,9 +208,3 @@ Zusammenhang zur Zwischenausgabe VSS 40 291a:2019-03 (welche laut Titelblatt dur
 vorliegende Ausgabe 2021-12 ersetzt wurde) ist nicht im Bestand verifiziert; nur die
 Vorgängerausgabe SN 640 291a:2005/2006 liegt im Normenordner vor (siehe
 [[vss-640291a-2005-parkieren-anordnung-geometrie]]).
-
-## Verifikations-Hinweis (Retro-Verify Mini-Run 8, 260713)
-Beanstandet, Korrekturen dokumentiert (Original gegengeprueft):
-- Tab. 4 Parkfeldbreite B bei 60°/45°/30°: korrekt 2,50-2,80/2,50/2,50 m — Destillat verwechselte B mit F-Werten (3,20 statt 2,50 bei 45°/30°).
-- Tab. 10 90°: Ds1/As2 = 0,80/0,10 m fehlte, faelschlich mit Ds2(max.)=1,10 m vermischt.
-- Abschnitt D "Anordnung der Parkierungsanlagen" (Ziff. 7-10, S. 8-13, u.a. Sicherheitsabstand 0,50 m, optimaler 45°-Winkel) fehlte trotz "vollstaendig"-Status komplett.
