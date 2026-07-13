@@ -2,8 +2,8 @@
 title: Natur- & Denkmalschutz — Kanton Zürich
 status: established
 last_updated: 2026-07-13
-verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 keine aufschiebende Wirkung bestätigt); 2026-07-13 (Buch-Run 33 — § 209 PBG vollstaendig gelesen: Abs. 1/4/5 aufgehoben, nur Abs. 2+3 in Kraft, keine Verlaengerungsklausel im Wortlaut; «+1 Jahr»-Analogie zu § 213 Abs. 3 PBG explizit als Analogie/Praxis ausgewiesen, kein Gesetzeswortlaut in § 209)
-sources: ["§ 203 PBG", "§ 204 PBG", "§ 205 PBG", "§ 207 PBG", "§ 208 PBG", "§ 209 PBG", "§ 210 PBG", "§ 211 PBG", "§ 213 PBG", "§ 216 PBG", "§ 217 PBG", "§ 238 PBG", "§ 50 PBG", "§ 76 PBG", "§ 338b PBG", "Art. 78 BV", "Art. 2 NHG", "Art. 3 NHG", "Art. 5 NHG", "Art. 7 NHG", "Art. 8 NHG", "Art. 13 NHG", "Art. 17a NHG", "Art. 25 NHG", "Art. 17 RPG", "KNHV", "04-natur-und-heimatschutz.md"]
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 keine aufschiebende Wirkung bestätigt); 2026-07-13 (Buch-Run 33 — § 209 PBG vollstaendig gelesen: Abs. 1/4/5 aufgehoben, nur Abs. 2+3 in Kraft, keine Verlaengerungsklausel im Wortlaut; «+1 Jahr»-Analogie zu § 213 Abs. 3 PBG explizit als Analogie/Praxis ausgewiesen, kein Gesetzeswortlaut in § 209); 2026-07-14 (KNHV-Klaerung: Volltextabgleich gegen raw/260714_amtlich_zh_knhv.md, aktuelle konsolidierte Fassung Nachtrag 130 — KNHV ist NICHT aufgehoben und hat KEINEN Nachfolgeerlass; RRB vom 15.01.2025, in Kraft seit 1.8.2025, aendert nur § 3/§ 3a KNHV [Bundesinventar-Zustaendigkeit], alle hier zitierten KNHV-§§ [§ 10, § 12/§ 213] CONFIRMED unveraendert)
+sources: ["§ 203 PBG", "§ 204 PBG", "§ 205 PBG", "§ 207 PBG", "§ 208 PBG", "§ 209 PBG", "§ 210 PBG", "§ 211 PBG", "§ 213 PBG", "§ 216 PBG", "§ 217 PBG", "§ 238 PBG", "§ 50 PBG", "§ 76 PBG", "§ 338b PBG", "Art. 78 BV", "Art. 2 NHG", "Art. 3 NHG", "Art. 5 NHG", "Art. 7 NHG", "Art. 8 NHG", "Art. 13 NHG", "Art. 17a NHG", "Art. 25 NHG", "Art. 17 RPG", "KNHV", "04-natur-und-heimatschutz.md", "raw/260714_amtlich_zh_knhv.md"]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[enteignung-und-entschaedigung]], [[raumplanung-und-gestaltung]], [[rechtsschutz-und-rechtsmittelverfahren]]
 ---
 
@@ -74,7 +74,7 @@ verifizieren (Gemeinde/Baudirektion), nicht als gesicherten Automatismus kommuni
 |---|---|---|
 | **Planungsrecht** | 205 lit. a | Freihaltezone (§ 39/61); **Kernzone § 50 = ≠ Substanzschutz, kein materielles Abbruchverbot** → formelle Unterschutzstellung nötig (VB.2013.00662); Erholungszone ist **kein** NHS-Mittel (BRGE III 0033/2015) |
 | **Schutzverordnung** | 205 lit. b | grössere Gebiete (Natur, Gebäudegruppen); komm. Gemeindevorstand, gesetzesähnlich Gemeindelegislative |
-| **Schutzverfügung** | 205 lit. c | Einzelobjekt; Umgebung § 10 KNHV; bei STWEG alle Einheiten einbeziehen |
+| **Schutzverfügung** | 205 lit. c | Einzelobjekt; Umgebung § 10 KNHV (verifiziert 2026-07-14 gegen Nachtrag 130, unverändert); bei STWEG alle Einheiten einbeziehen |
 | **Schutzvertrag** | 205 lit. d | verwaltungsrechtl. Vertrag; **darf keine BZO-widrigen Baumöglichkeiten einräumen** (BEZ 2012 Nr. 59); Anfechtung nur bei Willensmängeln |
 
 - **Selbstbindung § 204 PBG:** Staat/Gemeinden/Anstalten mit öffentlichen Aufgaben (auch
@@ -98,6 +98,9 @@ verifizieren (Gemeinde/Baudirektion), nicht als gesicherten Automatismus kommuni
 - **Provokation § 213 PBG:** Grundeigentümer verlangt bei aktuellem Interesse (Bauabsicht/Erbteilung/
   Verkauf) Entscheid über die Schutzwürdigkeit → Entscheid **innert 1 Jahr (+1)**. Begehren **nicht
   zurückziehbar** (BEZ 2016 Nr. 16) — Risiko: man provoziert die Unterschutzstellung selbst.
+  Verfahrensfristen bei fehlendem aktuellem Interesse: **§ 12 KNHV** (1 Monat bzw. 2 Monate je
+  nach Inventarstatus, siehe Buchsynthese 4.5.4.1) — verifiziert 2026-07-14 gegen Nachtrag 130,
+  unverändert.
 - **Inventarentlassung** je Objekt sorgfältig begründen (i.d.R. Gutachten); **Massenentlassungen
   unzulässig**; Neubau unter Abbruch inventarisierter Altbaute → Entlassung **zwingend** (BEZ 2008 Nr. 10).
 - **Rechtsschutz:** Schutzanordnungen veröffentlichen, 30 Tage Akten, Rekurs Baurekursgericht

@@ -7,9 +7,9 @@ shots: 290-306 (Bildschirmfoto 2026-06-07 um 11.49.23 – 11.49.53)
 paragraphen: ["§ 8 VRG", "§ 9 VRG", "§ 10c VRG", "§ 11 VRG", "§ 12 VRG", "§ 13 VRG", "§ 14 VRG", "§ 15 VRG", "§ 16 VRG", "§ 17 VRG", "§ 22 VRG", "§ 23 VRG", "§ 25 VRG", "§ 26b VRG", "§ 26c VRG", "§ 28 VRG", "§ 29 VRG", "§ 38 VRG", "§ 53 VRG", "§ 58 VRG", "§ 59 VRG", "§ 61 VRG", "§ 64 VRG", "§ 65 VRG", "§ 70 VRG", "§ 71 VRG", "§ 86a VRG", "§ 86b VRG", "§ 86c VRG", "§ 86d VRG", "§ 87 VRG", "§ 89 VRG", "§ 335 PBG", "§ 338 PBG", "§ 339 PBG", "§ 211 PBG", "§ 315 PBG", "§ 317 PBG", "§ 339b PBG", "§ 7 PBG", "§ 44 PBG", "§ 84 PBG", "§ 13 StrG", "§ 28 AbtrG", "Art. 4 RPG", "Art. 46 BGG", "Art. 47 BGG", "Art. 50 BGG", "Art. 62 BGG", "Art. 63 BGG", "Art. 65 BGG", "Art. 68 BGG", "Art. 69 BGG", "Art. 70 BGG", "Art. 100 BGG", "Art. 103 BGG", "Art. 112 BGG", "Art. 145 ZPO", "Art. 197 ZPO", "Art. 213 ZPO", "Art. 214 ZPO", "Art. 235 ZPO", "Art. 6 EMRK", "Art. 29 BV", "Art. 30 BV", "Art. 33b VwVG", "Art. 55c USG", "Art. 12d NHG"]
 status: emerging
 gelesen: 2026-07-06
-last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32; § 15 bestaetigt, §§ 8/9/10c neu aus amtlichem Volltext ergaenzt im Wiki)
-quelle_amtlich: "raw/260712_amtlich_zh_vrg.md"
+last_updated: 2026-07-14
+verifiziert: 2026-07-14 (Modell-D §§ 25/26b/86a-d/87/89 VRG + § 338/§ 339 PBG, adversarial; siehe Abschnitt 4a. § 15/§§ 8/9/10c bereits am 2026-07-12 verifiziert, siehe Abschnitt 4)
+quelle_amtlich: "raw/260712_amtlich_zh_vrg.md, raw/260714_amtlich_zh_vrg_rechtsschutz2.md, raw/260607_amtlich_zh_pbg.md"
 ---
 
 # Kap. 9 — Rechtsschutz (Teil 2: Fristen, Ablauf, Kosten, ausserordentliche Rechtsmittel, Mediation)
@@ -93,10 +93,13 @@ Das Rechtsmittelverfahren (wie auch das erstinstanzliche Verwaltungsverfahren) g
   - **Entzug bei Dringlichkeit:** auch bei Nachbarrekursen moeglich (selten). **BEZ 2004 Nr. 43**
     (Provisorium Eisstadion Zuerich): erhebliches oeffentliches Interesse + zeitliche Dringlichkeit,
     Rekurrierende nur geringfuegig betroffen, negative Prognose → aufschiebende Wirkung entzogen. (S. 578)
-  - **Entzug durch anordnende Behoerde** (§ 25 Abs. 3 VRG), z.B. Fristansetzung zur Behebung von
-    Missstaenden. Reklameanlagen regelmaessig Entzug (BEZ 1981 Nr. 35); Rekurse gegen **Planungszonen
-    § 346 PBG** regelmaessig Entzug. **Natur-/Heimatschutzmassnahmen** haben von Gesetzes wegen **keine**
-    aufschiebende Wirkung (§ 211 Abs. 4 PBG). (S. 578)
+  - **Entzug/gegenteilige Anordnung** (§ 25 Abs. 3 VRG): NICHT nur die anordnende Behoerde, sondern
+    **drei** moegliche Akteure koennen aus besonderen Gruenden eine gegenteilige Anordnung treffen —
+    die **anordnende Instanz**, die **Rekursinstanz** (Kollegium) und **der Vorsitzende der
+    Rekursinstanz** persoenlich (amtlich verifiziert 2026-07-14, s. Abschnitt 4a). Beispiel:
+    Fristansetzung zur Behebung von Missstaenden. Reklameanlagen regelmaessig Entzug (BEZ 1981
+    Nr. 35); Rekurse gegen **Planungszonen § 346 PBG** regelmaessig Entzug. **Natur-/Heimatschutz-
+    massnahmen** haben von Gesetzes wegen **keine** aufschiebende Wirkung (§ 211 Abs. 4 PBG). (S. 578)
   - **Bund:** Beschwerde in oeff.-rechtl. Angelegenheiten hat grds. **keine** aufschiebende Wirkung
     (Art. 103 Abs. 1 BGG); muss ausdruecklich beantragt werden (Art. 103 Abs. 3 BGG). (S. 578)
   - **Weitere vorsorgliche Massnahmen:** Baustopp; vorsorgliches Nutzungsverbot (BEZ 2007 Nrn. 44/45,
@@ -108,12 +111,18 @@ Das Rechtsmittelverfahren (wie auch das erstinstanzliche Verwaltungsverfahren) g
   Verwaltungsgericht innert 30 Tagen.
 
 ### 2.5 Ermittlungsphase (§ 9.7.2) (S. 580-585)
-- **Schriftenwechsel (§ 9.7.2.1):** Vernehmlassung (§ 26b Abs. 1 / § 58 Satz 1 VRG). Frist fuer Rekurs-/
-  Beschwerdeantwort grds. **30 Tage, nicht mehr erstreckbar** (§ 26b Abs. 2 Satz 1 / § 58 Satz 2 VRG,
-  in Kraft 1.10.2016). Zweiter Schriftenwechsel (§ 26b Abs. 3 / § 58 Satz 2 VRG) heute regelmaessig.
-  **Replikrecht** (§ 26b Abs. 4 VRG): Bei Vernehmlassung «zur Kenntnisnahme» muss der Rekurrent eine
-  Stellungnahme **unverzueglich** beantragen; unverzueglich = **max. 10 Tage** (VB.2012.00543; nach
-  § 26b N 45 Bandbreite 10-20 Tage; BGE 132 I 42, E. 3.3; BGer 5D_81/2015). (S. 580-581)
+- **Schriftenwechsel (§ 9.7.2.1):** Vernehmlassung (§ 26b Abs. 1 VRG). Vernehmlassungsfrist **30 Tage**
+  (Stimmrechtssachen 5 Tage), bei abgekuerzter Rekursfrist entsprechend abzukuerzen (§ 26b Abs. 2 VRG;
+  Verwaltungsgericht: § 58 VRG verweist sinngemaess auf § 26b Abs. 2). Zweiter Schriftenwechsel ODER
+  muendliche Vorladung (§ 26b Abs. 3 VRG) heute regelmaessig. **§ 26b Abs. 4 VRG regelt im Wortlaut nur
+  die Zustellung der Vernehmlassungen an die uebrigen Verfahrensbeteiligten** — kein explizites
+  «Replikrecht» im Gesetzestext (amtlich korrigiert 2026-07-14, s. Abschnitt 4a). Das **Replikrecht**
+  (Stellungnahme bei Vernehmlassung «zur Kenntnisnahme» **unverzueglich** beantragen; unverzueglich =
+  **max. 10 Tage**, Bandbreite 10-20) ist Rechtsprechung/Praxis aus dem rechtlichen Gehoer (Art. 29
+  Abs. 2 BV) i.V.m. der Zustellungspflicht nach Abs. 4 — nicht direkter Wortlaut von Abs. 4 selbst
+  (VB.2012.00543; BGE 132 I 42, E. 3.3; BGer 5D_81/2015). Die Nicht-Erstreckbarkeit der 30-Tage-Frist
+  folgt aus § 12 Abs. 1 VRG (gesetzliche Fristen grds. nicht erstreckbar), nicht aus einem eigenen
+  Zusatz in § 26b Abs. 2. (S. 580-581)
 - **Beiladung (§ 9.7.2.2):** Prozessbeteiligung einer Partei mit schutzwuerdigem Interesse, die von der
   Vorinstanz nicht als Partei zugelassen wurde (BEZ 2008 Nr. 51). **Dient NICHT dazu, eine fehlende
   Rechtsmittellegitimation zu ersetzen** (BEZ 2016 Nr. 43). Faelle: Bauherr-Rekurs gegen Bauverweigerung
@@ -240,6 +249,17 @@ VRG; Art. 112 Abs. 1 lit. d BGG). (S. 591)
   Erwaegungen sind nur zugaenglich, soweit das Dispositiv ausdruecklich darauf verweist (Rueckweisung «im
   Sinne der Erwaegungen»; BEZ 1999 Nr. 7). Bei **Kanzleiversehen** (Schreib-/Rechnungsfehler) → Berichtigung.
   (S. 593-594)
+  > **KORRIGIERT 2026-07-14 (needs-verification):** Das Buch (Ausgabe 2019) verortet dieses Institut
+  > unter «§ 87 VRG». Im HEUTE geltenden VRG-Volltext (Stand 1.7.2026) regelt § 87 VRG NICHT
+  > «Erlaeuterung und Berichtigung», sondern «Wahl und Stellung der Ombudsperson» — der Fuenfte
+  > Abschnitt «Die Ombudsperson» wurde per **1.5.2024** komplett neu gefasst/umnummeriert (KRB vom
+  > 12.12.2022). Eine Volltextsuche im aktuellen VRG nach «erlaeutern», «berichtigen»,
+  > «Kanzleiversehen», «Redaktionsversehen» ergab **keinen Treffer** — das Institut ist im
+  > aktuellen VRG-Wortlaut nicht auffindbar (moeglich: vor 2024 an anderer, seither
+  > verschobener/aufgehobener Stelle geregelt, oder allein Rechtsprechung/Lehre ohne eigene
+  > VRG-Kodifikation). **Fuer JANS-Erzeugnisse: § 87 VRG NICHT mehr fuer «Erlaeuterung und
+  > Berichtigung» zitieren.** Bleibt offen bis zur Klaerung der frueheren/heutigen Fundstelle
+  > (s. `raw/260714_amtlich_zh_vrg_rechtsschutz2.md`).
 
 ### 2.9 Alternativen zum staatlichen Rechtsschutz (§ 9.9) (S. 594-606)
 - **Nachteile der Rechtsmittelverfahren (§ 9.9.1):** Momentaufnahmen (vergangenheitsbezogen); nur die
@@ -259,8 +279,10 @@ VRG; Art. 112 Abs. 1 lit. d BGG). (S. 591)
   (Art. 197 ff. ZPO, >50 % Einigung); im Verwaltungsrecht fehlt sie weitgehend, vereinzelt sind
   Einigungsverhandlungen vorgeschrieben (vor Festsetzung eines ueberkommunalen Gestaltungsplans
   Gemeindevorstaende beiladen, § 44 Abs. 4 / § 84 Abs. 2 PBG; bei Enteignung guetliche Einigung § 28 AbtrG).
-  **Ombudsperson Kt. ZH** prueft nach «Recht und Billigkeit» (§§ 87 ff. VRG); Staedte Zuerich/Winterthur
-  eigene; Gemeinden koennen die kantonale Ombudsperson vorsehen (§ 89 VRG). (S. 597-598)
+  **Ombudsperson Kt. ZH** prueft nach «Recht und Billigkeit» (§ 89 Abs. 1 VRG, amtlich bestaetigt
+  2026-07-14 — nicht mehr «§§ 87 ff.» zitieren, da § 87 VRG heute «Wahl und Stellung» regelt, s.
+  Abschnitt 4a); Staedte Zuerich/Winterthur eigene; Gemeinden koennen die kantonale Ombudsperson
+  ueber ihre Gemeindeordnung vorsehen (§ 89 Abs. 2 lit. b VRG, bestaetigt). (S. 597-598)
 - **Mediation (§ 9.9.6):** aussergerichtlicher Weg; die Parteien bestimmen mit Hilfe eines neutralen
   Mediators selbst ueber Verfahren und Ergebnis. **Vorteile:** Win-win, zukunftsgerichtet, Beziehungen
   bleiben erhalten, kreative Loesungen ausserhalb des Rechts, mehrere/formal Unbeteiligte einbeziehbar,
@@ -298,14 +320,14 @@ VRG; Art. 112 Abs. 1 lit. d BGG). (S. 591)
 | Rechtsmittelfrist (Rekurs/Beschwerde) | **30 Tage** (Stimmrechtssachen 5) | § 22 Abs. 1 / § 53 VRG; Art. 100 BGG; S. 576 |
 | Abkuerzung Frist bei Dringlichkeit | bis auf **5 Tage** | § 22 Abs. 3 VRG; S. 576 |
 | Gerichtsferien-Stillstand (Ausnahme) | **keine** Ferien im Verwaltungs-/Rekursverfahren | § 71 VRG; Art. 46 BGG; S. 576 |
-| Rekurs-/Beschwerdeantwort | **30 Tage, nicht erstreckbar** | § 26b Abs. 2 / § 58 VRG; S. 580 |
-| «Unverzueglich» Replik zur Kenntnisnahme | **~10 Tage** (Bandbreite 10-20) | VB.2012.00543; § 26b N 45; S. 581 |
-| Gerichtsgebuehr Baurekursgericht | **500 bis 50'000 Fr.** (Ø ~5'000) | § 338 Abs. 2 PBG; BEZ 2014 Nr. 36; S. 587 |
+| Rekurs-/Beschwerdeantwort (Vernehmlassung) | **30 Tage** (nicht erstreckbar via § 12 Abs. 1 VRG) | § 26b Abs. 2 VRG (§ 58 VRG verweist sinngemaess); S. 580; amtlich bestaetigt 2026-07-14 |
+| «Unverzueglich» Replik zur Kenntnisnahme | **~10 Tage** (Bandbreite 10-20); Praxis, kein Gesetzeswortlaut | VB.2012.00543; § 26b N 45; S. 581; amtlich praezisiert 2026-07-14 |
+| Gerichtsgebuehr Baurekursgericht | **500 bis 50'000 Fr.** (Ø ~5'000) | § 338 Abs. 2 PBG; BEZ 2014 Nr. 36; S. 587; amtlich bestaetigt 2026-07-14 |
 | Kosten bei Gutheissung Nachbarrekurs | **je zur Haelfte** Bauherr / Behoerde | § 13 Abs. 2 VRG; RB 2005 Nr. 12; S. 588 |
 | (Volle) Parteientschaedigung erfahrungsgemaess | **~1'500-2'500 Fr.**, pauschal | BEZ 2007 Nr. 56; S. 589 |
 | Obsiegendes Gemeinwesen | Entschaedigung nur **ausnahmsweise** | § 17 Abs. 3 VRG; S. 588 |
-| Revisionsfrist | **90 Tage** seit Entdeckung / **10 Jahre** absolut | § 86a-b VRG; S. 593 |
-| Erlaeuterungsbegehren | keine Frist, faktisch **30 Tage** | Treu und Glauben; S. 593-594 |
+| Revisionsfrist | **90 Tage** seit Entdeckung / **10 Jahre** absolut | § 86a-b VRG; S. 593; amtlich bestaetigt 2026-07-14 |
+| Erlaeuterungsbegehren | keine Frist, faktisch **30 Tage**; Fundstelle im VRG offen (nicht mehr § 87) | Treu und Glauben; S. 593-594; needs-verification seit 2026-07-14 |
 | Aufschiebende Wirkung Bund | **keine** (ausdruecklich beantragen) | Art. 103 Abs. 1/3 BGG; S. 578 |
 
 ## 4. Verifikations-Notiz (Buch-Run 32, Modell-D, 2026-07-12)

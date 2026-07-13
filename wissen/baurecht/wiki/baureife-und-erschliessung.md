@@ -1,8 +1,8 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
 status: established
-last_updated: 2026-07-12
-sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md]
+last_updated: 2026-07-14
+sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 160a PBG", "§ 160b PBG", "§ 81 PBG", "§ 129 PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md, 03-quartierplan-landumlegung-teil2.md]
 links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
 ---
 
@@ -212,8 +212,13 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   **Realleistung/Ausführung** trifft den **Standortinhaber** (Störerprinzip, Art. 20 AltlV),
   **Kostentragung** den **Verursacher** (Verursacherprinzip, Art. 32d USG) — festgelegt in zwei
   getrennten Verfahren. Sonderfälle: **Bauherren-Altlast** (Sanierung erst durch das Bauvorhaben
-  ausgelöst → Rückforderung i.d.R. 2/3 der Mehrkosten bei Erwerb 1.7.1972–1.7.1997, Art. 32b bis USG),
-  **Veräusserung eines KbS-Grundstücks braucht eine AWEL-Bewilligung** (Art. 32d bis USG). Der
+  ausgelöst → Rückforderung i.d.R. 2/3 der Mehrkosten bei Erwerb 1.7.1972–1.7.1997, **Art. 32bbis USG**
+  — amtliche Bezeichnung ohne Leerzeichen, nicht "32b bis"; CONFIRMED 2026-07-14 gegen den amtlichen
+  Fedlex-Text, siehe [[12-baureife-teil4-gebuehren-abfall-altlasten]]; Achtung: Geltendmachung war bis
+  1. November 2021 befristet, Rückforderung heute i.d.R. verwirkt),
+  **Veräusserung eines KbS-Grundstücks braucht eine AWEL-Bewilligung** (**Art. 32dbis Abs. 3 USG** —
+  amtliche Bezeichnung ohne Leerzeichen, eigenständiger Artikel "Sicherstellung der Kostendeckung", nicht
+  "32d bis" als Fortsetzung von Art. 32d; CONFIRMED 2026-07-14). Der
   KbS-Eintrag wirkt faktisch als kaum widerlegbares Beweismittel → **im JANS-Ankaufscheck immer den KbS
   abfragen** (Schnittstelle Skill `ankaufspruefung`).
 
@@ -228,9 +233,16 @@ beteiligten Grundeigentümer («Quartierplangenossen»).
   auf einzelne Massnahmen beschränkbar (§ 123 Abs. 2). Beizugsgebiet nach § 124.
 - **Zwei Formen:** **amtlicher QP** — vom **Gemeindevorstand** aufgestellt (§ 158 PBG), schon auf Gesuch
   eines einzigen Grundeigentümers einleitbar (§ 147); **privater QP** — von den Grundeigentümern
-  aufgestellt (§ 160a PBG), bedarf über alle Verfahrensstadien der **Einstimmigkeit** aller Beteiligten
-  (hohe Hürde, in der Praxis selten). Kombination mit **Gestaltungsplan/Sonderbauvorschriften** möglich
-  (§ 129 / § 81 PBG).
+  aufgestellt (§ 160a PBG: Abs. 1 Überlassung auf gemeinsames Gesuch aller Grundeigentümer, Abs. 2
+  materielle Mindestanforderungen, **Abs. 3 Zustimmung aller Grundeigentümer des Beizugsgebiets**
+  nötig — amtlicher Wortlaut, nicht wörtlich «Einstimmigkeit», inhaltlich deckungsgleich; hohe Hürde,
+  in der Praxis selten; Abs. 4/5 Rückfall ans amtliche Verfahren bzw. Genehmigung wie amtlicher QP;
+  ergänzend **§ 160b PBG** für Teilrevisionen). Kombination mit **Gestaltungsplan/Sonderbauvorschriften**
+  möglich (§ 129 PBG: Grundsatzentscheid bei privaten Gestaltungsplänen spätestens an der ersten
+  Quartierplanversammlung, sonst durch den Gemeindevorstand nach Verfahrenseinleitung; § 81 PBG:
+  SBV bewirken keinen Baubewilligungszwang, können aber die Bewilligung an die rechtlich gesicherte
+  Überbauung des Gebiets/Teilgebiets knüpfen — verifiziert 2026-07-14 gegen den Gesetzestext,
+  raw/260607_amtlich_zh_pbg.md).
 - **Verfahren** (dauert oft Jahre): Einleitung §§ 147/149, Rekurs gegen Einleitungsbeschluss § 148,
   **Quartierplanbann** ab Einleitung (§ 150 PBG, Bausperre — vgl. § 234) → weitergehend als die
   planungsrechtliche Baureife; **zwei Entwürfe/Versammlungen** (§§ 151–157, Auflagefristen 6 + 4 Monate),

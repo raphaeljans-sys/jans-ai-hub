@@ -8,7 +8,7 @@ paragraphen: [§50 PBG, §76 PBG, §203 PBG, §204 PBG, §205 PBG, §207 PBG, §
 status: established
 gelesen: 2026-07-08
 last_updated: 2026-07-13
-verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213/217 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31); 2026-07-13 (Modell-D §§ 203/205/207/210/211/216/217/50/76/238/338b PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 37 — alle CONFIRMED bis auf § 238 Abs. 3-Zitat korrigiert auf Abs. 2, aufgehobener Absatz)
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213/217 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31); 2026-07-13 (Modell-D §§ 203/205/207/210/211/216/217/50/76/238/338b PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 37 — alle CONFIRMED bis auf § 238 Abs. 3-Zitat korrigiert auf Abs. 2, aufgehobener Absatz); 2026-07-14 (KNHV-Klaerung: Volltextabgleich gegen raw/260714_amtlich_zh_knhv.md, aktuelle konsolidierte Fassung Nachtrag 130 — KNHV ist NICHT aufgehoben und NICHT durch Nachfolgeerlass ersetzt; RRB vom 15.01.2025, in Kraft seit 01.08.2025, aendert nur § 3/§ 3a (Bundesinventare/Zustaendigkeit), alle hier zitierten §§ 4/6/7/8/10/12/23-28 KNHV CONFIRMED unveraendert)
 ---
 
 # Kap. 4 — Natur- und Heimatschutz (Band 1, S. 268-309)
@@ -99,7 +99,10 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
   bestehende Schutzmassnahmen, Schutzzweck), Ortsbilder zusaetzlich schuetzenswerte Einzelobjekte +
   wichtige Fassaden/Freiraeume (§ 7 KNHV), Nachfuehrung § 8 KNHV. **Inventar verpflichtet nur die
   Behoerde, nicht den Grundeigentuemer**; Inventarisierung ist **keine Schutzmassnahme** und **nicht mit
-  Rechtsmitteln anfechtbar**.
+  Rechtsmitteln anfechtbar**. *(Verifikation 2026-07-14: § 3/§ 3a KNHV — nicht § 4/§ 6/§ 7/§ 8 — wurden
+  per RRB vom 15.01.2025 [in Kraft seit 1.8.2025] geaendert bzw. neu eingefuegt; betrifft nur die
+  Bundesinventar-Fachstellen-Zustaendigkeit ALN/ARE, nicht die hier zitierten kantonalen/kommunalen
+  Inventare. Quelle: raw/260714_amtlich_zh_knhv.md, Nachtrag 130.)*
 - **4.3.2 Vorsorgliche Schutzmassnahmen:** mit Inventareroeffnung (§ 209 Abs. 2/3 PBG) oder ohne (§ 210
   PBG). **Inventareroeffnung** → **Veraenderungsverbot / Bewilligungspflicht** (§ 209 **Abs. 2**), das
   **dahinfaellt, wenn nicht innert Jahresfrist eine dauernde Anordnung getroffen wird** (§ 209 **Abs. 3**);
@@ -110,7 +113,11 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
   § 210 PBG** auch ohne Inventareroeffnung.
 - **4.3.3 Definitive Schutzmassnahmen (§ 205 PBG; Art. 17 RPG):** Umfang oertlich + sachlich genau
   umschreiben (§ 207 Abs. 1 PBG). Ergaenzende KNHV: Naturschutz §§ 13-18, Landschaftsschutz §§ 19-22,
-  Ortsbild-/Denkmalschutz §§ 23-28, Erholungsflaechen §§ 29-32.
+  Ortsbild-/Denkmalschutz §§ 23-28, Erholungsflaechen §§ 29-32. *(Verifikation 2026-07-14: §§ 23-28 KNHV
+  [Industriebauten/Bahnhoefe unter § 23 Abs. 2 "Objekte des Denkmalschutzes sind Einzelgebaeude und
+  kleinere Gebaeudegruppen", Melde-/Bewilligungspflicht § 28] CONFIRMED unveraendert in der aktuellen
+  Fassung Nachtrag 130 — gueltig seit 1.8.2025, keine Aenderung dieser §§ durch RRB 15.01.2025. Quelle:
+  raw/260714_amtlich_zh_knhv.md.)*
   - **4.3.3.1 Planungsrecht (§ 205 lit. a):** **Freihaltezonen** (§ 39 Abs. 1 / § 61 Abs. 2 PBG,
     ausdruecklich NHS-Zweck); **Erholungszone ist KEIN taugliches NHS-Mittel** (BRGE III Nr. 0033/2015).
     Staerkstes Mittel im Denkmalschutz: **Kernzone § 50 PBG** (Stadt-/Dorfkerne; § 50 Abs. 2/3 BZO kann
@@ -276,8 +283,12 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
 
 - **Materielle Enteignung bei Unterschutzstellung** ist nur querverwiesen (S. 322) — im Detail im Destillat
   [[05-planung-und-entschaedigung]] (Kap. 5, 5.3) enthalten. Verknuepfung ok, kein Doppelaufbau.
-- KNHV-Paragraphen (§§ 2a/4/6/7/8/9/10/12/13-32) aus dem Buchtext uebernommen — bei Bedarf am amtlichen
-  KNHV-Volltext verifizieren.
+- KNHV-Paragraphen (§§ 2a/4/6/7/8/9/10/12/13-32) aus dem Buchtext uebernommen — **verifiziert
+  2026-07-14** am amtlichen KNHV-Volltext (Nachtrag 130, gueltig ab 1.8.2025): alle CONFIRMED
+  unveraendert. Die KNHV ist entgegen frueherer Annahme NICHT aufgehoben und hat KEINEN
+  Nachfolgeerlass — RRB vom 15.01.2025 aendert nur § 3/§ 3a (Bundesinventar-Fachstellen), die
+  uebrigen hier zitierten §§ bleiben unter derselben LS-Nummer 702.11 in Kraft. Siehe
+  raw/260714_amtlich_zh_knhv.md fuer Volltext + Herleitung der Klaerung.
 - Genaue KDK/NHK/AK-Reglement-Details (RRB 12.01.2005 «Sachverstaendigen-Kommissionen nach § 216 PBG») nicht
   vertieft — bei konkretem Bedarf nachschlagen.
 - Kanton ZH; SZ-Faelle nur sinngemaess (SZ: eigenes Natur-/Heimatschutzrecht, separat).

@@ -158,7 +158,7 @@ zwei (§ 40 BBV I).
 | Dachraum: Raumteil nicht mitgezaehlt | Hoehe < 1,2 m | § 303/304 PBG, BEZ 2011 Nr. 15, S. 1252 f. |
 | Lichte Raumhoehe | **2,4 m** (Kernzone 2,3 m) | § 304 Abs. 1 PBG, S. 1253 |
 | Dachraum: Mindesthoehe ueber | **halber** Bodenflaeche (Flaeche ≥ 1,2 m) | § 304 Abs. 3 PBG, S. 1253 |
-| Rauminhalt grosse Belegung | 2,4 m³/m² (≤ 200 m²) → konstant 3 m³/m² (≥ 500 m²) | § 10 BBV II, S. 1253 |
+| Rauminhalt grosse Belegung | 2,40 m³/m² (≤ 200 m²), + 0,002 m³ je zusaetzlichem m² Bodenflaeche, ab 500 m² konstant 3,0 m³/m² | § 10 Abs. 1 BBV II, S. 1253 |
 | Innere Erschliessung Haustuer | Lichtmass 1 m | § 305 Abs. 1 PBG, S. 1253 |
 | Treppen/Gaenge zu Aufenthaltsraeumen | 1,2 m (EFH/wohnungsintern 0,9 m) | § 305 Abs. 1 PBG, S. 1253 |
 | Aufzugspflicht | > 5 anrechenbare Geschosse → 1 Aufzug; > 9 → 2 | § 40 BBV I, S. 1253 |
@@ -233,9 +233,21 @@ Fundstellen-Herleitung siehe Wiki [[wohnhygiene-und-raumanforderungen]], Abschni
 
 ## Offene Punkte / zu verifizieren (Rest-Kapitel, unveraendert)
 
-- **Raumhoehen Kernzone 2,3 m** und **Rauminhalt-Staffelung § 10 BBV II** am amtlichen
-  BBV-II-Volltext gegenpruefen (raw/), insbesondere die Zwischenwerte der m³/m²-Staffel
-  (Buch nennt 2,4 → 3 m³/m², Anstieg «0.002 m²» wirkt wie OCR-Verzerrung — am Volltext klaeren).
+- **Rauminhalt-Staffelung § 10 BBV II geklaert (2026-07-14, Modell D):** am amtlichen Volltext
+  (`raw/260607_amtlich_zh_bbv2.md`, Zeilen 97-101) bestaetigt: **lineare** Formel, keine Tabelle
+  mit diskreten Stufen. Wortlaut § 10 Abs. 1 BBV II: "Dieser [Mindestinhalt] betraegt 2,40 m³ je
+  Quadratmeter fuer Bodenflaechen bis zu 200 m² und erhoeht sich um 0,002 m³ fuer jeden
+  zusaetzlichen Quadratmeter; ab 500 m² Bodenflaeche bleibt der Mindestinhalt von 3,0 m³ je
+  Quadratmeter konstant." Die im Buch/Destillat vermerkte «0,002 m²» war ein Verschrieb im
+  Buch-Destillat selbst (nicht OCR-bedingt) — der amtliche Text nennt eindeutig **0,002 m³**
+  (Zuwachs ist ein Volumen-Inkrement je m² Bodenflaeche, keine Flaechenangabe). Rechnerische
+  Kontrolle: 2,40 + (500-200) x 0,002 = 3,00 m³/m² bei 500 m² — Eckwerte stimmen exakt.
+  Zwischenwert-Beispiel: bei 350 m² Bodenflaeche betraegt der Mindestinhalt 2,40 + 150x0,002 =
+  2,70 m³/m². Mitverifiziert: § 9 BBV II ist aufgehoben (Fussnote 9 im Volltext, Zeile 91 —
+  bestaetigt), § 11 BBV II regelt Abweichungen «in begruendeten Faellen» (Zeile 111, bestaetigt,
+  keine weiteren Voraussetzungen/Zahlen im Volltext), § 10 Abs. 3 BBV II (Flaechenzusammen-
+  rechnung bei Trennwand-Unterbrechung > 1/3 der Flaeche bzw. > 4 m²) wortgetreu bestaetigt.
+  Beleg: `raw/260607_amtlich_zh_bbv2.md`, Zeilen 91-114.
 - **§§ 295-298 PBG** (Anforderungen an Gebaeude > sechs Geschosse, Waermeversorgung,
   Befoerderungsanlagen, Nebenraeume) nur uebersichtsweise erwaehnt (S. 1242) — Detail offen.
 - **Ausruestungen-Teil** (Heizung/Klima/Elektro/Befoerderungsanlagen/Briefkaesten, § 4 ABV) und

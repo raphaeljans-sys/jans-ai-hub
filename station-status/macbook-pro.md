@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 11:56:12
+Stand: 13.07.2026 12:06:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 11:53)
@@ -19,4 +19,4 @@ Stand: 13.07.2026 11:56:12
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 22a771f7 planungsgrundlagen-training Run 28: Recht/Norm + Brandschutz Register-Nachfuehrung + Verifikations-Abschluss (Token-Vollgas)
+- e88ee624 wissen/energie Run 48: Synthese 5 paralleler Vertiefungen (FAQ/Register)
