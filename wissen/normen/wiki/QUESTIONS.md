@@ -64,6 +64,34 @@
   Raphael (kein Auto-Web, kein Kauf durch Claude).
 - [ ] **SIA 279:2018 / 281:2017 / 329:2018** sind NEUER als das 2013-Register — als aktuell
   geführt (am PDF-Deckblatt belegt), gelten bis zur nächsten Revision.
+- [x] **Inventar-Reconcile 13.07.2026 (MacBook Pro, Run 5):** 35 Positionen (7 SIA + 28 VKF)
+  standen seit dem 12.07.2026 fälschlich als `[~] in Arbeit (MacBook Session)` im Inventar —
+  eine Vorsession war offenbar abgebrochen, NACHDEM die Destillate bereits geschrieben waren,
+  aber BEVOR Inventar/INDEX nachgeführt wurden. Alle 35 Destillate wurden auf der Platte
+  verifiziert vorgefunden und im Inventar auf `[x] 260713` gesetzt + in `destillate/INDEX.md`
+  nachregistriert. Kein PDF musste neu gelesen werden.
+- [ ] **Duplikate aus dem Reconcile — Merge/Bereinigung offen (Destruktiv, Rückfrage vor Ausführung):**
+  fünf VKF-Destillate existieren doppelt unter zwei Dateinamen mit identischer Quelle:
+  `vkf-brl-100-15-brandmauern.md` ↔ `vkf-brl-brandmauern-100-15.md`;
+  `vkf-brm-2001-15-solaranlagen.md` ↔ `vkf-merkblatt-2001-15-solaranlagen.md`;
+  `vkf-brl-aenderungen-2017.md` ↔ `vkf-aenderungen-brandschutzrichtlinien-2017.md`;
+  `vkf-brl-28-15-anerkennungsverfahren.md` ↔ `vkf-brl-anerkennungsverfahren.md`;
+  `vkf-bsv2015-bericht-aenderungen.md` ↔ `vkf-bsv2015-vernehmlassungsbericht.md` (letzteres evtl.
+  inhaltlich verschieden — „Vernehmlassungsbericht" vs. „Bericht/Änderungen", trotz gleicher
+  Quelldatei; vor dem Merge kurz gegenlesen). Je Paar den besseren/vollständigeren Stand behalten,
+  den anderen löschen und aus `destillate/INDEX.md` entfernen — NICHT automatisch, da Löschen
+  destruktiv ist (Rule `wissens-bibliothekar`).
+- [ ] **Dateiname/Inhalt-Mismatch:** `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
+  Quelle `Brandschutz-Praevention.pdf`, der Dateiname passt aber nicht zum Inhalt (Klassifikation
+  von Bauteilen statt Prävention). Prüfen, ob der Inhalt wirklich zur Quelle passt, ggf. umbenennen
+  auf ein passendes Muster (z.B. `vkf-brl-praevention-organisatorischer-brandschutz.md` — kollidiert
+  dann aber mit `vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md`, das dieselbe Quelle
+  hat: beide Destillate zu `Brandverhuetung & organisatorischer Brandschutz.pdf` bzw.
+  `Brandschutz-Praevention.pdf` — evtl. sind das zwei verschiedene PDFs mit ähnlichem Thema, am
+  Original gegenlesen bevor gemerged wird.
+- [ ] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
+  ist eine Dublette der bereits unter DIN destillierten `din-en-12101-2-2003.md` (Mac Mini) — beim
+  Reconcile referenziert statt neu destilliert, keine Aktion nötig.
 - [ ] **DIN EN 1627:2011 (Einbruchhemmung) — nur Teilbestand.** Die Datei
   `DIN-Norm/DIN 1627_Auszuege .pdf` enthält laut Dateiname und Inhalt nur einen Auszug
   (4 von 44 Seiten der Vollnorm); Destillat `din-en-1627-2011.md` ist deshalb als

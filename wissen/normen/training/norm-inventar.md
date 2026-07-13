@@ -9,21 +9,21 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `102.2020.pdf` | 102 | 2020 | gilt (jüngste im Bestand) |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `102_2014.pdf` | 102 | 2014 | — ersetzt durch 2020 |
+| [x] 260713 | P1 | `102.2020.pdf` | 102 | 2020 | gilt (jüngste im Bestand); Reconcile 260713: sia-102-2020.md |
+| [x] 260713 | P1 | `102_2014.pdf` | 102 | 2014 | — ersetzt durch 2020; Reconcile 260713: sia-102-2014.md |
 | [x] 260712 | P1 | `103_2003_d.pdf` | 103 | 2003 |  |
 | [x] 260712 | P1 | `105.2020.pdf` | 105 | 2020 |  |
 | [x] 260712 | P1 | `111.2014.pdf` | 111 | 2014 | gilt (jüngste im Bestand) |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `111_2003_d.pdf` | 111 | 2003 | — ersetzt durch 2014 |
+| [x] 260713 | P1 | `111_2003_d.pdf` | 111 | 2003 | — ersetzt durch 2014; Reconcile 260713: sia-111-2003.md |
 | [x] 260712 | P1 | `112.2014.pdf` | 112 | 2014 |  |
 | [x] 260712 | P1 | `118_1991_d.pdf` | 118 | 1991 | Volltext-Destillat (75 S. Textlayer), alle Kennzahlen Modell-D-verifiziert (run4) |
 | [x] 260712 | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
 | [x] 260712 | P1 | `451_1992_d.pdf` | 451 | 1992 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P2 | `100_2004_df.pdf` | 100 | 2004 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P2 | `104_2003_d.pdf` | 104 | 2003 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand) |
+| [x] 260713 | P2 | `100_2004_df.pdf` | 100 | 2004 |  Reconcile 260713: sia-100-2004.md  |
+| [x] 260713 | P2 | `104_2003_d.pdf` | 104 | 2003 |  Reconcile 260713: sia-104-2003.md (Status draft, ggf. Vertiefung noetig)  |
+| [x] 260713 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); Reconcile 260713: sia-108-2014.md |
 | [ ] | P2 | `108_2003_d.pdf` | 108 | 2003 | — ersetzt durch 2014 |
-| [~] 260712 in Arbeit (MacBook Session) | P2 | `110_2003_d.pdf` | 110 | 2003 |  |
+| [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (Status draft, ggf. Vertiefung noetig)  |
 | [ ] | P2 | `121_2003_d.pdf` | 121 | 2003 |  |
 | [ ] | P2 | `125_2017.pdf` | 125 | 2017 |  |
 | [ ] | P2 | `142_1998_d.pdf` | 142 | 1998 | — ersetzt durch 2009 |
@@ -413,39 +413,39 @@
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
 | [x] 260712 | P1 | `01_Brandschutznorm 2015/1-15_Brandschutznorm.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` | 100 |  |  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` | 100 |  |  Reconcile 260713: vkf-brl-100-15-brandmauern.md (Duplikat vkf-brl-brandmauern-100-15.md, Merge offen)  |
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/16-15_rev2016_flucht_und_rettungswege.pdf` |  | 2016 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/2001-15_VKF-AEAI_BrandschutzMerkblatt_Solaranlange_d.pdf` | 2001 | 2001 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` |  | 2017 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Anerkennungsverfahren.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/BSPUB-1394520214-57.pdf` |  | 2021 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/BSV2015-Bericht und Änderungen.pdf` | 2015 | 2015 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Beförderungsanlagen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Begriffe & Definitionen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Blitzschutzsysteme.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Brandmeldeanlage.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Brandschutz-Praevention.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 15.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 17 BSPUB-1394520214-81.pdf` |  | 2021 |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Brandverhuetung & organisatorischer Brandschutz.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf` | 1210 |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Flucht & Rettungswege.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Gefährliche Stoffe.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Kennzeichnung von Fluchtwegen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Löscheinrichtungen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Lufttechnische Anlage.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Merkblatt_012_d.pdf` |  |  |  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/2001-15_VKF-AEAI_BrandschutzMerkblatt_Solaranlange_d.pdf` | 2001 | 2001 |  Reconcile 260713: vkf-brm-2001-15-solaranlagen.md (Duplikat vkf-merkblatt-2001-15-solaranlagen.md, Merge offen)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` |  | 2017 |  Reconcile 260713: vkf-brl-aenderungen-2017.md (Duplikat vkf-aenderungen-brandschutzrichtlinien-2017.md, Merge offen)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Anerkennungsverfahren.pdf` |  |  |  Reconcile 260713: vkf-brl-anerkennungsverfahren.md (Duplikat vkf-brl-28-15-anerkennungsverfahren.md, Merge offen)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/BSPUB-1394520214-57.pdf` |  | 2021 |  Reconcile 260713: vkf-brandschutznorm-1-15de-bspub57.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/BSV2015-Bericht und Änderungen.pdf` | 2015 | 2015 |  Reconcile 260713: vkf-bsv2015-bericht-aenderungen.md (+ vkf-bsv2015-vernehmlassungsbericht.md, unterschiedlicher Fokus, pruefen)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf` |  |  |  Reconcile 260713: vkf-brl-13-15-baustoffe-bauteile.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Beförderungsanlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-23-15-befoerderungsanlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Begriffe & Definitionen.pdf` |  |  |  Reconcile 260713: vkf-brl-10-15-begriffe-definitionen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Blitzschutzsysteme.pdf` |  |  |  Reconcile 260713: vkf-brl-22-15-blitzschutzsysteme.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandmeldeanlage.pdf` |  |  |  Reconcile 260713: vkf-brl-20-15-brandmeldeanlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutz-Praevention.pdf` |  |  |  Reconcile 260713: vkf-merkblatt-brandschutzklassifikation-bauteile.md (Dateiname/Inhalt-Mismatch, Rename offen)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 15.pdf` |  |  |  Reconcile 260713: vkf-brl-15-15-brandschutzabstaende-tragwerke.md (deckt 15+17-Revision ab)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandschutzabstaende Tragwerke 17 BSPUB-1394520214-81.pdf` |  | 2021 |  Reconcile 260713: vkf-brl-15-15-brandschutzabstaende-tragwerke.md (deckt 15+17-Revision ab)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Brandverhuetung & organisatorischer Brandschutz.pdf` |  |  |  Reconcile 260713: vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf` | 1210 |  |  Reconcile 260713: din-en-12101-2-2003.md (Dublette gleiche Norm im VKF-Ordner)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Flucht & Rettungswege.pdf` |  |  |  Reconcile 260713: vkf-brl-16-15-flucht-rettungswege.md (identisch/abgedeckt mit 16-15_rev2016)  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Gefährliche Stoffe.pdf` |  |  |  Reconcile 260713: vkf-brl-26-15-gefaehrliche-stoffe.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Kennzeichnung von Fluchtwegen.pdf` |  |  |  Reconcile 260713: vkf-brl-17-15-kennzeichnung-fluchtwege.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Löscheinrichtungen.pdf` |  |  |  Reconcile 260713: vkf-brl-18-15-loescheinrichtungen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Lufttechnische Anlage.pdf` |  |  |  Reconcile 260713: vkf-brl-25-15-lufttechnische-anlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Merkblatt_012_d.pdf` |  |  |  Reconcile 260713: vst-merkblatt-012-tueren-fluchtwegen.md  |
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Nachweisverfahren im Brandschutz.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Qualitätssicherung im Brandschutz.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Rauch & Wärmeabzugsanlagen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/SService Nr19091815480.pdf` | 1909 |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Sprinkleranlage.pdf` |  |  |  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Qualitätssicherung im Brandschutz.pdf` |  |  |  Reconcile 260713: vkf-brl-11-15-qualitaetssicherung-brandschutz.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Rauch & Wärmeabzugsanlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-21-15-rauch-waermeabzugsanlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/SService Nr19091815480.pdf` | 1909 |  |  Reconcile 260713: szs-steeldoc-brandschutz-stahlbau-2015.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Sprinkleranlage.pdf` |  |  |  Reconcile 260713: vkf-brl-19-15-sprinkleranlagen.md  |
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Verwendung von Baustoffen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/Wärmetechnische Anlagen.pdf` |  |  |  |
-| [~] 260712 in Arbeit (MacBook Session) | P1 | `02_Brandschutzrichtlinien 2015/gege-panikprogramm-1.pdf` |  |  |  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Wärmetechnische Anlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-24-15-waermetechnische-anlagen.md  |
+| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/gege-panikprogramm-1.pdf` |  |  |  Reconcile 260713: en-179-1125-2009-panikbeschlaege-gege.md  |
 | [ ] | P2 | `03_Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf` |  |  |  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/100-15_Brandmauern.pdf` | 100 |  |  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/100-15_Brandmauern.pdf` | 100 |  | identisch (MD5) mit bereits destilliertem `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` → vkf-brl-100-15-brandmauern.md |
 | [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/101-15_Atrien u Innenhöfe.pdf` | 101 |  |  |
 | [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/102-15_Doppelfassaden.pdf` | 102 |  |  |
 | [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/103-15_Cheminees.pdf` | 103 |  |  |
@@ -458,9 +458,9 @@
 | [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf` | 1001 |  |  |
 | [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-03d_Parkhaeuser.pdf` | 1002 |  |  |
 | [ ] | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-15_Schulbauten.pdf` | 1002 |  |  |
-| [ ] | P2 | `_LINK.docx` |  |  |  |
-| [ ] | P2 | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 |  |
-| [ ] | P2 | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 |  |
+| — | — | `_LINK.docx` |  |  | keine Norm, Verweis-/Linkdatei — übersprungen |
+| — | — | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 | keine Norm, Bestellformular — übersprungen |
+| — | — | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 | keine Norm, Lieferschein — übersprungen |
 
 ## DIN (71 Dateien)
 

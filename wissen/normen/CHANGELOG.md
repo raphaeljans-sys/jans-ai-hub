@@ -1,4 +1,27 @@
 # CHANGELOG — KB Normen
+## 2026-07-13 — normen-training-nacht MacBook Pro Run 5: Inventar-Reconcile (35 Positionen)
+- Stations-Split eingehalten: NUR SIA/VKF bearbeitet.
+- **Fund:** 7 SIA- + 28 VKF-Positionen standen seit 12.07.2026 als `[~] in Arbeit (MacBook
+  Session)` im Inventar — eine Vorsession war offenbar nach dem Schreiben der Destillate,
+  aber vor dem Nachführen von Inventar/INDEX abgebrochen. Alle 35 zugehörigen Destillate
+  wurden auf der Platte vollständig vorgefunden (kein PDF musste neu gelesen werden).
+- **`norm-inventar.md`:** alle 35 Zeilen auf `[x] 260713` gesetzt, je mit Reconcile-Vermerk
+  auf das gefundene Destillat.
+- **`destillate/INDEX.md`:** 31 bislang unregistrierte Destillate nachgetragen (6 SIA:
+  100/102-2014/104/108/110/111; 25 VKF: BRL 10/11/12/13/15/17/18/19/20/21/22/23/24/25/26/28-15,
+  Brandschutznorm-1-15-BSPUB, BSV2015-Bericht ×2, Merkblatt 2001-15 Solaranlagen,
+  Änderungen 2017, Merkblatt Brandschutzklassifikation, VST-Merkblatt 012, SZS-steeldoc,
+  EN-179/1125-gege).
+- **5 Duplikat-Paare entdeckt** (gleiche Quelle, zwei Destillat-Dateinamen) — NICHT gemergt/
+  gelöscht (destruktiv), als offener Punkt in `wiki/QUESTIONS.md` festgehalten: VKF-BRL
+  100-15 Brandmauern, VKF-Merkblatt 2001-15 Solaranlagen, VKF-Änderungen 2017,
+  VKF-BRL 28-15 Anerkennungsverfahren, VKF-BSV2015-Bericht/Vernehmlassungsbericht.
+- **1 Dateiname/Inhalt-Mismatch entdeckt:** `vkf-merkblatt-brandschutzklassifikation-bauteile.md`
+  referenziert die Quelle „Brandschutz-Praevention.pdf" — Titel und Quelle passen nicht
+  zusammen, als offener Punkt notiert statt spekulativ umbenannt.
+- Verifikationsstufe nicht neu angewendet (reines Nachführen bereits bestehender Destillate,
+  keine neuen Aussagen).
+
 ## 2026-07-13 — normen-training-mini Mac Mini: 15 DIN-Destillate (Token-Vollgas)
 - Stations-Split eingehalten: NUR DIN/VSS/RAL bearbeitet (SIA/VKF bleiben MacBook Pro).
 - **15 neue Destillate:** din-105-5-1984, din-1053-2-1996, din-1053-3-1990,

@@ -89,3 +89,35 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-919-1-1991.md` | DIN 919-1 Technische Zeichnungen Holzverarbeitung, Grundlagen | 1991-04 | destilliert |
 | `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | destilliert |
 | `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | destilliert |
+| `sia-100-2004.md` | SIA 100 Statuten des SIA | 2004 (Grundfassung 1999) | destilliert |
+| `sia-102-2014.md` | SIA 102 Leistungen + Honorare Architekten | 2014 | destilliert (— ersetzt durch 2020) |
+| `sia-104-2003.md` | SIA 104 Leistungen + Honorare Bauleitung | 2003 | draft |
+| `sia-108-2014.md` | SIA 108 Leistungen + Honorare Übergangslösung | 2014 (gültig ab 2018) | destilliert |
+| `sia-110-2003.md` | SIA 110 Allgemeine Bestimmungen über Leistungen und Honorare | 2003 | draft |
+| `sia-111-2003.md` | SIA 111 Modell Planung und Beratung | 2003 (— ersetzt durch 2014) | destilliert |
+| `vkf-brl-10-15-begriffe-definitionen.md` | VKF-BRL 10-15 Begriffe und Definitionen | 2015 | established |
+| `vkf-brl-100-15-brandmauern.md` | VKF-Brandschutzerläuterung 100-15 Brandmauern | 2015 | established (Duplikat `vkf-brl-brandmauern-100-15.md`, Merge offen) |
+| `vkf-brl-11-15-qualitaetssicherung-brandschutz.md` | VKF-BRL 11-15 Qualitätssicherung im Brandschutz | 2015 | destilliert |
+| `vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md` | VKF-BRL 12-15 Brandverhütung und organisatorischer Brandschutz | 2015 | destilliert |
+| `vkf-brl-13-15-baustoffe-bauteile.md` | VKF-BRL 13-15 Baustoffe und Bauteile | 2015 | established |
+| `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | VKF-BRL 15-15 Brandschutzabstände Tragwerke (deckt Ausgabe 2015 + Revision 2016 ab) | 2015, rev. 2016 | destilliert |
+| `vkf-brl-17-15-kennzeichnung-fluchtwege.md` | VKF-BRL 17-15 Kennzeichnung von Fluchtwegen | 2015 | draft |
+| `vkf-brl-18-15-loescheinrichtungen.md` | VKF-BRL 18-15 Löscheinrichtungen | 2015 | destilliert |
+| `vkf-brl-19-15-sprinkleranlagen.md` | VKF-BRL 19-15 Sprinkleranlagen | 2015 | destilliert |
+| `vkf-brl-20-15-brandmeldeanlagen.md` | VKF-BRL 20-15 Brandmeldeanlagen | 2015 | established |
+| `vkf-brl-21-15-rauch-waermeabzugsanlagen.md` | VKF-BRL 21-15 Rauch- und Wärmeabzugsanlagen | 2015 | destilliert |
+| `vkf-brl-22-15-blitzschutzsysteme.md` | VKF-BRL 22-15 Blitzschutzsysteme | 2015 | destilliert |
+| `vkf-brl-23-15-befoerderungsanlagen.md` | VKF-BRL 23-15 Beförderungsanlagen | 2015 | destilliert |
+| `vkf-brl-24-15-waermetechnische-anlagen.md` | VKF-BRL 24-15 Wärmetechnische Anlagen | 2015 | established |
+| `vkf-brl-25-15-lufttechnische-anlagen.md` | VKF-BRL 25-15 Lufttechnische Anlagen | 2015 | destilliert |
+| `vkf-brl-26-15-gefaehrliche-stoffe.md` | VKF-BRL 26-15 Gefährliche Stoffe | 2015 | destilliert |
+| `vkf-brl-28-15-anerkennungsverfahren.md` | VKF-BRL 28-15 Anerkennungsverfahren | 2015 | destilliert (Duplikat `vkf-brl-anerkennungsverfahren.md`, Merge offen) |
+| `vkf-brl-aenderungen-2017.md` | Teilrevision VKF-Brandschutzvorschriften 2017 (Gegenüberstellung 2015 vs. 2017) | 2017 | draft (Duplikat `vkf-aenderungen-brandschutzrichtlinien-2017.md`, Merge offen) |
+| `vkf-brm-2001-15-solaranlagen.md` | VKF-Brandschutzmerkblatt 2001-15 Solaranlagen | 2015 | established (Duplikat `vkf-merkblatt-2001-15-solaranlagen.md`, Merge offen) |
+| `vkf-bsv2015-bericht-aenderungen.md` | VKF Erläuternder Bericht Gesamtrevision BSV 2015 | Vernehmlassung 01.11.2013 | established |
+| `vkf-bsv2015-vernehmlassungsbericht.md` | VKF Erläuternder Bericht für die Vernehmlassung BSV 2015 (gleiche Quelle wie oben, Fokus prüfen) | Vernehmlassung 01.11.2013 | draft |
+| `vkf-brandschutznorm-1-15de-bspub57.md` | VKF-Brandschutznorm 1-15 (BSPUB-Fassung) | 2015 | established |
+| `vkf-merkblatt-brandschutzklassifikation-bauteile.md` | Merkblatt Brandschutz-Klassifikation häufig verwendeter Bauteile (Quelle: „Brandschutz-Praevention.pdf" — Dateiname/Inhalt-Mismatch, Rename offen) | undatiert, Auszug BSV 2015 | draft |
+| `vst-merkblatt-012-tueren-fluchtwegen.md` | VST Technisches Merkblatt Nr. 012 Türen in Fluchtwegen | Erstausgabe 2009 | draft |
+| `szs-steeldoc-brandschutz-stahlbau-2015.md` | SZS steeldoc 03/15 Brandschutz im Stahlbau | 2015 (Erstausgabe 2006) | draft |
+| `en-179-1125-2009-panikbeschlaege-gege.md` | EN 179/1125 Panikbeschläge (gege-Kurzfassung) | 2009 | draft |
