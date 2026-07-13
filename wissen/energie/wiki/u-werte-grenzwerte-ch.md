@@ -1,8 +1,8 @@
 ---
 title: U-Werte & Heizwaermebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-07-12
-sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md]
+last_updated: 2026-07-13
+sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -61,6 +61,31 @@ oder leicht negativ (−0,08 bis 0,04) → `[[waermebrueckenkatalog-bfe-flachdac
 eine Backstein-Bruestung liegt praktisch immer (auch ungedaemmt: Ψ 0,02-0,09) unter dem
 Grenzwert 0,30, eine durchgehende Stahlbeton-Bruestung dagegen selbst gedaemmt meist darueber
 oder knapp darunter (Ψ 0,12-0,26) → `[[waermebrueckenkatalog-bfe-flachdach-bruestung]]`.
+
+**Flachdach ohne Vordach (Gruppe 3.1):** ohne Deckendaemmeinlage Ψ 0,44-0,60 (bis 3× Grenzwert
+0,20) — **durchgehende Daemmung** ueber die Deckenkante hinweg macht den Wert negativ, schon eine
+schmale 4-6 cm Stirndaemmung senkt ihn unter den Grenzwert → `[[waermebrueckenkatalog-bfe-flachdach-ohne-vordach]]`.
+
+**Steildach Traufe + Ort (Gruppen 3.2/3.3):** anders als beim Flachdach durchweg **unkritisch**
+— bei durchgehender Sparrendaemmung liegen ALLE Varianten bei null oder deutlich negativ (−0,01
+bis −0,16), weil die Daemmebene in derselben Ebene wie die Wanddaemmung liegt und keine
+Materialbruch-Wirkung wie bei einer auskragenden Betondecke entsteht
+→ `[[waermebrueckenkatalog-bfe-steildach-traufe-ort]]`.
+
+**Auskragung allgemein (Gruppe 3.5, Boden ueber unbeheiztem Raum, kein Balkon-Isokorb-System):**
+Ψ 0,04-0,29 je nach Unterlagsbodendaemmung — ab 6 cm Daemmung meist unter Grenzwert 0,20;
+zusaetzliches Mauerfusselement senkt den Wert um weitere 0,05-0,07
+→ `[[waermebrueckenkatalog-bfe-auskragung]]`.
+
+**Rollladenkasten (Gruppe 4.2):** Ψ 0,18-0,26 — knapp unter Grenzwert 0,30, aber ohne grosse
+Reserve; Fenstertyp macht kaum Unterschied (max. 0,02), der Kasten selbst dominiert
+→ `[[waermebrueckenkatalog-bfe-rollladenkasten]]`.
+
+**Fensterleibung/-bruestung/-sturz (Gruppen 5.1-5.3, strengerer Grenzwert 0,10):** durchweg
+knapp unter Grenzwert bei **aussenbuendigem** Fenstereinbau, darueber bei Innenanschlag;
+**ungedaemmte Fensterbank** ist mit +0,20 der groesste Einzelfehler im ganzen Katalog;
+Stahlbetonsturz statt Backstein kostet bis +0,08
+→ `[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]`.
 
 ## Heizwaermebedarf Q_H
 Formel und Bilanz: `[[sia-380-1-heizwaermebedarf-berechnung]]`

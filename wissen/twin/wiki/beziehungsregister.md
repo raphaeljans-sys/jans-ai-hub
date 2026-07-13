@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -733,3 +733,22 @@ und ergänzt:
   <Name>»; im laufenden Umbau bleibt die Bauherrschaft transparent im cc (→ [[arbeitsweise]]).
 - **«Salut <Vorname>» auch an bauherrschaftsnahen Du-Kontakt:** «Salut Esther» (16.03.2026) — bestätigt
   «Salut» als lockeren Du-Opener über verschiedene Du-Kontakte (Klang/Skala → [[stimme]]).
+
+## Register folgt dem Mail-Gewicht, nicht nur der Beziehungsstufe (belegt Mailbatch 36, 2026-03-18 bis 2026-03-24, authentisch)
+- **Stefan Tschopp (Bauherr-Partner Thalwil 2414):** derselbe Du-Kontakt erhält am selben Tag zwei
+  unterschiedliche Register — «Hoi Stefan,» für die routinemässige Terminzusage, aber «**Geschätzter
+  Stefan**» für die inhaltlich heikle Grundsatzmail zur gestalterischen Verantwortung nach Planfreeze. Das
+  Register hebt sich also nicht nur mit wachsender/abnehmender Vertrautheit, sondern situativ mit dem
+  **Gewicht des Anliegens** innerhalb derselben Beziehung (→ [[denken]], [[haltung]]).
+- **Roman Steinmann (Nova-AM):** trotz «Salut Roman»-Warmstufe (17.03.) fällt die Zahlungserinnerung
+  (19.03.) auf das namenlose «Guten Tag»-Minimalregister zurück — Geld-/Mahn-Kontext überschreibt jede
+  erreichte Du-Warmstufe vollständig (→ [[stimme]]).
+- **Albin Spahic (KISPI, Betreiber):** «Salut Albin» als Opener einer Koordinations-/Freigabe-Liefermail
+  bestätigt den bereits mehrfach belegten Du-Kontakt auf konstant vertrautem Niveau.
+- **Neue Kontakte via Referral, warm-Sie/Du-Mischregister:** Seraina Montanari (Empfehlungsgeberin für zwei
+  Referenzprojekte) wird direkt mit «**Geschätzte Seraina,**» + grossgeschriebenem «Deine» begrüsst — die
+  Dankbarkeit für die Empfehlung («Für Deine Empfehlung bedanke ich mich herzlich») hebt das Register sofort
+  ins warme Sie/Du-Mischformat, ohne vorherige Sie-Stufe zu durchlaufen.
+- **Neue Sie-Mappings Wartstrasse 8:** Guido Giacometti/Steinmann AG weiterhin Sie («Geschätzter Herr Daniel
+  Schmid»), Beson/fsgbau weiterhin Sie («Geschätzter Herr Beson»), beide mit Bauherrin Hofer im cc
+  (bestätigt Muster aus Batch 35).

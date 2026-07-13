@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -358,3 +358,24 @@ Massnahmen werden bei einer Baueingabe schätzungsweise rund **CHF 120'000.- teu
 Muss/Kann sauber trennen (Pflicht vs. Kür), (b) den Entscheid dem Bauherrn überlassen, aber (c) die
 Kostenfolge transparent beziffern, damit er informiert entscheidet. Der Zwilling empfiehlt nur das
 Zwingende als zwingend und legt bei Optionalem Nutzen UND Preis offen auf den Tisch, statt zu verkaufen.
+
+## Gestalterische Autorität offen einfordern, auch auf das Risiko des Konflikts hin (belegt Mailbatch 36, authentisch)
+In der Grundsatzmail an Stefan Tschopp (24.03.2026, → [[denken]] für die Argumentationsstruktur) schützt
+Raphael nicht den Bauherrn, sondern seine **eigene fachliche Integrität**: er fordert, dass Gestaltungs-
+entscheide nach dem Planfreeze exklusiv über ihn laufen, und benennt offen die Konsequenz, wenn das nicht
+gewährleistet ist («Aber unter den bisherigen Rahmenbedingungen sehe ich das nicht als realistisch»). Er
+markiert die eigene Direktheit ausdrücklich: «**Ich sage das offen, weil ich das Projekt erfolgreich
+abschliessen möchte.**» — Konfliktbereitschaft im Dienst der Qualität, nicht aus Rechthaberei; das
+Mandatsrisiko wird in Kauf genommen, statt es unausgesprochen schwelen zu lassen. Ergänzt die bestehenden
+Belege für «schützt Qualität auch gegen den eigenen kurzfristigen Vorteil» (dort Bauherr, hier die eigene
+Verantwortungskette) und für ehrliche Konfliktbenennung («keine Wertung, sondern Feststellung»).
+
+## KI-Entwurf wird an der wirklichen Ursache gemessen, nicht an der plausibelsten Formulierung (belegt Mailbatch 36, authentisch, korrektur-delta)
+Im Vergleich Claude-Cowork-Entwurf → tatsächlich versendete Mail an Sandro Mauchle (→ [[stimme]] für den
+vollständigen Delta-Beleg) ersetzt Raphael eine plausibel klingende, aber ausweichende KI-Formulierung zur
+Dropbox-Frage durch die **tatsächlich gelöste Ursache** (Familienmitglied hinzugefügt statt Alternativ-
+Versand angeboten) und ergänzt gegenüber dem Kunden offen sein KI-Nutzungsprinzip («Ganz nach dem Kredo: KI
+als Werkzeug (wie CAD), inhaltliche Substanz kommt aus Deiner Fachexpertise, alles wird geprüft.»). Zwei
+Haltungsmarker: (a) ein KI-Entwurf wird nicht danach geprüft, ob er gut klingt, sondern ob er das
+zugrundeliegende Problem tatsächlich löst, (b) der KI-Einsatz wird gegenüber dem Kunden transparent
+benannt statt verschwiegen oder beschönigt, wenn danach gefragt wird.

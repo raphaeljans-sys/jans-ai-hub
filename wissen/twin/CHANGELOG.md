@@ -2,6 +2,36 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 36 (2026-03-18 bis 2026-03-24)
+- Sent Items rj@ sequentiell weiter, 33 Mails gesichtet, 6 Volltexte destilliert. Zugriff diese
+  Session via MCP-Server `microsoft-365` (CLI fuer Microsoft 365, `m365 outlook message
+  list/get --userName rj@raphaeljans.ch`) statt des in CLAUDE.md referenzierten Cowork-
+  Connectors `outlook_email_search`, der in dieser Session nicht verfuegbar war — dieselbe
+  Graph-Datenquelle, andere Zugriffsroute.
+- **stimme:** Zahlungserinnerung an Roman Steinmann faellt trotz «Salut Roman»-Warmstufe auf
+  namenloses «Guten Tag»-Minimalregister zurueck (schaerft «Geld kehrt Peer-Du ins Sie»); «Salut»
+  bestaetigt auf Albin Spahic; «Wunderbarer Wochenstart» neue Wunschformel; «Geschätzte
+  <Vorname>,» + grossgeschriebenes «Deine» als warmer Referral-Opener (Seraina Montanari);
+  Echo-Falle 12. Beleg: an mail@raphaeljans.ch selbst adressierter Claude-Cowork-Entwurf
+  («Entwurf: Fundierte Antwort an Sandro Mauchle») = `claude-aera`-aequivalent, ausgeschlossen,
+  aber als korrektur-delta genutzt (Dropbox-Ausweichformulierung -> echte Loesung, Abschlussfrage
+  gestrichen, selbstzitierende Kredo-Zeile ergaenzt); Metrik 537 W, Du-Gross 0.733, Satzlaenge
+  ø 14.1 W, FG 3×/Lieber Gruss 2×.
+- **beziehungsregister:** Register folgt dem Mail-GEWICHT, nicht nur der Beziehungsstufe (Stefan
+  Tschopp zwei Register am selben Tag: «Hoi» operativ vs. «Geschätzter» fuer Grundsatzmail);
+  Roman-Mahnung ueberschreibt Warmstufe vollstaendig; Seraina Montanari als warmer Neukontakt via
+  Referral; Sie-Mappings Giacometti/Beson (Wartstrasse 8) bestaetigt.
+- **arbeitsweise:** Selbst-Review-Schlaufe fuer heikle KI-Entwuerfe (Entwurf an sich selbst,
+  redigiert weiterversenden) als neuer Referenz-Workflow; nummerierte H1-Sektionen-Liefermail
+  (Koordination/Vermerke je Gewerk/Administration) buendelt Fach- und Zahlungsfreigabe in einer
+  Mail an Albin/KISPI.
+- **denken:** Grenze setzen als dreiteilige Kette (Bedingung benennen -> Mechanismus erklaeren ->
+  als Notwendigkeit statt Affront einordnen) + Loesungsweg anbieten (Stefan Tschopp).
+- **haltung:** gestalterische Autoritaet offen einfordern auch auf Konfliktrisiko hin; KI-Entwurf
+  wird an der wirklichen Ursache gemessen statt an der plausibelsten Formulierung, KI-Einsatz
+  gegenueber Kunden transparent benannt.
+- _INGESTED-Sweep-Stand: abgedeckt bis 2026-03-24; naechster Lauf ab 2026-03-24.
+
 ## 2026-07-12 — twin-mail-training Batch 35 (2026-03-12 bis 2026-03-17)
 - Sent Items rj@ sequentiell weiter, 20 Mails gesichtet, 5 Volltexte destilliert (Thalwil 2414
   Terminplan/Vordach an Stefan-Du; Wartstrasse 8 Werkpläne-Balkontüre an Giacometti + Baumeister-

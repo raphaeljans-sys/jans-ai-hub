@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-13
-sources: [destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
+sources: [destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md]
 links: [[INDEX]]
 ---
 
@@ -1758,6 +1758,104 @@ dominiert stärker als die zusätzliche Dämmung.
 **Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
 `[[waermebrueckenkatalog-bfe-flachdach-bruestung]]`, emerging. Ergänzt
 `[[waermebrueckenkatalog-bfe-flachdach-vordach]]` (Curriculum-Punkt A4 Wärmebrücken).
+
+---
+
+## F53 — «Mein Flachdachrand hat kein Vordach — muss ich dort trotzdem etwas beachten?»
+
+**Kurz:** Ja, sogar mehr als beim Vordach. Wird die Aussendämmung ohne Unterbruch über die
+Attika bzw. den Deckenrand hochgezogen, verschwindet die Wärmebrücke praktisch vollständig.
+Fehlt diese durchgehende Dämmung ganz, ist der Flachdachrand eine der grössten und zugleich
+am leichtesten vermeidbaren Wärmebrücken am ganzen Gebäude.
+
+**Fachlich:** Ohne Deckendämmeinlage weist der BFE-Wärmebrückenkatalog Ψ-Werte von
+**0,44–0,60 W/(m·K)** aus — bis zum Dreifachen des Grenzwerts 0,20 W/(m·K), unabhängig vom
+Mauerwerk. Wird die Dämmung durchgehend über die Deckenkante geführt, sinkt der Wert auf
+**−0,13 bis −0,16** — rechnerisch kein Nachteil mehr. Reicht eine durchgehende Dämmung
+konstruktiv nicht, genügt bereits eine schmale **4–6 cm Stirndämmung** an der Deckenkante,
+um deutlich unter den Grenzwert zu kommen.
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-flachdach-ohne-vordach]]`, emerging. Ergänzt F51/F52
+(Curriculum-Punkt A4 Wärmebrücken).
+
+---
+
+## F54 — «Ist der Dachrand beim Steildach (Traufe und Ort) auch so ein Problem wie beim Flachdach?»
+
+**Kurz:** Nein — im Gegenteil. Bei einem gut gedämmten Steildach sind Traufe (Dachfuss) und Ort
+(Giebelrand) konstruktiv unkritisch und brauchen keine besondere Detailplanung für den
+Wärmebrückennachweis.
+
+**Fachlich:** Der BFE-Wärmebrückenkatalog weist für beide Details bei durchgehender
+Sparrendämmung Ψ-Werte von **−0,01 bis −0,16 W/(m·K)** aus — durchweg im Nullbereich oder
+negativ, weit unter dem Grenzwert von 0,20. Der Grund: Die Sparren-Dämmebene liegt in
+derselben Ebene wie die Wanddämmung; anders als bei einer auskragenden Betondecke (Flachdach,
+Balkon) entsteht kein Materialbruch. Der Katalog selbst vermerkt, dass diese Details «aus
+Vollständigkeitsgründen» aufgenommen wurden und im Wärmedämmnachweis nicht berücksichtigt
+werden müssen.
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-steildach-traufe-ort]]`, emerging.
+
+---
+
+## F55 — «Ein Raum meines Hauses kragt über eine kalte Einstellhalle oder einen Sockel aus — muss ich das speziell dämmen?»
+
+**Kurz:** Ja. Eine auskragende Bodenplatte über unbeheiztem Raum (ohne die thermisch trennbaren
+Sonderlösungen wie beim Balkon) braucht eine **Unterlagsbodendämmung von mindestens 6 cm**, um
+den Grenzwert sicher einzuhalten. Ein zusätzliches thermisch trennendes Element am Wandfuss
+verbessert den Wert nochmals.
+
+**Fachlich:** Der BFE-Wärmebrückenkatalog weist je nach Unterlagsbodendämmung Ψ-Werte von
+**0,04–0,29 W/(m·K)** aus (Grenzwert 0,20): bei 2 cm Dämmung meist über dem Grenzwert
+(0,17–0,29), ab 6 cm überwiegend darunter (0,06–0,17), bei 8 cm sicher darunter (0,04–0,13).
+Ein zusätzliches Mauerfusselement senkt den Wert um weitere 0,05–0,07 W/(m·K). Anders als bei
+der Balkonplatte gibt es hier keine thermisch getrennte Konstruktion (Isokorb-Prinzip) — der
+Hebel läuft ausschliesslich über die Dämmdicke im Bodenaufbau.
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-auskragung]]`, emerging. Ergänzt
+`[[waermebrueckenkatalog-bfe-sockel]]` (Curriculum-Punkt A4 Wärmebrücken).
+
+---
+
+## F56 — «Ich möchte einen Rollladenkasten einbauen — verschlechtert das die Energiebilanz meiner Fenster?»
+
+**Kurz:** Etwas, aber innerhalb des zulässigen Rahmens — solange kein zusätzlicher Fehler (z.B.
+ein ungedämmter Fenstersturz) dazukommt. Die Fenstertyp-Wahl (Holz/Holz-Alu/Kunststoff)
+spielt beim Rollladenkasten selbst kaum eine Rolle.
+
+**Fachlich:** Der BFE-Wärmebrückenkatalog weist für den klassischen Stahlbeton-Rollladenkasten
+Ψ-Werte von **0,18–0,26 W/(m·K)** aus — knapp unter dem Grenzwert von 0,30, aber ohne grosse
+Reserve. Der Unterschied zwischen den Fenstertypen liegt bei maximal 0,02 W/(m·K); der Kasten
+selbst ist die dominierende Grösse. Moderne vorgefertigte Aufsatz-Rollladenkästen mit
+werkseitig integrierter Dämmung sind im Katalog (Stand 2002) nicht abgebildet und dürften
+heute besser abschneiden.
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-rollladenkasten]]`, emerging.
+
+---
+
+## F57 — «Worauf muss ich beim Fenstereinbau achten — Leibung, Brüstung, Sturz?»
+
+**Kurz:** Der wichtigste Hebel ist die Einbauposition: Ein **aussenbündiger** Einbau (Fenster in
+der Aussendämmebene) ist bei allen drei Anschlüssen die klar günstigste Lösung. Der grösste
+Einzelfehler ist eine **nicht gedämmte Fensterbank** — das kostet mehr als der ganze
+zulässige Grenzwert. Beim Sturz macht zusätzlich das Mauerwerk (Backstein vs. Stahlbeton)
+einen spürbaren Unterschied.
+
+**Fachlich:** Für Leibung, Brüstung und Sturz gilt gemeinsam ein strengerer Grenzwert von
+**0,10 W/(m·K)** (gegenüber 0,30 bei der Rahmenverbreiterung/Gruppe 4.1). Aussenbündiger
+Einbau liegt bei allen drei Details bei 0,05–0,12 W/(m·K), Innenanschlag bei 0,10–0,18 —
+oft schon über dem Grenzwert. Eine **ungedämmte Fensterbank** verschlechtert den Wert um
+**+0,20 W/(m·K)**, mehr als der gesamte Grenzwert. Ein Stahlbetonsturz statt einer
+Backstein-Rollierung kostet zusätzlich bis zu +0,08 W/(m·K).
+
+**Quelle:** BFE «Wärmebrückenkatalog» (2002, Grundlage SIA 380/1:2001) →
+`[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]`, emerging. Ergänzt
+`[[waermebrueckenkatalog-bfe-fensteranschluss]]` (Curriculum-Punkt A4 Wärmebrücken).
 
 ---
 

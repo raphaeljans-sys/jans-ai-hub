@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -846,3 +846,22 @@ im Deliverable nicht enthaltenen Vorbehalt aktiv als schriftliche Ergänzung nac
   Zeichnungsberechtigung mit der Kreisarchitektin ab und **bestellt proaktiv den Grundbuchauszug** («sodass
   wir ein aktuellen vorliegen haben … Aus diesem wird definitiv ersichtlich, wer wem die Vollmacht geben
   muss»). Grundlage beschaffen + Zuständigkeit klären, bevor unterzeichnet wird.
+
+## Selbst-Review-Schlaufe für heikle KI-Entwürfe + Nummerierte Sektionen-Liefermail (belegt Mailbatch 36, 2026-03-18 bis 2026-03-24, authentisch)
+- **KI-Entwurf an sich selbst zur Prüfung, dann editiert versenden:** bei einer inhaltlich sensiblen Antwort
+  (Kunde stellt kritische Frage zum KI-Einsatz) lässt Raphael Claude Cowork zunächst einen Entwurf **an die
+  eigene Adresse** mail@raphaeljans.ch senden («Entwurf: Fundierte Antwort an …»), bevor er ihn 21 Minuten
+  später redigiert an den eigentlichen Empfänger schickt. Die Selbst-Adressierung ist ein bewusster
+  Prüf-Schritt: der KI-Text wird nie ungeprüft weitergeleitet, sondern als Zwischenstufe im eigenen Postfach
+  kontrolliert, faktisch korrigiert (echte Problemlösung statt Ausweichformulierung) und um eine eigene
+  Kredo-Zeile ergänzt, bevor er rausgeht (Delta-Belege → [[stimme]]). Der Zwilling merkt sich dieses Muster
+  als Referenz-Workflow für heikle Antworten: Entwurf → Selbst-Zustellung/Prüfung → Redigat → Versand.
+- **Nummerierte H1-Sektionen-Liefermail bündelt Fach- UND Administrationsaufgaben** (an Albin/KISPI,
+  18.03.2026, Start Phase 32): «1. Koordination Baueingabe» (Zielvorgabe + Auftragsvergabe an drei
+  Fachplaner-Disziplinen, Bitte um Kickoff-Sitzung), «2. Spezielle Vermerke je Fachplanerdisziplin» (je
+  Gewerk eigene Bullet-Liste offener Punkte, inkl. Verweis auf Booklet-PDF), «3. Administration» (Bitte um
+  Freigabe Auftragsbestätigung/Zahlungsplan **und** um Freigabe zweier fälliger Akonto-Rechnungen, mit
+  Dokumentenliste + SharePoint-Link). Schliesst mit «Rufe mich kurz an bei Fragen.» als niederschwelligem
+  Rückkanal. Reiht sich zur bereits belegten Themen-Block-Statusmail, neu mit expliziter H1-Nummerierung
+  und der Bündelung von technischer Koordination und Zahlungs-Freigabe in EINER Mail statt getrennter
+  Nachfassmails.
