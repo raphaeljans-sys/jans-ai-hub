@@ -5,7 +5,8 @@
 Die buerointerne Sammlung der Kartenportale/Geodaten liegt auf SharePoint und ist lokal
 gespiegelt. Diese Struktur ist **hinterlegt**, damit Claude Ablage-Orte kennt und neue Bezuege
 am richtigen Ort einordnet. Verwandt: [[kartenportale-geoportale-uebersicht]] (welches Portal
-liefert was), [[kartenportale-bund-geodaten]] (Connector `--produkt`).
+liefert was), [[kartenportale-bund-geodaten]] (Connector `--produkt`), [[kartenportale-naturgefahren-objektschutz]],
+[[kartenportale-werkleitungskataster]].
 
 ## Kanonischer Basis-Pfad
 
@@ -29,8 +30,8 @@ Geschwister-Ordner: `PL - 02_Recht_Norm`, `PL - 03 Brandschutz`, `PL - 04 Energi
 | `Grundstueckkataster/` | Kataster je Gemeinde (Maur, Niederhasli, Regensdorf, Thalwil, Wald ZH, Zuerich, Allgemein) |
 | `OEREB-Auszug/` | OEREB-Auszuege + `_Kommunikation` |
 | `Eigentumsabfrage Objektwesen/` | Eigentumsabfragen |
-| `Werkleitungen/` | `ekz-planauskunft.ch`, `leitungskataster.upc.ch`, `swisscom.ch`, `sunrise.ch` |
-| `Objektschutz/` | Naturgefahren je Objekt (Reckholdern, Thalwil) + `_schutz-vor-naturgefahren.ch` |
+| `Werkleitungen/` | `ekz-planauskunft.ch`, `leitungskataster.upc.ch`, `swisscom.ch`, `sunrise.ch` — vertieft in [[kartenportale-werkleitungskataster]] (Run 22) |
+| `Objektschutz/` | Naturgefahren je Objekt (Reckholdern, Thalwil) + `_schutz-vor-naturgefahren.ch` — vertieft in [[kartenportale-naturgefahren-objektschutz]] (Run 22) |
 | `Baumkataster/`, `Geoshop/`, `Datenformate_Geokartenmaterial/` | Spezialthemen / Formate |
 
 ## Topografie & Hoehenlinien — Bezugswege

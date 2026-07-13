@@ -2,6 +2,39 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 22 (Kartenportale + Meta, Token-Vollgas 2 Domaenen): Naturgefahren/Objektschutz + Werkleitungskataster neu erschlossen, M2-Anbindung geschaerft
+- **NEU [[kartenportale-naturgefahren-objektschutz]] (K10):** vollstaendiger Artikel aus dem bisher
+  unbearbeiteten Ordner `PL-01/Objektschutz/` — Rechtsgrundlagen (Art. 6/15 RPG, § 20/17 PBG SZ),
+  Gefahrenstufen rot/blau/gelb/gelb-weiss mit konkreter Bauvorschrift je Stufe (blau: **keine
+  besonders sensiblen Objekte** — direkte Healthcare-Relevanz), Perimeter A/B/C, rechtlicher Status
+  (rechtserheblich auch vor Umsetzung in Nutzungsplanung, 2-Jahres-Frist Gemeinde), realer JANS-
+  Benchmark Reckholdernstrasse 20 Willerzell (Objektschutzkonzept 26.09.2023: drei Gefahrenstufen
+  auf einer Parzelle, 4-stufiger Massnahmenkatalog planerisch/technisch/Material/organisatorisch),
+  SIA-261/261-1-Schutzziele-Tabelle (Hochwasser 300-jaehrlich, Sturm/Hagel/Schnee 50-jaehrlich,
+  Erdbeben 475-jaehrlich) + Jaehrlichkeits-Merksatz (300-jaehrlich = 15 % kumuliert ueber 50 Jahre).
+  Bezugsweg SZ als realer WebGIS-Link dokumentiert (`ch.sz.a012b.naturgefahrenkarte.*`), **bewusst
+  nicht als getesteter REST-Endpunkt behauptet** (Leitplanke: Endpunkte erst nach Test etabliert).
+  ZH-Endpunkt als offene Aufgabe vermerkt.
+- **NEU [[kartenportale-werkleitungskataster]] (K11):** vollstaendiger Artikel aus dem bisher
+  unbearbeiteten Ordner `PL-01/Werkleitungen/` — kein zentrales Portal (anders als OEREB/Zonenplan/
+  GWR), betreiberspezifischer Bezug: EKZ (Strom), Swisscom (Festnetz/Kommunikation), Sunrise-UPC
+  (Kabelnetz, 4 Regionen), Gas/Wasser bei Gemeindewerken. Realer Ablauf am Fall Reckholdern belegt
+  (Konto-Freischaltung EKZ, Bestellung je Perimeter, Lieferung Plot+Symbole+Kurzbrief, **Gueltigkeit
+  nur 2 Wochen**, Datenmodell **SIA GEO 405**, Farbdruck-Pflicht, projektierte Gebaeude blau/nicht
+  einmessbar, 190-Volt-Warnhinweis Swisscom, Netzauskunft 3 Monate/1:200). **Bewusst kein Connector-
+  Anspruch** (login-pflichtig, kein offenes API) — Status `emerging`, dokumentiert den validierten
+  manuellen Weg statt eine Automatisierung zu versprechen.
+- **M2 abgeschlossen:** Run-21-Befund (Anbindung an die Studien-Skills war einseitig) behoben —
+  `machbarkeit`, `ankaufspruefung`, `behoerden-vorabklaerung` SKILL.md referenzieren
+  `planungsgrundlagen` jetzt explizit als bevorzugte Geodaten-Quelle statt nur manuellem GIS-
+  Browser-Verweis; `ankaufspruefung` zusaetzlich mit Naturgefahren/Objektschutz als eigener
+  Pruefdimension, `behoerden-vorabklaerung` mit Praezisierung Werkleitungen-Zustaendigkeit
+  (Werke, nicht Tiefbauamt) + Hinweis, dass ein Teil der "gummigen" Masse bereits vorab belegt ist.
+- **Register:** curriculum (K10/K11/M2 neu `[x]`), QUESTIONS (Sektion A + neue Sektion F Meta/
+  Querschnitt), INDEX (2 neue Kartenportale-Eintraege + M1-Zeile ergaenzt), raw/_INGESTED (4 neue
+  Zeilen), kartenportale-grundlagen-checkliste-neue-parzelle + kartenportale-sharepoint-ablage
+  ergaenzt/verlinkt.
+
 ## 2026-07-13 — Training Run 21 (Recht/Norm + Brandschutz, Token-Vollgas 2 Domaenen): Tiefgarage-Erschliessungsgeometrie + Brandschutz Parkhaeuser/Einstellraeume neu erschlossen
 - **NEU [[recht-norm-tiefgarage-erschliessung]] (R9):** vollstaendiger Artikel aus den bisher
   unbearbeiteten VSS-Normen `PL-02/Tiefgarage/1 VSS-Norm/` — Grundstueckzufahrt Typ A/B/C

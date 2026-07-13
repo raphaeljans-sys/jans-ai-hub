@@ -34,7 +34,9 @@ Goldstandard-Vorlage: `2306 WOMA Maur/06_Reglemente/231018_QA_Baurecht.docx`
 ## Welche Behörde / Fachstelle wofuer
 - **Bauamt / Hochbauamt (Gemeinde):** Zone, Abstaende, Messweise, UG-Anrechnung, Wohnanteil,
   Bestandesschutz, Bewilligungspflicht, Arealueberbauung.
-- **Tiefbauamt:** Strassenabstand/-baulinie, Erschliessung, Werkleitungen.
+- **Tiefbauamt:** Strassenabstand/-baulinie, Erschliessung, Werkleitungen (Strom/Wasser/Gas/
+  Kommunikation — Bezug direkt bei den Werken EKZ/Swisscom/Sunrise-UPC, nicht beim Tiefbauamt
+  selbst; siehe `wissen/planungsgrundlagen` Werkleitungskataster).
 - **Gewaesser-/Umweltfachstelle:** Gewaesserraum/-abstand, Altlasten.
 - **Feuerpolizei / Brandschutzfachstelle (VKF/GVZ):** Brandschutzabstand, Höheneinstufung
   (Brandschutzhöhe vs. baurechtliche Höhe), Nutzungsanforderungen.

@@ -3,7 +3,7 @@ title: Grundlagen-Checkliste «neue Parzelle» — was JANS IMMER zuerst holt (M
 status: established
 last_updated: 2026-06-30
 sources: [eigene Connectoren skills/planungsgrundlagen/connectors/ (geo-zh.mjs, geo-sz.mjs, geoshop-zh.mjs, gwr-bund.mjs, behoerden-zh.mjs), validiert end-to-end am Benchmark Giebelweg 12 Langnau a.A. (EGRID CH879777718909, Kat. 3338, BFS 136) am 2026-06-30, zusammengefuehrt aus den established-Artikeln der KB]
-links: [[kartenportale-oereb-egrid-bezug]], [[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-bund-geodaten]], [[kartenportale-geoportale-uebersicht]], [[kartenportale-sharepoint-ablage]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]], [[energie-uebersicht]], [[oereb-schwyz]]
+links: [[kartenportale-oereb-egrid-bezug]], [[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-bund-geodaten]], [[kartenportale-geoportale-uebersicht]], [[kartenportale-sharepoint-ablage]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]], [[energie-uebersicht]], [[oereb-schwyz]], [[kartenportale-naturgefahren-objektschutz]], [[kartenportale-werkleitungskataster]]
 ---
 
 # Grundlagen-Checkliste «neue Parzelle» (M1)
@@ -37,7 +37,15 @@ eigenen Connectoren automatisiert; jeder Punkt verlinkt den vertiefenden Artikel
 **Querschnitt-Pruefungen, die aus 0–7 folgen** (kein eigener Bezug, sondern Auswertung):
 - **Recht/Norm**: welcher Erlass/Datenstand gilt → [[recht-norm-quellenlandkarte]] (Skill `baurecht` fuer die Wuerdigung).
 - **Brandschutz**: QSS-Einstufung + Vorschriftenstand BSV 2015/17/22 (⚠ BSV 2026 verschoben/Marschhalt) → [[brandschutz-pl03-wegweiser]].
+- **Naturgefahren** (bei Hang-/Bachlage IMMER pruefen, nicht nur bei offensichtlichem Risiko):
+  Gefahrenstufe rot/blau/gelb kann trotz unauffaelligem Zonenplan/Baulinien das Baufeld einschraenken
+  → [[kartenportale-naturgefahren-objektschutz]].
 - **Ablage**: Produkte sofort in die PL-01-Sollstruktur legen → [[kartenportale-sharepoint-ablage]].
+
+**Nicht Teil der 8 Pflicht-Grundlagen, aber vor Baueingabe/Ausfuehrung noetig:** der
+**Werkleitungskataster** (Strom/Kommunikation/Gas/Wasser) — betreiberspezifisch, login-pflichtig,
+kein zentrales Geoportal, kurze Gueltigkeit (EKZ 2 Wochen) → erst kurz vor Ausfuehrungsreife
+anfragen, nicht schon im Vorprojekt → [[kartenportale-werkleitungskataster]].
 
 ---
 
@@ -79,5 +87,9 @@ des Connectors zu Beginn jedes Laufs.
   Festsetzungsdatum; BSV-Stand). ⚠ Laufende BZO-Revision (proj-Layer) immer mitziehen — sonst
   rechnet die Studie auf veraltetem Recht.
 - **Offen (Folge-Loops):** senkrechtes Abstandsmass Linie↔Grenze automatisiert (Agent
-  `baulinien-analyst` mit Parzellengeometrie aus Schritt 4); M2 — Anbindung an die Studien-Skills
-  schaerfen.
+  `baulinien-analyst` mit Parzellengeometrie aus Schritt 4); ZH-Naturgefahren-Endpunkt noch nicht
+  kartiert (vermutlich AWEL, analog Gewaesserraum-Layer).
+- **M2 erledigt 2026-07-13 (Run 22):** die Studien-Skills `machbarkeit`/`ankaufspruefung`/
+  `behoerden-vorabklaerung` referenzieren den Skill `planungsgrundlagen` jetzt explizit als
+  bevorzugte GIS-/Geodaten-Quelle (statt nur manuellem GIS-Browser-Verweis) — Anbindung war zuvor
+  nur einseitig (planungsgrundlagen kannte die drei Skills, umgekehrt nicht).

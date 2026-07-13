@@ -3,6 +3,24 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K10** Naturgefahrenkarte/Objektschutzkonzept als eigenstaendige Planungsgrundlage. ✓
+  **2026-07-13 (Run 22):** NEU [[kartenportale-naturgefahren-objektschutz]] — SZ-Rechtsgrundlagen
+  (§ 20/17 PBG, Art. 6/15 RPG), **Gefahrenstufen rot/blau/gelb/gelb-weiss** mit Bauvorschrift je
+  Stufe (rot = de facto Verbotsbereich, blau = Auflagen, **keine sensiblen Objekte** — trifft
+  Healthcare direkt), realer Benchmark **Reckholdernstrasse 20 Willerzell** (drei Gefahrenstufen
+  auf einer Parzelle, Objektschutzkonzept 26.09.2023), SIA-261/261-1-Schutzziele-Tabelle
+  (Hochwasser 300-jaehrlich, Sturm/Hagel/Schnee 50-jaehrlich, Erdbeben 475-jaehrlich). **Offen:**
+  ZH-Endpunkt nicht kartiert; SZ-Layer `ch.sz.a012b.naturgefahrenkarte.*` nur als WebGIS-Link
+  bekannt, kein getesteter REST-Endpunkt — bewusst nicht als Connector-Feature versprochen.
+- [x] **K11** Werkleitungskataster (Strom/Kommunikation/Gas/Wasser) — Bezugsweg + Automatisierbarkeit.
+  ✓ **2026-07-13 (Run 22):** NEU [[kartenportale-werkleitungskataster]] — kein zentrales Portal,
+  betreiberspezifisch: EKZ (`ekz-planauskunft.ch`), Swisscom (Geo-Portal), Sunrise-UPC
+  (`upc.ch/leitungskataster`, 4 Regionen), Gas/Wasser bei Gemeindewerken. Realer Ablauf EKZ-
+  Planauskunft **Reckholdern** belegt (Login-Konto, Bestellung je Perimeter, Lieferung Plot+
+  Symbole+Kurzbrief, **Gueltigkeit nur 2 Wochen**, Datenmodell **SIA GEO 405**, Farbdruck-Pflicht,
+  projektierte Gebaeude blau/nicht einmessbar); Swisscom-Netzauskunft **3 Monate**/1:200,
+  190-Volt-Warnhinweis. **Bewusst kein Connector-Anspruch** (login-pflichtig, kein offenes API) —
+  Status `emerging`.
 - [x] **K9** GWR-Gebaeudedaten je Parzelle (Baujahr/Volumen/EBF/Waermeerzeuger) — Bezug, Felder,
   Verlaesslichkeit? ✓ **2026-07-02 (Run 13):** `gwr-bund.mjs` login-frei via Layer
   `ch.bfs.gebaeude_wohnungs_register`. **GVOLNORM** (961 SIA 116 / 962 SIA 416 / 969 unbekannt) +
@@ -290,3 +308,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   ueberschreibt den Start. **Befund:** STAC-Kacheln sind ~1 km → das Punktfenster trifft praktisch
   immer beim ersten Versuch; die Verdoppelung ist Sicherheitsnetz fuer Kachelgrenzen/-luecken
   (am Langnau-Benchmark nicht ausgeloest, kein Regress). → [[kartenportale-bund-geodaten]].
+
+## F — Meta/Querschnitt
+- [x] **M2** Anbindung an `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` schaerfen. ✓
+  **2026-07-13 (Run 22):** Luecke war einseitig (Run-21-Befund) — `planungsgrundlagen` kannte die
+  drei Skills, keiner referenzierte zurueck. SKILL.md aller drei ergaenzt: `machbarkeit`
+  §Datenquellen Punkt 4 nennt jetzt den Connector als bevorzugte Quelle vor manuellem GIS-Browser;
+  `ankaufspruefung` §Datenquellen nennt `planungsgrundlagen` + Naturgefahren/Objektschutz als eigene
+  Pruefdimension; `behoerden-vorabklaerung` haelt fest, dass ein Teil der "gummigen" Masse bereits
+  belegt vorliegt (weniger Behoerdenfragen noetig) + Werkleitungen-Zustaendigkeit praezisiert
+  (Werke, nicht Tiefbauamt) → [[kartenportale-grundlagen-checkliste-neue-parzelle]] Abschnitt
+  "Anwendung/Anschluss".
