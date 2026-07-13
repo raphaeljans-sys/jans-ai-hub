@@ -5,8 +5,9 @@ ausgabe: "VKF-Brandschutzrichtlinie 12-15de, Fassung 01.01.2015"
 ersetzt: "unbekannt (im PDF nicht vermerkt)"
 gelesen: "S. 1-16 (komplett: Titelblatt, Inhaltsverzeichnis, Ziff. 1-9, Anhang)"
 datenstand: "2015-01-01"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert)
+last_updated: 2026-07-14
+verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 16/16 Seiten, keine Abweichungen gefunden)
 links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
 ---
 
@@ -63,3 +64,6 @@ Sicherheitsbeauftragte-Brandschutz-Schwellen (Anhang zu Ziff. 4.3, S. 14): Beher
 - Definition von «Beherbergungsbetriebe [a]» und «[b]» nicht in diesem PDF enthalten (nur Verweis über Kategorien) — vermutlich in der VKF-Klassifikation/Brandschutznorm oder einer separaten BRL definiert; bei Bedarf dort nachschlagen
 - Keine Angabe im PDF, welche frühere Ausgabe diese BRL 12-15de ersetzt (Feld „ersetzt" im Frontmatter als unbekannt markiert) — bei Bedarf `ersetzte_normen.pdf` im Register prüfen
 - Grau hinterlegte Passagen (Übernahmen aus der Brandschutznorm, Hinweis Titelblatt S. 2) im vorliegenden Textextrakt nicht als solche erkennbar; bei Detailfragen zur Verbindlichkeit einzelner Absätze Original-PDF mit Layout konsultieren
+
+## Retro-Verifikation 260714 (Run 7, MacBook Pro)
+Adversarial gegen das vollständige Original-PDF (16/16 Seiten) geprüft: alle Ziffern-Fundstellen, Seitenangaben und Zahlenwerte (u.a. Parking >600 m², 0.5 m³/1 m³ Kasten, 55 °C/70 °C Heu, 13 m³/1'100 kg Flüssiggas, RF2/RF3, Schwellenwerte Sicherheitsbeauftragte S. 14, Schwellenwerte Informationssysteme/Notfallwarnsysteme S. 15-16, Gerüstbekleidung-Abstand ≥0.8 m S. 14) verifiziert — keine Abweichungen zum Original gefunden. Die Anhang-Seitenzuordnung (Ziff. 3.1/3.2/3.4.2/3.4.3/3.4.4/3.5 → S. 13; Ziff. 4.3/4.4/5 → S. 14; Ziff. 6.1/6.3 → S. 15-16) ist korrekt. Destillat bestätigt vollständig, keine Korrekturen nötig.

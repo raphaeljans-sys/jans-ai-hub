@@ -5,8 +5,9 @@ ausgabe: "VKF-BRL 18-15de, 01.01.2015"
 ersetzt: "unbekannt (Vorgänger-Ausgabe nicht im Bestand geprüft)"
 gelesen: "S. 1-10 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-8, Anhang)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert)
+last_updated: 2026-07-14
+verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro — alle Ziffern/Kennwerte gegen Original S. 1-10 gegengeprüft, eine Ungenauigkeit in Anhang-Tabelle S. 8 korrigiert"
 links: [[REGISTER]]
 ---
 
@@ -37,7 +38,7 @@ Ziff. 1 (S. 4): Die Richtlinie regelt allgemeine Anforderungen an Löscheinricht
 - **Ziff. 8 Inkrafttreten** (S. 7): Verbindlich erklärt mit Beschluss des IVHT-Organs vom 18.09.2014, in Kraft ab 01.01.2015, für alle Kantone verbindlich.
 
 ## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
-- **Anhang zu Ziff. 2 «Notwendigkeit von Löschmitteln»** (S. 8): Tabelle ordnet Nutzungskategorien (Beherbergungsbetriebe [a]/[b]/[c], Verkaufsgeschäfte > 1'200 m², Verkaufsräume ≤ 1'200 m² mit > 300 Personen, Räume mit grosser Personenbelegung, Bürobauten, Schulen/Kindergärten, Industrie-/Gewerbe-/Lagerbauten bis/über 1'200 m² gewerblich genutzter Fläche, Hochregallager, Parkings, Landwirtschaft-Ökonomietrakt > 3'000 m³, Mehrfamilienhäuser, Hochhäuser) den beiden Löschmittelarten WLP (Wasserlöschposten) und HFL (Handfeuerlöscher) zu, je mit Symbol «erforderlich» oder «empfehlenswert». Nicht aufgeführte Nutzungen/Gebäudearten sowie provisorische Bauten sind sinngemäss zu beurteilen. Fussnoten: Richtwert HFL = 1 Handfeuerlöscher pro 600 m² Grundfläche [1]; Personenbelegung > 2'000 Personen löst WLP-Pflicht bei "Räume mit grosser Personenbelegung" aus [2]; bei nichtbegehbaren Hochregallagern sind keine WLP/HFL erforderlich [3]; Hochhäuser sind mit nasser oder trockener Steigleitung mit Innenhydranten auszurüsten [4].
+- **Anhang zu Ziff. 2 «Notwendigkeit von Löschmitteln»** (S. 8): Tabelle ordnet Nutzungskategorien (Beherbergungsbetriebe [a]/[b]/[c], Verkaufsgeschäfte > 1'200 m², Verkaufsräume ≤ 1'200 m² mit > 300 Personen, Räume mit grosser Personenbelegung, Bürobauten, Schulen/Kindergärten, Industrie-/Gewerbe-/Lagerbauten bis/über 1'200 m² gewerblich genutzter Fläche, Hochregallager, Parkings, Landwirtschaft-Ökonomietrakt > 3'000 m³, Mehrfamilienhäuser, Hochhäuser) den beiden Löschmittelarten WLP (Wasserlöschposten) und HFL (Handfeuerlöscher) zu, je mit Symbol «erforderlich» oder «empfehlenswert» (geprüft gegen Original, Tabelle S. 8, verifiziert 260714). Bei den Zeilen «Mehrfamilienhäuser» und «Hochhäuser» sind die WLP/HFL-Spalten in der Tabelle LEER (keine generelle Symbol-Zuordnung) — für Hochhäuser gilt stattdessen die separate Anforderung aus Fussnote [4] (Steigleitung mit Innenhydranten, siehe auch Ziff. 3.2). Nicht aufgeführte Nutzungen/Gebäudearten sowie provisorische Bauten sind sinngemäss zu beurteilen. Fussnoten: Richtwert HFL = 1 Handfeuerlöscher pro 600 m² Grundfläche [1]; Personenbelegung > 2'000 Personen löst WLP-Pflicht bei "Räume mit grosser Personenbelegung" aus [2]; bei nichtbegehbaren Hochregallagern sind keine WLP/HFL erforderlich [3]; Hochhäuser sind mit nasser oder trockener Steigleitung mit Innenhydranten auszurüsten [4].
 - **Anhang «Eignung der Löschmittel für die verschiedenen Brandklassen»** (S. 9): Matrix je Brandklasse (A feste nicht schmelzende Stoffe, B Flüssigkeiten/schmelzende feste Stoffe, C Gase, D Metalle, F Speiseöle/-fette, plus «Brand elektrischer Anlagen») gegen die Löschmittelarten (Wasser Vollstrahl, Wasser Sprühstrahl, Schaum/CAFS/Netzmittel, AB-Pulver, BC-Pulver, D-Pulver, F-Löschmittel, Kohlendioxid CO2) mit Eignungsgrad (besonders geeignet / bedingt geeignet / nicht geeignet). Für Brand elektrischer Anlagen zusätzlich Sicherheitsabstände nach Spannungsebene (< 1'000 V bzw. > 1'000 V), je Löschmittelart unterschiedlich (z.B. Wasser Vollstrahl 5 m bei < 1'000 V, 10 m bei > 1'000 V) — Detailwerte im Original einsehen, hier nur die Systematik wiedergegeben (Urheberrecht, Tabelle nicht wörtlich kopiert).
 
 ## Begriffe

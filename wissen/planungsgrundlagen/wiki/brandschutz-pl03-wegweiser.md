@@ -2,7 +2,7 @@
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen)]
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -1215,6 +1215,158 @@ Brandschutzkonzept nachtragen).
 
 ---
 
+## 5v · Brandverhuetung & organisatorischer Brandschutz — BSR 12-15de (Run 36, 2026-07-14)
+
+Quelle: **VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz»** (VKF, Stand
+01.01.2015, IVTH-Beschluss 18.09.2014, 16 S.), `PL-03/02 Brandschutzrichtlinien 2015-17-22/
+Brandverhuetung & organisatorischer Brandschutz.pdf`. Regelt die *organisatorische* Ebene
+(Sorgfaltspflichten, Sicherheitsbeauftragte, Alarmierung), die neben dem baulichen/technischen
+Brandschutz laeuft. Die zwei fuer die JANS-Konzeptphase relevanten Schwellen-Kataloge:
+
+**a) Sicherheitsbeauftragte(r) Brandschutz — Pflicht (Anhang zu Ziff. 4.3):** ein direkt der
+Geschaeftsleitung verantwortlicher, ausgebildeter Sicherheitsbeauftragter ist erforderlich fuer:
+- **Beherbergungsbetriebe [a]** (Fremdrettungskonzept — d.h. **Spital/Pflegeheim**, ohne weitere
+  Schwelle) sowie Gebaeude, deren Personensicherheit auf einem Fremdrettungs-/Aufenthaltskonzept basiert;
+- Beherbergungsbetriebe [b] mit **> 100 Gaesten**;
+- Verkaufsgeschaefte mit **> 2'400 m² Verkaufsflaeche**;
+- Bauten mit Raeumen fuer **> 300 Personen**;
+- Betriebe mit grossen Mengen gefaehrlicher Stoffe;
+- **Industrie-/Gewerbe-/Buero-/Schulbauten**, wenn die Summe der Brandabschnittsflaechen
+  **> 10'000 m²** betraegt.
+
+**b) Sprachgesteuerte Alarmierung/Notfallwarnung — Pflicht (Anhang zu Ziff. 6.1):** je Nutzung
+gestufte Informationssysteme (Sprachdurchsage ab Datentraeger) vs. elektroakustisches
+Notfallwarnsystem nach **SN EN 60849**:
+- Beherbergungsbetriebe [b]: **ab 50 Betten** Informationssystem mit Sprachdurchsage in alle
+  Gaestezimmer; **ab 300 Betten** elektroakustisches Notfallwarnsystem in oeffentlichen Bereichen.
+- Verkaufsgeschaefte: Informationssystem generell; **> 4'800 m² (eingeschossig) / > 2'400 m²
+  (mehrgeschossig)** elektroakustisches Notfallwarnsystem.
+- Raeume mit grosser Personenbelegung: **> 300 Pers.** Informationssystem, **> 1'000 Pers.**
+  Notfallwarnsystem. Analog Theater/Kinos/Konzertsaele mit gemeinsamen Foyers.
+- **Evakuierungsraeume, die dem Aufenthaltskonzept dienen** (relevant fuer die horizontale
+  Evakuierung im Spital/Pflegeheim, → §5d): **> 100 Pers.** Informationssystem, **> 1'000 Pers.**
+  Notfallwarnsystem.
+
+**Weitere direkt nutzbare Zahlen:**
+- **Dekorationen** in Raeumen mit Publikumsverkehr: **RF2**; bei vorhandener Sprinkleranlage
+  genuegt **RF3**. Massivholz (allseitig gesaegt, Brettdicke **≥ 10 mm**) ist auch dort zulaessig,
+  wo RF2 verlangt wird; in Flucht-/Rettungswegen keine brennbaren Dekorationen.
+- **Baustellen** (Ziff. 5): an waehrend der Bauphase genutzten Beherbergungsbetrieben,
+  Verkaufsgeschaeften, Versammlungsstaetten und Hochhaeusern muessen **Geruestbekleidungen und
+  Notdaecher RF2** sein (sonst RF3); Geruestbekleidungen haben zur Fassade Abstand **≥ 0.8 m**
+  (Schnitt im Anhang). Temporaerer Betrieb waehrend Umbau darf die Sicherheit der genutzten
+  Gebaeudeteile nicht beeintraechtigen (Ziff. 5.9 — deckt die JANS-typische Etappierung/
+  Teilinbetriebnahme).
+- **Temporaere Fluessiggasanlagen** (Ziff. 3.5): Meldung **≥ 1 Woche** vor Ausfuehrung; Ueberflur-
+  Tankanlagen **bis max. 13 m³** an die zustaendige Behoerde, Flaschen an Rampe **bis 1'100 kg** an
+  die Brandschutzbehoerde.
+- **Parking > 600 m²** (Ziff. 3.4.3 + Anhang): je Einstellplatz max. **0.5 m³** brennbares Material
+  (oder in nichtbrennbarem Kasten max. **1 m³**), zusaetzlich ein Satz Pneus + sperrige Gueter.
+
+Diese Schwellen sind fuer das JANS-Kerngeschaeft (Healthcare, Wohnbau, Verkauf) die
+organisatorische Frueherkennung: ob ein Projekt einen Sicherheitsbeauftragten und/oder eine
+Sprachalarmierung ausloest, laesst sich mit Bettenzahl / Verkaufsflaeche / Personenbelegung /
+Brandabschnittsflaeche bereits im Vorprojekt bestimmen — das gehoert ins Brandschutzkonzept und
+in die Betriebskostenrechnung, nicht erst in die Ausfuehrung.
+
+## 5w · Blitzschutzsysteme — BSR 22-15de (Run 36, 2026-07-14)
+
+Quelle: **VKF-BSR 22-15de «Blitzschutzsysteme»** (VKF, Stand 01.01.2015, IVTH 18.09.2014, 8 S.),
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Blitzschutzsysteme.pdf`. Legt fest, **wann** ein
+Blitzschutzsystem (LPS) noetig ist und **welche Blitzschutzklasse** (Ausfuehrung nach
+**SEV-Leitsaetze 4022**, ggf. Risikoanalyse **SN EN 62305-1/-2**).
+
+**Blitzschutzpflicht (Ziff. 2.2) — u.a.:** Raeume mit grosser Personenbelegung (**> 300 Pers.**;
+Verkaufsflaeche **> 1'200 m²** gilt immer als > 300 Pers.); **Beherbergungsbetriebe [a], [b], [c]**
+(Spital/Pflegeheim/Hotel/Berghaus); **Hochhaeuser** (Gesamthoehe **> 30 m**); landwirtschaftliche
+Oekonomiebauten **> 3'000 m³**; Industrie/Gewerbe mit feuer-/explosionsgefaehrdeten Bereichen;
+exponierte topographische Lagen.
+
+**Blitzschutzklasse (Anhang), Spalte A = aeusserer / Spalte B = innerer Schutz (SEV 4022):**
+| Nutzung | A (aeusserer) | B (innerer/LEMP) |
+|---|---|---|
+| Raeume > 300 Pers. | III | II |
+| Beherbergung [a] (Spital/Pflegeheim, ≥ 20 Pers. auf fremde Hilfe) | III | II |
+| Beherbergung [b]/[c] | III | III |
+| Hochhaeuser (> 30 m) | III | III |
+| Landwirtschaft > 3'000 m³ | III | III |
+| Betriebe mit lebenserhaltenden Anlagen (Spitaeler/Altersheime), Zeile i | – | II (Ueberspannungsschutz in Betreiberverantwortung) |
+| Bauten mit empfindlicher Sicherheits-/Informationstechnik, Rechenzentren | – | II / I |
+
+**JANS-Praxisrelevanz (Healthcare):** ein Spital/Pflegeheim loest praktisch immer die
+Blitzschutzpflicht aus (Beherbergung [a] → aeusserer Schutz Klasse III); zusaetzlich fordert der
+innere Blitzschutz (LEMP/Ueberspannung, Klasse II) fuer lebenserhaltende technische Anlagen ein
+Ueberspannungsschutzkonzept, das in der Verantwortung des Betreibers liegt. Das ist frueh mit der
+Elektroplanung zu koordinieren. Nicht Gegenstand der Richtlinie: Detailplanung/-bemessung des
+LPS selbst (Stand der Technik, SEV 4022 / SN EN 62305) — das macht der Blitzschutz-Fachplaner.
+
+## 5x · Waermetechnische Anlagen (Heizraeume, Feuerungen, Kuechen) — BSR 24-15de (Run 36, 2026-07-14)
+
+Quelle: **VKF-BSR 24-15de «Waermetechnische Anlagen»** (VKF, Stand 01.01.2015, 42 S.),
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Waermetechnische Anlagen.pdf`. Regelt Aufstellung und
+Betrieb von Waermeerzeugungsaggregaten samt Brennstofflagerung und Abgasfuehrung. Kernzahlen fuer
+die JANS-Grundrissplanung:
+
+- **Heizraum-Feuerwiderstand (Ziff. 3.3), massgebend = gesamte Nennwaermeleistung:**
+  **bis 70 kW** = wie nutzungsbezogene Brandabschnittsbildung, mind. **EI 30** (Tuer EI 30);
+  **> 70 kW** = mind. **EI 60**, Tuer EI 30 **in Fluchtrichtung** oeffnend. Bis 70 kW darf der
+  Heizraum bei geringem Brandrisiko auch anderen Zwecken dienen.
+- **Direkter Zugang vom Freien:** Heizraeume im **EG oder tiefer** fuer Anlagen **> 1'200 kW**;
+  im **2. UG oder tiefer** fuer Anlagen **> 600 kW**.
+- **Aufstellungsverbot (Ziff. 2.3):** in Fluchtwegen, in feuer-/explosionsgefaehrdeten Raeumen/
+  Zonen, in Raeumen mit grosser/sehr grosser Brandbelastung.
+- **Sicherheitsabstaende zu brennbarem Material (Ziff. 3.11)** bei Oberflaechentemperatur:
+  bis **100 °C = 0.1 m**, bis **200 °C = 0.2 m**, bis **400 °C = 0.4 m**; offener/verglaster
+  Feuerraum Strahlungsbereich **0.8 m**, gerichtete Waermestrahlung **2 m**. Halbierbar mit
+  hinterlueftetem RF1-Strahlungsschutz / 30-Min-Brandschutzplatte / RF1-Wand ≥ 60 mm.
+- **Unterlagsplatte/Vorbelag:** bei brennbaren Boeden Feuerungsaggregate auf RF1-Platte; einzeln
+  angefertigte (Kachelofen/Cheminee) **0.12 m** dick RF1; Vorbelag feste Brennstoffe RF1, reicht
+  **0.4 m** vor die Beschickungsoeffnung.
+- **Gewerbliche Kuechen (Ziff. 4.4, Healthcare/Restaurant relevant):** gegen angrenzende
+  Brandabschnitte mind. **EI 30**; bei offener Verbindung zum Restaurant Decken-**Schuerze RF1
+  ≥ 0.5 m** (Abstand Boden–UK Schuerze ≤ 2 m) oder Ablufthaube mit Loescheinrichtung;
+  Schrankkuechen mit Sicherheitsschalter. Wand hinter Gasherd/-backofen EI 30 RF1 **≥ 60 mm**.
+
+Ergaenzt die bereits dokumentierte Lueftungs-Seite derselben Kueche → §5y.
+
+## 5y · Lufttechnische Anlagen (Brandschutzklappen, Kuechenabluft) — BSR 25-15de (Run 36, 2026-07-14)
+
+Quelle: **VKF-BSR 25-15de «Lufttechnische Anlagen»** (VKF, Stand 01.01.2015, 29 S.),
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Lufttechnische Anlage.pdf`. Verhindert die Ausbreitung
+von Feuer/Rauch ueber die Lueftung. Kernzahlen:
+
+- **Lueftungszentrale:** Aggregate, die **mehrere** Lueftungsabschnitte versorgen, in separatem
+  Raum mind. **EI 30** (Tuer EI 30). Einraumlueftung darf im beluefteten Raum stehen.
+- **Brandschutzklappen (BSK):** mind. **EI 30-S**, selbsttaetig schliessend bei Abschaltung /
+  thermischer Ausloesung / Antriebsausfall; anzuordnen an Durchtritten durch Brandmauern/
+  brandabschnittsbildende Waende und Decken. **BSK-Verzicht** moeglich (Ziff. 3.8.2 Abs. 2):
+  bei **Buero-/Schulbauten** wenn Lueftungsabschnitt **≤ 1'200 m²**; bei **Beherbergung/Wohnbauten**
+  wenn **≤ 600 m²**; bei Nasszellen; in Hochhaeusern bei Nasszellen/Wohnungskuechen wenn je
+  Steigkanal **≤ 5 Geschosse**.
+- **Material:** Lueftungsleitungen grundsaetzlich **RF1** (RF3 zulaessig innerhalb eines
+  Brandabschnitts in Buero-/Schul-/Wohnnutzung); Filter/Schalldaempfer **RF3** (Filterfluessigkeit
+  Flammpunkt **> 160 °C**); Ventilatoren **RF1**. Durchfuehrungen durch brandabschnittsbildende
+  Bauteile mit RF1 (Moertel/Gips) ausfuellen oder mit Abschottungssystem gleicher Feuerwiderstand.
+- **Gewerbliche Kuechen-Abluft (Ziff. 4.2.3, gestaffelt nach Abluftmenge):** separate Aggregate/
+  Leitungen; Abluftleitung ausserhalb der Kueche mind. **EI 30 RF1**; Kuechenabluft-Ventilator in
+  eigenem Raum **EI 60**. Staffelung Gesamt-Abluftmenge: **bis 4'000 m³/h** gemeinsame Anlage
+  moeglich (EI 60); **4'000–12'000 m³/h** getrennte Kuechenabluftanlage (EI 60, WRG gemeinsam
+  moeglich); **> 12'000 m³/h** eigene Anlage mit eigenem Ventilator (EI 60). Kuechenabluftleitungen
+  im Installationsschacht mit **RF1-Platte 30 Min** von anderen Installationen abtrennen.
+- **Anlagen mit erhoehter Lufttemperatur ≥ 85 °C (Ziff. 4.3.1):** Leitungen RF1; Sicherheitsabstand
+  zu brennbarem Material bis **100 °C = 0.1 m**, bis **200 °C = 0.2 m**, bis **400 °C = 0.4 m**
+  (halbierbar mit RF1-30-Min-Bekleidung). Pizza-/Backoefen an dafuer ausgelegte Anlage.
+- **Brandfallsteuerung (Ziff. 3.10):** LTA schaltet beim Ansprechen von BMA/Loeschanlage/
+  Kanalrauchmelder/thermischer BSK-Ausloesung selbsttaetig ab; ohne solche Einrichtung Handschalter
+  an leicht zugaenglicher Stelle.
+
+Zusammen mit §5x (waermetechnische Seite) und §5l (RWA) bildet das die haustechnische Brandschutz-
+Trias; Detailbemessung bleibt beim HLK-/Brandschutz-Fachplaner, die Schwellen (EI-Klasse Heizraum,
+BSK-Verzichtsflaechen, Kuechenabluft-Staffel) sind aber fuer die JANS-Vorprojekt-Koordination
+direkt brauchbar.
+
+---
+
 ## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -1245,7 +1397,13 @@ Brandschutzkonzept nachtragen).
   ich statt dem Standardnachweis einen Rauchgas-/Ingenieur-Nachweis (Schutzzielnachweis) fahren»
   (→ §5s), «was bedeutet ein bestimmter VKF-Fachbegriff genau (Brandabschnitt/Nutzungseinheit/
   Fluchtweg vs. Rettungsweg/Sicherheitstreppenhaus)» (→ §5t), «wie lang darf mein Fluchtweg sein,
-  wie breit muessen die Ausgaenge bei grosser Personenbelegung sein» (→ §5u).
+  wie breit muessen die Ausgaenge bei grosser Personenbelegung sein» (→ §5u), «ab wann brauche ich
+  einen Sicherheitsbeauftragten Brandschutz und/oder eine Sprachalarmierung (ab wieviel Betten/m²/
+  Personen)» (→ §5v), «braucht mein Spital/Pflegeheim/Hochhaus ein Blitzschutzsystem und welche
+  Blitzschutzklasse» (→ §5w), «welchen Feuerwiderstand braucht mein Heizraum (ab welcher kW-
+  Leistung EI 30 vs. EI 60) und welche Sicherheitsabstaende gelten fuer Feuerungen/Kuechen»
+  (→ §5x), «wann brauche ich Brandschutzklappen bzw. wann darf ich darauf verzichten, und was gilt
+  fuer die Abluft der gewerblichen Kueche» (→ §5y).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →

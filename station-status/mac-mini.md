@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 00:30:47
+Stand: 14.07.2026 00:40:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 14.07.2026 00:30:47
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 89808bdf nas-selfcommit: 2 Datei(en) 2026-07-14 00:30
+- e263a03e nas-selfcommit: laufende Aenderungen anderer Loops (station-status, wettbewerbs-dna) vor normen-mini-run sichern

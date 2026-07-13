@@ -7,8 +7,8 @@ ersetzt: "SN 640 291 (April 1982), SN 640 292 (April 1982)"
 ersetzt_durch: "VSS 40 291a:2019-03, dann konsolidiert/umnummeriert zu VSS 40 291:2021-12 (siehe [[vss-40291-2021-parkieren-anordnung-geometrie]])"
 gelesen: "S. 1-24 von 24 (vollständig; PDF enthält ab S. 25 zusätzlich die separate, hier NICHT destillierte Norm SN 640 105a 'Verbreiterung der Fahrbahn in Kurven', Dezember 2000)"
 datenstand: 2026-07-13
-status: "destilliert, aber HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden, siehe [[vss-40291-2021-parkieren-anordnung-geometrie]]"
-last_updated: 2026-07-13
+status: "established, aber HISTORISCH/ERSETZT — retro-verifiziert gegen Original 2026-07-14, nicht mehr für aktuelle Projekte verwenden, siehe [[vss-40291-2021-parkieren-anordnung-geometrie]]"
+last_updated: 2026-07-14
 links: [[vss-40291-2021-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
 ---
 
@@ -91,10 +91,11 @@ Wanne Rv = 20 m/Abstand 2,00 m; Stufe B/C: Kuppe Rv = 20 m/2,00 m, Wanne Rv = 30
 **Fussgängerwege (Ziff. 20, S. 23):** begehbare Bankette/markierte Flächen mind. 1,20 m, Wege
 und Treppen mind. 1,50 m.
 
-**Parkfelder für Motorräder (Ziff. 21, S. 23):** Länge 2,20 m (vergrösserbar auf 2,50 m), Breite
-normal 1,20 m (vergrösserbar auf 1,50 m), Fahrgassen mind. 3,00 m breit. (Vereinfachte, nicht
-nach Parkfeldwinkel differenzierte Angabe — die 2021er-Ausgabe liefert eine deutlich feinere
-Tabelle je Winkel 30°/45°/60°/90°, siehe [[vss-40291-2021-parkieren-anordnung-geometrie]].)
+**Parkfelder für Motorräder (Ziff. 21, S. 23):** Länge 2,20 m (fix, keine Vergrösserungsangabe im
+Original), Breite normal 1,20 m (vergrösserbar auf 1,50 m), Fahrgassen mind. 3,00 m breit.
+(Vereinfachte, nicht nach Parkfeldwinkel differenzierte Angabe — die 2021er-Ausgabe liefert eine
+deutlich feinere Tabelle je Winkel 30°/45°/60°/90°, siehe
+[[vss-40291-2021-parkieren-anordnung-geometrie]].)
 
 ## Begriffe
 - **Wenderampe** (Ziff. 4.9, S. 4): eine im Grundriss kreisförmige Rampe (Begriff in der

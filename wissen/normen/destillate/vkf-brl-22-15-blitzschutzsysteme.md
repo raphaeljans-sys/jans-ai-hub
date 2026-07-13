@@ -4,8 +4,8 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 22-15de, 01.01.2015"
 gelesen: "S. 1-8 (komplett: Ziff. 1-7 + Anhang zu Ziff. 2)"
 datenstand: "2015, in Kraft 01.01.2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
