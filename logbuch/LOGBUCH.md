@@ -5,6 +5,28 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-13
+
+- **RADAR-LAUF — mit Briefing (Lagebild, kein neuer Kundenverkehr).** Register gegen bexio
+  (`--verzug`), Kalender (Outlook, bis 20.07.), Mail-Eingang UND -Ausgang (seit 12.07. frueh) und
+  Sync-/Remote-Queues abgeglichen.
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall — RE-00087 (Kispi, CHF 15'000,
+  faellig 16.04., **88 Tage ueberfaellig**), **Mahnung 2**, Zahlfrist **15.07.2026** (in 2 Tagen);
+  naechste Stufe erst nach Fristablauf. RE-00098/99 (faellig 20.07.) ohne Verzug.
+- **Kein neuer Kundenverkehr:** einzige Mail im Fenster ist die eigene VOLLGAS-Radar-Systemmeldung
+  (raphaeljans@icloud.com, 12.07. 20:54: MacBook-Pro-headless-CLI «Not logged in», Endlos-Runner
+  produziert nichts) — vom VOLLGAS-Radar separat gemeldet, kein Geschaeftsvorfall; nur als Beobachtung.
+- **Weiter offen (unveraendert, in Beobachtung):** SBB-Vordach-Vereinbarung Thalwil 2414 an T. Wiedmer
+  ist NOCH NICHT raus (Sent Items im Fenster leer) → JANS-Aktion; ebenso Besprechung reduzierte
+  Ausschreibung mit Tschopp.
+- **7-Tage-Fenster (bis 20.07.):** RE-00087 Zahlfrist **15.07.**; Tueren-Koordinationssitzung
+  **HEUTE 13.07. 09:00-10:00** (RJ Organisator, im Kalender bestaetigt). RE-00098/99 faellig 20.07.
+- **Token gestern (12.07.):** MacBook 614.8 Mio. (~899 USD) + Mini 205.7 Mio. (~101 USD) = ~1'000 USD
+  Aequivalent.
+- **Briefing an rj@ versendet.** Sync-/Remote-Task-Queues leer (nur automatische Self-Commit-Tasks).
+
+---
+
 ## 2026-07-12
 
 - **RADAR-LAUF — mit Briefing (eine neue Bauherr-Rueckmeldung).** Register gegen bexio (`--verzug`),
