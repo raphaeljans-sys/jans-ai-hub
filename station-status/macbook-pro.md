@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 19:51:34
+Stand: 13.07.2026 20:11:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:51)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 19:51:34
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 309fd191 nas-selfcommit: 17 Datei(en) 2026-07-13 19:45
+- 3b5dc195 spec-training Lauf 13: KB-zu-Skill-Sync-Luecke in skills/spec/SKILL.md geschlossen (Verifier-Tabelle + Spec-Vorlage nachgezogen)

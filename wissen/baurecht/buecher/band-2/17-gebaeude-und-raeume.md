@@ -40,6 +40,36 @@ zwei (§ 40 BBV I).
   Benuetzung oder Sicherheit dienen (Heizungs-, Klima-/Belueftungs-, Elektroanlagen,
   Befoerderungsanlagen, Briefkaesten).
 
+### Allgemeine Anforderungen an Gebaeude (§§ 295-298 PBG) — volltextverifiziert (Modell D, 2026-07-14)
+
+Die §§ 295-298 PBG bilden die **I. Allgemeinen Anforderungen an Gebaeude** (vor den §§ 299 ff.
+«II. Zum Aufenthalt von Menschen bestimmte Raeume»). Gegen `raw/260607_amtlich_zh_pbg.md`
+(Z. 3033-3057) Absatz fuer Absatz geprueft — alle **CONFIRMED**:
+
+- **§ 295 PBG — Waermeversorgung** (harmonisierte Fassung, Fussnote 27): *Abs. 1* — werden
+  Heizungen mit **luftverschmutzenden Brennstoffen** betrieben, sind die Ueberbauungen mit
+  **standortgerechten Heizzentralen** auszuruesten, die auch **Abwaerme und Energie aus
+  erneuerbaren Quellen** nutzen koennen. *Abs. 2* — nutzt eine **oeffentliche Fernwaerme­
+  versorgung** lokale Abwaerme/erneuerbare Energien und bietet die Waerme zu **technisch und
+  wirtschaftlich gleichwertigen Bedingungen** wie konventionelle Anlagen an, koennen **Staat oder
+  Gemeinde** Grundeigentuemer verpflichten, ihr Gebaeude innert angemessener Frist an das
+  Leitungsnetz **anzuschliessen** und **Durchleitungsrechte** zu gewaehren (Anschluss- und
+  Duldungspflicht). JANS-Relevanz: bei Arealentwicklungen mit bestehender/geplanter Fernwaerme
+  fruehzeitig pruefen, ob eine kommunale Anschlusspflicht besteht.
+- **§ 296 PBG — Befoerderungsanlagen:** Aufzuege, Rolltreppen und andere Befoerderungsanlagen
+  fuer **Personen und Waren** muessen **zweckgerecht** sein; sie sind **fachgemaess** zu
+  erstellen, zu betreiben, zu unterhalten und, **wo die Sicherheit es verlangt, der technischen
+  Entwicklung anzupassen** (Nachruestungspflicht bei Sicherheitsrelevanz). Ergaenzt die konkrete
+  Aufzugs-Dimensionierung in § 40 BBV I (siehe unten).
+- **§ 297 PBG — Nebenraeume** (Fussnote 27): In **Wohnhaeusern** muessen **ausreichende
+  Nebenraeume** geschaffen werden, wie **Trockenraeume** und **Einstellgelegenheiten fuer
+  Vorraete, Hausrat und dergleichen**. Konkretisiert in § 39 BBV I (**8 m²** je Wohnung, 5 m²
+  bei ≤ 2 Zimmern; siehe «Einstellraeume/Nebenraeume» unten).
+- **§ 298 PBG — Besondere Anforderungen:** Fuer Gebaeude mit **mehr als sechs anrechenbaren
+  Geschossen** kann der **Regierungsrat** hinsichtlich der **Sicherheit der Bewohner** und ueber
+  die **Ausruestung** strengere Bestimmungen erlassen (Delegationsnorm; greift bei Hochhaus-/
+  hohen Wohngebaeuden zusaetzlich zu § 40 BBV I Zweitaufzug > 9 Geschosse).
+
 ### Belichtung, Belueftung, Besonnung (§§ 301-302 PBG) — bueroalltagsrelevant
 
 - **Ausrichtung Wohnraeume** — § 301 Abs. 1 PBG (S. 1246): Wohnraeume von Mehrzimmerwohnungen
@@ -248,8 +278,11 @@ Fundstellen-Herleitung siehe Wiki [[wohnhygiene-und-raumanforderungen]], Abschni
   keine weiteren Voraussetzungen/Zahlen im Volltext), § 10 Abs. 3 BBV II (Flaechenzusammen-
   rechnung bei Trennwand-Unterbrechung > 1/3 der Flaeche bzw. > 4 m²) wortgetreu bestaetigt.
   Beleg: `raw/260607_amtlich_zh_bbv2.md`, Zeilen 91-114.
-- **§§ 295-298 PBG** (Anforderungen an Gebaeude > sechs Geschosse, Waermeversorgung,
-  Befoerderungsanlagen, Nebenraeume) nur uebersichtsweise erwaehnt (S. 1242) — Detail offen.
+- ~~**§§ 295-298 PBG** (Anforderungen an Gebaeude > sechs Geschosse, Waermeversorgung,
+  Befoerderungsanlagen, Nebenraeume) nur uebersichtsweise erwaehnt (S. 1242) — Detail offen.~~
+  **Erledigt 2026-07-14 (Buch-Run 39/dieser Lauf):** §§ 295-298 PBG volltextverifiziert gegen
+  `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057), eigener Abschnitt «Allgemeine Anforderungen an
+  Gebaeude» oben ergaenzt, alle CONFIRMED.
 - **Ausruestungen-Teil** (Heizung/Klima/Elektro/Befoerderungsanlagen/Briefkaesten, § 4 ABV) und
   **Einstellraeume-Detail** (Garagen-Lueftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht
   vertieft.

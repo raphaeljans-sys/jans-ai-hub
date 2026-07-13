@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review Siebtlauf (Selbsttest + Drift-Report + QUESTIONS)
+- Scheduled Task `twin-fidelity-review`, siebter Lauf des Tages (nach a–f). M365-MCP-Connector
+  in dieser Session nicht verfügbar (wie Batches 36–43) — drei frische Goldproben ueber Apple
+  Mail (Bundle-ID `com.apple.mail`) vom aktuellsten Postfach-Rand 09.–13.07.2026 gezogen (SBB
+  Wiedmer formell-Sie, Fust Hertel kommerziell-Sie ultrakurz, KISPI/Tekosi Multi-Empfaenger
+  Du/Sie-Mix). Selbsttest: Twin-Fassungen aus den Wikis erzeugt, gegen Gold gescort.
+- **Gesamt-Fidelity 93/100** (Stimme 92, Denken 94, Haltung 95, Beziehungsregister 90,
+  Fachsignatur 93, Arbeitsweise 94) — Report `outputs/2026-07-13g_fidelity.md`.
+- Zwei neue Drift-Punkte identifiziert (kein Facetten-Update, da nur 1× belegt, Echo-Schutz vor
+  Overfitting): (1) Anrede waermt evtl. schon nach einer einzigen kooperativen Erst-Antwort
+  (Sehr-geehrte→Geschaetzte), schneller als bisher belegt; (2) @-Mention als Register-Umschalter
+  MITTEN im Fliesstext einer Multi-Empfaenger-Mail (bisher nur der gestapelte Anrede-KOPF
+  dokumentiert, nicht diese Fliesstext-Mechanik).
+- Gegenseitige Facetten-Validierung: keine neuen Widersprueche; einzige historische Spannung
+  (260609 Du-Gross-Norm vs. Schnellregister) bleibt bestaetigt geloest.
+- `twin-fragesteller`: 3 neue Fragen an `QUESTIONS.md` (Runde 260713g) — Warming-Geschwindigkeit
+  Anrede, @-Mention-Standard-Frage, Pendenzenliste-ohne-Bullet-Frage.
+- DNA-Rekompilierung geprueft: `build_dna.py` meldet "Auto-Block bereits aktuell" (keine Aenderung,
+  da Do/Don't-Bloecke unveraendert blieben — korrekt, da neue Marker noch unbelegt/singulaer sind).
+
 ## 2026-07-13 — twin-mail-training Batch 43 (KISPI-Umnutzung 01.–06.05.2026, sequentieller Sweep)
 - Sent-Items rj@ via M365-Connector (`outlook_email_search`/`read_resource`, diese Session
   verfügbar), Fenster 2026-05-01…05-06, 25/52 Mails gesichtet, 5 Volltexte + Previews. Alle

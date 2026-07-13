@@ -31,7 +31,7 @@
 | [x] 260712 | P2 | `143_2009.pdf` | 143 | 2009 |   bereits destilliert (sia-143-2009.md), Inventar nachgezogen |
 | [x] 260713 | P2 | `144_2013.pdf` | 144 | 2013 | established, verifiziert 260713; sia-144-2013.md |
 | [x] 260713 | P2 | `150_2018.pdf` | 150 | 2018 | established, verifiziert 260713; sia-150-2018.md |
-| [ ] | P2 | `162.051_2000_d.pdf` | 162 | 2000 | destilliert (sia-162-051-2000.md), Verifikation laeuft/ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `162.051_2000_d.pdf` | 162 | 2000 | established (Retro-Verifikation Run5, SN EN 206-1 Beton; beanstandet-korrigiert Std.beton-Fundstelle); sia-162-051-2000.md |
 | [x] 260713 | P2 | `162.152_2001_d.pdf` | 162 | 2001 | established, verifiziert 260713; sia-162-152-2001.md |
 | [x] 260713 | P2 | `166_2004_d.pdf` | 166 | 2004 | established, verifiziert 260713; sia-166-2004.md |
 | [x] 260713 | P2 | `16954_2018_de.pdf` | 1695 | 2018 | established, verifiziert 260713; sia-1695-4-2018.md |
@@ -41,24 +41,24 @@
 | [x] 260713 | P2 | `180_2014.pdf` | 180 | 2014 | Teil-Destillat (Kernkapitel, Anhaenge A-H offen), verifiziert 260713; sia-180-2014.md |
 | [x] 260713 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (normativer Kern + Teile Anhang), verifiziert 260713; sia-181-2006.md |
 | [x] 260713 | P2 | `184_1972_d.pdf` | 184 | 1972 | destilliert (sia-184-1972.md), Baureinigungs-Arbeiten |
-| [ ] | P2 | `193.111_1999_d.pdf` | 193 | 1999 | naechster Lauf (Gross-Norm, 89 S.) |
-| [ ] | P2 | `195_1999_d.pdf` | 195 | 1999 |  |
-| [ ] | P2 | `196_1998_d.pdf` | 196 | 1998 | naechster Lauf (63 S.) |
-| [ ] | P2 | `197_2004_d.pdf` | 197 | 2004 | naechster Lauf (56 S.) |
-| [ ] | P2 | `198_2004_d.pdf` | 198 | 2004 | naechster Lauf (62 S.) |
-| [ ] | P2 | `199_1998_d.pdf` | 199 | 1998 |  |
-| [ ] | P2 | `2014_2017.pdf` | 2014 | 2014 |  |
+| [x] 260713 | P2 | `193.111_1999_d.pdf` | 193 | 1999 | established (Run5, SN EN 12063:1999 Spundwaende, Kern S.1-46 verifiziert); sia-193-111-1999.md |
+| [x] 260713 | P2 | `195_1999_d.pdf` | 195 | 1999 | established (Run5, Rohrvortrieb, beanstandet-korrigiert gamma_Q); sia-195-1999.md |
+| [x] 260713 | P2 | `196_1998_d.pdf` | 196 | 1998 | teil-destillat (Run5, Baulueftung Untertagbau, Kern S.1-37); sia-196-1998.md |
+| [x] 260713 | P2 | `197_2004_d.pdf` | 197 | 2004 | established (Run5, Verkehrstunnel Grundlagen, Volltext verifiziert); sia-197-2004.md |
+| [x] 260713 | P2 | `198_2004_d.pdf` | 198 | 2004 | established (Run5, Untertagbau Ausfuehrung, Kern verifiziert); sia-198-2004.md |
+| [x] 260713 | P2 | `199_1998_d.pdf` | 199 | 1998 | established (Run5, Geologie/Geotechnik Untertagbau); sia-199-1998.md |
+| [x] 260713 | P2 | `2014_2017.pdf` | 2014 | 2014 | established (Run5, SIA 2014:2017 CAD-Layer-Kodierung; beanst.-korr. Bsp C.1.2); sia-2014-2017.md |
 | [x] 260713 | P2 | `2020_2017.pdf` | 2020 | 2020 | destilliert (sia-2020-2017.md), Sicherheitsleistungen Unternehmer Werkvertrag (Merkblatt zu SIA 118) |
-| [ ] | P2 | `203_1997_d.pdf` | 203 | 1997 | naechster Lauf (48 S.) |
-| [ ] | P2 | `2040_2017.pdf` | 2040 | 2017 |  |
-| [ ] | P2 | `2051_2018.pdf` | 2051 | 2018 |  |
+| [x] 260713 | P2 | `203_1997_d.pdf` | 203 | 1997 | established (Run5, Abfalldeponien, beanst.-korrigiert); sia-203-1997.md |
+| [x] 260713 | P2 | `2040_2017.pdf` | 2040 | 2017 | established (Run5, SIA 2040:2017 2000-Watt/Effiz.pfad); sia-2040-2017.md |
+| [x] 260713 | P2 | `2051_2018.pdf` | 2051 | 2018 | established (Run5, SIA 2051:2017 BIM-Begriffe); sia-2051-2018.md |
 | [x] 260713 | P2 | `226_1976_d.pdf` | 226 | 1976 | destilliert (sia-226-1976.md), Naturstein-Mauerwerk |
 | [x] 260712 | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
 | [x] 260712 | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
 | [x] 260713 | P2 | `241_1988_d.pdf` | 241 | 1988 | destilliert (sia-241-1988.md), Schreinerarbeiten |
-| [x] 260713 | P2 | `244_2006_d.pdf` | 244 | 2006 | destilliert (sia-244-2006.md), Verifikation ausstehend (naechster Lauf) |
-| [x] 260713 | P2 | `246_2006_d.pdf` | 246 | 2006 | destilliert (sia-246-2006.md), Verifikation ausstehend (naechster Lauf) |
-| [x] 260713 | P2 | `248_2006_d.pdf` | 248 | 2006 | destilliert (sia-248-2006.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `244_2006_d.pdf` | 244 | 2006 | verifiziert established 260713 Run5 (bestanden); sia-244-2006.md |
+| [x] 260713 | P2 | `246_2006_d.pdf` | 246 | 2006 | verifiziert established 260713 Run5 (bestanden); sia-246-2006.md |
+| [x] 260713 | P2 | `248_2006_d.pdf` | 248 | 2006 | verifiziert established 260713 Run5 (bestanden); sia-248-2006.md |
 | [x] 260712 | P2 | `251_2008 Unterlagsboden.pdf` | 251 | 2008 |  |
 | [x] 260712 | P2 | `252_2002_d.pdf` | 252 | 2002 |  |
 | [x] 260712 | P2 | `253_2002_d.pdf` | 253 | 2002 |  |
@@ -74,46 +74,46 @@
 | [x] 260712 | P2 | `267_2003_d.pdf` | 267 | 2003 |  |
 | [x] 260713 | P2 | `270_1992_d.pdf` | 270 | 1992 | destilliert (sia-270-1992.md), Abdichtungen Dichtungsbahnen/Gussasphalt |
 | [x] 260712 | P2 | `271_2007 Abdichtung von Hochbauten .pdf` | 271 | 2007 |  |
-| [ ] | P2 | `272_1980_d.pdf` | 272 | 1980 |  |
+| [x] 260713 | P2 | `272_1980_d.pdf` | 272 | 1980 | established (Run5, Grundwasserabdichtungen, Volltext verifiziert); sia-272-1980.md |
 | — | — | `273_1989 Abdichtungen von befahrbaren Flächen im Hochbau.pdf` | 273 | 1989 | ersetzt durch 273:1998 (Bestand, destilliert 260713 Run 7); Altausgabe uebersprungen |
 | [x] 260713 | P2 | `273_1998_d.pdf` | 273 | 1998 | destilliert (sia-273-1998.md); ACHTUNG Dateiname/Inhalt-Diskrepanz: PDF selbst datiert 1989, siehe QUESTIONS.md; jüngste im Bestand; 2013-gültig wäre 273:2008 (nicht im Bestand); 273_1989 ersetzt |
 | [x] 260712 | P2 | `279_2018.pdf` | 279 | 2018 |  |
 | [x] 260712 | P2 | `281_2017.pdf` | 281 | 2017 |  |
-| [x] 260713 | P2 | `312_2013.pdf` | 312 | 2013 | destilliert (sia-312-2013.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `312_2013.pdf` | 312 | 2013 | verifiziert established 260713 Run5 (beanst.-korr. BKP 224 Bedachungsarbeiten); sia-312-2013.md |
 | [x] 260713 | P2 | `318_1988_d.pdf` | 318 | 1988 | destilliert (sia-318-1988.md), Garten- und Landschaftsbau |
 | — | — | `329_1989_d.pdf` | 329 | 1989 | ersetzt durch 329:2018 (destilliert sia-329-2018.md); Altausgabe uebersprungen |
 | [x] 260712 | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
 | [x] 260713 | P2 | `331_1988_d.pdf` | 331 | 1988 | destilliert (sia-331-1988.md), Fenster |
 | [x] 260713 | P2 | `342_1988_d.pdf` | 342 | 1988 | destilliert (sia-342-1988.md), Sonnen- und Wetterschutzanlagen |
-| [ ] | P2 | `343.051_2018.pdf` | 343 | 2018 |  |
+| [x] 260713 | P2 | `343.051_2018.pdf` | 343 | 2018 | teil-destillat (Run5, SN EN 14351-2:2018 Innentueren; beanst.-korr. EN 1191); sia-343-051-2018.md |
 | [x] 260713 | P2 | `343_1990_d.pdf` | 343 | 1990 | destilliert (sia-343-1990.md), Türen und Tore |
 | [x] 260712 | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
-| [x] 260713 | P2 | `370.028_2003_d.pdf` | 370 | 2003 | destilliert (sia-370-028-2003.md), Verifikation ausstehend (naechster Lauf) |
-| [ ] | P2 | `370.080_2003_d.pdf` | 370 | 2003 |  |
-| [ ] | P2 | `382 1-2014.pdf` | 382 | 2014 |  |
+| [x] 260713 | P2 | `370.028_2003_d.pdf` | 370 | 2003 | verifiziert established 260713 Run5 (bestanden); sia-370-028-2003.md |
+| [x] 260713 | P2 | `370.080_2003_d.pdf` | 370 | 2003 | established (Run5, SN EN 81-80:2003 Aufzuege-Nachruestung SNEL); sia-370-080-2003.md |
+| [x] 260713 | P2 | `382 1-2014.pdf` | 382 | 2014 | teil-destillat (Run5, Lueftung/Klima Kern S.1-63; beanst.-korr. Ziff.); sia-382-1-2014.md |
 | — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
-| [ ] | P2 | `384.201_2017.pdf` | 384 | 2017 | gilt (jüngste im Bestand) |
+| [x] 260713 | P2 | `384.201_2017.pdf` | 384 | 2017 | teil-destillat (Run5, SN EN 12831-1:2017 Heizlast Kap.1-6; beanst.-korr. Gl.17); sia-384-201-2017.md |
 | [x] 260712 | P2 | `400_2000_d.pdf` | 400 | 2000 | destilliert (sia-400-2000.md), Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
-| [ ] | P2 | `405_1998_d.pdf` | 405 | 1998 |  |
+| [x] 260713 | P2 | `405_1998_d.pdf` | 405 | 1998 | teil-destillat (Run5, Leitungskataster GIS, Kern verifiziert); sia-405-1998.md |
 | [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |
 | [x] 260713 | P2 | `421_2006_d.pdf` | 421 | 2006 | destilliert (sia-421-2006.md) |
-| [ ] | P2 | `423_2006_d.pdf` | 423 | 2006 |  |
+| [x] 260713 | P2 | `423_2006_d.pdf` | 423 | 2006 | established (Run5, Gebaeudedimensionen/Abstaende IVHB); sia-423-2006.md |
 | [x] 260713 | P2 | `430_1993_d.pdf` | 430 | 1993 | destilliert (sia-430-1993.md), Entsorgung von Bauabfällen |
-| [ ] | P2 | `431_1997_d.pdf` | 431 | 1997 |  |
-| [ ] | P2 | `450_1993_d.pdf` | 450 | 1993 |  |
-| [x] 260713 | P2 | `462_1994_d.pdf` | 462 | 1994 | destilliert (sia-462-1994.md), Verifikation ausstehend (naechster Lauf) |
-| [x] 260713 | P2 | `465_1998_d.pdf` | 465 | 1998 | destilliert (sia-465-1998.md), Verifikation ausstehend (naechster Lauf) |
-| [x] 260713 | P2 | `469_1997_d.pdf` | 469 | 1997 | destilliert (sia-469-1997.md), Verifikation ausstehend (naechster Lauf) |
-| [ ] | P2 | `480_2004_d.pdf` | 480 | 2004 |  |
-| [ ] | P2 | `493_1997_d.pdf` | 493 | 1997 |  |
+| [x] 260713 | P2 | `431_1997_d.pdf` | 431 | 1997 | established (Run5, Baustellenentwaesserung SIA/VSA); sia-431-1997.md |
+| [x] 260713 | P2 | `450_1993_d.pdf` | 450 | 1993 | established (Run5, Kosteninfo Bauwesen, Kern verifiziert, beanst.-korr. KKK); sia-450-1993.md |
+| [x] 260713 | P2 | `462_1994_d.pdf` | 462 | 1994 | verifiziert established 260713 Run5 (bestanden); sia-462-1994.md |
+| [x] 260713 | P2 | `465_1998_d.pdf` | 465 | 1998 | verifiziert established 260713 Run5 (bestanden); sia-465-1998.md |
+| [x] 260713 | P2 | `469_1997_d.pdf` | 469 | 1997 | verifiziert established 260713 Run5 (bestanden); sia-469-1997.md |
+| [x] 260713 | P2 | `480_2004_d.pdf` | 480 | 2004 | established (Run5, Wirtschaftlichkeit Hochbau); sia-480-2004.md |
+| [x] 260713 | P2 | `493_1997_d.pdf` | 493 | 1997 | established (Run5, Oekodeklaration Bauprodukte, beanst.-korr.); sia-493-1997.md |
 | [x] 260712 | P2 | `500_2009.pdf` | 500 | 2009 |  |
-| [ ] | P2 | `564_282.pdf` | 564 |  |  |
-| [ ] | P2 | `592056.pdf` | 5920 |  |  |
-| [x] 260713 | P2 | `721_2001_d.pdf` | 721 | 2001 | destilliert (sia-721-2001.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260713 | P2 | `564_282.pdf` | 564 |  | established (Run5, SIA 282:2019 fluessig aufzubringende Abdichtungen); sia-564-282.md |
+| [x] 260713 | P2 | `592056.pdf` | 5920 |  | teil-destillat (Run5, SIA 2056:2019 elektr. Energiebedarf; beanst.-korr.); sia-592-056.md |
+| [x] 260713 | P2 | `721_2001_d.pdf` | 721 | 2001 | verifiziert established 260713 Run5 (bestanden); sia-721-2001.md |
 | [x] 260713 | P2 | `723_2001_d.pdf` | 723 | 2001 | destilliert (sia-723-2001.md), Verifikation ausstehend (naechster Lauf) |
-| [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | destilliert (sia-752-2002.md), Verifikation ausstehend (naechster Lauf) |
-| [x] 260713 | P2 | `753_2002_d.pdf` | 753 | 2002 | destilliert (sia-753-2002.md), Verifikation ausstehend (naechster Lauf) |
-| [ ] | P2 | `EN 13200-12019.pdf` | 1320 | 2019 |  |
+| [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | verifiziert established 260713 Run5 (beanst.-korr. Ziff.2.4.5); sia-752-2002.md |
+| [x] 260713 | P2 | `753_2002_d.pdf` | 753 | 2002 | verifiziert established 260713 Run5 (bestanden); sia-753-2002.md |
+| [x] 260713 | P2 | `EN 13200-12019.pdf` | 1320 | 2019 | established (Run5, SN EN 13200-1:2019 Zuschaueranlagen, Volltext verifiziert); sia-en-13200-1-2019.md |
 | [x] 260713 | P2 | `d 0165.pdf` | 0165 | 2000 | Teil-Destillat (sia-d0165-2000-kennzahlen-immobilienmanagement.md), nur 5-S.-Fragment gelesen; Vollversion 73 S. in xalt offen |
 | — | — | `e/112_2001_e.pdf` | 112 | 2001 | Sprachvariante |
 | — | — | `e/260_2003_e.pdf` | 260 | 2003 | Sprachvariante |
@@ -452,7 +452,7 @@
 | [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/104-15_Spänefeuer.pdf` | 104 |  |  destilliert (vkf-brl-104-15-spaenefeuer.md)  |
 | [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/105-15_Schnitzelfeuerung.pdf` | 105 |  |  destilliert (vkf-brl-105-15-schnitzelfeuerung.md)  |
 | [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/106-15_Pelletsfeuerung.pdf` | 106 |  |  destilliert (vkf-brl-106-15-pelletsfeuerung.md)  |
-| [ ] | P2 | `04_Erlaeuterungen Brandschutz 2015/107-15_Flüssiggasanlagen.pdf` | 107 |  |  |
+| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/107-15_Flüssiggasanlagen.pdf` | 107 |  | established (Run5, verifiziert, beanst.-korr. Abs.-Zitat); vkf-brl-107-15-fluessiggasanlagen.md |
 | [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/108-15_Betriebsbereitschaft BFS.pdf` | 108 |  |  destilliert (vkf-brl-108-15-betriebsbereitschaft-bfs.md)  |
 | [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1000-15_Gebäude mit geringer Abmessung.pdf` | 1000 |  |  destilliert (vkf-ah-1000-15-gebaeude-geringer-abmessung.md)  |
 | [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf` | 1001 |  |  destilliert (vkf-ah-1001-15-wohnbauten.md)  |

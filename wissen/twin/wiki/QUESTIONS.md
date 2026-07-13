@@ -3,6 +3,36 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713g (twin-fragesteller, aus Fidelity-Review 2026-07-13 Siebtlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13g_fidelity.md` (Gesamt-Fidelity 93; neue Goldproben vom
+aktuellsten Postfach-Rand 09.–13.07.2026, ausserhalb des bisherigen Sequential-Sweeps). Je in
+1–2 Sätzen beantwortbar.
+
+1. **Reicht eine kooperative Erst-Antwort schon für den Anrede-Wechsel Sehr-geehrte→Geschätzte?**
+   Bei Thomas Wiedmer (SBB, Fallübernahme 02.07.2026) schreibst Du bereits in der ZWEITEN Mail an
+   ihn «Geschätzter Herr Wiedmer» — obwohl er neu im Fall ist und Ihr erst eine Antwort-Runde
+   ausgetauscht habt. Reicht Dir eine substanzielle, kooperative Erst-Antwort (er hat konkret
+   geholfen/einen Vorschlag gemacht) bereits aus, um sofort zu «Geschätzte/r» zu wechseln, oder war
+   hier die Vorgeschichte (Fall bereits vorbesprochen, Wiedmer von der Vorgängerin warm übergeben)
+   der eigentliche Grund? *Warum: das bisherige Wiki-Muster (Batch 02, «NEUER Kontakt startet
+   foermlich») haette hier noch «Sehr geehrter» erwartet — praezisiert die Warming-Geschwindigkeit.*
+   → [[beziehungsregister]], [[stimme]]
+2. **@-Mention als Register-Umschalter in Gruppenmails — Standard oder Einzelfall?** In der
+   KISPI-Mail an Levi/Bajrami/Fabian wechselst Du per «@Name» direkt im Fliesstext zwischen Du
+   (Levi, Fabian) und Sie (Bajrami) — innerhalb DERSELBEN Mail, ohne separaten Anrede-Kopf pro
+   Person. Machst Du das bei jeder Multi-Empfaenger-Mail mit gemischtem Register so (statt eines
+   gestapelten Anrede-Kopfs «Geschätzter X / Sehr geehrter Y»), oder nur bei kurzen,
+   koordinativen Pendenz-Mails? *Warum: bisher nur 1× belegt — ein zweiter Beleg wuerde den Marker
+   fest in beziehungsregister.md verankern (Echo-Schutz vor Overfitting).* → [[beziehungsregister]],
+   [[arbeitsweise]]
+3. **Pendenzenliste ohne Bullet-Marker — Zufall oder eigene Kurzform?** In derselben KISPI-Mail
+   stehen die vier offenen Punkte als reine Zeilen ohne «_ »/«-»-Praefix. Ist das eine bewusste,
+   noch schlankere Variante fuer die schnelle interne Pendenzenliste (Bullet nur bei
+   externen/dokumentierenden Listen), oder schlicht ein beim Tippen/Copy-Paste verlorenes
+   Formatierungszeichen? *Warum: klaert, ob eine vierte, unmarkierte Listenform neben
+   «_ »/«-»/«➢»/«A)» gehoert.* → [[stimme]], [[arbeitsweise]]
+
 ## Offen — Runde 260713f (twin-fragesteller, aus Fidelity-Review 2026-07-13 Sechstlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13f_fidelity.md` (Gesamt-Fidelity 94; Signatur-Automatik-
