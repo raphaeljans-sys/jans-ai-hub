@@ -19,6 +19,8 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 
 ## Aktive Rules
 
+- `jans-dna.md` — das immer-aktive Gehirn des Twin-Harness (Stil-Fingerabdruck von Raphael Jans), steht ganz oben im @-Import, rahmt jede Erzeugung vor jedem Fach-Skill; Auto-Block kompiliert aus `wissen/twin/wiki/` via `skills/twin/tools/build_dna.py`
+- `anrede-kontakte.md` — Anredeform (Du/Sie) je Kontakt, Default Sie
 - `antwort-formatierung.md` — Copy-Paste-Tauglichkeit (kein Markdown in Antworten mit Listen/Kontaktdaten)
 - `auftrags-dekomposition.md` — bei Mehrfach-Auftraegen zuerst eine explizite Deliverable-Checkliste via TaskCreate, dann abarbeiten (verhindert verlorene Teilpunkte aus Buendelsaetzen)
 - `auto-verbesserungen.md` — Auto-erfasste Verbesserungen; wird vom Hook `scripts/verbesserung-capture.sh` (UserPromptSubmit) gepflegt, jede Daueranweisung des Benutzers landet hier als datierter Eintrag
@@ -27,11 +29,14 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 - `dokument-layout-standard.md` — Cambria 11 pt, A4, schwarz, keine Farben/Linien (mit Generator-Vorlage in `templates/dokument-layout/`)
 - `git-auto-push.md` — Nach jedem `git commit` immer direkt pushen (GitHub als Backup-Layer), ohne nachzufragen
 - `identifikatoren-verifizieren.md` — Projektnr./Bauherrschaft/Adressen/Termine/Firmennamen/BKP, die in ein Dokument wandern, immer aus kanonischer Quelle verifizieren, nie raten
+- `jans-absenderadresse.md` — verbindliche JANS-Firmenadresse/Briefkopf/Signatur, aktuelle vs. veraltete Adresse
 - `mail-formatierung.md` — Aptos 12 pt als Standardschrift für alle E-Mails (Apple Mail, M365)
+- `normen-referenz.md` — Baunorm-Aussagen (SIA/VKF/DIN/VSS/RAL) immer aus der Normen-KB/Original belegen, nie aus dem Gedaechtnis zitieren
 - `osascript-apple-apps.md` — Apple-Apps (Mail, Calendar) immer über Bundle-ID ansprechen (Tahoe-Workaround)
 - `projekt-ablage-stand.md` — Projektgebundenes in den SharePoint-Projektordner (eine Projekt-Wahrheit), Claude-Erzeugnisse unter `09_Dokumente/CLAUDE/`, Pflicht-Gedaechtnis `PROJEKT-STAND.md` (zuerst lesen, immer nachfuehren)
 - `spec-methode.md` — bei JEDER Anfrage zuerst pruefen, ob die Spec-Methode (Karpathy/Marchese: erst Ziel als Spec aufdecken, dann bauen) angewandt werden soll; Gate-Test + Durchfuehrung via Skill `spec`, Faktenbasis KB `wissen/spec`
 - `sync-kanonische-quelle.md` — NAS ist die einzige Wahrheit fuer geteilte Inhalte; nur auf NAS editieren, NAS-Repo commit+push; kein Git-Job ueber SMB
+- `sync-single-committer.md` — Stopgap gegen Git-ueber-SMB-Korruption: kein rohes Git direkt auf dem NAS-Repo, nur der markierte Mac Mini committet/pusht ueber `scripts/nas-git-commit.sh`; andere Stationen legen einen Sync-Task ab. **Achtung:** derzeit nicht per @-Import in CLAUDE.md geladen und steht im Detail im Spannungsfeld zu `git-auto-push.md` (dort: direkt `git push` aufs NAS-Repo) — Reconciliation offen, siehe `wissen/spec/outputs/`-Trainingslauf.
 - `umlaute-konvention.md` — Immer ä/ö/ü statt ae/oe/ue in allen Outputs (E-Mails, Dokumente, Antworten)
 - `wissens-bibliothekar.md` — KI-Bibliothekar-Rolle fuer den Wissens-Layer (`wissen/`): active-with-flagging, raw→wiki→outputs, CHANGELOG-Pflicht, Compounding-Loop; Health-Check via Skill `wissenscheck`
 

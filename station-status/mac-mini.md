@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 04:59:31
+Stand: 13.07.2026 05:09:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:59)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 04:59:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 146a942a immobewertung-training Run 21: Verifikations-Pass Nutzungskonzeptions-Kennzahlen S.123-133 (bestanden)
+- 8e956170 nas-selfcommit: 17 Datei(en) 2026-07-13 05:00

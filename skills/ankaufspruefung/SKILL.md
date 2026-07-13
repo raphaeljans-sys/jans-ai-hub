@@ -65,7 +65,10 @@ Pro Dimension: **Befund** (Zustand, belegt/Annahme) · **Risiko** (gering/mittel
 - Skill `kostenschaetzung` (Wuest-Partner-Kennwerte) fuer die CapEx-Schaetzung je Massnahme.
 - Skill `baurecht` + Agent `dienstbarkeiten-pruefer` fuer die rechtliche Dimension; Skill
   `brandschutz` fuer Dimension 6; Skill `machbarkeit` fuer das Entwicklungspotenzial (10).
-- Kantonale Geodaten/Kataster (GIS, Altlastenkataster, Energie-/Gefahrenkarten).
+- Kantonale Geodaten/Kataster — bevorzugt ueber Skill `planungsgrundlagen` (EGRID/OEREB, Zone,
+  Baulinien, GWR); **Naturgefahren/Objektschutzkonzept** (Gefahrenstufen rot/blau/gelb, Rutschung/
+  Hochwasser/Lawine, SIA 261/261-1-Schutzziele) als eigene Pruefdimension bei Hanglagen/Bachnaehe
+  → Wiki `wissen/planungsgrundlagen` (Objektschutz); Altlastenkataster, Energie-/Laermkarten.
 - Kunden-KB (z.B. `wissen/kunde-bopp/`) fuer Investorenpraeferenzen und frueheres Vorgehen.
 
 **Grundregel:** Was nicht aus Unterlagen/Besichtigung belegt ist, wird als **Annahme/Datenluecke**

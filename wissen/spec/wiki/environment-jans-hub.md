@@ -1,7 +1,7 @@
 ---
 title: Layer 3 — The Environment (= der JANS AI Hub)
 status: established
-last_updated: 2026-06-21
+last_updated: 2026-07-13
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, CLAUDE.md]
 links: [[the-spec]], [[verifier]], [[anwendung-jans]]
 ---

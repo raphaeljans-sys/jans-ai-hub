@@ -23,6 +23,10 @@ benannter Quelle (Person/Amt) und Datum. So werden "gummige" Punkte vor dem Vorp
 verbindlich geklaert statt geraten.
 
 Faktenbasis: Skill `baurecht` (welche Norm regelt die Frage, was ist auslegungsbeduerftig).
+Vorab pruefen: Skill `planungsgrundlagen` liefert einen Teil der "gummigen" Masse bereits belegt
+(Baulinien-/Wald-/Gewaesserabstand mit gerechnetem `dist_m`, Zonen-Kennziffern) — was der
+Connector schon beweissicher liefert, muss nicht mehr an die Behoerde gefragt werden; offen
+bleibt die Interpretationsfrage (z.B. Messweise-Auslegung im Einzelfall).
 Methodik-Referenz: `skills/machbarkeit/wissensbasis/04_baurecht-bestandesschutz-usecase.md`.
 Goldstandard-Vorlage: `2306 WOMA Maur/06_Reglemente/231018_QA_Baurecht.docx`
 (Index in `skills/machbarkeit/referenzen/README.md`).

@@ -83,8 +83,13 @@ ist der **gemeinsame Residualwert-Motor** beider Skills — bei einer formalen B
    Situationsplan, Grundbuchauszug). Vorrang vor Allgemeinwissen, weil ortsspezifisch.
 3. **Kommunale BZO / kantonaler Richt-/Nutzungsplan** — fuer die massgebenden Ziffern und die
    konkrete Baulinie. Bei ZH: kommunale BZO + kantonale Vorgaben (PBG).
-4. **GIS / amtliche Geodaten** — kantonale GIS-Browser (ZH: maps.zh.ch; SZ: map.geo.sz.ch) fuer
-   Zone, Baulinien, Gewaesserraum, Waldgrenze, Gefahren-/Laermkataster. Distanzen abmessen.
+4. **GIS / amtliche Geodaten** — bevorzugt ueber Skill `planungsgrundlagen` (Connector `geo-zh.mjs`/
+   `geo-sz.mjs`): EGRID/OEREB, Zone+BMZ/AZ, Baulinien/Abstandslinien **inkl. gerechnetem
+   Abstandsmass** (`--produkt baulinien`), Wald-/Gewaesserabstand, GWR-Gebaeudedaten — schneller
+   und belegter als manuelles Abmessen im GIS-Browser (ZH: maps.zh.ch; SZ: map.geo.sz.ch). Fuer
+   Standard-Aufnahme neuer Parzelle: `[[kartenportale-grundlagen-checkliste-neue-parzelle]]`
+   (Wiki `wissen/planungsgrundlagen/`). GIS-Browser nur als Fallback fuer Gefahren-/Laermkataster
+   (noch nicht am Connector), Werkleitungskataster manuell (EKZ/Swisscom/Sunrise-UPC).
 5. **Kunden-Kontext** — Wissens-Layer `wissen/kunde-bopp/` (oder der zustaendige Kunden-KB):
    bekannte Projekte, Eigenheiten, frueheres Vorgehen.
 
