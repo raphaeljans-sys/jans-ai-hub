@@ -179,7 +179,32 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ~100× weniger graue Energie, verputzt bis 90 min; brennbar CH-VKF RF3) → `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`,
   `[[naturdaemmstoffe]]`, FAQ **F34** neu. **Offen bleibt:** exakte EnV-Artikelnummer + Rp/kWh-Zahlenbeispiel der ZEV-Preisregel (Leitfaden-PDF seitengenau);
   VSE-BD-LEG als Primaerquelle; interne LEG-Preisbildung; «Solarsplitvertrag»/Areal-PV rechtlich
-  (→ `baurecht`/`stockwerkeigentum`).
+  (→ `baurecht`/`stockwerkeigentum`). **Stroh-Bemessungswert/Brandschutz/Feuchte belegt ✓ 2026-07-13**
+  (FASBA/ETA-17/0247 + BauNetz Wissen, DE/EU-Herkunft: λ 0,049–0,052 W/(m·K) quer zur Halmrichtung
+  vs. 0,080 in Halmrichtung, Feuerwiderstand verputzt 30–90 Min., **kein CH-VKF-Registereintrag
+  auffindbar**) → `[[strohdaemmung-bemessungswert-brandschutz]]`, FAQ F34 geschärft. **E12 damit
+  weitgehend geschlossen**, offen bleibt nur noch das Solarsplit-/Areal-PV-Rechtsmodell.
+
+- [x] **E32** **SIA-2060-Kosten Ladeinfrastruktur — Primärquelle vertieft** belegt ✓ 2026-07-13
+  → `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`, FAQ F39 geschärft. Kanton-ZH-AWEL-Infoblatt
+  (13.10.2020) jetzt per pdftotext im Volltext gelesen, bestätigt A/B/C1/C2/D-Tabelle zahlengenau;
+  echte dritte unabhängige Quelle trotz 6 geprüfter Stellen nicht gefunden, Status bleibt `emerging`.
+  Löst E19-Teilpunkt «SIA 2060 kostenpflichtig» orientierend.
+- [x] **E33** **Graue Energie: Amortisationsschwelle Sanieren vs. Ersatzneubau** belegt ✓ 2026-07-13
+  → `[[graue-energie-sanieren-vs-neubau-amortisation]]`, FAQ F9 geschärft. Keine belegte CH-Jahreszahl
+  gefunden (BAFU/Wüest Partner 2020: Ersatzneubau kompensiert eigene graue Emissionen «innert 50
+  Jahren» gegen sich selbst, nicht gegen Sanierung; Materialintensität bleibt höher; Sanierung meist
+  gesamthaft besser; CO₂-Preis-Schwellenwert ~1'000 CHF/t). Status `emerging`. Schliesst D2-Offenpunkt
+  ehrlich als unbelegt.
+- [x] **E34** **MuKEn 2025 Modul G — konkrete CO₂-Grenzwerte** belegt ✓ 2026-07-13 (Run 48, löst den
+  in Run 47 gemeldeten Negativbefund) → `[[muken-2025-modul-g-co2-grenzwerte]]`, FAQ F47 geschärft.
+  12,4–19,9 kg CO₂-eq/m²EBF·a je Kategorie + Zuschläge Erdsonde/PV/Solarthermie. Status `emerging`
+  (Web-Fetch-Extraktion, nicht lokal gegengelesen).
+- [x] **E35** **g-Werte je Verglasungstyp (ohne Sonnenschutz)** belegt ✓ 2026-07-13
+  → `[[g-werte-verglasungstypen-ch]]`, FAQ F35 geschärft. Zweifachglas ~0,58–0,62, Dreifachglas
+  ~0,61, Sonnenschutzglas 0,17–0,37 (Flachglas Schweiz vetroTherm/vetroSol + DE-Sekundärquellen).
+  Status `needs-verification` (CH-amtliche Typentabelle fehlt weiterhin). Schliesst D8/E3-Offenpunkt
+  orientierend.
 - [x] **E15** **WP + PV Eigenverbrauch / Lastmanagement** belegt ✓ 2026-07-04 (EnergieSchweiz/Zogg 2023:
   WP als thermischer Speicher via EMS, solarer Deckungsgrad ~verdoppelbar Faktor 2, Sommer-WW 100 % aus PV,
   Steigerungsfaktoren-Tabelle, Speichertabelle, Batterie lohnt noch nicht/hilft Winter nicht, Schnittstellen

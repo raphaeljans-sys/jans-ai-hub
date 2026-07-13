@@ -2,6 +2,22 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 48: Synthese der 5 parallelen Vertiefungen (FAQ/Register)
+- **Run-Report** `outputs/2026-07-13_energie-run48.md` fasst die 5 parallel gelaufenen
+  Vertiefungs-Recherchen dieses Laufs zusammen (MuKEn-2025-Modul-G, graue-Energie-Amortisation,
+  Strohdämmung, SIA-2060-Kosten, g-Werte Verglasung — siehe die vier folgenden Einzel-Einträge
+  unten, von den jeweiligen Recherche-Agenten selbst protokolliert).
+- **BAUHERREN-FAQ.md geschärft:** F9 (graue Energie/Sanieren-vs-Neubau, neu: keine belegte
+  CH-Jahreszahl), F34 (Naturdämmstoffe, neu: Stroh-Bemessungswert/Brandschutz/Feuchte im Detail),
+  F35 (Fenster, neu: g-Werte-Tabelle je Verglasungstyp), F39 (E-Mobilität, neu: SIA-2060-
+  Primärquelle jetzt bestätigt), F47 (MuKEn 2025, neu: konkrete Modul-G-Grenzwerte).
+- **Register nachgeführt:** `training/curriculum.md` (D19–D22 + SIA-2060-Vertiefung neu),
+  `wiki/QUESTIONS.md` (E32–E35 neu, E12 Naturdämmstoffe weitgehend geschlossen), `destillate/INDEX.md`
+  (2 fehlende Zeilen nachgetragen: Strohdämmung, graue-Energie-Amortisation).
+- **Meta-Hinweis:** M2 (Skill-`energie`-Entscheid) wird zum vierten Mal in Folge (Run 45/46/47/48)
+  als «spruchreif» vermerkt, ohne dass eine Entscheidung erfolgt ist — Empfehlung an Raphael, dies
+  in einer interaktiven Session einmal explizit zu entscheiden statt weiter nur zu protokollieren.
+
 ## 2026-07-13 — Neues Destillat: g-Werte je Verglasungstyp (2-fach/3-fach/Sonnenschutzglas)
 - **Neues Destillat `[[g-werte-verglasungstypen-ch]]`:** schliesst den in
   `[[fenster-verglasung-uw-g-wert]]` offen geführten Punkt «konkrete g-Werte je Verglasungstyp»

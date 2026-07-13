@@ -384,13 +384,30 @@ statt Ersatz → 5 biogene Baustoffe → 6 kreislauffaehig → 7 emissionsarme M
 **Suffizienz und Bestandserhalt schlagen Materialoptimierung am Neubau.** Rechtlich kommt die Pflicht:
 die Kantone **muessen** kuenftig (Art. 45 Abs. 3 lit. e EnG) **Grenzwerte fuer graue Energie** festlegen.
 
+**Keine feste Jahreszahl fuer «ab wann Sanieren besser als Neubau»:** Eine allgemein anerkannte
+CH-Kennzahl in Jahren gibt es nicht. Die einzige amtlich beauftragte Studie dazu (BAFU/Wüest Partner
+2020, Fallstudie 2-stoeckiges MFH, 100-Jahre-Betrachtung nach SIA 2032) zeigt: Die tieferen
+Betriebsemissionen eines **Minergie-Ersatzneubaus** kompensieren dessen **eigene** graue
+THG-Emissionen **innert rund 50 Jahren** — das ist aber ein Vergleich des Ersatzneubaus **gegen sich
+selbst**, keine Ueberholmarke gegenueber einer Sanierung. Die Materialintensitaet bleibt beim
+Ersatzneubau **durchwegs hoeher**; «in den meisten Faellen» schneidet die **kleine energetische
+Sanierung** in der Gesamtbetrachtung (CO₂ + Material + Kosten + Marktwert) am besten ab. Ein
+Ersatzneubau ist oekologisch/oekonomisch nur dann klar zu rechtfertigen, wenn er mit einer
+**signifikanten Verdichtung** (mehr Wohnflaeche/Wohnungen auf der Parzelle) einhergeht. Wüest Partner
+(2022/2024) liefert ergaenzend einen **CO₂-Preis-Schwellenwert** statt einer Jahreszahl: Erst ab rund
+**CHF 1'000/Tonne CO₂** kippt die Rechnung systematisch zugunsten der Sanierung — bei heutigen
+(tieferen) CO₂-Preisen bleibt der oekonomische Vorteil materialintensiverer Strategien meist dominant.
+
 **Quelle:** «Begriffe des Energiemanagements» (Energetische Gesamtoptimierung, S. 116) →
 `[[graue-energie-betriebsenergie]]`; THGE-Grenzwert → `[[minergie-besser-planen-bauen]]`;
 **9 Reduktionshebel + Kennzahl-Logik (SIA 2032, Messgroesse kg CO₂-eq/m² EBF)** → KBOB-Faktenblatt
 04.04.2025, Datenbasis KBOB-Oekobilanzdaten **v8.0** (20.02.2026) → `[[kbob-graue-treibhausgasemissionen-2025]]`,
-Themenartikel → `[[graue-energie]]`. ⚠ **Datenstand 2026-06-26:** die MJ-Zahlen sind Groessenordnungen
-aus einem Lehrmittel; projektgenaue kg-CO₂-Werte je Bauteil aus KBOB v8.0 / SIA-2032-Vorprojektwerten
-(noch nicht beziffert in der KB — nicht schaetzen). Die 1 : 9-Relation ist didaktisch, kein allg. Faktor.
+Themenartikel → `[[graue-energie]]`. **Amortisationsschwelle Sanieren-vs-Ersatzneubau** (BAFU/Wüest
+Partner 2020 + Wüest Partner 2022/2024, Status `emerging`, keine belegte Jahreszahl gefunden) →
+`[[graue-energie-sanieren-vs-neubau-amortisation]]`. ⚠ **Datenstand 2026-06-26:** die MJ-Zahlen sind
+Groessenordnungen aus einem Lehrmittel; projektgenaue kg-CO₂-Werte je Bauteil aus KBOB v8.0 /
+SIA-2032-Vorprojektwerten (noch nicht beziffert in der KB — nicht schaetzen). Die 1 : 9-Relation ist
+didaktisch, kein allg. Faktor.
 
 ---
 
@@ -1246,12 +1263,27 @@ Verputz noetig (Stroh **verputzt** erreicht bis **90 min** Feuerwiderstand); hoe
 meist etwas teurer. Fuer **nicht brennbare** Anforderungen (Hochhaus, Fluchtweg) bleibt Mineralwolle.
 **Groesste Wirkung:** Steildach/Dachgeschoss (Sommerhitze) und diffusionsoffene Holzbau-Aussenwand.
 
+**Stroh im Detail (Bemessungswert/Brandschutz/Feuchte):** Fuer Baustroh selbst existiert ein
+**deutscher/europaeischer** Bemessungswert λ ≈ **0,049–0,052 W/(m·K)** quer zur Halmrichtung
+(Standard-Einbau) bzw. deutlich schlechter **0,080 W/(m·K)** in Halmrichtung — die Einbaurichtung ist
+deshalb bauphysikalisch entscheidend und in der Bauleitung zu kontrollieren. Verputzt (Lehm-/Kalkputz
+beidseitig) erreicht die Strohwand einen anerkannten Feuerwiderstand von **30 bis 90 Minuten**
+(deutsche Pruefgrundlage AbP MPA Braunschweig, DIN 4102). Eine **eigene Schweizer VKF-Zulassung oder
+ein Registereintrag fuer Stroh/Baustroh war nicht auffindbar** — fuer ein CH-Projekt ist der
+Brandschutznachweis im Einzelfall mit der Feuerpolizei/dem Brandschutzverantwortlichen abzustimmen,
+nie eine «Schweizer Zulassung» vortaeuschen. Feuchtetechnisch ist Stroh sehr diffusionsoffen (µ ≈ 2),
+Grenzfeuchte beim Einbau ~15 % (nicht amtlich verifiziert); das groesste Feuchterisiko liegt in der
+**Bauphase** (Schlagregenschutz bis zur Verputzung), nicht im fertigen, bauphysikalisch nachgewiesenen
+Bauteil (Nachweis ueber WUFI-Bio statt Glaser-Verfahren).
+
 **Quelle:** Naturdaemmstoff-Vergleich (λ/ρ/c/µ) gesundes-haus.ch + Lignum «Holzfaserdaemmung» →
 `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`, Themenartikel `[[naturdaemmstoffe]]`; sommerlicher
 Hitzeschutz → F11 / `[[sommerlicher-waermeschutz]]`; graue Energie → F9 / `[[graue-energie]]`,
-`[[kbob-graue-treibhausgasemissionen-2025]]`; λ-Bandbreiten → `[[daemmstoffe-lambda]]`. ⚠ Brandklasse
-in der Quelle als DIN-B2 genannt → **CH-VKF RF3** ist eigene Uebersetzung; verbindlich ist die
-**VKF-Produktanerkennung** je Aufbau → Skill `brandschutz`.
+`[[kbob-graue-treibhausgasemissionen-2025]]`; λ-Bandbreiten → `[[daemmstoffe-lambda]]`. Strohdaemmung
+im Detail (DE/EU-Herkunft, kein CH-VKF-Eintrag gefunden, Status `emerging`) →
+`[[strohdaemmung-bemessungswert-brandschutz]]`. ⚠ Brandklasse in der Quelle als DIN-B2 genannt →
+**CH-VKF RF3** ist eigene Uebersetzung; verbindlich ist die **VKF-Produktanerkennung** je Aufbau →
+Skill `brandschutz`.
 
 ---
 
@@ -1296,6 +1328,17 @@ g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` 
 Nur als **grobe erste Orientierung** verwenden, nie als Ersatz für den Hersteller-/SZFF-Wert des
 gewählten Produkts (die SZFF selbst führt keine öffentliche Material-Tabelle) →
 `[[uf-werte-rahmenmaterial-grobuebersicht]]` (Status `speculative`).
+
+**Ergänzung — g-Werte je Verglasungstyp (ohne Sonnenschutz):** Zweifach-Wärmeschutzglas g **~0,58–0,62**
+(Flachglas Schweiz vetroTherm), Dreifachglas Standard g **~0,61** (vetroTherm Trio), Sonnenschutzglas
+g **0,17–0,37** je nach Beschichtungsstärke (vetroSol/vetroSol Trio) — DE-Sekundärquellen nennen etwas
+breitere Bandbreiten (2-fach 0,60–0,75; 3-fach 0,50–0,60; Sonnenschutz 0,20–0,45), CH-amtliche
+Typentabelle fehlt weiterhin, Status `needs-verification`. Der Zielkonflikt (hoher g-Wert heizt im
+Winter mit, überhitzt im Sommer) löst sich am Glas allein nicht auf — deshalb bleibt der aussenliegende
+bewegliche Sonnenschutz (g_tot 0,10–0,15) meist die bessere Lösung als ein sehr tiefer fester g-Wert;
+Sonnenschutzglas eignet sich vor allem dort, wo beweglicher Sonnenschutz baulich nicht möglich ist
+(Fixverglasung, Vorhangfassade). ⚠ g < 0,3 löst gemäss EN-102 den Systemnachweis (statt
+Einzelbauteilnachweis) aus → `[[g-werte-verglasungstypen-ch]]`.
 
 **Quelle:** EnergieSchweiz «Worauf es bei der Fenstersanierung ankommt»; HSLU/enbau-online «Fenster –
 Verglasung – Sonnen-, Wetter- und Blendschutz»; Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch
@@ -1499,12 +1542,23 @@ ALLE Parkplätze auf einmal** legen.
   die Grunderschliessung bis C1/C2 ist damit die mit Abstand günstigste Stufe; erst die
   betriebsbereite Ladestation selbst (Stufe D) kostet **CHF 3'100 je E-Parkplatz**.
 
+**Ergänzung — Kanton-ZH-Primärquelle jetzt im Volltext gelesen (13.07.2026):** Das Kanton-ZH-Infoblatt
+zu SIA 2060 (AWEL, datiert 13.10.2020) bestätigt die obige Kostentabelle **zahlengenau** aus der
+Primärquelle (nicht mehr nur Sekundärzitat); zusätzlich für den Gewerbebau CHF 45/250/320/380 je 100 m²
+Nutzfläche (Stufen A/B/C1/C2). Trotz breiter Recherche (6 weitere Stellen inkl. EnergieSchweiz-Leitfaden
+«laden-punkt.ch» V2.0 Dez. 2025) wurde **keine echte dritte, unabhängig berechnete Quelle** gefunden —
+Härz AG übernimmt vermutlich dieselbe ZH-Zahlenbasis ohne eigene Herleitung. Status bleibt deshalb
+bewusst `emerging`. Kanton ZH fördert die Grunderschliessung zusätzlich mit CHF 500.-/Parkplatz
+(bis 15 Parkplätze, danach CHF 300.-) und die bidirektionale Ladestation mit CHF 2'000.- pauschal
+→ `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`.
+
 **Quelle:** EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» (Nov 2024) + «im
 Bestandsbau — Rollen und Prozesse» (Sept 2025); Zogg «Wärmepumpen, PV und Elektromobilität» (Juli 2023);
-SIA-2060-Kostenzahlen via Kanton-ZH-Infoblatt + Härz AG (zwei übereinstimmende Sekundärquellen)
-→ `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, `[[elektromobilitaet-ladeinfrastruktur]]`;
-PV-Kopplung → `[[wp-pv-eigenverbrauch-lastmanagement]]`. ⚠ SIA 2060 kostenpflichtig (Stufen +
-CHF-Zahlen hier aus Sekundärquellen referiert, nicht aus der Norm selbst gelesen).
+SIA-2060-Kostenzahlen via Kanton-ZH-Infoblatt (Primärquelle, Volltext) + Härz AG (nicht eigenständig)
+→ `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`,
+`[[elektromobilitaet-ladeinfrastruktur]]`; PV-Kopplung → `[[wp-pv-eigenverbrauch-lastmanagement]]`.
+⚠ SIA 2060 selbst kostenpflichtig, nicht gelesen — die CHF-Zahlen stammen aus dem behördlichen
+Infoblatt, nicht aus der Norm.
 
 ---
 
@@ -1678,9 +1732,18 @@ Neubauten** bzw. 10 W/m² bei Dachsanierungen; und erstmals gibt es ein **eigene
 Energie** (Teil G), das die Treibhausgasemissionen aus Erstellung und Rückbau begrenzt — nach
 heutigem Recht ist das nur bei freiwilligem Minergie-ECO-Label bindend.
 
+**Ergänzung — konkrete Grenzwerte des Graue-Energie-Moduls G jetzt gefunden (13.07.2026):** Art. 1.39
+MuKEn 2025 setzt einen objektspezifischen Grenzwert der Erstellungs-Treibhausgasemissionen zwischen
+**12,4 und 19,9 kg CO₂-eq/m²EBF·a** je Gebäudekategorie (Wohnen MFH: 12,4; Verkauf/Spitäler: 19,9),
+plus 5,5 kg CO₂-eq/m²(GF−EBF)·a für unbeheizte Flächen und technische Zuschläge (Erdsonde +0,3, PV
++7,1, Solarthermie +5,6 kg CO₂-eq je m² Bezugsfläche). Aus dem PDF-Volltext gelesen (Web-Fetch-Reader,
+zweimal identisch), Status bewusst `emerging` (Original noch nicht lokal gegengelesen) →
+`[[muken-2025-modul-g-co2-grenzwerte]]`.
+
 **Quelle:** Medienmitteilung EnDK (29.08.2025) + Folgeberichte VSE/aeesuisse/energie-cluster.ch,
 drei unabhängige Quellen inhaltlich deckungsgleich → `[[muken-2025-verabschiedet]]`, established.
-Ergänzt `[[energienachweis-zh]]` und `[[graue-energie]]` (Ausblick).
+Modul-G-Grenzwerte (Art. 1.39) → `[[muken-2025-modul-g-co2-grenzwerte]]`. Ergänzt `[[energienachweis-zh]]`
+und `[[graue-energie]]` (Ausblick).
 
 ---
 

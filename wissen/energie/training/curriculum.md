@@ -305,3 +305,43 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   wurde als falsch widerlegt → `[[geak-klassengrenzen-relative-klassierung]]`, FAQ **F46** neu, adversarial
   am Original-PDF (EnDK-Normierungsdokument v2.1.0, Tab. 40/41) bestätigt, **established**. Löst
   Run-34-Prioritätspunkt 5 vollständig (FEA-Klassengrenzen bleiben offen, separate Frage).
+
+- **D19 (Run 48, 2026-07-13)** — «MuKEn 2025 Modul G — welche konkreten CO₂-Grenzwerte gelten?»
+  — belegt 2026-07-13 (MuKEn-2025-Volltext Art. 1.39 via alternativem Web-Fetch-Reader, zweimal
+  identisch, zusätzlich Google-Suchindex-Bestätigung). Basisgrenzwerte 12,4–19,9 kg CO₂-eq/m²EBF·a
+  je Gebäudekategorie (Wohnen MFH 12,4, Verkauf/Spitäler 19,9), 5,5 kg CO₂-eq/m²(GF−EBF)·a
+  unbeheizte Flächen, Zuschläge Erdsonde +0,3/PV +7,1/Solarthermie +5,6 →
+  `[[muken-2025-modul-g-co2-grenzwerte]]`, FAQ F47 geschärft. Status `emerging` (Web-Fetch-Extraktion,
+  nicht lokal am Original gegengelesen) — löst den in Run 47 gemeldeten Negativbefund auf. Schliesst
+  den Offen-Punkt aus B4/D2 zu Modul-G-Zahlen.
+- **D20 (Run 48, 2026-07-13)** — «Sanieren oder Ersatzneubau — ab wann rechnet sich der Neubau
+  ökologisch?» — belegt 2026-07-13 (BAFU/Wüest Partner 2020 amtliche Studie + Wüest-Partner-Blog
+  2022/2024). Ergebnis: **keine belegte CH-Jahreszahl** für die Amortisationsschwelle gefunden;
+  Minergie-Ersatzneubau kompensiert eigene graue Emissionen «innert 50 Jahren» (gegen sich selbst,
+  nicht gegen die Sanierung), Materialintensität bleibt beim Ersatzneubau durchwegs höher, «in den
+  meisten Fällen» schneidet die kleine energetische Sanierung gesamthaft besser ab; CO₂-Preis-
+  Schwellenwert ~CHF 1'000/t für ökologisch-ökonomisches Gleichgewicht →
+  `[[graue-energie-sanieren-vs-neubau-amortisation]]`, FAQ F9 geschärft. Status `emerging`. Schliesst
+  D2-Offenpunkt «Sanieren-vs-Neubau-Amortisationsschwelle» (ehrlich als unbelegt dokumentiert, nicht
+  erfunden).
+- **D21 (Run 48, 2026-07-13)** — «Strohdämmung — welcher Bemessungswert, welcher Brandschutz?»
+  — belegt 2026-07-13 (FASBA/ETA-17/0247 + BauNetz Wissen, DE/EU-Herkunft). λ ≈ 0,049–0,052 W/(m·K)
+  quer zur Halmrichtung (Standard) vs. 0,080 in Halmrichtung; Feuerwiderstand verputzt 30–90 Minuten
+  (DE-Prüfgrundlage AbP MPA Braunschweig); **kein CH-VKF-Registereintrag für Stroh auffindbar**
+  (bsronline.ch geprüft) — ehrlich als offene CH-Lücke dokumentiert →
+  `[[strohdaemmung-bemessungswert-brandschutz]]`, FAQ F34 geschärft. Schliesst A7-Offenpunkt
+  «Bemessungs-λ Stroh, Brand/Feuchte» (Herkunft explizit DE/EU, Echo-Schutz gewahrt); ZEV/Solarsplit-
+  Modell aus A7 bleibt offen.
+- **D22 (Run 48, 2026-07-13)** — «g-Werte je Verglasungstyp — konkrete Zahlen ohne Sonnenschutz?»
+  — belegt 2026-07-13 (Flachglas Schweiz vetroTherm/vetroSol + DE-Sekundärquellen). Zweifachglas
+  g ~0,58–0,62, Dreifachglas Standard g ~0,61, Sonnenschutzglas g 0,17–0,37 je Beschichtung; CH-
+  amtliche Typentabelle weiterhin nicht auffindbar, Status `needs-verification` →
+  `[[g-werte-verglasungstypen-ch]]`, FAQ F35 geschärft. Schliesst den D8/E3-Offenpunkt «belastbare
+  g-Werte je Verglasungstyp» orientierend (Herstellerdaten statt amtlicher Quelle).
+- **Vertiefung SIA-2060-Kosten (Run 48, 2026-07-13)** — Kanton-ZH-Primärquelle (AWEL-Infoblatt,
+  13.10.2020) jetzt per `pdftotext -layout` vollständig im Volltext gelesen, bestätigt die bisherige
+  Kostentabelle zahlengenau (A 65/B 180/C1 350/C2 400 CHF/Wohnung, D 3'100 CHF/E-Parkplatz); trotz
+  Prüfung von 6 weiteren Stellen **keine echte dritte, unabhängige Quelle** gefunden →
+  `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`, FAQ F39 geschärft. Status bleibt `emerging`.
+  Schliesst D12-Offenpunkt «SIA 2060 kostenpflichtig» orientierend (Primärquelle jetzt gelesen, echte
+  Zweitquelle bleibt offen).
