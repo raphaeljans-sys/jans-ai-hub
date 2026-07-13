@@ -56,8 +56,21 @@ echo ""
 echo "── 2/4: ~/.ssh/config ──"
 SSH_CONFIG="$HOME/.ssh/config"
 touch "$SSH_CONFIG" && chmod 600 "$SSH_CONFIG"
-if grep -q "^Host mini$" "$SSH_CONFIG" 2>/dev/null; then
-    ok "Host-Eintrag 'mini' bereits vorhanden"
+
+# Nicht bloss nach der Textzeile 'Host mini' suchen (das meldete frueher
+# faelschlich "vorhanden", obwohl der Eintrag fehlte oder ins Leere zeigte).
+# Stattdessen die EFFEKTIV aufgeloeste Konfiguration abfragen: 'ssh -G mini'
+# gibt den tatsaechlichen HostName aus — bei fehlendem Block ist das der
+# blosse Alias 'mini' selbst.
+resolved_host="$(ssh -G mini 2>/dev/null | awk 'tolower($1)=="hostname"{print $2; exit}')"
+
+if [ "$resolved_host" = "$MINI_HOST" ]; then
+    ok "Host-Eintrag 'mini' vorhanden und korrekt ($MINI_USER@$MINI_HOST)"
+elif [ -n "$resolved_host" ] && [ "$resolved_host" != "mini" ]; then
+    # Ein 'Host mini'-Block existiert, zeigt aber auf eine andere Adresse.
+    # NICHT einfach anhaengen (der erste Treffer gewinnt in SSH) — melden.
+    warn "Host-Eintrag 'mini' vorhanden, zeigt aber auf '$resolved_host' statt $MINI_HOST"
+    warn "Bitte den bestehenden 'Host mini'-Block in $SSH_CONFIG pruefen/korrigieren."
 else
     cat >> "$SSH_CONFIG" <<EOF
 
@@ -81,13 +94,23 @@ echo "── 3/4: Schluessel auf Mac Mini hinterlegen ──"
 if ssh -o BatchMode=yes -o ConnectTimeout=5 mini true 2>/dev/null; then
     ok "Schluessel-Login funktioniert bereits"
 else
-    echo "   Einmalige Passwort-Eingabe fuer $MINI_USER auf dem Mac Mini:"
+    # Erst pruefen, ob der SSH-Port ueberhaupt erreichbar ist. Ein Timeout
+    # hier ist ein NETZ-/Erreichbarkeitsproblem (Mini im Ruhezustand,
+    # Tailscale noch nicht verbunden) — NICHT ein Schluessel-Problem.
+    if ! nc -z -w 5 "$MINI_HOST" 22 2>/dev/null; then
+        fail "Mac Mini unter $MINI_HOST:22 nicht erreichbar (Timeout)."
+        fail "→ Ist der Mac Mini wach und Tailscale auf beiden Geraeten verbunden?"
+        fail "  Pruefen:  tailscale status   und   ping $MINI_HOST"
+        fail "→ Ist 'Entfernte Anmeldung' auf dem Mac Mini aktiv? (setup-ssh-mac-mini.sh)"
+        fail "  Der Schluessel ist NICHT das Problem — erst Erreichbarkeit herstellen, dann erneut ausfuehren."
+        exit 1
+    fi
+    echo "   Port 22 erreichbar. Einmalige Passwort-Eingabe fuer $MINI_USER auf dem Mac Mini:"
     if ssh-copy-id -i "$KEY.pub" mini; then
         ok "Schluessel hinterlegt"
     else
-        fail "Schluessel konnte nicht hinterlegt werden."
-        fail "Ist 'Entfernte Anmeldung' auf dem Mac Mini aktiv? (setup-ssh-mac-mini.sh)"
-        fail "Ist Tailscale auf beiden Geraeten verbunden?"
+        fail "Schluessel konnte nicht hinterlegt werden (Port ist offen, Login abgelehnt)."
+        fail "Stimmt das Passwort? Ist 'Entfernte Anmeldung' fuer $MINI_USER erlaubt?"
         exit 1
     fi
 fi
