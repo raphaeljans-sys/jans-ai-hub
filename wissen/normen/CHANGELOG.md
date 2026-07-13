@@ -1,3 +1,31 @@
+## 2026-07-14 — Retro-Verifikation `vkf-brl-26-15-gefaehrliche-stoffe` (Run 7): 2 substanzielle Luecken ergaenzt
+- Destillat vollstaendig (26/26 Seiten) gegen Original "Gefährliche Stoffe.pdf" (OneDrive
+  PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/) geprueft. Alle Kernziffern
+  (Geltungsbereich, Klassierung/GHS, Ziff. 3.1-3.6 Grundsaetze/Lagermengen-Tabelle/Betriebliche
+  Anforderungen, Ziff. 4-11 Gase/brennbare Fluessigkeiten/oxidierende Stoffe/Reifen/Zapfstellen/
+  Hochregallager/Pyrotechnik, Ziff. 12-13) sowie die Anhang-Tabellen (GHS-Piktogramme/H-Saetze,
+  Stoffseparierungs-Matrix) auf Zahlenwerte und Fundstellen gegengeprueft — Lagermengen-Tabelle
+  (Ziff. 3.2, S. 6) und Gebinde-Tabelle (Ziff. 5.2.2, S. 10) exakt bestaetigt.
+- Ergaenzt (bisher fehlend, substanziell): Ziff. 5.2.1 Abs. 1-2 (Einstiegsoeffnungen Tankraum
+  0.7×1 m mit EI-30-Deckeln; Heizraum EI 60 mit Heizoel bis 4'000 l Kleintanks/8'000 l Stahltanks)
+  sowie der komplette Anhang zu Ziff. 5.2 (S. 23, Sonderregel leichtbrennbare Fluessigkeiten in
+  Verkaufsraeumen/Baumaerkten — offene Ausstellung 100 l ohne / 450 l mit Sprinkleranlage, je
+  max. 1.2 m Stapelhoehe) — JANS-relevant fuer Ladenbau-/Retail-Projekte, in JANS-Praxis-Transfer
+  nachgetragen. Kleinere Ergaenzung: EUH001 in der H-Saetze-Aufzaehlung Anhang Ziff. 1 nachgetragen.
+- Status auf `established (verifiziert)` gehoben, `last_updated: 2026-07-14`.
+
+## 2026-07-14 — Retro-Verifikation `din-1356-1-1995` (Run 12): keine neuen Sachfehler, 3 Ergaenzungen
+- Destillat vollstaendig (13/13 Seiten) gegen Original `DIN 1356-1.pdf` (OneDrive PL - 02_Recht_Norm/
+  02_Normen/DIN_Norm/DIN-Norm/) geprueft. Die Run-11-Korrektur (Ziff. 3.2-3.5 Zuordnung Schalpläne/
+  Rohbau/Bewehrung/Fertigteil) ist bestaetigt korrekt; keine weiteren Abweichungen gefunden
+  (Tabelle 2 Linienbreiten, Tabelle 6 exakt 22 Türöffnungssymbole, Tabelle 8 alle 13 Schnittflächen-
+  Kennzeichnungen, Zitierte-Normen-Liste S. 13, alle Ziffern-/Seitenzuordnungen).
+- Ergaenzt (bisher fehlend, JANS-relevant fuer Planlesung/CAD-Austausch): Ziff. 3.1 Positionspläne,
+  Massstab-Angabe Bewehrungszeichnungen (1:50/1:25/1:20), Ziff. 12.4 Tragrichtung von Platten
+  (Tabelle 7), Ziff. 12.6-12.7 Abgehängte Decken/Aussparungen, Hinweis Bauvorlagezeichnungen/
+  Länder-Verordnungen bei Ziff. 13.
+- Status bleibt `established`, `last_updated: 2026-07-14`.
+
 ## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): 2 Aktualitaets-Flags in der fuehrenden Normen-KB
 - [flag] REGISTER Zeile 109 SIA 181: neuere Ausgabe **SIA 181:2020** vermerkt (KB energie fuehrt sie als aktuell); Re-Destillat 2020 ausstehend. QUESTIONS-Eintrag ergaenzt.
 - [flag] `destillate/vkf-merkblatt-2001-15-solaranlagen.md` (Offene Punkte teilweise beantwortet): belegte **Rev. 01.01.2022** (Quelle planungsgrundlagen `energie-pv-brandschutz`), Delta Unterdachbahnen RF3(cr)/RF4(cr); 2022er Re-Destillat empfohlen. QUESTIONS-Eintrag ergaenzt.
