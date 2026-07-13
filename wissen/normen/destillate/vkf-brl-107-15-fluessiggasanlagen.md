@@ -4,7 +4,7 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 107-15de"
 gelesen: "S. 1-13 komplett (Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-7, Anhang)"
 datenstand: "2015"
-status: established (verifiziert 13.07.2026)
+status: established (verifiziert 260713)
 last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
@@ -54,10 +54,10 @@ sowie Anforderungen an Standort, Explosionsschutz, Blitzschutz, Rohrleitungen un
 - Flüssiggasanlagen sind gefahrlos, bestimmungsgemäss und schadensbegrenzt im Störungsfall
   auszuführen (grau hinterlegt = Norm-/Richtlinientext, S. 4).
 - Müssen dem Stand der Technik entsprechen und thermischen, chemischen, mechanischen
-  Beanspruchungen genügen (Ziff. 3.3.2, S. 5).
+  Beanspruchungen genügen (Ziff. 3.3 Abs. 2, S. 5).
 - Installation nur durch Personen mit genügend Kenntnissen über Flüssiggase und
   Installationstechnik; diese sind für sachgemässe/sicherheitsgerechte Ausführung
-  verantwortlich (Ziff. 3.3.3, S. 5).
+  verantwortlich (Ziff. 3.3 Abs. 3, S. 5).
 
 ### Standort von Flüssiggasanlagen (Ziff. 3.4, S. 5)
 - Flüssiggasversorgungsanlagen (Tanks, Rampen) dürfen nur im Freien und mit ausreichenden
@@ -221,7 +221,7 @@ Gemäss Anhang zu Ziff. 1 (S. 9) sind insbesondere zu beachten:
 - **Skill `ausschreibung`/`werkvertrag`**: Bei Devisierung von Heizprovisorien (BKP-Position
   für Bauheizung/Notheizung) ist die Zuständigkeit für Meldung an Brandschutzbehörde/SUVA
   und die Formularpflicht (Anmeldung + Inbetriebnahme-Meldung) vertraglich der ausführenden
-  Installationsfirma zuzuweisen — sie ist gemäss Ziff. 3.3.3 für die sachgemässe Ausführung
+  Installationsfirma zuzuweisen — sie ist gemäss Ziff. 3.3 Abs. 3 für die sachgemässe Ausführung
   verantwortlich.
 - **Skill `brandschutz`**: Relevant für die Beurteilung der Nachbarschaftsgefährdung
   (Tabelle S. 9) bei Baustellen in dichter Nachbarschaft (Sensible Bereiche wie Spitäler/

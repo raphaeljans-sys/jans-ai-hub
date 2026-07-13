@@ -327,17 +327,35 @@ Geologiebuero fruehzeitig (Vorprojekt, nicht erst Baubewilligung) beizuziehen.
 
 ## 8. Offene Punkte
 
-- **ZH-Endpunkt fuer Naturgefahrenkarte** — Versuch in diesem Lauf (Run 24, 2026-07-13):
-  `maps.zh.ch/wfs/OGDZHWFS` beantwortet ein `GetCapabilities`-Request mit dem Fehler *"WFS request
-  not enabled"* (Layer-Katalog laesst sich **nicht per Discovery** auflisten, nur per bekanntem
-  Datensatz-Alias wie bei 0150/0153/0156/0158 abfragen); eine Stichwortsuche im OGD-Datenkatalog
-  (`opendata.swiss`, `geolion.zh.ch`) nach "Naturgefahren" lieferte in dieser Session **keine
-  direkten Treffer** — kein Endpunkt gefunden, keiner erfunden. Naechster Ansatz: den Datensatz-
-  Alias direkt bei der **AWEL-Fachstelle** oder ueber den GIS-ZH-Rechtsverbindliche-Webportal-
-  Hilfetext erfragen (analog wie der Gewaesserraum-Layer 0185 urspruenglich gefunden wurde),
-  statt weiter blind zu raten.
-- **Analog offen: ZH-Grundwasserkarte/-Schutzzonen-Endpunkt** (neu erkannt in Abschnitt 6) — noch
-  nicht kartiert, gleiche Beschaffungslogik wie der Naturgefahren-Layer.
+- **ZH-Grundwasserschutzzonen-Endpunkt GELOEST (Run 33, 2026-07-13):** Das in
+  Run 24 gemeldete `GetCapabilities`-Problem war **kein dauerhafter Ausfall**
+  — ein erneuter Abruf von `https://maps.zh.ch/wfs/OGDZHWFS?service=WFS&
+  version=2.0.0&request=GetCapabilities` liefert diesmal ein vollstaendiges,
+  14'503-zeiliges Capabilities-Dokument mit allen Layer-Namen. Stichwortsuche
+  darin ergibt die **rechtskraeftige Grundwasserschutzzone**:
+  `ms:ogd-0143_arv_basis_grundwasser_gws_zone_f` (Dataset 0143, + projektiert
+  `_proj_f`) sowie das **Grundwasserschutzareal**:
+  `ms:ogd-0149_arv_basis_grundwasser_gws_areal_f` (+ `awel_gs_gw_gws_areal_proj_f`).
+  Live-Test per `GetFeature` (bbox ±200-300 m um EGRID CH879777718909 Langnau
+  Kat. 3338 sowie CH245295777451 Wetzikon Kat. 6505): beide Abfragen liefern
+  ein **schema-valides, fehlerfreies** `FeatureCollection`-Dokument mit
+  `numberMatched="0"` — der Endpunkt **funktioniert** (kein Server-/Auth-Fehler),
+  an diesen zwei Benchmark-Parzellen liegt schlicht **keine** Grundwasserschutz-
+  zone (plausibel, beide nicht in einem bekannten Grundwasserfassungsgebiet).
+  **Noch offen:** ein Positiv-Benchmark (Parzelle mit tatsaechlicher GWS-Zone,
+  z.B. Talnaehe Glattal/Limmattal) zur Feldliste-Verifikation, bevor der
+  Connector einen `--produkt grundwasserschutz` erhaelt (Status **emerging**
+  — Endpunkt belegt, aber noch nicht am Positiv-Fall verifiziert).
+- **ZH-Endpunkt fuer Naturgefahrenkarte weiterhin offen (Run 33 bestaetigt):**
+  dieselbe erfolgreich abgerufene `GetCapabilities`-Antwort enthaelt **keinen**
+  Treffer fuer die Stichworte "gefahr"/"hazard"/"naturgefahr" (ausser dem
+  bereits bekannten `ch.are.naturgefahren`-Themenwort in Layer-Beschreibungen
+  anderer Layer) — die ZH-Naturgefahrenkarte wird also **nicht** ueber den
+  offenen OGD-WFS publiziert. Ein direkter Rateversuch auf einen ZH-WMS-
+  Endpunkt (`maps.zh.ch/wms/NaturgefahrenZH`) ergab **"HTTP Basic: Access
+  denied"** — d.h. falls ein WMS existiert, ist er **login-pflichtig**, kein
+  offener Layer. Naechster Ansatz bleibt: den Datensatz-Alias direkt bei der
+  AWEL-Fachstelle erfragen, nicht weiter erraten.
 - **SZ-Layer-Endpunkt** nur als manueller WebGIS-Link bekannt, nicht als `identify`-faehiger
   REST-Endpunkt getestet — Connector-Erweiterung erst nach erfolgreichem Test, nicht vorher als
   `--produkt naturgefahren` versprechen.

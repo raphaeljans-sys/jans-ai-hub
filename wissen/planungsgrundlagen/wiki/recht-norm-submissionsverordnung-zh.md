@@ -134,16 +134,42 @@ die Absicht, den Vertrag freihaendig mit dem/der Wettbewerbsgewinner/in
 abzuschliessen, muss **vorgaengig in der Ausschreibung/den
 Ausschreibungsunterlagen** bekannt gegeben werden.
 
-## Zweitquelle im selben Ordner (nicht vertieft)
+## Zweitquelle im selben Ordner — Entstehungsgeschichte der SubV (2026-07-13 Run 33)
 
-`4094.pdf` (31 Seiten) liegt im selben Ordner, wurde in diesem Lauf **nicht**
-gelesen — vermutlich der IVöB-Vereinbarungstext selbst oder ein kantonaler
-Beitrittsbeschluss (Dateiname ohne erkennbares Schema). Als offener Punkt
-vermerkt.
+`4094.pdf` = **Antrag des Regierungsrates vom 23. Juli 2003, Kantonsratsvorlage
+Nr. 4094** — der Weisungstext, mit dem der Regierungsrat dem Kantonsrat die
+**erste** Fassung der Submissionsverordnung (SVO/SubV) zur Genehmigung
+vorlegte (Beschluss-Entwurf A: Genehmigung der SVO; Beschluss-Entwurf B:
+Abschreibung eines zugehoerigen Postulats zur Lehrlingsausbildung bei
+Vergaben). Die Weisung liefert die **Entstehungsgeschichte** der bereits
+dokumentierten SubV 720.11 belegt nach:
+
+- Schweiz ist dem GATT/WTO-Uebereinkommen ueber das oeffentliche
+  Beschaffungswesen am **1.1.1996** beigetreten; Bundesgesetz ueber den
+  Binnenmarkt (BGBM, SR 943.02) als Folgeerlass.
+- Die Kantone haben zur GPA-Umsetzung die **IVoeB** (Interkantonale
+  Vereinbarung ueber das oeffentliche Beschaffungswesen, SR 172.056.5) am
+  25.11.1994 geschaffen, in Kraft seit 21.5.1996.
+- **Kt. ZH ist der IVoeB per Gesetz vom 22.9.1996 beigetreten** (LS 720.1) und
+  hat am **18.6.1997 die (erste) Submissionsverordnung erlassen** (SVO,
+  LS 720.11), **in Kraft seit 1.11.1997**; per RRB auch fuer die Gemeinden ab
+  1.1.1999 verbindlich erklaert.
+- Die vorliegende Vorlage 4094 (2003) ist die **Revision** dieser SVO,
+  ausgeloest durch das Bilaterale Abkommen Schweiz-EU ueber bestimmte Aspekte
+  des oeffentlichen Beschaffungswesens (in Kraft seit 1.6.2002) und die
+  BPUK-Revision der IVoeB vom 15.3.2001 (in Kraft 28.1.2003, Beitritt ZH via
+  separate Vorlage 4036).
+
+Ergaenzt die bereits dokumentierte SubV-Struktur (§§ 1-38, s.o.) um die
+gesetzgeberische Herleitung; kein inhaltlicher Widerspruch, sondern die
+Travaux-preparatoires-Ebene. Kein neuer Artikel noetig — als Abschnitt hier
+eingearbeitet, die 31 Seiten (v.a. Detailkommentierung der einzelnen SubV-
+Artikel) wurden nicht vollstaendig gelesen (nur Weisungs-Einleitung S.1-3).
 
 ## Offen / naechste Schritte
-- `4094.pdf` (IVöB-Text oder Beitrittsgesetz?) noch zu identifizieren und ggf.
-  zu destillieren.
+- `4094.pdf` S.4-31 (Detailkommentierung der einzelnen SVO-Artikel) noch nicht
+  gelesen — nur bei konkretem Auslegungsbedarf zu einer historischen
+  Fassung relevant.
 - Kein Kreuzverweis zu einer konkreten JANS-Fallanwendung (institutioneller
   Bauherr mit SubV-Pflicht) bisher bekannt — bei Gelegenheit mit einem realen
   Fall (z.B. 2619-KISPI als quasi-oeffentlicher Bauherr?) verifizieren, ob SubV

@@ -142,6 +142,160 @@ Fassadenlinie; bei **geneigtem Gelaende** weichen beide voneinander ab. Die
 Fassadenlinie ist die vertikale Referenz fuer Hoehenmasse von Gebaeuden und
 Untergeschossen.
 
+### Gesamthoehe (Ziff. 5.1, § 281 PBG)
+**Amtlicher Wortlaut:** «Die Gesamthoehe ist der groesste Hoehenunterschied
+zwischen dem hoechsten Punkt der Dachkonstruktion und den lotrecht darunter
+liegenden Punkten auf dem massgebenden Terrain.» Oberer Messpunkt = hoechster
+Punkt des Dachtragwerks (Isolation/Dachhaut/Lattung darueber unbeachtlich);
+technisch bedingte Dachaufbauten (Kamine, Lueftung, Sonnenkollektoren) faellen
+fuer die Messung ausser Betracht, duerfen aber das technisch notwendige Mass
+nicht ueberschreiten. Bei Gebaeudeensembles, die in Hoehe (Terrassenhaeuser)
+oder Situation (Reihenhaeuser) gestaffelt sind, wird die Gesamthoehe **je
+Einheit einzeln** gemessen. Begriff war bisher als "groesste Hoehe" in § 58
+PBG (Industrie-/Gewerbezonen) bekannt, neu ausdruecklich in § 49 Abs. 2 lit. b
+PBG verankert (BZO-Regelung zulaessig).
+
+### Fassadenhoehe (Ziff. 5.2, § 278 PBG)
+**Amtlicher Wortlaut Abs. 1:** «Die Fassadenhoehe ist der groesste
+Hoehenunterschied zwischen der Schnittlinie der Fassadenflucht mit der
+Oberkante der Dachkonstruktion und der dazugehoerigen Fassadenlinie.» **Abs.
+2:** bei Flachdachbauten wird bis zur Oberkante der Bruestung/des Gelaenders
+gemessen, ausser diese ist ≥1 m gegenueber der Fassadenflucht zurueckversetzt.
+Entspricht weitgehend der fruehren "Gebaeudehoehe", **aber**: (1) misst neu
+auch **giebelseitig** (§ 280 Abs. 1 PBG: giebelseitige Erhoehung um das Mass
+der 45°-Dachneigung, **max. 7 m**, sofern BZO nichts anderes bestimmt — deckt
+sich mit der frueheren Firsthoehe); (2) bei **fassadenbuendigen
+Attikageschossen** erhoeht sich die Fassadenhoehe auf den fassadenbuendigen
+Seiten **um 3,3 m** (§ 280 Abs. 2 PBG), sofern BZO nichts anderes bestimmt;
+(3) Niveaulinien-Bezug entfaellt neu vollstaendig — unterer Messpunkt liegt
+immer auf dem massgebenden Terrain (frueher teils auf Niveaulinien, was zu
+Rechtsunsicherheit fuehrte, da viele Niveaulinien nach Strassenbau aufgehoben
+werden); (4) offene Bruestungen/Gelaender bei Flachdaechern zaehlen **immer**
+mit (im Gegensatz zur alten "Gebaeudehoehe", die offene Gelaender nicht
+anrechnete). Steilere Daecher als 45° sind neu **voll zulaessig** (bisher nur
+zulaessig, wenn die Gebaeudehoehe nicht ausgeschoepft war), sofern die
+Gemeinde sie nicht per Dachgestaltungsvorschrift verbietet — betrifft
+insbesondere Mansarden-/Walm-/Tonnendaecher.
+
+### Kniestockhoehe (Ziff. 5.3, § 275 Abs. 2 PBG)
+**Amtlicher Wortlaut:** «Die Kniestockhoehe ist der Hoehenunterschied
+zwischen der Oberkante des Dachgeschossbodens im Rohbau und der Schnittlinie
+der Fassadenflucht mit der Oberkante der Dachkonstruktion.» Hilfsgroesse zur
+Abgrenzung Dachgeschoss/Vollgeschoss. **Aenderung:** Messung neu ab
+Rohbau-Oberkante (statt bisher 0,4 m hinter der Fassade ab fertigem
+Dachgeschossboden bis Unterkante Dachverkleidung).
+
+### Lichte Hoehe (Ziff. 5.4, § 304 PBG)
+**Amtlicher Wortlaut:** Hoehenunterschied zwischen Oberkante fertiger Boden
+und Unterkante fertige Decke/Balkenlage (wenn die Nutzbarkeit eines Geschosses
+durch die Balkenlage bestimmt wird). **Neu:** mind. **2,4 m** auch fuer
+Einfamilienhaeuser/vergleichbare Wohnungsarten (§ 304 Abs. 2 PBG) — bisher
+Sonderregelung nur fuer andere Bautypen. Einzelne Deckenbalken mindern die
+lichte Hoehe nicht; eine dichte Balkenlage, die das Raumvolumen optisch
+verkleinert, wird bis Unterkante Balkenlage gemessen.
+
+### Vollgeschosse / Untergeschosse / Dachgeschosse / Attikageschosse (Ziff. 6.1-6.4, § 275 PBG)
+- **Vollgeschosse (6.1):** alle Geschosse ausser Unter-, Dach- und
+  Attikageschosse; bei zusammengebauten/gestaffelten Gebaeuden wird die
+  Vollgeschosszahl **je Gebaeudeteil separat** ermittelt.
+- **Untergeschosse (6.2, § 275 Abs. 3 PBG + § 29 ABV):** ein Geschoss bleibt
+  Untergeschoss, wenn die Oberkante des Bodens des darueberliegenden Geschosses
+  **im Mittel hoechstens 2,5 m** ueber die Fassadenlinie hinausragt (Formel:
+  Summe Fassadenflaechen ueber Fassadenlinie ÷ Laenge projizierte
+  Fassadenlinie ≤ 2,5) **und an keiner Stelle mehr als 3,0 m**. Obere
+  Messebene ist neu die Oberkante **Fertigboden** (bisher Rohboden-Oberkante)
+  — **Verschaerfung**. Horizontal duerfen Untergeschosse hoechstens bis zum
+  zulaessigen Mass fuer vorspringende Gebaeudeteile ueber die Fassadenlinie
+  hinausragen, sonst gelten sie als Unterniveaubaute/unterirdische Baute
+  (§§ 2b/2c ABV).
+- **Dachgeschosse (6.3):** Geschosse mit Kniestockhoehe **bis 1,5 m**
+  (**Verschaerfung/Vereinheitlichung**: bisher 0,9 m bzw. 1,3 m bei vor dem
+  1.7.1978 bewilligten Gebaeuden). Wird die Kniestockhoehe ueberschritten,
+  liegt ein Vollgeschoss vor. Die bisherige Praxis, wonach Mansarden-/
+  Tonnendaecher innerhalb einer 45°-Dachprofillinie liegen mussten, entfaellt
+  — solche Daecher sind neu unter Einhaltung der Kniestockhoehe zulaessig,
+  sofern die Gemeinde sie nicht per Dachgestaltungsvorschrift verbietet.
+- **Attikageschosse (6.4):** auf Flachdaechern aufgesetzte zusaetzliche
+  Geschosse, an den **fiktiven Traufseiten** gegenueber dem darunterliegenden
+  Geschoss um **mind. die halbe Geschosshoehe** zurueckversetzt (bisher: um
+  die volle Geschosshoehe bzw. 45°-Profillinie ab Schnittpunkt
+  Dachflaeche/Fassade — **Attikageschosse werden also dominanter in
+  Erscheinung treten koennen**). Giebel-/Traufseite wird **imaginaer**
+  bestimmt (i.d.R. kuerzere Fassade = Giebelseite, laengere = Traufseite,
+  analog zur Satteldach-Regel; VGer ZH VB.2011.00668 vom 22.2.2012, E. 3.2).
+
+### Grenzabstand / Gebaeudeabstand / Baulinien / Baubereich (Ziff. 7.1-7.4)
+- **Grenzabstand (7.1, § 260 PBG):** Entfernung projizierte Fassadenlinie ↔
+  Grundstuecksgrenze, an **jedem Punkt** einzuhalten; vorspringende
+  Gebaeudeteile duerfen hineinragen.
+- **Gebaeudeabstand (7.2, § 260 PBG):** kuerzeste Entfernung zwischen den
+  projizierten Fassadenlinien zweier Gebaeude.
+- **Baulinien (7.3, § 96 PBG):** begrenzen die Bebauung; vorspringende
+  Gebaeudeteile (frueher "einzelne oberirdische Vorspruenge") duerfen die
+  Baulinie neu bis **2 m** ueberragen (bisher 1,5 m, **ohne** Breitenlimite –
+  neu limitiert auf die Haelfte des zugehoerigen Fassadenabschnitts, ausser
+  Dachvorspruenge). Baulinien gehen als Detailvorschrift den allgemeinen
+  Abstandsvorschriften vor; bundesrechtliche Baulinien (z.B. Gewaesserraum
+  Art. 41a GSchV) richten sich nach Bundesrecht.
+- **Baubereich (7.4, § 7 ABV):** nutzungsplanerisch abweichend von
+  Abstandsvorschriften/Baulinien festgelegter bebaubarer Bereich — v.a. in
+  Gestaltungsplaenen und Kernzonen.
+
+### Anrechenbare Grundstuecksflaeche / Baumassenziffer / Ueberbauungsziffer / Gruenflaechenziffer / Ausnuetzungsziffer (Ziff. 8.1-8.5, §§ 256-259 + 254 PBG)
+- **Anrechenbare Grundstuecksflaeche (8.1, § 259 PBG):** Grundstuecksflaechen
+  in der betreffenden Bauzone; Hauszufahrten werden angerechnet, Grund-/Grob-/
+  Feinerschliessungsflaechen **nicht**. **Neu anrechenbar:** Waldabstandsflaechen
+  auch >15 m hinter der Waldabstandslinie sowie offene Gewaesser in der
+  Bauzone (kann bestehende AZ/BMZ **erhoehen** — bei Grundstuecken am
+  Waldrand/mit Gewaesser die geltenden Nutzungsziffern ueberpruefen). Ersetzt
+  den Begriff "massgebliche Grundflaeche", ist Bezugsgroesse fuer alle
+  Nutzungsziffern (auch neu fuer die Ausnuetzungsziffer, § 255 Abs. 1 PBG).
+- **Baumassenziffer (8.3, § 258 PBG):** **BMZ = Bauvolumen ueber massgebendem
+  Terrain ÷ anrechenbare Grundstuecksflaeche.** Bauvolumen = Volumen des
+  Baukoerpers in Aussenmassen (inkl. Dachaufbauten); offene Gebaeudeteile,
+  die **weniger als zur Haelfte durch Abschluesse umgrenzt sind** (z.B. unter
+  auskragenden Gebaeudeteilen), werden **nicht** angerechnet (**Verschaerfung**
+  — bisher blieb nur der "Witterungsbereich" offener Bauteile unangerechnet).
+  Oeffentliche Verkehrsflaechen sind neu anrechenbar, sofern kein offener
+  Gebaeudeteil. Energiesparende Gebaeudeteile (Wintergaerten, verglaste
+  Balkone/Veranden/Loggien ohne Heizung) erhalten einen **BMZ-Bonus von 20 %**
+  der zonengemaessen Grundziffer (§ 13 Abs. 2 ABV, getrennt regelbar fuer
+  Hauptgebaeude vs. Klein-/Anbauten).
+- **Ueberbauungsziffer (8.4, § 256 PBG):** **UeZ = anrechenbare
+  Gebaeudeflaeche ÷ anrechenbare Grundstuecksflaeche** (anrechenbare
+  Gebaeudeflaeche = Flaeche innerhalb der projizierten Fassadenlinie,
+  vorspringende Gebaeudeteile fallen **generell ausser Ansatz** — bisherige
+  Unterscheidung "geschlossene" vs. "offene" Vorspruenge entfaellt). **Neu
+  anzurechnen:** Unterniveaubauten. UeZ regelt nur den ueberbauten
+  Grundstuecksanteil, **nicht** die Nutzungsdichte — muss mit Hoehenmassen
+  kombiniert werden. Gleicher 20-%-Energiebonus wie bei BMZ (§ 11 ABV).
+- **Gruenflaechenziffer (8.5, § 257 PBG):** ersetzt die "Freiflaechenziffer" —
+  **GFZ = anrechenbare Gruenflaeche ÷ anrechenbare Grundstuecksflaeche**;
+  anrechenbar sind **natuerliche/bepflanzte, nicht versiegelte** Bodenflaechen,
+  die nicht als Abstellflaeche dienen (Steingarten mit minimaler Bepflanzung
+  zaehlt, Dachbegruenung/Pflanzentroege/Rasengittersteine-Abstellflaechen
+  **nicht**). Im Gegensatz zur alten Freiflaechenziffer zaehlen unbebaute
+  **versiegelte** Flaechen nicht mehr mit.
+- **Ausnuetzungsziffer (§ 254 PBG, kein IVHB-Begriff — Kt. ZH behaelt AZ statt
+  der von der IVHB vorgesehenen Geschossflaechenziffer, IOHB-Beschluss
+  15.1.2009 befreit Konkordatskantone davon):** AZ = anrechenbare
+  Geschossflaeche ÷ anrechenbare Grundstuecksflaeche; anrechenbar sind alle
+  dem Wohnen/Arbeiten/dauernden Aufenthalt dienenden Raeume in Vollgeschossen
+  (inkl. Erschliessungsflaechen/Sanitaerraeume); Dach-/Attika-/Untergeschoss-
+  Flaechen nur, soweit sie die bei Gleichverteilung der zulaessigen Ausnuetzung
+  auf die Vollgeschosszahl rechnerische Flaeche **ueberschreiten**.
+
+### Dachaufbauten (§ 292 PBG) und Wintergaerten-Bonus (§§ 10 lit. c, 11, 13 Abs. 2 ABV)
+Dachaufbauten (ausser Kamine, Solaranlagen, kleinere technisch bedingte
+Aufbauten) duerfen zusammen **nicht breiter als die Haelfte** der betreffenden
+Fassadenlaenge sein, wenn sie bei Schraegdaechern ueber die Dachebene
+hinausragen bzw. bei Flachdaechern das Rueckversetzungsmass unterschreiten
+(**Verschaerfung** von bisher einem Drittel). Energiesparende Bauteile
+(unbeheizte Wintergaerten, verglaste Balkone/Veranden/Loggien, Windfaenge)
+sind bis **20 %** der anrechenbaren Geschossflaeche **nicht** an die AZ
+anzurechnen (bisher 10 %) und erhalten zusaetzlich den **20-%-Bonus** bei
+BMZ/UeZ (s.o.) — die drei Boni sind **kumulativ** je Ziffer zu pruefen.
+
 ## Verhaeltnis zur bereits dokumentierten ZH↔SZ-Messweisen-Tabelle
 
 `recht-norm-quellenlandkarte.md` (Abschnitt "SZ ↔ ZH — Messweisen") haelt
@@ -172,11 +326,15 @@ nur teilweise aus Sekundaerquellen (Baurechts-Buch-Destillate) abgedeckt.
   kann verzoegert sein.
 
 ## Offen / naechste Schritte
-- Detail-Destillation der Ziffern 5.1-6.4 (Gesamthoehe, Fassadenhoehe,
-  Kniestockhoehe, lichte Hoehe, Voll-/Unter-/Dach-/Attikageschosse) — nur
-  Inhaltsverzeichnis gelesen, Volltext (S.21-34) noch offen fuer einen
-  Folgelauf.
-- Ziffern 7.1-8.5 (Grenzabstand, Gebaeudeabstand, Baulinien, Baubereich,
-  anrechenbare Grundstuecksflaeche, Baumassenziffer, Ueberbauungsziffer,
-  Gruenflaechenziffer) sowie Ausnuetzungsziffer/Dachaufbauten/Wintergaerten
-  (S.35-49) ebenfalls noch nicht im Volltext gelesen.
+- **2026-07-13 (Run 33) ERLEDIGT:** Ziffern 5.1-8.5 + Ausnuetzungsziffer/
+  Dachaufbauten/Wintergaerten (S.21-49) vollstaendig gelesen und oben mit
+  amtlichem Wortlaut destilliert — Artikel jetzt vollstaendig (keine offenen
+  Ziffern mehr). Kernbefund fuer `machbarkeit`/`volumenstudie`: die
+  **Baumassenziffer-Formel** (§ 258 PBG, Bauvolumen ueber massgebendem
+  Terrain ÷ anrechenbare Grundstuecksflaeche, offene Gebaeudeteile <50 %
+  Umgrenzung nicht anrechenbar) und die **Attikageschoss-Ruecksatz-Regel**
+  (neu nur noch halbe statt volle Geschosshoehe — Attikageschosse werden
+  dominanter) sind direkt in die Volumenrechnung uebertragbar.
+- Weiterhin offen: keine reale JANS-Fallanwendung der neuen
+  Untergeschoss-Formel (Mittel ≤2,5 m / Maximum ≤3,0 m ab Fertigboden) mit
+  Zahlen verifiziert — bei naechstem Ausbau/Sanierungsfall mit UG nachtragen.

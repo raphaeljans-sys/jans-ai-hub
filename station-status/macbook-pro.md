@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 19:41:27
+Stand: 13.07.2026 19:51:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 19:41:27
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6f0aa694 Energie-Training Run 53: SIA-382/1-WRG-Grenzwerte primaerquellen-gelesen + BFE-Dimensionierungshilfe
+- 309fd191 nas-selfcommit: 17 Datei(en) 2026-07-13 19:45
