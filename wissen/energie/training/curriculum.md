@@ -26,7 +26,16 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Dorn-Anschluss praktisch null; Bruestung: Material dominiert — Backstein ungedaemmt bereits unter
   Grenzwert 0,02-0,09, Stahlbeton auch gedaemmt hoch 0,12-0,26) → `[[waermebrueckenkatalog-bfe-flachdach-vordach]]`,
   `[[waermebrueckenkatalog-bfe-flachdach-bruestung]]` (FAQ F51/F52). Damit Gruppe 1 (Flachdach-Anschluesse)
-  vollstaendig. Offen: Steildach/Stuetzen/Fassadenanker (Gruppen 3.1-3.3/3.5/4.2/5/6).
+  vollstaendig. **Gruppen 3.1 (Flachdach ohne Vordach), 3.2/3.3 (Steildach Traufe/Ort), 3.5
+  (Auskragung), 4.2 (Rollladenkasten) und 5.1-5.3 (Fensterleibung/-bruestung/-sturz) ebenfalls
+  belegt 2026-07-13** (Flachdach ohne Vordach Ψ 0,44-0,60 ungedaemmt vs. negativ bei durchgehender
+  Daemmung; Steildach durchweg unkritisch −0,01 bis −0,16; Auskragung Ψ 0,04-0,29 je
+  Unterlagsbodendaemmung; Rollladenkasten Ψ 0,18-0,26; Fensterleibung/-bruestung/-sturz
+  Grenzwert 0,10, ungedaemmte Fensterbank +0,20 groesster Einzelfehler) →
+  `[[waermebrueckenkatalog-bfe-flachdach-ohne-vordach]]`, `[[waermebrueckenkatalog-bfe-steildach-traufe-ort]]`,
+  `[[waermebrueckenkatalog-bfe-auskragung]]`, `[[waermebrueckenkatalog-bfe-rollladenkasten]]`,
+  `[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]` (FAQ F53-F57). Offen: nur noch
+  Gruppe 6 (Stuetzen/Fassadenanker, Seiten 6.1→114, 6.2→117 laut Run-38-Report).
 - [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
   Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /

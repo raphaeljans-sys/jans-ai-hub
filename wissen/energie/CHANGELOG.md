@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 39: Wärmebrücken Flachdach ohne Vordach, Steildach, Auskragung, Rollladenkasten, Fensterleibung/-brüstung/-sturz (F53–F57) — nur noch Gruppe 6 offen
+- **5 neue Destillate → 85 total:**
+  - `waermebrueckenkatalog-bfe-flachdach-ohne-vordach` (emerging) — Gruppe 3.1 (S. 49-53). Ohne
+    Deckendämmeinlage Ψ 0,44-0,60 W/(m·K) — bis 3× Grenzwert 0,20; durchgehende Dämmung über die
+    Deckenkante macht den Wert negativ (−0,13 bis −0,16); schon 4-6 cm Stirndämmung genügt.
+  - `waermebrueckenkatalog-bfe-steildach-traufe-ort` (emerging) — Gruppen 3.2+3.3 (S. 54-59).
+    Kontrastbefund zum Flachdach: bei durchgehender Sparrendämmung liegen ALLE Varianten bei null
+    oder deutlich negativ (−0,01 bis −0,16) — der Katalog selbst vermerkt, dass diese Details im
+    Wärmedämmnachweis nicht berücksichtigt werden müssen.
+  - `waermebrueckenkatalog-bfe-auskragung` (emerging) — Gruppe 3.5 (S. 80-82). Allgemeine
+    Bodenauskragung ohne Isokorb-System: Ψ 0,04-0,29 je nach Unterlagsbodendämmung, ab 6 cm meist
+    unter Grenzwert 0,20; Mauerfusselement senkt zusätzlich um 0,05-0,07.
+  - `waermebrueckenkatalog-bfe-rollladenkasten` (emerging) — Gruppe 4.2 (S. 91-92). Ψ 0,18-0,26,
+    knapp unter Grenzwert 0,30 ohne Reserve; Fenstertyp macht kaum Unterschied.
+  - `waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz` (emerging) — Gruppen 5.1-5.3
+    (S. 94-112). Strengerer Grenzwert 0,10; aussenbündiger Einbau günstigste Position;
+    **ungedämmte Fensterbank +0,20 W/(m·K) ist der grösste Einzelfehler im ganzen Katalog**;
+    Stahlbetonsturz statt Backstein kostet bis +0,08.
+- **BAUHERREN-FAQ 52→57 Kernfragen:** F53 (Flachdachrand ohne Vordach), F54 (Steildach
+  Traufe/Ort unkritisch), F55 (Bodenauskragung über Einstellhalle), F56 (Rollladenkasten),
+  F57 (Fensterleibung/-brüstung/-sturz).
+- **Themenartikel erweitert:** `u-werte-grenzwerte-ch` (fünf neue Wärmebrücken-Abschnitte).
+- **Curriculum A4:** alle Gruppen des BFE-Wärmebrückenkatalogs ausser Gruppe 6
+  (Stützen/Fassadenanker, Seiten 114/117 bereits bekannt) jetzt belegt.
+- **Report:** `outputs/2026-07-13_energie-run39.md`.
+
 ## 2026-07-13 — Run 38: Wärmebrücken Flachdach-Vordach + -Brüstung (F51–F52) — Gruppe 1 komplett
 - **2 neue Destillate → 80 total:**
   - `waermebrueckenkatalog-bfe-flachdach-vordach` (emerging) — BFE-Wärmebrückenkatalog Gruppe 1.2
