@@ -93,6 +93,14 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     Monitor-Regel braucht eine **wiederkehrende Reue-Pruefung**, nicht nur einen einmaligen Beleg, dass sie
     griff. → [[verifier]] «Eine Monitor-Lektion haelt nicht von selbst». Ausserhalb des KB-Mandats: an
     Raphael/Skill `logbuch` geflaggt, nicht autonom repariert.
+  - Bestaetigung 13.07. (Lauf 12): die Reue-Pruefung selbst wiederholt, diesmal unabhaengig gegen die
+    Primaerquellen geprueft (nicht Lauf 11 geglaubt): Monitor-Log schweigt weiter seit 10.07. (0 Eintraege
+    11.–13.07.), `logbuch`-Briefings 10.–13.07. erwaehnen die AG-Gruendung weiter **nicht** (letzte Nennung
+    09.07.), `fristen.md` fuehrt sie unveraendert «offen»/«hoch» (16 Tage). Lauf 11s Prognose («taucht im
+    naechsten Radar wieder auf») **falsifiziert**. Neue Lehre: **ein Flag ist keine Reparatur** — eine nur
+    im Wiki/an einen Menschen gerichtete Notiz remediert nichts, solange kein Prozess das Flag konsumiert
+    (Kausal-Zwilling zu Lauf 10). → [[verifier]] «ein Flag ist keine Reparatur». Weiter an Raphael/`logbuch`
+    zu eskalieren, mit Zusatz «Dokumentation nach 3 Tagen wirkungslos».
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**

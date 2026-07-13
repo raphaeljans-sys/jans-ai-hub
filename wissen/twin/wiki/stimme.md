@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -346,12 +346,36 @@ Neben «Beste Grüsse» / «Bester Gruss» (Mittelstufe) existiert «**Mit beste
 warm-liefernder Du-Schluss (belegt 31.07.2025, Investor-Du «Lieber Thomas»). Reiht sich in
 die warme Mittelstufe ein; kein eigener neuer Sinn, nur Varianz der Tagesform.
 
-## Doppel-Signoff = Mobile-Artefakt, nicht stapeln (belegt Mailbatch 03)
+## Doppel-Signoff = Signatur-Automatik (Mobile UND Desktop), nicht stapeln (belegt Mailbatch 03; generalisiert Fidelity 260713f, authentisch, dreifach triangeliert)
 Auf dem Handy hängt die Mobile-Signatur automatisch «Freundliche Grüsse» + vollen Block an.
 Raphael tippt darüber seinen **handgetippten** Kurzgruss («Bester Gruss / Raphael»). Im
 Original stehen dann BEIDE untereinander (belegt 29.07.2025). → Der **handgetippte** Gruss
 ist das echte Stil-Signal; der Block ist Automatik. Der Zwilling wählt EINEN Gruss und
 stapelt nie «Bester Gruss» + «Freundliche Grüsse»-Block.
+
+**Generalisiert auf Desktop (Outlook, live Apple-Mail-Pull 13.07.2026, drei unabhängige
+Belege aus «Gesendete Elemente»):** dieselbe Verdopplung tritt auch am Desktop auf, nicht nur
+mobil. Drei Du-Mails mit vollem handgetippten Gruss + Name («Lieber Gruss / Raphael» an York,
+24.11.2025; «Bester Gruss / Raphael» an Christoph Bopp, 11.11.2025; «Lieber Gruss / Raphael»
+an Ralph Mueller, 10.11.2025) ziehen JEWEILS automatisch den vollen «Freundliche Grüsse»-Block
+direkt darunter nach — reine Outlook-Signatur-Automatik, kein bewusster zweiter Gruss.
+**Gegenprobe (selber Empfängertyp, selbes Projekt):** eine technische Klärungs-Antwort an
+denselben Projektpartner Stefan Tschopp (13.11.2025, inkl. der bereits dokumentierten
+Ehrlichkeits-Nebenzeile «Vielleicht habe ich da das Terrain 5cm … geschoben….») schliesst mit
+dem **abgekürzten** «Lgr» — und KEIN Signatur-Block folgt (Mail endet direkt vor dem Zitat-
+Trenner). Muster: der volle, ausgeschriebene Handgruss («Lieber/Bester Gruss» + Name) lässt die
+Outlook-Automatik durchlaufen (Doppel-Signoff im Rohtext); die **abgekürzte** Form («Lgr»/«lgr»)
+korreliert mit einer **abgeschalteten/fehlenden** Automatik-Signatur für diese Antwort — vermutlich
+weil Raphael bei der schnellen, hochfrequenten technischen Antwort im selben Projektfaden die
+Signatur bewusst nicht neu einfügen lässt (Compose-Kontext, kein Content-Trigger). Für den
+Zwilling bleibt die Regel unverändert: **immer nur EINEN Gruss produzieren** — das handgetippte
+Wort («Lieber Gruss»/«Bester Gruss»/«Lgr»/«Freundliche Grüsse») ist das Stil-Signal, ein davon
+unabhängig angehängter zweiter «Freundliche Grüsse»-Block (egal ob mobil oder Desktop) ist
+IMMER Automatik und wird beim Erzeugen synthetischer Twin-Texte nicht reproduziert. Wichtige
+Methodik-Konsequenz für künftige Korpus-Analysen: wo ein Rohmail-Beleg «X schliesst mit
+Freundliche Grüsse + Block» als eigenständiges Stilsignal notiert, zuerst prüfen, ob nicht
+einfach nur die Automatik lief und das eigentliche Signal im Wort DAVOR liegt (Echo-/Artefakt-
+Schutz, analog zur AI-Paste-Falle in `wissen/twin/CLAUDE.md`).
 
 ## Du-Gross ist Ideal, rutscht im reziproken Schnell-Du (belegt Mailbatch 03, Echtheit)
 Im entspannten, gegenseitigen Investor-Du (Thomas Angerer, Nova) sinkt die Du-Gross-Quote auf

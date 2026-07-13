@@ -32,6 +32,20 @@ planungsgrundlagen).
    was geaendert, was als naechstes).
 7. **CHANGELOG** ergaenzen, **NAS-Repo committen + pushen** (Rule `git-auto-push`).
 
+## Zwei Lauf-Typen (Praezisierung Lauf 12, 13.07.2026)
+Der Loop laeuft in der VOLLGAS-Phase (mehrmals taeglich) **schneller, als reale Specs eintreffen**
+(die kommen alle paar Tage). Damit die Runs nicht Refinements erfinden, nur um Output zu haben,
+werden zwei Typen unterschieden:
+- **Auswertungslauf** — es gibt eine **neue** reale Spec in `outputs/`. Dann volle Auswertung
+  (Korrektur-Deltas, Gate-Schaerfung, Verifier-Zuordnung) wie unten.
+- **Verifikationslauf** — **keine** neue Spec seit dem letzten Auswertungslauf (Laeufe 8–12 waren
+  dieser Typ). Legitimer Beitrag ist dann **kein** neuer Wiki-Feinschliff, sondern eine
+  **Reue-Pruefung**: haelt eine zuletzt gezogene Lektion in der Praxis noch (siehe [[verifier]]
+  «Eine Monitor-Lektion haelt nicht von selbst»)? Ein Verifikationslauf darf mit «nichts
+  Substanzielles geaendert, Befund bestaetigt/falsifiziert» enden — das ist Erfolg, kein Leerlauf.
+  Erfindet ein Verifikationslauf eine Rule-/Gate-Aenderung ohne neuen Beleg, ist das selbst eine
+  Gate-Ueberdehnung (dasselbe Prinzip wie die Leitplanke unten, nach innen gerichtet).
+
 ## Leitplanken
 - **Nichts erfinden:** Methodik-Aussagen belegt halten; Unbelegtes bleibt `speculative`.
 - **Gate nicht ueberdehnen:** das Ziel ist, dass die Spec-Methode *hilft*, nicht dass sie

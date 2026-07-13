@@ -1,9 +1,9 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-07-10
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp-Vorprojekte Reckholdern/Einsiedeln (09.01.2024) + MFH Basel (05.11.2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de]
-links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[kartenportale-geoportale-uebersicht]]
+last_updated: 2026-07-13
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp-Vorprojekte Reckholdern/Einsiedeln (09.01.2024) + MFH Basel (05.11.2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31)]
+links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
 
 # PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
@@ -50,6 +50,17 @@ Sie unterscheidet die Typen staerker als der spez. Ertrag und ist ueber Herstell
 | **B Dachintegriert** (Alternative) | Eternit Sunskin roof GG-L, 195 Wp/Modul | ~150–170 (typ.) | Vollflaechen-Integration | Glas-Glas, Aura-2-Systemprofil, 25 J/80 % | solar-home.ch (17.11.2024) |
 | **C Transparent** | SI-Saphir M175-M180 Doppelglas (1500×1000, 180 Wp, 40 % Lichtdurchlass) | **~120** (180 Wp / 1.5 m²) | ~8.3 m²/kWp | 30 kg/Modul, **DIBt Z-70.3-204** (Ueberkopf/Fassade), bifazial bis 210 Wp | Datenblatt SI-Saphir |
 | **D Fassade** (vertikal) | BIPV strukturiertes Schmelzglas / Glas-Glas | ~100–150 brutto, **× ~0.6–0.7 Ertragsfaktor** (senkrechter Winkel) | flaechenabh. | architektonische Vollintegration | AUE Basel (jessenvollenweider 2021) |
+| **A/E Standard bifazial** | Megasol M385-HC120-b BF GG U30b (Glas-Glas, n-type HiR half-cut, CH-Fabrikat) | **~211** (385 Wp / 1.822 m²) | ~4.7 m²/kWp | 23.5 kg/Modul, **bifazialer Mehrertrag +5…+35 %** je nach Untergrund-Albedo (Gras/Ziegel +5–15 %, helles Kies/Sand +15–25 %, Schnee/Eis +25–35 %), lineare Leistungsgarantie 30 J (−0.5 %/J), nicht brennbar (Glas ober-/unterseitig) | Megasol Datenblatt Art. 0322.1580, Version 10/2022 |
+
+**Bifazial-Ergaenzung (Run 31, 2026-07-13):** ein bifaziales Glas-Glas-Modul (z.B. Megasol
+M385-HC120-b) liefert an sich schon eine hoehere Flaechenleistung (**~211 Wp/m²**) als das
+generische Standardmodul-Band (~170–200), UND einen **zusaetzlichen Mehrertrag von der
+Rueckseite**, der stark vom Montageuntergrund abhaengt (Albedo). Planerisch relevant: bei
+**Flachdach mit hellem Kies** oder **freistehender Gelaender-/Carport-Montage** (Modul haengt
+frei, Rueckseite sieht reflektierendes Material) ist Bifazial ein reeller Zusatzertrag von
+grob **+15–25 %**; auf dunklem Bitumen/Substrat-Gruendach kaum Mehrwert. Dieser Faktor gehoert
+in die Ertragsschaetzung, sobald der Untergrund (Kies-/Substrat-Farbe) bekannt ist — nicht
+pauschal ansetzen.
 
 **Kern-Lehren fuer die Studie:**
 - **Transparenz kostet Leistung:** semitransparentes Modul (Typ C, 40 % Lichtdurchlass) liefert mit
@@ -128,6 +139,28 @@ SolarApp-Vorprojekten (PVGIS-basiert) bzw. realer ewz-Korrespondenz — vor Zita
 > **16 m²/kW** (Duennschicht) — Quelle Formular EN-104, Detail in
 > `[[energie-energienachweis-zh-formulare]]`.
 
+## 4 — Wartungszugang Flachdach-PV: Dachausstiege (K29/Run 31, 2026-07-13)
+
+Bisher nicht erschlossener Ordner `Solaranlage/Dachausstiege` (6 Produktfotos, 11/2024) zeigt
+einen Planungsaspekt, der bei Flachdach-PV (Typ E) regelmaessig vergessen wird: der **dauerhafte
+Wartungszugang zum Dach**. Reale Referenzbilder zeigen freistehende **Dachausstiegs-Boxen**
+(isoliertes Gehaeuse auf Aufkantung/Kies-Bett, Gasdruckfeder-Deckel, Innenleiter) mit
+**Fallschutz-Gelaender** ringsum montiert, **direkt neben** (nicht unter) dem PV-Modulfeld
+positioniert — so bleibt der Ausstieg jederzeit zugaenglich, ohne dass Servicepersonal ueber die
+Module steigen muss. Praxis-Punkte fuer die Planung:
+
+- Position **seitlich/ausserhalb** der PV-Belegungsflaeche einplanen, nicht unter Modulreihen.
+- **Fallschutz-Gelaender** um den offenen Ausstieg als eigenes Bauteil im Werkplan/LV
+  beruecksichtigen (Absturzsicherung, analog `[[recht-norm-arbeitshilfen-planungsdetails]]` §3
+  Absturzsicherungen — dort Gebaeude-Attika, hier ein Einzelbauteil auf der Dachflaeche).
+- Steht i.d.R. auf einer eigenen Aufkantung im Kies-/Attika-Bereich, unabhaengig vom
+  Gruendach-/Substrat-Aufbau.
+
+Kein Hersteller/Normverweis in den Quellbildern identifizierbar (reine Referenzfotos ohne
+Beschriftung) — Status `speculative`/Praxishinweis, keine belegte Norm-Anforderung. Ergaenzt die
+Ausfuehrungsplanung von Flachdach-PV-Anlagen (Typ E), die bisher nur Ertrag/Belegungsdichte
+(§«Detail-Lehre Flachdach V-Anordnung») abdeckte.
+
 ## Querbezuege
 - Wirtschaftlichkeit/Rendite einer Anlage → Skill `healthcare-wirtschaftlichkeit` /
   `wirtschaftlichkeit-rechner` (Annuitaet, Amortisation).
@@ -148,3 +181,8 @@ und ein **belegter Modul-Preis-Anker** (Eternit Sunskin ~1'740 CHF/kWp _Modul_, 
 belegter **installierter System-CHF/kWp** fuer Typ B/C/D aus einer realen JANS-Schlussabrechnung (die
 CHF-Werte hier sind Modul-Liste bzw. hergeleitetes Band, keine Abrechnung). SolarApp-Werte §3 bleiben
 **Vorprojekt-Schaetzungen** (PVGIS) → bei realer Schlussabrechnung verifizieren.
+
+**Run 31 (2026-07-13):** Megasol-Bifazial-Datenblatt Datenstand **10/2022** (>18 Mt., vor Zitat
+Preisliste/aktuelle Modulgeneration pruefen — Wp/m²-Kennwert selbst ist konstruktionsstabil).
+Dachausstiege-Praxishinweis bleibt `speculative` (keine Norm-/Herstellerquelle, reine
+Referenzfotos) — bei realem Projekt mit Fallschutz-Fachplaner verifizieren.

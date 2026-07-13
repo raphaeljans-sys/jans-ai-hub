@@ -175,3 +175,21 @@ fehlte die Konsumierung eines Fixes durch ein Mass, hier fehlt die **Fortdauer e
 ueberhaupt. Ausserhalb des Mandats von `wissen/spec` (Aenderung an `logbuch`-Betrieb/Scheduled Tasks
 liegt beim Skill `logbuch`) — hier nur als Befund dokumentiert und an Raphael/`logbuch` geflaggt,
 nicht autonom repariert.
+
+**Bestaetigung + Praezisierung (Lauf 12, 13.07.2026): ein Flag ist keine Reparatur.** Die
+Reue-Pruefung aus Lauf 11 wurde diesen Lauf selbst wiederholt — **unabhaengig** gegen die
+Primaerquellen (`logbuch/LOGBUCH.md`, `logbuch/fristen.md`, Monitor-Log im AG-Spec-Output) geprueft,
+nicht Lauf 11 geglaubt. Ergebnis: die Luecke **haelt an und hat sich nicht selbst geheilt**. Der
+`ag-gruendung-monitor` schweigt weiter seit 10.07. (0 Eintraege 11./12./13.07.); die `logbuch`-Briefings
+vom 10.–13.07. erwaehnen die AG-Gruendung weiter **gar nicht** (letzte Nennung 09.07.), waehrend
+`fristen.md` die Zeile unveraendert «offen»/«hoch» fuehrt (Datei heute 15:03 aktualisiert, die AG-Zeile
+aber seit 27.06. unberuehrt = 16 Tage). Damit ist Lauf 11s **Prognose falsifiziert** («die geflaggte
+Luecke sollte im naechsten logbuch-radar wieder auftauchen»): weder der Morgen-Radar (06:57) noch der
+Hub-Chef-Lauf (14:00) am 13.07. haben sie zurueckgeholt. Lehre: **ein im Wiki notiertes oder an einen
+Menschen gerichtetes Flag remediert nichts, solange kein Prozess das Flag konsumiert** — genau der
+Kausal-Zwilling zu Lauf 10 («ein Mass validiert nur, wenn der Mess-Prozess die Aenderung konsumiert»):
+ein Flag repariert nur, wenn ein Prozess das Flag liest und danach handelt. Die Reparatur muss im
+**erzeugenden Prozess** sitzen (Monitor-/Radar-Logik, die `fristen.md` wieder ins Briefing zieht), nicht
+in einer KB-Notiz. Bleibt ausserhalb des `wissen/spec`-Mandats — erneut an Raphael/Skill `logbuch` zu
+eskalieren, diesmal mit dem belegten Zusatz, dass die blosse Dokumentation nach 3 Tagen nachweislich
+wirkungslos blieb.

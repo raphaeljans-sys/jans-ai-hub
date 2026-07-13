@@ -3,6 +3,37 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713f (twin-fragesteller, aus Fidelity-Review 2026-07-13 Sechstlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13f_fidelity.md` (Gesamt-Fidelity 94; Signatur-Automatik-
+Artefakt auf Desktop generalisiert, live aus «Gesendete Elemente» Okt/Nov 2025 gezogen). Je in
+1–2 Sätzen beantwortbar.
+
+1. **«Lgr»/«lgr» als Signatur-Abschalter — bewusst oder Zufall?** Der einzige Beleg ohne
+   Automatik-Block (Stefan Tschopp, 13.11.2025) trägt den abgekürzten Gruss «Lgr»; alle drei
+   Belege MIT Block tragen den vollen Handgruss + Name. Schaltest Du bei einer sehr kurzen,
+   hochfrequenten Antwort im selben Faden die Signatur bewusst ab (z.B. weil Outlook sie beim
+   ersten Mail des Fadens schon gesetzt hat und Du bei der Reply nicht erneut einfügst), oder ist
+   das Zufall/Compose-Verhalten, das nichts mit Deiner Absicht zu tun hat? *Warum: klärt, ob der
+   Zwilling «Lgr ohne Block» als eigenes Muster für schnelle Fadenantworten übernehmen soll oder
+   ob «Lgr» rein als Wort-Signal reicht, unabhängig vom (ohnehin nie reproduzierten) Block.*
+   → [[stimme]]
+2. **Gilt die Automatik-Verdopplung auch bei Sie-Mails mit hand­getipptem Gruss?** Alle drei
+   Desktop-Belege sind Du-Mails. Bei den gesichteten Sie-Mails (Frau Costamagna, Baugespann-
+   Anfrage) gab es nie einen separaten handgetippten Gruss vor dem Block — dort WAR «Freundliche
+   Grüsse» direkt der Handgruss. Schreibst Du in einer formellen Sie-Mail je einen anderen
+   Handgruss (z.B. «Mit bestem Dank» oder eine Grussformel ausserhalb des Standard-Repertoires),
+   der dann ebenfalls von der Automatik verdoppelt würde, oder fällt in Sie-Mails der Handgruss
+   ohnehin mit dem Blockgruss zusammen? *Warum: prüft, ob die Automatik-Verdopplung ein
+   Du-spezifisches Phänomen ist oder auch im Sie-Register auftreten könnte.* → [[stimme]],
+   [[beziehungsregister]]
+3. **Reply vs. neue Mail als Trigger?** Beide Fälle (Block-Verdopplung UND Lgr-ohne-Block) waren
+   Antworten in einem laufenden Thread (nicht neue Mails). Fällt Dir auf, ob Du bei einer
+   komplett NEUEN Mail (kein Thread, kein Zitat darunter) die Signatur konsistenter
+   setzt/weglässt als bei einer Reply, wo Outlook manchmal die Signatur des Erstmails im Faden
+   nicht wiederholt? *Warum: trennt einen reinen Software-/Compose-Trigger vom Inhalts-/Ton-
+   Trigger, den der Zwilling nachbilden soll.* → [[stimme]], [[arbeitsweise]]
+
 ## Offen — Runde 260713e (twin-fragesteller, aus Fidelity-Review 2026-07-13 Fünftlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13e_fidelity.md` (Gesamt-Fidelity 94; satzweise wir/ich-

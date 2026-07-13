@@ -236,3 +236,17 @@
   vss-700.5/722.15/merkblatt-veloabstellplaetze, DIN-EN-Normen din-en-12207 bereits erledigt,
   DIN 918/1164/1249/1356-Reihe, DIN 1946-7, DIN 18560-2 u.a.), danach Übergang zu Stufe (c)
   Q&A-Selbstbefragung sobald die Beanstandungsquote über mehrere Läufe stabil sinkt.
+- [x] **Mac Mini Run 11 (13.07.2026): Retro-Verifikation VSS-Altbestand komplett + 13 DIN-
+  Einzelnormen, 10/16 beanstandet-korrigiert (62,5%).** Alle 3 VSS-Altbestand-Destillate
+  (700.5, 722.15, Merkblatt Veloabstellplätze) und 13 DIN-Einzelnormen adversarial gegen das
+  Original verifiziert. **Faktor-10-Fehler in din-272-1986** (Vorlast Oberflächenhärte-Prüfung
+  fälschlich (10 ± 1) N statt korrekt (10 ± 0,1) N) — hätte bei praktischer Anwendung zu einer
+  falschen Prüflast geführt. **vss-700.5-1987 und vss-merkblatt-veloabstellplaetze-1998**
+  hatten trotz «vollständig gelesen»-Vermerk je mehrere komplett fehlende Abschnitte (Anhang-
+  Tabellen, §§-Blöcke). Alle Korrekturen direkt im Fliesstext integriert, Status auf
+  `established` gehoben. Details: `outputs/2026-07-13_normen-mini-run11.md`. **Fazit:** die
+  Beanstandungsquote sinkt leicht gegenüber Run 10 (100% → 62,5%), bleibt aber deutlich über
+  der für Stufe (c) angepeilten Schwelle. **Nächster Lauf:** Restliste der noch unverifizierten
+  DIN/VSS/RAL-Destillate (u.a. din-1946-4-2008 Healthcare-RLT, din-1960/1961-2010 VOB A/B,
+  din-18232-2-2007, din-1053-4-2011, ral-gz638-2008) sowie Vertiefung der Teil-Destillate
+  (din-1946-6-2009, din-4102-1-1998, din-1054-2010, din-en-1627-2011).

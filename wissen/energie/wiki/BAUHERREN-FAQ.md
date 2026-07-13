@@ -1745,9 +1745,16 @@ heutigem Recht ist das nur bei freiwilligem Minergie-ECO-Label bindend.
 MuKEn 2025 setzt einen objektspezifischen Grenzwert der Erstellungs-Treibhausgasemissionen zwischen
 **12,4 und 19,9 kg CO₂-eq/m²EBF·a** je Gebäudekategorie (Wohnen MFH: 12,4; Verkauf/Spitäler: 19,9),
 plus 5,5 kg CO₂-eq/m²(GF−EBF)·a für unbeheizte Flächen und technische Zuschläge (Erdsonde +0,3, PV
-+7,1, Solarthermie +5,6 kg CO₂-eq je m² Bezugsfläche). Aus dem PDF-Volltext gelesen (Web-Fetch-Reader,
-zweimal identisch), Status bewusst `emerging` (Original noch nicht lokal gegengelesen) →
-`[[muken-2025-modul-g-co2-grenzwerte]]`.
++7,1, Solarthermie +5,6 kg CO₂-eq je m² Bezugsfläche) → `[[muken-2025-modul-g-co2-grenzwerte]]`.
+
+**Ergänzung — Status jetzt `established` + Rechenbeispiel (13.07.2026, Run 51):** die Zahlen wurden
+unabhängig gegen die Minergie/ecobau-Methodik-Primärquelle (12.09.2023) bestätigt, lokal aus dem
+PDF gelesen — auf dieser Methodik baut Modul G ausdrücklich auf, zwei methodisch verwandte
+Primärquellen liefern zahlengenau dieselben Werte. Konkretes Rechenbeispiel für den PV-Zuschlag:
+bei 65 m² Panelfläche, 42 % Eigenstromverbrauch und 175 m² Gebäude-EBF ergibt sich ein auf die EBF
+umgelegter PV-Zuschlag von **1,72 kg CO₂-eq/m²EBF·a** — deutlich weniger als die Panelflächen-Zahl
+7,1 kg/m²a suggeriert, weil nur der Eigenverbrauchsanteil zu 100 % zählt, die Netzeinspeisung nur
+zu 40 %.
 
 **Quelle:** Medienmitteilung EnDK (29.08.2025) + Folgeberichte VSE/aeesuisse/energie-cluster.ch,
 drei unabhängige Quellen inhaltlich deckungsgleich → `[[muken-2025-verabschiedet]]`, established.

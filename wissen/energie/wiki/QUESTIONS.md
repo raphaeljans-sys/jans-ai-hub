@@ -198,8 +198,8 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   ehrlich als unbelegt.
 - [x] **E34** **MuKEn 2025 Modul G — konkrete CO₂-Grenzwerte** belegt ✓ 2026-07-13 (Run 48, löst den
   in Run 47 gemeldeten Negativbefund) → `[[muken-2025-modul-g-co2-grenzwerte]]`, FAQ F47 geschärft.
-  12,4–19,9 kg CO₂-eq/m²EBF·a je Kategorie + Zuschläge Erdsonde/PV/Solarthermie. Status `emerging`
-  (Web-Fetch-Extraktion, nicht lokal gegengelesen).
+  12,4–19,9 kg CO₂-eq/m²EBF·a je Kategorie + Zuschläge Erdsonde/PV/Solarthermie. **Status auf
+  `established` gehoben ✓ 2026-07-13 (Run 51)** — siehe E38.
 - [x] **E35** **g-Werte je Verglasungstyp (ohne Sonnenschutz)** belegt ✓ 2026-07-13
   → `[[g-werte-verglasungstypen-ch]]`, FAQ F35 geschärft. Zweifachglas ~0,58–0,62, Dreifachglas
   ~0,61, Sonnenschutzglas 0,17–0,37 (Flachglas Schweiz vetroTherm/vetroSol + DE-Sekundärquellen).
@@ -396,12 +396,17 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   amtlich**, explizit markiert: 12-15 Rp./kWh LEG-Gemeinschaftsstrom vs. ~7 Rp./kWh Referenz-Einspeiseverguetung).
   Schliesst D6-Offenpunkt «Rp/kWh-Zahlenmuster» orientierend. Offen bleibt: VSE-Branchenempfehlung LEG
   (BD-LEG) seitengenau als Primaerquelle, amtliche Rp/kWh-Bandbreite (VSE/ElCom).
+- [x] **E38** **MuKEn-2025-Modul-G-Zahlen unabhaengig verifiziert + Rechenbeispiel** belegt ✓
+  2026-07-13 (Run 51) → `[[muken-2025-modul-g-co2-grenzwerte]]` established, FAQ F47 geschaerft.
+  Minergie/ecobau-Methodikpapier (12.09.2023) lokal per Read-Tool gelesen bestaetigt die E34-Zahlen
+  zahlengenau und liefert das bisher fehlende PV-Rechenbeispiel (1,72 kg CO₂-eq/m²EBF·a bei 65 m²
+  Panelflaeche/42 % Eigenverbrauch/175 m² EBF). Loest Run-50-Prioritaetspunkt «Rechenbeispiel».
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-13: PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen + F18-F59
-  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37) — Meta-Punkt M2 ist SEIT
-  RUN 45 (also sechs Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum sechsten Mal
-  vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort von Raphael in
-  einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz
-  zu erzeugen.**
+  Vertiefungen belegt, Rp/kWh-Luecken jetzt orientierend geschlossen (E37), MuKEn-Modul-G established
+  (E38) — Meta-Punkt M2 ist SEIT RUN 45 (also sieben Laeufen in Folge) spruchreif fuer eine
+  Entscheidung und wird hier zum siebten Mal vermerkt. Der Loop kann sie nicht selbst treffen —
+  braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht sich der
+  Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**

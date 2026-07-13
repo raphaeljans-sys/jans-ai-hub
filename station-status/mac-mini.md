@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 15:07:45
+Stand: 13.07.2026 15:38:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:24)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 35 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 41 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 13.07.2026 15:07:45
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bb625e60 normen: SIA D 0165 Kennzahlen im Immobilienmanagement destilliert (Teil-Fragment)
+- c370e574 nas-selfcommit: 18 Datei(en) 2026-07-13 15:15

@@ -477,25 +477,25 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-4.pdf` | 1053 | 2011 | destilliert (din-1053-4-2011.md), vollstaendig S.1-32/32 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1054.pdf` | 1054 | 2010 | destilliert (din-1054-2010.md), vollstaendig S.1-105/105, Mini-Run3 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1055-2.pdf` | 1055 | 2010 | destilliert (din-1055-2-2010.md), Bodenkenngroessen |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1072 Beiblatt 1.pdf` | 1072 | 1988 | destilliert (din-1072-beiblatt1-1988.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1076.pdf` | 1076 | 1999 | destilliert (din-1076-1999.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1164-10.pdf` | 1164 | 2004 | destilliert (din-1164-10-2004.md) |
-| [x] 260712 | P3 | `DIN-Norm/DIN 1249-11.pdf` | 1249 | 1986 | destilliert (din-1249-11-1986.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 | 1995 | destilliert (din-1356-1-1995.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 | 2006 | destilliert (din-1356-6-2006.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1072 Beiblatt 1.pdf` | 1072 | 1988 | destilliert (din-1072-beiblatt1-1988.md)  verifiziert 260713 (bestanden) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1076.pdf` | 1076 | 1999 | destilliert (din-1076-1999.md)  verifiziert 260713 (beanstandet-korrigiert: Ziff. 4.4 Kann-Vorschrift praezisiert) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1164-10.pdf` | 1164 | 2004 | destilliert (din-1164-10-2004.md)  verifiziert 260713 (bestanden) |
+| [x] 260712 | P3 | `DIN-Norm/DIN 1249-11.pdf` | 1249 | 1986 | destilliert (din-1249-11-1986.md)  verifiziert 260713 (bestanden) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 | 1995 | destilliert (din-1356-1-1995.md)  verifiziert 260713 (bestanden) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 | 2006 | destilliert (din-1356-6-2006.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle Einleitung vs Ziff.1) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 | 2011 | Teil-Destillat (din-en-1627-2011.md, nur 4/44 S. im Bestand), KB-Luecke in QUESTIONS.md |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 | 2011 | destilliert (din-18040-2-2011.md), Pendant zu DIN 18040-1 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 | 2007 | destilliert (din-18232-2-2007.md), vollstaendig S.1-30/30, Brandschutz-relevant (NRA) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 |
-| [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md)  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 | 2008 | destilliert (din-1946-4-2008.md), vollstaendig S.1-66/66, Healthcare-RLT-Norm |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | Teil-Destillat (din-1946-6-2009.md, S.1-20+27-37/125), Reconcile 260712 Mini-Run2 |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 | 2009 | destilliert (din-1946-7-2009.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 | 2009 | destilliert (din-1946-7-2009.md)  verifiziert 260713 (beanstandet-korrigiert) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 2010 | destilliert (din-1960-2010.md), VOB Teil A |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 2010 | destilliert (din-1961-2010.md), VOB Teil B |
-| [x] 260713 | P3 | `DIN-Norm/DIN 272.pdf` | 272 | 1986 | destilliert (din-272-1986.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 272.pdf` | 272 | 1986 | destilliert (din-272-1986.md)  verifiziert 260713 (beanstandet-korrigiert: Vorlast-Faktor 10 falsch, Ziffer-Zuordnung korrigiert) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 | 2008 | destilliert (din-276-1-2008.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 | 2009 | destilliert (din-276-4-2009.md), Reconcile 260712 Mini-Run2 |
 | [x] | P3 | `DIN-Norm/DIN 277-1.pdf` | 277 | 2005 | destilliert 260712 |
@@ -505,21 +505,21 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | Teil-Destillat (din-4102-1-1998.md, S.1-20+26-28/28), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 | 1977 | destilliert (din-4102-2-1977.md) |
-| [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant |
+| [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 | 2001 | destilliert (din-4844-2-2001.md), vollstaendig S.1-23/23, Mini-Run3 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte+fehlende Regelspur korrigiert), din-5034-1-1999.md, Teil-Destillat |
 | [x] 260713 | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 | 1985 | established (verifiziert 260713, Fundstellen korrigiert, Gl.17 ergaenzt), din-5034-2-1985.md, vollstaendig S.1-13/14 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 | 2007 | established (verifiziert 260713, DRr-Formel+g-Abhaengigkeit praezisiert), din-5034-3-2007.md |
 | [x] 260713 | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 | 1994 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch), din-5034-4-1994.md, Teil-Destillat (Scan nur ungerade Seiten) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | established (verifiziert 260713, Blendschutz/Waermestrahlung-Passage ergaenzt), din-5034-6-1995.md, vollstaendig S.1-6/6 |
-| [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md) |
+| [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle + Faserabweichung Gueteklasse praezisiert) |
 | — | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  | englische Fassung, uebersprungen (Sprachvarianten-Regel) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle + falsche KF/KH-Interpretation korrigiert) |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md) |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 | 2005 | destilliert (din-v-105-100-2005.md), vollstaendig S.1-31/31, Mini-Run3 |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 106.pdf` | 106 | 2005 | destilliert (din-v-106-2005.md), vollstaendig S.1-26/26, Mini-Run3 |
-| [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz |
+| [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz  verifiziert 260713 (beanstandet-korrigiert: Korrelationstabelle ergaenzt) |
 | [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume |
 | [x] 260713 | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | destilliert vollstaendig (vstaettvo-niedersachsen-2004.md, S.1-31/31) |
 | [x] 260713 | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  | destilliert (din-abkuerzungsverzeichnis-2010.md), reines Glossar |
@@ -543,9 +543,9 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [x] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 | 1987 | destilliert 260712 |
-| [x] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 | 1983 | destilliert 260712 |
-| [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712 |
+| [x] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 | 1987 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: Anhang-Tabelle Breitenbaender + fehlende Zeile/Abschnitte ergaenzt) |
+| [x] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 | 1983 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: 3 Sachfehler korrigiert) |
+| [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: fehlende Abschnitte Wo/Ausfuehrung/Spezialfaelle ergaenzt) |
 | [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md) |
 | [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712 |
 | [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2 |

@@ -1,5 +1,26 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-13 — Trainingslauf 12
+- Output `outputs/2026-07-13_training-run12.md`. **Keine neue reale Spec** seit Lauf 7; fuenfter
+  Lauf in ~24 h (VOLLGAS). Als **Verifikationslauf** gefuehrt: Reue-Pruefung statt erfundenem Feinschliff.
+- **Lauf-11-Regression unabhaengig verifiziert** (Primaerquellen selbst gelesen, nicht Lauf 11 geglaubt):
+  `ag-gruendung-monitor` schweigt weiter seit 10.07. (0 Eintraege 11.–13.07.); `logbuch`-Briefings
+  10.–13.07. (inkl. Morgen-Radar 06:57 + Hub-Chef 14:00 heute) erwaehnen die AG-Gruendung **gar nicht**
+  (letzte Nennung 09.07.); `fristen.md` fuehrt sie unveraendert «offen»/«hoch» (16 Tage). Lauf 11s
+  **Prognose** («taucht im naechsten Radar wieder auf») damit **falsifiziert**.
+- **Neue Lektion:** «ein Flag ist keine Reparatur» — eine nur im Wiki/an einen Menschen gerichtete Notiz
+  remediert nichts, solange kein Prozess das Flag konsumiert (Kausal-Zwilling zu Lauf 10). Fix gehoert in
+  den erzeugenden Prozess (Monitor-/Radar-Logik), nicht in eine KB-Notiz. → `wiki/verifier.md` (Sektion
+  «Eine Monitor-Lektion haelt nicht von selbst» erweitert) + `QUESTIONS.md` F2.
+- **Prozess-Praezisierung** in `training/PROGRAMM.md`: zwei Lauf-Typen (Auswertungslauf vs.
+  Verifikationslauf); ein Verifikationslauf darf mit «Befund bestaetigt/falsifiziert, nichts geaendert»
+  enden — Refinement ohne neuen Beleg ist selbst Gate-Ueberdehnung nach innen.
+- **Bewusst nicht getan:** keine `logbuch`-/Scheduled-Task-Reparatur (ausserhalb KB-Mandat), kein
+  Mail-Versand. Rule `spec-methode.md` + `anwendung-jans.md` unveraendert. Quellen-Schuld: keine.
+- Offen: an Raphael/`logbuch` eskalieren (AG-Gruendung 3 Tage unsichtbar trotz «hoch/offen» — Doku
+  wirkungslos, Radar-Logik muss «offen/hoch»-Fristen aktiv ziehen); F1-Ueberdehnungs-Gegentest;
+  F3 nur noch Marketing/Text.
+
 ## 2026-07-13 — Trainingslauf 11
 - Output `outputs/2026-07-13_training-run11.md`. **Keine neue reale Spec-Anwendung** seit Lauf 7.
   Vierter Lauf am selben Tag; statt eines weiteren Breitband-Environment-Sweeps eine gezielte

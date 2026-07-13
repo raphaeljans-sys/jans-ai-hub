@@ -2,6 +2,24 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 51: MuKEn-2025-Modul-G established + PV-Rechenbeispiel
+- **Run-Report** `outputs/2026-07-13_energie-run51.md`. PDF-Inventar weiterhin vollstaendig
+  abgearbeitet; kein neues PDF im SharePoint-Ordner gefunden.
+- **Verifikation statt neuer Fund:** die Minergie/ecobau-Methodik-Primärquelle «Berechnungsmethodik
+  Grenzwerte THGE in Erstellung» (12.09.2023) wurde lokal per Read-Tool aus dem PDF gelesen (keine
+  Web-Fetch-Zwischenstufe) und bestätigt die D19/E34-MuKEn-2025-Modul-G-Zahlen **zahlengenau**
+  (Basisgrenzwerte 12,4-19,9 kg CO₂-eq/m²EBF·a, unbeheizt 5,5, Zuschläge Erdsonde +0,3/PV +7,1/
+  Solarthermie +5,6) — Status auf **established** gehoben. Zusätzlich das bisher fehlende
+  Rechenbeispiel übernommen: PV-Zuschlag für 65 m² Panelfläche/42 % Eigenverbrauch/175 m² EBF =
+  **1,72 kg CO₂-eq/m²EBF·a**.
+- **Destillate/Wiki ergaenzt:** `[[muken-2025-modul-g-co2-grenzwerte]]` (Verifikationsstand +
+  Rechenbeispiel-Sektion, Status established), FAQ F47 geschärft.
+- **Register:** `training/pdf-inventar.md` (neue Web-Quelle), `destillate/INDEX.md`,
+  `training/curriculum.md` (D25 neu), `wiki/QUESTIONS.md` (E34 aktualisiert, E38 neu).
+- **Meta-Eskalation:** M2 (Skill-`energie`-Entscheid) zum **siebten Mal in Folge** als spruchreif
+  vermerkt (Run 45-51) — der Loop kann diese Entscheidung nicht selbst treffen, braucht eine
+  explizite Antwort von Raphael in einer interaktiven Session.
+
 ## 2026-07-13 — Run 50: LEG-Rp/kWh-Marktbeispiel ergaenzt + M2-Entscheid zum 6. Mal eskaliert
 - **Run-Report** `outputs/2026-07-13_energie-run50.md`. PDF-Inventar weiterhin vollstaendig
   abgearbeitet; kein neues PDF im SharePoint-Ordner gefunden.

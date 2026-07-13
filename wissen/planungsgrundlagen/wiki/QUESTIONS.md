@@ -3,6 +3,21 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K27/K28/K31 (Run 31, 2026-07-13)** Drei genuine Neufunde nach vollstaendigem Abgleich der
+  Ordnerstruktur PL-01 gegen das Curriculum (K1-K26 bereits erschlossen): **Bezirks-Ebene GIS-
+  Portal `gis.bezirkeinsiedeln.ch`** (unterhalb des kantonalen `map.geo.sz.ch`; Druckprodukte
+  Vermessung/Grundstuecksbeschrieb/Infrastruktur/Hoehendaten/ÖREB-Kataster; realer 9-seitiger
+  ÖREB-Auszug deckt zwei bisher unbekannte Fakten zum Willerzell/Reckholdern-Benchmark auf —
+  Sondernutzungsplan «Gestaltungsplan Reckholdern» + statische Waldgrenze 22.8 % → NEU-Abschnitt
+  [[kartenportale-geoportale-uebersicht]]), **ZH-Hoehenkurven-Druckprodukt** (`Hoehenlinie/`-
+  Ordner, «Benutzerkarte» maps.zh.ch, waehlbare Aequidistanz 0.5/1/5 m, Delta zum bereits
+  dokumentierten Raster-swissALTI3D → NEU-Abschnitt [[kartenportale-geoportale-uebersicht]]),
+  **GeoShop Stadt Zuerich** (`Geoshop/`-Ordner, eigenstaendig vom kantonalen Geoshop-API,
+  Katasterplan-DXF-Bestellung ~30 Min. Lieferzeit; Quelldatei enthielt fremde Zugangsdaten eines
+  Drittbuero, NICHT uebernommen → neue Tabellenzeile [[kartenportale-geoportale-uebersicht]]).
+  KtLU Luzern (bereits K16 niedrige Prioritaet) und KtBE Bern erneut gesichtet — kein neuer Befund
+  ueber die bestehende Kurzprofil-Einordnung hinaus, bewusst nicht vertieft. Details siehe
+  `training/curriculum.md` K27/K28/K31.
 - [x] **K20-K21 (Run 29, 2026-07-13)** Zwei weitere Kandidaten-Fundstellen geprueft, beide OHNE
   Delta (ehrlich dokumentierte Nicht-Funde): **XML-Datenformate-Ordner** (3 Screenshots,
   generische "Was ist XML"-Web-Erklaerung ohne Geodatenbezug, kein Delta zur K8-Formattabelle) und
@@ -362,6 +377,16 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D19-D20 (Run 31, 2026-07-13, E27-E28)** Zwei bisher unerschlossene PL-04-Unterordner unter
+  `Solaranlage/` ausgewertet (nach vollstaendigem Ordnerabgleich, Domaene ansonsten weitgehend
+  ausgeschoepft — E1-E26 bereits belegt): **Dachausstiege** (Wartungszugang Flachdach-PV, 6
+  Referenzfotos — Fallschutz-Gelaender, seitliche Positionierung neben dem PV-Feld, kein Norm-
+  Beleg → NEU §4 [[energie-pv-eignung-typenwahl]], speculative), **megasol.ch Modul-Datenblatt**
+  (bifaziales Glas-Glas-Modul M385-HC120-b, 211 Wp/m² + Rueckseiten-Mehrertrag +5...+35 % je nach
+  Untergrund-Albedo — Delta zur bestehenden Wp/m²-Tabelle → [[energie-pv-eignung-typenwahl]] §1b,
+  established). Weitere Solaranlage-Unterordner (energieheld.ch, sonnenverlauf.de) gesichtet —
+  Einzelscreenshots ohne neuen Fachinhalt, kein Delta. Details siehe `training/curriculum.md`
+  E27-E28.
 - [x] **D10-D18 (Run 29, 2026-07-13, E18-E26)** Zwei bisher nie erschlossene PL-04-Unterordner
   ausgewertet + zwei Refresh-Checks: **Minergie-Nachweiskurs-Unterlagen** (`wissen.minergie.ch/
   Kursunterlagen_230926/`) — die reale Fallstudie "Maison Climat" (MFH Seelandweg 15 Biel)

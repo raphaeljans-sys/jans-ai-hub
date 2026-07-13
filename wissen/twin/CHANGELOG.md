@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review Sechstlauf (Signatur-Automatik-Artefakt Desktop generalisiert)
+- Fidelity-Review 260713f: Gesamt-Fidelity 94/100. Frischer Live-Pull via Apple Mail (Bundle-ID
+  `com.apple.mail`, war diese Session sofort erreichbar) aus «Gesendete Elemente»
+  (Exchange rj@raphaeljans.ch), Zeitfenster Okt./Nov. 2025, bisher nicht verschriftlicht.
+  M365-MCP weiterhin funktionsunfähig (`@pnp/cli-microsoft365` fehlt).
+- **Stimme geschärft:** «Doppel-Signoff = Mobile-Artefakt» generalisiert zu «Signatur-Automatik
+  (Mobile UND Desktop)» — drei Desktop-Belege (York/Bopp/Mueller, Du, voller Handgruss + Name)
+  zeigen dieselbe automatische Block-Verdopplung wie am Handy; Gegenprobe (Stefan Tschopp,
+  abgekürztes «Lgr») zeigt KEINEN Block. Methodik-Warnung ergänzt: Rohtext-Belege mit
+  «Freundliche Grüsse + Block» künftig auf Automatik vs. echtes Signal prüfen.
+- Report: `outputs/2026-07-13f_fidelity.md`. 3 neue Fragen an QUESTIONS.md (Runde 260713f).
+- Gehirn `rules/jans-dna.md` neu kompiliert.
+
 ## 2026-07-13 — twin-mail-training Batch 42 (2026-04-23 bis 2026-05-01)
 - Neuer Sent-Items-Batch destilliert (`raw/260713-mailbatch-42.md`-Eintrag in `_INGESTED.md`,
   Volltexte nicht dauerhaft gehortet). M365-MCP weiterhin nicht verfügbar

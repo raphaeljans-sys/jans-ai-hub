@@ -363,3 +363,14 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   CHF 600/Jahr Mehrertrag → `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` ergänzt, FAQ F33 geschärft,
   `[[pv-eigenverbrauch-zev]]` ergänzt. Schliesst D6-Offenpunkt «Rp/kWh-Zahlenmuster» orientierend (amtliche
   VSE-Branchenempfehlung selbst bleibt unpaginiert/nicht seitengenau gelesen — offen).
+
+- **D25 (Run 51, 2026-07-13)** — «MuKEn-2025-Grenzwerte graue Energie: gibt es ein Rechenbeispiel,
+  und lassen sich die Zahlen unabhängig verifizieren?» — belegt 2026-07-13 (Minergie/ecobau
+  «Berechnungsmethodik Grenzwerte THGE in Erstellung», 12.09.2023, lokal per Read-Tool aus dem PDF
+  gelesen, S. 1-9 vollständig). Bestätigt die D19-Zahlen (12,4-19,9 kg CO₂-eq/m²EBF·a, unbeheizt 5,5,
+  Zuschläge Erdsonde +0,3/PV +7,1/Solarthermie +5,6) **zahlengenau** aus einer zweiten, methodisch
+  verwandten Primärquelle → Status von `emerging` auf **established** gehoben. Liefert zusätzlich das
+  bisher fehlende **Rechenbeispiel**: PV-Zuschlag für 65 m² Panelfläche/42 % Eigenverbrauch/175 m² EBF
+  = 1,72 kg CO₂-eq/m²EBF·a (nur Eigenverbrauch zu 100 %, Einspeisung nur zu 40 % angerechnet) →
+  `[[muken-2025-modul-g-co2-grenzwerte]]`, FAQ F47 geschärft. Löst den Run-50/D19-Prioritätspunkt
+  «Rechenbeispiel MuKEn-2025-Formel» vollständig.

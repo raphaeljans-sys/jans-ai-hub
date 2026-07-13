@@ -2,7 +2,7 @@
 title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29)]
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[recht-norm-dispensrecht]]
 ---
 
@@ -27,6 +27,8 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
 | `geoshop.lisag.ch` | Zentralschweiz (UR/SZ/OW/NW/ZG, Betrieb durch LISAG fuer die Kantone + LU-Region) | Datenbezug amtl. Vermessung (AV-Daten, Datenmodell DM01AV_UR_SZ_OW_NW) | **SZ: login-frei via vordefinierten Link `sz_public`/`public`**; sonst Account |
 | `geodatenshop.zh.ch` | Kt. ZH | **Web-Oberflaeche** desselben Bestellsystems wie `geoservices.zh.ch/geoshopapi` (Amt fuer Raumentwicklung, Abt. Geoinformation) — ueber 500 Produkte, benutzergefuehrter Bestellprozess, Bestell-Uebersicht; die API-Automatisierung laeuft ueber den Connector `geoshop-zh.mjs`, das Web-Portal ist der manuelle Weg fuer dieselben Daten | Account (Freigabe je Produkt online) |
 | `maps.zh.ch` «Eigentumsauskunft» (ObjektwesenZH) | Kt. ZH | Eigentuemer-/Grundbuchauskunft (Name, Adresse, Eigentumsform), 5/Tag | SMS-Code, kein Interessennachweis |
+| `gis.bezirkeinsiedeln.ch` | **Bezirk** Einsiedeln (Kt. SZ, unterhalb des kantonalen `map.geo.sz.ch`) | eigenstaendiges **Bezirks-GIS** mit Druck-/PDF-Produkten «Vermessung» (amtl. Vermessung inkl. Lage-/Hoehenfixpunkt-Legende), «Grundstuecksbeschrieb» (Kurz-Grundbuchauszug: Eigentuemer, Flaeche, Bodenbedeckung, Gebaeude/EGID), «Infrastruktur», «Hoehendaten Kanton» (Isohypsen 1 m/100 m, Layer `ch.sz.a153a.isohypsen`), **«ÖREB-Kataster»** — Run 31 | nein (Public-Druckfunktion) |
+| `e-gov.stadt-zuerich.ch/geoshop` («GeoShop Stadt Zuerich») | **Stadt Zuerich** (eigenstaendig, separat vom kantonalen `geoservices.zh.ch/geoshopapi`) | Katasterplan-Bestellung als DXF (Lieferung ca. 30 Min. nach Bestellung per E-Mail-Link), Betrieb infoGrips GmbH + Geomatik+Vermessung Stadt Zuerich — Run 31 | Account (kostenpflichtig/registriert) |
 
 ## Kernprodukte fuer eine Studie (Checkliste)
 
@@ -152,6 +154,62 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   Benutzeroberflaeche fuer dieselben bzw. ergaenzende Daten — bei ZH-Gemeinden mit eigenem
   Portal (Erkennbar am Gemeindenamen in der URL) zusaetzlich pruefen, ob dort kommunale
   Zusatzinformationen (z.B. Werkleitungen) verfuegbar sind, die der kantonale WFS nicht fuehrt.
+
+## Bezirk-Ebene Geoportal SZ: gis.bezirkeinsiedeln.ch (K27, Run 31 2026-07-13)
+
+Bisher war fuer Kt. SZ nur die **kantonale** Ebene dokumentiert (`map.geo.sz.ch`, siehe
+[[kartenportale-naturgefahren-objektschutz]] und Skill `oereb-schwyz`). Der reale Beleg-Ordner
+`gis.bezirkeinsiedeln.ch` (Fall Reckholdern 20 Willerzell, Grundstueck 3301, 11/2023) zeigt: der
+**Bezirk Einsiedeln fuehrt ein eigenes GIS-Portal** unterhalb des kantonalen Portals, mit
+eigenstaendigen Druck-/PDF-Exportprodukten:
+
+- **«Vermessung»** — Situationsplan mit Lagefixpunkt-/Hoehenfixpunkt-Legende (Stein/Bolzen/Rohr/
+  Pfahl/Kreuz-Symbolik, begehbar/unversichert), Liegenschaft/selbstaendiges Recht (auch
+  *projektiert*), Gemeindegrenzen.
+- **«Grundstuecksbeschrieb»** — ein **einfacher Kurz-Grundbuchauszug** direkt aus dem
+  Bezirks-GIS: Grundstueck-Nr., E-GRID, Plan-Nr., Flurname, Flaeche Grundbuch, Eigentumsform,
+  Eigentuemer (Name/Adresse — **ohne Rechtsgueltigkeit**, «rechtsguel­tige Eigentuemerangaben
+  beim Grundbuchamt»), Bodenbedeckung nach Art (Gebaeude/Gartenanlage etc.) mit Flaechenzahlen,
+  Gebaeude-Tabelle (Geb.-Nr./EGID/Adresse/Flaeche), Mutationshistorie. Herausgeber: **Amt fuer
+  Geoinformation Kt. SZ, Mutationsverwaltung** — schneller Alternativweg zum vollen
+  Grundbuchauszug, wenn nur Flaeche/Eigentuemer/EGID gebraucht werden (kein rechtsverbindlicher
+  Nachweis).
+- **«Infrastruktur»** — reduzierter Gebaeudeplan ohne weitere Sachdaten (in der Stichprobe kein
+  Mehrwert gegenueber der Vermessung).
+- **«Hoehendaten Kanton»** — Isohypsen (Layer `ch.sz.a153a.isohypsen` / `...isohypsen_label`)
+  in **1-m- und 100-m-Aequidistanz**, EGID-Gebaeudepunkte ueberlagert — das kantonale
+  Hoehenlinien-Produkt fuer SZ, analog zum unten dokumentierten ZH-Höhenkurven-Produkt.
+- **«ÖREB-Kataster»** — derselbe amtliche Auszug wie ueber den Skill `oereb-schwyz`/
+  `geo-sz.mjs` bezogen; der reale 9-seitige Auszug fuer Grundstueck 3301 (Auszugsnummer
+  `0a0570f0-…`, 16.11.2023) belegt **zwei bisher nicht dokumentierte Fakten fuer den
+  Willerzell/Reckholdern-Benchmark**: (1) ein **Sondernutzungsplan «Gestaltungsplan
+  Reckholdern»** (Genehmigung Aenderung 24.05.1983) ueberlagert die Wohnzone 1 zu 100 %
+  — Willerzell 3301 ist also nicht nur schlichte Wohnzone, sondern gestaltungsplanpflichtig;
+  (2) eine **statische Waldgrenze** mit Waldgrenzwirkbereich auf **22.8 % der Parzellenflaeche**
+  (264 m² von 1'159 m²), Rechtsgrundlage Waldfeststellungsverfuegung «Reckholdern» vom
+  01.05.1996. Bezirksverwaltung Einsiedeln ist «zustaendige Stelle» fuer mehrere ÖREB-Themen
+  (Nutzungsplanung, Sondernutzungsplanung, Laermempfindlichkeit, Waldgrenzen) — nicht der Kanton
+  direkt.
+
+**Einordnung:** die Bezirks-Ebene ist in Kt. SZ ein **zusaetzlicher, schnellerer Zugang** zu
+denselben/aehnlichen Daten wie das kantonale Portal — kein Ersatz, aber praktisch, weil der
+Kurz-Grundstuecksbeschrieb ohne Bestellung/Wartezeit als PDF druckbar ist. Kein REST-Endpunkt
+identifiziert (reine Druckfunktion des WebGIS) — Status `emerging`, kein Connector-Feature.
+
+## ZH-Hoehenkurven als Druckprodukt: «Benutzerkarte» maps.zh.ch (K28, Run 31 2026-07-13)
+
+Zusaetzlich zum bereits dokumentierten **Raster**-Hoehenmodell swissALTI3D
+([[kartenportale-bund-geodaten]]) bietet `maps.zh.ch` ueber die Druckfunktion **«Benutzerkarte»**
+ein **Vektor-Hoehenlinien-Produkt direkt aus der amtlichen Vermessung** an: Layer «Höhenkurven Kt»
+mit waehlbarer **Aequidistanz 0.5 m / 1 m / 5 m**, druckbar als georeferenziertes PDF (A3/A4, frei
+waehlbarer Massstab bis 1:200). Ergaenzend zeigt die Legende **«Amtliche Vermessung farbig Gde»**
+den vollstaendigen **Bodenbedeckungs-Farbcode** (Gebaeude/oeffentl. Gebaeude/Strasse/Trottoir/
+Bahn/Garten-Parkanlage/Acker-Wiese-Weide/Hoch-Flachmoor/Reben/Wasser/Wald/Fels/Geroell-Sand/
+Abbau-Deponie u.a.) — nuetzlich, um farbige Amtliche-Vermessung-Plaene aus anderen Gemeinden
+korrekt zu lesen. Quelle: Screenshots-Ordner `Hoehenlinie/Maur` + `Hoehenlinie/Wald` (11/2024),
+`geo.zh.ch`-Direktlink mit `x/y/scale/basemap`-Parametern. Status `emerging` (Druckfunktion belegt,
+kein WFS-/REST-Endpunkt fuer die Höhenkurven-Vektordaten identifiziert — Ergaenzung zu K3/swissALTI3D,
+kein Ersatz).
 
 ## Offen (→ QUESTIONS)
 - ~~A2: kommunaler ZH-Zonenplan login-frei~~ **✓ geloest 2026-06-16** via OGD-WFS 0156
