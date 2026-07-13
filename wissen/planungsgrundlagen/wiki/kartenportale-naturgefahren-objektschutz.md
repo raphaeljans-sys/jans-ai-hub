@@ -10,10 +10,12 @@ sources:
     Auftraggeber-Dokument 2304RE20_Naturgefahren_Objektschutzkonzept.pdf) — Gefahrenkarte Rutschung
     (mittlere/geringe/erhebliche Gefaehrdung auf derselben Parzelle), WebGIS-Direktlink SZ
   - schutz-vor-naturgefahren.ch (VKG/SIA/HEV/ASA-SVV/Kantonalbank/Gemeindeverband) —
-    "Checkliste fuer die Planung und Umsetzung von Gebaeudeschutzmassnahmen" (Dezember 2020) +
-    "Empfehlungen Gebaeudeschutz" (Onlinetool) + "Rutschungen und Hangmuren"
+    "Checkliste fuer die Planung und Umsetzung von Gebaeudeschutzmassnahmen" (Dezember 2020,
+    vollstaendig gelesen S.1-6/12) + "Empfehlungen Gebaeudeschutz" (Onlinetool) + "Rutschungen und
+    Hangmuren — Hintergrundwissen fuer Bauherren"
   - PL-01/Objektschutz/Reckholdern/Naturgefahrenkarte_Das_Wesentliche_in_Kuerze.pdf +
-    2304RE20_Naturgefahren_Objektschutzkonzept.pdf + 27_Checkliste_SvN_D.pdf
+    2304RE20_Naturgefahren_Objektschutzkonzept.pdf + 27_Checkliste_SvN_D.pdf +
+    Grundwasserkarte_mapgeoszch.pdf (WebGIS Kt. SZ, Amt fuer Geoinformation AGI, Stand 22.11.2023)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
   [[recht-norm-abstandsvorschriften-wald-gewaesser]] [[kartenportale-sharepoint-ablage]]
   [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[brandschutz-pl03-wegweiser]]
@@ -114,6 +116,44 @@ Vorgehen laut Konzept:
    [Verhaltensregeln, Alarmorganisation]).
 4. Fachplaner-Zuzug: Gutachter/Unternehmer/Fachplaner/Geologe/Statiker/Foerster je nach Prozess.
 
+### 3b. Checkliste im Detail (vollstaendig gelesen, Run 24 2026-07-13)
+
+Herausgeber: **VKG (Vereinigung Kantonaler Gebaeudeversicherungen), SIA, HEV Schweiz, ASA/SVV
+(Schweizerischer Versicherungsverband), Kantonalbank, Schweizerischer Gemeindeverband** —
+Dezember 2020, `27_Checkliste_SvN_D.pdf`. Ist ein **ausfuellbares Formular** (Grundstueck/
+Bauherrschaft/Architekt-Planer als Kopfzeile), gedacht zur gemeinsamen Bearbeitung durch Bauherr +
+Architekt/Ingenieur — passt als Vorlage direkt in ein JANS-Vorprojekt-Pflichtenheft.
+
+**Schritt 1 — Gefaehrdungsabklaerung je Naturgefahr, mit konkreter Quellenzuordnung:**
+
+| Naturgefahr | Abzuklaeren gemaess |
+|---|---|
+| Sturm | Norm SIA 261 |
+| Hagel | Norm SIA 261/1 + VKF-Karten «Hagelgefaehrdung in der Schweiz» |
+| Hochwasser | kantonale Gefahrenkarte Hochwasser |
+| Starker Regen/Oberflaechenabfluss | kantonale Gefahrenkarte Hochwasser bzw. Gefaehrdungskarte Oberflaechenabfluss + Erfahrungswerte Anwohner/Gemeinde |
+| Schneedruck/Schneerutsch | Normen SIA 261 und SIA 261/1 |
+| Erdrutsch/Lawinen/Murgang/Steinschlag | kantonale Gefahrenkarte + Erfahrungswerte Anwohner/Gemeinde |
+| Erdbeben | **SIA 261 bei Neubau, SIA 269/8 bei Umbau** (Erdbebenertuechtigung Bestand — eigene Norm, nicht identisch mit der Neubau-Norm!) |
+| Radon | Radonkarte des Bundesamts fuer Gesundheit (BAG) |
+
+> **Praezisierung gegenueber §5 (Schutzziele-Tabelle):** die dortige Schutzziel-Tabelle nennt fuer
+> Erdbeben pauschal «SIA 261»; die Checkliste unterscheidet **Neubau (SIA 261) vs. Umbau (SIA
+> 269/8)** — bei Sanierungs-/Umbauprojekten (JANS-Kerngeschaeft) ist **SIA 269/8** die massgebende
+> Erdbeben-Ertuechtigungsnorm, nicht SIA 261.
+
+**Schritt 2 — Bauteilkatalog-Prinzip:** die Checkliste fuehrt einen «**Bauteilkatalog**»-Gedanken:
+fuer viele Bauteile (Ziegel, Kunststoffplatten/Lichtdurchlaesse, etc.) gibt es sowohl schadenanfaellige
+als auch robuste Produktvarianten — die Wahl der Ausfuehrung entscheidet, ob das SIA-Schutzziel
+tatsaechlich erreicht wird. Zwei Konkretisierungen mit direktem Marktbezug:
+- **Hagel:** Verwendung hagelgeprueft er Bauteile gemaess **Hagelregister** (`www.hagelregister.ch`);
+  Empfehlung: Gebaeudehuelle soll mindestens **Hagelwiderstand HW3** aufweisen (deckungsgleich mit
+  der HW3-Empfehlung in [[energie-pv-brandschutz]] fuer PV-Module — dieselbe Kennzahl, zwei
+  Anwendungsfaelle).
+- **Sturm:** z. B. Tonziegel sind hagelrobust, muessen aber gegen Sturm zusaetzlich **mit Klammern
+  am Dachrand befestigt** werden — Robustheit gegen eine Naturgefahr heisst nicht automatisch
+  Robustheit gegen alle.
+
 ## 5. Schutzziele nach SIA 261/261-1 (Kurzreferenz)
 
 Fuer Neubauten/Anbauten definieren SIA 261 und SIA 261/1 die konkreten Schutzziele je Naturgefahr
@@ -134,11 +174,40 @@ wahrscheinlichkeit — ueber eine typische 50-jaehrige Gebaeudelebensdauer aber 
 Wahrscheinlichkeit (≈ eine 6 in einem Wurf). Seltene Naturgefahren duerfen deshalb bei
 Healthcare-/langlebigen Bauten nicht unterschaetzt werden.
 
-## 6. Offene Punkte
+## 6. Grundwasserkarte als ergaenzende Planungsgrundlage (Run 24, 2026-07-13)
 
-- **ZH-Endpunkt fuer Naturgefahrenkarte** noch nicht kartiert (AWEL-Zustaendigkeit vermutet,
-  analog Gewaesserraum-Layer in [[recht-norm-abstandsvorschriften-wald-gewaesser]]) — naechster
-  Kartenportale-Run.
+Bisher unbearbeitete Quelle im selben Ordner: `Objektschutz/Reckholdern/
+Grundwasserkarte_mapgeoszch.pdf` (WebGIS Kt. SZ, Amt fuer Geoinformation AGI, Massstab 1:2'000,
+Stand 22.11.2023). Zeigt fuer dieselbe Parzelle Reckholdernstrasse 20 zusaetzlich zur
+Naturgefahrenkarte die **Grundwasserkarte Mittelwasserstand**: Isohypsen, Fliessrichtung
+(nachgewiesen/vermutet), Maechtigkeitsklassen des Grundwasserleiters (< 2 m / 2-10 m / 10-20 m /
+> 20 m), Gebiete geringer Durchlaessigkeit, gespanntes Grundwasservorkommen/tieferes
+Grundwasserstockwerk, Vorfluter/Infiltrant.
+
+**Praxisrelevanz fuer JANS:** die Grundwasserkarte ist eine **eigenstaendige, vom Naturgefahren-
+/Baulinien-Layer unabhaengige Planungsgrundlage**, die bei jedem Neubau mit **Unterkellerung/
+Untergeschoss** zu pruefen ist — sie entscheidet ueber die Notwendigkeit einer **Weissen Wanne**
+(wasserundurchlaessige Betonkonstruktion) vs. einer einfachen Abdichtung gegen nicht druckendes
+Wasser. Der übliche rechtliche Vorbehalt gilt auch hier: **nur informativer Charakter**, keine
+rechtsverbindliche Auskunft — verbindlich ist die zustaendige Fachstelle (Amt fuer Geoinformation
+AGI Kt. SZ). Fuer ZH gilt der analoge Bezug ueber `maps.zh.ch` (Grundwasserschutzzonen +
+Grundwasservorkommen als eigener Themenlayer im GIS-Browser, bisher nicht als Connector-Produkt
+kartiert — Anschlussaufgabe an den naechsten Kartenportale-Run, sinngemaess wie beim
+Naturgefahren-Endpunkt unten).
+
+## 7. Offene Punkte
+
+- **ZH-Endpunkt fuer Naturgefahrenkarte** — Versuch in diesem Lauf (Run 24, 2026-07-13):
+  `maps.zh.ch/wfs/OGDZHWFS` beantwortet ein `GetCapabilities`-Request mit dem Fehler *"WFS request
+  not enabled"* (Layer-Katalog laesst sich **nicht per Discovery** auflisten, nur per bekanntem
+  Datensatz-Alias wie bei 0150/0153/0156/0158 abfragen); eine Stichwortsuche im OGD-Datenkatalog
+  (`opendata.swiss`, `geolion.zh.ch`) nach "Naturgefahren" lieferte in dieser Session **keine
+  direkten Treffer** — kein Endpunkt gefunden, keiner erfunden. Naechster Ansatz: den Datensatz-
+  Alias direkt bei der **AWEL-Fachstelle** oder ueber den GIS-ZH-Rechtsverbindliche-Webportal-
+  Hilfetext erfragen (analog wie der Gewaesserraum-Layer 0185 urspruenglich gefunden wurde),
+  statt weiter blind zu raten.
+- **Analog offen: ZH-Grundwasserkarte/-Schutzzonen-Endpunkt** (neu erkannt in Abschnitt 6) — noch
+  nicht kartiert, gleiche Beschaffungslogik wie der Naturgefahren-Layer.
 - **SZ-Layer-Endpunkt** nur als manueller WebGIS-Link bekannt, nicht als `identify`-faehiger
   REST-Endpunkt getestet — Connector-Erweiterung erst nach erfolgreichem Test, nicht vorher als
   `--produkt naturgefahren` versprechen.

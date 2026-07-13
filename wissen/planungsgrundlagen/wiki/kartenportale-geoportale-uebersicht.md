@@ -2,8 +2,8 @@
 title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20)]
-links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]]
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24)]
+links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]]
 ---
 
 # Geoportale — welches Portal liefert was
@@ -64,6 +64,31 @@ Welches Format wofuer, wenn man die Rohdaten weiterverarbeitet:
 
 Faustregel JANS: **GeoJSON** zum Abfragen/Pruefen, **DXF** in den CAD-Plan, **GeoTIFF** fuer
 Bild/Terrain, **INTERLIS** nur wenn der modellvollstaendige amtliche Datensatz noetig ist.
+
+## Baumkataster (K12, niedrige Prioritaet, Run 24 2026-07-13)
+
+Bisher unbearbeiteter PL-01-Ordner `Baumkataster/`. Ergebnis: der **Baumkataster ist kein
+kantonal/schweizweit standardisiertes Geoportal-Produkt** wie Zonenplan oder Baulinien, sondern
+eine **kommunale Fachanwendung auf GIS-Basis**, die einzelne Gemeinden/Staedte fuer die eigene
+Baumbestandsverwaltung fuehren (Quelle: Produktblatt **GEOINFO IT AG** «Fachanwendung
+Baumkataster», Herisau) — Funktionen: Baumstandort-Erfassung, Sachdaten (Schutzwuerdigkeit,
+Gesundheitszustand, Zustaendigkeit), Pflegemassnahmen-Planung, Auswertungen zu anstehenden/
+ueberfaelligen Unterhaltsarbeiten, gefaellte Baeume als eigene Kategorie. Die Anwendung laeuft auf
+der jeweiligen kommunalen **Geodateninfrastruktur (GDI)**, nicht auf einem einheitlichen
+Bundes-/Kantonsportal.
+
+**Praxisrelevanz fuer JANS:** ein Baumkataster ist bei Neubau-/Umbauprojekten relevant, wenn
+Baumfaell- oder Schutzmassnahmen zu pruefen sind (kommunale Baumschutzverordnung); der Bezugsweg
+ist **gemeinde-/portalspezifisch** zu ermitteln (kein einheitlicher `--produkt baumkataster`-
+Connector-Weg moeglich, da kein standardisierter Endpunkt existiert). Die im Ordner abgelegten
+`map.geo.admin.ch`-Kartenausschnitte (Reckholdern) zeigen lediglich punktuelle Baum-Symbole aus
+einer allgemeinen Kartenansicht, **keinen dedizierten Baumkataster-Layer** von geo.admin.ch selbst.
+
+Status: `speculative` fuer die Automatisierbarkeit (kein belegter Endpunkt gefunden); `emerging`
+fuer die fachliche Einordnung (Vendor-Produktblatt als einzige Quelle). Naechster Schritt bei
+realem Bedarf: pruefen, ob die konkrete Standortgemeinde einen oeffentlichen Baumkataster-Layer im
+eigenen Geoportal fuehrt (analog `KtLU Luzern`-Struktur, dort z. T. eigene Themenordner pro
+Gemeinde-GIS).
 
 ## Offen (→ QUESTIONS)
 - ~~A2: kommunaler ZH-Zonenplan login-frei~~ **✓ geloest 2026-06-16** via OGD-WFS 0156

@@ -32,7 +32,8 @@ Geschwister-Ordner: `PL - 02_Recht_Norm`, `PL - 03 Brandschutz`, `PL - 04 Energi
 | `Eigentumsabfrage Objektwesen/` | Eigentumsabfragen |
 | `Werkleitungen/` | `ekz-planauskunft.ch`, `leitungskataster.upc.ch`, `swisscom.ch`, `sunrise.ch` — vertieft in [[kartenportale-werkleitungskataster]] (Run 22) |
 | `Objektschutz/` | Naturgefahren je Objekt (Reckholdern, Thalwil) + `_schutz-vor-naturgefahren.ch` — vertieft in [[kartenportale-naturgefahren-objektschutz]] (Run 22) |
-| `Baumkataster/`, `Geoshop/`, `Datenformate_Geokartenmaterial/` | Spezialthemen / Formate |
+| `Baumkataster/` | GEOINFO-IT-AG-Produktblatt «Fachanwendung Baumkataster» (kommunales GIS-Tool, kein standardisiertes Portal) — vertieft in [[kartenportale-geoportale-uebersicht]] Abschnitt «Baumkataster» (Run 24) |
+| `Geoshop/`, `Datenformate_Geokartenmaterial/` | Spezialthemen / Formate |
 
 ## Topografie & Hoehenlinien — Bezugswege
 

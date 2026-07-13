@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 06:09:03
+Stand: 13.07.2026 06:29:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:08)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:12)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 13.07.2026 06:09:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 94b5778a energie-training Run 42: SIA 380/1:2016 vs. 2009 Kernaenderungen belegt (FAQ F60)
+- 648320c5 normen: SIA 181:2006 Schallschutz im Hochbau destilliert

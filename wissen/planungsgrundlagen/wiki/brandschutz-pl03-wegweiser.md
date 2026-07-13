@@ -2,8 +2,8 @@
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024) und «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH)]
-links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]]
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH) und «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz)]
+links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
 # Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS)
@@ -362,7 +362,197 @@ kein nachträglich lösbares Detail.
 
 ---
 
-## 5 · Wann Skill `brandschutz`, wann nur Verweis
+## 4d · Bauten mit Atrien und Innenhoefen (Run 24, 2026-07-13)
+
+Quelle: **VKF-Brandschutzerlaeuterung 101-15de** «Bauten mit Atrien und Innenhoefen» (gueltig ab
+01.01.2015). Healthcare-relevant, weil grosse verglaste Eingangs-/Wartehallen (Spital, Pflegeheim)
+haeufig genau diese Kriterien erfuellen, ohne dass es auf den ersten Blick auffaellt.
+
+**Definition — wann gilt ein Innenraum als Atrium (Ziff. 1.3.1):** mindestens eine Bedingung
+erfuellt:
+- die ueber mehrere Geschosse zusammenhaengende Brandabschnittsflaeche betraegt **> 3'600 m²**;
+- das Atrium dehnt sich ueber **mehr als 3 Geschosse** aus;
+- die Atriumhoehe betraegt **> 11 m**.
+
+**Innenhof** (z. B. Lichthof): von Bauten umschlossener **Aussenraum ohne Ueberdachung**, wenn
+> 11 m hoch (Ziff. 1.3.2).
+
+**Allgemeine Anforderungen unabhaengig vom Typ (Ziff. 2.1):** Verglasungen von Fluchtwegen im
+Atriumbereich mind. **EI 30**; mobile Brandbelastung auf der Atrium-Grundrissflaeche max.
+**500 MJ/m²**; RWA nach der BSR «Rauch- und Waermeabzugsanlagen»; **schnellansprechende
+Wasserloeschanlage als Vollschutz** vorzusehen (objekt-/nutzungsbezogen zu bemessen).
+
+**Drei Atriumbauten-Typen (Ziff. 2.2–2.4):**
+
+| Typ | Konzept | Kernmassnahmen |
+|---|---|---|
+| **A** — ohne Brandabschnittsbildung gegen angrenzende Bereiche | Nutzungseinheiten oeffnen direkt ins Atrium | Tragwerk/Geschossdecken nach BSR 15-15de Ziff. 3.7.1; **Loeschanlage Vollschutz**; **Brandmeldeanlage Vollueberwachung**; RWA (Leistungsnachweis bei Atriumflaechen > 2'400 m²); Fluchtwege ausserhalb der Nutzungseinheit ueber das Atrium nur mit **rechnerischem Nachweis (Simulation)** nach der Nachweisverfahren-Richtlinie |
+| **B** — mit Brandabschnittsbildung gegen angrenzende Bereiche | Umfassungswaende EI 30/E 30 je nach Atriumbreite/-hoehe-Verhaeltnis (< 0.5 bzw. ≥ 0.5) | RWA immer, **Loeschanlage nur bei brandabschnittsbildenden Waenden mit reduziertem Feuerwiderstand** (E statt EI); Flucht-/Rettungswege ueber Atrium max. **35 m**, Leistungsnachweis (Simulation) Pflicht |
+| **C** — Atrium oben offen (seitenwindunabhaengige Oeffnungsflaeche ≥ **10 %** der Atrium-Grundrissflaeche) | Wie Typ B, aber ohne RWA-Pflicht (natuerliche Entrauchung durch die offene Decke) | Bei Waenden E 30 statt EI 30 zusaetzlich Loeschanlage; Fluchtwege ueber Atrium ebenfalls max. 35 m mit Leistungsnachweis |
+
+**Innenhoefe (Ziff. 2.5):** bauliche Anforderungen an die Umfassungswaende richten sich nach den
+BSR «Verwendung von Baustoffen» + «Brandschutzabstaende Tragwerke Brandabschnitte»; bei
+**Innenhofbreite < 5 m** gelten die Massnahmen von Atrium Typ C sinngemaess. Flucht-/Rettungswege
+ueber Innenhoefe muessen zu einem sicheren Ort ausserhalb des Gebaeudes fuehren; fuehren sie durch
+Gebaeude, sind sie feuerwiderstandsfaehig abzutrennen.
+
+**Qualitaetssicherung:** die Brandschutzbehoerde kann bei Atrium-/Innenhofbauten eine **hoehere
+QSS-Stufe** festlegen (vgl. §3 Tab. 3.4.1 — Atrien dort bereits als QSS-Anhebungs-Kriterium
+gelistet).
+
+---
+
+## 4e · Bauten mit Doppelfassaden (Run 24, 2026-07-13)
+
+Quelle: **VKF-Brandschutzerlaeuterung 102-15de** «Bauten mit Doppelfassaden» (gueltig ab
+01.01.2015). Healthcare-relevant bei Glas-/Doppelfassaden-Konzepten (Klimapuffer, Aussenraumbezug
+in Pflegebauten) — hier greift eine **verschaerfte Anforderung bei Nutzungen mit schlafenden
+Personen**.
+
+**Definition (Ziff. 1.2):** mehrschichtige Aussenwandkonstruktion mit zwei Fassadenebenen:
+**Sekundaerfassade** (aeussere Ebene, nimmt Umwelteinwirkungen auf) und **Primaerfassade** (innere
+Ebene, Abschluss zu den Nutzbereichen, i. d. R. Waermedaemmfunktion). Dazwischen die
+**Zwischenklimazone**, die in der Regel ueber mehrere Geschosse in offener Verbindung steht.
+
+**Brandschutztechnische Risiken (Ziff. 1.3):** eingeschraenkte visuelle Wahrnehmung des
+Brandgeschehens von aussen; erschwerte Feuerwehr-Intervention ueber die Fassade; verzoegerte
+Zerstoerung der Aussenfassade (thermische Belastung wirkt anders als bei einschaligen Fassaden);
+**unsegmentierte Zwischenklimazonen** lassen Brand/Brandgase horizontal und vertikal ungehindert
+ausbreiten (Gefahr der «Kurzschliessung» von Brandabschnitten, Kaminwirkung beschleunigt vertikale
+Ausbreitung); brennbares Material in der Zwischenklimazone (Wandbekleidungen, Daemmstoffe,
+Beschattung) kann Intensivierung/Ausbreitung beguenstigen.
+
+**Grundanforderungen (Ziff. 2.1):** Primaer- **und** Sekundaerfassade (Aussenwandbekleidung +
+Waermedaemmschicht) sind aus Baustoffen der **RF1** zu erstellen (brennbare, lineare
+Fensterprofile bleiben zulaessig; mit Zusatzmassnahmen wie Loeschanlage auch brennbare Baustoffe
+moeglich); Fluchtwege gegenueber Zwischenklimazonen mit Feuerwiderstand nach BSR 15-15de Ziff.
+3.7.1 (bei festen Verglasungen reduzierbar); Beschattungseinrichtungen RF1 (in Gebaeuden geringer/
+mittlerer Hoehe RF2, mit Zusatzmassnahmen RF3); belueftete Dach-Zwischenraeume feuerwiderstands-
+faehig gegenueber der Zwischenklimazone abtrennen.
+
+**Zwei Konstruktionstypen (Ziff. 2.2/2.3):**
+
+| Typ | Segmentierung Zwischenklimazone | Kernmassnahmen | **Healthcare-Klausel** |
+|---|---|---|---|
+| **A** | Segmentierung **mit Feuerwiderstand** (EI 30, Loeschanlagenkonzept E 30), dicht an Sekundaerfassade oder mind. bis ausserkant Sekundaerfassade gefuehrt | keine Loeschanlage noetig | — |
+| **B** | Keine Segmentierung oder Segmentierung **ohne Feuerwiderstand** (z. B. Gitterroste) | Gebaeude mit **schnellansprechender Loeschanlage als Vollschutz**; Fluchtwege gegenueber Zwischenklimazone mit reduzierbarem Feuerwiderstand (fest verglast **mind. EI 30**, horizontal **E 30**) | **Brandmeldeanlage als Vollueberwachung Pflicht bei Nutzungen mit schlafenden Personen** (Beherbergungsbetriebe, Wohnungen), bei ≥ 2 Raeumen grosser Personenbelegung oder > 4 ueber die Doppelfassade zusammenhaengenden Geschossen. **Bei Nutzungen mit schlafenden Personen sind oeffenbare Fensterfluegel NICHT gestattet** |
+
+> **JANS-Healthcare-Kernbefund:** ein Pflegeheim/Spital mit Doppelfassade **Typ B** (die haeufigere,
+> weil ohne durchgaengige feuerwiderstandsfaehige Segmentierung planbare Variante) zieht **zwei
+> scharfe Konsequenzen** nach sich, die frueh im Vorprojekt zu klaeren sind: (1) BMA-Vollueberwachung
+> ist **zwingend**, nicht optional, sobald Bewohnerzimmer (schlafende Personen) an die
+> Zwischenklimazone grenzen; (2) **kein oeffenbares Fenster** zur Zwischenklimazone — ein Konflikt
+> mit dem oft gewuenschten natuerlichen Lueftungskonzept, der bereits in der Fassadenkonzeption
+> (nicht erst im Brandschutznachweis) aufgeloest werden muss.
+
+---
+
+## 4f · Kleine Beherbergungsbetriebe / Berghuetten unter 20 Personen (Run 24, 2026-07-13)
+
+**Schwellenwert-Ausnahme:** gemaess VKF-Richtlinien gilt ein Betrieb **erst ab 20 Personen** als
+**Beherbergungsbetrieb** im Sinn der QSS-/Tragwerks-Tabellen (§3/§4b). Unterhalb dieser Schwelle
+faellt ein Objekt mit Uebernachtungsnutzung **nicht automatisch** in die strengere Beherbergungs-
+Kategorie [a]/[b]/[c] — das eroeffnet bei Kleinstbauten (Alpin-Huetten, Biwaks, kleine Gaststaetten
+mit wenigen Betten) einen relevanten Spielraum gegenueber der pauschalen Healthcare-/Beherbergungs-
+Regel aus §4b.
+
+**Reale JANS-Anwendung — Biwak Grassen (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves
+Schmitter, 16.–18.01.2025, PL-03/_Projekte Themen/Gaststaetenbetriebe Alpin GrassenBiwak/):**
+alpine Kleinsthuette (EG + OG, wenige Schlafraeume 2–4 Personen, Aufenthalt/Kueche/Werkstatt,
+Fundament einer bestehenden Huette weiterverwendet). Vom Brandschutzplaner kommentierte
+Zusammenfassung:
+
+- **QSS 2**, Gebaeudeeinstufung **Gebaeude geringer Hoehe**.
+- Tragwerk **R 30** / Geschossdecken **EI 30** / Brandabschnitte **EI 30** / Verglasung fest
+  **REI 30** (im konkreten Projekt nicht vorhanden) — deutlich **unter** dem R 60, das §4b fuer
+  Beherbergung [a]/[c] bei geringer Hoehe verlangt; ein Indiz, dass die Huette **unterhalb der
+  20-Personen-Schwelle** als Wohnnutzungs-aehnlich statt als Beherbergungsbetrieb eingestuft wurde.
+- Brandabschnitte: Gaeste-, betriebstechnische und technische Raeume sind je als eigener
+  Brandabschnitt zu erstellen.
+- Fluchtwege: «Raum-ueber-Raum»-Situation beachten (Schlafraum im Obergeschoss ueber Aufenthalt),
+  gewendelte Treppe **mind. 1.20 m breit**.
+- Rettungszeichen: nicht zwingend sicherheitsbeleuchtet, Sicherheitsbeleuchtung (SiBel) empfohlen.
+- Handfeuerloescher: **1 pro 600 m²**.
+- **BMA-Erleichterung fuer abgelegene Beherbergungsbetriebe [c]:** «In Beherbergungsbetrieben [c]
+  (z. B. Berghuetten) kann in Ruecksprache mit der Brandschutzbehoerde auf die Alarmaufschaltung
+  auf die oeffentliche Fernmeldestelle verzichtet werden. Unter der Voraussetzung, dass kein
+  Netzstrom vorhanden ist, koennen vernetzte Rauchwarnmelder [statt einer klassischen] Brand-
+  meldeanlage installiert werden.» — eine praxisrelevante Erleichterung fuer netzferne Kleinbauten,
+  die sich direkt aus der Beherbergung-[c]-Kategorie (abgelegen) ableitet.
+- Blitzschutz: grundsaetzlich keine Pflicht, sonst Blitzschutzklasse III.
+- WTA (Waermetechnische Anlage): produkteabhaengig zu pruefen (→ Querverweis Energie-Zusatz-
+  formulare [[energie-baueingabe-zusatzformulare]]).
+
+**Lehre fuers Vorprojekt:** bei sehr kleinen Uebernachtungsbauten (< 20 Personen) lohnt sich die
+**explizite Abklaerung mit der Brandschutzbehoerde**, ob der Betrieb ueberhaupt als
+Beherbergungsbetrieb gilt — das entscheidet ueber R 30 vs. R 60 Tragwerk (§4b) und ueber BMA-
+Vollueberwachung vs. Rauchwarnmelder-Erleichterung. Bei Healthcare-Grossprojekten (> 20 Personen,
+i. d. R. immer der Fall) bleibt die strengere Kategorie [a] aus §4b massgebend.
+
+---
+
+## 5 · Holzbau-Brandschutz — Lignum-Dokumentation (Run 24, 2026-07-13)
+
+Quelle: **Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz — Decken, Waende und
+Bekleidungen mit Feuerwiderstand»** (Ausgabe Mai 2015, als «Stand der Technik Papier» am
+06.09.2017 von der TKB-VKF anerkannt, produktneutrale Planungshilfe, PL-03/06 Lignum Brandschutz).
+Fuer JANS als holzbau-affines Buero die zentrale Anlaufstelle, um Holzbauteile korrekt in die
+VKF-Feuerwiderstandssystematik einzuordnen, **bevor** ein Fachplaner/Holzbauingenieur beigezogen
+wird.
+
+**Feuerwiderstandskriterien (Ziff. 2.1) — drei Buchstaben, drei Funktionen:**
+
+| Kuerzel | Bedeutung | Gilt fuer |
+|---|---|---|
+| **R** | Tragfaehigkeit (Resistance) waehrend tt Minuten Brandeinwirkung | tragend, nicht brandabschnittsbildend |
+| **EI** | Raumabschluss (Etancheite) + Waermedaemmung (Isolation) waehrend tt Minuten | nicht tragend, brandabschnittsbildend |
+| **REI** | beides gleichzeitig | tragend UND brandabschnittsbildend |
+
+R-Bauteile (z. B. Stuetzen) werden von mehreren Seiten gleichzeitig vom Brand beansprucht; EI-/REI-
+Bauteile (Waende/Decken) nur von einer Seite. Bei unterschiedlichen Anforderungen innerhalb
+desselben Bauteils (z. B. Tragwerk R 60 + Brandabschnittsbildung EI 30) sind die Nachweise
+**gesondert** zu fuehren oder das Gesamtbauteil auf den **hoeherwertigen** Feuerwiderstand
+auszufuehren.
+
+**Brandverhaltensgruppe RF1 fuer Holzbauteile (Ziff. 2.3) — die zentrale Systematik:**
+holzbautechnisch feuerwiderstandsfaehige Bauteile sind grundsaetzlich in **allen**
+Feuerwiderstandsklassen moeglich, aber Bauteile mit dem Zusatz **«RF1»** (= das Bauteil als
+Ganzes verhaelt sich wie nicht brennbar) sind **beschraenkt auf REI 30-RF1, REI 60-RF1 und
+REI 90-RF1** — fuer die hoeheren Klassen REI 120/180/240 sind reine Holzkonstruktionen (mit RF1-
+Bekleidung) laut dieser Publikation **nicht vorgesehen**. Mehrschichtige Bauteile mit brennbaren
+Anteilen gelten als RF1, wenn der brennbare Anteil vollstaendig mit RF1-Baustoffen gekapselt ist:
+minimaler Feuerwiderstand der Kapselung **K betraegt 30 Minuten**, mindestens jedoch **K30-RF1**
+und **mindestens 30 Minuten weniger als der Feuerwiderstand des Gesamtbauteils** — Zwischenraeume
+sind mit RF1-Baustoffen **hohlraumfrei** zu fuellen.
+
+**Bekleidungstypen (Ziff. 2.4) — drei Register, nicht verwechseln:**
+
+| Typ | Klassifizierung | Register |
+|---|---|---|
+| **Bekleidungen K** | EN-klassifiziert K30/K60 (EN 13501-2) | Schweizerisches Brandschutzregister VKF, Gruppe 230 «Brandschutzbekleidungen» |
+| **Bekleidungen F** | VKF-klassifiziert F30/F60/F90 | Register-Gruppe 231 «Brandschutzplatten» |
+| **Brandschutzplatten (BSP)** | allgemein anerkannte Bekleidungen, Feuerwiderstandsdauer 30/60/90 Min. | Dokument «Allgemein anerkannte Bauprodukte», Kapitel «Verwendung von feuerwiderstandsfaehigen, allgemein anerkannten Bauteilen» |
+
+**Nachweis des Feuerwiderstands (Ziff. 2.2)** — vier zulaessige Wege: (a) gepruefte/anerkannte
+Bauteile (VKF-Brandschutzregister), (b) genormte, erfahrungsbasierte Bauteile (Lignum-Publikation
+selbst, DIN 4102-4, Holz-Brandschutz-Handbuch), (c) rechnerischer Nachweis nach anerkannten
+Berechnungsverfahren (Lignum «Feuerwiderstandsbemessung — Bauteile und Verbindungen», SIA 265
+Holzbau, SN EN 1995-1-2/Eurocode 5), (d) objektbezogene Konzepte mit Zustimmung der
+Brandschutzbehoerde (parametrisierte Temperaturverlaeufe/Naturbraende).
+
+**Bezug zu §4b/§4d:** ein Holzbau-Tragwerk mit Anforderung **R 60** (z. B. Wohnbauten geringer
+Hoehe mit Loeschanlage oder Beherbergung [a] mit Sprinkler) ist mit RF1-klassifizierten
+Holzbauteilen (**REI 60-RF1**, Bekleidung mind. K30-RF1) grundsaetzlich erreichbar; erst ab
+**R 90/120** (Hochhaus-Kategorie bzw. Beherbergung ohne Sprinkler) wird die reine Holzbauweise mit
+RF1-Bekleidung gemaess dieser Publikation planungstechnisch anspruchsvoller (nur REI 90-RF1
+vorgesehen, darueber nicht abgedeckt) — ein fruehzeitiger Abgleich Holzbau-Ambition vs.
+Tragwerksanforderung lohnt sich bei Healthcare-Grossprojekten. Tiefe Bemessung (Themenblock 3
+«Feuerwiderstandsbemessung») und Anschlussdetails (Themenblock 4.2 «Anschluesse bei Bauteilen mit
+Feuerwiderstand») bleiben Fachplaner-/Skill-`brandschutz`-Tiefe, hier nur die Einordnungssystematik.
+
+---
+
+## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
   Brandabschnitts-Grenzen, Bodenbelag im Fluchtweg (Bfl-s1), DoP/Leistungserklaerung pruefen,
@@ -373,8 +563,12 @@ kein nachträglich lösbares Detail.
   Neubau vom Nachbargebaeude weg (Brandschutzabstand)», «welcher Tragwerks-Feuerwiderstand gilt fuer
   meine Gebaeudehoehe/Nutzung (Vorprojekt-Grobcheck)», «braucht meine interne Treppe einen Fluchtweg-
   Nachweis» (→ §4b), «welche Brandschutzanforderungen gelten fuer die Tiefgarage/das Parkhaus»
-  (→ §4c).
+  (→ §4c), «ab wann gilt mein Innenhof/Wintergarten als Atrium» (→ §4d), «welche Auflagen gelten
+  fuer eine Doppelfassade, insbesondere bei Bewohnerzimmern» (→ §4e), «gilt meine kleine Huette/
+  Unterkunft ueberhaupt als Beherbergungsbetrieb» (→ §4f), «welche Feuerwiderstandsklasse erreicht
+  ein Holzbauteil, was heisst RF1/K30-RF1» (→ §5, Grobeinordnung — Detailbemessung Fachplaner).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →
-  [[recht-norm-tiefgarage-erschliessung]].
+  [[recht-norm-tiefgarage-erschliessung]]. Naturgefahren/Objektschutz als vorgelagerte Grundlage
+  bei Hanglagen → [[kartenportale-naturgefahren-objektschutz]].
