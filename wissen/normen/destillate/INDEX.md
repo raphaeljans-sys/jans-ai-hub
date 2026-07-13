@@ -40,17 +40,17 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vss-700.5-1987.md` | ZH Zugangsnormalien 700.5 | 1987, in Kraft 1988 | destilliert |
 | `vss-722.15-1983.md` | ZH Verkehrssicherheitsverordnung 722.15 | 1983, geänd. 1995 | destilliert |
 | `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | destilliert |
-| `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | destilliert |
-| `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | destilliert |
-| `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | destilliert |
+| `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | established (verifiziert 260713) |
+| `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713) |
+| `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713) |
 | `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | destilliert |
-| `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | destilliert |
+| `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | destilliert |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | destilliert |
-| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | Teil-Destillat (S.1-20+27-37/125) |
+| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | Teil-Destillat (S.1-20+27-37/125, verifiziert 260713) |
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | destilliert |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
-| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | Teil-Destillat (S.1-20+26-28/28) |
+| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | Teil-Destillat (S.1-20+26-28/28, verifiziert 260713) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | destilliert |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | destilliert |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | destilliert (Scan nur ungerade Seiten im Bestand) |
@@ -99,7 +99,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1164-10-2004.md` | DIN 1164-10 Zement mit besonderen Eigenschaften (HS/NA) | 2004-08 | destilliert |
 | `din-1356-1-1995.md` | DIN 1356-1 Bauzeichnungen, Arten/Inhalte/Grundregeln | 1995-02 | destilliert |
 | `din-1356-6-2006.md` | DIN 1356-6 Bauaufnahmezeichnungen, Schadenschlüssel | 2006-05 | destilliert |
-| `din-4102-2-1977.md` | DIN 4102-2 Brandverhalten Baustoffe/Bauteile, Feuerwiderstandsklassen | 1977-09 | destilliert |
+| `din-4102-2-1977.md` | DIN 4102-2 Brandverhalten Baustoffe/Bauteile, Feuerwiderstandsklassen | 1977-09 | established (verifiziert 260713) |
 | `din-919-1-1991.md` | DIN 919-1 Technische Zeichnungen Holzverarbeitung, Grundlagen | 1991-04 | destilliert |
 | `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | destilliert |
 | `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | destilliert |
@@ -154,7 +154,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | destilliert (vollständig, S.1-39/39) |
 | `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | destilliert (vollständig, S.1-32/32) |
 | `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | Teil-Destillat (S.1-60+78-93/105, ca. 72%) |
-| `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | destilliert (vollständig, S.1-34/34) |
+| `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | established (verifiziert 260713, vollständig, S.1-34/34) |
 | `din-18232-2-2007.md` | DIN 18232-2 Rauch- und Wärmeabzugsanlagen (RWA) Teil 2, Bemessung | 2007-11 | destilliert (vollständig, S.1-30/30) |
 | `din-1946-4-2008.md` | DIN 1946-4 Raumlufttechnik in Gebäuden des Gesundheitswesens | 2008-12 | destilliert (vollständig, S.1-66/66) |
 | `din-1960-2010.md` | DIN 1960 VOB Teil A, Vergabe von Bauleistungen | 2010-08 | destilliert |

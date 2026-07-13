@@ -1,3 +1,20 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 7: Deepening-Stufe (b), Retro-Verifikation 8 Destillate, 4 Fehler korrigiert
+- Stufe (b) des Deepening-Programms: 8 bestehende DIN/VSS-Destillate mit adversarialem
+  Volltextabgleich (Modell D, je 1 Agent, Ziel Widerlegung) gegen das Original geprüft.
+- BEANSTANDET (4, korrigiert): `din-4102-1-1998.md` (Verbundbaustoff-Regel fälschlich als
+  Verbot, Rauchprüf-Temperaturen vermischt — bleibt Teil-Destillat), `din-18040-1-2010.md`
+  (2 komplett fehlende Kernziffern-Abschnitte 5.2.1/5.3.6 trotz Vollständigkeits-Behauptung —
+  ergänzt, auf `established` gehoben), `din-1946-6-2009.md` ("Bautenschutz" statt "Beheizung"
+  in EnEV-Zweckbezug — bleibt Teil-Destillat), `din-277-1-2005.md` (Fundstellenfehler +
+  unbelegte "Pendant zu SIA 416"-Gleichsetzung — bleibt `established`, korrigiert).
+- BESTANDEN (4, auf/als `established` bestätigt): `din-4102-2-1977.md`, `din-18040-2-2011.md`,
+  `din-277-2-2005.md`, `vss-640050-1993.md`.
+- `destillate/INDEX.md` + `wiki/QUESTIONS.md` nachgeführt. Report:
+  `outputs/2026-07-13_normen-mini-run7.md`.
+- Fazit: 50% Fehlerquote in der Stichprobe bestätigt den Wert der Verifikations-Pflicht
+  (Rule 260712) — nächster Lauf setzt Stufe (b) mit weiteren ~15 unverifizierten
+  DIN/VSS-Destillaten fort, danach Stufe (c) Q&A-Selbstbefragung.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 6: Deepening-Stufe (a), SN 640 105a destilliert
 - Nach der KOMPLETT-Meldung in Run 5 gemäss Token-Vollgas-Eskalation (`training/PROGRAMM.md`,
   Rule 260712c) NICHT in den Leerlauf gegangen, sondern in die Vertiefungsstufen übergegangen.

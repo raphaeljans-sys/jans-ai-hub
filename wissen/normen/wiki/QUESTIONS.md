@@ -171,3 +171,23 @@
   (siehe oben). Verbleibende Deepening-Kandidaten für den nächsten Lauf: DIN EN 1627:2011
   (Vollnorm-Beschaffung), Retro-Verifikation bestehender DIN/VSS/RAL-Destillate mit
   unabhängigen Widerlegungs-Agenten, Q&A-Selbstbefragung je Kernnorm.
+- [x] **Mac Mini Run 7 (13.07.2026): Deepening-Stufe (b) Retro-Verifikation, 8 Destillate
+  geprüft, 4 Fehler gefunden und korrigiert.** Parallele Volltextabgleich-Verifikation
+  (Modell D, adversarial — Ziel Widerlegung) auf 8 DIN/VSS-Destillate: din-4102-1-1998
+  (BEANSTANDET: 2 Fehler — Verbundbaustoff-Grenze fälschlich als Verbot statt Beweislastregel,
+  Rauchprüf-Temperaturen 200-600°C vermischt zwei verschiedene Werte; korrigiert, bleibt
+  Teil-Destillat), din-4102-2-1977 (BESTANDEN → established), din-18040-1-2010 (BEANSTANDET:
+  2 komplett fehlende Kernziffern-Abschnitte — Ziff. 5.2.1 feste Bestuhlung, Ziff. 5.3.6
+  Liegen — trotz Behauptung "keine offenen Ziffern"; ergänzt und auf established gehoben),
+  din-18040-2-2011 (BESTANDEN → established), din-1946-6-2009 (BEANSTANDET: 1 Fehler —
+  "Bautenschutz" statt "Beheizung" in Ziff. 3.1.25-Anmerkung, EnEV-§6-Zweckbezug verfälscht;
+  korrigiert, bleibt Teil-Destillat ~25%), din-277-1-2005 (BEANSTANDET: Fundstellenfehler
+  Ziff. 2/S.3 statt Ziff. 1/S.2, unbelegte "deutsches Pendant zu SIA 416"-Gleichsetzung,
+  fehlende Wandöffnungen in KGF-Beispielen; korrigiert, bleibt established), din-277-2-2005
+  (BESTANDEN, bleibt established), vss-640050-1993 (BESTANDEN, bleibt established). Fazit:
+  die Verifikations-Pflicht (Rule 260712) greift — 4 von 8 Stichproben (50%) hatten reale,
+  wenn auch kleine, inhaltliche Fehler; Retro-Verifikation bestehender "destilliert"-Bestände
+  ist substanziell wertvoll, nicht nur Formalität. Nächster Lauf: weitere Stichprobe aus den
+  verbleibenden ~15 unverifizierten DIN/VSS-Destillaten (Kandidaten: din-18065-2000,
+  din-18299-2010, din-4844-2-2001, vss-640060/066/281/578), danach Stufe (c)
+  Q&A-Selbstbefragung.
