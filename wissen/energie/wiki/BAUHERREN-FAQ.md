@@ -2132,10 +2132,16 @@ Druckdifferenz während der Messung. Die Kenngrösse qE50 bezieht sich auf die *
 Passivhaus-Faustwerten (n50 ≤ 0,6 h⁻¹) ist deshalb nicht ohne Umrechnung möglich. Wichtig für
 die Bauplanung: die Messung sollte **vor Fertigstellung der Bekleidung** («vorgezogene
 Messung») angesetzt werden — danach sind gefundene Leckagen nur noch mit Rückbau behebbar.
+**Wichtige Ergänzung:** Auch **ohne** Minergie-Zertifizierung gilt eine Luftdichtheits-Anforderung
+— die Norm **SIA 180:2014 selbst** setzt für jedes Schweizer Gebäude Grenzwerte (Neubau
+2,4 m³/(h·m²) bei natürlicher / 1,6 bei mechanischer Lüftung, Umbau 3,6/2,4; Zielwerte 0,6/1,2),
+die allerdings lockerer sind als die Minergie-Grenzwerte — Minergie verschärft die SIA-Norm,
+ersetzt sie nicht. Bei Wohnüberbauungen müssen zudem nicht alle Wohnungen einzeln gemessen
+werden (Tabelle 7 RiLuMi gibt die nötige Stichprobengrösse vor, z.B. 6-9 von 10 gleichen Einheiten).
 
 **Quelle:** Minergie/theCH «Richtlinie Luftdichtheit bei Minergie-Bauten (RiLuMi)», Version
-2022.1 (S. 1-8 vollständig gelesen) → `[[rilumi-minergie-luftdichtheit-n50]]`. Status
-established (Grenzwerttabelle amtliche Primärquelle).
+2022.1, vollständig gelesen (Run 55, curl+pdftotext, alle 8 Kapitel + Anhang) →
+`[[rilumi-minergie-luftdichtheit-n50]]`. Status established (amtliche Primärquelle vollständig).
 
 ## F64 — «Muss ich mein Haus an die Fernwärme anschliessen, wenn die Gemeinde einen Wärmeverbund baut?»
 

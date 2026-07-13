@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.07.2026 20:32:04
+Stand: 13.07.2026 20:42:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:12)
@@ -19,4 +19,4 @@ Stand: 13.07.2026 20:32:04
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1d980cd7 nas-selfcommit: 2 Datei(en) 2026-07-13 20:30
+- f98aae52 sync: twin-fidelity-review: 2026-07-13 Siebtlauf (Fidelity 93, 2 neue Drift-Punkte, 3 neue Fragen)

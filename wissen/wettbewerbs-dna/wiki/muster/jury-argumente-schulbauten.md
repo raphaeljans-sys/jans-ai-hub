@@ -1,9 +1,9 @@
 ---
-title: "Jury-DNA Schul- und Bildungsbauten — was in Schweizer Schulwettbewerben gewinnt (Synthese aus 15 Juryberichten)"
+title: "Jury-DNA Schul- und Bildungsbauten — was in Schweizer Schulwettbewerben gewinnt (Synthese aus 11 ausgewerteten Juryberichten)"
 status: draft
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources:
-  - "15 destillierte Referenz-Juryberichte in wiki/extern/ (2012–2022, überwiegend Schul-/Bildungsbau)"
+  - "11 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (von 17 dort destillierten; 2012–2022, überwiegend Schul-/Bildungsbau)"
 links:
   - "[[delta-zum-ersten-rang]]"
   - "[[extern/jurybericht-bruehl-solothurn]]"
@@ -25,17 +25,27 @@ links:
 
 # Jury-DNA Schul- und Bildungsbauten
 
-Verdichtung aus 15 destillierten Juryberichten (2012–2022, Kt. BS/BL/BE/AG/ZH/SG/LU;
-offene und selektive Verfahren, 8 bis 70 Beitraege) plus den drei eigenen JANS-Schulbau-
-Teilnahmen (2102 Muttenz, 2103 Steinhof, 2206 Schoental). Ziel: die wiederkehrenden
-Entscheidungsmuster so fassen, dass Typologie- und Programmwahl fuer den 1. Platz belegt
-gesteuert werden koennen. Jede These ist mehrfach quellenbelegt (Verweise auf die
-Extern-Notizen). Kernbefund deckt sich mit [[delta-zum-ersten-rang]]: **Architektur ist
-Eintrittsbedingung, gewonnen wird auf der Betriebs-/Paedagogik-Ebene.**
+Verdichtung aus **11 aktiv ausgewerteten** Juryberichten (von 17 in `wiki/extern/`
+destillierten; 2012–2022, Kt. BS/BL/BE/AG/ZH/SG/LU; offene und selektive Verfahren, 8 bis
+70 Beitraege) plus den drei eigenen JANS-Schulbau-Teilnahmen (2102 Muttenz, 2103 Steinhof,
+2206 Schoental). Fuenf weitere destillierte Berichte (Littau-Luzern, Thurgauerstrasse
+Zuerich, Turnhalle/Tagesschule Baetterkinden, Volksschule Stoeckacker Bern, Zelgli
+Schlieren) sowie Sursee sind fuer eine Folgeverdichtung verfuegbar, aber noch nicht
+ausgewertet (siehe «Offene Punkte»). Ziel: die wiederkehrenden Entscheidungsmuster so
+fassen, dass Typologie- und Programmwahl fuer den 1. Platz belegt gesteuert werden koennen.
+Jede These ist mehrfach quellenbelegt (Verweise auf die Extern-Notizen). Kernbefund deckt
+sich mit [[delta-zum-ersten-rang]]: **Architektur ist Eintrittsbedingung, gewonnen wird auf
+der Betriebs-/Paedagogik-Ebene.**
+
+**Verifikations-Hinweis (13.07.2026):** Diese Fassung wurde nach einem unabhaengigen
+Refuter-Lauf (`outputs/2026-07-13_refuter-jury-argumente-schulbauten.md`, Verdikt «nicht
+bestanden») ueberarbeitet: mehrere Fehlzuordnungen von Zitaten, ein Kategorisierungsfehler
+und die uebertriebene Quellenzahl wurden korrigiert (Details unten je Fundstelle sowie im
+CHANGELOG).
 
 ## 1. Die Rangordnung der Kriterien (empirisch, nicht die Ausschreibungs-Reihenfolge)
 
-Ueber alle 15 Verfahren zeigt sich dieselbe faktische Gewichtung — unabhaengig davon, ob
+Ueber alle 11 ausgewerteten Verfahren zeigt sich dieselbe faktische Gewichtung — unabhaengig davon, ob
 das Programm die Kriterien gewichtet oder als Gesamtwuerdigung fuehrt:
 
 1. **Staedtebauliche Setzung + resultierende Aussenraeume** — der Filter des 1. Rundgangs.
@@ -67,7 +77,7 @@ Aus den 15 Siegerprojekten laesst sich pro Aufgabenzuschnitt ein praemiertes Mus
 | Schul-Erweiterung im Dorf-/Landkontext | **flache, eingeschossige Zeile/Anbau** (Betrieb + Erschliessungsflaeche geben Geschossigkeit vor) | Grossaffoltern (Jury: mehrgeschossig hier funktional nachteilig; einziger 2-gesch. Beitrag = Rang 5) |
 | Schulanlage im heterogenen Quartier | **Ensemble/Mehrkoerper**, das Koernung + Durchlaessigkeit des Quartiers weiterbaut | Sandgruben «Fit & Fertig?», Muhen «MAMMA MUHHH» |
 | Erweiterung in denkmalwuerdiger Gesamtanlage | **intelligenteste Fortschreibung der Bestandsregel** (Raster, Volumenhierarchie), nicht die Gegenthese | Baden «achtmalacht» (Raster Haller 8×8), Heilpaed. Bern «Am Bach» (Geometrie Statthalter-Schulhaus) |
-| Grosse Kantonsschule / Lernlandschaft | **kompakter Grossbaukoerper mit zentralem Atrium** als «Schullandschaft», dezentrale Lernorte | Wattwil «CELESTE», Froeschmatt «LUNGO» (Zeile mit Clustern) |
+| Grosse Kantonsschule / Sekundarschule mit Lernlandschaft | **kompakter Grossbaukoerper mit zentralem Atrium** als «Schullandschaft», dezentrale Lernorte | Wattwil «CELESTE» (Kantonsschule), Froeschmatt «LUNGO» (**Sekundarschule** Pratteln, nicht Kantonsschule — Zeile mit Clustern) |
 | Inklusion/Sonderschule | **gegliederter Solitaer** (differenzierte Aussenraeume) mit ablesbarem Zusammenhalt (ein Dach, eine Halle) | Heilpaed. Bern «Am Bach» |
 
 Regel: Die Typologie wird nicht «gewaehlt», sondern **aus Ort, Bestand und Betrieb

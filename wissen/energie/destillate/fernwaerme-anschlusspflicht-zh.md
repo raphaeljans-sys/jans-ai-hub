@@ -1,10 +1,10 @@
 ---
-quelle: § 295 Abs. 2 Planungs- und Baugesetz (PBG) Kanton Zürich (LS 700.1) + Merkblatt «Fernwärmeanschluss» Stadt Zürich (stadt-zuerich.ch, Amt für Baubewilligungen)
+quelle: § 295 Planungs- und Baugesetz (PBG) Kanton Zürich (LS 700.1) — Wortlaut Abs. 1+2 direkt via ortsplanung.ch verifiziert (curl, Run 55) + Merkblatt «Fernwärmeanschluss» Stadt Zürich (stadt-zuerich.ch, Amt für Baubewilligungen)
 herausgeber: Kanton Zürich (Kantonsrat) / Stadt Zürich (Amt für Baubewilligungen AfB)
-ausgabe: Web, § 295 PBG via Sekundärzitate (ortsplanung.ch, baurekursgericht-zh.ch) + Stadt-Zürich-Merkblatt direkt gelesen
-gelesen: 2026-07-13 (WebFetch/WebSearch, kein Volltext-PDF; § 295 Wortlaut nicht vollständig verifizierbar — als Lücke markiert)
+ausgabe: Web, § 295 PBG Wortlaut Abs. 1+2 (ortsplanung.ch reproduziert den Gesetzestext direkt, per curl gegengelesen) + Stadt-Zürich-Merkblatt direkt gelesen
+gelesen: 2026-07-13 Run 54 (Sekundärzitate) + 2026-07-13 Run 55 (Wortlaut Abs. 1+2 direkt verifiziert — § 295 PBG hat nur 2 Absätze, nicht 3 wie in Run 54 vermutet)
 datenstand: 2026-07-13, § 295 seit Energiegesetz-Revision 25.06.1995 unverändert in der Grundstruktur (Datum der aktuellsten PBG-Fassung nicht geprüft)
-status: emerging
+status: established
 last_updated: 2026-07-13
 ---
 
