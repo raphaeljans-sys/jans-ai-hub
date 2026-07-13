@@ -1,3 +1,24 @@
+## 2026-07-14 — Normen-Mini-Run 17 (Mac Mini): Retro-Verifikation 13 DIN/VSS-Destillate, 9 substanzielle Fehler korrigiert
+- Stufe (b) Retro-Verifikation fortgesetzt: 13 unverifizierte DIN/VSS-Destillate parallel gegen
+  die Original-PDFs geprueft (din-18041-2004, vss-700.5-1987, vss-722.15-1983,
+  vss-merkblatt-veloabstellplaetze-1998, din-1249-11-1986, din-68119-1996, din-4426-2001,
+  din-1072-beiblatt1-1988, din-1076-1999, din-1164-10-2004, din-1356-1-1995,
+  din-18560-2-2009, vss-640291a-2005-parkieren-anordnung-geometrie).
+- 9 von 13 hatten substanzielle Beanstandungen (Fundstellen-/Zuordnungsfehler oder fehlende
+  praxisrelevante Ziffern), alle direkt im Fliesstext korrigiert: DIN 18041 (Tab.1 Zeile II +
+  Anhang D Zuschlaege vermischt), VSS 722.15 (§5/§6-Fundstelle verdreht, §13 fehlte),
+  VSS Merkblatt Velo (PPV faelschlich kantonal statt staedtisch), DIN 4426 (Ziff. 5.2.2.1
+  ODER/UND-Fehler, Ziff. 6.1.2/6.2.2/6.2.3/8 fehlten komplett), DIN 1072 Beiblatt1
+  (Regelklassen-Zuordnung 130 kN verdreht, Anwendungsbereich fehlte), DIN 1076 (Ziff. 5.5
+  Konditional-/Pflicht-Aussage verschmolzen), DIN 1164-10 (Tippfehler Bauregelliste), DIN
+  1356-1 (Ziff. 3.1/12.4/12.6-7 ergaenzt), VSS 640291a (Motorrad-Parkfeld-Laenge frei erfundener
+  2,50-m-Wert). 4 ohne Beanstandung (VSS 700.5, DIN 1249-11, DIN 68119 dritte Pruefrunde,
+  DIN 18560-2 nur Praezisierungen).
+- Alle 13 Destillate auf `status: established` mit Verifikations-Vermerk 260714;
+  `destillate/INDEX.md` nachgefuehrt. Damit sind alle bisher unverifizierten DIN/VSS-Kernnormen
+  aus der Retro-Verify-Warteschlange (Stand Run 9) abgearbeitet.
+- Report: `outputs/2026-07-14_normen-mini-run17.md`.
+
 ## 2026-07-14 — Retro-Verifikation `vkf-brl-26-15-gefaehrliche-stoffe` (Run 7): 2 substanzielle Luecken ergaenzt
 - Destillat vollstaendig (26/26 Seiten) gegen Original "Gefährliche Stoffe.pdf" (OneDrive
   PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/) geprueft. Alle Kernziffern
@@ -649,25 +670,4 @@
 - **Datenstand geklärt:** `ersetzte_normen.pdf` = SIA-Rückzugs-/Ersatz-Register, Stand
   **25.02.2013**; `Gesamtverzeichnis SIA.pdf` = Produkt-/Preiskatalog **~2002** (kein
   Gültigkeitsregister). → QUESTIONS-Punkt 1 beantwortet.
-- **`wiki/REGISTER.md` aufgebaut** (330 Zeilen): SIA-Gültigkeit je Norm (Stand 2013),
-  Ausgaben-Ketten (✓/✗), Bestand-Abgleich gegen das Inventar, grosse Umnummerierungen
-  (26x-Tragwerksreform, 118/xxx-Integration, 116→416, 462→269), Mehrfach-Ausgaben-Flags,
-  Nicht-SIA-Familien (VKF 2015, DIN/VSS/RAL). Ehrlicher Hinweis: Register bildet 2013 ab,
-  Post-2013-Revisionen als Bestands-Abgleich markiert, nicht erfunden.
-- **2 Destillate:** `sia-register-2013.md`, `sia-gesamtverzeichnis-2002.md` (+ INDEX).
-- **Inventar nachgeführt:** beide Register-PDFs `[x] 260711`; Mehrfach-Ausgaben markiert
-  (SIA 102 2014→2020, 111 2003→2014, 108 2003→2014, 142 1998→2009, 273, 329, 384.201).
-- **Wichtige Befunde:** SIA 118 im Bestand = 1991, gültig wäre 118:2013 (Flag in QUESTIONS);
-  SIA 102 Bestand 2020 (jünger als Register-Stand 2003, vermutlich aktuell).
-- Report: `outputs/2026-07-11_normen-nacht-run1.md`. Nächster Lauf: P1-Destillate (SIA 102/103/105/…).
-
-## 2026-07-11
-- KB angelegt (Gerüst nach WISSEN-CLAUDE.md: raw/wiki/outputs + destillate/ + training/).
-- `training/norm-inventar.md` automatisch erzeugt: 528 Dateien über die Familien
-  SIA (inkl. Gesamtverzeichnis), VKF, DIN, VSS, RAL gescannt; Prioritäten gesetzt
-  (P1 = Skill-Kernnormen SIA 102/103/105/111/112/118/380/416/451 + VKF Norm/Richtlinien).
-- Skill `normen` (Router) und Rule `normen-referenz` erstellt; Nacht-Loop
-  `normen-training-nacht` (täglich 22:00) aufgesetzt.
-- Entscheide Raphael 11.07.2026: alle Norm-Familien im Scope; SharePoint bleibt
-  einzige PDF-Quelle (keine Kopien); Zugriff via Skill + Rule; Destillierung im
-  nächtlichen Loop bis das Inventar abgearbeitet ist.
+- **

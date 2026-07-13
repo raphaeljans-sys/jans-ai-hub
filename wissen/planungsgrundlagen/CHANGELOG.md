@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 36 (Brandschutz + Energie, Token-Vollgas): vier VKF-Richtlinien §5v-§5y + Pronovo-Foerdersystematik
+- **Brandschutz:** vier weitere VKF-Einzelrichtlinien aus dem B27-Rest-Backlog gelesen und als
+  §5v-§5y in [[brandschutz-pl03-wegweiser]] eingearbeitet — **BSR 12-15** (Sicherheitsbeauftragter-
+  Pflicht Beherbergung [a]/>2'400 m² VF/>300 Pers./>10'000 m² BA-Flaeche + Sprachalarmierung ab
+  50/300 Betten + Dekorations-RF2/RF3 + Geruestbekleidung ≥0.8 m), **BSR 22-15** (Blitzschutzpflicht
+  Spital/Pflegeheim/Hochhaus >30 m + Blitzschutzklasse III/II je Nutzung, SEV 4022/SN EN 62305),
+  **BSR 24-15** (Heizraum EI 30 bis 70 kW / EI 60 >70 kW, direkter Freien-Zugang >1'200/600 kW,
+  Sicherheitsabstaende 0.1/0.2/0.4 m, gewerbliche Kueche EI 30 + Schuerze RF1), **BSR 25-15** (BSK
+  EI 30-S + Verzichts-Schwellen ≤1'200/600 m², Kuechenabluft-Staffel 4'000/12'000 m³/h EI 60,
+  erhoehte Lufttemperatur ≥85 °C). Sources-Frontmatter + Wegweiser-Fragen-Block + INDEX-Zeile
+  ergaenzt (inkl. Reparatur der in Run 34 abgeschnittenen INDEX-Brandschutz-Zeile).
+- **Energie:** NEU [[energie-betriebsenergie-pv-wirtschaftlichkeit]] (emerging) — schliesst die in
+  [[energie-uebersicht]] §Betriebsenergie offen gebliebene «aktuelle KLEIV-Ansaetze»-Frage mit der
+  belegten **Pronovo-Einmalverguetungs-Systematik** (KLEIV 2-<100 kWp / GREIV 100 kW-50 MW / HEIV,
+  Grundbeitrag + degressiver Leistungsbeitrag, max. 30 % Referenz-Investition, Neigungswinkelbonus
+  250→400 / 100→200 CHF/kW ab 01.01.2025, Parkflaechenbonus 250 CHF/kW, Senkung ≤30 kW + ≥100 kW je
+  -20 CHF/kW ab 01.04.2025; absolute Saetze bewusst nur via Tarifrechner). Der EFH-Betriebskosten-
+  Fall (Run 27) wurde re-verifiziert, aber NICHT dupliziert; Cross-Updates in [[energie-uebersicht]]
+  und [[energie-pv-eignung-typenwahl]] §3 (neue Fall-Tabellenzeile, CHF/kWp «nicht isolierbar»).
+- Register: `raw/_INGESTED.md` (2 Zeilen), `training/curriculum.md` (B28, E30), `wiki/QUESTIONS.md`
+  (C10, D5-Ergaenzung, D8 erledigt, D9 offen: MFH/ZEV-Fall + Steuerabzug), `wiki/INDEX.md`.
+- Leitplanke eingehalten: keine erfundenen CHF/kWp-Foerdersaetze (dynamischer Tarifrechner), Web-
+  Datenstand 2026-07-14 vermerkt, Norm-Richtlinien verlinkt statt abgeschrieben.
+
 ## 2026-07-13 — Training Run 35 (Recht & Norm, Token-Vollgas): «Richtprojekt»/Ueberbauungsordnung neu + Raumpilot-Fehlannahme korrigiert
 - Systematischer Top-Level-Ordnerabgleich PL-01/PL-02 gegen das Curriculum (Methodik analog
   Run 31 K27/K28/K31): Kartenportale bestaetigt erschoepft (994 Dateien, kein neuer Ordner, keine

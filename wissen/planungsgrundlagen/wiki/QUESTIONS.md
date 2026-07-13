@@ -389,6 +389,15 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   (vertikale Fluchtwege) dagegen Mindestbreite 1.2 m gerade / 1.5 m gewendelt, reduzierbar auf 0.9 m
   bei max. 1 OG+1 UG; Brandschutzabschluss-Verzicht horizontal↔vertikal bei ≤ 900 m²/Fluchtweg
   → [[brandschutz-pl03-wegweiser]] §4b.
+- [x] **C10 (Run 36, 2026-07-14)** Vier weitere VKF-Einzelrichtlinien aus dem B27-Rest-Backlog
+  (Blitzschutz 22-15, Brandverhuetung/organisatorisch 12-15, Waermetechnische 24-15, Lufttechnische
+  25-15) → NEU §5v-§5y [[brandschutz-pl03-wegweiser]]: **§5v** Sicherheitsbeauftragter-Pflicht +
+  Sprachalarmierung ab 50/300 Betten + Dekorations-RF + Geruestbekleidung ≥0.8 m; **§5w**
+  Blitzschutzpflicht Spital/Pflegeheim/Hochhaus + Blitzschutzklasse III/II (SEV 4022); **§5x**
+  Heizraum EI 30/60 ab 70 kW + Sicherheitsabstaende 0.1/0.2/0.4 m + gewerbliche Kueche; **§5y** BSK
+  EI 30-S + Verzichts-Schwellen ≤1'200/600 m² + Kuechenabluft-Staffel EI 60 + ≥85 °C. **Rest-Backlog
+  niedrige Prioritaet (offen):** Baustoff&Bauteile 13-15 (teils via Merkblatt §2), Gefaehrliche
+  Stoffe 26-15, DIN EN 12101-2, Brandmauern 100-15 (Datei 0-Byte/nicht synchronisiert).
 
 - [x] **C1** Klaeren, ob ein duenner Verweis-Artikel auf `brandschutz` reicht oder PL-03-
   Spezifika (Brandschutznachweis-Vorlagen) hier referenziert werden sollen. ✓ **2026-06-22 (Run 8):**
@@ -517,7 +526,21 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   realer JANS-Schlussabrechnung (bisherige CHF sind Modul-Liste/Band); SolarApp = Vorprojekt-
   Schaetzung, an Schlussabrechnung verifizieren. **Archivsuche 2026-07-13 (Run 20):** kein
   abgerechnetes PV-Projekt im JANS-Bestand gefunden (nur Referenz-/Planungsunterlagen) — bleibt
-  offen bis ein reales Projekt mit PV-Schlussabrechnung anfaellt.
+  offen bis ein reales Projekt mit PV-Schlussabrechnung anfaellt. **Ergaenzung 2026-07-14 (Run 36):**
+  Betriebsenergie-EFH-Fall als neue Tabellenzeile in §3 (PV 14 kWp + Batterie + Boiler gebuendelt
+  36'000 CHF, CHF/kWp nicht isolierbar) → verweist auf [[energie-betriebsenergie-pv-wirtschaftlichkeit]].
+- [x] **D8 (Run 36, 2026-07-14)** Pronovo-Einmalverguetungs-Foerdersystematik (schliesst die in
+  [[energie-uebersicht]] §Betriebsenergie offen gebliebene «aktuelle KLEIV-Ansaetze»-Frage): NEU
+  [[energie-betriebsenergie-pv-wirtschaftlichkeit]] — KLEIV 2-<100 kWp / GREIV 100 kW-50 MW / HEIV,
+  Grundbeitrag + degressiver Leistungsbeitrag, max. 30 % Referenz-Investition, Neigungswinkelbonus
+  (integriert 250→400 / angebaut 100→200 CHF/kW ab 01.01.2025), Parkflaechenbonus 250 CHF/kW,
+  Leistungsbeitrag-Senkung ≤30 kW + ≥100 kW je -20 CHF/kW ab 01.04.2025; absolute Saetze bewusst nur
+  via Tarifrechner (dynamisch). Datenstand Web 2026-07-14.
+- [ ] **D9 (offen, neu Run 36)** Realer **MFH-/ZEV-Betriebskostenfall** (Eigenverbrauchsgemeinschaft,
+  GREIV ≥100 kWp) als Ergaenzung zum bisher nur belegten EFH-Fall — die EFH-Amortisationslogik ist
+  nicht 1:1 auf Rendite-/Areal-Objekte uebertragbar. Faellt an, sobald ein reales JANS-MFH-PV-
+  Projekt mit Verbrauchs-/Kostendaten vorliegt. Ebenso offen: belegte Herleitung des kantonalen
+  **Steuerabzugs energetische Sanierung** (ZH/SZ), im EFH-Fall pauschal mit der Foerderung verrechnet.
 - [x] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload).
   ✓ **2026-07-04 (Run 14):** aus EnDK-Schulung V1.4 (13.10.2025, Kantone mit Privater Kontrolle)
   belegt — **Rollen** (Projektkoordination legt an/reicht ein/beauftragt PK · Nachweisverfassung

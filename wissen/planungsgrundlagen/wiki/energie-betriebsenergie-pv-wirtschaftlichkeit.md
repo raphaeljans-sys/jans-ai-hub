@@ -1,123 +1,88 @@
 ---
-title: Betriebsenergie & PV-Wirtschaftlichkeit — realer EFH-Sanierungsfall + Pronovo-Foerderung
+title: PV-Foerderung (Pronovo Einmalverguetung) & Wirtschaftlichkeit
 status: emerging
 last_updated: 2026-07-14
-sources: [PL - 04 Energie/_Betriebsenergie (15 Screenshots aus einer Sanierungs-/Betriebskosten-Praesentation "Facts & Figures", real gemessene Verbrauchs-/Kostenreihen 2017-2021 eines EFH Baujahr 1957), Pronovo AG "Neuerungen Einmalverguetung Photovoltaik" (pronovo.ch, abgerufen 2026-07-14), Pronovo AG "Einmalverguetung (EIV) Photovoltaik" + Tarifrechner (pronovo.ch/de/services/tarifrechner), EnergieSchweiz "Einmalverguetungen | Investitionsbeitraege" (energieschweiz.ch, abgerufen 2026-07-14)]
-links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]], [[energie-heizwaermebedarf-waermeerzeugerleistung]], [[energie-pv-brandschutz]]
+sources: [Pronovo AG "Neuerungen Einmalverguetung Photovoltaik" (pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik, abgerufen 2026-07-14), Pronovo AG "Einmalverguetung (EIV) Photovoltaik" + Foerderung-Uebersicht (pronovo.ch/de/foerderung, abgerufen 2026-07-14), Pronovo Tarifrechner (pronovo.ch/de/services/tarifrechner), EnergieSchweiz "Einmalverguetungen | Investitionsbeitraege" (energieschweiz.ch/wohnen/einmalverguetungen, abgerufen 2026-07-14), realer Betriebskosten-Fall EFH 1957 → [[energie-uebersicht]] §Betriebsenergie]
+links: [[energie-uebersicht]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]]
 ---
 
-# Betriebsenergie & PV-Wirtschaftlichkeit — realer EFH-Sanierungsfall + Pronovo-Foerderung
+# PV-Foerderung (Pronovo Einmalverguetung) & Wirtschaftlichkeit
 
-Der **Wirtschaftlichkeits-/Betriebsenergie-Artikel** der Domaene Energie: nicht «welcher PV-Typ»
-(→ [[energie-pv-eignung-typenwahl]]) und nicht «wie hoch ist der Heizwaermebedarf»
-(→ [[energie-heizwaermebedarf-waermeerzeugerleistung]]), sondern **«lohnt sich die Massnahme, und
-in wie vielen Jahren zahlt sie sich zurueck»** — die Frage, die der Bauherr im Erstgespraech
-stellt. Gestuetzt auf **real gemessene Betriebskosten** eines EFH-Sanierungsfalls plus die
-**aktuelle Pronovo-Foerdersystematik**. Speist die Bauherren-FAQ und den Agenten
-`wirtschaftlichkeit-rechner` (Annuitaet/Amortisation).
+Der **Foerder-/Wirtschaftlichkeits-Artikel** der Domaene Energie: **welche Bundesfoerderung eine
+PV-Anlage bekommt und wie sie sich rechnet** — die Zahl, die im Bauherren-Gespraech den Ausschlag
+gibt. Schliesst die in [[energie-uebersicht]] §Betriebsenergie offen gebliebene Frage «aktuelle
+KLEIV-Ansaetze» mit belegter Foerdersystematik. Der reale **Betriebskosten-/Amortisationsfall**
+(EFH 1957, PV + Batterie + WP-Boiler, ~7 J Amortisation) steht dort und wird hier **nicht
+wiederholt**, sondern nur als Groessenordnung referenziert.
 
-## 1 — Realer Benchmark: EFH Baujahr 1957, Etappensanierung 2019–2021
+## 1 — Pronovo-Einmalverguetung (EIV): die Foerdersystematik (Stand 2026-07)
 
-Quelle: `PL - 04 Energie/_Betriebsenergie/` — 15 Screenshots einer Betriebskosten-Praesentation
-mit **effektiv abgelesenen Jahreswerten 2017–2021** (kein Modell, gemessene Rechnungsbetraege).
-Der Fall ist ein Musterbeispiel der **schrittweisen Dekarbonisierung** eines Altbaus.
+Die **Einmalverguetung (EIV)** ist der einmalige Bundesbeitrag an PV-Anlagen; Vollzug durch die
+**Pronovo AG** (`pronovo.ch`). Sie deckt **hoechstens 30 % der Investitionskosten einer
+Referenzanlage** ab. Drei Kategorien nach Leistung:
 
-**Objekt & Massnahmen (Facts & Figures):**
-- EFH **Baujahr 1957**, beheizte Flaeche **120 m²**, Ausgangszustand **Gasheizung**.
-- **PV 14 kWp** (2019), **Warmwasser-Waermepumpen-Boiler** (2019), **Batteriespeicher 11.5 kWh**
-  (2019), **Dachdaemmung** (2021), **Fussbodenheizung 1 Raum** (2021).
+| Kategorie | Leistungsbereich | Anmerkung |
+|---|---|---|
+| **KLEIV** (Kleine EIV) | **2 bis < 100 kWp** | EFH/MFH, Standardfall JANS |
+| **GREIV** (Grosse EIV) | **100 kWp bis 50 MWp** | groessere Anlagen, Gewerbe/Areal |
+| **HEIV** (Hochalpine EIV) | — | hochalpine Anlagen, hier nicht vertieft |
 
-**Gemessene Betriebskosten (CHF/Jahr, inkl. Abgaben und MwSt.):**
+**Aufbau des Beitrags = Grundbeitrag + Leistungsbeitrag:**
+- **Grundbeitrag:** Pauschale je Anlage, abhaengig von der Bauart (angebaut/freistehend vs.
+  integriert).
+- **Leistungsbeitrag:** CHF pro kWp, **degressiv gestaffelt** nach Leistungsklasse (die ersten kWp
+  hoeher verguetet als die oberen; Klassen u.a. bis 30 kW / 30–100 kW / ab 100 kW).
 
-| Groesse | 2017 | 2018 | 2019 | 2020 | 2021 |
-|---|---|---|---|---|---|
-| Gaskosten CHF/a | 2'530 | 2'555 | 2'438 | **1'775** | ~2'400 |
-| Strompreis Bezug CHF/kWh | 0.204 | 0.213 | 0.221 | 0.228 | 0.196 |
-| Einspeise-Verguetung CHF/kWh | — | — | 0.15 | 0.15 | 0.15 |
-| Total Strom/Gas-Rechnung (effektiv bezahlt) | 3'827 | 3'942 | 3'773 | **1'179** | **1'934** |
-| Kosten *ohne* Massnahmen (hypothetisch) | — | — | — | 3'922 | **5'695** |
-| Netto-Einsparung ggue. «ohne Massnahmen» | — | — | — | **−2'743** | **−3'761** |
-
-**Ablesbare Kern-Erkenntnisse (fuer das Bauherren-Argument):**
-- **Der Gasverbrauch fuers Warmwasser verschwindet:** Gaskosten fallen 2019→2020 von 2'438 auf
-  1'775 CHF, weil der **WW-Waermepumpen-Boiler** das Warmwasser uebernimmt (Gas nur noch Heizung).
-- **Eigenverbrauch schlaegt Einspeisung:** Bezug kostet **~0.20–0.228 CHF/kWh**, die Rueckliefer-
-  Verguetung liegt konstant bei **0.15 CHF/kWh**. Jede selbst verbrauchte kWh (PV + Batterie) ist
-  also **~0.05–0.08 CHF wertvoller** als eine eingespeiste — das ist die oekonomische Begruendung
-  fuer den **Batteriespeicher** und den WP-Boiler als Tag-Verbraucher.
-- **Die Ersparnis waechst mit dem Energiepreis:** 2021 waeren die Kosten *ohne* Massnahmen auf
-  **5'695 CHF** gestiegen (Gaspreis-Anstieg), effektiv bezahlt wurden nur **1'934 CHF** →
-  **3'761 CHF/a** Ersparnis. Eine PV-/WP-Investition ist damit zugleich eine **Absicherung gegen
-  Energiepreis-Volatilitaet**.
-
-**Amortisationsrechnung (aus der Praesentation, gerundet):**
-
-| Position | Betrag |
-|---|---|
-| Kosten der Anlage (PV 14 kWp + Batterie 11.5 kWh + WW-Boiler + Installation) | **CHF 36'000** |
-| − Abzug Pronovo (KLEIV) + Steuerabzug (energetische Sanierung) | **− CHF 15'000** |
-| = Kosten nach Foerderung & Steuern | **CHF 21'000** |
-| Einsparung pro Jahr (Gas/Strom/Einspeisung) | **~CHF 3'000** |
-| **Amortisationszeit** | **~7 Jahre** |
-
-Bei einer technischen PV-Lebensdauer von **25–30 Jahren** (vgl. [[energie-pv-eignung-typenwahl]])
-liegt die Amortisation damit klar im gruenen Bereich — anders als der dort dokumentierte
-Solarziegel-Fall (Amortisation 31 J → «nicht mehr wirtschaftlich»). **Merke:** der Unterschied
-liegt in der **Systemwahl** (Standard-Aufdach/-Indach + Eigenverbrauch statt teurem Solarziegel
-ohne Speicher) und im **Foerder-/Steuerhebel** (~40 % der Bruttoinvestition).
-
-⚠ Der Anlagenpreis von 36'000 CHF ist **gebuendelt** (PV + Batterie + Boiler); daraus laesst sich
-kein sauberer CHF/kWp-Wert nur fuer die PV isolieren. Als PV-Kennwert bleibt die Benchmark-Tabelle
-in [[energie-pv-eignung-typenwahl]] §3 massgebend; dieser Fall liefert die **Betriebs-/
-Amortisations-Seite**, nicht den Modul-Kennwert.
-
-## 2 — Pronovo-Einmalverguetung (EIV): die Foerdersystematik (Stand 2026-07)
-
-Die **Einmalverguetung (EIV)** ist der Bundesbeitrag an PV-Anlagen; Vollzug durch die **Pronovo AG**
-(pronovo.ch). Sie ersetzt fuer Neuanlagen das fruehere Einspeiseverguetungssystem und deckt
-**hoechstens 30 % der Investitionskosten einer Referenzanlage** ab. Zwei Kategorien nach Leistung:
-
-- **KLEIV** (Kleine Einmalverguetung): Anlagen **2 bis < 100 kWp**.
-- **GREIV** (Grosse Einmalverguetung): Anlagen **100 kWp bis 50 MWp**.
-  (zusaetzlich **HEIV** fuer hochalpine Anlagen; hier nicht vertieft.)
-
-**Aufbau des Beitrags:** **Grundbeitrag** (Pauschale, abhaengig ob angebaut/integriert) **+
-Leistungsbeitrag** (CHF pro kWp, **degressiv gestaffelt** nach Leistungsklasse — die ersten kWp
-werden hoeher verguetet als die oberen). Dazu kommen Boni:
-- **Neigungswinkelbonus** (Winterstrom-Anreiz, ab 01.01.2025 erhoeht): stark geneigte
+**Boni (obendrauf):**
+- **Neigungswinkelbonus** (Winterstrom-Anreiz, ab **01.01.2025** erhoeht): stark geneigte
   **integrierte** Anlagen **250 → 400 CHF/kW**; **angebaute/freistehende** **100 → 200 CHF/kW**.
-- **Parkflaechenbonus** (neu): **250 CHF/kW** fuer Anlagen ab 100 kW auf Parkplaetzen.
+- **Parkflaechenbonus** (neu): **250 CHF/kW** fuer Anlagen **ab 100 kW auf Parkplaetzen**.
 
-**Tarifanpassung ab 01.04.2025:** die Leistungsbeitraege **bis 30 kW** wurden um **je 20 CHF/kW
-gesenkt**, ebenso der Satz **ab 100 kW** um 20 CHF/kW.
+**Tarifanpassung ab 01.04.2025:** Leistungsbeitraege **bis 30 kW** um **je 20 CHF/kW gesenkt**,
+ebenso der Satz **ab 100 kW** um 20 CHF/kW.
 
-⚠ **Absolute CHF-Betraege bewusst nicht behauptet:** die genauen Grund-/Leistungsbeitraege sind
-zeit- und leistungsabhaengig und werden ueber den **Pronovo-Tarifrechner**
-(`pronovo.ch/de/services/tarifrechner`) mit **Inbetriebnahmedatum + kWp + Bauart** ermittelt. Fuer
-eine belastbare Bauherren-Zahl **immer den Tarifrechner rechnen**, nie einen Pauschalsatz aus dem
-Gedaechtnis nennen (Datenstand hier 2026-07-14 → bei Nutzung > 12 Monate Rechner erneut pruefen).
-Realer Anhaltspunkt fuer die Groessenordnung: im EFH-Fall oben deckten **Pronovo KLEIV + Steuer-
-abzug zusammen ~15'000 CHF** einer **36'000-CHF-Anlage** (~40 %; der reine EIV-Anteil liegt
-darunter, da hier der Steuerabzug mitgerechnet ist).
+**Erweiterungen:** Auch **Erweiterungen** bestehender PV-Anlagen (auch solcher im alten
+Einspeiseverguetungssystem EVS) sind EIV-berechtigt (Pronovo-News 2025).
+
+⚠ **Absolute Grund-/Leistungsbeitrags-Betraege bewusst NICHT als KB-Wert festgeschrieben:** sie
+sind zeit- und leistungsabhaengig und werden ueber den **Pronovo-Tarifrechner**
+(`pronovo.ch/de/services/tarifrechner`) mit **Inbetriebnahmedatum + kWp + Bauart** exakt ermittelt.
+Fuer eine belastbare Bauherren-Zahl **immer den Tarifrechner rechnen** — nie einen Pauschalsatz aus
+dem Gedaechtnis nennen. Datenstand hier **2026-07-14**; bei Nutzung > 12 Monate den Rechner erneut
+pruefen (Saetze werden periodisch angepasst, s. die 04/2025-Senkung). Der leere SharePoint-Ordner
+`PL - 04 Energie/pronovo.ch/` enthaelt keine Merkblaetter — Quelle ist die Website.
+
+## 2 — Wirtschaftlichkeit: belegte Groessenordnung
+
+Realer Anhaltspunkt aus dem EFH-Fall (Details → [[energie-uebersicht]] §Betriebsenergie): bei einer
+gebuendelten Anlage von **36'000 CHF** (PV 14 kWp + 11.5 kWh Batterie + WW-WP-Boiler) deckten
+**Pronovo KLEIV + Steuerabzug zusammen ~15'000 CHF** (~40 % der Bruttoinvestition; der reine
+EIV-Anteil liegt darunter, da der kantonale Steuerabzug fuer energetische Sanierung mitgerechnet
+ist). Netto 21'000 CHF, ~3'000 CHF/a Einsparung → **~7 Jahre Amortisation** bei 25–30 J
+PV-Lebensdauer.
+
+**Zwei oekonomische Kernhebel (aus demselben Fall belegt):**
+- **Eigenverbrauch schlaegt Einspeisung:** Netzbezug **~0.20–0.228 CHF/kWh** vs. Einspeise-
+  verguetung konstant **0.15 CHF/kWh** → jede selbst verbrauchte kWh ist ~0.05–0.08 CHF wertvoller.
+  Das begruendet **Batteriespeicher + Tag-Verbraucher** (WP-Boiler, Wallbox) oekonomisch.
+- **Absicherung gegen Energiepreis:** 2021 waeren die Kosten ohne Massnahmen auf 5'695 CHF
+  gestiegen; die Ersparnis waechst mit dem Energiepreis.
+
+Fuer den PV-**Kennwert** CHF/kWp bleibt die typdifferenzierte Benchmark-Tabelle in
+[[energie-pv-eignung-typenwahl]] §3 massgebend (Standard-Aufdach ~2'255, Solarziegel ~7'000+); der
+36'000-CHF-Paketpreis ist nicht in einen reinen PV-Wert isolierbar.
 
 ## 3 — Anwendung im JANS-Kontext
-
-- **Bauherren-Erstgespraech / Machbarkeit:** dieser Fall ist die belegte Antwort auf «lohnt sich
-  eine PV/WP-Sanierung» — Groessenordnung **~3'000 CHF/a Ersparnis, ~7 J Amortisation** bei
-  Standard-Aufdach + Speicher + WP-Boiler an einem Altbau, mit ~40 % Foerder-/Steuerhebel.
-- **Sanierungs-Reihenfolge:** der Fall zeigt die pragmatische Etappierung (erst PV+Batterie+
-  WW-WP als schnell amortisierende Bausteine, dann Huelle/Dach) — nicht «alles auf einmal».
-- **Wirtschaftlichkeits-Rechnung:** Eingangsgroessen fuer den `wirtschaftlichkeit-rechner`
-  (Investition, Foerderung, jaehrliche Einsparung, Diskont/Lebensdauer) belegt aus realen Werten
-  statt geraten.
-- **Grenze:** ein EFH-Fall ist **kein** MFH-/Healthcare-Kennwert. Fuer Rendite-/Nutzwertobjekte
-  (groessere Anlagen → **GREIV**, Contracting/ZEV-Eigenverbrauchsgemeinschaft) muss der Fall um ein
-  reales MFH-Beispiel ergaenzt werden (offen, → QUESTIONS D-Sektion).
+- **Machbarkeit/Erstgespraech:** EIV-Groessenordnung ~30 % der Referenz-Investition + Steuerabzug →
+  netto ~40 % Foerderhebel bei EFH; konkrete Zahl aus dem Tarifrechner ziehen.
+- **Studientyp GREIV vs. KLEIV:** bei Rendite-/Areal-Objekten (> 100 kWp) gilt **GREIV** mit anderer
+  Staffelung + Parkflaechenbonus — nicht die EFH-Logik uebertragen.
+- **`wirtschaftlichkeit-rechner`:** liefert Investition/Foerderung/Einsparung als belegte
+  Eingangsgroessen fuer Annuitaet/Amortisation.
 
 ## Offene Punkte
-- Absolute Pronovo-Grund-/Leistungsbeitraege (CHF, gestaffelt) nur ueber den dynamischen
-  Tarifrechner belegbar — kein statischer Tabellenwert in der KB (bewusst so belassen).
-- Realer **MFH-/Mehrparteien-Betriebskostenfall** (ZEV/Eigenverbrauchsgemeinschaft, GREIV) fehlt
-  noch — der EFH-Fall deckt nur das Einfamilienhaus ab.
-- Steuerabzug energetische Sanierung: kantonal unterschiedlich (ZH/SZ), im Fall pauschal mit der
-  Foerderung verrechnet — separate belegte Herleitung waere ein Folge-Artikel.
+- Absolute Grund-/Leistungsbeitraege (CHF, gestaffelt) nur ueber den dynamischen Tarifrechner —
+  bewusst kein statischer KB-Wert.
+- Realer **MFH-/ZEV-Fall** (Eigenverbrauchsgemeinschaft, GREIV) fehlt — der belegte Fall ist ein EFH.
+- Kantonaler **Steuerabzug energetische Sanierung** (ZH/SZ) im Fall pauschal mit der Foerderung
+  verrechnet — separate belegte Herleitung waere ein Folge-Artikel.

@@ -93,10 +93,11 @@ ausgewiesenen Spareffekt.
 abzueglich Foerderung **Pronovo Einmalverguetung (KLEIV)** und Steuerabzug −15'000 CHF ⇒
 Nettokosten 21'000 CHF. Bei einer belegten Einsparung von 5'958 CHF ueber 2 Jahre (≈ 3'000 CHF/
 Jahr) ergibt sich eine **Amortisationszeit von rund 7 Jahren**. Die Einmalverguetung fuer
-Kleinanlagen (KLEIV, PV < 100 kWp) wird ueber **Pronovo** (`pronovo.ch`) abgewickelt — der
-gleichnamige SharePoint-Ordner `PL - 04 Energie/pronovo.ch/` ist leer (keine Formulare/Merkblaetter
-abgelegt); fuer die aktuellen KLEIV-Ansaetze/Formulare direkt auf pronovo.ch nachschlagen, sobald
-ein Projekt das braucht.
+Kleinanlagen (KLEIV, PV < 100 kWp) wird ueber **Pronovo** (`pronovo.ch`) abgewickelt — die
+Foerdersystematik (KLEIV/GREIV/HEIV, Grundbeitrag + degressiver Leistungsbeitrag, Neigungs-/
+Parkflaechenbonus, Tarifrechner, Stand 2026-07) ist in [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
+belegt aufbereitet; der gleichnamige SharePoint-Ordner `PL - 04 Energie/pronovo.ch/` ist leer
+(Quelle = Website).
 
 *Status:* `emerging` — ein einzelnes, nicht-JANS-eigenes Fallbeispiel ohne Primaerquellen-Beleg
 (Urheber/Publikationsdatum des Screenshots nicht bekannt, Datenreihe endet 2021); Groessenordnung
