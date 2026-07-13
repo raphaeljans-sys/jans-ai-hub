@@ -24,16 +24,20 @@ Stand: 13.07.2026 (bereinigt nach Rang-Entscheid Raphael)
   Jurybericht nicht dokumentiert; evtl. aus `02 Korrespondenz/` / `11 Loggbuch/`
   rekonstruierbar (niedrige Priorität).
 - **Ausstehende Juryberichte:** 2501 Steinfabrik (externe Prüfung 13.07.2026 via
-  konkurado.ch: Verfahren als «abgeschlossen» markiert, Jurybericht dort noch nicht
-  publiziert — die im Bestand vermerkte Erwartung «Ende März 2026» war überholt, aktuell
-  kein neues Datum ersichtlich; nachfassen); 2507 PS Halden (laut competitions.espazium.ch
-  13.07.2026 weiterhin im laufenden Verfahren, Planabgabe war 30.10.2025, Entscheid noch
-  nicht publiziert). Bei Eintreffen (lokal im Archiv ODER extern via
-  konkurado.ch/competitions.espazium.ch): Dossier ergänzen, Delta-Muster erweitern.
-- **Loop-Takt wettbewerbs-dna-training:** Zwei aufeinanderfolgende Beobachtungs-Läufe
+  konkurado.ch, 3x geprüft: Verfahren als «abgeschlossen» markiert, im Terminplan der
+  Seite steht «Jurybericht: 14.01.2026», das Dokument selbst ist aber weiterhin nicht
+  verlinkt/downloadbar — Terminplan-Datum ist kein Publikationsbeleg; nachfassen); 2507
+  PS Halden (laut competitions.espazium.ch 13.07.2026, 3x geprüft, weiterhin unter
+  «Wettbewerbsausschreibungen», nicht «Entschiedene Wettbewerbe», Planabgabe war
+  30.10.2025, Entscheid noch nicht publiziert). Bei Eintreffen (lokal im Archiv ODER
+  extern via konkurado.ch/competitions.espazium.ch): Dossier ergänzen, Delta-Muster
+  erweitern.
+- **Loop-Takt wettbewerbs-dna-training:** Drei aufeinanderfolgende Beobachtungs-Läufe
   (13.07.2026) ohne neues Material bei 2501/2507, Etappe 3 weiter blockiert auf
-  Bauaufgaben-Prioritäten. Empfehlung: Takt auf Nachtfenster/Beobachtung reduzieren, bis
-  einer der beiden Blocker sich löst — Entscheid Raphael.
+  Bauaufgaben-Prioritäten. Empfehlung verschärft sich mit jedem ergebnislosen Lauf:
+  Takt auf Nachtfenster/seltenere Beobachtung reduzieren, bis einer der beiden Blocker
+  sich löst — Entscheid Raphael. Ohne neues Material bringt ein 4. Vollcheck kurzfristig
+  keinen Erkenntnisgewinn.
 
 ## Geklärt (Archiv)
 

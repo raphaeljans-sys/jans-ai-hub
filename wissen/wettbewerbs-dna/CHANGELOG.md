@@ -1,5 +1,23 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Beobachtungs-Lauf 3: extern erneut per WebFetch geprueft, weiterhin kein neues Material
+- **Ausgangslage:** Etappe 2 unveraendert vollstaendig erreicht (11/11 established); Etappe 3
+  weiter blockiert auf Raphaels Bauaufgaben-Prioritaeten. Dritter Beobachtungslauf am selben Tag
+  (nach Beobachtung 1 und 2), prueft erneut 2501 Steinfabrik und 2507 TKHL Halden.
+- **Befund lokal:** unveraendert kein neues Material (OneDrive-Zeitstempel 2501 juengste Datei
+  19.03.2026, 2507 juengste Datei 12.11.2025 — beide identisch zu Lauf 2).
+- **Befund extern (WebFetch direkt auf die Seiten, nicht nur Suchindex):** konkurado.ch zeigt fuer
+  2501 Steinfabrik im Terminplan den Eintrag «Jurybericht: 14.01.2026» — das ist aber ein
+  Planungsdatum aus dem urspruenglichen Verfahrensfahrplan, kein Beleg fuer eine tatsaechliche
+  Publikation; das Dokument selbst ist weiterhin nicht verlinkt/downloadbar. competitions.espazium.ch
+  fuehrt «Tagesbetreuung und Kindergarten Halden» weiterhin unter «Wettbewerbsausschreibungen»
+  (nicht unter den entschiedenen Verfahren), kein Entscheid publiziert.
+- **Konsequenz:** Keine Destillationsarbeit. PROGRAMM.md (Stand-Tabelle) und QUESTIONS.md
+  (Ausstehende-Juryberichte-Punkt + Loop-Takt-Punkt) nachgefuehrt. Drei ergebnislose
+  Beobachtungslaeufe in Folge — die Taktreduktions-Empfehlung an Raphael bleibt offen zur
+  Entscheidung, ein vierter Vollcheck kurzfristig ist wenig sinnvoll ohne neues aussen liegendes
+  Ereignis (Publikation eines Jury­berichts).
+
 ## 2026-07-13 — Beobachtungs-Lauf 2: extern geprueft (konkurado/espazium), weiterhin kein neues Material
 - **Ausgangslage:** Etappe 2 unveraendert vollstaendig erreicht (11/11 established); Etappe 3
   weiter blockiert auf Raphaels Bauaufgaben-Prioritaeten. Dieser Lauf prueft erneut, ob 2501
