@@ -2,8 +2,8 @@
 title: Fenster & Verglasung — Uw/Ug/Uf, g-Wert, Dreifachglas
 status: established
 last_updated: 2026-07-13
-sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md]
-links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[sommerlicher-waermeschutz]] [[minergie-standards]] [[fenster-energieetikette-fea-bfe]] [[BAUHERREN-FAQ]]
+sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/g-werte-verglasungstypen-ch.md]
+links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[sommerlicher-waermeschutz]] [[minergie-standards]] [[fenster-energieetikette-fea-bfe]] [[g-werte-verglasungstypen-ch]] [[BAUHERREN-FAQ]]
 ---
 
 # Fenster & Verglasung
@@ -103,9 +103,13 @@ Uw-Anforderung (ZH/Minergie ≤ 1,0). Detail inkl. Formel → `[[fenster-energie
 
 ## Offen
 - Numerische **g-Werte** je Verglasungstyp und **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblätter;
-  DE-Blog-Tabellen nicht übernehmen). **Grobe, nicht amtliche Orientierung ergänzt 2026-07-13:**
-  Holzrahmen Uf ca. 1,3–1,8 W/(m²·K) (Einzelquelle, `speculative`, kein Ersatz für den
-  Hersteller-/SZFF-Wert des gewählten Produkts) → `[[uf-werte-rahmenmaterial-grobuebersicht]]`.
+  DE-Blog-Tabellen nicht übernehmen). **Ergänzt 2026-07-13:** g-Werte je Verglasungstyp (2-fach
+  ~0,58–0,62, 3-fach Standard ~0,61, Sonnenschutzglas 0,17–0,37) aus Herstellerdaten Flachglas
+  Schweiz (`needs-verification`, Direktabruf der Produktseiten lieferte nur eine Platzhalterseite,
+  Zahlen aus WebSearch-Zusammenfassung) plus DE-Richtwert-Bandbreiten → `[[g-werte-verglasungstypen-ch]]`.
+  Amtliche CH-Primärquelle mit Typen-Tabelle bleibt weiterhin offen. **Grobe, nicht amtliche
+  Orientierung ergänzt 2026-07-13:** Holzrahmen Uf ca. 1,3–1,8 W/(m²·K) (Einzelquelle, `speculative`,
+  kein Ersatz für den Hersteller-/SZFF-Wert des gewählten Produkts) → `[[uf-werte-rahmenmaterial-grobuebersicht]]`.
   Systematische amtliche Uf-Tabelle je Material bleibt offen.
 - Konstanten c1/c2 der Uw,eq-Formel (nur auf Einzelzertifikat, nicht im Faktenblatt beziffert).
 
