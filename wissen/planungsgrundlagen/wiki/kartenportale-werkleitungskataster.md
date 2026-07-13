@@ -1,5 +1,5 @@
 ---
-title: Werkleitungskataster — Strom/Kommunikation-Planauskunft (EKZ, Swisscom, Sunrise-UPC)
+title: Werkleitungskataster — Strom/Kommunikation-Planauskunft (EKZ, Swisscom, Sunrise-UPC) + Wasser/Gas/Kanalisation SZ (EW Lachen AG)
 status: emerging
 last_updated: 2026-07-13
 sources:
@@ -10,8 +10,15 @@ sources:
   - Sunrise UPC — "Katasterauskuenfte" Kontaktblatt (4 Regionen West/Ost/Ticino/Romandie,
     online ueber upc.ch/leitungskataster)
   - PL-01/Werkleitungen/{ekz-planauskunft.ch, swisscom.ch, sunrise.ch, leitungskataster.upc.ch}
+  - EW Lachen AG, GIS-Fachstelle — realer E-Mail-Wechsel "Werksleitungsbestellung Einsiedeln" /
+    "KTN 3301 Einsiedeln" (17.11.2023, Perimeter Reckholdernstrasse Willerzell/Einsiedeln),
+    PL-01/KtSZ Schwyz/ewlachen.ch/231117_out_Anfrage + 231117_in_Grundlagen
+  - Bezirk Einsiedeln, Fachbereich Liegenschaftsentwässerung — "Merkblatt Liegenschaftsentwässerung,
+    Bauherren und Planer" (Stand November 2021), PL-01/KtSZ Schwyz/ewlachen.ch/_Info/
+    liegenschaftsentwaesserung_planer.pdf
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-sharepoint-ablage]]
   [[recht-norm-tiefgarage-erschliessung]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]
+  [[recht-norm-abstandsvorschriften-wald-gewaesser]]
 ---
 
 # Werkleitungskataster — Planauskunft vor Baubeginn/Baueingabe
@@ -102,3 +109,53 @@ Tiefgaragen/Aushub (Querbezug [[recht-norm-tiefgarage-erschliessung]]) und Hausa
 Empfehlung: Anfrage bei EKZ (oder zustaendigem Gemeindewerk) + Swisscom + Sunrise-UPC parallel
 stellen, sobald das Projekt Ausfuehrungsreife erreicht — wegen der kurzen Gueltigkeit (2 Wochen
 EKZ) nicht frueher.
+
+## 7. SZ-Fall: EW Lachen AG — Wasser/Gas/Fernwaerme/Kanalisation Bezirk Einsiedeln (Run 26, 2026-07-13)
+
+Realer JANS-Bezug (Perimeter KTN 3301 Einsiedeln, Reckholdernstrasse Willerzell, 17.11.2023)
+zeigt den Kt.-SZ-Ablauf fuer die Sparten, die EKZ/Swisscom/Sunrise **nicht** abdecken. Anders als
+in Kt. ZH gibt es hier **kein Web-Bestellportal** — die Bestellung laeuft **per E-Mail**:
+
+1. **Bestellformular auf der Betreiber-Website** (`ewlachen.ch/gis-fachstelle/werkleitungsbestellung/
+   werkleitungsbestellung-einsiedeln`) erzeugt eine formatierte **E-Mail an `gisfachstelle@ewlachen.ch`**
+   mit Projektbezeichnung, gewuenschtem Ausschnitt (KTN-Nummer), den benoetigten Medien
+   (**Wasser/Gas/Fernwaerme/Kanalisation**, mehrfach waehlbar), Zielformat (**DXF/DWG inkl. PDF**,
+   Kosten nach Aufwand) sowie Liefer- und Rechnungsadresse.
+2. **Antwort der GIS-Fachstelle** (real: gleicher Tag) mit den Daten als **DWG- und PDF-Anhang**,
+   inkl. Haftungsausschluss: die Lieferung enthaelt nur die **Abwasserleitungen**, die dem
+   Elektrizitaetswerk/der Gemeinde bekannt sind — fuer Gas/Fernwaerme/Wasser waren **im konkreten
+   Perimeter keine Daten vorhanden**. Fuer weitergehende Abwasserleitungsangaben (evtl. Archivbestand)
+   wird auf die **Abteilung Infrastruktur des Bezirks Einsiedeln** verwiesen (cc im realen Mail-Fall).
+3. **Kein Gueltigkeits-/Formathinweis** wie bei EKZ (2 Wochen) oder Swisscom (3 Monate) im
+   EW-Lachen-Antwortmail ersichtlich — offen, ob eine Gueltigkeitsfrist analog gilt (Frage in
+   `wiki/QUESTIONS.md` vorzumerken).
+
+**Zusatzfund im selben Ordner — Liegenschaftsentwaesserung (Bezirk Einsiedeln, Merkblatt
+November 2021):** direkt anschliessend an die Werkleitungsauskunft verlangt der Bezirk Einsiedeln
+bei jeder Baueingabe einen **Entwaesserungsplan nach SIA-Norm SN 592 000 «Liegenschaftsentwaesserung»**
+mit u.a. Abwasserleitungen/Schaechten/Rinnen/Abscheideanlagen, Dimensionierung/Materialisierung/
+Gefaelle der Leitungen, Versickerungs-/Retentionsanlagen und Anschlusspunkten an die oeffentliche
+Kanalisation. Rechtsgrundlage: GSchG/GSchV + das kommunale **Kanalisations- und
+Entwaesserungsreglement (KER, SRE 430.100, Bezirk Einsiedeln 28.02.2008)**. Kernpunkte:
+
+- **Dachwasser ist grundsaetzlich zu versickern** (Art. 7 Abs. 2 GSchG), Versickerungsmoeglichkeit
+  zwingend durch eine Fachperson (Hydrogeologe) nachzuweisen; ist Versickerung nicht moeglich,
+  retendierte Einleitung ins Oberflaechengewaesser — **beides kantonal bewilligungspflichtig**.
+- **Anschlussgebuehr** wird einmalig ueber das **Nettogebaeudevolumen (NGV)** berechnet (§ 24 KER),
+  zwei zulaessige Berechnungsvarianten nach **SIA 416 (SN 504 416)**: Variante A = Gebaeudevolumen
+  GV (Ziff. 5/Figur 8) abzueglich eines prozentualen Konstruktionsvolumenanteils je Ansatzgruppe
+  (EFH/MFH/Buero/Gewerbe/Hotel/oeffentliche Baute 15%, Industrie/Nebenbaute 8%, Lagerhalle/Tief-
+  oder Sammelgarage > 60 m² 8%); Variante B = direkt das Nettogebaeudevolumen NGV (Ziff. 5.1/
+  Figur 9) aus Nutz-/Verkehrs-/Funktionsvolumen. Berechnung + Schemaplan sind **tabellarisch
+  einzureichen**.
+- **Revidierte Ausfuehrungsplaene** der Liegenschaftsentwaesserung sind spaetestens mit der Meldung
+  zur Schlussabnahme in **2-facher Papierform + georeferenziert elektronisch (PDF + DWG/DXF)**
+  einzureichen (§ 19 Abs. 2 lit. b KER); die Schlussabnahme selbst verlangt vorgaengige
+  Dichtheitspruefungsprotokolle.
+
+Dieser Fund gehoert inhaltlich zur Entwaesserungsplanung (nicht zum Werkleitungskataster im engeren
+Sinn), wird aber hier dokumentiert, weil er im selben SharePoint-Ordner und Bestellvorgang anfiel —
+Querbezug zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Gewaesserraum-Einleitung) und
+zu einer kuenftigen SIA-Normen-Sammelstelle fuer Entwaesserung. Status `emerging`: ein einzelner,
+aber vollstaendig dokumentierter realer Fall (Bezirk Einsiedeln), nicht auf andere SZ-Gemeinden
+verifiziert.

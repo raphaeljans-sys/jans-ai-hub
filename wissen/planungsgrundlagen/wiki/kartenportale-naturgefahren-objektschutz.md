@@ -21,6 +21,10 @@ sources:
     (1.9.2023, im Auftrag BAFU/Abteilung Gefahrenpraevention, PL-01/Objektschutz/
     _schutz-vor-naturgefahren.ch/inggeol/27_inggeol_ch-praxishilfe_bauen_in_rutschgebieten_20230901-1.pdf,
     S. 1-9 vollstaendig gelesen)
+  - PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Ökomorphologie_Fliessgewässer/
+    ökomorpho_Fliesgewässer.pdf (WebGIS Kt. SZ, 22.11.2023 10:44, dieselbe Parzelle Reckholdern —
+    Kartenexport traegt den Titel «Grundwasserkarte Mittelwasserstand», die mitexportierte Legende
+    enthaelt zusaetzlich die Kategorien der **Gewaesser-Oekomorphologie**, Run 26)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
   [[recht-norm-abstandsvorschriften-wald-gewaesser]] [[kartenportale-sharepoint-ablage]]
   [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[brandschutz-pl03-wegweiser]]
@@ -199,6 +203,60 @@ AGI Kt. SZ). Fuer ZH gilt der analoge Bezug ueber `maps.zh.ch` (Grundwasserschut
 Grundwasservorkommen als eigener Themenlayer im GIS-Browser, bisher nicht als Connector-Produkt
 kartiert — Anschlussaufgabe an den naechsten Kartenportale-Run, sinngemaess wie beim
 Naturgefahren-Endpunkt unten).
+
+## 6b. Gewaesser-Oekomorphologie als mitgelieferte Planungsgrundlage (Run 26, 2026-07-13)
+
+Derselbe Kartenexport (`ökomorpho_Fliesgewässer.pdf`, WebGIS Kt. SZ, 22.11.2023 10:44 — gleiche
+Zentrumskoordinaten E=2'703'221/N=1'222'915 wie die Grundwasserkarte oben, offenbar derselbe
+Druckauftrag mit zusaetzlich aktiviertem Themenlayer) liefert die Legende der **oekomorphologischen
+Klassifizierung von Fliessgewaessern** — sechsstufig:
+
+- **natuerlich, naturnah**
+- **wenig beeintraechtigt**
+- **stark beeintraechtigt**
+- **naturfremd, kuenstlich**
+- **eingedolt**
+- **nicht bestimmt**
+
+**Praxisrelevanz:** diese Klassifizierung ist die Kt.-SZ-Entsprechung zur bereits fuer Kt. ZH
+dokumentierten Karte «Gewaesser-Oekomorphologie» (gis.zh.ch, Thema Wasser), aus der die
+**natuerliche Gerinnesohlenbreite (GSB) und Breitenvariabilitaet** fuer die Gewaesserraum-Bemessung
+nach GSchV Art. 41a/41b abgelesen werden (→ [[recht-norm-abstandsvorschriften-wald-gewaesser]]
+Abschnitt 3c/4). Ein stark beeintraechtigtes oder eingedoltes Gewaesser ist in der Regel ein
+Kandidat fuer eine **kuenftige Revitalisierung** (Art. 41a Abs. 3 GSchV: Gewaesserraum kann dafuer
+vergroessert werden) — bei der Baufeld-Abschaetzung als Unsicherheitsfaktor mitzudenken, wenn ein
+Gewaesser diese Klassifizierung traegt. Status `emerging`: der Layer ist im WebGIS Kt. SZ real
+belegt (Legende vollstaendig gelesen), aber die genaue Klassifizierung fuer eine konkrete Parzelle
+wurde bisher nicht abgefragt (keine Attributwerte im Export sichtbar, nur die Legende).
+
+## 6c. Erdwaermenutzung als eigenstaendige Planungsgrundlage (Run 27, 2026-07-13)
+
+Dritter Kartenexport aus demselben Willerzell-WebGIS-Batch (`231122_Erdwaermenutzung.pdf`,
+WebGIS Kt. SZ, 22.11.2023 10:50, gleiche Zentrumskoordinaten E=2'703'221/N=1'222'915 wie
+Grundwasserkarte + Oekomorphologie oben). Der Layer **«Erdwaermenutzung»** zoniert eine Parzelle
+in drei Zulaessigkeitsstufen fuer Erdwaerme-Systeme:
+
+- **zulaessig** (gruen)
+- **Abklaerung noetig** (gelb)
+- **nicht zulaessig** (rot) — typischerweise Grundwasserschutzzonen/-areale
+
+Zusaetzlich zeigt der Layer punktuelle Bestandes-Erdwaermenutzungen mit eigener Symbolik:
+**Erdregister**, **Energiekorb**, **Energiepfahl**, **Erdwaermesonde** sowie separat markiert
+**Erdwaermesonde (nicht mehr bewilligungsfaehig)** — d.h. der Kanton fuehrt nicht nur eine
+Eignungszonierung, sondern auch ein Bestandeskataster einzelner Anlagen inkl. Widerrufs-/
+Auslaufstatus.
+
+**Praxisrelevanz:** bevor eine Erdwaermesonde/Energiepfahl-Gruendung geplant wird, ist dieser
+Layer die erste Pruefstelle — analog zur Grundwasserkarte (Abschnitt 6) fuer den Weisse-Wanne-
+Entscheid, hier aber fuer die Heizungs-/Energiekonzept-Wahl. Eine "gelb" oder "rot" gezonte
+Parzelle bedeutet fruehzeitigen Kontakt mit dem Amt fuer Umweltschutz/Amt fuer Geoinformation,
+bevor die Haustechnikplanung auf Erdwaerme festgelegt wird.
+
+**Status `emerging`:** Legende + Zonierungslogik vollstaendig belegt (Original gelesen), aber
+kein ZH-Vergleichslayer gepruft und kein Connector-Zugriff getestet (derselbe Beschaffungsweg
+wie Grundwasserkarte/Oekomorphologie — manueller WebGIS-Export Kt. SZ, kein bekannter REST-
+Endpunkt). Ergaenzt [[energie-pv-eignung-typenwahl]] thematisch (Energiekonzept-Vorabklaerung),
+kein Doppel — dort PV, hier Erdwaerme.
 
 ## 7. Rutschgebiete im Detail — Praxishilfe inggeol.ch (Run 25, 2026-07-13)
 

@@ -1,16 +1,17 @@
 ---
 title: Abstands-Baumasse — Wald- und Gewässerabstand (ZH & SZ)
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources: [
   "PL-02/01_Gesetze/02_Zuerich/Wasser/AWEL_Merkblatt_Gewässerraum.pdf (AWEL/ARE, Juli 2014)",
   "zh.ch Merkblatt «Baugesuch im Waldabstand» (Abt. Wald, November 2018)",
   "zh.ch «Bauen im Wald und am Waldrand» (Stand 2026-07)",
   "SR 814.20 GSchG Art. 36a / SR 814.201 GSchV Art. 41a/41b/41c",
   "PBG SZ 400.100 §§ 52/66/67 (SRSZ 1.2.2025)",
-  "SR 921.0 WaG Art. 17 / KWaG ZH LS 921.1"
+  "SR 921.0 WaG Art. 17 / KWaG ZH LS 921.1",
+  "PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Ökomorphologie_Fliessgewässer/ökomorpho_Fliesgewässer.pdf (WebGIS Kt. SZ, 22.11.2023, Run 26)"
 ]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-dispensrecht]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[machbarkeit]]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-dispensrecht]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[machbarkeit]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
 # Abstands-Baumasse — Wald- und Gewässerabstand (ZH & SZ)
@@ -172,6 +173,17 @@ senkrechten Abstand (`gewaesserraum_dist_min_m`, `gewaesser_dist_min_m`) →
 - Abs. 3: Der **Zustimmung der zuständigen kantonalen Stelle** bedürfen (a) Baubewilligungen **im
   Gewässerraum** und (b) die **Unterschreitung des Mindestabstands**.
 - Abs. 4: Die **Zugänglichkeit für den Gewässerunterhalt** ist im Zonenplan sicherzustellen.
+
+**Geodatum (Run 26, 2026-07-13):** Analog zur ZH-Karte «Gewässer-Ökomorphologie» (Abschnitt 3c)
+führt das **WebGIS Kt. SZ** (`map.geo.sz.ch`) einen eigenen Themenlayer **Gewässer-Ökomorphologie**
+für Fliessgewässer mit sechsstufiger Klassifizierung (natürlich/naturnah, wenig beeinträchtigt,
+stark beeinträchtigt, naturfremd/künstlich, eingedolt, nicht bestimmt) — real belegt am Kartenexport
+Willerzell (`ökomorpho_Fliesgewässer.pdf`, 22.11.2023). Die Klassifizierung ersetzt nicht die
+Bemessung nach GSchV Art. 41a/41b (Abschnitt 3a oben gilt kantonsübergreifend), zeigt aber an, ob
+ein Gewässer ökomorphologisch beeinträchtigt ist und damit ein Revitalisierungs-Kandidat sein
+könnte (Art. 41a Abs. 3 GSchV: Gewässerraum kann dafür vergrössert werden) → Detail
+[[kartenportale-naturgefahren-objektschutz]] Abschnitt 6b. Status `emerging` — Layer belegt, aber
+noch keine Parzellen-Attributabfrage validiert.
 
 ## 5. Merksatz für die Baufeld-Bestimmung
 

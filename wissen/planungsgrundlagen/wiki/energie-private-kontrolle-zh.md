@@ -1,8 +1,8 @@
 ---
 title: Private Kontrolle Energie Kt. ZH — wer den Energienachweis unterzeichnet
 status: established
-last_updated: 2026-06-26
-sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, zh.ch/energienachweise]
+last_updated: 2026-07-13
+sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, zh.ch/energienachweise, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023)]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]]
 ---
 
@@ -110,6 +110,16 @@ zugehoerige Formular bei «Private Kontrolle» unterzeichnen. Fuenf Befugnisbere
 - **Bezugsquelle Formulare + aktuelle Liste:** `zh.ch/de/planen-bauen/bauvorschriften/
   bauvorschriften-gebaeude-energie/energienachweise.html` → Nachweisformulare → Projektkontrolle
   bzw. Ausfuehrungskontrolle.
+- **Weiterbildung (Voraussetzung fuer die Befugnis-Erteilung, § 5 BBV I):** **Forum Energie
+  Zuerich** (`forumenergie.ch`, Andreasstrasse 5, 8050 Zuerich) bietet einschlaegige Kurse an
+  — u.a. Minergie-Nachweis-/Nachweistool-Kurse, Basiskurs Energieeffizientes Bauen & Erneuern
+  (Module Erneuerbare Energien / Gebaeudehuelle & Lueftung / Rechtliche Rahmenbedingungen),
+  sowie kostenlose **Impulsberatungskurse Kt. ZH «erneuerbar heizen»** fuer EFH/MFH. Belegt:
+  JANS hat am 26.09.2023 selbst den Kurs «Minergie-Nachweis: Tipps & Tricks zu den
+  Nachweistools» besucht (Rechnung 605559, CHF 450, PL-04/`forumenergie.ch/230926_RE.pdf`);
+  Kursprogramm-Quelle `230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf` (Stand Fruehling/Sommer
+  2023). ⚠ Datenstand 2023 — vor einer Kursempfehlung aktuelles Programm auf `forumenergie.ch/
+  kurse` pruefen, ob die genannten Kurse weiterhin angeboten werden.
 
 ## Datenstand / offen
 - Liste der Befugten: hier abgelegter Auszug **Stand April 2025** — fuer eine konkrete

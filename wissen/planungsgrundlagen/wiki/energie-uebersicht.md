@@ -2,8 +2,8 @@
 title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25)]
-links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]]
+sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklaerte Primaerquelle)]
+links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]], [[energie-minergie-referenzprojekt-maison-climat]]
 ---
 
 # Energie — Uebersicht (PV, U-Wert, Energienachweis)
@@ -32,7 +32,9 @@ duplizieren:
 - U-Wert-Grenzwerte je Bauteil (Einzelbauteil- vs. Systemnachweis) → `[[u-werte-grenzwerte-ch]]`
   (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2009).
 - Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Daemmstoffwahl, CLT/Holz
-  (Stora Enso) → PL-04/`U Wert berechnung`.
+  (Stora Enso) → PL-04/`U Wert berechnung`. Reales Minergie-A-Referenzprojekt (Holzbau,
+  Geschosswohnungsbau, PV-integriert + Erdwaermesonde, kompakte Grundrisse) → eigener Artikel
+  `[[energie-minergie-referenzprojekt-maison-climat]]` (PL-04/`wissen.minergie.ch`, 2026-07-13).
 - **CLT-Bauphysik belegt (Run 25, 2026-07-13):** "CLT by Stora Enso — Technische Dokumentation
   Bauphysik" (Version 06.2021, PL-04/`U Wert berechnung/clt/`) — Waermeleitfaehigkeit von CLT laut
   **Norm EN ISO 10456: λ = 0,12 W/mK** (Rohdichte/Holzfeuchte-abhaengig). Beispielrechnungen:
@@ -52,6 +54,54 @@ duplizieren:
   CLT-Aussenwand ohne zusaetzliche Innendaemmung bereits mit moderater Daemmstaerke den
   Alpin-Zielwert erreicht — relevant fuer Kleinstbauten mit beschraenktem Wandaufbau-Budget
   (Gewicht/Transport auf Helikopter-Baustellen).
+
+## Betriebsenergie — reales Sanierungs-Fallbeispiel EFH (PL-04/`_Betriebsenergie`)
+
+> Abgrenzung: **Betriebsenergie** meint hier den effektiven Jahresverbrauch/-kosten eines
+> Gebaeudes im Betrieb (Gas/Strom, Eigenverbrauch/Einspeisung) — nicht zu verwechseln mit dem
+> Betriebsenergie-**Anteil an der grauen Energie/THGE-Gesamtbilanz** nach SIA 2032, der in der
+> KB `wissen/energie/` (`[[graue-energie]]`, Destillat `graue-energie-betriebsenergie.md`)
+> behandelt wird.
+
+Im Ordner `_Betriebsenergie` liegen 15 Bildschirmfotos (`IMG_3525`–`IMG_3538.PNG/JPG`) einer
+privaten Praesentation ("Facts & Figures") zu einem **realen Sanierungsfall EFH Baujahr 1957,
+120 m²** — kein JANS-Projekt, sondern ein extern gefundenes, aber konkret durchgerechnetes
+Fallbeispiel mit belastbaren Verbrauchs-/Kostenreihen ueber 5 Jahre. Nuetzlich als **Referenz-
+Groessenordnung** fuer Bauherren-Gespraeche zur Amortisation von PV + Batterie + WP-Boiler bei
+einem unsanierten Altbau.
+
+**Ausgangslage:** Gasheizung, PV 14 kWp (2019), Warmwasser-Waermepumpen-Boiler (2019),
+11.5 kWh Batterie (2019), Dachisolation (2021), Fussbodenheizung in einem Raum (2021).
+
+**Gasbezug (kWh/Jahr):** 2017: 28'613 · 2018: 26'250 · 2019: 28'560 · 2020: 22'754 · 2021: 19'073
+— Ruecknahme um rund einen Drittel nach WP-Boiler (2019) und Dachdaemmung (2021); die
+Gaskosten pro kWh stiegen im selben Zeitraum von 0,088 auf 0,15 CHF/kWh (2021), die Gaskosten/Jahr
+blieben deshalb trotz Mengenrueckgang bei 2'832 CHF (2021) aehnlich hoch wie 2017 (2'530 CHF) —
+zeigt die Teuerungs-Kompensation durch Verbrauchsreduktion.
+
+**Stromverbrauch (kWh/Jahr):** Bezug 2017–2019 rund 6'360–6'522 kWh, ab PV-Inbetriebnahme 2019
+Einspeisung −495 kWh; nach Batterie-Vollbetrieb 2020/2021 Bezug nur noch 2'266/1'650 kWh,
+Einspeisung −9'900/−10'850 kWh, Eigenverbrauch 5'600/5'179 kWh — die Batterie verschiebt den
+Eigenverbrauchsanteil deutlich. Strompreis stieg 0,204 (2017) auf 0,228 CHF/kWh (2020), die
+Einspeiseverguetung blieb konstant bei 0,15 CHF/kWh (2019–2021).
+
+**Einsparung nach Massnahme (CHF/Jahr):** 2020 Strom 2'290 + Boiler 453 = 2'743 CHF; 2021 Strom
+2'353 + Daemmung 546 + Boiler 862 = 3'761 CHF — die Dachdaemmung liefert ab 2021 einen separat
+ausgewiesenen Spareffekt.
+
+**Amortisationsrechnung:** Anlagekosten (Solaranlage, Batterie, Boiler, Installation) 36'000 CHF,
+abzueglich Foerderung **Pronovo Einmalverguetung (KLEIV)** und Steuerabzug −15'000 CHF ⇒
+Nettokosten 21'000 CHF. Bei einer belegten Einsparung von 5'958 CHF ueber 2 Jahre (≈ 3'000 CHF/
+Jahr) ergibt sich eine **Amortisationszeit von rund 7 Jahren**. Die Einmalverguetung fuer
+Kleinanlagen (KLEIV, PV < 100 kWp) wird ueber **Pronovo** (`pronovo.ch`) abgewickelt — der
+gleichnamige SharePoint-Ordner `PL - 04 Energie/pronovo.ch/` ist leer (keine Formulare/Merkblaetter
+abgelegt); fuer die aktuellen KLEIV-Ansaetze/Formulare direkt auf pronovo.ch nachschlagen, sobald
+ein Projekt das braucht.
+
+*Status:* `emerging` — ein einzelnes, nicht-JANS-eigenes Fallbeispiel ohne Primaerquellen-Beleg
+(Urheber/Publikationsdatum des Screenshots nicht bekannt, Datenreihe endet 2021); Groessenordnung
+plausibel und intern konsistent, aber nicht als allgemeingueltiger Kennwert zu zitieren, sondern
+als anschauliches Amortisations-Beispiel fuer Bauherren-Gespraeche.
 
 ## Energienachweis ZH — EN-ZH + Fachformulare + EVEN
 

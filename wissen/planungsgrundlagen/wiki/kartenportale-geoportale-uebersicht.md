@@ -2,8 +2,8 @@
 title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25)]
-links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]]
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 26), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 26), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 26)]
+links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[recht-norm-dispensrecht]]
 ---
 
 # Geoportale — welches Portal liefert was
@@ -24,7 +24,8 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
 | `geoportal.ch` | div. Gemeinden (SZ/ZG…) | kommunale GIS (Einsiedeln, Oberaegeri, Wald…) | tlw. |
 | `cadastre.ch` | CH | Cadastralinfo / Grundstueckinformationen | nein |
 | `swisstopo.admin.ch` | CH | Kartenwerke, Hoehenmodelle, Geodaten-Shop | tlw. |
-| `geoshop.lisag.ch` | LU/Region | Datenbezug amtl. Vermessung | Account |
+| `geoshop.lisag.ch` | Zentralschweiz (UR/SZ/OW/NW/ZG, Betrieb durch LISAG fuer die Kantone + LU-Region) | Datenbezug amtl. Vermessung (AV-Daten, Datenmodell DM01AV_UR_SZ_OW_NW) | **SZ: login-frei via vordefinierten Link `sz_public`/`public`**; sonst Account |
+| `geodatenshop.zh.ch` | Kt. ZH | **Web-Oberflaeche** desselben Bestellsystems wie `geoservices.zh.ch/geoshopapi` (Amt fuer Raumentwicklung, Abt. Geoinformation) — ueber 500 Produkte, benutzergefuehrter Bestellprozess, Bestell-Uebersicht; die API-Automatisierung laeuft ueber den Connector `geoshop-zh.mjs`, das Web-Portal ist der manuelle Weg fuer dieselben Daten | Account (Freigabe je Produkt online) |
 | `maps.zh.ch` «Eigentumsauskunft» (ObjektwesenZH) | Kt. ZH | Eigentuemer-/Grundbuchauskunft (Name, Adresse, Eigentumsform), 5/Tag | SMS-Code, kein Interessennachweis |
 
 ## Kernprodukte fuer eine Studie (Checkliste)
@@ -41,6 +42,25 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
   `geoservices.zh.ch/geoshopapi/v1` via Connector `geoshop-zh.mjs`: Produkt 10016
   (AV-Datenmodell ZH) als DXF je Gemeinde oder EGRID-Parzelle, asynchron mit Polling
   (validiert 2026-06-11, Langnau am Albis). Kein DWG im Angebot — DXF ist das CAD-Format.
+- **Grundstueckkataster / amtliche Vermessung Kt. SZ (DXF fuer CAD)** → **`geoshop.lisag.ch`**
+  (Run 26, real erprobt Bezirk Einsiedeln/Willerzell 2023): Datenmodell **DM01AV_UR_SZ_OW_NW**
+  (interkantonaler Verbund Zentralschweiz), Formate MOpublic (INTERLIS2/1, **DXF-DWG**, SHAPE,
+  Geopackage), GEOBAU DXF-DWG, Punktkoordinaten, Katasterplan-PDF, Hoehenpunkte/-kurven.
+  **Zwei Zustaende** abrufbar: rechtsgueltig (Ebene «Liegenschaften», Grundbuch-Mutation
+  vollzogen) und aktuell/projektiert (Ebene «ProjLiegenschaften», Mutation angemeldet aber noch
+  nicht rechtsgueltig) — beide werden bei Bestellung mitgeliefert. **Kosten: die Nutzung der
+  Geobasisdaten des Kantons SZ ist gebuehrenfrei** (GebGeoi, SRSZ 214.112; nur bei nicht
+  netzgebundener Bereitstellung Bereitstellungs-/Transportkosten). Zugang fuer Kt. SZ ueber einen
+  **vordefinierten Link mit eingebetteten Zugangsdaten** `sz_public`/`public`
+  (`geoshop.lisag.ch/client5/index_sz.html?user=sz_public&password=public`) — praktisch
+  **login-frei fuer die oeffentlichen Geobasisdaten**, ohne dass eine persoenliche Registrierung
+  ersichtlich noetig ist (Quelle: `_Link.docx`, JANS-interne Notiz 2023; ob fuer eine
+  kostenpflichtige/eingeschraenkte Bestellung dennoch ein Konto verlangt wird, bleibt offen).
+  Genauigkeit nach Toleranzstufen TS 2–5 (TVAV Art. 3/28 ff., ueberbautes Gebiet TS 2). Quelle:
+  Amt fuer Geoinformation Kt. SZ, «Produkteinformationen zu den digitalen Daten der amtlichen
+  Vermessung», 26.09.2023 (realer Fall KTN 3301 Einsiedeln, drei Bestellungen: AV-Kataster
+  kleiner/grosser Perimeter + Stockgrenze). **Kein Connector bisher gebaut** — Status `emerging`
+  (real erprobter manueller Weg, aber Automatisierbarkeit nicht validiert).
 - **Baulinien / Abstandslinien** (Verkehrsbaulinie, Wald-/Gewaesserabstand, Waldgrenze,
   Gewaesserraum) → **eigener Artikel** [[kartenportale-baulinien-abstandslinien-zh]]: login-freier
   Vektor via ZH-OGD-WFS, Datensaetze 0158/0152/0153/0150/0185, Connector `--produkt baulinien`
@@ -145,3 +165,21 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   zh.ch/objektwesen.html) betrifft die **Backend-Anbindung**, nicht den oeffentlichen Auskunftsweg.
   Status: `established` (manueller Weg belegt aus zwei unabhaengigen Quellen), Automatisierbarkeit
   bleibt `speculative` (keine API, SMS-2FA ist der Blocker).
+- **Formeller Behoerdenweg (Grundbuchauszug) — Abgrenzung zur Selbstbedienungs-Eigentumsabfrage
+  (Run 26):** die A5-Eigentumsabfrage oben liefert nur eine **nicht rechtsverbindliche**
+  Kurzauskunft (Eigentuemer/Adresse/Eigentumsform). Ein **rechtsverbindlicher, beglaubigter
+  Grundbuchauszug** (z.B. fuer Beseitigungsrevers-/Mehrwertrevers-Eintraege, → [[recht-norm-dispensrecht]]
+  Abschnitt «Revers statt Dispens») wird beim **oertlich zustaendigen Notariat** bestellt — in
+  Kt. ZH sind Notariat, Grundbuchamt und Konkursamt **organisatorisch zusammengelegt** und nach
+  Stadtquartier/Bezirk aufgeteilt (z.B. «Notariat, Grundbuchamt und Konkursamt Hoengg-Zuerich»
+  ist zustaendig fuer Stadtquartier Hoengg + die Gemeinden Oberengstringen/Unterengstringen/
+  Regensdorf/Weiningen). Weg: `notariate-zh.ch` → Suche «Waehlen Sie Ihr Notariat» nach PLZ/
+  Ortschaft/Quartier/Strasse → zustaendiges Amt mit Adresse/Oeffnungszeiten/Kontaktformular.
+  **Termine nur auf telefonische Voranmeldung**, ausser fuer Beglaubigungen, eidesstattliche
+  Erklaerungen und Buergschaften (dort Vorsprache ohne Termin moeglich); als Legitimation gelten
+  amtliche Ausweise (Pass, ID, Auslaenderausweis — **kein** Fuehrerausweis). Quelle: PL-01-Ordner
+  `KtZH Zuerich/_Grundbuchamt/` (230301_Grundbuchamt.docx + 3 Screenshots, Fallbeispiel Notariat
+  Hoengg-Zuerich, Frankentalerstrasse 3, 8049 Zuerich). Status `emerging` — nur an einem
+  einzelnen Notariat (Hoengg) belegt; der Ablauf (Portal-Suche → oertlich zustaendiges Amt →
+  telefonische Terminvereinbarung) ist aber strukturell auf alle ZH-Notariate uebertragbar, da
+  `notariate-zh.ch` fuer den gesamten Kanton dieselbe Suchmaske nutzt.
