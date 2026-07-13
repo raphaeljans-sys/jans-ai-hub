@@ -16,6 +16,11 @@ sources:
   - PL-01/Objektschutz/Reckholdern/Naturgefahrenkarte_Das_Wesentliche_in_Kuerze.pdf +
     2304RE20_Naturgefahren_Objektschutzkonzept.pdf + 27_Checkliste_SvN_D.pdf +
     Grundwasserkarte_mapgeoszch.pdf (WebGIS Kt. SZ, Amt fuer Geoinformation AGI, Stand 22.11.2023)
+  - inggeol.ch (Ingenieurgeologie Schweiz, Arbeitsgruppe Geologie und Naturgefahren AGN-DNG) —
+    Praxishilfe "Bauen im Rutschgebiet — Hinweise fuer Bauherrschaften und Baubehoerden"
+    (1.9.2023, im Auftrag BAFU/Abteilung Gefahrenpraevention, PL-01/Objektschutz/
+    _schutz-vor-naturgefahren.ch/inggeol/27_inggeol_ch-praxishilfe_bauen_in_rutschgebieten_20230901-1.pdf,
+    S. 1-9 vollstaendig gelesen)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
   [[recht-norm-abstandsvorschriften-wald-gewaesser]] [[kartenportale-sharepoint-ablage]]
   [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[brandschutz-pl03-wegweiser]]

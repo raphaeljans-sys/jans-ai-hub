@@ -2,7 +2,7 @@
 title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1]
+sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]]
 ---
 
@@ -33,6 +33,25 @@ duplizieren:
   (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2009).
 - Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Daemmstoffwahl, CLT/Holz
   (Stora Enso) → PL-04/`U Wert berechnung`.
+- **CLT-Bauphysik belegt (Run 25, 2026-07-13):** "CLT by Stora Enso — Technische Dokumentation
+  Bauphysik" (Version 06.2021, PL-04/`U Wert berechnung/clt/`) — Waermeleitfaehigkeit von CLT laut
+  **Norm EN ISO 10456: λ = 0,12 W/mK** (Rohdichte/Holzfeuchte-abhaengig). Beispielrechnungen:
+  eine **unbekleidete CLT-Platte 100 mm** erreicht **U = 0,997 W/m²K**; mit **160 mm Mineralwolle-
+  Daemmung** (λ = 0,035) sinkt der U-Wert auf **0,179 W/m²K** — bereits unter dem Neubau-Grenzwert
+  0,17 nahe, mit etwas mehr Daemmstaerke problemlos einzuhalten. Dieselbe Doku enthaelt eigene
+  Kapitel zu **Luftdichtheit** (Vorteile von CLT, Ausfuehrungs-/Detailanschluesse) und **Feuchte/
+  Diffusion** (sd-Wert, Gutachten Holzforschung Austria) sowie ueber 150 gepruefte
+  **Bauteilaufbauten** (Aussen-/Innen-/Trennwaende, Decken, Daecher) — bei Bedarf gezielt
+  nachschlagen statt hier zu duplizieren.
+- **Realer JANS-Benchmark — Biwak Grassen** (alpine Kleinstbeherbergung, vgl. Brandschutz-Benchmark
+  in [[brandschutz-pl03-wegweiser]] §4f): Wandaufbau Schutzblech (Aluminium) + 40 mm luftgefuellte
+  Unterkonstruktion (λ ≈ 0,15) + 40 mm Mineralwolle (λ = 0,035) + 140 mm CLT (Stora Enso, λ = 0,13)
+  ergibt **U ≈ 0,40 W/m²K** — erfuellt den geforderten Zielwert von 0,5 W/m²K mit Reserve.
+  Alternative Optimierung (oekologischer Fussabdruck): Ersatz der Mineralwolle durch **Stroh**
+  (λ ≈ 0,045) haelt den Zielwert weiterhin ein. Zeigt exemplarisch, wie eine schlanke
+  CLT-Aussenwand ohne zusaetzliche Innendaemmung bereits mit moderater Daemmstaerke den
+  Alpin-Zielwert erreicht — relevant fuer Kleinstbauten mit beschraenktem Wandaufbau-Budget
+  (Gewicht/Transport auf Helikopter-Baustellen).
 
 ## Energienachweis ZH — EN-ZH + Fachformulare + EVEN
 

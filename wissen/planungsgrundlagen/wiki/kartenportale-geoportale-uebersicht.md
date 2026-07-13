@@ -2,7 +2,7 @@
 title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24)]
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -89,6 +89,34 @@ fuer die fachliche Einordnung (Vendor-Produktblatt als einzige Quelle). Naechste
 realem Bedarf: pruefen, ob die konkrete Standortgemeinde einen oeffentlichen Baumkataster-Layer im
 eigenen Geoportal fuehrt (analog `KtLU Luzern`-Struktur, dort z. T. eigene Themenordner pro
 Gemeinde-GIS).
+
+## Weitere Kantone/regionale Portale (K17/K18, Run 25 2026-07-13, niedrige Prioritaet)
+
+JANS-Kerngeschaeft liegt in Kt. ZH + SZ; die folgenden Portale sind bisher nur punktuell in
+PL-01 dokumentiert (einzelne Projekte ausserhalb des Kerngebiets) — hier nur ein Kurzprofil, keine
+vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
+
+- **Kt. Luzern — Geodatenshop Kanton Luzern** (`geodatenshop.lu.ch`): analog zum ZH-Modell
+  Registrierung → Bestellung → Download; Produktkatalog u.a. DTM (1 m Raster), Hoehenlinien (DXF),
+  3D-Gebaeudemodelle, Landschaftsmodell, Grundbuchplan, oeffentlich-rechtliche
+  Eigentumsbeschraenkung, Denkmalverzeichnis/Bauinventar, historische Karten. Realer JANS-Beleg:
+  Bestellung R694081564 (3D-Situationsmodell) erfolgreich abgewickelt (Registrierung bestaetigt →
+  Bestellbestaetigung → "bereit zum Download"). **Praxis-Lehre:** eine parallele Bestellung
+  desselben AV-Datensatzes ueber das **nationale** Portal `geodienste.ch` wurde vom Kanton LU ohne
+  Begruendung abgelehnt ("Bemerkung des Datenbereitstellers zur Ablehnung: keine", 03.06.2024) —
+  fuer Kt. LU ist der **kantonseigene Geodatenshop der zuverlaessigere Weg**, nicht `geodienste.ch`.
+  Stadt Luzern zusaetzlich mit eigenem Gemeinde-GIS (Baugesuchsverwaltung, Nutzungsplan, Leitungen,
+  Grundbuchplan) analog zu `geoglatt.ch` (siehe unten).
+- **Kt. Bern — be-geo.ch / be_map.apps.be.ch**: kantonales Geoportal, punktuell fuer ein
+  Einzelprojekt (Schloss Muenchenwiler) genutzt, keine JANS-Standardnutzung dokumentiert.
+- **`geoglatt.ch`** — regionales Gemeinde-GIS fuer mehrere ZH-Gemeinden (Beleg: Maur, Zonenplan.pdf),
+  analog zu kommunalen GIS-Portalen wie sie z.B. auch Stadt Luzern fuehrt — liefert i.d.R. denselben
+  Zonenplan/dieselbe Nutzungsplanung wie `maps.zh.ch`, aber mit gemeindespezifischer Kartenoberflaeche
+  und teils zusaetzlichen kommunalen Layern (Werkleitungen, Verkehr). Kein Ersatz fuer den
+  kantonalen OGD-WFS-Weg ([[kartenportale-zonenplan-zh]]), sondern eine alternative
+  Benutzeroberflaeche fuer dieselben bzw. ergaenzende Daten — bei ZH-Gemeinden mit eigenem
+  Portal (Erkennbar am Gemeindenamen in der URL) zusaetzlich pruefen, ob dort kommunale
+  Zusatzinformationen (z.B. Werkleitungen) verfuegbar sind, die der kantonale WFS nicht fuehrt.
 
 ## Offen (→ QUESTIONS)
 - ~~A2: kommunaler ZH-Zonenplan login-frei~~ **✓ geloest 2026-06-16** via OGD-WFS 0156

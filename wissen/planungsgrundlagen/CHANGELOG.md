@@ -2,6 +2,38 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training Run 25 (Kartenportale + Energie, Token-Vollgas 2 Domaenen): eBau SZ + historisches Terrain neu erschlossen, Rutschgebiete vertieft, CLT-Bauphysik belegt
+- Curriculum/QUESTIONS beider Domaenen waren praktisch vollstaendig `[x]` — Methode dieses Laufs:
+  vollstaendiger `find`-Abgleich des PL-01/PL-04-Ordnerbaums gegen `raw/_INGESTED.md`, um bisher
+  nie geoeffnete Unterordner zu finden statt bekannte Luecken zu wiederholen.
+- **NEU [[kartenportale-ebau-sz-baugesuch]]:** digitales Baugesuchsportal Kt. SZ (Buergerportal,
+  kein Papierweg) — Registrierung + reale Pflichtfeld-/Beilagen-Checkliste aus einer echten
+  JANS-Arbeitsnotiz (Fall Reckholdernstrasse 20 Willerzell): Vermessungsangaben via WebGIS SZ,
+  GVZ-Nr., Gebaeudevolumen SIA 116 **und** SIA 416 doppelt verlangt (3 offene Fachfragen
+  dokumentiert), Entwaesserungsplan SN 592 000, **Oberflaechenabfluss als eigener, von der
+  Naturgefahrenkarte unabhaengiger Layer**, Schadstoff-Schwelle 200 m³.
+- **NEU [[kartenportale-historisches-terrain-vermessungsbuero]]:** schliesst die Luecke zwischen
+  amtlichen Geodaten (swissALTI3D = nur Ist-Zustand) und der Baumassenziffer-Berechnung bei
+  Ersatzneubauten — private Vermessungsbueros rekonstruieren das historische Terrain aus
+  digitalisierten Kantonskarten (PDF/DWG/LandXML); realer JANS-Fall Regensdorf Holenbachstrasse
+  45-55 (Acht Grad Ost AG, Auftraggeber Nova Property/Christoph Bopp). Direkter Anschluss an Skill
+  `massgebendes-terrain`.
+- **[[kartenportale-naturgefahren-objektschutz]] neuer §7:** Praxishilfe inggeol.ch "Bauen im
+  Rutschgebiet" vollstaendig ausgewertet — Naturgefahrenkarte zeigt nur den ungestoerten Zustand,
+  das Bauvorhaben selbst ist eine projektabhaengige Zustandsaenderung (gerade die gelbe Stufe wird
+  deshalb unterschaetzt); typische baubedingte Ausloeser + bewaehrte Rollenverteilung
+  Architekt/Bauingenieur/Geologiebuero.
+- **[[kartenportale-geoportale-uebersicht]] neuer Abschnitt "Weitere Kantone/regionale Portale":**
+  Kt. Luzern (Geodatenshop funktioniert zuverlaessig; parallele `geodienste.ch`-Bestellung wurde
+  ohne Begruendung abgelehnt — Praxis-Lehre), Kt. Bern, `geoglatt.ch` — alle niedrige Prioritaet,
+  nur Kurzprofil.
+- **[[energie-uebersicht]] §U-Wert ergaenzt:** CLT-Bauphysik (Stora Enso, V06.2021) belegt —
+  λ_CLT=0,12 W/mK, U-Wert-Beispiele unbekleidet (0,997 W/m²K) / gedaemmt (0,179 W/m²K); realer
+  JANS-Wandaufbau Biwak Grassen (≈U 0,40 W/m²K gegen Zielwert 0,5, Stroh-Alternative gepruefet).
+- Register nachgefuehrt: `curriculum.md` (K13-K16, K10-Rutsch, E13-E14 neu + `[x]`),
+  `raw/_INGESTED.md` (8 neue Quellen-Zeilen), `wiki/INDEX.md` (2 neue Artikel + Ergaenzungen),
+  Output-Report `outputs/2026-07-13_training-run25.md`.
+
 ## 2026-07-13 — Training Run 24 (Kartenportale + Brandschutz, Token-Vollgas 2 Domaenen): Naturgefahren-Checkliste vertieft, Grundwasserkarte + Baumkataster neu, vier Brandschutz-Sonderbauaufgaben (Atrien/Doppelfassaden/Kleinstbeherbergung/Holzbau) erschlossen
 - **[[kartenportale-naturgefahren-objektschutz]] erweitert (K10-Rest):** VKG/SIA/HEV-Checkliste
   «Gebaeudeschutzmassnahmen» (Dez. 2020) vollstaendig gelesen — Gefaehrdungsabklaerung je
