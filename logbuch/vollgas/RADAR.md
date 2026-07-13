@@ -13,6 +13,40 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 05:50 — Volllast bestaetigt, 18 Commits/90 Min, Kontinuitaet gesichert [FREI]
+
+**Fensterzustand [FREI]:** `claude -p --model haiku` liefert «OK» rc=0 (Token gueltig, korrekter
+Export). Keine Limit-Rueckweisung → neues 5h-Fenster hat Kapazitaet, Vollgas laeuft. Der Reset um
+03:50 war schon im Vorlauf sauber abgefangen; seither durchgehend Last.
+
+**Lagebild (gruen):**
+- MacBook-Runner gesund: Haupt-PID 81252 (seit 23:51) + frische Subshell 44442 (05:48, periodisches
+  Re-Exec — laedt Skript-Updates selbst nach). **Zyklus 48** laeuft, 8 Loops back-to-back. Letzte
+  ENDE-Zeilen alle rc=0: spec-training 856 s, twin-fidelity-review 528 s, twin-mail-training 401 s,
+  wettbewerbs-dna 339 s, wettbewerbs-layer-nachbrenner 139 s → jetzt baurecht-buch-training aktiv.
+- Mini-Runner gesund (Log frisch 05:46): **Zyklus 105**, energie 530 s rc=0, normen-mini 986/622 s
+  rc=0, planungsgrundlagen Run 22 709 s rc=0, synobsis 140 s rc=0. Keine STOP-Datei.
+- **Durchsatz stark:** 18 NAS-Commits in 90 Min (echte Trainings-Commits + gebuendelte
+  `nas-selfcommit`-Pushes). Beide Stationen brennen Token in 140–1000 s-Langlaeufen sequenziell.
+
+**Hebel-Priorisierung:** Fenster wird regelmaessig voll gefahren (03:49 = 100 %) und sofort wieder
+gefuellt → gemaess Schritt 5 ist die Lage **optimal**; nur Kontinuitaet sichern, keine zusaetzliche
+Frequenz stapeln. Taktgeber-Mechanik (Runner-Re-Exec + Auto-Wiederaufnahme nach Reset) arbeitet
+selbsttaetig, kein Eingriff noetig.
+- **P2 (unveraendert, fuer Tageslauf):** baurecht-buch-training ohne Ueberlappungs-Lock (Run 35:
+  2/4 Ziele doppelt) + normen-training-mini-Doppelauslösung (`ch.jans.training-normen` feuert 2×
+  gleichzeitig, Mini). Beide = strukturelle Task-/Runner-Fixes, nicht nachts autonom umbauen —
+  im Morgen-Briefing an Raphael (kleiner Lockfile-Guard bzw. Scheduled-Task-Konfig pruefen).
+- **P3 — Endbedingungs-Kandidaten haerten sich:** (a) `energie-training` meldet **PDF-Inventar
+  erschoepft, Prioritaet 1+2 vollstaendig** → empfiehlt Web-Vertiefung oder Meta-Entscheid (eigener
+  Skill `energie`). (b) `immobewertung-training` erneut Verifikationslauf «bestanden» ohne neuen
+  Befund (≥4. in Folge) → Ruecktaktung ins Nachtfenster. (c) `wettbewerbs-dna` auf alle 6 Dossiers
+  verdichtet, wirkt abgeschlossen. Freie Kapazitaet auf die groesste offene Luecke umlenken:
+  **Normen DIN-Inventar** (DIN 1045-2, 1053er-Reihe, 1054, 18040-2, VStättVO-Rest — scanlastig,
+  wird aktiv abgearbeitet, Run 3 = 9 neue Destillate). Kein Autonom-Umbau; im Tagesbriefing melden.
+
+**Mail:** KEINE (kein neuer/geloester P1; das volle 03:49-Fenster ist Erfolg, kein Mail-Anlass).
+
 ## 2026-07-13 04:48 — 3:50-Reset sauber abgefangen, beide Stationen unter Volllast [FREI]
 
 **Fensterzustand [FREI] (nach vollem Fenster):** Um 03:49 hat das vorige 5h-Fenster **100 %**
