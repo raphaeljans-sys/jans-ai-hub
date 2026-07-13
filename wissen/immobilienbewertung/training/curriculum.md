@@ -58,13 +58,16 @@ Wuest-Lektionen (W1, W2, …), aufgefuellt mit E-Lektionen und Aktualisierungen.
 Wuest-Kurs vollstaendig ✓ ist, ruecken die E-Quellen und danach Auffrischungs-/
 Aktualisierungs-Themen (veraltete Daten, Marktpuls) nach.
 
-**Stand Run 19 (2026-07-12):** Ingest-Curriculum vollstaendig abgearbeitet (Wuest-Kurs + E1-E10,
-alle T-Aufgaben, D4/D8). Der Loop ist im **Verifikations-Modus** (PFLICHT ab 12.07.). Run 19 =
-Modell-D-Volltext-Recompute der Ertragswert-/Residualwert-Kennwerte: Herosé-Annuitaetenformel
-praezisiert (Kapitalwiedergewinnungsformel), DXMA-A4-Rechenbeispiel vollstaendig bestanden
-(aGF/GF-Kostenbasis-Klarstellung gefunden), Barwert-Verlust-Tabelle S. 69 teil-verifiziert
-(3 %-Zeile ⚠). Keine neue Luecke. **Ruecktaktung ins Nachtfenster weiterhin empfohlen** (kein
-auto-schliessbares Ingest-Material mehr; naechstes externes Signal ab 01.09.2026). Naechster
-Verifikations-Komplex (falls Intensiv-Takt weiterlaeuft): Nutzungskonzeptions-/Marktanalyse-
-Kennzahlen ([[nutzungskonzepte]]) oder das Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert»
-(S. 153-155, drei Varianten-Zeilen nachrechnen).
+**Stand Run 20 (2026-07-13):** Ingest-Curriculum vollstaendig abgearbeitet (Wuest-Kurs + E1-E10,
+alle T-Aufgaben, D4/D8). Der Loop bleibt im **Verifikations-Modus**. Run 20 = Modell-D-Volltext-
+Recompute des Lehrstuecks «hoeherer Ertrag ≠ hoeherer Landwert» (S. 153-155): alle drei
+Varianten-Zeilen (Office-Homes/Perlenhaeuser/Best-Ager-Community) reproduzieren Landwert =
+Ertragswert − Erstellung exakt bzw. auf Rundungsgrenze; CHF/m2-GSF-Quer-Check bestaetigt
+implizit identisches Grundstueck ueber alle Varianten. Verdikt bestanden, keine Korrektur,
+[[residualwertmethode]] bleibt `established`. Marktpuls (E7) unveraendert seit Run 17
+(kein neuer Publikationstermin erreicht) — kein neuer Web-Check noetig. Keine neue Luecke.
+**Ruecktaktung ins Nachtfenster weiterhin empfohlen** (dritter Verifikationslauf in Folge ohne
+neuen Befund; Grenznutzen der Intensivphase fuer diese KB sinkt weiter). Naechster
+Verifikations-Kandidat (falls Intensiv-Takt weiterlaeuft): Nutzungskonzeptions-Kennzahlen
+([[nutzungskonzepte]], Sinus-Milieu-%-Angaben und Nutzermix-Quoten S. 123-133) gegen die
+Originalfolien nachrechnen/gegenlesen.

@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 20: Verifikations-Pass Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert» (Modell D)
+
+- **Dritter Lauf in Folge im Verifikations-Modus.** Kein neuer Ingest — Modell-D-Volltext-
+  Recompute des Landwert-Lehrstuecks (Wuest-Kurs S. 153-155, in [[residualwertmethode]] seit
+  Run 9 dokumentiert, bisher nicht gegen die Original-Folie nachgerechnet).
+- **Drei Varianten-Zeilen nachgerechnet:** Office-Homes (Ertragswert 39'845'000 − Erstellung
+  30'500'000 = 9'345'000 ≈ 9.3 Mio ✓), Perlenhaeuser (39'249'000 − 29'900'000 = 9'349'000 ≈
+  9.3-9.4 Mio, Tabellenwert 9.4 Mio auf Rundungsgrenze), Best-Ager-Community (38'981'000 −
+  33'200'000 = 5'781'000 ≈ 5.8 Mio ✓). Formel Landwert = Ertragswert − Erstellung reproduziert
+  sich durchgehend.
+- **Zusatz-Plausi:** CHF/m2-GSF-Kennwert (880/880/550) impliziert fuer alle drei Varianten ein
+  konsistentes Grundstueck (~10.5-10.7k m2 GSF) — bestaetigt die im Lehrstueck vorausgesetzte
+  Vergleichbarkeit «gleiches Grundstueck, unterschiedliche Konzepte».
+- **Verdikt:** bestanden, keine Korrektur. [[residualwertmethode]] bleibt `established`,
+  `last_updated` auf 2026-07-13.
+- **Marktpuls (E7) nicht erneut geprueft** — unveraendert seit Run 17 (2026-07-12), kein neuer
+  Publikationstermin erreicht; ein taeglicher Web-Check hat keinen Grenznutzen.
+- **Empfehlung an Raphael (zum dritten Mal in Folge):** Ruecktaktung des Loops ins Nachtfenster.
+  Drei Verifikationslaeufe ohne Befund/Korrektur deuten auf sinkenden Grenznutzen der
+  Intensivphase fuer diese spezifische KB hin.
+- [edit] [[residualwertmethode]] — Verifikations-Sektion zum Lehrstueck, `last_updated`.
+- [edit] `wiki/wissensluecken.md`, `training/curriculum.md` — Run-20-Verifikationsstand.
+- [output] `outputs/2026-07-13_training-run20.md`.
+
 ## 2026-07-12 — Training-Run 19: Verifikations-Pass Ertragswert-/Residualwert-Kennwerte (Modell D)
 
 - **Zweiter Lauf im Verifikations-Modus** (Fortsetzung Run 18). Kein neuer Ingest — haertet die

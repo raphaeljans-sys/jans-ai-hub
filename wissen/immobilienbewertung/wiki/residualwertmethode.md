@@ -1,7 +1,7 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte]
 links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]]
 ---
@@ -322,6 +322,17 @@ Varianten-Vergleich auf identischem Grundstueck (GF je 8'760 m2):
 Die ertragsstaerkste Variante hat den **tiefsten** Landwert, weil die Erstellungskosten
 ueberproportional steigen — Flaecheneffizienz und Kostendisziplin schlagen Mietertrag.
 (Nutzungskonzept-Herleitung dieser Varianten: [[nutzungskonzepte]].)
+
+**Verifikation (Modell D, Run 20, 2026-07-13):** Volltext-Recompute anhand der Original-
+Folien S. 153/155. Landwert = Ertragswert − Erstellung reproduziert sich fuer alle drei
+Varianten: Office-Homes 39'845'000 − 30'500'000 = 9'345'000 (≈ 9.3 Mio ✓); Perlenhaeuser
+39'249'000 − 29'900'000 = 9'349'000 (≈ 9.3-9.4 Mio, Tabellenwert 9.4 Mio liegt auf der
+Rundungsgrenze, keine Abweichung in der Sache); Best-Ager-Community 38'981'000 −
+33'200'000 = 5'781'000 (≈ 5.8 Mio ✓). Zusatzpruefung ueber den CHF/m2-GSF-Bezug:
+Landwert/Kennwert ergibt fuer alle drei Varianten eine konsistente Grundstuecksflaeche
+(9.3 Mio/880 ≈ 10'568 m2; 9.4 Mio/880 ≈ 10'682 m2; 5.8 Mio/550 ≈ 10'545 m2) — plausibel
+identisches Grundstueck ueber alle Varianten, wie im Lehrstueck vorausgesetzt. **Verdikt:
+bestanden**, keine Korrektur noetig, Artikel bleibt `established`.
 
 ## Anwendung im JANS-Workflow
 

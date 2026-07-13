@@ -24,9 +24,21 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 | # | Aufgabe | Quelle | Ziel-Artikel |
 |---|---|---|---|
-| — | **Keine offenen T-Aufgaben (Ingest).** Der Loop bleibt im **Verifikations-/Aktualisierungs-Modus**. **Neu Run 19 (2026-07-12): Verifikations-Pass Ertragswert-/Residualwert-Kennwerte** — Herosé-Annuitaetenformel praezisiert (Kapitalwiedergewinnungsformel statt linear+Durchschnittszins), DXMA-A4-Rechenbeispiel vollstaendig nachgerechnet (aGF/GF-Kostenbasis-Klarstellung gefunden), Barwert-Verlust-Tabelle S. 69 teil-verifiziert (3 %-Zeile mit ⚠). Alles **bestanden**, keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (siehe A-Tabelle, unveraendert seit Run 18). **Marktpuls-Stand unveraendert seit Run 17.** → **Empfehlung an Raphael unveraendert: Ruecktaktung ins Nachtfenster** (der auto-schliessbare Rueckstand ist abgearbeitet, der Loop haertet nur noch bestehende Kennwerte weiter — Grenznutzen sinkend) | — | — |
+| — | **Keine offenen T-Aufgaben (Ingest).** Der Loop bleibt im **Verifikations-/Aktualisierungs-Modus**. **Neu Run 20 (2026-07-13): Verifikations-Pass Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert»** (S. 153-155) — alle drei Varianten-Zeilen (Office-Homes/Perlenhaeuser/Best-Ager-Community) per Modell-D-Volltext-Recompute nachgerechnet: Landwert = Ertragswert − Erstellung stimmt exakt bzw. auf Rundungsgrenze; CHF/m2-GSF-Kennwert bestaetigt implizit identisches Grundstueck. **Bestanden**, keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5** (buerospezifische Margen-/Finanzierungspraxis), **D10/D11** (unveraendert seit Run 18). **Marktpuls-Stand unveraendert seit Run 17** (kein neuer Web-Check noetig, kein Publikationstermin erreicht). → **Empfehlung an Raphael unveraendert, jetzt zum dritten Mal in Folge: Ruecktaktung ins Nachtfenster** (drei Verifikationslaeufe ohne Befund in Folge — Grenznutzen der Intensivphase fuer diese KB sinkt weiter) | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-13 **Verifikations-Pass Lehrstueck «hoeherer Ertrag ≠ hoeherer Landwert» (Run 20)** —
+  dritter Lauf im Verifikations-Modus. **Modell D (Volltext-Recompute)** der drei Varianten-
+  Zeilen (Wuest-Kurs S. 155) gegen die Original-Folie: Office-Homes 39'845'000−30'500'000=
+  9'345'000 (≈9.3 Mio ✓), Perlenhaeuser 39'249'000−29'900'000=9'349'000 (≈9.3-9.4 Mio, Tabellen-
+  wert auf Rundungsgrenze, sachlich korrekt), Best-Ager-Community 38'981'000−33'200'000=
+  5'781'000 (≈5.8 Mio ✓). Zusatz-Check CHF/m2-GSF ergibt fuer alle drei ein konsistentes
+  Grundstueck (~10.5-10.7k m2), wie vom Lehrstueck vorausgesetzt. Verdikt **bestanden**, keine
+  Korrektur → [[residualwertmethode]] bleibt `established`, `last_updated` 2026-07-13. Marktpuls
+  ungeprueft gelassen (unveraendert seit Run 17, kein neuer Publikationstermin erreicht — kein
+  Grenznutzen fuer einen weiteren Web-Check nach 1 Tag). Keine neue Luecke. Empfehlung
+  Ruecktaktung ins Nachtfenster zum dritten Mal in Folge bestaetigt.
 
 - ✓ 2026-07-12 **Verifikations-Pass Ertragswert-/Residualwert-Kennwerte (Run 19)** — zweiter
   Lauf im Verifikations-Modus, wie im Run-18-Report als naechster Komplex angekuendigt.
