@@ -6,7 +6,7 @@ last_updated: 2026-07-13
 verifiziert: "§ 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/307/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13. § 357 Abs. 5 (Milderungsklausel) am amtlichen PBG-Volltext verifiziert (Z. 3770-3773), Modell-D-Refuter 2026-07-13."
 quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)"
 paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
-links: [[bestandsumbau-eingriffstiefe]], [[baubewilligungsverfahren]], [[baulinien-und-abstandslinien]], [[zonenkonformitaet]]
+links: [[bestandsumbau-eingriffstiefe]], [[baubewilligungsverfahren]], [[baulinien-und-abstandslinien]], [[zonenkonformitaet]], [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
 ---
 
 # Ausnahmebewilligung (§ 220) und Bestandesschutz (§ 357) — ZH
@@ -119,10 +119,21 @@ und als § 220 (dort: Dispens **im Einzelfall** von einer geltenden Vorschrift).
 die **Vorschrift selbst**: sie kann fuer die Anpassung bestehender Bauten generell (via
 Verordnung) oder — mangels Verordnung — im Einzelfall gemildert werden, wenn die strikte
 Vorschrift eine im ueberwiegenden oeffentlichen Interesse liegende Bestandsanpassung sonst
-verunmoeglichen wuerde. Zur konkreten Anwendungspraxis (welche Verordnung(en) gestuetzt auf
-Abs. 5 bereits erlassen wurden, Gerichtspraxis zur Einzelfall-Variante) liegt im Buch-Destillat
-noch **kein** Abschnitt vor (Kap. 20 des Standardwerks endet mit Abs. 4, S. 1455) — als offene
-Frage in [[20-ausnahmen-bestandesschutz]] vermerkt, nicht geraten.
+verunmoeglichen wuerde.
+
+**Konkrete Anwendungspraxis (Korrektur 2026-07-13, Buch-Run 36):** Die Anwendungspraxis IST im
+Hub bereits dokumentiert — im separaten Destillat [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
+(Kap. 20 Teil 2/Schluss, S. 1456-1457, Shot 732), das beim ersten Verifikationslauf zu diesem
+Komplex uebersehen wurde. Praxisbeispiel: **Art. 33a ABV** (Aussenwaermedaemmung bis 15 cm bei
+der Abstandsmessung privilegiert) war der klassische Anwendungsfall von § 357 Abs. 5 fuer
+energetische Verbesserungen — ist aber inzwischen **weitgehend bedeutungslos geworden**, weil
+**§ 253a PBG** dieselbe Wirkung heute direkt und generell regelt (Aussenwaermedaemmungen an
+bestehenden Gebaeuden bis 35 cm ungeachtet der Abstandsvorschriften zulaessig; bei Baumassen-/
+Ueberbauungs-/Freiflaechenziffer bleibt die nachtraegliche Daemmung unbeachtet). Damit hat die
+Verordnungsdelegation nach Abs. 5 fuer den praktisch haeufigsten Fall (Aussenisolation) ihre
+Funktion an die spezifischere Norm § 253a PBG abgetreten. **Weiterhin offen** (nicht Gegenstand
+des gelesenen Buchabschnitts): Gerichtspraxis zur subsidiaeren Einzelfall-Variante ausserhalb der
+Aussenisolation.
 
 ### Die Grenze: keine feste Quote, sondern «neubauaehnliche Umgestaltung»
 
