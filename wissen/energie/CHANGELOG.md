@@ -2,6 +2,29 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 56: Zwei neue Themenkomplexe (WP-Lärmschutz, Solarpflicht national/Kantone) + beide Run-55-Punkte gelöst
+- **Run-Report** `outputs/2026-07-13_energie-run56.md`. PDF-Inventar bleibt vollständig
+  abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche.
+- **Wärmepumpen-Lärmschutz (neu):** Cercle Bruit Vollzugshilfe 6.21 (1.11.2024), vollständig via
+  curl+pdftotext gelesen (22 S. inkl. Fallbeispiel Anhang 4). Formel Leq/Lr, Planungswert-Beispiel
+  ES II Nacht 45 dB(A) (44 dB(A) erreicht), Vorsorgeprinzip 1 %/3 dB, Massnahmen-Kaskade
+  Standort→Modellwahl→baulich → `destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md`,
+  Themenartikel `wiki/waermepumpen-laermschutz.md`, FAQ **F65** neu, established.
+- **Solarpflicht national + Kantone (neu):** Bund Art. 45a/45b EnG (Mantelerlass) ab 300 m² als
+  Minimalstandard; Bern ab 1.1.2026 ohne Schwelle (10 % aGF), Luzern 50 % Dachfläche auch EFH,
+  St. Gallen 10 W/m² EBF + Gemeindekompetenz, Basel-Landschaft seit 1.10.2024 →
+  `destillate/solarpflicht-national-mantelerlass-kantone.md`, Themenartikel
+  `wiki/solarpflicht-schweiz-kantone.md`, FAQ **F66** neu, emerging.
+- **§ 295 PBG jetzt 100 % primärquellen-verifiziert:** amtliche zhlex.zh.ch-PDF (LS 700.1, 96 S.)
+  direkt via curl+pdftotext gelesen — Wortlaut Abs. 1+2 wortidentisch mit der Run-55-Fassung
+  (ortsplanung.ch) → `destillate/fernwaerme-anschlusspflicht-zh.md` aktualisiert, FAQ F64 geschärft.
+- **Blower-Door-CHF-Kosten CH recherchiert, ergebnisoffen:** kein Schweizer Anbieter (Vesica,
+  Corak, Innoplan u.a.) nennt Preise; deutsche Vergleichszahl (⌀ 325 Euro netto EFH) bewusst
+  nicht übernommen → `destillate/rilumi-minergie-luftdichtheit-n50.md` ergänzt, FAQ F63 geschärft.
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`
+  (D30-D33), `wiki/QUESTIONS.md` (E41/E42 final geschlossen, E43/E44 neu, E-S1-Zähler auf zwölf
+  Läufe erhöht), `raw/_INGESTED.md`.
+
 ## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): 5 Querbezuege zu baurecht + normen gesetzt
 - [link] `energienachweis-zh.md` → baurecht `baubewilligungsverfahren` (§ 325a PBG Anzeigeverfahren).
 - [link] `minergie-standards.md` → baurecht `baubewilligungsverfahren` (Minergie-Vermutung § 4 Abs. 4 BBV I).

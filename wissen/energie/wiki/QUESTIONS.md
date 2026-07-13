@@ -433,8 +433,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Grenzwert bei Erweiterungen, Messbericht-Pflichtangaben — plus Zusatzfund **SIA 180:2014
   selbst setzt Luftdichtheits-Grenzwerte für JEDES Gebäude** (nicht nur Minergie): Neubau
   2,4/1,6 m³/(h·m²) natürlich/mechanisch belüftet, Umbau 3,6/2,4. Status established. Löst den
-  Run-54-Prioritätspunkt 1 vollständig; offen bleibt nur CHF-Kosten Blower-Door-Test CH (reines
-  Marktthema, in dieser Quelle nicht enthalten).
+  Run-54-Prioritätspunkt 1 vollständig; **CHF-Kosten Blower-Door-Test CH recherchiert ✓ 2026-07-13
+  (Run 56)** — ergebnisoffen: kein Schweizer Anbieter (Vesica, Corak, Innoplan, blower-door-swiss.ch,
+  Creoven, Sager) nennt öffentliche Preise, nur eine nicht übertragbare deutsche Vergleichszahl
+  (⌀ 325 Euro netto EFH) gefunden und bewusst nicht als CH-Richtwert übernommen. Punkt damit final
+  abgeschlossen.
 - [x] **E42** **Fernwärme-Anschlusspflicht Kt./Stadt Zürich — § 295 PBG** belegt ✓ 2026-07-13
   (Run 54) → `[[fernwaerme-anschlusspflicht-zh]]`, FAQ **F64** neu (keine generelle Pflicht,
   aber Verfügungsmöglichkeit bei ≥70 % Abwärme/erneuerbar + Gleichwertigkeit, kommunale
@@ -444,17 +447,29 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   von drei Absätzen war falsch) — Abs. 1 allgemeine Heizzentralen-Ausrüstungspflicht, Abs. 2
   Anschlusspflicht; der Gesetzestext selbst nennt **keine feste 70‑%-Schwelle und keine feste
   Jahreszahl** — beide Werte stammen aus dem städtischen Vollzugs-Merkblatt, nicht aus dem PBG.
-  Status established. Löst den Run-54-Prioritätspunkt 2 vollständig (die amtliche
-  zhlex.zh.ch-PDF-Datei selbst wurde weiterhin nicht direkt geöffnet — geringes Restrisiko,
-  siehe Destillat-Vorbehalt).
+  Status established. Löst den Run-54-Prioritätspunkt 2 vollständig. **Amtliche zhlex.zh.ch-PDF
+  jetzt direkt geöffnet ✓ 2026-07-13 (Run 56)** (curl+pdftotext, LS 700.1, 96 S.): Wortlaut
+  wortidentisch mit der Run-55-Fassung — Primärquellen-Kette lückenlos, kein Restrisiko mehr.
+
+- [x] **E43** **Wärmepumpen-Lärmschutz (Aussenaufstellung) — Grenzwerte/Berechnung** belegt
+  ✓ 2026-07-13 (Run 56) → `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`, neuer
+  Themenartikel `[[waermepumpen-laermschutz]]`, FAQ **F65** neu (Cercle Bruit Vollzugshilfe 6.21,
+  1.11.2024, vollständig gelesen: Formel Leq/Lr, Planungswert-Fallbeispiel ES II Nacht 45 dB(A),
+  Vorsorgeprinzip 1 %/3 dB). Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet D30.
+- [x] **E44** **Solarpflicht ausserhalb Kt. Zürich (national + andere Kantone)** belegt
+  ✓ 2026-07-13 (Run 56) → `[[solarpflicht-national-mantelerlass-kantone]]`, neuer Themenartikel
+  `[[solarpflicht-schweiz-kantone]]`, FAQ **F66** neu (Bund Art. 45a EnG ab 300 m² als
+  Minimalstandard; Bern/Luzern/SG/BL verschärfen). Status emerging — nicht alle Kantone geprüft.
+  Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet D31.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-13 (Run 55): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F64 Vertiefungen belegt, Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G, LEG-
-  Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit UND § 295 PBG jetzt
-  primaerquellen-/volltext-verifiziert established (E38-E42) — Meta-Punkt M2 ist SEIT RUN 45
-  (also ELF Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum elften Mal
-  vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort von Raphael
-  in einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue
-  Substanz zu erzeugen.**
+  **Stand 2026-07-13 (Run 56): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F66 Vertiefungen belegt, Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G, LEG-
+  Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (jetzt 100 %
+  amtliche PDF-Primärquelle) UND zwei neue Themenkomplexe (WP-Lärmschutz E43, Solarpflicht
+  national/Kantone E44) primaerquellen-/volltext-verifiziert established bzw. emerging (E38-E44)
+  — Meta-Punkt M2 ist SEIT RUN 45 (also ZWOELF Laeufen in Folge) spruchreif fuer eine Entscheidung
+  und wird hier zum zwoelften Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine
+  explizite Antwort von Raphael in einer interaktiven Session, sonst dreht sich der Meta-Punkt
+  weiter im Kreis, ohne neue Substanz zu erzeugen.**
