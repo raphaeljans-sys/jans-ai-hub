@@ -5,10 +5,10 @@ band: 2
 seiten: "1241-1255 (Grundlagen §§ 295/299/300; Vorschriften Wohn-/Arbeitsraeume: Wohnungen/Gemeinschaftsunterkuenfte, Arbeits-/Publikumsraeume, Besonnung/Belichtung/Belueftung §§ 301-302, Mindestflaechen/Raumhoehen/innere Erschliessung §§ 303-305, Aufzugspflicht; Beginn Einstellraeume §§ 297/37-39 BBV I)"
 shots: "624-631 (distilliert; Kapitelfortsetzung Einstellraeume-Detail + Ausruestungen/Beförderungsanlagen ab Shot 632 offen)"
 paragraphen: ["§ 295 PBG", "§ 297 PBG", "§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 12a BBV I", "§ 8 BBV I", "§ 9 BBV I", "§ 10 BBV I", "§ 11 BBV I", "§ 12 BBV I", "§ 36 BBV I", "§ 37 BBV I", "§ 38 BBV I", "§ 39 BBV I", "§ 40 BBV I", "§ 41 BBV I", "§ 13 BBV I", "§ 19 BBV I", "§ 2 BBV I", "§ 32 ABV", "§ 4 ABV", "§ 3 BBV II", "§ 6 BBV II", "§ 7 BBV II", "§ 10 BBV II", "§ 11 BBV II"]
-status: emerging
+status: established
 gelesen: 2026-06-07
 last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D Volltextabgleich §§ 299-306 PBG + § 32/§ 4 ABV gegen raw/260607_amtlich_zh_pbg.md und raw/260607_amtlich_zh_abv.md — alle CONFIRMED, siehe "Offene Punkte" fuer Rest-Umfang des Kapitels); 2026-07-14 (Buch-Run 41 — Destillat↔Destillat-Divergenz geschlossen: §§ 295-298 PBG waren im Schwester-Destillat 17-gebaeude-und-raeume-teil2-ausruestungen seit 2026-07-13 Modell-D-verifiziert, hier aber noch «offen». Grundnorm-Kurzfassung ergaenzt + auf teil2 verlinkt, eigenstaendig gegen raw/260607_amtlich_zh_pbg.md Z. 3033-3057 gegengeprueft, alle CONFIRMED. Status bleibt emerging: Ausruestungen-Teil § 4 ABV + Einstellraeume-Detail §§ 37-39 BBV I ab Shot 632 noch ungelesen)
+verifiziert: 2026-07-13 (Modell-D Volltextabgleich §§ 299-306 PBG + § 32/§ 4 ABV gegen raw/260607_amtlich_zh_pbg.md und raw/260607_amtlich_zh_abv.md — alle CONFIRMED, siehe "Offene Punkte" fuer Rest-Umfang des Kapitels); 2026-07-14 (Buch-Run 41 — Destillat↔Destillat-Divergenz geschlossen: §§ 295-298 PBG waren im Schwester-Destillat 17-gebaeude-und-raeume-teil2-ausruestungen seit 2026-07-13 Modell-D-verifiziert, hier aber noch «offen». Grundnorm-Kurzfassung ergaenzt + auf teil2 verlinkt, eigenstaendig gegen raw/260607_amtlich_zh_pbg.md Z. 3033-3057 gegengeprueft, alle CONFIRMED); 2026-07-14 (Buch-Run 42 — Einstellraeume-Detail §§ 37-40 BBV I volltextverifiziert gegen raw/260607_amtlich_zh_bbv1.md Z. 523-542, alle CONFIRMED. Damit keine offenen needs-verification-Punkte mehr; Status emerging→established)
 ---
 
 # Kap. 17 — Gebaeude und Raeume; Ausruestungen (Teil 1: §§ 295-306 PBG)
@@ -288,8 +288,18 @@ Fundstellen-Herleitung siehe Wiki [[wohnhygiene-und-raumanforderungen]], Abschni
   Modell-D-volltextverifiziert, hier aber noch als «offen» geführt. Grundnorm-Kurzfassung im Abschnitt
   «Allgemeine Anforderungen an Gebaeude» oben ergänzt + auf teil2 als vertiefte Fundstelle verlinkt;
   eigenständig gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057) gegengeprüft, alle CONFIRMED.
-- **Ausruestungen-Teil** (Heizung/Klima/Elektro/Befoerderungsanlagen/Briefkaesten, § 4 ABV) und
+- ~~**Ausruestungen-Teil** (Heizung/Klima/Elektro/Befoerderungsanlagen/Briefkaesten, § 4 ABV) und
   **Einstellraeume-Detail** (Garagen-Lueftung SWKI 96-1, §§ 37-39 BBV I) ab Shot 632 noch nicht
-  vertieft.
+  vertieft.~~ **Erledigt 2026-07-14 (Buch-Run 42, Modell-D):** war ebenfalls eine
+  Destillat↔Destillat-Verwechslung — der Ausruestungs-Teil (§ 4 ABV) liegt richtig im
+  Schwester-Destillat [[17-gebaeude-und-raeume-teil2-ausruestungen]] (dort jetzt volltextverifiziert
+  gegen `raw/260607_amtlich_zh_abv.md` Z. 87-88), das **Einstellraeume-Detail §§ 37-40 BBV I liegt
+  bereits hier** im Abschnitt «Einstellraeume / Nebenraeume» oben (S. 1254 f.) und wurde gegen
+  `raw/260607_amtlich_zh_bbv1.md` Z. 523-542 volltextverifiziert: § 37 Abs. 1 (Garagenlueftung),
+  § 38 (Kehrichtabfuhr), § 39 (8 m²/5 m² Hausraeume), § 40 (Aufzugspflicht > 5 Geschosse,
+  Kabine 2,10 × 1,10 m/Tuer 0,8 m, > 9 Geschosse = 2 Aufzuege) — alle CONFIRMED, keine
+  Abweichung vom Buchtext gefunden. **SWKI 96-1** (Lueftungsnorm) und **Anhang Ziff. 2.31 BBV I**
+  (Beheizungsverbot Garagen) sind Verweise auf Fachnormen/Anhaenge, nicht im Hauptwortlaut
+  §§ 37-40 enthalten — bleiben destillat-/normgestuetzt, keine echte Luecke mehr.
 - **PaRG/GGG-Rauchschutz** nur sinngemaess wiedergegeben; bei konkretem Gastwirtschaftsfall am
   Volltext pruefen.

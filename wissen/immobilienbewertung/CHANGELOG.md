@@ -2,6 +2,9 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): Querbezug zu KB grobkosten
+- [link] `residualwertmethode.md`: Querbezug-Block → grobkosten `kennwerte` (kanonische CHF/m³-GV-Kennwerte) inkl. E1-Faktor (0.70 Regelgeschoss / 0.60–0.61 Gesamtgebaeude). Keine Kennwert-Widersprueche (Paar immobilienbewertung↔grobkosten: 0). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
+
 ## 2026-07-13 — Training-Run 27: D6 breit ausgebaut — 8 JANS-Bezugsmärkte via Workflow-Fan-out
 
 - **[[az-gfz-kennwerte]] erweitert von 11 auf 19 Gemeinden.** Multi-Agent-Workflow (8 parallele

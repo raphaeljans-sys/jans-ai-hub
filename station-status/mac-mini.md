@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 20:59:46
+Stand: 13.07.2026 21:09:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:50)
@@ -19,4 +19,4 @@ Stand: 13.07.2026 20:59:46
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 7c586510 normen-training Mini-Run 15: Retro-Verifikation ral-gz638-2008 (Gitterroste)
+- 3011297d normen-training-mini Run 15: Retro-Verifikation Sammel-Batch (8 DIN/VSS/RAL-Destillate)
