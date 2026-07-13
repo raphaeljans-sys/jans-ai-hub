@@ -7,7 +7,7 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-42 von 42 (vollständig)"
 datenstand: 2026-07-13
-status: destilliert (vollständig, S.1-42/42)
+status: established (vollständig, S.1-42/42, Verifikations-Sichtpruefung Mini-Run 12: keine Beanstandung)
 last_updated: 2026-07-13
 ---
 

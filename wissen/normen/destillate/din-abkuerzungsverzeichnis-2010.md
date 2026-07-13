@@ -5,7 +5,7 @@ ausgabe: "Stand 2010"
 ersetzt: "kein Bezug"
 gelesen: "S. 1-16 (vollständig, reines Abkürzungsglossar A-Z)"
 datenstand: "2010"
-status: destilliert
+status: established (Glossar vollstaendig gelesen, kein Verifikationsrisiko bei reiner Abkuerzungsliste, Mini-Run 12)
 last_updated: 2026-07-13
 links: [[REGISTER]]
 ---

@@ -36,7 +36,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `nbauo-barrierefreiheit-2004.md` | NBauO §§45/48 + DVNBauO §§18/29 Barrierefreiheit (Niedersachsen) | Rechtsstand 2012 / DVNBauO 1987/2004 | destilliert (4 Einzelnormen gebündelt) |
 | `baunvo-1990.md` | BauNVO Baunutzungsverordnung (D) | Neufassung 1990/1993 | destilliert (vollständig, S.1-14/14) |
 | `arbstaettv-2004.md` | ArbStättV Arbeitsstättenverordnung (D) | 2004/2010 | destilliert (vollständig, S.1-12/12) |
-| `din-abkuerzungsverzeichnis-2010.md` | Abkürzungsverzeichnis Planen und Bauen (D) | 2010 | destilliert (Glossar, vollständig) |
+| `din-abkuerzungsverzeichnis-2010.md` | Abkürzungsverzeichnis Planen und Bauen (D) | 2010 | established (Glossar, vollständig, Mini-Run 12) |
 | `hoai-bauen-im-bestand-2011.md` | HOAI 2009 Leistungsbild Bauen im Bestand | 2011 | destilliert (vollständig, S.1-19/19) |
 | `vstaettvo-niedersachsen-2004.md` | VStättVO Versammlungsstättenverordnung Niedersachsen | 2004 | Teil-Destillat (S.1-20/31, Rest naechster Lauf) |
 | `baurecht-din-normenwerk-grundlagen-2010.md` | Baurecht Allgemeine Grundlagen: VOB/DIN-Normenarbeit/EU-Harmonisierung (D) | 2010 | destilliert (vollständig, S.1-20/20) |
@@ -50,10 +50,10 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
-| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | Teil-Destillat (S.1-20+27-37/125, verifiziert 260713) |
+| `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (vollständig S.1-125/125, Mini-Run 12; Retro-Verifikation neuer Abschnitte offen) |
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
-| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | Teil-Destillat (S.1-20+26-28/28, verifiziert 260713) |
+| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch; Teil-Destillat, Scan nur ungerade Seiten im Bestand) |
@@ -164,7 +164,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1961-2010.md` | DIN 1961 VOB Teil B, Allgemeine Vertragsbedingungen Bauleistungen | 2010 | destilliert |
 | `din-inhaltsverzeichnis-normensammlung-2012.md` | DIN Inhaltsverzeichnis Normensammlung Buero | Stand 2012-04 | destilliert (Register ~450 Normen) |
 | `vds-2234-1999-brand-komplextrennwaende.md` | VdS 2234 Brand-/Komplextrennwaende (D-Versicherungsmerkblatt) | 1999-05 | destilliert (vollstaendig, S.1-30/30) |
-| `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | destilliert (vollstaendig, S.1-42/42) |
+| `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | established (vollstaendig, S.1-42/42, Mini-Run 12) |
 | `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | established (verifiziert 260713, vollstaendig S.1-32/32) |
 | `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | destilliert (historisch) |
 | `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | destilliert (vollstaendig, S.1-13/13) |

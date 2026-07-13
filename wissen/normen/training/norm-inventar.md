@@ -491,7 +491,7 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md)  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 | 2008 | destilliert (din-1946-4-2008.md), vollstaendig S.1-66/66, Healthcare-RLT-Norm |
-| [x] 260712 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | Teil-Destillat (din-1946-6-2009.md, S.1-20+27-37/125), Reconcile 260712 Mini-Run2 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | established (din-1946-6-2009.md, vollstaendig S.1-125/125, Mini-Run 12 Workflow-Fanout), Retro-Verifikation neuer Abschnitte offen |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 | 2009 | destilliert (din-1946-7-2009.md)  verifiziert 260713 (beanstandet-korrigiert) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 2010 | destilliert (din-1960-2010.md), VOB Teil A |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 2010 | destilliert (din-1961-2010.md), VOB Teil B |
@@ -503,7 +503,7 @@
 | — | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  | Foto-Scan desselben Bürobuch-Exemplars DIN 277-1:2005-02, inhaltlich Duplikat von din-277-1-2005.md — übersprungen |
 | [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen) |
-| [x] 260712 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | Teil-Destillat (din-4102-1-1998.md, S.1-20+26-28/28), Reconcile 260712 Mini-Run2 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | established (din-4102-1-1998.md, vollstaendig S.1-28/28, Anhang B S.21-25 nachgelesen Mini-Run 12) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 | 1977 | destilliert (din-4102-2-1977.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 | 2001 | destilliert (din-4844-2-2001.md), vollstaendig S.1-23/23, Mini-Run3 |
@@ -522,7 +522,7 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz  verifiziert 260713 (beanstandet-korrigiert: Korrelationstabelle ergaenzt) |
 | [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume |
 | [x] 260713 | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | destilliert vollstaendig (vstaettvo-niedersachsen-2004.md, S.1-31/31) |
-| [x] 260713 | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  | destilliert (din-abkuerzungsverzeichnis-2010.md), reines Glossar |
+| [x] 260713 | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  | established (din-abkuerzungsverzeichnis-2010.md), reines Glossar, Mini-Run 12 |
 | [x] 260713 | P3 | `Sonstiges/Allgemeine_Grundlagen.pdf` |  |  | destilliert (baurecht-din-normenwerk-grundlagen-2010.md), VOB/DIN-Normenarbeit/EU-Harmonisierung |
 | [x] 260713 | P3 | `Sonstiges/ArbStättV.pdf` |  |  | destilliert (arbstaettv-2004.md) |
 | [x] 260713 | P3 | `Sonstiges/BauNVO.pdf` |  |  | destilliert (baunvo-1990.md) |
@@ -534,7 +534,7 @@
 | [x] 260713 | P3 | `Sonstiges/NBauO_§_45.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
 | [x] 260713 | P3 | `Sonstiges/NBauO_§_48.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
 | [x] 260713 | P3 | `Sonstiges/Planen_und_Bauen_im_Bestand.pdf` |  |  | destilliert (hoai-bauen-im-bestand-2011.md), HOAI-2009-Leistungsbild Bauen im Bestand |
-| [x] 260713 | P3 | `Sonstiges/Planungsgrundlagen.pdf` |  |  | destilliert (din-planungsgrundlagen-hoai-vorschriften-2004.md), HOAI-Leistungsphasen/MBO, kein CH-Bezug |
+| [x] 260713 | P3 | `Sonstiges/Planungsgrundlagen.pdf` |  |  | established (din-planungsgrundlagen-hoai-vorschriften-2004.md), HOAI-Leistungsphasen/MBO, kein CH-Bezug, Mini-Run 12 |
 | [x] 260713 | P3 | `Sonstiges/Skript_Treppen.pdf` |  |  | destilliert (treppen-hcu-hamburg-2008.md), HCU-Lehrskript + Neufert-Planungsgrundlagen |
 | [x] 260713 | P3 | `Sonstiges/VdS-Richtlinie 2234.pdf` |  |  | destilliert vollstaendig (vds-2234-1999-brand-komplextrennwaende.md), D-Versicherungsmerkblatt, kein CH-Normwerk |
 | — | P3 | `FileOpenInstaller.dmg` |  |  | keine Norm, Installer-Programm (FileOpen-Plugin) — übersprungen, Nachtrag Mini-Run 5 (260713) |

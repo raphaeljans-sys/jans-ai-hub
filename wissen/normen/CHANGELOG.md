@@ -1,3 +1,26 @@
+## 2026-07-13 — Mac Mini Run 12: din-4102-1 + din-1946-6 zu vollständigen Destillaten ausgebaut, DIN/VSS/RAL-Basisinventar komplett established
+- Statuscheck der Frontmatter aller DIN/VSS/RAL-Destillate zeigte 2 aktionable Lese-Lücken
+  trotz komplett abgehaktem Basisinventar: `din-4102-1-1998.md` (Anhang B, S.21-25 offen)
+  und `din-1946-6-2009.md` (nur ~31/125 S. gelesen).
+- **din-4102-1-1998**: Anhang B (Prüfverfahren Rauchentwicklung bei Flammenbeanspruchung —
+  Messkammer, Propangasbrenner, Justierung, Durchführung, Auswertung, Prüfbericht) direkt
+  nachgelesen und integriert. Jetzt vollständig S.1-28/28, `established`.
+- **din-1946-6-2009** (Healthcare-RLT-relevant): 6 parallele Hintergrund-Agenten haben die
+  restlichen ~94 Seiten gelesen (§5.3-5.4 Systemauswahl, §7-8 Auslegung freie/ventilator-
+  gestützte Lüftung inkl. Feuerstätten-Sicherheitseinrichtungen, §9-12 Ausführung/
+  Dokumentation/Inbetriebnahme/Instandhaltung, Anhänge A-J inkl. normativem Lüftungskonzept-
+  Ablaufschema Anhang B). Jetzt vollständig S.1-125/125, `established`. Befund: Tabellen-
+  nummer D.4 zwischen zwei Segmenten (S.69-90/S.91-110) unstimmig — als offener Punkt in
+  `wiki/QUESTIONS.md` vermerkt, S.89-92 im nächsten Lauf direkt nachlesen.
+- `din-abkuerzungsverzeichnis-2010.md` und `din-planungsgrundlagen-hoai-vorschriften-2004.md`
+  (reine Referenzwerke, bereits vollständig gelesen) auf `established` gehoben.
+- Damit ist das DIN-/VSS-/RAL-P1-P3-Basisinventar vollständig `established` (Ausnahmen:
+  `din-en-1627-2011` physisch nur 4/44 S. im Bestand, `vss-640291a-2005` bewusst historisch).
+- `destillate/INDEX.md`, `training/norm-inventar.md`, `wiki/QUESTIONS.md` nachgeführt.
+  Report: `outputs/2026-07-13_normen-mini-run12.md`. Nächster Lauf: Tabelle-D.4-Klärung +
+  Retro-Verifikation din-1946-6-2009 (noch nie adversarial geprüft), danach Q&A-
+  Selbstbefragung (Stufe c) für DIN-P1-Kernnormen.
+
 ## 2026-07-13 — Mac Mini Run 11: Retro-Verifikation VSS-Altbestand + 13 DIN-Einzelnormen (10/16 beanstandet-korrigiert)
 - 16 Destillate adversarial gegen Original-PDF verifiziert (Volltextabgleich Modell D, 16
   parallele Agenten): vss-700.5-1987, vss-722.15-1983, vss-merkblatt-veloabstellplaetze-1998,

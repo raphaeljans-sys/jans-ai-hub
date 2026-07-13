@@ -250,3 +250,22 @@
   DIN/VSS/RAL-Destillate (u.a. din-1946-4-2008 Healthcare-RLT, din-1960/1961-2010 VOB A/B,
   din-18232-2-2007, din-1053-4-2011, ral-gz638-2008) sowie Vertiefung der Teil-Destillate
   (din-1946-6-2009, din-4102-1-1998, din-1054-2010, din-en-1627-2011).
+- [x] **Mac Mini Run 12 (13.07.2026): din-4102-1-1998 und din-1946-6-2009 zu vollständigen
+  Destillaten ausgebaut, DIN/VSS/RAL-Basisinventar damit vollständig `established`.**
+  DIN 4102-1 (Anhang B, S.21-25, Rauchentwicklungs-Prüfverfahren) direkt nachgelesen und
+  ergänzt. DIN 1946-6 (Healthcare-RLT-relevant, Wohnungslüftung) über 6 parallele Agenten
+  komplett von S.21 bis S.125 gelesen und ins Destillat integriert (§5.3-5.4 Systemauswahl,
+  §7-8 Auslegung freie/ventilatorgestützte Lüftung inkl. Feuerstätten-Sicherheitseinrichtungen,
+  §9-12 Ausführung/Dokumentation/Inbetriebnahme/Instandhaltung, Anhänge A-J). Zusätzlich
+  din-abkuerzungsverzeichnis-2010 und din-planungsgrundlagen-hoai-vorschriften-2004 auf
+  `established` gehoben (reine Referenzwerke, geringes Fehlerrisiko).
+- [ ] **din-1946-6-2009, Tabellennummer D.4 unstimmig (S.90/91-Grenze):** die beiden
+  parallel lesenden Agenten für S.69-90 und S.91-110 haben je eine «Tabelle D.4» mit
+  unterschiedlichem Inhalt gemeldet (vermutlich Tabellenfortsetzung über den Seitenumbruch,
+  von einem Agenten falsch zugeordnet). Im nächsten Lauf S.89-92 im Volltext direkt
+  nachlesen und korrigieren.
+- [ ] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich** weiterhin offen (Schweizer
+  Lüftungsauslegung über Aussenluft-Volumenstrom/Person/Fläche + Lüftungseffizienz vs.
+  deutsches 4-Stufen-Modell) — eigene Recherche in SIA 382/1 nötig.
+- [ ] **Retro-Verifikation für din-1946-6-2009 (jetzt vollständig, 125 S.)** steht noch aus —
+  wegen Healthcare-Relevanz (RLT-Norm) im nächsten Verifikationslauf priorisieren.
