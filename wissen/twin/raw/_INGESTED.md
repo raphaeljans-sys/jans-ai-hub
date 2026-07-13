@@ -81,6 +81,28 @@ Was liegt in `raw/` und wurde es ins `wiki/` eingearbeitet?
 **Sequentieller Mail-Sweep (Sent Items rj@, älteste zuerst):** abgedeckt bis
 **2026-05-13, 14:53 Uhr** einschliesslich. Nächster Lauf: ab 2026-05-13, 15:14 Uhr
 (Betreff «AW: Submission Kuecheneinrichtung Therapiestation…», Index 424 in Gesendete Elemente).
+
+**Fidelity-Review 260713h (Selbsttest, Achtlauf 13.07.2026):** gezielte Stichproben
+INNERHALB bereits abgedeckter Batches, bisher nicht einzeln destilliert (Register-
+Gap-Suche statt weiterer Sequential-Sweep, da dieser bereits bis 13.05. dicht ist).
+Gezogen: (a) `Pendenzenliste` an Kübler+Spahic 17.04.2026 10:37 (Batch-41-Fenster) —
+NEU: «Geschätzte Herren» als Zwei-Wort-Plural-Sie-Anrede an kleine gemischte
+Männer-Sie-Gruppe ohne Fliesstext; (b) `Gewerke/Empfehlung` an Besnik/fsgbau
+21.05.2026 (Batch-44-Nachlauf-Fenster) — bestätigt bekanntes Besnik-Du-Mapping,
+kein neuer Marker; (c) `KontaktaufnahmeAlbertstrasse 7 Zürich` an Keisenhut/
+visionapartments.com 22.05.2026 07:04, cc Roman Steinmann/Nova (Batch-44-Nachlauf-
+Fenster) — NEU: reiner Telefon-Nachfass-Kaltkontakt ohne Referral-Aufhänger
+(«Ich habe Sie versucht telefonisch zu erreichen … Besten Dank für Ihre
+Bemühungen.») + Auftraggeber-Transparenz-Cc bereits bei der ERSTEN Kontaktaufnahme,
+nicht erst bei Devis/Rechnung. Zugriff via M365-CLI (`@pnp/cli-microsoft365`,
+Certificate-Auth, in dieser Session verfügbar). Auch (d) Küchen-Erstkontakt Würsch
+17.04. und Kurzmail Hottinger 17.04. gegengelesen — beide bereits im Wiki
+(beziehungsregister.md Zeile 836ff, Batch 42) verbatim referenziert, keine
+Doppelverwertung nötig. Gewichtung: authentisch (Sent Items rj@, keine Echo-Falle
+in den drei genutzten Volltexten). Eingearbeitet: [[beziehungsregister]] (neuer
+Abschnitt «Geschätzte Herren» + «Kaltakquise-Telefon-Nachfass»), [[arbeitsweise]]
+(neuer Abschnitt «Cc-Transparenz-Reflex gilt schon bei der ersten Kontaktaufnahme»).
+Drift-Report: `outputs/2026-07-13h_fidelity.md`.
 **Zäsur (Batch 26, Feb 2026):**
 der vor-Claude-Goldkorpus endet faktisch mit **Jan 2026**. Ab Feb 2026 zeigt sich erstmals
 **Claude-Grundtext** in den rj@-Sent-Items (nicht mehr nur eingefügte Pastes): poliert

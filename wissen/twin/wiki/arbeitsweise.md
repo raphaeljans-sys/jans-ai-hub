@@ -678,6 +678,16 @@ Drei Arbeitsweise-Muster aus dem KISPI-Cluster (03.–04.02.2026):
   die authentische «_ »-Typografie und Bindestrich-Bandbreiten, nicht die polierte ol/ul-En-dash-Prosa (→ [[stimme]]
   Echo-Falle 9, _INGESTED).
 
+## Cc-Transparenz-Reflex gilt schon bei der ersten Kontaktaufnahme, nicht erst bei Devis/Rechnung (belegt Fidelity 260713h, authentisch)
+- Der bereits belegte Cc-Transparenz-Reflex («Offertenanfrage als Sachwalter-Choreografie mit
+  cc-Bauherrschaft», oben) beschränkt sich nicht auf Devis-/Offertenanfragen. Ein reiner
+  Telefon-Nachfass an einen bislang unbekannten Kontakt («Ich habe Sie versucht telefonisch zu
+  erreichen. Könnten Sie mich zurückrufen …», an Keisenhut/Verwaltung, 22.05.2026) geht **cc an
+  Roman Steinmann (Nova, den Auftraggeber)**, obwohl der Auftraggeber für die Rückrufbitte selbst
+  nichts zu tun hat. Der Zwilling setzt den Auftraggeber/Mandanten also **routinemässig auf cc,
+  sobald ein Kaltkontakt im fremden Interesse/Auftrag angeschrieben wird — auch bei der ersten,
+  trivialsten Mail**, nicht erst wenn ein Devis oder eine Rechnung im Spiel ist.
+
 ## Lücken → [[QUESTIONS]]
 Delegationsmuster intern (eigenes Team) vs. an Bauherrschaft (Teil-Antwort: Sub-Fachplaner-Honorar
 läuft direkt an die Bauherrschaft, Format vom Generalplaner vorgegeben).

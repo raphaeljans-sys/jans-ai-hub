@@ -145,8 +145,20 @@ genaue Beschreibung aller provisorischen Abdichtungen, Zustand der Nachbarzonen 
 unabhängig vom Bestehen/Nichtbestehen sind die wichtigsten gefundenen Leckagen mit Fotos zu
 dokumentieren.
 
+## Kosten eines Blower-Door-Tests in der Schweiz (Marktrecherche Run 56 — ergebnisoffen)
+Sämtliche recherchierten Schweizer Anbieter (Vesica GmbH, Corak AG, Innoplan Schöftland,
+blower-door-swiss.ch, Creoven, Sager) **veröffentlichen keine CHF-Preise** auf ihren Webseiten —
+die Kosten werden individuell nach Gebäudegrösse/Aufwand offeriert. Die einzige gefundene
+konkrete Zahl ist eine **deutsche** Richtgrösse (Creoven-Ratgeber, ohne Schweiz-Bezug):
+«durchschnittlich 325 Euro netto für ein Einfamilienhaus», Testdauer ca. 1,5-3 Std. Diese Zahl
+ist wegen anderer Markt-/Lohnstruktur **nicht direkt auf die Schweiz übertragbar** und wird
+deshalb bewusst nicht als CH-Richtwert übernommen (Leitplanke: nichts erfinden). Für eine
+belastbare CHF-Grössenordnung wäre eine direkte Anbieteranfrage (z.B. Vesica/Corak) nötig —
+das ist eine Grenze der Web-Recherche, kein Wissensdefizit der KB.
+
 ## Offene Punkte
-- Kosten eines Blower-Door-Tests in der Schweiz (CHF) weiterhin nicht recherchiert (Fachthema
-  fehlt in dieser Quelle vollständig — reine Regelwerks-/Verfahrensquelle, keine Marktpreise).
+- **CHF-Kosten Blower-Door-Test Schweiz:** siehe Abschnitt oben — bewusst offen gelassen,
+  kein Schweizer Anbieter nennt öffentliche Preise; nur unverbindliche deutsche Vergleichszahl
+  bekannt, nicht übernommen.
 - Kapitel 8.3-8.5 (weitere Messmethoden, Lüftungsanlagen-Abdichtung im Detail, grosse Gebäude)
   nur überflogen, nicht im Wortlaut übernommen — geringe Bauherren-Relevanz gegenüber Kap. 1-7.

@@ -449,3 +449,43 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   FAQ **F62** neu. Löst den Run-51/Run-52-Prioritätspunkt «WRG-Grad zentraler Anlagen numerisch,
   SIA-382/1-Auslegungsluftwechsel» aus D10 vollständig ab (nur der Uf-Werte-SZFF-Kandidat blieb
   erneut ergebnislos — dritter erfolgloser Versuch, siehe QUESTIONS E40).
+
+- **D30 (Run 56, 2026-07-13)** — «Wieviel Lärm darf eine aussen aufgestellte Wärmepumpe
+  verursachen, und wie wird das berechnet?» — belegt 2026-07-13. PDF-Inventar bleibt seit
+  Run 46 vollständig abgearbeitet, daher neuer Web-Themenkomplex statt PDF-Transfer. Primärquelle
+  Cercle Bruit «Vollzugshilfe 6.21» (1.11.2024) per curl heruntergeladen (WebFetch scheiterte an
+  der Adobe-InDesign-PDF-Struktur) und vollständig per pdftotext gelesen (22 S. inkl. Anhang 4
+  Fallbeispiel). Ergebnis: Formel `Leq = LWA2°C − 11 dB + DC − 20·log(s/s0)` und
+  `Lr = Leq + K1 + K2 + K3 + 10·log(t/t0)`, Planungswert-Fallbeispiel ES II Nacht 45 dB(A) (44 dB(A)
+  erreicht), Vorsorgeprinzip-Schwelle 1 % Investitionskosten/3 dB Wirkung, Massnahmen-Kaskade
+  Standort→Modellwahl→bauliche Massnahme → `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`,
+  neuer Themenartikel `[[waermepumpen-laermschutz]]`, FAQ **F65** neu, Status established (amtsnahe
+  Primärquelle vollständig gelesen).
+
+- **D31 (Run 56, 2026-07-13)** — «Gilt eine Solardachpflicht nur im Kanton Zürich, oder auch in
+  anderen Kantonen?» — belegt 2026-07-13. Web-Recherche (CKW, Kanton Bern WEU, solaralag.ch,
+  Presseecho) trianguliert: nationaler Mindeststandard Art. 45a/45b EnG (Mantelerlass,
+  Volksabstimmung 9.6.2024) verlangt Solarpflicht ab 300 m² Gebäudefläche bei Neubauten; mehrere
+  Kantone verschärfen deutlich — Bern ab 1.1.2026 ohne Grössenschwelle (10 % aGF, ≥60 % geeignete
+  Dachfläche, plus Parkplatz-Pflicht), Luzern 50 % Dachfläche bei JEDEM Neubau inkl. EFH, St. Gallen
+  10 W/m² EBF + kommunale Zusatzkompetenz, Basel-Landschaft seit 1.10.2024 «soweit technisch/
+  wirtschaftlich möglich» → `[[solarpflicht-national-mantelerlass-kantone]]`, neuer Themenartikel
+  `[[solarpflicht-schweiz-kantone]]`, FAQ **F66** neu, Status emerging (Bundesregelung fest belegt,
+  nicht alle 26 Kantone im Detail geprüft, Gesetzestext Art. 45a EnG nicht im Wortlaut gelesen).
+
+- **D32 (Run 56, 2026-07-13)** — Run-55-Prioritätspunkt 2 abschliessend gelöst: «Amtliche
+  PDF-Fassung von § 295 PBG direkt auf zhlex.zh.ch öffnen» — die amtliche Gesetzessammlung LS 700.1
+  liess sich diesmal per curl direkt laden (vorheriger WebFetch-Versuch in Run 54/55 scheiterte an
+  reiner Navigationsseite) und mit pdftotext vollständig als Text extrahieren (96 S.). § 295 Abs. 1+2
+  Wortlaut ist **wortidentisch** mit der zuvor über ortsplanung.ch verifizierten Fassung (Run 55) —
+  die Primärquellen-Kette für `[[fernwaerme-anschlusspflicht-zh]]` ist damit lückenlos geschlossen,
+  kein Restrisiko einer Textabweichung mehr.
+
+- **D33 (Run 56, 2026-07-13)** — Run-55-Prioritätspunkt 1 recherchiert, aber **ergebnisoffen**:
+  «CHF-Kosten eines Blower-Door-Tests in der Schweiz». Alle recherchierten Schweizer Anbieter
+  (Vesica, Corak, Innoplan, blower-door-swiss.ch, Creoven, Sager) veröffentlichen keine Preise;
+  einzige gefundene Zahl ist eine deutsche Vergleichsgrösse (⌀ 325 Euro netto EFH, Creoven-Ratgeber),
+  die bewusst NICHT als Schweizer Richtwert übernommen wird (andere Marktstruktur, Leitplanke
+  «nichts erfinden»). In `[[rilumi-minergie-luftdichtheit-n50]]` als bewusst offene Marktfrage
+  dokumentiert statt stillschweigend fallengelassen — für eine belastbare Zahl wäre eine direkte
+  Anbieteranfrage nötig, das ist eine Grenze der Web-Recherche.

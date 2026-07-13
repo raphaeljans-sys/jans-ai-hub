@@ -3,6 +3,44 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713h (twin-fragesteller, aus Fidelity-Review 2026-07-13 Achtlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13h_fidelity.md` (Gesamt-Fidelity ~87; gezielte Stichproben
+INNERHALB bereits abgedeckter Batches statt weiterem Sequential-Sweep, um Redundanz zu meiden —
+Register-Gap-Suche: kalter Telefon-Nachfass ohne Referral + Plural-Sie-Kollektivanrede). Je in
+1–2 Sätzen beantwortbar.
+
+1. **Cc-Auftraggeber schon bei der allerersten Kaltkontakt-Mail — immer, oder nur wenn der
+   Kontext das nahelegt?** Bei Keisenhut (Liegenschaftsverwaltung, 22.05.2026) setzt Du Roman
+   Steinmann (Nova, Auftraggeber) von der ERSTEN Zeile an ins cc, obwohl es nur um einen
+   Rückruf-Termin geht und Steinmann nichts beizutragen hat. Machst Du das bei JEDER
+   Kaltakquise im fremden Auftrag automatisch so, oder nur wenn Du erwartest, dass der
+   Auftraggeber ohnehin bald involviert wird (z.B. weil er die Rechnung/den Termin am Ende
+   sieht)? *Warum: der bisher belegte Cc-Reflex galt nur für Devis-/Vergabe-Mails — prüft, ob
+   er wirklich schon am Tag 1 eines Kontakts gilt oder erst ab einer gewissen Mail-Schwere.*
+   → [[arbeitsweise]], [[beziehungsregister]]
+2. **«Geschätzte Herren» ohne Frauenanteil — wie reagierst Du, sobald EINE Frau im
+   Empfängerkreis ist?** Bei einer reinen Männer-Sie-Gruppe (Kübler + Spahic, 17.04.2026)
+   schreibst Du knapp «Geschätzte Herren,». Wechselst Du sofort zu «Geschätzte Damen und
+   Herren», sobald irgendeine Frau im To/Cc steht — auch wenn sie inhaltlich nicht die
+   Hauptadressatin ist — oder bleibt es bei «Geschätzte Herren» und die Frau wird separat
+   genannt? *Warum: die reine Männer-Variante war bisher nicht belegt, die Schwelle zur
+   gemischten Form ist offen.* → [[beziehungsregister]]
+3. **«Besten Dank für Ihre Bemühungen» — nur bei Bitte um aktive Handlung (Rückruf), oder
+   auch bei reiner Bitte um Kenntnisnahme?** Du dankst dem Verwalter Keisenhut «für Ihre
+   Bemühungen», bevor er überhaupt etwas getan hat (reine Vorschuss-Dankesformel für einen
+   erhofften Rückruf). Nutzt Du diese Formel gezielt nur, wenn Du um eine AKTIVE Handlung
+   bittest (Rückruf, Termin, Entscheid), oder auch bei simplen «zur Kenntnis»-Bitten? *Warum:
+   trennt sie sauber vom generischeren «Besten Dank im Voraus».* → [[stimme]]
+4. **Telefon-Nachfass ohne Referral — schreibst Du den Anlass je aus, oder bleibt es immer
+   so implizit wie bei Keisenhut («Ich habe Sie versucht telefonisch zu erreichen»)?** Die
+   Mail nennt weder WARUM Du anrufen wolltest noch woher die Nummer/Adresse stammt (anders als
+   die Familien-Referral-Mail an Würsch, die den Bruder als Quelle nennt). Lässt Du den
+   Kontext bei einem sachlich selbsterklärenden Anlass (Liegenschaftsverwalter der Zielimmobilie)
+   bewusst weg, weil er sich von selbst versteht, oder ist das eine Ausnahme? *Warum: klärt, ob
+   «Anlass immer benennen» (Referral-Prinzip) eine harte Regel ist oder nur gilt, wenn der Anlass
+   nicht ohnehin evident ist.* → [[stimme]], [[fachsignatur]]
+
 ## Offen — Runde 260713g (twin-fragesteller, aus Fidelity-Review 2026-07-13 Siebtlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13g_fidelity.md` (Gesamt-Fidelity 93; neue Goldproben vom

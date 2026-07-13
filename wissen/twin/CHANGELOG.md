@@ -2,6 +2,36 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13h — twin-fidelity-review Achtlauf (Selbsttest, Gap-Suche statt Sequential-Sweep)
+- Modus: Fidelity-Review-Selbsttest, achter Lauf am 13.07.2026 (nach a–g mit Fidelity 92–95).
+  Statt weiterer chronologischer Sequential-Sweep-Fortsetzung (bereits dicht bis 2026-05-13)
+  gezielt nach dünn abgedeckten Registern INNERHALB bereits erschlossener Zeitfenster gesucht.
+- Drei Goldproben via M365-CLI (`@pnp/cli-microsoft365`, Certificate-Auth) gezogen: Pendenzenliste
+  an Kübler+Spahic (17.04.2026, «Geschätzte Herren»), Gewerke-Anfrage an Besnik/fsgbau
+  (21.05.2026, Kontrollprobe), Kaltakquise-Telefon-Nachfass an Keisenhut/visionapartments cc
+  Steinmann/Nova (22.05.2026). Alle authentisch, keine Echo-Falle. Zwei bereits Wiki-zitierte
+  Kandidaten (Würsch-Küche, Hottinger-Kurzmail, beide 17.04.) bewusst NICHT erneut verwertet
+  (Zirkelschluss vermieden).
+- Gesamt-Fidelity dieser Runde ≈ 87 (bewusst unter dem 92–95-Niveau — Folge der Wahl eines
+  dünneren Registers, kein genereller Rückschritt).
+- **[[beziehungsregister]]** geschärft: neue Abschnitte «Geschätzte Herren — Plural-Sie-Anrede an
+  kleine gemischte Männer-Sie-Gruppe» (Batch 41, bisher unbelegt) und «Kaltakquise-Telefon-
+  Nachfass: Rückruf-Bitte + Auftraggeber-Transparenz-Cc» (bisher unbelegt).
+- **[[arbeitsweise]]** geschärft: neuer Abschnitt «Cc-Transparenz-Reflex gilt schon bei der ersten
+  Kontaktaufnahme, nicht erst bei Devis/Rechnung» — erweitert das bereits etablierte Cc-Muster
+  (Sachwalter-Choreografie bei Vergabe/Devis, Batch 28/30) auf die allererste Kaltkontakt-Mail.
+- Gegenseitige Facetten-Validierung: kein neuer Widerspruch zwischen den sechs Artikeln; die
+  Ergänzung erweitert ein bestehendes Muster konsistent, ohne es zu widerlegen.
+- `wiki/QUESTIONS.md`: neue Sektion «Offen — Runde 260713h» mit 4 Fragen (Cc-Reflex-Reichweite,
+  Frauenanteil-Schwelle bei «Geschätzte Herren», Dankesformel-Bedingung «für Ihre Bemühungen» vs.
+  «im Voraus», Anlass-Explizierungspflicht bei Kaltkontakt ohne Referral).
+- `raw/_INGESTED.md`: Registereintrag für die drei Goldproben ergänzt (kein neuer Batch-Index,
+  da innerhalb bereits abgedeckter Fenster; Sequential-Sweep-Marker 2026-05-13 15:14 unverändert).
+- Gehirn `rules/jans-dna.md`: NICHT neu kompiliert — die Ergänzungen liegen ausserhalb des
+  `## Do / Don't fuer den Zwilling`-Blocks (zu frisch/einzelbelegt für den kompakten Auto-Extrakt,
+  als offene Frage statt hartem Marker geführt); `build_dna.py` meldet «bereits aktuell».
+- Drift-Report: `outputs/2026-07-13h_fidelity.md`.
+
 ## 2026-07-13 — twin-mail-training Batch 44 (2026-05-11 bis 2026-05-13)
 - Scheduled Task `twin-mail-training`. M365-MCP-Server in dieser Session nicht konfiguriert/
   erreichbar, Cowork-Connector `outlook_email_search` ebenfalls nicht verfügbar — Zugriff über

@@ -1,8 +1,8 @@
 ---
-quelle: § 295 Planungs- und Baugesetz (PBG) Kanton Zürich (LS 700.1) — Wortlaut Abs. 1+2 direkt via ortsplanung.ch verifiziert (curl, Run 55) + Merkblatt «Fernwärmeanschluss» Stadt Zürich (stadt-zuerich.ch, Amt für Baubewilligungen)
+quelle: § 295 Planungs- und Baugesetz (PBG) Kanton Zürich (LS 700.1) — Wortlaut Abs. 1+2 jetzt DIREKT aus der amtlichen zhlex.zh.ch-PDF verifiziert (curl+pdftotext, Run 56; zuvor Run 55 nur via ortsplanung.ch) + Merkblatt «Fernwärmeanschluss» Stadt Zürich (stadt-zuerich.ch, Amt für Baubewilligungen)
 herausgeber: Kanton Zürich (Kantonsrat) / Stadt Zürich (Amt für Baubewilligungen AfB)
-ausgabe: Web, § 295 PBG Wortlaut Abs. 1+2 (ortsplanung.ch reproduziert den Gesetzestext direkt, per curl gegengelesen) + Stadt-Zürich-Merkblatt direkt gelesen
-gelesen: 2026-07-13 Run 54 (Sekundärzitate) + 2026-07-13 Run 55 (Wortlaut Abs. 1+2 direkt verifiziert — § 295 PBG hat nur 2 Absätze, nicht 3 wie in Run 54 vermutet)
+ausgabe: Amtliche PDF-Gesetzessammlung LS 700.1 (zhlex.zh.ch, direkt via curl geladen und mit pdftotext -layout vollständig als Text extrahiert, 96 Seiten) + Stadt-Zürich-Merkblatt direkt gelesen
+gelesen: 2026-07-13 Run 54 (Sekundärzitate) + 2026-07-13 Run 55 (Wortlaut via ortsplanung.ch) + 2026-07-13 Run 56 (Wortlaut § 295 Abs. 1+2 direkt aus der amtlichen zhlex.zh.ch-PDF gelesen — wortidentisch mit der Run-55-Fassung, damit 100 % primärquellen-verifiziert)
 datenstand: 2026-07-13, § 295 seit Energiegesetz-Revision 25.06.1995 unverändert in der Grundstruktur (Datum der aktuellsten PBG-Fassung nicht geprüft)
 status: established
 last_updated: 2026-07-13
@@ -19,7 +19,9 @@ anbietet (§ 295 Abs. 2 PBG); bestehende fossile Heizungen in der Stadt Zürich 
 
 ## Rechtsgrundlage § 295 PBG ZH — Wortlaut (Abs. 1 + 2, vollständig, direkt verifiziert)
 § 295 PBG hat **nur zwei Absätze** (nicht drei, wie in einem früheren Lauf vermutet). Wortlaut,
-via ortsplanung.ch direkt aus der Gesetzessammlung reproduziert und per curl gegengelesen:
+jetzt **direkt aus der amtlichen PDF-Gesetzessammlung zhlex.zh.ch** gelesen (Run 56, curl+pdftotext,
+LS 700.1, 96 Seiten) — wortidentisch mit der zuvor über ortsplanung.ch verifizierten Fassung
+(Run 55):
 
 > **Abs. 1:** «Werden Heizungen mit Brennstoffen betrieben, die Luftverschmutzungen bewirken, so
 > sind die Überbauungen mit standortgerechten Heizzentralen auszurüsten, die auch Abwärme und
@@ -80,15 +82,10 @@ Anfang an einzuplanen (Verfahren einfacher, keine Übergangsfrist nötig) als be
 bestehenden fossilen Heizung, wo die 8‑Jahres-Frist ab Verfügung läuft.
 
 ## Offen / Einschränkungen dieses Destillats
-- Der Wortlaut von § 295 Abs. 1+2 PBG ist jetzt direkt verifiziert (siehe oben); die **amtliche
-  PDF-Fassung auf zhlex.zh.ch selbst** wurde weiterhin nicht direkt geöffnet (Web-Fetch liefert
-  dort nur eine Navigationsseite, keine Paragraphen-Volltexte) — ortsplanung.ch reproduziert den
-  Gesetzestext zwar wortgetreu erkennbar (Formatierungsartefakte wie Weichtrennzeichen im
-  Rohtext deuten auf einen direkten Copy-Export aus der amtlichen Quelle hin), ist aber technisch
-  gesehen weiterhin eine Drittquelle, keine zhlex.zh.ch-Originaldatei. Für eine
-  rechtsverbindliche Aussage im Einzelfall bleibt eine Verifikation über eine amtliche PDF-Fassung
-  oder Skill `baurecht` empfehlenswert, das Risiko einer Textabweichung ist nach dieser
-  Prüfung aber gering.
+- **Gelöst (Run 56):** Der Wortlaut von § 295 Abs. 1+2 PBG ist jetzt direkt aus der amtlichen
+  PDF-Gesetzessammlung (zhlex.zh.ch, LS 700.1, curl+pdftotext) gelesen und deckt sich wortidentisch
+  mit der über ortsplanung.ch verifizierten Fassung — die Kette ist damit vollständig
+  primärquellen-verifiziert, kein Restrisiko einer Textabweichung mehr.
 - Konkrete Rechtsprechung des Baurekursgerichts zu strittigen Anschlussfällen nicht ausgewertet.
 - Regelung anderer Zürcher Gemeinden ausserhalb der Stadt Zürich (eigene Wärmeverbünde,
   z.B. Winterthur) nicht recherchiert.

@@ -891,3 +891,36 @@ Beziehungsstufe zum Zweitadressaten.
   zu «Geschätztes Projektteam» — bestätigt das Muster einer neutralen, rollenbasierten
   Kollektivanrede statt Einzelnamen bei projektübergreifenden Fachverteilern. Quelle: 11.05.2026,
   authentisch.
+
+## «Geschätzte Herren» — Plural-Sie-Anrede an eine kleine gemischte Männer-Sie-Gruppe (belegt Mailbatch 41, authentisch, Fidelity 260713h)
+
+- Eine reine Attachment-Transmittal-Mail («im Anhang die Pendenzenliste mit der Bitte um
+  Umsetzung») an zwei Sie-Empfänger ohne Cc (Gruner-Fachplaner Kübler + KISPI-Bauherrenvertreter
+  Spahic, 17.04.2026) trägt die Anrede **«Geschätzte Herren,»** — nicht «Geschätzte Damen und
+  Herren» (kein weiblicher Empfänger im Verteiler) und nicht «Geschätzter Herr Kübler, Geschätzter
+  Herr Spahic» (keine Einzelaufzählung trotz unterschiedlicher Rollen/Firmen). Ergänzt die bereits
+  belegten Kollektiv-Anreden («Geschätztes Projektteam», «Geschätzte Herren des Vorstands») um die
+  knappste Form: **zwei bis drei männliche Sie-Empfänger unterschiedlicher Rolle/Firma, gebündelt
+  in einem sachlichen Transmittal ohne Fliesstext**, bekommen die Zwei-Wort-Anrede «Geschätzte
+  Herren» statt Einzel- oder Funktionsanrede. Quelle: 17.04.2026, authentisch.
+
+## Kaltakquise-Telefon-Nachfass: Rückruf-Bitte + Auftraggeber-Transparenz-Cc (belegt Mailbatch ~46, authentisch, Fidelity 260713h)
+
+- **Reiner Telefon-Nachfass ohne Referral-Aufhänger:** «Sehr geehrter Herr Keisenhut / Ich habe
+  Sie versucht telefonisch zu erreichen. Könnten Sie mich zurückrufen um einen für Sie geeigneten
+  Besichtigungstermin der Liegenschaft Albertstrasse 7 gemeinsam zu vereinbaren? / Besten Dank für
+  Ihre Bemühungen.» — anders als die Familien-Referral-Kaltakquise (Würsch, Batch 42) hat dieser
+  Erstkontakt **keinen persönlichen Anknüpfungspunkt**, sondern begründet sich rein aus der
+  Sachlage (Liegenschaftsverwaltung der Zielimmobilie). Das Register bleibt trotzdem sofort
+  formell-Sie, keine Warm-Formel, kein Referral-Satz — die Kürze ersetzt die Wärme.
+  «**Besten Dank für Ihre Bemühungen**» statt des Standard-«im Voraus» ist die passende
+  Dankesformel bei einer BITTE UM AKTIVE HANDLUNG des Empfängers (Rückruf), nicht bloss um
+  Kenntnisnahme — feiner als der generische Baustein-Dank.
+- **Auftraggeber-Transparenz-Cc bei Akquise im fremden Interesse:** die Mail geht cc an
+  **Roman Steinmann** (Nova Property, Sie/Auftraggeber-Rolle) — obwohl Steinmann inhaltlich nicht
+  gebraucht wird (Keisenhut soll nur zurückrufen). Neuer, bisher unbelegter Marker: **wird ein
+  Kaltkontakt im Interesse/Auftrag eines Dritten angeschrieben, hält Raphael den Auftraggeber
+  routinemässig auf cc, auch bei einer trivialen Zwei-Satz-Mail** — Transparenz/Nachvollziehbarkeit
+  schlägt Minimalismus. Der Zwilling muss diesen Cc-Reflex mitdenken, nicht nur bei Devis-/
+  Rechnungs-Sachwalter-Cc (bereits belegt), sondern schon bei der ersten Kontaktaufnahme.
+  Quelle: 22.05.2026, authentisch (M365-CLI, Sent Items rj@raphaeljans.ch).
