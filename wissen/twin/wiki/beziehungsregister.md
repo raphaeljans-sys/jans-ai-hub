@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -797,3 +797,17 @@ und ergänzt:
   Alig» Sie; Mustafa Eren / Gruner «Geschätzter Herr Eren» warm-Sie; Aline Steiger / Bauamt Thalwil «Geschätzte
   Frau Steiger» warm-Behörden-Sie. Albin Spahic bestätigt Du auch für die Zahlungserinnerung («Geschätzter
   Albin»); Fwd an Albin bleibt «Hoi Albin … Lieber Gruss Raphael».
+
+## «Geschätze Firma <Name>» = warm-Sie an eine Firma (nicht Person) + Eskalation über den Empfängerkreis (belegt Mailbatch 40, authentisch)
+- **«Geschätze Firma Jegen»** als Anrede an ein **Unternehmen** statt an eine Einzelperson (Innere-Verglasung-
+  Anbieter, 2026-04-11) — die warme «Geschätzte»-Stufe wird hier auf die **Firma** angewandt, wenn die
+  Ansprechperson (noch) nicht individualisiert ist bzw. das Sammelpostfach (info@) adressiert wird. Reiht sich zu
+  «Register an Firma statt Person gebunden» (fsgbau, Batch 37): die Anrede folgt dem Adressaten-Typ (Firma vs.
+  benannte Person). Mapping: Firma Jegen → warm-Sie «Geschätze Firma», Kontakt Livdin Bajrami.
+- **Eskalation über den Empfängerkreis statt über den Ton:** die Zahlungs-Mahnmail an den Du-Bauherrn (Albin,
+  2026-04-14) geht bewusst zusätzlich an die **Kreditoren-/Finanzstelle** (Marc Tobler, kreditoren@KISPI,
+  Michelle Valentin) — die persönliche Du-Beziehung zum Betreiber bleibt, der Druck entsteht durch das
+  **Einbeziehen der zahlenden Amtsstelle** in den Verteiler (→ [[arbeitsweise]]/[[haltung]]).
+- Mappings bestätigt: Mustafa Eren / Jonas Simmen / Benjamin Kübler (Gruner-Fachplaner) → «Geschätzter Herr
+  <Nachname>» warm-Sie; Christoph Schoch (Fachstelle Lärmschutz Stadt ZH) → «Sehr geehrter Herr <Nachname>»
+  formell-Sie; Stefan Tschopp (Bauherr-Partner Thalwil) → «Geschätzter Stefan» + Du.

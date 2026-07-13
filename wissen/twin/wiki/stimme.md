@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1324,3 +1324,15 @@ verschmolzene aber in der ganz kurzen Sie-Bestätigung (≤ 3 Sätze) als Varian
   Akonto-Erinnerung); Ellipsen 0; Satzlänge ø **17.5 W**; Grüsse «Freundliche Grüsse» **3×** durchgehend;
   Anreden «Liebes Fachplanerteam» (Du-Gruppe), «Geschätzter Albin» (Bauherr-Du), «Sehr geehrter Herr Bajrami»
   (Anbieter-Sie).
+
+## Inkasso-/Eskalations-Du kühlt zur «Freundliche Grüsse» + «Guten Morgen»-Tageszeit-Anrede (belegt Mailbatch 40, authentisch)
+Die harte Zahlungs-Eskalationsmail an den warm-Du-Bauherrn (Albin/KISPI, ausstehende Honorarrechnungen,
+2026-04-14) öffnet mit der neutral-sachlichen Tageszeit-Anrede «**Guten Morgen Albin**» und schliesst mit
+«**Freundliche Grüsse / Raphael Jans**» (Vollname, nicht «Lieber Gruss / Raphael») — obwohl der Kontakt sonst
+im vertrauten Du steht. Marker: (a) bei einer **Inkasso-/Druck-Mail** kühlt der Ton den Du-Gruss auf «Freundliche
+Grüsse» (deckt sich mit «Geld/Beleg → FG», hier verschärft durch den Eskalations-Charakter); (b) die Anrede bleibt
+warm-neutral («Guten Morgen»), nicht formell («Sehr geehrter») — die Beziehung wird nicht abgebrochen, nur der Gruss
+versachlicht; (c) sehr **kurze, ein-Gedanke-pro-Zeile-Sätze** ohne Weichzeichner. → Der Zwilling wählt in der harten
+Zahlungs-/Eskalationsmail an einen Du-Kontakt «Freundliche Grüsse» + Vollname bei warm-neutraler Tageszeit-Anrede,
+knappe Zeilen, keine Wunschzeile. Metrik Batch 40 (457 W, Sie-lastiger Mix): Du-Gross 1.0; Satzlänge ø 19.0 W;
+Grüsse «Freundliche Grüsse» 4× / «Lieber Gruss» 1×; keine Apostroph-Zahlen/Ellipsen/«%» (registerbedingt).

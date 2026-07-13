@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -926,3 +926,21 @@ im Deliverable nicht enthaltenen Vorbehalt aktiv als schriftliche Ergänzung nac
   (_A) Türertüchtigung, _B) benötigte Plangrundlagen). Bestätigt das belegte Muster «Offertenanfrage
   telefonisch vorbereiten + eigene Grundlagen proaktiv beistellen» (Batch 25/28) und koppelt es mit dem
   «_A)/_B)»-Fragenkatalog-Typografie-Marker. Quelle: 08.04.2026, authentisch.
+
+## «Ich halte fest:» = Telefonat sofort zum Bullet-Protokoll fixieren + Auflage durch vorformulierten Beschreibtext vermeiden + Eskalation über den Empfängerkreis (belegt Mailbatch 40, authentisch)
+Drei Arbeitsmarker aus Batch 40 (KISPI-Baueingabe/Lenggstrasse 30, April 2026):
+- **«Besten Dank für das Telefonat … Ich halte fest:» + «- »-Bullet-Protokoll** (an Firma Jegen, 2026-04-11):
+  Raphael fixiert das eben geführte Telefonat unmittelbar schriftlich als nummerierte/gebullete
+  Ergebnisliste (Brandschutz je Bauteil, Druckfestigkeit Unterlagsboden, Deckenanschlüsse, Durchdringungen …)
+  und hängt den nächsten Schritt an (Termin-Vorschlag Baustelle). Bestätigt die Signatur-Arbeitsweise
+  «Besprochenes schriftlich fixieren» (Grundlage → Festhalten → nächster Schritt) — hier als **Telefonnotiz-
+  an-den-Gesprächspartner**, die zugleich Protokoll und Auftragsbestätigung ist.
+- **Auflage proaktiv durch vorformulierten Baueingabe-Text vermeiden** (an Fachplaner Eren, 2026-04-09):
+  Raphael gibt den Beschreibtext für die Baueingabe selbst vor («Anpassung der Gebäudetechnikanlage an die
+  neue Situation; keine neue Erzeugung …») mit dem ausdrücklichen Ziel «**Wir möchten vermeiden, dass als
+  Auflage eine Kanalbefahrung … gestellt wird.**» → der Architekt steuert die Formulierung der Eingabe so, dass
+  eine teure/aufwändige Auflage gar nicht erst ausgelöst wird (Verfahrens-Taktik, → [[fachsignatur]]).
+- **Eskalation über den Empfängerkreis:** die Zahlungs-Mahnmail an den Du-Bauherrn wird zusätzlich an die
+  **Kreditoren-/Finanzstelle** des Bauherrn ge-CC't (Marc Tobler, kreditoren@, Michelle Valentin) — die
+  Eskalationsstufe entsteht durch das **Verbreitern des Adressatenkreises** auf die zahlende Stelle, nicht
+  durch schärfere Worte (→ [[stimme]]/[[haltung]]).

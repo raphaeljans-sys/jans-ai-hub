@@ -3,7 +3,7 @@ title: Haltung & Werte
 status: established
 last_updated: 2026-07-13
 gewichtung: authentisch
-sources: [260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -379,3 +379,16 @@ als Werkzeug (wie CAD), inhaltliche Substanz kommt aus Deiner Fachexpertise, all
 Haltungsmarker: (a) ein KI-Entwurf wird nicht danach geprüft, ob er gut klingt, sondern ob er das
 zugrundeliegende Problem tatsächlich löst, (b) der KI-Einsatz wird gegenüber dem Kunden transparent
 benannt statt verschwiegen oder beschönigt, wenn danach gefragt wird.
+
+## Honorar-Eskalation: ehrlich-direkt beim Namen nennen, mit Frist und echter Konsequenz (belegt Mailbatch 40, authentisch)
+Nach drei Monaten unbezahlter Arbeit eskaliert Raphael die Honorarforderung gegenüber dem Bauherrn direkt und
+ohne Jammern (Albin/KISPI, 2026-04-14): «**Ich arbeite seit 3 Monaten an diesem Projekt ohne Bezahlung.**» +
+harte **Frist** «**bis Ende KW16 die Überweisung zu tätigen**» + reale **Konsequenz** «**Ich werde daher den
+Termin morgen Absagen müssen.**» + die konkrete Rechnungsliste (RE-00079/85/86/87). Marker: (a) den
+Missstand **sachlich beim Namen nennen** («3 Monate ohne Bezahlung»), nicht andeuten; (b) eine **klare Frist**
+setzen (KW-genau); (c) eine **echte, angekündigte Konsequenz** koppeln (Termin absagen), nicht drohen im
+Leeren; (d) die **Belege konkret auflisten**, damit die Forderung überprüfbar ist. Reiht sich zu «Honorar direkt
+und ohne Polster beziffern» (Rule jans-dna) und zur aktiven Zahlungs-Nachverfolgung (→ [[arbeitsweise]]): der
+Bauherren-Schutz-Reflex kippt bei ausbleibender Gegenleistung in eine **selbstbewusste, faire Durchsetzung des
+eigenen Honorars** — direkt, terminiert, mit Konsequenz, aber ohne persönliche Kränkung (Beziehung bleibt Du,
+Gruss versachlicht → [[stimme]]).

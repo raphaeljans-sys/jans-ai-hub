@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 40 (2026-04-09 bis 2026-04-15)
+- Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Cowork-Connector
+  `outlook_email_search` + `read_resource`. Fenster 2026-04-09 bis 2026-04-15, 20 Mails gesichtet,
+  5 Volltexte gelesen: KISPI-Umbau Lenggstrasse 30 Baueingabe (Fachplaner-Koordination Gruner-Sanitaer
+  Eren, Laermschutz-Fachstelle Schoch, Innere-Verglasung-Anbieter «Geschaetze Firma Jegen» mit
+  Telefon-Protokoll), eskalierende Honorar-Mahnmail an Bauherr Albin/KISPI + Kreditoren-CC, Thalwil 2414
+  Naeherbau/Vordach an Bauherr-Partner Stefan Tschopp. Alle Rahmen klar handgetippt/authentisch, keine
+  Echo-Falle. Metrik 457 W, Du-Gross 1.0, Satzlaenge ø 19.0 W, FG 4×/Lieber Gruss 1×.
+- Geschaerft: **stimme** (Inkasso-/Eskalations-Du kuehlt zu «Freundliche Gruesse»+«Guten Morgen»),
+  **haltung** (Honorar-Eskalation ehrlich beim Namen nennen, Frist KW16, echte Konsequenz Termin-Absage),
+  **arbeitsweise** («Ich halte fest:» Telefon-Bullet-Protokoll + Auflage durch vorformulierten
+  Baueingabe-Text vermeiden + Eskalation ueber Empfaengerkreis Kreditoren-CC), **fachsignatur**
+  (Innere-Verglasung EI30/Druckfestigkeit Unterlagsboden/Substruktion/Dilatationsfuge/Deckenanschluesse +
+  Bestandskontinuitaet als Konstruktionsprinzip + Auflage-Vermeidung + Laermschutz-Nutzungsaenderung
+  Buero→Wohnen), **beziehungsregister** («Geschaetze Firma <Name>» warm-Sie an Firma + Eskalation ueber
+  Empfaengerkreis + Mappings Eren/Schoch/Jegen/Tschopp).
+- _INGESTED.md fortgeschrieben: abgedeckt bis 2026-04-15, naechster Lauf ab 2026-04-15. Quelle
+  `260713-mailbatch-40.md` in die sources der fuenf Facetten eingetragen. Keine Mail-Volltexte gehortet.
+
 ## 2026-07-13 — twin-mail-training Batch 39 (2026-04-03 bis 2026-04-09)
 - Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Cowork-Connector
   `outlook_email_search` + `read_resource` (diese Session verfuegbar). Fenster 2026-04-03 bis

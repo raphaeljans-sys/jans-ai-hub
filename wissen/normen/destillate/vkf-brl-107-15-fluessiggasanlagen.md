@@ -4,7 +4,7 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 107-15de"
 gelesen: "S. 1-13 komplett (Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-7, Anhang)"
 datenstand: "2015"
-status: destilliert
+status: established (verifiziert 13.07.2026)
 last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
@@ -235,7 +235,11 @@ Gemäss Anhang zu Ziff. 1 (S. 9) sind insbesondere zu beachten:
 
 ## Offene Punkte
 
-- Keine inhaltlichen Lücken im Dokument selbst; es ist eine kurze, abschliessende
+- Ziff. 3.1 "Allgemeines" (S. 4, grau hinterlegt: bei Arbeiten an Bauten und Anlagen sind
+  von allen Beteiligten geeignete Massnahmen gegen die bauvorgangsbedingt erhöhte Brand-
+  und Explosionsgefahr zu treffen) ist im Destillat nicht als eigene Kernziffer aufgeführt
+  (kleine Erfassungslücke, verifiziert 13.07.2026).
+- Sonst keine inhaltlichen Lücken im Dokument selbst; es ist eine kurze, abschliessende
   Brandschutzerläuterung (13 Seiten inkl. Formularen).
 - Nicht geklärt in diesem Dokument: Detailanforderungen der referenzierten EKAS-Richtlinien
   1941/1942, SVGW-G1 und SUVA-Merkblätter 2153/44025 selbst — diese sind eigene Quellen und
