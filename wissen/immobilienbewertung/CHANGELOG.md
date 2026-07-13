@@ -2,6 +2,33 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-13 — Training-Run 26: D6 weiter geschlossen — Muri-AG-Revision 2018/19 + Zollikon bestaetigt
+
+- **[[az-gfz-kennwerte]] aktualisiert:** **Muri AG** von Stand 31.10.2012 auf die **Revision
+  2018/2019** (BNO vom 21.06.2018, RRB-genehmigt 27.02.2019) umgestellt — Quelle ist ein
+  Bild-PDF ohne Textebene (`pdftotext` liefert 0 Zeichen), **erstmals visuell via Read-Tool
+  gelesen statt per OCR/Textschicht**. Ergebnis: die Ausnuetzung wurde deutlich erhoeht
+  (W1 0.30→0.35, W2 0.40→0.45, W3 0.50→0.60, WG3 0.60→0.70) und eine neue Hochdichte-Zone
+  **W3+ (AZ 0.8, 5 Vollgeschosse, 18 m Gesamthoehe)** eingefuehrt; System von Gebaeudehoehe/
+  Firsthoehe auf **Gesamthoehe** (IVHB) umgestellt. Kernzone Bruehl (KB) wurde von der
+  Gemeindeversammlung **teilzurueckgewiesen** und ist nicht in Kraft — als Vorbehalt vermerkt.
+- **Zollikon bestaetigt aktuell gueltig:** die zitierte 1996-Fassung ist mit dem offiziell
+  gefuehrten **Stand 5.4.2013** (konsolidierter Neudruck 19.02.2024, `zollikon.ch/_doc/4980595`,
+  echte Textebene) materiell **wertidentisch** — kein stiller Rechtsverlust. Neu erfasst:
+  **Zentrumszone (Art. 11)**, BMZ max. 2.70 Flachdach/2.80 Schraegdach, Gebaeudehoehe 13.5 m.
+  Eine vom Gemeinderat am 20.08.2025 beschlossene **Teilrevision** ist der Gemeindeversammlung
+  vorgelegt (Infoveranstaltung 05.11.2025), aber **noch nicht in Kraft** — Wiedervorlage nach
+  Beschluss.
+- **Langnau am Albis:** Zeitplan der BZO 2026/27 gegengeprueft, unveraendert bestaetigt
+  (kantonale Vorpruefung/oeffentliche Auflage Fruehjahr 2026, Inkraftsetzung Fruehjahr 2027).
+- Register gepflegt: `wissensluecken.md` (D6 von "substanziell" auf "weitgehend geschlossen",
+  9 von 11 Gemeinden aktuell), `INDEX.md`, `curriculum.md` (Run-26-Stand + Methoden-Lektion:
+  Bild-PDFs kuenftig per Read-Tool visuell statt nur per `pdftotext` pruefen).
+- Kein neuer JANS-Bewertungsfall (Bewertungsordner erneut geprueft, weiterhin Wangen 8855 der
+  juengste Fall seit Run 6). Marktpuls (E7) erneut unveraendert seit Run 17 (SNB 0.00 %,
+  Referenzzins 1.25 %, naechster Publikationstermin 01.09.2026).
+- Report: `outputs/2026-07-13_training-run26.md`.
+
 ## 2026-07-13 — Training-Run 25: D6 substanziell geschlossen — 7 weitere Gemeinden (Dichte-Kennwerte)
 
 - **[[az-gfz-kennwerte]] massiv erweitert** um 7 Gemeinden, je direkt aus der amtlichen

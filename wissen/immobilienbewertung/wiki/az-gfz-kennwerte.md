@@ -2,7 +2,7 @@
 title: Dichte-Kennwerte (AZ / Baumassenziffer / Überbauungsziffer) je Gemeinde/Zone (D6)
 status: emerging
 last_updated: 2026-07-13
-sources: ["Thalwil: Bau- und Zonenordnung vom 18.03.2005 (teilrevidiert), Art. 3 Grundmasse, Synopse-Fassung (habitatmobilite.ch-Spiegel des amtlichen Thalwil-BZO-PDF)", "Wädenswil: Bau- und Zonenordnung (BZO), Art. 3 Grundmasse (ortsplanung.ch, offizieller Spiegel der Stadt Wädenswil)", "Zollikon: BZO vom 26.06.1996, Art. 15 Grundmasse (oerebdocs.zh.ch docid=1611, kantonaler OEREB-Dokumentenspeicher)", "Maur: BZO neue Fassung (Ortsplanungsrevision, BDV-Genehmigung 26.09.2023), Art. 14/16 Grundmasse (maur.ch, Synoptische Darstellung 19.10.2021)", "Wald ZH: BZO, Art. 43 Grundmasse (wald-zh.ch)", "Einsiedeln: Baureglement Ausgabe 2025, Art. 49 Masse Wohnzonen (einsiedeln.ch sre_610100)", "Wangen SZ: Baureglement, Tabelle der Grundmasse (wangensz.ch)", "Regensdorf: BZO 2020, Art. 16 Grundmasse (oerebdocs.zh.ch docid=8897)", "Muri AG: Bau- und Nutzungsordnung, Stand 31.10.2012, §§ 6-10 (muri.ch)", "Luzern Stadt: Bau- und Zonenreglement BZR 2022, Art. 40/43 (stadtluzern.ch)"]
+sources: ["Thalwil: Bau- und Zonenordnung vom 18.03.2005 (teilrevidiert), Art. 3 Grundmasse, Synopse-Fassung (habitatmobilite.ch-Spiegel des amtlichen Thalwil-BZO-PDF)", "Wädenswil: Bau- und Zonenordnung (BZO), Art. 3 Grundmasse (ortsplanung.ch, offizieller Spiegel der Stadt Wädenswil)", "Zollikon: BZO Stand 5.4.2013, Art. 11+15 Grundmasse (zollikon.ch/_doc/4980595, konsolidierter Neudruck 19.02.2024; materiell identisch mit Erlass 26.06.1996; Teilrevision Gemeinderat-Beschluss 20.08.2025 noch nicht in Kraft)", "Maur: BZO neue Fassung (Ortsplanungsrevision, BDV-Genehmigung 26.09.2023), Art. 14/16 Grundmasse (maur.ch, Synoptische Darstellung 19.10.2021)", "Wald ZH: BZO, Art. 43 Grundmasse (wald-zh.ch)", "Einsiedeln: Baureglement Ausgabe 2025, Art. 49 Masse Wohnzonen (einsiedeln.ch sre_610100)", "Wangen SZ: Baureglement, Tabelle der Grundmasse (wangensz.ch)", "Regensdorf: BZO 2020, Art. 16 Grundmasse (oerebdocs.zh.ch docid=8897)", "Muri AG: Bau- und Nutzungsordnung (BNO) vom 21.06.2018, genehmigt RRB Nr. 2019-000184 vom 27.02.2019, § 9 Bauzonen-Tabelle (muri.ch, Bild-PDF ohne Textebene, visuell gelesen)", "Luzern Stadt: Bau- und Zonenreglement BZR 2022, Art. 40/43 (stadtluzern.ch)", "Langnau am Albis: langnauamalbis.ch/bzo, Revisions-Zeitplan BZO 2026/27 (Stand Juli 2026)"]
 links: [[marktdaten-gemeinden/zh-thalwil-8800]], [[marktdaten-gemeinden/zh-waedenswil-8820]], [[marktdaten-gemeinden/zh-zollikon-8125]], [[marktdaten-gemeinden/zh-maur-8124]], [[marktdaten-gemeinden/zh-regensdorf-8105]], [[marktdaten-gemeinden/zh-wald-8636]], [[marktdaten-gemeinden/sz-wangen-8854]], [[marktdaten-gemeinden/sz-einsiedeln-8840]], [[marktdaten-gemeinden/ag-muri-5630]], [[marktdaten-gemeinden/lu-luzern-6000]], [[residualwertmethode]], [[realwert-sachwert]], [[flaechendefinitionen-sia]], [[wissensluecken]]
 ---
 
@@ -127,11 +127,19 @@ vergleichbare Vorortsgemeinden sind. Wädenswil hat zusätzlich eine WG5/85%-Zon
 Vollgeschosse, 16.5 m), die in Thalwils Zonenkatalog (max. WG4/70%) fehlt — Wädenswil
 lässt damit an einzelnen Lagen eine höhere bauliche Dichte zu.
 
-## Zollikon (ZH, PLZ 8702) — Baumassenziffer
+## Zollikon (ZH, PLZ 8702) — Baumassenziffer (Quelle bestätigt aktuell, Run 26)
 
-Quelle: BZO Zollikon vom 26.06.1996, Art. 15 Grundmasse (kantonaler OEREB-Speicher
-oerebdocs.zh.ch docid=1611). **Kennziffer: Baumassenziffer (BMZ)**, keine AZ.
-⚠ Ausgabe 1996 (bald 30 Jahre) — vor Verwendung zwingend aktuellen Rechtsstand prüfen.
+Quelle: BZO Zollikon, **Stand 5. April 2013** (Dokument-Nr. 700.2, konsolidierter Neudruck
+vom 19.02.2024, `zollikon.ch/_doc/4980595`), Art. 15 Grundmasse Wohnzonen + Art. 11
+Grundmasse Zentrumszone. **Kennziffer: Baumassenziffer (BMZ)**, keine AZ. **Gegenprüfung
+Run 26:** die Wohnzonen-Tabelle (W 1.25–WG 2.90) im Stand-2013-Dokument ist **wertidentisch**
+mit der 1996-Fassung — der ursprüngliche Erlass von 1996 gilt materiell unverändert weiter,
+2013 war eine redaktionelle Inkraftsetzung/Bereinigung. Neu ergänzt: **Zentrumszone (Art. 11)**
+— BMZ max. 2.70 (Flachdach) / 2.80 (Schrägdach), Gebäudehöhe max. 13.5 m, Grundabstand
+min. 6 m. **Laufende Teilrevision:** der Gemeinderat hat am 20.08.2025 eine überarbeitete
+BZO-Teilrevision beschlossen; sie ist der Gemeindeversammlung zur Beschlussfassung vorgelegt
+(Infoveranstaltung 05.11.2025) und **noch nicht in Kraft** — bis zum rechtskräftigen Beschluss
+gilt die Stand-2013-Tabelle unten unverändert weiter.
 
 | Zone | BMZ Flachdach | BMZ Schrägdach¹ | BMZ bes. Geb. | Gebäudehöhe max. | Firsthöhe max. | Gebäudelänge max. | Grundabstand min. |
 |---|---|---|---|---|---|---|---|
@@ -149,6 +157,16 @@ oerebdocs.zh.ch docid=1611). **Kennziffer: Baumassenziffer (BMZ)**, keine AZ.
 
 ¹ Beidseitiges Schrägdach über den Hauptfassaden, ein First, ≥ 22.5° Neigung. ² In
 besonders bezeichneten Gebieten gilt eine Gebäudehöhe von max. 11.8 m.
+
+**Zentrumszone (Art. 11, neu erfasst Run 26):**
+
+| Bestimmung | Zentrumszone |
+|---|---|
+| BMZ Hauptgebäude Flachdach max. | 2.70 |
+| BMZ Hauptgebäude Schrägdach¹ max. | 2.80 |
+| BMZ besondere Gebäude max. | 0.20 |
+| Gebäudehöhe max. | 13.5 m |
+| Grundabstand min. | 6 m |
 
 ## Maur (ZH, PLZ 8124) — Ausnützungsziffer (neue Fassung 2023)
 
@@ -251,25 +269,43 @@ anrechenbare Gebäudegrundfläche zur Landfläche, **nicht** AZ. Zweiter Wert = 
 ¹ Für eingeschossige, ausschliesslich gewerblich genutzte Gebäudeteile bis 5 m Höhe
 gelten Erleichterungen (Grenzabstand 3 m; ÜZ + 4 %).
 
-## Muri (AG, PLZ 5630) — Ausnützungsziffer
+## Muri (AG, PLZ 5630) — Ausnützungsziffer (aktualisiert auf die Revision 2018/2019, Run 26)
 
-Quelle: Bau- und Nutzungsordnung Muri AG, Stand 31.10.2012, §§ 6-10 (muri.ch). **Kennziffer:
-AZ.** ⚠ Eine Revision 2019 existiert, liegt aber nur als Bild-PDF (ohne Textebene) vor —
-vor Verwendung aktuellen Stand verifizieren.
+Quelle: Bau- und Nutzungsordnung (BNO) Muri AG vom 21. Juni 2018 (Gemeindeversammlung),
+genehmigt durch den Regierungsrat mit RRB Nr. 2019-000184 vom 27.02.2019 «mit Änderungen/
+Auflagen» (muri.ch, `Bau-_und_Nutzungsordnung_190227.pdf`, § 9 Bauzonen-Tabelle). **Bild-PDF
+ohne Textebene — visuell gelesen (Modell D, Read-Tool), nicht per pdftotext extrahierbar.**
+**Kennziffer: Ausnützung/AZ**, System auf **Gesamthöhe** umgestellt (IVHB-Harmonisierung,
+löst das alte Gebäudehöhe/Firsthöhe-Paar ab). Löst damit den bisherigen Stand 31.10.2012 ab
+und schliesst den Revisions-Vorbehalt aus Run 25.
 
-| Zone | AZ | Gebäudehöhe | Firsthöhe | Kl. Grenzabstand | Gr. Grenzabstand | ES |
-|---|---|---|---|---|---|---|
-| Kernzone Wey/Klosterrain/Bahnhofquartier (K) | 1.0¹ | 10.0 m | 15 m | 4 m | — | III |
-| Kernzone (K) | 0.6¹ | 7.5 m | 13 m | 4 m | — | III |
-| Wohnzone 1 (W1) | 0.3 | 7 m | 12 m | 4 m | 8 m | II |
-| Wohnzone 2 (W2) | 0.4 | 7 m | 12 m | 4 m | 8 m | II |
-| Wohnzone 3 (W3) | 0.5 | 10 m | 15 m | 6 m | 10 m | II |
-| Wohn- und Gewerbezone 3 (WG3) | 0.6² | 10 m | 15 m | 6 m | 10 m | III |
+| Zone | Ausnützung | Vollgeschosse | Gesamthöhe | Grenzabstand klein | Grenzabstand gross | ES | § |
+|---|---|---|---|---|---|---|---|
+| Kernzone (K) | x¹ | (3) | (15 m) | 4 m | — | III | §10 |
+| Dorfzone (D) | (0.8) | (2) | (13 m) | 4 m | — | III | §11 |
+| Wohnzone 1 (W1) | 0.35 | 2 | 10 m | 4 m | 8 m | II | §12 |
+| Wohnzone 2 (W2) | 0.45 | 2 | 11 m | 4 m | 6 m | II | §12 |
+| Wohnzone 3 (W3) | 0.6 | 3 | 14 m | 5 m | 8 m | II | §12 |
+| Wohnzone 3 plus (W3+) | 0.8 | 5 | 18 m | 6 m | 12 m | II | §12 |
+| Wohn- und Gewerbezone 3 (WG3) | 0.7 | 3 | 15 m | 5 m | 8 m | III | §13 |
+| Arbeitszone (A) | — | — | § 9 Abs. 5² | x | — | lt. Bauzonenplan | §15 |
+| Spezialzone Im Roos (SR) | x¹ | (3) | (15 m) | 4 m | — | III | §16 |
+| Zone für öffentliche Bauten und Anlagen (OE) | — | x¹ | x¹ | x¹ | — | II/III | §17 |
 
-¹ Richtwert; der Gemeinderat legt die Masse in den Kernzonen im Einzelfall fest
-(Ortsbildschutz). ² Gilt nur bei Gewerbeanteil ≥ 20 % der BGF, sonst W3-Wert 0.5. In
-Arealüberbauungen sind höhere AZ (0.9/1.0) möglich; in besonders einsehbaren W1-Gebieten
-AZ 0.25.
+Werte in Klammern gelten bei Neubauten als **Richtwert**, von dem der Gemeinderat abweichen
+kann, wenn die Lösung ortsbaulich/architektonisch besser ist und der Zonenzweck gewahrt
+bleibt. ¹ Mit «x» bezeichnete Masse legt der Gemeinderat im Einzelfall unter Interessen-
+abwägung fest. ² Gesamthöhe der Arbeitszonen im Bauzonenplan festgelegt; in der Zone
+«A/IV/18m» ist eine Erhöhung unter Interessenabwägung möglich, in Extremfällen mit
+Fachgutachten. **Kernzone Brühl (KB, §14)** wurde von der Gemeindeversammlung am 21.06.2018
+**teilzurückgewiesen** und ist damit **nicht in Kraft** — separat beim Gemeinderat zu
+verifizieren, bevor eine Bewertung sich darauf stützt.
+
+**Dichtesprung ggü. 2012 (Kernbefund):** die Revision hat die Ausnützung spürbar erhöht und
+eine neue Hochdichte-Zone eingeführt — W1 0.30→0.35, W2 0.40→0.45, W3 0.50→0.60, WG3
+0.60→0.70, plus die **neue Zone W3+ mit AZ 0.8 / 5 Vollgeschossen / 18 m Gesamthöhe**
+(2012 endete der Zonenkatalog bei WG3). Für Machbarkeits-/Residualwertrechnungen in Muri ist
+damit ab sofort die 2018/19-Tabelle massgebend, nicht der 2012-Stand.
 
 ## Luzern (Stadt, LU, PLZ 6000) — Überbauungsziffer + Gesamthöhe-System (BZR 2022)
 
@@ -290,14 +326,21 @@ kantonale Vorprüfung/öffentliche Auflage Frühjahr 2026, Inkraftsetzung Frühj
 geplant). Aktuell ist kein stabil beziehbares, in Kraft stehendes BZO-PDF verfügbar; der
 massgebende Rechtsstand ist **direkt bei der Gemeinde** zu beziehen. Für D6 offen, bis die
 Revision rechtskräftig ist. (Wichtig für den JANS-Fall 2621 Giebelweg 12 — Zimmerberg.)
+**Run 26 bestätigt:** Zeitplan unverändert (`langnauamalbis.ch/bzo`) — Bauformen sollen neu
+harmonisiert nach **IVHB** definiert werden, innere Verdichtung in Einfamilienhausquartieren
+gefördert, preisgünstiger Wohnraum an ausgewählten Lagen. Kein neues in-Kraft-Datum.
 
 ## Offen / nächste Schritte
 
-- **Langnau am Albis** — Wiedervorlage, sobald die BZO 2026/27 rechtskräftig ist.
+- **Langnau am Albis** — Wiedervorlage, sobald die BZO 2026/27 rechtskräftig ist (Run 26:
+  Zeitplan bestätigt, kein neues Datum).
 - **Luzern** — Per-Ordnungsnummer-Werte (ÜZ/Gesamthöhe) aus der Zonenplan-Legende, falls
   für einen konkreten Standort gebraucht.
-- **Muri AG** — auf die Revision 2019 aktualisieren, sobald eine Textebene-Fassung vorliegt.
-- **Zollikon** — auf einen allfälligen Nachfolger der BZO 1996 aktualisieren.
-- Damit ist D6 für die JANS-Bezugsmärkte **substanziell geschlossen**: 8 von 11 Gemeinden
-  mit vollständiger Dichte-Tabelle, 1 System-Beschrieb (Luzern), 2 mit Status-/Aktualitäts-
-  Vorbehalt (Langnau ausser Kraft, Muri Revision).
+- **Zollikon** — Wiedervorlage, sobald die am 20.08.2025 vom Gemeinderat beschlossene
+  Teilrevision von der Gemeindeversammlung verabschiedet und in Kraft ist (Run 26: aktuell
+  gültiger Stand 5.4.2013 bestätigt materiell identisch mit 1996, Zentrumszone ergänzt).
+- **Muri AG** — ✓ Run 26 geschlossen: Revision 2018/2019 vollständig erfasst (Bild-PDF
+  visuell gelesen), neue Zone W3+ (AZ 0.8) + generelle AZ-Erhöhung dokumentiert.
+- Damit ist D6 für die JANS-Bezugsmärkte **weitgehend geschlossen**: 9 von 11 Gemeinden
+  mit vollständiger, aktueller Dichte-Tabelle, 1 System-Beschrieb (Luzern), 1 mit
+  Status-Vorbehalt (Langnau ausser Kraft, Revision hängig).

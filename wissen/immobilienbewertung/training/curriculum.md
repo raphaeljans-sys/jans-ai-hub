@@ -51,6 +51,19 @@ Prioritaet**. Der Hauptfoliensatz (236 S.) ist damit vollstaendig eingearbeitet.
 | E10 | IMMO-06 Healthcare Kennwerte-Bibliothek (JANS-8-Objekt-Referenzblatt + WALD-Richtprojekt-Baumassen + SECO/USI-Effizienzstudie Crivelli 2001) | Healthcare-Wirtschaftlichkeits-/Flaechen-/Kostenkennwerte, optimale Betriebsgroesse → T19-Raster | projektstruktur-deliverables, realwert-sachwert, flaechendefinitionen-sia, ertragswert-dcf | ✓ **2026-07-06 (Run 14)**: T19-Raster befuellt — 8 reale CH-Heime (Bettzahl/GF-Bett/NF-Bett/Bauvol-HNF + BKP-2-Kosten 2'623-4'250 CHF/m2 GF), optimale Groesse 70-80 Betten. Offen: Emilienheim-Flaechenkennwerte, D8-DOCX |
 | E7 | Marktpuls (Web, laufend) | Zins/Mietzins/Referenzzins aktuell | investorenmarkt-makro | laufend ✓ **2026-07-12 (Run 17)**: Web-Check **alle Zins-/Preis-Anker unveraendert**; neu **massgebender Durchschnittszinssatz 31.03.2026 = 1.31 %** (von 1.32 % per 31.12.2025) → driftet weg von der Erhoehungsschwelle 1.37 %, Referenzzins-Erhoehungsrisiko sinkt weiter. SNB 0.00 % (Inflation 0.6 % Mai erdoelgetrieben, BIP ~1 %/1.5 %), SREBI Q2-2026 weiter nicht publiziert (Q1 0.69 bleibt Anker), WP-Sommerprognose 2026 Wohneigentum ~+3 % (EFH +3.1 %/ETW +2.8 %) bestaetigt. Frueher: ✓ 2026-07-06 (Run 14): Web-Check **alle Zins-Anker unveraendert** — SNB-Leitzins 0.00 % (Juni-2026-Entscheid gehalten, naechster Entscheid 09.2026), Referenzzins 1.25 % (naechste Publ. 01.09.2026). Kein neuer Publikationstermin seit Run 13 erreicht. Frueher: ✓ 2026-07-04 (Run 13): Web-Check **alle Zins-Anker unveraendert** — SNB 0.00 % (bis Ende 2026), Referenzzins 1.25 % (gueltig seit 02.09.2025, naechste Publ. 01.09.2026), 10-j Swap-Prognose 0.60→0.80 %; neu **WP-Segment-Prognose Geschaeftsflaechen 2026** (Buero +0.5 %/Detailhandel −1.5 %) → Gewerbe-Feinabstufung D3-Rest. Frueher: ✓ 2026-07-02 (Run 12): Web-Check **alle Anker unveraendert** — SNB 0.00 % (naechst. Entscheid 09.2026), Referenzzins 1.25 % (naechst. Publ. 01.09.2026), Mietindex Mai-2026 133.7 (+2.5 % YoY, juengster publ. Stand), 10-j Eidgenoss ~0.35 %. Frueher: ✓ 2026-06-26 (Run 9): Web-Check **SNB 0.00 % (19.06) + Referenzzins 1.25 % unveraendert**; neu **10-j Eidgenoss ~0.32-0.40 % (Juni 2026)** als risikofreies Basisniveau → konsolidierte JANS-Diskontsatz-Tabelle (D3). Run 8: SMG/Homegate-**Mietindex Mai-2026 133.7 (+2.5 % YoY)** > Prognose +0.7 %, Luzern +7.2 %; Referenzzins 1.25 % stabil + SREBI Q1-2026 0.69 bestaetigt. Run 7 (06-20): **SNB-Lagebeurteilung 18.06 Leitzins 0.00 %** gehalten, Referenzzins per 01.06 bei 1.25 % bestaetigt (Sprung auf 1.50 % NICHT eingetreten), WP-Prognose 2026 EW +2.8 % / EFH +3.1 % / Bauinvest. +5.3 % (Run 7 hatte keinen separaten Report). Run 6: SREBI Q1-2026 0.69, Durchschnittssatz 1.31 %. Laufend |
 
+**Stand Run 26 (2026-07-13):** Zwei der drei D6-Restvorbehalte aus Run 25 geschlossen. Direkter
+Web-Fund einer Textebene-freien, aber via Read-Tool visuell lesbaren **Muri-AG-Revision
+2018/2019** (RRB-genehmigt 27.02.2019) — deutliche AZ-Erhoehung + neue Hochdichte-Zone W3+
+(AZ 0.8/5 VG). Zollikon als **aktuell gueltig bestaetigt** (Stand 5.4.2013, materiell = 1996;
+Zentrumszone Art. 11 neu erfasst; Teilrevision 20.08.2025 vom Gemeinderat beschlossen, aber
+Gemeindeversammlung noch ausstehend). Nur Langnau bleibt offen (Revision noch nicht
+rechtskraeftig, Zeitplan unveraendert bestaetigt). Kein neuer JANS-Bewertungsfall, Marktpuls
+(E7) erneut unveraendert (SNB 0.00 %/Referenzzins 1.25 %, kein neuer Publikationstermin vor
+01.09.2026). **Kernlektion des Laufs:** ein als "nur Bild-PDF, nicht extrahierbar" markierter
+Vorbehalt liess sich durch das multimodale Read-Tool (visuelles Lesen der Seiten statt
+`pdftotext`) doch schliessen — diese Methode gilt auch fuer kuenftige Scan-PDF-Quellen
+(z.B. eine Muri-Nachfolge-Aktualisierung). Details: `outputs/2026-07-13_training-run26.md`.
+
 ## Reihenfolge-Logik
 
 Pro Lauf (alle 2 Tage) werden **10 Themen** gezogen: zuerst die naechsten offenen
