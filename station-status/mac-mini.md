@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 11:36:18
+Stand: 13.07.2026 11:56:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 11:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 11:56)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 11:36:18
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6413d4f9 nas-selfcommit: 18 Datei(en) 2026-07-13 11:30
+- 22a771f7 planungsgrundlagen-training Run 28: Recht/Norm + Brandschutz Register-Nachfuehrung + Verifikations-Abschluss (Token-Vollgas)
