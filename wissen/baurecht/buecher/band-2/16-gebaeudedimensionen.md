@@ -7,10 +7,23 @@ shots: "571-580 (distilliert: 571-580; Kapitelfortsetzung Hoehen/Dachgestaltung 
 paragraphen: ["§ 275 PBG", "§ 276 PBG", "§ 77 PBG", "§ 49 PBG", "§ 49a PBG", "§ 293 PBG", "§ 280 PBG", "§ 304 PBG", "§ 2 ABV", "§ 19 BBV II"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-06-10
+last_updated: 2026-07-13
 ---
 
 # Kap. 16 — Gebaeudedimensionen und Umgebung (Teil 1: Geschosse + Kniestock)
+
+> **Fassungsstand-Hinweis (Modell-D-Volltextabgleich, Buch-Run 33, 2026-07-13):** Dieses
+> Destillat gibt das Buch (6. Aufl. 2019) wortgetreu wieder. Das Buch kennt nur die
+> **alte** PBG-Fassung (§ 275/276 wie unten zitiert: Kniestock 0,9 m/Bestand 1,3 m, drei
+> Geschossarten ohne Attika). Der amtliche PBG-Volltext (LS 700.1, Stand 1.7.2026) fuehrt
+> im **Hauptteil** (geltend) inzwischen eine **harmonisierte Fassung** mit anderer
+> Definition (§ 275 Abs. 1 PBG: Vollgeschoss = Ausschlussdefinition; Kniestock bis 1,5 m;
+> vier Geschossarten inkl. **Attikageschoss**). Die hier zitierte alte Fassung steht heute
+> nur noch im **Anhang PBG** (Stand 28.2.2017, Weitergeltung OS 72, 52) und gilt
+> **uebergangsrechtlich**, bis die jeweilige Gemeinde ihre BZO harmonisiert hat. Fuer die
+> aktuelle Rechtslage siehe Wiki-Artikel [[geschosse-und-kniestock]] (dort beide Fassungen
+> mit Fundstellen). Dieses Buch-Destillat selbst bleibt unveraendert (buchgetreue
+> Wiedergabe der Quelle von 2019).
 
 **Das Wichtigste:** Ob ein horizontaler Gebaeudeabschnitt als **Vollgeschoss**,
 **Dachgeschoss** oder **Untergeschoss** zaehlt, entscheidet seine Lage zur Schnittlinie

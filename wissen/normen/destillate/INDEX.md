@@ -74,3 +74,18 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | destilliert |
 | `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | destilliert |
 | `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | destilliert |
+| `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | destilliert |
+| `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | destilliert |
+| `din-1053-3-1990.md` | DIN 1053 Teil 3 Bewehrtes Mauerwerk | 1990-02 | destilliert |
+| `din-en-1627-2011.md` | DIN EN 1627 Einbruchhemmung, Anforderungen/Klassifizierung | 2011-09 | Teil-Destillat (nur 4/44 S. im Bestand) |
+| `din-1072-beiblatt1-1988.md` | Beiblatt 1 zu DIN 1072 Strassen-/Wegbrücken, Lastannahmen Erläuterungen | 1988-05 | destilliert |
+| `din-1076-1999.md` | DIN 1076 Ingenieurbauwerke, Überwachung/Prüfung | 1999-11 | destilliert |
+| `din-272-1986.md` | DIN 272 Prüfung von Magnesiaestrich | 1986-02 | destilliert |
+| `din-107-1974.md` | DIN 107 Bezeichnung links/rechts im Bauwesen | 1974-04 | destilliert |
+| `din-1164-10-2004.md` | DIN 1164-10 Zement mit besonderen Eigenschaften (HS/NA) | 2004-08 | destilliert |
+| `din-1356-1-1995.md` | DIN 1356-1 Bauzeichnungen, Arten/Inhalte/Grundregeln | 1995-02 | destilliert |
+| `din-1356-6-2006.md` | DIN 1356-6 Bauaufnahmezeichnungen, Schadenschlüssel | 2006-05 | destilliert |
+| `din-4102-2-1977.md` | DIN 4102-2 Brandverhalten Baustoffe/Bauteile, Feuerwiderstandsklassen | 1977-09 | destilliert |
+| `din-919-1-1991.md` | DIN 919-1 Technische Zeichnungen Holzverarbeitung, Grundlagen | 1991-04 | destilliert |
+| `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | destilliert |
+| `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | destilliert |

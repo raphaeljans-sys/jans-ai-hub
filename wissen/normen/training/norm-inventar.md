@@ -469,42 +469,42 @@
 | [ ] | P3 | `0 Anleitung.docx` |  |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 | 1984 | destilliert (din-105-5-1984.md) |
 | [ ] | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1053-100.pdf` | 1053 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1053-2.pdf` | 1053 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-2.pdf` | 1053 | 1996 | destilliert (din-1053-2-1996.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 | 1990 | destilliert (din-1053-3-1990.md) |
 | [ ] | P3 | `DIN-Norm/DIN 1053-4.pdf` | 1053 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 1054.pdf` | 1054 |  |  |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1055-2.pdf` | 1055 | 2010 | destilliert (din-1055-2-2010.md), Bodenkenngroessen |
-| [ ] | P3 | `DIN-Norm/DIN 1072 Beiblatt 1.pdf` | 1072 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1076.pdf` | 1076 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1164-10.pdf` | 1164 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1072 Beiblatt 1.pdf` | 1072 | 1988 | destilliert (din-1072-beiblatt1-1988.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1076.pdf` | 1076 | 1999 | destilliert (din-1076-1999.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1164-10.pdf` | 1164 | 2004 | destilliert (din-1164-10-2004.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1249-11.pdf` | 1249 | 1986 | destilliert (din-1249-11-1986.md) |
-| [ ] | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 | 1995 | destilliert (din-1356-1-1995.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 | 2006 | destilliert (din-1356-6-2006.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 | 2011 | Teil-Destillat (din-en-1627-2011.md, nur 4/44 S. im Bestand), KB-Luecke in QUESTIONS.md |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 |  |  |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2 |
 | [ ] | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 |  |  |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md) |
 | [ ] | P3 | `DIN-Norm/DIN 1946-4.pdf` | 1946 |  |  |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1946-6.pdf` | 1946 | 2009 | Teil-Destillat (din-1946-6-2009.md, S.1-20+27-37/125), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1946-7.pdf` | 1946 | 2009 | destilliert (din-1946-7-2009.md) |
 | [ ] | P3 | `DIN-Norm/DIN 1960.pdf` | 1960 | 1960 |  |
 | [ ] | P3 | `DIN-Norm/DIN 1961.pdf` | 1961 | 1961 |  |
-| [ ] | P3 | `DIN-Norm/DIN 272.pdf` | 272 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 272.pdf` | 272 | 1986 | destilliert (din-272-1986.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-1.pdf` | 276 | 2008 | destilliert (din-276-1-2008.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 276-4.pdf` | 276 | 2009 | destilliert (din-276-4-2009.md), Reconcile 260712 Mini-Run2 |
 | [x] | P3 | `DIN-Norm/DIN 277-1.pdf` | 277 | 2005 | destilliert 260712 |
 | [ ] | P3 | `DIN-Norm/DIN 277-1_Bildteil_MMMP München.pdf` | 277 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  |  |
 | [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 |
-| [ ] | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 |  |  |
+| [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | Teil-Destillat (din-4102-1-1998.md, S.1-20+26-28/28), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 | 1977 | destilliert (din-4102-2-1977.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant |
 | [ ] | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 |  |  |
 | [x] | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | destilliert 260712 |
@@ -514,12 +514,12 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | destilliert (din-5034-6-1995.md), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md) |
 | [ ] | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2 |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md) |
 | [ ] | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 |  |  |
 | [ ] | P3 | `DIN-Norm/DIN V 106.pdf` | 106 |  |  |
-| [ ] | P3 | `DIN-Norm/DIN V 107.pdf` | 107 |  |  |
+| [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz |
 | [ ] | P3 | `DIN-Norm/DIN_18041.pdf` |  |  |  |
 | [ ] | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  |  |
 | [ ] | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  |  |

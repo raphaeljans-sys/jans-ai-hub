@@ -4,10 +4,10 @@ kapitel: "17 — Gebaeude und Raeume; Ausruestungen"
 band: 2
 seiten: "1241-1255 (Grundlagen §§ 295/299/300; Vorschriften Wohn-/Arbeitsraeume: Wohnungen/Gemeinschaftsunterkuenfte, Arbeits-/Publikumsraeume, Besonnung/Belichtung/Belueftung §§ 301-302, Mindestflaechen/Raumhoehen/innere Erschliessung §§ 303-305, Aufzugspflicht; Beginn Einstellraeume §§ 297/37-39 BBV I)"
 shots: "624-631 (distilliert; Kapitelfortsetzung Einstellraeume-Detail + Ausruestungen/Beförderungsanlagen ab Shot 632 offen)"
-paragraphen: ["§ 295 PBG", "§ 297 PBG", "§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 12a BBV I", "§ 8 BBV I", "§ 9 BBV I", "§ 10 BBV I", "§ 11 BBV I", "§ 12 BBV I", "§ 36 BBV I", "§ 37 BBV I", "§ 38 BBV I", "§ 39 BBV I", "§ 40 BBV I", "§ 41 BBV I", "§ 13 BBV I", "§ 19 BBV I", "§ 2 BBV I", "§ 32 ABV", "§ 4 ABV", "§ 9 BBV II", "§ 10 BBV II", "§ 11 BBV II"]
+paragraphen: ["§ 295 PBG", "§ 297 PBG", "§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 12a BBV I", "§ 8 BBV I", "§ 9 BBV I", "§ 10 BBV I", "§ 11 BBV I", "§ 12 BBV I", "§ 36 BBV I", "§ 37 BBV I", "§ 38 BBV I", "§ 39 BBV I", "§ 40 BBV I", "§ 41 BBV I", "§ 13 BBV I", "§ 19 BBV I", "§ 2 BBV I", "§ 32 ABV", "§ 4 ABV", "§ 3 BBV II", "§ 6 BBV II", "§ 7 BBV II", "§ 10 BBV II", "§ 11 BBV II"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-06-17
+last_updated: 2026-07-13
 ---
 
 # Kap. 17 — Gebaeude und Raeume; Ausruestungen (Teil 1: §§ 295-306 PBG)
@@ -96,10 +96,15 @@ zwei (§ 40 BBV I).
   die Flaeche mit Raumhoehe **≥ 1,2 m** (Parallele zur aufgehobenen Dachgeschoss-Anrechnung,
   BEZ 2011 Nr. 15).
 - **Rauminhalt grosse Belegung** — § 10 BBV II (S. 1253): Verkaufsgeschaefte, Begegnungsstaetten
-  mit grossem Publikumsverkehr, Raeume mit grosser Personenbelegung (Begriffe § 9 BBV II) → von
-  der Bodenflaeche abhaengiger **Mindest-Rauminhalt** statt fixer Hoehe: **2,4 m³/m²** bis 200 m²
-  Bodenflaeche, ansteigend, ab 500 m² konstant **3 m³/m²**; die noetige lichte Hoehe ueber
-  wenigstens **einem Drittel** der Bodenflaeche (§ 10 Abs. 2 BBV II; Abweichungen § 11 BBV II).
+  mit grossem Publikumsverkehr, Raeume mit grosser Personenbelegung (Begriffe §§ 3/6/7 BBV II —
+  **§ 7 BBV II**: grosse Personenbelegung = i.d.R. **> 100 Personen** gleichzeitig, fuer
+  Vorfuehrraeume in Theatern/Kinos und **Gastwirtschaftsraeume 50 Plaetze**; § 9 BBV II ist
+  aufgehoben) → von der Bodenflaeche abhaengiger **Mindest-Rauminhalt** statt fixer Hoehe:
+  **2,40 m³/m²** bis 200 m² Bodenflaeche, **+ 0,002 m³ je zusaetzlichem m²**, ab 500 m² konstant
+  **3,0 m³/m²**; die erforderliche mittlere Hoehe ueber wenigstens **einem Drittel** der
+  Bodenflaeche (§ 10 Abs. 2 BBV II). Flaechenzusammenrechnung bei Trennwand-Unterbrechung ueber
+  mehr als einem Drittel bzw. mehr als 4 m² (§ 10 Abs. 3); Abweichungen in begruendeten Faellen
+  § 11 BBV II. Volltextverifiziert 2026-07-13 (Modell D, `raw/260607_amtlich_zh_bbv2.md` §§ 7/10/11).
 - **Innere Erschliessung** — § 305 Abs. 1 PBG (S. 1253): Haustueren **Lichtmass 1 m**; Treppen/
   Gaenge zu dauernd genutzten Raeumen **1,2 m**; in EFH/vergleichbaren Wohnungen und
   wohnungsintern genuegen **0,9 m**. Fluchtweg-Grundanforderungen § 305 Abs. 2 PBG (Details

@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -1139,3 +1139,22 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   diese Norm existiert in dieser Form nicht mehr — die Grenzwerte stehen heute in der eigenstaendigen
   **§ 45a BBV I** ("Beleuchtungsanlagen"); § 45 BBV I selbst regelt nur die Klimaanlagen-Definition. Beleg:
   raw/260607_amtlich_zh_bbv1.md § 45a. _[2026-07-13]_
+
+## Kap. 16 — Geschosse/Kniestock, Modell-D-Verifikation (Buch-Run 33, 2026-07-13)
+
+- **F (Modell D · Gegenprobe):** Das Buch (6. Aufl. 2019) nennt fuer den Kniestock 0,9 m (Neubau) /
+  1,3 m (Bestand vor 1.7.1978), gemessen 0,4 m hinter der Fassade. Ist das die heute geltende Zahl? —
+  **A:** **Nein, nur uebergangsrechtlich.** Der amtliche PBG-Volltext (LS 700.1, Stand 1.7.2026) fuehrt
+  im **Hauptteil** (geltend) die **harmonisierte Fassung**: Dachgeschosse sind Geschosse mit einer
+  **Kniestockhoehe bis 1,5 m** (§ 275 Abs. 2 PBG), ohne eigene Messweise-/Bestandsregel im
+  Gesetzeswortlaut. Die Buch-Zahlen (0,9 m/1,3 m/0,4 m hinter Fassade) stehen nur noch im **Anhang PBG**
+  (Stand 28.2.2017, Weitergeltung OS 72, 52) und gelten in der jeweiligen Gemeinde weiter, **bis diese
+  ihre BZO harmonisiert hat**. Beleg: raw/260607_amtlich_zh_pbg.md Z.2864 (Hauptteil) vs. Z.4393 f.
+  (Anhang). _[2026-07-13]_
+- **F (Modell C):** Wie viele Geschossarten kennt § 275 PBG in der harmonisierten Fassung, und welche
+  ist neu gegenueber der alten (Anhang-)Fassung? — **A:** **Vier**: Voll-, Dach-, Attika- und
+  Untergeschoss (§ 275 Abs. 1/2/3/4 PBG). Neu ist das **Attikageschoss** (§ 275 Abs. 4 PBG: auf
+  Flachdaechern aufgesetztes zusaetzliches Geschoss, Rueckversetzung um die halbe eigene Hoehe an den
+  fiktiven Traufseiten) — die alte Fassung (Anhang) kennt nur drei Geschossarten und keinen eigenen
+  Attika-Begriff in § 275. Auch § 276 Abs. 1/2 PBG (Anrechenbarkeit/Ersatz) wurde entsprechend um Attika
+  erweitert. Beleg: raw/260607_amtlich_zh_pbg.md § 275/276 (Hauptteil). _[2026-07-13]_

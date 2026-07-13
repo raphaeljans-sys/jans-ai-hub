@@ -1,8 +1,8 @@
 ---
 title: Natur- & Denkmalschutz — Kanton Zürich
 status: established
-last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 keine aufschiebende Wirkung bestätigt)
+last_updated: 2026-07-13
+verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 keine aufschiebende Wirkung bestätigt); 2026-07-13 (Buch-Run 33 — § 209 PBG vollstaendig gelesen: Abs. 1/4/5 aufgehoben, nur Abs. 2+3 in Kraft, keine Verlaengerungsklausel im Wortlaut; «+1 Jahr»-Analogie zu § 213 Abs. 3 PBG explizit als Analogie/Praxis ausgewiesen, kein Gesetzeswortlaut in § 209)
 sources: ["§ 203 PBG", "§ 204 PBG", "§ 205 PBG", "§ 207 PBG", "§ 208 PBG", "§ 209 PBG", "§ 210 PBG", "§ 211 PBG", "§ 213 PBG", "§ 216 PBG", "§ 217 PBG", "§ 238 PBG", "§ 50 PBG", "§ 76 PBG", "§ 338b PBG", "Art. 78 BV", "Art. 2 NHG", "Art. 3 NHG", "Art. 5 NHG", "Art. 7 NHG", "Art. 8 NHG", "Art. 13 NHG", "Art. 17a NHG", "Art. 25 NHG", "Art. 17 RPG", "KNHV", "04-natur-und-heimatschutz.md"]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[enteignung-und-entschaedigung]], [[raumplanung-und-gestaltung]], [[rechtsschutz-und-rechtsmittelverfahren]]
 ---
@@ -50,8 +50,22 @@ unter **Interessenabwägung** und **Verhältnismässigkeit**. Buchsynthese:
 ## Schutzmassnahmen: vorsorglich → definitiv
 
 **Vorsorglich** (§§ 209/210 PBG): **Inventareröffnung** = schriftliche Mitteilung → **einjähriges
-Veränderungsverbot / Bewilligungspflicht** (§ 209 Abs. 2), verlängerbar um 1 Jahr; oder vorsorgliche
-Unterschutzstellung ohne Inventar (§ 210). **Rekurs ohne aufschiebende Wirkung** (§ 211 Abs. 4).
+Veränderungsverbot / Bewilligungspflicht** (§ 209 Abs. 2 PBG: Verbot; § 209 Abs. 3 PBG: «Das
+Veränderungsverbot fällt dahin, wenn nicht innert Jahresfrist seit der schriftlichen Mitteilung eine
+dauernde Anordnung getroffen wird.»); oder vorsorgliche Unterschutzstellung ohne Inventar (§ 210).
+**Rekurs ohne aufschiebende Wirkung** (§ 211 Abs. 4).
+
+**Zur «+1 Jahr»-Verlängerung (wichtige Präzisierung, verifiziert Buch-Run 33, 2026-07-13):** § 209 PBG
+selbst kennt **keine** Verlängerungsmöglichkeit der Jahresfrist — Abs. 1, 4 und 5 sind aufgehoben
+(«… .»), es bleiben nur Abs. 2 (Verbot) und Abs. 3 (Jahresfrist ohne Verlängerungsklausel; Volltext
+`raw/260607_amtlich_zh_pbg.md`, § 209). Eine Verlängerung um ein weiteres Jahr ist **nur analog**
+zu **§ 213 Abs. 3 PBG** denkbar (dort ausdrücklich geregelt: die Behörde kann dem Grundeigentümer vor
+Fristablauf anzeigen, «die Behandlungsdauer erstrecke sich um höchstens ein weiteres Jahr» — das
+betrifft aber den **Provokationsentscheid nach § 213**, nicht das vorsorgliche Veränderungsverbot nach
+§ 209) und wird in der Praxis/Literatur unter Verweis auf **BEZ 2017 Nr. 2** so gehandhabt. Ohne
+eigene gesetzliche Grundlage in § 209 ist diese Verlängerung als **Analogie/Praxis**, nicht als
+Gesetzeswortlaut zu behandeln — bei fristkritischen Fällen die Anwendbarkeit der Analogie im Einzelfall
+verifizieren (Gemeinde/Baudirektion), nicht als gesicherten Automatismus kommunizieren.
 
 **Definitiv (§ 205 lit. a-d PBG; Art. 17 RPG):**
 

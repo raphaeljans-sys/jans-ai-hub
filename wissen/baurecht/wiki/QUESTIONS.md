@@ -5,6 +5,109 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## Geklärt / verifiziert — 2026-07-13 (Buch-Run 33, Phase 3 · Kommunale Erlasse/VSS-Normen ausserhalb PBG: Wegleitung 1997, PPV Stadt Zürich Art. 8 Abs. 5-8, VSS-Veloabstellplatz-/Rampennormen)
+Die aus Run 29 offen gebliebene Restlücke («Wegleitungs-Tabelle 1, PPV Stadt Zürich Art. 8 Abs. 5-8,
+VSS-Rampenneigungen SN 640 291a — an geltenden kommunalen Erlassen/VSS-Normen prüfen») wurde
+recherchiert. Betroffener Artikel: [[fahrzeugabstellplaetze-und-parkierung]] (bleibt `established`).
+
+- **✅ Wegleitung der Baudirektion Oktober 1997 «Parkplatz-Bedarf in kommunalen Erlassen»
+  CONFIRMED, weiterhin geltend.** Amtlicher Volltext bezogen (Baudirektion Kt. ZH, PDF weiterhin
+  unter zh.ch abrufbar). Tabelle 1 (Grenzbedarf je Nutzungsart, bezogen auf VSS-Norm SN 641 400)
+  und Tabelle 4 (massgeblicher Bedarf in % des Grenzbedarfs je OeV-Gueteklasse, Gemeindetyp 1/2)
+  im Wiki-Artikel korrekt wiedergegeben — keine Korrektur nötig. Eine formelle Nachfolge-Wegleitung
+  oder -Verordnung wurde NICHT gefunden; eine Revision war 2018 in Vernehmlassung (Dokument
+  `ktzh_bd_vd_pp_wegleitung_vernehmlassung_2018.pdf`), aber nicht nachweisbar in Kraft gesetzt.
+  Die Wegleitung 1997 bindet nur behördenintern/als Auslegungshilfe (BGE 124 II 272), nicht die
+  Gemeinden direkt — gesetzliche Grundlage bleibt § 242 PBG.
+- **✅ PPV Stadt Zürich Art. 8 Abs. 5-8 (autoarme Nutzungen) wortlautbelegt, Fassungsstand
+  KORRIGIERT.** Wörtlicher Text amtlich bezogen aus dem Leitfaden «Mobilitätskonzept autoarme
+  Nutzungen» des Tiefbauamts Stadt Zürich (9. Juli 2024) — neu abgelegt als
+  `raw/260713_amtlich_zh_ppv-stadt-zuerich.md`. Kernaussage im Wiki war inhaltlich **CONFIRMED**
+  (Mobilitätskonzept, Behinderten-Minimum bleibt, Grundbuch-Anmerkung), aber die zuerst geprüfte,
+  allgemein verlinkte PPV-PDF (Fassung Änderung 7. Juli 2010) enthält Art. 8 Abs. 5-8 **noch
+  nicht** — diese wurden erst mit einer späteren Revision eingefügt (Fassungsstand laut Leitfaden
+  2024: «PPV vom 11. Dezember 1996 mit Änderungen bis 16. Dezember 2015»). Wiki jetzt mit vollem
+  Wortlaut (Abs. 5-8), Kaskade Grundstück→Gemeinschaftsanlage/Zumietung (300 m)→Ersatzabgabe, und
+  Abgrenzung zu Art. 8 Abs. 3 PPV (einfacheres Betriebskonzept ohne Mobilitätskonzept) ergänzt.
+- **✅ VSS-Veloabstellplatz-Normen KORRIGIERT (Fehlzitat entfernt).** Das Wiki nannte bisher
+  «SN 640 060/065/066». Die Wegleitung 1997 stützt sich nur auf **SN 640 065** («Leichter
+  Zweiradverkehr – Abstellanlagen, Bedarfsermittlung», Oktober 1996) — bestätigt durch den
+  amtlichen Volltext. Eine Norm **«SN 640 060» existiert in der aktuellen VSS-Parkierungsnormen-
+  Struktur nicht** (geprüft gegen ParkingSwiss ParkingGuideline 05-V1.2025 «VSS-Parkierungsnormen
+  und verwandte Normen», Stand Juni 2025, vollständige Liste aller PW-/Motorrad-/Velo-Normen) —
+  als Fehlzitat aus dem Wiki entfernt. SN/VSS 640 065 und 640 066 entsprechen in der aktuellen
+  VSS-Nomenklatur **VSS 40 065** (2011/2019, Bedarfsermittlung/Standortwahl) und **VSS 40 066**
+  (2011/2019, Projektierung) — inhaltlich dieselben Normen, nur umnummeriert.
+- **⚠️ VSS-Rampenneigungsnorm «SN 640 291a» — Normbezeichnung präzisiert, Kennwerte bleiben
+  DAUERHAFT needs-verification (Kostenpflicht).** Die alte Bezeichnung «SN 640 291a» entspricht in
+  der aktuellen VSS-Struktur **VSS 40 291** «Parkieren – Anordnung und Geometrie der
+  Parkierungsanlagen für Personenwagen und Motorräder» (Ausgabe 2021), bestätigt gegen dieselbe
+  ParkingSwiss-Übersicht. Das ist die für Tiefgaragen-Rampengeometrie (Neigung, Ausrundung)
+  massgebliche Norm; PPV Stadt Zürich Art. 9 Abs. 4 verweist generisch («im Übrigen in der Regel»)
+  auf die einschlägigen VSS-Normen, ohne selbst eine Nummer zu nennen. **VSS-Normen sind
+  urheberrechtlich geschützt und kostenpflichtig** (Bezug nur über mobilityplatform.ch/vss-shop) —
+  der Normtext bzw. die konkreten Zahlenwerte (max. Längsneigung, Ausrundungsradien,
+  Übergangsbereiche) konnten im Rahmen dieser Recherche **nicht** amtlich/kostenfrei verifiziert
+  werden und wurden **nicht** aus Sekundärquellen kopiert. Dieser Punkt bleibt bewusst offen und
+  ist **kein falscher Abschluss**: vor einer konkreten Projektierung (Tiefgaragenrampe) ist der
+  aktuelle VSS-Normtext kostenpflichtig zu beziehen und gegen die im Wiki genannten JANS-Regel-
+  Praxiswerte (Mehrkosten UG-Platz) zu spiegeln.
+
+## Geklärt / verifiziert — 2026-07-13 (Buch-Run 33, Phase 3 · Modell-D Volltextabgleich § 209 PBG)
+- **✅ § 209 «+1 Jahr»-Verlängerung (aus Buch-Run 32) geklärt:** § 209 PBG vollständig im amtlichen
+  Volltext gelesen (`raw/260607_amtlich_zh_pbg.md`, Kap. 4 Natur-/Heimatschutz). Ergebnis: § 209 hat
+  fünf Absätze, davon sind **Abs. 1, 4 und 5 aufgehoben** («… .»); in Kraft stehen nur **Abs. 2**
+  (schriftliche Mitteilung über Inventaraufnahme bewirkt Veränderungsverbot) und **Abs. 3** («Das
+  Veränderungsverbot fällt dahin, wenn nicht innert Jahresfrist seit der schriftlichen Mitteilung eine
+  dauernde Anordnung getroffen wird.») — **keine Verlängerungsklausel im Gesetzeswortlaut**. Die in
+  der Praxis kursierende «+1 Jahr»-Verlängerung ist bestätigt **reine Analogie zu § 213 Abs. 3 PBG**
+  (dort steht wortwörtlich die Möglichkeit, die Behandlungsdauer um «höchstens ein weiteres Jahr» zu
+  erstrecken — das regelt aber den Provokationsentscheid, nicht das vorsorgliche Veränderungsverbot)
+  bzw. Praxis gemäss **BEZ 2017 Nr. 2**, **ohne eigene Grundlage in § 209**. Kein Hinweis auf einen an
+  anderer Stelle im PBG (Anhang, andere Fassung) stehenden Verlängerungs-Wortlaut gefunden — auch der
+  «vorsorgliche Bauverbot» in §§ 120/121 PBG (anderes Institut, Sicherung öffentlicher Werke) kennt
+  keine Fristverlängerung. **Wiki [[naturschutz-und-denkmalschutz]] aktualisiert:** Abschnitt
+  «Schutzmassnahmen: vorsorglich → definitiv» um einen expliziten Analogie-Hinweis mit vollem
+  Wortlaut-Beleg ergänzt, Frontmatter-Verifizierungsvermerk nachgeführt. **Ergebnis: keine
+  Halluzination bestätigt** — die Analogie-Markierung aus Buch-Run 32 war korrekt, jetzt mit
+  Wortlaut-Beleg (statt nur Vermutung) im Wiki verankert.
+
+## Geklärt / verifiziert — 2026-07-13 (Buch-Run 33, Phase 3 · Modell-D Volltextabgleich §§ 275-277 PBG, [[geschosse-und-kniestock]])
+- **✅ [[geschosse-und-kniestock]] Modell-D-verifiziert, `emerging` → `established` (dieselbe
+  Fassungsstand-Umkehr wie [[abstaende-und-hoehen]], Buch-Run 31):** Der amtliche PBG-Volltext
+  (LS 700.1, Stand 1.7.2026) führt im **Hauptteil** (geltend) die **harmonisierte Fassung**:
+  § 275 Abs. 1 PBG definiert Vollgeschoss als **Ausschlussdefinition** («alle Geschosse ausser
+  Unter-, Dach- und Attikageschosse»), Kniestockhöhe für Dachgeschosse **bis 1,5 m** (§ 275
+  Abs. 2 PBG, ohne Messweise-/Bestandeszusatz im Gesetzeswortlaut), **vier** Geschossarten
+  inkl. neu **Attikageschoss** (§ 275 Abs. 4 PBG) mit halber-Höhe-Rückversetzung, Untergeschoss
+  über die bereits in [[abstaende-und-hoehen]] belegte 2,5-m-/3-m-Formel (§ 275 Abs. 3 PBG).
+  Anrechenbarkeit (§ 276 Abs. 1 PBG) **vier** Geschossarten inkl. Attika, Geschosszahl-Ersatz
+  (§ 276 Abs. 2 PBG) neu auch mit Attikageschossen. Das bisherige Wiki gab **ausschliesslich**
+  die **alte** Fassung wieder (§ 275/276 PBG **Anhang**, Stand 28.2.2017, Weitergeltung
+  OS 72, 52, gilt übergangsrechtlich bis Gemeinde-BZO-Harmonisierung): Kniestock **0,9 m**
+  (Neubau) / **1,3 m** (Bestand vor 1.7.1978), Messweise **0,4 m hinter der Fassade** im
+  Gesetzeswortlaut selbst verankert, **nur drei** Geschossarten (kein Attika-Begriff in § 275
+  alt), UND ein in der harmonisierten Fassung fehlendes Zusatzkriterium in § 276 Abs. 1 PBG
+  alt («andere Untergeschosse, die mehrheitlich über dem gewachsenen Boden liegen» zählen
+  ebenfalls als Geschoss, unabhängig von Wohn-/Schlaf-/Arbeitsraum-Nutzung). Beide Fassungen
+  jetzt mit vollem Beleg (amtl. Z. 2857-2886 Hauptteil / Z. 4387-4400 Anhang) im Wiki
+  nebeneinandergestellt; Buch-Destillat [[16-gebaeudedimensionen]] (Quelle 2019, kennt nur
+  alte Fassung) mit Fassungsstand-Hinweis versehen, buchgetreue Wiedergabe unverändert
+  gelassen. Case-Law-Zitate (RB 1993 Nr. 42, BEZ 1994/1997 Nr. 7/19, BEZ 1987 Nr. 18) beziehen
+  sich alle auf die Kniestock-Messweise-Regel und sind damit korrekt **nur der alten Fassung**
+  zugeordnet — ob sie unter der harmonisierten 1,5-m-Regel (ohne Messweise-Zusatz im
+  Gesetzestext) unverändert fortgelten, ist offen (`speculative`, neue Frage unten).
+- **Offen (neu):** Gilt die «0,4 m hinter Fassade»-Messweise und das Dämmungs-Argument
+  (BEZ-Praxis zur alten Fassung) sinngemäss auch für die harmonisierte 1,5-m-Kniestockregel
+  (§ 275 Abs. 2 PBG), obwohl der Gesetzeswortlaut dort keinen Messweise-Zusatz mehr enthält?
+  Keine Rechtsprechung dazu aufgefunden — bei Bedarf in einer harmonisierten Gemeinde
+  konkret abklären (Vorabklärung Bauamt, Skill `behoerden-vorabklaerung`).
+- **Offen (neu):** Ist die Kasuistik zu «andere Untergeschosse, die mehrheitlich über dem
+  gewachsenen Boden liegen» (§ 276 Abs. 1 PBG alt, u.a. BEZ 2009 Nr. 63) unter der
+  harmonisierten Fassung (dieses Zusatzkriterium existiert dort nicht mehr) noch relevant,
+  oder ausschliesslich für noch nicht harmonisierte Gemeinden? `speculative`, nicht
+  abschliessend geklärt.
+
 ## Geklärt / verifiziert — 2026-07-12 (Buch-Run 32, Phase 3 · Modell-D Volltextabgleich, 5 Komplexe)
 - **✅ §§ 278-293 PBG (Fassadenhöhe/Gesamthöhe/Hochhaus/Dachaufbauten) — [[abstaende-und-hoehen]] KORRIGIERT:**
   3 Fehler behoben (Gebäudehöhe-Beleg war falsch zugeordnet inkl. sachfremder § 12 ABV-Referenz;
@@ -61,7 +164,7 @@ Fünf needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.
 - **✅ §§ 203/205/209/211/213 (Kap. 4 Natur-/Heimatschutz) volltextverifiziert** → Destillat [[04-natur-und-heimatschutz]] + Wiki [[naturschutz-und-denkmalschutz]] `emerging` → **`established`**, **2 Korrekturen:** (1) 1-Jahr(+1)-Frist Provokationsentscheid = **§ 213 Abs. 3** (nicht Abs. 1; «§ 213 Abs. 3 = Verwirkungsfristen» war irreführend); (2) vorsorgliches Veränderungsverbot = **§ 209 Abs. 2 (Verbot) i.V.m. Abs. 3 (Jahresfrist)**; die «+1 Jahr»-Verlängerung steht NICHT im Gesetz (§ 209), nur analog § 213 Abs. 3 (BEZ 2017 Nr. 2) → als Analogie markiert. Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 bestätigt.
 - **✅ § 120/§ 150/§ 264/§ 346 PBG (Landsicherung/Baulinien/Planungszone) volltextverifiziert** → Wiki [[baulinien-und-abstandslinien]] `emerging` → **`established`**. **1 Korrektur:** § 122 Abs. 1 Fristbeginn = **«seit Eintritt seiner Rechtskraft»** (nicht «nach Erlass»), 5 J. korrekt → Destillat [[03-erschliessung-landsicherung-teil1]] an 2 Stellen korrigiert. § 150 (Quartierplanbann), § 264 (Strassenabstand subsidiär zur Verkehrsbaulinie), § 346 (Planungszone 3 + 2 J.) bestätigt.
 - **✅ § 30 VRG (Dreiteilung) volltextverifiziert** → neuer amtl. Volltext **`raw/260712_amtlich_zh_vrg.md`** (§§ 8/9/10c/15/30 VRG, LS 175.2, ab zhlex) angelegt — die bisher fehlende VRG-Faktenbasis geschlossen. § 30 Abs. 1 VRG (a Schuldbetreibung / b Ersatzvornahme / c unmittelbarer Zwang) + § 10c VRG (anfechtbare Verfügung bei Realakt) bestätigt. **1 Korrektur:** [[bauausfuehrung-und-baukontrolle]] Sektion 5 — Grundpfandrecht stützt sich auf **Art. 836 ZGB**, nicht auf § 15 VRG (§ 15 VRG = «Kostenvorschuss»).
-- **needs-verification (neu/verbleibend):** § 209 «+1 Jahr»-Verlängerung (nur Analogie, kein Wortlaut); Gewässerraum-Schwellen weichen zwischen [[abstaende-und-hoehen]] (GSB < 2 m → 11 m) und [[15-lage-von-gebaeuden]] (Sohle < 1 m → 11 m) ab → am **Fedlex GSchV Art. 41a** abgleichen; Gewässerabstand 20 m (Kap. 11, GSchV-Übergangsbestimmung, nicht PBG). **Erledigt** die alten Flags: § 30 VRG (jetzt volltextbelegt), §§ 218-232 PBG, §§ 203-213 PBG, § 120-122/150/264/346 PBG, §§ 269-274/292 PBG.
+- **needs-verification (neu/verbleibend):** ~~§ 209 «+1 Jahr»-Verlängerung (nur Analogie, kein Wortlaut)~~ **erledigt Buch-Run 33 (2026-07-13, siehe Abschnitt oben)** — bestätigt reine Analogie zu § 213 Abs. 3 PBG, kein Wortlaut in § 209. Gewässerraum-Schwellen weichen zwischen [[abstaende-und-hoehen]] (GSB < 2 m → 11 m) und [[15-lage-von-gebaeuden]] (Sohle < 1 m → 11 m) ab → am **Fedlex GSchV Art. 41a** abgleichen; Gewässerabstand 20 m (Kap. 11, GSchV-Übergangsbestimmung, nicht PBG). **Erledigt** die alten Flags: § 30 VRG (jetzt volltextbelegt), §§ 218-232 PBG, §§ 203-213 PBG, § 120-122/150/264/346 PBG, §§ 269-274/292 PBG.
 
 ## Geklärt / verifiziert — 2026-07-12 (Buch-Run 30, Phase 3 · Modell-D Volltextabgleich §§ 233-237 / 326-329 / 340-341 PBG, parallelisiert via Workflow)
 Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.md` geprüft (je ein Refutations-Agent). **CONFIRMED:** § 233 Abs. 1/2, § 234 (Kern), § 236 Abs. 1 (Reihenfolge Wasser/Energie), § 237 Abs. 1 Satz 2 (OEV-Pflicht «grössere Überbauung»), § 327 Abs. 1/Abs. 2, § 328 Abs. 1 (Arealüberbauung > 2 J.), **§ 329 Abs. 1 (BRG-Anfechtung nach RPG/USG/PBG — vom Volltext bestätigt, Agent-OFFEN aufgelöst)**, § 340 Abs. 1/2, § 340a (5 J.).
@@ -129,7 +232,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
 - ~~**Baulicher Umweltschutz / Lärm / NIS nicht als Themenartikel im Wiki**~~ → **erledigt 2026-07-11** (Run 27): neuer Wiki-Artikel [[laermschutz-und-nichtionisierende-strahlung]] aus [[19-baulicher-umweltschutz-teil2-laerm-nisv]] (S. 1404-1431). Kernaussagen: **Aufhebung Lüftungsfensterpraxis BGE 142 II 100** (IGW an ALLEN Fenstern lärmempfindl. Räume), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse, > 6 dB(A) nie leicht), Fluglärm Art. 31a LSV; **NISV zweistufig IGW/AGW**, **OMEN Art. 3 Abs. 3 NISV** (Balkone/Terrassen NICHT), **Mobilfunk AGW 4-6 V/m** (Bauzone Anspruch § 320 PBG ohne Bedürfnisnachweis BGer 1C_329/2013). **Kap. 19 vollständig.**
 - **needs-verification — BBV-I/BBV-II + EnerG (Fassungsstand):** §§ 21-46a BBV I, § 19a BBV II, §§ 9/9a/10b/12/13 EnerG (Kap. 17) sinngemäss nach Buch S. 1304-1319; die 6. Aufl. 2019 kann durch die EnerG-Revision (MuKEn 2014) überholt sein — am heute geltenden kant. Energierecht spiegeln, bevor harte Werte (VHKA-Schwelle, Vorlauftemperaturen, Elektroheizungsverbot) in Bauherren-Beratung zitiert werden.
 - **needs-verification — LSV/NISV-Artikel (Kap. 19):** Art. 31/31a/32/35/39 LSV + Anhang 5 Ziff. 222 LSV; Art. 2/3/4/5/6/7/8/9/11/12/14/16 NISV + Ziff. 61/62/64 Anhang 1 NISV + Anhang 2 NISV (IGW-Tabelle) — am Fedlex-Volltext gegenprüfen. **5G:** die 6. Aufl. kennt die neuen Frequenzen (700/1400/3500 MHz) nur als Prognose; die zugehörigen AGW am aktuellen Anhang 1 NISV spiegeln.
-- **needs-verification — Kaminhöhen/LRV:** Ziff. 3 Kaminempfehlungen 2013 (0,5/1,5/2 m) + Art. 6/13/20 LRV an der aktuellen BAFU-Empfehlung/Fedlex prüfen.
+- ~~**needs-verification — Kaminhöhen/LRV:** Ziff. 3 Kaminempfehlungen 2013 (0,5/1,5/2 m) + Art. 6/13/20 LRV an der aktuellen BAFU-Empfehlung/Fedlex prüfen.~~ → **Geklärt/verifiziert — 2026-07-13 (Buch-Run 33):** amtlicher LRV-Volltext (Fedlex, Stand 1.1.2026) und BAFU-Kaminempfehlungen (1. aktualisierte Auflage Dezember 2018, Umwelt-Vollzug Nr. 1318) geprüft. CONFIRMED: Kaminmündung 0,5 m über Dachfirst/höchstem Gebäudeteil, 1,5 m über Flachdach, 2 m über begehbarem Flachdach (Ziff. 3.2 Kaminempfehlungen); Öl-/Gasfeuerungen ≤ 40 kW Abweichung ≥ 1 m rechtwinklig (Ziff. 3.2 Abs. 2); Holzfeuerungen < 10 m zu höheren Nachbargebäuden = Nachbargebäude massgebend (Ziff. 3.2 Abs. 3); Austrittsgeschwindigkeit ≥ 6 m/s (Ziff. 2.2); Art. 6 LRV (Emissionserfassung/-ableitung über Dach, Abs. 3 Hochkamine Anhang 6) wortgetreu bestätigt; Anhang 6 LRV gilt nur bei Q/S > 5. KORRIGIERT: **Art. 20 LRV (Konformitätserklärung Öl-/Gasfeuerungen) ist per 1.1.2022 aufgehoben** (AS 2021 632) — die Buch-Aussage «seit 1.1.2005 keine BAFU-Typenprüfung, nur Konformitätserklärung Art. 20 LRV» ist als Stand-2019-Aussage zu kennzeichnen, heute massgebend ist die Feuerungskontrolle nach Art. 13 Abs. 3 LRV. PRÄZISIERT: Art. 13 Abs. 3 LRV unterscheidet seit 1.6.2018 drei Kontroll-Rhythmen (4 Jahre kleine Holz-/Gasfeuerungen, 2 Jahre übrige Feuerungsanlagen — Regelfall, 3 Jahre übrige Anlagen), nicht pauschal «alle 2 Jahre». Beleg: `raw/260713_amtlich_ch_lrv.md`; nachgeführt in [[17-haustechnische-anlagen-teil3]] und [[wohnhygiene-und-raumanforderungen]]. OFFEN bleibt die Detailregelung zur Herstellerkonformität kleiner Feuerungen in Anhang 3 LRV Ziff. 4 ff. (nicht vertieft geprüft, ausserhalb Auftragsumfang).
 
 ## Offene Wissenslücken — neu (2026-07-03, aus Buch-Run 20)
 - ~~**Widerrechtliche Bauten / Schwarzbau / Abbruchrisiko (Kap. 10):**~~ → **erledigt 2026-07-03** (Run 20):

@@ -64,3 +64,9 @@
   Raphael (kein Auto-Web, kein Kauf durch Claude).
 - [ ] **SIA 279:2018 / 281:2017 / 329:2018** sind NEUER als das 2013-Register — als aktuell
   geführt (am PDF-Deckblatt belegt), gelten bis zur nächsten Revision.
+- [ ] **DIN EN 1627:2011 (Einbruchhemmung) — nur Teilbestand.** Die Datei
+  `DIN-Norm/DIN 1627_Auszuege .pdf` enthält laut Dateiname und Inhalt nur einen Auszug
+  (4 von 44 Seiten der Vollnorm); Destillat `din-en-1627-2011.md` ist deshalb als
+  `teil-destillat` markiert. Für Widerstandsklassen-Details (RC1-RC6, Bauteilanforderungen)
+  über die 4 gelesenen Seiten hinaus die Vollnorm via Beuth-Verlag oder erneute
+  SharePoint-/M365-Suche beschaffen. Notiert 13.07.2026 (normen-training-mini, Mac Mini).

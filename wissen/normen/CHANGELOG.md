@@ -1,4 +1,31 @@
 # CHANGELOG — KB Normen
+## 2026-07-13 — normen-training-mini Mac Mini: 15 DIN-Destillate (Token-Vollgas)
+- Stations-Split eingehalten: NUR DIN/VSS/RAL bearbeitet (SIA/VKF bleiben MacBook Pro).
+- **15 neue Destillate:** din-105-5-1984, din-1053-2-1996, din-1053-3-1990,
+  din-en-1627-2011 (Teil-Destillat, nur 4/44 S. im Bestand), din-1072-beiblatt1-1988,
+  din-1076-1999, din-272-1986, din-107-1974, din-1164-10-2004, din-1356-1-1995,
+  din-1356-6-2006, din-4102-2-1977, din-919-1-1991, din-1946-7-2009, din-18560-2-2009.
+  Themenspektrum: Mauerwerk/Ziegel, Zement, Brandschutz (Feuerwiderstandsklassen
+  F30-F180), Bauzeichnungen/Bauaufnahme (Schadenschlüssel, JANS-relevant für
+  Bestandeskartierung), Raumlufttechnik Labor, Estriche, Holzverarbeitungszeichnungen,
+  Ingenieurbauwerke-Prüfung, Links/Rechts-Bezeichnung.
+- **Inventar-Reconcile:** `DIN-Norm/DIN 277-3.pdf` war im Inventar faelschlich als offen
+  `[ ]` markiert, obwohl das Destillat `din-277-3-2005.md` bereits am 12.07.2026 (Vorlauf-
+  Session) erstellt worden war (established/vollstaendig, 23/23 Seiten) — beim Read-Vergleich
+  entdeckt (Write-Tool verweigerte Overwrite ohne vorherigen Read) und im Inventar auf
+  `[x] 260712` korrigiert, KEIN neues Destillat angelegt (bestehendes ist besser/vollstaendiger
+  als der eigene Entwurf).
+- `norm-inventar.md`: alle 15 Zeilen auf `[x] 260713` gesetzt + der 277-3-Nachtrag.
+  `destillate/INDEX.md`: 15 neue Zeilen ergaenzt. `wiki/QUESTIONS.md`: DIN EN 1627
+  Teilbestand-Luecke dokumentiert (Vollnorm-Beschaffung als offener Punkt).
+- Verifikationsstufe (Pflicht seit 12.07.2026) nicht angewendet: kein Destillat wurde auf
+  `established` gehoben — alle bleiben `destilliert`/`teil-destillat`, konsistent mit der
+  bisherigen DIN/VSS/RAL-Konvention (nur SIA/VKF werden bislang verifiziert-`established`).
+- Offene DIN-Positionen fuer naechsten Lauf: DIN 1045-2 (62 S., gross), DIN 1053-1/-4/-100,
+  DIN 1054, DIN 1960 (82 S., gross), DIN 1961, DIN 18232-2, DIN 18040-2, DIN 1946-4,
+  DIN 4844-2, DIN 68800-2 e, DIN_18041, DIN V 105-100, DIN V 106, DIN 105-100,
+  DIN 277-1_Bildteil/_MMMP (Bildvarianten, niedrige Prioritaet).
+
 ## 2026-07-12 — Nacht-Run 4 MacBook Pro: SIA 118 (Volltext-Destillat, P1-Kernnorm)
 - Stations-Split eingehalten: NUR SIA destilliert (DIN/VSS/RAL = Mac Mini; lief parallel).
 - **Neu: `sia-118-1991.md`** — SIA 118 «Allgemeine Bedingungen für Bauarbeiten» (Ausgabe 1977/1991),

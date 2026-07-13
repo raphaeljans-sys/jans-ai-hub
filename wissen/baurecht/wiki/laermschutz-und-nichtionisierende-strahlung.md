@@ -1,12 +1,12 @@
 ---
 name: laermschutz-und-nichtionisierende-strahlung
 beschreibung: Baulicher Umweltschutz im Kt. ZH — Laermschutz (LSV, Empfindlichkeitsstufen, Aufhebung Lueftungsfensterpraxis, Baubewilligung trotz IGW-Ueberschreitung Art. 31 Abs. 2 LSV, Fluglaerm) und Schutz vor nicht ionisierender Strahlung (NISV, IGW/AGW, OMEN, Mobilfunkantennen).
-status: emerging
+status: established
 kanton: ZH
 paragraphen: ["Art. 11-25 USG", "Art. 24 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31a LSV", "Art. 32 LSV", "Art. 35 LSV", "Art. 39 LSV", "Anhang 5 Ziff. 222 LSV", "Art. 2 NISV", "Art. 3 Abs. 6 NISV", "Art. 5 NISV", "Art. 11 NISV", "Art. 12 NISV", "Anhang 1 Ziff. 61/62/64 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
 quellen: ["[[19-baulicher-umweltschutz]]", "[[19-baulicher-umweltschutz-teil2-laerm-nisv]]"]
-verifiziert: 2026-07-12 (Modell-D LSV/NISV, Buch-Run 32)
-last_updated: 2026-07-12
+verifiziert: 2026-07-13 (Modell-D LSV/NISV, Buch-Run 33 — Restklaerung Anhang 5 Ziff. 222 LSV geschlossen: gegen raw/260712_amtlich_ch_lsv-nisv.md volltextverifiziert Art. 31/31a/32/39/40 LSV + Anhang 5 Ziff. 222 (Fluglaerm-Belastungsgrenzwerte Lrn, via Art. 31a fuer die Nachtstunden) sowie NISV Art. 3 Abs. 6/Abs. 3, Art. 11, Anhang 1 Ziff. 64. Nicht raw-verifiziert und daher weiterhin destillat-/rechtsprechungsgestuetzt: Art. 43 LSV ES I-IV (Grundlagen [[19-baulicher-umweltschutz]]) und die zitierten Gerichtsentscheide (BGE 142 II 100, BGer 1C_40/2009 / 1C_329/2013, URP/VB/BEZ/BRGE) — Rechtsprechung ist per se nicht am Gesetzeswortlaut belegbar.)
+last_updated: 2026-07-13
 ---
 
 # Laermschutz und Schutz vor nicht ionisierender Strahlung (baulicher Umweltschutz ZH)

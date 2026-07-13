@@ -2,10 +2,10 @@
 name: wohnhygiene-und-raumanforderungen
 beschreibung: Wohnhygienische Mindestanforderungen an Aufenthaltsraeume (ZH) — Belichtung/Belueftung (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie; § 302 PBG), Mindestflaeche ≥ 10 m² (§ 303), lichte Raumhoehe 2,4 m / Kernzone 2,3 m (§ 304), innere Erschliessung und Aufzugspflicht (§ 305 PBG / § 40 BBV I). Zusaetzlich Haustechnik-/Energie-Anschluss (§§ 21-46a BBV I, § 19a BBV II, EnerG) volltextverifiziert (Modell D, Buch-Run 32). Entscheidet die Wohn-/Arbeitsraum-Nutzbarkeit, gerade bei Umnutzung von UG-/Dach-/Sockelraeumen.
 status: emerging
-last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D BBV/EnerG, Buch-Run 32)
+last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D BBV II §§ 7/10/11 volltext + LRV/Kaminempfehlungen, Buch-Run 33; BBV I §§ 36/40 + Haustechnik-Run 32; PBG-Kern §§ 299-306 + ABV noch nicht amtlich volltextverifiziert)
 quelle_destillat: "[[17-gebaeude-und-raeume]] (Bd 2, Kap. 17, S. 1241-1255); [[17-haustechnische-anlagen-teil3]] (Bd 2, Kap. 17.9, S. 1304-1319)"
-paragraphen: ["§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 40 BBV I", "§ 36 BBV I", "§ 32 ABV", "§ 10 BBV II", "§ 21 BBV I", "§ 22 BBV I", "§ 23 BBV I", "§ 24 BBV I", "§ 26 BBV I", "§ 29 BBV I", "§ 30a BBV I", "§ 37 BBV I", "§ 42 BBV I", "§ 43 BBV I", "§ 44 BBV I", "§ 45 BBV I", "§ 45a BBV I", "§ 19a BBV II", "§ 9 EnerG", "§ 10a EnerG", "§ 10b EnerG", "§ 12 EnerG", "§ 12b EnerG", "§ 13 EnerG (aufgehoben)"]
+paragraphen: ["§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 40 BBV I", "§ 36 BBV I", "§ 32 ABV", "§ 7 BBV II", "§ 10 BBV II", "§ 11 BBV II", "§ 21 BBV I", "§ 22 BBV I", "§ 23 BBV I", "§ 24 BBV I", "§ 26 BBV I", "§ 29 BBV I", "§ 30a BBV I", "§ 37 BBV I", "§ 42 BBV I", "§ 43 BBV I", "§ 44 BBV I", "§ 45 BBV I", "§ 45a BBV I", "§ 19a BBV II", "§ 9 EnerG", "§ 10a EnerG", "§ 10b EnerG", "§ 12 EnerG", "§ 12b EnerG", "§ 13 EnerG (aufgehoben)"]
 ---
 
 # Wohnhygiene und Raumanforderungen (ZH)
@@ -45,8 +45,16 @@ interesse allein genuegt nicht**.
 - Punktuelle Unterschreitung durch technisch bedingte Bauteile (Balken, Lueftungsrohre) zulaessig.
 - **Dachraeume:** Mindesthoehe muss ueber der **halben Bodenflaeche** vorhanden sein; als
   «Bodenflaeche» zaehlt dabei nur die Flaeche mit Hoehe **≥ 1,2 m**.
-- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstaetten): statt fixer Hoehe ein
-  bodenflaechenabhaengiger **Rauminhalt** (2,4 → 3 m³/m², § 10 BBV II).
+- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstaetten, Raeume mit grosser
+  Personenbelegung): statt fixer Hoehe ein **bodenflaechenabhaengiger Rauminhalt** —
+  **2,40 m³/m²** bis 200 m², **+ 0,002 m³ je zusaetzlichem m²**, ab 500 m² konstant
+  **3,0 m³/m²** (§ 10 Abs. 1 BBV II); die erforderliche mittlere Hoehe muss ueber
+  wenigstens **einem Drittel** der Bodenflaeche eingehalten sein (§ 10 Abs. 2 BBV II).
+  «Grosse Personenbelegung» = i.d.R. **> 100 Personen** gleichzeitig, fuer Vorfuehrraeume
+  (Theater/Kino) und **Gastwirtschaftsraeume 50 Plaetze** (§ 7 BBV II). Abweichungen in
+  begruendeten Faellen, insbesondere wenn auf andere Weise einwandfreie Verhaeltnisse
+  geschaffen werden (§ 11 BBV II). Volltextverifiziert 12.07./13.07.2026 (Modell D,
+  `raw/260607_amtlich_zh_bbv2.md` §§ 7/10/11).
 
 ### 4. Innere Erschliessung & Aufzug (§ 305 PBG, § 40 BBV I)
 - Haustuer Lichtmass **1 m**; Treppen/Gaenge zu Aufenthaltsraeumen **1,2 m** (EFH/wohnungsintern
@@ -105,11 +113,13 @@ Modell-D-Volltextabgleich (Buch-Run 32, Phase 3) des Buch-Destillats
   aufgehoben). Der Befreiungstatbestand (< 20 W/m² EBF oder Minergie) ist
   bereits vollständig in **§ 43 BBV I** enthalten (dort korrekt zitiert). Bei
   Zitierung künftig **nur § 43 BBV I**, nicht zusätzlich § 42a nennen.
-- **§ 45 Abs. 3 BBV I existiert in dieser Form nicht** — die Elektrizitäts-
-  Grenzwerte für Beleuchtung/Lüftung/Klima ab EBF > 1000 m² stehen in der
-  aktuellen Fassung in einer **eigenen Norm § 45a BBV I** ("Beleuchtungsanlagen"),
-  nicht als Absatz 3 von § 45 (§ 45 selbst regelt nur die Klimaanlagen-Definition
-  und Komfort-Grenzwerte). Korrektur: **§ 45a BBV I**, nicht "§ 45 Abs. 3 BBV I".
+- **§ 45 Abs. 3 BBV I existiert in dieser Form nicht** — der Elektrizitäts-
+  Grenzwert für **Beleuchtung** ab EBF > 1000 m² (Neubau/Umbau/Umnutzung, Wohnnutzung
+  ausgenommen) steht in der aktuellen Fassung in einer **eigenen Norm § 45a BBV I**
+  ("Beleuchtungsanlagen"), nicht als Absatz 3 von § 45. § 45 selbst regelt die
+  Klimaanlagen-Definition und den Komfort-Grenzwert (elektr. Leistungsbedarf
+  ≤ 12 W/m² in bestehenden Bauten, § 45 Abs. 2 lit. a). Korrektur: **§ 45a BBV I**
+  (Beleuchtung), nicht "§ 45 Abs. 3 BBV I".
 - **§ 48 BBV I (Wärmekraftkopplung dezentrale Anlagen) ist aufgehoben** — Raw-Text
   zeigt nur "§ 48.⁸⁰" ohne Normtext. Die Materie ist heute in **§ 12b EnerG**
   ("Wärmenutzung bei Elektrizitätserzeugungsanlagen") geregelt, nicht mehr in
@@ -165,6 +175,21 @@ Fassung (Nachtrag 129, publiziert 1.7.2025):
 
 Neue Rohquelle: [[260712_amtlich_zh_energ]] (`raw/260712_amtlich_zh_energ.md`,
 §§ 9-14 EnerG volltext, Nachtrag 129, Stand Publikation 1.7.2025).
+
+### Ergänzung Kaminhöhen/LRV (Modell-D-Volltextabgleich, Buch-Run 33, 2026-07-13)
+
+Die Kaminhöhen-Vorgaben aus [[17-haustechnische-anlagen-teil3]] (Abschnitt 17.9.2.9 f.,
+Kamine als Teil der Haustechnik-Erschliessung von Aufenthaltsräumen) wurden gegen den
+amtlichen Fedlex-Volltext der LRV (Stand 1.1.2026) und die BAFU-Kaminempfehlungen
+(1. aktualisierte Auflage Dezember 2018) geprüft. Ergebnis in Kürze: Kaminmündung
+**≥ 0,5 m** über Dachfirst/höchstem Gebäudeteil, **≥ 1,5 m** über Flachdächern,
+**≥ 2 m** über begehbaren Flachdächern (Öl-/Gasfeuerungen ≤ 40 kW: Abweichung
+möglich, ≥ 1 m rechtwinklig zur Dachfläche) sind CONFIRMED. Die frühere
+«Konformitätserklärung nach Art. 20 LRV» für Öl-/Gasfeuerungen ist per 1.1.2022
+aufgehoben (KORRIGIERT); massgebend ist heute die periodische Feuerungskontrolle
+nach Art. 13 Abs. 3 LRV (2/3/4-Jahres-Rhythmus je nach Anlagetyp). Volle
+Verifikations-Details, Wortlaut Art. 6/13 LRV und Anhang 6 LRV siehe
+`raw/260713_amtlich_ch_lrv.md` und [[17-haustechnische-anlagen-teil3]].
 
 ## Querbezuege
 - Brandschutz/Fluchtwege (§ 305 Abs. 2 PBG, Detail S. 1340) → Skill `brandschutz` (kein

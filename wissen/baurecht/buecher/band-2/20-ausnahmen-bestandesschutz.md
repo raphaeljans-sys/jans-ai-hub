@@ -7,7 +7,7 @@ shots: "720-731 (distilliert, S. 1433-1455; Kapitelfortsetzung § 357 Abs. 5 Mil
 paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 262 PBG", "§ 67 PBG", "§ 49 Abs. 3 PBG", "§ 100 PBG", "§ 101 PBG", "§ 269 PBG", "§ 275 Abs. 2 PBG", "§ 360 PBG", "§ 21 WWG", "Art. 24 RPG", "Art. 24c RPG", "Art. 24c Abs. 2 RPG", "Art. 37a RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 9 BV", "Art. 8 ZGB", "§ 34 BBV I"]
 status: emerging
 gelesen: 2026-06-07
-last_updated: 2026-06-29
+last_updated: 2026-07-13
 ---
 
 # Kap. 20 — Ausnahmetatbestaende bei vorschriftswidrigen Bauten und Anlagen
@@ -123,13 +123,17 @@ Gesamtwuerdigung zu beurteilen.
   (§ 101 PBG; BEZ 2013 Nr. 21), **ausserhalb der Bauzonen** (Art. 24c RPG).
 
 #### Tatbestand § 357 Abs. 1 PBG (20.3.3, S. 1444)
-- **Wortlaut (Buch S. 1444; bei Verwendung am amtlichen PBG-Volltext verifizieren):**
+- **Wortlaut (amtlicher PBG-Volltext verifiziert, raw/260607_amtlich_zh_pbg.md Z. 3760-3764,
+  Modell-D-Refuter 2026-07-13):**
   «**Bestehende Bauten und Anlagen, die Bauvorschriften widersprechen, duerfen umgebaut,
-  erweitert und anderen Nutzungen zugefuehrt werden, sofern sie sich fuer solche zonengemaesse
+  erweitert und anderen Nutzungen zugefuehrt werden, sofern sie sich fuer eine zonengemaesse
   Nutzung nicht eignen, wenn keine ueberwiegenden oeffentlichen oder nachbarlichen Interessen
-  entgegenstehen. Fuer neue oder weitergehende Abweichungen von Vorschriften bleiben die
-  erforderlichen Ausnahmebewilligungen vorbehalten.**» — drei Tatbestandsbereiche: **bestehende
-  Baute**, **Widerspruch zu Bauvorschriften**, **zulaessige Massnahme**.
+  entgegenstehen. Fuer neue oder weiter gehende Abweichungen von Vorschriften bleiben die
+  erforderlichen Ausnahmebewilligungen vorbehalten.**» — vier Tatbestandsbereiche: **bestehende
+  Baute**, **Widerspruch zu Bauvorschriften**, **Nichteignung fuer eine zonengemaesse Nutzung**,
+  **zulaessige Massnahme** (jeweils Schranke: keine ueberwiegenden oeffentl./nachbarl. Interessen).
+  Korrektur ggue. bisheriger Buch-Wiedergabe: «fuer solche zonengemaesse Nutzung» → amtlich «fuer
+  **eine** zonengemaesse Nutzung»; «weitergehende» → amtlich «**weiter gehende**».
 - **Rechtmaessige Erstellung (20.3.3.1, S. 1444):** Besitzstandsgarantie nur fuer Bauten/Nutzungen,
   die seinerzeit **gemaess damals geltendem Recht** errichtet wurden — **rechtswidriges Verhalten
   geniesst kein Bestandesprivileg**. Massgebend ist die **materielle** Rechtmaessigkeit; ob die
@@ -393,8 +397,12 @@ Gesamtwuerdigung zu beurteilen.
 
 ## Offene Punkte / zu verifizieren
 
-- **Wortlaut § 357 Abs. 1 PBG** und § 220 PBG am **amtlichen PBG-Volltext** (raw/) gegenpruefen —
-  hier nach Buch S. 1434/1444 sinngemaess wiedergegeben (Modell D/E naechster Lauf).
+- **Wortlaut § 357 Abs. 1 PBG** und § 220 PBG **am amtlichen PBG-Volltext verifiziert**
+  (raw/260607_amtlich_zh_pbg.md: § 220 Z. 2186-2194, § 357 Z. 3760-3773; Modell-D-Refuter
+  2026-07-13). § 357-Abs.-1-Zitat oben korrigiert («eine» statt «solche»; «weiter gehende»).
+  § 220 Abs. 1-3 deckungsgleich; Zusatz Abs. 2 amtlich: Verletzung oeffentl. Interessen zulaessig,
+  «es sei denn, es wuerde die Erfuellung einer dem Gemeinwesen gesetzlich obliegenden Aufgabe
+  verunmoeglicht oder uebermaessig erschwert».
 - **§ 357 Abs. 4 (Verbesserungen)** distilliert (Lauf 2026-06-29, S. 1455). **§ 357 Abs. 5
   (Milderungen)** noch offen — Shots ab 732 / S. 1456 ff.
 - **Baupolizeiliche Missstaende** (S. 1456 ff.) und **Brandstattrecht § 307 PBG** (S. 1457 ff.) —

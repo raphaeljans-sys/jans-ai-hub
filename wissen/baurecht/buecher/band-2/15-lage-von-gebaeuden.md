@@ -48,9 +48,11 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 ### 2.2 Gebaeudearten (S. 996-998) — bestimmen die Abstandspflicht
 - **Minibauten:** Gesamthoehe ≤ 1,5 m UND Bodenflaeche ≤ 2 m². Kein formeller
   Baurechtsbegriff; gelten nicht als Gebaeude → **keine** Abstandsvorschriften
-  (§ 2 Abs. 1 ABV) und **bewilligungsfrei** (§ 1 lit. a BVV). (S. 996)
-- **Bewilligungsfreie Bauten/Anlagen:** Gesamthoehe ≤ 2,5 m UND Bodenflaeche ≤ 6 m²,
-  keine Wohn-/Schlaf-/Arbeitsraeume. Bewilligungsfrei (§ 1 lit. a BVV) — **aber**
+  (§ 260 Abs. 4 PBG harmonisiert / § 2 Abs. 2 ABV uebergangsrechtlich — nicht § 2 Abs. 1 ABV,
+  der die allgemeine Gebaeudedefinition enthaelt) und **bewilligungsfrei** (§ 1 lit. a BVV). (S. 996)
+- **Bewilligungsfreie Bauten/Anlagen:** Gesamthoehe ≤ 2,5 m UND Bodenflaeche ≤ 6 m²
+  (§ 1 lit. a BVV nennt allein diese beiden Masse, keine Raum-Nutzungs-Voraussetzung).
+  Bewilligungsfrei (§ 1 lit. a BVV) — **aber**
   bewilligungspflichtig in Kernzonen, im Geltungsbereich einer Schutzanordnung/eines
   Denkmalschutzinventars und im Bereich von Verkehrsbaulinien. **Paradoxon:** ab 1,5 m
   Hoehe bzw. 2 m² Flaeche sind sie zwar bewilligungsfrei, aber als Gebaeude bereits
@@ -73,7 +75,8 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   oberirdischen Gebaeudeumfassung auf den Erdboden (§ 28 Abs. 1 ABV), korrigiert um
   die nach § 260 Abs. 3 PBG **privilegierten Vorspruenge** (Details Teil 2, S. 1002 ff.).
 - **Grenze:** Der Grenzabstand misst die Entfernung zwischen Fassade und massgebender
-  **Grenzlinie** = Grundstuecksgrenze (§ 269 PBG). (S. 998)
+  **Grenzlinie** = Grundstuecksgrenze (**§ 260 Abs. 1 PBG** — nicht § 269 PBG, der die
+  abstandsfreien unterirdischen Bauten / Unterniveaubauten regelt). (S. 998)
 
 ### 2.4 Abstand zu politischen und Zonengrenzen (S. 998 f.)
 - **Politische Grenzen** (Gemeinde-/Bezirks-/Kantonsgrenzen): **kein** Abstand, aber
@@ -226,10 +229,10 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 
 | Gegenstand | Wert | Beleg |
 |---|---|---|
-| Minibau (abstands-/bewilligungsfrei) | ≤ 1,5 m Hoehe UND ≤ 2 m² Boden | § 2 Abs. 1 ABV; § 1 lit. a BVV; S. 996 |
-| Bewilligungsfreie Baute | ≤ 2,5 m Hoehe UND ≤ 6 m² Boden, ohne Wohnraeume | § 1 lit. a BVV; S. 996 f. |
-| Besonderes Gebaeude | groesste Hoehe ≤ 4 m (Schraegdach ≤ 5 m), kein Daueraufenthalt | § 49 Abs. 3 PBG; S. 997 |
-| Abstandsfreies Gebaeude | Boden um ≤ 50 cm ueberragt, keine Oeffnungen z. Nachbarn | § 269 PBG; S. 997 |
+| Minibau (abstands-/bewilligungsfrei) | ≤ 1,5 m Hoehe UND ≤ 2 m² Boden | § 260 Abs. 4 PBG (harm.) / § 2 Abs. 2 ABV (uebergangsr.); § 1 lit. a BVV; S. 996 |
+| Bewilligungsfreie Baute | ≤ 2,5 m Hoehe UND ≤ 6 m² Boden | § 1 lit. a BVV; S. 996 f. |
+| Besonderes Gebaeude (harm.: Kleinbau/Anbau) | groesste Hoehe ≤ 4 m (Schraegdach ≤ 5 m), kein Daueraufenthalt | § 49 Abs. 3 / § 273 PBG; harm. § 2a ABV; S. 997 |
+| Abstandsfreies Gebaeude | Boden um ≤ 50 cm ueberragt, keine Oeffnungen z. Nachbarn | § 269 PBG i.V.m. § 2c ABV; S. 997 |
 | Waldabstand Regel (Bauzone) | 30 m, reduzierbar bis 15 m | § 66 Abs. 2 PBG; S. 1000 |
 | Waldabstand forstpolizeilich | unter 10 m i.d.R. zu gering (Bassin 4-5 m) | Art. 17 WaG; BR I/2001 Nr. 95; S. 1004 f. |
 | Gewaesserraum Fliessgew. < 1 m Sohle | mind. 11 m | Art. 41a Abs. 2 GSchV; S. 1008 |
