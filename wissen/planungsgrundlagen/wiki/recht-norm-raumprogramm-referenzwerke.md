@@ -2,8 +2,8 @@
 title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
-links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]]
+sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
+links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]], [[recht-norm-sanitaerraeume-planungsgrundlagen]]
 ---
 
 # Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
@@ -47,6 +47,16 @@ funktionalen** Kennwerte übertragbar, nicht die zitierten Grenzwerte/Vorschrift
 **Relevanz JANS:** Ergänzung zu Neufert bei Spezialthemen mit Fokus auf **Funktionsbereiche statt
 Raumtypen** — besonders für Nutzungsneutralität/Flexibilität in frühen Studien (`machbarkeit`,
 `studien-generator`).
+
+**Neufert bestätigt vorhanden (Run 32, 2026-07-13):** `07_Neuffert/Neuffert_3_edition.pdf` (638 S.,
+"Bauentwurfslehre", 3. Auflage) liegt tatsächlich im JANS-Bestand — bestätigt den oben erwähnten
+separaten Ordner. **Meta-Entscheid:** kein eigener Vertiefungs-Wiki-Artikel für Neufert selbst.
+Das Werk ist ein sehr breites, generisches Nachschlagewerk (nicht CH-spezifisch, nicht auf
+Healthcare-/Wohnbau-Fokus zugeschnitten) — sein Wert liegt darin, bei einer konkreten Detailfrage
+(Bauteil-/Raumtyp-Kennwert) im Original nachgeschlagen zu werden, nicht darin, seitenweise
+destilliert zu werden. Stattdessen gilt: **sobald eine reale JANS-Projektfrage Neufert als Quelle
+nutzt, wird dieser konkrete Fund hier nachgetragen** (analog zu Raumpilot/WBS 2015 oben, aber ohne
+vorgezogene Vollständigkeits-Destillation).
 
 ## 2. WBS 2015 — Wohnungs-Bewertungs-System des Bundes (Raumprogramm-Mindestflächen)
 
@@ -126,6 +136,32 @@ Bauhygiene** (Version Mai 2012) — die praxisrelevante Bemessungsgrundlage für
 Toiletten/Pissoire** ein Gebäude mit Publikums- oder Arbeitnehmerverkehr braucht. Gesetzliche
 Basis: **Art. 32 ArGV3** (Verordnung 3 zum Arbeitsgesetz), PBG, **BBV I § 34** (rollstuhlgängige
 Toiletten → SIA 500), HyV, BehiG, Gastgewerbegesetz ZH.
+
+**Update Run 32 (2026-07-13):** im selben Ordner liegt eine **aktuellere Fassung desselben
+UGZ-Merkblatts** vor (`MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf`, **Merkblatt
+Dezember 2020**, neue Zuständigkeit UGZ Abt. «Bau und Energieeffizienz», Eggbühlstrasse 23 statt
+vormals Walchestrasse 31). Inhaltlich deckungsgleich mit der Mai-2012-Fassung (Personal-/
+Publikums-Tabellen unverändert), aber **eine neue, detailliertere Tabelle für
+Gastwirtschaftsbetriebe** ist hinzugekommen (in der 2012er-Fassung nur als Faustregel
+"25 Innenplätze je WC-Einheit" vorhanden):
+
+| Toiletteneinheiten | Innenplätze (bis) | max. Gästeplätze (Innen+Aussen) | mögl. Aussenplätze bei max. Innenplätzen |
+|---|---|---|---|
+| 1 | — | bis 49 | — |
+| 2 | 50–64 | 100 | 36 |
+| 3 | 65–79 | 150 | 71 |
+| 4 | 80–100 | 200 | 100 |
+| 5 | — | 250 | 125 |
+| 6 | — | 300 | 150 |
+
+Weiter präzisiert die 2020er-Fassung: Gastwirtschaftsbetriebe bis 49 Gästeplätze (Innen+Aussen)
+genügt eine geschlechtsneutrale, i.d.R. rollstuhlgerechte WC; ab 50 Plätzen geschlechtergetrennt
+mit je eigenem Vorraum; Aussenwirtschaften auf Privatgrund bis 10 Sitz-/20 Stehplätze (nur aussen)
+benötigen keine Gästetoilette. Neu auch referenziert: **SIA 382-1** (Lüftungs-/Klimaanlagen). Bei
+Zitat in einem laufenden Projekt die **Dezember-2020-Fassung als aktuellere Quelle** verwenden.
+Bemessungstabellen für Personal/Betreuungsstätten unverändert (siehe unten). Fixture-/
+Apparate-Dimensionierung (Achsabstände, Bewegungsflächen, Barrierefreiheit) → eigener Artikel
+[[recht-norm-sanitaerraeume-planungsgrundlagen]].
 
 **Personaltoiletten (Tabelle nach ArGV3-Wegleitung):**
 

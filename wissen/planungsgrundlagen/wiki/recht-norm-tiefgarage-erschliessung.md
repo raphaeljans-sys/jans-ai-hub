@@ -6,9 +6,13 @@ sources: [
   "VSS SN 640 050 «Grundstückzufahrten» (genehmigt Mai 1993, gültig, PL-02/Tiefgarage/1 VSS-Norm)",
   "VSS SN 640 291a «Parkieren — Anordnung und Geometrie der Parkierungsanlagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, ersetzt SN 640 291+292 von 1982, PL-02/Tiefgarage/1 VSS-Norm)",
   "VSS SN 640 281 «Parkieren — Angebot an Parkfeldern für Personenwagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, PL-02/Tiefgarage/1 VSS-Norm) — nur Bedarfsermittlung, nicht Geometrie",
+  "VSS SN 640 065 «Parkieren — Bedarfsermittlung und Standortwahl von Veloparkierungsanlagen» (Ausgabe 2011-08, ersetzt SN 640 065:1996, PL-02/Tiefgarage/1 VSS-Norm)",
+  "VSS SN 640 066 «Parkieren — Projektierung von Veloparkierungsanlagen» (PL-02/Tiefgarage/1 VSS-Norm, Tab. 2-5 Geometrie/Abstellsystemtypen)",
+  "Kt. ZH, Normalien über die Anforderungen an Zugänge («Zugangsnormalien» 700.5, vom 9. Dezember 1987, PL-02/Tiefgarage/1 VSS-Norm)",
   "IBV Hüsler AG, Normschnitt Anschluss Tiefgarage Ausfahrtstyp A (Kt. ZH, 23.01.2017, PL-02/Tiefgarage/2 Rampeneinfahrten)",
   "Enz & Partner GmbH, Beispiele minimaler Wendehämmer für 12-m-Lastwagen (VRV Art. 64/65/65a, PL-02/Tiefgarage/2 Wendehammer)",
-  "Meili, Peter & Partner Architekten AG / IBV, Aktennotiz Einschätzung Tiefgarage 246 Flurstrasse (17.04.2018, PL-02/Tiefgarage/3 Beispiele/Flurstrasse) — externe Referenz, kein JANS-Projekt"
+  "Meili, Peter & Partner Architekten AG / IBV, Aktennotiz Einschätzung Tiefgarage 246 Flurstrasse (17.04.2018, PL-02/Tiefgarage/3 Beispiele/Flurstrasse) — externe Referenz, kein JANS-Projekt",
+  "Coop Genossenschaft, «Warenannahme in Verkaufsstellen — Vorgaben/Richtlinien für die Bauplanung» (Stand 10.02.2009, PL-02/Tiefgarage/2 Planungshilfen Anlieferung + 03_Arbeitshilfen/Speziale Bauteile planen) — Retail-interne Richtlinie, kein amtlicher Erlass"
 ]
 links: [[recht-norm-quellenlandkarte]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[brandschutz-pl03-wegweiser]], [[machbarkeit]]
 ---
@@ -140,7 +144,89 @@ Längsneigung im Kontrollbereich max. 3 % (siehe §2.3 oben, Praxis-Deckung).
   1.20 m; Wege/Treppen mind. 1.50 m.
 - **Motorrad-Parkfelder** (§21): 2.20 m lang, 1.20 m breit (bis 1.50 m erweiterbar), Fahrgasse
   mind. 3.00 m.
-- **Leichte Zweiräder** (§22): eigene Norm SN 640 065/640 066 (nicht in dieser KB vertieft).
+- **Leichte Zweiräder** (§22): eigene Norm SN 640 065/640 066 — jetzt vertieft, siehe §6 unten.
+
+### 2.7 Kt.-ZH-Zugangsnormalien 700.5 (Run 32, neu erschlossen)
+
+Ergänzend zur VSS-Geometrie regelt die kantonale Vorschrift **«Normalien über die Anforderungen
+an Zugänge»** (Kt. ZH, 9. Dezember 1987, gestützt auf **§ 360 Abs. 3 PBG**), **welche Zugangsart**
+(nicht: welche Geometrie) ein Grundstück je nach zu erwartendem Verkehrsaufkommen braucht — die
+Vorstufe zur VSS-640-050-Geometrie:
+
+- **Vier Zugangsarten** (§5): a) Zufahrtsweg, b) Zufahrtsstrasse, c) Erschliessungsstrasse,
+  d) nutzungsorientierte Sammelstrasse — mit steigenden Ausbauanforderungen.
+- **Festlegung** (§6): nach dem voraussichtlichen Verkehrsaufkommen, gemessen in **Wohneinheiten**
+  als Bezugsgrösse (andere Nutzungen werden in Wohneinheiten umgerechnet); bei dichter Bebauung
+  und guter ÖV-Erschliessung können die Grenzwerte je Zugangsart erhöht werden.
+- **Notzufahrt-Minimum** (§3): jeder Zugang muss mindestens als Notzufahrt für den
+  Notfalleinsatz öffentlicher Dienste ausgestaltet sein (Zufahrtsweg oder tragfähige Fahrspur).
+- **Abweichungen** von den Normalien sind im baurechtlichen Entscheid zu begründen (§2 i.V.m.
+  § 360 Abs. 3 PBG).
+
+**Relevanz JANS:** ergänzt die VSS-640-050-Zufahrtstypologie (§1 oben) um die kantonale
+Vorstufe «welche Zugangsart brauche ich überhaupt» — insbesondere bei Erschliessung mehrerer
+Parzellen/Etappen über denselben Zugang relevant.
+
+## 6. Leichter Zweiradverkehr — Veloparkplätze (VSS SN 640 065/066, Run 32, neu erschlossen)
+
+Bisher als offener Punkt geführt (siehe frühere Fassung dieses Artikels) — jetzt destilliert, weil
+Velo-Abstellplätze bei praktisch jeder JANS-Baueingabe (Wohn-/Healthcare-/Publikumsbau) als
+eigene Auflage neben den Autoabstellplätzen auftreten.
+
+### 6.1 Bedarfsermittlung (SN 640 065, Ausgabe 2011-08)
+
+Analoges Vorgehen wie bei Parkfeldern für Motorfahrzeuge (Standardbedarf via Richtwerte ODER
+Erhebung der aktuellen Nachfrage, Abb. 1). **Richtwerte nach Nutzungsintensität** (Tab. 1–7,
+Auszug JANS-relevanter Nutzungen):
+
+| Nutzung | Velo-P Mitarbeitende | Velo-P Besuchende/Kundschaft |
+|---|---|---|
+| Wohnungen | **1 pro Zimmer** | im Bewohner-Richtwert bereits enthalten |
+| Kundenintensive Dienstleistung (Post/Bank/Arztpraxis/Coiffeur) | 2 pro 10 Arbeitsplätze | 3 pro 10 Arbeitsplätze |
+| **Spitäler, Pflege- und Altersheime** | **2 pro 10 Arbeitsplätze** | **2 pro 10 Arbeitsplätze** |
+| Übrige Dienstleistung/Gewerbe/Industrie | 2 pro 10 Arbeitsplätze | 0.5 pro 10 Arbeitsplätze |
+| Schulen Unterstufe | 2 pro 10 Arbeitsplätze | 1–3 pro 10 Schüler |
+| Schulen Mittel-/Oberstufe | 2 pro 10 Arbeitsplätze | 5–7 pro 10 Schüler |
+| Restaurants | 2 pro 10 Arbeitsplätze | 2 pro 10 Sitzplätze |
+| Hotels | 2 pro 10 Arbeitsplätze | 1 pro 10 Hotelbetten |
+
+**Relevanz JANS Healthcare:** die Zeile «Spitäler, Pflege- und Altersheime» ist eine der wenigen
+Nutzungskategorien mit **eigenem, von der generischen Dienstleistungs-Zeile abweichendem**
+Richtwert (2/2 statt 2/0.5) — direkt einsetzbar im Vorprojekt-Raumprogramm für Personal- und
+Besucher-Velostellplätze bei Pflegeheim-/Spitalprojekten.
+
+### 6.2 Aufteilung Kurzzeit-/Langzeitparkieren (§20-21)
+
+Kurzzeitparkieren (Minuten bis 2 Std., v.a. Kunden/Besucher) und Langzeitparkieren (>2 Std.,
+Bewohner/Personal/Pendler) werden getrennt beim Standort geplant — Kurzzeit möglichst nah am
+Eingang, offen zugänglich; Langzeit darf weiter weg/abschliessbar sein.
+
+### 6.3 Projektierung/Geometrie (SN 640 066)
+
+**Abstellanlagentypen** (Tab. 2, nach Diebstahlschutz gestaffelt): nicht abschliessbare
+Aussenabstellfelder (gering-mittlerer Schutz, für Kurzzeit) bis Fahrradparkhäuser/-stationen
+(200–4'000 Abstellfelder, hoher/sehr hoher Schutz, primär für grosse Bahnhöfe — für JANS-Projekte
+i.d.R. nicht relevant).
+
+**Abstellsystemtypen** (Tab. 3): empfohlen für hohen Diebstahlschutz sind **Anlehnbügel im
+Rahmenbereich** (Anschlussmöglichkeit für Rahmen UND Rad, ein Bügel bedient 2 Fahrzeuge, Unterholm
+auf ca. 0.4 m Höhe verhindert Abrutschen des Schlosses) — Vorderradhalter/Lenkerhalter sind wegen
+schwacher Diebstahlsicherung und Ungeeignetheit bei Taschen/Körben **nicht empfohlen**, ausser bei
+sehr knappen Platzverhältnissen oder temporärem Einsatz.
+
+**Platzbedarf pro Abstellfeld** (Tab. 5, senkrechte Aufstellung β = 90°) — inkl. Fahrgasse,
+zweiseitige Anordnung:
+
+| Systemtyp | Platzbedarf [m²/Abstellfeld] |
+|---|---|
+| Freifläche (a = 1.20 m) | 3.9 |
+| Anlehnbügel im Rahmenbereich | 1.6 |
+| Anlehnbügel Vorderrad/Lenkerhalter/Etrier | 2.6 |
+| Höhenversetzt (nur bei knappen Platzverhältnissen) | 1.5 |
+
+**Relevanz JANS:** für die Vorprojekt-Flächenbilanz Untergeschoss/Aussenraum genügt der
+Anlehnbügel-Wert **≈ 1.6–2.6 m²/Velo-Abstellfeld** (zweiseitige Anordnung inkl. Fahrgasse) als
+Faustregel, kombiniert mit dem Bedarf aus §6.1.
 
 ## 3. Bedarfsermittlung — Anzahl Parkfelder (VSS 640 281, nur Grössenordnung)
 
@@ -187,13 +273,37 @@ siehe §2.3/2.5). **Lehrsatz für JANS-Projekte:** früh (Vorprojekt) einen Verk
 kurz gegenchecken lassen — die Norm-Werte sind eng genug, dass 10-cm-Reserven bei Stützen echten
 Planungswert haben.
 
+## 7. Exkurs: Anlieferungszonen Retail — Coop-Bauplanungsrichtlinie (Run 32, niedrige Priorität)
+
+Ergänzendes, nicht-amtliches Fundstück im selben Ordner (`2 Planungshilfen Anlieferung/`, identisch
+auch unter `03_Arbeitshilfen/Speziale Bauteile planen/Anlieferung_Coop.pdf`): **interne
+Bauplanungsrichtlinie der Coop Genossenschaft** «Warenannahme in Verkaufsstellen» (Stand
+10.02.2009, Geltungsbereich VST Retail/Trading/Restaurant) — kein amtlicher Erlass, sondern
+Bauherren-Pflichtenheft eines Grossverteilers. Da JANS primär Wohn-/Healthcare-Projekte plant,
+nur als Kurzreferenz mit den auffälligsten Kennzahlen dokumentiert (bei einem realen
+Retail-/Gewerbeprojekt vollständig nachlesen):
+
+- **Rampenhöhe** OK Rampe = **+1.30 m** ab Boden (LKW-Heckbeladung ohne Ladebordwand), 1 Rampe
+  bis ca. CHF 15 Mio. Umsatz, 2 Rampen ab CHF 15 Mio. oder bei Restaurant-Nutzung.
+- **Scherenhebebühne** bei allen Standorten (min. 200×250 cm), Hubkraft 5–10 t je nach
+  Verkaufsflächengrösse, Automat-Halt bei 1.30 m Rampenhöhe.
+- **Zufahrt**: Wenderadius/Kurvenradius **mind. 12.50 m**, bei Aussenmanöverflächen zusätzlich
+  1.00 m Reserve für Schneewälle einplanen.
+- **Deckenhöhe** OK Decke fertig min. **4.50 m**, OK Sprinklerleitungen min. 4.30 m.
+- **Schallschutz** (SIA 181): bei lärmsensibler Umgebung (Wohnungen über/gegenüber Anlieferung)
+  Bauphysiker beiziehen, bei Neubauten im Wohngebiet geschlossene Warenannahme bauen.
+
+**Einordnung:** niedrige JANS-Priorität (Retail-Kernnutzung, kein Kerngebiet), aber die Rampenhöhe
+1.30 m und der Wenderadius 12.50 m decken sich mit allgemeinen Anlieferungs-Faustregeln und können
+bei einem gemischt genutzten Erdgeschoss (Wohn-/Geschäftshaus mit Ladenfläche) als Referenzwert
+dienen.
+
 ## Offene Punkte
 
 - Kommunale Parkplatzverordnungen (Stadt ZH, weitere Gemeinden) mit eigenen
   Grundanforderungen/Kennzahlen — bisher nicht kartiert; bei konkretem Projekt gegen
   kommunales Recht prüfen (Vorrang vor VSS 640 281).
-- SN 640 065/066 (leichter Zweiradverkehr) liegt im Ordner vor, aber inhaltlich noch nicht
-  destilliert (Randnutzen für Tiefgarage-Projekte gering, primär oberirdische Velo-Erschliessung).
-- Anlieferungs-/Coop-Planungshilfe (`2 Planungshilfen Anlieferung/5 Anlieferung_Coop.pdf`) liegt
-  vor, betrifft aber Gewerbe-/Retail-Anlieferung, nicht die typische JANS-Wohn-/Healthcare-Tiefgarage
-  — noch nicht destilliert, bei Bedarf nachziehen.
+- Im Ordner `1 VSS-Norm` liegen zusätzlich vor, aber (mangels JANS-Praxisrelevanz) noch nicht
+  gelesen: **VSS 640 578** «Berechnung der Immissionen» (Lärm aus Parkierungsanlagen, 36 S.) und
+  **722.15 Verkehrssicherheitsverordnung** (8 S.) — bei einem konkreten Lärmschutz-Fall
+  (Tiefgarage nahe Wohnnutzung) nachziehen.

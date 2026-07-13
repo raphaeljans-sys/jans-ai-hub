@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.07.2026 19:09:12
+Stand: 13.07.2026 19:29:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 13.07.2026 19:09:12
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 99e637ef nas-selfcommit: 2 Datei(en) 2026-07-13 19:00
+- 84e30df7 synobsis-batch-nacht Lauf 7 (13.07.2026 19:24): 853/853 weiterhin vollstaendig, kein neuer Stoff
