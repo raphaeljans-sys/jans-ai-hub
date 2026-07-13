@@ -1338,13 +1338,20 @@ Gebäude**, die **Fenster-Energieetikette** nur das Bauteil Fenster (→ F35, `[
 **Empfehlung:** Wer eine grössere Sanierung plant oder Fördergeld über 10k will, lässt **zuerst einen
 GEAK Plus erstellen** — Fördergesuch immer **vor Baubeginn**.
 
+**Handänderung:** In der **Deutschschweiz (auch ZH/SZ) ist der GEAK beim Verkauf nicht Pflicht** —
+gesetzlich verlangen ihn (Stand einer Sekundärquelle, nicht amtlich verifiziert) **vier Westschweizer
+Kantone: Freiburg** (seit 2013, auch Neubau), **Waadt, Neuenburg** (bei Handänderung, Heizungsersatz
+UND Baubewilligung) **und Jura**. Für JANS-Projekte in ZH/SZ ist der GEAK also freiwillig (aber bei
+Fördergeld über 10k trotzdem Pflicht, siehe oben).
+
 **Quelle:** Verein GEAK / EnDK — geak.ch (Was ist der GEAK / Produkt GEAK / FAQ / Weg zum GEAK), Stand
 2026; Reglemente 01.01.2026 → `[[geak-gebaeudeenergieausweis-kantone]]`. Förderbeiträge ZH/SZ →
 `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`; GEAK-Plus-Pflicht ab 10k →
 `[[gebaeudeprogramm-bund-hfm-2015]]`; Kosten-Marktrichtwerte → `[[geak-kosten-efh-mfh]]` (⚠ Sekundärquelle,
-nicht amtlich). ⚠ **Datenstand 2026-07-13:** GEAK-Kosten projektabhängig (kein amtlicher Fixpreis, nur
-Marktrichtwerte einer Quelle); welche Kantone den GEAK bei Handänderung zwingend verlangen, ist
-kantonsweise zu prüfen.
+nicht amtlich); Kantonsliste Handänderung → Immobilienmakler-Ratgeber (⚠ Sekundärquelle, keine
+Gesetzesartikel-Nummern, vor Einzelfall-Aussage am kantonalen Energiegesetz verifizieren). ⚠
+**Datenstand 2026-07-13:** GEAK-Kosten projektabhängig (kein amtlicher Fixpreis, nur Marktrichtwerte
+einer Quelle).
 
 ---
 
@@ -1439,13 +1446,19 @@ E-Auto), enges Budget, Fokus reine Rendite.
   waren rund **1,5 GWh** Speicherkapazität hinter dem Verteilnetz installiert, für Ende 2026 wird
   ein Wachstum auf **~2,5 GWh** erwartet (Neuinstallationen verdoppeln sich nahezu jährlich).
 
+- **Amortisation als Marktangabe (ergänzt 2026-07-13):** Mehrere kommerzielle CH-Solarratgeber
+  (nicht Swissolar/EnergieSchweiz selbst) beziffern die Amortisation des Speicher-Mehrpreises für
+  2026 übereinstimmend auf **rund 10–14 Jahre**, mit zusätzlicher Wärmepumpe/E-Auto auf **8–9 Jahre**
+  (höherer Eigenverbrauch verkürzt die Zeit). **Als Faustregel brauchbar, nicht als belegte Fachzahl**
+  — die Fachverbände nennen bewusst keine harte Zahl.
+
 **Quelle:** Swissolar (swissolar.ch, Wissen «Batteriespeicher» + Batteriemonitor Schweiz 2025),
 EnergieSchweiz/BFE (energieschweiz.ch/stories/batterien), Stand Juli 2026 →
 `[[batteriespeicher-heimspeicher-pv-ch]]`, `[[batteriespeicher]]`; Reihenfolge der Hebel +
 thermischer Speicher → `[[wp-pv-eigenverbrauch-lastmanagement]]`, `[[pv-eigenverbrauch-zev]]`.
-⚠ **Datenstand 2026-07-12:** CHF/kWh und Einspeisevergütungen sind volatil; eine belegte
+⚠ **Datenstand 2026-07-13:** CHF/kWh und Einspeisevergütungen sind volatil; eine belegte
 **Amortisationszeit in Jahren** nennen die amtlichen Quellen bewusst nicht (kommerzielle
-Ratgeber ~8–12 J — Marktangabe, projektgenau nur mit Tarif/Lastprofil rechenbar).
+Ratgeber 10–14 J bzw. 8–9 J mit WP/E-Auto — Marktangabe, projektgenau nur mit Tarif/Lastprofil rechenbar).
 
 ---
 

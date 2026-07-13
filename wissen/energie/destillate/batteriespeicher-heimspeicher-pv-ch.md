@@ -5,7 +5,7 @@ ausgabe: Web-Stand Juli 2026 (swissolar.ch/de/wissen/solarenergie-kombiniert/bat
 gelesen: 2026-07-10 (Web via WebFetch); ergänzt 2026-07-12 (WebSearch-Zitate aus Batteriemonitor 2025/2026, Primär-PDF zweimal nicht textextrahierbar)
 datenstand: 2026 (Marktpreise/Technik-Anteile volatil, ⚠ vor Zitat prüfen); Batteriemonitor-Zahlen Stand 2025; Wirtschaftlichkeits-Grundaussage physikalisch/ökonomisch stabil
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-13
 ---
 
 # Batteriespeicher (Heimspeicher) zur PV-Anlage — lohnt sich das?
@@ -97,11 +97,24 @@ Notstrom-Komfort.
   Verbrauch (Homeoffice, WP + E-Auto steuerbar), enges Budget, Fokus reine Wirtschaftlichkeit.
 - **Notstrom nicht voraussetzen** — nur ~30 % der Systeme können es wirklich; explizit ausschreiben.
 
+## Amortisationszeit — Marktangaben (ergänzt 2026-07-13, keine amtliche Primärquelle)
+- Mehrere kommerzielle CH-Solarratgeber (energyunlimited.ch, runer-solar.ch, swsolar.ch — **keine
+  amtliche/Fachverbands-Quelle**, daher hier explizit als Marktangabe und nicht als belegter Wert
+  gekennzeichnet) nennen für 2026 übereinstimmend: **Batterie-Mehrpreis amortisiert sich in
+  ca. 10–14 Jahren** bei einer Garantie von typischerweise 10 Jahren/6'000–10'000 Zyklen.
+- Mit zusätzlicher Wärmepumpe oder E-Auto (höherer Eigenverbrauch) sinkt die genannte Amortisation
+  auf **ca. 8–9 Jahre** — deckt sich mit der bereits belegten Reihenfolge «WP/E-Auto zuerst, Batterie
+  danach» oben.
+- Treiber laut denselben Quellen: Strompreis (Bezug ~27–30 Rp./kWh) vs. Einspeisevergütung
+  (~8–15 Rp./kWh) — die Differenz bestimmt den Batterie-Nutzen unmittelbar.
+- **Einordnung:** Diese Zahl bleibt **speculative/Marktangabe**, da EnergieSchweiz/Swissolar bewusst
+  keine harte Amortisationszahl nennen (siehe oben). Für eine Bauherren-Aussage zulässig als grobe
+  Orientierung («rechne mit rund einem Jahrzehnt»), nicht als belegte Fachzahl zitieren.
+
 ## Offene Punkte
-- **Konkrete Amortisationszeit in Jahren:** die amtlichen Quellen nennen bewusst keine harte Zahl
-  (EnergieSchweiz: «dauert noch relativ lange»; Zogg 2023: «lohnt sich wirtschaftlich noch nicht»).
-  Kommerzielle CH-Ratgeber nennen ~8–12 J (mit WP/E-Auto ~8–9 J) — **als Marktangabe, nicht als
-  belegter Wert übernommen**; projektgenau nur mit Tarif/Lastprofil/Einspeisevergütung rechenbar.
+- Eine **amtliche** Amortisationszahl bleibt unbelegt (EnergieSchweiz: «dauert noch relativ lange»;
+  Zogg 2023: «lohnt sich wirtschaftlich noch nicht») — die 10–14-J-Marktangabe oben schliesst die
+  Lücke nur orientierend, nicht amtlich.
 - Genaue **kWh-abhängige CHF/kWh-Kurve** und aktuelle Einspeisevergütungen (kantonal/EWU) → volatil,
   je Projekt beim EW prüfen.
 - Zusammenspiel mit **ZEV/vZEV/LEG** (Speicher hinter dem gemeinsamen Messpunkt) → [[zev-eigenverbrauch-mfh-her-2025]],

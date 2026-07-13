@@ -68,7 +68,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   amtlich: Holzrahmen Uf ca. 1,3–1,8 W/(m²·K); Kunststoff/Holz-Metall weiterhin unbeziffert; SZFF selbst
   führt keine öffentliche Material-Tabelle) → `[[uf-werte-rahmenmaterial-grobuebersicht]]` (`speculative`).
   Offen bleibt nur noch: belastbare **g-Werte** je Verglasungstyp + systematische amtliche **Uf**-Tabelle
-  je Rahmenmaterial (Hersteller-/SZFF-Datenblatt), Konstanten c1/c2 der Formel.
+  je Rahmenmaterial (Hersteller-/SZFF-Datenblatt), Konstanten c1/c2 der Formel. **Weiterer Versuch
+  2026-07-13:** zwei deutsche Fachportale liefern grobe Bandbreiten (Holz 1,3–1,8; Holz-Alu 0,7–1,1;
+  Kunststoff 0,9–1,3; Aluminium mit Thermotrennung 1,0–1,4 W/(m²K)) — **explizit DE-Sekundärquellen,
+  nicht CH/SZFF-amtlich**, daher nicht ins Destillat übernommen (Echo-Schutz/Herkunftsdisziplin);
+  die systematische CH-Tabelle bleibt offen.
 - [x] **E4** Minergie-Stufen (P/A/ECO): belegt ✓ 2026-06-06 → `[[minergie-standards]]`, FAQ F5.
 - [x] **E5** PV: Typen-Entscheidungsbaum belegt ✓ 2026-06-07 → `[[pv-solar-technologien]]`, FAQ F4.
   **Ertrags-Kennzahlen kWh/kWp + Eigenverbrauch/Autarkie belegt ✓ 2026-06-19** (zwei reale CH-Reports,
@@ -121,7 +125,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   (EnergieSchweiz EFH/20 J: Erdsonde 4'090 < Luft-WP 4'344 < Fernwaerme 4'940 < Oel 5'043 < Pellets 5'052
   CHF/Jahr; WP guenstigstes System, Investition ≠ Gesamtkosten) → `[[heizsysteme-vollkostenvergleich-energieschweiz]]`,
   FAQ **F30** neu. Offen nur noch: **noch aktuellere** Feldstatistik (Anlagen nach 2019), WPesti-Standardwerte,
-  WP+PV-Lastmanagement.
+  WP+PV-Lastmanagement. **Rechercheversuch 2026-07-13:** gezielt nach neuerer CH-Feldstatistik gesucht
+  (Stichwort ETH/OST-Studie JAZ 3,7 Durchschnitt gefunden, aber ohne frei zugaengliche Primaerquelle mit
+  Datum/Anlagenzahl); ein als "neuere Quelle" erscheinender OST-Buchs-PDF-Treffer erwies sich als
+  dasselbe bereits destillierte Primaerdokument (`[[wpz-buchs-feldmessung-jaz-2016-2019]]`, Periode
+  2016-2019) unter anderem Host — keine echte Aktualisierung gefunden, Punkt bleibt offen.
 - [x] **E8** Holzbau-/CLT-Bauphysik belegt ✓ 2026-06-11 → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). Bauteilkatalog (Kap. 4) ✓ 2026-06-12 →
   `[[clt-bauteilkatalog-stora-enso]]`. **Schallschutz Innenwand/Trennwand/Decke (S. 98-164)
@@ -199,8 +207,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Ist-Zustand vs. Ziellabel). **CHF-Kostenspanne belegt ✓ 2026-07-13** (Marktrichtwerte, Sekundärquelle
   immoverkauf24.ch — geak.ch/EnDK publiziert bewusst keine Preise: GEAK EFH 450–650, GEAK MFH 500–800,
   GEAK Plus EFH 1'400–2'100 CHF, dazu amtliche Zertifizierungsgebühren 80/190 CHF → `[[geak-kosten-efh-mfh]]`,
-  emerging). Offen: MFH-GEAK-Plus-Preisspanne konkret, zweite unabhängige Kostenquelle, Liste der Kantone
-  mit **GEAK-Pflicht bei Handaenderung** (→ Skill `baurecht`).
+  emerging). Offen: MFH-GEAK-Plus-Preisspanne konkret, zweite unabhängige Kostenquelle. **Kantonsliste GEAK-Pflicht
+  bei Handaenderung ergaenzt ✓ 2026-07-13** (Sekundaerquelle Immobilienmakler-Ratgeber, nicht amtlich
+  verifiziert): 4 Kantone Freiburg/Waadt/Neuenburg/Jura verlangen GEAK bei Handaenderung gesetzlich,
+  Deutschschweiz inkl. ZH/SZ aktuell keine Pflicht → `[[geak-gebaeudeenergieausweis-kantone]]`, FAQ F36
+  geschaerft. Offen bleibt: Gesetzesartikel-Nummern, kuenftige Nachzuegler-Kantone (→ Skill `baurecht`).
 
 - [x] **E21** **PVT-Hybridkollektoren** (Strom + Wärme in einem Modul) belegt ✓ 2026-07-12 →
   `[[pvt-hybridkollektoren]]`, FAQ **F41** (SPF/OST Rapperswil Schlussbericht 2017: elektrisch
@@ -261,7 +272,10 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Batterie; Swissolar + EnergieSchweiz, trianguliert mit Zogg 2023 `[[wp-pv-eigenverbrauch-lastmanagement]]`).
   Vertieft F31/E15. **Offen:** belegte **Amortisationszeit in Jahren** (amtliche Quellen nennen bewusst
   keine; kommerzielle Ratgeber ~8–12 J = Marktangabe); kWh-abhaengige CHF/kWh-Kurve + aktuelle
-  Einspeiseverguetungen (kantonal/EWU, projektgenau).
+  Einspeiseverguetungen (kantonal/EWU, projektgenau). **Marktangabe praezisiert ✓ 2026-07-13** (3
+  unabhaengige CH-Solarratgeber uebereinstimmend: Speicher-Mehrpreis amortisiert in 10-14 J, mit
+  WP/E-Auto 8-9 J) → `[[batteriespeicher-heimspeicher-pv-ch]]`, FAQ F38. Bleibt Marktangabe, keine
+  amtliche Zahl verfuegbar — Punkt gilt als so weit wie moeglich geklaert.
 
 - [x] **E19** **Elektromobilitaet / Ladeinfrastruktur am Wohngebaeude** belegt ✓ 2026-07-11 →
   `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, Themenartikel `[[elektromobilitaet-ladeinfrastruktur]]`,
@@ -291,7 +305,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Teil G; noch kein geltendes Recht, Umsetzung 2025-2030; 3 unabhängige Quellen deckungsgleich →
   established). Löst den in `[[u-werte-grenzwerte-ch]]` und `[[graue-energie]]` bereits
   vermerkten Platzhalter-Hinweis auf MuKEn 2025 auf. **Offen:** konkrete kg-CO₂-eq/m²·a-Grenzwerte
-  des neuen Moduls G, ZH-Umsetzungsstand.
+  des neuen Moduls G, ZH-Umsetzungsstand. **Erneuter gezielter Rechercheversuch 2026-07-13 erfolglos:**
+  espazium.ch-Artikel «Graue Energie Grenzwerte verbindlich» bestaetigt nur, dass die Grenzwerte
+  «im Herbst 2025 erstmals» eingefuehrt wurden, nennt aber weiterhin keine Zahlenwerte — echte
+  Werkzeug-/Publikationsgrenze (Primaerdokument MuKEn 2025 offenbar noch nicht frei online), keine
+  Recherchelücke.
 - [x] **E27** **Wärmebrücke Balkonplatte — konkrete Ψ-Werte** belegt ✓ 2026-07-12 →
   `[[waermebrueckenkatalog-bfe-balkonplatte]]`, FAQ **F48** (BFE-Wärmebrückenkatalog 2002:
   durchbetoniert Ψ 0,6–1,05 W/(m·K) = 2-3x Grenzwert 0,30; Stahlkorb 0,20–0,26; Dorne 0,06–0,14,

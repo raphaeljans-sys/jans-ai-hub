@@ -212,7 +212,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[geak-gebaeudeenergieausweis]]` (FAQ **F36** neu). Zugleich **FEA** (BFE, freiwillig): Winter-Bilanz
   Uw,eq am Referenzfenster 1,55×1,15 m, Klasse A = solare Gewinne > Verluste → `[[fenster-energieetikette-fea-bfe]]`
   (schaerft F35). Offen: GEAK-Klassengrenzen kWh/m²·a (Produktreglement bildbasiert), FEA-Klassengrenzen A–G,
-  numerische g-/Uf-Werte (SZFF).
+  numerische g-/Uf-Werte (SZFF). **Kantonsliste Handaenderungspflicht ergaenzt 2026-07-13** (Sekundaerquelle,
+  keine amtliche Primaerquelle): 4 Westschweizer Kantone FR/VD/NE/JU verlangen GEAK bei Handaenderung
+  gesetzlich, Deutschschweiz (inkl. ZH/SZ) aktuell keine Pflicht → `[[geak-gebaeudeenergieausweis-kantone]]`,
+  FAQ F36 geschaerft. Offen bleibt: Gesetzesartikel-Nummern, ob Deutschschweizer Kantone nachziehen.
 - [x] D10 **Komfortlueftung / kontrollierte Wohnungslueftung**
   — belegt 2026-07-09 (EnergieSchweiz gebaeudetechnik/lueftung + Minergie «Gute Raumluft» + energie-umwelt.ch).
   Vier Standardsysteme: **Komfortlueftung mit WRG** (Neubau-Standard), **Abluftanlage** (ohne WRG),
@@ -239,6 +242,9 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Zugleich Raumklima-Faktenblatt KBOB/IPB destilliert → `[[behaglichkeit-raumklima-kbob-ipb]]` (aktive
   Befeuchtung bei normalem Klima nicht noetig; schaerft F37). Offen: belegte Amortisationszeit in Jahren
   (amtliche Quellen nennen bewusst keine), CHF/kWh-Kurve + Einspeiseverguetungen projektgenau.
+  **Amortisationszeit als Marktangabe ergaenzt 2026-07-13** (3 kommerzielle CH-Solarratgeber uebereinstimmend:
+  Speicher-Mehrpreis amortisiert in ca. 10-14 J, mit WP/E-Auto 8-9 J; explizit als Marktangabe markiert,
+  keine amtliche Quelle) → `[[batteriespeicher-heimspeicher-pv-ch]]`, FAQ F38 geschaerft.
 - [x] D12 **Elektromobilitaet — Ladeinfrastruktur am Wohngebaeude (EFH/MFH)**
   — belegt 2026-07-11 (EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» Nov 2024 +
   «im Bestandsbau» Sept 2025 + Zogg-Artikel HK-Gebaeudetechnik 4/24). Kernbotschaft: **nicht die einzelne

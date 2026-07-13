@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 47: GEAK-Handänderungspflicht (4 Kantone) + Batteriespeicher-Amortisation (Marktangabe) ergänzt; 3 Negativbefunde dokumentiert
+- **PDF-Inventar weiterhin vollständig abgearbeitet** (siehe Run 46) — Block 1 (Transfer) läuft
+  daher wie in den letzten Läufen auf Web-Themen aus dem Curriculum-Backlog.
+- **`[[geak-gebaeudeenergieausweis-kantone]]` ergänzt:** Kantonsliste GEAK-Pflicht bei Handänderung
+  gefunden (Sekundärquelle, keine amtliche geak.ch/EnDK-Primärquelle) — **4 Westschweizer Kantone
+  Freiburg (seit 2013, auch Neubau), Waadt, Neuenburg (3 Anlässe: Handänderung/Heizungsersatz/
+  Baubewilligung), Jura**; Deutschschweiz inkl. ZH/SZ hat aktuell keine Pflicht. Schliesst den in
+  E16/Curriculum D9 offen geführten Punkt orientierend (nicht mit Gesetzesartikel-Nummern). FAQ F36
+  geschärft, Status weiterhin established (Kernartikel), Ergänzung selbst als Sekundärquelle markiert.
+- **`[[batteriespeicher-heimspeicher-pv-ch]]` ergänzt:** Amortisationszeit als Marktangabe — 3
+  unabhängige kommerzielle CH-Solarratgeber (energyunlimited.ch, runer-solar.ch, swsolar.ch)
+  übereinstimmend: Speicher-Mehrpreis amortisiert in **ca. 10–14 Jahre**, mit Wärmepumpe/E-Auto
+  **8–9 Jahre**. Explizit als Marktangabe gekennzeichnet (Fachverbände nennen bewusst keine harte
+  Zahl) — schliesst E18 orientierend ab. FAQ F38 geschärft.
+- **Drei Negativbefunde sauber dokumentiert** (kein Ergebnis ≠ Rechercheversagen):
+  1. **MuKEn-2025-Modul-G-Grenzwerte** (konkrete kg CO₂-eq/m²·a): espazium.ch-Artikel erneut geprüft,
+     nennt weiterhin keine Zahlen — Primärdokument offenbar noch nicht frei publiziert.
+  2. **Uf-Werte je Rahmenmaterial systematisch:** zwei weitere Quellen liefern nur grobe DE-Bandbreiten
+     (Holz 1,3–1,8 / Holz-Alu 0,7–1,1 / Kunststoff 0,9–1,3 / Alu 1,0–1,4 W/(m²K)) — bewusst NICHT ins
+     Destillat übernommen, da DE-Sekundärquellen statt CH/SZFF-amtlich (Echo-Schutz).
+  3. **Aktuellere JAZ-Feldstatistik (nach 2019):** ein vermeintlich neuer OST-Buchs-PDF-Treffer erwies
+     sich als dasselbe bereits destillierte Primärdokument (`[[wpz-buchs-feldmessung-jaz-2016-2019]]`)
+     unter anderem Host — keine echte Aktualisierung gefunden.
+- **Register nachgeführt:** `training/curriculum.md` (D9/D11), `wiki/QUESTIONS.md` (E16/E18/E26/E3/E-F).
+- Output: `outputs/2026-07-13_energie-run47.md`.
+
 ## 2026-07-13 — Run 46: ZH-Solarpflicht-Destillat ergänzt (RRB-Nummern + politische Reaktionen); Kantonsrats-Geschäftsnummer bleibt Werkzeug-Grenze
 - **PDF-Inventar weiterhin erschöpft** (`find -newer` erneut bestätigt: kein neuer Zeitstempel in
   `PL - 04 Energie` seit Run 41). Block 1 (Transfer) daher wie in Run 42-45 nicht durchführbar.

@@ -5,7 +5,7 @@ ausgabe: "Webseiten geak.ch (Stand 2026); Produkt-/Nutzungsreglement Version 01.
 gelesen: "geak.ch: /der-geak/was-ist-der-geak, /produkte/geak, /der-geak/faq-zum-geak, /weg-zum-geak (2026-07-08)"
 datenstand: "2026-07-08 (Reglemente 01.01.2026); Gültigkeit bis 10 J; CHF-Kosten projektabhängig"
 status: established
-last_updated: "2026-07-08"
+last_updated: "2026-07-13"
 ---
 
 # GEAK & GEAK Plus — der Gebäudeenergieausweis der Kantone
@@ -63,6 +63,15 @@ Reihenfolge, welcher Effekt auf die Klasse).
   `[[foerderprogramm-energie-sz-2026]]`). Förderbeiträge **immer vor Baubeginn** beantragen.
 - **In einigen Kantonen ist der GEAK bei Handänderungen und für Fördergelder obligatorisch** — welche
   Kantone genau, nennt geak.ch nicht (projektbezogen am Standortkanton prüfen).
+- **Konkrete Kantonsliste ergänzt 2026-07-13** (Sekundärquelle Immobilienmakler-Ratgeber, keine
+  amtliche EnDK-/geak.ch-Primärquelle — daher als emerging markiert): **vier Kantone** verlangen den
+  GEAK gesetzlich bei Handänderung — **Freiburg** (seit August 2013, auch für Neubauten), **Waadt**
+  (zusätzlich Sanierungspflicht ab Stufe D geplant), **Neuenburg** (GEAK obligatorisch bei
+  Handänderung, Heizungsersatz UND Baubewilligung — drei Anlässe) und **Jura** (beim Verkauf/
+  Eigentümerwechsel). Alle vier sind Westschweizer Kantone; **Deutschschweiz kennt aktuell keine
+  Handänderungspflicht** für den GEAK (ZH/SZ fördern die Erstellung nur, siehe oben). Weitere
+  Kantone könnten künftig nachziehen (Quelle nennt keinen Zeitplan). ⚠ Keine Gesetzesartikel-Nummern
+  gefunden — vor einer verbindlichen Aussage im Einzelfall am kantonalen Energiegesetz verifizieren.
 
 ## Bauherren-Transfer
 - Der GEAK beantwortet die Frage **«wie effizient ist mein Gebäude — und was bringt eine Sanierung am
@@ -80,8 +89,8 @@ Reihenfolge, welcher Effekt auf die Klasse).
 
 ## Offene Punkte
 - **Konkrete CHF-Kostenspanne** GEAK / GEAK Plus (EFH vs. MFH) — nicht amtlich publiziert; nur über reale
-  Offerten (nicht schätzen).
-- **Welche Kantone** GEAK bei Handänderung zwingend verlangen (geak.ch nennt keine Liste — kantonsweise
-  Energiegesetz prüfen; Querbezug Skill `baurecht`).
+  Offerten (nicht schätzen); Marktrichtwerte separat in `[[geak-kosten-efh-mfh]]`.
+- **Kantonsliste Handänderungspflicht (FR/VD/NE/JU) nur aus Sekundärquelle** — Gesetzesartikel-Nummern
+  und ob weitere Kantone (Deutschschweiz) nachziehen, bleiben offen; Querbezug Skill `baurecht`.
 - **Detail der Klassengrenzen** Gebäudehülle/Gesamtenergie (kWh/m²·a je Klasse) — im Produktreglement
   2026 (PDF), für einen späteren seitengenauen Lauf.
