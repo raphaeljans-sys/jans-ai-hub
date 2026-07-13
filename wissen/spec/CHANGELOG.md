@@ -1,5 +1,29 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-13 — Trainingslauf 13
+- Output `outputs/2026-07-13_training-run13.md`. **Keine neue reale Spec** seit Lauf 7; sechster
+  Lauf am selben Tag. Bewusst **keine** vierte Wiederholung der AG-Gruendung-Reue-Pruefung
+  (Laeufe 10-12 bereits dreimal, gleicher Befund) — stattdessen breiterer Environment-Sweep und
+  Suche nach neuem F1/F3-Material (Ergebnis: nichts Neues, beide bleiben unbelegt, bewusst nicht
+  kuenstlich gefuellt).
+- **Neuer Fund:** `skills/spec/SKILL.md` hatte die seit Lauf 4 (`templates/spec-vorlage.md`) und
+  Lauf 7 (Verifier-Zuordnungstabelle, 5 Domaenen) gereifte KB nicht nachgezogen — eingebettetes
+  Spec-Output-Schema war die alte flache Kurzfassung, Verifier-Sektion kannte die Domaenen-Tabelle
+  nicht. **Umgesetzt:** SKILL.md Schritt 3 + Schema verweisen jetzt auf `wiki/verifier.md`-Tabelle
+  und `templates/spec-vorlage.md` statt sie zu duplizieren. Kein Rule-/Gate-Verhalten geaendert
+  (Trigger-Schwelle unberuehrt) — reine Umsetzungstreue-Korrektur (KB→Skill-Sync).
+- **Drei-Listen-Konsistenz** erneut per echtem Datei-Diff (nicht nur Zeilenzahl) bestaetigt:
+  20 Rule-Dateien ↔ README (alle 20 + 1 Platzhalterzeile `neuer-bereich.md`, kein Drift) ↔
+  CLAUDE.md (19 Imports, einzige Differenz weiterhin `sync-single-committer.md`, dokumentiert).
+- **Neue Lehre fuer den Loop selbst:** Environment-Audits sollten periodisch auch pruefen, ob
+  KB-Reifung (Wiki/Templates) tatsaechlich in den operativen Skill zurueckfliesst — nicht nur
+  Rules/CLAUDE.md-Konsistenz. Muster potenziell uebertragbar auf andere Skills mit wachsenden
+  KBs (immobilienbewertung, planungsgrundlagen, energie, normen).
+- **Bewusst nicht getan:** keine vierte AG-Gruendung-Pruefung ohne neue Primaerquelle; keine
+  erfundene F1/F3-Fuellung; `spec-methode.md`/`anwendung-jans.md` unveraendert; kein Mail-Versand.
+- Offen: F1-Ueberdehnungs-Gegentest weiter unbelegt; F3 nur noch Marketing/Text; Eskalation
+  AG-Gruendung/`logbuch` an Raphael (aus Lauf 12) weiterhin offen, ausserhalb dieses Mandats.
+
 ## 2026-07-13 — Trainingslauf 12
 - Output `outputs/2026-07-13_training-run12.md`. **Keine neue reale Spec** seit Lauf 7; fuenfter
   Lauf in ~24 h (VOLLGAS). Als **Verifikationslauf** gefuehrt: Reue-Pruefung statt erfundenem Feinschliff.

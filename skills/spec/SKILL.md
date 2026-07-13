@@ -47,26 +47,35 @@ Zyklus **Tight Scope → Clear Checkpoint → Review → Adjust & Repeat**.
 - **Bewertungskriterien vorab** formulieren ("Sei praezise"): woran wird ein erstklassiges
   Ergebnis gemessen? Konkret, nicht "mach es gut".
 - **Format-Vorlage:** ein frueheres Beispiel / einen **Goldstandard** als Muster nehmen.
-- **Zweite Pruefinstanz** (Layer 2): je nach Domaene
+- **Zweite Pruefinstanz** (Layer 2) — Rangordnung: **autoritative Instanz (bindend) vor
+  externem Signal/Connector (Indiz)**; Connector-Gruen ist nie selbst "bestanden". Konkrete
+  Zuordnung je Domaene (Recht/Behoerde, Buchhaltung/Steuern, Baurecht/Norm, Ausschreibung/
+  Uebergabe, Wettbewerb/Jury, Text/Dokument) steht als wachsende Tabelle in [[verifier]]
+  ("Verifier-Zuordnung je Domaene") — dort nachschlagen statt neu herleiten. Faustregeln:
   - Texte/Dokumente/Mails → Skill `korrektur` (+ `twin`-Fidelity-Gate),
   - Code → `/code-review`,
   - Fakten/Stand → **externes Signal via Connector** (bexio `--abgleich`, geo-zh OEREB,
-    M365, Truninger DS3) statt Vermutung.
+    Zefix, M365, Truninger DS3) — als Indiz, nicht als Ersatz fuer die autoritative Instanz.
 - Leit-Prompt (Verifier): "Definiere vor dem Start die praezisen Kriterien fuer ein
   erstklassiges Resultat, nimm ein frueheres Beispiel als Format-Vorlage und lass ein
   zweites Modell das Endergebnis pruefen."
 
 ## Spec-Output-Schema (`outputs/JJJJ-MM-TT_<vorhaben>_spec.md`)
+Kopiervorlage: `wissen/spec/templates/spec-vorlage.md` (empirisch aus 5+ realen Specs
+destilliert, staerker als die alte Kurzfassung hier). Kernabschnitte:
 ```
 # <Vorhaben> — Spec
 - Ziel (1 Satz):
 - Abgrenzung (was NICHT dazugehoert):
-- Annahmen (markiert, zu bestaetigen):
-- Schluesselentscheide (bestaetigt: …):
+- Ist-Zustand (Scan) — nur bei System-/Prozess-/Umbau-Vorhaben:
+- Schluesselentscheide (bestaetigt JJJJ-MM-TT) — je Entscheid Status vermerken
+  (bestaetigt / vorgeschlagen / offen-gatet-Etappe X / umgesetzt), bewegliche
+  Annahmen (Name/Kapital/Termin) explizit als "noch beweglich" markieren:
 - Bewertungskriterien (woran Erfolg gemessen wird):
 - Plan (enge Scopes + Checkpoints):
-- Verifikation (zweite Instanz + externes Signal):
+- Verifikation (autoritative Instanz vor externem Signal, siehe [[verifier]]-Tabelle):
 - Faktenbasis (KB/Goldstandard/Connector):
+- Monitor-Log — nur bei lebender Spec (laeuft ueber Tage/Wochen, low-noise "nichts Neues"):
 ```
 
 ## Compounding & Training
