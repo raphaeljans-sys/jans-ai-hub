@@ -2,6 +2,28 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 57: Beide Run-56-Themenkomplexe vertieft (LSV-Planungswerttabelle, drei weitere Solarpflicht-Kantone)
+- **Run-Report** `outputs/2026-07-14_energie-run57.md`. PDF-Inventar bleibt vollständig
+  abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche, vertieft beide Run-56-Themenkomplexe
+  statt neue zu eröffnen.
+- **Wärmepumpen-Lärmschutz ergänzt:** vollständige Anhang-6-LSV-Planungswerttabelle nach
+  Empfindlichkeitsstufe (ES I 50/40, ES II 55/45, ES III 60/50, ES IV 65/55 dB(A) Tag/Nacht) —
+  zwei unabhängige Web-Reproduktionen zahlengenau deckungsgleich, Fedlex-Primärtext selbst
+  JavaScript-gerendert und nicht direkt extrahierbar (Werkzeug-Grenze) →
+  `destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md` ergänzt, FAQ F65 geschärft,
+  weiterhin established.
+- **Solarpflicht ergänzt um drei Kantone:** Aargau bleibt beim Bundesminimum (Grossrats-
+  Kommission empfiehlt 9:6 Ablehnung einer eigenen Verschärfung), Basel-Stadt «Solaroffensive»
+  weitet die Pflicht auf **Bestandsbauten** >100 m² aus (CHF 1'500/kW Ersatzabgabe, noch nicht
+  Gesetz), Graubünden Eigenstromerzeugungspflicht seit 2021 mit Globalstrahlungs-/Minergie-
+  Befreiung (exakte Mengenvorgabe offen) → `destillate/solarpflicht-national-mantelerlass-kantone.md`
+  ergänzt, FAQ F66 geschärft, Status bleibt emerging (8/26 Kantone).
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`
+  (D34-D35), `wiki/QUESTIONS.md` (E45/E46 neu, E-S1-Zähler auf dreizehn Läufe), `raw/_INGESTED.md`.
+- **Offen für Run 58:** Meta-Punkt M2 (eigenes Skill `energie`?) jetzt seit 13 Läufen spruchreif,
+  braucht Raphaels Entscheidung; weitere Solarpflicht-Kantone (Basel-Landschaft-Vertiefung, Waadt,
+  Genf, Tessin); LSV-Anhang-6-Vollzugshilfe für weitere Anlagetypen als möglicher neuer Themenkomplex.
+
 ## 2026-07-13 — Run 56: Zwei neue Themenkomplexe (WP-Lärmschutz, Solarpflicht national/Kantone) + beide Run-55-Punkte gelöst
 - **Run-Report** `outputs/2026-07-13_energie-run56.md`. PDF-Inventar bleibt vollständig
   abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche.

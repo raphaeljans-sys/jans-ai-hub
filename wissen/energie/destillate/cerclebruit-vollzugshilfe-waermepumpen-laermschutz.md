@@ -3,9 +3,9 @@ quelle: Cercle Bruit «Vollzugshilfe 6.21 — Lärmrechtliche Beurteilung von Lu
 herausgeber: Cercle Bruit (Vereinigung der kantonalen Lärmschutzfachstellen) in Zusammenarbeit mit FWS (Fachvereinigung Wärmepumpen Schweiz)
 ausgabe: PDF, 22 Seiten, vollständig via curl-Download + pdftotext -layout gelesen (WebFetch scheiterte an der Adobe-InDesign-Struktur, curl+pdftotext lieferte sauberen Volltext)
 gelesen: 2026-07-13 (Run 56, vollständig S. 1-22 inkl. Anhang 4 Fallbeispiel)
-datenstand: 1. November 2024 (Version der Vollzugshilfe; Schallleistungspegel-Basis LWA2°C gilt seit diesem Datum)
+datenstand: 1. November 2024 (Version der Vollzugshilfe; Schallleistungspegel-Basis LWA2°C gilt seit diesem Datum). Planungswerttabelle Anhang 6 LSV ergaenzt 2026-07-14 via ortsplanung.ch (Sekundaerquelle, Fedlex-Primaertext JS-gerendert und per WebFetch/curl nicht extrahierbar) + unabhaengige WebSearch-Synthese, beide Quellen zahlengenau deckungsgleich
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 ---
 
 # Wärmepumpen-Lärmschutz — Grenzwerte, Berechnung, Fallbeispiel (Cercle Bruit Vollzugshilfe 6.21)
@@ -105,14 +105,35 @@ möglich. Der Lärmschutznachweis (Web-Tool der FWS, `fws.ch/laermschutznachweis
 Zürich seit 1.1.2023 Teil des vereinfachten Meldeverfahrens (private Kontrolle) und für die
 Baueingabe obligatorisch — unabhängig davon, ob Planungswerte offensichtlich eingehalten sind.
 
+## Planungswerttabelle Anhang 6 LSV nach Empfindlichkeitsstufe (ergänzt 2026-07-14)
+Anhang 6 Ziff. 32 LSV (Industrie-/Gewerbelärm, technische Anlagen inkl. Wärmepumpen) legt je
+Empfindlichkeitsstufe (ES) folgende Werte in dB(A) fest:
+
+| ES | Planungswert Tag | Planungswert Nacht | Immissionsgrenzwert Tag | Immissionsgrenzwert Nacht | Alarmwert Tag | Alarmwert Nacht |
+|---|---|---|---|---|---|---|
+| I | 50 | 40 | 55 | 45 | 65 | 60 |
+| II | 55 | 45 | 60 | 50 | 70 | 65 |
+| III | 60 | 50 | 65 | 55 | 70 | 65 |
+| IV | 65 | 55 | 70 | 60 | 75 | 70 |
+
+Für neue ortsfeste Anlagen wie Wärmepumpen ist gemäss Art. 7 Abs. 1 LSV der **Planungswert**
+massgebend (nicht der weniger strenge Immissionsgrenzwert, der nur für die Sanierung
+bestehender Anlagen gilt) — deshalb ist in der Praxis fast immer die **Nacht-Spalte** die
+kritische Grösse (10–15 dB(A) strenger als Tag). Das Fallbeispiel oben (ES II Nacht = 45 dB(A))
+ist damit die zweitstrengste Kategorie im Wohnbaukontext; ES I (reine Wohnzonen/Erholungszonen)
+ist nochmals 5 dB(A) strenger (40 dB(A) Nacht) und braucht bei gleicher Wärmepumpe entweder mehr
+Abstand oder ein deutlich leiseres Modell.
+Quelle: zwei unabhängige Web-Reproduktionen (ortsplanung.ch-Volltextfetch + separate
+WebSearch-Synthese) sind zahlengenau deckungsgleich; der Fedlex-Primärtext selbst ist
+JavaScript-gerendert und liess sich per WebFetch/curl nicht extrahieren (Werkzeug-Grenze,
+keine Rechercheluecke — analog zu `kantonsrat.zh.ch` in `[[zh-energiegesetz-revision-solarpflicht-2026]]`).
+
 ## Offene Punkte
-- Die genauen **Planungswert-Tabellen nach Anhang 6 LSV je Empfindlichkeitsstufe** (ES I-IV,
-  Tag/Nacht) sind in dieser Vollzugshilfe nicht als eigene Tabelle abgedruckt, nur das
-  Fallbeispiel nennt ES II Nacht = 45 dB(A) — für andere ES-Stufen wäre der LSV-Anhang-6-Text
-  selbst oder eine kantonale Tabelle (z.B. `bauen-im-laerm.ch`) zu konsultieren.
 - Kein Bezug zu konkreten CHF-Kosten des Lärmschutznachweises selbst (Aufwand für Fachperson).
 - Die kantonalen Vollzugs-Ergänzungen (z.B. Kt. ZH: Meldeverfahren, Beurteilungsort-Praxis) sind
   in einer separaten Web-Quelle (`zh.ch/laermschutz-neuanlagen`) beschrieben, nicht in diesem
   Primärdokument selbst — als eigener Bauherren-Transfer-Punkt ergänzt.
+- Die Planungswerttabelle ist über Sekundärquellen belegt, nicht am Fedlex-Primärtext selbst
+  gegengelesen (Werkzeug-Grenze JS-Rendering) — bei Bedarf am gedruckten LSV-Text verifizieren.
 
 **Backlinks:** [[waermepumpe-systemvergleich]] · [[heizleistung-und-waermeerzeuger]]

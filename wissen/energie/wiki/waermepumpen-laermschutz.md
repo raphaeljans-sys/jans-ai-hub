@@ -1,7 +1,7 @@
 ---
 title: Wärmepumpen-Lärmschutz
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources: [destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md]
 links: [[INDEX]], [[waermepumpe-systemvergleich]], [[heizleistung-und-waermeerzeuger]]
 ---
@@ -22,6 +22,20 @@ im Kt. ZH seit 1.1.2023 Teil des vereinfachten Meldeverfahrens.
 `Leq = LWA2°C − 11 dB + DC − 20·log(Abstand/1m)`, dann `Lr = Leq + K1(Tag 5/Nacht 10) + K2(2) + K3(0)`.
 Massgebend meist die Nacht. Rechenbeispiel (14 m Abstand, LWA2°C 60 dB(A)) ergibt 44 dB(A) — der
 Planungswert ES II Nacht liegt bei 45 dB(A). **Abstand verdoppeln senkt den Pegel um ~6 dB.**
+
+## Planungswerte nach Empfindlichkeitsstufe (Anhang 6 LSV)
+Massgebend für neue Anlagen ist immer der **Planungswert**, meist die **Nacht-Spalte** (10-15 dB
+strenger als Tag):
+
+| ES | Planungswert Tag | Planungswert Nacht |
+|---|---|---|
+| I (Erholungs-/reine Wohnzone) | 50 dB(A) | 40 dB(A) |
+| II (Wohnzone) | 55 dB(A) | 45 dB(A) |
+| III (Wohn-/Gewerbe-Mischzone) | 60 dB(A) | 50 dB(A) |
+| IV (Industriezone) | 65 dB(A) | 55 dB(A) |
+
+In ES I (z.B. reine Villenquartiere) ist die Anforderung 5 dB(A) strenger als in ES II — bei
+gleicher Wärmepumpe braucht es dort mehr Abstand oder ein leiseres Modell.
 
 ## Massnahmen-Kaskade
 1. Standort optimieren (Abstand, freistehend +3 dB statt an der Wand +6 dB).

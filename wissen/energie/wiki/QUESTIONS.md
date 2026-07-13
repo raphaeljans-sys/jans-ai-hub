@@ -462,14 +462,29 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Minimalstandard; Bern/Luzern/SG/BL verschärfen). Status emerging — nicht alle Kantone geprüft.
   Neues Thema (kein Vorläufer-Curriculum-Punkt), eröffnet D31.
 
+- [x] **E45** **LSV Anhang 6 — vollständige Planungswerttabelle nach Empfindlichkeitsstufe**
+  belegt ✓ 2026-07-14 (Run 57) → `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` ergänzt,
+  FAQ F65 geschärft (ES I 50/40, ES II 55/45, ES III 60/50, ES IV 65/55 dB(A) Tag/Nacht; zwei
+  unabhängige Web-Reproduktionen zahlengenau deckungsgleich, Fedlex-Primärtext JS-gerendert nicht
+  direkt einsehbar — Werkzeug-Grenze). Löst den Run-56-Prioritätspunkt 3 vollständig, schliesst
+  die in E43 offen vermerkte Tabellen-Lücke.
+- [x] **E46** **Solarpflicht Aargau/Basel-Stadt/Graubünden** belegt ✓ 2026-07-14 (Run 57) →
+  `[[solarpflicht-national-mantelerlass-kantone]]` ergänzt, FAQ F66 geschärft. Aargau bleibt beim
+  Bundesminimum (eigene Verschärfung von Grossrats-Kommission 9:6 abgelehnt); Basel-Stadt
+  «Solaroffensive» erstmals Pflicht für **Bestandsbauten** >100 m² (CHF 1'500/kW Ersatzabgabe,
+  noch nicht Gesetz); Graubünden Eigenstromerzeugungspflicht seit 2021 mit Globalstrahlungs-/
+  Minergie-Befreiung, exakte Mengenvorgabe (KEnV Art. 23) nicht auffindbar. Status bleibt
+  emerging (8 von 26 Kantonen recherchiert). Löst den Run-56-Prioritätspunkt 2 teilweise —
+  Basel-Landschaft-Vertiefung, Waadt, Genf, Tessin bleiben offen.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-13 (Run 56): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F66 Vertiefungen belegt, Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G, LEG-
-  Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (jetzt 100 %
-  amtliche PDF-Primärquelle) UND zwei neue Themenkomplexe (WP-Lärmschutz E43, Solarpflicht
-  national/Kantone E44) primaerquellen-/volltext-verifiziert established bzw. emerging (E38-E44)
-  — Meta-Punkt M2 ist SEIT RUN 45 (also ZWOELF Laeufen in Folge) spruchreif fuer eine Entscheidung
-  und wird hier zum zwoelften Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine
-  explizite Antwort von Raphael in einer interaktiven Session, sonst dreht sich der Meta-Punkt
-  weiter im Kreis, ohne neue Substanz zu erzeugen.**
+  **Stand 2026-07-14 (Run 57): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F66 Vertiefungen belegt (F65/F66 in Run 57 weiter vertieft), Rp/kWh-Luecken orientierend
+  geschlossen (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-
+  Luftdichtheit, § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle
+  (E45) UND Solarpflicht in 8 Kantonen (E46) primaerquellen-/volltext-verifiziert bzw.
+  web-trianguliert (E38-E46) — Meta-Punkt M2 ist SEIT RUN 45 (also DREIZEHN Laeufen in Folge)
+  spruchreif fuer eine Entscheidung und wird hier zum dreizehnten Mal vermerkt. Der Loop kann sie
+  nicht selbst treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session,
+  sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**

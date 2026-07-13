@@ -2198,9 +2198,17 @@ verlangt (Lärmschutzwände zudem oft wirkungslos wegen tiefer Frequenzen). Prak
 zuerst Standort optimieren (Abstand/freistehend statt Wand), dann ein leises Modell wählen, erst
 danach bauliche Zusatzmassnahmen prüfen.
 
+**Die vier Planungswert-Stufen (Anhang 6 LSV, Nacht massgebend):** ES I (reine Wohn-/
+Erholungszone) 40 dB(A) · ES II (Wohnzone) 45 dB(A) · ES III (Wohn-/Gewerbe-Mischzone) 50 dB(A) ·
+ES IV (Industriezone) 55 dB(A). In einer ruhigen Villenzone (ES I) ist die Anforderung 5 dB(A)
+strenger als im obigen Rechenbeispiel (ES II) — dort braucht dieselbe Wärmepumpe entsprechend
+mehr Abstand oder ein leiseres Modell.
+
 **Quelle:** Cercle Bruit «Vollzugshilfe 6.21 — Lärmrechtliche Beurteilung von Luft/Wasser-
 Wärmepumpen», 1.11.2024, vollständig gelesen (Run 56, curl+pdftotext, 22 S. inkl. Fallbeispiel
-Anhang 4) → `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`. Status established.
+Anhang 4); Planungswerttabelle Anhang 6 LSV ergänzt (Run 57, zwei unabhängige Web-Reproduktionen
+zahlengenau deckungsgleich, Fedlex-Primärtext JS-gerendert nicht direkt einsehbar) →
+`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`. Status established.
 
 ## F66 — «Gilt eine Solardachpflicht nur im Kanton Zürich, oder auch anderswo?»
 
@@ -2221,11 +2229,23 @@ kann die Vorgabe **innerhalb desselben Kantons von Gemeinde zu Gemeinde untersch
 **Bauherren-Transfer:** Nicht vom 300-m²-Bundesstandard ausgehen, sondern für den konkreten
 Standort **immer zuerst die kantonale UND kommunale Regelung** prüfen (Bau- und Zonenordnung der
 Gemeinde) — ein Neubau-EFH in Luzern ist bereits heute solarpflichtig, in Zürich (noch) nicht.
+Umgekehrt gilt auch: nicht jeder Kanton verschärft automatisch. **Aargau** ist beim
+Bundesminimum geblieben — die zuständige Grossrats-Kommission hat eine eigene, strengere
+kantonale Solarpflicht mit 9:6 zur Ablehnung empfohlen (nachdem der Kanton bereits 2020 eine
+eigenständige Vorlage an der Urne verworfen hatte). **Basel-Stadt** verfolgt mit der
+«Solaroffensive» einen anderen Ansatz als die übrigen Kantone: dort soll die PV-Pflicht auf
+**Bestandsbauten** (Dachfläche >100 m², Ersatzabgabe CHF 1'500/fehlendem kW, 15-jährige
+Übergangsfrist) ausgeweitet werden, nicht nur auf Neubauten — die Vorlage ist aber noch nicht
+Gesetz (Regierungsrat hat verabschiedet, Grosser Rat berät). **Graubünden** verlangt seit 2021 eine
+Eigenstromerzeugungspflicht bei Neubauten, mit Befreiung bei schwacher Einstrahlung
+(<1'250 kWh/m²·Jahr) oder Minergie-Standard — die genaue Mengenvorgabe war in der Web-Recherche
+nicht auffindbar.
 
 **Quelle:** CKW «Solarpflicht Schweiz» + Kanton Bern WEU (amtliche Kantonsseite, weu.be.ch) +
-solaralag.ch Kantons-Übersicht + Presseecho, trianguliert (Run 56) →
+solaralag.ch Kantons-Übersicht + Presseecho, trianguliert (Run 56); Aargau/Basel-Stadt/Graubünden
+ergänzt (Run 57, aargauerzeitung.ch + bs.ch amtliche Medienmitteilung + Web-Recherche KEnV) →
 `[[solarpflicht-national-mantelerlass-kantone]]`. Status emerging (Bundesregelung fest, nicht
-alle 26 Kantone im Detail geprüft).
+alle 26 Kantone im Detail geprüft — bisher BE/SG/BL/LU/ZH/AG/BS/GR).
 
 ---
 

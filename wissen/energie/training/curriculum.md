@@ -489,3 +489,26 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   «nichts erfinden»). In `[[rilumi-minergie-luftdichtheit-n50]]` als bewusst offene Marktfrage
   dokumentiert statt stillschweigend fallengelassen — für eine belastbare Zahl wäre eine direkte
   Anbieteranfrage nötig, das ist eine Grenze der Web-Recherche.
+
+- **D34 (Run 57, 2026-07-14)** — «Welcher Lärmpegel gilt in einer ruhigen Wohnzone (ES I) oder
+  einer Mischzone (ES III) für meine Wärmepumpe — nicht nur im ES-II-Beispiel?» — belegt
+  2026-07-14. Die vollständige Anhang-6-LSV-Planungswerttabelle (ES I-IV, Tag/Nacht) wurde über
+  zwei unabhängige Web-Reproduktionen (ortsplanung.ch-Volltextfetch + separate WebSearch-Synthese)
+  ermittelt, beide zahlengenau deckungsgleich: ES I 50/40, ES II 55/45, ES III 60/50, ES IV 65/55
+  dB(A) Tag/Nacht. Der Fedlex-Primärtext selbst ist JavaScript-gerendert und liess sich per
+  WebFetch/curl nicht extrahieren (Werkzeug-Grenze, analog zu `kantonsrat.zh.ch`) →
+  `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` ergänzt, FAQ F65 geschärft. Löst den
+  Run-56-Prioritätspunkt 3 vollständig.
+- **D35 (Run 57, 2026-07-14)** — «Gilt die Solarpflicht auch in Aargau, Basel-Stadt und
+  Graubünden — und wie streng?» — belegt 2026-07-14 (Web-Recherche, mehrere Quellen trianguliert).
+  **Aargau** bleibt beim Bundesminimum: die Grossrats-Kommission empfiehlt eine eigene,
+  weitergehende kantonale Solarpflicht mit 9:6 zur Ablehnung (Kanton hatte bereits 2020 eine
+  eigenständige Vorlage an der Urne verworfen) — ein Gegenbeispiel zur Verschärfungs-Tendenz der
+  übrigen Kantone. **Basel-Stadt** verfolgt einen andersartigen Ansatz («Solaroffensive»): PV-
+  Pflicht auf **Bestandsbauten** >100 m² Dachfläche, Ersatzabgabe CHF 1'500/fehlendem kW, 15-jährige
+  Übergangsfrist — Regierungsrat hat verabschiedet, Grosser Rat berät noch (nicht Gesetz).
+  **Graubünden** hat seit 1.1.2021 eine Eigenstromerzeugungspflicht bei Neubauten mit Befreiung bei
+  Globalstrahlung <1'250 kWh/m²·Jahr oder Minergie-Standard; die genaue quantitative Vorgabe
+  (KEnV Art. 23) liess sich nicht auffinden → `[[solarpflicht-national-mantelerlass-kantone]]`
+  ergänzt, FAQ F66 geschärft. Löst den Run-56-Prioritätspunkt 2 teilweise (3 von mehreren
+  ausstehenden Kantonen; Basel-Landschaft-Vertiefung, Waadt, Genf, Tessin bleiben offen).

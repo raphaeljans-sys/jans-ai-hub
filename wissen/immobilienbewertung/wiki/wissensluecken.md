@@ -33,6 +33,12 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-14 **Beobachtungslauf (Run 28)** — kein neuer Ingest (Rule 260713 drosselt diesen
+  Loop auf 1x taeglich, Fokus liegt auf Wettbewerbs-DNA). Bewertungsordner geprueft: kein neuer
+  JANS-Fall. Marktpuls-Web-Check: SNB 0.00 %/Referenzzins 1.25 % unveraendert seit Run 17.
+  D6-Restposten Langnau weiterhin blockiert. Oberrieden-Hoehenkorrektur-Flag (Rule 260624,
+  Run 27) zum zweiten Mal protokolliert — noch nicht durch Raphael korrigiert.
+
 - ✓ 2026-07-13 **D6-Ausbau 8 JANS-Bezugsmärkte (Run 27)** — erster echt produktiver Lauf seit
   Run 26. Multi-Agent-Workflow (8 parallele Extraktions-Agenten, alle 8 `obtainable=true`) zog je
   die amtliche BZO-Grundmasse der Wohnzonen: **Niederhasli** (BZO 2024, IVHB, in Kraft 08.08.2025 —

@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training-Run 28: schlanker Beobachtungslauf (Rule 260713 Drosselung)
+
+- Kein neuer Ingest: Bewertungsordner geprueft (kein neuer JANS-Fall seit Wangen 8855),
+  Marktpuls-Web-Check (SNB 0.00 %/Referenzzins 1.25 % beide unveraendert seit Run 17), D6-
+  Restposten Langnau weiterhin blockiert (Revision 2026/27 nicht rechtskraeftig).
+- **Wiederholter Hinweis an Raphael:** Rule `auto-verbesserungen` 260624 (Oberrieden-Beispiel
+  «9.0 m traufseitig») ist gemaess Run-27-Befund amtlich falsch (8.5 m traufseitig) — Korrektur
+  liegt ausserhalb des KB-Mandats, daher hier zum zweiten Mal protokolliert statt selbst
+  editiert.
+- Report: `outputs/2026-07-14_training-run28.md`. Dieser Loop bleibt gemaess Rule 260713 auf
+  Minimalfrequenz (1x taeglich), solange kein neues Rohmaterial oder ein neuer Bewertungsfall
+  vorliegt.
+
 ## 2026-07-13 — Wissens-Chef Run 3 (Cross-KB): Querbezug zu KB grobkosten
 - [link] `residualwertmethode.md`: Querbezug-Block → grobkosten `kennwerte` (kanonische CHF/m³-GV-Kennwerte) inkl. E1-Faktor (0.70 Regelgeschoss / 0.60–0.61 Gesamtgebaeude). Keine Kennwert-Widersprueche (Paar immobilienbewertung↔grobkosten: 0). Bericht: `wissen/koordination/outputs/2026-07-13_wissens-chef-run3.md`.
 

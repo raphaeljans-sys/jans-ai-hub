@@ -3,9 +3,9 @@ quelle: CKW «Solarpflicht Schweiz» (Web, Mantelerlass/Art. 45a EnG) + Kanton B
 herausgeber: CKW (Sekundärquelle Bundesrecht) / Wirtschafts-, Energie- und Umweltdirektion Kt. Bern (amtliche Primärquelle für BE) / diverse
 ausgabe: Web, mehrere Quellen trianguliert 2026-07-13
 gelesen: 2026-07-13 (Run 56, WebFetch)
-datenstand: 2026-07-13; Bundesregelung Art. 45a/45b EnG durch Mantelerlass-Volksabstimmung 9.6.2024 bestätigt, Kanton Bern in Kraft seit 1.1.2026, Basel-Landschaft seit 1.10.2024
+datenstand: 2026-07-13; Bundesregelung Art. 45a/45b EnG durch Mantelerlass-Volksabstimmung 9.6.2024 bestätigt, Kanton Bern in Kraft seit 1.1.2026, Basel-Landschaft seit 1.10.2024. Ergänzt 2026-07-14 (Run 57): Basel-Stadt (Regierungsratsvorlage «Solaroffensive» an Grosser Rat, noch nicht Gesetz), Aargau (Grossrats-Kommission empfiehlt Ablehnung einer kantonalen Verschärfung 9:6 — Kanton bleibt beim Bundesminimum), Graubünden (Eigenstromerzeugungspflicht mit Globalstrahlungs-/Minergie-Befreiung, exakte W/m²-Vorgabe nicht auffindbar)
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 ---
 
 # Solarpflicht Schweiz — nationaler Mindeststandard (Mantelerlass) + kantonale Verschärfungen
@@ -37,6 +37,9 @@ ist ein eigenständiges, noch nicht in Kraft stehendes drittes Regelungsmodell.
 | **Basel-Landschaft** (ab 1.10.2024) | Alle Neubauten müssen einen Teil des **Strombedarfs** durch PV decken, «sofern technisch möglich und verhältnismässig» | Gemeinden erhalten ebenfalls Handlungsspielraum für eigene Regelungen. |
 | **Luzern** | **Alle Neubauten** unabhängig von der Grösse | Mind. **50 % der nutzbaren Dachfläche** mit Solarmodulen — erfasst damit auch Einfamilienhäuser (strenger als der Bundesstandard, der nur ab 300 m² greift). |
 | **Zürich** (noch nicht in Kraft) | Dächer >300 m², vollflächig | Eigenständige, separat verfolgte Vorlage — siehe Destillat `[[zh-energiegesetz-revision-solarpflicht-2026]]`. |
+| **Aargau** | **Bleibt beim Bundesminimum** (300 m² / 20 % aGF, ≈60 m² PV bei 300 m² EBF ≈12 kWp) | Eine eigene, weitergehende kantonale Solarpflicht wurde von der zuständigen Grossrats-Kommission mit **9:6 zur Ablehnung** empfohlen (Begründung: Bundes- und bestehende kantonale Vorgaben genügten bereits) — Aargau hatte 2020 eine eigenständige Solarpflicht-Vorlage bereits an der Urne verworfen. Art. 45a EnergieG/EnergieV setzt nur den Bundesstandard um. |
+| **Basel-Stadt** («Solaroffensive», Stand 2026-07-14: **noch nicht Gesetz**) | Ausweitung der PV-Pflicht auf **Bestandsbauten** mit Dachflächen **>100 m²** | Regierungsrat hat die überarbeitete Vorlage verabschiedet und an den Grossen Rat überwiesen (parlamentarische Beratung ausstehend); 15-jährige Übergangsfrist für private Bestandsbauten nach Inkrafttreten; Ersatzabgabe **CHF 1'500 pro fehlendem kW** Anlageleistung in einen Förderfonds; kantonal geschützte Baudenkmäler vollständig befreit; Teil der Netto-Null-2037-Strategie. **Wichtig:** betrifft primär den Gebäude**bestand**, nicht nur Neubauten — anderer Regelungstyp als die übrigen Zeilen dieser Tabelle. |
+| **Graubünden** (in Kraft seit 1.1.2021, MuKEn-2014-Revision) | **Eigenstromerzeugungspflicht** bei Neubauten (Art. 23 KEnV) | Neubauten müssen einen Teil des Strombedarfs durch eine gebäudeeigene Erzeugungsanlage decken; **befreit** sind Standorte mit Globalstrahlung **<1'250 kWh/m²·Jahr** sowie Neubauten, die den **Minergie-Standard** erreichen (Minergie gilt als gleichwertiger Effizienznachweis). Die genaue quantitative Vorgabe (W/m² EBF oder %-Anteil, analog AG/BE/SG) liess sich in der Web-Recherche nicht auffinden — offener Punkt, Primärtext KEnV Art. 23 wäre zu konsultieren. |
 
 ## Bauherren-Transfer
 Für ein Bauprojekt ausserhalb des Kantons Zürich gilt: **nicht vom Bundesstandard (300 m²)
@@ -50,13 +53,16 @@ verlässlichste erste Schritt.
 
 ## Offene Punkte
 - Gesetzestext von Art. 45a/45b EnG selbst nicht im Wortlaut geprüft (nur Sekundärquelle CKW).
-- Vollständige Übersicht aller 26 Kantone fehlt (nur BE/SG/BL/LU/ZH bisher recherchiert) —
-  Aargau wird nur am Rand erwähnt (Gemeinde-Kompetenz), Basel-Stadt-Vorlage («Solaroffensive»,
-  Grosser-Rat-Dokument gefunden, aber nicht gelesen) bleibt offen.
+- Vollständige Übersicht aller 26 Kantone fehlt (bisher BE/SG/BL/LU/ZH/AG/BS/GR recherchiert) —
+  weiterhin offen: Basel-Landschaft-Vertiefung, Waadt, Genf, Tessin, Solothurn (Arbeitshilfe
+  gefunden, nicht gelesen), Wallis (eigene Seite gefunden, nicht gelesen), Schaffhausen
+  (Solarpflicht 2024 an der Urne abgelehnt — Gegenbeispiel zu Bern/Luzern, noch nicht destilliert).
 - Genaue Definition «technisch möglich und verhältnismässig» (BL) nicht quantifiziert.
 - Verhältnis Bundesstandard ↔ kantonale Regel bei Widerspruch (gilt immer die strengere?)
   nicht explizit durch eine Rechtsquelle bestätigt, nur aus dem Minimalstandard-Prinzip
   hergeleitet.
+- Graubünden: exakte quantitative Eigenstromerzeugungs-Vorgabe (KEnV Art. 23) nicht aufgefunden.
+- Basel-Stadt-Solaroffensive: Beratungsstand im Grossen Rat / Inkrafttretensdatum noch offen.
 
 **Backlinks:** [[zh-energiegesetz-revision-solarpflicht-2026]] · [[pv-solar-technologien]] ·
 [[muken-2025-verabschiedet]]
