@@ -46,7 +46,7 @@
 | [ ] | P2 | `196_1998_d.pdf` | 196 | 1998 | naechster Lauf (63 S.) |
 | [ ] | P2 | `197_2004_d.pdf` | 197 | 2004 | naechster Lauf (56 S.) |
 | [ ] | P2 | `198_2004_d.pdf` | 198 | 2004 | naechster Lauf (62 S.) |
-| [x] 260713 | P2 | `199_1998_d.pdf` | 199 | 1998 | destilliert (sia-199-1998.md) |
+| [ ] | P2 | `199_1998_d.pdf` | 199 | 1998 |  |
 | [ ] | P2 | `2014_2017.pdf` | 2014 | 2014 |  |
 | [x] 260713 | P2 | `2020_2017.pdf` | 2020 | 2020 | destilliert (sia-2020-2017.md), Sicherheitsleistungen Unternehmer Werkvertrag (Merkblatt zu SIA 118) |
 | [ ] | P2 | `203_1997_d.pdf` | 203 | 1997 | naechster Lauf (48 S.) |
@@ -55,14 +55,14 @@
 | [x] 260713 | P2 | `226_1976_d.pdf` | 226 | 1976 | destilliert (sia-226-1976.md), Naturstein-Mauerwerk |
 | [x] 260712 | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
 | [x] 260712 | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
-| [ ] | P2 | `241_1988_d.pdf` | 241 | 1988 |  |
+| [x] 260713 | P2 | `241_1988_d.pdf` | 241 | 1988 | destilliert (sia-241-1988.md), Schreinerarbeiten |
 | [ ] | P2 | `244_2006_d.pdf` | 244 | 2006 |  |
 | [ ] | P2 | `246_2006_d.pdf` | 246 | 2006 |  |
 | [ ] | P2 | `248_2006_d.pdf` | 248 | 2006 |  |
 | [x] 260712 | P2 | `251_2008 Unterlagsboden.pdf` | 251 | 2008 |  |
 | [x] 260712 | P2 | `252_2002_d.pdf` | 252 | 2002 |  |
 | [x] 260712 | P2 | `253_2002_d.pdf` | 253 | 2002 |  |
-| [ ] | P2 | `256_1988_d.pdf` | 256 | 1988 |  |
+| [x] 260713 | P2 | `256_1988_d.pdf` | 256 | 1988 | destilliert (sia-256-1988.md), Deckenverkleidungen aus Fertigelementen |
 | [x] 260712 | P2 | `257_2005_d.pdf` | 257 | 2005 |  |
 | [x] 260712 | P2 | `260_2003_d.pdf` | 260 | 2003 |  |
 | [x] 260712 | P2 | `261_2003_d.pdf` | 261 | 2003 |  |
@@ -72,21 +72,21 @@
 | [x] 260712 | P2 | `265_2003_d.pdf` | 265 | 2003 |  |
 | [x] 260712 | P2 | `266_2003_d.pdf` | 266 | 2003 |  |
 | [x] 260712 | P2 | `267_2003_d.pdf` | 267 | 2003 |  |
-| [ ] | P2 | `270_1992_d.pdf` | 270 | 1992 |  |
+| [x] 260713 | P2 | `270_1992_d.pdf` | 270 | 1992 | destilliert (sia-270-1992.md), Abdichtungen Dichtungsbahnen/Gussasphalt |
 | [x] 260712 | P2 | `271_2007 Abdichtung von Hochbauten .pdf` | 271 | 2007 |  |
 | [ ] | P2 | `272_1980_d.pdf` | 272 | 1980 |  |
 | — | — | `273_1989 Abdichtungen von befahrbaren Flächen im Hochbau.pdf` | 273 | 1989 | ersetzt durch 273:1998 (Bestand, destilliert 260713 Run 7); Altausgabe uebersprungen |
-| [ ] | P2 | `273_1998_d.pdf` | 273 | 1998 | jüngste im Bestand; 2013-gültig wäre 273:2008 (nicht im Bestand); 273_1989 ersetzt |
+| [x] 260713 | P2 | `273_1998_d.pdf` | 273 | 1998 | destilliert (sia-273-1998.md); ACHTUNG Dateiname/Inhalt-Diskrepanz: PDF selbst datiert 1989, siehe QUESTIONS.md; jüngste im Bestand; 2013-gültig wäre 273:2008 (nicht im Bestand); 273_1989 ersetzt |
 | [x] 260712 | P2 | `279_2018.pdf` | 279 | 2018 |  |
 | [x] 260712 | P2 | `281_2017.pdf` | 281 | 2017 |  |
 | [ ] | P2 | `312_2013.pdf` | 312 | 2013 |  |
-| [ ] | P2 | `318_1988_d.pdf` | 318 | 1988 |  |
+| [x] 260713 | P2 | `318_1988_d.pdf` | 318 | 1988 | destilliert (sia-318-1988.md), Garten- und Landschaftsbau |
 | — | — | `329_1989_d.pdf` | 329 | 1989 | ersetzt durch 329:2018 (destilliert sia-329-2018.md); Altausgabe uebersprungen |
 | [x] 260712 | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
-| [ ] | P2 | `331_1988_d.pdf` | 331 | 1988 |  |
-| [ ] | P2 | `342_1988_d.pdf` | 342 | 1988 |  |
+| [x] 260713 | P2 | `331_1988_d.pdf` | 331 | 1988 | destilliert (sia-331-1988.md), Fenster |
+| [x] 260713 | P2 | `342_1988_d.pdf` | 342 | 1988 | destilliert (sia-342-1988.md), Sonnen- und Wetterschutzanlagen |
 | [ ] | P2 | `343.051_2018.pdf` | 343 | 2018 |  |
-| [ ] | P2 | `343_1990_d.pdf` | 343 | 1990 |  |
+| [x] 260713 | P2 | `343_1990_d.pdf` | 343 | 1990 | destilliert (sia-343-1990.md), Türen und Tore |
 | [x] 260712 | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
 | [ ] | P2 | `370.028_2003_d.pdf` | 370 | 2003 |  |
 | [ ] | P2 | `370.080_2003_d.pdf` | 370 | 2003 |  |
@@ -95,10 +95,10 @@
 | [ ] | P2 | `384.201_2017.pdf` | 384 | 2017 | gilt (jüngste im Bestand) |
 | [x] 260712 | P2 | `400_2000_d.pdf` | 400 | 2000 | destilliert (sia-400-2000.md), Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [ ] | P2 | `405_1998_d.pdf` | 405 | 1998 |  |
-| [ ] | P2 | `414_1980_d.pdf` | 414 | 1980 |  |
-| [ ] | P2 | `421_2006_d.pdf` | 421 | 2006 |  |
+| [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |
+| [x] 260713 | P2 | `421_2006_d.pdf` | 421 | 2006 | destilliert (sia-421-2006.md) |
 | [ ] | P2 | `423_2006_d.pdf` | 423 | 2006 |  |
-| [ ] | P2 | `430_1993_d.pdf` | 430 | 1993 |  |
+| [x] 260713 | P2 | `430_1993_d.pdf` | 430 | 1993 | destilliert (sia-430-1993.md), Entsorgung von Bauabfällen |
 | [ ] | P2 | `431_1997_d.pdf` | 431 | 1997 |  |
 | [ ] | P2 | `450_1993_d.pdf` | 450 | 1993 |  |
 | [ ] | P2 | `462_1994_d.pdf` | 462 | 1994 |  |

@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-fidelity-review Viertlauf (Näherbaurecht-Cluster Thalwil/SBB + Amts-Freigabe KISPI)
+- Vierter Fidelity-Lauf des Tages (nach 260713/260713b/260713c). Gesamt-Fidelity 92/100. Golds via
+  Apple Mail (M365-MCP in dieser Session nicht verfügbar) aus Gesendete Elemente rj@raphaeljans.ch,
+  Juli 2026: Stefan Tschopp (Du, Projektänderungspläne + Entscheidungsweiche SBB-Entschädigung),
+  Herr Sörensen/Stadt ZH (Sie, Auflagen-Freigabe-Anfrage), Thomas Wiedmer/SBB (Sie, formell).
+- **Geschärft (haltung.md):** wir/ich-Regel generalisiert — «wir» gilt nicht nur in der verbindlichen
+  Offerte, sondern in JEDEM institutionellen Auftritt im etablierten Mandat (Offerte, Mahnung,
+  Amts-Meldung/-Anfrage), belegt durch «Wir bitten um Freigabe des Auflagepunktes» an einen bekannten
+  Amts-Kontakt.
+- Drift-Report `outputs/2026-07-13d_fidelity.md`. Vier neue Selbstfragen an QUESTIONS.md (Runde
+  260713d): «Nächster Schritt:»-Heading, wir/ich bei unbekannter Behörde, Entscheidungsweiche-
+  Schlussformel «Für Dein finales Go … bin ich Dir dankbar», bare «danke»-Terzenz.
+- DNA neu kompiliert (`build_dna.py`) nach der haltung.md-Schärfung.
+
 ## 2026-07-13 — twin-mail-training Batch 40 (2026-04-09 bis 2026-04-15)
 - Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Cowork-Connector
   `outlook_email_search` + `read_resource`. Fenster 2026-04-09 bis 2026-04-15, 20 Mails gesichtet,

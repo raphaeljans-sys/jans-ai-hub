@@ -2,7 +2,7 @@
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
 last_updated: 2026-07-13
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015)]
+sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -624,6 +624,18 @@ spaeterer Brandschutzplaner ueberhaupt braucht (Zufahrt, Schluesseldepot-Lage, S
 Loeschwasserversorgung) — die eigentliche Planerstellung (meist ueber bsvonline.ch-Tools bestellt)
 bleibt Fachplaner-/Skill-`brandschutz`-Aufgabe.
 
+**Ergaenzung (Run 28, 2026-07-13) — kanonischer Vollkatalog:** `brandschutznachweis.ch/BS-Symbole_
+01.01.2017.pdf` ist der **vollstaendige, nutzungsuebergreifende** Grundsymbole- + Ergaenzende-
+Symbole-Katalog (Plot 16.12.2016), waehrend die oben zitierte Legende «BS-Plan einfach» nur den
+**projektspezifischen Ausschnitt** eines konkreten Musterobjekts zeigt. Der Vollkatalog ergaenzt
+u. a. Symbole, die im Muster-Plansatz nicht vorkommen: **Rauchschutz-Druckanlage (RDA)** und
+**Spuelluftung (SLA)** als eigene Ueberdruckbelueftungs-Kategorien (§5l behandelt die materielle
+RWA-Pflicht, hier nur die Plan-Symbolik), **Poller** (versenkbar brandfallgesteuert / manuell
+demontierbar) fuer Feuerwehrzufahrten, sowie **PV-Wechselrichter** und **Stromabschaltung
+(HV/PV)** als eigene Diverses-Symbole — relevant bei PV-belegten Dachflaechen, Querverweis
+[[energie-pv-brandschutz]]. Farbcode-System durchgaengig RGB-codiert (z. B. Fluchtwege 0/153/0,
+Loescheinrichtungen 0/50/204, Brandmeldeanlage 255/0/0, RWA/Ueberdruckbelueftung 255/255/0).
+
 ---
 
 ## 5c · Feuerwehrzufahrten, Bewegungs- und Stellflaechen — reale Bemessung (Pflegeheim Wald, Run 26, 2026-07-13)
@@ -781,6 +793,75 @@ und **wo** dieses Nachschlagewerk liegt.
 
 ---
 
+## 5g · «Parking»-Begriff und Brandabschnittsbildung — Wohnbauten-Arbeitshilfe Ziff. 2.4/12.1/12.2 (Run 28, 2026-07-13)
+
+Quelle: **VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten»** (Stand 17.05.2018), Ziff. 2.4 +
+12.1/12.2 — vervollstaendigt die in §4c zitierte Korrektur mit dem amtlichen Wortlaut (dieselbe
+Arbeitshilfe, bisher nur Ziff. 5-7 ausgewertet).
+
+**Begriffsabgrenzung (Ziff. 2.4):** Als **«Parking»** im Sinn der BSN gilt ein Raum zum Einstellen
+von Motorfahrzeugen mit einer Grundflaeche von **mehr als 600 m²** (BSR10-Parkings). Kleinere Raeume
+(«Raeume zum Einstellen von Motorfahrzeugen bis 600 m²», Ziff. 12.1) unterliegen einer eigenen,
+schlankeren Regelung: Brandabschnittsbildung ist Pflicht (BSR15-15 Z.3.7.12 A1), aber **keine**
+Anforderungen in Einfamilienhaeusern, Gebaeuden geringer Abmessung und Nebenbauten (A2).
+
+**Ziff. 12.2 Parkings (> 600 m²) — vollstaendiger Wortlaut, ergaenzt §4c:**
+1. Parkings sind als Brandabschnitte zu erstellen (BSR15-15 Z.3.7.11 A1).
+2. Zulaessige Brandabschnittsflaeche: **4'800 m²** unter Terrain, eingeschossig oder Geschosse
+   einzeln getrennt; **2'400 m²**, wenn die Geschosse in offener Verbindung stehen; mit
+   Loeschanlage **verdoppelbar** (Z.3.7.11 A2).
+3. Teilweise offene Parkings (Umfassungswaende ≥ 25 % unverschliessbare Oeffnungen): zulaessige,
+   nicht brandabschnittsgebildete Flaeche je Geschoss **9'600 m²** (Z.3.7.11 A3).
+4. **Schleusenpflicht:** fuehren Ausgaenge in einen vertikalen Fluchtweg, sind bei Einstellraeumen
+   mit Brandabschnittsflaeche **> 1'200 m²** feuerwiderstandsfaehige Schleusen oder Vorplaetze zu
+   erstellen (BSR16-15 Z.3.7 A1). Feuerwiderstand der Schleuse = Tragwerk, mind. jedoch **EI 30**;
+   Tueren zum vertikalen/horizontalen Fluchtweg **E 30 selbstschliessend** (A2).
+5. Ausgaenge/Fluchtwege: sicherheitsbeleuchtete Rettungszeichen (BSR17-15 Z.2.2.3 A1) +
+   Sicherheitsbeleuchtung im Fluchtweg (A2) und im Raum selbst, z. B. Fahrgassen (A3).
+
+**JANS-Praxisrelevanz:** Die Schleusenpflicht ab **1'200 m²** Brandabschnittsflaeche (Punkt 4) ist
+eine Kernzahl, die in §4c bislang nicht separat genannt war — bei grossen Healthcare-Tiefgaragen
+(haeufig > 1'200 m² je Brandabschnitt) ist frueh zu pruefen, ob die Ausgaenge tatsaechlich direkt in
+einen vertikalen Fluchtweg fuehren oder ob eine Schleuse eingeplant werden muss.
+
+---
+
+## 5l · Rauch- und Waermeabzugsanlagen (RWA) — BSR 21-15 Grundrichtlinie (Run 28, 2026-07-13)
+
+Quelle: **VKF-Brandschutzrichtlinie «Rauch- und Waermeabzugsanlagen» (BSR 21-15)**,
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf`. Ergaenzt die in §4c
+zitierte Korrektur mit dem vollstaendigen Kontext: BSR 21-15 regelt die RWA-Pflicht
+nutzungsuebergreifend (Industrie/Gewerbe/Lager, Buero, Parking, Raeume grosser Personenbelegung,
+Verkaufsgeschaefte) — dieser Artikel dokumentiert die fuer JANS wichtigste Kategorie **Parking**
+vollstaendig, andere Nutzungen nur als Kontext.
+
+**RWA-Pflicht Parking (ohne Leistungsnachweis, Tabelle Ziff. 3.1):**
+
+| Lage | ohne Loeschanlage | mit Loeschanlage |
+|---|---|---|
+| unter Terrain oder allseitig geschlossen | > 600 m² | > 3'600 m² |
+| ueber Terrain, nicht allseitig geschlossen (< 25 % offene Umfassungswaende) | > 2'400 m² | > 4'800 m² |
+| ueber Terrain, Umfassungswaende > 25 % offen | nicht notwendig | nicht notwendig |
+
+**Anlagetyp nach Brandabschnittsflaeche (LRWA/MRWA/NRWA):** unter Terrain/allseitig geschlossen
+verlangt die Tabelle im mittleren Flaechenband **MRWA** (maschinell); ueber Terrain analog auf den
+hoeheren Flaechen-Schwellen verschoben. **NRWA** (natuerlich) und **LRWA** (Lueftung durch die
+Feuerwehr) stehen je nach Konzept als Alternative/Ergaenzung zur Wahl — die Detailwahl bleibt
+Fachplaner-/Skill-`brandschutz`-Tiefe.
+
+**Zum Vergleich — andere Nutzungen (Tabellen-Kontext, hier nicht vertieft):** Industrie-/Gewerbe-/
+Lagerraeume und Bueroraeume folgen einer aehnlichen, aber eigenen Schwellenlogik (z. B. Buero
+drei-/mehrgeschossig offen verbunden bereits ab 1'200/2'400 m²); Raeume mit grosser
+Personenbelegung koppeln an die Personenzahl (**> 300 Pers.**) statt an die Flaeche;
+Verkaufsgeschaefte pauschal ab **600 m²** unabhaengig von einer Loeschanlage.
+
+**JANS-Praxisrelevanz:** Bestaetigt und vervollstaendigt die in §4c dokumentierte Korrektur der
+ueberholten 2003er-Parkhaus-Arbeitshilfe (RWA-Schwellen 600/3'600 m² unter Terrain, 2'400/4'800 m²
+ueber Terrain) — die Werte stammen direkt aus **BSR 21-15 Ziff. 3.1** und sind die massgebende
+Grundlage fuer laufende Bewilligungsverfahren.
+
+---
+
 ## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -801,7 +882,9 @@ und **wo** dieses Nachschlagewerk liegt.
   (→ §5c), «wie muss ein Bettengeschoss im Kinderspital/Pflegeheim brandschutztechnisch unterteilt
   werden (horizontale Evakuierung)» (→ §5d), «gilt fuer meinen Fall zusaetzlich zur BSV auch das
   PBG (§ 305), und was steht im Blauen Buch zum Brandschutz» (→ §5e), «welche SN-EN-/SVGW-Norm
-  gilt neben einer bestimmten VKF-Richtlinie» (→ §5f).
+  gilt neben einer bestimmten VKF-Richtlinie» (→ §5f), «ab wann gilt ein Raum als «Parking» und
+  wann braucht es eine Schleuse zum Fluchtweg» (→ §5g), «ab welcher Flaeche braucht die Tiefgarage
+  eine Rauch- und Waermeabzugsanlage» (→ §5l).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →

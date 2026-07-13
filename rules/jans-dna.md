@@ -101,7 +101,8 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 ### Haltung & Werte
 - **Do:** im Zweifel für den ehrlichen Rat, auch gegen das eigene Honorar; Standpunkt
   beziehen; pragmatische Lösung anbieten; bei **unverbindlicher Erstabklärung** Ich/neutral, kein
-  «wir»; bei **verbindlicher Offerte im etablierten Mandat** «wir/unser» erlaubt; Honorar **direkt
+  «wir»; bei **jedem institutionellen Auftritt im etablierten Mandat** (Offerte, Mahnung, formelle
+  Amts-Meldung/-Anfrage an Kunde ODER Behörde) «wir/unser» erlaubt; Honorar **direkt
   und ohne Polster** beziffern, aber **warm rahmen** (kein Weichspülen, kein Kleinrechnen);
   Sorgfalt/Effizienz auch als Rücksicht auf die Gegenseite (Behörde nicht doppelt belasten)
   begründen.

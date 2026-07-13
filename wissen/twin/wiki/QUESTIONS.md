@@ -3,6 +3,42 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260713d (twin-fragesteller, aus Fidelity-Review 2026-07-13 Viertlauf)
+
+Quelle: Drift-Report `outputs/2026-07-13d_fidelity.md` (Gesamt-Fidelity 92; Näherbaurecht-Cluster
+Thalwil/SBB + Amts-Freigabe KISPI. Die Haltungs-Regel wir/ich wurde in diesem Lauf bereits
+generalisiert; die folgenden Fragen betreffen die verbleibenden neuen Mikro-Bausteine). Je in
+1–2 Sätzen beantwortbar.
+
+1. **«Nächster Schritt:»-Heading — eigene Kategorie oder Variante von «Fazit»?** In der Plan-
+   Übergabe an Stefan Tschopp (08.07.2026) setzt Du «**Nächster Schritt:**» als eigenes fettes
+   Heading vor eine Stichwort-Liste (keine Sätze, nur die zwei nächsten Verfahrenspunkte). Ist das
+   eine bewusst andere, schlankere Kategorie als «Fazit»/«Zusammenfassung:» (dort volle Sätze mit
+   Handlungsempfehlung), reserviert für die reine **Verfahrens-Ausblick**-Situation ohne Befund, oder
+   einfach eine Tagesform-Variante von «Fazit»? *Warum: klärt, ob der Zwilling ein drittes,
+   eigenständiges Heading neben «Zusammenfassung»/«Fazit» führen soll.* → [[arbeitsweise]]
+2. **wir/ich bei UNBEKANNTER Behörde:** Die generalisierte Regel (dieser Lauf) sagt «wir» gilt im
+   institutionellen Auftritt (Offerte/Mahnung/Amts-Meldung). Der Beleg (Herr Sörensen) ist aber ein
+   **bekannter** Amts-Kontakt («Geschätzter Herr»). Schreibst Du auch einer **unbekannten** Fachstelle
+   (kalt-formelles «Sehr geehrte/r», Erstkontakt) im selben institutionellen Auftrag «wir», oder bleibt
+   es dort bei «ich», weil noch keine eingespielte Beziehung besteht? *Warum: trennt institutionellen
+   Auftritt von Vertrautheit als zwei mögliche, bisher vermengte Trigger für «wir».* → [[haltung]],
+   [[beziehungsregister]]
+3. **«Für Dein finales Go bezüglich Vorgehen bin ich Dir dankbar» — Standard bei jeder
+   Zwei-Optionen-Weiche?** Bei der SBB-Entschädigungsfrage legst Du Stefan zwei Varianten (A/B) vor
+   und schliesst mit dieser Entscheidungs-Bitte, statt mit «Gib mir bescheid» oder «kurzes OK-
+   Feedback». Ist diese Formel Dein fester Abschluss, wenn der Bauherr zwischen **mehreren
+   gleichwertigen Optionen** wählen muss (im Unterschied zu einem simplen Ja/Nein-Review)? *Warum:
+   ergänzt die bereits belegte Freigabe-Bitten-Skala («kurzes OK-Feedback» vs. «Prüfung und
+   Freigabe») um eine dritte, auf echte Auswahlentscheide zugeschnittene Formel.* → [[stimme]],
+   [[arbeitsweise]]
+4. **Bare «danke» am Satzende in formeller Sie-Mail:** «Wir bitten um Freigabe des Auflagepunktes,
+   danke.» (Herr Sörensen) hängt ein kleingeschriebenes, unpunktiertes «danke» direkt an den
+   Hauptsatz, ohne «Besten Dank» oder eigenen Absatz. Ist das eine bewusste, sehr knappe Dank-
+   Kurzform für die routinemässige Amts-Meldung an einen eingespielten Kontakt, oder Flüchtigkeit
+   beim schnellen Tippen? *Warum: prüft, ob eine dritte, noch knappere Dank-Stufe neben «Besten
+   Dank für …» und der Wunschzeile existiert.* → [[stimme]]
+
 ## Offen — Runde 260713c (twin-fragesteller, aus Fidelity-Review 2026-07-13 Drittlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13c_fidelity.md` (Gesamt-Fidelity 95; Golddatensatz Lieferanten-
