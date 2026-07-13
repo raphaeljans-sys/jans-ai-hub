@@ -1,5 +1,15 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Rang-Entscheid Raphael + QUESTIONS-Bereinigung (Session MacBook Pro)
+- **Rang-Entscheid:** Raphael hat via Rueckfrage «Belegte Raenge uebernehmen» bestaetigt —
+  2102 Muttenz 4. Rang / 3. Preis, 2206 Schoental 3. Rang / 3. Preis sind damit
+  festgeschrieben (Grundlage: outputs/2026-07-12_rang-klaerung-2102-2206.md).
+- QUESTIONS.md bereinigt: erledigte Punkte (Normen, Kennzahlen 2101/2102/2103,
+  B12/Team/MAL-A-GUZZI 2206, Umlaute 2408, 2502 leer) ins Archiv verschoben; offen
+  bleiben Bauaufgaben-Prioritaeten (Etappe 3), Druckvorstufen-Standard (neu aufzusetzen),
+  SIA 2014, sowie die strukturell unbelegbaren Punkte (2408-Ausscheidungsgrund,
+  2101-Einzelkritik) und die ausstehenden Juryberichte 2501/2507.
+
 ## 2026-07-13 — Beobachtungs-Lauf: keine neuen Juryberichte, Etappe 3 weiter blockiert
 - **Ausgangslage:** Endbedingung Etappe 2 ist seit Lauf 3 (13.07.2026) vollstaendig erreicht;
   naechster Schritt Etappe 3 (konkurado-Erweiterung) ist blockiert, bis Raphael die
