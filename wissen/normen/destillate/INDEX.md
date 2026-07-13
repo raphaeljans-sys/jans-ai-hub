@@ -58,6 +58,11 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | destilliert (S.1-16+31-38/38) |
 | `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | destilliert |
 | `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | destilliert |
+| `din-v-105-100-2005.md` | DIN V 105-100 Mauerziegel mit besonderen Eigenschaften | 2005-10 (Vornorm) | destilliert (vollständig, S.1-31/31) |
+| `din-v-106-2005.md` | DIN V 106 Kalksandsteine mit besonderen Eigenschaften | 2005-10 (Vornorm) | destilliert (vollständig, S.1-26/26) |
+| `din-4844-2-2001.md` | DIN 4844-2 Sicherheitskennzeichnung, Darstellung Sicherheitszeichen | 2001-02/03 | destilliert (vollständig, S.1-23/23) |
+| `baupreisindizes-statistisches-bundesamt-2010.md` | Baupreisindizes Statistisches Bundesamt (Methodik-Referenz D, keine DIN) | Februar 2010 | destilliert (vollständig, S.1-23/23) |
+| `komm-din18024-t1-bayern-2001.md` | Bayerischer Kommentar/Leitfaden zu DIN 18024-1 (Strassen/Plätze/Wege/Grünanlagen/Spielplätze) | 2001-08 | Teil-Destillat (S.1-40/68) |
 | `sia-260-2003.md` | SIA 260 Grundlagen der Projektierung von Tragwerken | 2003 | established (verifiziert 260712) |
 | `sia-261-2003.md` | SIA 261 Einwirkungen auf Tragwerke | 2003 | established (verifiziert 260712) |
 | `sia-262-2003.md` | SIA 262 Betonbau | 2003 | established (verifiziert 260712) |

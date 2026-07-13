@@ -1,4 +1,22 @@
 # CHANGELOG — KB Normen
+## 2026-07-13 — normen-training-mini Mac Mini Run (Scheduled): 5 neue/vervollständigte Destillate
+- Zwei Teil-Destillate auf vollständig gehoben: `din-1054-2010.md` (S.1-105/105, Rest
+  Verankerungen/Stützbauwerke/Erddämme/Anhang AA ergänzt) und `vstaettvo-niedersachsen-2004.md`
+  (S.1-31/31, §§ 34-49 ergänzt).
+- **3 neue vollständige Destillate:** `din-v-105-100-2005.md` (Mauerziegel-Vornorm,
+  S.1-31/31), `din-v-106-2005.md` (Kalksandstein-Vornorm, S.1-26/26), `din-4844-2-2001.md`
+  (Sicherheitszeichen-Bildkatalog, S.1-23/23).
+- **1 methodisches Destillat (keine DIN-Norm):** `baupreisindizes-statistisches-bundesamt-2010.md`
+  (Statistik-Publikation, als Methodik-Referenz eingeordnet, Werte veraltet).
+- **1 neues Teil-Destillat:** `komm-din18024-t1-bayern-2001.md` (bayerischer Kommentar zu
+  DIN 18024-1 Barrierefreies Bauen öffentlicher Raum, S.1-40/68, Rest naechster Lauf).
+- Norm-Inventar (DIN-Familie) entsprechend nachgeführt; Stations-Split eingehalten
+  (nur DIN/VSS/RAL, SIA/VKF bleiben MacBook Pro).
+- Noch offen im DIN/VSS/RAL-Inventar: `Sonstiges/Planungsgrundlagen.pdf`,
+  `DIN V 105-100`/`DIN V 106`-Nachbardateien geprüft; DIN 277-1 MMMP-München-Bildmaterial,
+  `Sonstiges/Komm Din 18024 Teil 1.pdf` Rest S.41-68, sowie die 5 grossen VSS-Scans
+  (40 291/640 065/640 281/640 291a/640 578) und zwei VSS-docx — naechster Lauf.
+
 ## 2026-07-13 — normen-training-mini Mac Mini Run 3 (Intensiv-Lauf): 9 neue DIN-Volltext-Destillate
 - Stations-Split eingehalten: NUR DIN/VSS/RAL bearbeitet (SIA/VKF bleiben MacBook Pro).
 - Workflow-Tool verweigerte erneut die Ausführung ("Review dynamic workflow before running") -
