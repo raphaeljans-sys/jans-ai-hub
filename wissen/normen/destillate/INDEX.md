@@ -44,7 +44,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | established (verifiziert 260713) |
 | `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713) |
 | `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713) |
-| `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | destilliert |
+| `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte + fehlende Regelspur wohnraumähnliche Arbeitsräume korrigiert; Teil-Destillat, Abschnitt 5 nicht im Detail) |
 | `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
@@ -52,10 +52,10 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | destilliert |
 | `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | Teil-Destillat (S.1-20+26-28/28, verifiziert 260713) |
-| `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | destilliert |
+| `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
-| `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | destilliert (Scan nur ungerade Seiten im Bestand) |
-| `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | destilliert |
+| `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch; Teil-Destillat, Scan nur ungerade Seiten im Bestand) |
+| `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | established (verifiziert 260713, Blendschutz/Wärmestrahlung-Passage ergänzt, vollständig S.1-6/6) |
 | `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | established (verifiziert 260713, Anhang D/F korrigiert, vollständig S.1-38/38) |
 | `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | established (verifiziert 260713) |
 | `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | established (verifiziert 260713) |
@@ -90,8 +90,8 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | established (verifiziert 260713) |
 | `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | destilliert |
 | `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | destilliert |
-| `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | destilliert |
-| `din-1053-3-1990.md` | DIN 1053 Teil 3 Bewehrtes Mauerwerk | 1990-02 | destilliert |
+| `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | established (verifiziert 260713, mehrere Ziffern + Tabelle 1 komplett nachgetragen, vollständig S.1-5/5) |
+| `din-1053-3-1990.md` | DIN 1053 Teil 3 Bewehrtes Mauerwerk | 1990-02 | established (verifiziert 260713, Ziffer-Zuordnung + Tabellen korrigiert, vollständig S.1-8/8) |
 | `din-en-1627-2011.md` | DIN EN 1627 Einbruchhemmung, Anforderungen/Klassifizierung | 2011-09 | Teil-Destillat (nur 4/44 S. im Bestand) |
 | `din-1072-beiblatt1-1988.md` | Beiblatt 1 zu DIN 1072 Strassen-/Wegbrücken, Lastannahmen Erläuterungen | 1988-05 | destilliert |
 | `din-1076-1999.md` | DIN 1076 Ingenieurbauwerke, Überwachung/Prüfung | 1999-11 | destilliert |
@@ -151,8 +151,8 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | destilliert |
 | `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | established (verifiziert 260713, Fehler Expositionsklasse XF korrigiert, vollständig S.1-62/62) |
 | `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | destilliert (vollständig, S.1-28/28) |
-| `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | destilliert (vollständig, S.1-32/32) |
-| `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | destilliert (vollständig, S.1-39/39) |
+| `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | established (verifiziert 260713, Tabelle 12 Mindestdruckfestigkeit korrigiert, vollständig S.1-32/32) |
+| `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | established (verifiziert 260713, Zug-/Schub-/aussergewöhnliche-Einwirkung-Verfahren ergänzt, vollständig S.1-39/39) |
 | `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | destilliert (vollständig, S.1-32/32) |
 | `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | Teil-Destillat (S.1-60+78-93/105, ca. 72%) |
 | `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | established (verifiziert 260713, vollständig, S.1-34/34) |

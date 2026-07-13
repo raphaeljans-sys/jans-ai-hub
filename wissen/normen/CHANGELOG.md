@@ -1,3 +1,21 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 10: Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe, 8/8 beanstandet-korrigiert
+- Stufe (b) Deepening-Fortsetzung: 8 DIN-Destillate adversarial gegen das Original-PDF geprüft
+  (din-5034-1, din-5034-2, din-5034-4, din-5034-6, din-1053-1, din-1053-2, din-1053-3,
+  din-1053-100) — ALLE 8 (100%) beanstandet, Korrekturen direkt im Fliesstext integriert
+  (Lehre aus Run 8/9: nicht als Anhang), Status auf `established` gehoben.
+- Wichtigste Befunde: din-5034-4 hatte einen sachlich FALSCHEN Formelfehler (k1h/k1v-Werte
+  vertauscht/falsch angewendet, hätte zu falscher Tageslichtberechnung geführt); din-5034-1
+  fehlte eine komplette Regelspur für wohnraumähnliche Arbeitsräume (Healthcare-relevant);
+  din-1053-2 hatte 7 von 8 Ziffern und 18 von 20 Tabellenwerten komplett fehlend trotz
+  Status "destilliert". din-1053-1/-3/-100 hatten kleinere Tabellen-/Fundstellenfehler.
+- Zusätzlich: 5 stale INDEX.md-Einträge korrigiert (din-276-1-2008, din-5034-3-2007,
+  din-en-12101-2-2003, din-en-12207-2000, din-1045-2-2008 — Frontmatter war bereits
+  `established` aus vorherigen Commits, INDEX.md hatte das nicht nachgezogen).
+- `destillate/INDEX.md` und `training/norm-inventar.md` für alle 8 Destillate nachgeführt.
+- Report: `outputs/2026-07-13_normen-mini-run10.md`. Nächster Lauf: Retro-Verifikation
+  VSS-Altbestand + restliche unverifizierte DIN-Einzelnormen, danach Q&A-Selbstbefragung
+  sobald Beanstandungsquote über mehrere Läufe sinkt.
+
 ## 2026-07-13 — din-276-1-2008 adversarial verifiziert: beanstandet-korrigiert, auf established gehoben
 - Destillat `destillate/din-276-1-2008.md` gegen das Original-PDF (26 S., vollständig gelesen)
   geprüft. Drei Korrekturen: (1) Geltungsbereich behauptete faelschlich «für Ingenieurbau gilt

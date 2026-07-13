@@ -470,10 +470,10 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 | 2008 | destilliert (din-1045-2-2008.md), vollstaendig S.1-62/62 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 | 2012 | destilliert (din-105-100-2012.md), vollstaendig S.1-28/28, ersetzt DIN V 105-100:2005 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 | 1984 | destilliert (din-105-5-1984.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 | 1996 | destilliert (din-1053-1-1996.md), vollstaendig S.1-32/32 |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1053-100.pdf` | 1053 | 2007 | destilliert (din-1053-100-2007.md), vollstaendig S.1-39/39 |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1053-2.pdf` | 1053 | 1996 | destilliert (din-1053-2-1996.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 | 1990 | destilliert (din-1053-3-1990.md) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 | 1996 | established (verifiziert 260713, Tabelle 12 korrigiert), din-1053-1-1996.md, vollstaendig S.1-32/32 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-100.pdf` | 1053 | 2007 | established (verifiziert 260713, Zug/Schub/aussergew. Einwirkung ergaenzt), din-1053-100-2007.md, vollstaendig S.1-39/39 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-2.pdf` | 1053 | 1996 | established (verifiziert 260713, mehrere Ziffern+Tabelle 1 nachgetragen), din-1053-2-1996.md, vollstaendig S.1-5/5 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 | 1990 | established (verifiziert 260713, Ziffer-Zuordnung+Tabellen korrigiert), din-1053-3-1990.md, vollstaendig S.1-8/8 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-4.pdf` | 1053 | 2011 | destilliert (din-1053-4-2011.md), vollstaendig S.1-32/32 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1054.pdf` | 1054 | 2010 | destilliert (din-1054-2010.md), vollstaendig S.1-105/105, Mini-Run3 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 1055-2.pdf` | 1055 | 2010 | destilliert (din-1055-2-2010.md), Bodenkenngroessen |
@@ -507,11 +507,11 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 | 1977 | destilliert (din-4102-2-1977.md) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 | 2001 | destilliert (din-4844-2-2001.md), vollstaendig S.1-23/23, Mini-Run3 |
-| [x] | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | destilliert 260712 |
-| [x] 260712 | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 | 1985 | destilliert (din-5034-2-1985.md), Reconcile 260712 Mini-Run2 |
-| [x] 260712 | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 | 2007 | destilliert (din-5034-3-2007.md), Reconcile 260712 Mini-Run2 |
-| [x] 260712 | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 | 1994 | destilliert (din-5034-4-1994.md, Scan nur ungerade Seiten), Reconcile 260712 Mini-Run2 |
-| [x] 260712 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | destilliert (din-5034-6-1995.md), Reconcile 260712 Mini-Run2 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte+fehlende Regelspur korrigiert), din-5034-1-1999.md, Teil-Destillat |
+| [x] 260713 | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 | 1985 | established (verifiziert 260713, Fundstellen korrigiert, Gl.17 ergaenzt), din-5034-2-1985.md, vollstaendig S.1-13/14 |
+| [x] 260712 | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 | 2007 | established (verifiziert 260713, DRr-Formel+g-Abhaengigkeit praezisiert), din-5034-3-2007.md |
+| [x] 260713 | P3 | `DIN-Norm/DIN 5034-4.pdf` | 5034 | 1994 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch), din-5034-4-1994.md, Teil-Destillat (Scan nur ungerade Seiten) |
+| [x] 260713 | P3 | `DIN-Norm/DIN 5034-6.pdf` | 5034 | 1995 | established (verifiziert 260713, Blendschutz/Waermestrahlung-Passage ergaenzt), din-5034-6-1995.md, vollstaendig S.1-6/6 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md) |
 | — | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  | englische Fassung, uebersprungen (Sprachvarianten-Regel) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md) |

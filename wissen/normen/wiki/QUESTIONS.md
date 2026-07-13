@@ -215,3 +215,24 @@
   1999) — nur mit ECCS-Original auflösbar. (5) BRL 100-15 Brandmauern: Gegenprüfung des
   REGISTERs auf eine allfällig spätere Ausgabe. Details:
   `outputs/2026-07-13_normen-verify-abschluss-macbook.md`.
+- [x] **Mac Mini Run 10 (13.07.2026): Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe
+  komplett, 8/8 beanstandet-korrigiert.** Alle 4 verbleibenden DIN-5034-Destillate
+  (5034-1/2/4/6) und alle 4 verbleibenden DIN-1053-Destillate (1053-1/2/3/100) adversarial
+  gegen das Original verifiziert — 8 von 8 (100%) hatten reale Fehler, teils substanziell:
+  **din-5034-4 (Tageslicht vereinfachtes Verfahren) hatte einen sachlich falschen
+  Formelfehler** (k1h/k1v für horizontale/vertikale Verbauung — Original verlangt für BEIDE
+  Richtungen √0,7, Destillat behauptete faelschlich horizontal direkt 0,7 ohne Wurzel; hätte
+  bei praktischer Anwendung zu falscher Tageslicht-Bemessung geführt). **din-5034-1 fehlte
+  eine komplette zweite Regelspur** (Ziff. 4.2.3, wohnraumähnliche Arbeitsräume/Healthcare-
+  Räume) — ohne Korrektur wäre bei Anwendung auf Spital-/Pflegeräume die falsche Fensterregel
+  herangezogen worden. **din-1053-2 hatte massive Lücken** (7 von 8 Ziffern komplett fehlend,
+  Tabelle 1 nur 2 von 20 Festigkeitsklassen) trotz Status "destilliert". Alle 8 Korrekturen
+  direkt im Fliesstext integriert (nicht als Anhang), Status auf `established` gehoben.
+  Details: `outputs/2026-07-13_normen-mini-run10.md`. **Fazit:** die Retro-Verifikations-
+  Pflicht bleibt hochgradig wertstiftend — die Beanstandungsquote ist über alle bisherigen
+  Mac-Mini-Retro-Runs (7-10) durchgehend hoch (50-100%), reine "destilliert"-Erstdurchgänge
+  ohne Verifikation sind für sicherheits-/bemessungsrelevante Aussagen NICHT ausreichend
+  vertrauenswürdig. **Nächster Lauf:** weitere Retro-Verifikation des Rests (VSS-Altbestand
+  vss-700.5/722.15/merkblatt-veloabstellplaetze, DIN-EN-Normen din-en-12207 bereits erledigt,
+  DIN 918/1164/1249/1356-Reihe, DIN 1946-7, DIN 18560-2 u.a.), danach Übergang zu Stufe (c)
+  Q&A-Selbstbefragung sobald die Beanstandungsquote über mehrere Läufe stabil sinkt.
