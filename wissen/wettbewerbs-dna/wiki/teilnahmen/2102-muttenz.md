@@ -1,8 +1,8 @@
 ---
 title: 2102 WB Muttenz — Erweiterung Sekundarschule Hinterzweien (PATIO IM PIANO NOBILE)
-status: draft
+status: established
 last_updated: 2026-07-13
-sources: [2102-muttenz_jurybericht.txt, 2102-muttenz_programm.txt, 2102-muttenz_eigene-abgabe.txt]
+sources: [2102-muttenz_jurybericht.txt, 2102-muttenz_programm.txt, 2102-muttenz_eigene-abgabe.txt, ../../outputs/2026-07-12_rang-klaerung-2102-2206.md]
 links: [[delta-zum-ersten-rang]]
 ---
 
@@ -29,9 +29,16 @@ links: [[delta-zum-ersten-rang]]
 - Resultat (belegt): **4. Rang / 3. Preis**, Preissumme CHF 13'000 (Jurybericht S. 15,
   Rangierungstabelle; nochmals S. 39). 29 eingereichte Beiträge (Jurybericht S. 9);
   engere Wahl mit 7 Beiträgen, darunter Nr. 20 (Jurybericht S. 13).
-  **Diskrepanz, offen:** Raphael Jans hat am 12.07.2026 «2. Platz» bestätigt; der
-  amtliche Jurybericht weist eindeutig 4. Rang / 3. Preis aus (2. Rang / 2. Preis ging an
-  Nr. 03 «DER GRÜNE HEINRICH», Jurybericht S. 15). Vor Status-Hebung mit Raphael klären.
+  **Hinweis Erinnerungs-Diskrepanz (geklärt):** Raphael Jans hatte am 12.07.2026
+  «2. Platz» erinnert. Die vertiefte Rang-Klärung (`outputs/2026-07-12_rang-klaerung-2102-2206.md`)
+  hat den Jurybericht mit einer vollständigen Rangliste + Zitatprüfung gegengelesen: 2. Rang /
+  2. Preis ging an Nr. 03 «DER GRÜNE HEINRICH» (Jurybericht S. 15), nicht an PATIO IM PIANO
+  NOBILE. Der Bericht unterscheidet Rang und Preis (der 3. Rang wurde als Ankauf an ein
+  anderes Projekt vergeben, wodurch sich die Preis- gegenüber der Rang-Nummerierung
+  verschiebt) — daraus lässt sich nur die Nähe «4. Rang, aber 3. Preis» erklären, kein
+  «2.». Eine Querprüfung der übrigen JANS-Wettbewerbe im Archiv fand ebenfalls keinen
+  Beleg für einen realen 2. Rang. Der Rang bleibt daher **4. Rang / 3. Preis**; die
+  Diskrepanz ist dokumentiert, nicht aufgelöst zugunsten von «2. Platz».
 - Team (Jurybericht S. 39):
   - Architektur: Jans Raphael, Zürich — Raphael Jans, Amon Streck, Lucy Strickler,
     Selina Bächli, Christina Wieser.
@@ -192,8 +199,11 @@ Verallgemeinerbare Regeln (Kandidaten für [[delta-zum-ersten-rang]] und künfti
 
 ## Offene Fragen (auch in wiki/QUESTIONS.md)
 
-- Diskrepanz Resultat: Raphael bestätigt «2. Platz» (12.07.2026), Jurybericht belegt
-  4. Rang / 3. Preis — klären, dann INDEX korrigieren.
+- Erinnerungs-Diskrepanz Resultat: Raphael bestätigte «2. Platz» (12.07.2026); die
+  Rang-Klärung (`outputs/2026-07-12_rang-klaerung-2102-2206.md`) belegt und bestätigt
+  4. Rang / 3. Preis, ohne dokumentierte Grundlage für einen 2. Rang. Raphael zur
+  Kenntnisnahme vorzulegen — Erinnerung ggf. berichtigen, KB-Rang bleibt bis dahin
+  der amtliche Beleg.
 
 ## Quellen
 

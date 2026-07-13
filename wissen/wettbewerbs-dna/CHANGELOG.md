@@ -1,5 +1,36 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-13 — Nachbrenner: Rang-Klaerung eingearbeitet, 2102/2206 auf established gehoben
+- **Anlass:** Der Volllast-Lauf vom 12.07.2026 endete am Session-Limit (Reset 22:50), bevor
+  der bereits erzeugte Report `outputs/2026-07-12_rang-klaerung-2102-2206.md`
+  (vollstaendige Rangliste + woertliche Zitate + Querpruefung des Archivs fuer beide
+  Faelle) in Dossiers/INDEX/QUESTIONS/PROGRAMM eingearbeitet war. Dieser Nachbrenner-Lauf
+  holt das nach.
+- **Bestandsaufnahme:** alle 11 Teilnahmen-Dossiers, 17 extern-Notizen (inkl. der neu
+  gezaehlten rang-Klaerung als Report, nicht extern), 9 Board-DNA-Analysen und 3
+  Muster-Artikel waren bereits vorhanden und lokal committet (`3be5dd08`); Arbeitsbaum
+  fuer `wissen/wettbewerbs-dna` sauber (keine unstaged Aenderungen beim Start dieses Laufs).
+- **2102 Muttenz + 2206 Schoental auf `established` gehoben:** Die Rang-Klaerung bestaetigt
+  in beiden Faellen den bereits dokumentierten Rang zusaetzlich unabhaengig (2206 durch die
+  amtliche Verfuegung des Schulrats Altstaetten, die Raphael Jans woertlich «zum dritten
+  Rang» gratuliert; 2102 durch die Rang-/Preis-Unterscheidung im Jurybericht) und schliesst
+  per Archiv-Querpruefung aus, dass irgendwo ein realer 2. Rang von JANS dokumentiert ist.
+  Die Erinnerungs-Diskrepanz mit Raphael («2. Platz» bei beiden) ist damit nicht aufgeloest,
+  aber die Beleglage ist eindeutig und zweifach abgesichert — Status-Hebung blockiert die
+  offene Kenntnisnahme-Frage nicht laenger. Dossiers, INDEX (Stand-Bilanz jetzt 10
+  established, 1 pruefen), QUESTIONS (beide Punkte als «GEKLAERT, Raphael zur
+  Kenntnisnahme» markiert) und training/PROGRAMM.md nachgefuehrt.
+- **Board-DNA-Luecke 2104/2503 als «nicht anwendbar» dokumentiert:** beide Dossiers wurden
+  gegengeprueft — 2104 (Theater Luzern) liegt nur als 1.-Stufe-Abgabe ohne fertiges
+  Abgabeboard vor, 2503 (Glockenacker) nur als drei ArchiCAD-Transferdateien ohne
+  jedes Planblatt. Kein fehlender Arbeitsschritt, sondern fehlende Quellenlage; im
+  INDEX vermerkt statt stillschweigend offen gelassen.
+- **Skill-Massnahmen-Report** (`outputs/2026-07-12_massnahmen-skill-wettbewerb.md`, P1–P6)
+  war bereits vollstaendig vorhanden; keine Aenderung, Skill `wettbewerb` bleibt gemaess
+  Entscheid Raphael unveraendert.
+- **Reports-Register in INDEX ergaenzt** um den Rang-Klaerungs-Report (war zuvor nicht
+  gelistet).
+
 ## 2026-07-12 — Volllast-Abschluss (Session MacBook Pro, spaetabends)
 - **Archiv komplett:** die letzten zwei Teilnahmen destilliert + refuter-verifiziert →
   established: 2501 Steinfabrik «SEESTERN» (nicht rangiert, Sieger «ALINGHI»),

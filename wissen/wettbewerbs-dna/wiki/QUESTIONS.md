@@ -1,9 +1,7 @@
 # QUESTIONS — KB wettbewerbs-dna
 
-Stand: 12.07.2026
+Stand: 13.07.2026
 
-- Resultate der uebrigen Teilnahmen (2101, 2103, 2104, 2205, 2207, 2501, 2503, 2507):
-  Rang/Anerkennung je Teilnahme bei Raphael bestaetigen oder aus Juryberichten belegen.
 - 2502: Ordner ist leer — Teilnahme zurueckgezogen oder nur reserviert?
 - SIA 142/143 (Ordnungen Wettbewerbe/Studienauftraege): liegen nicht im Archiv —
   ueber Normenbibliothek `PL - 02_Recht_Norm/02_Normen` beschaffen und destillieren.
@@ -11,10 +9,14 @@ Stand: 12.07.2026
 - Druckvorstufen-Standard JANS (PDF/X-Variante, Beschnitt, Druckerei) dokumentieren.
 - Welche Bauaufgaben sind fuer kuenftige Teilnahmen prioritaer? (steuert die
   konkurado-Erweiterung in Etappe 3)
-- 2206 Schoental — Resultat-Diskrepanz: Raphael bestätigt «2. Platz» (12.07.2026),
-  der Schlussbericht (S. 11, Titelblatt mit Vermerk «Entwurf») belegt 3. Rang / 3. Preis
-  für Nr. 25 «ARCHE» (2. Rang an «KIM»). Mit Raphael klären; existiert eine definitive
-  Fassung des Schlussberichts?
+- 2206 Schoental — Erinnerungs-Diskrepanz Resultat (GEKLÄRT, 13.07.2026, Raphael zur
+  Kenntnisnahme vorzulegen): Raphael bestätigte «2. Platz» (12.07.2026); die Rang-Klärung
+  (`outputs/2026-07-12_rang-klaerung-2102-2206.md`) belegt 3. Rang / 3. Preis für Nr. 25
+  «ARCHE» zusätzlich unabhängig vom Schlussbericht über die amtliche Verfügung des
+  Schulrats Altstätten («…gratulieren Ihnen zum dritten Rang»). Zur «Entwurf»-Frage: im
+  Archiv existiert nur eine (byte-identisch zweifach abgelegte) Schlussbericht-Fassung;
+  keine anders lautende Definitiv-Version auffindbar; der Bericht selbst vermerkt die
+  grundsätzliche Genehmigung durch das Preisgericht. Rang bleibt 3. Rang / 3. Preis.
 - 2206 Schoental — B12-Widerspruch GF total (Kopfblock 1'792 m2 vs. Geschosssumme
   1'545 m2, keine EG-Zeile); Rolle «Amon»/«Suler» im Team; leerer Ordner
   «Kennwort MAL A GUZZI» klären.
@@ -23,10 +25,14 @@ Stand: 12.07.2026
 - 2408 BIWAK — Dossier-Zitate sind in ASCII-Umlauten transkribiert (Extrakt-Artefakt);
   bei nächster Überarbeitung sorgfältig auf echte Umlaute normalisieren (nie blind
   ersetzen, Rule umlaute-konvention).
-- 2102 Muttenz — Resultat-Diskrepanz: Raphael bestätigt «2. Platz» (12.07.2026),
-  der Jurybericht (S. 15, 39) belegt aber 4. Rang / 3. Preis für Nr. 20
-  «PATIO IM PIANO NOBILE» (2. Rang ging an Nr. 03 «DER GRÜNE HEINRICH»).
-  Mit Raphael klären; INDEX-Eintrag danach korrigieren.
+- 2102 Muttenz — Erinnerungs-Diskrepanz Resultat (GEKLÄRT, 13.07.2026, Raphael zur
+  Kenntnisnahme vorzulegen): Raphael bestätigte «2. Platz» (12.07.2026); die Rang-Klärung
+  (`outputs/2026-07-12_rang-klaerung-2102-2206.md`) belegt 4. Rang / 3. Preis für Nr. 20
+  «PATIO IM PIANO NOBILE» (2. Rang / 2. Preis ging an Nr. 03 «DER GRÜNE HEINRICH»,
+  Jurybericht S. 15, 39). Der Bericht unterscheidet Rang und Preis (3. Rang als Ankauf
+  an ein anderes Projekt vergeben), woraus sich «4. Rang, aber 3. Preis» erklärt — kein
+  «2.». Eine Querprüfung des gesamten Archivs findet keinen realen 2. Rang von JANS.
+  Rang bleibt 4. Rang / 3. Preis.
 - 2102 Muttenz — absolute Kennzahlen (GF/GV/Kosten) des eigenen Beitrags fehlen:
   Formular Bauökonomie liegt im lokalen OneDrive-Sync nicht vor (Abgabe-Unterordner
   01 Pläne / 03 Bericht / 04 Beschriftung sind leere Platzhalter); im

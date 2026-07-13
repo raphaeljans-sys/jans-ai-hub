@@ -72,10 +72,21 @@ ist im Entscheid **ausdruecklich** zu nennen und zu begruenden (§ 320 PBG).
 - **Bestehend** (nicht abgebrochen/neu) und **nicht abbruchreif** (abbruchreif = nicht mehr
   bestimmungsgemaess nutzbar, keine wesentliche Restinvestition). Ein **Anbau** ist nur erfasst,
   wenn er mit dem Altbau **baulich eine Einheit** bildet.
+- **Nicht fuer zonengemaesse Nutzung geeignet:** Das Privileg gilt nach dem **Wortlaut** von
+  § 357 Abs. 1 nur, «**sofern sie sich fuer eine zonengemaesse Nutzung nicht eignen**» — eine
+  eigenstaendige, oft uebersehene Tatbestandsvoraussetzung. Massgebend sind Bausubstanz/innere
+  Struktur, Lage/Umgebung sowie der bauliche Aufwand fuer eine zonenkonforme Herrichtung im
+  Verhaeltnis zur geplanten Massnahme (verifiziert am amtlichen Volltext, § 357 Abs. 1 PBG).
 
 **Was erlaubt ist:** Umbau, Erweiterung und Nutzungsaenderung — die «**erweiterte
 Bestandesgarantie**». Der Gesetzgeber wollte ausdruecklich **weitergehende Umbauten als frueher**
 ermoeglichen (Stichwort **Nachverdichtung / haushaelterische Bodennutzung**).
+
+**Verbesserungen verlangbar (§ 357 Abs. 4 PBG):** Mit der Bewilligung nach Abs. 1 kann die
+Baubehoerde verlangen, dass gegenueber dem bestehenden Zustand **Verbesserungen** vorgenommen
+werden, die **im oeffentlichen Interesse** liegen und **nach den Umstaenden zumutbar** sind
+(Gedanke: der Umbau verlaengert die Lebensdauer, daher ein gewisses Entgegenkommen bei der
+Anpassung; Grenze = Zumutbarkeit als Teil der Verhaeltnismaessigkeit).
 
 ### Die Grenze: keine feste Quote, sondern «neubauaehnliche Umgestaltung»
 
