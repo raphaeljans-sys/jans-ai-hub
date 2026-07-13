@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 38 (2026-03-30 bis 2026-04-03)
+- Naechster sequentieller Mail-Sweep (Sent Items rj@, aeltest-zuerst), Zugriff via Apple Mail
+  (Bundle-ID `com.apple.mail`, "Gesendete Elemente"; M365-MCP wie in Batch 36/37 nicht verfuegbar,
+  "npm package not found"). Fenster 2026-03-30 bis 2026-04-03, 10 Volltexte gelesen (KISPI-
+  Brandschutz-Feinabstimmung, Projekt Thalwil 2414, Esther-Haecki-Thread), 3 Mails inhaltsleer
+  (nur Anhang, uebersprungen). Rohdatei `raw/260713-mailbatch-38.md`.
+- Neue Marker: (1) `stimme.md` — Saison-Wunschzeile «Schoene Ostern.» auch in gemischter Sie/Du-
+  Gruppenmail, ehrliche Prozess-Selbstkritik mit Ellipsen im engen Peer-Du («Lieber Peter»),
+  Zwei-Wort-Bestaetigung ohne Gruss («Super Perfekt.»), vereinzeltes Semikolon nach Anrede. (2)
+  `arbeitsweise.md` — @-Mention-Adressierung im Mail-Body bei impliziten Mehrfach-Empfaengern
+  («@Spahic Albin», «@Jonas Simmen», «@ Alle»), neuer eigenstaendiger Marker. (3) `fachsignatur.md`
+  — Kontinuitaets-Argument bestaetigt mit neuem Fachbegriff «Formensprache» (Brandschutz-Abtrennung
+  KISPI, architektonische Analogie zum Bestand).
+- Keine Echo-Falle in diesem Fenster. `raw/_INGESTED.md` nachgefuehrt: Sweep deckt nun ab bis
+  **2026-04-03** einschliesslich; naechster Lauf ab 2026-04-03.
+
 ## 2026-07-13 — twin-fidelity-review Drittlauf (Fidelity 95/100, Lieferanten-Sie + Healthcare-Kennwert-Kontrastpaar)
 - Dritter Fidelity-Lauf des Tages (nach Morgenlauf `2026-07-13_fidelity.md` Fidelity 93 und
   Zweitlauf `2026-07-13b_fidelity.md` Fidelity 94, VOLLGAS-Intensivphase Regel 260712c). Neue,

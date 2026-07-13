@@ -521,7 +521,7 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN V 106.pdf` | 106 | 2005 | destilliert (din-v-106-2005.md), vollstaendig S.1-26/26, Mini-Run3 |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz |
 | [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume |
-| [~] 260713 Teil-Destillat | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | vstaettvo-niedersachsen-2004.md, S.1-20/31 gelesen, Rest naechster Lauf |
+| [x] 260713 | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | destilliert vollstaendig (vstaettvo-niedersachsen-2004.md, S.1-31/31) |
 | [x] 260713 | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  | destilliert (din-abkuerzungsverzeichnis-2010.md), reines Glossar |
 | [x] 260713 | P3 | `Sonstiges/Allgemeine_Grundlagen.pdf` |  |  | destilliert (baurecht-din-normenwerk-grundlagen-2010.md), VOB/DIN-Normenarbeit/EU-Harmonisierung |
 | [x] 260713 | P3 | `Sonstiges/ArbStättV.pdf` |  |  | destilliert (arbstaettv-2004.md) |
@@ -529,14 +529,14 @@
 | [x] 260713 | P3 | `Sonstiges/Baupreisindizes.pdf` |  | 2010 | destilliert (baupreisindizes-statistisches-bundesamt-2010.md), vollstaendig S.1-23/23, Mini-Run3; Statistik-Publikation nicht DIN-Norm |
 | [x] 260713 | P3 | `Sonstiges/DVNBauO_18.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt mit DVNBauO_29+NBauO Par45/Par48) |
 | [x] 260713 | P3 | `Sonstiges/DVNBauO_29.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
-| [ ] | P3 | `Sonstiges/Inhaltsverzeichnis.pdf` |  |  |  |
-| [~] 260713 Teil-Destillat | P3 | `Sonstiges/Komm Din 18024 Teil 1.pdf` | 1802 | 2001 | komm-din18024-t1-bayern-2001.md, S.1-40/68 gelesen, Rest naechster Lauf |
+| [x] 260713 | P3 | `Sonstiges/Inhaltsverzeichnis.pdf` |  |  | destilliert (din-inhaltsverzeichnis-normensammlung-2012.md), Register ~450 Normen Stand 2012-04 |
+| [x] 260713 | P3 | `Sonstiges/Komm Din 18024 Teil 1.pdf` | 1802 | 2001 | destilliert vollstaendig (komm-din18024-t1-bayern-2001.md, S.1-68/68) |
 | [x] 260713 | P3 | `Sonstiges/NBauO_§_45.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
 | [x] 260713 | P3 | `Sonstiges/NBauO_§_48.pdf` |  |  | destilliert (nbauo-barrierefreiheit-2004.md, gebuendelt) |
 | [x] 260713 | P3 | `Sonstiges/Planen_und_Bauen_im_Bestand.pdf` |  |  | destilliert (hoai-bauen-im-bestand-2011.md), HOAI-2009-Leistungsbild Bauen im Bestand |
-| [ ] | P3 | `Sonstiges/Planungsgrundlagen.pdf` |  |  |  |
+| [x] 260713 | P3 | `Sonstiges/Planungsgrundlagen.pdf` |  |  | destilliert (din-planungsgrundlagen-hoai-vorschriften-2004.md), HOAI-Leistungsphasen/MBO, kein CH-Bezug |
 | [x] 260713 | P3 | `Sonstiges/Skript_Treppen.pdf` |  |  | destilliert (treppen-hcu-hamburg-2008.md), HCU-Lehrskript + Neufert-Planungsgrundlagen |
-| [ ] | P3 | `Sonstiges/VdS-Richtlinie 2234.pdf` |  |  | gross/scanlastig (10.9 MB), naechster Lauf |
+| [x] 260713 | P3 | `Sonstiges/VdS-Richtlinie 2234.pdf` |  |  | destilliert vollstaendig (vds-2234-1999-brand-komplextrennwaende.md), D-Versicherungsmerkblatt, kein CH-Normwerk |
 
 ## VSS (14 Dateien)
 
@@ -545,14 +545,14 @@
 | [x] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 | 1987 | destilliert 260712 |
 | [x] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 | 1983 | destilliert 260712 |
 | [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712 |
-| [ ] | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | gross/scanlastig, naechster Lauf |
+| [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md) |
 | [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712 |
 | [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | gross/scanlastig (9.2 MB), naechster Lauf |
+| [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung |
 | [x] 260712 | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 | 1996 | destilliert (vss-640066-1996.md), Reconcile 260712 Mini-Run2 |
-| [ ] | P3 | `VSS 640 281 Parkfelder.pdf` | 640 |  | gross/scanlastig (7.9 MB), naechster Lauf |
-| [ ] | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 |  | gross/scanlastig (20 MB), naechster Lauf |
-| [ ] | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 |  | gross/scanlastig (15 MB), naechster Lauf |
+| [x] 260713 | P3 | `VSS 640 281 Parkfelder.pdf` | 640 | 2006 | destilliert (vss-640281-2006.md) |
+| [x] 260713 | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 | 2005 | destilliert (vss-640291a-2005-parkieren-anordnung-geometrie.md), historisch/ersetzt durch 40 291:2021; enthaelt ab S.25 SN 640 105a (nicht destilliert, in QUESTIONS vermerkt) |
+| [x] 260713 | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 | 2006 | destilliert (vss-640578-2006.md), Laermimmissionen Parkierungsanlagen |
 | — | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  | keine Norm, kurze Notiz/Übersicht (nennt SN 640 291:2020, SIA 500:2009, SN 640 075:2014, ZH-PPV) — übersprungen |
 | — | P3 | `buk/https.docx` |  |  | keine Norm, enthält nur URL zu buk.arch.ethz.ch/Dokumentation/Parkieren — übersprungen |
 | — | — | `xalt/VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | ersetzt/alt (xalt) |

@@ -146,3 +146,12 @@
   erlaubt/copy gesperrt - noch nicht getestet), Sonstiges/Komm Din 18024 Teil 1, Sonstiges/
   VdS-Richtlinie 2234 (DRM-verdaechtig, print+copy erlaubt), Rest DIN 1054 (S.61-77+94-105),
   alle 5 offenen VSS-Grossdateien (40 291, 640 065, 640 281, 640 291a, 640 578).
+
+- [ ] **SN 640 105a (Verbreiterung der Fahrbahn in Kurven, Dez. 2000)** liegt als Anhang ab
+  S.25 in `VSS 640 291a Parkieren Geometrie.PDF`, wurde aber nicht destilliert (ausserhalb
+  Auftragsumfang Mac-Mini-Run4, 13.07.2026). Eigenstaendiges Destillat fuer naechsten Lauf.
+- [x] **Mac Mini Run 4 (13.07.2026): DIN/VSS/RAL-Inventar vollstaendig abgearbeitet.** Alle
+  zuvor offenen DIN-Sonstiges-Dateien (Inhaltsverzeichnis, Planungsgrundlagen, VdS 2234,
+  Komm DIN 18024 Rest) sowie alle 5 grossen VSS-Scans (40 291, 640 065, 640 281, 640 291a,
+  640 578) destilliert; verbleibende 5 Dateien als Nicht-Normen begruendet uebersprungen.
+  RAL war bereits komplett. **Naechster Lauf: Endbedingung pruefen und ggf. Task beenden.**

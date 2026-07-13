@@ -1,3 +1,29 @@
+## 2026-07-13 — normen-training-mini Mac Mini Run 4: DIN/VSS-Sonstiges-Rest + alle 5 grossen VSS-Scans komplett
+- Stations-Split eingehalten: NUR DIN/VSS/RAL bearbeitet (SIA/VKF bleiben MacBook Pro). RAL-Familie
+  war bereits vollstaendig (1/1).
+- **2 Teil-Destillate auf vollstaendig gehoben:** `vstaettvo-niedersachsen-2004.md` (S.1-31/31,
+  §§31-33/36-37 ergaenzt), `komm-din18024-t1-bayern-2001.md` (S.1-68/68, Abschnitte 12-19+Anhang
+  ergaenzt).
+- **8 neue vollstaendige Destillate:** `din-inhaltsverzeichnis-normensammlung-2012.md` (Register
+  ~450 Normen, Buero-Bestand Stand 2012), `vds-2234-1999-brand-komplextrennwaende.md` (D-VdS-
+  Versicherungsmerkblatt, kein CH-Normwerk), `din-planungsgrundlagen-hoai-vorschriften-2004.md`
+  (HOAI-Leistungsphasen/MBO-Fachbuch, kein CH-Bezug), `vss-40291-2021-parkieren-anordnung-
+  geometrie.md` (aktuell gueltige VSS-Norm, S.1-32/32), `vss-640291a-2005-parkieren-anordnung-
+  geometrie.md` (historische Vorgaengerausgabe, ersetzt durch 40 291:2021; enthaelt S.25ff
+  angehaengte SN 640 105a, nicht destilliert), `vss-640065-2011.md` (Veloparkierung
+  Bedarfsermittlung), `vss-640281-2006.md` (Parkfelder Personenwagen), `vss-640578-2006.md`
+  (Laermimmissionen Parkierungsanlagen).
+- **5 Skip-Eintraege im Inventar dokumentiert (keine Normen):** `0 Anleitung.docx` (Admin-
+  Anleitung Buero Meili Peter), `DIN 277-1_Bildteil_MMMP München.pdf` + `DIN 277-1_MMMP
+  München.pdf` (Foto-Scan-Duplikate von bereits destilliertem din-277-1-2005.md),
+  `_In der Schweiz sind bei der Planung von Tiefgaragen...docx` + `buk/https.docx` (Notiz-/
+  Linkdateien).
+- **DIN/VSS/RAL-Inventar damit vollstaendig abgearbeitet** (alle offenen Positionen destilliert
+  oder begruendet uebersprungen) — naechster Lauf sollte Endbedingung "DIN/VSS/RAL KOMPLETT"
+  pruefen und ggf. Task-Beendigung vorschlagen.
+- KB-Luecke notiert (`wiki/QUESTIONS.md`): SN 640 105a (Verbreiterung Fahrbahn in Kurven,
+  Dez. 2000, in VSS-640-291a-PDF ab S.25 angehaengt) referenziert aber nicht destilliert.
+
 # CHANGELOG — KB Normen
 ## 2026-07-13 — normen-training-mini Mac Mini Run (Scheduled): 5 neue/vervollständigte Destillate
 - Zwei Teil-Destillate auf vollständig gehoben: `din-1054-2010.md` (S.1-105/105, Rest
