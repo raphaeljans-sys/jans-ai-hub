@@ -2,6 +2,31 @@
 
 Neueste zuoberst.
 
+## 2026-07-13 — Run 40: Wärmebrücken Gruppe 6 Stützen/Fassadenanker + Gruppe 2 Geschossdecke/Kellerdecke (F58-F59) — Curriculum A4 wirklich vollständig
+- **2 neue Destillate → 87 total:**
+  - `waermebrueckenkatalog-bfe-stuetzen-fassadenanker` (emerging) — Gruppe 6.1 Stützen vollständig
+    (S. 113-116) + Gruppe 6.2 Fassadenanker Ausschnitt (S. 117-118). Andere Systematik als lineare
+    Ψ-Werte: Stützen als punktförmige Wärmebrücke mit **X-Wert in W/K** (Grenzwert 0,30 W/K je
+    Durchstossung) — Stahlstütze 0,20-0,37 W/K teils über Grenzwert, Stahlbeton-Stütze nur
+    0,05-0,12 W/K; Fassadenanker als **ΔU-Wert-Zuschlag**: Holzlattung nur +0,02-0,03 W/(m²·K),
+    Alu mit thermischer Trennung je nach Ankerraster +0,02-0,19 W/(m²·K).
+  - `waermebrueckenkatalog-bfe-geschossdecke-kellerdecke` (emerging) — Gruppe 2 vollständig
+    (S. 39-44). Grenzwert 0,20 W/(m·K); durchbetoniertes Innenwand-Auflager auf Geschossdecke
+    Ψ 0,63-0,89 — **höchster Einzelwert eines Standarddetails im ganzen Katalog** — vs.
+    Stahlkorb-Anschluss 0,07-0,15; Wandanschluss Kellerdecke 0,23-0,26/−0,02-0,14;
+    Innenwandanschluss Aussenwand 0,11-0,24.
+- **BAUHERREN-FAQ 57→59 Kernfragen:** F58 (Fassadenanker + durchstossende Stütze), F59
+  (Innenwand-Auflager auf Geschossdecke).
+- **Curriculum-Punkt A4 (Wärmebrückenkatalog) von `[~]` auf `[x]` gehoben** — alle sechs
+  Hauptgruppen (1 Balkonplatte/Flachdach, 2 Geschossdecke/Kellerdecke, 3 Sockel/Steildach/
+  Auskragung, 4 Fensterrahmen/Rollladenkasten, 5 Fensterleibung/-brüstung/-sturz, 6 Stützen/
+  Fassadenanker) mindestens einmal zahlenbasiert belegt. **Selbstkorrektur in diesem Lauf:**
+  Gruppe 2 war in Run 36-39 übersehen worden, obwohl nie als offen vermerkt — erst der Abgleich
+  gegen das Katalog-eigene Inhaltsverzeichnis (S. 5) deckte die Lücke auf, bevor die
+  «vollständig»-Meldung fälschlich ohne Gruppe 2 gestanden hätte. Restarbeit nur noch bei Bedarf:
+  einzelne Ausführungsvarianten innerhalb der Gruppen (z.B. Gruppe 6.2 Spezialanker
+  ATK/Clickpress/Halfen).
+
 ## 2026-07-13 — Run 39: Wärmebrücken Flachdach ohne Vordach, Steildach, Auskragung, Rollladenkasten, Fensterleibung/-brüstung/-sturz (F53–F57) — nur noch Gruppe 6 offen
 - **5 neue Destillate → 85 total:**
   - `waermebrueckenkatalog-bfe-flachdach-ohne-vordach` (emerging) — Gruppe 3.1 (S. 49-53). Ohne

@@ -14,7 +14,7 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   → `[[sia-380-1-beispiel-monatsbilanz]]`, `[[sia-380-1-standardnutzungswerte-tab24-25]]`. **vollstaendig.**
 - [x] A3 Waermedaemmstoffe waehlen — λ/ρ/μ/BKZ je Materialklasse + Naturdaemmstoffe/VIP/WDVS belegt
   (2026-06-07 + 2026-06-09) via SIA 2001 vollst. → `[[daemmstoffe-lambda]]`. **vollstaendig** (Bemessungswerte-Zuschlag SIA 279 offen).
-- [~] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt via EN-102 + EN-2 (Versionsabgleich
+- [x] A4 Waermebruecken — Grenzwerte Ψ/χ (Typ 1/2/3/5/6) belegt via EN-102 + EN-2 (Versionsabgleich
   2013↔2018 dokumentiert) → `[[u-werte-grenzwerte-ch]]`; **BFE-Waermebrueckenkatalog Gruppe 1.1
   Balkonplatte belegt 2026-07-12** (Primaerdokument via Read/PDF-Bildextraktion gelesen: durchbetoniert
   Ψ 0,6-1,05 vs. Grenzwert 0,30; Stahlkorb 0,20-0,26; Dorne 0,06-0,14) → `[[waermebrueckenkatalog-bfe-balkonplatte]]`
@@ -34,8 +34,18 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Grenzwert 0,10, ungedaemmte Fensterbank +0,20 groesster Einzelfehler) →
   `[[waermebrueckenkatalog-bfe-flachdach-ohne-vordach]]`, `[[waermebrueckenkatalog-bfe-steildach-traufe-ort]]`,
   `[[waermebrueckenkatalog-bfe-auskragung]]`, `[[waermebrueckenkatalog-bfe-rollladenkasten]]`,
-  `[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]` (FAQ F53-F57). Offen: nur noch
-  Gruppe 6 (Stuetzen/Fassadenanker, Seiten 6.1→114, 6.2→117 laut Run-38-Report).
+  `[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]` (FAQ F53-F57). **Gruppe 6
+  (Stuetzen/Fassadenanker) belegt 2026-07-13** (durchstossende Stahlstuetze X 0,20-0,37 W/K teils
+  ueber Grenzwert 0,30 W/K, Stahlbeton-Stuetze nur 0,05-0,12 W/K; Fassadenanker als ΔU-Zuschlag:
+  Holzlattung +0,02-0,03 W/(m²·K), Alu mit thermischer Trennung je nach Ankerraster +0,02-0,19
+  W/(m²·K)) → `[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]` (FAQ F58). **Gruppe 2
+  (Geschossdecke/Kellerdecke/Innenwandanschluss, vollstaendig) ebenfalls belegt 2026-07-13**
+  (Innenwand-Auflager auf Geschossdecke durchbetoniert Ψ 0,63-0,89 — hoechster Einzelwert des
+  ganzen Katalogs — vs. Stahlkorb 0,07-0,15; Wandanschluss Kellerdecke 0,23-0,26 bzw. −0,02-0,14;
+  Innenwandanschluss Aussenwand 0,11-0,24) → `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`
+  (FAQ F59). **Damit A4 wirklich vollstaendig — alle sechs Hauptgruppen des BFE-Waermebrueckenkatalogs
+  mindestens einmal zahlenbasiert belegt** (einzelne Ausfuehrungsvarianten innerhalb der Gruppen
+  bleiben offen, z.B. Gruppe 6.2 ATK/Clickpress/Halfen-Spezialanker S. 119-126).
 - [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
   Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /

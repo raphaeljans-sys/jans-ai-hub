@@ -87,6 +87,24 @@ knapp unter Grenzwert bei **aussenbuendigem** Fenstereinbau, darueber bei Innena
 Stahlbetonsturz statt Backstein kostet bis +0,08
 → `[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]]`.
 
+**Stuetzen/Fassadenanker (Gruppe 6, andere Systematik — punktbezogener X-Wert in W/K statt
+Ψ in W/(m·K)):** durchstossende Stahlstuetze 0,20-0,37 W/K (teils ueber Grenzwert 0,30 je
+Durchstossung), dieselbe Stuetze in Stahlbeton nur 0,05-0,12 W/K; Fassadenanker hinterluefteter
+Fassaden als **ΔU-Wert-Zuschlag** auf die Wand gerechnet: Holzlattung nur +0,02-0,03 W/(m²·K),
+Alu-Unterkonstruktion mit thermischer Trennung je nach Ankerraster +0,02-0,19 W/(m²·K)
+→ `[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]`.
+
+**Geschossdecke/Kellerdecke/Innenwandanschluss (Gruppe 2, Grenzwert 0,20, kleinste Detailgruppe,
+vollstaendig):** Innenwand-Auflager auf Geschossdecke durchbetoniert Ψ 0,63-0,89 — der **hoechste
+Einzelwert eines Standarddetails im ganzen Katalog** —, Stahlkorb-Anschluss senkt auf 0,07-0,15;
+Wandanschluss an Kellerdecke 0,23-0,26 (Wand durchgehend) bzw. −0,02-0,14 (Wand endet an
+Kellerdecke); Innenwandanschluss an Aussenwand 0,11-0,24 (Backstein unkritisch, Stahlbeton bei
+gut gedaemmter Aussenwand ueber Grenzwert) → `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`.
+
+**Damit ist Curriculum-Punkt A4 (Waermebrueckenkatalog) mit allen sechs Hauptgruppen mindestens
+einmal zahlenbasiert belegt** (Gruppe 2 war in den bisherigen Laeufen unbeachtet geblieben, obwohl
+die anderen fuenf Gruppen bereits als abschliessend gemeldet waren — hiermit korrigiert).
+
 ## Heizwaermebedarf Q_H
 Formel und Bilanz: `[[sia-380-1-heizwaermebedarf-berechnung]]`
 (Q_h = Q_T + Q_V − η_g·(Q_i + Q_s)). Grenzwert je Kategorie: Q_H,li = Q_H,li0 + ΔQ_H,li·(A_th/A_E),
