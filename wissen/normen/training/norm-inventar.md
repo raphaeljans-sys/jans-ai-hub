@@ -40,19 +40,19 @@
 | [x] 260713 | P2 | `180.082_2017.pdf` | 180 | 2017 | Teil-Destillat, verifiziert 260713; sia-180-082-2017.md |
 | [x] 260713 | P2 | `180_2014.pdf` | 180 | 2014 | Teil-Destillat (Kernkapitel, Anhaenge A-H offen), verifiziert 260713; sia-180-2014.md |
 | [x] 260713 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (normativer Kern + Teile Anhang), verifiziert 260713; sia-181-2006.md |
-| [ ] | P2 | `184_1972_d.pdf` | 184 | 1972 |  |
-| [ ] | P2 | `193.111_1999_d.pdf` | 193 | 1999 |  |
+| [x] 260713 | P2 | `184_1972_d.pdf` | 184 | 1972 | destilliert (sia-184-1972.md), Baureinigungs-Arbeiten |
+| [ ] | P2 | `193.111_1999_d.pdf` | 193 | 1999 | naechster Lauf (Gross-Norm, 89 S.) |
 | [ ] | P2 | `195_1999_d.pdf` | 195 | 1999 |  |
-| [ ] | P2 | `196_1998_d.pdf` | 196 | 1998 |  |
-| [ ] | P2 | `197_2004_d.pdf` | 197 | 2004 |  |
-| [ ] | P2 | `198_2004_d.pdf` | 198 | 2004 |  |
-| [ ] | P2 | `199_1998_d.pdf` | 199 | 1998 |  |
+| [ ] | P2 | `196_1998_d.pdf` | 196 | 1998 | naechster Lauf (63 S.) |
+| [ ] | P2 | `197_2004_d.pdf` | 197 | 2004 | naechster Lauf (56 S.) |
+| [ ] | P2 | `198_2004_d.pdf` | 198 | 2004 | naechster Lauf (62 S.) |
+| [x] 260713 | P2 | `199_1998_d.pdf` | 199 | 1998 | destilliert (sia-199-1998.md) |
 | [ ] | P2 | `2014_2017.pdf` | 2014 | 2014 |  |
-| [ ] | P2 | `2020_2017.pdf` | 2020 | 2020 |  |
-| [ ] | P2 | `203_1997_d.pdf` | 203 | 1997 |  |
+| [x] 260713 | P2 | `2020_2017.pdf` | 2020 | 2020 | destilliert (sia-2020-2017.md), Sicherheitsleistungen Unternehmer Werkvertrag (Merkblatt zu SIA 118) |
+| [ ] | P2 | `203_1997_d.pdf` | 203 | 1997 | naechster Lauf (48 S.) |
 | [ ] | P2 | `2040_2017.pdf` | 2040 | 2017 |  |
 | [ ] | P2 | `2051_2018.pdf` | 2051 | 2018 |  |
-| [ ] | P2 | `226_1976_d.pdf` | 226 | 1976 |  |
+| [x] 260713 | P2 | `226_1976_d.pdf` | 226 | 1976 | destilliert (sia-226-1976.md), Naturstein-Mauerwerk |
 | [x] 260712 | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
 | [x] 260712 | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
 | [ ] | P2 | `241_1988_d.pdf` | 241 | 1988 |  |
