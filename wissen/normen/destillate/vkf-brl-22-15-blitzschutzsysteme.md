@@ -67,3 +67,4 @@ Anmerkung im Anhang (S. 8): Je nach Art des Gebäudes, der Zone oder der Nutzung
 ## Offene Punkte
 - Detailanforderungen an Planung/Ausführung/Instandhaltung (VKF-anerkannter Stand der Technik, Ziff. 3.3 Abs. 1) und die konkreten Ausführungsvorgaben je Blitzschutzklasse I-III sind NICHT in dieser Richtlinie enthalten, sondern in den SEV-Leitsätzen 4022 sowie SN EN 62305-1 bis -4 — diese sind eigenständig zu beschaffen/destillieren, falls im Hub noch nicht vorhanden (aktuell nicht im Inventar SharePoint-Ordner VKF_Norm ersichtlich).
 - Kein Bezug zur Brandschutzrichtlinie «Gefährliche Stoffe» geprüft (im Text als Querverweis zu Abs. e/f genannt) — separates Destillat vorhanden/zu prüfen.
+- verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro — komplette Gegenprüfung aller 8 Seiten (Ziff. 1-7 + Anhang-Tabelle a-j) gegen das Original-PDF, keine Abweichung gefunden, Destillat bestätigt korrekt und vollständig.

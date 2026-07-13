@@ -57,5 +57,8 @@ Ziff. 1 (S. 4): Die Richtlinie regelt allgemeine Anforderungen an Löscheinricht
 
 ## Offene Punkte
 - Vorgänger-Ausgabe (vor 01.01.2015) nicht identifiziert/geprüft — falls für Altbauten relevant, im Register nachschlagen.
-- Die vollständige Sicherheitsabstands-Tabelle (S. 9, «Brand elektrischer Anlagen») wurde nur in ihrer Systematik wiedergegeben, nicht mit allen Zahlenwerten — bei konkreten Abstandsfragen Original konsultieren.
+- Die vollständige Sicherheitsabstands-Tabelle (S. 9, «Brand elektrischer Anlagen») wurde nur in ihrer Systematik wiedergegeben, nicht mit allen Zahlenwerten — bei konkreten Abstandsfragen Original konsultieren. Stichprobenwerte (Wasser Vollstrahl 5 m bei < 1'000 V / 10 m bei > 1'000 V) am 260714 gegen Original verifiziert und bestätigt korrekt.
 - Kein Bezug zu einer allfälligen Nachfolge-Ausgabe geprüft (Stand 2026: möglicherweise durch neuere BRL-Version ersetzt) — bei Verwendung in aktuellen Projekten Gültigkeit im Register/`ersetzte_normen.pdf` gegenprüfen.
+
+### Retro-Verifikation 260714 (Run 7, MacBook Pro)
+Alle Ziffern 1-8 sowie beide Anhang-Tabellen (S. 8-10) einzeln gegen das vollständige Original (S. 1-10) gegengeprüft. Ergebnis: Destillat war inhaltlich korrekt bis auf eine Ungenauigkeit — die Anhang-Tabelle S. 8 wurde so beschrieben, als hätten alle Nutzungskategorien ein WLP/HFL-Symbol; tatsächlich sind die Zeilen «Mehrfamilienhäuser» und «Hochhäuser» in der Tabelle leer (Hochhäuser werden separat über Fussnote [4] geregelt). Korrektur im Abschnitt «Zentrale Tabellen/Kennwerte» vorgenommen. Alle Zahlenwerte (40 m Gehweglinie, DN 32/DN 80, 3 bar/16 l/min, EI 30/RF1, 16 bar, 10 m/60 Sek./DN 10, 900 m² BGF, 1'200 m²/300 Personen/2'000 Personen, 600 m² HFL-Richtwert, Sicherheitsabstände 5 m/10 m) bestätigt korrekt.

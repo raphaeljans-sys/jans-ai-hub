@@ -5,8 +5,9 @@ ausgabe: "VKF-BRL 25-15 Lufttechnische Anlagen, 01.01.2015"
 ersetzt: ""
 gelesen: "S. 1-29 (komplett: Titelblatt, Inhaltsverzeichnis, Ziff. 1-8, kompletter Anhang inkl. Legende)"
 datenstand: "2015 (in Kraft 01.01.2015)"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert)
+last_updated: 2026-07-14
+verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 29/29 Seiten, keine Sachfehler gefunden, 1 Praezisierung Sicherheitsabstaende Ziff. 4.3.1 Anhang S. 27)"
 links: [[vkf-brandschutznorm-2015]] [[vkf-brl-16-15-flucht-rettungswege]] [[vkf-brl-verwendung-baustoffe]] [[vkf-brl-nachweisverfahren]] [[REGISTER]]
 ---
 
@@ -48,7 +49,7 @@ Ziff. 1 (S. 4): Gilt für Aufstellung und Betrieb lufttechnischer Anlagen. Für 
 
 ## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
 - **Flächengrenzwerte für Verzicht auf Brandschutzklappen (Ziff. 3.8.2 Abs. 2 b/c):** Büro-/Schulbauten ≤1'200 m² Lüftungsabschnittsfläche; Beherbergungsbetriebe/Wohnbauten ≤600 m² Lüftungsabschnittsfläche. Wird die Grenze überschritten, sind zusätzliche Lüftungsabschnitte mit Brandschutzklappen-Trennung zu bilden (Anhang-Beispiele S. 18-24 rechnen dies durch: Mehrfamilienhaus, Schulbauten, Beherbergungsbetriebe, Gebäude mit gemischter Nutzung, jeweils mit Kommentar zur Flächenrechnung).
-- **Sicherheitsabstände Lufttemperatur zu brennbarem Material (Ziff. 4.3.1, S. 10/27):** TL<100°C = 0.1 m; TL 100-200°C = 0.2 m; TL 200-400°C = 0.4 m. Bei 30-Min.-RF1-Bekleidung halbiert; bei 60-Min.-RF1-Bekleidung bzw. EI-30/EI-60-RF1-Leitung teils auf 0-50 mm reduziert (siehe Detailgrafik Anhang S. 27, dort exakte Werte je Bekleidungsvariante).
+- **Sicherheitsabstände Lufttemperatur zu brennbarem Material (Ziff. 4.3.1, S. 10/27):** TL<100°C = 0.1 m; TL 100-200°C = 0.2 m; TL 200-400°C = 0.4 m. Reduzierte Werte bei dauerwärmebeständiger RF1-Brandschutzplatte vor der brennbaren Wand/Bekleidung (Anhang S. 27, Detailgrafik): bei 30-Minuten-Feuerwiderstand TL<100°C = 0 mm, TL 100-200°C = 0.1 m, TL 200-400°C = 0.2 m (Halbierung gegenüber Abs. 1, deckt sich mit Ziff. 4.3.1 Abs. 2); bei 60-Minuten-Feuerwiderstand TL<100°C = 0 mm, TL 100-200°C = 50 mm, TL 200-400°C = 0.1 m. Bei Lüftungsleitung selbst mit Feuerwiderstand EI 30/EI 60 aus RF1 (dauerwärmebeständig) gelten dieselben zwei Werte-Sätze wie bei der Bekleidungsvariante.
 - **Küchenabluft-Staffelung nach Abluftmenge (Ziff. 4.2.3, S. 9-10):** bis 4'000 m³/h · 4'001-12'000 m³/h · über 12'000 m³/h — mit je steigenden Anforderungen an Raumtrennung/Feuerwiderstand (EI 60) der Apparateräume.
 - Anhang enthält eine vollständige **Legende** (Symbole für Baustoff RF1/RF2/RF3, Bauteil mit Feuerwiderstand, Zu-/Abluft, Filter/Befeuchter/Lufterhitzer/-kühler/Ventilator/WRG) — Grundlage für das Lesen aller Prinzipskizzen (S. 29).
 
@@ -71,3 +72,6 @@ Ziff. 1 (S. 4): Gilt für Aufstellung und Betrieb lufttechnischer Anlagen. Für 
 - Kein Datum/keine Fassungsnummer über "01.01.2015 / 25-15de" hinaus im Dokument ersichtlich; keine Hinweise auf eine spätere Revision im PDF selbst (Prüfung gegen `ersetzte_normen.pdf`/Register noch ausstehend)
 - Verweis in Ziff. 7 auf das periodisch aktualisierte TKB-VKF-Verzeichnis (Stand-der-Technik-Papiere) — Inhalt dieses Verzeichnisses nicht Teil dieses Destillats, bei Detailfragen dort nachschlagen
 - Anhang-Prinzipskizzen (S. 13-28) sind urheberrechtlich geschützt (ausdrücklicher Vermerk S. 29) — hier nur sinngemäss beschrieben, nicht reproduziert; bei Bedarf Original konsultieren
+
+## Verifikation
+- **260714, Retro-Verifikation Run 7 (MacBook Pro):** Destillat adversarial gegen das Original-PDF geprüft (alle 29 Seiten, Titelblatt bis Legende). Alle Kernziffern (Ziff. 1-8), alle Zahlenwerte (Flächengrenzen 600/1'200 m², Temperaturgrenzen 100/200/400°C, Sicherheitsabstände 0.1/0.2/0.4 m, Küchenabluft-Staffelung 4'000/12'000 m³/h, EI-30/EI-60-Werte, 85°C-Schwelle, 60s-Nachlauf) und alle Anhang-Rechenbeispiele (S. 18-24) stimmen mit dem Original überein. Keine Sachfehler gefunden. Eine Präzisierung vorgenommen: Sicherheitsabstände bei Bekleidung/EI-Leitung (Ziff. 4.3.1, Anhang S. 27) waren zuvor nur pauschal beschrieben, jetzt mit den exakten Werten je Bekleidungsvariante (30-Min. vs. 60-Min. Feuerwiderstand) ergänzt. Status auf `established (verifiziert)` gehoben.

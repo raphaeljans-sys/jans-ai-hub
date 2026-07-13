@@ -31,7 +31,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
 | `vkf-brl-nachweisverfahren.md` | VKF-BRL 27-15 Nachweisverfahren im Brandschutz | 2015 | established (verifiziert 260712) |
 | `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | established (verifiziert 260713 Mini-Run 15, 46 Aussagen, 6 Ergaenzungen) |
-| `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (vollständig, S.1-39/39) |
+| `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (verifiziert 260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert, Anhang B/C ergaenzt, vollstaendig S.1-39/39) |
 | `treppen-hcu-hamburg-2008.md` | Lehrskript Treppen (HCU Hamburg) inkl. Neufert-Planungsgrundlagen | Stand Januar 2008 | destilliert (vollständig, S.1-19/19) |
 | `nbauo-barrierefreiheit-2004.md` | NBauO §§45/48 + DVNBauO §§18/29 Barrierefreiheit (Niedersachsen) | Rechtsstand 2012 / DVNBauO 1987/2004 | destilliert (4 Einzelnormen gebündelt) |
 | `baunvo-1990.md` | BauNVO Baunutzungsverordnung (D) | Neufassung 1990/1993 | destilliert (vollständig, S.1-14/14) |
@@ -40,9 +40,9 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `hoai-bauen-im-bestand-2011.md` | HOAI 2009 Leistungsbild Bauen im Bestand | 2011 | destilliert (vollständig, S.1-19/19) |
 | `vstaettvo-niedersachsen-2004.md` | VStättVO Versammlungsstättenverordnung Niedersachsen | 2004 | Teil-Destillat (S.1-20/31, Rest naechster Lauf) |
 | `baurecht-din-normenwerk-grundlagen-2010.md` | Baurecht Allgemeine Grundlagen: VOB/DIN-Normenarbeit/EU-Harmonisierung (D) | 2010 | destilliert (vollständig, S.1-20/20) |
-| `vss-700.5-1987.md` | ZH Zugangsnormalien 700.5 | 1987, in Kraft 1988 | established |
-| `vss-722.15-1983.md` | ZH Verkehrssicherheitsverordnung 722.15 | 1983, geänd. 1995 | established |
-| `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | established |
+| `vss-700.5-1987.md` | ZH Zugangsnormalien 700.5 | 1987, in Kraft 1988 | established (verifiziert 260714, 0 Fehler) |
+| `vss-722.15-1983.md` | ZH Verkehrssicherheitsverordnung 722.15 | 1983, geänd. 1995 | established (verifiziert 260714, Fundstelle §5/§6 korrigiert, §13 Lichtraumprofil ergaenzt) |
+| `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | established (verifiziert 260714, PPV faelschlich kantonal statt staedtisch korrigiert) |
 | `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | established (verifiziert 260713) |
 | `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713) |
 | `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713) |
@@ -86,26 +86,26 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-232-2000.md` | SIA 232 Geneigte Dächer | 2000 | established (verifiziert 260712) |
 | `sia-329-2018.md` | SIA 329 Vorhangfassaden | 2018 | established (verifiziert 260712) |
 | `sia-240-1988.md` | SIA 240 Metallbauarbeiten | 1988 | established (verifiziert 260712) |
-| `din-1249-11-1986.md` | DIN 1249-11 Flachglas im Bauwesen, Glaskanten | 1986-09 | established |
-| `din-68119-1996.md` | DIN 68119 Holzschindeln | 1996-09 | established |
-| `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | established |
+| `din-1249-11-1986.md` | DIN 1249-11 Flachglas im Bauwesen, Glaskanten | 1986-09 | established (verifiziert 260714, 0 Fehler, bestaetigt Run 11) |
+| `din-68119-1996.md` | DIN 68119 Holzschindeln | 1996-09 | established (verifiziert 260714, 3. Pruefrunde, Aeste-Regelung praezisiert) |
+| `din-4426-2001.md` | DIN 4426 Instandhaltung baulicher Anlagen, Arbeitsplätze/Verkehrswege Dach+Fassade | 2001-09 | established (verifiziert 260714, Ziff. 5.2.2.1/6.1.2/6.2.2/6.2.3/8 korrigiert/ergaenzt) |
 | `din-en-12207-2000.md` | DIN EN 12207 Fenster/Türen Luftdurchlässigkeit, Klassifizierung | 2000-06 (EN 1999-11) | established (verifiziert 260713) |
 | `din-1055-2-2010.md` | DIN 1055-2 Einwirkungen auf Tragwerke, Bodenkenngrössen | 2010-11 | established (verifiziert 260713 Mini-Run 15, 24 Aussagen, 2 Fehler korrigiert) |
 | `din-105-5-1984.md` | DIN 105 Teil 5 Leichtlanglochziegel/-Ziegelplatten | 1984-05 | established (verifiziert 260713, Mini-Run 14: 13 Aussagen geprüft, keine Fehler) |
 | `din-1053-2-1996.md` | DIN 1053-2 Mauerwerk, Festigkeitsklassen Eignungsprüfung | 1996-11 | established (verifiziert 260713, mehrere Ziffern + Tabelle 1 komplett nachgetragen, vollständig S.1-5/5) |
 | `din-1053-3-1990.md` | DIN 1053 Teil 3 Bewehrtes Mauerwerk | 1990-02 | established (verifiziert 260713, Ziffer-Zuordnung + Tabellen korrigiert, vollständig S.1-8/8) |
 | `din-en-1627-2011.md` | DIN EN 1627 Einbruchhemmung, Anforderungen/Klassifizierung | 2011-09 | Teil-Destillat, verifiziert 260713 (nur 4/44 S. im Bestand, pdfinfo bestätigt; Mini-Run 14: 1 Klassifizierungsfehler RC 4 korrigiert) |
-| `din-1072-beiblatt1-1988.md` | Beiblatt 1 zu DIN 1072 Strassen-/Wegbrücken, Lastannahmen Erläuterungen | 1988-05 | established |
-| `din-1076-1999.md` | DIN 1076 Ingenieurbauwerke, Überwachung/Prüfung | 1999-11 | established |
+| `din-1072-beiblatt1-1988.md` | Beiblatt 1 zu DIN 1072 Strassen-/Wegbrücken, Lastannahmen Erläuterungen | 1988-05 | established (verifiziert 260714, Regelklassen-Zuordnung 130 kN korrigiert, Anwendungsbereich ergaenzt) |
+| `din-1076-1999.md` | DIN 1076 Ingenieurbauwerke, Überwachung/Prüfung | 1999-11 | established (verifiziert 260714, Ziff. 5.5 Konditional-Fehler korrigiert) |
 | `din-272-1986.md` | DIN 272 Prüfung von Magnesiaestrich | 1986-02 | established |
 | `din-107-1974.md` | DIN 107 Bezeichnung links/rechts im Bauwesen | 1974-04 | established |
-| `din-1164-10-2004.md` | DIN 1164-10 Zement mit besonderen Eigenschaften (HS/NA) | 2004-08 | established |
-| `din-1356-1-1995.md` | DIN 1356-1 Bauzeichnungen, Arten/Inhalte/Grundregeln | 1995-02 | established |
+| `din-1164-10-2004.md` | DIN 1164-10 Zement mit besonderen Eigenschaften (HS/NA) | 2004-08 | established (verifiziert 260714, Tippfehler Bauregelliste korrigiert) |
+| `din-1356-1-1995.md` | DIN 1356-1 Bauzeichnungen, Arten/Inhalte/Grundregeln | 1995-02 | established (verifiziert 260714, Ziff. 3.1/12.4/12.6-7 ergaenzt) |
 | `din-1356-6-2006.md` | DIN 1356-6 Bauaufnahmezeichnungen, Schadenschlüssel | 2006-05 | established |
 | `din-4102-2-1977.md` | DIN 4102-2 Brandverhalten Baustoffe/Bauteile, Feuerwiderstandsklassen | 1977-09 | established (verifiziert 260713) |
 | `din-919-1-1991.md` | DIN 919-1 Technische Zeichnungen Holzverarbeitung, Grundlagen | 1991-04 | established |
 | `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | established |
-| `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | established |
+| `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | established (verifiziert 260714, Ziff. 4.1/5.2/6.3.3.2 praezisiert) |
 | `sia-100-2004.md` | SIA 100 Statuten des SIA | 2004 (Grundfassung 1999) | destilliert |
 | `sia-102-2014.md` | SIA 102 Leistungen + Honorare Architekten | 2014 | destilliert (— ersetzt durch 2020) |
 | `sia-104-2003.md` | SIA 104 Leistungen + Honorare Bauleitung | 2003 | established (verifiziert 260713) |
@@ -166,7 +166,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vds-2234-1999-brand-komplextrennwaende.md` | VdS 2234 Brand-/Komplextrennwaende (D-Versicherungsmerkblatt) | 1999-05 | destilliert (vollstaendig, S.1-30/30) |
 | `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | established (vollstaendig, S.1-42/42, Mini-Run 12) |
 | `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | established (verifiziert 260713, vollstaendig S.1-32/32) |
-| `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | destilliert (historisch) |
+| `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | established, historisch/ersetzt (verifiziert 260714, Motorrad-Parkfeld-Laenge 2.50m-Angabe korrigiert) |
 | `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | established (verifiziert 260713 Mini-Run 15, 40 Aussagen, 2 Fehler korrigiert) |
 | `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260713, vollstaendig S.1-18/18) |
 | `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | established (verifiziert 260713, vollstaendig S.1-21/21) |

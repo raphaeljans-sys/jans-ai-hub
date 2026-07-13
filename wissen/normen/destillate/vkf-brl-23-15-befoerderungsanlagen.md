@@ -5,8 +5,8 @@ ausgabe: "VKF-BRL 23-15de, 01.01.2015"
 ersetzt: "unbekannt (nicht im Dokument vermerkt)"
 gelesen: "S. 1-19 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-8, Anhang mit Skizzen/Piktogramm)"
 datenstand: "2015 (in Kraft seit 01.01.2015, Beschluss IVTH 18.09.2014)"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert)
+last_updated: 2026-07-14
 links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]]
 ---
 
@@ -92,3 +92,6 @@ Ziff. 1 (S. 4): Gilt für Erstellung und Betrieb von Beförderungsanlagen (Aufzu
 - Keine Angabe im Dokument, ob/welche Vorgänger-Ausgabe diese BRL ersetzt (anders als bei 16-15, wo «rev2016» im Dateinamen steht) — Register (`ersetzte_normen.pdf`) bei Bedarf gegenprüfen
 - Änderungsdokument `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` im selben Ordner nicht geprüft, ob es diese BRL betrifft — bei Anlass separat destillieren
 - Referenzierte SN-EN-Normen (81-58, 81-73, 1634-1) nicht selbst im Bestand/destilliert — nur als Verweis übernommen
+- Anhang-Zeichnungen (S. 13-19) sind laut Original urheberrechtlich geschützt (Hinweis S. 19); im Destillat nur textlich beschrieben, keine Abbildungen übernommen — korrekt gemäss Urheberrecht-Regel
+
+verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro — Volltextabgleich gegen Original-PDF (19 S., vollständig gelesen), alle Ziffern 1-8 + Anhang geprüft, keine Fehler gefunden

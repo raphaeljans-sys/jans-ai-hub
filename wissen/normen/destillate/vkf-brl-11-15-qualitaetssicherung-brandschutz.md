@@ -5,8 +5,9 @@ ausgabe: "VKF-Brandschutzrichtlinie 11-15de, 01.01.2015"
 ersetzt: unbekannt (keine Vorgaenger-Angabe im Dokument gefunden)
 gelesen: "S. 1-29 (komplett, deutscher Normteil vollstaendig: Titelblatt, Inhaltsverzeichnis, Ziff. 1-8, Anhang inkl. aller Organigramme und Leistungsbilder QSS 1-4)"
 datenstand: "2015, in Kraft seit 01.01.2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert)
+last_updated: 2026-07-14
+verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro
 links: [[REGISTER]]
 ---
 
@@ -64,7 +65,7 @@ Ziff. 1 (S. 5): Gilt für alle Neubau-, Mieterausbau-, Umbau-, Sanierungs- und U
 ## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
 - **QSS-Bestimmungstabelle nach Nutzung** (Ziff. 3.3.1, S. 7): 3 Nutzungsgruppen x 3 Gebäudehöhenkategorien → QSS 1 bis 3, siehe Kernziffern oben für die Zuordnungslogik (Zahlenwerte hier nicht als Vollzitat wiedergegeben).
 - **QSS-Bestimmungstabelle nach besonderen Brandrisiken** (Ziff. 3.4.1, S. 8): 6 Risikogruppen x 3 Gebäudehöhenkategorien → QSS 1 bis 3, inkl. Fussnoten [1] (bei Hochhäusern BRL «Verwendung von Baustoffen» massgebend statt QSS-Tabelle) und [2] (objektspezifisch durch Behörde).
-- **Umsetzungs-Matrix Anhang** (S. 19-20): listet ca. 30 Elemente (Rollen, Dokumente, Kontrollarten) je QSS 1-4 mit Symbolik "erforderlich" (●) / "empfehlenswert" (○) — z.B. Brandschutzfachmann VKF nur ab QSS 2 erforderlich, Brandschutzexperte VKF ab QSS 3, Kontrollorgan Brandschutz erforderlich nur QSS 4 (empfehlenswert QSS 3), Brandschutzkonzept unter Nachweisverfahren nicht zulässig in QSS 1/2, zulässig ab QSS 3; Gebäudekontrollbuch ab QSS 2 erforderlich (QSS 1 empfehlenswert).
+- **Umsetzungs-Matrix Anhang** (S. 19-20): listet rund 43 Elemente (Rollen, Dokumente, Kontrollarten) je QSS 1-4 mit Symbolik "erforderlich" (●) / "empfehlenswert" (○) — z.B. Brandschutzfachmann VKF nur ab QSS 2 erforderlich, Brandschutzexperte VKF ab QSS 3, Kontrollorgan Brandschutz erforderlich nur QSS 4 (empfehlenswert QSS 3), Brandschutzkonzept unter Nachweisverfahren nicht zulässig in QSS 1/2, zulässig ab QSS 3; Gebäudekontrollbuch ab QSS 2 erforderlich (QSS 1 empfehlenswert). Fussnote [7] (Flucht- und Rettungswegepläne "○" ab QSS 2): "erforderlich bei Beherbergungsbetrieben".
 - **Leistungsbilder QSS 1-4** (Anhang S. 21-29): je Stufe Übliche Grundleistungen und Besondere Leistungen des QS-Verantwortlichen Brandschutz, konkret QSS 1: 14 Grundleistungen (S. 21-22) + 12 besondere Leistungen (S. 22-23); QSS 2: 15 Grundleistungen (S. 24-25) + 15 besondere Leistungen (S. 25); QSS 3: 19 Grundleistungen (S. 26-27) + 10 besondere Leistungen (S. 28); QSS 4 verweist vollständig auf die Grund- und besonderen Leistungen von QSS 3, kein eigenes Leistungsbild (S. 29). Positionen umfassen u.a. Bedürfnisformulierung/Machbarkeit, Vorprojekt-Erstellung, QS-Konzept, Baubewilligungsunterlagen, Ausschreibungsprüfung, Terminprogramm, Bauausführungskontrolle, Inbetriebnahme/Abnahmen, Übereinstimmungserklärung; Detailtext nicht wörtlich wiedergegeben (Urheberrecht, S. 29 ausdrücklich vermerkt).
 
 ## Begriffe
@@ -88,3 +89,6 @@ Ziff. 1 (S. 5): Gilt für alle Neubau-, Mieterausbau-, Umbau-, Sanierungs- und U
 - Keine explizite Delta-/Vorgänger-Ausgabe im Dokument selbst gefunden (anders als bei BRL 16-15, wo eine ältere Fassung im Bestand liegt); im Register (`training/norm-inventar.md`) zu verifizieren, ob eine spätere Fassung von BRL 11-15 existiert oder diese Ausgabe (01.01.2015) weiterhin gültig ist.
 - Die Detailinhalte der Leistungsbilder QSS 1-4 (Anhang S. 21-29) sind hier nur nach Anzahl/Thema zusammengefasst, nicht vollständig einzeln aufgeführt (Urheberrechtshinweis im Original, S. 29) — bei Bedarf für ein konkretes Leistungsbild-Angebot Original konsultieren.
 - Bezug/Abgrenzung zur Brandschutznorm Art. 3 (Kontrollorgan-Unabhängigkeit, Ziff. 5.4.5) ist im Destillat `vkf-brandschutznorm-2015.md` zu verifizieren/verlinken (nicht in dieser Session geprüft).
+
+## Verifikations-Historie
+- **260714, Retro-Verifikation Run 7 (MacBook Pro):** Destillat vollständig (alle 29 Seiten) gegen das Original-PDF gegengeprüft (adversarial, Ziffer für Ziffer, Tabellenwerte, Fussnoten, Leistungsbild-Zählungen). Ergebnis: Kernaussagen, Ziffern-Fundstellen und beide QSS-Tabellen (Ziff. 3.3.1/3.4.1) bestätigt korrekt. Zwei Präzisierungen vorgenommen: (1) Leistungsbild-Positionszahlen je QSS-Stufe exakt beziffert statt als Spanne (QSS 1: 14+12, QSS 2: 15+15, QSS 3: 19+10, QSS 4 verweist vollständig auf QSS 3); (2) Umsetzungs-Matrix-Umfang korrigiert von "ca. 30" auf die tatsächlich ausgezählten rund 43 Zeilen (S. 19-20), plus Fussnote [7] ergänzt. Keine inhaltlichen Fehler bei den Kernziffern gefunden. Status auf established (verifiziert) gehoben.
