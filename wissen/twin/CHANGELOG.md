@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-13 — twin-mail-training Batch 43 (KISPI-Umnutzung 01.–06.05.2026, sequentieller Sweep)
+- Sent-Items rj@ via M365-Connector (`outlook_email_search`/`read_resource`, diese Session
+  verfügbar), Fenster 2026-05-01…05-06, 25/52 Mails gesichtet, 5 Volltexte + Previews. Alle
+  Rahmen klar handgetippt/authentisch (Slips «den finale»/«Frühstückst»/«Sie habe von uns»/
+  «Frage ich Sie an»/«Räum») — keine Echo-Falle im destillierten Teil.
+- **stimme:** neu «rhetorische Bestätigungs-Rückfrage im Du» («Das macht doch auch Sinn?») +
+  Gruss-Kontrast im selben Batch (FG 5× dominant über gemischte Anreden Hoi/Geschätzte/Sehr
+  geehrter, weil dokumentierend; einzige «Lgr» = ultrakurze operative Bitte an Marco) → bestätigt
+  «Gruss folgt dem Mail-Typ, nicht der Anrede». Metrik 612 W/Du-Gross 1.0/ø 16.1 W.
+- **arbeitsweise:** neu Änderungswünsche nach Kostenwirkung triagieren (Mehrkosten-Punkt isolieren)
+  + Verfahrenstaktik Ausführungsplan ≠ Baueingabeplan («Ausführung 1 Bett, Baueingabe 2 Bett»)
+  + Angebots-Bereinigungssitzung + Freigabe-Choreografie Betreiber→Bauherr.
+- **fachsignatur:** neu Healthcare-Sanitär-Effizienz (zentrale Installationswand zweiseitig,
+  KISPI-Raumbreitenstandard 2.85 m, Durchgangsbreite 90→75 cm) + Brandschutz Sprühnebel-vs-
+  Sprinkler / Durchdringungspunkte Brandabschnitte / Sprinklerplan als sicherheitsrelevantes
+  Bauteil für Auflagebereinigung + Anbieter-Anfrage mit Reality-Capture + DWG/PDF-Grundlagen.
+- **beziehungsregister:** neu Fachplaner-Sie wärmt im Thread «Sehr geehrter»→«Geschätzter»
+  (Kübler/Gruner) + kalter Referral-Anbieter bleibt Sie (Paolozzi/Jomos) + Sie-Mappings
+  Kübler/Paolozzi/Schneider + Marco-Schwander-Du (Sie→Du-Kippe aus Batch 42) bestätigt.
+- _INGESTED.md: Batch-43-Zeile ergänzt; Sweep abgedeckt bis 2026-05-06, nächster Lauf ab 05-06.
+
 ## 2026-07-13 — twin-fidelity-review Sechstlauf (Signatur-Automatik-Artefakt Desktop generalisiert)
 - Fidelity-Review 260713f: Gesamt-Fidelity 94/100. Frischer Live-Pull via Apple Mail (Bundle-ID
   `com.apple.mail`, war diese Session sofort erreichbar) aus «Gesendete Elemente»

@@ -838,3 +838,30 @@ Beziehungsstufe zum Zweitadressaten.
   (Familienempfehlung) hebt das Register nicht ins Du; die Erstansprache eines unbekannten Gewerbetreibenden
   bleibt formell-Sie, auch wenn der Anlass warm ist. Quelle: 17.04.2026, authentisch (→ [[fachsignatur]]
   Rechtlich-vs-funktional-Trennung in derselben Mail).
+
+## Fachplaner-Sie wärmt über den Thread + neue Sie-Mappings (belegt Mailbatch 43, authentisch)
+
+- **Register-Erwärmung im laufenden Fachplaner-Thread: «Sehr geehrter» → «Geschätzter».** Der
+  Gruner-Gebäudetechniker Benjamin Kübler wird bei der Erstansprache (16.04.2026) mit «Sehr
+  geehrter Herr Kübler» angeschrieben; im selben Thread zwei Wochen später (01.05.2026) heisst
+  es «**Geschätzter Herr Kübler**». Wie schon bei Behörden-/Bauherrinnen-Kontakten zieht Raphael
+  das Sie-Register mit wachsender Zusammenarbeit von formell auf warm nach — der Nachname bleibt,
+  die Wärmestufe steigt. Der Zwilling darf einen Fachplaner-Sie nach etabliertem Thread von «Sehr
+  geehrter» auf «Geschätzter Herr <Nachname>» heben. Quelle: 16.04. + 01.05.2026, authentisch
+  (bestätigt Bauherrin-/Behörden-Erwärmung Batch 19/22; → [[stimme]]).
+- **Kalter Referral-Anbieter bleibt «Sehr geehrter» trotz Verweis.** Der über einen Fachplaner
+  vermittelte neue Spezialist wird kalt angesprochen: «**Sehr geehrter Herr Paolozzi, Nach
+  Rücksprache mit Herr Schneider der Firma Gruner wurde ich an Sie verwiesen.**» Der fachliche
+  Verweis legitimiert die Anfrage, hebt das Register aber nicht — die Erstansprache eines
+  unbekannten Anbieters bleibt formell-Sie (parallel zur Familien-Referral-Kaltakquise Batch 42).
+  Quelle: 06.05.2026, authentisch.
+- **Neue Sie-Mappings (KISPI-Umbau-Fachplaner/Anbieter):**
+  - **Benjamin Kübler** — Gruner AG, Abteilungsleiter Gebäudetechnik NWCH, Sprinkler-/
+    Gebäudetechnik-Offerte KISPI. Sie; «Sehr geehrter» → «Geschätzter Herr Kübler» (erwärmt).
+  - **Manuel Paolozzi** — Fa. Jomos (Brandschutz Sprühnebel-/Sprinklerplanung). Sie, kalt
+    «Sehr geehrter Herr Paolozzi» (via Referral Gruner/Schneider).
+  - **Herr Schneider** — Gruner, Sprinkler-/Sprühnebel-Vorprüfung (verweisende Fachperson).
+- **Bestätigt: Marco Schwander (Gastro-Online) im Du** — «Hoi Marco» / «Geschätzter Marco»
+  (Sie→Du-Kippe aus Batch 42 gefestigt); dokumentierende Offert-/Grundlagen-Mails an ihn tragen
+  trotz Du «Freundliche Grüsse», die operative Kurzbitte «Hoi Marco … Lgr». Quelle: 01.–05.05.2026,
+  authentisch (→ [[stimme]] Gruss-Kontrast).

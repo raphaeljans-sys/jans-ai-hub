@@ -895,3 +895,35 @@ Behördenprüfung von einer falschen rechtlichen Einstufung ausgehen. Ergänzt d
 «Recht → Wirtschaftlichkeit/Konsequenz übersetzen» um die Umkehrung: **Recht klarstellen, um eine unnötige
 Vorschrift NICHT auszulösen**, ohne den funktionalen Massstab zu senken. Quelle: 17.04.2026, authentisch
 (→ [[beziehungsregister]] Familien-Referral-Kaltakquise).
+
+## Healthcare-Sanitär-Effizienz + Brandschutz Sprühnebel vs. Sprinkler (belegt Mailbatch 43, authentisch)
+
+- **Nutzungsanforderung und Installationseffizienz «übereinandergebracht».** Der Kern-Fachsatz
+  der Umbauplan-Lieferung: «Es gibt eine **Zentrale Wand die zweiseitig mit Sanitärinstallationen
+  bespielt** werden … da wo die Duschen und WC's sind, werden auf der Rückwärtigen Seite Apotheke
+  mit Lavabo und Waschküche mit Ausguss sein. **Nun haben wir Nutzungsanforderung und effiziente
+  Gebäudeinstallation übereinander gebracht.**» Er begründet das Raumlayout aus der
+  Installations-Ökonomie (Nasszellen Rücken an Rücken an einem Installationskern) UND der
+  Nutzung zugleich. Weitere belegte Masssignaturen: Raumbreite **2.85 m = KISPI-Bürostandard-
+  Raumbreitenmass**; rohe Durchgangsbreite **90 cm, reduziert auf 75 cm** beim Türeinbau in eine
+  bestehende Wandöffnung. Der Zwilling rechnet Healthcare-Raumlayouts an Installationskern +
+  Betreiber-Standardmass fest. Quelle: 01.05.2026, authentisch (→ [[arbeitsweise]] Freigabe-
+  Choreografie).
+- **Brandschutz: Sprühnebelanlage ≠ klassischer Sprinkler — die Anlagenart ist zu klären, nicht
+  anzunehmen.** In der Fachplaner-Anfrage stellt Raphael die entscheidenden Fragen präzise:
+  «**Reicht ein Sprühnebelanlage oder muss ein klassischer Sprinkler gemäss Brandschutzkonzept**
+  vorgesehen werden? Braucht es Anpassungen an der bestehenden Sprinkleranlage? **Wie sehen die
+  Durchdringungspunkte der Brandabschnitte aus?** Was braucht es für die Auflagebereinigung bez.
+  Baueingabe Brandschutzpolizei?» Er kennt die Abgrenzung Sprühnebel-/Wassernebelanlage vs.
+  Vollsprinkler, dass die Wahl aus dem Brandschutzkonzept folgt, und dass der Sprinkler-/
+  Sprühnebelplan ein **sicherheitsrelevantes Bauteil für die Auflagebereinigung** ist (Behörden-
+  Einreichung, Freigabe erst nach Klärung). Ergänzt die Healthcare-Brandschutz-Linie (EI30/EI60-
+  Sprinkler-Abstufung, Batch 25) um die Anlagenart-Ebene. Quelle: 01.–06.05.2026, authentisch
+  (→ [[arbeitsweise]] Freigabe-Junktim, Skill `brandschutz`/`auflagebereinigung`).
+- **Anbieter-Anfrage-Signatur: Reality-Capture + DWG/PDF-Grundlagen proaktiv beilegen.** Beim
+  Anfragen eines neuen Spezialisten (Sprühnebel/Jomos) liefert er den 3D-Scan-Link (Matterport)
+  UND fragt zurück: «**Welche Plan- und Dokumentengrundlagen benötigen Sie in PDF und DWG Format
+  um Ihren Aufwand abzuschätzen?**» — er stellt die Grundlagen bereit, statt sie erst auf
+  Nachfrage nachzuliefern, damit der Anbieter sofort kalkulieren kann. Bestätigt die Reality-
+  Capture-Toolchain (Batch 23) als Devis-Anfrage-Praxis. Quelle: 06.05.2026, authentisch
+  (→ [[arbeitsweise]], Skill `ausschreibung`).

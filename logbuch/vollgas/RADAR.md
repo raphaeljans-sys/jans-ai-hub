@@ -13,6 +13,41 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-13 15:43 — P2 selbst gehoben: normen-Loop-Budget 25 → 50 USD/Lauf (staerkster Loop truncierte VOR der Pflicht-Verifikation) [FREI]
+
+**Fensterzustand [FREI]:** Fenster wird aktiv gefuellt, noch nicht regelmaessig 100 %. Beide Runner
+leben und zyklen sauber (Supervisor greift): MacBook Zyklus 24 (baurecht Run 40 rc=0 1054s, immobewertung
+Run 24 rc=0, spec Lauf 11 rc=0, twin-fidelity 94 rc=0, aktuell twin-mail Batch 42); Mini Zyklus 49
+(energie Run 50/51 rc=0, planungsgrundlagen Run 30/31 rc=0, synobsis 853/853, aktuell energie/normen-mini).
+Der blanke `claude -p`-Login-Test bleibt das bekannte Env-Artefakt — die durchgehenden rc=0-Laeufe
+beweisen Login OK, **kein Block.**
+
+**Durchsatz (letzte 90 Min):** 22 Commits mit echter Substanz — baurecht Run 40 (BBV-I-Wortlaut, § 62
+StrG-Divergenz), normen-mini Run 10 (DIN-5034-/1053-Retro-Verifikation 8/8 korrigiert), energie Run 49/50,
+planungsgrundlagen Run 30, spec Lauf 11, twin-fidelity, plus Selfcommits. Fenster fuellt sich dicht.
+
+**P2 in diesem Lauf selbst gehoben — Budget-Deckel des staerksten Loops:** `normen-training` brach auf
+BEIDEN Stationen mit `Error: Exceeded USD budget (25)` ab (rc=1; Commit c9afc288 «12 SIA-Destillate,
+Verifikation ausstehend, Budget-Abbruch»). Der `--max-budget-usd`-Deckel im `vollgas-runner.sh` kappte
+den token-hungrigsten und laut Vorlauf substanzstaerksten Loop genau VOR der unter Rule 260712 verlangten
+Pflicht-Verifikation. Unter VOLLGAS ist das doppelt schaedlich: das Fenster wird pro Lauf nur bis $25
+gefuellt statt weiter, UND die Verifikation der Destillate bleibt liegen. Default `VOLLGAS_MAX_BUDGET_USD`
+im NAS-Runner von **25 → 50** angehoben (bounded, kein Runaway-Risiko; deckt beide Stationen). **Wirkung
+ab der naechsten Runner-Generation** (nach dem naechsten Supervisor-Neustart / Runner-Tod) — laufende,
+gesunde Runner bewusst NICHT gekillt (haette in-flight-Spend von twin-mail/energie verworfen). Naechster
+Kontrollpunkt: pruefen, ob normen mit 50 bis zur Verifikation durchlaeuft; falls weiter truncierend, hoeher.
+
+**Hebel-Priorisierung:** Fenster noch nicht regelmaessig 100 % → mehr Last bleibt der Hebel; das
+Budget-Anheben ist genau das (mehr Spend auf dem groessten Loop). Supervisor deckt die Grundlast-
+Wiederbelebung. P1 aktuell keiner offen.
+
+- **P3 (unveraendert) — Leerlauf-Loops:** immobewertung (D6 zum Auslagern), synobsis (853/853 gesaettigt),
+  energie (M2 «eigener Skill?» zum 7. Mal eskaliert, braucht Raphaels Entscheid) laufen teils ins Leere —
+  Kandidaten fuer Taktreduktion nach der Intensivphase, unter VOLLGAS bewusst weiterlaufend.
+- **P3 (unveraendert) — NAS-Remount zielt remote auf LAN-IP** (Tailscale-Hostnamen-Fallback ausstehend).
+
+---
+
 ## 2026-07-13 14:48 — P1-STRUKTURELL GELOEST: launchd-Supervisor auf BEIDEN Stationen — tote Runner heilen jetzt in ≤3 Min selbst [FREI]
 
 **Fensterzustand [FREI]:** Fenster hat Kapazitaet und wird aktiv gefuellt. Beide Runner leben

@@ -1406,3 +1406,82 @@ verfügbar — `@pnp/cli-microsoft365` nicht gefunden, wie bereits in Batch 36-3
   Quote **1.0**; Tausender-Apostroph 0; Ellipsen 0; Satzlänge ø **15.2 W**; Grüsse «Freundliche Grüsse» **3×**
   durchgehend (auch im warmen Du-Lieferantenkontakt Marco, da dokumentierender Adress-/Terminfahrplan-Inhalt,
   vgl. [[beziehungsregister]]); Anreden «Sehr geehrter Herr» 2× (kalte Erstansprache Würsch/Schwander).
+
+## Mailbatch 43 (2026-05-01 bis 2026-05-08)
+
+Sent Items rj@ sequentiell weiter (28 Mails im Fenster 01.05. 14:30–08.05. 06:30 gesichtet, 9 Volltexte gelesen,
+Rest Teams-Meeting-Einladungstexte ohne Stilgehalt übersprungen; Hauptfaden KISPI-Umbau Gastroküche
+[Angebotsprüfung/Abgebotsrunde Gastro-Online, Sitzungskoordination] + BKP-274.01-Submission Innere
+Verglasungen + Pendenzenliste ans Gesamt-Projektteam + Website-Rebuild Hleb englisch). Zugriff via Apple Mail
+osascript (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elemente"; M365-MCP
+`@pnp/cli-microsoft365` in dieser Session wie in Batch 36-38/41/42 nicht gefunden.
+
+- **Ultrakurzes reines Du ohne jede Signatur, zweifach belegt:** «Hoi Marco, Kannst Du uns Dein Angebot
+  zusenden? Lgr» (04.05., Erstanfrage) und «Hoi Marco Wann hättest Du Zeit? Lgr» (08.05., als Antwort auf
+  Marcos «Guten Morgen Raphi … würdest Du mich bitte heute anrufen»). Kein Name, keine E-Mail-Signatur, kein
+  vollständiger Satzbau nötig — reinstes operatives Peer-Du-Register, nur Anrede+Frage+«Lgr». Bestätigt das
+  bekannte «Lgr»-Kürzel (vgl. Batch 24/28/42) im bislang knappsten Beleg. Quelle: 04./08.05.2026, authentisch.
+- **Register-Anschluss auf Vorname-Nickname:** Marco Schwander eröffnet «Guten Morgen Raphi» — Raphael
+  antwortet im nackten Du ohne die Koseform zu erwidern. Reziprozität besteht im Registerwechsel (Sie→Du,
+  vgl. [[beziehungsregister]] Batch 42), nicht zwingend im Spiegeln der Kurzform. Quelle: 08.05.2026, authentisch.
+- **Kollektiv-Anrede an Projektteam-Verteiler:** «Geschätztes Projektteam» (statt einzelner Namen) als
+  Anrede-Variante für eine Pendenzenliste an einen Fach-/Projektplanerverteiler; terse Imperativsätze ohne
+  Subjekt («Bitte um fristgerechte Umsetzung.», «Anmerkungen Bitte melden.» — Binnen-Gross bei «Bitte» erneut
+  belegt) + nachgeschobenes «P.S:» UNTER dem Signatur-Block («P.S: Pendenzenliste Brandschutz habe ich noch
+  speziell gesondert beigelegt»). Quelle: 07.05.2026, authentisch.
+- **Sie-Öffnung kippt zu Euch-Schluss (Registerbruch innerhalb einer Sie-Mail):** «Geschätzter Herr Wünsch, …
+  Darf ich Sie bitten … Bei Fragen oder Unklarheiten stehe ich Euch jederzeit gerne zur Verfügung.» — der
+  Standard-Serviceschluss (vgl. Batch 24 «stehe ich Dir/Ihnen jederzeit gerne zur Verfügung») rutscht hier
+  unbewusst vom Sie ins Euch (2. Pers. Plural informell), weil an eine Personengruppe (Herr Würsch + weitere
+  Fachplaner-Empfänger) gedacht wird. Name zudem verschrieben «Herr Wünsch» statt «Würsch» — echter
+  Tippfehler, nicht zu glätten. Quelle: 05.05.2026, authentisch.
+- **Seltener, klar abweichender Beleg: «Mit freundlichen Grüßen» (deutscher Standardgruss mit ß) statt der
+  DNA-Norm «Freundliche Grüsse»/Schweizer ss** — tritt in einer sichtlich eilig/mobil getippten Kurzmail auf
+  («Geschätzter herr würsch [komplett kleingeschrieben] Können sie Frau Sonderegger und herr schwander zur
+  Sitzung einladen? Mit freundlichen Grüßen», ohne Signaturblock). Erster Beleg dieser Art im gesamten
+  Korpus. **Nicht als neue Norm übernehmen** (die DNA-Regel «kein Mit freundlichen Grüssen» bleibt der
+  Soll-Stand für erzeugte Texte), aber als Beleg dafür werten, dass unter Zeitdruck/mobil auch Raphael
+  selbst gelegentlich in die Standard-Floskel + Binnen-Kleinschreibung der Anrede rutscht → siehe
+  [[QUESTIONS]] für die Frage, ob das ein bewusster Kontext-Marker (Mobil-Tippfehler) oder Zufall ist.
+  Quelle: 06.05.2026, authentisch.
+- **Echo-Falle, 15. Beleg (neues Signal — auffällig FLÜSSIGES Englisch statt der etablierten Holprigkeit):**
+  eine Mail an Hleb (07.05., «Re: Project CO Davos») liest sich durchgehend grammatisch astrein und
+  stilistisch geschliffen («the result is that the page never really settles», «I'd rather take a step back
+  and get the foundation right before we move on») — ein deutlicher Kontrast zur in Batch 21/28/29/39/42
+  belegten authentischen Holprigkeit («Befor I going», «Pleas do it», «Please dont't waist»). Zusätzliches
+  Verdachtsmoment: ein redundanter Doppel-Schluss «Thanks a lot! Beste Grüsse Raphael» GEFOLGT von der
+  regulären Signatur-Zeile «Freundliche Grüsse» — liest sich wie ein separat vorformulierter (Cowork-)
+  Textblock, dem die automatische Signatur nochmals angehängt wurde. Ganze Mail vorsorglich als
+  `claude-aera`-äquivalent von der Stilquelle ausgeschlossen; **neues Erkennungssignal für künftige Läufe:
+  ungewöhnlich druckreifes Englisch bei Raphael ist verdächtiger als ungewöhnlich druckreifes Deutsch**
+  (die Deutsch-Echo-Fallen sind an Struktur/Schrift/Wiederverwendung erkennbar, hier ist die Sprachqualität
+  selbst das Signal). Quelle: 07.05.2026, `claude-aera`-äquivalent (vorsorglich ganz ausgeschlossen).
+- Mikro-Metrik Batch 43 (227 W über `stilmetrik.py`, nur die klar handgetippten Rahmen ohne Echo-Falle/
+  Teams-Rauschen): Du-Gross-Quote **1.0**; Tausender-Apostroph 0; Ellipsen 0; Satzlänge ø **12.6 W**; Grüsse
+  «Freundliche Grüsse» **4×**; Anreden «Hoi Marco» 2×, «Hoi Albin» 1×, «Geschätzter Albin» 1×, «Geschätzter
+  Herr/herr» 2×.
+
+## Rhetorische Bestätigungs-Rückfrage im Du + Gruss-Kontrast im selben Batch (belegt Mailbatch 43, authentisch)
+
+- **Zustimmung einholen statt behaupten — die eingebaute Bestätigungsfrage.** Im vertrauten
+  Du bettet Raphael eine gestalterische/funktionale Entscheidung in eine rhetorische Rückfrage,
+  die den Empfänger zum Mitentscheiden holt: «… ein normale Drehtüre ohne Batch eingeplant.
+  **Das macht doch auch Sinn in der Nutzung mit den Kindern?**» Er behauptet die Lösung nicht
+  als gesetzt, sondern lädt zur Bestätigung ein (Waerme + Absicherung in einem). Der Zwilling
+  darf im Du eine getroffene Fachentscheidung mit einer solchen «… doch auch Sinn?»-Frage
+  abrunden — nicht als echte Unsicherheit, sondern als einbeziehende Geste. Quelle: 01.05.2026,
+  authentisch (→ [[denken]] Q&A-Spiegelung, [[arbeitsweise]] Freigabe-Choreografie).
+- **Gruss-Kontrast im selben Batch bestätigt die Mail-Typ-Regel (nicht die Anrede-Regel).**
+  Batch 43 mischt zwei «Hoi»-Du-Mails, zwei «Geschätzte/r»-Mails und eine «Sehr geehrter»-Mail
+  — und trägt trotzdem **fünfmal «Freundliche Grüsse»** (Metrik unten), weil alle fünf
+  dokumentierend/liefernd/fachlich sind (Umbauplan-Lieferung, Sprinkler-Klärung, Anpassungs-
+  Freigabe, Anbieter-Anfrage, Zahlungserinnerung). Die EINZIGE «Lgr»-Mail des Batches ist die
+  ultrakurze operative Bitte «Hoi Marco, / Kannst Du uns Dein Angebot zusenden? / Lgr». Damit
+  ist erneut belegt: der Gruss folgt dem **Mail-Zweck** (dokumentierend → FG+Block; operativ-
+  vorwärts → Lgr), nie mechanisch der Anrede — auch nicht der «Hoi»-Nähe. Quelle: 01.–05.05.2026,
+  authentisch (bestätigt «Gruss folgt dem Mail-Typ» oben; → [[arbeitsweise]]).
+- **Mikro-Metrik Batch 43** (612 W über `stilmetrik.py`, nur authentische RJ-Textteile, ohne
+  zitierte Fremdmails/Signaturen): Du-Gross-Quote **1.0**; Tausender-Apostroph 1 (CHF 1'000.-);
+  «%» 0; Ellipsen 0; Satzlänge ø **16.1 W**; Grüsse «Freundliche Grüsse» **5×** dominant;
+  Anreden gemischt (Hoi Albin/Hoi Marco/Geschätzte Steffi/Geschätzter Herr/Geschätzter Albin/
+  Sehr geehrter Herr — je 1×). Quelle: 01.–05.05.2026, authentisch.
