@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 23:12:07
+Stand: 14.07.2026 23:22:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:08)
@@ -19,4 +19,4 @@ Stand: 14.07.2026 23:12:07
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b5c014c4 nas-selfcommit: 2 Datei(en) 2026-07-14 23:00
+- c0b87b4d nas-selfcommit: 2 Datei(en) 2026-07-14 23:15
