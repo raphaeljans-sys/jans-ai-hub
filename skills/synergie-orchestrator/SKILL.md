@@ -25,9 +25,9 @@ description: >-
 ## Contract
 
 - **Trigger:** Auf Zuruf («Synergien pruefen», «Synergie-Check», «Geschaeftsmodell-
-  Vorschlaege») sowie als periodischer Lauf (empfohlen: monatlich im Nachtfenster,
-  gestaffelt nach `wissenscheck-monatlich`; waehrend der Drossel-Phase gemaess Rule
-  260714 KEIN neuer Scheduled Task ohne ausdrueckliche Freigabe von Raphael).
+  Vorschlaege») sowie monatlich via Scheduled Task `synergie-lauf-monatlich`
+  (1. des Monats 04:40, Nachtfenster; freigegeben Raphael 15.07.2026, Erstlauf
+  01.08.2026). Drossel-Regeln (z.B. 260714) vor jedem Lauf pruefen und respektieren.
 - **Inputs:** `CLAUDE.md` (Skill-/Agenten-/Rule-Inventar), `skills/*/SKILL.md`
   (Contract-Bloecke: Vorgelagert/Nachgelagert/Output-Ablage), `agents/*.md`,
   `services/KATALOG.md`, `wissen/*/CLAUDE.md` + `INDEX.md`, `connectors/`,

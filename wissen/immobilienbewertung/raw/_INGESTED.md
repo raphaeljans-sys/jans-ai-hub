@@ -78,6 +78,13 @@ real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
 
+**Stand Run 34 (2026-07-15):** **Kein neuer Ingest — Delta-/Marktpuls-Check am neuen Tag.** Erster
+Lauf im Soll-Takt nach dem Run-33-Root-Cause-Fix. Bewertungsordner unveraendert (6 Faelle, juengster
+Wangen 8855), keine neue Quelle. Marktpuls-Web: Referenzzins 1.25 % / SNB-Leitzins unveraendert
+(naechste Publikation 01.09.2026), kein neuer amtlicher Durchschnittszinssatz (KB bleibt 1.31 % per
+31.03.2026). Keine Artikelaenderung. Die KB ist saturiert; produktiver Ingest erst wieder bei neuem
+JANS-Fall / neuem Rohmaterial einer D-Luecke / neuem amtlichen Marktwert.
+
 **Stand Run 18 (2026-07-12):** **Verifikations-Pass Healthcare-Kennwerte — kein neuer Ingest.**
 Erster Lauf im Verifikations-Modus (PFLICHT ab 12.07.). Modell-D-Volltext-Recompute der tragenden
 Healthcare-Neuwert-Kennwerte gegen die Quell-Zahlen: **bestanden** = Herose-Einzelanker (3'848/1'105/

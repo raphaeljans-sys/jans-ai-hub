@@ -55,3 +55,36 @@
 - **Startbefehl:** je Stufe, z.B. `Ausschreibung <Gewerk/BKP> fuer Projekt <Nr>` oder
   `Kostenrapport Projekt <Nr>`
 - **Durchlaufzeit:** projektbegleitend; einzelne Stufen 0.5–2 Arbeitstage.
+
+## S5 — Wettbewerbs-Fabrik
+
+- **Deliverable:** (a) eigene Wettbewerbsteilnahmen skaliert: Programm-Extraktion,
+  Raumprogramm-/Flaechen-Nachweis SIA 416 (Soll/Ist-Ampel), Erlaeuterungsbericht,
+  Konzept-Schemas, Plakat-Geruest, Situationsmodell-STL + Abgabe-Checkliste, gezogen
+  durch die Konformitaets-Schleife bis erfuellt (Parti bleibt Human Gate bei Raphael);
+  (b) Zulieferung fuer Partnerbueros: Flaechennachweis + Programm-Konformitaetspruefung
+  als diskrete Dienstleistung (ohne eigenen Entwurfsanspruch, anonymitaetswahrend).
+- **Pipeline:** Skill `wettbewerb` (Fan-out programm-leser / flaechen-nachweis /
+  programm-pruefer / bericht-autor / schema-zeichner / plakat-setzer) · `volumenstudie`
+  (3D/STL) · `planungsgrundlagen` (Geodaten) · `grobkosten-onepager` (Kennzahl);
+  typologische Basis KB `wissen/wettbewerbs-dna/` + `wissen/entwurfs-referenzen/`.
+- **Kunden-Input:** Wettbewerbsprogramm-PDF (+ Beilagen); bei Zulieferung: Projektstand
+  des Partnerbueros (Plaene/Flaechentabelle).
+- **Startbefehl:** `Wettbewerb <Name> aufsetzen` bzw. `Flaechennachweis/Konformitaetspruefung
+  fuer <Wettbewerb> (Zulieferung)`
+- **Durchlaufzeit:** Geruest + Nachweise 1–2 Arbeitstage nach Programm; projektbegleitend
+  bis Abgabe. Aktiviert: 15.07.2026 (Synergie-Lauf 01, SYN-03).
+
+## S6 — Energie-Vorabklaerung
+
+- **Deliverable:** belegtes Energie-Factsheet zu Objekt/Parzelle: PV-/Solar-Eignung
+  (Indach/Ziegel/transparent/Fassade/Aufdach), U-Wert-/Bauteil-Einschaetzung (SIA 380/1),
+  Energienachweis-Vorpruefung + ZH-Baueingabe-Energieformulare-Fahrplan, Bauherren-
+  Antworten aus der FAQ (jede Aussage mit Quelle). DOCX+PDF; auch als Add-on zu S1/S3.
+- **Pipeline:** Agent `energie-berater` (PL-04) · KB `wissen/energie/` (Destillate +
+  BAUHERREN-FAQ) · Grundlagen via `planungsgrundlagen` (`geo-zh.mjs`).
+- **Kunden-Input:** Adresse/Parzelle, Gebaeudedaten (Baujahr, Nutzung), Absicht
+  (Neubau/Sanierung/PV), vorhandene Unterlagen.
+- **Startbefehl:** `Energie-Vorabklaerung fuer <Objekt/Adresse>` (Zusatz: `als Add-on zu
+  <S1/S3-Auftrag>`)
+- **Durchlaufzeit:** 0.5–1 Arbeitstag. Aktiviert: 15.07.2026 (Synergie-Lauf 01, SYN-07).

@@ -1,5 +1,23 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-15 — Trainingslauf 19
+- Output `outputs/2026-07-15_training-run19.md`. **Keine neue reale Spec** seit Lauf 7
+  (Wettbewerbs-Layer 12.07.) → Verifikationslauf. Erster Lauf am neuen Tag und erster sauber
+  ins Nachtfenster getakteter Lauf (00:54) — die Scheduling-Redundanz der Laeufe 14–18 (bis
+  5x am 14.07.) ist beendet, konsistent mit Drossel-Rule 260714. Prozess-Beobachtung als
+  geloest bestaetigt, nicht vertieft.
+- **Faden geschlossen (Monitor-Schweige-Regression Laeufe 11–14):** geheilt — der
+  `ag-gruendung-monitor` schreibt wieder taeglich (14.07. 07:47-Eintrag real in `fristen.md`).
+  Bestaetigt endgueltig die Lauf-14-Korrektur «die Stille war temporaer, nicht permanent». Die
+  Kernlehre «ein Flag ist keine Reparatur» bleibt gueltig (Wiederaufnahme NICHT kausal auf die
+  KB-Eskalation belegt — der Monitor lief schlicht wieder an). Sauberer Verifikationslauf-Ausgang:
+  alter Befund aufgeloest, ohne Rule-/Gate-Aenderung zu erfinden.
+- **Umgesetzt:** `wiki/QUESTIONS.md` F2 um den Aufloesungs-Absatz «15.07. (Lauf 19)».
+- **Bewusst nicht getan:** kein Environment-Sweep (Lauf 13 frisch), keine erfundene F1/F3-Fuellung,
+  keine Aenderung an Rule/Skill/uebrigem Wiki, kein Mail-Versand, keine `logbuch`-Reparatur.
+- Offen: F1-Ueberdehnungs-Gegentest unbelegt; F3 nur noch Marketing/Text offen; AG-Gruendung
+  inhaltlich in `logbuch`-Hand (UBS-Formular + Notariats-Antwort ausstehend).
+
 ## 2026-07-14 — Trainingslauf 18
 - Output `outputs/2026-07-14_training-run18.md`. Fuenfte Ausloesung desselben Tages (11:2x Uhr,
   ~1 Std. nach Lauf 17 um 10:15) — Scheduling-Drosselung (Rule 260713, 1x/Tag 04:10) greift weiterhin

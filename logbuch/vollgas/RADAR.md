@@ -21,6 +21,37 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-15 00:51 — [GEDROSSELT] Schoner-Lauf: Runner gestoppt, Nachtfenster-Trainings greifen, Reset-Countdown korrigiert (~5.5 Tage)
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 14.07. 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer), Runner-Logs unangetastet
+seit 12:40/12:37. Als Schoner starte ich den Runner NICHT neu und loesche STOP NICHT.
+
+**Reset-Countdown korrigiert:** Der naechste Wochen-Reset ist **Montag 20.07. 11:59** — von jetzt
+(Mi 00:51) sind das **noch ~5.5 Tage**, nicht «~3.4 Tage» wie in den letzten beiden Eintraegen
+angegeben (dort zu tief geschaetzt). Wochenlimit-Stand unveraendert 81% (Referenz 14.07.), keine
+neue /usage-Zahl vorliegend — daher nicht fortgeschrieben, nur der Zeitbezug richtiggestellt.
+
+**Login (unveraendert):** headless-Login-Test (`claude -p --model haiku`) auf dem MacBook Pro
+weiterhin «Not logged in». Im Drossel-Regime unkritisch — der Runner soll ohnehin stehen; ein Fix
+wuerde nur wieder hochfahren. Kein neuer P1, kein Mail. Gebraucht erst, wenn Raphael ausdruecklich
+hochfahren laesst (`claude setup-token`, Abo-OAuth, KEIN API-Key, in `~/.jans-dispatch.env` beider
+Stationen).
+
+**Durchsatz (letzte 12 h):** substanzielle Trainings-Commits ueber das Nachtfenster wie vorgesehen —
+Mac Mini: Energie-KB Run 70 (VHKA ZH/SZ, Schwyzer Anschlusskosten/Fernwaerme-Tarife, GEAK-Pflicht-
+Landkarte + Foerderkorrektur, FAQ F82/F83) und Normen Mini-Run 28 (17 DIN/Sonstiges-Q&A-Destillate).
+Danach ab ~00:00 nur noch `nas-selfcommit` (15-Min-Backstop) — MacBook Pro still (Login-Block +
+Drossel, erwartet). Die gedrosselten Nachtfenster-Trainings greifen sauber.
+
+- **P1 — keiner.** Kein Blocker des erwuenschten (gedrosselten) Zustands.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt, Wochenlimit geschont, Zeitbezug korrigiert. Kein Mail-Anlass.
+
+---
+
 ## 2026-07-14 23:48 — [GEDROSSELT] Schoner-Lauf: P2 umgesetzt — Radar-Frequenz von stuendlich auf 4x taeglich gesenkt (schont selbst Wochenlimit)
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini

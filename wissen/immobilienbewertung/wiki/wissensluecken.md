@@ -33,6 +33,15 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-15 **Delta-/Marktpuls-Check (Run 34)** — erster Lauf am neuen Tag im Soll-Takt
+  (nach dem Run-33-Fix). Kein neuer Ingest, keine Artikelaenderung: die KB ist saturiert
+  (Wuest-Kurs + E1-E10 + alle auto-schliessbaren T-Aufgaben abgearbeitet); 10 Themen zu
+  erfinden waere ein Leitplanken-Verstoss. Bewertungsordner unveraendert (6 Faelle, juengster
+  Wangen 8855). Marktpuls: Referenzzins 1.25 % bestaetigt (naechste Publikation 01.09.2026),
+  SNB unveraendert, kein neuer amtlicher Durchschnittszinssatz (KB bleibt 1.31 % per 31.03.2026).
+  Oberrieden-Hoehenkorrektur (Rule 260624) zum 7. Mal an Raphael geflaggt. Details:
+  `outputs/2026-07-15_training-run34.md`.
+
 - ✓ 2026-07-14 **Root-Cause-Fix Trigger-Haeufung (Run 33)** — sechster Trigger desselben Tages.
   Statt die Haeufung ein sechstes Mal zu protokollieren, Ursache gesucht und behoben: der
   VOLLGAS-Endlos-Runner (`scripts/vollgas-runner.sh`) zog `immobewertung-training` weiterhin in

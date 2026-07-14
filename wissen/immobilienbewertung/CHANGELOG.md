@@ -2,6 +2,22 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-15 — Training-Run 34: Delta-/Marktpuls-Check (neuer Tag, Soll-Takt)
+
+- Erster Lauf am neuen Tag nach dem Run-33-Root-Cause-Fix. **Kein neuer Ingest, keine
+  Artikelaenderung** — es gibt keine 10 ehrlich schliessbaren Themen mehr (Wuest-Kurs +
+  E1-E10 + alle auto-schliessbaren T-Aufgaben seit Run 16 abgearbeitet); 10 Themen zu
+  erfinden waere ein Verstoss gegen die Leitplanke «nie erfinden».
+- Delta-Check: Bewertungsordner unveraendert (6 Faelle, juengster Wangen 8855). Marktpuls-Web:
+  Referenzzins **1.25 %** bestaetigt (naechste Publikation 01.09.2026), SNB-Leitzins
+  unveraendert, kein neuer amtlicher Durchschnittszinssatz (KB bleibt 1.31 % per 31.03.2026) —
+  keine Uebernahme der unpraezisen Blog-Spanne (Quellenpflicht).
+- Oberrieden-Hoehenkorrektur (Rule 260624, amtlich 8.5 m statt 9.0 m traufseitig) zum
+  **7. Mal** an Raphael geflaggt, weiterhin unkorrigiert.
+- Empfehlung bestaetigt: Nachttakt 02:50 (Rule 260713) ist fuer diese saturierte KB angemessen;
+  produktiver Lauf erst wieder bei neuem JANS-Fall / neuem Rohmaterial / neuem amtlichen
+  Marktwert (fruehestens 01.09.2026). Report: `outputs/2026-07-15_training-run34.md`.
+
 ## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Querbezug KB energie (Doppelzaehlungs-Guard)
 - [link] `wiki/realwert-sachwert.md` (nach BKP-Anteile Tab. 3): Verweis auf `wissen/energie` fuer absolute Haustechnik-/PV-/Fernwaerme-Komponentenkosten — diese stecken bereits in den BKP-2-/HNF-Erstellungskennwerten, **nicht additiv**. Gegenrichtung in energie-Destillaten gesetzt. Kein Wertkonflikt (Metrik-Ebenen getrennt). Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
 

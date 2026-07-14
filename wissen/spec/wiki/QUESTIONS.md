@@ -110,6 +110,17 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     alten Befund wiederholen. Die Kernlehre "ein Flag ist keine Reparatur" bleibt bestehen (keine belegte
     Kausalitaet KB-Flag → Wiederaufnahme); nur die Dauerhaftigkeit der Stille war ueberschaetzt. →
     [[verifier]] Update-Absatz.
+  - Aufloesung 15.07. (Lauf 19): der Monitor-Schweige-Faden (Laeufe 11–14) ist **geheilt** — der
+    `ag-gruendung-monitor` schreibt wieder taeglich (Eintrag 14.07. 07:47 in `fristen.md`, «Stand
+    unveraendert» zu UBS/Notariat; um 00:54 des 15.07. hat der Tagesmonitor erwartungsgemaess noch
+    nicht gelaufen). Damit ist die in Lauf 14 als «Dauerhaftigkeit der Stille ueberschaetzt» korrigierte
+    Diagnose endgueltig bestaetigt: die Stille war ein **temporaeres** Aussetzen (10.–13.07.), keine
+    permanente Regression. Die Kernlehre «ein Flag ist keine Reparatur» bleibt unberuehrt (die
+    Wiederaufnahme ist NICHT belegt kausal auf die KB-Eskalation zurueckzufuehren — der Monitor lief
+    schlicht wieder an). Der Faden wird hiermit als **erledigt** geschlossen; kein weiterer
+    Wiederholungs-Sweep noetig, solange der taegliche Eintrag laeuft. Die inhaltliche AG-Gruendung
+    selbst bleibt in `logbuch`-Hand (ausserhalb KB-Mandat): UBS-Formular/Kapitalbescheinigung + Notariats-
+    Antwort weiter ausstehend.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
