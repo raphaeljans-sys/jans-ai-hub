@@ -21,6 +21,43 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 22:52 — [GEDROSSELT] Schoner-Lauf: Runner gestoppt, headless-Login auf dem MacBook Pro weg — im Drossel-Regime aber unkritisch, kein Mail
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer), Runner-Logs zuletzt 12:40/12:37
+angefasst. Als Schoner starte ich den Runner ausdruecklich NICHT neu und loesche STOP NICHT.
+Wochenlimit wird geschont (81% verbraucht, Reset Mo 11:59, jetzt noch ~3.4 Tage).
+
+**Login-Aenderung:** Der headless-Login-Test (`claude -p --model haiku`) liefert zweimal
+hintereinander «Not logged in · Please run /login» — ein Wechsel gegenueber den Laeufen 20:48/21:48,
+die noch «OK» meldeten. Der MacBook-Pro-headless-Login ist also seit ~22:48 weg.
+
+**Bewertung — bewusst KEIN Mail (anders als im VOLLGAS-Regime):** Im Drossel-Regime ist der Runner
+ohnehin gewollt gestoppt; ein headless-Login-Block auf dem MacBook Pro blockiert den erwuenschten
+Zustand NICHT. Ein Fix (`claude setup-token`) wuerde nur dazu dienen, den headless-Durchsatz WIEDER
+hochzufahren — genau das Gegenteil dessen, was wir gerade wollen (Wochenlimit schonen). Raphael
+deswegen zu wecken waere kontraproduktiv. Deshalb: Beobachtung protokollieren, kein Mail. Der Login
+wird erst wieder gebraucht, wenn Raphael ausdruecklich hochfahren laesst — dann via `claude setup-token`
+(Abo-OAuth, KEIN API-Key) in `~/.jans-dispatch.env` auf beiden Stationen.
+
+**Durchsatz:** 8 Commits/90 Min, 27/6 Std. Neue Substanz: Energie-KB «GEAK-Pflicht-Landkarte ZH/SZ»
+(SZ-Klasse-D-Nachweisweg, Korrektur Foerderbeitraege, FAQ F82, 22:45) und normen-KB Mini-Run 28 —
+beides ueber den Mac Mini (dessen Login separat und offenbar intakt). Rest = `nas-selfcommit`-
+Heartbeats (alle 15 Min). Erwartete ruhige Gedrossel-Kadenz; die Mac-Mini-Trainings ziehen im
+Nachtfenster (22:00–06:00) wie vorgesehen an, der MacBook Pro bleibt still (Login-Block + Drossel).
+
+- **P1 (neu, aber im Drossel-Regime unkritisch) — MacBook-Pro-headless-Login weg:** nur relevant,
+  falls Raphael VOR dem naechsten Wochen-Reset auf dem MacBook Pro wieder headless hochfahren will;
+  Fix dann `claude setup-token`. Kein Mail (siehe Bewertung).
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Im Schoner-Modus reicht 3–4x
+  taeglich statt stuendlich; der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade
+  schonen. Vorschlag an Raphael fuers naechste Briefing (Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Wochenlimit geschont. Login-Block protokolliert,
+im Drossel-Regime kein Handlungsbedarf, kein Mail-Anlass.
+
 ## 2026-07-14 21:48 — [GEDROSSELT] Schoner-Lauf: Nachtfenster erreicht, Runner gestoppt, Login intakt, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini

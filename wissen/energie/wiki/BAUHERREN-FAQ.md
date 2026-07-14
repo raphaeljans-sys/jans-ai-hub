@@ -3056,3 +3056,50 @@ Einsiedeln AG, «Preisblatt für Fernwärme 2025»; EWS AG Ibach, «Netzanschlus
 `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`, `[[foerderprogramm-energie-sz-2026]]`.
 ⚠ Beträge exkl. MWST; die Beispielrechnungen (12 kW / 55 kW / 40 A / 160 A) sind eigene Anwendungen der
 publizierten Formeln, nicht amtlich publizierte Einzelbeispiele. Verbindlich ist immer die Offerte.
+
+---
+
+## F84 — «Muss ich in meinem MFH-Neubau Wärmezähler pro Wohnung einbauen?» (VHKA ZH/SZ)
+
+**Kurz-Antwort für den Bauherrn:** Im Kanton Zürich praktisch immer — die Warmwasser-Messpflicht
+greift schon **ab 2 Nutzeinheiten** mit zentraler Wärmeversorgung (tiefste Schwelle der
+Deutschschweiz). Im Kanton Schwyz erst **ab 5 Nutzeinheiten**. Befreit sind Gebäude, deren
+installierte Wärmeerzeugerleistung inkl. Warmwasser unter **20 W/m² EBF** liegt; im Kanton Zürich
+zusätzlich Minergie-Bauten, Luftheizsysteme und Fälle, in denen eine Nutzeinheit über 80 % der
+beheizten Fläche belegt. Budget: rund **CHF 500–1'000 pro Wohnung** Installation plus **CHF 50–100
+pro Wohnung und Jahr** für Ablesung und Abrechnung.
+
+**Fachliche Begründung:** ZH EnerG (LS 730.1) § 9 Abs. 1/2, Befreiungen BBV I (LS 700.21) § 43;
+abgerechnet werden mindestens **60 %** der Wärmekosten nach tatsächlichem Verbrauch (BBV I § 44).
+SZ EnG (SRSZ 420.100) § 10 Abs. 1 lit. a, Befreiung EnV 1 (SRSZ 420.111) § 27; dort verlangt der
+Erlass die Abrechnung «zum überwiegenden Teil» nach gemessenem Verbrauch, ohne Prozentzahl. Das
+gängige Splitting nach VEWA (30 % Grundkosten / 70 % Verbrauch) erfüllt beide Vorgaben.
+
+**Quelle + Datenstand:** EnerG ZH i.d.F. 1.9.2022; BBV I Nachtrag 124 (Stand 1.4.2024); SRSZ
+420.100 / 420.111 Stand 1.2.2025; VEWA (BFE/EnergieSchweiz), 5. Auflage; EnFK EN-113 (12.2018) —
+gelesen 14.07.2026. Destillat: `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]`.
+
+---
+
+## F85 — «Wir ersetzen die Heizung in einem bestehenden MFH — kommt die VHKA-Nachrüstung dazu?»
+
+**Kurz-Antwort für den Bauherrn:** Im Kanton Zürich ja, sobald das Gebäude mindestens **3
+Nutzeinheiten** an einer zentralen Wärmeversorgung hat und das Heizungs- oder Warmwassersystem
+gesamterneuert wird — diese Nachrüstpflicht ist seit **1.9.2025** wirksam. Im Kanton Schwyz erst ab
+**5 Nutzeinheiten** und nur bei Totalsanierung. Die Messtechnik gehört damit ins Budget jedes
+Heizungsersatzes. Wichtig für die Vermietung: Die Geräte-Investition darf **nicht** in die
+Nebenkosten, sie läuft über eine Mietzinserhöhung; Ablesung und Abrechnung dagegen sind
+anrechenbare Nebenkosten.
+
+**Fachliche Begründung:** ZH EnerG § 9 Abs. 3 samt Übergangsbestimmung (Inkrafttreten 3 Jahre nach
+der Änderung vom 26.10.2020, die am 1.9.2022 in Kraft trat); SZ EnG § 10 Abs. 1 lit. b. Mietrecht:
+VMWG Art. 5 Abs. 2 lit. f (Verbrauchserfassung und Abrechnungsservice anrechenbar) gegenüber
+Art. 6 (Verzinsung und Abschreibung der Geräte nicht anrechenbar) — die Investition wird deshalb
+über Art. 269d OR überwälzt; Richtwert Überwälzungssatz 12 % pro Jahr (10 Jahre Lebensdauer),
+bei CHF 750 pro Wohnung also rund CHF 7.50 Mietzinsaufschlag pro Monat.
+
+**Quelle + Datenstand:** AWEL-Volltext EnerG per 1.9.2022; SRSZ 420.100 Stand 1.2.2025; VMWG Stand
+1.6.2020; VEWA (BFE), 5. Auflage — gelesen 14.07.2026. Destillat:
+`[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]`.
+⚠ Offen im Kt. SZ: der Prozentsatz hinter «überwiegender Teil» in der AfU-Vollzugspraxis, und ob
+ein vor dem 1.2.2001 bewilligtes MFH bei Totalsanierung ausrüstungspflichtig wird (§ 25 EnV 1).

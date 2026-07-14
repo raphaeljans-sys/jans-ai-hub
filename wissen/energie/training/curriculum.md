@@ -149,6 +149,48 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[lignum-schallschutz-holzbau-flankenuebertragung]]` (F25/F17 geschaerft). Offen: konkrete Lignum-
   Konstruktionsdetails + gemessene K_F-/Bauteilwerte (LIT-Doku).
 
+- **D51 (Run 70, 2026-07-14, gedrosselt)** — Erster Lauf unter der neuen Rule **260714 (Tempo
+  drosseln, Wochenlimit 81 %)**: Batch bewusst von 6-10 auf **drei** Themenkomplexe zurueckgenommen
+  (Token-Vollgas 260712b ist fuer die Restwoche aufgehoben). PDF-Inventar weiterhin erschoepft, daher
+  wieder Web-Pfad; drei parallele Rechercheagenten. **D51a Schwyzer Kostenluecke aus Run 69
+  geschlossen** — Fernwaerme SZ: Agro Energie Schwyz publiziert die vollstaendige Anschlussformel
+  (CHF 20'676 + 800/kW bis 20 kW bzw. 31'000 + 380/kW darueber, indexiert am Zuercher
+  Wohnbaukostenindex; Grundpreis 92.02 CHF/kW·Jahr, Arbeitspreis 14.20 Rp./kWh; Zuleitung ab
+  Parzellengrenze 600-800 CHF/m separat), Energie Einsiedeln 11.53 Rp./kWh, Energie Ausserschwyz
+  publiziert nichts (Offerte zwingend); Strom-Netzanschluss SZ: EWS Ibach Netzkostenbeitrag
+  CHF 140/A bis 315 A (85/A darueber) + Netzanschlussbeitrag 16 A CHF 1'860 bis 1'000 A CHF 17'210,
+  EW Hoefe CHF 160/A. Kernmechanik: der Netzkostenbeitrag knuepft an die **bezugsberechtigte
+  Leistung** an — PV loest ihn nicht aus, eine Ladeinfrastruktur mit Leistungserhoehung schon
+  (dynamisches Lastmanagement ist der erste Hebel). Adversarial widerlegt: der kursierende Wert
+  «Agro Energie EFH 10 kW ≈ CHF 18'000» ist an keiner Primaerquelle belegt und widerspricht der
+  publizierten Formel → `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]` auf **established**
+  gehoben, `[[fernwaerme-anschlusskosten-zh]]` ergaenzt (bleibt emerging), FAQ **F83** neu.
+  **D51b GEAK-Pflicht-Landkarte ZH/SZ** — das Destillat existierte bereits (Run 43/08.07.), wurde
+  daher nicht dupliziert, sondern um die Pflichtfrage erweitert: in ZH und SZ ist der GEAK
+  **nirgends zwingend** (keine Handaenderungs-, keine Baubewilligungspflicht; gesetzliche
+  Handaenderungspflicht nur FR/VD/NE/JU). Zwingend ist er nur (1) als **GEAK Plus ab CHF 10'000
+  Foerderbeitrag** an die Huelle (HFM 2015) und (2) in **SZ als einer von drei Nachweiswegen beim
+  fossilen 1:1-Heizungsersatz** (Klasse D Gesamtenergieeffizienz, Alternative zu MuKEn-Standardloesung
+  oder Minergie-Zertifikat; AfU SZ FAQ 28.08.2025) — diesen Weg gibt es im Kt. ZH nicht (§ 11 EnerG:
+  erneuerbar, Ausnahme nur via Lebenszykluskosten-Nachweis EN-LCC-ZH). **Sachfehler korrigiert:**
+  in der KB stand «CHF 1'000 (GEAK) / 1'500 (GEAK Plus)» — richtig ist, dass **nur der GEAK Plus**
+  gefoerdert wird, gestaffelt nach Gebaeudetyp (1'000 EFH/ZFH, 1'500 uebrige); der Basis-GEAK wird in
+  ZH und SZ **nicht** gefoerdert. Korrektur in Destillat, Kosten-Destillat, Wiki-Artikel, FAQ F36 und
+  beiden INDEX-Registern nachgezogen → `[[geak-gebaeudeenergieausweis-kantone]]` (established),
+  FAQ **F82** neu. **D51c VHKA — verbrauchsabhaengige Heiz- und Warmwasserkostenabrechnung ZH/SZ**
+  (in der KB bisher gar nicht belegt, obwohl sie in jedem MFH-Projekt anfaellt): Pflichtschwellen aus
+  den Primaererlassen im Volltext — **ZH** EnerG § 9 Warmwasser-Messpflicht im Neubau schon ab
+  **2 Nutzeinheiten** (tiefste Schwelle der Deutschschweiz), Nachruestung im Bestand ab **3
+  Nutzeinheiten** bei Gesamterneuerung des Heizungs- oder Warmwassersystems (Uebergangsfrist
+  abgelaufen, **wirksam seit 1.9.2025**), Abrechnung **min. 60 %** nach Verbrauch (BBV I § 44),
+  Befreiung < 20 W/m² EBF / Minergie / Luftheizung (BBV I § 43); **SZ** EnG § 10 + EnV 1 §§ 25-27
+  erst ab **5 Nutzeinheiten**, «ueberwiegender Teil» ohne Prozentzahl, ausruestungspflichtig ab
+  Baubewilligung nach 1.2.2001. Mechanik VEWA 30/70, Invest CHF 500-1'000 je Nutzeinheit +
+  CHF 50-100/Wohnung·Jahr; mietrechtlich sind Ablesung/Abrechnung anrechenbare Nebenkosten
+  (VMWG Art. 5 Abs. 2 lit. f), die **Geraete-Investition nicht** (Art. 6) → Mietzinserhoehung
+  (Art. 269d OR) → `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]` (neu, **established**),
+  FAQ **F84/F85** neu.
+
 ## Block B — Nachweis & Recht (ZH)
 - [x] B1 ZH-Energienachweis EN-ZH: welches Formular wann — belegt 2026-06-07 via EN-ZH-005
   → `[[energienachweis-zh]]` (FAQ F12). ⚠ Vollzug seit 1.1.2026 elektronisch (EVEN, energievollzug.ch).

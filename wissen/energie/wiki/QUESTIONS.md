@@ -681,3 +681,24 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   gebliebenen Luecken (Fernwaerme-Anschlusskosten SZ, EWS-Netzverstaerkungs-CHF-Ansaetze) sowie ein
   neuer Themenkomplex aus Prioritaet 3 «Aktualitaet/Recht» (z.B. Denkmalschutz-PV-Ausnahmen im
   Detail oder ein noch nicht behandeltes MuKEn-2025-Modul).**
+
+- [x] **E71** **Schwyzer Anschlusskosten (Fernwärme + Strom-Netz)** belegt ✓ 2026-07-14 (Run 70) →
+  `[[fernwaerme-anschlusskosten-zh]]` + `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`, FAQ **F83**
+  neu. Schliesst die in Run 69 offen gebliebene SZ-Lücke: Agro Energie Schwyz / Energie Einsiedeln
+  (Fernwärme), EWS Ibach / EW Höfe (Netzkostenbeitrag). Netzanschluss-Destillat auf **established**
+  gehoben. Offen bleiben: Anschlussbeitrag Energie Einsiedeln + Energie Ausserschwyz (nicht publiziert,
+  nur Offerte), Wärmeverbünde Küssnacht/Arth-Goldau, VNB ausserhalb EWS/EW Höfe, sowie ein CHF-Wert für
+  eine effektive erzeugungsbedingte Netzverstärkung in SZ.
+- [x] **E72** **GEAK — ist er irgendwo Pflicht?** belegt ✓ 2026-07-14 (Run 70) →
+  `[[geak-gebaeudeenergieausweis-kantone]]`, FAQ **F82** neu. In ZH/SZ nirgends zwingend; zwingend nur
+  als GEAK Plus ab CHF 10'000 Förderbeitrag und in SZ als Klasse-D-Nachweisweg beim fossilen
+  Heizungsersatz. Dabei Sachfehler korrigiert (nur der GEAK **Plus** wird gefördert, gestaffelt nach
+  Gebäudetyp 1'000/1'500 — nicht «GEAK 1'000 / GEAK Plus 1'500»). Offen: der SZ-Klasse-D-Weg ist über
+  die AfU-FAQ belegt, nicht über den Gesetzeswortlaut — vor einer verbindlichen Einzelfall-Aussage am
+  Erlass zu verifizieren.
+- [x] **E73** **VHKA — Wärmezähler-Pflicht im MFH (ZH/SZ)** belegt ✓ 2026-07-14 (Run 70) →
+  `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]` (neu), FAQ **F84/F85** neu. ZH ab 2
+  Nutzeinheiten (Neubau) bzw. 3 (Nachrüstung, seit 1.9.2025), SZ ab 5; Befreiung < 20 W/m² EBF;
+  VEWA-Splitting 30/70; mietrechtliche Überwälzung geklärt. Offen: SZ-Vollzugspraxis hinter
+  «überwiegender Teil» (50/60/70 %?), ob ein vor dem 1.2.2001 bewilligtes MFH bei Totalsanierung
+  ausrüstungspflichtig wird (§ 25 EnV 1 vs. § 10 EnG), und ob die MuKEn 2025 das VHKA-Modul ändert.
