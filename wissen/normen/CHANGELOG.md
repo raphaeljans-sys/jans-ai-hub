@@ -1,3 +1,32 @@
+## 2026-07-14 — normen-training-nacht Run 11 (MacBook Pro): Retro-Verifikation 4 SIA-Bestandsdestillate
+- Gedrosselter Loop (Rule 260713, SIA+VKF Token-Fokus liegt auf Wettbewerbs-DNA); Runs 7-10
+  liefen heute bereits. Inventar-Check: SIA/VKF zeigen 0 offene `[ ]`-Positionen (Grunddestillation
+  komplett) — Lauf setzt bei Vertiefungsstufe (b) Retro-Verifikation an. Vier `destilliert`-Destillate
+  mit gültiger (nicht durch Register ersetzter) Ausgabe gewählt: SIA 184:1972, SIA 226:1976,
+  SIA 241:1988, SIA 256:1988 (alle klein, 8-20 Seiten, vollständig lesbar in einem Agenten-Lauf).
+- 4 parallele Verifikations-Agenten, je einer pro Norm, Volltextabgleich Destillat gegen Original-PDF:
+  - **SIA 184:1972** (Baureinigungsarbeiten): ~45 Punkte geprüft, 1 Lücke gefunden und ergänzt
+    (Ziff. 7.3.5 Taglohnarbeiten, Verweis auf SIA 118 fehlte).
+  - **SIA 226:1976** (Naturstein-Mauerwerk): ~35 Punkte geprüft, 4 Präzisierungen (Ziff. 7.12.02
+    Figur-1-Zuordnung zu SIA 225, Ziff. 7.12.04 Ausführungsart-Details, Ziff. 7.22.02 Wortlaut
+    "Schutz vor schädlichen Einflüssen", Anhang A101 Skizze-2-Präzisierung + Titelblatt-Hinweis
+    SN 505 226/Druckvermerk).
+  - **SIA 241:1988** (Schreinerarbeiten): alle 20 Seiten geprüft, fachlich-technischer Kern
+    (Holzfeuchte 9%/6-12%, Körnung, Durchbiegung 1/300, Geschossgruppen Ziff. 7.14) bereits
+    fehlerfrei; ergänzt: genaues Genehmigungsdatum (19.06.1987 Aarau, Inkrafttreten 1.03.1988),
+    Datum Vorgängernorm SIA 126 (24.06.1955), fehlender Kommissions-Mitgliederblock (S.20) +
+    Abkürzungsverzeichnis BSA/FRM/LIGNUM/VSSM (S.19).
+  - **SIA 256:1988** (Deckenverkleidungen aus Fertigelementen): ~45 Punkte geprüft, keine
+    Zahlen-/Fundstellenfehler, 1 Ergänzung (Verweis auf Prinzipskizze S.5 zu den fünf
+    Höhenbegriffen).
+- Insgesamt keine sachlichen Fehler in Zahlen/Kennwerten, nur Ergänzungen/Präzisierungen —
+  alle 4 Destillate von `destilliert` auf `established (verifiziert 260714, Volltextabgleich)`
+  gehoben. Nachgeführt: `training/norm-inventar.md` (4 Zeilen), `destillate/INDEX.md` (4 neue
+  Einträge). Lauf-Report: `outputs/2026-07-14_normen-nacht-run11.md`.
+- Git-Hinweis: `git status`/`commit` über den SMB-Mount hing mehrfach in uninterruptible I/O-Wait
+  (bekanntes NAS-SMB-Problem, siehe `sync-kanonische-quelle.md`); Commit im Hintergrund nachgeholt,
+  kein manueller Force-Eingriff (kein Lock-File vorhanden, kein konkurrierender Git-Prozess).
+
 ## 2026-07-14 — normen-training-mini Run 23 (Mac Mini): Q&A-Selbstbefragung 6 weitere DIN/VSS/RAL-Destillate
 - Inventar-Check vorab: DIN/VSS/RAL zeigen 0 offene `[ ]`-Positionen (Grunddestillation
   komplett seit Run 19) — Lauf setzt direkt bei Vertiefungsstufe (c) an.

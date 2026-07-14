@@ -40,7 +40,7 @@
 | [x] 260713 | P2 | `180.082_2017.pdf` | 180 | 2017 | Teil-Destillat, verifiziert 260713; sia-180-082-2017.md |
 | [x] 260713 | P2 | `180_2014.pdf` | 180 | 2014 | Teil-Destillat (Kernkapitel, Anhaenge A-H offen), verifiziert 260713; sia-180-2014.md |
 | [x] 260713 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (normativer Kern + Teile Anhang), verifiziert 260713; sia-181-2006.md |
-| [x] 260713 | P2 | `184_1972_d.pdf` | 184 | 1972 | destilliert (sia-184-1972.md), Baureinigungs-Arbeiten |
+| [x] 260714 | P2 | `184_1972_d.pdf` | 184 | 1972 | established (verifiziert 260714, Volltextabgleich, sia-184-1972.md), Baureinigungs-Arbeiten |
 | [x] 260713 | P2 | `193.111_1999_d.pdf` | 193 | 1999 | established (Run5, SN EN 12063:1999 Spundwaende, Kern S.1-46 verifiziert); sia-193-111-1999.md |
 | [x] 260713 | P2 | `195_1999_d.pdf` | 195 | 1999 | established (Run5, Rohrvortrieb, beanstandet-korrigiert gamma_Q); sia-195-1999.md |
 | [x] 260713 | P2 | `196_1998_d.pdf` | 196 | 1998 | teil-destillat (Run5, Baulueftung Untertagbau, Kern S.1-37); sia-196-1998.md |
@@ -52,17 +52,17 @@
 | [x] 260713 | P2 | `203_1997_d.pdf` | 203 | 1997 | established (Run5, Abfalldeponien, beanst.-korrigiert); sia-203-1997.md |
 | [x] 260713 | P2 | `2040_2017.pdf` | 2040 | 2017 | established (Run5, SIA 2040:2017 2000-Watt/Effiz.pfad); sia-2040-2017.md |
 | [x] 260713 | P2 | `2051_2018.pdf` | 2051 | 2018 | established (Run5, SIA 2051:2017 BIM-Begriffe); sia-2051-2018.md |
-| [x] 260713 | P2 | `226_1976_d.pdf` | 226 | 1976 | destilliert (sia-226-1976.md), Naturstein-Mauerwerk |
+| [x] 260714 | P2 | `226_1976_d.pdf` | 226 | 1976 | established (verifiziert 260714, Volltextabgleich, sia-226-1976.md), Naturstein-Mauerwerk |
 | [x] 260712 | P2 | `232_2000_d.pdf` | 232 | 2000 |  |
 | [x] 260712 | P2 | `240_1988_d.pdf` | 240 | 1988 |  |
-| [x] 260713 | P2 | `241_1988_d.pdf` | 241 | 1988 | destilliert (sia-241-1988.md), Schreinerarbeiten |
+| [x] 260714 | P2 | `241_1988_d.pdf` | 241 | 1988 | established (verifiziert 260714, Volltextabgleich, sia-241-1988.md), Schreinerarbeiten |
 | [x] 260713 | P2 | `244_2006_d.pdf` | 244 | 2006 | verifiziert established 260713 Run5 (bestanden); sia-244-2006.md |
 | [x] 260713 | P2 | `246_2006_d.pdf` | 246 | 2006 | verifiziert established 260713 Run5 (bestanden); sia-246-2006.md |
 | [x] 260713 | P2 | `248_2006_d.pdf` | 248 | 2006 | verifiziert established 260713 Run5 (bestanden); sia-248-2006.md |
 | [x] 260712 | P2 | `251_2008 Unterlagsboden.pdf` | 251 | 2008 |  |
 | [x] 260712 | P2 | `252_2002_d.pdf` | 252 | 2002 |  |
 | [x] 260712 | P2 | `253_2002_d.pdf` | 253 | 2002 |  |
-| [x] 260713 | P2 | `256_1988_d.pdf` | 256 | 1988 | destilliert (sia-256-1988.md), Deckenverkleidungen aus Fertigelementen |
+| [x] 260714 | P2 | `256_1988_d.pdf` | 256 | 1988 | established (verifiziert 260714, Volltextabgleich, sia-256-1988.md), Deckenverkleidungen aus Fertigelementen |
 | [x] 260712 | P2 | `257_2005_d.pdf` | 257 | 2005 |  |
 | [x] 260712 | P2 | `260_2003_d.pdf` | 260 | 2003 |  |
 | [x] 260712 | P2 | `261_2003_d.pdf` | 261 | 2003 |  |

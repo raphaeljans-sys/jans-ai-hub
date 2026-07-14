@@ -206,3 +206,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-721-2001.md` | SIA 721 Bohren/Trennen von Beton und Mauerwerk (NVB) | 2001 | established (verifiziert 260713) |
 | `sia-752-2002.md` | SIA 752 Fugenlose Industriebodenbeläge (NVB zu SIA 252) | 2002 | established (verifiziert 260713) |
 | `sia-753-2002.md` | SIA 753 Bodenbeläge Linoleum/Kunststoff/Textil/Holz (NVB zu SIA 253) | 2002 | established (verifiziert 260713) |
+| `sia-184-1972.md` | SIA 184 Baureinigungsarbeiten | 1972 | established (verifiziert 260714, Volltextabgleich, Ziff. 7.3.5 Taglohnarbeiten/SIA-118-Verweis ergänzt) |
+| `sia-226-1976.md` | SIA 226 Naturstein-Mauerwerk | 1976 | established (verifiziert 260714, Volltextabgleich, 4 Präzisierungen Ziff. 7.12/7.22/Anhang A101/Titelblatt-Hinweis) |
+| `sia-241-1988.md` | SIA 241 Schreinerarbeiten | 1988 | established (verifiziert 260714, Volltextabgleich, Genehmigungsdatum 19.06.1987/Ersatznorm SIA 126 24.06.1955 + Kommissions-/Abkürzungsverzeichnis ergänzt) |
+| `sia-256-1988.md` | SIA 256 Deckenverkleidungen aus Fertigelementen | 1988 | established (verifiziert 260714, Volltextabgleich, Prinzipskizze S.5 Höhenbegriffe ergänzt) |
