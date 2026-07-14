@@ -32,6 +32,11 @@ werden.
 - **Ausgabenhistorie:** SIA 2024:2006 → SIA 2024:2015 (ersetzte 2006 sowie Teile von SIA 382/1:2006) →
   SIA 2024:2021 (aktuell gültig, inkl. Korrigenda SIA 2024-C1:2024, welche die Normbezüge auf SIA 380:2022
   und SIA 387/4:2023 aktualisiert).
+
+> **Querbezug KB normen (Fundstelle/Ausgabe):** Die Norm-Fundstellen SIA 2024 / SIA 382/1 fuehrt die
+> normen-KB (Register `wissen/normen/wiki/REGISTER`). ⚠ **Ausgaben-Diskrepanz:** dieser Artikel arbeitet
+> mit **SIA 2024:2021** und **SIA 382/1:2025**; das normen-Register fuehrt bislang **2006** bzw. **2014**.
+> Re-Destillate in normen ausstehend (Wissens-Chef Run 4, 2026-07-14).
 - **Verhältnis zu SIA 380/1** (Heizwärmebedarf): SIA 2024 liefert die Eingabedaten, SIA 380/1 das
   Nachweisverfahren für den Heizwärmebedarf im kantonalen Energievollzug. Die 12
   Gebäudekategorien aus SIA 380/1 (Tab. 24/25, bereits im Destillat

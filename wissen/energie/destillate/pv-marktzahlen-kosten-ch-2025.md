@@ -57,6 +57,12 @@ sind selten — projektgenau via Installateur-Offerte.
   stunden; rechnerisch lohnt sie meist erst, wenn WP/WW/E-Auto schon in die Sonnenstunden verschoben
   sind (vgl. F18). Richtpreis 6'000–10'000 CHF (10–15 kWh, EFH).
 
+> **Querbezug KB grobkosten/immobilienbewertung:** Die PV-Marktkosten (CHF/kWp) sind eine BKP-2-
+> Unterposition (BKP 23) und stecken bereits in den aggregierten Erstellungskennwerten von
+> `wissen/grobkosten` (CHF/m3 GV) und `immobilienbewertung/wiki/realwert-sachwert` (BKP 2). **Nicht
+> additiv** auf ein m3-/m2-Aggregat aufrechnen (Doppelzaehlung); nur fuer den PV-Einzelinvestitions-
+> und Amortisationsvergleich verwenden.
+
 ## Offene Punkte
 - **CHF/kWp je Anlagengroesse** im Detail (EFH ↔ MFH ↔ Gewerbe ↔ Grossanlage) — Swissolar
   Solarmonitor 2025 / BFE-Preisbeobachtungsstudie 2024 (neuer als 2023) noch nicht im Detail erfasst.

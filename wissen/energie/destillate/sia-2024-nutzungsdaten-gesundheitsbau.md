@@ -18,6 +18,12 @@ Pflege/Altersheim), wobei die vollständigen Raumdatenblätter nur im kostenpfli
 Originalwerk stehen und für den *rechtlich massgebenden* Energienachweis weiterhin die
 gröberen, undifferenzierten SIA-380/1-Tabelle-27-Werte gelten.
 
+> **Querbezug KB normen (Fundstelle/Ausgabe):** Die Norm-Fundstellen SIA 2024, SIA 380/1 und
+> SIA 382/1 fuehrt die normen-KB (Register `wissen/normen/wiki/REGISTER`). ⚠ **Ausgaben-Diskrepanz:**
+> dieser Artikel arbeitet mit der aktuellen Ausgabe **SIA 2024:2021** (inkl. Korrigenda C1:2024);
+> das normen-Register fuehrt bislang **2006**. Ein SIA-2024-Destillat in normen fehlt noch
+> (Re-Destillat 2021 ausstehend, Wissens-Chef Run 4, 2026-07-14).
+
 ## Verhältnis SIA 2024 ↔ SIA 380/1
 
 SIA 2024 hat eine Scharnierfunktion: es übernimmt Standardwerte/Verfahren aus den

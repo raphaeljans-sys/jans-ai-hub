@@ -80,6 +80,15 @@ Untergeschoss ein und ist groesser. Faustregel bei Wohnbau mit 1 UG: GV ≈ Baum
    "Seed" auf "belegt (n=…)" und protokolliert im `CHANGELOG.md`.
 3. Veraltete Werte (Preisstand) werden beim `wissenscheck` markiert und nachgefuehrt.
 
+## Querbezug KB energie (Haustechnik-Detailkosten)
+
+Waermeerzeuger-, PV- und Fernwaerme-**Komponentenkosten** (CHF/kWp, Anschlusskosten, Rp/kWh) werden
+in der KB `wissen/energie` gefuehrt (`destillate/pv-marktzahlen-kosten-ch-2025`,
+`destillate/fernwaerme-anschlusskosten-zh`, `destillate/netzanschluss-netzverstaerkung-pv-emobilitaet-ch`).
+Diese stecken als BKP-2-Unterpositionen (BKP 23/24/25) **bereits in den hier gefuehrten CHF/m3-GV-Kennwerten
+(BKP 1-5)** — nicht additiv daraufrechnen (Doppelzaehlungs-Gefahr). Fuehrend fuer die m3-GV-Erstellungs-
+kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wissens-Chef Run 4, 14.07.2026).
+
 ## Quellen / Provenienz
 
 - Seed 070626: Marktannahme MFH/EFH Neubau Region ZH (Erfahrungswerte JANS), kalibriert an der

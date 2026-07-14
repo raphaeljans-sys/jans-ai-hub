@@ -135,6 +135,14 @@ Ueberpruefung» (vkg.ch, WebSearch 2026-07-14), presseportal.ch/baublatt.ch (Bes
 15.09.2025-Start + 11'000-Rueckmeldungen-Zahl).
 
 **§1a · Normkonzept BSV 2026 — die materiellen Eckpunkte (Primaerquelle, Run 48, 2026-07-14):**
+
+> **Querbezug KB normen (Fuehrung Norm-Fundstelle):** «Normkonzept BSV 2026» ist ein VKF-Primaerdokument;
+> die kanonische Fundstelle fuehrt laut Rule `normen-referenz.md` die KB **normen** (Register
+> `wissen/normen/wiki/REGISTER`). normen hat die PDF beschafft, aber **noch kein Destillat** angelegt —
+> solange fuehrt planungsgrundlagen die 38 Eckpunkte materiell hier. **Offener Punkt (Wissens-Chef Run 4,
+> 2026-07-14):** sobald normen das Normkonzept destilliert, wird dieser §1a auf das Planungs-/Bewilligungs-
+> Framing gekuerzt und ins normen-Destillat verlinkt (Trim = groessere Umstrukturierung, nicht autonom).
+
 Bisher kannte dieser Wegweiser vom BSV-2026-Projekt nur den **Zeitplan** (Vernehmlassung/
 Inkrafttreten). Neu abgelegt im SharePoint (11.07.2026) liegt die eigentliche **Konzeptgrundlage**
 vor: «Normkonzept BSV 2026» (VKF, Autor Alois Keel/Keel & Raster Planungs- und Baurecht GmbH,

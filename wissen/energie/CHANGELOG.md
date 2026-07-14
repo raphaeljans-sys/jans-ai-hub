@@ -2,6 +2,11 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Querbezug-Bloecke zu normen + grobkosten/immo gesetzt
+- [link] «Querbezug KB normen» in `destillate/sia-2024-nutzungsdaten-gesundheitsbau`, `sia-2024-nutzungsrandbedingungen-gesundheitsbau`, `komfortlueftung-wrg-sia382-luftwechsel`: Norm-Fundstelle SIA 2024/380-1/382-1 fuehrt normen; Ausgaben-Diskrepanz normen 2006/2014 vs. energie 2021/2025 ausgewiesen (energie ist aktuell, normen-Register nachgezogen — Run-4-Flags dort).
+- [link] «Querbezug KB grobkosten/immobilienbewertung» in `destillate/fernwaerme-anschlusskosten-zh` + `pv-marktzahlen-kosten-ch-2025`: diese Komponentenkosten sind BKP-2-Unterpositionen und stecken bereits in den m3-GV-/BKP-2-Erstellungskennwerten — **nicht additiv** (Doppelzaehlungs-Guard). Kein Widerspruch/Doppelspur (Metrik-Ebenen sauber getrennt).
+- Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
+
 ## 2026-07-14 — Run 69: vier neue Themenkomplexe (SIA 2024 Gesundheitsbau, Netzverstärkung PV/E-Mobilität, Fernwärme-Kosten, Netto-Null)
 - **Kontext:** Intensiv-Lauf gemäss `training/PROGRAMM.md` (Verifikations-Stufe, Intensivphase,
   Token-Vollgas). PDF-Inventar bleibt vollständig abgearbeitet (Erst-Erhebung Run 65) — daher vier

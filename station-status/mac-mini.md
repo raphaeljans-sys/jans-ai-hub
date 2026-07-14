@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 16:50:13
+Stand: 14.07.2026 17:10:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 33 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 35 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 9 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 8 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
@@ -19,4 +19,4 @@ Stand: 14.07.2026 16:50:13
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d25ce381 nas-selfcommit: 5 Datei(en) 2026-07-14 16:45
+- 1d43c3af Energie-Training Run 69: SIA 2024 Gesundheitsbau, Netzverstaerkung PV/E-Mobilitaet, Fernwaerme-Kosten, Netto-Null-Klimaziele

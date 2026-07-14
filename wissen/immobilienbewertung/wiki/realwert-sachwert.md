@@ -80,6 +80,12 @@ Rohbau 2 9.42 % (Total Rohbau **48.10 %**); Elektro 4.63 %, Heizung/Lueftung 4.1
 (Total Ausbau **21.90 %**); Honorare 12.55 %. Diese Anteile speisen die Alterswertminderung
 (unterschiedliche Lebensdauer je Bauteilgruppe, siehe unten).
 
+> **Querbezug KB energie:** Die BKP-2-Anteile Heizung/Lueftung/Sanitaer/Elektro sind hier relative
+> Anteile am Gebaeude. Absolute **Komponenten-Detailkosten** (Waermeerzeuger, PV CHF/kWp, Fernwaerme-
+> Anschluss) fuehrt `wissen/energie` (`destillate/pv-marktzahlen-kosten-ch-2025`,
+> `fernwaerme-anschlusskosten-zh`). Diese stecken bereits in den BKP-2-/HNF-Erstellungskennwerten —
+> nicht additiv daraufrechnen (Wissens-Chef Run 4, 14.07.2026).
+
 ### Erstellungskosten-Benchmarks Wuest Partner (Kurs 06.2023, S. 31-38)
 
 Referenzrahmen **BKP 1-5, CHF/m2 HNF, inkl. MwSt und Parkplaetze** (S. 37):

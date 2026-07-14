@@ -114,5 +114,11 @@ nur innerhalb der Übergangsfrist.
 - Herkunft/Methodik der bereits in der KB vorhandenen EnergieSchweiz-4'940-CHF-Zahl nicht bis auf
   Eingabeprofil zurückverfolgt.
 
+> **Querbezug KB grobkosten/immobilienbewertung:** Die hier gefuehrten Fernwaerme-Anschluss- und
+> Betriebskosten sind BKP-2-Unterpositionen (BKP 24 HLK) und stecken bereits in den aggregierten
+> Erstellungskennwerten von `wissen/grobkosten` (CHF/m3 GV, BKP 1-5) und
+> `immobilienbewertung/wiki/realwert-sachwert` (BKP 2). **Nicht additiv** zu einem m3-/m2-Aggregat
+> aufrechnen (Doppelzaehlung); nur fuer den Komponenten-/Vollkostenvergleich verwenden.
+
 **Backlinks:** [[fernwaerme-anschlusspflicht-zh]] · [[fernwaerme-anschlusspflicht-sz]] ·
 [[heizsysteme-vollkostenvergleich-energieschweiz]] · [[waerme-contracting-vertragsmodelle-ch]]

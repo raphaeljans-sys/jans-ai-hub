@@ -16,6 +16,12 @@ ALLE belegten Gebäude inkl. Wohnbauten über die Gerätekategorie WLA) — SIA 
 für Wohnbauten NICHT, wie eine erste Recherche fälschlich annahm.
 
 ## Normen-Hierarchie (korrigiert nach Verifikation)
+
+> **Querbezug KB normen (Fundstelle/Ausgabe):** Die Norm-Fundstelle SIA 382/1 fuehrt die normen-KB
+> (Register `wissen/normen/wiki/REGISTER`, Teil-Destillat `sia-382-1-2014`). ⚠ dieser Artikel arbeitet
+> mit der aktuellen **SIA 382/1:2025**; das normen-Register fuehrt bislang **2014** — Re-Destillat 2025
+> in normen ausstehend (Wissens-Chef Run 4, 2026-07-14).
+
 - **SIA 382/1:2025** ist die Schweizer Basisnorm für RLT-/Lüftungsanlagen, gültig für alle
   belegten Gebäude — inkl. Wohnbauten über die Gerätekategorie **WLA** (Wohnraumlüftungsanlage,
   bis 250 m³/h).

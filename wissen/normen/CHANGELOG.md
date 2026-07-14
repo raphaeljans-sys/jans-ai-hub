@@ -1,3 +1,8 @@
+## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): zwei Ausgaben-Flags SIA 2024 + SIA 382/1 gesetzt
+- [flag] `wiki/REGISTER.md`: SIA 2024 (Z.266) — **⚠ neuere Ausgabe SIA 2024:2021** (ersetzt 2015, gueltig ab 1.12.2021, inkl. Korrigenda C1:2024) annotiert; Register-Stand 2006 als ueberholt markiert. Quelle SIA-Shop (WebSearch-verifiziert). KB energie fuehrt 2021 bereits.
+- [flag] `wiki/REGISTER.md`: SIA 382/1 (Z.464) — **⚠ neuere Ausgabe SIA 382/1:2025** (ersetzt 2014, in Kraft seit 1.2.2025) annotiert; Register-Stand 2014 als ueberholt markiert. Quelle SIA-Shop (WebSearch-verifiziert). KB energie fuehrt 2025 bereits.
+- Format analog SIA-181:2020-Flag (Run 3). **Offen (Bring-Schuld normen-Loop):** Re-Destillate SIA 2024:2021 + SIA 382/1:2025 (kostenpflichtiger Volltext SIA-Shop). Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
+
 ## 2026-07-14 — Mini-Run 27 (Mac Mini): Q&A-Selbstbefragung 16 DIN/VSS-Destillate
 16 Destillate ohne bisherige Q&A-Selbstbefragung parallel per Sub-Agenten geprueft (DIN 1164-10, 1249-11,
 1356-1/-6, 18065, 18299, 18560-2, 272, 276-4, 68119, 919-1, Abkuerzungsverzeichnis, EN 1627, VSS 640291a,

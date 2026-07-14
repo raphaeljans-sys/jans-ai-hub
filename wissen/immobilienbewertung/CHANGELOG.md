@@ -2,6 +2,9 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Querbezug KB energie (Doppelzaehlungs-Guard)
+- [link] `wiki/realwert-sachwert.md` (nach BKP-Anteile Tab. 3): Verweis auf `wissen/energie` fuer absolute Haustechnik-/PV-/Fernwaerme-Komponentenkosten — diese stecken bereits in den BKP-2-/HNF-Erstellungskennwerten, **nicht additiv**. Gegenrichtung in energie-Destillaten gesetzt. Kein Wertkonflikt (Metrik-Ebenen getrennt). Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
+
 ## 2026-07-14 — Training-Run 33: Root-Cause-Fix Trigger-Haeufung + Delta-Check
 
 - **Root-Cause behoben statt zum sechsten Mal nur protokolliert:** `scripts/vollgas-runner.sh`

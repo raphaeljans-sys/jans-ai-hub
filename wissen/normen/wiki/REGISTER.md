@@ -263,7 +263,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 2021 | 2002 | 2002✓ |  |
 | SIA 2022 | 2003 | 2003✓ |  |
 | SIA 2023 | 2008 | 2008✓ · 2004✗ |  |
-| SIA 2024 | 2006 | 2006✓ |  |
+| SIA 2024 | 2006 | 2006✓ | **⚠ neuere Ausgabe SIA 2024:2021** (ersetzt 2015; gueltig ab 1.12.2021, inkl. Korrigenda C1:2024) — in KB energie `destillate/sia-2024-nutzungsdaten-gesundheitsbau` als aktuell gefuehrt; Register-Stand 2006 ueberholt, Re-Destillat 2021 ausstehend (Quelle SIA-Shop; Wissens-Chef Run 4, 14.07.2026) |
 | SIA 2025 | 2012 | 2012✓ |  |
 | SIA 2026 | 2006 | 2006✓ |  |
 | SIA 2027 | 2006 | 2006✓ |  |
@@ -461,7 +461,7 @@ oder begruendet uebersprungen). Neu registriert bzw. praezisiert:
 | SIA 370.028 (SN EN 81-28) | 2003 | — | gilt; Fern-Notruf für Aufzüge (Übernahme EN 81-28:2003) |
 | SIA 370.080 (SN EN 81-80) | 2003 (gültig ab 1.7.2004) | Merkblatt SIA 2019:2000 | gilt; Sicherheit bestehender Aufzüge SNEL (Übernahme EN 81-80) |
 | SIA 343.051 (SN EN 14351-2) | **2018** (CH gültig ab 1.1.2019) | SN EN 14351-2:2012? (Erst-CH-Übernahme) | gilt; Innentüren-Produktnorm — **neuer als 2013-Register**; Feuer/Rauch NICHT abgedeckt (EN 16034); Teil-Destillat |
-| SIA 382/1 | **2014** (gültig ab 1.7.2014) | SIA 382/1:2007 | gilt; Lüftungs-/Klimaanlagen Grundlagen — **neuer als 2013-Register**; Teil-Destillat (Kern S.1-63) |
+| SIA 382/1 | **2014** (gültig ab 1.7.2014) | SIA 382/1:2007 | Lüftungs-/Klimaanlagen Grundlagen; Teil-Destillat (Kern S.1-63). **⚠ neuere Ausgabe SIA 382/1:2025** (ersetzt 2014, in Kraft seit 1.2.2025) — in KB energie `destillate/komfortlueftung-wrg-sia382-luftwechsel` als aktuell gefuehrt; Register-Stand 2014 ueberholt, Re-Destillat 2025 ausstehend (Quelle SIA-Shop; Wissens-Chef Run 4, 14.07.2026) |
 | SIA 384/201 (SN EN 12831-1) | **2017** (gültig ab 1.12.2018) | SN EN 12831:2003 | gilt; Norm-Heizlast-Berechnung — **neuer als 2013-Register**; Teil-Destillat |
 | SIA 193.111 (SN EN 12063) | 1999 (gültig ab 1.8.1999) | — | gilt (Bestand); Spundwandkonstruktionen Spezialtiefbau |
 | SN EN 13200-1 | **2019** (gültig ab 1.9.2019) | SN EN 13200-1:2012 | gilt; Zuschaueranlagen Teil 1 — **neuer als 2013-Register**; Datei `sia-en-13200-1-2019.md` |

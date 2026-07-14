@@ -2,6 +2,9 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Fuehrungs-Pointer §1a Normkonzept BSV 2026 → normen
+- [link] `wiki/brandschutz-pl03-wegweiser.md` §1a: «Querbezug KB normen»-Block gesetzt — VKF-Primaerdokument «Normkonzept BSV 2026», kanonische Fundstelle fuehrt normen (Rule `normen-referenz`). normen hat die PDF beschafft, aber kein Destillat → planungsgrundlagen fuehrt die 38 Eckpunkte materiell weiter. **Offener Punkt** (nicht autonom): nach normen-Destillat §1a auf Planungs-Framing kuerzen + verlinken (Trim = Umstrukturierung). Kein Sachwiderspruch (BSV 2015 geltend, 2026 Zukunft — beidseitig konsistent). Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
+
 ## 2026-07-14 — Training Run 48 (echtes neues Primaerdokument: Normkonzept BSV 2026 + M3-Korrektur)
 - Statt eines weiteren WebSearch-Refresh: Zeitstempel-Scan (`find -newermt`) ueber alle vier
   PL-Grundordner (4'000 Dateien) foerderte ein am 11.07.2026 neu abgelegtes Primaerdokument

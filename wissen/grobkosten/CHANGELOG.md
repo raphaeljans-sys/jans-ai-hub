@@ -1,5 +1,8 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Querbezug KB energie (Doppelzaehlungs-Guard)
+- [link] `wiki/kennwerte.md`: neuer Abschnitt «Querbezug KB energie» — Waermeerzeuger-/PV-/Fernwaerme-Komponentenkosten (CHF/kWp, Anschluss, Rp/kWh) werden in `wissen/energie` gefuehrt, stecken als BKP 23/24/25 bereits in den hier gefuehrten CHF/m3-GV-Kennwerten (BKP 1-5) — **nicht additiv** aufrechnen. Fuehrung m3-GV-Erstellungskennwerte bleibt hier; energie liefert Detail-/Betriebskosten. Kein Widerspruch/Doppelspur. Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
+
 ## 2026-07-12 — Wissens-Chef Run 2 (Cross-KB): Teuerungs-Check verlinkt
 - [befund] W3 (Teuerungsstand grobkosten «Wüest 2022/23» vs. aktueller BFS-Baupreisindex) adversarial **WIDERLEGT**: Seed-Basis legitim (Werte explizit Seed ±25 %, Kalibrierquelle transparent, reale Bauteuerung 2023->2026 nur ~2-3 %, weit unter der Spanne). Kein Fehler.
 - [link] kennwerte.md: Teuerungs-Check-Note + Verweis auf `immobilienbewertung/wiki/investorenmarkt-makro` (BFS April 2026 = 100.6). Compounding-Verlinkung, keine Wertkorrektur.
