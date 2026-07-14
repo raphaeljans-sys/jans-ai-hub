@@ -1,8 +1,8 @@
 ---
 title: Heizleistung & Waermeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-07-03
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md]
+last_updated: 2026-07-14
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -88,6 +88,24 @@ Download endk.ch) aus dem SIA-380/1-Nachweis + WP-Typ + Einbauart — die so bes
 ausgelegten Anlagen **oft deutlich hoeher** als die Tabellen-Richtwerte (→ `[[sia-384-3-wpesti-jaz-methode]]`).
 ⚠ JAZ-Bandbreiten = Richtwerte, projektgenau via WPesti/SIA 384/3:2021; Foerder-Mindest-JAZ
 kantonsabhaengig. Details → `[[waermepumpe-systemvergleich]]` / FAQ F6.
+
+## Kaeltemittel R290 (Propan) — Regulatorik & Brandschutz (F72)
+Die Schweiz stellt die Kaeltemittel-Regulierung ab **2027** (Einfuhr 1.1./Abgabe 1.7., ChemRRV Anh.
+2.10, revidiert 29.10.2025) so um, dass natuerliche Kaeltemittel wie **Propan R290 (GWP 3)** fuer
+neue Waermepumpen kleiner/mittlerer Leistung faktisch zum Standard werden; synthetische Kaeltemittel
+mit hohem GWP (R410A GWP 2'088, R32 GWP 675) werden gestaffelt eingeschraenkt. **Bestandsschutz:**
+laufende Anlagen duerfen unveraendert weiterbetrieben/nachgefuellt werden. Propan ist als **A3**
+(brennbar) klassiert: ab **0,15 kg** Fuellmenge pro Kreislauf braucht eine Innenaufstellung
+zusaetzliche Massnahmen (Belueftung/Gaswarnanlage/belueftetes Gehaeuse), ab **1,5 kg** greift die
+EKAS-Richtlinie 6517. Aussenaufstellung ist regulatorisch der einfachere Weg (Gefahrenbereich frei
+von Oeffnungen/Zuendquellen halten). Details → `[[kaeltemittel-r290-waermepumpen-ch]]`, FAQ **F72**.
+
+## Erdwaermesonden — Bewilligung Kt. ZH/SZ (F71)
+Jede Erdsonden-WP braucht eine **gewaesserschutzrechtliche Bewilligung**: in ZH via Gemeinde/AWEL
+(Bohrtiefe max. 500 m, Grenzabstand 2,5 m, in Grundwasserschutzzonen S1/S2 faktisch ausgeschlossen,
+im Gewaesserschutzbereich Au bewilligungspflichtig), in SZ ueber eine kostenlose Vorabklaerung beim
+Amt fuer Umwelt und Energie + eBau-Baugesuch. Details → `[[erdwaermesonden-bewilligung-zh-sz]]`,
+FAQ **F71**.
 
 ## Bezug
 - FAQ: `[[BAUHERREN-FAQ]]` F13 (Leistung) + F14 (Ersatzverfahren) + **F6 (Systemwahl ✓)**.
