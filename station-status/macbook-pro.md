@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 20:59:45
+Stand: 14.07.2026 21:09:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:48)
@@ -9,9 +9,9 @@ Stand: 14.07.2026 20:59:45
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 37 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 33 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 8 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 8771f1fb nas-selfcommit: 2 Datei(en) 2026-07-14 20:45
+- cb302fea nas-selfcommit: 3 Datei(en) 2026-07-14 21:00
