@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 61: Neuer Themenkomplex Fassadenbegrünung als Hitzeschutz + Zielkonflikt Fassaden-PV
+- **Run-Report** `outputs/2026-07-14_energie-run61.md`. PDF-Inventar bleibt seit Run 46
+  vollständig abgearbeitet; nach Abschluss der 26-Kantone-Solarpflicht-Erhebung (Run 60) neuer
+  Web-Themenkomplex gemäss Run-60-Prioritätspunkt 3.
+- **Fassadenbegrünung als Hitzeschutz:** Kanton Zürich «Massnahmen gegen Hitze» (amtliche
+  Kantonsseite) beziffert die Reduktion der gefühlten Temperatur (PET) in der unmittelbaren
+  Umgebung begrünter Fassaden mit ⌀ **4,8 °C** und empfiehlt klar **bodengebunden** (Kletter-
+  pflanzen ab Boden) vor **wandgebunden** (Konstruktionsaufwand/Unterhalt/Brandschutz/
+  Wassermanagement). Ausdrücklicher **Zielkonflikt**: dieselbe Fassadenfläche lässt sich nicht
+  gleichzeitig begrünen und mit PV belegen — Flächen-Entscheidung pro Fassadenabschnitt nötig.
+- **Kosten bewusst nicht geglättet:** zwei CH-Quellen weichen deutlich voneinander ab — Kanton
+  Zürich nennt CHF 250-600/m² (bodengebunden) bzw. 700-2'000/m² (wandgebunden), Hydroplant AG
+  (CH-Fachbetrieb) nennt ab ~CHF 1'200/m² bzw. ~1'700/m². Beide Zahlen dokumentiert statt auf
+  einen Mittelwert geglättet (Leitplanke «nichts erfinden»).
+- **Förderung Stadt Zürich:** Förderprogramm Stadtgrün/Vertikalbegrünung, Reglement nennt 50 %
+  der Gesamtkosten, Deckel CHF 1 Mio. (wirkt als Alltagsbetrag zu hoch, vermutlich genereller
+  Reglements-Deckel); Praxis-Kennzahl 157 Gesuche/113 bewilligt/⌀ CHF 17'700 pro Projekt (eigene
+  Berechnung aus den beiden Quellenzahlen).
+- → `destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md` (neu), Ergänzung
+  `wiki/sommerlicher-waermeschutz.md` (5. Stellschraube), FAQ **F67** neu, Status emerging.
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D39),
+  `wiki/QUESTIONS.md` (E50 neu, E-S1-Zähler auf siebzehn Läufe), `raw/_INGESTED.md`.
+- Offen: Alltags-Fördersatz pro Projekt/m² ausserhalb der Reglements-Obergrenze, quantitativer
+  kWh-Effekt auf Kühllast/Heizwärmebedarf, kantonales/Schwyzer Pendant zum Förderprogramm. Nächster
+  fälliger Themenkomplex: Schallschutz gegen Aussenlärm (Strasse/Bahn) als Pendant zu F65.
+
 ## 2026-07-14 — Run 60: Solarpflicht-Erhebung ALLER 26 Kantone abgeschlossen (Basel-Landschaft/Jura/Freiburg/Glarus/Nidwalden/Obwalden/Appenzell AR+AI)
 - **Run-Report** `outputs/2026-07-14_energie-run60.md`. PDF-Inventar bleibt vollständig
   abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche, Abschluss des seit Run 56 laufenden
