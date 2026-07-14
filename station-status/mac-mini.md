@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 12:25:04
+Stand: 14.07.2026 12:35:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 11:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 14.07.2026 12:25:04
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- b76824e5 energie-training + normen-nacht: nachtraeglicher Commit liegen gebliebener Läufe (SIA 400 Retro-Verifikation, 3 Energie-Destillate)
+- 532dedbf planungsgrundlagen-training Run 48: Normkonzept BSV 2026 (Primaerquelle) + M3-Korrektur
