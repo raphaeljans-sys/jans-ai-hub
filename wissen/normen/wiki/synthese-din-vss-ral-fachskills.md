@@ -22,6 +22,7 @@ sources:
   - destillate/din-5034-1-1999.md
   - destillate/vss-40291-2021-parkieren-anordnung-geometrie.md
   - destillate/vss-640291a-2005-parkieren-anordnung-geometrie.md
+  - destillate/sia-118-1991.md
 links: [[REGISTER]]
 ---
 
@@ -134,6 +135,29 @@ zusaetzliche Praezisierung, Kennwerte oder Kontrastfolie.
   sich primaer auf SIA 380/1 (Energie) und kantonale Belichtungsvorschriften (z.B. PBG ZH
   Besonnungsdauer-Anforderungen) — DIN 5034-1 dient als **Kennwert-Kontrastfolie**, wenn
   ein Bauherr/Investor eine deutsche Tageslicht-Anforderung ins Raumprogramm einbringt.
+
+## 8. Abnahme/Garantie/Maengelrecht im Detail (Skill `unternehmerkontrolle`)
+
+Vertiefung der in Run 19 nur angerissenen Gegenueberstellung VOB/B (DIN 1961:2010)
+vs. SIA 118:1991 (Art.-fuer-Art. am Original beider Destillate belegt):
+
+| Sachverhalt | VOB/B (DIN 1961:2010) | SIA 118 (1991) | Praxis-Hinweis JANS |
+|---|---|---|---|
+| Gefahruebergang | mit Abnahme (§ 7) | mit Abnahme (Art. 157) | konzeptionell deckungsgleich |
+| Abnahme-Frist | binnen 12 Werktagen nach Fertigstellung auf Verlangen (§ 12) | kein fixer Fristenautomatismus; Abnahme nach Pruefungsabschluss (Art. 159-164), Bauleitung steuert den Termin | SIA 118 kennt keine "fiktive Abnahme" — bei VOB/B-Bauherren diesen Unterschied explizit erklaeren |
+| Fiktive Abnahme | ja: 12 Werktage nach schriftlicher Fertigstellungsmitteilung bzw. 6 Werktage ab Ingebrauchnahme (§ 12 Abs. 5) | **nicht vorgesehen** — SIA 118 verlangt aktive Pruefung/Erklaerung | Risiko bei Deutschland-Schweiz-Mischprojekten: ohne SIA-118-Abnahmeprotokoll laeuft keine Garantiefrist an |
+| Ruegefrist / Garantiefrist | Verjaehrung 4 Jahre Regelfall ab Abnahme (§ 13 Abs. 4), 2 Jahre fuer Wartungs-/Herstellungs-Erfolge, 1 Jahr feuerberuehrte Feuerungsanlagen-Teile | **Garantiefrist (Ruegefrist) 2 Jahre** ab Abnahme (Art. 172); waehrend dieser Frist jederzeit ruegefaehig (Art. 173) | Zahl "2 Jahre" kommt in beiden Systemen vor, meint aber NICHT dasselbe (VOB/B: einzige Verjaehrungsfrist fuer Sonderfaelle; SIA 118: allgemeine Ruegefrist) — nie 1:1 gleichsetzen |
+| Verjaehrung Maengelrechte | siehe oben (kombiniert mit Ruegefrist, ein System) | **5 Jahre** ab Abnahme, bei absichtlich verschwiegenem Mangel 10 Jahre (Art. 180) | SIA 118 trennt Ruegefrist (2 J., Art. 172) und Verjaehrung (5 J., Art. 180) explizit als zwei Fristen — DIN 1961 kennt diese Zweiteilung nicht in derselben Form |
+| Beweislast Mangel | AN-guenstiger im Regelfall (allgemeines BGB-Werkvertragsrecht ueberlagert) | waehrend Garantiefrist: Beweislast beim **Unternehmer** (Art. 174); nach Fristablauf bei verdeckten Maengeln beim **Bauherrn** (Art. 179 Abs. 5) | Beweislastumkehr nach Fristablauf ist ein SIA-118-spezifisches Element ohne direktes VOB/B-Pendant im Destillat |
+| Sicherheitsleistung nach Abnahme | Mängelansprüche-Sicherheit, Rueckgabe nach 2 Jahren (§ 17) | Solidarbuergschaft 10 % (bzw. 5 % ab Fr. 200'000.-) der Vergütungssumme, bis alle Maengelrechte erloschen (Art. 181) | SIA 118 koppelt die Sicherheit an den tatsaechlichen Fristenablauf (bis 5 Jahre bzw. 10 Jahre bei Arglist), VOB/B pauschal an 2 Jahre — SIA-118-Sicherheit kann daher laenger laufen |
+| Direktzahlung an Nachunternehmer bei Zahlungsverzug des AN | ausdruecklich vorgesehen (§ 16 Abs. 6) | kein direktes Aequivalent im Destillat; naeher an der Bauhandwerkerpfandrecht-Logik des CH-Rechts (ZGB 837 ff., ausserhalb SIA 118) | bei Vergleichsprojekten erwaehnen, dass die Schweiz das Problem ueber ein anderes Rechtsinstitut loest, nicht ueber SIA 118 selbst |
+
+**Fazit fuer `unternehmerkontrolle`:** die Fristensystematik ist NICHT austauschbar — insbesondere
+darf "2 Jahre" nie ohne Pruefung von VOB/B (§ 13) auf SIA 118 (Art. 172) uebertragen werden, weil
+die zugrundeliegende Rechtsfigur (Verjaehrung vs. Ruegefrist) unterschiedlich ist. Bei
+Abnahmeprotokollen/Garantiescheinen fuer JANS-Bauprojekte bleibt ausschliesslich die SIA-118-
+Fristenlogik (Art. 172/180/181) massgebend; VOB/B dient nur der Erklaerung gegenueber
+Bauherren/Generalunternehmern mit deutschem Rechtshintergrund.
 
 ## Fazit fuer die Fach-Skills
 

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 06:29:29
+Stand: 14.07.2026 06:39:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:09)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 14.07.2026 06:29:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ca49863a wissen/planungsgrundlagen: Run 40 Register — K34-K36 (Denkmalschutz/ISOS+gdb+Einsiedeln) + E32-E35 (PV-Planungsgrenzwerte/Eignungsskala/Systempreis/Architektur) nachgefuehrt
+- 0e8bc5d9 nas-selfcommit: 5 Datei(en) 2026-07-14 06:30
