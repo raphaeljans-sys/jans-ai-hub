@@ -546,3 +546,27 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. Damit **18 von 26 Kantonen**
   recherchiert; weiterhin offen: Basel-Landschaft-Vertiefung, Jura, Freiburg, Glarus, Nidwalden,
   Obwalden, Appenzell Ausserrhoden/Innerrhoden.
+
+- **D38 (Run 60, 2026-07-14)** — Die letzten acht Kantone recherchiert — **die Solarpflicht-
+  Erhebung aller 26 Kantone ist damit erstmals abgeschlossen**. **Basel-Landschaft** liefert das
+  Lehrstück «Pflicht kann auch wieder wegfallen»: das Kantonsgericht hatte die Dekrets-Grundlage
+  der ursprünglichen Neubau-Pflicht für ungenügend erklärt, die daraufhin lancierte Solar-
+  initiative (inkl. Nachrüstpflicht Bestandsbauten) wurde am 8.3.2026 mit rund 70 % Nein klar
+  verworfen — BL bleibt beim Bundesminimum, nur kommunale BZO-Option bleibt. **Obwalden** zeigt
+  den umgekehrten Schwebezustand: neues PBG (verabschiedet 4.12.2025) mit Solarpflicht für
+  Neubauten/Sanierungen, dagegen läuft seit 22.1.2026 eine SVP-Referendumsinitiative — Ausgang
+  bei Redaktionsschluss offen. **Glarus** (seit 2023, Vollzug laut Kanton «reibungslos», drei
+  Ausnahmegesuche mit Ersatzabgabe), **Nidwalden** (seit 1.11.2021, 10 W/m² EBF, Gemeinschafts-
+  anlage/SonnenDach zählt als Erfüllung Art. 19b) und **Appenzell Ausserrhoden** (seit 1.1.2023,
+  Art. 10a EnG/Art. 19abis EnV, alle Neubauten ohne Schwelle) haben eine Eigenstromerzeugungs-
+  pflicht bereits in Kraft. **Freiburg** verlangt 10 W/m² EBF (MuKEn-2014), exaktes Inkraft-
+  tretensdatum der Klausel nicht abschliessend verifizierbar. **Jura** koppelt die Pflicht an
+  beheizte Energiebezugsfläche (OEn seit April 2019, MoPEC), Revision für 2026/2027 geplant.
+  **Appenzell Innerrhoden** bleibt als einziger der 26 Kantone ein ungeklärter Quellenwiderspruch:
+  mehrere Sekundärquellen behaupten eine PV-Pflicht, die amtliche Primärseite ai.ch nennt für
+  Solaranlagen jedoch nur eine Melde-/Bewilligungspflicht ohne erkennbare Installationspflicht —
+  bewusst nicht geglättet, sondern als offen dokumentiert (Leitplanke «nichts erfinden») →
+  `[[solarpflicht-national-mantelerlass-kantone]]` ergänzt, Themenartikel
+  `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. Status bleibt **emerging**
+  (mehrere W/m²-/%-Sätze und der AI-Widerspruch offen), aber die Erst-Erhebung ist **vollständig
+  (26/26 Kantone)**.

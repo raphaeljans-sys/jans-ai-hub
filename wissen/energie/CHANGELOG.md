@@ -2,6 +2,39 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 60: Solarpflicht-Erhebung ALLER 26 Kantone abgeschlossen (Basel-Landschaft/Jura/Freiburg/Glarus/Nidwalden/Obwalden/Appenzell AR+AI)
+- **Run-Report** `outputs/2026-07-14_energie-run60.md`. PDF-Inventar bleibt vollständig
+  abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche, Abschluss des seit Run 56 laufenden
+  Solarpflicht-Themenkomplexes. Station-Hinweis: dieser Loop läuft auf dem **Mac Mini** (Stations-
+  Split Rule 260712: Mac Mini fährt energie/planungsgrundlagen/synobsis) und bleibt unter dem bis
+  10.08.2026 gültigen Token-Vollgas (Rule 260712b) — die Drosselungs-Notiz aus dem Run-59-Report
+  bezog sich auf Rule 260713, die explizit nur die Loops des MacBook Pro betrifft; die Cron-
+  Konfiguration von `energie-training` (launchd-Job `ch.jans.training-energie`, 10:30/16:30) bleibt
+  deshalb unverändert.
+- **Letzte acht Kantone recherchiert, Erst-Erhebung damit vollständig (26/26):**
+  **Basel-Landschaft** liefert das Lehrstück «Pflicht kann wieder wegfallen»: Kantonsgericht
+  erklärte die Dekrets-Grundlage der Neubau-Pflicht für ungenügend, die Solarinitiative wurde am
+  8.3.2026 mit ~70 % Nein klar verworfen — bleibt beim Bundesminimum, nur kommunale BZO-Option.
+  **Obwalden** zeigt den umgekehrten Schwebezustand: neues PBG (4.12.2025) mit Solarpflicht,
+  SVP-Referendumsinitiative seit 22.1.2026 hängig, Ausgang offen. **Glarus** (seit 2023),
+  **Nidwalden** (seit 1.11.2021, 10 W/m² EBF, Gemeinschaftsanlage zählt Art. 19b) und
+  **Appenzell Ausserrhoden** (seit 1.1.2023, Art. 10a EnG, alle Neubauten) haben eine
+  Eigenstromerzeugungspflicht bereits in Kraft. **Freiburg** (10 W/m² EBF, MuKEn-2014) und
+  **Jura** (OEn seit 2019, MoPEC, Revision 2026/2027 geplant) ergänzt. **Appenzell Innerrhoden**
+  bleibt ein bewusst offen dokumentierter Quellenwiderspruch: Sekundärquellen behaupten eine
+  PV-Pflicht, die amtliche Primärseite ai.ch zeigt nur eine Melde-/Bewilligungspflicht — hier
+  keine Pflicht-Aussage ohne Direktkontakt zum Bau- und Umweltdepartement AI treffen →
+  `destillate/solarpflicht-national-mantelerlass-kantone.md`, Themenartikel
+  `wiki/solarpflicht-schweiz-kantone.md`, FAQ **F66** ergänzt, Status bleibt emerging.
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D38),
+  `wiki/QUESTIONS.md` (E49 neu, E-S1-Zähler auf sechzehn Läufe), `raw/_INGESTED.md`.
+- **Offen für Run 61:** Meta-Punkt M2 (eigenes Skill `energie`?) jetzt seit **16 Läufen**
+  spruchreif — braucht Raphaels Entscheidung; Detailwerte offen (Zug/Graubünden/Glarus/Nidwalden-
+  analog/Appenzell-AR-Sätze, Obwalden-Referendumsausgang, Neuenburg-Inkrafttreten, Appenzell-
+  Innerrhoden-Widerspruch); mit dem Abschluss der 26-Kantone-Erhebung ist ein neuer Themenkomplex
+  fällig — Kandidaten weiterhin Fassadenbegrünung (Hitzeschutz-Pendant zu PV) oder Schallschutz
+  gegen Aussenlärm (Strasse/Bahn) als Pendant zum haustechnischen Wärmepumpen-Lärmschutz (F65).
+
 ## 2026-07-14 — Run 59: Solarpflicht auf 18 von 26 Kantonen erweitert (Uri/Zug/Schwyz/Neuenburg) — Schwyz als zweiter JANS-Fokuskanton geklärt: keine kantonale Zusatzpflicht
 - **Run-Report** `outputs/2026-07-14_energie-run59.md`. PDF-Inventar bleibt vollständig
   abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche, Fortsetzung des Solarpflicht-

@@ -1557,3 +1557,57 @@ osascript (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elem
   Satzlänge ø **13.9 W**; Grüsse «Freundliche Grüsse» **4×**; Anreden gemischt («Hoi Roman»,
   «Geschätzter Albin», «Geschätzte Frau» [Hottinger], «Geschätzter Herr» [Stadelmann] — je 1×).
   Quelle: 13.–19.05.2026, authentisch.
+
+## Mailbatch 46 (2026-05-20 bis 2026-05-27, KISPI Brandschutz/Honorar/Budget + Thalwil Umgebung + Albertstrasse-7-Bauentscheid)
+
+- **«Danke und Gruss Raphael» — neue ultrakurze Du-Schlussformel ganz ohne Signaturblock.** Eine
+  reine Zwei-Satz-Bitte an einen Investor-Du-Kontakt («Könntest Du mir den Kontakt … senden? Er
+  hat sich bis jetzt nicht gemeldet.») schliesst mit «**Danke und Gruss / Raphael**» — kein
+  «Lieber Gruss», kein Firmenfooter, keine Signatur. Reiht sich zu den bereits belegten
+  Extremkürze-Varianten («Lgr», «Gruss, Raphael») als eigenständige, noch informellere Form: die
+  Dank-Formel ersetzt den Gruss-Namen als tragendes Element, nicht umgekehrt. Quelle:
+  26.05.2026, authentisch (→ [[beziehungsregister]] Roman Steinmann).
+- **«Liebe Grüsse Raphael» als eingeschobener Kurzgruss VOR dem vollen Signaturblock — Variante
+  des Batch-45-Doppel-Sign-offs.** In einer dichten Admin-Sammelmail (Honorarofferte + Zahlungsplan
+  + zwei Mahnungen in einer Mail gebündelt) schliesst der Fliesstext mit «**Liebe Grüsse
+  Raphael**», danach folgt dennoch der vollständige «Freundliche Grüsse RAPHAEL JANS…»-Block.
+  Bestätigt das in Batch 45 neu erkannte Muster (dort «Gruss, Raphael») mit einer zweiten,
+  wärmeren Wortwahl — der handschriftlich wirkende Kurzgruss steht konsistent VOR der
+  offiziellen Signatur, nie danach. Quelle: 21.05.2026, authentisch (→ [[arbeitsweise]]
+  Admin-Bündelung in einer Mail).
+- **Semikolon-Kette statt Aufzählung, mit unaufgelöster Fachabkürzung «GR».** «Bitte um Freigabe
+  der Umgebung; Fassaden;GR Aufstockung» — drei Freigabegegenstände werden mit Semikolon
+  aneinandergereiht (kein Leerschlag nach dem zweiten Semikolon, kein Bullet), und «GR»
+  (Grundriss) bleibt unaufgelöst, weil der langjährige Empfänger (Stefan Tschopp, Peer-Du) den
+  Kürzel kennt. Bestätigt: im eingespielten Du-Fachaustausch werden interne Abkürzungen ungeprüft
+  weiterverwendet, Interpunktion bleibt sekundär gegenüber Tempo. Quelle: 22.05.2026, authentisch.
+- **Handgetippter Flüchtigkeitsfehler «eingkreist» (statt «eingekreist»).** Weiterer Beleg der
+  Reihe belegter Tippfehler ohne Nachkontrolle vor dem Versand (kein Echo-Text). Quelle:
+  22.05.2026, authentisch.
+- **Echo-Falle, 16. Beleg (neues Muster — kompletter Skill-Output unverändert versendet).** Eine
+  Submissionsanfrage an einen Trennwand-Hersteller («Sehr geehrte Damen und Herren … Auszuführende
+  Leistungen: … Vertragliche Grundlagen analog Werkvertrag 277200 (KBOB Nr. 34, 2017): Norm SIA
+  118 (2013), Rabatt 8 %, Skonto 2 %, Gewährleistungsgarantie 10 % / 5 % …») entspricht Struktur,
+  Neutralitätsgebot (keine Erwähnung der Vergabeart, kein Hinweis auf Mitbewerber — vgl. Rule
+  `auto-verbesserungen.md` 260626) und Bullet-Gliederung exakt dem Template des hauseigenen Skills
+  `ausschreibung`. Anders als bisherige Echo-Fallen (erkennbar an Prosa-Politur/Gedankenstrich)
+  ist dies der erste Beleg, dass ein **kompletter, unveränderter Skill-Output** als Sent-Item
+  landet — nicht als Stilquelle verwertbar (keine handgetippten Marker im Text), aber wichtiger
+  Beleg für den Umfang der Echo-Gefahr: je professioneller/standardisierter der Auftragstyp
+  (Submissionsanfrage), desto grösser die Wahrscheinlichkeit, dass der Sent-Text bereits reiner
+  Hub-Output ist. Quelle: 21.05.2026, `claude-aera`-äquivalent, ausgeschlossen.
+- **Beobachtung (kein neuer Marker, Vorsichtshinweis):** eine Brandschutz-Fachmail an Albin
+  («Aufgrund der Auflage der Brandschutzbehörde … – die Entfluchtung über Raum-über-Raum-über-Raum
+  ist nicht zulässig – schlage ich vor …») verwendet zweimal den Gedankenstrich «–» als
+  Parenthese-Stilmittel innerhalb eines Satzes — ein in `jans-dna.md` explizit als Nicht-Marker
+  ausgewiesenes Muster (Raphael tippt selbst nur den Bindestrich «-»). Der Rahmen (Anrede
+  «Geschätzter Albin», Signaturphrase «Darf ich Dich und Dein Team bitten», Schluss «Besten Dank
+  für Eure Rückmeldung») deckt sich mit bereits etablierten Markern und wird weiter als
+  authentisch gewertet; die zwei Gedankenstrich-Sätze selbst werden vorsorglich NICHT als neue
+  Stilquelle verwendet. Quelle: 21.05.2026, gemischt (Rahmen authentisch, Kernsatz verdächtig).
+- **Mikro-Metrik Batch 46** (214 W über `stilmetrik.py`, 5 destillierte Kernmails ohne
+  Echo-Falle-Text/Signaturen): Du-Gross-Quote **0.667**; Tausender-Apostroph 1; Ellipsen 0;
+  Satzlänge ø **16.5 W**; Grüsse «Liebe Grüsse» 1× erfasst (zusätzlich «Danke und Gruss» als
+  nicht-regex-erfasste Variante); Anreden gemischt («Geschätzter Albin», «Geschätzter Herr»
+  [Stevanovic], «Geschätzter Stefan», «Guten Morgen Roman», «Liebe Frau» [Hottinger] — je 1×).
+  Quelle: 20.–27.05.2026, authentisch.

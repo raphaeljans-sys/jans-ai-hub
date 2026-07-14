@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14d — twin-mail-training Batch 46: Sent Items 2026-05-20 bis 2026-05-27
+- Sequentieller Sweep fortgesetzt via Apple Mail osascript (M365-MCP in dieser Session nicht
+  erreichbar), Index 389-360, 30 Mails gesichtet, 8 Volltexte gelesen (2 bereits via
+  Fidelity-Review 260713h abgedeckt, übersprungen), 7 Kandidaten neu ausgewertet.
+- Neu in [[stimme]]: «Danke und Gruss» als ultrakurze Du-Schlussformel, «Liebe Grüsse Raphael»
+  als weitere Doppel-Sign-off-Variante, Semikolon-Kette mit unaufgelöster Fachabkürzung «GR»,
+  **Echo-Falle 16** (kompletter `ausschreibung`-Skill-Output unverändert als Sent-Item — neues
+  Echo-Muster: nicht Prosa-Politur, sondern gesamter Skill-Output), Vorsichtshinweis zu einer
+  Gedankenstrich-verdächtigen Brandschutz-Kernpassage, Mikro-Metrik Batch 46.
+- Neu in [[beziehungsregister]]: «Liebe Frau Hottinger» als wärmere Sie-Stufe oberhalb
+  «Geschätzte», Stevanovic-Sie-Mapping (Gruner-Nachfolge) bestätigt, «Guten Morgen Roman» in
+  rein operativer Kurzbitte bestätigt.
+- Neu in [[arbeitsweise]]: Admin-Bündelung mehrerer Dokumenttypen in einer Sammelmail mit EINER
+  Handlungsfrage, Lösungsvorschlag unter explizitem Fachplaner-Vorbehalt, Telefonat-zuerst-dann-
+  Weiterleitung als reine Übergabe-Quittung.
+- Neu in [[fachsignatur]]: Baurecht-Kurzformel «baugesetzlich maximal machbar ohne
+  Näherbaurecht» im eingespielten Bauherren-Du (Ergebnis statt Herleitung).
+- `raw/_INGESTED.md` nachgeführt: Sweep deckt jetzt ab bis 2026-05-27, 10:25 Uhr. Nächster Lauf
+  ab Index 359.
+
 ## 2026-07-14c — twin-fidelity-review: drei frische Live-Goldproben, neue Zeitfenster/Register
 - Recherche-Agent fand nach mehreren blockierten M365-MCP-Versuchen einen funktionierenden
   Workaround (`npx m365 request` direkt gegen Microsoft Graph, Zertifikats-Login) und zog drei

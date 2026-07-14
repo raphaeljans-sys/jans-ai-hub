@@ -1067,3 +1067,25 @@ Drei Arbeitsmarker aus Batch 40 (KISPI-Baueingabe/Lenggstrasse 30, April 2026):
   zwingend**» direkt neben dem Namen — die Minimalform der Agenda-Mail (bereits belegt, Batch 42)
   wird hier um eine explizite Anwesenheitspflicht-Kennzeichnung ergänzt, die dem Empfänger die
   Selektionsarbeit abnimmt, ob er teilnehmen muss. Quelle: 19.05.2026, authentisch.
+
+## Mailbatch 46 (2026-05-20 bis 2026-05-27)
+
+- **Admin-Bündelung in einer Mail: vier verschiedene Dokumenttypen zusammengefasst, EINE
+  Handlungsfrage am Ende.** Statt vier Einzelmails (Honorarofferte, Zahlungsplan, zwei Mahnungen)
+  bündelt Raphael alles in einer Mail als Liste («Anbei wie besprochen die Unterlagen … : [4
+  Punkte]») und schliesst mit einer einzigen, kombinierten Handlungsbitte («Kannst du den
+  Honorarvertrag gegenzeichnen und die offenen Rechnungen zur Zahlung freigeben?») — der Bauherr
+  bekommt einen Sammel-Überblick statt vier Einzel-Interaktionen. Bestätigt/konkretisiert das
+  DNA-Prinzip des Zusammenfassens («Ich erlaube mir, … zusammenzufassen») auf administrative
+  Sammelmails. Quelle: 21.05.2026, authentisch (→ [[stimme]] «Liebe Grüsse Raphael»).
+- **Lösungsvorschlag unter explizitem Vorbehalt der Fachplaner-Zustimmung formuliert.** Ein
+  Vorschlag zur Auflagenlösung (Brandschutz-Öffnungsmass) wird nicht als eigene, endgültige
+  Entscheidung präsentiert, sondern eingangs relativiert: «**Unter Vorbehalt der Zustimmung von
+  Herrn Ziegel (Brandschutzexperte Gruner AG)** schlage ich folgendes Vorgehen vor…» — die
+  eigene fachliche Idee wird geliefert, aber die Freigabehoheit beim zuständigen Spezialisten
+  bleibt sichtbar. Quelle: 21.05.2026, authentisch.
+- **Telefonat-zuerst, dann interne Weiterleitung zur Abklärung.** Eine sehr kurze Mail an einen
+  neuen Fachplaner-Kontakt («Wie telefonisch besprochen send ich Ihnen den Umbauplan eingkreist
+  … zur internen Abklärung und Lösungsvorschlag») dokumentiert nur das Ergebnis des Telefonats
+  (Plan-Übergabe), ohne das Gespräch inhaltlich zu wiederholen — das Telefonat bleibt die
+  primäre Klärungsebene, die Mail ist reine Übergabe-Quittung. Quelle: 22.05.2026, authentisch.

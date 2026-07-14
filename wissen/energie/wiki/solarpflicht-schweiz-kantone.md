@@ -1,7 +1,7 @@
 ---
 title: Solarpflicht Schweiz — Bund und Kantone im Vergleich
 status: emerging
-last_updated: 2026-07-14
+last_updated: 2026-07-14 (Run 60 — alle 26 Kantone erstmals recherchiert)
 sources: [destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
 links: [[INDEX]], [[pv-solar-technologien]], [[muken-2025-verabschiedet]]
 ---
@@ -38,6 +38,14 @@ verschärfen, nicht darunter bleiben.
 | Zug (seit 1.1.2023, MuKEn-Modul E) | **Keine Flächenschwelle** — Eigenstromerzeugungspflicht für alle Neubauten (Bemessung offen) |
 | **Schwyz** (Kantonsrat 22.10.2025, 50:45 Nein) | **Keine kantonale Solarpflicht** — bleibt beim Bundesminimum (JANS-Fokuskanton) |
 | Neuenburg (Revision **in Erarbeitung**, noch nicht in Kraft) | Vorgesehen 15 W/m² SRE, Inkrafttreten offen |
+| Basel-Landschaft (Solarinitiative Volk 8.3.2026, ~70 % Nein) | **Keine generelle kantonale Pflicht** — Kantonsgericht hatte zuvor die Dekrets-Grundlage der Neubau-Pflicht verworfen; nur kommunale BZO-Option |
+| Jura (OEn seit April 2019, MoPEC) | An beheizte EBF gekoppelt; weitergehende Revision für 2026/2027 in Erarbeitung |
+| Freiburg (MuKEn-2014, seit 2020) | 10 W/m² EBF — Inkrafttretensdatum der Eigenstromklausel nicht abschliessend verifiziert |
+| Glarus (seit 2023) | Eigenstromerzeugungspflicht Neubau, Vollzug laut Kanton «reibungslos», Ersatzabgabe bei Befreiung; genauer Satz offen |
+| Nidwalden (seit 1.11.2021) | 10 W/m² EBF — Gemeinschaftsanlage/SonnenDach zählt als Erfüllung (Art. 19b) |
+| Obwalden (PBG 4.12.2025 verabschiedet) | Solarpflicht Neubau/Sanierung — **SVP-Referendumsinitiative seit 22.1.2026 hängig**, Ausgang offen |
+| Appenzell Ausserrhoden (seit 1.1.2023) | Eigenstromerzeugungspflicht alle Neubauten (Art. 10a EnG), Satz offen |
+| Appenzell Innerrhoden | **Widersprüchlich**: Sekundärquellen behaupten Pflicht, amtliche Primärseite zeigt nur Melde-/Bewilligungspflicht — unbestätigt |
 
 ## Bauherren-Transfer
 Standort- und gemeindespezifisch prüfen — Bund ist nur das Minimum, die tatsächliche Pflicht kann
@@ -47,13 +55,20 @@ jeder Kanton verschärft: Aargau, Schaffhausen und **Schwyz** haben eine eigene 
 erst wieder verworfen — «mein Nachbarkanton hat X» ist kein verlässlicher Schluss auf die eigene
 Gemeinde. **Für JANS-Projekte in Schwyz gilt schlicht das Bundesminimum (300 m²)** — keine
 kantonale Zusatzpflicht, anders als im Nachbarkanton Zürich (dort Vorlage in Beratung) oder Zug
-(dort strenger, keine Flächenschwelle). Die Bandbreite ist inzwischen (18 von 26 Kantonen
-recherchiert) gross: von «kein Zusatz zum Bund» (AG, SH, SZ, UR) über «keine Schwelle, alle
-Neubauten» (ZG) bis «auch Bestandsbauten pflichtig» (Basel-Stadt, Wallis, teils Genf).
+(dort strenger, keine Flächenschwelle). Die Bandbreite ist inzwischen (**alle 26 Kantone**
+mindestens einmal recherchiert, Run 60) gross: von «kein Zusatz zum Bund» (AG, SH, SZ, UR, BL,
+teils SO) über «keine Schwelle, alle Neubauten» (ZG, AR, Vermutung GL/NW/FR analog) bis «auch
+Bestandsbauten pflichtig» (Basel-Stadt, Wallis, teils Genf). Basel-Landschaft ist ein Lehrstück:
+eine kantonsgerichtlich gekippte Neubau-Pflicht plus eine anschliessend an der Urne klar
+verworfene Verschärfungs-Initiative zeigen, dass eine Solarpflicht auch **wieder wegfallen**
+kann — der aktuelle Rechtsstand am Standort ist immer tagesaktuell zu prüfen, nicht aus einem
+älteren Report zu übernehmen. Obwalden zeigt den umgekehrten Schwebezustand: eine neu
+verabschiedete Solarpflicht, gegen die eine Volksinitiative noch läuft.
 
 **Destillate:** `[[solarpflicht-national-mantelerlass-kantone]]` (Bund + andere Kantone),
 `[[zh-energiegesetz-revision-solarpflicht-2026]]` (ZH-Detail) — FAQ F66, F61.
 
-**Offen:** 8 der 26 Kantone weiterhin nicht recherchiert (Basel-Landschaft-Vertiefung, Jura,
-Freiburg, Glarus, Nidwalden, Obwalden, Appenzell AR/AI); genaue Vorgaben Basel-Landschaft/
-Graubünden/Zug nur grob umschrieben (Quelle nennt keine Zahl); Neuenburg-Inkrafttreten unsicher.
+**Offen:** Erst-Erhebung aller 26 Kantone abgeschlossen (Run 60), aber mehrere Detailwerte fehlen
+noch primärquellen-verifiziert: genaue W/m²-/%-Sätze bei Zug, Graubünden, Glarus, Nidwalden,
+Appenzell Ausserrhoden nur teilweise/nicht bestätigt; Appenzell Innerrhoden bleibt ein
+ungeklärter Quellenwiderspruch; Obwalden-Referendum und Neuenburg-Inkrafttreten ausstehend.

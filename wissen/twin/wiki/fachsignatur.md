@@ -991,3 +991,20 @@ Vorschrift NICHT auszulösen**, ohne den funktionalen Massstab zu senken. Quelle
   überlassen («Du kannst sagen ob es du pauschalisiert oder nach Aufwand ausgewiesen haben
   möchtest»). Quelle: 19.05.2026, authentisch (→ [[stimme]] Doppel-Sign-off, [[haltung]] Honorar
   direkt beziffern).
+
+## Mailbatch 46 (2026-05-20 bis 2026-05-27)
+
+- **Baurecht-Kurzformel «baugesetzlich maximal machbar … ohne Näherbaurecht» statt Ziffern-
+  Herleitung.** Gegenüber einem langjährigen Peer-Du-Bauherrn (Stefan Tschopp, Einfamilienhaus-
+  Aufstockung) wird die Abstandsfrage nicht mit Gesetzesziffer hergeleitet, sondern direkt als
+  Ergebnis mitgeteilt: «das baugesetzlich maximal machbare … das Vordach … ist an der maximal
+  möglicher Position ohne Näherbaurecht» — im eingespielten Bauherren-Du wird das rechtliche
+  Ergebnis kommuniziert, nicht der Rechtsweg dahin (Gegensatz zum Behörden-/Erstkontakt-Register,
+  wo Fritzsche/Bösch-Fundstellen inline zitiert werden, vgl. Batch 30). Quelle: 22.05.2026,
+  authentisch.
+- **Vorsichtshinweis (nicht als neuer Marker verwendet):** eine Brandschutz-Fachmail zur
+  Reduit-Entfluchtung (Öffnungsmass 2.10 m als «kein eigenständiger Raum mehr») enthält
+  plausibel korrekten VKF-Fachinhalt, aber der Rahmen zeigt eine Echo-verdächtige
+  Gedankenstrich-Konstruktion (vgl. [[stimme]] Mailbatch 46). Der fachliche Inhalt wird daher
+  NICHT als neuer, eigenständig belegter Fachsignatur-Marker aufgenommen, bis eine unabhängig
+  authentische Mail dieselbe Argumentation bestätigt.

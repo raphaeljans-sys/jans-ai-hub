@@ -2277,16 +2277,38 @@ Neubauten ohne jede Flächenschwelle (MuKEn-2014-Modul E). **Neuenburg** befinde
 Gesetzesrevision (Zielwert 15 W/m² Energiebezugsfläche vorgesehen) — ist also **noch nicht** in
 Kraft, anders als die übrigen hier genannten Kantone.
 
+**Letzte acht Kantone (Run 60) — die 26-Kantone-Erhebung ist damit abgeschlossen:**
+**Basel-Landschaft** liefert das Lehrstück, dass eine Solarpflicht auch wieder **wegfallen**
+kann: das Kantonsgericht erklärte die Dekrets-Grundlage der ursprünglichen Neubau-Pflicht für
+ungenügend, die daraufhin lancierte Solarinitiative (inkl. Nachrüstpflicht für Bestandsbauten)
+wurde am 8.3.2026 mit rund 70 % Nein deutlich verworfen — BL bleibt beim Bundesminimum, nur
+Gemeinden können via BZO eigene Regeln setzen. **Obwalden** zeigt den umgekehrten Schwebezustand:
+das neue Planungs- und Baugesetz (verabschiedet 4.12.2025) enthält eine Solarpflicht für
+Neubauten und Sanierungen, gegen die die SVP seit 22.1.2026 eine Referendums-Volksinitiative
+sammelt — der Ausgang war bei Redaktionsschluss offen, für eine verbindliche Bauherren-Auskunft
+den aktuellen Stand beim Bauamt Obwalden verifizieren. **Glarus** (seit 2023) und **Nidwalden**
+(seit 1.11.2021, 10 W/m² EBF, Gemeinschaftsanlage/SonnenDach zählt als Erfüllung) sowie
+**Appenzell Ausserrhoden** (seit 1.1.2023, alle Neubauten ohne Schwelle) haben je eine
+Eigenstromerzeugungspflicht bereits in Kraft. **Freiburg** verlangt 10 W/m² EBF (MuKEn-2014),
+**Jura** koppelt die Pflicht an beheizte Flächen und revidiert derzeit für 2026/2027. **Appenzell
+Innerrhoden** bleibt ein ungeklärter Quellenwiderspruch: mehrere Sekundärquellen behaupten eine
+PV-Pflicht, die amtliche Seite ai.ch nennt für Solaranlagen aber nur eine Melde-/
+Bewilligungspflicht ohne erkennbare Installationspflicht — hier keine Pflicht-Aussage gegenüber
+einem Bauherrn treffen, ohne das Bau- und Umweltdepartement AI direkt zu kontaktieren.
+
 **Quelle:** CKW «Solarpflicht Schweiz» + Kanton Bern WEU (amtliche Kantonsseite, weu.be.ch) +
 solaralag.ch Kantons-Übersicht + Presseecho, trianguliert (Run 56); Aargau/Basel-Stadt/Graubünden
 ergänzt (Run 57, aargauerzeitung.ch + bs.ch amtliche Medienmitteilung + Web-Recherche KEnV);
 Waadt/Genf/Tessin/Solothurn/Wallis/Schaffhausen ergänzt (Run 58, vd.ch/ge.ch/vs.ch Amtsseiten +
 Tessiner Gesetzessammlung m3.ti.ch + so.ch Arbeitshilfe + Presseecho Schaffhausen-Abstimmung);
 Uri/Zug/Schwyz/Neuenburg ergänzt (Run 59, urnerzeitung.ch Chronologie + energie-zentralschweiz.ch
-Vollzugsseite + baublatt.ch Presseecho Schwyz-Motion + ne.ch amtliche Kantonsseite) →
-`[[solarpflicht-national-mantelerlass-kantone]]`. Status emerging (Bundesregelung fest, nicht
-alle 26 Kantone im Detail geprüft — bisher BE/SG/BL/LU/ZH/AG/BS/GR/VD/GE/TI/SO/VS/SH/UR/ZG/SZ/NE,
-18 von 26).
+Vollzugsseite + baublatt.ch Presseecho Schwyz-Motion + ne.ch amtliche Kantonsseite);
+Basel-Landschaft/Jura/Freiburg/Glarus/Nidwalden/Obwalden/Appenzell AR/AI ergänzt (Run 60,
+watson.ch/bajour.ch Abstimmungsresultat BL + svp-ow.ch Medienmitteilung + gl.ch Vollzugsbericht +
+nw.ch Energiefachstelle-Merkblatt + ar.clex.ch Gesetzessammlung + ai.ch amtliche Primärseite,
+curl/pdftotext-verifiziert) → `[[solarpflicht-national-mantelerlass-kantone]]`. Status emerging
+(**alle 26 Kantone erstmals recherchiert**, aber mehrere W/m²-/%-Sätze und der AI-Widerspruch
+noch offen — nicht established).
 
 ---
 

@@ -959,3 +959,24 @@ Beziehungsstufe zum Zweitadressaten.
   mehreren Mail-Wechseln), ohne dabei zum Du zu kippen (Fachplaner/externe Spezialisten bleiben
   Sie, vgl. Kübler/Ziegel). Quelle: 18.05.2026, authentisch (→ [[fachsignatur]] Leichtbauwand-
   Ertüchtigung).
+
+## Mailbatch 46 (2026-05-20 bis 2026-05-27)
+
+- **«Liebe Frau Hottinger» — Sie-Register einer Stufe wärmer als «Geschätzte».** Für dieselbe
+  AfB-Sachbearbeiterin, die bisher konsistent als «Sehr geehrte/Geschätzte Frau Hottinger»
+  belegt war (Batch 33/36/44/45), erscheint hier «**Liebe Frau Hottinger**» — eine warme
+  Sie-Stufe oberhalb von «Geschätzte», ausgelöst durch einen dringlichen, persönlich formulierten
+  Zustellungswunsch («Gerne würden wir mit bauen beginnen … Darf ich Sie bitten…»). Bestätigt:
+  bei mehrfach positiv verlaufener Behörden-Korrespondenz kann das Sie-Register über «Geschätzte»
+  hinaus bis zu «Liebe» warm werden, ohne zum Du zu kippen. Quelle: 26.05.2026, authentisch.
+- **«Geschätzter Herr Stevanovic» (Bojan Stevanovic, Gruner AG) — Sie-Mapping des neuen
+  Gruner-Nachfolgekontakts bestätigt.** Reiner Kurzmail-Beleg («Wie telefonisch besprochen…»,
+  Sie-Register, kein Du) für den in Batch 44 erstmals erwähnten Gruner-Nachfolgekontakt
+  Stevanovic/Scherbl — bestätigt, dass externe Fachplaner-Sie-Kontakte bei personellem Wechsel
+  beim Auftraggeber-Team konsequent im Sie-Register bleiben. Quelle: 22.05.2026, authentisch.
+- **«Guten Morgen Roman» (Roman Steinmann) — Tageszeit-Du-Opener bestätigt in operativer
+  Bitte-Mail (nicht nur Honorar-Kontext).** Ergänzt den bereits belegten «Guten Morgen/Guten
+  Abend»-Du-Opener (Batch 45, dort Honorarofferte) um eine rein operative, sehr kurze
+  Bitte-Mail («Könntest Du mir … senden?») — die Tageszeit-Anrede ist damit unabhängig vom
+  Mail-Zweck (Honorar wie Kurzbitte) fest an das Steinmann-Du-Register gekoppelt. Quelle:
+  26.05.2026, authentisch (→ [[stimme]] «Danke und Gruss»).

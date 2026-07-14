@@ -494,16 +494,34 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   1.1.2023 (MuKEn-Modul E). Neuenburg: Revision in Erarbeitung (15 W/m² SRE), noch nicht in
   Kraft. Status bleibt emerging (18 von 26 Kantonen recherchiert). Löst den Run-58-Prioritätspunkt
   2 weiter (BL-Vertiefung + 8 Kleinkantone bleiben offen: JU, FR, GL, NW, OW, AR, AI).
+- [x] **E49** **Solarpflicht Basel-Landschaft/Jura/Freiburg/Glarus/Nidwalden/Obwalden/Appenzell
+  AR+AI — die letzten acht Kantone** belegt ✓ 2026-07-14 (Run 60) →
+  `[[solarpflicht-national-mantelerlass-kantone]]` ergänzt, Themenartikel
+  `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. **Basel-Landschaft**: Solar-
+  initiative am 8.3.2026 mit ~70 % Nein abgelehnt (Kantonsgericht hatte zuvor die Dekrets-
+  Grundlage der Neubau-Pflicht verworfen) — bleibt ohne generelle kantonale Pflicht. **Obwalden**:
+  neues PBG (4.12.2025) mit Solarpflicht verabschiedet, SVP-Referendumsinitiative seit 22.1.2026
+  hängig, Ausgang offen. **Glarus** (seit 2023), **Nidwalden** (seit 1.11.2021, 10 W/m² EBF,
+  Gemeinschaftsanlage zählt) und **Appenzell Ausserrhoden** (seit 1.1.2023, Art. 10a EnG, alle
+  Neubauten) haben je eine Eigenstromerzeugungspflicht in Kraft. **Freiburg**: 10 W/m² EBF
+  (MuKEn-2014). **Jura**: OEn seit 2019 an beheizte Fläche gekoppelt, Revision 2026/2027 geplant.
+  **Appenzell Innerrhoden**: ungeklärter Quellenwiderspruch — Sekundärquellen behaupten eine
+  PV-Pflicht, die amtliche Primärseite ai.ch zeigt nur eine Melde-/Bewilligungspflicht, bewusst
+  als offen dokumentiert statt geglättet. Status bleibt emerging, aber **damit sind erstmals alle
+  26 Kantone mindestens einmal recherchiert** — löst den Run-59-Prioritätspunkt 2 vollständig.
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 59): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F66 Vertiefungen belegt (F66 in Run 59 auf 18/26 Kantone erweitert, inkl. beider
-  JANS-Fokuskantone ZH+SZ), Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G,
-  LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (100 %
-  amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND Solarpflicht in
-  18 Kantonen (E46-E48) primaerquellen-/volltext-verifiziert bzw. web-trianguliert (E38-E48) —
-  Meta-Punkt M2 ist SEIT RUN 45 (also FUENFZEHN Laeufen in Folge) spruchreif fuer eine
-  Entscheidung und wird hier zum fuenfzehnten Mal vermerkt. Der Loop kann sie nicht selbst
-  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst
-  dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**
+  **Stand 2026-07-14 (Run 60): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F66 Vertiefungen belegt (F66 in Run 60 auf 26/26 Kantone erweitert — Erst-Erhebung
+  abgeschlossen, inkl. beider JANS-Fokuskantone ZH+SZ), Rp/kWh-Luecken orientierend geschlossen
+  (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit,
+  § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND
+  Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
+  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also SECHZEHN Laeufen in Folge) spruchreif
+  fuer eine Entscheidung und wird hier zum sechzehnten Mal vermerkt. Der Loop kann sie nicht
+  selbst treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session,
+  sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Mit dem
+  Abschluss der 26-Kantone-Erhebung wird der naechste Themenkomplex (Fassadenbegruenung als
+  Hitzeschutz-Ergaenzung zu PV, oder Schallschutz gegen Aussenlaerm als Pendant zu F65) faellig —
+  ebenfalls ein Punkt, den eine interaktive Session priorisieren koennte.**
