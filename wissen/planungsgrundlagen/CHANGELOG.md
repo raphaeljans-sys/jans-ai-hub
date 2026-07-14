@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 46 (Kartenportale + Energie, Token-Vollgas): ÖREB-Weisung V3 vollständig abgeschlossen (S. 20-73), Energie-Refresh unverändert
+- **Kartenportale (PL-01):** Rest der Weisung «ÖREB-Kataster Betrieb und Nachführung der Daten»
+  V3 (S. 20-73, alle acht Themen-Detailprozesse §5.2-§5.12) vollständig gelesen und in
+  [[kartenportale-oereb-kataster-system-zh]] als §8-§12 eingearbeitet. Bei sechs von sieben
+  Nutzungsplanungs-/Baulinien-Themen (§5.2-5.8) bestätigt sich das bereits bekannte generische
+  4-6-Phasen-Muster (kein Delta); zwei echte Zusatzfunde: **Mehrwertausgleich (MWA)** als
+  Blocker vor der öffentlichen Auflage bei kommunaler Nutzungsplanung und überkommunalen
+  Gestaltungsplänen (separates Tool eMehrwertausgleich), und der **Quartierplan als 7-Phasen-
+  Sonderfall** (zwei Grundeigentümerversammlungen, notarielle Prüfung der Rechtsverhältnisse,
+  Vermessungsplan, grundbücherlicher Vollzug §§161 ff. PBG). **§5.9 Statische Waldgrenzen:**
+  zwei getrennte Änderungswege — Bauzonen-Erstfestsetzung (seit 2018, absehbar abgeschlossen)
+  vs. Rodung/Ersatzaufforstung als einziger verbleibender Weg danach; die Waldgrenze ändert
+  sich erst mit der **ausgeführten** Rodung (Abnahmeprotokoll), nicht mit der blossen
+  Bewilligung — direkt relevant für Baufeld-Berechnungen (`baulinien-analyst`/`machbarkeit`).
+  **§5.10/5.11 Grundwasserschutz:** Schutzzone (Layer 131, Gemeinde formal zuständig, Antrag-
+  steller meist Wasserversorgung) vs. Schutzareal (Layer 132, AWEL direkt zuständig) plus
+  provisorische «Zonen S», die vor jeder öffentlichen Auflage sofort im ÖREB erscheinen können.
+  **§5.12 Kataster belasteter Standorte (KbS):** einziges Thema ohne eigene Vorprüfungs-Phase,
+  ausgelöst durch Bauvorhaben/Untersuchung/Sanierung direkt bei AWEL Sektion Altlasten — relevant
+  für `ankaufspruefung`. **Die 73-seitige Weisung ist damit vollständig ausgewertet, keine
+  offenen Kapitel mehr.**
+- **Energie (PL-04):** Web-Refresh-Check MuKEn-2025-ZH-Überführung (aeesuisse.ch, hev-zh.ch,
+  energiehub-gebaeude.ch) — weiterhin keine kantonsspezifische Vernehmlassung oder
+  Terminangabe für Zürich auffindbar, nur die allgemeine EnDK-Timeline «Umsetzung 2025-2030»;
+  Datenstand in [[energie-energienachweis-zh-formulare]] unverändert bestätigt.
+- Register nachgeführt: `training/curriculum.md` (K40-Rest §5.3-5.8/§5.9/§5.10-5.11/§5.12 +
+  E5-Refresh), `wiki/QUESTIONS.md` (Sammel-Eintrag K40-Rest), `raw/_INGESTED.md` (zwei neue
+  Zeilen), `wiki/INDEX.md` (Artikelzeile nachgeführt).
+
 ## 2026-07-14 — Training Run 45 (Recht & Norm, Token-Vollgas): GT-Richtlinien-Serie AHB komplett ausgewertet + Kennzeichnungssystem-Delta + Raummodul-Standards NEU + KBOB-Merkblatt-Delta-Check
 - **§12–§14 GT-Richtlinien Gebäudetechnik AHB (Ordner `14-Energie-und Gebaeudetechnik/
   14.3-Richtlinien`) — komplette Serie GT_RL1-9 vollständig gelesen** (bisher war nur §4 GA-

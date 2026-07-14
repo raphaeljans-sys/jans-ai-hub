@@ -2,6 +2,22 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14i — twin-mail-training: Mailbatch 49 (02.–04.06.2026, KISPI-Vergabe + Albertstrasse-7-Submission + Thalwil-Rechnung)
+- Sequentieller Sweep fortgesetzt: Index 315-295 in "Gesendete Elemente" (Exchange rj@),
+  21 Mails gesichtet, 12 Volltexte gelesen; Zugriff via Apple Mail osascript (M365-MCP ohne
+  Mail-Read-Tool in dieser Session). Indexverschiebung durch 2 neu eingetroffene Mails
+  festgestellt und per Betreff-Grep verifiziert, bevor der Sweep fortgesetzt wurde.
+- [[arbeitsweise]]: neue Nullform «Betreff-als-Body» (Status-Update wortgleich als einziger
+  Mailinhalt, unter der bereits belegten Agenda-Nullform) + neuer Marker «Caps-Titel-Zeile im
+  Fliesstext» für Vergabe-/Themenblock-Gliederung.
+- [[beziehungsregister]]: neue Mittelstufe «Guten Tag <Vorname1> und <Vorname2>» für
+  Paar-Rechnungen an Ehepaar-Bauherrschaft — präzisiert den «Geld kühlt Peer-Du»-Reflex.
+- [[stimme]]: neue Marker «Preis-Delta-Kurzformel KV:/ANUN: ohne Einleitung» + «ultra-
+  informeller Vor-Termin-Signoff trotz formeller Anrede» + Mikro-Metrik Batch 49 (713 W,
+  Du-Gross 1.0, ø 25.5 W).
+- `raw/260714-mailbatch-49.md` angelegt, `raw/_INGESTED.md` nachgeführt (Register jetzt bis
+  2026-06-04 10:17, nächster Lauf ab Index 294 mit Verifikationshinweis zur Indexdrift).
+
 ## 2026-07-14h — twin-fidelity-review: SBB-Näherbaurecht-Faden + KISPI-Türplanung (09.–13.07.2026)
 - Goldproben via Apple-Mail-Fallback («Gesendete Elemente» rj@, M365-MCP in dieser Session
   ohne Mail-Read-Tool): SBB-Näherbaurecht-Faden Thalwil 2414 (3 Register: Sie-Erstkontakt/

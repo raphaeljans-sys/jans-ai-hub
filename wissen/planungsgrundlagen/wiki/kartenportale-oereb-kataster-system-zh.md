@@ -2,7 +2,7 @@
 title: ÖREB-Kataster-System Kt. ZH — Rechtsgrundlagen, Themen-Register, Vorwirkung
 status: established
 last_updated: 2026-07-14
-sources: [Kt. ZH ARE Abt. Geoinformation, "Weisung ÖREB-Kataster Betrieb und Nachführung der Daten", Version 3, 01.12.2022 (73 S.)]
+sources: [Kt. ZH ARE Abt. Geoinformation, "Weisung ÖREB-Kataster Betrieb und Nachführung der Daten", Version 3, 01.12.2022 (73 S.), vollständig ausgewertet Run 44+46]
 links: [[kartenportale-oereb-egrid-bezug]], [[kartenportale-geoportale-uebersicht]], [[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-naturgefahren-objektschutz]], [[kartenportale-denkmalschutz-isos]], [[recht-norm-quellenlandkarte]]
 ---
 
@@ -170,22 +170,106 @@ Fehlern, fehlerhaften Datensätzen, Sicherheitslücken unverzüglich informieren
 Die auf dem ÖREB-Kataster ausgeschalteten Dokumente dürfen keine schützenswerten Personendaten
 enthalten (relevant bei der Frage, was in ÖREB-Docs verlinkte Rechtsdokumente enthalten dürfen).
 
+## 8. Themen-Detailprozesse §5.2–5.8 — generisches Muster bestätigt, zwei echte Deltas
+
+Kapitel 5.2–5.8 (S. 20–54) instanziieren je Thema (kommunale Nutzungsplanung NP01–27,
+kantonale/regionale Nutzungszonen KNP01–15, überkommunale Gestaltungspläne KGP01–17,
+Planungszonen PZ01–11, Quartierpläne QP01–49, kommunale Verkehrsbaulinien BL01–18, kantonale
+Verkehrsbaulinien BK01–13) dasselbe generische 4–6-Phasen-Muster aus §4 (Auftrag/Entwurf →
+Vorprüfung → Öffentliche Auflage → Festsetzung → Genehmigung → Inkraftsetzung), nur mit
+thema-spezifischer Zuständigkeit (Gemeinde bei kommunalen Themen, ARE-RP/AFM bei kantonalen —
+bereits in §5 abgebildet). **Kein Delta bei sechs von sieben Themen** — zwei echte Zusatzfunde:
+
+- **Mehrwertausgleich (MWA) als Blocker vor der öffentlichen Auflage:** Bei kommunaler
+  Nutzungsplanung (NP03/08–11) und überkommunalen Gestaltungsplänen (KGP04/06/07) muss VOR der
+  öffentlichen Auflage geklärt werden, ob der Mehrwertausgleich betroffen ist; falls ja, wird im
+  separaten Tool **eMehrwertausgleich** eine Mehrwertprognose berechnet und in den
+  RPV-47-Planungsbericht integriert — ohne das ist keine öffentliche Auflage zulässig.
+  **JANS-Anwendung:** bei einer Machbarkeitsstudie (Skill `machbarkeit` Typ A) mit laufender
+  BZO-/Gestaltungsplan-Revision ist der Mehrwertausgleich ein Kostenfaktor der Bauherrschaft, der
+  parallel zum Bewilligungsweg abgeklärt werden muss — nicht nur eine Formalie.
+- **Quartierplan (QP01–49) ist der mit Abstand aufwendigste Prozess** (7 Phasen statt 4-6,
+  bis QP49): zwei Grundeigentümerversammlungen (QP26/QP32) mit Einbringung/Behandlung von
+  Wünschen und Begehren, **notarielle Prüfung der Neuordnung der Rechtsverhältnisse vor
+  Festsetzung** (QP35, damit der spätere Grundbuch-Vollzug rechtlich umsetzbar ist), eigener
+  Vermessungsplan (QP34) und grundbücherlicher Vollzug nach §§ 161 ff. PBG (QP49) — ein
+  Quartierplan ist damit näher an einer Landumlegung als an einer reinen Zonenplan-Revision.
+
+## 9. Statische Waldgrenzen (§5.9) — zwei Änderungswege, KFM in Doppelrolle
+
+Zwei getrennte Prozessabläufe für dieselbe Layer-ID 157 (Waldgrenzen):
+
+- **WG01–14 (Bauzonen-Erstfestsetzung):** läuft flächendeckend seit 2018 für Waldgrenzen
+  ausserhalb der Bauzone (innerhalb der Bauzone bereits vor Jahren abgeschlossen). Sobald ALLE
+  statischen Waldgrenzen ausserhalb Bauzone festgesetzt sind, entfällt dieser Prozess ganz —
+  danach ist der **einzige** Änderungsweg noch die Rodungsbewilligung (RE-Prozess).
+- **RE01–12 (Rodung/Ersatzaufforstung):** die einzige Änderung des Waldgrenzenverlaufs nach
+  Abschluss der Erstfestsetzung. Wichtig für JANS: die reine **Rodungsbewilligung ändert die
+  Waldgrenze noch NICHT** — erst die tatsächlich ausgeführte Rodung (Abnahmeprotokoll RE07/RE10,
+  ggf. Jahre nach Erteilung) löst die ÖREB-Nachführung aus. Kommt das Bauprojekt nie zustande,
+  bleibt die alte Waldgrenze bestehen, auch wenn eine Bewilligung vorliegt.
+- **Rolle:** das ALN, Abteilung Wald, vertreten durch den/die **Kreisforstmeister/in (KFM)**,
+  ist gleichzeitig zuständige Stelle UND kantonale Fachstelle (keine Aufsichtstrennung wie bei
+  den Nutzungsplanungsthemen) — der/die KFM führt Waldfeststellung, öffentliche Auflage,
+  Einsprachebehandlung UND Festsetzungsantrag in Personalunion.
+- **JANS-Anwendung:** meldet der Connector eine bewilligte, aber noch nicht abgenommene Rodung
+  nahe der Parzelle, ist die Waldgrenze im ÖREB-Auszug noch die ALTE — das künftige Baufeld
+  (Skill `machbarkeit`/`baulinien-analyst`) darf sich erst nach Vorliegen des Abnahmeprotokolls
+  auf die neue, kleinere Waldabstandslinie stützen.
+
+## 10. Grundwasserschutzzonen (§5.10) — Gemeinde zuständig, Auslöser meist die Wasserversorgung
+
+Layer-ID 131 (bereits im Connector via K10-Rest/Run 33 getestet). Neu aus GW01–20:
+
+- Formale Zuständigkeit liegt bei der **Gemeinde** (Initiative, öffentliche Auflage,
+  Festsetzung), Prüfung/Genehmigung beim **AWEL**; **in der Praxis** ist der tatsächliche
+  Antragsteller aber meist die **Wasserversorgung oder ein privater Fassungseigentümer**, der
+  sich an die Gemeinde wendet — die Gemeinde tritt formal auf, initiiert aber selten aus
+  eigenem Antrieb.
+- Voraussetzung jeder Ausscheidung/Änderung ist ein **hydrogeologisches Gutachten** (GW02),
+  erstellt durch einen Fachspezialisten (Hydrogeologe).
+- **Provisorische «Zonen S» (§5.10.5):** stellt das AWEL fest, dass eine neue Trinkwasserfassung
+  der Schutzzonenpflicht unterliegt, wird sofort eine projektierte «Zone S» in den ÖREB-Kataster
+  aufgenommen — noch bevor Plan/Reglement vorliegen (Status «Entwurf»/«Vorprüfung»). Für JANS
+  heisst das: ein Grundstück kann kurzfristig und ohne öffentliche Auflage in eine vorsorgliche
+  Schutzzone fallen, bevor die reguläre Ausscheidung überhaupt begonnen hat.
+
+## 11. Grundwasserschutzareale (§5.11) — kantonal statt kommunal, sonst identisches Muster
+
+Layer-ID 132: im Unterschied zur Schutzzone (§5.10, Gemeinde zuständig) ist beim **Areal** das
+**AWEL selbst zuständige Stelle UND kantonale Fachstelle** (GA01–12) — die Gemeinde kommt im
+Ablaufschema gar nicht vor. Ablauf sonst analog (hydrogeologisches Gutachten, Vorprüfung,
+Anhörung der betroffenen Gemeinden/Wasserversorgungen, Festsetzung durch die Baudirektion,
+30-tägige Auflage mit Rechtsmittelfrist, erste Rekursinstanz Baurekursgericht).
+
+## 12. Kataster der belasteten Standorte (§5.12) — Nachführung ohne Vorprüfungs-Phase
+
+Layer-ID 116 (KbS): einziges der acht Themen in Kap. 5 **ohne** eigene Vorprüfungs-Phase
+(«bei der Nachführung KbS gibt es keinen mit Vorprüfung vergleichbaren Prozess», S. 73).
+Auslöser ist immer ein konkreter Anlassfall: Bauvorhaben an einem belasteten Standort, eine
+durchgeführte Untersuchung oder eine abgeschlossene Altlasten-Sanierung — die Bauherrschaft
+oder der Standortinhaber reicht den altlasten-/abfallrechtlichen Bericht direkt beim **AWEL,
+Sektion Altlasten** ein (KBS01–09). Rechtsmittelfrist 30 Tage ab Zustellung der Verfügung an
+den Standortinhaber; danach Bereitstellung des rechtsgültigen Zustands über PostGIS/WebService.
+**JANS-Anwendung:** bei `ankaufspruefung` ist ein laufendes KbS-Nachführungsverfahren (Status
+«provisorisch» im ÖREB) ein Signal, dass sich der Altlasten-Status der Parzelle gerade ändert —
+den aktuellen Verfahrensstand beim AWEL abfragen, nicht nur den zuletzt publizierten KbS-Eintrag
+werten.
+
 ## Herkunft dieses Funds
 
 Datei `PL - 01 Kartenportale/Grundstueckkataster/Allgemein/oereb_weisung_v3.pdf` — bisher nie
-ausgewertet (Trainingslauf 44, 2026-07-14), obwohl der übergeordnete Ordner
-`Grundstueckkataster/` seit K1 als Benchmark-Quelle für DXF-/OEREB-Beispiele diente. Die zwei
-begleitenden Word-Dateien im selben Ordner (`241122_`/`251122_Vorgehen Datenbezug…`,
-`Bezugsorte Amtliche Vermessung Grundstueckkataster.docx`) sind **bestätigte Nicht-Funde** —
-drei chronologisch gestaffelte persönliche Notizen (Mai 2024/Okt 2024/März 2026), die alle
-denselben, bereits in [[kartenportale-geoportale-uebersicht]] (A4/K4) dokumentierten
-Geoshop-/geodienste.ch-Bezugsweg beschreiben, ohne neuen Inhalt.
+ausgewertet vor Trainingslauf 44 (2026-07-14), obwohl der übergeordnete Ordner
+`Grundstueckkataster/` seit K1 als Benchmark-Quelle für DXF-/OEREB-Beispiele diente. Run 44
+deckte S. 1–19 ab (ID-Register, Vorwirkung, Systemarchitektur); **Run 46 (2026-07-14) hat die
+Weisung mit §8–§12 (S. 20–73, alle acht Themen-Detailprozesse) vollständig abgeschlossen.** Die
+zwei begleitenden Word-Dateien im selben Ordner (`241122_`/`251122_Vorgehen Datenbezug…`,
+`Bezugsorte Amtliche Vermessung Grundstueckkataster.docx`) bleiben **bestätigte Nicht-Funde**
+(Delta zu A4/K4).
 
 ## Offen
 
-- Kapitel 5.3–5.12 der Weisung (Detailprozesse je Thema: Kantonale/regionale Nutzungszonen,
-  Überkommunale Gestaltungspläne, Planungszonen, Quartierpläne, Verkehrsbaulinien, statische
-  Waldgrenzen, Grundwasserschutzzonen/-areale, Kataster belastete Standorte — S. 26–73) noch
-  nicht ausgewertet; nächster Lauf kann hier vertiefen, insbesondere die Detailprozesse zu
-  Waldgrenzen (§5.9) und Grundwasserschutz (§5.10/5.11), die die bereits dokumentierten
-  Connector-Layer 157/130/131 direkt betreffen.
+Keine offenen Kapitel mehr in dieser Quelle — die Weisung V3 (73 S.) ist vollständig
+ausgewertet (Run 44 + Run 46). Anschlussfähige offene Fragen liegen jetzt bei den referenzierten
+Layer-Artikeln selbst (z.B. ZH-Endpunkt Grundwasserschutzzonen-Layer produktiv nutzen,
+[[kartenportale-naturgefahren-objektschutz]] §6/§8).

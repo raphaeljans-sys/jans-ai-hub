@@ -3,6 +3,25 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K40-Rest (Run 46, 2026-07-14, Token-Vollgas)** Rest der Weisung ÖREB-Kataster V3
+  (§5.3-5.12, S. 26-73) vollstaendig ausgewertet — schliesst die K40-Luecke (siehe Eintrag
+  darunter). Themen-Detailprozesse §5.2-5.8 folgen groesstenteils dem generischen 4-6-Phasen-
+  Muster (kein Delta), zwei echte Zusatzfunde: **Mehrwertausgleich(MWA)** als Blocker vor der
+  oeffentlichen Auflage (separates Tool eMehrwertausgleich, betrifft NP/KGP) und **Quartierplan
+  als 7-Phasen-Sonderfall** (zwei Grundeigentuemerversammlungen, notarielle Pruefung der
+  Rechtsverhaeltnisse, Vermessungsplan, grundbuechlicher Vollzug §§161 PBG — naeher an einer
+  Landumlegung als an einer Zonenplan-Revision). **§5.9 Statische Waldgrenzen:** zwei
+  Aenderungswege (Bauzonen-Erstfestsetzung, abgeschlossen seit 2018 vs. Rodung/Ersatzaufforstung
+  als einziger verbleibender Weg danach); Waldgrenze aendert sich erst mit der AUSGEFUEHRTEN
+  Rodung (Abnahmeprotokoll), nicht mit blosser Bewilligung — Baufeld-Berechnung darf sich nicht
+  auf eine unausgefuehrte Rodungsbewilligung stuetzen. **§5.10/5.11 Grundwasserschutz:**
+  Schutzzone (Layer 131) = Gemeinde formal zustaendig (Antragsteller meist Wasserversorgung),
+  Schutzareal (Layer 132) = AWEL direkt zustaendig; provisorische «Zonen S» koennen vor jeder
+  oeffentlichen Auflage sofort erscheinen. **§5.12 KbS:** einziges Thema OHNE Vorpruefungs-Phase,
+  Ausloeser immer Anlassfall (Bauvorhaben/Untersuchung/Sanierung) direkt bei AWEL Sektion
+  Altlasten → alle fuenf Funde in [[kartenportale-oereb-kataster-system-zh]] §8-§12. **Damit ist
+  die 73-seitige Weisung vollstaendig ausgewertet, keine offenen Kapitel mehr.** Details siehe
+  `training/curriculum.md` K40-Rest §5.3-5.8/§5.9/§5.10-5.11/§5.12.
 - [x] **K40 (Run 44, 2026-07-14, Token-Vollgas)** Ein bisher nie ausgewertetes, obwohl im Ordner
   seit K1 als DXF-/OEREB-Benchmark-Quelle genutztes Dokument entdeckt:
   `Grundstueckkataster/Allgemein/oereb_weisung_v3.pdf` — die amtliche «Weisung ÖREB-Kataster

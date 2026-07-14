@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1128,3 +1128,27 @@ noch nicht vereinbarten Kontaktpunkt an: «Ich werde mich noch telefonisch bei I
 Begehung vorzubesprechen.» — die Mail schliesst den Termin nicht einfach ab, sondern kündigt den
 nächsten Arbeitsschritt (Telefonat zur Vorbesprechung) von sich aus an, statt ihn dem Gegenüber zu
 überlassen. Quelle: 01.06.2026, authentisch.
+
+## Betreff-als-Body — die absolute Nullform des Status-Updates (belegt Mailbatch 49, authentisch)
+
+Noch unter der bereits belegten Nullform der nummerierten Agenda-Mail (Batch 42) liegt eine
+noch knappere Form: bei einem reinen internen Status-Flag an den eingespielten Du-Projektpartner
+wird der Betreff **wortgleich als einziger Mailinhalt wiederholt** — «Raumprogramm aktualisiert»
+als Betreff UND als kompletter Body, ohne Anrede, ohne Gruss, ohne einen einzigen zusätzlichen
+Satz. Der Anhang (das aktualisierte Dokument) trägt die eigentliche Information; die Mail ist
+nur das Versand-Signal. Der Zwilling nutzt diese Nullform ausschliesslich für reine
+Dokumentversand-Benachrichtigungen ohne inhaltliche Aussage im eingespielten Du-Kontext — sobald
+eine Erklärung, Bitte oder Einordnung nötig ist, gilt wieder die volle Rahmung. Quelle:
+03.06.2026, authentisch.
+
+## Caps-Titel-Zeile im Fliesstext für Vergabe-/Auftragsmails (belegt Mailbatch 49, authentisch)
+
+Bei einer Vergabe- oder Auftragsmail an den eingespielten Du-Projektpartner wiederholt Raphael
+den Betreff als **Grossbuchstaben-Titelzeile direkt zu Mailbeginn** («VERGABE LOS_273.35
+Küchenbau»), bevor der Fliesstext einsetzt — die Mail bekommt dadurch einen amtlich-strukturierten
+Charakter, auch wenn die Anrede darüber warm-persönlich bleibt («Geschätzter Albin,»). Innerhalb
+längerer Fachmails setzt er dasselbe Mittel als Zwischentitel für Themenblöcke
+(«SUBMISSIONSDOSSIER», «GRUNDFRAGESTELLUNG», «KOORDINATION MIT FACHPLANER», «WERKPLANUNG») —
+eine Ergänzung zu den bereits belegten nummerierten/geletterten Themenblöcken (01–06/A_–M_):
+hier trägt nicht die Nummer, sondern die Grossschreibung die Gliederung. Quelle: 03.06.2026,
+authentisch.
