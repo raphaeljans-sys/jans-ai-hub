@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 08:20:44
+Stand: 14.07.2026 08:40:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 14.07.2026 08:20:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2b2ff7d0 nas-selfcommit: 2 Datei(en) 2026-07-14 08:15
+- 08754e80 spec-training Lauf 16: Verifikationslauf, keine neue reale Spec, Scheduling-Redundanz weiter beobachtet
