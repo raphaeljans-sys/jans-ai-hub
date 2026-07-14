@@ -549,6 +549,26 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Status emerging (Alltags-Fördersatz pro Projekt/m² und quantitativer kWh-Effekt auf die
   Kühllast bleiben offen).
 
+- **D41 (Run 63, 2026-07-14)** — «Gilt im Kanton Schwyz (JANS-Fokuskanton) dieselbe
+  Ausnahmebewilligungspraxis wie in Zürich für Aussenlärm?» — belegt 2026-07-14. Löst den
+  Run-62-Prioritätspunkt 2 (SZ-Vertiefung des Run-62-Themenkomplexes Aussenlärm). Amtliches
+  Merkblatt des Umweltdepartements Kanton Schwyz (AfU, 29.01.2021, per curl+pdftotext vollständig
+  gelesen, 9 S.) zeigt drei substanzielle Abweichungen von der ZH-Praxis: (1) das
+  grenzwertkonforme Fenster muss bereits als **Grundvoraussetzung** ≥ 10 % der Bodenfläche
+  messen (nicht erst 5 % als Ausnahmeregel), (2) Ausnahmebewilligungen sind **nur bis 3 dB über
+  dem Immissionsgrenzwert** möglich — darüber gibt es in SZ keine Ausnahme (Hartgrenze, kein
+  gestaffeltes Regime), (3) **Festverglasungen sind für lärmempfindliche Wohn-/Arbeitsräume
+  grundsätzlich nicht bewilligungsfähig** (Regierungsratsbeschluss Nr. 652/2020) — der in Zürich
+  zulässige Ausweg «Festverglasung ab 70 dB Tag/60 dB Nacht» existiert in Schwyz nicht. Zusätzlich
+  vollständige SZ-Raumnutzungstabelle und Zuständigkeiten (AfU für Ausnahmebewilligung, Gemeinde
+  für Schallschutznachweis) erschlossen → neues Destillat
+  `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]` (status established, amtliche
+  Primärquelle vollständig gelesen), Ergänzung `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`
+  und `[[schallschutz-sia181]]`, FAQ F68 geschärft. Nebenbefund: die kommerziellen
+  Schallschutzfenster-Klassentabellen «II-V» (fensterversand.ch) und «SSK 1-6» (fensterhero.com,
+  DIN 4109) sind zwei unterschiedliche, nicht deckungsgleiche Skalen — als solche dokumentiert
+  statt vermischt.
+
 - **D37 (Run 59, 2026-07-14)** — Vier weitere Kantone recherchiert, darunter der zweite
   JANS-Fokuskanton **Schwyz**: dort wurde eine Motion für eine kantonale Solarpflicht am
   22.10.2025 vom Kantonsrat mit 50:45 Stimmen abgelehnt (Regierungsrat war ursprünglich dafür) —

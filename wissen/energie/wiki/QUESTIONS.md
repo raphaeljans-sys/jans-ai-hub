@@ -536,18 +536,30 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Pflicht). Status emerging (SZ-Ausnahmebewilligungspraxis, amtliche Fensterklassen-Tabelle,
   CHF-Mehrkosten je Klasse bleiben offen). Löst den Run-61-Prioritätspunkt 3 (Pendant zu F65).
 
+- [x] **E52** **SZ-Vollzugspraxis Aussenlärm (Kanton Schwyz, JANS-Fokuskanton) — Vergleich zu
+  ZH** belegt ✓ 2026-07-14 (Run 63) → `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]` (neu,
+  established), `[[aussenlaerm-schallschutzfenster-strasse-bahn]]` + `[[schallschutz-sia181]]`
+  ergänzt, FAQ **F68** geschärft. Amtliches Merkblatt AfU Kanton Schwyz (29.01.2021, vollständig
+  gelesen): 10 % Fensterfläche als Grundvoraussetzung (statt 5 % Ausnahmeregel), Ausnahme-
+  bewilligung nur bis 3 dB über IGW (darüber Hartgrenze), Festverglasungsverbot für Wohn-/
+  Arbeitsräume (Regierungsratsbeschluss Nr. 652/2020 — anders als ZH-Ausweg ab 70/60 dB),
+  vollständige SZ-Raumnutzungstabelle. Nebenbefund: Schallschutzfenster-Klassentabellen II-V
+  (fensterversand.ch) und SSK 1-6/DIN 4109 (fensterhero.com) sind zwei unterschiedliche,
+  nicht deckungsgleiche kommerzielle Skalen, sauber getrennt dokumentiert. Löst den
+  Run-62-Prioritätspunkt vollständig.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 62): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F68 Vertiefungen belegt (F68 neu: Aussenlaerm Strasse/Bahn — LSV-Kaskade/SIA-181-De/
-  Schallschutzfenster, Pendant zum Waermepumpen-Laermschutz F65), Rp/kWh-Luecken orientierend
+  **Stand 2026-07-14 (Run 63): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F68 Vertiefungen belegt (F68 jetzt inkl. SZ-Vollzugspraxis, amtliches Merkblatt AfU 29.01.2021
+  primaerquellenbelegt, Pendant zum Waermepumpen-Laermschutz F65), Rp/kWh-Luecken orientierend
   geschlossen (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-
   Luftdichtheit, § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle
   (E45) UND Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
-  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also ACHTZEHN Laeufen in Folge) spruchreif fuer
-  eine Entscheidung und wird hier zum achtzehnten Mal vermerkt. Der Loop kann sie nicht selbst
+  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also NEUNZEHN Laeufen in Folge) spruchreif fuer
+  eine Entscheidung und wird hier zum neunzehnten Mal vermerkt. Der Loop kann sie nicht selbst
   treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht
   sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger
-  Themenkomplex: SZ-spezifische Ausnahmebewilligungspraxis Aussenlaerm (JANS-Fokuskanton, bisher
-  nur ZH recherchiert) oder ein neues, noch unbelegtes Thema — eine interaktive Session koennte
+  Themenkomplex: ein neues, noch unbelegtes Thema (die beiden Laermschutz-Pendants F65/F68 samt
+  SZ-Vertiefung sind jetzt beide primaerquellenbelegt) — eine interaktive Session koennte
   priorisieren.**

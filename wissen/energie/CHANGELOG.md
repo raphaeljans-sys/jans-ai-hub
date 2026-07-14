@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 63: SZ-Vollzugspraxis Aussenlärm (JANS-Fokuskanton) amtlich belegt
+- **Run-Report** `outputs/2026-07-14_energie-run63.md`. PDF-Inventar bleibt seit Run 46
+  vollständig abgearbeitet; löst den Run-62-Prioritätspunkt «SZ-Ausnahmebewilligungspraxis».
+- **Neues Destillat** `cerclebruit-sz-merkblatt-laermbelastete-gebiete.md` — amtliches Merkblatt
+  des Umweltdepartements Kanton Schwyz (AfU, 29.01.2021), vollständig via curl+pdftotext gelesen
+  (9 S.). Status **established** (100 % amtliche Primärquelle).
+- **Drei substanzielle Abweichungen von der ZH-Praxis:** (1) **10 % Fensterfläche** als
+  Grundvoraussetzung für jeden lärmempfindlichen Raum (nicht erst 5 % als Ausnahmeregel);
+  (2) Ausnahmebewilligungen nur **bis 3 dB über dem Immissionsgrenzwert** — darüber gibt es in
+  Schwyz **keine** Ausnahme (Hartgrenze, kein gestaffeltes Regime); (3) **Festverglasungen sind
+  für lärmempfindliche Wohn-/Arbeitsräume grundsätzlich nicht bewilligungsfähig**
+  (Regierungsratsbeschluss Nr. 652/2020) — der in Zürich zulässige Ausweg «Festverglasung ab
+  70 dB Tag/60 dB Nacht» existiert in Schwyz nicht.
+- Zusätzlich vollständige SZ-Raumnutzungstabelle (Grenzwertpegel je Nutzung) und Zuständigkeiten
+  erschlossen: AfU entscheidet über Ausnahmebewilligung (Art. 31 Abs. 2 LSV), Gemeinde ist
+  vollzugszuständig für den Schallschutznachweis SIA 181 (§ 39 VVzUSG).
+- **Nebenbefund:** die beiden bisher zitierten kommerziellen Schallschutzfenster-Klassentabellen
+  «II-V» (fensterversand.ch) und «SSK 1-6» (fensterhero.com, DIN-4109-basiert) sind zwei
+  unterschiedliche, nicht deckungsgleiche Skalen — sauber getrennt dokumentiert statt vermischt;
+  keine der beiden ist in der Schweiz amtlich, SIA 181 kennt nur den situativen Anforderungswert De.
+- **Ergänzt:** `aussenlaerm-schallschutzfenster-strasse-bahn.md` (SZ-Vergleichsabschnitt,
+  Klassentabellen-Abgrenzung), `wiki/schallschutz-sia181.md` (SZ-vs-ZH-Vergleich), FAQ **F68**
+  geschärft.
+- **Register nachgeführt:** `destillate/INDEX.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md` (E52 neu,
+  E-S1 auf neunzehn Läufe), `training/curriculum.md` (D41 neu), `raw/_INGESTED.md`.
+
 ## 2026-07-14 — Run 62: Neuer Themenkomplex Aussenlärm Strasse/Bahn (Pendant zu F65)
 - **Run-Report** `outputs/2026-07-14_energie-run62.md`. PDF-Inventar bleibt seit Run 46
   vollständig abgearbeitet; Themenkomplex gemäss Run-61-Prioritätspunkt 3.

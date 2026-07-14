@@ -2,8 +2,8 @@
 title: Schallschutz im Hochbau — SIA 181:2020 (Anforderungswerte)
 status: established
 last_updated: 2026-07-14
-sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]]
+sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]], [[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]
 ---
 
 # Schallschutz im Hochbau — SIA 181:2020
@@ -77,6 +77,14 @@ Massnahmen-Kaskade (Quelle → Grundriss → bauliche Massnahmen → Fenster als
 Ausnahmebewilligungs-Ampel (gelbe/rote Räume), ZH-Festverglasungsschwelle (70/60 dB), die
 R'w+Ctr-Ausschreibungslogik sowie Schallschutzfenster-Klassen (kommerziell) →
 `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, FAQ **F68**.
+
+**Kantonaler Vergleich SZ vs. ZH (JANS-Fokuskantone, Run 63):** der Kanton Schwyz verschärft die
+Bundespraxis an drei Stellen — 10 % Fensterfläche als Grundvoraussetzung (statt 5 % als reine
+Ausnahmeregel), eine harte **3-dB-Obergrenze** für Ausnahmebewilligungen (darüber keine Ausnahme
+möglich, kein gestaffeltes Regime), und ein grundsätzliches **Festverglasungsverbot** für
+lärmempfindliche Wohn-/Arbeitsräume — der in Zürich zulässige Ausweg «Festverglasung ab 70 dB
+Tag/60 dB Nacht» existiert in Schwyz nicht →
+`[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`.
 
 ## Wo der Schallschutz im JANS-Workflow auftaucht
 - **Entwurf:** Grundriss-Stapelung (Schlafraum nicht ueber Technikraum/Lift), WP-Standort.

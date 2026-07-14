@@ -1,9 +1,9 @@
 ---
-quelle: «Vollzugshilfe/Mindestvoraussetzungen Ausnahmebewilligung Art. 31 Abs. 2 LSV» (bauen-im-laerm.ch) + «Schalldämmanforderungen nach SIA-Norm 181» (baukultur-laerm.ch, Fachartikel mit Bezug Art. 32 LSV) + Schallschutzfenster-Klassentabelle (fensterversand.ch, kommerzielle Quelle)
-herausgeber: bauen-im-laerm.ch (Fachplattform Lärmschutz im Bauen, Bezug auf LSV/USG); baukultur-laerm.ch (Stand 20.01.2022, Bezug SIA 181:2020 Ziff. 3.1.1); fensterversand.ch (Fensterhändler, Klassentabelle kommerziell)
+quelle: «Vollzugshilfe/Mindestvoraussetzungen Ausnahmebewilligung Art. 31 Abs. 2 LSV» (bauen-im-laerm.ch) + «Schalldämmanforderungen nach SIA-Norm 181» (baukultur-laerm.ch, Fachartikel mit Bezug Art. 32 LSV) + Schallschutzfenster-Klassentabellen (fensterversand.ch II-V; fensterhero.com SSK 1-6/DIN 4109, beide kommerziell) + SZ-Vollzugsvergleich via `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`
+herausgeber: bauen-im-laerm.ch (Fachplattform Lärmschutz im Bauen, Bezug auf LSV/USG); baukultur-laerm.ch (Stand 20.01.2022, Bezug SIA 181:2020 Ziff. 3.1.1); fensterversand.ch/fensterhero.com (Fensterhändler, Klassentabellen kommerziell)
 ausgabe: LSV (SR 814.41, laufend geltend) Art. 31/32; SIA 181:2020 Ziff. 3.1.1
-gelesen: 2026-07-14 (Web via WebFetch bauen-im-laerm.ch/ausnahmebewilligung/mindestvoraussetzungen; curl+pdftotext baukultur-laerm.ch/sia181.pdf; WebFetch fensterversand.ch/fenster/typen/schallschutzfenster.php)
-datenstand: LSV-Artikel-Bezüge primärquellennah (Fachplattform zitiert Artikelnummern direkt); SIA-181-Formelwerte aus Sekundärquelle mit korrektem Norm-Bezug; Fensterklassen-Tabelle kommerziell, nicht amtlich — als solche markiert
+gelesen: 2026-07-14 (Web via WebFetch bauen-im-laerm.ch/ausnahmebewilligung/mindestvoraussetzungen; curl+pdftotext baukultur-laerm.ch/sia181.pdf; WebFetch fensterversand.ch/fenster/typen/schallschutzfenster.php; WebSearch+WebFetch stauffer.ch zur Abgrenzung SSK 1-6/DIN 4109 vs. SIA 181, Run 63)
+datenstand: LSV-Artikel-Bezüge primärquellennah (Fachplattform zitiert Artikelnummern direkt); SIA-181-Formelwerte aus Sekundärquelle mit korrektem Norm-Bezug; Fensterklassen-Tabellen kommerziell, nicht amtlich — als solche markiert; SZ-Vollzugspraxis amtlich verifiziert (Run 63)
 status: emerging
 last_updated: 2026-07-14
 ---
@@ -73,6 +73,17 @@ Die Praxis unterscheidet dabei **gelbe** und **rote** Räume (Ampel-Logik):
 Fenster als **Festverglasung** (mit separater Reinigungsöffnung) auszuführen — Belüftung/Belichtung
 müssen dann unabhängig davon anderswo wohnhygienisch gesichert sein.
 
+**SZ-Vollzugspraxis im Vergleich (JANS-Fokuskanton, amtliches Merkblatt AfU, 29.01.2021):** der
+Kanton Schwyz verschärft an drei Stellen gegenüber ZH — (1) das grenzwertkonforme Fenster muss
+bereits als **Grundvoraussetzung** mindestens **10 % der Bodenfläche** messen (nicht erst 5 % als
+Ausnahmeregel), (2) Ausnahmebewilligungen sind **nur bis 3 dB über dem Immissionsgrenzwert**
+möglich — darüber gibt es in SZ **keine** Ausnahme, keine gestaffelte Weiterführung wie andernorts,
+und (3) **Festverglasungen ohne Öffnungsmechanismus sind für lärmempfindliche Wohn-/Arbeitsräume
+grundsätzlich nicht bewilligungsfähig** (Regierungsratsbeschluss Nr. 652/2020) — der ZH-Ausweg
+«Festverglasung ab 70/60 dB» existiert in Schwyz so **nicht**. Details, Ausschlussliste
+unzulässiger Massnahmen und die vollständige SZ-Raumnutzungstabelle →
+`[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`.
+
 **Direkte Schnittstelle zur Komfortlüftung:** rote und teilweise gelbe Räume, deren Fenster wegen
 des Lärms praktisch geschlossen bleiben müssen, brauchen zwingend eine **mechanische Lüftung**
 (Komfort- oder Einzelraumlüftung) für die Luftqualität — sonst wird das Lärmschutzproblem zum
@@ -126,6 +137,14 @@ Die Quelle vermerkt, der Mehrkostenaufwand zwischen den Schallschutzklassen sei 
 ohne konkrete CHF-Differenz zu nennen — als reine kommerzielle Einschätzung nicht weiter
 verwendbar; für ein Projekt ist eine Fachplaner-/Herstellerofferte mit R'w+Ctr-Angabe nötig.
 
+**Vorsicht bei einer zweiten, abweichenden Klassentabelle:** im deutschen Markt kursiert parallel
+eine **eigene** Schallschutzklassen-Skala «SSK 1–6» (Rw 25 bis > 50 dB), die auf der deutschen
+Norm **DIN 4109** beruht und mit der obigen II-V-Tabelle **nicht identisch** ist (unterschiedliche
+Klassengrenzen, andere Herkunftsnorm). Beide Skalen sind für die Schweiz **nicht amtlich** — SIA
+181 kennt keine eigene Klassen-Buchstaben-/Nummern-Skala, sondern arbeitet direkt mit dem
+situativen Anforderungswert De (siehe oben). Für ein Schweizer Projekt zählt ausschliesslich die
+projektspezifische De/R'w+Ctr-Berechnung, keine der beiden kommerziellen Klassentabellen.
+
 ## Bauherren-Transfer
 
 - Ein Grundstück an einer lauten Strasse/Bahnlinie löst **zwei getrennte Prüfungen** aus: zuerst
@@ -144,14 +163,20 @@ verwendbar; für ein Projekt ist eine Fachplaner-/Herstellerofferte mit R'w+Ctr-
 ## Offene Punkte
 
 - Amtliche (nicht kommerzielle) Schallschutzfenster-Klassentabelle einer Schweizer Fachstelle
-  (z.B. VSFK/FFF) nicht gefunden — bisherige Tabelle bewusst als kommerzielle Quelle markiert.
+  (z.B. VSFK/FFF) nicht gefunden — bisherige Tabellen (II-V und SSK 1-6) bewusst als kommerzielle,
+  nicht deckungsgleiche Quellen markiert.
 - CHF-Mehrkosten je Schallschutzklasse gegenüber Standardfenster nicht beziffert.
-- Kantonsspezifische Ausnahmebewilligungspraxis (Ampel-System, Festverglasungs-Schwellenwerte)
-  nur für ZH recherchiert; SZ (JANS-Fokuskanton) noch offen.
+- ~~Kantonsspezifische Ausnahmebewilligungspraxis nur für ZH recherchiert; SZ noch offen~~ ✓
+  2026-07-14 (Run 63) gelöst → `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]` (amtliches
+  Merkblatt AfU, vollständig gelesen). Weitere Kantone (insb. weitere JANS-Projektkantone) bleiben
+  offen.
 - Konkrete Ctr-Werte je Fenstertyp/Hersteller (nur Bandbreite −4 bis −6 dB als generische Angabe).
 
 ## Siehe auch
 - `[[schallschutz-sia181]]` — Gesamtübersicht SIA 181 (alle vier Schutzziele, nicht nur Aussenlärm).
+- `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]` — kantonale SZ-Vollzugspraxis (amtliches
+  Merkblatt): 10-%-Fensterfläche-Grundvoraussetzung, 3-dB-Ausnahmehartgrenze,
+  Festverglasungsverbot für Wohnräume, vollständige Raumnutzungstabelle.
 - `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` — analoge Lärmschutz-Systematik für
   haustechnische Quellen (Wärmepumpen) statt Verkehrslärm; komplette ES-I-IV-Planungswerttabelle.
 - `[[komfortlueftung]]` — mechanische Lüftung als Voraussetzung, wenn Fenster wegen Lärm
