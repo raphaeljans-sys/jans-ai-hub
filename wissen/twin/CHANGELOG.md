@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14 — twin-fidelity-review: Nachtrag Mailbatch 37 (bisher unverarbeitet)
+- M365-Connector in dieser Session nicht verfuegbar (kein Mail-Suchwerkzeug verbunden); Review
+  arbeitete stattdessen auf `raw/260713-mailbatch-37.md` — bereits destilliert, aber bislang in
+  keinem der sechs Facetten-Wikis als Quelle zitiert.
+- Vier neue Marker eingearbeitet: Klammerkette-Emoji im warmen Handwerker-Sie ([[stimme]] —
+  schaerft/widerspricht die bestehende Emoji-Regel, als offene Frage markiert statt generalisiert),
+  fsgbau Person-statt-Firma-Register ([[beziehungsregister]], dritter Datenpunkt), Formularfeld-
+  Fragenkatalog A)-D) ([[fachsignatur]]), Selbst-Rollenklaerung + numerierter Themenkatalog
+  ([[arbeitsweise]]).
+- Drift-Report `outputs/2026-07-14_fidelity.md` (Gesamt-Fidelity ~86, nur teilweise bewertbar
+  ohne Live-Goldprobe).
+- 4 neue Fragen in QUESTIONS.md Runde 260714 (Klammerketten-Schwelle, Formularfeld-Reichweite,
+  Selbst-Rollenklaerung-Wiederholung).
+- Gehirn `rules/jans-dna.md` neu kompiliert.
+- Empfehlung fuer naechsten Lauf: `raw/`-Inventar gegen Sources-Zitate abgleichen, um weitere
+  durchs Raster gefallene Batches zu finden.
+
 ## 2026-07-14 — twin-mail-training Mailbatch 45 (2026-05-13 bis 2026-05-20)
 - Sequentieller Sweep fortgesetzt: Sent Items rj@, Index 421 bis 390 (32 Mails gesichtet, 5
   Volltexte destilliert). Zugriff via Apple Mail osascript (Bundle-ID `com.apple.mail`, Account

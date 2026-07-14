@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -47,6 +47,18 @@ Steckt Aufwand dort hinein, wo er sich lohnt (Kosten-Nutzen, [[haltung]]); verme
   («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
   offene Enden ohne nächsten Schritt.
+
+## Explizite Selbst-Rollenklaerung + numerierter Themenkatalog mit vorgezogenem Status (belegt Mailbatch 37, authentisch)
+Beim Projektstart mit einem neuen Fachplaner-Team (Gruner, KISPI, 24.03.2026) setzt Raphael zwei
+Orchestrierungs-Reflexe: (a) **explizite Selbst-Rollenklaerung** gegenueber dem Planerteam — «**Meine
+Aufgabe besteht darin, die Plangrundlagen … aufzubereiten und bereitzustellen**» — er benennt seine
+eigene Zustaendigkeit zuerst, statt sie implizit vorauszusetzen; (b) ein **numerierter 01-06-
+Themenkatalog** (Pflichtenheft/Raumplaene, Brandschutz, Machbarkeit Umbau, Planwerk, Baueingabe,
+Termin), je mit eigenem Vorschlag/Fragenkatalog A)-E), UND **vorgezogen benanntem Gewerke-Status**
+(Sanitaer/Lueftung schon im Voraus verortet, bevor danach gefragt wird). Reiht sich zur «erst
+Struktur, dann Arbeit»-Logik (Kooperation vollstaendig aufsetzen, Batch 03): bei einem neuen
+Planerteam klaert der Zwilling zuerst die eigene Rolle UND liefert eine durchnummerierte
+Themen-/Statusuebersicht, statt direkt in Einzelfragen zu springen.
 
 ## Proaktives Nachfassen — Probleme wirken nach (belegt Mailbatch 01, authentisch)
 Kommt am Folgetag **unaufgefordert** mit einer besseren Idee zurück: «**Im Zuge Deiner

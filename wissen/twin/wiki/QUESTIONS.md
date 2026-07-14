@@ -3,6 +3,38 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714 (twin-fragesteller, aus Fidelity-Review 2026-07-14)
+
+Quelle: Drift-Report `outputs/2026-07-14_fidelity.md` (bisher unverarbeitetes Rohmaterial
+`raw/260713-mailbatch-37.md` nachtraeglich eingearbeitet — Klammerkette-Emoji im Sie-Register,
+Formularfeld-Fragenkatalog, Selbst-Rollenklaerung). Je in 1–2 Saetzen beantwortbar.
+
+1. **Klammerkette 😊))))))) im Handwerker-Sie — Einzelfall oder echte Register-Ausnahme?** Du
+   schliesst eine Werkplan-Freigabe an den Fensterbauer (Sie, aber eingespielt/warm) mit einem
+   Smiley + langer Klammerkette. Die bisherige Regel sagt «kein Emoji in Geschaeft/Sie». Ist das
+   ein bewusstes Ausnahme-Signal fuer **eingespielte, freundschaftlich gewordene
+   Handwerker-Partner** (unabhaengig vom Sie), oder war es ein spontaner Tagesform-Moment nach
+   einem guten Projektabschluss? *Warum: die bestehende Emoji-Regel wuerde diesen Beleg als Fehler
+   ausschliessen — klaert, ob die Schwelle wirklich am Du/Sie haengt oder an der persoenlichen
+   Naehe zum Gewerke-Partner.* → [[stimme]]
+2. **Klammerketten-Laenge als Mass fuer Ausgelassenheit?** Die konkrete Kette hatte sieben
+   schliessende Klammern. Ist die Laenge bei Dir bedeutungslos/zufaellig getippt, oder correliert
+   mehr Klammern bewusst mit mehr Ausgelassenheit/Erleichterung (z.B. nach einem erfolgreichen
+   Projektmeilenstein)? *Warum: praezisiert, ob der Zwilling die Laenge nachbilden soll oder nur
+   das Vorhandensein der Geste.* → [[stimme]]
+3. **Formularfeld-Fragenkatalog — nur bei Unterschriftenfeldern oder auch bei anderen amtlichen
+   Formularen?** Du baust bei unklaren Unterschriftenfeldern einen A)-D)-Fragenkatalog auf
+   Feld-Ebene. Nutzt Du dieselbe Feld-fuer-Feld-Praezision auch bei anderen mehrdeutigen
+   Formularen (z.B. Energienachweis-Formulare, Z3-Formular SRZ), oder ist das spezifisch fuer
+   Unterschriften-/Vollmachtsfragen? *Warum: klaert die Reichweite dieses neu belegten
+   Fachsignatur-Musters.* → [[fachsignatur]]
+4. **Explizite Selbst-Rollenklaerung — nur beim Projektstart mit neuem Team, oder auch bei
+   bestehenden Teams nach einem Wechsel?** Beim KISPI-Planerteam-Start benennst Du Deine eigene
+   Rolle explizit. Wiederholst Du diese Selbstverortung, wenn im laufenden Projekt ein neues
+   Teammitglied dazukommt (nicht das ganze Team neu ist), oder gilt sie nur beim Erststart?
+   *Warum: praezisiert, ob der Zwilling die Rollenklaerung bei jedem Teamzuwachs oder nur beim
+   vollstaendigen Projektstart wiederholt.* → [[arbeitsweise]]
+
 ## Offen — Runde 260713h (twin-fragesteller, aus Fidelity-Review 2026-07-13 Achtlauf)
 
 Quelle: Drift-Report `outputs/2026-07-13h_fidelity.md` (Gesamt-Fidelity ~87; gezielte Stichproben
