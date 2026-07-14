@@ -570,18 +570,43 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   konservativer Fallback). Damit ist das PDF-Inventar jetzt wirklich lueckenlos (nicht nur laut
   Status-Vermerk) abgearbeitet.
 
+- [x] **E55** **Elektroheizungs-Ersatzpflicht Kt. ZH/SZ** belegt ✓ 2026-07-14 (Run 66) →
+  `[[elektroheizungs-ersatzpflicht-zh-sz]]`, FAQ **F70** neu. Neuer Themenkomplex (PDF-Inventar
+  bleibt erschoepft). ZH: Ersatzpflicht Bestand bis 2030 (§ 10b Abs. 3 EnerG), Ausnahmenkatalog
+  § 45c BBV I (Notheizung/3 kW/50 m²/PV≥10 %/Kirche/abgelegen), Busse bis CHF 20'000, bundesgerichtlich
+  bestaetigt (BGer 1C_37/2022 = BGE 149 I 49). SZ: Frist bis 2050 (§ 22a kEnG), nur Anlagen MIT
+  Wasserverteilsystem, kein eigener Bagatell-Katalog gefunden (offener Punkt).
+- [x] **E56** **Erdwaermesonden-Bewilligung Kt. ZH/SZ** belegt ✓ 2026-07-14 (Run 66) →
+  `[[erdwaermesonden-bewilligung-zh-sz]]`, FAQ **F71** neu. ZH: Gesuch ueber Gemeinde/AWEL, 500 m
+  Bohrtiefe, 2,5 m Grenzabstand, Grundwasserschutzzonen S1/S2 grundsaetzlich verboten,
+  Gewaesserschutzbereich Au bewilligungspflichtig (GSchG Art. 19-22/GSchV Art. 32). SZ: kostenlose
+  Vorabklaerung + eBau. Offen: AWEL-Gebuehr CHF nicht amtlich auffindbar, GSchG/GSchV-Wortlaut nicht
+  direkt von fedlex.admin.ch verifiziert (JS-Schranke).
+- [x] **E57** **Kaeltemittel R290 (Propan) bei Waermepumpen — Regulatorik + Brandschutz** belegt
+  ✓ 2026-07-14 (Run 66) → `[[kaeltemittel-r290-waermepumpen-ch]]`, FAQ **F72** neu. ChemRRV Anh. 2.10
+  revidiert (Bundesratsbeschluss 29.10.2025), Umstellung Einfuhr 1.1.2027/Abgabe 1.7.2027, R290
+  (GWP 3) wird fuer kleine/mittlere WP-Leistungsklassen faktisch Standard. A3-Brandschutzgrenzen:
+  0,15 kg Unbedenklichkeitsgrenze (Innenaufstellung), 1,5 kg EKAS-6517-Schwelle. Offen: CHF-
+  Mehrkosten und JAZ-/SCOP-Vergleichswerte R290↔R32/R410A nicht belastbar belegt (nur Marketing-
+  Quellen).
+- [x] **E58** **Fernwaerme-Anschlusspflicht Kt. Schwyz** belegt ✓ 2026-07-14 (Run 66) →
+  `[[fernwaerme-anschlusspflicht-sz]]`, FAQ **F73** neu. Pendant zu § 295 PBG ZH. kEnG/KEnV/PBG/PBV
+  SZ vollstaendig auf «Anschlusspflicht»/«Wärmeverbund»/«Fernwärme» durchsucht — **keine gesetzliche
+  Grundlage gefunden** (ehrliches Negativergebnis, bestaetigt durch unabhaengige juristische
+  Sekundaerquelle sui-generis.ch, die SZ nicht als Kanton mit expliziter Grundlage nennt). Fernwaerme
+  in SZ nur eine von zehn freiwilligen Standardloesungen (§ 8d kEnG) beim Waermeerzeugerersatz. Offen:
+  nicht alle 30 SZ-Gemeinde-Reglemente einzeln geprueft, keine AfU-Direktbestaetigung eingeholt.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 65): PDF-Inventar jetzt wirklich lueckenlos abgearbeitet (letzter
-  Teil-Eintrag Bauteilekatalog 2002 zu Ende gelesen, E54), alle 17 FAQ-Kernfragen + F18-F69
-  Vertiefungen belegt (F68 established: SZ-Vollzugspraxis UND Klassentabellen-Frage abschliessend
-  geklaert; F69 neu: amtliche Fenster-Uf-Fallback-Tabelle), Rp/kWh-Luecken orientierend geschlossen
-  (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit,
-  § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND
-  Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
-  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also EINUNDZWANZIG Laeufen in Folge) spruchreif
-  fuer eine Entscheidung und wird hier zum einundzwanzigsten Mal vermerkt. Der Loop kann sie nicht
-  selbst treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst
-  dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger
-  Themenkomplex: ein komplett neues, noch unbelegtes Thema — eine interaktive Session koennte
+  **Stand 2026-07-14 (Run 66): vier neue Themenkomplexe erschlossen (E55-E58, FAQ F70-F73:
+  Elektroheizungs-Ersatzpflicht ZH/SZ, Erdwaermesonden-Bewilligung ZH/SZ, Kaeltemittel R290,
+  Fernwaerme-Anschlusspflicht SZ), alle via parallelisierten Web-Rechercheagenten mit amtlichen
+  Primaerquellen (Gesetzes-PDFs direkt gelesen). PDF-Inventar bestaetigt erschoepft (SharePoint-
+  Kontrolle: keine neuen PL-04-Dateien seit 11.06.2026). FAQ-Stand: 73 Kernfragen (F1-F73) belegt.
+  Meta-Punkt M2 ist SEIT RUN 45 (also ZWEIUNDZWANZIG Laeufen in Folge) spruchreif fuer eine
+  Entscheidung und wird hier zum zweiundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst
+  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session. Naechster
+  faelliger Themenkomplex: ein weiteres neues Thema (Kandidaten aus Run 66: SZ-Bagatell-Ausnahmen
+  Elektroheizung, AWEL-Gebuehren Erdsonden, R290-Kostenvergleich) — eine interaktive Session koennte
   priorisieren.**

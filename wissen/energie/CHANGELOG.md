@@ -2,6 +2,40 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 66: Vier neue Web-Themenkomplexe via parallelisierte Rechercheagenten (Elektroheizung ZH/SZ, Erdsonden ZH/SZ, Kältemittel R290, Fernwärme-Anschlusspflicht SZ)
+- **Run-Report** `outputs/2026-07-14_energie-run66.md`. PDF-Inventar-Erschöpfung vor Laufbeginn
+  durch direkten Abgleich der lokal synchronisierten SharePoint-Kopie (`PL - 04 Energie`, 122 PDFs)
+  gegen `training/pdf-inventar.md` verifiziert — keine Datei jünger als 11.06.2026, keine
+  Nachtrags-PDFs vorhanden.
+- **Vier parallele Rechercheagenten** (general-purpose, WebSearch/WebFetch) erschlossen unabhängig
+  voneinander vier neue, JANS-relevante (ZH+SZ-Fokus) Themen mit amtlichen Primärquellen:
+  1. **Elektroheizungs-Ersatzpflicht ZH+SZ** — § 10b EnerG + § 45c BBV I Kt. ZH (Primärtext-PDF),
+     bundesgerichtlich bestätigt (BGer 1C_37/2022 = BGE 149 I 49); § 8a/§ 8b/§ 22a kEnG + § 24i EnV1
+     Kt. SZ (Primärtext-PDF). ZH-Frist 2030, SZ-Frist 2050 (nur Anlagen mit Wasserverteilsystem) →
+     `destillate/elektroheizungs-ersatzpflicht-zh-sz.md`, FAQ **F70** neu, Status established.
+  2. **Erdwärmesonden-Bewilligung ZH+SZ** — AWEL zh.ch (Gemeinde-Verfahren, 500 m Bohrtiefe, 2,5 m
+     Grenzabstand, Verbotszonen S1/S2/Au) + sz.ch «Wärmenutzung» (kostenlose Vorabklärung + eBau) →
+     `destillate/erdwaermesonden-bewilligung-zh-sz.md`, FAQ **F71** neu, Status emerging (Gebühren
+     nicht amtlich auffindbar).
+  3. **Kältemittel R290 (Propan) bei Wärmepumpen** — BAFU «Stand der Technik»/«Inverkehrbringen»
+     (PDFs vollständig gelesen), suissetec HEIZ241, SVK-Merkblatt A3/A2L. ChemRRV-Revision
+     (Bundesratsbeschluss 29.10.2025), Umstellung ab 2027, A3-Brandschutzgrenzen 0,15 kg/1,5 kg
+     EKAS → `destillate/kaeltemittel-r290-waermepumpen-ch.md`, FAQ **F72** neu, Status emerging.
+  4. **Fernwärme-Anschlusspflicht Kt. Schwyz** (Pendant zu § 295 PBG ZH) — kEnG/KEnV/PBG/PBV SZ
+     vollständig durchsucht: **keine gesetzliche Grundlage gefunden** (ehrliches Negativergebnis,
+     bestätigt durch unabhängige juristische Sekundärquelle) →
+     `destillate/fernwaerme-anschlusspflicht-sz.md`, FAQ **F73** neu, Status emerging.
+- **Wiki nachgeführt:** `wiki/BAUHERREN-FAQ.md` (F70-F73 + FAQ-Stand-Historie, FAQ-Stand jetzt 73
+  Kernfragen), `wiki/heizleistung-und-waermeerzeuger.md` (neue Abschnitte Kältemittel R290 +
+  Erdwärmesonden-Bewilligung), `wiki/INDEX.md` (vier neue/erweiterte Zeilen), `destillate/INDEX.md`
+  (vier neue Zeilen).
+- **Register:** `raw/_INGESTED.md` (vier Einträge), `training/curriculum.md` (Block D44-D47),
+  `wiki/QUESTIONS.md` (E55-E58, Struktur-Notiz M2 aktualisiert — jetzt 22 Läufe in Folge
+  entscheidungsreif).
+- **Verifikation:** alle vier Themen primär auf direkt gelesenen amtlichen PDF-Primärtexten (nicht
+  nur Web-Zusammenfassungen); offene/unbelegte Punkte je Destillat ehrlich ausgewiesen statt
+  geglättet.
+
 ## 2026-07-14 — Run 65: BFE-Bauteilekatalog 2002 vollständig gelesen (Dächer, inhomogene Bauteile, Fenster+Türen) — PDF-Inventar jetzt wirklich lückenlos
 - **Run-Report** `outputs/2026-07-14_energie-run65.md`. Löst den letzten seit 2026-06-10 nur
   teilgelesenen Eintrag im PDF-Inventar auf (der offizielle «vollständig abgearbeitet»-Vermerk vom

@@ -12,6 +12,23 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   + amtl. Uf-Fallback-Tabelle Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3) belegt 2026-07-14 (Run 65,
   D43)** → dasselbe Destillat jetzt **vollstaendig gelesen (S. 1-80/80)**, FAQ **F69** neu, schliesst
   den in `[[fenster-verglasung]]` offenen Uf-Tabellen-Punkt. **Kapitel A1 damit wirklich vollstaendig.**
+
+- **D44-D47 (Run 66, 2026-07-14)** — PDF-Inventar bestaetigt weiterhin erschoepft (SharePoint-Kontrolle:
+  keine neuen Dateien in PL-04 Energie seit 11.06.2026). Vier parallele Web-Rechercheagenten haben vier
+  neue, JANS-relevante (ZH+SZ-Fokus) Themenkomplexe erschlossen, alle auf amtlichen Primaerquellen
+  (direkt heruntergeladene Gesetzes-PDFs, per curl/pdftotext gelesen): **D44 Elektroheizungs-
+  Ersatzpflicht** — ZH bis 2030 (§ 10b EnerG, bundesgerichtlich bestaetigt BGE 149 I 49), SZ bis 2050
+  (§ 22a kEnG, nur Anlagen mit Wasserverteilsystem) → `[[elektroheizungs-ersatzpflicht-zh-sz]]`, FAQ
+  **F70**. **D45 Erdwaermesonden-Bewilligung** — ZH via Gemeinde/AWEL (500 m Bohrtiefe, 2,5 m
+  Grenzabstand, S1/S2 verboten, Gewaesserschutzbereich Au bewilligungspflichtig), SZ via kostenlose
+  Vorabklaerung + eBau → `[[erdwaermesonden-bewilligung-zh-sz]]`, FAQ **F71**. **D46 Kaeltemittel R290
+  (Propan)** — ChemRRV-Revision (Bundesratsbeschluss 29.10.2025, Umstellung ab 1.1./1.7.2027), A3-
+  Brandschutzgrenzen 0,15 kg (Innenaufstellung)/1,5 kg (EKAS 6517) → `[[kaeltemittel-r290-waermepumpen-ch]]`,
+  FAQ **F72**. **D47 Fernwaerme-Anschlusspflicht Kt. Schwyz** — Pendant zu § 295 PBG ZH, vollstaendige
+  Durchsuchung von kEnG/KEnV/PBG/PBV SZ ergibt **keine gesetzliche Grundlage** fuer eine
+  Anschlusspflicht (ehrliches Negativergebnis, anders als in ZH) → `[[fernwaerme-anschlusspflicht-sz]]`,
+  FAQ **F73**. FAQ-Stand: 73 Kernfragen (F1-F73) belegt. Alle vier Destillate + Register (INDEX,
+  QUESTIONS, _INGESTED, CHANGELOG) nachgefuehrt.
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
