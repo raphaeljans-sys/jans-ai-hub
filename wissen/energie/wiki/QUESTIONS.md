@@ -485,15 +485,25 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   + fossiles Heizverbot + Bestandespflicht >500 m² binnen 25 J; Schaffhausen Solarinitiative
   8.3.2026 mit 60,6 % Nein abgelehnt. Status bleibt emerging (14 von 26 Kantonen recherchiert).
   Löst den Run-57-Prioritätspunkt 2 weitgehend (BL-Vertiefung + 11 Kleinkantone bleiben offen).
+- [x] **E48** **Solarpflicht Uri/Zug/Schwyz/Neuenburg** belegt ✓ 2026-07-14 (Run 59) →
+  `[[solarpflicht-national-mantelerlass-kantone]]` ergänzt, Themenartikel
+  `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. **Schwyz** (JANS-Fokuskanton):
+  keine kantonale Solarpflicht (Motion vom Kantonsrat 22.10.2025 mit 50:45 abgelehnt) — bleibt
+  beim Bundesminimum. Uri: Kehrtwende vom Volk (100-m²-Verordnung 2024 abgelehnt → 300-m²-
+  Teilrevision 2026 mit 75 % Ja angenommen). Zug: keine Flächenschwelle, alle Neubauten seit
+  1.1.2023 (MuKEn-Modul E). Neuenburg: Revision in Erarbeitung (15 W/m² SRE), noch nicht in
+  Kraft. Status bleibt emerging (18 von 26 Kantonen recherchiert). Löst den Run-58-Prioritätspunkt
+  2 weiter (BL-Vertiefung + 8 Kleinkantone bleiben offen: JU, FR, GL, NW, OW, AR, AI).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 58): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F66 Vertiefungen belegt (F66 in Run 58 auf 14/26 Kantone erweitert), Rp/kWh-Luecken
-  orientierend geschlossen (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte,
-  RiLuMi-Luftdichtheit, § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle
-  (E45) UND Solarpflicht in 14 Kantonen (E46/E47) primaerquellen-/volltext-verifiziert bzw.
-  web-trianguliert (E38-E47) — Meta-Punkt M2 ist SEIT RUN 45 (also VIERZEHN Laeufen in Folge)
-  spruchreif fuer eine Entscheidung und wird hier zum vierzehnten Mal vermerkt. Der Loop kann sie
-  nicht selbst treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session,
-  sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**
+  **Stand 2026-07-14 (Run 59): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F66 Vertiefungen belegt (F66 in Run 59 auf 18/26 Kantone erweitert, inkl. beider
+  JANS-Fokuskantone ZH+SZ), Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G,
+  LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (100 %
+  amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND Solarpflicht in
+  18 Kantonen (E46-E48) primaerquellen-/volltext-verifiziert bzw. web-trianguliert (E38-E48) —
+  Meta-Punkt M2 ist SEIT RUN 45 (also FUENFZEHN Laeufen in Folge) spruchreif fuer eine
+  Entscheidung und wird hier zum fuenfzehnten Mal vermerkt. Der Loop kann sie nicht selbst
+  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst
+  dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen.**

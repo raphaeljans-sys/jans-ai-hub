@@ -532,3 +532,17 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   **Hinweis:** dieser Lauf war technisch eine Fortsetzung einer unvollständig abgebrochenen
   Vorgänger-Session (Destillat war bereits ergänzt, Register/FAQ/Output-Report fehlten noch) —
   Registerpflege in diesem Lauf nachgeholt.
+
+- **D37 (Run 59, 2026-07-14)** — Vier weitere Kantone recherchiert, darunter der zweite
+  JANS-Fokuskanton **Schwyz**: dort wurde eine Motion für eine kantonale Solarpflicht am
+  22.10.2025 vom Kantonsrat mit 50:45 Stimmen abgelehnt (Regierungsrat war ursprünglich dafür) —
+  Schwyz bleibt beim Bundesminimum (300 m²), keine kantonale Zusatzpflicht. **Uri** zeigt eine
+  Kehrtwende: Landrats-Verordnung mit 100-m²-Schwelle (Nov. 2023) vom Volk am 22.9.2024 mit
+  >64 % Nein verworfen, moderatere Teilrevision (300 m² = Bundesminimum) am 8.3.2026 mit 75 % Ja
+  angenommen, Inkrafttreten voraussichtlich Herbst 2026. **Zug** verschärft klar: seit 1.1.2023
+  Eigenstromerzeugungspflicht für alle Neubauten ohne Flächenschwelle (MuKEn-2014-Modul E).
+  **Neuenburg** befindet sich noch in Gesetzesrevision (15 W/m² SRE vorgesehen), noch nicht in
+  Kraft → `[[solarpflicht-national-mantelerlass-kantone]]` ergänzt, Themenartikel
+  `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. Damit **18 von 26 Kantonen**
+  recherchiert; weiterhin offen: Basel-Landschaft-Vertiefung, Jura, Freiburg, Glarus, Nidwalden,
+  Obwalden, Appenzell Ausserrhoden/Innerrhoden.

@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 59: Solarpflicht auf 18 von 26 Kantonen erweitert (Uri/Zug/Schwyz/Neuenburg) — Schwyz als zweiter JANS-Fokuskanton geklärt: keine kantonale Zusatzpflicht
+- **Run-Report** `outputs/2026-07-14_energie-run59.md`. PDF-Inventar bleibt vollständig
+  abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche, Fortsetzung des Solarpflicht-
+  Themenkomplexes aus Run 56-58.
+- **Solarpflicht ergänzt um vier Kantone:** **Schwyz** — der zweite JANS-Fokuskanton neben
+  Zürich — hat KEINE kantonale Solarpflicht: eine Motion (Kälin, FDP) wurde vom Kantonsrat am
+  22.10.2025 mit 50:45 Stimmen abgelehnt, obwohl der Regierungsrat sie ursprünglich befürwortete;
+  Bauprojekte in Schwyz unterliegen damit nur dem Bundesminimum (300 m²). **Uri** zeigt eine
+  Kehrtwende: eine strengere 100-m²-Verordnung wurde vom Volk am 22.9.2024 mit über 64 % Nein
+  verworfen, die daraufhin erarbeitete 300-m²-Teilrevision (= Bundesminimum) am 8.3.2026 mit
+  75 % Ja angenommen (Inkrafttreten voraussichtlich Herbst 2026). **Zug** verschärft klar: seit
+  1.1.2023 gilt eine Eigenstromerzeugungspflicht für alle Neubauten ohne Flächenschwelle
+  (MuKEn-2014-Modul E). **Neuenburg** befindet sich noch in Gesetzesrevision (15 W/m² SRE
+  vorgesehen), noch nicht in Kraft →
+  `destillate/solarpflicht-national-mantelerlass-kantone.md`, Themenartikel
+  `wiki/solarpflicht-schweiz-kantone.md` (Bauherren-Transfer um Schwyz-Fokus geschärft), FAQ
+  **F66** ergänzt, Status bleibt emerging (18/26 Kantone).
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D37),
+  `wiki/QUESTIONS.md` (E48 neu, E-S1-Zähler auf fünfzehn Läufe), `raw/_INGESTED.md`.
+- **Offen für Run 60:** Meta-Punkt M2 (eigenes Skill `energie`?) jetzt seit **15 Läufen**
+  spruchreif — braucht Raphaels Entscheidung; 8 weitere Kantone offen (Basel-Landschaft-
+  Vertiefung, Jura, Freiburg, Glarus, Nidwalden, Obwalden, Appenzell AR/AI); neue
+  Themenkomplex-Kandidaten weiterhin Fassadenbegrünung (Hitzeschutz-Pendant zu PV) oder
+  Schallschutz gegen Aussenlärm (Strasse/Bahn); Hinweis auf Rule 260713 (Wettbewerbs-DNA als
+  MacBook-Pro-Token-Fokus, energie-training künftig 1x täglich statt 3x täglich).
+
 ## 2026-07-14 — Run 58: Solarpflicht auf 14 von 26 Kantonen erweitert (Waadt/Genf/Tessin/Solothurn/Wallis/Schaffhausen) — Register einer unterbrochenen Vorgänger-Session nachgeführt
 - **Run-Report** `outputs/2026-07-14_energie-run58.md`. PDF-Inventar bleibt vollständig
   abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche.

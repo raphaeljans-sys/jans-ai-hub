@@ -34,18 +34,26 @@ verschärfen, nicht darunter bleiben.
 | Solothurn (seit 1.1.2023) | 300 m²/20 % aGF — inhaltlich am Bundesminimum, mit eigener Arbeitshilfe für Gemeinden |
 | Wallis (seit 1.1.2025) | Neubau >300 m²: 40 % Baufläche solar, **plus fossiles Heizungsverbot**; Bestandsbauten >500 m² binnen 25 Jahren pflichtig |
 | Schaffhausen (Volk 8.3.2026, 60,6 % Nein) | Solarinitiative **abgelehnt** — drittes Gegenbeispiel neben Aargau/Bern-Zusatzinitiative |
+| Uri (Volk 8.3.2026, 75 % Ja; Inkrafttreten Herbst 2026) | **300 m² = Bundesminimum** — nach Ablehnung einer strengeren 100-m²-Verordnung durchs Volk (22.9.2024) |
+| Zug (seit 1.1.2023, MuKEn-Modul E) | **Keine Flächenschwelle** — Eigenstromerzeugungspflicht für alle Neubauten (Bemessung offen) |
+| **Schwyz** (Kantonsrat 22.10.2025, 50:45 Nein) | **Keine kantonale Solarpflicht** — bleibt beim Bundesminimum (JANS-Fokuskanton) |
+| Neuenburg (Revision **in Erarbeitung**, noch nicht in Kraft) | Vorgesehen 15 W/m² SRE, Inkrafttreten offen |
 
 ## Bauherren-Transfer
 Standort- und gemeindespezifisch prüfen — Bund ist nur das Minimum, die tatsächliche Pflicht kann
 strenger sein und innerhalb eines Kantons je Gemeinde variieren (SG/AG/BL geben Gemeinden eigene
 Kompetenz). Bau- und Zonenordnung der Standortgemeinde ist der verlässlichste erste Blick. Nicht
-jeder Kanton verschärft: Aargau und Schaffhausen haben eine eigene Solarpflicht gerade erst wieder
-verworfen — «mein Nachbarkanton hat X» ist kein verlässlicher Schluss auf die eigene Gemeinde. Die
-Bandbreite ist inzwischen (14 von 26 Kantonen recherchiert) gross: von «kein Zusatz zum Bund» (AG,
-SH) bis «auch Bestandsbauten pflichtig» (Basel-Stadt, Wallis, teils Genf).
+jeder Kanton verschärft: Aargau, Schaffhausen und **Schwyz** haben eine eigene Solarpflicht gerade
+erst wieder verworfen — «mein Nachbarkanton hat X» ist kein verlässlicher Schluss auf die eigene
+Gemeinde. **Für JANS-Projekte in Schwyz gilt schlicht das Bundesminimum (300 m²)** — keine
+kantonale Zusatzpflicht, anders als im Nachbarkanton Zürich (dort Vorlage in Beratung) oder Zug
+(dort strenger, keine Flächenschwelle). Die Bandbreite ist inzwischen (18 von 26 Kantonen
+recherchiert) gross: von «kein Zusatz zum Bund» (AG, SH, SZ, UR) über «keine Schwelle, alle
+Neubauten» (ZG) bis «auch Bestandsbauten pflichtig» (Basel-Stadt, Wallis, teils Genf).
 
 **Destillate:** `[[solarpflicht-national-mantelerlass-kantone]]` (Bund + andere Kantone),
 `[[zh-energiegesetz-revision-solarpflicht-2026]]` (ZH-Detail) — FAQ F66, F61.
 
-**Offen:** 12 der 26 Kantone weiterhin nicht recherchiert; Genaue Vorgaben Basel-Landschaft/
-Graubünden nur grob umschrieben (Quelle nennt keine Zahl).
+**Offen:** 8 der 26 Kantone weiterhin nicht recherchiert (Basel-Landschaft-Vertiefung, Jura,
+Freiburg, Glarus, Nidwalden, Obwalden, Appenzell AR/AI); genaue Vorgaben Basel-Landschaft/
+Graubünden/Zug nur grob umschrieben (Quelle nennt keine Zahl); Neuenburg-Inkrafttreten unsicher.

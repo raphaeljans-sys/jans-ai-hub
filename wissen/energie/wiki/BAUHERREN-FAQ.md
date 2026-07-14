@@ -2263,13 +2263,30 @@ für EFH), die anderen reichen bewusst in den **Bestand** hinein (Basel-Stadt, W
 Neubau-Zeile der Tabelle relevant, sondern explizit zu prüfen, ob eine geplante Dachsanierung
 selbst schon die Pflicht auslöst.
 
+**Vier weitere Kantone (Run 59) — darunter der zweite JANS-Fokuskanton:** **Schwyz** hat **keine**
+kantonale Solarpflicht: eine entsprechende Motion (Kälin, FDP) wurde vom Kantonsrat am 22.10.2025
+mit 50:45 Stimmen abgelehnt, obwohl der Regierungsrat sie ursprünglich befürwortet hatte —
+Begründung des Motionärs war die bereits hohe sommerliche PV-Einspeisung. **Für ein JANS-Projekt
+im Kanton Schwyz gilt damit klar nur das Bundesminimum (300 m²)**, keine kantonale Zusatzpflicht.
+**Uri** zeigt eine seltene Kehrtwende: 2023 hatte der Landrat per Verordnung eine strengere
+100-m²-Schwelle beschlossen, die das Stimmvolk am 22.9.2024 mit über 64 % Nein verwarf; die
+daraufhin erarbeitete, moderatere Teilrevision (300 m² = exakt das Bundesminimum) wurde am
+8.3.2026 mit 75 % Ja gutgeheissen und tritt voraussichtlich im Herbst 2026 in Kraft. **Zug**
+verschärft dagegen klar: seit 1.1.2023 gilt eine Eigenstromerzeugungspflicht für **alle**
+Neubauten ohne jede Flächenschwelle (MuKEn-2014-Modul E). **Neuenburg** befindet sich noch in der
+Gesetzesrevision (Zielwert 15 W/m² Energiebezugsfläche vorgesehen) — ist also **noch nicht** in
+Kraft, anders als die übrigen hier genannten Kantone.
+
 **Quelle:** CKW «Solarpflicht Schweiz» + Kanton Bern WEU (amtliche Kantonsseite, weu.be.ch) +
 solaralag.ch Kantons-Übersicht + Presseecho, trianguliert (Run 56); Aargau/Basel-Stadt/Graubünden
 ergänzt (Run 57, aargauerzeitung.ch + bs.ch amtliche Medienmitteilung + Web-Recherche KEnV);
 Waadt/Genf/Tessin/Solothurn/Wallis/Schaffhausen ergänzt (Run 58, vd.ch/ge.ch/vs.ch Amtsseiten +
-Tessiner Gesetzessammlung m3.ti.ch + so.ch Arbeitshilfe + Presseecho Schaffhausen-Abstimmung) →
+Tessiner Gesetzessammlung m3.ti.ch + so.ch Arbeitshilfe + Presseecho Schaffhausen-Abstimmung);
+Uri/Zug/Schwyz/Neuenburg ergänzt (Run 59, urnerzeitung.ch Chronologie + energie-zentralschweiz.ch
+Vollzugsseite + baublatt.ch Presseecho Schwyz-Motion + ne.ch amtliche Kantonsseite) →
 `[[solarpflicht-national-mantelerlass-kantone]]`. Status emerging (Bundesregelung fest, nicht
-alle 26 Kantone im Detail geprüft — bisher BE/SG/BL/LU/ZH/AG/BS/GR/VD/GE/TI/SO/VS/SH, 14 von 26).
+alle 26 Kantone im Detail geprüft — bisher BE/SG/BL/LU/ZH/AG/BS/GR/VD/GE/TI/SO/VS/SH/UR/ZG/SZ/NE,
+18 von 26).
 
 ---
 
