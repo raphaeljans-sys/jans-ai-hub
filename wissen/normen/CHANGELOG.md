@@ -1,3 +1,27 @@
+## 2026-07-14 — normen-training-nacht Run 12 (MacBook Pro): Retro-Verifikation SIA 100/108/2020 + VKF-BRL-28-15-Duplikat inhaltlich aufgeloest
+- Gedrosselter Loop (Rule 260713, Token-Fokus liegt auf Wettbewerbs-DNA); Runs 7-11 liefen bereits
+  am 14.07. Inventar-Check: SIA/VKF weiterhin 0 offene `[ ]`-Positionen — Lauf setzt bei
+  Vertiefungsstufe (b) Retro-Verifikation an (Plan aus Run 11). 3 parallele Verifikations-Agenten
+  + 1 manueller Duplikat-Vergleich durch den Orchestrator:
+  - **SIA 100:2004** (Statuten SIA): ~55 Punkte geprueft, 1 Luecke (Art. 15 lit. b Wahl
+    Standeskommission/Zentralkommission) ergaenzt, keine Fehler. Established.
+  - **SIA 108:2014** (Leistungen/Honorare Ingenieure, Uebergangsloesung): groesster Lueckenbefund
+    des Vertiefungs-Loops bisher — 5+ komplett fehlende Artikel ergaenzt (1.7.21/.22, 1.9.3,
+    1.10.2/.4, 1.11/1.12, 3.5/3.6, 5.5/5.6/5.9/5.10/5.11, letztere die vom Vorwort explizit
+    benannten WEKO-Verzichtsartikel), 1 falsch verortete Fussnote korrigiert. Established.
+  - **SIA 2020:2017** (Merkblatt zu SIA 118, Sicherheitsleistungen Unternehmer): 1
+    Fundstellen-Fehler korrigiert (Ziff. 6.1 Art. 152 statt Art. 151), neuer Abschnitt
+    "Regelung im Werkvertrag" ergaenzt; zusaetzlich fehlenden `destillate/INDEX.md`-Eintrag
+    nachgetragen (Registrierungsluecke seit 12.07.2026 geschlossen). Established.
+  - **VKF-BRL 28-15 Anerkennungsverfahren:** Duplikat-Paar `vkf-brl-28-15-anerkennungsverfahren.md`
+    vs. `vkf-brl-anerkennungsverfahren.md` Wort-fuer-Wort gegen das 9-seitige Original verglichen.
+    `vkf-brl-28-15-anerkennungsverfahren.md` ist vollstaendiger (Duplikat fehlt Ziff. 3.3
+    Qualitaetsmanagement komplett) — auf established gehoben. Physisches Loeschen des Duplikats
+    bleibt destruktiv/Rueckfrage-pflichtig (Rule `wissens-bibliothekar`), in `wiki/QUESTIONS.md`
+    entsprechend vermerkt.
+- Nachgefuehrt: `training/norm-inventar.md` (4 Zeilen), `destillate/INDEX.md` (4 Eintraege,
+  davon 1 neu registriert), `wiki/QUESTIONS.md`. Lauf-Report: `outputs/2026-07-14_normen-nacht-run12.md`.
+
 ## 2026-07-14 — normen-training-mini Run 25 (Mac Mini): Q&A-Selbstbefragung 6 weitere DIN/VSS-Destillate
 - Fortsetzung Vertiefungsstufe (c), Plan aus Run 24. Inventar-Check vorab: DIN/VSS/RAL weiterhin
   0 offene `[ ]`-Positionen. 6 parallele Q&A-Selbstbefragungs-Agenten: DIN 1053-100:2007

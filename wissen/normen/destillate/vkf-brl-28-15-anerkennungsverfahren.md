@@ -4,8 +4,8 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 28-15de: 01.01.2015"
 gelesen: "vollstaendig, S. 1-9 (Ziff. 1-12 + Anhang)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert 260714, Volltextabgleich; inhaltlich vollstaendiger als Duplikat vkf-brl-anerkennungsverfahren.md — insb. Ziff. 3.3 Qualitaetsmanagement dort komplett fehlend; Loeschung des Duplikats wartet auf Rueckfrage/Bestaetigung, siehe wiki/QUESTIONS.md)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 

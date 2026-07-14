@@ -19,9 +19,9 @@
 | [x] 260712 | P1 | `118_1991_d.pdf` | 118 | 1991 | Volltext-Destillat (75 S. Textlayer), alle Kennzahlen Modell-D-verifiziert (run4) |
 | [x] 260712 | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
 | [x] 260712 | P1 | `451_1992_d.pdf` | 451 | 1992 |  |
-| [x] 260713 | P2 | `100_2004_df.pdf` | 100 | 2004 |  Reconcile 260713: sia-100-2004.md  |
+| [x] 260714 | P2 | `100_2004_df.pdf` | 100 | 2004 | established (verifiziert 260714, Volltextabgleich, Art.15 lit.b ergaenzt); sia-100-2004.md |
 | [x] 260713 | P2 | `104_2003_d.pdf` | 104 | 2003 |  Reconcile 260713: sia-104-2003.md (verifiziert established 260713)  |
-| [x] 260713 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); Reconcile 260713: sia-108-2014.md |
+| [x] 260714 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); established (verifiziert 260714, mehrere komplett fehlende Artikel ergaenzt: 1.7.21/.22, 1.9.3, 1.10.2/.4, 1.11/1.12, 3.5/3.6, 5.5/5.6/5.9/5.10/5.11); sia-108-2014.md |
 | — | — | `108_2003_d.pdf` | 108 | 2003 | ersetzt durch 108:2014 (destilliert sia-108-2014.md); Altausgabe uebersprungen |
 | [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (verifiziert established 260713)  |
 | [x] 260713 | P2 | `121_2003_d.pdf` | 121 | 2003 | Teil-Destillat (Formularblaetter S.18-22 nicht im Detail); verifiziert 260713, 1 Fehler korrigiert (Ziff. 3.7); sia-121-2003.md |
@@ -48,7 +48,7 @@
 | [x] 260713 | P2 | `198_2004_d.pdf` | 198 | 2004 | established (Run5, Untertagbau Ausfuehrung, Kern verifiziert); sia-198-2004.md |
 | [x] 260713 | P2 | `199_1998_d.pdf` | 199 | 1998 | established (Run5, Geologie/Geotechnik Untertagbau); sia-199-1998.md |
 | [x] 260713 | P2 | `2014_2017.pdf` | 2014 | 2014 | established (Run5, SIA 2014:2017 CAD-Layer-Kodierung; beanst.-korr. Bsp C.1.2); sia-2014-2017.md |
-| [x] 260713 | P2 | `2020_2017.pdf` | 2020 | 2020 | destilliert (sia-2020-2017.md), Sicherheitsleistungen Unternehmer Werkvertrag (Merkblatt zu SIA 118) |
+| [x] 260714 | P2 | `2020_2017.pdf` | 2020 | 2020 | established (verifiziert 260714, Volltextabgleich, Fundstellen-Fehler Ziff.6.1 Art.152 statt Art.151 korrigiert); sia-2020-2017.md, Sicherheitsleistungen Unternehmer Werkvertrag (Merkblatt zu SIA 118) |
 | [x] 260713 | P2 | `203_1997_d.pdf` | 203 | 1997 | established (Run5, Abfalldeponien, beanst.-korrigiert); sia-203-1997.md |
 | [x] 260713 | P2 | `2040_2017.pdf` | 2040 | 2017 | established (Run5, SIA 2040:2017 2000-Watt/Effiz.pfad); sia-2040-2017.md |
 | [x] 260713 | P2 | `2051_2018.pdf` | 2051 | 2018 | established (Run5, SIA 2051:2017 BIM-Begriffe); sia-2051-2018.md |
@@ -417,7 +417,7 @@
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/16-15_rev2016_flucht_und_rettungswege.pdf` |  | 2016 |  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/2001-15_VKF-AEAI_BrandschutzMerkblatt_Solaranlange_d.pdf` | 2001 | 2001 |  Reconcile 260713: vkf-brm-2001-15-solaranlagen.md (Duplikat vkf-merkblatt-2001-15-solaranlagen.md, Merge offen)  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` |  | 2017 |  Reconcile 260713: vkf-brl-aenderungen-2017.md (Duplikat vkf-aenderungen-brandschutzrichtlinien-2017.md, Merge offen)  |
-| [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Anerkennungsverfahren.pdf` |  |  |  Reconcile 260713: vkf-brl-anerkennungsverfahren.md (Duplikat vkf-brl-28-15-anerkennungsverfahren.md, Merge offen)  |
+| [x] 260714 | P1 | `02_Brandschutzrichtlinien 2015/Anerkennungsverfahren.pdf` |  |  | established (verifiziert 260714, Volltextabgleich, Ziff.3.3 QM ergaenzt); vkf-brl-28-15-anerkennungsverfahren.md ist die vollstaendigere Fassung (Duplikat vkf-brl-anerkennungsverfahren.md, Loeschung wartet auf Rueckfrage)  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/BSPUB-1394520214-57.pdf` |  | 2021 |  Reconcile 260713: vkf-brandschutznorm-1-15de-bspub57.md  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/BSV2015-Bericht und Änderungen.pdf` | 2015 | 2015 |  Reconcile 260713: vkf-bsv2015-bericht-aenderungen.md (+ vkf-bsv2015-vernehmlassungsbericht.md, unterschiedlicher Fokus, pruefen)  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf` |  |  |  Reconcile 260713: vkf-brl-13-15-baustoffe-bauteile.md  |

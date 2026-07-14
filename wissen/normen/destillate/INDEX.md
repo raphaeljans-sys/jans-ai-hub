@@ -107,10 +107,10 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-919-1-1991.md` | DIN 919-1 Technische Zeichnungen Holzverarbeitung, Grundlagen | 1991-04 | established (verifiziert 260714 Mini-Run 19, bestanden) |
 | `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | established (verifiziert 260714 Mini-Run 19, Ziff.5.2/5.3.7/Geltungsbereich ergaenzt; Q&A-Selbstbefragung Mini-Run 24, 260714: 20 Fragen, 0 Fehler, 14 Ergänzungen — Abgrenzung zu DIN 1946-4 für Healthcare-Projekte ohne Labor präzisiert) |
 | `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | established (verifiziert 260714, Ziff. 4.1/5.2/6.3.3.2 praezisiert) |
-| `sia-100-2004.md` | SIA 100 Statuten des SIA | 2004 (Grundfassung 1999) | destilliert |
+| `sia-100-2004.md` | SIA 100 Statuten des SIA | 2004 (Grundfassung 1999) | established (verifiziert 260714, Volltextabgleich; Art.15 lit.b ergaenzt) |
 | `sia-102-2014.md` | SIA 102 Leistungen + Honorare Architekten | 2014 | destilliert (— ersetzt durch 2020) |
 | `sia-104-2003.md` | SIA 104 Leistungen + Honorare Bauleitung | 2003 | established (verifiziert 260713) |
-| `sia-108-2014.md` | SIA 108 Leistungen + Honorare Übergangslösung | 2014 (gültig ab 2018) | destilliert |
+| `sia-108-2014.md` | SIA 108 Leistungen + Honorare Übergangslösung | 2014 (gültig ab 2018) | established (verifiziert 260714, Volltextabgleich; mehrere komplett fehlende Artikel ergaenzt: 1.7.21/.22, 1.9.3, 1.10.2/.4, 1.11/1.12, 3.5/3.6, 5.5/5.6/5.9/5.10/5.11) |
 | `sia-110-2003.md` | SIA 110 Allgemeine Bestimmungen über Leistungen und Honorare | 2003 | established (verifiziert 260713) |
 | `sia-111-2003.md` | SIA 111 Modell Planung und Beratung | 2003 (— ersetzt durch 2014) | destilliert |
 | `vkf-brl-10-15-begriffe-definitionen.md` | VKF-BRL 10-15 Begriffe und Definitionen | 2015 | established |
@@ -129,7 +129,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-24-15-waermetechnische-anlagen.md` | VKF-BRL 24-15 Wärmetechnische Anlagen | 2015 | established |
 | `vkf-brl-25-15-lufttechnische-anlagen.md` | VKF-BRL 25-15 Lufttechnische Anlagen | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-26-15-gefaehrliche-stoffe.md` | VKF-BRL 26-15 Gefährliche Stoffe | 2015 | established (verifiziert) 260714 |
-| `vkf-brl-28-15-anerkennungsverfahren.md` | VKF-BRL 28-15 Anerkennungsverfahren | 2015 | destilliert (Duplikat `vkf-brl-anerkennungsverfahren.md`, Merge offen) |
+| `vkf-brl-28-15-anerkennungsverfahren.md` | VKF-BRL 28-15 Anerkennungsverfahren | 2015 | established (verifiziert 260714, Volltextabgleich; vollstaendiger als Duplikat `vkf-brl-anerkennungsverfahren.md`, dessen Loeschung noch mit Rueckfrage aussteht) |
 | `vkf-brl-aenderungen-2017.md` | Teilrevision VKF-Brandschutzvorschriften 2017 (Gegenüberstellung 2015 vs. 2017) | 2017 | established (verifiziert 260713; Duplikat `vkf-aenderungen-brandschutzrichtlinien-2017.md`, Merge offen) |
 | `vkf-brm-2001-15-solaranlagen.md` | VKF-Brandschutzmerkblatt 2001-15 Solaranlagen | 2015 | established (Duplikat `vkf-merkblatt-2001-15-solaranlagen.md`, Merge offen) |
 | `vkf-bsv2015-bericht-aenderungen.md` | VKF Erläuternder Bericht Gesamtrevision BSV 2015 | Vernehmlassung 01.11.2013 | established |
@@ -191,6 +191,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-384-201-2017.md` | SIA 384/201 / SN EN 12831-1 Norm-Heizlast-Berechnung | 2017 | teil-destillat (Kap.1-6; verifiziert 260713) |
 | `sia-193-111-1999.md` | SIA 193.111 / SN EN 12063 Spundwandkonstruktionen (Spezialtiefbau) | 1999 | established (Kern S.1-46; verifiziert 260713) |
 | `sia-2014-2017.md` | SIA 2014 CAD-Datenaustausch: Layerstruktur/Layerschlüssel | 2017 | established (verifiziert 260713) |
+| `sia-2020-2017.md` | SIA 2020 Merkblatt zu SIA 118: Sicherheitsleistungen des Unternehmers im Werkvertrag | 2017 | established (verifiziert 260714, Volltextabgleich) |
 | `sia-2040-2017.md` | SIA 2040 SIA-Effizienzpfad Energie (2000-Watt) | 2017 | established (verifiziert 260713) |
 | `sia-2051-2018.md` | SIA 2051 BIM – Grundlagen zur Anwendung der BIM-Methode | 2017 | established (verifiziert 260713) |
 | `sia-592-056.md` | SIA 2056 Elektrizität in Gebäuden: Energie-/Leistungsbedarf (SNR 592056) | 2019 | teil-destillat (verifiziert 260713) |

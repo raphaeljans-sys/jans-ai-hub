@@ -83,7 +83,10 @@
   `vkf-brl-100-15-brandmauern.md` ↔ `vkf-brl-brandmauern-100-15.md`;
   `vkf-brm-2001-15-solaranlagen.md` ↔ `vkf-merkblatt-2001-15-solaranlagen.md`;
   `vkf-brl-aenderungen-2017.md` ↔ `vkf-aenderungen-brandschutzrichtlinien-2017.md`;
-  `vkf-brl-28-15-anerkennungsverfahren.md` ↔ `vkf-brl-anerkennungsverfahren.md`;
+  `vkf-brl-28-15-anerkennungsverfahren.md` ↔ `vkf-brl-anerkennungsverfahren.md` (Run 12, 260714:
+  Inhaltsvergleich gegen Original abgeschlossen — `vkf-brl-28-15-anerkennungsverfahren.md` ist
+  vollständiger, u.a. Ziff. 3.3 Qualitätsmanagement fehlt im Duplikat komplett; als established
+  markiert, physisches Löschen von `vkf-brl-anerkennungsverfahren.md` bleibt offen/Rückfrage);
   `vkf-bsv2015-bericht-aenderungen.md` ↔ `vkf-bsv2015-vernehmlassungsbericht.md` (letzteres evtl.
   inhaltlich verschieden — „Vernehmlassungsbericht" vs. „Bericht/Änderungen", trotz gleicher
   Quelldatei; vor dem Merge kurz gegenlesen). Je Paar den besseren/vollständigeren Stand behalten,
