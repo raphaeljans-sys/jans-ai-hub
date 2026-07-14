@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -84,6 +84,21 @@ sich vom baufachlichen Du (dort kein Emoji, sachlicher Kern).
   (erster, etwas formeller Kontakt) zu «**Liebe/r <Vorname>**» wandern, wenn Vertrauen
   wächst (belegt: «Geschätzte Lu» 2025-10-08 → «Liebe Lu» 2025-10-09). Register folgt der
   wachsenden Vertrautheit, nicht starr dem Erstkontakt.
+- **«Geschätzter» als Inhalts-Spike, NICHT als dauerhafte Stufe (zweiter Datenpunkt, belegt
+  Fidelity 260714d, authentisch, Faden Stefan Tschopp 11.05.–04.06.2026):** im selben,
+  längst eingespielten Du-Faden (durchgehend «Hoi Stefan» bei Routine-Mails: Freigabe-
+  Nachfässe, Kurzantworten, Plan-Updates) schaltest Du **einmalig** auf «**Geschätzter
+  Stefan,**» um, exakt bei der Mail, die das **baurechtlich verbindliche Ergebnis**
+  liefert («das baugesetzlich maximal machbare gemäss Wunschliste», Vordach-Position «ohne
+  Näherbaurecht», 22.05.2026) — und fällst in der UNMITTELBAR nächsten Mail desselben
+  Fadens (24.05.) zurück auf «Hoi Stefan». Das bestätigt und schärft den Fund aus Batch 07/
+  Fidelity 260616 (dort Offerte/Angebot als Trigger): «Geschätzter» hängt primär am
+  **Gewicht des konkreten Mail-Inhalts** (verbindliches/fachlich-tragendes Ergebnis), nicht
+  an der Beziehungsdauer oder -reife — und ist **nicht klebend**: die nächste Mail an
+  denselben, weiterhin vertrauten Kontakt kann sofort wieder «Hoi» sein. Beantwortet
+  [[QUESTIONS]] Runde 260714c #2 (David-Fall): «Geschätzter David» bei einer jungen aber
+  warmen Beziehung ist plausibel exakt aus demselben Grund (Kaufpreisempfehlung = gewichtiges
+  Ergebnis), unabhängig davon, wie lange man sich schon kennt.
 
 ## Betreff-Adressierung «z.H. <Person>, <Rolle>» (belegt Fidelity 260610)
 Schreibt an ein generisches Amts-/Kanzlei-Postfach, adressiert aber im **Betreff** die

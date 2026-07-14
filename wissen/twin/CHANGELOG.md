@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14e — twin-fidelity-review: Stefan-Tschopp-Faden schliesst «Geschätzter»-Regelluecke
+- Vierter Fidelity-Lauf des Tages, bewusst knapp gehalten (VOLLGAS-Drosselungsnotiz 260713:
+  Fokus liegt auf dem Wettbewerbs-DNA-Harness). M365-MCP nicht erreichbar → Fallback Apple Mail
+  osascript (Exchange-Konto rj@, "Gesendete Elemente").
+- Gepullt: kompletter Faden Stefan Tschopp (privater Bauherr, Du, Aufstockung/Umgebungsplan),
+  11.05.–04.06.2026 — schliesst die von Lauf 14c empfohlene Zeitfensterluecke. Echo-Falle-Check
+  sauber (durchgehend handgetippte Umgangssprache/Tippfehler).
+- **Hauptbefund:** «Geschätzter Stefan» erscheint genau EINMAL im sonst durchgehenden
+  «Hoi Stefan»-Faden — exakt bei der Mail mit dem baurechtlich verbindlichen Ergebnis
+  («baugesetzlich maximal machbar ohne Näherbaurecht»); die naechste Mail (2 Tage spaeter)
+  faellt sofort zurueck auf «Hoi». Zweiter unabhaengiger Beleg (nach Batch 07/Christoph-Offerte):
+  «Geschätzter» ist ein **Inhalts-Spike**, kein dauerhafter Registerwechsel. Beantwortet die
+  offene Frage 260714c #2 (David-Fall) mit hoher Sicherheit.
+- `wiki/beziehungsregister.md`: neuer Absatz unter Anrede-Warming, Frontmatter/Sources ergaenzt.
+- `wiki/QUESTIONS.md`: Frage 260714c #2 als BEANTWORTET markiert; neue Runde 260714d mit 2
+  frischen Fragen (englischer Idiom-Einschub «as you wish» im deutschen Fach-Du; direkte
+  Delegations-Formel bei rein gestalterischen Detailfragen).
+- `build_dna.py` erneut ausgefuehrt: idempotent, keine inhaltliche DNA-Aenderung (die bestehende
+  Kurzform "Register aus Kontakt UND Anlass waehlen" deckt den Spike bereits ab).
+- Report: `outputs/2026-07-14d_fidelity.md`.
+
 ## 2026-07-14d — twin-mail-training Batch 46: Sent Items 2026-05-20 bis 2026-05-27
 - Sequentieller Sweep fortgesetzt via Apple Mail osascript (M365-MCP in dieser Session nicht
   erreichbar), Index 389-360, 30 Mails gesichtet, 8 Volltexte gelesen (2 bereits via

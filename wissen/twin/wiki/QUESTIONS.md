@@ -3,6 +3,31 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714d (twin-fragesteller, aus Fidelity-Review 2026-07-14d)
+
+Quelle: Drift-Report `outputs/2026-07-14d_fidelity.md` (Live-Goldprobe via Apple-Mail-Fallback,
+Faden Stefan Tschopp 11.05.–04.06.2026 — schliesst die von 14c empfohlene Zeitfensterluecke
+Ende Mai/Anfang Juni). Je in 1–2 Saetzen beantwortbar.
+
+1. **Englischer Idiom-Einschub «as you wish» mitten im deutschen Fach-Du — Einzelfall oder
+   eigenes Stilmittel?** In der Umgebungsplan-Mail an Stefan (04.06.2026) schreibst Du
+   «… jedoch auch Böschung im Gefälle möglich; as you wish; Materialisierung kann …» — ein
+   englischer Kurz-Idiom mitten im deutschen Fachsatz, nicht als vollstaendiger Sprachwechsel
+   (vgl. dokumentiertes Englisch-Register), sondern als **eingestreute Redewendung**. Setzt Du
+   solche kurzen englischen Wendungen («as you wish», «your call» o.ae.) bewusst ein, wenn Du dem
+   Bauherrn explizit Entscheidungsfreiheit signalisieren willst (lockerer als «wie Du moechtest»),
+   oder ist das Tagesform/Zufall? *Warum: bisher nur 1 Beleg — ein zweiter wuerde ein neues
+   Mikro-Stilmittel fuer «Entscheidung an den Bauherrn zurueckgeben» fest verankern.* → [[stimme]]
+2. **Direktes «Du musst mir einfach sagen was ich zeichnen soll» als Delegations-Formel bei
+   offenen Gestaltungsfragen — Standard oder Einzelfall?** Bei einer gestalterisch offenen
+   Detailfrage (Terrassen-Abtretung) gibst Du die Entscheidung mit dieser sehr direkten, fast
+   auffordernden Formulierung an den Bauherrn zurueck, statt mehrere Varianten vorzuschlagen
+   (Deine sonst belegte «in Varianten rechnen»-Grundhaltung). Ist das Deine bewusste Kurzform,
+   wenn eine Frage rein geschmacklich/gestalterisch (nicht baurechtlich/technisch) ist und der
+   Bauherr selbst am naechsten dran ist, oder widerspricht das dem Varianten-Prinzip? *Warum:
+   praezisiert, wann Du direkt delegierst statt selbst Varianten vorzurechnen.* → [[denken]],
+   [[arbeitsweise]]
+
 ## Offen — Runde 260714c (twin-fragesteller, aus Fidelity-Review 2026-07-14c)
 
 Quelle: Drift-Report `outputs/2026-07-14c_fidelity.md` (Gesamt-Fidelity ~89; drei frische
@@ -31,7 +56,15 @@ HUB12-Netzwerk-Einladung 2026-06-05 [Peer-Du, Netzwerk]). Je in 1–2 Saetzen be
    Naehe — oder haettest Du bei der naechsten, weniger folgenreichen Mail an David eher «Hoi»/
    «Lieber» gewaehlt? *Warum: praezisiert, ob «Geschaetzter» primaer am INHALT (Gewicht der
    Aussage) oder an der BEZIEHUNGSDAUER haengt — bisherige Belege zeigen beides getrennt, hier
-   fallen sie in einer sehr jungen Beziehung zusammen.* → [[beziehungsregister]], [[stimme]]
+   fallen sie in einer sehr jungen Beziehung zusammen.* → [[beziehungsregister]], [[stimme]] ·
+   **BEANTWORTET (Fidelity 260714d):** JA, Inhalt schlaegt Beziehungsdauer. Zweiter, unabhaengiger
+   Beleg im Stefan-Tschopp-Faden (11.05.–04.06.2026, laengst eingespieltes Du): durchgehend «Hoi
+   Stefan» bei Routine-Mails, aber genau EINE Mail mit «Geschaetzter Stefan» — exakt die, die das
+   baurechtlich verbindliche Ergebnis liefert («baugesetzlich maximal machbar», Vordach «ohne
+   Näherbaurecht»). Die naechste Mail desselben Fadens (2 Tage spaeter) faellt sofort zurueck auf
+   «Hoi Stefan». «Geschaetzter» ist ein **Inhalts-Spike** (nicht klebend), ausgeloest vom Gewicht
+   des konkreten Ergebnisses, unabhaengig von Beziehungsdauer/-waerme. In beziehungsregister.md
+   verankert.
 3. **«Beste Gruesse» als Schluss einer professionellen Netzwerk-Event-Einladung an mehrere
    Architektenkollegen — eigenstaendiges Register oder Zufall?** Die HUB12-Einladung (an
    mehrere Peers, 05.06.2026) schliesst mit «Beste Gruesse», nicht mit dem bisher fuer
