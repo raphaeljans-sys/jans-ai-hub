@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 13:44:26
+Stand: 14.07.2026 13:54:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:53)
+- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 13:49)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +14,4 @@ Stand: 14.07.2026 13:44:26
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- fc2f1c7d nas-selfcommit: 2 Datei(en) 2026-07-14 13:30
+- 85082471 vollgas-radar: Drossel-Regime (Rule 260714) - Schoner statt Taktgeber, Runner gestoppt, keine P1

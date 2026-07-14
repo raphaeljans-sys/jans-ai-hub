@@ -5,7 +5,7 @@ ausgabe: "2010"
 ersetzt: "kein CH-Bezug — deutsches Baurecht/Normenwesen, Schweizer Pendant SIA-Normenwerk + kantonales Baurecht"
 gelesen: "S. 1-20 (vollständig — Kap. 1.1.1-1.1.11: Öffentliches/Privates Baurecht, VOB, Regeln der Technik, DIN-Normenarbeit, Europäische Normung/EU-Harmonisierung, Bauprodukte/Bauarten)"
 datenstand: "2010"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19 — VOB-Teil-A-Paragrafenzahl «22 statt 33» korrigiert/entfernt, im Original nicht belegt; DIN-18330-Beispiel Kennbuchstabe R zu V korrigiert)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19 — VOB-Teil-A-Paragrafenzahl «22 statt 33» korrigiert/entfernt, im Original nicht belegt; DIN-18330-Beispiel Kennbuchstabe R zu V korrigiert). Q&A-Selbstbefragung Mini-Run 28 (260714): 18 Fragen, 18 bestanden, 0 Fehler korrigiert, 3 Ergaenzungen (VOB/A-Paragrafenzahlen 22/32 und 23/33 pro Abschnitt mit Originalbeleg S.2 nachgetragen, DIN-820-Normungsdefinition um «interessierte Kreise» ergaenzt, Organigramm Rechtsbeziehungen am Bau Beteiligte samt Quelle Locher 1976 ergaenzt)."
 last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
@@ -38,13 +38,19 @@ Normung/EU-Harmonisierung, Bauprodukte- und Bauarten-Zulassung.
   (Städtebaurecht = Bund, Bauordnungsrecht = Länder); Privates Baurecht = Beziehung
   Auftraggeber-Architekt-Sonderfachmann-Bauunternehmer (Architektenvertrag,
   VOB-Vertrag).
+- **Rechtsbeziehungen der am Bau Beteiligten, Organigramm (S. 1):** Auftraggeber an
+  der Spitze, darunter der Architekt, seitlich Sonderfachmann und Bauunternehmer
+  (Quelle: Locher, H., Das Private Baurecht, München 1976, S. 7) — visualisiert die
+  Struktur des privaten Baurechts (Ergänzung Q&A-Selbstbefragung Mini-Run 28).
 - **VOB-Struktur, 3 Teile (S. 2-4):** Teil A (Vergaberegeln, bezieht sich nur auf
   öffentliche Auftraggeber; VOB 2009 straffte die Struktur, u.a. wurden die
   bisherigen §§ 11-15 der VOB 2006, Ausführungsfristen/Vertragsstrafen/
   Mängelverjährung/Sicherheitsleistung/Vergütungsänderung, im neuen § 9
-  Vertragsbedingungen zusammengefasst), Teil B (Allgemeine Vertragsbedingungen zur
-  Ausführung, gegenüber Verbrauchern nicht vorgesehen), Teil C (DIN 18299-18459,
-  Allgemeine Technische Vertragsbedingungen ATV je Gewerk).
+  Vertragsbedingungen zusammengefasst; Abschnitt 1 der VOB/A zählt seither 22 statt
+  zuvor 32 Paragrafen, Abschnitt 2 23 statt zuvor 33 Paragrafen — S. 2, verifiziert
+  Mini-Run 28), Teil B (Allgemeine Vertragsbedingungen zur Ausführung, gegenüber
+  Verbrauchern nicht vorgesehen), Teil C (DIN 18299-18459, Allgemeine Technische
+  Vertragsbedingungen ATV je Gewerk).
 - **VOB Teil C, Aktualisierungs-Kennbuchstaben (S. 3-4):** N=Neu, F=Fachtechnisch
   überarbeitet, R=Redaktionell überarbeitet, V=Verweise aktualisiert (keine
   inhaltliche Änderung) — Gewerke-Liste DIN 18299-18459 mit Kennbuchstabe je ATV
@@ -104,8 +110,9 @@ Normung/EU-Harmonisierung, Bauprodukte- und Bauarten-Zulassung.
 - **Bauprodukt vs. Bauart (§ 2 MBO):** Bauprodukt = Baustoff/Bauteil/Anlage zum
   dauerhaften Einbau; Bauart = Zusammenfügen von Bauprodukten zu baulichen Anlagen.
 - **DIN 820 «Normungsarbeit»:** Grundgesetz der Normung — Normung ist die
-  planmässige, gemeinschaftlich durchgeführte Vereinheitlichung materieller/
-  immaterieller Gegenstände zum Nutzen der Allgemeinheit.
+  planmässige, durch die interessierten Kreise gemeinschaftlich durchgeführte
+  Vereinheitlichung materieller/immaterieller Gegenstände zum Nutzen der
+  Allgemeinheit (Akteur «interessierte Kreise» ergänzt, Mini-Run 28).
 
 ## JANS-Praxis-Transfer
 

@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 13:38:54
+Stand: 14.07.2026 13:59:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:38)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 14.07.2026 13:38:54
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- fc2f1c7d nas-selfcommit: 2 Datei(en) 2026-07-14 13:30
+- 563a515c normen: Wiederherstellung Q&A-Selbstbefragung Mini-Run 28 Skript Treppen HCU (durch parallelen Commit ueberschrieben)

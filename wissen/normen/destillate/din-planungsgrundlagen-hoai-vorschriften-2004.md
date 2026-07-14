@@ -7,7 +7,7 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-42 von 42 (vollständig)"
 datenstand: 2026-07-13
-status: "established (verifiziert 260714, Retro-Verifikation Run 19: beanstandet-korrigiert — §86 MBO war LP2 statt LP3 zugeordnet, LP7-Kostenvergleich fälschlich als „Kostenvoranschlag aus LP7" statt Kostenberechnung aus LP3 bezeichnet, §6 Abs.7 MBO Stützmauern-Ausnahme und 15-m-Schranken-Umfang ungenau, §65 Abs.2 Nr.4 MBO Bediensteter-Bedingung fehlte, LP8 Rechnungsprüfung/Verjährungsfristen-Auflistung fehlten, LP3-Abschnitt um DIN-Normenkatalog + Kostenberechnung/§37-Wirtschaftlichkeitsberechnung ergänzt, DIN-18205-Aussage von „häufigste Ursache" auf „oft" korrigiert)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19: beanstandet-korrigiert — §86 MBO war LP2 statt LP3 zugeordnet, LP7-Kostenvergleich fälschlich als „Kostenvoranschlag aus LP7" statt Kostenberechnung aus LP3 bezeichnet, §6 Abs.7 MBO Stützmauern-Ausnahme und 15-m-Schranken-Umfang ungenau, §65 Abs.2 Nr.4 MBO Bediensteter-Bedingung fehlte, LP8 Rechnungsprüfung/Verjährungsfristen-Auflistung fehlten, LP3-Abschnitt um DIN-Normenkatalog + Kostenberechnung/§37-Wirtschaftlichkeitsberechnung ergänzt, DIN-18205-Aussage von „häufigste Ursache" auf „oft" korrigiert). Q&A-Selbstbefragung Mini-Run 28 (260714): 20 Fragen, 18 bestanden, 0 Fehler korrigiert, 2 Ergänzungen (LP9-Grundleistung „Objektdokumentation" fehlte, LP9-Besondere-Leistung „Überwachen der Wartungs- und Pflegeleistungen" fehlte)."
 last_updated: "2026-07-14"
 ---
 
@@ -401,12 +401,17 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   Gewährleistungsfristen (unaufgefordert vom Planer vorzunehmen, mit Protokoll), Überwachung
   der Mängelbeseitigung (Veranlassung ist Bauherrensache, Architekt überwacht nur), Mitwirken
   bei der Freigabe von Sicherheitsleistungen bei mängelfreier Leistung (S. 44).
+- **Ergänzung 260714 (Mini-Run 28, fehlte im Destillat): Objektdokumentation** als weitere
+  Grundleistung LP9 (S. 45) — die systematische Zusammenstellung der zeichnerischen und
+  rechnerischen Darstellungen und Ergebnisse des Objektes dient als Grundlage der
+  Gebäudeunterhaltung und späterer Maßnahmen, die am Objekt vorgenommen werden.
 - Besondere Leistungen: Erstellen von Bestandsplänen (Ist-Zustand als Grundlage für Umbau-/
   Erweiterungs-/Reparaturarbeiten), Ausrüstungs-/Inventarverzeichnisse, Wartungs-/
   Pflegeanweisungen, Objektbeobachtung, Objektverwaltung, Baubegehung nach Übergabe,
-  Aufbereitung des Zahlenmaterials für Objektdatei, Ermittlung/Kostenfeststellung zu
-  Kostenrichtwerten, Bauwerks- und Betriebs-Kosten-Nutzen-Analyse (S. 45); dazu
-  **DIN 31051** (Grundlagen der Instandhaltung), **DIN 55350-11** (Begriffe zum
+  **Überwachen der Wartungs- und Pflegeleistungen** (**Ergänzung 260714**, fehlte im
+  Destillat, S. 45), Aufbereitung des Zahlenmaterials für Objektdatei, Ermittlung/
+  Kostenfeststellung zu Kostenrichtwerten, Bauwerks- und Betriebs-Kosten-Nutzen-Analyse
+  (S. 45); dazu **DIN 31051** (Grundlagen der Instandhaltung), **DIN 55350-11** (Begriffe zum
   Qualitätsmanagement, Ergänzung zu DIN EN ISO 9000:2005).
 
 ## Begriffe
