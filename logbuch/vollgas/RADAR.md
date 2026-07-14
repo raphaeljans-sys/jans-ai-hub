@@ -1,15 +1,62 @@
 # VOLLGAS-Chef-Radar
 
-Ziel (Auftrag Raphael 12.07.2026, Rules 260712c + 260712e): das WOCHENLIMIT des Max-Abos
-ausschoepfen (Referenz 12.07.: 41% bzw. 52%), indem JEDES rollierende 5-Stunden-Fenster
-maximal ausgereizt wird. Das 5h-Limit auf 100% ist ERFOLG, nicht Fehler — ein volles Fenster
-ist ein voller Baustein zum Wochenlimit. Der Radar ist zugleich TAKTGEBER: er laeuft stuendlich,
-erkennt Limit-Pausen (= gewuenschter Zustand) und sorgt dafuer, dass nach jedem 5h-Reset SOFORT
-wieder ans Maximum gefahren wird, damit zwischen den Fenstern keine ungenutzte Luecke entsteht.
+> **REGIMEWECHSEL 14.07.2026 (Rule 260714 — DROSSELN):** Das Wochenlimit («Alle Modelle»)
+> ist bereits zu 81% ausgeschoepft, noch ~6 Tage bis Reset (Mo 11:59). Die maximale
+> VOLLGAS-Ausreizung (Rules 260712c ENDLOS + 260712e «jedes 5h-Fenster ans Limit») ist
+> AUFGEHOBEN. Der Endlos-Runner ist gestoppt (STOP + STOP-Macmini seit 12:53) und wird NICHT
+> automatisch neu gestartet. Der Radar ist ab jetzt **SCHONER, nicht mehr Taktgeber**: er
+> beschleunigt nicht, startet den Runner nicht wieder, sondern haelt nur Login/Fenster im Blick
+> und meldet. Ein 5h-Fenster auf 100% ist KEIN Ziel mehr. Geplante Lern-/Trainings-Tasks laufen
+> weiter, aber gedrosselt (Richtung Nachtfenster 22:00–06:00, Regel 260711). Wiederhochfahren nur
+> auf ausdrueckliche Anweisung Raphaels. Gilt mindestens bis zum naechsten Wochen-Reset.
+
+Ziel (historisch, Auftrag Raphael 12.07.2026, Rules 260712c + 260712e — durch 260714 abgeloest):
+das WOCHENLIMIT des Max-Abos ausschoepfen, indem JEDES rollierende 5-Stunden-Fenster maximal
+ausgereizt wird. Diese Zielsetzung ist ab 14.07.2026 12:53 aufgehoben (siehe Banner).
 Neueste Eintraege zuoberst.
 
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
-Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet offen, Vollgas sichern · [LOGIN] headless-Login-Block.
+Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beobachten (aktuell) ·
+[VOLL] Fenster ausgereizt (historisch) · [FREI] Kapazitaet offen (historisch) · [LOGIN] headless-Login-Block.
+
+---
+
+## 2026-07-14 13:52 — [GEDROSSELT] Erster Radar-Lauf im Drossel-Regime: Runner korrekt gestoppt, kein Wiederanlauf, geplante Tasks laufen gedrosselt weiter, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Regimewechsel greift. Rule 260714 (heute) hat die
+VOLLGAS-Ausreizung aufgehoben; die STOP-Dateien sind gesetzt (STOP + STOP-Macmini, 12:53) und
+begruenden den Halt sauber. Der Endlos-Runner laeuft nicht mehr (kein `vollgas-runner`-Prozess) —
+das ist der GEWUENSCHTE Zustand, KEIN Fehler und KEIN Wiederanlauf-Anlass. Als Schoner starte ich
+den Runner ausdruecklich NICHT neu; das Fuellen des 5h-Fensters ist kein Ziel mehr.
+
+**Beobachtung (kein Eingriff):** Login intakt — `claude -p --model haiku` mit gesourctem Token
+liefert «OK» (rc=0), Token-Zeile in `~/.jans-dispatch.env` vorhanden. `timeout` fehlt auf macOS
+nativ; Login-Test daher via `perl -e 'alarm'` gefahren (Notiz fuer kuenftige Laeufe).
+
+**Durchsatz (jetzt aus den geplanten Tasks, nicht mehr aus dem Runner):** 14 Commits/90 Min,
+83/6 Std. Inhaltlich echt und laufend: normen Q&A-Selbstbefragung (SIA 102:2020, DIN V 106:2005,
+DIN 1960 Mini-Run 28), normen-mini Run 27 (16 DIN/VSS-Destillate), twin-mail Mailbatch 52,
+planungsgrundlagen Run 48 (BSV 2026 Primaerquelle), energie Run 68 (Register), twin-fidelity
+Runde 260714j (Fidelity 86), synobsis 6. Lauf (853/853 bestaetigt, kein neuer Stoff). nas-selfcommit
+buendelt begleitend. Das ist das intendierte gedrosselte Bild: Trainings arbeiten weiter bei ihrer
+Frequenz, ohne Dauer-Runner.
+
+- **P2 (NEU) — Radar-Frequenz selbst zuruecknehmen:** Der stuendliche Takt dieses Radars war fuer
+  die Taktgeber-Rolle noetig. Im Schoner-Modus reicht ein Blick ein paar Mal taeglich (Login/STOP-
+  Status), der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade schonen wollen.
+  Vorschlag an Raphael: `vollgas-chef-radar` auf 3–4x taeglich reduzieren (formell ohnehin per
+  Task `token-drosselung-100810` am 10.08. vorgesehen — hier vorziehen). Nicht selbst geaendert
+  (eigene Task-Frequenz), Vormerkung fuers naechste Briefing.
+- **P3 (unveraendert, aber entschaerft) — Idle-Loops** (`wettbewerbs-dna-training`/`spec-training`/
+  `synobsis-batch-nacht` + baurecht-buch/immobewertung-Kurzlaeufe) brechen weiter intermittierend
+  mit «keine eigentliche Anfrage angekommen» ab. Im Drossel-Regime weniger dringend (weniger Laeufe);
+  Fix bleibt der «Fahre den naechsten offenen Baustein aus»-Auftakt in der jeweiligen SKILL.md,
+  bei ruhiger Gelegenheit, nicht mitten im Zyklus.
+- **P3 (unveraendert) — `wettbewerbs-layer-nachbrenner` + energie-Meta-Punkt M2:** Endbedingungs-
+  bzw. Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll fuer das Drossel-Regime: Runner gestoppt und nicht wieder angeworfen, geplante Tasks
+laufen gedrosselt weiter, Login intakt, keine neue/offene P1. Kein Mail-Anlass.
 
 ---
 
