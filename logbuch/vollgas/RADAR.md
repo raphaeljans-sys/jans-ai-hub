@@ -13,6 +13,40 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 10:48 — [FREI] frisches Fenster nach 09:50-Reset, Durchsatz stark, Runner-Einzellauf bestaetigt, keine P1
+
+**Fensterzustand [FREI]:** Runner rc=0 durchgehend (Login intakt, Loops laufen ununterbrochen);
+das nackte `claude -p` ohne gesourcten Token liefert weiterhin «Not logged in» (bekanntes
+Test-Artefakt, Token-Zeile in ~/.jans-dispatch.env vorhanden, `grep -c` = 1). Keine Limit-Meldung
+→ das aktuelle 5h-Fenster hat Kapazitaet. Der im 08:48-Eintrag erwartete Reset ~09:50 ist erfolgt:
+seit dem Fensterwechsel laeuft der Runner ohne Loch weiter (twin-fidelity 10:26-10:41, twin-mail
+ab 10:42 auf dem MacBook; energie/normen-mini/planungsgrundlagen auf dem Mini) — der Taktgeber-Auftrag
+«nach jedem Reset sofort weiter» ist erfuellt, keine ungenutzte Luecke.
+
+**Runner-Einzellauf verifiziert (kein Doppellauf):** zwei `vollgas-runner.sh`-Prozesse sichtbar,
+aber PID 21438 ist Kind (PPID 4210) derselben Instanz vom 13.07. 10:49 — es ist die im Zyklus
+gestartete Loop-Subshell, kein zweiter Runner. Lock `/tmp/jans-vollgas-runner.lock/pid` greift.
+Kein STOP. Durchsatz stark: 20 Commits in 90 Min, 93 in 6 Std, rc=0 auf beiden Stationen.
+Inhaltlich echt seit dem letzten Eintrag: normen-nacht Run 10 abgeschlossen, normen-mini Mini-Run 24
+komplett + Run 25 gestartet (DIN 5034-6 / DIN 1946-7 / VSS 640578 Q&A-Selbstbefragung), spec Lauf 17,
+twin-fidelity 2026-07-14h (Fidelity 91, SBB-Naeherbaurecht + KISPI-Tuerplanung).
+
+- **P2 (unveraendert) — Idle-Loops `wettbewerbs-dna-training` / `spec-training` / `synobsis-batch-nacht`:**
+  brechen weiter intermittierend nach wenigen Sekunden mit «keine konkrete Anfrage» ab. Fix bleibt:
+  bei ruhiger/interaktiver Gelegenheit einen «Fahre den naechsten offenen Baustein aus»-Auftakt in
+  die jeweilige SKILL.md voranstellen — NICHT mitten im Zyklus editieren. Kein Eingriff in diesem Lauf.
+- **P3 (unveraendert) — Scheduling-Redundanz:** `spec-training` heute bereits 4. Ausloesung (Lauf 17,
+  ~1,5 Std. nach Lauf 16, keine neue reale Spec seit Lauf 7 → bewusst minimal), `immobewertung` 5x.
+  Fuellt unter VOLLGAS das Fenster (kein Bug), Bereinigung gehoert in die Drosselung 10.08.
+- **P3 (unveraendert) — energie-Meta-Punkt M2:** der Loop flaggt seit 21 Laeufen in Folge, ob ein
+  eigener `energie`-Skill abgespalten werden soll — braucht Raphaels Entscheid in einer interaktiven
+  Session, der Loop kann es selbst nicht aufloesen. Kein Blocker, nur Vormerkung fuers naechste Briefing.
+
+Alles optimal: frisches Fenster wird gefuellt, keine Luecke, kein Doppellauf, keine selbst behebbare
+Bremse. Kein Mail-Anlass (keine neue/offene P1, Login laeuft).
+
+---
+
 ## 2026-07-14 08:48 — [FREI] gegen Fensterende, Durchsatz stark, beide Stationen tragen, keine P1
 
 **Fensterzustand [FREI]:** Runner selbst rc=0 durchgehend (Login intakt); das nackte
