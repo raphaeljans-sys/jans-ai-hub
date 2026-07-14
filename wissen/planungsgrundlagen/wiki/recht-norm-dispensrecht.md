@@ -3,7 +3,7 @@ title: Recht & Norm — Dispensrecht / Ausnahmebewilligung (PL-02)
 status: established
 last_updated: 2026-07-13
 sources: [PL - 02_Recht_Norm/01_Gesetze/05_Dispensrecht (SharePoint), BRKE I 0247/2010, baurekursgericht-zh.ch, zhlex LS 700.1, saputelli-baurecht.ch (PBG aktuell 3/2021), sz.ch/lexfind (PBG/PBV SZ), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/Mehrwertrevers Beseitigungsrevers/ (ZBl 1993 Bösch, Screenshot notariate-zh.ch, Run 26)"]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-baurechtsanalysen-benchmarks]], [[kartenportale-baulinien-abstandslinien-zh]], [[machbarkeit]], [[ankaufspruefung]]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-baurechtsanalysen-benchmarks]], [[kartenportale-baulinien-abstandslinien-zh]], [[machbarkeit]], [[ankaufspruefung]], [[recht-norm-rechtsprechung-vg-zh]]
 ---
 
 # Recht & Norm — Dispensrecht / Ausnahmebewilligung (PL-02)
@@ -160,6 +160,26 @@ SZ-Block). **Kein Doppel** — konkrete SZ-Dispensfrage ueber Skill `baurecht`; 
 - **[[recht-norm-baurechtsanalysen-benchmarks]]:** reale JANS-BRA als Praezedenz-Sammlung; Dispens-Muster
   hier verlinkt.
 - **Substanz / rechtliche Wuerdigung** eines konkreten Falls → **Skill `baurecht`** (kein Doppel).
+
+## § 357 Abs. 1 PBG vertieft — "weitergehende Abweichung" (Run 47, 2026-07-14)
+
+Realer Rechtsprechungs-Fund im Ordner `01_Gesetze/03_Rechtsprechung` + `04_Rechtsliteratur`: **volle
+Fallsammlung + systematische Landkarte** jetzt in [[recht-norm-rechtsprechung-vg-zh]]. Kernpunkte
+kurz hier verankert:
+
+- **Massstab ist die materielle, nicht die formale Auswirkung.** BGE 1C_231/2017 (01.03.2018,
+  bestätigt/verschärft 1C_319/2016): eine Aufstockung, die **rechnerisch** keine Gebäudehöhen-
+  Änderung bewirkt (§ 280 Abs. 1 PBG unverändert), aber den **optischen Eindruck** einer bereits
+  bestehenden Höhen-/Geschossigkeits-Überschreitung **massiv verstärkt**, gilt als **"weitergehende
+  Abweichung"** im Sinn von § 357 Abs. 1 Satz 2 PBG — dann braucht es zwingend eine
+  Ausnahmebewilligung § 220 PBG (diese Regel oben).
+- **Grössenordnung "wesentlich weitergehend":** VGr VB.2011.00640 (30.05.2012) qualifizierte eine
+  Mehrausnützung von **150 m²/≈ 11 % der möglichen Neubaufläche** als **noch nicht** "wesentlich"
+  weitergehend — Richtwert, keine feste Schwelle (Gesamtwürdigung inkl. äusserer Erscheinung).
+- **Balkone/Vorsprünge bei der Überbauungsziffer:** VGr VB.2017.00100 (22.06.2017) — offene Balkone
+  bis 2 m Tiefe fallen unabhängig von einer Zugangstreppe ausser Ansatz, sofern die Treppe nicht dem
+  Wohnungszugang dient; Eckrücksprünge bis 2 m Tiefe dürfen ohne Drittelsbeschränkung überdacht
+  werden, solange keine Gebäudequalität entsteht.
 
 ## Offen (→ QUESTIONS)
 - Zweiter Benchmark mit **gewaehrtem** Dispens (Topographie/Hanglage als «besondere Verhaeltnisse»)
