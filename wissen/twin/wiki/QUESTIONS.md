@@ -3,6 +3,37 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714i (twin-fragesteller, aus Fidelity-Review 2026-07-14i)
+
+Quelle: Drift-Report `outputs/2026-07-14i_fidelity.md` (Gesamt-Fidelity ~85; frische Live-Goldprobe vom
+14.07.2026 selbst, Apple-Mail-Fallback — schliesst die Luecke des allerjuengsten Postfach-Rands direkt am
+Tag des Reviews). Je in 1–2 Saetzen beantwortbar.
+
+1. **Sie-Register + Kurzgruss ohne Block — Standard bei jeder operativen Rueckfrage-Antwort an einen
+   eingespielten Sie-Fachplaner, oder Einzelfall?** An Livdin Bajrami (Jegen AG, Tuerbauer PPTS KISPI, Sie,
+   eingespieltes Projekt) schliesst Du eine schnelle technische Bestaetigungs-Antwort mit «Lieber Gruss /
+   Raphael Jans» — OHNE «Freundliche Gruesse» und OHNE Signaturblock, obwohl die Anrede «Geschaetzter Herr
+   Bajrami» foermlich-Sie bleibt. Das bisherige Mapping kannte «Sie → FG+Block» praktisch ausnahmslos. Ist der
+   Kurzgruss ohne Block Dein bewusstes Mittel fuer JEDE knappe, operative Antwort im laufenden Sie-Thread
+   (unabhaengig vom Block-loesenden Faktor «dokumentierend vs. operativ», den bisher nur Du-Mails zeigten),
+   oder war das hier Tagesform/Mobile-Compose-Verhalten? *Warum: ein zweiter Beleg wuerde die bisher fuer
+   unumstoesslich gehaltene Sie→FG+Block-Regel um einen echten operativen Kurzgruss-Zweig ergaenzen.*
+   → [[stimme]], [[beziehungsregister]]
+2. **«Danke der Rückfrage.» als eigene Dank-Kurzform — Standard bei einer Klaerungs-Rueckfrage des
+   Gegenuebers?** Statt «Besten Dank fuer Deine/Ihre Rueckfrage» schreibst Du knapp «Danke der Rückfrage.»
+   (Genitiv-Kurzform, ohne Fuerwort). Ist das eine feste, noch unbelegte dritte Dank-Kurzform (neben «Besten
+   Dank fuer …» und dem nackten «danke» am Satzende), die Du gezielt setzt, wenn jemand eine eigene Unklarheit
+   durch Nachfragen aufloest (im Unterschied zu einer Bitte um Handlung)? *Warum: ergaenzt die Dank-Formeln-
+   Skala um einen bisher nicht erfassten Anlass (Rueckfrage statt Handlung/Lieferung).* → [[stimme]]
+3. **Technische Komplexitaets-Bremse («Sollte es zu kompliziert werden lassen wir das») — greift sie auch,
+   wenn DU selbst die aufwendigere Idee eingebracht hast?** Bei der Schiebetor-Wandtaschen-Idee ziehst Du
+   Deinen EIGENEN Vorschlag zurueck, sollte er den Tuerbauer zu sehr fordern — anders als «kann man machen,
+   muss man nicht» (dort optionale Bauherren-Extras ablehnen), hier Dein eigener gestalterischer Einfall.
+   Ist das ein genereller Reflex («eigene Ideen nie gegen den Ausfuehrungsaufwand des Unternehmers
+   durchsetzen»), oder haengt es am Einzelfall (Schiebetor ist ohnehin Nebensache)? *Warum: praezisiert, ob
+   der Aufwand-Schutz-Reflex auch die eigene gestalterische Urheberschaft einschliesst, nicht nur Bauherren-
+   Wuensche.* → [[haltung]], [[denken]]
+
 ## Offen — Runde 260714h (twin-fragesteller, aus Fidelity-Review 2026-07-14h)
 
 Quelle: Drift-Report `outputs/2026-07-14h_fidelity.md` (Gesamt-Fidelity 91; drei frische Goldproben aus

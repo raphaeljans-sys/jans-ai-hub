@@ -2,6 +2,21 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14 — twin-fidelity-review (Fidelity-Runde i, Selbsttest)
+- Goldproben live aus Apple Mail («Gesendete Elemente», rj@raphaeljans.ch) gezogen — M365-Connector
+  in dieser Session nicht verbunden. 2 frische, 1 konsolidierende Probe (14.07./13.07.2026).
+- Gesamt-Fidelity 85. Neuer Drift-Fund: Sie-Register + Kurzgruss «Lieber Gruss» OHNE Signaturblock bei
+  einer knappen operativen Rückfrage-Antwort an einen eingespielten Sie-Fachplaner — durchbricht die
+  bisherige Sie→FG+Block-Default-Regel (Einzelbeleg, zweiter Beleg noch offen).
+- [[stimme]]: neuer Abschnitt «Sie-Register + Kurzgruss ohne Block bei eingespieltem Fachplaner» +
+  neue Dank-Kurzform «Danke der Rückfrage.» vermerkt.
+- [[haltung]]: «Kann man machen, muss man nicht» um zweiten Datenpunkt erweitert — gilt auch für die
+  eigene Konstruktionsidee (Schiebetor-Wandtasche), nicht nur Bauherren-Zusatzleistungen.
+- 3 neue Fragen an [[QUESTIONS]] angehängt (Runde 260714i): Gruss-Schwelle Sie+Kurzgruss, Dank-Formel
+  «Danke der Rückfrage.», Aufwand-Schutz auch für eigene gestalterische Ideen.
+- Drift-Report: `outputs/2026-07-14i_fidelity.md`. Keine Facetten-Widersprüche gefunden.
+- Gehirn neu kompiliert (`build_dna.py`) → `rules/jans-dna.md` (Auto-Block).
+
 ## 2026-07-14i — twin-mail-training: Mailbatch 49 (02.–04.06.2026, KISPI-Vergabe + Albertstrasse-7-Submission + Thalwil-Rechnung)
 - Sequentieller Sweep fortgesetzt: Index 315-295 in "Gesendete Elemente" (Exchange rj@),
   21 Mails gesichtet, 12 Volltexte gelesen; Zugriff via Apple Mail osascript (M365-MCP ohne
