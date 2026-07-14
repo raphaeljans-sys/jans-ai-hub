@@ -614,6 +614,11 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   neuer Terminplan erst nach Brand-Untersuchung. **Bis dahin BSV 2015/17/22, keine antizipierten
   Erleichterungen einplanen** → [[brandschutz-pl03-wegweiser]] §1. **Offen:** definitive Fassung +
   neuer Terminplan bei Publikation (Check 08/2026 / nach Untersuchungsbericht).
+  **2026-07-14 Run 48:** Struktur-/QSS-Aenderungen jetzt bereits aus dem Konzeptstand 2022 belegt
+  (nicht erst bei Publikation der definitiven Fassung) — 1 statt 2 Erlassstufen, max. 200 S. BSV +
+  separate BSV-Erlaeuterung, 3 statt 4 QSS (80/15/5-Regel), operationale "rote Linie" fuer
+  Bestandesbauten-Nachruestung geplant → [[brandschutz-pl03-wegweiser]] §1a. Weiterhin offen bleibt
+  nur der finale, Marschhalt-bereinigte Verordnungstext.
 - [x] **C2 / E6** Brandschutz/Naturgefahren **Solaranlagen** (Swissolar-STP zu VKF-BSM 2001-15).
   ✓ 2026-06-18: eigener Artikel `[[energie-pv-brandschutz]]` — Einbauarten, oberste Schicht
   (Glas/Folie ≤1.5 mm RF1), Brandmauer-Uebergang (aufgesetzt 1.0 m bzw. +0.3 m; REFH-Ausnahme),
@@ -837,10 +842,20 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   belegt vorliegt (weniger Behoerdenfragen noetig) + Werkleitungen-Zustaendigkeit praezisiert
   (Werke, nicht Tiefbauamt) → [[kartenportale-grundlagen-checkliste-neue-parzelle]] Abschnitt
   "Anwendung/Anschluss".
-- [ ] **M3 (neu Run 47, 2026-07-14)** Volksreferendum gegen die Verordnung ueber die Umsetzung
-  von § 49b PBG (UmV § 49b PBG, Kantonsratsbeschluss 17.09.2025, GR Nr. 2022/358) — laut
-  Suchtreffer-Titel Flexibilisierung der Parkplatzvorschriften Stadt/Land; Referendum am
-  21.11.2025 zustande gekommen. Primaerquelle (Wortlaut der Verordnung, Abstimmungstermin)
-  noch nicht gelesen — bei naechster Gelegenheit via kantonsrat.zh.ch/zh.ch verifizieren und,
-  falls JANS-relevant, in [[recht-norm-tiefgarage-erschliessung]] einarbeiten (Delta zu R9/R29
-  Parkierungs-Bedarfsrichtwerten pruefen).
+- [~] **M3 (neu Run 47, 2026-07-14; praezisiert Run 48)** Volksreferendum gegen die Verordnung
+  ueber die Umsetzung von § 49b PBG (UmV § 49b PBG). **Korrektur Run 48 (WebSearch
+  stadt-zuerich.ch, 2026-07-14):** Run 47s Vermutung "Flexibilisierung Parkplatzvorschriften"
+  war ein Fehlschluss aus dem blossen Suchtreffer-Titel — die Primaerquelle (Medienmitteilung
+  Stadt Zuerich) zeigt: § 49b PBG regelt **preisguenstigen Wohnraum als Gegenleistung fuer
+  Mehrausnuetzung** bei Um-/Aufzonungen bzw. Sondernutzungsplanung (Einkommenslimite nur bei
+  Mieteintritt relevant, keine laufende Kontrolle); das **staedtische** (nicht kantonale)
+  Referendum betrifft die Zuteilungs-/Verwaltungsregeln dieser Wohnungen in der Stadt Zuerich,
+  2'600 Unterschriften (2'063 gueltig, Quorum 2'000), zustande gekommen 21.11.2025,
+  **Volksabstimmung 14.06.2026**. Kein Bezug zu Parkierung/R9/R29 — Delta-Pruefung gegen
+  [[recht-norm-tiefgarage-erschliessung]] damit hinfaellig. **Neu relevant fuer** `machbarkeit`/
+  `nutzungsstrategie` (Mehrausnuetzung via BZO-Revision kann § 49b PBG-Pflicht ausloesen).
+  Weiterhin offen: Primaertext der Verordnung (§ 49b-Wortlaut, Einkommensgrenze, Anwendungs-
+  schwelle Mehrausnuetzung) noch nicht volltext gelesen — nur WebSearch-Zusammenfassung, daher
+  status `[~]` statt `[x]`; bei naechster Gelegenheit stadt-zuerich.ch/49b.html + kantonsrat.zh.ch
+  Primaerquelle lesen und in einen neuen Artikel (`recht-norm-mehrausnuetzung-wohnraum-zh.md`,
+  falls JANS-Projekt mit Verdichtung/Aufzonung ansteht) einarbeiten.

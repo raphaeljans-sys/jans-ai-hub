@@ -2,6 +2,28 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 48 (echtes neues Primaerdokument: Normkonzept BSV 2026 + M3-Korrektur)
+- Statt eines weiteren WebSearch-Refresh: Zeitstempel-Scan (`find -newermt`) ueber alle vier
+  PL-Grundordner (4'000 Dateien) foerderte ein am 11.07.2026 neu abgelegtes Primaerdokument
+  zutage — «Normkonzept BSV 2026» (VKF/Keel & Raster, Stand 06.10.2022, 170 S.).
+- **B5 von Termin- auf Substanz-Ebene gehoben:** 38 Eckpunkte der BSV-2026-Totalrevision
+  destilliert (Kap. 1-2 + Kap. 5 volltext gelesen) — 1 statt 2 Erlassstufen (BSV max. 200 S. +
+  BSV-Erlaeuterung), 3 statt 4 QSS, Risikoorientierung/Grenzkostenprinzip, SIA-500-Kap.8-
+  Uebernahme (Healthcare-relevant), Uebergangsrecht mit Bauherren-Wahlrecht, und die praktisch
+  wichtigste Neuerung: operationale "rote Linie" fuer Nachruestungspflicht bei Bestandesbauten
+  unabhaengig vom Umbauvorhaben → NEU §1a [[brandschutz-pl03-wegweiser]]. Vorbehalt: Konzeptstand
+  2022, liegt zeitlich vor dem Marschhalt 06.01.2026.
+- **M3 korrigiert:** Run 47s Vermutung "Parkplatz-Flexibilisierung" zum Volksreferendum gegen
+  UmV § 49b PBG war ein Fehlschluss aus dem Suchtreffer-Titel. Primaerquelle (stadt-zuerich.ch)
+  zeigt: staedtisches Referendum zu Zuteilungsregeln fuer preisguenstigen Wohnraum bei
+  Mehrausnuetzung, Abstimmung 14.06.2026 — relevant fuer `machbarkeit`/`nutzungsstrategie`, nicht
+  fuer Parkierung → `wiki/QUESTIONS.md` M3 korrigiert, Status `[~]` (Primaertext noch offen).
+- Register gepflegt: `raw/_INGESTED.md`, `training/curriculum.md` (B5), `wiki/QUESTIONS.md`
+  (C6/B5 + M3), Output `outputs/2026-07-14_training-run48.md`.
+- Lehre fuer kuenftige Laeufe: Bei einer nahezu gesaettigten KB ist ein Zeitstempel-Scan vor
+  jedem Lauf effizienter als ein erneutes vollstaendiges Durchkaemmen oder ein reiner
+  WebSearch-Refresh bestehender Watchlist-Punkte.
+
 ## 2026-07-14 — Training Run 47 (Refresh-Lauf, Watchlist E5/E9/B5): Stand unveraendert bestaetigt, Nebenfund § 49b PBG-Referendum offen
 - Curriculum praktisch vollstaendig (K1-K40/E1-E38/R1-R51/B1-B39 abgehakt); dieser Lauf
   bearbeitet die drei verbliebenen `[~]`-Watchlist-Punkte per WebSearch-Refresh statt neuer
