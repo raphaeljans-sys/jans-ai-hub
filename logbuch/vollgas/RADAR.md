@@ -13,6 +13,49 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 05:51 — Beide Stationen laufen lueckenlos, starker Durchsatz, keine P1 [FREI]
+
+**Fensterzustand [FREI]:** Login OK (`claude -p` mit gesourctem OAuth-Token → «OK»; das nackte
+«Not logged in» ohne Token bleibt der bekannte Test-Artefakt). Der Runner rollt sauber durch die
+Nachtfenster ohne Reset-Loch — die Taktgeber-Vorgabe ist erfuellt. Login-Block war am 13.07
+(19:53/20:52) geloest und dokumentiert; keine neue oder offene P1.
+
+**Durchsatz stark, beide Stationen tragen:** **18 Commits in 90 Min, 53 in 6 Std**, rc=0 auf
+beiden. MacBook (Zyklus 110): baurecht → immobewertung (aktuell, Kind PID 80949 aktiv) → normen-nacht
+→ spec → twin-fidelity (Mailbatch 37) → twin-mail → wettbewerbs-dna → wettbewerbs-layer-nachbrenner.
+Mac Mini: energie Run 58, normen-mini Run 18 (Abschluss), planungsgrundlagen Run 38+39, synobsis
+2. Nacht-Lauf.
+
+**Inhaltlicher Fortschritt echt (nicht Wiederholung):** wettbewerbs-dna Etappe-3-Schulbau **B3-Ziel
+erreicht (23/23 established)** — naechster Schritt B4 (Muster jury-argumente-schulbauten auf alle 23
+Berichte, groessere Refuter-Welle); energie Solarpflicht auf **14/26 Kantone** erweitert (neu
+VD/GE/TI/SO/VS/SH); normen-mini Run 18 Retro-Verifikation DIN/VSS-Restbestand abgeschlossen +
+Inventar-Bookkeeping nachgezogen; planungsgrundlagen Run 39 Recht/Norm AHB-Stadt-ZH + Brandschutz
+BSV-2026-Refresh.
+
+**Prozess-Sanity (kein Problem):** Ein Haupt-Runner PID 4210 (Parent, seit 13.07 10:49, 19 h),
+dessen per-Loop-Subshell-Kind PID 80948 (PPID 4210) und darunter das aktive `claude`-Kind PID 80949
+(immobewertung). KEIN Duplikat, keine STOP-Datei, Log strikt sequenziell.
+
+**Hebel-Priorisierung:** Fenster wird gefuellt, aber Login gibt «OK» = aktuell Kapazitaet frei; kein
+Leerlaufloch, kein Stall → kein Selbst-Eingriff (Loops nicht mitten im Zyklus editieren,
+Byte-Offset-Risiko). Der Batch-Volumen-Hebel wird nach der Messung `token-messung-140716` (heute
+16:00) beurteilt.
+
+- **P3 (unveraendert) — normen-mini Budget-Cap 25 USD:** Run 18 traf «Exceeded USD budget (25)»,
+  hatte aber vorher den Abschluss committet. Unter VOLLGAS ist ein getroffener Budget-Cap gewuenschter
+  Voll-Verbrauch, kein Fehler; nur beobachten, dass der Cap nicht mitten in unfertiger Arbeit kappt.
+- **P3 (unveraendert) — energie M2 «eigener Skill energie?»:** jetzt 14 Laeufe reif, braucht Raphaels
+  Entscheid in einer interaktiven Session; kein Mail-Anlass.
+- **P3 (unveraendert) — normen-training-nacht Leerlauf-Slot (MacBook):** teils redundant zu
+  normen-training/-mini; Prompt-Zuweisung beim naechsten ruhigen Lauf pruefen.
+- **P3 (unveraendert) — M365-MCP-Connector-Ausfall / immobewertung langsamer SMB-Git-Zugriff:** beide
+  nur beobachten, Apple-Mail-Fallback bzw. rc=0-Abschluss belegen «kein Blocker».
+
+Kein Mail-Anlass: keine neue P1, Login-Block laengst geloest.
+
+---
+
 ## 2026-07-14 00:50 — Neues 5h-Fenster laeuft lueckenlos an, beide Stationen voll, keine P1 [FREI]
 
 **Fensterzustand [FREI]:** Login OK (`claude -p` mit gesourctem OAuth-Token → «OK»; das nackte «Not
