@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14f — twin-mail-training: Batch 47 (27.–29.05.2026, KISPI-Submission + Thalwil-Freigabe)
+- Taeglicher (gedrosselter) Mail-Trainingslauf. Zugriff via Apple Mail osascript (Bundle-ID
+  com.apple.mail, Account "Exchange", Mailbox "Gesendete Elemente") — Cowork-Connector
+  `outlook_email_search` in dieser Session nicht verfuegbar. 25 Mails im Fenster (Index 359-335)
+  gesichtet, 8 Volltexte gelesen; Register in `raw/_INGESTED.md` fortgeschrieben bis
+  **2026-05-29, 16:16 Uhr**, keine Echo-Falle.
+- Hauptfaeden: KISPI-Umbau Kuechenbau-Submission (vier Anbieter, Angebotsvergleich mit
+  Mittelwert+Planungskosten-Aufschlag), Thalwil-2414-Freigabe-Thread Stefan Tschopp
+  (Grundriss/Ansichten/Umgebungsplan), NEU Kontakt Timo Hayen (Leiter Betrieb KISPI).
+- Duplikat-Check: der Stefan-Tschopp-Anrede-Spike («Hoi»↔«Geschätzter») wurde bereits vom
+  parallelen Fidelity-Lauf 260714d dokumentiert — hier NICHT erneut als Marker angelegt
+  (Entwurf verworfen), nur im Register vermerkt. Vermeidet Redundanz zwischen Loops.
+- `wiki/stimme.md`: neu Dialekt-Zwei-Wort-Antwort «Schöne Sonntig» ohne Gruss-Block + reziproker
+  Wohlbefindens-Austausch im Peer-Du + Mikro-Metrik Batch 47 (558 W, Du-Gross 0.963, ø 14.7 W).
+- `wiki/beziehungsregister.md`: neu Timo-Hayen-Mapping (warm-Du ohne bestehendes Mandat,
+  institutionelle Vertrautheit statt Auftragsbezug).
+- `wiki/arbeitsweise.md`: neu wiederverwendbares Submissions-Quittungs-Template ueber
+  konkurrierende Anbieter + Angebotsvergleich-Methodik (Mittelwert + Planungskosten-Aufschlag).
+- `wiki/haltung.md`: neu unaufgeforderte Gratis-Grobkostenschätzung als Beziehungspflege ohne
+  Mandat (Timo Hayen).
+- Kein separates `raw/`-Volltextfile angelegt (Konvention seit Batch 39: nur Registereintrag,
+  keine dauerhafte Klartext-Horte).
+
 ## 2026-07-14e — twin-fidelity-review: Stefan-Tschopp-Faden schliesst «Geschätzter»-Regelluecke
 - Vierter Fidelity-Lauf des Tages, bewusst knapp gehalten (VOLLGAS-Drosselungsnotiz 260713:
   Fokus liegt auf dem Wettbewerbs-DNA-Harness). M365-MCP nicht erreichbar → Fallback Apple Mail

@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1089,3 +1089,22 @@ Drei Arbeitsmarker aus Batch 40 (KISPI-Baueingabe/Lenggstrasse 30, April 2026):
   … zur internen Abklärung und Lösungsvorschlag») dokumentiert nur das Ergebnis des Telefonats
   (Plan-Übergabe), ohne das Gespräch inhaltlich zu wiederholen — das Telefonat bleibt die
   primäre Klärungsebene, die Mail ist reine Übergabe-Quittung. Quelle: 22.05.2026, authentisch.
+
+## Wiederverwendbares Submissions-Quittungs-Template über zwei konkurrierende Anbieter (belegt Mailbatch 47, authentisch)
+
+Zwei unabhängige Küchenbau-Anbieter (Schreinermanufaktur/Lanz, Glaeser AG/Leutwyler) erhalten nach
+Angebotseingang praktisch wortgleiche Antworten: «Besten Dank für Ihr Angebot der Schreinerküche […]. Ich
+werde nun die Zusammenstellung der Angebote machen und diese zur Entscheidung der Bauherrschaft
+unterbreiten. Sie werden im Verlauf der nächsten Woche von mir hören.» Der Zwilling nutzt ein knappes,
+faires Standard-Quittungs-Template (Eingangsbestätigung + nächster Prozessschritt + Zeithorizont), das
+gegenüber konkurrierenden Anbietern identisch bleibt — keine Bevorzugung, keine Vorab-Auskunft über
+Mitbewerber. Quelle: 29.05.2026, authentisch.
+
+## Angebotsvergleich: Mittelwert + Planungskosten-Aufschlag als eigene Vergleichsgrösse (belegt Mailbatch 47, authentisch)
+
+Beim Quervergleich von vier Küchenbau-Offerten wird nicht nur die reine Preisliste weitergegeben, sondern
+zusätzlich eine rechnerisch hergeleitete Vergleichsgrösse gebildet: «Das Mittel der Angebote ist 68'500.-
+exkl. MWST. Wenn zum Mittel der Angebot noch Planungskosten von CHF 5000.- hinzugerechnet werden ergibt
+dies ein mittleres Angebot von 73'500.-.» — der Zwilling liefert der Bauherrschaft nicht nur Rohdaten,
+sondern eine bereits um einen bekannten Kostenfaktor (Planungskosten) ergänzte, vergleichbare Kennzahl.
+Quelle: 29.05.2026, authentisch (→ [[fachsignatur]]).

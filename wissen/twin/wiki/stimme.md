@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1611,3 +1611,32 @@ osascript (Bundle-ID com.apple.mail, Account "Exchange", Mailbox "Gesendete Elem
   nicht-regex-erfasste Variante); Anreden gemischt («Geschätzter Albin», «Geschätzter Herr»
   [Stevanovic], «Geschätzter Stefan», «Guten Morgen Roman», «Liebe Frau» [Hottinger] — je 1×).
   Quelle: 20.–27.05.2026, authentisch.
+
+## Dialekt-Einsprengsel «Schöne Sonntig» als Zwei-Wort-Antwort im engsten Peer-Du (belegt Mailbatch 47, authentisch)
+
+Auf eine dringliche Rückruf-Bitte des Bauherr-Partners Stefan Tschopp (Thalwil 2414) antwortet Raphael in
+drei Kurzsätzen ohne jede Fach-Substanz: «Hoi Stefan, Danke für Deine E-Mail. Ja, Ich ruf Dich Montag an.
+Schöne Sonntig Raphael» — kein Gruss-Block, kein «Freundliche Grüsse», stattdessen ein einzelnes
+Schweizerdeutsch-Wort («Sonntig» statt «Sonntag») als Schluss-Geste direkt vor der Namenszeile. Bestätigt
+den bereits belegten Mundart-Einsprengsel-Marker (vgl. Fidelity 260629 «cooles», Batch 30 «duper»/«do»)
+in seiner knappsten Form: ein einzelnes Dialektwort ersetzt den gesamten Gruss, wenn die Mail rein
+terminlich-organisatorisch ist und die Beziehung eng genug ist. Quelle: 24.05.2026, authentisch.
+
+## Reziproker Wohlbefindens-Austausch als Öffnungsfloskel im Peer-Du (belegt Mailbatch 47, authentisch)
+
+Auf die Nachfrage «Wie geht es Dir?» eines Bauherr-Partners antwortet Raphael nicht mit einer Standard-
+Floskel, sondern nimmt den Wetter-/Jahreszeit-Bezug auf und spiegelt die Frage zurück: «Danke der lieben
+Nachfrage; mir geht es trotz Hitze sehr gut, danke. Bei Dir, alles Gut?» — die Antwort ist konkret situativ
+(«trotz Hitze»), nicht generisch, und schliesst mit einer eigenen Rückfrage, bevor der fachliche
+Mail-Inhalt folgt. Der Zwilling beantwortet persönliche Nachfragen im Peer-Du inhaltlich (mit
+Tages-/Wetterbezug), nie mit einer Floskel, und gibt die Frage zurück. Quelle: 28.05.2026, authentisch.
+
+## Mikro-Metrik Batch 47 (558 W über `stilmetrik.py`, 10 destillierte Kernpassagen ohne Anrede-/Gruss-
+Dubletten aus Quotes)
+
+Du-Gross-Quote **0.963**; Tausender-Apostroph 5 Treffer; Ellipsen 0; Satzlänge ø **14.7 W**; Anreden
+gemischt («Hoi Stefan» 4×, «Hoi Albin» 2×, «Geschätzter Herr» 2×, «Geschätzter Stefan» 1×, «Lieber Timo»
+1×); Grüsse «Freundliche Grüsse» 9× — bestätigt erneut, dass FG auch im reinen Peer-Du-Register (Hoi
+Stefan, Hoi Albin) der dominante Gruss bleibt, sobald die Mail einen fachlichen/organisatorischen Kern
+transportiert (Kurzgruss nur bei der reinen Zwei-Wort-Antwort ohne Fachinhalt, s.o.). Quelle:
+27.–29.05.2026, authentisch.
