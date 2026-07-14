@@ -1,3 +1,32 @@
+## 2026-07-14 — normen-training-mini Run 19/20 (Mac Mini): DIN/VSS/RAL-Bookkeeping nachgezogen + Querschnitts-Synthese fuer Fach-Skills
+- Beim Start dieses Laufs zeigte `git status`, dass ein Hintergrund-Prozess (Vollgas-Runner)
+  bereits 17 randstaendige "Sonstiges"-Destillate (10 Register-/Glossar-Positionen aus dem
+  Run-17/18-Plan + 6 weitere DIN-Sonstiges-Dokumente + die Vervollstaendigung des
+  Teil-Destillats vstaettvo-niedersachsen-2004 auf S.1-31/31) retro-verifiziert und committet
+  hatte (Frontmatter zeigte durchgehend `established (verifiziert 260714, Retro-Verifikation
+  Run 19)`), aber weder `training/norm-inventar.md` noch `destillate/INDEX.md` einen
+  entsprechenden Vermerk trugen — analog zum bereits in Run 18 beobachteten Muster.
+- Nachgezogen: alle 17 Positionen in `norm-inventar.md` (Spalte Bemerkung) und
+  `destillate/INDEX.md` (Status-Spalte) mit dem Verifikations-Vermerk + Kurzfassung der
+  jeweiligen Korrektur ergaenzt (u.a. din-abkuerzungsverzeichnis-2010: Eintragszahl ~500/
+  VOF-VOL/NORM-SIA/TRPV/EnEV/BMZ korrigiert; treppen-hcu-hamburg-2008: Neufert-Stufenzahlregel/
+  Mindestmasse-Tabelle/Formel/Fluchtdistanz/Fluchtleitern korrigiert; nbauo-barrierefreiheit-2004:
+  §45/§48/§18/§29 mehrere Ergaenzungen; hoai-bauen-im-bestand-2011 + din-planungsgrundlagen-
+  hoai-vorschriften-2004: mehrere LP-Zuordnungsfehler korrigiert; vds-2234-1999: Brandwandklasse
+  F90-A statt faelschlich F90-AB korrigiert).
+- Damit ist die **DIN/VSS/RAL-Familie (528-Datei-Inventar) vollstaendig destilliert UND
+  retro-verifiziert** (Vertiefungsstufe (b) fuer diese Familie abgeschlossen).
+- **Vertiefungsstufe (d) begonnen:** neuer Wiki-Artikel `wiki/synthese-din-vss-ral-fachskills.md`
+  — Querschnitts-Synthese, wo DIN/VSS/RAL-Destillate als Vergleichs-/Kennwert-Referenz fuer die
+  JANS-Fach-Skills taugen (Brandschutz: DIN 4102-1 Baustoffklassen vs. RF-Klassen, DIN 18232-2
+  NRA-Bemessung, DIN 1946-4/6/7 RLT Gesundheitswesen/Wohnen/Labor; Kostenschaetzung: DIN 276-1
+  KG vs. BKP; Flaechen-Nachweis: DIN 277-1/2/3 BGF/NGF vs. SIA 416 — inkl. Warnung vor der
+  unbelegten NGF=HNF-Gleichsetzung; Werkvertrag: VOB/A+B vs. SIA 118; Barrierefreiheit: DIN
+  18040-1/2 als Ersatzreferenz mangels SIA-500-Destillat in der KB; Parkierung: VSS 40 291
+  als direkt geltendes CH-Recht; Tageslicht: DIN 5034-1 vs. SIA 380/1). In `wiki/INDEX.md`
+  registriert.
+- Kein offener Q&A-/DRM-/Luecken-Punkt fuer DIN/VSS/RAL in `wiki/QUESTIONS.md`.
+
 ## 2026-07-14 — normen-training-nacht Run 8 (MacBook Pro): 13 VKF-Retro-Verifikationen + SIA 723 Erstverifikation
 - Vertiefungsstufe (b) Retro-Verifikation fortgesetzt (Rule auto-verbesserungen 260713, reduzierter
   Umfang 1x taeglich): 12 parallele adversariale Verifikations-Agenten gegen die Original-PDFs.
