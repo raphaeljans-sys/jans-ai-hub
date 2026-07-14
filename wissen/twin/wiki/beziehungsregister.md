@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 gewichtung: authentisch
-sources: [260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1133,3 +1133,23 @@ wärmere «Geschätzte»-Stufe, der Herr das kühlere «sehr geehrter», beide o
 Beziehungsunterschied (Erstkontakt zu einer Sanitärfirma für eine Angebotsanfrage). Zeigt: die
 Registerwahl variiert auch innerhalb eines einzigen Sie-Erstkontakts nach Anrede-Geschlecht/-Gefühl,
 nicht rein mechanisch. Quelle: 09.06.2026, authentisch.
+
+## Kontakt-Mappings Mailbatch 53 — Gruner-Fachplaner im Du, Anbieter/Buchhaltung im Sie (belegt Mailbatch 53, authentisch)
+
+Bestätigt und erweitert die Register-Landkarte für das KISPI-Umbauteam (2619/B26-00705.01):
+
+- **Marco Prencipe** (Architektenkollege Arch. Dipl. USI / MAS ETH MTEC, HUB12-Netzwerk) →
+  Sozial-/Fach-Peer-Du «Hoi Marco» / «Beste Grüsse» bzw. euphorisch «Hey cool!!! … Lgr»; er spiegelt
+  «Hoi Raphi». Kein Auftragsgefälle, Netzwerk unter Gleichen.
+- **Jens Ziegel** (Eidg. dipl. Brandschutzexperte VKF, Teamleiter Brandschutz Gruner) → Du
+  «Guten Morgen Jens».
+- **Cekdar Duran / Benjamin Kübler** (Gruner, HLK-Energienachweise) → kollektives Du «Ich bitte
+  **Euch**», Öffnung neutral «Guten Tag», gemischt «Geschätzter Herr Kübler, werter Cekdar Duran».
+- **Martina Baumgartner** (Sachbearbeiterin Buchhaltung KISPI) → Sie «Geschätzte Frau Baumgartner».
+- **Tim Harder** (JOMOS, Unternehmer Sprinkleranlage) → Sie, im Thread wärmend «Geschätzter Herr
+  Harder» ↔ «Guten Morgen Herr Harder».
+
+Konsistentes Muster: die **Gruner-Fachplaner sind Du** (langjährige Zusammenarbeit, bestätigt die
+Du-Fachplaner-Peer-Korrektur aus Batch 12), während **Anbieter/Unternehmer und Buchhaltung Sie**
+bleiben — die Trennlinie verläuft nach Vertrautheit/Zusammenarbeitsdauer, nicht nach der bloßen
+Rolle «Fachplaner vs. Handwerker». Quelle: 11.–15.06.2026, authentisch.

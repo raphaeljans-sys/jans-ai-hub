@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 gewichtung: authentisch
-sources: [260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1182,3 +1182,24 @@ komplette Handlungsanweisung («LOS_257.10 Sprinkleranlage JOMOS: Auftragserteil
 der Body enthält nur noch den entscheidenden fehlenden Datenpunkt («Vorschlag Kostendach CHF20K»),
 ohne Anrede, Erklärung oder Signatur — die knappste bisher belegte Form einer Auftragsauslösung.
 Quelle: 05.06.2026, authentisch (→ [[stimme]]).
+
+## Kontroll-/Visierungs-Auftrag an Fachplaner: Frist im Betreff, Grundlagen verlinkt, Handlungskette explizit (belegt Mailbatch 53, authentisch)
+
+Beim Delegieren eines Formular-Auftrags an den Fachplaner packt Raphael die Frist bereits in den
+Betreff («… zur Kontrolle und Visierung, Frist Mo 15.06.26, 12:00») und formuliert im Body die
+vollständige Handlungskette als eine Sequenz: «die beiden vorausgefüllten Formulare zu **kontrollieren**,
+die noch offenen anlagentechnischen Werte … zu **ergänzen** und das Dokument zu **visieren** und mir
+zurück zu schicken». Die nötigen Grundlagen werden aktiv mitgeliefert (Link auf die bestehenden
+EN-Nachweise der Baueingabe) und eine Formular-Regel vorweggenommen («pro betroffene Lüftungsanlage
+ein Formular nötig»), damit keine Rückfrage entsteht. Abschluss warm-fordernd «Besten Dank für die
+rasche Erledigung». Quelle: 12.06.2026, authentisch.
+
+## Beleg-basierte Debitoren-Nachführung: bezahlt von offen trennen, gezielt weiterleiten (belegt Mailbatch 53, authentisch)
+
+Nach einer Mahnung, auf die die Gegenseite mit einem Teil-Zahlungsbeleg reagiert, führt Raphael den
+Debitorenstand selbst nach, statt die Mahnung blind zu wiederholen: er prüft die Zahlungseingänge,
+verbucht die tatsächlich bezahlte Rechnung (RE-00088, 02.06.26) als erledigt, isoliert die noch
+offene Position (RE-00087) und leitet die Zahlungsbitte gezielt an die zuständige Buchhaltungsstelle
+weiter — inkl. beigelegtem Zahlungsplan und Zahlungserinnerung als Beleg. Die aktive Trennung
+bezahlt/offen aus dem eigenen Buchungsstand ist die operative Umsetzung von Rule 260709 (Status aus
+dem Beleg, nie aus der Behauptung). Quelle: 15.06.2026, authentisch (→ [[haltung]]).

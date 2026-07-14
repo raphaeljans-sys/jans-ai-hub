@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 gewichtung: authentisch
-sources: [260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -348,3 +348,17 @@ zurückblättern muss. Unterscheidet sich von der bereits belegten Q&A-Kaskade (
 vorwegnehmende Fragen in einer unverbindlichen Ersteinschätzung): hier sind es **konfrontative**
 Rückfragen an einen Fachplaner, ausgelöst durch einen konkreten Dokumentenwiderspruch. Quelle:
 10.06.2026, authentisch.
+
+## Entscheidungs-Anfrage nach durchgerechneten Szenarien: Optionen beziffern, Entscheid abfordern, Bedingung koppeln (belegt Mailbatch 53, authentisch)
+
+Raphael rechnet eine offene baurechtliche Nebenpflicht (Schutzraum-Ersatzabgabe) zuerst in bezifferte
+Szenarien und mündet dann in eine klare Handlungs-Wahl: «Für das weitere Vorgehen bitte ich um einen
+Entscheid: zusätzliche Schutzplätze baulich erstellen, Ersatzabgabe leisten oder die bestehende
+Kapazität anrechnen lassen.» Dabei ist jede Option vorab mit einer Zahl hinterlegt (0 / CHF 14'000 /
+CHF 21'000 je nach anrechenbarem Bettenbestand), und die günstigste Option wird explizit an ihre
+**Verifikationsbedingung** gekoppelt («Die Anrechnung setzt die Verifikation des aktuellen
+Bettenbestands bei KISPI voraus»). Muster: erst in Varianten rechnen, dann dem Bauherrn eine
+entscheidbare, nicht offene Frage stellen — kein «was sollen wir tun?», sondern drei durchgerechnete
+Wege mit Preisschild und der Bedingung, unter der der beste greift. Bestätigt und verdichtet die
+bereits belegte Wenn-dann-Stufenmodell-Argumentation. Quelle: 13.06.2026, authentisch
+(→ [[fachsignatur]] Schutzraumpflicht, [[arbeitsweise]]).

@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 gewichtung: authentisch
-sources: [260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1056,3 +1056,27 @@ Leistung geliefert hat.» Die Zahlungsaufforderung wird an einen konkreten Beleg
 die verbleibende Unsicherheit (Steuerungsproblem) sauber einem anderen Gewerk zugeordnet, statt sie
 dem bereits erledigenden Unternehmer anzulasten — Verantwortungszuordnung nach Beleg, nicht nach
 Vermutung. Quelle: 11.06.2026, authentisch (→ [[haltung]], [[arbeitsweise]]).
+
+## Schutzraumpflicht/Zivilschutz bei Bettenzunahme: Ersatzabgabe vs. Anrechnung Bestand durchgerechnet (belegt Mailbatch 53, authentisch)
+
+Bei der Umnutzung mit 15 zusätzlichen stationären Schlafplätzen leitet Raphael die
+Schutzraum-Ersatzabgabe fachlich sauber her: pro Patientenbett ein Schutzplatz nachzuweisen
+(**ZSV Art. 17**), 15 neue Plätze → 15 Schutzplätze, entweder baulich erstellen oder mit
+**Ersatzabgabe ~CHF 1'400/Platz** abgelten. Entscheidend ist die **Anrechnung des Bestands**: die
+bestehende Anlage (154 Schutzplätze, seinerzeit auf 154 Betten bemessen, 149 anrechenbare Betten
+geplant) deckt je nach heutigem Belegungsstand einen Teil oder alles ab. Er beziffert die drei
+Szenarien: ≤139 anrechenbare Betten → keine Abgabe; 149 Betten → 10 ungedeckte Plätze = CHF 14'000;
+ohne Anrechnung → CHF 21'000. Merkmal: die baurechtliche Nebenpflicht wird nicht als fixe Zahl,
+sondern als vom Bestand abhängige Bandbreite geführt, mit klarer Verifikationsbedingung
+(aktueller anrechenbarer Bettenbestand ohne Intensiv/Neonatologie/ambulant). Quelle: 13.06.2026,
+authentisch (→ [[denken]] Entscheidungs-Anfrage nach durchgerechneten Szenarien).
+
+## Auflagebereinigung Energienachweise ZH: Formular-Systematik EN-105/EN-110-ZH auf Bestand EN3/EN4/EN5 aufsetzen (belegt Mailbatch 53, authentisch)
+
+Bei der Energie-Auflagebereinigung (Ziff. II.8 des Bauentscheids) benennt Raphael die konkrete
+ZH-Formular-Mechanik: Hauptformular **EN-ZH-005**, lüftungstechnische Anlagen **EN-110-ZH**, Kühlung/
+Befeuchtung; für **EN-105 ist pro betroffener Lüftungsanlage ein eigenes Formular** nötig, und die
+Werte werden nicht neu erfunden, sondern aus den **bestehenden EN4-Nachweisen der ursprünglichen
+Baueingabe (EN3/EN4/EN5)** als Grundlage abgeleitet. Zeigt den Verfahrensrealismus im Umbau: der
+Umbauperimeter erbt die Nachweislogik des Bestands, offene anlagentechnische Werte werden vom
+Fachplaner ergänzt und visiert. Quelle: 12.06.2026, authentisch.
