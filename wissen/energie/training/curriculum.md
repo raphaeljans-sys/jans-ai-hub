@@ -29,6 +29,20 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Anschlusspflicht (ehrliches Negativergebnis, anders als in ZH) → `[[fernwaerme-anschlusspflicht-sz]]`,
   FAQ **F73**. FAQ-Stand: 73 Kernfragen (F1-F73) belegt. Alle vier Destillate + Register (INDEX,
   QUESTIONS, _INGESTED, CHANGELOG) nachgefuehrt.
+- **D48 (Run 67, 2026-07-14)** — PDF-Inventar weiterhin erschoepft. Drei parallele Rechercheagenten
+  haben die Run-66-Prioritaetenliste abgearbeitet: **D48a Denkmalschutz + energetische Sanierung
+  ZH+SZ** (neuer Themenkomplex — PBG-Revision ZH 02.07.2026 staerkt energetische Modernisierung an
+  Baudenkmaelern, Art. 18a RPG laesst Solarenergie in Schutzzonen vor Aesthetik gehen, Stadt-Zuerich-
+  Foerderprogramm ab 1.6.2026, DSG/DSV-Revision SZ 1.10.2024, ISOS bindet nur bei Bundesaufgabe
+  Art. 2 NHG) → `[[denkmalschutz-energiesanierung-zh-sz]]`, FAQ **F74** neu; **D48b AWEL-Gebuehr
+  Erdwaermesonden ZH** (§ 35/§ 69 KGSchV + GebV UR primaerquellen-verifiziert: reine Aufwandgebuehr,
+  Deckel CHF 25'000, keine Pauschale) → `[[erdwaermesonden-bewilligung-zh-sz]]` auf established
+  gehoben, FAQ F71 geschaerft; **D48c SZ-Bagatellkatalog Elektroheizungen** (§ 16a/§ 16b kEnV:
+  typ-/lagebasierter Ausnahmenkatalog Bergbahnstationen/Alphuetten/Bergrestaurants, dezentrale
+  Anlagen ohne Wasserverteilsystem tatbestandlich nicht erfasst) → `[[elektroheizungs-ersatzpflicht-zh-sz]]`
+  ergaenzt, FAQ F70 geschaerft; **D48d R290-Kostenvergleich** (Effizienz tendenziell hoeher via
+  Kaeltemittel-Fibel, CHF-Kosten bestaetigter Negativbefund) → `[[kaeltemittel-r290-waermepumpen-ch]]`
+  ergaenzt, FAQ F72 geschaerft. FAQ-Stand: **74 Kernfragen (F1-F74) belegt.**
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08

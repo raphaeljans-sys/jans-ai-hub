@@ -2,6 +2,33 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 67: Denkmalschutz+Energiesanierung (neu) + drei Nachrecherchen aus Run 66 (AWEL-Gebühr Erdsonden, SZ-Bagatellkatalog Elektroheizung, R290-Kostenvergleich)
+- **Run-Report** `outputs/2026-07-14_energie-run67.md`. PDF-Inventar bleibt erschöpft; dieser Lauf
+  arbeitet gezielt die «Was offen bleibt»-Liste aus dem Run-66-Report ab statt neuer PDF-Themen.
+- **Drei parallele Rechercheagenten** (general-purpose, WebSearch/WebFetch):
+  1. **Denkmalschutz/Ortsbildschutz (ISOS) und energetische Sanierung ZH+SZ** — neuer Themenkomplex.
+     PBG-Revision ZH 02.07.2026 (noch nicht in Kraft), Art. 18a RPG, DSG/DSV-Revision SZ 1.10.2024,
+     Stadt-Zürich-Förderprogramm ab 1.6.2026, ISOS nur bei Bundesaufgabe bindend →
+     `destillate/denkmalschutz-energiesanierung-zh-sz.md` (neu), FAQ **F74** neu, Status emerging.
+  2. **AWEL-Gebühr Erdwärmesonden Kt. ZH** — § 35/§ 69 KGSchV + GebV UR im Volltext gelesen: reine
+     Aufwandgebühr, Deckel CHF 25'000, keine Pauschale → `destillate/erdwaermesonden-bewilligung-zh-sz.md`
+     auf **established** gehoben, FAQ F71 geschärft.
+  3. **SZ-Bagatellkatalog Elektroheizungen (§ 16a/§ 16b kEnV)** + **R290-Kostenvergleich** — SZ-
+     Ausnahmenkatalog typ-/lagebasiert (Bergbahnstationen/Alphütten/Bergrestaurants), dezentrale
+     Anlagen ohne Wasserverteilsystem nicht erfasst → `destillate/elektroheizungs-ersatzpflicht-zh-sz.md`
+     ergänzt, FAQ F70 geschärft. R290: CHF-Kosten bestätigter Negativbefund, Effizienz teilweise über
+     Kältemittel-Fibel belegt → `destillate/kaeltemittel-r290-waermepumpen-ch.md` ergänzt, FAQ F72
+     geschärft.
+- **Wiki nachgeführt:** `wiki/BAUHERREN-FAQ.md` (F74 neu + F70-F72 geschärft, FAQ-Stand jetzt 74
+  Kernfragen), `wiki/heizleistung-und-waermeerzeuger.md` (R290/Erdsonden-Abschnitte ergänzt),
+  `wiki/INDEX.md` (neue Denkmalschutz-Zeile + drei geschärfte Zeilen), `destillate/INDEX.md`
+  (vier Zeilen aktualisiert/neu).
+- **Register:** `raw/_INGESTED.md` (vier neue Einträge), `training/curriculum.md` (Block D48),
+  `wiki/QUESTIONS.md` (E59-E62 neu, Struktur-Notiz M2 aktualisiert — 23. Lauf in Folge
+  entscheidungsreif).
+- **Offen:** SZ-Denkmalpflegebeitrags-Widerspruch (25 % vs. 30/35/40 %), exakter EnerG-ZH-§ für
+  Denkmalschutz-Erleichterung (PDF-Bildkompression), ZH/SZ-Kastenfenster-Merkblatt nicht auslesbar.
+
 ## 2026-07-14 — Run 66: Vier neue Web-Themenkomplexe via parallelisierte Rechercheagenten (Elektroheizung ZH/SZ, Erdsonden ZH/SZ, Kältemittel R290, Fernwärme-Anschlusspflicht SZ)
 - **Run-Report** `outputs/2026-07-14_energie-run66.md`. PDF-Inventar-Erschöpfung vor Laufbeginn
   durch direkten Abgleich der lokal synchronisierten SharePoint-Kopie (`PL - 04 Energie`, 122 PDFs)

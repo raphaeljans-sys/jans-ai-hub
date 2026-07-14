@@ -596,17 +596,48 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Sekundaerquelle sui-generis.ch, die SZ nicht als Kanton mit expliziter Grundlage nennt). Fernwaerme
   in SZ nur eine von zehn freiwilligen Standardloesungen (§ 8d kEnG) beim Waermeerzeugerersatz. Offen:
   nicht alle 30 SZ-Gemeinde-Reglemente einzeln geprueft, keine AfU-Direktbestaetigung eingeholt.
+- [x] **E59** **Denkmalschutz/Ortsbildschutz (ISOS) und energetische Sanierung ZH+SZ** belegt
+  ✓ 2026-07-14 (Run 67) → `[[denkmalschutz-energiesanierung-zh-sz]]`, FAQ **F74** neu. Neuer
+  Themenkomplex (Kandidat aus Run 66). PBG-Revision Kt. ZH vom 02.07.2026 (noch nicht in Kraft)
+  staerkt energetische Modernisierung an Baudenkmaelern; Art. 18a Abs. 4 RPG laesst Solarenergie-
+  Interesse in Schutzzonen (§ 238 PBG) vor Aesthetik gehen; DSG/DSV-Revision Kt. SZ per 1.10.2024
+  staerkt Denkmalpflege-Verbindlichkeit (Nebenbestimmungen statt nur Empfehlungen); Stadt-Zuerich-
+  Foerderprogramm ab 1.6.2026 (Fenster CHF 200/m², Fassade CHF 60/m²); ISOS bindet nur bei
+  «Bundesaufgabe» nach Art. 2 NHG, sonst gewichtiges Abwaegungsinteresse. Offen: exakter EnerG-ZH-§
+  fuer Denkmalschutz-Erleichterung (PDF-Bildkompression), SZ-Denkmalpflegebeitrags-Widerspruch
+  25 % vs. 30/35/40 %, kein ZH/SZ-Kastenfenster-Merkblatt mit auslesbarem Volltext gefunden.
+- [x] **E60** **AWEL-Gebuehr Erdwaermesonden-Bewilligung Kt. ZH** belegt ✓ 2026-07-14 (Run 67) →
+  `[[erdwaermesonden-bewilligung-zh-sz]]` auf established gehoben, FAQ F71 geschaerft. Loest den in
+  Run 66 offen vermerkten Punkt. § 35/§ 69 KGSchV (Bewilligungspflicht + Gebuehrenverweis) + GebV UR
+  (LS 710.2) im Volltext gelesen: keine Pauschale, reine Aufwandgebuehr (Zeit-Mitteltarif abzueglich
+  20 %) mit gesetzlicher Obergrenze CHF 25'000/Einzelfall. GebV WWG und VNU explizit geprueft und
+  als nicht einschlaegig ausgeschlossen. Offen: amtlich publizierte «typische» CHF-Zahl fuer den
+  EFH-Normalfall gibt es nicht (reine Aufwandgebuehr).
+- [x] **E61** **SZ-Bagatellkatalog Elektroheizungen** belegt ✓ 2026-07-14 (Run 67) →
+  `[[elektroheizungs-ersatzpflicht-zh-sz]]` ergaenzt, FAQ F70 geschaerft. Loest den in Run 66 offen
+  vermerkten Punkt. § 16b kEnV: typ-/lagebasierter Ausnahmenkatalog (Bergbahnstationen/Alphuetten/
+  Bergrestaurants/Schutzbauten/provisorische Bauten/einzelne Arbeitsplaetze) statt kW-/m²-basiert wie
+  ZH § 45c BBV I; § 16a kEnV Notheizungen strukturell ausgenommen; dezentrale Elektroheizungen ohne
+  Wasserverteilsystem sind vom Wortlaut § 22a kEnG tatbestandlich nicht erfasst, bestaetigt ueber
+  zweite unabhaengige Quelle (Vollzugshilfe Foerderprogramm Energie 2026 SZ, Massnahme IP-19).
+- [x] **E62** **R290-Kaeltemittel Kosten-/Effizienzvergleich** belegt ✓ 2026-07-14 (Run 67) →
+  `[[kaeltemittel-r290-waermepumpen-ch]]` ergaenzt, FAQ F72 geschaerft. Loest den in Run 66 offen
+  vermerkten Punkt teilweise. Effizienz: EnergieSchweiz/BAFU-Kaeltemittel-Fibel zeigt tendenziell
+  hoehere Effizienz R290 vs. R32/R410A (EER-Vergleich Klimakaelte), keine primaer verifizierten
+  SCOP-/JAZ-Zahlen fuer den Heizbetrieb. CHF-Kosten: bestaetigter Negativbefund trotz gezielter
+  Nachrecherche — keine amtliche oder verbandsnahe CH-Quelle beziffert Mehrkosten, nur
+  widerspruechliche Marketing-/Forumsquellen (bewusst nicht uebernommen).
 
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 66): vier neue Themenkomplexe erschlossen (E55-E58, FAQ F70-F73:
-  Elektroheizungs-Ersatzpflicht ZH/SZ, Erdwaermesonden-Bewilligung ZH/SZ, Kaeltemittel R290,
-  Fernwaerme-Anschlusspflicht SZ), alle via parallelisierten Web-Rechercheagenten mit amtlichen
-  Primaerquellen (Gesetzes-PDFs direkt gelesen). PDF-Inventar bestaetigt erschoepft (SharePoint-
-  Kontrolle: keine neuen PL-04-Dateien seit 11.06.2026). FAQ-Stand: 73 Kernfragen (F1-F73) belegt.
-  Meta-Punkt M2 ist SEIT RUN 45 (also ZWEIUNDZWANZIG Laeufen in Folge) spruchreif fuer eine
-  Entscheidung und wird hier zum zweiundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst
-  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session. Naechster
-  faelliger Themenkomplex: ein weiteres neues Thema (Kandidaten aus Run 66: SZ-Bagatell-Ausnahmen
-  Elektroheizung, AWEL-Gebuehren Erdsonden, R290-Kostenvergleich) — eine interaktive Session koennte
-  priorisieren.**
+  **Stand 2026-07-14 (Run 67): drei Run-66-Prioritaetenpunkte abgearbeitet (E59-E62, FAQ F74 neu +
+  F70-F72 geschaerft: Denkmalschutz+Energiesanierung ZH/SZ neu, AWEL-Erdsonden-Gebuehr auf established
+  gehoben, SZ-Bagatellkatalog Elektroheizung belegt, R290-Kostenvergleich teilweise geschlossen), via
+  parallelisierten Web-Rechercheagenten mit amtlichen Primaerquellen (Gesetzes-PDFs direkt gelesen).
+  PDF-Inventar bleibt erschoepft. FAQ-Stand: 74 Kernfragen (F1-F74) belegt. Meta-Punkt M2 ist SEIT
+  RUN 45 (also DREIUNDZWANZIG Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum
+  dreiundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite
+  Antwort von Raphael in einer interaktiven Session. Naechster faelliger Themenkomplex: ein weiteres
+  neues Thema (Kandidaten: SZ-Denkmalpflegebeitrags-Widerspruch klaeren, Kastenfenster-Merkblatt ZH/SZ
+  per OCR erschliessen, oder ein anderes noch nicht belegtes Bauherren-Thema) — eine interaktive
+  Session koennte priorisieren.**

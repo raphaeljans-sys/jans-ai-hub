@@ -2446,12 +2446,16 @@ dürfte dort gar nicht erfasst sein.
 **Fachlich:** In ZH gilt ein enger, kodifizierter Ausnahmenkatalog (§ 45c BBV I): Notheizung zu
 Wärmepumpe/Holzheizung, Bagatellgrenze **3 kW bzw. < 50 m²** beheizte Fläche, eigene PV-Anlage mit
 **≥ 10 % Überdeckung**, Kirchen, abgelegene/unzugängliche Lagen. Bussandrohung bis CHF 20'000 bei
-Vorsatz. In SZ existiert kein vergleichbarer Bagatell-Katalog in den geprüften Erlassen — dort
-entscheidet primär, ob überhaupt ein Wasserverteilsystem vorliegt.
+Vorsatz. In SZ gilt zusätzlich ein eigener, aber **typ-/lagebasierter** Ausnahmenkatalog (§ 16b kEnV):
+Bergbahnstationen, Alphütten, Bergrestaurants, Schutzbauten, provisorische Bauten, einzelne
+Arbeitsplätze in ungenügend beheizten Räumen — für ein gewöhnliches, erschlossenes Wohnobjekt greift
+er nicht. Eine **dezentrale** Elektroheizung ohne Wasserverteilsystem ist in SZ vom Wortlaut des § 22a
+kEnG ohnehin nicht erfasst (bestätigt über den Gesetzestext UND die Förder-Vollzugshilfe 2026).
 
 **Quelle:** § 10b EnerG + § 45c BBV I Kt. ZH (Primärtext, Nachtrag 122/124), BGer 1C_37/2022 = BGE 149
-I 49; § 8a/§ 8b/§ 22a kEnG + § 24i EnV1 Kt. SZ (Primärtext) → `[[elektroheizungs-ersatzpflicht-zh-sz]]`.
-Status **established** (Primärtexte direkt gelesen, ZH bundesgerichtlich bestätigt).
+I 49; § 8a/§ 8b/§ 16a/§ 16b/§ 22a kEnG + § 24i EnV1 Kt. SZ (Primärtext) →
+`[[elektroheizungs-ersatzpflicht-zh-sz]]`. Status **established** (Primärtexte direkt gelesen, ZH
+bundesgerichtlich bestätigt, SZ-Ausnahmenkatalog Run 67 ergänzt).
 
 ---
 
@@ -2469,12 +2473,16 @@ Bundestool «Kann ich bohren?», um Schutzzonen/-bereiche frühzeitig auszuschli
 Grenzabstand < 2,5 m ist zwingend die Nachbarzustimmung beizulegen, sonst greift das aufwendigere
 ordentliche Verfahren. Für die Terminplanung realistisch mehrere Wochen einrechnen (AWEL nennt ca. 4
 Wochen als Näherung, keine feste gesetzliche Frist; Stadt Zürich kennt beim vereinfachten
-Meldeverfahren eine 30-Tage-Frist).
+Meldeverfahren eine 30-Tage-Frist). **Was kostet die Bewilligung?** ZH kennt keine Pauschale — es ist
+eine reine **Aufwandgebühr** (Personalkosten pro Stunde zum Zeit-Mitteltarif abzüglich 20 %, § 5 GebV
+UR) mit gesetzlicher **Obergrenze CHF 25'000** pro Einzelfall (§ 10 GebV UR); ein normales
+EFH-Standardgesuch dürfte deutlich darunter liegen, eine amtliche «typische» Zahl gibt es nicht.
 
 **Quelle:** zh.ch «Erdwärmesonden»/«Bauen in Grundwasserschutzzonen»/«Bauen in Grundwasservorkommen»
-(AWEL), GSchG Art. 19–22 + GSchV Art. 32, sz.ch «Wärmenutzung» → `[[erdwaermesonden-bewilligung-zh-sz]]`.
-Status **emerging** (Kernstruktur amtlich belegt; Gebühren und GSchG/GSchV-Wortlaut nicht direkt am
-Primärtext verifiziert).
+(AWEL), GSchG Art. 19–22 + GSchV Art. 32, § 35/§ 69 KGSchV + GebV UR (Primärtext, Run 67), sz.ch
+«Wärmenutzung» → `[[erdwaermesonden-bewilligung-zh-sz]]`. Status **established** (Kernstruktur + ZH-
+Gebührenrechtsgrundlage primärquellen-verifiziert; SZ-Kosten und exakter GSchG/GSchV-Wortlaut weiterhin
+offen).
 
 ---
 
@@ -2492,14 +2500,19 @@ belüftetes Gehäuse); ab **1,5 kg** greift zusätzlich die EKAS-Richtlinie 6517
 Fachpersonal). Bei Aussenaufstellung ist ein definierter Gefahrenbereich frei von Fenstern, Türen,
 Lichtschächten und Zündquellen zu halten. Für den Bauherrn heisst das: Aussenaufstellung ist
 regulatorisch der einfachere Weg, bei Innen-/Kelleraufstellung frühzeitig mit dem Heizungsplaner die
-bauliche Konsequenz klären. Belastbare CHF-Mehrkosten- oder JAZ-Vergleichszahlen R290↔R32/R410A
-liegen nicht vor (nur Marketing-Quellen).
+bauliche Konsequenz klären (Alternative: **Hydrosplit-Konzept**, bei dem der Propan-Kreislauf
+vollständig aussen bleibt und nur ein kältemittelfreier Wasser-Glykol-Kreislauf ins Gebäude führt).
+Zur **Effizienz**: eine BAFU/EnergieSchweiz-Kältemittel-Fibel (primär für Klimakälte) zeigt tendenziell
+höhere Effizienz für R290 gegenüber R32/R410A (EER-Vergleich), aber keine speziell für den Heizbetrieb
+verifizierten SCOP-/JAZ-Zahlen. Belastbare CHF-Mehrkosten liegen weiterhin nicht vor (nur
+widersprüchliche Marketing-Quellen, trotz gezielter Nachrecherche Run 67).
 
 **Quelle:** BAFU «Stand der Technik stationäre Anlagen mit in der Luft stabilen Kältemitteln» (Stand
 1.1.2026), ChemRRV Anh. 2.10 (Revision 29.10.2025), suissetec HEIZ241 (Jan. 2026), SVK-Merkblatt A3/
-A2L (Juli 2025) → `[[kaeltemittel-r290-waermepumpen-ch]]`. Ergänzt `[[heizleistung-und-waermeerzeuger]]`.
-Status **emerging** (BAFU-Primärquellen + Fachverbandsmerkblätter geprüft; Kosten-/Effizienzvergleich
-nicht belegt).
+A2L (Juli 2025), EnergieSchweiz/BAFU Kältemittel-Fibel (Run 67) →
+`[[kaeltemittel-r290-waermepumpen-ch]]`. Ergänzt `[[heizleistung-und-waermeerzeuger]]`. Status
+**emerging** (BAFU-Primärquellen + Fachverbandsmerkblätter geprüft; Effizienz teilweise belegt,
+CHF-Kosten bestätigter Negativbefund).
 
 ---
 
@@ -2525,6 +2538,34 @@ keine AfU-Direktbestätigung, nicht alle Gemeinden geprüft).
 
 ---
 
+## F74 — «Mein Gebäude ist denkmalgeschützt/im Ortsbildschutz — darf ich es überhaupt energetisch sanieren?»
+
+**Kurz-Antwort:** Ja, grundsätzlich schon — beide Kantone kennen Erleichterungsmechanismen für
+geschützte Bauten, und in Zürich ist eine weitere Erleichterung bereits politisch aufgegleist (PBG-
+Revision vom 02.07.2026, noch nicht in Kraft). Entscheidend ist der frühzeitige, gemeinsam mit der
+Denkmalpflege erarbeitete Ansatz statt der Standardlösung «Aussendämmung + Fensterersatz».
+
+**Fachlich:** Bewährte Lösungswege: **Innendämmung statt Aussendämmung** (Risiko Kondensat an
+Balkenköpfen, deshalb hygrothermische Simulation vor Ausführung; Faustregel selten mehr als 10 cm,
+bei Fachwerk 4–6 cm), **Kastenfenster-Sanierung statt Ersatz** (Grundsatz «Erhalt vor Ersatz»; U-Wert
+von ~2,3 auf bis ~0,9 W/m²K verbesserbar), **PV auf nicht einsehbaren Dachflächen** oder unauffällige
+Indach-/Solarziegel-Lösungen. Bei einer **echten Unterschutzstellung** ist PV auf der Hauptdachfläche
+meist unzulässig; in einer blossen **Schutzzone** (§ 238 PBG ZH) gehen die Interessen an der
+Solarenergie nach **Art. 18a Abs. 4 RPG** den ästhetischen Anliegen grundsätzlich vor. **ISOS** selbst
+bindet nur, wenn eine «Bundesaufgabe» nach Art. 2 NHG vorliegt — sonst ist es ein gewichtiges, aber
+abwägungspflichtiges Interesse. Förderung: In der **Stadt Zürich** gibt es ab 1.6.2026 ein eigenes
+Programm für denkmalgeschützte Gebäude (Fenster CHF 200/m² + CHF 50/m² Ertüchtigungs-Bonus, Fassade
+CHF 60/m²); in **SZ** ist ab CHF 10'000 Förderbeitrag ein GEAK Plus Pflicht, für geschützte Bauten
+sind U-Wert-Erleichterungen möglich.
+
+**Quelle:** PBG-Revision Kt. ZH (Medienmitteilung 02.07.2026), DSG/DSV Kt. SZ (RRB Nr. 70/2024), BAK
+Weisungen ISOS (WISOS), Art. 18a RPG, Stadt Zürich Förderprogramm Denkmalschutz-Sanierung (06/2026)
+→ `[[denkmalschutz-energiesanierung-zh-sz]]`. Status **emerging** (Grundstruktur amtlich belegt über
+Medienmitteilungen/Übersichtsseiten; mehrere Gesetzestexte wegen PDF-Bildkompression nicht wörtlich
+verifiziert).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -2547,6 +2588,18 @@ keine AfU-Direktbestätigung, nicht alle Gemeinden geprüft).
 > A3-Brandschutzgrenzen 0,15 kg/1,5 kg EKAS) → `[[kaeltemittel-r290-waermepumpen-ch]]`; **F73
 > ‹Anschlusspflicht Wärmeverbund in Schwyz?›** (keine gesetzliche Grundlage gefunden, anders als
 > § 295 PBG ZH — rein privatrechtlicher, freiwilliger Anschluss) → `[[fernwaerme-anschlusspflicht-sz]]`.
+
+> **FAQ-Stand 2026-07-14 (Run 67):** **F74 neu, F70-F72 geschärft.** PDF-Inventar bleibt vollständig
+> abgearbeitet — drei parallele Web-Rechercheagenten haben Run-66-Prioritätspunkte abgearbeitet: **F74
+> ‹Denkmalschutz + energetische Sanierung ZH/SZ›** (neues Thema: Innendämmung/Kastenfenster-Sanierung/
+> PV auf nicht einsehbaren Flächen, PBG-Revision ZH 02.07.2026, Stadt-Zürich-Förderprogramm ab 1.6.2026,
+> ISOS nur bei Bundesaufgabe bindend) → `[[denkmalschutz-energiesanierung-zh-sz]]`; **F71 geschärft**
+> (AWEL-Erdsonden-Gebühr: reine Aufwandgebühr, Deckel CHF 25'000, § 35/§ 69 KGSchV + GebV UR
+> primärquellen-verifiziert); **F70 geschärft** (SZ-Ausnahmenkatalog § 16a/§ 16b kEnV: typ-/lagebasiert,
+> Bergbahnstationen/Alphütten/Bergrestaurants; dezentrale Elektroheizung ohne Wasserverteilsystem
+> tatbeständlich nicht erfasst); **F72 geschärft** (R290-Effizienz teilweise über Kältemittel-Fibel
+> belegt, CHF-Kostenvergleich bestätigter Negativbefund trotz Nachrecherche). FAQ-Stand: **74
+> Kernfragen (F1-F74) belegt.**
 > FAQ-Stand: **73 Kernfragen (F1-F73) belegt.**
 >
 > **FAQ-Stand 2026-07-14 (Run 65):** **F69 neu** — «Mein Fensterbauer nennt noch keinen U-Wert —

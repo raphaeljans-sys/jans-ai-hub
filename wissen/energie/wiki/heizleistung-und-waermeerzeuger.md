@@ -98,13 +98,21 @@ laufende Anlagen duerfen unveraendert weiterbetrieben/nachgefuellt werden. Propa
 (brennbar) klassiert: ab **0,15 kg** Fuellmenge pro Kreislauf braucht eine Innenaufstellung
 zusaetzliche Massnahmen (Belueftung/Gaswarnanlage/belueftetes Gehaeuse), ab **1,5 kg** greift die
 EKAS-Richtlinie 6517. Aussenaufstellung ist regulatorisch der einfachere Weg (Gefahrenbereich frei
-von Oeffnungen/Zuendquellen halten). Details → `[[kaeltemittel-r290-waermepumpen-ch]]`, FAQ **F72**.
+von Oeffnungen/Zuendquellen halten); Alternative **Hydrosplit** (Kaeltekreis bleibt aussen, nur
+Wasser-Glykol-Kreislauf ins Gebaeude). **Effizienz (Run 67):** BAFU/EnergieSchweiz-Kaeltemittel-Fibel
+zeigt fuer Klimakaelte tendenziell **hoehere Effizienz von R290 gegenueber R32/R410A** (EER-Vergleich),
+belastbare Heizbetrieb-SCOP/JAZ-Zahlen fehlen aber weiterhin. **CHF-Mehrkosten** R290 vs. R32/R410A
+bleiben trotz gezielter Nachrecherche unbelegt (nur widerspruechliche Marketing-Quellen). Details →
+`[[kaeltemittel-r290-waermepumpen-ch]]`, FAQ **F72**.
 
 ## Erdwaermesonden — Bewilligung Kt. ZH/SZ (F71)
 Jede Erdsonden-WP braucht eine **gewaesserschutzrechtliche Bewilligung**: in ZH via Gemeinde/AWEL
 (Bohrtiefe max. 500 m, Grenzabstand 2,5 m, in Grundwasserschutzzonen S1/S2 faktisch ausgeschlossen,
 im Gewaesserschutzbereich Au bewilligungspflichtig), in SZ ueber eine kostenlose Vorabklaerung beim
-Amt fuer Umwelt und Energie + eBau-Baugesuch. Details → `[[erdwaermesonden-bewilligung-zh-sz]]`,
+Amt fuer Umwelt und Energie + eBau-Baugesuch. **Gebuehr ZH (Run 67 primaerquellen-verifiziert):**
+keine Pauschale, reine **Aufwandgebuehr** (§ 35/§ 69 KGSchV + GebV UR: Zeit-Mitteltarif abzueglich
+20 %) mit gesetzlicher **Obergrenze CHF 25'000** pro Einzelfall — fuer ein EFH-Standardgesuch duerfte
+der effektive Betrag deutlich darunter liegen. Details → `[[erdwaermesonden-bewilligung-zh-sz]]`,
 FAQ **F71**.
 
 ## Bezug

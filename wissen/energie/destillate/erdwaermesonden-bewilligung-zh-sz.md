@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (AWEL) / Bund (GSchG/GSchV) / Kanton Schwyz (Amt fü
 ausgabe: Web-Recherche, amtliche Kantons-/Stadt-Webseiten
 gelesen: 2026-07-14 (Run 66)
 datenstand: 2026-07-14 (Web-Recherche, keine explizit datierten Formulare ausser Gesuchsformular AWEL 400-003 Stand 06.2024)
-status: emerging (Kernstruktur amtlich belegt AWEL/sz.ch; Gebühren, exakte Verfahrensfrist als verbindliche Norm und GSchG/GSchV-Wortlaut nicht direkt am Primärtext verifiziert)
-last_updated: 2026-07-14
+status: established (Kernstruktur + ZH-Gebührenrechtsgrundlage jetzt primärquellen-verifiziert über § 35/§ 69 KGSchV + GebV UR im Volltext gelesen, Run 67); SZ-Kostenpunkt sowie exakte Verfahrensfrist als verbindliche Norm und GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert
+last_updated: 2026-07-14 (Run 67)
 ---
 
 # Erdwärmesonden — Bewilligungsverfahren Kt. Zürich und Kt. Schwyz
@@ -44,10 +44,23 @@ und Energie plus Baugesuch via eBau.
   kennt zusätzlich ein vereinfachtes Meldeverfahren mit **30 Tagen** Behandlungsfrist (Voraussetzung:
   Grenzabstand ≥ 2,5 m, keine Bau-/Abstandslinie, keine Schutzanordnung, keine weiteren
   Umbauarbeiten) — eine Gemeinde-Praxis, keine kantonsweite Frist.
-- **Kosten:** auf den erreichbaren amtlichen AWEL-/zh.ch-Seiten **keine CHF-Gebührenangabe**
-  auffindbar (eine in einer Sekundärquelle kursierende Zahl CHF 2,85/Bohrlaufmeter stammt mutmasslich
-  aus einem anderen Kanton — dort ist die zweisprachige Behördenbezeichnung «AWA/OED» üblich, nicht
-  «AWEL» — und wird hier bewusst nicht für ZH übernommen).
+- **Kosten (Run 67, Rechtsgrundlage jetzt verifiziert):** Bewilligungspflicht in **§ 35 KGSchV**
+  (Verordnung über den Gewässerschutz, LS 711.11), Gebühr dazu in **§ 69 KGSchV** über Verweis auf
+  die **Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2)**. Es gibt **keinen
+  Fixbetrag/keine Pauschale** — reine **Aufwandgebühr**: Personalkosten pro Stunde zum
+  Zeit-Mitteltarif nach der BD-Weisung für Architekten-/Ingenieurhonorare **abzüglich 20 %** (§ 5
+  GebV UR), plus Zuschlag bei Einsatz besonderer Messgeräte (1,2 ‰ des eingesetzten Kapitals/
+  Einsatztag, § 6), plus Schreibgebühren (§ 7). Bei offensichtlichem Missverhältnis zur Bedeutung für
+  den Gebührenschuldner oder überwiegendem öffentlichem Interesse ist Ermässigung/Erlass möglich
+  (§ 9). **Gesetzliche Obergrenze: CHF 25'000 pro Einzelfall** (§ 10 GebV UR) — ein Deckel, keine
+  Regel-Zahl; für ein EFH-Standardgesuch ohne Verbotszonen-Konflikt dürfte der effektive Betrag
+  deutlich darunter liegen, eine amtlich publizierte «typische» CHF-Zahl für den Normalfall existiert
+  nicht. **Geprüft und explizit nicht einschlägig:** Gebührenverordnung zum Wasserwirtschaftsgesetz
+  (GebV WWG, LS 724.21, betrifft Wasserrechtskonzessionen, nicht die gewässerschutzrechtliche
+  Erdsonden-Bewilligung) sowie die Verordnung über die Nutzung des Untergrunds (VNU, seit 1.7.2023,
+  klammert die reguläre Erdwärmenutzung bis 1'000 m ausdrücklich aus). Zusätzlich fällt eine
+  **gemeindeabhängige Gebühr** für das koordinierte Baugesuchsverfahren an (nicht kantonal
+  einheitlich).
 
 ## Kanton Schwyz
 
@@ -76,7 +89,9 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
 
 ## Offene Punkte
 
-- Exakte AWEL-Gebühr (CHF) Kt. Zürich nicht amtlich auffindbar.
+- Exakte «typische» AWEL-Gebühr (CHF) für den EFH-Normalfall nicht amtlich publiziert (reine
+  Aufwandgebühr ohne Pauschale) — Rechtsgrundlage und Deckel (CHF 25'000) sind seit Run 67 jedoch
+  primärquellen-verifiziert (§ 35/§ 69 KGSchV + GebV UR).
 - Detaillierter Inhalt des AWEL-PDF «Tiefenbeschränkung von Erdwärmesonden» technisch nicht
   extrahierbar (nur Bild-/komprimierte Datenströme) — die 500-m-Angabe stammt aus dem Haupttext der
   Übersichtsseite, nicht aus diesem Detaildokument.
@@ -89,6 +104,9 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
 
 ## Quellen
 
+- § 35 + § 69 KGSchV (Verordnung über den Gewässerschutz, LS 711.11) — PDF-Volltext gelesen (Run 67).
+- Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2, Stand 1.1.12/Nachtrag 75) —
+  PDF-Volltext gelesen (Run 67).
 - zh.ch «Erdwärmesonden», «Oberflächennahe Erdwärme», «Bauen in Grundwasserschutzzonen», «Bauen in
   Grundwasservorkommen», «Grundwasserschutz» — Web-Quellen, abgerufen im Rahmen dieser Recherche.
 - Gesuchsformular Erdwärmesonden (AWEL 400-003, Stand 06.2024, PDF) — zh.ch.

@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (Baudirektion, Gesetzessammlung notes.zh.ch) / Bunde
 ausgabe: Web-Recherche, Primärquellen als PDF direkt heruntergeladen und per pdftotext im Volltext ausgewertet (ZH: Nachtrag 122/Stand 1.10.2023 EnerG, Nachtrag 124/Stand 1.4.2024 BBV I; SZ: konsolidierte Fassung Stand 1.2.2025)
 gelesen: 2026-07-14 (Run 66)
 datenstand: 2026-07-14 (Web-Recherche; ZH-Regel gilt seit 1.9.2022, SZ-Regel seit Änderung vom 24.6.2021)
-status: established (Kernartikel direkt aus amtlichem PDF-Primärtext verifiziert, ZH zusätzlich bundesgerichtlich bestätigt); Randpunkte (exaktes Inkraftsetzungsdatum, SZ-Bagatellgrenzen, SZ-Busse) emerging
-last_updated: 2026-07-14
+status: established (Kernartikel direkt aus amtlichem PDF-Primärtext verifiziert, ZH zusätzlich bundesgerichtlich bestätigt; SZ-Ausnahmenkatalog seit Run 67 primärquellen-verifiziert über § 16a/§ 16b kEnV); Randpunkte (exaktes ZH-Inkraftsetzungsdatum, SZ-Busse) emerging
+last_updated: 2026-07-14 (Run 67)
 ---
 
 # Elektro-Widerstandsheizungen/-Boiler — Ersatzpflicht Kt. Zürich und Kt. Schwyz
@@ -51,14 +51,31 @@ zentrale Anlagen mit Wasserverteilsystem).
   Wohnnutzungen, die ausschliesslich direkt elektrisch beheizt werden, sind bis 2050 … zu ersetzen
   oder zu ergänzen» (§ 22a Übergangsbestimmungen zur Änderung vom 24.6.2021, kEnG).
 - **Geltungsbereich enger als ZH:** Die Pflicht beschränkt sich ausdrücklich auf Anlagen «mit
-  Wasser-/Warmwasserverteilsystem» — also zentrale, hydraulisch verteilte Systeme. Ein eigener,
-  kodifizierter Bagatell-Ausnahmenkatalog (analog ZH § 45c BBV I mit kW-/m²-Schwellen für dezentrale
-  Anlagen) konnte in kEnG und EnV1 nicht gefunden werden; dezentrale Elektroheizungen ohne
-  Wasserverteilsystem scheinen von dieser Sanierungspflicht nicht erfasst zu sein (nicht abschliessend
-  verifiziert).
+  Wasser-/Warmwasserverteilsystem» — also zentrale, hydraulisch verteilte Systeme. Dezentrale
+  Elektroheizungen **ohne** Wasserverteilsystem sind vom Wortlaut des § 22a kEnG tatbeständlich nicht
+  erfasst.
+- **Ausnahmenkatalog SZ jetzt belegt (Run 67) — § 16b kEnV:** Auf begründetes Gesuch hin kann die
+  Installation neuer oder der Ersatz bestehender ortsfester elektrischer Widerstandsheizungen
+  ausnahmsweise bewilligt werden, wenn (a) die Baute abgelegen und schlecht zugänglich ist **und**
+  (b) ein anderes Heizsystem technisch nicht möglich, wirtschaftlich nicht zumutbar oder
+  unverhältnismässig wäre. Ausnahmen können insbesondere gewährt werden für: Bergbahnstationen,
+  Alphütten, Bergrestaurants, Schutzbauten, provisorische Bauten, einzelne Arbeitsplätze in
+  ungenügend/nicht beheizten Räumen (abschliessende Beispielliste § 16b Abs. 2 kEnV). Der SZ-Katalog
+  ist damit **typ-/lagebasiert** (nicht kW-/m²-basiert wie ZH § 45c BBV I).
+- **Notheizungen strukturell ausgenommen (§ 16a kEnV):** zulässig bei Wärmepumpen (v.a. für
+  Aussentemperaturen unter Auslegungstemperatur) und bei handbeschickten Holzheizungen bis 50 % des
+  Leistungsbedarfs.
 - **Ausnahmen (§ 24i EnV1):** keine Frist für elektrische Widerstandsheizungen als Zusatzheizung zu
   Wärmepumpen oder als Notheizung; beim Ersatz wesentlicher Teile ist die Anlage an die gesetzlichen
   Anforderungen anzupassen.
+- **Bagatellregel Warmwasser (§ 8b Abs. 2 kEnG):** für den Ersatz **dezentraler** Elektro-
+  Wassererwärmer gelten die Anforderungen von § 8b Abs. 1 nicht — im Gegensatz zu zentralen
+  Elektro-Wassererwärmern, die meldepflichtig bleiben.
+- **Förderseitige Bestätigung (Vollzugshilfe Förderprogramm Energie 2026 SZ, Massnahme IP-19):** eine
+  dezentrale elektrische Widerstandsheizung **ohne** hydraulisches Wärmeverteilsystem ist eine eigene
+  Förderkategorie (Bonus CHF 15'000 pauschal bis 250 m² EBF, darüber CHF 60/m²) und explizit **nicht**
+  von der 2050er-Sanierungspflicht nach § 22a kEnG erfasst — bestätigt die obige Auslegung aus einer
+  zweiten, unabhängigen amtlichen Quelle.
 - **Elektro-Wassererwärmer allgemein (§ 8b kEnG):** direkt-elektrische Erwärmer in Wohnbauten nur
   zulässig, wenn das Warmwasser während der Heizperiode mit dem Wärmeerzeuger vorerwärmt wird, oder zu
   mind. 50 % mit erneuerbarer Energie/Abwärme erwärmt wird; dezentrale Elektro-Wassererwärmer sind
@@ -71,7 +88,7 @@ zentrale Anlagen mit Wasserverteilsystem).
 |---|---|---|
 | Frist Ersatz Bestand | 2030 | 2050 |
 | Geltungsbereich | alle ortsfesten Widerstandsheizungen + zentrale Elektro-Wassererwärmer | nur Anlagen **mit** Wasser-/Warmwasserverteilsystem |
-| Bagatell-Ausnahmen | kodifiziert, kW-/m²-Schwellen (§ 45c BBV I) | kein eigener Katalog gefunden — Lücke |
+| Bagatell-/Ausnahmenkatalog | kodifiziert, kW-/m²-Schwellen (§ 45c BBV I) | kodifiziert, typ-/lagebasiert (§ 16b kEnV: Bergbahnstationen/Alphütten/Bergrestaurants/Schutzbauten/provisorische Bauten/einzelne Arbeitsplätze) |
 | Busse | bis CHF 20'000 (Vorsatz) | nicht identifiziert |
 | Rechtsgrundlage | § 10b EnerG + § 45c BBV I | § 8a/§ 8b/§ 22a kEnG + § 24i EnV1 |
 
@@ -84,16 +101,17 @@ Vor einem Neubau-/Umbauentscheid lohnt sich die frühzeitige Prüfung, ob eine d
 (Notheizung, Bagatellgrenze 3 kW/50 m², eigene PV-Überdeckung ≥ 10 %, Kirche, abgelegene Lage)
 tatsächlich zutrifft — diese werden in der Praxis eng ausgelegt. Im Kanton Schwyz besteht mehr Zeit
 (2050) und die Pflicht betrifft nur zentrale, wassergeführte Systeme; eine dezentrale Elektroheizung
-ohne Wasserverteilsystem dürfte dort nach heutigem Kenntnisstand nicht erfasst sein — ein relevanter
-Unterschied bei einer Ankaufsprüfung oder Machbarkeitsstudie in SZ gegenüber einem ZH-Objekt.
+ohne Wasserverteilsystem ist seit Run 67 primärquellen-belegt **nicht** von § 22a kEnG erfasst
+(bestätigt über den Gesetzeswortlaut UND die Förder-Vollzugshilfe 2026) — ein relevanter Unterschied
+bei einer Ankaufsprüfung oder Machbarkeitsstudie in SZ gegenüber einem ZH-Objekt. Der SZ-
+Ausnahmenkatalog für ortsfeste Widerstandsheizungen selbst (§ 16b kEnV) ist eng gefasst auf
+abgelegene/schlecht erschlossene Nutzungstypen (Alphütten, Bergrestaurants u.ä.) — für ein normales
+Wohnobjekt in erschlossener Lage greift er nicht.
 
 ## Offene Punkte
 
 - Exaktes Inkraftsetzungsdatum § 10b EnerG ZH (1.9.2022) nur über Sekundärquellen bestätigt, nicht
   direkt im PDF-Primärtext als Inkraftsetzungssatz gefunden.
-- SZ: eigener Bagatell-Ausnahmenkatalog für dezentrale Anlagen (analog ZH § 45c BBV I) nicht
-  gefunden — evtl. in einer separaten Vollzugs-Wegleitung des Amts für Umwelt und Energie SZ, nicht
-  abgerufen.
 - SZ: Bussenbestimmung zu § 8a/§ 22a nicht identifiziert.
 - Aktuellster ZH-EnerG-Stand (Nachtrag > 122) nicht separat als PDF geprüft; da § 10b/§ 18 seit 2022
   bundesgerichtlich bestätigt und stabil gelten, ist eine inhaltliche Änderung unwahrscheinlich, aber
@@ -108,7 +126,8 @@ Unterschied bei einer Ankaufsprüfung oder Machbarkeitsstudie in SZ gegenüber e
 - BGer 1C_37/2022 vom 23.3.2023 (BGE 149 I 49) — via swissblawg.ch und NZZ referenziert.
 - Kantonales Energiegesetz (kEnG) Kt. SZ, SRSZ 420.100, § 8a/§ 8b/§ 22a — sz.ch, Primärdokument per
   curl/pdftotext gelesen.
-- Energieverordnung 1 (EnV1) Kt. SZ, SRSZ 420.111, § 24i — sz.ch, Primärdokument per curl/pdftotext
-  gelesen.
+- Energieverordnung 1 (EnV1) Kt. SZ, SRSZ 420.111, § 16a/§ 16b/§ 24i — sz.ch, Primärdokument per
+  curl/pdftotext gelesen (§ 16a/§ 16b neu Run 67).
+- Vollzugshilfe Förderprogramm Energie 2026 Kt. SZ, Massnahme IP-19 — sz.ch, PDF gelesen (Run 67).
 - zh.ch «Sanierungspflicht Elektroheizungen und zentrale Elektro-Wassererwärmer bis 2030».
 - Web-Quellen, abgerufen im Rahmen dieser Recherche (2026-07-14).
