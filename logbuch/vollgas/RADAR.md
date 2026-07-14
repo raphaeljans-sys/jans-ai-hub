@@ -21,6 +21,32 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 19:48 — [GEDROSSELT] Schoner-Lauf: Lage stabil, Runner gestoppt, Login intakt, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt (Grund bestaetigt: «Tempo drosseln, Wochenlimit 81%»), kein `vollgas-runner`-Prozess
+(`pgrep` leer). Als Schoner starte ich den Runner ausdruecklich NICHT neu und loesche STOP NICHT.
+Wochenlimit wird geschont (Reset Mo 11:59, jetzt noch ~4 Tage). Login-Test mit `set -a` + Background-
+Kill-Fallback (kein `timeout` auf macOS) liefert sauber «OK» — kein Login-Block.
+
+**Durchsatz:** 6 Commits/90 Min, 28/6 Std. Echte KB-Substanz ueber 6 Std: Energie-Training Run 69
+(SIA 2024 Gesundheitsbau, Netzverstaerkung PV/E-Mobilitaet, Fernwaerme-Kosten, Netto-Null) und
+normen Mini-Run 28 (Q&A-Selbstbefragung Skript Treppen HCU, 2 Fehler korrigiert + 1 Ergaenzung,
+inkl. Wiederherstellung nach parallelem Ueberschreib-Commit). Rest = nas-selfcommit-Heartbeats +
+Radar-Eintraege — die erwartete ruhige Gedrossel-Kadenz ohne Dauer-Runner.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Im Schoner-Modus reicht 3–4x
+  taeglich statt stuendlich; der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir
+  gerade schonen. Vorschlag an Raphael fuers naechste Briefing (Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert) — normen Mini-Run 28 Ueberschreib-Kollision:** Zwei parallele Commits haben
+  sich einmal ueberschrieben (563a515c stellt 16dba6ce wieder her). Im Drossel-Regime mit weniger
+  Parallelitaet nachrangig, aber als Muster vorgemerkt.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Trainings gedrosselt produktiv, Login intakt,
+keine neue/offene P1. Kein Mail-Anlass.
+
 ## 2026-07-14 18:48 — [GEDROSSELT] Schoner-Lauf: Lage stabil, Runner gestoppt, Login intakt, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
