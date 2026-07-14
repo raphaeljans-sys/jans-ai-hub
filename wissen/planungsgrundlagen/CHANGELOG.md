@@ -2,6 +2,24 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 40 (Kartenportale + Energie, Token-Vollgas, Fan-out): neuer Denkmalschutz/ISOS-Artikel + Connector-Erweiterung + vier neue Energie-Fundstellen
+- **Kartenportale (K34-K36):** Ordner-Abgleich PL-01 deckt eine bisher unerschlossene zweite
+  Schutz-Domaene auf — **Denkmalpflege/Archaeologie** (national ISOS nur Portal-Link, kantonal ZH
+  Denkmalschutzobjekte + archaeologische Zonen, §§ 203/209/211 PBG). Beim Retest der
+  `maps.zh.ch/wfs/OGDZHWFS`-GetCapabilities zwei bisher unbekannte login-freie Layer gefunden UND
+  **live end-to-end getestet** (`ogd-0368_..._denkmalschutzobjekte_p` + `ogd-0087_..._archzonen_f`,
+  4 reale Objekte am Benchmark Haselstudstrasse 2 Wald ZH) → NEU [[kartenportale-denkmalschutz-isos]]
+  (emerging), Connector `geo-zh.mjs` um `--produkt denkmalschutz` erweitert und getestet. Zwei
+  kleinere Deltas: .gdb-Format (ESRI File-Geodatabase) als achtes Datenformat ergaenzt (K35,
+  established) und Bezirk Einsiedeln «Buero Bauen» + eBau-Pflicht seit 1.12.2022 praezisiert (K36).
+- **Energie (E32-E35):** vier Neufunde, alle in [[energie-pv-eignung-typenwahl]] eingearbeitet —
+  Planungsgrenzwerte dachintegriertes Typ-B-System (Dachneigung 10-60°, Schneelast-
+  Bemessungswert, Hinterlueftung ≥60 mm, §1c), 5-stufige PV-Eignungsklassen-Skala uvek-gis/
+  sonnendach.ch (§2b), erster belegter installierter System-CHF/kWp-Wert (6-kWp-Muster ≈ 3'190
+  CHF/kWp, schliesst E11-Luecke teilweise, §3), architektonische PV-Integrationsbeispiele aus dem
+  TEC21-Dossier «SolaRes Bauen» (Plusenergiehaus Hoengg, Umwelt Arena Spreitenbach, §5, emerging).
+- Details: `outputs/2026-07-14_training-run40.md`.
+
 ## 2026-07-14 — Training Run 39 (Recht/Norm + Brandschutz, Token-Vollgas, Fan-out): neuer AHB-Stadt-ZH-Artikel + BSV-2026-Refresh/drei neue Brandschutz-Fundstellen
 - **Recht & Norm (R39):** bisher nie kartierter Ordner `04_Merkblätter/Projektadmin AHB/` (Amt
   fuer Hochbauten Stadt Zuerich / Immobilien-Bewirtschaftung IMMO, Pflichtenheft fuer beauftragte

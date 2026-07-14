@@ -3,6 +3,20 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K34-K36 (Run 40, 2026-07-14, Token-Vollgas Fan-out)** Ordner-Abgleich PL-01 liefert drei
+  Neufunde. **K34 — neue Schutz-Domaene Denkmalpflege/Archaeologie:** national ISOS (BAK, nur
+  Portal-Link) + kantonal ZH (Denkmalschutzobjekte + archaeologische Zonen, §§ 203/209/211 PBG);
+  zwei bisher unbekannte, login-freie OGD-WFS-Layer live gefunden UND verifiziert
+  (`ogd-0368_..._denkmalschutzobjekte_p` + `ogd-0087_..._archzonen_f`), Connector-Feature
+  `--produkt denkmalschutz` NEU gebaut und mit realem Beispiel (Haselstudstrasse 2, Wald ZH, 4
+  Objekte) getestet → NEU [[kartenportale-denkmalschutz-isos]], emerging. **K35 — .gdb-Format-
+  Delta zu K8:** kein Direktimport in JANS-Zielprogramme, Umweg via ArcGIS Pro/QGIS-Plugin
+  OpenFileGDB + Re-Export .obj/.fbx/.dxf → [[kartenportale-geoportale-uebersicht]] §Geodaten-
+  Formate, established. **K36 — Bezirk Einsiedeln:** «Buero Bauen» der Bezirksverwaltung
+  zustaendig, Baugesuche seit 1.12.2022 ausschliesslich ueber eBau (kein Papierweg mehr) →
+  [[kartenportale-ebau-sz-baugesuch]] §4b, emerging. Geprueft/kein Fund: `KtSZ Schwyz/
+  ortsplanung.ch` (leer), `Objektschutz/Thalwil` (leer), `KtLU Luzern/Geoportal`+`Raumdatenpool`
+  (deckt sich mit bereits abgeschlossenem K16). Details siehe `training/curriculum.md` K34-K36.
 - [x] **K32/K33 (Run 38, 2026-07-14)** Zwei konkrete Fundstellen im Domaenen-Curriculum
   geprueft (Trainings-Lauf 38, MacBook Pro). **K32 — echter Neufund:** die bisher nur fuer die
   historische-Terrain-Rekonstruktion bekannte Acht Grad Ost AG (`achtgradost.ch`, vgl. K14
@@ -499,6 +513,24 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D23 (Run 40, 2026-07-14, E32-E35, Token-Vollgas Fan-out)** Ordner-Abgleich PL-04 liefert
+  vier Neufunde, alle in [[energie-pv-eignung-typenwahl]] eingearbeitet. **E32 —
+  Planungsgrenzwerte dachintegriertes Typ-B-System:** Eternit-Sunskin-Planungsdoku, min. 10°/
+  max. 60° Dachneigung, Bezugshoehe bis 2000 m ohne Ruecksprache, Schneelast-Bemessungswert Ed
+  ~4.4-16.2 kN/m² steuert Lattendimensionierung, Hinterlueftung-Mindesthoehe 60 mm → §1c,
+  established. **E33 — PV-Eignungs-Methodik uvek-gis/sonnendach.ch:** 5-stufige Eignungsklassen-
+  Skala (Gering <800 bis Hervorragend ≥1400 kWh/m²·a), Modulwirkungsgrad-Sprung 17→20 % seit
+  09/2022, Performance Ratio 80 % → §2b, established. **E34 — realer installierter System-CHF/
+  kWp-Wert (schliesst E11-Luecke teilweise):** EnergieSchweiz-Musterbericht 6.0 kWp = CHF 19'140
+  ≈ 3'190 CHF/kWp installiert, Amortisation 24 Jahre; Typ B/C/D weiterhin offen → §3 neue
+  Tabellenzeile, established. **E35 — architektonische PV-Integrationsbeispiele:** TEC21/
+  TRACÉS-Dossier "SolaRes Bauen" 2012, Leitprinzip Beat Kaempfen (Doppelfunktion jedes
+  Bauelements), Projekte Plusenergiehaus Zuerich Hoengg + Umwelt Arena Spreitenbach → §5,
+  emerging (Datenstand 2012). Geprueft/kein Fund: `_Literatur/planer_d.pdf` (inhaltsgleich mit
+  bereits ingested minergiewissen-PDF), `prefa.solar/PREFA_Solarfolder` (Dopplung), zwei triviale
+  Website-Screenshots (energieheld.ch, sonnenverlauf.de). Backlog: `_Literatur/20220606_GreenPV
+  - Workshop 2.pdf` + `wissen.minergie.ch/pvopti_MFH_Nachweiskurs...xlsb` (nicht textuell
+  auslesbar). Details siehe `training/curriculum.md` E32-E35.
 - [x] **D22 (Run 38, 2026-07-14, E5/E9/E31)** Datenstand-Refresh dreier offener Punkte. **MuKEn-
   2025-ZH-Umsetzung (E5/D1):** vertiefter Web-Check (zh.ch Bauvorschriften-Gebaeude-Energie,
   zh.ch Langfristige Klimastrategie, hev-zh.ch/muken, energiehub-gebaeude.ch, aeesuisse.ch) —
