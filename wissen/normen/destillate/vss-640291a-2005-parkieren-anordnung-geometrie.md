@@ -85,8 +85,11 @@ We = 4,00 m.
 Ausgabe hat nur noch einen Wertesatz: 15 % ungedeckt / 18 % gedeckt — entspricht der damaligen
 Stufe A, ist also grosszügiger als die frühere Stufe B/C.)
 
-**Ausrundungsradien (Ziff. 18.6, Tab. 12, S. 21):** Stufe A: Kuppe Rv = 20 m/Abstand 2,00 m,
-Wanne Rv = 20 m/Abstand 2,00 m; Stufe B/C: Kuppe Rv = 20 m/2,00 m, Wanne Rv = 30 m/3,00 m.
+**Ausrundungsradien (Ziff. 18.6, Tab. 12, S. 21):** Stufe A: Kuppe Ausrundungsradius 20 m/Abstand
+der Neigungsknicke 2,00 m, Wanne 20 m/2,00 m; Stufe B/C: Kuppe 20 m/2,00 m, Wanne 30 m/3,00 m.
+(Korrektur 260714: die Norm verwendet für den Ausrundungsradius kein Formelzeichen wie «Rv» —
+dieses war im Destillat fälschlich ergänzt worden und wurde entfernt, die Zahlenwerte selbst waren
+bereits korrekt.)
 
 **Fussgängerwege (Ziff. 20, S. 23):** begehbare Bankette/markierte Flächen mind. 1,20 m, Wege
 und Treppen mind. 1,50 m.
@@ -127,3 +130,10 @@ allgemein (nicht spezifisch für Parkierungsanlagen) und wurde hier NICHT destil
 des Auftragsumfangs «Parkieren-Geometrie». Bei Bedarf als eigenes Destillat nachführen. Die genaue
 Kette der Zwischenausgabe VSS 40 291a:2019-03 (zwischen dieser 2005er-Ausgabe und der aktuellen
 2021er-Ausgabe) liegt nicht im Normenordner vor und ist nicht verifiziert.
+
+## Retro-Verifikation
+Retro-verifiziert (Mini-Run, 260714) — beanstandet-korrigiert: Volltextabgleich Seiten 1-24 gegen
+das Original-PDF durchgeführt. Alle Kernziffern, Tabellenwerte (Tab. 1-12) und Fundstellen waren
+korrekt wiedergegeben; einzige Korrektur: bei den Ausrundungsradien (Ziff. 18.6, Tab. 12) hatte das
+Destillat faelschlich ein Formelzeichen «Rv» verwendet, das in der Norm nicht vorkommt (Tab. 12
+benennt nur «Ausrundungsradius» ohne Symbol) — entfernt, Zahlenwerte unveraendert korrekt.

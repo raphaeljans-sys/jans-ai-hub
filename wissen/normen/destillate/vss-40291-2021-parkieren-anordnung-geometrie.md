@@ -2,7 +2,7 @@
 title: "Parkieren – Anordnung und Geometrie der Parkierungsanlagen für Personenwagen und Motorräder"
 quelle: "PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291 Parkieren 2021.pdf"
 herausgeber: "VSS (Schweizerischer Verband der Strassen- und Verkehrsfachleute)"
-ausgabe: "VSS 40 291:2021-12, genehmigt Dezember 2021, gültig ab 2021-12-31"
+ausgabe: "VSS 40 291:2021-12, publiziert Dezember 2021, gültig ab 2021-12-31"
 ersetzt: "VSS 40 291a:2019-03"
 ersetzt_durch: ""
 gelesen: "S. 1-32 von 32 (vollständig)"
@@ -96,8 +96,8 @@ Sicherheitsabstand von mind. 0,70 m zwischen Radstreifen und Längsparkfeldern e
 (Fahrgassenbreite F / Parkfeldbreite B / Parkfeldlänge L):
 - 90°: F 5,00-6,50 m (je nach B 2,50-2,80 m), L 5,00 m, LmV/LoV 10,00 m, Überhangstreifen
   U = 0,50 m.
-- 75°: F 4,50/5,00 m, B 2,50/2,65 m, L 5,30 m, U = 0,50 m.
-- 70°: F 4,00/4,50 m, B 2,50/2,70 m, L 5,30 m, U = 0,50 m.
+- 75°: F 5,00/4,50 m, B 2,50/2,65 m, L 5,30 m, U = 0,50 m.
+- 70°: F 4,50/4,00 m, B 2,50/2,70 m, L 5,30 m, U = 0,50 m.
 - 60°: F 3,20-3,50 m, B 2,50-2,80 m, L 5,25 m, U = 0,45 m.
 - 45°: F 3,20 m, B 2,50 m, L 4,80 m, U = 0,35 m.
 - 30°: F 3,20 m, B 2,50 m, L 4,10 m, U = 0,25 m.
@@ -208,3 +208,15 @@ Zusammenhang zur Zwischenausgabe VSS 40 291a:2019-03 (welche laut Titelblatt dur
 vorliegende Ausgabe 2021-12 ersetzt wurde) ist nicht im Bestand verifiziert; nur die
 Vorgängerausgabe SN 640 291a:2005/2006 liegt im Normenordner vor (siehe
 [[vss-640291a-2005-parkieren-anordnung-geometrie]]).
+
+## Retro-Verifikation
+Retro-verifiziert (Mini-Run, 260714) — beanstandet-korrigiert: Tab. 4 (Ziff. 12, S. 16),
+Zeilen 75° und 70° hatten die Fahrgassenbreite F in umgekehrter Reihenfolge zur
+Parkfeldbreite B notiert, wodurch die Zuordnung falsch implizierte (z.B. 75°: F 4,50 m
+fälschlich neben B 2,50 m statt korrekt F 5,00 m/B 2,50 m und F 4,50 m/B 2,65 m gemäss
+Original). Korrigiert auf die im Original (S. 16) hinterlegte Paarung. Zusätzlich im
+Frontmatter "genehmigt Dezember 2021" auf "publiziert Dezember 2021" präzisiert (S. 2:
+Genehmigung durch VSS-Fachkommission FK 2 ohne Datumsangabe, Publikationsdatum
+Dezember 2021). Alle übrigen geprüften Kernziffern, Tabellenwerte (Bemessungsfahrzeug
+Tab. 1+2, Tab. 3, Tab. 5, Tab. 6+7, Tab. 9, Tab. 10, Tab. 11, Tab. 13), Begriffe und
+Fundstellen stimmen mit dem Original überein.
