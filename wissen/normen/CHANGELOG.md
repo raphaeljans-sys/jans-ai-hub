@@ -1,3 +1,20 @@
+## 2026-07-14 — normen-training-mini Run 18 Abschluss (Mac Mini): Inventar-Bookkeeping fuer 14 DIN/VSS-Retro-Verifikationen nachgezogen
+- Ein bereits laufender Hintergrund-Lauf (Vollgas-Runner) hatte 14 DIN/VSS-Kernnormen retro-verifiziert
+  (din-1045-2-2008, din-18065-2000, din-277-3-2005, din-4844-2-2001, din-en-12101-2-2003,
+  din-en-12207-2000, din-v-105-100-2005, din-v-106-2005, vss-40291-2021-parkieren,
+  vss-640050-1993, vss-640060-1994, vss-640065-2011, vss-640281-2006, vss-640578-2006;
+  `destillate/INDEX.md` war bereits korrekt), aber 7 Destillat-Korrekturen waren nur lokal
+  geaendert (nicht committet) und `training/norm-inventar.md` hatte noch keinen
+  Verifikations-Vermerk fuer keine der 14 Positionen.
+- Nachgezogen: die 7 offenen Destillat-Dateien committet, `norm-inventar.md` fuer alle 14
+  Zeilen mit «Retro-verifiziert Mini-Run 18 (260714): established» ergaenzt. Damit ist die in
+  Run 17 geplante «Core-Batch»-Retro-Verifikation (DIN 1045-2/18065/277-3/4844-2/EN-12101-2/
+  EN-12207/V-105-100/V-106, VSS 40-291/640-050/640-060/640-065/640-281/640-578) vollstaendig
+  im Inventar dokumentiert.
+- Damit ist die DIN/VSS/RAL-Familie im Kern-/Geometrienormen-Bereich komplett retro-verifiziert;
+  offen bleiben nur noch die 10 Register-/Glossar-Positionen aus dem Run-17-Plan sowie ein paar
+  weitere randstaendige Sonstiges-Dokumente (naechster Lauf: Run 19).
+
 ## 2026-07-14 — normen-training-nacht MacBook Pro Run 7: Retro-Verifikation 10 VKF-Brandschutzrichtlinien (P1-Kern)
 - Vertiefungsstufe (b) fortgesetzt (SIA/VKF-Basisinventar seit Run 5 vollständig, gedrosselt auf
   1x täglich gemäss Rule `auto-verbesserungen` 260713): 10 parallele Retro-Verifikations-Agenten
