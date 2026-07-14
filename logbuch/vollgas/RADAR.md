@@ -21,6 +21,38 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 14:52 — [GEDROSSELT] Schoner-Lauf: Runner weiter gestoppt, kein Wiederanlauf, Login intakt, Trainings gedrosselt aktiv, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) stabil. STOP + STOP-Macmini
+unveraendert seit 12:53 gesetzt, kein `vollgas-runner`-Prozess aktiv — das ist der GEWUENSCHTE
+Zustand. Als Schoner starte ich den Runner ausdruecklich NICHT neu; das Fuellen des 5h-Fensters
+ist kein Ziel. Wochenlimit wird geschont (Reset Mo 11:59, ~4 Tage).
+
+**Beobachtung (kein Eingriff):** Login intakt — `claude -p --model haiku` mit gesourctem Token
+liefert rc=0. Nebenbefund: der Login-Test aus dem NAS-Repo-Verzeichnis wirft Trust-Dialog-Warnungen
+(«workspace has not been trusted»), blockiert aber nicht (rc=0). Fuer kuenftige Laeufe genuegt der
+rc als Signal; kosmetisch liesse sich `hasTrustDialogAccepted` fuer den NAS-Pfad setzen, unkritisch.
+
+**Durchsatz (nur aus geplanten Tasks + nas-selfcommit, kein Runner):** 13 Commits/90 Min, 69/6 Std.
+Inhaltlich echt: normen Q&A-Selbstbefragung Mini-Run 28 (DIN 1960, DIN V 106:2005, DIN 18232-2:2007,
+DIN 5034-3:2007, Skript Treppen HCU), nas-selfcommit buendelt begleitend. Erwartetes gedrosseltes
+Bild: Trainings arbeiten weiter, ohne Dauer-Runner.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Der stuendliche Takt war fuer die
+  abgeloeste Taktgeber-Rolle noetig. Im Schoner-Modus reicht 3–4x taeglich (Login/STOP-Status); der
+  stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade schonen. Vorschlag an Raphael
+  fuers naechste Briefing (eigene Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert, entschaerft) — Idle-Loops** (`wettbewerbs-dna-training`/`spec-training`/
+  `synobsis-batch-nacht` u.a.) brechen weiter intermittierend mit «keine eigentliche Anfrage» ab; im
+  Drossel-Regime weniger dringend. Fix bleibt der «Fahre den naechsten offenen Baustein aus»-Auftakt
+  in der jeweiligen SKILL.md, bei ruhiger Gelegenheit.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta M2 + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Trainings gedrosselt aktiv, Login intakt, keine
+neue/offene P1. Kein Mail-Anlass.
+
+
 ## 2026-07-14 13:52 — [GEDROSSELT] Erster Radar-Lauf im Drossel-Regime: Runner korrekt gestoppt, kein Wiederanlauf, geplante Tasks laufen gedrosselt weiter, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Regimewechsel greift. Rule 260714 (heute) hat die
