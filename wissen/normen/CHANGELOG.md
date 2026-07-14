@@ -1,3 +1,20 @@
+## 2026-07-14 — normen-training-mini Run 23 (Mac Mini): Q&A-Selbstbefragung 6 weitere DIN/VSS/RAL-Destillate
+- Inventar-Check vorab: DIN/VSS/RAL zeigen 0 offene `[ ]`-Positionen (Grunddestillation
+  komplett seit Run 19) — Lauf setzt direkt bei Vertiefungsstufe (c) an.
+- 6 parallele Q&A-Selbstbefragungs-Agenten: DIN 4102-2:1977 (7/20 ohne Luecke bestanden, 0
+  Fehler, aber 13 Ergaenzungen inkl. komplett fehlendem Abschnitt 7 "Normkonstruktionen
+  nichthinterlueftete Bekleidungen"), DIN 1946-6:2009 (20/20 bestanden, 3 Ergaenzungen, offener
+  Punkt Anhang-H-Seitenumfang aus Mini-Run 12/13 abschliessend geklaert), DIN 5034-1:1999
+  (15/17 bestanden, 2 Ergaenzungen Bruestungs-/Oberlicht-Regel), DIN 5034-3:2007 (20/20
+  bestanden, 5 Ergaenzungen Formeln AR/fo/fu), VSS 700.5:1987 (16/16 bestanden, 2
+  Ergaenzungen Kehrplatz-Differenzierung), VSS 722.15:1983 (16/16 bestanden, 4 Ergaenzungen
+  §17/§18 relevant fuer `massgebendes-terrain`/Tiefgaragen-Rueckverankerung).
+- Insgesamt 94/109 Fragen sofort bestanden (86 %), **0 falsche Zahlenwerte**, 29
+  Ergaenzungen. Kernbefund: "Volltextabgleich bestanden" garantiert keinen vollstaendigen
+  Kapitelumfang (DIN 4102-2 fehlte ein ganzer Abschnitt trotz fehlerfreiem Destillat).
+- Nachgefuehrt: 6 Destillate + `destillate/qa/din-1946-6-2009-fragen-lauf23.md`. Lauf-Report:
+  `outputs/2026-07-14_normen-mini-run23.md`.
+
 ## 2026-07-14 — normen-training-nacht Run 10 (MacBook Pro): SIA 421:2006 Retro-Verifikation
 - Gedrosselter Loop (Rule 260713, SIA+VKF 1x/Tag, Token-Fokus liegt auf Wettbewerbs-DNA);
   Run 8+9 liefen heute bereits, dieser Run ist eine gezielte Einzelergaenzung.
