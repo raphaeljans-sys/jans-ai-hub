@@ -21,6 +21,45 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 15:52 — [GEDROSSELT] Schoner-Lauf: Runner weiter gestoppt, Login intakt (Export-Nuance geklaert), Trainings ueber 6h produktiv, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) stabil. STOP + STOP-Macmini
+unveraendert seit 12:53 gesetzt, kein `vollgas-runner`-Prozess aktiv (`pgrep` leer) — der
+GEWUENSCHTE Zustand. Als Schoner starte ich den Runner ausdruecklich NICHT neu; das Fuellen des
+5h-Fensters ist kein Ziel. Wochenlimit wird geschont (Reset Mo 11:59, jetzt ~4 Tage).
+
+**Beobachtung (kein Eingriff) — Login intakt, Nuance geklaert:** Ein naiver `source
+~/.jans-dispatch.env` + `claude -p` meldete zunaechst «Not logged in» (rc=0). Ursache ist NICHT ein
+Login-Block, sondern dass die Env-Eintraege ohne `export` beim blossen `source` nicht an den
+Kindprozess `claude` weitergereicht werden. Mit `set -a; source …; set +a` liefert der Login-Test
+sauber «OK». Der Runner sourct den Token korrekt (und ist ohnehin gestoppt), also KEIN Blocker.
+Vermerk fuer kuenftige Schoner-Laeufe: den Login-Test immer mit `set -a` fahren, sonst Fehlalarm.
+
+**Durchsatz (nur geplante Tasks + nas-selfcommit, kein Runner):** 6 Commits/90 Min, 65/6 Std.
+Die letzten 90 Min waren inhaltlich ruhig (nur station-status-Heartbeats) — normal fuer die
+gedrosselte Kadenz. Ueber 6 Std echt produktiv: normen Mini-Run 27 (16 DIN/VSS-Destillate
+Q&A-geprueft, 4 Sachfehler korrigiert, ~62 Ergaenzungen), energie Runs 65/66 (neue Destillate
+U-Wert-Katalog, Erdwaerme/Grundwasser-Bewilligung ZH/SZ, SIA 2024 Gesundheitsbau u.a.), synobsis
+Batch. Erwartetes gedrosseltes Bild: Trainings arbeiten weiter, ohne Dauer-Runner.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Der stuendliche Takt war fuer
+  die abgeloeste Taktgeber-Rolle noetig. Im Schoner-Modus reicht 3–4x taeglich (Login/STOP-Status);
+  der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade schonen. Vorschlag an
+  Raphael fuers naechste Briefing (eigene Task-Frequenz nicht selbst geaendert).
+- **P3 (neu, kosmetisch) — Login-Test-Robustheit:** Der Schoner-Login-Test sollte kuenftig fest mit
+  `set -a`/`export` laufen, damit die Export-Nuance keinen Fehlalarm «Not logged in» mehr ausloest.
+  Rein diagnostisch, kein Betriebsrisiko.
+- **P3 (unveraendert, entschaerft) — Idle-Loops** (`wettbewerbs-dna-training`/`spec-training`/
+  `synobsis-batch-nacht`) brechen intermittierend mit «keine eigentliche Anfrage» ab; im
+  Drossel-Regime weniger dringend. Fix bleibt der «Fahre den naechsten offenen Baustein aus»-Auftakt
+  in der jeweiligen SKILL.md, bei ruhiger Gelegenheit.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Trainings gedrosselt aktiv und produktiv,
+Login intakt, keine neue/offene P1. Kein Mail-Anlass.
+
+
 ## 2026-07-14 14:52 — [GEDROSSELT] Schoner-Lauf: Runner weiter gestoppt, kein Wiederanlauf, Login intakt, Trainings gedrosselt aktiv, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) stabil. STOP + STOP-Macmini
