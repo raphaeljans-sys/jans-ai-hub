@@ -64,3 +64,26 @@ deterministisch ohne inhaltlichen Diff neu geschrieben, nur Zeitstempel in
 Kein neuer Stoff seit 2026-07-02. Reiner Wiederholungslauf im Rahmen der VOLLGAS-Endlos-
 Taktung; naechster inhaltlicher Fortschritt bleibt an neues Rohmaterial in der Quelle oder
 eine freigegebene Stufe-3-Bereinigung (siehe `wiki/QUESTIONS.md`) gebunden.
+
+## Fuenfter Batch-Aufruf desselben Tages (11:54, synobsis-batch-nacht regulaerer Task)
+Start: 2026-07-14T11:54:12+0200, Ende: 2026-07-14T11:54:37+0200.
+
+Vorab in der Quelle geprueft: 859 Top-Level-Eintraege (statt 854 beim letzten Lauf) —
+Differenz zunaechst als moegliche neue Architekten-Ordner untersucht. Ergebnis der
+Pruefung: kein echter Rueckstand. Die Differenz besteht aus (a) drei bereits verarbeiteten
+Architekten-Ordnern mit Leerzeichen am Namensende (`Conte Pianetti Zanetta Arch `,
+`Smiljan Radic `, `Radic_Smjlian`) — diese waren in `state/processed.json` schon vorher
+korrekt mit dem exakten (Leerzeichen-behafteten) Namen erfasst, ein eigener Ad-hoc-
+Vergleichsscript hatte durch `.strip()` faelschlich einen Rueckstand vorgetaeuscht — und
+(b) fuenf lose Dateien direkt auf Root-Ebene der Quelle (`Unknown.jpg`,
+`_Japanische Architekten.docx`, `lieblingsarchitekt.jpg`,
+`tumblr_lbf4yyf79H1qat99uo1_500.jpg`, `New_York_Segram_pl_00_caruso2012FSworkbook 25.dwg`),
+die zu Recht nicht als Architekten-Ordner gescannt werden (`list_architects()` filtert auf
+`is_dir()`). Batch-Skript bestaetigt: 853/853, offen 0, `vectors.npz` deterministisch ohne
+inhaltlichen Diff neu geschrieben, nur Zeitstempel in `catalog/INDEX.md`/`catalog/cad-index.json`
+aktualisiert. Kein neuer Stoff seit 2026-07-02.
+
+Empfehlung (nicht umgesetzt, nur beobachtet): die fuenf losen Root-Dateien sind
+Ablage-Streuverlust in der read-only Quelle `05_Architekten_Synobsis` und sollten bei
+Gelegenheit von Raphael in einen passenden Architekten-/Sammelordner einsortiert oder
+geloescht werden — der Skill fasst die Quelle nicht an (strikt read-only).
