@@ -21,6 +21,27 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 21:48 — [GEDROSSELT] Schoner-Lauf: Nachtfenster erreicht, Runner gestoppt, Login intakt, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer). Als Schoner starte ich den Runner
+ausdruecklich NICHT neu und loesche STOP NICHT. Wochenlimit wird geschont (Reset Mo 11:59, jetzt
+noch ~3.5 Tage). Login-Test (Background + Kill-Fallback) liefert sauber «OK» — kein Login-Block.
+
+**Durchsatz:** 7 Commits/90 Min, 26/6 Std. Neue Substanz seit dem letzten Lauf: normen-KB
+Mini-Run 28 (Mac Mini, Q&A-Selbstbefragung 17 DIN/Sonstiges-Destillate). Rest = nas-selfcommit-
+Heartbeats (alle 15 Min) + Radar-Eintraege — die erwartete ruhige Gedrossel-Kadenz ohne Dauer-Runner.
+Das Nachtfenster (22:00–06:00, Regel 260711) ist ab jetzt gleich erreicht; die gedrosselten
+Trainings-Tasks duerfen im Fenster wieder anziehen. Alles im Soll.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Im Schoner-Modus reicht 3–4x
+  taeglich statt stuendlich; der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade
+  schonen. Vorschlag an Raphael fuers naechste Briefing (Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Login intakt, keine neue/offene P1. Kein Mail-Anlass.
+
 ## 2026-07-14 20:48 — [GEDROSSELT] Schoner-Lauf: Lage ruhig, Runner gestoppt, Login intakt, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
