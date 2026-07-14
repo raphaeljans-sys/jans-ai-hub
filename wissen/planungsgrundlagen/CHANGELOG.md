@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 47 (Refresh-Lauf, Watchlist E5/E9/B5): Stand unveraendert bestaetigt, Nebenfund § 49b PBG-Referendum offen
+- Curriculum praktisch vollstaendig (K1-K40/E1-E38/R1-R51/B1-B39 abgehakt); dieser Lauf
+  bearbeitet die drei verbliebenen `[~]`-Watchlist-Punkte per WebSearch-Refresh statt neuer
+  Ordner-Erschliessung.
+- **E5/E9 (MuKEn-2025-ZH-Ueberfuehrung + Graue-Energie-Grenzwert):** unveraendert bestaetigt,
+  keine Vernehmlassung/kein Termin fuer ZH auffindbar → [[energie-energienachweis-zh-formulare]]
+  §Datenstand.
+- **B5 (BSV-2026-Totalrevision):** unveraendert bestaetigt (politische Vernehmlassung 08/2026,
+  Inkrafttreten Herbst 2027) → [[brandschutz-pl03-wegweiser]] §1.
+- **Nebenfund, nicht uebernommen:** Volksreferendum gegen UmV § 49b PBG (Parkplatzvorschriften-
+  Flexibilisierung, zustande gekommen 21.11.2025) — nur Suchtreffer-Titel, keine Primaerquelle
+  gelesen; als neue offene Aufgabe **M3** in `wiki/QUESTIONS.md` hinterlegt statt als Fakt
+  uebernommen.
+- **Einordnung:** KB naehert sich Saettigung; Ruecktaktung ins Nachtfenster gemaess
+  `training/PROGRAMM.md` vorgeschlagen (nicht umgesetzt) — VOLLGAS-Vorgabe bleibt bis 10.08.2026
+  in Kraft. Report: `outputs/2026-07-14_training-run47.md`.
+
 ## 2026-07-14 — Training Run 46 (Kartenportale + Energie, Token-Vollgas): ÖREB-Weisung V3 vollständig abgeschlossen (S. 20-73), Energie-Refresh unverändert
 - **Kartenportale (PL-01):** Rest der Weisung «ÖREB-Kataster Betrieb und Nachführung der Daten»
   V3 (S. 20-73, alle acht Themen-Detailprozesse §5.2-§5.12) vollständig gelesen und in

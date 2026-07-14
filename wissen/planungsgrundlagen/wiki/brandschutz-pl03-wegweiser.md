@@ -101,7 +101,11 @@ Ansatz, seit 2018 in Arbeit) ist **doppelt gebremst** und verschiebt sich von 20
 (der Marschhalt kann sie streichen/verschaerfen). Bei jedem Projekt aktuellen Stand auf
 **bsvonline.ch/de/aktuell** pruefen (loest die alte URL `praever.ch/de/bs/vs` ab, die in den
 2015-PDFs noch zitiert ist). ⚠ Naechster Check bei Start politische Vernehmlassung (08/2026) bzw.
-Publikation neuer Terminplan. Quellen: bsvonline.ch «Information BSV 2026», VKG-MM «Marschhalt bei
+Publikation neuer Terminplan. **Refresh 2026-07-14 Run 47 (WebSearch bsvonline.ch/vkg.ch/baublatt.ch):**
+Stand unveraendert bestaetigt — technische Vernehmlassung 15.09.2025-11.01.2026 mit rund 11'000
+Rueckmeldungen abgeschlossen, politische Vernehmlassung weiterhin fuer 08/2026 angekuendigt,
+Genehmigung IOTH-Plenarversammlung 03/2027, Inkrafttreten Herbst 2027; kein neuer, vom
+Marschhalt abweichender Terminplan gefunden. Quellen: bsvonline.ch «Information BSV 2026», VKG-MM «Marschhalt bei
 Liberalisierungsbestrebungen» 06.01.2026 (Stand 2026-06-30).
 
 **Refresh 2026-07-13 (Run 19):** Stand unveraendert bestaetigt — politische Vernehmlassung startet

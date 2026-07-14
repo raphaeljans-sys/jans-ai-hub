@@ -230,7 +230,15 @@ erfasst — offener Punkt fuer einen kuenftigen Recht/Norm-Lauf.
   Klimastrategie-Seite nur die generellen Zwischenziele 2030/2040, keine Gebaeude-Energierecht-
   Etappe. EnDK-Zeithorizont bleibt generisch «bis 2030». Status bleibt `weiterhin ausstehend`;
   naechster Check nur bei konkretem Hinweis (z.B. RRB-Antrag auf kantonsrat.zh.ch), nicht
-  routinemaessig.
+  routinemaessig. **Refresh 2026-07-14 (Run 47):** WebSearch erneut unveraendert bestaetigt —
+  weder Vernehmlassung noch ZH-Gesetzesentwurf noch Termin fuer die MuKEn-2025-Ueberfuehrung
+  auffindbar. **Nebenfund (noch nicht verifiziert, nur Suchtreffer-Titel, kein Primaerquellen-
+  Read):** ein **Volksreferendum gegen die Verordnung ueber die Umsetzung von § 49b PBG
+  (UmV § 49b PBG)** ist am 21.11.2025 zustande gekommen (Stadt Zuerich Medienmitteilung);
+  Kantonsratsbeschluss vom 17.09.2025 (GR Nr. 2022/358) betrifft laut Titel **Parkplatz-
+  vorschriften** (Flexibilisierung Stadt/Land). Thematischer Bezug zu `[[recht-norm-
+  tiefgarage-erschliessung]]` moeglich, aber **Primaerquelle noch nicht gelesen** — als
+  offene QUESTIONS-Aufgabe vermerkt statt als Fakt uebernommen (Leitplanke "nie erfinden").
 - ✓ **D5 teil-erledigt** (2026-06-18/2026-07-10): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
   `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/B/C/D/E + Flachdach belegt). **Offen bleibt:**
   installierter System-CHF/kWp aus einer **realen JANS-Schlussabrechnung** — Archivsuche

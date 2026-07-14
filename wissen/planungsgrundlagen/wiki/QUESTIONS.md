@@ -837,3 +837,10 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   belegt vorliegt (weniger Behoerdenfragen noetig) + Werkleitungen-Zustaendigkeit praezisiert
   (Werke, nicht Tiefbauamt) → [[kartenportale-grundlagen-checkliste-neue-parzelle]] Abschnitt
   "Anwendung/Anschluss".
+- [ ] **M3 (neu Run 47, 2026-07-14)** Volksreferendum gegen die Verordnung ueber die Umsetzung
+  von § 49b PBG (UmV § 49b PBG, Kantonsratsbeschluss 17.09.2025, GR Nr. 2022/358) — laut
+  Suchtreffer-Titel Flexibilisierung der Parkplatzvorschriften Stadt/Land; Referendum am
+  21.11.2025 zustande gekommen. Primaerquelle (Wortlaut der Verordnung, Abstimmungstermin)
+  noch nicht gelesen — bei naechster Gelegenheit via kantonsrat.zh.ch/zh.ch verifizieren und,
+  falls JANS-relevant, in [[recht-norm-tiefgarage-erschliessung]] einarbeiten (Delta zu R9/R29
+  Parkierungs-Bedarfsrichtwerten pruefen).
