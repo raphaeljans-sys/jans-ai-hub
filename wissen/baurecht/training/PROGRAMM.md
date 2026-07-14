@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -91,6 +91,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 45 (2026-07-15, Modell-D — 3 Komplexe adversarial parallel via Agent-Tool: §§ 218/219/220 PBG,
+    KNHV §§ 13-22/29-32, USG-Altlasten Re-Verifikation):** § 220 Abs. 2 PBG **Gemeinwesen-Ausnahme** (offene
+    Luecke seit Run 34) vollstaendig in [[ausnahmebewilligung-und-bestandesschutz]] ergaenzt + Abs. 3-Praezisierung
+    + §§ 218/219-Trias (raw/260607_amtlich_zh_pbg.md Z. 2179-2194). KNHV: Fehlzuordnung Naturschutz-Lebensraeume
+    «§§ 19-22» → **§ 13 KNHV** korrigiert, Abschnitts-Randtitel Nachtrag 130 bestaetigt, § 14/§ 30 KNHV neu belegt
+    (raw/260714_amtlich_zh_knhv.md). USG-Altlasten adversariale Re-Verifikation: Kern haelt (Art. 32c/32d/32dbis/
+    32bbis alle CONFIRMED), 1 Absatz-Korrektur Art. 32d **Abs. 4** statt Abs. 3 (Kostenverteilungsverfuegung).
+    **3 echte Korrekturen, 0 Halluzinationen.** 5 neue Drills. Mehrere Stale-Flags geschlossen. **Befund:
+    Verifikations-Rueckstand weitgehend abgebaut** — Ruecktaktung auf woechentlich empfohlen. Report
+    `outputs/2026-07-15_buch-run45.md`.
   - **Run 44 (2026-07-14, Modell-D — 4 Komplexe parallel via Agent-Tool: VRG-Rechtsschutz, § 238→§ 238a-
     Divergenz, Quartierplan § 160a/81/129, RPG/WEG-Erschliessung):** VRG-Rechtsschutz (§§ 25/26/26a-d/
     55/58/86-89 VRG + § 317/338/339/339b PBG) gegen `raw/260714_amtlich_zh_vrg_rechtsschutz2.md` +

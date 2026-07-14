@@ -1489,3 +1489,46 @@ war vom Run-39-Fix im separaten `buecher/INDEX.md` nicht mit-erfasst) und ein Dr
 § 160a/§ 160b/§ 81/§ 129 PBG unabhängig CONFIRMED (bereits durch Parallel-Instanz erledigt, keine
 Korrektur, reine Kollision ohne Schaden), Art. 19/22/27 RPG + WEG-Klärung (1 Präzisierung, 2 neue
 raw-Bundesrechtstexte via Fedlex beschafft). 3 echte Korrekturen, 0 Halluzinationen.
+
+## Buch-Run 45 (2026-07-15, Modell-D · § 220/218/219 PBG + KNHV + USG-Altlasten Re-Verifikation)
+
+- **F:** Darf eine Ausnahmebewilligung nach § 220 PBG oeffentliche Interessen verletzen? — **A:**
+  Grundsaetzlich **nein** (§ 220 Abs. 2 PBG: kein Verstoss gegen Sinn/Zweck der Vorschrift, keine
+  Verletzung oeffentlicher Interessen), **es sei denn**, die Verweigerung wuerde «die Erfuellung
+  einer dem Gemeinwesen gesetzlich obliegenden Aufgabe verunmoeglicht oder uebermaessig erschwert»
+  — die **Gemeinwesen-Ausnahme**. Umgekehrt gelesen: wo ein Dispens eine gesetzliche Aufgabe des
+  Gemeinwesens verunmoeglichte/uebermaessig erschwerte, ist er zu **verweigern**. Beleg:
+  raw/260607_amtlich_zh_pbg.md Z. 2186-2194. _[2026-07-15]_
+- **F:** Wie verhalten sich §§ 218/219/220 PBG zueinander (Trias)? — **A:** **§ 218** = Rechtsnatur
+  (Bauvorschriften sind oeffentliches Recht, begruenden keine Privatrechte; privatrechtliche Regelung
+  nur «wo ausdruecklich vorgesehen», Abs. 2); **§ 219** = **Verschaerfung** (fuer ungewoehnlich
+  genutzte/verkehrsintensive/gefaehrliche Bauten strengere Vorschriften — nur einseitig, keine
+  Milderung); **§ 220** = **Milderung/Befreiung** im Einzelfall. Beleg: raw/260607_amtlich_zh_pbg.md
+  Z. 2179-2194. _[2026-07-15]_
+- **F:** Sind Trockenstandorte, Feuchtgebiete und Magerwiesen in der KNHV ZH dem Naturschutz oder
+  dem Landschaftsschutz zugeordnet? — **A:** Dem **Naturschutz** — **§ 13 Abs. 1 KNHV** (Abschnitt
+  «II. Naturschutz», §§ 13-18) nennt sie als Naturschutzobjekte. **§§ 19-22 KNHV** (Landschaftsschutz)
+  regeln dagegen abgegrenzte Landschaften/Gelaendeabschnitte (§ 19). Die Fundstelle fuer «Abstandslinien
+  an Waldraendern und Gewaessern» + Baumbestand-Schutz ist **§ 14 KNHV**. Beleg:
+  raw/260714_amtlich_zh_knhv.md (Nachtrag 130). _[2026-07-15]_
+- **F:** Auf welchen Absatz von Art. 32d USG stuetzt sich die Verfuegung ueber die Kostenverteilung,
+  wenn ein Verursacher sie verlangt? — **A:** **Art. 32d Abs. 4 USG** («Die Behoerde erlaesst eine
+  Verfuegung ueber die Kostenverteilung, wenn ein Verursacher dies verlangt oder die Behoerde die
+  Massnahmen selber durchfuehrt»). **Abs. 3** regelt dagegen die **Ausfallkosten** (Gemeinwesen traegt
+  den Anteil nicht ermittelbarer/zahlungsunfaehiger Verursacher). Beleg: raw/260714_amtlich_ch_usg.md.
+  _[2026-07-15]_
+- **F (Modell A · Buerofrage→Beleg):** Ein Bauherr will einen im Kataster der belasteten Standorte
+  (KbS) eingetragenen Teil seiner Parzelle verkaufen. Braucht das eine Bewilligung, und worauf stuetzt
+  sie sich? — **A:** **Ja.** Die Veraeusserung oder Teilung eines Grundstuecks mit einem im KbS
+  eingetragenen Standort bedarf einer **Bewilligung der Behoerde** (**Art. 32dbis Abs. 3 USG** — ein
+  Wort, eigenstaendiger Artikel «Sicherstellung der Kostendeckung»); im Kt. ZH ist das die
+  **AWEL-Bewilligung**. Der KbS-Eintrag (Art. 32c Abs. 2 USG) wirkt faktisch als kaum widerlegbares
+  Beweismittel → im JANS-Ankaufscheck immer den KbS pruefen. Beleg: raw/260714_amtlich_ch_usg.md.
+  _[2026-07-15]_
+
+**Ergebnis Buch-Run 45 (3 Komplexe adversarial parallel via Agent-Tool):** § 218/219/220 PBG
+(1 echte Korrektur — § 220 Abs. 2 Gemeinwesen-Ausnahme im Wiki war verkuerzt, jetzt vollstaendig
++ Abs. 3-Praezisierung + §§ 218/219-Trias-Kontext), KNHV §§ 13-22/29-32 (1 Fehlzuordnung korrigiert —
+Naturschutz-Lebensraeume falsch «§§ 19-22» statt § 13 KNHV; Abschnitts-Randtitel + § 14/§ 30
+neu belegt), USG-Altlasten Re-Verifikation (Kern haelt, 1 Absatz-Korrektur Art. 32d Abs. 3→Abs. 4).
+**3 echte Korrekturen, 0 Halluzinationen.**

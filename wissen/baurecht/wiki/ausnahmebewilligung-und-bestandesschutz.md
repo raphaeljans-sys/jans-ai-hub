@@ -2,10 +2,10 @@
 name: ausnahmebewilligung-und-bestandesschutz
 beschreibung: Die zwei kantonalen Werkzeuge fuer vorschriftswidrige Bauten im Kt. ZH — die Ausnahmebewilligung (Dispens) nach § 220 PBG bei besonderen Verhaeltnissen, und die Besitzstandsgarantie / erweiterte Bestandesgarantie nach § 357 PBG (Umbau/Erweiterung/Nutzungsaenderung am rechtmaessig erstellten, durch Rechtsaenderung vorschriftswidrig gewordenen Bestand). Kernaussage: kein fester «Drittel»-Schwellenwert; Grenze ist die neubauaehnliche Umgestaltung/Gesetzesumgehung im Einzelfall. § 220 dispensiert nur kantonales/kommunales Recht, nie Bundesrecht.
 status: established
-last_updated: 2026-07-13
-verifiziert: "§ 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13. § 357 Abs. 5 (Milderungsklausel) am amtlichen PBG-Volltext verifiziert (Z. 3770-3773), Modell-D-Refuter 2026-07-13. § 307 Abs. 1/2 PBG (Brandstattrecht) und § 358 PBG (baupolizeiliche Missstaende) vertieft volltextverifiziert (Z. 3129-3144, 3778), Modell-D-Refuter 2026-07-13 — Details in [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]."
+last_updated: 2026-07-15
+verifiziert: "§§ 218/219/220 (Abs. 1-3) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2179-2194) — § 220 Abs. 2 Gemeinwesen-Ausnahme (bisher im Wiki verkuerzt) vollstaendig ergaenzt, § 220 Abs. 3 «Vorschriften, die auch ihn schuetzen» praezisiert, §§ 218/219 als Trias-Kontext ergaenzt, Modell-D-Refuter 2026-07-15 (Buch-Run 45). § 220 (Abs. 1-3) + § 357 (Abs. 1/4) am amtlichen PBG-Volltext (raw/260607_amtlich_zh_pbg.md, Z. 2186-2194, 3760-3773); Sekundaer-§§ 318/320/321/101/49 Abs. 3 gegengeprueft. Modell-D-Refuter 2026-07-13. § 357 Abs. 5 (Milderungsklausel) am amtlichen PBG-Volltext verifiziert (Z. 3770-3773), Modell-D-Refuter 2026-07-13. § 307 Abs. 1/2 PBG (Brandstattrecht) und § 358 PBG (baupolizeiliche Missstaende) vertieft volltextverifiziert (Z. 3129-3144, 3778), Modell-D-Refuter 2026-07-13 — Details in [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]."
 quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)"
-paragraphen: ["§ 220 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
+paragraphen: ["§ 218 PBG", "§ 219 PBG", "§ 220 PBG", "§ 220 Abs. 2 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
 links: [[bestandsumbau-eingriffstiefe]], [[baubewilligungsverfahren]], [[baulinien-und-abstandslinien]], [[zonenkonformitaet]], [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
 ---
 
@@ -28,6 +28,15 @@ Sie sind **kumulativ** denkbar: § 357 deckt den erlaubten Bestandseingriff, fue
 
 ## § 220 PBG — Ausnahmebewilligung (Dispens)
 
+**Einordnung (Trias §§ 218-220 PBG):** § 218 klaert die **Rechtsnatur** — die Bauvorschriften des
+PBG sind **oeffentliches Recht** und begruenden **keine Privatrechte** (Abs. 1); einer fuer die
+Baubehoerden verbindlichen privatrechtlichen Regelung sind sie nur zugaenglich, «wo es ausdruecklich
+vorgesehen ist» (Abs. 2, z. B. Naeherbaurecht). § 219 regelt die **Verschaerfung** (fuer ungewoehnlich
+genutzte, besonders verkehrsintensive oder erhoehte Gefahren bergende Bauten sind durch Verordnung
+oder im Einzelfall **strengere** Vorschriften aufzustellen — nur einseitig, keine Milderung). § 220
+ist das Gegenstueck: die **Milderung/Befreiung** im Einzelfall (volltextverifiziert §§ 218/219 PBG,
+raw/260607_amtlich_zh_pbg.md Z. 2179-2185, Modell-D-Refuter 2026-07-15).
+
 Drei Voraussetzungen (kumulativ):
 
 1. **Besondere Verhaeltnisse** (Abs. 1) — die **primaere** Voraussetzung. Sie liegen v. a. in
@@ -37,9 +46,20 @@ Drei Voraussetzungen (kumulativ):
    Verhaeltnisse gelten: rein finanzielle Motive, Bequemlichkeit, eine bloss «bessere» Loesung;
    generell-abstrakte Gruende, «die sich praktisch immer anfuehren liessen» (das waere
    Gesetzesaenderung auf dem Dispensweg).
-2. **Wahrung von Sinn/Zweck und oeffentlichen Interessen** (Abs. 2).
-3. **Kein unzumutbarer Nachbarnachteil** (Abs. 3) — der Dispens darf aber **nicht** von der
-   Zustimmung des Nachbarn abhaengig gemacht werden.
+2. **Wahrung von Sinn/Zweck und keine Verletzung oeffentlicher Interessen** (Abs. 2) — die
+   Ausnahmebewilligung darf weder gegen **Sinn und Zweck** der Vorschrift verstossen, von der sie
+   befreit, noch sonst **oeffentliche Interessen** verletzen. **Gemeinwesen-Ausnahme (amtlicher
+   Wortlaut § 220 Abs. 2 PBG):** oeffentliche Interessen duerfen ausnahmsweise doch beeintraechtigt
+   werden, «**es sei denn, es wuerde die Erfuellung einer dem Gemeinwesen gesetzlich obliegenden
+   Aufgabe verunmoeglicht oder uebermaessig erschwert**». Das heisst: Wo ein Dispens die Erfuellung
+   einer gesetzlichen Aufgabe des Gemeinwesens (Kanton/Gemeinde) verunmoeglichte oder uebermaessig
+   erschwerte, ist er zu **verweigern**, selbst wenn die uebrigen Voraussetzungen vorlaegen — das
+   oeffentliche Aufgabeninteresse geht dem privaten Befreiungsinteresse vor (volltextverifiziert
+   § 220 Abs. 2 PBG, raw/260607_amtlich_zh_pbg.md Z. 2186-2194, Modell-D-Refuter 2026-07-15).
+3. **Kein unzumutbarer Nachbarnachteil** (Abs. 3) — ein Nachbar darf durch Ausnahmebewilligungen
+   «**von Vorschriften, die auch ihn schuetzen**» nicht unzumutbar benachteiligt werden (der
+   Nachbarschutz greift also nur bei Vorschriften mit **nachbarschuetzender Funktion**); der Dispens
+   darf aber **nicht** von der Zustimmung des Nachbarn abhaengig gemacht werden.
 
 Sind alle drei erfuellt, **besteht ein Anspruch** auf Erteilung («ist zu befreien»). Erteilt
 wird im **ordentlichen Baubewilligungsverfahren** (oertliche Baubehoerde, § 318 PBG); der Dispens

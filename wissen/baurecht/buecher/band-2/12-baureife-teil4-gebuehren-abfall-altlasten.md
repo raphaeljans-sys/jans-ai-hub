@@ -7,12 +7,14 @@ shots: "387-406"
 paragraphen: ["Art. 32c USG", "Art. 32d USG", "Art. 32dbis USG", "Art. 32e USG", "Art. 30-30h USG", "Art. 31-31c USG", "Art. 32-32b USG", "Art. 32bbis USG", "Art. 46 USG", "AltlV (Art. 1-23)", "VVEA", "AbfG ZH (§§ 1 ff.)", "§ 236 Abs. 1 PBG", "§ 249 PBG", "Art. 60a GSchG", "§ 45 EG GSchG", "VASA"]
 status: emerging
 gelesen: 2026-07-03
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 verifiziert:
   - artikel: "Art. 32bbis USG"
     ergebnis: "CONFIRMED (Modell D, Fedlex-Volltextabgleich 2026-07-14)"
   - artikel: "Art. 32dbis Abs. 3 USG"
     ergebnis: "CONFIRMED (Modell D, Fedlex-Volltextabgleich 2026-07-14); Buch-Bezeichnung 'Art. 32d bis' war Reader-Fliesstext-Artefakt, amtlich korrekt 'Art. 32dbis' als eigener Artikel (nicht Fortsetzung von Art. 32d)"
+  - artikel: "Art. 32c/32d USG (Re-Verifikation)"
+    ergebnis: "CONFIRMED — adversariale Zweitpruefung 2026-07-15 (Modell D, Buch-Run 45) haelt: Art. 32c Abs. 1 Sanierungspflicht, Abs. 2 KbS, Art. 32d Abs. 1/2/3/5 Kostentragung Verursacherprinzip alle wortlautbestaetigt. KORRIGIERT: Kostenverteilungsverfuegung auf Verlangen eines Verursachers ist Art. 32d Abs. 4 USG (nicht Abs. 3 = Ausfallkosten Gemeinwesen); im Fliesstext behoben."
 ---
 
 # Kap. 12 Teil 4 — Anschlussgebuehren, Abfall/Kehricht, Altlasten (Schluss Baureife)
@@ -99,7 +101,7 @@ Die einwandfreie Beseitigung von Abfallstoffen (§ 236 Abs. 1 PBG) und ebenso di
 - Festlegung erfolgt in **zwei separaten Verfahren** (S. 801).
 
 **Kostenverteilung (12.7.7.3 — S. 804-805):**
-- **Kostenverteilungsverfuegung** (Art. 32d Abs. 3 USG): Verursacher kann Erlass verlangen; Kosten nach Art. 32d Abs. 1-3 verlegt; auch Untersuchungskosten (S. 804).
+- **Kostenverteilungsverfuegung** (Art. 32d **Abs. 4** USG — KORRIGIERT 2026-07-15 Modell-D Buch-Run 45, vorher faelschlich «Abs. 3»): die Behoerde erlaesst eine Verfuegung ueber die Kostenverteilung, wenn ein Verursacher dies verlangt oder die Behoerde die Massnahmen selber durchfuehrt; Kosten werden nach Art. 32d Abs. 1-3 verlegt; auch Untersuchungskosten (S. 804; raw/260714_amtlich_ch_usg.md).
 - **Ausfallkosten**: Gemeinwesen uebernimmt, wenn kein Verursacher belangt werden kann oder zahlungsunfaehig (Art. 32d Abs. 3 USG); bei nicht belastetem Standort traegt das Gemeinwesen die Untersuchungskosten (Art. 32d Abs. 5 USG; S. 804).
 - **Verhandlungsverfahren**: im Kanton ZH koennen Realleistungspflichtige eine Kostenverteilung im Verhandlungsverfahren erreichen (kuerzer, niedrigere Gebuehren; AWEL nimmt Einigung in Verfuegung zur Kenntnis; VASA-Fonds-Abgeltung bleibt bestehen; S. 805).
 

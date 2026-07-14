@@ -73,7 +73,7 @@ oder umbenannten Artikel aktualisieren.
 
 ### Bauen im Bestand
 - [[bestandsumbau-eingriffstiefe]] — Grundprinzip: Eingriffstiefe entscheidet über die Baueingabe; was eine Baueingabe auslöst (Brandschutz/Treppenhaus, Schallschutz SIA 181, Ausnützungsnachweis); Besitzstandsgarantie schützt nur Erhalt (nicht Ausweitung), behördlicher Ermessensspielraum; bewilligungsfreier Umbau = sicherste Variante · *established*
-- [[ausnahmebewilligung-und-bestandesschutz]] — die zwei Werkzeuge für vorschriftswidrige Bauten (ZH): **§ 220 PBG Ausnahmebewilligung** (besondere Verhältnisse / Gesetzeszweck / Nachbarschutz; nur kant./komm. Recht, **nie Bundesrecht**; Legaldefinitionen dispensfeindlich) + **§ 357 PBG Besitzstandsgarantie** (erweiterte Bestandesgarantie Umbau/Erweiterung/Nutzungsänderung; Grenze = **neubauähnliche Umgestaltung/Gesetzesumgehung, KEINE feste Quote**; Brandschutz/Bundesrecht keine «Bauvorschrift») · *emerging*
+- [[ausnahmebewilligung-und-bestandesschutz]] — die zwei Werkzeuge für vorschriftswidrige Bauten (ZH): **§ 220 PBG Ausnahmebewilligung** (besondere Verhältnisse / Gesetzeszweck / Nachbarschutz; nur kant./komm. Recht, **nie Bundesrecht**; Legaldefinitionen dispensfeindlich) + **§ 357 PBG Besitzstandsgarantie** (erweiterte Bestandesgarantie Umbau/Erweiterung/Nutzungsänderung; Grenze = **neubauähnliche Umgestaltung/Gesetzesumgehung, KEINE feste Quote**; Brandschutz/Bundesrecht keine «Bauvorschrift»; **§ 220 Abs. 2 Gemeinwesen-Ausnahme** + §§ 218/219-Trias volltextverifiziert Run 45) · *established*
 - [[20-ausnahmen-bestandesschutz]] (Destillat Bd 2, Kap. 20) — Buchsynthese §§ 220/357/307 PBG, Belegquelle · *emerging*
 
 ### Widerrechtliche Bauten & Sanktionen

@@ -7,7 +7,7 @@ shots: 135-155
 paragraphen: [§50 PBG, §76 PBG, §203 PBG, §204 PBG, §205 PBG, §207 PBG, §208 PBG, §209 PBG, §210 PBG, §211 PBG, §213 PBG, §216 PBG, §217 PBG, §238 PBG, §338b PBG, Art. 78 BV, Art. 2 NHG, Art. 3 NHG, Art. 5 NHG, Art. 7 NHG, Art. 8 NHG, Art. 13 NHG, Art. 17a NHG, Art. 25 NHG, Art. 17 RPG, KNHV]
 status: established
 gelesen: 2026-07-08
-last_updated: 2026-07-13
+last_updated: 2026-07-15
 verifiziert: 2026-07-12 (Modell-D-Volltextabgleich §§ 203/205/209/211/213/217 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31); 2026-07-13 (Modell-D §§ 203/205/207/210/211/216/217/50/76/238/338b PBG gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 37 — alle CONFIRMED bis auf § 238 Abs. 3-Zitat korrigiert auf Abs. 2, aufgehobener Absatz); 2026-07-14 (KNHV-Klaerung: Volltextabgleich gegen raw/260714_amtlich_zh_knhv.md, aktuelle konsolidierte Fassung Nachtrag 130 — KNHV ist NICHT aufgehoben und NICHT durch Nachfolgeerlass ersetzt; RRB vom 15.01.2025, in Kraft seit 01.08.2025, aendert nur § 3/§ 3a (Bundesinventare/Zustaendigkeit), alle hier zitierten §§ 4/6/7/8/10/12/23-28 KNHV CONFIRMED unveraendert)
 ---
 
@@ -59,7 +59,9 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
 - **4.2.2 Naturschutzobjekte:** unverdorbene Naturlandschaften (§ 203 Abs. 1 lit. a) — Kleinseen seit
   1941 durch Schutzverordnungen (Greifensee RB 2006 Nr. 64, **Pfaeffikersee BEZ 1991 Nr. 22**, Katzensee
   BEZ 2005 Nr. 34); Lebensraeume lit. g (Hecken RB 1990 Nr. 70, Feldgehoelze, Riedwiesen, Biotope,
-  Trockenstandorte, aufgegebene Kiesgruben; §§ 19-22 KNHV Landschaftsschutz). Moorgebiete Art. 78 Abs. 5
+  Trockenstandorte, aufgegebene Kiesgruben; **§ 13 KNHV Naturschutz** — Naturschutzobjekte sind
+  die Lebensraeume seltener/bedrohter Arten, §§ 13-18 KNHV; NICHT §§ 19-22, die abgegrenzte
+  Landschaften/Gelaendeabschnitte regeln. Volltextverifiziert § 13 Abs. 1 KNHV, raw/260714_amtlich_zh_knhv.md, Modell-D 2026-07-15). Moorgebiete Art. 78 Abs. 5
   BV → **Art. 18 ff. NHG**. **«Wertvoll» (lit. f)** = nicht nur biologisch/oekologisch, auch
   gestalterisch-aesthetisch. **Einzelbaum** nur schutzwuerdig, wenn er dominierenden, aussergewoehnlichen
   Akzent setzt und Quartier-/Strassenbild wesentlich mitpraegt (BEZ 2006 Nr. 29); sonst **planerischer
@@ -117,7 +119,16 @@ denkmalpflegerisch wichtigen Elemente werden geschuetzt.
   [Industriebauten/Bahnhoefe unter § 23 Abs. 2 "Objekte des Denkmalschutzes sind Einzelgebaeude und
   kleinere Gebaeudegruppen", Melde-/Bewilligungspflicht § 28] CONFIRMED unveraendert in der aktuellen
   Fassung Nachtrag 130 — gueltig seit 1.8.2025, keine Aenderung dieser §§ durch RRB 15.01.2025. Quelle:
-  raw/260714_amtlich_zh_knhv.md.)*
+  raw/260714_amtlich_zh_knhv.md.)* **(Volltextverifikation 2026-07-15, Modell-D Buch-Run 45, raw/260714_amtlich_zh_knhv.md:
+  amtliche Abschnitts-Randtitel bestaetigt — «II. Naturschutz» §§ 13-18, «III. Landschaftsschutz» §§ 19-22,
+  «IV. Ortsbild- und Denkmalschutz» §§ 23-28, «V. Kommunale Erholungsflaechen» §§ 29-32, «VI. Inkraftsetzung»
+  § 33. Neu belegt: **§ 13 Abs. 1 KNHV** — Naturschutzobjekte = Lebensraeume seltener/bedrohter Arten
+  (Feuchtgebiete, Ufervegetationen, Trockenstandorte, Magerwiesen, wertvolle Baeume/Baumbestaende, Hecken,
+  Feldgehoelze); **§ 14 KNHV** = planungsgerechter Schutz durch Freihaltezonen, «Festlegen von Abstandslinien
+  an Waldraendern und Gewaessern» sowie Regelungen zum Schutz des **Baumbestandes** (Fundstelle fuer
+  Abstandslinien Waldrand/Gewaesser + Baumbestand-Schutz); **§ 19 KNHV** Landschaftsschutzgebiete = abgegrenzte
+  Landschaften/Gelaendeabschnitte; **§ 30 KNHV** kommunale Erholungsflaechen-Richtwert 45 m²/Einwohner.
+  §§ 29-32 sind NICHT Schluss-/Uebergangsbestimmungen (das ist § 33 Inkraftsetzung), sondern Erholungsflaechen.)*
   - **4.3.3.1 Planungsrecht (§ 205 lit. a):** **Freihaltezonen** (§ 39 Abs. 1 / § 61 Abs. 2 PBG,
     ausdruecklich NHS-Zweck); **Erholungszone ist KEIN taugliches NHS-Mittel** (BRGE III Nr. 0033/2015).
     Staerkstes Mittel im Denkmalschutz: **Kernzone § 50 PBG** (Stadt-/Dorfkerne; § 50 Abs. 2/3 BZO kann
