@@ -39,7 +39,15 @@
  *                               baulinien = OEREB-Baulinien + Abstandslinien Kt. ZH (Verkehrsbaulinie
  *                                           0158, Wald-/Gewaesserabstand 0152/0153, Waldgrenze 0150,
  *                                           Gewaesserraum 0185) im Umkreis (default ±150 m, --radius)
- *                             height/orthofoto/dtm/bauzonen/zonenplan/baulinien brauchen eine Koordinate -> nur mit --adresse
+ *                               denkmalschutz = Denkmalschutzobjekte (0368, Punkt: Ensemble/Objekt/
+ *                                           Baujahr/Einstufung/GVZ-Nr./EGID) + archaeologische Zonen
+ *                                           (0087, Flaeche) Kt. ZH im Umkreis (default ±60 m, --radius).
+ *                                           NUR ueberkommunale/kantonale Denkmalpflege-Kompetenz (§§
+ *                                           203/211 PBG) — kommunale Schutzobjekte fuehrt jede Gemeinde
+ *                                           separat, hier nicht erschlossen. Kein Negativbeweis: auch
+ *                                           ohne Treffer kann ein Gebaeude Schutzobjekt sein (§ 209
+ *                                           Abs. 2 PBG).
+ *                             height/orthofoto/dtm/bauzonen/zonenplan/baulinien/denkmalschutz brauchen eine Koordinate -> nur mit --adresse
  *   --download                bei orthofoto/dtm zusaetzlich die hoechstaufgeloesten Kacheln laden
  *   --radius <n>              Suchradius: Meter fuer baulinien (default 150) bzw. STAC-bbox-Grad
  *                             fuer orthofoto/dtm (default 0.0008, sonst adaptiv verdoppelt)
@@ -121,6 +129,39 @@ const BAULINIE_LAYER = {
   waldgrenze:      "ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_l", // statische Waldgrenze (150.1)
   gewaesserraum:   "ms:ogd-0185_arv_basis_gewaesserraum_f",            // Gewaesserraum-Flaeche (185.1)
 };
+// Denkmalschutz/Archaeologie Kt. ZH (K34, Run 40 2026-07-14, via wissen/planungsgrundlagen
+// kartenportale-denkmalschutz-isos.md) — nur ueberkommunale/kantonale Objekte (Kompetenz kant.
+// Denkmalpflege, §§ 203/211 PBG); kommunale Schutzobjekte fuehrt die Gemeinde separat (nicht hier
+// erschlossen). Layer per GetCapabilities gefunden + live an Wald ZH Benchmark (Kat. 604,
+// 2711892/1236834) verifiziert: Denkmalschutzobjekte liefert Ensemble/Objekt/Baujahr/Einstufung/
+// GVZ-Nr./EGID, Archzonen liefert nur die Zonen-Nummer/Suchbegriff (kein Feinattribut).
+const DENKMALSCHUTZ_LAYER = {
+  objekte: "ms:ogd-0368_giszhpub_arv_kaz_denkmalschutzobjekte_p", // Denkmalschutzobjekte (Punkt)
+  archzonen: "ms:ogd-0087_arv_kaz_archzonen_f",                   // archaeologische Zonen (Flaeche)
+};
+async function fetchDenkmalschutz(e, n, half = 60) {
+  const out = { objekte: [], archzonen: [], layer: DENKMALSCHUTZ_LAYER };
+  try {
+    const d = await getJson(ogdWfsUrl(DENKMALSCHUTZ_LAYER.objekte, e, n, half));
+    out.objekte = (d.features || []).map((f) => {
+      const p = f.properties || {};
+      return {
+        ensemble: p.ensemble || null, objekt: p.objekt || null, baujahr: p.baujahr || null,
+        einstufung: p.einstufung || null, erlass: p.erlass || null, schutz: p.schutz || null,
+        strasse: p.strasse || null, gvz_nr: p.gvz_nr || null, egid: p.egid || null,
+        katasternummer: p.katasternummer || null,
+      };
+    });
+  } catch { /* optional */ }
+  try {
+    const d = await getJson(ogdWfsUrl(DENKMALSCHUTZ_LAYER.archzonen, e, n, half));
+    out.archzonen = (d.features || []).map((f) => {
+      const p = f.properties || {};
+      return { name: p.name || null, zonen_nr: p.zonen_nr || null, ag_suchbegriff: p.ag_suchbegriff || null };
+    });
+  } catch { /* optional */ }
+  return out;
+}
 // Projektierte/in Revision befindliche Abstandslinien (K5-Rest/Run 19, analog A6 bei zonenplan).
 // Existenz+Namensschema per GetCapabilities verifiziert 2026-07-13 — ACHTUNG, kein einheitliches
 // Muster (Falle beim Nachpflegen): waldgrenze traegt "_prj_l" (nicht "_proj_l"), gewaesser-Linie
@@ -568,8 +609,21 @@ function isoDate() {
                   L(`     -> ${dest}`);
                 }
               }
+            } else if (prod === "denkmalschutz") {
+              if (result.kanton !== "zh") throw new Error(`denkmalschutz ist nur fuer Kt. ZH hinterlegt (Kanton ${result.kanton})`);
+              const half = a.radius ? Number(a.radius) : 60;
+              const dm = await fetchDenkmalschutz(c.east, c.north, half);
+              result.produkte.denkmalschutz = dm;
+              const teile = [
+                dm.objekte.length && `${dm.objekte.length} Denkmalschutzobjekt(e)`,
+                dm.archzonen.length && `${dm.archzonen.length} archaeologische Zone(n)`,
+              ].filter(Boolean);
+              L(`   denkmalschutz (±${half}m, nur ueberkommunal/kantonal — kommunale Objekte separat bei Gemeinde erfragen): ${teile.length ? teile.join(" · ") : "keine Treffer im Fenster"}`);
+              if (dm.objekte.length) {
+                for (const o of dm.objekte) L(`     - ${o.ensemble ?? "?"} / ${o.objekt ?? "?"} (${o.baujahr ?? "Baujahr ?"}, Einstufung ${o.einstufung ?? "?"})`);
+              }
             } else {
-              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen,zonenplan,baulinien)`);
+              L(`! Unbekanntes Produkt "${prod}" (gueltig: height,orthofoto,dtm,gebaeude,punktwolke,bauzonen,zonenplan,baulinien,denkmalschutz)`);
             }
           } catch (e) {
             result.produkte[prod] = { error: e.message };

@@ -3,7 +3,7 @@ title: Geoportale — welches Portal liefert was
 status: established
 last_updated: 2026-07-14
 sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht uebernommen], LINK_Geodienste.docx Bestellbestaetigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38)]
-links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[recht-norm-dispensrecht]]
+links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[kartenportale-denkmalschutz-isos]] [[recht-norm-dispensrecht]]
 ---
 
 # Geoportale — welches Portal liefert was
@@ -18,7 +18,7 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
 |---|---|---|---|
 | `map.geo.admin.ch` / api3.geo.admin.ch | CH (Bund) | Orthofoto (SWISSIMAGE), Hoehenmodell (swissALTI3D), Gebaeudekuben (swissBUILDINGS3D), amtl. Vermessung/EGRID, LIDAR | nein |
 | `maps.zh.ch` (GIS-Browser) | Kt. ZH | OEREB-Kataster, Zonenplan, Baulinien, kant. Fachdaten | nein (OEREB) |
-| `maps.zh.ch/wfs/OGDZHWFS` | Kt. ZH | **OGD-WFS (GeoJSON, login-frei):** Grundnutzung/Zonenplan 0156 (+ proj-Revision), ES Laerm 0154, ueberlagernd 0155, Baulinien/Abstandslinien 0158/0152/0153/0150/0185 — Connector `--produkt zonenplan,baulinien` | **nein** |
+| `maps.zh.ch/wfs/OGDZHWFS` | Kt. ZH | **OGD-WFS (GeoJSON, login-frei):** Grundnutzung/Zonenplan 0156 (+ proj-Revision), ES Laerm 0154, ueberlagernd 0155, Baulinien/Abstandslinien 0158/0152/0153/0150/0185, Denkmalschutzobjekte 0368 + archaeologische Zonen 0087 (nur ueberkommunal/kantonal, K34) — Connector `--produkt zonenplan,baulinien,denkmalschutz` | **nein** |
 | `geoservices.zh.ch/geoshopapi` | Kt. ZH | **Geodatenshop-REST-API**: AV/Grundstueckkataster (DXF), Hoehenmodelle, LIDAR u.v.m. je Gemeinde/Parzelle — Connector `geoshop-zh.mjs` | **nein** |
 | `geodienste.ch` | CH (kantonsweise) | OGD-Downloads amtl. Vermessung (INTERLIS ganzer Kanton direkt; DXF-GEOBAU nur Formular), OEREB-Abstandslinien | tlw. Account |
 | `geoportal.ch` | div. Gemeinden (SZ/ZG…) | kommunale GIS (Einsiedeln, Oberaegeri, Wald…) | tlw. |
@@ -83,6 +83,7 @@ Welches Format wofuer, wenn man die Rohdaten weiterverarbeitet:
 | **XYZ / LAZ (.xyz.zip/.laz)** | Punktraster / Punktwolke (LIDAR) | Schnitte/Gelaende/Volumen (swissALTI3D-XYZ, swisssurface3D-LAZ); gross → nur bei Bedarf |
 | **LandXML** | Vermessungs-/Terrain-Austausch (Punkte, Bruchkanten, DGM) | Uebergabe an Geometer/Tiefbau; weniger gebraucht in der Architektur-Vorstufe |
 | **GeoPackage (.gpkg)** | SQLite-Container fuer Vektor+Raster | moderner Sammelcontainer (statt Shapefile); gut fuer kombinierte Layer-Ablage |
+| **File Geodatabase (.gdb)** | proprietaeres ESRI-Containerformat (Ordnerstruktur, kein Einzelfile) | **kommt in der JANS-Praxis selten direkt vor** (ArcGIS-Oekosystem); bei Erhalt zuerst nach einem gaengigeren Exportformat beim Absender fragen |
 
 Faustregel JANS: **GeoJSON** zum Abfragen/Pruefen, **DXF** in den CAD-Plan, **GeoTIFF** fuer
 Bild/Terrain, **INTERLIS** nur wenn der modellvollstaendige amtliche Datensatz noetig ist.
@@ -92,6 +93,28 @@ XML/` (3 Screenshots, 05.06.2024) enthaelt **keinen geodatenspezifischen Inhalt*
 zeigen eine generische Web-Erklaerung "Was ist XML?" (Adobe-Artikel-Ausschnitt) und eine
 Google-Suchergebnis-Seite zu "xml datei"; kein Bezug zu INTERLIS/GML/geodatenspezifischem
 XML-Schema. Kein Delta zur bestehenden 7-Format-Tabelle oben (K8).
+
+**Delta zur 7-Format-Tabelle (K35, Run 40 2026-07-14):** `Datenformate_Geokartenmaterial/
+Gdb Format.docx` (Notiz Raphael Jans, 04.06.2024) beschreibt das **8. Format .gdb** (File
+Geodatabase), das bislang in der Tabelle fehlte — kein Rohdaten-Austauschformat im engeren Sinn
+(GeoJSON/DXF/GeoTIFF), sondern das native ESRI-Arbeitsformat von ArcGIS Desktop/Pro. Fuer die
+JANS-Weiterverarbeitung in 3D-/CAD-Programmen relevanter **Umweg statt Direktimport**: .gdb muss
+zuerst ueber **ArcGIS Pro/ArcMap** ODER **QGIS** (Plugin „OpenFileGDB") in ein gaengiges
+Zwischenformat exportiert werden — je nach Zielprogramm:
+
+| Zielprogramm | Import-fähige Formate (aus der Notiz) |
+|---|---|
+| Cinema 4D (C4D) | .obj, .fbx, .dae (Collada) |
+| Rhino | .obj, .fbx, .dxf |
+| ArchiCAD | .dxf, .dwg (BIM-Import) |
+| AutoCAD | .dxf, .dwg |
+| Revit | .dwg |
+| QGIS | direkt (Plugin OpenFileGDB), Re-Export nach .shp/.dxf/.obj moeglich |
+
+Praxis-Konsequenz: erhaelt JANS Daten im .gdb-Format (z.B. von einer Behoerde/einem
+GIS-Dienstleister mit ArcGIS-Umfeld), lohnt sich die Rueckfrage nach einem direkten
+DXF-/OBJ-Export, statt selbst eine ArcGIS-Lizenz zu beschaffen — QGIS mit OpenFileGDB-Plugin ist
+der kostenlose Umweg, falls die Gegenseite nicht liefern kann/will.
 
 ## Baumkataster (K12, niedrige Prioritaet, Run 24 2026-07-13)
 
