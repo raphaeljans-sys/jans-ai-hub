@@ -1,3 +1,17 @@
+## 2026-07-14 — VKF-Verzeichnis 40-15 "Weitere Bestimmungen": Destillat vervollstaendigt + adversarial vollverifiziert
+- Destillat `destillate/vkf-verz-40-15-weitere-bestimmungen.md` war laut Frontmatter nur teilweise
+  destilliert (Ziff. 3.7-3.9 + Abkuerzungsverzeichnis Kap. 4 fehlten). Original-PDF (22 Seiten)
+  komplett gelesen und Luecke geschlossen: BSE 106-15 (Pelletsfeuerungen), BSE 107-15 (temporaere
+  Flüssiggasanlagen), BSE 108-15 (Betriebsbereitschaft Brandfallsteuerungen) sowie das komplette
+  Abkuerzungsverzeichnis (Kap. 4, S. 22) ergaenzt.
+- Adversariale Vollverifikation des gesamten Destillats (auch der zuvor bereits destillierten Teile)
+  gegen das Original: ~140 Einzelaussagen geprueft. Zwei inhaltliche Ergaenzungen in BSR 26-15
+  nachgetragen (SR 832.314.12/SR 832.312.17 Spritz-/Lackierarbeiten, Regeln der Technik VWF T1d-T9d
+  SVTI). Auffaelligkeit dokumentiert: Ziff. 3.7-3.9 verweisen im Original selbst wortidentisch auf
+  die fuer Schnitzelfeuerungen (BSE 105-15) einschlaegige SUVA-Informationsschrift 66050 — ein
+  Vorlagenfehler der VKF im Originaldokument, kein Uebertragungsfehler des Destillats.
+- Status auf `established (verifiziert 260714, vollstaendig)` gesetzt.
+
 ## 2026-07-14 — normen-training-mini Run 18 Abschluss (Mac Mini): Inventar-Bookkeeping fuer 14 DIN/VSS-Retro-Verifikationen nachgezogen
 - Ein bereits laufender Hintergrund-Lauf (Vollgas-Runner) hatte 14 DIN/VSS-Kernnormen retro-verifiziert
   (din-1045-2-2008, din-18065-2000, din-277-3-2005, din-4844-2-2001, din-en-12101-2-2003,
