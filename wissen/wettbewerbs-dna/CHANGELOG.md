@@ -1,5 +1,43 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-14 — Nachbrenner: Etappe-3-Schulbau B3-Ziel erreicht (9 Draft-Destillate → established)
+- **Auftrag:** Scheduled Task `wettbewerbs-layer-nachbrenner`, Fortsetzung des laufenden
+  Etappe-3-Ultra-Laufs Schulbau (`training/ETAPPE-3.md`). Stand-Tabelle zeigte 23
+  Destillate in `wiki/extern/`, davon 9 noch `draft`: hinter-gaerten-riehen,
+  kantonsschule-baden, niederrohrdorf, oberstufe-schoenau-steffisburg,
+  ochsenmatt-4-menzingen, schulhaus-littau-luzern, schulhaus-muhen,
+  tagesbetreuung-boppartshof-st-gallen, turnhalle-tagesschule-baetterkinden.
+- **Verifikation:** je 1 unabhaengiger Refuter-Agent pro Artikel, parallel gefahren,
+  jeder gegen den vollstaendigen `raw/extern-jurybericht-<slug>.txt`-Rohtext:
+  - hinter-gaerten-riehen: 60 Aussagen geprueft, 0 Fehler → established.
+  - kantonsschule-baden: 30 Aussagen geprueft, 2 Fehler korrigiert (Auslober-Vertretung
+    BKS+DFR statt Immobilien Aargau; HNF 3'500 m2 bezieht sich auf beide Neubauten,
+    nicht nur MINT-Cluster) → established.
+  - niederrohrdorf: 45 Aussagen geprueft, 2 Seitenangaben korrigiert (S. 44 → S. 43,
+    zwei Rudi-Zitate) → established.
+  - oberstufe-schoenau-steffisburg: 45 Aussagen geprueft (kompletter 2818-Zeilen-Rohtext),
+    0 Fehler → established.
+  - ochsenmatt-4-menzingen: 45 Aussagen geprueft, 0 Fehler → established.
+  - schulhaus-littau-luzern: 25 Aussagen geprueft, 2 Seitenangaben korrigiert (S. 28/30 →
+    S. 31 bzw. S. 28-29) → established.
+  - schulhaus-muhen: 24 Aussagen geprueft, 0 Fehler → established.
+  - tagesbetreuung-boppartshof-st-gallen: 70 Aussagen geprueft (92-seitiger Bericht,
+    Kap. 1-11 vollstaendig), 1 Seitenangabe korrigiert (S. 61 → S. 60, Projekt baumboppi,
+    zweifach im Artikel) → established.
+  - turnhalle-tagesschule-baetterkinden: 35 Aussagen geprueft, 1 Fehler korrigiert
+    (Sieger «Faltwerk» faelschlich als «kompaktestes Projekt» bezeichnet — Rohtext sagt
+    explizit ueberdurchschnittlich grosses Volumen bei kleiner Grundflaeche; DNA-Regel 1
+    praezisiert: Volumen-Typologie ≠ Gebaeudegroesse) → established.
+- **Ergebnis:** alle 9 auf `established` gehoben, `last_updated: 2026-07-14`. Damit sind
+  **23 von 23 externen Schulbau-Jury-Referenzen established** — das B3-Ziel der Etappe 3
+  fuer die Bauaufgabe Schulbau (Prio 1) ist erreicht. Bookkeeping nachgefuehrt: INDEX.md
+  (Teilnahmen-/Referenz-Tabellen, Stand-Zeile), `training/ETAPPE-3.md` (Stand-Tabelle B2/B3
+  aktualisiert, Lauf-Log-Eintrag «Nachbrenner»).
+- **Naechster Schritt (naechster Loop-Lauf):** B4 — Muster `wiki/muster/jury-argumente-
+  schulbauten.md` von Basis 11 auf alle 23 ausgewerteten Berichte additiv erweitern
+  (Refuter-Welle mit 5 parallelen Quellen-Shard-Refutern + 1 Konsistenz-Refuter gemaess
+  ETAPPE-3.md), danach B5 (Parameter-Set-Revision) und B6 (Kennwert-Benchmark).
+
 ## 2026-07-14 — Nachbrenner-Task erneut ausgeloest, Bestand bereits vollstaendig (kein Content-Update)
 - **Auftrag:** Scheduled Task `wettbewerbs-layer-nachbrenner` (23:05) lief erneut mit dem
   Original-Auftrag vom 12.07.2026 (Vollendung der damals durch das Session-Limit

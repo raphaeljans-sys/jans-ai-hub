@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Schulanlage Oberstufe Schönau, Steffisburg — Sanierung und Erweiterung (Studienauftrag 2026)"
-status: draft
+status: established
 last_updated: 2026-07-14
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2026-05/steffisburg-scho%CC%88nau-jurybericht.pdf (Bericht des Beurteilungsgremiums, Gemeinde Steffisburg, genehmigt 23.02.2026, 25 PDF-Seiten / interne Paginierung bis S. 47)"

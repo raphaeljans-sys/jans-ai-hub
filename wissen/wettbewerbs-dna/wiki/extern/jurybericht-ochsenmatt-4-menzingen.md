@@ -1,6 +1,6 @@
 ---
 title: "Jurybericht Neubau Schulhaus Ochsenmatt 4, Menzingen ZG — Kindergarten, Primarschule und Betreuung mit Tiefgarage (2026)"
-status: draft
+status: established
 last_updated: 2026-07-14
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2026-04/menzingen-ochsenmatt-jurybericht.pdf (Bericht des Preisgerichts, Einwohnergemeinde Menzingen, Zürich 5. Februar 2026, 78 Seiten)"

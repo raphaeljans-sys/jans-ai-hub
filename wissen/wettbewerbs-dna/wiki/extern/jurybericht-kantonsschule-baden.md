@@ -1,7 +1,7 @@
 ---
 title: "Extern-Jurybericht: Kantonsschule Baden, bauliche Erweiterung (2021)"
-status: draft
-last_updated: 2026-07-12
+status: established
+last_updated: 2026-07-14
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/1 Schulen/00 Turnhallentypologie/6 Turnhalle versenkt/Baden Kantonsschule Bernath Widmer/20210426101452_976_Jurybericht_Kantonsschule-Baden_bauliche-Erweiterung.pdf"
   - "/Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-kantonsschule-baden.txt"
@@ -18,12 +18,15 @@ Turnhalle versenkt). Alle Seitenzahlen beziehen sich auf die gedruckte Berichtse
 
 - Verfahren: einstufiger offener Projektwettbewerb (Generalplaner-Submission), SIA 142
   subsidiaer (S. 5); 43 Beitraege, alle zur Beurteilung zugelassen (S. 11).
-- Auslober: Kanton Aargau (Departement BKS + DFR), vertreten durch Immobilien Aargau;
-  Verfahrensbegleitung Metron Raumentwicklung AG (S. 5).
-- Jurierung: 10.12.2020 und 28.01.2021; Bericht Maerz 2021 (S. 6, 11-12).
+- Auslober: Kanton Aargau, vertreten durch das Departement Bildung, Kultur und Sport
+  (BKS) sowie das Departement Finanzen und Ressourcen (DFR); Bericht herausgegeben von
+  Immobilien Aargau, Verfahrensbegleitung Metron Raumentwicklung AG (S. 5).
+- Jurierung: laut Terminplan 10.12.2020 (S. 5), tatsaechliche erste Sitzung Freitag,
+  11.12.2020 (S. 11), zweite Sitzung 28.01.2021 (S. 12); Bericht Maerz 2021.
 - Bauaufgabe: Erweiterung der Kantonsschule Baden auf dem denkmalgeschuetzten Campus
-  von Fritz Haller (Masterplan Haller/Zulauf): Neubau Cluster MINT mit rund 3'500 m2 HNF
-  plus Doppelsporthalle Typ B mit vom Schulbetrieb (Cluster MINT) unabhaengigem Zugang
+  von Fritz Haller (Masterplan Haller/Zulauf): Neubau Cluster MINT (Physik, Mathematik,
+  Informatik, Geografie) plus Doppelsporthalle Typ B, beide Neubauten zusammen rund
+  3'500 m2 HNF, mit vom Schulbetrieb (Cluster MINT) unabhaengigem Zugang
   fuer die Vereinsnutzung (rund ein Drittel der Nutzungszeit entfaellt auf Vereine);
   Provisorien und Parkdeck
   werden abgebrochen; Aussenraum sehr knapp bemessen, grosse Rasenflaeche und

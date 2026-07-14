@@ -41,7 +41,7 @@ ein maschinenlesbares **Parameter-Set** fuer `volumenstudie`/`machbarkeit`/
 
 | Bauaufgabe | B1 Sweep | B2 Raw | B3 Destillate (est./Ziel) | B4 Muster | B5 Param-Set | B6 Kennwerte |
 |---|---|---|---|---|---|---|
-| Schulbau (Prio 1) | ausstehend | 17 Bestand | 17/23 | established (Basis 11, Erweiterung ausstehend) | ausstehend | ausstehend |
+| Schulbau (Prio 1) | erledigt (`outputs/2026-07-14_etappe3-schulbau-sweep.md`) | 23 Bestand | **23/23 established** | established (Basis 11, Erweiterung auf 23 ausstehend) | ausstehend | ausstehend |
 | Healthcare (Prio 2) | ausstehend | — | 0/8 | — | healthcare-neubau-zh.json v1.0 vorhanden (Revision nach B6) | ausstehend |
 | Wohnungsbau (Prio 3) | ausstehend | — | 0/8 | — | wohnen-mfh-urban.json v1.0 vorhanden (Revision nach B6) | ausstehend |
 
@@ -70,4 +70,5 @@ naechste Etappe vorschlagen (weitere Bauaufgaben oder Vertiefung, Entscheid Raph
 ## Lauf-Log
 
 | Lauf | Datum | Inhalt | Status |
-| Ultra-1 | 14.07.2026 | Infrastruktur angelegt (diese Datei, QUESTIONS-Blocker geschlossen, INDEX-Reconcile 15→17); Ultra-Workflow Schulbau gestartet | laufend |
+| Ultra-1 | 14.07.2026 | Infrastruktur angelegt (diese Datei, QUESTIONS-Blocker geschlossen, INDEX-Reconcile 15→17); Ultra-Workflow Schulbau gestartet: B1-Sweep (12 Kandidaten, alle frei-pdf) + B2/B3 fuer 6 neue Kandidaten destilliert | erledigt |
+| Nachbrenner | 14.07.2026 | **B3-Ziel Schulbau erreicht:** 9 verbliebene Draft-Destillate (hinter-gaerten-riehen, kantonsschule-baden, niederrohrdorf, oberstufe-schoenau-steffisburg, ochsenmatt-4-menzingen, schulhaus-littau-luzern, schulhaus-muhen, tagesbetreuung-boppartshof-st-gallen, turnhalle-tagesschule-baetterkinden) je durch 1 unabhaengigen Refuter-Agenten gegen `raw/extern-jurybericht-*.txt` geprueft — diverse Seitenangaben-/Zuordnungsfehler direkt korrigiert, alle 9 auf established gehoben. Damit 23/23 Schulbau-Destillate established. Naechster Schritt: B4 (Muster-Erweiterung jury-argumente-schulbauten von Basis 11 auf 23), danach B5/B6 | erledigt |

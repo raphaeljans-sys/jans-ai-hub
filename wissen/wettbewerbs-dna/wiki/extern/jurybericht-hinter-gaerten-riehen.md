@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Erweiterung Schulhaus Hinter Gärten, Riehen — Studienauftrag Primarschule (2026)"
-status: draft
+status: established
 last_updated: 2026-07-14
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2026-05/riehen-hinter-ga%CC%88rten-jurybericht.pdf (Schlussbericht des Beurteilungsgremiums, Einwohnergemeinde Riehen, Stand 03.02.2026, 32 Berichtsseiten + Planbeilagen)"

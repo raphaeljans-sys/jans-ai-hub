@@ -1,12 +1,14 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 13.07.2026 (Lauf 5: **Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert**
-— der letzte offene Endbedingung-Punkt Etappe 2, neuer Artikel `wiki/referenz-katalog.md`;
-5. Beobachtung 2501/2507 ohne neues Material lokal + extern. Zusaetzlich: `muster/jury-
-argumente-schulbauten.md` nach durchgefallenem Refuter-Lauf ueberarbeitet (10 Korrekturen)
-und im fokussierten Zweitlauf 10/10 bestaetigt → **established**. Weiterhin: alle 11
-Teilnahmen established; 2502 leer; 15 Jury-Referenzen + 9 Board-Analysen; 3 Muster-Artikel
-+ 1 Katalog; 4 Reports; Normbezug SIA 400/142/143)
+Stand: 14.07.2026 (Etappe-3-Nachbrenner: **alle 9 verbliebenen Draft-Destillate auf
+established gehoben** — parallele Refuter-Welle gegen `raw/extern-jurybericht-*.txt`
+fuer hinter-gaerten-riehen, kantonsschule-baden, niederrohrdorf,
+oberstufe-schoenau-steffisburg, ochsenmatt-4-menzingen, schulhaus-littau-luzern,
+schulhaus-muhen, tagesbetreuung-boppartshof-st-gallen,
+turnhalle-tagesschule-baetterkinden; je 1 unabhaengiger Refuter-Agent pro Artikel,
+mehrere Seitenangaben-/Zuordnungsfehler direkt korrigiert (Details CHANGELOG). Damit
+**alle 23 externen Jury-Referenzen established** — B3-Destillate-Ziel Etappe 3
+Schulbau erreicht. Vorher 13.07.2026 Lauf 5: Referenz-Katalog indexiert.)
 
 ## Teilnahmen (Dossiers) — 11 von 11 destilliert und verifiziert
 
@@ -58,16 +60,22 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 17, ganz ueberwiegend established
+## Externe Referenz-Juryberichte (wiki/extern/) — 23 von 23 established
 
-Schul-/Bildungsbau 2012–2022: bruehl-solothurn, faellanden, froeschmatt-pratteln,
-heilpaedagogische-schule-bern, kantonsschule-baden, kantonsschule-wattwil, merian-basel,
-sandgruben-basel, schulanlage-grossaffoltern, schule-hausen-am-albis, schulhaus-littau-luzern,
-schulhaus-muhen, sekundarschule-sursee, thurgauerstrasse-zuerich,
+Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
+heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,
+kantonsschule-wattwil, kantonsschule-zimmerberg-waedenswil-au, merian-basel,
+niederrohrdorf, oberstufe-schoenau-steffisburg, ochsenmatt-4-menzingen,
+sandgruben-basel, schulanlage-grossaffoltern, schule-hausen-am-albis,
+schulhaus-littau-luzern, schulhaus-muhen, sekundarschule-sursee,
+tagesbetreuung-boppartshof-st-gallen, thurgauerstrasse-zuerich,
 turnhalle-tagesschule-baetterkinden, volksschule-stoeckacker-bern, zelgli-schlieren.
-(Reconcile 14.07.2026: littau-luzern + baetterkinden nachgetragen — lagen als Artikel+Extrakt
-vor, fehlten in dieser Liste. Verifikationswelle 12.07.: 22 von 24 extern+board auf established
-gehoben; Rest-draft nur bei nicht aufloesbarem OCR-/Scan-Vorbehalt.)
+(Etappe-3-Sweep 14.07.2026: 6 neue Kandidaten aus `outputs/2026-07-14_etappe3-schulbau-
+sweep.md` ergaenzt — hinter-gaerten-riehen, kantonsschule-baden, kantonsschule-zimmerberg-
+waedenswil-au, niederrohrdorf, oberstufe-schoenau-steffisburg, ochsenmatt-4-menzingen;
+alle 6 refuter-verifiziert → established. Reconcile 14.07.2026: littau-luzern +
+baetterkinden nachgetragen und ebenfalls refuter-verifiziert. Verifikationswelle 12.07.:
+22 von 24 extern+board auf established gehoben.)
 
 ## Board-DNA (wiki/board-dna/) — 9, ueberwiegend established
 

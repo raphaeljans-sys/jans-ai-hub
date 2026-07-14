@@ -1,7 +1,7 @@
 ---
 title: "Jurybericht Ersatzneubau Schulhaus und Turnhalle Süd, Muhen AG (2015)"
-status: draft
-last_updated: 2026-07-12
+status: established
+last_updated: 2026-07-14
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/12 Berichte/Muhen 20150610160457_133_2015_jurybericht_schulhaus_muhen.pdf"
   - "/Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-schulhaus-muhen.txt (OCR-Extrakt, Scan ohne Textlayer)"

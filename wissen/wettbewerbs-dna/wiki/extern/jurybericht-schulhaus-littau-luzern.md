@@ -1,7 +1,7 @@
 ---
 title: "Jurybericht Gesamtsanierung und Erweiterung Schulhaus Littau Dorf, Stadt Luzern (2020)"
-status: draft
-last_updated: 2026-07-12
+status: established
+last_updated: 2026-07-14
 sources:
   - "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2103 WB Luzern Steinhofschule/07 Referenzen/Luzern Schulhaus Littau Dorf/schulhaus-littau-jurybericht.pdf (129 Seiten, genehmigt 23.07.2020)"
   - "raw/extern-jurybericht-schulhaus-littau-luzern.txt (pdftotext-Extrakt, 12.07.2026; Plan-/Bildseiten und Raenge 4–7 nicht extrahiert)"
@@ -26,7 +26,7 @@ links:
 - **Setzung:** Weiterschreiben der doerflichen Struktur durch drei geschickt positionierte Neubauten; die praezise Setzung sichert die Fernwirkung des erhaltenswerten Traktes A und verhilft dem Trakt B aus den 1960er-Jahren zu einem ueberzeugenden Auftritt. Der hoeher gelegene Schulplatz wird von Klassenbauten, der tieferliegende Schulpark von Gebaeuden oeffentlicherer Nutzung gefasst; die Topografie wird als Entwurfsthema aufgenommen (S. 28).
 - **Kernargumente der Jury:**
   1. «Massgeschneiderter ortsbaulicher Ansatz» fuer Quartier und schulbetriebliche Anforderungen war das ausschlaggebende Argument gegenueber den «sehr gegensaetzlichen» Ansaetzen (S. 22, 23).
-  2. Gekonnter Umgang mit Topografie und Gehoelzvolumen in allen Massstaeben; durchlaessige, parkartige Freiraeume erlauben schulischen und oeffentlichen Nutzungen ein «stoerungsfreies Nebeneinander» (S. 28, 30).
+  2. Gekonnter Umgang mit Topografie und Gehoelzvolumen in allen Massstaeben (S. 28); durchlaessige, parkartige Freiraeume erlauben schulischen und oeffentlichen Nutzungen ein «stoerungsfreies Nebeneinander» (Würdigung, S. 31).
   3. Ueberzeugende Grundrissorganisation: Unterrichtsgeschosse um eine zentrale Atelierzone als Lern- und Begegnungsraum, begegnungsfoerdernde Lounge im EG, konsequente Entflechtung von Betreuungspavillon und Dreifachturnhalle (direkt ab Cheerstrasse) fuer einwandfreien schulischen und oeffentlichen Betrieb (S. 29).
   4. Holzbauweise mit aussteifenden Kernen, hoher Holzanteil (tiefe graue Energie), rasterartige Grundrisse mit konsequenter Systemtrennung; Etappierung ohne Provisorien und ohne Beeintraechtigung des laufenden Schulbetriebs (S. 30).
 - **Kritik/Weiterbearbeitung (S. 24):** vergleichsweise flaechen- und kostenintensives Projekt, Optimierungspotenzial/Effizienz ausloten ohne Qualitaetsverlust; architektonischen Ausdruck der Neubauten differenzieren; Betreuungsgrundrisse praezisieren; der «kontextfremde Fluchtbalkon» ist ortsangepasst zu ueberarbeiten.
@@ -37,14 +37,14 @@ links:
 - **Grundrissqualitaet ist der Differenzierer unter den Top-Raengen.** Rang 3 «Det aene am Bergli» (parallel zur Cheerstrasse gesetzter Baukoerper, treppenartige Klassenzimmer entlang der Gelaendekante, ueberzeugender Staedtebau/Topografie) verliert, weil die Grundrisse «ueber weite Strecken nicht im selben Mass zu ueberzeugen» vermoegen: lange, enge, dunkle Korridore, eingeschraenkte Nutzbarkeit, ausschliessliche Nordorientierung der Klassenzimmer unter grossem Vordach (S. 53–54). Umgekehrt setzte sich Rang 2 «Pelikan» gegen Rang 4 «Milestones» gerade durch die innovativeren Grundrisse und die subtilere Setzung durch (S. 22).
 - **Das Tragwerk muss halten, was die Architektur verspricht.** Rang 2 «Pelikan» (Neubauten um das bestehende Hauptgebaeude gruppiert, Aula als dreigeschossiger Luftraum, Schulcluster mit Atelierbereichen) wird trotz «bestechender» innenraeumlicher Qualitaet zurueckgestuft: das statische Konzept mit Abfangscheiben ueber der Turnhalle scheitert am Schubfluss durch grosse Aussparungen und bleibt eine kostspielige Massivbau-Loesung; das Ensemble wirkt zudem «eher hermetisch» und wenig durchquerbar (S. 41–42).
 - **Vorpruefung Brandschutz/Kosten als harter Filter der engeren Wahl.** Bei den Projekten «Frederick», «Ueber Eck» und «Det aene am Bergli» wurden Maengel festgestellt, die eine Erteilung des 1. Preises verunmoeglicht haetten; «Ueber Eck» steht im Widerspruch zu diversen Brandschutzvorschriften mit «erheblichen Mehrkosten» (S. 18–19, 22).
-- **Geringe Eingriffstiefe in Bestand und Topografie wird belohnt.** Der Sieger ueberzeugt durch «moeglichst geringe Eingriffstiefe in den baulichen und topographischen Bestand»; anspruchsvolle Topografie, Bestand und Wald erzeugten die grosse Bandbreite an Loesungen (S. 23, 30).
-- **Etappierung ohne Provisorien bei durchgehendem Schulbetrieb** ist zugleich Programmvorgabe und Pluspunkt: der Sieger baut zuerst Turnhalle und Gemeinschaftshaus, das uebergangsweise als Klassenhaus dient (S. 5, 29–30).
+- **Geringe Eingriffstiefe in Bestand und Topografie wird belohnt.** Der Sieger ueberzeugt durch «moeglichst geringe Eingriffstiefe in den baulichen und topographischen Bestand» (Würdigung, S. 31); anspruchsvolle Topografie, Bestand und Wald erzeugten die grosse Bandbreite an Loesungen (S. 23).
+- **Etappierung ohne Provisorien bei durchgehendem Schulbetrieb** ist zugleich Programmvorgabe und Pluspunkt: der Sieger baut zuerst Turnhalle und Gemeinschaftshaus, das uebergangsweise als Klassenhaus dient (S. 5, 30).
 
 ## Verallgemeinerbare Regeln (DNA)
 
 1. **Bei der Erweiterung bestehender Schulanlagen gewinnt der auf Ort und Betrieb massgeschneiderte, weiterbauende Ansatz** (Ensemble aus Neu- und Altbauten, Fernwirkung des Bestands sichern) und nicht der eigenstaendige Solitaer (S. 22–23, 28).
 2. **Guter Staedtebau rettet keine schwachen Grundrisse:** unter den Top-Raengen entscheidet die innere Organisation (Belichtung, Korridore, Orientierung, Nutzbarkeit) — Rang 3 verlor genau hier (S. 53–54).
-3. **Topografie als Entwurfsthema nutzen, Eingriffstiefe minimieren** — differenzierte Aussen-, Zwischen- und Rueckzugsraeume ueber die Niveaus schaffen (S. 28, 30).
+3. **Topografie als Entwurfsthema nutzen, Eingriffstiefe minimieren** — differenzierte Aussen-, Zwischen- und Rueckzugsraeume ueber die Niveaus schaffen (S. 28–29); Eingriffstiefe als Wuerdigungs-Argument (S. 31).
 4. **Tragwerk und Konstruktion muessen tragfaehig und wirtschaftlich sein:** ein architektonisch starkes, aber statisch fragwuerdiges und kostspieliges Konzept kostet den 1. Rang (Rang 2, S. 42).
 5. **Etappierung ohne Provisorien bei laufendem Schulbetrieb** von Anfang an mitdenken; multifunktionale Zwischennutzungen (Gemeinschaftshaus als temporaeres Klassenhaus) sind ein Plus (S. 29–30).
 6. **Holzbau + konsequente Systemtrennung + rasterartige Grundrisse** liefern der Jury die Argumente graue Energie, Flexibilitaet und Wertbestaendigkeit gleich mit (S. 30).
