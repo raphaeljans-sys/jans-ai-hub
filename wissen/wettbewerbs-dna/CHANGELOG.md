@@ -1,5 +1,42 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-14 — Nachbrenner: Muster `jans-board-dna.md` refuter-verifiziert, `draft` → `established`
+- **Anlass:** erneute Ausfuehrung des Nachbrenner-Auftrags (Original-Kontext: Session-
+  Limit-Abbruch 12.07.2026 abends). Bestandspruefung ergab: die 8 Original-Schritte sind
+  laengst erledigt (siehe Eintraege vom 14.07. weiter unten), ABER `wiki/muster/
+  jans-board-dna.md` stand trotz fruehere CHANGELOG-Formulierungen ("Muster jans-board-dna
+  ... established") tatsaechlich noch auf `status: draft` — der Artikel selbst vermerkte
+  explizit "Status-Hebung erst nach Refuter-Pruefung". Diese Luecke wurde geschlossen.
+- **Verifikation:** 9 unabhaengige Refuter-Agenten (parallel, je einer pro Quelle
+  board-dna/2101, 2102, 2103, 2205, 2206, 2207, 2408, 2501, 2507), jeder gegen genau
+  seine Quelldatei, insgesamt ueber 150 Einzelbehauptungen (Merkmale 1-15 + Teil A1/A2/A3
+  + Vorgaben-Liste) geprueft.
+- **Ergebnis:** 2101, 2102, 2207, 2408 (ausser Nebenbefund), 2501, 2507 vollstaendig
+  bestaetigt; 2103 zwei kleine, nicht korrekturbeduerftige Nuancen (Refuter-Urteil
+  "kein grober Fehler"). Vier echte Korrekturen eingearbeitet:
+  (1) Merkmal 7 (Plan-first): 2205 faelschlich als Beleg gefuehrt — die Quelle beschreibt
+  ein weisses Modellbild als Einstiegsbild VOR dem Schwarzplan; 2205 widerlegt das Muster
+  eher, als es zu stuetzen — in die Abgrenzungs-Sektion verschoben.
+  (2) Merkmal 9 (Werkplan-Praezision): 2205 (Board 1) zeigt kein 1:50/1:20-Detail;
+  Vorbehalt ergaenzt (Boards 2-4 unbelegt), Zaehlung von "6 von 7" auf "6 von 8 (2205 mit
+  Vorbehalt)" korrigiert.
+  (3) Merkmal 6 (Massstab-Kaskade): "Schwarzplan 1:2500 (2206)" war nicht belegt — die
+  Quelle nennt fuer den 2206-Schwarzplan explizit "keinerlei Beschriftung, keine
+  Massstabsleiste"; 2206 aus der Liste entfernt, Sonderfall vermerkt. Loest zugleich die
+  vom Refuter gefundene Inkonsistenz zum A3-Kernsatz auf ("2206 stuetzt nur Farbcode/
+  Fluchtweg/Kennzahl/Alt-Neu-Poche").
+  (4) Merkmal 11 (Poche + Alt-Neu): 2408-Zuordnung praezisiert — nur die Schwarzfuellung
+  (Beton/Fundament) ist belegt, eine Alt-Neu-Hierarchie ist beim Neubau-Biwak ohne
+  Bestand nicht einschlaegig und wird nicht mehr behauptet.
+- **Status:** `wiki/muster/jans-board-dna.md` auf `established`, `last_updated:
+  2026-07-14` gehoben. `wiki/INDEX.md` nachgefuehrt (Eintrag mit Verifikations-Vermerk).
+  Damit sind jetzt alle drei Muster-Artikel der KB (`delta-zum-ersten-rang`,
+  `jury-argumente-schulbauten`, `jans-board-dna`) refuter-verifiziert `established`.
+- **Keine weitere Aktion:** die laufende B5/B6-Arbeit der Etappe 3 (Parameter-Set +
+  Kennwert-Benchmark Schulbau) bleibt Sache des dedizierten Scheduled Task
+  `wettbewerbs-dna-training` — hier nicht dupliziert.
+
+
 ## 2026-07-14 — Nachbrenner-Bestandspruefung: alle 8 Original-Schritte bereits erledigt, INDEX-Korrektur
 - **Anlass:** erneute Ausfuehrung des einmaligen Nachbrenner-Auftrags (Kontext: Session-
   Limit-Abbruch 12.07.2026 abends). Bestandspruefung ergab: alle 8 Schritte des Original-

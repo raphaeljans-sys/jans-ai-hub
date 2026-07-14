@@ -1,7 +1,7 @@
 ---
 title: JANS-Plakat-Handschrift — verallgemeinerte Board-DNA + Vorgaben fuer den Agenten plakat-setzer
-status: draft
-last_updated: 2026-07-12
+status: established
+last_updated: 2026-07-14
 sources:
   - "[[board-dna/2101]] — LOUISE, KSSG Haus 14 St.Gallen (Klinik/IVF), 4 Boards A1 quer"
   - "[[board-dna/2102]] — PATIO IM PIANO NOBILE, SEK Muttenz (Schule), 4 Boards A1 quer"
@@ -81,18 +81,25 @@ Detail» (2103), «vom Quartier zum Gebaeude» (2206), «vom Ort zur Zelle» (25
 **6. Massstab-Kaskade 1:500 / 1:200 / 1:50 (bzw. 1:20).** Situation 1:500 →
 Grundrisse/Ansichten/Schnitte 1:200 → Konstruktions-/Fassadendetail 1:50 (2101, 2102,
 2103, 2507) oder 1:20 (2207, 2408). Vorgeschaltet oft ein Schwarzplan 1:2500 (2205,
-2501, 2206) bzw. 1:1000 (2408). Der Massstab steht immer in der Planbeschriftung.
+2501) bzw. 1:1000 (2408); der Schwarzplan bei 2206 (Nachweis-Set) traegt dagegen
+**keine** Massstabsbeschriftung (Quelle: «keinerlei Beschriftung, keine
+Massstabsleiste»). In den uebrigen Faellen steht der Massstab immer in der
+Planbeschriftung.
 
 **7. Plan-first-Auftakt: der (gerenderte) Situations-/Schwarzplan ist das erste Bild,
 kein Hero-Rendering.** Der Plan selbst uebernimmt die Bildrolle («Plan = Bild»). Klar
 belegt in 2102 (Situationsplan statt Hero, Renderings in die rechte Spalte
 diszipliniert), 2103 (gerenderter Situationsplan als Hero), 2501 (Schwarzplan +
-These), 2207 (Situation 1:500 zuerst, argumentgetrieben), 2205 (Staedtebau-Board mit
-seitenhohem Situationsplan). **Ehrliche Abgrenzung — kein Vollmuster:** 2408 fuehrt
-mit dem Stimmungsbild ein («Emotion zuerst, dann Erklaerung, dann Beweis»); 2101 und
-2507 setzen Bild UND Situation gleichzeitig auf Board 1 (Erzaehlung + Setzung
-parallel). Einschaetzung: Die beiden juengeren Schul-/Biwak-Auftritte (2408, 2507,
-beide 2025) und der Klinik-Auftritt 2101 gewichten das Auftaktbild staerker als die
+These), 2207 (Situation 1:500 zuerst, argumentgetrieben). **Ehrliche Abgrenzung — kein
+Vollmuster:** 2408 fuehrt mit dem Stimmungsbild ein («Emotion zuerst, dann Erklaerung,
+dann Beweis»); 2101 und 2507 setzen Bild UND Situation gleichzeitig auf Board 1
+(Erzaehlung + Setzung parallel); **2205** zeigt zwar den flaechenmaessig groessten Plan
+(seitenhoher Situationsplan), die Quelle beschreibt die tatsaechliche Dramaturgie
+jedoch als Kennwort → **weisses Modellbild als Einstiegsbild** → Textbloecke/
+Schwarzplan → Ansicht → Situationsplan — das Rendering geht dem Plan also vor, 2205
+widerlegt das Plan-first-Muster damit eher, als es zu stuetzen. Einschaetzung: Die
+beiden juengeren Schul-/Biwak-Auftritte (2408, 2507, beide 2025), der Klinik-Auftritt
+2101 und (mit Vorbehalt) 2205 gewichten das Auftaktbild staerker als die
 2102/2103-Generation (2022). Der plan-first-Auftakt ist das dominante, aber nicht das
 alleinige Muster.
 
@@ -117,20 +124,24 @@ sichtbar gemacht statt in den Bericht ausgelagert. Belegt in 2101 (1:50,
 Schichtaufbau-Tabellen), 2102 (1:50, Bauteilaufbauten + Achsraster/Massketten/
 4.75-m-Raster schon im 1:200), 2103 (1:50, Bauteil-Beschriebe), 2207 (1:20,
 Schichtaufbauten mm), 2408 (1:20, Schichttabellen A/B/C + konkrete Produkte),
-2507 (1:50, Bild-Schnitt-Hybrid mit mm-Aufbaubeschrieben). Fehlt nur im reinen
-Plan-Satz 2501 und im Nachweis-Set 2206. Sehr starkes Muster (6 von 7 echten
-Board-Sets).
+2507 (1:50, Bild-Schnitt-Hybrid mit mm-Aufbaubeschrieben). Fehlt im reinen Plan-Satz
+2501, im Nachweis-Set 2206 und (jedenfalls im analysierten Board 1 — Boards 2–4 sind
+nicht erfasst) auch in 2205, das dort nur bis 1:200 zeigt. Starkes Muster (6 von 8
+echten Board-Sets; 2205 zaehlt wegen der unvollstaendigen Quelle nur mit Vorbehalt).
 
 **10. Moeblierung in allen Grundrissen durchgezeichnet — auch im 1:200.** Nutzung ist
 ohne Legende lesbar (Bestuhlung, OP-Ausstattung, Betten, Turnhallen-Spielfeldlinien).
 Belegt in 2101, 2102, 2103, 2207, 2408, 2501, 2507 — praktisch universell.
 
 **11. Poche + Alt-Neu-Hierarchie: geschnittene Bauteile schwarz gefuellt, Bestand
-hellgrau/duenn zurueckgenommen.** Belegt in 2101, 2102, 2103, 2206, 2207, 2501, 2408.
-**Einzelfall-Abweichung:** 2507 (juengster Auftritt, 2025) arbeitet bewusst mit feiner
-schwarzer **Linienzeichnung ohne Flaechenschwarz**, «keine schweren Poche-Fuellungen».
-Einschaetzung: moegliche Entwicklung der Strichsprache hin zu leichter — an weiteren
-2025er-Boards zu pruefen.
+hellgrau/duenn zurueckgenommen.** Belegt in 2101, 2102, 2103, 2206 (dort ueber Farbe/
+Strichstaerke statt Schwarzfuellung: Bestand grau/duenn, Neubau farbig/fett), 2207,
+2501. Bei **2408** ist nur die Poche-Schwarzfuellung selbst (Beton/Fundament dunkler/
+schraffiert) belegt — eine Alt-Neu-Hierarchie ist bei diesem Neubau-Biwak ohne Bestand
+nicht einschlaegig und wird hier nicht behauptet. **Einzelfall-Abweichung:** 2507
+(juengster Auftritt, 2025) arbeitet bewusst mit feiner schwarzer **Linienzeichnung ohne
+Flaechenschwarz**, «keine schweren Poche-Fuellungen». Einschaetzung: moegliche
+Entwicklung der Strichsprache hin zu leichter — an weiteren 2025er-Boards zu pruefen.
 
 **12. Weiche, transparente Baumkronen / atmosphaerische Vegetation.** Aquarellartig
 transparente Kronen (2101 graugruen, 2102, 2103 collagiert, 2205 olivgruen-texturiert,
@@ -323,6 +334,12 @@ JANS-Regelfall genannt.
   statistisch zu haerten.
 - Board-DNA gegen praemierte Fremdprojekte spiegeln: Decken sich die JANS-Boards mit dem,
   was Jurys grafisch goutieren? (Verbindung zu [[jury-argumente-schulbauten]].)
-- Status-Hebung `draft` → `established`: erst nach Refuter-Pruefung gegen die
-  Original-Boards (Verifikations-Pflicht, KB-Regel) und ggf. Abgleich mit den
-  Teilnahme-Dossiers/Juryberichten.
+- **Status-Hebung erledigt (14.07.2026):** 9 unabhaengige Refuter-Agenten (je einer pro
+  Quelle 2101/2102/2103/2205/2206/2207/2408/2501/2507) haben jede Einzelbehauptung
+  gegen die jeweilige `board-dna/<nr>.md` geprueft. Gefunden und korrigiert: Merkmal 7
+  (2205 stuetzt Plan-first NICHT — Quelle zeigt ein Modellbild-Rendering als
+  Einstiegsbild vor dem Schwarzplan), Merkmal 9 (2205 Board 1 zeigt kein 1:50-Detail,
+  Vorbehalt ergaenzt), Merkmal 6 (Schwarzplan 1:2500 fuer 2206 nicht belegt — die
+  Quelle nennt dort «keinerlei Beschriftung»), Merkmal 11 (2408s Alt-Neu-Zuordnung
+  praezisiert — kein Bestand bei Neubau-Biwak). Alle uebrigen ~130 gepruefte
+  Einzelzuordnungen bestaetigt. Status auf `established` gehoben.

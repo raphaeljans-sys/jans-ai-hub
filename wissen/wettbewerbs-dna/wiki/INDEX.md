@@ -47,7 +47,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   strukturelles Maximum, da die uebrigen 5 Teilnahmen keinen Jurybericht im Archiv haben.
   Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis erweitert von 11 auf **23** ausgewertete Fremd-Juryberichte + 3 eigene (Etappe-3-Schulbau-Sweep 14.07.2026, B4 abgeschlossen). Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt; Basis-Erweiterung 14.07. mit eigenem Verifikations-Hinweis im Artikel belegt)
-- muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen
+- muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen. Status **established** (9 unabhaengige Quellen-Refuter 14.07.2026, 4 Korrekturen eingearbeitet: Plan-first-Zuordnung 2205, Werkplan-Vorbehalt 2205, Massstabsbeleg 2206, Alt-Neu-Praezisierung 2408)
 
 ## Referenz-Katalog (wiki/referenz-katalog.md) — established
 
