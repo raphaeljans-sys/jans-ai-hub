@@ -42,3 +42,12 @@ Architekten-Ordner, bleibt zu Recht ausserhalb des Katalogs). Kein neuer Archite
 Ergebnis identisch zum 00:27-Lauf: 853/853, offen 0, `vectors.npz` deterministisch ohne
 Diff neu geschrieben, nur Zeitstempel in `catalog/INDEX.md`/`catalog/cad-index.json`
 aktualisiert (weiterhin 15 Architekten mit CAD). Kein neuer Stoff.
+
+## Dritter Batch-Aufruf desselben Tages (06:28, VOLLGAS-Endlos-Taktung)
+Start: 2026-07-14T06:28:50+0200, Ende: 2026-07-14T06:29:15+0200.
+
+Ergebnis identisch zu den beiden vorherigen Laeufen: 853/853, offen 0, `vectors.npz`
+deterministisch ohne Diff neu geschrieben (`git diff --stat` leer), nur Zeitstempel in
+`catalog/INDEX.md`/`catalog/cad-index.json` aktualisiert. Kein neuer Stoff seit 2026-07-02.
+Naechster inhaltlicher Fortschritt bleibt an neues Rohmaterial in der Quelle oder eine
+freigegebene Stufe-3-Bereinigung (siehe `wiki/QUESTIONS.md`) gebunden.
