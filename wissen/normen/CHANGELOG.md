@@ -1,3 +1,16 @@
+## 2026-07-14 — normen-training-nacht Run 10 (MacBook Pro): SIA 421:2006 Retro-Verifikation
+- Gedrosselter Loop (Rule 260713, SIA+VKF 1x/Tag, Token-Fokus liegt auf Wettbewerbs-DNA);
+  Run 8+9 liefen heute bereits, dieser Run ist eine gezielte Einzelergaenzung.
+- Volltextabgleich aller 20 Seiten SIA 421:2006 (Raumplanung — Nutzungsziffern GFZ/AZ/BMZ/
+  ÜZ/GZ) gegen das bestehende Destillat. **Keine sachlichen Fehler** in Formeln/Zahlen/
+  Fundstellen. 3 Definitionsluecken ergaenzt: GF-Nebenregel (Hohlraeume unter unterstem
+  Geschoss nicht anrechenbar), eigenstaendige Definition "Lichte Hoehe" (Ziff. 1.2.1, war nur
+  Stichwort, aber als Schwellenwert in GFZ/AZ referenziert), eigenstaendige Definition
+  "Gebaeude" (Ziff. 1.2.3, war nur Stichwort). Status von `destilliert` auf `established`
+  gehoben.
+- Nachgefuehrt: `destillate/sia-421-2006.md`, `training/norm-inventar.md`,
+  `destillate/INDEX.md`. Lauf-Report: `outputs/2026-07-14_normen-nacht-run10.md`.
+
 ## 2026-07-14 — normen-training-mini Run 22 (Mac Mini): Q&A-Selbstbefragung 6 DIN/VSS/RAL-Destillate + SIA-500-vs-DIN-18040-Cross-Check
 - 6 parallele Q&A-Selbstbefragungs-Agenten pruefen unabhaengig am Original-PDF gegen das
   bestehende Destillat: DIN 18041:2004 (21/21 bestanden, 2 Ergaenzungen), DIN EN 12101-2:2003

@@ -96,7 +96,7 @@
 | [x] 260712 | P2 | `400_2000_d.pdf` | 400 | 2000 | destilliert (sia-400-2000.md), Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [x] 260713 | P2 | `405_1998_d.pdf` | 405 | 1998 | teil-destillat (Run5, Leitungskataster GIS, Kern verifiziert); sia-405-1998.md |
 | [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |
-| [x] 260713 | P2 | `421_2006_d.pdf` | 421 | 2006 | destilliert (sia-421-2006.md) |
+| [x] 260714 | P2 | `421_2006_d.pdf` | 421 | 2006 | established, verifiziert 260714 (Volltextabgleich Run 10, 3 Definitionsluecken ergaenzt, keine Fehler); sia-421-2006.md |
 | [x] 260713 | P2 | `423_2006_d.pdf` | 423 | 2006 | established (Run5, Gebaeudedimensionen/Abstaende IVHB); sia-423-2006.md |
 | [x] 260713 | P2 | `430_1993_d.pdf` | 430 | 1993 | destilliert (sia-430-1993.md), Entsorgung von Bauabfällen |
 | [x] 260713 | P2 | `431_1997_d.pdf` | 431 | 1997 | established (Run5, Baustellenentwaesserung SIA/VSA); sia-431-1997.md |
