@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 39 (Recht/Norm + Brandschutz, Token-Vollgas, Fan-out): neuer AHB-Stadt-ZH-Artikel + BSV-2026-Refresh/drei neue Brandschutz-Fundstellen
+- **Recht & Norm (R39):** bisher nie kartierter Ordner `04_Merkblätter/Projektadmin AHB/` (Amt
+  fuer Hochbauten Stadt Zuerich / Immobilien-Bewirtschaftung IMMO, Pflichtenheft fuer beauftragte
+  Planer) ausgewertet — SIA-416/d-0165-Flaechenformelkette (GF/NGF/KF, **HNF 6 Heilen und
+  Pflegen**), CAFM-Bezeichnungssystem, SiNa-Elektro-Kontrollperioden (Spitaeler/Heime 5 Jahre),
+  GA-Standard Pflegezentren PZZ (Raumautomation nach Raumtyp, Alarm-Prioritaeten) → NEU
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]] (emerging), Backlink in
+  [[recht-norm-raumprogramm-referenzwerke]]. Sechs Unterordner als Backlog (Submissionswesen AHB,
+  CAD-Richtlinie, Honorar-AHB SIA 102/103/105/108-2009, Ingenieurwesen, eco-bau, GT-Richtlinien).
+- **Brandschutz (B30/C31):** BSV-2026-Refresh unveraendert bestaetigt (politische Vernehmlassung
+  weiterhin 08/2026, Inkrafttreten Herbst 2027), neu belegt ca. 11'000 Rueckmeldungen aus der
+  abgeschlossenen technischen Vernehmlassung. Drei bisher nie ausgewertete Dateien im Ordner
+  `02 Brandschutzrichtlinien 2015-17-22/` gelesen: VKF-Vernehmlassungsbericht 2013 (Genese BSV
+  2015, inkl. bisher unbekannter Kindergarten-/Altersheim-Ausnahme von der 600-m²-
+  Bagatellschwelle), Teilrevision-2017-Volltext-Delta AFC Basel (bestaetigt bestehenden KB-Stand),
+  SZS steeldoc Stahlbau-Brandschutz (neue Fachquelle) → NEU §5ac [[brandschutz-pl03-wegweiser]].
+  Registrierungs-Luecke geschlossen: BSR 14-15 "Verwendung von Baustoffen" war unbenannt/nie
+  katalogisiert (Volltext-Destillation offen). Nebenbefund: verwaisten Formatierungsfehler
+  (Text-Duplikat ohne Bullet-Praefix) in `wiki/INDEX.md` bei der Wegweiser-Zeile behoben.
+- Details: `outputs/2026-07-14_training-run39.md`.
+
 ## 2026-07-14 — Training Run 38 (Kartenportale + Energie, Token-Vollgas, Fan-out): zwei neue Kartenportale-Funde + Energie-Datenstand-Refresh
 - **Kartenportale (K32/K33):** achtgradost.ch betreibt neben der historischen-Terrain-
   Rekonstruktion (K14) zusaetzlich ein oeffentliches, login-freies Gemeinde-WebGIS (White-Label,

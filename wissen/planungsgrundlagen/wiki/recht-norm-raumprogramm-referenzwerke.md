@@ -3,7 +3,7 @@ title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitä
 status: established
 last_updated: 2026-07-13 (Run 35)
 sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
-links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]], [[recht-norm-sanitaerraeume-planungsgrundlagen]]
+links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-ahb-stadt-zuerich-projektstandards]]
 ---
 
 # Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
@@ -130,6 +130,10 @@ Prüfinstrument (Subventionsvergabe Kt. ZH), nicht das WBS des Bundes.
   Abgeschrägte Räume zählen ab 150 cm lichter Höhe (bei genügendem Dachneigungswinkel); offene
   Fensternischen ab 200 cm lichter Höhe ab fertig Boden; Fensternischen mit Brüstung/Heizkörper
   sowie Vorwandinstallationen zählen **nicht** zur Nettowohnfläche.
+  Die vollständige **SIA-416-Flächen-Formelkette** (GF/NGF/KF, HNF/NNF/FF/VF, EBF/thermische Hülle,
+  Mietflächen-Kaskade VMF/VWAGF/ZF) inkl. Abgrenzungsfällen (Vorsprünge, Installationsgeschosse,
+  Räume unter Treppen) ist am städtischen Vollzugsbeispiel Stadt Zürich belegt in
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]] §1.
 
 **Weitere Subventions-Eckwerte (Art. 5–21, nur bei laufenden ZH-Subventionsgeschäften relevant):**
 Pauschal-Erstellungskosten je Autoabstellplatz (Fr. 36'000 UN-Garage / Fr. 20'000 gedeckt /

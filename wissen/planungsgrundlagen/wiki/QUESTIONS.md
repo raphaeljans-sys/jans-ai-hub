@@ -141,6 +141,22 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R39 (Run 39, 2026-07-14)** Systematischer Ordner-Abgleich deckt den nie kartierten Ordner
+  `04_Merkblätter/Projektadmin AHB/` auf — Pflichtenheft des Amtes für Hochbauten Stadt Zürich
+  (AHB)/Immobilien-Bewirtschaftung (IMMO) für beauftragte Planer, integrierender Bestandteil des
+  Honorarvertrages sobald JANS für die Stadt Zürich baut. Vier Dokumente ausgewertet: **SIA-416-
+  Flächenformelkette** am städtischen Vollzug (RFB-Richtlinie 2007, 85 S.) — ergänzt die bisher nur
+  begriffliche SIA-416-Behandlung in [[recht-norm-raumprogramm-referenzwerke]] um die rechnerische
+  Ebene (GF/NGF/KF-Formeln, HNF 6 Kategorien DIN 277 inkl. HNF 6 Heilen/Pflegen,
+  EBF/thermische Hülle, Mietflächenkaskade, Abgrenzungsfälle); **CAFM-Bezeichnungssystem** Stadt ZH
+  (Standort/Gebäude/Geschoss/Raum/Tür/Parkplatz); **SiNa Elektroinstallationen** (NIV-
+  Kontrollperioden, Spitäler/Heime 5 Jahre — Healthcare-Terminplanungs-relevant); **GA-Standard
+  Pflegezentren** (Raumautomations-Tabelle nach Raumtyp, Alarm-Prioritäten, 10 städtische
+  Pflegezentren PZZ) → NEU [[recht-norm-ahb-stadt-zuerich-projektstandards]], emerging. Sechs
+  Unterordner als Backlog offen (Submissionswesen AHB unterhalb der bereits dokumentierten
+  kantonalen SubV ZH, CAD-Richtlinie, Honorar-AHB SIA 102/103/105/108-2009, Ingenieurwesen,
+  eco-bau Nachhaltiges Bauen, GT-Richtlinien-Serie V21). Details siehe `training/curriculum.md`
+  R39.
 - [x] **R36–R38 (Run 37, 2026-07-14)** Drei weitere bisher unerschlossene Dateien im Ordner
   `04_Merkblätter` ausgewertet (systematischer Ordner-Abgleich, analog der R32-R35-Methodik):
   **UGZ Hindernisfreie Aufzüge + UGZ Wohnungsbau hindernisfrei** (Stadt-ZH-Vollzugspraxis zum
@@ -313,6 +329,7 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C31 (B30) (Run 39, 2026-07-14)** BSV-2026-Refresh + Ordner-Restabgleich `02 Brandschutzrichtlinien 2015-17-22/`: BSV-2026-Terminplan unverändert (politische Vernehmlassung 08/2026, Inkrafttreten Herbst 2027, Marschhalt weiter in Kraft), neu belegt ca. 11'000 Rückmeldungen aus der technischen Vernehmlassung. Drei bisher nie ausgewertete Dateien identifiziert und gelesen: VKF-Vernehmlassungsbericht 2013 (Genese BSV 2015, inkl. bisher unbekannter Kindergarten-/Altersheim-Ausnahme von der 600-m²-Bagatellschwelle), AFC-Basel-Volltext-Delta-Dokumentation Teilrevision 2017 (bestätigt bestehenden KB-Stand: keine Änderung der Kernzahlen, nur redaktionelle Präzisierung), SZS steeldoc "Brandschutz im Stahlbau" (irreführend benannt als "SService...", neue Stahlbau-Fachquelle). Zusätzlich Register-Lücke geschlossen: BSR 14-15 "Verwendung von Baustoffen" lag unbenannt vor und war nie katalogisiert. Bestätigte Nicht-Funde: zwei leere Ordner (09_Brandschutzvorschriften, Produkte), 16-15-Basisfassung 2015 ohne Delta zur bereits genutzten rev2016-Fassung. → NEU §5ac [[brandschutz-pl03-wegweiser]]. Details siehe `training/curriculum.md` B30.
 - [x] **Carried forward (Wissens-Chef Run 3, 2026-07-13) — ERLEDIGT Run 37, 2026-07-14:**
   Doppelspur-Flag in [[brandschutz-pl03-wegweiser]] behoben — §5o-§5u (Run 34) und §5v-§5y
   (Run 36) auf Destillat-Verweis gekuerzt (`wissen/normen/destillate/vkf-brl-*`), Volltext-Ziffern
