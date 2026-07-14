@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training-Run 29: Delta-Check (Zusatz-Trigger 4 Std. nach Run 28)
+
+- Zusaetzlicher Scheduled-Task-Trigger ausserhalb der Soll-Frequenz (Rule 260713: 1x taeglich
+  02:50; dieser Lauf 04:51). Kurzer Delta-Check statt vollem 10-Themen-Zyklus: Bewertungsordner
+  unveraendert (kein neuer Fall), Marktanker unveraendert (SNB 0.00 %/Referenzzins 1.25 %),
+  D6-Restposten Langnau weiterhin blockiert. Kein Ingest, keine Wiki-Aenderung.
+- Report: `outputs/2026-07-14_training-run29.md`.
+
 ## 2026-07-14 — Training-Run 28: schlanker Beobachtungslauf (Rule 260713 Drosselung)
 
 - Kein neuer Ingest: Bewertungsordner geprueft (kein neuer JANS-Fall seit Wangen 8855),
