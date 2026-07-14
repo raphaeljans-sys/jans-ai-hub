@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 15:05:17
+Stand: 14.07.2026 15:25:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 15:03)
@@ -14,4 +14,4 @@ Stand: 14.07.2026 15:05:17
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- a9cb5b8e vollgas-radar: Schoner-Lauf 14:52 - Runner gestoppt, Login intakt, keine P1
+- 3e216707 nas-selfcommit: 3 Datei(en) 2026-07-14 15:15
