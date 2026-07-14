@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 58: Solarpflicht auf 14 von 26 Kantonen erweitert (Waadt/Genf/Tessin/Solothurn/Wallis/Schaffhausen) — Register einer unterbrochenen Vorgänger-Session nachgeführt
+- **Run-Report** `outputs/2026-07-14_energie-run58.md`. PDF-Inventar bleibt vollständig
+  abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche.
+- **Ausgangslage:** eine vorangegangene Sitzung hatte die Recherche zu sechs weiteren Kantonen
+  bereits im Destillat `destillate/solarpflicht-national-mantelerlass-kantone.md` abgelegt (bis
+  01:16 Uhr, per nas-selfcommit gesichert), aber Themenartikel, FAQ, Register und Run-Report
+  nicht mehr fertiggestellt (Session-Abbruch). Dieser Lauf hat die Recherche verifiziert und die
+  Registerpflege nachgeholt, statt die Web-Recherche zu wiederholen.
+- **Solarpflicht ergänzt um sechs Kantone:** Waadt (LVLEne, ab ca. 2027, 20 % Strombedarf +
+  automatische Pflicht bei Dachsanierung — strenger als Bern), Genf (seit 1.9.2025, Volk 84,3 %
+  Ja, keine Flächenschwelle, alle geeigneten Dachflächen, ab 2030 Grossverbraucher), Tessin (seit
+  1.1.2024, 10 W/m² EBF/max. 30 kW wie ZH-Modell), Solothurn (seit 1.1.2023, am Bundesminimum),
+  Wallis (seit 1.1.2025, 40 % Baufläche + fossiles Heizverbot + Bestandespflicht >500 m² binnen
+  25 Jahren), Schaffhausen (Solarinitiative 8.3.2026 mit 60,6 % Nein abgelehnt, drittes
+  Ablehnungs-Gegenbeispiel neben Aargau/Bern-Zusatzinitiative) →
+  `destillate/solarpflicht-national-mantelerlass-kantone.md`, Themenartikel
+  `wiki/solarpflicht-schweiz-kantone.md`, FAQ **F66** geschärft, Status bleibt emerging
+  (14/26 Kantone).
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D36),
+  `wiki/QUESTIONS.md` (E47 neu, E-S1-Zähler auf vierzehn Läufe), `raw/_INGESTED.md`.
+- **Offen für Run 59:** Meta-Punkt M2 (eigenes Skill `energie`?) jetzt seit **14 Läufen**
+  spruchreif — braucht Raphaels Entscheidung; 12 weitere Kantone offen (Basel-Landschaft-
+  Vertiefung, Jura, Neuenburg, Freiburg, Glarus, Uri, Schwyz, Nidwalden, Obwalden, Zug, Appenzell
+  AR/AI); neue Themenkomplex-Kandidaten weiterhin Fassadenbegrünung (Hitzeschutz-Pendant zu PV)
+  oder Schallschutz gegen Aussenlärm (Strasse/Bahn).
+
 ## 2026-07-14 — Run 57: Beide Run-56-Themenkomplexe vertieft (LSV-Planungswerttabelle, drei weitere Solarpflicht-Kantone)
 - **Run-Report** `outputs/2026-07-14_energie-run57.md`. PDF-Inventar bleibt vollständig
   abgearbeitet (seit Run 46); Lauf ist reine Web-Recherche, vertieft beide Run-56-Themenkomplexe

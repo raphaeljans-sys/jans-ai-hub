@@ -2241,11 +2241,35 @@ Eigenstromerzeugungspflicht bei Neubauten, mit Befreiung bei schwacher Einstrahl
 (<1'250 kWh/m²·Jahr) oder Minergie-Standard — die genaue Mengenvorgabe war in der Web-Recherche
 nicht auffindbar.
 
+**Sechs weitere Kantone (Run 58):** Die Westschweiz und der Süden verschärfen ebenfalls, teils
+über Bern/Luzern hinaus. **Waadt** (LVLEne, ab ca. 2027) verlangt 20 % des Strombedarfs
+erneuerbar UND löst bei jeder grösseren **Dachsanierung** automatisch eine PV-Pflicht aus — damit
+strenger als Bern, das Dachsanierungen gerade ausnimmt. **Genf** (seit 1.9.2025, an der Urne mit
+84,3 % Ja bestätigt) verzichtet ganz auf eine Flächenschwelle: **jede** geeignete Dachfläche bei
+Neubau, Dachsanierung oder grösserer Sanierung ist pflichtig, ab 2030 zusätzlich Grossverbraucher
+unabhängig vom Gebäudealter. **Tessin** (seit 1.1.2024) rechnet wie die ZH-Vorlage in W/m²
+(10 W/m² neue Energiebezugsfläche, gedeckelt auf 30 kW). **Solothurn** (seit 1.1.2023) bleibt
+inhaltlich beim Bundesminimum (300 m²/20 % aGF). **Wallis** (seit 1.1.2025) verlangt 40 % der
+Baufläche solar UND verbietet fossile Heizungen im Neubau gleich mit — zusätzlich müssen Dächer
+>500 m² binnen **25 Jahren** unabhängig von einer Sanierung nachgerüstet werden, die am weitesten
+in den Bestand reichende Frist aller bisher geprüften Kantone. **Schaffhausen** ist wie Aargau ein
+Gegenbeispiel: eine Solarinitiative (auch für Bestandsbauten) wurde am 8.3.2026 mit 60,6 % Nein
+klar verworfen.
+
+**Bauherren-Transfer ergänzt:** Zwei Grundmuster zeigen sich jetzt bei 14 von 26 recherchierten
+Kantonen: die einen regeln nur den **Neubau** (Bund-Minimum bis hin zu Luzerns 50 %-Pflicht auch
+für EFH), die anderen reichen bewusst in den **Bestand** hinein (Basel-Stadt, Wallis, teils Genf
+über die Dachsanierungs-Anknüpfung) — für ein Sanierungsprojekt ist deshalb nicht nur die
+Neubau-Zeile der Tabelle relevant, sondern explizit zu prüfen, ob eine geplante Dachsanierung
+selbst schon die Pflicht auslöst.
+
 **Quelle:** CKW «Solarpflicht Schweiz» + Kanton Bern WEU (amtliche Kantonsseite, weu.be.ch) +
 solaralag.ch Kantons-Übersicht + Presseecho, trianguliert (Run 56); Aargau/Basel-Stadt/Graubünden
-ergänzt (Run 57, aargauerzeitung.ch + bs.ch amtliche Medienmitteilung + Web-Recherche KEnV) →
+ergänzt (Run 57, aargauerzeitung.ch + bs.ch amtliche Medienmitteilung + Web-Recherche KEnV);
+Waadt/Genf/Tessin/Solothurn/Wallis/Schaffhausen ergänzt (Run 58, vd.ch/ge.ch/vs.ch Amtsseiten +
+Tessiner Gesetzessammlung m3.ti.ch + so.ch Arbeitshilfe + Presseecho Schaffhausen-Abstimmung) →
 `[[solarpflicht-national-mantelerlass-kantone]]`. Status emerging (Bundesregelung fest, nicht
-alle 26 Kantone im Detail geprüft — bisher BE/SG/BL/LU/ZH/AG/BS/GR).
+alle 26 Kantone im Detail geprüft — bisher BE/SG/BL/LU/ZH/AG/BS/GR/VD/GE/TI/SO/VS/SH, 14 von 26).
 
 ---
 

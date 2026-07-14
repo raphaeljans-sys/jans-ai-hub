@@ -512,3 +512,23 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (KEnV Art. 23) liess sich nicht auffinden → `[[solarpflicht-national-mantelerlass-kantone]]`
   ergänzt, FAQ F66 geschärft. Löst den Run-56-Prioritätspunkt 2 teilweise (3 von mehreren
   ausstehenden Kantonen; Basel-Landschaft-Vertiefung, Waadt, Genf, Tessin bleiben offen).
+
+- **D36 (Run 58, 2026-07-14)** — «Solarpflicht in der Westschweiz und im Süden — Waadt, Genf,
+  Tessin, Solothurn, Wallis, Schaffhausen?» — belegt 2026-07-14 (Web-Recherche, kantonale
+  Amtsseiten + Gesetzessammlungen trianguliert). **Waadt** (LVLEne, ab ca. 2027): 20 % Strombedarf
+  erneuerbar PLUS automatische Pflicht bei jeder grösseren Dachsanierung — strenger als Bern.
+  **Genf** (seit 1.9.2025, Volksentscheid 84,3 % Ja): keine Flächenschwelle, alle geeigneten
+  Dachflächen bei Neubau/Sanierung, ab 2030 zusätzlich Grossverbraucher-Pflicht. **Tessin**
+  (seit 1.1.2024): 10 W/m² neue EBF gedeckelt auf 30 kW, gleiches Bemessungsmodell wie die
+  ZH-Vorlage. **Solothurn** (seit 1.1.2023): bleibt inhaltlich beim Bundesminimum 300 m²/20 % aGF.
+  **Wallis** (seit 1.1.2025): 40 % Baufläche solar plus fossiles Heizungsverbot Neubau, zusätzlich
+  Bestandesbauten >500 m² binnen 25 Jahren pflichtig — die am weitesten in den Bestand reichende
+  Frist aller bisher geprüften Kantone. **Schaffhausen**: Solarinitiative am 8.3.2026 mit 60,6 %
+  Nein abgelehnt, drittes Ablehnungs-Gegenbeispiel neben Aargau und der Berner Zusatzinitiative →
+  `[[solarpflicht-national-mantelerlass-kantone]]` ergänzt, Themenartikel
+  `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. Löst den Run-57-Prioritätspunkt 2
+  weitgehend (14 von 26 Kantonen recherchiert; Basel-Landschaft-Vertiefung, Jura, Neuenburg,
+  Freiburg, Glarus, Uri, Schwyz, Nidwalden, Obwalden, Zug, Appenzell AR/AI bleiben offen).
+  **Hinweis:** dieser Lauf war technisch eine Fortsetzung einer unvollständig abgebrochenen
+  Vorgänger-Session (Destillat war bereits ergänzt, Register/FAQ/Output-Report fehlten noch) —
+  Registerpflege in diesem Lauf nachgeholt.

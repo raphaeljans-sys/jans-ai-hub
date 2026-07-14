@@ -28,13 +28,24 @@ verschärfen, nicht darunter bleiben.
 | Aargau | **Bleibt beim Bundesminimum** (300 m²/20 % aGF) — eigene Verschärfung von Grossrats-Kommission 9:6 zur Ablehnung empfohlen |
 | Basel-Stadt | «Solaroffensive»: PV-Pflicht auf **Bestandsbauten** >100 m² Dachfläche, Ersatzabgabe CHF 1'500/fehlendem kW — **noch nicht Gesetz** (im Grossen Rat) |
 | Graubünden (seit 1.1.2021) | Eigenstromerzeugungspflicht Neubau, befreit bei Globalstrahlung <1'250 kWh/m²a oder Minergie-Standard — genaue W/m²-Vorgabe offen |
+| Waadt (LVLEne, ab ca. 2027) | 20 % Strombedarf erneuerbar, **zusätzlich Dachsanierungspflicht** — strenger als Bern (das Dachsanierungen gerade ausnimmt) |
+| Genf (seit 1.9.2025, Volk 84,3 % Ja) | **Alle geeigneten Dachflächen** bei Neubau/Dachsanierung — Ereignis- statt Flächenschwellen-Prinzip; ab 2030 auch Grossverbraucher (>0,2 GWh/a) |
+| Tessin (seit 1.1.2024) | **10 W/m² neue EBF**, gedeckelt auf max. 30 kW — gleiches Modell wie die ZH-Vorlage |
+| Solothurn (seit 1.1.2023) | 300 m²/20 % aGF — inhaltlich am Bundesminimum, mit eigener Arbeitshilfe für Gemeinden |
+| Wallis (seit 1.1.2025) | Neubau >300 m²: 40 % Baufläche solar, **plus fossiles Heizungsverbot**; Bestandsbauten >500 m² binnen 25 Jahren pflichtig |
+| Schaffhausen (Volk 8.3.2026, 60,6 % Nein) | Solarinitiative **abgelehnt** — drittes Gegenbeispiel neben Aargau/Bern-Zusatzinitiative |
 
 ## Bauherren-Transfer
 Standort- und gemeindespezifisch prüfen — Bund ist nur das Minimum, die tatsächliche Pflicht kann
 strenger sein und innerhalb eines Kantons je Gemeinde variieren (SG/AG/BL geben Gemeinden eigene
 Kompetenz). Bau- und Zonenordnung der Standortgemeinde ist der verlässlichste erste Blick. Nicht
-jeder Kanton verschärft: Aargau hat eine eigene Solarpflicht gerade erst wieder verworfen —
-«mein Nachbarkanton hat X» ist kein verlässlicher Schluss auf die eigene Gemeinde.
+jeder Kanton verschärft: Aargau und Schaffhausen haben eine eigene Solarpflicht gerade erst wieder
+verworfen — «mein Nachbarkanton hat X» ist kein verlässlicher Schluss auf die eigene Gemeinde. Die
+Bandbreite ist inzwischen (14 von 26 Kantonen recherchiert) gross: von «kein Zusatz zum Bund» (AG,
+SH) bis «auch Bestandsbauten pflichtig» (Basel-Stadt, Wallis, teils Genf).
 
 **Destillate:** `[[solarpflicht-national-mantelerlass-kantone]]` (Bund + andere Kantone),
 `[[zh-energiegesetz-revision-solarpflicht-2026]]` (ZH-Detail) — FAQ F66, F61.
+
+**Offen:** 12 der 26 Kantone weiterhin nicht recherchiert; Genaue Vorgaben Basel-Landschaft/
+Graubünden nur grob umschrieben (Quelle nennt keine Zahl).
