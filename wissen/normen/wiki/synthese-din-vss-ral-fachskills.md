@@ -2,6 +2,8 @@
 title: "Querschnitts-Synthese DIN/VSS/RAL fuer die JANS-Fach-Skills"
 status: established
 last_updated: 2026-07-14
+sources_zusatz:
+  - destillate/sia-500-2009.md
 sources:
   - destillate/din-4102-1-1998.md
   - destillate/din-4102-2-1977.md
@@ -158,6 +160,28 @@ die zugrundeliegende Rechtsfigur (Verjaehrung vs. Ruegefrist) unterschiedlich is
 Abnahmeprotokollen/Garantiescheinen fuer JANS-Bauprojekte bleibt ausschliesslich die SIA-118-
 Fristenlogik (Art. 172/180/181) massgebend; VOB/B dient nur der Erklaerung gegenueber
 Bauherren/Generalunternehmern mit deutschem Rechtshintergrund.
+
+## 9. Grenzen der Uebertragbarkeit (Sammelstelle)
+
+Diese Zusammenstellung buendelt die in den Abschnitten 1-8 bereits einzeln dokumentierten
+Nicht-Aequivalenzen an einer Stelle, damit ein Fach-Skill vor der Verwendung einer
+DIN/VSS/RAL-Zahl gegen SIA/VKF schnell pruefen kann, ob eine 1:1-Uebertragung zulaessig ist:
+
+| Vergleichspaar | Uebertragbar? | Grund / Fundstelle |
+|---|---|---|
+| DIN-4102 Baustoffklasse (A1/A2/B1/B2) ↔ VKF RF1-RF4 | **Nein** — nur Naeherung | unterschiedliche Pruefverfahren/Systematik, siehe Abschnitt 1; im Einzelfall Pruefzeugnis beider Systeme gegenlesen |
+| DIN 276 Kostengruppe (KG 100-700) ↔ BKP 1-9 | **Nein** — nur Gliederungslogik vergleichbar | andere Nummerierung/Detaillierung (Abschnitt 2); Rule `bkp-2017-referenz` bleibt fuer JANS-Outputs verbindlich |
+| DIN 277 Netto-Grundflaeche (NGF) ↔ SIA 416 Hauptnutzflaeche (HNF) | **Nein** — explizit falsifiziert | bei Retro-Verifikation 260713 als Fehler korrigiert (Abschnitt 3); Flaechendefinition bei jedem Vergleichsprojekt separat ausweisen |
+| VOB/B (DIN 1961) Fristensystematik ↔ SIA 118 Fristensystematik | **Nein** — Zahl "2 Jahre" bezeichnet unterschiedliche Rechtsfiguren | VOB/B-Sonderfall-Verjaehrung (§ 13) vs. SIA-118-Ruegefrist (Art. 172), siehe Tabelle in Abschnitt 8 |
+| DIN 18040-1/2 Bewegungsflaechen/Masse ↔ SIA 500 | **Ungeprueft** — SIA 500 destilliert (`destillate/sia-500-2009.md`, established), Cross-Check zwischen den Destillaten steht noch aus | DIN 18040 diente bis zur SIA-500-Destillation als einzige belegte Referenz (Abschnitt 5); jetzt beide Quellen verfuegbar — bei naechster Gelegenheit direkt vergleichen statt nur DIN zu zitieren |
+| VSS 40 291 Parkfeld-/Fahrgassenmasse | **Ja** — direkt geltendes Schweizer Fachrecht | einzige Position in dieser KB, die nicht nur Vergleichsreferenz, sondern unmittelbar anwendbar ist (Abschnitt 6) |
+| DIN 5034-1 Tageslichtkennwerte ↔ SIA 380/1 / kantonale Besonnungsvorschriften | **Nein** — andere Bezugsgroessen | SIA 380/1 regelt Energie, nicht Tageslichtquotient; kantonales Baurecht (z.B. PBG ZH) regelt Besonnungsdauer separat (Abschnitt 7) |
+
+**Faustregel:** jede DIN/VSS/RAL-Zahl, die in ein JANS-Erzeugnis wandert, braucht einen
+expliziten Vermerk, ob sie (a) direkt geltendes CH-Recht ist (nur VSS-Positionen mit
+gueltiger SN-Nummer), (b) als Kontrastfolie/Erklaerhilfe gegenueber auslaendischen
+Partnern dient, oder (c) als Zweitquelle bei fehlendem SIA/VKF-Pendant genutzt wird —
+in den Faellen (b) und (c) nie unkommentiert als Schweizer Norm ausgeben.
 
 ## Fazit fuer die Fach-Skills
 

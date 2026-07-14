@@ -43,15 +43,15 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vss-700.5-1987.md` | ZH Zugangsnormalien 700.5 | 1987, in Kraft 1988 | established (verifiziert 260714, 0 Fehler) |
 | `vss-722.15-1983.md` | ZH Verkehrssicherheitsverordnung 722.15 | 1983, geänd. 1995 | established (verifiziert 260714, Fundstelle §5/§6 korrigiert, §13 Lichtraumprofil ergaenzt) |
 | `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | established (verifiziert 260714, PPV faelschlich kantonal statt staedtisch korrigiert) |
-| `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | established (verifiziert 260713) |
-| `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713) |
+| `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | established (verifiziert 260713; Q&A-Selbstbefragung Mini-Run 21, 260714: 18 Fragen, 13/18 bestanden vor Korrektur, 5 Ergänzungen, keine Fehler) |
+| `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713/260714; Q&A-Selbstbefragung Run 21, 260714: 18 Fragen, 17/18 bestanden, 1 Korrektur KGF-Schwelle, 5 Ergänzungen BRI/NRI/KRI u.a.) |
 | `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713) |
 | `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte + fehlende Regelspur wohnraumähnliche Arbeitsräume korrigiert; Teil-Destillat, Abschnitt 5 nicht im Detail) |
 | `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713; Q&A-Selbstbefragung 260714 Mini-Run 20: 18/18 bestanden, 1 Fundstellen-Praezisierung) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
 | `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (verifiziert 260713, vollständig S.1-125/125, adversariale Retro-Verifikation Mini-Run 13: 4 Pruef-Agenten, ca. 100 Aussagen geprueft, 14 Fehler korrigiert) |
-| `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
+| `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt; Q&A-Selbstbefragung Mini-Run 21, 260714: 18/18 bestanden nach Ergänzung, 6 Ergänzungen fehlende Begriffe/Grundsätze/Ziff. 4.3) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | established (verifiziert 260713 Mini-Run 15, 62 Aussagen, 0 Fehler) |
 | `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (verifiziert 260713, vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12; Mini-Run 14: 6 Fehler korrigiert + Ziff. 5.2.4 ergänzt; Q&A-Selbstbefragung 260714 Mini-Run 20: 18/18 bestanden, 2 Korrekturen + Vorwort ergaenzt) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
@@ -157,7 +157,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | established (verifiziert 260713, Zug-/Schub-/aussergewöhnliche-Einwirkung-Verfahren ergänzt, vollständig S.1-39/39) |
 | `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | established (verifiziert 260713 Mini-Run 15, 42 Aussagen, 0 Fehler) |
 | `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | established (vollstaendig S.1-105/105, verifiziert 260713 Mini-Run 15, 45+ Aussagen, 1 Praezisierung) |
-| `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | established (verifiziert 260713, vollständig, S.1-34/34) |
+| `din-18040-2-2011.md` | DIN 18040-2 Barrierefreies Bauen, Wohnungen (Pendant zu DIN 18040-1) | 2011-09 | established (verifiziert 260713, vollständig, S.1-34/34; Q&A-Selbstbefragung Mini-Run 21, 260714: 20 Fragen, 14/20 bestanden, 1 Korrektur Ziff. 4.2.1, 5 Ergänzungen inkl. 2 fehlende Abschnitte 4.3.4/4.4) |
 | `din-18232-2-2007.md` | DIN 18232-2 Rauch- und Wärmeabzugsanlagen (RWA) Teil 2, Bemessung | 2007-11 | established (verifiziert 260713, vollständig, S.1-30/30; Mini-Run 14: 66 Aussagen geprüft, 1 Ergänzung) |
 | `din-1946-4-2008.md` | DIN 1946-4 Raumlufttechnik in Gebäuden des Gesundheitswesens | 2008-12 | established (verifiziert 260713, vollständig, S.1-66/66; Mini-Run 14: 55 Aussagen geprüft, 2 Fehler korrigiert) |
 | `din-1960-2010.md` | DIN 1960 VOB Teil A, Vergabe von Bauleistungen | 2010-08 | established (verifiziert 260713 Mini-Run 15, 28 Aussagen, 5 Fehler korrigiert) |

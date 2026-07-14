@@ -1,3 +1,25 @@
+## 2026-07-14 — normen-training-mini Run 21 (Mac Mini): Q&A-Selbstbefragung 4 weitere Normen + Synthese-Sammelstelle Uebertragbarkeit
+- Vertiefungsstufe (c): 4 parallele Sub-Agenten fuehren je 18-20 unabhaengig am
+  Original-PDF beantwortete Pruefungsfragen gegen die bestehenden Destillate durch.
+- **DIN 276-1:2008** (18/18 bestanden, 0 Fehler): 6 Ergaenzungen — 5 fehlende
+  Begriffsdefinitionen (Ziff. 2.5/2.6/2.8/2.9/2.12), 4 fehlende Grundsatz-Ziffern
+  (3.3.1/3.3.3/3.3.8/3.3.10), Ziff. 4.3 Darstellungsregel, Link auf din-277-2-2005.
+- **DIN 277-1:2005** (17/18 bestanden): 1 Korrektur (KGF-Schwelle "bis 1,0 m²" fuer
+  Kriechkeller/Installationskanaele fehlte, Ziff. 3.1.2), 5 Ergaenzungen (BRI/NRI/KRI-
+  Ausschlusslisten, NGF-/VF-Ausschluesse, Ziff. 4.1.3, Vorwort-Aenderungen 1987→2005).
+- **DIN 18040-2:2011** (14/20 bestanden): 1 Korrektur (Ziff. 4.2.1 faelschlich als
+  Pflicht statt Empfehlung dargestellt), 5 Ergaenzungen inkl. 2 komplett fehlende
+  Abschnitte (Ziff. 4.3.4 Bodenbelaege, Ziff. 4.4 Warnen/Orientieren/Leiten).
+- **SN 640 050:1993** (13/18 bestanden vor Ergaenzung, 0 Fehler bei Zahlenwerten):
+  5 Luecken ergaenzt (SN-640-271-Zusatzanforderung schwere Motorwagen, A/B/C-Matrix
+  Tab. 1, HVS-Restriktion, Zufahrten-Zusammenfassungs-Hinweis, Sichtverhaeltnisse-Zeile).
+- `wiki/synthese-din-vss-ral-fachskills.md` um Abschnitt 9 "Grenzen der Uebertragbarkeit
+  (Sammelstelle)" ergaenzt — buendelt alle Nicht-Aequivalenz-Hinweise aus Abschnitt 1-8
+  in einer Tabelle; SIA-500-vs.-DIN-18040-Cross-Check als offener Folgeauftrag vermerkt.
+- `destillate/INDEX.md` fuer alle vier Positionen nachgefuehrt (2 von 4 Sub-Agenten
+  hatten selbst committet/gepusht, INDEX aber nicht aktualisiert — Bookkeeping-Lag-
+  Muster wie Run 18/20).
+
 ## 2026-07-14 — normen-training-mini Run 20 (Mac Mini): Q&A-Selbstbefragung 3 Kern-Normen + Synthese-Vertiefung unternehmerkontrolle
 - Vertiefungsstufe (c) fuer die DIN/VSS/RAL-Familie (Mac Mini, Stations-Split): 3 parallele
   Sub-Agenten fuehren je 18-20 unabhaengig am Original-PDF beantwortete Pruefungsfragen gegen
