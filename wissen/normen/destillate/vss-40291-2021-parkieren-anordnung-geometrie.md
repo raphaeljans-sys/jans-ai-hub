@@ -7,8 +7,8 @@ ersetzt: "VSS 40 291a:2019-03"
 ersetzt_durch: ""
 gelesen: "S. 1-32 von 32 (vollständig)"
 datenstand: 2026-07-13
-status: "established"
-last_updated: 2026-07-13
+status: established (verifiziert 260714, Volltextabgleich Mini-Run 18)
+last_updated: 2026-07-14
 links: [[vss-640291a-2005-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
 ---
 
