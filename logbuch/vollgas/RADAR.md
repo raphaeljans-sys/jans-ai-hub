@@ -21,6 +21,31 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 18:48 — [GEDROSSELT] Schoner-Lauf: Lage stabil, Runner gestoppt, Login intakt, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt (Grund bestaetigt: «Tempo drosseln, Wochenlimit 81%»), kein `vollgas-runner`-Prozess
+(`pgrep` leer). Als Schoner starte ich den Runner ausdruecklich NICHT neu und loesche STOP NICHT.
+Wochenlimit wird geschont (Reset Mo 11:59, jetzt noch ~4 Tage). Login-Test mit `set -a` + Background-
+Kill-Fallback (kein `timeout` auf macOS) liefert sauber «OK» — kein Login-Block.
+
+**Durchsatz:** 6 Commits/90 Min, 32/6 Std. Substanz ueber 6 Std: normen-Training Mini-Run 28
+(Q&A-Selbstbefragung DIN 1960 / DIN 18232-2 / DIN V 106 / SIA 102:2020 / Skript Treppen HCU, mit
+Korrekturen + Ergaenzungen) und Energie-Training Run 69 (SIA 2024 Gesundheitsbau, PV/E-Mobilitaet-
+Netzverstaerkung, Fernwaerme, Netto-Null). Restliche 21 Commits nas-selfcommit-Heartbeats — die
+erwartete ruhige Gedrossel-Kadenz ohne Dauer-Runner.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Im Schoner-Modus reicht 3–4x
+  taeglich statt stuendlich; der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir
+  gerade schonen. Vorschlag an Raphael fuers naechste Briefing (Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert) — Idle-Loops** (`baurecht-buch-training`/`immobewertung-training`) brechen
+  intermittierend mit «keine eigentliche Anfrage» ab; im Drossel-Regime nachrangig.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Trainings gedrosselt produktiv, Login intakt,
+keine neue/offene P1. Kein Mail-Anlass.
+
 ## 2026-07-14 17:49 — [GEDROSSELT] Schoner-Lauf: Lage weiter stabil, Runner gestoppt, Login intakt, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
