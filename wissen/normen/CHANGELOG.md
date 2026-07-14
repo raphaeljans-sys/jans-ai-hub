@@ -14,8 +14,32 @@
 - **Wichtigster Fund:** Vorwort (S. 3) listet die DIN-1946-Reihe — **Teil 4 regelt RLT in
   Gebäuden/Räumen des Gesundheitswesens** (Spital/Pflegeheim), nicht Teil 7 (nur Laboratorien).
   Für typische JANS-Healthcare-Projekte ohne Labornutzung ist damit primär DIN 1946-4 statt
-  DIN 1946-7 die relevante Norm — als offener Punkt vermerkt (DIN 1946-4 noch nicht im Hub
-  destilliert, bei Bedarf auf SharePoint nachbeschaffen).
+  DIN 1946-7 die relevante Norm. Korrektur (Orchestrator-Check, siehe Sammel-Eintrag unten):
+  DIN 1946-4 ist entgegen der ursprünglichen Agenten-Meldung bereits im Hub destilliert UND
+  Q&A-selbstbefragt (`destillate/din-1946-4-2008.md`, Mini-Run 16) — der Abschnitt im
+  Destillat wurde entsprechend korrigiert, kein offener Punkt.
+
+## 2026-07-14 — normen-training-mini Run 24 (Mac Mini): Q&A-Selbstbefragung 8 weitere DIN/VSS-Destillate
+- Fortsetzung Vertiefungsstufe (c), Plan aus Run 23. Inventar-Check vorab: DIN/VSS/RAL weiterhin
+  0 offene `[ ]`-Positionen. 8 parallele Q&A-Selbstbefragungs-Agenten: DIN 4844-2:2001
+  (7/20 bestanden, 13 Ergänzungen — Kombinationszeichen D-C001-004 + Healthcare-Zeichen
+  D-P011/D-P016/D-M020 ergänzt), DIN 1946-7:2009 (siehe Eintrag oben), DIN 277-2:2005
+  (8/20 bestanden, 12 Ergänzungen — Gruppe 7 Sonstige Nutzungen inkl. Schutzräume), DIN
+  277-3:2005 (17/21 bestanden, 4 Ergänzungen — KG 313/520-Sonderfälle), DIN 5034-2:1985
+  (8/18 bestanden, 9 Ergänzungen, DIN-4710-Verweis geklärt), DIN 5034-6:1995 (12/15
+  bestanden, **2 Sachkorrekturen**: g2 ist Anmerkung statt Anforderung, Formelzeichen a =
+  Raumtiefe nicht Raumlänge), VSS 640 060:1994 (5/17 bestanden, 12 Ergänzungen —
+  Begriffssystematik + Fussgängerzonen-Absatz), VSS 640 578:2006 (18/18 bestanden, 5
+  Ergänzungen — Tag-/Nachtzeitfenster).
+- Insgesamt 81/148 Fragen sofort bestanden (55 %), 2 Sachkorrekturen, 55 Ergänzungen.
+- **Orchestrator-Qualitätskontrolle:** ein Sub-Agent (DIN 1946-7) hatte fälschlich behauptet,
+  DIN 1946-4 fehle noch im Hub-Bestand — tatsächlich existiert `din-1946-4-2008.md` bereits
+  seit Mini-Run 16 inkl. Q&A. Vor Commit im Destillat und CHANGELOG korrigiert. Lehre für
+  Folgeläufe: Sub-Agenten-Aussagen zu "fehlt im Bestand" gegen `destillate/`-Verzeichnis
+  gegenchecken, bevor sie in den Report übernommen werden.
+- Nachgeführt: 8 Destillate, `destillate/INDEX.md` (7 Einträge aktualisiert, `din-277-3-2005.md`
+  neu aufgenommen — fehlte bisher trotz vorhandenem Destillat), `training/norm-inventar.md`
+  (8 Zeilen). Lauf-Report: `outputs/2026-07-14_normen-mini-run24.md`.
 
 ## 2026-07-14 — Anfrage «Farbe Elektroinstallationen in Architektenplänen»: SIA-400-Destillat vertieft
 - Interaktive Norm-Anfrage (Fundstellen-Route gemäss Rule normen-referenz). Befund: SIA 400:2000

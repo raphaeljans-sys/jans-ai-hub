@@ -45,7 +45,8 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vss-merkblatt-veloabstellplaetze-1998.md` | Stadt ZH Merkblatt Veloabstellplätze | 1996/1998 | established (verifiziert 260714, PPV faelschlich kantonal statt staedtisch korrigiert) |
 | `vss-640050-1993.md` | SN 640 050 Grundstückzufahrten | 1993 | established (verifiziert 260713; Q&A-Selbstbefragung Mini-Run 21, 260714: 18 Fragen, 13/18 bestanden vor Korrektur, 5 Ergänzungen, keine Fehler) |
 | `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713/260714; Q&A-Selbstbefragung Run 21, 260714: 18 Fragen, 17/18 bestanden, 1 Korrektur KGF-Schwelle, 5 Ergänzungen BRI/NRI/KRI u.a.) |
-| `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713) |
+| `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713; Q&A-Selbstbefragung Mini-Run 24, 260714: 20 Fragen, 8 bestanden, 0 Fehler, 12 Ergänzungen — Gruppe 7 Sonstige Nutzungen inkl. Schutzräume ergänzt) |
+| `din-277-3-2005.md` | DIN 277-3 Mengen und Bezugseinheiten | 2005 | established (verifiziert 260714; Q&A-Selbstbefragung Mini-Run 24, 260714: 21 Fragen, 17 bestanden, 0 Fehler, 4 Ergänzungen — KG 313/520-Sonderfälle, Tabelle-2-Ausnahmen KG 444/445/446) |
 | `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte + fehlende Regelspur wohnraumähnliche Arbeitsräume korrigiert; Teil-Destillat, Abschnitt 5 nicht im Detail) |
 | `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713; Q&A-Selbstbefragung 260714 Mini-Run 20: 18/18 bestanden, 1 Fundstellen-Praezisierung) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
@@ -54,16 +55,16 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt; Q&A-Selbstbefragung Mini-Run 21, 260714: 18/18 bestanden nach Ergänzung, 6 Ergänzungen fehlende Begriffe/Grundsätze/Ziff. 4.3) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | established (verifiziert 260713 Mini-Run 15, 62 Aussagen, 0 Fehler) |
 | `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (verifiziert 260713, vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12; Mini-Run 14: 6 Fehler korrigiert + Ziff. 5.2.4 ergänzt; Q&A-Selbstbefragung 260714 Mini-Run 20: 18/18 bestanden, 2 Korrekturen + Vorwort ergaenzt) |
-| `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
+| `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14; Q&A-Selbstbefragung Mini-Run 24, 260714: 18/18 behandelt, 0 Fehler, 9 Ergänzungen, DIN-4710-Verweis geklärt) |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch; Teil-Destillat, Scan nur ungerade Seiten im Bestand) |
-| `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | established (verifiziert 260713, Blendschutz/Wärmestrahlung-Passage ergänzt, vollständig S.1-6/6) |
+| `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | established (verifiziert 260713, Blendschutz/Wärmestrahlung-Passage ergänzt, vollständig S.1-6/6; Q&A-Selbstbefragung Mini-Run 24, 260714: 12/15 bestanden, 2 Korrekturen — g2-Anmerkung statt Anforderung, Formelzeichen a = Raumtiefe —, 1 Ergänzung Gl.7) |
 | `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | established (verifiziert 260713, Anhang D/F korrigiert, vollständig S.1-38/38; Q&A-Selbstbefragung 260714 Mini-Run 22: 14/20 bestanden, 6 Ergänzungen — Typ A/B Ziff. 4.3, SL≥2'000·d Anmerkung, 80mm Windleitwände, T(00)-Ausnahme Ziff. 7.3.2, Kennzeichnung Bst. i), Abschnitt 10 Einbau/Wartung) |
-| `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | established (verifiziert 260713) |
+| `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | established (verifiziert 260713; Q&A-Selbstbefragung Mini-Run 24, 260714: 17/17 behandelt, 0 Fehler, 12 Ergänzungen — Begriffssystematik Ziff.4, Fussgängerzonen-Absatz S.15) |
 | `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | established (verifiziert 260713) |
 | `din-v-105-100-2005.md` | DIN V 105-100 Mauerziegel mit besonderen Eigenschaften | 2005-10 (Vornorm) | established (verifiziert 260713, vollständig S.1-31/31) |
 | `din-v-106-2005.md` | DIN V 106 Kalksandsteine mit besonderen Eigenschaften | 2005-10 (Vornorm) | established (verifiziert 260713, vollständig S.1-26/26) |
-| `din-4844-2-2001.md` | DIN 4844-2 Sicherheitskennzeichnung, Darstellung Sicherheitszeichen | 2001-02/03 | established (verifiziert 260713, vollständig S.1-23/23) |
+| `din-4844-2-2001.md` | DIN 4844-2 Sicherheitskennzeichnung, Darstellung Sicherheitszeichen | 2001-02/03 | established (verifiziert 260713, vollständig S.1-23/23; Q&A-Selbstbefragung Mini-Run 24, 260714: 7/20 bestanden, 0 Fehler, 13 Ergänzungen — Kombinationszeichen D-C001-004 komplett, Healthcare-Zeichen D-P011/D-P016/D-M020 ergänzt) |
 | `baupreisindizes-statistisches-bundesamt-2010.md` | Baupreisindizes Statistisches Bundesamt (Methodik-Referenz D, keine DIN) | Februar 2010 | established (verifiziert 260714 Mini-Run 19, Fussnoten-Fundstellen korrigiert) |
 | `komm-din18024-t1-bayern-2001.md` | Bayerischer Kommentar/Leitfaden zu DIN 18024-1 (Strassen/Plätze/Wege/Grünanlagen/Spielplätze) | 2001-08 | established (verifiziert 260713, vollständig S.1-68/68) |
 | `sia-260-2003.md` | SIA 260 Grundlagen der Projektierung von Tragwerken | 2003 | established (verifiziert 260712) |
@@ -104,7 +105,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1356-6-2006.md` | DIN 1356-6 Bauaufnahmezeichnungen, Schadenschlüssel | 2006-05 | established (verifiziert 260714 Mini-Run 19, bestanden) |
 | `din-4102-2-1977.md` | DIN 4102-2 Brandverhalten Baustoffe/Bauteile, Feuerwiderstandsklassen | 1977-09 | established (verifiziert 260713) |
 | `din-919-1-1991.md` | DIN 919-1 Technische Zeichnungen Holzverarbeitung, Grundlagen | 1991-04 | established (verifiziert 260714 Mini-Run 19, bestanden) |
-| `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | established (verifiziert 260714 Mini-Run 19, Ziff.5.2/5.3.7/Geltungsbereich ergaenzt) |
+| `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | established (verifiziert 260714 Mini-Run 19, Ziff.5.2/5.3.7/Geltungsbereich ergaenzt; Q&A-Selbstbefragung Mini-Run 24, 260714: 20 Fragen, 0 Fehler, 14 Ergänzungen — Abgrenzung zu DIN 1946-4 für Healthcare-Projekte ohne Labor präzisiert) |
 | `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | established (verifiziert 260714, Ziff. 4.1/5.2/6.3.3.2 praezisiert) |
 | `sia-100-2004.md` | SIA 100 Statuten des SIA | 2004 (Grundfassung 1999) | destilliert |
 | `sia-102-2014.md` | SIA 102 Leistungen + Honorare Architekten | 2014 | destilliert (— ersetzt durch 2020) |
@@ -170,7 +171,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | established (verifiziert 260713 Mini-Run 15, 40 Aussagen, 2 Fehler korrigiert) |
 | `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260714, Volltextabgleich Mini-Run 18 + Q&A-Selbstbefragung Mini-Run 22: 22/22 Fragen bestanden, 0 Fehler, 4 Ergaenzungen) |
 | `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | established (verifiziert 260713, vollstaendig S.1-21/21; Q&A-Selbstbefragung 260714 Mini-Run 22: 20/20 Fragen bestanden, 0 Korrekturen, 3 Ergaenzungen Begriffe/Literaturverzeichnis) |
-| `vss-640578-2006.md` | SN 640 578 Laermimmissionen Parkierungsanlagen Berechnung | 2006-08 | established (verifiziert 260713, vollstaendig S.1-36/36) |
+| `vss-640578-2006.md` | SN 640 578 Laermimmissionen Parkierungsanlagen Berechnung | 2006-08 | established (verifiziert 260713, vollstaendig S.1-36/36; Q&A-Selbstbefragung Mini-Run 24, 260714: 18/18 bestanden, 0 Fehler, 5 Ergänzungen — Tag-/Nachtzeitfenster 07-19/19-07 Uhr) |
 | `sia-195-1999.md` | SIA 195 Rohrvortrieb (grabenlose Leitungen) | 1999 | established (verifiziert 260713) |
 | `sia-196-1998.md` | SIA 196 Baulüftung im Untertagbau | 1998 | teil-destillat (Kern S.1-37; verifiziert 260713) |
 | `sia-197-2004.md` | SIA 197 Projektierung Tunnel – Grundlagen | 2004 | established (verifiziert 260713) |
