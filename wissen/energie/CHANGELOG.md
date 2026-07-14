@@ -2,6 +2,37 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 64: Schallschutzfenster-Klassentabelle abschliessend geklärt (keine amtliche CH-Skala), DIN-4109-Herkunft, De-Formel amtlich bestätigt
+- **Run-Report** `outputs/2026-07-14_energie-run64.md`. Bearbeitet die letzten beiden offenen
+  Punkte aus Run 62/63 zum Themenkomplex Aussenlärm/Schallschutzfenster (F68).
+- **Klassentabellen-Frage abschliessend beantwortet:** Zweitquellen-Check (WebFetch stauffer.ch)
+  bestätigt unabhängig, dass **SIA 181 selbst keine Schallschutzklassen für Fenster definiert** —
+  sie arbeitet ausschliesslich mit situativen Anforderungswerten (De, LH, L', Di). Es gibt damit
+  **keine amtliche Schweizer Klassentabelle**, weder von SIA noch von einer anderen Fachstelle.
+- **Adversarialer Befund:** der Schweizer Fensterhändler Hasler Fenster behauptet auf seiner
+  Website, seine Klassentabelle beruhe auf SIA 181 — **das ist widerlegt**. Die tatsächlich im
+  Markt kursierende «SSK 1-6»-Skala (5-dB-Stufen) stammt nachweislich aus der **deutschen** Norm
+  DIN 4109 (drei übereinstimmende WebSearch-Quellen), nicht aus SIA 181, und ist nicht identisch
+  mit der zweiten kommerziellen Skala «II-V» (fensterversand.ch).
+- **Formel amtlich bestätigt:** Praxisblatt Stadt Bern «Schalldämmung nach SIA 181» (Okt. 2023,
+  curl+pdftotext) beziffert **De ≥ Lr,Tag − 33 dB** / **De ≥ Lr,Nacht − 25 dB** (erhöhte
+  Anforderung 3 dB strenger) — rechnerisch konsistent mit dem bereits dokumentierten Kleinstwert
+  De ≥ 27 dB (Referenzwerte Lr Tag 60 dB / Nacht 52 dB).
+- **DE-Marktkosten als grobe Orientierung ergänzt** (fensterhero.com, EUR, Bezugsgrösse
+  1,23 × 1,48 m Kunststoffrahmen): SSK 2 rund +50–100 €, SSK 6 rund +800–1'200 € gegenüber
+  Standard — ausdrücklich **nicht CH, nicht CHF, nicht amtlich**, nur Grössenordnung.
+- **Register:** `destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md` auf Status
+  **established** gehoben (Frontmatter + neuer Abschnitt + Offene-Punkte bereinigt);
+  `wiki/schallschutz-sia181.md` ergänzt; `wiki/BAUHERREN-FAQ.md` F68 auf established gehoben;
+  `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D42), `wiki/QUESTIONS.md`
+  (E53, Meta-Punkt M2 zum zwanzigsten Mal vermerkt), `raw/_INGESTED.md` nachgeführt.
+- **Nebenbefund:** die Output-Datei für Run 63 fehlte (Register/CHANGELOG waren bereits
+  nachgeführt, aber Ablauf-Schritt 7 nicht abgeschlossen) — nachträglich als
+  `outputs/2026-07-14_energie-run63.md` ergänzt.
+- **Was offen bleibt:** CH-CHF-Mehrkosten je Schallschutzklasse (amtlich schlicht nicht
+  auffindbar, gilt als geklärtes Nichtvorhandensein statt als Rechercheluecke); konkrete
+  Ctr-Werte je Fenstertyp/Hersteller; Meta-Punkt M2 (Skill-Entscheid) weiterhin bei Raphael.
+
 ## 2026-07-14 — Run 63: SZ-Vollzugspraxis Aussenlärm (JANS-Fokuskanton) amtlich belegt
 - **Run-Report** `outputs/2026-07-14_energie-run63.md`. PDF-Inventar bleibt seit Run 46
   vollständig abgearbeitet; löst den Run-62-Prioritätspunkt «SZ-Ausnahmebewilligungspraxis».

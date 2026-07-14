@@ -622,3 +622,20 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Quelle (fensterversand.ch), nicht amtlich → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`
   (neu), Ergänzung `[[schallschutz-sia181]]`, FAQ **F68** neu, Status emerging (SZ-spezifische
   Ausnahmebewilligungspraxis, amtliche Fensterklassen-Tabelle, CHF-Mehrkosten je Klasse offen).
+
+- **D42 (Run 64, 2026-07-14)** — «Gibt es eine amtliche Schallschutzfenster-Klassentabelle in der
+  Schweiz, und was kostet eine höhere Klasse?» — Restpunkte aus D40/D41 (Run 62/63) abschliessend
+  bearbeitet. Zweitquellen-Check (WebFetch stauffer.ch) bestätigt: **SIA 181 definiert selbst keine
+  Fensterklassen** — nur situative Anforderungswerte (De, LH, L', Di). Die kursierenden Skalen
+  (II-V bei fensterversand.ch, SSK 1-6 bei fensterhero.com) bleiben damit **beide kommerziell,
+  nicht amtlich**; die SSK-1-6-Skala stammt nachweislich aus der **deutschen** Norm DIN 4109
+  (WebSearch, drei übereinstimmende Quellen), nicht aus SIA 181 — der CH-Fensterhändler Hasler
+  Fenster behauptet auf seiner Website fälschlich einen SIA-181-Ursprung, adversarial widerlegt.
+  Amtliche Formel-Bestätigung: Praxisblatt Stadt Bern «Schalldämmung nach SIA 181» (Okt. 2023,
+  curl+pdftotext) beziffert **De ≥ Lr,Tag − 33 dB** / **De ≥ Lr,Nacht − 25 dB** (erhöht 3 dB
+  strenger) — rechnerisch identisch mit dem bereits dokumentierten Kleinstwert De ≥ 27 dB.
+  CHF-Mehrkosten bleiben für die Schweiz unbeziffert; als grobe Orientierung liegt eine
+  DE-Marktangabe vor (fensterhero.com, EUR, explizit nicht CH) → Ergänzung
+  `[[aussenlaerm-schallschutzfenster-strasse-bahn]]` (Status **established**), Ergänzung
+  `[[schallschutz-sia181]]`, FAQ **F68 auf established gehoben**. Löst die beiden verbliebenen
+  Run-62/63-Prioritätspunkte vollständig (bis auf die CH-CHF-Zahl, die es amtlich nicht gibt).

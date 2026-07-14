@@ -86,6 +86,15 @@ lärmempfindliche Wohn-/Arbeitsräume — der in Zürich zulässige Ausweg «Fes
 Tag/60 dB Nacht» existiert in Schwyz nicht →
 `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`.
 
+**Formel amtlich bestätigt + Klassentabelle abschliessend verneint (Run 64):** die Stadt Bern
+(Praxisblatt Okt. 2023) bestätigt amtlich die Rechenformel **De ≥ Lr,Tag − 33 dB** /
+**De ≥ Lr,Nacht − 25 dB** (erhöhte Anforderungen 3 dB strenger) — konsistent mit dem oben
+dokumentierten Kleinstwert De ≥ 27 dB. Ebenfalls geklärt: **SIA 181 definiert keine
+Schallschutzklassen** für Fenster (Zweitquellen-Check via Stauffer.ch); die im Markt kursierende
+«SSK 1-6»-Skala stammt aus der deutschen Norm DIN 4109, nicht aus SIA 181 — ein Schweizer
+Fensterhändler (Hasler) behauptet auf seiner Website fälschlich einen SIA-181-Ursprung, das ist
+adversarial widerlegt. Details → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`.
+
 ## Wo der Schallschutz im JANS-Workflow auftaucht
 - **Entwurf:** Grundriss-Stapelung (Schlafraum nicht ueber Technikraum/Lift), WP-Standort.
 - **Ausschreibung/LV:** Trennwand-/Deckenaufbauten mit Ziel-D_nT / L'_nT statt nur «Rw 52».

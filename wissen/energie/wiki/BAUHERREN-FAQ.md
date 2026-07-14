@@ -2378,14 +2378,25 @@ bewilligungen sind **nur bis 3 dB über dem Grenzwert** möglich (darüber keine
 als andernorts), und **Festverglasungen sind für Wohn-/Arbeitsräume grundsätzlich nicht
 bewilligungsfähig** — der Zürcher Ausweg «Festverglasung ab 70/60 dB» gilt in Schwyz nicht.
 
+**Gibt es eine amtliche Schallschutzfenster-Klassentabelle?** Nein — abschliessend geklärt: SIA 181
+definiert keine Klassen-Skala, sondern nur den situativen Anforderungswert De. Die im Handel
+kursierenden Skalen (II-V bei fensterversand.ch, SSK 1-6 bei fensterhero.com) sind beide
+**kommerziell**, nicht deckungsgleich, und SSK 1-6 stammt nachweislich aus der **deutschen** Norm
+DIN 4109 — ein Schweizer Fensterhändler (Hasler) behauptet auf seiner Website fälschlich, seine
+Klassentabelle beruhe auf SIA 181; das ist widerlegt. CHF-Mehrkosten je Klasse sind für die
+Schweiz weiterhin nicht amtlich beziffert; als grobe Grössenordnung liegt eine deutsche
+Marktangabe vor (SSK 2 rund +50–100 €, SSK 6 rund +800–1'200 € gegenüber Standard, DE-Markt,
+nicht CH).
+
 **Quelle:** bauen-im-laerm.ch «Mindestvoraussetzungen Ausnahmebewilligung» (Art. 31/32 LSV) +
 baukultur-laerm.ch «Schalldämmanforderungen nach SIA-Norm 181» + Schallschutzfenster-
 Klassentabellen (fensterversand.ch II-V; fensterhero.com SSK 1-6/DIN 4109, beide kommerziell,
-nicht deckungsgleich) + amtliches Merkblatt AfU Kanton Schwyz 29.01.2021 (Web, gelesen
-2026-07-14) → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, `[[schallschutz-sia181]]`,
-`[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`. Status emerging (amtliche
-Fensterklassen-Tabelle und CHF-Mehrkosten je Klasse bleiben offen; SZ-Vollzugspraxis jetzt
-primärquellenbelegt).
+nicht deckungsgleich) + amtliches Merkblatt AfU Kanton Schwyz 29.01.2021 + Praxisblatt Stadt Bern
+«Schalldämmung nach SIA 181» (Okt. 2023, amtlich, gelesen 2026-07-14) + Stauffer.ch (Abgrenzungs-
+Check SIA 181 vs. Klassen-Skalen, gelesen 2026-07-14) → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`,
+`[[schallschutz-sia181]]`, `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`. Status
+**established** (SZ-Vollzugspraxis und die Klassentabellen-Frage primärquellenbelegt geklärt; nur
+noch offen: CH-CHF-Mehrkosten und Ctr-Werte je Hersteller).
 
 ---
 
@@ -2398,6 +2409,13 @@ primärquellenbelegt).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
+
+> **FAQ-Stand 2026-07-14 (Run 64):** F68 (Aussenlärm) auf **established** gehoben — die
+> Klassentabellen-Frage ist jetzt abschliessend geklärt (SIA 181 definiert keine Fensterklassen,
+> adversarial via Stauffer.ch bestätigt; die SSK-1-6-Skala stammt aus DIN 4109, nicht aus SIA 181;
+> ein CH-Fensterhändler mit falschem SIA-181-Bezug widerlegt), die Anforderungsformel amtlich
+> bestätigt (Stadt Bern, Okt. 2023) und eine grobe DE-Marktkosten-Orientierung ergänzt (explizit
+> nicht CH/CHF) → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, `[[schallschutz-sia181]]`.
 
 > **FAQ-Stand 2026-07-14 (Run 63):** F68 (Aussenlärm) geschärft mit der SZ-Vollzugspraxis (amtliches
 > Merkblatt AfU Kanton Schwyz, 29.01.2021, primärquellenbelegt) — löst den Run-62-Prioritätspunkt

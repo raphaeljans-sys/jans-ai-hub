@@ -1,10 +1,10 @@
 ---
-quelle: «Vollzugshilfe/Mindestvoraussetzungen Ausnahmebewilligung Art. 31 Abs. 2 LSV» (bauen-im-laerm.ch) + «Schalldämmanforderungen nach SIA-Norm 181» (baukultur-laerm.ch, Fachartikel mit Bezug Art. 32 LSV) + Schallschutzfenster-Klassentabellen (fensterversand.ch II-V; fensterhero.com SSK 1-6/DIN 4109, beide kommerziell) + SZ-Vollzugsvergleich via `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`
-herausgeber: bauen-im-laerm.ch (Fachplattform Lärmschutz im Bauen, Bezug auf LSV/USG); baukultur-laerm.ch (Stand 20.01.2022, Bezug SIA 181:2020 Ziff. 3.1.1); fensterversand.ch/fensterhero.com (Fensterhändler, Klassentabellen kommerziell)
-ausgabe: LSV (SR 814.41, laufend geltend) Art. 31/32; SIA 181:2020 Ziff. 3.1.1
-gelesen: 2026-07-14 (Web via WebFetch bauen-im-laerm.ch/ausnahmebewilligung/mindestvoraussetzungen; curl+pdftotext baukultur-laerm.ch/sia181.pdf; WebFetch fensterversand.ch/fenster/typen/schallschutzfenster.php; WebSearch+WebFetch stauffer.ch zur Abgrenzung SSK 1-6/DIN 4109 vs. SIA 181, Run 63)
-datenstand: LSV-Artikel-Bezüge primärquellennah (Fachplattform zitiert Artikelnummern direkt); SIA-181-Formelwerte aus Sekundärquelle mit korrektem Norm-Bezug; Fensterklassen-Tabellen kommerziell, nicht amtlich — als solche markiert; SZ-Vollzugspraxis amtlich verifiziert (Run 63)
-status: emerging
+quelle: «Vollzugshilfe/Mindestvoraussetzungen Ausnahmebewilligung Art. 31 Abs. 2 LSV» (bauen-im-laerm.ch) + «Schalldämmanforderungen nach SIA-Norm 181» (baukultur-laerm.ch, Fachartikel mit Bezug Art. 32 LSV) + Schallschutzfenster-Klassentabellen (fensterversand.ch II-V; fensterhero.com SSK 1-6/DIN 4109, beide kommerziell) + SZ-Vollzugsvergleich via `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]` + Praxisblatt «Schalldämmung nach Norm SIA 181 (2020)» Stadt Bern AfU (Okt. 2023, amtlich) + Stauffer.ch «SIA-Norm 181» (Abgrenzungs-Check) + Hasler Fenster «Schallschutzklassen» (kommerziell, Fehlbehauptung adversarial korrigiert)
+herausgeber: bauen-im-laerm.ch (Fachplattform Lärmschutz im Bauen, Bezug auf LSV/USG); baukultur-laerm.ch (Stand 20.01.2022, Bezug SIA 181:2020 Ziff. 3.1.1); fensterversand.ch/fensterhero.com/haslerfenster.ch (Fensterhändler, Klassentabellen kommerziell); Stadt Bern, Amt für Umweltschutz, Bau und Lärm (amtlich)
+ausgabe: LSV (SR 814.41, laufend geltend) Art. 31/32; SIA 181:2020 Ziff. 3.1.1; DIN 4109 (deutsche Norm, nur zur Abgrenzung)
+gelesen: 2026-07-14 (Web via WebFetch bauen-im-laerm.ch/ausnahmebewilligung/mindestvoraussetzungen; curl+pdftotext baukultur-laerm.ch/sia181.pdf; WebFetch fensterversand.ch/fenster/typen/schallschutzfenster.php; WebSearch+WebFetch stauffer.ch zur Abgrenzung SSK 1-6/DIN 4109 vs. SIA 181, Run 63; Run 64: curl+pdftotext bern.ch Praxisblatt SIA 181 Okt. 2023, WebFetch haslerfenster.ch + stauffer.ch + fensterhero.com, WebSearch DIN 4109 SSK 1-6)
+datenstand: LSV-Artikel-Bezüge primärquellennah (Fachplattform zitiert Artikelnummern direkt); SIA-181-Formelwerte amtlich bestätigt (Stadt-Bern-Praxisblatt Okt. 2023); Fensterklassen-Tabellen kommerziell, nicht amtlich — als solche markiert, Herkunft DIN 4109 (SSK-Skala) primärquellennah eingegrenzt; SZ-Vollzugspraxis amtlich verifiziert (Run 63); DE-Marktkosten (EUR) explizit als Nicht-CH-Orientierung markiert (Run 64)
+status: established
 last_updated: 2026-07-14
 ---
 
@@ -145,6 +145,51 @@ Klassengrenzen, andere Herkunftsnorm). Beide Skalen sind für die Schweiz **nich
 situativen Anforderungswert De (siehe oben). Für ein Schweizer Projekt zählt ausschliesslich die
 projektspezifische De/R'w+Ctr-Berechnung, keine der beiden kommerziellen Klassentabellen.
 
+### Bestätigung Run 64: keine amtliche CH-Klassentabelle, DIN-4109-Herkunft der SSK-Skala, ein CH-Händler behauptet fälschlich SIA-181-Bezug
+
+Eine gezielte Zweitquellen-Prüfung (adversarial, Stauffer.ch statt der bisherigen Sekundärquellen)
+bestätigt unabhängig: **die Norm SIA 181 definiert selbst keine festen Schallschutzklassen** —
+sie arbeitet ausschliesslich mit situativen Anforderungswerten (De, LH, L', Di), nie mit einer
+Klassen-Skala. Damit ist die oben offen gelassene Frage nach einer «amtlichen Schallschutzfenster-
+Klassentabelle einer Schweizer Fachstelle» **abschliessend beantwortet: es gibt keine** — weder
+von SIA noch von einer anderen CH-Fachstelle gefunden. Die kommerziellen Skalen (II-V, SSK 1-6)
+bleiben die einzigen im Markt kursierenden Einteilungen.
+
+**Adversarialer Befund:** der Schweizer Fensterhändler Hasler Fenster behauptet auf seiner Website
+wörtlich, die Grundlage seiner (bildbasierten, nicht ausgeschriebenen) Klassentabelle sei «die
+Norm SIA 181, die mit den europäischen Richtlinien übereinstimmt» — diese Behauptung ist **falsch**
+bzw. irreführend: die recherchierbare «SSK 1-6»-Systematik mit exakt 5-dB-Stufenabständen stammt
+nachweislich aus der **deutschen** Norm DIN 4109, nicht aus SIA 181 (Quelle DIN-4109-Ursprung:
+WebSearch-Trefferlage oknoplast.de/fensterversand.com/fensterhero.com, alle mit identischer
+DIN-4109-Zuordnung). Für JANS-Bauherrenkommunikation heisst das: Verweise auf «SIA-181-
+Schallschutzklassen» eines Fensterhändlers sind mit Vorsicht zu behandeln und nicht unbesehen zu
+übernehmen.
+
+**Formel-Herkunft amtlich bestätigt (Stadt Bern, Praxisblatt Okt. 2023):** die im Abschnitt oben
+zitierte SIA-181-Mindestanforderung lässt sich jetzt auch amtlich (nicht nur normnah) als Formel
+belegen: **De ≥ Lr,Tag − 33 dB** und **De ≥ Lr,Nacht − 25 dB** (erhöhte Anforderungen 3 dB
+strenger). Am situativen Referenzwert (Lr Tag 60 dB / Lr Nacht 52 dB) ergibt das exakt den bereits
+dokumentierten Kleinstwert De ≥ 27 dB — die beiden Quellen sind damit rechnerisch konsistent.
+
+**DE-Marktkosten als grobe Orientierung (ausdrücklich nicht CH, nicht amtlich, nicht CHF):**
+fensterhero.com (deutscher Markt) beziffert für die SSK-1-6-Skala (Bezugsgrösse 1,23 × 1,48 m,
+weisser Kunststoffrahmen) folgende Mehrkosten gegenüber Standard:
+
+| SSK-Klasse | Rw-Bereich | Mehrkosten ggü. Standard (EUR, DE-Markt) |
+|---|---|---|
+| SSK 2 | 30–34 dB | + 50–100 € |
+| SSK 3 | 35–39 dB | + 150–250 € |
+| SSK 4 | 40–44 dB | + 300–500 € |
+| SSK 5 | 45–49 dB | + 500–800 € |
+| SSK 6 | ≥ 50 dB | + 800–1'200 € |
+
+Das ist **keine CHF-Zahl und keine Schweizer Quelle** — Kunststoffrahmen-Standardware im
+deutschen Massenmarkt unterscheidet sich stark von der in der Schweiz üblichen Holz-/Metall-
+Fensterqualität (höheres Preisniveau, andere Rahmenmaterialien). Als reine Grössenordnungs-
+Orientierung («Mehrkosten steigen mit jeder Klasse deutlich, nicht nur marginal») verwendbar, für
+eine Projektkalkulation aber durch eine Schweizer Fensterbauer-Offerte mit R'w+Ctr-Angabe zu
+ersetzen. Eine CHF-Quelle wurde weiterhin nicht gefunden.
+
 ## Bauherren-Transfer
 
 - Ein Grundstück an einer lauten Strasse/Bahnlinie löst **zwei getrennte Prüfungen** aus: zuerst
@@ -162,10 +207,14 @@ projektspezifische De/R'w+Ctr-Berechnung, keine der beiden kommerziellen Klassen
 
 ## Offene Punkte
 
-- Amtliche (nicht kommerzielle) Schallschutzfenster-Klassentabelle einer Schweizer Fachstelle
-  (z.B. VSFK/FFF) nicht gefunden — bisherige Tabellen (II-V und SSK 1-6) bewusst als kommerzielle,
-  nicht deckungsgleiche Quellen markiert.
-- CHF-Mehrkosten je Schallschutzklasse gegenüber Standardfenster nicht beziffert.
+- ~~Amtliche (nicht kommerzielle) Schallschutzfenster-Klassentabelle einer Schweizer Fachstelle
+  nicht gefunden~~ ✓ 2026-07-14 (Run 64) abschliessend geklärt: **es gibt keine** — SIA 181 kennt
+  keine Klassen-Skala, adversarial via Stauffer.ch bestätigt. Die kursierenden Skalen (II-V,
+  SSK 1-6) bleiben kommerziell; SSK 1-6 stammt nachweislich aus der deutschen Norm DIN 4109, nicht
+  aus SIA 181 (ein CH-Fensterhändler behauptet fälschlich einen SIA-181-Bezug).
+- CHF-Mehrkosten je Schallschutzklasse gegenüber Standardfenster weiterhin **nicht CH-amtlich
+  beziffert**; als grobe Grössenordnungs-Orientierung liegt seit Run 64 eine DE-Marktangabe (EUR,
+  fensterhero.com) vor — explizit nicht CH/nicht amtlich, siehe Abschnitt oben.
 - ~~Kantonsspezifische Ausnahmebewilligungspraxis nur für ZH recherchiert; SZ noch offen~~ ✓
   2026-07-14 (Run 63) gelöst → `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]` (amtliches
   Merkblatt AfU, vollständig gelesen). Weitere Kantone (insb. weitere JANS-Projektkantone) bleiben

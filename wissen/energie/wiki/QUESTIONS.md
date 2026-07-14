@@ -548,18 +548,30 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   nicht deckungsgleiche kommerzielle Skalen, sauber getrennt dokumentiert. Löst den
   Run-62-Prioritätspunkt vollständig.
 
+- [x] **E53** **Gibt es eine amtliche Schallschutzfenster-Klassentabelle in der Schweiz, und was
+  kostet eine höhere Klasse?** belegt ✓ 2026-07-14 (Run 64) → Ergänzung
+  `[[aussenlaerm-schallschutzfenster-strasse-bahn]]` (Status auf **established** gehoben),
+  Ergänzung `[[schallschutz-sia181]]`, FAQ **F68** geschärft. Zweitquellen-Check (Stauffer.ch)
+  bestätigt: SIA 181 definiert keine Fensterklassen-Skala, nur situative Anforderungswerte. Die
+  SSK-1-6-Skala stammt aus der deutschen Norm DIN 4109, nicht aus SIA 181 — ein CH-Fensterhändler
+  (Hasler) behauptet fälschlich einen SIA-181-Bezug, adversarial widerlegt (WebSearch, drei
+  übereinstimmende DE-Quellen zur DIN-4109-Herkunft). Formel De ≥ Lr,Tag−33dB/Lr,Nacht−25dB
+  amtlich bestätigt (Stadt Bern Praxisblatt Okt. 2023). CHF-Mehrkosten bleiben für die Schweiz
+  unbeziffert, DE-Marktangabe (EUR) als grobe Orientierung ergänzt. Löst die Run-62/63-
+  Restpunkte vollständig, ausser der amtlich schlicht nicht existierenden CH-CHF-Zahl.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 63): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F68 Vertiefungen belegt (F68 jetzt inkl. SZ-Vollzugspraxis, amtliches Merkblatt AfU 29.01.2021
-  primaerquellenbelegt, Pendant zum Waermepumpen-Laermschutz F65), Rp/kWh-Luecken orientierend
-  geschlossen (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-
-  Luftdichtheit, § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle
-  (E45) UND Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
-  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also NEUNZEHN Laeufen in Folge) spruchreif fuer
-  eine Entscheidung und wird hier zum neunzehnten Mal vermerkt. Der Loop kann sie nicht selbst
-  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht
-  sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger
-  Themenkomplex: ein neues, noch unbelegtes Thema (die beiden Laermschutz-Pendants F65/F68 samt
-  SZ-Vertiefung sind jetzt beide primaerquellenbelegt) — eine interaktive Session koennte
-  priorisieren.**
+  **Stand 2026-07-14 (Run 64): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F68 Vertiefungen belegt (F68 jetzt established: SZ-Vollzugspraxis UND Klassentabellen-Frage
+  abschliessend geklaert), Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G,
+  LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (100 %
+  amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND Solarpflicht in allen 26
+  Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw. web-trianguliert — Meta-Punkt M2 ist
+  SEIT RUN 45 (also ZWANZIG Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum
+  zwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort
+  von Raphael in einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne
+  neue Substanz zu erzeugen. Naechster faelliger Themenkomplex: ein komplett neues, noch
+  unbelegtes Thema (der gesamte Laermschutz-Komplex F65/F68 samt SZ-Vertiefung und
+  Klassentabellen-Frage ist jetzt vollstaendig primaerquellenbelegt/established) — eine
+  interaktive Session koennte priorisieren.**
