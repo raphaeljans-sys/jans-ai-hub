@@ -13,6 +13,37 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 07:51 — [FREI] mit Kapazitaet, beide Stationen lueckenlos, starker Durchsatz, keine P1
+
+**Fensterzustand [FREI]:** Login OK mit gesourctem OAuth-Token (`claude -p` → «OK»); das nackte
+`claude -p` ohne Token liefert weiterhin «Not logged in» (bekannter Test-Artefakt, Token-Zeile in
+~/.jans-dispatch.env vorhanden). Keine Limit-Meldung im Test → das aktuelle 5h-Fenster hat noch
+Kapazitaet. Kein Reset-Loch seit dem 04:50-Reset; der Taktgeber-Auftrag (nach jedem Reset sofort
+weiterfahren) ist erfuellt.
+
+**Durchsatz stark, beide Stationen tragen:** 22 Commits in 90 Min, 60 in 6 Std, rc=0 auf beiden.
+Beide Runner leben (MacBook PID 4210/97186, Mac Mini Zyklus 321). Kein STOP, kein Doppellauf.
+Inhaltlich echt seit letztem Lauf: baurecht Run 44 (Modell-D, 4 Komplexe parallel, VRG-Rechtsschutz +
+§238/§238a-Divergenz), immobewertung Run 31, normen-nacht Run 9 (SIA 102:2020 → established verifiziert),
+energie Run 62 (Aussenlaerm Strasse/Bahn), planungsgrundlagen Run 42 (Kartenportale Bern + Gebaeude-
+schadstoffe). nas-selfcommit greift zusaetzlich.
+
+- **P2 (unveraendert) — Idle-Loops `wettbewerbs-dna-training` / `spec-training` / `synobsis-batch-nacht`:**
+  brechen weiterhin intermittierend nach ~6-10s mit «keine konkrete Anfrage» ab (Mac Mini 07:39
+  synobsis 6s bestaetigt). Fix bleibt: bei ruhiger/interaktiver Gelegenheit einen expliziten «Fahre den
+  naechsten offenen Baustein aus»-Auftakt in die jeweilige SKILL.md voranstellen — NICHT mitten im
+  laufenden Zyklus editieren (Byte-Offset-Risiko). Die produktive Wettbewerbs-Last traegt derzeit der
+  `wettbewerbs-layer-nachbrenner`. Kein Eingriff in diesem Lauf.
+- **P3 (unveraendert) — energie M2 «eigener Skill energie?»:** braucht Raphaels Entscheid interaktiv,
+  kein Mail-Anlass.
+- **P3 (unveraendert) — normen-mini Budget-Cap / normen-nacht-Redundanz:** nur beobachten; Cap-Treffer
+  unter VOLLGAS = gewuenschter Voll-Verbrauch.
+
+Alles optimal: Fenster wird gefuellt, keine Luecke, keine selbst behebbare Bremse. Kein Mail-Anlass
+(keine neue/offene P1, Login laeuft).
+
+---
+
 ## 2026-07-14 06:51 — Fenster heute Nacht [VOLL] getroffen, jetzt [FREI]; Ultra-Loop wettbewerbs-dna idelt (P2)
 
 **Fensterzustand [FREI], voriges Fenster war [VOLL]:** Um 04:48-04:49 haben mehrere MacBook-Loops
