@@ -38,10 +38,19 @@ Das **Basisprodukt GEAK** zeigt drei grafisch klassierte Achsen (A = beste … G
 ## Bezug zur Förderung
 - **GEAK Plus obligatorisch ab CHF 10'000 Förderbeitrag** aus dem Gebäudeprogramm
   (→ `[[gebaeudeprogramm-bund-hfm-2015]]`).
-- **Erstellung selbst wird gefördert:** ZH und SZ zahlen **CHF 1'000 (GEAK) / 1'500 (GEAK Plus)**
-  (→ `[[foerderung-energie-zh]]`, `[[foerderung-energie-sz]]`). Gesuch **immer vor Baubeginn**.
+- **Gefördert wird nur der GEAK PLUS, nicht der Basis-GEAK** (Korrektur 2026-07-14): ZH und SZ zahlen
+  je Beratungsbericht **CHF 1'000 (EFH/ZFH)** bzw. **CHF 1'500 (übrige Gebäudekategorien)** — die
+  Staffelung geht nach **Gebäudetyp**, nicht nach Produkt (geak.ch/foerderung, Stand 01/2026; sz.ch:
+  der GEAK selbst «wird nicht finanziell unterstützt») → `[[foerderung-energie-zh]]`,
+  `[[foerderung-energie-sz]]`. Gesuch **immer vor Baubeginn** (einzige Ausnahme: der
+  GEAK-Plus-Beratungsbericht darf nachträglich eingereicht werden).
 - **In einigen Kantonen** ist der GEAK bei **Handänderungen** und für Fördergelder obligatorisch —
   welche genau, ist kantonsweise (Energiegesetz) zu prüfen → Skill `baurecht`.
+- **ZH/SZ: keine GEAK-Pflicht** (weder Handänderung noch Baubewilligung). **Aber im Kt. SZ ist die
+  GEAK-Klasse D (Gesamtenergieeffizienz) ein wählbarer Nachweisweg** beim fossilen Wärmeerzeugerersatz
+  in Wohnbauten — alternativ MuKEn-Standardlösung oder Minergie-Zertifikat (AfU SZ, FAQ Stand
+  28.08.2025). Im Kt. ZH gibt es diesen Weg nicht (§ 11 EnerG: erneuerbar, Ausnahme nur via
+  Lebenszykluskosten-Nachweis) → `[[geak-gebaeudeenergieausweis-kantone]]`.
 
 ## Abgrenzung
 - **GEAK ≠ Minergie:** GEAK bewertet den **Ist-Zustand des Bestands** (Etikette), Minergie ist ein

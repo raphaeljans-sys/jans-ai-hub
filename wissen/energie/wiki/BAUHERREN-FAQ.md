@@ -1380,8 +1380,10 @@ und bis zu fünf Sanierungsvarianten** dazu — und ist **Pflicht, sobald Du üb
 dem Gebäudeprogramm beziehst**. Er ist **bis zu 10 Jahre gültig** und wird nur von **zertifizierten
 GEAK-Expert:innen** ausgestellt. Einen amtlichen Fixpreis gibt es nicht — **mehrere Offerten einholen**;
 **Marktrichtwerte** liegen bei **CHF 450–650 (GEAK EFH)**, **CHF 500–800 (GEAK MFH)** und **CHF 1'400–
-2'100 (GEAK Plus EFH)**; in ZH und SZ zahlt der Kanton **CHF 1'000 (GEAK) / 1'500 (GEAK Plus)** dazu —
-bei einem EFH-GEAK-Plus deckt die Förderung damit oft mehr als die Hälfte der Kosten.
+2'100 (GEAK Plus EFH)**; in ZH und SZ zahlt der Kanton an den **GEAK Plus** (nicht an den Basis-GEAK)
+**CHF 1'000 (EFH/ZFH)** bzw. **CHF 1'500 (übrige Gebäudekategorien)** dazu — bei einem EFH-GEAK-Plus
+deckt die Förderung damit rund die Hälfte der Kosten. (⚠ Korrektur 2026-07-14: die Staffelung geht nach
+**Gebäudetyp**, nicht nach Produkt; der Basis-GEAK wird in ZH/SZ **nicht** gefördert.)
 
 **Fachlich:** Das **Basisprodukt GEAK** ist die **offizielle Energieetikette der Kantone** und zeigt drei
 grafisch klassierte Achsen (A = beste … G = schlechteste):
@@ -2981,3 +2983,38 @@ geprüft).
 > Adsorber) und **F18 Marktpreise 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, 33 J). Offen:
 > kWh/kWp je Einzel-Orientierung exakt (sonnendach.ch/PVGIS), CHF-Saetze Solarthermie/Minergie-ECO ZH,
 > SIA-181-Flankendetails Holzbau (Lignum).
+
+## F82 — «Ist der GEAK Pflicht — brauche ich ihn beim Verkauf, beim Heizungsersatz oder für die Förderung?» (ZH/SZ)
+
+**Kurz-Antwort:** In Zürich und Schwyz ist der GEAK **nirgends zwingend vorgeschrieben** — weder beim
+Verkauf noch für die Baubewilligung. Zwingend wird er nur in zwei Situationen: (1) als **GEAK Plus**,
+sobald Sie **ab CHF 10'000 Förderbeitrag** an die Gebäudehülle beziehen, und (2) im **Kanton Schwyz** als
+einer von drei möglichen Nachweiswegen, wenn Sie eine bestehende Öl-/Gasheizung 1:1 ersetzen wollen: dort
+genügt der Nachweis der **GEAK-Klasse D** (Gesamtenergieeffizienz) statt einer MuKEn-Standardlösung oder
+eines Minergie-Zertifikats. Im Kanton Zürich gibt es diesen Weg nicht — dort ist beim Heizungsersatz
+grundsätzlich erneuerbar zu heizen.
+
+**Fachlich:** Zu trennen sind drei Kategorien. **Echte Rechtspflicht:** nur in vier Westschweizer Kantonen
+(FR/VD/NE/JU) bei Handänderung; in der Deutschschweiz, also auch ZH und SZ, gibt es keine
+Handänderungspflicht (geak.ch FAQ: «In einigen Kantonen ist der GEAK bei Handänderungen und für den Erhalt
+von Fördergeldern obligatorisch. In den meisten ist er aber freiwillig.»). **Fördervoraussetzung:** Das
+Harmonisierte Fördermodell HFM 2015 verlangt ab CHF 10'000 Förderbeitrag einen GEAK Plus; im Kt. SZ zählt
+dafür nur die Fördersumme der Basismassnahme Wärmedämmung, der Bonus Gebäudehülleneffizienz wird nicht
+mitgerechnet (AfU SZ). **Wählbarer Nachweisweg:** Im Kt. SZ dürfen beim Neueinbau/Ersatz des Wärmeerzeugers
+in Wohnbauten höchstens 90 % des massgebenden Bedarfs nicht erneuerbar gedeckt werden; der Nachweis erfolgt
+über eine Standardlösung, ein Minergie-Zertifikat oder das Erreichen der GEAK-Klasse D. Im Kt. ZH verlangt
+§ 11 EnerG beim Wärmeerzeugerersatz ein erneuerbares System; Befreiung nur bei technischer Unmöglichkeit
+oder mehr als 5 % höheren Lebenszykluskosten (EN-LCC-ZH / EN-120) — nicht über eine GEAK-Klasse. Der GEAK
+ersetzt zudem nie den Energienachweis der Baueingabe (ZH: EN-ZH, seit 1.1.2026 elektronisch via EVEN).
+Kostenseitig: kein amtlicher Fixpreis; gefördert wird in ZH und SZ nur der **GEAK Plus** mit CHF 1'000
+(EFH/ZFH) bzw. CHF 1'500 (übrige Gebäudekategorien) je Beratungsbericht.
+
+**Quelle:** geak.ch FAQ + geak.ch/foerderung (Fördertabelle Stand Januar 2026); Amt für Umwelt und Energie
+Kt. Schwyz, «FAQ Förderprogramm und Energie-Gesetz», **Stand 28.08.2025**, sowie sz.ch «Energielabel →
+GEAK»; zh.ch «Bauvorschriften Gebäude/Energie» (§§ 11/11a/11b EnerG); Förderprogramm Energie Kt. ZH,
+Version 01.01.2026; Förderprogramm Energie Kt. SZ 2026, Kap. 18. Destillate:
+`[[geak-gebaeudeenergieausweis-kantone]]`, `[[foerderprogramm-energie-zh-2026]]`,
+`[[foerderprogramm-energie-sz-2026]]`, `[[gebaeudeprogramm-bund-hfm-2015]]`, `[[en-zh-nachweis-uebersicht]]`.
+⚠ **Datenstand 2026-07-14.** Der SZ-Klasse-D-Weg ist über die AfU-FAQ belegt, nicht über den
+Gesetzeswortlaut — vor einer verbindlichen Einzelfall-Aussage am kantonalen Energiegesetz/der Vollzugshilfe
+verifizieren.

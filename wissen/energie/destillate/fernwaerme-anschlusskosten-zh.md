@@ -1,21 +1,22 @@
 ---
-quelle: ewz "Tarif Fernwärme im Wärmeverbund KVA und Holz" (Tarifsystem 2022, Ausgabe Juni 2026) + ewz AGB Fernwärme (Ausgabe Januar 2025) + Preisüberwacher "Marktbeobachtung Fernwärmetarife Schweiz" (06.07.2023) + Stadtwerk Winterthur + Agro Energie Schwyz
-herausgeber: ewz (vormals ERZ Fernwärme, Stadt Zürich) / Eidgenössischer Preisüberwacher / Stadtwerk Winterthur / Agro Energie Schwyz
-ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Datenbasis 2022 (66 Anbieter)
-gelesen: 2026-07-14 (Web via WebSearch/WebFetch, ewz-Tarifblatt + Preisüberwacher-PDF vollständig gelesen)
-datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
+quelle: ewz "Tarif Fernwärme im Wärmeverbund KVA und Holz" (Tarifsystem 2022, Ausgabe Juni 2026) + ewz AGB Fernwärme (Ausgabe Januar 2025) + Preisüberwacher "Marktbeobachtung Fernwärmetarife Schweiz" (06.07.2023) + Stadtwerk Winterthur + Agro Energie Schwyz AG "Tarife und Konditionen" (publiziert 04.09.2025) + Energie Einsiedeln AG "Preisblatt für Fernwärme 2025" + Energie Ausserschwyz AG
+herausgeber: ewz (vormals ERZ Fernwärme, Stadt Zürich) / Eidgenössischer Preisüberwacher / Stadtwerk Winterthur / Agro Energie Schwyz AG / Energie Einsiedeln AG / Energie Ausserschwyz AG
+ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Datenbasis 2022 (66 Anbieter); Agro Energie Schwyz "Tarife und Konditionen", publiziert 04.09.2025 (Anschlussgebühr gültig bis 31.12.2026, Grund-/Arbeitspreis gültig bis 30.09.2026); Energie Einsiedeln Preisblatt Fernwärme 2025
+gelesen: 2026-07-14 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert)
+datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz), 2025 (Energie Einsiedeln), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
 status: emerging
 last_updated: 2026-07-14
 ---
 
-# Fernwärme-Anschlusskosten Kt. Zürich (ergänzt Anschlusspflicht-Destillate)
+# Fernwärme-Anschlusskosten Kt. Zürich und Kt. Schwyz (ergänzt Anschlusspflicht-Destillate)
 
 **Das Wichtigste in 1 Satz:** Ein Fernwärmeanschluss in der Stadt Zürich (ewz) kostet nach der
 amtlichen 2026er-Tarifformel für ein EFH (ca. 12 kW) einmalig rund CHF 31'000–32'000
 (Anschlussbeitrag P3) plus laufend rund CHF 3'200–3'500/Jahr (Grundpreis P2 + Arbeitspreis P1,
-exkl. CO2-Abgabe/MWST) — schweizweit ermittelt der Preisüberwacher im Schnitt CHF 14'393
-Anschlusskosten und CHF 3'052–3'467 Jahreskosten für ein EFH; für Kt. Schwyz sind keine
-vergleichbaren öffentlichen Zahlen auffindbar.
+exkl. CO2-Abgabe/MWST); im Kt. Schwyz publiziert Agro Energie Schwyz als einziger Verbund eine
+vollständige Tarifformel (Anschlussgebühr CHF 20'676 + 800/kW bis 20 kW, indexiert; Grundpreis
+92.02 CHF/kW·Jahr; Arbeitspreis 14.20 Rp./kWh) — schweizweit ermittelt der Preisüberwacher im
+Schnitt CHF 14'393 Anschlusskosten und CHF 3'052–3'467 Jahreskosten für ein EFH.
 
 ## Kostenstruktur (schweizweit einheitlich)
 
@@ -88,10 +89,73 @@ plausibel, da der EnergieSchweiz-Wert vermutlich Vollkosten inkl. MWST/CO2-Abgab
 Verbrauchsprofil ansetzt; die genaue Methodik des EnergieSchweiz-Rechners war nicht Teil dieser
 Recherche.
 
-## Kanton Schwyz
+## Kanton Schwyz (Recherche 14.07.2026, Primärquellen)
 
-Agro Energie Schwyz beschreibt die Kostenstruktur (Anschlussgebühr, Grundpreis, Arbeitspreis) nur
-qualitativ, keine CHF-Zahlen öffentlich verfügbar — Offerte nötig.
+Im Kanton Schwyz gibt es keinen kantonsweiten Fernwärmetarif; je Verbund gilt ein eigenes
+Tarifblatt. Drei Betreiber decken die relevanten Räume ab.
+
+### Agro Energie Schwyz AG (Talkessel Schwyz/Ibach) — vollständig publiziert
+
+Quelle: "Tarife und Konditionen (exkl. MwSt)", publiziert 04.09.2025 (Anschlussgebühr gültig bis
+31.12.2026; Grund-/Arbeitspreis gültig bis 30.09.2026).
+
+- **Einmalige Anschlussgebühr (AG), je kW vereinbarter Anschlussleistung P:**
+  AG = CHF 20'676 + CHF 800 × P (bis 20 kW) bzw. CHF 31'000 + CHF 380 × P (ab 20 kW),
+  indexiert mit dem Zürcher Index der Wohnbaukosten (B = 133.70 / BO = 125.30 → Faktor 1.067;
+  auf die Anpassung an den Stand April 2025 = 143.4 wird verzichtet).
+  Publiziertes Beispiel im Tarifblatt: 15 kW → CHF 32'676 unindexiert, **CHF 34'866.55 indexiert**.
+- **Abzüge "Erschliessungsvorteil"** (bestehender Hausanschluss/Leitungsnetz in der
+  Nachbarliegenschaft): Feinerschliessung − CHF 6'200 (bei Ersatz einer fossilen Heizung
+  zusätzlich Anteil Pacovis − CHF 500), Groberschliessung − CHF 4'200, Neuanschluss ab
+  Verteilnetz − CHF 0. Befristeter Jubiläumsrabatt 01.01.–31.12.2026: zusätzlich − CHF 3'000 /
+  − CHF 2'500 / − CHF 2'000.
+- **Zuleitung ab Parzellengrenze zulasten Kunde** (Richtpreise Mehrlängen): Grabarbeiten
+  600–800 CHF/m; Fernwärmeleitung im Graben (> 10 Trassemeter) 600–800 CHF/TM; hausintern ab
+  Hauseintritt bis Übergabestation (> 2 TM) 400–500 CHF/TM.
+- **Grundpreis:** CHF 92.02/kW und Jahr (ab 01.10.2025; Basis CHF 84.00/kW per Dez. 2006,
+  LIK-indexiert).
+- **Arbeitspreis:** 14.20 Rp./kWh (ab 01.10.2025). Nach Indexmodell wären es 15.79 Rp./kWh; Agro
+  reduziert freiwillig auf 14.20. Indexformel gewichtet Frischholz/Altholz/Heizöl
+  (Gewichtung 2024/25: Altholz 54.4 %, Frischholz 32.5 %, Heizöl 13.1 %).
+
+Eigene Beispielrechnungen nach dieser Formel (exkl. MWST, keine amtlich publizierten Beispiele
+ausser dem 15-kW-Fall):
+
+| Objekt | Leistung / Verbrauch | Anschlussgebühr (indexiert) | Grundpreis/Jahr | Arbeitspreis/Jahr | Jahreskosten total |
+|---|---|---|---|---|---|
+| EFH | 12 kW / 20'000 kWh | CHF 32'306 | CHF 1'104 | CHF 2'840 | CHF 3'944 |
+| EFH (Tarifblatt-Beispiel) | 15 kW | CHF 34'867 | CHF 1'380 | — | — |
+| MFH | 55 kW / 100'000 kWh | CHF 55'380 | CHF 5'061 | CHF 14'200 | CHF 19'261 |
+
+### Energie Einsiedeln AG (Dorf Einsiedeln)
+
+Quelle: "Preisblatt für Fernwärme 2025" (gültig 01.01.–31.12.2025), abgerufen 14.07.2026.
+
+- **Arbeitspreis 2025: 11.53 Rp./kWh** exkl. MWST (Basis 8.4 Rp./kWh, gewichtete Indexformel
+  Altholz 30 % / Holzschnitzelindex 8 % / Strom 15 % / Heizöl 22 % / LIK 25 %).
+- **Grundpreis:** kein publizierter CHF/kW-Ansatz — der Basis-Grundpreis wird **bei
+  Vertragsabschluss individuell** festgelegt und danach LIK-indexiert (Faktor 2025 = 1.08222).
+  Publiziertes Beispiel MFH 55 kW / 100'000 kWh: Grundpreis CHF 10'713.77/Jahr (aus GP-Basis
+  CHF 9'900) + Arbeitskosten CHF 11'530 → rund **CHF 22'244/Jahr exkl. MWST**.
+- **Anschlussbeitrag:** nur qualitativ beschrieben (einmalig, inkl. Zuleitung ins Gebäude),
+  keine CHF-Zahl publiziert.
+
+### Energie Ausserschwyz AG (March/Höfe: Galgenen, Siebnen, Lachen, Altendorf, Pfäffikon,
+Freienbach)
+
+Kein öffentliches Tarifblatt; Kostenstruktur (einmaliger Investitionsbeitrag, jährlicher
+Grundpreis, Arbeitspreis) nur qualitativ, Offerte/Heizkostenrechner nötig. Publiziert wird
+lediglich der **kantonale Förderbeitrag** für den Anschluss: CHF 4'000 + CHF 200 je kW
+Anschlussleistung (Förderung, nicht Preis — siehe [[foerderprogramm-energie-sz-2026]]).
+
+### Einordnung SZ
+
+Die Anschlussgebühr von Agro Energie Schwyz liegt in derselben Grössenordnung wie der ewz-
+Anschlussbeitrag P3 in der Stadt Zürich (EFH rund CHF 32'000); der Arbeitspreis (14.20 Rp./kWh)
+liegt deutlich über dem ewz-Wert (8.06–9.67 Rp./kWh), Einsiedeln liegt mit 11.53 Rp./kWh
+dazwischen. Der oft zitierte Wert "rund CHF 18'000 für ein EFH mit 10 kW" liess sich an keiner
+Primärquelle bestätigen und widerspricht der publizierten Formel (10 kW → CHF 30'583 indexiert,
+vor Erschliessungsvorteil-Abzügen: CHF 30'598) — nicht verwenden.
 
 ## Bauherren-Transfer
 
@@ -103,6 +167,15 @@ Wärmepumpe müsste den Anschlussbeitrag P3 den kompletten WP-Anlagekosten (Bohr
 Installation) gegenüberstellen. Besteht eine rechtliche Anschlusspflicht (§ 295 PBG ZH bzw.
 kommunale Übergangsfrist, siehe [[fernwaerme-anschlusspflicht-zh]]), besteht Wahlfreiheit meist
 nur innerhalb der Übergangsfrist.
+
+Für den Kanton Schwyz (Talkessel Schwyz, Agro Energie): einmalig rund CHF 32'000 (EFH 12 kW) bzw.
+CHF 55'000 (MFH 55 kW), abzüglich Erschliessungsvorteil (bis CHF 6'700) und des bis 31.12.2026
+befristeten Jubiläumsrabatts (bis CHF 3'000); laufend rund CHF 3'900/Jahr (EFH) bzw. CHF 19'300/Jahr
+(MFH), exkl. MWST. Achtung: die Grabarbeiten und die Zuleitung ab Parzellengrenze (600–800 CHF/m)
+sind darin NICHT enthalten und können bei abgesetzter Lage schnell fünfstellig werden — bei jeder
+SZ-Fernwärme-Offerte die Trassemeter separat abfragen. In Einsiedeln und in der Ausserschwyz ist
+der Anschlussbeitrag nicht publiziert (individuelle Offerte); dort ist zusätzlich der kantonale
+Förderbeitrag CHF 4'000 + 200/kW einzurechnen.
 
 ## Offene Punkte
 

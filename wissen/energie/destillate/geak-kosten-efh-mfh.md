@@ -5,7 +5,7 @@ ausgabe: "Web-Artikel, Stand Zugriff 2026-07-13"
 gelesen: "2026-07-13 (WebFetch, Volltext-Zusammenfassung)"
 datenstand: "2026-07-13 (Marktpreise, kein amtliches Tarifblatt — volatil)"
 status: emerging
-last_updated: "2026-07-13"
+last_updated: "2026-07-14"
 ---
 
 # GEAK / GEAK Plus — was kostet die Erstellung? (Marktrichtwerte)
@@ -29,9 +29,14 @@ Gebühren sind nicht Teil der obigen Marktrichtwerte, sondern separat.
   Expert:innen erstellt wird (kein amtliches Tarifblatt), lohnt sich für Bauherren der Vergleich
   mehrerer Offerten — Aufwand/Preis hängen von Gebäudegrösse, Zugänglichkeit der Pläne/Unterlagen und
   Region ab.
-- **Die Förderung deckt einen relevanten Teil:** ZH und SZ zahlen CHF 1'000 (GEAK) / 1'500 (GEAK Plus)
-  dazu (→ `[[foerderung-energie-zh]]`, `[[foerderung-energie-sz]]`) — bei einem EFH-GEAK-Plus-Richtpreis
-  von ~1'400–2'100 deckt die Förderung damit oft **mehr als die Hälfte** der Kosten.
+- **Die Förderung deckt einen relevanten Teil — aber nur beim GEAK PLUS:** ZH und SZ zahlen
+  **CHF 1'000 für EFH/ZFH** und **CHF 1'500 für alle übrigen Gebäudekategorien** je Beratungsbericht;
+  der **Basis-GEAK wird nicht gefördert** (Quellen: geak.ch/foerderung Stand 01/2026; sz.ch: der GEAK
+  selbst «wird nicht finanziell unterstützt»; → `[[foerderprogramm-energie-zh-2026]]`,
+  `[[foerderprogramm-energie-sz-2026]]`, `[[geak-gebaeudeenergieausweis-kantone]]`). Bei einem
+  EFH-GEAK-Plus-Richtpreis von ~1'400–2'100 deckt die Förderung damit oft **etwa die Hälfte** der Kosten.
+  ⚠ Korrektur 2026-07-14: die frühere Fassung wies die Staffelung fälschlich als «1'000 GEAK / 1'500
+  GEAK Plus» aus — sie geht nach **Gebäudetyp**, nicht nach Produkt.
 - **Einordnung für die Kalkulation:** Da GEAK Plus ab CHF 10'000 Fördergeld ohnehin Pflicht ist
   (→ `[[gebaeudeprogramm-bund-hfm-2015]]`), lohnt sich der Griff zum Plus-Produkt bei jeder
   Sanierung, die überhaupt Förderpotenzial hat — die Mehrkosten gegenüber dem Basis-GEAK sind durch
