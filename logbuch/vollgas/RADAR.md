@@ -21,6 +21,35 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 23:48 — [GEDROSSELT] Schoner-Lauf: P2 umgesetzt — Radar-Frequenz von stuendlich auf 4x taeglich gesenkt (schont selbst Wochenlimit)
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt, kein `vollgas-runner`-Prozess. Als Schoner starte ich den Runner NICHT neu und
+loesche STOP NICHT. Wochenlimit 81% verbraucht, Reset Mo 11:59, noch ~3.4 Tage.
+
+**Login (unveraendert):** headless-Login-Test auf dem MacBook Pro weiterhin «Not logged in» (seit
+~22:48). Im Drossel-Regime unkritisch — der Runner soll ohnehin stehen; ein Fix wuerde nur wieder
+hochfahren. Kein Mail. Wird erst gebraucht, wenn Raphael ausdruecklich hochfahren laesst
+(`claude setup-token`, Abo-OAuth, KEIN API-Key, in `~/.jans-dispatch.env` beider Stationen).
+
+**Selbst umgesetzt (statt nur vorschlagen) — P2 aus 22:52:** Die Radar-Frequenz von **stuendlich
+(`40 * * * *`) auf alle 6 Std (`40 */6 * * *`, 00:40/06:40/12:40/18:40)** gesenkt. Der stuendliche
+Lauf verbrauchte selbst Wochenlimit-Budget, das wir gerade schonen — die Reduktion ist die
+konsequente Schoner-Handlung (Rule 260714), reversibel beim Wiederhochfahren. Task-Beschreibung auf
+Schoner-Modus umgestellt. Damit entfaellt die wiederholte P2-Vormerkung.
+
+**Durchsatz:** 8 Commits/90 Min (Mac Mini: Energie-KB Run 70 gedrosselt — VHKA ZH/SZ, Schwyzer
+Anschlusskosten, GEAK-Foerderkorrektur, FAQ F82/F83; normen Mini-Run 28). MacBook Pro still
+(Login-Block + Drossel, erwartet). Mac-Mini-Nachtfenster-Trainings ziehen wie vorgesehen an.
+
+- **P1 — keiner.** Kein Blocker des erwuenschten (gedrosselten) Zustands.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt, Wochenlimit geschont, Radar-Eigenlast gesenkt. Kein Mail-Anlass.
+
+---
+
 ## 2026-07-14 22:52 — [GEDROSSELT] Schoner-Lauf: Runner gestoppt, headless-Login auf dem MacBook Pro weg — im Drossel-Regime aber unkritisch, kein Mail
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
