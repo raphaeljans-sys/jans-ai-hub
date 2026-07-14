@@ -1,3 +1,24 @@
+## 2026-07-14 — normen-training-mini Run 22 (Mac Mini): Q&A-Selbstbefragung 6 DIN/VSS/RAL-Destillate + SIA-500-vs-DIN-18040-Cross-Check
+- 6 parallele Q&A-Selbstbefragungs-Agenten pruefen unabhaengig am Original-PDF gegen das
+  bestehende Destillat: DIN 18041:2004 (21/21 bestanden, 2 Ergaenzungen), DIN EN 12101-2:2003
+  (14/20 bestanden, 6 Ergaenzungen), DIN 1053-1:1996 (12/20 bestanden, 1 Praezisierung Ziff.
+  8.1.2.3d + 7 Ergaenzungen Gewoelbe/Frost/Naturstein), SN 640 281:2006 (20/20 bestanden, 3
+  Ergaenzungen), SN 640 065:2011 (22/22 bestanden, 4 Ergaenzungen), RAL-GZ 638:2008 (19/20
+  bestanden, 3 Ergaenzungen). Insgesamt 108 Pruefungsfragen, **0 sachliche Fehler in
+  Zahlenwerten** — alle Beanstandungen waren fehlende Abschnitte/Begriffe oder eine
+  Fundstellen-/Formel-Zuordnungs-Praezisierung (DIN 1053-1 Tab.8↔Gl.18), keine falschen Kennwerte.
+- **Vertiefungsstufe (d):** `wiki/synthese-din-vss-ral-fachskills.md` Abschnitt 5 um einen
+  direkten Ziffer-fuer-Ziffer-Cross-Check SIA 500:2009 ↔ DIN 18040-1:2010 ergaenzt (8 Masse
+  verglichen): Rampenbreite und Handlaufhoehe deckungsgleich (120 cm / 85-90 cm), Rampen-
+  Regelneigung deckungsgleich (6 %), Tuer- und Korridorbreite dagegen NICHT deckungsgleich
+  (DIN durchgaengig grosszuegiger: 90/150 cm vs. SIA 80/120 cm) — Praxis-Konsequenz: diese
+  zwei Masse nie ungeprueft zwischen den Systemen uebertragen. Abschnitt 9 (Uebertragbarkeits-
+  Sammelstelle) entsprechend aktualisiert; offener Folgeauftrag aus Run 21 damit erledigt.
+- 8 von ~95 DIN/VSS/RAL-Destillaten sind damit explizit Q&A-selbstbefragt (bisher: DIN 4102-1,
+  DIN 18040-1, VSS 40 291, DIN 1946-4, DIN 276-1, DIN 277-1, DIN 18040-2, SN 640 050 — jetzt
+  zusaetzlich die 6 obigen = 14 total).
+- `norm-inventar.md`, `destillate/INDEX.md` nachgefuehrt. Kein neuer Eintrag in `QUESTIONS.md`.
+
 ## 2026-07-14 — normen-training-nacht Run 9 (MacBook Pro): SIA 102:2020 vollstaendig verifiziert + Art. 5 nachgetragen (Empfehlung aus Run 8 umgesetzt)
 - 3 parallele Q&A-Selbstbefragungs-Agenten pruefen SIA 102:2020 unabhaengig am Original-PDF
   (S. 6-41) gegen das Destillat: Art. 1-3 (24 Fragen, 22 bestanden), Art. 4 Leistungsbeschrieb

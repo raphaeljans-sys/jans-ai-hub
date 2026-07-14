@@ -470,7 +470,7 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 | 2008 | destilliert (din-1045-2-2008.md), vollstaendig S.1-62/62  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 | 2012 | destilliert (din-105-100-2012.md), vollstaendig S.1-28/28, ersetzt DIN V 105-100:2005 ; retro-verifiziert Mini-Run 15 (260713) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 | 1984 | established, verifiziert 260713 (din-105-5-1984.md), Mini-Run 14: 13 Aussagen geprueft, keine Fehler |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 | 1996 | established (verifiziert 260713, Tabelle 12 korrigiert), din-1053-1-1996.md, vollstaendig S.1-32/32 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 | 1996 | established (verifiziert 260713, Tabelle 12 korrigiert), din-1053-1-1996.md, vollstaendig S.1-32/32. Q&A-Selbstbefragung Mini-Run 22 (260714): 12/20 sofort bestanden, 1 Praezisierung (Ziff.8.1.2.3d Tab.8/Gl.18), 7 Ergaenzungen (Gewoelbe/Bogen/Kappen, Frost, Naturstein-Schlankheit u.a.). |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-100.pdf` | 1053 | 2007 | established (verifiziert 260713, Zug/Schub/aussergew. Einwirkung ergaenzt), din-1053-100-2007.md, vollstaendig S.1-39/39 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-2.pdf` | 1053 | 1996 | established (verifiziert 260713, mehrere Ziffern+Tabelle 1 nachgetragen), din-1053-2-1996.md, vollstaendig S.1-5/5 |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-3.pdf` | 1053 | 1990 | established (verifiziert 260713, Ziffer-Zuordnung+Tabellen korrigiert), din-1053-3-1990.md, vollstaendig S.1-8/8 |
@@ -515,12 +515,12 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle + Faserabweichung Gueteklasse praezisiert) |
 | — | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  | englische Fassung, uebersprungen (Sprachvarianten-Regel) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle + falsche KF/KH-Interpretation korrigiert) | Retro-verifiziert Mini-Run 19 (260714): established, bestanden.
-| [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. Q&A-Selbstbefragung Mini-Run 22 (260714): 14/20 bestanden, 0 Fehler, 6 Ergaenzungen (Typ-A/B-NRWG, Abschnitt 10 Einbau/Wartung u.a.). |
 | [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md)  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 | 2005 | destilliert (din-v-105-100-2005.md), vollstaendig S.1-31/31, Mini-Run3  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 106.pdf` | 106 | 2005 | destilliert (din-v-106-2005.md), vollstaendig S.1-26/26, Mini-Run3  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz  verifiziert 260713 (beanstandet-korrigiert: Korrelationstabelle ergaenzt) | Retro-verifiziert Mini-Run 19 (260714): established, bestanden.
-| [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume ; verifiziert Mini-Run 17 (260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert) |
+| [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume ; verifiziert Mini-Run 17 (260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert). Q&A-Selbstbefragung Mini-Run 22 (260714): 21/21 bestanden, 0 Fehler, 2 Ergaenzungen (Ziff.4.2.1.1 Grundprinzip, Ziff.4.5.3 Durchsage-/Alarmierungsanlagen). |
 | [x] 260713 | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | destilliert vollstaendig (vstaettvo-niedersachsen-2004.md, S.1-31/31) | Retro-verifiziert Mini-Run 19 (260714): established, vervollstaendigt (S.1-31/31) + bestanden.
 | [x] 260713 | P3 | `Sonstiges/Abkuerzungsverzeichnis.pdf` |  |  | established (din-abkuerzungsverzeichnis-2010.md), reines Glossar, Mini-Run 12 | Retro-verifiziert Mini-Run 19 (260714): established, korrigiert (Eintragszahl ~500, VOF/VOL, NORM-SIA-Zuordnung, TRPV, EnEV, BMZ).
 | [x] 260713 | P3 | `Sonstiges/Allgemeine_Grundlagen.pdf` |  |  | destilliert (baurecht-din-normenwerk-grundlagen-2010.md), VOB/DIN-Normenarbeit/EU-Harmonisierung | Retro-verifiziert Mini-Run 19 (260714): established, korrigiert (VOB-Teil-A-Paragrafenzahl, DIN-18330-Kennbuchstabe).
@@ -549,9 +549,9 @@
 | [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md)  Retro-verifiziert Mini-Run 18 (260714): established. Q&A-Selbstbefragung Mini-Run 20 (260714): 20/20 Fragen bestanden, 0 Fehler, 2 Luecken ergaenzt (Fussgaenger-Zuschlag 0.80m Fahrgassen; Tab.8 Kleinwagen-Fahrgassen + MB/ML/LmV/LoV-Werte). |
 | [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
-| [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung  Retro-verifiziert Mini-Run 18 (260714): established. Q&A-Selbstbefragung Mini-Run 22 (260714): 22/22 bestanden, 0 Fehler, 4 Ergaenzungen. |
 | [x] 260712 | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 | 1996 | destilliert (vss-640066-1996.md), Reconcile 260712 Mini-Run2 ; verifiziert (Mini-Run 260714, Kapazitaetsangaben Fahrradboxen/-parkhaeuser korrigiert) |
-| [x] 260713 | P3 | `VSS 640 281 Parkfelder.pdf` | 640 | 2006 | destilliert (vss-640281-2006.md)  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260713 | P3 | `VSS 640 281 Parkfelder.pdf` | 640 | 2006 | destilliert (vss-640281-2006.md)  Retro-verifiziert Mini-Run 18 (260714): established. Q&A-Selbstbefragung Mini-Run 22 (260714): 20/20 bestanden, 0 Fehler, 3 Ergaenzungen. |
 | [x] 260713 | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 | 2005 | destilliert (vss-640291a-2005-parkieren-anordnung-geometrie.md), historisch/ersetzt durch 40 291:2021; enthaelt ab S.25 SN 640 105a (destilliert 260713 Run 6, sn-640105a-2000.md) ; verifiziert Mini-Run 17 (260714, Motorrad-Parkfeld-Laenge frei erfundener 2,50-m-Wert korrigiert) |
 | [x] 260713 | P3 | `SN 640 105a Verbreiterung Fahrbahn Kurven (Anhang in VSS 640 291a-PDF, S.25-37)` | 640 | 2000 | destilliert (sn-640105a-2000.md), vollstaendig 13/13 S., Volltextabgleich verifiziert (Mini-Run 6) ; retro-verifiziert Mini-Run 15 (260713) |
 | [x] 260713 | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 | 2006 | destilliert (vss-640578-2006.md), Laermimmissionen Parkierungsanlagen  Retro-verifiziert Mini-Run 18 (260714): established. |
@@ -566,5 +566,5 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [x] 260712 | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 | destilliert vollstaendig (ral-gz638-2008.md, S.1-24), Reconcile 260712 Mini-Run2 ; retro-verifiziert Mini-Run 15 (260713) |
+| [x] 260712 | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 | destilliert vollstaendig (ral-gz638-2008.md, S.1-24), Reconcile 260712 Mini-Run2 ; retro-verifiziert Mini-Run 15 (260713). Q&A-Selbstbefragung Mini-Run 22 (260714): 19/20 bestanden, 0 Fehler, 3 Ergaenzungen. |
 

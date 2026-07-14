@@ -30,8 +30,8 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-16-15-flucht-rettungswege.md` | VKF-BRL 16-15 Flucht- und Rettungswege | 2015 (rev. 2016) | established (verifiziert 260712) |
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
 | `vkf-brl-nachweisverfahren.md` | VKF-BRL 27-15 Nachweisverfahren im Brandschutz | 2015 | established (verifiziert 260712) |
-| `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | established (verifiziert 260713 Mini-Run 15, 46 Aussagen, 6 Ergaenzungen) |
-| `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (verifiziert 260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert, Anhang B/C ergaenzt, vollstaendig S.1-39/39) |
+| `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | established (verifiziert 260713 Mini-Run 15, 46 Aussagen, 6 Ergaenzungen; Q&A-Selbstbefragung Mini-Run 22 260714: 19/20 Fragen bestanden, 0 Fehler, 3 Ergaenzungen Treppenstufen-Lastanzahl/Einsteck-Durchsteckroste/Nachweisverfahren-Teilsicherheitsbeiwerte) |
+| `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (verifiziert 260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert, Anhang B/C ergaenzt, vollstaendig S.1-39/39; Q&A-Selbstbefragung Mini-Run 22: 21/21 Fragen bestanden, 0 neue Fehler, 2 Ergaenzungen Ziff. 4.2.1.1 + 4.5.3) |
 | `treppen-hcu-hamburg-2008.md` | Lehrskript Treppen (HCU Hamburg) inkl. Neufert-Planungsgrundlagen | Stand Januar 2008 | established (verifiziert 260714 Mini-Run 19, Stufenzahlregel/Mindestmasse-Tabelle/Formel/Fluchtdistanz/Fluchtleitern korrigiert) |
 | `nbauo-barrierefreiheit-2004.md` | NBauO §§45/48 + DVNBauO §§18/29 Barrierefreiheit (Niedersachsen) | Rechtsstand 2012 / DVNBauO 1987/2004 | established (verifiziert 260714 Mini-Run 19, §45/§48/§18/§29 mehrere Ergaenzungen) |
 | `baunvo-1990.md` | BauNVO Baunutzungsverordnung (D) | Neufassung 1990/1993 | established (verifiziert 260714 Mini-Run 19, Baugebiets-Katalog WB-Position korrigiert) |
@@ -58,7 +58,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch; Teil-Destillat, Scan nur ungerade Seiten im Bestand) |
 | `din-5034-6-1995.md` | DIN 5034-6 Tageslicht, Wirkung auf Menschen | 1995-06 | established (verifiziert 260713, Blendschutz/Wärmestrahlung-Passage ergänzt, vollständig S.1-6/6) |
-| `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | established (verifiziert 260713, Anhang D/F korrigiert, vollständig S.1-38/38) |
+| `din-en-12101-2-2003.md` | DIN EN 12101-2 Rauch-/Wärmeabzugsanlagen, NRWG | 2003-09 | established (verifiziert 260713, Anhang D/F korrigiert, vollständig S.1-38/38; Q&A-Selbstbefragung 260714 Mini-Run 22: 14/20 bestanden, 6 Ergänzungen — Typ A/B Ziff. 4.3, SL≥2'000·d Anmerkung, 80mm Windleitwände, T(00)-Ausnahme Ziff. 7.3.2, Kennzeichnung Bst. i), Abschnitt 10 Einbau/Wartung) |
 | `vss-640060-1994.md` | SN 640 060 Leichter Zweiradverkehr, Grundlagen | 1994 | established (verifiziert 260713) |
 | `vss-640066-1996.md` | SN 640 066 Leichter Zweiradverkehr, Abstellanlagen | 1996 | established (verifiziert 260713) |
 | `din-v-105-100-2005.md` | DIN V 105-100 Mauerziegel mit besonderen Eigenschaften | 2005-10 (Vornorm) | established (verifiziert 260713, vollständig S.1-31/31) |
@@ -153,7 +153,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | established (verifiziert 260714, Tueren-Ausnahmeregel Ziff.7.4.6 ergaenzt) |
 | `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | established (verifiziert 260713, Fehler Expositionsklasse XF korrigiert, vollständig S.1-62/62) |
 | `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | established (verifiziert 260713 Mini-Run 15, 48 Aussagen, 0 Fehler) |
-| `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | established (verifiziert 260713, Tabelle 12 Mindestdruckfestigkeit korrigiert, vollständig S.1-32/32) |
+| `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | established (verifiziert 260713, Tabelle 12 Mindestdruckfestigkeit korrigiert, vollständig S.1-32/32; Q&A-Selbstbefragung Mini-Run 22, 260714: 12/20 Fragen sofort bestanden, 1 Präzisierung Ziff. 8.1.2.3 d Tabelle-8-Zuordnung, 7 Ergänzungen Ziff. 6.7.1/6.9.1-Ausnahme/6.9.2-Formel/7.2.4/Abschnitt 8.5 Gewölbe-Kappen/9.4 Frost/12.3.2 Naturstein-Schlankheit; Tabelle 12 erneut geprüft, weiterhin korrekt) |
 | `din-1053-100-2007.md` | DIN 1053-100 Mauerwerk, semiprobabilistisches Sicherheitskonzept | 2007-09 | established (verifiziert 260713, Zug-/Schub-/aussergewöhnliche-Einwirkung-Verfahren ergänzt, vollständig S.1-39/39) |
 | `din-1053-4-2011.md` | DIN 1053-4 Mauerwerk-Fertigbauteile | 2011-05 | established (verifiziert 260713 Mini-Run 15, 42 Aussagen, 0 Fehler) |
 | `din-1054-2010.md` | DIN 1054 Baugrund, Sicherheitsnachweise im Erd- und Grundbau (Ergänzung Eurocode 7) | 2010-12 | established (vollstaendig S.1-105/105, verifiziert 260713 Mini-Run 15, 45+ Aussagen, 1 Praezisierung) |
@@ -168,8 +168,8 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | established (verifiziert 260713, vollstaendig S.1-32/32; Q&A-Selbstbefragung 260714 Mini-Run 20: 20/20 bestanden, 2 Luecken ergaenzt) |
 | `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | established, historisch/ersetzt (verifiziert 260714, Motorrad-Parkfeld-Laenge 2.50m-Angabe korrigiert) |
 | `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | established (verifiziert 260713 Mini-Run 15, 40 Aussagen, 2 Fehler korrigiert) |
-| `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260713, vollstaendig S.1-18/18) |
-| `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | established (verifiziert 260713, vollstaendig S.1-21/21) |
+| `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260714, Volltextabgleich Mini-Run 18 + Q&A-Selbstbefragung Mini-Run 22: 22/22 Fragen bestanden, 0 Fehler, 4 Ergaenzungen) |
+| `vss-640281-2006.md` | SN 640 281 Parkieren Angebot Parkfelder Personenwagen | 2006 (genehmigt 2005-12) | established (verifiziert 260713, vollstaendig S.1-21/21; Q&A-Selbstbefragung 260714 Mini-Run 22: 20/20 Fragen bestanden, 0 Korrekturen, 3 Ergaenzungen Begriffe/Literaturverzeichnis) |
 | `vss-640578-2006.md` | SN 640 578 Laermimmissionen Parkierungsanlagen Berechnung | 2006-08 | established (verifiziert 260713, vollstaendig S.1-36/36) |
 | `sia-195-1999.md` | SIA 195 Rohrvortrieb (grabenlose Leitungen) | 1999 | established (verifiziert 260713) |
 | `sia-196-1998.md` | SIA 196 Baulüftung im Untertagbau | 1998 | teil-destillat (Kern S.1-37; verifiziert 260713) |

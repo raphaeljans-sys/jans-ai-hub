@@ -111,11 +111,38 @@ zusaetzliche Praezisierung, Kennwerte oder Kontrastfolie.
   Ersatz fuer DIN 18025-1/-2) arbeiten mit dem **Zwei-Sinne-Prinzip** (Information
   visuell + auditiv + taktil wahrnehmbar) und fuer Wohnungen mit der Zusatzstufe
   «R» (rollstuhlgerecht, Bemessungsrollstuhl max. 70 cm breit/120 cm lang).
-- Die KB haelt **keine SIA-500-Destillate** (Hindernisfreies Bauen) im Bestand — das ist
-  eine offene Luecke (`wiki/QUESTIONS.md` ergaenzen bei naechstem SIA-Zugriff via
-  MacBook Pro). Bis dahin dient DIN 18040-1/2 als **einzige belegte Referenz** fuer
-  Mindestmasse/Bewegungsflaechen bei Barrierefreiheits-Fragen — mit explizitem Hinweis,
-  dass die SIA-500-Werte im Einzelfall abweichen koennen und massgebend sind.
+- SIA 500:2009 (Hindernisfreie Bauten) ist inzwischen destilliert (`destillate/sia-500-2009.md`,
+  established) — fuer Schweizer Baueingaben bleibt SIA 500 (i.V.m. kantonalem Baurecht)
+  massgebend, DIN 18040-1/2 dient nur als Kontrastfolie/Zweitquelle.
+
+### Cross-Check SIA 500 ↔ DIN 18040-1/2 (Mini-Run 22, 260714, Destillat-gegen-Destillat)
+
+Direkter Ziffer-fuer-Ziffer-Vergleich beider bereits verifizierten Destillate (keine
+Neulektuere der Originale; Werte wie in den jeweiligen Destillaten dokumentiert):
+
+| Bauteil/Mass | SIA 500:2009 | DIN 18040-1:2010 | Befund |
+|---|---|---|---|
+| Tuerdurchgang, lichte Breite | mind. 0,80 m (kurze Durchgaenge), 1,00 m (0,6-2,0 m Laenge), Ziff. 3.3.1.1 | mind. 90 cm, Tabelle 1 S. 11 | **Nicht deckungsgleich** — SIA laesst 80 cm bei kurzen Durchgaengen zu, DIN verlangt durchgaengig 90 cm |
+| Korridorbreite | mind. 1,20 m, bedingt 1,00-1,20 m mit Kompensationsformel, Ziff. 3.4.1 | mind. 150 cm; Durchgaenge mind. 90 cm, Ziff. 4.3.1-4.3.2 | **Nicht deckungsgleich** — DIN-Regelbreite (150 cm) deutlich groesser als SIA-Regelbreite (120 cm) |
+| Rampe, Laengsneigung Regelmass | max. 6 %, bedingt bis 12 % mit Handlauf-Pflicht, Ziff. 3.5.1 | max. 6 %, keine bedingte Ausnahme im Destillat vermerkt, Ziff. 4.3.8 | **Regelwert deckungsgleich** (6 %); SIA-Ausnahme bis 12 % hat im DIN-Destillat kein Pendant — vor Anwendung am Original pruefen |
+| Rampenbreite | mind. 1,20 m, bedingt 1,00 m bei Niveaudifferenz ≤0,40 m, Ziff. 3.5.2 | nutzbare Laufbreite mind. 120 cm, Ziff. 4.3.8 | **Deckungsgleich** (120 cm) |
+| Handlauf-Hoehe | 0,85-0,90 m, Ziff. 3.6.4 (Treppen) / Ziff. 3.5 (Rampen) | 85-90 cm, Ziff. 4.3.6/4.3.8 | **Deckungsgleich** |
+| Bedienelement-Hoehe | 0,80-1,10 m, Rollstuhl vorzugsweise 0,70-0,80 m, Ziff. 6.1.1 | grundsaetzlich 85 cm, bei Staffelung 85-105 cm, Ziff. 4.5 | **Aehnlich, nicht identisch** — DIN-Bereich (85-105 cm) liegt innerhalb des SIA-Bereichs (80-110 cm), SIA erlaubt zusaetzlich eine tiefere Rollstuhl-Vorzugszone (70-80 cm) ohne DIN-Pendant im Destillat |
+| Rollstuhlgerechter Parkplatz, Breite | Senkrecht-/Schraegparkierung mind. 3,50 m, Ziff. 7.10.3 | 350 × 500 cm, Ziff. 4.2.2 | **Breite deckungsgleich** (3,50 m); DIN-Destillat gibt zusaetzlich eine Laengenvorgabe (5,0 m), die im SIA-500-Destillat fuer diese Parkform nicht extrahiert ist (nur Laengsparkierung 8,0 m + 1,40 m Zusatzflaeche, Ziff. 7.10.3) — kein Widerspruch, aber unterschiedlicher Detaillierungsgrad |
+| WC-Raum / Bewegungsflaeche | Raummass 1,65 × 1,80 m (aussen oeffnende Tuer), +0,50 m bei innen oeffnend, Ziff. 7.2.3.2 | Bewegungsflaeche vor WC-Becken mind. 150 × 150 cm (Bauteil-Komponente, nicht Raummass), Ziff. 5.3 | **Nicht direkt vergleichbar** — unterschiedliche Bemessungslogik (SIA: Gesamtraummass: DIN: Einzel-Bewegungsflaechen vor Sanitaerobjekten); keine 1:1-Umrechnung ohne Volltextabgleich beider Originale |
+| WC-Sitzhoehe | im Destillat nicht extrahiert (Anhang E, S. 42-60, nicht gelesen) | 46-48 cm, Ziff. 5.3.3 | **Ungeprueft** — SIA-500-Anhang E (Sanitaerraum-Detailmasse) ist eine offene KB-Luecke (siehe SIA-500-Destillat, Abschnitt «Offene Punkte») |
+
+**Fazit Cross-Check:** von 8 verglichenen Massen sind 2 deckungsgleich (Rampenbreite,
+Handlaufhoehe), 1 im Regelwert deckungsgleich mit abweichender Ausnahmeregelung
+(Rampenneigung), 2 nicht deckungsgleich (Tuerbreite, Korridorbreite — DIN durchgaengig
+grosszuegiger bemessen), 2 aehnlich aber nicht identisch (Bedienelement-Hoehe,
+Parkplatz-Detaillierung) und 1 mangels SIA-Anhang-E-Lektuere ungeprueft (WC-Sitzhoehe).
+**Praxis-Konsequenz:** die pauschale Aussage "methodisch verwandt" (bisherige Formulierung
+im DIN-18040-1-Destillat) ist zu grob — bei Tuer- und Korridorbreiten bestehen reale,
+nicht vernachlaessigbare Differenzen (DIN 90/150 cm vs. SIA 80/120 cm); diese zwei Masse
+NIE ungeprueft zwischen den Systemen uebertragen. Die uebrigen Vergleichswerte (Rampe,
+Handlauf) sind praktisch austauschbar, sollten aber im Einzelfall trotzdem am
+massgebenden Original bestaetigt werden.
 
 ## 6. Parkierung (Skills `machbarkeit`, `ausschreibung`)
 
@@ -173,7 +200,9 @@ DIN/VSS/RAL-Zahl gegen SIA/VKF schnell pruefen kann, ob eine 1:1-Uebertragung zu
 | DIN 276 Kostengruppe (KG 100-700) ↔ BKP 1-9 | **Nein** — nur Gliederungslogik vergleichbar | andere Nummerierung/Detaillierung (Abschnitt 2); Rule `bkp-2017-referenz` bleibt fuer JANS-Outputs verbindlich |
 | DIN 277 Netto-Grundflaeche (NGF) ↔ SIA 416 Hauptnutzflaeche (HNF) | **Nein** — explizit falsifiziert | bei Retro-Verifikation 260713 als Fehler korrigiert (Abschnitt 3); Flaechendefinition bei jedem Vergleichsprojekt separat ausweisen |
 | VOB/B (DIN 1961) Fristensystematik ↔ SIA 118 Fristensystematik | **Nein** — Zahl "2 Jahre" bezeichnet unterschiedliche Rechtsfiguren | VOB/B-Sonderfall-Verjaehrung (§ 13) vs. SIA-118-Ruegefrist (Art. 172), siehe Tabelle in Abschnitt 8 |
-| DIN 18040-1/2 Bewegungsflaechen/Masse ↔ SIA 500 | **Ungeprueft** — SIA 500 destilliert (`destillate/sia-500-2009.md`, established), Cross-Check zwischen den Destillaten steht noch aus | DIN 18040 diente bis zur SIA-500-Destillation als einzige belegte Referenz (Abschnitt 5); jetzt beide Quellen verfuegbar — bei naechster Gelegenheit direkt vergleichen statt nur DIN zu zitieren |
+| DIN 18040-1 Tuer-/Korridorbreite ↔ SIA 500 Tuer-/Korridorbreite | **Nein** — reale Differenz | DIN durchgaengig grosszuegiger (90/150 cm) als SIA (80/120 cm), siehe Cross-Check-Tabelle Abschnitt 5 |
+| DIN 18040-1 Rampenbreite/Handlaufhoehe ↔ SIA 500 Rampenbreite/Handlaufhoehe | **Ja** — deckungsgleich | 120 cm bzw. 85-90 cm in beiden Normen identisch, siehe Cross-Check-Tabelle Abschnitt 5; Einzelfall-Bestaetigung am Original trotzdem empfohlen |
+| DIN 18040-1 WC-Sitzhoehe ↔ SIA 500 WC-Sitzhoehe | **Ungeprueft** | SIA-500-Anhang E (Sanitaerraum-Detailmasse, S. 42-60) nicht gelesen — offene KB-Luecke |
 | VSS 40 291 Parkfeld-/Fahrgassenmasse | **Ja** — direkt geltendes Schweizer Fachrecht | einzige Position in dieser KB, die nicht nur Vergleichsreferenz, sondern unmittelbar anwendbar ist (Abschnitt 6) |
 | DIN 5034-1 Tageslichtkennwerte ↔ SIA 380/1 / kantonale Besonnungsvorschriften | **Nein** — andere Bezugsgroessen | SIA 380/1 regelt Energie, nicht Tageslichtquotient; kantonales Baurecht (z.B. PBG ZH) regelt Besonnungsdauer separat (Abschnitt 7) |
 
