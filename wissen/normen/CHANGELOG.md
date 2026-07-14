@@ -1,3 +1,26 @@
+## 2026-07-14 — normen-training-nacht Run 8 (MacBook Pro): 13 VKF-Retro-Verifikationen + SIA 723 Erstverifikation
+- Vertiefungsstufe (b) Retro-Verifikation fortgesetzt (Rule auto-verbesserungen 260713, reduzierter
+  Umfang 1x taeglich): 12 parallele adversariale Verifikations-Agenten gegen die Original-PDFs.
+- **VKF-Erlaeuterungen (04_Erlaeuterungen Brandschutz 2015):** 101-15 Atrien/Innenhoefe (Innenhof-
+  Doppeldefinition Ziff.1.3.2/2.5 praezisiert), 102-15 Doppelfassaden (bestanden), 103-15 Cheminees
+  (bestanden), 104-15 Spaenefeuer (kosmetische Praezisierung Ziff.8.1.1), 105-15 Schnitzelfeuerung
+  (bestanden), 106-15 Pelletsfeuerung (bestanden), 107-15 Fluessiggasanlagen (2. Verifikationsrunde,
+  bestanden), 108-15 Betriebsbereitschaft BFS (bestanden) — alle auf `established (verifiziert 260714)`.
+- **VKF-Arbeitshilfen (05_Arbeitshilfen Brandschutz 2015):** 1000-15 Gebaeude geringer Abmessung
+  (bestanden), 1001-15 Wohnbauten (2 Korrekturen: RWA-Abstroemoeffnungspflicht Ziff.7.5 praezisiert,
+  RWA-Parkings Ziff.12.2 Abs.9-10 ergaenzt), 1002-03d Parkhaeuser (1 Korrektur: Tabelle 2 bei 4
+  Geschossen R 30 statt faelschlich EI 30), 1002-15 Schulbauten (Tueren-Ausnahmeregel Ziff.7.4.6
+  fuer Raeume ≤20 Personen ergaenzt) — alle auf `established (verifiziert 260714)`.
+- **SIA 723:2001** (NVB zu SIA 380/1): trug bereits Frontmatter-Status "established", war laut
+  norm-inventar.md aber nie unabhaengig verifiziert worden ("Verifikation ausstehend"). Erstverifikation
+  jetzt nachgeholt: 24 Aussagen gegen das 8-seitige Original geprueft, bestanden, keine Korrekturen.
+- Bilanz: 9 von 13 Destillaten ohne Befund bestanden, 3 mit kleinen Praezisierungen/Ergaenzungen
+  korrigiert (keine sicherheitsrelevanten Fehlangaben), 1 mit einer relevanten Korrektur (Tragwerk-
+  Tabelle 1002-03d, R- statt EI-Klasse — sicherheitsrelevant fuer Brandschutz-Factsheets Parkhaeuser).
+- Damit sind saemtliche VKF-Erlaeuterungen (100-108) und VKF-Arbeitshilfen (1000-1002) sowie das
+  VKF-Verzeichnis 40-15 vollstaendig retro-verifiziert. `training/norm-inventar.md` und
+  `destillate/INDEX.md` fuer alle 13 Positionen nachgefuehrt.
+
 ## 2026-07-14 — VKF-Verzeichnis 40-15 "Weitere Bestimmungen": Destillat vervollstaendigt + adversarial vollverifiziert
 - Destillat `destillate/vkf-verz-40-15-weitere-bestimmungen.md` war laut Frontmatter nur teilweise
   destilliert (Ziff. 3.7-3.9 + Abkuerzungsverzeichnis Kap. 4 fehlten). Original-PDF (22 Seiten)

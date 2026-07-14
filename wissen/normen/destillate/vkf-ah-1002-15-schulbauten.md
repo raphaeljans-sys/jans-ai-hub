@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 1002-15de, genehmigt durch die Technische Kommission VKF am 23. September 2014"
 gelesen: "S. 1-30 komplett (inkl. Anhang)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert 260714)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -76,7 +76,7 @@ Die Arbeitshilfe fasst die im Normalfall geltenden brandschutztechnischen Standa
 - Aussentreppen: Aussenwände im Bereich EI 30 (Verglasungen/Türen E 30) oder RF1; bei Abstand ≥ 1.2 m zur Fassade können Anforderungen reduziert werden (S. 20-21, Ziff. 7.4.3).
 - Horizontale Fluchtwege > 50 m Länge sind durch Brandschutzabschlüsse zu unterteilen (S. 21, Ziff. 7.4.4 A2).
 - Laubengänge: aus RF1, mind. zur Hälfte gegen das Freie ständig offen; bei Anschluss an einen vertikalen Fluchtweg Laufflächen mit 30 Min. Feuerwiderstand (S. 21, Ziff. 7.4.5).
-- Türen in Fluchtwegen müssen in Fluchtrichtung ohne Hilfsmittel rasch öffenbar sein; von aussen durch Einsatzkräfte öffenbar (S. 21, Ziff. 7.4.6).
+- Türen müssen in Fluchtrichtung geöffnet werden können; ausgenommen sind Türen zu Räumen, die mit nicht mehr als 20 Personen belegt werden. Türen in Fluchtwegen müssen sich in Fluchtrichtung jederzeit ohne Hilfsmittel rasch öffnen lassen; Türen in Rettungswegen müssen von den Einsatzkräften von aussen geöffnet werden können. Automatische Schiebe-/Drehtüren sind zulässig, sofern sie die Flucht jederzeit gewährleisten; bei Schnelllauftoren genügt Handöffnung in Fluchtrichtung (S. 21, Ziff. 7.4.6).
 - Schulbauten mit Atrien/Innenhöfen: Fluchtwege darüber nur zulässig, sofern Rauch- und Wärmeabzugsanlagen mittels Nachweis die sichere Begehbarkeit gewährleisten (S. 22, Ziff. 7.4.7).
 - Kindertagesstätten: max. Fluchtweglänge innerhalb der Nutzungseinheit bis in horizontale/vertikale Fluchtwege 20 m (verschärft ggü. 35 m Regelfall) (S. 22, Ziff. 7.5.1).
 - Räume mit grosser Personenbelegung: Gesamtbreite von Treppenläufen/Podesten nach grösster Ausgangsbreite der angeschlossenen Geschosse; Treppenbreiten > 2.4 m durch Handläufe unterteilen; mind. 2/3 der erforderlichen Raumausgänge müssen direkt in Fluchtwege führen, max. 1/3 über eine anderweitig genutzte Zone (S. 22, Ziff. 7.5.2).

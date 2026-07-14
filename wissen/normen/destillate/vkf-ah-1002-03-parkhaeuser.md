@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "06.08.2003 / 1002-03d (in Kraft ab 1. Januar 2005)"
 gelesen: "S. 1-20 komplett (Titelblatt, Inhaltsverzeichnis, Ziffern 1-13, Anhang)"
 datenstand: "2003/2005"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert 260714)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -67,10 +67,12 @@ ein Auszug der wichtigsten Normalfall-Anforderungen.
   (nbb) oder nicht brennbar; 5-6 Geschosse: R 60 (nbb) oder nicht brennbar;
   7-8 Geschosse (ohne Hochhäuser): R 60 (nbb) oder nicht brennbar.
 - Tabelle 2 (Sprinklerkonzept, S. 8): bei Sprinkleranlagen reduzierte Anforderungen
-  (Reduktion Feuerwiderstand max. 30 Minuten), z. B. 4 Geschosse neu EI 30 (nbb)
-  statt R 60 (nbb); Projekte mit 5-6 Geschossen und brennbarem Tragwerk sind durch
-  einen anerkannten Fachingenieur zu begleiten, Brandschutzkonzept vor Baubeginn
-  nötig, Qualitätssicherungssystem des Ausführungsunternehmens gefordert
+  an das Tragwerk (Reduktion Feuerwiderstand max. 30 Minuten), z. B. 4 Geschosse
+  neu R 30 (nbb) statt R 60 (nbb) gemäss Tabelle 1 (nicht EI 30 — Tabelle 2 betrifft
+  weiterhin das Tragwerk, nicht die brandabschnittsbildenden Wände/Decken);
+  Projekte mit 5-6 Geschossen und brennbarem Tragwerk sind durch einen anerkannten
+  Fachingenieur zu begleiten, Brandschutzkonzept vor Baubeginn nötig,
+  Qualitätssicherungssystem des Ausführungsunternehmens gefordert
   (Fussnote [4] zu Tabelle 2, S. 8).
 
 ### Brandabschnittsbildende Bauteile (Ziff. 6, S. 8-11)

@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 101-15de"
 gelesen: "S. 1-12 komplett"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert 260714)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -38,7 +38,13 @@ Gilt für Bauten mit Atrien und für Bauten mit Innenhöfen (S. 4, Ziff. 1.2).
 
 **Definition Innenhof (Ziff. 1.3.2, S. 4):** Innenhöfe (z.B. Lichthöfe) sind von Bauten
 und Anlagen umschlossene Aussenräume ohne Überdachung, wenn der Innenhof mehr als 11 m
-hoch ist. Dachvorsprünge bis zu 1 m sind zulässig (Ziff. 2.5, S. 11).
+hoch ist.
+
+**Zweite/ergänzende Definition Innenhof (Ziff. 2.5, S. 11, Einleitungssatz):** "Von Bauten
+und Anlagen umschlossene Aussenräume mit einer permanenten Öffnung ins Freie gelten als
+Innenhöfe." Dachvorsprünge bis zu 1 m sind zulässig. Diese zweite Definition (Kriterium
+"permanente Öffnung ins Freie") ergänzt/steht neben der Höhen-Definition aus Ziff. 1.3.2
+und wird im Abschnitt 2.5 "Innenhöfe" verwendet, nicht in Ziff. 1.3.2 selbst.
 
 **Allgemeine Anforderungen für alle Atriumbauten (Ziff. 2.1, S. 4-5):**
 - Verglasungen von Fluchtwegen im Bereich von Atrien: Feuerwiderstand EI 30 genügt

@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 1000-15de, genehmigt durch die Technische Kommission VKF am 23.09.2014"
 gelesen: "S. 1-20 komplett (inkl. Anhang mit Fluchtweg-Schemaplänen)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert 260714)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 

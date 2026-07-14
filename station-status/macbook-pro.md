@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 05:38:56
+Stand: 14.07.2026 05:59:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:37)
+- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 05:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 14.07.2026 05:38:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9861a698 normen-training-mini Run 18: CHANGELOG + Abschlussreport
+- e85dc93c vollgas-radar: 14.07 05:51 — beide Stationen produktiv, 18 Commits/90min, keine P1 [FREI]

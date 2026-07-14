@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 106-15de"
 gelesen: "S. 1-14 komplett (inkl. Anhang mit Prinzipschemata)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: established (verifiziert 260714)
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 

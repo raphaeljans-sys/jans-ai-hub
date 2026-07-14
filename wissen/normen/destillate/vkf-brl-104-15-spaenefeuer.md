@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 104-15de, genehmigt durch die Technische Kommission VKF am 23. September 2014"
 gelesen: "S. 1-17 komplett (Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-13, Anhang mit Begriffen und Prinzipschemata)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -49,7 +49,7 @@ Die Erläuterung gilt für Bearbeitungsrückstände aus der mechanischen Bearbei
 
 *Kombination mit Brikettier-/Pelletiereinrichtungen (Ziff. 7.3):* Können im gleichen Raum wie Filter oder im Arbeitsraum stehen. Produkte in separaten Lagerräumen (Brandabschnitt); Kleinmengen bis 0.8 m³ neben der Anlage im Lagerraum; brennbare Förderleitungen mindestens RF2, max. Querschnitt 80 mm. Bei Explosionsschutzbedarf: Späneabscheider entkoppeln (z.B. Zellradschleuse).
 
-**Löscheinrichtungen für Silo und Filter (Ziff. 8):** Sprühflutanlagen: stationäre Löscheinrichtungen in Silos, Späne- und Filterräumen, automatisch auslösend oder von sicherem Standort von Hand betätigbar (Ziff. 8.1.1). Ist eine Filteranlage ohne brandabschnittsbildende Trennung direkt über einem Spänesilo angeordnet, sind beide Bereiche gleichzeitig zu fluten; Sprühflutanlagen nicht erforderlich bei zum Freien offenen, gut zugänglichen Lagerhallen oder offenen Lagerbehältern (Ziff. 8.1.2). Funkenlöscheinrichtungen: bei Holzbearbeitungsbetrieben mit erhöhtem Funkenrisiko (Spanplatten-, Türen-, Leisten-, Parketthersteller sowie Zerkleinerungs-, Mehrblattkreissäge-, Breitbandschleifmaschinen mit Kalibrierfunktion) sind Funkenlöscheinrichtungen zu installieren (Ziff. 8.2).
+**Löscheinrichtungen für Silo und Filter (Ziff. 8):** Für die Brandbekämpfung sind in Silos, Späne- und Filterräumen stationäre Löscheinrichtungen einzubauen, die automatisch auslösen oder von einem sicheren Standort aus von Hand betätigt werden können (Ziff. 8.1.1). Ist eine Filteranlage ohne brandabschnittsbildende Trennung direkt über einem Spänesilo angeordnet, sind beide Bereiche gleichzeitig zu fluten; Sprühflutanlagen nicht erforderlich bei zum Freien offenen, gut zugänglichen Lagerhallen oder offenen Lagerbehältern (Ziff. 8.1.2). Funkenlöscheinrichtungen: bei Holzbearbeitungsbetrieben mit erhöhtem Funkenrisiko (Spanplatten-, Türen-, Leisten-, Parketthersteller sowie Zerkleinerungs-, Mehrblattkreissäge-, Breitbandschleifmaschinen mit Kalibrierfunktion) sind Funkenlöscheinrichtungen zu installieren (Ziff. 8.2).
 
 **Elektrische Installationen (Ziff. 9):** In Silos, Späne- und Filterräumen nur installationsbedingt notwendige elektrische Einrichtungen, fest montiert, gemäss Niederspannungsinstallationsnorm (NIN) der Electrosuisse (SEV) für feuergefährdete Räume mit brennbarem Staub. Schalter ausserhalb der Silos. Sicherstellen, dass Beleuchtung im Silo nicht unkontrolliert weiterbrennen kann (Kontrolllampe, Endschalter in Zugangstüre, Zeitschaltuhr).
 

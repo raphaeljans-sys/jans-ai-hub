@@ -4,8 +4,8 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 1001-15de, genehmigt durch die Technische Kommission VKF am 23.09.2014"
 gelesen: "S. 1-27 komplett (Titelblatt, Impressum, Inhaltsverzeichnis, Ziffer 1-13, Anhang)"
 datenstand: "2015"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -167,9 +167,14 @@ Atrien/Innenhöfe, Doppelfassaden) gelten zusätzliche, hier nicht abgedeckte An
   müssen NICHT in Fluchtrichtung öffnen; Hauseingangstüren müssen nicht in
   Fluchtrichtung öffnen, sofern sie nicht mehr als 10 Wohneinheiten erschliessen
   (Ziff. 7.4.6, S. 21).
-- Rauch- und Wärmeabzugsanlagen (RWA): vertikale Flucht-/Rettungswege zuoberst mit
-  direkt ins Freie führenden Abströmöffnungen, freie geometrische Fläche mind. 0.5 m²
-  (Ziff. 7.5, S. 22).
+- Rauch- und Wärmeabzugsanlagen (RWA): vertikale Flucht-/Rettungswege sind grundsätzlich
+  mit direkt ins Freie führenden RWA auszurüsten (Ziff. 7.5 Abs. 1, S. 22). Zuoberst mit
+  direkt ins Freie führenden Abströmöffnungen zu versehen sind sie **in Gebäuden
+  mittlerer Höhe bei Wohnbauten**, sofern diese nicht in allen Geschossen genügend
+  grosse (mind. 0.3 m² geometrische) direkt ins Freie führende Lüftungsflügel aufweisen
+  (Ziff. 7.5 Abs. 2, S. 22); freie geometrische Fläche der Abströmöffnungen mind. 0.5 m²
+  (Ziff. 7.5 Abs. 3, S. 22), von der Eingangsebene aus in Betrieb setzbar, Betriebsbereitschaft
+  auch bei Stromausfall (Ziff. 7.5 Abs. 4, S. 22).
 
 ### Technischer Brandschutz, Zugang Feuerwehr, Gebäudetechnik (Ziff. 8-10, S. 22-25)
 
@@ -200,6 +205,11 @@ Atrien/Innenhöfe, Doppelfassaden) gelten zusätzliche, hier nicht abgedeckte An
   Geschoss max. 9'600 m² (Ziff. 12.2 Abs. 3, S. 25).
 - Schleusen bei Brandabschnittsfläche > 1'200 m²: Feuerwiderstand mind. EI 30,
   Türen E 30 selbstschliessend (Ziff. 12.2 Abs. 4-5, S. 25-26).
+- Rauch- und Wärmeabzugsanlagen Parkings: bei Parkings unter Terrain oder allseitig
+  geschlossen mit Brandabschnittsfläche > 600 m² (mit Löschanlage 3'600 m²) sind RWA
+  (ohne Leistungsnachweis) vorzusehen; bei Parkings über Terrain, nicht allseitig
+  geschlossen, mit Brandabschnittsfläche > 2'400 m² (mit Löschanlage 4'800 m²) ebenso
+  (Ziff. 12.2 Abs. 9-10, S. 26).
 
 ## Begriffe
 

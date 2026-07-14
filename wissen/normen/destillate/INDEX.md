@@ -25,7 +25,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-421-2006.md` | SIA 421 Raumplanung – Nutzungsziffern (GFZ/AZ/BMZ/ÜZ/GZ) | 2006 | destilliert (Original vollständig gelesen 260713) |
 | `sia-d0165-2000-kennzahlen-immobilienmanagement.md` | SIA D 0165 Kennzahlen im Immobilienmanagement (SIA/SVIT) | Juli 2000 | Teil-Destillat (nur 5-S.-Fragment S.14-17 gelesen; Vollversion 73 S. in xalt offen) |
 | `sia-451-1992.md` | SIA 451 Datenformate für Leistungsverzeichnisse | 1992 | established (verifiziert 260712) |
-| `sia-723-2001.md` | SIA 723 Thermische Energie im Hochbau – NVB zur Norm SIA 380/1 | 2001 | destilliert (Original vollständig gelesen 260713) |
+| `sia-723-2001.md` | SIA 723 Thermische Energie im Hochbau – NVB zur Norm SIA 380/1 | 2001 | established (verifiziert 260714, 24 Aussagen, bestanden) |
 | `vkf-brandschutznorm-2015.md` | VKF 1-15 Brandschutznorm | 2015 | established (verifiziert 260712) |
 | `vkf-brl-16-15-flucht-rettungswege.md` | VKF-BRL 16-15 Flucht- und Rettungswege | 2015 (rev. 2016) | established (verifiziert 260712) |
 | `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
@@ -138,19 +138,19 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vst-merkblatt-012-tueren-fluchtwegen.md` | VST Technisches Merkblatt Nr. 012 Türen in Fluchtwegen | Erstausgabe 2009 | established (verifiziert 260713) |
 | `szs-steeldoc-brandschutz-stahlbau-2015.md` | SZS steeldoc 03/15 Brandschutz im Stahlbau | 2015 (Erstausgabe 2006) | established (verifiziert 260713) |
 | `en-179-1125-2009-panikbeschlaege-gege.md` | EN 179/1125 Panikbeschläge (gege-Kurzfassung) | 2009 | established (verifiziert 260713) |
-| `vkf-brl-101-15-atrien-innenhoefe.md` | VKF-BSE 101-15 Atrien und Innenhöfe | 2015 | destilliert |
-| `vkf-brl-102-15-doppelfassaden.md` | VKF-BSE 102-15 Doppelfassaden | 2015 | destilliert |
-| `vkf-brl-103-15-cheminees.md` | VKF-BSE 103-15 Cheminées | 2015 | destilliert |
-| `vkf-brl-104-15-spaenefeuer.md` | VKF-BSE 104-15 Spänefeuerungen | 2015 | destilliert |
-| `vkf-brl-105-15-schnitzelfeuerung.md` | VKF-BSE 105-15 Schnitzelfeuerungen | 2015 | destilliert |
-| `vkf-brl-106-15-pelletsfeuerung.md` | VKF-BSE 106-15 Pelletsfeuerungen | 2015 | destilliert |
-| `vkf-brl-107-15-fluessiggasanlagen.md` | VKF-BSE 107-15 Flüssiggasanlagen | 2015 | destilliert |
-| `vkf-brl-108-15-betriebsbereitschaft-bfs.md` | VKF-BSE 108-15 Betriebsbereitschaft Brandfallsteuerungen (BFS) | 2015 | destilliert |
-| `vkf-verz-40-15-weitere-bestimmungen.md` | VKF-Verzeichnis 40-15 Weitere Bestimmungen (Drittnormen je BRL/BSE) | 2015 | destilliert (teilw., Ziff. 3.7-3.9 + Abkürzungsverz. offen) |
-| `vkf-ah-1000-15-gebaeude-geringer-abmessung.md` | VKF-Arbeitshilfe 1000-15 Gebäude mit geringer Abmessung | 2015 | destilliert |
-| `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | 2015 | destilliert |
-| `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | destilliert |
-| `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | destilliert |
+| `vkf-brl-101-15-atrien-innenhoefe.md` | VKF-BSE 101-15 Atrien und Innenhöfe | 2015 | established (verifiziert 260714, Innenhof-Doppeldefinition Ziff.1.3.2/2.5 praezisiert) |
+| `vkf-brl-102-15-doppelfassaden.md` | VKF-BSE 102-15 Doppelfassaden | 2015 | established (verifiziert 260714, bestanden) |
+| `vkf-brl-103-15-cheminees.md` | VKF-BSE 103-15 Cheminées | 2015 | established (verifiziert 260714, bestanden) |
+| `vkf-brl-104-15-spaenefeuer.md` | VKF-BSE 104-15 Spänefeuerungen | 2015 | established (verifiziert 260714, kosmetische Praezisierung Ziff.8.1.1) |
+| `vkf-brl-105-15-schnitzelfeuerung.md` | VKF-BSE 105-15 Schnitzelfeuerungen | 2015 | established (verifiziert 260714, bestanden) |
+| `vkf-brl-106-15-pelletsfeuerung.md` | VKF-BSE 106-15 Pelletsfeuerungen | 2015 | established (verifiziert 260714, bestanden) |
+| `vkf-brl-107-15-fluessiggasanlagen.md` | VKF-BSE 107-15 Flüssiggasanlagen | 2015 | established (verifiziert 260714, 2. Runde, bestanden) |
+| `vkf-brl-108-15-betriebsbereitschaft-bfs.md` | VKF-BSE 108-15 Betriebsbereitschaft Brandfallsteuerungen (BFS) | 2015 | established (verifiziert 260714, bestanden) |
+| `vkf-verz-40-15-weitere-bestimmungen.md` | VKF-Verzeichnis 40-15 Weitere Bestimmungen (Drittnormen je BRL/BSE) | 2015 | established (verifiziert 260714, vollstaendig — Ziff. 3.7-3.9 + Abkuerzungsverz. ergaenzt, 2 Ergaenzungen BSR 26-15) |
+| `vkf-ah-1000-15-gebaeude-geringer-abmessung.md` | VKF-Arbeitshilfe 1000-15 Gebäude mit geringer Abmessung | 2015 | established (verifiziert 260714, bestanden) |
+| `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | 2015 | established (verifiziert 260714, 2 Korrekturen Ziff.7.5/12.2) |
+| `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | established (verifiziert 260714, 1 Korrektur Tabelle 2 R30 statt EI30) |
+| `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | established (verifiziert 260714, Tueren-Ausnahmeregel Ziff.7.4.6 ergaenzt) |
 | `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | established (verifiziert 260713, Fehler Expositionsklasse XF korrigiert, vollständig S.1-62/62) |
 | `din-105-100-2012.md` | DIN 105-100 Mauerziegel, Ergänzung zu DIN EN 771-1 | 2012-01 | established (verifiziert 260713 Mini-Run 15, 48 Aussagen, 0 Fehler) |
 | `din-1053-1-1996.md` | DIN 1053-1 Mauerwerk, Berechnung und Ausführung | 1996-11 | established (verifiziert 260713, Tabelle 12 Mindestdruckfestigkeit korrigiert, vollständig S.1-32/32) |

@@ -110,7 +110,7 @@
 | [x] 260713 | P2 | `564_282.pdf` | 564 |  | established (Run5, SIA 282:2019 fluessig aufzubringende Abdichtungen); sia-564-282.md |
 | [x] 260713 | P2 | `592056.pdf` | 5920 |  | teil-destillat (Run5, SIA 2056:2019 elektr. Energiebedarf; beanst.-korr.); sia-592-056.md |
 | [x] 260713 | P2 | `721_2001_d.pdf` | 721 | 2001 | verifiziert established 260713 Run5 (bestanden); sia-721-2001.md |
-| [x] 260713 | P2 | `723_2001_d.pdf` | 723 | 2001 | destilliert (sia-723-2001.md), Verifikation ausstehend (naechster Lauf) |
+| [x] 260714 | P2 | `723_2001_d.pdf` | 723 | 2001 | established, verifiziert 260714 (24 Aussagen, bestanden); sia-723-2001.md |
 | [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | verifiziert established 260713 Run5 (beanst.-korr. Ziff.2.4.5); sia-752-2002.md |
 | [x] 260713 | P2 | `753_2002_d.pdf` | 753 | 2002 | verifiziert established 260713 Run5 (bestanden); sia-753-2002.md |
 | [x] 260713 | P2 | `EN 13200-12019.pdf` | 1320 | 2019 | established (Run5, SN EN 13200-1:2019 Zuschaueranlagen, Volltext verifiziert); sia-en-13200-1-2019.md |
@@ -444,20 +444,20 @@
 | [x] 260712 | P1 | `02_Brandschutzrichtlinien 2015/Verwendung von Baustoffen.pdf` |  |  |  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/Wärmetechnische Anlagen.pdf` |  |  |  Reconcile 260713: vkf-brl-24-15-waermetechnische-anlagen.md  |
 | [x] 260713 | P1 | `02_Brandschutzrichtlinien 2015/gege-panikprogramm-1.pdf` |  |  |  Reconcile 260713: en-179-1125-2009-panikbeschlaege-gege.md  |
-| [x] 260713 | P2 | `03_Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf` |  |  |  destilliert (vkf-verz-40-15-weitere-bestimmungen.md)  |
+| [x] 260714 | P2 | `03_Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf` |  |  | established, verifiziert 260714, vollstaendig (Ziff. 3.7-3.9 + Abkuerzungsverz. ergaenzt, 2 Ergaenzungen BSR 26-15); vkf-verz-40-15-weitere-bestimmungen.md |
 | [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/100-15_Brandmauern.pdf` | 100 |  | identisch (MD5) mit bereits destilliertem `02_Brandschutzrichtlinien 2015/100-15_Brandmauern.pdf` → vkf-brl-100-15-brandmauern.md |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/101-15_Atrien u Innenhöfe.pdf` | 101 |  |  destilliert (vkf-brl-101-15-atrien-innenhoefe.md)  |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/102-15_Doppelfassaden.pdf` | 102 |  |  destilliert (vkf-brl-102-15-doppelfassaden.md)  |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/103-15_Cheminees.pdf` | 103 |  |  destilliert (vkf-brl-103-15-cheminees.md)  |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/104-15_Spänefeuer.pdf` | 104 |  |  destilliert (vkf-brl-104-15-spaenefeuer.md)  |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/105-15_Schnitzelfeuerung.pdf` | 105 |  |  destilliert (vkf-brl-105-15-schnitzelfeuerung.md)  |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/106-15_Pelletsfeuerung.pdf` | 106 |  |  destilliert (vkf-brl-106-15-pelletsfeuerung.md)  |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/107-15_Flüssiggasanlagen.pdf` | 107 |  | established (Run5, verifiziert, beanst.-korr. Abs.-Zitat); vkf-brl-107-15-fluessiggasanlagen.md |
-| [x] 260713 | P2 | `04_Erlaeuterungen Brandschutz 2015/108-15_Betriebsbereitschaft BFS.pdf` | 108 |  |  destilliert (vkf-brl-108-15-betriebsbereitschaft-bfs.md)  |
-| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1000-15_Gebäude mit geringer Abmessung.pdf` | 1000 |  |  destilliert (vkf-ah-1000-15-gebaeude-geringer-abmessung.md)  |
-| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf` | 1001 |  |  destilliert (vkf-ah-1001-15-wohnbauten.md)  |
-| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-03d_Parkhaeuser.pdf` | 1002 |  |  destilliert (vkf-ah-1002-03-parkhaeuser.md)  |
-| [x] 260713 | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-15_Schulbauten.pdf` | 1002 |  |  destilliert (vkf-ah-1002-15-schulbauten.md)  |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/101-15_Atrien u Innenhöfe.pdf` | 101 |  | established, verifiziert 260714 (Innenhof-Doppeldefinition Ziff.1.3.2/2.5 praezisiert); vkf-brl-101-15-atrien-innenhoefe.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/102-15_Doppelfassaden.pdf` | 102 |  | established, verifiziert 260714 (35 Aussagen, bestanden); vkf-brl-102-15-doppelfassaden.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/103-15_Cheminees.pdf` | 103 |  | established, verifiziert 260714 (45 Aussagen, bestanden); vkf-brl-103-15-cheminees.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/104-15_Spänefeuer.pdf` | 104 |  | established, verifiziert 260714 (22 Aussagen, kosmetische Praezisierung Ziff.8.1.1); vkf-brl-104-15-spaenefeuer.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/105-15_Schnitzelfeuerung.pdf` | 105 |  | established, verifiziert 260714 (45 Aussagen, bestanden); vkf-brl-105-15-schnitzelfeuerung.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/106-15_Pelletsfeuerung.pdf` | 106 |  | established, verifiziert 260714 (35 Aussagen, bestanden); vkf-brl-106-15-pelletsfeuerung.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/107-15_Flüssiggasanlagen.pdf` | 107 |  | established, verifiziert 260714 2. Runde (55 Aussagen, bestanden); vkf-brl-107-15-fluessiggasanlagen.md |
+| [x] 260714 | P2 | `04_Erlaeuterungen Brandschutz 2015/108-15_Betriebsbereitschaft BFS.pdf` | 108 |  | established, verifiziert 260714 (45 Aussagen, bestanden); vkf-brl-108-15-betriebsbereitschaft-bfs.md |
+| [x] 260714 | P2 | `05_Arbeitshilfen Brandschutz 2015/1000-15_Gebäude mit geringer Abmessung.pdf` | 1000 |  | established, verifiziert 260714 (45 Aussagen, bestanden); vkf-ah-1000-15-gebaeude-geringer-abmessung.md |
+| [x] 260714 | P2 | `05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf` | 1001 |  | established, verifiziert 260714 (60 Aussagen, 2 Korrekturen Ziff.7.5/12.2); vkf-ah-1001-15-wohnbauten.md |
+| [x] 260714 | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-03d_Parkhaeuser.pdf` | 1002 |  | established, verifiziert 260714 (45 Aussagen, 1 Korrektur Tabelle 2 R30 statt EI30); vkf-ah-1002-03-parkhaeuser.md |
+| [x] 260714 | P2 | `05_Arbeitshilfen Brandschutz 2015/1002-15_Schulbauten.pdf` | 1002 |  | established, verifiziert 260714 (60 Aussagen, Tueren-Ausnahmeregel Ziff.7.4.6 ergaenzt); vkf-ah-1002-15-schulbauten.md |
 | — | — | `_LINK.docx` |  |  | keine Norm, Verweis-/Linkdatei — übersprungen |
 | — | — | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 | keine Norm, Bestellformular — übersprungen |
 | — | — | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 | keine Norm, Lieferschein — übersprungen |
