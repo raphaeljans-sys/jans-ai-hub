@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 11:12:38
+Stand: 14.07.2026 11:22:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 11:07)
@@ -12,4 +12,4 @@ Stand: 14.07.2026 11:12:38
 - 14 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ef15c464 wettbewerbs-dna Nachbrenner 14.07.: Muster jans-board-dna.md refuter-verifiziert (9 Quellen), draft -> established
+- f75e2b71 nas-selfcommit: 11 Datei(en) 2026-07-14 11:15

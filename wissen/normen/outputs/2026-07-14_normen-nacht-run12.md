@@ -90,3 +90,11 @@ in einem kuenftigen Lauf zu Volldestillaten vervollstaendigt werden. Weitere VKF
 
 **Kein "SIA/VKF KOMPLETT"** — Grunddestillation ist fertig, Vertiefungsstufen (b)/(c)/(d) laufen
 weiter gemaess `training/PROGRAMM.md`.
+
+## Technischer Hinweis (Git/SMB)
+
+Wie bereits in Run 11 dokumentiert: `git status`/`git diff` gegen das NAS-Repo haengen ueber SMB
+gelegentlich in uninterruptible I/O-Wait. Der `nas-selfcommit`-Cron (alle 15 Min, ext4 statt SMB)
+hat den Grossteil dieses Laufs bereits automatisch committet (`f75e2b71`, 11:15 Uhr); die
+VKF-BRL-28-15-Korrektur wurde unmittelbar danach geschrieben und wird vom naechsten Cron-Zyklus
+erfasst. Kein manuelles Eingreifen (kein Force-Commit, kein Lock-Handling) noetig.
