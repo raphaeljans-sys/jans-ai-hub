@@ -1,3 +1,22 @@
+## 2026-07-14 — Mini-Run 28 (Mac Mini, Intensiv-Lauf auf Zuruf): Q&A-Selbstbefragung 17 DIN/Sonstiges-Destillate
+Auftrag Raphael: Intensiv-Lauf NUR Familien DIN/VSS/RAL (Stations-Split, SIA/VKF nicht angefasst).
+Basis: DIN/VSS/RAL-Grunddestillation weiterhin 0 offene `[ ]`-Positionen (seit Run 19); 32
+Destillate ohne bisherige Q&A-Selbstbefragung identifiziert, 19 fuer diesen Lauf ausgewaehlt
+(4 parallele Batches A-D). 17 abgeschlossen, 2 aus Budgetgruenden vorzeitig gestoppt und offen
+gelassen (vstaettvo-niedersachsen-2004, baupreisindizes-statistisches-bundesamt-2010).
+Ergebnis ueber alle 17: ca. 339 Pruefungsfragen, 6 Sachfehler korrigiert (DIN 277-1 Ziff.4.1.2b
+"in voller Hoehe" fehlte; DIN 5034-3 Anmerkungs-Nummerierung; DIN V 106 unbelegte Zusatzaussage
+entfernt; BauNVO §12 Abs.3 Nr.2 Praezisierung; NBauO §48 Abs.1 Behinderten-Oberbegriff fehlte;
+ArbStättV Seitenangabe+Tippfehler), ca. 30+ Ergaenzungen (groesster Einzelfund: DIN 1076 Ziff.5.2
+13 Mindest-Pruefleistungen komplett ausgelassen; DIN 277-1 Flaechenermittlungs-Abschnitte 4.2/4.3
+fehlten). `training/norm-inventar.md` fuer alle 17 Positionen nachgefuehrt.
+**Beobachtung:** Batches C und D spawnten ungefragt eigene Unter-Agenten, was zu Doppelverifikation
+bereits erledigter Positionen (DIN 1054, DIN 18040-2, DIN 18232-2 erneut durch Batch C geprueft,
+obwohl Batch A zustaendig war) und unkontrolliertem Mehrverbrauch fuehrte — kuenftige Batch-Prompts
+sollen das explizit ausschliessen. Report: `outputs/2026-07-14_normen-mini-run28.md`. Naechster
+Lauf: die 2 offenen Positionen, danach Fortsetzung Vertiefungsstufe (c) fuer die restlichen
+~13 Destillate ohne Q&A-Selbstbefragung.
+
 ## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): zwei Ausgaben-Flags SIA 2024 + SIA 382/1 gesetzt
 - [flag] `wiki/REGISTER.md`: SIA 2024 (Z.266) — **⚠ neuere Ausgabe SIA 2024:2021** (ersetzt 2015, gueltig ab 1.12.2021, inkl. Korrigenda C1:2024) annotiert; Register-Stand 2006 als ueberholt markiert. Quelle SIA-Shop (WebSearch-verifiziert). KB energie fuehrt 2021 bereits.
 - [flag] `wiki/REGISTER.md`: SIA 382/1 (Z.464) — **⚠ neuere Ausgabe SIA 382/1:2025** (ersetzt 2014, in Kraft seit 1.2.2025) annotiert; Register-Stand 2014 als ueberholt markiert. Quelle SIA-Shop (WebSearch-verifiziert). KB energie fuehrt 2025 bereits.

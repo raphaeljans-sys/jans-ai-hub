@@ -5,7 +5,7 @@ ausgabe: "NBauO §§ 45/48 (Rechtsstand 26.06.2012); DVNBauO §§ 18/29, Fassung
 ersetzt: "kein Bezug zur Schweiz — deutsches Landesrecht Niedersachsen, kein CH-Pendant in dieser Systematik"
 gelesen: "je 1-2 S. Einzelnorm-Ausdrucke (VORIS/Wolters Kluwer), vollständig"
 datenstand: "26.06.2012 (Ausdruck), Rechtsgrundlage DVNBauO 1987/2004"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19; korrigiert: § 45 Abs. 2+4 ergaenzt, § 48 Ziff. 2 'Sparkassen' + Ziff. 13 Satz 2 ergaenzt, § 18 Abs. 5 DVNBauO Regelungsadressaten § 36 Abs. 2 vs. Abs. 3 NBauO praezisiert, § 29 Abs. 3 DVNBauO Bezug auf rollstuhlgerechte Wohnungen ergaenzt)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19; korrigiert: § 45 Abs. 2+4 ergaenzt, § 48 Ziff. 2 'Sparkassen' + Ziff. 13 Satz 2 ergaenzt, § 18 Abs. 5 DVNBauO Regelungsadressaten § 36 Abs. 2 vs. Abs. 3 NBauO praezisiert, § 29 Abs. 3 DVNBauO Bezug auf rollstuhlgerechte Wohnungen ergaenzt; Q&A-Selbstbefragung Mini-Run 28 (260714): 26 Fragen, 24 bestanden, 1 Fehler korrigiert (Begriff 'barrierefrei' — Oberbegriff 'Behinderte' fehlte), 1 Ergaenzung (§ 18 Abs. 6+7 DVNBauO, Ausnahmeregelung Aufzugsschacht + Betriebssicherheitsverordnung, bisher ausgelassen))"
 last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
@@ -88,6 +88,16 @@ lesbar, ersetzt diese aber nicht.
   Krankentragen-Teil (Gesamtflaeche) min. **1,10 m × 2,10 m**; der fuer
   Rollstühle nicht erforderliche Teil der Fahrkorbgrundfläche darf durch eine
   verschliessbare Tür abgesperrt werden.
+- **§ 18 Abs. 6 DVNBauO — Ausnahmen von Schacht-/Feuerbestaendigkeitspflicht (Abs. 1+2):**
+  fuer Aufzuege ausserhalb von Gebaeuden, fuer Aufzuege die nicht mehr als drei
+  unmittelbar uebereinander liegende Geschosse verbinden, sowie fuer vereinfachte
+  Gueteraufzuege, Kleingueteraufzuege, Muehlenaufzuege und Lagerhausaufzuege koennen
+  Ausnahmen von Abs. 1 und 2 zugelassen werden, wenn wegen der Betriebs- und
+  Brandsicherheit keine Bedenken bestehen.
+- **§ 18 Abs. 7 DVNBauO:** fuer Aufzugsanlagen im Sinne der Betriebssicherheitsverordnung
+  (weder gewerblichen noch wirtschaftlichen Zwecken dienend, Beschaeftigte nicht
+  gefaehrdet) gelten die Vorschriften der Betriebssicherheitsverordnung entsprechend;
+  zustaendige Behoerde ist die untere Bauaufsichtsbehoerde.
 - **§ 29 Abs. 1 DVNBauO:** barrierefreie/rollstuhlgerechte Wohnungen (§ 44 Abs. 3
   NBauO) und bauliche Anlagen nach § 48 Abs. 1 NBauO müssen von öffentlichen
   Verkehrsflächen über mind. 1 Zugang stufenlos erreichbar sein; ist nur ein Aufzug
@@ -104,8 +114,10 @@ lesbar, ersetzt diese aber nicht.
 
 ## Begriffe
 
-- **Barrierefrei (NBauO-Terminologie):** ohne fremde Hilfe zweckentsprechend
-  besuch-/benutzbar für Rollstuhlfahrer, alte Menschen, Personen mit Kleinkindern.
+- **Barrierefrei (NBauO-Terminologie, § 48 Abs. 1):** ohne fremde Hilfe zweckentsprechend
+  besuch-/benutzbar für Behinderte (im Gesetzestext ausdrücklich als Oberbegriff, davon
+  "besonders" Rollstuhlfahrerinnen/Rollstuhlfahrer als Teilgruppe hervorgehoben), alte
+  Menschen und Personen mit Kleinkindern.
 - **Rollstuhlgerecht:** höherer Standard als "barrierefrei", spezifisch auf
   Wohnungen bezogen (§ 44 Abs. 3 NBauO, hier nicht im Volltext vorliegend).
 

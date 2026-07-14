@@ -5,7 +5,7 @@ ausgabe: "BauNVO, Neufassung Bek. v. 23.01.1990 (BGBl. I S. 132), geändert Art.
 ersetzt: "kein CH-Bezug — deutsches Bundesrecht, kein direktes Schweizer Pendant (näheste CH-Entsprechung: kantonale BZO + PBG-Nutzungszonen)"
 gelesen: "S. 1-14 (vollständig, Gesamtumfang 14 Seiten, §§ 1-27)"
 datenstand: "22.04.1993 (letzte Änderung im vorliegenden Ausdruck)"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19 — Korrektur: Baugebiets-Katalog § 1 Abs. 2, besondere Wohngebiete WB ist bereits 4. Position im Katalog selbst, nicht nur nachtraeglich via § 4a ergaenzt)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19 — Korrektur: Baugebiets-Katalog § 1 Abs. 2, besondere Wohngebiete WB ist bereits 4. Position im Katalog selbst, nicht nur nachtraeglich via § 4a ergaenzt). Q&A-Selbstbefragung Mini-Run 28 (260714): 20 Fragen, 18 bestanden, 1 Fehler korrigiert (§ 12 Abs. 3 Nr. 2: >3,5 t-Stellplatzverbot gilt fuer Kleinsiedlungs- UND allgemeine Wohngebiete, nicht generisch 'Wohngebiete'/reine Wohngebiete), 1 Ergaenzung (§ 22 Bauweise offen/geschlossen + § 23 ueberbaubare Grundstuecksflaeche/Baulinien-Baugrenzen, bisher trotz Erwaehnung im Geltungsbereich ohne Kernziffer-Eintrag)."
 last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
@@ -50,8 +50,10 @@ Schlussvorschriften.
   Geschossfläche** (widerlegbar in beide Richtungen).
 - **§ 12 Stellplätze und Garagen (S. 8):** in Kleinsiedlungs-, reinen und
   allgemeinen Wohngebieten sowie Erholungs-Sondergebieten nur für den durch die
-  zugelassene Nutzung verursachten Bedarf zulässig; unzulässig für LKW/Busse in
-  reinen Wohngebieten bzw. Fahrzeuge >3,5 t in Kleinsiedlungs-/Wohngebieten.
+  zugelassene Nutzung verursachten Bedarf zulässig; unzulässig für Lastkraftwagen/
+  Kraftomnibusse samt Anhänger in reinen Wohngebieten sowie für Fahrzeuge mit
+  einem Eigengewicht über 3,5 t samt Anhänger in Kleinsiedlungsgebieten UND
+  allgemeinen Wohngebieten (nicht in reinen Wohngebieten, Abs. 3).
 - **§ 17 Abs. 1, Obergrenzen Nutzungsmass (Tabelle, S. 10):** GRZ/GFZ/BMZ je
   Baugebiet — Kleinsiedlung GRZ 0,2/GFZ 0,4; reine/allgemeine Wohngebiete/
   Ferienhausgebiete GRZ 0,4/GFZ 1,2; besondere Wohngebiete GRZ 0,6/GFZ 1,6;
@@ -69,6 +71,22 @@ Schlussvorschriften.
   Grundstücksfläche, gemessen vom Fussboden des untersten bis Decke des obersten
   Vollgeschosses; bei Geschosshöhe >3,50 m ohne festgesetzte BMZ/Höhe: max. das
   3,5-fache der zulässigen GFZ.
+- **§ 22 Bauweise, 3. Abschnitt (S. 12):** offene Bauweise = Gebäude mit
+  seitlichem Grenzabstand als Einzelhäuser, Doppelhäuser oder Hausgruppen,
+  Länge der Hausform max. 50 m; geschlossene Bauweise = Gebäude ohne
+  seitlichen Grenzabstand, ausser die vorhandene Bebauung erfordert eine
+  Abweichung (Abs. 3); der Bebauungsplan kann eine davon abweichende Bauweise
+  festsetzen, inkl. Vorgaben zum Heranbauen an vordere/rückwärtige/seitliche
+  Grundstücksgrenzen (Abs. 4). Strukturell vergleichbar mit dem Schweizer
+  Grenzabstand-Konzept (offene Bauweise ≈ Grenzabstandsbauweise, geschlossene
+  Bauweise ≈ Baulinien-/Reihenbebauung).
+- **§ 23 Überbaubare Grundstücksfläche (S. 13):** wird durch Baulinien,
+  Baugrenzen oder Bebauungstiefen festgesetzt. Bei Baulinie: es muss auf dieser
+  Linie gebaut werden, geringfügiges Vor-/Zurücktreten von Gebäudeteilen kann
+  zugelassen werden. Bei Baugrenze: Gebäude/Gebäudeteile dürfen diese nicht
+  überschreiten, geringfügiges Vortreten kann zugelassen werden. Bei
+  Bebauungstiefe (ohne andere Festsetzung ab tatsächlicher Strassengrenze
+  ermittelt): Abs. 3 gilt entsprechend.
 
 ## Begriffe
 

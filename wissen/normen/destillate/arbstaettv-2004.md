@@ -5,7 +5,7 @@ ausgabe: "ArbStättV vom 12.08.2004 (BGBl. I S. 2179), zuletzt geändert Art. 4 
 ersetzt: "kein CH-Bezug — deutsches Bundesrecht; Schweizer Pendant: ArGV 3 (Verordnung 3 zum Arbeitsgesetz, Gesundheitsvorsorge) + SECO-Wegleitung"
 gelesen: "S. 1-12 (vollständig inkl. Anhang, Gesamtumfang 12 Seiten)"
 datenstand: "19.07.2010 (letzte Änderung im vorliegenden Ausdruck)"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19) — 2 Fundstellen-Seitenzahlen korrigiert (§ 6 Abs. 3: S. 6 → S. 4; Anhang 1.2: S. 6 → S. 6-7), 1 Fehlzuordnung korrigiert (Geschlechtertrennung Sanitärräume war faelschlich Anhang 4.1/S. 10 zugeordnet, ist aber § 6 Abs. 2/S. 4)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19) — 2 Fundstellen-Seitenzahlen korrigiert (§ 6 Abs. 3: S. 6 → S. 4; Anhang 1.2: S. 6 → S. 6-7), 1 Fehlzuordnung korrigiert (Geschlechtertrennung Sanitärräume war faelschlich Anhang 4.1/S. 10 zugeordnet, ist aber § 6 Abs. 2/S. 4). Q&A-Selbstbefragung Mini-Run 28 (260714): 18 Fragen, 13 bestanden ohne Korrekturbedarf, 1 Fehler korrigiert (§ 8 Abs. 2 fehlte Seitenangabe, ergänzt S. 5), 4 Ergänzungen (§ 3a Abs. 3-4 Ausnahmebewilligung + Verhältnis Bauordnungsrecht der Länder, § 8 Abs. 1 Bestandesschutz Altbauten, Anhang-Einleitungssatz zur bedingten Geltung, Anhang Ziff. 3.4 Tageslicht-/Beleuchtungspflicht)."
 last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
@@ -47,12 +47,35 @@ Feldern/Wäldern ausserhalb bebauter Fläche land-/forstwirtschaftlicher Betrieb
   berücksichtigen — explizit **barrierefreie Gestaltung von Arbeitsplätzen,
   zugehörigen Türen, Verkehrswegen, Fluchtwegen, Notausgängen, Treppen,
   Orientierungssystemen, Waschgelegenheiten, Toilettenräumen**.
+- **§ 3a Abs. 3-4, Ausnahmebewilligung + Verhältnis zum Bauordnungsrecht (S. 3):**
+  die zuständige Behörde kann auf schriftlichen Antrag des Arbeitgebers Ausnahmen von
+  der Verordnung inkl. Anhang zulassen, wenn (1) er andere, ebenso wirksame
+  Massnahmen trifft, oder (2) die Vorschrift im Einzelfall zu unverhältnismässiger
+  Härte führen würde und die Abweichung mit dem Beschäftigtenschutz vereinbar ist
+  (Belange kleinerer Betriebe sind besonders zu berücksichtigen) — funktional
+  vergleichbar mit einem Dispens im Schweizer Baurecht. Anforderungen aus anderen
+  Rechtsvorschriften, **insbesondere dem Bauordnungsrecht der Länder**, bleiben
+  daneben unberührt (Abs. 4) — die ArbStättV ersetzt die Landesbauordnung nicht.
 - **§ 6 Abs. 3, Pausenraum-Pflicht (S. 4):** ab mehr als 10 Beschäftigten (oder bei
   Sicherheits-/Gesundheitsgründen) Pausenraum/-bereich bereitzustellen; Ausnahme bei
   Büroräumen mit gleichwertigen Erholungsbedingungen.
-- **§ 8 Abs. 2, Übergangsfrist Arbeitsstättenrichtlinien:** bis längstens
+- **§ 8 Abs. 1, Bestandesschutz für Altbauten (S. 5):** für Arbeitsstätten, die am
+  1. Mai 1976 bereits errichtet waren (oder deren Einrichtung vorher begann) bzw. am
+  20. Dezember 1996 eingerichtet waren (Gewerbeordnung fand keine Anwendung), gelten
+  bei neuen, umfangreiche Änderungen erfordernden Anforderungen dieser Verordnung nur
+  die reduzierten Anforderungen nach Anhang II der Richtlinie 89/654/EWG — ausser bei
+  wesentlicher Erweiterung/Umbau/Umgestaltung der Arbeitsstätte oder Arbeitsabläufe
+  (dann volle Anforderungen). Strukturell vergleichbar mit dem Bestandesschutz
+  (§357 PBG-Systematik) im Schweizer Baurecht.
+- **§ 8 Abs. 2, Übergangsfrist Arbeitsstättenrichtlinien (S. 5):** bis längstens
   31.12.2012 fort in Geltung (Fristablauf inzwischen erreicht — bei Anwendung
   aktuelle Fassung/ASR prüfen).
+- **Anhang, Einleitungssatz zur Anwendbarkeit (S. 6):** die Anhang-Anforderungen
+  (Ziff. 1-5) gelten **bedingt** — nur "in allen Fällen, in denen die Eigenschaften
+  der Arbeitsstätte oder der Tätigkeit, die Umstände oder eine Gefährdung der
+  Beschäftigten dies erfordern"; sie sind keine absoluten Pflichtwerte, sondern an
+  die Gefährdungsbeurteilung (§ 3) rückgebunden. Vorschriften zur Beschaffenheit von
+  Arbeitsmitteln (EG-Vertrag Art. 95) bleiben daneben unberührt.
 - **Anhang Ziff. 1.2, Abmessungen Räume (S. 6-7):** ausreichende Grundfläche + lichte
   Höhe in Abhängigkeit der Raumgrösse; Luftraum nach körperlicher Beanspruchung und
   Personenzahl.
@@ -64,11 +87,18 @@ Feldern/Wäldern ausserhalb bebauter Fläche land-/forstwirtschaftlicher Betrieb
   ins Freie oder in gesicherten Bereich; Türen im Fluchtwegverlauf müssen sich von
   innen ohne Hilfsmittel öffnen lassen, solange Beschäftigte anwesend sind, und nach
   aussen öffnen; **Karussell-/Schiebetüren in reinen Notausgängen unzulässig**.
+- **Anhang Ziff. 3.4, Tageslicht-/Beleuchtungspflicht (S. 10):** Arbeitsstätten
+  müssen **möglichst ausreichend Tageslicht erhalten** und zusätzlich mit einer der
+  Sicherheit/dem Gesundheitsschutz angemessenen künstlichen Beleuchtung ausgestattet
+  sein; bei Ausfall der Allgemeinbeleuchtung ist eine ausreichende
+  Sicherheitsbeleuchtung nötig, wo dadurch Unfallgefahren entstehen (Ziff. 3.5
+  ergänzend: Fenster/Oberlichter/Glaswände müssen Abschirmung gegen übermässige
+  Sonneneinstrahlung ermöglichen).
 - **Anhang Ziff. 4.1, Sanitärräume (S. 10):** Toilettenräume mit verschliessbaren
   Zugängen, ausreichender Anzahl Toilettenbecken/Handwaschgelegenheiten, in Nähe der
   Arbeitsplätze UND Pausen-/Bereitschafts-/Umkleideräume.
 - **§ 6 Abs. 2, Geschlechtertrennung Sanitärräume (S. 4):** Umkleide-, Wasch- und
-  Toilettenräume sind fuer Männer und Frauen getrennt einzurichten oder es ist eine
+  Toilettenräume sind für Männer und Frauen getrennt einzurichten oder es ist eine
   getrennte Nutzung zu ermöglichen; bei Arbeiten im Freien und auf Baustellen mit
   wenigen Beschäftigten sind Waschgelegenheiten und abschliessbare Toiletten
   ausreichend.
