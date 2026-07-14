@@ -13,6 +13,42 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 11:51 — [FREI] Fenster hat Kapazitaet, Durchsatz weiter stark, Runner-Einzellauf, keine P1
+
+**Fensterzustand [FREI]:** `claude -p` mit gesourctem Token (`set -a; source ~/.jans-dispatch.env`)
+liefert sauber «OK» (rc=0) → Login intakt, das aktuelle 5h-Fenster hat Kapazitaet. Das nackte
+`claude -p` ohne exportierten Token zeigt wie gehabt «Not logged in» (bekanntes Test-Artefakt,
+Token-Zeile vorhanden, `grep -c` = 1). Reset war ~09:50, naechster ~14:50 — wir sind in der
+Fenstermitte, kein Limit-Treffer erwartbar, kein Eingriff noetig.
+
+**Runner-Einzellauf verifiziert:** genau ein `vollgas-runner.sh` (PID 4210, etime ~1 Tag), kein
+zweiter Prozess, kein STOP. Durchsatz stark und lueckenlos: 28 Commits in 90 Min, 93 in 6 Std,
+rc=0 auf beiden Stationen. Inhaltlich echt seit dem 10:48-Eintrag: twin-mail Mailbatch 50
+(bis 08.06.), normen-mini Mini-Run 26 (9 Normen, 0 Sachfehler, 49 Ergaenzungen), twin-fidelity
+Runde 260714i (Fidelity 85, Sie-Kurzgruss-Drift belegt), spec Lauf 18, energie Run 66+67
+(Denkmalschutz-Energiesanierung + AWEL-/SZ-/R290-Nachrecherchen, FAQ jetzt 74 Kernfragen).
+nas-selfcommit greift zusaetzlich (Buendel-Commits sichtbar).
+
+- **P3 (NEU) — `wettbewerbs-layer-nachbrenner` meldet Mandat erfuellt:** der als «einmalig» angelegte
+  Nachbrenner (11:44-11:48, rc=0, 240s) meldet seit mehreren Laeufen, seine Aufgabe sei nachweislich
+  abgeschlossen, und schlaegt selbst vor, den Scheduled Task zu deaktivieren, um Leerlauf zu sparen.
+  Endbedingungs-Kandidat gemaess Schritt 6. Kein Eingriff jetzt (Scheduling-Entscheid gehoert Raphael
+  bzw. in die Drosselung 10.08.); Vormerkung fuers naechste Briefing. Kostet aktuell nur ~4 Min/Lauf,
+  kein Blocker.
+- **P2 (unveraendert) — Idle-Loops `wettbewerbs-dna-training` / `spec-training` / `synobsis-batch-nacht`:**
+  brechen weiter intermittierend nach Sekunden mit «leer angekommen» / «keine konkrete Anfrage» ab
+  (wettbewerbs-dna 11:44 10s, synobsis Mini 11:06 7s). Fix bleibt: bei ruhiger/interaktiver Gelegenheit
+  einen «Fahre den naechsten offenen Baustein aus»-Auftakt in die jeweilige SKILL.md voranstellen,
+  NICHT mitten im Zyklus. Kein Eingriff in diesem Lauf.
+- **P3 (unveraendert) — Scheduling-Redundanz + energie-Meta-Punkt M2:** immobewertung/spec loesen
+  mehrfach taeglich aus (fuellen unter VOLLGAS das Fenster, Bereinigung erst bei der Drosselung 10.08.);
+  energie flaggt weiter, ob ein eigener `energie`-Skill abgespalten werden soll (Raphaels Entscheid noetig).
+
+Alles optimal: Fenster wird gefuellt, kein Doppellauf, keine selbst behebbare Bremse, Login laeuft.
+Kein Mail-Anlass (keine neue/offene P1).
+
+---
+
 ## 2026-07-14 10:48 — [FREI] frisches Fenster nach 09:50-Reset, Durchsatz stark, Runner-Einzellauf bestaetigt, keine P1
 
 **Fensterzustand [FREI]:** Runner rc=0 durchgehend (Login intakt, Loops laufen ununterbrochen);
