@@ -2,6 +2,43 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 43 (Recht/Norm + Brandschutz, Token-Vollgas): Schulbauten-Arbeitshilfe NEU, Gebaeude-geringer-Abmessungen NEU, Betriebsbereitschaft BFS NEU, temporaere Fluessiggasanlagen NEU, AHB-Bauwerkdokumentation + Ingenieurwesen
+- **Brandschutz — vier neue Abschnitte im Wegweiser [[brandschutz-pl03-wegweiser]] (established):**
+  §5ae **Arbeitshilfe Schulbauten** (VKF 1002-15de, 30 S. vollstaendig gelesen) — direkt JANS-
+  relevant (Rule 260713: Schul-/Bildungsbau priorisierte Wettbewerbs-Bauaufgabe). Brandabschnitts-
+  flaeche ohne Nachweis 3'600 m² (groesser als generisch), Kindertagesstaette-Fluchtweglaenge
+  **20 m statt 35 m**, Fluchtwege ueber Atrien/Innenhoefe mit RWA-Nachweis zulaessig, Sprinkler/
+  BMA/Blitzschutz nur «auf Verlangen der Behoerde», Spezialraeume (Schulkueche/Cafeteria/Labor)
+  eigene Brandabschnitte. §5af **Arbeitshilfe Gebaeude mit geringen Abmessungen** (VKF 1000-15de,
+  21 S.) — KEINE Anforderung an Feuerwiderstand Tragwerk/Brandabschnittsbildung, Brandschutz-
+  konzeptplaene nur auf Verlangen, erleichterte Treppengeometrie (0.9/1.2 m), Ausgangsbreiten-
+  Staffel nach Personenbelegung. §5ag **Betriebsbereitschaft von Brandfallsteuerungen (BFS)**
+  (VKF-Erlaeuterung 108-15de) — bisher unerschlossene Steuerungs-/Betriebsebene: 3 Ansteuerungs-
+  Kategorien (Einzel/Kollektiv/Selektiv), Fail-Safe-Prinzip, Pflichtdokumentation (Zonenplan/
+  Matrix/Drehbuch integraler Test), Funktionserhalt ≥30 Min. bei Fail-Safe-losen Elementen.
+  §5ah **temporaere Aufstellung von Fluessiggasanlagen** (VKF-Erlaeuterung 107-15de) — Delta zur
+  bereits dokumentierten permanenten Kennzahl (§5v): max. 6 Monate/13 m³/1'100 kg, Meldepflicht
+  Brandschutzbehoerde+Suva 1 Woche vorher, **Schutzabstaende-Matrix nach Nachbarschaftsgefaehrdung
+  mit Spitaeler/Schulen/Camping explizit als «erhoehte Gefaehrdung»** (direkter Healthcare-Befund).
+  Backlog niedrige Prioritaet: Erlaeuterungen Cheminees/Spaenefeuer/Schnitzelfeuerung/
+  Pelletsfeuerung (Feuerungsanlagen fuer feste Brennstoffe, primaer Wohn-/Landwirtschaftsbau).
+- **Recht/Norm — zwei neue Abschnitte in [[recht-norm-ahb-stadt-zuerich-projektstandards]]
+  (established):** §10 **Bauwerkdokumentations-Richtlinie 2009** (Abgabepflicht/-termine/-mengen
+  nach Bauabschluss, drei Zeitpunkte fuer Bewirtschaftungsplaene-Grundlagen) + reales
+  **AHB-Kennwerte-Faltblatt-Format** (Restaurant-Kiosk Hafen Riesbach, Grundmengen SIA 416 +
+  vier BKP2-Kennwerte RI/GV/GF/HNF nebeneinander — Vorbild fuer die Kennwerte-KB `grobkosten/`).
+  §11 **Ingenieurwesen-Fachrichtlinien**: Tragwerkverstaerkung (Restsicherheitsfaktor ohne
+  Klebebewehrung ≥1.2), Betonneubauten (Betondeckung ≥30mm Ausfuehrung/≥35mm Planung + 13-
+  Faktoren-Qualitaetsmatrix), Recyclingprodukte/-beton (oekologische Rangordnung Wiederverwendung
+  > stoffliche Verwertung > Entsorgung nach SIA 430/493/162-4, Altlasten-Kataster-Kontrollkette
+  AWEL vor Baubewilligung; Firmenliste von 1999 veraltet, methodisches Geruest uebernommen).
+  Restbacklog: 18-Nachhaltiges-Bauen-Einzelchecklisten (26 Dateien), 14-Energie-TGA-Rest
+  (GT_RL1-9), 09/10/04-Buero-CI-Vorlagen.
+- Rotation: Run 42 deckte Kartenportale+Energie ab, dieser Lauf turnusgemaess Recht/Norm+
+  Brandschutz gemaess den in Run 42 «Naechste Schritte» benannten Zielordnern (12-Bauwerk-
+  dokumentation/16-Ingenieurwesen bzw. naechster PL-03-Unterordner ausserhalb der Richtlinien-
+  Serie). Naechster Turnus zurueck zu Kartenportale+Energie.
+
 ## 2026-07-14 — Training Run 42 (Kartenportale + Energie, Token-Vollgas): Gebaeudeschadstoffe-Checkliste NEU, SolarApp/PVSOL premium eingeordnet, Kt.-Bern-Portalarchitektur + Sunrise/UPC-Delta
 - **Energie — NEU eigener Artikel [[energie-baustoffe-schadstoffe-rueckbau]] (established):**
   AWEL-Checkliste Gebaeudeschadstoffe (02.2023) vollstaendig destilliert — Vier-Faelle-Weiche

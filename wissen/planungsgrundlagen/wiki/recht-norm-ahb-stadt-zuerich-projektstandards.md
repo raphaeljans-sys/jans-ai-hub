@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende (Flächenerfassung SIA 416, CAFM, Elektro-Sicherheitsnachweis, Gebäudeautomation Pflegezentren, Honorarwesen, Nachhaltiges Bauen, CAD, Submissions-/Zahlungswesen)
 status: established
-last_updated: 2026-07-14 (Run 41)
-sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.)]
+last_updated: 2026-07-14 (Run 42)
+sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/12-Bauwerkdokumentation/12.1-Dokumentation/Richtlinie-Bauwerkdokumentation-2009.pdf (Januar 2009, 2 S.), .../12.2-Faltblatt/Faltblatt_Muster.pdf (Restaurant-Kiosk Hafen Riesbach, März 2005), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/16-Ingenieurwesen/16.2-Richtlinien/Tragwerkverstaerkungen+Tragelemente.pdf (März 2009), .../Betonneubauten.pdf (März 2009), .../Recyclingprodukte.pdf (Informationsblatt 5.6, Stand 1999/2001), .../Recyclingbeton-unbedenklich.pdf (Tages-Anzeiger 31.10.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.)]
 links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-submissionsverordnung-zh]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]]
 ---
 
@@ -554,19 +554,125 @@ etc.), TOC-Struktur 1 Allgemeines / 2 Submissionswesen / 3 Zahlungswesen. Gelese
   Abrechnung als .dot/.xlt) — kein fachlicher Inhalt, nur IT-Bedienhinweis; Formularsatz selbst
   bereits im Ordnerinventar (§9) erfasst.
 
+## 10. Bauwerkdokumentation nach Bauabschluss — Richtlinie 2009 + Faltblatt-Muster
+
+Quelle: **«Richtlinie für die Bauwerkdokumentation»**, AHB, Januar 2009 (2 S.) +
+`Faltblatt_Muster.pdf` (reales Beispiel Restaurant-Kiosk Hafen Riesbach, Amt für Hochbauten,
+März 2005). Ordner `12-Bauwerkdokumentation/` (Run 42).
+
+### 10.1 Abgabepflicht und Inhalt (Richtlinie 2009)
+
+Gilt für **alle Planungsaufträge im Auftrag des AHB**, auch für Zwischendokumentationen
+einzelner Projektphasen. Vollständig zu dokumentierende Gewerke: Architektur (inkl. Kanalisation/
+Werkleitungen/Zivilschutz), Bauingenieurwesen, Ingenieurwesen (Elektro/HLKKS/MSRL), Landschafts-
+architektur, Geometer/Vermessung, Bauphysik/Akustik/Sicherheit/Brandschutz, Betriebs-/
+Gastronomie-/Medizinalplanung. Digitale Anforderungen: bearbeitbare Dokumente MS-Office-lesbar,
+Druckformate als PDF, Pläne nach der städtischen CAD-Richtlinie (DWG/PDF), virengeprüfte CD-R.
+Analoge Anforderungen: 100 % Altpapier chlorfrei/recycled, Pläne auf beschichtetem Papier
+min. 90 g/m², max. Breite 126 cm.
+
+**Abgabetermine:** vor Projektierungsbeginn ein typischer Projektplan (1:100) für den
+Plausibilitätstest ans Planarchiv; vor Abgabe der Bauwerkdokumentation Planprüfung durch das
+Planarchiv; definitive Bauwerkdokumentation **spätestens 2 Monate nach Schlussabnahme**.
+**Mengen:** Zwischendokumentation 1× Papier; Schlussdokumentation AHB-Exemplar (1× digital CD-R,
+1× Papier 4-Planschachtel/A4-Ordner, Architekturpläne gerollt + Planverzeichnis), plus je ein
+Exemplar für Kunde und Objekt (Papier/A4-Ordner), bei Bedarf zusätzlich für Schaltschrank/
+Kommunikationsraum. **Grundlagen für Bewirtschaftungspläne** sind zusätzlich zu drei fixen
+Zeitpunkten zu liefern (Baueingabe: Basis Projektpläne 1:100; Baubeginn: Werkpläne 1:50;
+Bauvollendung: revidierte Werkpläne 1:50), Inhalt: Grundrisse mit Flächenpolygonen, Raumstempel,
+Raum-/Türnummern, feste Einbauten, Parkplatznummern, Flucht-/Rettungssymbole — das ist die
+Datengrundlage, die direkt in die bereits dokumentierte CAFM-/RFB-Systematik (§1–§2) einfliesst.
+
+### 10.2 Faltblatt-Muster als reales Kennwerte-Benchmark-Format
+
+Das Muster-Faltblatt (Restaurant-Kiosk Hafen Riesbach, Neubau Mai 2004, Architektur
+Fuhrimann + Hächler) zeigt das **standardisierte AHB-Berichtsformat für Grundmengen und
+Kostenkennwerte**, das jedem Projekt am Ende mitgegeben wird:
+
+- **Grundmengen nach SIA 416/SN 504 416:** Gebäudegrundfläche GGF, Umgebungsfläche UF,
+  Geschossfläche GF, Gebäudevolumen GV, Rauminhalt SIA 116 RI, Bruttogeschossfläche BGF,
+  Nutzfläche NF, Hauptnutzfläche HNF — alle als eine Tabelle mit m²/m³-Werten.
+- **Anlagekosten nach BKP 1–5** (Vorbereitung/Gebäude/Betriebseinrichtungen/Umgebung/
+  Nebenkosten) + **Gebäudekosten nach BKP 2x** (20 Baugrube … 29 Honorare) inkl. MwSt.
+- **Kennwerte** werden als vier Verhältniszahlen ausgewiesen: **BKP 2 / RI**, **BKP 2 / GV**,
+  **BKP 2 / GF**, **BKP 2 / HNF** (CHF je m³ Rauminhalt/Gebäudevolumen bzw. je m² Geschoss-/
+  Hauptnutzfläche) — plus Chronologie (Wettbewerb → Baubeschluss → Baubeginn → Bezug),
+  Projektorganisation und der massgebende **Baukostenindex-Stand** (Basisjahr + Indexpunkt am
+  Stichtag) für spätere Teuerungsvergleiche.
+
+Reale Kennzahlen des Beispielprojekts (631 m³ GV, CHF 1'400'990 Gebäudekosten BKP 2):
+BKP 2/RI = CHF 1'402.-, BKP 2/GV = CHF 2'220.-, BKP 2/GF = CHF 7'614.-, BKP 2/HNF = CHF 8'924.-
+(Kleinbau/Pavillon, hoher Fassaden-/Ausbauanteil je m² — kein direkt übertragbarer Benchmark für
+Wohn-/Gesundheitsbauten, aber die **Formatvorlage selbst** ist der Fund: sie deckt sich strukturell
+mit der Logik des Skills `grobkosten-onepager` (Volumen × Kennwert), zeigt aber zusätzlich die
+**vier parallelen Bezugsgrössen RI/GV/GF/HNF nebeneinander** statt nur einer — ein Muster, das für
+die Kennwerte-KB [[../grobkosten/]] als Vorbild für die Vergleichsdarstellung mehrerer Bezugsgrössen
+dienen kann.
+
+## 11. Ingenieurwesen — Tragwerk, Beton, Recycling (16-Ingenieurwesen/16.2-Richtlinien)
+
+Vier kurze AHB-Fachrichtlinien der **Fachstelle Ingenieurwesen** (Kontaktperson Werner Hofmann),
+alle März 2009, plus ein älteres Ökologie-Informationsblatt und ein Zeitungsauszug — Ordner
+`16-Ingenieurwesen/` (Run 42).
+
+### 11.1 Tragwerkverstärkungen und Tragelemente
+
+Verstärkungsbedarf entsteht typischerweise bei drei Anlässen: **Umnutzung** (höhere Nutzlasten),
+**Gebäudeerweiterung** (geändertes Tragsystem), **Sanierung** (Tragsicherheit nicht mehr voll
+gewährleistet). Grundsatz: wo möglich klassische Bauteile (Träger, Stützen, Rahmen, Scheiben,
+Flächentragwerke) statt Verbundsysteme, abgestimmt auf das Bestandsmaterial, wartungsarm. Bei
+Platzproblemen (geringe Raumhöhe) oder Querschnittsverlust (Bewehrungskorrosion) sind
+**Klebebewehrung/Verbundsysteme** zulässig, dann aber mit periodischer Kontrolle im
+Unterhaltsplan; der **Restsicherheitsfaktor ohne Klebebewehrung darf 1.2 nicht unterschreiten**
+— eine belegte Kennzahl für die Bemessungspraxis bei Bestandsverstärkungen (JANS-Relevanz:
+Umnutzungs-/Sanierungsprojekte, Schnittstelle zu `ankaufspruefung`/CapEx-Fahrplan Tragwerk).
+
+### 11.2 Betonneubauten — Qualitätsfaktoren Sichtbeton
+
+Tabellarische Einflussmatrix (Zement/Zuschlagstoffe/Wasser/Zusatzstoffe/Zusatzmittel/Rezeptur)
+auf 13 Betoneigenschaften (Frühfestigkeit, Endfestigkeit, Schwindmass, Rissbildungsneigung,
+Abbinden, Verarbeitbarkeit, Wasserundurchlässigkeit, Frostbeständigkeit,
+Korrosionsbeständigkeit u.a.) — Fachhintergrund für Sichtbeton-Qualitätsschwankungen zwischen
+Baujahrgängen. Vier Bedingungen für hochwertigen Sichtbeton-Neubau: (1) erforderliche
+Lebensdauer vorab bestimmen, (2) bauliche Durchbildung (Konstruktion, Dilatationen) planen,
+(3) Betonrezeptur auf den Einsatzzweck abstimmen, (4) **Betondeckung ≥ 30 mm Ausführung /
+≥ 35 mm Planung** — eine belegte Mindestmass-Kennzahl (Planungswert bewusst 5 mm über dem
+Ausführungswert als Toleranzreserve).
+
+### 11.3 Recyclingprodukte und Recyclingbeton — historischer Kontext zu §6.1 eco-bau
+
+`Informationsblatt 5.6 Recyclingprodukte` (AHB, Stand 1999/2001) und ein Tages-Anzeiger-Auszug
+«Recycling-Beton ist unbedenklich» (31.10.2003) ergänzen die bereits in §6.1 dokumentierte
+eco-bau/KBOB-Recyclingbeton-Quote (50/80 Massen-%) um die **ökologische Rangordnung** und die
+**Altlasten-Kontrollkette**:
+
+- **Rangordnung Abbruch/Rückbau** (ökologischer Nutzen absteigend): 1. Wiederverwendung
+  (gleiche Funktion, geringer Zusatzaufwand) → 2. stoffliche Verwertung (Recyclat, ggf.
+  Downcycling zu minderwertigerem Produkt) → 3. Entsorgung (Verbrennung brennbarer Bauabfall
+  nach TVA/LRV, Inertstoff-/Reaktordeponie für nichtbrennbaren Abfall, Sonderabfall nach VVS) —
+  Deponierung ist ausdrücklich das **ökologisch ungünstigste** Verhalten, nur wenn Wieder-
+  verwendung/Verwertung ausscheiden (z. B. Verschmutzung). Rechtsgrundlage: **SIA 430**
+  (Entsorgung von Bauabfällen, frühzeitige Planung), **SIA 493** (Deklarationsraster ökologischer
+  Merkmale), **SIA 162/4** (Recyclingbeton).
+- **Kontrollkette gegen kontaminiertes Recycling-Material** (Kt. ZH, AWEL-Praxis 2003): vor
+  Baubewilligung Auszug aus dem **Altlasten-Kataster** + Entsorgungskonzept Pflicht; Bauleitung
+  dokumentiert jede Abbruchmaterial-Lieferung; Bodenwaschanlage führt Eingangskontrolle +
+  chemische Analyse nach Behandlung durch. Bei reinem Beton-/Mischabbruch (nicht Aushub aus
+  Altlasten-Standorten) gelten allfällige gebundene Altschadstoffe (z. B. alte Farben) als
+  unbedenklich, da im Beton eingeschlossen (kein Auswaschen/Ausdampfen) — Praxisaussage AWEL-
+  Fachperson, keine Norm-Fundstelle, Status emerging.
+- Die firmenspezifische Anbieterliste (Recyclatanteile 1999, ~100 Firmen mit Telefonnummern) ist
+  **veraltet** (Firmenbestand/Kontakte 25+ Jahre alt) und wird nicht übernommen; das methodische
+  Gerüst (Rangordnung, Beurteilungskriterien Stoffart/Recyclatanteil/Qualitätsvergleich/
+  Transportwege) bleibt gültig und ergänzt [[recht-norm-quellenlandkarte]] als Hintergrund zu
+  eco-bau/KBOB in §6.1.
+
 ## 9. Backlog — weitere Unterordner des «Projektadmin AHB»-Bündels (noch nicht ausgewertet)
 
-Der Ordner umfasst zehn nummerierte Themenbereiche; folgende sind nach Run 41 noch offen für
+Der Ordner umfasst zehn nummerierte Themenbereiche; folgende sind nach Run 42 noch offen für
 Folgeläufe (niedrige bis mittlere Priorität, da eher Vertragsmuster/Prozessvorlagen als
 Planungsgrundlagen im engeren Sinn):
 
-- **12-Bauwerkdokumentation**: «Richtlinie Bauwerkdokumentation 2009» + Checkliste — Anforderungen
-  an die Dokumentation nach Bauabschluss; wird in §5.1 und §7 bereits mehrfach referenziert
-  (Abgabepflicht nach Fertigstellung, CAD-Formate-Beilage), aber die Richtlinie selbst noch nicht
-  im Volltext gelesen.
-- **16-Ingenieurwesen** (16.2-Richtlinien): Richtlinien Betonneubauten/Recyclingbeton/
-  Tragwerkverstärkungen — voraussichtlich Delta zu Recyclingbeton-Vorgaben in §6.1
-  (Recycling-Beton-Quoten), aber bauingenieurspezifisch vertieft.
 - **18-Nachhaltiges Bauen, Rest**: 26 Checklisten/Merkblätter/KBOB-Empfehlungen in 18.1-18.5
   zu Einzelthemen (Dachbegrünung, Baustellenkontrolle, Devis-/Raumluftprüfung, Schadstoffe,
   Gebäudescreening, Elektrosmog, PCB-Fugendichtung, Holzwerkstoffe, Topten-Haushaltgeräte,

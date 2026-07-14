@@ -1,8 +1,8 @@
 ---
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
-last_updated: 2026-07-14
-sources: [PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh)]
+last_updated: 2026-07-14 (Run 42)
+sources: [VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -1461,6 +1461,165 @@ gültig, der Ausgabe-Stand sollte aber im nächsten `normen-training`-Lauf korri
 - Skill `ankaufspruefung` / `auflagebereinigung`: Fussnote [6] Ziff. 4.2 direkt nutzbar, um bei
   Bestandsbauten mit Healthcare-Nutzung zu prüfen, ob vorhandene Innenwand-/Deckenbekleidungen
   (oft RF2/RF3 bei Wohn-/Bürobauten) für eine Umnutzung zu Beherbergungsbetrieb [a] ausreichen.
+
+## 5ae · Arbeitshilfe Schulbauten — VKF 1002-15de (Run 42, 2026-07-14)
+
+Vollständig gelesene VKF-Brandschutzarbeitshilfe «Schulbauten» (30 S., Stand 01.01.2015, genehmigt
+23.09.2014) — direkt JANS-relevant (Rule 260713: Schul-/Bildungsbau ist priorisierte Wettbewerbs-
+Bauaufgabe). Gliedert sich analog «Wohnbauten» (§ Abschnitt 5), mit schulspezifischen Ergänzungen:
+
+- **Tragwerk/Brandabschnitte (Standardlösungstabelle):** Gebäude geringer Höhe (≤ 11 m) baulich
+  R30/EI30/EI30/REI30, Löschanlagenkonzept keine Anforderung an Tragwerk; Gebäude mittlerer Höhe
+  (≤ 30 m) baulich R60/REI60/EI30/REI60, Löschanlage R30/REI30/EI30/REI30. Reduktion um 30 Min.
+  bei zweigeschossigen Bauten mit Gesamt-Geschossfläche ≤ 2'400 m². **Zusammenhängende
+  Brandabschnittsfläche ohne Nachweis max. 3'600 m²** (grösser als der generische Wert bei
+  anderen Nutzungen). Schulbetrieb-eigene Nutzungen (Schulzimmer, Gruppenräume, Lehrerzimmer,
+  Aufenthalts-/Ruheräume, Archive, Serverräume, Putzräume) dürfen im gleichen Brandabschnitt
+  zusammengefasst werden; ebenso Turnhallen-Nutzungen (Garderoben, Materialräume,
+  Zuschauertribünen). **Spezialräume (Schulküche, Cafeteria, Werk-/Laborräume) sind eigene
+  Brandabschnitte.**
+- **Fluchtwege — Schulbauten-spezifische Regeln:** Fluchtwege über **Atrien/Innenhöfe** sind
+  zulässig, sofern eine RWA-Nachweis-gestützte sichere Begehbarkeit belegt ist (kein pauschales
+  Verbot wie bei anderen Nutzungen). **Kindertagesstätten** (Kindergarten-Bestandteil vieler
+  Schulbauten): max. Fluchtweglänge innerhalb der Nutzungseinheit **20 m** (statt der
+  allgemeinen 35 m) — eine strengere, bisher nicht dokumentierte Kennzahl mit direkter
+  Healthcare-/Betreuungsbauten-Analogie (Bettengeschoss-Logik). Schlafräume auf Zwischen-
+  geschossen/Galerien innerhalb der Nutzungseinheit brauchen eigene horizontale UND vertikale
+  Fluchtwege.
+- **Räume mit grosser Personenbelegung** (Aula, Turnhalle): mind. 2/3 der erforderlichen
+  Raumausgangsbreite muss direkt in horizontale/vertikale Fluchtwege führen (max. 1/3 über
+  andersgenutzte Zone wie Foyer/Warteraum, sofern betrieblich freigehalten); Sitzreihen-Regeln
+  (Durchgang ≥ 0.45 m, max. 32 Sitze bei beidseitigem Zugang / 16 bei einseitigem, Bestuhlung
+  bodenfest oder gekoppelt verbunden).
+- **Technischer Brandschutz auf Verlangen der Behörde** (nicht generisch Pflicht): Sprinkler-
+  und Brandmeldeanlagen sowie Blitzschutzsysteme kann die Brandschutzbehörde **bei Räumen mit
+  grosser Personenbelegung** verlangen — Ermessensspielraum, kein Automatismus.
+- **Parkings unter Schulbauten:** identische Schwellen wie generisch (§4c/§5l), hier nochmals
+  schulspezifisch bestätigt: 4'800/2'400 m² unter Terrain (eingeschossig/mehrgeschossig offen
+  verbunden), Löschanlage verdoppelt die Fläche; Schleusenpflicht ab 1'200 m² Brandabschnitts-
+  fläche bei Ausgängen in vertikale Fluchtwege.
+
+→ Neuer, eigenständiger Abschnitt; ergänzt §5g (generische Parking-Regeln aus der Wohnbauten-
+Arbeitshilfe) um die **schulbautypologiespezifische** Fassung. Speist Skill `wettbewerb`
+(Prioritätsbauaufgabe Schul-/Bildungsbau) und `machbarkeit`/`volumenstudie` bei Schulhausprojekten.
+
+## 5af · Arbeitshilfe Gebäude mit geringen Abmessungen — VKF 1000-15de (Run 42, 2026-07-14)
+
+Vollständig gelesene VKF-Brandschutzarbeitshilfe «Gebäude mit geringen Abmessungen» (14 S., Stand
+01.01.2015) — das kleinste/einfachste Standard-Regime, bisher nur indirekt über Begriffsdefinition
+(K1002-15 §2.1d) referenziert, jetzt volltextlich erschlossen:
+
+- **Begriff bestätigt:** max. 2 Geschosse über Terrain, max. 1 Geschoss unter Terrain, Summe aller
+  Geschossflächen ≤ 600 m², keine Nutzung für schlafende Personen (ausser eine Wohnung), keine
+  Kinderkrippe, Räume mit grosser Personenbelegung nur im Erdgeschoss.
+- **Kernaussage:** für Gebäude mit geringen Abmessungen werden **keine Anforderungen an den
+  Feuerwiderstand von Tragwerk und Brandabschnittsbildung** gestellt (§6.1.1) — der grösste
+  Unterschied zur Schulbauten-/Wohnbauten-Arbeitshilfe. Brandschutzkonzeptpläne müssen bei
+  Gebäuden geringer Abmessungen und Nebenbauten **nur auf Verlangen** der Behörde erstellt werden.
+  Rauchabschnittsbildung nur für Räume/Bereiche mit erhöhter Brandbelastung/Brandrisiko sowie für
+  Räume technischer Brandschutzeinrichtungen und haustechnischer Anlagen.
+- **Fluchtwege nutzungsbezogen (Anhang mit Grundriss-Beispielen Büro/Werkstatt/Schreinerei mit
+  Wohnung/Restaurant mit Wohnung/Schule/Landwirtschaft):** max. Fluchtweglänge weiterhin 35 m;
+  **Treppengeometrie darf bei Wohnen/Büro/Schule/Gewerbe/Landwirtschaft erleichtert werden**
+  (geradläufig auf 0.9 m, gewendelt 1.2 m bei min. 0.1 m inneren Auftrittsbreite) — ein
+  spürbares Zugeständnis gegenüber grösseren Gebäuden. **Ausgangsbreiten-Staffel nach
+  Personenbelegung:** ≤ 50 Pers. ein Ausgang 0.9 m; ≤ 100 Pers. zwei Ausgänge à 0.9 m;
+  ≤ 200 Pers. drei Ausgänge à 0.9 m ODER zwei à 0.9/1.2 m; > 200 Pers. mehrere Ausgänge à
+  mind. 1.2 m; in Büro-/Gewerbe-/Industriebauten sind 0.9-m-Ausgänge unabhängig der Belegung
+  zulässig.
+- **Wärmetechnik/Brennstofflagerung:** identisch zur generischen Regelung (EI 30/60-Heizräume
+  nach kW-Staffel, feste/flüssige Brennstoffe nach Mengen-/Bauart-Tabelle) — Cross-Reference
+  bestätigt keinen Delta zu §5x, aber der Verweis auf die drei spezifischen Brandschutz-
+  erläuterungen **Späne-/Schnitzel-/Pelletsfeuerungen sowie Cheminées** (§9.2.1 Abs. 6) ist neu
+  identifiziert (siehe Backlog unten).
+
+→ Ergänzt §5g/§5l (Parking-Schwellen bei Gebäuden geringer Abmessung: keine Anforderung an die
+Brandabschnittsbildung von Einstellräumen). Relevant für JANS-Kleinprojekte (Einfamilienhaus-
+Aufstockungen, Nebenbauten, kleine Gewerbebauten) als schlankeres Prüfregime gegenüber dem
+Standardfall.
+
+## 5ag · Betriebsbereitschaft von Brandfallsteuerungen (BFS) — VKF-Erläuterung 108-15de (Run 42, 2026-07-14)
+
+Brandschutzerläuterung «Gewährleistung der Betriebsbereitschaft von Brandfallsteuerungen» (Stand
+01.01.2015, Kernteil 11 S. gelesen) — präzisiert, wie technische Brandschutzeinrichtungen
+(Brandschutzabschlüsse, RWA, Aufzug-Ausserbetriebsetzung, Evakuationssysteme, Druckerhöhungs-
+pumpen u.a.) im Brandfall zuverlässig angesteuert werden. Bisher nicht dokumentierte Domäne
+(Steuerungs-/Betriebs-Ebene statt Bauteil-Ebene):
+
+- **Drei Ansteuerungs-Kategorien:** Einzelansteuerung (offengehaltene Abschlüsse, automatische
+  Schliessvorrichtung über Rauchmelder falls keine BMA vorhanden), kollektive Ansteuerung (alle
+  Einrichtungen gleichzeitig bei BMA-Alarm, kein Funktionserhalt nötig, manuelle kollektive
+  Auslösung bei BMZ-Ausfall Pflicht), selektive Ansteuerung (nur die dem Brand-/Rauchabschnitt
+  zugeordneten Einrichtungen gemäss Zonenplan — braucht **Funktionserhalt mindestens gemäss den
+  Anforderungen des Tragwerks**).
+- **Fail-Safe-Prinzip:** Endgeräte müssen im Brand- oder Fehlerfall in den sicheren Zustand
+  fallen. Beispiele mit Fail-Safe: Brandschutzklappen, Brandschutztüren/-tore, Fahrtreppen/
+  Förderbänder. Beispiele OHNE Fail-Safe (brauchen daher aktive/redundante Ansteuerung oder
+  Funktionserhalt): maschinelle RWA mit selektiv genutztem Rauchgasventilator, Rauchschutz-
+  Druckanlagen, Entrauchungsklappen, Aufzugsanlagen.
+- **Pflichtdokumentation** (bei Ausfall der BMZ manuell/kollektiv auslösbar; bei Ausfall Fail-
+  Safe-loser Elemente Signalübertragung mit Funktionserhalt ≥ 30 Minuten): Pflichtenheft
+  Auslösung, Zonenplan, Matrix für Brandfallsteuerungen, Drehbuch integraler Test,
+  Wartungsunterlagen/-planung, Kontrollheft — vollständige Dokumentation bei Bezug an
+  Eigentümerschaft UND bei der Brandmeldezentrale zu deponieren. **Integrale Tests** (system-
+  und anlagenübergreifende Funktionskontrolle) erst zulässig, wenn BMA/Sprinkleranlage
+  vollständig erstellt und abgenommen sind sowie alle angesteuerten Einrichtungen betriebsbereit
+  sind; bei wesentlichen Änderungen (Erweiterung, Modernisierung, Softwarerelease) sind sie zu
+  wiederholen und die Zuordnung der potentialfreien BMZ-Ausgänge neu zu protokollieren.
+- **Betriebsphase:** integrale Tests in periodischen Intervallen (Intervall durch die Brand-
+  schutzbehörde festgelegt, kürzer bei Herstellervorgabe); Brandfallsteuerungen dürfen
+  grundsätzlich **nicht ausser Betrieb gesetzt werden** — Serviceunterbrüche sind der
+  Eigentümerschaft anzuzeigen, während des Ausfalls sind ersatzweise andere Sicherheits-
+  massnahmen zu treffen, welche dieselben Schutzziele gewährleisten.
+
+→ Neuer, eigenständiger Abschnitt. Relevant für Healthcare-/Bettenbauten mit komplexer BMA/
+Sprinkler-/RWA-Vernetzung (Kinderspital, Pflegeheim) — die Fail-Safe-Unterscheidung und die
+Pflicht zur lückenlosen Dokumentation (Zonenplan/Matrix/Drehbuch) sind bei der Bauleitungs-
+Abnahme (Skill `unternehmerkontrolle`) direkt prüfbar.
+
+## 5ah · Temporäre Aufstellung von Flüssiggasanlagen — VKF-Erläuterung 107-15de (Run 42, 2026-07-14)
+
+Vollständig gelesene Brandschutzerläuterung «Temporäre Aufstellung von Flüssiggasanlagen» (Stand
+01.01.2015, 13 S.) — regelt den **zeitlich befristeten** Einsatz (Baustellen, Notheizung bei
+Ersatz von Feuerungsanlagen), max. 6 Monate, bis 13 m³ Tankkapazität bzw. 1'100 kg an Rampen
+(grössere Kapazität: kantonale Brandschutzbehörde kontaktieren). Eigenständige Domäne gegenüber
+der bereits dokumentierten **permanenten** Flüssiggas-Kennzahl aus §5v (13 m³/1'100 kg
+Notstromaggregat-Kontext, BSR 12-15):
+
+- **Meldepflicht:** mind. 1 Woche vor Ausführungsbeginn bei der zuständigen Brandschutzbehörde
+  UND bei der **Suva, Bereich Chemie** (Formular «Anmeldung für die Aufstellung von
+  Flüssiggasanlagen für einen zeitlich begrenzten Betrieb»); vor Inbetriebnahme zusätzlich eine
+  Inbetriebnahme-Meldung mit Fotodokumentation der Sicherheitsmassnahmen.
+- **Schutzabstände nach Nachbarschaftsgefährdung** (Matrix Bauart × Gefährdungsgrad
+  gering/normal/erhöht → klein/mittel/gross): bei kleiner Gefährdung 1 m (ortsfeste Behälter
+  ≤ 15 m³); bei mittlerer Gefährdung 5 m (Tank) / 5-10 m (Flaschenlager 50-500 kg); bei grosser
+  Gefährdung 10-15 m. **Sensible Bereiche wie Spitäler, Schulen, Camping werden explizit der
+  Kategorie «erhöhte Gefährdung» zugeordnet** — direkter Healthcare-Befund: eine temporäre
+  Notheizung/Baustellen-Flüssiggasanlage neben einem Spital-/Schulbau braucht die grössten
+  Schutzabstände der Tabelle. Zusätzliche feste Abstände: 5 m zu öffentlichen Strassen, 10 m zu
+  Hochspannungsleitungen, 5-15 m zu Bahngeleisen je nach Geleiseart.
+- **Explosionsschutz:** Ex-Zonen nach SUVA-Merkblatt 2153 (typisch 3 m radial um Sicherheits-
+  ventil/Abblaseöffnung als Zone 1, weiterer Bereich Zone 2); Geräte/Schutzsysteme mindestens
+  nach VGSEB-Gerätekategorie für die jeweilige Zone.
+- **Blitzschutz-Staffel nach Lagermenge:** bis 450 kg netto keine Massnahmen; bis 1'000 kg netto
+  Anschluss elektrisch leitender Anlageteile an Erdung/Potenzialausgleich; über 1'000 kg netto
+  vollständiges Blitzschutzsystem.
+- **Weitere Pflichten:** Kühlung der Anlage im Brandfall (Berieselung oder Hydrant+Schlauch),
+  Schutz vor unbefugtem Zugriff/mechanischer Beschädigung (Schwenkbereichsbegrenzung bei
+  Kranbetrieb, Abstand ≥ 5 m zu brennbarem Material/Bauschutt), Instruktionspflicht der
+  verantwortlichen Personen, Feuerwehr-Kommandant ist über den Standort zu informieren.
+
+→ Neuer, eigenständiger Abschnitt; ergänzt §5v (permanente Flüssiggas-Kennzahl in BSR 12-15) um
+die temporäre/baustellenspezifische Regelung. Relevant für Bauleitungs-Skills (`unternehmerkontrolle`,
+`werkvertrag`) bei Bauphasen mit Provisorien (Notheizung während Heizungsersatz), insbesondere bei
+Healthcare-/Schulbauten wegen der «erhöhte Gefährdung»-Einstufung.
+
+**Backlog aus Run 42 (niedrige Priorität, nicht vertieft):** drei weitere, noch unerschlossene
+VKF-Erläuterungen im selben Ordner `04 Erläuterungen Brandschutz 2015/` — 103-15 Cheminées,
+104-15 Spänefeuer, 105-15 Schnitzelfeuerung, 106-15 Pelletsfeuerung (Feuerungsanlagen für feste
+Brennstoffe, primär Wohn-/Landwirtschaftsbauten-Relevanz, geringer Healthcare-/Schulbau-Bezug) —
+für einen Folgelauf vorgemerkt, kein Nicht-Fund, sondern bewusst zurückgestellt zugunsten der
+höherpriorisierten Schulbauten-/BFS-/Flüssiggas-Funde dieses Laufs.
 
 ---
 
