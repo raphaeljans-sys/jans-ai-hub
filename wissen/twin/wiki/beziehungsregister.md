@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1077,3 +1077,29 @@ für den **Paar-Empfänger**: die Kühlung landet nicht bei «Sehr geehrte Frau/
 warmen Vornamen-Doppelanrede «Guten Tag X und Y» — eine eigene Zwischenstufe für Rechnungen an
 Ehepaare/Paare als Bauherrschaft, wärmer als Firmen-Sie, kühler als Einzel-Du. Quelle: 02.06.2026,
 authentisch.
+
+## Gestapelte Doppelanrede mit UNTERSCHIEDLICHEM Register je Person in einer Zeile (belegt Mailbatch 50, authentisch)
+
+An zwei Empfänger derselben Institution (Betreiberin + Bauherr-Vertreter KISPI) mit unterschiedlicher
+Beziehungstiefe öffnet eine einzige Mail mit «**Geschätzte Stefi, lieber Albin**» — die Betreiberin
+bekommt die wärmere «Geschätzte»-Stufe, der Bauherr-Vertreter das noch wärmere blosse «lieber», beide
+im selben Satz durch Komma getrennt statt gestapelt untereinander. Ergänzt die bereits belegte
+gestapelte Mehrfachanrede (dort meist identisches Register je Empfänger) um den Fall **zweier
+unterschiedlicher Register in einer einzigen Anredezeile**. Quelle: 04.06.2026, authentisch.
+
+## «Lieber Herr <Nachname>» als eigene Zwischenstufe im akademisch-formellen Erstkontakt (belegt Mailbatch 50, authentisch)
+
+Gegenüber einem neuen Kontakt mit akademischem Titel (Dr.) ohne bestehendes Mandat wählt Raphael
+weder das volle Sie-Erstkontakt-Register («Sehr geehrter Herr») noch Du, sondern «**Lieber Herr
+Chaled**» — eine warme Zwischenstufe, die den Respekt vor der Rolle (Herr + Nachname) mit
+persönlicher Wärme (Lieber) verbindet. Bestätigt/ergänzt das bereits belegte Mapping-Prinzip:
+Register wird nicht allein aus der Beziehungsdauer, sondern auch aus dem Ton der eingehenden
+Anfrage abgeleitet (hier eine informell-direkte Erstanfrage). Quelle: 07.06.2026, authentisch.
+
+## Gruppen-Sie an ein internes Projektteam (kein Einzelkontakt) (belegt Mailbatch 50, authentisch)
+
+Bei einer Weiterleitung eines amtlichen Vorabzugs-Bauentscheids an das gesamte interne Projektteam
+(Architekt + Fachplaner, kein Bauherr) wählt Raphael «**Geschätztes Projektteam PPTS KISPI**» als
+Kollektiv-Anrede — weder Sie/Du an Einzelpersonen, sondern eine Rollen-/Gremien-Anrede analog zur
+bereits belegten STWEG-Körperschaftsanrede, hier aber für ein internes Planungsteam statt ein
+externes Gremium. Quelle: 04.06.2026, authentisch.

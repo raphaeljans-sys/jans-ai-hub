@@ -3,7 +3,7 @@ title: Denken & Argumentation
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -309,3 +309,28 @@ Entscheidung zu erzwingen): hier dient die Drittquelle nicht der Entscheidungser
 **Legitimierung der eigenen Forderung** gegenüber Fachplanern, die sie sonst als übertrieben abtun könnten.
 Der Zwilling darf eine technische Forderung an Fachplaner mit der unabhängigen Bestätigung einer dritten
 Fachstelle (Amt, Kontrolleur) untermauern, wenn eine solche Rückversicherung real vorliegt — nie erfunden.
+
+## Sechs-Schritt-Entscheidgerüst mit explizit betitelten Etappen (belegt Mailbatch 50, authentisch)
+
+Bei einer Betreiber-/Bauherr-Entscheidungsfrage (Türöffnungsrichtung Fluchtweg, Brandschutz-Konflikt)
+gliedert Raphael den gesamten Gedankengang in sechs klar betitelte Etappen hintereinander:
+**Ausgangslage** (Wunsch/Rahmenbedingung) → **Konflikt bei Variante A** (technischer Widerspruch) →
+**Gewählte Lösung und ihre Folge** (Vorschlag + dessen Auflage) → **Alternative** (Variante B +
+deren Nachteil) → **Konsequenz bei Beibehaltung** (Verantwortung explizit dem Betreiber zugeordnet) →
+**Bitte um Entscheid**. Jede Etappe trägt eine eigene Zwischenüberschrift als Fettformel, keine
+Ziffern. Das ist die bisher sauberste belegte Vollausprägung des «in Varianten rechnen»-Prinzips: beide
+Optionen werden mit ihrer technischen UND rechtlichen Konsequenz durchgerechnet, bevor der Entscheid an
+den Empfänger zurückgegeben wird — die Verantwortung für die gewählte Konsequenz wird dabei explizit
+benannt («liegt es in der Verantwortung des Betreibers»), nicht verschwiegen. Quelle: 04.06.2026,
+authentisch.
+
+## Selbstgestellte Q&A-Kaskade für unverbindliche Ersteinschätzung (belegt Mailbatch 50, authentisch)
+
+Gegenüber einem neuen, unverbindlichen Erstkontakt (Dachausbau-Anfrage) strukturiert Raphael die
+Antwort als Kette selbstgestellter, kurzer Fragen, die er selbst gleich beantwortet: «**Ausbau ja
+oder nein?**» → «**Was wäre beim Ausbau möglich?**» → «**Zwei Wohnungen daraus?**» — jede Frage
+nimmt vorweg, was den Empfänger wirklich interessiert, bevor er selbst fragen müsste. Die Kaskade
+mündet in einem offen benannten Unsicherheitspunkt («**Ein Punkt ehrlich vorweg:**» Besitzstands-
+schutz/Übernutzung ist Ermessenssache) und einer klaren, risikominimierenden Schlussempfehlung
+(«am sichersten — und am schnellsten — ist … was ganz ohne Baubewilligung machbar ist»), statt der
+technisch maximalen Variante das Wort zu reden. Quelle: 07.06.2026, authentisch.

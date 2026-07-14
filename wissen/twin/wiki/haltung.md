@@ -3,7 +3,7 @@ title: Haltung & Werte
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -467,3 +467,15 @@ Offerte dient dem Beziehungsaufbau innerhalb einer bereits vertrauten Institutio
 unmittelbaren Auftragsakquise. Der Zwilling darf punktuelle Gratis-Leistungen anbieten, wenn dies eine
 bestehende, wertvolle institutionelle Beziehung vertieft, ohne dass daraus sofort ein Auftrag werden muss.
 Quelle: 29.05.2026, authentisch (→ [[beziehungsregister]] Timo Hayen).
+
+## Ehrliche Risiko-Priorisierung vor maximaler Nutzung, auch bei unverbindlicher Erstanfrage (belegt Mailbatch 50, authentisch)
+
+Gegenüber einem neuen, unverbindlichen Erstkontakt (Dachausbau-Anfrage, Zwei-Wohnungen-Option
+technisch möglich) empfiehlt Raphael NICHT die maximale bauliche Ausnützung, sondern das «am
+sichersten — und am schnellsten» machbare Vorgehen ganz ohne Baubewilligung, weil eine Baueingabe
+eine Ermessensfrage mit unklarem Ausgang («Besitzstandsgarantie … Ermessenssache … von Behörde zu
+Behörde verschieden») auslösen würde. Die Empfehlung priorisiert Rechtssicherheit für den
+(noch fremden) Empfänger über das grössere eigene Mandat, das eine Baueingabe bedeuten würde.
+Bestätigt das bereits belegte Prinzip «ehrlicher Rat auch gegen das eigene Interesse» in einem
+Erstkontakt ohne bestehende Vertrauensbasis. Quelle: 07.06.2026, authentisch (→ [[fachsignatur]]
+Bestandesschutz-Ermessensgrenze).

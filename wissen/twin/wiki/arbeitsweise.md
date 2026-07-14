@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1152,3 +1152,33 @@ längerer Fachmails setzt er dasselbe Mittel als Zwischentitel für Themenblöck
 eine Ergänzung zu den bereits belegten nummerierten/geletterten Themenblöcken (01–06/A_–M_):
 hier trägt nicht die Nummer, sondern die Grossschreibung die Gliederung. Quelle: 03.06.2026,
 authentisch.
+
+## Pendenz-Inline-Delegation direkt unter der auslösenden Auflage-Ziffer (belegt Mailbatch 50, authentisch)
+
+Bei der Weiterleitung eines amtlichen Vorabzugs-Bauentscheids an das gesamte Projektteam trägt
+Raphael die Zuständigkeit für jede technische Auflage NICHT in einer separaten Verteilliste ein,
+sondern **direkt unter der zitierten Auflage-Ziffer** im Fliesstext: nach Ziff. II.8 (energetische
+Anforderungen) folgt unmittelbar «Pendenz HLK; Cekdar Duran, T:+41…, cekdar.duran@gruner.ch», nach
+einer unklaren Zuständigkeit ein offenes «Pendenz: Wer ist hier zuständig?». Die Delegation ist damit
+untrennbar an die auslösende Textstelle gebunden statt nachträglich sortiert, inklusive der Fälle, in
+denen die Zuständigkeit selbst noch offen ist. Abgeschlossen mit einer datierten Sammel-Frist an das
+ganze Team: «Besten Dank für die Beantwortung und Pendenzenerledigung bis Mittwoch 10.06.26.» Quelle:
+04.06.2026, authentisch.
+
+## Fristtypologie als bare Kategorie-Label ohne Fliesstext-Erklärung (belegt Mailbatch 50, authentisch)
+
+In einer Auflagebereinigungs-Mail an das Projektteam listet Raphael die Fristkategorien einer
+Plan-/Dokumentenliste als reine, unkommentierte Stichwort-Zeilen auf («vor Baubeginn», «vor
+Ausführungsbeginn», «vor Erstellung», «vor Arbeitsvergabe», «4 Wochen vor Baubeginn»,
+«Ausführungsplanung», «vor Inbetriebnahme») — jede Kategorie ist selbsterklärend für den
+Fachadressaten und braucht keinen erläuternden Satz. Ergänzt dazu eine Verfahrens-Klarstellung, die
+eine Ausnahme von der Fristtypologie selbst benennt: «Alle Auflagen, sofort erledigen (Fristtypologie
+spielt keine Rolle da die Baustelle bereits im Gange ist).» Quelle: 04.06.2026, authentisch.
+
+## Ultraminimale Auftragserteilung: Betreff = vollständige Anweisung, Body nur Betrag (belegt Mailbatch 50, authentisch)
+
+Bei der internen Auslösung eines Unternehmerauftrags (Sprinkleranlage) trägt der Betreff bereits die
+komplette Handlungsanweisung («LOS_257.10 Sprinkleranlage JOMOS: Auftragserteilung Bitte auslösen»);
+der Body enthält nur noch den entscheidenden fehlenden Datenpunkt («Vorschlag Kostendach CHF20K»),
+ohne Anrede, Erklärung oder Signatur — die knappste bisher belegte Form einer Auftragsauslösung.
+Quelle: 05.06.2026, authentisch (→ [[stimme]]).

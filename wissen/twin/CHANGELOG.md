@@ -2,6 +2,31 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14 — twin-mail-training Mailbatch 50 (Sent Items rj@, sequentieller Sweep fortgesetzt)
+- `raw/260714-mailbatch-50.md` aus Sent Items rj@ erfasst (Apple Mail osascript, Index 294-270,
+  **2026-06-04 10:31 bis 2026-06-08 11:25**, Indexkontinuität zum Batch-49-Endpunkt verifiziert).
+  7 Volltexte gelesen, 25 Mails gesichtet, keine Echo-Falle im destillierten Teil. Metrik 280 W:
+  Du-Gross-Quote 1.0, Satzlänge ø 9.7 W (`stilmetrik.py`).
+- [[denken]] **neu**: Sechs-Schritt-Entscheidgerüst mit betitelten Etappen (Ausgangslage→Konflikt→
+  Lösung+Folge→Alternative→Konsequenz→Bitte um Entscheid); selbstgestellte Q&A-Kaskade für
+  unverbindliche Ersteinschätzung eines Erstkontakts.
+- [[fachsignatur]] **neu**: Vier-Etappen-Bezahlmandat-Stellungnahme (Grenzabstände/Baulinien-
+  Wirkung/Fazit/Nächster Schritt, Giebelweg 12/Bopp); Bestandesschutz-Ermessensgrenze als
+  eigenständig benanntes Risiko.
+- [[stimme]] **neu**: ultraminimale interne Auftragserteilung (Betrag+«.lgr» ohne Anrede/Gruss);
+  englischer Code-Switch «as you wish» im Peer-Du; «Lieber Herr <Nachname>»-Hybridregister im
+  Erstkontakt.
+- [[beziehungsregister]] **neu**: gestapelte Doppelanrede mit unterschiedlichem Register je Person
+  in einer Zeile («Geschätzte Stefi, lieber Albin»); «Lieber Herr <Nachname>»-Zwischenstufe;
+  Gruppen-Sie an internes Projektteam («Geschätztes Projektteam PPTS KISPI»).
+- [[arbeitsweise]] **neu**: Pendenz-Inline-Delegation direkt unter der auslösenden Auflage-Ziffer;
+  Fristtypologie als bare Kategorie-Labels ohne Erklärung; ultraminimale Auftragserteilung
+  (Betreff = Anweisung, Body = einzelner Datenpunkt).
+- [[haltung]] **neu**: ehrliche Risiko-Priorisierung vor maximaler Nutzung, auch im unverbindlichen
+  Erstkontakt ohne bestehende Vertrauensbasis.
+- `raw/_INGESTED.md` nachgeführt: Sweep abgedeckt bis 2026-06-08, 11:25 Uhr. Nächster Lauf ab
+  Index 269.
+
 ## 2026-07-14 — twin-fidelity-review (Fidelity-Runde i, Selbsttest)
 - Goldproben live aus Apple Mail («Gesendete Elemente», rj@raphaeljans.ch) gezogen — M365-Connector
   in dieser Session nicht verbunden. 2 frische, 1 konsolidierende Probe (14.07./13.07.2026).
