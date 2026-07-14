@@ -1,9 +1,9 @@
 ---
 title: Schallschutz im Hochbau — SIA 181:2020 (Anforderungswerte)
 status: established
-last_updated: 2026-06-28
-sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]]
+last_updated: 2026-07-14
+sources: [destillate/sia-181-schallschutz-anforderungswerte.md, destillate/clt-schallschutz-stora-enso.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[holzbau-bauphysik-clt]], [[clt-schallschutz-stora-enso]], [[lignum-schallschutz-holzbau-flankenuebertragung]], [[aussenlaerm-schallschutzfenster-strasse-bahn]]
 ---
 
 # Schallschutz im Hochbau — SIA 181:2020
@@ -67,6 +67,16 @@ fuer staedtischen Strassenverkehr mit lauten tiefen Anteilen) — `Rw(C;C_tr) = 
   **elastisch entkoppeln** (sonst macht die Flanke die gute Trennwand zunichte) →
   `[[lignum-schallschutz-holzbau-flankenuebertragung]]`, `[[clt-schallschutz-stora-enso]]`,
   `[[holzbau-bauphysik-clt]]` / F17.
+
+## Aussenlärm (Strasse/Bahn) vertieft — zwei getrennte Systeme
+Die Aussenlärm-Zeile oben (SIA-181-De) ist nur die **bautechnische** Hälfte. Parallel dazu prüft
+die **Lärmschutz-Verordnung (LSV, Art. 31/32)** am **offenen** Fenster, ob überhaupt eine
+Baubewilligung erteilt werden darf (Immissionsgrenzwert/Planungswert nach Empfindlichkeitsstufe) —
+das ist eine eigene, vorgelagerte Prüfung, nicht durch ein gutes Schallschutzfenster ersetzbar.
+Massnahmen-Kaskade (Quelle → Grundriss → bauliche Massnahmen → Fenster als Letztmittel),
+Ausnahmebewilligungs-Ampel (gelbe/rote Räume), ZH-Festverglasungsschwelle (70/60 dB), die
+R'w+Ctr-Ausschreibungslogik sowie Schallschutzfenster-Klassen (kommerziell) →
+`[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, FAQ **F68**.
 
 ## Wo der Schallschutz im JANS-Workflow auftaucht
 - **Entwurf:** Grundriss-Stapelung (Schlafraum nicht ueber Technikraum/Lift), WP-Standort.

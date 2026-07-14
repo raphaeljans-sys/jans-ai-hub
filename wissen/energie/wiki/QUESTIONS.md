@@ -522,18 +522,32 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Projekt/m² und quantitativer kWh-Effekt auf die Kühllast bleiben offen. Löst den
   Run-60-Prioritätspunkt 3 (Themenkomplex nach Solarpflicht-Erhebung).
 
+- [x] **E51** **Aussenlärm (Strasse/Bahn) — LSV-Kaskade, gelbe/rote Räume, SIA-181-De,
+  Schallschutzfenster-Klassen** belegt ✓ 2026-07-14 (Run 62) →
+  `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, Ergänzung `[[schallschutz-sia181]]`, FAQ
+  **F68** neu. Zwei getrennte Systeme: LSV am **offenen** Fenster (Bewilligungsfrage,
+  Art. 31/32 LSV) vs. SIA 181 am **geschlossenen** Fenster (Bauqualität, Ziff. 3.1.1). Massnahmen-
+  Kaskade (Quelle→Grundriss→bauliche Massnahmen→Fenster als Letztmittel); Ampel-System gelbe Räume
+  (Lüftungsfenster ≥5 % Bodenfläche hält Grenzwert) vs. rote Räume (ruhiger Aussenbereich Pflicht,
+  max. 1/3 Zimmer mit Ausnahme, Einzelraumbelüftung); ZH-Festverglasungsschwelle 70 dB Tag/60 dB
+  Nacht; SIA-181-Kleinstwert De ≥ 27 dB, massgebend R'w+Ctr (Ctr −4 bis −6 dB bei Fenstern) statt
+  Labor-Rw; Schallschutzfenster-Klassen II-V (kommerzielle Quelle, nicht amtlich). Direkte
+  Schnittstelle zu `[[komfortlueftung]]` (Fenster dauerhaft geschlossen → mechanische Lüftung
+  Pflicht). Status emerging (SZ-Ausnahmebewilligungspraxis, amtliche Fensterklassen-Tabelle,
+  CHF-Mehrkosten je Klasse bleiben offen). Löst den Run-61-Prioritätspunkt 3 (Pendant zu F65).
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 61): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F67 Vertiefungen belegt (F67 neu: Fassadenbegruenung als Hitzeschutz-Ergaenzung zu PV,
-  Zielkonflikt um dieselbe Flaeche), Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G,
-  LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (100 % amtliche
-  PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND Solarpflicht in allen 26 Kantonen
-  (E38-E49) primaerquellen-/volltext-verifiziert bzw. web-trianguliert — Meta-Punkt M2 ist SEIT
-  RUN 45 (also SIEBZEHN Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum
-  siebzehnten Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite
-  Antwort von Raphael in einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im
-  Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger Themenkomplex nach Fassadenbegruenung:
-  Schallschutz gegen Aussenlaerm (Strasse/Bahn) als Pendant zum bereits erschlossenen
-  Waermepumpen-Laermschutz (F65) — ebenfalls ein Punkt, den eine interaktive Session priorisieren
-  koennte.**
+  **Stand 2026-07-14 (Run 62): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F68 Vertiefungen belegt (F68 neu: Aussenlaerm Strasse/Bahn — LSV-Kaskade/SIA-181-De/
+  Schallschutzfenster, Pendant zum Waermepumpen-Laermschutz F65), Rp/kWh-Luecken orientierend
+  geschlossen (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-
+  Luftdichtheit, § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle
+  (E45) UND Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
+  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also ACHTZEHN Laeufen in Folge) spruchreif fuer
+  eine Entscheidung und wird hier zum achtzehnten Mal vermerkt. Der Loop kann sie nicht selbst
+  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst dreht
+  sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger
+  Themenkomplex: SZ-spezifische Ausnahmebewilligungspraxis Aussenlaerm (JANS-Fokuskanton, bisher
+  nur ZH recherchiert) oder ein neues, noch unbelegtes Thema — eine interaktive Session koennte
+  priorisieren.**

@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-14
-sources: [destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md]
+sources: [destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md]
 links: [[INDEX]]
 ---
 
@@ -2343,6 +2343,43 @@ ausserhalb der Stadt Zürich nicht recherchiert).
 
 ---
 
+## F68 — «Mein Grundstück liegt an einer lauten Strasse/Bahnlinie — reicht ein gutes Schallschutzfenster, um bauen zu dürfen?»
+
+**Kurz:** Nein — das sind **zwei getrennte Prüfungen**. Ob überhaupt gebaut werden darf, prüft die
+Lärmschutz-Verordnung (LSV) am **offenen** Fenster (Bewilligungsfrage); wie gut die Fassade
+dämmen muss, regelt **SIA 181** am **geschlossenen** Fenster (Bauqualität). Ein teures
+Schallschutzfenster allein löst die Bewilligungsfrage nicht.
+
+**Fachlich:** Bei Grenzwertüberschreitung braucht es eine **Ausnahmebewilligung nach Art. 31
+Abs. 2 LSV** — nur möglich, wenn kumulativ raumplanerisch begründet UND «alle zumutbaren
+Lärmschutzmassnahmen ausgeschöpft» sind. Massgebend ist eine **Kaskade**: zuerst Quelle
+(lärmarme Beläge/Tempo 30), dann Gebäudeplanung/Grundriss (Schlafräume lärmabgewandt), dann
+bauliche Massnahmen (Riegelbau, Balkone, Loggien als Puffer) — **Schallschutzfenster stehen erst
+am Schluss**. Die Praxis unterscheidet **gelbe Räume** (Lüftungsfenster ≥ 5 % der Bodenfläche hält
+den Grenzwert ein → Ausnahme möglich) von **roten Räumen** (auch das Lüftungsfenster überschritten
+→ zusätzlich ruhiger Aussenbereich Pflicht, min. 2 m Tiefe/6 m², max. ein Drittel der Zimmer pro
+Wohnung mit Ausnahme, plus Einzelraumbelüftung). Im **Kanton Zürich** gilt: öffenbare Fenster nur
+bis 70 dB Tag/60 dB Nacht per Ausnahmebewilligung, darüber zwingend **Festverglasung**.
+Unabhängig von der Bewilligungsfrage gilt bautechnisch SIA 181 Ziff. 3.1.1: Anforderungswert
+**De ≥ 27 dB** (Kleinstwert), massgebend am Bau ist **R'w + Ctr** (nicht der Labor-Rw) — der
+Spektrum-Anpassungswert Ctr liegt bei Fenstern typisch bei **−4 bis −6 dB**, weil Strassenlärm
+tieffrequenzlastig ist.
+
+**Bauherren-Transfer:** Am Anfang steht die günstigste Massnahme: Grundriss so planen, dass
+Schlafräume von der lauten Seite wegzeigen (kostet nichts extra, wenn früh berücksichtigt). Bleibt
+danach ein Rest-Problem, in der Ausschreibung nie nur «Rw ≥ X dB» verlangen, sondern **R'w + Ctr**
+— sonst passt das Fenster im Labor, aber nicht am realen Strassenlärm. Müssen Fenster wegen Lärm
+dauerhaft geschlossen bleiben, ist eine mechanische Lüftung **Pflicht, kein Komfort-Extra** →
+`[[komfortlueftung]]`.
+
+**Quelle:** bauen-im-laerm.ch «Mindestvoraussetzungen Ausnahmebewilligung» (Art. 31/32 LSV) +
+baukultur-laerm.ch «Schalldämmanforderungen nach SIA-Norm 181» + Schallschutzfenster-
+Klassentabelle (fensterversand.ch, kommerziell) (Web, gelesen 2026-07-14) →
+`[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, `[[schallschutz-sia181]]`. Status emerging
+(SZ-spezifische Ausnahmebewilligungspraxis und amtliche Fensterklassen-Tabelle offen).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -2352,6 +2389,13 @@ ausserhalb der Stadt Zürich nicht recherchiert).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
+
+> **FAQ-Stand 2026-07-14 (Run 62):** neue Frage zum seit Run-60 angekündigten Pendant-Themenkomplex
+> Aussenlärm — **F68 ‹Lautes Grundstück, reicht ein Schallschutzfenster?›** (LSV am offenen Fenster
+> vs. SIA 181 am geschlossenen Fenster, Massnahmen-Kaskade, gelbe/rote Räume, ZH-Festverglasungs-
+> schwelle 70/60 dB, R'w+Ctr statt Rw in der Ausschreibung →
+> `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, `[[schallschutz-sia181]]` ergänzt, Status
+> emerging). Löst den Run-61-Prioritätspunkt 3 (Schallschutz gegen Aussenlärm als Pendant zu F65).
 
 > **FAQ-Stand 2026-07-14 (Run 61):** neue Frage zu einem bisher unbelegten Themenkomplex —
 > **F67 ‹Hitzeschutz UND Solarstrom an der Fassade — geht beides?›** (Fassadenbegrünung senkt PET

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 07:09:54
+Stand: 14.07.2026 07:40:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:08)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 14.07.2026 07:09:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 54a06a1a planungsgrundlagen-training Run 41: Recht/Norm AHB-Honorar/Nachhaltigkeit/CAD/Submission + Brandschutz BSR-14-15-Korrektur
+- 609d4e57 planungsgrundlagen-training Run 42: Kartenportale Kt.-Bern/Sunrise-UPC-Delta + Energie NEU Gebaeudeschadstoffe-Checkliste + SolarApp/PVSOL premium eingeordnet
