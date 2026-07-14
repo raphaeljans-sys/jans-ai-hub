@@ -86,3 +86,12 @@ Fuer den PV-**Kennwert** CHF/kWp bleibt die typdifferenzierte Benchmark-Tabelle 
 - Realer **MFH-/ZEV-Fall** (Eigenverbrauchsgemeinschaft, GREIV) fehlt — der belegte Fall ist ein EFH.
 - Kantonaler **Steuerabzug energetische Sanierung** (ZH/SZ) im Fall pauschal mit der Foerderung
   verrechnet — separate belegte Herleitung waere ein Folge-Artikel.
+
+**Refresh 2026-07-14 (Run 38, Cross-Check zu Run 36):** eigene WebSearch-Gegenpruefung von
+`pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik` bestaetigt: die
+STRUKTUR der Foerderung hat sich seit **01.04.2025** nicht veraendert — keine neuen Bonus-
+Kategorien, keine neuen Schwellen; die zuletzt dokumentierte Aenderung bleibt die
+Leistungsbeitrag-Senkung je CHF 20 (≤30 kW und ab 100 kW) per 01.04.2025 (identisch zum bereits
+in §1 erfassten Stand). Grundstruktur Grundbeitrag + degressiver Leistungsbeitrag + Neigungswinkel-
+/Parkflaechenbonus bleibt unveraendert gueltig; absolute CHF/kW weiterhin nur ueber den
+Tarifrechner beziehen (kein neuer statischer Wert noetig).

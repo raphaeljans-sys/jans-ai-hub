@@ -1,7 +1,7 @@
 ---
 title: Historisches Terrain rekonstruieren — private Vermessungsbüros für die Baumassenziffer
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources:
   - Realer JANS-Auftrag Gemeinde Regensdorf, Holenbachstrasse 45-55, Grundstück Nr. 7051
     (Mail-Thread Raphael Jans ↔ Acht Grad Ost AG, 28.–29.02.2024, cc Christoph Bopp/Nova Property,
@@ -11,8 +11,14 @@ sources:
     "Gemeinde_Regensdorf_Holenbachstrasse_45_55_Berechnung_massgebendes_Terrain" (PDF/DWG/LandXML,
     29.02.2024)
   - PL-01/KtZH Zuerich/achtgradost.ch/{240210_Lidar_AV, 240229_Terrain_1980, WebGIS, Zonenplan}
+  - Run 38 (2026-07-14): KtZH Zuerich/achtgradost.ch/Zonenplan/Legende_OEREB_Regensdorf.pdf (Acht
+    Grad Ost AG, 10.10.2017) + 4a632a5f-…pdf (Planauskunft Zonenplan Regensdorf, 11.04.2024);
+    KtZH Zuerich/achtgradost.ch/WebGIS/link.docx (URL oeffentliches WebGIS), Legende_Abstandslinien.pdf
+    (Acht Grad Ost AG, 05.01.2018), 313c05b3-…pdf (Planauskunft Orthofoto, 08.02.2024),
+    d7ceba65-…pdf (Planauskunft amtliche Vermessung, 08.02.2024)
 links: [[kartenportale-bund-geodaten]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]
-  [[massgebendes-terrain]] [[machbarkeit]]
+  [[massgebendes-terrain]] [[machbarkeit]] [[kartenportale-baulinien-abstandslinien-zh]]
+  [[kartenportale-geoportale-uebersicht]]
 ---
 
 # Historisches Terrain rekonstruieren — private Vermessungsbüros für die Baumassenziffer
@@ -90,3 +96,48 @@ auszulösen").
 - Verhältnis zum Skill `massgebendes-terrain` (dort die fachliche MT-Festlegung/Berechnung) noch
   nicht als expliziter Querverweis im Skill selbst verankert — Anschlussaufgabe (analog M2-Befund
   in [[kartenportale-grundlagen-checkliste-neue-parzelle]]).
+
+## 5. NEU (Run 38, 2026-07-14): Acht Grad Ost AG betreibt zusätzlich ein öffentliches Gemeinde-WebGIS
+
+Die bisher nicht ausgewerteten Unterordner `Zonenplan/` und `WebGIS/` desselben PL-01-Fallordners
+zeigen, dass **Acht Grad Ost AG** neben der historischen Terrain-Rekonstruktion (Abschnitt 1) eine
+**zweite Rolle** einnimmt: Betrieb eines **öffentlich zugänglichen, login-freien WebGIS** unter
+`https://www.achtgradost.ch/oeffentlich-zugaengliches-webgis/` (Quelle: `WebGIS/link.docx`).
+
+**Firmenadresse laut Legende-PDF (05.01.2018):** Wagistrasse 6, CH-8952 Schlieren, Tel.
++41 43 500 44 25, support@achtgradost.ch — abweichend von der 2024 im Auftragsmail verwendeten
+Adresse Steinackerstrasse 2, 8302 Kloten (Abschnitt 1); vermutlich ein Standortwechsel zwischen
+2018 und 2024, nicht weiter verifiziert.
+
+Am Fallbeispiel **Gemeinde Regensdorf** belegen die abgelegten "Planauskunft"-Ausdrucke (Ersteller
+"REG_Public", Massstab 1:1000, Erstellungsdatum 08.02.2024 bzw. 11.04.2024, Copyright-Vermerk
+"Alle Rechte an diesem Plan verbleiben bei der Gemeinde/Stadt") drei aus diesem WebGIS gedruckte
+Layer-Typen:
+
+- **Zonenplan/ÖREB-Kataster** — vollständige kommunale Zonen-Farblegende (Kern-/Quartiererhaltungs-/
+  Zentrums-/Wohn-/Gewerbe-/Industriezonen mit Ausnützungsziffern, Zone für öffentliche Bauten,
+  Erholungs-/Freihalte-/Reservezone) plus überlagernde Festlegungen (Satteldachvorschrift,
+  Hochhäuser zulässig, Gestaltungsplanpflicht, Aussichtsschutz, Planungszone) — Quelle
+  `Legende_OEREB_Regensdorf.pdf`.
+- **Baulinien/Abstandslinien** — eigenständiger Layer mit Unterscheidung kommunal/kantonal/
+  projektiert/Aufhebung je Linientyp (Verkehr, Betriebsanlage/Gewässer, Versorgung,
+  Ski-/Schlittellinie) plus separate Gewässerabstandslinie/Waldabstandslinie/Waldgrenzen/
+  Gewässerraum (festgelegt/projektiert) — Quelle `Legende_Abstandslinien.pdf`. Deckungsgleiche
+  Kategorisierung zur bereits kantonal dokumentierten Struktur in
+  [[kartenportale-baulinien-abstandslinien-zh]] (`maps.zh.ch`/OGD-WFS), hier aber als
+  **gemeindeeigene** WebGIS-Ebene.
+- **Amtliche Vermessung/Orthofoto** — Situationsplan mit Fixpunkt-Referenz "HFP11", Flurname
+  "Bungerten", Gewässer "Holenbach" sowie ein Orthofoto-Planauskunft-Ausdruck.
+
+**Einordnung:** Acht Grad Ost AG tritt damit als **White-Label-Betreiber des kommunalen
+GIS-Portals** für die Gemeinde Regensdorf auf — analog zu `geoglatt.ch` (K15,
+[[kartenportale-geoportale-uebersicht]]), dort aber von einem GIS-Softwareanbieter, hier von einer
+privaten Vermessungsfirma betrieben. Datenherrschaft/Copyright bleiben ausdrücklich bei der
+Gemeinde. Praxisrelevant für JANS: bei Projekten in Regensdorf ist
+`achtgradost.ch/oeffentlich-zugaengliches-webgis/` ein zusätzlicher, login-freier Bezugsweg für
+Zonenplan/ÖREB/Baulinien/Orthofoto/AV-Planauskunft, unabhängig von `maps.zh.ch`.
+
+**Offen:** nicht verifiziert, ob dasselbe WebGIS weitere ZH-Gemeinden bedient oder nur Regensdorf;
+keine automatisierte Schnittstelle (WMS/WFS) identifiziert, nur eine PDF-Planauskunft-Druckfunktion
+— analog zu `gis.bezirkeinsiedeln.ch` (K27) bewusst kein Connector-Anspruch ohne weitere
+Verifikation. Status bleibt `emerging` (Einzelfallbeleg).

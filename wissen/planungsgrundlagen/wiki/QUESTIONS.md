@@ -3,6 +3,22 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K32/K33 (Run 38, 2026-07-14)** Zwei konkrete Fundstellen im Domaenen-Curriculum
+  geprueft (Trainings-Lauf 38, MacBook Pro). **K32 — echter Neufund:** die bisher nur fuer die
+  historische-Terrain-Rekonstruktion bekannte Acht Grad Ost AG (`achtgradost.ch`, vgl. K14
+  [[kartenportale-historisches-terrain-vermessungsbuero]]) betreibt zusaetzlich ein oeffentliches,
+  login-freies **Gemeinde-WebGIS** (`achtgradost.ch/oeffentlich-zugaengliches-webgis/`), belegt am
+  Fallbeispiel Gemeinde Regensdorf mit Zonenplan/ÖREB-Kataster-, Baulinien-/Abstandslinien- und
+  AV-/Orthofoto-Planauskunft-Layern — White-Label-Betrieb eines kommunalen GIS-Portals durch eine
+  private Vermessungsfirma, analog zu `geoglatt.ch` (K15) → NEU §5 [[kartenportale-historisches-terrain-vermessungsbuero]],
+  emerging. **K33 — Teil-Delta:** der Login-/Account-Ordner von `geodienste.ch` enthaelt kein neues
+  Registrierungs-Sonderverfahren (offenes Selbstbedienungsformular, wie erwartet), praezisiert aber
+  erstmals die **Bestellmechanik** (dreisprachige Bestaetigungslink-E-Mail + individuelle kantonale
+  Zugriffsrechte-Pruefung je Bestellung, real belegt an Kt. BE/EGRID CH609835664683) und benennt den
+  Administrator **Geschaeftsstelle KGK-CGC** (Bern) erstmals → NEU-Abschnitt
+  [[kartenportale-geoportale-uebersicht]], emerging. Gespeicherte Zugangsdaten (eigenes JANS-Konto)
+  bewusst NICHT in die KB uebernommen (Datenschutz-/Sicherheitspraxis analog K31). Details siehe
+  `training/curriculum.md` K32/K33.
 - [x] **K27/K28/K31 (Run 31, 2026-07-13)** Drei genuine Neufunde nach vollstaendigem Abgleich der
   Ordnerstruktur PL-01 gegen das Curriculum (K1-K26 bereits erschlossen): **Bezirks-Ebene GIS-
   Portal `gis.bezirkeinsiedeln.ch`** (unterhalb des kantonalen `map.geo.sz.ch`; Druckprodukte
@@ -466,6 +482,24 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D22 (Run 38, 2026-07-14, E5/E9/E31)** Datenstand-Refresh dreier offener Punkte. **MuKEn-
+  2025-ZH-Umsetzung (E5/D1):** vertiefter Web-Check (zh.ch Bauvorschriften-Gebaeude-Energie,
+  zh.ch Langfristige Klimastrategie, hev-zh.ch/muken, energiehub-gebaeude.ch, aeesuisse.ch) —
+  **unveraendert**, weder Vernehmlassung noch Gesetzesentwurf noch Inkrafttretensdatum amtlich
+  auffindbar → [[energie-energienachweis-zh-formulare]] §Datenstand. **Graue-Energie-ZH-Grenzwert
+  (E9/D8):** ebenfalls unveraendert, gekoppelt an obige Ueberfuehrung; **wichtiger Nebenfund, NICHT
+  amtlich verifiziert:** mehrere WebSearch-Zusammenfassungen behaupten unabhaengig einen ZH-
+  Zielwert **«bis 2027»** fuer einen eigenen Grauenergie-Grenzwert («Pionierrolle», «normierte
+  Standards der Baubranche») — bei Gegenpruefung der fuenf Massnahmenblaetter GE01-GE05 der
+  kantonalen Klimastrategie (zh.ch) enthaelt **keines** diese Aussage woertlich; auch die
+  Bauvorschriften- und Klimastrategie-Uebersichtsseiten bestaetigen es nicht. Bewusst **nicht**
+  als KB-Fakt uebernommen (Rule `identifikatoren-verifizieren`/`wissens-bibliothekar`: Status-
+  Hebung nur gegen amtliche Quelle) — offener Rechercheauftrag: pruefen ob ein RRB/Kantonsrats-
+  geschaeft (kantonsrat.zh.ch) oder AWEL-Faktenblatt diesen Zielwert bestaetigt →
+  [[energie-uebersicht]] §Graue Energie. **Pronovo-Tarifstruktur KLEIV (E31):** WebSearch-
+  Gegenpruefung bestaetigt, die FOERDERSTRUKTUR (nicht die Tageswerte) hat sich seit 01.04.2025
+  nicht veraendert — keine neuen Bonus-Kategorien/Schwellen → Refresh-Vermerk in
+  [[energie-betriebsenergie-pv-wirtschaftlichkeit]] §Offene Punkte.
 - [x] **D21 (Run 34, 2026-07-13, E29)** Vier bisher unausgewertete Dateien im Ordner `U Wert
   berechnung/` gepruefte, drei mit echtem Delta: **EN-102-d** (Vollzugshilfe Dez. 2018) — Umbau/
   Umnutzung-Grenzwerte + Waermebruecken-Typen 1/2/3/5/6 + Kap. 8 Sommerlicher Waermeschutz (g-Wert/

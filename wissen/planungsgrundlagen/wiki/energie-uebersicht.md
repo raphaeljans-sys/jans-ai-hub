@@ -1,8 +1,8 @@
 ---
 title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
 status: established
-last_updated: 2026-07-13
-sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklaerte Primaerquelle)]
+last_updated: 2026-07-14
+sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklaerte Primaerquelle), zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie (Massnahmen GE01-GE05) + hev-zh.ch/muken + espazium.ch (Refresh 14.07.2026, Run 38)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
 ---
 
@@ -164,7 +164,18 @@ Energie-THG-Grenzwert nach Minergie-Reglement ab 01.01.2025, vollstaendig erneue
 **Eigenstrom 20 W/m² EBF** statt 10). **ZH-Ueberfuehrung Stand 04.07.2026 weiter ausstehend** — bis
 dahin gilt weiterhin MuKEn 2014 (Eigenstrom 10 W/m²). Details/Artikel-Nummern →
 `[[energie-energienachweis-zh-formulare]]` §Datenstand. ZH-PDF (EN-ZH Juli 2022, EN-110-ZH Sept 2022)
-tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden.
+tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden. **Refresh 2026-07-14 (Run 38):**
+amtliche ZH-Ueberfuehrung weiterhin nicht publiziert (Detail-Check → `[[energie-energienachweis-
+zh-formulare]]` §Datenstand). **Ungeklaerter Nebenfund, NICHT amtlich verifiziert:** mehrere
+WebSearch-Zusammenfassungen (nicht auf eine konkrete zh.ch-Seite oder ein PDF zurueckfuehrbar —
+Massnahmenblaetter GE01–GE05 der kantonalen Klimastrategie einzeln gegengeprueft, keines davon
+enthaelt die Aussage) behaupten unabhaengig voneinander, der Kanton ZH wolle bis **2027** einen
+eigenen Grenzwert fuer graue Treibhausgasemissionen festlegen («Pionierrolle», «normierte Standards
+der Baubranche», periodische Verschaerfung). Gemaess Rule `identifikatoren-verifizieren`/
+`wissens-bibliothekar` (Status-Hebung nur nach Verifikation gegen amtliche Quelle) wird dieser
+Punkt **nicht** als belegter KB-Stand uebernommen, sondern nur als Rechercheauftrag fuer einen
+kuenftigen Lauf vermerkt: pruefen, ob eine RRB-Vorlage/ein Kantonsratsgeschaeft auf
+kantonsrat.zh.ch oder ein AWEL-Faktenblatt diesen «2027»-Zielwert amtlich bestaetigt.
 
 ## Offen (→ QUESTIONS)
 - ✓ **D4 erledigt** (2026-06-12): Fachformular-Liste belegt → `[[energie-energienachweis-zh-formulare]]`.
@@ -174,6 +185,9 @@ tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden.
 - ~ **D8/D1 teil** (2026-07-04): graue-Energie-Planungsgrundlage + MuKEn-2025-Neuerungen belegt
   (SIA 2040 + JANS-Benchmark; MuKEn 2025 = THG-Grenzwert nach Minergie-Reglement, Eigenstrom
   20 W/m²); konkreter **ZH-Grenzwert** nachziehen, sobald kant. Gesetz/Verordnung publiziert.
+  **Refresh 2026-07-14 (Run 38):** weiterhin kein amtlich publizierter ZH-Grenzwert (gekoppelt an
+  die ebenfalls unveraendert ausstehende ZH-Ueberfuehrung der MuKEn 2025, siehe §Datenstand oben);
+  unverifizierter «2027»-Nebenfund dort dokumentiert, nicht als KB-Stand uebernommen.
 - ✓ **D6 erledigt** (2026-07-04): EVEN-Bedienung (Rollen/Ablauf/Statusmodell/Beilagen/Private
   Kontrolle) aus EnDK-Schulung V1.4 → `[[energie-even-plattform-bedienung]]`; offen nur noch
   realer JANS-Screenshot-Walkthrough am KISPI-Fall.

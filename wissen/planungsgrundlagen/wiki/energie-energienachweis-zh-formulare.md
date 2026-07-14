@@ -1,8 +1,8 @@
 ---
 title: Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 status: established
-last_updated: 2026-07-13
-sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebaeude.ch (MuKEn 2025, abgerufen 18.06.2026 + Refresh 13.07.2026), hev-zh.ch/energie-zentralschweiz.ch (Refresh 13.07.2026), EnerG/BBV I/WDV ZH]
+last_updated: 2026-07-14
+sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebaeude.ch (MuKEn 2025, abgerufen 18.06.2026 + Refresh 13.07.2026), hev-zh.ch/energie-zentralschweiz.ch (Refresh 13.07.2026), EnerG/BBV I/WDV ZH, zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie + hev-zh.ch/politik/energie-umwelt/muken + aeesuisse.ch (Refresh 14.07.2026, Run 38)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[energie-private-kontrolle-zh]]
 ---
 
@@ -221,7 +221,16 @@ erfasst — offener Punkt fuer einen kuenftigen Recht/Norm-Lauf.
   (Run 34):** WebSearch erneut unveraendert bestaetigt — keine ZH-spezifische Umsetzungsfrist
   auffindbar (Suchtreffer HEV ZH/energiehub-gebaeude.ch bestaetigen nur den generellen EnDK-
   Zeithorizont bis 2030); kein neuer ZH-Termin. Naechster Check weiterhin nur bei konkretem
-  Hinweis, nicht jeden Lauf wiederholen.
+  Hinweis, nicht jeden Lauf wiederholen. **Refresh 2026-07-14 (Run 38):** vertiefter Web-Check
+  (zh.ch/planen-bauen/bauvorschriften-gebaeude-energie, zh.ch/umwelt-tiere/klima/langfristige-
+  klimastrategie, hev-zh.ch/politik/energie-umwelt/muken, energiehub-gebaeude.ch/muken-2025,
+  aeesuisse.ch) bestaetigt **unveraendert**: weder Vernehmlassung noch Gesetzesentwurf noch
+  Inkrafttretensdatum fuer die ZH-Ueberfuehrung der MuKEn 2025 amtlich auffindbar; die zh.ch-Seite
+  «Bauvorschriften Energie» nennt weiterhin nur die Revision vom 01.09.2022 als letzten Stand, die
+  Klimastrategie-Seite nur die generellen Zwischenziele 2030/2040, keine Gebaeude-Energierecht-
+  Etappe. EnDK-Zeithorizont bleibt generisch «bis 2030». Status bleibt `weiterhin ausstehend`;
+  naechster Check nur bei konkretem Hinweis (z.B. RRB-Antrag auf kantonsrat.zh.ch), nicht
+  routinemaessig.
 - ✓ **D5 teil-erledigt** (2026-06-18/2026-07-10): Ertrags-/Kosten-Benchmark-Tabelle je Typ →
   `[[energie-pv-eignung-typenwahl]]` §3 (Typ A/B/C/D/E + Flachdach belegt). **Offen bleibt:**
   installierter System-CHF/kWp aus einer **realen JANS-Schlussabrechnung** — Archivsuche

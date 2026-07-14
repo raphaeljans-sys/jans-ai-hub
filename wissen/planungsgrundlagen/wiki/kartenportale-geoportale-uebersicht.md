@@ -1,8 +1,8 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-07-13
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31)]
+last_updated: 2026-07-14
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht uebernommen], LINK_Geodienste.docx Bestellbestaetigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[recht-norm-dispensrecht]]
 ---
 
@@ -144,6 +144,31 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   fuer Kt. LU ist der **kantonseigene Geodatenshop der zuverlaessigere Weg**, nicht `geodienste.ch`.
   Stadt Luzern zusaetzlich mit eigenem Gemeinde-GIS (Baugesuchsverwaltung, Nutzungsplan, Leitungen,
   Grundbuchplan) analog zu `geoglatt.ch` (siehe unten).
+
+### `geodienste.ch` — Registrierung und Bestellmechanik (K33, Run 38, 2026-07-14)
+
+Ergaenzung zur Tabellenzeile oben ("tlw. Account"): die Registrierung erfolgt ueber ein **offenes
+Selbstbedienungsformular** ("Geodienste Registrierung", Screenshot 18.12.2023) mit den Feldern
+E-Mail/Name/Vorname/Organisation (optional)/Adresse/PLZ+Ort/Land/Telefon/Passwort — keine
+sichtbare Vorabpruefung oder Freigabe durch eine Amtsstelle, vergleichbar mit einer gewoehnlichen
+Web-Kontoregistrierung (JANS-eigenes Konto seit mind. 18.12.2023 vorhanden; Zugangsdaten aus
+Datenschutz-/Sicherheitsgruenden nicht in die KB uebernommen, analog K31-Praxis).
+
+Der Bestellablauf laeuft ueber eine **Bestaetigungslink-E-Mail** (dreisprachig DE/FR/IT): nach
+einer Bestellung (realer Beleg: Thema Amtliche Vermessung, Kanton BE, EGRID CH609835664683,
+Format DXF (GEOBAU), Bezugsrahmen LV95) verschickt `noreply@geodienste.kgk-cgc.ch` einen
+Bestaetigungslink (`https://www.geodienste.ch/downloads/av/...`); erst der Klick darauf loest die
+automatische Aufbereitung aus — **und nur, wenn der Bestellende die entsprechenden kantonalen
+Zugriffsrechte besitzt** ("Wenn Sie die entsprechenden Zugriffsrechte der Kantone besitzen, werden
+die Geodaten automatisch aufbereitet"). Das erklaert das oben dokumentierte Kt.-LU-
+Ablehnungsmuster: die Rechte-Pruefung erfolgt **individuell je Kanton/Bestellung**, nicht als
+generelle Konto-Freischaltung.
+
+Administriert wird `geodienste.ch` von der **Geschaeftsstelle KGK-CGC** (Konferenz der kantonalen
+Geomatik- und Katasterstellen, Haus der Kantone, Speichergasse 6, Postfach, CH-3001 Bern,
+geodienste@kgk-cgc.ch) — bisher in der KB nicht benannt. Kein Delta zum bereits dokumentierten
+Format-Split (INTERLIS ganzer Kanton direkt / DXF-GEOBAU nur Formular), praezisiert aber den
+technischen Mechanismus dahinter.
 - **Kt. Bern — be-geo.ch / be_map.apps.be.ch**: kantonales Geoportal, punktuell fuer ein
   Einzelprojekt (Schloss Muenchenwiler) genutzt, keine JANS-Standardnutzung dokumentiert.
 - **`geoglatt.ch`** — regionales Gemeinde-GIS fuer mehrere ZH-Gemeinden (Beleg: Maur, Zonenplan.pdf),

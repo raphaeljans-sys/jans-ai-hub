@@ -2,6 +2,22 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 38 (Kartenportale + Energie, Token-Vollgas, Fan-out): zwei neue Kartenportale-Funde + Energie-Datenstand-Refresh
+- **Kartenportale (K32/K33):** achtgradost.ch betreibt neben der historischen-Terrain-
+  Rekonstruktion (K14) zusaetzlich ein oeffentliches, login-freies Gemeinde-WebGIS (White-Label,
+  analog geoglatt.ch/K15) — Fallbeleg Regensdorf (Zonenplan/OEREB/Baulinien/AV/Orthofoto) → NEU
+  §5 [[kartenportale-historisches-terrain-vermessungsbuero]]. geodienste.ch-Bestellmechanik
+  praezisiert (dreisprachige Bestaetigungslink-Mail + kantonale Zugriffsrechte-Pruefung je
+  Bestellung, real Kt. BE EGRID CH609835664683) — erklaert das dokumentierte Kt.-LU-Ablehnungs-
+  muster → [[kartenportale-geoportale-uebersicht]].
+- **Energie (E5/E9/E31):** MuKEn-2025-ZH-Umsetzung + THGE-Grauenergie-Grenzwert unveraendert
+  bestaetigt (kein Vernehmlassungs-/Inkrafttretensdatum amtlich auffindbar); eine unbelegte
+  Sekundaerquellen-Behauptung ("ZH-Zielwert bis 2027") bewusst NICHT uebernommen (Rule
+  `identifikatoren-verifizieren` — nur amtlich verifizierte Aenderungen fuehren zur Uebernahme) →
+  [[energie-energienachweis-zh-formulare]] / [[energie-uebersicht]]. Pronovo-KLEIV-Tarifstruktur
+  seit 01.04.2025 unveraendert bestaetigt → [[energie-betriebsenergie-pv-wirtschaftlichkeit]].
+- Details: `outputs/2026-07-14_training-run38.md`.
+
 ## 2026-07-14 — Training Run 37 (Brandschutz-Rueckstand + Recht/Norm, Token-Vollgas, Fan-out): Doppelspur-Fix + vier PL-03-Nachzuegler + drei neue PL-02-Funde
 - **Brandschutz — Rueckstand vollstaendig geschlossen:** Doppelspur-Flag (aeltester offener Punkt,
   Wissens-Chef Run 3) geloest — §5o-§5y in [[brandschutz-pl03-wegweiser]] Ziffer-fuer-Ziffer gegen

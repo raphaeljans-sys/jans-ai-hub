@@ -1,5 +1,14 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-14 — Trainingslauf 15
+- Output `outputs/2026-07-14_training-run15.md`. Redundante Zweit-Ausloesung desselben Tages
+  (05:09, nur ~4 Std. nach Lauf 14 um 01:10) — laut Skill-Beschreibung seit 13.07. auf 1x/Tag
+  04:10 gedrosselt. **Nichts Neues seit Lauf 14:** `logbuch/fristen.md` unveraendert, keine neue
+  reale Spec, keine relevanten Commits. Bewusst minimal gehalten (kein wiederholter Sweep, keine
+  erfundene F1/F3-Fuellung) — Prozess-Beobachtung notiert: Scheduling-Drosselung `spec-training`
+  scheint noch nicht konsequent zu greifen (Cron-/Task-Konfigurationsfrage, ausserhalb KB-Mandat).
+  Keine Aenderung an Wiki/Rule/Skill.
+
 ## 2026-07-14 — Trainingslauf 14
 - Output `outputs/2026-07-14_training-run14.md`. **Keine neue reale Spec** seit Lauf 7 (Wettbewerbs-
   Layer 12.07.) — Verifikationslauf.
