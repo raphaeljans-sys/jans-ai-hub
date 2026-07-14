@@ -1,3 +1,29 @@
+## 2026-07-14 — normen-training-nacht Run 9 (MacBook Pro): SIA 102:2020 vollstaendig verifiziert + Art. 5 nachgetragen (Empfehlung aus Run 8 umgesetzt)
+- 3 parallele Q&A-Selbstbefragungs-Agenten pruefen SIA 102:2020 unabhaengig am Original-PDF
+  (S. 6-41) gegen das Destillat: Art. 1-3 (24 Fragen, 22 bestanden), Art. 4 Leistungsbeschrieb
+  (25 Fragen, 11 bestanden + 13 Luecken), Art. 5-6 Verguetung/Honorarberechnung (22 Fragen,
+  14 bestanden + 8 Luecken). Insgesamt 71 Pruefungsfragen, **0 sachliche Fehler** in den
+  bestehenden Aussagen — alle Beanstandungen waren fehlende Ziffern, keine falschen.
+- **Groesster Befund:** Art. 5 "Grundsaetze der Verguetung" fehlte im Destillat fast komplett
+  (nur indirekt ueber Querverweise erwaehnt). Jetzt vollstaendig ergaenzt, inkl. der praktisch
+  wichtigsten Fundstelle **Art. 5.8** (Auffangregel: fehlt eine Honorarvereinbarung, gilt
+  zwingend Honorierung nach effektivem Zeitaufwand, nicht Pauschale) und Art. 5.3 (die drei
+  Honorierungsarten Zeitaufwand/Pauschale/Globale-mit-Teuerung).
+- Ebenfalls vollstaendig nachgetragen: Art. 4.3 Projektierung (4.31-4.33, inkl. normativer
+  Genauigkeitsgrade Kostenschaetzung **± 15 %** Vorprojekt / Kostenvoranschlag **± 10 %**
+  Bauprojekt — relevant fuer `kostenschaetzung`/`kostenkontrolle`), Art. 4.4 Ausschreibung
+  (4.41 vollstaendig inkl. Abgrenzung Ausfuehrungsplaene), Art. 4.53 Inbetriebnahme/Abschluss
+  (war komplett unerfasst: Garantiearbeiten-Leitung mit 2-jaehriger Ruegefrist,
+  Schlussabrechnung), Art. 4.6 Bewirtschaftung (Detailinhalt 4.61-4.63) sowie Teilphasen-
+  abschluesse als Uebersichtstabelle und die Zurueckbehaltungsverbot-Klausel Ziff. 1.4.1 Abs.2.
+- Kernbefund "keine Baukosten-%-Honorarberechnung in SIA 102:2020 (Art. 7 existiert nicht)"
+  wurde explizit gegengeprueft und **bestaetigt**.
+- Nachgefuehrt: `destillate/sia-102-2020.md` (status established, verifiziert 260714),
+  `training/norm-inventar.md`, `destillate/INDEX.md`.
+- Lauf-Report: `outputs/2026-07-14_normen-nacht-run9.md`. Damit ist die von Run 8 als
+  hoechste Prioritaet empfohlene Vervollstaendigung von SIA 102:2020 (P1-Kernnorm fuer
+  `honorarberechnung-sia102`) abgeschlossen.
+
 ## 2026-07-14 — normen-training-mini Run 21 (Mac Mini): Q&A-Selbstbefragung 4 weitere Normen + Synthese-Sammelstelle Uebertragbarkeit
 - Vertiefungsstufe (c): 4 parallele Sub-Agenten fuehren je 18-20 unabhaengig am
   Original-PDF beantwortete Pruefungsfragen gegen die bestehenden Destillate durch.

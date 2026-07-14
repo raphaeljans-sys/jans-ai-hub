@@ -9,7 +9,7 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [x] 260713 | P1 | `102.2020.pdf` | 102 | 2020 | gilt (jüngste im Bestand); Reconcile 260713: sia-102-2020.md |
+| [x] 260714 | P1 | `102.2020.pdf` | 102 | 2020 | gilt (jüngste im Bestand); established, verifiziert 260714 (71 Aussagen in 3 Sektionen, Art.5 komplett + Art.4.3/4.4/4.53/4.6 ergaenzt, keine Fehler); sia-102-2020.md |
 | [x] 260713 | P1 | `102_2014.pdf` | 102 | 2014 | — ersetzt durch 2020; Reconcile 260713: sia-102-2014.md |
 | [x] 260712 | P1 | `103_2003_d.pdf` | 103 | 2003 |  |
 | [x] 260712 | P1 | `105.2020.pdf` | 105 | 2020 |  |

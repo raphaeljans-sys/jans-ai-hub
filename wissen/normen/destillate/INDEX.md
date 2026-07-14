@@ -12,7 +12,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 |---|---|---|---|
 | `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | destilliert |
 | `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | destilliert |
-| `sia-102-2020.md` | SIA 102 Leistungen + Honorare Architekten | 2020 | Teil-Destillat (4.41 verifiziert; Rest Nacht-Loop) |
+| `sia-102-2020.md` | SIA 102 Leistungen + Honorare Architekten | 2020 | established, vollständig verifiziert 260714 (71 Aussagen, 0 Fehler, Art. 5 + Teilphasen 4.3/4.4/4.53/4.6 ergänzt) |
 | `sia-103-2003.md` | SIA 103 Leistungen + Honorare Bauingenieure | 2003 | established (verifiziert 260712) |
 | `sia-105-2020.md` | SIA 105 Leistungen + Honorare Landschaftsarchitekten | 2020 | established (verifiziert 260712) |
 | `sia-111-2014.md` | SIA 111 Modell Planung und Beratung | 2014 | established (verifiziert 260712) |
