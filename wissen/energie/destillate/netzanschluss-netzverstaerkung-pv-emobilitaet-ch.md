@@ -1,10 +1,10 @@
 ---
-quelle: StromVG (SR 734.7) Art. 5/15b/17b/17c + StromVV (SR 734.71) Art. 13e/13f/16/19a-19d + ElCom-Weisung 8/2025 "Netzverstärkungen" (1.7.2025) + VSE-Branchenempfehlung NRE-CH 2025 (18.9.2025) + EKZ-/ewz-/EWS-Netzanschlussbedingungen
-herausgeber: Bund (Fedlex) / ElCom / VSE-AES / EKZ / ewz / Elektrizitätswerk Schwyz AG
-ausgabe: StromVG Stand 1.4.2026, StromVV Stand 1.1.2026, ElCom-Weisung 8/2025, NRE-CH 2025, EKZ-Netzanschlussbedingungen Stand 2023, ewz Spezielle Anschlussbestimmungen Stand 01.01.2025, EWS-Netzanschlussrichtlinien gültig ab 1.6.2024
-gelesen: 2026-07-14 (Web via WebSearch/WebFetch, Gesetzestexte auf Fedlex vollständig gelesen)
-datenstand: Art. 15b StromVG in Kraft seit 1.1.2025; Art. 17c StromVG (Flexibilitätsnutzung) in Kraft seit 1.1.2026; VSE-70%-Einspeiseregel gilt ab 1.1.2026
-status: emerging
+quelle: StromVG (SR 734.7) Art. 5/15b/17b/17c + StromVV (SR 734.71) Art. 13e/13f/16/19a-19d + ElCom-Weisung 8/2025 "Netzverstärkungen" (1.7.2025) + VSE-Branchenempfehlung NRE-CH 2025 (18.9.2025) + EKZ-/ewz-Netzanschlussbedingungen + EWS-Netzanschlussrichtlinien inkl. Anhang 8 + EW-Höfe-Preisblatt Anschlussbeitrag
+herausgeber: Bund (Fedlex) / ElCom / VSE-AES / EKZ / ewz / EWS AG Ibach / EW Höfe AG
+ausgabe: StromVG Stand 1.4.2026, StromVV Stand 1.1.2026, ElCom-Weisung 8/2025, NRE-CH 2025, EKZ-Netzanschlussbedingungen Stand 2023, ewz Spezielle Anschlussbestimmungen Stand 01.01.2025, EWS-Netzanschlussrichtlinien gültig ab 1.6.2024 (Anhang 8), EW-Höfe-Preisblatt Anschlussbeitrag gültig ab 1.1.2017
+gelesen: 2026-07-14 (Web via WebSearch/WebFetch; Gesetzestexte auf Fedlex, EWS-Netzanschlussrichtlinien inkl. Anhang 8 und EW-Höfe-Preisblatt vollständig gelesen)
+datenstand: Art. 15b StromVG in Kraft seit 1.1.2025; Art. 17c StromVG (Flexibilitätsnutzung) in Kraft seit 1.1.2026; VSE-70%-Einspeiseregel gilt ab 1.1.2026; SZ-Anschlussbeiträge EWS 1.6.2024 / EW Höfe 1.1.2017
+status: established
 last_updated: 2026-07-14
 ---
 
@@ -15,7 +15,8 @@ für erzeugungsbedingte Netzverstärkungen (Art. 15b StromVG): die Bauherrschaft
 trägt die Verstärkung der Anschlussleitung ab Parzellengrenze grundsätzlich selbst, erhält bei
 einer Anschlussleistung über 50 kW aber eine Teilvergütung von max. CHF 50/kW von Swissgrid,
 während für verbrauchsbedingte Lastspitzen aus Elektromobilität keine vergleichbare
-Vergütungsmechanik besteht — dort gilt nur der allgemeine Netzkostenbeitrag pro kVA.
+Vergütungsmechanik besteht — dort gilt nur der allgemeine Netzkostenbeitrag (ZH/EKZ CHF 210/kVA;
+SZ: EWS CHF 140 je Ampere bis 315 A, EW Höfe CHF 160 je Ampere).
 
 ## Rechtliche Grundstruktur
 
@@ -77,14 +78,61 @@ CHF 36'330; 400 A/276 kVA CHF 57'960. Bei Leistungserhöhung (mehr Ladestationen
 PV-Anlage) wird der Beitrag auf die Differenz zur alten Leistung erhoben — geschuldet unabhängig
 davon, ob dafür tatsächlich Netz ausgebaut werden muss.
 
-## Praxis SZ — Elektrizitätswerk Schwyz AG (EWS, Bezirk Schwyz)
+## Kanton Schwyz — CHF-Ansätze der Verteilnetzbetreiber (Recherche 14.07.2026)
 
-Netzanschlusskosten für Erschliessungsleitungen von der Grenzstelle bis zum Einspeisepunkt gehen
-zulasten des Produzenten (Ziff. 15.2.1). EWS behält sich vor, Netzverstärkungskosten dem
-Anschlussnehmer zu belasten, falls die EEA nicht innert eines Jahres realisiert wird. Folgt
-strukturell derselben VSE-Branchenvorlage wie EKZ; konkrete CHF-Ansätze liegen in einem separat zu
-beschaffenden Anhang (nicht textextrahierbar). Für Gemeinden ausserhalb des EWS-Netzgebiets ist
-das jeweils zuständige lokale Werk separat zu prüfen.
+### EWS AG, Ibach (Netzgebiet Innerschwyz)
+
+Quelle: EWS "Netzanschlussrichtlinien", gültig ab 01.06.2024, Anhang 8 "Ansätze für den
+Anschlussbeitrag" (alle Beträge exkl. MWST 8.1 %).
+
+- **Netzkostenbeitrag (NKB) Niederspannung:** CHF **140.00 je Ampere** bezugsberechtigter Leistung
+  bis 315 A (218 kVA); für jedes weitere Ampere über 315 A CHF **85.00/A**.
+- **Netzkostenbeitrag Mittelspannung:** CHF **70.00/A** (Berechnungsbasis 400 V).
+- **Netzanschlussbeitrag (NAB) Niederspannung**, bis 25 m Kabellänge innerhalb der Parzelle
+  (Hausanschlusskasten bzw. direkt in Hauptverteilung), plus Mehrlängenbetrag bis 150 m:
+  16 A CHF 1'860 (14.00/m) · 80 A CHF 3'065 (25.00/m) · 125 A CHF 3'665 (38.00/m) ·
+  200 A CHF 4'295 (63.00/m) · 250 A CHF 6'340 (96.00/m) · 315 A CHF 7'695 (162.00/m) ·
+  500 A CHF 9'870 (180.00/m) · 630 A CHF 13'050 (317.00/m) · 1'000 A CHF 17'210 (464.00/m).
+- **NAB Mittelspannung bis 630 A:** Lasttrennschalter CHF 5'385; mit eigenen
+  Mittelspannungsleitungen (Leistungsschalter + Schutzeinrichtungen) CHF 16'155.
+- **Apparatemontage:** Demontage Netzanschluss 160 A pauschal CHF 790; Ersatz-Hausanschlusskasten
+  160 A pauschal CHF 595.
+- Der NKB wird bei **Neuanschluss und bei jeder Leistungserhöhung** (Differenz alte/neue
+  bezugsberechtigte Leistung) erhoben — unabhängig davon, ob effektiv Netz ausgebaut wird
+  (Ziff. 13.2). Erschliessungsleitungen von der Grenzstelle bis zum Einspeisepunkt einer
+  Erzeugungsanlage gehen zulasten des Produzenten (Ziff. 15.2.1); EWS behält sich vor,
+  Netzverstärkungskosten dem Anschlussnehmer zu belasten, falls die EEA nicht innert eines Jahres
+  realisiert wird (Ziff. 15.2.3).
+
+Eigene Beispielrechnungen NKB (exkl. MWST): 40 A CHF 5'600 · 100 A CHF 14'000 · 160 A CHF 22'400 ·
+250 A CHF 35'000 · 400 A CHF 51'325 (315 × 140 + 85 × 85).
+
+### EW Höfe AG, Freienbach (Netzgebiet Bezirk Höfe)
+
+Quelle: EWH "Preisblatt Anschlussbeitrag Elektrizität", gültig ab 01.01.2017, abgerufen 14.07.2026
+(aktuell publizierte Fassung; exkl. MWST).
+
+- **Netzkostenbeitrag Niederspannung (400 V)**, nach Hausanschlusssicherung: 40 A (28 kVA)
+  CHF 6'400 · 63 A CHF 10'080 · 80 A CHF 12'800 · 100 A (69 kVA) CHF 16'000 · 125 A CHF 20'000 ·
+  160 A (111 kVA) CHF 25'600 · 200 A CHF 32'000 · 250 A (173 kVA) CHF 40'000 · 315 A CHF 50'400 ·
+  400 A (277 kVA) CHF 64'000 · 2 × 400 A CHF 128'000; darüber CHF 160.–/A.
+- **Netzkostenbeitrag Mittelspannung (16 kV):** Trafo 630 kVA CHF 63'000 · 1'000 kVA CHF 100'000 ·
+  1'600 kVA CHF 160'000; andere CHF 100.–/kVA.
+- **Netzanschlussbeitrag:** keine Pauschalen — sämtliche erforderlichen Aufwendungen **inkl.
+  allfälliger Netzverstärkungen** für die Erstellung des Netzanschlusses trägt der Kunde.
+- Bei Umbauten/Erweiterungen werden bereits bezahlte Netzkostenbeiträge angerechnet (bei Abbruch
+  nur während 5 Jahren nach Zählerdemontage).
+
+### Einordnung SZ
+
+Die SZ-Ansätze liegen in derselben Grössenordnung wie EKZ (ZH): EWS CHF 140/A entspricht rund
+CHF 200/kVA, EWH CHF 160/A rund CHF 230/kVA, EKZ CHF 210/kVA. Für ein EFH mit 40 A ergibt das
+CHF 5'600 (EWS) / CHF 6'400 (EWH) / CHF 5'880 (EKZ). Der Netzkostenbeitrag knüpft in beiden
+SZ-Netzen an die **bezugsberechtigte Leistung** an — eine reine PV-Einspeisung erhöht diese nicht
+und löst damit keinen NKB aus; **Ladeinfrastruktur** dagegen führt regelmässig zur
+Leistungserhöhung und damit zum NKB auf die Differenz. Für Gemeinden ausserhalb der Netzgebiete
+von EWS und EW Höfe (u.a. Einsiedeln, Küssnacht, March) ist das jeweils zuständige Werk separat zu
+prüfen — EKZ publiziert eigene Tarife für Einsiedeln (Zuständigkeit nicht abschliessend verifiziert).
 
 ## Dynamisches Lastmanagement / Flexibilität als Hebel (seit 1.1.2026)
 
@@ -119,7 +167,13 @@ Grenzfällen den Ausschlag geben, ob eine Netzverstärkung überhaupt nötig wir
 Bei mehreren Ladestationen: relevante harte Grenze ist zunächst die vorhandene
 Hausanschlussleistung (Ampere/kVA) gemäss Netzanschlussvertrag, nicht eine PV-spezifische
 Vergütungsschwelle. Dynamisches Lastmanagement ist der naheliegende erste Hebel, um eine
-(kostenpflichtige) Leistungserhöhung bzw. spätere Netzverstärkung zu vermeiden.
+(kostenpflichtige) Leistungserhöhung bzw. spätere Netzverstärkung zu vermeiden. Der finanzielle
+Hebel ist bezifferbar: eine Erhöhung von 100 A auf 160 A kostet allein an Netzkostenbeitrag
+CHF 8'400 (EWS: 60 A × 140) bzw. CHF 9'600 (EW Höfe) — zuzüglich Netzanschlussbeitrag und
+Installation, und unabhängig davon, ob effektiv Netz ausgebaut wird.
+
+Im Kanton Schwyz sind die Ansätze publiziert (EWS CHF 140/A bis 315 A; EW Höfe CHF 160/A) und
+lassen sich damit bereits im Kostenvoranschlag der Vorprojektphase korrekt einstellen.
 
 Generell: Netzsituation so früh wie möglich beim VNB abklären — rund 20 % aller PV-Anschlussgesuche
 lösen eine Verstärkung aus, mit stark streuenden Kosten (von wenigen Tausend Franken bis
@@ -130,9 +184,15 @@ sechsstellig bei nötigem Trafo-/Kabelausbau).
 - Kein universeller kWp-Schwellenwert für "ab wann Netzverstärkung nötig" (einzelfallabhängig).
 - Kein belegter CHF-Richtwert speziell für E-Mobilität-verursachte Netzverstärkungen; nur der
   allgemeine Netzkostenbeitrag pro kVA vorhanden.
-- EWS-Schwyz-CHF-Ansätze (Anhang 3/8) nicht als Zahlenwerte extrahierbar — für eine belastbare
-  SZ-Zahl separat bei EWS zu beschaffen.
-- SZ-Elektrizitätswerke ausserhalb EWS-Netzgebiet nicht flächendeckend recherchiert.
+- ✅ GESCHLOSSEN 14.07.2026: EWS-Anhang 8 (Netzkosten-/Netzanschlussbeitrag) und EW-Höfe-Preisblatt
+  sind jetzt mit CHF-Ansätzen erfasst.
+- SZ-Elektrizitätswerke ausserhalb der Netzgebiete EWS/EW Höfe (Einsiedeln, Küssnacht, March) noch
+  nicht recherchiert.
+- EW-Höfe-Preisblatt trägt "gültig ab 01.01.2017" — ob es 2026 noch aktuell ist, wurde nicht beim
+  Werk bestätigt (es ist die aktuell publizierte Fassung); vor Verwendung in einer Offerte
+  kurz gegenprüfen.
+- EWS publiziert keine eigene Zahl für die Kostenbeteiligung an einer effektiven Netzverstärkung
+  (nur den generellen Vorbehalt) — die Streuung bleibt hier auch in SZ ungedeckt.
 - Nicht geklärt, ob ein VNB die "garantierte Nutzung netzdienlicher Flexibilität" bereits aktiv
   auf E-Mobilität-Lasten (statt nur PV-Einspeisung) anwendet — NRE-CH 2025 bezieht sich
   ausdrücklich nur auf Photovoltaik.

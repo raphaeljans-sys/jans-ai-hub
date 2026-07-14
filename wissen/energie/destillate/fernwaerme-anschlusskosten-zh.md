@@ -183,7 +183,13 @@ Förderbeitrag CHF 4'000 + 200/kW einzurechnen.
 - watson.ch-Meldung zu Fernwärmetarif 2027 (Fixkosten +3.58 %, Arbeitspreis-Halbierung) konnte
   nicht direkt verifiziert werden — nicht zitierfähig.
 - Energie 360° und EKZ Wärme nennen öffentlich keine konkreten CHF-Beträge (nur Struktur).
-- Für Kt. Schwyz keine belastbaren CHF-Zahlen auffindbar — Recherchelücke bleibt offen.
+- Kt. Schwyz: Agro Energie Schwyz vollständig belegt (14.07.2026). Weiterhin offen: Anschlussbeitrag
+  Energie Einsiedeln (nicht publiziert), gesamtes Tarifwerk Energie Ausserschwyz (nicht publiziert),
+  Vertragsdauern/Kündigungsfristen aller drei SZ-Verbünde (nicht publiziert), Wärmeverbünde in
+  Küssnacht/Arth-Goldau (nicht recherchiert).
+- Agro-Energie-Grund-/Arbeitspreis nur bis 30.09.2026 gültig — ab Oktober 2026 neu prüfen.
+- Energie-Einsiedeln-Preisblatt ist der Jahrgang 2025; ein Preisblatt 2026 war am 14.07.2026 nicht
+  auffindbar.
 - Herkunft/Methodik der bereits in der KB vorhandenen EnergieSchweiz-4'940-CHF-Zahl nicht bis auf
   Eingabeprofil zurückverfolgt.
 

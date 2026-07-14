@@ -2,6 +2,42 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 70: die SZ-Lücken aus Run 69 geschlossen (Fernwärme-Kosten + Netzanschluss SZ)
+- [update] `destillate/fernwaerme-anschlusskosten-zh.md`: neuer Abschnitt **«Kanton Schwyz»** mit drei
+  Betreibern. **Agro Energie Schwyz AG** (Talkessel Schwyz) vollständig belegt — Anschlussgebühr
+  AG = CHF 20'676 + 800 × kW (bis 20 kW) bzw. CHF 31'000 + 380 × kW (ab 20 kW), indexiert mit dem
+  Zürcher Wohnbaukostenindex (Faktor 1.067; publiziertes Beispiel 15 kW = CHF 34'866.55);
+  Erschliessungsvorteil-Abzüge − 6'200/− 4'200/− 0 plus Jubiläumsrabatt 2026 bis − 3'000; Zuleitung ab
+  Parzellengrenze 600–800 CHF/m (Grabarbeiten + Leitung), hausintern 400–500 CHF/TM; **Grundpreis
+  92.02 CHF/kW·Jahr** (ab 01.10.2025), **Arbeitspreis 14.20 Rp./kWh** (Indexmodell 15.79, freiwillig
+  reduziert). **Energie Einsiedeln AG:** Arbeitspreis 2025 **11.53 Rp./kWh**, Grundpreis vertraglich
+  individuell + LIK-indexiert (publ. Beispiel MFH 55 kW = CHF 10'713.77/Jahr), Anschlussbeitrag nicht
+  publiziert. **Energie Ausserschwyz AG:** keine Preise publiziert; nur der kantonale Förderbeitrag
+  CHF 4'000 + 200/kW. Quelle: Agro-Tarifblatt (publ. 04.09.2025, seitenweise gerendert gelesen),
+  Einsiedler Preisblatt Fernwärme 2025. Status bleibt **emerging**.
+- [fix] Kursierender Wert «EFH 10 kW ≈ CHF 18'000 Anschluss bei Agro Energie» an keiner Primärquelle
+  bestätigt und **widerlegt** durch die publizierte Formel (10 kW → CHF 30'598 indexiert) — nicht verwenden.
+- [update] `destillate/netzanschluss-netzverstaerkung-pv-emobilitaet-ch.md`: die in Run 69 als «nicht
+  extrahierbar» vermerkte **EWS-Anhang-8-Lücke ist geschlossen** — Netzkostenbeitrag NS **CHF 140/A**
+  bis 315 A (218 kVA), darüber **CHF 85/A**; MS CHF 70/A; Netzanschlussbeitrag NS bis 25 m Kabellänge
+  16 A CHF 1'860 … 1'000 A CHF 17'210, Mehrlänge 14–464 CHF/m; MS-NAB CHF 5'385 bzw. 16'155
+  (EWS-Netzanschlussrichtlinien gültig ab 01.06.2024, Anhang 8). Zusätzlich **EW Höfe AG** (Bezirk Höfe):
+  NKB-Tabelle 40 A CHF 6'400 … 400 A CHF 64'000, darüber CHF 160/A; MS 630 kVA CHF 63'000, andere
+  CHF 100/kVA; Netzanschlussbeitrag = effektive Aufwendungen **inkl. Netzverstärkung** zulasten Kunde.
+  Kernaussage für die Beratung: der NKB knüpft an die **bezugsberechtigte Leistung** an — PV löst ihn
+  nicht aus, **Ladeinfrastruktur mit Leistungserhöhung schon** (100 → 160 A = CHF 8'400 bzw. 9'600 nur
+  NKB). Status **emerging → established** (alle Kernzahlen aus Primärquellen: Fedlex, ElCom-Weisung,
+  VNB-Preisblätter).
+- [new] **FAQ F83** «Was kostet mich im Kanton Schwyz der Fernwärmeanschluss — und was der
+  Strom-Netzanschluss für PV und Ladestationen?» → `wiki/BAUHERREN-FAQ.md`; F80 entsprechend
+  nachgeführt (Verweis statt «SZ-Zahlen nicht auffindbar»).
+- [link] Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`.
+- **Offen:** Anschlussbeitrag Energie Einsiedeln + gesamtes Tarifwerk Energie Ausserschwyz (nicht
+  publiziert, Offerte nötig); Vertragsdauern/Kündigungsfristen der SZ-Verbünde; Wärmeverbünde
+  Küssnacht/Arth-Goldau; Verteilnetzbetreiber ausserhalb EWS/EW Höfe (Einsiedeln, Küssnacht, March);
+  EW-Höfe-Preisblatt datiert «gültig ab 01.01.2017» (aktuell publizierte Fassung, Aktualität nicht beim
+  Werk bestätigt).
+
 ## 2026-07-14 — GEAK-Pflicht-Landkarte ZH/SZ + Foerder-Korrektur (Auftrag Raphael)
 - [update] `destillate/geak-gebaeudeenergieausweis-kantone.md`: neue Sektion **«Pflicht oder nicht? — ZH und SZ praezise getrennt»** (Tabelle Handaenderung / Baubewilligung / Heizungsersatz / Foerderung / Grossverbraucher). Kernfund: **kein GEAK-Obligatorium in ZH und SZ**; ABER im **Kt. SZ ist das Erreichen der GEAK-Klasse D (Gesamtenergieeffizienz) einer von drei Nachweiswegen** beim Neueinbau/1:1-Ersatz eines fossilen Waermeerzeugers in Wohnbauten (Alternativen: MuKEn-Standardloesung, Minergie-Zertifikat) — Quelle AfU SZ, «FAQ Foerderprogramm und Energie-Gesetz», Stand 28.08.2025 (Volltext via curl+pdftotext) + sz.ch «Energielabel/GEAK». Im **Kt. ZH gibt es diesen Weg nicht** (§ 11 EnerG: erneuerbares System, Ausnahme nur via Lebenszykluskosten-Nachweis EN-LCC-ZH/EN-120; zh.ch erwaehnt den GEAK nicht).
 - [fix] **Sachfehler korrigiert (drei Dateien):** die Foerderbeitraege wurden bisher als «CHF 1'000 (GEAK) / 1'500 (GEAK Plus)» ausgewiesen. Richtig: **gefoerdert wird NUR der GEAK Plus**, gestaffelt nach **Gebaeudetyp** — CHF 1'000 (EFH/ZFH) bzw. CHF 1'500 (uebrige Gebaeudekategorien); der Basis-GEAK wird in ZH und SZ **nicht** gefoerdert (geak.ch/foerderung, Stand 01/2026; sz.ch woertlich: der GEAK selbst «wird nicht finanziell unterstuetzt»; Foerderprogramm ZH 2026 / SZ 2026 Kap. 18). Korrigiert in `destillate/geak-gebaeudeenergieausweis-kantone.md`, `destillate/geak-kosten-efh-mfh.md`, `wiki/geak-gebaeudeenergieausweis.md`, FAQ **F36**.

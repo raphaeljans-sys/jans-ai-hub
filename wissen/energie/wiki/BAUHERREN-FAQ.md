@@ -2711,8 +2711,8 @@ dazu den verbrauchsabhängigen Arbeitspreis (ca. 8–10 Rp./kWh). Schweizweit er
 Preisüberwacher für ein EFH im Schnitt CHF 14'393 Anschlusskosten und CHF 3'052–3'467/Jahr
 Betriebskosten — die Bandbreite zwischen Anbietern ist gross (CHF 3'000 bis über CHF 36'000
 Anschlusskosten). Die konkrete Vertragsdauer steht meist nicht in den allgemeinen Bedingungen,
-sondern im individuellen Wärmelieferungsvertrag — vor Unterschrift explizit erfragen. Für Kt.
-Schwyz sind keine vergleichbaren öffentlichen Zahlen auffindbar.
+sondern im individuellen Wärmelieferungsvertrag — vor Unterschrift explizit erfragen. Für den Kt.
+Schwyz sind die Zahlen seit dem 14.07.2026 belegt, siehe F83.
 
 **Quelle:** ewz Tarifblatt Wärmeverbund KVA/Holz (Stand Juni 2026), ewz-AGB (Januar 2025),
 Preisüberwacher «Marktbeobachtung Fernwärmetarife Schweiz» (06.07.2023) →
@@ -3018,3 +3018,41 @@ Version 01.01.2026; Förderprogramm Energie Kt. SZ 2026, Kap. 18. Destillate:
 ⚠ **Datenstand 2026-07-14.** Der SZ-Klasse-D-Weg ist über die AfU-FAQ belegt, nicht über den
 Gesetzeswortlaut — vor einer verbindlichen Einzelfall-Aussage am kantonalen Energiegesetz/der Vollzugshilfe
 verifizieren.
+
+---
+
+## F83 — «Was kostet mich im Kanton Schwyz der Fernwärmeanschluss — und was der Strom-Netzanschluss für PV und Ladestationen?»
+
+**Kurz-Antwort:** Für den Fernwärmeanschluss gibt es im Kt. Schwyz keinen einheitlichen Tarif, sondern
+einen je Verbund. Im Talkessel Schwyz (Agro Energie Schwyz) kostet ein EFH mit 12 kW einmalig rund
+**CHF 32'300** Anschlussgebühr plus rund **CHF 3'900/Jahr** (Grundpreis 92.02 CHF/kW, Arbeitspreis
+14.20 Rp./kWh), ein MFH mit 55 kW rund CHF 55'400 einmalig und CHF 19'300/Jahr — je exkl. MWST und
+**ohne** die Grabarbeiten der Zuleitung ab Parzellengrenze (600–800 CHF/m). Abzüge gibt es, wenn der
+Hausanschluss oder das Netz schon vor der Tür liegt (bis CHF 6'700), 2026 zusätzlich ein befristeter
+Jubiläumsrabatt (bis CHF 3'000). Beim Strom-Netzanschluss zahlen Sie einen Netzkostenbeitrag nach
+bezugsberechtigter Leistung: **CHF 140 je Ampere** (EWS, Innerschwyz) bzw. **CHF 160 je Ampere**
+(EW Höfe) — ein EFH mit 40 A also CHF 5'600 bzw. CHF 6'400, plus Netzanschlussbeitrag. Wichtig: Eine
+**PV-Anlage** löst diesen Beitrag nicht aus (sie erhöht Ihren Bezug nicht), **Ladestationen** dagegen
+schon, sobald der Hausanschluss verstärkt werden muss.
+
+**Fachlich:** Der Netzkostenbeitrag ist ein einmaliger Beitrag an die Grob-/Feinerschliessung und wird
+bei Neuanschluss **und bei jeder Leistungserhöhung auf die Differenz** erhoben — unabhängig davon, ob
+effektiv Netz ausgebaut wird (EWS-Netzanschlussrichtlinien Ziff. 13.2). Die Erhöhung von 100 A auf 160 A
+für Ladeinfrastruktur kostet damit allein an Netzkostenbeitrag CHF 8'400 (EWS) bzw. CHF 9'600 (EW Höfe),
+zuzüglich Netzanschlussbeitrag (EWS: 125 A CHF 3'665, 200 A CHF 4'295, je bis 25 m Kabellänge in der
+Parzelle, Mehrlänge 38–63 CHF/m) und Installation. Deshalb ist ein dynamisches Lastmanagement der erste
+Hebel: es hält die bezugsberechtigte Leistung tief und vermeidet die Leistungserhöhung. Auf der
+Fernwärmeseite ist die Anschlussgebühr bei Agro Energie leistungsabhängig formelbasiert
+(CHF 20'676 + 800/kW bis 20 kW; CHF 31'000 + 380/kW ab 20 kW, indexiert mit dem Zürcher
+Wohnbaukostenindex, Faktor 1.067). In Einsiedeln (Energie Einsiedeln, Arbeitspreis 11.53 Rp./kWh) und in
+der Ausserschwyz (Energie Ausserschwyz) ist der Anschlussbeitrag **nicht publiziert** — dort zwingend
+Offerte einholen; der Kanton fördert den Fernwärmeanschluss mit CHF 4'000 + CHF 200/kW.
+
+**Quelle + Datenstand:** Agro Energie Schwyz AG, «Tarife und Konditionen (exkl. MwSt)», publiziert
+04.09.2025 (Anschlussgebühr gültig bis 31.12.2026, Grund-/Arbeitspreis bis 30.09.2026); Energie
+Einsiedeln AG, «Preisblatt für Fernwärme 2025»; EWS AG Ibach, «Netzanschlussrichtlinien» gültig ab
+01.06.2024, Anhang 8; EW Höfe AG, «Preisblatt Anschlussbeitrag Elektrizität» gültig ab 01.01.2017
+(abgerufen 14.07.2026). Destillate: `[[fernwaerme-anschlusskosten-zh]]`,
+`[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`, `[[foerderprogramm-energie-sz-2026]]`.
+⚠ Beträge exkl. MWST; die Beispielrechnungen (12 kW / 55 kW / 40 A / 160 A) sind eigene Anwendungen der
+publizierten Formeln, nicht amtlich publizierte Einzelbeispiele. Verbindlich ist immer die Offerte.
