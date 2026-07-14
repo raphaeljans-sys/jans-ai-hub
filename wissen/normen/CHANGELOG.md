@@ -1,3 +1,20 @@
+## 2026-07-14 — normen-training-mini Run 25 (Mac Mini): Q&A-Selbstbefragung 6 weitere DIN/VSS-Destillate
+- Fortsetzung Vertiefungsstufe (c), Plan aus Run 24. Inventar-Check vorab: DIN/VSS/RAL weiterhin
+  0 offene `[ ]`-Positionen. 6 parallele Q&A-Selbstbefragungs-Agenten: DIN 1053-100:2007
+  (10/18 bestanden, 8 Ergänzungen — 15%-Umlagerungsregel Ziff.8.4, Mindestauflagertiefen
+  Ziff.8.7.2, Anhang B.3/B.4 Naturstein), DIN 1961:2010/VOB Teil B (12/20 bestanden, 8
+  Ergänzungen — § 10 Abs.3-6 Nachbarschadenshaftung, § 3 Abs.3-6 Zustandsniederschrift,
+  § 4 Abs.9-10 Fundklausel), DIN 4426:2001 (18/19 bestanden, 1 Ergänzung Ziff.5.2.2.1),
+  DIN 5034-4:1994 (12/20 bestanden, 8 Ergänzungen — normativer Vorbehalt Ziff.1 Arbeitsräume/
+  extreme Verhältnisse), DIN EN 12207:2000 (17/21 bestanden, 5 Ergänzungen — Ziff.2/3,
+  Vorwort-Herkunft), VSS 640 066:1996 (14/20 bestanden, 6 Ergänzungen — Türen Fahrradstationen,
+  Tab.5 3. Spalte, Anlagezufahrten Ziff.14).
+- Insgesamt 83/118 Fragen sofort bestanden (70 %), **0 Sachfehler**, 36 Ergänzungen — sauberster
+  Lauf bisher; 4 der 6 Normen waren bereits retro-verifiziert, Q&A fand primär
+  Vollständigkeits- statt Faktentreue-Lücken.
+- Nachgeführt: 6 Destillate, `destillate/INDEX.md` (6 Einträge), `training/norm-inventar.md`
+  (6 Zeilen). Lauf-Report: `outputs/2026-07-14_normen-mini-run25.md`.
+
 ## 2026-07-14 — Q&A-Selbstbefragung Mini-Run 24: DIN 1946-7:2009 vertieft
 - Vertiefungsstufe Q&A-Selbstbefragung (Methodik analog Mini-Run 22/23): 20 Prüfungsfragen zu
   DIN 1946-7:2009 (RLT in Laboratorien) formuliert und unabhängig durch Volltextlektüre aller
