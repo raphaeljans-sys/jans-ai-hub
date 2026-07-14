@@ -1,17 +1,17 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 17:06:41
+Stand: 14.07.2026 17:26:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 36 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 37 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 8 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 1d43c3af Energie-Training Run 69: SIA 2024 Gesundheitsbau, Netzverstaerkung PV/E-Mobilitaet, Fernwaerme-Kosten, Netto-Null-Klimaziele
+- 8af33d14 nas-selfcommit: 19 Datei(en) 2026-07-14 17:15
