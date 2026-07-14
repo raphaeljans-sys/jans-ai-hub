@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 22:41:09
+Stand: 14.07.2026 22:51:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 14.07.2026 22:41:09
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- e8a3bcc4 nas-selfcommit: 2 Datei(en) 2026-07-14 22:30
+- fad1542d Energie-KB Run 70: SZ-Luecken geschlossen (Fernwaerme-Tarife SZ, Netzanschluss EWS/EW Hoefe) + FAQ F83

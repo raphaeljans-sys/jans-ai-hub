@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 22:41:56
+Stand: 14.07.2026 22:52:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:40)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 14.07.2026 22:41:56
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- e8a3bcc4 nas-selfcommit: 2 Datei(en) 2026-07-14 22:30
+- fad1542d Energie-KB Run 70: SZ-Luecken geschlossen (Fernwaerme-Tarife SZ, Netzanschluss EWS/EW Hoefe) + FAQ F83
