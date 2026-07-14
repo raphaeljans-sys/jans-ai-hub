@@ -13,6 +13,42 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 08:48 — [FREI] gegen Fensterende, Durchsatz stark, beide Stationen tragen, keine P1
+
+**Fensterzustand [FREI]:** Runner selbst rc=0 durchgehend (Login intakt); das nackte
+`claude -p` ohne gesourcten Token liefert weiterhin «Not logged in» (bekanntes Test-Artefakt,
+Token-Zeile in ~/.jans-dispatch.env vorhanden). Keine Limit-Meldung → aktuelles 5h-Fenster hat
+noch Kapazitaet. Letzter Reset war 04:50, naechster ~09:50; wir sind gegen Fensterende, ein
+Limit-Treffer in der naechsten Stunde waere also erwartbar und = Ziel erreicht, kein Eingriff noetig.
+
+**Durchsatz stark, beide Stationen lueckenlos:** 29 Commits in 90 Min, 77 in 6 Std, rc=0 auf beiden.
+MacBook-Runner lebt (PID 4210 Parent + 3292 Child derselben Instanz, Lock `/tmp/jans-vollgas-runner.lock`
+greift → KEIN Doppellauf), Zyklus 112. Mac Mini lebt (Zyklus 322, 08:49 START energie-training).
+Kein STOP. Inhaltlich echt seit 07:51: normen-nacht Run 10 (SIA 421:2006 + 3 Definitionen ergaenzt →
+established), planungsgrundlagen Run 44 (ÖREB-Kataster-System ZH; Energie-Domaene als gesaettigt
+bestaetigt), normen-mini Run 23, spec-training Lauf 16. nas-selfcommit greift zusaetzlich.
+
+- **P2 (unveraendert) — Idle-Loops `wettbewerbs-dna-training` / `spec-training` / `synobsis-batch-nacht`:**
+  brechen weiter intermittierend nach ~6-14s mit «keine konkrete Anfrage» / «no actual message» ab
+  (baurecht-buch 08:24 14s, synobsis Mac Mini 08:12 9s bestaetigt). Fix bleibt: bei ruhiger/interaktiver
+  Gelegenheit einen expliziten «Fahre den naechsten offenen Baustein aus»-Auftakt in die jeweilige
+  SKILL.md voranstellen — NICHT mitten im laufenden Zyklus editieren (Byte-Offset-Risiko). Kein Eingriff
+  in diesem Lauf.
+- **P3 (bekannt, mehrfach von den Loops selbst gemeldet) — Scheduling-Redundanz:** `immobewertung-training`
+  (heute 5x) und `spec-training` (heute 3x) loesen sowohl als App-Scheduled-Task als auch ueber den
+  Endlos-Runner aus; die Wiederhollaeufe produzieren teils nur Bestaetigungen statt neuen Stoff. Unter
+  VOLLGAS fuellt das zwar das Fenster (kein Bug), aber Token gehen in Retry statt Neuland. Bereinigung
+  (Scheduled-Task-Frequenz zuruecknehmen, Runner traegt die Last) gehoert in die Drosselung am 10.08.,
+  nicht in diese Phase. Nur zur Kenntnis, kein Eingriff.
+- **P3 (unveraendert) — energie rc=1 Einzelfall:** energie-training 08:20 rc=1 «Server error mid-response»
+  (transienter API-Fehler, kein Login-/Struktur-Problem); naechster Lauf 08:49 sofort neu gestartet.
+  Nur beobachten.
+
+Alles optimal: Fenster wird gefuellt, keine Luecke, kein Doppellauf, keine selbst behebbare Bremse.
+Kein Mail-Anlass (keine neue/offene P1, Login laeuft).
+
+---
+
 ## 2026-07-14 07:51 — [FREI] mit Kapazitaet, beide Stationen lueckenlos, starker Durchsatz, keine P1
 
 **Fensterzustand [FREI]:** Login OK mit gesourctem OAuth-Token (`claude -p` → «OK»); das nackte
