@@ -3,6 +3,35 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714h (twin-fragesteller, aus Fidelity-Review 2026-07-14h)
+
+Quelle: Drift-Report `outputs/2026-07-14h_fidelity.md` (Gesamt-Fidelity 91; drei frische Goldproben aus
+Apple-Mail-Fallback, 09.–13.07.2026, KISPI-Tuerplanung + SBB-Naeherbaurecht-Faden — bisher unabgedeckter
+Zeitraum). Je in 1–2 Saetzen beantwortbar.
+
+1. **Kleingeschriebenes «hoi» MITTEN im Anrede-Satz — bewusste Tonstufe oder Tippgewohnheit?** In
+   «Geschätzter Herr Duran, geschätzter Herr Kübler, hoi Jens» (13.07.2026) steht «hoi» klein, obwohl
+   «Hoi» als Anrede-Auftakt einer Mail sonst durchgaengig gross belegt ist. Ist die Kleinschreibung
+   hier bewusst, weil «hoi Jens» syntaktisch nicht der Mail-Auftakt, sondern der dritte Teil einer
+   Aufzaehlung ist (wie ein Nachsatz, nicht wie ein eigener Anrede-Beginn), oder reine Fluechtigkeit?
+   *Warum: praezisiert, ob Gross-/Kleinschreibung der Anrede an die Satzposition gekoppelt ist.*
+   → [[stimme]], [[beziehungsregister]]
+2. **«Einfach verständlich.» als Abschluss-Bestaetigung nach einer technischen Erklaerung — eigenes
+   Stilmittel?** Nach der Erklaerung einer Nummer-Systematik («Geschosszahl - FM - Türzahl
+   fortlaufend» + Herleitungssatz) haengst Du den knappen Satz «Einfach verständlich.» an, bevor der
+   naechste Absatz beginnt. Ist das Dein bewusstes Mittel, eine komplexe Erklaerung selbstbewusst
+   abzuschliessen (statt eine Rueckfrage wie «ist das verstaendlich?» zu stellen), oder Tagesform?
+   *Warum: bisher unbelegtes, mögliches drittes Formulierungsmuster neben Frage-Rueckversicherung und
+   stillem Uebergang.* → [[stimme]], [[fachsignatur]]
+3. **Kollektives «Euren Einsatz» trotz gemischtem Sie/Du-Empfaengerkreis — Standard bei Mixed-Register-
+   Dank?** Die Mail an zwei Sie- und einen Du-Fachplaner schliesst mit «Besten Dank für die rasche
+   Rückmeldung und **Euren** Einsatz» — Du-Plural fuer alle drei, obwohl zwei davon einzeln mit Sie
+   angesprochen wurden. Bündelst Du einen Kollektiv-Dank am Mail-Ende IMMER im Du-Plural, sobald
+   mindestens einer der Empfaenger Du ist, oder waere bei einer rein-Sie-Gruppe «Ihren Einsatz»
+   gesetzt worden? *Warum: klaert, ob das Sie/Du der Einzelanreden am Ende zu einem einheitlichen
+   Kollektiv-Pronomen verschmilzt oder ob Du dort foermlicher blieb(est).* → [[beziehungsregister]],
+   [[stimme]]
+
 ## Offen — Runde 260714g (twin-fragesteller, aus Fidelity-Review 2026-07-14g)
 
 Quelle: Drift-Report `outputs/2026-07-14g_fidelity.md` (Gesamt-Fidelity 86; Live-Goldproben
@@ -246,7 +275,11 @@ aktuellsten Postfach-Rand 09.–13.07.2026, ausserhalb des bisherigen Sequential
    gestapelten Anrede-Kopfs «Geschätzter X / Sehr geehrter Y»), oder nur bei kurzen,
    koordinativen Pendenz-Mails? *Warum: bisher nur 1× belegt — ein zweiter Beleg wuerde den Marker
    fest in beziehungsregister.md verankern (Echo-Schutz vor Overfitting).* → [[beziehungsregister]],
-   [[arbeitsweise]]
+   [[arbeitsweise]] · **BEANTWORTET (Fidelity 260714h):** JA, Standard bei kurzen koordinativen
+   Pendenz-/Team-Mails. Zweiter, unabhaengiger Beleg (Pendenz-Mail an Levi Hiltmann, 13.07.2026):
+   «@Spahic Albin Bitte Angebotsfreigabe … / @Fabian Würsch Bitte Finale Tür-ID …» — die @-Markierung
+   selbst ist das feste Signal, das Namensformat (Nachname-Vorname vs. Vorname-Nachname) bleibt
+   uneinheitlich. In beziehungsregister.md als bestaetigter Marker verankert.
 3. **Pendenzenliste ohne Bullet-Marker — Zufall oder eigene Kurzform?** In derselben KISPI-Mail
    stehen die vier offenen Punkte als reine Zeilen ohne «_ »/«-»-Praefix. Ist das eine bewusste,
    noch schlankere Variante fuer die schnelle interne Pendenzenliste (Bullet nur bei

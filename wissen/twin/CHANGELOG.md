@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14h — twin-fidelity-review: SBB-Näherbaurecht-Faden + KISPI-Türplanung (09.–13.07.2026)
+- Goldproben via Apple-Mail-Fallback («Gesendete Elemente» rj@, M365-MCP in dieser Session
+  ohne Mail-Read-Tool): SBB-Näherbaurecht-Faden Thalwil 2414 (3 Register: Sie-Erstkontakt/
+  Du-Bauherr/Sie-Transmittal), Lüftungs-Strangschema-Mail KISPI (dringend, gemischt Sie/Sie/
+  Du), Pendenz-Mail Tür-ID-Systematik KISPI (Du + @-Mentions). Gesamt-Fidelity 91.
+- [[beziehungsregister]]: @-Mention-Muster als Register-/Adressierungs-Signal in kurzen
+  koordinativen Team-Mails jetzt mit 2. Beleg gesichert und verankert (beantwortet QUESTIONS
+  260713g #2) — auch in den Do/Don't-Block aufgenommen, damit `build_dna.py` ihn kompiliert;
+  neue Variante «inline statt gestapelte Mixed-Register-Anrede» («Geschätzter Herr X,
+  geschätzter Herr Y, hoi Z» in einer Zeile, klein «hoi») ergänzt.
+- [[denken]]: neues Argumentationsmuster «Dritt-Validierung als Druckmittel gegen
+  Zurückhaltung» (Forderung mit unabhängiger Fachstellen-Bestätigung untermauern, bevor
+  Einwand kommt) ergänzt, abgegrenzt von der bereits gesicherten Doppelquellen-Gegenüber-
+  stellung.
+- `wiki/QUESTIONS.md`: Runde 260713g #2 als beantwortet markiert; neue Runde 260714h mit 3
+  Fragen (Kleinschreibung «hoi» im Satz, «Einfach verständlich.»-Abschlussformel, Kollektiv-
+  «Euren» bei Mixed-Register-Dank).
+- `rules/jans-dna.md` neu kompiliert (`build_dna.py`) — Beziehungsregister-Do-Block ergänzt.
+- Report: `outputs/2026-07-14h_fidelity.md`.
+
 ## 2026-07-14h — twin-mail-training: Mailbatch 48 (2026-06-01 bis 2026-06-02)
 - Sequentieller Sweep Sent Items rj@ fortgesetzt, Index 334-314 in "Gesendete Elemente"
   (Apple Mail osascript, Exchange-Konto; M365-MCP-Server liefert in dieser Session nur

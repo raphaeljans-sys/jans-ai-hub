@@ -124,7 +124,9 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   unbekannte Fachstelle→Sehr geehrte/r, Service→Grüezi, gestapelt bei mehreren Adressaten);
   Anrede mit wachsender Vertrautheit nachziehen (Geschätzte/r → Liebe/r); bei Sammelpostfach
   die Person im Betreff adressieren («z.H. <Name>, <Rolle>»); in Gruppenmails je Empfänger
-  korrekt mischen; Gruss nach Mail-Typ (operativ→Kurzgruss, dokumentierend→voller Block),
+  korrekt mischen — bei kurzen koordinativen Team-/Pendenz-Mails Handlungsauftraege an einzelne
+  Mitempfaenger per «@Name» direkt im Fliesstext adressieren statt gestapeltem Anrede-Kopf;
+  Gruss nach Mail-Typ (operativ→Kurzgruss, dokumentierend→voller Block),
   Stufe nur als Richtwert; Du gross; «Darf ich … bitten» stets mit Begründung.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register
   ohne Grund hochschrauben; den persönlichen Bezug weglassen.
