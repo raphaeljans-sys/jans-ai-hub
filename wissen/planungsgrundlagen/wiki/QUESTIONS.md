@@ -171,6 +171,30 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   kantonalen SubV ZH, CAD-Richtlinie, Honorar-AHB SIA 102/103/105/108-2009, Ingenieurwesen,
   eco-bau Nachhaltiges Bauen, GT-Richtlinien-Serie V21). Details siehe `training/curriculum.md`
   R39.
+- [x] **R40-R41 (Run 41, 2026-07-14)** Vier der sechs R39-Backlog-Ordner ausgewertet (Honorarwesen,
+  Nachhaltiges Bauen/eco-bau, CAD-Richtlinie-Kurzfassung, Submissions-/Zahlungswesen AHB).
+  **Honorarwesen (R40):** die vier AHB-Fassungen der AGB zu SIA 102/103/105/108 (2009, strukturell
+  ident) modifizieren zentrale SIA-Ordnungs-Artikel (10-Jahres-Aufbewahrungspflicht, 60-Tage-
+  Zahlungsfrist, 5-Jahres-Werkmängel-Verjährung, Nutzungsrecht der Stadt an Arbeitsergebnissen);
+  Merkblatt zu Planungsaufträgen liefert Z-Werte 2009 je Ordnung, Zeittarif-Kategorien A-G,
+  Teilleistungs-/Reduktionstabellen für Bestandeseingriffe und die Reduktions-Tabelle
+  aufwandbestimmender Baukosten bei TGA-/Fachplaner-Beizug (max. 30 % gestaffelt) — direkt
+  einsetzbar im Skill `honorarberechnung-sia102`. **Nachhaltiges Bauen (R41):** die KBOB/eco-bau/
+  IPB-Bedingungen für Planungs- UND Werkleistungen sind laut AGB Art. 3.3.5 vertraglich verbindliche
+  Grundleistung, sobald ein Pflichtenheft MINERGIE-ECO fordert — konkrete Innenraumklima-
+  Grenzwerte, Recyclingbeton-Quoten, Materialauflagen; dazu die 22-Kriterien-Zielvereinbarungs-
+  Checkliste SIA 112/1 und das 7-Meilenschritte-Programm (Stadtratsbeschluss 2008).
+  **CAD/Submissionswesen:** CAD-Kurzfassung + Planarchiv-Formate-Matrix je Gewerk; SR 720.110
+  (städtische SIA-118-Abweichungen: Regie-Staffelrabatt, Zahlungsfrist, Abzugsdeckel) sowie ein
+  Wegleitung-Auszug mit Zuschlagskriterien-Praxisbeispielen und der Sicherheitsleistungs-Staffel
+  (10 %/5 %/CHF-1-Mio-Deckel). Zwei Dateien (kantonale Submissionsverordnung + IVöB-
+  Beitrittsgesetz) als wortgleiche Duplikate der bereits dokumentierten [[recht-norm-
+  submissionsverordnung-zh]] bestätigt — kein Delta. → NEU §5-§8
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]], Status auf **established** gehoben.
+  Restbacklog (niedrigere Priorität): 12-Bauwerkdokumentation, 16-Ingenieurwesen,
+  18-Nachhaltiges-Bauen-Einzelchecklisten (26 Dateien) + ECO-BKP-Kompendium (51 S.),
+  14-Energie-TGA-Rest (GT_RL1-9), 09/10/04-Büro-CI-Vorlagen (vermutlich Nicht-Fund). Details siehe
+  `training/curriculum.md` R40-R41.
 - [x] **R36–R38 (Run 37, 2026-07-14)** Drei weitere bisher unerschlossene Dateien im Ordner
   `04_Merkblätter` ausgewertet (systematischer Ordner-Abgleich, analog der R32-R35-Methodik):
   **UGZ Hindernisfreie Aufzüge + UGZ Wohnungsbau hindernisfrei** (Stadt-ZH-Vollzugspraxis zum

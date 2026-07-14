@@ -2,6 +2,28 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 41 (Recht/Norm + Brandschutz, Token-Vollgas, Fan-out): AHB-Honorar/Nachhaltigkeit/CAD/Submission auf established + BSR-14-15-Fehlidentifikation korrigiert
+- **Recht/Norm (§5-§8 [[recht-norm-ahb-stadt-zuerich-projektstandards]], Status auf established
+  gehoben):** vier weitere `Projektadmin AHB`-Unterordner ausgewertet — **Honorarwesen** (SIA-
+  102/103/105/108:2003-Abweichungen, Z-Werte 2009, Zeittarif A-G, TGA-Reduktionstabelle, direkt
+  nutzbar fuer Skill `honorarberechnung-sia102`), **Nachhaltiges Bauen/eco-bau** (KBOB/eco-bau/
+  IPB-Vertragsbedingungen vertraglich verbindlich bei Stadt-ZH-Mandaten, SIA-112/1-Checkliste,
+  7-Meilenschritte-Programm), **CAD-Richtlinie AHB** (technische Eckwerte + Formate-Matrix),
+  **Submissions-/Zahlungswesen AHB** (SR 720.110 + Wegleitung 09/2006; zwei Dateien als Duplikat
+  der kantonalen SubV ZH identifiziert). Rest-Backlog (Bauwerkdokumentation, Ingenieurwesen,
+  26 Nachhaltigkeits-Einzelchecklisten, TGA-Rest) in §9 dokumentiert.
+- **Brandschutz (§5ad [[brandschutz-pl03-wegweiser]], established):** **Korrektur einer
+  Fehlidentifikation aus Run 39** — die dort als «BSR 14-15» erfasste Datei war tatsaechlich
+  BSR 13-15 (bereits in §4 dokumentiert); die echte BSR 14-15 «Verwendung von Baustoffen» liegt
+  unter dem kryptischen Dateinamen `BSPUB-1394520214-77.pdf`, jetzt vollstaendig gelesen und
+  eingearbeitet (Geltungsbereich, cr-Abdeckungsstaerken, Hochhaus-RF1-Pflicht, WDVS-Brandriegel,
+  zwei Healthcare-Funde: RF1-Pflicht Beherbergung [a] + Patientenzimmer-Ausnahme). Doppel-
+  verifiziert gegen das unabhaengige Normen-KB-Destillat `vkf-brl-verwendung-baustoffe.md`
+  (deckungsgleich); Datenstand-Delta (Stempel 2017 vs. Destillat-Frontmatter 2015) geflaggt statt
+  selbst korrigiert. Ordner `02 Brandschutzrichtlinien 2015-17-22/` damit vollstaendig
+  ausgewertet.
+- Details: `outputs/2026-07-14_training-run41.md`.
+
 ## 2026-07-14 — Training Run 40 (Kartenportale + Energie, Token-Vollgas, Fan-out): neuer Denkmalschutz/ISOS-Artikel + Connector-Erweiterung + vier neue Energie-Fundstellen
 - **Kartenportale (K34-K36):** Ordner-Abgleich PL-01 deckt eine bisher unerschlossene zweite
   Schutz-Domaene auf — **Denkmalpflege/Archaeologie** (national ISOS nur Portal-Link, kantonal ZH

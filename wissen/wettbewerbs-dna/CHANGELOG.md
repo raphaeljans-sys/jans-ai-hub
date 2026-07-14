@@ -1,5 +1,26 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-14 — Etappe 3 B4: Muster jury-argumente-schulbauten von 11 auf 23 Quellen erweitert
+- **Aktion:** `wiki/muster/jury-argumente-schulbauten.md` additiv erweitert (12 neue Berichte:
+  Littau-Luzern, Thurgauerstrasse Zuerich, Baetterkinden, Stoeckacker Bern, Zelgli Schlieren,
+  Sursee [Volltextbeleg nachgetragen] sowie der Etappe-3-Sweep Hinter Gaerten Riehen,
+  Kantonsschule Baden [vertiefend], Kantonsschule Zimmerberg Waedenswil, Niederrohrdorf,
+  Oberstufe Schoenau Steffisburg, Ochsenmatt 4 Menzingen). Sektion 3 von 10 auf 12
+  Siegargumente erweitert (neu: Adressierung/Eingangssituation; Stufentrennung KG/Primar
+  als Rangkiller); Sektion 2 um 3 Typologie-Tabellenzeilen + Pilotprojekt-Fussnote ergaenzt;
+  Sektion 4 um neuen K.o.-Punkt Etappierungsverstoss ergaenzt.
+- **Verifikation:** Refuter-Welle (5 parallele Quellen-Shard-Pruefer + 1 Konsistenz-Pruefer)
+  gegen die Rohextrakte durchgefuehrt. 7 Fehler gefunden und korrigiert (falsche Seitenzahlen
+  Thurgauerstrasse S.14→13/S.19→18; Fehlzuordnung Bienenstrasse 7→9 Volumenverdoppelung;
+  erfundener Nenner "6 von 10" bei Stoeckacker-Ausschluessen; falsche Zitatzuordnung
+  Guignard&Saner→Weyell Zipse bei Riehen; ueberzeichnete Baden-Kostendach-Aussage
+  "alle drei Top-Projekte"→nur Haller-Masterplan-Familie; Zelgli faelschlich als
+  Turnhallen-Vergleichsquelle genannt [ist reiner Bestandsbau]; "fast wortgleich bei 4
+  Projekten" bei Ochsenmatt-Stufentrennung praezisiert auf 2 wortgleiche + 2 sinngemaesse
+  Belege). Konsistenz-Check: keine Widersprueche. Status `established`.
+- **Damit:** Etappe 3 Baustein B4 Schulbau abgeschlossen; naechster Schritt B5
+  (Parameter-Set-Revision) + B6 (Kennwert-Benchmark), siehe `training/ETAPPE-3.md`.
+
 ## 2026-07-14 — Nachbrenner: Etappe-3-Schulbau B3-Ziel erreicht (9 Draft-Destillate → established)
 - **Auftrag:** Scheduled Task `wettbewerbs-layer-nachbrenner`, Fortsetzung des laufenden
   Etappe-3-Ultra-Laufs Schulbau (`training/ETAPPE-3.md`). Stand-Tabelle zeigte 23

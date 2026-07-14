@@ -41,7 +41,7 @@ ein maschinenlesbares **Parameter-Set** fuer `volumenstudie`/`machbarkeit`/
 
 | Bauaufgabe | B1 Sweep | B2 Raw | B3 Destillate (est./Ziel) | B4 Muster | B5 Param-Set | B6 Kennwerte |
 |---|---|---|---|---|---|---|
-| Schulbau (Prio 1) | erledigt (`outputs/2026-07-14_etappe3-schulbau-sweep.md`) | 23 Bestand | **23/23 established** | established (Basis 11, Erweiterung auf 23 ausstehend) | ausstehend | ausstehend |
+| Schulbau (Prio 1) | erledigt (`outputs/2026-07-14_etappe3-schulbau-sweep.md`) | 23 Bestand | **23/23 established** | **established (23/23, Refuter-Welle bestanden)** | ausstehend | ausstehend |
 | Healthcare (Prio 2) | ausstehend | — | 0/8 | — | healthcare-neubau-zh.json v1.0 vorhanden (Revision nach B6) | ausstehend |
 | Wohnungsbau (Prio 3) | ausstehend | — | 0/8 | — | wohnen-mfh-urban.json v1.0 vorhanden (Revision nach B6) | ausstehend |
 

@@ -214,34 +214,369 @@ USV (nur zentrale Anlagen), Wasseraufbereitung. Konventionelle Steuergeräte (in
 Schaltuhren) sind **nicht gestattet** — alle Automatisierungsaufgaben müssen auf den dezentralen
 Automationsstationen implementiert sein.
 
-## 5. Backlog — weitere Unterordner des «Projektadmin AHB»-Bündels (noch nicht ausgewertet)
+## 5. Honorarwesen AHB (Ordner 15-Honorar+Vertragswesen) — direkt relevant für Skill `honorarberechnung-sia102`
 
-Der Ordner umfasst zehn nummerierte Themenbereiche; folgende sind noch offen für Folgeläufe
-(niedrige bis mittlere Priorität, da eher Vertragsmuster/Prozessvorlagen als Planungsgrundlagen im
-engeren Sinn):
+**Run 41.** Vier Dokumente gelesen: die vier AHB-Fassungen der Allgemeinen Bedingungen zu den
+SIA-Ordnungen 102/103/105/108 (Ausgabe 2009 bzw. bei SIA 108 Stand November 2006 — inhaltlich
+strukturell ident, nur die Berufsbezeichnung wechselt Architektin/Architekt ↔ Ingenieurin/
+Ingenieur), das «Merkblatt zu Planungsaufträgen (AHB)» (Stand Januar 2009, Querschnitts-Wegleitung
+über alle vier Vertragstypen) sowie die Tarifdokumente Zeittarifansätze 2009 und VSR-Netto-
+Preisempfehlung 2007.
 
-- **11-Submissions+Zahlungswesen**: «Wegleitung über das Submissions- und Zahlungswesen (mit
-  Musterbeispielen)» (89 S.) + SVO-Formularsatz (Publikation/Vergabeantrag/Werkvertrag/
-  Akontozahlung als .dot/.xlt-Vorlagen) — städtische Vollzugsebene **unterhalb** der bereits
-  dokumentierten kantonalen Submissionsverordnung ZH (SubV 720.11, → [[recht-norm-submissionsverordnung-zh]]);
-  vermutlich Delta zur Vergabepraxis der Stadt selbst.
+### 5.1 AGB AHB zu SIA 102/103/105/108 — Abweichungen von den SIA-Ordnungen 2003
+
+Die AHB-Bedingungen **ersetzen bzw. ergänzen** einzelne Artikel der SIA-Ordnungen (Abweichungen im
+Original kursiv markiert). Für JANS-Mandate mit der Stadt Zürich gilt somit **nicht** die
+unveränderte SIA-Ordnung, sondern die durch AHB modifizierte Fassung. Wichtigste Abweichungen
+(Art.-Nummerierung folgt SIA 102, bei 103/105/108 analog):
+
+- **Art. 1.3.7 f. Aufbewahrung/Ablieferung von Dokumenten:** Arbeitsergebnisse bleiben Eigentum
+  der Planenden, sind aber **10 Jahre** ab Auftragsende aufzubewahren; die Stadt hat während dieser
+  Frist jederzeit Anspruch auf unentgeltliche Erstaushändigung (weitere Aushändigungen nur gegen
+  Vervielfältigungskosten). Provisorische CAD-Pläne sind vor Baueingabe für einen
+  **Plausibilitätstest** einzureichen (→ §7 CAD-Richtlinie); bei Bauleitung ist **vierteljährlich**
+  ein detaillierter Finanzrapport einzureichen (→ §8.3.9.1 Wegleitung Zahlungswesen).
+- **Art. 1.4.4 Nutzung von Arbeitsergebnissen:** Mit vertragsgemässer Bezahlung erhält die Stadt ein
+  **unentgeltliches, unwiderrufliches, nicht ausschliessliches** Nutzungsrecht (Realisierung durch
+  Dritte, Weiterentwicklung, Veröffentlichung); das Recht zur **mehrmaligen baulichen Realisierung**
+  besteht nur bei ausdrücklicher Vereinbarung.
+- **Art. 1.5.1 Zahlungsbedingungen:** Rechnungen sind innert **60 Tagen** nach Erhalt zu begleichen.
+- **Art. 1.9 Haftung:** verschuldet fehlerhafte Auftragserfüllung → volle Schadenersatzpflicht;
+  Vorbehalt Art. 368 OR; für selbständige Dritte im Direktvertrag mit der Stadt haftet der
+  Architekt/Ingenieur **nicht**.
+- **Art. 1.11 Verjährung:** generelle Ansprüche aus Vertrag **10 Jahre** ab Bauwerksabnahme;
+  Ansprüche aus **Werkmängeln 5 Jahre** ab Abnahme (Mängel innert der ersten 2 Jahre jederzeit
+  rügbar, danach sofort nach Entdeckung).
+- **Art. 3.3.5 Erweiterte Grundleistungen** (nicht separat honoriert, gelten als im Grundhonorar
+  inbegriffen — direkt praxisrelevant für die Offertkalkulation): u.a. Mitwirken bei
+  Rechtsmittelverfahren, Übernahme von Bestandesplänen ins CAD, Anpassen an CAD-/EDV-Richtlinien
+  der Stadt, **alle durch ECO-BKP/eco-devis/MINERGIE-ECO ausgelösten Arbeiten** (→ §6),
+  Eingaben/Prüfungen nach Besonderer Bauverordnung I (BBVI), Beraten bei Unternehmerverzeichnissen,
+  fachliche/rechnerische Prüfung von Unternehmervarianten, Erstellen/Nachführen von Zahlungsplänen,
+  Ermitteln von Kostenkennzahlen.
+- **Art. 7.5 Aufwandbestimmende Baukosten:** Katalogmobiliar/Ausstattung/Normeinrichtungen sind
+  ohne andere Vereinbarung nur mit **50 %** der Kosten aufwandbestimmend; Stadt-Zürich-Mobiliar ist
+  **nicht** aufwandbestimmend. Nicht aufwandbestimmend zudem: Honorare aller Beteiligten,
+  Grunderwerb, Finanzierungskosten, öffentliche Gebühren/Versicherungsprämien,
+  Wettbewerbskosten, Feierlichkeiten, Nachbarentschädigungen, Anwalts-/Gerichtskosten,
+  VBZ-/Werk-/Polizei-/Grün-Stadt-Zürich-Aufträge, Entsorgungs-/Deponiegebühren.
+- **Art. 1.14.2 Gerichtsbarkeit:** die Parteien verzichten darauf, Honorar-Meinungsverschiedenheiten
+  der SIA-Honorarkommission zu unterbreiten.
+
+### 5.2 Merkblatt zu Planungsaufträgen (AHB) — Verfahrenslogik
+
+Baut auf dem AHB-Management-Handbuch, den vier AGB (§5.1) und SIA-Dokumentation D0174 auf. Zentrale
+Praxispunkte:
+
+- **Honorare im offenen/selektiven/Einladungsverfahren gehen vor** — ein im Wettbewerb erzieltes
+  Ergebnis hat Vorrang vor Tarif-Regelungen. Fehlt eine Honorarofferte oder fehlen
+  Honorarkomponenten, gelten die Bestimmungen für das **freihändige Verfahren**: dort ist das
+  jeweils gültige **KBOB/BPUK/SSV-Dokument** massgebend.
+- **Z-Werte 2009 (Höchstsätze bei Honorierung nach Baukosten, freihändiges Verfahren):**
+
+  | Ordnung | Z1 | Z2 |
+  |---|---|---|
+  | SIA 102 (Architektur) | 0.062 | 10.58 |
+  | SIA 103 (Bauingenieur) | 0.075 | 7.23 |
+  | SIA 105 (Landschaftsarchitektur) | 0.062 | 10.58 |
+  | SIA 108 (Ingenieur Gebäudetechnik) | 0.066 | 11.28 |
+
+  dazu ein Stundenansatz **h = CHF 130.-** (Stand 2009, jährlich neu publiziert — bei Anwendung
+  aktuellen Jahressatz beim AHB verifizieren, nicht den 2009er-Wert fortschreiben).
+- **Empfohlene Teilleistungen nach Bauaufgabe** (Basis für Honorarofferten bei Bestandeseingriffen):
+  Neubau/Erweiterung/Umbau/Nutzungsänderung/Gesamtinstandsetzung = 100 %; Teilinstandsetzung
+  (Bsp. Fassadenerneuerung) = 95 %; Instandhaltung («Pinselsanierung») = 85 % (abhängig von
+  Eingriffstiefe).
+- **Anpassungsfaktor-Reduktion bei Bestandeseingriffen** (Erleichterung der Leistungserbringung):
+  Gesamtinstandsetzung/-erneuerung r = 0.95 (−5 %), Teilinstandsetzung/-erneuerung r = 0.85
+  (−15 %), Instandhaltung r = 0.75 (−25 %) — Abzug wird im Einzelfall vom AHB festgelegt, hat aber
+  **keinen Einfluss** auf vereinbarte Teilleistungen/Verantwortung der Planenden.
+- **Berechnungsfaktoren-Bandbreiten:** Schwierigkeitsgrad n = 0.7–1.3 (SIA 102/103/108) bzw.
+  0.8–1.2 (SIA 105); Anpassungsfaktor normalerweise r = 1.0; Teamfaktor i = 1.0; Zuschlag
+  Umbau/Denkmalpflege/unter Betrieb max. 50 % (SIA 102/1); Faktor Sonderleistungen normalerweise
+  s = 1.0, ausserordentlich bis s = 1.5.
+- **Reduktion der aufwandbestimmenden Baukosten bei Beizug von Fachplanenden/Spezialisten**
+  (praxisrelevante Tabelle, wenn dadurch die Grundleistungen des Architekten entlastet werden):
+  Abbruch-/Entsorgungsarbeiten sowie spezielle Fundationen/Baugruben (bei Planung durch
+  Bauingenieur) 50 % der betroffenen Elemente; Fassade (bei Fassadenplaner) 50 %; **Elektroanlagen
+  sowie HLKKS-Anlagen max. 30 %** (gestaffelt: 30 % bei vollen TGA-Leistungen inkl. Fachbauleitung/
+  Kostenkontrolle/Abnahme, 15 % bei Fachbauleitung ohne Kostenkontrolle, 0 % ohne
+  Fachbauleitung); Leuchten/Lampen 50 %; Betriebseinrichtungen/Grossküchen 50–75 %;
+  Umgebungsanlagen (Landschaftsarchitekt) 50 %; Kunstobjekte 50–75 %; Normmobiliar/Kleininventar
+  50 %.
+- **Nebenkosten-Pauschale (empfohlener Ansatz, % der Honorarsumme):** Architektur-/Bauingenieur-/
+  Landschaftsarchitekturleistungen je 5 % (inkl. Betrieb eines Projektraums bei Architektur);
+  Ingenieurleistungen (TGA) 10 % (hoher Farbkopien-Anteil); Besondere Fachkoordination 15 %.
+  Für **Wettbewerbsspesen** (Jurymitglieder/Fachpersonal): Reisekosten ausserhalb Stadtgebiet
+  CHF -.60/km oder SBB-Halbtax, Übernachtung max. CHF 150.-, Hauptmahlzeit CHF 25.- — innerhalb
+  des Stadtgebiets («Lokalrayon») werden weder Reisekosten noch Reisezeit entschädigt.
+- **Projektraum-Pflicht:** ab **CHF 10 Mio. Bausumme** hat der Gesamtleitende (i.d.R. der
+  Architekt) einen elektronischen Projektraum einzurichten (Mindestanforderungen: 24h-Login für
+  alle inkl. Auftraggeber, strukturierte Ablage nach Phase/Planer, AHB-Bezeichnungskonvention,
+  Druck-/Plotfunktion, individuelle Kostenabrechnung je Planer).
+- **Garantieschein:** üblicherweise ab Gesamthonorar **CHF 1 Mio.** verlangt (= Garantiehöhe
+  CHF 15'000.-, entsprechend 1.5 % Teilleistungen); generell ab Garantiesumme CHF 15'000.-.
+
+### 5.3 Zeittarifansätze und Reprografie-Preise
+
+- **Honorarkategorien A–G nach Zeitaufwand (KBOB-Tarif 2009, max. Stundenansätze):** A CHF 210.-,
+  B CHF 180.-, C CHF 155.-, D CHF 132.-, E CHF 110.-, F CHF 100.-, G CHF 96.- (inkl. EDV/CAD;
+  Mittelansatz Planungsgruppen CHF 160.-/h; Anforderungsfaktor 0.75–1.15). Die Einstufung
+  (Chefarchitekt/Experte = A/B, leitender Architekt = B/C, Architekt = C/D, Techniker/Zeichner-
+  Konstrukteur = D/E/F, Zeichner = E/F/G; analoge Kategorien für Bauleitung/Administration/EDV)
+  richtet sich nach der **ausgeübten Funktion im Auftrag**, nicht der Firmenstellung — Stufe 2
+  (selbständige Bearbeitung) i.d.R. ab 4 Jahren Praxis nach Ausbildungsabschluss, Stufe 3 (schwierige
+  Aufgaben) i.d.R. ab 8 Jahren Praxis. **Werte sind 2009er-Stand** — für aktuelle Mandate den
+  laufenden Jahressatz beim AHB verifizieren (jährliche Stadtratsbeschluss-Anpassung), nicht
+  fortschreiben.
+- **VSR-Netto-Preisempfehlung 2007** (Verband Schweizerischer Reprografie-Betriebe, Sektion Zürich,
+  gültig ab 1.1.2007, mit 20 % Rabatt + 2 % Skonto bereits verrechnet für Stadt-/Kanton-ZH-Ämter):
+  Planplot s/w ab CHF 8.00/m², Plankopie s/w CHF 10.90/m², Scan s/w CHF 30.00/m² (Digitalscan
+  TIF/PDF), CD-R CHF 20.00/Stück; Preise exkl. MWST. Die im Merkblatt zu Planungsaufträgen (§5.2)
+  empfohlenen Ansätze weichen leicht ab (z.B. Planplot s/w CHF 8.00/m² identisch, Scan-Preise
+  gerundet) — bei Pauschalvereinbarung (Regelfall, 5 % der Honorarsumme) entfällt die
+  Einzelabrechnung ohnehin.
+
+## 6. Nachhaltiges Bauen — eco-bau/KBOB-Standards AHB (Ordner 18-Nachhaltiges Bauen)
+
+**Run 41.** Fünf Dokumente gelesen (die beiden vertragsrechtlich verbindlichen KBOB/eco-bau/IPB-
+Bedingungen, die Zielvereinbarungs-Checkliste SIA 112/1, den 7-Meilenschritte-Flyer und das
+Organisations-Merkblatt der Fachstelle); die reinen Verweis-PDFs `eco-devis` und `Bauteilkatalog`
+sind bewusste **Link-Stubs** auf externe Portale (siehe unten). 26 weitere Dateien in
+18.1–18.6 sind Checklisten/Merkblätter/KBOB-Empfehlungen zu Einzelthemen (Dachbegrünung,
+Baustellenkontrolle, Schadstoffe, Innenraumklima, Elektrosmog, Recyclingbeton, PCB-Fugendichtung,
+Holzwerkstoffe) — als Detailquellen vorhanden, für diesen Lauf nicht einzeln destilliert
+(niedrige Priorität, da meist Spezialfall-Checklisten ohne generelle Kennwerte).
+
+### 6.1 Vertragliche Verbindlichkeit — «Bedingungen für Planungsleistungen» und «für Werkleistungen» (Hochbau, KBOB/eco-bau/IPB, Juli 2008)
+
+Beide Dokumente sind laut Art. 3.3.5 SIA-AGB (§5.1) **Bestandteil der Grundleistungen** bzw. gemäss
+eigenem Titel ausdrücklich «Vertragsbestandteil» — nicht optional, sobald ein Stadt-ZH-Auftrag
+Nachhaltigkeitsziele (typischerweise MINERGIE-ECO) im Pflichtenheft festlegt.
+
+**Planungsleistungen** (an die Planenden gerichtet): Nachhaltigkeitsprüfung bei Projektstart
+gemeinsam mit Bauherrschaft nach SIA 112/1 (→ §6.2); Zielsetzungen (z.B. MINERGIE-ECO) im
+Pflichtenheft; **Bauökologie nach ECO-BKP**, 1. Priorität-Vorgaben umsetzen, Abweichung auf
+2. Priorität nur bei technischen/wirtschaftlichen Gründen und mit Genehmigung der Bauherrschaft;
+Recyclingbaustoffe wo technisch möglich; bei Instandsetzung/Sanierung/Rückbau Schadstoffabklärung
+(Asbest/PCB/PAK) durch Fachspezialisten Pflicht; Entsorgungskonzept nach SIA 430, Entwässerungskonzept
+nach SIA 431; Innenraumklima-Grenzwerte deutlich unterschreiten (konkrete Werte: **Formaldehyd
+< 60 µg/m³, TVOC < 1000 µg/m³** gemessen unter VDI-4300-Standardbedingungen); Recycling-Beton
+Konstruktionsbeton **≥ 50 Massen-%** Recyclinggesteinskörnung, Füll-/Hüll-/Unterlagsbeton
+**≥ 80 Massen-%**. Effektiver Energieverbrauch wird innert 2 Jahren mit dem berechneten
+verglichen; bei Abweichungen (Innenraumbelastung/Energieverbrauch überschritten) tragen die
+Verursachenden Mess- und Folgekosten inkl. Sanierung.
+
+**Werkleistungen** (an die Unternehmer gerichtet, in Werkverträge zu integrieren):
+Warendeklarationspflicht nach SIA 493 oder Zertifikat (z.B. FSC); Baumaschinen > 18 kW mit
+Partikelfilter, Transportfahrzeuge EURO3/EURO4; konkrete Materialauflagen — **Recycling-Beton
+im Umkreis 25 km grundsätzlich Pflicht**; Holz/Holzwerkstoffe FSC- oder PEFC-Label,
+formaldehydabsperrende Beschichtung im Innenbereich; Anstrichstoffe wasserverdünnbar/lösemittelfrei,
+keine bioziden Filmkonservierer; Fugendichtungsmassen/Klebstoffe lösemittelfrei,
+Verlegewerkstoffe EMICODE EC 1; Leitungsmaterialien Elektro/Sanitär **halogenfrei**; keine
+Montageschäume; bei Rückbau-Schadstoffverdacht sofortiger Arbeitsstopp + Meldung an Bauleitung.
+
+### 6.2 Zielvereinbarungen SIA 112/1 «Nachhaltiges Bauen — Hochbau» (Checkliste Öko 1.13, 2008)
+
+Die Checkliste operationalisiert SIA 112/1 in drei Dimensionen (Gesellschaft/Wirtschaft/Umwelt) mit
+je 3–4 Themenbereichen und 22 Einzelkriterien — jedes Kriterium mit «Zielvereinbarung» und
+Ankreuzfeld «zu bearbeiten» pro Projekt. Struktur: **1 Gesellschaft** (1.1 Gemeinschaft: Integration/
+soziale Kontakte/Solidarität/Partizipation; 1.2 Gestaltung: räumliche Identität/individuelle
+Gestaltung; 1.3 Nutzung/Erschliessung: Grundversorgung/Langsamverkehr/Zugänglichkeit für alle;
+1.4 Wohlbefinden/Gesundheit: Sicherheit/Licht/Raumluft/Strahlung/sommerlicher Wärmeschutz/Lärm),
+**2 Wirtschaft** (2.1 Gebäudesubstanz: Standort/Bausubstanz/Struktur-Flexibilität;
+2.2 Anlagekosten: Lebenszykluskosten/Finanzierung/externe Kosten; 2.3 Betriebs-/Unterhaltskosten),
+**3 Umwelt** (3.1 Baustoffe: Rohstoffverfügbarkeit/Umweltbelastung/Schadstoffe/Rückbaufähigkeit;
+3.2 Betriebsenergie: Wärme/Warmwasser/Elektrizität/Energiebedarfsdeckung; 3.3 Boden/Landschaft;
+3.4 Infrastruktur: Mobilität/Abfall/Wasser). Die Checkliste markiert zusätzlich, welche Kriterien
+dem Gebäudelabel **MINERGIE** (primär 3.2 Betriebsenergie) bzw. **eco-bau** (primär 1.4
+Wohlbefinden + 3.1 Baustoffe) zugeordnet sind — direkt nützlich, um MINERGIE-ECO-Vorgaben im
+Pflichtenheft eines Stadt-ZH-Projekts fachbereichsscharf zu verorten.
+
+### 6.3 7-Meilenschritte-Programm (Stadtratsbeschluss Nr. 1094 vom 17.9.2008)
+
+Gilt für **städtische Bauten und Bauvorhaben mit städtischen Unterstützungsleistungen** (Baurechte,
+Finanzbeiträge); Ausnahmen zu begründen. Sieben Stufen mit je einer Primäranforderung
+(Normalfall) und einer weitergehenden 2000-Watt-Anforderung (blau markiert):
+
+1. **Neubauten:** MINERGIE-ECO-Standard (= Meilenschritt 5); weitergehend MINERGIE-P-ECO.
+2. **Bestehende Bauten:** Standard MINERGIE-Modernisierung bei Erneuerung; Primäranforderung
+   Gebäudehülle 100 % des Neubaugrenzwerts nach **SIA 380/1:2007** (Denkmalschutzobjekte 140 %),
+   Komfortlüftung verzichtbar; weitergehend MINERGIE-Neubau- oder MINERGIE-P-Standard.
+3. **Effizienter Elektrizitätseinsatz:** MINERGIE-Zusatzanforderungen Beleuchtung bei
+   Nicht-Wohnbauten; Geräte gemäss topten.ch, mind. Energieetikette A/A+ (Kühlgeräte).
+4. **Erneuerbare Energien:** ≥ 40 % des Wärmebedarfs von Neubauten aus erneuerbaren Quellen
+   (Bestand: ≥ 50 % des Warmwasser-Wärmebedarfs); weitergehend 100 %.
+5. **Gesundheit und Baustoffe:** gesundes Innenraumklima, Grenzwerte deutlich unterschritten;
+   Baustoffe nach ECO-BKP; Graue Energie wird in der Planung ermittelt und optimiert.
+6. **Architekturwettbewerbe:** ökologische Nachhaltigkeit als Entscheidungskriterium; Mobilitäts-
+   Vorkehrungen im Gebäudekonzept.
+7. **Bewirtschaftung:** Energiestatistik + Betriebsoptimierung; Zielvereinbarung für
+   Energie-Grossverbraucher; Energieausweis; Strombeschaffung mindestens naturemade basic.
+
+Wirtschaftlichkeit (inkl. externer Effekte) wird nach den Richtlinien des Stadtrates (StRB 46/1998)
+ermittelt. Ansprechstellen: Fachstelle nachhaltiges Bauen (Dr. Heinrich Gugerli) und Fachstelle
+Energie und Gebäudetechnik (Werner Kälin), beide AHB Lindenhofstrasse 21 — **Kontaktpflicht bei
+Projekten > CHF 5 Mio. und/oder hoher Komplexität** (Festlegung projektspezifischer
+Nachhaltigkeitsanforderungen im Projekthandbuch, Ziff. 2.1/2.5).
+
+### 6.4 Leistungen der Fachstellen in Bauprojekten (Öko 7.17.I, Stand 11.08.2006)
+
+Ordnet die Fachstellen-Leistungen den 7 Meilenschritten (§6.3) zu und benennt die intern
+zuständigen Kürzel (GUH/KET/SIM/KAW/POM/LAA) — Meilenschritt 1+2 MINERGIE-Bau/-Technik
+(Checks Gebäudehülle/Energieversorgung, Nachweis Behaglichkeit), Meilenschritt 3 MINERGIE-
+Beleuchtung/-Lüftung nach **SIA 380/4**, Meilenschritt 5 Bauökologie (Materialisierungs-Check,
+Devis-/Materialdeklarationskontrolle vor Vergabe, Baustellenkontrolle) + Innenraumklima
+(Schadstoff-Check, Abschlussmessungen, Elektrosmog), Meilenschritt 6 Wettbewerbsvorprüfung nach
+**Snarc/Vitruvius**. Nur für städtische Bauprojekte gültig (Fussnote im Original).
+
+### 6.5 Link-Stubs ohne eigenen Inhalt (geprüft)
+
+`eco-devis_(Ausschreibungshilfe-nach-NKP).pdf` (1 Seite) und
+`Bauteilkatalog_Energie+Oekologie.pdf` (1 Seite) enthalten je nur eine URL
+(`www.eco-bau.ch/index.cfm?Nav=15&ID=16` bzw. `www.bauteilkatalog.ch`) — bewusste Verweis-Platzhalter
+auf externe, separat zu pflegende Online-Tools, kein eigener Fachinhalt zum Destillieren.
+
+## 7. CAD-Richtlinie AHB (Ordner 13-CAD+Archivierung, Unterordner 13.2)
+
+**Run 41.** Kurzfassung (1 S., Januar 2008) und «Planarchiv CAD-Formate»-Tabelle (1 S., Stand 2009)
+gelesen; die 17-seitige Vollversion «Richtlinie CAD 4.0» nicht im Detail durchgearbeitet (Backlog,
+§9). Ergänzt §2 (CAFM-Bezeichnungssystem) um die reine CAD-Zeichnungsebene.
+
+**Technische Eckwerte (Kurzfassung):** Grundmasseinheit **1 Meter**; Datenformat CAD **DWG 2000
+und höher**; Plotfile-Format **PDF**; Office-Dokumente MS Office 2003; Bitmap TIF/JPG; Datenträger
+CD-R (ISO 9660, Joliet). Vor Baueingabe verlangt das AHB einen **Plausibilitätstest** (Testplan,
+Kontrolle durch das Planarchiv AHB — deckt sich mit Art. 1.3.8 SIA-AGB, §5.1). Jeder Plan trägt
+Dateiname/Datum/Visum, bei rechtsverbindlichen Plänen zusätzlich Freigabevisum der Projektleitung,
+sowie Plannummer/Inventar(Objekt-)nummer/Auftragsnummer. Flächendefinition zwingend nach
+**SIA 416** (deckt sich mit §1). Layerordnung nach **SIA 2014**. Definitive Datenübergabe umfasst
+CAD-Pläne + Plotfiles + Planverzeichnis + Plotstiltabelle (alle auf CD-R), digitale
+Bauwerkdokumentation gemäss Checkliste (→ Backlog Ordner 12) sowie Papierabzüge (Architektur:
+1× gerollt + evtl. 1× gefaltet; Ingenieurpläne: 1× gefaltet).
+
+**Planarchiv-CAD-Formate-Tabelle** (Beilage zur Richtlinie Bauwerkdokumentation, Stand 2009) legt
+je Planart und Gewerk das geforderte Abgabeformat fest — durchgängiges Muster: Geometer-/
+Architektur-/Bauingenieur-Pläne (Situation, Bauprojekt 1:100, Boden-/Deckenpläne, Werkpläne 1:50,
+Schalungspläne) **DWG + PDF**, reine Ausführungsdetails/Sicherheits-/Zivilschutzpläne sowie
+sämtliche Spezialisten-Pläne (Akustik, Bauphysik, Gastronomie, Lichtplanung, Medizinaltechnik,
+Signaletik) **nur PDF**; Elektro-/HLKKS-/MSRL-Installationspläne **DWG + PDF**, deren
+Prinzipschemas nur **PDF**. Bewirtschaftungspläne (Bewi-Pläne CAFM) nur **DWG** (kein PDF
+gefordert) — konsistent mit der CAFM-Namenskonvention `G00000-gggg-mmm-X00.dwg` aus §2.
+
+## 8. Submissions- und Zahlungswesen AHB (Ordner 11-Submissions+Zahlungswesen)
+
+**Run 41.** Vier Dokumente ausgewertet; zwei weitere geprüft und als Duplikate identifiziert
+(kein neuer Inhalt, s.u.).
+
+### 8.1 «Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung» (SR Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978, Änderungen bis 5.6.1991)
+
+Vollständig gelesen (7 Seiten). Regelt **städtische Abweichungen/Ergänzungen zur Norm SIA 118**
+«Allgemeine Bedingungen für Bauarbeiten» (Ausgabe 1977) für Werkverträge mit der Stadtverwaltung —
+die Norm SIA 118 gilt nur soweit sie nicht der (kantonalen) Submissionsverordnung, diesen
+städtischen Bedingungen, den Ausschreibungsunterlagen oder dem Vertrag widerspricht (Art. 1).
+Unternehmer-AGB gelten nur bei ausdrücklicher vertraglicher Anerkennung (Art. 1 Abs. 2). Wichtigste
+Abweichungen, thematisch geordnet:
+
+- **Subunternehmer (Art. 2):** Haftungsbefreiung des Unternehmers für einen ihm vorgeschriebenen
+  Subunternehmer nur bei spätestens beim Vertragsabschluss schriftlich erklärtem Widerspruch
+  gegen dessen Beizug plus korrekter Einsetzung/Beaufsichtigung (Abweichung von Art. 29 Abs. 5
+  SIA 118).
+- **Regiearbeiten (Art. 3-5):** Regieansätze richten sich nach den zwischen Berufsverbänden und
+  Finanzkontrolle vereinbarten, zum Offertzeitpunkt gültigen Tarifen (bleiben während der Bauzeit
+  fix). **Staffelrabatt bei Regiearbeiten (Hochbau):** bis CHF 50'000.- 2 % Rabatt + 2 % Skonto;
+  CHF 50'000.- bis 100'000.- 5 % Rabatt + 2 % Skonto; über CHF 100'000.- im Rahmen des
+  Wettbewerbs (Abrechnungsbetrag = Summe aller Bruttorechnungen aus einem Auftrag).
+- **Teuerungsabrechnung (Art. 8-15):** indirekte Berechnung 15 % der Lohnsatzänderung
+  (Art. 71 Abs. 2 SIA 118); Umtriebe-Zuschlag bei Materialpreisänderungen 5 %; Transportkosten
+  nach Teuerungsindex Nationalstrassenbau (TAG/ASB) ohne Unkostenzuschlag.
+- **Bestellungsänderungen (Art. 16-17):** Kostenfolgen bedürfen der **Schriftform**.
+- **Zahlungsfrist (Art. 24):** fällige Zahlungen innert **60 Tagen** nach Rechnungsstellung, unter
+  Wahrung des Skontoanspruchs (Abweichung von Art. 190 Abs. 1 SIA 118) — deckungsgleich mit der
+  60-Tage-Frist der Honorar-AGB (§5.1 Art. 1.5.1).
+- **Abzug für allgemeine Kosten (Art. 26):** Baustellenreinigung/nicht eruierbare Bauschäden
+  gedeckelt auf **1 ‰** der Akkord-Abrechnungssumme (Baumeister-/Umgebungsarbeiten) bzw.
+  **5 ‰** (alle übrigen Unternehmer) — direkt relevant für die Prüfung von Schlussabrechnungen
+  (Skill `kostenkontrolle`/`unternehmerkontrolle`).
+
+### 8.2 «Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)» (AHB, Zürich September 2006, 36 S., Auszug gelesen)
+
+Praxisorientierte Vollzugs-Wegleitung mit 18 Musterformularen (Angebot, Werkvertrag, Finanzrapport
+etc.), TOC-Struktur 1 Allgemeines / 2 Submissionswesen / 3 Zahlungswesen. Gelesen: Titel/TOC
+(S. 1-4), Zuschlagskriterien (S. 13-15), Sicherheitsleistung/Baukostenüberwachung (S. 30-32).
+
+- **Zuschlagskriterien (§2.7.3, gestützt auf § 33 SVO):** Zuschlag geht ans **wirtschaftlich
+  günstigste**, nicht das billigste Angebot; Kriterien müssen **sachlich begründet** und
+  **nicht diskriminierend** sein und sind auf die Beschaffung «masszuschneidern» — empfohlen
+  max. 4-7 Kriterien (bei einfachen Aufträgen 2-3), bei reiner Preisentscheidung (Standardprodukte)
+  ist das klar zu deklarieren. Beispielkatalog (Checkliste AHB 09.02.2004): Qualität
+  Material/Ausführung, Wirtschaftlichkeit des Konzepts, umweltverträgliche/gesundheitlich
+  unbedenkliche Materialien (→ Verweis auf «Bauen + Ökologie», deckt sich mit §6), architektonische
+  Gestaltung, sorgfältiger Umgang mit Altbausubstanz, Preis, städtebauliche Einordnung, innovative
+  Idee, Lehrlingsausbildung, niedrige Unterhalts-/Betriebskosten (mit Zeitraum), Termineinhaltung.
+  Kriterien sind in den Ausschreibungsunterlagen **in Reihenfolge ihrer Bedeutung**, allenfalls mit
+  prozentualer Gewichtung, aufzuführen.
+- **Unzulässige Zuschlagskriterien (§2.7.4):** direkt/indirekt einheimische Anbietende bevorzugende
+  Kriterien sind unzulässig (Ortsansässigkeit, Steuerdomizil, Toleranz-Prozentklauseln); auch
+  vermeintlich neutrale Kriterien wie örtliche Kenntnisse, Transportweglänge, rasche Verfügbarkeit
+  sind **heikel** und nur zulässig, wenn der konkrete Auftrag dies sachlich klar erfordert.
+- **Leistungsverzeichnis (§2.8):** Positionstexte nach **NPK** (Normpositionen-Katalog der
+  Schweizer Bauwirtschaft), bei Streit durch unklare Positionstexte Vorrang der begründeten
+  Auslegung der Unternehmung; Global-/Pauschalpreise nur zulässig, wenn der Gegenstand in allen
+  Eigenschaften bekannt ist (SIA 118 Art. 40/41); Regiepositionen **nach** den Akkordpositionen
+  aufführen, mit «in Regie» oder «nach Ergebnis» bezeichnet (ohne Betrag).
+- **Sicherheitsleistung der Unternehmung (§3.8.1):** ab **CHF 50'000.-** Arbeits-/Lieferungswert
+  Solidarbürgschaft eines anerkannten CH-Versicherers/Bankinstituts, Höhe **10 %** der
+  Abrechnungssumme; ab **CHF 200'000.-** reduziert auf **5 %**, mindestens jedoch CHF 20'000.-,
+  gedeckelt auf max. CHF 1 Mio.; Dauer **2 Jahre**. Ausnahmen: Baugrubenaushub/Erdbewegung/
+  Abbrüche/Gerüste/Notdächer/Provisorien/Transporte/Baureinigung/Bewachung/Verbrauchsmaterial
+  sowie kommunale Werkbetriebe/kantonale Elektrizitätswerke. Bei fehlender Sicherheitsleistung nach
+  schriftlicher Mahnung: Zahlung nach 1 Monat unter **10 % Kautionsabzug** anweisen (§3.8.3).
+- **Baukostenüberwachung/Finanzrapport (§3.9):** bei Bauvorhaben **> CHF 100'000.-** i.d.R.
+  **vierteljährliche** Finanzrapporte (deckt sich mit Art. 1.3.8 Honorar-AGB, §5.1); Mehr-/
+  Minderkostenbegründung Pflicht bei **> 10 % Abweichung** vom Kostenvoranschlag; KV-Positionen
+  «Unvorhergesehenes» und «Zuschlag Bauherrschaft für die Ungenauigkeit der
+  Berechnungsgrundlagen» bedürfen ausdrücklicher AHB-Genehmigung, dürfen nicht für
+  Projekterweiterungen verwendet werden. Teuerungsberechnung nach dem **Baukostenindex
+  (Gesamtkosten) der Statistik Stadt Zürich**, Preisänderungsberechnung nach § 31 Abs. 2
+  Kreisschreiben Direktion des Innern Kt. ZH vom 10.10.1984 (KSI).
+
+### 8.3 Geprüft, kein neuer Inhalt (Duplikate der kantonalen Submissionsverordnung)
+
+- `Submissionsverordnung.pdf` = **wortgleiche Kopie** der bereits vollständig destillierten
+  kantonalen Submissionsverordnung ZH (LS 720.11 vom 23.7.2003) → siehe
+  [[recht-norm-submissionsverordnung-zh]], keine Doppel-Destillation.
+- `Gesetz_ueber_den_Beitritt_des_ZH_zur_IVoeB.pdf` = **wortgleiche Kopie** des kantonalen
+  Beitrittsgesetzes zur IVöB (LS 720.1 vom 15.9.2003) inkl. abgedrucktem IVöB-Vertragstext —
+  ebenfalls bereits über [[recht-norm-submissionsverordnung-zh]] abgedeckt.
+- `Anleitung_Vorlagen.pdf` (April 2009, 4 S.): reine Word-/Excel-Bedienungsanleitung
+  (Formularfelder ausfüllen, Ländereinstellung, VRUNDEN-Funktion) für den SVO-Formularsatz
+  (Angebot/Werkvertrag/Publikation/Vergabeantrag/Referenzliste/Submissionsergebnis/Akontozahlung/
+  Abrechnung als .dot/.xlt) — kein fachlicher Inhalt, nur IT-Bedienhinweis; Formularsatz selbst
+  bereits im Ordnerinventar (§9) erfasst.
+
+## 9. Backlog — weitere Unterordner des «Projektadmin AHB»-Bündels (noch nicht ausgewertet)
+
+Der Ordner umfasst zehn nummerierte Themenbereiche; folgende sind nach Run 41 noch offen für
+Folgeläufe (niedrige bis mittlere Priorität, da eher Vertragsmuster/Prozessvorlagen als
+Planungsgrundlagen im engeren Sinn):
+
 - **12-Bauwerkdokumentation**: «Richtlinie Bauwerkdokumentation 2009» + Checkliste — Anforderungen
-  an die Dokumentation nach Bauabschluss.
-- **13-CAD+Archivierung**: «Richtlinie CAD 4.0» (2008) + Kurzfassung + Planarchiv-CAD-Formate —
-  ergänzt §2 (CAFM-Bezeichnungen) um die reine CAD-Zeichnungsebene.
-- **15-Honorar+Vertragswesen**: AHB-Fassungen der **Allgemeinen Bedingungen (AHB) zu
-  SIA 102/103/105/108 (Ausgabe 2009)** sowie Zeittarifansätze 2009/VSR-Preisempfehlung 2007 —
-  Vertragsbestandteil bei Honorarofferten an die Stadt Zürich, relevant für Skill
-  `honorarberechnung-sia102`.
-- **16-Ingenieurwesen**: Richtlinien Betonneubauten/Recyclingbeton/Tragwerkverstärkungen.
-- **18-Nachhaltiges Bauen** (eco-bau-Materialien): 7-Meilenschritte-Merkblatt, Zielvereinbarungen
-  SIA 112/1, ECO-BKP-Merkblätter, eco-devis (Ausschreibungshilfe nach NKP), diverse Checklisten
-  (Baustellenkontrolle, Devis-/Raumluft-Prüfung, Schadstoff, Innenraumklima) — teils Delta zur
-  Graue-Energie-/Nachhaltigkeits-Thematik in [[energie-uebersicht]].
-- **14-Energie und Gebäudetechnik** (Rest): GT_RL1–9-Richtlinienserie (Planungsgrundlagen/
+  an die Dokumentation nach Bauabschluss; wird in §5.1 und §7 bereits mehrfach referenziert
+  (Abgabepflicht nach Fertigstellung, CAD-Formate-Beilage), aber die Richtlinie selbst noch nicht
+  im Volltext gelesen.
+- **16-Ingenieurwesen** (16.2-Richtlinien): Richtlinien Betonneubauten/Recyclingbeton/
+  Tragwerkverstärkungen — voraussichtlich Delta zu Recyclingbeton-Vorgaben in §6.1
+  (Recycling-Beton-Quoten), aber bauingenieurspezifisch vertieft.
+- **18-Nachhaltiges Bauen, Rest**: 26 Checklisten/Merkblätter/KBOB-Empfehlungen in 18.1-18.5
+  zu Einzelthemen (Dachbegrünung, Baustellenkontrolle, Devis-/Raumluftprüfung, Schadstoffe,
+  Gebäudescreening, Elektrosmog, PCB-Fugendichtung, Holzwerkstoffe, Topten-Haushaltgeräte,
+  Solarstromanlagen) sowie das 51-seitige «Richtlinie ECO-BKP (Merkblätter nach BKP)»-Kompendium
+  und die 16-seitige «Bauen für die 2000-Watt-Gesellschaft»-Begründungsschrift — Grundprinzipien
+  bereits über §6.1/6.3 abgedeckt, Einzelmerkblätter niedrige Priorität.
+- **14-Energie und Gebäudetechnik** (Rest): GT_RL1-9-Richtlinienserie (Planungsgrundlagen/
   Systemwahl/Heizung/Kühlung/Lüftung/Sanitär/Elektro/Beleuchtung/Gebäudeautomation, Version 21) —
-  generische städtische TGA-Planungsrichtlinien, nur §4.5-Standards (Gebäudeautomation
-  Pflegezentren, Raummodul Büro/Klassenzimmer) bisher ausgewertet.
+  generische städtische TGA-Planungsrichtlinien, nur §4 (Standards Gebäudeautomation
+  Pflegezentren, aus Run 39) bisher ausgewertet.
 - **09-Projektdokumentation / 10-Projektablauf / 04-Grafikvorlagen**: reine Büro-/CI-Vorlagen
   (Ordnerrücken, CD-Label), niedrigste Priorität — vermutlich bestätigter Nicht-Fund für die
   Planungsgrundlagen-KB.
@@ -252,3 +587,6 @@ Zürich für beauftragte Planer** (analog einem kantonalen Pflichtenheft, aber S
 (Hochbaudepartement/GUD/Schulamt). Nicht zu verwechseln mit der bereits dokumentierten
 **kantonalen** Submissionsverordnung ZH ([[recht-norm-submissionsverordnung-zh]]) — «AHB» hier
 bezeichnet das Amt, nicht die Allgemeinen Bedingungen SIA (Doppel-Bedeutung des Kürzels beachten).
+Mit Run 41 sind die drei aus JANS-Sicht wertvollsten verbleibenden Bereiche (Honorarwesen,
+Nachhaltiges Bauen, Submissions-/CAD-Vollzug) erschlossen; der Rest ist Detailtiefe ohne neue
+Grundprinzipien.
