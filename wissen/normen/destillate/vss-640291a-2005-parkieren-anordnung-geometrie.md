@@ -9,6 +9,7 @@ gelesen: "S. 1-24 von 24 (vollständig; PDF enthält ab S. 25 zusätzlich die se
 datenstand: 2026-07-13
 status: "established, aber HISTORISCH/ERSETZT — retro-verifiziert gegen Original 2026-07-14, nicht mehr für aktuelle Projekte verwenden, siehe [[vss-40291-2021-parkieren-anordnung-geometrie]]"
 last_updated: 2026-07-14
+verifikation: "Q&A-Selbstbefragung Mini-Run 27 (260714): 18 Fragen, 10 bestanden, 0 Sachfehler, 8 Ergaenzungen (Mindestwert-Charakter Ziff.6, Gehweg-Kriterien Ziff.8.3, Parkfeldwinkel-Regel Ziff.10.2, Ausnahme Laengsparkfelder Ziff.11, Kleinwagen-Parkfelder Ziff.14/Tab.5+6 komplett neu, Hoehenbegrenzung Einfahrt Ziff.16, Rampenraender 6% Ziff.18.5, Kontrolleinrichtungen Einfahrt/Ausfahrt Ziff.19 komplett neu)."
 links: [[vss-40291-2021-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
 ---
 
@@ -44,6 +45,20 @@ Personenwagen sowie eine für Lieferwagen:
   Befahren / 100 % Parkieren (Personenwagen) bzw. 98,0 %/60,0 % (Lieferwagen).
 Vorgehen: Bauherrschaft legt Nutzung (Tab. 1) fest, Bauherrschaft + Projektverfasser legen
 Komfortstufe fest, Projektverfasser bestimmt Anordnung/Geometrie nach dieser Norm (Ziff. 6, S. 5).
+Alle in der Norm angegebenen Abmessungen sind ausdrücklich **Mindestwerte**: sie dürfen bei
+konkreten Projekten aus Komfort- oder wirtschaftlichen Gründen grösser gewählt werden (Ziff. 6,
+S. 5) — Ergänzung 260714, Mini-Run 27.
+
+**Gehweg vor oder hinter Schräg-/Senkrechtparkfeldern (Ziff. 8.3, S. 7) — Ergänzung 260714,
+Mini-Run 27:** Die Lage des Gehwegs (vor Abb. 1E oder hinter Abb. 1D den Parkfeldern) wird anhand
+von vier Kriterien geprüft: Fussgängerfrequenz auf dem Gehweg, Frequenz leichter Zweiräder auf
+der Fahrbahn, Umschlagshäufigkeit auf den Parkfeldern, Publikumsnutzungen (Verkaufsläden,
+Dienstleistungsbetriebe) oder Schaufenster hinter den Parkfeldern.
+
+**Parkfeldwinkel bei Schrägparkierung mit Einrichtungsverkehr (Ziff. 10.2, S. 9) — Ergänzung
+260714, Mini-Run 27:** Ist die Fahrtrichtung in benachbarten Fahrgassen ungleich gerichtet, sind
+alle Parkfeldwinkel möglich; ist sie gleich gerichtet, ist nur ein Parkfeldwinkel von 45° möglich
+(Abb. 3).
 
 **Längsparkfelder je Komfortstufe (Ziff. 11, Abb. 5, Tab. 2, S. 11):**
 - Stufe A: Parkfeldlänge L = 5,70 m (Randparkfeld Lr1 = 5,00 m/Lr2 = 6,70 m), Breite b = 1,90 m,
@@ -52,6 +67,10 @@ Komfortstufe fest, Projektverfasser bestimmt Anordnung/Geometrie nach dieser Nor
 - Stufe C: L = 6,80 m (Lr1 = 6,30 m/Lr2 = 8,00 m), b = 2,00 m, U = 0,40 m, F = 3,80 m.
 (Die 2021er-Ausgabe kennt nur noch einen einzigen Wertesatz, der ungefähr der damaligen
 Stufe B entspricht: F = 3,50 m, B = 1,90 m, L = 6,00 m.)
+Ausnahmefall (Ziff. 11, S. 11) — Ergänzung 260714, Mini-Run 27: Auf Strassen mit 5,00 m
+Fahrbahnbreite dürfen Längsparkfelder im Ausnahmefall angeordnet werden, falls die Fahrbahn an
+beiden Rändern nicht durch Wände begrenzt ist; ist ein Radstreifen vorhanden, ist zwischen
+Radstreifen und Längsparkfeldern ein Sicherheitsabstand von mind. 0,50 m einzuhalten.
 
 **Schräg-/Senkrechtparkfelder je Komfortstufe (Ziff. 12, Tab. 3, S. 12-13):** z.B. 90°, Stufe
 A/B: Parkfeldbreite b = 2,35-2,80 m, Länge L = 5,00 m, Fahrgasse F = 3,00-6,50 m (je nach b);
@@ -67,13 +86,26 @@ F = 3,30 m (Fk = 3,70 m), Gegenverkehr F = 5,60 m (Fk = 6,00 m).
 normale Schrägparkfelder entsprechen zwei Parkfeldern für Behinderte (Flächenäquivalenz-Regel,
 in der 2021er-Ausgabe nicht mehr so formuliert — dort direkt 3,50 m/reduziert 2,50 m).
 
+**Parkfelder für Kleinwagen (Ziff. 14, Tab. 5+6, S. 14-15) — komplett ergänzt 260714, Mini-Run
+27, fehlte bisher vollständig:** Um Fläche zu sparen, können spezielle Parkfelder für Kleinwagen
+angeordnet werden; die Werte sind durch das Minimalfahrzeug bestimmt (Länge 2,50 m, Breite
+1,52 m, Wendekreisradius 4,35 m) und gelten nur für die Komfortstufen A und B (keine
+Kleinwagen-Tabelle für Stufe C). Längsparkfelder (Tab. 5): Stufe A L = 3,70 m/Lr1 = 2,80 m/
+Lr2 = 4,30 m/b = 1,80 m/U = 0,20 m/F = 3,00 m; Stufe B L = 4,00 m/Lr1 = 2,80 m/Lr2 = 4,60 m/
+b = 1,80 m/U = 0,20 m/F = 3,00 m. Schräg-/Senkrechtparkfelder (Tab. 6), Beispiel 90°: Stufe A
+b = 2,10 m/Stufe B b = 2,25 m, L = 2,80 m/L2 = 5,60 m, U = 0,00 m, F = 4,20 m (Stufe A)/3,00 m
+(Stufe B); auch Mischformen zwischen Tab. 5/6 (Kleinwagen) und Tab. 2/3 (Normalwagen) sind
+zulässig.
+
 **Wände und Stützen je Komfortstufe (Ziff. 15, Abb. 7, Tab. 7, S. 16):** z.B. 90°, Stufe A/B:
 Abstand zur Wand Dw = 0,30 m, Dv = 1,20 m; Stufe C: Dw = 0,35 m, Dv = 1,30 m.
 
 **Vertikale Abmessungen (Ziff. 16, Tab. 8, S. 17):** Lichte Höhe für Fahrgassen/Fahrwege:
 Stufe A/B 2,30 m, Stufe C 3,00 m; für Parkfelder: Stufe A/B 2,20 m, Stufe C 2,90 m; für
 Fussgängerwege einheitlich 2,20 m. (Die aktuelle Ausgabe kennt nur noch eine einheitliche
-lichte Höhe von 2,30 m ohne Komfortstufen-Differenzierung.)
+lichte Höhe von 2,30 m ohne Komfortstufen-Differenzierung.) Die Höhenbegrenzung bei der
+Einfahrt soll 0,05-0,10 m tiefer sein als die minimale lichte Höhe (Ziff. 16, S. 17) —
+Ergänzung 260714, Mini-Run 27.
 
 **Fahrwege — Kurvenverbreiterungen (Ziff. 18.1-18.3, Tab. 9+10, S. 18-20):** Schrammborde
 0,10 m hoch, 0,20 m breit in Geraden/Innenkurven; aussen radiusabhängig. Fahrwegbreiten in
@@ -85,11 +117,24 @@ We = 4,00 m.
 Ausgabe hat nur noch einen Wertesatz: 15 % ungedeckt / 18 % gedeckt — entspricht der damaligen
 Stufe A, ist also grosszügiger als die frühere Stufe B/C.)
 
+**Rampenränder bei angrenzenden Parkfeldern (Ziff. 18.5, S. 21) — Ergänzung 260714, Mini-Run
+27:** Rampen dürfen an ihren Rändern eine maximale Längsneigung von 6 % aufweisen, wenn sie an
+Parkfelder grenzen (unabhängig von der Komfortstufe).
+
 **Ausrundungsradien (Ziff. 18.6, Tab. 12, S. 21):** Stufe A: Kuppe Ausrundungsradius 20 m/Abstand
 der Neigungsknicke 2,00 m, Wanne 20 m/2,00 m; Stufe B/C: Kuppe 20 m/2,00 m, Wanne 30 m/3,00 m.
 (Korrektur 260714: die Norm verwendet für den Ausrundungsradius kein Formelzeichen wie «Rv» —
 dieses war im Destillat fälschlich ergänzt worden und wurde entfernt, die Zahlenwerte selbst waren
 bereits korrekt.)
+
+**Einfahrt und Ausfahrt — Kontrolleinrichtungen (Ziff. 19, Abb. 11+12, S. 22-23) — komplett
+ergänzt 260714, Mini-Run 27, fehlte bisher vollständig:** Die Anordnung von Kontrolleinrichtungen
+(Abonnentenautomat, Parkscheinausgabe-/-leseautomat, Schranke, Induktionsschleife) hat einen
+wesentlichen Einfluss auf die Kapazität von Ein-/Ausfahrt; ungünstig ist die Lage in
+Rechtskurven. Wo nicht vermeidbar: Kontrolleinrichtungen müssen in Geraden liegen, die mind.
+5,00 m vor dem ersten Automaten beginnen und 5,00 m nach der Schranke enden können (Abb. 12);
+zwischen den Kontrollelementen selbst gilt ein Richtmass von 3,00 m (Abb. 11). Die Längsneigung
+des Fahrweges im Bereich der Kontrolleinrichtungen darf max. 3 % betragen.
 
 **Fussgängerwege (Ziff. 20, S. 23):** begehbare Bankette/markierte Flächen mind. 1,20 m, Wege
 und Treppen mind. 1,50 m.
@@ -137,3 +182,15 @@ das Original-PDF durchgeführt. Alle Kernziffern, Tabellenwerte (Tab. 1-12) und 
 korrekt wiedergegeben; einzige Korrektur: bei den Ausrundungsradien (Ziff. 18.6, Tab. 12) hatte das
 Destillat faelschlich ein Formelzeichen «Rv» verwendet, das in der Norm nicht vorkommt (Tab. 12
 benennt nur «Ausrundungsradius» ohne Symbol) — entfernt, Zahlenwerte unveraendert korrekt.
+
+**Q&A-Selbstbefragung Mini-Run 27 (260714):** 18 unabhängig aus dem Original beantwortete
+Prüfungsfragen zum Hauptteil (S. 1-24), 10 direkt bestanden (Geltungsbereich, ersetzte Normen,
+Ausgabedatum, Komfortstufen-Prozentwerte, Vorgehen Ziff. 6, Fahrgassenbreiten Tab. 4, vertikale
+Grundwerte Tab. 8, Rampenneigung Tab. 11, Ausrundungsradien Tab. 12, Fussgänger-/Motorrad-
+Parkfelder Ziff. 20/21), 0 Sachfehler gefunden. 8 relevante Lücken ergänzt: Mindestwert-Charakter
+der Normwerte (Ziff. 6), Kriterien für Gehweg vor/hinter Parkfeldern (Ziff. 8.3), Parkfeldwinkel-
+Regel bei Einrichtungsverkehr (Ziff. 10.2), Ausnahme Längsparkfelder auf 5,00-m-Fahrbahn (Ziff.
+11), die komplett gefehlt habenden Kleinwagen-Parkfelder inkl. Tab. 5+6 (Ziff. 14), Höhen-
+begrenzung an der Einfahrt (Ziff. 16), Rampenränder max. 6 % bei angrenzenden Parkfeldern (Ziff.
+18.5) sowie die komplett gefehlt habende Sektion Einfahrt/Ausfahrt-Kontrolleinrichtungen (Ziff.
+19, Abb. 11+12).

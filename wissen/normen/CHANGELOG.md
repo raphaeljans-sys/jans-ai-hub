@@ -1,3 +1,9 @@
+## 2026-07-14 — Mini-Run 27 (Mac Mini): Q&A-Selbstbefragung 16 DIN/VSS-Destillate
+16 Destillate ohne bisherige Q&A-Selbstbefragung parallel per Sub-Agenten geprueft (DIN 1164-10, 1249-11,
+1356-1/-6, 18065, 18299, 18560-2, 272, 276-4, 68119, 919-1, Abkuerzungsverzeichnis, EN 1627, VSS 640291a,
+722.15, Merkblatt-VAPl). Ergebnis: ca. 295 Pruefungsfragen, 4 Sachfehler korrigiert (DIN 18065 Fussnote
+invertiert, DIN 68119 Tabelle 4 entbuendelt, DIN Abkuerzungsverzeichnis Eintragszahl 300->500), ca. 62
+Ergaenzungen eingearbeitet. norm-inventar.md nachgefuehrt. Report: outputs/2026-07-14_normen-mini-run27.md.
 ## 2026-07-14 — normen-training-nacht Run 13 (MacBook Pro): Retro-Verifikation restliche 7 SIA-Destillate — SIA/VKF-Bestand jetzt komplett established
 - Gedrosselter Loop (Rule 260713); Inventar-Check: SIA/VKF weiterhin 0 offene `[ ]`-Positionen.
   7 parallele Verifikations-Agenten arbeiteten den kompletten Rest-Bestand mit Status `destilliert`

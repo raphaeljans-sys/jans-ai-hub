@@ -8,6 +8,7 @@ datenstand: "1996/1998"
 status: established (städtische Richtlinie, kein SNV-Normtext, aber verbindlich in Stadt Zürich)
 last_updated: 2026-07-14
 links: [[REGISTER]]
+verifikation: "Q&A-Selbstbefragung Mini-Run 27 (260714): 18 Fragen, 16 direkt bestanden, 0 Sachfehler, 2 Ergänzungen (Dokumentdatum 29.02.1996/Kürzel UW ergänzt, Beleuchtungshinweis 'auch der Erschliessung' präzisiert)."
 ---
 
 # Stadt Zürich Merkblatt Veloabstellplätze (1996/1998)
@@ -43,11 +44,15 @@ bzw. 0,45 × 2,00 m (höhenversetzt); Detailmasse verweisen auf VSS-Norm SN 640 
   Manövrierung einplanen; Detail: VSS-Norm SN 640 066.
 - **Ausführung/Ausstattung (S. 2, Empfehlungen, keine Pflicht):** Anschliessvorrichtungen zur
   Diebstahlsicherung oder abschliessbarer Raum (zentralster Zweck in städtischem Gebiet);
-  Witterungsschutz; offene Gestaltung und gute Beleuchtung (soziale Sicherheit); gute
-  Erkennbarkeit von Standort/Zufahrt; Vermeidung von Konflikten mit Fussgänger/innen und anderen
-  Verkehrsmitteln; Mehrfachnutzung in Wohnbauten (z.B. Kinderwagen); gute Einordnung ins
-  Strassen-/Ortsbild.
-- **Kontakt:** Velofachstelle Tiefbauamt Stadt Zürich, Tel. 01-216 46 53 (Stand Dokument 1998).
+  Witterungsschutz; offene Gestaltung und gute Beleuchtung auch der Erschliessung (soziale
+  Sicherheit); gute Erkennbarkeit von Standort/Zufahrt; Vermeidung von Konflikten mit
+  Fussgänger/innen und anderen Verkehrsmitteln; Mehrfachnutzung in Wohnbauten (z.B. Kinderwagen);
+  gute Einordnung ins Strassen-/Ortsbild.
+- **Kontakt:** Velofachstelle Tiefbauamt Stadt Zürich, Tel. 01-216 46 53. Für Auskünfte auch zu
+  Optimierungsmöglichkeiten über die Mindestanforderungen hinaus (S. 2).
+- **Dokumentdatum (S. 2, Fusszeile):** Velofachstelle, 29. Februar 1996; überarbeitet 23. März
+  1998, Kürzel «UW». Zu unterscheiden vom Beschlussdatum der Richtlinie durch die Bausektion des
+  Stadtrates (27.2.1996, S. 1) — beide Daten sind im Original belegt und nicht identisch.
 
 ## JANS-Praxis-Transfer
 Für Raumprogramm-/Baueingabe-Prüfung in Stadt Zürich (Skill `machbarkeit`, `flaechen-nachweis`)

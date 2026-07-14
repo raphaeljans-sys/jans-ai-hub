@@ -5,7 +5,7 @@ ausgabe: "Stand 2010"
 ersetzt: "kein Bezug"
 gelesen: "S. 1-16 (vollständig, reines Abkürzungsglossar A-Z)"
 datenstand: "2010"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19: Eintragszahl auf ca. 500 korrigiert, VOF/VOL-Bezeichnung korrigiert (Verdingungsordnung statt Vergabe- und Vertragsordnung), NORM SIA vs. SIA Zitat-Zuordnung korrigiert, TRPV-Wortlaut korrigiert, EnEV-Bezeichnung praezisiert, BMZ-Doppelbedeutung ergaenzt)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19: Eintragszahl auf ca. 500 korrigiert, VOF/VOL-Bezeichnung korrigiert (Verdingungsordnung statt Vergabe- und Vertragsordnung), NORM SIA vs. SIA Zitat-Zuordnung korrigiert, TRPV-Wortlaut korrigiert, EnEV-Bezeichnung praezisiert, BMZ-Doppelbedeutung ergaenzt). Q&A-Selbstbefragung Mini-Run 27 (260714): 19 Fragen, 18 bestanden, 1 Fehler, 0 Ergaenzungen (Inkonsistenz «ca. 300» vs. «ca. 500» Eintraege in der Begriffe-Sektion korrigiert)."
 last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
@@ -65,8 +65,10 @@ Einträge:
 
 ## Begriffe
 
-Siehe oben — vollständige Liste (ca. 300 Einträge A-Z) im Original-PDF, hier nicht
-im Wortlaut kopiert (Urheberrecht Beuth/Rudolf Müller Verlag).
+Siehe oben — vollständige Liste (ca. 500 Einträge A-Z, korrigiert Mini-Run 27: die
+Angabe «ca. 300» war mit der Zahl im Frontmatter/«Das Wichtigste» inkonsistent) im
+Original-PDF, hier nicht im Wortlaut kopiert (Urheberrecht Beuth/Rudolf Müller
+Verlag).
 
 ## JANS-Praxis-Transfer
 
