@@ -1,7 +1,7 @@
 ---
 title: eBau SZ — digitales Baugesuchsportal des Kantons Schwyz (Bürgerportal)
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources:
   - Amt für Raumentwicklung, Baugesuchszentrale Kt. SZ — "Registrierung auf Bürgerportal von eBau"
     (v1.0, 24.03.2022, PL-01/KtSZ Schwyz/ebau-sz.ch/_Registrierung_Bürgerportal_eBau_v1.0.pdf)
@@ -10,6 +10,8 @@ sources:
     der ersten Portal-Anwendung
   - PL-01/KtSZ Schwyz/ebau-sz.ch/230921_Anmeldung_ebau_Logindaten.docx (Kontaktperson
     Baugesuchszentrale, ohne Zugangsdaten übernommen)
+  - PL-01/KtSZ Schwyz/einsiedeln.ch/ (Screenshot 16.11.2023, www.einsiedeln.ch/verwaltung/
+    planen-bauen-umwelt-energie/buero-bauen, Run 40 2026-07-14)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-naturgefahren-objektschutz]]
   [[recht-norm-quellenlandkarte]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]
   [[behoerden-vorabklaerung]]
@@ -110,6 +112,29 @@ eBau ist das **Verfahrensportal** (Gesuch/Beilagen/Entscheid) — es ersetzt nic
 `geoshop.lisag.ch` für AV-Daten) oder den OEREB-Auszug (`oereb-schwyz`-Skill). Die Fixpunkt-/
 Höhenangaben für eBau werden aus `map.geo.sz.ch` (WebGIS, Geokategorie Grundstückskataster)
 entnommen — eBau selbst liefert keine Geodaten, sondern konsumiert sie als Eingabefeld.
+
+## 4b. Bezirks-Ebene: «Büro Bauen» Bezirk Einsiedeln als zuständige Baubehörde (K36, Run 40 2026-07-14)
+
+Beleg: `www.einsiedeln.ch/verwaltung/planen-bauen-umwelt-energie/buero-bauen` (Screenshot
+16.11.2023, PL-01/KtSZ Schwyz/einsiedeln.ch/). Ergänzt eBau (Abschnitt 1-3, kantonales
+Verfahrensportal) um die **organisatorische** Seite: bei einem Bauvorhaben im Bezirk Einsiedeln
+ist das **«Büro Bauen»** (Abteilung „Planen Bauen Umwelt Energie" der Bezirksverwaltung) die
+zuständige Stelle für:
+
+- Beratung in baurechtlichen Fragen
+- Behandlung von Baugesuchen, Einsprachen und Beschwerden, Reklamegesuchen
+- Zuständig für Strassenbezeichnungen und Hausnummerierung
+- Abgabe von Formularen und Reglementen, Einfahrtsbewilligungen
+- Erhebung von Vorteilsabgaben betreffend Bezirksstrassen
+
+**Wichtiger Praxis-Fakt, der die eBau-Pflicht datiert:** die Bezirksseite bestätigt ausdrücklich,
+dass Baugesuche im Bezirk Einsiedeln **ab 1. Dezember 2022 nur noch über die digitale
+Bewilligungsplattform eBau** eingereicht werden können — ein Papier-/Direktweg ist seither nicht
+mehr vorgesehen. Zusätzlich verlinkt die Seite unter „Planen und Bauen (Interaktiv)" auf
+kommunale Zusatz-Werkzeuge, die für ein SZ-Vorhaben im Bezirk Einsiedeln ergänzend relevant sein
+können: **Erschliessungsplan**, **Formulare und Merkblätter** sowie **Gestaltungspläne** — diese
+drei sind mit der vorliegenden Quelle nur als Linkziel belegt, nicht inhaltlich vertieft
+(Status dieses Unterpunkts: emerging, einzelner Screenshot-Beleg).
 
 ## 5. Offene Punkte
 
