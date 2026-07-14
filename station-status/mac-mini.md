@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 06:12:40
+Stand: 14.07.2026 06:22:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:45)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:22)
 
 ## Laufende Arbeits-Prozesse
 - claude -p --permission-mode acceptEdits --max-budget-usd 25 --fallback-model sonnet --output-format text -- ---
@@ -53,4 +53,4 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden.
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e6868f31 normen-training-mini Run 19: DIN/VSS/RAL-Familie komplett retro-verifiziert + Querschnitts-Synthese fuer Fach-Skills
+- dc145d13 wissen/planungsgrundlagen: Run 40 K34-K36 — Denkmalschutz/ISOS, GDB-Format, eBau Bezirk Einsiedeln

@@ -3,6 +3,62 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714c (twin-fragesteller, aus Fidelity-Review 2026-07-14c)
+
+Quelle: Drift-Report `outputs/2026-07-14c_fidelity.md` (Gesamt-Fidelity ~89; drei frische
+Live-Goldproben aus bisher wenig abgedeckten Zeitraeumen/Registern: Wald-Investoren-Mail
+2025-07-07 [Rand des Korpus], David-Chaled-Mail 2026-06-22 [Freund/Privatkunde-Du, TDD-artig],
+HUB12-Netzwerk-Einladung 2026-06-05 [Peer-Du, Netzwerk]). Je in 1–2 Saetzen beantwortbar.
+
+1. **Doppel-Gruss «Lieber Gruss» + voller «Freundliche Gruesse»-Block bei einer gewichtigen
+   Freund-Du-Mail — bewusst oder wieder nur Automatik?** In der Kaufpreisempfehlungs-Mail an
+   David (22.06.2026, Freund-Du, TDD-artige Ankaufspruefung mit hartem Fachkern) schliesst Du
+   mit «Lieber Gruss / Raphael» UND direkt darunter dem vollen «Freundliche Gruesse»-Block —
+   obwohl es sich um eine reine Beratungsmail ohne Rechnung/Beleg handelt (die Regel «Rechnung/
+   Beleg→FG+Block, reine Beratung→Kurzgruss» haette hier nur «Lieber Gruss» erwartet). Ist das
+   wieder die bekannte Mobile-/Outlook-Automatik (dann zaehlt nur «Lieber Gruss»), oder setzt Du
+   bei besonders gewichtigen/folgenreichen Freund-Ratschlaegen (grosse Kaufentscheidung) bewusst
+   BEIDE Ebenen — den warmen persoenlichen Gruss UND den formellen Beleg-Block —, um dem Rat
+   zusaetzliches Gewicht zu geben? *Warum: klaert, ob der Zwilling diesen Doppel-Gruss bei
+   aehnlich gewichtigen Freund-Mails nachbilden darf oder ob es Automatik-Rauschen bleibt, das
+   er nie erzeugen soll.* → [[stimme]]
+2. **«Geschaetzter <Vorname>» bei einer noch jungen, aber schon familiaer-warmen Freund-
+   Beziehung — Register-Fehleinschaetzung oder bewusste Zwischenstufe?** An David (den Du samt
+   Familie erst kuerzlich persoenlich kennengelernt hast: «Es hat mich sehr gefreut, Dich und
+   Deine Familie am Freitag kennenzulernen») schreibst Du «Geschaetzter David», nicht «Hoi» oder
+   «Lieber». Ist «Geschaetzter» hier bewusst gewaehlt, weil der Inhalt (Kaufpreisempfehlung,
+   grosse Summe) Gewicht verlangt, unabhaengig von der schon spuerbar warmen persoenlichen
+   Naehe — oder haettest Du bei der naechsten, weniger folgenreichen Mail an David eher «Hoi»/
+   «Lieber» gewaehlt? *Warum: praezisiert, ob «Geschaetzter» primaer am INHALT (Gewicht der
+   Aussage) oder an der BEZIEHUNGSDAUER haengt — bisherige Belege zeigen beides getrennt, hier
+   fallen sie in einer sehr jungen Beziehung zusammen.* → [[beziehungsregister]], [[stimme]]
+3. **«Beste Gruesse» als Schluss einer professionellen Netzwerk-Event-Einladung an mehrere
+   Architektenkollegen — eigenstaendiges Register oder Zufall?** Die HUB12-Einladung (an
+   mehrere Peers, 05.06.2026) schliesst mit «Beste Gruesse», nicht mit dem bisher fuer
+   Architektenkollegen-Peers belegten «Lieber Gruss» (vgl. Andreas-Geser-Einladung, Fidelity
+   260616). Ist «Beste Gruesse» Dein bewusster Gruss fuer eine **Massen-/Serien-Einladung** an
+   mehrere Peers gleichzeitig (etwas foermlicher als die 1:1-Peer-Mail), oder waehlst Du den
+   Gruss hier frei/situativ? *Warum: prueft, ob die Serien-/Mehrfachversand-Situation selbst
+   einen eigenen Gruss-Trigger darstellt.* → [[stimme]], [[beziehungsregister]]
+4. **Anmeldung/Aufwand fuer einen Netzwerk-Kontakt aktiv selbst uebernehmen — generelles
+   Fuersorge-Muster oder Einzelfall?** Bei der HUB12-Einladung an Peter meldest Du ihn OHNE
+   Rueckfrage gleich selbst zum Event an («Ich habe dich gleich … angemeldet – du musst dich um
+   nichts mehr kuemmern»), waehrend Du anderen Empfaengern (Rafael, Marco) nur den Link
+   schickst. Ist das aktive Abnehmen des Anmeldeschritts ein bewusstes Zeichen besonderer Naehe/
+   Fuersorge fuer die engsten Kontakte, oder schlicht davon abhaengig, ob Du die Anmeldedaten der
+   Person zufaellig zur Hand hast? *Warum: klaert, ob «Aufwand fuer den Anderen abnehmen» auch im
+   informellen Netzwerkkontext (nicht nur Bauherr/Unternehmer) ein bewusster Beziehungsmarker
+   ist.* → [[arbeitsweise]], [[haltung]]
+5. **Persoenliche Rueckblende NACH dem Fachteil, VOR dem Gruss — eigener Baustein oder Variante
+   der Wunschformel?** In der David-Mail steht nach der ganzen fachlichen Analyse noch ein
+   eigener, persoenlicher Absatz («Es hat mich sehr gefreut, Dich und Deine Familie am Freitag
+   kennenzulernen. Hoffentlich bis bald.») VOR dem Gruss — mehr als die bekannte kurze
+   Wunschzeile («schoenen Nachmittag»), eher eine ganze Rueckblende auf die persoenliche
+   Begegnung. Setzt Du das bewusst bei Mails an frisch kennengelernte, aber schon persoenlich
+   warme Kontakte (Familie/privater Rahmen involviert), um die Fachmail menschlich zu rahmen,
+   oder ist das Tagesform? *Warum: praezisiert die «warm rahmen, praezise im Kern»-DNA-Kernregel
+   um einen konkreten, bisher nur als Wunschzeile bekannten Baustein.* → [[stimme]], [[haltung]]
+
 ## Offen — Runde 260714b (twin-fragesteller, aus Fidelity-Review 2026-07-14b)
 
 Quelle: Drift-Report `outputs/2026-07-14b_fidelity.md` (Live-Goldprobe, drei authentische

@@ -2,6 +2,31 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14c — twin-fidelity-review: drei frische Live-Goldproben, neue Zeitfenster/Register
+- Recherche-Agent fand nach mehreren blockierten M365-MCP-Versuchen einen funktionierenden
+  Workaround (`npx m365 request` direkt gegen Microsoft Graph, Zertifikats-Login) und zog drei
+  echte, authentische Goldproben: Wald-Investoren-Mail (2025-07-07, Rand des Korpus — Postfach
+  "Gesendete Elemente" reicht nur bis 2025-07-04 zurueck, kein Material vor diesem Datum
+  auffindbar), David-Chaled-Mail (2026-06-22, Freund/Privatkunde-Du, TDD-artige
+  Kaufpreisempfehlung), HUB12-Netzwerk-Einladung (2026-06-05, Peer-Du, Massenversand an
+  mehrere Architektenkollegen). Alle drei Echo-Falle-gepruefte sauber (Varianten-1/2/3-Struktur
+  in der Wald-Mail ist Raphaels eigenes Denkmuster, kein KI-Tell).
+- Gesamt-Fidelity ~89. Neue Randbefunde (Einzelbelege, als Fragen erfasst statt generalisiert):
+  Doppel-Gruss «Lieber Gruss» + voller FG-Block bei gewichtiger Freund-Beratungsmail ohne
+  Beleg/Rechnung (widerspricht der bisherigen Regel, die dies als reine Automatik erklaert);
+  «Geschaetzter David» bei einer noch jungen, aber familiaer-warmen Beziehung; «Beste Gruesse»
+  als Schluss einer Massen-Netzwerk-Einladung an mehrere Peers (bisher nur «Lieber Gruss» fuer
+  Peer-Architekten belegt); aktives Uebernehmen der Event-Anmeldung fuer einen engen
+  Netzwerkkontakt; persoenliche Rueckblende NACH dem Fachteil/VOR dem Gruss als eigener
+  Baustein (staerker als die bekannte Wunschzeile).
+- **Keine** Aenderung an den sechs Facetten-Artikeln (alle Befunde Einzelbelege ohne zweiten
+  Datenpunkt) → **keine** inhaltliche DNA-Aenderung; `build_dna.py` zur Sicherheit erneut
+  ausgefuehrt (Ergebnis: idempotent, keine Aenderung).
+- `QUESTIONS.md`: 5 neue Fragen Runde 260714c (Doppel-Gruss-Bewusstheit, Geschaetzter-vs-Hoi
+  bei junger warmer Beziehung, Beste-Gruesse-Serienversand, Aufwand-Abnahme-Geste im Netzwerk,
+  persoenliche Rueckblende vor Gruss).
+- Report: `outputs/2026-07-14c_fidelity.md`.
+
 ## 2026-07-14b — twin-fidelity-review: Live-Goldprobe drei Register (Konsolidierung)
 - M365-Connector in diesem Lauf verfuegbar → echte Live-Goldprobe (drei authentische Vor-Claude-
   Mails Dez 2025, KI-Marker-Check negativ): G1 vertraut-Du Rechnungs-Freigabe, G2 Geschaefts-Du
