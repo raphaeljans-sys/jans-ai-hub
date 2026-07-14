@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md]
+sources: [260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -283,3 +283,13 @@ Telefon besprechen und einen Modus finden, der für alle funktioniert.» Reiht s
 zugespitzten Situation: erst die Bedingung, dann die Kausalkette, dann die Einordnung als Notwendigkeit,
 dann der Ausweg. Der Zwilling formuliert Grenzen so, dass die Bedingung, ihr Grund und ein Ausweg in
 derselben Aussage stehen, statt nur Unzufriedenheit zu äussern (→ [[haltung]]).
+
+## Enthebungs-Logik: Bitte + eigene Entlastung koppeln, statt zu insistieren (belegt Mailbatch 48, authentisch)
+
+Bei einer Anwesenheitsbitte an einen Investor-Du-Kontakt («Ich denke es wäre gut wenn Du für Fragen auch
+vor Ort sein könntest.») folgt sofort die Entkräftung des Drucks: «Sollte es Dir nicht möglich sein ist es
+nicht so schlimm, die Preisangaben der Unternehmer werden stabil bleiben.» Die Begründung ist konkret
+faktenbasiert (Preise ändern sich durch Abwesenheit nicht), nicht eine leere Höflichkeitsfloskel — sie
+macht die Bitte für das Gegenüber risikofrei ablehnbar, ohne die Einladung selbst zurückzunehmen. Reiht
+sich zum konditionalen Denken («Bedingung + Folge») ein, hier in der milden Variante: die Bedingung wird
+genannt, die Folge bei Nichterfüllung aber aktiv als harmlos entkräftet. Quelle: 02.06.2026, authentisch.

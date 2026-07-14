@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1004,3 +1004,29 @@ von Dir zu hören» warm begrüsst, obwohl noch kein eigenes Mandat mit dieser P
 folgt aus der gemeinsamen Institution (KISPI), nicht aus einer bestehenden Auftragsbeziehung. Bestätigt,
 dass das Beziehungsregister nicht rein auftragsbezogen ist: ein neuer Kontakt innerhalb einer bereits
 vertrauten Organisation kann sofort im warmen Du-Register starten. Quelle: 29.05.2026, authentisch.
+
+## Nickname-Mapping Stefanie Sonderegger → «Stefi» (KISPI, Du) (belegt Mailbatch 48, authentisch)
+
+Die bereits als Du-Kontakt bekannte KISPI-Mitarbeiterin Stefanie Sonderegger wird in einer knappen
+Terminantwort erstmals mit der Kurzform «Hoi Stefi» angesprochen — sie selbst signiert ihre vorausgehende
+Mail bereits als «steffi» (Kleinschreibung, eigene Kurzform), Raphael übernimmt die Verkürzung mit
+grossem Anfangsbuchstaben. Bestätigt das bekannte Muster «Register folgt der vom Gegenüber selbst
+verwendeten Kurzform» (vgl. Sämi Smith, Batch 15). Quelle: 01.06.2026, authentisch.
+
+## Roman Steinmann (Investor-Du) — FG+Block bleibt Standard-Gruss auch bei reiner Orga-/Termin-Mail (belegt Mailbatch 48, authentisch)
+
+Eine kurze Besichtigungstermin-Koordinationsmail an den Investor-Du-Kontakt Roman Steinmann schliesst mit
+vollem «Freundliche Grüsse» + Signaturblock, nicht mit «Lieber Gruss» — obwohl die Mail rein organisatorisch
+ist und keinen Geld-/Rechnungsbezug hat. Ergänzt/präzisiert das bisherige Muster (Kurzgruss nur bei
+Angebot/Offerte-zur-Besprechung): bei Steinmann bleibt FG+Block auch ausserhalb des Rechnungskontexts der
+Standard, vermutlich weil das Investoren-Register grundsätzlich einen Tick förmlicher gehalten wird als
+das Peer-Du (vgl. Bauherrin Undine, ebenfalls FG+Block bei Rechnungsweiterleitung). Quelle: 02.06.2026,
+authentisch.
+
+## Jorge Gomes (Vision Apartments, Sie) — warme Sie-Stufe «Geschätzter Herr Gomes» bestätigt (belegt Mailbatch 48, authentisch)
+
+Der externe Facility-Manager-Kontakt Jorge Gomes (Vision Apartments, Sie-Register) wird durchgehend mit
+«Geschätzter Herr Gomes» statt dem kälteren «Sehr geehrter Herr Gomes» angesprochen, obwohl die
+Korrespondenz rein organisatorisch (Besichtigungstermin) und ohne persönlichen Bezug verläuft — bestätigt,
+dass «Geschätzter» der default-warme Sie-Einstieg für aktiv kooperierende externe Dienstleister ist, auch
+ohne mehrfachen Mail-Wechsel oder Telefonat als Auslöser. Quelle: 01.06.2026, authentisch.

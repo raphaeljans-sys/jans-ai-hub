@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14h — twin-mail-training: Mailbatch 48 (2026-06-01 bis 2026-06-02)
+- Sequentieller Sweep Sent Items rj@ fortgesetzt, Index 334-314 in "Gesendete Elemente"
+  (Apple Mail osascript, Exchange-Konto; M365-MCP-Server liefert in dieser Session nur
+  CLI-Kommandosuche, kein Mail-Read-Tool; Cowork-Connector `outlook_email_search` nicht
+  verfügbar).
+- 21 Mails gesichtet, 6 Volltexte destilliert (Serie von 12 Offertanfragen Submissionsrunde
+  Albertstrasse 7 als ein Vertreter gelesen); keine Echo-Falle.
+- Neue Marker: [[stimme]] (ultrakurze Teams-Terminantwort, Reassurance-Formel zur Enthebung
+  einer Du-Bitte, Dringlichkeits-Kurzformel+informelles P.S. im Behörden-Sie, präventive
+  Dankesformel, Typo-Anredefehler in Serienmails, Mikro-Metrik Batch 48); [[beziehungsregister]]
+  (Nickname-Mapping Stefanie Sonderegger → «Stefi», Roman-Steinmann-FG-Bestätigung ausserhalb
+  Rechnungskontext, Jorge-Gomes-warme-Sie-Stufe); [[arbeitsweise]] (wiederverwendbare
+  Offertanfrage-Vorlage über 12 Gewerke, aktive Nachfass-Zusage); [[denken]]
+  (Enthebungs-Logik: Bitte + eigene Entlastung koppeln).
+- Register `raw/_INGESTED.md` nachgeführt: Sweep abgedeckt bis 2026-06-02 11:14 Uhr,
+  nächster Lauf ab Index 313.
+
 ## 2026-07-14g — twin-fidelity-review: Zeitfensterlücke 08.06.–02.07.2026 geschlossen
 - Siebter (gedrosselter) Fidelity-Lauf des Tages, VOLLGAS-Endlos-Runner. M365-MCP in dieser
   Session nicht erreichbar → Fallback Apple Mail osascript (Bundle-ID `com.apple.mail`,

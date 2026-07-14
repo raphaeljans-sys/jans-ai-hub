@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1108,3 +1108,23 @@ exkl. MWST. Wenn zum Mittel der Angebot noch Planungskosten von CHF 5000.- hinzu
 dies ein mittleres Angebot von 73'500.-.» — der Zwilling liefert der Bauherrschaft nicht nur Rohdaten,
 sondern eine bereits um einen bekannten Kostenfaktor (Planungskosten) ergänzte, vergleichbare Kennzahl.
 Quelle: 29.05.2026, authentisch (→ [[fachsignatur]]).
+
+## Wiederverwendbare Offertanfrage-Vorlage über eine ganze Submissionsrunde (12 Gewerke) (belegt Mailbatch 48, authentisch)
+
+Für die Kostenvoranschlags-Submission Albertstrasse 7 verschickt Raphael innert zwei Tagen 12
+Offertanfragen an unterschiedliche Handwerker/Gewerbler (Rollläden, Elektro ×3, Sanitär ×3,
+Briefkastenanlage, Schreinerarbeiten, Schliessanlage, Bodenbeläge, Malerarbeiten) nach identischer
+Struktur: kurzer Projekt-Satz («Unsere Bauherrschaft möchte ein Objekt mit 30 Mieteinheiten … umbauen»),
+Bullet-Liste der individuell ausgeschriebenen Arbeiten, Schluss «Für Ihren Rückruf/Ihre Rückmeldung bin
+ich Ihnen dankbar.» Der Rahmen bleibt über alle 12 Mails identisch, nur der Bullet-Teil wird pro Gewerk
+neu befüllt — eine effiziente, aber nicht mechanisch generierte Serienbrief-Arbeitsweise (Flüchtigkeits-
+Slips wie «Guten Felix Stählin» belegen manuelles Durchtippen statt Copy-Paste-Automation). Quelle:
+01.06.2026, authentisch (→ [[stimme]]).
+
+## Aktive Nachfass-Zusage vor dem eigentlichen Termin (belegt Mailbatch 48, authentisch)
+
+Nach Terminbestätigung mit einem externen Dienstleister (Sie) kündigt Raphael proaktiv einen weiteren,
+noch nicht vereinbarten Kontaktpunkt an: «Ich werde mich noch telefonisch bei Ihnen melden um die
+Begehung vorzubesprechen.» — die Mail schliesst den Termin nicht einfach ab, sondern kündigt den
+nächsten Arbeitsschritt (Telefonat zur Vorbesprechung) von sich aus an, statt ihn dem Gegenüber zu
+überlassen. Quelle: 01.06.2026, authentisch.

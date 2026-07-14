@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1640,3 +1640,57 @@ gemischt («Hoi Stefan» 4×, «Hoi Albin» 2×, «Geschätzter Herr» 2×, «Ge
 Stefan, Hoi Albin) der dominante Gruss bleibt, sobald die Mail einen fachlichen/organisatorischen Kern
 transportiert (Kurzgruss nur bei der reinen Zwei-Wort-Antwort ohne Fachinhalt, s.o.). Quelle:
 27.–29.05.2026, authentisch.
+
+## Ultrakurze Teams-Terminantwort ohne jeden Fachinhalt (belegt Mailbatch 48, authentisch)
+
+Auf die Nachfrage einer Kollegin (KISPI, Du), ob ein vorgeschlagener Termin online oder vor Ort
+stattfinde, antwortet Raphael mit genau drei Wörtern plus Anrede/Gruss: «Hoi Stefi, Online per Teams.
+Freundliche Grüsse». Kein Nebensatz, keine Begründung, kein weiterer Kontext — die Kürze selbst ist die
+Antwort. Bestätigt den bereits belegten Minimalform-Marker (vgl. Batch 44 «zwei reine
+Teams-Agenda-Mails als Minimalform-Beleg») für rein organisatorische Rückfragen im engen Du. Quelle:
+01.06.2026, authentisch.
+
+## Reassurance-Formel zur Enthebung einer Du-Bitte («ist es nicht so schlimm») (belegt Mailbatch 48, authentisch)
+
+Wenn Raphael einen Investor-Du-Kontakt um Anwesenheit bittet, aber die Bitte nicht erzwingen will, koppelt
+er sie mit einer eigenen Entlastung: «Ich denke es wäre gut wenn Du für Fragen auch vor Ort sein könntest.
+Sollte es Dir nicht möglich sein ist es nicht so schlimm, die Preisangaben der Unternehmer werden stabil
+bleiben.» Die Begründung (Preise bleiben stabil, also entsteht kein Schaden durch Abwesenheit) macht die
+Bitte unverbindlich, ohne sie zurückzunehmen — ein Muster für «einladen, aber nicht drängen». Quelle:
+02.06.2026, authentisch.
+
+## Dringlichkeits-Kurzformel + informelle P.S.-Zusatzfrage im Behörden-Sie (belegt Mailbatch 48, authentisch)
+
+Eine Nachfrage an eine Sachbearbeiterin (Sie) zum ausstehenden Vorab-Bauentscheid schliesst mit dem
+unverblümten Einzeiler «Es ist jetzt wirklich dringend.» — keine Umschreibung, keine Business-Floskel. Im
+Anschluss folgt eine zweite, deutlich informellere Frage als P.S.: «P.S: Wer ist jetzt zuständig für mein
+Bauentscheid? Bitte teilen Sie mir die E-Mail mit.» Das P.S. dient als Behälter für eine Nebenfrage, die
+den formellen Hauptkörper nicht verwässern soll. Quelle: 01.06.2026, authentisch.
+
+## Präventive Dankesformel vor der Gegenleistung («bedanke ich mich schon im Voraus») (belegt Mailbatch 48, authentisch)
+
+An einen externen Dienstleister (Sie, Vision Apartments) formuliert Raphael den Dank für eine noch nicht
+erbrachte organisatorische Leistung vorwegnehmend: «Für Ihre Organisation bedanke ich mich schon im
+Voraus.» — eine Variante des bereits belegten «Besten Dank für...»-Markers, hier aber vorausschauend statt
+rückblickend, direkt gefolgt vom bekannten Service-Satz «Bei Fragen oder Unklarheiten stehe ich Ihnen
+jederzeit gerne zur Verfügung.» (damit auch im reinen Sie-Register bestätigt, nicht nur im Du wie bisher
+mehrfach belegt). Quelle: 01.06.2026, authentisch.
+
+## Informeller Typo-Anredefehler in Offertanfrage-Serienmails («Guten <Vorname> <Nachname>») (belegt Mailbatch 48, authentisch)
+
+In einer Serie von 12 nahezu identisch aufgebauten Offertanfrage-Mails (Submissionsrunde Albertstrasse 7,
+diverse Gewerke) öffnet eine Mail mit «Guten Felix Stählin» statt der korrekten Form «Guten Tag Herr
+Stählin» — ein Flüchtigkeits-Slip beim schnellen Durchtippen einer Serienmail, kein Stilmittel. Die
+Bullet-Liste der ausgeschriebenen Arbeiten nutzt «•» als Aufzählungszeichen und «>» als informelle
+Inline-Zusatznotiz («Neue Anschlüsse Waschmaschine Tumbler»), gefolgt vom knappen Schluss «Für Ihren
+Rückruf bin ich Ihnen dankbar.» Diese leicht unpolierte, seriell wiederverwendete Struktur ist klar
+NICHT KI-generiert (kein H2/nummeriertes Muster, kein Assistenz-Schluss) und dient als Negativabgrenzung
+zu Echo-Falle-Mustern. Quelle: 01.06.2026, authentisch.
+
+## Mikro-Metrik Batch 48 (251 W über `stilmetrik.py`, 6 destillierte Kernmails)
+
+Du-Gross-Quote **1.0**; Tausender-Apostroph 0; Ellipsen 0; Satzlänge ø **13.2 W**; Anreden gemischt («Hoi
+Stefi», «Geschätzter Roman», «Geschätzte Frau» [Hottinger], «Geschätzte Undine», «Geschätzter Herr»
+[Gomes] je 1×); Grüsse «Freundliche Grüsse» 6× — bestätigt erneut FG als Standard-Gruss auch im reinen
+Du-Register (Roman, Undine), sobald ein Sach-/Rechnungskern transportiert wird. Quelle: 01.–02.06.2026,
+authentisch.
