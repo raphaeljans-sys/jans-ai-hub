@@ -1,5 +1,15 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-14 — Trainingslauf 16
+- Output `outputs/2026-07-14_training-run16.md`. Dritte Ausloesung desselben Tages (08:39,
+  nach Lauf 14 um 01:10 und Lauf 15 um 05:10) — Scheduling-Drosselung auf 1x/Tag greift
+  weiterhin nicht (Prozess-Beobachtung, ausserhalb KB-Mandat, nicht autonom repariert).
+  **Keine neue reale Spec** seit Lauf 7 (Wettbewerbs-Layer 12.07.). AG-Gruendung-Monitor
+  hat 14.07. 07:47 erneut "nichts Neues" geschrieben (Commit `028ce40b`) — bestaetigt die
+  Lauf-14-Korrektur, dass der Monitor weiterhin taeglich schreibt. Bewusst minimal gehalten:
+  kein vierter Wiederholungs-Sweep, keine erfundene F1/F3-Fuellung, keine Aenderung an
+  Wiki/Rule/Skill.
+
 ## 2026-07-14 — Trainingslauf 15
 - Output `outputs/2026-07-14_training-run15.md`. Redundante Zweit-Ausloesung desselben Tages
   (05:09, nur ~4 Std. nach Lauf 14 um 01:10) — laut Skill-Beschreibung seit 13.07. auf 1x/Tag
