@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 05:28:50
+Stand: 14.07.2026 05:38:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 14.07.2026 05:28:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b1764591 energie-training Run 58: Solarpflicht auf 14/26 Kantone erweitert (VD/GE/TI/SO/VS/SH) — Register einer unterbrochenen Vorgänger-Session nachgeführt
+- 9861a698 normen-training-mini Run 18: CHANGELOG + Abschlussreport

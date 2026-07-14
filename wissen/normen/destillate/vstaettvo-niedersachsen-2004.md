@@ -3,10 +3,10 @@ quelle: "PL - 02_Recht_Norm/02_Normen/DIN_Norm/Sonstiges/041210_vstaett_vo.pdf"
 herausgeber: "Land Niedersachsen (Versammlungsstättenverordnung, gestützt auf §§ 71/87/95 NBauO)"
 ausgabe: "VStättVO Niedersachsen vom 08.11.2004 (Nds. GVBl. Nr. 32 vom 16.11.2004 S. 426)"
 ersetzt: "kein CH-Bezug — deutsches Landesrecht; Schweizer Pendant VKF-BRL 12-15 (Versammlungsstätten-Bestimmungen) + VKF-Brandschutznorm"
-gelesen: "S. 1-31 von 31 (vollständig, §§ 1-49 inkl. Teil 5-7)"
+gelesen: "S. 1-31/31 (vollstaendig)"
 datenstand: "16.11.2004"
-status: "destilliert (vollständig, S.1-31/31)"
-last_updated: 2026-07-13
+status: "established (vervollstaendigt + verifiziert 260714, Retro-Verifikation Run 19, S.1-31/31 vollstaendig)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -45,20 +45,20 @@ Bauten.
 - **§ 3 Abs. 1-2, Bauteile:** tragende/aussteifende Bauteile feuerbeständig
   (erdgeschossig: mind. feuerhemmend, entfällt bei automatischer Feuerlöschanlage);
   Aussenwände mehrgeschossiger Versammlungsstätten aus nichtbrennbaren Baustoffen.
-- **§ 6 Abs. 2, Rettungswege je Geschoss:** mindestens **2 voneinander unabhängige
-  bauliche Rettungswege** je Geschoss/Tribüne; ab **>800 Besucherplätzen je
-  Geschoss** nur diesem Geschoss zugeordnete Rettungswege.
-- **§ 7 Abs. 1, Rettungsweg-Längen:** max. **30 m** vom Besucherplatz zum nächsten
+- **§ 6 Abs. 2/4, Rettungswege je Geschoss:** mindestens **2 voneinander unabhängige
+  bauliche Rettungswege** je Geschoss/Tribüne (Abs. 2); ab **>800 Besucherplätzen je
+  Geschoss** nur diesem Geschoss zugeordnete Rettungswege (Abs. 4).
+- **§ 7 Abs. 1/3, Rettungsweg-Längen:** max. **30 m** vom Besucherplatz zum nächsten
   Ausgang (bei lichter Höhe >5 m: +5 m je 2,5 m zusätzlicher Höhe), absolute
-  Obergrenze **60 m**; Fluren/Foyers max. 30 m bis Ausgang/Treppenraum.
+  Obergrenze **60 m** (Abs. 1); Fluren/Foyers max. 30 m bis Ausgang/Treppenraum (Abs. 3).
 - **§ 7 Abs. 4, Rettungsweg-Breite:** 0,60 m je 300 Personen (Freianlagen/
   Sportstadien) bzw. je 100 Personen (übrige), mind. jedoch **1,20 m**; Ausgänge
   aus Räumen ≤200 m² genügen 0,90 m.
 - **§ 8 Abs. 3/6, Treppen:** max. lichte Breite notwendiger Treppen **2,40 m**;
   **Wendeltreppen für allgemeinen Besucherverkehr unzulässig**.
-- **§ 9 Abs. 4, Türen in Rettungswegen:** Schiebetüren unzulässig (Ausnahme
-  automatische, rettungswegneutrale); Drehtüren/-kreuze zur Vereinzelung
-  unzulässig.
+- **§ 9 Abs. 4/6, Türen in Rettungswegen:** Schiebetüren unzulässig (Ausnahme
+  automatische, rettungswegneutrale, Abs. 4); Drehtüren/-kreuze zur Vereinzelung
+  unzulässig (Abs. 6).
 - **§ 10 Abs. 3-5, Sitzplätze/Gänge:** Sitzplatzbreite min. **0,50 m**, Durchgang
   zwischen Reihen min. **0,40 m**; Blöcke max. **30 Sitzplatzreihen**, dahinter
   Gänge min. **1,20 m** Breite; seitlich max. 10 Sitzplätze je Reihe (Freianlagen/
@@ -70,10 +70,10 @@ Bauten.
   0,6; über 20'000 je weitere 100: 0,4/0,3/0,6.
 - **§ 16 Abs. 3, Rauchabzug ab >1'000 m²:** Entrauchung muss raucharme Schicht
   min. **2,50 m Höhe** auf allen Ebenen ermöglichen.
-- **§ 19 Abs. 3, Automatische Feuerlöschanlage:** Pflicht ab Versammlungsräumen
-  gesamt **>3'600 m²** (Ausnahme: Einzelräume ≤400 m²); Pflicht bei
-  Versammlungsräumen in Kellergeschossen und bei Fussbodenebene **>22 m** über
-  Gelände.
+- **§ 19 Abs. 3/5/6, Automatische Feuerlöschanlage:** Pflicht ab Versammlungsräumen
+  gesamt **>3'600 m²** (Ausnahme: Einzelräume ≤400 m², Abs. 3); Pflicht bei
+  Fussbodenebene **>22 m** über Gelände (Abs. 5) und bei Versammlungsräumen in
+  Kellergeschossen (Abs. 6).
 - **§§ 22-25, Grossbühnen:** eigenes Bühnenhaus (feuerbeständige Trennwand als
   Brandwand), Schutzvorhang (Schliesszeit ≤30 s, hält 450 Pa stand), automatische
   Sprühwasserlöschanlage, Platz für Brandsicherheitswache (min. 1×1 m, Höhe 2,20 m)
@@ -169,3 +169,9 @@ direkt als CH-Grundlage zitieren.
 Vollständig gelesen (S. 1-31/31, §§ 1-49, Lauf normen-training-mini 260713). Referenzierte
 NBauO §§ 71/87/95 (Ermächtigungsgrundlage) und die Anlagen 1/2 (Befähigungsausweis-Muster,
 Gastspielprüfbuch-Formular) sind im vorliegenden PDF nicht im Bestand und wurden nicht geprüft.
+
+**Retro-Verifikation 260714 (Run 19):** Gesamtes Destillat (S. 1-31/31) adversarial gegen das
+Original geprüft. Vier Fundstellen-Ungenauigkeiten in den Kernziffern korrigiert (§ 6, § 7,
+§ 9, § 19 zitierten je nur einen Absatz, obwohl die genannten Fakten aus zwei bzw. drei
+verschiedenen Absätzen stammen). Alle Zahlenwerte, Paragrafen-Inhalte und Begriffe sonst
+korrekt bestätigt, keine erfundenen Inhalte gefunden.

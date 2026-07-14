@@ -5,8 +5,8 @@ ausgabe: "Stand 2010"
 ersetzt: "kein Bezug"
 gelesen: "S. 1-16 (vollständig, reines Abkürzungsglossar A-Z)"
 datenstand: "2010"
-status: established (Glossar vollstaendig gelesen, kein Verifikationsrisiko bei reiner Abkuerzungsliste, Mini-Run 12)
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19: Eintragszahl auf ca. 500 korrigiert, VOF/VOL-Bezeichnung korrigiert (Verdingungsordnung statt Vergabe- und Vertragsordnung), NORM SIA vs. SIA Zitat-Zuordnung korrigiert, TRPV-Wortlaut korrigiert, EnEV-Bezeichnung praezisiert, BMZ-Doppelbedeutung ergaenzt)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -15,7 +15,8 @@ links: [[REGISTER]]
 ## Das Wichtigste in 3 Sätzen
 
 Kein eigentliches Normwerk, sondern ein alphabetisches **Abkürzungsglossar** aus dem
-Beuth/Rudolf-Müller-Werk «Planen und Bauen» (ca. 300 Einträge), das deutsche
+Beuth/Rudolf-Müller-Werk «Planen und Bauen» (ca. 500 Einträge über 16 Seiten A-Z),
+das deutsche
 Bauordnungs-, Vertrags- und Verbandskürzel auflöst (Landesbauordnungen, VOB/VOF/VOL,
 Normenausschüsse im DIN, HOAI/GOA/GOI-Honorarordnungen, technische Regelwerke wie
 TRAV/TRLV/TRPV, Kürzel wie GRZ/GFZ/BMZ/BGF/HNF/NRI). Dient als reines
@@ -32,28 +33,35 @@ Kein Ziffern-/Kennwerte-Inhalt (Glossar). Ausgewählte, für JANS-Projekte relev
 Einträge:
 
 - **GRZ / GFZ / BMZ:** Grundflächenzahl / Geschossflächenzahl / Baumassenzahl (siehe
-  `baunvo-1990.md`).
+  `baunvo-1990.md`). Achtung Doppelbedeutung: Das Glossar führt **BMZ** ausdrücklich
+  auch als «Brandmeldezentrale» (zweite Bedeutung, Kontext beachten).
 - **BGF / NGF / HNF / NRI / BRI:** Bruttogrundfläche / Netto-Grundfläche /
   Hauptnutzfläche / Nettoraumin­halt / Bruttorauminhalt.
 - **HOAI / GOA / GOI:** Honorarordnung für Architekten und Ingenieure /
   Gebührenordnung für Architekten / Gebührenordnung für Ingenieure — deutsches
   Pendant zu SIA 102/103.
 - **VOB / VOF / VOL:** Vergabe- und Vertragsordnung für Bauleistungen /
-  für freiberufliche Leistungen / für Leistungen — deutsches Pendant zu SIA 118 +
-  Beschaffungsrecht.
+  Verdingungsordnung für freiberufliche Leistungen / Verdingungsordnung für
+  Leistungen — deutsches Pendant zu SIA 118 + Beschaffungsrecht (Korrektur: VOF/VOL
+  heissen im Original «Verdingungsordnung», nicht «Vergabe- und Vertragsordnung»).
 - **MBO / BauO Bln / HBO / BayBauO / ThürBO / SächsBO / LBauO / LBO / BbgBO:**
   Musterbauordnung + diverse Landesbauordnungen (Föderalismus D: 16 eigenständige
   Bauordnungen je Bundesland, anders als CH mit je 26 kantonalen PBG).
-  Bemerkenswert: **NORM SIA = «Schweizerischer Ingenieur- und Architektenverein»**
-  wird im deutschen Glossar selbst referenziert — Beleg für die grenzübergreifende
+  Bemerkenswert: Das deutsche Glossar führt zwei eigenständige Einträge zur SIA —
+  **SIA = «Schweizerischer Ingenieur- und Architektenverein»** und
+  **NORM SIA = «Schweizerische Norm des Ingenieur- und Architektenverbandes»**
+  (Korrektur: das Zitat «Schweizerischer Ingenieur- und Architektenverein» gehört
+  zum Eintrag SIA, nicht zu NORM SIA) — Beleg für die grenzübergreifende
   Vergleichbarkeit der Normwerke.
-- **TRAV / TRLV / TRPV:** Technische Regeln für die Verwendung
-  absturzsichernder/linienförmig gelagerter/punktförmig gelagerter Verglasungen.
+- **TRAV / TRLV / TRPV:** Technische Regeln für die Verwendung von
+  absturzsichernden / linienförmig gelagerten Verglasungen; TRPV weicht im Wortlaut
+  ab: «Technische Regeln für die Bemessung und die Ausführung punktförmig
+  gelagerter Verglasungen» (nicht «Verwendung»).
 - **DIBt:** Deutsches Institut für Bautechnik, Berlin (zentrale Zulassungsstelle,
   vergleichbar Schweizer VKF-Anerkennung im Brandschutzbereich).
-- **EnEG / EnEV / WärmeschutzV:** Energieeinsparungsgesetz / -verordnung /
-  Wärmeschutzverordnung — deutsches Pendant zu SIA 380/1 + kantonalem
-  Energienachweis.
+- **EnEG / EnEV / WärmeschutzV:** Energieeinsparungsgesetz / Energieeinsparverordnung
+  (nicht «Energieeinsparungsverordnung») / Wärmeschutzverordnung — deutsches Pendant
+  zu SIA 380/1 + kantonalem Energienachweis.
 
 ## Begriffe
 

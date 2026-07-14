@@ -7,8 +7,8 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-24 von 24 (vollständig)"
 datenstand: 2026-07-13
-status: destilliert (Register, kein eigenständiges Normwerk)
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19; Korrektur: fehlender Eintrag DIN V 106 [2005-10, Kalksandsteine mit besonderen Eigenschaften] zwischen DIN 105-100 und DIN 107 ergänzt, sonst Volltextabgleich aller ~450 Einträge gegen Original bestätigt)"
+last_updated: "2026-07-14"
 ---
 
 ## Das Wichtigste in 3 Sätzen
@@ -25,6 +25,7 @@ Reihenfolge wie im Original (grob numerisch/alphabetisch nach Präfix DIN → DI
 |---|---|---|
 | DIN 105-5 | 1984-05 | Mauerziegel; Leichtlanglochziegel und -platten |
 | DIN 105-100 | 2012-01 | Mauerziegel mit besonderen Eigenschaften |
+| DIN V 106 | 2005-10 | Kalksandsteine mit besonderen Eigenschaften |
 | DIN 107 | 1974-04 | Bezeichnung links/rechts im Bauwesen |
 | DIN 272 | 1986-02 | Prüfung von Magnesiaestrich |
 | DIN 276-1 | 2008-12 | Kosten im Bauwesen, Teil 1: Hochbau |

@@ -5,8 +5,8 @@ ausgabe: "BauNVO, Neufassung Bek. v. 23.01.1990 (BGBl. I S. 132), geändert Art.
 ersetzt: "kein CH-Bezug — deutsches Bundesrecht, kein direktes Schweizer Pendant (näheste CH-Entsprechung: kantonale BZO + PBG-Nutzungszonen)"
 gelesen: "S. 1-14 (vollständig, Gesamtumfang 14 Seiten, §§ 1-27)"
 datenstand: "22.04.1993 (letzte Änderung im vorliegenden Ausdruck)"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19 — Korrektur: Baugebiets-Katalog § 1 Abs. 2, besondere Wohngebiete WB ist bereits 4. Position im Katalog selbst, nicht nur nachtraeglich via § 4a ergaenzt)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -34,10 +34,12 @@ Schlussvorschriften.
 
 ## Kernziffern mit Fundstellen
 
-- **§ 1 Abs. 2, Baugebiets-Katalog (S. 2):** 10 Baugebietstypen — Kleinsiedlung
-  (WS), reines Wohngebiet (WR), allgemeines Wohngebiet (WA), Dorfgebiet (MD),
+- **§ 1 Abs. 2, Baugebiets-Katalog (S. 2):** 10 Baugebietstypen, in dieser
+  Reihenfolge im Gesetzestext — Kleinsiedlungsgebiet (WS), reines Wohngebiet (WR),
+  allgemeines Wohngebiet (WA), besonderes Wohngebiet (WB, als 4. Position bereits
+  Teil des § 1 Abs. 2-Katalogs, materiell geregelt in § 4a), Dorfgebiet (MD),
   Mischgebiet (MI), Kerngebiet (MK), Gewerbegebiet (GE), Industriegebiet (GI),
-  Sondergebiet (SO); ergänzt durch § 4a besondere Wohngebiete (WB).
+  Sondergebiet (SO).
 - **§§ 2-9, Zulässigkeit je Gebietstyp:** jeweils Zweckbestimmung, Regelzulässigkeit
   (Abs. 2) und Ausnahmetatbestände (Abs. 3) — z.B. Kerngebiet (§ 7): vorwiegend
   Handel/zentrale Einrichtungen Wirtschaft/Verwaltung/Kultur, Wohnungen nur für

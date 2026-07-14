@@ -5,8 +5,8 @@ ausgabe: "NBauO §§ 45/48 (Rechtsstand 26.06.2012); DVNBauO §§ 18/29, Fassung
 ersetzt: "kein Bezug zur Schweiz — deutsches Landesrecht Niedersachsen, kein CH-Pendant in dieser Systematik"
 gelesen: "je 1-2 S. Einzelnorm-Ausdrucke (VORIS/Wolters Kluwer), vollständig"
 datenstand: "26.06.2012 (Ausdruck), Rechtsgrundlage DVNBauO 1987/2004"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19; korrigiert: § 45 Abs. 2+4 ergaenzt, § 48 Ziff. 2 'Sparkassen' + Ziff. 13 Satz 2 ergaenzt, § 18 Abs. 5 DVNBauO Regelungsadressaten § 36 Abs. 2 vs. Abs. 3 NBauO praezisiert, § 29 Abs. 3 DVNBauO Bezug auf rollstuhlgerechte Wohnungen ergaenzt)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -28,20 +28,32 @@ lesbar, ersetzt diese aber nicht.
 
 ## Geltungsbereich
 
-- **§ 45 NBauO** — jede Wohnung: mind. 1 Toilette; Betriebs-/Arbeitsstätten und
-  Anlagen für grösseren Personenkreis: ausreichende Anzahl; in Fällen des § 48
-  ausreichende Zahl barrierefrei zugänglicher Toilettenräume.
+- **§ 45 NBauO** (Toilettenräume und Bäder, vollständig) — Abs. 1: jede Wohnung
+  mind. 1 Toilette; Betriebs-/Arbeitsstätten und Anlagen für grösseren
+  Personenkreis: ausreichende Anzahl. Abs. 2: Toilettenräume müssen ausreichend
+  gross sein und nach Lage/Einrichtung den Anforderungen der Hygiene und des
+  Anstandes genügen; Toiletten ohne Wasserspülung innerhalb von Gebäuden nur
+  zulässig, wenn Spültoiletten nicht möglich sind, Ausnahme bei fehlenden
+  gesundheitlichen Bedenken und ausgeschlossener Grundwassergefährdung. Abs. 3:
+  in Fällen des § 48 ausreichende Zahl barrierefrei zugänglicher Toilettenräume
+  (§ 48 Abs. 3 gilt sinngemäss). Abs. 4: jede Wohnung muss Badewanne oder Dusche
+  haben, wenn ausreichende Wasserversorgung und Abwasserbeseitigung möglich ist
+  (Abs. 2 Satz 1 gilt sinngemäss).
 - **§ 48 Abs. 1 NBauO** — abschliessender Katalog (Ziff. 1-13) von Bautypen mit
   Barrierefreiheits-Pflicht für Rollstuhlfahrer, alte Menschen, Personen mit
   Kleinkindern: Büro-/Verwaltungsgebäude/Gerichte mit Publikumsverkehr (1); Schalter/
-  Abfertigung Verkehr/Versorgung/Banken (2); Theater/Museen/Bibliotheken/Freizeit-
+  Abfertigung Verkehr/Versorgung/Banken und Sparkassen (2); Theater/Museen/Bibliotheken/Freizeit-
   heime/Gemeinschaftshäuser/Versammlungsstätten/Gottesdienst (3); Verkaufs-/
   Gaststätten (4); Schulen/Hochschulen/Ausbildungsstätten (5); Krankenanstalten/
   Praxisräume Heilberufe/Kureinrichtungen (6); Tagesstätten/Heime für Behinderte,
   alte Menschen, Kinder (7); Altenwohnungen (bei ≤2 Vollgeschossen nur EG) (8);
   Sport-/Spiel-/Erholungsanlagen für Allgemeinheit (9); Campingplätze >200 Standplätze
   (10); Geschosse mit Aufenthaltsräumen (nicht Wohnen) >500 m² Nutzfläche (11);
-  öffentliche Bedürfnisanstalten (12); Stellplätze/Garagen/Parkhäuser zu 1-11 (13).
+  öffentliche Bedürfnisanstalten (12); Stellplätze/Garagen/Parkhäuser zu 1-11 (13,
+  mit eigener Pflicht direkt in § 48 Abs. 1 Ziff. 13 Satz 2: eine dem Bedarf
+  entsprechende Zahl von Einstellplätzen/Standplätzen muss für Behinderte
+  hergerichtet und gekennzeichnet sein — ergänzt/konkretisiert durch die
+  Staffelregel in § 29 Abs. 3 DVNBauO unten).
 - **§ 18 DVNBauO** — bautechnische Anforderungen an Aufzugsanlagen (zu § 36 NBauO).
 - **§ 29 DVNBauO** — Detailanforderungen Zugänglichkeit/Benutzbarkeit (zu §§ 44/45/48
   NBauO): stufenlose Erreichbarkeit, barrierefreie Toiletten, barrierefreie
@@ -67,11 +79,15 @@ lesbar, ersetzt diese aber nicht.
   verhindern Feuer-/Rauchübertritt in andere Geschosse; Rauchabzug an oberster Stelle
   ins Freie, freier Querschnitt ≥ 2,5 % der Schacht-Grundfläche, mind. 0,1 m²;
   Triebwerksraum feuerbeständig abgetrennt, Türen mind. feuerhemmend.
-- **§ 18 Abs. 5 DVNBauO — Fahrkorb-Mindestmasse:** Rollstuhl-Aufzug min.
-  **1,10 m × 1,40 m**; Aufzug für Rollstühle UND Krankentragen min.
-  **1,10 m × 2,10 m** (nicht benötigter Teil für Rollstühle darf durch
-  verschliessbare Tür abgesperrt werden); Kapazität: 1 Fahrkorbplatz je 20 auf den
-  Aufzug angewiesene Personen (§ 36 Abs. 2 NBauO).
+- **§ 18 Abs. 5 DVNBauO — zwei getrennte Regelungsadressaten, nicht verwechseln:**
+  (a) Kapazitätsregel fuer Aufzüge, die nach **§ 36 Abs. 2 NBauO** erforderlich
+  sind: 1 Fahrkorbplatz je 20 auf diesen Aufzug angewiesene Personen. (b)
+  Fahrkorb-Mindestmasse fuer Aufzüge, die nach **§ 36 Abs. 3 NBauO** Rollstühle
+  UND Krankentragen aufzunehmen haben (ein Aufzugstyp, nicht zwei getrennte):
+  Fahrkorbgrundfläche fuer den Rollstuhl-Teil min. **1,10 m × 1,40 m**, fuer den
+  Krankentragen-Teil (Gesamtflaeche) min. **1,10 m × 2,10 m**; der fuer
+  Rollstühle nicht erforderliche Teil der Fahrkorbgrundfläche darf durch eine
+  verschliessbare Tür abgesperrt werden.
 - **§ 29 Abs. 1 DVNBauO:** barrierefreie/rollstuhlgerechte Wohnungen (§ 44 Abs. 3
   NBauO) und bauliche Anlagen nach § 48 Abs. 1 NBauO müssen von öffentlichen
   Verkehrsflächen über mind. 1 Zugang stufenlos erreichbar sein; ist nur ein Aufzug
@@ -79,9 +95,12 @@ lesbar, ersetzt diese aber nicht.
 - **§ 29 Abs. 2 DVNBauO:** in Anlagen nach § 48 Abs. 1 Ziff. 1-7 und 9-11 muss
   mindestens eine der nach § 45 Abs. 1 Satz 2 NBauO erforderlichen Toiletten
   barrierefrei zugänglich, ausgestattet und gekennzeichnet sein.
-- **§ 29 Abs. 3 DVNBauO — Einstellplätze:** mind. 1 barrierefreier Einstellplatz je
-  Anlage nach § 48 Abs. 1 Ziff. 1-11; ab 100 notwendigen Einstellplätzen je
-  angefangene 100 mindestens 1 weiterer barrierefreier Platz.
+- **§ 29 Abs. 3 DVNBauO — Einstellplätze:** mind. 1 barrierefreier Einstellplatz
+  sowohl fuer rollstuhlgerechte Wohnungen (§ 44 Abs. 3 Satz 2 NBauO) als auch je
+  Anlage nach § 48 Abs. 1 Ziff. 1-11; sind mehr als 100 Einstellplätze notwendig,
+  muss je angefangene 100 Einstellplätze mindestens 1 Einstellplatz die
+  Barrierefrei-Anforderungen erfuellen (Verhaeltniszahl, nicht kumulativ additiv
+  zur Basisanforderung).
 
 ## Begriffe
 

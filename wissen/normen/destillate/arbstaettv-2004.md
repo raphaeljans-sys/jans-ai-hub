@@ -5,8 +5,8 @@ ausgabe: "ArbStättV vom 12.08.2004 (BGBl. I S. 2179), zuletzt geändert Art. 4 
 ersetzt: "kein CH-Bezug — deutsches Bundesrecht; Schweizer Pendant: ArGV 3 (Verordnung 3 zum Arbeitsgesetz, Gesundheitsvorsorge) + SECO-Wegleitung"
 gelesen: "S. 1-12 (vollständig inkl. Anhang, Gesamtumfang 12 Seiten)"
 datenstand: "19.07.2010 (letzte Änderung im vorliegenden Ausdruck)"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19) — 2 Fundstellen-Seitenzahlen korrigiert (§ 6 Abs. 3: S. 6 → S. 4; Anhang 1.2: S. 6 → S. 6-7), 1 Fehlzuordnung korrigiert (Geschlechtertrennung Sanitärräume war faelschlich Anhang 4.1/S. 10 zugeordnet, ist aber § 6 Abs. 2/S. 4)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -47,13 +47,13 @@ Feldern/Wäldern ausserhalb bebauter Fläche land-/forstwirtschaftlicher Betrieb
   berücksichtigen — explizit **barrierefreie Gestaltung von Arbeitsplätzen,
   zugehörigen Türen, Verkehrswegen, Fluchtwegen, Notausgängen, Treppen,
   Orientierungssystemen, Waschgelegenheiten, Toilettenräumen**.
-- **§ 6 Abs. 3, Pausenraum-Pflicht (S. 6):** ab mehr als 10 Beschäftigten (oder bei
+- **§ 6 Abs. 3, Pausenraum-Pflicht (S. 4):** ab mehr als 10 Beschäftigten (oder bei
   Sicherheits-/Gesundheitsgründen) Pausenraum/-bereich bereitzustellen; Ausnahme bei
   Büroräumen mit gleichwertigen Erholungsbedingungen.
 - **§ 8 Abs. 2, Übergangsfrist Arbeitsstättenrichtlinien:** bis längstens
   31.12.2012 fort in Geltung (Fristablauf inzwischen erreicht — bei Anwendung
   aktuelle Fassung/ASR prüfen).
-- **Anhang Ziff. 1.2, Abmessungen Räume (S. 6):** ausreichende Grundfläche + lichte
+- **Anhang Ziff. 1.2, Abmessungen Räume (S. 6-7):** ausreichende Grundfläche + lichte
   Höhe in Abhängigkeit der Raumgrösse; Luftraum nach körperlicher Beanspruchung und
   Personenzahl.
 - **Anhang Ziff. 1.7-1.8, Türen/Verkehrswege (S. 7-8):** durchsichtige Türen in
@@ -66,9 +66,12 @@ Feldern/Wäldern ausserhalb bebauter Fläche land-/forstwirtschaftlicher Betrieb
   aussen öffnen; **Karussell-/Schiebetüren in reinen Notausgängen unzulässig**.
 - **Anhang Ziff. 4.1, Sanitärräume (S. 10):** Toilettenräume mit verschliessbaren
   Zugängen, ausreichender Anzahl Toilettenbecken/Handwaschgelegenheiten, in Nähe der
-  Arbeitsplätze UND Pausen-/Bereitschafts-/Umkleideräume; getrennte
-  Umkleide-/Wasch-/Toilettenräume nach Geschlecht, ausser bei wenigen Beschäftigten
-  im Freien/auf Baustellen.
+  Arbeitsplätze UND Pausen-/Bereitschafts-/Umkleideräume.
+- **§ 6 Abs. 2, Geschlechtertrennung Sanitärräume (S. 4):** Umkleide-, Wasch- und
+  Toilettenräume sind fuer Männer und Frauen getrennt einzurichten oder es ist eine
+  getrennte Nutzung zu ermöglichen; bei Arbeiten im Freien und auf Baustellen mit
+  wenigen Beschäftigten sind Waschgelegenheiten und abschliessbare Toiletten
+  ausreichend.
 - **Anhang Ziff. 5.2, Zusätzliche Anforderungen Baustellen (S. 11-12):** Witterungs-
   schutz, Verpflegungsmöglichkeit, Trinkwasser/alkoholfreies Getränk; bei Ausschach-
   tungen/Tunnelarbeiten geeignete Verschalungen; bei Sauerstoffmangel-Gefahr externe

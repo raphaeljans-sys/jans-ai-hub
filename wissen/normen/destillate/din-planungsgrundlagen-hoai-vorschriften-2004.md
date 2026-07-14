@@ -7,8 +7,8 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-42 von 42 (vollständig)"
 datenstand: 2026-07-13
-status: established (vollständig, S.1-42/42, Verifikations-Sichtpruefung Mini-Run 12: keine Beanstandung)
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19: beanstandet-korrigiert — §86 MBO war LP2 statt LP3 zugeordnet, LP7-Kostenvergleich fälschlich als „Kostenvoranschlag aus LP7" statt Kostenberechnung aus LP3 bezeichnet, §6 Abs.7 MBO Stützmauern-Ausnahme und 15-m-Schranken-Umfang ungenau, §65 Abs.2 Nr.4 MBO Bediensteter-Bedingung fehlte, LP8 Rechnungsprüfung/Verjährungsfristen-Auflistung fehlten, LP3-Abschnitt um DIN-Normenkatalog + Kostenberechnung/§37-Wirtschaftlichkeitsberechnung ergänzt, DIN-18205-Aussage von „häufigste Ursache" auf „oft" korrigiert)"
+last_updated: "2026-07-14"
 ---
 
 ## Das Wichtigste in 3 Sätzen
@@ -94,10 +94,12 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
 - **DIN 18205 „Bedarfsplanung im Bauwesen"** (S. 9-10): methodische Ermittlung der
   Bedürfnisse von Bauherrn/Nutzern und deren Umsetzung in bauliche Anforderungen. Ist NICHT
   Teil der Grundlagenermittlung des Planers, sondern liegt im Verantwortungsbereich des
-  Bauherrn (kann Bedarfsplaner/Architekt/Ingenieur beauftragen). Ungenügende Bedarfsplanung
-  gilt als häufigste Ursache für Bauprobleme.
+  Bauherrn (kann Bedarfsplaner/Architekt/Ingenieur beauftragen). Liegt beim Bauen ein Problem
+  vor, liegt das laut Quelle „oft" an ungenügender Bedarfsplanung (**korrigiert 260714**:
+  Original spricht von „oft", nicht von der «häufigsten Ursache» — destillat hatte das
+  zugespitzt).
 
-### 2.1.2 Vorplanung (LP2) — S. 10-15
+### 2.1.2 Vorplanung (LP2) — S. 9-14
 
 - Setzt die wesentlichen Ziele/Prioritäten fest und bestimmt entscheidend die
   Wirtschaftlichkeit; spätere Phasen können nur noch teilweise eingreifen (S. 10).
@@ -131,14 +133,16 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   - Ausser Betracht bleiben vortretende Bauteile (Gesimse/Dachüberstände) und Vorbauten
     (max. 1/3 der Aussenwandbreite, max. 1,50 m vortretend, min. 2 m Abstand zur
     Nachbargrenze) (Abs. 6).
-  - Ohne eigene Abstandsflächen zulässig in Abstandsflächen: Garagen/Gebäude ohne
-    Aufenthaltsräume/Feuerstätten bis 3 m mittlere Wandhöhe und max. 9 m Gesamtlänge je
-    Grundstücksgrenze, ebenso gebäudeunabhängige Solaranlagen bis 3 m Höhe/9 m Länge,
-    Stützmauern/geschlossene Einfriedungen bis 2 m Höhe (Abs. 7); Gesamtlänge aller solchen
-    grenznahen Bauten pro Grundstück höchstens 15 m.
-  - **§ 86 MBO (Örtliche Bauvorschriften)**, S. 16-17: Gemeinden können per Satzung u.a.
-    von § 6 abweichende Abstandsflächentiefen regeln, wenn dies der Gestaltung des Ortsbildes
-    dient und ausreichende Belichtung/Brandschutz gewährleistet sind.
+  - Ohne eigene Abstandsflächen zulässig in Abstandsflächen (Abs. 7, Ziff. 1-3): Garagen/
+    Gebäude ohne Aufenthaltsräume/Feuerstätten bis 3 m mittlere Wandhöhe und max. 9 m
+    Gesamtlänge je Grundstücksgrenze (Ziff. 1), ebenso gebäudeunabhängige Solaranlagen bis
+    3 m Höhe/9 m Länge je Grundstücksgrenze (Ziff. 2); Stützmauern/geschlossene Einfriedungen
+    in Gewerbe- und Industriegebieten **ohne** Höhenbegrenzung, ausserhalb dieser Baugebiete
+    bis 2 m Höhe (Ziff. 3, **korrigiert 260714**: kein pauschales 2-m-Limit, sondern nur
+    ausserhalb Gewerbe-/Industriegebieten). Die Gesamtlänge-Schranke von 15 m gilt **nur für
+    die grenznah nicht abstandsflächenkonforme Bebauung nach Ziff. 1 und 2** (Garagen/Gebäude
+    + Solaranlagen), **nicht** für Stützmauern/Einfriedungen nach Ziff. 3 (**korrigiert
+    260714**: destillat hatte die 15-m-Schranke fälschlich auf alle drei Kategorien bezogen).
 - Kostenschätzung bereits in LP2 Pflicht (nur überschlägig, aber immer anzustellen), Bezug:
   **DIN 276-1** (Kosten im Bauwesen — Teil 1: Hochbau), **DIN 277** (Grundflächen und
   Rauminhalte von Bauwerken im Hochbau), **DIN 18960** (Nutzungskosten im Hochbau),
@@ -153,17 +157,17 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   Energie, Biomasse/Sonnenkollektoren/Wärmepumpen/Photovoltaik.
 - DIN 69900 (Projektmanagement — Netzplantechnik) für Zeit-/Organisationspläne (S. 16).
 
-### 2.1.3 Entwurfsplanung (LP3) — S. 17-20
+### 2.1.3 Entwurfsplanung (LP3) — S. 14-19
 
 - Durcharbeitung des Planungskonzepts (aus LP2) unter städtebaulichen, gestalterischen,
   funktionalen, technischen, bauphysikalischen, wirtschaftlichen, energiewirtschaftlichen,
-  biologischen und ökologischen Anforderungen bis zum vollständigen Entwurf (S. 17-18).
+  biologischen und ökologischen Anforderungen bis zum vollständigen Entwurf (S. 14-15).
 - Genannte DIN-Normen: DIN 4172 (Massordnung im Hochbau), DIN 18100 (Türen; Wandöffnungen
-  für Türen), DIN 33402-1 (Ergonomie — Körpermasse des Menschen), DIN 69900 (S. 18).
-- **§ 9 MBO (Gestaltung)**, S. 18: bauliche Anlagen müssen nach Form, Massstab, Verhältnis
+  für Türen), DIN 33402-1 (Ergonomie — Körpermasse des Menschen), DIN 69900 (S. 15).
+- **§ 9 MBO (Gestaltung)**, S. 15: bauliche Anlagen müssen nach Form, Massstab, Verhältnis
   der Baumassen und Bauteile zueinander, Werkstoff und Farbe so gestaltet sein, dass sie nicht
   verunstaltend wirken; dürfen Strassen-, Orts- und Landschaftsbild nicht verunstalten.
-- Umfangreiche DIN-Liste Wärme-/Schall-/Brandschutz (S. 18): DIN 4108-1 bis -10
+- Umfangreiche DIN-Liste Wärme-/Schall-/Brandschutz (S. 15): DIN 4108-1 bis -10
   (Wärmeschutz und Energie-Einsparung: Grössen, Mindestanforderungen, Feuchteschutz,
   Bemessungswerte, Jahresheizwärmebedarf, Luftdichtheit, Wärmedämmstoffe), DIN 4109 +
   Beiblätter 1-3 (Schallschutz im Hochbau: Anforderungen/Nachweise, Ausführungsbeispiele,
@@ -171,6 +175,59 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   im Städtebau), DIN 4102-1 bis -4 (Brandverhalten von Baustoffen und Bauteilen:
   Baustoffe, Bauteile, Brandwände/nichttragende Aussenwände, Zusammenstellung klassifizierter
   Baustoffe/Bauteile/Sonderbauteile).
+- **Ergänzung 260714 (Retro-Verifikation, fehlte vollständig):** Der Leitfaden Nachhaltiges
+  Bauen (federführend Bundesministerium für Verkehr, Bau und Stadtentwicklung, mit BMU;
+  www.nachhaltigesbauen.de) benennt als Schutzziele Boden/Luft/Wasser, Natur/Landschaft,
+  stoffliche/energetische Ressourcen, Klima, Kapitalerhalt, niedrige Betriebs-/Unterhaltskosten,
+  menschliche Gesundheit, soziale/kulturelle Werte (S. 16) — ganzheitliches Denken muss von
+  der ersten Planungsüberlegung bis zum Nutzungsende reichen, statt einen «schlechten» Entwurf
+  nachträglich energetisch/ökologisch «nachzubessern».
+  Weitere in LP3 genannte DIN-Normen (S. 16): DIN 5034 (Tageslicht in Innenräumen), DIN 15306
+  (Personenaufzüge für Wohngebäude), DIN 18012 (Haus-Anschlusseinrichtungen), DIN 18013
+  (Nischen für Zählerplätze), DIN 18015 (Elektrische Anlagen in Wohngebäuden), DIN 18017
+  (Lüftung von Bädern/Toiletten ohne Aussenfenster), DIN 18024 (Barrierefreies Bauen),
+  DIN 18025 (Barrierefreie Wohnungen), DIN 18034 (Spielplätze/Freiflächen zum Spielen),
+  DIN 18065 (Gebäudetreppen), DIN 18069 (Tragbolzentreppen für Wohngebäude), DIN 18100
+  (Wandöffnungen für Türen), DIN 18160 (Abgasanlagen), DIN EN 1116 (Koordinationsmasse für
+  Küchenmöbel/-geräte). Zur Integration weiterer Fachplaner-Leistungen (S. 16): DIN 1055
+  (Einwirkungen auf Tragwerke), DIN 1986 (Entwässerungsanlagen für Gebäude/Grundstücke),
+  DIN EN 12056 (Schwerkraftentwässerungsanlagen in Gebäuden), DIN 4149 (Bauten in deutschen
+  Erdbebengebieten), DIN V 4701-10 (Energetische Bewertung heiz-/raumlufttechnischer Anlagen).
+  Die Objektbeschreibung nach **DIN 276** (Kosten im Bauwesen) kann als systematische
+  Gliederungsgrundlage dienen (S. 16).
+  Zeichnerische Darstellung des Gesamtentwurfs (S. 17): DIN 107 (Bezeichnung mit links/rechts
+  im Bauwesen), DIN 919-1 (Technische Zeichnungen Holzverarbeitung), DIN 1356-1 (Bauzeichnungen
+  — Arten, Inhalte, Grundregeln), DIN EN ISO 4157-1/-2/-3 (Bezeichnungssysteme Gebäude/
+  Gebäudeteile, Raum-Namen/-Nummern, Raum-Kennzeichnungen), DIN EN ISO 11091 (Zeichnungen für
+  Aussenanlagen), DIN ISO 4172 (Zusammenbau vorgefertigter Teile), DIN ISO 7437
+  (Fertigungszeichnungen für vorgefertigte Teile), DIN ISO 8560 (Darstellung modularer Grössen/
+  Linien/Raster), DIN ISO 9431 (Anordnung von Darstellungen/Texten/Schriftfeldern).
+  **§ 86 MBO (Örtliche Bauvorschriften)**, S. 17-18 (**korrigiert 260714**: destillat hatte
+  diese Fundstelle fälschlich unter 2.1.2 Vorplanung/LP2 eingeordnet — sie steht im Original
+  im Abschnitt «Verhandlungen mit Behörden usw.» der LP3/Entwurfsplanung): Gemeinden können
+  durch Satzung örtliche Bauvorschriften erlassen über u.a. Gestaltung baulicher Anlagen/
+  Werbeanlagen (Abs. 1 Ziff. 1-2), Lage/Grösse/Beschaffenheit von Kinderspielplätzen (Ziff. 3),
+  Zahl/Grösse/Beschaffenheit notwendiger Stellplätze inkl. Ablösungsbeträge (Ziff. 4),
+  Gestaltung der Plätze für Abfallbehälter (Ziff. 5), von § 6 abweichende
+  Abstandsflächentiefen, wenn dies der Gestaltung des Ortsbildes dient und ausreichende
+  Belichtung/Brandschutz gewährleistet sind (Ziff. 6), Begrünung baulicher Anlagen (Ziff. 7);
+  auch durch Bebauungsplan oder sonstige städtebauliche Satzung nach BauGB möglich (Abs. 2).
+  **Kostenberechnung nach DIN 276** (S. 18): muss die Grundlage für die endgültige
+  Finanzierung bieten, die durch die Planung verursachten Kosten sind so genau wie möglich
+  darzustellen; Baukosteninformationen z.B. beim Baukosteninformationszentrum Deutscher
+  Architektenkammern GmbH (info@baukosten.de). Als Besondere Leistungen: Analyse der
+  Alternativen/Varianten und deren Wertung mit Kostenuntersuchung, Kostenberechnungen durch
+  Aufstellen von Mengengerüsten oder Bauelementkatalog — Beispiel einer Elementgliederung der
+  Kostengruppe 3 DIN 276 nach dem Baukostenberatungsdienst der Architektenkammer
+  Baden-Württemberg (S. 18). Die Kostenkontrolle durch Vergleich der Kostenberechnung mit der
+  Kostenschätzung (aus LP2) dient der Transparenz über die voraussichtlichen Baukosten (S. 18).
+  **§ 37 Gesamtwirtschaftlichkeitsberechnung (II. Berechnungsverordnung)**, S. 19: Gegenüber-
+  stellung der laufenden Aufwendungen und Erträge für das gesamte Gebäude/die Wirtschaftseinheit,
+  Ausgliederung des auf öffentlich geförderten Wohnraum entfallenden Anteils; Bewirtschaftungs-
+  kosten für Geschäftsraum sind gesondert anzusetzen (Abs. 1-4). Energieeinsparung als
+  Besondere Leistung LP3 (S. 19): konstruktive/kostenmässige Auswirkungen der in LP2
+  erarbeiteten Konzepte sind so auszuarbeiten, dass sie Grundlage für Baubeschreibung,
+  Kostenberechnung und Dimensionierung der technischen Ausrüstung bilden.
 
 ### 2.1.4 Genehmigungsplanung (LP4) — S. 20-31
 
@@ -192,9 +249,16 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
 - **§ 68 MBO (Bauantrag, Bauvorlagen)**, S. 24: schriftlich bei unterer Bauaufsichtsbehörde;
   Bauherr UND Entwurfsverfasser haben zu unterschreiben; bei Fachplaner-Unterlagen auch diese.
 - **§ 65 MBO (Bauvorlageberechtigung)**, S. 24-25: bauvorlageberechtigt ist u.a., wer die
-  Berufsbezeichnung „Architekt" führen darf, in der Liste der Bauvorlageberechtigten
-  eingetragen ist, oder als Innenarchitekt/Bauingenieur mit qualifizierendem Hochschulabschluss
-  und mindestens 2 Jahren praktischer Tätigkeit in der Entwurfsplanung von Gebäuden gilt.
+  Berufsbezeichnung „Architekt" führen darf und in der Liste der Bauvorlageberechtigten
+  eingetragen ist (Abs. 2 Nr. 2), wer die Berufsbezeichnung „Innenarchitekt" führen darf
+  (nur für die mit dessen Berufsaufgabe verbundenen baulichen Änderungen von Gebäuden,
+  Abs. 2 Nr. 3), oder wer einen berufsqualifizierenden Hochschulabschluss der Fachrichtung
+  Architektur/Hochbau/Bauingenieurwesen nachweist, danach mindestens 2 Jahre praktisch in
+  der Entwurfsplanung von Gebäuden tätig war **und Bediensteter einer juristischen Person
+  des öffentlichen Rechts ist, für die dienstliche Tätigkeit** (Abs. 2 Nr. 4;
+  **korrigiert 260714**: destillat hatte diese Variante als allgemeine Bauingenieur-
+  Zulassung dargestellt — sie gilt gemäss Wortlaut nur für Bedienstete öffentlich-rechtlicher
+  Körperschaften, z.B. Bauamts-Mitarbeitende, nicht für freischaffende Bauingenieure).
   EU-Anerkennung nach Richtlinie 2005/36/EG (S. 25-26).
 - **§ 66 MBO (Bautechnische Nachweise)**, S. 26-27: Einhaltung der Anforderungen an
   Standsicherheit, Brand-, Schall-, Wärme- und Erschütterungsschutz ist nachzuweisen;
@@ -290,8 +354,13 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   mit Bietern zu technischer/wirtschaftlicher Leistungsfähigkeit, Änderungsvorschlägen,
   Nebenangeboten (S. 42).
 - **Kostenanschlag nach DIN 276** aus den Einheits-/Pauschalpreisen der Angebote zur genauen
-  Ermittlung der tatsächlich zu erwartenden Kosten; Vergleich mit dem Kostenvoranschlag aus
-  LP7 als weiterer obligatorischer Kostenkontroll-Schritt vor Auftragserteilung (S. 42).
+  Ermittlung der tatsächlich zu erwartenden Kosten; **Kostenkontrolle durch Vergleich des
+  Kostenanschlags mit der (in LP3 erstellten) Kostenberechnung** als weiterer obligatorischer
+  Schritt vor Vergabe der Bauaufträge — der Vergleich der Ausschreibungsergebnisse mit der
+  Kostenberechnung ermöglicht Kostensteuerungs-Entscheide noch vor Baubeginn (S. 42;
+  **korrigiert 260714**: destillat hatte fälschlich einen «Kostenvoranschlag aus LP7» als
+  Vergleichsgrösse genannt — nach DIN-276-Systematik und Originaltext ist die Vergleichsgrösse
+  die Kostenberechnung aus LP3, nicht ein «Kostenvoranschlag»).
 
 ### 2.1.8 Objektüberwachung/Bauüberwachung (LP8) — S. 43-45
 
@@ -307,6 +376,9 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   Vorgang nur zwischen Auftraggeber und Bauunternehmer möglich (S. 43); dazu **DIN 18202**
   (Toleranzen im Hochbau: Bauwerke), **DIN 18203-1/-2/-3** (Toleranzen vorgefertigte Teile aus
   Beton/Stahl/Holz).
+- **Ergänzung 260714 (fehlte im Destillat): Rechnungsprüfung** als eigene Grundleistung —
+  fachlicher und rechnerischer Art, d.h. auf Übereinstimmung mit den Vertragsunterlagen, die
+  Richtigkeit der Zahlen und die zugrunde gelegten Leistungen zu prüfen (S. 44).
 - Kostenfeststellung nach **DIN 276** dient dem Nachweis der tatsächlich entstandenen Kosten
   und ist zusätzlich Abrechnungsgrundlage für das Architektenhonorar der Phasen 5-9; parallel
   laufende Kostenkontrolle (Soll/Ist-Gegenüberstellung) ermöglicht rechtzeitige Entscheidungen
@@ -314,6 +386,10 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
 - Anträge auf behördliche Teil-/Schlussabnahmen sind vom Objektplaner (originäre Vollmacht)
   zu stellen; Übergabe des Objekts inkl. Unterlagen/Bedienungsanleitungen/Prüfprotokolle nach
   Fertigstellung (S. 44).
+- **Ergänzung 260714 (fehlte im Destillat): Auflistung der Verjährungsfristen** — als
+  besonders haftungsintensive Grundleistung bereits in LP8 anzulegen (nicht erst in LP9), da
+  hier die genauen Termine der Gewährleistungslaufzeit festgestellt werden müssen, zu denen in
+  LP9 die Mängelfeststellungsbegehungen erfolgen (S. 44).
 - Besondere Leistungen LP8: Tätigkeit als verantwortlicher Bauleiter (landesrechtlich
   geregelt, i.d.R. Teil der Grundleistung, kann bei erweiterten Pflichten gesondert honoriert
   werden), differenzierte Zeit-/Kosten-/Kapazitätspläne (**DIN 69900/69901**

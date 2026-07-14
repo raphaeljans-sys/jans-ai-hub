@@ -7,8 +7,8 @@ ersetzt: "Basis 2000=100 (bis Berichtsmonat Mai 2008)"
 ersetzt_durch: "laufend fortgeschriebene aktuelle Ausgaben (kein statischer Norm-Ersatz — periodische Statistik)"
 gelesen: "S. 1-23 von 23 (vollständig)"
 datenstand: "Februar 2010 (Zeitreihen bis 2009/2010)"
-status: "destilliert (vollständig, S.1-23/23) — methodische Referenz, keine belastbaren Aktualwerte"
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19) — methodische Referenz, keine belastbaren Aktualwerte; Korrektur: Fussnoten-Fundstelle Census-X-12-ARIMA-Bereinigung (Tabelle 11/22 statt Textziffer) präzisiert, Bauland-Fussnote (ohne Hamburg bis 2004) ergänzt"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -48,15 +48,17 @@ Abgrenzung Bauleistungs- vs. Baukostenindex, Umbasierungsformel).
   OHNE Umsatzsteuer ab; im Unterschied zum Bauleistungspreisindex gehen weder Produktivitäts-
   noch Gewinnmargenänderungen ein (Ziffer 10, S. 4).
 - **Materialkostenindex / Arbeitskostenindex:** Teilindizes des Baukostenindex für die zwei
-  Hauptproduktionsfaktoren (Ziffer 10-11, S. 4-5); Arbeitskostenindex kalender-/saisonbereinigt
-  nach Census X-12-ARIMA.
+  Hauptproduktionsfaktoren (Ziffer 10-11, S. 4-5); der Arbeitskostenindex ist kalender- und
+  saisonbereinigt nach Census X-12-ARIMA und wurde von 2008=100 auf 2005=100 umbasiert
+  (Fussnote zu Tabelle 11, S. 21, und Tabelle 12, S. 22 — nicht im Textteil).
 - **Umbasierungsformel** (Ziffer 6, S. 4): neuer Index (Basis X) = Index Berichtszeitraum
   (altes Basisjahr=100) ÷ Index Vergleichsjahr (altes Basisjahr=100) × 100.
 - **Indexveränderung in Prozent** (Ziffer 7, S. 4): (Neuer Indexstand ÷ Alter Indexstand ×
   100) − 100.
 - **Preisindex für Bauland** (Ziffer 12, S. 5): stellt die Preisentwicklung unbebauter,
   baureifer Grundstücke ≥100 m² in Baugebieten dar, gestützt auf aggregierte Daten der
-  Kaufwerte-Statistik.
+  Kaufwerte-Statistik. Tabelle 13 (S. 23) weist die Zeitreihe aus; laut Fussnote **bis
+  einschliesslich 2004 ohne Hamburg** erhoben.
 
 ### Struktur der Tabellen (Abschnitte 1-13, S. 6-23)
 

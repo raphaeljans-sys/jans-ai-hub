@@ -5,8 +5,8 @@ ausgabe: "2010"
 ersetzt: "kein CH-Bezug — deutsches Baurecht/Normenwesen, Schweizer Pendant SIA-Normenwerk + kantonales Baurecht"
 gelesen: "S. 1-20 (vollständig — Kap. 1.1.1-1.1.11: Öffentliches/Privates Baurecht, VOB, Regeln der Technik, DIN-Normenarbeit, Europäische Normung/EU-Harmonisierung, Bauprodukte/Bauarten)"
 datenstand: "2010"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19 — VOB-Teil-A-Paragrafenzahl «22 statt 33» korrigiert/entfernt, im Original nicht belegt; DIN-18330-Beispiel Kennbuchstabe R zu V korrigiert)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -38,15 +38,19 @@ Normung/EU-Harmonisierung, Bauprodukte- und Bauarten-Zulassung.
   (Städtebaurecht = Bund, Bauordnungsrecht = Länder); Privates Baurecht = Beziehung
   Auftraggeber-Architekt-Sonderfachmann-Bauunternehmer (Architektenvertrag,
   VOB-Vertrag).
-- **VOB-Struktur, 3 Teile (S. 2-3):** Teil A (Vergaberegeln, bezieht sich nur auf
-  öffentliche Auftraggeber, VOB 2009: 22 statt 33 Paragrafen nach Straffung), Teil
-  B (Allgemeine Vertragsbedingungen zur Ausführung, gegenüber Verbrauchern nicht
-  vorgesehen), Teil C (DIN 18299-18459, Allgemeine Technische Vertragsbedingungen
-  ATV je Gewerk).
-- **VOB Teil C, Aktualisierungs-Kennbuchstaben (S. 4):** N=Neu, F=Fachtechnisch
+- **VOB-Struktur, 3 Teile (S. 2-4):** Teil A (Vergaberegeln, bezieht sich nur auf
+  öffentliche Auftraggeber; VOB 2009 straffte die Struktur, u.a. wurden die
+  bisherigen §§ 11-15 der VOB 2006, Ausführungsfristen/Vertragsstrafen/
+  Mängelverjährung/Sicherheitsleistung/Vergütungsänderung, im neuen § 9
+  Vertragsbedingungen zusammengefasst), Teil B (Allgemeine Vertragsbedingungen zur
+  Ausführung, gegenüber Verbrauchern nicht vorgesehen), Teil C (DIN 18299-18459,
+  Allgemeine Technische Vertragsbedingungen ATV je Gewerk).
+- **VOB Teil C, Aktualisierungs-Kennbuchstaben (S. 3-4):** N=Neu, F=Fachtechnisch
   überarbeitet, R=Redaktionell überarbeitet, V=Verweise aktualisiert (keine
   inhaltliche Änderung) — Gewerke-Liste DIN 18299-18459 mit Kennbuchstabe je ATV
-  (z.B. DIN 18330 Mauerarbeiten=R, DIN 18299 Allgemeine Regelungen=F).
+  (z.B. DIN 18299 Allgemeine Regelungen=F, DIN 18301 Bohrarbeiten=R, DIN 18330
+  Mauerarbeiten=V). Die Überarbeitung durch den DVA betraf insgesamt 49 ATV; DIN
+  18310 entfällt in der VOB-Ausgabe 2009 ersatzlos.
 - **§ 319 StGB — Allgemein anerkannte Regeln der Technik (S. 4):** strafbar macht
   sich, wer bei Planung/Leitung/Ausführung eines Baus gegen die allgemein
   anerkannten Regeln der Technik verstösst und dadurch Leib/Leben gefährdet

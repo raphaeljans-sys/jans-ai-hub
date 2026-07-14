@@ -5,8 +5,8 @@ ausgabe: "2011, gestützt auf HOAI 2009 (Anlage 11 zu § 33, Anlage 2.6 zu § 3)
 ersetzt: "kein CH-Bezug — deutsches Honorarrecht (HOAI), Schweizer Pendant SIA 102/103/108 (Skill honorarberechnung-sia102)"
 gelesen: "S. 1-19 (vollständig — Kapitel 2.2.1-2.2.3: Einleitung, Grund-/Besondere Leistungen je Leistungsphase 1-9, Begriffslexikon)"
 datenstand: "2011"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19 — Phasen-Zuordnungen korrigiert: Bestandsaufnahme-Typen war fälschlich LP1 statt LP2, Zwangspunkte/Kostenberechnungen war fälschlich LP5/6/7 statt korrekt LP3/LP5/LP6/LP7 verteilt, Seitenangaben LP8/LP9 korrigiert; HOAI-§2-Ziffern-Zuordnung Instandhaltung/-setzung/Modernisierung präzisiert)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -48,37 +48,63 @@ Zusatz-Leistungen beim Bauen im Bestand — nicht das vollständige HOAI-Regelwe
   Objektbegehung, Sichten/Werten übergebener Unterlagen, Beschaffen von Unterlagen
   zum Baubestand, Beurteilen der Bausubstanz auf Durchführbarkeit, Vorschlag zur
   Untersuchungsreihenfolge möglicher Schäden, Parameter zu Denkmalschutz/Umgebung.
-- **LP1, Bestandsaufnahme-Typen (S. 3):** massliche, technische, gestalterische,
+- **LP2 Vorplanung, Besondere Leistungen Bauen im Bestand (S. 3-4):** Untersuchen
+  der im Bestand verwendeten Konstruktionen/Materialien/Normen/baurechtlichen
+  Bestimmungen; Prüfen der Massnahmen auf Bestands-/Denkmalschutz; zusätzliche
+  Untersuchungen (Vermesser-Aufmass, dendrochronologisch, Thermografie,
+  Kanaluntersuchungen, Schädlings-/Asbestbefall). Dazu die Durchführung von
+  **Bestandsaufnahmen** nach Typ (massliche, technische, gestalterische,
   künstlerische, baugeschichtliche, brandschutztechnische, bauphysikalische
-  Bestandsaufnahme, verformungsgerechtes Aufmass; Spezialuntersuchungen:
-  Baualtersplan, dendrochronologische Untersuchungen, restauratorische
-  Untersuchungen; zusätzlich Schadenskartierung, Ermitteln von Schadensursachen.
-- **LP2 Vorplanung (S. 4):** Untersuchen der im Bestand verwendeten Konstruktionen/
-  Materialien/Normen/baurechtlichen Bestimmungen; Prüfen der Massnahmen auf
-  Bestands-/Denkmalschutz; zusätzliche Untersuchungen (Vermesser-Aufmass,
-  dendrochronologisch, Thermografie, Kanaluntersuchungen, Schädlings-/
-  Asbestbefall).
-- **LP5 Ausführungsplanung, LP6/7 Vergabe (S. 5-6):** Darstellen von Zwangspunkten
-  aus Denkmal-/Brand-/Schall-/Feucht-/Wärmeschutz-Auflagen; Aufstellen besonderer
-  Kostenberechnungen ausserhalb der HOAI-2009-Regelwerks; Wiederverwendbarkeit
-  vorhandener Bauteile/Materialien prüfen; besonders schonende Arbeitsverfahren für
-  Bieter.
-- **LP8 Objektüberwachung (S. 6-7):** Dokumentation von Schäden/Erkenntnissen bei
-  Öffnung der Konstruktion; Überarbeiten der Ausführungsplanung aufgrund von
-  Bestandsbefunden; Abnahmen für Restaurierung/Denkmalschutz; Mieterbetreuung beim
-  Bauen im bewohnten Zustand.
-- **LP9 Objektbetreuung (S. 7):** besondere denkmalpflegerische Dokumentationen
-  (Fotodokumentation, Detailaufmasse, Freilegung Farbschichten, bauhistorische
-  Befunde); Wirkungskontrollen von Planungsansatz/Massnahmen bei Nutzern.
+  Bestandsaufnahme, verformungsgerechtes Aufmass), Spezialuntersuchungen
+  (Baualtersplan, dendrochronologische Untersuchungen, restauratorische
+  Untersuchungen) sowie Schadenskartierung/Ermitteln von Schadensursachen (S. 4)
+  — sämtlich Bestandteil der Vorplanungsphase, nicht der Grundlagenermittlung.
+- **LP3 Entwurfsplanung, Besondere Leistungen Bauen im Bestand (S. 5-6):**
+  Darstellen von Zwangspunkten aus Denkmal-/Brand-/Schall-/Wärme-/
+  Feuchteschutz-Auflagen; Verhandlungen mit Behörden über Ausnahmeregelungen aus
+  der Altbausubstanz; Aufstellen besonderer Kostenberechnungen ausserhalb des
+  HOAI-2009-Regelwerks (z.B. Aufteilung Restaurierung/Modernisierung/
+  Instandsetzung/Wohnwertverbesserung); Integrieren spezieller Wünsche von
+  Bewohnern beim Bauen im bewohnten Zustand; örtliches Überprüfen von
+  Planungsdetails an der vorgefundenen Substanz; Integration besonderer
+  technischer Ausrüstung unter denkmalpflegerischen Bedingungen; Klären von
+  Fördermöglichkeiten; Mieterbefragungen.
+- **LP5 Ausführungsplanung, Besondere Leistungen Bauen im Bestand (S. 8):**
+  Einarbeiten der Ergebnisse zusätzlicher Genehmigungen in die
+  Ausführungsplanung; Darstellen besonderer Details des Gebäudes (Denkmal-/
+  Brand-/Schall-/Feuchteschutz); Einplanung besonderer Verfahrensweisen zur
+  Sicherung der vorhandenen Bausubstanz; Untersuchen/Planen der
+  Wiederverwendbarkeit vorhandener Bauteile und Materialien; Erheben und
+  Katalogisieren einzulagernder Bauteile.
+- **LP6 Vorbereitung der Vergabe, Besondere Leistungen Bauen im Bestand (S. 9):**
+  Ermitteln/Zusammenstellen von Mengen und Leistungsbeschreibungen für besondere
+  Konstruktionen des Altbaus; Festlegen der wesentlichen Arbeitsabläufe unter
+  Berücksichtigung der beengten Baustellenverhältnisse; Einplanung besonderer
+  Verfahrensweisen zur Sicherung der Bausubstanz.
+- **LP7 Mitwirkung bei der Vergabe, Besondere Leistungen (S. 10):** Überprüfen/
+  Sicherstellen der Berücksichtigung besonderer Verfahrensmassnahmen aus
+  Denkmal-/Brand-/Schall-/Feuchte-/Wärmeschutz; Information/Verpflichtung der
+  Bieter auf **besonders schonende Arbeitsverfahren** zum Schutz der vorhandenen
+  Baukonstruktion; Mitwirkung bei der Vergabe an Sonderfachleute (Restauratoren,
+  Bau-/Kunsthistoriker).
+- **LP8 Objektüberwachung, Besondere Leistungen Bauen im Bestand (S. 11-12):**
+  Dokumentation von Schäden/Erkenntnissen bei Öffnung der Konstruktion;
+  Überarbeiten der Ausführungsplanung aufgrund von Bestandsbefunden; Abnahmen
+  für Restaurierung/Denkmalschutz; Mieterbetreuung beim Bauen im bewohnten
+  Zustand.
+- **LP9 Objektbetreuung, Besondere Leistungen Bauen im Bestand (S. 13):**
+  besondere denkmalpflegerische Dokumentationen (Fotodokumentation,
+  Detailaufmasse, Freilegung Farbschichten, bauhistorische Befunde);
+  Wirkungskontrollen von Planungsansatz/Massnahmen bei Nutzern.
 
 ## Begriffe (Auswahl, Begriffslexikon 2.2.3)
 
 - **Altbau:** bestehende Gebäude im weitesten Sinne, unterscheiden sich nach
   Material/Qualität von Neubauten.
-- **Instandhaltung vs. Instandsetzung vs. Modernisierung (HOAI § 2 Nr. 7/9/10):**
-  Instandhaltung = Erhaltung des Soll-Zustands (vorbeugend); Instandsetzung =
-  Wiederherstellung des Soll-Zustands (Mängelbeseitigung); Modernisierung =
-  nachhaltige Erhöhung des Gebrauchswertes.
+- **Instandhaltung vs. Instandsetzung vs. Modernisierung:** Instandhaltung
+  (HOAI § 2 Nr. 10) = Erhaltung des Soll-Zustands (vorbeugend); Instandsetzung
+  (HOAI § 2 Nr. 9) = Wiederherstellung des Soll-Zustands (Mängelbeseitigung);
+  Modernisierung (HOAI § 2 Nr. 7) = nachhaltige Erhöhung des Gebrauchswertes.
 - **Bestandsaufnahme, masslich vs. technisch:** masslich = Erfassen der
   Abmessungen für Bestandspläne; technisch = Erfassen von Konstruktion/Ausbau mit
   Feststellung Schäden/Funktionsfähigkeit/Zustand/Qualität.

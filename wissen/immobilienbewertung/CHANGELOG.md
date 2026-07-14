@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training-Run 30: Delta-Check (dritter Trigger desselben Tages)
+
+- Dritter Trigger am selben Tag (nach Run 28, 00:38 Uhr, und Run 29, 04:51 Uhr), erneut ausserhalb
+  der Sollfrequenz (Rule 260713: 1x taeglich 02:50). Kurzer Delta-Check: Bewertungsordner
+  unveraendert (kein neuer Fall), Marktanker unveraendert (SNB 0.00 %/Referenzzins 1.25 %/
+  Durchschnittszinssatz 1.31 % seit 31.03.2026), D6-Restposten Langnau weiterhin blockiert.
+  Oberrieden-Hoehenkorrektur-Erinnerung (Rule 260624) zum dritten Mal protokolliert. Kein Ingest,
+  keine Wiki-Aenderung.
+- Neu vermerkt: die Haeufung von drei Triggern an einem Tag deutet auf eine Ueberlappung von
+  Scheduled Task und VOLLGAS-Runner hin — Empfehlung, die Trigger-Quellen zu pruefen.
+- Report: `outputs/2026-07-14_training-run30.md`.
+
 ## 2026-07-14 — Training-Run 29: Delta-Check (Zusatz-Trigger 4 Std. nach Run 28)
 
 - Zusaetzlicher Scheduled-Task-Trigger ausserhalb der Soll-Frequenz (Rule 260713: 1x taeglich
