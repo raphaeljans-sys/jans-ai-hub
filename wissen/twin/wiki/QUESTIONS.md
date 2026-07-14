@@ -3,6 +3,35 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714j (twin-fragesteller, aus Fidelity-Review 2026-07-14j)
+
+Quelle: Drift-Report `outputs/2026-07-14j_fidelity.md` (Gesamt-Fidelity ~86; frische Live-Goldprobe
+14.07.2026, 12:00–12:16 Uhr, zwei bislang unerfasste Mails — Unternehmer-Du-Rueckfrage + formelles
+Sie-Transmittal). Je in 1–2 Saetzen beantwortbar.
+
+1. **«Du,» als eigener Satz-Filler direkt nach der Anrede — bewusstes Sprechmuster oder Tippfluss?**
+   In der Mail an Felix Stählin schreibst Du «Hoi Felix, / Du, im Anhang das Angebot von REAP …» — die
+   Zeile «Du,» ist grammatikalisch ueberfluessig (die Anrede «Hoi Felix» duzt ihn ja schon), wirkt wie
+   ein gesprochener Auftakt-Filler («Du, weisst…»). Setzt Du dieses Wort bewusst als muendlichen
+   Gespraechs-Einstieg, wenn Du eine Mail wie ein spontanes Gespraech beginnst (vgl. Text-Lacher «haha»,
+   Batch 06), oder ist es reine Tippgewohnheit ohne eigene Bedeutung? *Warum: bisher nur 1 Beleg — ein
+   zweiter wuerde ein neues, muendlich anmutendes Eroeffnungsmittel fest verankern.* → [[stimme]]
+2. **Projektvertrautheit schlaegt Personen-Erstkontakt bei der Sie-Anrede — generell oder Einzelfall?**
+   An zwei externe Kontrolleure, die Du zum ERSTEN Mal anschreibst (private Lueftungskontrolle KISPI),
+   waehlst Du sofort «Geschätzter Herr Vanvelten, werter Herr Mans» statt des kaltformellen «Sehr
+   geehrte». Reicht Dir die Einbettung ins bereits laufende, vertraute Projektumfeld (KISPI, Gruner-
+   Team, eigene Bauherrschaft) aus, um bei JEDER neuen externen Sie-Person in diesem Projekt sofort
+   warm zu starten — unabhaengig vom Kontakt zur Person selbst — oder war hier ein anderer Faktor
+   (Empfehlung/Vorstellung durch das Team) ausschlaggebend? *Warum: praezisiert, ob «Sehr geehrte» bei
+   echten Erstkontakten in einem WARMEN Projektumfeld ueberhaupt noch vorkommt.* → [[beziehungsregister]]
+3. **Doppelte, fast identische Mail binnen 13 Minuten (Betreff-Varianten «PPTS KISPI» / «KISPI») —
+   bewusste Korrektur/Praezisierung oder Versehen?** Du sendest zwei fast gleiche Mails an denselben
+   externen Kontrolleur kurz hintereinander, nur der Betreff unterscheidet sich («… Projekt PPTS KISPI
+   Kinderspital Zürich» vs. «… Projekt KISPI Kinderspital Zürich»). Korrigierst Du bewusst eine
+   unpraezise Projektbezeichnung nach, sobald Dir ein fehlender Zusatz («PPTS») auffaellt, auch wenn das
+   eine Doppel-Mail bedeutet? *Warum: klaert, ob Praezisions-Nachbesserung wichtiger ist als eine saubere
+   Mailflut, ein Aspekt der Sorgfalt-Haltung.* → [[haltung]], [[arbeitsweise]]
+
 ## Offen — Runde 260714i (twin-fragesteller, aus Fidelity-Review 2026-07-14i)
 
 Quelle: Drift-Report `outputs/2026-07-14i_fidelity.md` (Gesamt-Fidelity ~85; frische Live-Goldprobe vom
@@ -24,7 +53,12 @@ Tag des Reviews). Je in 1–2 Saetzen beantwortbar.
    (Genitiv-Kurzform, ohne Fuerwort). Ist das eine feste, noch unbelegte dritte Dank-Kurzform (neben «Besten
    Dank fuer …» und dem nackten «danke» am Satzende), die Du gezielt setzt, wenn jemand eine eigene Unklarheit
    durch Nachfragen aufloest (im Unterschied zu einer Bitte um Handlung)? *Warum: ergaenzt die Dank-Formeln-
-   Skala um einen bisher nicht erfassten Anlass (Rueckfrage statt Handlung/Lieferung).* → [[stimme]]
+   Skala um einen bisher nicht erfassten Anlass (Rueckfrage statt Handlung/Lieferung).* → [[stimme]] ·
+   **BEANTWORTET (Fidelity 260714j):** JA, «Danke der X» ist eine feste dritte Dank-Kurzform. Zweiter,
+   unabhaengiger Beleg (reines Sie-Transmittal an private Lueftungskontrolle KISPI, 14.07.2026, 12:00):
+   «Zur Ergaenzung der Unterlagen der Bauentscheid, danke der Kenntnisnahme.» — hier bei einem reinen
+   Zur-Kenntnis-Geben, nicht bei einer Rueckfrage. Die Formel ist also nicht anlassgebunden (Rueckfrage vs.
+   Transmittal), sondern eine generelle knappe Dank-Variante. In stimme.md verankert.
 3. **Technische Komplexitaets-Bremse («Sollte es zu kompliziert werden lassen wir das») — greift sie auch,
    wenn DU selbst die aufwendigere Idee eingebracht hast?** Bei der Schiebetor-Wandtaschen-Idee ziehst Du
    Deinen EIGENEN Vorschlag zurueck, sollte er den Tuerbauer zu sehr fordern — anders als «kann man machen,

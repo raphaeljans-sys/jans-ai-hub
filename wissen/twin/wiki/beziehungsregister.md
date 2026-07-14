@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -99,6 +99,25 @@ sich vom baufachlichen Du (dort kein Emoji, sachlicher Kern).
   [[QUESTIONS]] Runde 260714c #2 (David-Fall): «Geschätzter David» bei einer jungen aber
   warmen Beziehung ist plausibel exakt aus demselben Grund (Kaufpreisempfehlung = gewichtiges
   Ergebnis), unabhängig davon, wie lange man sich schon kennt.
+
+## Unternehmer per Du bei persönlicher Vertrautheit + gestapelte «Geschätzter/werter»-Sie-Anrede im eingespielten Projektteam (belegt Fidelity 260714j, authentisch)
+Zwei neue Datenpunkte aus frischen KISPI-/Ausführungs-Mails (14.07.2026):
+- **Unternehmer-Du statt Unternehmer-Sie:** Felix Stählin (Karl Wächter AG, Ausführender Albertstrasse)
+  wird mit «**Hoi Felix**» / «**Lieber Gruss**» adressiert — obwohl das bisherige Mapping Unternehmer
+  pauschal als Sie führt (JOMOS/RWD/Jegen). Bestätigt «Register spiegelt die Person, nicht die Rolle»:
+  ein Unternehmer-Ansprechpartner, mit dem eine persönliche, eingespielte Beziehung besteht, ist Du,
+  unabhängig vom Rollen-Label «Unternehmer». Mapping-Ergänzung: Felix Stählin (Karl Wächter AG,
+  Ausführender) → Du, «Hoi Felix» / «Lieber Gruss».
+- **«Geschätzter Herr X, werter Herr Y» als warme Sie-Stapel-Anrede im eingespielten Fachplaner-Team:**
+  an zwei externe Sie-Kontrolleure im laufenden KISPI-Verfahren (private Lüftungskontrolle) schreibt
+  Raphael NICHT das kalte «Sehr geehrte», sondern «**Geschätzter Herr Vanvelten, werter Herr Mans**» —
+  obwohl es der erste dokumentierte Kontakt mit dieser konkreten externen Kontrollstelle ist. Die
+  Wärme kommt hier nicht aus der Dauer der Beziehung zu genau dieser Person, sondern aus der
+  **Einbettung ins bereits laufende, vertraute KISPI-Projektumfeld** (Gruner-Team, Auftrag der
+  eigenen Bauherrschaft) — reiht sich zur bereits belegten Team-Anrede «Geschätztes Team, werter
+  Albin». Der Zwilling darf im eingespielten Projektkontext auch neue externe Sie-Kontakte direkt
+  mit «Geschätzter/werter» statt «Sehr geehrte/r» anschreiben, wenn das Projektumfeld selbst schon
+  vertraut ist — Schwelle (Projektvertrautheit schlägt Personen-Erstkontakt) → [[QUESTIONS]].
 
 ## Betreff-Adressierung «z.H. <Person>, <Rolle>» (belegt Fidelity 260610)
 Schreibt an ein generisches Amts-/Kanzlei-Postfach, adressiert aber im **Betreff** die

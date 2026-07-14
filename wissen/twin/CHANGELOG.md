@@ -2,6 +2,21 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14 — twin-fidelity-review Runde j (Selbsttest, Gesamt-Fidelity 86)
+- `raw/260714-mailbatch-51.md`: 2 frische, bislang unerfasste Live-Goldproben (Apple-Mail-Pull, Sent
+  Items rj@, 14.07.2026 12:00–12:16 Uhr) — operative Unternehmer-Du-Kostenrückfrage (Felix Stählin,
+  Karl Wächter AG) + formelles Sie-Transmittal (private Lüftungskontrolle KISPI).
+- [[stimme]] **neu**: «Danke der Kenntnisnahme» — zweiter Beleg der «Danke der X»-Genitiv-Kurzdank-
+  Form, beantwortet QUESTIONS 260714i #2 abschliessend. «Du,» als eigenständiger Satz-Filler direkt
+  nach der Anrede (Einzelbeleg, nicht generalisiert).
+- [[beziehungsregister]] **neu**: Unternehmer-Du bei persönlicher Vertrautheit (Mapping Felix Stählin/
+  Karl Wächter AG); Projektvertrautheit schlägt Personen-Erstkontakt bei der Sie-Anrede («Geschätzter/
+  werter» statt «Sehr geehrte/r» auch bei neuen externen Kontakten im warmen Projektumfeld) — grösster
+  Drift-Befund dieser Runde (Facette Beziehung 78/100, unter Gate-Schwelle).
+- Drift-Report `outputs/2026-07-14j_fidelity.md`; 3 neue Selbstfragen an `QUESTIONS.md` (Runde
+  260714j), 1 Frage aus Runde 260714i als beantwortet markiert.
+- DNA neu kompiliert (`skills/twin/tools/build_dna.py` → `rules/jans-dna.md`).
+
 ## 2026-07-14 — twin-mail-training Mailbatch 50 (Sent Items rj@, sequentieller Sweep fortgesetzt)
 - `raw/260714-mailbatch-50.md` aus Sent Items rj@ erfasst (Apple Mail osascript, Index 294-270,
   **2026-06-04 10:31 bis 2026-06-08 11:25**, Indexkontinuität zum Batch-49-Endpunkt verifiziert).
