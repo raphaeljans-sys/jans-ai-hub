@@ -484,7 +484,7 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 1356-1.pdf` | 1356 | 1995 | destilliert (din-1356-1-1995.md)  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1356-6.pdf` | 1356 | 2006 | destilliert (din-1356-6-2006.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle Einleitung vs Ziff.1) | Retro-verifiziert Mini-Run 19 (260714): established, bestanden.
 | [x] 260713 | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 | 2011 | Teil-Destillat, verifiziert 260713 (din-en-1627-2011.md, nur 4/44 S. im Bestand, pdfinfo bestaetigt), Mini-Run 14: 1 Klassifizierungsfehler (RC 4) korrigiert, KB-Luecke Vollversion in QUESTIONS.md |
-| [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 ; verifiziert 260713 (Volltextabgleich Run 7, 2 Luecken ergaenzt) |
+| [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 ; verifiziert 260713 (Volltextabgleich Run 7, 2 Luecken ergaenzt). Q&A-Selbstbefragung Mini-Run 20 (260714): 18/18 Fragen bestanden, 1 Fundstellen-Praezisierung (Rampe Ziff.4.3.8 S.16-18). |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 | 2011 | destilliert (din-18040-2-2011.md), Pendant zu DIN 18040-1 ; verifiziert 260713 (Volltextabgleich Run 7, keine Fehler) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 | 2007 | established, verifiziert 260713 (din-18232-2-2007.md), vollstaendig S.1-30/30, Brandschutz-relevant (NRA), Mini-Run 14: 66 Aussagen geprueft, 1 Ergaenzung |
@@ -503,7 +503,7 @@
 | — | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  | Foto-Scan desselben Bürobuch-Exemplars DIN 277-1:2005-02, inhaltlich Duplikat von din-277-1-2005.md — übersprungen |
 | [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 ; verifiziert (Modell D) 260714, ca. 60 -> 69 Raumkategorien korrigiert |
 | [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen)  Retro-verifiziert Mini-Run 18 (260714): established. |
-| [x] 260713 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | established, verifiziert 260713 (din-4102-1-1998.md, vollstaendig S.1-28/28, Anhang B S.21-25 nachgelesen Mini-Run 12), Mini-Run 14: 58 Aussagen geprueft, 6 Fehler korrigiert + fehlende Ziff. 5.2.4 ergaenzt |
+| [x] 260713 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | established, verifiziert 260713 (din-4102-1-1998.md, vollstaendig S.1-28/28, Anhang B S.21-25 nachgelesen Mini-Run 12), Mini-Run 14: 58 Aussagen geprueft, 6 Fehler korrigiert + fehlende Ziff. 5.2.4 ergaenzt. Q&A-Selbstbefragung Mini-Run 20 (260714): 18/18 bestanden, 2 Korrekturen (Ziff. B.5.3 Brenner/Probenunterlage; Ziff. 5.2.4.5 Gipskarton-Teilregeln) + Vorwort-Aenderungsliste ergaenzt. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 | 1977 | destilliert (din-4102-2-1977.md) ; verifiziert 260713 (Volltextabgleich Run 7, keine Fehler) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant  verifiziert 260713 (bestanden) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 | 2001 | destilliert (din-4844-2-2001.md), vollstaendig S.1-23/23, Mini-Run3  Retro-verifiziert Mini-Run 18 (260714): established, keine Korrektur noetig. |
@@ -546,7 +546,7 @@
 | [x] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 | 1987 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: Anhang-Tabelle Breitenbaender + fehlende Zeile/Abschnitte ergaenzt) |
 | [x] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 | 1983 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: 3 Sachfehler korrigiert) |
 | [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: fehlende Abschnitte Wo/Ausfuehrung/Spezialfaelle ergaenzt) |
-| [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md)  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md)  Retro-verifiziert Mini-Run 18 (260714): established. Q&A-Selbstbefragung Mini-Run 20 (260714): 20/20 Fragen bestanden, 0 Fehler, 2 Luecken ergaenzt (Fussgaenger-Zuschlag 0.80m Fahrgassen; Tab.8 Kleinwagen-Fahrgassen + MB/ML/LmV/LoV-Werte). |
 | [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung  Retro-verifiziert Mini-Run 18 (260714): established. |

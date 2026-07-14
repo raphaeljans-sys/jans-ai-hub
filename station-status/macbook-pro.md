@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 06:39:35
+Stand: 14.07.2026 06:49:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:39)
@@ -12,4 +12,4 @@ Stand: 14.07.2026 06:39:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0e8bc5d9 nas-selfcommit: 5 Datei(en) 2026-07-14 06:30
+- dd8478a0 wissen/normen: Q&A-Selbstbefragung Run 20 DIN 4102-1 — 2 Korrekturen, 1 Ergaenzung

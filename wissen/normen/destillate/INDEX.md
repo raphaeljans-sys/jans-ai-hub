@@ -47,13 +47,13 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-277-1-2005.md` | DIN 277-1 Grundflächen/Rauminhalte Begriffe | 2005 | established (verifiziert 260713) |
 | `din-277-2-2005.md` | DIN 277-2 Gliederung Netto-Grundfläche | 2005 | established (verifiziert 260713) |
 | `din-5034-1-1999.md` | DIN 5034-1 Tageslicht in Innenräumen | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte + fehlende Regelspur wohnraumähnliche Arbeitsräume korrigiert; Teil-Destillat, Abschnitt 5 nicht im Detail) |
-| `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713) |
+| `din-18040-1-2010.md` | DIN 18040-1 Barrierefreies Bauen, öffentl. Gebäude | 2010-10 | established (verifiziert 260713; Q&A-Selbstbefragung 260714 Mini-Run 20: 18/18 bestanden, 1 Fundstellen-Praezisierung) |
 | `din-18065-2000.md` | DIN 18065 Gebäudetreppen | 2000-01 | established (verifiziert 260713) |
 | `din-18299-2010.md` | DIN 18299 VOB/C Allg. Regelungen für Bauarbeiten | 2010-04 | established (verifiziert 260713) |
 | `din-1946-6-2009.md` | DIN 1946-6 Lüftung von Wohnungen | 2009-05 | established (verifiziert 260713, vollständig S.1-125/125, adversariale Retro-Verifikation Mini-Run 13: 4 Pruef-Agenten, ca. 100 Aussagen geprueft, 14 Fehler korrigiert) |
 | `din-276-1-2008.md` | DIN 276-1 Kosten im Bauwesen | 2008-12 | established (verifiziert 260713, 3 Korrekturen: KG 475/746/747/748/734 ergänzt) |
 | `din-276-4-2009.md` | DIN 276-4 Kosten im Ingenieurbau | 2009-08 | established (verifiziert 260713 Mini-Run 15, 62 Aussagen, 0 Fehler) |
-| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (verifiziert 260713, vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12; Mini-Run 14: 6 Fehler korrigiert + Ziff. 5.2.4 ergänzt) |
+| `din-4102-1-1998.md` | DIN 4102-1 Brandverhalten Baustoffe | 1998-05 | established (verifiziert 260713, vollständig S.1-28/28, Anhang B nachgelesen Mini-Run 12; Mini-Run 14: 6 Fehler korrigiert + Ziff. 5.2.4 ergänzt; Q&A-Selbstbefragung 260714 Mini-Run 20: 18/18 bestanden, 2 Korrekturen + Vorwort ergaenzt) |
 | `din-5034-2-1985.md` | DIN 5034-2 Tageslicht, Grundlagen | 1985-02 | established (verifiziert 260713, Fundstellen/Sonnenazimut korrigiert, Gl. 17 ergänzt, vollständig S.1-13/14) |
 | `din-5034-3-2007.md` | DIN 5034-3 Tageslicht, Berechnung | 2007-02 | established (verifiziert 260713, DRr-Formel + g-Abhängigkeit präzisiert) |
 | `din-5034-4-1994.md` | DIN 5034-4 Tageslicht, vereinfachtes Verfahren | 1994-09 | established (verifiziert 260713, k1h/k1v-Formelfehler korrigiert — war sachlich falsch; Teil-Destillat, Scan nur ungerade Seiten im Bestand) |
@@ -165,7 +165,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-inhaltsverzeichnis-normensammlung-2012.md` | DIN Inhaltsverzeichnis Normensammlung Buero | Stand 2012-04 | established (verifiziert 260714 Mini-Run 19, DIN V 106 Eintrag ergaenzt) |
 | `vds-2234-1999-brand-komplextrennwaende.md` | VdS 2234 Brand-/Komplextrennwaende (D-Versicherungsmerkblatt) | 1999-05 | established (verifiziert 260714 Mini-Run 19, Brandwandklasse F90-A/Hoehendifferenz-Varianten/Feststellanlagen-Pflicht korrigiert) |
 | `din-planungsgrundlagen-hoai-vorschriften-2004.md` | HOAI-Leistungsphasen/MBO-Vorschriftenkatalog (D-Fachbuch, kein CH-Bezug) | ~2004 | established (vollstaendig, S.1-42/42, verifiziert 260714 Mini-Run 19, mehrere LP-Zuordnungen + DIN-18205-Aussage korrigiert) |
-| `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | established (verifiziert 260713, vollstaendig S.1-32/32) |
+| `vss-40291-2021-parkieren-anordnung-geometrie.md` | VSS 40 291 Parkieren Anordnung/Geometrie (gueltige Ausgabe) | 2021-12 | established (verifiziert 260713, vollstaendig S.1-32/32; Q&A-Selbstbefragung 260714 Mini-Run 20: 20/20 bestanden, 2 Luecken ergaenzt) |
 | `vss-640291a-2005-parkieren-anordnung-geometrie.md` | SN 640 291a Parkieren (historisch, ersetzt durch 40 291:2021) | 2005/2006 | established, historisch/ersetzt (verifiziert 260714, Motorrad-Parkfeld-Laenge 2.50m-Angabe korrigiert) |
 | `sn-640105a-2000.md` | SN 640 105a Verbreiterung der Fahrbahn in Kurven (Anhang in VSS-640-291a-PDF) | 2000 | established (verifiziert 260713 Mini-Run 15, 40 Aussagen, 2 Fehler korrigiert) |
 | `vss-640065-2011.md` | SN 640 065 Parkieren Bedarfsermittlung Veloparkierung | 2011 | established (verifiziert 260713, vollstaendig S.1-18/18) |

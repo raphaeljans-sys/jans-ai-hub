@@ -1,3 +1,27 @@
+## 2026-07-14 — normen-training-mini Run 20 (Mac Mini): Q&A-Selbstbefragung 3 Kern-Normen + Synthese-Vertiefung unternehmerkontrolle
+- Vertiefungsstufe (c) fuer die DIN/VSS/RAL-Familie (Mac Mini, Stations-Split): 3 parallele
+  Sub-Agenten fuehren je 18-20 unabhaengig am Original-PDF beantwortete Pruefungsfragen gegen
+  die bestehenden Kern-Destillate durch (nicht aus dem Destillat abgeschrieben).
+- **DIN 4102-1:1998** (18/18 bestanden): 2 Korrekturen (Ziff. B.5.3 Brenner-/Probenunterlage-
+  Verwechslung; Ziff. 5.2.4.5 zwei fehlende Gipskarton-Teilregeln) + Vorwort-Aenderungsliste
+  ergaenzt + veralteten `wiki/REGISTER.md`-Eintrag korrigiert.
+- **DIN 18040-1:2010** (18/18 bestanden, 1 reine Fundstellen-Praezisierung Rampen-Sektion S.16-18
+  statt S.16-17) — Eintrag unten faelschlich als "MacBook Pro" statt Mac-Mini-DIN-Familie
+  attributiert (Sub-Agent-Fehlbezeichnung, Inhalt korrekt).
+- **VSS 40 291:2021** (20/20 bestanden, 2 Luecken ergaenzt: Fussgaenger-Zuschlag 0.80 m
+  Fahrgassenbreiten; Tab. 8 Kleinwagen-Fahrgassen + MB/ML/LmV/LoV-Werte komplett nachgetragen).
+- `training/norm-inventar.md` + `destillate/INDEX.md` fuer alle drei Positionen nachgefuehrt
+  (Sub-Agenten hatten die Destillate selbst korrekt aktualisiert + committet/gepusht, das
+  zentrale Register aber nicht — Bookkeeping-Lag-Muster wie in Run 18/19).
+- Vertiefungsstufe (d): `wiki/synthese-din-vss-ral-fachskills.md` um Abschnitt 8 ergaenzt
+  (Abnahme/Garantiefrist/Verjaehrung/Beweislast/Sicherheitsleistung VOB/B vs. SIA 118,
+  Art.-fuer-Art. belegt, fuer Skill `unternehmerkontrolle`) — Kernbefund: "2 Jahre" hat in
+  beiden Systemen eine andere Rechtsfigur, nie 1:1 gleichsetzen. Frontmatter/`wiki/INDEX.md`
+  nachgefuehrt.
+- Lauf-Report: `outputs/2026-07-14_normen-mini-run20.md`. INVENTAR-STATUS DIN/VSS/RAL
+  unveraendert komplett (seit Run 19); Vertiefung laeuft weiter (naechster Kandidat: DIN
+  1946-4/6, DIN 276-1/277-1-3).
+
 ## 2026-07-14 — Q&A-Selbstbefragung Run 20: din-18040-1-2010 (MacBook Pro)
 - 18 gezielte Pruefungsfragen zu Mindestmassen (Tuerbreiten, Bewegungsflaechen, Rampenneigung,
   Treppen, WC-Masse, Aufzuege) und Kennzeichnungspflichten formuliert und jede unabhaengig durch

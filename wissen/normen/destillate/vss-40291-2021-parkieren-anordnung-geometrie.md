@@ -7,7 +7,7 @@ ersetzt: "VSS 40 291a:2019-03"
 ersetzt_durch: ""
 gelesen: "S. 1-32 von 32 (vollständig)"
 datenstand: 2026-07-13
-status: established (verifiziert 260714, Volltextabgleich Mini-Run 18)
+status: established (verifiziert 260714, Volltextabgleich Mini-Run 18 + Q&A-Selbstbefragung Run 20)
 last_updated: 2026-07-14
 links: [[vss-640291a-2005-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
 ---
@@ -111,7 +111,10 @@ werden (Komforteinbusse).
 
 **Fahrgassenbreiten in Geraden und Kehren (Tab. 5, S. 17):** Einbahnverkehr F = 3,20 m (Kehren
 Fkm = 4,00 m, Fkb = 7,50 m); Gegenverkehr F = 5,50 m (Kehren Fkm = 6,50 m, Fkb = 9,00 m). Bei
-Gegenverkehrsregime und geringem Verkehrsaufkommen kann F um max. 0,50 m reduziert werden.
+Gegenverkehrsregime und geringem Verkehrsaufkommen kann F um max. 0,50 m reduziert werden. Bei
+hohen Fussgängerfrequenzen in den Fahrgassen wird ein **Zuschlag von mindestens 0,80 m** zu den
+Werten der Tab. 5 empfohlen (S. 16); weitere Empfehlungen zur Fussgängerführung in
+Parkierungsanlagen in VSS 40 292 «Parkieren; Gestaltung und Ausrüstung der Parkierungsanlagen».
 
 **Rollstuhlgerechte Parkfelder (Ziff. 13, Abb. 7, S. 17-18):** Breite 3,50 m; reduzierbar auf
 2,50 m, wenn links neben dem Parkfeld auf ganzer Länge ein mind. 1,00 m breiter niveaugleicher
@@ -120,10 +123,12 @@ freier Bereich (BAS) vorhanden ist. Längsparkfelder 8,00 m lang (inkl. Ein-/Aus
 Ein-/Aussteigezone mind. 1,40 m breit (BAL), möglichst niveaugleich; auf verkehrsorientierten
 Strassen ausserhalb der Fahrspuren.
 
-**Parkfelder für Kleinwagen (Ziff. 14, Tab. 6+7, S. 18-19):** Mindestmasse durch Minimalfahrzeug
+**Parkfelder für Kleinwagen (Ziff. 14, Tab. 6-8, S. 18-19):** Mindestmasse durch Minimalfahrzeug
 bestimmt (Länge 2,50 m, Breite 1,55 m, Wenderadius 4,35 m). Längsparkfelder: F = 3,00 m,
-B = 1,80 m, L = 3,70 m, Lr = 2,80 m. Schräg-/Senkrechtparkfelder z.B. 90°: F = 3,20-4,20 m,
-B = 2,25/2,40 m, L = 2,80 m.
+B = 1,80 m, L = 3,70 m, Lr = 2,80 m (MB = 0,20 m, ML = 0,90 m). Schräg-/Senkrechtparkfelder z.B.
+90°: F = 3,20-4,20 m, B = 2,25/2,40 m, L = 2,80 m (LmV/LoV je 5,60 m). Fahrgassenbreiten für
+Kleinwagen in Geraden/Kehren (Tab. 8, S. 19): Einbahnverkehr F = 3,00 m (Kehren Fkm = 3,50 m,
+Fkb = 4,50 m); Gegenverkehr F = 4,60 m (Kehren Fkm = 5,00 m, Fkb = 7,25 m).
 
 **Parkfelder für Motorräder (Ziff. 15, Abb. 8, Tab. 9, S. 19-21):** Je Parkfeldwinkel (B/b/L/Z
 Zuschlag bei Hindernissen):
@@ -242,3 +247,21 @@ Abmessungen/Quergefälle (Ziff. 17+18, S. 23), Fahrwege/Kurvenverbreiterungen (Z
 S. 24-28), Rampen/Längsneigung (Ziff. 20.5-20.6, Tab. 13, S. 29), Ein-/Ausfahrt (Ziff. 21-22,
 S. 30-31), Begriffe (Ziff. 4, S. 5-6) und Literaturverzeichnis (S. 32). Keine weiteren
 Abweichungen zum Original gefunden.
+
+Q&A-Selbstbefragung Run 20 (260714): 20/20 Fragen bestanden, 0 Korrekturen (keine Falschangaben
+gefunden), 2 Ergänzungen. 20 gezielte Prüffragen zu Parkfeld-/Fahrgassen-/Rampen-/Sichtmassen und
+Fundstellen unabhängig anhand des Original-PDF (S. 1-20 und S. 21-32 separat gelesen) beantwortet
+und gegen das Destillat abgeglichen: Bemessungsfahrzeug Tab. 1+2 (S. 7), Sicherheitsabstand
+Schräg-/Senkrechtparkfelder Ziff. 9.3 (S. 11), Längsparkfelder Ziff. 11/Abb. 5 (S. 14),
+Sicherheitsabstand Radstreifen (S. 15), Tab. 4 90°/75°/70° (S. 16), Tab. 5 Fahrgassenbreiten
+(S. 17), rollstuhlgerechte Parkfelder Ziff. 13 (S. 17-18), Kleinwagen Tab. 6+7 (S. 18-19),
+Motorräder Tab. 9 (S. 21), Wände/Stützen Tab. 10 (S. 22-23), vertikale Abmessungen Ziff. 17
+(S. 23), Quergefälle Ziff. 18 (S. 23), Kurvenverbreiterungen Tab. 11 (S. 27), Rampen Ziff. 20.5-
+20.6/Tab. 13 (S. 29), Kontrolleinrichtungen Ziff. 21 (S. 30) — alle bestätigt korrekt. Zwei echte
+Lücken (keine Falschangaben, aber fehlende praxisrelevante Werte) identifiziert und ergänzt:
+(1) der Fussgänger-Zuschlag von mindestens 0,80 m zu den Fahrgassenbreiten der Tab. 5 bei hohen
+Fussgängerfrequenzen (S. 16) fehlte vollständig; (2) Tab. 8 «Breiten der Fahrgassen in Geraden und
+Kehren für Kleinwagen» (S. 19, Einbahn F 3,00 m/Gegenverkehr F 4,60 m) fehlte komplett im
+Kleinwagen-Abschnitt, ebenso die MB/ML-Werte der Kleinwagen-Längsparkfelder und die LmV/LoV-Werte
+der 90°-Schrägparkfelder für Kleinwagen (Tab. 6+7, S. 18-19). Alle übrigen 18 geprüften Ziffern
+ohne Beanstandung.
