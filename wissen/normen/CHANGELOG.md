@@ -1,3 +1,19 @@
+## 2026-07-14 — normen-training-mini Run 26 (Mac Mini): Q&A-Selbstbefragung 9 DIN-Normen, 0 Sachfehler, 49 Ergaenzungen
+- Stations-Split Mac Mini (DIN/VSS/RAL), Vertiefungsstufe (c) Fortsetzung aus Run 25.
+  DIN/VSS/RAL-Grunddestillation weiterhin 0 offene `[ ]`-Positionen (seit Run 19).
+- 9 parallele Sub-Agenten, je Norm 15-20 Pruefungsfragen gegen den Original-PDF-Volltext:
+  DIN 1045-2 (20/20, 4 Erg.), DIN 105-100 (20/20, 10 Erg.), DIN 105-5 (18 Fragen, 13 Erg.),
+  DIN 1053-2 (16/16, 2 Erg.), DIN 1053-3 (15 Fragen, 7 Erg.), DIN 1053-4 (20/20, 2 Erg.),
+  DIN 1055-2 (16/16, 6 Erg.), DIN 107 (15 Fragen, 3 Erg.), DIN 1072 Beiblatt 1 (3 Erg.).
+- Ueber alle ~155 Fragen: 0 Sachfehler (alle 9 Kandidaten waren bereits retro-verifiziert).
+  Groesste Einzelfunde: fehlende Chloridgrenzwerte Gesteinskoernung + Wassereindringwiderstand
+  in DIN 1045-2; komplett fehlende Konformitaetsbewertungs-/Kennzeichnungs-Abschnitte in
+  DIN 105-100; eigenstaendiges LLp-Bezeichnungsschema in DIN 105-5 fehlte vollstaendig.
+- `norm-inventar.md` + `destillate/INDEX.md` fuer alle 9 Positionen nachgefuehrt.
+  Report: `outputs/2026-07-14_normen-mini-run26.md`. Insgesamt 43/~95 DIN/VSS/RAL-Destillate
+  jetzt Q&A-selbstbefragt. Naechster Lauf: DIN 1164-10/1249-11/1356-1+6/18065/18299/18560-2/
+  272/276-4/68119/919-1/Abkuerzungsverzeichnis/EN-1627 + VSS 640291a/722.15/Merkblatt-VAPl.
+
 ## 2026-07-14 — normen-training-nacht Run 12 (MacBook Pro): Retro-Verifikation SIA 100/108/2020 + VKF-BRL-28-15-Duplikat inhaltlich aufgeloest
 - Gedrosselter Loop (Rule 260713, Token-Fokus liegt auf Wettbewerbs-DNA); Runs 7-11 liefen bereits
   am 14.07. Inventar-Check: SIA/VKF weiterhin 0 offene `[ ]`-Positionen — Lauf setzt bei
