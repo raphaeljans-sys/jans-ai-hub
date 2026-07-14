@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training-Run 31: D11 geschlossen (ZIW-Index-Faktor 2003→2025)
+
+- Erster produktiver Lauf seit Run 27: die amtliche Reihe **Zuercher Index der Wohnbaupreise**
+  (Stadt Zuerich, Basis 01.06.1939=100, Publikationsstand 01.01.2026) per Web gefunden und
+  ausgewertet — schliesst die seit Run 18 offene Luecke **D11**. Wert 01.04.2003=899.2, Wert
+  01.04.2025=1210.4 → **Index-Faktor 1.346 (+34.6 %)**. Die m3-Neuwert-Richtwerte (Schaetzungs-
+  anleitung Tab. 2, Bauklasse I-VI) sind jetzt auf 2025 hochgerechnet in [[realwert-sachwert]]
+  eingearbeitet (neue Tabelle + Quellenverweis + History-Eintrag).
+- Register aktualisiert: `wiki/wissensluecken.md` (D11 → erledigt), `training/curriculum.md`
+  (Stand Run 31), `raw/_INGESTED.md` (neue Quelle ZIW-Reihe).
+- Bewertungsordner erneut geprueft: kein neuer JANS-Bewertungsfall (weiterhin 4 bekannte:
+  Thalwil 9568, Ebmatingen 3932, Wangen 8855, Langnau 3338). Langnau-BZO-Revision per Web
+  bestaetigt unveraendert (kantonale Vorpruefung/Auflage Fruehjahr 2026, Festsetzung erst
+  Fruehjahr 2027 — weiterhin nicht rechtskraeftig, keine Aenderung an [[az-gfz-kennwerte]] noetig).
+- **Vierte Meldung an Raphael:** die Oberrieden-Hoehenkorrektur (Rule `auto-verbesserungen`
+  260624 nennt faelschlich 9.0 m traufseitig; amtlich seit Run 27 belegt sind 8.5 m traufseitig)
+  ist weiterhin nicht korrigiert.
+- Report: `outputs/2026-07-14_training-run31.md`.
+
 ## 2026-07-14 — Training-Run 30: Delta-Check (dritter Trigger desselben Tages)
 
 - Dritter Trigger am selben Tag (nach Run 28, 00:38 Uhr, und Run 29, 04:51 Uhr), erneut ausserhalb

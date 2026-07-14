@@ -3,6 +3,16 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K37-K39 (Run 42, 2026-07-14, Token-Vollgas)** Drei weitere Ordner-Abgleich-Kandidaten
+  geprueft. **K37 — kein Delta:** `gisos.bak.admin.ch` enthaelt nur den bereits bekannten bloßen
+  ISOS-Portal-Link, bestaetigt K34. **K38 — echter Neufund:** Kt.-Bern-Portalarchitektur
+  praezisiert (`be-geo.ch` = Login, `map.apps.be.ch` = Kartenclient), realer Fall Schloss
+  Muenchenwiler mit benannter Kontaktstelle Amt fuer Geoinformation Kt. Bern, AV-Bezug via
+  `geodienste.ch` auf max. 5 Parzellen/Bestellung gedeckelt → [[kartenportale-geoportale-uebersicht]].
+  **K39 — kleiner Delta:** Sunrise-Markenauftritt (Werkleitungsanfrage Willerzell) fuehrt technisch
+  auf dieselbe `leitungskataster.upc.ch`-Domaene wie das bereits dokumentierte UPC-Portal (Fusion,
+  kein zweites System) → [[kartenportale-werkleitungskataster]]. Details siehe
+  `training/curriculum.md` K37-K39.
 - [x] **K34-K36 (Run 40, 2026-07-14, Token-Vollgas Fan-out)** Ordner-Abgleich PL-01 liefert drei
   Neufunde. **K34 — neue Schutz-Domaene Denkmalpflege/Archaeologie:** national ISOS (BAK, nur
   Portal-Link) + kantonal ZH (Denkmalschutzobjekte + archaeologische Zonen, §§ 203/209/211 PBG);
@@ -538,6 +548,15 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D24 (Run 42, 2026-07-14, E36-E38, Token-Vollgas)** Ordner-Abgleich PL-04 liefert drei
+  weitere Funde. **E36 — neue Domaene:** Checkliste Gebaeudeschadstoffe (AWEL 02.2023) —
+  Vier-Faelle-Weiche Asbest/PCB/CP nach Baujahr/Bausumme/Rueckbauvolumen, untersuchungspflichtige
+  Spezialobjekte inkl. **Spitaeler** → NEU [[energie-baustoffe-schadstoffe-rueckbau]]. **E37 —
+  Delta:** SolarApp AG als eigenstaendiges Vorprojekt-Tool eingeordnet, realer Willerzell-Bericht
+  liefert zusaetzlich die Eigenverbrauchs-/Unabhaengigkeitsseite (53 %) → [[energie-pv-eignung-typenwahl]]
+  §2c. **E38 — Delta:** PVSOL premium als TGA-Fachplaner-Tool eingeordnet, realer 491-kWp-Grossanlagenfall
+  (Thomas Lueem Partner AG) mit explizitem "kein Planungsdokument"-Vorbehalt → [[energie-pv-eignung-typenwahl]]
+  §2c. Details siehe `training/curriculum.md` E36-E38.
 - [x] **D23 (Run 40, 2026-07-14, E32-E35, Token-Vollgas Fan-out)** Ordner-Abgleich PL-04 liefert
   vier Neufunde, alle in [[energie-pv-eignung-typenwahl]] eingearbeitet. **E32 —
   Planungsgrenzwerte dachintegriertes Typ-B-System:** Eternit-Sunskin-Planungsdoku, min. 10°/

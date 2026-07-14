@@ -2,7 +2,7 @@
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
 last_updated: 2026-07-14
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp-Vorprojekte Reckholdern/Einsiedeln (09.01.2024) + MFH Basel (05.11.2022), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40)]
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40)]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
 
@@ -122,7 +122,38 @@ Reihenfolge von grob (Portal, kostenlos) zu fein (professionelle Simulation):
 | **EnergieSchweiz Solarrechner** | Ertrag, Eigenverbrauch, Batterie, **Renditerechner** | `solarrechner.ch` / energieschweiz.ch | Usermanual Okt 2022 |
 | **uvek-gis.admin.ch** | kartenbasierte Eignung/Ertrag, Layer | `uvek-gis.admin.ch` (Map-Viewer Bund) | laufend |
 | **sonnenverlauf.de** | Sonnenstand/Verschattung ueber Jahr | `sonnenverlauf.de` | laufend |
-| **PVSOL premium** | professionelle Ertrags-/Verschattungs-Simulation | Desktop (Valentin) | projektweise |
+| **SolarApp AG** | vollstaendiges "SolarReport"-Vorprojekt (Auslegung + Nutzenanalyse) | `solarapp.ch` (Deitingen SO), Bestellung durch Installateur/Planer | projektweise |
+| **PVSOL premium** | professionelle Ertrags-/Verschattungs-Simulation | Desktop (Valentin Software GmbH) | projektweise |
+
+## 2c — SolarApp vs. PVSOL premium: zwei Stufen professioneller Simulation (Run 42, 2026-07-14)
+
+Delta zu §2: die bisher nur als Datenquelle in der Benchmark-Tabelle (§3) zitierten Tools
+**SolarApp** und **PVSOL premium** sind zwei unterschiedliche, eigenstaendige Stufen jenseits der
+kostenlosen Bund-Portale (sonnendach.ch/uvek-gis) — beide liefern **mehr als eine
+Eignungsklasse**, naemlich eine vollstaendige Vorprojekt-Auslegung mit Wirtschaftlichkeit.
+
+**SolarApp AG** (`solarapp.ch`, Industriestrasse 3, 4543 Deitingen) liefert auf Bestellung einen
+mehrseitigen **"SolarReport — Vorprojekt mit Auslegung und Nutzenanalyse"**: Eigenverbrauch/
+Unabhaengigkeit, Kennzahlen (installierte Leistung, Modulanzahl, Stromproduktion/Jahr, CO2-
+Reduktion), Monatsanalyse, Produktuebersicht (Montagesystem/Modul/Wechselrichter), Richtpreis,
+Wirtschaftlichkeit inkl. kumulierter Ertraege, sowie **Anhang Statikbericht** und **Anhang
+Auslegung Montagekomponenten**. Realer Beleg Reckholdern 20 Willerzell (Bericht 09.01.2024,
+bereits in §3 als Ertrags-/Kostenbenchmark gefuehrt) liefert zusaetzlich die bisher nicht
+dokumentierte **Eigenverbrauchs-/Unabhaengigkeits-Seite**: Produktion 7'743 kWh/Jahr,
+Eigenverbrauch 3'386 kWh, Stromverbrauch Haushalt 14'500 kWh/Jahr → **Unabhaengigkeit 53 %**,
+Bezug vom Netz 11'114 kWh, Einspeisung ins Netz 4'356 kWh. Alle SolarApp-Berichte tragen den
+Vorbehalt "Informationen ohne Gewaehr, muessen vom Fachpartner ueberprueft werden" — Status eines
+**Vorprojekts**, kein Ausfuehrungsdokument.
+
+**PVSOL premium** (Valentin Software GmbH) ist demgegenueber eine **Desktop-Fachplanersoftware**,
+die von TGA-/Elektroplanern fuer die technische Simulation grosser Anlagen eingesetzt wird — real
+belegt am Beispiel eines Elektroingenieurbueros (Thomas Lueem Partner AG, Baar) fuer eine
+**491.4-kWp-Grossanlage** (2'681 m² PV-Flaeche, 1'638 Module, 6 Wechselrichter, Klimadaten
+Waedenswil). Der Bericht selbst bezeichnet sich explizit als **"rudimentaere Simulation, um die
+Wirtschaftlichkeit einzugrenzen — kein Planungsdokument"**. Einordnung: SolarApp bedient
+JANS/Bauherrschaft direkt fuer Kleinanlagen (EFH/MFH) mit fertigem Praesentationsbericht; PVSOL
+premium ist das Werkzeug der TGA-Fachplaner-Subunternehmer fuer Grossanlagen-Voruntersuchungen,
+beide Stufen liefern ausdruecklich **kein** Ausfuehrungsdokument.
 
 **Solarrechner-Kennwerte (Usermanual EnergieSchweiz, Okt 2022, S. 2–3):**
 - Der Rechner deckt mit **4 Systemvarianten ~90 %** aller CH-Solaranlagen ab (PV mit Eigen-

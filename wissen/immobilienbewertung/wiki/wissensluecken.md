@@ -18,7 +18,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | ~~D8~~ | ~~**`_Kennwerte Jans.docx` / Healthcare-DOCX**~~ | — | ✓ | **erledigt Run 16 (2026-07-10)**: Pfad TCC-lesbar (wie D4). `_Kennwerte Jans.docx` → aGF/GF-Faktor 0.8/0.9 + Wohn-Erstellungskosten-Kennwert (4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350); 3 Healthcare-DOCX → Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle. In [[flaechendefinitionen-sia]] + [[realwert-sachwert]] |
 | D9 | **Szenarien-Definitionen** | D | niedrig | exakte Kosten-Abstufung der Stufen lowbudget/standard/gehoben/exklusiv |
 | D10 | **Referenzblatt «Kennwerte Altersheime» — 2 Roh-Zeilen nicht reproduzierbar** | D | niedrig | Run 18 (2026-07-12) Volltext-Recompute: **Averecura** (Tab. CHF/m2 GF 4'250 / CHF/m3 GV 1'420, aber 12.34 Mio ÷ 3'100 = **3'981** bzw. ÷ 9'600 = **1'285**) und die **Vella-Zeile** (Tab. 2'835/845 implizieren beide ~20.3 Mio, waehrend BKP 2 = **24.5 Mio** angegeben ist → 24.5/7'150 = **3'427**) sind quellenintern inkonsistent. Kein KB-Fehler — die Zahlen stehen so im JANS-Original-Blatt. Raphael: die beiden Zeilen im Referenzblatt bereinigen (BKP-2-Summe oder Flaeche/Kennwert je Objekt pruefen). Bis dahin gilt der **reproduzierbare Rohband ~2'623-3'981 CHF/m2 GF** bzw. die voll reproduzierbare teuerungsbereinigte Spalte **3'042-4'485** als Ansatz (→ [[realwert-sachwert]]) |
-| D11 | **m3-Neuwert-Richtwerte Stand 2003 aufindexieren** | D/T | niedrig | Die volumenbasierten CHF/m3-Richtwerte (Schaetzungsanleitung Tab. 2, Bauklasse I-VI) stehen auf **Stand 2003** (Zuercher Index der Wohnbaukosten, Basis 01.06.1939 = 100). Zum Aufindexieren auf 2026 fehlt der KB der **belegte Index-Faktor 2003 → 2026** (die BFS-Reihe ist im Hub erst ab Basis Okt-2020 = 100 dokumentiert; der Zuercher Wohnbaukosten-Index 1939er-Basis ist nicht hinterlegt). NICHT geraten (Leitplanke). Zu schliessen, sobald die lange Index-Reihe (BFS Baupreisindex-Verkettung oder Zuercher Baukostenindex-Historie) als Quelle vorliegt. Die m3-Klassen dienen ohnehin primaer der Sachwert-Plausibilisierung; die aktuellen CHF/m2-HNF- und Healthcare-GF-Kennwerte sind belegt und tragen den Ansatz |
+| ~~D11~~ | ~~**m3-Neuwert-Richtwerte Stand 2003 aufindexieren**~~ | — | ✓ | **erledigt Run 31 (2026-07-14)**: amtliche ZIW-Reihe (Stadt Zuerich, Basis 1939=100, Publikationsstand 01.01.2026, via hev-sz.ch) gefunden — Wert 01.04.2003=899.2, 01.04.2025=1210.4 → **Index-Faktor 2003→2025 = 1.346**. Tab.-2-Richtwerte auf 2025 hochgerechnet in [[realwert-sachwert]]. Naechste ZIW-Publikation ~04-06/2026 nachziehen |
 
 ## B. Training-Aufgaben (Claude schliesst sie im Lern-Loop)
 
@@ -32,6 +32,18 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | — | **Keine offenen T-Aufgaben (Ingest) — auch keine offenen Verifikations-Kandidaten mehr.** **Run 22 (2026-07-13):** die beiden von Run 20 benannten Kandidaten (DXMA-Aufwertungsgewinne + Baurecht-Fallbeispiele, Schwamendingen-Nutzermix) UND zusaetzlich Tab. 2/3 der Schaetzungsanleitung (Neuwert-Richtwerte, BKP-Anteile) per Modell D gegengelesen: **alle drei Komplexe bestanden, exakt reproduziert**, keine Korrektur. Kleine Anreicherung: Hortus-Conclusus-Referenzprojekt (Penzel Valier/Robertneun, 1. Rang 2020). Kein neuer JANS-Bewertungsfall (Bewertungsordner geprueft). Keine neue D-Luecke. Verbleibend nicht-auto-schliessbar: **D5/D10/D11** (Bring-Schulden Raphael bzw. externe Quelle noetig). **Kein weiterer auto-schliessbarer Verifikations-Kandidat identifiziert** — die KB hat keine offene Ingest- oder Verifikations-Aufgabe mehr, die Claude selbststaendig schliessen kann. → **Empfehlung an Raphael zum fuenften Mal in Folge, jetzt mit Nachdruck: Ruecktaktung ins Nachtfenster.** Ohne neues Rohmaterial (D1/D2/D5/D6/D7/D9/D10/D11) oder einen neuen JANS-Bewertungsfall produziert der Intensiv-Takt fuer diese KB keinen weiteren Erkenntnisgewinn mehr — nur noch Bestaetigungs-Wiederholungen. | — | — |
 
 ## Erledigt
+
+- ✓ 2026-07-14 **D11 geschlossen — ZIW-Index-Faktor 2003→2025 (Run 31)**: die amtliche Reihe
+  Zuercher Index der Wohnbaupreise (Stadt Zuerich, Basis 01.06.1939=100, Publikationsstand
+  01.01.2026, gefunden via hev-sz.ch-Reproduktion) schliesst die seit Run 18 offene Luecke —
+  Wert 01.04.2003=899.2 → 01.04.2025=1210.4 → **Faktor 1.346 (+34.6 %)**. Die m3-Neuwert-
+  Richtwerte (Tab. 2, Bauklasse I-VI EFH/MFH) sind jetzt auf 2025 hochgerechnet in
+  [[realwert-sachwert]] hinterlegt. Zusaetzlich Bewertungsordner erneut geprueft: weiterhin
+  kein neuer JANS-Fall (4 bekannte: Thalwil 9568, Ebmatingen 3932, Wangen 8855, Langnau 3338).
+  Langnau-BZO-Revision per Web bestaetigt unveraendert (kantonale Vorpruefung/Auflage Fruehjahr
+  2026, Festsetzung erst Fruehjahr 2027 — weiterhin nicht rechtskraeftig). **Oberrieden-
+  Hoehenkorrektur-Flag (Rule `auto-verbesserungen` 260624, seit Run 27 dreifach protokolliert)
+  bleibt unkorrigiert — vierte Meldung an Raphael, siehe Report.**
 
 - ✓ 2026-07-14 **Delta-Check (Run 30)** — dritter Trigger desselben Tages (nach Run 28 00:38 und
   Run 29 04:51), erneut ausserhalb der Sollfrequenz (Rule 260713). Bewertungsordner unveraendert

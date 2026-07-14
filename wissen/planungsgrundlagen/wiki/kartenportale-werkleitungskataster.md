@@ -1,7 +1,7 @@
 ---
 title: Werkleitungskataster — Strom/Kommunikation-Planauskunft (EKZ, Swisscom, Sunrise-UPC) + Wasser/Gas/Kanalisation SZ (EW Lachen AG)
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 sources:
   - EKZ Einsiedeln AG — Merkblatt zur einmaligen Datenabgabe (Planauskunft 1428968, 27.11.2023,
     reale JANS-Bestellung Reckholdernstrasse 20 Willerzell)
@@ -36,7 +36,7 @@ Auskunft ueber ein eigenes, meist login-pflichtiges Bestellportal.
 |---|---|---|
 | **Strom** | EKZ (Elektrizitaetswerke des Kantons Zuerich; regional auch Gemeindewerke, z.B. ewz Stadt Zuerich) | `ekz-planauskunft.ch` (Login + Bestellformular je Parzelle/Perimeter) |
 | **Festnetz/Kommunikation (Kupfer/Glasfaser)** | Swisscom | `swisscom.ch` Geo-Portal, "Netzauskunft" |
-| **Kabelnetz/Kommunikation** | Sunrise UPC (vormals UPC) | `upc.ch/leitungskataster` — 4 Regionen (West/Ost/Ticino/Romandie), Region Ost deckt Zuerich/Winterthur/Gossau/Jona ab |
+| **Kabelnetz/Kommunikation** | Sunrise UPC (vormals UPC) | `upc.ch/leitungskataster` — 4 Regionen (West/Ost/Ticino/Romandie), Region Ost deckt Zuerich/Winterthur/Gossau/Jona ab; Sunrise-Markenauftritt fuehrt real auf dieselbe `leitungskataster.upc.ch`-Domaene (Delta Run 42, Anmeldung/Bestellung Reckholdern belegt: Sunrise-gebrandete Korrespondenz, Login/Bestellung technisch weiterhin unter dem UPC-Namen — Marken-/Technikstand-Delta nach der Sunrise-UPC-Fusion, kein separates zweites Portal) |
 | **Gas** | kommunale Gaswerke / Energie 360° (Stadt ZH) / regionale Erdgas-Versorger | i.d.R. separate Anmeldung bei der Gemeinde-/Regionalwerk |
 | **Wasser/Abwasser** | Gemeindewerke (Wasserversorgung, Kanalisation) | i.d.R. beim Tiefbau-/Werkamt der Gemeinde, oft zusammen mit dem Werkleitungskataster der Gemeinde selbst |
 

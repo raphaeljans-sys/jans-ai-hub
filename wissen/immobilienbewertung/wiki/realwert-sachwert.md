@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-13
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web)]
+last_updated: 2026-07-14
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web), Zuercher Index der Wohnbaupreise 1939-2025 (Stadt Zuerich Statistik, Publikationsstand 01.01.2026, via hev-sz.ch, Run 31)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -49,12 +49,28 @@ Lagerhaeuser massiv 150-250, Werkstattgebaeude beheizt 200-325, Werkstatt mit um
 Technik 275-375. Bezugsgroessen: EFH = 800 m3, MFH = 5'000 m3 (8 Whg., 8 EH-Plaetze);
 Zuschlag Aufzug Fr. 15-20/m3.
 
-⚠ **Stand 2003** — fuer eine aktuelle Bewertung ueber den Zuercher Index der Wohnbaukosten
-(Tab. 4 der Quelle, Basis 01.06.1939 = 100) bzw. BFS-Baupreisindex **aufindexieren** (der belegte
-Index-Faktor 2003→2026 fehlt der KB noch, siehe [[wissensluecken]] D11 — bis dahin nicht geraten); fuer
-HNF-basierte Schaetzungen die aktuellen CHF/m2-HNF-Benchmarks (oben, Wuest 2021-2023) nutzen.
-Die m3-Klassen dienen primaer der **Sachwert-Plausibilisierung** und der Einordnung der
-Bauqualitaet (Klasse I-VI).
+**Stand 2003, aufindexiert auf 2025 (D11 geschlossen, Run 31 2026-07-14):** die amtliche Reihe
+**Zuercher Index der Wohnbaupreise (ZIW)**, Basis 01.06.1939 = 100, liegt jetzt vollstaendig vor
+(Quelle: Stadt Zuerich, Statistik und Daten, Publikationsstand 01.01.2026, Reproduktion HEV
+Schwyz). Wert 01.04.2003 = 899.2, Wert 01.04.2025 = 1210.4 (juengste publizierte Halbjahresreihe;
+naechste Publikation ~04/06.2026). **Index-Faktor 2003→2025 = 1210.4/899.2 = 1.346 (+34.6 %).**
+Damit lassen sich die Tab.-2-Richtwerte direkt hochrechnen:
+
+| Bauklasse (Wohnbauten) | EFH CHF/m3 (2025) | MFH CHF/m3 (2025) |
+|---|---|---|
+| I einfachste laendliche Bauweise | 572-673 | 471-572 |
+| II einfache Konstruktion, bescheidene Ansprueche | 639-740 | 538-639 |
+| III durchschnittliche Qualitaet, einfacher Innenausbau | 707-808 | 606-707 |
+| IV einwandfreie Qualitaet, besserer Ausbau | 774-942 | 673-774 |
+| V ueberdurchschnittlich, komfortabler Ausbau | 909-1'077 | 740-909 |
+| VI vornehm, beste Qualitaet, hoher Komfort | 1'010-1'279 | 841-1'010 |
+
+⚠ Der Faktor 1.346 basiert auf der 1939er-Ankerreihe der amtlichen ZIW-Publikation (nicht mit
+dem BFS-Baupreisindex zu verwechseln, der eine andere Basis/Methodik hat). Für eine Bewertung
+nach 2025 den naechsten publizierten ZIW-Wert nachziehen (naechste Publikation ~04-06/2026,
+Faustregel: Index steigt seit 2022 ~1-3 %/Jahr). Fuer HNF-basierte Schaetzungen bleiben die
+aktuellen CHF/m2-HNF-Benchmarks (oben, Wuest 2021-2023) der praezisere Ansatz; die m3-Klassen
+dienen primaer der **Sachwert-Plausibilisierung** und der Einordnung der Bauqualitaet (Klasse I-VI).
 
 #### BKP-Anteile am Gebaeude (Tab. 3, MFH mittlerer Standard, Baujahr 1985)
 
@@ -420,8 +436,10 @@ Instandsetzungskosten decken koennen.
   established.
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).
-- ⚠ m3-Neuwert-Richtwerte Stand 2003 → aufzuindexieren, sobald der Index-Faktor 2003→2026 belegt
-  vorliegt ([[wissensluecken]] D11; nicht geraten).
+- ✓ 2026-07-14 (Run 31): **D11 geschlossen** — amtliche ZIW-Reihe (Stadt Zuerich, Basis 1939=100,
+  Publikationsstand 01.01.2026) liefert Index-Faktor 2003→2025 = 1210.4/899.2 = **1.346**; Tab.-2-
+  Richtwerte auf 2025 hochgerechnet (siehe Tabelle oben). Naechster ZIW-Publikationstermin
+  ~04-06/2026 nachziehen.
 - ✓ 2026-07-13 (Run 22, Verifikations-Pass): **Tab. 2 (Neuwert-Richtwerte Bauklasse I-VI) +
   Tab. 3 (BKP-Anteile MFH 1985)** per Modell-D-Volltext-Gegenlesung gegen das Original-Anhang-PDF
   (`schaetzungsanleitung_kap5.pdf`, Kapitel 5) geprueft — alle sechs Bauklassen EFH/MFH-Werte

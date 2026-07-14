@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 42 (Kartenportale + Energie, Token-Vollgas): Gebaeudeschadstoffe-Checkliste NEU, SolarApp/PVSOL premium eingeordnet, Kt.-Bern-Portalarchitektur + Sunrise/UPC-Delta
+- **Energie — NEU eigener Artikel [[energie-baustoffe-schadstoffe-rueckbau]] (established):**
+  AWEL-Checkliste Gebaeudeschadstoffe (02.2023) vollstaendig destilliert — Vier-Faelle-Weiche
+  Asbest/PCB/CP nach Baujahr/Bausumme/Rueckbauvolumen (Art. 16 VVEA), zwei Sanierungswege
+  (instruierte Handwerker vs. Suva-anerkannter Sanierer), **untersuchungspflichtige
+  Spezialobjekte inkl. Spitaeler** (Healthcare-relevant unabhaengig von der Bausumme). Speist
+  Skill `ankaufspruefung` (CapEx-Fahrplan Bestandsbauten) und `ausschreibung` (Rueckbau-LV).
+- **Energie — §2c NEU [[energie-pv-eignung-typenwahl]]:** SolarApp AG (Deitingen SO) als
+  eigenstaendiges Vorprojekt-Simulationstool eingeordnet (bisher nur als Zahlenquelle in der
+  Benchmark-Tabelle zitiert, nie als Tool beschrieben); realer Willerzell-Bericht liefert
+  zusaetzlich die bisher fehlende Eigenverbrauchs-/Unabhaengigkeitsseite (53 % Unabhaengigkeit).
+  PVSOL premium (Valentin Software GmbH) als TGA-Fachplaner-Desktop-Tool eingeordnet, realer
+  491-kWp-Grossanlagenfall (Thomas Lueem Partner AG) mit explizitem "kein Planungsdokument"-
+  Vorbehalt dokumentiert.
+- **Kartenportale — [[kartenportale-geoportale-uebersicht]]:** Kt.-Bern-Portalarchitektur
+  praezisiert (`be-geo.ch` = Login, `map.apps.be.ch` = Kartenclient, analog zur ZH-Trennung),
+  realer Fall Schloss Muenchenwiler mit benannter Kontaktstelle Amt fuer Geoinformation Kt. Bern;
+  AV-Bezug via `geodienste.ch` auf max. 5 Parzellen/Bestellung gedeckelt. `gisos.bak.admin.ch`
+  geprueft, bestaetigter Nicht-Fund (nur bare URL, kein Delta zu K34/ISOS).
+- **Kartenportale — [[kartenportale-werkleitungskataster]]:** Sunrise-Markenauftritt (realer
+  Fall Reckholdern Willerzell) fuehrt technisch auf dieselbe `leitungskataster.upc.ch`-Domaene
+  wie das bereits dokumentierte UPC-Portal — Fusion, kein zweites System.
+- **Verifikations-Stufe:** alle Funde direkte Primaerquellen (AWEL-PDF, reale Korrespondenz/
+  Berichte aus dem PL-Ordner) ohne konkurrierende Zweitquelle → Status `established`
+  (Checkliste Gebaeudeschadstoffe, SolarApp/PVSOL-Einordnung) bzw. `emerging` (Bern-Portal,
+  Sunrise-Delta — Einzelfall-Beleg).
+- Register nachgefuehrt: `training/curriculum.md` K37-K39 + E36-E38, `wiki/QUESTIONS.md`
+  A/D-Sektion, `wiki/INDEX.md`, `raw/_INGESTED.md`.
+
 ## 2026-07-14 — Training Run 41 (Recht/Norm + Brandschutz, Token-Vollgas, Fan-out): AHB-Honorar/Nachhaltigkeit/CAD/Submission auf established + BSR-14-15-Fehlidentifikation korrigiert
 - **Recht/Norm (§5-§8 [[recht-norm-ahb-stadt-zuerich-projektstandards]], Status auf established
   gehoben):** vier weitere `Projektadmin AHB`-Unterordner ausgewertet — **Honorarwesen** (SIA-
