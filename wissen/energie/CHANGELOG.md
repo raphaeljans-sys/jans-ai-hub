@@ -2,6 +2,33 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 62: Neuer Themenkomplex Aussenlärm Strasse/Bahn (Pendant zu F65)
+- **Run-Report** `outputs/2026-07-14_energie-run62.md`. PDF-Inventar bleibt seit Run 46
+  vollständig abgearbeitet; Themenkomplex gemäss Run-61-Prioritätspunkt 3.
+- **Zwei getrennte Systeme:** Lärmschutz-Verordnung (LSV, Art. 31/32) prüft am **offenen**
+  Fenster die Bewilligungsfrage; SIA 181 (Ziff. 3.1.1) prüft am **geschlossenen** Fenster die
+  Bauqualität. Ein Schallschutzfenster löst die Bewilligungsfrage nicht.
+- **Massnahmen-Kaskade:** Quelle → Grundriss → bauliche Massnahmen → Schallschutzfenster als
+  Letztmittel; Ausnahmebewilligung Art. 31 Abs. 2 LSV nur kumulativ mit ausgeschöpfter Kaskade.
+- **Ampel-System:** gelbe Räume (Lüftungsfenster ≥5 % Bodenfläche hält Grenzwert) vs. rote Räume
+  (ruhiger Aussenbereich Pflicht min. 2 m/6 m², max. 1/3 Zimmer mit Ausnahme, Einzelraum-
+  belüftung). **ZH-Sonderregel:** öffenbare Fenster nur bis 70 dB Tag/60 dB Nacht, darüber
+  Festverglasung.
+- **SIA-181-Rechenlogik:** Kleinstwert De ≥ 27 dB; massgebend am Bau **R'w + Ctr** statt
+  Labor-Rw (Ctr −4 bis −6 dB bei Fenstern, Strassenlärm tieffrequenzlastig).
+- **Schallschutzfenster-Klassen** (fensterversand.ch, kommerziell, nicht amtlich): II 30–34 dB,
+  III 35–39 dB, IV 40–44 dB, V 45–49 dB mit Abstands-Faustregeln.
+- **Schnittstelle Komfortlüftung:** rote Räume mit dauerhaft geschlossenen Fenstern brauchen
+  mechanische Lüftung → `[[komfortlueftung]]`.
+- → `destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md` (neu), Ergänzung
+  `wiki/schallschutz-sia181.md` (neuer Abschnitt «Aussenlärm vertieft»), FAQ **F68** neu, Status
+  emerging.
+- Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D40,
+  Meta-Punkt M2 auf 18 Läufe), `wiki/QUESTIONS.md` (E51 neu), `raw/_INGESTED.md`.
+- Offen: SZ-spezifische Ausnahmebewilligungspraxis (JANS-Fokuskanton), amtliche (nicht
+  kommerzielle) Schallschutzfenster-Klassentabelle, CHF-Mehrkosten je Klasse. Nächster Lauf:
+  SZ-Vertiefung oder neuer, noch unbelegter Themenkomplex.
+
 ## 2026-07-14 — Run 61: Neuer Themenkomplex Fassadenbegrünung als Hitzeschutz + Zielkonflikt Fassaden-PV
 - **Run-Report** `outputs/2026-07-14_energie-run61.md`. PDF-Inventar bleibt seit Run 46
   vollständig abgearbeitet; nach Abschluss der 26-Kantone-Solarpflicht-Erhebung (Run 60) neuer

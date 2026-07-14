@@ -184,9 +184,10 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] M1 BAUHERREN-FAQ auf 15+ belegte Antworten ausbauen — **alle 17 Kernfragen F1-F17 belegt**
   (F6 WP-Systemvergleich neu 2026-06-18). Backlog nur noch Vertiefungen (Primaerquellen, CHF-Vergleiche).
 - [ ] M2 Pruefen: eigenes Skill `energie` rechtfertigt sich? (Trigger-Set entwerfen.) — **FAQ traegt jetzt
-  (17 Kernfragen + F18-F59 Vertiefungen, 87 Destillate); PDF-Inventar 2026-07-13 vollstaendig
-  abgearbeitet (alle Quellen [x]/[-]).** Reif fuer eine Entscheidung — naechster Meta-Schritt,
-  Raphael vorlegen statt weiter aufzuschieben.
+  (17 Kernfragen + F18-F68 Vertiefungen, 90+ Destillate); PDF-Inventar seit Run 46 vollstaendig
+  abgearbeitet (alle Quellen [x]/[-]).** Seit Run 45 (Stand Run 62: achtzehn Laeufe in Folge)
+  spruchreif fuer eine Entscheidung — naechster Meta-Schritt, Raphael vorlegen statt weiter
+  aufzuschieben.
 - [x] D7 **Naturdaemmstoffe (Holzfaser/Zellulose/Hanf/Stroh) — oekologisch daemmen + Sommerhitzeschutz**
   — belegt 2026-07-06 (gesundes-haus.ch Materialvergleich + Lignum «Holzfaserdaemmung» + Strohballen).
   Winter: λ 0,038–0,045 wie Mineralwolle → keine dickere Daemmung. Sommer: Speichermasse ρ·c holzbasiert
@@ -585,3 +586,19 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[solarpflicht-schweiz-kantone]]` ergänzt, FAQ F66 geschärft. Status bleibt **emerging**
   (mehrere W/m²-/%-Sätze und der AI-Widerspruch offen), aber die Erst-Erhebung ist **vollständig
   (26/26 Kantone)**.
+
+- **D40 (Run 62, 2026-07-14)** — «Mein Grundstück liegt an einer lauten Strasse/Bahnlinie —
+  reicht ein gutes Schallschutzfenster, um bauen zu dürfen?» — belegt 2026-07-14. Nächster
+  fälliger Themenkomplex gemäss Run-61-Prioritätspunkt 3 (Pendant zum bereits erschlossenen
+  Wärmepumpen-Lärmschutz F65). Web-Recherche (WebFetch bauen-im-laerm.ch + curl+pdftotext
+  baukultur-laerm.ch + WebFetch fensterversand.ch): **zwei getrennte Systeme** — die
+  Lärmschutz-Verordnung (LSV, Art. 31/32) prüft am **offenen** Fenster die Bewilligungsfrage,
+  SIA 181 (Ziff. 3.1.1) prüft am **geschlossenen** Fenster die Bauqualität. Massnahmen-Kaskade
+  Quelle→Grundriss→bauliche Massnahmen→Schallschutzfenster als Letztmittel; Ampel-System gelbe
+  Räume (Lüftungsfenster ≥5 % Bodenfläche hält Grenzwert) vs. rote Räume (ruhiger Aussenbereich
+  Pflicht, max. 1/3 Zimmer mit Ausnahme, Einzelraumbelüftung); ZH-Sonderregel Festverglasung ab
+  70 dB Tag/60 dB Nacht; SIA-181-Kleinstwert De ≥ 27 dB, massgebend am Bau **R'w + Ctr** statt
+  Labor-Rw (Ctr −4 bis −6 dB bei Fenstern); Schallschutzfenster-Klassen II-V nur aus kommerzieller
+  Quelle (fensterversand.ch), nicht amtlich → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`
+  (neu), Ergänzung `[[schallschutz-sia181]]`, FAQ **F68** neu, Status emerging (SZ-spezifische
+  Ausnahmebewilligungspraxis, amtliche Fensterklassen-Tabelle, CHF-Mehrkosten je Klasse offen).
