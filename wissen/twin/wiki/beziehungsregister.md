@@ -1030,3 +1030,36 @@ Der externe Facility-Manager-Kontakt Jorge Gomes (Vision Apartments, Sie-Registe
 Korrespondenz rein organisatorisch (Besichtigungstermin) und ohne persönlichen Bezug verläuft — bestätigt,
 dass «Geschätzter» der default-warme Sie-Einstieg für aktiv kooperierende externe Dienstleister ist, auch
 ohne mehrfachen Mail-Wechsel oder Telefonat als Auslöser. Quelle: 01.06.2026, authentisch.
+
+## @-Mention als Register-/Adressierungs-Umschalter in Gruppenmails — zweiter Beleg, jetzt gesichert (belegt Fidelity 260714h, authentisch)
+
+Beantwortet QUESTIONS 260713g #2 (bisher nur 1 Beleg, Echo-/Overfitting-Vorbehalt). Zweiter, unabhängiger
+Beleg: eine Pendenz-Mail an den Haupt-Ansprechpartner Levi Hiltmann (Du, «Geschätzter Levi») schliesst mit
+zwei per **«@Nachname Vorname»** bzw. **«@Vorname Nachname»** direkt adressierten Handlungsaufträgen an
+ANDERE Empfänger im selben Mail-Body, ohne eigenen Anrede-Kopf für sie: «**@Spahic Albin** Bitte
+Angebotsfreigabe mit Unternehmer & Verkauf koordinieren / **@Fabian Würsch** Bitte Finale Tür-ID mit
+internen Fachstellen klären und freigeben; Funktionshöhe Deckeninstallation vor Ort messen» (13.07.2026,
+KISPI-Türplanung). Wie im ersten Beleg (Levi/Bajrami/Fabian) bleibt die Reihenfolge Nachname-Vorname bzw.
+Vorname-Nachname uneinheitlich — kein festes Namensformat, nur die **@-Markierung selbst** ist das feste
+Signal. → **Bestätigt und verankert:** Bei einer kurzen, koordinativen Multi-Empfänger-Mail mit
+unterschiedlichen Handlungsaufträgen je Person adressiert Raphael die einzelnen Empfänger per «@Name»
+direkt im Fliesstext statt über einen gestapelten Anrede-Kopf («Geschätzter X / Sehr geehrter Y») — die
+Haupt-Anrede am Kopf der Mail gilt dem primären Ansprechpartner, die @-Zeilen sind knappe Handlungs-
+Zuweisungen an die Mitgelesenen. Der Zwilling darf dieses Muster bei kurzen, aufgabenteilenden
+Team-/Pendenz-Mails mit mehreren Empfängern einsetzen (nicht bei dokumentierend-formellen Mehrfach-
+Adressierungen — dort bleibt der gestapelte Anrede-Kopf Standard).
+
+## Inline-gemischte Anrede «Geschätzter Herr X, geschätzter Herr Y, hoi Z» in EINER Zeile (belegt Fidelity 260714h, authentisch)
+
+Neue Variante des «Register-Mix in EINER Mail» (bisher nur gestapelt über Zeilenumbrüche belegt, vgl.
+«Geschätzter Herr Ziegel, / werter Albin»): in einer dringenden, technisch-koordinierenden Drei-Empfänger-
+Mail (Lüftungs-Strangschema, KISPI, 13.07.2026) stehen alle drei Anreden **in EINER durchlaufenden Zeile,
+komma-getrennt**: «**Geschätzter Herr Duran, geschätzter Herr Kübler, hoi Jens**» — zwei Sie-Fachplaner
+(förmlich) und ein Du-Fachplaner (informell, sogar **kleingeschriebenes «hoi»** mitten im Satz) im selben
+Anrede-Satz, nicht als gestapelte Kopfzeilen. Die Mail schliesst dennoch mit vollem «Freundliche Grüsse» +
+Block (dokumentierend/dringend schlägt die Du-Anrede des einen Empfängers) und einem kollektiven Dank, der
+alle drei unabhängig vom Register im Du-Plural zusammenfasst: «**Euren Einsatz**». → Der Zwilling darf bei
+einer kurzen, dringenden Mail an eine gemischte Sie/Du-Empfängergruppe die Anreden inline in einer Zeile
+komma-trennen (statt zu stapeln), wenn die Mail primär eine gemeinsame, technische Sachfrage an das ganze
+Team richtet; der Schluss-Gruss folgt dem dokumentierend-dringenden Charakter (FG+Block), ein kollektiver
+Dank darf alle Register im Du-Plural («Euren») bündeln.
