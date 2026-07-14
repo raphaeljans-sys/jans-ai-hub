@@ -5,8 +5,8 @@ ausgabe: "Stand Januar 2008"
 ersetzt: "kein CH-Norm-Status — Lehrskript, stützt sich auf DIN 18065 (Gebäudetreppen), DIN 4174, DIN 18064"
 gelesen: "S. 1-19 (vollständig — Einführung, Treppenarten/Flächen, Treppenkonstruktion, Glossar, Impressionen, Planungsgrundlagen Neufert Treppen)"
 datenstand: "Januar 2008"
-status: destilliert
-last_updated: 2026-07-13
+status: "established (verifiziert 260714, Retro-Verifikation Run 19; Korrekturen: Neufert-Stufenzahlregel 18 statt 10 Stufen, Neufert-Mindestmasse-Tabelle Zeile 1-5 komplett neu zugeordnet, Formel 2s+a=59-65cm statt 63-65cm, Maximalentfernung Schulen/Verkaufsstätten 25m statt 30m, Fluchtleitern-Tabelle Rückenschutz erst ab 5m)"
+last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
 
@@ -52,32 +52,41 @@ Versammlungsstätten-/Waren- und Geschäftshausverordnung).
   1,00 m; baurechtlich nicht notwendige Treppen 0,50 m.
 - **Durchgangshöhe (S. 8):** nutzbare Treppendurchgangshöhe **≥ 2,00 m** (ohne
   Treppendurchgangshöhe wenn kein Handlauf ≥ 1,75 m).
-- **Neufert, Stufenzahl-Regel «18-Stufen-Regel» (S. 14):** Treppen zwischen zwei
-  Geschossen mit max. 10 Stufen ohne Zwischenpodest bauaufsichtlich notwendig,
-  bei repräsentativen Treppen bis 4 m Geschosshöhe ohne Podest möglich (18er-Regel
-  ist «Soll»-Bestimmung).
-- **Neufert, Treppen-Mindestmasse-Tabelle (Zeile 1-5, S. 15):** Wohngebäude ohne
-  Aufenthaltsräume: Laufbreite min. 80 cm, Steigung 20, Auftritt 23; Keller-/
-  Bodentreppen ohne Aufenthaltsräume: 50/21/23; Treppen zu Aufenthaltsräumen mit
-  ≤2 Wohnungen: 80/20/21; sonstige Gebäude, baurechtlich notwendig: 100/19/23;
-  alle Gebäude, baurechtlich nicht notwendig (Zusatztreppen): 50/21/23.
+- **Neufert, Stufenzahl-Regel «18-Stufen-Regel» (S. 14):** Normaltreppe (Steigungs-
+  verhältnis 17/29) bei baurechtlich notwendigen Treppen max. **18 Stufen** bis zum
+  Treppenabsatz/Podest; bei repräsentativen Treppen bis 4 m Geschosshöhe ohne
+  Podest möglich. Die 18-Stufen-Regel ist eine «Soll»-Bestimmung; Podestlänge =
+  n-fache Schrittlänge + 1 Stufentiefe (z.B. bei Steigung 17/29: 1×63+29 = 92 cm
+  oder 2×63+29 = 1,55 m).
+- **Neufert, Treppen-Mindestmasse-Tabelle (Zeile 1-5, S. 15):** Wohngebäude mit
+  nicht mehr als 2 Wohnungen, Treppen zu Aufenthaltsräumen: Laufbreite min.
+  80 cm, Steigung 20, Auftritt 23; dieselbe Gebäudeart, Kellertreppen (nicht zu
+  Aufenthaltsräumen führend): 80/21/21; Bodentreppen (nicht zu Aufenthaltsräumen
+  führend): 50/21/21; sonstige Gebäude, baurechtlich notwendige Treppen:
+  100/19/26; alle Gebäude, baurechtlich nicht notwendige (zusätzliche) Treppen:
+  50/21/21.
 - **Neufert, Formel Steigungsverhältnis (S. 15):** s (Treppensteigung)/a
-  (Treppenauftritt) = **17/29** als Referenzverhältnis (2s+a=63-65 cm-Formel mit
+  (Treppenauftritt) = **17/29** als Referenzverhältnis (2s+a=59-65 cm-Formel mit
   Schrittlänge Erwachsener 59-65 cm).
-- **Neufert, Maximalentfernung zum nächsten Treppenraum (S. 15):** Hochhäuser
-  25 m; Schulen/Verkaufsstätten 30 m; Gebäude ohne Sonderbauten nach LBO 35 m.
+- **Neufert, Maximalentfernung zum nächsten Treppenraum (S. 15):** Hochhäuser/
+  Schulen/Verkaufsstätten 25 m; geschlossene und unterirdische Garagen,
+  Versammlungsstätten (ab Ausgang zum Treppenraum), Krankenhäuser 30 m; Gebäude
+  ohne Sonderbauten nach LBO sowie Gast- und Beherbergungsstätten 35 m.
 - **Neufert, Umwehrungshöhen (S. 16):** Absturzhöhe <12 m → Umwehrung 0,90 m;
-  Absturzhöhe <12 m bei Arbeitsstätten/Treppenauge max. 20 cm breit → 1,00 m;
-  Absturzhöhe >12 m → **1,10 m**.
+  Absturzhöhe <12 m bei Arbeitsstätten und bei Treppenauge max. 20 cm breit
+  → 1,00 m (Letzteres gilt auch bei mehr als 12 m Absturzhöhe anstelle 1,10 m);
+  Absturzhöhe >12 m (ohne diese Ausnahme) → **1,10 m**.
 - **Neufert, Spindel-/Wendeltreppe (S. 17):** ab ca. 210 cm Lochdurchmesser
   baurechtlich notwendige Treppe für Ein-/Zweifamilienhäuser möglich (mind. 80 cm
   Laufbreite, Ø 260 cm für sonstige Gebäude mit mind. 1,00 m Laufbreite);
   Spindeltreppen unter 80 cm nutzbarer Laufbreite sind «nicht notwendige Treppen».
 - **Neufert, Fluchtleitern DIN 18799/24532/14094 (S. 19):** ab Gebäudehöhe 5 m
-  Steigleitern mit Rückenschutz erforderlich; max. **10 m Steighöhe** ohne
-  Zwischenpodest; Korbdurchmesser 0,70 m; Abmessungstabelle Rückenschutz/
-  Wandbefestigungen nach Gebäudehöhe (3,0-4,0 m: RS 3 Paar bis 19,0-20,0 m: RS 13
-  Paar, Sprünge je 1 m ab 10,0-11,0 m).
+  Steigleitern mit Rückenschutz erforderlich; max. **10 m Steighöhe** je
+  Leiterzug; Korbdurchmesser 0,70 m. Abmessungstabelle Wandbefestigungen nach
+  Gebäudehöhe: 3,0-5,0 m **kein** Rückenschutz (3 Wandbefestigungspaare); ab
+  5,0 m Rückenschutz (RS) erforderlich, steigend von 4 Paar (5,0-7,0 m) auf 6
+  Paar (9,0-10,0 m); ab 10,0-11,0 m versetzte Ausführung mit 8 Paar; danach in
+  Sprüngen von je 1 m bis 19,0-20,0 m auf 13 Paar steigend.
 
 ## Begriffe (Glossar S. 12)
 

@@ -3,6 +3,41 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714b (twin-fragesteller, aus Fidelity-Review 2026-07-14b)
+
+Quelle: Drift-Report `outputs/2026-07-14b_fidelity.md` (Live-Goldprobe, drei authentische
+Vor-Claude-Mails Dez 2025 in drei Registern; Konsolidierungs-Review, Gesamt-Fidelity ~90 —
+die Golds bestaetigen bestehende Regeln, diese Fragen zielen auf die Raender). Je in 1–2
+Saetzen beantwortbar.
+
+1. **Gedankenstrich «–» in MAILS — erlaubt, obwohl in Dokumenten/Folien verboten?** In der
+   Bauentscheid-Sie-Mail an die Bauherrin nutzt Du «–» sowohl als Listen-Bullet («– das
+   Bauinstallationsgespraech …») als auch im Betreff («Wartstrasse 8 – Naechste Schritte»). Die
+   Regel «kein Gedankenstrich als Stilmittel» ist ausdruecklich auf Dokumente/Folien begrenzt.
+   Gilt in Mails also: «–» als Bullet und Betreff-Trenner ist bewusst erlaubt, und das Verbot
+   greift nur in DOCX/PDF/Folien? *Warum: verhindert, dass der Zwilling die Doku-Regel
+   ueberdehnt und Deine Mail-Bullets/Betreffzeilen faelschlich glaettet.* → [[stimme]]
+2. **Freiwilliger optionaler Zusatzvorschlag am Ende einer fertigen Lieferung — System oder
+   Zufall?** In der STWEG-Korrektur an den Geschaefts-Du-Partner bietest Du unaufgefordert eine
+   weitere **optionale** Verfeinerung an («Beispielsweise koennte man noch die Leerzeilen der
+   ehemaligen Parkplatzauflistung … loeschen»), hypothetisch gerahmt mit «koennte man». Haengst
+   Du solche freiwilligen Mehrwert-Vorschlaege systematisch an eine abgeschlossene Lieferung an,
+   oder nur wenn Dir spontan etwas auffaellt? *Warum: klaert, ob der Zwilling proaktiv einen
+   optionalen Zusatzschritt mitliefern soll oder die Lieferung sauber abschliesst.*
+   → [[arbeitsweise]], [[haltung]]
+3. **«Geschaetzter <Vorname>» bei eingespieltem Geschaefts-Du-Partner — dauerhaft register-fix
+   oder wandert es mit Vertrautheit zu «Hoi»?** Beim langjaehrigen STWEG-Partner bleibst Du bei
+   «Geschaetzter Christoph» + «Lieber Gruss». Ist «Geschaetzter» bei diesem Kontakttyp
+   (Investor-/Geschaefts-Du mit Respekt-Distanz) dauerhaft die Anrede, oder gibt es einen Punkt,
+   ab dem Du zu «Hoi Christoph» wechselst? *Warum: praezisiert, ob «Geschaetzter» ein stabiles
+   Register oder eine Vorstufe zu «Hoi» auf der Vertrautheitsachse ist.* → [[beziehungsregister]]
+4. **STWEG-Wertquoten: normierst Du je Liegenschaft einzeln auf 1000 (nicht nur gesamthaft)?**
+   Du korrigierst eine Einheit von 178 auf 179, ausdruecklich damit «beide Liegenschaften
+   einzeln im Total 1000» ergeben. Ist die Je-Liegenschaft-auf-glatt-1000-Normierung Dein fester
+   Pruefschritt bei STWEG-Quoten (statt nur die Gesamtsumme zu pruefen)? *Warum: schaerft ein
+   bislang nur einmal belegtes Fachsignatur-Muster fuer den Skill stockwerkeigentum /
+   wertquoten-rechner.* → [[fachsignatur]]
+
 ## Offen — Runde 260714 (twin-fragesteller, aus Fidelity-Review 2026-07-14)
 
 Quelle: Drift-Report `outputs/2026-07-14_fidelity.md` (bisher unverarbeitetes Rohmaterial

@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14b — twin-fidelity-review: Live-Goldprobe drei Register (Konsolidierung)
+- M365-Connector in diesem Lauf verfuegbar → echte Live-Goldprobe (drei authentische Vor-Claude-
+  Mails Dez 2025, KI-Marker-Check negativ): G1 vertraut-Du Rechnungs-Freigabe, G2 Geschaefts-Du
+  STWEG-Korrektur, G3 formell-Sie Bauentscheid-Verfahren.
+- Gesamt-Fidelity ~90; **Konsolidierungs-Review**: alle drei Golds bestaetigen bereits kodierte
+  Regeln praezise (Verifikations-Doppelfrage + FG-Block ohne Service-Satz; «Lieber Gruss» nach
+  «Geschaetzter» bei Plan-Korrektur ohne Geld; Verfahrens-Sie ohne Wunschzeile + «melde ich mich
+  unverzueglich»). Kein neuer Drift → **keine** Facetten-Aenderung, **keine** DNA-Neukompilierung
+  (build_dna waere idempotent; Morgenlauf hatte kompiliert).
+- `QUESTIONS.md`: 4 neue Fragen Runde 260714b (Scope «–» in Mails vs. Dokumenten; freiwilliger
+  optionaler Zusatzvorschlag; «Geschaetzter»-Dauerhaftigkeit; STWEG-1000-Normierung je Einheit).
+- Report: `outputs/2026-07-14b_fidelity.md`.
+
 ## 2026-07-14 — twin-fidelity-review: Nachtrag Mailbatch 37 (bisher unverarbeitet)
 - M365-Connector in dieser Session nicht verfuegbar (kein Mail-Suchwerkzeug verbunden); Review
   arbeitete stattdessen auf `raw/260713-mailbatch-37.md` — bereits destilliert, aber bislang in

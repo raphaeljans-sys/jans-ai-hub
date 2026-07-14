@@ -31,3 +31,14 @@ Reiner Wiederholungslauf ohne neuen Stoff, wie an den vorherigen VOLLGAS-Taktung
 2026-07-13 09:29. Naechster inhaltlicher Fortschritt braucht entweder neues Rohmaterial in
 der Quelle oder eine von Raphael freigegebene Stufe-3-Bereinigung der in
 `wiki/QUESTIONS.md` gesammelten Doppelordner-/Slug-Fragen.
+
+## Zweiter Batch-Aufruf desselben Tages (05:47, VOLLGAS-Endlos-Taktung)
+Start: 2026-07-14T05:47:06+0200, Ende: 2026-07-14T05:47:33+0200.
+
+Vorab in der Quelle `05_Architekten_Synobsis` geprueft: 854 Top-Level-Ordner statt 853 —
+Differenz ist der neue Ordner `00_Organisation` (Buero-interne Ablage/Referenzen, kein
+Architekten-Ordner, bleibt zu Recht ausserhalb des Katalogs). Kein neuer Architekt.
+
+Ergebnis identisch zum 00:27-Lauf: 853/853, offen 0, `vectors.npz` deterministisch ohne
+Diff neu geschrieben, nur Zeitstempel in `catalog/INDEX.md`/`catalog/cad-index.json`
+aktualisiert (weiterhin 15 Architekten mit CAD). Kein neuer Stoff.

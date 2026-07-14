@@ -33,6 +33,14 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-14 **Delta-Check (Run 30)** — dritter Trigger desselben Tages (nach Run 28 00:38 und
+  Run 29 04:51), erneut ausserhalb der Sollfrequenz (Rule 260713). Bewertungsordner unveraendert
+  (kein neuer Fall), Marktanker per Web-Check bestaetigt unveraendert (SNB 0.00 %/Referenzzins
+  1.25 %/Durchschnittszinssatz 1.31 % seit 31.03.2026). D6-Restposten Langnau weiterhin blockiert.
+  Oberrieden-Hoehenkorrektur-Flag (Rule 260624, Run 27) zum dritten Mal protokolliert — noch nicht
+  durch Raphael korrigiert. Neu vermerkt: Haeufung von 3 Triggern/Tag deutet auf Ueberlappung
+  Scheduled Task/VOLLGAS-Runner hin.
+
 - ✓ 2026-07-14 **Beobachtungslauf (Run 28)** — kein neuer Ingest (Rule 260713 drosselt diesen
   Loop auf 1x taeglich, Fokus liegt auf Wettbewerbs-DNA). Bewertungsordner geprueft: kein neuer
   JANS-Fall. Marktpuls-Web-Check: SNB 0.00 %/Referenzzins 1.25 % unveraendert seit Run 17.
