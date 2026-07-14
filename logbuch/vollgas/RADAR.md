@@ -13,6 +13,45 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 12:49 — [FREI] Fenster hat Kapazitaet, Durchsatz stark und lueckenlos, immobewertung-Root-Cause-Fix greift, keine P1
+
+**Fensterzustand [FREI]:** `claude -p --model haiku` mit gesourctem Token (`set -a; source
+~/.jans-dispatch.env`) liefert sauber «OK» (rc=0) → Login intakt, das aktuelle 5h-Fenster hat
+Kapazitaet. Reset war ~09:50, naechster ~14:50 — wir naehern uns dem Fensterende, aber noch kein
+Limit-Treffer, kein Eingriff noetig. Taktgeber-Auftrag «nach Reset sofort weiter» erfuellt.
+
+**Runner-Einzellauf verifiziert:** genau eine `vollgas-runner.sh`-Instanz (PID 4210, etime ~1 Tag);
+der zweite Prozess (PID 34681, PPID 4210) ist die im Zyklus gestartete Loop-Subshell derselben
+Instanz, kein Doppellauf. Kein STOP. Durchsatz stark und lueckenlos: 22 Commits in 90 Min, 89 in
+6 Std, davon 23 nas-selfcommit-Buendel (Sicherheitsnetz greift). Inhaltlich echt seit dem
+11:51-Eintrag: energie Run 68 (Register nachgefuehrt), twin-mail Mailbatch 52 (Sent Items rj@
+09.-11.06.), planungsgrundlagen Run 48 (Normkonzept BSV 2026 Primaerquelle + M3-Korrektur),
+twin-fidelity Runde 260714j (Fidelity 86), normen-mini Run 27 (Q&A-Selbstbefragung 16 DIN/VSS,
+295 Fragen), normen Retro-Verifikation SIA 400:2000 (Volltextabgleich).
+
+- **P3 (GELOEST) — Trigger-Haeufung immobewertung/spec:** `immobewertung-training` Run 33 hat den
+  Root-Cause der Mehrfach-Ausloesung im `vollgas-runner` behoben (EXCLUDE_RE-Anpassung, Commit
+  a5d95eea). Der bisher als P3 gefuehrte Scheduling-Redundanz-Punkt ist damit auf der Runner-Ebene
+  entschaerft; die verbleibende launchd-Task-Redundanz bleibt Sache der Drosselung 10.08. Kein
+  weiterer Eingriff.
+- **P3 (unveraendert) — `wettbewerbs-layer-nachbrenner` meldet Mandat erfuellt:** weiterhin
+  Endbedingungs-Kandidat (Schritt 6), meldet Aufgabe abgeschlossen und schlaegt Deaktivierung vor.
+  Scheduling-Entscheid gehoert Raphael bzw. in die Drosselung; ~4 Min/Lauf, kein Blocker. Vormerkung
+  fuers naechste Briefing.
+- **P2 (unveraendert) — Idle-Loops `wettbewerbs-dna-training` / `spec-training` / `synobsis-batch-nacht`
+  + baurecht-buch/immobewertung-Kurzlaeufe:** brechen weiter intermittierend nach Sekunden mit
+  «keine eigentliche Anfrage angekommen» ab (baurecht-buch 12:39 10s, immobewertung 12:40 7s,
+  synobsis 6. No-op-Lauf heute). Fix bleibt: bei ruhiger/interaktiver Gelegenheit einen «Fahre den
+  naechsten offenen Baustein aus»-Auftakt in die jeweilige SKILL.md voranstellen — NICHT mitten im
+  Zyklus editieren. Kein Eingriff in diesem Lauf.
+- **P3 (unveraendert) — energie-Meta-Punkt M2:** Loop flaggt weiter, ob ein eigener `energie`-Skill
+  abgespalten werden soll — braucht Raphaels Entscheid in einer interaktiven Session. Vormerkung.
+
+Alles optimal: Fenster wird gefuellt, kein Doppellauf, keine selbst behebbare Bremse offen, Login
+laeuft, ein P3-Root-Cause geloest. Kein Mail-Anlass (keine neue/offene P1).
+
+---
+
 ## 2026-07-14 11:51 — [FREI] Fenster hat Kapazitaet, Durchsatz weiter stark, Runner-Einzellauf, keine P1
 
 **Fensterzustand [FREI]:** `claude -p` mit gesourctem Token (`set -a; source ~/.jans-dispatch.env`)

@@ -1,0 +1,5 @@
+STOP gesetzt 2026-07-14 12:52 durch vollgas-chef-radar auf Anweisung Raphael.
+Grund: Tempo drosseln — Wochenlimit (Alle Modelle) bereits 81% ausgeschoepft, noch ~6 Tage
+bis Reset (Mo 11:59). Endlos-Runner soll NICHT weiterlaufen und NICHT automatisch neu
+gestartet werden. Geplante Tasks laufen bei ihrer Frequenz weiter (gedrosselt separat).
+Wiederanlauf nur auf ausdrueckliche Anweisung Raphaels.
