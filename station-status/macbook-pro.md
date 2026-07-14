@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.07.2026 07:40:14
+Stand: 14.07.2026 07:50:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:27)
@@ -12,4 +12,4 @@ Stand: 14.07.2026 07:40:14
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 609d4e57 planungsgrundlagen-training Run 42: Kartenportale Kt.-Bern/Sunrise-UPC-Delta + Energie NEU Gebaeudeschadstoffe-Checkliste + SolarApp/PVSOL premium eingeordnet
+- a4249119 nas-selfcommit: liegen gebliebene Aenderungen (normen-nacht-run9, logbuch, spec)
