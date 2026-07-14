@@ -13,6 +13,41 @@ Fensterzustand je Eintrag: [VOLL] Fenster ausgereizt (Ziel) · [FREI] Kapazitaet
 
 ---
 
+## 2026-07-14 06:51 — Fenster heute Nacht [VOLL] getroffen, jetzt [FREI]; Ultra-Loop wettbewerbs-dna idelt (P2)
+
+**Fensterzustand [FREI], voriges Fenster war [VOLL]:** Um 04:48-04:49 haben mehrere MacBook-Loops
+(`wettbewerbs-layer-nachbrenner`, `wettbewerbs-dna-training`, `baurecht-buch-training`) «You've hit
+your session limit · resets 4:50am» getroffen — das rollierende 5h-Fenster war also voll ausgereizt
+(Ziel erfuellt). Nach dem Reset 04:50 rollt der Runner seither lueckenlos weiter, kein Reset-Loch;
+seit ~05:00 kein neuer Limit-Treffer. Login-Signal wie bekannt: nacktes `claude -p` → «Not logged in»
+(Test-Artefakt, Token-Zeile in ~/.jans-dispatch.env vorhanden), Runner selbst rc=0 durchgehend.
+
+**Durchsatz stark:** 27 Commits in 90 Min, 55 in 6 Std, rc=0 auf beiden. MacBook Zyklus laeuft
+(wettbewerbs-layer-nachbrenner aktiv), Mac Mini Zyklus 319 (energie Run 60 fertig → normen-mini).
+Inhaltlich echt: energie **Solarpflicht 26/26 Kantone abgeschlossen** (Run 60, `9bfc2695`); normen-mini
+Run 19 DIN/VSS/RAL-Familie komplett retro-verifiziert; planungsgrundlagen Run 39/40 Recht-Norm + PV.
+Kein STOP, keine Doppellaeufe.
+
+- **P2 (NEU) — Ultra-Fokus-Loop `wettbewerbs-dna-training` idelt (~10s, «keine Anfrage»):** Auf 2 der
+  letzten 3 echten Laeufe (05:31, 06:39; 04:48 war ein echter Limit-Treffer) bricht der Loop nach
+  ~10s mit «I don't see an actual question / keine konkrete Anfrage» ab, obwohl seine SKILL.md voll
+  bestueckt ist (23 Zeilen, Etappe-3-Auftrag). Damit produziert ausgerechnet der laut Rule 260713 als
+  ULTRA gesetzte Token-Fokus-Loop keine Last; die echte Wettbewerbs-Arbeit traegt derzeit allein der
+  `wettbewerbs-layer-nachbrenner` (B3 Schulbau 23/23 established). Der Runner uebergibt die SKILL.md
+  identisch wie bei den funktionierenden Loops (`-- "$PROMPT"`), das Idle ist also intermittierend, nicht
+  strukturell. Empfehlung: bei naechster interaktiver/ruhiger Gelegenheit einen expliziten «Fahre den
+  naechsten offenen Baustein aus ETAPPE-3.md aus»-Auftakt in die SKILL.md voranstellen (robuster gegen
+  Konversations-Antwort), NICHT mitten im laufenden Zyklus editieren (Byte-Offset-Risiko). `spec-training`
+  zeigt dasselbe Muster (10s, «keine Anfrage») — gleicher Fix.
+- **P3 (unveraendert) — energie M2 «eigener Skill energie?»:** jetzt 16 Laeufe ueberfaellig; braucht
+  Raphaels Entscheid interaktiv, kein Mail-Anlass.
+- **P3 (unveraendert) — normen-mini Budget-Cap 25 USD / normen-training-nacht Redundanz-Slot:** nur
+  beobachten; Cap-Treffer unter VOLLGAS = gewuenschter Voll-Verbrauch, kappt bisher nach Abschluss.
+
+Kein Mail-Anlass: keine neue P1, Login laeuft, Fenster wird gefuellt.
+
+---
+
 ## 2026-07-14 05:51 — Beide Stationen laufen lueckenlos, starker Durchsatz, keine P1 [FREI]
 
 **Fensterzustand [FREI]:** Login OK (`claude -p` mit gesourctem OAuth-Token → «OK»; das nackte
