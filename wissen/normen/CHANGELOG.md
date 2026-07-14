@@ -1,3 +1,13 @@
+## 2026-07-14 — Anfrage «Farbe Elektroinstallationen in Architektenplänen»: SIA-400-Destillat vertieft
+- Interaktive Norm-Anfrage (Fundstellen-Route gemäss Rule normen-referenz). Befund: SIA 400:2000
+  kennt KEINE Gewerke-Farbe für Elektroinstallationen — Sinnbilder grundsätzlich schwarz-weiss
+  (B.8.1), Elektro nach SEV-Sinnbildern (B.8.6); Farben nur bei Aussparungen (Tabelle 5, S. 41):
+  Decken/Boden gelb, Wände/Pfeiler braun, Gewerk-Zuordnung über Kurzzeichen E/H/L/K/S.
+- Destillat `destillate/sia-400-2000.md` ergänzt um B.8.6 (Elektro/Telekom-Sinnbilder + Kurzzeichen)
+  und B.10.2 Tabelle 5 (Farbkennzeichnung Aussparungen). Zusatzbefund: SIA 410 (1978/86) verweist
+  Elektro ebenfalls an den SEV; physische Anlagen-Kennzeichnung Elektro = gelb (SIA 410/1, via
+  AHB-Standard-Artikel in wissen/planungsgrundlagen).
+
 ## 2026-07-14 — normen-training-nacht Run 11 (MacBook Pro): Retro-Verifikation 4 SIA-Bestandsdestillate
 - Gedrosselter Loop (Rule 260713, SIA+VKF Token-Fokus liegt auf Wettbewerbs-DNA); Runs 7-10
   liefen heute bereits. Inventar-Check: SIA/VKF zeigen 0 offene `[ ]`-Positionen (Grunddestillation
