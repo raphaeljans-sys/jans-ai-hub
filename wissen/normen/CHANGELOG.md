@@ -1,3 +1,15 @@
+## 2026-07-14 — Q&A-Selbstbefragung Run 20: din-18040-1-2010 (MacBook Pro)
+- 18 gezielte Pruefungsfragen zu Mindestmassen (Tuerbreiten, Bewegungsflaechen, Rampenneigung,
+  Treppen, WC-Masse, Aufzuege) und Kennzeichnungspflichten formuliert und jede unabhaengig durch
+  Volltextlektuere des Original-PDF (30/30 Seiten) beantwortet, dann gegen das Destillat
+  `destillate/din-18040-1-2010.md` abgeglichen.
+- Ergebnis: 18/18 Fragen bestanden. 1 Korrektur: Fundstellen-Bereich der Rampen-Sektion von
+  "Ziff. 4.3.8, S. 16-17" auf "S. 16-18" praezisiert (Handlauf-/Radabweiser-Vorgaben unter
+  Ziff. 4.3.8.3 stehen im Original auf S. 18). Keine inhaltliche/masszahlliche Abweichung
+  gefunden — das Destillat war bereits aus den Vorlaeufen (Run 7, Mini-Run 260714) durchgehend
+  korrekt.
+- Frontmatter `status`/`last_updated` und Verifikations-Sektion im Destillat nachgefuehrt.
+
 ## 2026-07-14 — normen-training-mini Run 19/20 (Mac Mini): DIN/VSS/RAL-Bookkeeping nachgezogen + Querschnitts-Synthese fuer Fach-Skills
 - Beim Start dieses Laufs zeigte `git status`, dass ein Hintergrund-Prozess (Vollgas-Runner)
   bereits 17 randstaendige "Sonstiges"-Destillate (10 Register-/Glossar-Positionen aus dem
