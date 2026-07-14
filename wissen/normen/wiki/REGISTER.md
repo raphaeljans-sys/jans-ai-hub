@@ -379,7 +379,7 @@ DIN 4102-1, SN 640 060), Qualität entspricht dem KB-Standard — jetzt nachgezo
 | DIN 1946-6 | 2009-05 | — | gilt; Teil-Destillat (125 S., S.1-20+27-37 gelesen) |
 | DIN 276-1 | 2008-12 | — | gilt; Kosten im Bauwesen (Hochbau) |
 | DIN 276-4 | 2009-08 | — | gilt; Kosten im Ingenieurbau |
-| DIN 4102-1 | 1998-05 | DIN 4102-1:1981-05 | gilt; Teil-Destillat (28 S., S.1-20+26-28 gelesen; Anhang B S.21-25 offen) |
+| DIN 4102-1 | 1998-05 | DIN 4102-1:1981-05 | gilt; Voll-Destillat (28/28 S. gelesen, inkl. Anhang B S.21-25); Q&A-Selbstbefragung Run 20 (260714) |
 | DIN 5034-2 | 1985-02 | — | gilt |
 | DIN 5034-3 | 2007-02 | — | gilt |
 | DIN 5034-4 | 1994-09 | — | gilt; Quell-PDF im Bestand nur ungerade Seiten (Scan-Lücke, kein Extraktionsfehler) |
