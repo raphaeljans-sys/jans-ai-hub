@@ -21,6 +21,26 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 20:48 — [GEDROSSELT] Schoner-Lauf: Lage ruhig, Runner gestoppt, Login intakt, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer). Als Schoner starte ich den Runner
+ausdruecklich NICHT neu und loesche STOP NICHT. Wochenlimit wird geschont (Reset Mo 11:59, jetzt
+noch ~4 Tage). Login-Test (Background + Kill-Fallback) liefert sauber «OK» — kein Login-Block.
+
+**Durchsatz:** 6 Commits/90 Min, 25/6 Std. Die letzten 90 Min waren reine `nas-selfcommit`-Heartbeats
+(alle 15 Min) — genau die erwartete ruhige Gedrossel-Kadenz ohne Dauer-Runner. Einzige Substanz ueber
+6 Std: Energie-Training Run 69 (SIA 2024 Gesundheitsbau, Netzverstaerkung PV/E-Mobilitaet, Fernwaerme,
+Netto-Null). Nachtfenster (22:00–06:00) noch nicht erreicht, daher wenig Trainings-Aktivitaet — im Soll.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Im Schoner-Modus reicht 3–4x
+  taeglich statt stuendlich; der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade
+  schonen. Vorschlag an Raphael fuers naechste Briefing (Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Login intakt, keine neue/offene P1. Kein Mail-Anlass.
+
 ## 2026-07-14 19:48 — [GEDROSSELT] Schoner-Lauf: Lage stabil, Runner gestoppt, Login intakt, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
