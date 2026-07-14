@@ -87,3 +87,15 @@ Empfehlung (nicht umgesetzt, nur beobachtet): die fuenf losen Root-Dateien sind
 Ablage-Streuverlust in der read-only Quelle `05_Architekten_Synobsis` und sollten bei
 Gelegenheit von Raphael in einen passenden Architekten-/Sammelordner einsortiert oder
 geloescht werden — der Skill fasst die Quelle nicht an (strikt read-only).
+
+## Sechster Batch-Aufruf desselben Tages (12:35, synobsis-batch-nacht regulaerer Task)
+Start: 2026-07-14T12:35:12+0200, Ende: 2026-07-14T12:35:39+0200.
+
+Ergebnis identisch zu den fuenf vorherigen Laeufen: 853/853, offen 0, `vectors.npz`
+deterministisch ohne inhaltlichen Diff neu geschrieben (`git diff --stat` nur Zeitstempel
+in `catalog/INDEX.md`/`catalog/cad-index.json`, 2 Zeilen). Kein neuer Stoff seit 2026-07-02
+(nun 12 Tage). Reiner Wiederholungslauf; naechster inhaltlicher Fortschritt bleibt an neues
+Rohmaterial in der Quelle oder eine freigegebene Stufe-3-Bereinigung (siehe
+`wiki/QUESTIONS.md`) gebunden — dies ist inzwischen der sechste ergebnislose Lauf des
+Tages, ein Hinweis, dass die aktuelle Taktung fuer diese KB ohne neue Quelle keinen
+weiteren Ertrag mehr bringt.

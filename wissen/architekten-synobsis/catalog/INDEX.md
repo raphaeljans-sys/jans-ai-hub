@@ -1,6 +1,6 @@
 # Architekten-Synobsis — Katalog (Stufe 1)
 
-Stand: 14.07.2026 11:54  ·  849 Architekten indexiert
+Stand: 14.07.2026 12:35  ·  849 Architekten indexiert
 
 Quelle: `/Volumes/daten/05_Architekten_Synobsis` (read-only). Aufbereitung kompoundierend in Chargen.
 
