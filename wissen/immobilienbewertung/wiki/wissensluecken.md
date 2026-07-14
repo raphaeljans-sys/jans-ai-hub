@@ -33,6 +33,13 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-14 **Delta-Check (Run 32)** — fuenfter Trigger desselben Tages (nach Run 28 00:38,
+  Run 29 04:51, Run 30 05:44, Run 31 07:32), erneut ausserhalb der Sollfrequenz (Rule 260713).
+  Bewertungsordner unveraendert (kein neuer Fall), Marktanker nicht erneut per Web geprueft
+  (Run 31 liegt < 4 Std. zurueck, kein Grenznutzen). Oberrieden-Hoehenkorrektur-Flag (Rule 260624)
+  zum fuenften Mal protokolliert. Trigger-Haeufung 5x/Tag bestaetigt — Empfehlung an Raphael, die
+  Trigger-Quelle(n) (Scheduled Task vs. VOLLGAS-Runner) zu pruefen.
+
 - ✓ 2026-07-14 **D11 geschlossen — ZIW-Index-Faktor 2003→2025 (Run 31)**: die amtliche Reihe
   Zuercher Index der Wohnbaupreise (Stadt Zuerich, Basis 01.06.1939=100, Publikationsstand
   01.01.2026, gefunden via hev-sz.ch-Reproduktion) schliesst die seit Run 18 offene Luecke —

@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training-Run 32: Delta-Check (fuenfter Trigger desselben Tages)
+
+- Fuenfter Trigger am selben Tag (nach Run 28 00:38, Run 29 04:51, Run 30 05:44, Run 31 07:32
+  Uhr), erneut ausserhalb der Sollfrequenz (Rule 260713: 1x taeglich 02:50). Schlanker Delta-Check
+  statt Vollzyklus: Bewertungsordner erneut gelistet, unveraendert (kein neuer JANS-Fall).
+  Marktanker nicht erneut per Web geprueft (Run 31 liegt < 4 Std. zurueck, kein Grenznutzen vor
+  den naechsten Publikationsterminen 09.2026). D6-Restposten Langnau weiterhin blockiert.
+- Oberrieden-Hoehenkorrektur-Erinnerung (Rule `auto-verbesserungen` 260624) zum **fuenften Mal**
+  protokolliert — weiterhin nicht korrigiert.
+- Trigger-Haeufung (5 Laeufe an einem Kalendertag) jetzt eindeutig bestaetigt — Empfehlung an
+  Raphael, die Trigger-Quelle(n) (Scheduled Task vs. VOLLGAS-Runner) zu pruefen, damit Token-
+  Einsatz nicht auf reine Bestaetigungs-Delta-Checks faellt.
+- Report: `outputs/2026-07-14_training-run32.md`.
+
 ## 2026-07-14 — Training-Run 31: D11 geschlossen (ZIW-Index-Faktor 2003→2025)
 
 - Erster produktiver Lauf seit Run 27: die amtliche Reihe **Zuercher Index der Wohnbaupreise**
