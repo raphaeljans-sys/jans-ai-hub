@@ -467,7 +467,7 @@
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
 | — | P3 | `0 Anleitung.docx` |  |  | keine Norm, Admin-Anleitung Download/FileOpen-Plugin (Büro Meili Peter Architekten, Stand 2014) — übersprungen |
-| [x] 260713 | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 | 2008 | destilliert (din-1045-2-2008.md), vollstaendig S.1-62/62 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 1045-2.pdf` | 1045 | 2008 | destilliert (din-1045-2-2008.md), vollstaendig S.1-62/62  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-100.pdf` | 105 | 2012 | destilliert (din-105-100-2012.md), vollstaendig S.1-28/28, ersetzt DIN V 105-100:2005 ; retro-verifiziert Mini-Run 15 (260713) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 105-5.pdf` | 105 | 1984 | established, verifiziert 260713 (din-105-5-1984.md), Mini-Run 14: 13 Aussagen geprueft, keine Fehler |
 | [x] 260713 | P3 | `DIN-Norm/DIN 1053-1.pdf` | 1053 | 1996 | established (verifiziert 260713, Tabelle 12 korrigiert), din-1053-1-1996.md, vollstaendig S.1-32/32 |
@@ -486,7 +486,7 @@
 | [x] 260713 | P3 | `DIN-Norm/DIN 1627_Auszuege .pdf` | 1627 | 2011 | Teil-Destillat, verifiziert 260713 (din-en-1627-2011.md, nur 4/44 S. im Bestand, pdfinfo bestaetigt), Mini-Run 14: 1 Klassifizierungsfehler (RC 4) korrigiert, KB-Luecke Vollversion in QUESTIONS.md |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18040-1.pdf` | 1804 | 2010 | destilliert (din-18040-1-2010.md), Reconcile 260712 Mini-Run2 ; verifiziert 260713 (Volltextabgleich Run 7, 2 Luecken ergaenzt) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18040-2.pdf` | 1804 | 2011 | destilliert (din-18040-2-2011.md), Pendant zu DIN 18040-1 ; verifiziert 260713 (Volltextabgleich Run 7, keine Fehler) |
-| [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2 |
+| [x] 260712 | P3 | `DIN-Norm/DIN 18065.pdf` | 1806 | 2000 | destilliert (din-18065-2000.md), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18232-2.pdf` | 1823 | 2007 | established, verifiziert 260713 (din-18232-2-2007.md), vollstaendig S.1-30/30, Brandschutz-relevant (NRA), Mini-Run 14: 66 Aussagen geprueft, 1 Ergaenzung |
 | [x] 260712 | P3 | `DIN-Norm/DIN 18299.pdf` | 1829 | 2010 | destilliert (din-18299-2010.md), Reconcile 260712 Mini-Run2 ; verifiziert (Modell D) 260714, Ziff. 0.4 -> 0.4.1/0.4.2 praezisiert |
 | [x] 260713 | P3 | `DIN-Norm/DIN 18560-2.pdf` | 1856 | 2009 | destilliert (din-18560-2-2009.md)  verifiziert 260713 (bestanden) |
@@ -502,11 +502,11 @@
 | — | P3 | `DIN-Norm/DIN 277-1_Bildteil_MMMP München.pdf` | 277 |  | Foto-Scan Bildteil, Duplikat von DIN 277-1:2005-02 (bereits din-277-1-2005.md) — übersprungen |
 | — | P3 | `DIN-Norm/DIN 277-1_MMMP München.pdf` | 277 |  | Foto-Scan desselben Bürobuch-Exemplars DIN 277-1:2005-02, inhaltlich Duplikat von din-277-1-2005.md — übersprungen |
 | [x] | P3 | `DIN-Norm/DIN 277-2.pdf` | 277 | 2005 | destilliert 260712 ; verifiziert (Modell D) 260714, ca. 60 -> 69 Raumkategorien korrigiert |
-| [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen) |
+| [x] 260712 | P3 | `DIN-Norm/DIN 277-3.pdf` | 277 | 2005 | destilliert (din-277-3-2005.md), Inventar-Nachtrag 260713 (war faelschlich offen)  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4102-1.pdf` | 4102 | 1998 | established, verifiziert 260713 (din-4102-1-1998.md, vollstaendig S.1-28/28, Anhang B S.21-25 nachgelesen Mini-Run 12), Mini-Run 14: 58 Aussagen geprueft, 6 Fehler korrigiert + fehlende Ziff. 5.2.4 ergaenzt |
 | [x] 260713 | P3 | `DIN-Norm/DIN 4102-2.pdf` | 4102 | 1977 | destilliert (din-4102-2-1977.md) ; verifiziert 260713 (Volltextabgleich Run 7, keine Fehler) |
 | [x] 260712 | P3 | `DIN-Norm/DIN 4426.pdf` | 4426 | 2001 | destilliert (din-4426-2001.md), Fassadengeruest-Verankerung + Dachhaken relevant  verifiziert 260713 (bestanden) |
-| [x] 260713 | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 | 2001 | destilliert (din-4844-2-2001.md), vollstaendig S.1-23/23, Mini-Run3 |
+| [x] 260713 | P3 | `DIN-Norm/DIN 4844-2.pdf` | 4844 | 2001 | destilliert (din-4844-2-2001.md), vollstaendig S.1-23/23, Mini-Run3  Retro-verifiziert Mini-Run 18 (260714): established, keine Korrektur noetig. |
 | [x] 260713 | P3 | `DIN-Norm/DIN 5034-1.pdf` | 5034 | 1999 | established (verifiziert 260713, Dm/Dmin-Grenzwerte+fehlende Regelspur korrigiert), din-5034-1-1999.md, Teil-Destillat |
 | [x] 260713 | P3 | `DIN-Norm/DIN 5034-2.pdf` | 5034 | 1985 | established (verifiziert 260713, Fundstellen korrigiert, Gl.17 ergaenzt), din-5034-2-1985.md, vollstaendig S.1-13/14 |
 | [x] 260712 | P3 | `DIN-Norm/DIN 5034-3.pdf` | 5034 | 2007 | established (verifiziert 260713, DRr-Formel+g-Abhaengigkeit praezisiert), din-5034-3-2007.md |
@@ -515,10 +515,10 @@
 | [x] 260712 | P3 | `DIN-Norm/DIN 68119.pdf` | 6811 | 1996 | destilliert (din-68119-1996.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle + Faserabweichung Gueteklasse praezisiert) |
 | — | P3 | `DIN-Norm/DIN 68800-2 e.pdf` | 6880 |  | englische Fassung, uebersprungen (Sprachvarianten-Regel) |
 | [x] 260713 | P3 | `DIN-Norm/DIN 919-1.pdf` | 919 | 1991 | destilliert (din-919-1-1991.md)  verifiziert 260713 (beanstandet-korrigiert: Fundstelle + falsche KF/KH-Interpretation korrigiert) |
-| [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2 |
-| [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md) |
-| [x] 260713 | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 | 2005 | destilliert (din-v-105-100-2005.md), vollstaendig S.1-31/31, Mini-Run3 |
-| [x] 260713 | P3 | `DIN-Norm/DIN V 106.pdf` | 106 | 2005 | destilliert (din-v-106-2005.md), vollstaendig S.1-26/26, Mini-Run3 |
+| [x] 260712 | P3 | `DIN-Norm/DIN EN 12101-2.pdf` | 1210 | 2003 | destilliert (din-en-12101-2-2003.md, S.1-16+31-38/38), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260712 | P3 | `DIN-Norm/DIN EN 12207.pdf` | 1220 | 2000 | destilliert (din-en-12207-2000.md)  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260713 | P3 | `DIN-Norm/DIN V 105-100.pdf` | 105 | 2005 | destilliert (din-v-105-100-2005.md), vollstaendig S.1-31/31, Mini-Run3  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260713 | P3 | `DIN-Norm/DIN V 106.pdf` | 106 | 2005 | destilliert (din-v-106-2005.md), vollstaendig S.1-26/26, Mini-Run3  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `DIN-Norm/DIN V 107.pdf` | 107 | 1974 | destilliert (din-107-1974.md), Original ist DIN 107 ohne Vornorm-V-Zusatz  verifiziert 260713 (beanstandet-korrigiert: Korrelationstabelle ergaenzt) |
 | [x] 260713 | P3 | `DIN-Norm/DIN_18041.pdf` | 18041 | 2004 | destilliert vollstaendig (din-18041-2004.md, S.1-39/39), Hoersamkeit kleine/mittlere Raeume ; verifiziert Mini-Run 17 (260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert) |
 | [x] 260713 | P3 | `Sonstiges/041210_vstaett_vo.pdf` | 0412 |  | destilliert vollstaendig (vstaettvo-niedersachsen-2004.md, S.1-31/31) |
@@ -546,15 +546,15 @@
 | [x] | P3 | `700.5 Zugangsnormalien_Kt_ZH7_9.12.87.pdf` | 700 | 1987 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: Anhang-Tabelle Breitenbaender + fehlende Zeile/Abschnitte ergaenzt) |
 | [x] | P3 | `722.15_Verkehrssicherheitsverordnung.pdf` | 722 | 1983 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: 3 Sachfehler korrigiert) |
 | [x] | P3 | `Merkblatt-VAPl.98.pdf` |  | 1998 | destilliert 260712  verifiziert 260713 (beanstandet-korrigiert: fehlende Abschnitte Wo/Ausfuehrung/Spezialfaelle ergaenzt) |
-| [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md) |
-| [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712 |
-| [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2 |
-| [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung |
+| [x] 260713 | P3 | `VSS 40 291 Parkieren 2021.pdf` |  | 2021 | destilliert (vss-40291-2021-parkieren-anordnung-geometrie.md)  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] | P3 | `VSS 640 050 Grundstückzufahrten.pdf` | 640 | 1993 | destilliert 260712  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260712 | P3 | `VSS 640 060 Leichter Zweiradverkehr Grundlagen.pdf` | 640 | 1994 | destilliert (vss-640060-1994.md), Reconcile 260712 Mini-Run2  Retro-verifiziert Mini-Run 18 (260714): established. |
+| [x] 260713 | P3 | `VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 | 2011 | destilliert (vss-640065-2011.md), Veloparkierung Bedarfsermittlung  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260712 | P3 | `VSS 640 066 Leichter Zweiradverkehr Geometrie.pdf` | 640 | 1996 | destilliert (vss-640066-1996.md), Reconcile 260712 Mini-Run2 ; verifiziert (Mini-Run 260714, Kapazitaetsangaben Fahrradboxen/-parkhaeuser korrigiert) |
-| [x] 260713 | P3 | `VSS 640 281 Parkfelder.pdf` | 640 | 2006 | destilliert (vss-640281-2006.md) |
+| [x] 260713 | P3 | `VSS 640 281 Parkfelder.pdf` | 640 | 2006 | destilliert (vss-640281-2006.md)  Retro-verifiziert Mini-Run 18 (260714): established. |
 | [x] 260713 | P3 | `VSS 640 291a Parkieren Geometrie.PDF` | 640 | 2005 | destilliert (vss-640291a-2005-parkieren-anordnung-geometrie.md), historisch/ersetzt durch 40 291:2021; enthaelt ab S.25 SN 640 105a (destilliert 260713 Run 6, sn-640105a-2000.md) ; verifiziert Mini-Run 17 (260714, Motorrad-Parkfeld-Laenge frei erfundener 2,50-m-Wert korrigiert) |
 | [x] 260713 | P3 | `SN 640 105a Verbreiterung Fahrbahn Kurven (Anhang in VSS 640 291a-PDF, S.25-37)` | 640 | 2000 | destilliert (sn-640105a-2000.md), vollstaendig 13/13 S., Volltextabgleich verifiziert (Mini-Run 6) ; retro-verifiziert Mini-Run 15 (260713) |
-| [x] 260713 | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 | 2006 | destilliert (vss-640578-2006.md), Laermimmissionen Parkierungsanlagen |
+| [x] 260713 | P3 | `VSS 640 578 Brechnung der Immissionen.pdf` | 640 | 2006 | destilliert (vss-640578-2006.md), Laermimmissionen Parkierungsanlagen  Retro-verifiziert Mini-Run 18 (260714): established. |
 | — | P3 | `_In der Schweiz sind bei der Planung von Tiefgaragen mehrere Normen zu beachten.docx` |  |  | keine Norm, kurze Notiz/Übersicht (nennt SN 640 291:2020, SIA 500:2009, SN 640 075:2014, ZH-PPV) — übersprungen |
 | — | P3 | `buk/https.docx` |  |  | keine Norm, enthält nur URL zu buk.arch.ethz.ch/Dokumentation/Parkieren — übersprungen |
 | — | — | `xalt/VSS 640 065 Leichter Zweiradverkehr.pdf` | 640 |  | ersetzt/alt (xalt) |

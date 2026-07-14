@@ -93,14 +93,18 @@ Geschwindigkeiten kann F um max. 0,20 m reduziert werden. Bei Radstreifen ist ei
 Sicherheitsabstand von mind. 0,70 m zwischen Radstreifen und Längsparkfeldern einzuhalten.
 
 **Schräg- und Senkrechtparkfelder (Ziff. 12, Tab. 4, S. 16):** Werte je Parkfeldwinkel W
-(Fahrgassenbreite F / Parkfeldbreite B / Parkfeldlänge L):
-- 90°: F 5,00-6,50 m (je nach B 2,50-2,80 m), L 5,00 m, LmV/LoV 10,00 m, Überhangstreifen
+(Fahrgassenbreite F / Parkfeldbreite B senkrecht zur Längsausrichtung / Parkfeldbreite b entlang
+der Fahrgasse / Parkfeldlänge L / Länge zweier aneinanderstossender Parkfelder mit Verzahnung LmV
+bzw. ohne Verzahnung LoV / Breite Überhangstreifen U):
+- 90°: F 5,00-6,50 m (je nach B 2,50-2,80 m; b = B), L 5,00 m, LmV/LoV je 10,00 m, U = 0,50 m.
+- 75°: F 5,00/4,50 m, B 2,50/2,65 m, b 2,60/2,75 m, L 5,30 m, LmV 10,20 m, LoV 10,40 m,
   U = 0,50 m.
-- 75°: F 5,00/4,50 m, B 2,50/2,65 m, L 5,30 m, U = 0,50 m.
-- 70°: F 4,50/4,00 m, B 2,50/2,70 m, L 5,30 m, U = 0,50 m.
-- 60°: F 3,20-3,50 m, B 2,50-2,80 m, L 5,25 m, U = 0,45 m.
-- 45°: F 3,20 m, B 2,50 m, L 4,80 m, U = 0,35 m.
-- 30°: F 3,20 m, B 2,50 m, L 4,10 m, U = 0,25 m.
+- 70°: F 4,50/4,00 m, B 2,50/2,70 m, b 2,60/2,90 m, L 5,30 m, LmV 10,00 m, LoV 10,30 m,
+  U = 0,50 m.
+- 60°: F 3,20-3,50 m, B 2,50-2,80 m, b 2,90/3,25 m, L 5,25 m, LmV 9,50 m, LoV 10,00 m,
+  U = 0,45 m.
+- 45°: F 3,20 m, B 2,50 m, b 3,55 m, L 4,80 m, LmV 8,60 m, LoV 9,10 m, U = 0,35 m.
+- 30°: F 3,20 m, B 2,50 m, b 5,00 m, L 4,10 m, LmV 6,50 m, LoV 8,20 m, U = 0,25 m.
 Zwischenmasse können linear interpoliert werden. Bei hohen Umschlagfrequenzen kann B um
 +0,10 m erhöht werden (Komfort); bei beengten Rahmenbedingungen (Bestand) um -0,10 m reduziert
 werden (Komforteinbusse).
@@ -220,3 +224,21 @@ Genehmigung durch VSS-Fachkommission FK 2 ohne Datumsangabe, Publikationsdatum
 Dezember 2021). Alle übrigen geprüften Kernziffern, Tabellenwerte (Bemessungsfahrzeug
 Tab. 1+2, Tab. 3, Tab. 5, Tab. 6+7, Tab. 9, Tab. 10, Tab. 11, Tab. 13), Begriffe und
 Fundstellen stimmen mit dem Original überein.
+
+Zweite, unabhängige Retro-Verifikation (Mini-Run 18, 260714) — vollständiger Volltextabgleich
+aller 32 Seiten (Original-PDF, Seiten 1-20 und 21-32 separat gelesen): die oben protokollierte
+Korrektur an Tab. 4 (F/B-Paarung 75°/70°) war zum Zeitpunkt dieses Laufs bereits im Fliesstext
+korrekt eingetragen und wurde gegen das Original nochmals einzeln bestätigt. Zusätzlich
+identifizierte Lücke behoben: Tab. 4 (Ziff. 12, S. 16) enthält neben F/B/L/U auch die Spalten
+b (Parkfeldbreite entlang der Fahrgasse) und LmV/LoV (Länge zweier aneinanderstossender
+Parkfelder mit/ohne Verzahnung) je Parkfeldwinkel — diese fehlten im Destillat vollständig und
+wurden ergänzt (praxisrelevant für die Bemessung aneinandergereihter Schräg-/Senkrechtparkfelder).
+Alle übrigen Kernziffern erneut geprüft und bestätigt: Bemessungsfahrzeug (Tab. 1+2, S. 7),
+Abweichungen (Ziff. 6, S. 8), Grundsätze/Anordnung (Ziff. 7-10, S. 8-13 inkl. Tab. 3),
+Längsparkfelder (Ziff. 11, Tab. 5A/5B, S. 14-15), Tab. 5 Fahrgassenbreiten (S. 17),
+Rollstuhlgerechte Parkfelder (Ziff. 13, S. 17-18), Kleinwagen (Ziff. 14, Tab. 6+7, S. 18-19),
+Motorräder (Ziff. 15, Tab. 9, S. 19-21), Wände/Stützen (Ziff. 16, Tab. 10, S. 22-23), Vertikale
+Abmessungen/Quergefälle (Ziff. 17+18, S. 23), Fahrwege/Kurvenverbreiterungen (Ziff. 20, Tab. 11,
+S. 24-28), Rampen/Längsneigung (Ziff. 20.5-20.6, Tab. 13, S. 29), Ein-/Ausfahrt (Ziff. 21-22,
+S. 30-31), Begriffe (Ziff. 4, S. 5-6) und Literaturverzeichnis (S. 32). Keine weiteren
+Abweichungen zum Original gefunden.
