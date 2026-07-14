@@ -5,6 +5,31 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-14
+
+- **RADAR-LAUF — mit Briefing.** Register gegen bexio (`--verzug`), Kalender (bis 21.07.),
+  Mail-Eingang UND Sent Items (13.07. 13:00 → 14.07. frueh) und Sync-/Remote-Queues abgeglichen.
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall — RE-00087 (Kispi, CHF 15'000),
+  **Mahnung 2**, Zahlfrist **15.07.2026 (MORGEN)**, **89 Tage** ueberfaellig. RE-00098/99 faellig 20.07.
+- **Zwei der drei Hub-Chef-Entscheide vom 13.07. sind durch den realen Verkehr desselben Nachmittags
+  geloest** (Beleg-Lektuere): (1) **KISPI private Kontrolle Lueftung — Strangschema geliefert.**
+  B. Kuebler (Gruner, 13.07. 13:41) haengt die zwei Strangschema-PDFs an (Umbaubereich: Raumnummer,
+  Name, Luftmengen, verbaute Bauteile) und sendet direkt auch an G. Scherbl; die Unterlagen lagen seit
+  Fr im SharePoint (Misskommunikation). → das seit 22.06. fehlende Dokument ist da. **Offen bleibt nur
+  Scherbls Abnahme vor seinen Ferien ab 15.07.** (2) **Verrechnungsadresse Scherbl** durch RJ geklaert
+  (13.07. 13:24: zH A. Spahic, KISPI Eleonorenstiftung, Lenggstrasse 30). Offen bleibt Entscheid (c)
+  **Fust-Geschirrspueler Saumstrasse 21 bestellen** (Offerte seit 13.07. da).
+- **NEU:** KISPI Auflagenbereinigung — J. Ziegel (Gruner, 13.07. 14:13) liefert die Auflagen-Unterlagen
+  an RJ, sobald der angepasste CAD-Plan da ist (spaetestens Mi 15./Do 16.07.). Keine JANS-Aktion, beobachten.
+- **Weiter offen (unveraendert):** SBB-Vordach-Vereinbarung Thalwil 2414 an T. Wiedmer NICHT raus
+  (JANS-Aktion); Besprechung reduzierte Ausschreibung Tschopp.
+- **Kalender bis 21.07. leer.** 7-Tage-Fenster: RE-00087 Zahlfrist **15.07.**; RE-00098/99 faellig 20.07.
+- **Token gestern (13.07.):** MacBook 1'133 Mio. (~1'051 USD) + Mini 852 Mio. (~395 USD) = ~1'985 Mio.
+  (~1'446 USD Aequivalent).
+- **Briefing an rj@ versendet.** Sync-/Remote-Task-Queues leer.
+
+---
+
 ## 2026-07-13
 
 - **RADAR-LAUF — mit Briefing (Lagebild, kein neuer Kundenverkehr).** Register gegen bexio

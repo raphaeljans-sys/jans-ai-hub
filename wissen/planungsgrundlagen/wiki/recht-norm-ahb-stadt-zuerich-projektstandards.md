@@ -1,23 +1,23 @@
 ---
-title: Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende (Flächenerfassung SIA 416, CAFM, Elektro-Sicherheitsnachweis, Gebäudeautomation Pflegezentren)
-status: emerging
-last_updated: 2026-07-14 (Run 39)
-sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008)]
-links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]]
+title: Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende (Flächenerfassung SIA 416, CAFM, Elektro-Sicherheitsnachweis, Gebäudeautomation Pflegezentren, Honorarwesen, Nachhaltiges Bauen, CAD, Submissions-/Zahlungswesen)
+status: established
+last_updated: 2026-07-14 (Run 41)
+sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.)]
+links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-submissionsverordnung-zh]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]]
 ---
 
 # Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende
 
-**Neu erschlossen (Run 39, 2026-07-14).** Systematischer Ordner-Abgleich deckt den bisher nie
-kartierten Ordner `04_Merkblätter/Projektadmin AHB/` auf — ein eigenständiges, ~50-teiliges
-Vertragswerk-/Standard-Bündel des **Amtes für Hochbauten der Stadt Zürich (AHB)** (Baufachorgan)
-und der **Immobilien-Bewirtschaftung der Stadt Zürich (IMMO)** (Eigentümervertreterin) für alle
-Planenden, die im Auftrag der Stadt bauen. Das Bündel ist **integrierender Bestandteil des
+**Erschlossen Run 39 (2026-07-14), erweitert Run 41 (2026-07-14).** Systematischer Ordner-Abgleich
+deckt den bisher nie kartierten Ordner `04_Merkblätter/Projektadmin AHB/` auf — ein eigenständiges,
+~50-teiliges Vertragswerk-/Standard-Bündel des **Amtes für Hochbauten der Stadt Zürich (AHB)**
+(Baufachorgan) und der **Immobilien-Bewirtschaftung der Stadt Zürich (IMMO)** (Eigentümervertreterin)
+für alle Planenden, die im Auftrag der Stadt bauen. Das Bündel ist **integrierender Bestandteil des
 Honorarvertrages** zwischen AHB und den beauftragten Planern (§1.2 RFB-Richtlinie, s.u.) — die
 Vorgaben sind für JANS **verbindlich, sobald ein Projekt für die Stadt Zürich** (Hochbaudepartement,
-Gesundheits- und Umweltdepartement GUD, Schulen, Pflegezentren PZZ) realisiert wird. Vier von zehn
-Unterordnern wurden in diesem Lauf inhaltlich ausgewertet (§1–§4); der Rest ist als Backlog
-dokumentiert (§5).
+Gesundheits- und Umweltdepartement GUD, Schulen, Pflegezentren PZZ) realisiert wird. Acht von zehn
+Unterordnern sind inzwischen inhaltlich ausgewertet (§1–§8, Run 39 + Run 41); der Rest ist als
+Backlog dokumentiert (§9).
 
 ## 1. Flächenerfassung nach SIA 416/d 0165 — Richtlinie RFB (Stadt Zürich)
 
