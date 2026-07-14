@@ -3,7 +3,7 @@ title: OEREB-Auszug und EGRID beziehen (Kt. ZH)
 status: established
 last_updated: 2026-06-05
 sources: [GIS-Helpdesk Kt. ZH (Hannah Gies, 2026), api3.geo.admin.ch, maps.zh.ch/oereb/v2]
-links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]]
+links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-kataster-system-zh]]
 ---
 
 # OEREB-Auszug und EGRID beziehen (Kt. ZH)

@@ -7,7 +7,7 @@ sources:
   - Datensatz ARV Basis Nutzungsplanung 0156 (Grundnutzung), 0154 (Empfindlichkeitsstufen LSV)
   - Benchmark Connector geo-zh.mjs --produkt zonenplan, Langnau a.A. Kat. 3338 + Egg WG60, 2026-06-16
   - A6 proj-Layer 0156_proj validiert: Seuzach Kat. 2304 (laufende BZO-Revision, Auflage 11/2024), 2026-06-24
-links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
+links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-oereb-kataster-system-zh]]
 ---
 
 # Rechtskraeftige kommunale Grundnutzung (Zonenplan/BZO) Kt. ZH — login-frei

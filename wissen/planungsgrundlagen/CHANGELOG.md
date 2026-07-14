@@ -2,6 +2,36 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 44 (Kartenportale + Energie, Token-Vollgas): NEU ÖREB-Kataster-System ZH (amtliches ID-Register + Vorwirkung-Mechanik)
+- **NEU [[kartenportale-oereb-kataster-system-zh]] (established):** ausgewertet aus
+  `Grundstueckkataster/Allgemein/oereb_weisung_v3.pdf` — amtliche «Weisung ÖREB-Kataster Betrieb
+  und Nachführung der Daten» V3, Kt. ZH ARE Abt. Geoinformation, 01.12.2022 (73 S., bisher nie
+  ausgewertet, obwohl der Ordner seit K1 als Benchmark-Quelle diente). Liefert das amtliche
+  **ID-/Legenden-Register** fuer alle bisher nur aus Connector-Antworten bekannten `ogd-0xxx`-
+  Layer-IDs (73A/73B/76/116/130/131/132/145/157/159/160/190/45-52-ZH/56-ZH/59-ZH) mit
+  Rechtsgrundlage + zustaendiger Stelle (ARE/AWEL/ALN/AFM/Gemeinde). Wichtigster Einzelfund: die
+  **Vorwirkung-Mechanik** (positive Vorwirkung eines noch nicht rechtskraeftigen Rechts
+  grundsaetzlich unzulaessig; negative Vorwirkung ausnahmsweise zulaessig bei ausdruecklicher
+  gesetzlicher Grundlage → Sperrwirkung) erklaert erstmals die rechtliche Tragweite hinter dem
+  bereits bestehenden `revision_laeuft`-Connector-Flag ([[kartenportale-zonenplan-zh]] §A6): eine
+  laufende Zonen-/Baulinien-Revision kann ein Bauvorhaben blockieren, bevor sie in Kraft ist.
+  Ergaenzt generischer 4-Phasen-Nachfuehrungsprozess (Vorpruefung→Oeffentliche Auflage→
+  Festsetzung/Genehmigung→Rechtsmittel→In Kraft), ÖREB-DMT-Systemarchitektur (Rechts-/Projekt-/
+  Protokoll-DB) und Betriebsorganisation (Katasterleitung/KBO/kantonale Fachstellen/Gemeinden/
+  Fachspezialisten). Verlinkt aus [[kartenportale-zonenplan-zh]], [[kartenportale-geoportale-uebersicht]],
+  [[kartenportale-oereb-egrid-bezug]]. Nur S. 1-19 von 73 ausgewertet — Detailprozesse §5.3-5.12
+  (Waldgrenzen/Grundwasserschutz-Nachfuehrung im Detail) fuer naechsten Kartenportale-Turnus offen.
+- **Bestaetigte Nicht-Funde:** drei chronologisch gestaffelte Vorgehens-docx im selben Ordner
+  (Mai 2024/Okt 2024/Maerz 2026) beschreiben identisch den bereits dokumentierten Geoshop-/
+  geodienste.ch-Bezugsweg (A4/K4) — kein neuer Inhalt. forumenergie.ch/`230710_Kurse.docx`
+  (Energie-Domaene) enthaelt nur einen bareURL-Link zur bereits dokumentierten Kursseite (E17/E19).
+- **Energie-Domaene sonst durchgehend gesaettigt geprueft** (solar-home.ch, megasol.ch,
+  energieheld.ch, prefa.solar, sonnenverlauf.de, solarapp.ch, uvek-gis.admin.ch, energieschweiz.ch,
+  pv sol premium, pronovo.ch, wissen.minergie.ch/_Login, _Energienachweise, _Private Kontrolle) —
+  alle bereits vollstaendig eingearbeitet (E1-E38), keine neuen Deltas gefunden.
+- Register nachgefuehrt: `curriculum.md` (K40 + E-Check), `wiki/QUESTIONS.md` (K40-Eintrag),
+  `raw/_INGESTED.md`, `wiki/INDEX.md`.
+
 ## 2026-07-14 — Training Run 43 (Recht/Norm + Brandschutz, Token-Vollgas): Schulbauten-Arbeitshilfe NEU, Gebaeude-geringer-Abmessungen NEU, Betriebsbereitschaft BFS NEU, temporaere Fluessiggasanlagen NEU, AHB-Bauwerkdokumentation + Ingenieurwesen
 - **Brandschutz — vier neue Abschnitte im Wegweiser [[brandschutz-pl03-wegweiser]] (established):**
   §5ae **Arbeitshilfe Schulbauten** (VKF 1002-15de, 30 S. vollstaendig gelesen) — direkt JANS-

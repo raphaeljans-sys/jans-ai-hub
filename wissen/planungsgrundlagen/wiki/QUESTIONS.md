@@ -3,6 +3,29 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K40 (Run 44, 2026-07-14, Token-Vollgas)** Ein bisher nie ausgewertetes, obwohl im Ordner
+  seit K1 als DXF-/OEREB-Benchmark-Quelle genutztes Dokument entdeckt:
+  `Grundstueckkataster/Allgemein/oereb_weisung_v3.pdf` — die amtliche «Weisung ÖREB-Kataster
+  Betrieb und Nachführung der Daten» V3 des Kt. ZH (ARE Abt. Geoinformation, 01.12.2022, 73 S.).
+  Liefert das **amtliche ID-/Legenden-Register** fuer alle bisher nur aus Connector-Antworten
+  bekannten `ogd-0xxx`-Layer-IDs (73A/73B/76/116/130/131/132/145/157/159/160/190/45-52-ZH/
+  56-ZH/59-ZH) inkl. Rechtsgrundlage + zustaendiger Stelle; **wichtigster Einzelfund:** die
+  **Vorwirkung-Mechanik** (positive Vorwirkung eines noch nicht in Kraft stehenden Rechts
+  grundsaetzlich unzulaessig, negative Vorwirkung ausnahmsweise zulaessig bei ausdruecklicher
+  gesetzlicher Grundlage) erklaert erstmals die rechtliche **Sperrwirkung**, die hinter dem
+  bereits dokumentierten `revision_laeuft`-Connector-Flag (A6, [[kartenportale-zonenplan-zh]])
+  steckt — ein Bauvorhaben kann an einer laufenden Zonen-/Baulinien-Revision scheitern, bevor
+  diese in Kraft ist. Dazu generischer 4-Phasen-Nachfuehrungsprozess (Vorpruefung→Oeffentliche
+  Auflage→Festsetzung/Genehmigung→Rechtsmittel→In Kraft), ÖREB-DMT-Systemarchitektur (Rechts-/
+  Projekt-/Protokoll-DB) und Betriebsorganisation (KL/KBO/KFS/Gemeinde/Fachspezialist) →
+  NEU [[kartenportale-oereb-kataster-system-zh]], established, verlinkt aus
+  [[kartenportale-zonenplan-zh]], [[kartenportale-geoportale-uebersicht]],
+  [[kartenportale-oereb-egrid-bezug]]. Die zwei begleitenden Vorgehens-docx im selben Ordner
+  (`241122_`/`251122_Vorgehen Datenbezug…`, `Bezugsorte…docx`) sind bestaetigter Nicht-Fund
+  (identischer Geoshop-/geodienste.ch-Bezugsweg wie bereits in A4/K4 dokumentiert). **Offen:**
+  Detailprozesse §5.3-5.12 der Weisung (S. 26-73, insb. Waldgrenzen §5.9 + Grundwasserschutz
+  §5.10/5.11) noch nicht ausgewertet — Kandidat fuer den naechsten Kartenportale-Turnus. Details
+  siehe `training/curriculum.md` K40.
 - [x] **K37-K39 (Run 42, 2026-07-14, Token-Vollgas)** Drei weitere Ordner-Abgleich-Kandidaten
   geprueft. **K37 — kein Delta:** `gisos.bak.admin.ch` enthaelt nur den bereits bekannten bloßen
   ISOS-Portal-Link, bestaetigt K34. **K38 — echter Neufund:** Kt.-Bern-Portalarchitektur
