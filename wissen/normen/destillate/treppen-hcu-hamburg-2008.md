@@ -5,7 +5,7 @@ ausgabe: "Stand Januar 2008"
 ersetzt: "kein CH-Norm-Status — Lehrskript, stützt sich auf DIN 18065 (Gebäudetreppen), DIN 4174, DIN 18064"
 gelesen: "S. 1-19 (vollständig — Einführung, Treppenarten/Flächen, Treppenkonstruktion, Glossar, Impressionen, Planungsgrundlagen Neufert Treppen)"
 datenstand: "Januar 2008"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19; Korrekturen: Neufert-Stufenzahlregel 18 statt 10 Stufen, Neufert-Mindestmasse-Tabelle Zeile 1-5 komplett neu zugeordnet, Formel 2s+a=59-65cm statt 63-65cm, Maximalentfernung Schulen/Verkaufsstätten 25m statt 30m, Fluchtleitern-Tabelle Rückenschutz erst ab 5m)"
+status: "established (verifiziert 260714, Retro-Verifikation Run 19; Korrekturen: Neufert-Stufenzahlregel 18 statt 10 Stufen, Neufert-Mindestmasse-Tabelle Zeile 1-5 komplett neu zugeordnet, Formel 2s+a=59-65cm statt 63-65cm, Maximalentfernung Schulen/Verkaufsstätten 25m statt 30m, Fluchtleitern-Tabelle Rückenschutz erst ab 5m). Q&A-Selbstbefragung Mini-Run 28 (260714): 20 Fragen, 17 bestanden, 2 Fehler korrigiert (Neufert-Zeile-2-Kellertreppen-Laufbreite 90 statt 80 cm; erfundene DIN 18299 aus Geltungsbereich entfernt, S. 3 nennt sie nicht), 1 Ergänzung (Sprossenabstand Leiter 31,5 cm, S. 7)."
 last_updated: 2026-07-14
 links: [[REGISTER]]
 ---
@@ -27,7 +27,7 @@ Geländerhöhen) sowie ein Kapitel Fluchtleitern/Rettungswege (DIN 18799/24532/
 
 Allgemeine Treppenplanung (Wohn-/Keller-/notwendige Treppen, Spindel-/Wendel-
 treppen, Fluchtleitern) nach deutscher Systematik (DIN 18065 als Kernnorm,
-referenziert DIN 4174/18064/18299 sowie diverse Landesbauordnungen und
+referenziert DIN 4174/18064 sowie diverse Landesbauordnungen und
 Versammlungsstätten-/Waren- und Geschäftshausverordnung).
 
 ## Kernziffern mit Fundstellen
@@ -38,6 +38,8 @@ Versammlungsstätten-/Waren- und Geschäftshausverordnung).
 - **Bequemlichkeitsregel (S. 7):** Auftritt − Steigung = **12 cm**.
 - **Anzahl Steigungen:** n = Geschosshöhe ÷ Steigungshöhe; Anzahl Auftritte =
   Anzahl Steigungen − 1; Lauflänge = Anzahl Auftritte × Auftrittsbreite.
+- **Schrittmassregel Ergänzung (S. 7):** Sprossenabstand einer Leiter = **31,5 cm**
+  (entspricht 1/2 einer Schrittlänge in der Ebene, d.h. der halben Schrittmassregel).
 - **Mindestmasse nach Gebäudeart, Tabelle (S. 8):** Wohngebäude ≤2 Wohnungen:
   Laufbreite 80 cm, Steigung 17±3 cm, Auftritt 28+9/-3 cm; Wohngebäude >2
   Wohnungen: Laufbreite 100 cm, Steigung 17 cm, Auftritt 28 cm; Keller-/
@@ -61,10 +63,10 @@ Versammlungsstätten-/Waren- und Geschäftshausverordnung).
 - **Neufert, Treppen-Mindestmasse-Tabelle (Zeile 1-5, S. 15):** Wohngebäude mit
   nicht mehr als 2 Wohnungen, Treppen zu Aufenthaltsräumen: Laufbreite min.
   80 cm, Steigung 20, Auftritt 23; dieselbe Gebäudeart, Kellertreppen (nicht zu
-  Aufenthaltsräumen führend): 80/21/21; Bodentreppen (nicht zu Aufenthaltsräumen
-  führend): 50/21/21; sonstige Gebäude, baurechtlich notwendige Treppen:
-  100/19/26; alle Gebäude, baurechtlich nicht notwendige (zusätzliche) Treppen:
-  50/21/21.
+  Aufenthaltsräumen führend): **Laufbreite 90 cm**, Steigung 21, Auftritt 21;
+  Bodentreppen (nicht zu Aufenthaltsräumen führend): 50/21/21; sonstige
+  Gebäude, baurechtlich notwendige Treppen: 100/19/26; alle Gebäude,
+  baurechtlich nicht notwendige (zusätzliche) Treppen: 50/21/21.
 - **Neufert, Formel Steigungsverhältnis (S. 15):** s (Treppensteigung)/a
   (Treppenauftritt) = **17/29** als Referenzverhältnis (2s+a=59-65 cm-Formel mit
   Schrittlänge Erwachsener 59-65 cm).
