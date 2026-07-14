@@ -533,6 +533,21 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Vorgänger-Session (Destillat war bereits ergänzt, Register/FAQ/Output-Report fehlten noch) —
   Registerpflege in diesem Lauf nachgeholt.
 
+- **D39 (Run 61, 2026-07-14)** — «Kann ich Fassadenbegrünung als Hitzeschutz einsetzen, und wie
+  verhält sie sich zu Fassaden-PV?» — belegt 2026-07-14. Neuer Themenkomplex gemäss Run-60-
+  Prioritätspunkt 3 (nach Abschluss der 26-Kantone-Solarpflicht-Erhebung). Web-Recherche
+  (WebSearch + WebFetch): Kanton Zürich «Massnahmen gegen Hitze» (amtliche Kantonsseite) liefert
+  den Kühlungseffekt (PET-Reduktion ⌀ 4,8 °C in der unmittelbaren Umgebung) und die klare
+  Empfehlung bodengebunden vor wandgebunden sowie den ausdrücklichen **Zielkonflikt mit
+  Fassaden-PV** um dieselbe Fläche; Hydroplant AG (CH-Fachbetrieb) liefert eine zweite,
+  deutlich höhere Kostenbandbreite als der Kanton — bewusst beide Zahlen nebeneinander
+  dokumentiert statt geglättet (Leitplanke «nichts erfinden»); Stadt Zürich Förderprogramm
+  Stadtgrün liefert Förderkennzahlen (50 % Reglements-Beitrag, Deckel CHF 1 Mio., ⌀ CHF 17'700
+  aus 113 bewilligten Projekten) → `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`, neuer
+  Themenartikel-Abschnitt in `[[sommerlicher-waermeschutz]]` (5. Stellschraube), FAQ **F67** neu,
+  Status emerging (Alltags-Fördersatz pro Projekt/m² und quantitativer kWh-Effekt auf die
+  Kühllast bleiben offen).
+
 - **D37 (Run 59, 2026-07-14)** — Vier weitere Kantone recherchiert, darunter der zweite
   JANS-Fokuskanton **Schwyz**: dort wurde eine Motion für eine kantonale Solarpflicht am
   22.10.2025 vom Kantonsrat mit 50:45 Stimmen abgelehnt (Regierungsrat war ursprünglich dafür) —

@@ -1,8 +1,8 @@
 ---
 title: Sommerlicher Waermeschutz & Hitzeschutz
 status: emerging
-last_updated: 2026-06-09
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md]
+last_updated: 2026-07-14
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -18,7 +18,7 @@ Gebaeude, das auch im heisser werdenden Klima ohne (oder mit minimaler) aktiver 
 bleibt. Minergie verlangt seit der Ueberarbeitung 2023 den Nachweis auf Basis **modellierter
 Wetterdaten 2035**.
 
-## Die vier Stellschrauben (in Wirkungsreihenfolge)
+## Die fuenf Stellschrauben (in Wirkungsreihenfolge)
 1. **Sonnenschutz aussenliegend, beweglich, windfest, gesteuert** — die mit Abstand wirksamste
    Massnahme. Innenliegender Behang stoppt die Hitze kaum (die Waerme ist dann schon im Raum).
    Blend- und Sonnenschutz **nicht in einem Behang** kombinieren.
@@ -29,6 +29,13 @@ Wetterdaten 2035**.
    Zellulose, ρ·c ~2× Mineralwolle) diese Rolle → laengere Phasenverschiebung (`[[naturdaemmstoffe]]`).
 4. **Freecooling / Nachtauskuehlung** (oeffenbare Fenster, Lueftung) fuehrt die gespeicherte Waerme
    nachts ab. Speichermasse ohne Nachtauskuehlung bringt wenig.
+5. **Fassadenbegruenung** ergaenzt die Beschattung durch Pflanzen: Beschattung der
+   Fassadenoberflaeche plus Verdunstungskuehlung senken die gefuehlte Temperatur (PET) in der
+   unmittelbaren Umgebung im Schnitt um rund 4,8 °C (Kanton Zuerich). Bodengebunden (Kletterpflanzen
+   vom Boden) ist gegenueber wandgebunden (Pflanzgefaesse an der Wand) beim Kanton Zuerich klar
+   bevorzugt (Konstruktionsaufwand/Unterhalt/Brandschutz/Wassermanagement). Wichtiger Zielkonflikt:
+   dieselbe Fassadenflaeche laesst sich nicht gleichzeitig begruenen UND mit PV belegen —
+   Flaechen-Entscheidung pro Fassadenabschnitt noetig (`[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`).
 
 ## Planungs-Hebel
 - **Fensterflaeche/-orientierung**: grosse Sued- und v.a. Ostwest-Glasflaechen ohne wirksame
@@ -46,12 +53,15 @@ Wetterdaten 2035**.
 
 ## Bauherren-Take
 «Gegen Hitze hilft kein dickeres Glas, sondern **aussen** beschatten, **Masse** speichern, **nachts**
-auskuehlen.» Wer das in der Planung setzt, spart sich Klimaanlage und Betriebskosten — und erfuellt
-zugleich Minergie. → Bauherren-FAQ **F11**.
+auskuehlen — und wo sinnvoll die Fassade begruenen statt/neben PV zu belegen.» Wer das in der
+Planung setzt, spart sich Klimaanlage und Betriebskosten — und erfuellt zugleich Minergie.
+→ Bauherren-FAQ **F11**, **F67**.
 
 ## Offen
 - Konkretes Rechenverfahren / Grenzwerte sommerlicher Waermeschutz nach SIA 180:2014 nachtragen.
 - Zusammenspiel mit aktiver Kuehlung/Erdsonden-Freecooling (Healthcare-Relevanz) vertiefen.
+- Quantitativer Effekt der Fassadenbegruenung auf Kuehllast/Heizwaermebedarf (kWh/m²) offen.
 
 Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-standards]]`, `[[daemmstoffe-lambda]]`,
-`[[naturdaemmstoffe]]` (Holzfaser/Zellulose als Hitzeschutz durch Speichermasse).
+`[[naturdaemmstoffe]]` (Holzfaser/Zellulose als Hitzeschutz durch Speichermasse),
+`[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]` (Begruenung vs. Fassaden-PV).

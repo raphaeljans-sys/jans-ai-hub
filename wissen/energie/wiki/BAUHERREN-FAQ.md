@@ -1,8 +1,8 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-13
-sources: [destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md]
+last_updated: 2026-07-14
+sources: [destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md]
 links: [[INDEX]]
 ---
 
@@ -2312,6 +2312,37 @@ noch offen — nicht established).
 
 ---
 
+## F67 — «Ich will Hitzeschutz UND Solarstrom an der Fassade — geht beides gleichzeitig?»
+
+**Kurz:** Nicht auf derselben Fläche. Eine begrünte Fassade senkt die gefühlte Temperatur in
+ihrer unmittelbaren Umgebung im Schnitt um rund **4,8 °C** (Kanton Zürich) — sie ist damit ein
+wirksames, aber mit **Fassaden-PV konkurrierendes** Instrument: beides braucht dieselbe
+Fassadenfläche. Die Lösung ist eine **Flächen-Aufteilung pro Fassadenabschnitt**, nicht ein
+Entweder-oder fürs ganze Gebäude.
+
+**Fachlich:** Der Kanton Zürich führt die «solare Nutzung der Fassade» ausdrücklich als
+**Zielkonflikt** zur Fassadenbegrünung auf. Von den zwei Systemtypen empfiehlt der Kanton klar
+**bodengebunden** (Kletterpflanzen ab Boden, CHF 250–600/m² gemäss Kanton bzw. ab ~CHF 1'200/m²
+gemäss Hydroplant AG — die beiden Quellen weichen deutlich voneinander ab, siehe Destillat)
+gegenüber **wandgebunden** (Pflanzgefässe an der Wand, CHF 700–2'000/m² bzw. ab ~CHF 1'700/m²):
+geringerer Konstruktionsaufwand, Unterhalt, Brandschutz und Wassermanagement. In der **Stadt
+Zürich** unterstützt das Förderprogramm Stadtgrün Vertikalbegrünung mit **50 % der
+Gesamtkosten** (Reglements-Deckel CHF 1 Mio., praxisnäher liegt der Schnitt aus 113 bewilligten
+Projekten bei rund CHF 17'700/Projekt).
+
+**Bauherren-Transfer:** Süd-/wetterexponierte, ertragsstarke Fassadenabschnitte eher der PV
+zuordnen, überhitzungsgefährdete oder wenig ertragreiche Abschnitte (z.B. West-Fassade mit
+tiefstehender Sommensonne) eher begrünen. Beides zusammen im selben Projekt ist normal — nur
+nicht auf derselben Fläche.
+
+**Quelle:** Kanton Zürich «Massnahmen gegen Hitze» + Hydroplant AG «Fassadenbegrünungen — Nutzen
+und Kosten» + Stadt Zürich Förderprogramm Stadtgrün (Web, gelesen 2026-07-14) →
+`[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`, `[[sommerlicher-waermeschutz]]`. Status
+emerging (Kosten-Bandbreite zwischen Quellen nicht geglättet, Fördersatz pro Einzelprojekt
+ausserhalb der Stadt Zürich nicht recherchiert).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -2321,6 +2352,16 @@ noch offen — nicht established).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
+
+> **FAQ-Stand 2026-07-14 (Run 61):** neue Frage zu einem bisher unbelegten Themenkomplex —
+> **F67 ‹Hitzeschutz UND Solarstrom an der Fassade — geht beides?›** (Fassadenbegrünung senkt PET
+> in der Umgebung ⌀ 4,8 °C, Kanton ZH empfiehlt bodengebunden vor wandgebunden, Zielkonflikt mit
+> Fassaden-PV um dieselbe Fläche, Förderprogramm Stadtgrün Zürich 50 %/CHF 1 Mio. Deckel →
+> `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`, Status emerging). PDF-Inventar bleibt seit
+> Run 46 vollständig abgearbeitet; nach Abschluss der 26-Kantone-Solarpflicht-Erhebung (Run 60)
+> neuer Web-Themenkomplex gemäss Run-60-Prioritätspunkt 3 (Fassadenbegrünung als Hitzeschutz-
+> Ergänzung zu PV). Meta-Punkt M2 (eigenes Skill `energie`?) bleibt zum siebzehnten Mal in Folge
+> spruchreif für eine Entscheidung Raphaels (siehe `wiki/QUESTIONS.md`, E-S1).
 
 > **FAQ-Stand 2026-07-13 (Run 55):** F63 und F64 auf **established** gehoben — beide
 > Run-54-Prioritätspunkte gelöst. RiLuMi Kap. 4-8 vollständig via curl+pdftotext gelesen (51 S.

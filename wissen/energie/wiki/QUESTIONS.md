@@ -510,18 +510,30 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   als offen dokumentiert statt geglättet. Status bleibt emerging, aber **damit sind erstmals alle
   26 Kantone mindestens einmal recherchiert** — löst den Run-59-Prioritätspunkt 2 vollständig.
 
+- [x] **E50** **Fassadenbegrünung als Hitzeschutz + Zielkonflikt zu Fassaden-PV** belegt
+  ✓ 2026-07-14 (Run 61) → `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`, neuer Abschnitt
+  (5. Stellschraube) in `[[sommerlicher-waermeschutz]]`, FAQ **F67** neu. Kanton Zürich «Massnahmen
+  gegen Hitze»: PET-Kühlung ⌀ 4,8 °C in der unmittelbaren Umgebung, klare Empfehlung bodengebunden
+  vor wandgebunden, ausdrücklicher Zielkonflikt «solare Nutzung der Fassade» vs. Begrünung. Zwei
+  CH-Quellen (Kanton ZH vs. Hydroplant AG) mit deutlich abweichenden CHF/m²-Kostenbändern —
+  bewusst nicht geglättet. Förderprogramm Stadtgrün Zürich: 50 %/CHF 1 Mio. Reglements-Deckel,
+  ⌀ CHF 17'700 aus 113 bewilligten Projekten (eigene Berechnung). Neues Thema (kein
+  Vorläufer-Curriculum-Punkt vor D39), eröffnet D39. Status emerging — Alltags-Fördersatz pro
+  Projekt/m² und quantitativer kWh-Effekt auf die Kühllast bleiben offen. Löst den
+  Run-60-Prioritätspunkt 3 (Themenkomplex nach Solarpflicht-Erhebung).
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 60): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F66 Vertiefungen belegt (F66 in Run 60 auf 26/26 Kantone erweitert — Erst-Erhebung
-  abgeschlossen, inkl. beider JANS-Fokuskantone ZH+SZ), Rp/kWh-Luecken orientierend geschlossen
-  (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit,
-  § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND
-  Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
-  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also SECHZEHN Laeufen in Folge) spruchreif
-  fuer eine Entscheidung und wird hier zum sechzehnten Mal vermerkt. Der Loop kann sie nicht
-  selbst treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session,
-  sonst dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Mit dem
-  Abschluss der 26-Kantone-Erhebung wird der naechste Themenkomplex (Fassadenbegruenung als
-  Hitzeschutz-Ergaenzung zu PV, oder Schallschutz gegen Aussenlaerm als Pendant zu F65) faellig —
-  ebenfalls ein Punkt, den eine interaktive Session priorisieren koennte.**
+  **Stand 2026-07-14 (Run 61): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
+  F18-F67 Vertiefungen belegt (F67 neu: Fassadenbegruenung als Hitzeschutz-Ergaenzung zu PV,
+  Zielkonflikt um dieselbe Flaeche), Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G,
+  LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (100 % amtliche
+  PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND Solarpflicht in allen 26 Kantonen
+  (E38-E49) primaerquellen-/volltext-verifiziert bzw. web-trianguliert — Meta-Punkt M2 ist SEIT
+  RUN 45 (also SIEBZEHN Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum
+  siebzehnten Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite
+  Antwort von Raphael in einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im
+  Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger Themenkomplex nach Fassadenbegruenung:
+  Schallschutz gegen Aussenlaerm (Strasse/Bahn) als Pendant zum bereits erschlossenen
+  Waermepumpen-Laermschutz (F65) — ebenfalls ein Punkt, den eine interaktive Session priorisieren
+  koennte.**
