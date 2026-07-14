@@ -628,16 +628,40 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Nachrecherche — keine amtliche oder verbandsnahe CH-Quelle beziffert Mehrkosten, nur
   widerspruechliche Marketing-/Forumsquellen (bewusst nicht uebernommen).
 
+- [x] **E63** **Waerme-Contracting/Waermelieferung — Vertragsmodelle** belegt ✓ 2026-07-14 (Run 68,
+  nachintegriert) → `[[waerme-contracting-vertragsmodelle-ch]]`, FAQ **F75** neu. Wärmeliefervertrag
+  (Grundgebühr + Arbeitspreis) + Nutzungsvertrag (Dienstbarkeit/Miete); Nebenkosten-Ueberwaelzung an
+  Mieter/STWEG (Art. 6a VMWG, Art. 257a/257b OR); Preisueberwacher beobachtet nur Fernwaerme-Netztarife
+  (17 Rp./kWh, CHF 1'878-5'267/Jahr Herbst 2024), keine spezifische Contracting-Preisaufsicht
+  primaerquellen-verifiziert. Status emerging.
+- [x] **E64** **Steuerabzuege energetische Sanierung Kt. ZH/SZ** belegt ✓ 2026-07-14 (Run 68,
+  nachintegriert) → `[[steuerabzuege-energetische-sanierung-ch]]`, FAQ **F76** neu. Art. 32 Abs. 2 DBG
+  (Bundessteuer) + kantonale Praxis ZH/SZ; Bezug zur Eigenmietwert-Reform per 1.1.2029 (Wegfall koennte
+  Abzugslogik veraendern). Status emerging.
+- [x] **E65** **Grundwasserwaermenutzung Bewilligung ZH+SZ** belegt ✓ 2026-07-14 (Run 68,
+  nachintegriert) → `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`, FAQ **F77** neu.
+  Konzessionsverfahren, 3°C-Regel fuer die Ruecktemperatur, kantonale Schwellenwerte. Status emerging.
+- [x] **E66** **SZ-Denkmalpflegebeitrags-Widerspruch + ZH-Erleichterungsklausel** aufgeloest
+  ✓ 2026-07-14 (Run 68, nachintegriert) → `[[denkmalschutz-energiesanierung-zh-sz]]` auf
+  **established** gehoben, FAQ F74 geschaerft. SZ: § 16a DSG Grundbeitrag 25 % + Schutzziel-Zuschlag
+  5/10/15 % = 30/35/40 %, unabhaengig von lokal/regional/national (loest den in Run 67 offen
+  vermerkten Widerspruch). ZH: Erleichterungsklausel lokalisiert in § 2 Abs. 5 WDV (LS 700.211,
+  delegiert aus § 17a EnerG), Wortlaut primaerquellen-verifiziert.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 67): drei Run-66-Prioritaetenpunkte abgearbeitet (E59-E62, FAQ F74 neu +
-  F70-F72 geschaerft: Denkmalschutz+Energiesanierung ZH/SZ neu, AWEL-Erdsonden-Gebuehr auf established
-  gehoben, SZ-Bagatellkatalog Elektroheizung belegt, R290-Kostenvergleich teilweise geschlossen), via
-  parallelisierten Web-Rechercheagenten mit amtlichen Primaerquellen (Gesetzes-PDFs direkt gelesen).
-  PDF-Inventar bleibt erschoepft. FAQ-Stand: 74 Kernfragen (F1-F74) belegt. Meta-Punkt M2 ist SEIT
-  RUN 45 (also DREIUNDZWANZIG Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum
-  dreiundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite
-  Antwort von Raphael in einer interaktiven Session. Naechster faelliger Themenkomplex: ein weiteres
-  neues Thema (Kandidaten: SZ-Denkmalpflegebeitrags-Widerspruch klaeren, Kastenfenster-Merkblatt ZH/SZ
-  per OCR erschliessen, oder ein anderes noch nicht belegtes Bauherren-Thema) — eine interaktive
-  Session koennte priorisieren.**
+  **Stand 2026-07-14 (Run 68, nachintegriert): vier weitere Themenpunkte abgearbeitet (E63-E66, FAQ
+  F75-F77 neu + F74 auf established geschaerft: Waerme-Contracting, Steuerabzuege energetische
+  Sanierung, Grundwasserwaermenutzung-Bewilligung ZH+SZ neu erschlossen; SZ-Denkmalpflegebeitrags-
+  Widerspruch aus Run 67 aufgeloest). Dieser Lauf war urspruenglich als eigenstaendiger Run gestartet,
+  dessen vier Rechercheergebnisse durch einen Orchestrierungsfehler zunaechst nicht committet wurden
+  und erst nachtraeglich (12.07.2026 12:15 Uhr, Commit b76824e5) manuell nachintegriert werden konnten
+  — Register (curriculum.md, QUESTIONS.md) wurden dabei zunaechst NICHT nachgefuehrt, das holt der
+  vorliegende Eintrag nach. PDF-Inventar bleibt erschoepft. FAQ-Stand: 77 Kernfragen (F1-F77) belegt.
+  Meta-Punkt M2 ist SEIT RUN 45 (also VIERUNDZWANZIG Laeufen in Folge) spruchreif fuer eine
+  Entscheidung und wird hier zum vierundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst
+  treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session. Naechster
+  faelliger Themenkomplex (Run 69): SIA 2024 Nutzungsrandbedingungen Gesundheitsbau (JANS-Healthcare-
+  Fokus, bisher fehlender Nichtwohnbau-Bezug) + Netzanschluss-/Netzverstaerkungskosten EW bei
+  PV-Grossanlagen/E-Mobilitaet ZH+SZ (bisher unbeantwortete Bauherren-Frage) — beide via
+  parallelisierte Web-Rechercheagenten in Bearbeitung.**

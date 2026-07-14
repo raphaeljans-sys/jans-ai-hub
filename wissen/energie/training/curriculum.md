@@ -43,6 +43,23 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   ergaenzt, FAQ F70 geschaerft; **D48d R290-Kostenvergleich** (Effizienz tendenziell hoeher via
   Kaeltemittel-Fibel, CHF-Kosten bestaetigter Negativbefund) → `[[kaeltemittel-r290-waermepumpen-ch]]`
   ergaenzt, FAQ F72 geschaerft. FAQ-Stand: **74 Kernfragen (F1-F74) belegt.**
+- **D49 (Run 68, 2026-07-14, nachintegriert)** — Ein separat gestarteter Lauf hatte vier parallele
+  Web-Rechercheagenten gestartet, deren Ergebnisse zunaechst nicht ins Repo integriert wurden
+  (Orchestrierungsfehler); die vier fertigen Berichte trafen nachtraeglich ein und wurden manuell
+  nachintegriert (Commit `b76824e5`, 12.07.2026 12:15 Uhr). **D49a Waerme-Contracting/Waermelieferung**
+  (Vertragsmodelle Wärmeliefervertrag + Nutzungsvertrag, Art. 6a VMWG Nebenkosten-Ueberwaelzung,
+  Preisueberwacher-Fernwaerme-Richtwerte 17 Rp./kWh bzw. CHF 1'878-5'267/Jahr, keine spezifische
+  Contracting-Preisaufsicht primaerquellen-verifiziert) → `[[waerme-contracting-vertragsmodelle-ch]]`
+  (neu), FAQ **F75**, Status emerging. **D49b Steuerabzuege energetische Sanierung** (Art. 32 Abs. 2
+  DBG, Kt. ZH/SZ-Praxis, Eigenmietwert-Reform-Bezug per 1.1.2029) → `[[steuerabzuege-energetische-sanierung-ch]]`
+  (neu), FAQ **F76**, Status emerging. **D49c Grundwasserwaermenutzung Bewilligung ZH+SZ**
+  (Konzessionsverfahren, 3°C-Regel Rueckgabetemperatur, Schwellenwerte) →
+  `[[grundwasserwaermenutzung-bewilligung-zh-sz]]` (neu), FAQ **F77**, Status emerging. **D49d
+  Klaerung zweier Run-67-Offenpunkte**: SZ-Denkmalpflegebeitrags-Widerspruch aufgeloest (§ 16a DSG:
+  Grundbeitrag 25 % + Schutzziel-Zuschlag 5/10/15 % = 30/35/40 %, unabhaengig von lokal/regional/
+  national) und ZH-Erleichterungsklausel lokalisiert (§ 2 Abs. 5 WDV, LS 700.211, delegiert aus
+  § 17a EnerG, Wortlaut primaerquellen-verifiziert) → `[[denkmalschutz-energiesanierung-zh-sz]]` auf
+  **established** gehoben, FAQ F74 geschaerft. FAQ-Stand: **77 Kernfragen (F1-F77) belegt.**
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
