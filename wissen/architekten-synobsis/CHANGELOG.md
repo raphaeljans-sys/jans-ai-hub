@@ -5,6 +5,7 @@ und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
 ## 2026-07-14
+- Zweiter Batch-Aufruf desselben Tages (`synobsis-batch-nacht`, Mac Mini, 05:47–05:47, VOLLGAS-Endlos-Taktung): vorab Quellverzeichnis gegen den Katalog geprueft (854 statt 853 Top-Level-Ordner) — Differenz ist der neue Ordner `00_Organisation` (Buero-interne Ablage, kein Architekt), also weiterhin kein neuer Stoff. Ergebnis identisch zum 00:27-Lauf: 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert (weiterhin 15 Architekten mit CAD). Ergaenzung in `outputs/2026-07-14_batch-lauf.md`.
 - Nacht-Batch (`synobsis-batch-nacht`, Mac Mini, 00:27–00:27): identisches Ergebnis wie die Serie der Wiederholungslaeufe seit 2026-07-13 09:29 — 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert (weiterhin 15 Architekten mit CAD). Kein neuer Stoff. Ergaenzung in `outputs/2026-07-14_batch-lauf.md`.
 
 ## 2026-07-13
