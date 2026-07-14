@@ -3,6 +3,33 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260714g (twin-fragesteller, aus Fidelity-Review 2026-07-14g)
+
+Quelle: Drift-Report `outputs/2026-07-14g_fidelity.md` (Gesamt-Fidelity 86; Live-Goldproben
+aus bisher unabgedecktem Zeitfenster 08.06.–02.07.2026, Fokus Sie-Fachplaner-Register).
+Je in 1–2 Sätzen beantwortbar.
+
+1. **Post-Call-Stichwortliste an einen Sie-Fachplaner ganz ohne Rahmung — bewusstes
+   Kurzformat oder Ausrutscher?** Nach einem Telefonat mit TeKoSi (Stephan Manzoni,
+   29.06.2026) schickst Du eine reine Sieben-Punkte-Stichwortliste als Mailinhalt — ohne
+   Anrede, ohne Dank fürs Gespräch, ohne Schlussgruss. Die bisher belegte Regel kennt nur
+   Traktandenlisten VOR einem Telefonat, immer mit Einleitungssatz. Ist die rahmenlose
+   Post-Call-Liste Dein bewusstes Kurzformat, wenn Du direkt aus Deiner eigenen
+   Gesprächsnotiz heraus verschickst (die Liste IST das Protokoll, kein Brief), oder war
+   hier schlicht keine Zeit für die übliche Rahmung? *Warum: bisher nur 1 Beleg — ein
+   zweiter würde eine fünfte, ganz undramatisierte Mailform neben den bekannten
+   Registern verankern.* → [[arbeitsweise]], [[stimme]]
+2. **«Geschätzte Frau X» schon nach einer einzigen Vor-Ort-Besichtigung — reicht das
+   für den Anrede-Sprung von «Sehr geehrte» weg?** An Frau Mehari (Sanitärfirma,
+   Albertstrasse 7) schreibst Du bereits in der zweiten Mail «Geschätzte Frau Mehari»,
+   nachdem Ihr Euch einmal vor Ort getroffen habt — keine längere Korrespondenz, nur ein
+   Termin. Reicht Dir ein einziger persönlicher Kontakt (Besichtigung/Telefonat) generell,
+   um bei Handwerkern/Fachplanern von «Sehr geehrte/r» auf «Geschätzte/r» zu wechseln,
+   unabhängig vom Fachgebiet, oder hängt das vom Eindruck/der Qualität des Kontakts ab?
+   *Warum: präzisiert die Warming-Geschwindigkeit (vgl. bereits belegten Fall Thomas
+   Wiedmer/SBB, Runde 260713g #1) für den Handwerker-/Gewerke-Kontext.*
+   → [[beziehungsregister]]
+
 ## Offen — Runde 260714d (twin-fragesteller, aus Fidelity-Review 2026-07-14d)
 
 Quelle: Drift-Report `outputs/2026-07-14d_fidelity.md` (Live-Goldprobe via Apple-Mail-Fallback,

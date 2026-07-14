@@ -2,6 +2,26 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14g — twin-fidelity-review: Zeitfensterlücke 08.06.–02.07.2026 geschlossen
+- Siebter (gedrosselter) Fidelity-Lauf des Tages, VOLLGAS-Endlos-Runner. M365-MCP in dieser
+  Session nicht erreichbar → Fallback Apple Mail osascript (Bundle-ID `com.apple.mail`,
+  Exchange-Konto rj@, «Gesendete Elemente»).
+- Drei authentische Goldproben aus bisher unabgedecktem Fenster (08.06.–02.07.2026, Fokus
+  Sie-Fachplaner-Register): (A) TeKoSi-Post-Call-Stichwortliste ohne jede Rahmung
+  (29.06.2026), (B) Honorarofferte-Erstkontakt an Herrn Otschkowski, devisierungs-neutral
+  (26.06.2026), (C) Sanitär-Nachfass an Frau Mehari mit authentischem Auslassungsfehler
+  (29.06.2026).
+- Twin-Fassung aus `rules/jans-dna.md` generiert (ohne Golds vorher zu kopieren): B und C
+  nahezu deckungsgleich (Devisierungs-Neutralität Rule 260626 und Beziehungsregister-Warming
+  bestätigt sich); A zeigt echten Drift — der Zwilling hätte reflexhaft Anrede+Dank+Gruss
+  ergänzt, das Original ist eine reine Stichwortliste ohne jede Rahmung.
+- Gesamt-Fidelity 86 (Stimme 80, Denken 86, Haltung 90, Beziehung 88, Fachsignatur 92,
+  Arbeitsweise 78). Neuer Fall (Post-Call-Stichwortliste ohne Rahmung) bewusst NICHT als
+  Wiki-Marker übernommen (nur 1 Beleg, Echo-Schutz vor Overfitting) — stattdessen 2 neue
+  Fragen an `QUESTIONS.md` (Runde 260714g).
+- Report: `outputs/2026-07-14g_fidelity.md`. `build_dna.py` erneut ausgeführt: idempotent,
+  keine inhaltliche DNA-Änderung (offene Frage noch nicht ins Wiki eingearbeitet).
+
 ## 2026-07-14f — twin-mail-training: Batch 47 (27.–29.05.2026, KISPI-Submission + Thalwil-Freigabe)
 - Taeglicher (gedrosselter) Mail-Trainingslauf. Zugriff via Apple Mail osascript (Bundle-ID
   com.apple.mail, Account "Exchange", Mailbox "Gesendete Elemente") — Cowork-Connector

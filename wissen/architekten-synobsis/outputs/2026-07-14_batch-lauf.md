@@ -51,3 +51,16 @@ deterministisch ohne Diff neu geschrieben (`git diff --stat` leer), nur Zeitstem
 `catalog/INDEX.md`/`catalog/cad-index.json` aktualisiert. Kein neuer Stoff seit 2026-07-02.
 Naechster inhaltlicher Fortschritt bleibt an neues Rohmaterial in der Quelle oder eine
 freigegebene Stufe-3-Bereinigung (siehe `wiki/QUESTIONS.md`) gebunden.
+
+## Vierter Batch-Aufruf desselben Tages (08:46, VOLLGAS-Endlos-Taktung)
+Start: 2026-07-14T08:46:39+0200, Ende: 2026-07-14T08:47:06+0200.
+
+Vorab in der Quelle geprueft: weiterhin 854 Top-Level-Ordner (`00_Organisation` bleibt der
+einzige Nicht-Architekten-Ordner, kein neuer Architekt seit dem 05:47-Lauf).
+
+Ergebnis identisch zu den drei vorherigen Laeufen: 853/853, offen 0, `vectors.npz`
+deterministisch ohne inhaltlichen Diff neu geschrieben, nur Zeitstempel in
+`catalog/INDEX.md`/`catalog/cad-index.json` aktualisiert (weiterhin 15 Architekten mit CAD).
+Kein neuer Stoff seit 2026-07-02. Reiner Wiederholungslauf im Rahmen der VOLLGAS-Endlos-
+Taktung; naechster inhaltlicher Fortschritt bleibt an neues Rohmaterial in der Quelle oder
+eine freigegebene Stufe-3-Bereinigung (siehe `wiki/QUESTIONS.md`) gebunden.
