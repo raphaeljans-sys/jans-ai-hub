@@ -1,5 +1,22 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-14 — Nachbrenner-Bestandspruefung: alle 8 Original-Schritte bereits erledigt, INDEX-Korrektur
+- **Anlass:** erneute Ausfuehrung des einmaligen Nachbrenner-Auftrags (Kontext: Session-
+  Limit-Abbruch 12.07.2026 abends). Bestandspruefung ergab: alle 8 Schritte des Original-
+  Auftrags sind laengst erledigt und durch Etappe 3 weit ueberholt — 11/11 Teilnahme-Dossiers,
+  9/9 moegliche Board-DNA-Analysen (2104/2503 dossier-bedingt ohne Board), 23/23 externe
+  Juryberichte established, Muster `jans-board-dna` + `jury-argumente-schulbauten`
+  (Basis 23) + `delta-zum-ersten-rang` established, Skill-Massnahmen-Report vorhanden,
+  Rang-Diskrepanz 2102/2206 durch Raphael entschieden und belegt (`outputs/2026-07-12_
+  rang-klaerung-2102-2206.md`), INDEX/QUESTIONS/CHANGELOG/PROGRAMM durchgehend nachgefuehrt.
+- **Korrektur:** `wiki/INDEX.md` Eintrag zu `muster/jury-argumente-schulbauten.md` war
+  stehengeblieben bei "Basis 11 von 17" — auf den tatsaechlichen, bereits am 14.07. im
+  Artikel selbst dokumentierten Stand "Basis 23" nachgezogen.
+- **Keine weitere Aktion:** die laufende B5/B6-Arbeit (Parameter-Set + Kennwert-Benchmark
+  Schulbau) sowie Healthcare/Wohnungsbau-Sweeps sind Sache des dedizierten Scheduled Task
+  `wettbewerbs-dna-training` (Etappe 3) — hier nicht dupliziert, um konkurrierende Commits
+  auf denselben Dateien zu vermeiden.
+
 ## 2026-07-14 — Etappe 3 B4: Muster jury-argumente-schulbauten von 11 auf 23 Quellen erweitert
 - **Aktion:** `wiki/muster/jury-argumente-schulbauten.md` additiv erweitert (12 neue Berichte:
   Littau-Luzern, Thurgauerstrasse Zuerich, Baetterkinden, Stoeckacker Bern, Zelgli Schlieren,
