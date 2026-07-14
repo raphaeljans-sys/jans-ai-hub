@@ -28,6 +28,17 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
   (~1'446 USD Aequivalent).
 - **Briefing an rj@ versendet.** Sync-/Remote-Task-Queues leer.
 
+- **Nachtrag Hub-Chef-Lauf 14.07.2026 (08:39, ohne Befund, keine zweite Mail):** Signale nach dem
+  Radar (der heute frueh 05:01 MIT Briefing lief) gegenverifiziert — bexio `--verzug` unveraendert
+  (nur RE-00087, 89 Tg, Mahnung 2, Frist **15.07.** MORGEN; A1 greift nicht, Mahnstufe 2+ nur Entwurf,
+  vor Fristablauf nicht faellig; RE-00098/99 faellig 20.07. ohne Verzug). Mail-Eingang seit 06:00 leer
+  (juengster Inbox-Eintrag = eigenes Radar-Briefing 05:01; davor nur private me.com-Self-Mails 13.07.
+  abend, kein Geschaeftsvorfall). Sent Items: letzte Kundenmail 13.07. (Scherbl-Verrechnungsadresse
+  13:24, Strangschema-Kette) → **SBB-Vordach-Vereinbarung Thalwil 2414 an T. Wiedmer weiterhin NICHT
+  raus** (bleibt offene JANS-Aktion/nachfassen, im Register). Kalender bis 21.07. leer, Sync-/Remote-
+  Queues leer. Keine Whitelist-Aktion moeglich, keine neuen Entwuerfe; alle 7-Tage-Punkte standen im
+  Radar-Briefing heute frueh. Kein zweites Briefing (Anti-Doppelmeldung).
+
 ---
 
 ## 2026-07-13
