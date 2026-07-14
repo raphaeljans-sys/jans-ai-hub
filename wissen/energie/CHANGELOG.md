@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 65: BFE-Bauteilekatalog 2002 vollständig gelesen (Dächer, inhomogene Bauteile, Fenster+Türen) — PDF-Inventar jetzt wirklich lückenlos
+- **Run-Report** `outputs/2026-07-14_energie-run65.md`. Löst den letzten seit 2026-06-10 nur
+  teilgelesenen Eintrag im PDF-Inventar auf (der offizielle «vollständig abgearbeitet»-Vermerk vom
+  13.07. war damit nicht ganz präzise — dieser Lauf macht es wahr).
+- **Gelesen:** Seiten 43-80/80 des amtlichen BFE-Katalogs «U-Wert-Berechnung und Bauteilekatalog
+  Neubauten» (2002, Bestellnr. 805.150 d), via Read (2 Aufrufe à max. 20 Seiten).
+- **Kap. 4.1.3 Dächer und Decken:** D-/Di-Serie; Umkehrdach (D9) trägt einen amtlichen
+  **20-%-Feuchtezuschlag** gegenüber einem Warmdach gleicher Dämmdicke (Dämmung liegt bewittert
+  über statt unter der Abdichtung).
+- **Kap. 4.2 Inhomogene Bauteile:** Bi-/Wi-Serie — Holzbau-Konstruktionen mit durchdringender
+  Lattung/Riegel, U-Wert-Erhöhung bereits in der Tabelle eingerechnet (kein separater
+  Wärmebrückenzuschlag nötig).
+- **Kap. 5 Fenster und Türen (wichtigster Fund):** vollständige Formel
+  Uw = (Uf·Af + Ug·Ag + Ψg·lg) / Aw sowie amtliche **Fallback-Werte ohne Herstellerangabe**:
+  Uf Holz/Holz-Metall 1,9 · Kunststoff 2,5 · wärmegedämmte Verbundprofile 3,3 W/(m²·K); g-Wert
+  2-IV-IR 62 % / 3-IV-IR 45 %; vollständige Uw-Bestimmungstabelle nach Rahmenanteil 15/20/30 %;
+  Türen-U-Werte T1-T12 (1,1-2,9 W/(m²·K)).
+- **Register:** `destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md` auf vollständig (S. 1-80/80)
+  gehoben (Frontmatter + drei neue Kapitel-Abschnitte), `destillate/INDEX.md`, `training/pdf-inventar.md`
+  (Eintrag + Kopfnotiz korrigiert), `training/curriculum.md` (A1 wirklich vollständig, D43 neu),
+  `wiki/QUESTIONS.md` (E54 neu, M2-Zähler auf 21 Läufe), `wiki/INDEX.md`, `raw/_INGESTED.md`.
+- **FAQ F69 neu:** «Mein Fensterbauer nennt noch keinen U-Wert — wie schätze ich Uw selbst ab?» —
+  schliesst den in `wiki/fenster-verglasung.md` offen vermerkten Punkt «amtliche Uf-Tabelle je
+  Rahmenmaterial» (mit Vorbehalt: Werte von 2002, konservativer Fallback statt Marktstandard).
+- **Was offen bleibt:** Meta-Punkt M2 (eigener Skill `energie`?) ist jetzt seit 21 Läufen
+  entscheidungsreif, braucht Raphaels explizite Antwort; ohne neue PDF-Quelle bleibt der nächste
+  Themenkomplex offen für eine interaktive Priorisierung; Warme-Kante-Ψg-Werte für
+  Kunststoff-/Edelstahl-Abstandhalter (nur SIA D0170, nicht in diesem Katalog) bleiben unbeziffert.
+
 ## 2026-07-14 — Run 64: Schallschutzfenster-Klassentabelle abschliessend geklärt (keine amtliche CH-Skala), DIN-4109-Herkunft, De-Formel amtlich bestätigt
 - **Run-Report** `outputs/2026-07-14_energie-run64.md`. Bearbeitet die letzten beiden offenen
   Punkte aus Run 62/63 zum Themenkomplex Aussenlärm/Schallschutzfenster (F68).

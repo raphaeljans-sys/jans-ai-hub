@@ -1,8 +1,8 @@
 ---
 title: Fenster & Verglasung — Uw/Ug/Uf, g-Wert, Dreifachglas
 status: established
-last_updated: 2026-07-13
-sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/g-werte-verglasungstypen-ch.md]
+last_updated: 2026-07-14
+sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/g-werte-verglasungstypen-ch.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
 links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[sommerlicher-waermeschutz]] [[minergie-standards]] [[fenster-energieetikette-fea-bfe]] [[g-werte-verglasungstypen-ch]] [[BAUHERREN-FAQ]]
 ---
 
@@ -102,15 +102,21 @@ so in einer A–G-Zahl sichtbar. Die FEA ist **freiwillig** und ersetzt **nicht*
 Uw-Anforderung (ZH/Minergie ≤ 1,0). Detail inkl. Formel → `[[fenster-energieetikette-fea-bfe]]`.
 
 ## Offen
-- Numerische **g-Werte** je Verglasungstyp und **Uf** je Rahmenmaterial (Hersteller-/SZFF-Datenblätter;
-  DE-Blog-Tabellen nicht übernehmen). **Ergänzt 2026-07-13:** g-Werte je Verglasungstyp (2-fach
-  ~0,58–0,62, 3-fach Standard ~0,61, Sonnenschutzglas 0,17–0,37) aus Herstellerdaten Flachglas
-  Schweiz (`needs-verification`, Direktabruf der Produktseiten lieferte nur eine Platzhalterseite,
-  Zahlen aus WebSearch-Zusammenfassung) plus DE-Richtwert-Bandbreiten → `[[g-werte-verglasungstypen-ch]]`.
-  Amtliche CH-Primärquelle mit Typen-Tabelle bleibt weiterhin offen. **Grobe, nicht amtliche
-  Orientierung ergänzt 2026-07-13:** Holzrahmen Uf ca. 1,3–1,8 W/(m²·K) (Einzelquelle, `speculative`,
-  kein Ersatz für den Hersteller-/SZFF-Wert des gewählten Produkts) → `[[uf-werte-rahmenmaterial-grobuebersicht]]`.
-  Systematische amtliche Uf-Tabelle je Material bleibt offen.
+- Numerische **g-Werte** je Verglasungstyp (Hersteller-/SZFF-Datenblätter; DE-Blog-Tabellen nicht
+  übernehmen). **Ergänzt 2026-07-13:** g-Werte je Verglasungstyp (2-fach ~0,58–0,62, 3-fach Standard
+  ~0,61, Sonnenschutzglas 0,17–0,37) aus Herstellerdaten Flachglas Schweiz (`needs-verification`,
+  Direktabruf der Produktseiten lieferte nur eine Platzhalterseite, Zahlen aus
+  WebSearch-Zusammenfassung) plus DE-Richtwert-Bandbreiten → `[[g-werte-verglasungstypen-ch]]`.
+  Amtliche CH-Primärquelle mit Typen-Tabelle bleibt weiterhin offen.
+- **Amtliche Uf-Tabelle je Rahmenmaterial: geschlossen 2026-07-14 (Run 65).** Der BFE-Bauteilekatalog
+  2002 (Kap. 5.1.2) nennt konservative Fallback-Werte für den Fall ohne Herstellerangabe:
+  Holz/Holz-Metall 1,9 · Kunststoff 2,5 · wärmegedämmte Verbundprofile (Alu) 3,3 W/(m²·K), plus die
+  vollständige Uw-Bestimmungstabelle (Rahmenanteil 15/20/30 % × Glastyp × Uf) →
+  `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` Kap. 5, FAQ **F69** neu. ⚠ Werte von 2002 — als
+  konservativer Fallback zu lesen, nicht als heutiger Marktstandard (moderne Produkte liegen meist
+  deutlich darunter, vgl. Uw ≤ 1,0/≤ 0,80 oben). Die grobe Einzelquellen-Schätzung
+  `[[uf-werte-rahmenmaterial-grobuebersicht]]` (Holzrahmen 1,3–1,8, `speculative`) bleibt als
+  zusätzliche, nicht-amtliche Orientierung bestehen.
 - Konstanten c1/c2 der Uw,eq-Formel (nur auf Einzelzertifikat, nicht im Faktenblatt beziffert).
 
 ---

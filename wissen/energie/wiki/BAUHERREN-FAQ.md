@@ -2400,6 +2400,41 @@ noch offen: CH-CHF-Mehrkosten und Ctr-Werte je Hersteller).
 
 ---
 
+## F69 — «Mein Fensterbauer nennt noch keinen U-Wert — wie schätze ich Uw selbst ab?»
+
+**Kurz-Antwort:** Der Fenster-U-Wert Uw ist eine **Mischrechnung** aus Rahmen (Uf), Glas (Ug) und
+Glasrandverbund (Ψg), flächengewichtet nach Rahmenanteil: **Uw = (Uf·Af + Ug·Ag + Ψg·lg) / Aw**.
+Ohne Produktdatenblatt gelten konservative Fallback-Werte für den Rahmen: **Holz/Holz-Metall
+1,9 · Kunststoff 2,5 · wärmegedämmte Verbundprofile (Alu) 3,3 W/(m²·K)** — reale moderne Produkte
+liegen meist deutlich darunter.
+
+**Fachliche Begründung:**
+1. **Rahmenanteil entscheidet mit.** Bei sonst gleichem Glas verbessert ein **schmalerer
+   Rahmenanteil** (z.B. 15 % statt 30 % der Fensterfläche) den Gesamt-Uw um rund 0,1-0,2 W/(m²·K),
+   weil das Glas i.d.R. besser dämmt als der Rahmen — ein Argument für schlanke statt wuchtige
+   Profile bei gleicher Glasqualität.
+2. **Fallback-Tabelle als Nachweis-Werkzeug.** Der amtliche BFE-Bauteilekatalog liefert eine
+   vollständige Tabelle (Rahmenanteil 15/20/30 % × Glastyp 2IV/3IV × Uf 1,0-3,3) zum Ablesen ohne
+   Rechnung — genau für den Fall, dass noch keine Herstellerangaben vorliegen, aber ein erster
+   Anhaltswert für die Baueingabe nötig ist.
+3. **Nicht mit dem heutigen Marktstandard verwechseln.** Diese Fallback-Werte stammen aus 2002 und
+   sind bewusst konservativ (Maximalwerte). Der heutige Dreifachglas-Standard (>90 % CH-Anteil)
+   erreicht Uw ≤ 1,0 W/(m²·K) (ZH/Minergie) bzw. ≤ 0,80 (Minergie-P) — für die verbindliche
+   Nachweisrechnung immer die Herstellerangabe des gewählten Produkts verwenden, die Fallback-Tabelle
+   dient nur der ersten Grobschätzung.
+4. **Formular Tab. Aw** im Anhang des Katalogs ist direkt kopierbar/erweiterbar und kann der
+   Baubehörde als Nachweis-Bestandteil eingereicht werden.
+
+**Quelle:** BFE «U-Wert-Berechnung und Bauteilekatalog Neubauten» (2002, Bestell-Nr. 805.150 d),
+Kap. 5 Fenster und Türen, vollständig gelesen → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
+Aktueller Marktstandard/g-Wert-Diskussion → `[[fenster-verglasung-uw-g-wert]]`,
+`[[fenster-energieetikette-fea-bfe]]`. Status **established** (amtliche Primärquelle vollständig
+gelesen; schliesst den in `[[fenster-verglasung]]` offen vermerkten Punkt «amtliche
+Uf-Tabelle je Material» — mit dem Vorbehalt, dass die Zahlen von 2002 stammen und als
+konservativer Fallback, nicht als Marktstandard gelten).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -2409,6 +2444,14 @@ noch offen: CH-CHF-Mehrkosten und Ctr-Werte je Hersteller).
 - ~~F8 Netto-Null konkret~~ ✓ 2026-06-17 beantwortet (THGE-Grenzwerte je Kategorie + Klimapfad SIA 390/1
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
+
+> **FAQ-Stand 2026-07-14 (Run 65):** **F69 neu** — «Mein Fensterbauer nennt noch keinen U-Wert —
+> wie schätze ich Uw selbst ab?». PDF-Inventar-Rest geschlossen: die letzten 38 Seiten (Buchseiten
+> 43-80) des amtlichen BFE-Bauteilekatalogs 2002 wurden gelesen (Kap. 4.1.3 Dächer/Decken, Kap. 4.2
+> inhomogene Bauteile Holzbau, Kap. 5 Fenster+Türen inkl. Uw-Formel und amtlicher Uf-Fallback-Tabelle
+> Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3 W/(m²·K)) → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`
+> jetzt vollständig (S. 1-80/80), schliesst den in `[[fenster-verglasung]]` offen vermerkten Punkt
+> «amtliche Uf-Tabelle je Rahmenmaterial» (mit Vorbehalt: Werte von 2002, konservativer Fallback).
 
 > **FAQ-Stand 2026-07-14 (Run 64):** F68 (Aussenlärm) auf **established** gehoben — die
 > Klassentabellen-Frage ist jetzt abschliessend geklärt (SIA 181 definiert keine Fensterklassen,

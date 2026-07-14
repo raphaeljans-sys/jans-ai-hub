@@ -5,7 +5,9 @@ Generiert 2026-06-05. Jede Quelle wird vom taeglichen Loop in ein lesbares
 [-] geprueft, nicht einzeln destilliert (Kursflyer/Rechnung/Datenblatt, keine Fachinhalte).
 Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln destilliert.
 
-**Stand 2026-07-13: Inventar vollstaendig abgearbeitet** — alle Quellen sind [x] oder [-].
+**Stand 2026-07-14 (Run 65): Inventar vollstaendig abgearbeitet** — alle Quellen sind [x] oder [-];
+der einzige teilweise gelesene Eintrag (Bauteilekatalog Neubauten, Daecher/inhomogene Bauteile/
+Fenster+Tueren) wurde in Run 65 zu Ende gelesen (S. 1-80/80 vollstaendig).
 Neue Themen laufen ueber `curriculum.md` (Web-Quellen) oder Nachtrags-PDFs bei Bedarf.
 
 ## Prioritaet 1 — Fachgrundlagen (hoechster Bauherren-Nutzen)
@@ -19,7 +21,7 @@ Neue Themen laufen ueber `curriculum.md` (Web-Quellen) oder Nachtrags-PDFs bei B
 | [x] `U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` | 2026-06-06 (S. 1-16, vollst.) |
 | [x] `U Wert berechnung/Energienachweis 380-1 Muster.pdf` | 2026-06-10 (vollst., 9 S.; Enerhaus Minergie-Systemnachweis EFH Umbau Luzern → enerhaus-minergie-nachweis-efh-umbau) |
 | [x] `U Wert berechnung/Grassen Biwak/WERKHOF29_Dossier_Erstvermietung.pdf` | 2026-06-13 (S. 1-12; Praxisbeispiel zirkulaeres Bauen Stroh/Lehm/Re-use/Areal-PV → werkhof29-zirkulaeres-bauen-stroh-lehm; Rest Mietobjekt-Datenblaetter) |
-| [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-06-10 (S.1-10 + Kap.4 Boeden/Waende S.26-42; Rest inhomogen/Daecher offen) |
+| [x] `U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf` | 2026-07-14 (vollst. S. 1-80/80; Run 65 ergaenzt Kap. 4.1.3 Daecher/Decken, Kap. 4.2 inhomogene Bauteile, Kap. 5 Fenster+Tueren inkl. amtl. Uf-Fallback-Tabelle) |
 | [x] `U Wert berechnung/VoHi_EN02_de.pdf` | 2026-06-09 (vollst. S. 1-12; EnFK EN-2 Feb 2013, SIA 380/1:2009) |
 | [x] `U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf` | 2026-06-13 (Kap. 1-3 S. 4-37 → clt-bauphysik; Kap. 4 Aussenwand V1-9 + Dach V1-6 → clt-bauteilkatalog; Innenwand V1-11 + Trennwand V1-8 + Decke V1-6 S. 98-164 → clt-schallschutz. Innenwand-Trennwand-Restvarianten S. 136-152 als Daten redundant, nicht einzeln) |
 | [x] `_Formulare Kanton ZH Baueingabe/EN-ZH.pdf` | 2026-06-07 (vollst., 5 S.; ⚠ seit 1.1.2026 EVEN) |

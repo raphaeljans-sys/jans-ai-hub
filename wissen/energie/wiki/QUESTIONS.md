@@ -560,18 +560,28 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   unbeziffert, DE-Marktangabe (EUR) als grobe Orientierung ergänzt. Löst die Run-62/63-
   Restpunkte vollständig, ausser der amtlich schlicht nicht existierenden CH-CHF-Zahl.
 
+- [x] **E54** **BFE-Bauteilekatalog 2002 — Rest-Transfer Daecher/inhomogene Bauteile/Fenster+Tueren**
+  belegt ✓ 2026-07-14 (Run 65) → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` jetzt vollstaendig
+  (S. 1-80/80), FAQ **F69** neu. Der einzige seit 2026-06-10 nur teilgelesene PDF-Eintrag im
+  Inventar (Kap. 4.1.3 Daecher/Decken D1-D15/Di-Serie, Kap. 4.2 inhomogene Bauteile Bi/Wi-Serie
+  Holzbau, Kap. 5 Fenster+Tueren mit Uw-Formel + amtlicher Uf-Fallback-Tabelle Holz 1,9/Kunststoff
+  2,5/Verbundprofil 3,3 W/(m²·K)) wurde zu Ende gelesen. Schliesst den in `[[fenster-verglasung]]`
+  offen vermerkten Punkt «amtliche Uf-Tabelle je Rahmenmaterial» (Vorbehalt: Werte von 2002,
+  konservativer Fallback). Damit ist das PDF-Inventar jetzt wirklich lueckenlos (nicht nur laut
+  Status-Vermerk) abgearbeitet.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 64): PDF-Inventar vollstaendig abgearbeitet, alle 17 FAQ-Kernfragen +
-  F18-F68 Vertiefungen belegt (F68 jetzt established: SZ-Vollzugspraxis UND Klassentabellen-Frage
-  abschliessend geklaert), Rp/kWh-Luecken orientierend geschlossen (E37), MuKEn-Modul-G,
-  LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit, § 295 PBG (100 %
-  amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND Solarpflicht in allen 26
-  Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw. web-trianguliert — Meta-Punkt M2 ist
-  SEIT RUN 45 (also ZWANZIG Laeufen in Folge) spruchreif fuer eine Entscheidung und wird hier zum
-  zwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst treffen — braucht eine explizite Antwort
-  von Raphael in einer interaktiven Session, sonst dreht sich der Meta-Punkt weiter im Kreis, ohne
-  neue Substanz zu erzeugen. Naechster faelliger Themenkomplex: ein komplett neues, noch
-  unbelegtes Thema (der gesamte Laermschutz-Komplex F65/F68 samt SZ-Vertiefung und
-  Klassentabellen-Frage ist jetzt vollstaendig primaerquellenbelegt/established) — eine
-  interaktive Session koennte priorisieren.**
+  **Stand 2026-07-14 (Run 65): PDF-Inventar jetzt wirklich lueckenlos abgearbeitet (letzter
+  Teil-Eintrag Bauteilekatalog 2002 zu Ende gelesen, E54), alle 17 FAQ-Kernfragen + F18-F69
+  Vertiefungen belegt (F68 established: SZ-Vollzugspraxis UND Klassentabellen-Frage abschliessend
+  geklaert; F69 neu: amtliche Fenster-Uf-Fallback-Tabelle), Rp/kWh-Luecken orientierend geschlossen
+  (E37), MuKEn-Modul-G, LEG-Branchenempfehlung, SIA-382/1-WRG-Grenzwerte, RiLuMi-Luftdichtheit,
+  § 295 PBG (100 % amtliche PDF-Primärquelle), LSV-Anhang-6-Planungswerttabelle (E45) UND
+  Solarpflicht in allen 26 Kantonen (E38-E49) primaerquellen-/volltext-verifiziert bzw.
+  web-trianguliert — Meta-Punkt M2 ist SEIT RUN 45 (also EINUNDZWANZIG Laeufen in Folge) spruchreif
+  fuer eine Entscheidung und wird hier zum einundzwanzigsten Mal vermerkt. Der Loop kann sie nicht
+  selbst treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session, sonst
+  dreht sich der Meta-Punkt weiter im Kreis, ohne neue Substanz zu erzeugen. Naechster faelliger
+  Themenkomplex: ein komplett neues, noch unbelegtes Thema — eine interaktive Session koennte
+  priorisieren.**

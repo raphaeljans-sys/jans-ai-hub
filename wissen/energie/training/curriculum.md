@@ -7,7 +7,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [x] A1 U-Wert verstehen & bestimmen (BFE-Bauteilekatalog) — Grundlagen destilliert 2026-06-05;
   λ-Bandbreiten Daemmstoffe belegt 2026-06-07 via SIA 2001 → `[[daemmstoffe-lambda]]`;
   **Bauteilekatalog Kap. 4 (Standardaufbauten Boeden B1-B21 / Waende W1-W26) belegt 2026-06-10**
-  → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`. **vollstaendig** (inhomogene Bauteile/Daecher offen).
+  → `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`. **Kap. 4.1.3 Daecher/Decken (D1-D15, Di1-Di4/
+  Di8-10), Kap. 4.2 inhomogene Bauteile (Bi/Wi-Serie, Holzbau) und Kap. 5 Fenster+Tueren (Uw-Formel
+  + amtl. Uf-Fallback-Tabelle Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3) belegt 2026-07-14 (Run 65,
+  D43)** → dasselbe Destillat jetzt **vollstaendig gelesen (S. 1-80/80)**, FAQ **F69** neu, schliesst
+  den in `[[fenster-verglasung]]` offenen Uf-Tabellen-Punkt. **Kapitel A1 damit wirklich vollstaendig.**
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08
@@ -622,6 +626,23 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Quelle (fensterversand.ch), nicht amtlich → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`
   (neu), Ergänzung `[[schallschutz-sia181]]`, FAQ **F68** neu, Status emerging (SZ-spezifische
   Ausnahmebewilligungspraxis, amtliche Fensterklassen-Tabelle, CHF-Mehrkosten je Klasse offen).
+
+- **D43 (Run 65, 2026-07-14)** — Rest-Transfer des BFE-Bauteilekatalogs 2002 (letzter noch
+  teilweise gelesener PDF-Eintrag im Inventar, S. 1-10 + Kap. 4.1 waren bereits 2026-06-10 gelesen).
+  Seiten 43-80 vollstaendig via Read gelesen: **Kap. 4.1.3 Daecher/Decken** (D1-D15 gegen Aussenluft/
+  unbeheizt, Di1-Di4/Di8-10 Sparrendach-Varianten; Umkehrdach D9 traegt einen amtlichen **20-%-
+  Feuchtezuschlag** gegenueber einem Warmdach mit gleicher Daemmdicke), **Kap. 4.2 inhomogene
+  Bauteile** (Bi-Serie Boeden, Wi-Serie Waende — Holzbau mit durchdringender Lattung/Riegel, zweispaltige
+  Tabellen fixe+variable Daemmschicht) und **Kap. 5 Fenster und Tueren** (Formel
+  Uw = (Uf·Af+Ug·Ag+Ψg·lg)/Aw; amtliche Fallback-Werte ohne Herstellerangabe: Uf Holz 1,9/Kunststoff
+  2,5/Verbundprofil 3,3 W/(m²·K), g-Wert 2IV 62 %/3IV 45 %; vollstaendige Uw-Bestimmungstabelle nach
+  Rahmenanteil 15/20/30 %; Tueren T1-T12 U 1,1-2,9) → Destillat
+  `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` jetzt **vollstaendig (S. 1-80/80)**, FAQ **F69** neu
+  («wie schaetze ich Uw ohne Herstellerangaben»), schliesst den in `[[fenster-verglasung]]` offen
+  vermerkten Punkt «amtliche Uf-Tabelle je Rahmenmaterial» (Vorbehalt: Werte von 2002, konservativer
+  Fallback, kein heutiger Marktstandard). Damit ist das PDF-Inventar jetzt **wirklich lueckenlos**
+  abgearbeitet (zuvor war dieser eine Eintrag trotz «vollstaendig abgearbeitet»-Vermerk seit
+  2026-06-10 nur teilgelesen).
 
 - **D42 (Run 64, 2026-07-14)** — «Gibt es eine amtliche Schallschutzfenster-Klassentabelle in der
   Schweiz, und was kostet eine höhere Klasse?» — Restpunkte aus D40/D41 (Run 62/63) abschliessend
