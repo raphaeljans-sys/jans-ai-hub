@@ -1,5 +1,13 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-14 — Trainingslauf 18
+- Output `outputs/2026-07-14_training-run18.md`. Fuenfte Ausloesung desselben Tages (11:2x Uhr,
+  ~1 Std. nach Lauf 17 um 10:15) — Scheduling-Drosselung (Rule 260713, 1x/Tag 04:10) greift weiterhin
+  nicht (Prozess-Beobachtung, ausserhalb KB-Mandat). **Keine neue reale Spec** seit Lauf 7
+  (Wettbewerbs-Layer 12.07.). AG-Gruendung-Monitor/`fristen.md` unveraendert gegenueber Lauf 17,
+  F1-F7 unveraendert. Bewusst minimal: kein sechster Wiederholungs-Sweep, keine erfundene
+  F1/F3-Fuellung, keine Aenderung an Wiki/Rule/Skill.
+
 ## 2026-07-14 — Trainingslauf 17
 - Output `outputs/2026-07-14_training-run17.md`. Vierte Ausloesung desselben Tages
   (10:15, nur ~1,5 Std. nach Lauf 16 um 08:39) — Scheduling-Redundanz haelt weiter an
