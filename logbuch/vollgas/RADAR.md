@@ -21,6 +21,32 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-14 16:48 — [GEDROSSELT] Schoner-Lauf: Lage unveraendert stabil, Runner gestoppt, Login intakt, keine P1
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer). Als Schoner starte ich den Runner
+NICHT neu. Wochenlimit wird geschont (Reset Mo 11:59, jetzt noch ~4 Tage). Login-Test mit `set -a`
+(P3 vom 15:52 beherzigt) liefert sauber «OK» — kein Login-Block. `timeout` fehlt auf macOS/zsh;
+Fallback ueber `gtimeout`/Background-Kill eingesetzt, Vermerk fuer kuenftige Laeufe.
+
+**Durchsatz:** 6 Commits/90 Min, 52/6 Std. Die letzten 90 Min waren reine nas-selfcommit-Heartbeats
+(station-status), kein KB-Inhalt — normale ruhige Gedrossel-Kadenz. Ueber 6 Std echt produktiv:
+normen Mini-Run 27 (16 DIN/VSS-Destillate Q&A-geprueft), wettbewerbs-dna Nachbrenner (Muster
+`jans-board-dna.md` refuter-verifiziert `draft`→`established`), spec Trainingslauf 18, energie/synobsis.
+Erwartetes Bild: Trainings arbeiten gedrosselt weiter, ohne Dauer-Runner.
+
+- **P2 (unveraendert, vorgemerkt) — Radar-Frequenz zuruecknehmen:** Im Schoner-Modus reicht 3–4x
+  taeglich statt stuendlich; der stuendliche Lauf verbraucht selbst Wochenlimit-Budget, das wir gerade
+  schonen. Vorschlag an Raphael fuers naechste Briefing (Task-Frequenz nicht selbst geaendert).
+- **P3 (unveraendert) — Idle-Loops** (`wettbewerbs-dna-training`/`spec-training`/`synobsis-batch-nacht`)
+  brechen intermittierend mit «keine eigentliche Anfrage» ab; im Drossel-Regime nachrangig. Fix bei
+  ruhiger Gelegenheit: «Fahre den naechsten offenen Baustein aus»-Auftakt in der jeweiligen SKILL.md.
+- **P3 (unveraendert) — synobsis 853/853 + energie-Meta + wettbewerbs-layer-nachbrenner:**
+  Endbedingungs-/Entscheid-Kandidaten fuer eine interaktive Session mit Raphael. Vormerkung.
+
+Alles im Soll: Runner gestoppt und nicht angeworfen, Trainings gedrosselt produktiv, Login intakt,
+keine neue/offene P1. Kein Mail-Anlass.
+
 ## 2026-07-14 15:52 — [GEDROSSELT] Schoner-Lauf: Runner weiter gestoppt, Login intakt (Export-Nuance geklaert), Trainings ueber 6h produktiv, keine P1
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) stabil. STOP + STOP-Macmini
