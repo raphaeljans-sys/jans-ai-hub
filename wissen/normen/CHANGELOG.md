@@ -1,3 +1,32 @@
+## 2026-07-14 — normen-training-nacht Run 13 (MacBook Pro): Retro-Verifikation restliche 7 SIA-Destillate — SIA/VKF-Bestand jetzt komplett established
+- Gedrosselter Loop (Rule 260713); Inventar-Check: SIA/VKF weiterhin 0 offene `[ ]`-Positionen.
+  7 parallele Verifikations-Agenten arbeiteten den kompletten Rest-Bestand mit Status `destilliert`
+  (noch nicht `established`) ab: SIA 142:2009, SIA 143:2009, SIA 400:2000, SIA 102:2014 (Altausgabe),
+  SIA 111:2003 (Altausgabe), SIA-Register 2013, SIA-Gesamtverzeichnis 2002.
+- **SIA 142:2009:** 47 Aussagen, 0 Fehler; ergaenzt Art. 29.2-29.3 + Genehmigung/Inkrafttreten
+  (S. 21) + Partnerorganisationen. Seitenzahl in Frontmatter korrigiert (21 statt 23).
+- **SIA 143:2009:** 47 Aussagen, 0 Fehler; Anhang-Tabelle war fehlbezeichnet (jetzt eigene
+  Vergleichstabelle statt "identisch mit SIA 142"), Genehmigung/Inkrafttreten ergaenzt.
+- **SIA 400:2000:** ~45 Aussagen, 0 Fehler; 5 Ergaenzungen (Vermessungslinien-Legende,
+  Umbau/Abbruch-Farbcode, Aussparungs-Kurzzeichen), groesster Fund: Anhang C enthaelt normativen
+  Pflichtangaben-Text (Bauprojekt-/Detailplaene), war faelschlich als reine Beispiele uebersprungen.
+- **SIA 102:2014 (Altausgabe):** 47 Aussagen, 1 Fehler (Baukategorie Altersheime V statt VI
+  korrigiert), Baukategorien-Tabelle S.45-48 vollstaendig ergaenzt, `gelesen` auf 1-58 komplettiert.
+- **SIA 111:2003 (Altausgabe):** 24 Aussagen, 2 Fehler (Gesamtleitungskatalog 16 statt 14 Punkte,
+  Kuendigungszuschlag-Deckelungsklausel unvollstaendig zitiert), 2 Ergaenzungen.
+- **SIA-Register 2013:** Stichprobe 13 Normen-Nummern, 1 Fehler (SIA 416:2003 Basisnorm fehlte
+  in `wiki/REGISTER.md` Abschnitt A) — in Destillat UND Register korrigiert. Hohe Relevanz, da
+  dieses Register die Gueltigkeits-Basis der gesamten SIA-KB bildet.
+- **SIA-Gesamtverzeichnis 2002:** 6 Aussagen, 0 Fehler; Kategorie-Kuerzel "R" (Richtlinie) in
+  Legende nachgetragen.
+- **Meilenstein:** `destillate/INDEX.md` zeigt jetzt fuer ALLE `sia-*`/`vkf-*`-Eintraege den Status
+  `established` — kein Destillat mehr auf blossem `destilliert`-Stand. Vertiefungsstufe (b)
+  Retro-Verifikation ist fuer den kompletten SIA/VKF-Grundbestand abgeschlossen.
+- Nachgefuehrt: `training/norm-inventar.md` (7 Zeilen), `destillate/INDEX.md` (7 Eintraege),
+  `wiki/REGISTER.md` (SIA 416:2003 Basisnorm ergaenzt). Lauf-Report:
+  `outputs/2026-07-14_normen-nacht-run13.md`. Naechster Batch: Vertiefungsstufe (c)
+  Q&A-Selbstbefragung fuer noch nicht selbstbefragte SIA-P1-Kernnormen.
+
 ## 2026-07-14 — normen-training-mini Run 26 (Mac Mini): Q&A-Selbstbefragung 9 DIN-Normen, 0 Sachfehler, 49 Ergaenzungen
 - Stations-Split Mac Mini (DIN/VSS/RAL), Vertiefungsstufe (c) Fortsetzung aus Run 25.
   DIN/VSS/RAL-Grunddestillation weiterhin 0 offene `[ ]`-Positionen (seit Run 19).

@@ -2560,9 +2560,81 @@ sind U-Wert-Erleichterungen möglich.
 
 **Quelle:** PBG-Revision Kt. ZH (Medienmitteilung 02.07.2026), DSG/DSV Kt. SZ (RRB Nr. 70/2024), BAK
 Weisungen ISOS (WISOS), Art. 18a RPG, Stadt Zürich Förderprogramm Denkmalschutz-Sanierung (06/2026)
-→ `[[denkmalschutz-energiesanierung-zh-sz]]`. Status **emerging** (Grundstruktur amtlich belegt über
-Medienmitteilungen/Übersichtsseiten; mehrere Gesetzestexte wegen PDF-Bildkompression nicht wörtlich
-verifiziert).
+→ `[[denkmalschutz-energiesanierung-zh-sz]]`. Status **established** (SZ-Beitragswiderspruch
+25 % vs. 30/35/40 % aufgelöst — Grundbeitrag 25 % + Schutzziel-Zuschlag; ZH-Erleichterungsklausel
+in § 2 Abs. 5 WDV/LS 700.211 primärquellen-verifiziert, nachintegrierte Klärung 2026-07-14).
+
+---
+
+## F75 — «Wärme im Abo statt eigene Heizanlage — lohnt sich Wärme-Contracting?»
+
+**Kurz-Antwort:** Contracting lohnt sich, wenn Du kein Kapital binden und das Betriebsrisiko
+auslagern willst — der Preis dafür ist eine lange Bindung von **15 bis 30 Jahren** mit
+eingeschränkter Kündigung. Bei einer bestehenden Mietliegenschaft löst die Umstellung eine
+**Pflicht zur Mietzinssenkung** aus (die Heizanlage wird aus dem Nettomietzins herausgerechnet).
+
+**Fachlich:** Der Contractor plant, finanziert, baut und betreibt die Wärmeerzeugungsanlage auf
+eigenes Risiko und verkauft nur die fertige Nutzwärme (Grundpauschale + Arbeitspreis). Es gibt
+kein eigenes CH-Spezialgesetz dafür — rechtlicher Ankerpunkt ist **Art. 6a VMWG**: bei der
+Umstellung im Bestand muss die Anlage aus dem Nettomietzins herausgerechnet werden, im Gegenzug
+dürfen die vollen Contracting-Kosten über die Nebenkosten verrechnet werden. Für die MuKEn-Auflage
+«10 % erneuerbar beim Heizungsersatz» zählt die **Energiequelle**, nicht das Vertragsmodell —
+Contracting ist keine eigene Standardlösung (SL1–SL11), sondern nur das Finanzierungskleid einer
+ohnehin zulässigen Lösung (meist SL5 Fernwärme/Wärmeverbund).
+
+**Quelle:** BFE/EnergieSchweiz «Wärme im Abo» (2004), AEW Energie AG, Zeitschrift Wohnen, Kt. Schwyz
+AfU (Präsentation 22.10.2021) → `[[waerme-contracting-vertragsmodelle-ch]]`. Status **emerging**
+(Vertragsmodelle + Art. 6a VMWG mehrquellig belegt; Preisüberwacher-Praxis und MuKEn-2025-Wortlaut
+offen).
+
+---
+
+## F76 — «Kann ich eine energetische Sanierung noch von den Steuern abziehen — und wie lange noch?»
+
+**Kurz-Antwort:** Ja, heute (2026) sind Energiespar-/Umweltschutzinvestitionen bei Bund, Kt. ZH und
+Kt. SZ voll abzugsfähig, auch wenn sie eigentlich wertvermehrend wären. **Das Zeitfenster schliesst
+sich absehbar per 1.1.2029**, wenn der Eigenmietwert wegfällt — dann entfällt der Abzug beim Bund
+für selbstgenutztes Wohneigentum vollständig (Kantone dürfen ihn optional bis 2050 weiterführen).
+
+**Fachlich:** Art. 32 Abs. 2 DBG stellt Energiespar-/Umweltschutzinvestitionen den Unterhaltskosten
+gleich (Liegenschaftskostenverordnung + VMRE); Kt. ZH (§ 30 Abs. 2 StG) koppelt vollständig ans
+Bundesrecht, Kt. SZ (Weisung LKPV, Steuerbuch 70.20) folgt derselben Grundmechanik, mit
+5-Jahres-Sperrfrist bei Neubauten. Nicht vollständig abziehbare Kosten können auf die zwei
+folgenden Steuerperioden vorgetragen werden. Die Volksabstimmung vom 28.09.2025 schafft den
+Eigenmietwert per **1.1.2029** ab (Bundesratskommunikation 01.04.2026); mit ihm fällt auch der
+Energieabzug beim Bund für selbstgenutztes Eigentum. Bei vermieteten Liegenschaften bleibt der
+Unterhaltsabzug bestehen. Als grobe, nicht amtliche Illustration nennt eine Treuhandquelle bei
+CHF 37'000 Netto-Investition und ~30 % Grenzsteuersatz eine Ersparnis von rund CHF 11'100.
+
+**Quelle:** Art. 32 Abs. 2 DBG, ZStB Nr. 30.4 Kt. ZH, Schwyzer Steuerbuch 70.20, EFD/SRF zur
+Eigenmietwert-Reform → `[[steuerabzuege-energetische-sanierung-ch]]`. Status **emerging**
+(Bundes-/ZH-Recht primärquellennah, SZ-Paragraph und «bis 2050»-Kantonsoption nicht amtlich
+gegengeprüft).
+
+---
+
+## F77 — «Grundwasserwärmepumpe statt Erdsonde — geht das, und wie läuft die Bewilligung?»
+
+**Kurz-Antwort:** Ja, aber es ist ein **eigenständiges Konzessionsverfahren** (nicht dasselbe wie
+bei der Erdsonde), weil alles Grundwasser kantonales öffentliches Gut ist — sinnvoll vor allem bei
+grösseren Objekten (Zürich ab 100 kW Kälteleistung/Minergie, Schwyz ab 4 Wohneinheiten oder 50 kW).
+
+**Fachlich:** Zuständig ist in ZH das AWEL (Konzession über die Gemeinde), in SZ das Amt für Umwelt
+und Energie (Vorabklärung) plus Regierungsrat (Konzessionserteilung nach Sondierbohrung mit
+Pumpversuch). Beide Kantone folgen der bundesrechtlichen **3°C-Regel** (BAFU-Vollzugshilfe 2009):
+die Grundwassertemperatur darf max. 3 °C verändert werden, ausserhalb 100 m auch mehr; in Zürich
+ist Kühlen (Abkühlen) ausdrücklich erwünscht (ΔT bis 7 °C je nach Lage), Heizen hält die 3°C-Regel
+strikt ein. Ausgeschlossen sind wie bei der Erdsonde die Grundwasserschutzzonen S1/S2/S3. Ein
+hydrogeologischer Bericht (Ergiebigkeit, Fliessrichtung, Nachbar-Auswirkung) ist in beiden Kantonen
+Bewilligungsvoraussetzung. **Vorsicht bei Zahlen:** konkrete JAZ-Vergleichswerte (Richtung: GW-WP
+tendenziell effizienter als Erdsonde/Luft-WP wegen konstant höherer Quelltemperatur) und
+CHF-Kostenangaben für die Bohrung sind nur aus kommerziellen bzw. nicht primärquellen-verifizierten
+Quellen bekannt — nur als grobe Richtwerte kommunizieren.
+
+**Quelle:** AWEL Kt. ZH, Kt. Schwyz Amt für Umwelt und Energie, BFE-Bericht «Bewilligungsverfahren
+Grundwasserwärmenutzung in den Kantonen» (03.2017), BAFU-Vollzugshilfe UV-0910-D (2009) →
+`[[grundwasserwaermenutzung-bewilligung-zh-sz]]`. Status **emerging** (Bewilligungssystematik +
+Temperaturregel amtlich verifiziert; JAZ/Kosten/ZH-Konzessionsdauer offen).
 
 ---
 

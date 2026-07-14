@@ -2,6 +2,33 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 68 (nachintegriert): drei neue Themenkomplexe + Klärung zweier Run-67-Offenpunkte
+- **Kontext:** Ein separat gestarteter Trainingslauf hatte vier parallele Web-Rechercheagenten
+  gestartet, deren Ergebnisse zunächst nicht ins Repo integriert wurden (Orchestrierungsfehler des
+  übergeordneten Agenten). Die vier fertigen Recherche-Berichte trafen nachträglich als
+  Einzelergebnisse ein und wurden hier manuell nachintegriert, um die bereits geleistete
+  Rechercharbeit nicht zu verlieren.
+- **Drei neue Destillate:**
+  1. **Wärme-Contracting/Wärmelieferung** (Vertragsmodelle, Art. 6a VMWG, MuKEn-Bezug ZH/SZ) →
+     `destillate/waerme-contracting-vertragsmodelle-ch.md` (neu), FAQ **F75** neu.
+  2. **Steuerabzüge energetische Sanierung** (Art. 32 Abs. 2 DBG, Kt. ZH/SZ, Eigenmietwert-Reform
+     per 1.1.2029) → `destillate/steuerabzuege-energetische-sanierung-ch.md` (neu), FAQ **F76** neu.
+  3. **Grundwasserwärmenutzung Bewilligung ZH+SZ** (Konzessionsverfahren, 3°C-Regel, Schwellenwerte)
+     → `destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md` (neu), FAQ **F77** neu.
+- **Zwei Run-67-Offenpunkte geklärt** (vierter Rechercheagent): `denkmalschutz-energiesanierung-zh-sz.md`
+  auf **established** gehoben — SZ-Beitragswiderspruch aufgelöst (§ 16a DSG: Grundbeitrag 25 % +
+  Schutzziel-Zuschlag 5/10/15 % = 30/35/40 %, unabhängig von lokal/regional/national) und
+  ZH-Erleichterungsklausel lokalisiert (§ 2 Abs. 5 WDV, LS 700.211, delegiert aus § 17a EnerG,
+  Wortlaut primärquellen-verifiziert). FAQ F74 auf established aktualisiert.
+- **Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu/ergänzt), `wiki/BAUHERREN-FAQ.md`
+  (F75-F77 neu, F74 geschärft, FAQ-Stand jetzt 77 Kernfragen).
+- **Leitplanken beachtet:** alle Aussagen mit Quelle/Datenstand versehen, Verifikationsgrad je
+  Abschnitt aus den Originalberichten übernommen, unsichere Punkte (Preisüberwacher-Praxis,
+  MuKEn-2025-Wortlaut, JAZ-/Kosten-Richtwerte Grundwasser-WP, Konzessionsdauer ZH) als offen markiert.
+- **Offen für nächsten Lauf:** `training/curriculum.md` und `wiki/QUESTIONS.md` sind nach diesem
+  nachintegrierten Lauf noch nicht aktualisiert — im nächsten regulären Run nachführen. Zudem sollte
+  geprüft werden, ob der PDF-Inventar-Zustand weiterhin erschöpft ist.
+
 ## 2026-07-14 — Run 67: Denkmalschutz+Energiesanierung (neu) + drei Nachrecherchen aus Run 66 (AWEL-Gebühr Erdsonden, SZ-Bagatellkatalog Elektroheizung, R290-Kostenvergleich)
 - **Run-Report** `outputs/2026-07-14_energie-run67.md`. PDF-Inventar bleibt erschöpft; dieser Lauf
   arbeitet gezielt die «Was offen bleibt»-Liste aus dem Run-66-Report ab statt neuer PDF-Themen.

@@ -10,17 +10,17 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 
 | Destillat | Norm | Ausgabe | Status |
 |---|---|---|---|
-| `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | destilliert |
-| `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | destilliert |
+| `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | established (verifiziert 260714, Stichprobe 13 Normen-Nummern, 1 Fehler in REGISTER.md korrigiert) |
+| `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | established (verifiziert 260714, Volltextabgleich) |
 | `sia-102-2020.md` | SIA 102 Leistungen + Honorare Architekten | 2020 | established, vollständig verifiziert 260714 (71 Aussagen, 0 Fehler, Art. 5 + Teilphasen 4.3/4.4/4.53/4.6 ergänzt) |
 | `sia-103-2003.md` | SIA 103 Leistungen + Honorare Bauingenieure | 2003 | established (verifiziert 260712) |
 | `sia-105-2020.md` | SIA 105 Leistungen + Honorare Landschaftsarchitekten | 2020 | established (verifiziert 260712) |
 | `sia-111-2014.md` | SIA 111 Modell Planung und Beratung | 2014 | established (verifiziert 260712) |
 | `sia-112-2014.md` | SIA 112 Modell Bauplanung | 2014 | established (verifiziert 260712) |
 | `sia-118-1991.md` | SIA 118 Allgemeine Bedingungen für Bauarbeiten | 1977/1991 | established (Volltext, Kennzahlen Modell-D-verifiziert 260712) |
-| `sia-142-2009.md` | SIA 142 Ordnung Architektur-/Ingenieurwettbewerbe | 2009 | destilliert (Original vollständig gelesen 260712) |
-| `sia-143-2009.md` | SIA 143 Ordnung Architektur-/Ingenieurstudienaufträge | 2009 | destilliert (Original vollständig gelesen 260712) |
-| `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | destilliert (Textlayer vollständig gelesen 260712) |
+| `sia-142-2009.md` | SIA 142 Ordnung Architektur-/Ingenieurwettbewerbe | 2009 | established (verifiziert 260714, 0 Fehler, Art. 29.2-29.3 + Genehmigung ergaenzt) |
+| `sia-143-2009.md` | SIA 143 Ordnung Architektur-/Ingenieurstudienaufträge | 2009 | established (verifiziert 260714, 0 Fehler, Genehmigung ergaenzt) |
+| `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt) |
 | `sia-416-2003.md` | SIA 416 Flächen und Volumen von Gebäuden | 2003 | established (verifiziert 260712) |
 | `sia-421-2006.md` | SIA 421 Raumplanung – Nutzungsziffern (GFZ/AZ/BMZ/ÜZ/GZ) | 2006 | established, verifiziert 260714 (Run 10) |
 | `sia-d0165-2000-kennzahlen-immobilienmanagement.md` | SIA D 0165 Kennzahlen im Immobilienmanagement (SIA/SVIT) | Juli 2000 | Teil-Destillat (nur 5-S.-Fragment S.14-17 gelesen; Vollversion 73 S. in xalt offen) |
@@ -108,11 +108,11 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `din-1946-7-2009.md` | DIN 1946-7 Raumlufttechnik, RLT-Anlagen in Laboratorien | 2009-07 | established (verifiziert 260714 Mini-Run 19, Ziff.5.2/5.3.7/Geltungsbereich ergaenzt; Q&A-Selbstbefragung Mini-Run 24, 260714: 20 Fragen, 0 Fehler, 14 Ergänzungen — Abgrenzung zu DIN 1946-4 für Healthcare-Projekte ohne Labor präzisiert) |
 | `din-18560-2-2009.md` | DIN 18560-2 Estriche, schwimmende Estriche/Heizestriche | 2009-09 | established (verifiziert 260714, Ziff. 4.1/5.2/6.3.3.2 praezisiert) |
 | `sia-100-2004.md` | SIA 100 Statuten des SIA | 2004 (Grundfassung 1999) | established (verifiziert 260714, Volltextabgleich; Art.15 lit.b ergaenzt) |
-| `sia-102-2014.md` | SIA 102 Leistungen + Honorare Architekten | 2014 | destilliert (— ersetzt durch 2020) |
+| `sia-102-2014.md` | SIA 102 Leistungen + Honorare Architekten | 2014 | established (verifiziert 260714, 1 Fehler korrigiert; — ersetzt durch 2020) |
 | `sia-104-2003.md` | SIA 104 Leistungen + Honorare Bauleitung | 2003 | established (verifiziert 260713) |
 | `sia-108-2014.md` | SIA 108 Leistungen + Honorare Übergangslösung | 2014 (gültig ab 2018) | established (verifiziert 260714, Volltextabgleich; mehrere komplett fehlende Artikel ergaenzt: 1.7.21/.22, 1.9.3, 1.10.2/.4, 1.11/1.12, 3.5/3.6, 5.5/5.6/5.9/5.10/5.11) |
 | `sia-110-2003.md` | SIA 110 Allgemeine Bestimmungen über Leistungen und Honorare | 2003 | established (verifiziert 260713) |
-| `sia-111-2003.md` | SIA 111 Modell Planung und Beratung | 2003 (— ersetzt durch 2014) | destilliert |
+| `sia-111-2003.md` | SIA 111 Modell Planung und Beratung | 2003 (— ersetzt durch 2014) | established (verifiziert 260714, 2 Fehler korrigiert) |
 | `vkf-brl-10-15-begriffe-definitionen.md` | VKF-BRL 10-15 Begriffe und Definitionen | 2015 | established |
 | `vkf-brl-100-15-brandmauern.md` | VKF-Brandschutzerläuterung 100-15 Brandmauern | 2015 | established (verifiziert 260713; Duplikat `vkf-brl-brandmauern-100-15.md` gemerged und gelöscht 260713) |
 | `vkf-brl-11-15-qualitaetssicherung-brandschutz.md` | VKF-BRL 11-15 Qualitätssicherung im Brandschutz | 2015 | established (verifiziert) 260714 |

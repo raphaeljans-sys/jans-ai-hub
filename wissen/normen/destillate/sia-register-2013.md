@@ -7,8 +7,8 @@ ersetzt_durch: laufende SIA-Rückzugslisten (Web-Shop, nach 2013 nicht im Bestan
 ersetzt: —
 gelesen: 43/43 Seiten (Textextraktion, alle Sprachen d/f/i/e; ausgewertet nur d)
 datenstand: 25.02.2013
-status: destilliert
-last_updated: 2026-07-11
+status: established (verifiziert 260714, Stichprobe von 13 Normen-Nummern gegen Original)
+last_updated: 2026-07-14
 ---
 
 # SIA Rückzugs-/Ersatz-Register — «Ersetzte Normen» (Stand 25.02.2013)
@@ -56,3 +56,11 @@ Struktur je Eintrag: Kopfzeile `SIA Nr:Jahr | Sprache | gültig ab | Rückzug`, 
 
 - Datenstand nur bis 25.02.2013 → Aktualität nach 2013 ist eine Bring-Schuld (SIA-Shop-Abgleich
   auf Zuruf). Siehe `wiki/QUESTIONS.md`.
+
+## Retro-Verifikation (260714)
+
+Stichprobe von 13 Normen-Nummern (102, 103, 105, 108, 111, 112, 118, 142, 143, 262/263, 400,
+416, 451) gegen das Original-PDF (alle 43/43 Seiten erneut gelesen) geprüft: Gültig-ab-/
+Rückzugsdaten und Ersatz-Ketten stimmen durchgängig. Ein Nachtrag in `wiki/REGISTER.md`
+korrigiert: die Basisnorm **SIA 416** (2003, Ersatz für SIA 416:1993 + SIA 116:1952) fehlte
+dort als eigene Zeile in Abschnitt A (nur die Teilnorm 416/1 war gelistet) — ergänzt.

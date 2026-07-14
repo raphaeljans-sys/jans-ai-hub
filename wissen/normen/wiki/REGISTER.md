@@ -222,6 +222,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 400 | 2000 | 2000✓ · 1985✗ | Bestand 2000 = gueltig 2013 ✓ |
 | SIA 405 | 2012 | 2012✓ · 1998✗ | Bestand 1998 → **veraltet** (2013 gueltig: 2012) |
 | SIA 414 | 1980 | 1980✓ | Bestand 1980 = gueltig 2013 ✓ |
+| SIA 416 | 2003 | 2003✓ | gilt (Ersatz für SIA 416:1993 + SIA 116:1952, siehe Abschnitt B); Bestand-Abgleich siehe Run-2-Präzisierungen unten ("SIA 416 \| 2003 \| SIA 416:1993 + SIA 116:1952 \| gilt") |
 | SIA 416/1 | 2007 | 2007✓ |  |
 | SIA 421 | 2006 | 2006✓ · 2004✗ | Bestand 2006 = gueltig 2013 ✓ |
 | SIA 422 | 2009 | 2009✓ |  |

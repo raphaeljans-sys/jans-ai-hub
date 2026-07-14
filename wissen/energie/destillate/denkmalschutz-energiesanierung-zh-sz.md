@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (Amt für Raumentwicklung ARE, Fachstelle Archäolog
 ausgabe: Web-Recherche, amtliche Kantons-/Bundes-/Stadt-Webseiten und Medienmitteilungen
 gelesen: 2026-07-14 (Run 67)
 datenstand: 2026-07-14 (Web-Recherche; PBG-Revision ZH per 02.07.2026 noch nicht in Kraft, DSG/DSV SZ seit 1.10.2024 in Kraft)
-status: emerging (Grundstruktur ZH/SZ/Bund amtlich belegt über Medienmitteilungen/Übersichtsseiten; mehrere Gesetzestexte selbst wegen Bildkompression der PDFs nicht wörtlich am Original verifiziert — siehe Offene Punkte)
-last_updated: 2026-07-14 (Run 67)
+status: established (Grundstruktur amtlich belegt; SZ-Beitragswiderspruch und ZH-Erleichterungsklausel per Nachrecherche 2026-07-14 primärquellen-verifiziert — siehe Ergänzung)
+last_updated: 2026-07-14 (nachintegrierte Klärung)
 ---
 
 # Denkmalschutz/Ortsbildschutz (ISOS) und energetische Sanierung — Kt. ZH und Kt. SZ
@@ -29,12 +29,18 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
   vereinfachung); Unterschutzstellung soll primär über partnerschaftliche verwaltungsrechtliche
   Verträge statt hoheitlicher Verfügung erfolgen. **Für laufende Projekte gilt bis zur Verabschiedung
   weiterhin das bisherige Recht.**
-- **Energiegesetz-Erleichterung (nicht wörtlich am Originaltext verifiziert):** Für Umbauten/
-  Sanierungen an wertvollen (denkmalgeschützten) Bauten oder aus bauphysikalischen Gründen kann die
-  Baubehörde die Energieanforderungen angemessen reduzieren, wenn eine volle Einhaltung nur mit
-  unverhältnismässigem Aufwand oder gar nicht erreichbar wäre — Aussage aus Suchresultat-
-  Zusammenfassungen zu zh.ch, keine exakte Paragraphennummer verifizierbar (PDF technisch nicht
-  auslesbar).
+- **Energiegesetz-Erleichterung (primärquellen-verifiziert):** Die Klausel steht nicht direkt im
+  EnerG, sondern in den **Wärmedämmvorschriften (WDV) der Baudirektion, LS 700.211, vom 08.06.2022**
+  (in Kraft seit 01.09.2022), delegiert aus **§ 17a EnerG**. **§ 2 Abs. 5 WDV** (Wortlaut): «Die
+  örtliche Baubehörde kann bei besonderen Verhältnissen die Anforderungen an Umbauten und
+  Umnutzungen angemessen herabsetzen, namentlich wenn bei schützenswerten Bauten oder aus
+  bauphysikalischen Gründen die volle Einhaltung der System- oder Einzelanforderungen nur mit
+  unverhältnismässigem Aufwand oder überhaupt nicht erreicht werden könnte.» Zusätzlich
+  **§ 1 Abs. 3 WDV** für Anbauten/Aufstockungen/neubauartige Umbauten. Gemäss Vollzugsordner Energie
+  Kanton Zürich sind dies **keine Ausnahmebewilligungen nach § 220 PBG**, sondern normale
+  WDV-Anwendung — § 220-PBG-Ausnahmegesuche greifen nur ohne denkmalpflegerische/bauphysikalische
+  Begründung. Offen bleibt, ob BBV I §§ 16/47a (worauf sich die WDV mitstützt) zusätzliche Klauseln
+  enthält (nicht durchsucht).
 - **Verfahren:** Bei Objekten im Inventar/mit Schutzentscheid ist die kantonale Denkmalpflege zwingend
   einzubeziehen; auch Bauvorhaben **innerhalb eines schützenswerten Ortsbild-Perimeters von
   überkommunaler Bedeutung** brauchen eine kantonale Genehmigung, selbst wenn das einzelne Gebäude
@@ -77,11 +83,16 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
   Befristungen) — vorher nur Empfehlungen; das stärkt die Verbindlichkeit erheblich. Gleichzeitig wird
   die zwingende Konsultation bei Ortsbildschutz-Fragen im Baubewilligungsverfahren auf Gebiete mit
   **höchstem Erhaltungsziel gemäss ISOS** eingeschränkt.
-- **Beitragssystem (Widerspruch nicht aufgelöst):** eine Quelle nennt gestaffelte Kantonsbeiträge
-  30 %/35 %/40 % (lokal/regional/national) plus Schutzziel-Zuschläge 15 %/10 %/5 %; eine andere Quelle
-  nennt einen Basissatz von 25 % — **die Diskrepanz konnte nicht aufgelöst werden**, sollte direkt
-  beim Amt für Kultur SZ nachgefragt werden. Finanzierung neu aus dem ordentlichen Staatshaushalt
-  (statt Lotteriefonds), ca. CHF 3,4 Mio./Jahr budgetiert.
+- **Beitragssystem (Widerspruch aufgelöst, primärquellen-verifiziert):** Seit 1.10.2024 gilt
+  **§ 16a DSG**: **Grundbeitrag 25 %** für ALLE Schutzobjekte des Kantonalen Schutzinventars, PLUS
+  Zusatzbeitrag je Schutzziel (§ 5 DSV) — Schutzziel I +15 % (total 40 %), II +10 % (total 35 %),
+  III +5 % (total 30 %). Die 30/35/40-%-Bandbreite hängt seither NICHT mehr an lokal/regional/
+  national — das ist nur noch für separate Bundesbeiträge relevant (national +20 %, regional +15 %,
+  lokal +0 %, addiert zur kantonalen Leistung). Beide ursprünglich gefundenen Zahlen (25 % und
+  30/35/40 %) waren korrekt, beschrieben aber unterschiedliche Bausteine derselben Formel. Quelle:
+  RRB Nr. 70/2024 (30.01.2024, im Volltext gelesen), Kantonsrat-Verabschiedung 20.03.2024 (91:2).
+  Finanzierung neu aus dem ordentlichen Staatshaushalt (statt Lotteriefonds), ca. CHF 3,4 Mio./Jahr
+  budgetiert.
 - **Energieseitige U-Wert-Erleichterung (nicht wörtlich verifiziert):** Für geschützte Bauten sollen
   Erleichterungen der U-Wert-Anforderungen gewährt werden können, Gesuch an die Denkmalpflege — Aussage
   aus Vollzugsdokumenten-Snippets, exakter kEnG-/kEnV-Artikel nicht am Original verifizierbar
@@ -147,12 +158,9 @@ CHF 10'000 Förderbeitrag ein GEAK Plus (Pflicht) eingeplant ist.
 
 ## Offene Punkte
 
-- Exakter Wortlaut der EnerG-ZH-Erleichterungsklausel für Baudenkmäler (Paragraphennummer) — PDF
-  technisch nicht auslesbar (Bildkompression); für ein rechtsverbindliches Dokument Original-PDF lokal
-  per OCR prüfen oder Rechtsdienst zhlex@sk.zh.ch kontaktieren.
 - Exakter Artikel des SZ-kEnG/kEnV zur U-Wert-Erleichterung für geschützte Bauten nicht wörtlich
   verifiziert.
-- Widerspruch SZ-Denkmalpflegebeiträge: 25 % Basissatz vs. 30/35/40 % gestaffelt — nicht aufgelöst.
+- Ob BBV I §§ 16/47a Kt. ZH zusätzliche, über die WDV hinausgehende Klauseln enthält, nicht geprüft.
 - Kein spezifischer kantonaler Energie-Zuschlag im ZH-Denkmalpflegefonds bestätigt (nur Stadt-Zürich-
   Programm belegt).
 - Kein ZH/SZ-amtliches Kastenfenster-Merkblatt mit auslesbarem Volltext gefunden (nur Existenz der

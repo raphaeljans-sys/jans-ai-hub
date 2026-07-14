@@ -7,8 +7,8 @@ ersetzt_durch: aktuelle SIA-Verlagsverzeichnisse; für Gültigkeit durch ersetzt
 ersetzt: —
 gelesen: 32/32 Seiten (Textextraktion)
 datenstand: ~2002 (Preise CHF, «ab 1. März 2002»; Editionen max. 2001/2002)
-status: destilliert (nur Übersicht — historisch)
-last_updated: 2026-07-11
+status: established (verifiziert 260714, Volltextabgleich)
+last_updated: 2026-07-14
 ---
 
 # SIA Gesamtverzeichnis — Produkt-/Preiskatalog (~2002)
@@ -18,7 +18,7 @@ last_updated: 2026-07-11
 Diese Datei ist **kein Gültigkeitsregister**, sondern ein SIA-Verlags-/Preiskatalog aus
 ~2001/2002 (Preise in CHF, «ab 1. März 2002», alte Zürcher Telefonnummern, jüngste
 gelistete Editionen 2001/2002). Sie führt Titel und Kategorie je Publikation —
-**O** = Ordnung, **N** = Norm, **E** = Empfehlung — plus Abo-/Bezugsinfos. Für die
+**O** = Ordnung, **N** = Norm, **E** = Empfehlung, **R** = Richtlinie — plus Abo-/Bezugsinfos. Für die
 Gültigkeitsfrage ist sie durch das jüngere `ersetzte_normen.pdf` (Stand 25.02.2013)
 **überholt**; sie liefert nur historische Titel-/Kategorie-Zuordnung.
 

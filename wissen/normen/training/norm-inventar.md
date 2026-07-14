@@ -10,11 +10,11 @@
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
 | [x] 260714 | P1 | `102.2020.pdf` | 102 | 2020 | gilt (jüngste im Bestand); established, verifiziert 260714 (71 Aussagen in 3 Sektionen, Art.5 komplett + Art.4.3/4.4/4.53/4.6 ergaenzt, keine Fehler); sia-102-2020.md |
-| [x] 260713 | P1 | `102_2014.pdf` | 102 | 2014 | — ersetzt durch 2020; Reconcile 260713: sia-102-2014.md |
+| [x] 260714 | P1 | `102_2014.pdf` | 102 | 2014 | — ersetzt durch 2020; established (verifiziert 260714, 1 Fehler korrigiert Baukategorien Altersheime, Tabelle S.45-48 ergaenzt); sia-102-2014.md |
 | [x] 260712 | P1 | `103_2003_d.pdf` | 103 | 2003 |  |
 | [x] 260712 | P1 | `105.2020.pdf` | 105 | 2020 |  |
 | [x] 260712 | P1 | `111.2014.pdf` | 111 | 2014 | gilt (jüngste im Bestand) |
-| [x] 260713 | P1 | `111_2003_d.pdf` | 111 | 2003 | — ersetzt durch 2014; Reconcile 260713: sia-111-2003.md |
+| [x] 260714 | P1 | `111_2003_d.pdf` | 111 | 2003 | — ersetzt durch 2014; established (verifiziert 260714, 2 Fehler korrigiert Gesamtleitungskatalog/Kuendigungszuschlag); sia-111-2003.md |
 | [x] 260712 | P1 | `112.2014.pdf` | 112 | 2014 |  |
 | [x] 260712 | P1 | `118_1991_d.pdf` | 118 | 1991 | Volltext-Destillat (75 S. Textlayer), alle Kennzahlen Modell-D-verifiziert (run4) |
 | [x] 260712 | P1 | `416_2003_dfi.pdf` | 416 | 2003 |  |
@@ -27,8 +27,8 @@
 | [x] 260713 | P2 | `121_2003_d.pdf` | 121 | 2003 | Teil-Destillat (Formularblaetter S.18-22 nicht im Detail); verifiziert 260713, 1 Fehler korrigiert (Ziff. 3.7); sia-121-2003.md |
 | [x] 260713 | P2 | `125_2017.pdf` | 125 | 2017 | established, verifiziert 260713; sia-125-2017.md |
 | — | — | `142_1998_d.pdf` | 142 | 1998 | ersetzt durch 142:2009 (destilliert sia-142-2009.md); Altausgabe uebersprungen |
-| [x] 260712 | P2 | `142_2009.pdf` | 142 | 2009 | gilt (jüngste im Bestand)  bereits destilliert (sia-142-2009.md), Inventar nachgezogen |
-| [x] 260712 | P2 | `143_2009.pdf` | 143 | 2009 |   bereits destilliert (sia-143-2009.md), Inventar nachgezogen |
+| [x] 260714 | P2 | `142_2009.pdf` | 142 | 2009 | gilt (jüngste im Bestand); established (verifiziert 260714, 0 Fehler, Art. 29.2-29.3 + Genehmigung ergaenzt); sia-142-2009.md |
+| [x] 260714 | P2 | `143_2009.pdf` | 143 | 2009 | established (verifiziert 260714, 0 Fehler, Genehmigung ergaenzt); sia-143-2009.md |
 | [x] 260713 | P2 | `144_2013.pdf` | 144 | 2013 | established, verifiziert 260713; sia-144-2013.md |
 | [x] 260713 | P2 | `150_2018.pdf` | 150 | 2018 | established, verifiziert 260713; sia-150-2018.md |
 | [x] 260713 | P2 | `162.051_2000_d.pdf` | 162 | 2000 | established (Retro-Verifikation Run5, SN EN 206-1 Beton; beanstandet-korrigiert Std.beton-Fundstelle); sia-162-051-2000.md |
@@ -93,7 +93,7 @@
 | [x] 260713 | P2 | `382 1-2014.pdf` | 382 | 2014 | teil-destillat (Run5, Lueftung/Klima Kern S.1-63; beanst.-korr. Ziff.); sia-382-1-2014.md |
 | — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
 | [x] 260713 | P2 | `384.201_2017.pdf` | 384 | 2017 | teil-destillat (Run5, SN EN 12831-1:2017 Heizlast Kap.1-6; beanst.-korr. Gl.17); sia-384-201-2017.md |
-| [x] 260712 | P2 | `400_2000_d.pdf` | 400 | 2000 | destilliert (sia-400-2000.md), Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
+| [x] 260714 | P2 | `400_2000_d.pdf` | 400 | 2000 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt); sia-400-2000.md, Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [x] 260713 | P2 | `405_1998_d.pdf` | 405 | 1998 | teil-destillat (Run5, Leitungskataster GIS, Kern verifiziert); sia-405-1998.md |
 | [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |
 | [x] 260714 | P2 | `421_2006_d.pdf` | 421 | 2006 | established, verifiziert 260714 (Volltextabgleich Run 10, 3 Definitionsluecken ergaenzt, keine Fehler); sia-421-2006.md |
@@ -405,8 +405,8 @@
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [x] 260711 | P2 | `Gesamtverzeichnis SIA.pdf` |  |  | Produkt-/Preiskatalog ~2002 → `sia-gesamtverzeichnis-2002.md` |
-| [x] 260711 | — | `ersetzte_normen.pdf` |  |  | Gültigkeitsregister Stand 25.02.2013 → `sia-register-2013.md` + `wiki/REGISTER.md` |
+| [x] 260714 | P2 | `Gesamtverzeichnis SIA.pdf` |  |  | Produkt-/Preiskatalog ~2002; established (verifiziert 260714, 0 Fehler) → `sia-gesamtverzeichnis-2002.md` |
+| [x] 260714 | — | `ersetzte_normen.pdf` |  |  | Gültigkeitsregister Stand 25.02.2013; established (verifiziert 260714, Stichprobe 13 Normen, 1 Fehler in REGISTER.md korrigiert) → `sia-register-2013.md` + `wiki/REGISTER.md` |
 
 ## VKF (49 Dateien)
 
