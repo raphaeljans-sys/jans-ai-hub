@@ -2,8 +2,10 @@
 title: Baureife & Erschliessung — Kanton Zürich
 status: established
 last_updated: 2026-07-14
-sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 160a PBG", "§ 160b PBG", "§ 81 PBG", "§ 129 PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md, 03-quartierplan-landumlegung-teil2.md]
+sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 160a PBG", "§ 160b PBG", "§ 81 PBG", "§ 129 PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md, 03-quartierplan-landumlegung-teil2.md, 260714_amtlich_ch_rpg-erschliessung.md, 260714_amtlich_ch_weg.md]
 links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
+verifiziert:
+  - "2026-07-14 (Modell-D Art. 19/22/27 RPG + WEG-Klaerung, Buch-Run 44, gegen neu beschafften Fedlex-Volltext) — Art. 19 Abs. 1/3 RPG und Art. 22 Abs. 2 lit. b RPG CONFIRMED wortgetreu; Art. 19 Abs. 2 RPG KORRIGIERT (enthaelt keine feste 15-Jahres-Frist, diese stammt aus Art. 5 Abs. 1 WEG nur fuer Wohnbauland); Art. 27 RPG CONFIRMED (5 Jahre Bundesmaximum, PBG § 346 konkretisiert kantonal mit 3+2 Jahren, nicht wortgleich aber deckungsgleich); Art. 4 Abs. 1/2 WEG und Art. 5 Abs. 1 WEG CONFIRMED wortgetreu; WEG-Abkuerzung geklaert als Bundesgesetz ueber die Wohnbau- und Eigentumsfoerderung SR 843, keine Verwechslung mit kant. WWG"
 ---
 
 # Baureife & Erschliessung
@@ -79,7 +81,9 @@ Anhang-ZN-Tabelle (Bd 2, S. 726) Fahrbahnbreite, Kurvenradius und lichte Höhe:
   entwicklung, Tempo-30-/Begegnungszonen u.a. (nicht abschliessend); zusätzlich «wichtige Gründe»
   nach § 360 Abs. 3 PBG am Massstab des § 237 PBG (VB.2015.00010). **Letzte Baulücke:** Abweichen aus
   Rechtsgleichheit/Verhältnismässigkeit zulässig (VB.2005.00261). Kein Bonus für Abbruch+Neubau
-  (Art. 22 Abs. 2 lit. b RPG; VB.2005.00379).
+  (**Art. 22 Abs. 2 lit. b RPG, CONFIRMED 2026-07-14** gegen den amtlichen Fedlex-Wortlaut: «Voraussetzung
+  einer Bewilligung ist, dass: … b. das Land erschlossen ist.» — die Erschliessungspflicht knüpft an
+  jede Baubewilligung, unabhängig davon, ob ein Vorgängerbau abgebrochen wurde; VB.2005.00379).
 - **Einkaufszentren ab 2000 m² Verkaufsfläche** in Wohnzonen nur über mind. Sammelstrassen
   (§ 12 Abs. 1 BBV II).
 
@@ -108,25 +112,45 @@ Nutzungsart einhaltbar) sind; für kleine Bauzonenteile sind Ausnahmen möglich 
 Grundlage aus [[03-erschliessung-landsicherung-teil1]] (Bd 1, Kap. 3, S. 208-239). Erschliessung
 ist die Grundvoraussetzung der Überbaubarkeit; ein Grundstück gilt als erschlossen, wenn
 hinreichende Zufahrt besteht und Wasser-/Energie-/Abwasserleitungen so nahe herangeführt sind,
-dass ein Anschluss ohne erheblichen Aufwand möglich ist (Art. 19 Abs. 1 RPG; BGE 117 Ib 314,
-S. 208).
+dass ein Anschluss ohne erheblichen Aufwand möglich ist (**Art. 19 Abs. 1 RPG, CONFIRMED
+2026-07-14 gegen den amtlichen Fedlex-Wortlaut** [Stand 1.4.2026]: «Land ist erschlossen, wenn die
+für die betreffende Nutzung hinreichende Zufahrt besteht und die erforderlichen Wasser-, Energie-
+sowie Abwasserleitungen so nahe heranführen, dass ein Anschluss ohne erheblichen Aufwand möglich
+ist.»; BGE 117 Ib 314, S. 208).
 
 **Drei Erschliessungsebenen mit klarer Kostenträgerschaft** (RB 2004 Nr. 58, S. 208 f.):
 - **Grunderschliessung:** übergeordnete Anlagen (Sammelstrassen, Wasser/Energie/Abwasser) eines
   grösseren Gebiets — rechtlich wie die Groberschliessung behandelt.
-- **Groberschliessung** (Art. 4 Abs. 1 WEG): Hauptstränge (Wasser/Energie/Abwasser) + zubringende
+- **Groberschliessung** (**Art. 4 Abs. 1 WEG, CONFIRMED 2026-07-14** gegen den amtlichen Fedlex-
+  Wortlaut [SR 843, Stand 1.1.2013]: «Unter Groberschliessung wird die Versorgung eines zu
+  überbauenden Gebiets mit den Hauptsträngen der Erschliessungsanlagen verstanden, namentlich
+  Wasser-, Energieversorgungs- und Abwasserleitungen sowie Strassen und Wege, die unmittelbar dem
+  zu erschliessenden Gebiet dienen.»): Hauptstränge (Wasser/Energie/Abwasser) + zubringende
   Strassen; **Sache der Gemeinde** (Erschliessungsplan §§ 90-95 PBG / StrG).
-- **Feinerschliessung** (Art. 4 Abs. 2 WEG): Anschluss der einzelnen Grundstücke an die
-  Hauptstränge (Quartierstrassen/-leitungen) — **Sache der Privaten** (Quartierplan §§ 125 ff.
-  PBG). **Hausanschlüsse/-zufahrten** gehören zu **keiner** der beiden Ebenen.
+- **Feinerschliessung** (**Art. 4 Abs. 2 WEG, CONFIRMED 2026-07-14**: «Die Feinerschliessung umfasst
+  den Anschluss der einzelnen Grundstücke an die Hauptstränge der Erschliessungsanlagen mit
+  Einschluss von öffentlich zugänglichen Quartierstrassen und öffentlichen Leitungen.»): Anschluss
+  der einzelnen Grundstücke an die Hauptstränge (Quartierstrassen/-leitungen) — **Sache der
+  Privaten** (Quartierplan §§ 125 ff. PBG). **Hausanschlüsse/-zufahrten** gehören zu **keiner** der
+  beiden Ebenen.
 
-**Erschliessungspflicht der Gemeinde (fristgebunden):** die Gemeinde muss Bauzonen innert der im
-Erschliessungsprogramm vorgesehenen Fristen, spätestens **innert 15 Jahren** erschliessen
-(Art. 19 Abs. 2 RPG; für Wohnbauland ergibt sich aus Art. 5 WEG die Grob-/Feinerschliessung in
-Etappen innert **10-15 Jahren**, S. 209). Kommt sie in Verzug, hat der Grundeigentümer Anspruch
-auf **Selbsterschliessung** oder **Bevorschussung** durch die Gemeinde (Art. 19 Abs. 3 RPG;
-VB.2010.00560, S. 209). Wird ein Art.-15-RPG-konformes Gebiet nur deshalb ausgezont, weil die
-Gemeinde nicht rechtzeitig erschliesst, ist die Auszonung unzulässig (BGE 110 Ia 51, S. 209).
+**Erschliessungspflicht der Gemeinde (fristgebunden):** **KORRIGIERT 2026-07-14 (Modell-D-Abgleich
+gegen den amtlichen Fedlex-Wortlaut):** Art. 19 Abs. 2 RPG selbst nennt **keine feste 15-Jahres-Frist**
+— der amtliche Wortlaut lautet: «Das Gemeinwesen hat die Bauzonen innerhalb der im
+Erschliessungsprogramm vorgesehenen Frist zu erschliessen; es kann die Erschliessung bei Bedarf
+etappieren. Das kantonale Recht regelt die Beiträge der Grundeigentümer.» Die Frist ergibt sich erst
+aus dem **kommunalen/kantonalen Erschliessungsprogramm** (im PBG: § 91 PBG); die konkrete
+**10-15-Jahres-Etappierung ist eine WEG-Vorgabe, nicht RPG-Vorgabe**, und gilt ausdrücklich nur für
+**dem Wohnungsbau dienende Bauzonen** (Art. 5 Abs. 1 WEG, amtlicher Wortlaut: «Die Grob- und
+Feinerschliessung der für den Wohnungsbau bestimmten Bauzonen ist entsprechend dem Bedarf in
+angemessenen Etappen innerhalb von 10 bis 15 Jahren durchzuführen», S. 209). Kommt die Gemeinde in
+Verzug, hat der Grundeigentümer Anspruch auf **Selbsterschliessung** oder **Bevorschussung** durch
+die Gemeinde (Art. 19 Abs. 3 RPG, amtlicher Wortlaut CONFIRMED: «Erschliesst das Gemeinwesen
+Bauzonen nicht fristgerecht, so ist den Grundeigentümern zu gestatten, ihr Land nach den vom
+Gemeinwesen genehmigten Plänen selber zu erschliessen oder die Erschliessung durch das Gemeinwesen
+nach den Bestimmungen des kantonalen Rechts zu bevorschussen»; VB.2010.00560, S. 209). Wird ein
+Art.-15-RPG-konformes Gebiet nur deshalb ausgezont, weil die Gemeinde nicht rechtzeitig erschliesst,
+ist die Auszonung unzulässig (BGE 110 Ia 51, S. 209).
 
 ## Landsicherung für öffentliche Werke (Kap. 3)
 
@@ -286,8 +310,15 @@ beteiligten Grundeigentümer («Quartierplangenossen»).
   erlassene Festlegung wegen Rechtsmitteln noch nicht in Kraft gesetzt werden kann** (amtlicher
   Wortlaut). Die Bausperre darf zudem nicht weiter gehen, als der Planungszweck verlangt.
 - **Abgrenzungen / Spezialnormen:** Quartierplanbann (§ 150 PBG, weitergehend) · Verkehrsbaulinien
-  (§ 264 PBG) · **Planungszone** (§ 346 PBG: längstens 3 J., + 2 J. verlängerbar; entspricht
-  Art. 27 RPG) · Landsicherung (vorsorgliches Bauverbot § 120 PBG, Projektierungszonen, Werkplan).
+  (§ 264 PBG) · **Planungszone** (§ 346 PBG: längstens 3 J., + 2 J. verlängerbar; ist das kantonale
+  Pendant zum Bundesinstitut **Art. 27 RPG, CONFIRMED 2026-07-14** gegen den amtlichen Fedlex-Wortlaut:
+  «1 Müssen Nutzungspläne angepasst werden oder liegen noch keine vor, so kann die zuständige Behörde
+  für genau bezeichnete Gebiete Planungszonen bestimmen. Innerhalb der Planungszonen darf nichts
+  unternommen werden, was die Nutzungsplanung erschweren könnte. 2 Planungszonen dürfen für
+  längstens fünf Jahre bestimmt werden; das kantonale Recht kann eine Verlängerung vorsehen.» —
+  **Präzisierung:** die Bundesrechts-Höchstfrist beträgt fünf Jahre, das PBG schöpft sie mit
+  «3 + 2 Jahre» voll aus, aber die Fristen sind nicht identisch benannt, nur im Ergebnis
+  deckungsgleich) · Landsicherung (vorsorgliches Bauverbot § 120 PBG, Projektierungszonen, Werkplan).
 
 ## JANS-Anwendung
 

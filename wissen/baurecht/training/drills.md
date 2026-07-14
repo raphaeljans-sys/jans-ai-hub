@@ -1447,3 +1447,45 @@ Verifikations-Vermerk versehen (Frontmatter trug bisher gar kein `verifiziert`-F
 Fundstellen-Divergenzen bereinigt: `wiki/INDEX.md` (NISV-AGW «Art. 6 Abs. 3» → «Art. 3 Abs. 6», Zeile
 war vom Run-39-Fix im separaten `buecher/INDEX.md` nicht mit-erfasst) und ein Drill-Karte in
 `training/drills.md` (dieselbe Fundstelle).
+
+## Buch-Run 44 (2026-07-14) — VRG-Rechtsschutz / § 238a PBG / Quartierplan / RPG-WEG
+
+### Modell D — Gegenprobe/Adversarial
+
+- **F:** Regelt § 26b Abs. 4 VRG ein Replikrecht der Rekurrentin nach Zustellung der Vernehmlassungen?
+  — **A:** **Nein.** Der Wortlaut ordnet nur die **Zustellung der Vernehmlassungen an die übrigen
+  Verfahrensbeteiligten** an; ein kodifiziertes Replikrecht kennt § 26b VRG nicht. Das Replikrecht
+  ist **Praxis aus Art. 29 Abs. 2 BV** (rechtliches Gehör, BGE 132 I 42 E. 3.3). Beleg:
+  raw/260714_amtlich_zh_vrg_rechtsschutz2.md. _[2026-07-14]_
+- **F:** Steht «Zivilgericht» im Wortlaut von § 339b PBG (Schadenersatz bei rechtsmissbräuchlichem
+  Rechtsmittel)? — **A:** **Nein.** § 339b PBG allein verweist nur auf «das jeweilige Verfahrensrecht»;
+  dass der Weg ans **Zivilgericht** führt, ergibt sich erst aus **§ 317 PBG** in Kombination. Beleg:
+  raw/260607_amtlich_zh_pbg.md Z. 3263-3264/3606-3607. _[2026-07-14]_
+- **F:** Wo im PBG ZH ist die Vorgärten-/Begrünungspflicht seit dem 1.12.2024 geregelt, und was stand
+  vorher an dieser Stelle? — **A:** **§ 238a PBG** («Begrünung im Besonderen») — Vorgärten und andere
+  geeignete Teile des Gebäudeumschwungs sind als ökologisch wertvolle Grünflächen zu erhalten/
+  herzurichten. Vorher (bis 30.11.2024) stand dies in **§ 238 Abs. 3 PBG**; dieser Absatz ist seither
+  aufgehoben (G vom 8.4.2024). Beleg: raw/260607_amtlich_zh_pbg.md Z. 2408-2420. _[2026-07-14]_
+- **F:** Regelt § 81 PBG den «Grundsatzentscheid», ob bei einem Quartierplan ein privater
+  Gestaltungsplan oder Sonderbauvorschriften zum Zug kommen? — **A:** **Nein** — das ist **§ 129
+  Abs. 2 PBG** (spätestens an der ersten Quartierplanversammlung, sonst durch den Gemeindevorstand
+  nach Verfahrenseinleitung). § 81 PBG regelt die Rechtswirkung von Sonderbauvorschriften: kein
+  Baubewilligungszwang (Abs. 1), Kopplung an rechtlich gesicherte Gebietsüberbauung möglich (Abs. 2).
+  Beleg: raw/260607_amtlich_zh_pbg.md Z. 891-896/1344-1356. _[2026-07-14]_
+- **F:** Enthält Art. 19 Abs. 2 RPG eine feste 15-Jahres-Frist für die Erschliessung? — **A:** **Nein**
+  — der Wortlaut nennt nur «die im Erschliessungsprogramm vorgesehene Frist». Die konkrete
+  **10-15-Jahres-Etappierung** steht in **Art. 5 Abs. 1 WEG** und gilt nur für dem Wohnungsbau
+  dienende Bauzonen. Beleg: raw/260714_amtlich_ch_rpg-erschliessung.md +
+  raw/260714_amtlich_ch_weg.md. _[2026-07-14]_
+- **F:** Wofür steht «WEG» im Baurecht-Wiki, und besteht Verwechslungsgefahr mit dem WWG? — **A:**
+  «WEG» = **Bundesgesetz über die Wohnbau- und Eigentumsförderung** (SR 843), dessen 1. Kapitel
+  «Erschliessungsrecht» (Art. 4-6) heisst. Keine Verwechslung mit dem **kantonalen WWG**
+  (Wasserwirtschaftsgesetz, § 27 WWG Löschwasser) — beide Abkürzungen werden im selben Wiki-Artikel
+  korrekt getrennt verwendet. Beleg: raw/260714_amtlich_ch_weg.md. _[2026-07-14]_
+
+**Ergebnis Buch-Run 44 (4 Komplexe parallel via Agent-Tool):** VRG-Rechtsschutz (2 Korrekturen,
+[[rechtsschutz-und-rechtsmittelverfahren]] bleibt `emerging`), § 238→§ 238a-Divergenz behoben
+([[baulinien-und-abstandslinien]] + 2 Buch-Destillate + `wiki/INDEX.md`-Statuskorrektur), Quartierplan
+§ 160a/§ 160b/§ 81/§ 129 PBG unabhängig CONFIRMED (bereits durch Parallel-Instanz erledigt, keine
+Korrektur, reine Kollision ohne Schaden), Art. 19/22/27 RPG + WEG-Klärung (1 Präzisierung, 2 neue
+raw-Bundesrechtstexte via Fedlex beschafft). 3 echte Korrekturen, 0 Halluzinationen.

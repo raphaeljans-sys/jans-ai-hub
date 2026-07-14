@@ -91,6 +91,22 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 44 (2026-07-14, Modell-D — 4 Komplexe parallel via Agent-Tool: VRG-Rechtsschutz, § 238→§ 238a-
+    Divergenz, Quartierplan § 160a/81/129, RPG/WEG-Erschliessung):** VRG-Rechtsschutz (§§ 25/26/26a-d/
+    55/58/86-89 VRG + § 317/338/339/339b PBG) gegen `raw/260714_amtlich_zh_vrg_rechtsschutz2.md` +
+    `raw/260712_amtlich_zh_vrg.md` + `raw/260607_amtlich_zh_pbg.md` — 2 Praezisierungen (Replikrecht
+    § 26b VRG ist Praxis aus Art. 29 Abs. 2 BV, nicht Gesetzeswortlaut; Zivilgericht-Forum folgt aus
+    § 317 PBG, nicht aus § 339b PBG allein), [[rechtsschutz-und-rechtsmittelverfahren]] bleibt
+    `emerging`. **Wiki↔Wiki-Divergenz § 238 Abs. 3 → § 238a PBG** (Vorgaerten/Beguenung seit 1.12.2024)
+    behoben in [[baulinien-und-abstandslinien]] + 2 Buch-Destillaten + `wiki/INDEX.md`-Statuskorrektur
+    (dort faelschlich noch `emerging` trotz laengst `established`). Quartierplan § 160a/§ 160b/§ 81/
+    § 129 PBG unabhaengig CONFIRMED (Kollision mit Parallel-Instanz, die denselben Komplex am selben
+    Tag bereits erledigt hatte — kein Schaden). Art. 19/22/27 RPG + WEG-Klaerung: 2 neue
+    Bundesrechts-Volltexte via Fedlex beschafft (`raw/260714_amtlich_ch_rpg-erschliessung.md`,
+    `raw/260714_amtlich_ch_weg.md`), 1 Praezisierung (15-J-Frist steht in Art. 5 Abs. 1 WEG, nicht
+    Art. 19 Abs. 2 RPG). **3 echte Korrekturen, 0 Halluzinationen.** 6 neue Drills (Modell D). Workflow-
+    Tool bewusst nicht verwendet (kein Nutzer-Opt-in), stattdessen 4 parallele Agent-Tool-Aufrufe nach
+    dem in Run 31/36 erprobten Muster. Report `outputs/2026-07-14_buch-run44.md`.
   - **Run 43 (2026-07-14, Modell-D Gestaltungsplan §§ 83-89 + § 44a PBG, kein Agent-Fan-out —
     Kollisionsvermeidung zu einer parallel laufenden Instanz, die zeitgleich Kap. 17 Ausruestungen als
     „Run 42" bereits committet hatte):** Wiki [[raumplanung-und-gestaltung]] (bleibt `established`,

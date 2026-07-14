@@ -2,10 +2,10 @@
 name: rechtsschutz-und-rechtsmittelverfahren
 titel: Rechtsschutz & Rechtsmittelverfahren (Baurekurs bis Bundesgericht)
 status: emerging
-letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12)"
-last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32)
-sources: ["raw/260712_amtlich_zh_vrg.md", "band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md", "band-1/09-rechtsschutz.md"]
+letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12); §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG (Buch-Run 44, Modell-D, 2026-07-14)"
+last_updated: 2026-07-14
+verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32); 2026-07-14 (Modell-D §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG, Buch-Run 44, gegen raw/260714_amtlich_zh_vrg_rechtsschutz2.md + raw/260712_amtlich_zh_vrg.md + raw/260607_amtlich_zh_pbg.md) — 6/8 Aussagen CONFIRMED, 2 korrigiert (Replikrecht-Zuschreibung § 26b VRG, Nicht-Erstreckbarkeit-Zuschreibung § 26b/§ 58 VRG); § 209f PBG und § 50a VRG bleiben offen (ausserhalb des heutigen Fetch-Umfangs) — status bleibt emerging
+sources: ["raw/260712_amtlich_zh_vrg.md", "raw/260714_amtlich_zh_vrg_rechtsschutz2.md", "raw/260607_amtlich_zh_pbg.md", "band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md", "band-1/09-rechtsschutz.md"]
 backlinks: ["[[band-1/09-rechtsschutz]]", "[[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]]", "[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
 links: ["[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
 ---
@@ -50,18 +50,23 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemaess.
   (§ 22 Abs. 3 VRG). Fristende auf Samstag/Sonntag/Ruhetag → naechster Werktag (§ 11 VRG).
 - **Kein Gerichtsferien-Stillstand** im Verwaltungs-/Rekursverfahren bei Gemeindebeschluessen (§ 71 VRG) —
   eine echte Falle gegenueber dem Zivilprozess.
-- Gesetzliche Fristen nicht erstreckbar (§ 12 VRG). Rekurs-/Beschwerdeantwort 30 Tage, nicht erstreckbar
-  (§ 26b/§ 58 VRG). Fax/E-Mail wahren die Frist nicht (BGE 121 II 252, Teil 1).
+- Gesetzliche Fristen nicht erstreckbar (§ 12 Abs. 1 VRG). Rekurs-/Beschwerdeantwort (Vernehmlassung)
+  **30 Tage** (§ 26b Abs. 2 VRG; § 58 VRG verweist sinngemaess auf § 26b Abs. 2) — die Nicht-Erstreckbarkeit
+  steht nicht im Wortlaut von § 26b/§ 58 VRG selbst, sondern folgt aus § 12 Abs. 1 VRG (amtlich praezisiert
+  2026-07-14, s. Abschnitt 6c). Fax/E-Mail wahren die Frist nicht (BGE 121 II 252, Teil 1).
 
 ## 4. Ablauf des Rechtsmittelverfahrens — vier Phasen (Teil 2)
 1. **Einleitung** — Eintretenspruefung; **vorsorgliche Massnahmen**, im Zentrum die **aufschiebende Wirkung**:
    § 25 Abs. 1 VRG (Grundsatz) ↔ **§ 339 PBG** (lex specialis: Hemmung nur soweit ausgangsrelevant; Praesident
    entscheidet ueber Umfang, Teilfreigabe moeglich, BEZ 2004 Nr. 43). Natur-/Heimatschutz: keine aufsch.
    Wirkung (§ 211 Abs. 4 PBG). Bund: keine, ausser Antrag (Art. 103 BGG).
-2. **Ermittlung** — Schriftenwechsel + **Replikrecht** (§ 26b VRG; «unverzueglich» ~10 Tage); **Beiladung**
-   (ersetzt keine fehlende Legitimation, BEZ 2016 Nr. 43); **Beweisverfahren** (Urkunden, Augenschein/
-   Protokoll, Fachbericht des Baurekursgerichts § 18 Abs. 2 OV BRG statt externem Gutachten, Amtsberichte,
-   Zeugen § 26c VRG); Parteiverhandlung (oeffentliche Verhandlung Art. 6 EMRK auf Antrag).
+2. **Ermittlung** — Schriftenwechsel (Vernehmlassung § 26b Abs. 1-3 VRG, Zustellung an die uebrigen
+   Verfahrensbeteiligten § 26b Abs. 4 VRG) + **Replikrecht** (Praxis/Rechtsprechung aus Art. 29 Abs. 2 BV
+   i.V.m. der Zustellungspflicht nach § 26b Abs. 4 VRG, **kein eigener Gesetzeswortlaut** — amtlich
+   korrigiert 2026-07-14, s. Abschnitt 6c; «unverzueglich» ~10 Tage); **Beiladung** (ersetzt keine
+   fehlende Legitimation, BEZ 2016 Nr. 43); **Beweisverfahren** (Urkunden, Augenschein/Protokoll,
+   Fachbericht des Baurekursgerichts § 18 Abs. 2 OV BRG statt externem Gutachten, Amtsberichte, Zeugen
+   § 26c VRG); Parteiverhandlung (oeffentliche Verhandlung Art. 6 EMRK auf Antrag).
 3. **Entscheidung** — Abschreibung (Rueckzug/Gegenstandslosigkeit/Vergleich), Nichteintreten (formell),
    materieller Entscheid, Rueckweisung (§ 64 VRG = Zwischenentscheid); **Kosten** siehe § 5; Eroeffnung mit
    Begruendung + Dispositiv (§ 28/§ 65 VRG).
@@ -122,6 +127,56 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemaess.
   Inhalt schriftlich festhalten. § 10c VRG ist der Hebel gegen **faktisches Verwaltungshandeln**
   ohne foermliche Verfuegung (z.B. informelle behoerdliche Praxis, tatsaechliche Handlungen der
   Bauaufsicht) — dort zuerst eine Anordnung verlangen, bevor rekurriert werden kann.
+
+## 6c. Verifikations-Notiz (Buch-Run 44, Modell-D, 2026-07-14, adversarial)
+
+Gegengeprueft: `raw/260714_amtlich_zh_vrg_rechtsschutz2.md` (§§ 25, 26, 26a-d, 55, 58, 86-90 VRG,
+Stand-Fussnote «1. 7. 26 - 133»), `raw/260712_amtlich_zh_vrg.md` (§§ 8/9/10c/15/29a/30/31 VRG)
+und `raw/260607_amtlich_zh_pbg.md` (§ 317/§ 338/§ 339/§ 339b PBG).
+
+- **§ 25 Abs. 1 VRG (Zeile 28, aufschiebende Wirkung):** CONFIRMED wortwoertlich — «Dem Lauf der
+  Rekursfrist und der Einreichung des Rekurses kommt aufschiebende Wirkung zu.»
+- **§ 339 PBG (Zeile 28/129, lex specialis):** CONFIRMED wortwoertlich gegen `raw/260607_amtlich_zh_pbg.md`
+  Abs. 1: «Rechtsmittel gegen eine baurechtliche Bewilligung hindern den Baubeginn und den Baufortgang nur
+  soweit, als der Ausgang des Verfahrens die Bauausfuehrung beeinflussen kann.» Abs. 2: Praesident der
+  Rekurs-/Beschwerdeinstanz entscheidet ueber Umfang/vorsorgliche Massnahmen. Teilfreigabe-Praxis (Zeile 129)
+  dadurch gedeckt.
+- **Revision § 86a VRG (Zeile 32/86):** CONFIRMED — «Die Revision rechtskraeftiger Anordnungen ... kann
+  von den am Verfahren Beteiligten verlangt werden, wenn a. im Rahmen eines Strafverfahrens festgestellt
+  wird, dass ein Verbrechen oder ein Vergehen sie beeinflusst hat, b. diese neue erhebliche Tatsachen
+  erfahren oder Beweismittel auffinden ...». Fristen (§ 86b VRG) **90 Tage / 10 Jahre** CONFIRMED.
+- **«Replikrecht» § 26b VRG (Zeile 61, alt):** KORRIGIERT. Amtlicher Wortlaut § 26b Abs. 4 VRG lautet nur:
+  «Die Rekursinstanz stellt die Vernehmlassungen den andern Verfahrensbeteiligten zu.» Das ist eine reine
+  **Zustellungspflicht**, kein im Gesetz kodifiziertes Replikrecht. Das Replikrecht («unverzueglich»
+  ~10 Tage) ist Rechtsprechung/Praxis aus dem rechtlichen Gehoer (Art. 29 Abs. 2 BV; BGE 132 I 42 E. 3.3;
+  BGer 5D_81/2015; VB.2012.00543) i.V.m. der Zustellungspflicht — nicht direkter Gesetzeswortlaut.
+  Korrektur oben in Abschnitt 4 eingearbeitet.
+- **§ 26b/§ 58 VRG «nicht erstreckbar» (Zeile 54, alt):** PRAEZISIERT. Die 30-Tage-Frist fuer die
+  Vernehmlassung steht in § 26b Abs. 2 VRG («Die Vernehmlassungsfrist betraegt 30 Tage. In
+  Stimmrechtssachen betraegt die Frist fuenf Tage.»); § 58 VRG verweist dafuer sinngemaess auf § 26b
+  Abs. 2. Die **Nicht-Erstreckbarkeit** steht nicht im Wortlaut dieser Bestimmungen selbst, sondern folgt
+  aus § 12 Abs. 1 VRG (gesetzliche Fristen grundsaetzlich nicht erstreckbar). Korrektur oben in Abschnitt 3
+  eingearbeitet.
+- **§ 338 PBG (Zeile 71, Gerichtsgebuehr):** CONFIRMED wortwoertlich — Abs. 1 Bemessung nach Zeitaufwand/
+  Schwierigkeit/Streitwert; Abs. 2 «Die Gerichtsgebuehr betraegt in der Regel Fr. 500 bis Fr. 50 000.»
+- **§ 317 PBG + § 339b PBG (Zeile 77, Schadenersatz/Zivilgericht):** CONFIRMED im Ergebnis, Zusammenhang
+  praezisiert. § 339b PBG: «Schadenersatzansprueche wegen rechtsmissbraeuchlicher und treuwidriger
+  Erhebung eines Rechtsmittels sind nach dem **jeweiligen Verfahrensrecht** geltend zu machen» — nennt
+  selbst nicht woertlich «Zivilgericht». Das Zivilgericht als Forum ergibt sich erst aus § 317 PBG («Die
+  Wahrung anderer Ansprueche richtet sich inhaltlich nach dem Privatrecht und fuer das Verfahren nach dem
+  Zivilprozessrecht»), auf welches «jeweiliges Verfahrensrecht» in § 339b PBG verweist. Die Kombination
+  § 317/§ 339b PBG traegt die Aussage «Zivilgericht», aber nicht § 339b PBG allein.
+- **§ 87 VRG:** im Wiki-Artikel selbst nicht zitiert (nur im Destillat als «Erlaeuterung/Berichtigung»,
+  dort bereits am 2026-07-14 als WIDERLEGT/needs-verification vermerkt — § 87 VRG regelt seit 1.5.2024
+  «Wahl und Stellung der Ombudsperson»). Kein Handlungsbedarf im Wiki-Artikel.
+- **§ 209f PBG (Zeile 42, Behoerdenbeschwerde) und § 50a VRG (Zeile 44/45, akzessorische Normenkontrolle):**
+  im Volltextumfang der heute beschafften raw-Dateien NICHT enthalten (ausserhalb § 8/9/10c/15/25/26/
+  26a-d/29a/30/31/55/58/86-90 VRG bzw. § 211/317/338/339/339b PBG) — **bleibt offen**, nicht amtlich
+  gegengeprueft in diesem Lauf.
+
+**Ergebnis:** 6 von 8 im Frontmatter/Text zitierte Aussagen CONFIRMED, 2 KORRIGIERT/praezisiert
+(«Replikrecht»-Zuschreibung an § 26b VRG, «nicht erstreckbar»-Zuschreibung an § 26b/§ 58 VRG), 2 Randpunkte
+(§ 209f PBG, § 50a VRG) bleiben offen (ausserhalb des heute gegengepruefeten Paragraphen-Umfangs).
 
 ## 7. Fuer die JANS-Praxis
 - Bei unbefriedigendem Entscheid **immer parallel fristwahrend rekurrieren**, auch wenn man mit der Behoerde

@@ -4,6 +4,18 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-14 — Buch-Run 44 (Phase 3, Modell-D — 4 Komplexe parallel via Agent-Tool)
+- [korrigiert] `wiki/rechtsschutz-und-rechtsmittelverfahren.md`: «Replikrecht § 26b VRG» präzisiert (§ 26b Abs. 4 VRG regelt nur Zustellung der Vernehmlassungen, Replikrecht ist Praxis aus Art. 29 Abs. 2 BV); «Zivilgericht» als Forum präzisiert (folgt erst aus § 317 PBG i.V.m. § 339b PBG). Bleibt `emerging` (§ 209f PBG/§ 50a VRG offen).
+- [korrigiert] `wiki/baulinien-und-abstandslinien.md` + `buecher/band-2/15-lage-von-gebaeuden.md` + `buecher/band-2/15-lage-von-gebaeuden-teil2b.md` (Frontmatter): § 238 Abs. 3 PBG → **§ 238a PBG** (Vorgärten-/Begrünungspflicht, seit 1.12.2024) — Divergenz zum bereits korrekten [[naturschutz-und-denkmalschutz]] behoben, CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md` Z. 2408-2420.
+- [korrigiert] `wiki/INDEX.md`: [[baulinien-und-abstandslinien]]-Zeile von `*emerging*` auf **`*established*`** korrigiert (Frontmatter war schon länger established, INDEX war stehengeblieben) + § 238a-Hinweis ergänzt.
+- [verifiziert] Quartierplan § 160a/§ 160b/§ 81/§ 129 PBG in [[baureife-und-erschliessung]] + Destillat [[03-quartierplan-landumlegung-teil2]] unabhängig gegen `raw/260607_amtlich_zh_pbg.md` gegengeprüft — **alle CONFIRMED**, keine Korrektur (Stand war bereits am selben Tag durch eine parallele Instanz volltextverifiziert, reine Kollision ohne Schaden).
+- [ergänzt] `wiki/baureife-und-erschliessung.md`: Art. 19 Abs. 2 RPG präzisiert (keine feste 15-Jahres-Frist im RPG selbst, sondern Art. 5 Abs. 1 WEG für Wohnbauland); Art. 19 Abs. 1/3, Art. 22 Abs. 2 lit. b, Art. 27 RPG + Art. 4/5 WEG CONFIRMED. WEG-Abkürzung geklärt (Wohnbau- und Eigentumsförderungsgesetz SR 843, keine Verwechslung mit kantonalem WWG).
+- [neu] `raw/260714_amtlich_ch_rpg-erschliessung.md` (RPG SR 700, Fedlex Stand 1.4.2026), `raw/260714_amtlich_ch_weg.md` (WEG SR 843, Fedlex Stand 1.1.2013).
+- [ergänzt] `training/drills.md`: neuer Block «Buch-Run 44» — 6× Modell D aus den vier Komplexen.
+- [geklärt] `wiki/QUESTIONS.md`: Run-44-Eintrag oben eingefügt.
+- Methodik-Notiz: Workflow-Tool bewusst nicht verwendet (kein Nutzer-Opt-in in dieser Session); stattdessen 4 parallele Agent-Tool-Aufrufe, analog dem in Run 31/36 erfolgreich erprobten Muster — jeder Agent hat nur seine eigenen Ziel-Dateien editiert, Register (CHANGELOG/QUESTIONS/Drills/Tracker) wurden zentral im Hauptlauf konsolidiert, um Schreibkonflikte zu vermeiden.
+- Bericht: `outputs/2026-07-14_buch-run44.md`.
+
 ## 2026-07-14 — Buch-Run 43 (Phase 3, Modell-D Gestaltungsplan §§ 83-89 + § 44a PBG + zwei NISV-Fundstellen-Divergenzen bereinigt)
 - [verifiziert] **§§ 83-89 + § 44a PBG (Gestaltungsplan) CONFIRMED, 0 Fehler** gegen `raw/260607_amtlich_zh_pbg.md` (Z. 483-493/909-972). Wiki [[raumplanung-und-gestaltung]] bleibt `established`, erhält erstmals ein `verifiziert`-Frontmatter-Feld (trug bisher gar keins, obwohl der Artikel bereits established war).
 - [korrigiert] `wiki/INDEX.md`: NISV-AGW-Fundstelle «Art. 6 Abs. 3» → **«Art. 3 Abs. 6 NISV»** (Zeile [[laermschutz-und-nichtionisierende-strahlung]]) — der Run-39-Fix hatte nur `buecher/INDEX.md` erfasst, diese zweite Index-Datei war noch veraltet.

@@ -4,7 +4,7 @@ kapitel: 15 — Lage von Gebaeuden (Teil 2b: Baulinienabstand-Rechtswirkungen, S
 band: 2
 seiten: 1034-1061
 shots: 521-534 (Bildschirmfoto 2026-06-07 um 12.03.29 – 12.03.47)
-paragraphen: ["§ 96 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 102 PBG", "§ 103 PBG", "§ 104 PBG", "§ 105 PBG", "§ 110a PBG", "§ 234 PBG", "§ 238 Abs. 3 PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 49 Abs. 2 PBG", "§ 51 Abs. 2 PBG", "§ 33a ABV", "§ 3 StrG", "§ 1 StrAV", "§ 7 StrAV", "§ 14 StrAV", "§ 16 StrAV", "§ 108 LG", "§ 110 LG", "§ 174bis EG ZGB", "Art. 96 SSV"]
+paragraphen: ["§ 96 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 102 PBG", "§ 103 PBG", "§ 104 PBG", "§ 105 PBG", "§ 110a PBG", "§ 234 PBG", "§ 238a PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 49 Abs. 2 PBG", "§ 51 Abs. 2 PBG", "§ 33a ABV", "§ 3 StrG", "§ 1 StrAV", "§ 7 StrAV", "§ 14 StrAV", "§ 16 StrAV", "§ 108 LG", "§ 110 LG", "§ 174bis EG ZGB", "Art. 96 SSV"]
 status: emerging
 gelesen: 2026-06-14
 last_updated: 2026-06-14

@@ -4,11 +4,11 @@ kapitel: 15 — Lage von Gebaeuden (Abstaende, Baulinien)
 band: 2
 seiten: 995-1033 (Teil 1 + 2a)
 shots: 502-520 (Bildschirmfoto 2026-06-07 um 12.03.03 – 12.03.27)
-paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238 Abs. 3 PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15b/15d/15m HWSchV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
+paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238a PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15b/15d/15m HWSchV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
 status: emerging
 gelesen: 2026-06-12
 last_updated: 2026-07-12
-verifiziert: 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
+verifiziert: 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
 ---
 
 # Kap. 15 — Lage von Gebaeuden (Teil 1+2a: System, Wald, Gewaesser, Baulinien)
@@ -226,7 +226,9 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 - **Verkehrsbaulinien — Zwecke:** sichern den fuer die Verkehrsanlage benoetigten Raum,
   schaffen den fuer die Verkehrssicherheit erforderlichen **Sichtbereich** und koennen
   aesthetische Funktionen erfuellen (BEZ 1986 Nr. 44); Naeherbaurecht nach **§ 105 PBG**,
-  Vorgaerten § 238 Abs. 3 PBG. (S. 1032)
+  Vorgaerten **§ 238a PBG** (bis 30.11.2024: § 238 Abs. 3 PBG, seither aufgehoben und in
+  § 238a PBG "Begruenung im Besonderen" uebergefuehrt, G vom 8.4.2024, in Kraft seit 1.12.2024 —
+  Modell-D-Fix 2026-07-14 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44). (S. 1032)
 - **Subsidiaerer Strassenabstand:** fehlt eine Baulinie, gilt der **bloss subsidiaer**
   geltende **6-Meter-Abstand** der Gemeinden (§ 51 Abs. 2 PBG). (S. 1033)
 - **Rechtswirkungen:** §§ 99 ff. PBG (wie bei allen Baulinien). (S. 1033)
