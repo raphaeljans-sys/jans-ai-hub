@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 14.07.2026 22:52:01
+Stand: 14.07.2026 23:12:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:51)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 25 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 22 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 9 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 8 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
@@ -19,4 +19,4 @@ Stand: 14.07.2026 22:52:01
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- fad1542d Energie-KB Run 70: SZ-Luecken geschlossen (Fernwaerme-Tarife SZ, Netzanschluss EWS/EW Hoefe) + FAQ F83
+- b5c014c4 nas-selfcommit: 2 Datei(en) 2026-07-14 23:00
