@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training-Run 33: Root-Cause-Fix Trigger-Haeufung + Delta-Check
+
+- **Root-Cause behoben statt zum sechsten Mal nur protokolliert:** `scripts/vollgas-runner.sh`
+  zykliert `immobewertung-training` weiterhin im VOLLGAS-Endlos-Loop mit (INCLUDE_RE matcht
+  `immob`), obwohl Rule `auto-verbesserungen` 260713 (Vortag) diesen Loop auf 1x taeglich
+  02:50 gedrosselt hat. `EXCLUDE_RE` im Runner um die sechs 260713-gedrosselten Loops ergaenzt
+  (`immobewertung|baurecht-buch|normen-training|twin-mail|twin-fidelity|^spec-training`) —
+  nur noch `wettbewerbs-dna-training`/`wettbewerbs-layer-nachbrenner` bleiben im Endlos-Zyklus,
+  simuliert und bestaetigt.
+- Delta-Check: kein neuer JANS-Bewertungsfall, Marktanker unveraendert seit Run 31 (kein
+  erneuter Web-Check, kein Grenznutzen). Oberrieden-Hoehenkorrektur-Erinnerung (Rule 260624)
+  zum sechsten Mal protokolliert.
+- Report: `outputs/2026-07-14_training-run33.md`.
+
 ## 2026-07-14 — Training-Run 32: Delta-Check (fuenfter Trigger desselben Tages)
 
 - Fuenfter Trigger am selben Tag (nach Run 28 00:38, Run 29 04:51, Run 30 05:44, Run 31 07:32

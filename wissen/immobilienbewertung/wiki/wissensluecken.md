@@ -33,6 +33,17 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-14 **Root-Cause-Fix Trigger-Haeufung (Run 33)** — sechster Trigger desselben Tages.
+  Statt die Haeufung ein sechstes Mal zu protokollieren, Ursache gesucht und behoben: der
+  VOLLGAS-Endlos-Runner (`scripts/vollgas-runner.sh`) zog `immobewertung-training` weiterhin in
+  seinen kontinuierlichen Zyklus (INCLUDE_RE matcht `immob`), obwohl Rule `auto-verbesserungen`
+  260713 (Vortag) diesen Loop bereits auf 1x taeglich 02:50 gedrosselt hatte. `EXCLUDE_RE` im
+  Runner um die sechs 260713-gedrosselten Loops ergaenzt (immobewertung/baurecht-buch/
+  normen-training/twin-mail/twin-fidelity/spec-training) — Simulation gegen die aktuelle
+  Task-Liste bestaetigt: nur noch `wettbewerbs-dna-training`/`wettbewerbs-layer-nachbrenner`
+  bleiben im Endlos-Zyklus. Delta-Check unveraendert: kein neuer JANS-Fall, Marktanker seit
+  Run 31 stabil. Details: `outputs/2026-07-14_training-run33.md`.
+
 - ✓ 2026-07-14 **Delta-Check (Run 32)** — fuenfter Trigger desselben Tages (nach Run 28 00:38,
   Run 29 04:51, Run 30 05:44, Run 31 07:32), erneut ausserhalb der Sollfrequenz (Rule 260713).
   Bewertungsordner unveraendert (kein neuer Fall), Marktanker nicht erneut per Web geprueft

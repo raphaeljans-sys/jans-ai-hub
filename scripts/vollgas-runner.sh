@@ -54,7 +54,14 @@ LIMIT_BACKOFF="${VOLLGAS_LIMIT_BACKOFF:-900}" # Sekunden Warten bei Limit/Ueberl
 
 # Whitelist: nur Lern-/Trainings-Loops (nie operative Briefings/Checks)
 INCLUDE_RE='training|normen|twin|wettbewerb|spec|immob|synobsis|energie|planungsgrundlagen|batch'
-EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche'
+# Rule 260713 (13.07.2026): Wettbewerbs-DNA ist der alleinige Ultra-Fokus des
+# MacBook Pro; alle anderen Loops sind auf 1x taeglich im Nachtfenster
+# gedrosselt und laufen NUR noch ueber ihren eigenen Scheduled Task (nicht
+# mehr im Endlos-Zyklus). Vor dieser Zeile fehlte der Ausschluss — die
+# gedrosselten Loops (u.a. immobewertung-training) wurden trotzdem
+# weiterzykliert und liefen dadurch am 14.07.2026 6x/Tag statt 1x (Run 28-33,
+# outputs/2026-07-14_training-run33.md dokumentiert den Befund).
+EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|immobewertung|baurecht-buch|normen-training|twin-mail|twin-fidelity|^spec-training'
 
 mkdir -p "$NAS_DIR" 2>/dev/null || NAS_DIR="$HOME/.jans-vollgas-log"
 mkdir -p "$NAS_DIR"
