@@ -3,7 +3,7 @@ title: Denken & Argumentation
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -334,3 +334,17 @@ mündet in einem offen benannten Unsicherheitspunkt («**Ein Punkt ehrlich vorwe
 schutz/Übernutzung ist Ermessenssache) und einer klaren, risikominimierenden Schlussempfehlung
 («am sichersten — und am schnellsten — ist … was ganz ohne Baubewilligung machbar ist»), statt der
 technisch maximalen Variante das Wort zu reden. Quelle: 07.06.2026, authentisch.
+
+## Inline eingebettete Rückfragen direkt nach der zitierten Fachpassage (belegt Mailbatch 52, authentisch)
+
+Bei einer scharfen fachlichen Beanstandung (Brandschutz-Baueingabe widerspricht eigenen Vorgaben)
+zitiert Raphael die strittige Spezifikation aus der Baueingabe wortwörtlich im Block (Schiebetüren-
+System 4 mit allen Anforderungspunkten) und hängt die Gegenfrage **direkt an die zitierte Stelle**,
+statt sie in eine separate Fragenliste auszulagern: «*… inkl. Türbeschläge nach SN EN 179 … 3. Frage:
+Wieso werden Türmodelle in der Baueingabe erwähnt, welche mit den BSP nicht übereinstimmen?*». Jede
+der drei Rückfragen (1./2./3. Frage) sitzt so nah wie möglich am Beleg, der sie auslöst — das macht
+den Widerspruch für den Empfänger sofort nachvollziehbar, ohne dass er zwischen Zitat und Frage
+zurückblättern muss. Unterscheidet sich von der bereits belegten Q&A-Kaskade (dort selbstgestellte,
+vorwegnehmende Fragen in einer unverbindlichen Ersteinschätzung): hier sind es **konfrontative**
+Rückfragen an einen Fachplaner, ausgelöst durch einen konkreten Dokumentenwiderspruch. Quelle:
+10.06.2026, authentisch.

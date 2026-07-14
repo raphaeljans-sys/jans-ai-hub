@@ -2,6 +2,32 @@
 
 Jede Änderung des Bibliothekars/Zwillings, datiert, neueste zuoberst.
 
+## 2026-07-14 — twin-mail-training Mailbatch 52 (Sent Items rj@, sequentieller Sweep fortgesetzt)
+- `raw/260714-mailbatch-52.md` aus Sent Items rj@ erfasst (Apple Mail osascript, Index 269-244,
+  **2026-06-09 13:12 bis 2026-06-11 14:12**, Fortsetzung ab Batch-50-Endpunkt Index 274 exakt
+  bestätigt, Gesamtbestand 1288). 8 Volltexte gelesen, 26 Mails gesichtet, keine Echo-Falle.
+  Nebenbei `_INGESTED.md`-Lücke geschlossen: Batch 51 (Live-Pull aus Fidelity-Review 260714j)
+  war im Ingest-Register noch nicht vermerkt, jetzt nachgetragen. Metrik 420 W: Du-Gross-Quote
+  0.7 (durch eine Lowercase-Ausnahme gedrückt), Satzlänge ø 13.5 W (`stilmetrik.py`).
+- [[stimme]] **neu**: Ausnahme von der «Du gross»-Kernregel — All-lowercase-Dialekt-Kurznotiz
+  («hoi david, ich hab dir noch eine checkliste gwmacht.») an einen sehr engen, warm
+  eingespielten Du-Kontakt; als dokumentierte Rand-Ausnahme (enge Beziehung + Ad-hoc-
+  Kurzmitteilung), nicht als neuer Normalfall gewichtet. Ultraminimale 2-Wort-Antwort in
+  Grossbuchstaben («DETAIL BESTAND») auf tief zitierten Fachthread.
+- [[denken]] **neu**: inline eingebettete Rückfragen direkt nach der zitierten Fachpassage
+  (1./2./3. Frage sitzen unmittelbar am Beleg, der sie auslöst) — konfrontative Variante der
+  bereits belegten Q&A-Kaskade, hier ausgelöst durch einen Dokumentenwiderspruch.
+- [[haltung]] **neu**: Veto-Ankündigung als explizit benannte Empfehlung, gekoppelt mit
+  ausdrücklicher Nicht-Beschuldigung des internen Teams («weder dir noch unserem Albin
+  Vorwürfe»); unaufgeforderte TDD-Empfehlung als Käuferschutz vor eigenem Ermessen, Schwelle
+  über die Investitionshöhe begründet.
+- [[beziehungsregister]] **neu**: asymmetrische gestapelte Anrede mit unterschiedlicher
+  Formalitätsstufe je Empfänger im reinen Sie-Register («Geschätzte Frau Dinkel, sehr geehrter
+  Herr Carlo Lamendola»).
+- [[fachsignatur]] **neu**: TDD-Checkliste nach Gewerk (Sanitär/Heizung/Elektro/Dach) als
+  kompakte, wiederverwendbare Prüf-Grundform; Beweiskette zur Verantwortungszuordnung bei
+  einer Rechnungsweiterleitung (Beleg vor Vermutung).
+
 ## 2026-07-14 — twin-fidelity-review Runde j (Selbsttest, Gesamt-Fidelity 86)
 - `raw/260714-mailbatch-51.md`: 2 frische, bislang unerfasste Live-Goldproben (Apple-Mail-Pull, Sent
   Items rj@, 14.07.2026 12:00–12:16 Uhr) — operative Unternehmer-Du-Kostenrückfrage (Felix Stählin,

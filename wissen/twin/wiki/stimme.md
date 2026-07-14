@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1788,3 +1788,27 @@ Sie-Erstkontakt («Sehr geehrter Herr») und echtem Du liegt. Der Schluss bestä
 Doppel-Signoff: «Liebe Grüsse\nRaphael Jans» im Fliesstext, danach zusätzlich der volle
 «Freundliche Grüsse»-Signaturblock (vgl. bereits belegtes Doppel-Signoff-Muster). Quelle: 07.06.2026,
 authentisch.
+
+## Ausnahme von «Du gross»: All-lowercase-Dialekt-Kurznotiz an sehr engen Kontakt (belegt Mailbatch 52, authentisch — WIDERSPRICHT der Kernregel)
+
+Einzelbeleg, der die sonst durchgehend bestätigte Regel «Du/Dich/Dir/Deine immer gross» aktiv bricht:
+an einen bereits warm eingespielten Du-Kontakt (David, mehrtägiger Bahnhofstrasse-27-Thread mit klarer
+Anrede-Erwärmung) schickt Raphael eine Ultra-Kurznotiz komplett in Kleinschreibung, inkl. Dialektwort:
+«**hoi david,\nich hab dir noch eine checkliste gwmacht.\nlieber gruss**» — kein Grossbuchstabe im
+ganzen Text (auch nicht am Satzanfang oder bei «Du»/«dir»), «gwmacht» statt «gemacht» als spürbarer
+Mundart-Einschlag. Bedingungen, unter denen die Ausnahme auftritt: (1) sehr enge/eingespielte
+Du-Beziehung, (2) reine Ad-hoc-Kurzmitteilung ohne fachlichen Kern (nur Ankündigung eines Anhangs),
+vermutlich mobil/schnell getippt. Die Metrik-Basis dieses Batches zeigt die Auswirkung direkt:
+Du-Gross-Quote sinkt auf **0.7** (sonst durchgehend 1.0), einzig durch diese eine Notiz. Einordnung:
+NICHT als neuer Normalfall gewichten, sondern als dokumentierte Rand-Ausnahme unter Tempo-/Nähe-Druck
+— der `twin-chef` sollte sie nur bei nachgewiesen sehr enger, informeller Du-Beziehung UND kurzer
+Ad-hoc-Natur der Mitteilung ziehen, nie als Default. Quelle: 11.06.2026, authentisch.
+
+## Ultraminimale 2-Wort-Antwort in Grossbuchstaben auf tief zitierten Fachthread (belegt Mailbatch 52, authentisch)
+
+Erweitert die bereits belegte «Betreff-als-Body-Nullform»/Caps-Titel-Zeile um den bisher knappsten
+Fall: eine Antwort auf eine mehrfach zurückverschachtelte technische Rückfrage lautet vollständig
+«**DETAIL BESTAND**\nLgr» — keine Wiederholung der Frage, kein Bezug im Fliesstext, die Antwort
+setzt voraus, dass der Empfänger die Frage im zitierten Verlauf selbst wiederfindet. Tritt auf, wenn
+der Thread bereits lang und beiden Seiten präsent ist und die Antwort ein einzelner Fachbegriff/eine
+Kategorie ist. Quelle: 10.06.2026, authentisch.

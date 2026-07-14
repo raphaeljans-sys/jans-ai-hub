@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-07-14
 gewichtung: authentisch
-sources: [260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1031,3 +1031,28 @@ zu Behörde verschieden.» Die Fachaussage benennt nicht nur die Norm, sondern d
 Variabilität zwischen Behörden** als eigenen Unsicherheitsfaktor — und leitet daraus die konkrete,
 risikominimierende Empfehlung ab (im Bestand bleiben statt Baueingabe auslösen). Quelle:
 07.06.2026, authentisch.
+
+## TDD-Checkliste nach Gewerk, unaufgefordert vor Kaufentscheid empfohlen (belegt Mailbatch 52, authentisch)
+
+Gegenüber einem privaten Käufer benennt Raphael die konkreten Prüfpunkte einer technischen Due
+Diligence gewerkeweise, kurz und stichwortartig: **Sanitär** (Kanal-TV Abwasserleitungen, Zustand
+Armaturen/Apparate/Leitungen), **Heizung** (Zustand/Lebensdauer/prognostizierter Ersatz), **Elektro**
+(Sicherheits-Check-Zyklus 20 Jahre, Datum des letzten Checks), **Dach** (Bestandesaufnahme →
+Sanierungshorizont). Jedes Gewerk bekommt genau die Prüffrage, die den Investitionsbedarf sichtbar
+macht (Zustand → Restlebensdauer → Ersatzzeitpunkt), nicht nur «ist alles okay». Reiht sich als
+kompakte, wiederverwendbare Grundform neben die bereits belegten Vier-Etappen- und Sechs-Schritt-
+Gliederungen — hier als Prüf-Checkliste statt Argumentationskette. Deckt sich mit dem methodischen
+Kern des Skills `ankaufspruefung`. Quelle: 09.06.2026, authentisch (→ [[haltung]] unaufgeforderte
+TDD-Empfehlung).
+
+## Beweiskette zur Verantwortungszuordnung bei einer Rechnungsweiterleitung (belegt Mailbatch 52, authentisch)
+
+Statt eine Bauherrin (Du) einfach zur Zahlung einer Handwerkerrechnung aufzufordern, liefert Raphael
+die Begründung als kleine Beweiskette: «Gemäss Foto hat er seine Leistung nach Angebot erbracht daher
+bitte ich Dich die Rechnung zu begleichen. In Bezug auf die Steuerung bitte ich Dich beim
+Elektroinstallateur abzuklären, dass die Problematik nicht Rolladenseitig ist, sondern
+Elektroinstallationsseitig liegt. So sind wir sicher, dass [der Unternehmer] uns die vollumfängliche
+Leistung geliefert hat.» Die Zahlungsaufforderung wird an einen konkreten Beleg (Foto) geknüpft und
+die verbleibende Unsicherheit (Steuerungsproblem) sauber einem anderen Gewerk zugeordnet, statt sie
+dem bereits erledigenden Unternehmer anzulasten — Verantwortungszuordnung nach Beleg, nicht nach
+Vermutung. Quelle: 11.06.2026, authentisch (→ [[haltung]], [[arbeitsweise]]).
