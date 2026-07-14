@@ -1,8 +1,8 @@
 ---
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
-last_updated: 2026-07-14 (Run 42)
-sources: [VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh)]
+last_updated: 2026-07-14 (Run 45)
+sources: [VKF-Brandschutzerläuterung 103-15de «Cheminées» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 104-15de «Spänefeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 17 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 105-15de «Schnitzelfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 12 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 106-15de «Pelletsfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -1614,12 +1614,202 @@ die temporäre/baustellenspezifische Regelung. Relevant für Bauleitungs-Skills 
 `werkvertrag`) bei Bauphasen mit Provisorien (Notheizung während Heizungsersatz), insbesondere bei
 Healthcare-/Schulbauten wegen der «erhöhte Gefährdung»-Einstufung.
 
-**Backlog aus Run 42 (niedrige Priorität, nicht vertieft):** drei weitere, noch unerschlossene
-VKF-Erläuterungen im selben Ordner `04 Erläuterungen Brandschutz 2015/` — 103-15 Cheminées,
-104-15 Spänefeuer, 105-15 Schnitzelfeuerung, 106-15 Pelletsfeuerung (Feuerungsanlagen für feste
-Brennstoffe, primär Wohn-/Landwirtschaftsbauten-Relevanz, geringer Healthcare-/Schulbau-Bezug) —
-für einen Folgelauf vorgemerkt, kein Nicht-Fund, sondern bewusst zurückgestellt zugunsten der
-höherpriorisierten Schulbauten-/BFS-/Flüssiggas-Funde dieses Laufs.
+**Backlog aus Run 42 — abgearbeitet in Run 45 (2026-07-14):** die vier zurückgestellten
+VKF-Erläuterungen zu Feuerungsanlagen für feste Brennstoffe (103-15 Cheminées, 104-15
+Spänefeuerungen, 105-15 Schnitzelfeuerungen, 106-15 Pelletsfeuerungen) sind jetzt vollständig
+volltextlich erschlossen, siehe §5ai-§5al unten.
+
+## 5ai · Cheminées — VKF-Erläuterung 103-15de (Run 45, 2026-07-14)
+
+Vollständig gelesene VKF-Brandschutzerläuterung «Cheminées» (Stand 01.01.2015, genehmigt
+23.09.2014, 14 S.) — regelt handbeschickte, fest mit dem Gebäude verbundene offene und
+geschlossene Feuerstellen (Definition Ziff. 1):
+
+- **Nach EN 13229 «Kamineinsätze» erstellte Cheminées** (Ziff. 2): für Konstruktion der
+  Feuerraumwände, Rückwände, des Unterbaus sowie die Sicherheitsabstände zu brennbarem
+  Material gelten die Angaben auf **Leistungserklärung und Aufstellanleitung** oder der
+  VKF-Technischen Auskunft — keine generischen VKF-Kennwerte, sondern produktspezifisch.
+  Wände, an die EN-13229-Cheminées angestellt/angebaut werden: 60 mm dick aus Formstein,
+  Beton oder gleichwertigen dauerwärmebeständigen Baustoffen der RF1, über die ganze
+  Raumhöhe und seitlich 0.2 m über das Feuerungsaggregat hinaus; bei brennbaren
+  Bodenkonstruktionen 60 mm dicke Stein-/Betonplatte.
+- **Individuell erstellte Speichercheminées, angebaut an brennbare Boden-/Decken-/
+  Wandkonstruktionen** (Ziff. 3.1): Wände 0.12 m dick RF1 über die ganze Raumhöhe + seitlich
+  0.2 m über das Feuerungsaggregat; Feuerraumwände allseitig 60 mm Mineralwolle (RD = 100
+  kg/m³, Schmelzpunkt ≥ 1'000 °C) oder gleichwertig RF1 isoliert, einschliesslich Dämmung
+  0.12 m Gesamtdicke. Unterlagsplatte 0.12 m dick Stein/Beton, isoliert mit 0.1 m
+  Mineralwolle. Brennbare Deckenkonstruktionen: 0.12 m dick Mineralwolle-Isolierung PLUS
+  Brandschutzplatte mit **30 Minuten Feuerwiderstand** aus RF1 (keine Hohlräume zwischen
+  Isolierung und brennbarer Decke). Distanz Boden/Unterlagsplatte/Decke eines Holzfaches bis
+  oberkant Feuerraumboden 0.2 m, bis Boden des Aschenbehälters 80 mm. Sicherheitsabstand
+  seitlich zu brennbarem Material 0.1 m, bei **offenem oder verglastem Feuerraum** im
+  Strahlungsbereich **0.8 m**.
+- **An RF1-Konstruktionen angebaute Speichercheminées** (Ziff. 3.2): dieselbe 0.12 m
+  Mindestdicke, dauerwärmebeständig; ohne Unterbau direkt auf Betonboden: 60 mm Mineralwolle
+  zwischen Feuerraum und Boden.
+- **Warmluftcheminées** (Ziff. 3.3): Verbindungsrohre 30 mm dick mit Mineralwolle isoliert;
+  Warmluftkanäle sowie Luftein-/-austrittsöffnungen aus RF1.
+- **Vorbelag** (Ziff. 4): brennbare Böden vor dem Cheminée mit RF1-Belag zu versehen, der
+  so weit über das Cheminée vorspringen muss, wie der Feuerraumboden über dem brennbaren
+  Boden liegt, **mindestens aber 0.4 m**.
+- **Anschluss an Abgasanlagen** (Ziff. 5): Rauchfänge/Verbindungsrohre aus Stahlblech 2 mm,
+  aus Chromnickelstahlblech 1 mm dick; Futterrohre beim Anschluss verwenden. Bekleidungen von
+  Rauchfängen aus dauerwärmebeständigen RF1-Baustoffen.
+- **Holzverkleidungen** (Ziff. 6): Cheminéeschürzen mit Holzbekleidung zulässig, sofern die
+  Schürze eine **EI 60**-Ummauerung aus RF1 (dauerwärmebeständig) ist; Holzbekleidung mit
+  Luftspalt ≥ 20 mm dauerhaft hinterlüftet. Sturzbalken aus Holzarten der RF2 zulässig, sofern
+  ausserhalb des Strahlungsbereichs angeordnet und auf Unter-/Rückseite durch eine
+  Brandschutzplatte mit 30 Minuten Feuerwiderstand (EI 30, RF1) geschützt.
+
+→ **JANS-Praxis-Transfer:** niedrige bis mittlere Priorität — Cheminées sind vor allem bei
+Wohn-/Landhausprojekten und repräsentativen Aufenthaltsbereichen relevant, selten bei den
+JANS-Healthcare-Grossprojekten (dort meist Fernwärme/Wärmepumpe). Nützlich für Skill
+`ankaufspruefung`/`machbarkeit` bei Bestandsliegenschaften mit offenem Cheminée (Ziff. 3.1
+Sicherheitsabstand 0.8 m ist eine häufige nachträgliche Beanstandung bei Ankäufen älterer
+Einfamilienhäuser) sowie für Bauleitungs-Skills bei Heizungssanierungen mit Holzfeuerung.
+
+## 5aj · Spänefeuerungen — VKF-Erläuterung 104-15de (Run 45, 2026-07-14)
+
+Vollständig gelesene VKF-Brandschutzerläuterung «Spänefeuerungen» (Stand 01.01.2015, genehmigt
+23.09.2014, 17 S.) — regelt automatische Feuerungsanlagen für Bearbeitungsrückstände aus der
+mechanischen Holzbearbeitung (Definition Ziff. 1: Hobelspäne, Schleifstaub, Holzmehl, kleine
+Verarbeitungsabfälle; geringe Anteile Kunststoff/Metall möglich; gilt NICHT für Absaugungen bei
+Bearbeitung anderer Materialien wie Kunststoff, Metall, Glas, Stein):
+
+- **Aufstellung** (Ziff. 2): Spänefeuerungen sind **unabhängig von der Nennwärmeleistung**
+  immer in separaten Heizräumen mit Feuerwiderstand **EI 60** aufzustellen (kein Erleichterungs-
+  Schwellenwert wie bei Schnitzel-/Pelletsfeuerung) — Türen EI 30, in Fluchtrichtung öffnend.
+- **Rückbrandsicherungen** (Ziff. 4): zwei voneinander unabhängige Sicherungen zwingend
+  einzubauen: (a) eine selbsttätig auslösende Löscheinrichtung (SLE); (b) eine
+  Rückbrand-Schutzeinrichtung (RSE). Im Rückbrandfall muss die Anlage die Wärmeproduktion
+  abstellen und einen gut wahrnehmbaren Alarm auslösen. Abweichungen nur mit Prüfbericht.
+- **Lagerung von Spänen** (Ziff. 5): separate Silos oder Spänelagerräume; bis 0.8 m³
+  Gesamtlagervolumen Lagerung in Containern/Behältern im Arbeitsraum zulässig. Keine
+  Fremdinstallationen (Abgas-, Warmwasser-, Dampf-, Gasleitungen) in Silo-/Späneräumen.
+  - **Freistehende Silos** (Ziff. 5.2): aus RF1; **Mindest-Sicherheitsabstand 10 m** zu
+    Gebäuden/Anlagen — wird dieser unterschritten, sind weitergehende Massnahmen nötig (Wände
+    EI 60 aus RF1, oder bei Holzbauweise EI 60 mit beidseitiger Bekleidung EI 30 RF1).
+  - **An-/eingebaute Silos** (Ziff. 5.3): EI 60, raumseitig RF1 abgedeckt, mindestens eine
+    Seite an Aussenwand; brennbare Aussenwände raumseitig EI 30 RF1 bekleidet.
+  - **Offene Lagerbehälter im Freien** (Ziff. 5.4): aus RF1; **max. 40 m³** Späne in Sammel-
+    /Lagerbehältern, die im oberen Bereich ständig offen sein müssen (z. B. offene Silos,
+    Lastwagencontainer mit Plane) — dann ist KEINE ortsfeste Löscheinrichtung erforderlich.
+  - **Konstruktive Gestaltung** (Ziff. 5.5): kreisrunde bis quadratische, nicht rechteckige
+    Grundfläche (Austrag über die gesamte Grundfläche); runde Siloquerschnitte; keine
+    Verengung von oben nach unten; keine innenliegenden Einbauten; Explosionsdruck-Entlastung
+    oder -Unterdrückung. Türen zum Entleeren von Hand ≥ 1.2 x 2.0 m; Stocheröffnungen ca.
+    0.8 x 0.8 m.
+- **Späneabscheideanlagen** (Ziff. 7): **Entstauberanlagen** ≤ 6'000 m³/h und ≤ 0.3 m
+  Anschlussdurchmesser dürfen im gleichen Raum wie die Holzbearbeitungsmaschinen stehen
+  (Herstellerbestimmung + DIN 8416); Lagerung des Absaugguts bis 0.2 m Anschlussdurchmesser:
+  Normcontainer max. 800 l RF1 oder max. 6 Säcke à 110 l ohne zusätzlichen Explosionsschutz;
+  bei 0.2-0.3 m Anschlussdurchmesser zusätzlich Prüfgutachten «Entstauber statt Filteranlage»,
+  Druckstossfestigkeit ≥ 200 mbar, Thermosensor (Auslösetemperatur ca. 70 °C). **Filteranlagen**
+  > 6'000 m³/h nur im Freien oder in separaten Filterräumen, mit geprüfter
+  Explosionsdruckentlastung; Sicherheitsabstand Späneabscheider (Zyklon) zu
+  Abgasanlagenmündungen **5 m**.
+- **Löscheinrichtungen** (Ziff. 8): Sprühflutanlagen in Silos/Späne-/Filterräumen stationär;
+  **Funkenlöscheinrichtungen** zusätzlich bei erhöhtem Funkenrisiko (Spanplatten-, Türen-,
+  Leisten-, Parkettherstellung, Zerkleinerungs-/Mehrblattkreissäge-/Breitbandschleifmaschinen
+  mit Kalibrierfunktion).
+- **Blitzschutz/Explosionsschutz** (Ziff. 10/11): Spänesiloanlagen mit Blitzschutzsystem
+  auszurüsten (inkl. aller ausserhalb liegenden metallischen Anlageteile); Explosionsschutz
+  nach SUVA-Merkblatt 2153, Explosionsschutzdokument durch den Arbeitgeber.
+
+→ **JANS-Praxis-Transfer:** niedrige Priorität — Spänefeuerungen sind eine Nebenanlage von
+holzverarbeitenden Betrieben (Schreinerei, Sägerei), kaum bei Healthcare-/Wohnprojekten. Bei
+Umnutzungen ehemaliger Gewerbe-/Schreinereiliegenschaften (Skill `ankaufspruefung`/
+`nutzungsstrategie`) ist der zwingende 10-m-Sicherheitsabstand freistehender Silos (Ziff. 5.2)
+ein häufig übersehenes Altlast-/Rückbau-Thema.
+
+## 5ak · Schnitzelfeuerungen — VKF-Erläuterung 105-15de (Run 45, 2026-07-14)
+
+Vollständig gelesene VKF-Brandschutzerläuterung «Schnitzelfeuerungen» (Stand 01.01.2015,
+genehmigt 23.09.2014, 12 S.) — regelt automatische Feuerungsanlagen für **Schnitzel**
+(Definition Ziff. 1: zerkleinertes Holz mit Mindestgrösse **40/20/10 mm** und Feuchtegehalt
+**> 20 %**):
+
+- **Aufstellung** (Ziff. 2): bei Etagenheizkessel-Feuerungsaggregaten sind Bauart/Ausbau des
+  Aufstellraums beliebig (Vorbelag RF1 nötig, wenn der Feuerraum ohne Hilfsmittel geöffnet
+  werden kann). **Nennwärmeleistung ≤ 70 kW** → Aufstellraum EI 30; **> 70 kW** → Heizraum
+  EI 60. Angebauter Vorratsbehälter ≤ 2 m³ aus RF1. Bei geringem Brandrisiko dürfen
+  Aufstellräume ≤ 70 kW **auch anderen Zwecken dienen** — eine spürbare Erleichterung
+  gegenüber der Spänefeuerung (§5aj), die IMMER einen separaten EI-60-Heizraum verlangt.
+- **Lagerung mit automatischer Austragung** (Ziff. 4): Schnitzellager in Gebäuden EI 60
+  separater Raum; freistehend/an öffnungsloser Aussenwand EI 60 angebaut: beliebige Bauart
+  (Brandschutzabstände einhalten). In Heizräumen EI 60 hinter durchgehender staubdichter
+  Abtrennung ≤ 15 m³ Schnitzel lagerbar. **Ausräumöffnungen-Staffel** nach Lagermenge: ≤ 15 m³
+  → 1.0 x 0.7 m; > 15-≤ 50 m³ → 2.0 x 0.9 m; > 50 m³ Variante I → 2.0 x 0.9 m seitlich direkt
+  ins Freie; > 50 m³ Variante II → 2.5 x 1.5 m oben direkt ins Freie (bei nicht ebenerdigem
+  Zugang: Erschliessung über Treppenanlage, Laufbreite ≥ 0.9 m). Lager-/Hydraulikräume müssen
+  einwandfrei belüftet sein (SUVA 66050).
+- **Rückbrandsicherungen — drei gestaffelte Fälle** (Ziff. 6.6): (1) Kompaktanlage
+  (Vorratsbehälter ≤ 2 m³) im Aufstell-/Heizraum → **RHE** (Rückbrandhemmende Einrichtung)
+  genügt; (2) automatische mechanische Austragung vom Vorratsbehälter ins Feuerungsaggregat →
+  **RSE** in der Förderleitung (RF1) + **TÜB** (Temperaturüberwachungseinrichtung, löst bei ca.
+  70 °C aus) im Vorratsbehälter; (3) automatische mechanische Austragung direkt aus dem
+  Schnitzellager ins Feuerungsaggregat → **RSE + SLE** (selbsttätig auslösende Löscheinrichtung,
+  Wasservorratsmenge = dreifaches Volumen der Beschickungseinrichtung, mind. 20 l) in der
+  Förderleitung (RF1) im Aufstell-/Heizraum, **TÜB** im Schnitzellager.
+
+→ **Delta zur Spänefeuerung (§5aj):** eigenständige Anlagenkategorie mit eigener Definition
+(Korngrösse/Feuchte statt Bearbeitungsrückstand), eigener kW-Erleichterungsschwelle (70 kW)
+und einem feiner gestaffelten, dreistufigen Rückbrandsicherungs-Regime (RHE/RSE+TÜB/RSE+SLE+TÜB
+je nach Austragungsart) statt der pauschalen SLE+RSE-Pflicht bei Spänefeuerungen. Die
+Ausräumöffnungs-Tabelle ist **identisch** mit jener der Pelletsfeuerung (§5al).
+
+→ **JANS-Praxis-Transfer:** niedrige bis mittlere Priorität, aber häufiger als Cheminée/Späne
+bei JANS-typischen ländlichen Sanierungsprojekten (Landwirtschaftsbauten, Heizungsersatz
+Einfamilienhaus/Mehrfamilienhaus Kt. ZH/SZ) — die 70-kW-Schwelle und die Ausräumöffnungs-
+Staffel sind bei Vorprojekten für Holzschnitzelheizungen direkt nutzbare Grobcheck-Kennwerte
+(Skill `machbarkeit`/`kostenschaetzung` Heizraum-Dimensionierung).
+
+## 5al · Pelletsfeuerungen — VKF-Erläuterung 106-15de (Run 45, 2026-07-14)
+
+Vollständig gelesene VKF-Brandschutzerläuterung «Pelletsfeuerungen» (Stand 01.01.2015,
+genehmigt 23.09.2014, 14 S.) — regelt automatische Feuerungsanlagen für **Pellets**
+(Definition Ziff. 1: zerkleinertes Holz [Hobel-/Sägespäne], unter hohem Druck verdichtet und
+pelletiert; Länge ca. 40 mm, Durchmesser ca. **5-7 mm**, Feuchtegehalt bis **10 %** nach EN
+14961-2; **1 m³ Lagermenge Pellets entspricht ca. 650 kg**):
+
+- **Aufstellung/Austragung** (Ziff. 2/3): dieselbe kW-Schwelle wie Schnitzel (§5ak): ≤ 70 kW
+  Aufstellraum EI 30 (darf bei geringem Brandrisiko anderen Zwecken dienen), > 70 kW Heizraum
+  EI 60, Vorratsbehälter ≤ 2 m³ RF1. Pneumatische Austragung aus dem Pelletslager bis zum
+  Vorratsbehälter: Förderleitungen **mind. RF3** (Kunststoffrohr zulässig); mechanische
+  Austragung bis zum Feuerungsaggregat: RF1.
+- **Lagerung mit automatischer Austragung** (Ziff. 4): dieselbe Ausräumöffnungs-Staffel wie
+  Schnitzel (§5ak: ≤15/≤50/>50 m³). **Belüftungspflicht CO-spezifisch**: Pelletslager müssen so
+  belüftet werden, «dass eine gefährliche CO-Konzentration vermieden wird» — Lüftungsöffnungen
+  müssen ins Freie führen. Dies ist eine **pelletsspezifische** Anforderung, die bei Schnitzel
+  und Spänen so nicht explizit genannt ist (bekanntes Ausgasungsrisiko von Holzpellets-Lagern).
+- **Beschickung** (Ziff. 5): pneumatische Beschickung ohne Unter-/Überdruck im Lagerraum;
+  Befüllstutzen/-leitungen RF1, verdreschsicher, mit Potentialausgleich verbunden; an der den
+  Befüllstutzen **gegenüberliegenden Wand sind Prallschutzmatten anzubringen** — ebenfalls eine
+  pelletsspezifische Ergänzung (Schutz vor mechanischer Beanspruchung durch den Einblasstrahl),
+  bei Schnitzel/Spänen nicht in dieser Form vorgeschrieben.
+- **Rückbrandsicherungen — FÜNF gestaffelte Fälle** (Ziff. 6.4, feiner gestaffelt als bei
+  Schnitzel mit drei Fällen): (1) Kompaktanlage (Vorratsbehälter ≤ 2 m³) im Aufstell-/Heizraum
+  → RHE; (2) automatische **pneumatische** Austragung im Pelletslager + pneumatische Förderung
+  in Vorratsbehälter → RHE, Förderleitung im/zum Lager mind. RF3, Brandabschluss ausserhalb des
+  Lagers (z. B. Brandschutzmanschette); (3) automatische **mechanische** Austragung im
+  Pelletslager + pneumatische Förderung in Vorratsbehälter → RHE, Förderleitung ausserhalb des
+  Lagers mind. RF3, Brandabschluss direkt ausserhalb des Lagers (Brandschutzmanschette oder
+  aufschäumendes Brandschutzpaket); (4) automatische **mechanische** Austragung im Pelletslager
+  + mechanische Förderung direkt ins Feuerungsaggregat → RSE, Förderleitung RF1; (5)
+  automatische Austragung per **Schwerkraftsystem** vom Pelletslager in Vorratsbehälter → RSE
+  als **Zellenradschleuse**, Förderleitung vom Lager bis Aufstell-/Heizraum RF1.
+
+→ **Delta zu Schnitzel (§5ak):** Pellets hat mit fünf statt drei Rückbrandsicherungs-
+Fallgruppen das feinteiligste Regime aller vier Feuerungstypen (wegen der zusätzlichen
+pneumatischen Förderoptionen), eine pelletsspezifische CO-Belüftungspflicht sowie
+Prallschutzmatten-Pflicht bei der Befüllung — beides bei Schnitzel/Spänen nicht so vorgesehen.
+Die Ausräumöffnungs-Tabelle und die 70-kW-Aufstellungsschwelle sind mit Schnitzel identisch.
+
+→ **JANS-Praxis-Transfer:** niedrige bis mittlere Priorität, aber wie Schnitzel (§5ak) die
+häufigste Holzfeuerungs-Anfrage bei JANS-Kleinprojekten (Einfamilienhaus-/Mehrfamilienhaus-
+Heizungsersatz Kt. ZH/SZ, energetische Sanierung). Der Umrechnungsfaktor **1 m³ ≈ 650 kg**
+sowie die CO-Belüftungspflicht sind bei der Lagerraum-Dimensionierung im Vorprojekt (Skill
+`machbarkeit`/`energie-berater`) direkt verwendbare, belegte Kennwerte.
 
 ---
 
@@ -1659,7 +1849,12 @@ höherpriorisierten Schulbauten-/BFS-/Flüssiggas-Funde dieses Laufs.
   Blitzschutzklasse» (→ §5w), «welchen Feuerwiderstand braucht mein Heizraum (ab welcher kW-
   Leistung EI 30 vs. EI 60) und welche Sicherheitsabstaende gelten fuer Feuerungen/Kuechen»
   (→ §5x), «wann brauche ich Brandschutzklappen bzw. wann darf ich darauf verzichten, und was gilt
-  fuer die Abluft der gewerblichen Kueche» (→ §5y).
+  fuer die Abluft der gewerblichen Kueche» (→ §5y), «welche Brandschutzabstaende gelten fuer ein
+  offenes/geschlossenes Cheminee, und darf ich die Schuerze mit Holz verkleiden» (→ §5ai), «welche
+  Anforderungen gelten fuer eine Spaenefeuerung/ein Spaenesilo in einer Schreinerei» (→ §5aj),
+  «ab welcher Nennwaermeleistung braucht meine Schnitzelfeuerung einen eigenen Heizraum, und wie
+  gross muss die Ausraeumoeffnung des Schnitzellagers sein» (→ §5ak), «welche Anforderungen gelten
+  fuer ein Pelletslager (Groesse, Rueckbrandsicherung, CO-Lueftung)» (→ §5al).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →
