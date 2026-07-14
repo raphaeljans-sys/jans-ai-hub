@@ -1,3 +1,22 @@
+## 2026-07-14 — Q&A-Selbstbefragung Mini-Run 24: DIN 1946-7:2009 vertieft
+- Vertiefungsstufe Q&A-Selbstbefragung (Methodik analog Mini-Run 22/23): 20 Prüfungsfragen zu
+  DIN 1946-7:2009 (RLT in Laboratorien) formuliert und unabhängig durch Volltextlektüre aller
+  16 Originalseiten beantwortet, gegen `destillate/din-1946-7-2009.md` abgeglichen. Ergebnis:
+  0 Fehler, 6 Fragen bereits korrekt erfasst, 14 Ergänzungen — Destillat deckte vorher nur einen
+  Teil der Norm ab (v.a. Ziff. 5.3 Luftvolumenströme).
+- Destillat ergänzt um: Begriffe Ziff. 3.1-3.24 (Labor, Labornutzfläche, ablufttechnische
+  Einrichtung, 8 Einrichtungstypen, Luftarten), Ziff. 4 (Aufgaben RLT-Anlage, Atemluft-Definition),
+  Ziff. 5.1 (sechs Auslegungs-Anforderungskategorien), Ziff. 5.3.2 (Zuluft muss aufbereitete
+  Aussenluft sein), Ziff. 5.4-5.7 (Abzüge/sonstige ablufttechnische Einrichtungen/Luftführung im
+  Raum/Raumluftqualität), Ziff. 6.2 (Aussenluftansaugung, Kategorie mindestens ETA 3), Ziff. 6.3.2/
+  6.3.3 (Rückhalte-/Filtersysteme, Wartungskonzepte), Literaturhinweise (S. 16), neue Abschnitte
+  «Verwandte Normen», «JANS-Praxis-Transfer», «Offene Punkte».
+- **Wichtigster Fund:** Vorwort (S. 3) listet die DIN-1946-Reihe — **Teil 4 regelt RLT in
+  Gebäuden/Räumen des Gesundheitswesens** (Spital/Pflegeheim), nicht Teil 7 (nur Laboratorien).
+  Für typische JANS-Healthcare-Projekte ohne Labornutzung ist damit primär DIN 1946-4 statt
+  DIN 1946-7 die relevante Norm — als offener Punkt vermerkt (DIN 1946-4 noch nicht im Hub
+  destilliert, bei Bedarf auf SharePoint nachbeschaffen).
+
 ## 2026-07-14 — Anfrage «Farbe Elektroinstallationen in Architektenplänen»: SIA-400-Destillat vertieft
 - Interaktive Norm-Anfrage (Fundstellen-Route gemäss Rule normen-referenz). Befund: SIA 400:2000
   kennt KEINE Gewerke-Farbe für Elektroinstallationen — Sinnbilder grundsätzlich schwarz-weiss
