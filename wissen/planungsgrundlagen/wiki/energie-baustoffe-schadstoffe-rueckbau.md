@@ -1,9 +1,9 @@
 ---
 title: Gebäudeschadstoffe/Entsorgungskonzept — Checkliste vor Umbau/Rückbau (Kt. ZH, AWEL)
 status: established
-last_updated: 2026-07-14
-sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf (AWEL Kt. ZH, Amt für Abfall, Wasser, Energie und Luft, Ausgabe 02.2023, 8 S.)]
-links: [[energie-baueingabe-zusatzformulare]], [[energie-energienachweis-zh-formulare]], [[recht-norm-baueingabe-verfahren-zh]], [[ankaufspruefung]]
+last_updated: 2026-07-14 (Run 45)
+sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe/checkliste_gebaeudeschadstoffe.pdf (AWEL Kt. ZH, Amt für Abfall, Wasser, Energie und Luft, Ausgabe 02.2023, 8 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.4 Wohlbefinden (Innenraumklima)/Schadstoff_in_Bauten_(Checkliste).pdf (AHB/UGZ Stadt Zürich, 20.09.2005, 4 S.)]
+links: [[energie-baueingabe-zusatzformulare]], [[energie-energienachweis-zh-formulare]], [[recht-norm-baueingabe-verfahren-zh]], [[ankaufspruefung]], [[recht-norm-ahb-stadt-zuerich-projektstandards]]
 ---
 
 # Gebäudeschadstoffe/Entsorgungskonzept — Checkliste vor Umbau/Rückbau (Kt. ZH, AWEL)
@@ -97,6 +97,33 @@ zwingend als schadstoffhaltig sanieren/entsorgen.
   Fachperson beiziehen (Baustellenstopp-Pflicht, analog Altlasten-Verdachtsfunde im Baurecht).
 - Rechtsgrundlage Bauabfälle allgemein: Art. 16–20 VVEA; Praxishilfe `www.polludoc.ch`
   (FAGES/VABS).
+
+## 6. PCP (Pentachlorphenol) — dritter Schadstoff-Typ (Cross-Ref Run 45, Stadt-ZH-Checkliste)
+
+**Ergänzt Run 45 (2026-07-14), Quelle: `Schadstoff_in_Bauten_(Checkliste).pdf`** (AHB/Umwelt- und
+Gesundheitsschutz Zürich UGZ, «Dokumentation Bauen + Ökologie, Innenraumklima 4.14»,
+20.09.2005, städtische Ergänzung zur oben dokumentierten kantonalen AWEL-Checkliste). Neben
+Asbest und PCB (Ziff. 1–4 oben) führt die städtische Fassung einen **dritten Schadstoff-Typ**:
+
+- **Pentachlorphenol (PCP)** — Wirkstoff in Fungiziden (Holzschutzmittel gegen holzzerstörende
+  Pilze), Verwendungsschwerpunkt **1950–1975**, Verbot 1989 (StoV). Mögliche Fundorte: Holz-
+  schutzmittel-behandelte Bauteile, importierte Lederwaren (Bekleidung/Bezüge), Textilien
+  (z.B. Orientteppiche), Holzwerkstoffe aus belastetem Altholz.
+- **Grenzwerte:** Eingreifwert **1 µg/m³**, Qualitätsziel Luft **<0.1 µg/m³** (keine Schweizer
+  Richtlinie, Orientierung an der PCP-Richtlinie 1996, BRD).
+- Zur Einordnung: die städtische Checkliste bestätigt für PCB dieselben Vorsorgewerte wie bereits
+  oben dokumentiert (6 µg/m³ Tagesaufenthalt / 2 µg/m³ Dauer) sowie für Asbest die Toleranzgrenze
+  **700 LAF/m³** (Lungengängige Asbestfasern) — kein Delta zu den kantonalen Werten, nur eine
+  zusätzliche, direkt vergleichende Synopse-Tabelle.
+- Die begleitende Anhangstabelle «mögliche schadstoffhaltige Baumaterialien» ist granularer als
+  die oben in Ziff. 3–4 geführte Liste (z.B. Asbestgewebe in Dichtungen von Cheminée-/Heizungs-
+  türen, PCB-Weichmacher in Deckenplatten-Anstrichen/Kunstharzlacken) — als Ergänzung zu Ziff. 4
+  zu lesen, nicht als Ersatz.
+
+Vertiefung des PCB-Abklärungsprozesses (4-stufiger Entscheidbaum Bauweise→Baujahr→Analyse→
+Innenraumluftmessung) sowie die reale Kennzahl «jedes vierte 1955–75-Gebäude PCB-haltig in hoher
+Konzentration»: siehe [[recht-norm-ahb-stadt-zuerich-projektstandards]] §17.3 (dort primär
+dokumentiert, hier nur als Cross-Ref, kein Duplikat).
 
 ## Querbezüge
 

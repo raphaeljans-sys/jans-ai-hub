@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende (Flächenerfassung SIA 416, CAFM, Elektro-Sicherheitsnachweis, Gebäudeautomation Pflegezentren, Honorarwesen, Nachhaltiges Bauen, CAD, Submissions-/Zahlungswesen)
 status: established
-last_updated: 2026-07-14 (Run 42)
-sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/12-Bauwerkdokumentation/12.1-Dokumentation/Richtlinie-Bauwerkdokumentation-2009.pdf (Januar 2009, 2 S.), .../12.2-Faltblatt/Faltblatt_Muster.pdf (Restaurant-Kiosk Hafen Riesbach, März 2005), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/16-Ingenieurwesen/16.2-Richtlinien/Tragwerkverstaerkungen+Tragelemente.pdf (März 2009), .../Betonneubauten.pdf (März 2009), .../Recyclingprodukte.pdf (Informationsblatt 5.6, Stand 1999/2001), .../Recyclingbeton-unbedenklich.pdf (Tages-Anzeiger 31.10.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.)]
-links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-submissionsverordnung-zh]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]]
+last_updated: 2026-07-14 (Run 45)
+sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/12-Bauwerkdokumentation/12.1-Dokumentation/Richtlinie-Bauwerkdokumentation-2009.pdf (Januar 2009, 2 S.), .../12.2-Faltblatt/Faltblatt_Muster.pdf (Restaurant-Kiosk Hafen Riesbach, März 2005), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/16-Ingenieurwesen/16.2-Richtlinien/Tragwerkverstaerkungen+Tragelemente.pdf (März 2009), .../Betonneubauten.pdf (März 2009), .../Recyclingprodukte.pdf (Informationsblatt 5.6, Stand 1999/2001), .../Recyclingbeton-unbedenklich.pdf (Tages-Anzeiger 31.10.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/GT_RL1_Planungsgrundlagen_V21.pdf (RichtlinieGT, Version 2.1, Juli 2008, 6 S.), .../Allgemeines_Uebersicht.pdf (Bau-Standards Gebäudetechnik, September 2005, 1 S.), .../GT_RL2_Systemwahl_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL9_Gebaeudeautomation_V21.pdf (Version 2.1, Juli 2008, 7 S.), .../GT_RL3_Heizungsanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL4_Raumkuehlung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL5_Lueftungsanlagen_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL6_Sanitaerinstallationen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL7_Elektroanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL8_Beleuchtung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../Uebersichtstabelle_Beleuchtung_EN12464-1.pdf (19.01.2007, 1 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf (Version 2.2, 1. September 2007, 24 S.), .../Standards_Raummodul_Buero.pdf (Version 1.1, Juli 2008, 11 S., GL AHB freigegeben 28.09.2005), .../Standards_Raummodul_Klassenzimmer.pdf (Version 2.1, Juli 2008, 10 S., GL AHB freigegeben 24.09.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf (KBOB/eco-bau/IPB 2007/2, 6 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.4 Wohlbefinden (Innenraumklima)/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf (KBOB/eco-bau/IPB 2004/4 + Grundlage "Umgang mit PCB-haltigen Fugendichtungsmassen", 8 S. Empfehlung, Grundlage S. 1-4 gelesen), .../Gutes_Innenraumklima_ist_planbar_(KBOB-Empfehlung_2004.1).pdf (KBOB/IPB 2004/1, 6 S.), .../Schadstoff_in_Bauten_(Checkliste).pdf (AHB/UGZ Stadt Zürich, 20.09.2005, 4 S.)]
+links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-submissionsverordnung-zh]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]], [[energie-baustoffe-schadstoffe-rueckbau]]
 ---
 
 # Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende
@@ -667,22 +667,437 @@ eco-bau/KBOB-Recyclingbeton-Quote (50/80 Massen-%) um die **ökologische Rangord
   Transportwege) bleibt gültig und ergänzt [[recht-norm-quellenlandkarte]] als Hintergrund zu
   eco-bau/KBOB in §6.1.
 
+## 12. GT-Richtlinien Gebäudetechnik AHB — Planungsgrundlagen, Systemwahl, Gebäudeautomation (Ordner 14.3-Richtlinien)
+
+**Run 45.** Quelle: Serie «RichtlinieGT» des AHB, Fachstelle Energie & Gebäudetechnik, Version 2.1
+(Juli 2008), Bestandteil des Systems «Richtlinien Gebäudetechnik» (in Kraft seit 4. Mai 2004,
+ISO 9001/14001 zertifiziert). Die Übersichtsbroschüre `Allgemeines_Uebersicht.pdf` (Bau-Standards
+Gebäudetechnik, September 2005) listet **neun fachspezifische GT_RL-Teilrichtlinien**
+(Planungsgrundlagen/Systemwahl/Heizung/Kühlung/Lüftung/Sanitär/Elektro/Beleuchtung/
+Gebäudeautomation) plus vier UKV-Richtlinien und **drei nutzungsspezifische Standards**
+(Raummodul Klassenzimmer, Raummodul Büro, Gebäudeautomation Pflegezentren) als EIN
+zusammenhängendes System — bestätigt damit, dass der bereits in §4 dokumentierte
+«GA-Standard Pflegezentren» und die in §14/§16 neu erschlossenen Raummodul-Standards
+Geschwister derselben Richtlinienfamilie sind, keine Einzelfunde.
+
+### 12.1 GT_RL1 Planungsgrundlagen
+
+Projekt-/Qualitätsmanagement-System: das **Projekthandbuch (PHB)** definiert Rahmen (Ziele/
+Umfang/Risiken/Kosten/Termine); ein projektspezifisches **Pflichtenheft Gebäudetechnik** ergänzt
+und präzisiert die Richtlinien, ohne sie zu wiederholen; die Fachplanenden fassen die Ergebnisse
+in einer **Projektdokumentation Energie- und Gebäudetechnik** zusammen (Energie-/GT-Konzept,
+Prinzipschemas, Nachweise, Inbetriebsetzungs-/Abnahmeprotokolle, Betriebsdokumentation,
+Anlagebeschriebe, Kostenvoranschlag).
+
+- **Technische Fachkoordination nach SIA 108** ist bei komplexeren Vorhaben (Entscheid Projekt-
+  leitung AHB) explizit zu besetzen **und zu honorieren** — verantwortlich auch für integrierte
+  Tests (praxisrelevant für Skill `honorarberechnung-sia102`/§5 dieses Artikels: Sonderleistung).
+- **Angemessene Gebäudetechnisierung (AGT):** möglichst wenig Technik für den Bedarf, hohe
+  Verfügbarkeit durch standardisierte/erprobte Lösungen, autonome Systeme mit wenigen definierten
+  Schnittstellen.
+- **Leistungsnachweis zwingend** (messtechnisch, nicht nur rechnerisch): Kesselleistung/
+  -wirkungsgrad bei Gas-/Ölfeuerung **>350 kW**, COP/JAZ von Wärmepumpen- und Kältemaschinen-
+  systemen, Luftmengen/-dichtheit von Lüftungsanlagen, Wassermengen bei weitläufigen Wärme-/
+  Kälteverteilsystemen.
+- **Betriebsoptimierung:** 1–2 Jahre fachliche Nachbetreuung bei komplexen Anlagen, Ziel Energie-/
+  Betriebskosten-Minimierung + Nachweis Einhaltung Projektvorgaben (Bericht Pflicht).
+- **Sommerlicher Wärmeschutz** über SIA 180 hinaus: Komfort auch bei Aussentemperatur >30 °C
+  (thermisch aktive Speichermasse SIA 382/1:2007 Ziff. 2.1.4, wirksamer Sonnenschutz Ziff. 2.1.3,
+  Nachtauskühlung, aktive Kühlung nur Ausnahme mit Zustimmung Fachstelle E+GT).
+- **BKP-Gliederung Ausschreibungen:** streng nach CRB-Unterteilung (SN 506 500), **mindestens
+  dreistellig**; unter BKP 235 «Apparate Schwachstrom» sind EDV-/Telefon-/Brandmelde-/
+  Uhrenanlagen **separat** aufzuführen — direkt Rule `bkp-2017-referenz` relevant für LV-Texte.
+
+### 12.2 GT_RL2 Energieversorgung — Systemwahl
+
+Grundsatz Masterplan Energie Stadt Zürich: Bedarf zuerst senken (Nutzenergie/Wirkungsgrade),
+dann Abwärme/erneuerbare Energien nutzen, erst dann übriger Bedarf mit möglichst umweltschonenden
+Trägern decken. **Gesamtheitliche Betrachtung** (nicht nur das eigene Grundstück): Anschluss-
+möglichkeiten Fernwärme/Erdgas, Abwärme-/Umweltwärmequellen in der Umgebung, Energieversorgungs-
+anlagen mit Kapazitätsreserven auf demselben/Nachbar-Grundstück (Objektdatenbank IMMO),
+gemeinsame Energieversorgung mit anstehenden Nachbar-Bauvorhaben.
+
+**Energieträger-Hierarchie** (Kernaussagen): Abwärme (Abwasser/Abluft/Kälteanlagen/EDV-Server-
+räume/USV) direkt nutzen wenn Temperaturniveau reicht; Erdwärme (Erdsonden/Energiepfähle,
+frühzeitige Bauingenieur-Koordination, Bewilligung via `erdsonden.zh.ch`); Oberflächengewässer
+(Zürichsee/Limmat/Glatt, **gemeinschaftliche** Fassungen bevorzugt wegen Unterhalt); Aussenluft
+nur für kleine Anlagen; **Wärmepumpen** gefördert (ewz-Stromsparfonds); **PV**: Solar-Contractoren
+erhalten städtische Dachflächen unentgeltlich (StRB 267/2002); **thermische Solarenergie hat bei
+Objekten mit regelmässigem Warmwasserverbrauch (Wohnen/Heime/Sportanlagen) Vorrang vor PV**;
+**Holz** grundsätzlich vor fossil, ab 150 kW Rücksprache Energiebeauftragter Stadt Zürich Pflicht;
+**Fernwärme prioritär** bei Anschlussmöglichkeit (Wirtschaftlichkeitsnachweis je Anschluss
+gefordert); **Heizöl nur subsidiär** (weder Fernwärme noch Erdgas verfügbar, Bedarf nicht durch
+Erneuerbare deckbar); **WKK fossil grundsätzlich nicht erwünscht**, ausser mit erneuerbarer Energie
+betrieben oder bei nachgewiesener ganzjähriger Bandlast.
+
+**Variantenvergleich-Pflichtelemente** (Zusatzleistung, separat zu vergüten): Systembeschrieb +
+Funktionsschema, Investitionskosten (Förderbeiträge separat ausgewiesen), Wirtschaftlichkeits-
+rechnung inkl. externe Kosten nach städtischen Kalkulationsgrundlagen, ökologische Beurteilung
+(Primärenergie erneuerbar/nicht erneuerbar, CO₂-Ausstoss, Schadstoffemissionen SO₂/NOx/PM10,
+graue Energie), Platzbedarf, technische/wirtschaftliche Risiken, Verfügbarkeit/Zuverlässigkeit,
+Erfüllung AHB-Vorgaben.
+
+### 12.3 GT_RL9 Gebäudeautomation — Delta-Check gegen §4 (GA-Standard Pflegezentren)
+
+**Ergebnis: kein Duplikat, echte eigenständige, allgemeinere Quelle.** GT_RL9 gilt für **jedes**
+AHB-Bauvorhaben unabhängig vom Nutzungstyp («Fachspezifisches Thema»); der bereits in §4
+dokumentierte «Standard Gebäudeautomation Pflegezentren» ist demgegenüber ein **nutzungs-
+spezifischer** Zusatzstandard nur für Pflegezentren (Trennung in zwei Spalten der Übersichts-
+broschüre, §12 oben, bestätigt). Neue, bisher nicht dokumentierte Fakten:
+
+- **Steuerungsgrundsätze:** bedarfsabhängig (Kette Verbraucher→Verteilung→Erzeugung bei
+  verteilten Systemen) + automatisch (keine manuellen Sommer/Winter-Umschaltungen durch
+  Betreiber).
+- **3-Ebenen-Bedienkonzept** Vorort/Zentral/Fernbedienung mit Anforderungstabelle je Bedien-
+  funktion (Wartungsmeldungen/Störungen/Betriebszustände/Sollwerte/Zeitschaltfunktionen/Ein-
+  Ausschalten); bei DDC-/SPS-Steuerungen zwingend **zusätzliche, softwareunabhängige
+  Notbedienebene** (z.B. Handschalter im Schaltschrank-Innern).
+- **4-stufige Überwachungspriorität** (allgemeiner als die 3-stufige Alarm-Priorisierung in §4.2,
+  die Pflegezentren-spezifisch ist): 1. Personenschäden vermeiden, 2. Gebäude-/Anlagenschäden
+  vermeiden, 3. Betriebsabweichungen/Störungen melden, 4. Unterhaltsfälligkeit melden.
+- **IMMO-Box:** zentrales, modulares Energiemanagement-/Anlagenmonitoring-System der Stadt
+  Zürich — programmierbarer Knoten je Gebäude, **Einsatzpflicht ab Energiebezugsfläche
+  >1'000 m²** bei Neu-/Umbauten, erfasst laufend Energieverbrauch/Betriebszustände/Heizöltank-
+  Füllstand, tägliche automatische Weiterleitung an zentrale Datenbank (Energiebuchhaltung/
+  Kennzahlen/Benchmarks/Portfolio-Auswertungen/Nachhaltigkeitsrating/verbrauchsabhängige
+  Abrechnung); Entscheid über Einsatz bei Umbauten liegt bei Abteilung Spezialtechnik IMMO
+  (IMMO-IST); objektspezifische Kennzeichnung nach demselben «Kennzeichnungssystem und
+  Beschriftungskonzept», das in §15 eigenständig destilliert wird.
+- **Projektierungsgrundsätze GA-Systeme:** dezentrale autonome Automationsstationen (Ausfall-
+  sicherheit bei Kommunikations-/Leitsystemausfall, kein Datenverlust bei Spannungsausfall),
+  **Ausbaureserve-Richtwert 30 %** (Ein-/Ausgänge, Adressraum, Speicher, CPU-/Busbelastung,
+  Leitungslängen), herstellerunabhängige Standardschnittstellen (Ausnahme nur mit Genehmigung
+  Fachstelle E+GT), Integrationsgrundsatz «kein Selbstzweck» (Signalintegration proportional
+  zum tatsächlichen Bedarf, keine von Hand konfigurierten Gateways).
+
+Kein Widerspruch zu §4.3 («konventionelle Steuergeräte/Schaltuhren nicht gestattet») — deckt
+sich mit dem hier dokumentierten «automatisch»-Grundsatz.
+
+## 13. GT-Richtlinien Gebäudetechnik AHB — Heizung, Kühlung, Lüftung, Sanitär (HLKS)
+
+**Run 45.**
+
+### 13.1 GT_RL3 Heizungsanlagen
+
+Wärmeerzeugung nach dynamischem Tages-/Jahresgang, **Leistungsreserven grundsätzlich zu
+vermeiden** (Ausnahme explizit auszuweisen); jede Anlage braucht eine **Serviceschaltung** für
+zeitweisen Volllastbetrieb unabhängig vom aktuellen Bedarf. Gas-/Ölfeuerung: modulierend mit
+gleitender Kesseltemperatur + Brennwerttechnik Standard; **Konformitätsnachweis Art. 20a LRV**
+bis 350 kW, **Abnahmemessung Pflicht >350 kW**. Wärmepumpen: JAZ **inkl. Förderenergie**
+messtechnisch nachzuweisen (Systemgrenze aufzeigen), separater Stromzähler für ewz-WP-Tarif,
+D-A-CH-Gütesiegel im unteren Leistungsbereich, Erdsonden-Druckprüfung/Durchflusstest nach
+DIN V 4279-7. Wärmeverteilung: Pumpen knapp dimensioniert (Permanentmagnet <200 W, sonst
+Effizienzklasse EFF1), Zonierung nach Last (Nord-/Südseite) und Nutzungszeit. **Wärmeabgabe:
+träge Systeme (z.B. Bodenheizung) sind in Räumen mit stark schwankenden internen Lasten
+(explizit: Schulzimmer) NICHT zulässig** — Ausnahme selbstregelnde Systeme (TABS) mit
+Oberflächentemperatur ≤25 °C; Thermostatventile mit «Behördenmodell» in öffentlichen/
+halböffentlichen Räumen.
+
+### 13.2 GT_RL4 Raumkühlung
+
+Bedarfsnachweis nach **SIA 382/1:2007 Ziff. 4.4.4 zwingend**, Realisierung bedarf in jedem Fall
+der Zustimmung der Fachstelle Energie & Gebäudetechnik (konkretisiert die bereits in §12.1/RL1
+§4.2 genannte Ausnahmeregel für aktive Kühlung). Systemwahl/-auslegung nach **maximaler
+Tagesenergie (kWh/d)**, nicht nach Spitzenleistung (kW) — Voraussetzung genügend thermisch
+aktive Speichermasse + Temperaturschwankung 3–4 K zulässig. **Freie Kühlung vor mechanischer**
+zu prüfen: Aussenluft (v.a. nachts), Erdreich (Lufterdregister/Erdsonden), Oberflächengewässer,
+Verdunstungskälte (adiabat/sorptionsgestützt). Kältemaschinen: natürliche Kältemittel (CₙHₘ,
+NH₃, CO₂) vor H-FKW (R134a/R410A/R407C) nach ChemRRV, Kondensationswärme nutzen (z.B. Brauch-
+wasser-Vorwärmung), bei gleichzeitigem Wärme-/Kältebedarf kombinierte Kältemaschine/Wärmepumpe.
+
+### 13.3 GT_RL5 Lüftungsanlagen
+
+Lüftungskonzept nach SIA 382/1:2007 Pflicht für jedes Bauvorhaben, durch Projektteam zu
+genehmigen; Dimensionierung nach hygienisch/bauphysikalisch notwendigem Luftwechsel, Wärmelasten-
+Zu-/Abfuhr über Lüftung nur Ausnahme. Lufterdregister: Material **HDPE oder Beton, kein PVC**,
+Gefälle vom Gebäude weg >1 %, Radon-/Wasserdichtheit, kein Ansaugen durch Sickerleitung.
+Luftfilterung: **Klasse F7 Standard** (Feinstaub PM-10/PM-2.5-Beachtung, Prüfzertifikat
+EN 779:2002). WRG: Temperatur-Änderungsgrad **je Anlage messtechnisch nachzuweisen und zu
+protokollieren**. Steuerung bedarfsabhängig (zeit-/präsenz-/CO₂-gesteuert je nach Belegungs-
+muster; grosse unregelmässig belegte Räume mit variablen Volumenstromreglern + CO₂-Sensoren).
+Küchenabluft: Ablufthauben mit Fortluft über Dach Standard, Umlufthauben nur wenn Abluftlösung
+unverhältnismässig aufwändig.
+
+### 13.4 GT_RL6 Sanitärinstallationen
+
+Warmwasser: bei Nutzungen mit **unterbruchsloser Warmwasserversorgung (explizit: Krankenheime)
+muss die Verfügbarkeit auch während Wartungsarbeiten (z.B. Entkalken) gewährleistet sein** —
+direkt Healthcare-relevant für Bauleitungs-Terminplanung. Verbrauch minimieren: 6-Liter-WC-
+Spülung mit 2 Spülmengen, Urinale ≤2 Liter oder wasserlos, Duschautomaten in Schul-/Sportanlagen.
+**Legionellenschutz Risikogruppe 2** (Spitäler, **Altersheime, Pflegezentren**, Bade-/Sport-
+anlagen, Wohnüberbauungen mit zentraler Wassererwärmung): bei Erneuerung — sofern nicht die
+gesamte Warmwasserinstallation neu erstellt wird — ist die **Möglichkeit einer thermischen
+Desinfektion mit 75 °C zwingend einzuplanen**, bei Wärmepumpenanlagen (Temperaturniveau
+ungenügend) Anschlüsse für eine **mobile Heizzentrale**; Ausstosszeiten nach SIA 385/3,
+temporäre Leitungen max. 0.2 m oder bei Nichtgebrauch zu entleeren/demontieren, **chemische/
+elektrophysikalische Vorbeugesysteme sind unzulässig**. Abwasser im Trennsystem SN 592000,
+kein Verlegen von Leitungen unter der Bodenplatte.
+
+## 14. GT-Richtlinien Gebäudetechnik AHB — Elektroanlagen, Beleuchtung (inkl. EN-12464-1-Kennwerte Healthcare)
+
+**Run 45.**
+
+### 14.1 GT_RL7 Elektroanlagen
+
+Elektrische Energie als integraler Teil des Energieversorgungskonzepts (enge Elektro-/HLK-
+Koordination in der Konzeptphase); Überdimensionierung vermeiden, Leistungs-/Platzreserven in
+den Projektunterlagen klar ausweisen. USV: Notwendigkeit AHB-bewilligungspflichtig, Kompakt-
+anlagen bis ca. 30 kVA in Räumen ≤25 °C, grössere Batterien in separatem Raum 22–25 °C
+(Lebensdauer-Risiko bei Übertemperatur). SGK nach **NIN 2005 Kap. 5.3**, typengeprüft (TSK)
+bzw. partiell typengeprüft (PTSK); Platzreserve 20–30 %; Farbcodes nach dem in §15 destillierten
+Kennzeichnungssystem. **Kleinkindereinrichtungen (Krippen, Kindergärten): Steckdosen Typ 13
+zwingend** (Berührungsschutz bei halbgezogenen Steckern). EMV/Elektrosmog: getrennte Energie-/
+Signalleitungsführung, durchgängiges Erdungs-/Potenzialausgleichskonzept. Sicherheitsnachweis
+(SiNa) — Verweis auf bereits in §3 dokumentiertes Merkblatt, Projektleitung AHB verantwortlich
+für Beauftragung unabhängiger Kontrolle bei Kontrollperiode <20 Jahre. UKV: eigene Richtlinien
+Verwaltungs-/Schulgebäude, bei grösseren Anlagen Musterinstallation vor definitiver Ausführung
+empfohlen.
+
+### 14.2 GT_RL8 Beleuchtung + Übersichtstabelle EN 12464-1
+
+Ziele: standardisierte, einfache Nutzersteuerung, **keine Eigenentwicklungen**, Betriebs-
+wirkungsgrad Leuchten 70–90 % (Ausnahme repräsentative Zonen). Projektierung nach **EN 12464-1**
++ Normen der Schweizer Lichtgesellschaft; Leuchtmittel **EU-Effizienzklasse A**, Long-Life-
+Fluoreszenzröhren T8/T5, Halogen-Niedervoltlampen zu vermeiden. Nachweis elektrische Energie
+nach SIA 380/4; **bei Bausumme >ca. 5 Mio. CHF drei gestaffelte Nachweise** (Projekt/
+Ausschreibung/Übergabe) einzureichen; MINERGIE-Grenzwert Beleuchtung bei Nicht-Wohnbauten
+zwingend einzuhalten. Steuerung: **halbautomatisch** (Abschaltung nach Präsenz 15 Min./
+Tageslicht >800 Lux, Einschalten manuell — Anwendung Büros/Sitzungszimmer/Schulzimmer) vs.
+**automatisch** (Ein-/Ausschaltung über Bewegungs-+Tageslichtsensoren — Anwendung Verkehrs-
+flächen/Toiletten/Garderoben/Parkgaragen). Notbeleuchtung nach NIN SN SEV 1000:2005 + SN EN 1838
++ (>5 Notleuchten) SN EN 50171 Zentralbatteriesystem, Funktionserhaltkabel ≥60 Minuten.
+
+**Übersichtstabelle Beleuchtung EN 12464-1/SIA 2024** (AHB, 19.01.2007) — Auszug mit direkter
+Healthcare-Relevanz (Mittlere Beleuchtungsstärke E_m in Lux / UGR-Blendungswert):
+
+| Raumnutzung | E_m [lx] | UGR | Spezielle Bereiche | E_m [lx] |
+|---|---|---|---|---|
+| Bettenzimmer | 100 | 19 | Lesebereich | 300 |
+| Bettenzimmer, einfache Untersuchung | 300 | 19 | — | — |
+| Stationszimmer | 300 | 19 | — | — |
+| Behandlungsräume | 500 | 19 | einfache Untersuchungen | 300 |
+| Verkehrsfläche Spitäler | 200 | 28 | — | — |
+| Schulzimmer | 500 | 19 | Kindergarten | 300 |
+| Lehrerzimmer | 300 | 19 | — | — |
+| Bibliothek | 200 | 19 | Lesebereich | 500 |
+| Hörsaal | 500 | 19 | Demonstrationszone | 750 |
+| Spezialschulraum (Physik/Chemie/Schulküche) | 500 | 22 | Demonstrationszone | 500 |
+| Turnhalle/Sporthalle | 300 | 22 | Wettkampfsport (national/international) | 500 (bzw. 750) |
+
+Ergänzt die bereits im Skill `brandschutz`/`kostenschaetzung` verwendeten Healthcare-Raumtypen
+um belegte Beleuchtungsstärken-Kennzahlen für Devisierung/Elektro-LV.
+
+## 15. Kennzeichnungssystem und Beschriftungskonzept Gebäudetechnik — Delta zu §2
+
+**Run 45.** Delta-Check gegen §2 (CAFM-Bezeichnungssystem, Merkblatt für Bezeichnungen IMMO,
+13.12.2006): **kein Duplikat.** `Standards_Kennzeichnungssystem_V2.2.pdf` (AHB Fachstelle Energie
+und Gebäudetechnik, Version 2.2, 1. September 2007, 24 S., vollständig gelesen) ist eine
+eigenständige, technischere Quelle — in Anlehnung an **DIN EN 6779-12, DIN 6779-1, DIN EN 61346-1
+und -2** aufgebaut und regelt die Bezeichnung der **gebäudetechnischen Anlagen/Komponenten
+selbst** (Schaltgeräte-Kombinationen SGK, betriebstechnische Anlagen BTA, messtechnische Anlagen
+MTA, Aggregate/Sensoren/Aktoren, GA-Systemkomponenten/Datenpunkte), während §2 nur die
+**Orts-/Raumebene** (Standort/Gebäude/Geschoss/Raum/Tür/Parkplatz) für Bewirtschaftungspläne
+abdeckt. Beide Systeme teilen den Orts-Präfix (Standort S/Gebäude G), gehen aber danach
+auseinander.
+
+- **6 Kennzeichnungsblöcke:** Standort (S) / Gebäude (G) / Ort — Stockwerk+Raum / **Anlage (=)**
+  / **Komponente, Strompfad (.)** / **Anschluss, Funktion, Signal (:)**.
+- **Anlagen-Kennbuchstaben nach Gewerk:** C automatisierungstechnische Anlagen · D daten-
+  technische Anlagen · E elektrotechnische Anlagen · F Fernmelde-/IT-Anlagen · H Wärme-
+  versorgungsanlagen · J Förderanlagen · K Kältetechnische Anlagen · L Raumlufttechnische
+  Anlagen · M Medienversorgungsanlagen · P Feuerlöschanlagen/Feuerlöscher · Q Küchentechnische
+  Anlagen · S Abwasser-/Wasser-/Gasanlagen · V Entsorgungsanlagen · X Nutzungsspezifische Anlagen
+  · Y Übergeordnete Anlagen · Z Sonstige Anlagen.
+- **Komponenten-Kennbuchstaben nach Funktion** (Auswahl, 20 Buchstaben A–W/X/Y): A Sammel-/
+  Mehrfachfunktion · B Überwachen/Aufspüren (Bewegungsmelder/Fühler/Sensor) · C Speichern
+  (Behälter/Pufferspeicher/Tank) · E Erzeugen von Wärme/Kälte/Strahlung (Wärmepumpe/Kessel/
+  Leuchte) · F Absorbieren/Isolieren/Schützen (Brandschutzklappe/Überspannungsableiter) ·
+  G Erzeugen von Fluss (Pumpe/Ventilator/Lift) · H Alarmieren/Anzeigen (Signallampe/Sirene) ·
+  K Steuern/Regeln (Regler/Ventil/Schaltrelais) · M Antreiben (Motor/Stellantrieb) · P Anzeigen/
+  Messen vor Ort (Zähler/Thermometer/Manometer) · Q Kuppeln/Schalten/Schliessen (Absperrklappe/
+  Tor/Tür) · R Begrenzen/Dämpfen (Drosselklappe/Rückschlagventil) · S Bedienen (Taster/
+  Bedienelement) · T Umformen/Verstärken (Frequenzumrichter/Transformator) · U Halten/Tragen
+  (Kabelkanal/Konsole) · V Trennen/Mischen/Filtern (Mischventil/Filter) · W Leiten (Kabel/Kanal/
+  Rohrleitung) · X Verbinden (Kupplung/Anschlussklemme) · **Y Übergeordnete Komponenten
+  (Beispiel: IMMO-Box)**.
+- **Signal-Kennbuchstaben:** getrennt nach «Bedienen und Beobachten» (A Befehl Handeingriff,
+  B Analogsignal Sollwert) vs. «Automatisierungssysteme» (D/E/F/G/H/J/K) vs. «Prozessperipherie/
+  Feldebene» (P/Q/R/S/T/Z).
+- **Beschriftungskonzept:** Medienbezeichnungen/Abkürzungen je Gewerk (Elektro ENS/EMS/EHV/EUV/
+  EKS/UKV, Heizung HEI/HEV/HER/WRG/FWV/FWR, Kälte KAE/KAV/KAR/RUE, Lüftung AUL/ZUL/ABL/UML/FOL,
+  Sanitär WTK/WTW/WAR/WAS/GAS, IMMO-Box-Tarifsignale ENN/ENH/EWN/EWH/BMH/BMS/ALM/ALS/ALA);
+  Bezeichnungsschilder Feldapparate HLKKSE (Aluminium schwarz matt eloxiert, graviert, 100×30 mm);
+  Anlagenbezeichnungs-/Leistungsschilder mit **Farbcode nach SIA 410/1** (Sanitär/Heizung/Kälte
+  grün-rot-grün, Lüftung blau, Gas gelb, Elektro gelb); Medienpfeile für Leitungen/Kanäle (alle
+  15 m im Gebäude, alle 30 m im Energiekanal/Garage); SGK-Aussenfarben (Elektro RAL 1004
+  goldgelb, Elektro Mittelspannung RAL 2000 orange, HLKKS/Sanitär RAL 5012 lichtblau, UKV
+  RAL 7035 hellgrau); Hauptkabel-/Installationskabel-/Steckdosen-/Abzweigdosen-Beschriftung mit
+  vollständiger Kennzeichnungskette.
+
+**JANS-Relevanz:** direkt einsetzbar für die Beschriftungs-/Kennzeichnungs-Auflagen in
+Elektro-/HLKS-Leistungsverzeichnissen von Stadt-ZH-Mandaten (Skills `ausschreibung`/
+`unternehmerkontrolle`) und ergänzt §2 um die technische Anlagenebene, die dort bisher fehlte.
+Status established (Primärquelle vollständig gelesen, keine konkurrierende Zweitquelle nötig).
+
+## 16. Raummodul-Standards Gebäudetechnik — Büro und Klassenzimmer
+
+**Run 45.** Quelle: «Raummodul Büro» (Standard Gebäudetechnik, Version 1.1, Juli 2008, durch
+GL AHB am 28.09.2005 freigegeben) und «Raummodul Klassenzimmer» (Version 2.1, Juli 2008,
+GL AHB am 24.09.2003 freigegeben) — beide in Zusammenarbeit mit IMMO. Gültigkeitsbereich:
+Neubauten + weitgehender/vollständiger GT-Ersatz zwingend; bei Instandsetzungen Verhältnis-
+mässigkeitsprüfung; Abweichungen/Optionen bedürfen Genehmigung durch Projektausschuss +
+Fachstelle Energie und Gebäudetechnik.
+
+### 16.1 Raummodul Büro — Kennzahlen
+
+- **Beleuchtung:** 500 Lux auf Tischhöhe (70 cm); 2 Beleuchtungszonen (Fenster-/Korridorseite),
+  bei Grossraumbüro (>4 Arbeitsplätze) 2 Zonen **je Gebäudeachse**; Einschalten immer Handtaster,
+  Ausschalten Handtaster/Präsenzmelder (15 Min. keine Präsenz)/Tageslicht (>800 Lux, je Zone
+  separat erfasst); **keine Beleuchtungsszenen**, Beleuchtungs- und Storensteuerung nicht
+  verknüpft. Option Stehleuchten: zusätzlich Grundbeleuchtung ca. 100 Lux gewährleisten.
+- **Beschattung:** Rafflamellenstoren mit 4 Positionen (offen/geschlossen1 lichtdurchlässig/
+  geschlossen2 vollständig/Service mit höherer Priorität); Zeitprogramm Metallstoren
+  Nachtstellung 22:00–06:00 (Wochenende/Ferien durchgehend), Textilstoren immer «offen» ab
+  22:00 (Montag–Sonntag); Sicherheitsbetrieb Frostsicherung (<2 °C + rF >95 %) + Sturmsicherung
+  übersteuert automatisch in Position «offen».
+- **Elektroanlagen:** **4 Steckdosen + 4 kombinierte EDV-/Telefonanschlüsse (UKV, RJ45) je
+  Arbeitsplatz**, 1 Wandsteckdose für Reinigungsgeräte beim Eingang, separate Sicherungsgruppe
+  für Arbeitsplatz-Steckdosen.
+- **Lüftung:** zentrale Zeitsteuerung, Einschalten **mindestens 30 Minuten vor Arbeitsbeginn**
+  (Vorspülung); Option Volumenstromregler: jedes Büro eigene Zone, Freigabe erst nach 10 Min.
+  Präsenzsignal, Nachlauf mindestens 30 Minuten nach Präsenzende.
+- **Heizung:** Thermostatventile nach oben begrenzt; Option Einzelraumregelung (bei
+  Instandsetzungen) ±2 K Sollwert-Anpassbereich für Nutzende.
+- **Raummodul-Kennwerte** (Prinzipschema): Raumtemperatur 21 °C, Raumfeuchte nicht kontrolliert,
+  Fensterelement öffenbar ≥5 % der Bodenfläche, Bodenfreiheit Heizkörper min. 15 cm (Reinigung).
+
+### 16.2 Raummodul Klassenzimmer — Kennzahlen und Delta zu Büro
+
+- **Beleuchtung: 3 Zonen** statt 2 (Fensterseite/Korridorseite/**Wandtafel**) — die Wandtafel-
+  beleuchtung wird **nur über Handtaster + Präsenzmelder aus-, NICHT über Tageslicht**
+  ausgeschaltet (didaktischer Grund, Delta zu Büro).
+- **Elektroanlagen:** 4 Steckdosen 3×230 V + 1 Steckdose bei der Türe (beide über
+  Fehlerstromschutzschalter) + 4 Kommunikationssteckdosen je Schulzimmer; in **Handarbeits-/
+  Werkräumen zentraler Schlüsselschalter** für die Arbeitsplatz-Steckdosen (Sicherheits-Delta
+  zu Büro).
+- **Beschattung:** bei **Neubauten ist motorisierter Sonnenschutz mit Steuerung grundsätzlich
+  zu installieren** (nicht optional wie beim Büro-Raummodul); separate, nicht automatisierte
+  **Verdunkelungseinrichtung für Film-/Diaprojektion** (Vorhang/Rollo).
+- **Heizung:** schnell reagierende Heizflächen + **zentrale Absenkung** (Schulferienbetrieb) als
+  ausdrückliche Vorgabe — beim Büro-Raummodul nicht vorgesehen.
+- **Raummodul-Kennwerte:** identische Struktur zum Büro (21 °C, 500 Lux, 25 m³/h·Person,
+  CO₂-Grenzwert 1'500 ppm, Fensterelement ≥5 % BF, Bodenfreiheit 15 cm), Nutzung ausgewiesen als
+  «Klassenunterricht, Abendkurse, weitere».
+
+**JANS-Relevanz:** direkt einsetzbares, belegtes Gebäudetechnik-Anforderungsprofil für die
+JANS-Priorität Schul-/Bildungsbau (Rule 260713, Skill `wettbewerb`) sowie für Büro-Devisierung
+bei eigenen Projektorganisationen; ergänzt den bereits in §4 dokumentierten GA-Standard
+Pflegezentren um zwei weitere reale, gleich strukturierte AHB-Nutzungsstandards.
+
+## 17. Nachhaltiges Bauen — KBOB-Einzelmerkblätter: Delta-Check gegen §6.1
+
+**Run 45.** Drei der in §6.1 als «niedrige Priorität, nicht einzeln destilliert» geführten
+KBOB-Einzelmerkblätter (Ordner 18.3/18.4) wurden gezielt gegen den bestehenden §6.1-Stand
+geprüft (Recyclingbeton-Quote, Innenraumklima-Grenzwerte).
+
+### 17.1 Recycling-Beton (KBOB-Empfehlung 2007/2) — echter Delta
+
+§6.1 dokumentiert bereits die reine Quote (Konstruktionsbeton ≥50 Massen-%, Füll-/Hüll-/
+Unterlagsbeton ≥80 Massen-%, Umkreis 25 km). Das KBOB-Merkblatt «Beton aus recyclierter
+Gesteinskörnung» 2007/2 (vollständig gelesen) liefert dazu die bisher nicht dokumentierte
+**Drei-Kategorien-Systematik**: **RC-W** (physikalisch/chemisch/thermisch gereinigte Gesteins-
+körnung aus kontaminiertem Erdaushub, rund, Qualität wie Primärbeton), **RC-B** (Betongranulat
+aus Betonabbruch, gebrochen, Qualität wie Primärbeton mit gebrochenem Korn), **RC-M**
+(Mischabbruchgranulat, gebrochen, **grösseres Schwinden/Kriechen/grössere Durchbiegungen als
+Primärbeton, nur für Innenbauteile ohne Witterungsexposition einsetzbar**) — je mit einer
+Einsatzbereichs-Matrix nach Expositionsklasse SIA 262 (z.B. Wände/Decken/Treppen innen trocken
+XC1/XC2 → alle drei Sorten geeignet; Aussenfassaden/wasserbenetzte Flächen XC4/XF1 → nur RC-B/
+RC-W; Sauberkeitsschicht/Füll-Hüllbeton X0 → alle drei). ⚠ Frost-/Frost-Tausalzbeständigkeit von
+RC-Beton war 2007 **nicht nachgewiesen** (Datenstand-Vorbehalt, bei aktuellem Projekt zu
+verifizieren). Reale Stadt-ZH-Referenzprojekte mit belegten Anteilen: **Werdwies** (RC-B 100 %
+wasserdichtes UG + Decken + Sichtbeton EG; **RC-M erstmals schweizweit in grösserem Umfang aus
+100 % Mischabbruch in tragenden Innenwänden**, mit EMPA-Vorversuchen abgesichert), **Forum
+Chriesbach** (21 % RC-B Geschossdecken), **Hirzenbach** (RC-B eingefärbt Sichtbeton), **Hardau**
+(RC-W Sichtbeton + wasserdicht), **Im Birch** (46 % RC-W wasserdicht/vorgespannt + 45 % RC-B
+Wände/Decken). Status established (Primärquelle KBOB, reale Projektbelege).
+
+### 17.2 «Gutes Innenraumklima ist planbar» (KBOB 2004/1) — Delta zu §6.1
+
+Zwei neue Fakten gegenüber der bisherigen §6.1-Kurzfassung: (1) eine **phasenbezogene
+Verantwortungsmatrix** (Vorstudien: Immissionen Standortevaluation → Projektierung: Zielvorgabe
+Pflichtenheft + Zielvereinbarung Planervertrag + Materialoptimierung Hauptnutzungen (Büro/
+Betten-/Klassenzimmer) + Gebäudecheck Asbest/PCB/PCP bei Umbauverdacht → Ausschreibung:
+Emissionsvorgaben als mögliches Zuschlagskriterium → Realisierung: Bauleitungs-Abschluss-
+messungen (bis mehrere Tausend Franken) + Austrocknungs-/Auslüftungszeiten vor Bezug →
+Bewirtschaftung: Nutzerinformation + Befragung nach 1 Jahr); (2) ein **konkreter Zielvereinbarungs-
+Mustertext** mit dem in §6.1 bisher fehlenden **CO₂-Grenzwert: Mittelwert 1'000 ppm / Spitzenwert
+1'500 ppm unter Nutzungsbedingungen**, zusätzlich Formaldehyd <62 µg/m³ (§6.1 nennt <60 µg/m³ —
+gleiche Grössenordnung, keine widersprüchliche Aussage, eher gerundete Fassung), TVOC
+<1'000 µg/m³ (deckungsgleich) sowie «keine humankanzerogenen Verbindungen nachweisbar bzw. max.
+25 % über Aussenluft (Beispiel Benzol)». Vier reale, mit Kennzahlen belegte Schadenfälle als
+Anschauungsmaterial: Formaldehyd-Bauverzögerung 6 Monate + siebenstellige Mehrkosten
+(Holzwerkstoff-Sanierung, Ersatz durch EC1-Kleber-Spanplatte), Keimbelastung 14-fach durch
+stehendes Wasser im Lufterdregister-Eintritt, Lösemittelkonzentration 47 % bei Kunstharz-
+Fliessbelag-Versiegelung (SVOC-Hinweis Glykole), CO₂-/Schimmel-Problem in einer 1994 erstellten
+Kinderkrippe ohne kontrollierte Lüftung. Status established.
+
+### 17.3 «Schadstoffe in Bauten» — Checkliste AHB/UGZ Stadt Zürich (20.09.2005) und PCB-Fachmerkblatt (KBOB 2004/4) — Delta zu §6.1 und Cross-Ref [[energie-baustoffe-schadstoffe-rueckbau]]
+
+Die städtische Checkliste (AHB Fachstelle nachhaltiges Bauen + Umwelt- und Gesundheitsschutz
+Zürich UGZ, «Dokumentation Bauen + Ökologie, Innenraumklima 4.14», vollständig gelesen) ergänzt
+die bereits als [[energie-baustoffe-schadstoffe-rueckbau]] (E36, kantonale AWEL-Checkliste)
+dokumentierte Domäne um zwei Ebenen: (1) einen **dritten Schadstoff PCP** (Pentachlorphenol,
+Holzschutzmittel-Fungizid, Verbot 1989 StoV, Verwendungsschwerpunkt 1950–75) neben Asbest und
+PCB, mit eigenen Grenzwerten **Eingreifwert 1 µg/m³ / Qualitätsziel Luft <0.1 µg/m³** — bisher in
+keinem der beiden Zielartikel dokumentiert; (2) eine vierspaltige Synopse-Tabelle Asbest schwach
+gebunden/Asbest stark gebunden (Asbestzement)/PCB/PCP mit Verwendungszweck-Baujahr, Vorschriften
+(SUVA-Merkblätter/EKAS-Richtlinie 6503), Grenzwerten (**Asbest-Toleranzgrenze 700 LAF/m³**
+Lungengängige Asbestfasern; **PCB 6/2 µg/m³ Vorsorgewerte Tages-/Dauerbelastung** — deckungsgleich
+mit §6.1 und dem PCB-Merkblatt 2004/4, kein Delta), Fachfirmen-Zuständigkeit und Kataster-
+Verantwortung (Stadt ZH: UGZ; Kt. ZH: AWEL vertreten durch Basler&Hofmann). Der Anhang «mögliche
+schadstoffhaltige Baumaterialien» ist deutlich granularer als die bereits dokumentierte
+AWEL-Checkliste (z.B. Asbestgewebe in Dichtungen von Cheminée-/Heizungstüren, PCB-Weichmacher in
+Deckenplatten-Anstrichen und Kunstharzlacken, PCP in importierten Lederwaren/Orientteppichen).
+
+Das begleitende Fachmerkblatt **«PCB in Fugendichtungsmassen» (KBOB 2004/4)** samt 18-seitiger
+Grundlage «Umgang mit PCB-haltigen Fugendichtungsmassen» (Auszug S. 1–4 gelesen) vertieft den
+bereits in §6.1 zitierten PCB-Befund («jedes vierte 1955–75-Gebäude PCB-haltig in hoher
+Konzentration») um einen **4-stufigen Abklärungs-Entscheidbaum**: Bauweise (Betonskelett/
+Elementbau?) → Baujahr 1955–75? → Fugendichtungsmassen vorhanden? → chemische Analyse
+(>50 ppm = Sanierungspflicht als Sonderabfall) → bei betroffenen Innenfugen zusätzlich
+Innenraumluftmessung, sofern PCB-Gehalt im Prozentbereich UND viele Fugen je Raumvolumen UND
+lange Aufenthaltszeit (Jahresmittelwert Tagesaufenthalt >6 µg/m³ bzw. Dauer >2 µg/m³ löst
+Sofortmassnahmen aus). Vorgaben für Ausschreibung (Arbeitsmittel/Schutzvorkehrungen/
+Abfallentsorgung als Pflichtangaben) und Realisierung (unabhängige Prüfung durch Bauleitung/
+Fachleute).
+
+**Cross-Referenz:** die PCP-Ergänzung und die granularere Bauteilliste sind primär für den
+Artikel [[energie-baustoffe-schadstoffe-rueckbau]] relevant (dort §6 als neue kurze Ergänzung
+angelegt, kein Duplikat) — hier nur als AHB-Stadt-ZH-Kontext-Kurzfassung dokumentiert.
+
 ## 9. Backlog — weitere Unterordner des «Projektadmin AHB»-Bündels (noch nicht ausgewertet)
 
-Der Ordner umfasst zehn nummerierte Themenbereiche; folgende sind nach Run 42 noch offen für
+Der Ordner umfasst zehn nummerierte Themenbereiche; folgende sind nach Run 45 noch offen für
 Folgeläufe (niedrige bis mittlere Priorität, da eher Vertragsmuster/Prozessvorlagen als
 Planungsgrundlagen im engeren Sinn):
 
-- **18-Nachhaltiges Bauen, Rest**: 26 Checklisten/Merkblätter/KBOB-Empfehlungen in 18.1-18.5
-  zu Einzelthemen (Dachbegrünung, Baustellenkontrolle, Devis-/Raumluftprüfung, Schadstoffe,
-  Gebäudescreening, Elektrosmog, PCB-Fugendichtung, Holzwerkstoffe, Topten-Haushaltgeräte,
+- **18-Nachhaltiges Bauen, Rest**: 23 der ursprünglich 26 Checklisten/Merkblätter/KBOB-
+  Empfehlungen in 18.1–18.5 sind weiterhin offen (Dachbegrünung, Baustellenkontrolle, Devis-/
+  Raumluftprüfung, Gebäudescreening, Elektrosmog, Holzwerkstoffe, Topten-Haushaltgeräte,
   Solarstromanlagen) sowie das 51-seitige «Richtlinie ECO-BKP (Merkblätter nach BKP)»-Kompendium
   und die 16-seitige «Bauen für die 2000-Watt-Gesellschaft»-Begründungsschrift — Grundprinzipien
-  bereits über §6.1/6.3 abgedeckt, Einzelmerkblätter niedrige Priorität.
-- **14-Energie und Gebäudetechnik** (Rest): GT_RL1-9-Richtlinienserie (Planungsgrundlagen/
-  Systemwahl/Heizung/Kühlung/Lüftung/Sanitär/Elektro/Beleuchtung/Gebäudeautomation, Version 21) —
-  generische städtische TGA-Planungsrichtlinien, nur §4 (Standards Gebäudeautomation
-  Pflegezentren, aus Run 39) bisher ausgewertet.
+  bereits über §6.1/6.3 abgedeckt, Einzelmerkblätter niedrige Priorität. **Run 45 hat drei dieser
+  Merkblätter bereits ausgewertet und als echte Deltas eingearbeitet** (Recyclingbeton 2007/2,
+  Gutes Innenraumklima 2004/1, Schadstoffe in Bauten/PCB-Fugendichtung 2004/4 → §17).
+- **14-Energie und Gebäudetechnik**: die gesamte GT_RL1-9-Richtlinienserie (Planungsgrundlagen/
+  Systemwahl/Heizung/Kühlung/Lüftung/Sanitär/Elektro/Beleuchtung/Gebäudeautomation) sowie das
+  Kennzeichnungssystem und die beiden Raummodul-Standards sind mit Run 45 **vollständig
+  ausgewertet** (→ §12–§16). Offen bleiben nur vier kleinere Einzelrichtlinien im selben Ordner
+  (`Richtlinie_Anlagedokumentation E/H L S.pdf`, `Richtlinie_Raumtemperatur_Stadtrat.pdf`,
+  `Verzeichnis_Vorschriften_Normen_Richtlinien.xls`) sowie die vier UKV-Teilrichtlinien
+  (Kommunikationsverkabelung Verwaltungs-/Schulgebäude, Kommunikationsräume, LWL) — niedrige
+  Priorität, da bereits mehrfach referenziert (§14.1) ohne eigenen Fachinhalt über die
+  Titelnennung hinaus.
 - **09-Projektdokumentation / 10-Projektablauf / 04-Grafikvorlagen**: reine Büro-/CI-Vorlagen
   (Ordnerrücken, CD-Label), niedrigste Priorität — vermutlich bestätigter Nicht-Fund für die
   Planungsgrundlagen-KB.
@@ -693,6 +1108,6 @@ Zürich für beauftragte Planer** (analog einem kantonalen Pflichtenheft, aber S
 (Hochbaudepartement/GUD/Schulamt). Nicht zu verwechseln mit der bereits dokumentierten
 **kantonalen** Submissionsverordnung ZH ([[recht-norm-submissionsverordnung-zh]]) — «AHB» hier
 bezeichnet das Amt, nicht die Allgemeinen Bedingungen SIA (Doppel-Bedeutung des Kürzels beachten).
-Mit Run 41 sind die drei aus JANS-Sicht wertvollsten verbleibenden Bereiche (Honorarwesen,
-Nachhaltiges Bauen, Submissions-/CAD-Vollzug) erschlossen; der Rest ist Detailtiefe ohne neue
-Grundprinzipien.
+Mit Run 45 sind acht der zehn Themenbereiche (Bauwerkdokumentation, Ingenieurwesen, Honorarwesen,
+Nachhaltiges Bauen, Submissions-/CAD-Vollzug, Energie-/Gebäudetechnik-Richtlinien, Kennzeichnungs-
+system, Raummodul-Standards) erschlossen; der Rest ist Detailtiefe ohne neue Grundprinzipien.

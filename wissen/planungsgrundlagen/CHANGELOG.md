@@ -2,6 +2,74 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-14 — Training Run 45 (Recht & Norm, Token-Vollgas): GT-Richtlinien-Serie AHB komplett ausgewertet + Kennzeichnungssystem-Delta + Raummodul-Standards NEU + KBOB-Merkblatt-Delta-Check
+- **§12–§14 GT-Richtlinien Gebäudetechnik AHB (Ordner `14-Energie-und Gebaeudetechnik/
+  14.3-Richtlinien`) — komplette Serie GT_RL1-9 vollständig gelesen** (bisher war nur §4 GA-
+  Standard Pflegezentren bekannt): Planungsgrundlagen (Projekthandbuch/Pflichtenheft GT,
+  Leistungsnachweis-Pflicht Kessel >350 kW/COP-JAZ, BKP-Gliederung mind. dreistellig),
+  Systemwahl (Energieträger-Hierarchie, thermische Solarenergie vor PV bei Wohnen/Heime/Sport,
+  Fernwärme prioritär), Heizung/Kühlung (**träge Wärmeabgabesysteme in Schulzimmern NICHT
+  zulässig**, Kühlungs-Bedarfsnachweis SIA 382/1:2007 zwingend), Lüftung/Sanitär
+  (**Legionellenschutz Risikogruppe 2 — Spitäler/Altersheime/Pflegezentren: thermische
+  Desinfektion 75 °C bei Erneuerung zwingend einzuplanen**), Elektro/Beleuchtung (EN-12464-1-
+  Übersichtstabelle mit belegten Healthcare-Beleuchtungsstärken: Bettenzimmer 100/300 lx,
+  Behandlungsräume 500 lx, Verkehrsfläche Spitäler 200 lx). **GT_RL9 Gebäudeautomation
+  Delta-Check gegen §4: kein Duplikat** — eigenständige, allgemeinere Richtlinie (jedes
+  AHB-Bauvorhaben) mit neuen Fakten: IMMO-Box (zentrales Energiemonitoring-System, Pflicht ab
+  EBF >1'000 m²), 3-Ebenen-Bedienkonzept, 4-stufige Überwachungspriorität, 30 %-Ausbaureserve-
+  Richtwert.
+- **§15 Kennzeichnungssystem und Beschriftungskonzept Gebäudetechnik NEU** (`Standards_
+  Kennzeichnungssystem_V2.2.pdf`, 1.9.2007) — Delta-Check gegen §2 CAFM-Bezeichnungssystem:
+  kein Duplikat, eigenständige technischere Quelle nach DIN EN 6779-12/DIN 6779-1/
+  DIN EN 61346-1+2 für die gebäudetechnischen Anlagen/Komponenten selbst (SGK/BTA/MTA/
+  Aggregate/GA-Datenpunkte) statt der Orts-/Raumebene aus §2.
+- **§16 Raummodul-Standards Büro und Klassenzimmer NEU** — belegte Gebäudetechnik-Kennzahlen
+  (Beleuchtung/Beschattung/Elektro/Lüftung/Heizung je Raumtyp); Klassenzimmer-Delta zu Büro:
+  3. Beleuchtungszone Wandtafel (kein Tageslicht-Ausschalten), motorisierte Beschattung bei
+  Neubauten Pflicht (nicht optional wie Büro), zentrale Heizungsabsenkung Schulferien —
+  direkt nutzbar für die JANS-Priorität Schul-/Bildungsbau (Rule 260713).
+- **§17 KBOB-Einzelmerkblätter — Delta-Check gegen §6.1, drei echte Deltas:** Recyclingbeton
+  (KBOB 2007/2 liefert RC-W/RC-B/RC-M-Kategorien + Expositionsklassen-Matrix + reale
+  Stadt-ZH-Referenzprojekte Werdwies/Forum Chriesbach/Hirzenbach/Hardau/Im Birch), Gutes
+  Innenraumklima (KBOB 2004/1 liefert Phasen-Verantwortungsmatrix + bisher fehlenden
+  CO₂-Grenzwert 1'000/1'500 ppm + vier reale Schadenfälle), Schadstoffe-in-Bauten-Checkliste
+  (AHB/UGZ Stadt Zürich 2005 liefert **PCP als dritten Schadstoff-Typ**, Grenzwerte
+  1/0.1 µg/m³) — Letzteres zusätzlich als Cross-Ref-Ergänzung (kein Duplikat) in
+  [[energie-baustoffe-schadstoffe-rueckbau]] §6 eingearbeitet.
+- Artikel-Backlog (§9) entsprechend bereinigt: GT-Richtlinienserie, Kennzeichnungssystem und
+  Raummodul-Standards sind nicht mehr offen; von den 26 Nachhaltiges-Bauen-Einzelmerkblättern
+  sind drei ausgewertet, 23 bleiben niedrige Priorität.
+- Register nachgeführt: `training/curriculum.md` (R44-R51), `wiki/QUESTIONS.md` (§B),
+  `raw/_INGESTED.md` (2 Zeilen), `wiki/INDEX.md` (beide betroffenen Artikel-Zeilen).
+
+## 2026-07-14 — Training Run 45 (Brandschutz, Token-Vollgas): Cheminees/Spaenefeuerungen/Schnitzelfeuerungen/Pelletsfeuerungen NEU (Run-42-Backlog abgeschlossen)
+- **Brandschutz — vier neue Abschnitte im Wegweiser [[brandschutz-pl03-wegweiser]] (established):**
+  §5ai **Cheminées** (VKF-Erlaeuterung 103-15de, 14 S. vollstaendig gelesen, Stand 01.01.2015,
+  genehmigt 23.09.2014) — EN-13229-Cheminées nach Leistungserklaerung/Aufstellanleitung,
+  individuell erstellte Speichercheminées 0.12 m RF1 + 60 mm Mineralwolle, Sicherheitsabstand
+  0.1 m seitlich / **0.8 m bei offenem/verglastem Feuerraum**, Vorbelag ≥ 0.4 m, Cheminéeschürze
+  EI 60 bei Holzverkleidung mit ≥ 20 mm dauerhaft hinterlüfteter Luftspalt. §5aj
+  **Spänefeuerungen** (VKF-Erlaeuterung 104-15de, 17 S.) — Heizraum **IMMER EI 60 unabhängig der
+  Nennwärmeleistung** (keine kW-Erleichterung, strenger als Schnitzel/Pellets), zwei zwingend
+  unabhängige Rückbrandsicherungen SLE+RSE, freistehende Silos **10 m Mindest-Sicherheitsabstand**,
+  offene Lagerbehälter im Freien max. 40 m³. §5ak **Schnitzelfeuerungen** (VKF-Erlaeuterung
+  105-15de, 12 S.) — eigenständige Kategorie (Korngrösse 40/20/10 mm, Feuchte > 20 %),
+  **70-kW-Erleichterungsschwelle** (Aufstellraum EI 30 statt Heizraum EI 60, darf bei geringem
+  Brandrisiko andere Zwecke dienen), dreistufiges Rückbrandsicherungs-Regime je nach
+  Austragungsart (RHE / RSE+TÜB / RSE+SLE+TÜB), Ausräumöffnungs-Staffel 1.0x0.7/2.0x0.9/2.5x1.5 m.
+  §5al **Pelletsfeuerungen** (VKF-Erlaeuterung 106-15de, 14 S.) — Pellets Ø 5-7 mm/Feuchte ≤ 10 %/
+  **1 m³ ≈ 650 kg**, identische 70-kW-Schwelle und Ausräumöffnungs-Staffel wie Schnitzel, aber
+  **fünf** statt drei gestaffelte Rückbrandsicherungs-Fallgruppen (feinste Granularität aller
+  vier Feuerungstypen, wegen zusätzlicher pneumatischer Förderoptionen), pelletsspezifische
+  **CO-Belüftungspflicht** + Prallschutzmatten-Pflicht bei der Befüllung. Alle vier ehrlich als
+  **niedrige bis mittlere JANS-Priorität** eingeordnet (primär Wohn-/Landwirtschaftsbauten-
+  Relevanz, kaum Healthcare-/Schulbau-Grossprojekt-Bezug), aber vollständigkeitshalber jetzt
+  destilliert — schliesst den in Run 42 «Naechste Schritte» explizit vorgemerkten Backlog
+  (Cheminées/Spänefeuer/Schnitzelfeuerung/Pelletsfeuerung) vollständig ab. Damit ist der Ordner
+  `04 Erläuterungen Brandschutz 2015/` vollständig ausgewertet (alle 8 VKF-Erläuterungen 100-108
+  jetzt im Wegweiser dokumentiert).
+- Register nachgefuehrt: `training/curriculum.md` (B36-B39), `wiki/QUESTIONS.md` (C33), `raw/_INGESTED.md`.
+
 ## 2026-07-14 — Training Run 44 (Kartenportale + Energie, Token-Vollgas): NEU ÖREB-Kataster-System ZH (amtliches ID-Register + Vorwirkung-Mechanik)
 - **NEU [[kartenportale-oereb-kataster-system-zh]] (established):** ausgewertet aus
   `Grundstueckkataster/Allgemein/oereb_weisung_v3.pdf` — amtliche «Weisung ÖREB-Kataster Betrieb

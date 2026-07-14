@@ -188,6 +188,36 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R44-R51 (Run 45, 2026-07-14, Token-Vollgas)** Acht Selbstfragen zur GT-Richtlinien-Serie
+  AHB (Ordner `14-Energie-und Gebaeudetechnik/14.3-Richtlinien` + `14.5-Standards`) und drei
+  KBOB-Einzelmerkblätter (`18-Nachhaltiges Bauen/18.3+18.4`) abgearbeitet, alle Quellen direkt
+  gelesen. **R44 (GT_RL1 Planungsgrundlagen):** Projekt-/Qualitätsmanagement-System
+  (Projekthandbuch/Pflichtenheft GT/Projektdokumentation), Leistungsnachweis-Pflicht (Kessel
+  >350 kW/COP-JAZ/Luftmengen messtechnisch), BKP-Gliederung Ausschreibungen mind. dreistellig.
+  **R45 (GT_RL2 Systemwahl + GT_RL9-Delta-Check):** Energieträger-Hierarchie (thermische
+  Solarenergie vor PV bei Wohnen/Heime/Sport, Fernwärme prioritär); GT_RL9 ist **kein Duplikat**
+  zum bereits dokumentierten §4 GA-Standard Pflegezentren, sondern eine eigenständige,
+  allgemeinere Richtlinie mit neuen Fakten (**IMMO-Box** zentrales Energiemonitoring-System,
+  Pflicht ab EBF >1'000 m², 3-Ebenen-Bedienkonzept, 30 %-Ausbaureserve-Richtwert).
+  **R46 (GT_RL3/4 Heizung/Kühlung):** **träge Wärmeabgabesysteme in Schulzimmern NICHT
+  zulässig** (Ausnahme TABS ≤25 °C), Kühlungs-Bedarfsnachweis SIA 382/1:2007 zwingend.
+  **R47 (GT_RL5/6 Lüftung/Sanitär):** **Legionellenschutz Risikogruppe 2 (Spitäler/Altersheime/
+  Pflegezentren): thermische Desinfektion 75 °C bei Erneuerung zwingend einzuplanen**,
+  unterbruchslose Warmwasserversorgung bei Krankenheimen auch während Wartung. **R48 (GT_RL7/8
+  Elektro/Beleuchtung):** EN-12464-1-Übersichtstabelle mit belegten Healthcare-Beleuchtungsstärken
+  (Bettenzimmer 100/300 lx, Behandlungsräume 500 lx, Verkehrsfläche Spitäler 200 lx).
+  **R49 (Kennzeichnungssystem, Delta-Check gegen §2):** kein Duplikat — eigenständige technischere
+  Quelle nach DIN EN 6779-12/DIN 6779-1/DIN EN 61346-1+2 für die gebäudetechnischen Anlagen/
+  Komponenten selbst (nicht Orts-/Raumebene wie §2). **R50 (Raummodul Büro/Klassenzimmer):**
+  belegte Gebäudetechnik-Kennzahlen für die JANS-Priorität Schul-/Bildungsbau (500 lx, 25 m³/h·
+  Person, CO₂-Grenzwert 1'500 ppm; Klassenzimmer-Delta 3. Beleuchtungszone Wandtafel + motorisierte
+  Beschattung bei Neubauten Pflicht). **R51 (KBOB-Merkblätter, Delta-Check §6.1):** drei echte
+  Deltas — Recyclingbeton (RC-W/RC-B/RC-M-Kategorien + reale Stadt-ZH-Projekte), Gutes
+  Innenraumklima (CO₂-Grenzwert 1'000/1'500 ppm bisher fehlend + 4 reale Schadenfälle), Schadstoffe-
+  in-Bauten-Checkliste (**PCP als dritter Schadstoff-Typ**, Grenzwerte 1/0.1 µg/m³) — Letzteres
+  zusätzlich als Cross-Ref-Ergänzung (kein Duplikat) in [[energie-baustoffe-schadstoffe-rueckbau]]
+  §6 eingearbeitet. Alle Funde → NEU §12–§17 [[recht-norm-ahb-stadt-zuerich-projektstandards]].
+  Details siehe `training/curriculum.md` R44-R51.
 - [x] **R39 (Run 39, 2026-07-14)** Systematischer Ordner-Abgleich deckt den nie kartierten Ordner
   `04_Merkblätter/Projektadmin AHB/` auf — Pflichtenheft des Amtes für Hochbauten Stadt Zürich
   (AHB)/Immobilien-Bewirtschaftung (IMMO) für beauftragte Planer, integrierender Bestandteil des
