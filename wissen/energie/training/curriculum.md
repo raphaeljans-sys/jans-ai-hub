@@ -60,6 +60,31 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   national) und ZH-Erleichterungsklausel lokalisiert (§ 2 Abs. 5 WDV, LS 700.211, delegiert aus
   § 17a EnerG, Wortlaut primaerquellen-verifiziert) → `[[denkmalschutz-energiesanierung-zh-sz]]` auf
   **established** gehoben, FAQ F74 geschaerft. FAQ-Stand: **77 Kernfragen (F1-F77) belegt.**
+- **D50 (Run 69, 2026-07-14)** — PDF-Inventar weiterhin erschoepft (Erst-Erhebung Run 65). Vier
+  parallele Web-Rechercheagenten haben die von Run 68 priorisierten Themenkomplexe sowie zwei
+  weitere abgearbeitet: **D50a SIA 2024 Nutzungsdaten Gesundheitsbau** (JANS-Healthcare-Fokus,
+  bisher fehlender Nichtwohnbau-Bezug der KB — Gebäudekategorie VIII.1 Spital/VIII.2 Pflege,
+  Flächenanteile + Lüftungskennwerte Bettenzimmer/Stationszimmer/Behandlungsraum, Prozessanlagen-
+  Anteil 28-38 % des Behandlungsraum-Elektrizitätsbedarfs, OP-Säle/CT/MRT explizit nicht
+  abgedeckt, rechtlich massgebend bleibt SIA-380/1-Tab.-27) → `[[sia-2024-nutzungsdaten-gesundheitsbau]]`
+  (neu), FAQ **F78** neu. **D50b Netzanschluss-/Netzverstärkungskosten PV-Grossanlagen +
+  E-Mobilität ZH+SZ** (Art. 15b StromVG seit 1.1.2025 primärquellen-verifiziert: Pauschalabgeltung
+  CHF 59/kW, Vergütung max. CHF 50/kW ab 50 kW Anschlussleistung; VSE-70%-Wechselrichter-Regel ab
+  1.1.2026; EKZ-/ewz-/EWS-Praxis; keine analoge Vergütungsmechanik bei reiner Ladeinfrastruktur) →
+  `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]` (neu), FAQ **F79** neu. **D50c
+  Fernwärme-Anschlusskosten Stadt Zürich** (ergänzt die bereits bekannte Anschlusspflicht §295 PBG
+  um die effektiven CHF-Zahlen: ewz-Tarifformel 2026 mit eigenen Beispielrechnungen EFH ~CHF 32'000
+  + 3'200-3'500/Jahr, Preisüberwacher-Schweizerdurchschnitt CHF 14'393/3'052-3'467 primärquellen-
+  gelesen; SZ-Zahlen trotz Recherche nicht auffindbar) → `[[fernwaerme-anschlusskosten-zh]]` (neu),
+  FAQ **F80** neu. **D50d Netto-Null-Klimaziele Bund/Kt. ZH/Stadt Zürich/Kt. SZ** (Bund 2050
+  gesetzlich seit Klimaschutzgesetz 1.1.2025; Kt. ZH nur unbestimmter Verfassungsauftrag Art. 102a
+  KV-ZH, die 2040-Gesetzesvorlage wurde am 28.9.2025 mit 59,3-59,5 % Nein verworfen; Stadt Zürich
+  haelt eigenstaendig an 2040/Wärmeversorgung als Planungsgrundlage fest; Kt. SZ ohne eigene
+  Verschärfung gemäss EKP23+; sauber getrennt heute-verbindliche Heizungsersatz-Vorschriften vs.
+  politische Zieljahre ohne unmittelbare Baupflicht) → `[[netto-null-klimaziele-zh-sz]]` (neu),
+  FAQ **F81** neu. FAQ-Stand: **81 Kernfragen (F1-F81) belegt.** Alle vier Destillate + Register
+  (destillate/INDEX.md, wiki/INDEX.md, wiki/BAUHERREN-FAQ.md, wiki/QUESTIONS.md, CHANGELOG.md)
+  nachgefuehrt.
 - [x] A2 Heizwaermebedarf SIA 380/1 — Formel + 11 Schritte (2026-06-05); Grenzwerte Q_H,li +
   Gebaeudehuellzahl belegt 2026-06-06 via EN-102 + Bauphysik-Kennwerte → `[[u-werte-grenzwerte-ch]]`;
   Beispielrechnung (Monatsbilanz Buero) + Standardnutzung Tab. 24/25 belegt 2026-06-08

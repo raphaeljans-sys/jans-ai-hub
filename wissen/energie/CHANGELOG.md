@@ -2,6 +2,37 @@
 
 Neueste zuoberst.
 
+## 2026-07-14 — Run 69: vier neue Themenkomplexe (SIA 2024 Gesundheitsbau, Netzverstärkung PV/E-Mobilität, Fernwärme-Kosten, Netto-Null)
+- **Kontext:** Intensiv-Lauf gemäss `training/PROGRAMM.md` (Verifikations-Stufe, Intensivphase,
+  Token-Vollgas). PDF-Inventar bleibt vollständig abgearbeitet (Erst-Erhebung Run 65) — daher vier
+  parallele Web-Rechercheagenten auf primärquellennahe Schweizer Quellen (Fedlex, ElCom, SIA,
+  Kantons-/Stadt-Websites, VNB-Netzanschlussbedingungen, Preisüberwacher) angesetzt.
+- **Vier neue Destillate:**
+  1. **SIA 2024 Nutzungsdaten Gesundheitsbau** (JANS-Healthcare-Fokus — Gebäudekategorie VIII.1
+     Spital/VIII.2 Pflege, Raumnutzungen Bettenzimmer/Stationszimmer/Behandlungsraum, Prozessanlagen-
+     Anteil 28-38 %, OP/CT/MRT nicht abgedeckt) → `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md`
+     (neu), FAQ **F78** neu.
+  2. **Netzanschluss-/Netzverstärkungskosten PV-Grossanlagen + E-Mobilität** (Art. 15b StromVG seit
+     1.1.2025, CHF-59/CHF-50-Vergütung, VSE-70%-Wechselrichter-Regel ab 1.1.2026) →
+     `destillate/netzanschluss-netzverstaerkung-pv-emobilitaet-ch.md` (neu), FAQ **F79** neu.
+  3. **Fernwärme-Anschlusskosten Stadt Zürich** (ewz-Tarifformel 2026 + Preisüberwacher-
+     Schweizerdurchschnitt, ergänzt die bereits bekannte Anschlusspflicht §295 PBG um effektive
+     CHF-Zahlen) → `destillate/fernwaerme-anschlusskosten-zh.md` (neu), FAQ **F80** neu.
+  4. **Netto-Null-Klimaziele Bund/Kt. ZH/Stadt Zürich/Kt. SZ** (Bund 2050 gesetzlich, ZH-2040-
+     Vorlage am 28.9.2025 verworfen, Stadt-ZH-2040 nur Planungsgrundlage, SZ ohne eigene
+     Verschärfung — sauber getrennt heute-verbindlich vs. Absicht) →
+     `destillate/netto-null-klimaziele-zh-sz.md` (neu), FAQ **F81** neu.
+- **Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu), `wiki/INDEX.md` (Kernprodukt-
+  Zeile + vier neue Themen-Artikel-Zeilen), `wiki/BAUHERREN-FAQ.md` (F78-F81 neu, FAQ-Stand jetzt
+  81 Kernfragen), `wiki/QUESTIONS.md` (E67-E70 neu, Struktur-Notiz M2 aktualisiert, 25. Lauf in
+  Folge entscheidungsreif), `training/curriculum.md` (D50 unter Block A).
+- **Leitplanken beachtet:** alle Aussagen mit Quelle/URL/Datenstand belegt, Verifikationsgrad je
+  Abschnitt aus den Originalberichten übernommen (Bundes-/Kantonsrecht direkt auf Fedlex/zh.ch/
+  sz.ch gelesen, kommerzielle/unverifizierte Quellen explizit als solche markiert), unsichere Punkte
+  (SZ-Fernwärmekosten, EWS-CHF-Ansätze, exakter Wortlaut Art. 102a KV-ZH, SIA-2024-Raumdatenblätter
+  Anhang A) als offen markiert statt erfunden.
+- **Status aller vier Destillate:** emerging (primärquellennah, aber mit dokumentierten Lücken).
+
 ## 2026-07-14 — Run 68 (nachintegriert): drei neue Themenkomplexe + Klärung zweier Run-67-Offenpunkte
 - **Kontext:** Ein separat gestarteter Trainingslauf hatte vier parallele Web-Rechercheagenten
   gestartet, deren Ergebnisse zunächst nicht ins Repo integriert wurden (Orchestrierungsfehler des

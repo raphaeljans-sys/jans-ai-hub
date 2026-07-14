@@ -648,20 +648,36 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   vermerkten Widerspruch). ZH: Erleichterungsklausel lokalisiert in § 2 Abs. 5 WDV (LS 700.211,
   delegiert aus § 17a EnerG), Wortlaut primaerquellen-verifiziert.
 
+- [x] **E67** **SIA 2024 Nutzungsdaten Gesundheitsbau** belegt ✓ 2026-07-14 (Run 69) →
+  `[[sia-2024-nutzungsdaten-gesundheitsbau]]`, FAQ **F78** neu. Gebäudekategorie VIII.1 Spital/
+  VIII.2 Pflege, Flächenanteile + Lüftungskennwerte Bettenzimmer/Stationszimmer/Behandlungsraum,
+  Prozessanlagen-Anteil 28-38 %, OP/CT/MRT nicht abgedeckt; rechtlich massgebend bleibt SIA-380/1-
+  Tab.-27. Status emerging (Raumdatenblätter Anhang A kostenpflichtig, nicht eingesehen).
+- [x] **E68** **Netzanschluss-/Netzverstärkungskosten PV-Grossanlagen + E-Mobilität ZH+SZ** belegt
+  ✓ 2026-07-14 (Run 69) → `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`, FAQ **F79** neu.
+  Art. 15b StromVG seit 1.1.2025 (CHF-59/CHF-50-Vergütung), 70%-Wechselrichter-Regel ab 1.1.2026,
+  keine analoge Vergütung bei E-Mobilität. Status emerging.
+- [x] **E69** **Fernwärme-Anschlusskosten Stadt Zürich** belegt ✓ 2026-07-14 (Run 69) →
+  `[[fernwaerme-anschlusskosten-zh]]`, FAQ **F80** neu. ewz-Formel 2026, Beispielrechnungen EFH/MFH,
+  Preisüberwacher-Schweizerdurchschnitt; SZ-Zahlen nicht auffindbar (offener Punkt bleibt). Status
+  emerging.
+- [x] **E70** **Netto-Null-Klimaziele Bund/ZH/Stadt-ZH/SZ** belegt ✓ 2026-07-14 (Run 69) →
+  `[[netto-null-klimaziele-zh-sz]]`, FAQ **F81** neu. Bund 2050 gesetzlich, ZH-2040-Vorlage
+  28.9.2025 verworfen, Stadt-ZH-2040 nur Planungsgrundlage, SZ ohne eigene Verschärfung; sauber
+  getrennt heute-verbindlich vs. Absicht. Status emerging.
+
 ## Struktur
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
-  **Stand 2026-07-14 (Run 68, nachintegriert): vier weitere Themenpunkte abgearbeitet (E63-E66, FAQ
-  F75-F77 neu + F74 auf established geschaerft: Waerme-Contracting, Steuerabzuege energetische
-  Sanierung, Grundwasserwaermenutzung-Bewilligung ZH+SZ neu erschlossen; SZ-Denkmalpflegebeitrags-
-  Widerspruch aus Run 67 aufgeloest). Dieser Lauf war urspruenglich als eigenstaendiger Run gestartet,
-  dessen vier Rechercheergebnisse durch einen Orchestrierungsfehler zunaechst nicht committet wurden
-  und erst nachtraeglich (12.07.2026 12:15 Uhr, Commit b76824e5) manuell nachintegriert werden konnten
-  — Register (curriculum.md, QUESTIONS.md) wurden dabei zunaechst NICHT nachgefuehrt, das holt der
-  vorliegende Eintrag nach. PDF-Inventar bleibt erschoepft. FAQ-Stand: 77 Kernfragen (F1-F77) belegt.
-  Meta-Punkt M2 ist SEIT RUN 45 (also VIERUNDZWANZIG Laeufen in Folge) spruchreif fuer eine
-  Entscheidung und wird hier zum vierundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst
+  **Stand 2026-07-14 (Run 69): vier weitere Themenpunkte abgearbeitet (E67-E70, FAQ F78-F81 neu):
+  SIA 2024 Nutzungsdaten Gesundheitsbau (JANS-Healthcare-Fokus), Netzanschluss-/Netzverstaerkungs-
+  kosten PV-Grossanlagen/E-Mobilitaet ZH+SZ, Fernwaerme-Anschlusskosten Stadt Zuerich (ergaenzt die
+  bereits bekannte Anschlusspflicht um die effektiven CHF-Zahlen), Netto-Null-Klimaziele Bund/ZH/
+  Stadt-ZH/SZ (loest die Run-68-Prioritaetenliste vollstaendig ab). PDF-Inventar bleibt erschoepft
+  (Erst-Erhebung Run 65, seither keine neuen PL-04-Dateien). FAQ-Stand: 81 Kernfragen (F1-F81)
+  belegt. Meta-Punkt M2 ist SEIT RUN 45 (also FUENFUNDZWANZIG Laeufen in Folge) spruchreif fuer eine
+  Entscheidung und wird hier zum fuenfundzwanzigsten Mal vermerkt. Der Loop kann sie nicht selbst
   treffen — braucht eine explizite Antwort von Raphael in einer interaktiven Session. Naechster
-  faelliger Themenkomplex (Run 69): SIA 2024 Nutzungsrandbedingungen Gesundheitsbau (JANS-Healthcare-
-  Fokus, bisher fehlender Nichtwohnbau-Bezug) + Netzanschluss-/Netzverstaerkungskosten EW bei
-  PV-Grossanlagen/E-Mobilitaet ZH+SZ (bisher unbeantwortete Bauherren-Frage) — beide via
-  parallelisierte Web-Rechercheagenten in Bearbeitung.**
+  faelliger Themenkomplex (Run 70, Vorschlag): vertiefende SZ-Recherche zu den in Run 69 offen
+  gebliebenen Luecken (Fernwaerme-Anschlusskosten SZ, EWS-Netzverstaerkungs-CHF-Ansaetze) sowie ein
+  neuer Themenkomplex aus Prioritaet 3 «Aktualitaet/Recht» (z.B. Denkmalschutz-PV-Ausnahmen im
+  Detail oder ein noch nicht behandeltes MuKEn-2025-Modul).**

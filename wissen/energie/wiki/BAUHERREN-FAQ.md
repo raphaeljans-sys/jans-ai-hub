@@ -2638,6 +2638,113 @@ Temperaturregel amtlich verifiziert; JAZ/Kosten/ZH-Konzessionsdauer offen).
 
 ---
 
+## F78 — «Wir planen ein Spital/Pflegeheim — reicht die normale SIA-380/1-Wohnbau-Logik, oder braucht es eigene Kennwerte?»
+
+**Kurz-Antwort:** Nein — Gesundheitsbauten fallen unter die eigene Gebäudekategorie VIII
+«Spital» (seit 2019 unterteilt in VIII.1 Spital/Akutspital und VIII.2 Pflege/Altersheim), mit
+deutlich höheren Standardwerten als Wohnbau (22 °C statt ~20 °C, 80 W/Person statt tieferer
+Wohnbau-Werte) sowie eigenen Raumnutzungen (Bettenzimmer/Stationszimmer/Behandlungsraum) für die
+Fachplaner-Dimensionierung.
+
+**Fachlich:** Für den rechtlich massgebenden Energienachweis gelten die SIA-380/1-Tabelle-27-
+Werte der Kategorie VIII (22 °C, 30 m²/Person, 80 W/Person, 1.0 m³/(h·m²) Aussenluft). SIA
+2024:2021 liefert daneben feinere Raumnutzungsdaten (Bettenzimmer/Stationszimmer/Behandlungsraum)
+für die technische Auslegung von Heizung/Kühlung/Lüftung durch die Fachplaner — Volltext
+kostenpflichtig, aber die Systematik (Flächenanteile, Lüftungs-Volllaststunden) ist über
+SIA-Grundlagenberichte belegt. Wichtig: **Operationssäle und CT/MRT-Diagnostikräume sind durch
+SIA 2024 explizit NICHT abgedeckt** und brauchen eine eigene, projektspezifische Auslegung
+(Medizintechnik-Fachplaner) — dort steckt in der Kostenschätzung oft das grösste Risiko, weil
+allein die Prozessanlagen im Behandlungsraum 28–38 % des Raum-Elektrizitätsbedarfs ausmachen
+können.
+
+**Quelle:** SIA Grundlagenbericht SIA 2024:2021 (20.10.2024), SIA/EnFK-Statusbericht
+Harmonisierung (2019), EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a) →
+`[[sia-2024-nutzungsdaten-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie- und
+Lüftungskennwerte primärquellennah belegt; vollständige Raumdatenblätter Anhang A nur
+kostenpflichtig zugänglich).
+
+---
+
+## F79 — «Wir planen eine grosse PV-Anlage oder viele Ladestationen — wer zahlt, wenn das Netz verstärkt werden muss?»
+
+**Kurz-Antwort:** Bei PV-Grossanlagen trägt die Bauherrschaft die Verstärkung der
+Anschlussleitung ab Parzellengrenze grundsätzlich selbst, erhält aber bei über 50 kW
+Anschlussleistung eine Teilvergütung von maximal CHF 50/kW von Swissgrid; bei Ladeinfrastruktur
+ohne eigene PV-Produktion gibt es diese Vergütung nicht — dort zählt primär die vorhandene
+Hausanschlussleistung.
+
+**Fachlich:** Seit 1.1.2025 regelt Art. 15b StromVG die Kostenteilung bei erzeugungsbedingten
+Netzverstärkungen: der Verteilnetzbetreiber (VNB) erhält für den generellen
+Netzverstärkungsbedarf eine Pauschalabgeltung von CHF 59/kW (Niederspannung), die
+Anschlussleitungsverstärkung wird bei Anschlussleistung > 50 kW mit max. CHF 50/kW vergütet, der
+Rest geht zulasten des Produzenten. Ob überhaupt eine Verstärkung nötig ist, entscheidet die
+lokale Netzkapazität (Netzebene 7) im Einzelfall — kein fixer kWp-Schwellenwert, aber rund 20 %
+aller PV-Anschlussgesuche lösen laut CKW/ewz eine Verstärkung aus. Seit 1.1.2026 gilt zudem eine
+VSE-Branchenempfehlung: neue Wechselrichter werden standardmässig auf 70 % der Modul-Nennleistung
+limitiert, um Netzausbau zu vermeiden (Ertragsverlust meist unter 3 %). Bei mehreren
+Ladestationen ist primär die Hausanschlussleistung (kVA/Ampere) die harte Grenze; dynamisches
+Lastmanagement ist der wirtschaftlich naheliegende erste Hebel, um eine kostenpflichtige
+Leistungserhöhung zu vermeiden.
+
+**Quelle:** StromVG Art. 15b/17b/17c, StromVV Art. 13e/19a-19d (Fedlex, Stand 2026), ElCom-Weisung
+8/2025, VSE-Branchenempfehlung NRE-CH 2025, EKZ-/ewz-/EWS-Netzanschlussbedingungen →
+`[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`. Status **emerging** (Bundesrecht +
+70%-Regel primärquellenverifiziert; kein CHF-Richtwert für rein E-Mobilität-bedingte
+Netzverstärkung gefunden).
+
+---
+
+## F80 — «Was kostet ein Fernwärmeanschluss effektiv — und lohnt er sich gegenüber einer eigenen Wärmepumpe?»
+
+**Kurz-Antwort:** In der Stadt Zürich (ewz) kostet der Anschluss eines EFH einmalig rund
+CHF 31'000–32'000 plus laufend CHF 3'200–3'500/Jahr (exkl. CO2-Abgabe/MWST); für ein MFH
+entsprechend CHF 40'000–45'000 einmalig plus CHF 12'000–13'300/Jahr — die laufenden Betriebskosten
+liegen damit eher unter den bereits bekannten Wärmepumpen-Vollkosten (Erdsonde CHF 4'090/Jahr,
+Luft-WP CHF 4'344/Jahr), der Investitionsvergleich hängt aber stark vom Einzelfall ab.
+
+**Fachlich:** Der Fernwärmetarif setzt sich aus Arbeitspreis (Rp./kWh), Grundpreis (CHF/kW·Jahr)
+und einmaligem Anschlussbeitrag zusammen. Nach der amtlichen ewz-Formel (2026) zahlt ein EFH mit
+12 kW Anschlussleistung ca. CHF 32'100 Anschlussbeitrag (Neubau) und CHF 1'600/Jahr Grundpreis,
+dazu den verbrauchsabhängigen Arbeitspreis (ca. 8–10 Rp./kWh). Schweizweit ermittelt der
+Preisüberwacher für ein EFH im Schnitt CHF 14'393 Anschlusskosten und CHF 3'052–3'467/Jahr
+Betriebskosten — die Bandbreite zwischen Anbietern ist gross (CHF 3'000 bis über CHF 36'000
+Anschlusskosten). Die konkrete Vertragsdauer steht meist nicht in den allgemeinen Bedingungen,
+sondern im individuellen Wärmelieferungsvertrag — vor Unterschrift explizit erfragen. Für Kt.
+Schwyz sind keine vergleichbaren öffentlichen Zahlen auffindbar.
+
+**Quelle:** ewz Tarifblatt Wärmeverbund KVA/Holz (Stand Juni 2026), ewz-AGB (Januar 2025),
+Preisüberwacher «Marktbeobachtung Fernwärmetarife Schweiz» (06.07.2023) →
+`[[fernwaerme-anschlusskosten-zh]]`. Status **emerging** (ewz-Formel + Preisüberwacher-
+Schweizerdurchschnitt primärquellenbelegt; SZ-Zahlen fehlen).
+
+---
+
+## F81 — «Muss ich schon heute netto-null bauen — was bedeutet das Klimaziel für mein Baugesuch?»
+
+**Kurz-Antwort:** Nein — die Netto-Null-Zieljahre (Bund 2050, Stadt Zürich 2040, Kt. Schwyz
+«spätestens 2050») sind politische Ziel-/Planungsvorgaben ohne direkte Baubewilligungswirkung;
+verbindlich sind stattdessen die bereits geltenden technischen Vorschriften beim
+Heizungsersatz (ZH: grundsätzlich erneuerbare Wärmeerzeugung seit 1.9.2022; SZ: max. 90 % nicht
+erneuerbarer Anteil).
+
+**Fachlich:** National gilt seit dem Klimaschutzgesetz (Volks-Ja 18.6.2023, in Kraft seit
+1.1.2025) Netto-Null 2050 als gesetzliches Ziel. Der Kanton Zürich hat nur einen unbestimmten
+Verfassungsauftrag (Art. 102a KV-ZH) ohne Zieljahr — eine Vorlage mit dem konkreten Datum 2040
+wurde am 28.9.2025 vom Volk verworfen (59.3–59.5 % Nein). Die Stadt Zürich hält per eigenem
+Gemeinde-Volksentscheid an Netto-Null 2040 (Wärmeversorgung) fest, das ist aber primär eine
+Planungsgrundlage (Wärmeversorgungskonzept), kein unmittelbares Bauverbot. Der Kanton Schwyz
+stützt sich ohne eigene Verschärfung auf das Bundesziel «spätestens 2050». Was bei jedem
+Heizungsersatz tatsächlich eine Nachweispflicht auslöst, sind die bereits seit 2022 geltenden
+kantonalen Vorschriften — unabhängig vom Ausgang der Netto-Null-Debatte.
+
+**Quelle:** Klimaschutzgesetz Bund, Art. 102a KV-ZH, ZH-Energiegesetz-Abstimmung 28.9.2025,
+Stadt-Zürich-Klimaschutzziele, Kt. SZ Energie- und Klimaplanung 2023+ / kEnG →
+`[[netto-null-klimaziele-zh-sz]]`. Status **emerging** (Bundes-/ZH-Abstimmungsverlauf
+primärquellennah; genaues Stadt-ZH-Abstimmungsdatum + SZ-kEnG-Volltext nicht abschliessend
+geprüft).
+
+---
+
 ## Offene Fragen (Backlog — vom Loop zu beantworten)
 - ~~F6 WP vs. Fernwaerme vs. Pellets~~ ✓ 2026-06-18 beantwortet (JAZ-Richtwerte je Typ + Entscheidungs-
   logik + Pellets-Bedingungen) → F6 oben; **Methode fuer den projektgenauen Wert ✓ 2026-07-02**
@@ -2648,6 +2755,23 @@ Temperaturregel amtlich verifiziert; JAZ/Kosten/ZH-Konzessionsdauer offen).
   + Plusenergie-Beispiel Maison Climat) → F8 oben. Offen bleibt: KBOB/SIA 2032-Oekobilanzdaten,
   einheitliche rechtliche Netto-Null-Definition fuer Einzelgebaeude (Klimaschutz-Gesetz Bund/Kt.).
 
+> **FAQ-Stand 2026-07-14 (Run 69):** **F78-F81 neu, FAQ-Stand jetzt 81 Kernfragen (F1-F81).**
+> PDF-Inventar bleibt vollständig abgearbeitet (Erst-Erhebung Run 65) — vier parallele
+> Web-Rechercheagenten haben die von Run 68 priorisierten sowie zwei weitere Themenkomplexe
+> erschlossen: **F78 ‹Spital/Pflegeheim — reicht die Wohnbau-Logik?›** (SIA 2024:2021
+> Raumnutzungsdaten, Gebäudekategorie VIII.1 Spital/VIII.2 Pflege, Kennwerte Bettenzimmer/
+> Stationszimmer/Behandlungsraum, OP/CT/MRT explizit NICHT abgedeckt) →
+> `[[sia-2024-nutzungsdaten-gesundheitsbau]]`, JANS-Healthcare-Fokus; **F79 ‹Wer zahlt die
+> Netzverstärkung bei grosser PV/vielen Ladestationen?›** (Art. 15b StromVG seit 1.1.2025,
+> CHF-59/CHF-50-Vergütung, 70%-Wechselrichter-Regel ab 1.1.2026, keine analoge Vergütung für
+> E-Mobilität) → `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`; **F80 ‹Was kostet ein
+> Fernwärmeanschluss effektiv?›** (ewz-Formel 2026: EFH ca. CHF 32'000 einmalig + CHF 3'200-3'500/
+> Jahr; Preisüberwacher-Schweizerdurchschnitt CHF 14'393/CHF 3'052-3'467) →
+> `[[fernwaerme-anschlusskosten-zh]]`; **F81 ‹Muss ich schon heute netto-null bauen?›** (Bund 2050
+> gesetzlich, ZH-2040-Vorlage am 28.9.2025 verworfen, Stadt-ZH-2040 nur Planungsgrundlage,
+> SZ «spätestens 2050» ohne eigene Verschärfung — verbindlich bleiben die bestehenden
+> Heizungsersatz-Vorschriften) → `[[netto-null-klimaziele-zh-sz]]`.
+>
 > **FAQ-Stand 2026-07-14 (Run 66):** **F70-F73 neu.** PDF-Inventar bleibt vollständig abgearbeitet
 > (SharePoint-Kontrolle bestätigt keine neuen PL-04-Dateien seit 11.06.2026) — vier parallele
 > Web-Rechercheagenten haben vier neue, JANS-relevante Themenkomplexe erschlossen: **F70 ‹Muss ich
