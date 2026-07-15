@@ -6,6 +6,9 @@
 - Priorität: P1 = Skill-Kernnormen (zuerst), P2 = übrige SIA de, P3 = DIN/VSS/RAL, — = Sprachvariante/alt
 - Vertiefungsstufe (c) Q&A-Selbstbefragung: Stand/Abdeckung in `destillate/qa/INDEX.md`
   (SIA/VKF-P1-Kernnormen abgesichert 260715, Run 14 — 205 Fragen, 0 Fehler).
+- Vertiefungsstufe (d) Querschnitts-Synthesen DIN/VSS/RAL: `wiki/synthese-din-vss-ral-fachskills.md`
+  (Mac Mini Mini-Run 30, 260715 — 5 neue Sektionen 9-13 + Vertiefungen Abschnitt 6/7,
+  Grunddestillation/Retro-Verifikation/Q&A fuer DIN/VSS/RAL bereits seit Mini-Run 29 komplett).
 
 ## SIA (391 Dateien)
 

@@ -331,3 +331,43 @@
   ist seit Run 5 (260713) als Destillat verfügbar (`sia-382-1-2014.md`, Kern S.1-63,
   Aussenluft-Volumenstrom/Klassierung AUL/RAL/ABL); der Detailvergleich CH- vs. DE-Modell
   kann darauf aufbauen (Anhänge A-G von SIA 382/1 noch offen).
+
+## Mini-Run 30 (Mac Mini, 260715) — offene Lücken aus der Vertiefungsstufe (d) Querschnitts-Synthese DIN/VSS/RAL
+
+- [ ] **SIA 266/262/267 Detailbemessung nicht gegen DIN 1053/1045-2/1054 gegengeprüft:**
+  Abschnitt 9 der Synthese (`wiki/synthese-din-vss-ral-fachskills.md`) stützt sich auf die
+  bereits gelesenen Ausschnitte der SIA-Destillate (SIA 266 Ziff. 2.3.2.2, SIA 262 Ziff. 2/
+  4.2.1/4.3.6/4.3.8/4.3.10/5.2.2-5.2.4/6.4.2, SIA 267 Ziff. 0-5/8 bis 8.4.4). Nicht gelesen:
+  SIA 266 Ziff. 3.2-3.6 (Mauersteine/Mörtel) + 4.1-4.5 (Bemessungsformeln/Tabellen 1-9),
+  SIA 267 Ziff. 6-7/8.5-8.6/9-16 (Pfahlfundationen, Verankerungen, Stützbauwerke,
+  Erdbauwerke). Ohne diese Kapitel bleibt der DIN-Zahlenvergleich (Partialfaktoren,
+  M-Klassen ↔ deklariertes Mauerwerk, Sohlwiderstand ↔ Flachfundationsbemessung)
+  ungeprüft. Nachziehen sobald SIA 266/267 (Station MacBook Pro) vertieft destilliert sind.
+- [ ] **SIA 331 (Fenster) ↔ DIN EN 12207/DIN 1249-11 nicht im Detail gegengelesen:**
+  `destillate/sia-331-1988.md` existiert im Bestand, wurde aber für den Vergleich
+  Luftdichtheitsklassen (Abschnitt 10.3) und Glaskanten-Bezeichnung (Abschnitt 11.3) nicht
+  Ziffer-für-Ziffer herangezogen. Nachziehen: Luftdichtheits-/Glas-Kapitel von SIA 331 gegen
+  EN 12207/DIN 1249-11 abgleichen.
+- [ ] **Keine SIA-Norm zur Raumakustik in der KB:** `destillate/INDEX.md`-Prüfung (Mini-Run 30)
+  ergibt keinen Treffer für eine SIA-Raumakustik-/Nachhallzeit-Norm. DIN 18041 dient bis
+  dahin als alleinige Zweitquelle für Nachhallzeit-Sollwerte/Absorptionsflächen (Abschnitt 13
+  der Synthese). Falls eine einschlägige SIA-Norm existiert und im Bestand liegt, prüfen und
+  destillieren.
+- [ ] **Keine Suva-/EKAS-Richtlinie zu Fassadengerüst-Verankerung/Dachhaken in der KB:**
+  DIN 4426 (Abschnitt 12.4) verweist selbst auf SIA 358 + EKAS/Suva — SIA 358 deckt nur
+  Geländer/Absturzsicherung allgemein ab, nicht die Gerüstverankerungskräfte oder die
+  Dachhaken-Bestückungsregel. Eine Suva-/EKAS-Quelle dazu ist in der KB nicht vorhanden und
+  müsste separat beschafft werden (kein SharePoint-Fund im Normen-Inventar).
+- [ ] **VKF-BRL 15-15 (Brandschutzabstände Tragwerke/Brandabschnitte) noch nicht destilliert:**
+  das SZS-steeldoc-Heft (Abschnitt 12.1) zitiert BRL 15-15 als Primärquelle für die
+  Feuerwiderstands-Anforderungstabelle je Nutzung/Gebäudehöhe. Ohne dieses Destillat bleibt
+  die verbindliche Anforderungstabelle für Stahlbau-Brandschutz nicht direkt in der KB
+  abrufbar (nur über das SZS-Sekundärdokument).
+- [ ] **Keine Bestätigung/Recherche zu einer «2026 verschärften kantonalen Velo-Abstellpflicht»:**
+  Abschnitt 6b der Synthese (Erschliessung/Velo) hält fest, dass kein geprüftes VSS-Destillat
+  (Quellen 1983-2011 bzw. Merkblatt Stadt ZH 1996/1998) eine solche 2026er-Verschärfung
+  erwähnt. Falls eine aktuelle kantonale/kommunale Regelung existiert, separat recherchieren
+  und nachtragen — nicht aus den bestehenden Quellen ableitbar.
+- [ ] **RAL-GZ 638 (Gitterroste) ohne explizite BKP-Zuordnung im Destillat:** vor Verwendung
+  einer RAL-GZ-638-Referenz in einem LV-Titel die passende BKP-2017-Position (Rule
+  `bkp-2017-referenz`) im Einzelfall verifizieren, das Destillat selbst nennt keine.

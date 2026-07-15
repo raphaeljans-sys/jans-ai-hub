@@ -1,3 +1,53 @@
+## 2026-07-15 — normen-training-mini Mini-Run 30 (Mac Mini, Intensiv-Lauf auf Zuruf): Vertiefungsstufe (d) Querschnitts-Synthese DIN/VSS/RAL — 5 neue Themenabschnitte + 2 Vertiefungen
+Stations-Split eingehalten: NUR DIN/VSS/RAL angefasst (SIA/VKF = MacBook Pro, nicht beruehrt).
+Auftrag Raphael (15.07.2026): ein Intensiv-Lauf, 15-25 Positionen, Verifikations-Stufe + Token-
+Vollgas/Workflow-Parallelisierung autorisiert. Inventar-Check vorab (`training/norm-inventar.md`):
+DIN (72 Dateien)/VSS (17 Dateien)/RAL (1 Datei) haben **0 offene `[ ]`-Positionen** — Grund-
+destillation, Retro-Verifikation (b) und Q&A-Selbstbefragung (c) sind fuer die komplette Familie
+bereits seit Mini-Run 29 (260715) abgeschlossen (siehe `outputs/2026-07-15_normen-mini-run29.md`).
+Dieser Lauf setzt deshalb bei Vertiefungsstufe (d) Querschnitts-Synthesen an, wie im Report von
+Run 29 als naechster Schritt vorgeschlagen — keine neuen Original-PDFs gelesen, keine DRM-PDFs
+angetroffen, ausschliesslich Synthese aus den bereits `established` verifizierten Destillaten.
+
+**Workflow:** 6 parallele Synthese-Agenten, je 1 Themencluster mit 4-11 bereits verifizierten
+Destillaten (kein Original-PDF neu geprueft, nichts erfunden, jede Aussage mit Fundstelle):
+- Mauerwerk/Tragwerk/Baugrund (DIN 1053-1/2/3/4/100, DIN 1045-2, DIN 1054, DIN 1055-2 ↔ SIA
+  266/262/267) → neuer Abschnitt 9.
+- Fenster/Tueren/Einbruchhemmung/Fluchtwegverschluesse (DIN EN 12207/1627, DIN 68119, VST-
+  Merkblatt, EN 179/1125 ↔ SIA 343.051, VKF-BRL 16-15) → neuer Abschnitt 10.
+- Bodenbelaege/Zeichnungsnormen/Baumaterial (DIN 18560-2, DIN 1356-1/-6, DIN 1164-10, DIN
+  1249-11, RAL-GZ 638 ↔ SIA 251/400/2014/331) → neuer Abschnitt 11.
+- Stahlbau-Brandschutz/Treppen/Fassadenunterhalt (SZS steeldoc, DIN 18065, HCU-Treppenskript,
+  DIN 4426 ↔ SIA 358) → neuer Abschnitt 12.
+- Raumakustik/Tageslicht-Vertiefung (DIN 18041, DIN 5034-2/3/4/6) → neuer Abschnitt 13 +
+  Vertiefung Abschnitt 7.
+- Erschliessung/Langsamverkehr/Verkehrssicherheit (VSS 700.5/722.15, SN 640050/060/065/066/
+  281/578, Merkblatt Veloabstellplaetze) → Vertiefung/Ergaenzung Abschnitt 6.
+
+**Ergebnis:** `wiki/synthese-din-vss-ral-fachskills.md` von 9 auf 14 nummerierte Abschnitte
+erweitert (plus 2 Vertiefungen in Abschnitt 6/7), Frontmatter `sources:` um 40 neue Destillat-
+Pfade ergaenzt, `last_updated: 2026-07-15`. Die Sammelstelle "Grenzen der Uebertragbarkeit"
+(neu Abschnitt 14) waechst um 24 neue Vergleichspaar-Zeilen. Kernbefunde: (1) EN 179/EN 1125
+und DIN EN 1627 sind — anders als der DIN-Regelfall — europaeisch harmonisierte Normen, die in
+der Schweiz DIREKT gelten (SIA 343.051 verweist wortwoertlich darauf); (2) die gesamte
+Erschliessungs-/Langsamverkehrs-Normenfamilie (VSS 700.5/722.15, SN 640xxx) ist direkt
+geltendes bzw. kantonal/kommunal verbindliches CH-Fachrecht, keine Vergleichsreferenz; (3) SZS
+steeldoc (Brandschutz Stahlbau) ist trotz Ablage im DIN-Ordner eine **Schweizer** Fachquelle
+(SZS = Stahlbau Zentrum Schweiz), keine deutsche Norm; (4) Faktenkorrektur waehrend der
+Konsolidierung: ein Agent behauptete faelschlich, es existiere kein SIA-331-Destillat — Pruefung
+zeigte `destillate/sia-331-1988.md` ist vorhanden, wurde aber fuer den Detailvergleich nicht
+gegengelesen (als offene Luecke vermerkt statt der falschen Nichtexistenz-Aussage).
+
+**Neue offene Luecken** (`wiki/QUESTIONS.md`, Abschnitt "Mini-Run 30"): SIA 266/262/267-
+Detailkapitel nicht gegen DIN-Mauerwerk/Beton/Baugrund gegengeprueft; SIA 331 nicht im Detail
+gegen EN 12207/DIN 1249-11 gelesen; keine SIA-Raumakustik-Norm in der KB; keine Suva-/EKAS-
+Richtlinie zu Fassadengeruest/Dachhaken; VKF-BRL 15-15 noch nicht destilliert; keine Bestaetigung
+einer "2026 verschaerften kantonalen Velo-Abstellpflicht"; RAL-GZ 638 ohne explizite BKP-Zuordnung.
+
+Nachgefuehrt: `wiki/synthese-din-vss-ral-fachskills.md` (Haupt-Deliverable), `wiki/QUESTIONS.md`
+(7 neue Luecken), `training/norm-inventar.md` (Kopfzeile Vertiefungsstufe-d-Status), Report
+`outputs/2026-07-15_normen-mini-run30.md`.
+
 ## 2026-07-15 — normen-training-nacht Run 14 (MacBook Pro, Scheduled Task): Q&A-Selbstbefragung der SIA/VKF-P1-Kernnormen — Vertiefungsstufe (c) fuer SIA/VKF gestartet
 Stations-Split: NUR SIA/VKF angefasst (DIN/VSS/RAL = Mac Mini, nicht beruehrt). Inventar-Check vorab:
 SIA + VKF weiterhin 0 offene `[ ]`-Positionen (Grunddestillation + Retro-Verifikation (b) seit Run 13 komplett).

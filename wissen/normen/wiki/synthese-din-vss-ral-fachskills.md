@@ -200,6 +200,132 @@ massgebenden Original bestaetigt werden.
 - Direkt schweizerisch und verbindlich (nicht nur Vergleichsreferenz) — anders als die
   DIN-Positionen oben.
 
+### Vertiefung/Ergaenzung Abschnitt 6: Erschliessung, Langsamverkehr, Verkehrssicherheit (Mini-Run 30, 260715)
+
+Die folgenden VSS-Normen und kantonalen/kommunalen Erlasse ergaenzen die reine
+Parkfeld-Geometrie (VSS 40 291) um die vor- und nachgelagerten Fragen: wie gelangt man
+auf das Areal (Zufahrt/Zugang), wie viele Auto- und Veloabstellplaetze braucht es
+(Bedarf), welche Laerm- und Sicherheitsauflagen entstehen daraus. Anders als bei den
+DIN-Positionen in den uebrigen Abschnitten ist bei allen hier behandelten Normen **keine
+Uebertragbarkeits-Pruefung DIN-vs-SIA noetig** — es handelt sich durchgehend um direkt
+geltendes oder kantonal/kommunal fuer verbindlich erklaertes Schweizer Fachrecht (siehe
+Einordnung am Schluss dieses Abschnitts).
+
+#### 6a. Grundstueckzufahrten und Zugangsnormalien (Erschliessungsnachweis)
+
+Fuer den Erschliessungsnachweis in Machbarkeitsstudien (Skill `machbarkeit`) und
+Baueingaben greifen zwei Ebenen ineinander, die **gemeinsam** zu pruefen sind, nicht
+alternativ:
+
+- **VSS 700.5 (Zugangsnormalien Kt. ZH, 1987)**: kantonal-zuercherische Ausfuehrungs-
+  bestimmung zu § 360 Abs. 3 PBG. Legt die Zugangsart (Zufahrtsweg/-strasse/
+  Erschliessungsstrasse/Sammelstrasse) nach dem voraussichtlichen Verkehrsaufkommen in
+  **Wohneinheiten (WE)** fest. Kernwerte aus der Anhang-Tabelle: Zufahrtsweg bis 10
+  (30*) WE mit Radius min. 5,0 m, lichter Hoehe 4,50 m, Breite 3,00-3,50 m;
+  Zufahrtsstrasse bis 30 (60*) bzw. 150 (300*) WE, Radius 10,0 m, Breite 4,00-5,00 m;
+  Erschliessungsstrasse bis 300 (600*) WE, Radius 15,0 m, Breite 4,50-5,50 m;
+  nutzungsorientierte Sammelstrasse bis 600 (1000*) WE, Radius 20,0 m, Breite
+  5,00-6,00 m (* bei guter OeV-Erschliessung in dichter Bebauung erhoehbar). Jeder
+  Zugang muss mindestens als **Notzufahrt** ausgestaltet sein (§ 3 f.), Tragfaehigkeit
+  min. 16 t. Erreichbarkeits-Distanz Zugang→Gebaeudeeingang: max. 80 m bei
+  Gebaeudehoehe < 13 m, max. 40 m darueber bzw. bei Bauten mit starker
+  Personenbelegung. Erleichterungen sind nach § 11 bei Hanglagen, Natur-/Heimatschutz,
+  landwirtschaftlichen Heimwesen und gemeinschaftlichen Parkierungsloesungen moeglich
+  (unter Vorbehalt der Notzufahrt) — das ist die Rechtsgrundlage fuer eine
+  Erleichterungs-Begruendung gegenueber der Baubehoerde bei engen oder steilen
+  Zufahrten.
+- **SN 640 050 (Grundstueckzufahrten, VSS 1993)**: gesamtschweizerische VSS-Norm fuer
+  private Zufahrten bis ca. 40 Parkfelder. Bemisst die Zufahrt nach **Parkfeldzahl (P)
+  des Grundstuecks × Typ der vortrittsberechtigten Strasse** (Typen A/B/C). Kernwerte:
+  Breite bei Gegenverkehr 3,00/5,00/5,50 m (Typ A/B/C), minimaler Einlenkerradius
+  3,00/5,00/6,00 m, maximale Laengsneigung innerhalb 5 m ab Strassenrand ±5,0-10,0 %
+  (Typ A) bzw. ±5,0 % (B/C).
+
+**Praxisnutzen fuer `machbarkeit`:** VSS 700.5 beantwortet «welche Zugangsart braucht
+mein Bauvolumen nach Wohneinheiten» (Groberschliessung, kantonaler Massstab), SN 640 050
+beantwortet «wie muss die konkrete private Zufahrt geometrisch aussehen»
+(Feinerschliessung, Parkfeld-Massstab). Bei jedem Erschliessungsnachweis beide Normen
+ziehen: 700.5 fuer die Zufahrtsart/Notzufahrt-Pflicht, 640 050 fuer Breite/Radius/
+Neigung der tatsaechlichen Einfahrt.
+
+#### 6b. Velo-Infrastruktur: Bedarfsermittlung und Geometrie
+
+Vier Dokumente decken zusammen den Nachweis fuer Velo-Abstellplaetze ab, den Skills
+`machbarkeit` und `planungsgrundlagen` fuer das Raumprogramm brauchen:
+
+- **SN 640 065 (Bedarfsermittlung, VSS 2011)**: Richtwert Wohnbauten **1
+  Veloparkplatz pro Zimmer** (Besucher im Richtwert enthalten); Dienstleistung/Gewerbe
+  2 Velo-P Mitarbeitende pro 10 Arbeitsplaetze + 3 Velo-P Besucher; Schulen 1-3 bzw.
+  5-7 Velo-P pro 10 Schueler je nach Stufe. Anpassung: Reduktion 25-50 % bei
+  ungünstiger Topografie, Erhoehung 25-100 % bei sehr guter Lage; bei Wohnbauten
+  grundsaetzlich keine Anpassung.
+- **SN 640 066 (Geometrie/Ausstattung, VSS 1996)**: Abstellfeld-Masse je Aufstellwinkel
+  (z.B. Anlehnbuegel 90°: 0,50 × 2,00 m), Fahrgassenbreite 2,10-2,50 m, lichte Hoehe
+  ≥ 2,20 m.
+- **SN 640 060 (Grundlagen leichter Zweiradverkehr, VSS 1994)**: Projektierungs-
+  geschwindigkeit 30 km/h, komfortable Steigungen ≤ 3 % lange Abschnitte/≤ 5 % bis
+  100 m/≤ 10 % Rampen bis 20 m.
+- **Merkblatt Veloabstellplaetze Stadt Zuerich (1996/1998)**: konkretisiert Art. 4 der
+  staedtischen Verordnung ueber Fahrzeugabstellplaetze (PPV, §§ 242 ff. PBG) mit
+  **abweichenden** Bedarfszahlen: Wohnen **1 Abstellplatz je 70 m² Geschossflaeche ODER
+  je Wohnung** (groessere Zahl massgebend, nicht «je Zimmer» wie SN 640 065), Bueros
+  allgemein 500 m²/mit regem Besucherverkehr 250 m², Laeden 160 m².
+
+**Wichtiger Praxishinweis Divergenz:** SN 640 065 (1 Velo-P/Zimmer) und das staedtische
+Merkblatt Stadt Zuerich (1 Velo-P/70 m² GF oder je Wohnung) rechnen bei Wohnbauten mit
+**unterschiedlichen Bezugsgroessen** und ergeben nicht dieselbe Zahl. In der Stadt
+Zuerich geht das kommunale Merkblatt vor; ausserhalb der Stadt Zuerich ist die
+kommunale BZO/Parkierungsverordnung zu pruefen, SN 640 065 dient dort als
+Auslegungs-/Ergaenzungsgrundlage.
+
+**Offene Luecke, nichts erfunden:** Ein Hinweis auf eine «kuerzlich (2026)
+verschaerfte kantonale Velo-Abstellpflicht» findet sich in keinem der geprueften
+Destillate (Quellen von 1983-2011 bzw. Merkblatt 1996/1998). Eine allfaellige neuere
+kantonale Regelung ist damit eine **offene KB-Luecke**, die separat zu recherchieren
+und nachzutragen waere.
+
+#### 6c. Laermimmissionen Parkierung (SN 640 578)
+
+**SN 640 578 (2006)** liefert das schweizweit einheitliche Berechnungsverfahren fuer
+Laermimmissionen aus Parkierungsanlagen (ungedeckte Parkplaetze, Parkhaeuser,
+Tiefgaragen), gestuetzt auf USG/LSV. Zeitfenster: Tag = 07:00-19:00 Uhr, Nacht =
+19:00-07:00 Uhr; Pegelkorrekturen nach LSV Anhang 6: K1 Tag = 0 dB(A), **K1 Nacht =
+5 dB(A)**. Ab **150 Parkfeldern** wird der Durchfahrverkehr separat berechnungspflichtig
+und die Parksuchverkehr-Korrektur springt auf den Fixwert KP = 6,4 dB(A) — ein
+Kostentreiber fuer den Laermschutznachweis bei groesseren Sammel-Tiefgaragen. Bei
+Healthcare-Bauten mit Nachtbetrieb (Skill `healthcare-wirtschaftlichkeit`) ist die
+Parkierungslaerm-Frage ein eigenstaendiger Pruefpunkt; die effektive Pegelberechnung
+bleibt Sache einer Laermschutz-Fachperson.
+
+#### 6d. Verkehrssicherheitsverordnung Kt. ZH (VSS 722.15)
+
+**VSS 722.15 (1983/1995)** regelt gestuetzt auf § 359 Abs. 1 lit. i PBG die
+Grundstuecknutzung im Bereich von Strassen. Ausfahrten sind an Strassenverzweigungen/
+OeV-Haltestellen grundsaetzlich unzulaessig (§ 5); technische Mindestanforderungen nach
+Ausfahrt-Typ A/B/C (Einlenkerradius 4/5/6-12 m, Sichtweite 40-70/50-90/90-120 m,
+letztere nur **innerorts** gueltig). Max. Neigung innerhalb 6 m ab Strassengrenze
+± 5 % (Typ A)/± 3 % (Typ B/C) — direkt relevant fuer Rampendimensionierung bei
+Tiefgaragenzufahrten. § 22a verankert SN 521 500 «Behindertengerechtes Bauen» als
+verbindliche Grundlage fuer die Strassenprojektierung.
+
+#### 6e. Ergaenzend: PW-Parkplatzbedarf (Menge) — SN 640 281
+
+Zur Parkfeld-**Geometrie** (VSS 40 291/SN 640 291a) liefert **SN 640 281 (2006)** die
+komplementaere **Bedarfsermittlung**: vereinfachtes Verfahren (Richtwerte) fuer
+Wohnnutzungen bzw. Anlagen ≤ 300 Parkfelder/≤ 1'500 Fahrzeugfahrten pro Tag; detail-
+liertes Verkehrsanalyse-Verfahren fuer verkehrsintensive Anlagen. Kernwert Wohnen: 1
+Parkfeld pro 100 m² BGF oder pro Wohnung + 10 % Besucher, modifiziert nach fuenf
+Standort-Typen A-E (20-100 % des Richtwerts) und Behindertenparkfeldern (1 auf 50).
+Wie bei den Velo-Richtwerten gilt: die kommunale BZO/Parkplatzverordnung geht als
+verbindliches Recht vor, SN 640 281 dient als fachliche Auslegungsgrundlage.
+
+**Einordnung — direkt geltendes CH-Fachrecht, keine Uebertragbarkeits-Pruefung noetig:**
+gesamtschweizerisch direkt anwendbar sind SN 640 050/060/065/066/281/578 (analog zu
+VSS 40 291); kantonal spezifisch (nur Kt. ZH) sind VSS 700.5 und VSS 722.15 — bei
+Projekten in anderen Kantonen ist die dortige kantonale Ausfuehrungsbestimmung zu
+suchen, diese ZH-Werte NICHT unbesehen zu uebertragen; kommunal spezifisch (nur Stadt
+Zuerich) ist das Merkblatt Veloabstellplaetze.
+
 ## 7. Tageslicht/Besonnung (Skills `wettbewerb`, Raumprogramm-Entwurf)
 
 - DIN 5034-1:1999 setzt Kennwerte fuer Sichtverbindung, Tageslichtbeleuchtung und
@@ -209,6 +335,46 @@ massgebenden Original bestaetigt werden.
   sich primaer auf SIA 380/1 (Energie) und kantonale Belichtungsvorschriften (z.B. PBG ZH
   Besonnungsdauer-Anforderungen) — DIN 5034-1 dient als **Kennwert-Kontrastfolie**, wenn
   ein Bauherr/Investor eine deutsche Tageslicht-Anforderung ins Raumprogramm einbringt.
+
+### Vertiefung zu Abschnitt 7: Berechnungsverfahren und Bemessungswerkzeuge (DIN 5034-2/-3/-4/-6, Mini-Run 30, 260715)
+
+Die oben genannten Kennwerte aus DIN 5034-1 (Fensterbreite ≥ 55 % der Wandbreite,
+Tageslichtquotient ≥ 0,9 % im Mittel, Besonnungsdauer 1 h am 17. Januar) sind
+Anforderungswerte. Die uebrigen Teile der Normenreihe liefern die dazugehoerige
+Rechenmethodik in drei Tiefenstufen:
+
+- **DIN 5034-2:1985 (Grundlagen):** astronomische/lichttechnische Eingangsgroessen —
+  Sonnenhoehe γs/Sonnenazimut αs nach Ort/Datum/Uhrzeit (Ziff. 3, S. 2-5); Praxis-
+  Naeherungsformeln fuer die horizontale Beleuchtungsstaerke bei klarem Himmel:
+  Es ≈ [85'000·sin²γs + 6'500·sin²(2γs)] lx und EH ≈ 280·arctan(γs/°:18,9) lx
+  (Ziff. 4.2, S. 7-8) — als Grobabschaetzung ohne Truebungsfaktor-Tabelle geeignet.
+- **DIN 5034-3:2007 (Berechnung):** methodisches Kernstueck fuer die **genaue**
+  Tageslichtquotienten-Berechnung: D = (DHr + DVr + DRr) · τD65 · k1 · k2 · k3 · ke
+  (Ziff. 4, S. 13-15) mit Minderungsfaktoren k1 (Rahmen/Sprossen), k2 (Verschmutzung,
+  Tabelle 1: 0,9-0,5, pauschal 0,95 bei Wohnraeumen), k3 = 0,85 (nicht senkrechter
+  Lichteinfall). Praxis-wichtig: bei DHr/DVr ist im Zweifelsfall die **baurechtlich
+  zulaessige** (nicht die tatsaechlich vorhandene) Nachbarverbauung anzusetzen (Anm. 2
+  zu Ziff. 4.3, S. 14) — direkt uebertragbar auf Schweizer Wettbewerbs-/Machbarkeits-
+  faelle mit Nachbarparzellen-Verdichtungspotenzial.
+- **DIN 5034-4:1994 (vereinfachte Fenstergroessen-Bestimmung):** Tabellenwerk fuer die
+  Mindestfensterbreite bF nach Verbauungsabstandswinkel α (0-50°), Raumhoehe/-breite/
+  -tiefe (Ziff. 4.1, S. 3); massgebend ist stets der **groessere** Wert aus Helligkeits-
+  und Sichtverbindungs-Anforderung — eine Doppelanforderung, die strukturell auf die
+  Schweizer Praxis (Tageslicht + Ausblick) uebertragbar ist. Destillat ist wegen
+  fehlender Seite 2 im Quell-Scan nur ein Teil-Nachweis und darf nicht als alleinige
+  Rechengrundlage dienen.
+- **DIN 5034-6:1995 (Oberlichter):** vereinfachtes Vordimensionierungsverfahren fuer
+  Lichtkuppeln/Dachlichtbaender/Shed-Daecher. Zielgrosse mittlerer Tageslichtquotient
+  D̄ ≥ 4 %, Untergrenze Dmin ≥ 2 %, Obergrenze D̄ ≤ 10 % (Ziff. 4, S. 2-3). Faustregel:
+  Dachlichtband-Breite bF nicht groesser als die halbe Raumhoehe; ausser bei rein
+  nordorientierten Shed-Oeffnungen lichtstreuendes Verglasungsmaterial vorsehen.
+
+**Uebertragbarkeits-Einschaetzung:** alle vier Teile sind reine
+**Rechenmethodik/Vordimensionierungswerkzeuge**, keine Anforderungsnormen — sie
+ersetzen nicht SIA 380/1 oder das kantonale Besonnungsrecht, liefern aber dort, wo die
+Schweizer Praxis keine gleich detaillierte Berechnungsvorschrift kennt (z.B. Oberlicht-
+Vordimensionierung, Sichtverbindungs-Kontrolle), eine belegte, nachvollziehbare
+Zweitmethode. Fundstelle/Ziffer ist bei jeder Uebernahme ins Raumprogramm zu vermerken.
 
 ## 8. Abnahme/Garantie/Maengelrecht im Detail (Skill `unternehmerkontrolle`)
 
@@ -233,7 +399,368 @@ Abnahmeprotokollen/Garantiescheinen fuer JANS-Bauprojekte bleibt ausschliesslich
 Fristenlogik (Art. 172/180/181) massgebend; VOB/B dient nur der Erklaerung gegenueber
 Bauherren/Generalunternehmern mit deutschem Rechtshintergrund.
 
-## 9. Grenzen der Uebertragbarkeit (Sammelstelle)
+## 9. Mauerwerk/Tragwerk/Baugrund (Skills `ankaufspruefung`, `baurecht`, `kostenschaetzung`) — Mini-Run 30, 260715
+
+Mit Abschluss der DIN-1053-Reihe (Mauerwerk, fuenf Teile), DIN 1045-2 (Beton), DIN 1054
+(Baugrund) und DIN 1055-2 (Bodenkenngroessen) liegt die komplette deutsche
+Tragwerks-Bemessungslogik fuer die drei haeufigsten Bestandsbau-Baustoffe (Mauerwerk,
+Beton, Baugrund) destilliert vor. Dieser Abschnitt ordnet sie gegen die Schweizer
+Pendants SIA 266 (Mauerwerk), SIA 262 (Betonbau) und SIA 267 (Geotechnik) ein — mit
+Fokus auf die **Sicherheitskonzept-Logik** und den **Praxisnutzen fuer
+`ankaufspruefung`** (wann taugt eine DIN-Zahl als Kontroll-/Vergleichsgroesse, wenn
+keine aktuelle Schweizer Kennzahl vorliegt).
+
+### Mauerwerksbemessung: zwei parallele deutsche Traditionen vs. eine Schweizer Linie
+
+Die deutsche DIN-1053-Reihe fuehrt bis heute **zwei nebeneinander gueltige
+Bemessungsphilosophien**. DIN 1053-1:1996 rechnet nach dem **aelteren, globalen
+Sicherheitskonzept** mit zulaessigen Spannungen — Grundwerte σ₀ der zulaessigen
+Druckspannung, tabelliert nach Steinfestigkeitsklasse × Moertelgruppe (Tabelle 4a,
+Bandbreite rund 0,3 bis 5,0 MN/m² bei Normalmoertel, Ziff. 6.9.1, S. 11), mit
+Sicherheitsbeiwerten γw = 2,0 (Waende) bzw. γP = 2,5 (uebrige «kurze Waende»,
+Ziff. 7.9.1, S. 15) im genaueren Verfahren nach Abschnitt 7. DIN 1053-100:2007 rechnet
+dieselbe Bauaufgabe nach dem **semiprobabilistischen Teilsicherheitskonzept** neu durch:
+charakteristische Druckfestigkeit f_k als 5%-Quantilwert (Tabellen 4/5), Bemessungswert
+f_d = η·f_k/γ_M mit **η = 0,85** fuer Langzeitwirkung und **γ_M = 1,5·k0** (normale
+Einwirkungen) bzw. **1,3·k0** (aussergewoehnliche Einwirkungen), k0 = 1,0 bzw. 1,25 je
+nach Wandtyp (Ziff. 5, Tabelle 1). Beide Normen bestehen **parallel** — DIN 1053-1
+bleibt fuer Ausfuehrung/Konstruktionsdetails massgebend, DIN 1053-100 fuer die
+Berechnung selbst. Die Schlankheitsgrenze h_k/d ≤ 25 (bzw. ≤ 20 fuer Naturstein-
+Guetklassen N1-N3, DIN 1053-1 Ziff. 12.3.2) ist in beiden Verfahren identisch.
+
+SIA 266:2003 kennt diese Zweigleisigkeit nicht: sie rechnet von Beginn weg nach dem
+Teilsicherheitskonzept der Normenfamilie SIA 260-267, aber mit einem **einzigen,
+undifferenzierten Partialfaktor fuer Mauerwerk γM = 2,0** (Ziff. 2.3.2.2, S. 15) — ohne
+die deutsche Unterscheidung nach Einwirkungsart oder Wandtyp. Ein direkter
+Zahlenvergleich «γM Schweiz 2,0» gegen «γM Deutschland 1,5·k0/1,3·k0» ist **nicht
+sinnvoll**, weil die deutschen Werte bereits selbst gestaffelt sind und zusaetzlich mit
+dem Abminderungsbeiwert η = 0,85 zu einem tieferen effektiven Wert fuehren — ein
+pauschales «SIA ist strenger/lockerer» laesst sich aus den beiden Destillaten allein
+**nicht belegen** (die Detailbemessung von SIA 266, Ziff. 4.1-4.5, ist im SIA-266-
+Destillat ausdruecklich **nicht gelesen** — offene Luecke).
+
+Bei der Eignungspruefung von Mauerwerk zeigt sich eine strukturelle Parallele:
+DIN 1053-2 klassiert Mauerwerk nach Eignungspruefung in **Mauerwerksfestigkeitsklassen
+M 1 bis M 25** (Nennfestigkeit β_M = 5%-Quantil, Tabelle 1), SIA 266 kennt mit dem
+Begriff **«deklariertes Mauerwerk» (D)** ein analoges Konzept (Ziff. 3.1.2.2/3.1.3).
+Beide Systeme verlangen also eine Eignungspruefung als Alternative zum «Rezeptmauer-
+werk»; eine 1:1-Zuordnung DIN-M-Klasse ↔ SIA-D-Deklaration bleibt **ungeprueft** (SIA
+266 Ziff. 3.2-3.6 zu Mauersteinen/Moertel ist nicht gelesen). Fuer JANS-Zwecke
+(Bestandsbauten, `ankaufspruefung`) bleibt die Mindestwanddicke **115 mm** als
+robusteste Konstante ueber alle DIN-1053-Teile hinweg (Teil 1 Ziff. 8.1.2.1, Teil 3
+Ziff. 7.2, Teil 4 Ziff. 6.7) — eine erste, grobe Plausibilitaetsgrenze «kann das
+ueberhaupt eine tragende Wand sein», unabhaengig vom Sicherheitskonzept.
+
+### Stahlbeton: DIN 1045-2 als Vergleichsnorm zu SIA 262
+
+DIN 1045-2:2008 (Anwendungsnorm zu DIN EN 206-1) und SIA 262:2003 folgen derselben
+Grundlogik — Zuordnung von Bauteilen zu **Expositionsklassen** (X0/XC/XD/XS/XF/XA,
+DIN 1045-2 Tabelle 1, S. 14-16, vs. SIA 262 Tabelle 1, S. 22) mit daraus abgeleiteten
+Grenzwerten fuer Wasserzementwert, Mindestdruckfestigkeitsklasse und Bewehrungs-
+ueberdeckung. Die Klassenbezeichnungen selbst (XC1-XC4, XD1-XD3, XF1-XF4, XA1-XA3)
+sind ueber SN EN 206-1 europaeisch harmonisiert und **direkt vergleichbar**. Die
+konkreten Grenzwerte (w/z-Wert, Bewehrungsueberdeckung cnom, SIA 262 Tabelle 17: z.B.
+20 mm fuer Betonstahl bei XC1) sind jedoch national kalibriert und wurden in den beiden
+Destillaten **nicht Zahl-fuer-Zahl** gegengeprueft — bleibt eine sinnvolle naechste
+Destillat-Vertiefung.
+
+### Baugrund/Geotechnik: DIN 1054/1055-2 als Kontroll-/Vergleichsgrundlage fuer `ankaufspruefung`
+
+Das ist der praktisch wertvollste Fall fuer die technische Due Diligence: liegt bei
+einer Bestandsliegenschaft in der Schweiz **kein aktuelles Baugrundgutachten** vor,
+geben die beiden deutschen Normen eine belegte, tabellierte Kontroll-Groessenordnung:
+
+- **DIN 1054 Abschnitt A 6.10 (Tabellen A 6.1-A 6.8, S. 47-56)** liefert Bemessungs-
+  werte des Sohlwiderstands σ_R,d fuer Regelfaelle — z.B. nichtbindiger Boden,
+  Einbindetiefe 1,00 m, Fundamentbreite 2,00 m → **800 kN/m²** (Tabelle A 6.1);
+  bindiger Boden («steif»), gleiche Einbindetiefe → **250 kN/m²** (Tabelle A 6.6).
+  Diese Werte gelten nur fuer die **Geotechnische Kategorie 1** (Ziff. 2.1.2.2).
+- **DIN 1055-2** ergaenzt Erfahrungswerte fuer **Wichte und Scherfestigkeit** — z.B.
+  Reibungswinkel φ' fuer mitteldichten Kies/Sand **32,5°** (Tabelle 2) oder Kohaesion
+  c' fuer steifen, leicht plastischen Schluff **2 kN/m²** bei c_u = **15 kN/m²**
+  (Tabelle 4); nur Geotechnische Kategorie 1, Gruendungstiefe max. 3 m.
+- **Praxisnutzen:** bei einer Bestandsliegenschaft mit einfacher Baugrundsituation und
+  ohne eigenes aktuelles Gutachten laesst sich mit diesen Tabellen eine **grobe
+  Kontrollrechnung** machen — «ist eine geplante Aufstockung ohne aufwendige
+  Fundamentverstaerkung ueberhaupt plausibel». Beide Destillate markieren diesen
+  Gebrauch ausdruecklich als **Regelfall-Naeherung, nie als Ersatz fuer ein
+  Baugrundgutachten**.
+- SIA 267 selbst enthaelt im Destillat **keine** vergleichbaren tabellierten Boden-
+  kenngroessen (Ziff. 8 Flachfundationen nur bis 8.4.4 gelesen) — sie regelt primaer
+  das Sicherheitskonzept, nicht die Erfahrungswerte-Tabellen. Die DIN-Tabellen sind
+  hier eine **zusaetzliche, unabhaengige Kontrollquelle**, kein Ersatz.
+
+Die Sicherheitskonzepte selbst sind trotz aehnlicher Struktur **nicht deckungsgleich**:
+DIN 1054 Tabelle A 2.2 setzt fuer den Regel-Nachweisweg GEO-2 **γ_φ' = γ_c' = 1,00**
+und erhoeht erst im GEO-3-Verfahren auf γ_φ' = 1,25/γ_c' = 1,25. SIA 267 Tabelle 1
+(Ziff. 5.3.2.2) setzt dagegen durchgehend **γφ = 1,2** (reduziert 1,1) und **γc = 1,5**
+(reduziert 1,3) — unabhaengig von einer GEO-2/GEO-3-Unterscheidung. Die Zahlen «1,2/1,5»
+(SIA) und «1,00/1,25» (DIN) duerfen **nie** gegeneinander ausgetauscht werden.
+
+### Fazit Abschnitt 9
+
+Beim Mauerwerksbau demonstriert die DIN-1053-Reihe selbst, wie zwei Sicherheits-
+philosophien nebeneinander existieren koennen — SIA 266 hat diese Wahl bereits
+getroffen, ist damit aber nicht automatisch mit einer der beiden deutschen Varianten
+gleichzusetzen. Beim Beton liefert die europaeisch harmonisierte Expositionsklassen-
+Systematik eine tatsaechlich gemeinsame Sprache, waehrend die Grenzwerte national
+bleiben. Beim Baugrund ist der groesste Praxisnutzen fuer JANS klar: DIN 1054/1055-2
+liefern fuer **einfache Geotechnische-Kategorie-1-Faelle** eine belegte, kostenlos
+verfuegbare Kontroll-Groessenordnung — aber immer nur als Plausibilisierung, nie als
+Ersatz fuer den Fachplaner Geotechnik; die Sicherheitsbeiwerte (γφ'/γc') duerfen wegen
+unterschiedlicher Nachweiskonzepte nicht mit SIA-267-Werten gleichgesetzt werden.
+
+## 10. Fenster, Tueren, Einbruchhemmung und Fluchtwegverschluesse (Skills `brandschutz`, `ausschreibung`) — Mini-Run 30, 260715
+
+### 10.1 Einbruchhemmung (RC-Widerstandsklassen)
+
+DIN EN 1627:2011 klassiert die Einbruchhemmung von Tueren, Fenstern, Vorhangfassaden,
+Gitterelementen und Abschluessen in die Widerstandsklassen **RC 1N bis RC 6**
+(Resistance Class), gestaffelt nach Taeterverhalten/Werkzeugeinsatz — von reinem
+Aufbruchversuch mit Koerperkraft (RC 1N/2N) ueber Schraubendreher/Kuhfuss (RC 3) und
+Saege-/Schlagwerkzeuge (RC 4) bis Elektrowerkzeuge (RC 5/6). Im Bestand liegt nur ein
+**Teil-Destillat (4 von 44 Seiten)** vor: Verglasungsanforderungen Tabelle 1 (RC 2 →
+P4 A bis RC 6 → P8 B), Beschlagsanforderungen Ziff. 6, die nationale Einsatzempfehlung
+Anhang NA.6 (Kategorie A Wohnobjekte/B Gewerbe-oeffentlich/C erhoehte Gefaehrdung) sowie
+die Korrelationstabelle NA.11 zu den alten WK-Klassen. Anwendungsbereich, Pruefverfahren
+und die vollstaendige Klassentabelle fehlen im Bestand — offene Luecke.
+
+**JANS-Praxis:** RC 2/RC 2N wird laut Tabelle NA.6 fuer Wohnobjekte (Kategorie A) ohne
+direkten Angriff auf die Verglasung empfohlen, RC 3 zusaetzlich bei hoeherem
+Schutzbedarf — als belegte Qualitaetsreferenz fuer Erdgeschossfenster/-terrassentueren
+in Ausschreibungstexten (BKP 331) nutzbar. **Schweizer Pendant:** ein eigenstaendiges
+SIA-Pendant ist nicht noetig, weil EN 1627 selbst eine europaeisch harmonisierte Norm
+ist, die in der Schweiz identisch als SN EN 1627 gilt — SIA 343.051 (Innentueren)
+verweist in Ziff. 4.19 direkt auf EN 1627 fuer die Eigenschaft «Einbruchhemmung». Die
+RC-Klasse ist damit in CH-Ausschreibungen **direkt anwendbar**, nicht nur
+Vergleichsreferenz wie z.B. DIN 4102 oder DIN 68119.
+
+### 10.2 Fluchtwegtueren und Panikbeschlaege (EN 179 vs. EN 1125)
+
+**EN 179** (Notausgangsverschluesse, Druecker) gilt fuer ortskundige Nutzer ohne
+erwartete Panikgefahr (Wohnbereich, kleine Personenzahlen); **EN 1125**
+(Paniktuerverschluesse, Stangengriff) fuer nicht ortskundige Nutzer bzw. grosse/
+unbekannte Personenansammlungen oder besondere Gefaehrdung (VST-Merkblatt Ziff. 4.1/
+5.1). Der Entscheid, welche Norm einschlaegig ist, liegt gemaess beiden Quellen **bei
+der Brandschutzbehoerde**, nicht beim Planer. Bedienkraft-Unterschied: EN 179 verlangt
+F 70 N (87,5 N bei Dichtungsvorlast) senkrecht am Druecker, EN 1125 F ≥ 80 N (bis
+220 N bei 1000 N Gedraenge-Vorlast) horizontal an der Stange — die horizontale Kraft
+ist fuer Kinder, aeltere/gehbehinderte Personen und Rollstuhlfahrer schwieriger
+aufzubringen.
+
+**Anschluss an VKF:** das VST-Merkblatt (Ziff. 3.1) verweist fuer die Tuerbreiten-
+Bemessung auf die VKF-Richtlinie Flucht- und Rettungswege — deckungsgleich mit
+BRL 16-15:2015 (rev. 2016), Ziff. 2.4.5 (lichte Durchgangsbreite Tueren min. 0,9 m).
+Anhang I des VST-Merkblatts zitiert allerdings die VKF-Vorschriften im Stand 2005/2009
+mit alter Artikel-Nummerierung — das deckt sich **nicht zwingend** mit der Ziffern-
+Struktur der aktuellen BRL 16-15/BRL 17-15. Bei aktuellen Projekten sind primaer
+BRL 16-15/17-15 massgebend, das VST-Merkblatt liefert nur die ergaenzende
+Schlosstechnik-Perspektive.
+
+**Direkte Anwendbarkeit in der Schweiz — Kernbefund:** anders als reine DIN-Normen
+(DIN 68119, DIN 4102) sind EN 179 und EN 1125 europaeisch harmonisierte Normen, die in
+der Schweiz **direkt** referenziert werden: SIA 343.051 (Ziff. 4.10) verweist woertlich
+auf «Baubeschlaege nach EN 179, EN 1125, EN 1935, EN 1154 oder EN 13637»; das
+VST-Merkblatt — eine genuine Schweizer Branchenpublikation (Verband Schweizerische
+Tuerenbranche) — nennt EN 179/EN 1125 explizit als «massgebende EN-Normen» fuer die
+CH-Praxis. EN 179/EN 1125 sind damit **keine blosse Kontrastfolie**, sondern direkt
+anwendbares Produktrecht — die Ausnahme zum sonstigen Regelfall dieser Synthese.
+
+### 10.3 Fenster-Luftdurchlaessigkeit und Holzfenster-Guetebedingungen
+
+DIN EN 12207:2000 klassiert die Luftdurchlaessigkeit von Fenstern/Tueren in die
+**Klassen 0-4**. Auch dies eine europaeisch harmonisierte Norm — das Destillat haelt
+fest, dass sie «auch in CH-relevanten Produktdatenblaettern gaengig ist und direkt als
+Vergleichsgroesse herangezogen werden kann». SIA 331 (Fensterbau) ist zwar im Bestand
+vorhanden (`destillate/sia-331-1988.md`), wurde fuer diesen Vergleich aber nicht im
+Detail gegen EN 12207 gelesen (Luftdichtheits-Klassifizierung nicht am Original
+gegengeprueft) — solange dieser Detailabgleich offen ist, dient EN 12207 als belegte
+Kennwert-Quelle fuer LV-Texte, ohne dass ein SIA-331-Zahlenvergleich vorliegt.
+DIN 68119:1996 (Holzschindeln) ist dagegen eine reine deutsche Norm ohne EN-Nummer,
+aber mit nutzbarer Bezeichnungssystematik und Mengenermittlung fuer Fassaden-/
+Dacheindeckungs-Ausschreibungen mit Holzschindeln (BKP 224/225). Die im Destillat
+enthaltene Brandschutz-Aussage (Baustoffklasse B2 nach DIN 4102-1) ist **nicht auf die
+Schweiz uebertragbar** — massgebend bleibt die VKF-RF-Klassifizierung.
+
+## 11. Bodenbelaege, Zeichnungsnormen und Baumaterial-Kennwerte (Skills `ausschreibung`, `kostenschaetzung`) — Mini-Run 30, 260715
+
+### 11.1 Estrich (DIN 18560-2 vs. SIA 251)
+
+Beide Normen stuetzen sich auf dieselbe europaeische Grundlage (SN/DIN EN 13813
+«Estrichmoertel und Estriche»): Kurzzeichen-System (CT Zement, CA/CAF Calciumsulfat,
+AS Gussasphalt) und Biegezugfestigkeitsklasse «F» sind identisch. Die Nenndicken-
+Anforderungstabellen sind aber national unterschiedlich aufgebaut: DIN 18560-2,
+Tabelle 1 (unbeheizte Estriche ≤ 2 kN/m²) — Zementestrich CT F4 ≥ 45 mm, F5 ≥ 40 mm;
+SIA 251, Tabellen 3-8 — Zementestrich 45-80 mm, gestaffelt nach **Beanspruchungs-
+kategorie A-D** (Nutzungsart, inkl. Spitalbauten B2). Im unteren Wertebereich
+(Zementestrich 45 mm) praktisch identisch, SIA deckt aber durch die Nutzungskategorien
+B2-D eine deutlich breitere Bandbreite bis 80 mm ab — **keine direkte Tabellenwert-
+Uebertragung**. Beim Heizestrich liefert DIN 18560-2 eine feingliedrige Bauart-
+Systematik (A/B/C, Temperaturlimiten je Material) ohne SIA-Pendant im destillierten
+Material — nuetzlich als Vokabular bei deutschen Systemplatten-Herstellern.
+
+**Praxisnutzen:** in LV-Positionen bleibt SIA 251 (i.V.m. SIA 118) massgebend;
+DIN 18560-2 dient als Kontrastfolie/Kennwert-Zweitquelle bei deutschem Fabrikat oder
+Generalunternehmer-Hintergrund.
+
+### 11.2 Bauzeichnungsnormen (DIN 1356-1/-6 vs. SIA 400/SIA 2014)
+
+**Massstabsstaffelung** — nahezu deckungsgleiche Stufenlogik, unterschiedliche
+Planart-Namen: Vorentwurf 1:500/200 ↔ Wettbewerbs-/Vorprojektplaene 1:200; Entwurf
+1:100 ↔ Bauprojektplaene 1:100; Ausfuehrung 1:50(1:20) ↔ Werkplaene 1:50; Detail
+1:20/10/5/1 in beiden Systemen. **Linienarten/-dicken:** DIN 1356-1 (Tabelle 2) koppelt
+die Liniendicke zwingend an zwei feste «Liniengruppen» je Massstab, SIA 400 (B.3.1)
+erlaubt eine freie Auswahl von max. drei Liniendicken aus zwei Reihen ohne feste
+Massstabs-Kopplung — der Wertebereich ueberschneidet sich (0,5 mm/1,0 mm kommen in
+beiden vor), das Zuordnungsprinzip ist aber verschieden. **Informationsdichte-Stufung
+(Bestandsaufnahme):** DIN 1356-6 kennt zwei explizite Stufen mit einem standardisierten
+**36-Kategorien-Schadenschluessel** (Ziff. 8.1/8.6) — im ausgewerteten SIA-400-Material
+findet sich keine vergleichbare Stufen- oder Schadenschluessel-Systematik fuer
+Bauaufnahmen; hier ist DIN 1356-6 eine echte, direkt nutzbare Zweitquelle fuer
+JANS-Bestandsaufnahmen (Skill `ankaufspruefung`). **CAD-Layer:** die einschlaegige
+CH-Norm ist SIA 2014:2017 (referenziert von SIA 400 selbst), kein DIN-Pendant im
+geprueften Material.
+
+**Praxisnutzen als Zweitquelle:** bei Planlieferungen deutscher Generalunternehmer
+sind DIN-1356-1-Konventionen (Grundriss Typ A/B, Tueroeffnungssymbole, Schnittflaechen-
+Materialkennzeichnung) ein nuetzliches Lese-Vokabular; fuer Schweizer Baueingaben/
+Werkplaene bleiben SIA 400 und SIA 2014 verbindlich.
+
+### 11.3 Material-Kennwerte (Zement DIN 1164-10, Glas DIN 1249-11)
+
+**Zement (HS-/NA-Zement):** ergaenzt die europaeische Basisnorm EN 197-1 um hohen
+Sulfatwiderstand (HS) und niedrigen wirksamen Alkaligehalt (NA). Da auch die Schweiz
+Zement ueber SN EN 197-1 (i.V.m. SIA 262) bezeichnet, sind die DIN-1164-10-Grenzwerte
+(z.B. HS-Zement CEM I: C₃A-Gehalt ≤ 3,0 %) als **Kennwert-Kontrastfolie** brauchbar,
+wenn ein Statiker HS-/NA-Zement vorschreibt und keine unmittelbare CH-Publikation mit
+denselben Zahlen vorliegt — in JANS-Ausschreibungstexten bleibt jedoch SN EN 197-1
+(i.V.m. SIA 262) die zu zitierende Norm. **Glas (Glaskanten):** DIN 1249-11 liefert
+ein Kurzzeichen-System fuer Glaskanten (Kantenform × Ausfuehrung), nuetzlich als
+Qualitaetsreferenz fuer Verglasungspositionen (Gelaenderglas, Ganzglastueren,
+Bruestungen) — insbesondere der objektive Unterschied «massgeschliffen» vs.
+«geschliffen» als Abnahmekriterium. Fuer den statischen/sicherheitstechnischen
+Nachweis von Glas bleiben SIA 358 (Gelaender/Bruestungen) sowie EN 12150 (ESG)/EN
+14179 (VSG) massgebend — DIN 1249-11 regelt nur die Kantenbezeichnung, keinen
+Sicherheitsnachweis. (SIA 331 Fenster ist im Bestand vorhanden, wurde fuer den
+Glaskanten-Vergleich aber nicht herangezogen, da SIA 331 keine Glaskanten-
+Bezeichnungssystematik fuehrt — nicht am Original neu geprueft.)
+
+### 11.4 Gitterroste (RAL-GZ 638)
+
+RAL-GZ 638 regelt ein vollstaendiges Guetesicherungssystem fuer Gitterroste (Stahl/
+Edelstahl/Aluminium/Messing): Erst-/Eigen-/Fremdueberwachung, Kennzeichnung mit dem
+Guetezeichen «RAL638» + Herstellernummer, Fertigungs-/Liefertoleranzen. Fuer Treppen-
+stufen gilt eine eigene Lastvorgabe (1,5 kN Einzellast je 100×100 mm im Abstand 600 mm
+laengs der Antrittskante) inkl. Pflicht zur rutschhemmenden Antrittskante.
+**Praxisnutzen:** bei einer Gitterrost-LV-Position (Kellerabgaenge, Lichtschaechte,
+Balkone, Treppenstufen) ist die Referenz auf RAL-GZ 638 sinnvoll, wenn ein
+guetegesichertes Produkt verlangt wird. Eine BKP-Zuordnung ist im Destillat nicht
+explizit ausgewiesen — offene Luecke, im Einzelfall gegen die BKP-2017-Liste zu
+verifizieren; direkt schweizerisches Fachrecht ist RAL-GZ 638 in keinem Fall.
+
+## 12. Stahlbau-Brandschutz, Treppen und Fassadenunterhalt (Skills `brandschutz`, `terminplanung`, `unternehmerkontrolle`) — Mini-Run 30, 260715
+
+### 12.1 Brandschutz im Stahlbau (SZS steeldoc 03/15) — direkte Schweizer Fachquelle, kein Auslandsvergleich
+
+Wichtiger Befund vorab: das Destillat `szs-steeldoc-brandschutz-stahlbau-2015.md`
+liegt zwar im SharePoint-Ordner der VKF-Brandschutzrichtlinien 2015, ist aber
+**keine deutsche Norm und kein VKF-Erlass**, sondern eine private Fachverbands-
+Publikation des **SZS (Stahlbau Zentrum Schweiz, Zuerich)** — steeldoc-Heft 03/15
+«tec 02:2015 Brandschutz im Stahlbau». Es gehoert damit **nicht** in die
+Uebertragbarkeits-Logik dieser KB (DIN/VSS/RAL gegen SIA/VKF), sondern ist eine eigene
+Schweizer Zweitquelle, die die VKF-Brandschutzvorschriften 2015 fuer den Stahlbau
+anwendungsnah aufbereitet und durchgehend auf VKF-BRL 15-15 (in dieser KB noch nicht
+destilliert) und SIA 260/261/263/264 verweist. Fuer verbindliche Fristen-/Ziffern-
+Zitate bleibt das VKF-Original massgebend; das SZS-Heft dient als Fachplaner-
+Anwendungshilfe.
+
+Kennwerte fuer die Leistungsbeschreibung (Skills `ausschreibung`/`brandschutz`):
+Feuerwiderstandsklassen R/E/I, i.d.R. 30/60/90/120/180 Minuten; kastenfoermige
+Brandschutzplatten ca. 18/30/40 mm fuer R30/60/90; dammschichtbildende Beschichtungen
+nur fuer R30/R60 in der Schweiz zugelassen (objektbezogene Bewilligung noetig, nur
+VKF-geprueften Applikateuren); Verbundbauweisen erreichen R > 90 ohne zusaetzliche
+Bekleidung; verfeinerter Nachweis (Ausnutzungsgrad μ_fi) reduziert die erforderliche
+Bekleidungsdicke regelmaessig um rund die Haelfte oder mehr gegenueber dem einfachen
+Registernachweis. **Offene Luecke:** VKF-BRL 15-15 selbst ist in dieser KB noch nicht
+destilliert — bei verbindlichen Anforderungswerten muss dieses Original konsultiert
+werden.
+
+### 12.2 Treppen-Bemessung (DIN 18065 vs. Schweizer Praxis)
+
+DIN 18065:2000 definiert deutsche Hauptmasse/Messregeln fuer Gebaeudetreppen; ein
+direktes SIA-Pendant zur **Stufengeometrie** ist in dieser KB **nicht vorhanden** — die
+Schweizer Praxis regelt Treppenmasse primaer ueber die kantonale Bauverordnung (Skill
+`baurecht`). Die einzige destillierte SIA-Norm mit unmittelbarem Treppenbezug ist
+SIA 358:2010 (Gelaender/Bruestungen) — sie regelt Handlauf-/Gelaenderhoehe, nicht die
+Stufenmasse selbst. Schrittmassregel DIN 18065: 2s + a = 59-65 cm (s Steigung, a
+Auftritt), Referenz-Steigungsverhaeltnis 17/29. Cross-Check Handlauf/Gelaenderhoehe:
+DIN staffelt 90/100/110 cm nach Absturzhoehe (≤/> 12 m) und Gebaeudeart, SIA 358 setzt
+einheitlich 0,90 m unabhaengig von der Absturzhoehe — **aehnlich im Regelfall, aber
+andere Bemessungslogik**. Die Stufengeometrie selbst hat **kein SIA-Pendant** — offene
+KB-Luecke.
+
+**Praxisnutzen:** die Schrittmassregel ist als Vorentwurfs-Faustformel auch in
+Schweizer Projekten brauchbar, um fruehzeitig Stufenzahl/Treppenlauflaenge zu
+ueberschlagen, ersetzt aber nie die kantonale Vorschrift zu Mindestlaufbreite,
+Steigung oder Gelaenderhoehe.
+
+### 12.3 Treppen-Lehrskript (HCU Hamburg) — akademische Zweitquelle, kein Normstatus
+
+Kein Normcharakter, fasst aber DIN 18065/Neufert praxisnah zusammen: Lauflaengen-/
+Stufenzahl-Faustformel, Neufert-«18-Stufen-Regel» (max. 18 Stufen bis zum Podest bei
+Steigungsverhaeltnis 17/29), Flaechenbedarf je Treppenform (Kreisbogentreppe
+flaecheneffizienteste Form). Reine Zweitquelle fuer die schnelle Vorentwurfs-Faustregel
+(Skills `terminplanung`, `machbarkeit`, `volumenstudie`); bei verbindlichen Aussagen zu
+Fluchtweglaengen bleibt die VKF-Brandschutzvorschrift massgebend, nicht das HCU-Skript.
+
+### 12.4 Fassadengeruest-Verankerung und Dachhaken (DIN 4426)
+
+DIN 4426:2001 regelt sicherheitstechnische Anforderungen an dauerhaft installierte
+Wartungs-/Instandhaltungseinrichtungen an Dach und Fassade — relevant fuer
+Instandhaltungs-/Reinigungskonzepte und Absturzsicherung (Skill `unternehmerkontrolle`).
+Fassadengeruest-Verankerung: vertikaler Abstand der Verankerungsebenen max. 4,0 m,
+Bemessungskraefte rechtwinklig zur Fassade 2,25 kN/m Fassadenlaenge, parallel 0,75
+kN/m, an Gebaeudekanten **verdoppelt**. Sicherheitsdachhaken bei Dachneigung > 20° und
+< 75° einzubauen. Das Destillat selbst verweist fuer die Schweiz auf SIA 358 sowie
+EKAS-Richtlinien der Suva — SIA 358 regelt aber nur Gelaender/Handlaeufe/Absturz-
+sicherung allgemein, **keine Geruestverankerungs-Bemessung und keine Dachhaken-
+Bestueckungsregel**. Eine eigene Suva-/EKAS-Richtlinie dazu ist in dieser KB **nicht
+destilliert** — offene Luecke.
+
+## 13. Raumakustik (Skills `wettbewerb`, `healthcare-wirtschaftlichkeit`) — Mini-Run 30, 260715
+
+DIN 18041:2004 «Hoersamkeit in kleinen bis mittelgrossen Raeumen» regelt die
+raumakustische Eignung von Raeumen bis ca. 5'000 m³ (Sport-/Schwimmhallen bis
+8'500 m³) fuer Sprach-/Musikdarbietung — Gruppe A (Hoersamkeit ueber mittlere/groessere
+Entfernung: Schulen, Gemeindesaele, Sporthallen) mit verbindlichen Nachhallzeit-
+Sollwertformeln, Gruppe B (geringe Entfernung: Bueros, Arztpraxen) mit Absorptions-
+Empfehlungen.
+
+**Nachhallzeit-Sollwerte** (Ziff. 4.3.2, T_soll in s, V = Raumvolumen in m³): Musik
+T_soll = 0,45·lg(V) + 0,07; Sprache T_soll = 0,37·lg(V) − 0,14; Unterricht
+T_soll = 0,32·lg(V) − 0,17; Sport Einzelklasse T_soll = 1,27·lg(V) − 2,49 (2'000-
+8'500 m³); Sport Mehrklassenbetrieb T_soll = 0,95·lg(V) − 1,74. Vereinfachte
+Abschaetzung fuer kleine Unterrichtsraeume ≤ 250 m³ (Tabelle 5): notwendige
+aequivalente Schallabsorptionsflaeche A_erf z.B. 100 m³ → 17 m², 250 m³ → 34 m².
+Volumenkennzahl je Sitzplatz (Tabelle 2): Sprachdarbietung 3-6 m³/Platz, Musik 7-12
+m³/Platz.
+
+**Bezug zu Healthcare-Raeumen:** drei Anforderungsstufen fuer den zulaessigen
+bauseitigen Stoerschalldruckpegel L_NA,Bau (Tabelle 1): Stufe I ≤ 40 dB, Stufe II
+≤ 35 dB, Stufe III ≤ 30 dB (auch grosse Entfernung, Hoerverlust, Fremdsprachigkeit
+geeignet) — fuer Raeume mit Hoerverlust-Kommunikation (Pflegeheim-Gemeinschaftsraeume)
+ist Stufe III anzusetzen. Anhang C nennt drei Uebertragungssysteme fuer Schwerhoerige
+(Induktionsschleife als fuer alle oeffentlichen Raeume geeignet ausgewiesen). Anhang B
+liefert frequenzabhaengige Schallabsorptionsgrade gaengiger Bauprodukte — nutzbar fuer
+eine grobe Akustikdecken-Kostenschaetzung (BKP 283.3).
+
+**Schweizer Pendant — Luecke bestaetigt:** eine Pruefung von `destillate/INDEX.md` nach
+akustik-/nachhallrelevanten SIA-Normen ergibt **keinen Treffer** — im DIN-18041-
+Destillat selbst ist vermerkt, dass ein Schweizer Pendant in dieser KB noch nicht
+destilliert ist. DIN 18041 wird bis zur SIA-Destillation als **Zweitquelle/
+Lueckenfueller** eingesetzt, nicht als CH-Rechtsnorm.
+
+## 14. Grenzen der Uebertragbarkeit (Sammelstelle)
 
 Diese Zusammenstellung buendelt die in den Abschnitten 1-8 bereits einzeln dokumentierten
 Nicht-Aequivalenzen an einer Stelle, damit ein Fach-Skill vor der Verwendung einer
@@ -250,6 +777,33 @@ DIN/VSS/RAL-Zahl gegen SIA/VKF schnell pruefen kann, ob eine 1:1-Uebertragung zu
 | DIN 18040-1 WC-Sitzhoehe ↔ SIA 500 WC-Sitzhoehe | **Ungeprueft** | SIA-500-Anhang E (Sanitaerraum-Detailmasse, S. 42-60) nicht gelesen — offene KB-Luecke |
 | VSS 40 291 Parkfeld-/Fahrgassenmasse | **Ja** — direkt geltendes Schweizer Fachrecht | einzige Position in dieser KB, die nicht nur Vergleichsreferenz, sondern unmittelbar anwendbar ist (Abschnitt 6) |
 | DIN 5034-1 Tageslichtkennwerte ↔ SIA 380/1 / kantonale Besonnungsvorschriften | **Nein** — andere Bezugsgroessen | SIA 380/1 regelt Energie, nicht Tageslichtquotient; kantonales Baurecht (z.B. PBG ZH) regelt Besonnungsdauer separat (Abschnitt 7) |
+| DIN 1053-100 Partialfaktor Mauerwerk γ_M (1,5·k0/1,3·k0 + η=0,85) ↔ SIA 266 Partialfaktor γM (2,0) | **Ungeprueft** | unterschiedliche Struktur; SIA-266-Detailbemessung Ziff. 4.1-4.5 nicht gelesen — kein Zahlen-Direktvergleich moeglich (Abschnitt 9) |
+| DIN 1053-2 Mauerwerksfestigkeitsklassen M 1-M 25 ↔ SIA 266 «deklariertes Mauerwerk» (D) | **Ungeprueft** | konzeptionell verwandt, aber SIA 266 Ziff. 3.2-3.6 nicht gelesen (Abschnitt 9) |
+| DIN 1045-2 Expositionsklassen (XC/XD/XF/XA) ↔ SIA 262 Expositionsklassen | **Ja** — nur die Klassenbezeichnung | ueber SN EN 206-1 harmonisiert; Grenzwerte (w/z, Bewehrungsueberdeckung) national kalibriert, nicht Zahl-fuer-Zahl gegengeprueft (Abschnitt 9) |
+| DIN 1054 Teilsicherheitsbeiwerte γ_φ'/γ_c' (GEO-2: 1,00; GEO-3: 1,25) ↔ SIA 267 Partialfaktoren γφ/γc (1,2/1,5) | **Nein** | unterschiedliche Nachweiskonzepte, Zahlen nie austauschen (Abschnitt 9) |
+| DIN 1054/1055-2 Sohlwiderstand/Bodenkenngroessen-Tabellen ↔ SIA 267 Bemessung Flachfundationen | **Ungeprueft**, nur Groessenordnungs-Orientierung | SIA-267-Destillat deckt Ziff. 8 nur bis 8.4.4 ab; DIN-Tabellen nur fuer Geotechnische Kategorie 1, nie Ersatz fuer ein Baugrundgutachten (Abschnitt 9) |
+| DIN EN 1627 RC-Widerstandsklassen ↔ CH-Einbruchschutzpraxis | **Ja — direkt** (Ausnahme vom DIN-Regelfall) | europaeisch harmonisiert, in CH identisch als SN EN 1627 gueltig, SIA 343.051 Ziff. 4.19 verweist direkt darauf; nur Teil-Destillat (4/44 S.) im Bestand (Abschnitt 10) |
+| EN 179 (Notausgang)/EN 1125 (Panik) ↔ CH-Fluchtwegpraxis | **Ja — direkt**, Anwendungsentscheid bleibt behoerdlich | SIA 343.051 Ziff. 4.10 und VST-Merkblatt Ziff. 1.3 nennen beide EN-Normen ausdruecklich als CH-massgebend (Abschnitt 10) |
+| VST-Merkblatt Anhang I (VKF-Zitate Stand 2005/2009) ↔ aktuelle VKF-BRL 16-15:2015/rev. 2016 | **Nein** — veraltete Nummerierung | Anhang I zitiert alte Artikel-Struktur; fuer aktuelle Projekte gilt BRL 16-15/17-15 (Abschnitt 10) |
+| DIN EN 12207 Luftdichtheitsklassen 1-4 ↔ SIA 331 Fensterbau | **Ungeprueft** | SIA 331 im Bestand vorhanden, aber fuer diesen Vergleich nicht im Detail gegen EN 12207 gelesen (Abschnitt 10) |
+| DIN 68119 Brandschutz-Bezug (Baustoffklasse B2 nach DIN 4102-1) ↔ VKF-RF-Klassifizierung | **Nein** | im Destillat selbst als nicht uebertragbar vermerkt; massgebend ist die VKF-RF-Einordnung (Abschnitt 10) |
+| DIN 18560-2 Nenndicken-Tabelle 1 ↔ SIA 251 Tabellen 3-8 (Estrich) | **Nein** — nur Naeherung im unteren Bereich | unterschiedliche Bemessungsgroesse (Flaechenlast vs. Nutzungskategorie A-D, Abschnitt 11) |
+| DIN 1356-1 Massstabsstaffelung ↔ SIA 400 Massstabsstaffelung | **Ja** — deckungsgleiche Stufenlogik | 1:500→200→100→50→20/10/5/1 identisch, nur andere Planart-Namen (Abschnitt 11) |
+| DIN 1356-1 Liniengruppen ↔ SIA 400 Liniendicken-Reihe | **Nein** — unterschiedliches Zuordnungsprinzip | DIN bindet Dicke zwingend an Massstab, SIA laesst freie Wahl zu (Abschnitt 11) |
+| DIN 1164-10 HS-/NA-Zement-Grenzwerte ↔ SN EN 197-1/SIA 262 | **Bedingt** — Kontrastfolie, keine CH-Geltung | gemeinsame EN-197-1-Basis, DIN 1164-10 aber deutsche Zusatznorm ohne unmittelbare CH-Geltung (Abschnitt 11) |
+| RAL-GZ 638 Gitterrost-Guetezeichen ↔ Schweizer Fachrecht | **Ungeprueft** | kein CH-Pendant im Bestand identifiziert, BKP-Zuordnung offen (Abschnitt 11) |
+| SZS steeldoc 03/15 (Brandschutz im Stahlbau) ↔ DIN-Vergleichslogik | **Nicht anwendbar (keine Vergleichsnorm)** | SZS = Schweizer Fachverband, keine deutsche Norm trotz Ablage im DIN-Ordner; direkte CH-Zweitquelle (Abschnitt 12) |
+| DIN 18065 Stufengeometrie ↔ SIA-Pendant | **Ungeprueft — keine SIA-Quelle in der KB** | SIA 358 regelt nur Gelaender/Handlauf, nicht die Stufenmasse; CH-Stufengeometrie richtet sich nach kantonaler Bauverordnung (Abschnitt 12) |
+| DIN 18065/Neufert Treppengelaenderhoehe (90-110 cm, absturzhoehenabhaengig) ↔ SIA 358 Gelaenderhoehe (0,90 m pauschal) | **Aehnlich im Regelwert, andere Bemessungslogik** | DIN staffelt nach Absturzhoehe/Gebaeudeart, SIA 358 setzt einheitlichen Pauschalwert (Abschnitt 12) |
+| DIN 4426 Fassadengeruest-Verankerung/Dachhaken-Bemessung ↔ CH-Pendant (SIA 358/EKAS-Suva) | **Ungeprueft/Luecke** | SIA 358 deckt nur Gelaender/Absturzsicherung allgemein ab, nicht die Geruestverankerungskraefte oder Dachhaken-Bestueckungsregel; EKAS-/Suva-Richtlinie noch nicht beschafft (Abschnitt 12) |
+| DIN 5034-3 Tageslichtquotient-Berechnung ↔ SIA 380/1/kantonale Belichtungsvorschriften | **Nein** — nur Rechenmethodik, keine CH-Anforderungswerte | DIN 5034-3 liefert das Berechnungsverfahren, SIA 380/1 regelt Energie und kantonales Baurecht die Besonnungsdauer separat (Abschnitt 7-Vertiefung) |
+| DIN 5034-4 Mindestfensterbreiten-Tabellen ↔ Schweizer Fassaden-/Fensterdimensionierung | **Ungeprueft** — Destillat unvollstaendig | Quell-PDF fehlt Seite 2, darf nicht als alleinige Rechengrundlage dienen (Abschnitt 7-Vertiefung) |
+| DIN 5034-6 Oberlicht-Zielwerte ↔ SIA-Vorgaben fuer Oberlichter | **Nein** — keine SIA-Vergleichsnorm identifiziert | rein deutsches Vordimensionierungswerkzeug (Abschnitt 7-Vertiefung) |
+| DIN 18041 Nachhallzeit-Sollwerte/Absorptionsflaechen ↔ SIA-Raumakustik-Grundlage | **Nein** — keine SIA-Norm zur Raumakustik in der KB vorhanden | `destillate/INDEX.md`-Pruefung ergibt keinen Treffer; DIN 18041 wird bis zur SIA-Destillation als Zweitquelle genutzt (Abschnitt 13) |
+| VSS 700.5/SN 640 050 (Zufahrten) | **Ja, ergaenzend anzuwenden** | 700.5 kantonal ZH (Zugangsart), SN 640 050 gesamtschweizerisch (Zufahrtsgeometrie), kein Widerspruch (Abschnitt 6) |
+| VSS 722.15 Verkehrssicherheitsverordnung | **Kantonal Kt. ZH** — direkt anwendbares kantonales Fachrecht, nicht gesamtschweizerisch | Erlass Regierungsrat Kt. ZH; Sichtweiten-Tabelle nur innerorts gueltig (Abschnitt 6) |
+| SN 640 050/060/065/066/281/578 (VSS-Normen) | **Direkt anwendbares gesamtschweizerisches Fachrecht** — wie VSS 40 291 | keine Uebertragbarkeits-Pruefung noetig (Abschnitt 6) |
+| SN 640 065 Velo-Bedarf Wohnen (1 Velo-P/Zimmer) ↔ Merkblatt Stadt ZH (1 Velo-P/70 m² GF oder je Wohnung) | **Nein, echte Divergenz** — unterschiedliche Bezugsgroesse | kommunales Recht (Stadt Zuerich) geht als konkretisierender Erlass vor (Abschnitt 6) |
 
 **Faustregel:** jede DIN/VSS/RAL-Zahl, die in ein JANS-Erzeugnis wandert, braucht einen
 expliziten Vermerk, ob sie (a) direkt geltendes CH-Recht ist (nur VSS-Positionen mit
@@ -259,9 +813,19 @@ in den Faellen (b) und (c) nie unkommentiert als Schweizer Norm ausgeben.
 
 ## Fazit fuer die Fach-Skills
 
-DIN/VSS/RAL-Destillate liefern **Rechenmethodik (NRA-Bemessung, RLT-Klassifizierung),
-Kontrastfolie (VOB vs. SIA 118, KG vs. BKP, DIN-277 vs. SIA-416)** und in einem Fall
-(VSS 40 291) unmittelbar geltendes Schweizer Fachrecht. Die Fach-Skills ziehen sie als
-**Zweitquelle**, wenn SIA/VKF im Bestand fehlt (z.B. Barrierefreiheit ohne SIA 500,
-RLT-Gesundheitswesen ohne CH-Pendant) — nie als Ersatz, wenn eine SIA/VKF-Norm
-vorliegt (Rule `normen-referenz`).
+DIN/VSS/RAL-Destillate liefern **Rechenmethodik (NRA-Bemessung, RLT-Klassifizierung,
+Tageslichtquotienten-Berechnung, Raumakustik-Nachhallzeit),
+Kontrastfolie (VOB vs. SIA 118, KG vs. BKP, DIN-277 vs. SIA-416, Mauerwerk/Baugrund-
+Sicherheitskonzepte)** und in mehreren Faellen (VSS 40 291 und die gesamte
+Erschliessungs-/Langsamverkehrs-Normenfamilie SN 640 050/060/065/066/281/578, sowie
+EN 179/EN 1125 und EN 1627 als europaeisch harmonisierte, in der Schweiz direkt
+geltende Normen) unmittelbar geltendes Fachrecht. Die Fach-Skills ziehen die reinen
+DIN-Positionen als **Zweitquelle**, wenn SIA/VKF im Bestand fehlt (z.B. Barrierefreiheit
+ohne SIA 500, RLT-Gesundheitswesen ohne CH-Pendant, Raumakustik ohne SIA-Pendant,
+Treppen-Stufengeometrie ohne SIA-Pendant, Fassadengeruest-/Dachhaken-Bemessung ohne
+SIA/EKAS-Pendant) — nie als Ersatz, wenn eine SIA/VKF-Norm vorliegt (Rule
+`normen-referenz`). Vertiefungsstufe (d) ist mit Mini-Run 30 (260715, Sektionen 9-13 +
+Vertiefungen Abschnitt 6/7) fuer die Familie DIN/VSS/RAL inhaltlich breit abgedeckt;
+offene Detail-Luecken (SIA 266/262/267-Bemessungsziffern im Detail, SIA-331-EN-12207-
+Abgleich, Suva-/EKAS-Geruestrichtlinie, SIA-Raumakustik-Norm, 2026er-Velo-Vorschrift)
+sind in `wiki/QUESTIONS.md` nachzutragen statt geglaettet zu werden.
