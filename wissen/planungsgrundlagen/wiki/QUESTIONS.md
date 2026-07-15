@@ -350,8 +350,15 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[recht-norm-dispensrecht]]), **Attika-Praxisfall Zuerichseegut** (Namensverwechslung ZSG
   aufgeloest → [[recht-norm-baurechtsanalysen-benchmarks]]). Details siehe `training/curriculum.md`
   R12-R17. Offen: fedlex-ELI fuer SR 520.11/822.113/822.114 noch nicht ermittelt; `twp84d.pdf` +
-  `TPH-19-d` nicht gelesen; Schutzplatz-Bemessungsformel nicht gefunden; `07_Neuffert`/
-  `04_Merkblätter` unter `01_Gesetze/01_Bund/` geprueft, aber leer.
+  `TPH-19-d` nicht gelesen; **Schutzplatz-Bemessungsformel GELOEST (Run 49, R53):** Art. 17 ZSV
+  Volltext (2 SP/3 Zimmer Wohnen, 1 SP/Patientenbett Spital/Heim) → NEU §2b
+  [[recht-norm-zivilschutz-bautechnik]]; `07_Neuffert`/`04_Merkblätter` unter
+  `01_Gesetze/01_Bund/` geprueft, aber leer. **Mehrwertrevers-Einschaetzung KORRIGIERT (Run 49,
+  R54):** der damalige Ordner enthielt noch nicht die am 13.07.2026 nachgelieferte Volltextdatei
+  `zbl.txt` (Bösch, ZBl 1993) — mit dieser Quelle lohnt sich doch ein eigener Artikel, NEU
+  [[recht-norm-mehrwertrevers-grundbucheintragungen]] (der Cross-Ref auf
+  [[recht-norm-dispensrecht]] bleibt als thematisch verwandter Querverweis bestehen, ist aber
+  nicht mehr die einzige Anlaufstelle fuer dieses Thema).
 - [x] **R10** Raumprogramm-Bemessungsgrundlagen (Raumpilot, WBS 2015, Sanitaeranlagen) — welche
   Referenzwerke ergaenzen die rechtlich bindenden Masse fuers Raumprogramm? ✓ **2026-07-13
   (Run 23):** NEU [[recht-norm-raumprogramm-referenzwerke]] — **Raumpilot** (Jocher/Loch,
@@ -650,9 +657,13 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Bauelements), Projekte Plusenergiehaus Zuerich Hoengg + Umwelt Arena Spreitenbach → §5,
   emerging (Datenstand 2012). Geprueft/kein Fund: `_Literatur/planer_d.pdf` (inhaltsgleich mit
   bereits ingested minergiewissen-PDF), `prefa.solar/PREFA_Solarfolder` (Dopplung), zwei triviale
-  Website-Screenshots (energieheld.ch, sonnenverlauf.de). Backlog: `_Literatur/20220606_GreenPV
-  - Workshop 2.pdf` + `wissen.minergie.ch/pvopti_MFH_Nachweiskurs...xlsb` (nicht textuell
-  auslesbar). Details siehe `training/curriculum.md` E32-E35.
+  Website-Screenshots (energieheld.ch, sonnenverlauf.de). **GreenPV-Backlog GELOEST (Run 49,
+  E39):** `_Literatur/20220606_GreenPV - Workshop 2.pdf` S. 1-29 ausgewertet — belegte
+  orientierungsabhaengige Fassaden-PV-Kennwerte (Solarstrahlung/Stromertrag/Amortisation
+  graue Energie/THG/UBP je Sued/Ost/West/Nord, max. Fassadentemperatur je Orientierung) →
+  NEU §6 [[energie-pv-eignung-typenwahl]]. Weiterhin offen: S. 30-46 (qualitative Analyse) +
+  `wissen.minergie.ch/pvopti_MFH_Nachweiskurs...xlsb` (nicht textuell auslesbar). Details siehe
+  `training/curriculum.md` E32-E35 + E39.
 - [x] **D22 (Run 38, 2026-07-14, E5/E9/E31)** Datenstand-Refresh dreier offener Punkte. **MuKEn-
   2025-ZH-Umsetzung (E5/D1):** vertiefter Web-Check (zh.ch Bauvorschriften-Gebaeude-Energie,
   zh.ch Langfristige Klimastrategie, hev-zh.ch/muken, energiehub-gebaeude.ch, aeesuisse.ch) —

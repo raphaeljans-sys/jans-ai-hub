@@ -187,7 +187,11 @@ bereits in §5 abgebildet). **Kein Delta bei sechs von sieben Themen** — zwei 
   RPV-47-Planungsbericht integriert — ohne das ist keine öffentliche Auflage zulässig.
   **JANS-Anwendung:** bei einer Machbarkeitsstudie (Skill `machbarkeit` Typ A) mit laufender
   BZO-/Gestaltungsplan-Revision ist der Mehrwertausgleich ein Kostenfaktor der Bauherrschaft, der
-  parallel zum Bewilligungsweg abgeklärt werden muss — nicht nur eine Formalie.
+  parallel zum Bewilligungsweg abgeklärt werden muss — nicht nur eine Formalie. **Nicht zu
+  verwechseln** mit dem grundbuchrechtlichen **Mehrwertrevers** (Anmerkung bei
+  baulinienwidrigen Bauten, keine Entschädigung bei späterer Beanspruchung des
+  Baulinienbereichs) — anderes Rechtsinstitut trotz gleichem Wortstamm, siehe Abgrenzung in
+  [[recht-norm-mehrwertrevers-grundbucheintragungen]].
 - **Quartierplan (QP01–49) ist der mit Abstand aufwendigste Prozess** (7 Phasen statt 4-6,
   bis QP49): zwei Grundeigentümerversammlungen (QP26/QP32) mit Einbringung/Behandlung von
   Wünschen und Begehren, **notarielle Prüfung der Neuordnung der Rechtsverhältnisse vor

@@ -1,8 +1,8 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-07-14
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40)]
+last_updated: 2026-07-15
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49)]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
 
@@ -328,9 +328,78 @@ Wp/m²-Tabellen nicht abbilden.
 Status `emerging` (Fachzeitschriften-Publikation mit Primaerdaten je Projekt, aber keine
 JANS-eigene Verifikation der Kennzahlen; Datenstand 2012 — bei Zitat der Modul-/Ertragszahlen als
 historisches Beispiel kennzeichnen, Flaechenleistung selbst hat sich seither deutlich erhoeht,
-vgl. §1b). Nicht gelesen: der 46-seitige Workshop-Foliensatz `20220606_GreenPV - Workshop 2.pdf`
-(Fassadenbegruenung + PV, Klimaanpassung, 15.06.2022) im selben Ordner — als Backlog fuer einen
-kuenftigen Lauf vermerkt.
+vgl. §1b). **Run 49 (2026-07-15):** GreenPV-Foliensatz S. 1-29 (von 46) ausgewertet → NEU §6
+(orientierungsabhaengiger Fassaden-PV-Ertrag/-Amortisation Sued/Ost/West/Nord, belegte
+Referenzgebaeude-Daemmstandards, opak/transparent-Modulkennwerte, Ausblick PV+Begruenungs-
+Kombination). Offen: S. 30-46 (Ergebnisse qualitative Analyse — Laerm/Luftqualitaet/
+Biodiversitaet-Wirkung der Fassadensysteme, S. 42-47) und die transparenten-Modul- sowie
+8-geschossige-Gebaeude-Auswertung (laut Foliensatz selbst zum Workshop-2-Zeitpunkt noch nicht
+abgeschlossen, "naechste Schritte" S. 29) noch nicht gelesen/ausgewertet — bei Bedarf
+(reales PV+Begruenungs-Projekt) vertiefen; ebenso ein moeglicher Workshop-3/Schlussbericht
+(Abgabe It. Zeitplan ca. 11-12/2022) auf SharePoint noch nicht gesucht.
+
+## 6 — Fassaden-PV: Orientierungsabhaengiger Ertrag & Amortisation (GreenPV-Studie HSLU, E39/Run 49)
+
+**Quelle:** HSLU T&A / IGE + IBI, Forschungsprojekt "GreenPV — Potential Gebaeudehuelle:
+Loesungsansaetze zur optimalen Fassadengestaltung mit PV und Begruenungen im Hinblick auf den
+Klimawandel", Workshop 2 (15.06.2022), Foliensatz `20220606_GreenPV - Workshop 2.pdf` (46 S.,
+`PL - 04 Energie/Solaranlage/_Literatur/`) — bisher als Backlog vermerkt (§Datenstand Run 40),
+jetzt S. 1-29 ausgewertet. Traegerschaft: BFE-Forschungsprogramm "Gebaeude und Staedte" +
+Stadt Zuerich (Amt fuer Hochbauten/Gruen Stadt Zuerich) + Kt. Basel-Stadt + Steiner Lab
+Foundation; PV-Branche (3S Solar Plus/Sunage/Ges Gebaeude-Energiesysteme) und Fassadenplaner
+(Lüchinger+Meyer, gkp Fassadentechnik) im Netzwerk vertreten — belastbare Praxisquelle, kein
+Marketingdokument.
+
+**Referenzgebaeude-Standard** (fuer die Simulationen, Stadt Zuerich inkl. Hitzeinseleffekt,
+Nachbarbebauung mit 45°-Verschattungsregel): "Wohnen Altbau" (Baujahr-Analog 1988,
+U-Wert opake Bauteile 0.40 W/m²K, Fenster Ug 1.0/Uw 1.15 W/m²K, Fensteranteil 25 %,
+≤4 Geschosse) vs. "Wohnen Neubau" (SIA-180/1-Neubau-Daemmwert 0.17 W/m²K, Fenster Ug 0.7/
+Uw 0.85 W/m²K, Fensteranteil 50 %, bis 8 Geschosse) — als Delta-Referenz brauchbar, wenn ein
+JANS-Umbau/Neubau grob gegen "Altbau-" oder "Neubau-Daemmstandard" eingeordnet werden soll.
+
+**Orientierungsabhaengige Fassadenstrahlung/-ertrag** (Referenz: Suedgeneigtes Dach 5°,
+Zuerich, = 100 %; Wertebereich = 4 Fassadenhoehen-Zonen, oberste bis unterste Geschossreihe):
+
+| Orientierung | Jahresstrahlung (% Dach / kWh/m²a) | Stromertrag opakes Modul 20 % Wirkungsgrad (% Dach / kWh/m²a) | Amortisation graue Energie (Jahre) | Amortisation THG-Emissionen (Jahre) | Amortisation UBP (Jahre) | Max. Fassadentemperatur (°C, medianes Jahr) |
+|---|---|---|---|---|---|---|
+| **Sued** | 84 % / 865 | 86 % / 155 | 2.3 (Band 2.3-4.2) | 10.5 (Band 10.5-19.3) | 6.1 (Band 6.1-11.1) | 49.8 |
+| **Ost** | 70 % / 729 | 76 % / 138 | 2.6 (Band 2.6-4.5) | 11.8 (Band 11.8-20.8) | 6.8 (Band 6.8-12.0) | **50.4** |
+| **West** | 57 % / 595 | 59 % / 107 | 3.3 (Band 3.3-5.5) | 15.2 (Band 15.2-25.3) | 8.8 (Band 8.8-14.6) | **52.9 (Maximum)** |
+| **Nord** | 35 % / 365 | 37 % / 67 | 5.3 (Band 5.3-9.2) | 24.4 (Band 24.4-41.9) | 14.1 (Band 14.1-24.2) | 37.7 (Minimum) |
+
+Referenzwerte Suddach 5°: Strahlung 1'036 kWh/m²a, Stromertrag 180 kWh/m²a, Amortisation
+graue Energie 2 Jahre / THG 9 Jahre / UBP 5.2 Jahre (Systemgrenze PV-Modul selbst, ohne
+ersetzte Bauteile gegengerechnet). Jede Fassade zeigt zusaetzlich ein **Hoehengefaelle**
+(oberste Geschossreihe am guenstigsten, unterste am unguenstigsten — Verschattung durch die
+Nachbarbebauung gemaess 45°-Regel), Bandbreite in der Tabelle als Min-Max ausgewiesen.
+
+**Modul-Kennwerte** (fuer die Simulation angenommen, Herstellerangaben-Niveau 2022): opakes
+Modul Wirkungsgrad 20 %, transparentes Modul Wirkungsgrad 14 % bei 30 % Lichtdurchlaessigkeit
+(Doppelnutzen Energie + Tageslicht/Verschattung), beide NOCT 42±2 °C, Temperaturkoeffizient
+Pmpp -0.4 %/°C — Ergaenzung zu §1b (Flaechenleistung Wp/m² je System).
+
+**Einordnung fuer JANS:**
+- Eine **Fassaden-PV-Anlage rechnet sich energetisch/oekologisch IMMER langsamer als eine
+  Dachanlage** (Faktor 1.2-2.7× je nach Orientierung/Indikator) — bei der Typenwahl (§1) ist das
+  ein reales Gegenargument zur reinen Flaechenmaximierung, besonders bei Nordfassaden (Faktor
+  ~2.7× bei THG/UBP) — dort ist eine energetische Nutzung kaum zu rechtfertigen, eher als
+  gestalterisches/Verschattungselement pruefen.
+- **West schlaegt Ost bei der Amortisation nicht, obwohl beide vergleichbare Strahlung haben**:
+  West hat die hoechste Fassadentemperatur (52.9 °C, Nachmittagssonne + thermische Traegheit
+  des Gebaeudes) — das beeinflusst zwar hier primaer die Amortisationsrechnung nicht direkt
+  (Temperaturkoeffizient ist symmetrisch), ist aber ein Warnsignal fuer Modul-Degradation und
+  Wartungsintervalle bei Westfassaden.
+- **Kombination PV + Fassadenbegruenung** ist der eigentliche Fokus der GreenPV-Studie
+  (Bewertungsraster ueber Mensch/Gebaeude/Stadt&Umwelt: thermisches Wohlbefinden,
+  Tageslichtversorgung, Mikroklima/Wärmeinseleffekt, Biodiversitaet, Luftqualitaet,
+  Attraktivitaet Aussenraum) — Fassadenbegruenungssysteme (bodengebunden mit Kletterpflanzen,
+  Wuchshoehe 15-30 m, Substrattiefe 50-60 cm; ODER wandgebunden modular, max. 30 kg/m²
+  wassergesaettigt, Wuchshoehe nur 20 cm, immergruen) koennen mit PV kombiniert werden, wenn
+  die Fassade in Zonen aufgeteilt wird (PV wo Ertrag hoch/Sued-Ost, Begruenung wo Ertrag tief/
+  Nord). Die Studie selbst war zum Auswertungszeitpunkt (Workshop 2 von geplant 3) noch nicht
+  abgeschlossen — quantitative Kombinationsempfehlungen (Katalog/Handlungsempfehlungen)
+  standen laut Agenda erst fuer Workshop 3 an; hier nur die **Referenzdaten**, keine
+  abschliessende Empfehlung.
 
 ## Querbezuege
 - Wirtschaftlichkeit/Rendite einer Anlage → Skill `healthcare-wirtschaftlichkeit` /

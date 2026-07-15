@@ -91,6 +91,22 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] E36 Formulare-Ordner `checkliste_gebaeudeschadstoffe.pdf` — bisher unerschlossene Datei, eigene Domaene oder Delta zu bestehenden Formularen? (2026-07-14 Run 42: NEU eigenstaendige Domaene — AWEL-Checkliste Gebaeudeschadstoffe (02.2023), Vier-Faelle-Weiche Asbest/PCB/CP nach Baujahr/Bausumme/Rueckbauvolumen (Art. 16 VVEA), zwei Sanierungswege, **untersuchungspflichtige Spezialobjekte inkl. Spitaeler** (Healthcare-relevant unabhaengig von Bausumme) → NEU [[energie-baustoffe-schadstoffe-rueckbau]], established)
 - [x] E37 Solaranlage-Ordner `solarapp.ch` — was ist SolarApp AG genau, und liefert der vollstaendige Bericht mehr als die bereits in der Benchmark-Tabelle (§3) gefuehrten Ertrags-/Kostenzahlen? (2026-07-14 Run 42: Delta — SolarApp AG (Deitingen SO) als eigenstaendiges Vorprojekt-Simulationstool identifiziert und eingeordnet (§2/§2c NEU); realer Willerzell-Bericht liefert zusaetzlich zu den bereits dokumentierten Ertrags-/Kostenzahlen die bisher fehlende **Eigenverbrauchs-/Unabhaengigkeitsseite** (Unabhaengigkeit 53 %, Eigenverbrauch 3'386 kWh) → [[energie-pv-eignung-typenwahl]] §2c, established)
 - [x] E38 Solaranlage-Ordner `pv sol premium` — was ist PVSOL premium konkret (bisher nur als Tabellenzeile ohne Beleg in §2), und liefert der vorhandene Bericht einen realen Anwendungsfall? (2026-07-14 Run 42: Delta — PVSOL premium (Valentin Software GmbH) als TGA-Fachplaner-Desktop-Tool eingeordnet, realer Grossanlagen-Fall Thomas Lueem Partner AG/Baar (491.4 kWp, 1'638 Module, 6 Wechselrichter), Bericht traegt expliziten Vorbehalt "rudimentaere Simulation, kein Planungsdokument" → [[energie-pv-eignung-typenwahl]] §2c, established)
+- [x] E39 `_Literatur/20220606_GreenPV - Workshop 2.pdf` (46 S. HSLU-Forschungsworkshop
+  Fassadenbegruenung+PV, seit Run 40 als Backlog vermerkt, nie gelesen) — liefert die Studie
+  belegte orientierungsabhaengige Fassaden-PV-Kennwerte, die ueber die bisherige (dach-
+  fokussierte) Benchmark-Tabelle hinausgehen? (2026-07-15 Run 49: JA, S. 1-29 ausgewertet —
+  **belegte Solarstrahlung/Stromertrag/Amortisation je Fassadenorientierung** (Sued 84 %/86 %
+  Dach-Referenz, Ost 70 %/76 %, West 57 %/59 %, Nord 35 %/37 %; Amortisation graue Energie
+  2.3-5.3 J / THG 10.5-24.4 J / UBP 6.1-14.1 J je nach Orientierung, jeweils 1.2-2.7× langsamer
+  als eine Dachanlage), **max. Fassadentemperatur je Orientierung** (West mit 52.9 °C am
+  heissesten, nicht Sued), belegte Referenzgebaeude-Daemmstandards Alt-/Neubau (SIA 180/1),
+  opak-/transparent-Modulkennwerte (20 %/14 % Wirkungsgrad). Studie selbst zum Auswertungs-
+  zeitpunkt (Workshop 2 von 3) noch nicht abgeschlossen — PV+Fassadenbegruenungs-
+  Kombinationsempfehlungen (Kernziel der Studie) standen erst fuer Workshop 3 an, hier nur die
+  Referenzdaten uebernommen, keine Handlungsempfehlung vorweggenommen → NEU §6
+  [[energie-pv-eignung-typenwahl]]. Offen: S. 30-46 (qualitative Analyse Laerm/Luftqualitaet/
+  Biodiversitaet) sowie ein moeglicher Workshop-3-Schlussbericht auf SharePoint noch nicht
+  gesucht/gelesen.
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])
@@ -145,6 +161,39 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] R49 Ordner `14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf` (24 S.) — Delta-Check gegen §2 CAFM-Bezeichnungssystem (IMMO-Merkblatt 13.12.2006). (2026-07-14 Run 45: KEIN Duplikat, eigenstaendige technischere Quelle in Anlehnung an DIN EN 6779-12/DIN 6779-1/DIN EN 61346-1+2 fuer die gebaeudetechnischen ANLAGEN/KOMPONENTEN selbst (SGK/BTA/MTA/Aggregate/GA-Datenpunkte), waehrend §2 nur Orts-/Raumebene abdeckt; 6 Kennzeichnungsbloecke, Anlagen-Kennbuchstaben nach Gewerk (C-Z), Komponenten-Kennbuchstaben nach Funktion (A-Y inkl. Y=IMMO-Box), Signal-Kennbuchstaben, vollstaendiges Beschriftungskonzept (Medienabkuerzungen/SIA-410/1-Farbcode/SGK-RAL-Farben) → NEU §15 [[recht-norm-ahb-stadt-zuerich-projektstandards]], established)
 - [x] R50 Ordner `14.5-Standards/Standards_Raummodul_Buero.pdf` + `Standards_Raummodul_Klassenzimmer.pdf` — welche Raummodul-Standards legt das AHB fuer Buero- und Schulraum fest? (2026-07-14 Run 45: Beide Module (Beleuchtung/Beschattung/Elektro/Lueftung/Heizung/uebergeordnete Funktionen) mit Kennzahlen — Buero: 500lx 2 Zonen, 4 Steckdosen+4 UKV je AP, 25m³/h/Person CO2 1500ppm; Klassenzimmer-Delta: 3. Zone Wandtafel (kein Tageslicht-Ausschalten), motorisierte Beschattung bei Neubauten PFLICHT (nicht optional wie Buero), zentrale Heizungsabsenkung Schulferien, Schluesselschalter Werkraeume → NEU §16 [[recht-norm-ahb-stadt-zuerich-projektstandards]], JANS-Prioritaet Schul-/Bildungsbau (Rule 260713))
 - [x] R51 Delta-Check §6.1 gegen `18-Nachhaltiges Bauen/18.3+18.4` KBOB-Einzelmerkblaetter (Recycling_Beton 2007/2, PCB_in_Fugendichtung 2004/4, Gutes_Innenraumklima 2004/1, Schadstoff_in_Bauten-Checkliste) + Cross-Check [[energie-baustoffe-schadstoffe-rueckbau]] (E36). (2026-07-14 Run 45: DREI echte Deltas — Recyclingbeton (RC-W/RC-B/RC-M-Kategorien + Expositionsklassen-Matrix + reale Stadt-ZH-Projekte Werdwies/Chriesbach/Hirzenbach/Hardau/Im Birch), Gutes Innenraumklima (Phasen-Verantwortungsmatrix + CO2-Grenzwert 1000/1500ppm bisher fehlend + 4 reale Schadenfaelle), Schadstoffe-in-Bauten-Checkliste (**PCP als dritter Schadstoff-Typ**, Grenzwerte 1/0.1 µg/m³, granularere Bauteilliste) → NEU §17 [[recht-norm-ahb-stadt-zuerich-projektstandards]] + Cross-Ref-Ergaenzung §6 [[energie-baustoffe-schadstoffe-rueckbau]] (PCP, kein Duplikat))
+- [x] R52 Zeitstempel-Scan (`find -newermt`) Ordner `Arbeitsgesetz/` foerderte drei bisher nie
+  ausgewertete .txt-Volltextextrakte zutage (`argv3.txt`/`argv4.txt`/`argv34.txt`, 13.07.2026
+  abgelegt) — was steht in der vollstaendigen SECO-Wegleitung ArGV 3/4 ueber die bereits in
+  [[recht-norm-arbeitsplatz-bauvorschriften]] erfassten Art. 5-7/11-18 hinaus? (2026-07-15
+  Run 49: Volltext-Kommentar zu Art. 4 (unterirdische/fensterlose Raeume, **Anboeschungs-Regel**
+  25-30° Boeschungswinkel/max. 3 m Tiefe/Bruestungshoehe 1.20-1.50 m), Art. 37-41
+  (Plangenehmigungsverfahren-Ablauf: Gesuchsstelle/koordiniertes Bundesverfahren/einzureichende
+  Plaene 1:100/Planbeschreibung/nachtraegliche-Durchfuehrung-Sanktion), und der bisher fehlende
+  Verweis auf **Behindertengleichstellungsgesetz + SN 521 500** mit der konkreten
+  **>50-Arbeitsplaetze**-Trigger-Schwelle → NEU §2b-2d [[recht-norm-arbeitsplatz-bauvorschriften]])
+- [x] R53 Datei `Zivilschutz/520_11.txt` (Volltext-Extrakt der bereits als PDF-Quelle gefuehrten
+  ZSV, gefunden im selben Zeitstempel-Scan) — enthaelt der Volltext den in
+  [[recht-norm-zivilschutz-bautechnik]] als offen vermerkten Schutzplatz-Bemessungsschluessel?
+  (2026-07-15 Run 49: JA — Art. 17 Abs. 1 liefert **2 Schutzplaetze/3 Zimmer Wohnen** bzw.
+  **1 Schutzplatz/Patientenbett Spital/Alters-/Pflegeheim** (Healthcare strenger als Wohnen),
+  Abs. 5 bestaetigt die 5-%-Mehrkosten-Schwelle exakt im Wortlaut, Art. 18 nennt drei
+  Ausnahmetatbestaende inkl. der bautechnisch bemerkenswerten **Minergie-Standard-Ausnahme**,
+  Art. 19 regelt gemeinsame Schutzraeume mehrerer Gebaeude → NEU §2b
+  [[recht-norm-zivilschutz-bautechnik]], schliesst die zuvor offene Bemessungsformel-Luecke)
+- [x] R54 Ordner `Planung/Mehrwertrevers Beseitigungsrevers/zbl.txt` (Bösch, ZBl 1993,
+  "Grundbuch und Baubewilligungsverfahren", bisher nie kartiert — Fund im Zeitstempel-Scan) —
+  was ist ein Mehrwertrevers/Beseitigungsrevers, und wie steht er zum bereits dokumentierten
+  Mehrwertausgleich (K40-Rest) in [[kartenportale-oereb-kataster-system-zh]]? (2026-07-15
+  Run 49: Volltext-Analyse ergibt ein **eigenstaendiges Rechtsinstitut** (Baulinien-Anmerkung:
+  keine Entschaedigung/Beseitigungs-Anpassungspflicht bei spaeterer Baulinien-Inanspruchnahme),
+  klar abgegrenzt vom verfahrensrechtlichen Mehrwertausgleich (Abgabe bei Um-/Aufzonung) —
+  gleicher Wortstamm, verschiedenes Institut. Systematik weiterer Revers-Typen
+  (Ausnuetzungsrevers, Hochhausrevers-heute-entbehrlich § 284 Abs. 3 PBG, Arealueberbauungs-
+  Anmerkung, Quartierplanbann, Erschliessungs-Anmerkung), Anmerkung-vs-Dienstbarkeit
+  (deklaratorisch vs. konstitutiv) → NEU [[recht-norm-mehrwertrevers-grundbucheintragungen]],
+  `emerging` (Quelle 1993, §-Nummern PBG-1991er-Fassung nicht durchgehend gegen aktuelle
+  Fassung verifiziert, nur Kern-§§ 284/270/357 andernorts bereits bestaetigt) + Rueckverweis-
+  Ergaenzung in [[kartenportale-oereb-kataster-system-zh]] §8.
 
 ## Domaene 4 — Brandschutz (PL-03)
 - [x] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen). (2026-06-22 Run 8: Entscheid schlanker Wegweiser — Planungsgrundlagen/Prozess/QSS hier, Fach-/Detailarbeit im Skill `brandschutz`; kein Doppel → [[brandschutz-pl03-wegweiser]])

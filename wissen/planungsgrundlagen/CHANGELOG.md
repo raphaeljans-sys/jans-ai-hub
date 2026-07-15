@@ -2,6 +2,60 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-15 — Training Run 49 (Recht/Norm + Energie, Token-Vollgas, 2 Domaenen): Zeitstempel-Scan foerdert Mehrwertrevers-Systematik + ZSV-Bemessungsschluessel zutage, GreenPV-Fassaden-PV-Benchmark schliesst Run-40-Backlog
+- **Standard-Schritt-0 (Empfehlung Run 48) erstmals angewendet:** `find -newermt` ueber alle vier
+  PL-Ordner (10-Tage-Fenster) foerderte sechs bisher nie ausgewertete Volltext-Dateien zutage,
+  alle am 13.07.2026 nachgeliefert — drei in `Arbeitsgesetz/` (argv3/argv4/argv34.txt, Volltext-
+  Extrakte der bereits als PDF gefuehrten ArGV 3/4 + Wegleitung), eine in `Zivilschutz/`
+  (520_11.txt, Volltext-Extrakt der ZSV), eine im bisher nie kartierten Ordner
+  `Mehrwertrevers Beseitigungsrevers/` (zbl.txt, Bösch ZBl 1993).
+- **Recht/Norm (PL-02), R52-R54:** (1) Wegleitung-Volltext liefert die Anboeschungs-Ausnahme fuer
+  unter-Terrain-Arbeitsraeume (Boeschungswinkel 25-30°/max. 3 m/Bruestungshoehe 1.20-1.50 m),
+  den vollstaendigen Plangenehmigungsverfahren-Ablauf (Art. 37-41) und die bisher fehlende
+  Behindertengerechtes-Bauen-Trigger-Schwelle **>50 Arbeitsplaetze** (BehiG/SN 521 500) → NEU
+  §2b-2d [[recht-norm-arbeitsplatz-bauvorschriften]]. (2) ZSV-Volltext schliesst die seit Run 26
+  offene Schutzplatz-Bemessungsformel-Luecke: **2 Schutzplaetze/3 Zimmer Wohnen, 1 Schutzplatz/
+  Patientenbett Spital/Alters-/Pflegeheim** (Healthcare strenger als Wohnen), 5-%-Mehrkosten-
+  Schwelle exakt verifiziert, Ausnahmen Art. 18 (inkl. **Minergie-Standard-Ausnahme**),
+  gemeinsame Schutzraeume Art. 19 → NEU §2b [[recht-norm-zivilschutz-bautechnik]]. (3) Der 1993er
+  ZBl-Fachartikel (Peter Bösch) liefert eine vollstaendige Systematik der **Mehrwert-/
+  Beseitigungs-/Anpassungsreverse** (Baulinien-Anmerkungsmechanik) und weiterer Revers-Typen
+  (Ausnuetzungsrevers, heute entbehrlicher Hochhausrevers, Arealueberbauungs-Anmerkung,
+  Quartierplanbann) → NEU [[recht-norm-mehrwertrevers-grundbucheintragungen]] (`emerging`,
+  Quelle 1993, §-Nummern PBG-1991er-Fassung nicht durchgehend gegen die aktuelle Fassung
+  verifiziert) — **korrigiert eine fruehere Einschaetzung (Run 26/R9):** damals wurde das Thema
+  mangels Volltextquelle nur als Cross-Ref auf [[recht-norm-dispensrecht]] behandelt; mit
+  `zbl.txt` lohnt sich ein eigener Artikel. Explizite Abgrenzung zum verfahrensrechtlichen
+  Mehrwertausgleich (MWA, [[kartenportale-oereb-kataster-system-zh]] §8) ergaenzt — gleicher
+  Wortstamm, verschiedenes Rechtsinstitut, Verwechslungsgefahr fuer kuenftige Antworten explizit
+  entschaerft.
+- **Energie (PL-04), E39:** der seit Run 40 als Backlog gefuehrte 46-seitige HSLU-Forschungs-
+  Foliensatz «GreenPV» (Fassadenbegruenung + PV, Klimaanpassung) S. 1-29 ausgewertet — liefert
+  die erste **belegte orientierungsabhaengige Fassaden-PV-Benchmark-Tabelle**: Solarstrahlung/
+  Stromertrag/Amortisation (graue Energie/THG/UBP) je Sued/Ost/West/Nord gegen die
+  Dach-Referenz, plus max. Fassadentemperatur je Orientierung (**West mit 52.9 °C am
+  heissesten, nicht Sued**) und belegte Referenzgebaeude-Daemmstandards Alt-/Neubau → NEU §6
+  [[energie-pv-eignung-typenwahl]]. Kernaussage fuer JANS: eine Fassaden-PV-Anlage amortisiert
+  sich immer langsamer als eine Dachanlage (Faktor 1.2-2.7× je nach Orientierung/Indikator,
+  bei Nordfassaden am staerksten) — ein rechenbares Gegenargument zur reinen Flaechen-
+  maximierung bei der Typenwahl. Die Studie selbst war zum Auswertungszeitpunkt (Workshop 2 von
+  3) noch nicht abgeschlossen; PV+Begruenungs-Kombinationsempfehlungen (das eigentliche Studien-
+  ziel) stehen erst fuer einen moeglichen Workshop-3-Bericht an — hier bewusst nur Referenzdaten
+  uebernommen, keine Empfehlung vorweggenommen.
+- Register nachgefuehrt: `training/curriculum.md` (R52-R54, E39), `wiki/QUESTIONS.md`
+  (R9-Korrektur, D-Sektion GreenPV-Backlog geloest), `raw/_INGESTED.md` (vier neue Zeilen),
+  `wiki/INDEX.md` (drei Artikelzeilen aktualisiert + ein neuer Artikel). Report:
+  `outputs/2026-07-15_training-run49.md`.
+- **Verifikations-Verdikt:** keine bestehende `established`-Statushebung in diesem Lauf — der
+  neue Artikel [[recht-norm-mehrwertrevers-grundbucheintragungen]] bleibt bewusst `emerging`
+  (Einzelquelle 1993, §-Nummern nicht durchgehend gegengeprueft), die Ergaenzungen in den drei
+  bereits `established`/`emerging` gefuehrten Artikeln sind belegte Erweiterungen bestehender
+  Artikelkoepfe, keine neue Status-Behauptung.
+- **Lehre:** die von Run 48 vorgeschlagene Zeitstempel-Scan-Methode als Standard-Schritt-0 hat
+  sich sofort bewaehrt — sechs neue Primaerquellen in einem als "praktisch vollstaendig"
+  eingestuften Curriculum gefunden. Fuer kuenftige Laeufe: Schritt 0 vor jedem inhaltlichen
+  Lauf beibehalten.
+
 ## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Fuehrungs-Pointer §1a Normkonzept BSV 2026 → normen
 - [link] `wiki/brandschutz-pl03-wegweiser.md` §1a: «Querbezug KB normen»-Block gesetzt — VKF-Primaerdokument «Normkonzept BSV 2026», kanonische Fundstelle fuehrt normen (Rule `normen-referenz`). normen hat die PDF beschafft, aber kein Destillat → planungsgrundlagen fuehrt die 38 Eckpunkte materiell weiter. **Offener Punkt** (nicht autonom): nach normen-Destillat §1a auf Planungs-Framing kuerzen + verlinken (Trim = Umstrukturierung). Kein Sachwiderspruch (BSV 2015 geltend, 2026 Zukunft — beidseitig konsistent). Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
 

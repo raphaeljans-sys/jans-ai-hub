@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Zivilschutz-Bautechnik (Schutzraumbaupflicht, TPH-Durchführungen)
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-15
 sources: [
-  "PL - 02_Recht_Norm/01_Gesetze/01_Bund/Zivilschutz/520.11.de.pdf (Zivilschutzverordnung ZSV, SR 520.11, ⚠ historische Fassung 'vom 5.12.2003, Stand 1.1.2010')",
+  "PL - 02_Recht_Norm/01_Gesetze/01_Bund/Zivilschutz/520.11.de.pdf (Zivilschutzverordnung ZSV, SR 520.11, ⚠ historische Fassung 'vom 5.12.2003, Stand 1.1.2010', Volltext-Extrakt 520_11.txt Run 49: Art. 17-19 Bemessungsschluessel/Ausnahmen/gemeinsame Schutzraeume)",
   "PL - 02_Recht_Norm/01_Gesetze/01_Bund/Zivilschutz/TPH-18-d_Durchführungen.pdf (BABS/vormals BZS, Technisches Pflichtenheft TPH-18, 'für die Herstellung von gasdichten und druckfesten Durchführungen für Schutzbauten', 19.05.2003)",
   "WebSearch/WebFetch 2026-07-13: babs.admin.ch/de/aenderungen-in-der-zivilschutzverordnung-zsv-und-dachstrategie-schutzbauten (BR-Beschluss 22.10.2025, ZSV-Revision per 1.1.2026), bsm.sid.be.ch (Erlaeuterungen Schutzraumbaupflicht)",
   "wissen/auflagebereinigung (Fall 2619-KISPI, Lenggstrasse 30: Ersatzabgabe 15 Schutzplaetze × CHF 1'400 = CHF 21'000, Zahlung 08.07.2026) — als realer JANS-Beleg fuer die 2026er-Ersatzbeitragshoehe"
@@ -62,6 +62,51 @@ Herleitung des SRZ-Ansatzes ist hier nicht verifiziert, siehe Offene Punkte).
   aufgehoben, ordnet der Kanton dem Eigentuemer die Wiederherstellung an.
 - **Ersatzbeitragsforderungen verjaehren** (alte Fassung: 10 Jahre ab Feststellung, absolut 15 Jahre
   ab Verfuegung) — Werte vor Anwendung an der aktuellen Fassung gegenpruefen.
+
+## 2b. Bemessungsschlüssel und Ausnahmen (ZSV Art. 17-19, Volltext-Nachtrag Run 49)
+
+**Schutzplatzzahl-Bemessung (Art. 17 Abs. 1, historische ZSV-Fassung, Grundmechanik ─
+in der Praxis erfahrungsgemaess stabil, vor Anwendung an der aktuellen Fassung gegenpruefen):**
+
+| Nutzungsart | Bemessungsschluessel |
+|---|---|
+| Wohnungen und Wohnheime | **2 Schutzplaetze pro 3 Zimmer** |
+| **Spitaeler, Alters- und Pflegeheime** | **1 Schutzplatz pro Patientenbett** |
+
+Halbe Zimmer werden nicht mitgezaehlt, Bruchteile von Schutzplaetzen nicht beruecksichtigt
+(Abs. 2). Bei Neubauten auf einem Areal mit bereits bestehenden, den Mindestanforderungen
+entsprechenden Schutzraeumen werden ueberzaehlige Schutzplaetze **angerechnet** (Abs. 3-4).
+**Schliesst die bisher offene Luecke** ("Genaue Bemessungsformel nicht in den erschlossenen
+Quellen enthalten") — direkt Healthcare-relevant fuer `healthcare-wirtschaftlichkeit`/
+`machbarkeit`: ein Pflegeheim-Neubau mit z.B. 60 Betten braucht rechnerisch 60 Schutzplaetze
+(1:1), waehrend ein Wohnbau mit vergleichbarer Grundflaeche ueber den 2:3-Zimmer-Schluessel
+i.d.R. deutlich weniger braucht — die Schutzraumpflicht faellt bei Pflegeobjekten pro
+Kopf/Bett strenger aus als bei Wohnnutzung.
+
+**5-%-Mehrkosten-Schwelle jetzt exakt verifiziert (Art. 17 Abs. 5):** "Uebersteigen die
+anerkannten Mehrkosten des vorgeschriebenen Schutzraums **fuenf Prozent der Gebaeudekosten**,
+so ist die Zahl der Schutzplaetze entsprechend herabzusetzen. Faellt damit deren Zahl unter
+fuenf, so hat der Hauseigentuemer einen Ersatzbeitrag ... zu entrichten." — bestaetigt den
+zuvor nur als "ca. 5 %, Wortlaut zu verifizieren" vermerkten Wert exakt (historische Fassung;
+gegen die 2026er-Revision gegenzupruefen, sobald diese im Volltext vorliegt).
+
+**Ausnahmen von der Schutzraumbaupflicht (Art. 18, historische Fassung):** Kantone koennen
+Gebaeude befreien bei (a) besonders stark gefaehrdeten Gebieten (dicht ueberbaut/stark
+brandgefaehrdet), (b) **weniger als fuenf Schutzplaetzen**, und — bautechnisch bemerkenswert —
+(c) **Haeusern, die nach Minergie-Standard nach Norm SIA gebaut sind**. Zusaetzlich koennen
+Kantone abgelegene, nur zeitweise genutzte Gebaeude befreien (Abs. 2). Die Minergie-Ausnahme
+(c) ist ein direkter Beruehrungspunkt zum Skill `planungsgrundlagen`-Energie-Bereich — bei
+einem Minergie-zertifizierten JANS-Neubau lohnt sich die Pruefung, ob die kantonale
+Zivilschutzbehoerde diese (historische) Ausnahme noch anwendet, BEVOR ein Schutzraum/
+Ersatzbeitrag budgetiert wird. **Vorbehalt:** diese drei Ausnahmetatbestaende stammen aus der
+alten (2010er) ZSV-Fassung — nach der Revision per 01.01.2026 (§2) unbedingt gegenpruefen, ob
+sie unveraendert fortbestehen, bevor sie einem Bauherrn zugesagt werden.
+
+**Gemeinsame Schutzraeume (Art. 19):** Kantone koennen anordnen, dass Schutzplaetze mehrerer
+Gebaeude zu einem gemeinsamen Schutzraum zusammengelegt werden — muss spaetestens 3 Jahre nach
+Baubeginn des ersten betroffenen Bauvorhabens erstellt sein; bis dahin ist je Gebaeude vor
+Baubeginn eine **Sicherheitsleistung im Umfang des Ersatzbeitrags** zu hinterlegen. Relevant
+bei Areal-/Quartierentwicklungen mit mehreren JANS-Baukoerpern auf einer Parzelle.
 
 ## 3. TPH-18 — Gasdichte und druckfeste Durchführungen für Schutzbauten (bautechnisch, neu erschlossen)
 
@@ -132,11 +177,15 @@ betroffenem Haustechnik-Gewerk).
   Befreiungsschwelle) gegen fedlex nachziehen; ELI/Nummer fuer SR 520.11 noch nicht ermittelt.
   Ebenso das **Bevölkerungsschutzgesetz (BZG, SR 520.1)** — Ordnerdatei traegt kein erkennbares
   Zitierdatum, nicht geprueft.
-- Genaue **Bemessungsformel** (Schutzplatzzahl pro m²/Nutzer) nicht in den erschlossenen Quellen
-  enthalten — bei naechstem Neubau-Fall bei SRZ/Gemeinde direkt erfragen und hier nachtragen.
 - `twp84d.pdf` (79 S., vermutlich TWP-Ausgabe 1984) und `TPH-19-d` (29 S., Titel nur «Vorlage
   Technische Weisung») **nicht gelesen** — TPH-19 vermutlich ein weiteres Durchfuehrungs-/
   Ausstattungs-Pflichtenheft; bei konkretem technischem Bedarf vertiefen.
 - Herleitung des in der Stadt-ZH-Praxis (Fall KISPI) bereits vor 01.01.2026 angewandten
   CHF-1'400-Satzes nicht abschliessend verifiziert (kommunale Vorwegnahme? eigener kommunaler
   Ansatz? Presslaufzeit der Revision?) — bei Bedarf bei SRZ direkt nachfragen.
+- **2026-07-15 Run 49 geloest:** Bemessungsschluessel Schutzplatzzahl (§2b: 2 SP/3 Zimmer Wohnen,
+  1 SP/Patientenbett Spital/Heim), 5-%-Mehrkosten-Schwelle exakt verifiziert, Ausnahmetatbestaende
+  Art. 18 (inkl. Minergie-Ausnahme) und gemeinsame Schutzraeume Art. 19 aus dem Volltext der
+  ZSV-Ordner-PDF (`520_11.txt`) nachgezogen — weiterhin ⚠ historische 2010er-Fassung, alle
+  Artikelnummern/Schwellen vor verbindlicher Anwendung an der Post-01.01.2026-Fassung
+  gegenpruefen (§1).
