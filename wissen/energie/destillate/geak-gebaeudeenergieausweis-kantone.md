@@ -5,7 +5,7 @@ ausgabe: "Webseiten geak.ch (Stand 2026); Produkt-/Nutzungsreglement Version 01.
 gelesen: "geak.ch: /der-geak/was-ist-der-geak, /produkte/geak, /der-geak/faq-zum-geak, /weg-zum-geak (2026-07-08); geak.ch/der-geak/foerderung, sz.ch Energielabel/GEAK, AfU-SZ-FAQ-PDF (Volltext), zh.ch Bauvorschriften Gebäude/Energie (2026-07-14)"
 datenstand: "2026-07-14 (Reglemente 01.01.2026; Fördertabelle geak.ch Stand 01/2026; SZ-FAQ Stand 28.08.2025); Gültigkeit bis 10 J; CHF-Kosten projektabhängig"
 status: established
-last_updated: "2026-07-14"
+last_updated: "2026-07-15"
 ---
 
 # GEAK & GEAK Plus — der Gebäudeenergieausweis der Kantone
@@ -79,6 +79,14 @@ Nachweisweg** (der GEAK ist *eine* von mehreren Möglichkeiten, eine gesetzliche
 - **Feinheit SZ (AfU-FAQ, Stand 28.08.2025):** Für die 10'000-Schwelle zählt **nur die Fördersumme der
   Basismassnahme Wärmedämmung** — der Bonus Gebäudehülleneffizienz wird für die GEAK-Plus-Pflicht **nicht**
   mitgerechnet.
+- **Ergänzt 2026-07-15 (AfU-SZ-FAQ Volltext per pdftotext gegengelesen, S. 9/10):** der massgebende
+  Energiebedarf für die 90-%-Regel (Standardlösung/Minergie/GEAK-Klasse-D) ist auf **100 kWh/m²·a** für
+  Heizung und Warmwasser zusammen definiert. **Befreit** von der ganzen Anforderung sind Bauten mit
+  gemischter Nutzung, deren Wohnanteil **150 m² Energiebezugsfläche nicht überschreitet** — für ein
+  kleines Gewerbe-Wohn-Gebäude in SZ entfällt der GEAK-Klasse-D-Weg damit unter Umständen ganz, weil gar
+  keine Nachweispflicht besteht. Die Nachweiswege selbst (Standardlösung/Minergie/GEAK-D) sind im FAQ nur
+  aufgezählt, nicht mit einer eigenen §-Nummer versehen — die zugrundeliegende Norm bleibt weiterhin die
+  MuKEn-Standardlösung; der Punkt "Gesetzesartikel fehlt" bleibt daher **teilweise** offen (siehe unten).
 - Belege: geak.ch FAQ (Handänderung/Förderung), sz.ch «Energielabel → GEAK» + AfU-SZ-FAQ-PDF (Stand
   28.08.2025), zh.ch «Bauvorschriften Gebäude/Energie» (§ 11/11a/11b EnerG, kein GEAK erwähnt),
   `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`.

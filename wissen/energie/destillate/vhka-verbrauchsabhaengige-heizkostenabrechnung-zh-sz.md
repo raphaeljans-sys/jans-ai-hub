@@ -2,10 +2,10 @@
 quelle: Kt. ZH Energiegesetz (EnerG, LS 730.1) § 9 in der Fassung der Änderung vom 26.10.2020 (AWEL-Publikation «Energiegesetz per 1. September 2022») + Besondere Bauverordnung I (BBV I, LS 700.21) §§ 42–44, Fassung Nachtrag 124 (Stand 1.4.2024); Kt. SZ Kantonales Energiegesetz (SRSZ 420.100) § 10 + Energieverordnung 1 (SRSZ 420.111) §§ 25–27, Stand 1.2.2025; EnFK-Vollzugshilfe EN-113 «Verbrauchsabhängige Heiz- und Warmwasserkostenabrechnung» (Ausgabe 12.2018); EnergieSchweiz/BFE «VEWA — Modell zur verbrauchsabhängigen Energie- und Wasserkostenabrechnung», 5. Auflage; VMWG (SR 221.213.11) Art. 4–8; SVW/ASC «Gesetzliche Grundlagen zur VHKA in den Kantonen» (Stand 18.11.2024); Interface Politikstudien/BFE «Konzept, Vollzug und Wirkung der VHKA» (2008)
 herausgeber: Kanton Zürich (Baudirektion/AWEL), Kanton Schwyz, Konferenz Kantonaler Energiefachstellen (EnFK), BFE/EnergieSchweiz, Bundesrat (VMWG), SVW/ASC, Interface
 ausgabe: kantonale Erlasse in geltender Fassung (ZH BBV I Nachtrag 124 / SZ SRSZ-Stand 1.2.2025); EN-113 Ausgabe Dezember 2018; VEWA 5. Auflage
-gelesen: 2026-07-14
-datenstand: 2026-07-14 (Primärtexte ZH/SZ + EN-113 + VEWA im Volltext geprüft; VMWG-Fassung «Stand 1.6.2020» via mietrecht.ch, Fedlex-Direktabruf blockiert)
+gelesen: 2026-07-14/2026-07-15
+datenstand: 2026-07-14 (Primärtexte ZH/SZ + EN-113 + VEWA im Volltext geprüft; VMWG-Fassung «Stand 1.6.2020» via mietrecht.ch, Fedlex-Direktabruf blockiert); 2026-07-15 zweite unabhängige Quelle (SVW/ASC-Kantonsvergleich, Fassung 28.08.2023) bestätigt § 25 EnV 1 wortgleich und klärt die Pre-2001-Frage
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 ---
 
 # VHKA — verbrauchsabhängige Heiz- und Warmwasserkostenabrechnung (Kt. ZH und SZ)
@@ -138,8 +138,15 @@ in BKP 2), im **Bestand** entsteht zusätzlich der Aufwand für Anzeige-/Formvor
 - **SZ, Minergie-Befreiung:** In ZH ausdrücklich (BBV I § 43 lit. b), in SZ **nicht im Wortlaut** — ob eine
   Befreiung faktisch über die 20-W/m²-Grenze läuft, ist zu verifizieren.
 - **SZ, Verhältnis § 25 EnV 1 (Baubewilligung nach 1.2.2001) zur Nachrüstung bei Totalsanierung älterer
-  Bauten:** Wortlaut lässt offen, ob ein 1980er-MFH bei Totalsanierung des Heizsystems ausrüstungspflichtig
-  wird. **Nicht belegt** — vor einer Zusage an eine SZ-Bauherrschaft abklären.
+  Bauten — geklärt 2026-07-15** (zweite unabhängige Quelle, SVW/ASC-Kantonsvergleich, Fassung 28.08.2023,
+  Volltext per pdftotext gegengelesen): § 25 EnV 1 definiert den Begriff «ausrüstungspflichtige Bauten
+  im Sinne von § 10» insgesamt (nicht nur für Neubauten) als **alle Bauten, für die NACH dem 1. Februar
+  2001 die Baubewilligung erteilt wurde**. Ein **vor** dem 1.2.2001 bewilligtes Gebäude fällt damit nach
+  dem Wortlaut **auch bei einer Totalsanierung des Heizungs-/Warmwassersystems nicht** unter die
+  Ausrüstungspflicht von § 10 — die Altersgrenze wirkt als generelle Bereichsabgrenzung, nicht nur als
+  Neubau-Kriterium. Ein 1980er-MFH wäre demnach bei Totalsanierung **nicht** VHKA-ausrüstungspflichtig.
+  Trotz zweiter, unabhängiger Quelle vor einer verbindlichen Einzelfall-Zusage weiterhin beim AfU SZ
+  gegenprüfen (Wortlaut-Interpretation, keine Vollzugspraxis-Bestätigung vorliegend).
 - **MuKEn 2025 und die VHKA:** Ob und wie die MuKEn 2025 das VHKA-Modul ändert (Schwellen, Befreiungen),
   wurde nicht verifiziert → [[muken-2025-verabschiedet]], [[muken-2025-modul-g-co2-grenzwerte]].
 - **VMWG-Fassung:** gelesen in der Fassung «Stand 1.6.2020» (mietrecht.ch); Fedlex-Direktabruf war blockiert.

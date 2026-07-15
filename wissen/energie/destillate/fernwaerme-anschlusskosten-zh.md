@@ -2,10 +2,10 @@
 quelle: ewz "Tarif Fernwärme im Wärmeverbund KVA und Holz" (Tarifsystem 2022, Ausgabe Juni 2026) + ewz AGB Fernwärme (Ausgabe Januar 2025) + Preisüberwacher "Marktbeobachtung Fernwärmetarife Schweiz" (06.07.2023) + Stadtwerk Winterthur + Agro Energie Schwyz AG "Tarife und Konditionen" (publiziert 04.09.2025) + Energie Einsiedeln AG "Preisblatt für Fernwärme 2025" + Energie Ausserschwyz AG
 herausgeber: ewz (vormals ERZ Fernwärme, Stadt Zürich) / Eidgenössischer Preisüberwacher / Stadtwerk Winterthur / Agro Energie Schwyz AG / Energie Einsiedeln AG / Energie Ausserschwyz AG
 ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Datenbasis 2022 (66 Anbieter); Agro Energie Schwyz "Tarife und Konditionen", publiziert 04.09.2025 (Anschlussgebühr gültig bis 31.12.2026, Grund-/Arbeitspreis gültig bis 30.09.2026); Energie Einsiedeln Preisblatt Fernwärme 2025
-gelesen: 2026-07-14 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert)
-datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz), 2025 (Energie Einsiedeln), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
+gelesen: 2026-07-14/2026-07-15 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert; 15.07. ergänzt um Energieverbund-Einsiedeln-Infoblatt 2017 (pdftotext), EBL Energie Rigi + ECOGEN Arth-Goldau Web)
+datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz), 2025 (Energie Einsiedeln), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
 status: emerging
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 ---
 
 # Fernwärme-Anschlusskosten Kt. Zürich und Kt. Schwyz (ergänzt Anschlusspflicht-Destillate)
@@ -143,10 +143,44 @@ Quelle: "Preisblatt für Fernwärme 2025" (gültig 01.01.–31.12.2025), abgeruf
 ### Energie Ausserschwyz AG (March/Höfe: Galgenen, Siebnen, Lachen, Altendorf, Pfäffikon,
 Freienbach)
 
-Kein öffentliches Tarifblatt; Kostenstruktur (einmaliger Investitionsbeitrag, jährlicher
-Grundpreis, Arbeitspreis) nur qualitativ, Offerte/Heizkostenrechner nötig. Publiziert wird
+Kein öffentliches Tarifblatt (Recherche 15.07.2026 erneut bestätigt: Website nennt nur die
+Kostenstruktur — einmaliger Investitionsbeitrag + Grundpreis + Arbeitspreis, exkl. Unterhalt/
+Service, kantonale Förderung bis 30 % des Investitionsbeitrags — keine CHF-Zahl). Publiziert wird
 lediglich der **kantonale Förderbeitrag** für den Anschluss: CHF 4'000 + CHF 200 je kW
 Anschlussleistung (Förderung, nicht Preis — siehe [[foerderprogramm-energie-sz-2026]]).
+⚠ Eine Sekundärquelle (dein-heizungsbauer.de/heizung.de-Portale) verortet den bereits bei Agro
+Energie Schwyz als unbelegt verworfenen Wert "EFH 10 kW ≈ CHF 18'000" mit Stand 2019 **auch** bei
+Energie Ausserschwyz — an keiner Primärquelle (Preisblatt/Website) auffindbar; dass dieselbe Zahl
+bei zwei verschiedenen SZ-Verbünden kursiert, stützt den Verdacht, dass es sich um eine generische,
+nicht anbieterspezifische Schätzung von Vergleichsportalen handelt. **Nicht verwenden.**
+
+### Wärmeverbund Küssnacht am Rigi (EBL Energie Rigi, vormals ECOGEN Rigi Genossenschaft/AGRO
+Energiezentrum Rigi) und Wärmeverbund Arth-Goldau (ECOGEN Arth-Goldau Genossenschaft) — beide
+recherchiert 15.07.2026, kein Tarifblatt öffentlich
+
+Beide Verbünde existieren real und sind im Ausbau (EBL Energie Rigi: Spatenstich für einen
+weiteren Bauabschnitt am 20.07.2026 in Küssnacht, Gebiete Seeplatz/Grepperstrasse; ECOGEN
+Arth-Goldau: Aufbauprojekt, Fernwärme soll laut Lokalpresse "in zwei Jahren" fliessen). **Keine
+CHF-Zahl zu Anschlusskosten oder Tarifen ist auf den offiziellen Seiten publiziert** — beide
+verweisen auf eine individuelle Offerte ("Offerte anfragen").
+Strukturelle Besonderheit Arth-Goldau: **genossenschaftliches Modell** — der Anschluss macht die
+Liegenschaft automatisch zum Genossenschaftsmitglied, die einmaligen Anschlusskosten werden als
+Energieanteile (nicht als reiner Kaufpreis) verbucht; ein "Sorglos"-Vorabanschluss-Produkt sichert
+den Fernwärmebezug bereits vor Fertigstellung der Quartierleitung. Küssnacht (EBL) wurde 2026
+organisatorisch von der EBL-Gruppe übernommen (vormals zwei getrennte Rechtsträger ECOGEN Rigi
+Genossenschaft + AGRO Energiezentrum Rigi AG) — Tarifstruktur der Übernahme nicht separat publiziert.
+
+Ergänzend gefunden: ein älteres (Stand 02/2017), separates Infoblatt der **Energieverbund
+Einsiedeln AG** (c/o Kuriger Treuhand AG — ein anderer Rechtsträger als das oben zitierte
+"Energie Einsiedeln AG"-Preisblatt 2025, vermutlich Vorläufer-/Schwestergesellschaft für das
+klosternahe Netz) nennt eine konkrete, alte Anschlussgebühren-Formel: **100 CHF/kW
+Anschlussleistung, mindestens CHF 5'000**, gestaffelter Grundpreis 145–180 CHF/kW·Jahr je nach
+Anschlussleistungsband, Arbeitspreis damals 9.0 Rp./kWh. Wegen des Alters (2017, vor der bereits
+zitierten 2025er-Quelle mit 11.53 Rp./kWh) nur als grobe historische Orientierung verwendbar, nicht
+als aktueller Anschlusspreis — schliesst die Einsiedler Anschlussbeitrags-Lücke nicht wirklich,
+zeigt aber, dass die Grössenordnung (~100 CHF/kW, Mindestbetrag CHF 5'000) deutlich unter dem
+Agro-Energie-Niveau (20'676 + 800/kW) liegen könnte, falls die Formel von 2017 noch gilt — das ist
+unbestätigt und explizit als Annahme markiert.
 
 ### Einordnung SZ
 
@@ -183,13 +217,18 @@ Förderbeitrag CHF 4'000 + 200/kW einzurechnen.
 - watson.ch-Meldung zu Fernwärmetarif 2027 (Fixkosten +3.58 %, Arbeitspreis-Halbierung) konnte
   nicht direkt verifiziert werden — nicht zitierfähig.
 - Energie 360° und EKZ Wärme nennen öffentlich keine konkreten CHF-Beträge (nur Struktur).
-- Kt. Schwyz: Agro Energie Schwyz vollständig belegt (14.07.2026). Weiterhin offen: Anschlussbeitrag
-  Energie Einsiedeln (nicht publiziert), gesamtes Tarifwerk Energie Ausserschwyz (nicht publiziert),
-  Vertragsdauern/Kündigungsfristen aller drei SZ-Verbünde (nicht publiziert), Wärmeverbünde in
-  Küssnacht/Arth-Goldau (nicht recherchiert).
 - Agro-Energie-Grund-/Arbeitspreis nur bis 30.09.2026 gültig — ab Oktober 2026 neu prüfen.
 - Energie-Einsiedeln-Preisblatt ist der Jahrgang 2025; ein Preisblatt 2026 war am 14.07.2026 nicht
-  auffindbar.
+  auffindbar. Aktueller Anschlussbeitrag Energie Einsiedeln AG (2025er-Rechtsträger) bleibt
+  unpubliziert — nur eine 2017er-Formel eines mutmasslichen Vorläufer-Rechtsträgers gefunden
+  (siehe oben), nicht als aktuell verwendbar.
+- Gesamtes Tarifwerk Energie Ausserschwyz weiterhin nicht publiziert (Recherche 15.07.2026
+  erneut erfolglos); Vertragsdauern/Kündigungsfristen aller drei SZ-Fernwärme-Verbünde weiterhin
+  nicht publiziert.
+- Wärmeverbünde Küssnacht am Rigi (EBL Energie Rigi) und Arth-Goldau (ECOGEN Arth-Goldau
+  Genossenschaft) recherchiert 15.07.2026: **beide existieren, publizieren aber keine Tarife** —
+  nur "Offerte anfragen". Damit als eigenständige Kostenquelle nicht nutzbar, aber immerhin als
+  Ansprechpartner für Bauherren in diesen Gemeinden dokumentiert.
 - Herkunft/Methodik der bereits in der KB vorhandenen EnergieSchweiz-4'940-CHF-Zahl nicht bis auf
   Eingabeprofil zurückverfolgt.
 

@@ -2,10 +2,10 @@
 quelle: Medienmitteilung Kanton Zürich «Regierungsrat will Versorgungssicherheit mit Solarstrom und Energiespeichern verbessern» (zh.ch, 06.01.2026) + Presseecho (20 Minuten, NZZ, Tages-Anzeiger, pv magazine)
 herausgeber: Regierungsrat Kanton Zürich (Baudirektion)
 ausgabe: Botschaft an den Kantonsrat zur Änderung des Energiegesetzes (EnerG), zwei Vorlagen (Solarpflicht + Langzeitspeicherung); Regierungsratsbeschlüsse Nr. 1229/2025 (Solarpflicht) und Nr. 1231/2025 (Langzeitspeicher)
-gelesen: 2026-07-13 (Web via WebSearch/WebFetch, Medienmitteilung + Sekundärpresse; Botschaftstext/Kantonsrat-Geschäftsnummer weiterhin nicht direkt eingesehen — kantonsrat.zh.ch liefert bei WebFetch nur Navigationsstruktur, kein Geschäftsdetail, 2. Versuch 2026-07-13 ebenfalls erfolglos)
+gelesen: 2026-07-13/2026-07-15 (Web via WebSearch/WebFetch, Medienmitteilung + Sekundärpresse; Botschaftstext/Kantonsrat-Geschäftsnummer weiterhin nicht direkt eingesehen — kantonsrat.zh.ch liefert bei WebFetch wiederholt nur Navigationsstruktur, kein Geschäftsdetail, 3. Versuch 2026-07-15 ebenfalls erfolglos)
 datenstand: 2026-01-06 — ⚠ Botschaft des Regierungsrats an den Kantonsrat, NOCH KEIN Gesetz. Kantonsrat-Beratung/Abstimmung und Referendumsfrist stehen noch aus; Inkrafttreten nicht datiert.
 status: emerging
-last_updated: 2026-07-13
+last_updated: 2026-07-15
 ---
 
 # ZH-Energiegesetz-Revision 2026 — Solarpflicht für grosse Dächer + Langzeitspeicher-Auftrag
@@ -68,10 +68,15 @@ relevanten Ansatzpunkte, falls eine Ausnahme gesucht wird.
   1231/2025 Langzeitspeicher, beide 06.01.2026) — die daraus abgeleitete **Kantonsrats-
   Geschäftsnummer und der Beratungsstand (Kommission/Lesungen)** bleiben aber offen: die Website
   `www.kantonsrat.zh.ch/geschaefte` ist eine JS-Single-Page-App, WebFetch liefert dort wiederholt
-  (2026-07-13, zwei unabhängige Versuche) nur die Navigationsstruktur statt des Geschäftsdetails.
-  Für eine belastbare Antwort müsste die Geschäftssuche interaktiv (Browser) oder über eine
-  strukturierte Schnittstelle der Kantonsrats-Website abgefragt werden — reine Text-Websuche/
-  WebFetch reicht hier nicht aus.
+  (2026-07-13 UND erneut 2026-07-15, drei unabhängige Versuche über zwei verschiedene direkte
+  Geschäfts-URLs) nur die Navigationsstruktur statt des Geschäftsdetails — bestätigte, stabile
+  Werkzeug-Grenze, keine Recherchelücke. **Dritter Rechercheversuch 2026-07-15:** ein Google-Treffer
+  nennt Geschäft **«5921»** («Eintretensdebatte» im Kantonsrat am 21.10.2024) im Kontext der
+  Klima-Allianz-Initiative «Energiegesetz 2.0» — das Datum (Herbst 2024) liegt aber VOR der hier
+  destillierten Regierungsrats-Botschaft vom 06.01.2026; es ist unklar, ob 5921 dieselbe Vorlage in
+  einer früheren Verfahrensstufe ist oder ein anderes, paralleles Geschäft (z.B. eine
+  parlamentarische Initiative statt der Regierungsrats-Vorlage) — **nicht zitierfähig als
+  Geschäftsnummer der hier belegten Solarpflicht-Botschaft**, ohne weitere Bestätigung.
 - **Exakter Gesetzestext** (Wortlaut der EnerG-Änderung, genaue Definition «geeignetes Dach»,
   Berechnungsmethode Wirtschaftlichkeit) nicht eingesehen — nur Medienmitteilungs-Zusammenfassung.
 - **Zeitplan/Inkrafttreten** unbekannt; Vernehmlassung zu einer separaten, früheren EnerG/Richtplan-
