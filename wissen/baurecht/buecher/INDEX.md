@@ -396,11 +396,13 @@ Trainingslauf (`../training/PROGRAMM.md`).
   richter ≤ 20'000 Fr. § 335 PBG) → **Beschwerde → Verwaltungsgericht** (§ 50 VRG, nur Rechtskontrolle,
   keine Angemessenheit) → **Bundesgericht** (Beschwerde i.oe.A. Art. 82/Art. 95 BGG, subsidiaere
   Verfassungsbeschwerde Art. 113 BGG). **Legitimation** (schutzwuerdiges Interesse + Beziehungsnaehe
-  § 21 VRG, Verbandsbeschwerde Art. 12 NHG, Gemeindeautonomie Art. 50 BV, Behoerdenbeschwerde § 209f PBG),
-  **akzessorische Normenkontrolle** (§ 50a VRG), Verfahrensgrundsaetze (Offizial-/Dispositions-/
+  § 21 VRG, Verbandsbeschwerde Art. 12 NHG, Gemeindeautonomie Art. 50 BV, Behoerdenbeschwerde § 338c PBG),
+  **Normenkontrolle** (akzessorisch = ungeschriebener Grundsatz; prinzipal § 19 Abs. 1 lit. d VRG — kein
+  § 50a VRG), Verfahrensgrundsaetze (Offizial-/Dispositions-/
   Untersuchungs-/Eventualmaxime, reformatio in peius § 27 VRG), **Rechtsmittelfrist 30 Tage** (§ 22 VRG;
-  Fax/E-Mail genuegen nicht). 16 Doppelseiten. Status: `emerging` (Restkap. S. 575-608 Ablauf/Kosten/
-  Revision + §-Verifikation offen; Teil 2 erledigt Run 22). Speist [[baubewilligungsverfahren]] +
+  Fax/E-Mail genuegen nicht). 16 Doppelseiten. Status: `established` (Teil 2 erledigt Run 22; §-Verifikation
+  VRG/PBG-Rechtsschutz volltextabgeglichen Run 32/44/46 — Behördenbeschwerde § 338c PBG, kein § 50a VRG).
+  Speist [[baubewilligungsverfahren]] +
   [[baulinien-und-abstandslinien]] + [[rechtsschutz-und-rechtsmittelverfahren]].
 
 - [[09-rechtsschutz-teil2-ablauf-kosten-revision]] — Kap. 9 Teil 2 (S. 576-606, **schliesst Kap. 9**):

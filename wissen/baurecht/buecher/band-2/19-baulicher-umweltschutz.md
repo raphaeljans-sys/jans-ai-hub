@@ -108,6 +108,13 @@ Abs. 2 LSV (S. 1376-1377, 1400-1403).
   Betriebslaerm) (S. 1375).
 - **Empfindlichkeitsstufen (ES) I-IV** — in der Nutzungs-/Zonenplanung zugeordnet, bilden
   zusammen mit dem Belastungsgrenzwert den laermrechtlichen Beurteilungsmassstab (S. 1379).
+  **Amtliche Zuordnung (Art. 43 LSV, volltextverifiziert 2026-07-15, raw/260715_amtlich_ch_lsv-es.md):**
+  ES I = erhoehtes Laermschutzbeduerfnis, namentlich **Erholungszonen**; ES II = keine stoerenden Betriebe,
+  namentlich **Wohnzonen** sowie **Zonen fuer oeffentliche Bauten und Anlagen**; ES III = maessig stoerende
+  Betriebe, namentlich **Wohn-/Gewerbezonen (Mischzonen)** sowie **Landwirtschaftszonen**; ES IV = stark
+  stoerende Betriebe, namentlich **Industriezonen**. Aufstufung um eine Stufe nur bei ES I/II und Lärm-
+  Vorbelastung (Art. 43 Abs. 2 LSV). Zuordnung durch die Kantone in Baureglementen/Nutzungsplaenen (Art. 44
+  Abs. 1 LSV); bis zur Zuordnung Einzelfallbestimmung (Art. 44 Abs. 3 LSV).
 - **Laermermittlung** (Art. 38 LSV: Messung oder Berechnung; Anhang 2 LSV); **Ermittlungspflicht
   der Behoerde** (Art. 36 LSV); **Laermbelastungskataster / Immissionskataster** (Art. 37 LSV)
   (S. 1376-1377).

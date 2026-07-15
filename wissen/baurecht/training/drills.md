@@ -1,7 +1,7 @@
 ---
 name: drills
 beschreibung: Selbsttest-Kartei (Q/A) des Buch-Trainings — Trainingsmodell C (spaced repetition). Je neues Destillat 2-3 Karten.
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 ---
 
 # Drill-Kartei — Buch-Training Baurecht
@@ -1532,3 +1532,41 @@ raw-Bundesrechtstexte via Fedlex beschafft). 3 echte Korrekturen, 0 Halluzinatio
 Naturschutz-Lebensraeume falsch «§§ 19-22» statt § 13 KNHV; Abschnitts-Randtitel + § 14/§ 30
 neu belegt), USG-Altlasten Re-Verifikation (Kern haelt, 1 Absatz-Korrektur Art. 32d Abs. 3→Abs. 4).
 **3 echte Korrekturen, 0 Halluzinationen.**
+
+## Kap. 9 / 19 — Buch-Run 46 (2026-07-15, Modell D: VRG-Beschwerde/Normenkontrolle, PBG-Behördenbeschwerde, LSV Empfindlichkeitsstufen)
+
+- **F:** Auf welchen Paragraphen stuetzt sich die **Behoerdenbeschwerde** im Zuercher Baurecht — und was
+  besagt er? — **A:** **§ 338c PBG** (amtlicher Randtitel «III. Behördenbeschwerde»): die **zuständige
+  Direktion** kann gegen Rekursentscheide, welche die Anordnung einer kantonalen Instanz ganz oder teilweise
+  aufheben, **zur Wahrung öffentlicher Interessen** Beschwerde erheben. NICHT «§ 209f PBG» (das war ein
+  Zitierfehler — § 209 PBG regelt die vorsorglichen Schutzmassnahmen mit Inventar). Allgemeine
+  Legitimation § 338a PBG, kantonale Verbandsbeschwerde § 338b PBG. Beleg: raw/260607_amtlich_zh_pbg.md.
+  _[2026-07-15]_
+- **F:** Gibt es im Verwaltungsrechtspflegegesetz (VRG ZH) einen «§ 50a VRG» zur akzessorischen
+  Normenkontrolle? — **A:** **Nein — ein § 50a VRG existiert nicht** (Sequenz § 49 → § 50 → § 51 [aufgehoben]
+  → § 52). Die **akzessorische (vorfrageweise) Normenkontrolle** ist ein **ungeschriebener allgemeiner
+  Grundsatz** (jede rechtsanwendende Instanz prueft die angewandte Norm vorfrageweise auf Gesetzmaessigkeit).
+  Die **prinzipale/abstrakte** Anfechtung eines Erlasses laeuft ueber **§ 19 Abs. 1 lit. d VRG** (Ruegegrund
+  «Verletzung uebergeordneten Rechts» § 20 Abs. 2 VRG, Legitimation § 21b VRG, Weiterzug § 41/§ 50 VRG).
+  Beleg: raw/260715_amtlich_zh_vrg_beschwerde.md. _[2026-07-15]_
+- **F:** Welche Empfindlichkeitsstufe (LSV) gilt in einer reinen **Wohnzone**, welche in einer
+  **Wohn-/Gewerbe-Mischzone**? — **A:** **Wohnzone → ES II** (keine störenden Betriebe; namentlich Wohnzonen
+  + Zonen fuer oeffentliche Bauten/Anlagen); **Mischzone → ES III** (maessig störende Betriebe; namentlich
+  Wohn-/Gewerbezonen sowie Landwirtschaftszonen). ES I = Erholungszonen, ES IV = Industriezonen. Aufstufung
+  um eine Stufe nur bei ES I/II und Vorbelastung (**Art. 43 LSV**; Zuordnung durch Kantone Art. 44 LSV).
+  Beleg: raw/260715_amtlich_ch_lsv-es.md. _[2026-07-15]_
+- **F (Modell A · Buerofrage→Beleg):** Eine kommunale BZO-Vorschrift verhindert ein sonst gesetzeskonformes
+  JANS-Bauvorhaben und ist ihrerseits verdaechtig gesetzwidrig. Kann man dagegen vorgehen, und wie belegt man
+  den Weg? — **A:** **Ja, zwei Wege.** (1) **Akzessorische (vorfrageweise) Normenkontrolle** im konkreten
+  Baubewilligungs-/Rekursverfahren — ungeschriebener Grundsatz, keine eigene Norm noetig; die Rekursinstanz
+  prueft die angewandte BZO-Bestimmung auf Gesetzmaessigkeit (BGE 2C_44/2015). (2) **Prinzipale/abstrakte
+  Anfechtung** des Erlasses als solchen via Rekurs **§ 19 Abs. 1 lit. d VRG** (Ruegegrund § 20 Abs. 2 VRG,
+  Legitimation § 21b VRG «wer durch eine Norm in schutzwuerdigen Interessen beruehrt werden koennte»). Nicht
+  auf einen «§ 50a VRG» abstuetzen — den gibt es nicht. Bruecke zur Baulinien-Ueberpruefung § 110a PBG.
+  Beleg: raw/260715_amtlich_zh_vrg_beschwerde.md; vgl. [[baulinien-und-abstandslinien]]. _[2026-07-15]_
+
+**Ergebnis Buch-Run 46 (3 Komplexe Modell D, 2 neue amtliche Volltexte beschafft):** die beiden letzten
+verifizierbaren «dauerhaft offenen» Flags waren **echte Zitierfehler**: Behoerdenbeschwerde **§ 338c PBG**
+statt «§ 209f PBG»; **kein § 50a VRG** (Normenkontrolle prinzipal § 19 Abs. 1 lit. d VRG / akzessorisch
+ungeschrieben). Art. 43/44 LSV (ES I-IV) beschafft + CONFIRMED. Wiki [[rechtsschutz-und-rechtsmittelverfahren]]
++ Destillat [[09-rechtsschutz]] **emerging→established**. **VERIFIKATIONS-RUECKSTAND ABGEBAUT.**

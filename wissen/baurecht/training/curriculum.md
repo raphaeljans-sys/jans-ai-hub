@@ -179,9 +179,11 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
 9. **Kap. 9 + 10** Rechtsschutz + widerrechtliche Bauten.
    *(Kap. 9 Kernbereich distilliert 2026-06-16, Run 8, S. 537-575, Shots 270-289: dreistufiger Rechts-
    mittelweg Baurekursgericht § 19/§ 20 VRG → Verwaltungsgericht § 50 VRG → Bundesgericht Art. 82/95 BGG,
-   Legitimation § 21 VRG, akzessorische Normenkontrolle § 50a VRG, Verfahrensgrundsaetze, **Rechtsmittel-
-   frist 30 Tage § 22 VRG**. Destillat [[09-rechtsschutz]], speist [[baubewilligungsverfahren]] +
-   [[baulinien-und-abstandslinien]]. **Kap. 9 vollstaendig** (Teil 2 Run 22, S.576-606). Kap. 10 erledigt Run 20.)*
+   Legitimation § 21 VRG, Normenkontrolle (akzessorisch = ungeschriebener Grundsatz; prinzipal § 19 Abs. 1
+   lit. d VRG — kein § 50a VRG), Behördenbeschwerde § 338c PBG, Verfahrensgrundsaetze, **Rechtsmittelfrist
+   30 Tage § 22 VRG**. Destillat [[09-rechtsschutz]], speist [[baubewilligungsverfahren]] +
+   [[baulinien-und-abstandslinien]]. **Kap. 9 vollstaendig + volltextverifiziert** (Teil 2 Run 22, S.576-606;
+   VRG/PBG-Rechtsschutz Modell-D Run 32/44/46). Kap. 10 erledigt Run 20.)*
 10. Rest nach Prioritaet (Kap. 1-5, 11, 18-19, 21-23 + Kap.-8-Restschuld). Kap. 18 Brandschutz nur Querverweis
    auf den Skill `brandschutz` (kein Doppelaufbau).
 

@@ -4,10 +4,11 @@ kapitel: 9 — Rechtsschutz
 band: 1
 seiten: 537-575 (Kernbereich; Kap. reicht bis S. 608)
 shots: 270-289 (Bildschirmfoto 2026-06-07 um 11.48.44 – 11.49.21)
-paragraphen: ["§ 19 VRG", "§ 20 VRG", "§ 21 VRG", "§ 21a VRG", "§ 22 VRG", "§ 23 VRG", "§ 27 VRG", "§ 50 VRG", "§ 50a VRG", "§ 52 VRG", "§ 60 VRG", "§ 11 VRG", "§ 41 BezVG", "§ 209f PBG", "§ 315 PBG", "§ 316 PBG", "§ 329 PBG", "§ 335 PBG", "§ 336 PBG", "§ 337 PBG", "§ 338b PBG", "§ 340 PBG", "Art. 82 BGG", "Art. 86 BGG", "Art. 89 BGG", "Art. 95 BGG", "Art. 97 BGG", "Art. 111 BGG", "Art. 113 BGG", "Art. 12 NHG", "Art. 14 FWG", "Art. 50 BV", "Art. 29 BV", "Art. 29a BV", "Art. 30 BV", "Art. 6 EMRK", "Art. 9 BehiG", "Art. 304 ZGB"]
-status: emerging
+paragraphen: ["§ 19 VRG", "§ 20 VRG", "§ 21 VRG", "§ 21a VRG", "§ 21b VRG", "§ 22 VRG", "§ 23 VRG", "§ 27 VRG", "§ 41 VRG", "§ 49 VRG", "§ 50 VRG", "§ 52 VRG", "§ 60 VRG", "§ 11 VRG", "§ 41 BezVG", "§ 338a PBG", "§ 338b PBG", "§ 338c PBG", "§ 315 PBG", "§ 316 PBG", "§ 329 PBG", "§ 335 PBG", "§ 336 PBG", "§ 337 PBG", "§ 340 PBG", "Art. 82 BGG", "Art. 86 BGG", "Art. 89 BGG", "Art. 95 BGG", "Art. 97 BGG", "Art. 111 BGG", "Art. 113 BGG", "Art. 12 NHG", "Art. 14 FWG", "Art. 50 BV", "Art. 29 BV", "Art. 29a BV", "Art. 30 BV", "Art. 6 EMRK", "Art. 9 BehiG", "Art. 304 ZGB"]
+status: established
 gelesen: 2026-06-16
-last_updated: 2026-06-16
+last_updated: 2026-07-15
+verifiziert: 2026-07-15 (Modell-D VRG-Beschwerde/Normenkontrolle + PBG-Behördenbeschwerde, Buch-Run 46, gegen raw/260715_amtlich_zh_vrg_beschwerde.md + raw/260607_amtlich_zh_pbg.md) — Behördenbeschwerde § 338c PBG statt «§ 209f PBG»; kein § 50a VRG (prinzipale Normenkontrolle § 19 Abs. 1 lit. d/§ 20 Abs. 2/§ 21b VRG, akzessorische = ungeschriebener Grundsatz); § 50 Abs. 2 VRG CONFIRMED. Kernbereich Teil 1 volltextabgeglichen
 ---
 
 # Kap. 9 — Rechtsschutz
@@ -16,8 +17,8 @@ last_updated: 2026-06-16
 > 6. Aufl. 2019, S. 537-575 (Kapitel reicht bis S. 608). Kanton Zuerich (PBG/VRG) +
 > Bundesrecht (BGG/BV). Distilliert aus Shots 270-289. Querbezug Wiki
 > [[baubewilligungsverfahren]] und [[baulinien-und-abstandslinien]] (akzessorische
-> Normenkontrolle § 50a VRG). Bundesrecht (BGG/EMRK) nur sinngemaess — am amtlichen
-> Volltext gegenpruefen.
+> Normenkontrolle als ungeschriebener Grundsatz; prinzipale Erlassanfechtung § 19 Abs. 1
+> lit. d VRG). Bundesrecht (BGG/EMRK) nur sinngemaess — am amtlichen Volltext gegenpruefen.
 >
 > **Shot-Mapping-Hinweis:** Kap. 9 «Rechtsschutz» beginnt visuell verifiziert bei
 > **Shot 270** (`11.48.44.jpg`, Titelseite p.537); Inhalt ab Shot 271 (p.538-539). Die
@@ -36,8 +37,10 @@ rekurrieren will, braucht ein **schutzwuerdiges Interesse** (Legitimation § 21 
 besondere Beziehungsnaehe), das fristgerecht erhobene **Zustellbegehren** aus dem Bewilligungs-
 verfahren (§ 315/§ 316 PBG; vgl. [[baubewilligungsverfahren]]) und muss die **Rechtsmittelfrist von
 30 Tagen** (§ 22 VRG) wahren. Generell-abstrakte Erlasse (Nutzungsplaene, kommunale Vorschriften)
-koennen im konkreten Baufall **akzessorisch** auf ihre Gesetzmaessigkeit ueberprueft werden
-(§ 50a VRG; § 19 Abs. 1 VRG).
+koennen im konkreten Baufall **akzessorisch** (vorfrageweise) auf ihre Gesetzmaessigkeit
+ueberprueft werden — ungeschriebener allgemeiner Grundsatz; die **prinzipale** Anfechtung eines
+Erlasses als solchen laeuft ueber § 19 Abs. 1 lit. d VRG (Legitimation § 21b VRG). **Es gibt keinen
+§ 50a VRG.**
 
 ## 2. Begriffe & Paragraphen
 
@@ -132,9 +135,13 @@ koennen im konkreten Baufall **akzessorisch** auf ihre Gesetzmaessigkeit ueberpr
   schutzwuerdige eigene Interessen (Gemeindevermoegen) oder die Verletzung ihrer Autonomie (Art. 50 BV,
   § 21 Abs. 2 lit. b VRG) berufen koennen; auch die Gemeinde als Trager hoheitlicher Aufgaben mit
   Beruehrung in schutzwuerdigen Interessen (BGr 8C_500/2012; VB.2013.00150). (S. 569)
-- **Behoerdenbeschwerde (§ 209f PBG):** Im Baurecht ist die Behoerdenbeschwerde vorgesehen — kantonale/
-  kommunale Behoerden koennen wegen Verletzung uebergeordneten Rechts Anordnungen anfechten (§ 209f PBG;
-  Walker/Spaeh 2006). (S. 570)
+- **Behoerdenbeschwerde (§ 338c PBG):** Im Baurecht ist die Behoerdenbeschwerde vorgesehen — die
+  **zuständige Direktion** kann gegen Rekursentscheide, welche die Anordnung einer kantonalen Instanz ganz
+  oder teilweise aufheben, **zur Wahrung öffentlicher Interessen** Beschwerde erheben (§ 338c PBG,
+  amtlicher Randtitel «III. Behördenbeschwerde»; volltextverifiziert 2026-07-15). Die allgemeine Rekurs-/
+  Beschwerdelegitimation (auch für die Anfechtung von Erlassen) steht in § 338a PBG, die kantonale
+  Verbandsbeschwerde in § 338b PBG. **(Frühere Fundstellenangabe «§ 209f PBG» war falsch — § 209 PBG regelt
+  die vorsorglichen Schutzmassnahmen mit Inventar.)** (S. 570)
 - **Besonderheit Anfechtung bei Baubewilligungen (§ 315 Abs. 1 / § 316 Abs. 2 PBG):** Der Nachbar muss
   als «formeller Beschwerter» innert **20 Tagen** nach der oeffentlichen Bekanntmachung das schriftliche
   **Zustellbegehren** stellen (§ 315 Abs. 1 PBG) — sonst verwirkt das Rekursrecht (§ 316 Abs. 2 PBG;
@@ -144,17 +151,20 @@ koennen im konkreten Baufall **akzessorisch** auf ihre Gesetzmaessigkeit ueberpr
 - **Baurekursgericht (§ 20 Abs. 1 VRG):** prueft mit **voller Kognition** — Rechtsverletzung
   (einschliesslich Ermessensmissbrauch/-ueberschreitung), unrichtige/ungenuegende Sachverhalts-
   feststellung **und Unangemessenheit** (§ 20 Abs. 1 lit. c VRG); Zurueckhaltung uebt es nur, wo das
-  kantonale Recht der Gemeinde einen Beurteilungsspielraum belaesst (Gemeindeautonomie, § 50a VRG;
+  kantonale Recht der Gemeinde einen Beurteilungsspielraum belaesst (Gemeindeautonomie, Art. 50 BV;
   BEZ 2015 Nr. 29). (S. 572)
 - **Verwaltungsgericht (§ 50 VRG):** **keine Angemessenheitskontrolle** (§ 50 Abs. 1 VRG); prueft den
   angefochtenen Rekursentscheid nur auf Rechtsverletzung (BEZ 2003 Nr. 10). (S. 572-573)
 - **Bundesgericht (Art. 95/Art. 97 BGG):** prueft nur Verletzung von Bundesrecht; Sachverhalts-
   feststellung nur bei offensichtlicher Unrichtigkeit/Willkuer (Art. 97 Abs. 1 BGG). (S. 573)
-- **Ueberpruefungsbefugnis / akzessorische Normenkontrolle (§ 50a VRG; § 19 Abs. 1 VRG):** Generell-
-  abstrakte Erlasse (Nutzungsplaene, kommunale Bau-/Zonenordnung) koennen im konkreten Anwendungsfall
-  **akzessorisch** auf ihre Gesetzmaessigkeit ueberprueft werden; in klaren Faellen direkt im
-  Baubewilligungs-/Rekursverfahren (§ 50a VRG; BGE 2C_44/2015; vgl. [[baulinien-und-abstandslinien]]
-  fuer den Ueberpruefungsanspruch § 110a PBG). (S. 572)
+- **Ueberpruefungsbefugnis / Normenkontrolle:** Generell-abstrakte Erlasse (Nutzungsplaene, kommunale
+  Bau-/Zonenordnung) koennen im konkreten Anwendungsfall **akzessorisch (vorfrageweise)** auf ihre
+  Gesetzmaessigkeit ueberprueft werden — ungeschriebener allgemeiner Grundsatz; in klaren Faellen direkt im
+  Baubewilligungs-/Rekursverfahren (BGE 2C_44/2015; vgl. [[baulinien-und-abstandslinien]] fuer den
+  Ueberpruefungsanspruch § 110a PBG). Die **prinzipale/abstrakte** Anfechtung eines Erlasses als solchen
+  laeuft ueber Rekurs § 19 Abs. 1 lit. d VRG (Rügegrund «Verletzung übergeordneten Rechts» § 20 Abs. 2 VRG,
+  Legitimation § 21b VRG; Weiterzug § 41 VRG). **Es gibt keinen § 50a VRG** (nach § 50 folgt § 52).
+  (volltextverifiziert 2026-07-15, raw/260715_amtlich_zh_vrg_beschwerde.md) (S. 572)
 
 ### 2.9 Rechtsmittelschrift und -frist (§§ 22/23 VRG) (S. 574-575)
 - **Rechtsmittelschrift (§ 23 Abs. 1 VRG; Art. 42 Abs. 1 BGG):** schriftlich, mit Darlegung der
@@ -209,7 +219,8 @@ koennen im konkreten Baufall **akzessorisch** auf ihre Gesetzmaessigkeit ueberpr
   argumente sind dort chancenlos. Strategie und Aufwand entsprechend auf die erste Instanz konzentrieren.
 - **Akzessorische Normenkontrolle als Hebel.** Wenn eine kommunale BZO-/Zonenvorschrift im konkreten
   JANS-Bauvorhaben hinderlich und ihrerseits gesetzwidrig ist, kann sie im Rekurs **akzessorisch**
-  angefochten werden (§ 50a VRG; BGE 2C_44/2015) — Bruecke zur Baulinien-Ueberpruefung § 110a PBG
+  (vorfrageweise) ueberprueft bzw. **prinzipal** angefochten werden (§ 19 Abs. 1 lit. d VRG; BGE 2C_44/2015)
+  — Bruecke zur Baulinien-Ueberpruefung § 110a PBG
   (vgl. [[baulinien-und-abstandslinien]]). In Machbarkeits-/Vorabklaerungsphasen mitdenken.
 - **Legitimation des Nachbarn = Beziehungsnaehe + schutzwuerdiges Interesse.** Nicht jeder Anwohner ist
   rekursberechtigt; verlangt sind raeumliche Naehe und ein konkretes Interesse (BGE 121 II 224). Bei der
@@ -222,11 +233,18 @@ koennen im konkreten Baufall **akzessorisch** auf ihre Gesetzmaessigkeit ueberpr
 
 ## 6. Offene Punkte / zu verifizieren
 
-- **VRG-Paragraphen** (§§ 19/20/21/21a/22/23/27/38a/38b/50/50a/52/60 VRG) am amtlichen Volltext des
-  Verwaltungsrechtspflegegesetzes gegenpruefen — aus den Screenshots teils nur Abschnittsbezeichnungen
-  lesbar; insbesondere die genaue Verortung der akzessorischen Normenkontrolle (§ 50a vs. § 19 Abs. 1 VRG).
-- **§ 209f PBG (Behoerdenbeschwerde)** und **§ 335/§ 336 PBG (Baurekursgericht-Organisation)** am PBG-
-  Volltext praezisieren — Buchstaben-Suffixe (209f) unsicher.
+- ~~**VRG-Paragraphen** (§§ 19/20/21/21a/22/23/27/38a/38b/50/50a/52/60 VRG) am amtlichen Volltext
+  gegenpruefen — insbesondere die genaue Verortung der akzessorischen Normenkontrolle (§ 50a vs. § 19 Abs.
+  1 VRG).~~ **ERLEDIGT 2026-07-15 (Buch-Run 46):** amtlicher VRG-Volltext (raw/260715_amtlich_zh_vrg_beschwerde.md)
+  volltextverifiziert. **Befund: ein § 50a VRG existiert nicht** (Sequenz § 49 → § 50 → § 51 aufgehoben →
+  § 52). Akzessorische Normenkontrolle = ungeschriebener Grundsatz; prinzipale Erlassanfechtung § 19 Abs. 1
+  lit. d VRG (Rügegrund § 20 Abs. 2, Legitimation § 21b VRG, Weiterzug § 41/§ 50 VRG). § 50 Abs. 2 VRG
+  («Unangemessenheit nur wenn Gesetz es vorsieht») CONFIRMED.
+- ~~**§ 209f PBG (Behoerdenbeschwerde)** am PBG-Volltext praezisieren — Buchstaben-Suffixe (209f)
+  unsicher.~~ **ERLEDIGT 2026-07-15 (Buch-Run 46):** Behördenbeschwerde = **§ 338c PBG** (Randtitel «III.
+  Behördenbeschwerde», raw/260607_amtlich_zh_pbg.md); Legitimation § 338a PBG, Verbandsbeschwerde § 338b PBG.
+  «§ 209f» war spurious (§ 209 PBG = vorsorgliche Schutzmassnahmen mit Inventar). **§ 335/§ 336 PBG
+  (Baurekursgericht-Organisation)** am PBG-Volltext bleibt noch zu präzisieren (geringe Prio).
 - **Restbereich Kap. 9 (S. 576-606)** — ~~offen~~ **erledigt 2026-07-06 (Run 22)**: 9.7 Ablauf des
   Rechtsmittelverfahrens (vier Phasen), vorsorgliche Massnahmen/aufschiebende Wirkung (§ 339 PBG),
   Kosten/Entschaedigung, Revision, Mediation → Destillat [[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]].

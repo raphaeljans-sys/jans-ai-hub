@@ -1,11 +1,11 @@
 ---
 name: rechtsschutz-und-rechtsmittelverfahren
 titel: Rechtsschutz & Rechtsmittelverfahren (Baurekurs bis Bundesgericht)
-status: emerging
-letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12); §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG (Buch-Run 44, Modell-D, 2026-07-14)"
-last_updated: 2026-07-14
-verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32); 2026-07-14 (Modell-D §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG, Buch-Run 44, gegen raw/260714_amtlich_zh_vrg_rechtsschutz2.md + raw/260712_amtlich_zh_vrg.md + raw/260607_amtlich_zh_pbg.md) — 6/8 Aussagen CONFIRMED, 2 korrigiert (Replikrecht-Zuschreibung § 26b VRG, Nicht-Erstreckbarkeit-Zuschreibung § 26b/§ 58 VRG); § 209f PBG und § 50a VRG bleiben offen (ausserhalb des heutigen Fetch-Umfangs) — status bleibt emerging
-sources: ["raw/260712_amtlich_zh_vrg.md", "raw/260714_amtlich_zh_vrg_rechtsschutz2.md", "raw/260607_amtlich_zh_pbg.md", "band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md", "band-1/09-rechtsschutz.md"]
+status: established
+letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12); §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG (Buch-Run 44, Modell-D, 2026-07-14); §§ 19/20/21b/41/42/49/50/52 VRG + § 338a/338b/338c PBG (Buch-Run 46, Modell-D, 2026-07-15)"
+last_updated: 2026-07-15
+verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32); 2026-07-14 (Modell-D §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG, Buch-Run 44) — 6/8 CONFIRMED, 2 korrigiert (Replikrecht § 26b VRG, Nicht-Erstreckbarkeit § 26b/§ 58 VRG); 2026-07-15 (Modell-D §§ 19/20/21b/41/42/49/50/52 VRG + § 338a/338b/338c PBG, Buch-Run 46, gegen raw/260715_amtlich_zh_vrg_beschwerde.md + raw/260607_amtlich_zh_pbg.md) — die beiden letzten offenen Zitate KORRIGIERT: «§ 209f PBG (Behördenbeschwerde)» → **§ 338c PBG** (Legitimation § 338a, Verbandsbeschwerde § 338b; § 209 PBG = vorsorgliche Schutzmassnahmen, sachfremd); «§ 50a VRG (akzessorische Normenkontrolle)» → **existiert nicht**, prinzipale Normenkontrolle § 19 Abs. 1 lit. d/§ 20 Abs. 2/§ 21b VRG + § 41/§ 50 VRG, akzessorische = ungeschriebener Grundsatz. § 41/§ 50 Abs. 2 VRG (keine Angemessenheitskontrolle) CONFIRMED. Statute-level damit vollständig verifiziert → status emerging→established
+sources: ["raw/260712_amtlich_zh_vrg.md", "raw/260714_amtlich_zh_vrg_rechtsschutz2.md", "raw/260715_amtlich_zh_vrg_beschwerde.md", "raw/260607_amtlich_zh_pbg.md", "band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md", "band-1/09-rechtsschutz.md"]
 backlinks: ["[[band-1/09-rechtsschutz]]", "[[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]]", "[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
 links: ["[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
 ---
@@ -38,12 +38,19 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemaess.
 - **Verwaltungsgericht** — zweite Instanz (§ 41 ff. VRG); **keine Angemessenheitskontrolle** (§ 50 Abs. 2 VRG).
 - **Bundesgericht** — Beschwerde in oeff.-rechtl. Angelegenheiten (Art. 82 BGG); nur Bundesrechtsverletzung
   (Art. 95 BGG), Sachverhalt nur bei Willkuer (Art. 97 BGG); subsidiaere Verfassungsbeschwerde (Art. 113 BGG).
-- **Legitimation Privater** (§ 21 VRG): beruehrt + **schutzwuerdiges Interesse**; beim Nachbarn **raeumliche
-  Beziehungsnaehe** (BGE 121 II 224). Behoerdenbeschwerde § 209f PBG; Verbandsbeschwerde Art. 12 NHG bei
-  Bundesaufgabe.
-- **Akzessorische Normenkontrolle** (§ 50a VRG): generell-abstrakte Erlasse (BZO/Nutzungsplaene) im konkreten
-  Baufall auf Gesetzmaessigkeit ueberpruefbar → Hebel gegen hinderliche kommunale Vorschriften
-  (vgl. [[baulinien-und-abstandslinien]], § 110a PBG).
+- **Legitimation Privater** (§ 21 VRG / § 21b VRG bei Erlassanfechtung; für die Beschwerde ans
+  Verwaltungsgericht § 49 VRG i.V.m. §§ 21-21b): beruehrt + **schutzwuerdiges Interesse**; beim Nachbarn
+  **raeumliche Beziehungsnaehe** (BGE 121 II 224). Baurechtliche Rekurs-/Beschwerdelegitimation zudem
+  **§ 338a PBG** (auch für die Anfechtung von Erlassen). **Behoerdenbeschwerde § 338c PBG** (die zuständige
+  Direktion gegen kantonale Instanz aufhebende Rekursentscheide, zur Wahrung öffentlicher Interessen);
+  **kantonale Verbandsbeschwerde § 338b PBG**; Verbandsbeschwerde Art. 12 NHG bei Bundesaufgabe.
+- **Normenkontrolle** — zwei Wege: **prinzipale/abstrakte** Anfechtung eines generell-abstrakten Erlasses
+  (BZO/Nutzungsplaene) als solchen via Rekurs **§ 19 Abs. 1 lit. d VRG** (Rügegrund «Verletzung übergeordneten
+  Rechts» § 20 Abs. 2 VRG, Legitimation § 21b VRG; Weiterzug § 41 VRG; für PBG-Erlasse zusätzlich § 338a Satz 2
+  PBG); und **akzessorische (vorfrageweise) Normenkontrolle** — der ungeschriebene allgemeine Grundsatz, dass
+  jede rechtsanwendende Instanz die angewandte Norm im konkreten Baufall auf Gesetzmaessigkeit prüft → Hebel
+  gegen hinderliche kommunale Vorschriften (vgl. [[baulinien-und-abstandslinien]], § 110a PBG). **Kein «§ 50a
+  VRG»** — diese Bestimmung existiert nicht (§ 50 VRG regelt die Beschwerdegründe, danach folgt § 52).
 
 ## 3. Fristen (Teil 2)
 - Rechtsmittelfrist **30 Tage** (Stimmrechtssachen 5; § 22/§ 53 VRG), Abkuerzung auf 5 Tage bei Dringlichkeit
@@ -169,14 +176,25 @@ und `raw/260607_amtlich_zh_pbg.md` (§ 317/§ 338/§ 339/§ 339b PBG).
 - **§ 87 VRG:** im Wiki-Artikel selbst nicht zitiert (nur im Destillat als «Erlaeuterung/Berichtigung»,
   dort bereits am 2026-07-14 als WIDERLEGT/needs-verification vermerkt — § 87 VRG regelt seit 1.5.2024
   «Wahl und Stellung der Ombudsperson»). Kein Handlungsbedarf im Wiki-Artikel.
-- **§ 209f PBG (Zeile 42, Behoerdenbeschwerde) und § 50a VRG (Zeile 44/45, akzessorische Normenkontrolle):**
-  im Volltextumfang der heute beschafften raw-Dateien NICHT enthalten (ausserhalb § 8/9/10c/15/25/26/
-  26a-d/29a/30/31/55/58/86-90 VRG bzw. § 211/317/338/339/339b PBG) — **bleibt offen**, nicht amtlich
-  gegengeprueft in diesem Lauf.
+- **§ 209f PBG (Behoerdenbeschwerde) und § 50a VRG (akzessorische Normenkontrolle) — ERLEDIGT 2026-07-15
+  (Buch-Run 46, Modell-D):** beide waren **echte Zitierfehler**, nicht bloss «kein Volltext».
+  (1) Die Behoerdenbeschwerde steht amtlich in **§ 338c PBG** (Randtitel «III. Behördenbeschwerde», Volltext
+  `raw/260607_amtlich_zh_pbg.md` Z. 3581-3583): «Gegen Rekursentscheide, welche die Anordnung einer
+  kantonalen Instanz ganz oder teilweise aufheben, kann die zuständige Direktion zur Wahrung öffentlicher
+  Interessen Beschwerde erheben.» Die allgemeine Legitimation (auch Erlassanfechtung) ist § 338a PBG, die
+  kantonale Verbandsbeschwerde § 338b PBG. «§ 209 PBG» regelt dagegen die **vorsorglichen Schutzmassnahmen
+  mit Inventar** (Natur-/Denkmalschutz) — sachfremd; «§ 209f» war spurious. **→ § 338c PBG korrigiert.**
+  (2) **Ein «§ 50a VRG» existiert nicht** (frisch beschaffter amtlicher VRG-Volltext
+  `raw/260715_amtlich_zh_vrg_beschwerde.md`: Sequenz § 49 → § 50 → § 51 [aufgehoben] → § 52). Die
+  Normenkontrolle ist zweigeteilt: **prinzipale/abstrakte** via § 19 Abs. 1 lit. d + § 20 Abs. 2 + § 21b
+  VRG (Weiterzug § 41/§ 50 VRG); **akzessorische/vorfrageweise** = ungeschriebener allgemeiner Grundsatz.
+  **→ korrigiert.** § 41 VRG und § 50 Abs. 2 VRG («keine Angemessenheitskontrolle vor VGr») bei dieser
+  Gelegenheit CONFIRMED.
 
-**Ergebnis:** 6 von 8 im Frontmatter/Text zitierte Aussagen CONFIRMED, 2 KORRIGIERT/praezisiert
-(«Replikrecht»-Zuschreibung an § 26b VRG, «nicht erstreckbar»-Zuschreibung an § 26b/§ 58 VRG), 2 Randpunkte
-(§ 209f PBG, § 50a VRG) bleiben offen (ausserhalb des heute gegengepruefeten Paragraphen-Umfangs).
+**Ergebnis (Run 46):** die 2 letzten offenen Zitate KORRIGIERT (§ 209f PBG→§ 338c PBG, § 50a VRG existiert
+nicht), 2 weitere Aussagen (§ 41, § 50 Abs. 2 VRG) CONFIRMED. Damit ist der Artikel auf Gesetzeswortlaut-Ebene
+vollständig verifiziert → **status emerging→established**. (Frühere Runde: 6/8 CONFIRMED, 2 korrigiert
+[Replikrecht § 26b VRG, Nicht-Erstreckbarkeit § 26b/§ 58 VRG].)
 
 ## 7. Fuer die JANS-Praxis
 - Bei unbefriedigendem Entscheid **immer parallel fristwahrend rekurrieren**, auch wenn man mit der Behoerde
