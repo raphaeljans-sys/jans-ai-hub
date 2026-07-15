@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.07.2026 10:58:54
+Stand: 15.07.2026 11:09:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.07.2026 10:58:54
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- c6ec95c7 Energie-Trainingslauf Run 71 (2026-07-15): VHKA-Pre-2001-Ausnahme SZ geklaert, GEAK-Klasse-D SZ + MuKEn-2025-Fahrplan ergaenzt, SZ-Fernwaerme-Restluecken teilweise geschlossen
+- 530b2a64 nas-selfcommit: 2 Datei(en) 2026-07-15 11:00
