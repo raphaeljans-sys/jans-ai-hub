@@ -1,5 +1,25 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-15 — Trainingslauf 20
+- Output `outputs/2026-07-15_training-run20.md`. **Auswertungslauf** — erste neue reale Spec-Anwendung
+  seit Lauf 7: `outputs/2026-07-15_syn-02-...-spec-interview/` (Schwester-Task `syn02-spec-anstoss`,
+  erstellt 00:57–00:59, also NACH Lauf 19 um 00:54 — Lauf 19s «keine neue Spec» war korrekt).
+- **Kernlektion (belegt, neu): der autonome Schritt-1-Deliverable «Interview-Vorbereitung».** Triggert
+  das Gate ohne anwesenden Benutzer, ist der korrekte Output die vorbereiteten E-Fragen mit je Frage
+  recherchierter Faktenlage + Default-Vorschlag («NICHT die Spec / kein Bau vor bestaetigter Spec») —
+  nicht das Erfinden der Entscheide. Loest die Spannung «Spec braucht bestaetigte Entscheide» ↔
+  «autonomer Lauf». → `wiki/anwendung-jans.md` Schritt 1.
+- **Umgesetzt:** `anwendung-jans.md` Schritt 1 (neuer Absatz + last_updated 07-15); `QUESTIONS.md` F1
+  (siebter Gate-Trigger, kein Ueberdehnungs-Beleg), F2 (Interview-Vorbereitung verkuerzt das Interview),
+  F3 (vorgeschlagene Domaene «Entwurfsprozess/Geometrie», Verifier-Kandidat = Architekt am Parti-Human-
+  Gate); `verifier.md` Pending-Zeile unter der Tabelle (+ last_updated 07-15).
+- **Bewusst nicht getan:** kein voller Environment-Sweep (Lauf 13 frisch); der technische Generator-Gap
+  (`volumen_generator.py` liest Parameter-Set nicht) nur als Cross-Harness-Befund notiert, nicht repariert
+  (ausserhalb `wissen/spec`-Mandat); keine Rule-/Skill-Aenderung; keine erfundene F3-Vollzeile aus dem noch
+  unbestaetigten Verifier (E5 offen → Pending). F4/F5 bleiben vollstaendig eingeloest.
+- Offen: SYN-02-Interview auf Zuruf, danach Verifier-Pending → volle Zeile; F1-Ueberdehnungs-Gegentest
+  fehlt weiter; F3 Marketing/Text offen; AG-Gruendung in `logbuch`-Hand.
+
 ## 2026-07-15 — Trainingslauf 19
 - Output `outputs/2026-07-15_training-run19.md`. **Keine neue reale Spec** seit Lauf 7
   (Wettbewerbs-Layer 12.07.) → Verifikationslauf. Erster Lauf am neuen Tag und erster sauber

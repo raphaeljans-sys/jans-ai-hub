@@ -47,6 +47,13 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     Owner-Aktion** («Antwort ans Notariat raus», offen seit 22.06.) unter derselben low-noise-Zeile
     mitlaufen lassen wie das echte externe Warten — die erledigbare Aufgabe alterte still. Schwelle
     unveraendert; Ueberdehnungs-Gegentest fehlt weiter.
+  - Stand 2026-07-15 (Lauf 20): **siebter realer Gate-Trigger** (SYN-02 typologischer Entwurfsprozess,
+    Scheduled Task `syn02-spec-anstoss`) — hoch-einsatzig (ganze Entwurfs-/Wettbewerbs-Produktionskette,
+    Geschaeftsmodell GM2/GM3) + mehr-Scope (9 Entscheide E1–E9) + greenfield. Gate korrekt+nuetzlich,
+    weiterhin **kein** Ueberdehnungs-Beleg (kein genervter Mittelfall). Besonderheit: dieser Trigger
+    erzeugte **nicht** eine entschiedene Spec, sondern eine **Interview-Vorbereitung** (autonomer Lauf,
+    Benutzer abwesend → Schritt 1 vorbereiten statt Entscheide erfinden; → F2 + [[anwendung-jans]]
+    Schritt 1). Mittelgrosser Ueberdehnungs-Gegentest fehlt weiter.
 - F2: Wie kurz darf das Ziel-Interview sein, damit es hilft statt bremst? Optimal-Laenge je
   Vorhabenstyp (Studie / Dokument / Mail / Strategie) sammeln.
   - Lektion AG-Gruendung: das Interview muss die **Ausgangslage** explizit fixieren. Hier
@@ -84,6 +91,17 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     eine **Status-Spalte je Schluesselentscheid** (bestaetigt / vorgeschlagen / offen / umgesetzt) direkt
     in der Entscheide-Tabelle statt eines separaten «Annahmen»-Abschnitts (Wettbewerbs-Layer 12.07.). Ein
     offener Entscheid gatet seine eigene Etappe → teil-bestaetigter, ungefaehrlicher Anlauf. → [[anwendung-jans]] Schritt 2.
+  - Praezisierung 15.07. (Lauf 20, Interview-Vorbereitung als eigener Deliverable-Typ): der bisher
+    implizite «zuerst die Faktenbasis ziehen»-Schritt bekommt bei einem **autonomen** Gate-Trigger
+    (Benutzer abwesend) eine eigene, belegte Form — die **Interview-Vorbereitung** `..._spec-interview.md`
+    (SYN-02, `syn02-spec-anstoss`): je Schluesselfrage steht (a) die vorgefundene **Faktenlage**
+    (Register/Schema/Generator gescannt, Spannungen zu bestehenden Rules 260624/260627/260627b benannt)
+    und (b) ein **Default-Vorschlag**, damit die Antwort im spaeteren Interview leichtfaellt und nur
+    wirklich Offenes gefragt wird. Wichtig fuer die Interview-**Laenge**: die teure Recherche wandert
+    aus dem Live-Interview **vor** das Interview — das Gespraech selbst wird kuerzer, weil je Frage
+    schon eine begruendete Voreinstellung vorliegt (E1–E9 als «bestaetigen/schaerfen» statt «von null
+    erarbeiten»). Der autonome Lauf darf **nicht** die Entscheide selbst treffen; «NICHT die Spec /
+    kein Bau vor bestaetigter Spec» ist die harte Grenze. → [[anwendung-jans]] Schritt 1.
   - Regression 13.07. (Lauf 11): die Lauf-9-Lektion «selbst-blockierte Owner-Aktion als aktive Nudge,
     nie unter nichts Neues» haelt **nicht von selbst**. Gegenpruefung 4 Tage spaeter am selben Fall
     (AG-Gruendung/Notariat): der `ag-gruendung-monitor` hat seit 10.07. **keinen Eintrag mehr** geschrieben,
@@ -148,6 +166,17 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     prueffaehiger als ein Sieg-Bericht). Die Musterlektion «autoritative Instanz muss keine Behoerde sein»
     haelt jetzt ueber drei Domaenen (Behoerde · abnehmende Bauleitung · Jury). → [[verifier]] Tabelle.
     Offen bleibt in F3 nur noch **Marketing/Text** als eigene belegte Zeile.
+  - Sechster Eintrag (2026-07-15, Lauf 20) — **noch VORGESCHLAGEN, nicht bestaetigt**: Domaene
+    **Entwurfsprozess / generative Geometrie-Pipeline** (SYN-02, Interview-Vorbereitung, E5 offen).
+    Vorgeschlagene Verifier-Zuordnung: zweite Pruefinstanz = **`flaechen-nachweis` (SIA 416) gegen das
+    Parameter-Set-Soll** (HNF/Einheit, agf_bgf_faktor) + **Baurecht-Max-Abgleich `machbarkeit`**;
+    externes Signal = **Kennwert-Bandbreite `wissen/grobkosten`** (CHF/m3 GV) + **geometrische Exaktheit**
+    (Kennzahlen gegen das Baufeld rueckgerechnet, Generator ist exakt); Texte im spaeteren Dossier =
+    `korrektur`+`twin`. Neuer Kandidat fuer «autoritative Instanz»: der **Architekt am Parti-Human-Gate**
+    (bueroeigener Mensch entscheidet die Gestalt, die Maschine liefert nur den geprueften Moeglichkeits-
+    raum) — waere die vierte Auspraegung des Musters «autoritative Instanz muss keine Behoerde sein»
+    (Behoerde · Bauleitung · Jury · **bueroeigener Entwerfer**). **Erst nach bestaetigtem E5 als volle
+    [[verifier]]-Zeile promovieren** — bis dahin nur als Pending-Notiz gefuehrt (nichts erfinden).
 
 ## Belege / Quellen
 - F4: Originalquellen verlinken/ablegen — Karpathys "LLM Knowledge Bases"-Post und Boris
