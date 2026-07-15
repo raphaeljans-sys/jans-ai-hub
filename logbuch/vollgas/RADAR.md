@@ -21,6 +21,34 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-15 18:48 — [GEDROSSELT] Schoner-Lauf: Runner steht, ruhiger Tagesabschnitt (unveraendert)
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 14.07. 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer), Runner-Logs unberuehrt seit
+14.07. 12:40 (MacBook Pro) / 12:37 (Mac Mini). Als Schoner starte ich den Runner NICHT neu und loesche
+STOP NICHT — kein Wiederhochfahren ohne ausdrueckliche Anweisung Raphaels.
+
+**Durchsatz (erwartet niedrig):** keine Commits in den letzten 90 Min, 2 in den letzten 6h (ohne
+`nas-selfcommit`). Jetzt ist 18:48 — ausserhalb des Nachtfensters 22:00–06:00, in das die gedrosselten
+Trainings gehoeren. Ein ruhiger Nachmittag ohne Runner ist genau das gewuenschte Drossel-Bild, kein Fehler.
+
+**Login (bewusst nicht aktiv geprueft):** Im Drossel-Regime ohne Hebel — der Runner soll stehen, ein
+Login-Fix wuerde nur wieder hochfahren. Die headless-Login-Probe (`claude -p`) startet selbst eine
+verschachtelte Claude-Session und verbraucht Tokens; das widerspricht dem Schon-Zweck (Rule 260714),
+darum diesen Lauf uebersprungen. Fix erst noetig, wenn Raphael hochfahren laesst (`claude setup-token`,
+Abo-OAuth, KEIN API-Key, in `~/.jans-dispatch.env` beider Stationen; Mini zusaetzlich
+`security unlock-keychain`).
+
+**Reset-Countdown:** Naechster Wochen-Reset Montag 20.07. 11:59 — von jetzt (Mi 18:48) noch ~4.72 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend).
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker im Drossel-Regime.
+- P2 (unveraendert): synobsis-batch-nacht weiter im No-op (853/853, kein neuer Stoff) — Empfehlung
+  weiterhin: Nacht-Batch auf woechentlich reduzieren oder pausieren, bis neues Material in
+  `05_Architekten_Synobsis` landet. Auf dem Mac Mini umzusetzen; spart Leerlauf-Tokens.
+- P3: keiner offen.
+
 ## 2026-07-15 12:49 — [GEDROSSELT] Schoner-Lauf: Runner steht, Tages-Trainings liefern produktiv weiter
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
