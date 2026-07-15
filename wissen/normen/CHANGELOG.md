@@ -1,3 +1,23 @@
+## 2026-07-15 — normen-training-nacht Run 14 (MacBook Pro, Scheduled Task): Q&A-Selbstbefragung der SIA/VKF-P1-Kernnormen — Vertiefungsstufe (c) fuer SIA/VKF gestartet
+Stations-Split: NUR SIA/VKF angefasst (DIN/VSS/RAL = Mac Mini, nicht beruehrt). Inventar-Check vorab:
+SIA + VKF weiterhin 0 offene `[ ]`-Positionen (Grunddestillation + Retro-Verifikation (b) seit Run 13 komplett).
+Q&A-Selbstbefragung (Vertiefungsstufe c) existierte bisher nur fuer DIN — dieser Lauf legt sie fuer die
+SIA/VKF-P1-Kernnormen an. Zugriffs-Check bestanden (NAS gemountet, PDF-Content-Read am Test-PDF SIA 451:1992 ok).
+Workflow: 10 parallele Q&A-Agenten (je 1 Norm), jeder liest das ORIGINAL-PDF, stellt 20–22 Pruefungsfragen,
+beantwortet sie unabhaengig am Original (Fundstellen-Pflicht) und gleicht gegen das Destillat ab.
+- Ergebnis: **205 Fragen, 0 sachliche Fehler** in den Destillaten — alle 10 established bestaetigt.
+- SIA 102:2020 (20 F) + SIA 416:2003 (22 F): deckungsgleich, 0 Abweichungen.
+- SIA 103:2003 (20 F, 8 Luecken), SIA 105:2020 (20 F, 6 Luecken), SIA 111:2014 (20 F, 3 Luecken),
+  SIA 112:2014 (20 F, 2 Luecken), SIA 118:1991 (21 F, 2 Luecken), SIA 451:1992 (20 F, 4 Luecken),
+  VKF Brandschutznorm 1-15 (20 F, 2 Luecken), VKF BRL 16-15 (22 F, 3 Luecken): Destillate faktisch korrekt,
+  30 Ergaenzungskandidaten (fehlende, nicht falsche Details) fuer einen kuenftigen Volldestillat-Lauf gemeldet.
+- Neuer Klaerpunkt: VKF BRL 16-15-PDF datiert im Text als **Ausgabe 2017** (IOTH-Rev. 2015/2016) — REGISTER nachziehen.
+- Nachgefuehrt: 10 neue `destillate/qa/*-fragen.md`, neuer Tracker `destillate/qa/INDEX.md`,
+  `wiki/QUESTIONS.md` (Ergaenzungskandidaten + VKF-16-15-Ausgabe), Report `outputs/2026-07-15_normen-nacht-run14.md`.
+  Keine Destillat-Korrektur noetig (0 Fehler). Kein «SIA/VKF KOMPLETT» — Stufe (c) laeuft, Ergaenzungen (a) + Synthese (d) offen.
+- Git: manueller Commit ueber SMB haengt (bekannte SMB-Latenz/Lock); die NAS-Schreibvorgaenge uebernimmt der
+  native DSM-`nas-selfcommit`-Cron (alle 15 Min, off-SMB, mit pull/push) — dokumentiertes Sicherheitsnetz.
+
 ## 2026-07-14/15 — normen-training-mini Run 29 (Mac Mini, Intensiv-Lauf auf Zuruf): Q&A-Selbstbefragung Rest-DIN/VSS/RAL komplett — Vertiefungsstufe (c) DIN/VSS/RAL abgeschlossen
 Auftrag Raphael: EIN Intensiv-Lauf, NUR Familien DIN/VSS/RAL (Stations-Split, SIA/VKF nicht angefasst).
 Inventar-Check: DIN/VSS/RAL-Grunddestillation weiterhin 0 offene `[ ]`-Positionen. Fortsetzung Vertiefungsstufe (c)

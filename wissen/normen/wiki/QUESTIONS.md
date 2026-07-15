@@ -1,5 +1,21 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+- [ ] **Q&A-Selbstbefragung SIA/VKF-P1 (Run 14, 2026-07-15) — 30 Ergaenzungskandidaten:**
+  Alle 10 P1-Kernnormen (SIA 102/103/105/111/112/118/416/451, VKF Brandschutznorm 1-15,
+  VKF BRL 16-15) durch je 20–22 am Original beantwortete Pruefungsfragen gegengeprueft:
+  **0 sachliche Fehler**, alle established bestaetigt. Gemeldete Luecken (Destillate korrekt,
+  aber unvollstaendig) als Ergaenzungskandidaten fuer einen kuenftigen Volldestillat-Lauf:
+  SIA 103 (mittlere-Stundenansaetze-Formel H=Tt·h·a + Anforderungsfaktoren, Kuendigung-zur-
+  Unzeit-Zuschlag 10 %, CHF-100'000-Schwelle, Erhaltung +0,2–0,6, ARGE 5 %, 10-J-Verjaehrung),
+  SIA 105 (Phasengliederung/Leistungsmodell, Genauigkeitsgrade ±15 %/±10 %, CHF-100'000-Schwelle),
+  SIA 118 (Art. 177 Schlusspruefung/Beweissicherung, Art. 155 Abs. 2 Nachfrist 1 Monat),
+  SIA 112 (Verweis SIA 469 + SIA 269/2 in Modulen 532.2/622/632), SIA 451 (Feld 20 Laufnummer,
+  Header-Felder 11/12, Schlussrecord-Datum TTMMJJ), VKF 16-15 (Personenbelegungs-/Treppen-/
+  Tuerverschluss-Kennwerte im Anhang). Volltext-Fundstellen je Norm in `destillate/qa/*-fragen.md`.
+- [ ] **VKF BRL 16-15 — Ausgabe klaeren (Run 14):** Der Q&A-Agent liest im PDF
+  `16-15_rev2016_flucht_und_rettungswege.pdf` die **Ausgabe 2017** (inkl. IOTH-Revisionen
+  2015/2016). REGISTER/Inventar fuehren die Datei ohne klares Ausgabejahr — Ausgabe-Feld
+  am Original verifizieren und in REGISTER nachtragen (2017 statt 2015/2016).
 - [x] Gültigkeitsstand der Verzeichnisse — **beantwortet 11.07.2026 (Run 1):**
   `ersetzte_normen.pdf` = SIA-Rückzugs-/Ersatz-Register, **Stand 25.02.2013**;
   `Gesamtverzeichnis SIA.pdf` = Produkt-/Preiskatalog **~2002** (kein Gültigkeitsregister).

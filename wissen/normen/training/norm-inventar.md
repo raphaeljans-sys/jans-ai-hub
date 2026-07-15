@@ -4,6 +4,8 @@
 - **Erstellt:** 11.07.2026 (automatischer Scan) · Status-Pflege durch den Loop
 - Status-Spalte: `[ ]` offen · `[x] JJMMTT` destilliert · `—` übersprungen (Grund in Bemerkung)
 - Priorität: P1 = Skill-Kernnormen (zuerst), P2 = übrige SIA de, P3 = DIN/VSS/RAL, — = Sprachvariante/alt
+- Vertiefungsstufe (c) Q&A-Selbstbefragung: Stand/Abdeckung in `destillate/qa/INDEX.md`
+  (SIA/VKF-P1-Kernnormen abgesichert 260715, Run 14 — 205 Fragen, 0 Fehler).
 
 ## SIA (391 Dateien)
 
