@@ -3,6 +3,36 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260715 (twin-fragesteller, aus Fidelity-Review 2026-07-15)
+
+Quelle: Drift-Report `outputs/2026-07-15_fidelity.md` (Gesamt-Fidelity 87; zwei frische authentische
+Goldproben aus dem Bopp-Faden 24.10.2025 + Wartstrasse-8-Statusmail 01.12.2025). Je in 1–2 Sätzen
+beantwortbar.
+
+1. **Opener-Mirroring über «Hallo» hinaus — spiegelst Du JEDEN Anrede-Opener des letzten Eingangs?** In
+   der Bopp-Mail (24.10.2025) antwortest Du auf sein «Hallo Raphael» mit «Hallo Christoph» — obwohl Bopp
+   sonst «Geschätzter/Hoi/Lieber» ist. Greifst Du dieses Spiegeln des exakten Anrede-Worts auch bei anderen
+   Openern (Gegenüber schreibt «Hey <Name>» → «Hey», «Grüezi» → «Grüezi», «Guten Morgen» → «Guten Morgen»),
+   oder ist «Hallo» der einzige Fall, wo Du vom Default «Hoi» auf den gespiegelten Opener wechselst?
+   *Warum: bestätigt/begrenzt ein potenziell sehr generelles Anrede-Prinzip (spiegeln bis aufs Wort) — 2
+   Belege würden es zur festen Regel heben.* → [[beziehungsregister]], [[stimme]]
+2. **«vtl.» vs «vll.» (vielleicht) — zwei bewusste Schreibvarianten oder blosse Tippvarianz?** Du schreibst
+   «vtl.» (Bopp, 24.10.2025) neben dem sonst belegten «vll.». Sind das für Dich einfach zwei austauschbare
+   Kurzformen desselben Worts (Tagesform), oder benutzt Du sie in unterschiedlichen Kontexten? *Warum:
+   klärt, ob der Zwilling beide Formen frei einsetzen darf.* → [[stimme]]
+3. **Gruppierte «_ »-Punkteliste mit Leerzeilen-Blöcken — bewusste thematische Gliederung?** In der Bopp-
+   Telefon-Traktandenliste trennst Du die Punkte durch Leerzeilen in Blöcke (Aussen-/Garagenparkplätze ·
+   Keller-/Estrichräume · SIA-416-Flächen), statt sie linear zu listen. Gliederst Du «_ »-Listen bewusst
+   thematisch in Leerzeilen-getrennte Blöcke, sobald mehr als ~4 Punkte zusammenkommen, oder war das hier
+   Zufall? *Warum: präzisiert, ob der Zwilling längere «_ »-Listen thematisch clustern soll.*
+   → [[arbeitsweise]], [[stimme]]
+4. **«Hallo» statt «Hoi» — nur gespiegelter Opener, oder senkt eine nüchtern-koordinative Rückfrage die
+   Anrede generell auf das neutralere «Hallo»?** Die Bopp-Mail ist sachlich-nüchtern (Referenz akzeptiert,
+   Telefon-Traktanden), nicht warm. Wählst Du «Hallo» hier WEIL Bopp so eröffnet hat, oder weil eine rein
+   koordinative, unpersönliche Rückfrage im Du generell eine Spur neutraler («Hallo») statt herzlich
+   («Hoi»/«Lieber») ausfällt? *Warum: trennt den Spiegel-Trigger vom Tonlage-Trigger — beide würden hier
+   «Hallo» erklären.* → [[beziehungsregister]], [[stimme]]
+
 ## Offen — Runde 260714j (twin-fragesteller, aus Fidelity-Review 2026-07-14j)
 
 Quelle: Drift-Report `outputs/2026-07-14j_fidelity.md` (Gesamt-Fidelity ~86; frische Live-Goldprobe

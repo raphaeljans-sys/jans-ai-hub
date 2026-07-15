@@ -122,7 +122,9 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   rein privat-sozial mit Mundart-spiegelndem Gegenüber→Mundart («Grüzi liebi …», «Liebe Gruess»),
   Fachplaner/extern→Sie, kalt→Sehr geehrte); Behörde nach Vertrautheit (bekannt→Geschätzte/r,
   unbekannte Fachstelle→Sehr geehrte/r, Service→Grüezi, gestapelt bei mehreren Adressaten);
-  Anrede mit wachsender Vertrautheit nachziehen (Geschätzte/r → Liebe/r); bei Sammelpostfach
+  Anrede mit wachsender Vertrautheit nachziehen (Geschätzte/r → Liebe/r); den Opener des letzten
+  Eingangs spiegeln (Du-Kontakt eröffnet «Hallo <Vorname>» → «Hallo <Vorname>» zurück, statt Default
+  «Hoi», auch beim Geschäfts-Du-Stammpartner); bei Sammelpostfach
   die Person im Betreff adressieren («z.H. <Name>, <Rolle>»); in Gruppenmails je Empfänger
   korrekt mischen — bei kurzen koordinativen Team-/Pendenz-Mails Handlungsauftraege an einzelne
   Mitempfaenger per «@Name» direkt im Fliesstext adressieren statt gestapeltem Anrede-Kopf;
