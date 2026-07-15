@@ -5,6 +5,36 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-15
+
+- **RADAR-LAUF — mit Briefing.** Register gegen bexio (`--verzug`), Kalender (bis 22.07.),
+  Mail-Eingang UND Sent Items (14.07. 05:00 → 15.07. frueh, eingehend↔ausgehend gepaart) und
+  Sync-/Remote-Queues abgeglichen.
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall — RE-00087 (Kispi, CHF 15'000),
+  **Mahnung 2**, Zahlfrist **HEUTE 15.07.2026**, **90 Tage** ueberfaellig, kein Eingang. Naechste Stufe
+  erst nach Fristablauf.
+- **Sehr produktiver RJ-Tag 14.07. — mehrere offene Punkte durch Sent Items belegt geloest:**
+  (1) **SBB-Vordach-Vereinbarung Thalwil 2414 RAUS** — RJ sendet 14.07. 10:36 die nach Bauherren-
+  Ruecksprache durchgesehene + ergaenzte Vereinbarung an T. Wiedmer (SBB), Cc Tschopp → die seit
+  02.07. offene JANS-Aktion ist erledigt; naechster Schritt SBB-Unterzeichnung (beobachten).
+  (2) **KISPI private Kontrolle Lueftung — Kontrolleur-Wechsel:** RJ laedt 14.07. 09:47+10:00 neu
+  **3-plan (Stefan van Velsen) ueber die EVEN-Plattform** als privaten Kontrolleur EN105/EN110 ein
+  (Scherbl faellt ab 15.07. aus) und liefert die Bauentscheid-Unterlagen. **ABER van Velsen Auto-
+  Antwort: Ferien bis 03.08.** → Kontrolle laeuft ueber 3-plan, bearbeitbar erst ab 03.08.
+  (3) **KISPI Schiebetueren ST1/ST2:** Spezifikation fixiert (ST1 motorisiert / ST2 Kabelzug),
+  S1-EI30 bestaetigt; Jegen liefert Prinzippläne, RJ leitet sie zur KISPI-Freigabe weiter, Wuersch
+  bestaetigt «Korrekt» → laeuft, RJ treibt es.
+- **NEU/beobachten:** Saumstrasse 21 Geschirrspueler jetzt Konkurrenz (reap-Offerte neben Fust,
+  RJ Kampfangebot verlangt + Fotos geliefert); Waschtuerme-Offerte reap an Staehelin; Sanitaerplaene-
+  Vorlage an KISPI raus; Thalwil-Plangrundlagen (Gemeinde Steiger) an Tschopp weitergeleitet;
+  SYN-02 Spec vorbereitet, Interview auf Zuruf (Task 20.07.).
+- **Kalender bis 22.07. leer.** Sync-/Remote-Queues leer (nur automatischer NAS-Self-Commit).
+- **Token gestern (14.07.):** MacBook 693.8 Mio. (~517 USD) + Mini 1'034.3 Mio. (~473 USD) =
+  ~1'728 Mio. (~990 USD Aequivalent).
+- **Briefing an rj@ versendet.**
+
+---
+
 ## 2026-07-14
 
 - **RADAR-LAUF — mit Briefing.** Register gegen bexio (`--verzug`), Kalender (bis 21.07.),

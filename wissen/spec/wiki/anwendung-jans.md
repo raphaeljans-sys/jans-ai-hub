@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-15
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
@@ -52,6 +52,19 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    dokumentierte «Erosion» der manuellen Ordner-Kontierung 2022→2026 begruendete direkt das
    neue System). Die Spec fuehrt dafuer einen eigenen Abschnitt **«Ist-Zustand (Scan)»** vor
    den Schluesselentscheiden.
+   **Autonomer Schritt-1-Deliverable — die «Interview-Vorbereitung» (Lektion SYN-02 15.07.):**
+   Triggert das Gate, waehrend Raphael **nicht anwesend** ist (Scheduled Task, hier
+   `syn02-spec-anstoss` fuer den typologischen Entwurfsprozess), ist der korrekte Output **nicht**,
+   die Schluesselentscheide selbst zu erfinden und loszubauen — sondern **Schritt 1 vorzubereiten**:
+   die Schluesselfragen (E1…En) mit **je Frage bereits recherchierter Faktenlage + Default-Vorschlag**,
+   ausdruecklich als «Dies ist NICHT die Spec» markiert und mit «kein Bau vor bestaetigter Spec»
+   abgeschlossen (Start «auf Zuruf»). Das ist die saubere Aufloesung der Spannung «Spec verlangt
+   bestaetigte Entscheide» ↔ «autonomer Lauf ohne Benutzer»: die Maschine leistet die teure
+   Vorarbeit (Register/Schema/Generator scannen, Spannungen zu bestehenden Rules benennen, je
+   Entscheid einen Default herleiten), damit im spaeteren Interview **nur wirklich Offenes** gefragt
+   wird — genau die «zuerst die Faktenbasis ziehen»-Vorgabe der Rule, hier vollstaendig ausgefuehrt.
+   Das Format reift damit zu einem eigenen Zwischen-Artefakt `..._spec-interview.md` (Vorstufe der
+   `..._spec.md`).
 2. **Agil** — `TaskCreate`-Checkliste, enge Scopes, Checkpoints, Review je Block.
    Die Spec ist ein **lebendes Dokument**: kippt ein Schluesselentscheid spaeter, wird er
    im **Schluesselentscheide-Abschnitt selbst** korrigiert (nicht nur als Log-Zeile angehaengt)
