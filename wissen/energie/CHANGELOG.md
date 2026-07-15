@@ -2,6 +2,9 @@
 
 Neueste zuoberst.
 
+## 2026-07-15 — Wissens-Chef Run 5 (Cross-KB): Querbezug KB planungsgrundlagen (PV-EIV-Doppelspur)
+- [link] `destillate/pv-einmalverguetung-bund-bfe.md`: neuer «Querbezug KB planungsgrundlagen»-Block. Die angewandte Wirtschaftlichkeits-/Amortisationsseite (EFH-Fall, Eigenverbrauch-Hebel) liegt in `wissen/planungsgrundlagen` → `energie-betriebsenergie-pv-wirtschaftlichkeit` §2/§3; Fuehrung der EIV-Saetze/Systematik bleibt hier (established). Kein Widerspruch (Saetze konsistent: integriert 400 / angebaut 200 CHF/kW seit 1.1.2025). Bericht: koordination/outputs/2026-07-15_wissens-chef-run5.md.
+
 ## 2026-07-15 — Run 72 (zweiter Intensiv-Lauf am selben Tag, vier Hintergrund-Agenten erfolgreich)
 - [meta] Zweiter Energie-Intensivlauf des Tages auf ausdrücklichen Wunsch Raphaels. Anders als
   Run 71 liefen diesmal alle vier parallel gestarteten Rechercheagenten (general-purpose,

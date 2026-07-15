@@ -215,7 +215,12 @@ Sicherung:
 Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S. 751–769):
 
 - **Wasserversorgung:** die Gemeinde stellt Trinkwasser in einwandfreier Qualität, genügendem Druck
-  und ausreichender Menge bereit (§ 27 WWG). **Löschwasser** ist eine Erschliessungs-Teilanforderung:
+  und ausreichender Menge bereit (§ 27 WWG). ⚠ **Aktualitäts-Flag (Wissens-Chef Run 5, 2026-07-15):**
+  das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** wurde per **1.6.2026 durch das neue
+  Wassergesetz WsG vom 12.12.2022 abgelöst** (§ 126 WsG, explizite Aufhebung; primärquellen-belegt in
+  `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). Die hier aus dem Standardwerk
+  (6. Aufl. 2019) übernommenen WWG-§§ sind auf ihre WsG-Entsprechung zu prüfen; das §-Mapping ist noch
+  offen (WsG-/WsV-Volltext). **Löschwasser** ist eine Erschliessungs-Teilanforderung:
   Hydranten so, dass jedes Gebäude mit **max. 100 m Schlauch** erreicht wird; in Wohn-/Arbeitszonen
   einmaschig zulässig, dann **max. 60 m**; in Gewerbe-/Industriezonen ist einmaschig unzulässig
   (§ 16 FeuerwehrV, S. 751 f.). In **Grundwasserschutzzonen S1/S2/S3** gelten Nutzungs-

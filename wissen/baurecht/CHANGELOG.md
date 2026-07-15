@@ -4,6 +4,9 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-15 — Wissens-Chef Run 5 (Cross-KB): WWG→WsG-Aktualitaets-Flag
+- [flag] `wiki/baureife-und-erschliessung.md` (§ 236 PBG Versorgung, § 27 WWG Wasserversorgung): Aktualitaets-Flag gesetzt — das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** wurde per **1.6.2026 durch das neue Wassergesetz WsG vom 12.12.2022 abgeloest** (§ 126 WsG, explizite Aufhebung; primaerquellen-belegt in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). KEINE §-Umbenennung — die aus dem Standardwerk (6. Aufl. 2019) uebernommenen WWG-§§ bleiben quellentreu, das §-Mapping WWG→WsG ist offen (Bring-Schuld WsG-/WsV-Volltext). Buecher-Destillate (band-2/12, /15, /20) unangetastet (quellentreu zum 2019-Werk). Bericht: koordination/outputs/2026-07-15_wissens-chef-run5.md.
+
 ## 2026-07-15 — Buch-Run 46 (Phase 3, Modell-D — die 2 letzten offenen Flags als Zitierfehler entlarvt; VERIFIKATIONS-RUECKSTAND ABGEBAUT)
 - [beschafft] `raw/260715_amtlich_zh_vrg_beschwerde.md`: amtlicher VRG-Volltext §§ 19/19a/20/20a/21/21a/21b/41/42/43/44/49/50/52/53 (zhlex-PDF, Stand 1.7.26-133). **Befund: kein § 50a VRG** (Sequenz § 49→§ 50→§ 51 aufgehoben→§ 52).
 - [beschafft] `raw/260715_amtlich_ch_lsv-es.md`: amtlicher LSV-Volltext Art. 43/44 (Empfindlichkeitsstufen ES I-IV, Fedlex, Stand 1.11.2023).

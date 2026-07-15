@@ -3,6 +3,24 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-15 — Run 5 (gedrosselter Inline-Lauf, Rule 260714; 2 Nahtstellen am neuen Run-46/49/72-Stoff)
+- Inline-Pruefung (kein Fan-out, drossel-konform) der seit Run 4 neu gewachsenen ueberschneidungs-
+  gefaehrdeten Nahtstellen (energie Run 72 Grundwasser/PV; planungsgrundlagen Run 49 GreenPV/ZSV;
+  baurecht Run 46 LSV/Rechtsschutz).
+- **energie ↔ planungsgrundlagen (PV-Einmalverguetung):** Doppelspur bestaetigt — planungsgrundlagen
+  `energie-betriebsenergie-pv-wirtschaftlichkeit` §1 leitet die EIV-Foerdersystematik nochmals her, die
+  energie `pv-einmalverguetung-bund-bfe` (established) fuehrend traegt. 0 Sachwiderspruch (Saetze
+  konsistent). → bidirektionale Querbezuege gesetzt; §1-Trim als offen markiert.
+- **baurecht/planungsgrundlagen ↔ energie (WWG→WsG):** Veraltet-Cross-KB bestaetigt — beide zitieren das
+  ZH-WWG (1991) als geltend, energie belegt primaerquellen die Abloesung durch das WsG (12.12.2022) per
+  1.6.2026 (§ 126 WsG). → Aktualitaets-Flags in 2 current-Rechtslage-Wiki-Artikeln (baurecht
+  `baureife-und-erschliessung`, planungsgrundlagen `recht-norm-regenwasser-gewaesserraum-zh`); Buecher-
+  Destillate quellentreu unangetastet.
+- Beide Befunde primaerquellen-/quervergleich-verifiziert. **Offene Punkte (nicht autonom):** (a) §1-Trim
+  planungsgrundlagen PV; (b) WsG-Volltext + §-Mapping WWG→WsG, dann current-Rechtslage-§§ nachziehen +
+  planungsgrundlagen `kartenportale-naturgefahren-objektschutz` (§ 22 WWG) flaggen. **KEINE offenen
+  Entscheide fuer Raphael** (nur Loop-/Bring-Schulden). Bericht: outputs/2026-07-15_wissens-chef-run5.md.
+
 ## 2026-07-15 — SYN-02 Spec-Interview vorbereitet (Task `syn02-spec-anstoss`)
 - Spec-Schritt 1 (Ziel aufdecken) fuer den typologischen KI-Entwurfsprozess vorbereitet:
   Interview-Entwurf mit 9 Schluesselfragen (E1–E9, je mit recherchierter Faktenlage +

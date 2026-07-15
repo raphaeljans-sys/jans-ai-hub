@@ -80,6 +80,13 @@ und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt 
   Neigungsbonus — verbindlich bleibt allein der **Pronovo-Tarifrechner** (Stichtag = Inbetriebnahme).
   Daher hier KEINE feinere CHF-Aufschluesselung uebernommen (Leitplanke: nicht schaetzen).
 
+## Querbezug KB planungsgrundlagen (Wissens-Chef Run 5, 2026-07-15)
+Die **angewandte Wirtschaftlichkeits-/Amortisationsseite** (realer EFH-Fall, Eigenverbrauch-vs.-
+Einspeisung-Hebel, ~7 J Amortisation) fuer Machbarkeit/Erstgespraech steht in `wissen/planungsgrundlagen`
+→ `energie-betriebsenergie-pv-wirtschaftlichkeit` (§2/§3). **Fuehrung:** die EIV-Saetze/Systematik bleiben
+hier (energie, established); planungsgrundlagen verweist dorthin. Doppelspur der EIV-Systematik im dortigen
+§1 ist markiert und zum Verschlanken vorgemerkt.
+
 ## Offene Punkte / Folgelaeufe
 - Aktuelle **CHF/kWp je Anlagengroesse** (EFH ↔ MFH ↔ Grossanlage) beim naechsten Lauf direkt am
   Pronovo-Tarifrechner (Eingabe einer Beispielanlage) verifizieren — frei, aber interaktiv.

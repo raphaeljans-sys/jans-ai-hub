@@ -85,7 +85,11 @@ Sorgfalts-/Verursacherprinzip), **GSchV** (28.10.1998), BGF Fischereigesetz
 fuer Vorkehren, welche Guete/Wassermenge eines Gewaessers veraendern koennen),
 GSchV-ZH (22.1.1975), **WWG** (2.6.1991, regelt Hochwasserschutz/
 Wasserbaupolizei/Gewaessernutzung/Wasserversorgung; § 18 kantonale
-Bewilligung fuer bauliche Veraenderungen an Oberflaechengewaessern), **HWV**
+Bewilligung fuer bauliche Veraenderungen an Oberflaechengewaessern
+— ⚠ **das WWG wurde per 1.6.2026 durch das neue Wassergesetz WsG vom
+12.12.2022 abgeloest**, § 126 WsG explizite Aufhebung, primaerquellen-belegt
+in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`; §-Mapping
+WWG→WsG noch offen, Wissens-Chef Run 5, 2026-07-15), **HWV**
 (14.10.1992, regelt bauliche Veraenderungen/Eingriffe an
 Oberflaechengewaessern insb. Bewilligungspflicht bei
 Regenwassereinleitungen).

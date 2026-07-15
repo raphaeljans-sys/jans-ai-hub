@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-15 — Wissens-Chef Run 5 (Cross-KB): PV-EIV-Doppelspur geflaggt + WWG→WsG-Aktualitaets-Flag
+- [link] `wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md`: «Querbezug KB energie (fuehrend)»-Block vor §1. Die EIV-Foerdersystematik/Saetze sind kanonisch in `wissen/energie` → `pv-einmalverguetung-bund-bfe` (established) + `pv-marktzahlen-kosten-ch-2025`; §1 hier ist Doppelspur und zum Verschlanken vorgemerkt (Trim = Umstrukturierung, NICHT autonom). Kein Sachwiderspruch.
+- [flag] `wiki/recht-norm-regenwasser-gewaesserraum-zh.md`: Aktualitaets-Flag am WWG-Verweis — das ZH-WWG (1991) wurde per 1.6.2026 durch das Wassergesetz WsG vom 12.12.2022 abgeloest (§ 126 WsG, primaerquellen-belegt in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). §-Mapping WWG→WsG offen. Keine §-Umbenennung vorgenommen (Bring-Schuld WsG-Volltext). Bericht: koordination/outputs/2026-07-15_wissens-chef-run5.md.
+
 ## 2026-07-15 — Training Run 49 (Recht/Norm + Energie, Token-Vollgas, 2 Domaenen): Zeitstempel-Scan foerdert Mehrwertrevers-Systematik + ZSV-Bemessungsschluessel zutage, GreenPV-Fassaden-PV-Benchmark schliesst Run-40-Backlog
 - **Standard-Schritt-0 (Empfehlung Run 48) erstmals angewendet:** `find -newermt` ueber alle vier
   PL-Ordner (10-Tage-Fenster) foerderte sechs bisher nie ausgewertete Volltext-Dateien zutage,

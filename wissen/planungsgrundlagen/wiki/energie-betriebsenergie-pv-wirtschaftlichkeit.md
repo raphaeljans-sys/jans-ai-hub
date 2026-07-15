@@ -15,6 +15,15 @@ KLEIV-Ansaetze» mit belegter Foerdersystematik. Der reale **Betriebskosten-/Amo
 (EFH 1957, PV + Batterie + WP-Boiler, ~7 J Amortisation) steht dort und wird hier **nicht
 wiederholt**, sondern nur als Groessenordnung referenziert.
 
+> **Querbezug KB `energie` (fuehrend fuer die EIV-Foerdersystematik — Wissens-Chef Run 5, 2026-07-15):**
+> Die EIV-**Foerdersystematik und die konkreten CHF/kWp-Saetze** (KLEIV/GREIV/HEIV, Grund-/Leistungs-
+> beitrag, Boni) sind kanonisch im Destillat `wissen/energie` → `pv-einmalverguetung-bund-bfe`
+> (status established, BFE-Faktenblatt-basiert) sowie `pv-marktzahlen-kosten-ch-2025` gefuehrt. §1
+> hier ist eine **Doppelspur** und soll bei naechster Ueberarbeitung auf die Wirtschaftlichkeits-/
+> Machbarkeits-Anwendung (§2/§3) verschlankt werden, mit Verweis auf das energie-Destillat statt
+> Neuherleitung der Saetze. Kein Sachwiderspruch (Saetze konsistent: integriert 400 / angebaut 200
+> CHF/kW seit 1.1.2025).
+
 ## 1 — Pronovo-Einmalverguetung (EIV): die Foerdersystematik (Stand 2026-07)
 
 Die **Einmalverguetung (EIV)** ist der einmalige Bundesbeitrag an PV-Anlagen; Vollzug durch die

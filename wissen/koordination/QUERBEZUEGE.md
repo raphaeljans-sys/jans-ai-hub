@@ -20,6 +20,32 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ planungsgrundlagen (PV-Einmalverguetung/Wirtschaftlichkeit) — geprueft 2026-07-15 (Run 5)
+- **Befund:** **Doppelspur bestaetigt** — beide KBs fuehren die Pronovo-EIV-Foerdersystematik.
+  energie `pv-einmalverguetung-bund-bfe` (established, BFE-Faktenblatt) ist die autoritative Quelle;
+  planungsgrundlagen `energie-betriebsenergie-pv-wirtschaftlichkeit` §1 (emerging, 07-14) leitet sie
+  ohne Cross-Link nochmals her (KLEIV/GREIV/HEIV, Grund-/Leistungsbeitrag, Neigungs-/Parkflaechenbonus).
+  **KEIN Sachwiderspruch** (Saetze konsistent: integriert 400 / angebaut 200 CHF/kW seit 1.1.2025,
+  Deckel 30 %). §2/§3 (Amortisation EFH-Fall, Eigenverbrauch-Hebel) sind **komplementaer**, nicht in
+  energie — bleiben in planungsgrundlagen.
+- **Aktion:** bidirektionale Querbezuege gesetzt (planungsgrundlagen §1 → energie als fuehrend;
+  energie → planungsgrundlagen fuer die Wirtschaftlichkeits-Anwendung). §1-Trim als offen markiert
+  (Umstrukturierung, NICHT autonom). **Status: verlinkt/geflaggt; 1 offener Trim (planungsgrundlagen §1).**
+
+### baurecht ↔ planungsgrundlagen ↔ energie (WWG → WsG Aktualitaet) — geprueft 2026-07-15 (Run 5)
+- **Befund:** **Veraltet-Cross-KB bestaetigt.** baurecht (`baureife-und-erschliessung`, § 27 WWG) und
+  planungsgrundlagen (`recht-norm-regenwasser-gewaesserraum-zh` § 18 WWG; auch `kartenportale-natur-
+  gefahren-objektschutz` § 22 WWG) fuehren das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** als
+  geltend. energie (`grundwasserwaermenutzung-bewilligung-zh-sz`, 07-15, primaerquellen-verifiziert)
+  belegt: das WWG wurde **per 1.6.2026 durch das Wassergesetz WsG vom 12.12.2022 abgeloest** (§ 126 WsG,
+  explizite Aufhebung; §§ 48/74/96/126 WsG Volltext gelesen). Heute (15.07.) bereits geltendes Recht.
+- **Aktion:** Aktualitaets-Flags in baurecht `baureife-und-erschliessung` + planungsgrundlagen
+  `recht-norm-regenwasser-gewaesserraum-zh` gesetzt (WWG-§§ nicht umbenannt — quellentreu 2019-Werk).
+  Buecher-Destillate baurecht (band-2/12, /15, /20) bewusst unangetastet (quellentreu). **Offen (nicht
+  autonom, Bring-Schuld):** WsG-/WsV-Volltext beschaffen, §-Mapping WWG→WsG erstellen, dann die
+  current-Rechtslage-Wiki-§§ nachziehen; planungsgrundlagen `kartenportale-naturgefahren-objektschutz`
+  (§ 22 WWG) noch zu flaggen. **Status: geflaggt; §-Mapping + 1 weiteres Flag offen.**
+
 ### normen ↔ energie (SIA 2024, SIA 382/1) — geprueft 2026-07-14 (Run 4)
 - **Befund:** 0 Widersprueche. **Veraltetes 2x — der FUEHRENDE KB normen ist ueberholt:** (1) SIA 2024 —
   normen REGISTER Z.266 fuehrt **2006**, energie fuehrt **SIA 2024:2021** (inkl. Korrigenda C1:2024); (2)
