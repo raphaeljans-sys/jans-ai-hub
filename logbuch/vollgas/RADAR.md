@@ -21,6 +21,36 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-15 07:26 — [GEDROSSELT] Schoner-Lauf: Runner steht, Nachtfenster-Trainings produktiv (real Fortschritt ueber Nacht)
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 14.07. 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer), Runner-Logs unberuehrt
+seit 14.07. 12:40 (MacBook Pro) / 12:37 (Mac Mini). Als Schoner starte ich den Runner NICHT neu und
+loesche STOP NICHT.
+
+**Gedrosselte Trainings greifen — Beleg:** Die geplanten Nacht-/Tag-Tasks arbeiten ohne Runner
+produktiv weiter. Scheduled-Task-Commits der letzten 12h (ohne `nas-selfcommit`): Normen Mini-Run 28
++ 29 (Q&A-Selbstbefragung Rest-DIN/VSS/RAL), baurecht-buch Run 45 (Modell-D, § 220 Abs. 2 / KNHV § 13
+/ USG Art. 32d, Rueckstand abgebaut), Energie-KB Run 70 (VHKA + SZ-Fernwaerme/Netzanschluss, GEAK-
+Foerder-Korrekturen, FAQ F82/F83), twin-mail-training, synobsis Nacht-Batch (853/853, kein neuer
+Stoff). Das ist genau das gewuenschte gedrosselte Bild: Fortschritt aus den Tasks, kein Dauer-Runner.
+
+**Login (unveraendert, unkritisch):** headless-Login-Test (`claude -p --model haiku`) auf dem
+MacBook Pro erneut ohne Antwort (haengt/`Not logged in`). Im Drossel-Regime bewusst kein Hebel — der
+Runner soll stehen; ein Fix wuerde nur wieder hochfahren. Kein neuer P1, keine Mail. Der Login wird
+erst gebraucht, wenn Raphael ausdruecklich hochfahren laesst (`claude setup-token`, Abo-OAuth,
+KEIN API-Key, in `~/.jans-dispatch.env` beider Stationen; Mini zusaetzlich `security unlock-keychain`).
+
+**Reset-Countdown:** Naechster Wochen-Reset Montag 20.07. 11:59 — von jetzt (Di 07:26) noch ~5.2 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend).
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker im Drossel-Regime.
+- P2: synobsis-batch-nacht laeuft seit 02.07. im No-op (853/853, kein neuer Stoff) — den Nacht-Batch
+  pausieren oder auf woechentlich reduzieren, bis neues Material in `05_Architekten_Synobsis` landet
+  oder Raphael eine Stufe-3-Kuratierung freigibt. Spart Leerlauf-Tokens ohne Erkenntnisgewinn.
+- P3: Feinschliff keiner offen.
+
 ## 2026-07-15 00:51 — [GEDROSSELT] Schoner-Lauf: Runner gestoppt, Nachtfenster-Trainings greifen, Reset-Countdown korrigiert (~5.5 Tage)
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
