@@ -5,7 +5,7 @@ ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung a
 gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Primär-Medienmitteilung endk.ch referenziert, nicht direkt volltext-gelesen)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-15
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
@@ -85,6 +85,16 @@ aber die konkreten kg-Zahlen sind mit Vorbehalt (⚠ nicht am Original verifizie
   Auftrag Netzbetreiber), siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`. Ob/wann die
   volle MuKEn-2025-Übernahme (Fossilverbot, 20-W/m²-PV-Pflicht, Graue-Energie-Modul Teil G) als
   eigene ZH-Vorlage folgt, ist weiterhin offen. Stand Kt. SZ unveraendert offen.
+- **Allgemeiner Umsetzungsfahrplan ergänzt 2026-07-15** (energiehub-gebaeude.ch, offizielles
+  MuKEn-2025-Musterwerk, keine kantonsspezifischen Angaben): der EnDK-Terminplan **zielt auf eine
+  Umsetzung der MuKEn 2025 in allen Kantonen bis 2030**. Modul-Systematik bestätigt: **Basismodul
+  ist für alle Kantone Pflicht** (setzt die bundesrechtlichen Minimalvorgaben nach Art. 45 Abs. 2/3
+  EnG um), die **Module 2–14 sind für jeden Kanton optional** — werden sie übernommen, müssen sie
+  aber unverändert bleiben (keine kantonale "Rosinenpickerei" innerhalb eines Moduls). Damit bleibt
+  offen, WELCHE der optionalen Module (insb. das neue Graue-Energie-Modul, vermutlich Teil eines
+  optionalen Moduls, nicht des Basismoduls) ZH/SZ übernehmen werden — kantonsspezifische
+  Übernahmeentscheide sind Stand 15.07.2026 nirgends dokumentiert auffindbar, auch nicht auf der
+  offiziellen Übersichtsseite.
 - Genaue Ausgestaltung der **25-%-Unzumutbarkeitsschwelle** (Berechnungsbasis) nicht im Detail
   recherchiert.
 

@@ -1411,6 +1411,14 @@ Kantone: Freiburg** (seit 2013, auch Neubau), **Waadt, Neuenburg** (bei Handänd
 UND Baubewilligung) **und Jura**. Für JANS-Projekte in ZH/SZ ist der GEAK also freiwillig (aber bei
 Fördergeld über 10k trotzdem Pflicht, siehe oben).
 
+**Sonderfall SZ — GEAK als Nachweisweg beim Heizungsersatz:** Wer im Kanton Schwyz eine bestehende
+Öl-/Gasheizung 1:1 ersetzt, muss den nichterneuerbaren Anteil auf 90 % eines massgebenden Bedarfs
+von **100 kWh/m²·a** (Heizung + Warmwasser zusammen) begrenzen — Nachweis wahlweise über eine
+MuKEn-Standardlösung, ein Minergie-Zertifikat **oder das Erreichen der Klasse D bei der
+GEAK-Gesamtenergieeffizienz**. Ein GEAK mit Klasse D erspart damit die technische Standardlösung.
+Befreit von dieser ganzen Anforderung sind gemischt genutzte Bauten, deren Wohnanteil 150 m²
+Energiebezugsfläche nicht überschreitet (AfU-SZ-FAQ, Stand 28.08.2025, Volltext gelesen 15.07.2026).
+
 **Quelle:** Verein GEAK / EnDK — geak.ch (Was ist der GEAK / Produkt GEAK / FAQ / Weg zum GEAK), Stand
 2026; Reglemente 01.01.2026 → `[[geak-gebaeudeenergieausweis-kantone]]`. Förderbeiträge ZH/SZ →
 `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`; GEAK-Plus-Pflicht ab 10k →
@@ -1777,6 +1785,13 @@ bei 65 m² Panelfläche, 42 % Eigenstromverbrauch und 175 m² Gebäude-EBF ergib
 umgelegter PV-Zuschlag von **1,72 kg CO₂-eq/m²EBF·a** — deutlich weniger als die Panelflächen-Zahl
 7,1 kg/m²a suggeriert, weil nur der Eigenverbrauchsanteil zu 100 % zählt, die Netzeinspeisung nur
 zu 40 %.
+
+**Ergänzung — Umsetzungsfahrplan + Modulstruktur (15.07.2026):** offizieller Terminplan der EnDK
+zielt auf eine Umsetzung in **allen Kantonen bis 2030**. Nur das **Basismodul** (bundesrechtliche
+Minimalvorgaben) ist für jeden Kanton **Pflicht** — die **Module 2–14** (u.a. das neue
+Graue-Energie-Modul) sind **optional**: ein Kanton kann sie übernehmen oder weglassen, muss sie bei
+Übernahme aber unverändert lassen. Ob und wann ZH/SZ das Graue-Energie-Modul übernehmen, ist Stand
+15.07.2026 nirgends öffentlich dokumentiert.
 
 **Quelle:** Medienmitteilung EnDK (29.08.2025) + Folgeberichte VSE/aeesuisse/energie-cluster.ch,
 drei unabhängige Quellen inhaltlich deckungsgleich → `[[muken-2025-verabschiedet]]`, established.
@@ -3086,10 +3101,12 @@ gelesen 14.07.2026. Destillat: `[[vhka-verbrauchsabhaengige-heizkostenabrechnung
 **Kurz-Antwort für den Bauherrn:** Im Kanton Zürich ja, sobald das Gebäude mindestens **3
 Nutzeinheiten** an einer zentralen Wärmeversorgung hat und das Heizungs- oder Warmwassersystem
 gesamterneuert wird — diese Nachrüstpflicht ist seit **1.9.2025** wirksam. Im Kanton Schwyz erst ab
-**5 Nutzeinheiten** und nur bei Totalsanierung. Die Messtechnik gehört damit ins Budget jedes
-Heizungsersatzes. Wichtig für die Vermietung: Die Geräte-Investition darf **nicht** in die
-Nebenkosten, sie läuft über eine Mietzinserhöhung; Ablesung und Abrechnung dagegen sind
-anrechenbare Nebenkosten.
+**5 Nutzeinheiten** und nur bei Totalsanierung — und dort **nur, wenn das Gebäude nach dem
+1.2.2001 baubewilligt wurde** (§ 25 EnV 1 SZ): ein älteres MFH fällt nach dem Gesetzeswortlaut auch
+bei einer kompletten Heizungssanierung **nicht** unter die VHKA-Pflicht. Die Messtechnik gehört
+damit ins Budget jedes Heizungsersatzes in einem jüngeren Gebäude. Wichtig für die Vermietung: Die
+Geräte-Investition darf **nicht** in die Nebenkosten, sie läuft über eine Mietzinserhöhung;
+Ablesung und Abrechnung dagegen sind anrechenbare Nebenkosten.
 
 **Fachliche Begründung:** ZH EnerG § 9 Abs. 3 samt Übergangsbestimmung (Inkrafttreten 3 Jahre nach
 der Änderung vom 26.10.2020, die am 1.9.2022 in Kraft trat); SZ EnG § 10 Abs. 1 lit. b. Mietrecht:
@@ -3099,7 +3116,8 @@ Art. 6 (Verzinsung und Abschreibung der Geräte nicht anrechenbar) — die Inves
 bei CHF 750 pro Wohnung also rund CHF 7.50 Mietzinsaufschlag pro Monat.
 
 **Quelle + Datenstand:** AWEL-Volltext EnerG per 1.9.2022; SRSZ 420.100 Stand 1.2.2025; VMWG Stand
-1.6.2020; VEWA (BFE), 5. Auflage — gelesen 14.07.2026. Destillat:
+1.6.2020; VEWA (BFE), 5. Auflage — gelesen 14.07.2026; Pre-2001-Frage über eine zweite, unabhängige
+Quelle (SVW/ASC-Kantonsvergleich) am 15.07.2026 bestätigt. Destillat:
 `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]`.
-⚠ Offen im Kt. SZ: der Prozentsatz hinter «überwiegender Teil» in der AfU-Vollzugspraxis, und ob
-ein vor dem 1.2.2001 bewilligtes MFH bei Totalsanierung ausrüstungspflichtig wird (§ 25 EnV 1).
+⚠ Weiterhin offen im Kt. SZ: der Prozentsatz hinter «überwiegender Teil» in der AfU-Vollzugspraxis
+(der Erlass selbst nennt keine Zahl).

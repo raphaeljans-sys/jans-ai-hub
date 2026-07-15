@@ -2,6 +2,41 @@
 
 Neueste zuoberst.
 
+## 2026-07-15 — Run 71 (Intensiv-Lauf auf Wunsch Raphaels, ohne funktionierende Hintergrund-Agenten)
+- [meta] Sechs geplante parallele Rechercheagenten brachen alle reproduzierbar direkt nach dem ersten
+  Werkzeugaufruf ab (Umgebungsfehler, auch nach mehrfachem Resume mit identischem Muster) — kein
+  Agenten-Ergebnis. Recherche daraufhin manuell in der Hauptsession fortgesetzt (WebSearch/WebFetch/
+  curl+pdftotext), Umfang ehrlich auf drei statt sechs Themenkomplexe reduziert.
+- [update] `destillate/vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz.md`: **Offenpunkt
+  geschlossen** — zweite unabhängige Primärquelle (SVW/ASC-Kantonsvergleich, 28.08.2023, pdftotext)
+  bestätigt § 25 EnV 1 SZ wortgleich: ausrüstungspflichtige Bauten = nur Baubewilligung NACH 1.2.2001;
+  ein älteres MFH wird demnach auch bei Totalsanierung NICHT VHKA-ausrüstungspflichtig. Bleibt
+  established. FAQ **F85** geschärft.
+- [update] `destillate/geak-gebaeudeenergieausweis-kantone.md`: AfU-SZ-FAQ (28.08.2025) diesmal per
+  pdftotext im Volltext gelesen (vorher nur Web-Snippet) — massgebender Energiebedarf für die
+  90-%-Regel/GEAK-Klasse-D-Weg = **100 kWh/m²·a**; Befreiung bei Wohnanteil ≤150 m² EBF. Bleibt
+  established. FAQ **F36** geschärft.
+- [update] `destillate/muken-2025-verabschiedet.md`: Umsetzungsfahrplan ergänzt (energiehub-gebaeude.ch,
+  offizielles Musterwerk) — EnDK-Terminplan zielt auf Umsetzung in allen Kantonen bis **2030**;
+  **Basismodul Pflicht**, **Module 2-14 optional** (bei Übernahme unveränderbar). Bleibt established.
+  FAQ **F47** geschärft.
+- [update] `destillate/fernwaerme-anschlusskosten-zh.md`: SZ-Restlücken teilweise geschlossen —
+  Küssnacht (EBL Energie Rigi) und Arth-Goldau (ECOGEN-Genossenschaft) existieren, publizieren aber
+  keine Tarife (nur Offerte, Arth-Goldau genossenschaftliches Anteilsmodell); Energieverbund
+  Einsiedeln AG 2017-Infoblatt als historische Anschlussformel gefunden (100 CHF/kW, mind. 5'000,
+  nicht aktuell verwendbar); die umstrittene «CHF 18'000/EFH 10 kW»-Zahl taucht jetzt auch bei
+  Energie Ausserschwyz auf — stützt den Verdacht einer generischen, nicht anbieterspezifischen
+  Schätzung. Bleibt emerging.
+- [update] `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`: dritter Rechercheversuch zum
+  Kantonsrat-Beratungsstand erneut ohne gesicherten Fund (bestätigte Werkzeug-Grenze kantonsrat.zh.ch,
+  JS-SPA); ein Lead («Geschäft 5921») nicht sicher zuordenbar, bewusst nicht übernommen. Bleibt emerging.
+- [update] Register: `wiki/BAUHERREN-FAQ.md` (F36/F47/F85 geschärft, FAQ-Stand unverändert 85), `wiki/INDEX.md`,
+  `destillate/INDEX.md`, `training/curriculum.md` (Block **D52**), `wiki/QUESTIONS.md` (**E74-E78**).
+- [note] Nicht erreicht in diesem Lauf (bewusst zurückgestellt, nicht stillschweigend ausgelassen):
+  Grundwasserwärmenutzung-Vertiefung, amtliche g-Wert/Uf-Wert-Tabelle CH, Förderung Ladeinfrastruktur
+  ZH+SZ — Priorität nächster Lauf.
+- [report] `outputs/2026-07-15_energie-run71.md`.
+
 ## 2026-07-14 — Run 70 (Lauf-Zusammenfassung, ERSTER GEDROSSELTER LAUF)
 - [meta] Erster Energie-Lauf unter **Rule 260714 (Tempo drosseln, Wochenlimit 81 %)**: Token-Vollgas (260712b) ist fuer die Restwoche aufgehoben, Batch bewusst von 6-10 auf **drei** Themenkomplexe zurueckgenommen. Qualitaetsleitplanken unveraendert.
 - [new] `destillate/vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz.md` (Details im Eintrag unten) — **established**; FAQ **F84/F85** neu.

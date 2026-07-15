@@ -702,3 +702,51 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   VEWA-Splitting 30/70; mietrechtliche Überwälzung geklärt. Offen: SZ-Vollzugspraxis hinter
   «überwiegender Teil» (50/60/70 %?), ob ein vor dem 1.2.2001 bewilligtes MFH bei Totalsanierung
   ausrüstungspflichtig wird (§ 25 EnV 1 vs. § 10 EnG), und ob die MuKEn 2025 das VHKA-Modul ändert.
+
+- **Run 71 (2026-07-15) — Hinweis zur Durchführung:** die sechs geplanten parallelen Hintergrund-
+  Rechercheagenten sind alle direkt nach dem ersten Werkzeugaufruf abgebrochen (Umgebungsfehler,
+  reproduzierbar auch nach mehrfachem Resume) — kein Ergebnis von den Agenten. Die Recherche wurde
+  daraufhin direkt in der Hauptsession mit WebSearch/WebFetch/curl+pdftotext nachgeholt, mit
+  reduziertem Umfang (3 statt 6 Themenkomplexe vertieft).
+
+- [x] **E74** **VHKA SZ — Vor-2001-MFH bei Totalsanierung ausrüstungspflichtig?** belegt ✓ 2026-07-15
+  (Run 71, zweite unabhängige Primärquelle: SVW/ASC-Kantonsvergleich 28.08.2023, per pdftotext
+  gegengelesen) → `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]`, FAQ **F85** geschärft.
+  § 25 EnV 1 SZ definiert «ausrüstungspflichtige Bauten im Sinne von § 10» als GANZES (nicht nur für
+  Neubauten) über die Baubewilligung nach dem 1.2.2001 — ein älteres MFH fällt demnach auch bei
+  Totalsanierung des Heizungs-/Warmwassersystems **nicht** unter die VHKA-Pflicht. Löst den in E73
+  offen gebliebenen Punkt teilweise (Wortlaut-Interpretation, AfU-Vollzugspraxis nicht bestätigt).
+  Offen bleibt: SZ-%-Praxis hinter «überwiegender Teil», MuKEn-2025-Einfluss auf VHKA.
+- [x] **E75** **GEAK-Klasse-D-Weg SZ — Bedarfsgrenze + Befreiung** belegt ✓ 2026-07-15 (Run 71,
+  AfU-SZ-FAQ 28.08.2025 im Volltext per pdftotext gelesen, vorher nur Web-Snippet) →
+  `[[geak-gebaeudeenergieausweis-kantone]]`, FAQ **F36** geschärft. Massgebender Energiebedarf für
+  die 90-%-Regel/GEAK-Klasse-D-Nachweisweg = **100 kWh/m²·a** (Heizung+Warmwasser); Befreiung bei
+  gemischter Nutzung mit Wohnanteil ≤150 m² EBF. Vertieft E72, löst den Punkt aber nicht vollständig
+  (Gesetzesartikel-Nummer des 90-%-Bedarfs bleibt offen, nur FAQ-Wortlaut).
+- [x] **E76** **MuKEn-2025-Umsetzungsfahrplan (Basismodul/optionale Module)** belegt ✓ 2026-07-15
+  (Run 71, energiehub-gebaeude.ch offizielles Musterwerk) → `[[muken-2025-verabschiedet]]`, FAQ **F47**
+  geschärft. EnDK-Terminplan zielt auf Umsetzung in allen Kantonen bis **2030**; nur das **Basismodul**
+  ist Pflicht, die **Module 2–14** (inkl. Graue-Energie-Modul) sind optional, müssen bei Übernahme aber
+  unverändert bleiben. Kantonsspezifische ZH/SZ-Übernahmeentscheide bleiben offen (nicht dokumentiert
+  auffindbar).
+- [x] **E77** **SZ-Fernwärme-Restlücken (Einsiedeln/Ausserschwyz/Küssnacht/Arth-Goldau)** teilweise
+  belegt ✓ 2026-07-15 (Run 71) → `[[fernwaerme-anschlusskosten-zh]]`. Küssnacht (EBL Energie Rigi,
+  vormals ECOGEN Rigi/AGRO Energiezentrum Rigi) und Arth-Goldau (ECOGEN Arth-Goldau Genossenschaft)
+  existieren real, publizieren aber keine Tarife (nur Offerte); Arth-Goldau nutzt ein genossenschaftliches
+  Anschlussmodell (Energieanteile statt Kaufpreis). Ein älteres (2017) Infoblatt der Energieverbund
+  Einsiedeln AG (mutmasslicher Vorläufer-Rechtsträger) nennt eine historische Anschlussformel
+  (100 CHF/kW, mind. CHF 5'000) — nicht als aktueller Preis verwendbar. Die bei zwei verschiedenen
+  SZ-Verbünden (Agro Energie Schwyz UND jetzt auch Ausserschwyz) kursierende Zahl «CHF 18'000 für
+  EFH 10 kW» bleibt an keiner Primärquelle belegt. Weiterhin offen: aktueller Anschlussbeitrag Energie
+  Einsiedeln + gesamtes Tarifwerk Energie Ausserschwyz (beide nicht publiziert), Vertragsdauern aller
+  SZ-Verbünde.
+- [x] **E78** **Kantonsrat-ZH-Solarpflicht-Beratungsstand** — dritter Rechercheversuch 2026-07-15
+  (Run 71) erneut ohne gesicherten Fund → `[[zh-energiegesetz-revision-solarpflicht-2026]]`. Bestätigte
+  Werkzeug-Grenze: kantonsrat.zh.ch ist eine JS-Single-Page-App, auch über zwei direkte Geschäfts-URLs
+  nicht per WebFetch auslesbar. Ein Lead («Geschäft 5921», Eintretensdebatte 21.10.2024) liess sich
+  nicht sicher der Botschaft vom 06.01.2026 zuordnen — bewusst nicht als Fakt übernommen.
+
+**Nicht bearbeitet in Run 71 (bewusst zurückgestellt, kein stillschweigendes Auslassen):**
+Grundwasserwärmenutzung-Vertiefung, amtliche g-Wert/Uf-Wert-Tabelle CH, Förderung Ladeinfrastruktur
+ZH+SZ — alle drei waren geplant, aber wegen des Agenten-Ausfalls und des dadurch nötigen manuellen
+Mehraufwands bei den anderen drei Themen zeitlich nicht mehr erreichbar. Priorität nächster Lauf.

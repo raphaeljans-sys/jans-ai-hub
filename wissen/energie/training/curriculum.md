@@ -191,6 +191,28 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (Art. 269d OR) → `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]` (neu, **established**),
   FAQ **F84/F85** neu.
 
+- **D52 (Run 71, 2026-07-15, ohne Hintergrund-Agenten)** — Intensiv-Lauf auf Wunsch Raphaels; die
+  sechs geplanten parallelen Rechercheagenten brachen alle reproduzierbar direkt nach dem ersten
+  Werkzeugaufruf ab (Umgebungsfehler, auch nach Resume), daher Recherche manuell in der Hauptsession
+  fortgesetzt, Umfang auf drei Themenkomplexe reduziert. **D52a VHKA SZ Pre-2001-Frage geklärt**
+  (zweite unabhaengige Primaerquelle SVW/ASC-Kantonsvergleich 28.08.2023 bestaetigt § 25 EnV 1
+  wortgleich: ausruestungspflichtige Bauten = nur Baubewilligung NACH 1.2.2001, aeltere MFH auch bei
+  Totalsanierung NICHT VHKA-pflichtig) → `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]`
+  (bleibt established, ein Offenpunkt geschlossen), FAQ F85 geschaerft. **D52b GEAK-Klasse-D-Weg SZ
+  ergaenzt** (AfU-SZ-FAQ 28.08.2025 diesmal per pdftotext im Volltext gelesen: massgebender Bedarf
+  100 kWh/m²·a, Befreiung Wohnanteil ≤150 m² EBF) → `[[geak-gebaeudeenergieausweis-kantone]]`
+  (bleibt established), FAQ F36 geschaerft. **D52c MuKEn-2025-Umsetzungsfahrplan ergaenzt**
+  (energiehub-gebaeude.ch: Zielhorizont 2030, Basismodul Pflicht, Module 2-14 optional aber bei
+  Uebernahme unveraenderbar) → `[[muken-2025-verabschiedet]]` (bleibt established), FAQ F47
+  geschaerft. **D52d SZ-Fernwaerme-Restluecken teilweise geschlossen** (Kuessnacht/Arth-Goldau
+  existieren, publizieren aber keine Tarife; Einsiedeln-2017-Altformel als historische Groessenordnung
+  gefunden, nicht aktuell verwendbar; die «CHF 18'000/10 kW»-Zahl taucht jetzt auch bei Ausserschwyz
+  auf — staerkt den Verdacht einer generischen Schaetzung) → `[[fernwaerme-anschlusskosten-zh]]`
+  (bleibt emerging). **Kantonsrat-ZH-Solarpflicht-Beratungsstand** dritter Versuch erfolglos
+  (bestaetigte Werkzeug-Grenze kantonsrat.zh.ch). **Nicht erreicht** (bewusst zurueckgestellt):
+  Grundwasserwaermenutzung-Vertiefung, amtliche g-Wert/Uf-Wert-Tabelle, Foerderung Ladeinfrastruktur
+  ZH+SZ — Prioritaet naechster Lauf.
+
 ## Block B — Nachweis & Recht (ZH)
 - [x] B1 ZH-Energienachweis EN-ZH: welches Formular wann — belegt 2026-06-07 via EN-ZH-005
   → `[[energienachweis-zh]]` (FAQ F12). ⚠ Vollzug seit 1.1.2026 elektronisch (EVEN, energievollzug.ch).
