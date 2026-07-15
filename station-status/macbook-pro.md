@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.07.2026 09:07:39
+Stand: 15.07.2026 09:27:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.07.2026 09:07:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2f4d59f8 immobewertung-training Run 35: minimaler Bestaetigungslauf (2. Trigger/Tag)
+- 12fff6b3 nas-selfcommit: 17 Datei(en) 2026-07-15 09:15

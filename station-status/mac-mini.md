@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.07.2026 09:15:05
+Stand: 15.07.2026 09:25:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.07.2026 09:15:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2f4d59f8 immobewertung-training Run 35: minimaler Bestaetigungslauf (2. Trigger/Tag)
+- 12fff6b3 nas-selfcommit: 17 Datei(en) 2026-07-15 09:15
