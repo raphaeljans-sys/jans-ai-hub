@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.07.2026 13:59:19
+Stand: 15.07.2026 14:09:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:57)
@@ -19,4 +19,4 @@ Stand: 15.07.2026 13:59:19
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- defe4ca0 normen-training-mini Mini-Run 30: Vertiefungsstufe (d) Querschnitts-Synthese DIN/VSS/RAL erweitert
+- 81af3bf9 nas-selfcommit: 2 Datei(en) 2026-07-15 14:00
