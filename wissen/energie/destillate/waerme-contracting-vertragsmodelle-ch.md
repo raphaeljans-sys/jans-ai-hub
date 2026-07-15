@@ -1,11 +1,11 @@
 ---
-quelle: BFE/EnergieSchweiz «Wärme im Abo effizient und risikofrei» (EnergieInnovation Nr. 57d, 06.2004); AEW Energie AG «Was Liegenschaftsbesitzer über Wärme-Contracting wissen sollten»; Thomas Elmiger, Zeitschrift Wohnen «Energie-Contracting»; Thermische Netze Schweiz «Contractoren»; Preisüberwacher admin.ch «Fernwärme»; Kt. Schwyz AfU «Teilrevision kEnG/kEnV» (Präsentation 22.10.2021); Kt. Zürich zh.ch «Heizungsersatz»; MuKEn-2014-Basismodul Anhang 1
-herausgeber: Bundesamt für Energie / AEW Energie AG / Zeitschrift Wohnen / Thermische Netze Schweiz / Preisüberwacher / Kt. Schwyz AfU / Kt. Zürich
-ausgabe: Web-Recherche amtliche und Branchenquellen
-gelesen: 2026-07-14 (nachintegrierter Rechercheagent, urspruenglich im Rahmen eines nicht abgeschlossenen Trainingslaufs erstellt)
-datenstand: 2026-07-14 (Web-Recherche; BFE-Kernquelle datiert 06.2004, Kt.-SZ-Primärquelle 22.10.2021, Preisüberwacher-Zahlen Herbst 2024)
-status: emerging (zivilrechtliche Einordnung + Vertragsmodelle mehrquellig belegt; mehrere Detailpunkte — Preisüberwacher-Praxis, MuKEn-2025-Wortlaut, Mustervertrags-Inhalte — nicht primärquellen-verifiziert)
-last_updated: 2026-07-14
+quelle: BFE/EnergieSchweiz «Wärme im Abo effizient und risikofrei» (EnergieInnovation Nr. 57d, 06.2004); AEW Energie AG «Was Liegenschaftsbesitzer über Wärme-Contracting wissen sollten»; Thomas Elmiger, Zeitschrift Wohnen «Energie-Contracting»; Thermische Netze Schweiz «Contractoren»; Preisüberwacher admin.ch «Fernwärme»; Kt. Zürich Energiegesetz (EnerG, LS 730.1, Fassung Nachtrag 122) §§ 10b/11/11a/11b im Volltext (zhlex.zh.ch); AWEL «Vollzugsordner Energie», Ausgabe 1/2023 (Abschnitte 4.2/4.3, EN-120-ZH); Kt. Schwyz Kantonales Energiegesetz (kEnG, SRSZ 420.100, Stand 1.2.2025) §§ 8d/22a im Volltext (sz.ch); Energieverordnung (kEnV, SRSZ 420.111) §§ 24f/24g; swissesco (swissesco.ch); Thermische Netze Schweiz (thermische-netze.ch); Swiss Contracting (swisscontracting.ch, direkter Abruf); EnDK-Medienmitteilung MuKEn 2025 (29.08.2025)
+herausgeber: Bundesamt für Energie / AEW Energie AG / Zeitschrift Wohnen / Thermische Netze Schweiz / Preisüberwacher / Kanton Zürich (Kantonsrat/AWEL) / Kanton Schwyz (Amt für Umwelt und Energie) / swissesco / EnDK
+ausgabe: Web-Recherche amtliche und Branchenquellen; ZH/SZ-Gesetzestexte in geltender Fassung im Volltext gelesen
+gelesen: 2026-07-14/2026-07-15
+datenstand: 2026-07-15 (§ 10b EnerG ZH und §§ 8d/22a kEnG SZ am Originalgesetzestext verifiziert; AWEL-Vollzugsordner Stand 1/2023; Swiss-Contracting-Status + swissesco/TNS-Aktivstatus 15.07.2026 direkt geprüft)
+status: emerging (zivilrechtliche Einordnung + Vertragsmodelle weiterhin mehrquellig belegt; die kantonale Rechtsgrundlagen-Zuordnung ist jetzt primärquellen-verifiziert und korrigiert; MuKEn-2025-Wortlaut und Mustervertrags-Inhalte weiterhin offen)
+last_updated: 2026-07-15
 ---
 
 # Wärme-Contracting / Wärmelieferung — Vertragsmodelle Schweiz (Fokus ZH/SZ)
@@ -72,39 +72,83 @@ sondern einen Innominatvertrag nach OR mit mietrechtlichem Anknüpfungspunkt in 
   gekoppelt, höhere Nebenkosten für Mieter, Informationspflicht ggü. Mietern/STWEG, Kaufverträge
   bei STWEG ggf. «ohne Wärmeanlage» auszustellen.
 
-## 5. Bezug zu MuKEn und kantonalem Recht (ZH/SZ)
+## 5. Bezug zu MuKEn und kantonalem Recht (ZH/SZ) — 2026-07-15 primärquellen-verifiziert und KORRIGIERT
 
-- Das MuKEn-2014-Basismodul (Teil D, Wärmeerzeugerersatz) schreibt beim Heizungsersatz mind. 10 %
-  erneuerbaren Anteil vor, erfüllbar über 11 Standardlösungen SL1–SL11.
-- **Kt. Schwyz** (§ 8d kEnG, Teilrevision 14.06.2021, in Kraft 1.5.2022) listet dieselben SL1–SL11
-  (u.a. SL2 Holzfeuerung, SL3 Wärmepumpe, **SL5 Fernwärmeanschluss**, SL6 WKK). **Kt. Zürich**
-  führt ebenfalls 11 Standardlösungen (§ 10b EnerG-Vollzug), «Anschluss an ein Wärmenetz» separat
-  unter «Ersatz mit erneuerbaren Energien».
-- **Wichtiger Befund: Contracting ist in KEINER der 11 Standardlösungen als eigene, benannte
-  Option aufgeführt** — weder ZH noch SZ. Contracting ist eine mögliche **Realisierungsform**
-  (Vertrags-/Finanzierungsmodell) für SL5 und grundsätzlich auch für SL2/SL3/SL4/SL6/SL7/SL10,
-  wird aber nicht als eigenständige energetische Erfüllungsoption geführt — die Vorschrift
-  adressiert die **Energiequelle**, nicht das Vertragsmodell.
-- Quelle: Kt. Schwyz AfU, Präsentation Bauverwaltertagung 22.10.2021 (Primärquelle mit Datum),
-  https://www.vszgb.ch/Portals/0/Dateien/Referate/2021/Bau-Umwelt/5_AfU_Nauer_Kantonales_Energiegesetz.pdf;
-  Kt. Zürich, https://www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/heizungsersatz.html.
-- **Offen:** ob ein Contracting-Wärmelieferungsvertrag beim ZH-Baugesuch/EN-120-Nachweis als
-  Nachweis für SL5 akzeptiert wird oder ein gesondertes Verfahren gilt — nicht abschliessend
-  geklärt.
-- MuKEn 2025 (publiziert Ende August 2025, Zielumsetzung bis 2030) verschärft die Anforderungen;
-  eine explizite Contracting-Erwähnung wurde nicht im Originaltext, nur über Sekundärquellen
-  gefunden — **nicht amtlich verifiziert**.
+**Wichtige Korrektur gegenüber dem bisherigen KB-Stand:** Der Gesetzestext wurde im Volltext
+gelesen (Kt. ZH EnerG LS 730.1, Kt. SZ kEnG SRSZ 420.100). Die vorherige Zuordnung «§ 10b EnerG
+ZH-Vollzug = Standardlösungen» war **falsch** und ist hiermit korrigiert:
+
+- **§ 10b EnerG ZH regelt NICHT den Wärmeerzeugerersatz/Standardlösungen, sondern
+  ausschliesslich ortsfeste elektrische Widerstandsheizungen** (Verbot Neuinstallation/Ersatz/
+  Zusatzheizung, Ersatzpflicht bestehender Elektroheizungen und zentraler Elektro-Wassererwärmer
+  bis **2030**). Die einschlägige Norm für den Wärmeerzeugerersatz/Standardlösungen ist
+  **§ 11 EnerG** («Wärmeerzeuger — Grundsatz»): Abs. 4 begrenzt den nichterneuerbaren Anteil auf
+  höchstens 90 % des massgebenden Bedarfs (100 kWh/m²·Jahr), «Die Direktion legt Standardlösungen
+  zur Erfüllung dieser Anforderung fest»; **Abs. 5 ist die ZH-Rechtsgrundlage für den
+  Wärmenetzanschluss** («ein Anschluss an ein Wärmenetz ist zulässig, wenn ein wesentlicher Anteil
+  der Wärmeerzeugung aus erneuerbaren Energien, Abwärme oder Abfallverbrennung stammt»). § 11a EnerG
+  regelt den Zertifikatskauf/die Bezugsvereinbarung, § 11b EnerG die Härtefälle/Ausnahmen (siehe unten).
+- **Kt. Schwyz — Auflösung des KB-internen Widerspruchs:** **§ 8d kEnG** («Erneuerbare Wärme beim
+  Wärmeerzeugerersatz», eingefügt 24.06.2021) ist die korrekte Rechtsgrundlage der 11
+  Standardlösungen (Abs. 1: höchstens 90 % nichterneuerbarer Anteil beim Heizungsersatz; Abs. 2
+  lit. a: Erfüllung «über die fachgerechte Umsetzung einer Standardlösung») — technisch konkretisiert
+  in der **Energieverordnung (kEnV) §§ 24f/24g + Anhang 6**. **§ 22a kEnG** ist dagegen der
+  SZ-Gegenpart zu § 10b EnerG ZH: Übergangsbestimmung zur Ersatzfrist bestehender ortsfeste
+  elektrischer Widerstandsheizungen/zentraler Elektro-Wassererwärmer bis **2050** — betrifft
+  ebenfalls Elektroheizungen, nicht Contracting. Weder § 8d noch § 22a kEnG noch §§ 24f/24g kEnV
+  erwähnen «Contracting» im Wortlaut (Volltextsuche negativ); § 24f Abs. 3 lit. b kEnV verlangt bei
+  Ausnahmebewilligungen lediglich «ein Anschluss an ein Fernwärmenetz … und der Anschlussvertrag
+  vorliegt» → siehe [[elektroheizungs-ersatzpflicht-zh-sz]] für § 10b EnerG/§ 22a kEnG im
+  Elektroheizungs-Kontext.
+- **Bestätigt bleibt:** Contracting ist in KEINER der 11 Standardlösungen (ZH wie SZ) als eigene,
+  benannte Option aufgeführt — es ist eine mögliche **Realisierungsform** (Vertrags-/
+  Finanzierungsmodell) für SL5 (Wärmenetzanschluss) und grundsätzlich weitere Standardlösungen,
+  wird aber nicht als eigenständige energetische Erfüllungsoption geführt: die Vorschrift adressiert
+  die **Energiequelle**, nicht das Vertragsmodell.
+
+### ZH-Baugesuch/EN-120: die Rolle des Contracting-Vertrags jetzt konkret geklärt
+
+Quelle: AWEL, «Vollzugsordner Energie», Ausgabe 1/2023, Abschnitte 4.2 f. (Vollzugshilfe
+EN-120-ZH). Ein eigener, benannter Nachweisweg «Contracting-Wärmelieferungsvertrag» existiert
+NICHT. Der Contracting-/Anschlussvertrag spielt zwei konkrete, amtlich dokumentierte Rollen:
+
+1. **Übergangsbewilligung (Wärmenetz noch nicht verfügbar):** Die Gemeinde kann bei späterem
+   Wärmenetzanschluss «einen unterschriebenen Anschlussvertrag an den Wärmeverbund verlangen» als
+   Nachweis der verbindlichen künftigen Anbindung («eine vage Absichtserklärung ist dazu nicht
+   ausreichend»). Auch «Übergangs-Contracting» ist dort als Begriff belegt: ein
+   Wärmenetzbetreiber kann einem noch nicht angeschlossenen Kunden für eine Übergangszeit eine
+   Notheizung stellen; der Kunde gilt dann bereits vertraglich als angeschlossen.
+2. **Härtefall-Finanzierung (§ 11b EnerG):** Ein finanzieller Härtefall-Aufschub wird verweigert,
+   «wenn eine Finanzierung der erforderlichen Zusatzinvestitionen mit Fremdkapital oder durch
+   Dritte zu marktüblichen Bedingungen möglich ist» — Vollzugsordner nennt «Dritte» wörtlich als
+   «insbesondere Anbieter für eine Contracting-Lösung». Ein verfügbares Contracting-Angebot
+   verhindert also den Härtefall-Aufschub, weil die Investition dann durch den Contractor
+   finanzierbar wäre.
+
+Die eigentliche energetische Anforderung (§ 11 EnerG) wird durch den Contracting-Vertrag nicht
+ersetzt, nur dessen Finanzierungs-/Anschlussmodalität abgedeckt.
+
+**MuKEn 2025** (verabschiedet 29.08.2025, Zielumsetzung bis 2030): Der vollständige Originaltext
+(Basismodul + Zusatzmodule) war über die öffentlich indexierten EnDK-Kanäle am 15.07.2026 nicht
+auffindbar (nur Medienmitteilung + GEAK-Vergleichsbericht); eine explizite Contracting-Erwähnung
+bleibt daher **weiterhin nicht amtlich verifizierbar** — weder bestätigt noch widerlegt.
 
 ## 6. Anbieter, Verbände, Musterverträge
 
-- **Thermische Netze Schweiz** (vormals Verband Fernwärme Schweiz) — Branchenverband,
-  Planungshandbuch Fernwärme über die Arbeitsgruppe QM Fernwärme.
-- **Swiss Contracting** — Kompetenzzentrum Energie-Contracting, bietet Musterverträge/Leitfäden
-  (u.a. «Leitfaden Ausschreibung Architekten»); Website 2026 nur als leere Frameset-Struktur
-  auslesbar — **aktueller operativer Status nicht verifiziert**, vor Bauherren-Empfehlung direkt
-  prüfen.
-- **swissesco** (gegr. 2014) — Musterverträge/Leitfäden, Fokus ursprünglich öffentliche
-  Organisationen/Gemeinden.
+- **Thermische Netze Schweiz** (TNS, vormals Verband Fernwärme Schweiz) — **2026 aktiv** (direkter
+  Website-Abruf 15.07.2026: laufendes EFZ-Ausbildungsprogramm «Rohrnetzmonteur» mit Swisspower,
+  Start 2028), mit eigener Rubrik **«Contractoren»** — seit rund 15 Jahren organisieren sich dort
+  Contracting-Anbieter zur gemeinsamen Interessenvertretung. Planungshandbuch Fernwärme über die
+  Arbeitsgruppe QM Fernwärme.
+- **Swiss Contracting** — Kompetenzzentrum Energie-Contracting, bietet (historisch) Musterverträge/
+  Leitfäden (u.a. «Leitfaden Ausschreibung Architekten»); Website **am 15.07.2026 erneut geprüft:
+  weiterhin nur eine leere Frameset-Struktur** (HTML erkennbar von einem veralteten Autorenwerkzeug,
+  kein Aktualisierungsdatum) — **operativer Betrieb 2026 nicht verifizierbar, für aktive
+  Bauherren-Empfehlungen NICHT mehr verwenden**, stattdessen swissesco/TNS.
+- **swissesco** (gegr. 2014) — Website **2026 aktiv und inhaltlich befüllt** (Abruf 15.07.2026:
+  jüngster Eintrag 16.06.2026, 10. Generalversammlung des Verbands), fokussiert auf
+  **Energiespar-Contracting (ESC)** («garantierte Energie- und CO₂-Einsparungen»), erarbeitet
+  Standards/Musterverträge/Weiterbildung für Bauherren, Investoren, Energiedienstleister, Behörden.
 - **QM Holzheizwerke** — «Mustervertrag Wärmelieferung» für Holzheizwerke/Wärmeverbünde (Existenz
   bestätigt, Inhalt technisch nicht extrahierbar, PDF).
 - **Energieversorger als Contracting-Anbieter:** Energie 360° Zürich (>20 Energieverbünde,
@@ -128,12 +172,17 @@ ohnehin zulässigen Lösung.
 
 ## Offene Punkte
 
-- Aktueller operativer Status von «Swiss Contracting» 2026 nicht verifiziert.
-- § 10b EnerG ZH und § 8d kEnG SZ nicht im vollständigen Gesetzeswortlaut zitiert (nur aus
-  Vollzugsfolien/Sekundärquellen) — für belastbare Fundstelle Originaltext konsultieren.
-- Preisüberwacher-Praxis speziell zu Contracting-Vertragspreisen ungeklärt.
-- MuKEn-2025-Originaltext zu Contracting nicht geprüft.
-- Musterverträge (QM Holzheizwerke, Swiss Contracting) inhaltlich nicht ausgewertet
-  (PDF-Extraktion gescheitert) — für Bauherren-FAQ mit konkreten Vertragsklauseln separat
-  beschaffen.
-- ZH-Baugesuch/EN-120-Akzeptanz von Contracting als SL5-Nachweis ungeklärt.
+- Preisüberwacher-Praxis speziell zu Contracting-Vertragspreisen weiterhin ungeklärt.
+- MuKEn-2025-Originaltext (Basismodul/Zusatzmodule als PDF) über die öffentlich indexierten
+  EnDK-Kanäle nicht auffindbar — Contracting-Erwähnung darin weder bestätigt noch widerlegt.
+- Musterverträge (QM Holzheizwerke, swissesco, TNS) inhaltlich nicht ausgewertet (Zugriff auf
+  Mitgliederbereiche nötig) — für Bauherren-FAQ mit konkreten Vertragsklauseln separat beschaffen.
+- Exakter Abschnittstitel/Volltext der EN-120-ZH-Standardlösung SL5 selbst (Fernwärmeanschluss)
+  im geprüften Vollzugsordner-Auszug nicht enthalten (SL5 gilt als «unbedingt erfüllend» und wird
+  dort nicht vertieft erläutert, anders als SL1/4/6/7/8/9/10).
+
+**Erledigt am 2026-07-15 (vorher offen):** aktueller operativer Status «Swiss Contracting» (inaktiv,
+bestätigt) sowie swissesco/TNS als aktive Alternativen (bestätigt); § 10b EnerG ZH und §§ 8d/22a
+kEnG SZ im Originalwortlaut zitiert und die bisherige Fehlzuordnung korrigiert; ZH-Baugesuch/
+EN-120-Rolle des Contracting-/Anschlussvertrags konkret geklärt (Übergangsbewilligung +
+Härtefall-Finanzierung, kein eigener Nachweisweg).
