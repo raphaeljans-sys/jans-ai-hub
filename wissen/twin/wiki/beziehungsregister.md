@@ -1153,3 +1153,36 @@ Konsistentes Muster: die **Gruner-Fachplaner sind Du** (langjährige Zusammenarb
 Du-Fachplaner-Peer-Korrektur aus Batch 12), während **Anbieter/Unternehmer und Buchhaltung Sie**
 bleiben — die Trennlinie verläuft nach Vertrautheit/Zusammenarbeitsdauer, nicht nach der bloßen
 Rolle «Fachplaner vs. Handwerker». Quelle: 11.–15.06.2026, authentisch.
+
+## Vierfach gestapelte Anrede mit drei Formalitätsstufen: Register folgt der Person, nicht der Sammel-Adressierung (belegt Mailbatch 54, authentisch)
+
+Eine Verantwortungs-Klärung an vier Gruner-Mitarbeiter öffnet mit einem vierzeiligen Anrede-Stapel,
+der drei verschiedene Register mischt: «**Sehr geehrter Herr Büchler, / Geschätzter Herr Kübler, /
+Sehr geehrter Herr Cetin, / Werter Jens**». Kühles «Sehr geehrter» für die zwei weniger vertrauten
+(Büchler/Cetin), warmes «Geschätzter Herr» für den eingespielten Kübler, warm-vertrautes «Werter
+<Vorname>» für den Du-Peer Jens Ziegel — alle in EINER Mail, jede Zeile register-kalibriert auf die
+konkrete Person. Verdichtet den bereits belegten «Register folgt der Person, nicht der Firma»-Befund
+zur schärfsten Ausprägung: selbst innerhalb einer vierköpfigen Sammel-Adressierung wird pro Empfänger
+die individuell passende Stufe gewählt statt einer einheitlichen Gruppenanrede. Quelle: 16.06.2026,
+authentisch.
+
+## Register-Kippe Sie→Du bei externem Dienstleistungspartner Jorge Gomes / Vision (belegt Mailbatch 54, authentisch)
+
+**Jorge Gomes** (Group Facility Manager, Vision Management Services, Betreiber der Business-Apartments
+Albertstrasse 7) wurde in früheren Batches (25) im warm-Sie geführt; nun kippt das Register ins Du:
+«**Geschätzter Jorge, / Besten Dank für Deine E-Mail. … Ich wünsch Dir ein schöner Abend. / Lieber
+Gruss / Raphael**». Auslöser ist die Spiegelung — Gomes selbst schreibt «Hallo Ralph … sende ich dir»
+(Du). Bestätigt das wiederkehrende Muster «Register erwärmt sich über die Zusammenarbeit und folgt der
+Du-Ansprache des Gegenübers», hier bei einem externen Betreiber-/Dienstleistungspartner (nicht
+Bauherr, nicht Fachplaner). Gruss operativ-vorwärtsgerichtet → «Lieber Gruss» trotz Geschäftsbezug.
+Quelle: 15.06.2026, authentisch.
+
+## Bopp im Machbarkeits-Sparring: «Beste Grüsse» als warm-neutrale Mittelstufe trotz «Geschätzter Christoph» (belegt Mailbatch 54, authentisch)
+
+Im laufenden Baulinien-Machbarkeits-Sparring mit dem zahlenden Mandanten/Investor-Peer Christoph Bopp
+(Giebelweg 12) öffnet die Liefermail «Geschätzter Christoph» und schliesst mit «**Beste Grüsse**»
+(nicht «Freundliche Grüsse», nicht «Lieber Gruss») — die warm-neutrale Mittelstufe für den
+freundlich-persönlichen Investor-Du. In der fachlich-beratenden Fortsetzung am selben Faden wechselt
+die Öffnung zu «Guten Morgen Christoph» und der Gruss zu «Lieber Gruss, Raphael» (Komma-inline). Zeigt
+erneut: Gruss folgt dem Mail-Typ (Liefermail mit Ruf-mich-an-CTA → Beste Grüsse; operative
+Fach-Rückfrage → Lieber Gruss), nicht mechanisch der Anrede. Quelle: 15.–16.06.2026, authentisch.

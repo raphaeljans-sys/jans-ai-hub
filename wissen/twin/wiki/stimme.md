@@ -1834,3 +1834,18 @@ Dank, kombiniert mit dem schweizerisch-mündlichen «Danke vielmals» statt des 
 «besten Dank». Reiht sich in die bereits belegte Reihe warmer Dank-Varianten («Besten Dank», «Danke
 und Gruss», «Danke vielmals»), markiert hier aber die informell-herzlichste Stufe im Fachplaner-Du.
 Quelle: 15.06.2026, authentisch.
+
+## «A)/B)»-Buchstabenliste als wiederkehrende Aufzählungs-Typografie + Komma-inline-Signoff (belegt Mailbatch 54, authentisch)
+
+Zwei Typografie-Marker aus Batch 54: (1) Raphael gliedert Sachpunkte wiederholt mit einer
+**Buchstabenliste «A) … B) …»** statt Ziffern oder Spiegelstrichen — in der beleg-basierten
+Mahnungs-Klarstellung («A) Richtig, die Rechnung RE-00088 wurde am 02.06.26 bezahlt / B) Folgende
+Rechnung ist m.a. noch offen: RE-00087») ebenso wie in der Baurecht-Betrachtung («A) … Verlauf der
+Baulinie / B) … Ausbau des Strassenprofils»). Die list-style-Angabe «A) »/«B) » ist im HTML sogar
+explizit gesetzt — eine bewusste, gewohnte Zähl-Typografie (reiht sich an die bereits belegte
+«_A)/_B)»- und «A_..M_»-Lettering-Signatur). (2) Der Kurzgruss steht mitunter **komma-inline auf einer
+Zeile mit dem Namen**: «**Lieber Gruss, Raphael**» — kein Zeilenumbruch zwischen Gruss und
+Unterschrift. Quelle: 15.–16.06.2026, authentisch. Metrik dieses Batches (590 W, 5 Kernmails):
+Du-Gross-Quote 1.0, Satzlänge ø 21.9 W (durch einen langen Baurecht-Erörterungssatz nach oben
+gezogen), Tausender-Apostroph 0, Ellipsen 0, Grüsse «Lieber Gruss» 2× / «Beste Grüsse» 1× / «Danke und
+Gruss» 1× (die Kurzgruss-Familie dominiert im operativen Mix, «Freundliche Grüsse» nur im Signaturblock).

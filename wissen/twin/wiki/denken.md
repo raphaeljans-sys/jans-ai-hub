@@ -362,3 +362,18 @@ entscheidbare, nicht offene Frage stellen — kein «was sollen wir tun?», sond
 Wege mit Preisschild und der Bedingung, unter der der beste greift. Bestätigt und verdichtet die
 bereits belegte Wenn-dann-Stufenmodell-Argumentation. Quelle: 13.06.2026, authentisch
 (→ [[fachsignatur]] Schutzraumpflicht, [[arbeitsweise]]).
+
+## Worst-Case-Variante bewusst zeichnen, um sie beim Bauamt als inakzeptabel zu «platzieren» (belegt Mailbatch 54, authentisch)
+
+Im Baulinien-Machbarkeits-Sparring (Giebelweg 12) denkt Raphael die ungünstigste denkbare Auslegung
+nicht weg, sondern schlägt vor, sie bewusst zu visualisieren: ein «Szenario S4: Assymetrische Neue
+Strassenführung» und, «wenn man es auf die Spitze treiben möchte», zusätzlich die Baulinie an der
+Strassenkante angesetzt + 3.8m ins Grundstück versetzt: «Das wäre den Worst-Worst-Case-Scenario und
+gälte es als nicht zu akzeptierende Variante **beim Bauamt zu platzieren**». Verhandlungslogik: die
+maximale Drohkulisse durchrechnen und darstellen, um im Behördengespräch den akzeptablen Rahmen
+abzustecken (Anker setzen). Davor trennt er die Betrachtung sauber in zwei Schwerpunkte — «A) Verlauf
+der Baulinie und deren Ansetzungspunkt / B) Ausbau und neuer Verlauf des Strassenprofils» — und legt
+die Fairness-Grundannahme offen («fair je hälftig zu Lasten der strassenseitigen Grundstücke»).
+Schluss als offene Handlungsfrage, nicht als Vollzug: «Soll ich diese Varianten wie oben beschrieben
+zeichnen?». Bestätigt und verschärft das belegte Varianten-/Verhandlungsdenken. Quelle: 16.06.2026,
+authentisch (→ [[fachsignatur]] Baulinie/Strassenausbau).

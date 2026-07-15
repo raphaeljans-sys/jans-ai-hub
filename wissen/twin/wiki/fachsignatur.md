@@ -1080,3 +1080,19 @@ Werte werden nicht neu erfunden, sondern aus den **bestehenden EN4-Nachweisen de
 Baueingabe (EN3/EN4/EN5)** als Grundlage abgeleitet. Zeigt den Verfahrensrealismus im Umbau: der
 Umbauperimeter erbt die Nachweislogik des Bestands, offene anlagentechnische Werte werden vom
 Fachplaner ergänzt und visiert. Quelle: 12.06.2026, authentisch.
+
+## Baulinien-/Strassenausbau-Argumentation mit Kataster-Realismus + Verantwortungs-Klärung bei Nachweis-Unterzeichnung (belegt Mailbatch 54, authentisch)
+
+Zwei Fachsignatur-Belege: (1) In der Baulinien-Machbarkeit Giebelweg 12 webt Raphael die Geometrie
+rechnend und katasterkritisch ein: er trennt «Ansetzungspunkt der Baulinie (Grundstücksgrenze vs.
+Strassenrand Neu)» vom «Ausbau/Verlauf des Strassenprofils», beziffert die Varianten (Baulinie 3.8m
+bzw. 3.5m ab Grenze/Strassenrand, Strassenverbreiterung auf 3.5m «fair je hälftig»), und weist einen
+**Kataster-Mangel** präzise nach: eine grenzständige Bruchsteinmauer (Grundstück 5252) «wurde nie in
+den Kataster aufgenommen und ist planerisch daher nicht aufgeführt», nur ein Teilstück sei
+eingezeichnet — die amtliche Planbasis ist also unvollständig und das ist entwurfsrelevant. (2) In der
+Auflagebereinigung KISPI klärt er die **Verantwortung für die Unterzeichnung eines Brandschutz-
+Nachweises** fachlich sauber: die Brandlastberechnung Elektro in den Fluchtwegen sei «von der Person,
+welche die Berechnung angefertigt hat (Herr Cetin), oder deren verantwortlichem Vorgesetzten» zu
+unterzeichnen — Nachweis-Signatur folgt der fachlichen Urheberschaft/Verantwortung, nicht der
+Projektleitung. Quelle: 16.06.2026, authentisch (→ [[denken]] Worst-Case-Anker, [[arbeitsweise]]
+Auflagebereinigung).
