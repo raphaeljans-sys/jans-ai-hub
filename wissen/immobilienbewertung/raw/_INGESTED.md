@@ -78,6 +78,11 @@ real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
 
+**Stand Run 35 (2026-07-15):** **Kein neuer Ingest — minimaler Bestaetigungslauf (2. Trigger/Tag,
+nach Run 34 00:58).** Bewertungsordner unveraendert (6 Faelle, juengster Wangen 8855). Marktpuls
+bewusst NICHT erneut per Web geprueft (Run 34 < 8 Std. zurueck; naechster amtlicher Wert 01.09.2026;
+Drossel-Rule 260714 — Wochenlimit schonen). Keine Artikelaenderung.
+
 **Stand Run 34 (2026-07-15):** **Kein neuer Ingest — Delta-/Marktpuls-Check am neuen Tag.** Erster
 Lauf im Soll-Takt nach dem Run-33-Root-Cause-Fix. Bewertungsordner unveraendert (6 Faelle, juengster
 Wangen 8855), keine neue Quelle. Marktpuls-Web: Referenzzins 1.25 % / SNB-Leitzins unveraendert

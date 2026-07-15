@@ -33,6 +33,12 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-15 **Minimaler Bestaetigungslauf (Run 35)** — zweiter Trigger desselben Tages (nach
+  Run 34 00:58). Kein neuer Ingest, keine Artikelaenderung: KB saturiert. Bewertungsordner
+  unveraendert (6 Faelle, juengster Wangen 8855). Marktpuls bewusst NICHT erneut per Web geprueft
+  (Run 34 < 8 Std. zurueck, naechster amtlicher Wert 01.09.2026; Drossel-Rule 260714). Oberrieden-
+  Hoehenkorrektur (Rule 260624) zum 8. Mal geflaggt. Details: `outputs/2026-07-15_training-run35.md`.
+
 - ✓ 2026-07-15 **Delta-/Marktpuls-Check (Run 34)** — erster Lauf am neuen Tag im Soll-Takt
   (nach dem Run-33-Fix). Kein neuer Ingest, keine Artikelaenderung: die KB ist saturiert
   (Wuest-Kurs + E1-E10 + alle auto-schliessbaren T-Aufgaben abgearbeitet); 10 Themen zu

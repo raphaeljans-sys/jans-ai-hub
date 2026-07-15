@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-15 — Training-Run 35: minimaler Bestaetigungslauf (zweiter Trigger desselben Tages)
+
+- Zweiter Trigger am 15.07. (nach Run 34 00:58). **Kein neuer Ingest, keine Artikelaenderung.**
+  Bewertungsordner unveraendert (6 Faelle, juengster Wangen 8855). Marktpuls bewusst NICHT
+  erneut per Web geprueft — Run 34 (< 8 Std. zurueck) hat Referenzzins 1.25 %/Durchschnittszins
+  1.31 % bestaetigt, naechster amtlicher Wert erst 01.09.2026; ein Recheck waere Token-Verbrauch
+  gegen das Wochenlimit (Drossel-Rule 260714).
+- Oberrieden-Hoehenkorrektur (Rule 260624, amtlich 8.5 m statt 9.0 m traufseitig) zum 8. Mal an
+  Raphael geflaggt. Trigger-Haeufung (2x/Tag) erneut vermerkt — Scheduled-Task-Frequenz pruefen.
+- Register nachgefuehrt. Report: `outputs/2026-07-15_training-run35.md`.
+
 ## 2026-07-15 — Training-Run 34: Delta-/Marktpuls-Check (neuer Tag, Soll-Takt)
 
 - Erster Lauf am neuen Tag nach dem Run-33-Root-Cause-Fix. **Kein neuer Ingest, keine
