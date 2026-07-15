@@ -5,8 +5,8 @@ ausgabe: "2011, gestützt auf HOAI 2009 (Anlage 11 zu § 33, Anlage 2.6 zu § 3)
 ersetzt: "kein CH-Bezug — deutsches Honorarrecht (HOAI), Schweizer Pendant SIA 102/103/108 (Skill honorarberechnung-sia102)"
 gelesen: "S. 1-19 (vollständig — Kapitel 2.2.1-2.2.3: Einleitung, Grund-/Besondere Leistungen je Leistungsphase 1-9, Begriffslexikon)"
 datenstand: "2011"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19 — Phasen-Zuordnungen korrigiert: Bestandsaufnahme-Typen war fälschlich LP1 statt LP2, Zwangspunkte/Kostenberechnungen war fälschlich LP5/6/7 statt korrekt LP3/LP5/LP6/LP7 verteilt, Seitenangaben LP8/LP9 korrigiert; HOAI-§2-Ziffern-Zuordnung Instandhaltung/-setzung/Modernisierung präzisiert)"
-last_updated: 2026-07-14
+status: "established (verifiziert 260714, Retro-Verifikation Run 19 — Phasen-Zuordnungen korrigiert: Bestandsaufnahme-Typen war fälschlich LP1 statt LP2, Zwangspunkte/Kostenberechnungen war fälschlich LP5/6/7 statt korrekt LP3/LP5/LP6/LP7 verteilt, Seitenangaben LP8/LP9 korrigiert; HOAI-§2-Ziffern-Zuordnung Instandhaltung/-setzung/Modernisierung präzisiert; Q&A-Selbstbefragung 260715 (Mini-Run 29): 20 Fragen, 13 bestanden, 0 Fehler korrigiert, 7 Ergänzungen (Lücken geschlossen) — grösste Lücke: Leistungsphase 4 «Genehmigungsplanung» fehlte komplett, jetzt ergänzt)"
+last_updated: 2026-07-15
 links: [[REGISTER]]
 ---
 
@@ -46,19 +46,28 @@ Zusatz-Leistungen beim Bauen im Bestand — nicht das vollständige HOAI-Regelwe
   empfohlen zur Vermeidung von Auseinandersetzungen.
 - **LP1 Grundlagenermittlung, Besondere Leistungen Bauen im Bestand (S. 2):**
   Objektbegehung, Sichten/Werten übergebener Unterlagen, Beschaffen von Unterlagen
-  zum Baubestand, Beurteilen der Bausubstanz auf Durchführbarkeit, Vorschlag zur
-  Untersuchungsreihenfolge möglicher Schäden, Parameter zu Denkmalschutz/Umgebung.
+  zum Baubestand, Ermitteln des Leistungsumfangs und der erforderlichen Vorarbeiten
+  in Bezug auf die Aufgabenstellung, Festlegen der für das Projekt typischen
+  Merkmale (ergänzt 260715), Beurteilen der Bausubstanz auf Durchführbarkeit,
+  Vorschlag zur Untersuchungsreihenfolge möglicher Schäden, Parameter zu
+  Denkmalschutz/Umgebung.
 - **LP2 Vorplanung, Besondere Leistungen Bauen im Bestand (S. 3-4):** Untersuchen
   der im Bestand verwendeten Konstruktionen/Materialien/Normen/baurechtlichen
-  Bestimmungen; Prüfen der Massnahmen auf Bestands-/Denkmalschutz; zusätzliche
-  Untersuchungen (Vermesser-Aufmass, dendrochronologisch, Thermografie,
-  Kanaluntersuchungen, Schädlings-/Asbestbefall). Dazu die Durchführung von
-  **Bestandsaufnahmen** nach Typ (massliche, technische, gestalterische,
-  künstlerische, baugeschichtliche, brandschutztechnische, bauphysikalische
-  Bestandsaufnahme, verformungsgerechtes Aufmass), Spezialuntersuchungen
-  (Baualtersplan, dendrochronologische Untersuchungen, restauratorische
-  Untersuchungen) sowie Schadenskartierung/Ermitteln von Schadensursachen (S. 4)
-  — sämtlich Bestandteil der Vorplanungsphase, nicht der Grundlagenermittlung.
+  Bestimmungen; Prüfen der Massnahmen auf Bestands-/Denkmalschutz; Vorverhandlungen
+  mit Behörden über den möglichen Bestands-/Denkmalschutz und weitere begrenzende
+  Rahmenbedingungen; zusätzliche Untersuchungen (Vermesser-Aufmass,
+  dendrochronologisch, Thermografie, Kanaluntersuchungen, Schädlings-/
+  Asbestbefall). Dazu die Durchführung von **Bestandsaufnahmen** nach Typ
+  (massliche, technische, gestalterische, künstlerische, baugeschichtliche,
+  brandschutztechnische, bauphysikalische Bestandsaufnahme, verformungsgerechtes
+  Aufmass), Spezialuntersuchungen (Baualtersplan, dendrochronologische
+  Untersuchungen, restauratorische Untersuchungen), Neuerstellen von
+  Bestandsplänen, Gestaltungsanalyse in Verbindung mit denkmalpflegerischen/
+  stadtbildpflegerischen Auflagen, Erstellen detaillierter Fotodokumentationen
+  des Bestandes sowie Schadenskartierung/Ermitteln von Schadensursachen (S. 4);
+  ergänzend sozio-strukturelle Bestandsaufnahme/-analyse der Nutzer und deren
+  Bedürfnisse (ergänzt 260715) — sämtlich Bestandteil der Vorplanungsphase,
+  nicht der Grundlagenermittlung.
 - **LP3 Entwurfsplanung, Besondere Leistungen Bauen im Bestand (S. 5-6):**
   Darstellen von Zwangspunkten aus Denkmal-/Brand-/Schall-/Wärme-/
   Feuchteschutz-Auflagen; Verhandlungen mit Behörden über Ausnahmeregelungen aus
@@ -67,12 +76,22 @@ Zusatz-Leistungen beim Bauen im Bestand — nicht das vollständige HOAI-Regelwe
   Instandsetzung/Wohnwertverbesserung); Integrieren spezieller Wünsche von
   Bewohnern beim Bauen im bewohnten Zustand; örtliches Überprüfen von
   Planungsdetails an der vorgefundenen Substanz; Integration besonderer
-  technischer Ausrüstung unter denkmalpflegerischen Bedingungen; Klären von
-  Fördermöglichkeiten; Mieterbefragungen.
+  technischer Ausrüstung unter denkmalpflegerischen Bedingungen; Entwickeln von
+  Organisationskonzepten für Eigenleistungen der Nutzer (ergänzt 260715); Klären
+  von Fördermöglichkeiten; Mieterbefragungen.
+- **LP4 Genehmigungsplanung, Besondere Leistungen Bauen im Bestand (S. 7,
+  ergänzt 260715 — fehlte im Destillat komplett):** Prüfen der Massnahmen auf
+  zusätzlich notwendige Genehmigungen, Erlaubnisse oder Zustimmungen, die über
+  den üblichen Rahmen hinausgehen; Erarbeiten der Vorlagen für diese
+  zusätzlichen Genehmigungen/Erlaubnisse/Zustimmungen (inkl. Anträge auf
+  Ausnahmen/Befreiungen) unter Verwendung der Planungsunterlagen der
+  Leistungsphase 3; Einreichen dieser Unterlagen; Vervollständigen und Anpassen
+  zusätzlich erforderlicher Planungsunterlagen, Beschreibungen und Berechnungen.
 - **LP5 Ausführungsplanung, Besondere Leistungen Bauen im Bestand (S. 8):**
   Einarbeiten der Ergebnisse zusätzlicher Genehmigungen in die
   Ausführungsplanung; Darstellen besonderer Details des Gebäudes (Denkmal-/
-  Brand-/Schall-/Feuchteschutz); Einplanung besonderer Verfahrensweisen zur
+  Brand-/Schall-/Feuchte-/Wärmeschutz, Wärmeschutz ergänzt 260715); Einplanung
+  besonderer Verfahrensweisen zur
   Sicherung der vorhandenen Bausubstanz; Untersuchen/Planen der
   Wiederverwendbarkeit vorhandener Bauteile und Materialien; Erheben und
   Katalogisieren einzulagernder Bauteile.
@@ -89,13 +108,23 @@ Zusatz-Leistungen beim Bauen im Bestand — nicht das vollständige HOAI-Regelwe
   Bau-/Kunsthistoriker).
 - **LP8 Objektüberwachung, Besondere Leistungen Bauen im Bestand (S. 11-12):**
   Dokumentation von Schäden/Erkenntnissen bei Öffnung der Konstruktion;
-  Überarbeiten der Ausführungsplanung aufgrund von Bestandsbefunden; Abnahmen
-  für Restaurierung/Denkmalschutz; Mieterbetreuung beim Bauen im bewohnten
-  Zustand.
+  Überarbeiten der Ausführungsplanung aufgrund von Bestandsbefunden; besondere
+  Abnahmen während des Bauzustands aufgrund notwendiger Abweichungen von
+  geltenden Normen/Richtlinien (Beispiel im Original: Abnahme von Holzbalken
+  innerhalb der Deckenkonstruktion hinsichtlich Brandschutzverhalten vor dem
+  Wiederverschliessen der Decke); Koordinieren/Überwachen von Schutzmassnahmen
+  für die vorhandene Substanz und/oder die Nutzung während der Bauzeit; Prüfen/
+  Aufteilen von Rechnungen nach besonderen bauhistorischen/denkmalpflegerischen
+  Kostenarten; Erarbeiten von Entsorgungskonzepten für vorgefundene gesundheits-
+  und/oder umweltgefährdende Stoffe (ergänzt 260715); Abnahmen für
+  Restaurierung/Denkmalschutz; Mieterbetreuung beim Bauen im bewohnten Zustand.
 - **LP9 Objektbetreuung, Besondere Leistungen Bauen im Bestand (S. 13):**
   besondere denkmalpflegerische Dokumentationen (Fotodokumentation,
   Detailaufmasse, Freilegung Farbschichten, bauhistorische Befunde);
-  Wirkungskontrollen von Planungsansatz/Massnahmen bei Nutzern.
+  systematische Zusammenstellung besonderer rechnerischer Ergebnisse
+  (Denkmal-/Brand-/Schall-/Feuchte-/Wärmeschutz) sowie von Ausnahmen und
+  Befreiungen im Zusammenhang mit der vorhandenen Bausubstanz (beide ergänzt
+  260715); Wirkungskontrollen von Planungsansatz/Massnahmen bei Nutzern.
 
 ## Begriffe (Auswahl, Begriffslexikon 2.2.3)
 

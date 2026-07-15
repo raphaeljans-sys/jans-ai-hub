@@ -7,8 +7,8 @@ ersetzt: "Basis 2000=100 (bis Berichtsmonat Mai 2008)"
 ersetzt_durch: "laufend fortgeschriebene aktuelle Ausgaben (kein statischer Norm-Ersatz — periodische Statistik)"
 gelesen: "S. 1-23 von 23 (vollständig)"
 datenstand: "Februar 2010 (Zeitreihen bis 2009/2010)"
-status: "established (verifiziert 260714, Retro-Verifikation Run 19) — methodische Referenz, keine belastbaren Aktualwerte; Korrektur: Fussnoten-Fundstelle Census-X-12-ARIMA-Bereinigung (Tabelle 11/22 statt Textziffer) präzisiert, Bauland-Fussnote (ohne Hamburg bis 2004) ergänzt"
-last_updated: 2026-07-14
+status: "established (verifiziert 260714, Retro-Verifikation Run 19; Q&A-Selbstbefragung 260715, Mini-Run 29) — methodische Referenz, keine belastbaren Aktualwerte; Korrektur: Fussnoten-Fundstelle Census-X-12-ARIMA-Bereinigung (Tabelle 11/22 statt Textziffer) präzisiert, Bauland-Fussnote (ohne Hamburg bis 2004) ergänzt, Umbasierungsformel (aktuelles statt altes Basisjahr) korrigiert, Gewerke-Liste + Architektur-/Ingenieurdienstleistungen-Detail + Abschnitt «Aktuelle Ergebnisse» ergänzt"
+last_updated: 2026-07-15
 links: [[REGISTER]]
 ---
 
@@ -51,8 +51,13 @@ Abgrenzung Bauleistungs- vs. Baukostenindex, Umbasierungsformel).
   Hauptproduktionsfaktoren (Ziffer 10-11, S. 4-5); der Arbeitskostenindex ist kalender- und
   saisonbereinigt nach Census X-12-ARIMA und wurde von 2008=100 auf 2005=100 umbasiert
   (Fussnote zu Tabelle 11, S. 21, und Tabelle 12, S. 22 — nicht im Textteil).
-- **Umbasierungsformel** (Ziffer 6, S. 4): neuer Index (Basis X) = Index Berichtszeitraum
-  (altes Basisjahr=100) ÷ Index Vergleichsjahr (altes Basisjahr=100) × 100.
+- **Umbasierungsformel** (Ziffer 6, S. 4; korrigiert 260715): gesuchter Index (Zieljahr=100)
+  = Index im Berichtszeitraum (aktuelles Basisjahr 2005=100) ÷ Index für das Zieljahr
+  (aktuelles Basisjahr 2005=100) × 100 — Beispiel im Original: Umrechnung des Index
+  «Wohngebäude insgesamt» von Basis 2005=100 auf Basis 2000=100 (Mai 2004: 99,2 ÷ 97,9 × 100
+  = 101,3). Zuvor stand hier fälschlich «altes Basisjahr» für beide Werte — tatsächlich sind
+  beide Werte auf dem AKTUELLEN Basisjahr (2005=100) ausgewiesen, nur das Zieljahr (hier 2000)
+  ist das ältere, abgelöste Basisjahr.
 - **Indexveränderung in Prozent** (Ziffer 7, S. 4): (Neuer Indexstand ÷ Alter Indexstand ×
   100) − 100.
 - **Preisindex für Bauland** (Ziffer 12, S. 5): stellt die Preisentwicklung unbebauter,
@@ -65,13 +70,38 @@ Abgrenzung Bauleistungs- vs. Baukostenindex, Umbasierungsformel).
 - Preisindizes Neubau Wohngebäude (insgesamt/Einfamilien-/Mehrfamiliengebäude), gegliedert
   nach Gewerken (Rohbau: Erd-/Verbau-/Entwässerungskanal-/Mauer-/Beton-/Zimmer-/Stahlbau-/
   Abdichtungs-/Dachdeckungs-/Klempner-/Gerüstarbeiten; Ausbau: Naturwerkstein-/Betonwerkstein-/
-  Putz-/Wärmedämmverbund-/Trockenbau-/Fliesen-/Estrich-/Tischler-/Parkett-/Rollladen-/
-  Metallbau-/Verglasungs-/Maler-/Bodenbelags-/Tapezier-/RLT-/Heizungs-/Elektro-/Blitzschutz-/
-  Aufzugsarbeiten).
+  Putz-/Wärmedämmverbund-/Trockenbau-/Vorgehängte-hinterlüftete-Fassaden-/Fliesen-/Estrich-/
+  Tischler-/Parkett-/Rollladen-/Metallbau-/Verglasungs-/Maler-/Bodenbelags-/Tapezier-/RLT-/
+  Heizungs-/Gas-Wasser-Entwässerungsanlagen(Sanitär)-/Nieder-Mittelspannungsanlagen(Elektro)-/
+  Gebäudeautomations-/Blitzschutz-/Dämmarbeiten-an-technischen-Anlagen-/Aufzugsarbeiten;
+  ergänzt 260715 — «Vorgehängte hinterlüftete Fassaden» und «Dämmarbeiten an technischen
+  Anlagen» fehlten in der Aufzählung, und «Elektro-» war zu grob gefasst, da es Sanitär
+  (Gas-/Wasser-/Entwässerungsanlagen) und Gebäudeautomation mit unterschlug).
 - Preisindizes Neubau Nichtwohngebäude (Büro-/Gewerbliche Betriebsgebäude), Sonstige
   Bauwerke (Strassenbau/Brücken/Ortskanäle), Instandhaltung Wohngebäude (mit/ohne
-  Schönheitsreparaturen), Aussenanlagen, Architektur-/Ingenieurdienstleistungen (nach
-  HOAI 2009), Transferkosten (Maklerprovisionen, Grunderwerbssteuer, Eintragungsgebühren).
+  Schönheitsreparaturen), Aussenanlagen, Architektur-/Ingenieurdienstleistungen (baubezogen,
+  Wirtschaftsklasse 71.1 nach WZ 2008; erfasst HOAI-geregelte Leistungen — ab Berichtsmonat
+  November 2009 nach HOAI 2009 — UND ausserhalb der HOAI geregelte Leistungen der Büros;
+  bis Mai 2008 wurden nur Leistungen im Rahmen des Neubaus von Mehrfamiliengebäuden
+  berücksichtigt, das Leistungsbild «Gutachten und Wertermittlung» erst ab November 2009
+  einbezogen; ergänzt 260715), Transferkosten (Maklerprovisionen, Grunderwerbssteuer,
+  Eintragungsgebühren).
+
+### Aktuelle Ergebnisse (Abschnitt 2, S. 5) — ergänzt 260715
+
+- Narrativer Kurzbericht zu den Preisbewegungen Februar 2010 gegenüber Februar 2009
+  (Vorjahresmonat), je Gewerk gegen Tabelle 1.1 (S. 6-10) verifiziert: Stahlbauarbeiten
+  -9,0%, Betonarbeiten -2,4%, Förder-/Aufzugsanlagen/Fahrtreppen und -steige +2,9%,
+  Dämmarbeiten an technischen Anlagen +2,1%, Heizanlagen und zentrale
+  Wassererwärmungsanlagen +2,0%, Instandhaltung Mehrfamiliengebäude ohne
+  Schönheitsreparaturen +1,1%, Bürogebäude +0,3%, Strassenbau +0,3%, Gewerbliche
+  Betriebsgebäude -0,2%.
+- Gesamtindex «Bauleistungen am Bauwerk, Wohngebäude insgesamt» laut Tabelle 1.1 (S. 6):
+  Februar 2009 = 112,8 → Februar 2010 = 113,0, das entspricht rechnerisch +0,2% (verifiziert).
+  Der Fliesstext auf S. 5 nennt an dieser Stelle «2,0%» — dieser Wert widerspricht der Tabelle
+  und liess sich nicht zweifelsfrei verifizieren (möglicher Druck-/Rundungsfehler im Original
+  oder Bezug auf eine andere, nicht näher bezeichnete Aggregation); er wird hier NICHT als
+  gesicherte Zahl übernommen, sondern als offene Diskrepanz vermerkt.
 - **Wiederherstellungswerte für 1913/1914 erstellte Wohngebäude** (Ziffer 9, S. 4; Tabelle 10,
   S. 19-20): historische Umrechnungsreihe DM/Euro ab 1913=1 Mark, durchgehend bis 2010 —
   Spezialinstrument für Altbau-Wertermittlung/Versicherungswerte in Deutschland.
@@ -108,3 +138,11 @@ Vollständig gelesen (S. 1-23/23, Lauf normen-training-mini 260713). Reine Stati
 Publikation ohne normativen Charakter (keine DIN-Norm); Aufnahme ins Normen-Inventar
 vermutlich aus Ablage-Gründen (im Ordner `Sonstiges` der SharePoint-Normenbibliothek).
 Keine offenen Seiten.
+
+Q&A-Selbstbefragung 260715 (Mini-Run 29): 20 Fragen, 16 sofort bestanden, 1 Fehler
+korrigiert (Umbasierungsformel Ziffer 6: fälschlich «altes» statt «aktuelles» Basisjahr),
+3 Ergänzungen (Gewerke-Liste Ausbau vervollständigt/präzisiert, Architektur-/
+Ingenieurdienstleistungen-Definition detailliert, neuer Abschnitt «Aktuelle Ergebnisse»
+S. 5 mit verifizierten Kennzahlen). Eine ungeklärte Diskrepanz im Original selbst notiert
+(Fliesstext S. 5 nennt «2,0%» Jahresveränderung Gesamtindex, Tabelle 1.1 zeigt rechnerisch
++0,2% — nicht auflösbar ohne weitere Quelle, daher nicht als Fakt übernommen).

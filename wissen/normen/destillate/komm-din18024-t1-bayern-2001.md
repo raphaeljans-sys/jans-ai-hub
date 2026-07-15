@@ -8,7 +8,7 @@ ersetzt_durch: ""
 gelesen: "S. 1-68 von 68 (vollständig)"
 datenstand: "2001-08"
 status: "established"
-last_updated: 2026-07-13
+last_updated: 2026-07-15
 links: [[REGISTER]]
 ---
 
@@ -32,6 +32,15 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 - Zielgruppen: Rollstuhlbenutzer (auch mit Oberkörperbehinderung), Blinde/Sehbehinderte,
   Gehörlose/Hörgeschädigte, Gehbehinderte, Menschen mit sonstigen Behinderungen, ältere
   Menschen, Kinder, klein-/grosswüchsige Menschen (Abschnitt 2, S. 7).
+- Rechtlicher Hintergrund (Abschnitt 1, S. 6, ergänzt 260715): Die materiellen Anforderungen
+  an Kommunalstrassen ergeben sich aus Art. 9 des Bayerischen Strassen- und Wegegesetzes
+  (Generalklausel: Strassen sind in einem dem gewöhnlichen Verkehrsbedürfnis und den
+  Erfordernissen der öffentlichen Sicherheit und Ordnung genügenden Zustand zu bauen/
+  unterhalten); technische Regelwerke wie die DIN 18024/T1 sind für sich genommen NICHT
+  verbindlich, ausser sie enthalten allgemein anerkannte Regeln der Baukunst/Technik. Der
+  Normenausschuss «Barrierefreies Bauen» plante (Stand 2001), alle vier
+  Barrierefreiheits-Normen (DIN 18024 T1+T2, DIN 18025 T1+T2) in der neuen DIN 18030
+  zusammenzufassen.
 
 ## Kernziffern mit Fundstellen
 
@@ -39,7 +48,8 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 
 **Bewegungsflächen:**
 - 400×250 cm: Schutzinsel v. Fahrbahnen (4.2).
-- 300 cm breit: Gehweg b. Schulen/Kindergärten/Einkaufszentren, Fussgängerüberweg (4.3).
+- 300 cm breit: Gehweg b. Schulen/Kindergärten/Freizeiteinrichtungen/Einkaufszentren/
+  Pflegeeinrichtungen, Fussgängerüberweg und Furt (4.3; Liste ergänzt 260715).
 - 300×200 cm: Verweilfläche auf Fussgängerüberweg (4.4).
 - 200 cm breit: Gehweg an stärker befahrener Fahrbahn (4.5).
 - 150×150 cm: Wende-/Rangierfläche mit Rollstuhl (4.6) — als Quadrat definiert (nicht Kreis
@@ -62,6 +72,9 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 - **Kopffreiraum 230 cm** (4.1) — bewusst höher als die üblichen 200-210 cm, wegen
   zunehmender Körpergrösse/Grosswuchs-Berücksichtigung.
 - Bewegungsflächen dürfen sich überlagern (Ausnahme: vor Fahrschachttüren).
+- Bewegungsflächen dürfen nicht in ihrer Funktion eingeschränkt sein, z.B. durch
+  Mauervorsprünge, abgestellte Fahrzeuge, Ausstattungen, in geöffnetem Zustand stehende
+  Türen und Bepflanzung (4.1; ergänzt 260715).
 
 ### Pkw-Stellplatz für Rollstuhlbenutzer (4.8, S. 15-17)
 
@@ -100,17 +113,23 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 ### Verweilplatz (Abschnitt 9)
 
 - Verweilplätze sind überdacht auszubilden und müssen taktil sowie optisch kontrastierend
-  auffindbar sein.
+  im Bereich von Gehwegen, Treppen- und Rampenanlagen auffindbar sein (Ortsangabe ergänzt
+  260715).
 
 ### Zugang/Überquerung (Abschnitt 10-11, S. 31-35)
 
-- Bordabsenkung auf 3 cm Höhe an Zugängen/Fussgängerüberwegen/Furten/Grundstückszufahrten/
-  Kfz-Parkflächen/Taxistellplätzen, in ganzer Breite (10.1).
+- Bordabsenkung auf 3 cm Höhe an Zugängen/Fussgängerüberwegen/Furten/Schutzinseln/
+  Grundstückszufahrten/Kfz-Parkflächen/Taxistellplätzen, in ganzer Breite (10.1; Liste um
+  «Schutzinseln» ergänzt 260715).
 - Überquerungsstellen rechtwinklig zur Fahrbahn (Blinde brauchen rechten Winkel zur
   Orientierung) — Bordsteine im Kurvenverlauf NIE absenken, ausser mit Aufmerksamkeitsfeld
   markiert (10.2).
 - Sichtdreiecke an Überquerungsstellen: Sichthindernisse max. 50 cm hoch (Augenhöhe ~125 cm
   für Auto-/Rollstuhlfahrer/Kinder) — strenger als EAE (80 cm) bzw. EAHV (100 cm).
+- Abdeckungen von Entwässerungs-/Revisionsschächten u.ä. dürfen nicht im Überquerungsbereich
+  liegen (10.2) — verhindert offene Schachtdeckel als Hindernis/Stolperfalle bei Revisionen
+  und schützt Blinde vor unerwarteten Hindernissen auf ihnen bekannten Wegen (ergänzt
+  260715).
 - **Lichtsignalanlagen an Furten** (Abschnitt 11): akustisch, optisch kontrastierend, taktil
   auffindbar (nach DIN 32981/RiLSA); Signal min. 5 dB(A) über Umfeldgeräusch; Bedienelement
   bei manueller Betätigung in 85 cm Höhe (nicht RiLSA-Standard 105 cm, wegen
@@ -121,15 +140,17 @@ Gefällen und Treppen/Rampen im öffentlichen Raum.
 
 ### Zugang zu unterschiedlichen Ebenen — Treppe (Abschnitt 12.1-12.3, S. 36-40)
 
-- Zugängigkeit zwingend über Treppen/Rampen/Aufzüge; Fahrsteige/Fahrtreppen ERSETZEN diese
-  NICHT (12.1).
+- Zugängigkeit zwingend über Treppen/Rampen/Aufzüge; Fahrsteige/Fahrtreppen ERSETZEN
+  Treppen und Aufzüge NICHT (12.1; präzisiert 260715 — das Original bezieht die
+  Ersatz-Aussage wörtlich nur auf Treppen/Aufzüge, nicht auf Rampen).
 - Barrierefreie Treppen sollen NICHT gewendelt sein (12.2) — bei gewendelten Treppen
   unterschiedliche Gehlinien links/rechts irritieren gehbehinderte/sehbehinderte Nutzer.
 - Handläufe beidseitig in 85 cm Höhe, Durchmesser 3-4,5 cm, auch bei Treppen <50 cm
   Absturzhöhe (dort bauordnungsrechtlich sonst kein Geländer nötig) — Handlauf dient primär
   als Gehhilfe, nicht nur Absturzsicherung.
-- Äusserer Handlauf 30 cm waagrecht über Anfang/Ende hinausragend; taktile Kennzeichnung
-  Anfang/Ende.
+- Innerer Handlauf am Treppenauge NICHT unterbrochen; äusserer Handlauf 30 cm waagrecht über
+  Anfang/Ende hinausragend; taktile Kennzeichnung Anfang/Ende (innerer Handlauf ergänzt
+  260715).
 - Erste und letzte Trittstufe mit 50-80 mm breitem, optisch kontrastierendem Streifen über
   gesamte Trittbreite markiert (bei Treppen ≤3 Stufen: alle Stufen markiert).
 - Stufenunterschneidungen (nach DIN 18065 v.a. bei steilen Treppen) sind für ältere/
@@ -390,6 +411,9 @@ Bayerischen Staatsministerium des Innern. Stand August 2001.
 
 ## Begriffe
 
+- **Ausstattungen (3.1):** Funktionselemente wie Orientierungshilfen, Lichtsignalanlagen,
+  Aufzüge, Fahrtreppen, Verkehrszeichen und Schilder, Geräte, Automaten, Telefonhauben,
+  Poller, Abfallbehälter, Fahrradständer, Werbeträger, Umwehrungen (ergänzt 260715).
 - **Barrierefrei:** Zustand, in dem alle Einrichtungen/Ausstattungen für alle Menschen — auch
   mit Behinderungen — benutzbar sind; Lösungen sind oft Kompromisse zwischen gegensätzlichen
   Bedürfnissen (Abschnitt 3, S. 8).
@@ -427,3 +451,21 @@ Kernlücke bestehen, dass die massgebende CH-Norm SIA 500 «Hindernisfreies Baue
 in dieser KB destilliert ist (P1-Lücke, s. Sektion «JANS-Praxis-Transfer») — dieser
 Bayern-Kommentar dient nur als Vergleichsgrösse/Prüfraster, nicht als zitierfähige
 Rechtsgrundlage für CH-Projekte.
+
+**Retro-verifiziert + Q&A-Selbstbefragung 260715 (Mini-Run 29):** 20 Prüffragen gegen den
+vollständigen Original-Volltext (S. 1-68) gestellt, 12 sofort bestanden (u.a.
+Bewegungs-/Begegnungsflächen-Zusammenstellung S. 22, Schriftgrössen-Tabelle S. 61,
+Querungsgeschwindigkeits-Rechenbeispiel S. 35, Bahnsteig-Statistik S. 52, alle in der
+Zusammenstellungstabelle S. 22 rückverifizierten Kernziffern), 8 Korrekturen/Ergänzungen
+direkt im Destillat nachgeführt: (1) Rechtlicher Hintergrund Art. 9 BayStrWG + geplante
+DIN-18030-Zusammenführung ergänzt (Geltungsbereich); (2) Generalklausel «Bewegungsflächen
+dürfen nicht in ihrer Funktion eingeschränkt sein» (4.1) ergänzt; (3) Liste 4.3 um
+Freizeit-/Pflegeeinrichtungen ergänzt; (4) Liste 10.1 um «Schutzinseln» ergänzt; (5)
+Abdeckungen von Entwässerungs-/Revisionsschächten nicht im Überquerungsbereich (10.2)
+ergänzt; (6) Aussage zu Fahrsteigen/Fahrtreppen (12.1) präzisiert — Original bezieht die
+«ersetzt nicht»-Aussage nur auf Treppen/Aufzüge, nicht auf Rampen; (7) innerer,
+nicht unterbrochener Handlauf am Treppenauge (12.2) ergänzt; (8) Verweilplatz-Ortsangabe
+«im Bereich von Gehwegen, Treppen- und Rampenanlagen» (Abschnitt 9) ergänzt; zusätzlich
+Begriffs-Definition «Ausstattungen» (3.1) ergänzt. Keine sachlichen Fehler (falsche
+Zahlenwerte) gefunden — alle Kennziffern (Masse, Prozente, Geschwindigkeiten) stimmten mit
+dem Original überein; die Korrekturen betrafen ausschliesslich Vollständigkeit/Präzision.

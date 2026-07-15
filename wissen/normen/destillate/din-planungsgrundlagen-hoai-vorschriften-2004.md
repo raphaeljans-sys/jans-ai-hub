@@ -7,8 +7,8 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-42 von 42 (vollständig)"
 datenstand: 2026-07-13
-status: "established (verifiziert 260714, Retro-Verifikation Run 19: beanstandet-korrigiert — §86 MBO war LP2 statt LP3 zugeordnet, LP7-Kostenvergleich fälschlich als „Kostenvoranschlag aus LP7" statt Kostenberechnung aus LP3 bezeichnet, §6 Abs.7 MBO Stützmauern-Ausnahme und 15-m-Schranken-Umfang ungenau, §65 Abs.2 Nr.4 MBO Bediensteter-Bedingung fehlte, LP8 Rechnungsprüfung/Verjährungsfristen-Auflistung fehlten, LP3-Abschnitt um DIN-Normenkatalog + Kostenberechnung/§37-Wirtschaftlichkeitsberechnung ergänzt, DIN-18205-Aussage von „häufigste Ursache" auf „oft" korrigiert). Q&A-Selbstbefragung Mini-Run 28 (260714): 20 Fragen, 18 bestanden, 0 Fehler korrigiert, 2 Ergänzungen (LP9-Grundleistung „Objektdokumentation" fehlte, LP9-Besondere-Leistung „Überwachen der Wartungs- und Pflegeleistungen" fehlte)."
-last_updated: "2026-07-14"
+status: "established (verifiziert 260715, Retro-Verifikation Run 19: beanstandet-korrigiert — §86 MBO war LP2 statt LP3 zugeordnet, LP7-Kostenvergleich fälschlich als „Kostenvoranschlag aus LP7" statt Kostenberechnung aus LP3 bezeichnet, §6 Abs.7 MBO Stützmauern-Ausnahme und 15-m-Schranken-Umfang ungenau, §65 Abs.2 Nr.4 MBO Bediensteter-Bedingung fehlte, LP8 Rechnungsprüfung/Verjährungsfristen-Auflistung fehlten, LP3-Abschnitt um DIN-Normenkatalog + Kostenberechnung/§37-Wirtschaftlichkeitsberechnung ergänzt, DIN-18205-Aussage von „häufigste Ursache" auf „oft" korrigiert). Q&A-Selbstbefragung Mini-Run 28 (260714): 20 Fragen, 18 bestanden, 0 Fehler korrigiert, 2 Ergänzungen (LP9-Grundleistung „Objektdokumentation" fehlte, LP9-Besondere-Leistung „Überwachen der Wartungs- und Pflegeleistungen" fehlte). Q&A-Selbstbefragung 260715 (Mini-Run 29): 18 Fragen, 12 sofort bestanden, 2 Fehler korrigiert (DIN-4108-Reihe fälschlich als lückenlose „1 bis 10" statt der im Original tatsächlich sieben genannten Teile -1/-2/-3/V-4/V-6/-7/-10 dargestellt; §75-MBO-Vorbescheid-Fristverlängerung „um jeweils ein Jahr" statt korrekt „bis zu einem Jahr"), 4 Ergänzungen (LP1-Grundleistung „Zusammenstellen der Ergebnisse" fehlte; §75 MBO/§12 BerechnungsVO/DIN 69900 in LP2 fälschlich als Grundleistungen statt als Besondere Leistungen dargestellt; §37 Gesamtwirtschaftlichkeitsberechnung in LP3 ebenso fälschlich nicht als Besondere Leistung gekennzeichnet; LP4-Besondere-Leistungen — Widerspruchs-/Klageverfahren-Unterstützung, Änderung Genehmigungsunterlagen — fehlten komplett)."
+last_updated: "2026-07-15"
 ---
 
 ## Das Wichtigste in 3 Sätzen
@@ -83,7 +83,10 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
 - Grundleistungen: Klärung der Aufgabenstellung (Art der Nutzung, Flächen, Qualität,
   Planungs-/Bauzeit, Mittel, Lage/Standort), Beratung zum Leistungsbedarf (Planen/
   Überwachen/Beraten/Betreuen/Prüfen/Bauen/Nutzen), Formulieren von Entscheidungshilfen
-  für die Auswahl weiterer Fachbeteiligter (S. 6).
+  für die Auswahl weiterer Fachbeteiligter (S. 6). **Ergänzung 260715 (Q&A-Selbstbefragung
+  Mini-Run 29, fehlte im Destillat):** vierte Grundleistung ist das **Zusammenstellen der
+  Ergebnisse** der Grundlagenermittlung zu den Punkten Ziele, Aufgabe, Leistungsbedarf,
+  Entscheidungshilfen, Ergebnisse der Besonderen Leistungen (S. 6).
 - Besondere Leistungen LP1: Bestandsaufnahme (mit 7-stufigem Ablaufschema Feststellung
   Arbeiten → Klärung Aufgabenstellung → Kurzbegehung → Vorbereitung → Bestandsaufnahme →
   Analyse → Vorplanung mit Kostenschätzung, Quelle Schmitz u.a. 1980, S. 8), Standortanalyse
@@ -147,15 +150,28 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   **DIN 276-1** (Kosten im Bauwesen — Teil 1: Hochbau), **DIN 277** (Grundflächen und
   Rauminhalte von Bauwerken im Hochbau), **DIN 18960** (Nutzungskosten im Hochbau),
   Zweite Berechnungsverordnung (S. 15).
-- **§ 75 MBO (Vorbescheid)**, S. 16: vor Einreichung des Bauantrags auf Antrag zu einzelnen
-  Fragen zu erteilen, gilt drei Jahre, verlängerbar auf schriftlichen Antrag um jeweils ein Jahr.
-- **§ 12 II. Berechnungsverordnung (Finanzierungsplan)**, S. 16: auszuweisende Mittel
-  (Fremdmittel mit Bedingungen, verlorene Baukostenzuschüsse, Eigenleistungen); Vor-/
-  Zwischenfinanzierungsmittel gelten NICHT als Finanzierungsmittel.
-- Energieeinsparung als Besondere Leistung LP2 (S. 16): passive Solarbauprinzipien,
+- **Ergänzung/korrigiert 260715 (Q&A-Selbstbefragung Mini-Run 29):** die vier folgenden Punkte
+  (§ 75 MBO Vorbescheid, DIN 69900 Zeit-/Organisationsplan, § 12 II. Berechnungsverordnung
+  Finanzierungsplan, Mitwirken bei Kreditbeschaffung, Energieeinsparung) stehen im Original
+  (S. 16) ALLE unter der Rubrik **„Besondere Leistungen"** der LP2 („Gegenüber den
+  Grundleistungen erweitert sind die Besonderen Leistungen formuliert. Sie beinhalten sowohl
+  Architektenleistungen wie auch Bauherrenleistungen, die im Einzelfall zur Klärung notwendig
+  werden.", S. 16) — nicht als Teil der Grundleistungen; destillat hatte bisher nur
+  „Energieeinsparung" korrekt so gekennzeichnet und § 75 MBO/§ 12 BerechnungsVO/DIN 69900
+  fälschlich in den Grundleistungs-Fluss eingereiht.
+- Besondere Leistung LP2 — **§ 75 MBO (Vorbescheid)**, S. 16: vor Einreichung des Bauantrags
+  auf Antrag zu einzelnen Fragen zu erteilen, gilt drei Jahre, Frist auf schriftlichen Antrag
+  jeweils **bis zu** einem Jahr verlängerbar (**korrigiert 260715**: destillat hatte „um
+  jeweils ein Jahr" geschrieben — Original spricht von einer Verlängerung „bis zu einem Jahr",
+  also einem Höchstmass, nicht einer fixen Ein-Jahres-Verlängerung).
+- Besondere Leistung LP2 — **§ 12 II. Berechnungsverordnung (Finanzierungsplan)**, S. 16:
+  auszuweisende Mittel (Fremdmittel mit Bedingungen, verlorene Baukostenzuschüsse,
+  Eigenleistungen); Vor-/Zwischenfinanzierungsmittel gelten NICHT als Finanzierungsmittel.
+- Besondere Leistung LP2 — Energieeinsparung (S. 16): passive Solarbauprinzipien,
   Optimierung Bau-/Beheizungsweise, Integration Solaranlagen, Windgeneratoren/geothermische
   Energie, Biomasse/Sonnenkollektoren/Wärmepumpen/Photovoltaik.
-- DIN 69900 (Projektmanagement — Netzplantechnik) für Zeit-/Organisationspläne (S. 16).
+- Besondere Leistung LP2 — DIN 69900 (Projektmanagement — Netzplantechnik) für
+  Zeit-/Organisationspläne (S. 16).
 
 ### 2.1.3 Entwurfsplanung (LP3) — S. 14-19
 
@@ -167,8 +183,11 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
 - **§ 9 MBO (Gestaltung)**, S. 15: bauliche Anlagen müssen nach Form, Massstab, Verhältnis
   der Baumassen und Bauteile zueinander, Werkstoff und Farbe so gestaltet sein, dass sie nicht
   verunstaltend wirken; dürfen Strassen-, Orts- und Landschaftsbild nicht verunstalten.
-- Umfangreiche DIN-Liste Wärme-/Schall-/Brandschutz (S. 15): DIN 4108-1 bis -10
-  (Wärmeschutz und Energie-Einsparung: Grössen, Mindestanforderungen, Feuchteschutz,
+- Umfangreiche DIN-Liste Wärme-/Schall-/Brandschutz (S. 15): DIN 4108-1, -2, -3, DIN V 4108-4,
+  DIN V 4108-6, -7, -10 (**korrigiert 260715**: Original listet exakt diese sieben Teile,
+  nicht durchgehend „-1 bis -10" — die Teile -5, -8, -9 fehlen im Quellentext; destillat hatte
+  das fälschlich als lückenlose Reihe „1 bis 10" zusammengefasst) (Wärmeschutz und
+  Energie-Einsparung: Grössen, Mindestanforderungen, Feuchteschutz,
   Bemessungswerte, Jahresheizwärmebedarf, Luftdichtheit, Wärmedämmstoffe), DIN 4109 +
   Beiblätter 1-3 (Schallschutz im Hochbau: Anforderungen/Nachweise, Ausführungsbeispiele,
   erhöhter Schallschutz, Berechnung Schalldämm-Mass), DIN 18005-1 + Beiblatt 1 (Schallschutz
@@ -221,7 +240,12 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   Kostengruppe 3 DIN 276 nach dem Baukostenberatungsdienst der Architektenkammer
   Baden-Württemberg (S. 18). Die Kostenkontrolle durch Vergleich der Kostenberechnung mit der
   Kostenschätzung (aus LP2) dient der Transparenz über die voraussichtlichen Baukosten (S. 18).
-  **§ 37 Gesamtwirtschaftlichkeitsberechnung (II. Berechnungsverordnung)**, S. 19: Gegenüber-
+  Besondere Leistung LP3 (**korrigiert 260715**: destillat hatte dies bisher nicht als
+  Besondere Leistung gekennzeichnet, sondern in den Grundleistungs-Fluss eingereiht — im
+  Original steht die Box „Wirtschaftlichkeitsberechnungen" unter derselben „Besondere
+  Leistungen"-Rubrik wie die vorstehend genannte Analyse der Alternativen/Kostenberechnung
+  durch Mengengerüste) — **§ 37 Gesamtwirtschaftlichkeitsberechnung (II. Berechnungsverordnung)**,
+  S. 19: Gegenüber-
   stellung der laufenden Aufwendungen und Erträge für das gesamte Gebäude/die Wirtschaftseinheit,
   Ausgliederung des auf öffentlich geförderten Wohnraum entfallenden Anteils; Bewirtschaftungs-
   kosten für Geschäftsraum sind gesondert anzusetzen (Abs. 1-4). Energieeinsparung als
@@ -279,6 +303,12 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
   oder Zustimmung im Einzelfall (§ 20); Übereinstimmungsnachweis (§ 22) durch
   Übereinstimmungserklärung des Herstellers (§ 23) oder Übereinstimmungszertifikat (§ 24);
   Prüf-/Zertifizierungs-/Überwachungsstellen (§ 25).
+- **Ergänzung 260715 (Q&A-Selbstbefragung Mini-Run 29, fehlte im Destillat): Besondere
+  Leistungen LP4** (S. 31): fachliche und organisatorische Unterstützung des Bauherrn im
+  Widerspruchsverfahren, Klageverfahren o.Ä. sowie Änderung der Genehmigungsunterlagen
+  infolge von Umständen, die der Auftragnehmer nicht zu vertreten hat — notwendig, wenn
+  nachbarliche Belange berührt sind, besondere Prüfverfahren notwendig werden oder
+  Widerspruchs-/Klageverfahren organisatorisch zu unterstützen sind.
 
 ### 2.1.5 Ausführungsplanung (LP5) — S. 31-38
 

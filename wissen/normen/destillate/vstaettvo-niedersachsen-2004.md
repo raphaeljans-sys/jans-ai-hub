@@ -5,8 +5,8 @@ ausgabe: "VStättVO Niedersachsen vom 08.11.2004 (Nds. GVBl. Nr. 32 vom 16.11.20
 ersetzt: "kein CH-Bezug — deutsches Landesrecht; Schweizer Pendant VKF-BRL 12-15 (Versammlungsstätten-Bestimmungen) + VKF-Brandschutznorm"
 gelesen: "S. 1-31/31 (vollstaendig)"
 datenstand: "16.11.2004"
-status: "established (vervollstaendigt + verifiziert 260714, Retro-Verifikation Run 19, S.1-31/31 vollstaendig)"
-last_updated: 2026-07-14
+status: "established (vervollstaendigt + verifiziert 260714, Retro-Verifikation Run 19; Q&A-Selbstbefragung 260715 Mini-Run 29, S.1-31/31 vollstaendig)"
+last_updated: 2026-07-15
 links: [[REGISTER]]
 ---
 
@@ -53,7 +53,8 @@ Bauten.
   Obergrenze **60 m** (Abs. 1); Fluren/Foyers max. 30 m bis Ausgang/Treppenraum (Abs. 3).
 - **§ 7 Abs. 4, Rettungsweg-Breite:** 0,60 m je 300 Personen (Freianlagen/
   Sportstadien) bzw. je 100 Personen (übrige), mind. jedoch **1,20 m**; Ausgänge
-  aus Räumen ≤200 m² genügen 0,90 m.
+  aus Aufenthaltsräumen ≤200 m² sowie Rettungswege im Bühnenhaus genügen
+  0,90 m; Rettungswege von Arbeitsgalerien genügen 0,80 m (ergänzt 260715).
 - **§ 8 Abs. 3/6, Treppen:** max. lichte Breite notwendiger Treppen **2,40 m**;
   **Wendeltreppen für allgemeinen Besucherverkehr unzulässig**.
 - **§ 9 Abs. 4/6, Türen in Rettungswegen:** Schiebetüren unzulässig (Ausnahme
@@ -62,14 +63,19 @@ Bauten.
 - **§ 10 Abs. 3-5, Sitzplätze/Gänge:** Sitzplatzbreite min. **0,50 m**, Durchgang
   zwischen Reihen min. **0,40 m**; Blöcke max. **30 Sitzplatzreihen**, dahinter
   Gänge min. **1,20 m** Breite; seitlich max. 10 Sitzplätze je Reihe (Freianlagen/
-  Stadien 20).
+  Stadien 20); zwischen zwei Seitengängen max. 20 Sitzplätze je Reihe
+  (Freianlagen/Stadien 40), bis zu 50 zulässig, wenn auf jeder Seite des
+  Versammlungsraumes je vier Sitzreihen eine Tür mit min. 1,20 m lichter Breite
+  angeordnet ist (ergänzt 260715).
 - **§ 10 Abs. 7, Rollstuhlplätze:** mind. **1% der Besucherplätze, mind. 2 Plätze**
   auf ebenen Standflächen, mit zugeordneten Begleitpersonen-Plätzen.
 - **§ 12 Abs. 1, Toiletten-Kennzahlen (Tabelle):** bis 1'000 Besucher je 100:
   1,2 WC Frauen / 0,8 WC + 1,2 Urinal Männer; über 1'000 je weitere 100: 0,8/0,4/
   0,6; über 20'000 je weitere 100: 0,4/0,3/0,6.
 - **§ 16 Abs. 3, Rauchabzug ab >1'000 m²:** Entrauchung muss raucharme Schicht
-  min. **2,50 m Höhe** auf allen Ebenen ermöglichen.
+  min. **2,50 m Höhe** auf allen zu entrauchenden Ebenen ermöglichen; bei Bühnen
+  genügt abweichend eine raucharme Schicht in Höhe der Bühnenöffnung statt der
+  festen 2,50 m (ergänzt 260715).
 - **§ 19 Abs. 3/5/6, Automatische Feuerlöschanlage:** Pflicht ab Versammlungsräumen
   gesamt **>3'600 m²** (Ausnahme: Einzelräume ≤400 m², Abs. 3); Pflicht bei
   Fussbodenebene **>22 m** über Gelände (Abs. 5) und bei Versammlungsräumen in
@@ -146,6 +152,13 @@ Bauten.
   Menschen bei Veranstaltungen, inkl. Schank-/Speisewirtschaften.
 - **Erdgeschossige Versammlungsstätte:** ein Geschoss ohne Ränge/Emporen, Fussboden
   max. 1 m unter Geländeoberfläche.
+- **Szenenfläche (§ 2 Abs. 4, ergänzt 260715):** Fläche für Darbietungen; für
+  Darbietungen bestimmte Flächen unter 20 m² gelten NICHT als Szenenfläche.
+- **Bühne (§ 2 Abs. 5, ergänzt 260715):** der hinter einer Bühnenöffnung liegende
+  Raum mit Szenenflächen (Haupt-, Hinter- und Seitenbühne inkl. der jeweils
+  zugehörigen Ober- und Unterbühnen).
+- **Mehrzweckhalle (§ 2 Abs. 11, ergänzt 260715):** überdachte Versammlungsstätte
+  für verschiedene Veranstaltungsarten.
 - **Grossbühne:** Bühne mit Szenenfläche >200 m² hinter Bühnenöffnung ODER
   Oberbühne >2,5 m lichte Höhe ODER mit Unterbühne.
 - **Wellenbrecher:** Schranke quer zu Stufenreihen, verhindert Kettenreaktion bei
@@ -175,3 +188,13 @@ Original geprüft. Vier Fundstellen-Ungenauigkeiten in den Kernziffern korrigier
 § 9, § 19 zitierten je nur einen Absatz, obwohl die genannten Fakten aus zwei bzw. drei
 verschiedenen Absätzen stammen). Alle Zahlenwerte, Paragrafen-Inhalte und Begriffe sonst
 korrekt bestätigt, keine erfundenen Inhalte gefunden.
+
+**Q&A-Selbstbefragung 260715 (Mini-Run 29):** 20 Fragen zu Paragrafen/Grenzwerten/
+Fundstellen direkt am Original-Volltext (S. 1-31/31) geprüft. 16 sofort bestanden (Kernziffern
+korrekt zitiert, keine Fehler gefunden), 0 Fehler zur Korrektur. 4 Ergänzungen direkt im
+Destillat nachgetragen: (1) § 7 Abs. 4 Rettungsweg-Breite Bühnenhaus (0,90 m) und
+Arbeitsgalerien (0,80 m) ergänzt; (2) § 10 Abs. 5 Sitzplatzzahl zwischen zwei Seitengängen
+(20/40, bis 50 mit Türen) ergänzt; (3) § 16 Abs. 3 Bühnen-Sonderregel raucharme Schicht
+(Höhe Bühnenöffnung statt fix 2,50 m) ergänzt; (4) Begriffe-Glossar um Szenenfläche (§ 2
+Abs. 4), Bühne (§ 2 Abs. 5) und Mehrzweckhalle (§ 2 Abs. 11) erweitert, da diese Begriffe im
+Destillat durchgehend verwendet, aber bisher nicht definiert waren.

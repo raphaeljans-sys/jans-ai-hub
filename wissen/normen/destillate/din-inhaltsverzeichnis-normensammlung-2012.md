@@ -7,8 +7,8 @@ ersetzt: ""
 ersetzt_durch: ""
 gelesen: "S. 1-24 von 24 (vollständig)"
 datenstand: 2026-07-13
-status: "established (verifiziert 260714, Retro-Verifikation Run 19; Korrektur: fehlender Eintrag DIN V 106 [2005-10, Kalksandsteine mit besonderen Eigenschaften] zwischen DIN 105-100 und DIN 107 ergänzt, sonst Volltextabgleich aller ~450 Einträge gegen Original bestätigt)"
-last_updated: "2026-07-14"
+status: "established (verifiziert 260714 Retro-Verifikation Run 19 + 260715 Q&A-Selbstbefragung Mini-Run 29: 18 Fragen, 16 sofort bestanden, 0 Fehler gefunden, 2 Präzisierungen ergänzt [Eurocode-Teile-Lücken DIN EN 1991/1993, DIN EN 1176-4 abweichendes Datum]; Volltextabgleich aller ~450 Einträge gegen Original bestätigt)"
+last_updated: "2026-07-15"
 ---
 
 ## Das Wichtigste in 3 Sätzen
@@ -592,6 +592,8 @@ Reihenfolge wie im Original (grob numerisch/alphabetisch nach Präfix DIN → DI
 
 ## Offene Punkte
 
+- **Eurocode-Reihen nicht lückenlos (ergänzt 260715, Q&A-Selbstbefragung):** Die kompakten Bereichs-Notationen «DIN EN 1991-1-1..-1-7 (+NA je)» und «DIN EN 1993-1-1..1-11 (+NA je)» in der Tabelle oben suggerieren eine durchgehende Teile-Folge. Tatsächlich fehlt im Original-Bestand **DIN EN 1991-1-2** (Brandeinwirkungen) komplett — die Reihe springt direkt von Teil 1-1 zu Teil 1-3. Bei **DIN EN 1993** sind nur die Teile 1-1, 1-3, 1-5, 1-8, 1-9, 1-10 und 1-11 gelistet; die Teile 1-2, 1-4, 1-6 und 1-7 fehlen im 2012er-Bestand. Wer eine dieser Lücken-Normen sucht, findet sie **nicht** in diesem Register und muss extern beschaffen.
+- **DIN EN 1176-4 abweichendes Datum (ergänzt 260715):** Innerhalb der pauschal mit «2008-08 ff.» notierten Spielplatzgeräte-Reihe DIN EN 1176 hat Teil 4 (Seilbahnen) im Original tatsächlich das Ausgabedatum **2008-10**, nicht 2008-08 wie die übrigen Teile (-1, -2, -3, -5, -6, -7, -10, -11).
 - **Massiver Bestandsunterschied:** Das Register von 2012 listet rund 450 Einzelnormen; der aktuell digitalisierte SharePoint-Bestand (`wissen/normen/training/norm-inventar.md`, DIN-Abschnitt) umfasst nur 71 Dateien. Der grösste Teil der 2012 gelisteten Normen (v.a. DIN EN, DIN EN ISO, DIN ISO, DIN SPEC sowie viele Fach-DIN wie 18xxx-Serien Barrierefreiheit/Bauteile/Abdichtungen, 45xxx Akustik, 12xxx-15xxx harmonisierte EN-Normen) ist **nicht** im aktuellen digitalen Bestand vorhanden. Das ist erwartbar (2012-Stand einer physischen Bibliothek, seither nicht 1:1 nachdigitalisiert) und keine akute Lücke, aber ein Hinweis für die Priorisierung künftiger Digitalisierung/Beschaffung, falls einzelne dieser Normen für ein konkretes JANS-Projekt gebraucht werden (z.B. DIN EN 1990/EN 1991 ff. Eurocode-Reihe, DIN 18040 Barrierefreies Bauen, DIN 4109 Schallschutz, DIN EN ISO 13790 Energiebedarf).
 - Kein Vollabgleich Zeile für Zeile gegen `norm-inventar.md` durchgeführt (würde ~450 Einzelvergleiche erfordern) — bei konkretem Bedarf gezielt nachschlagen, ob eine hier gelistete Norm bereits digitalisiert/destilliert ist.
 - Das Original-PDF enthält keine Seitenzahlen und keine durchgehende Kapitelgliederung ausser der alphanumerischen Norm-Nummer-Sortierung; die Gruppierung oben (DIN / DIN EN / DIN EN ISO+DIN ISO / DIN SPEC) wurde für dieses Destillat zur besseren Lesbarkeit eingeführt, entspricht aber der Reihenfolge im Original.

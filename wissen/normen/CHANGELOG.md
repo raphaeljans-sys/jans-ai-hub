@@ -1,3 +1,22 @@
+## 2026-07-14/15 — normen-training-mini Run 29 (Mac Mini, Intensiv-Lauf auf Zuruf): Q&A-Selbstbefragung Rest-DIN/VSS/RAL komplett — Vertiefungsstufe (c) DIN/VSS/RAL abgeschlossen
+Auftrag Raphael: EIN Intensiv-Lauf, NUR Familien DIN/VSS/RAL (Stations-Split, SIA/VKF nicht angefasst).
+Inventar-Check: DIN/VSS/RAL-Grunddestillation weiterhin 0 offene `[ ]`-Positionen. Fortsetzung Vertiefungsstufe (c)
+aus Mini-Run 28: 9 parallele Q&A-Selbstbefragungs-Agenten (je 1 Agent pro Destillat, kein Sub-Agent-Spawning)
+haben ALLE 9 verbliebenen Destillate ohne Selbsttest abgearbeitet.
+- vstaettvo-niedersachsen-2004.md: 20 Fragen, 16 bestanden, 0 Fehler, 4 Ergaenzungen (§7/§10/§16, Begriffe).
+- din-inhaltsverzeichnis-normensammlung-2012.md: 18 Fragen, 16 bestanden, 0 Fehler, 2 Praezisierungen.
+- hoai-bauen-im-bestand-2011.md: 20 Fragen, 13 bestanden, 0 Fehler, 7 Ergaenzungen (LP4 fehlte komplett).
+- sn-640105a-2000.md: 18 Fragen, 14 bestanden, 0 Fehler, 4 Ergaenzungen.
+- komm-din18024-t1-bayern-2001.md: 20 Fragen, 12 bestanden, 1 Korrektur (12.1 Fahrsteige-Praezisierung), 8 Ergaenzungen.
+- vds-2234-1999-brand-komplextrennwaende.md: 20 Fragen, 17 bestanden, 1 Fehler (Ziff.6.2.2 Muss- statt Kann-Bestimmung), 3 Ergaenzungen.
+- treppen-hcu-hamburg-2008.md: 20 Fragen, 15 bestanden, 1 Fehler (Laufbreiten-Tabelle Wohngebaeude-Zuordnung), 4 Ergaenzungen.
+- din-planungsgrundlagen-hoai-vorschriften-2004.md: 18 Fragen, 12 bestanden, 2 Fehler (DIN-4108-Teile-Luecke, §75 MBO Fristdauer), 4 Ergaenzungen.
+- baupreisindizes-statistisches-bundesamt-2010.md: 20 Fragen, 16 bestanden, 1 Fehler (Umbasierungsformel-Beschriftung), 3 Ergaenzungen; zusaetzlich eine Diskrepanz IM ORIGINAL selbst entdeckt (Fliesstext 2,0% vs. Tabelle-1.1-Rechnung +0,2%) und transparent als offen dokumentiert statt geglaettet.
+**Summe:** 9 Destillate, 174 Pruefungsfragen, 5 Sachfehler korrigiert, ca. 39 Ergaenzungen/Praezisierungen. Alle 9
+Destillate `established`. **Damit ist Vertiefungsstufe (c) Q&A-Selbstbefragung fuer die komplette Familie
+DIN/VSS/RAL abgeschlossen** — kein Destillat ohne Selbsttest mehr offen. Naechste Stufe: (d) Querschnitts-
+Synthesen fuer Fach-Skills (werkvertrag/honorar/brandschutz/flaechen-nachweis), sofern noch nicht abgedeckt.
+Nachgefuehrt: `training/norm-inventar.md` (9 Zeilen). Lauf-Report: `outputs/2026-07-15_normen-mini-run29.md`.
 ## 2026-07-14 — Mini-Run 28 (Mac Mini, Intensiv-Lauf auf Zuruf): Q&A-Selbstbefragung 17 DIN/Sonstiges-Destillate
 Auftrag Raphael: Intensiv-Lauf NUR Familien DIN/VSS/RAL (Stations-Split, SIA/VKF nicht angefasst).
 Basis: DIN/VSS/RAL-Grunddestillation weiterhin 0 offene `[ ]`-Positionen (seit Run 19); 32
