@@ -1345,29 +1345,33 @@ in Zahlen sehen will: die freiwillige FEA (FFF/SZFF/EnergieSchweiz) klassiert Fe
 < 0, solare Gewinne übersteigen die Verluste) bis **G** (Uw,eq ≥ 0,8); ein Musterfenster mit Uw 1,1 und
 g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` (exakte Klassentabelle).
 
-**Ergänzung — Uf grob nach Rahmenmaterial:** Eine einzelne, nicht amtliche Web-Quelle nennt für
-**Holzrahmen** Uf ca. **1,3–1,8 W/(m²·K)**; für Kunststoff/Holz-Metall gibt es keine belastbare Zahl.
-Nur als **grobe erste Orientierung** verwenden, nie als Ersatz für den Hersteller-/SZFF-Wert des
-gewählten Produkts (die SZFF selbst führt keine öffentliche Material-Tabelle) →
-`[[uf-werte-rahmenmaterial-grobuebersicht]]` (Status `speculative`).
+**Ergänzung — Uf amtlich nach Rahmenmaterial (bestätigt 2026-07-15):** Der amtliche BFE-Bauteile-
+katalog (2002, Kap. 5.1.2) nennt als **Fallback-Höchstwerte ohne Produktnachweis**: Holz/Holz-Metall
+**Uf 1,9**, Kunststoff **Uf 2,5**, wärmegedämmte Verbundprofile (Alu mit thermischer Trennung)
+**Uf 3,3 W/(m²·K)**. Reale, gut gedämmte Produkte liegen oft darunter (Holzfenster real eher
+1,3–1,8, Sekundärquelle) — die drei amtlichen Zahlen sind der konservative Nachweis-Fallback, nicht
+der Marktbestwert → `[[fenster-verglasung-uw-g-wert]]` (Status **established** für den Fallback).
 
-**Ergänzung — g-Werte je Verglasungstyp (ohne Sonnenschutz):** Zweifach-Wärmeschutzglas g **~0,58–0,62**
-(Flachglas Schweiz vetroTherm), Dreifachglas Standard g **~0,61** (vetroTherm Trio), Sonnenschutzglas
-g **0,17–0,37** je nach Beschichtungsstärke (vetroSol/vetroSol Trio) — DE-Sekundärquellen nennen etwas
-breitere Bandbreiten (2-fach 0,60–0,75; 3-fach 0,50–0,60; Sonnenschutz 0,20–0,45), CH-amtliche
-Typentabelle fehlt weiterhin, Status `needs-verification`. Der Zielkonflikt (hoher g-Wert heizt im
-Winter mit, überhitzt im Sommer) löst sich am Glas allein nicht auf — deshalb bleibt der aussenliegende
-bewegliche Sonnenschutz (g_tot 0,10–0,15) meist die bessere Lösung als ein sehr tiefer fester g-Wert;
-Sonnenschutzglas eignet sich vor allem dort, wo beweglicher Sonnenschutz baulich nicht möglich ist
-(Fixverglasung, Vorhangfassade). ⚠ g < 0,3 löst gemäss EN-102 den Systemnachweis (statt
-Einzelbauteilnachweis) aus → `[[g-werte-verglasungstypen-ch]]`.
+**Ergänzung — g-Werte amtlich je Verglasungstyp (bestätigt 2026-07-15):** Derselbe BFE-Bauteile-
+katalog (Kap. 5.1.4, Tab. 5) nennt **2-IV-IR (2-fach-Wärmeschutzglas): g = 62 %** und **3-IV-IR
+(3-fach-Wärmeschutzglas): g = 45 %** als amtliche Standardwerte (reale 3-fach-Produkte streuen laut
+SZFF Doku 31.03 45–55 % je nach Glasanordnung). Für **Sonnenschutzglas gibt es amtlich bewusst
+keinen Pauschalwert** — der Katalog verlangt hier ausdrücklich die produktspezifische Herstellerangabe
+(kommerzielle Werte ca. 21–37 % 2-fach / 25–33 % 3-fach, nicht amtlich). Der Zielkonflikt (hoher
+g-Wert heizt im Winter mit, überhitzt im Sommer) löst sich am Glas allein nicht auf — deshalb bleibt
+der aussenliegende bewegliche Sonnenschutz (g_tot 0,10–0,15) meist die bessere Lösung als ein sehr
+tiefer fester g-Wert. ⚠ g < 0,3 löst gemäss EN-102 den Systemnachweis (statt Einzelbauteilnachweis)
+aus.
 
 **Quelle:** EnergieSchweiz «Worauf es bei der Fenstersanierung ankommt»; HSLU/enbau-online «Fenster –
-Verglasung – Sonnen-, Wetter- und Blendschutz»; Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch
-→ `[[fenster-verglasung-uw-g-wert]]`, Themenartikel `[[fenster-verglasung]]`. U-Wert-Grenzwerte → F3 /
-`[[enfk-en-102-waermeschutz-2018]]`; sommerlicher Wärmeschutz/g_tot → F11 / `[[sommerlicher-waermeschutz]]`.
-⚠ **Datenstand 2026-07-07:** MuKEn-/Minergie-Grenzwerte und CHF-Richtwerte periodisch angepasst — vor
-dem Zitieren aktuellen kantonalen Stand (EVEN/EnerG ZH) bzw. minergie.ch prüfen.
+Verglasung – Sonnen-, Wetter- und Blendschutz»; Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch;
+BFE «U-Wert-Berechnung und Bauteilekatalog Neubauten» (2002, Kap. 5.1.2/5.1.4, amtliche g-/Uf-Werte);
+BFE-Faktenblatt «Energieetikette für Fenster» (pubdb 7731) → `[[fenster-verglasung-uw-g-wert]]`,
+Themenartikel `[[fenster-verglasung]]`. U-Wert-Grenzwerte → F3 / `[[enfk-en-102-waermeschutz-2018]]`;
+sommerlicher Wärmeschutz/g_tot → F11 / `[[sommerlicher-waermeschutz]]`.
+⚠ **Datenstand 2026-07-15:** g-/Uf-Fallback amtlich (BFE-Katalog 2002); MuKEn-/Minergie-Grenzwerte
+und CHF-Richtwerte periodisch angepasst — vor dem Zitieren aktuellen kantonalen Stand (EVEN/EnerG ZH)
+bzw. minergie.ch prüfen.
 
 ---
 
@@ -1584,10 +1588,21 @@ bewusst `emerging`. Kanton ZH fördert die Grunderschliessung zusätzlich mit CH
 (bis 15 Parkplätze, danach CHF 300.-) und die bidirektionale Ladestation mit CHF 2'000.- pauschal
 → `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`.
 
+**Ergänzt 2026-07-15 — wichtige Klarstellung Förderzuständigkeit:** Das ZH-Förderprogramm
+Ladeinfrastruktur (CHF 500/300, Budget total CHF 50 Mio., Stand 06.07.2026 bereits **über 92 %
+ausgeschöpft**) läuft über die **Volkswirtschaftsdirektion/Amt für Mobilität** (Portal
+portal.dasgebaeudeprogramm.ch/zh) — ein **anderes Amt** als das AWEL/Baudirektion-Programm für
+Wärmedämmung/Wärmepumpen/GEAK. Neubauten ab 2023 sind von der ZH-Förderung ausgeschlossen. In
+**Schwyz gibt es auf Kantonsebene keine eigene Ladeinfrastruktur-Förderung** (Negativbefund, AfU
+SZ-Seite «Elektromobilität» bietet nur Beratung/Verweise); lokal nur punktuelle Angebote wie der
+verbilligte «E-MobilitätsCheck» der Energie-Region Innerschwyz (Beratung, kein Infrastruktur-
+Zuschuss) oder eine reine Fahrzeug-Kaufprämie (ebs, CHF 1'000).
+
 **Quelle:** EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» (Nov 2024) + «im
 Bestandsbau — Rollen und Prozesse» (Sept 2025); Zogg «Wärmepumpen, PV und Elektromobilität» (Juli 2023);
-SIA-2060-Kostenzahlen via Kanton-ZH-Infoblatt (Primärquelle, Volltext) + Härz AG (nicht eigenständig)
-→ `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`,
+SIA-2060-Kostenzahlen via Kanton-ZH-Infoblatt (Primärquelle, Volltext) + Härz AG (nicht eigenständig);
+Kt. ZH Amt für Mobilität «Förderprogramm Ladeinfrastruktur»; Kt. SZ AfU «Elektromobilität» →
+`[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`,
 `[[elektromobilitaet-ladeinfrastruktur]]`; PV-Kopplung → `[[wp-pv-eigenverbrauch-lastmanagement]]`.
 ⚠ SIA 2060 selbst kostenpflichtig, nicht gelesen — die CHF-Zahlen stammen aus dem behördlichen
 Infoblatt, nicht aus der Norm.
@@ -2599,10 +2614,22 @@ dürfen die vollen Contracting-Kosten über die Nebenkosten verrechnet werden. F
 Contracting ist keine eigene Standardlösung (SL1–SL11), sondern nur das Finanzierungskleid einer
 ohnehin zulässigen Lösung (meist SL5 Fernwärme/Wärmeverbund).
 
-**Quelle:** BFE/EnergieSchweiz «Wärme im Abo» (2004), AEW Energie AG, Zeitschrift Wohnen, Kt. Schwyz
-AfU (Präsentation 22.10.2021) → `[[waerme-contracting-vertragsmodelle-ch]]`. Status **emerging**
-(Vertragsmodelle + Art. 6a VMWG mehrquellig belegt; Preisüberwacher-Praxis und MuKEn-2025-Wortlaut
-offen).
+**Ergänzt 2026-07-15:** Die konkrete Rechtsgrundlage für den Wärmeerzeugerersatz ist in Zürich
+**§ 11 EnerG** (nicht § 10b, der ausschliesslich Elektroheizungen betrifft), in Schwyz **§ 8d
+kEnG** (nicht § 22a, der ebenfalls Elektroheizungen betrifft) — beide Gesetzestexte im Volltext
+verifiziert. Ein Contracting-/Anschlussvertrag wird beim ZH-Baugesuch in zwei Rollen anerkannt:
+als Nachweis der verbindlichen künftigen Wärmenetzanbindung bei einer Übergangsbewilligung, und
+als Beleg gegen einen Härtefall-Aufschub (§ 11b EnerG), weil ein Contractor die Investition
+marktüblich finanzieren könnte. «Swiss Contracting» ist 2026 weiterhin technisch inaktiv (leere
+Website) — als aktive Ansprechpartner gelten **swissesco** (Energiespar-Contracting) und
+**Thermische Netze Schweiz** (Wärmenetz-Contractoren).
+
+**Quelle:** BFE/EnergieSchweiz «Wärme im Abo» (2004), AEW Energie AG, Zeitschrift Wohnen, Kt. Zürich
+EnerG §§ 11/11a/11b (Volltext), AWEL Vollzugsordner Energie (Ausgabe 1/2023), Kt. Schwyz kEnG § 8d/
+kEnV §§ 24f-g (Volltext), swissesco.ch, thermische-netze.ch →
+`[[waerme-contracting-vertragsmodelle-ch]]`. Status **emerging** (Vertragsmodelle + Art. 6a VMWG
+mehrquellig belegt, kantonale Rechtsgrundlagen jetzt primärquellenverifiziert; Preisüberwacher-
+Praxis und MuKEn-2025-Wortlaut weiterhin offen).
 
 ---
 
@@ -2643,15 +2670,28 @@ die Grundwassertemperatur darf max. 3 °C verändert werden, ausserhalb 100 m au
 ist Kühlen (Abkühlen) ausdrücklich erwünscht (ΔT bis 7 °C je nach Lage), Heizen hält die 3°C-Regel
 strikt ein. Ausgeschlossen sind wie bei der Erdsonde die Grundwasserschutzzonen S1/S2/S3. Ein
 hydrogeologischer Bericht (Ergiebigkeit, Fliessrichtung, Nachbar-Auswirkung) ist in beiden Kantonen
-Bewilligungsvoraussetzung. **Vorsicht bei Zahlen:** konkrete JAZ-Vergleichswerte (Richtung: GW-WP
-tendenziell effizienter als Erdsonde/Luft-WP wegen konstant höherer Quelltemperatur) und
-CHF-Kostenangaben für die Bohrung sind nur aus kommerziellen bzw. nicht primärquellen-verifizierten
-Quellen bekannt — nur als grobe Richtwerte kommunizieren.
+Bewilligungsvoraussetzung. **Vorsicht bei Zahlen:** eine konkrete JAZ-Zahl speziell für
+Grundwasser-WP ist weiterhin nicht primärquellenbelegt (nur die plausible Richtung: tendenziell
+effizienter wegen konstant höherer Quelltemperatur). Für Erdsonde/Luft-Wasser gibt es dagegen jetzt
+eine echte EnergieSchweiz-Feldstudie (OST/WPZ Buchs, 2017-2019): Erdsonde JAZ **4,4-5,7**, Luft/
+Wasser **2,9-3,7** (Bandbreite Neubau/Sanierung/Altbau) — solide Vergleichswerte, wenn statt
+Grundwasser eine Erdsonde geprüft wird. CHF-Kostenangaben für die Bohrung bleiben nur aus
+kommerziellen, nicht amtlichen Quellen bekannt.
+
+**Ergänzt 2026-07-15:** Das ZH-**Wasserwirtschaftsgesetz von 1991 ist per 1. Juni 2026** durch das
+neue **Wassergesetz (WsG)** abgelöst worden — die Konzessionssystematik bleibt materiell gleich,
+neu ist ein Wärmenutzungsatlas als Planungsgrundlage. Die in Sekundärquellen kursierende Aussage
+«Konzessionsdauer max. 40 Jahre» wurde am Gesetzestext selbst geprüft und ist dort **nicht
+auffindbar** — die Dauer wird von der Behörde im Einzelfall festgelegt, ohne gesetzlichen Fixwert;
+diese Zahl bitte nicht mehr als Fakt verwenden. In Schwyz wurde die Rechtsgrundlage (§ 12 WRG,
+4 Wohneinheiten/50 kW) wortgetreu am Originalgesetz bestätigt, unverändert seit einer Revision 2018.
 
 **Quelle:** AWEL Kt. ZH, Kt. Schwyz Amt für Umwelt und Energie, BFE-Bericht «Bewilligungsverfahren
-Grundwasserwärmenutzung in den Kantonen» (03.2017), BAFU-Vollzugshilfe UV-0910-D (2009) →
-`[[grundwasserwaermenutzung-bewilligung-zh-sz]]`. Status **emerging** (Bewilligungssystematik +
-Temperaturregel amtlich verifiziert; JAZ/Kosten/ZH-Konzessionsdauer offen).
+Grundwasserwärmenutzung in den Kantonen» (03.2017), BAFU-Vollzugshilfe UV-0910-D (2009), Kt. ZH
+Wassergesetz WsG vom 12.12.2022 (Volltext), Kt. SZ Wasserrechtsgesetz WRG (Volltext), OST/WPZ Buchs
+Feldmessung Wärmepumpen (EnergieSchweiz) → `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`. Status
+**emerging** (Bewilligungssystematik + Temperaturregel amtlich verifiziert, ZH-Rechtsgrundlage
+2026 aktualisiert, Konzessionsdauer-Fehlbehauptung widerlegt; GWWP-spezifische JAZ/Kosten offen).
 
 ---
 

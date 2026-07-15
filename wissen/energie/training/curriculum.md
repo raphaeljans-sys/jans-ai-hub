@@ -191,6 +191,28 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (Art. 269d OR) → `[[vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz]]` (neu, **established**),
   FAQ **F84/F85** neu.
 
+- **D53 (Run 72, 2026-07-15, vier Hintergrund-Agenten erfolgreich)** — Zweiter Intensiv-Lauf am
+  selben Tag auf Wunsch Raphaels; anders als Run 71 liefen diesmal alle vier parallel gestarteten
+  Rechercheagenten fehlerfrei durch (Grundwasserwärmenutzung, g-Wert/Uf-Wert-Tabelle,
+  Ladeinfrastruktur-Förderung, Wärme-Contracting — die vier Prioritätspunkte aus Run 71 «nicht
+  erreicht»). **Grundwasserwärmenutzung:** ZH-Wassergesetz-Inkrafttreten 1.6.2026 primärquellen-
+  bestätigt, kursierende «40-Jahre-Konzessionsdauer» am Gesetzestext WIDERLEGT, JAZ Erdsonde/
+  Luft-Wasser über EnergieSchweiz-Feldstudie belegt (4,4-5,7/2,9-3,7), SZ § 12 WRG wortgetreu
+  bestätigt → `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`, FAQ F77 geschärft. **g-/Uf-Wert-
+  Tabelle:** amtliche BFE-Bauteilekatalog-Werte g 62 %/45 % (2-IV-IR/3-IV-IR), Uf-Fallback
+  1,9/2,5/3,3 primärquellenbestätigt, FEA-Klassengrenzen A-G direkt gelesen, Referenzfenstergrösse
+  1,55×1,15 m bestätigt → `[[fenster-verglasung-uw-g-wert]]`, FAQ F35 geschärft. **Ladeinfrastruktur-
+  Förderung:** Kt. ZH eigenes CHF-50-Mio.-Programm bei der Volkswirtschaftsdirektion (getrennt vom
+  AWEL-Energieprogramm), Stand 06.07.2026 über 92 % ausgeschöpft; Kt. SZ kantonal keine Förderung
+  (Negativbefund) → `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, FAQ F39 geschärft.
+  **Wärme-Contracting:** wichtige KB-Korrektur — § 10b EnerG ZH/§ 22a kEnG SZ betreffen
+  ausschliesslich Elektroheizungen, nicht Standardlösungen/Contracting; richtig ist § 11 EnerG ZH/
+  § 8d kEnG SZ; ZH-Rolle des Contracting-Vertrags (Übergangs-/Härtefall-Nachweis) geklärt; Swiss
+  Contracting bestätigt inaktiv, swissesco/Thermische Netze Schweiz als aktive Alternativen →
+  `[[waerme-contracting-vertragsmodelle-ch]]`, FAQ F75 geschärft. FAQ-Stand unverändert **85
+  Kernfragen (F35/F39/F75/F77 geschärft, keine neue Nummer)**. Alle vier Destillate + Register
+  (destillate/INDEX.md, wiki/BAUHERREN-FAQ.md) nachgeführt.
+
 - **D52 (Run 71, 2026-07-15, ohne Hintergrund-Agenten)** — Intensiv-Lauf auf Wunsch Raphaels; die
   sechs geplanten parallelen Rechercheagenten brachen alle reproduzierbar direkt nach dem ersten
   Werkzeugaufruf ab (Umgebungsfehler, auch nach Resume), daher Recherche manuell in der Hauptsession

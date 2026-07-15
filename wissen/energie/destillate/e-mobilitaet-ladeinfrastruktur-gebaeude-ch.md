@@ -2,10 +2,10 @@
 quelle: EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» + «Ladeinfrastruktur im Bestandsbau — Rollen und Prozesse» (energieschweiz.ch/laden-punkt.ch); E-Mobilitaets-Kapitel aus Zogg «Waermepumpen, Photovoltaik und Elektromobilitaet» (HK-Gebaeudetechnik 4/24, Ausgabe Juli 2023); ergaenzt Kanton-Zuerich-Baudirektion «Infoblatt zu Merkblatt SIA 2060» (zh.ch, seit 2026-07-13 per pdftotext vollstaendig als Primaerquelle gelesen) + Haerz AG/elektromobilitaet-schweiz.ch (Zweitquelle, gleiche Zahlen, keine eigene Herleitung); Vertiefung mit Recherche nach weiteren Drittquellen in [[sia-2060-kosten-ladeinfrastruktur-vertiefung]]
 herausgeber: Swiss eMobility mit Unterstuetzung EnergieSchweiz / Bundesamt fuer Energie BFE; Fachartikel Prof. Dr. David Zogg (FHNW / Smart Energy Engineering); SIA-2060-Kostenzahlen ueber Kanton ZH Baudirektion AWEL (IBG Engineering AG Winterthur) + Haerz AG
 ausgabe: Leitfaden Mietobjekte akt. November 2024 (Faktenblatt April 2025); Leitfaden Bestandsbau September 2025; Zogg-Artikel Juli 2023; SIA 2060 Merkblatt (01.05.2020), ZH-Infoblatt datiert 13. Oktober 2020 (Datum jetzt gesichert)
-gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen); ergaenzt 2026-07-13 (ZH-Infoblatt-PDF vollstaendig per pdftotext gelesen, Drittquellen-Recherche ohne neuen unabhaengigen Fund, siehe Vertiefung)
-datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), ZH-Kostenbasis 13.10.2020, NIV SR 734.27
+gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen); ergaenzt 2026-07-13 (ZH-Infoblatt-PDF vollstaendig per pdftotext gelesen, Drittquellen-Recherche ohne neuen unabhaengigen Fund, siehe Vertiefung); ergaenzt 2026-07-15 (Foerderung ZH/SZ, Quelle Kt. ZH Amt fuer Mobilitaet «Foerderprogramm Ladeinfrastruktur», Kt. SZ AfU «Elektromobilitaet», EnergieSchweiz «Einfach laden»)
+datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), ZH-Kostenbasis 13.10.2020, NIV SR 734.27; Foerderung ZH/SZ Stand 15.07.2026 (ZH-Programm Ausschoepfung 06.07.2026)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-15
 ---
 
 # Elektromobilitaet — Ladeinfrastruktur am Wohngebaeude (CH)
@@ -105,6 +105,56 @@ Nutzflaeche** fuer A/B/C1, aus dem gleichen Suchergebnis, nicht weiter verifizie
 - **Rechtsrahmen Elektrosicherheit:** Niederspannungs-Installationsverordnung **NIV (SR 734.27)**;
   Detail-Technik im Leitfaden «Installation von Ladeinfrastruktur fuer E-Fahrzeuge».
 
+## Förderung Ladeinfrastruktur — ZH und SZ (Vertiefung 2026-07-15)
+
+**Bund:** kein direktes Förderprogramm für private/halbprivate Gebäude-Ladeinfrastruktur gefunden.
+EnergieSchweiz «Einfach laden» und «laden-punkt.ch» (BFE-Infoline 0848 444 444) sind
+Informations-/Beratungsangebote, keine eigenen Bundesbeiträge; sie verweisen an Kantone/Gemeinden.
+Quelle: energieschweiz.ch/programme/ladeinfrastruktur/ (abgerufen 15.07.2026).
+
+**Kt. Zürich — eigenes Programm, aber STRUKTURELL GETRENNT vom «Förderprogramm Energie 2026»:**
+Das kantonale **Förderprogramm Ladeinfrastruktur** ist ein eigenständiges Programm der
+**Volkswirtschaftsdirektion/Amt für Mobilität** (nicht der Baudirektion/AWEL, die das
+Wärmedämmung/Wärmepumpen/Solarthermie/GEAK-Programm führt) — für die Bauherren-Beratung wichtig:
+Ladeinfrastruktur-Fragen laufen über ein anderes Amt und Portal als Wärme-/Hüllen-Förderung.
+
+- **Budget:** CHF 50 Mio., befristet bis Mittel aufgebraucht/spätestens Ende 2026; Stand
+  06.07.2026 bereits **> 92 % ausgeschöpft** — Fördertopf nähert sich der Erschöpfung.
+- **Förderbeträge Wohngebäude (Basisinfrastruktur, nicht die Ladestation selbst):** CHF 500 pro
+  Parkplatz für die ersten 15 Parkplätze, CHF 300 pro weiterem Parkplatz ab dem 16.
+- **Technische Bedingung:** effektive Zuleitung bis zum Parkplatz (SIA-2060-Stufe **C1**), blosse
+  Kabelkanäle ohne Zuleitung sind nicht förderfähig.
+- **Anspruchsberechtigt:** Eigentümer bestehender Wohngebäude; **Neubauten ab 2023 ausgeschlossen.**
+- **Verfahren:** Portal portal.dasgebaeudeprogramm.ch/zh; ab 5 Parkplätzen Gesuch zwingend VOR
+  Installationsbeginn, Prüfdauer 4-10 Wochen.
+- Bidirektionale Ladestationen (≈ CHF 2'000/Station) und Quartier-Ladestationen (30 % Investition,
+  max. CHF 3'000/Parkplatz) sind laut Sekundärzitat ebenfalls förderfähig — **nicht direkt an der
+  amtlichen zh.ch-Förderbroschüre gegengelesen**, vor verbindlicher Aussage verifizieren.
+- **EKZ** hat kein eigenes Zusatzprogramm, unterstützt aber administrativ beim kantonalen Gesuch.
+  Ob **ewz**/Stadt Zürich eine eigene Zusatzförderung führt, konnte nicht verifiziert werden (offen).
+- Quellen: zh.ch/de/mobilitaet/gesamtverkehrsplanung/dinamo/foerderprogramm-ladeinfrastruktur.html;
+  Förderbroschüre (Stand Juli 2024) unter zh.ch (Baudirektion-Domain historisch, Programm heute
+  Amt für Mobilität); energie360.ch «Welche Förderung für Ladestationen gibt es?» (Update
+  21.11.2024, Zwischenstand April 2025: CHF 31 von 50 Mio. beantragt).
+
+**Kt. Schwyz — klarer Negativbefund auf kantonaler Ebene:** Die Seite «Elektromobilität» des Amts
+für Umwelt und Energie SZ enthält **kein eigenes kantonales Förderprogramm** für Ladeinfrastruktur,
+nur Beratung + Verweise an Dritte (laden-punkt.ch, Swiss eMobility, Electrosuisse). Quelle:
+sz.ch/…/elektromobilitaet.html (abgerufen 15.07.2026, Fussnote «© 2026 Kanton Schwyz»). Lokal ein
+heterogenes Bild ohne substanzielle Infrastruktur-Förderung: Energie-Region Innerschwyz bietet
+einen verbilligten **«E-MobilitätsCheck»** (Beratung, CHF 450 minus CHF 300 Zuschuss = CHF 150,
+SIA-2060-Ausbaustufe wird dabei festgelegt) statt eines Infrastruktur-Zuschusses; **ebs** (Bezirk
+Schwyz) fördert nur den **Fahrzeugkauf** (CHF 1'000, keine Infrastruktur); EW Höfe/EWS Ibach ohne
+erkennbare Eigenförderung (nur Beratung/Installation). Ob das allgemeine Förderprogramm Energie
+SZ 2026 einen Ladeinfrastruktur-Punkt enthält, wurde nicht direkt mit PDF geprüft, ist aber wegen
+des klaren Negativbefunds auf der spezifischen E-Mobilitäts-Seite unwahrscheinlich.
+
+**Fazit für die Beratung:** die bisherige KB-Aussage «kantonal/kommunal uneinheitlich» ist
+bestätigt und jetzt konkret: ZH hat ein substanzielles, aber bald erschöpftes Programm (separates
+Amt!), SZ hat auf Kantonsebene keines. `energiefranken.ch` bleibt der Weg für die Gemeinde-genaue
+Prüfung, war aber wegen JavaScript-Rendering nicht per WebFetch auswertbar — manueller
+Browser-Abruf nötig.
+
 ## Praxisbeispiel (Zogg, MFH Wetzikon ZH, Minergie-P-Eco, Neubau 2018)
 Vier E-Auto-Ladestationen mit **variabler Ansteuerung und PV-Optimierung**; ein Fahrzeug als
 **Car-Sharing** fuer die Bewohner; Einbindung in **ZEV** mit geeichten Privatzaehlern und ins EMS
@@ -131,10 +181,17 @@ Eigenverbrauch**; im Winter bleibt Netzbezug massgebend (Effizienz Gebaeude+WP e
   Zahlen ohne eigene Quellenangabe); Status bleibt daher bewusst **emerging** statt established.
 - **SIA 2060** ist ein kostenpflichtiges Merkblatt — genaue Stufendefinitionen C1/C2/D hier aus dem
   EnergieSchweiz-Leitfaden referiert, nicht aus der Norm selbst.
-- **Foerderung** fuer Ladeinfrastruktur: kantonal/kommunal uneinheitlich → standortgenau via
-  `[[energiefranken-foerder-suchmaschine-ch]]` pruefen.
 - **V2H/V2G** rechtlich/technisch (bidirektionale Wallbox, Netzbetreiber-Zulassung) noch in
   Entwicklung — Stand beobachten.
+- ZH-Förderbeträge für bidirektionale/Quartier-Ladestationen nur sekundärquellenbelegt (nicht an
+  amtlicher Broschüre gegengelesen); ewz/Stadt-Zürich-Zusatzförderung nicht verifiziert; SZ-Gemeinde-
+  Förderprogramme (z.B. Gemeinde Schwyz) und einzelne EVU (Agro Energie Schwyz, EWS Ibach) nicht
+  abschliessend geprüft; `energiefranken.ch`-Detaileinträge technisch nicht auslesbar (JS-Rendering).
+
+**Erledigt am 2026-07-15 (vorher offen «Förderung kantonal/kommunal uneinheitlich»):** Kt. ZH hat
+ein eigenes, fast erschöpftes CHF-50-Mio.-Programm bei der Volkswirtschaftsdirektion/Amt für
+Mobilität (getrennt vom AWEL-Energieprogramm); Kt. SZ hat kantonal keine Ladeinfrastruktur-
+Förderung (Negativbefund) — siehe neuer Abschnitt oben.
 
 **Backlinks:** PV-/WP-Eigenverbrauch & EMS [[wp-pv-eigenverbrauch-lastmanagement]] · Mehrparteien-
 Vermarktung [[zev-eigenverbrauch-mfh-her-2025]] / [[pv-eigenverbrauch-zev]] · Batterie-Abgrenzung

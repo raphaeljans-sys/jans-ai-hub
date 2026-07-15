@@ -2,6 +2,52 @@
 
 Neueste zuoberst.
 
+## 2026-07-15 — Run 72 (zweiter Intensiv-Lauf am selben Tag, vier Hintergrund-Agenten erfolgreich)
+- [meta] Zweiter Energie-Intensivlauf des Tages auf ausdrücklichen Wunsch Raphaels. Anders als
+  Run 71 liefen diesmal alle vier parallel gestarteten Rechercheagenten (general-purpose,
+  WebSearch/WebFetch) fehlerfrei durch — sie bearbeiteten genau die vier Prioritätspunkte, die
+  Run 71 als «nicht erreicht» vermerkt hatte. PDF-Inventar bleibt erschöpft (SharePoint-Kontrolle:
+  keine neuen Dateien in PL-04 Energie).
+- [update] `destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md`: ZH-Wassergesetz-Inkrafttreten
+  **1. Juni 2026** primärquellenbestätigt (löst WWG 1991 ab, § 126 WsG); kursierende
+  «Konzessionsdauer max. 40 Jahre» am vollständigen Gesetzestext (§§ 69/132 WsG) **WIDERLEGT** —
+  keine gesetzliche Maximaldauer, Behörde legt im Einzelfall fest; **JAZ Erdsonde 4,4-5,7 / Luft-
+  Wasser 2,9-3,7** über echte EnergieSchweiz-Feldstudie (OST/WPZ Buchs 2017-2019) belegt (ersetzt
+  unbelegte Sekundärquellen-Bandbreite); Kt. SZ § 12 WRG (4 Wohneinheiten/50 kW) wortgetreu am
+  Originalgesetz bestätigt, keine 2025/2026-Änderung (Verwechslung mit gleichnamigem Bundesgesetz
+  zur Wasserkraft aufgeklärt). GWWP-spezifische JAZ und amtliche Bohrkosten-Quelle bleiben offen.
+  Bleibt **emerging**. FAQ **F77** geschärft.
+- [update] `destillate/fenster-verglasung-uw-g-wert.md`: amtliche **g-Werte** aus dem BFE-
+  Bauteilekatalog (2002, Kap. 5.1.4) primärquellenbestätigt — **2-IV-IR 62 %, 3-IV-IR 45 %**
+  (real 45-55 % je SZFF Doku 31.03); Sonnenschutzglas hat amtlich bewusst keinen Pauschalwert.
+  **Uf-Fallback** (Holz/Holz-Metall 1,9, Kunststoff 2,5, Verbundprofil 3,3 W/m²K) exakt am
+  Originaltext bestätigt (Kap. 5.1.2). **Fenster-Energieetikette (FEA):** Klassengrenzen A-G
+  (Uw,eq-Schwellen) direkt aus dem BFE-Faktenblatt (pubdb 7731) gelesen, entgegen früherer Annahme
+  doch textextrahierbar. Referenzfenstergrösse **1,55×1,15 m** amtlich bestätigt (SIA-331-Zuordnung
+  bleibt sekundärquellenbelegt). Bleibt **established**. FAQ **F35** geschärft (ersetzt bisherige
+  vetroTherm-Herstellerangaben durch amtliche Werte).
+- [update] `destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md`: **Kt. ZH** Förderprogramm
+  Ladeinfrastruktur läuft strukturell getrennt vom AWEL-Energieprogramm über die
+  Volkswirtschaftsdirektion/Amt für Mobilität (Portal dasgebaeudeprogramm.ch/zh); Budget
+  CHF 50 Mio., Stand 06.07.2026 bereits **über 92 % ausgeschöpft**, Neubauten ab 2023
+  ausgeschlossen. **Kt. SZ** hat kantonal **keine** Ladeinfrastruktur-Förderung (Negativbefund,
+  AfU-SZ-Seite «Elektromobilität»); lokal nur punktuelle Angebote (Energie-Region Innerschwyz
+  E-MobilitätsCheck, ebs-Fahrzeug-Kaufprämie CHF 1'000). Bund fördert nicht direkt, nur Beratung
+  (EnergieSchweiz «Einfach laden»). Bleibt **established**. FAQ **F39** geschärft.
+- [fix] `destillate/waerme-contracting-vertragsmodelle-ch.md`: **Sachfehler korrigiert** —
+  § 10b EnerG ZH und § 22a kEnG SZ wurden bisher fälschlich den Standardlösungen beim
+  Wärmeerzeugerersatz zugeordnet; beide Paragraphen regeln im Originalwortlaut ausschliesslich
+  **Elektroheizungen** (ZH-Ersatzpflicht bis 2030 bzw. SZ bis 2050). Richtig ist **§ 11 EnerG ZH**
+  (Abs. 4/5: 90-%-Regel + Wärmenetzanschluss) bzw. **§ 8d kEnG SZ** (Standardlösungen). ZH-Rolle
+  des Contracting-/Anschlussvertrags jetzt konkret über den AWEL-Vollzugsordner (1/2023) belegt:
+  Nachweis bei Übergangsbewilligung UND Beleg gegen Härtefall-Aufschub (§ 11b EnerG) — kein eigener
+  Nachweisweg. «Swiss Contracting» 2026 erneut als technisch inaktiv bestätigt (leere Website);
+  **swissesco** und **Thermische Netze Schweiz** als 2026 aktive Alternativ-Organisationen
+  bestätigt. Bleibt **emerging**. FAQ **F75** geschärft.
+- [update] Register: `wiki/BAUHERREN-FAQ.md` (F35/F39/F75/F77 geschärft, FAQ-Stand unverändert 85),
+  `destillate/INDEX.md`, `training/curriculum.md` (Block **D53**).
+- [report] `outputs/2026-07-15_energie-run72.md`.
+
 ## 2026-07-15 — Run 71 (Intensiv-Lauf auf Wunsch Raphaels, ohne funktionierende Hintergrund-Agenten)
 - [meta] Sechs geplante parallele Rechercheagenten brachen alle reproduzierbar direkt nach dem ersten
   Werkzeugaufruf ab (Umgebungsfehler, auch nach mehrfachem Resume mit identischem Muster) — kein
