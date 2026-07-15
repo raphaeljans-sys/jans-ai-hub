@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.07.2026 01:52:54
+Stand: 15.07.2026 02:13:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,9 +9,9 @@ Stand: 15.07.2026 01:52:54
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 7 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
-- 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 4 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 3 Datei(en): AR - 05 Transfer / Saumstrasse Geschirrspüler
+- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- bf87aa08 nas-selfcommit: 2 Datei(en) 2026-07-15 01:45
+- 047fa52e nas-selfcommit: 2 Datei(en) 2026-07-15 02:00
