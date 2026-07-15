@@ -33,6 +33,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
   ~1'728 Mio. (~990 USD Aequivalent).
 - **Briefing an rj@ versendet.**
 
+- **Nachtrag Hub-Chef-Lauf 15.07.2026 (08:39, MIT Befund — zwei KISPI-Mails NACH dem Radar-Briefing
+  05:09):** bexio `--verzug`/`--abgleich` unveraendert (nur RE-00087, Mahnung 2, Frist heute 15.07.,
+  90 Tg; A1 greift nicht → keine Mahnaktion; Altliste 19 Pos. + 1 Bankeingang 2021). NEU/handlungsrelevant:
+  (1) **KISPI ST1/ST2 + Auflagenbereinigung — Zeitplan rutscht.** J. Ziegel (Gruner, 07:14) hat den CAD
+  wie von RJ am 14.07. 17:18 gewuenscht **gestoppt** und wartet auf RJs **aktualisiertes DWG heute Abend**;
+  er kann eine Lieferung diese Woche aber nicht mehr zusichern (Anpassungen i.d.R. **5 Arbeitstage** →
+  Auflagenbereinigung verschiebt sich), ist heute **krank** und meldet sich 16.07. mit neuem Ablauf.
+  → JANS-Aktion: RJs offene Zusage, das korrigierte DWG (Tueren korrekt eingezeichnet) **heute Abend
+  15.07.** zu liefern; Register auf «nachfassen/verzoegert» gesetzt. (2) **Private Kontrolle Lueftung —
+  vor auf naechste Woche.** K. Manz (3-plan, 08:29): van Velsen prueft/fuellt die Kontrolle aus, bis 03.08.
+  offiziell in Ferien, **arbeitet naechste Woche sporadisch**; RJ sagt 08:34 zu, die Kontrolle **naechste
+  Woche mit van Velsen** zu machen → Register von «erst ab 03.08.» auf «naechste Woche» aktualisiert
+  (A4). Keine Whitelist-Aktion moeglich (kein Draft noetig — DWG ist RJs Design-Deliverable, Manz-Mail
+  bereits durch RJ beantwortet). Kalender bis 22.07. leer, Sync-/Remote-Queues leer. **EIN kurzes
+  Nachtrags-Briefing an rj@ versendet** (nur die zwei neuen Befunde + Verweis auf den Radar fuer die
+  unveraenderten 7-Tage-Punkte, keine Doppelmeldung).
+
 ---
 
 ## 2026-07-14
