@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.07.2026 11:36:01
+Stand: 15.07.2026 11:56:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 11:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 11:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.07.2026 11:36:01
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1b9b2dfd nas-selfcommit: 2 Datei(en) 2026-07-15 11:30
+- 6cd109f0 Planungsgrundlagen-Training Run 49 (2026-07-15): Mehrwertrevers-Systematik + ZSV-Bemessungsschluessel + GreenPV-Fassaden-PV-Benchmark
