@@ -21,6 +21,35 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-15 12:49 — [GEDROSSELT] Schoner-Lauf: Runner steht, Tages-Trainings liefern produktiv weiter
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 14.07. 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer), Runner-Logs unberuehrt seit
+14.07. 12:40 (MacBook Pro) / 12:37 (Mac Mini). Als Schoner starte ich den Runner NICHT neu und loesche
+STOP NICHT — kein Wiederhochfahren ohne ausdrueckliche Anweisung Raphaels.
+
+**Gedrosselte Trainings greifen — Beleg:** Die geplanten Tasks arbeiten auch tagsueber ohne Runner
+produktiv weiter. Commits der letzten 2h (ohne `nas-selfcommit`): Planungsgrundlagen-Training Run 49
+(Mehrwertrevers-Systematik + ZSV-Bemessungsschluessel + GreenPV-Fassaden-PV-Benchmark), Energie-KB
+Run 71 (VHKA-Pre-2001-Ausnahme SZ, GEAK-Klasse-D SZ + MuKEn-2025-Fahrplan, SZ-Fernwaerme-Restluecken).
+Genau das gewuenschte gedrosselte Bild: Fortschritt aus den Einzel-Tasks, kein Dauer-Runner.
+
+**Login (unveraendert, unkritisch):** headless-Login-Probe (`claude -p --model haiku`) antwortet
+«Not logged in». Im Drossel-Regime bewusst kein Hebel und kein P1 — der Runner soll stehen; ein Fix
+wuerde nur wieder hochfahren. Keine Mail. Fix erst noetig, wenn Raphael hochfahren laesst
+(`claude setup-token`, Abo-OAuth, KEIN API-Key, in `~/.jans-dispatch.env` beider Stationen; Mini
+zusaetzlich `security unlock-keychain`).
+
+**Reset-Countdown:** Naechster Wochen-Reset Montag 20.07. 11:59 — von jetzt (Di 12:49) noch ~4.96 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend).
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker im Drossel-Regime.
+- P2: synobsis-batch-nacht weiterhin im No-op (853/853, kein neuer Stoff, sechs identische Laeufe/Tag) —
+  Empfehlung unveraendert: Nacht-Batch pausieren oder auf woechentlich reduzieren, bis neues Material in
+  `05_Architekten_Synobsis` landet oder eine Stufe-3-Kuratierung freigegeben wird. Spart Leerlauf-Tokens.
+- P3: keiner offen.
+
 ## 2026-07-15 07:26 — [GEDROSSELT] Schoner-Lauf: Runner steht, Nachtfenster-Trainings produktiv (real Fortschritt ueber Nacht)
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
