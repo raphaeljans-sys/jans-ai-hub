@@ -3318,3 +3318,70 @@ Avesco AG (Anbieterangabe CH-Praxisbeispiel); 2G Energy AG (Herstellerangabe); e
 `[[blockheizkraftwerk-bhkw-mfh-pflegeheim-ch]]`. Status **emerging** — Schweiz-spezifische
 Wirtschaftlichkeitszahlen und das Bewilligungsverfahren im Detail sind mehrheitlich aus
 DE-Quellen oder Einzelbeispielen abgeleitet, noch nicht CH-primärquellen-verifiziert.
+
+---
+
+## F90 — «Was bekomme ich ab 2026 für den Solarstrom, den ich ins Netz einspeise?»
+
+**Kurz-Antwort für den Bauherrn:** Seit dem 1.1.2026 gilt schweizweit dieselbe Regel: Kommt keine
+andere Vereinbarung mit dem Netzbetreiber zustande, wird der eingespeiste Strom zum
+**vierteljährlich gemittelten Referenz-Marktpreis** vergütet, den das BFE publiziert — und für
+Anlagen **unter 150 kW** gibt es einen gesetzlichen **Boden**: **6 Rp./kWh** für Anlagen unter
+30 kW. Das ist kein theoretischer Schutz: Im **Q1 2026** lag der Referenz-Marktpreis für
+Photovoltaik bei **10,27 Rp./kWh**, im **Q2 2026** nur noch bei **3,90 Rp./kWh** (im April 2026
+bei 2,30 Rp./kWh) — den ganzen Sommer über wurde also der Mindestsatz von 6 Rp. bezahlt. Was der
+Netzbetreiber **zusätzlich** für den Herkunftsnachweis zahlt (0,2 bis 3,0 Rp./kWh je nach Werk)
+und ob er überhaupt dem Quartalsmodell folgt, ist Verhandlungssache — die Spannweite zwischen
+den Netzgebieten ist der grösste Einzelhebel.
+
+**Fachliche Begründung:** EnG Art. 15 Abs. 1 (Fassung seit 1.1.2026) verpflichtet den
+Netzbetreiber zur Abnahme und, «wenn sie sich mit dem Produzenten über die Vergütung nicht
+einigen können», zur Vergütung «zu einem schweizweit harmonisierten Preis». Art. 15 Abs. 1bis
+knüpft die Vergütung an den vierteljährlich gemittelten Marktpreis und beauftragt den Bundesrat,
+für Anlagen < 150 kW Minimalvergütungen festzulegen, die sich «an der Amortisation von
+Referenzanlagen über ihre Lebensdauer» orientieren. Die Umsetzung steht in EnV Art. 12 Abs. 1bis:
+6 Rp./kWh für PV < 30 kW; ab 30 kW mit Eigenverbrauch anteilsmässig (30 kW × 6 Rp., der Rest
+0 Rp. → in der Wirkung **180/P Rp./kWh**, bei 150 kW noch 1,2 Rp.); 6,2 Rp./kWh für
+Volleinspeiser ab 30 kW; 12 Rp./kWh für Wasserkraft. Massgebend ist die installierte
+DC-Generatorleistung (EnV Art. 13 Abs. 1). Ein Aufteilen der Anlage, nur um in eine höhere
+Stufe zu kommen, ist laut ElCom-Fachsekretariat unzulässig. Der Referenz-Marktpreis ist
+technologiespezifisch und nach der tatsächlichen Einspeisung gewichtet — deshalb fällt er im
+Sommer genau dann, wenn alle PV-Anlagen zusammen produzieren.
+
+**Quelle + Datenstand:** EnG SR 730.0 und EnV SR 730.01, je Fassung in Kraft seit 1.1.2026
+(AS 2024 679 / AS 2025 138), Fedlex-PDF per curl+pdftotext im Volltext gelesen 16.07.2026;
+BFE «Referenz-Marktpreise gemäss Art. 15 EnFV», Publikation 14.07.2026 (Werte exkl. MWST,
+Publikation jeweils bis 10. Arbeitstag nach Quartalsende); ElCom-FAQ «Energiestrategie 2050 ab
+Mantelerlass», Update 16.06.2026. Destillat:
+`[[pv-rueckliefervverguetung-mindestverguetung-2026]]`. Status **established**.
+⚠ Die Rp./kWh-Werte sind **quartalsaktuell** — vor dem Zitieren den neuesten BFE-Wert ziehen.
+
+---
+
+## F91 — «Ist die Einmalvergütung nicht dasselbe wie die Einspeisevergütung?»
+
+**Kurz-Antwort für den Bauherrn:** Nein — und das ist der häufigste Irrtum bei PV. Die
+**Einmalvergütung** ist ein **Investitionsbeitrag**: einmalig, vom **Bund** über **Pronovo**,
+bemessen in **CHF pro kWp** (rund 360 CHF/kWp bei Kleinanlagen, gedeckelt auf 30 % der
+Referenz-Investitionskosten), Gesuch nach Inbetriebnahme. Die **Rückliefervergütung** ist der
+**Energiepreis**: laufend, vom **lokalen Netzbetreiber**, bemessen in **Rappen pro kWh**
+eingespeisten Stroms, ausbezahlt jedes Quartal über die ganze Lebensdauer der Anlage (~33 Jahre).
+Beides gibt es **gleichzeitig** — die Einmalvergütung senkt die Investition, die
+Rückliefervergütung bringt den laufenden Ertrag. Für die Wirtschaftlichkeit gilt trotzdem: Der
+grosse Hebel ist keiner von beiden, sondern der **Eigenverbrauch**. Selbst genutzter Strom spart
+rund 25-30 Rp./kWh Netzstrom, eingespeister bringt im Sommer 2026 knapp 4 bis 6 Rp. — jede selbst
+verbrauchte Kilowattstunde ist also vier- bis sechsmal so viel wert.
+
+**Fachliche Begründung:** Zwei getrennte Rechtsgrundlagen: Einmalvergütung nach EnG Art. 25 /
+EnFV (Netzzuschlagsfonds, Vollzug Pronovo), Rückliefervergütung nach EnG Art. 15 / EnV Art. 12
+(Netzbetreiber). Wer noch am alten Einspeisevergütungssystem (KEV, EnG Art. 19) teilnimmt, ist
+von Art. 15 ausgeschlossen (EnG Art. 15 Abs. 4) — betrifft nur Altanlagen, für Neuanlagen ist die
+KEV geschlossen. Die Herkunftsnachweise gehören dem Produzenten und sind handelbar (EnG Art. 9
+Abs. 2); sie sind in der Art.-15-Vergütung **nicht** enthalten und werden, wenn überhaupt,
+separat vergütet. Rangfolge der Verwertung: Eigenverbrauch → ZEV/vZEV im MFH → LEG im Quartier →
+Einspeisung als Restwert.
+
+**Quelle + Datenstand:** EnG SR 730.0 Art. 9, 15, 25; EnV SR 730.01 Art. 12 (Stand 1.1.2026,
+Volltext gelesen 16.07.2026); BFE-Faktenblatt PV-Förderung / Pronovo-Sätze (Stand Sept. 2025,
+für 2026 verifiziert). Destillate: `[[pv-rueckliefervverguetung-mindestverguetung-2026]]` +
+`[[pv-einmalverguetung-bund-bfe]]` + `[[pv-ertrag-eigenverbrauch-praxis]]`. Status **established**.

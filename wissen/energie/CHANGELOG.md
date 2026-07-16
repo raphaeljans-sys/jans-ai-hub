@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Run 76: NEUES Fachthema Rückliefervergütung + Mindestvergütung ab 2026 (Primärquellen)
+- **Neues Destillat `destillate/pv-rueckliefervverguetung-mindestverguetung-2026.md`** (status
+  **established**) — die bisher grösste Lücke der PV-Kette: was der Bauherr für den **eingespeisten**
+  Strom bekommt. Bisher stand dazu in der KB nur die Faustzahl «~8-10 Rp.» und «Netzbetreiber legt
+  fest, sehr unterschiedlich» (in `pv-einmalverguetung-bund-bfe` / `pv-marktzahlen-kosten-ch-2025`).
+- **Primärquellen im Volltext gelesen** (curl + pdftotext, lokal): **EnG SR 730.0** und
+  **EnV SR 730.01**, je Fedlex-Fassung in Kraft seit **1.1.2026** (Art. 9, 11, 12, 13, 15 wörtlich);
+  **BFE «Referenz-Marktpreise gemäss Art. 15 EnFV»**, Publikation **14.07.2026** (pubdb 11515);
+  **ElCom-FAQ «Energiestrategie 2050 ab Mantelerlass»**, Update **16.06.2026**, Kap. 1 vollständig.
+- **Kernbefunde:** EnG Art. 15 Abs. 1bis (i.K. 1.1.2026) → vierteljährlich gemittelter Marktpreis;
+  EnV Art. 12 Abs. 1bis → Minimalvergütung **6 Rp./kWh** (< 30 kW), **6,2 Rp./kWh** (Volleinspeiser
+  ab 30 kW), anteilsmässig ab 30 kW mit Eigenverbrauch = wirksam **180/P Rp./kWh**, ab 150 kW keine.
+  **Referenz-Marktpreis PV Q1 2026 = 10,27 Rp./kWh, Q2 2026 = 3,90 Rp./kWh** (April 2,30) — der
+  Mindestsatz hat im **ersten Sommer sofort real gegriffen**, das ist der stärkste Beratungsbefund.
+- **Markt-Zweiteilung belegt:** EKZ folgt dem Quartalspreis (Q2 3,90 + HKN bis 3,0), **ewz zahlt
+  bewusst stabil 12,91 Rp./kWh** (8,5 HT / 4,55 NT + 3,0 HKN + 2,0 Solarförderung) — zulässig laut
+  ElCom-FAQ 1.4 (Vertragsfreiheit). Faktor 2-3 Ertragsunterschied allein wegen der Netzgebietsgrenze.
+- **Bauherren-FAQ um F90 + F91 erweitert** (89 → 91): F90 «Was bekomme ich ab 2026 für den
+  eingespeisten Solarstrom?», F91 «Ist die Einmalvergütung dasselbe wie die Einspeisevergütung?»
+  (der häufigste Bauherren-Irrtum, jetzt sauber abgegrenzt).
+- **Backlinks gesetzt** zu `pv-einmalverguetung-bund-bfe`, `pv-marktzahlen-kosten-ch-2025`,
+  `pv-ertrag-eigenverbrauch-praxis`, `zev-eigenverbrauch-mfh-her-2025`,
+  `leg-lokale-elektrizitaetsgemeinschaft-2026` — keine Duplizierung der dortigen Inhalte.
+- **Negativbefunde offen ausgewiesen:** ebs Energie AG (SZ) publiziert keine Rp./kWh (geprüfte
+  Pfade dokumentiert; für SZ stattdessen EWS Ibach, ⚠ Wert 2025); VESE/pvtarif-Bandbreite
+  5-17 Rp./kWh ist ⚠ Erhebung **2024**; Stufe 2027 (stündliche Spotpreise) nur sekundär belegt.
+- **Verfallsdatum:** die Rp./kWh-Werte sind quartalsaktuell — ab Mitte Oktober 2026 den Q3-Wert
+  des BFE nachziehen. Die Rechtsstruktur bleibt.
+
 ## 2026-07-16 — Run 75: MuKEn 2025 Anhänge 6 + 7 im Volltext ausgewertet (Standardmassnahmen, Jahreskosten)
 - **`destillate/muken-2025-verabschiedet.md` ergänzt** (nicht neu geschrieben) um den Abschnitt
   «Anhänge 6 und 7 — Volltext-Auswertung (Run 75)». Beide Anhänge lagen bisher nur als Verweis in
