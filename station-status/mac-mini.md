@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.07.2026 21:44:55
+Stand: 16.07.2026 21:55:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 21:43)
@@ -19,4 +19,4 @@ Stand: 16.07.2026 21:44:55
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 35c87513 normen-training-mini Mini-Run 32: INVENTAR KOMPLETT fuer DIN/VSS/RAL bestaetigt (3. Bestaetigung in Folge)
+- d93024a2 nas-selfcommit: 2 Datei(en) 2026-07-16 21:45
