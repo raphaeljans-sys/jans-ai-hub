@@ -140,14 +140,51 @@ Quelle: "Preisblatt für Fernwärme 2025" (gültig 01.01.–31.12.2025), abgeruf
 - **Anschlussbeitrag:** nur qualitativ beschrieben (einmalig, inkl. Zuleitung ins Gebäude),
   keine CHF-Zahl publiziert.
 
-### Energie Ausserschwyz AG (March/Höfe: Galgenen, Siebnen, Lachen, Altendorf, Pfäffikon,
-Freienbach)
+**Zusätzliche Prüfung 16.07.2026 (Run 74, Wayback Machine, Preisblätter 2023/2024 + Formular
+"Anfrage Wärmebezug"):** Grundpreis-/Arbeitspreisformel strukturell seit mind. 2023 stabil
+(GP-Basis CHF 9'900, LIK-indexiert; Arbeitspreis-Gewichtung Altholz/Holzschnitzel/Strom/Heizöl/
+LIK unverändert). Der Anschlussbeitrag ist in KEINER der geprüften Preisblatt-Versionen
+(2023/2024/2025) beziffert — auch das Anfrageformular für Neukunden fragt nur Objektdaten ab,
+ohne eine Anschlusskosten-Tabelle zu nennen. **Bestätigter Negativbefund (3. Bestätigung).**
 
-Kein öffentliches Tarifblatt (Recherche 15.07.2026 erneut bestätigt: Website nennt nur die
-Kostenstruktur — einmaliger Investitionsbeitrag + Grundpreis + Arbeitspreis, exkl. Unterhalt/
-Service, kantonale Förderung bis 30 % des Investitionsbeitrags — keine CHF-Zahl). Publiziert wird
-lediglich der **kantonale Förderbeitrag** für den Anschluss: CHF 4'000 + CHF 200 je kW
-Anschlussleistung (Förderung, nicht Preis — siehe [[foerderprogramm-energie-sz-2026]]).
+### Energie Ausserschwyz AG (March/Höfe: Galgenen, Siebnen, Lachen, Altendorf, Pfäffikon,
+Freienbach, Wollerau, Wilen, Buttikon, Reichenburg, Feusisberg, Schindellegi)
+
+Kein publiziertes Tarifblatt (erneut bestätigt 16.07.2026), aber die Website betreibt unter
+`klickstrecke.energie-ausserschwyz.ch/heating/` (Anbieter: abonax/evus) einen adressbasierten
+Live-Richtpreisrechner ("Preisindikation für die Fernwärme"), der für eine eingegebene Adresse
+im Versorgungsgebiet echte CHF-Beträge ausgibt (Methodik-Hinweis im Tool: "Die Verbräuche,
+Anschlusswerte und Ausmass wurden auf Grund von Benchmarks berechnet", alle Beträge exkl. MWST).
+
+**Zwei real abgefragte Objekte in Lachen SZ (16.07.2026, Run 74):**
+
+| Adresse | Investitionsbeitrag (brutto) | Kant. Förderung | Investitionsbetrag (netto) | Grundgebühr/Jahr | Energiepreis/Jahr | Betriebskosten/Jahr | rückgerechnete kW* |
+|---|---|---|---|---|---|---|---|
+| Hintere Bahnhofstrasse 1 | CHF 31'300 | − CHF 7'400 | CHF 23'900 | CHF 2'800 | CHF 4'700 | CHF 7'500 | 17 kW |
+| Hintere Bahnhofstrasse 5 | CHF 24'200 | − CHF 6'400 | CHF 17'800 | CHF 2'200 | CHF 3'300 | CHF 5'500 | 12 kW |
+
+\* Die kW-Werte werden vom Tool nicht angezeigt, lassen sich aber exakt aus dem kantonalen
+Förderbeitrag (CHF 4'000 + CHF 200/kW, [[foerderprogramm-energie-sz-2026]]) zurückrechnen:
+(7'400 − 4'000)/200 = 17; (6'400 − 4'000)/200 = 12. Der 12-kW-Fall trifft exakt den in dieser KB
+durchgängig verwendeten EFH-Benchmark — direkt vergleichbar mit ewz/Agro Energie.
+
+**Grobe lineare Näherung aus den zwei Punkten (KEIN offizieller Tarif, nur eigene Interpolation,
+nicht zitierfähig als Formel):** Investitionsbeitrag ≈ CHF 7'160 + CHF 1'420/kW; Grundgebühr ≈
+CHF 760 + CHF 120/kW·Jahr. Bei angenommenem EFH-Verbrauch 20'000 kWh/Jahr (Preisüberwacher-
+Benchmark) ergäbe der Energiepreis CHF 3'300 einen impliziten Arbeitspreis von rund
+16.5 Rp./kWh — deutlich über Agro Energie Schwyz (14.20 Rp./kWh) und Einsiedeln (11.53 Rp./kWh);
+diese Ableitung beruht auf Annahmen, ist keine publizierte Zahl.
+
+**Einordnung ggü. den anderen SZ-Verbünden (EFH ~12 kW):** Ausserschwyz netto CHF 17'800 (nach
+kantonaler Förderung) liegt deutlich unter Agro Energie Schwyz (CHF 32'306, vor
+Erschliessungsvorteil, vor Förderabzug) und ewz Zürich (CHF 32'098 P3 Neubau) — plausibel, weil
+die Ausserschwyz-Zahl bereits die Förderung abzieht; rechnet man die Förderung bei Agro/ewz
+ebenfalls ab, verkleinert sich der Abstand deutlich, bleibt aber bestehen.
+
+**Weiterhin unbekannt:** eine offizielle, adressunabhängige Tarifformel/ein Preisblatt; die
+genaue Zusammensetzung des "Investitionsbeitrags" (Grabarbeiten/Trassemeter analog Agro Energie
+Schwyz nicht separat ausgewiesen); Vertragsdauer/Kündigungsfrist.
+
 ⚠ Eine Sekundärquelle (dein-heizungsbauer.de/heizung.de-Portale) verortet den bereits bei Agro
 Energie Schwyz als unbelegt verworfenen Wert "EFH 10 kW ≈ CHF 18'000" mit Stand 2019 **auch** bei
 Energie Ausserschwyz — an keiner Primärquelle (Preisblatt/Website) auffindbar; dass dieselbe Zahl

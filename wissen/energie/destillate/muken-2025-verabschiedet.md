@@ -134,6 +134,58 @@ Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
 - Genaue Ausgestaltung der **25-%-Unzumutbarkeitsschwelle** (Berechnungsbasis) nicht im Detail
   recherchiert.
 
+## Module 2-14 ausserhalb Teil G (Volltext-Auswertung Run 74, 2026-07-16)
+
+Der MuKEn-2025-Volltext (gleicher Spiegel wie oben, curl+pdftotext) wurde erneut gelesen und
+diesmal gezielt auf die **13 optionalen Zusatzmodule** ausgewertet (nicht Teil des für alle
+Kantone verbindlichen Basismoduls — jeder Kanton entscheidet einzeln, welche er übernimmt,
+muss ein übernommenes Modul aber vollständig/unverändert umsetzen).
+
+| Modul | Titel (Original) | Kern-Inhalt | Neu ggü. MuKEn 2014 |
+|---|---|---|---|
+| Modul 2 | VHKA in bestehenden Gebäuden | Zentral beheizte Gebäude/Gebäudegruppen ab 5 Nutzeinheiten brauchen Wärmeverbrauchserfassung + individuell regelbare Raumtemperatur; Befreiungen (Luft-/Boden-/Deckenheizung, 1 Einheit >80% Fläche, Wärmeerzeugerleistung <30 W/m² EBF, ≥50% erneuerbar, Verbrauch <90 kWh/m²a oder Minergie) | Im Wesentlichen unverändert; weiterhin nicht ins Basismodul integriert |
+| Modul 3 | Heizungen im Freien/Freiluftbäder | Aussenheizungen nur mit erneuerbarer Energie/Abwärme; beheizte Freiluftbäder (>8 m³) nur erneuerbar, WP nur mit Abdeckung | Im Kern unverändert |
+| Modul 4 | Ferienhäuser/-wohnungen | Effizienzanforderungen für Zweitwohnungen (Ausschöpfung wirtschaftlich nutzbaren Potenzials) | Keine substanzielle Neuerung erkennbar |
+| Modul 5 | Sanierungspflicht dezentrale Elektroheizungen | Bestehende ortsfeste Elektro-Widerstandsheizungen ohne Wasserverteilsystem müssen **innert 5 Jahren** ersetzt werden; Befreiungen Nassräume/WC, ≤3 kW oder <50 m² elektrisch beheizte EBF, Kirchen | **Übergangsfrist von 15 auf 5 Jahre verkürzt** (MuKEn 2014 Modul 6); Begründung: MuKEn 2025 rund 11 Jahre später verabschiedet, kürzere Frist führt zum selben Ziel-Zeitpunkt (BGer-Urteil 1C_37/2022 vom 23.03.2023 zur ZH-Regelung bestätigt Verhältnismässigkeit) |
+| Modul 6 | Ausführungsbestätigung | Schriftliche Bestätigung Bauherrschaft + Fachperson, ergänzt Teil Q Basismodul | Rein vollzugstechnisch |
+| Modul 7 | Betriebsoptimierung | HLKKSE+GA-Betriebsoptimierung für Bestandsbauten mit Elektrizitätsverbrauch ≥200'000 kWh, alle 5 Jahre periodisch, Dokumentation 10 Jahre | Erstmals explizite periodische 5-Jahres-Pflicht |
+| Modul 8 | GEAK-Anordnung für bestimmte Bauten | Kantone können GEAK-Obligatorium für bestimmte Bautypen anordnen | Formulierungsvorschlag, keine erkennbare Verschärfung |
+| Modul 9 | Energieplanung | Kantonale/kommunale Energieplanung, inkl. Anschlusszwang an Fernwärme bei lokaler Abwärme/erneuerbarer Versorgung zu zumutbaren Bedingungen | Im Kern Fortführung |
+| Modul 10 | Energiedaten | Datenerhebungs-/Auskunftspflicht für Energieproduzenten/-lieferanten (Strom, Gas, Fernwärme, Heizöl/Holz), EGID-scharfe Übermittlung bis 31.3. Folgejahr | Neues, ausführlicheres Regelwerk |
+| Modul 11 | Wärmedämmung/Ausnützung | Wanddicke/Dachaufbau wegen Wärmedämmung wird bei BMZ/GFZ **nur bis max. 35 cm** angerechnet | Planungsrechtlich direkt relevant für JANS; Grundsatz seit 2005 bekannt, erstmals mit Zahlenwert (35 cm) kodifiziert |
+| Modul 12 | Elektromobilität | Neubauten: **EFH** → Ausbaustufe «A» für ALLE Abstellplätze; **MFH** → Ausbaustufe «C1» für **mind. 60%** der Abstellplätze; **Nichtwohnbauten** → mind. 20% «C1», Rest «A» (Stufen SIA 2060:2020) | Neues, eigenständiges Modul (in MuKEn 2014 nicht vorhanden); Bund hat Motion 23.3936 (Juni 2025) zu Nutzungsrecht bei Miete/STWEG in Arbeit |
+| Modul 13 | Gebäudehülleneffizienz | Gebäude vor 1980 ohne energetische Erneuerung an ≥2 von 3 Bauteilen (Dach/Estrichboden, Aussenwand, Fenster) müssen **innert 10 Jahren** saniert werden (GEAK-Klasse E, Minergie-Modernisierung, oder Erneuerung 2 von 3 Bauteilen: U ≤0,40/0,50/2,0 W/m²K auf 90% Fläche); Fristverlängerung +5 J. bei Ersatzneubau, Härtefall-Aufschub bis 3 J. nach Handänderung | **Komplett neues Modul** — erstmals eine aktive Sanierungspflicht unabhängig vom Heizungsersatz; betrifft laut BFS rund 60% des Gebäudeparks (vor 1980 erstellt) |
+| Modul 14 | Intelligente Steuerungen/Regelungen | Neubauten mit selbstlernender Heizungs-/Kühlungssteuerung, bedarfsgerechter Lüftungs-/Klima-/Storensteuerung; bedarfsgerechte Beleuchtungssteuerung Nichtwohnbauten ab 1'000 m² beleuchteter Fläche | Neues Modul, keine MuKEn-2014-Entsprechung |
+
+**Grossverbraucher (Teil N Basismodul, kein Nummernmodul, zur Einordnung):** Art. 1.55
+bestätigt am Original: Schwelle **>5 GWh/a Wärme oder >0,5 GWh/a Elektrizität**, unverändert
+gegenüber MuKEn 2014; bei Zielvereinbarung (z.B. via EnAW/act) Befreiung von Detailvorschriften
+möglich. Diskussion einer tieferen Schwelle wurde laut Text «diskutiert und verworfen».
+
+**PV/Eigenstromerzeugung — Detailregeln über 20 W/m² hinaus (Basismodul Teil E, Art. 1.24-1.27):**
+Befreit von der Neubau-Pflicht sind kleine Bauten/Erweiterungen mit neu geschaffener EBF <50 m²;
+ausgenommen Traglufthallen, verglaste Gewächshäuser, Folientunnel; Erleichterung bei
+Denkmalschutzauflagen im Einzelfall; Reduktion der Pflicht, wenn die Fläche nicht mit Eignung
+«gut» bis «hervorragend» gemäss sonnendach.ch/sonnenfassade.ch belegt werden kann. Solarthermie-
+Fläche kann auf die PV-Pflicht angerechnet werden. Härtefall-Aufschub bis 3 Jahre nach
+Handänderung, Grundbuchanmerkung. Fassaden-PV ist ausdrücklich zulässig.
+
+**Konsistenz-Check Teil G:** Am frisch gelesenen Volltext (Art. 1.38/1.39) sind die bereits im
+Wiki dokumentierten Basisgrenzwerte identisch bestätigt (12,4-19,9 kg CO₂-eq/m²EBF·a je
+Kategorie, GW(GF-EBF) 5,5, Zuschläge Erdsonde +0,3/PV +7,1/Solarthermie +5,6 kg CO₂-eq/m²
+Panelfläche·a) — kein Widerspruch zum Run-73-Stand.
+
+**Ergänzend am Original gefunden (Basismodul, Konsistenz-relevant):** Art. 1.29
+Wärmeerzeugerersatz bestätigt die 25-%-Schwelle wörtlich («Lebenszykluskosten für ein System
+mit erneuerbaren Energien mindestens 25 Prozent mehr») mit Fallback auf mind. 20% Einsparung/
+Deckung des massgebenden Wärmebedarfs (Referenzwert 100 kWh/m²a); Art. 1.35 präzisiert die
+Zumutbarkeits-Nachweise (2 Standardmassnahmen Anhang 6 in 3 Jahren, Minergie-Zertifizierung
+oder GEAK-Klasse B).
+
+Quelle: EnDK, MuKEn 2025 Volltext (117 S.), gelesen 2026-07-16 via curl+pdftotext, Spiegel
+energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf; BGer-Urteil
+1C_37/2022; Motion 23.3936; SIA-Merkblatt 2060:2020 (referenziert im Original).
+
 **Backlinks:** [[energienachweis-zh]] · [[graue-energie]] · [[foerderung-energie-zh]] ·
 [[foerderung-energie-sz]] · [[muken-2025-modul-g-co2-grenzwerte]] · Themenartikel
 [[energienachweis-zh]] (neuer Ausblick-Abschnitt).
