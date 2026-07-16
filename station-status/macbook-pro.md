@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.07.2026 10:52:55
+Stand: 16.07.2026 11:13:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.07.2026 10:52:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d764096b energie-training: Run 73 (MuKEn-2025-Originaltext gefunden, 5 Destillate vertieft/korrigiert)
+- 0c68e6ed nas-selfcommit: 2 Datei(en) 2026-07-16 11:00
