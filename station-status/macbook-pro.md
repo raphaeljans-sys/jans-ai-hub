@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.07.2026 23:09:50
+Stand: 16.07.2026 23:30:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.07.2026 23:09:50
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 3f3a2f5b energie-training Run 75: MuKEn-Anhang 6+7, PV-Ruecklieferverguetung, Innendaemmung + KORREKTUR F87
+- c36a33c2 nas-selfcommit: 2 Datei(en) 2026-07-16 23:15
