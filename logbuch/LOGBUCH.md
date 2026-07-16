@@ -7,6 +7,24 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-16
 
+- **HUB-CHEF-LAUF 08:40 — ohne neuen Befund, keine zweite Mail.** Signale nach dem Radar-Briefing
+  (07:00) gegenverifiziert: bexio `--verzug` unveraendert (nur RE-00087, 91 Tg, Mahnung 2, Zahlfrist
+  15.07. verstrichen; bexio schlaegt neu **Mahnung 3 / Betreibung** vor — A1 greift bei Mahnstufe 2+
+  NICHT, Entscheid bleibt bei Raphael, keine autonome Aktion), `--abgleich` unveraendert (Altliste
+  19 Pos. + 1 Bankeingang 2021), Mail-Eingang seit 05:30 leer, Kalender bis 23.07. nur die
+  Koordinationssitzung 23.07. 13:00-14:00, Sync-/Remote-Queues leer.
+- **A4 (Registerpflege):** Ausloeser — Sent-Items-Gegenverifikation zeigt, dass RJ das im Radar-Briefing
+  gemeldete **Angebot 2607101 (Elektro-Staehlin, Albertstrasse 7 / Waschtuerme)** um **07:54 selbst
+  beantwortet** hat (beanstandet CHF 120K → 160K fuer 4 Geraete mehr; verlangt REAP-Stueckpreise mit
+  Prozenten, diese Position optional statt im Total, WZU-Steuerung fuer alle Varianten optional —
+  Verdacht Doppel-/Dreifachrechnung). Guards: Beleg gelesen (Mail rj@ → f.staehlin@staehlin-ag.ch,
+  16.07. 07:54), eingehend↔ausgehend gepaart, append-only. Ergebnis: Registerzeile von «nachfassen»
+  (Angebot pruefen) auf **«beobachten»** (bereinigtes Angebot abwarten → Bestellentscheid).
+- **Unveraendert offen:** aktualisiertes DWG ST1/ST2 an J. Ziegel — in den Sent Items weiterhin nicht
+  sichtbar → nachfassen.
+- **Kein zweites Briefing:** alle 7-Tage-Punkte standen im Radar-Briefing 07:00; die einzige Bewegung
+  seither ist RJs eigene Mail — kein Neuentscheid, keine neuen Entwuerfe, keine Whitelist-Aktion moeglich.
+
 - **RADAR-LAUF — mit Briefing.** Register gegen bexio (`--verzug`), Kalender (bis 23.07.),
   Mail-Eingang UND Sent Items (15.07. frueh → 16.07., eingehend↔ausgehend gepaart) und
   Sync-/Remote-Queues abgeglichen.
