@@ -1,3 +1,44 @@
+## 2026-07-16 — normen-training-mini Mini-Run 31 (Mac Mini, Intensiv-Lauf auf Zuruf): Inventar-Check + 2 von 6 offenen Vertiefungs-Luecken aus Mini-Run 30 geschlossen
+Stations-Split eingehalten: NUR DIN/VSS/RAL angefasst (SIA/VKF = MacBook Pro, nicht beruehrt).
+Auftrag Raphael (16.07.2026): ein Intensiv-Lauf, 15-25 Positionen, Verifikations-Stufe +
+Token-Vollgas/Workflow-Parallelisierung autorisiert. **Inventar-Check vorab** (Datei-fuer-
+Datei-Abgleich `training/norm-inventar.md` gegen die live gemountete SharePoint-Ablage
+`PL - 02_Recht_Norm/02_Normen/DIN_Norm`, `.../VSS_Norm`, `.../RAL_Norm`): weiterhin 0 offene
+`[ ]`-Positionen in DIN (72)/VSS (17)/RAL (1), keine neuen Dateien seit dem letzten Scan —
+Grunddestillation (a), Retro-Verifikation (b), Q&A-Selbstbefragung (c) und Querschnitts-
+Synthese (d) bleiben fuer alle 90 Dateien vollstaendig abgeschlossen (Stand seit Mini-Run 30,
+260715). Statt eine kuenstliche Mengen-Zielzahl zu erzwingen, wurden die 6 in Mini-Run 30
+dokumentierten offenen Vertiefungs-Luecken (`wiki/QUESTIONS.md`) einzeln geprueft.
+
+**2 Luecken geschlossen, adversarial verifiziert (je 1 unabhaengiger Pruef-Agent, 0 Fehler):**
+- **SIA 331 ↔ DIN EN 12207/DIN 1249-11 Ziffer-fuer-Ziffer-Abgleich:** Kernbefund — SIA 331s
+  Beanspruchungsgruppen A/B/C (Gebaeudehoehe-basiert, Ziff. 2 23 4/2 31, Nachweis ueber
+  EN 42/EN 86) und DIN EN 12207s Beanspruchungsgruppen A/B/C (Fugendurchlasskoeffizient-
+  basiert, Nationaler Anhang NA.1, dient ausschliesslich der Umrechnung alter DIN-18055-
+  Messwerte auf EN-Klassen 1-4) sind trotz identischer Buchstaben KEIN gemeinsames System —
+  ein direkter Buchstaben-/Zahlen-Transfer waere fachlich falsch. DIN 1249-11 (Glaskanten)
+  fuellt eine echte Luecke, da SIA 331 keine eigene Glaskanten-Klassifizierung kennt (Kap. 3/6
+  bewusst leer). Verifikations-Agent bestaetigte alle Kernaussagen wortnah gegen die drei
+  Destillate; eine kleine Praezisierung wurde umgesetzt (DIN-18055-Charakterisierung stammt
+  aus der EN-12207-Korrelationstabelle NA.1, nicht aus einer direkten DIN-18055-Lektuere,
+  die nicht im Bestand liegt).
+- **RAL-GZ 638 BKP-Zuordnung:** gegen `references/bkp-2017/BKP-2017-Liste.md` geprueft:
+  BKP 221.9 Metallbaufertigteile (Rohbau 2, aussen) bzw. BKP 272.2 Allgemeine
+  Metallbauarbeiten (Ausbau 1, innen), je nach Einbausituation; bei Umbauten die Hauptcodes
+  BKP 321/372 (keine .9-Unterteilung in der Liste vorhanden, bewusst kein erfundener
+  Subcode). Verifikations-Agent bestaetigte alle vier Codes wortgetreu gegen die Liste und
+  per Grep, dass unter 321/372 tatsaechlich keine Dezimal-Subcodes existieren.
+
+**4 Luecken bleiben offen** (ausserhalb des Stations-Scopes bzw. externe Beschaffung noetig):
+SIA 266/262/267-Detailbemessung (SIA-Vertiefung, Station MacBook Pro), SIA-Raumakustik-Norm
+(existiert laut `destillate/INDEX.md` nicht in der KB), Suva-/EKAS-Richtlinie Fassadengeruest/
+Dachhaken (kein SharePoint-Fund), VKF-BRL 15-15 (VKF-Familie, Station MacBook Pro), «2026
+verschaerfte kantonale Velo-Abstellpflicht» (Recherchefrage ausserhalb bestehender Quellen).
+Nachgefuehrt: `wiki/synthese-din-vss-ral-fachskills.md` (Abschnitt 10.3 + 11.4 + 2 Zeilen
+Abschnitt 14, `last_updated: 2026-07-16`), `destillate/ral-gz638-2008.md` (BKP-Absatz
+ergaenzt), `wiki/QUESTIONS.md` (Mini-Run-31-Kopfnotiz + 2 Eintraege auf `[x]` gesetzt),
+`training/norm-inventar.md` (Kopfzeile), Report `outputs/2026-07-16_normen-mini-run31.md`.
+
 ## 2026-07-15 — normen-training-mini Mini-Run 30 (Mac Mini, Intensiv-Lauf auf Zuruf): Vertiefungsstufe (d) Querschnitts-Synthese DIN/VSS/RAL — 5 neue Themenabschnitte + 2 Vertiefungen
 Stations-Split eingehalten: NUR DIN/VSS/RAL angefasst (SIA/VKF = MacBook Pro, nicht beruehrt).
 Auftrag Raphael (15.07.2026): ein Intensiv-Lauf, 15-25 Positionen, Verifikations-Stufe + Token-

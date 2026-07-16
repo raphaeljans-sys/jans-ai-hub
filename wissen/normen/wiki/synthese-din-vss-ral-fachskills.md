@@ -1,7 +1,7 @@
 ---
 title: "Querschnitts-Synthese DIN/VSS/RAL fuer die JANS-Fach-Skills"
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 sources_zusatz:
   - destillate/sia-500-2009.md
 sources:
@@ -571,16 +571,55 @@ anwendbares Produktrecht — die Ausnahme zum sonstigen Regelfall dieser Synthes
 DIN EN 12207:2000 klassiert die Luftdurchlaessigkeit von Fenstern/Tueren in die
 **Klassen 0-4**. Auch dies eine europaeisch harmonisierte Norm — das Destillat haelt
 fest, dass sie «auch in CH-relevanten Produktdatenblaettern gaengig ist und direkt als
-Vergleichsgroesse herangezogen werden kann». SIA 331 (Fensterbau) ist zwar im Bestand
-vorhanden (`destillate/sia-331-1988.md`), wurde fuer diesen Vergleich aber nicht im
-Detail gegen EN 12207 gelesen (Luftdichtheits-Klassifizierung nicht am Original
-gegengeprueft) — solange dieser Detailabgleich offen ist, dient EN 12207 als belegte
-Kennwert-Quelle fuer LV-Texte, ohne dass ein SIA-331-Zahlenvergleich vorliegt.
+Vergleichsgroesse herangezogen werden kann».
 DIN 68119:1996 (Holzschindeln) ist dagegen eine reine deutsche Norm ohne EN-Nummer,
 aber mit nutzbarer Bezeichnungssystematik und Mengenermittlung fuer Fassaden-/
 Dacheindeckungs-Ausschreibungen mit Holzschindeln (BKP 224/225). Die im Destillat
 enthaltene Brandschutz-Aussage (Baustoffklasse B2 nach DIN 4102-1) ist **nicht auf die
 Schweiz uebertragbar** — massgebend bleibt die VKF-RF-Klassifizierung.
+
+**Ziffer-fuer-Ziffer-Abgleich SIA 331 ↔ DIN EN 12207/DIN 1249-11 (Mini-Run 31, 260716,
+schliesst die aus Mini-Run 30 offene Luecke):** beide bestehenden Destillate
+(`destillate/sia-331-1988.md`, `destillate/din-en-12207-2000.md`, `destillate/din-1249-11-1986.md`)
+wurden fuer diesen Vergleich gezielt herangezogen (keine neue Original-PDF-Lektuere
+noetig, alle drei bereits `established`/`destilliert`).
+
+- **Kernbefund — Beanspruchungsgruppen A/B/C sind KEIN gemeinsames System, obwohl
+  identische Buchstaben verwendet werden:** SIA 331 Ziff. 2 23 4/2 31 staffelt die
+  Beanspruchungsgruppen A/B/C direkt nach der **Gebaeudehoehe** (Gruppe A: 0-8 m,
+  Gruppe B: >8-20 m, Gruppe C: >20-100 m, Tabelle 1) und legt darauf aufbauend
+  Fugendurchlaessigkeits- (Tabelle 2) und Schlagregendichtheits-Anforderungen
+  (Tabelle 3) fest, nachgewiesen ueber die Pruefnormen EN 42/EN 86 (nicht ueber
+  EN 12207!). Die im **deutschen** System verwendeten Beanspruchungsgruppen A/B/C
+  stammen dagegen aus der ALTEN Norm DIN 18055:1981-10 und sind gemaess der
+  Korrelationstabelle NA.1 (DIN EN 12207, nationaler Anhang) ueber den gemessenen
+  **Fugendurchlasskoeffizienten bei Referenzdruck 100 Pa** charakterisiert — DIN
+  18055:1981-10 selbst liegt nicht im Bestand und wurde nicht direkt gelesen
+  (A = 150 Pa Pruefdruck/50 m³/(h·m²), B = 300 Pa/27, C = 600 Pa/9); die Korrelations-
+  tabelle NA.1 in DIN EN 12207 dient EINZIG dazu, alte DIN-18055-Pruefergebnisse auf
+  die neuen EN-Klassen 1-4 umzurechnen. Ein direkter Zahlen- oder Buchstaben-Transfer
+  "SIA-Gruppe B = DIN-Gruppe B = EN-Klasse 2" ist **fachlich falsch** — die
+  Klassifizierungslogik (Gebaeudehoehe vs. Labor-Pruefdruck) ist grundverschieden,
+  auch wenn beide Systeme zufaellig dieselben drei Buchstaben verwenden. Fuer eine
+  CH-Ausschreibung bleibt SIA 331 (bzw. eine aktuellere SIA-331-Ausgabe/SIA 380/1)
+  massgebend; EN-12207-Klassenangaben aus Produktdatenblaettern koennen als
+  Zusatzinformation zur Einordnung der Fugendurchlaessigkeit dienen, ersetzen aber den
+  SIA-Nachweis nicht.
+- **Glaskanten (DIN 1249-11) — kein SIA-Pendant, ergaenzende statt konkurrierende
+  Quelle:** SIA 331 enthaelt keine eigene Klassifizierung von Glaskanten-Formen/
+  Ausfuehrungsarten; das Thema wird dort nicht behandelt (kein Widerspruch zu
+  Kapitel 3/6, die laut Normenaufbau bewusst leer bleiben). DIN 1249-11 (Begriffe/
+  Kantenformen K/GK/FK/RK, Ausfuehrungsarten KG/KGS/KMG/KGN/KPO) fuellt damit eine
+  echte Luecke in der SIA-Systematik und kann unveraendert als praezise
+  Bezeichnungssprache in CH-Ausschreibungen verwendet werden (bereits so im Destillat
+  `din-1249-11-1986.md` vermerkt) — statisch/sicherheitstechnisch massgebend bleibt
+  in der Schweiz SIA 358 (Gelaender/Bruestungen) sowie produktspezifische EN-Normen
+  (EN 12150 ESG, EN 14179 VSG), nicht DIN 1249-11 selbst.
+- **Genehmigungsdatum/Gueltigkeit SIA 331:1988 unklar:** das Destillat vermerkt selbst
+  unter "Offene Punkte", dass unklar ist, ob die Ausgabe 1988 noch die gueltige
+  Fassung ist (nur diese Ausgabe im Bestand) — vor Verwendung in einer aktuellen
+  Ausschreibung Gueltigkeit gegen `wiki/REGISTER.md`/`ersetzte_normen.pdf` pruefen
+  (Aufgabe der Station MacBook Pro, SIA-Familie).
 
 ## 11. Bodenbelaege, Zeichnungsnormen und Baumaterial-Kennwerte (Skills `ausschreibung`, `kostenschaetzung`) — Mini-Run 30, 260715
 
@@ -654,9 +693,23 @@ stufen gilt eine eigene Lastvorgabe (1,5 kN Einzellast je 100×100 mm im Abstand
 laengs der Antrittskante) inkl. Pflicht zur rutschhemmenden Antrittskante.
 **Praxisnutzen:** bei einer Gitterrost-LV-Position (Kellerabgaenge, Lichtschaechte,
 Balkone, Treppenstufen) ist die Referenz auf RAL-GZ 638 sinnvoll, wenn ein
-guetegesichertes Produkt verlangt wird. Eine BKP-Zuordnung ist im Destillat nicht
-explizit ausgewiesen — offene Luecke, im Einzelfall gegen die BKP-2017-Liste zu
-verifizieren; direkt schweizerisches Fachrecht ist RAL-GZ 638 in keinem Fall.
+guetegesichertes Produkt verlangt wird; direkt schweizerisches Fachrecht ist
+RAL-GZ 638 in keinem Fall.
+
+**BKP-Zuordnung (Mini-Run 31, 260716, schliesst die aus Mini-Run 30 offene Luecke):**
+gegen `references/bkp-2017/BKP-2017-Liste.md` gepruefte, situationsabhaengige
+Zuordnung — es gibt keinen eigenen "Gitterrost"-Code, massgebend ist die
+Einbausituation: **BKP 221.9 Metallbaufertigteile** (Gruppe 22 Rohbau 2, aeussere
+Bauteile) fuer Aussenanwendungen wie Lichtschacht-/Kellerabgangs-Abdeckungen,
+befahrbare Aussenroste bei Anlieferungszonen; **BKP 272.2 Allgemeine
+Metallbauarbeiten** (Gruppe 27 Ausbau 1) fuer innenliegende Bodenroste/Podeste. Bei
+Umbauten die analogen Hauptcodes der Gruppe 3 (Betriebseinrichtungen) **BKP 321**
+(Fenster, Aussentueren, Tore) bzw. **BKP 372** (Metallbauarbeiten) verwenden — fuer
+diese Gruppe listet `BKP-2017-Liste.md` keine .9-Subcode-Aufschluesselung, daher
+KEINE erfundene Dezimalstelle ansetzen, sondern den Hauptcode referenzieren. Diese
+BKP-Zuordnung ist eine Einordnung durch die Synthese, nicht Teil des RAL-GZ-638-
+Originaltexts — im Einzelfall gemaess Rule `bkp-2017-referenz` gegen das konkrete LV
+verifizieren.
 
 ## 12. Stahlbau-Brandschutz, Treppen und Fassadenunterhalt (Skills `brandschutz`, `terminplanung`, `unternehmerkontrolle`) — Mini-Run 30, 260715
 
@@ -785,13 +838,14 @@ DIN/VSS/RAL-Zahl gegen SIA/VKF schnell pruefen kann, ob eine 1:1-Uebertragung zu
 | DIN EN 1627 RC-Widerstandsklassen ↔ CH-Einbruchschutzpraxis | **Ja — direkt** (Ausnahme vom DIN-Regelfall) | europaeisch harmonisiert, in CH identisch als SN EN 1627 gueltig, SIA 343.051 Ziff. 4.19 verweist direkt darauf; nur Teil-Destillat (4/44 S.) im Bestand (Abschnitt 10) |
 | EN 179 (Notausgang)/EN 1125 (Panik) ↔ CH-Fluchtwegpraxis | **Ja — direkt**, Anwendungsentscheid bleibt behoerdlich | SIA 343.051 Ziff. 4.10 und VST-Merkblatt Ziff. 1.3 nennen beide EN-Normen ausdruecklich als CH-massgebend (Abschnitt 10) |
 | VST-Merkblatt Anhang I (VKF-Zitate Stand 2005/2009) ↔ aktuelle VKF-BRL 16-15:2015/rev. 2016 | **Nein** — veraltete Nummerierung | Anhang I zitiert alte Artikel-Struktur; fuer aktuelle Projekte gilt BRL 16-15/17-15 (Abschnitt 10) |
-| DIN EN 12207 Luftdichtheitsklassen 1-4 ↔ SIA 331 Fensterbau | **Ungeprueft** | SIA 331 im Bestand vorhanden, aber fuer diesen Vergleich nicht im Detail gegen EN 12207 gelesen (Abschnitt 10) |
+| DIN EN 12207 Luftdichtheitsklassen 1-4 ↔ SIA 331 Beanspruchungsgruppen A/B/C | **Nein — echte Systemverwechslung droht** | beide Systeme nutzen zufaellig dieselben Buchstaben A/B/C, aber SIA staffelt nach Gebaeudehoehe, DIN/EN nach gemessenem Fugendurchlasskoeffizient; Zahlen/Buchstaben nie 1:1 uebertragen (Abschnitt 10, Ziffer-fuer-Ziffer-Abgleich Mini-Run 31) |
+| DIN 1249-11 Glaskanten-Klassifizierung ↔ SIA 331 | **Nicht anwendbar (keine SIA-Konkurrenznorm)** | SIA 331 behandelt Glaskanten gar nicht — DIN 1249-11 ergaenzt eine echte Luecke, statisch/sicherheitstechnisch bleibt SIA 358 + EN-Produktnormen massgebend (Abschnitt 10, Mini-Run 31) |
 | DIN 68119 Brandschutz-Bezug (Baustoffklasse B2 nach DIN 4102-1) ↔ VKF-RF-Klassifizierung | **Nein** | im Destillat selbst als nicht uebertragbar vermerkt; massgebend ist die VKF-RF-Einordnung (Abschnitt 10) |
 | DIN 18560-2 Nenndicken-Tabelle 1 ↔ SIA 251 Tabellen 3-8 (Estrich) | **Nein** — nur Naeherung im unteren Bereich | unterschiedliche Bemessungsgroesse (Flaechenlast vs. Nutzungskategorie A-D, Abschnitt 11) |
 | DIN 1356-1 Massstabsstaffelung ↔ SIA 400 Massstabsstaffelung | **Ja** — deckungsgleiche Stufenlogik | 1:500→200→100→50→20/10/5/1 identisch, nur andere Planart-Namen (Abschnitt 11) |
 | DIN 1356-1 Liniengruppen ↔ SIA 400 Liniendicken-Reihe | **Nein** — unterschiedliches Zuordnungsprinzip | DIN bindet Dicke zwingend an Massstab, SIA laesst freie Wahl zu (Abschnitt 11) |
 | DIN 1164-10 HS-/NA-Zement-Grenzwerte ↔ SN EN 197-1/SIA 262 | **Bedingt** — Kontrastfolie, keine CH-Geltung | gemeinsame EN-197-1-Basis, DIN 1164-10 aber deutsche Zusatznorm ohne unmittelbare CH-Geltung (Abschnitt 11) |
-| RAL-GZ 638 Gitterrost-Guetezeichen ↔ Schweizer Fachrecht | **Ungeprueft** | kein CH-Pendant im Bestand identifiziert, BKP-Zuordnung offen (Abschnitt 11) |
+| RAL-GZ 638 Gitterrost-Guetezeichen ↔ Schweizer Fachrecht | **Kein CH-Pendant, aber BKP-Zuordnung jetzt belegt** | kein CH-Guetezeichen-Pendant im Bestand identifiziert; BKP 221.9 (aussen, Rohbau 2) bzw. BKP 272.2 (innen, Ausbau 1) gemaess `references/bkp-2017/BKP-2017-Liste.md` je nach Einbausituation anwendbar (Abschnitt 11, Mini-Run 31) |
 | SZS steeldoc 03/15 (Brandschutz im Stahlbau) ↔ DIN-Vergleichslogik | **Nicht anwendbar (keine Vergleichsnorm)** | SZS = Schweizer Fachverband, keine deutsche Norm trotz Ablage im DIN-Ordner; direkte CH-Zweitquelle (Abschnitt 12) |
 | DIN 18065 Stufengeometrie ↔ SIA-Pendant | **Ungeprueft — keine SIA-Quelle in der KB** | SIA 358 regelt nur Gelaender/Handlauf, nicht die Stufenmasse; CH-Stufengeometrie richtet sich nach kantonaler Bauverordnung (Abschnitt 12) |
 | DIN 18065/Neufert Treppengelaenderhoehe (90-110 cm, absturzhoehenabhaengig) ↔ SIA 358 Gelaenderhoehe (0,90 m pauschal) | **Aehnlich im Regelwert, andere Bemessungslogik** | DIN staffelt nach Absturzhoehe/Gebaeudeart, SIA 358 setzt einheitlichen Pauschalwert (Abschnitt 12) |

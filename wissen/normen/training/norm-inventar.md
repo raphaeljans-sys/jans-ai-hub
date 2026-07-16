@@ -9,6 +9,11 @@
 - Vertiefungsstufe (d) Querschnitts-Synthesen DIN/VSS/RAL: `wiki/synthese-din-vss-ral-fachskills.md`
   (Mac Mini Mini-Run 30, 260715 — 5 neue Sektionen 9-13 + Vertiefungen Abschnitt 6/7,
   Grunddestillation/Retro-Verifikation/Q&A fuer DIN/VSS/RAL bereits seit Mini-Run 29 komplett).
+- Mini-Run 31 (Mac Mini, 260716): Inventar-Check bestaetigt erneut 0 offene `[ ]`-Positionen in
+  DIN (72)/VSS (17)/RAL (1) und keine neuen Dateien in der live gemounteten SharePoint-Ablage —
+  2 von 6 aus Mini-Run 30 offenen Vertiefungs-Luecken geschlossen (SIA 331 ↔ EN 12207/DIN 1249-11
+  Ziffer-fuer-Ziffer, RAL-GZ 638 BKP-Zuordnung), adversarial verifiziert, 0 Fehler. Details
+  `wiki/QUESTIONS.md` Abschnitt "Mini-Run 31", Report `outputs/2026-07-16_normen-mini-run31.md`.
 
 ## SIA (391 Dateien)
 

@@ -332,6 +332,28 @@
   Aussenluft-Volumenstrom/Klassierung AUL/RAL/ABL); der Detailvergleich CH- vs. DE-Modell
   kann darauf aufbauen (Anhänge A-G von SIA 382/1 noch offen).
 
+## Mini-Run 31 (Mac Mini, 260716) — Inventar-Check + 2 von 6 offenen Lücken aus Mini-Run 30 geschlossen
+
+Auftrag Raphael: ein Intensiv-Lauf, NUR Familien DIN/VSS/RAL (Stations-Split, SIA/VKF
+nicht angefasst). **Inventar-Check vorab** (Datei-für-Datei-Vergleich `norm-inventar.md`
+gegen die live gemountete SharePoint-Ablage `PL - 02_Recht_Norm/02_Normen/DIN_Norm`,
+`.../VSS_Norm`, `.../RAL_Norm`): weiterhin 0 offene `[ ]`-Positionen, keine neuen Dateien
+seit dem letzten Scan — Grunddestillation (a), Retro-Verifikation (b), Q&A-Selbstbefragung
+(c) und Querschnitts-Synthese (d) bleiben für alle 90 DIN/VSS/RAL-Dateien vollständig
+abgeschlossen. Dieser Lauf hat deshalb bewusst **keine künstliche Mengen-Zielzahl (z.B.
+15-25 Positionen) erzwungen**, sondern die 6 aus Mini-Run 30 dokumentierten offenen Lücken
+einzeln geprüft:
+- **2 Lücken geschlossen** (SIA 331 ↔ EN 12207/DIN 1249-11; RAL-GZ 638 BKP-Zuordnung) —
+  siehe die zwei `[x]`-Einträge unten im Mini-Run-30-Block.
+- **4 Lücken bleiben offen**, mit Begründung, warum sie in diesem Lauf nicht schliessbar
+  waren: SIA 266/262/267-Detailbemessung (benötigt SIA-Vertiefung, Station MacBook Pro);
+  SIA-Raumakustik-Norm (existiert laut `destillate/INDEX.md` nicht in der KB, keine
+  DIN/VSS/RAL-seitige Massnahme möglich); Suva-/EKAS-Richtlinie Fassadengerüst/Dachhaken
+  (kein SharePoint-Fund, externe Beschaffung nötig, nicht per Destillation lösbar);
+  VKF-BRL 15-15 (VKF-Familie, Station MacBook Pro); «2026 verschärfte kantonale
+  Velo-Abstellpflicht» (Recherchefrage ausserhalb bestehender Quellen, keine neue
+  VSS/SN-Datei in der Ablage gefunden). Report `outputs/2026-07-16_normen-mini-run31.md`.
+
 ## Mini-Run 30 (Mac Mini, 260715) — offene Lücken aus der Vertiefungsstufe (d) Querschnitts-Synthese DIN/VSS/RAL
 
 - [ ] **SIA 266/262/267 Detailbemessung nicht gegen DIN 1053/1045-2/1054 gegengeprüft:**
@@ -343,11 +365,17 @@
   Erdbauwerke). Ohne diese Kapitel bleibt der DIN-Zahlenvergleich (Partialfaktoren,
   M-Klassen ↔ deklariertes Mauerwerk, Sohlwiderstand ↔ Flachfundationsbemessung)
   ungeprüft. Nachziehen sobald SIA 266/267 (Station MacBook Pro) vertieft destilliert sind.
-- [ ] **SIA 331 (Fenster) ↔ DIN EN 12207/DIN 1249-11 nicht im Detail gegengelesen:**
-  `destillate/sia-331-1988.md` existiert im Bestand, wurde aber für den Vergleich
-  Luftdichtheitsklassen (Abschnitt 10.3) und Glaskanten-Bezeichnung (Abschnitt 11.3) nicht
-  Ziffer-für-Ziffer herangezogen. Nachziehen: Luftdichtheits-/Glas-Kapitel von SIA 331 gegen
-  EN 12207/DIN 1249-11 abgleichen.
+- [x] **SIA 331 (Fenster) ↔ DIN EN 12207/DIN 1249-11 Ziffer-für-Ziffer abgeglichen —
+  erledigt Mini-Run 31 (260716):** Kernbefund: SIA 331s Beanspruchungsgruppen A/B/C
+  (Gebäudehöhe-basiert, Ziff. 2 23 4/2 31, Nachweis über EN 42/EN 86) und DIN EN 12207s
+  Beanspruchungsgruppen A/B/C (Fugendurchlasskoeffizient-basiert, Nationaler Anhang
+  NA.1, nur zur Übertragung alter DIN-18055-Messwerte auf EN-Klassen 1-4) sind KEIN
+  gemeinsames System trotz identischer Buchstaben — 1:1-Transfer wäre fachlich falsch.
+  DIN 1249-11 (Glaskanten) füllt eine echte Lücke, da SIA 331 keine eigene
+  Glaskanten-Klassifizierung kennt (Kap. 3/6 bewusst leer). Details:
+  `wiki/synthese-din-vss-ral-fachskills.md` Abschnitt 10.3 + Abschnitt 14 (zwei neue
+  Zeilen). Adversarial verifiziert (2 unabhängige Prüf-Agenten gegen die drei
+  Quell-Destillate, 0 Fehler gefunden — Details siehe `outputs/2026-07-16_normen-mini-run31.md`).
 - [ ] **Keine SIA-Norm zur Raumakustik in der KB:** `destillate/INDEX.md`-Prüfung (Mini-Run 30)
   ergibt keinen Treffer für eine SIA-Raumakustik-/Nachhallzeit-Norm. DIN 18041 dient bis
   dahin als alleinige Zweitquelle für Nachhallzeit-Sollwerte/Absorptionsflächen (Abschnitt 13
@@ -368,6 +396,12 @@
   (Quellen 1983-2011 bzw. Merkblatt Stadt ZH 1996/1998) eine solche 2026er-Verschärfung
   erwähnt. Falls eine aktuelle kantonale/kommunale Regelung existiert, separat recherchieren
   und nachtragen — nicht aus den bestehenden Quellen ableitbar.
-- [ ] **RAL-GZ 638 (Gitterroste) ohne explizite BKP-Zuordnung im Destillat:** vor Verwendung
-  einer RAL-GZ-638-Referenz in einem LV-Titel die passende BKP-2017-Position (Rule
-  `bkp-2017-referenz`) im Einzelfall verifizieren, das Destillat selbst nennt keine.
+- [x] **RAL-GZ 638 (Gitterroste) BKP-Zuordnung ergänzt — erledigt Mini-Run 31 (260716):**
+  gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft: **BKP 221.9** Metallbaufertigteile
+  (Rohbau 2, aussen) bzw. **BKP 272.2** Allgemeine Metallbauarbeiten (Ausbau 1, innen), je
+  nach Einbausituation; bei Umbauten die Hauptcodes BKP 321/372 (keine .9-Unterteilung in
+  der Liste vorhanden, daher keine erfundene Dezimalstelle). Nachgeführt in
+  `destillate/ral-gz638-2008.md` und `wiki/synthese-din-vss-ral-fachskills.md` Abschnitt
+  11.4 + Abschnitt 14. Adversarial verifiziert (unabhängiger Prüf-Agent gegen
+  BKP-2017-Liste.md, 0 Fehler/keine erfundenen Subcodes gefunden — Details siehe
+  `outputs/2026-07-16_normen-mini-run31.md`).
