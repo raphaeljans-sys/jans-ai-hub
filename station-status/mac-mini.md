@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.07.2026 22:55:19
+Stand: 16.07.2026 23:05:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:01)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,8 +15,8 @@ Stand: 16.07.2026 22:55:19
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ae6df8b0 energie-training Run 78: NEUES Fachthema Innendaemmung im Altbau (Bauphysik/Nachweise/Foerderung)
+- 3f3a2f5b energie-training Run 75: MuKEn-Anhang 6+7, PV-Ruecklieferverguetung, Innendaemmung + KORREKTUR F87

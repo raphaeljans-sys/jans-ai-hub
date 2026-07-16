@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.07.2026 22:59:44
+Stand: 16.07.2026 23:09:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.07.2026 22:59:44
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ae6df8b0 energie-training Run 78: NEUES Fachthema Innendaemmung im Altbau (Bauphysik/Nachweise/Foerderung)
+- 3f3a2f5b energie-training Run 75: MuKEn-Anhang 6+7, PV-Ruecklieferverguetung, Innendaemmung + KORREKTUR F87
