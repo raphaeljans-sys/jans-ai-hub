@@ -2,7 +2,7 @@
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
 last_updated: 2026-07-16
-sources: [destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md]
+sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md]
 links: [[INDEX]]
 ---
 
@@ -3240,26 +3240,43 @@ uploads/2025/09/MuKEn2025_d-2025-08-29.pdf. Destillat: `[[muken-2025-verabschied
 
 **Kurz-Antwort für den Bauherrn:** Melden Sie das Vorhaben bei der Gemeinde (bis 70 kW ist sie
 zuständig, nicht der Kanton). Ein Pelletkessel muss strengere Staubgrenzwerte einhalten
-(50 mg/m³) als ein Stückholzkessel (100 mg/m³), beide werden alle 4 Jahre kontrolliert.
-Kaminhöhe/Abstand zu Nachbarfenstern klärt die Gemeinde im Baubewilligungsverfahren mit den
-Brandschutzvorschriften. Für die Finanzierung lohnt sich primär die bundesweite Klimaprämie
-(CHF 360 pro kW, kein Maximum) statt des kantonalen Förderprogramms Zürich, das Holzheizungen
-nicht fördert. Rechnen Sie mit CHF 25'000-45'000 (Pellet) bzw. CHF 35'000-37'000 (Stückholz) für
-ein Einfamilienhaus.
+(50 mg/m³) als ein Stückholzkessel (100 mg/m³). Beim Betrieb unterscheiden sich die Kantone
+deutlich: Im Kanton **Zürich** wird die Feuerung **alle 2 Jahre** amtlich kontrolliert und der
+Kaminfeger kommt bei festen Brennstoffen **3× pro Jahr** (Ganzjahresbetrieb), im Kanton
+**Schwyz** alle **4 Jahre** bzw. **1× pro Jahr**. Das Kamin muss bei Holz mindestens **0.5 m
+über den First** (Flachdach 1.5 m) — den 1-Meter-Rabatt für kleine Öl-/Gasheizungen gibt es bei
+Holz nicht, und ein höheres Nachbargebäude näher als 10 m wird massgebend und kann das Kamin
+verteuern. Bei der Förderung müssen Sie sich **entscheiden**: kantonales Programm **oder**
+Klimaprämie, beides zusammen geht nicht (siehe F&lt;Förderung&gt; unten). Rechnen Sie mit
+CHF 25'000-45'000 (Pellet) bzw. CHF 35'000-37'000 (Stückholz) für ein Einfamilienhaus
+(⚠ Richtwerte ohne amtliche Quelle).
 
 **Fachliche Begründung:** Grundlage ist LRV Anhang 3 Ziffer 52.2 (Emissionsgrenzwerte nach
-Leistungsklasse/Feuerungstyp — wichtiger Fund: die Grenzwerte stehen seit der LRV-Revision nicht
-mehr in Anhang 4, sondern in Anhang 3 Ziff. 52), Art. 13 Abs. 3 Bst. a (4-Jahres-
-Kontrollintervall für Holzkessel bis 70 kW), Anhang 3 Ziffer 22 (Kontrollausnahmen z. B.
-Cheminées mit reinem Stückholz), Anhang 2 (Kaminhöhenformel, nur für Q/S &gt; 5 relevant, i. d. R.
-nicht bei EFH/MFH). Förderung: Klimaprämie Stiftung KliK, kantonales ZH-Programm schliesst
-Holzheizungen aus.
+Leistungsklasse/Feuerungstyp — die Grenzwerte stehen seit der LRV-Revision nicht mehr in
+Anhang 4, sondern in Anhang 3 Ziff. 52) und Anhang 3 Ziffer 22 (Kontrollausnahmen, z. B.
+Cheminées mit reinem Stückholz). Beim **Kontrollintervall** greift eine Normenkaskade: LRV
+Art. 13 Abs. 3 Bst. a nennt **4 Jahre**, aber ausdrücklich «in der Regel … unter Vorbehalt
+abweichender Bestimmungen» — der Kanton Zürich hat mit der Verordnung zum Massnahmenplan
+Luftreinhaltung (RRB 13.01.2016, in Kraft 1.5.2016) für Holzzentralheizungen auf **2 Jahre**
+verschärft; das ist kantonales Recht und gilt im ganzen Kanton ZH, nicht nur in der Stadt.
+Kaminhöhe: BAFU-Vollzugshilfe «Mindesthöhe von Kaminen über Dach» (2018) Ziff. 3 (Holz bis
+70 kW = kleine Feuerungsanlage; die 1.0-m-Erleichterung gilt nur für Öl/Gas ≤ 40 kW). Die
+Hochkamin-Formel für Q/S &gt; 5 steht in **LRV Anhang 6** (nicht Anhang 2 — Korrektur gegenüber
+Run 74). Kaminfeger: GVZ-Weisung 20.03 (ZH) bzw. FSV § 11 (SZ). Feuerpolizei und Umweltrecht
+gelten parallel; das strengere Mass gewinnt.
 
-**Quelle + Datenstand:** LRV SR 814.318.142.1, Fassung 1.1.2026 (Fedlex-Volltext); awel.zh.ch,
-sz.ch (Web-Extrakt); klimapraemie.ch via holzfeuerungen-schweiz.ch. Stand Recherche: 16.07.2026.
-Destillat: `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`. Status **emerging** — mehrere
-Detailpunkte (Kaminhöhe Kleinanlagen, Kaminfeger, SZ-Förderdetails, Gültigkeit Klimaprämie)
-noch offen/zu verifizieren.
+**Quelle + Datenstand:** LRV SR 814.318.142.1, Fassung 1.1.2026 (Fedlex-Volltext); AWEL-Leitfaden
+Feuerungskontrolle (8.10.2021) mit Zitat der ZH-Massnahmenplan-Verordnung; BAFU-Vollzugshilfe
+Kaminhöhe (2018); GVZ-Weisung 20.03; FSV Kt. SZ § 11. Stand Recherche: 16.07.2026.
+Destillat: `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`.
+Status **established** für Kontrollintervalle, Kaminhöhe und Kaminfegerpflicht (alle am amtlichen
+Volltext belegt); **speculative** für die CHF-Kostenkennwerte (keine amtliche Quelle).
+
+> **Korrektur gegenüber Run 74 (16.07.2026):** Die frühere Fassung dieser Antwort nannte für ZH
+> ein 4-Jahres-Kontrollintervall (richtig: 2 Jahre) und empfahl die Klimaprämie pauschal als
+> die attraktivere Förderung mit «CHF 360 pro kW» (richtig: 18 Rp./kWh; die 360 sind eine blosse
+> Faustregel, und eine Doppelförderung mit dem kantonalen Programm ist ausgeschlossen). Wurde auf
+> dieser Basis bereits beraten, ist eine Richtigstellung angezeigt.
 
 ---
 
@@ -3353,7 +3370,7 @@ Sommer genau dann, wenn alle PV-Anlagen zusammen produzieren.
 BFE «Referenz-Marktpreise gemäss Art. 15 EnFV», Publikation 14.07.2026 (Werte exkl. MWST,
 Publikation jeweils bis 10. Arbeitstag nach Quartalsende); ElCom-FAQ «Energiestrategie 2050 ab
 Mantelerlass», Update 16.06.2026. Destillat:
-`[[pv-rueckliefervverguetung-mindestverguetung-2026]]`. Status **established**.
+`[[pv-rueckliefer-verguetung-mindestverguetung-2026]]`. Status **established**.
 ⚠ Die Rp./kWh-Werte sind **quartalsaktuell** — vor dem Zitieren den neuesten BFE-Wert ziehen.
 
 ---
@@ -3383,7 +3400,7 @@ Einspeisung als Restwert.
 
 **Quelle + Datenstand:** EnG SR 730.0 Art. 9, 15, 25; EnV SR 730.01 Art. 12 (Stand 1.1.2026,
 Volltext gelesen 16.07.2026); BFE-Faktenblatt PV-Förderung / Pronovo-Sätze (Stand Sept. 2025,
-für 2026 verifiziert). Destillate: `[[pv-rueckliefervverguetung-mindestverguetung-2026]]` +
+für 2026 verifiziert). Destillate: `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` +
 `[[pv-einmalverguetung-bund-bfe]]` + `[[pv-ertrag-eigenverbrauch-praxis]]`. Status **established**.
 
 ---
@@ -3474,3 +3491,36 @@ Förderprogramm Energie Kt. SZ 2026; EnFK-Vollzugshilfe EN-102; WDV Kt. ZH LS 70
 `[[denkmalschutz-energiesanierung-zh-sz]]` + `[[foerderprogramm-energie-zh-2026]]` +
 `[[foerderprogramm-energie-sz-2026]]` + `[[enfk-en-102-waermeschutz-2018]]`. Status **emerging**
 (Förderbedingungen jährlich neu — vor jedem Gesuch am Portal prüfen).
+
+---
+
+## F94 — «Lohnt sich die Klimaprämie bei meinem Heizungsersatz — oder das kantonale Förderprogramm?»
+
+**Kurz-Antwort für den Bauherrn:** Die Klimaprämie ist **kein Selbstläufer und keine Ergänzung zur
+kantonalen Förderung, sondern eine Alternative dazu** — eine Doppelförderung mit dem kantonalen
+Gebäudeprogramm ist ausgeschlossen. Im Kanton Schwyz rechnen wir deshalb beide Wege gegeneinander:
+kantonal **CHF 360/kWth** (bzw. **CHF 5'000 pauschal** bei Stückholz/Pellet mit Tagesbehälter) gegen
+die Klimaprämie mit **18 Rappen pro kWh** Jahresverbrauch. Die kolportierten «CHF 360 pro kW» der
+Klimaprämie sind nur eine Faustregel, kein zugesicherter Satz. Sie richtet sich primär an grössere
+Liegenschaften und setzt voraus, dass Ihr Projekt gegenüber einer rein fossilen Lösung als
+unwirtschaftlich eingestuft wird. Entscheidend ist in beiden Fällen: **das Gesuch muss vor der
+Auftragsvergabe eingereicht sein** — wer zuerst bestellt, verliert den Anspruch ersatzlos.
+
+**Fachliche Begründung:** Klimaprämie = Kompensationsprojekt Nr. 0228 (Renera AG / Energiezukunft
+Schweiz, Stiftung KliK), Fördersatz 18 Rp./kWh bzw. CHF 1.80 pro Liter ersetztes Heizöl. Drei
+Bedingungen entscheiden über den Anspruch: **Ziff. 8** schliesst die Kumulation mit dem kantonalen
+Gebäudeprogramm aus, **Ziff. 3** verlangt Förderwürdigkeit nur bei Unwirtschaftlichkeit gegenüber
+fossil, **Ziff. 6** verlangt die Abtretung der CO₂-Einsparung an das Projekt. Kantonal SZ
+(Vollzugshilfe Förderprogramm Energie 2026): Stückholz/Pellet mit Tagesbehälter CHF 5'000 pauschal,
+automatische Anlage CHF 360/kWth (≤ 500 kWth), darüber CHF 80'000 + 200/kWth; gedeckelt auf
+50 Wth/m² EBF; nur Ersatz von Öl/Gas/Elektro im Bestand (Holz→Holz und Ersatzneubau ausgeschlossen).
+
+**Quelle + Datenstand:** klik.ch Projekt Nr. 0228 (Daten per Januar 2026); Vollzugshilfe
+Förderprogramm Energie Kt. SZ 2026 (PDF-Volltext, gelesen 16.07.2026).
+Destillate: `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]` +
+`[[klimapraemie-heizungsersatz-klik]]` + `[[foerderprogramm-energie-sz-2026]]`.
+Status **emerging** — offen bleiben: das **Enddatum der Klimaprämie** (nirgends publiziert, nur
+telefonisch bei Renera klärbar), die Frage, ob **EFH-Zentralheizungen** überhaupt anspruchsberechtigt
+sind (Quellen widersprüchlich), und ob ZH-Projekte durch Ziff. 7 (keine Vorschrift darf den
+erneuerbaren Ersatz zwingend verlangen) faktisch ausgeschlossen sind. ⚠ Förderkonditionen ändern
+jährlich — vor jedem Gesuch am Portal prüfen.

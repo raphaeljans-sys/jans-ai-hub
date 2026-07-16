@@ -79,7 +79,7 @@ Neueste zuoberst.
   `aussenlaerm-schallschutzfenster-strasse-bahn`.
 
 ## 2026-07-16 — Run 76: NEUES Fachthema Rückliefervergütung + Mindestvergütung ab 2026 (Primärquellen)
-- **Neues Destillat `destillate/pv-rueckliefervverguetung-mindestverguetung-2026.md`** (status
+- **Neues Destillat `destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md`** (status
   **established**) — die bisher grösste Lücke der PV-Kette: was der Bauherr für den **eingespeisten**
   Strom bekommt. Bisher stand dazu in der KB nur die Faustzahl «~8-10 Rp.» und «Netzbetreiber legt
   fest, sehr unterschiedlich» (in `pv-einmalverguetung-bund-bfe` / `pv-marktzahlen-kosten-ch-2025`).

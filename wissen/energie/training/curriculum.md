@@ -867,3 +867,29 @@ Zielkonflikt, Abgrenzung Fernwärme/Grosswärmepumpe). Vier neue FAQ (F86-F89), 
 `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]` (neu),
 `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` (neu),
 `[[blockheizkraftwerk-bhkw-mfh-pflegeheim-ch]]` (neu).
+
+**D56 (Run 75, 2026-07-16)** — Vier parallele Rechercheagenten. PDF-Inventar bleibt seit Run 65
+erschoepft → Web-/Volltext-Pfad. Batch-Volumen bewusst auf 4 Themen statt der Vollgas-Richtwerte
+6-10 gesetzt (Rule `auto-verbesserungen` **260714** «Tempo drosseln», die 260712b/c fuer die
+laufende Woche ueberschreibt). (1) **MuKEn 2025 Anhang 6+7** erstmals ausgewertet: Anhang 6 ist ein
+Systemwechsel — 11 Standardloesungen als Regelweg (MuKEn 2014, inkl. fossiler Optionen SL 4/6/10)
+werden zu 7 Standardmassnahmen als reinem Ausnahmeweg (zwei davon innert 3 J., erst bei
+nachgewiesener Unzumutbarkeit); Anhang 7 ist nachweislich neu (die Begriffe Jahreskosten/
+Lebenszykluskosten/Annuitaet/Diskontsatz kommen im MuKEn-2014-Volltext null Mal vor) und macht die
+Vollkostenrechnung vom Beratungsargument zum Rechtsinstrument (Diskontsatz = hypothekarischer
+Referenzzinssatz Art. 12a VMWG, Foerderbeitraege zwingend anzurechnen, CO2-Abgabe als Mittelwert
+bis Hoechstsatz). (2) **PV-Ruecklieferverguetung ab 2026** neu erschlossen: EnG Art. 15 Abs. 1bis +
+EnV Art. 12 Abs. 1bis → Mindestverguetung 6 Rp./kWh (< 30 kW), 6,2 Rp. ohne Eigenverbrauch, ab
+150 kW keine; **staerkster Befund**: der BFE-Referenz-Marktpreis lag im ganzen Q2 2026 (3,90 Rp.)
+UNTER der Mindestverguetung — sie hat im ersten Sommer sofort gegriffen; ewz 12,91 Rp. stabil vs.
+EKZ quartalsfolgend = Faktor 2-3 allein wegen der Netzgebietsgrenze. (3) **Innendaemmung im Altbau**
+neu erschlossen: SIA 180 verlangt fuer innengedaemmte Aussenwaende die hygrothermische Simulation
+nach SN EN 15026 (Glaser genuegt nicht, und die Simulation ist bei 2D-Effekten/Balkenkopf ihrerseits
+unzulaessig); Foerder-Nadeloehr U ≤ 0,20 mit Innendaemmung praktisch unerreichbar → die Erleichterung
+fuer geschuetzte Bauteile bis U 0,30 ist der Regelweg; Asymmetrie WDV ZH § 2 Abs. 5 (bauphysikalischer
+Ast rettet die Bewilligung, nicht das Foerdergeld). (4) **Holzfeuerung-Restpunkte** aus Run 74
+geloest — inkl. **zwei Korrekturen am eigenen Bestand** (siehe CHANGELOG). Neue FAQ **F90-F94**,
+F87 korrigiert → `[[muken-2025-verabschiedet]]`,
+`[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` (neu),
+`[[innendaemmung-altbau-bauphysik-ch]]` (neu),
+`[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`.

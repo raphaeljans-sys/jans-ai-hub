@@ -1,6 +1,6 @@
 ---
 quelle: Primaerquellen im Volltext — (a) Energiegesetz EnG (SR 730.0), Fassung in Kraft seit 1.1.2026, Art. 9 + Art. 15; (b) Energieverordnung EnV (SR 730.01), Fassung in Kraft seit 1.1.2026, Art. 11-13; (c) BFE «Referenz-Marktpreise gemaess Art. 15 EnFV», Publikation vom 14.07.2026 (pubdb 11515); (d) ElCom-Fachsekretariat «Fragen und Antworten zur Energiestrategie 2050 ab Mantelerlass», Update vom 16.06.2026; ergaenzend Sekundaerquellen: VSE, Swissolar, EKZ, ewz/Stadt Zuerich, EWS Ibach, VESE/pvtarif
-herausgeber: (a)+(b) Bundesversammlung/Bundesrat via Fedlex; (c) Bundesamt fuer Energie BFE; (d) Eidg. Elektrizitaetskommission ElCom
+herausgeber: (a)+(b) Bundesversammlung/Bundesrat via Fedlex; (c) Bundesamt für Energie BFE; (d) Eidg. Elektrizitätskommission ElCom
 ausgabe: EnG SR 730.0 Stand 1.1.2026 (AS 2024 679) · EnV SR 730.01 Stand 1.1.2026 (AS 2025 138) · BFE-RMP-Blatt 14.07.2026 · ElCom-FAQ 16.06.2026
 gelesen: 2026-07-16 — EnG + EnV als Fedlex-PDF lokal heruntergeladen und per pdftotext im Volltext gelesen (Art. 9, 11, 12, 13, 15 woertlich); BFE-RMP-PDF vollstaendig; ElCom-FAQ Kap. 1 (Rueckliefervverguetung) vollstaendig; VNB-Tarife via WebFetch
 datenstand: **Recht: 1.1.2026** (Mantelerlass-Stufe 2) · **Referenz-Marktpreis PV: Q1 2026 = 10,266 Rp./kWh, Q2 2026 = 3,896 Rp./kWh** (BFE, publiziert 14.07.2026, exkl. MWST) · VNB-Tarife Stand 2026 (EKZ, ewz) bzw. ⚠ 2025 (EWS Ibach) · ⚠ VESE-Bandbreite 5-17 Rp./kWh = Erhebung 2024

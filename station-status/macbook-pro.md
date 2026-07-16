@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.07.2026 22:39:33
+Stand: 16.07.2026 22:59:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -10,7 +10,6 @@ Stand: 16.07.2026 22:39:33
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
-- 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 8262f0ae nas-selfcommit: 2 Datei(en) 2026-07-16 22:30
+- ae6df8b0 energie-training Run 78: NEUES Fachthema Innendaemmung im Altbau (Bauphysik/Nachweise/Foerderung)

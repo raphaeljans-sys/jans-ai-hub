@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.07.2026 22:35:11
+Stand: 16.07.2026 22:55:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 16.07.2026 22:35:11
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 8262f0ae nas-selfcommit: 2 Datei(en) 2026-07-16 22:30
+- ae6df8b0 energie-training Run 78: NEUES Fachthema Innendaemmung im Altbau (Bauphysik/Nachweise/Foerderung)
