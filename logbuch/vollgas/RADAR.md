@@ -21,6 +21,41 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-16 12:50 — [GEDROSSELT] Entwarnung zur Nacht-Leere: Tasks sind nur VERSCHOBEN, nicht ausgefallen
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+weiterhin gesetzt (14.07. 12:53), kein `vollgas-runner`-Prozess. Als Schoner starte ich nichts neu.
+
+**Der P2-Verdacht von 06:50 ist entkraeftet — kein Login-Ausfall, kein verlorener Lauf.** Das
+Nachtfenster 15→16.07 war um 06:50 tatsaechlich leer, aber die Laeufe sind danach nachgezogen:
+`energie-training` Run 73 (Mac Mini, geplant 22:30) hat um 10:50 committet (MuKEn-2025-Originaltext
+gefunden, 5 Destillate vertieft), `planungsgrundlagen` zuletzt 11:45. Auch die App-Flotte auf dem
+MacBook Pro laeuft (ag-gruendung-monitor 08:xx committet, dieser Radar-Lauf selbst). Das Muster ist
+damit **Verschiebung statt Verlust**: der App-Scheduler holt die in Darkwake (stuendlich 03:04–06:04
+belegt) nicht gestarteten Tasks nach, sobald die Station wieder richtig wach ist. Ein Login-/Token-
+Problem ist nicht ersichtlich; die `claude -p`-Probe bleibt im Drossel-Regime bewusst ungenutzt.
+
+**Offen (unkritisch):** Die sechs MacBook-KBs (wettbewerbs-dna 14.07., twin/spec/immobewertung/
+normen/baurecht 15.07.) haben heute noch nicht committet; nach obigem Muster ist ein Nachziehen im
+Tagesverlauf zu erwarten. Im naechsten Lauf gegenpruefen.
+
+**Reset-Countdown:** Wochen-Reset Montag 20.07. 11:59 — von jetzt (Do 12:50) noch ~3.97 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend). Der
+schonende Verlauf laeuft dem Ziel (nicht vor Reset auf 100%) weiter entgegen.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2 (herabgestuft von 06:50): Darkwake verschluckt die Nacht-Trainings nicht, es verschiebt sie nur
+  in den Vormittag. Das kollidiert mit Regel 260711 (Trainings NICHT waehrend der Arbeitszeit). Wenn
+  das Muster anhaelt, waere die saubere Loesung, die Nacht-Trainings als lokale launchd-Jobs zu fuehren
+  (die wecken aus Darkwake) statt ueber den App-Scheduler — Umsetzung erst nach Freigabe Raphaels,
+  da sie das Lastprofil beruehrt.
+- P2 (unveraendert): synobsis-batch-nacht weiter im No-op (853/853) — auf woechentlich reduzieren oder
+  pausieren, bis neues Material in `05_Architekten_Synobsis` landet (Mac Mini).
+- P3: MacBook-KB-Nachzieher heute Nachmittag im naechsten Lauf verifizieren.
+
+---
+
 ## 2026-07-16 06:50 — [GEDROSSELT] Schoner-Lauf: Runner steht, Nachtfenster 15→16.07 ohne Output (Darkwake-Verdacht)
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini

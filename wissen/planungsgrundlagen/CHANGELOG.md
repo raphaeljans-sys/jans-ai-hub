@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-16 — Training Run 50 (Kartenportale + Energie, Token-Vollgas, 2 Domaenen): GreenPV-Schlussbroschuere (statt Workshop-Entwurf) volltext eingearbeitet, vier Kartenportale-Kandidaten durch OneDrive-Sync-Blocker verhindert
+- **Schritt 0 + Ordner-Delta-Scan:** Zeitstempel-Scan (`find -newermt 2026-07-10`) fand keine
+  neuen Dateien in PL-01/PL-04; systematischer Datei-/Ordnernamen-Abgleich aller PL-01-Unterordner
+  gegen den bestehenden Wiki-Text foerderte vier echte Kandidaten zutage (Naturgefahren-Konzept-
+  Ordner mit realem JANS-Projektbeleg, `Klimafreundlichheizen.ch`, `Stadt Luzern
+  3D-Stadtmodell`, Regensdorf-Lieferscheine) — alle vier blieben waehrend des GESAMTEN Laufs
+  durch einen OneDrive-File-Provider-Deadlock (`EDEADLK`) technisch unlesbar (Read-Tool, `cp`,
+  `pdftotext`, `file`), waehrend andere Ordner im selben Lauf problemlos lesbar waren; als
+  K41-K44 in `training/curriculum.md` + `wiki/QUESTIONS.md` Abschnitt A fuer den naechsten Lauf
+  vorgemerkt (Praezedenzfall Lignum-Erdbeben Run 28→30: reines Sync-Timing).
+- [update] `wiki/energie-pv-eignung-typenwahl.md` §6/§6b (E39-Rest): der in Run 49 als "Workshop 2
+  von 3, Studie noch nicht abgeschlossen" eingeordnete GreenPV-Foliensatz ist ueberholt — WebSearch
+  fand die laengst publizierte oeffentliche HSLU-Schlussbroschuere (27.08.2024, Institut fuer
+  Gebaeudetechnik und Energie IGE, 92 Druckseiten), volltext ausgewertet und als NEU §6b
+  eingearbeitet: Take-Home Messages (PV-Fassade Sued unverschattet −20 % Jahresertrag / +43 %
+  Winterstrom ggue. Dach; Begruenung fuer Private nicht rentabel, aber gesamtgesellschaftlicher
+  Mehrwert; Kombination PV+Begruenung senkt THGE >25 % bei nur ~9 % LCC-Mehraufwand), 8
+  Empfehlungen zur Systemwahl, vollstaendiger Vorteile-/Systemvergleich Dach-Fassade-Aussenraum je
+  Begruenung+PV, VKF-Brandschutz-Staffel nach Gebaeudehoehe (Hochhaus-Luecke fuer PV-Fassaden),
+  zwei reale Schweizer Fallbeispiele mit Kostenkennwerten (PV-Fassade Holenackerstrasse 65 Bern
+  CHF 1'400/m² + 8 Schutzziele; Fassadenbegruenung Sky-Frame Frauenfeld 1'100 m² / CHF 450'000 /
+  CHF 10-20/m²a Unterhalt), SIA-112-Planungs-Checkliste. Status des Artikels von `emerging` auf
+  `established` gehoben (offizielle, im Auftrag von Bund+2 Staedten erstellte Publikation).
+- Report: `outputs/2026-07-16_training-run50.md`.
+
 ## 2026-07-15 — Wissens-Chef Run 5 (Cross-KB): PV-EIV-Doppelspur geflaggt + WWG→WsG-Aktualitaets-Flag
 - [link] `wiki/energie-betriebsenergie-pv-wirtschaftlichkeit.md`: «Querbezug KB energie (fuehrend)»-Block vor §1. Die EIV-Foerdersystematik/Saetze sind kanonisch in `wissen/energie` → `pv-einmalverguetung-bund-bfe` (established) + `pv-marktzahlen-kosten-ch-2025`; §1 hier ist Doppelspur und zum Verschlanken vorgemerkt (Trim = Umstrukturierung, NICHT autonom). Kein Sachwiderspruch.
 - [flag] `wiki/recht-norm-regenwasser-gewaesserraum-zh.md`: Aktualitaets-Flag am WWG-Verweis — das ZH-WWG (1991) wurde per 1.6.2026 durch das Wassergesetz WsG vom 12.12.2022 abgeloest (§ 126 WsG, primaerquellen-belegt in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). §-Mapping WWG→WsG offen. Keine §-Umbenennung vorgenommen (Bring-Schuld WsG-Volltext). Bericht: koordination/outputs/2026-07-15_wissens-chef-run5.md.

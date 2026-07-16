@@ -647,6 +647,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D10 / E39-Rest (Run 50, 2026-07-16)** Ist das GreenPV-Forschungsprojekt (HSLU, bisher nur
+  als Workshop-2-Zwischenstand vom 15.06.2022 bekannt, Run 49) inzwischen abgeschlossen, und
+  liefert ein Schlussbericht mehr als die Workshop-Folien? ✓ **JA** — WebSearch fand die
+  oeffentliche Schlussbroschuere (HSLU IGE, 27.08.2024, 92 Druckseiten), volltext ausgewertet:
+  Take-Home Messages mit prozentgenauen Kennzahlen (PV-Fassade Sued unverschattet −20 %
+  Jahresertrag / +43 % Winterstrom ggue. Dach; Kombination PV+Begruenung senkt THGE >25 % bei
+  nur ~9 % LCC-Mehraufwand), 8 Empfehlungen zur Systemwahl, vollstaendiger Systemvergleich
+  Dach/Fassade/Aussenraum, VKF-Brandschutz-Staffel nach Gebaeudehoehe (Hochhaus-Luecke: keine
+  Standard-PV-Fassaden-Kategorie), zwei reale Fallbeispiele mit Kostenkennwerten
+  (Holenackerstrasse 65 Bern CHF 1'400/m² PV-Fassade; Sky-Frame Frauenfeld CHF 450'000/1'100 m²
+  Begruenung) sowie SIA-112-Planungs-Checkliste → §6b NEU [[energie-pv-eignung-typenwahl]],
+  Status established. Details `training/curriculum.md` E39-Rest.
 - [x] **D24 (Run 42, 2026-07-14, E36-E38, Token-Vollgas)** Ordner-Abgleich PL-04 liefert drei
   weitere Funde. **E36 — neue Domaene:** Checkliste Gebaeudeschadstoffe (AWEL 02.2023) —
   Vier-Faelle-Weiche Asbest/PCB/CP nach Baujahr/Bausumme/Rueckbauvolumen, untersuchungspflichtige
