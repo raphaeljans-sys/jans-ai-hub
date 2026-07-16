@@ -5,6 +5,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-16
+
+- **RADAR-LAUF — mit Briefing.** Register gegen bexio (`--verzug`), Kalender (bis 23.07.),
+  Mail-Eingang UND Sent Items (15.07. frueh → 16.07., eingehend↔ausgehend gepaart) und
+  Sync-/Remote-Queues abgeglichen.
+- **Debitoren (live, `--verzug`):** unveraendert **ein** Verzugsfall — RE-00087 (Kispi, CHF 15'000),
+  **Mahnung 2**, Zahlfrist **15.07. gestern verstrichen**, kein Eingang, jetzt **91 Tage** ueberfaellig.
+  Frist abgelaufen → naechste Mahnstufe jetzt moeglich (Entscheid Raphael; Automatik greift bei Mahnung 2+ nicht).
+- **16.07. frueh kein neuer Mail-Eingang.** Der 15.07.-Nachmittag war ein RJ-getriebener KISPI-
+  Koordinationstag, laeuft grossteils ohne haengende JANS-Aktion: ST1/ST2 (Wuersch bestaetigt
+  Aufdopplung/Haftmagnet+Federzug; Bajrami liefert S1/S2 als dwg, RJ verlangt Raumbezeichnungs-Korrektur),
+  Komponentenintegrationspanel/Signaletik (RJ delegiert offene Fragen an Wuersch), Sanitaerplaene
+  (Wuersch gibt Vorlage frei, Wandablauf pruefen), Kueche-Klassifizierung (interne KISPI/Gruner-Klaerung).
+- **Lueftungskontrolle:** RJ bestaetigt Kontrolle **naechste Woche mit van Velsen (3-plan)**; zusaetzlich
+  Alternative **Schnuepbach** via Kuebler eroeffnet → zwei Wege offen, beobachten. Scherbl-Thread geschlossen.
+- **NEU/handlungsrelevant:** F. Staehlin (Elektro-Staehlin AG, 15.07. 14:06) sendet das **ueberarbeitete
+  Angebot 2607101** (Albertstrasse-7-/KISPI-Waschtuerme, Schulthess WM/Tumbler) → pruefen/Bestellentscheid.
+- **Offene JANS-Aktion:** RJs eigene Zusage «aktualisiertes DWG ST1/ST2 heute Abend 15.07. an Ziegel»
+  in den Sent Items noch nicht sichtbar; Ziegel krank, meldet sich 16.07. mit neuem Ablauf → nachfassen.
+- **Kalender:** naechster Termin **23.07. 13:00-14:00** (Koordinationssitzung Gruner/Jans/KISPI). Sync-/
+  Remote-Queues leer (nur automatischer NAS-Self-Commit).
+- **Token gestern (15.07.):** MacBook 131.98 Mio. (~156 USD) + Mini 161.69 Mio. (~80 USD) =
+  ~293.7 Mio. (~236 USD Aequivalent).
+- **Briefing an rj@ versendet.**
+
+---
+
 ## 2026-07-15
 
 - **RADAR-LAUF — mit Briefing.** Register gegen bexio (`--verzug`), Kalender (bis 22.07.),

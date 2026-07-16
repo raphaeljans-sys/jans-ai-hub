@@ -21,6 +21,45 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-16 06:50 — [GEDROSSELT] Schoner-Lauf: Runner steht, Nachtfenster 15→16.07 ohne Output (Darkwake-Verdacht)
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+seit 14.07. 12:53 gesetzt, kein `vollgas-runner`-Prozess (`pgrep` leer), Runner-Logs unberuehrt seit
+14.07. 12:40 (MacBook Pro) / 12:37 (Mac Mini). Als Schoner starte ich den Runner NICHT neu und loesche
+STOP NICHT — kein Wiederhochfahren ohne ausdrueckliche Anweisung Raphaels.
+
+**NEU — Nachtfenster leer trotz wacher Station:** Aus dem gerade zu Ende gegangenen Nachtfenster
+(15→16.07, 22:00–06:00) liegt KEIN Trainings-Commit vor; keine der sechs MacBook-KBs
+(wettbewerbs-dna/baurecht/twin/immobilienbewertung/spec/normen) wurde seit 16.07. 00:00 geaendert.
+Auch der Mac Mini ist seit 15.07. 16:55 (energie Run 72) commitlos. Die Station war NICHT aus:
+uptime 2 Tage 20 h (Boot Mo 13.07. 10:34), `caffeinate` verhindert Sleep — aber `pmset -g log` zeigt
+stuendliche **Darkwake**-Phasen (04:04 / 05:04 / 06:04). In Darkwake fuehrt der App-Scheduler geplante
+Tasks in aller Regel nicht aus; das ist die wahrscheinliche, weitgehend harmlose Ursache der Leere.
+Ein Login-/Token-Ausfall der App-Flotte ist NICHT bestaetigt — die `claude -p`-Probe testet nur den
+CLI-/Runner-Login (`~/.jans-dispatch.env`), nicht den App-Scheduler-Auth-Pfad, und wuerde im
+Drossel-Regime nur Tokens kosten; darum wieder uebersprungen.
+
+**Login (bewusst nicht aktiv geprueft):** wie oben — im Drossel-Regime ohne Hebel; ein Fix wuerde nur
+hochfahren. Fix-Rezept bei Bedarf unveraendert: `claude setup-token` (Abo-OAuth, KEIN API-Key) in
+`~/.jans-dispatch.env` beider Stationen; Mini zusaetzlich `security unlock-keychain`.
+
+**Reset-Countdown:** Naechster Wochen-Reset Montag 20.07. 11:59 — von jetzt (Do 06:50) noch ~4.21 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend). Der schonende
+Verlauf spielt dem Ziel (nicht vor Reset auf 100%) in die Haende.
+
+**Vorschlaege:**
+- P1: keiner bestaetigt. Kein gesicherter Blocker; kein Mail-Anlass (die Nacht-Leere ist unbestaetigt
+  und im Drossel-Regime ist niedrige Aktivitaet erwartet/akzeptiert).
+- P2 (NEU, zur Beobachtung): Nachtfenster-Output beider Stationen im naechsten Lauf gegenpruefen. Bleibt
+  es auch bei der naechsten Nacht komplett leer, ist zu klaeren, ob (a) Darkwake die App-Scheduled-Tasks
+  systematisch verschluckt (dann Trainings besser als lokale launchd-Jobs statt App-Scheduler fuehren,
+  die auch aus Darkwake wecken) oder (b) doch ein App-Flotten-Login abgelaufen ist. Erst bei bestaetigtem
+  Login-Ausfall Mail an Raphael.
+- P2 (unveraendert): synobsis-batch-nacht weiter im No-op (853/853, kein neuer Stoff) — Nacht-Batch auf
+  woechentlich reduzieren oder pausieren, bis neues Material in `05_Architekten_Synobsis` landet
+  (auf dem Mac Mini umzusetzen).
+- P3: keiner offen.
+
 ## 2026-07-15 18:48 — [GEDROSSELT] Schoner-Lauf: Runner steht, ruhiger Tagesabschnitt (unveraendert)
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
