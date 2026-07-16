@@ -3,6 +3,35 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-16 — Run 6 (3 Paare am neuen Run-50/73/74-Stoff; Fan-out 3 Leser + 2 adversariale Verifier)
+- Geprueft wurde der seit Run 5 (gestern) neu gewachsene Stoff: energie **Run 73/74** (MuKEn-2025-Volltext,
+  sommerlicher Waermeschutz SIA 180, Holzfeuerung, BHKW), planungsgrundlagen **Run 50** (GreenPV-
+  Schlussbroschuere §6b), normen Mini-Run 30/31. Gedrosselter Lauf (Rule 260714): schlanker Fan-out mit
+  3 Lese-Agenten + 2 Refutern statt grossem Workflow.
+- **energie ↔ normen ↔ planungsgrundlagen (SIA 180):** 1 echter Sachfehler (V3-Kriterium der Norm
+  zugeschrieben statt der Stadt-ZH-Abweichung) + 1 unnoetige Wissensluecke (gtot-Werte lagen in normen
+  bereit, energie fuehrte sie als «offener Punkt / Normtext kostenpflichtig») + Verfahrens-Doppelspur
+  (EN-ZH/EVEN) + normen-REGISTER-Selbstwiderspruch (SIA 180 «1999/vermutlich» vs. «2014»). → korrigiert,
+  Fig.-12-Formeln uebernommen, 2 Querbezug-Bloecke, REGISTER auf «2014 BESTAETIGT».
+  **Nebenfund: Korrigenda C2:2020 existiert** (Inhalt offen).
+- **energie ↔ baurecht (MuKEn Modul 11):** Luecken beidseitig — energie ohne ZH-Kontext (35 cm gelten in ZH
+  seit 1.4.2013) mit unbelegtem «seit 2005»; baurecht `nutzungsziffern` fuehrte die Kappung **gar nicht**,
+  obwohl das eigene Buch-Destillat sie kennt. → energie-Zeile skopiert, baurecht-Sektion ergaenzt
+  (§§ 256 II/257 III/258 IV/253a PBG, § 12 III ABV), Modul-12-Querbezug gesetzt.
+- **energie ↔ planungsgrundlagen (GreenPV):** Doppelspur derselben Studie + **Fuehrungs-Umkehr**
+  (planungsgrundlagen hat die Schlussbroschuere 2024 ausgewertet, energie steht auf dem 2022er-Zwischenstand
+  mit 3 bereits beantworteten «offenen Punkten»); VKF-Staffel in §6b ohne Cross-Link (**3. Fundort** des
+  Musters); Divergenz −14 % (§6) vs. −20 % (§6b). → Aktualitaets-Flag, bidirektionale Querbezuege,
+  normen-Querbezug, Divergenz-Flag.
+- **VERIFIKATION HAT GEWIRKT:** Der zuerst gemeldete schwerste Befund («100 h/Fig. 4» sei eine falsche
+  SIA-180-Zuschreibung) wurde vom Refuter **WIDERLEGT** — er beschaffte die amtliche Stadt-ZH-Wegleitung und
+  die HBA-Richtlinie im Volltext: Fig. 4 ist dort eine **bewusste Abweichung**, die Zahlen sind korrekt.
+  Ohne diese Stufe waeren amtlich belegte Werte «wegkorrigiert» worden. Ebenso schrumpfte der
+  MuKEn-Modul-11-Befund von «Fehler» auf «Praezisierung» (Muster-Ebene nicht widerlegbar).
+- **1 OFFENER ENTSCHEID FUER RAPHAEL:** Dublette in `normen` — `vkf-merkblatt-2001-15-solaranlagen` und
+  `vkf-brm-2001-15-solaranlagen` destillieren dieselbe PDF. Merge/Loeschung ist destruktiv → nicht autonom.
+- Bericht: `outputs/2026-07-16_wissens-chef-run6.md`.
+
 ## 2026-07-15 — Run 5 (gedrosselter Inline-Lauf, Rule 260714; 2 Nahtstellen am neuen Run-46/49/72-Stoff)
 - Inline-Pruefung (kein Fan-out, drossel-konform) der seit Run 4 neu gewachsenen ueberschneidungs-
   gefaehrdeten Nahtstellen (energie Run 72 Grundwasser/PV; planungsgrundlagen Run 49 GreenPV/ZSV;

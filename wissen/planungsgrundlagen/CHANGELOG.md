@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): VKF-Querbezug in GreenPV-§6b, Jahresertrags-Divergenz §6↔§6b geflaggt
+- **`wiki/energie-pv-eignung-typenwahl.md` §6b (aus Training Run 50) — drei Eingriffe:**
+  (1) **«Querbezug KB normen»-Block** vor der VKF-Hoehen-/RF-Staffel gesetzt: §6b fuehrt die
+  VKF-Anforderungen (geringe Hoehe ≤ 11 m RF3 / mittlere Hoehe ≤ 30 m RF2 / Hochhaus > 30 m RF1)
+  materiell im Wortlaut, obwohl gemaess Rule `normen-referenz` die KB `normen` fuehrend ist —
+  **dritter Fundort dieses Musters** nach `brandschutz-pl03-wegweiser` (Run 3) und dessen §1a (Run 4).
+  Verschaerfend: der Artikel delegiert Brandschutz-Detail in seinem eigenen Kopf an
+  `[[energie-pv-brandschutz]]` — §6b unterlaeuft die eigene Arbeitsteilung. Praezisierung im Block:
+  die Hoehen-Staffel steht **nicht** im VKF-Solaranlagen-Merkblatt, die korrekten Ziele sind
+  `normen/destillate/vkf-brl-verwendung-baustoffe` (Ziff. 3.2.8, RF-Staffel) +
+  `…/vkf-brandschutznorm-2015` bzw. `…/vkf-brl-10-15-begriffe-definitionen` (Hoehen-Definitionen).
+  **Offener Trim** (§6b auf Planungs-Framing kuerzen) markiert — Umstrukturierung, nicht autonom.
+  (2) **Divergenz-Flag §6 ↔ §6b:** der Jahres-Minderertrag der Sued-Fassade steht doppelt und
+  uneinheitlich — §6-Tabelle (Workshop-2-Foliensatz 2022): **86 % von 180 kWh/m²a = −14 %**;
+  §6b (Schlussbroschuere 27.08.2024): **rund −20 %**. Beides aus derselben Studie, verschiedene
+  Publikationsstufen. **Massgebend ist die finale Broschuere (−20 %)**; §6-Tabellenwert bewusst
+  stehen gelassen (Bereinigung waere Umstrukturierung). Die Winter-Aussage (+43 %) bestaetigt §6 dagegen.
+  (3) **Querbezug KB energie** in der Sektion «Querbezuege»: dieselbe HSLU-Studie liegt dort als
+  `destillate/greenpv-fassade-pv-begruenung-hslu` (2022er-Zwischenstand, `emerging`) — **derzeit fuehrt
+  fuer die Zahlen dieser Artikel**, weil er die Schlussbroschuere auswertet; das energie-Destillat ist
+  mit Aktualitaets-Flag versehen. Sobald der energie-Loop re-destilliert hat, **kehrt sich die Fuehrung
+  um** (Energie-Fachstoff = `energie` gemaess Fuehrungs-Matrix) und §6/§6b sind zu kuerzen (offener Trim).
+- **Offen (nicht autonom):** das in §6b zitierte Swissolar-Uebergangsdokument «Brandschutz fuer
+  hinterlueftete Photovoltaikanlagen an Fassaden» (2023) trug die Geltung **bis 31.12.2024** — das liegt
+  19 Monate zurueck; ob es abgeloest/verlaengert wurde oder inzwischen ein Stand-der-Technik-Papier
+  existiert, ist in keiner der drei KBs geprueft.
+- Bericht: `wissen/koordination/outputs/2026-07-16_wissens-chef-run6.md`.
+
 ## 2026-07-16 — Training Run 50 (Kartenportale + Energie, Token-Vollgas, 2 Domaenen): GreenPV-Schlussbroschuere (statt Workshop-Entwurf) volltext eingearbeitet, vier Kartenportale-Kandidaten durch OneDrive-Sync-Blocker verhindert
 - **Schritt 0 + Ordner-Delta-Scan:** Zeitstempel-Scan (`find -newermt 2026-07-10`) fand keine
   neuen Dateien in PL-01/PL-04; systematischer Datei-/Ordnernamen-Abgleich aller PL-01-Unterordner

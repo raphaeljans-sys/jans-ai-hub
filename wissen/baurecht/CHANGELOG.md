@@ -4,6 +4,36 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): Aussenwaermedaemmung/35-cm-Kappung in `nutzungsziffern` ergaenzt
+- **`wiki/nutzungsziffern.md`: echte Luecke geschlossen.** Der fuehrende Artikel fuer AZ/UEZ/BMZ/GrFZ
+  fuehrte die **35-cm-Kappung der Aussenwaermedaemmung ueberhaupt nicht** (kein Treffer fuer
+  Daemmung/§ 253a/35 cm), obwohl das eigene Buch-Destillat `buecher/band-2/14-nutzungsdichte-ausnuetzung`
+  (Z. 157-163) den Stoff vollstaendig kennt — er war nie ins Wiki hochpromotet worden. Neue Sektion
+  «Aussenwaermedaemmung und Nutzungsziffern (35-cm-Kappung)» mit den amtlichen Fundstellen aus
+  `raw/260607_amtlich_zh_pbg.md`: **§ 256 Abs. 2** (UEZ), **§ 257 Abs. 3** (Gruenflaechenziffer),
+  **§ 258 Abs. 4** (BMZ — dort auch das Dach), **§ 12 Abs. 3 ABV**; in Kraft seit **1.4.2013**
+  (FN 46: G vom 26.03.2012).
+- Zwei Praezisierungen, die bisher nirgends im Wiki standen: (a) **fuer die AZ (§ 255 PBG) gilt KEINE
+  solche Kappung**; (b) bei **nachtraeglicher** Daemmung am Bestand ist sie fuer BMZ/UEZ/GrFZ **ganz
+  unbeachtlich** (**§ 253a Abs. 2 PBG**, ohne 35-cm-Deckel) — im Unterschied zu Abstaenden/Laengen/Hoehen
+  (§ 253a Abs. 1 PBG *mit* Deckel, gefuehrt in `abstaende-und-hoehen`).
+- **Querbezug KB energie** gesetzt: MuKEn 2025 Modul 11 fuehrt dieselbe 35-cm-Kappung als *Muster* —
+  fuer ZH keine Neuerung (dort seit 2013 geltend, § 253a Abs. 2 PBG sogar weitergehend). `sources`
+  um § 253a PBG, § 258 PBG, § 12 ABV ergaenzt. Alle Fundstellen am amtlichen Volltext verifiziert
+  (inkl. Gegenprobe: die 35-cm-Kappung existiert in **beiden** Regimes — Hauptteil und Anhang
+  «Stand 28. Februar 2017» —, es gibt kein Schlupfloch).
+- **Offen (NICHT autonom, fuer den baurecht-Loop):** (a) **§ 33a ABV wird widerspruechlich gefuehrt** —
+  `abstaende-und-hoehen.md` Z. 109 und `baulinien-und-abstandslinien.md` Z. 89 zitieren ihn als
+  **geltende** Grundlage der 35-cm-Regel, waehrend `buecher/band-2/20-ausnahmen-teil2-...` (Z. 21) und
+  `wiki/ausnahmebewilligung-und-bestandesschutz.md` ihn als **15 cm / im Zug der Harmonisierungsvorlage
+  aufgehoben** fuehren (§ 253a PBG hat die Funktion uebernommen). (b) **Moeglicher veralteter
+  Numerierungsstand in `nutzungsziffern.md`:** BMZ ist dort als «§ 254 PBG (geltend)» gefuehrt, im
+  raw-PBG steht die BMZ aber in **beiden** Regimes unter **§ 258**; analog «Freiflaechenziffer § 257
+  (geltend)», wo der Hauptteil bereits «Gruenflaechenziffer» fuehrt (FN 70, G vom 08.04.2024). Beides
+  beruehrt die Uebergangsmechanik (BZO-Anpassung je Gemeinde) und wurde bewusst **nicht** autonom
+  geaendert.
+- Bericht: `wissen/koordination/outputs/2026-07-16_wissens-chef-run6.md`.
+
 ## 2026-07-15 — Wissens-Chef Run 5 (Cross-KB): WWG→WsG-Aktualitaets-Flag
 - [flag] `wiki/baureife-und-erschliessung.md` (§ 236 PBG Versorgung, § 27 WWG Wasserversorgung): Aktualitaets-Flag gesetzt — das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** wurde per **1.6.2026 durch das neue Wassergesetz WsG vom 12.12.2022 abgeloest** (§ 126 WsG, explizite Aufhebung; primaerquellen-belegt in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). KEINE §-Umbenennung — die aus dem Standardwerk (6. Aufl. 2019) uebernommenen WWG-§§ bleiben quellentreu, das §-Mapping WWG→WsG ist offen (Bring-Schuld WsG-/WsV-Volltext). Buecher-Destillate (band-2/12, /15, /20) unangetastet (quellentreu zum 2019-Werk). Bericht: koordination/outputs/2026-07-15_wissens-chef-run5.md.
 

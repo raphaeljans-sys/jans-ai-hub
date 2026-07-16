@@ -1,3 +1,22 @@
+## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): SIA-180-Registerzeile bestaetigt, Korrigenda C2:2020 belegt
+- **`wiki/REGISTER.md` Z. 106 (SIA 180) — Selbstwiderspruch aufgeloest:** die Hauptzeile fuehrte «1999»
+  mit der Bemerkung «Bestand 2014 → neuer als Register 2013; Bestand **vermutlich** aktuell», waehrend
+  Tabelle C und das Destillat `sia-180-2014` geschlossen von **2014** ausgehen. Der Beleg lag in der
+  eigenen KB: `destillate/sia-180-2014.md` weist aus dem Original-PDF «SN 520180:2014 de, 1. Aufl.
+  2014-05, **gueltig ab 2014-07-01**, ersetzt SIA 180:1999» aus. Bemerkung auf **«✓ Bestand 2014 als
+  geltend BESTAETIGT»** nachgefuehrt (Gilt-Spalte «1999» bleibt — sie bildet korrekt den Stand des
+  Registers 2013 ab). Format analog SIA-181-Flag (Run 3).
+- **`destillate/sia-180-2014.md` — Korrigenda C2:2020 EXISTIERT** (bisher: «ob nach 2014 eine
+  Korrigenda publiziert wurde, nicht verifiziert»). Beleg: die Stadt-ZH-Wegleitung «Sommerlicher
+  Waermeschutz» zitiert in Ziff. 4.1.1 ausdruecklich «SIA 180 (**inkl. Korrigenda C2:2020**)».
+  **Inhalt nicht verifiziert** — ob C2:2020 die destillierten Ziffern 5.2.4.1 oder 5.2.6.3 beruehrt,
+  bleibt offen; Indiz auf moegliche Umnummerierung (die Wegleitung zitiert eine «Ziff. 2.4.1.4» und
+  «Figur 7», die das Destillat nicht kennt) ausdruecklich als **unbewiesen** markiert.
+  → **Bring-Schuld des normen-Loops:** Korrigenda C2:2020 am Original/SIA-Shop pruefen.
+- Anlass: die KB `energie` hatte im Run-74-Destillat SIA-180-Fundstellen aus Vollzugshilfen
+  rekonstruiert, statt sie hier zu ziehen (Rule `normen-referenz`) — dort korrigiert und verlinkt.
+- Bericht: `wissen/koordination/outputs/2026-07-16_wissens-chef-run6.md`.
+
 ## 2026-07-16 — normen-training-mini Mini-Run 31 (Mac Mini, Intensiv-Lauf auf Zuruf): Inventar-Check + 2 von 6 offenen Vertiefungs-Luecken aus Mini-Run 30 geschlossen
 Stations-Split eingehalten: NUR DIN/VSS/RAL angefasst (SIA/VKF = MacBook Pro, nicht beruehrt).
 Auftrag Raphael (16.07.2026): ein Intensiv-Lauf, 15-25 Positionen, Verifikations-Stufe +

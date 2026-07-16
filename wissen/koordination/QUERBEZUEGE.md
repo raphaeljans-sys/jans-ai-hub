@@ -17,8 +17,96 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Wuest-Kostenbenchmark-Referenz (Median/Quantile) | **skills/kostenschaetzung/referenzen** | grobkosten + immobilienbewertung |
 | Spec-Methode (formales Geruest) | **spec** | twin (verweist als Evidenz) |
 | Raphaels Arbeitsweise/Denken (Verhaltensevidenz) | **twin** | spec (verweist als Evidenz) |
+| Zonenmasse/Nutzungsziffern (AZ/BMZ/UEZ/GrFZ) inkl. **Daemmungs-Kappung** | **baurecht** | energie (MuKEn-Modul 11 verweist dorthin) |
+| MuKEn-Musterrecht (EnDK-Module, noch nicht kantonal umgesetzt) | **energie** | baurecht (verweist fuer den Muster-Stand) |
+
+> **Wiederkehrendes Muster (3. Fundort, Run 6):** VKF-Wortlaut wird in `planungsgrundlagen`-Artikeln
+> materiell fortgeschrieben statt aus `normen` gezogen — bisher `brandschutz-pl03-wegweiser` (Run 3),
+> dessen §1a (Run 4), neu `energie-pv-eignung-typenwahl` §6b (Run 6). Jedes Mal nachtraeglich verlinkt;
+> die Trims bleiben offen. **Strukturbefund fuer den Synergie-Orchestrator:** die Rule `normen-referenz`
+> greift beim SCHREIBEN der planungsgrundlagen-Artikel nicht — sie wird erst im Cross-KB-Lauf
+> nachtraeglich durchgesetzt. Analoges Muster bei `energie` (Run 6: SIA-180-Fundstellen aus
+> Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
 ## Gepruefte Paare
+
+### energie ↔ normen ↔ planungsgrundlagen (SIA 180 sommerlicher Waermeschutz) — geprueft 2026-07-16 (Run 6)
+- **Befund:** Am neuen energie-Destillat `sommerlicher-waermeschutz-sia180-nachweisverfahren` (Run 74)
+  **1 echter Sachfehler + 1 unnoetige Wissensluecke**, beide durch Nicht-Nutzung der KB `normen`
+  (Rule `normen-referenz`) entstanden — das Norm-Destillat `sia-180-2014` war 3 Tage aelter.
+  (a) **V3-Kriterium falsch zugeschrieben:** «Nachweis ueber Uebertemperaturstunden» unter der
+  Ueberschrift «Die drei Nachweisverfahren (SIA 180:2014)»; normativ gilt Ziff. 5.2.6.3/Fig. 3
+  (0 h Ueberschreitung). (b) **gtot-Grenzwerte als «offener Punkt»** gefuehrt («Normtext
+  kostenpflichtig, nicht eingesehen»), obwohl normen sie aus dem Original-PDF ziffern-genau fuehrt
+  (Ziff. 5.2.4.1/Fig. 12). (c) EN-ZH-/EVEN-Verfahren materiell in energie, obwohl planungsgrundlagen
+  fuehrend. (d) normen-REGISTER Z. 106 widersprach sich selbst (SIA 180 «1999 / vermutlich aktuell»
+  vs. Tabelle C + Destillat «2014»).
+- **WIDERLEGT (adversariale Verifikation):** Der zuerst gemeldete Hauptbefund «100 h / Figur 4 ist eine
+  falsche SIA-180-Zuschreibung» hielt **nicht**. Der Verifier beschaffte die amtlichen Primaerquellen:
+  die **Stadt-ZH-Wegleitung Ziff. 4.1.1** schreibt Fig. 4 ausdruecklich abweichend vor («Die Beurteilung
+  … erfolgt immer … nach Figur 4 (Ziffer 2.3.2) … maximal 100 Stunden … 400 Stunden»), die
+  **HBA-Richtlinie** deckt die 400 h ueber SIA 382/1. Zahlen korrekt + amtlich belegt; der Fehler
+  beschraenkte sich auf **eine** Tabellenzeile, die die Vollzugs-Abweichung der Norm zuschrieb.
+- **Aktion:** V3-Zeile korrigiert (Norm vs. Vollzugs-Abweichung getrennt); Fig.-12-Formeln aus normen
+  uebernommen, offener Punkt auf Fig. 13 eingeschraenkt; 2 Querbezug-Bloecke (→ normen, →
+  planungsgrundlagen) + Cross-KB-Zeile; EVEN-Luecke per Verweis geschlossen; normen-REGISTER Z. 106 auf
+  «2014 BESTAETIGT» nachgefuehrt. **Nebenfund:** Korrigenda **C2:2020 existiert** (Wegleitung zitiert sie),
+  Inhalt nicht verifiziert → normen-Destillat entsprechend praezisiert.
+  **Offen (Bring-Schuld normen-Loop):** C2:2020 am Original pruefen. **Offen (energie-Loop):** EN-102-Ausgabe
+  **2018 vs. 2020** KB-uebergreifend klaeren (energie fuehrt beides unverbunden; `planungsgrundlagen`
+  nennt fuer EN-102a/b bereits SIA 380/1:2016, an 2 anderen Stellen noch 2009 — Spannung in beiden KBs).
+  **Status: bereinigt + verlinkt; 2 offene Bring-Schulden.**
+
+### energie ↔ baurecht (MuKEn 2025 Modul 11 — Daemmung/Nutzungsziffern) — geprueft 2026-07-16 (Run 6)
+- **Befund:** **Luecken auf beiden Seiten, kein Sachwiderspruch.** energie fuehrte Modul 11 (35-cm-Kappung
+  bei BMZ/GFZ) als «Grundsatz seit 2005 bekannt, erstmals mit Zahlenwert kodifiziert / planungsrechtlich
+  direkt relevant fuer JANS» — **ohne ZH-Kontext**, obwohl die Kappung im Kt. ZH seit **1.4.2013** gilt
+  (§ 256 II / § 257 III / § 258 IV / § 253a PBG, § 12 III ABV). Spiegelbildlich fuehrte der **fuehrende**
+  baurecht-Artikel `nutzungsziffern` die Daemmungs-Kappung **gar nicht** (der Stoff lag ungehoben im
+  eigenen Buch-Destillat `14-nutzungsdichte-ausnuetzung`).
+- **Verifikation (adversarial):** Muster-vs-geltend-Kennzeichnung von MuKEn insgesamt **korrekt** (kein
+  Befund). «Erstmals kodifiziert» **auf Muster-Ebene nicht widerlegbar** (MuKEn-2014-Modultext nicht in
+  der KB) → Befund schrumpfte von «Fehler» auf **Praezisierung**. Bestaetigt blieben: «seit 2005»
+  **unbelegt** (einziger Datumsanker 1.4.2013); ZH-Aussage nicht skopiert; **keine 35-cm-Kappung fuer die
+  AZ (§ 255 PBG)**; **GFZ in ZH nicht verfuegbar** (Kritik an energie insoweit widerlegt — MuKEn ist
+  Musterrecht fuer alle Kantone, «BMZ/GFZ» zitiert das Muster korrekt); Gegenprobe Zweitfassung im
+  PBG-Anhang («Stand 28.02.2017») traegt die Kappung **ebenfalls** — kein Schlupfloch.
+- **Aktion:** energie Modul-11-Zeile skopiert (Muster-Ebene vs. ZH-Ist, «seit 2005» gestrichen, ZH-Sonderfall
+  § 253a Abs. 2 als *weitergehend* benannt, Verweis auf baurecht); baurecht `nutzungsziffern` um die Sektion
+  «Aussenwaermedaemmung und Nutzungsziffern (35-cm-Kappung)» + Querbezug KB energie + `sources` ergaenzt;
+  Modul-12-Querbezug (E-Mobilitaet ↔ `fahrzeugabstellplaetze-und-parkierung`) gesetzt.
+  **Offen (baurecht-Loop, NICHT autonom):** (a) **§ 33a ABV widerspruechlich** in baurecht (15 cm/aufgehoben
+  vs. 35 cm/geltend, 2 Wiki-Artikel gegen 2 andere); (b) moeglicher **veralteter Numerierungsstand** in
+  `nutzungsziffern` (BMZ als «§ 254 geltend», raw fuehrt § 258 in beiden Regimes) — beruehrt die
+  Uebergangsmechanik. **Status: bereinigt + verlinkt; 2 offene KB-interne Widersprueche.**
+
+### energie ↔ planungsgrundlagen (GreenPV/Fassaden-PV) — geprueft 2026-07-16 (Run 6)
+- **Befund:** **Doppelspur + Fuehrungs-Umkehr.** Dieselbe HSLU-GreenPV-Studie wird in beiden KBs materiell
+  gefuehrt: energie `greenpv-fassade-pv-begruenung-hslu` (seit 20.06.2026, Workshop-2-Foliensatz 15.06.2022,
+  `emerging`) und planungsgrundlagen `energie-pv-eignung-typenwahl` §6/§6b. Identische Kennwerte doppelt
+  (Modul-Wirkungsgrade 20/14 %, NOCT 42±2 °C, Begruenung 30 kg/m², Referenzgebaeude-U-Werte) — **0
+  Widerspruch**, aber redundant. **Fuehrungs-Anomalie:** nach Matrix ist Energie-Fachstoff `energie`-Sache;
+  faktisch hat planungsgrundlagen (Run 50) die **Schlussbroschuere vom 27.08.2024** volltext ausgewertet und
+  ist auf `established`, waehrend energie auf dem 2022er-Zwischenstand steht und dort drei offene Punkte
+  fuehrt (Endergebnisse / kWh/kWp je Orientierung / Kosten CHF/m²), **die alle drei laengst beantwortet sind**.
+  Zusaetzlich: **VKF-Hoehen-/RF-Staffel in §6b ohne Cross-Link** (3. Fundort des Musters, s. Kasten oben);
+  **Divergenz innerhalb** planungsgrundlagen: Sued-Fassade Jahres-Minderertrag §6 **−14 %** vs. §6b **−20 %**.
+- **Aktion:** Aktualitaets-Flag + 3 erledigte offene Punkte in energie (Bring-Schuld: Broschuere
+  re-destillieren, dann kehrt die Fuehrung um); bidirektionale Querbezuege energie ↔ planungsgrundlagen;
+  «Querbezug KB normen»-Block vor der VKF-Staffel (mit Praezisierung: Ziel ist `vkf-brl-verwendung-baustoffe`
+  + `vkf-brandschutznorm-2015`, **nicht** das Solaranlagen-Merkblatt); Divergenz-Flag §6↔§6b (massgebend:
+  finale Broschuere −20 %). **Offen (nicht autonom):** Trim §6b auf Planungs-Framing; Trim §6/§6b nach
+  energie-Re-Destillat; **Swissolar-Uebergangsdokument** «PV an Fassaden» galt **bis 31.12.2024** (19 Monate
+  abgelaufen) — Nachfolge in keiner der drei KBs geprueft. **Status: verlinkt/geflaggt; 3 offene Punkte.**
+
+### normen (KB-intern, Nebenbefund aus Run 6) — 2026-07-16
+- **Befund:** **Dublette** — `destillate/vkf-merkblatt-2001-15-solaranlagen.md` und
+  `destillate/vkf-brm-2001-15-solaranlagen.md` destillieren **dieselbe PDF** (identische `quelle:`,
+  `ausgabe: 06.03.2015`, `last_updated: 2026-07-13`, beide `established`).
+  `planungsgrundlagen/wiki/energie-pv-brandschutz` referenziert bereits **beide nebeneinander**.
+- **Aktion: KEINE** — Merge/Loeschung ist destruktiv (Rule `wissens-bibliothekar`: Pause + Rueckfrage).
+  **→ Entscheid Raphael noetig** (siehe Bericht). Blockiert nebenbei die saubere Zielwahl kuenftiger
+  Querlinks. **Status: offener Entscheid.**
 
 ### energie ↔ planungsgrundlagen (PV-Einmalverguetung/Wirtschaftlichkeit) — geprueft 2026-07-15 (Run 5)
 - **Befund:** **Doppelspur bestaetigt** — beide KBs fuehren die Pronovo-EIV-Foerdersystematik.

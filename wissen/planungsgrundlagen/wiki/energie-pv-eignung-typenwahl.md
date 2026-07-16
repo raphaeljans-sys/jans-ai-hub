@@ -419,6 +419,12 @@ Frage nach einem Schlussbericht ist beantwortet, Status neu **established**.
   20 % weniger Strom** als eine Dachanlage (5° suedorientiert), erzeugt aber **im Winter 43 %
   mehr Strom** als die Dachanlage — bestaetigt/praezisiert quantitativ die bereits in §6
   dokumentierte Grundaussage "Winterstromproduktion Fassade > Dach".
+  > **⚠ Divergenz zu §6 (Wissens-Chef Run 6, 16.07.2026):** Die Winter-Aussage bestaetigt §6, der
+  > **Jahres**-Minderertrag nicht: die §6-Tabelle (Workshop-2-Foliensatz 2022) fuehrt fuer Sued
+  > **86 % von 180 kWh/m²a = −14 %**, diese Schlussbroschuere **−20 %**. **Massgebend ist die
+  > finale Schlussbroschuere vom 27.08.2024 (−20 %)**; der 2022er-Zwischenstand in §6 ist insoweit
+  > ueberholt. Fuer Berechnungen den −20 %-Wert verwenden. (§6-Tabellenwert bewusst stehen
+  > gelassen — Bereinigung waere Umstrukturierung, nicht autonom.)
 - Fassadenbegruenungen rentieren sich **fuer private Investoren oekonomisch nicht**, aber die
   Allgemeinheit profitiert von den qualitativen Vorteilen (Hitzeminderung, Biodiversitaet,
   Luftqualitaet, Laermreduktion, Regenwasserretention, Attraktivitaet).
@@ -477,6 +483,19 @@ PV-Leistung in den naechsten 30 Jahren um **Faktor 13** steigern.
   i.d.R. hoehere Investitionskosten, erschwerte Zugaenglichkeit fuer Unterhalt bei hohen
   Fassaden, **fehlende standardisierte Brandschutzanforderungen bei Hochhaeusern**.
 
+> **Querbezug KB normen (VKF-Wortlaut — dort fuehrend):** Die nachstehende Hoehen-/RF-Staffel gibt
+> den GreenPV-Broschueren-Text wieder. Der **amtliche VKF-Quelltext** liegt destilliert in der KB
+> `normen` und ist gemaess Rule `normen-referenz` **fuehrend** — von dort ziehen statt hier
+> fortzuschreiben: Hoehen-Definitionen (geringe Hoehe ≤ 11 m / mittlere Hoehe ≤ 30 m / Hochhaus
+> > 30 m) in `wissen/normen/destillate/vkf-brandschutznorm-2015` bzw.
+> `…/vkf-brl-10-15-begriffe-definitionen`; **RF-Staffel Aussenwandbekleidung** (Hochhaus RF1,
+> Brandausbreitung max. 2 Geschosse ueber Brandgeschoss) in `…/vkf-brl-verwendung-baustoffe`
+> (Ziff. 3.2.8); Solar-spezifisch `…/vkf-merkblatt-2001-15-solaranlagen`.
+> **Achtung:** Die Hoehen-Staffel steht **nicht** im Solaranlagen-Merkblatt — nicht dorthin
+> verlinken. Fach-Detail Brandschutz Solar fuehrt ohnehin `[[energie-pv-brandschutz]]` (siehe
+> Arbeitsteilung im Artikelkopf); dieser §6b sollte mittelfristig auf das Planungs-Framing
+> gekuerzt werden (**offener Trim**, nicht autonom). Gesetzt: Wissens-Chef Run 6, 16.07.2026.
+
 **Brandschutz (S. 12f., 24f., 36f.):** VKF-Merkblaetter (bsvonline.ch) fuer Solaranlagen UND
 Gebaeudebegruenungen bilden die Grundlage; Anforderungen steigen mit der Gebaeudehoehe:
 **geringe Hoehe** (bis 11 m, Baustoffe RF3 zulaessig, keine Einschraenkungen bei PV) —
@@ -518,6 +537,15 @@ Berechnungen, in der Broschuere mehrfach als Fundstelle fuer Vertiefung referenz
 selbst nicht aufgefunden/gelesen — nur die oeffentliche Zusammenfassungs-Broschuere.
 
 ## Querbezuege
+- **KB energie — GreenPV-Doppelspur (Wissens-Chef Run 6, 16.07.2026):** Dieselbe HSLU-Studie ist
+  in der KB `energie` als `destillate/greenpv-fassade-pv-begruenung-hslu` gefuehrt (Workshop-2-
+  Foliensatz 15.06.2022, `emerging`). **Fuer die Zahlen fuehrt derzeit dieser Artikel** (§6/§6b):
+  er wertet die **Schlussbroschuere vom 27.08.2024** aus, waehrend das energie-Destillat auf dem
+  2022er-Zwischenstand steht und dort mit Aktualitaets-Flag versehen ist. Grundsaetzlich ist
+  Energie-Fachstoff `energie`-Sache (Fuehrungs-Matrix) — sobald der energie-Loop die Broschuere
+  re-destilliert hat, kehrt sich die Fuehrung um und §6/§6b sind auf das Planungs-/Beschaffungs-
+  Framing zu kuerzen (**offener Trim**, nicht autonom).
+- **VKF-Norm-Fundstellen** (Hoehen-/RF-Staffel in §6b) → KB `normen`, siehe Querbezug-Block dort.
 - Wirtschaftlichkeit/Rendite einer Anlage → Skill `healthcare-wirtschaftlichkeit` /
   `wirtschaftlichkeit-rechner` (Annuitaet, Amortisation).
 - Welches Portal liefert die Dach-/Hoehengeometrie → `[[kartenportale-geoportale-uebersicht]]`.

@@ -232,3 +232,12 @@ Vermarktung [[zev-eigenverbrauch-mfh-her-2025]] / [[pv-eigenverbrauch-zev]] · B
 [[batteriespeicher-heimspeicher-pv-ch]] · Foerderung [[energiefranken-foerder-suchmaschine-ch]] ·
 PV-Marktzahlen [[pv-marktzahlen-kosten-ch-2025]] · Kosten-Vertiefung SIA 2060
 [[sia-2060-kosten-ladeinfrastruktur-vertiefung]].
+
+> **Querbezug KB baurecht (Abstellplatz-Recht — dort fuehrend):** Wie viele Abstellplaetze
+> ueberhaupt zu erstellen sind (Pflichtzahl, Reduktion, Ersatzabgabe) fuehrt
+> `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung` (Kt. ZH / PPV Stadt Zuerich).
+> Dieser Artikel fuehrt nur die **Lade-/Elektro-Ausruestung** dieser Plaetze. Bezugspunkt:
+> **MuKEn 2025 Modul 12** (Neubau: EFH Ausbaustufe «A» alle Plaetze; MFH «C1» fuer mind. 60 %;
+> Nichtwohnbauten mind. 20 % «C1» — Stufen nach SIA 2060:2020) — **Musterrecht**, im Kt. ZH erst
+> mit kantonaler Umsetzung geltend (→ `[[muken-2025-verabschiedet]]`).
+> Gesetzt: Wissens-Chef Run 6, 16.07.2026.

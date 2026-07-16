@@ -2,7 +2,7 @@
 title: Nutzungsziffern (Mass der Nutzung) — Kanton Zürich
 status: established
 last_updated: 2026-07-10
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 17 ABV", "§ 52 PBG", "§ 276 PBG", "§ 255 nPBG", "§ 256 nPBG", "§ 257 nPBG", "§ 258 nPBG", "§ 11 nABV", "§ 13 nABV", "Buch Bd 2 Kap. 14 S. 919-992"]
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 12 ABV", "§ 17 ABV", "§ 52 PBG", "§ 276 PBG", "§ 255 nPBG", "§ 256 nPBG", "§ 257 nPBG", "§ 258 nPBG", "§ 11 nABV", "§ 13 nABV", "Buch Bd 2 Kap. 14 S. 919-992"]
 links: [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[ausnuetzungsuebertragung]], [[14-nutzungsdichte-ausnuetzung]], [[geschosse-und-kniestock]]
 ---
 

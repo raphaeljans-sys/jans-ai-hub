@@ -2,6 +2,43 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): SIA-180-Fundstellen korrigiert, MuKEn-Modul-11 auf ZH skopiert, GreenPV-Aktualitaets-Flag
+- **`destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md` (aus Run 74) — vier Korrekturen:**
+  (1) **V3-Zeile korrigiert:** «Nachweis ueber Uebertemperaturstunden» schrieb das Stundenkontingent
+  faelschlich der Norm zu. Normatives Kriterium ist SIA 180 **Ziff. 5.2.6.3 / Fig. 3** (alle empfundenen
+  Temperaturen unter der oberen Grenzkurve, **0 h**); die 100 h/400 h sind **Abweichungen der
+  Vollzugsstellen** (Stadt-ZH-Wegleitung Ziff. 4.1.1 mit Fig. 4; HBA-Richtlinie ueber SIA 382/1).
+  Wichtig: die Zahlen selbst sind **korrekt und amtlich belegt** — die Zeilen 81-84 blieben unveraendert.
+  (2) **gtot-Grenzwerte Fig. 12 ergaenzt** (N ≤ 0,20/fg max. 1,00 · NE/NW ≤ 0,13/fg max. 0,28 ·
+  E/SE/S/SW/W ≤ 0,07/fg max. 0,15) aus `wissen/normen/destillate/sia-180-2014` (SIA 180 Ziff. 5.2.4.1,
+  Original-PDF); der offene Punkt ist auf **Fig. 13** (Dachflaechenfenster) eingeschraenkt. Die Begruendung
+  «SIA-180-Normtext kostenpflichtig, nicht direkt eingesehen» war ueberholt — das Original war seit
+  13.07.2026 in der KB `normen` destilliert (Verstoss gegen Rule `normen-referenz`).
+  (3) **Querbezug-Bloecke gesetzt:** → KB `normen` (Norm-Fundstellen, fuehrend) und → KB
+  `planungsgrundlagen` (EN-ZH-/EVEN-Verfahren, fuehrend); Cross-KB-Zeile bei den Backlinks.
+  (4) Offener Punkt «EVEN-Formularmigration» **durch Verweis geschlossen** (fuehrend:
+  `planungsgrundlagen/wiki/energie-even-plattform-bedienung`) — keine doppelte Lueckenbuchhaltung.
+- **`destillate/muken-2025-verabschiedet.md` Modul-11-Zeile skopiert:** «erstmals mit Zahlenwert kodifiziert»
+  gilt nur auf **Muster-Ebene**; **fuer den Kt. ZH keine Neuerung** — die 35-cm-Kappung gilt dort seit
+  **1.4.2013** (§ 258 Abs. 4 BMZ, § 256 Abs. 2 UEZ, § 257 Abs. 3 GrFZ, § 253a PBG, FN 46 G vom 26.03.2012;
+  § 12 Abs. 3 ABV). ZH-Sonderfall § 253a Abs. 2 PBG (nachtraegliche Daemmung ganz unbeachtlich) ist
+  **weitergehend** als das Muster; GFZ in ZH nicht verfuegbar; fuer die AZ (§ 255 PBG) keine Kappung.
+  Der unbelegte Zusatz **«Grundsatz seit 2005 bekannt» wurde gestrichen** (kein Beleg in der KB auffindbar;
+  einziger verifizierbarer Datumsanker ist 1.4.2013). Verlinkt auf `wissen/baurecht/wiki/nutzungsziffern`.
+- **`destillate/greenpv-fassade-pv-begruenung-hslu.md`: Aktualitaets-Flag** — das Destillat steht auf dem
+  Workshop-2-Foliensatz (15.06.2022) und verweist auf einen «noch ausstehenden Schlussbericht»; die
+  oeffentliche **HSLU-Schlussbroschuere vom 27.08.2024** liegt vor und ist in
+  `planungsgrundlagen/wiki/energie-pv-eignung-typenwahl` §6/§6b volltext ausgewertet. Die drei offenen
+  Punkte (Endergebnisse, kWh/kWp je Orientierung, Kosten CHF/m²) sind damit **beantwortet** und als
+  erledigt markiert. **Bring-Schuld des energie-Loops:** Schlussbroschuere re-destillieren, dann Status heben.
+- **`destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md`:** Querbezug → `baurecht/wiki/
+  fahrzeugabstellplaetze-und-parkierung` gesetzt (Abstellplatz-Pflichtzahl dort fuehrend; hier nur die
+  Lade-Ausruestung), inkl. MuKEn-Modul-12-Bezug als Musterrecht.
+- Befunde adversarial verifiziert (2 unabhaengige Refuter-Agenten). **Der schwerste gemeldete Befund wurde
+  dabei WIDERLEGT:** die «100 h / Figur 4»-Zuschreibung ist keine Erfindung — die Stadt-ZH-Wegleitung
+  schreibt Fig. 4 in Ziff. 4.1.1 ausdruecklich abweichend vor (am amtlichen PDF im Volltext belegt).
+  Bericht: `wissen/koordination/outputs/2026-07-16_wissens-chef-run6.md`.
+
 ## 2026-07-16 — Run 74 (Intensiv-Lauf, sechs parallele Hintergrund-Agenten)
 - [meta] Zweiter Intensiv-Lauf desselben Tages, auf expliziten Auftrag Raphaels («EINEN
   Intensiv-Lauf», Token-Vollgas 6-10 PDF-Äquivalente, Workflow-Parallelisierung autorisiert).
