@@ -27,10 +27,19 @@ zugesagt und ist noch unerledigt.
 - **Datenspeicher (NAS):** `logbuch/LOGBUCH.md` (Journal, append-only) + `logbuch/fristen.md`
   (Fristen-/Pendenzen-Register). Beide pflegt dieser Agent; nie von Hand kuerzen.
 - **Quellen, die der Radar abklopft:**
+  - **Konversations-Gedaechtnis (Super-Brain, Entscheid Raphael 16.07.2026):**
+    `logbuch/konversationen/` — taegliches Destillat ALLER Claude-Gespraeche Raphaels
+    (MacBook Pro, Mac Mini, Cloud/Dispatch; erzeugt vom Scheduled Task `konversations-log`
+    06:10 via `scripts/konversations-extract.sh`, Details `logbuch/konversationen/README.md`).
+    Gespraechsergebnisse (Entscheide, gerechnete Resultate, Zusagen, abgeschnittene
+    Deliverables) fliessen ins Briefing (Sektion «Aus unseren Gespraechen») und ins Register
+    (Quelle «Gespraech <Station> <Datum>»)
   - `mahnwesen` / `zahlungsabgleich` → Zahlungsfristen, Verzug, bexio-Pendenzen
   - `auflagebereinigung` → Behoerden-Fristen je Projekt (vor Baubeginn / Arbeitsvergabe / Inbetriebnahme)
   - Kalender (Outlook M365 / Google) → anstehende Termine
   - Mails (M365) → Zusagen, Fristen, unbeantwortete wichtige Mails
+  - Mails **raphaeljans@outlook.com** (via Apple Mail/osascript; u.a. Projekt Thalwil 2414)
+    → gleiche Lese-Disziplin wie M365, quellenuebergreifend eingehend↔ausgehend paaren
   - `sync-tasks/` + Projekt-Pendenzen → offene Hub-/Projektpunkte
 - **Output:** aktualisiertes Register + Journal-Eintrag; bei drohenden Fristen eine **proaktive
   Meldung** an Raphael (Horizont Standard 14 Tage). Optional Morgen-Briefing.
