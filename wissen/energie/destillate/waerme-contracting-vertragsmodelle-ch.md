@@ -2,10 +2,10 @@
 quelle: BFE/EnergieSchweiz «Wärme im Abo effizient und risikofrei» (EnergieInnovation Nr. 57d, 06.2004); AEW Energie AG «Was Liegenschaftsbesitzer über Wärme-Contracting wissen sollten»; Thomas Elmiger, Zeitschrift Wohnen «Energie-Contracting»; Thermische Netze Schweiz «Contractoren»; Preisüberwacher admin.ch «Fernwärme»; Kt. Zürich Energiegesetz (EnerG, LS 730.1, Fassung Nachtrag 122) §§ 10b/11/11a/11b im Volltext (zhlex.zh.ch); AWEL «Vollzugsordner Energie», Ausgabe 1/2023 (Abschnitte 4.2/4.3, EN-120-ZH); Kt. Schwyz Kantonales Energiegesetz (kEnG, SRSZ 420.100, Stand 1.2.2025) §§ 8d/22a im Volltext (sz.ch); Energieverordnung (kEnV, SRSZ 420.111) §§ 24f/24g; swissesco (swissesco.ch); Thermische Netze Schweiz (thermische-netze.ch); Swiss Contracting (swisscontracting.ch, direkter Abruf); EnDK-Medienmitteilung MuKEn 2025 (29.08.2025)
 herausgeber: Bundesamt für Energie / AEW Energie AG / Zeitschrift Wohnen / Thermische Netze Schweiz / Preisüberwacher / Kanton Zürich (Kantonsrat/AWEL) / Kanton Schwyz (Amt für Umwelt und Energie) / swissesco / EnDK
 ausgabe: Web-Recherche amtliche und Branchenquellen; ZH/SZ-Gesetzestexte in geltender Fassung im Volltext gelesen
-gelesen: 2026-07-14/2026-07-15
-datenstand: 2026-07-15 (§ 10b EnerG ZH und §§ 8d/22a kEnG SZ am Originalgesetzestext verifiziert; AWEL-Vollzugsordner Stand 1/2023; Swiss-Contracting-Status + swissesco/TNS-Aktivstatus 15.07.2026 direkt geprüft)
-status: emerging (zivilrechtliche Einordnung + Vertragsmodelle weiterhin mehrquellig belegt; die kantonale Rechtsgrundlagen-Zuordnung ist jetzt primärquellen-verifiziert und korrigiert; MuKEn-2025-Wortlaut und Mustervertrags-Inhalte weiterhin offen)
-last_updated: 2026-07-15
+gelesen: 2026-07-14/2026-07-16
+datenstand: 2026-07-16 (§ 10b EnerG ZH und §§ 8d/22a kEnG SZ am Originalgesetzestext verifiziert; AWEL-Vollzugsordner Stand 1/2023; Swiss-Contracting-Status + swissesco/TNS-Aktivstatus 15.07.2026 direkt geprüft; Preisüberwacher-Contracting-Praxis 16.07.2026 gezielt gesucht, Negativbefund bestätigt; TNS-Leitfaden «Kosten und Tarife thermischer Netze» v1.0, 25.06.2026, neu ausgewertet)
+status: emerging (zivilrechtliche Einordnung + Vertragsmodelle weiterhin mehrquellig belegt; die kantonale Rechtsgrundlagen-Zuordnung ist primärquellen-verifiziert und korrigiert; MuKEn-2025-Wortlaut jetzt am Originaltext verfügbar, aber ohne Contracting-Erwähnung; Mustervertrags-Inhalte weiterhin offen)
+last_updated: 2026-07-16
 ---
 
 # Wärme-Contracting / Wärmelieferung — Vertragsmodelle Schweiz (Fokus ZH/SZ)
@@ -48,14 +48,48 @@ sondern einen Innominatvertrag nach OR mit mietrechtlichem Anknüpfungspunkt in 
   rechtzeitig schriftlich (amtlich genehmigtes Formular) informieren.
 - Weitere Anknüpfungspunkte: Art. 257a/257b OR (Nebenkosten), Art. 269d OR (Mietzinsänderung),
   ZGB Art. 642/676/713 (Zugang/Nutzung der Anlage durch Dritte, i.d.R. via Dienstbarkeit).
-- **Keine spezifische Contracting-Preisaufsicht** primärquellen-verifiziert: der Preisüberwacher
-  beobachtet Fernwärmenetz-Tarife (Marktbeobachtung Ende 2022, Durchschnittspreis Herbst 2024
-  17 Rp./kWh, Jahreskosten CHF 1'878–5'267) — eine explizite Prüfung von
-  Wärme-Contracting-**Vertragspreisen** (im Unterschied zu Fernwärmenetz-Tarifen) wurde in den
-  geprüften Quellen **nicht gefunden** (offen).
+- **Keine spezifische Contracting-Preisaufsicht — vertieft und bestätigt am 16.07.2026:** gezielte
+  Prüfung der Preisüberwacher-Themenseite (preisueberwacher.admin.ch/pue/de/home/themen/
+  infrastruktur/fernwaerme.html) sowie gezielte Websuchen «Contracting» + preisueberwacher.admin.ch
+  bestätigen den Negativbefund: Der Preisüberwacher unterscheidet dort nicht zwischen klassischer
+  Fernwärme und privaten Wärmelieferverträgen/Contracting; es existiert **kein** eigener Bericht,
+  Newsletter oder eine Empfehlung, die sich spezifisch an Contracting-Anbieter (ausserhalb von
+  Fernwärmenetzen) richtet. Vorliegend ist nur die allgemeine «Marktbeobachtung Fernwärmetarife
+  Schweiz» sowie einvernehmliche Regelungen zu einzelnen marktmächtigen Netz-Anbietern (SIG Genf,
+  ewb Bern, 2023/2024 als marktmächtig im Sinn des PüG eingestuft). Rechtlicher Grundsatz (Zitat
+  TNS-Leitfaden, Abschnitt 6.1): das **PüG greift nur bei Marktmacht**; bei freiem Wettbewerb
+  (Regelfall im Wärme-/Kältemarkt ohne Spezialgesetz) ist primär das **Kartellgesetz (KG)**
+  massgebend, nicht das PüG — dürfte auch für Contracting-Anbieter gelten, ist aber nicht
+  contracting-spezifisch dokumentiert.
 - Quelle: Thomas Elmiger, Zeitschrift Wohnen, «Energie-Contracting»,
   https://www.zeitschrift-wohnen.ch/heft/beitrag/recht/energie-contracting.html; Preisüberwacher,
   https://www.preisueberwacher.admin.ch/pue/de/home/themen/infrastruktur/fernwaerme.html.
+
+### Ersatzbeleg: TNS-Leitfaden «Kosten und Tarife thermischer Netze» (neu, 16.07.2026)
+
+Da eine Contracting-spezifische Preisaufsichts-Praxis fehlt, liefert der aktuelle Branchenleitfaden
+**Thermische Netze Schweiz (TNS)**, Autoren Polynomics AG/Rytec AG, mit Unterstützung EnergieSchweiz/
+BFE, **Version 1.0 vom 25.06.2026** (sehr aktuell), die bestbelegte Tarifierungs-Methodik für
+Wärmelieferung allgemein (thermische-netze.ch/dokumente/):
+
+- **Tarifelemente** (Abschnitt 5, S. 35-43): Arbeitspreis (Rp./kWh), leistungsabhängiger
+  Grundpreis (CHF/kW), fixer Grundpreis, Messpreis; zwei- bis dreistufige Tarifmodelle empfohlen.
+- **Konkrete Indexierungsformeln** (Abschnitt 5.3.1, S. 39), z.B.:
+  `Arbeitspreis(Tarifjahr) = (0,5 + 0,5 × Holzschnitzelindex(Tarifjahr)/Holzschnitzelindex(Basisjahr)) × Arbeitspreis(Basisjahr)`
+  `Leistungspreis(Tarifjahr) = (0,6 + 0,4 × Lohnkostenindex(Tarifjahr)/Lohnkostenindex(Basisjahr)) × Leistungspreis(Basisjahr)`
+  Referenzindizes: EEX THE/PEG (Gas), EEX CH Year-Ahead (Strom), Heizöl-Preisindex HEV,
+  Holzschnitzelindex/Produzentenpreisindex Rohholz (Holzenergie Schweiz/BFS), Landesindex der
+  Konsumentenpreise, Baupreisindex, Lohnkostenindex (BFS).
+- **Konkurrenzfähigkeits-Prüfung** (Abschnitt 5.5): Vollkostenvergleich über 15-25 Jahre
+  Nutzungsdauer gegen Alternativen (Luft/Wasser-WP, Erdsonden-WP, Holzheizung, Öl-/Gasbestand).
+- **Einschränkung:** der Leitfaden behandelt «thermische Netze» (Fern-/Nahwärme, Fernkälte, Dampf)
+  im weiteren Sinn, nicht ausdrücklich das Anlagen-Contracting einzelner Liegenschaften ausserhalb
+  von Netzen. Die Unterseite thermische-netze.ch/thermische-netze/contractoren/ beschreibt
+  Contracting als Geschäftsmodell (Wirtschaftlichkeitsschwelle ca. 2,5 MWh/m Trasse) ohne
+  Preisregulierung oder Musterverträge.
+- **swissesco** (Energiespar-Contracting, primär öffentliche Gebäude) bietet laut
+  swissesco.ch/de/swissesco-home/grundlagen.html Musterverträge/Leitfaden (2016) an, ohne öffentlich
+  einsehbare Preisformel-Details.
 
 ## 4. Laufzeiten, Vor-/Nachteile
 
@@ -172,17 +206,25 @@ ohnehin zulässigen Lösung.
 
 ## Offene Punkte
 
-- Preisüberwacher-Praxis speziell zu Contracting-Vertragspreisen weiterhin ungeklärt.
-- MuKEn-2025-Originaltext (Basismodul/Zusatzmodule als PDF) über die öffentlich indexierten
-  EnDK-Kanäle nicht auffindbar — Contracting-Erwähnung darin weder bestätigt noch widerlegt.
 - Musterverträge (QM Holzheizwerke, swissesco, TNS) inhaltlich nicht ausgewertet (Zugriff auf
   Mitgliederbereiche nötig) — für Bauherren-FAQ mit konkreten Vertragsklauseln separat beschaffen.
 - Exakter Abschnittstitel/Volltext der EN-120-ZH-Standardlösung SL5 selbst (Fernwärmeanschluss)
   im geprüften Vollzugsordner-Auszug nicht enthalten (SL5 gilt als «unbedingt erfüllend» und wird
   dort nicht vertieft erläutert, anders als SL1/4/6/7/8/9/10).
+- Contracting-Erwähnung im MuKEn-2025-Originaltext: jetzt am Volltext geprüft (siehe
+  [[muken-2025-verabschiedet]], 117 S. per curl+pdftotext gelesen) — **keine explizite
+  Contracting-Regelung im Basismodul gefunden** (bestätigter Negativbefund statt offener Punkt).
+- Preisformel-Details aus Musterverträgen (statt nur Tarifierungs-Methodik) weiterhin nicht
+  beschafft (Mitgliederbereich-Zugriff nötig).
 
 **Erledigt am 2026-07-15 (vorher offen):** aktueller operativer Status «Swiss Contracting» (inaktiv,
 bestätigt) sowie swissesco/TNS als aktive Alternativen (bestätigt); § 10b EnerG ZH und §§ 8d/22a
 kEnG SZ im Originalwortlaut zitiert und die bisherige Fehlzuordnung korrigiert; ZH-Baugesuch/
 EN-120-Rolle des Contracting-/Anschlussvertrags konkret geklärt (Übergangsbewilligung +
 Härtefall-Finanzierung, kein eigener Nachweisweg).
+
+**Erledigt am 2026-07-16 (Run 73, vorher offen):** Preisüberwacher-Contracting-Praxis vertieft
+gesucht — Negativbefund bestätigt, rechtlicher Grundsatz (PüG nur bei Marktmacht, sonst KG)
+ergänzt; als Ersatzbeleg der aktuelle TNS-Leitfaden «Kosten und Tarife thermischer Netze»
+(25.06.2026) mit konkreten Indexierungsformeln neu ausgewertet; MuKEn-2025-Originaltext jetzt
+gelesen, keine Contracting-Erwähnung gefunden.

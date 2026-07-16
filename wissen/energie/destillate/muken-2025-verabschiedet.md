@@ -1,11 +1,11 @@
 ---
-quelle: Medienmitteilung EnDK «MuKEn 2025» (29.08.2025) + Folgeberichte VSE («Die Kantone verabschieden die Mustervorschriften 2025»), aeesuisse («MuKEn 2025: Die Kantone sind gefordert»), energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025), energiehub-gebaeude.ch — drei unabhängige Quellen inhaltlich deckungsgleich
+quelle: MuKEn-2025-Originaltext (117 S., EnDK, «Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025», verabschiedet 29.08.2025, PDF-Metadaten bestätigen EnDK-Herausgeberschaft), PDF-Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf, per curl+pdftotext im Volltext gelesen 2026-07-16; EnDK-Medienmitteilung 25.08.2025 (endk.ch); Folgeberichte VSE, aeesuisse, energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025)
 herausgeber: Konferenz Kantonaler Energiedirektoren (EnDK)
 ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung ab)
-gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Primär-Medienmitteilung endk.ch referenziert, nicht direkt volltext-gelesen)
+gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
-status: established
-last_updated: 2026-07-15
+status: established (jetzt primärquellen-verifiziert am Originaltext, nicht mehr nur an Sekundärquellen)
+last_updated: 2026-07-16
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
@@ -67,10 +67,46 @@ Erdsonde/PV/Solarthermie). Nachweis nach **SIA-Merkblatt 2032**, akkreditiertes 
 **Minergie-Reglement ab 1.1.2025**/Zusatz ECO. Die MuKEn-Basiswerte liegen gemäss Sekundärquelle
 **2–3 kg CO₂-eq/m²·a über dem Minergie-ECO-Grenzwert 2** (leichter) bzw. **bis zu 4 kg über dem
 strengeren Grenzwert 1**; bei unbeheizten Flächen bis zu 2,7 kg höher. Unbeheizte Bauten: keine
-Grenzwerte, aber Nachweis aller zumutbaren Minimierungsmassnahmen Pflicht. ⚠ Diese Kennwerte
-stammen weiterhin aus einer Sekundärquelle (ecobau.ch, Publikationsdatum 19.09.2025), nicht aus
-dem EnDK-Primärvolltext — Status bleibt `established` für die Fakten Verabschiedung/Zeitplan,
-aber die konkreten kg-Zahlen sind mit Vorbehalt (⚠ nicht am Original verifiziert) zu verwenden.
+Grenzwerte, aber Nachweis aller zumutbaren Minimierungsmassnahmen Pflicht. **Update 2026-07-16:**
+diese Kennwerte sind jetzt am **EnDK-Primärvolltext selbst** bestätigt (siehe Abschnitt
+«Originaltext jetzt vollständig gelesen» unten) — der frühere Vorbehalt «nicht am Original
+verifiziert» entfällt für die Basiszahlen; nur der ecobau.ch-Vergleichswert «2-3 kg über
+Minergie-ECO-Grenzwert 2» selbst bleibt Sekundärquelle.
+
+## Originaltext jetzt vollständig gelesen (2026-07-16) — Modulübersicht
+
+Der bisher nur über Sekundärquellen bekannte MuKEn-2025-Volltext (117 Seiten) wurde direkt beim
+PDF-Spiegel von energiehub-gebaeude.ch (Impressum bestätigt EnDK-Herausgeberschaft, Titel-Metadaten
+«Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025») gefunden und per
+curl+pdftotext ausgewertet. Ergänzend die EnDK-Medienmitteilung vom 25.08.2025 direkt bei endk.ch.
+
+**Vollständige Modulliste (Inhaltsverzeichnis S. 3-5):** Basismodul (Teile A-T, Art. 1.1-1.70,
+Pflicht für alle Kantone) plus 14 optionale Zusatzmodule: 2 Verbrauchsabhängige
+Heizkostenabrechnung Bestand, 3 Heizungen im Freien/Freiluftbäder, 4 Ferienhäuser,
+5 Sanierungspflicht dezentrale Elektroheizungen, 6 Ausführungsbestätigung, 7 Betriebsoptimierung,
+8 GEAK-Anordnung, 9 Energieplanung, 10 Energiedaten, 11 Wärmedämmung/Ausnützung,
+12 Elektromobilität, 13 Gebäudehülleneffizienz, 14 Intelligente Steuerungen/Regelungen.
+
+**Basismodul-Kern wörtlich (S. 14):** «Das Basismodul enthält die minimalen Anforderungen, welche
+beheizte oder gekühlte Bauten erfüllen müssen» (Gebäudehülle, Gebäudetechnik, erneuerbare Energien,
+Grossverbraucher-Zielvereinbarungen, Elektrizitätserzeugung, GEAK). «Mit der Übernahme der Teile
+B-R … erfüllen die Kantone die bundesrechtlichen Vorgaben aus Art. 45 Abs. 2 und 3 sowie Art. 52
+EnG» — die Teile B-R sind materiell unverändert zu übernehmen, Teile A/S/T nur sinngemäss.
+
+**Teil G «Graue Energie» (Art. 1.38/1.39) — jetzt am Originaltext bestätigt:** Art. 1.38 (G):
+«Bei Neubauten und bei wesentlichen Erneuerungen bestehender Gebäude ist der objektspezifische
+Grenzwert für die graue Energie für die Erstellung und den Rückbau von Gebäuden einzuhalten.»
+Art. 1.39 (V) legt die Grenzwerte GW_EBF fest — **alle in [[muken-2025-modul-g-co2-grenzwerte]]
+bereits dokumentierten Zahlen (12,4-19,9 kg CO₂-eq/m²EBF·a je Kategorie, 5,5 kg
+CO₂-eq/m²(GF-EBF)·a, Zuschläge Erdsonde +0,3/PV +7,1/Solarthermie +5,6) sind damit am
+Originaltext bestätigt**, nicht mehr nur an der verwandten Minergie/ecobau-Methodik. Rechtsgrundlage
+Art. 45 Abs. 3 lit. e EnG (Bund, in Kraft seit 1.1.2025); Berechnung gemäss Minergie-Reglement
+(Fassung ab 1.1.2025).
+
+Als Fallback wurde zusätzlich die **MuKEn 2014** (Vorgängerversion) im Volltext gefunden
+(https://www.endk.ch/wp-content/uploads/2025/07/MuKEn2014_d-2018-04-20.pdf, 98 S., offizielle
+EnDK-Quelle) — nicht weiter ausgewertet, da MuKEn 2025 bereits vollständig vorliegt, aber als
+Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
 
 ## Offene Punkte
 - **Absolute kg CO₂-eq/m²·a-Werte:** jetzt vertieft in einem eigenen Destillat gefunden —

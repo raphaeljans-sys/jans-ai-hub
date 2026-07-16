@@ -750,3 +750,41 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 Grundwasserwärmenutzung-Vertiefung, amtliche g-Wert/Uf-Wert-Tabelle CH, Förderung Ladeinfrastruktur
 ZH+SZ — alle drei waren geplant, aber wegen des Agenten-Ausfalls und des dadurch nötigen manuellen
 Mehraufwands bei den anderen drei Themen zeitlich nicht mehr erreichbar. Priorität nächster Lauf.
+
+- [x] **E79** **MuKEn-2025-Originaltext selbst beschaffen** belegt ✓ 2026-07-16 (Run 73) →
+  `[[muken-2025-verabschiedet]]`, `[[muken-2025-modul-g-co2-grenzwerte]]`, FAQ **F47** geschärft.
+  Der seit Run 48 offene Punkt ist gelöst: 117-seitiger EnDK-Originaltext gefunden
+  (energiehub-gebaeude.ch-Spiegel, Impressum bestätigt Herausgeberschaft) und per curl+pdftotext
+  gelesen. Vollständige Modulliste + Basismodul-Kern + Teil-G-Zahlen zahlengenau am Original
+  bestätigt. Löst zugleich den in `[[waerme-contracting-vertragsmodelle-ch]]` offenen Punkt
+  «Contracting-Erwähnung in MuKEn 2025» — Negativbefund, keine Contracting-Regelung im Basismodul.
+- [x] **E80** **Grundwasser-WP-JAZ + Brunnenkosten vertiefen** teilweise belegt ✓ 2026-07-16
+  (Run 73) → `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`, FAQ **F77** geschärft. GWWP-JAZ nur
+  als ältere generische BFE-Bandbreite (2010) verfügbar; zwei moderne CH-Feldstudien (OST/WPZ,
+  WPSM 2023) schliessen GWWP aktiv aus — bleibt dokumentierter Negativbefund, keine moderne
+  Primärquelle gefunden. Brunnenkosten erstmals mit zwei konkreten Sekundärquellen belegt.
+- [x] **E81** **ZH-Förderung bidirektionale/Quartier-Ladestationen amtlich verifizieren** belegt
+  ✓ 2026-07-16 (Run 73) → `[[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]]`, FAQ **F39** geschärft.
+  Amtliche Broschüre direkt gelesen: bidirektional CHF 2'000/Station ohne Neubau-Ausschluss;
+  Quartier-Förderung nur für Gemeinden/öffentliche Parkplätze, keine private Areal-Option.
+- [x] **E82** **Preisüberwacher-Praxis zu Contracting-Vertragspreisen** belegt ✓ 2026-07-16 (Run 73)
+  → `[[waerme-contracting-vertragsmodelle-ch]]`, FAQ **F75** geschärft. Bestätigter Negativbefund;
+  TNS-Leitfaden «Kosten und Tarife thermischer Netze» (25.06.2026) als Ersatzbeleg mit konkreten
+  Indexierungsformeln neu ausgewertet.
+- [x] **E83** **SZFF-Primärquelle «Doku 31.03» beschaffen** belegt ✓ 2026-07-16 (Run 73) →
+  `[[fenster-verglasung-uw-g-wert]]`, FAQ **F35** geschärft. Dokument real, aber Volltext nicht
+  auffindbar und nicht mehr in der aktuellen SZFF-Verkaufsliste 2020 — als wahrscheinlich
+  veraltet/zurückgezogen eingeordnet; drei aktuellere Ersatzbelege ergänzt.
+- [ ] **E84** **ZH-Solarpflicht Kantonsrat-Beratungsstand (Kommission/Lesung/Termin)** — vierter
+  Rechercheversuch 2026-07-16 (Run 73), diesmal über News-/Verbandsquellen statt der
+  kantonsrat.zh.ch-Plattform, erneut ohne Ergebnis → `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
+  Vorgeschichte (KEVU-Kommissionsentwurf, Vernehmlassung 2024, fallengelassene Fassaden-/
+  Parkplatzpflichten) neu belegt, zwei Fehlspuren aktiv ausgeschlossen (SRF-2023-Artikel betrifft
+  Bundes-Stromgesetz, Geschäftsnummer 5921 gehört zu anderer, bereits abgestimmter Vorlage) —
+  bleibt bestätigter Negativbefund, kein weiterer Versuch ohne neue Rechercheidee sinnvoll.
+
+**Nicht bearbeitet in Run 73 (bewusst zurückgestellt):** MuKEn-2025-Modul-Detailtexte (2-14) im
+Volltext ausserhalb Teil G, SZ-Fernwärme-Restlücken (Einsiedeln/Ausserschwyz-Tarife),
+ZH-Solarpflicht-Beratungstermin (vierter Fehlversuch, siehe E84) — Priorität nächster Lauf.
+**Meta-Punkt M2** (eigener Skill `energie`?) bleibt seit Run 45 entscheidungsreif, weiterhin ohne
+neue Empfehlung in diesem Lauf — sollte Raphael bald vorgelegt werden.

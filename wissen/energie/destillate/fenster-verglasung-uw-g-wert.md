@@ -2,10 +2,10 @@
 quelle: «Worauf es bei der Fenstersanierung ankommt» + «Fenster – Verglasung – Sonnen-, Wetter- und Blendschutz» (Bautechnik der Gebäudehülle, HSLU/enbau-online) + Minergie-Modul Fenster; BFE «U-Wert-Berechnung und Bauteilekatalog – Neubauten» (Kurt Marti, 2002, Bestellnr. 805.150 d), Kap. 5.1.2/5.1.4; BFE/EnergieSchweiz Faktenblatt «Energieetikette für Fenster» (pubdb 7731, Auflagen 12/2014-11/2015); enbau-online.ch Kap. 3.6 (Referenzfenstergrösse/SIA 331)
 herausgeber: EnergieSchweiz/BFE (energieschweiz.ch, pubdb.bfe.admin.ch); Hochschule Luzern (enbau-online.ch, Lehrmittel Bautechnik der Gebäudehülle); Verein Minergie (minergie.ch); ergänzt nachhaltigleben.ch (CH-Bauratgeber)
 ausgabe: Web-Stand Juli 2026 — EnergieSchweiz-Story «Fenstersanierung»; enbau-online Kap. 3.6 (HSLU, laufend); Minergie-Modul Fenster (Uw-Grenzwerte); nachhaltigleben.ch «3-fach-Verglasung lohnt sich?»; BFE-Bauteilekatalog 2002 (amtlicher g-/Uf-Fallback); BFE-Faktenblatt Fenster-Energieetikette (Klassengrenzen)
-gelesen: 2026-07-07/2026-07-15
-datenstand: 2026-07-15 (g-Werte/Uf-Fallback am amtlichen BFE-Bauteilekatalog 2002 verifiziert; FEA-Klassengrenzen A-G aus BFE-Faktenblatt 7731 direkt gelesen; Referenzfenstergrösse 1,55×1,15 m amtlich bestätigt, SIA-331-Zuordnung nur sekundärquellenbelegt)
+gelesen: 2026-07-07/2026-07-16
+datenstand: 2026-07-16 (g-Werte/Uf-Fallback am amtlichen BFE-Bauteilekatalog 2002 verifiziert; FEA-Klassengrenzen A-G aus BFE-Faktenblatt 7731 direkt gelesen; Referenzfenstergrösse 1,55×1,15 m amtlich bestätigt, SIA-331-Zuordnung nur sekundärquellenbelegt; SZFF Doku 31.03 als Primärquelle NICHT auffindbar — vermutlich veraltet/zurückgezogen, Ersatzbeleg Minergie-Anwendungshilfe 2020.1 + Minergie-Modul-Fenster-Reglement 2021 + Energieetikette-Faktenblatt)
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 ---
 
 # Fenster — Uw/Ug/Uf, g-Wert, Zweifach- vs. Dreifachverglasung
@@ -60,9 +60,9 @@ Sonnenenergie ins Rauminnere gelangt**. Das ist der **Zielkonflikt** des Fenster
 - **Amtliche g-Werte (BFE-Bauteilekatalog 2002, Kap. 5.1.4, Tabelle 5 — als Standardwerte
   einzusetzen, wenn keine Produktangaben vorliegen):**
   - **2-IV-IR (2-fach-Wärmeschutzglas, Isolierverglasung mit Low-E-Beschichtung): g = 62 %**
-  - **3-IV-IR (3-fach-Wärmeschutzglas, 2 Beschichtungen): g = 45 %** (reale Marktprodukte nach
-    SZFF Doku 31.03 streuen **45-55 %** je nach Glasanordnung — 45 % ist der konservative
-    BFE-Default).
+  - **3-IV-IR (3-fach-Wärmeschutzglas, 2 Beschichtungen): g = 45 %** (reale Marktprodukte streuen
+    laut dem im BFE-Katalog zitierten SZFF-Dokument **45-55 %** je nach Glasanordnung — 45 % ist
+    der konservative BFE-Default; zur Verlässlichkeit dieser Sekundärangabe siehe Korrektur unten).
   - Für reines, unbeschichtetes 2-fach-Isolierglas (kein Wärmeschutzglas) nennt der Katalog keinen
     separaten Wert; 62 % gilt nur für die beschichtete 2-IV-IR-Variante.
   - **Sonnenschutzglas hat amtlich bewusst KEINEN Pauschalwert:** der Bauteilekatalog schreibt
@@ -93,12 +93,50 @@ Holz-Metall ist die klassische wetterrobuste Kombination.
 Diese drei Werte sind ausdrücklich **Maximalwerte ohne Produktnachweis** — reale, gut gedämmte
 Produkte liegen oft deutlich darunter (Sekundärquelle bawos.ch, unter Verweis auf DIN EN ISO
 10077/12412, nennt für Holzfenster real **1,3-1,8 W/(m²·K)**; kein Widerspruch, sondern die
-erwartete Differenz Fallback-Höchstwert vs. Marktprodukt). Eine eigenständige, vom BFE-Katalog
-unabhängige SZFF-Tabelle mit abweichenden Uf-Werten wurde trotz Suche nicht gefunden (SZFF Doku
-31.03 nicht frei online verfügbar). Berechnungsnorm für die Minergie-Zertifizierung: **SN EN
-10077-2** (Rse 0,04 / Rsi 0,13 bzw. 0,20 m²K/W), λ-Werte aus SN EN 10077-2 Tab. D.1, ISO 10456,
-SIA 279 Tab. 1 oder sia.ch/register (Quelle: Minergie-Zertifizierungskommission Fenster,
-«Erläuterungen zu den Nachweisen Minergiefenster», 25.08.2023).
+erwartete Differenz Fallback-Höchstwert vs. Marktprodukt). Berechnungsnorm für die
+Minergie-Zertifizierung: **SN EN 10077-2** (Rse 0,04 / Rsi 0,13 bzw. 0,20 m²K/W), λ-Werte aus
+SN EN 10077-2 Tab. D.1, ISO 10456, SIA 279 Tab. 1 oder sia.ch/register (Quelle:
+Minergie-Zertifizierungskommission Fenster, «Erläuterungen zu den Nachweisen Minergiefenster»,
+25.08.2023).
+
+### Korrektur zur Quelle «SZFF Doku 31.03» (2026-07-16)
+
+Gezielte Nachrecherche zur im BFE-Bauteilekatalog zitierten Primärquelle **«SZFF Doku 31.03 —
+Wärme- und Sonnenschutz für Fenster und Fensterelemente (inkl. CD-Planerversion GLAD)»**: Der
+Verband **SZFF — Schweizerische Zentrale Fenster und Fassaden** (Olten, Schwesterorganisation zum
+**FFF — Schweizerischer Fachverband Fenster- und Fassadenbranche**) existiert; ein Dokument mit
+dieser exakten Bezeichnung ist nur als Eintrag in einem deutschen Metallbau-Fachregelwerk-
+Verzeichnis belegt (mt-metallhandwerk.de) — der Verweis auf eine begleitende «CD-ROM GLAD»
+deutet auf ein Dokument aus den 1990er/2000er-Jahren hin. Es taucht **nicht mehr** in der
+aktuellen offiziellen SZFF-Verkaufsliste «SZFF Unterlagen: Normen und Gesetze, Stand 15.03.2020»
+auf (per curl/pdftotext ausgewertet, https://www.szff.ch/userdata/files/bestellformulare/
+d-200315-szff-unterlagen-normen-und-gesetze.pdf — listet nur noch Dok.-Nr. 41.01, 53.01, 53.02,
+54.01, 72.02-72.04). **Einordnung: «31.03» ist vermutlich ein reales, aber zurückgezogenes/
+veraltetes Verbandsdokument; der Volltext war nicht zugänglich — die 45-55-%-Bandbreite bleibt
+eine Sekundärangabe ohne verifizierte Primärquelle und ist entsprechend vorsichtig zu zitieren.**
+
+Als aktuellere Ersatz-/Ergänzungsbelege (2020er-Jahre, amtlich/verbandsseitig) wurden gefunden:
+
+- **Minergie-Anwendungshilfe zu den Gebäudestandards, Ausgabe 2020.1**
+  (minergie.ch/media/200109_anwendungshilfe_minergie_p_a_v2020.1_de.pdf, S. 55, Kap. 8.3.5):
+  «Typische g-Werte von Standard-Wärmeschutzverglasungen liegen im Bereich von 0.5» — als
+  Einzelwert (~50 %) in der gleichen Grössenordnung wie der bisherige 45-55-%-Bereich, aber ohne
+  dessen Bandbreite. Zusätzlich Tabelle 11 mit max. zulässigen g-Total-Werten nach
+  Klimagruppe/Raumtyp (0,13-0,46) und «g-Wert Glas ≤ 30 %» bei automatischem Sonnenschutz in
+  Büros.
+- **Minergie-Modul Fenster, Reglement 2021** (minergie.ch/media/210501_minergie_reglement_
+  fenster_2021.pdf): Uw ≤ 1,0 bzw. ≤ 0,80 W/m²K (Minergie-P), Ug ≤ 0,7 bzw. ≤ 0,6 W/m²K; enthält
+  das rechnerische Uf-Nachweisverfahren (Beilagen 4.4/4.6/5.4/5.6), aber keine tabellarischen
+  Uf-Zahlenwerte je Rahmenmaterial — nur die Methodik.
+- **Energieetikette für Fenster — Faktenblatt** (gemeinsame Publikation SZFF + FFF + EnergieSchweiz,
+  https://www.szff.ch/userdata/files/energieetikette-fenster/faktenblatt-energie-schweiz.pdf):
+  bestätigt die 7-Klassen-Systematik A-G und zeigt ein Musterlabel (Ug 0,6 W/m²K, g-Wert 60 %,
+  Uw 1,1 W/m²K) — ein Musterfenster, kein Marktdurchschnitt.
+
+Für Bauherren-Aussagen künftig primär auf die Minergie-Anwendungshilfe 2020.1 (g ≈ 0,5) statt auf
+die unverifizierte SZFF-31.03-Bandbreite (45-55 %) stützen; beide liegen in ähnlicher
+Grössenordnung, sodass die bisherige KB-Aussage der Sache nach nicht widerlegt, aber die
+Quellenlage jetzt ehrlicher ausgewiesen ist.
 
 ## Anforderungswerte (Uw)
 
@@ -176,8 +214,9 @@ mit der SIA-331-Grösse bewusst davon ab (Kontext, nicht im Volltext geprüft).
   Behang** kombinieren.
 
 ## Offene Punkte
-- Eigenständige SZFF-Tabelle (Doku 31.03) mit g-/Uf-Werten selbst nicht im Volltext auffindbar
-  (nicht frei online) — amtlicher BFE-Katalog-Fallback ist die einzige verifizierte Zahlenquelle.
+- **SZFF Doku 31.03 als eigenständige Primärquelle NICHT auffindbar** — vermutlich veraltet/
+  zurückgezogen (siehe Korrektur oben); amtlicher BFE-Katalog-Fallback bleibt die verifizierte
+  Zahlenquelle, ergänzt um Minergie-Anwendungshilfe 2020.1 als aktuelleren Beleg.
 - Amtlicher g-Wert-Bereich speziell für Sonnenschutzglas: kein amtlicher Default vorhanden
   (Katalog verweist explizit auf Produktdatenblätter); die 21-37 %/25-33 %-Werte sind
   Herstellerangaben, nicht amtlich verifiziert.
@@ -188,8 +227,17 @@ mit der SIA-331-Grösse bewusst davon ab (Kontext, nicht im Volltext geprüft).
   (kostenpflichtig) — Zuordnung stützt sich auf eine Sekundärquelle (enbau-online.ch).
 - Ob eine neuere Fassung des BFE-Bauteilekatalogs (Basis 2002) oder der Energieetikette
   (Basis 2014/2015) mit geänderten g-/Uf-Standardwerten existiert, wurde nicht gezielt gesucht.
+- Konkrete Uf-Zahlenwerte je Rahmenmaterial aus dem Minergie-Modul-Fenster-Reglement 2021 selbst
+  (nur Nachweismethodik gefunden, keine Tabelle) weiterhin offen.
 
 **Erledigt am 2026-07-15 (vorher offen):** amtliche g-Werte 2-IV-IR/3-IV-IR (62 %/45 %) und
 Uf-Fallback (Holz 1,9/Kunststoff 2,5/Verbundprofil 3,3) primärquellen-bestätigt; FEA-Klassengrenzen
 A-G (Uw,eq-Schwellen) aus dem BFE-Faktenblatt direkt gelesen; Referenzfenstergrösse 1,55×1,15 m
 amtlich bestätigt (SIA-331-Zuordnung bleibt sekundärquellenbelegt).
+
+**Erledigt am 2026-07-16 (Run 73, vorher offen «SZFF Doku 31.03 selbst nicht auffindbar»):**
+gezielt nachrecherchiert — Verband und Dokumentbezeichnung real, aber Volltext nicht zugänglich
+und nicht mehr in der aktuellen SZFF-Verkaufsliste (2020) geführt, daher als wahrscheinlich
+veraltet/zurückgezogen eingeordnet (ehrlicher Negativbefund statt weiterer Fehlversuche); drei
+aktuellere Ersatzbelege (Minergie-Anwendungshilfe 2020.1, Minergie-Modul-Fenster-Reglement 2021,
+Energieetikette-Faktenblatt SZFF+FFF+EnergieSchweiz) ergänzt.

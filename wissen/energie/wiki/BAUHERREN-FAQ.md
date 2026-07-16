@@ -1349,6 +1349,13 @@ g-Wert 60 % erreicht bereits Klasse A → `[[fenster-energieetikette-fea-bfe]]` 
 katalog (2002, Kap. 5.1.2) nennt als **Fallback-Höchstwerte ohne Produktnachweis**: Holz/Holz-Metall
 **Uf 1,9**, Kunststoff **Uf 2,5**, wärmegedämmte Verbundprofile (Alu mit thermischer Trennung)
 **Uf 3,3 W/(m²·K)**. Reale, gut gedämmte Produkte liegen oft darunter (Holzfenster real eher
+
+**Korrektur zur g-Wert-Quelle (16.07.2026):** die bisher zitierte «SZFF Doku 31.03» (Herkunft der
+45-55-%-Bandbreite für Dreifachglas) liess sich im Volltext NICHT auffinden — sie ist vermutlich
+ein veraltetes, zurückgezogenes Verbandsdokument (nicht mehr in der aktuellen SZFF-Verkaufsliste
+2020). Als aktuellerer Beleg dient jetzt die **Minergie-Anwendungshilfe 2020.1**: «Typische
+g-Werte von Standard-Wärmeschutzverglasungen liegen im Bereich von 0.5» — deckt sich in der
+Grössenordnung mit dem bisherigen Bereich, ist aber die verlässlichere Quelle.
 1,3–1,8, Sekundärquelle) — die drei amtlichen Zahlen sind der konservative Nachweis-Fallback, nicht
 der Marktbestwert → `[[fenster-verglasung-uw-g-wert]]` (Status **established** für den Fallback).
 
@@ -1578,6 +1585,15 @@ ALLE Parkplätze auf einmal** legen.
   die Grunderschliessung bis C1/C2 ist damit die mit Abstand günstigste Stufe; erst die
   betriebsbereite Ladestation selbst (Stufe D) kostet **CHF 3'100 je E-Parkplatz**.
 
+**Ergänzung — bidirektionale + Quartier-Ladestationen amtlich gegengelesen (16.07.2026):** Die
+amtliche ZH-Förderbroschüre (Amt für Mobilität, April 2023) wurde direkt gelesen: **bidirektionale
+Ladestationen (V2H/V2G)** erhalten eine eigene Pauschale von **CHF 2'000/Station**, Bedingung
+SIA-2060-Stufe D + Lastmanagement mit OCPP ab 2 Parkplätzen — und sind ausdrücklich **auch für
+Neubauten** förderfähig (anders als die normale Basisinfrastruktur-Förderung). Für **Quartier-/
+Areal-Ladeinfrastruktur mehrerer privater Gebäude** gibt es dagegen **kein** Förderformat — das
+Broschüre-Kapitel «Ladestation im Quartier» betrifft nur öffentliche Strassenparkplätze und richtet
+sich an Gemeinden, nicht an private Bauherrschaften.
+
 **Ergänzung — Kanton-ZH-Primärquelle jetzt im Volltext gelesen (13.07.2026):** Das Kanton-ZH-Infoblatt
 zu SIA 2060 (AWEL, datiert 13.10.2020) bestätigt die obige Kostentabelle **zahlengenau** aus der
 Primärquelle (nicht mehr nur Sekundärzitat); zusätzlich für den Gewerbebau CHF 45/250/320/380 je 100 m²
@@ -1800,6 +1816,12 @@ bei 65 m² Panelfläche, 42 % Eigenstromverbrauch und 175 m² Gebäude-EBF ergib
 umgelegter PV-Zuschlag von **1,72 kg CO₂-eq/m²EBF·a** — deutlich weniger als die Panelflächen-Zahl
 7,1 kg/m²a suggeriert, weil nur der Eigenverbrauchsanteil zu 100 % zählt, die Netzeinspeisung nur
 zu 40 %.
+
+**Ergänzung — Originaltext jetzt vollständig gelesen (16.07.2026):** der vollständige MuKEn-2025-
+Text (117 Seiten, EnDK) wurde per curl+pdftotext direkt gelesen — alle bisherigen Zahlen sind damit
+am Original bestätigt, nicht mehr nur an Sekundärquellen. Vollständige Modulliste: Basismodul
+(Teile A-T, Pflicht) plus 14 optionale Zusatzmodule (u.a. Elektromobilität, Gebäudehülleneffizienz,
+GEAK-Anordnung, verbrauchsabhängige Heizkostenabrechnung Bestand).
 
 **Ergänzung — Umsetzungsfahrplan + Modulstruktur (15.07.2026):** offizieller Terminplan der EnDK
 zielt auf eine Umsetzung in **allen Kantonen bis 2030**. Nur das **Basismodul** (bundesrechtliche
@@ -2624,12 +2646,21 @@ marktüblich finanzieren könnte. «Swiss Contracting» ist 2026 weiterhin techn
 Website) — als aktive Ansprechpartner gelten **swissesco** (Energiespar-Contracting) und
 **Thermische Netze Schweiz** (Wärmenetz-Contractoren).
 
+**Ergänzt 2026-07-16:** Der Preisüberwacher des Bundes hat **keine dokumentierte Praxis speziell
+zu Contracting-Vertragspreisen** (gezielt gesucht, bestätigter Negativbefund) — er beobachtet nur
+klassische Fernwärmenetz-Tarife. Rechtlich gilt: das Preisüberwachungsgesetz greift nur bei
+Marktmacht, sonst ist das Kartellgesetz massgebend. Als Ersatzbeleg für Tarifierungsfragen eignet
+sich der aktuelle Branchenleitfaden **«Kosten und Tarife thermischer Netze»** (Thermische Netze
+Schweiz, 25.06.2026) mit konkreten Indexierungsformeln (Arbeitspreis meist hälftig an
+Holzschnitzel-/Energiepreisindex gekoppelt, Leistungspreis an den Lohnkostenindex). Der
+MuKEn-2025-Originaltext (jetzt vollständig gelesen) enthält **keine explizite Contracting-Regelung**.
+
 **Quelle:** BFE/EnergieSchweiz «Wärme im Abo» (2004), AEW Energie AG, Zeitschrift Wohnen, Kt. Zürich
 EnerG §§ 11/11a/11b (Volltext), AWEL Vollzugsordner Energie (Ausgabe 1/2023), Kt. Schwyz kEnG § 8d/
-kEnV §§ 24f-g (Volltext), swissesco.ch, thermische-netze.ch →
-`[[waerme-contracting-vertragsmodelle-ch]]`. Status **emerging** (Vertragsmodelle + Art. 6a VMWG
-mehrquellig belegt, kantonale Rechtsgrundlagen jetzt primärquellenverifiziert; Preisüberwacher-
-Praxis und MuKEn-2025-Wortlaut weiterhin offen).
+kEnV §§ 24f-g (Volltext), swissesco.ch, thermische-netze.ch, TNS-Leitfaden «Kosten und Tarife
+thermischer Netze» (25.06.2026) → `[[waerme-contracting-vertragsmodelle-ch]]`. Status **emerging**
+(Vertragsmodelle + Art. 6a VMWG mehrquellig belegt, kantonale Rechtsgrundlagen primärquellen-
+verifiziert, Preisüberwacher-Negativbefund + MuKEn-Originaltext jetzt geklärt).
 
 ---
 
@@ -2670,13 +2701,17 @@ die Grundwassertemperatur darf max. 3 °C verändert werden, ausserhalb 100 m au
 ist Kühlen (Abkühlen) ausdrücklich erwünscht (ΔT bis 7 °C je nach Lage), Heizen hält die 3°C-Regel
 strikt ein. Ausgeschlossen sind wie bei der Erdsonde die Grundwasserschutzzonen S1/S2/S3. Ein
 hydrogeologischer Bericht (Ergiebigkeit, Fliessrichtung, Nachbar-Auswirkung) ist in beiden Kantonen
-Bewilligungsvoraussetzung. **Vorsicht bei Zahlen:** eine konkrete JAZ-Zahl speziell für
-Grundwasser-WP ist weiterhin nicht primärquellenbelegt (nur die plausible Richtung: tendenziell
-effizienter wegen konstant höherer Quelltemperatur). Für Erdsonde/Luft-Wasser gibt es dagegen jetzt
+Bewilligungsvoraussetzung. **Vorsicht bei Zahlen:** eine moderne, primärquellenbelegte JAZ-Zahl speziell für Grundwasser-WP
+gibt es weiterhin nicht — selbst die aktuellste CH-Marktstichprobe (FWS/BFE-Jahresbericht WPSM
+2023, 14'699 Anlagen) führt GWWP nicht separat auf. Als bestverfügbarer, aber älterer Richtwert
+gilt die BFE-Bandbreite **JAZ 3,8-5,0 (Neubau)/3,5-4,5 (Sanierung)** aus 2010 — mit dem Vorbehalt
+«veraltet, nicht aus einer eigenen Feldmessung». Für Erdsonde/Luft-Wasser gibt es dagegen jetzt
 eine echte EnergieSchweiz-Feldstudie (OST/WPZ Buchs, 2017-2019): Erdsonde JAZ **4,4-5,7**, Luft/
 Wasser **2,9-3,7** (Bandbreite Neubau/Sanierung/Altbau) — solide Vergleichswerte, wenn statt
-Grundwasser eine Erdsonde geprüft wird. CHF-Kostenangaben für die Bohrung bleiben nur aus
-kommerziellen, nicht amtlichen Quellen bekannt.
+Grundwasser eine Erdsonde geprüft wird. **Bohrkosten** (Förder-/Schluckbrunnen): zwei
+nicht-amtliche Richtwerte — Earth Suisse nennt CHF 40'000-80'000 für die Gesamtanlage inkl.
+Brunnenpaar, daibau.ch rechnet ein Beispiel mit CHF 300-600/Laufmeter auf rund CHF 19'100 hoch;
+beide vor Verwendung gegen reale Offerten gegenprüfen.
 
 **Ergänzt 2026-07-15:** Das ZH-**Wasserwirtschaftsgesetz von 1991 ist per 1. Juni 2026** durch das
 neue **Wassergesetz (WsG)** abgelöst worden — die Konzessionssystematik bleibt materiell gleich,

@@ -2,6 +2,54 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Run 73 (Intensiv-Lauf, sechs Hintergrund-Agenten)
+- [meta] Energie-Trainingslauf gemäss `training/PROGRAMM.md` (Verifikations-Stufe, Intensivphase,
+  Token-Vollgas). PDF-Inventar via lokalem OneDrive-Mount gegen `find -newermt "2026-06-11"`
+  geprüft (nur 2 bereits destillierte Dateien verändert, keine neuen PDFs) — bleibt erschöpft,
+  Web-Pfad. Sechs parallele Rechercheagenten bearbeiteten die Prioritätenliste aus Run 72.
+- [fund] **MuKEn-2025-Originaltext (117 S.) erstmals im Volltext gefunden** und per curl+pdftotext
+  gelesen (energiehub-gebaeude.ch-Spiegel, EnDK-Herausgeberschaft laut Impressum bestätigt) — löst
+  den seit Run 48 offenen Punkt. Vollständige Modulliste (Basismodul + 14 Zusatzmodule), Art.
+  1.38/1.39 (Graue Energie) zahlengenau mit bisherigem KB-Stand identisch → `[[muken-2025-verabschiedet]]`,
+  `[[muken-2025-modul-g-co2-grenzwerte]]` (jetzt dreifach primärquellen-verifiziert), FAQ **F47**
+  geschärft.
+- [update] `destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md`: GWWP-JAZ nur als ältere
+  generische BFE-2010-Bandbreite (3,8-5,0/3,5-4,5) belegt; zwei moderne CH-Feldstudien (OST/WPZ,
+  FWS/BFE-WPSM-Jahresbericht 2023) schliessen GWWP mangels Stichprobengrösse aktiv aus —
+  dokumentierter Negativbefund. Brunnenkosten erstmals mit zwei Sekundärquellen (Earth Suisse
+  CHF 40'000-80'000, daibau.ch Beispielrechnung CHF 19'100) belegt. Bleibt **emerging**. FAQ **F77**
+  geschärft.
+- [update] `destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md`: amtliche ZH-Förderbroschüre
+  (Amt für Mobilität, April 2023) direkt gelesen — **bidirektionale Ladestationen CHF 2'000/Station**
+  mit eigenem Förderkapitel, ausdrücklich OHNE Neubau-Ausschluss; **Quartier-Ladeinfrastruktur** als
+  reines Gemeinde-Programm für öffentliche Strassenparkplätze identifiziert, kein Format für private
+  Mehrfach-Liegenschaften. Programmstatus + Diskrepanz beim Neubau-Ausschluss-Datum dokumentiert.
+  Bleibt **established**. FAQ **F39** geschärft.
+- [update] `destillate/waerme-contracting-vertragsmodelle-ch.md`: Preisüberwacher-Praxis speziell zu
+  Contracting-Vertragspreisen gezielt gesucht, **bestätigter Negativbefund** (nur allgemeine
+  Fernwärme-Marktbeobachtung, Rechtsgrundsatz PüG nur bei Marktmacht sonst KG); als Ersatzbeleg der
+  aktuelle **TNS-Leitfaden «Kosten und Tarife thermischer Netze»** (25.06.2026) mit konkreten
+  Indexierungsformeln neu ausgewertet. MuKEn-2025-Originaltext bestätigt: keine Contracting-Regelung
+  im Basismodul. Bleibt **emerging**. FAQ **F75** geschärft.
+- [fix] `destillate/fenster-verglasung-uw-g-wert.md`: **Korrektur** — die bisher zitierte Primärquelle
+  «SZFF Doku 31.03» (Herkunft der 45-55-%-g-Wert-Bandbreite) ist im Volltext nicht auffindbar und
+  nicht mehr in der aktuellen SZFF-Verkaufsliste (2020) geführt — als wahrscheinlich veraltet/
+  zurückgezogen eingeordnet statt weiter unkritisch zitiert. Drei aktuellere Ersatzbelege ergänzt
+  (Minergie-Anwendungshilfe 2020.1, Minergie-Modul-Fenster-Reglement 2021, Energieetikette-
+  Faktenblatt SZFF+FFF+EnergieSchweiz). Bleibt **established**. FAQ **F35** geschärft.
+- [update] `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`: Vorgeschichte neu belegt
+  (KEVU-Kommissionsentwurf, Vernehmlassung 23.08.-30.11.2024, parlamentarische Initiative KR-Nr.
+  334/2022 Andreas Hasler/GLP, ursprünglich inkl. Fassaden-/Parkplatzpflichten, nach 66
+  Stellungnahmen fallengelassen); HEV-ZH-Ablehnung und Swissolar-Zustimmung mit Quelle belegt.
+  **Vierter Rechercheversuch zum Kantonsrats-Beratungsstand** erneut ohne Ergebnis (News-/
+  Verbandsquellen statt Plattform selbst) — zwei Fehlspuren aktiv ausgeschlossen (SRF-2023-Artikel
+  betrifft Bundes-Stromgesetz, Geschäftsnummer 5921 gehört zu anderer, bereits abgestimmter
+  Vorlage). Bleibt **emerging**.
+- [meta] Fünf FAQ-Antworten geschärft (F35/F39/F47/F75/F77), keine neue Nummer — FAQ-Stand bleibt
+  **85 Kernfragen**. Register (`destillate/INDEX.md`, `training/curriculum.md` Block D54,
+  `wiki/QUESTIONS.md` E79-E84, `raw/_INGESTED.md`) nachgeführt. Bericht:
+  `outputs/2026-07-16_energie-run73.md`.
+
 ## 2026-07-15 — Wissens-Chef Run 5 (Cross-KB): Querbezug KB planungsgrundlagen (PV-EIV-Doppelspur)
 - [link] `destillate/pv-einmalverguetung-bund-bfe.md`: neuer «Querbezug KB planungsgrundlagen»-Block. Die angewandte Wirtschaftlichkeits-/Amortisationsseite (EFH-Fall, Eigenverbrauch-Hebel) liegt in `wissen/planungsgrundlagen` → `energie-betriebsenergie-pv-wirtschaftlichkeit` §2/§3; Fuehrung der EIV-Saetze/Systematik bleibt hier (established). Kein Widerspruch (Saetze konsistent: integriert 400 / angebaut 200 CHF/kW seit 1.1.2025). Bericht: koordination/outputs/2026-07-15_wissens-chef-run5.md.
 

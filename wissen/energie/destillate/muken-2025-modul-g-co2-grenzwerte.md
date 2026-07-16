@@ -2,10 +2,10 @@
 quelle: MuKEn 2025 Volltext (Mustervorschriften der Kantone im Energiebereich, verabschiedet 29.08.2025), Art. 1.39 «Anforderung und Nachweis graue Energie», Basismodul Teil G — PDF-Spiegel energiehub-gebaeude.ch (energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf); zusaetzlich Tabellenwert G 1.39 gegengeprueft gegen Minergie-Uebersicht «Minergie im Kontext der MuKEn 2025» (minergie.ch, Stand 01.01.2026) und WebSearch-Indexierung (Suchmaschine zeigt denselben Wert 12.4 kg CO2-eq unabhaengig). VERIFIZIERT (13.07.2026, Run 51) gegen die Methodik-Primaerquelle selbst: Minergie/ecobau «Berechnungsmethodik Grenzwerte THGE in Erstellung» (12.09.2023, Version 1), LOKAL per Read-Tool (pages 1-10, keine Web-Fetch-Zwischenstufe) direkt aus dem PDF gelesen — Tabelle 1 (Basisgrenzwerte) und Tabelle 3 (Zuschlaege) bestaetigen die Kernzahlen zahlengenau.
 herausgeber: Konferenz Kantonaler Energiedirektoren (EnDK); Verifikationsquelle: Minergie Schweiz / ecobau
 ausgabe: MuKEn 2025, verabschiedet 29.08.2025, Art. 1.39; Verifikationsquelle Minergie/ecobau-Methodikpapier, 12.09.2023, Version 1
-gelesen: 2026-07-13 (PDF-Volltext via WebFetch/Jina-Reader zweimal unabhaengig abgefragt, Werte in beiden Durchgaengen identisch; zusaetzlich Modul-Zuordnung "G 1.39 Graue Energie: Grenzwerte auf Basis Minergie-ECO-Methodik" direkt aus dem 1-seitigen Minergie-PDF gelesen). Verifikation 13.07.2026 (Run 51): Minergie/ecobau-Methodikdokument lokal per Read-Tool gelesen (kein Web-Fetch-Reader).
+gelesen: 2026-07-13 (PDF-Volltext via WebFetch/Jina-Reader zweimal unabhaengig abgefragt, Werte in beiden Durchgaengen identisch; zusaetzlich Modul-Zuordnung "G 1.39 Graue Energie: Grenzwerte auf Basis Minergie-ECO-Methodik" direkt aus dem 1-seitigen Minergie-PDF gelesen). Verifikation 13.07.2026 (Run 51): Minergie/ecobau-Methodikdokument lokal per Read-Tool gelesen (kein Web-Fetch-Reader). ZWEITE, unabhaengige Verifikation 16.07.2026 (Run 73): MuKEn-2025-Originaltext (117 S.) diesmal per curl+pdftotext direkt aus dem PDF gelesen (nicht mehr nur Web-Fetch/Jina-Reader) — Art. 1.38/1.39-Wortlaut und alle Basisgrenzwerte zahlengenau identisch bestaetigt.
 datenstand: 2025-08-29 — ⚠ Empfehlung der EnDK, noch NICHT automatisch geltendes kantonales Recht (siehe [[muken-2025-verabschiedet]]). Verifikationsquelle Minergie/ecobau: 12.09.2023 (Vorlaeufer-Methodikpapier, auf dem MuKEn 2025 Modul G ausdruecklich aufbaut).
-status: established
-last_updated: 2026-07-13
+status: established (jetzt DREIFACH verifiziert: MuKEn-2025-Volltext per Web-Fetch UND per curl+pdftotext, plus Minergie/ecobau-Methodikpapier lokal gelesen — alle drei Wege liefern identische Zahlen)
+last_updated: 2026-07-16
 ---
 
 # MuKEn 2025 Modul G (graue Energie) — konkrete kg-CO2-eq/m²·a-Grenzwerte
@@ -107,10 +107,13 @@ verteilt statt auf die reine Panelfläche. Für Erdsonde und Solarthermie gilt d
   Zuordnung ist belegt. Das Methodikpapier selbst verweist auf SIA-Merkblatt 2032:2020 als
   Berechnungsgrundlage und nennt 60 Jahre Nutzungsdauer / SIA 2032 für Bauteil-Amortisation.
 - **Kt.-ZH-Umsetzungsstand unverändert offen** (siehe [[muken-2025-verabschiedet]]).
-- ~~Lokale, direkte PDF-Textextraktion~~ ✓ erledigt (13.07.2026, Run 51) — siehe Verifikationsstand
-  oben. Verbleibend: das MuKEn-2025-Original selbst (nicht nur die verwandte Minergie-Methodik)
-  noch lokal statt per Web-Fetch-Reader gegenlesen, falls die Originaldatei einmal direkt (ohne
-  Umweg über den energiehub-gebaeude.ch-Spiegel) zugänglich wird.
+
+~~Lokale, direkte PDF-Textextraktion~~ ✓ erledigt (13.07.2026, Run 51). ~~MuKEn-2025-Original
+selbst noch lokal statt per Web-Fetch-Reader gegenlesen~~ ✓ **erledigt 16.07.2026 (Run 73):**
+das MuKEn-2025-Original (117 S.) wurde per curl+pdftotext direkt aus dem PDF gelesen (nicht mehr
+nur über den Web-Fetch/Jina-Reader-Umweg) — Art. 1.38/1.39 und alle Basisgrenzwerte/Zuschläge
+zahlengenau bestätigt. Damit sind jetzt drei unabhängige Lesewege (Web-Fetch-Reader × 2, lokales
+Read-Tool auf Minergie/ecobau-Methodik, curl+pdftotext auf den EnDK-Originaltext) deckungsgleich.
 
 **Backlinks:** [[muken-2025-verabschiedet]] · [[graue-energie-betriebsenergie]] ·
 [[kbob-graue-treibhausgasemissionen-2025]]

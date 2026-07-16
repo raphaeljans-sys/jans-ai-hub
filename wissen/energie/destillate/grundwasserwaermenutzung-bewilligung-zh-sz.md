@@ -1,11 +1,11 @@
 ---
-quelle: AWEL Kt. ZH «Energie aus Grundwasser» / «Grundwassernutzung»; Kt. Schwyz «Wärmenutzung» (Amt für Umwelt und Energie); BFE/EnergieSchweiz «Bewilligungsverfahren Grundwasserwärmenutzung in den Kantonen» (03.2017); BAFU Vollzugshilfe UV-0910-D «Wärmenutzung aus Boden und Untergrund» (2009); Kanton Zürich Wassergesetz (WsG) vom 12.12.2022 im Volltext (vzgv.ch, Amtsblatt-Fassung) + Medienmitteilung Inkrafttreten (zh.ch, 21.08.2025); Kt. Schwyz Wasserrechtsgesetz (WRG, SRSZ 451.100, Fassung 1.2.2020) im Volltext; OST/WPZ Buchs «Feldmessung Wärmepumpen» (EnergieSchweiz-Auftragsstudie, Status-Seminar 03.09.2020)
-herausgeber: Kanton Zürich (Kantonsrat/AWEL) / Kanton Schwyz (Amt für Umwelt und Energie) / Bundesamt für Energie / BAFU / OST Ostschweizer Fachhochschule (WPZ Buchs)
+quelle: AWEL Kt. ZH «Energie aus Grundwasser» / «Grundwassernutzung»; Kt. Schwyz «Wärmenutzung» (Amt für Umwelt und Energie); BFE/EnergieSchweiz «Bewilligungsverfahren Grundwasserwärmenutzung in den Kantonen» (03.2017); BAFU Vollzugshilfe UV-0910-D «Wärmenutzung aus Boden und Untergrund» (2009); Kanton Zürich Wassergesetz (WsG) vom 12.12.2022 im Volltext (vzgv.ch, Amtsblatt-Fassung) + Medienmitteilung Inkrafttreten (zh.ch, 21.08.2025); Kt. Schwyz Wasserrechtsgesetz (WRG, SRSZ 451.100, Fassung 1.2.2020) im Volltext; OST/WPZ Buchs «Feldmessung Wärmepumpen» (EnergieSchweiz-Auftragsstudie, Status-Seminar 03.09.2020); BFE «Wärmepumpen – häufig gestellte Fragen» (Richard Phillips, 02.2010, hrsg. UVEK/BFE via fws.ch); OST/NTB Buchs «Feldmessung von Wärmepumpen-Anlagen, Ergebnisse Periode 2016-2019» (Kuster et al., 24.06.2020); FWS/BFE «Jahresbericht 2023 Wärmepumpen-Systemmodul WPSM» (29.05.2024); Fraunhofer ISE «WP-QS im Bestand» (DE, Feldmonitoring bis 2024); Earth Suisse/daibau.ch (Sekundärquellen Brunnenkosten)
+herausgeber: Kanton Zürich (Kantonsrat/AWEL) / Kanton Schwyz (Amt für Umwelt und Energie) / Bundesamt für Energie / BAFU / OST Ostschweizer Fachhochschule (WPZ Buchs) / FWS Fördergemeinschaft Wärmepumpen Schweiz
 ausgabe: Web-Recherche amtliche Quellen; ZH-Wassergesetz + SZ-Wasserrechtsgesetz im Volltext gelesen
-gelesen: 2026-07-14/2026-07-15
-datenstand: 2026-07-15 (ZH-Wassergesetz Inkrafttreten 1.6.2026 primärquellen-bestätigt; Konzessionsdauer-Behauptung «40 Jahre» am Gesetzestext WIDERLEGT; JAZ Erdsonde/Luft-Wasser jetzt über EnergieSchweiz-Feldstudie 2017-2019 belegt; SZ § 12 WRG wortgetreu bestätigt, Revision 2018 nicht 2025/2026)
-status: emerging (Bewilligungssystematik + Bundes-Temperaturregel primärquellen-verifiziert, ZH-Rechtsgrundlage jetzt auf neues Wassergesetz aktualisiert; Konzessionsdauer-Fehlbehauptung korrigiert; GWWP-spezifische JAZ und amtliche Kostenquelle weiterhin offen)
-last_updated: 2026-07-15
+gelesen: 2026-07-14/2026-07-16
+datenstand: 2026-07-16 (ZH-Wassergesetz Inkrafttreten 1.6.2026 primärquellen-bestätigt; Konzessionsdauer-Behauptung «40 Jahre» am Gesetzestext WIDERLEGT; JAZ Erdsonde/Luft-Wasser über EnergieSchweiz-Feldstudie 2017-2019 belegt; SZ § 12 WRG wortgetreu bestätigt; GWWP-JAZ jetzt mit älterem BFE-Fallback 2010 belegt, moderne CH-Feldstudien schliessen GWWP mangels Stichprobe explizit aus; Brunnenkosten weiterhin nur sekundärquellenbelegt)
+status: emerging (Bewilligungssystematik + Bundes-Temperaturregel primärquellen-verifiziert, ZH-Rechtsgrundlage auf neues Wassergesetz aktualisiert; Konzessionsdauer-Fehlbehauptung korrigiert; GWWP-JAZ nur als ältere generische BFE-Bandbreite belegt, amtliche Kostenquelle für Brunnen weiterhin nicht gefunden)
+last_updated: 2026-07-16
 ---
 
 # Grundwasserwärmenutzung — Bewilligung Kt. Zürich und Kt. Schwyz
@@ -111,16 +111,37 @@ oder 50 kW, beide unter der bundesrechtlichen **3°C-Temperaturänderungsregel**
   Quelle: https://www.ost.ch/fileadmin/dateiliste/3_forschung_dienstleistung/institute/ies/projekte/projekte_tes/publikationen/paper_feldmessung_waermepumpen_final.pdf.
   Diese Zahlen ersetzen die bisherige unbelegte Sekundärquellen-Bandbreite für Erdsonde/Luft-Wasser
   (siehe auch [[wpz-buchs-feldmessung-jaz-2016-2019]]).
-- **Grundwasser-WP (GWWP) selbst bleibt eine Lücke:** Die obige Studie deckt GWWP NICHT ab (macht
-  laut Studieneinleitung nur ~1 % des CH-Wärmepumpenmarkts aus). Trotz gezielter Suche (FWS,
-  BFE-Publikationsdatenbank) **keine primärquellen-belegte GWWP-spezifische JAZ-Zahl gefunden**.
-  Die plausible Annahme «GWWP erreicht wegen konstanter Quelltemperatur 8-10 °C die höchste JAZ
-  aller WP-Typen» bleibt ein **unbelegtes Plausibilitätsargument**, keine zitierfähige Zahl.
-- Kosten (Förder-/Schluckbrunnen CHF 40'000–80'000 vs. Erdsondenfeld CHF 25'000–50'000; Erdsonden-
-  Bohrung CHF 70-125/Bohrmeter bei 150-280 m Sondenlänge) stammen weiterhin ausschliesslich aus
-  kommerziellen Installateur-/Vergleichsportalen (daibau.ch, suntherm.ch, heizkosten-rechner.ch
-  u.a.), **keine amtliche CH-Quelle gefunden** (erneut gezielt gesucht, erneut ergebnislos) — vor
-  Verwendung gegen reale Offerten/`wissen/grobkosten` gegenprüfen.
+- **Grundwasser-WP (GWWP) — vertieft 2026-07-16, weiterhin keine moderne CH-Primärquelle:**
+  Die OST/WPZ-Feldstudie 2017-2019 deckt GWWP NICHT ab (macht laut Studieneinleitung nur ~1 % des
+  CH-Wärmepumpenmarkts aus, Stichprobe nur 7 LWWP + 6 SWWP). Auch die aktuellste reale CH-
+  Marktstichprobe, der **FWS/BFE-Jahresbericht 2023 Wärmepumpen-Systemmodul (WPSM)** (14'699
+  zertifizierte Anlagen, Inbetriebnahme 2022, pubdb.bfe.admin.ch/de/publication/download/12007),
+  weist in seiner JAZ-Tabelle **nur LW (Inverter 3,4/On-Off 3,2) und SW (Inverter 4,5/On-Off 4,2)
+  aus — keine eigene GWWP-Zeile**, obwohl dies die aktuellste amtsnahe Datenquelle ist. Einzige
+  gefundene konkrete Zahl bleibt die **ältere BFE-Bandbreite JAZ 3,8–5,0 (Neubau) / 3,5–4,5
+  (Sanierung)** aus «Wärmepumpen – häufig gestellte Fragen» (R. Phillips, BFE/UVEK, 02.2010,
+  https://www.fws.ch/wp-content/uploads/2018/05/Waermepumpen_haeufig_gestellte_Fragen.pdf, Tab.
+  S. 7) — amtliche Autorenschaft, aber **16 Jahre alt** und generisch, nicht aus einer eigenen
+  Feldmessreihe. Eine deutsche Ergänzungsquelle (Fraunhofer ISE, Abschlussbericht «WP-QS im
+  Bestand») enthält unter 77 Systemen nur **eine** Grundwasseranlage und schliesst diese
+  ausdrücklich vom Quervergleich aus («da nur ein System Grundwasser als Wärmequelle nutzt») —
+  liefert also ebenfalls keinen belastbaren Wert. Die plausible Annahme «GWWP erreicht wegen
+  konstanter Quelltemperatur 8-10 °C die höchste JAZ aller WP-Typen» bleibt ein **unbelegtes
+  Plausibilitätsargument**, keine zitierfähige Zahl — für Bauherren-Aussagen nur die BFE-2010-
+  Bandbreite mit explizitem Alters-Vorbehalt verwenden.
+- **Kosten Förder-/Schluckbrunnen — vertieft 2026-07-16, weiterhin keine amtliche Quelle:** Die
+  AWEL-Planungshilfen «Energienutzung aus Untergrund und Grundwasser» (2010/2014) enthalten keine
+  CHF-Zahlen. Als Grössenordnung liegen nur zwei nicht-amtliche Quellen vor: **Earth Suisse**
+  (Hydrogeologie-Beratungsfirma) nennt CHF 40'000–80'000 Gesamtkosten für eine
+  Grundwasserwärmepumpenanlage inkl. Brunnenpaar (nicht aufgeschlüsselt,
+  https://www.earthsuisse.ch/hydrogeologie/grundwasserwaermepumpe/); **daibau.ch**
+  (Vergleichsportal) nennt CHF 300–600/Laufmeter und rechnet ein Praxisbeispiel (2× 15 m-Brunnen)
+  auf CHF 19'100 total hoch (Bohrung CHF 12'400 + hydrogeologische Abklärung CHF 800 + Bewilligung
+  CHF 900 + Probebohrung CHF 1'260 + Pumpversuch CHF 1'400,
+  https://www.daibau.ch/baukostenrechner/brunnenbau). Beide Quellen sind kommerziell/nicht amtlich
+  und vor Verwendung gegen reale Offerten bzw. `wissen/grobkosten` gegenzuprüfen; zusätzlich
+  weiterhin die älteren, unverifizierten Vergleichszahlen (Erdsondenfeld CHF 25'000–50'000,
+  Erdsonden-Bohrung CHF 70-125/Bohrmeter) im gleichen Vorbehalt.
 
 ## Bauherren-Transfer
 
@@ -135,8 +156,11 @@ verifiziert» treffen.
 
 ## Offene Punkte
 
-- GWWP-spezifische JAZ-Zahl aus einer echten Primärquelle weiterhin nicht gefunden.
-- Amtliche CH-Kostenquelle für Förder-/Schluckbrunnen vs. Erdsondenfeld weiterhin nicht gefunden.
+- GWWP-spezifische JAZ-Zahl aus einer **modernen** CH-Feldmessung weiterhin nicht gefunden (nur
+  ältere generische BFE-Bandbreite 2010 verfügbar, s.o.); auch die aktuellste WPSM-Marktstichprobe
+  (2023) führt GWWP nicht separat.
+- Amtliche CH-Kostenquelle für Förder-/Schluckbrunnen vs. Erdsondenfeld weiterhin nicht gefunden
+  (nur zwei nicht-amtliche Sekundärquellen, s.o.).
 - Herkunft einer allfälligen «40 Jahre»-Konzessionsdauer-Regel (evtl. in der noch nicht
   eingesehenen Wasserverordnung WsV oder der alten WWG-Konzessionsverordnung) ungeprüft.
 - ZH-Mindestgrösse «100 kW/Minergie» für 2026 nicht neu bestätigt (Quelle Stand 2017); ob die WsV
@@ -149,3 +173,9 @@ verifiziert» treffen.
 primärquellen-bestätigt); Konzessionsdauer «40 Jahre» am Gesetzestext geprüft und widerlegt;
 JAZ Erdsonde/Luft-Wasser über EnergieSchweiz-Feldstudie belegt; SZ § 12 WRG wortgetreu bestätigt,
 keine 2025/2026-Änderung (Verwechslung mit Bundesgesetz aufgeklärt).
+
+**Vertieft am 2026-07-16 (Run 73, ohne Statusänderung):** GWWP-JAZ mit älterer BFE-2010-Bandbreite
+(3,8-5,0/3,5-4,5) als bestverfügbarem, aber veraltetem Wert belegt; zwei moderne CH-Quellen (OST/
+WPZ-Feldstudie, WPSM-Jahresbericht 2023) schliessen GWWP mangels Stichprobengrösse aktiv aus —
+dokumentierter Negativbefund statt Lücke. Brunnenkosten erstmals mit zwei konkreten
+Sekundärquellen (Earth Suisse, daibau.ch) statt reiner Nennung ohne Herkunft belegt.

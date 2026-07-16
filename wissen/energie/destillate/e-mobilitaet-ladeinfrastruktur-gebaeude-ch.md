@@ -2,10 +2,10 @@
 quelle: EnergieSchweiz/Swiss eMobility «Ladeinfrastruktur in Mietobjekten» + «Ladeinfrastruktur im Bestandsbau — Rollen und Prozesse» (energieschweiz.ch/laden-punkt.ch); E-Mobilitaets-Kapitel aus Zogg «Waermepumpen, Photovoltaik und Elektromobilitaet» (HK-Gebaeudetechnik 4/24, Ausgabe Juli 2023); ergaenzt Kanton-Zuerich-Baudirektion «Infoblatt zu Merkblatt SIA 2060» (zh.ch, seit 2026-07-13 per pdftotext vollstaendig als Primaerquelle gelesen) + Haerz AG/elektromobilitaet-schweiz.ch (Zweitquelle, gleiche Zahlen, keine eigene Herleitung); Vertiefung mit Recherche nach weiteren Drittquellen in [[sia-2060-kosten-ladeinfrastruktur-vertiefung]]
 herausgeber: Swiss eMobility mit Unterstuetzung EnergieSchweiz / Bundesamt fuer Energie BFE; Fachartikel Prof. Dr. David Zogg (FHNW / Smart Energy Engineering); SIA-2060-Kostenzahlen ueber Kanton ZH Baudirektion AWEL (IBG Engineering AG Winterthur) + Haerz AG
 ausgabe: Leitfaden Mietobjekte akt. November 2024 (Faktenblatt April 2025); Leitfaden Bestandsbau September 2025; Zogg-Artikel Juli 2023; SIA 2060 Merkblatt (01.05.2020), ZH-Infoblatt datiert 13. Oktober 2020 (Datum jetzt gesichert)
-gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen); ergaenzt 2026-07-13 (ZH-Infoblatt-PDF vollstaendig per pdftotext gelesen, Drittquellen-Recherche ohne neuen unabhaengigen Fund, siehe Vertiefung); ergaenzt 2026-07-15 (Foerderung ZH/SZ, Quelle Kt. ZH Amt fuer Mobilitaet «Foerderprogramm Ladeinfrastruktur», Kt. SZ AfU «Elektromobilitaet», EnergieSchweiz «Einfach laden»)
-datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), ZH-Kostenbasis 13.10.2020, NIV SR 734.27; Foerderung ZH/SZ Stand 15.07.2026 (ZH-Programm Ausschoepfung 06.07.2026)
+gelesen: 2026-07-11 (3 EnergieSchweiz-Werkzeugseiten + Zogg-Artikel S. 52-57 vollst. via Read); ergaenzt 2026-07-12 (2 unabhaengige WebSearch-Zitate zu SIA-2060-Kostenzahlen); ergaenzt 2026-07-13 (ZH-Infoblatt-PDF vollstaendig per pdftotext gelesen, Drittquellen-Recherche ohne neuen unabhaengigen Fund, siehe Vertiefung); ergaenzt 2026-07-15 (Foerderung ZH/SZ, Quelle Kt. ZH Amt fuer Mobilitaet «Foerderprogramm Ladeinfrastruktur», Kt. SZ AfU «Elektromobilitaet», EnergieSchweiz «Einfach laden»); ergaenzt 2026-07-16 (amtliche ZH-Foerderbroschuere «Foerderprogramm Ladeinfrastruktur», Amt fuer Mobilitaet, Ausgabe April 2023, per pdftotext im Volltext gelesen — bidirektionale Ladestationen + Quartier-Kapitel direkt gegengelesen)
+datenstand: 2024/2025 (Leitfaeden); Zogg 2023; Norm SIA 2060 (Merkblatt 2020), ZH-Kostenbasis 13.10.2020, NIV SR 734.27; Foerderung ZH/SZ Stand 16.07.2026 (ZH-Programm Ausschoepfung 06.07.2026, amtliche Broschuere Ausgabe April 2023)
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 ---
 
 # Elektromobilitaet — Ladeinfrastruktur am Wohngebaeude (CH)
@@ -127,9 +127,36 @@ Ladeinfrastruktur-Fragen laufen über ein anderes Amt und Portal als Wärme-/Hü
 - **Anspruchsberechtigt:** Eigentümer bestehender Wohngebäude; **Neubauten ab 2023 ausgeschlossen.**
 - **Verfahren:** Portal portal.dasgebaeudeprogramm.ch/zh; ab 5 Parkplätzen Gesuch zwingend VOR
   Installationsbeginn, Prüfdauer 4-10 Wochen.
-- Bidirektionale Ladestationen (≈ CHF 2'000/Station) und Quartier-Ladestationen (30 % Investition,
-  max. CHF 3'000/Parkplatz) sind laut Sekundärzitat ebenfalls förderfähig — **nicht direkt an der
-  amtlichen zh.ch-Förderbroschüre gegengelesen**, vor verbindlicher Aussage verifizieren.
+- **Bidirektionale Ladestationen (V2H/V2G) — jetzt amtlich gegengelesen (2026-07-16):** eigenes
+  Förderkapitel «Das Elektroauto als Speicher» in der amtlichen Broschüre (Kt. ZH Amt für
+  Mobilität, Ausgabe April 2023, S. 11-13), pauschal **CHF 2'000 pro bidirektionale Ladestation**.
+  Bedingungen: Anlehnung an SIA-2060-Ausbaustufe **D «Ready to Charge»** (2020), ab 2 Parkplätzen
+  ist **Lastmanagement mit OCPP-Schnittstelle Pflicht**, ein Gesuch pro Parkierungsanlage.
+  Wichtiger Unterschied zur normalen Basisinfrastruktur-Förderung: bidirektionale Stationen sind
+  ausdrücklich **«für Bewohnerparkplätze in Bestand UND Neubau möglich»** (S. 13) — **kein
+  Neubau-Ausschluss**. Läuft als eigenes, zusätzliches Gesuch neben der Basisinfrastruktur-Förderung.
+- **Quartier-/Areal-Ladeinfrastruktur — Negativbefund für private Bauherrschaften (2026-07-16):**
+  Es gibt **kein** Förderformat für gemeinsame Ladeinfrastruktur mehrerer privater Gebäude/
+  Liegenschaften («Areal» im Sinn eines Immobilien-Portfolios). Das dritte Broschüre-Kapitel «Die
+  Ladestation im Quartier» (S. 15-17) betrifft ausschliesslich **öffentlich zugängliche
+  Anwohnerparkplätze im Strassenraum** (z.B. blaue Zone) und richtet sich an **Gemeinden**, nicht
+  an private Grundeigentümer: Fördersatz dort 30 % der nachgewiesenen Kosten, max. CHF 3'000/
+  Parkplatz, max. CHF 450'000/Gemeinde, Schnellladestationen >22 kW ausgeschlossen, Voraussetzung
+  ein kommunales E-Mobilitätskonzept. Eine gezielte Volltextsuche nach «Areal»/«gemeinsam»/
+  «mehrere Liegenschaften» in der Broschüre ergab keine Treffer — für private Mehrfach-Liegenschaften
+  bleibt nur die normale Basisinfrastruktur-Förderung je Einzelgebäude.
+- **Hinweis zur bisherigen KB-Zahl «max. CHF 3'000/Parkplatz» für Quartier-Förderung:** war bereits
+  korrekt zitiert, jetzt aber amtlich als Gemeinde-Programm statt privates Förderformat eingeordnet.
+- **Programmstatus (16.07.2026):** weiterhin Stand 06.07.2026 über 92 % des CHF-50-Mio.-Rahmenkredits
+  beansprucht; das Programm schliesst, sobald die Mittel ausgeschöpft sind, spätestens Ende 2026.
+  Keine Nachfolgerunde ab 2027 auffindbar (Negativbefund).
+- **Offene Diskrepanz zum Neubau-Ausschluss:** Die amtliche Broschüre (Ausgabe April 2023) zählt bei
+  der normalen Basisinfrastruktur noch «auch Parkplätze ohne Basisinfrastruktur in kürzlich
+  realisierten Neubauten» zu den förderberechtigten «bestehenden Bewohnerparkplätzen» (S. 6f.,
+  wörtlich); die aktuelle Website-Formulierung schliesst dagegen Gebäude «im Jahre 2023 oder später
+  errichtet» explizit aus. Deutet auf eine Verschärfung/Klarstellung NACH April 2023 hin, deren
+  genaues Datum offen bleibt — kein Widerspruch zum established-Status, aber im Beratungsgespräch
+  den aktuelleren Website-Stand (Neubau-Ausschluss ab 2023) als massgebend nennen.
 - **EKZ** hat kein eigenes Zusatzprogramm, unterstützt aber administrativ beim kantonalen Gesuch.
   Ob **ewz**/Stadt Zürich eine eigene Zusatzförderung führt, konnte nicht verifiziert werden (offen).
 - Quellen: zh.ch/de/mobilitaet/gesamtverkehrsplanung/dinamo/foerderprogramm-ladeinfrastruktur.html;
@@ -183,10 +210,17 @@ Eigenverbrauch**; im Winter bleibt Netzbezug massgebend (Effizienz Gebaeude+WP e
   EnergieSchweiz-Leitfaden referiert, nicht aus der Norm selbst.
 - **V2H/V2G** rechtlich/technisch (bidirektionale Wallbox, Netzbetreiber-Zulassung) noch in
   Entwicklung — Stand beobachten.
-- ZH-Förderbeträge für bidirektionale/Quartier-Ladestationen nur sekundärquellenbelegt (nicht an
-  amtlicher Broschüre gegengelesen); ewz/Stadt-Zürich-Zusatzförderung nicht verifiziert; SZ-Gemeinde-
-  Förderprogramme (z.B. Gemeinde Schwyz) und einzelne EVU (Agro Energie Schwyz, EWS Ibach) nicht
-  abschliessend geprüft; `energiefranken.ch`-Detaileinträge technisch nicht auslesbar (JS-Rendering).
+- ewz/Stadt-Zürich-Zusatzförderung nicht verifiziert; SZ-Gemeinde-Förderprogramme (z.B. Gemeinde
+  Schwyz) und einzelne EVU (Agro Energie Schwyz, EWS Ibach) nicht abschliessend geprüft;
+  `energiefranken.ch`-Detaileinträge technisch nicht auslesbar (JS-Rendering). Genaues Datum der
+  Neubau-Ausschluss-Verschärfung (nach April 2023) ungeklärt.
+
+**Erledigt am 2026-07-16 (vorher offen «ZH-Förderbeträge bidirektionale/Quartier-Ladestationen nur
+sekundärquellenbelegt»):** amtliche ZH-Broschüre (Amt für Mobilität, April 2023) direkt gelesen —
+bidirektionale Stationen CHF 2'000/Station mit eigenem Förderkapitel und explizit OHNE
+Neubau-Ausschluss bestätigt; Quartier-Förderung als reines Gemeinde-Programm für öffentliche
+Strassenparkplätze eingeordnet (kein Format für private Mehrfach-Liegenschaften) — Negativbefund
+dokumentiert statt offen gelassen.
 
 **Erledigt am 2026-07-15 (vorher offen «Förderung kantonal/kommunal uneinheitlich»):** Kt. ZH hat
 ein eigenes, fast erschöpftes CHF-50-Mio.-Programm bei der Volkswirtschaftsdirektion/Amt für
