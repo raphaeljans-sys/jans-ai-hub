@@ -201,7 +201,9 @@ async function herunterladen(docId, zielDir) {
   // 1) DS3-Files: Eigenschaften-Seite nennt den raw-Link mit echtem Dateinamen
   if (docId.startsWith('File-')) {
     const props = await (await anfrage(`/ds/${docId}/properties/props_view`, { redirect: 'follow' })).text();
-    const mRaw = props.match(new RegExp(`href="(/ds/${docId}/get/[^"]+)"`));
+    // Raw-Link (Originaldatei) bevorzugen — der erste get-Link ist oft nur die PDF-Repraesentation
+    const mRaw = props.match(new RegExp(`href="(/ds/${docId}/get/head/raw/[^"]+)"`))
+              || props.match(new RegExp(`href="(/ds/${docId}/get/[^"]+)"`));
     const rawPfad = mRaw ? entitäten(mRaw[1]) : `/ds/${docId}/get/head/raw/datei`;
     const res = await anfrage(rawPfad, { redirect: 'follow' });
     if (!res.ok) fail(`Download fehlgeschlagen (HTTP ${res.status}) fuer ${docId}.`);
