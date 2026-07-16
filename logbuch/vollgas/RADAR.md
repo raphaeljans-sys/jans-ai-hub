@@ -21,6 +21,42 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-16 18:48 — [GEDROSSELT] P3 von 12:50 erledigt: MacBook-KBs haben nachgezogen, Muster «Verschiebung statt Verlust» bestaetigt
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+weiterhin gesetzt (14.07. 12:53), kein `vollgas-runner`-Prozess. Als Schoner starte ich nichts neu
+und lasse die `claude -p`-Probe bewusst aus.
+
+**Die offene P3-Frage von 12:50 ist beantwortet — die MacBook-KBs haben im Tagesverlauf nachgezogen.**
+Um 12:50 hatte heute noch keine der sechs MacBook-KBs committet; seither sind zwei dazugekommen:
+`wissen/baurecht` und `wissen/normen` tragen beide einen Eintrag vom 16.07., getragen vom Wissens-Chef
+Run 6 (17:28: SIA-180-Fundstellen korrigiert, MuKEn-Modul-11 auf ZH skopiert, GreenPV-Fuehrung geklaert)
+und vom Mac-Mini-Normen-Run 31 (13:44: Inventar-Check, 2 von 6 Vertiefungs-Luecken DIN/VSS/RAL
+geschlossen). Damit ist das Muster «Verschiebung statt Verlust» ein zweites Mal belegt: was das
+Darkwake-Fenster nicht startet, holt der Scheduler nach, sobald die Station wach ist. Kein Login-,
+Token- oder Ausfall-Problem.
+
+**Weiterhin ohne Commit heute (unkritisch, im Drossel-Regime erwartbar):** `wettbewerbs-dna` (letzter
+Stand 14.07.), `twin`, `spec`, `immobilienbewertung` (alle 15.07.). Bei 1x-taeglich-Takt und
+gedrosselter Last ist ein Aussetzer pro KB kein Signal; erst zwei stille Tage in Folge waeren einer.
+`wettbewerbs-dna` steht mit zwei Tagen an der Schwelle — im naechsten Lauf gezielt anschauen.
+
+**Reset-Countdown:** Wochen-Reset Montag 20.07. 11:59 — von jetzt (Do 18:48) noch ~3.71 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend). Der schonende
+Verlauf laeuft dem Ziel «nicht vor Reset auf 100%» weiter entgegen.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2 (unveraendert von 12:50): Darkwake schiebt die Nacht-Trainings in den Vormittag und kollidiert so
+  mit Regel 260711 (keine Trainings waehrend der Arbeitszeit). Saubere Loesung waeren lokale
+  launchd-Jobs statt App-Scheduler (die wecken aus Darkwake) — Umsetzung erst nach Freigabe Raphaels,
+  da sie das Lastprofil beruehrt.
+- P2 (unveraendert): `synobsis-batch-nacht` weiter im No-op (853/853) — auf woechentlich reduzieren oder
+  pausieren, bis neues Material in `05_Architekten_Synobsis` landet (Mac Mini).
+- P3: `wettbewerbs-dna` im naechsten Lauf gezielt pruefen (zwei Tage ohne Commit).
+
+---
+
 ## 2026-07-16 12:50 — [GEDROSSELT] Entwarnung zur Nacht-Leere: Tasks sind nur VERSCHOBEN, nicht ausgefallen
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
