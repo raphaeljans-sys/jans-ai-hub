@@ -14,6 +14,17 @@
   2 von 6 aus Mini-Run 30 offenen Vertiefungs-Luecken geschlossen (SIA 331 ↔ EN 12207/DIN 1249-11
   Ziffer-fuer-Ziffer, RAL-GZ 638 BKP-Zuordnung), adversarial verifiziert, 0 Fehler. Details
   `wiki/QUESTIONS.md` Abschnitt "Mini-Run 31", Report `outputs/2026-07-16_normen-mini-run31.md`.
+- **Mini-Run 32 (Mac Mini, 260716, dritte Bestaetigung in Folge) — INVENTAR KOMPLETT
+  fuer DIN/VSS/RAL:** Datei-fuer-Datei-Abgleich bestaetigt erneut 72/17/1 Dateien, 0 offene
+  `[ ]`-Positionen, keine neuen Dateien (auch der bisher nicht im Inventar gefuehrte, leere
+  Ordner `Lignum/` enthaelt 0 Dateien). Alle vier Vertiefungsstufen (a-d) sind fuer die
+  komplette Familie seit Mini-Run 29/30 abgeschlossen; die 4 nach Mini-Run 31 verbleibenden
+  Vertiefungs-Luecken benoetigen SIA/VKF-Zugriff (Station MacBook Pro) oder Quellen ausserhalb
+  der Normen-SharePoint-Ablage und sind aus dem DIN/VSS/RAL-Scope heraus nicht schliessbar.
+  Empfehlung an Raphael: Scheduled Task `normen-training-mini` gemaess PROGRAMM.md-Endbedingung
+  pausieren/auf Datei-Aenderungs-Trigger umstellen, bis neue Dateien in DIN_Norm/VSS_Norm/
+  RAL_Norm/Lignum auftauchen. Details `wiki/QUESTIONS.md` Abschnitt "Mini-Run 32",
+  Report `outputs/2026-07-16_normen-mini-run32.md`.
 
 ## SIA (391 Dateien)
 

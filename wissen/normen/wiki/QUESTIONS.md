@@ -332,6 +332,39 @@
   Aussenluft-Volumenstrom/Klassierung AUL/RAL/ABL); der Detailvergleich CH- vs. DE-Modell
   kann darauf aufbauen (Anhänge A-G von SIA 382/1 noch offen).
 
+## Mini-Run 32 (Mac Mini, 260716, Zuruf-Intensivlauf) — INVENTAR KOMPLETT für DIN/VSS/RAL bestätigt
+
+Auftrag Raphael: ein weiterer Intensiv-Lauf, NUR Familien DIN/VSS/RAL (Stations-Split,
+SIA/VKF nicht angefasst), PROGRAMM.md inkl. Verifikations-Stufe + Token-Vollgas verbindlich.
+
+**Inventar-Check (dritte Bestätigung in Folge, nach Mini-Run 29/30/31):** Datei-für-Datei-
+Abgleich `training/norm-inventar.md` gegen die live gemountete SharePoint-Ablage
+`PL - 02_Recht_Norm/02_Normen/{DIN_Norm,VSS_Norm,RAL_Norm}` — weiterhin exakt 72/17/1 Dateien,
+0 offene `[ ]`-Positionen, keine neuen Dateien. Zusätzlich geprüft: der Ordner
+`PL - 02_Recht_Norm/02_Normen/Lignum/` (bisher nicht im Inventar geführt) ist **leer** (0
+Dateien) — kein Bestandsfehler, nur zur Vollständigkeit vermerkt, falls dort künftig Dateien
+abgelegt werden.
+
+**Bewertung:** Eine künstliche Batch-Zielzahl (15-25 bzw. 30-40 Positionen) hätte erneut
+Erfindung/Wiederholung bedeutet. Die verbleibenden 4 Vertiefungs-Lücken aus Mini-Run 30/31
+(SIA 266/262/267-Detailbemessung, SIA-Raumakustik, Suva-/EKAS-Fassadengerüst/Dachhaken,
+VKF-BRL 15-15, kantonale Velo-Abstellpflicht 2026) wurden erneut geprüft — keine ist aus dem
+DIN/VSS/RAL-Scope heraus schliessbar (SIA/VKF-Zugriff nötig oder Quelle ausserhalb der
+Normen-SharePoint-Ablage). Ein DIN-5034-1-Datensatz wurde stichprobenartig gegen das Original
+gegengeprüft (Title-Metadaten "5034t1 1..10", 10 S. Bestand, `gelesen: S. 1-10 (vollständig)`
+im Destillat bestätigt) — Teil-Destillat-Kennzeichnung bleibt korrekt (Bestandskopie ist
+selbst unvollständig gegenüber der vollständigen amtlichen Norm, nicht ein Lese-Versäumnis).
+
+**Formale Feststellung:** DIN/VSS/RAL (90 Dateien) sind damit zum dritten Mal in Folge auf
+allen vier Vertiefungsstufen (a Grunddestillation, b Retro-Verifikation, c Q&A-Selbstbefragung,
+d Querschnitts-Synthese) vollständig und ohne offene Destillations-Lücke bestätigt —
+**INVENTAR KOMPLETT** im Sinne von `training/PROGRAMM.md`. Empfehlung an Raphael: den
+Scheduled Task `normen-training-mini` gemäss PROGRAMM-Endbedingung pausieren oder auf einen
+Datei-Änderungs-Trigger umstellen (neue Dateien in DIN_Norm/VSS_Norm/RAL_Norm/Lignum), statt
+weiterhin fixe Zeitintervalle ohne neuen Content abzufahren — passend zur allgemeinen
+Token-Drosselung (Rule `auto-verbesserungen.md` 260714). Report
+`outputs/2026-07-16_normen-mini-run32.md`.
+
 ## Mini-Run 31 (Mac Mini, 260716) — Inventar-Check + 2 von 6 offenen Lücken aus Mini-Run 30 geschlossen
 
 Auftrag Raphael: ein Intensiv-Lauf, NUR Familien DIN/VSS/RAL (Stations-Split, SIA/VKF

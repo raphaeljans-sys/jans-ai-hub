@@ -1,3 +1,27 @@
+## 2026-07-16 — normen-training-mini Mini-Run 32 (Mac Mini, Zuruf-Intensivlauf): INVENTAR KOMPLETT fuer DIN/VSS/RAL bestaetigt (3. Bestaetigung in Folge)
+Stations-Split eingehalten: NUR DIN/VSS/RAL angefasst (SIA/VKF = MacBook Pro, nicht beruehrt).
+Auftrag Raphael (16.07.2026, direkt nach Mini-Run 31): ein weiterer Intensiv-Lauf gemaess
+`training/PROGRAMM.md`. Inventar-Check (Datei-fuer-Datei gegen die live gemountete
+SharePoint-Ablage `PL - 02_Recht_Norm/02_Normen/{DIN_Norm,VSS_Norm,RAL_Norm}`): erneut exakt
+72/17/1 Dateien, 0 offene `[ ]`-Positionen, keine neuen Dateien. Zusaetzlich den bisher nicht
+im Inventar gefuehrten Ordner `Lignum/` geprueft: leer (0 Dateien), kein Bestandsfehler.
+
+Da alle vier Vertiefungsstufen (a Grunddestillation, b Retro-Verifikation, c Q&A-
+Selbstbefragung, d Querschnitts-Synthese) bereits seit Mini-Run 29/30 fuer alle 90 Dateien
+abgeschlossen sind und dieser Lauf zum dritten Mal in Folge (nach Mini-Run 29/30/31) 0 offene
+Positionen bestaetigt, wurde **keine kuenstliche Batch-Zielzahl erzwungen** (widerspraeche der
+Leitplanke "nie erfinden"). Stattdessen: die 4 nach Mini-Run 31 verbleibenden Vertiefungs-
+Luecken erneut geprueft (weiterhin nicht aus dem DIN/VSS/RAL-Scope schliessbar); ein
+DIN-5034-1-Datensatz stichprobenartig gegen Original-Metadaten gegengeprueft (Teil-Destillat-
+Kennzeichnung bestaetigt korrekt: Bestandskopie selbst nur 10 S., nicht ein Lese-Versaeumnis).
+
+**Formale Feststellung:** DIN/VSS/RAL = **INVENTAR KOMPLETT** im Sinne von `PROGRAMM.md`.
+Empfehlung an Raphael: Scheduled Task `normen-training-mini` pausieren oder auf
+Datei-Aenderungs-Trigger umstellen, statt fixe Intervalle ohne neuen Content abzufahren
+(konsistent mit der allgemeinen Token-Drosselung, Rule `auto-verbesserungen.md` 260714).
+Nachgefuehrt: `training/norm-inventar.md` (Kopfzeile), `wiki/QUESTIONS.md` (Mini-Run-32-
+Abschnitt), Report `outputs/2026-07-16_normen-mini-run32.md`.
+
 ## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): SIA-180-Registerzeile bestaetigt, Korrigenda C2:2020 belegt
 - **`wiki/REGISTER.md` Z. 106 (SIA 180) — Selbstwiderspruch aufgeloest:** die Hauptzeile fuehrte «1999»
   mit der Bemerkung «Bestand 2014 → neuer als Register 2013; Bestand **vermutlich** aktuell», waehrend
