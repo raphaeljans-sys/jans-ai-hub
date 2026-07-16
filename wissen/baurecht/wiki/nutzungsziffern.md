@@ -67,6 +67,25 @@ Waldabstandsstreifen (>15 m hinter der Waldabstandslinie), übergeordnete Strass
 und der Allgemeinheit dienende öffentliche Fusswege/Eisenbahnanlagen
 (§ 259 Abs. 2/3 PBG; Buch Bd 2 S. 920-927). Detail: [[14-nutzungsdichte-ausnuetzung]].
 
+## Aussenwärmedämmung und Nutzungsziffern (35-cm-Kappung)
+Wird die **Konstruktionsstärke der Fassade** (bei der BMZ auch **des Dachs**) aufgrund der
+Wärmedämmung grösser als **35 cm**, ist sie **nur bis zu diesem Mass** zu berücksichtigen:
+**§ 256 Abs. 2 PBG** (ÜZ), **§ 257 Abs. 3 PBG** (Grünflächenziffer), **§ 258 Abs. 4 PBG** (BMZ);
+ergänzend **§ 12 Abs. 3 ABV**. In Kraft seit **1.4.2013** (FN 46: G vom 26.03.2012).
+
+- **Für die AZ (§ 255 PBG) gilt KEINE solche Kappung** — die Konstruktionsstärken-Regel steht
+  nur bei ÜZ/GrFZ/BMZ.
+- **Nachträgliche Dämmung am Bestand:** für **BMZ/ÜZ/Grünflächenziffer ganz unbeachtlich**
+  (**§ 253a Abs. 2 PBG**) — also ohne 35-cm-Deckel. Im Unterschied dazu gilt für
+  **Abstände/Längen-/Höhenmasse § 253a Abs. 1 PBG** *mit* der 35-cm-Grenze
+  (→ [[abstaende-und-hoehen]]). Detail: [[14-nutzungsdichte-ausnuetzung]].
+
+> **Querbezug KB energie:** **MuKEn 2025 Modul 11** führt dieselbe 35-cm-Kappung als *Muster*
+> (`wissen/energie/destillate/muken-2025-verabschiedet`). Für ZH ist das **keine Neuerung** —
+> die Regel gilt hier seit 2013, und § 253a Abs. 2 PBG geht sogar weiter. Die vom Muster
+> mitgenannte **GFZ** steht in ZH nicht zur Verfügung (siehe nächster Abschnitt).
+> Gesetzt: Wissens-Chef Run 6, 16.07.2026.
+
 ## Geschossflächenziffer (GFZ) — in ZH NICHT verfügbar
 > Korrektur 2026-06-09: Die in der **IVHB** (interkantonale Vereinbarung über die
 > Harmonisierung der Baubegriffe) vorgesehene **Geschossflächenziffer steht im

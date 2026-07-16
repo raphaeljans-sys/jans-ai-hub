@@ -849,3 +849,21 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[aussenlaerm-schallschutzfenster-strasse-bahn]]` (Status **established**), Ergänzung
   `[[schallschutz-sia181]]`, FAQ **F68 auf established gehoben**. Löst die beiden verbliebenen
   Run-62/63-Prioritätspunkte vollständig (bis auf die CH-CHF-Zahl, die es amtlich nicht gibt).
+
+**D55 (Run 74, 2026-07-16)** — Sechs parallele Rechercheagenten (Workflow-Parallelisierung), Token-
+Vollgas gemäss `training/PROGRAMM.md`: (1) MuKEn-2025-Volltext erneut gelesen, diesmal Module 2-14
+tabellarisch ausgewertet (Modul 13 Gebäudehülleneffizienz komplett neu, Modul 5 Elektroheizungs-
+Ersatzfrist 15→5 J., Modul 12 Elektromobilität SIA-2060, Modul 11 BMZ/GFZ-Dämmfreistellung 35 cm);
+(2) SZ-Fernwärme-Restlücken: Energie Ausserschwyz erstmals zwei reale Preisindikationen über
+Live-Richtpreisrechner, Energie Einsiedeln Anschlussbeitrag bleibt 3. Negativbefund; (3) GWWP-JAZ
+vierter Anlauf: CH-Negativbefund erneut bestätigt (OST/Arpagaus 2023, BFE-WPSM 2024), deutsche
+Fraunhofer-«WP Monitor»-Studie (n=4, JAZ 3,57-4,24) als Zusatzbeleg gefunden; (4) neues Fachthema
+Holzfeuerungen (LRV-Grenzwerte jetzt Anhang 3 Ziff. 52 statt Anhang 4, Bewilligung/Förderung
+ZH/SZ); (5) neues Fachthema sommerlicher Wärmeschutz SIA-180-Nachweisverfahren (drei Stufen,
+EN-102/EN-ZH/EVEN-Bezug); (6) neues Fachthema BHKW/WKK für MFH/Pflegeheim (MuKEn-Fossilverbot-
+Zielkonflikt, Abgrenzung Fernwärme/Grosswärmepumpe). Vier neue FAQ (F86-F89), drei neue Destillate
+(Holzfeuerung, sommerlicher Wärmeschutz, BHKW) → `[[muken-2025-verabschiedet]]`,
+`[[fernwaerme-anschlusskosten-zh]]`, `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`,
+`[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]` (neu),
+`[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` (neu),
+`[[blockheizkraftwerk-bhkw-mfh-pflegeheim-ch]]` (neu).

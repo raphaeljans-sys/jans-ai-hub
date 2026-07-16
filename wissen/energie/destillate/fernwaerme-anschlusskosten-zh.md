@@ -5,7 +5,7 @@ ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Dat
 gelesen: 2026-07-14/2026-07-15 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert; 15.07. ergänzt um Energieverbund-Einsiedeln-Infoblatt 2017 (pdftotext), EBL Energie Rigi + ECOGEN Arth-Goldau Web)
 datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz), 2025 (Energie Einsiedeln), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
 status: emerging
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 ---
 
 # Fernwärme-Anschlusskosten Kt. Zürich und Kt. Schwyz (ergänzt Anschlusspflicht-Destillate)
@@ -257,11 +257,14 @@ Förderbeitrag CHF 4'000 + 200/kW einzurechnen.
 - Agro-Energie-Grund-/Arbeitspreis nur bis 30.09.2026 gültig — ab Oktober 2026 neu prüfen.
 - Energie-Einsiedeln-Preisblatt ist der Jahrgang 2025; ein Preisblatt 2026 war am 14.07.2026 nicht
   auffindbar. Aktueller Anschlussbeitrag Energie Einsiedeln AG (2025er-Rechtsträger) bleibt
-  unpubliziert — nur eine 2017er-Formel eines mutmasslichen Vorläufer-Rechtsträgers gefunden
-  (siehe oben), nicht als aktuell verwendbar.
-- Gesamtes Tarifwerk Energie Ausserschwyz weiterhin nicht publiziert (Recherche 15.07.2026
-  erneut erfolglos); Vertragsdauern/Kündigungsfristen aller drei SZ-Fernwärme-Verbünde weiterhin
-  nicht publiziert.
+  unpubliziert — auch nach Wayback-Prüfung der Preisblätter 2023/2024/2025 (Run 74), bestätigter
+  Negativbefund (3. Bestätigung); nur eine 2017er-Formel eines mutmasslichen Vorläufer-
+  Rechtsträgers gefunden (siehe oben), nicht als aktuell verwendbar.
+- Energie Ausserschwyz: kein offizielles Tarifblatt, aber seit Run 74 zwei reale Preisindikationen
+  aus dem Live-Richtpreisrechner (Lachen SZ, 12/17 kW) verfügbar — Vorsicht bei Verallgemeinerung
+  (Benchmark-Tool für 2 Adressen, keine offizielle Formel). Weiteres Sampling (Freienbach/
+  Wollerau) könnte die lineare Näherung erhärten. Vertragsdauern/Kündigungsfristen aller drei
+  SZ-Fernwärme-Verbünde weiterhin nicht publiziert.
 - Wärmeverbünde Küssnacht am Rigi (EBL Energie Rigi) und Arth-Goldau (ECOGEN Arth-Goldau
   Genossenschaft) recherchiert 15.07.2026: **beide existieren, publizieren aber keine Tarife** —
   nur "Offerte anfragen". Damit als eigenständige Kostenquelle nicht nutzbar, aber immerhin als

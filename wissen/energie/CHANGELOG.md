@@ -2,6 +2,54 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Run 74 (Intensiv-Lauf, sechs parallele Hintergrund-Agenten)
+- [meta] Zweiter Intensiv-Lauf desselben Tages, auf expliziten Auftrag Raphaels («EINEN
+  Intensiv-Lauf», Token-Vollgas 6-10 PDF-Äquivalente, Workflow-Parallelisierung autorisiert).
+  PDF-Inventar bleibt seit Run 65 erschöpft; alle sechs Themenkomplexe liefen über den
+  Web-/Volltext-Pfad, sechs Rechercheagenten parallel.
+- [fund] **MuKEn-2025-Originaltext (117 S.) erneut gelesen, diesmal Module 2-14 vollständig
+  tabellarisch ausgewertet** — bisher nur Basismodul + Teil G bekannt. Wichtigste Funde: Modul 13
+  «Gebäudehülleneffizienz» (komplett neu — 10-Jahres-Sanierungspflicht für Gebäude vor 1980), Modul
+  5 (Elektroheizungs-Ersatzfrist von 15 auf 5 Jahre verkürzt, BGer-Urteil 1C_37/2022 zitiert), Modul
+  12 (Elektromobilität, SIA-2060-Ausbaustufen A/C1), Modul 11 (BMZ/GFZ-Dämmfreistellung bis 35 cm).
+  Teil-G-Grauenergie-Zahlen am frisch gelesenen Text erneut identisch bestätigt (vierte
+  Konsistenzprüfung) → `[[muken-2025-verabschiedet]]`, FAQ **F86** neu.
+- [update] `destillate/fernwaerme-anschlusskosten-zh.md`: Energie Ausserschwyz — über den
+  adressbasierten Live-Richtpreisrechner der Anbieter-Website erstmals **zwei reale
+  CHF-Preisindikationen** gefunden (Lachen SZ, netto CHF 17'800/23'900 nach kantonaler Förderung,
+  rückgerechnet auf 12/17 kW Anschlussleistung) — kein offizielles Tarifblatt, aber erster echter
+  Fortschritt. Energie Einsiedeln AG: Anschlussbeitrag bleibt nach Wayback-Prüfung der Preisblätter
+  2023/2024/2025 unpubliziert, **bestätigter Negativbefund (3. Bestätigung)**.
+- [update] `destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md`: vierter Rechercheanlauf
+  GWWP-JAZ — Schweizer Feldmessung weiterhin nicht auffindbar (OST/Arpagaus-Vortrag 27.01.2023 +
+  BFE-WPSM-Jahresbericht 2024 bestätigen erneut keine GWWP-Sonderauswertung), aber eine bisher
+  nicht ausgewertete **deutsche Fraunhofer-ISE-Studie «WP Monitor» (2009-2013)** liefert eine echte
+  Feldmessung (n=4, JAZ 3,57-4,24) als gekennzeichneter Zusatzbeleg. Dritte kommerzielle
+  Sekundärquelle für Brunnenkosten (reduco.ai, ~CHF 75'000) gefunden. Bleibt **emerging**. FAQ
+  **F77** geschärft.
+- [neu] **Destillat `holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md`** (neues Fachthema,
+  bisher keine Abdeckung): LRV-Emissionsgrenzwerte für Holzfeuerungen — wichtiger Fund: seit einer
+  LRV-Revision stehen sie in **Anhang 3 Ziffer 52**, nicht mehr in Anhang 4 (am Fedlex-Volltext
+  Stand 1.1.2026 verifiziert); Bewilligung/Kontrolle (Gemeinde bis 70 kW, 4-Jahres-Intervall),
+  Kaminhöhe, Förderung (Klimaprämie KliK statt kantonalem ZH-Programm), Investitionskosten-
+  Richtwerte. Status **emerging**. FAQ **F87** neu.
+- [neu] **Destillat `sommerlicher-waermeschutz-sia180-nachweisverfahren.md`** (neues Fachthema,
+  bisher nur am Rande erwähnt): die drei SIA-180:2014-Nachweisverfahren (einfache Kennwerte/
+  Berechnung/dynamische Simulation), Verfahren-1-Grenzwerte, gtot-Beispielwerte (Faktor 4-5
+  aussen- vs. innenliegender Sonnenschutz) und Bezug zum ZH-Formular EN-102/EN-ZH/EVEN — alle vier
+  Quellen (EnFK-Vollzugshilfe, Kt.-ZH-Vollzugsordner, HBA-Richtlinie, Stadt-ZH-Wegleitung) per
+  curl+pdftotext im Volltext gelesen. Status **established**. FAQ **F88** neu.
+- [neu] **Destillat `blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md`** (neues Fachthema, bisher nur
+  Nebenerwähnung): BHKW/WKK für MFH/Pflegeheim — Funktionsprinzip/Grössenordnungen, Zielkonflikt
+  Erdgas-BHKW vs. MuKEn-Fossilverbot (Biogas-/Holzgas-BHKW bleiben konform), LRV-
+  Bewilligungsgrundlage, Abgrenzung zu Fernwärme/Grosswärmepumpe inkl. BHKW+WP-Hybridkonzept gegen
+  die Winterstromlücke. Status **emerging** — CH-Wirtschaftlichkeitszahlen mehrheitlich aus
+  DE-Quellen/Einzelbeispielen. FAQ **F89** neu.
+- [register] `destillate/INDEX.md`: sechs neue Zeilen. `training/curriculum.md`: neuer Block
+  **D55**. `wiki/QUESTIONS.md`: sechs neue Einträge **E85-E90** (alle gelöst/dokumentiert).
+  `raw/_INGESTED.md`: sechs neue Zeilen. `wiki/BAUHERREN-FAQ.md`: F77 geschärft, F86-F89 neu
+  (FAQ-Stand jetzt **89 Kernfragen**, F1-F89).
+
 ## 2026-07-16 — Run 73 (Intensiv-Lauf, sechs Hintergrund-Agenten)
 - [meta] Energie-Trainingslauf gemäss `training/PROGRAMM.md` (Verifikations-Stufe, Intensivphase,
   Token-Vollgas). PDF-Inventar via lokalem OneDrive-Mount gegen `find -newermt "2026-06-11"`

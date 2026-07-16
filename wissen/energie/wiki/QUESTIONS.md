@@ -788,3 +788,50 @@ Volltext ausserhalb Teil G, SZ-Fernwärme-Restlücken (Einsiedeln/Ausserschwyz-T
 ZH-Solarpflicht-Beratungstermin (vierter Fehlversuch, siehe E84) — Priorität nächster Lauf.
 **Meta-Punkt M2** (eigener Skill `energie`?) bleibt seit Run 45 entscheidungsreif, weiterhin ohne
 neue Empfehlung in diesem Lauf — sollte Raphael bald vorgelegt werden.
+
+- [x] **E85** **MuKEn-2025-Modul-Detailtexte (2-14) im Volltext auswerten** belegt ✓ 2026-07-16
+  (Run 74) → `[[muken-2025-verabschiedet]]`, FAQ **F86** neu. 117-S.-Originaltext erneut per
+  curl+pdftotext gelesen, alle 13 Zusatzmodule tabellarisch ausgewertet. Wichtigste Funde: Modul 13
+  «Gebäudehülleneffizienz» (komplett neu — 10-Jahres-Sanierungspflicht Vor-1980-Bauten), Modul 5
+  (Elektroheizungs-Ersatzfrist 15→5 Jahre), Modul 12 (Elektromobilität, SIA-2060-Ausbaustufen),
+  Modul 11 (BMZ/GFZ-Dämmfreistellung bis 35 cm). Teil-G-Zahlen am frisch gelesenen Text erneut
+  identisch bestätigt, kein Widerspruch zu Run 73.
+- [x] **E86** **SZ-Fernwärme-Restlücken (Einsiedeln/Ausserschwyz) weiter verfolgen** teilweise
+  belegt ✓ 2026-07-16 (Run 74) → `[[fernwaerme-anschlusskosten-zh]]`. Energie Ausserschwyz: über
+  den Live-Richtpreisrechner der Website erstmals zwei reale CHF-Preisindikationen gefunden (Lachen
+  SZ, netto CHF 17'800/23'900 für rückgerechnet 12/17 kW) — kein offizielles Tarifblatt, aber ein
+  echter Fortschritt gegenüber dem bisherigen «keine Zahl» Negativbefund. Energie Einsiedeln AG:
+  Anschlussbeitrag bleibt nach Wayback-Prüfung der Preisblätter 2023/2024/2025 unpubliziert —
+  bestätigter Negativbefund (3. Bestätigung).
+- [x] **E87** **GWWP-JAZ moderne Feldmessung, letzter/vierter Anlauf** belegt ✓ 2026-07-16
+  (Run 74) → `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`, FAQ **F77** geschärft. Schweizer
+  Feldmessung weiterhin nicht gefunden (OST/Arpagaus-Vortrag 2023 + BFE-WPSM-Jahresbericht 2024
+  bestätigen erneut keine GWWP-Sonderauswertung). Neu gefunden: deutsche Fraunhofer-ISE-Studie
+  «WP Monitor» (2009-2013) mit vier ausgewerteten GWWP-Anlagen, JAZ 3,57-4,24 — als gekennzeichneter
+  DE-Zusatzbeleg ergänzt, kein Schweizer Primärwert.
+- [x] **E88** **Holzfeuerungen (Stückholz/Pellet) — neues Fachthema** belegt ✓ 2026-07-16
+  (Run 74) → neues Destillat `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`, FAQ **F87**
+  neu. Wichtigster Fund: LRV-Emissionsgrenzwerte für Holzfeuerungen stehen seit einer Revision
+  nicht mehr in Anhang 4, sondern in **Anhang 3 Ziffer 52** — am Fedlex-Volltext (Stand 1.1.2026)
+  verifiziert. Bewilligung/Kontrolle (Gemeinde bis 70 kW, 4-Jahres-Intervall), Förderung
+  (Klimaprämie KliK statt kantonalem ZH-Programm) und Investitionskosten-Richtwerte ergänzt.
+  Offen: Kaminhöhe Kleinanlagen, Kaminfegerpflicht, SZ-Förderdetails, Gültigkeit Klimaprämie 2026.
+- [x] **E89** **Sommerlicher Wärmeschutz — SIA-180-Nachweisverfahren** belegt ✓ 2026-07-16
+  (Run 74) → neues Destillat `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`, FAQ **F88**
+  neu. Die drei Nachweisverfahren (einfache Kennwerte/Berechnung/dynamische Simulation),
+  Verfahren-1-Grenzwerte, gtot-Beispielwerte (Faktor 4-5 aussen vs. innen liegender
+  Sonnenschutz) und der Bezug zum ZH-Formular EN-102/EN-ZH/EVEN primärquellenbelegt. Offen:
+  SIA-180-Figur-12/13-Zahlentabelle liegt nur als Grafik vor, nicht textextrahierbar.
+- [x] **E90** **BHKW/Wärme-Kraft-Kopplung für MFH/Pflegeheim — neues Fachthema** belegt ✓
+  2026-07-16 (Run 74) → neues Destillat `[[blockheizkraftwerk-bhkw-mfh-pflegeheim-ch]]`, FAQ
+  **F89** neu. Funktionsprinzip/Grössenordnungen, Zielkonflikt Erdgas-BHKW vs. MuKEn-
+  Fossilverbot (Biogas/Holzgas-BHKW bleiben konform), LRV-Bewilligungsgrundlage und Abgrenzung
+  zu Fernwärme/Grosswärmepumpe (inkl. BHKW+WP-Hybridkonzept gegen die Winterstromlücke)
+  recherchiert. Status emerging — CH-Wirtschaftlichkeitszahlen mehrheitlich aus DE-Quellen/
+  Einzelbeispielen, noch nicht primärquellenverifiziert.
+
+**Nicht bearbeitet in Run 74 (bewusst zurückgestellt):** ZH-Solarpflicht-Beratungstermin (nach
+vier Fehlversuchen bewusst pausiert, siehe E84 — nur noch bei neuer Rechercheidee erneut
+versuchen); Anhang 6/7 des MuKEn-2025-Originaltexts (Standardmassnahmen/Lebenszykluskosten) nicht
+ausgewertet. **Meta-Punkt M2** (eigener Skill `energie`?) bleibt seit Run 45 entscheidungsreif,
+weiterhin ohne neue Empfehlung — sollte Raphael bald vorgelegt werden.

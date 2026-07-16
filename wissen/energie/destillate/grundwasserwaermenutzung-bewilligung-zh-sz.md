@@ -179,3 +179,32 @@ keine 2025/2026-Änderung (Verwechslung mit Bundesgesetz aufgeklärt).
 WPZ-Feldstudie, WPSM-Jahresbericht 2023) schliessen GWWP mangels Stichprobengrösse aktiv aus —
 dokumentierter Negativbefund statt Lücke. Brunnenkosten erstmals mit zwei konkreten
 Sekundärquellen (Earth Suisse, daibau.ch) statt reiner Nennung ohne Herkunft belegt.
+
+**Vierter Recherche-Anlauf 2026-07-16 (Run 74) — neue (nicht-schweizerische) Feldmessquelle
+gefunden:** Über gezielt andere Pfade (SPF/OST-Testzentrum, Schweizer WP-Hersteller CTA/Hoval/
+Alpha-InnoTec/Weishaupt/Viessmann, aktuelle BFE-/EnergieSchweiz-Publikationen, FH-Abschluss-
+arbeiten) wurde für eine **Schweizer** Feldmessung weiterhin nichts Neues gefunden — Negativbefund
+erneut bestätigt: OST/WPZ Buchs (Arpagaus-Vortrag «Energieforschungsgespräche Disentis»,
+27.01.2023) bestätigt, dass das laufende EnergieSchweiz-Feldmessprogramm weiterhin ausschliesslich
+Luft/Wasser- und Sole/Wasser-Anlagen misst (Teilnahmebedingung «keine Bivalentanlage»); der
+**BFE-WPSM-Jahresbericht 2024** (aktuellster verfügbarer Jahresbericht) führt ebenfalls **keine
+eigene GWWP-Zeile**. Gefunden wurde jedoch eine bisher nicht ausgewertete **deutsche**
+Fraunhofer-ISE-Publikation: der Abschlussbericht **«WP Monitor»** (Günther/Miara/Langner/
+Helmling/Wapler, Projektlaufzeit 01.12.2009–30.06.2013, BMU-gefördert) — nicht identisch mit dem
+bereits zitierten «WP-QS im Bestand». Kapitel 5.4.3 «Wärmequelle Grundwasser» wertet **vier
+auswertbare Grundwasser-Wärmepumpen** (von fünf gemessenen) aus: individuelle **JAZ von 3,57 bis
+4,24** (Mittelwert 3,81, Auswertungsperiode Juli 2012–Juni 2013). Mittlere Quellentemperatur rund
+10-13 °C (vorteilhaft ggü. Erdreich 4,2 °C/Luft 3,2 °C), der Vorteil wird aber durch hohe
+Senkentemperaturen (Raumheizung Ø 36,0 °C, Warmwasser Ø 49,7 °C) und den mit 11,4 % **höchsten
+Wärmequellenantrieb-Verlust aller drei WP-Typen** (Brunnenpumpe; Luft-WP 5,7 %, Erdreich-WP 4,5 %)
+teilweise wieder aufgezehrt. Der Bericht selbst warnt, dass n=4 **keine grundlegenden Aussagen**
+zur realen GWWP-Feldperformance erlaube. **Einordnung für JANS:** eine echte Feldmessung (kein
+Modellwert), aber deutsch, aus 2012/13 (technologisch nicht mehr ganz aktuell, kaum
+drehzahlvariable Verdichter) und statistisch klein — liegt im unteren Bereich der bisherigen
+BFE-2010-Bandbreite (3,8-5,0 Neubau), eher Plausibilisierung nach unten als Bestätigung des oberen
+Bereichs. Für Bauherren-Aussagen bleibt die BFE-2010-Bandbreite die Hauptquelle; die Fraunhofer-
+Zahlen (3,57-4,24, deutsch, n=4) nur als zusätzlicher, explizit gekennzeichneter Beleg nennen.
+Status bleibt **emerging**. Brunnenkosten: dritte kommerzielle Sekundärquelle (reduco.ai,
+~CHF 75'000 Investitionskosten EFH im Schnitt) gefunden — bestätigt die Grössenordnung von Earth
+Suisse, bleibt aber wie die anderen beiden Quellen nicht-amtlich; keine AWEL-/BFE-/Geothermie-
+Schweiz-/SVGW-Kostenquelle gefunden (auch geothermie-schweiz.ch nur Mengenstatistik, keine CHF).
