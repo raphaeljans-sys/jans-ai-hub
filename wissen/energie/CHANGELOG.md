@@ -2,6 +2,82 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Run 78: NEUES Fachthema Innendämmung im Altbau (Bauphysik, Systeme, Nachweise, Förderung)
+- **Neues Destillat `destillate/innendaemmung-altbau-bauphysik-ch.md`** (status **emerging**) — das
+  Thema war in der KB bisher nur mit Randerwähnungen abgedeckt (Faustregeln in
+  `denkmalschutz-energiesanierung-zh-sz`, λ-Hinweis in `sia-2001-waermedaemmstoffe-lambda`, Aufbauten
+  W25/W26 im `bfe-u-wert-bauteilekatalog-neubauten-2002`). Bewusst als **technisches Gegenstück** zum
+  rechtlichen Denkmalschutz-Destillat angelegt, ohne dieses zu duplizieren.
+- **Primärquellen im Volltext gelesen** (curl + pdftotext, lokal): **Applica 2/2022** «So klappt es mit
+  der Innenwärmedämmung» von **Prof. Roger Blaser Zürcher** (FHNW, Institut Nachhaltigkeit und Energie
+  am Bau — sitzt für die FHNW in der **Kommission SIA 180**, via SIA-4001-Vorschau verifiziert; damit
+  eine sehr starke CH-Quelle); **Applica 12/2015** (Achim Pilz, Systemtabelle Dr. Anatol Worch) +
+  «Neues SMGV-Merkblatt Innenwärmedämmung» (Walter Schläpfer, SMGV); **SIA 180:2014** und **SIA
+  4001:2022** Vorschau-PDFs (shop.sia.ch); **Förderprogramm Energie Kt. ZH 2026** S. 25-27;
+  **dena-Leitfaden Wärmebrücken** (⚠ D, nur als gekennzeichnete Analogie).
+- **Kernbefunde:**
+  - **Nachweis:** Nach SIA 180 ist für **«Aussenwände mit Innenwärmedämmung»** eine **hygrothermische
+    Simulation nach SN EN 15026** erforderlich — Glaser (SN EN ISO 13788) genügt hier nicht. Aber: die
+    Simulation ist **unzulässig bei 2D-Effekten** (Wärmebrückenbereiche, aufsteigende Feuchte) ⇒ der
+    **Balkenkopf ist mit 1D-WUFI NICHT erledigt**. Glaser-Grenzwerte belegt: 3 % Schichtmasse (Holz),
+    1 % Schichtvolumen (Dämmstoff), 800 g/m² (poröse Baustoffe). Quelle enbau-online.ch (vdf/ETH 2022).
+  - **Systemveränderung:** «Eine vormals warme raumseitige Oberfläche wird zur kalten
+    Bauteilschichtgrenze» — ist die Wasseraufnahme aussen grösser als das Trocknungspotenzial,
+    resultiert **innert 3 bis 7 Jahren eine substanzielle Schädigung** (Blaser Zürcher). Neu in der KB:
+    **w-Wert-Tabelle** des Aussenputzes (> 2,0 aufnehmend / < 2,0 hemmend / < 0,5 abweisend) als
+    Eintrittsprüfung.
+  - **3 Funktionsprinzipien** (Worch): kondensattolerierend/kapillaraktiv · kondensatbegrenzend
+    (Dampfbremse) · kondensatverhindernd (Schaumglas/VIP) — plus λ/μ/ρ/w/Brand-Tabelle (CaSi
+    0,050-0,065 · Mineraldämmplatte 0,042 · WD-Putz 0,05-0,06 · **Aerogel-Putz 0,029**) und die
+    θ_si-Tabellen (2 cm heben die Aussenecke um 3,0-4,8 K).
+  - **Kontraintuitiv, jetzt belegt:** «je dünner desto besser» gilt NUR für die reine
+    Schimmelsanierung; bei der **energetischen** Innendämmung steigt das Schadenspotenzial mit der
+    Dämmstärke **exponentiell** — und die Bestandsveränderung löst **automatisch das Energiegesetz** aus.
+  - **Förderung (die wichtigste Praxis-Kette):** Innendämmung ist in ZH 2026, SZ 2026 und beim Bund
+    **nirgends erwähnt** — weder aufgeführt noch ausgeschlossen; gefördert wird das Bauteil über den
+    U-Wert. Da **U ≤ 0,20** mit Innendämmung praktisch unerreichbar ist (eigene Rechnung: ~16 cm
+    λ 0,035), ist die **Erleichterung für «geschützte» Bauteile bis U 0,30** der **Regelweg**, nicht
+    die Ausnahme ⇒ **CHF 40.–/m² (ZH)** / **CHF 60.–/m² (SZ)**. ZH-Definition «geschützt» wörtlich
+    erfasst — Ast (b) «von einer Behörde als geschützt definiert (Baubehörde, Orts- und
+    Stadtbildkommissionen)» ist breiter als gedacht.
+  - **Asymmetrie-Fund (neu, praxisrelevant):** **§ 2 Abs. 5 WDV Kt. ZH** erleichtert «bei
+    schützenswerten Bauten **oder aus bauphysikalischen Gründen**» — der bauphysikalische Ast rettet
+    die **Bewilligung** auch ohne Schutzstatus, aber **nicht das Fördergeld** (dort nur «geschützt»).
+  - **Wärmebrücken:** CH-Anker ist EN-102 **Typ 2 Ψ ≤ 0,20** (Unterbrechung der Dämmschicht durch
+    Wände/Decken). Zwei Vollzugsregeln geschärft: beim **Einzelbauteilnachweis Umbau gibt es gar keine
+    Wärmebrücken-Grenzwerte**, beim **Systemnachweis** (Ausweichweg, 1,5× Neubau) sind sie in Q_H drin.
+  - **Nebenwirkungen, die Bauherren überraschen:** Schallschutz wird durch Innendämmung eher
+    **schlechter** (Masse-Feder-Masse), sommerlicher Hitzeschutz **sinkt** (Speichermasse fällt weg);
+    in **Mietwohnungen** sind bei kapillaraktiven Systemen diffusionsdichte Farben **verboten**.
+- **Negativbefunde (ehrlich dokumentiert):**
+  - **Keine CHF/m²-Primärquelle** für Innendämmung in der CH gefunden. Geprüft: Gebäudeprogramm,
+    Förderprogramme ZH/SZ, BFE/EnergieSchweiz, SMGV/Applica (keine Preise), energie-umwelt.ch,
+    hausinfo.ch. Kursierende «CHF 80-150/m²» stammen aus Redaktionsportalen ohne offengelegte
+    Datenbasis (nachhaltigleben.ch beruft sich pauschal auf «BFE 2023»/«EMPA 2021» ohne Verlinkung) —
+    **explizit als nicht verwendbar markiert**. Deutsche Preise (35-80 EUR/m²) als D gekennzeichnet.
+  - **Keine Schweizer Ψ-Zahl** für «einbindende Massivdecke in innengedämmter Aussenwand» — der
+    BFE-Wärmebrückenkatalog (2002) deckt nur Neubaudetails ab. Ersatzweise der **deutsche**
+    Pauschalzuschlag ΔU_WB **0,15 statt 0,10 W/m²K** (DIN 4108 Bbl 2 / GEG) als klar gekennzeichnete
+    Analogie mit Übernahmeverbot in CH-Nachweise.
+  - **SMGV-Merkblatt Nr. 70** (die zentrale CH-Referenz, «allgemein anerkannte Regel der Bautechnik»)
+    nur hinter mySMGV-Login — Kapitelstruktur inkl. gezeichneter Ausführungsdetails über den
+    begleitenden Applica-Artikel belegt, Inhalt **nicht gelesen**. **Beschaffung empfohlen** (bestes
+    Preis-Nutzen-Verhältnis aller offenen Punkte). Ebenso: SIA 180 Anhang C/E + SIA 4001 Kap. 6.3/6.4
+    kostenpflichtig, nicht eingesehen.
+  - Flankendämmung/Dämmkeil-Masse nur aus **deutschen** Fachportalen — CH-Masse vermutlich im
+    Merkblatt Nr. 70.
+- **Wiki:** `wiki/BAUHERREN-FAQ.md` neu **F92** («Meine Fassade darf ich nicht aussen dämmen — kann ich
+  einfach von innen dämmen?») und **F93** («Gibt es Fördergeld für eine Innendämmung, und schaffe ich
+  damit die Vorschriften?»). `destillate/INDEX.md` ergänzt.
+- **Backlinks gesetzt** auf `denkmalschutz-energiesanierung-zh-sz` · `sia-2001-waermedaemmstoffe-lambda`
+  · `bfe-u-wert-bauteilekatalog-neubauten-2002` · `waermebrueckenkatalog-bfe-geschossdecke-kellerdecke`
+  · `waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz` · `enfk-en-102-waermeschutz-2018` ·
+  `en-zh-nachweis-uebersicht` · `foerderprogramm-energie-zh-2026` · `foerderprogramm-energie-sz-2026` ·
+  `gebaeudeprogramm-bund-hfm-2015` · `geak-gebaeudeenergieausweis-kantone` ·
+  `naturdaemmstoffe-kennwerte-sommerhitzeschutz` · `sommerlicher-waermeschutz-sia180-nachweisverfahren`
+  · `raumluftfeuchte-komfortbereich-sia180` · `graue-energie-sanieren-vs-neubau-amortisation` ·
+  `aussenlaerm-schallschutzfenster-strasse-bahn`.
+
 ## 2026-07-16 — Run 76: NEUES Fachthema Rückliefervergütung + Mindestvergütung ab 2026 (Primärquellen)
 - **Neues Destillat `destillate/pv-rueckliefervverguetung-mindestverguetung-2026.md`** (status
   **established**) — die bisher grösste Lücke der PV-Kette: was der Bauherr für den **eingespeisten**

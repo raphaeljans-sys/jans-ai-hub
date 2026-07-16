@@ -3385,3 +3385,92 @@ Einspeisung als Restwert.
 Volltext gelesen 16.07.2026); BFE-Faktenblatt PV-Förderung / Pronovo-Sätze (Stand Sept. 2025,
 für 2026 verifiziert). Destillate: `[[pv-rueckliefervverguetung-mindestverguetung-2026]]` +
 `[[pv-einmalverguetung-bund-bfe]]` + `[[pv-ertrag-eigenverbrauch-praxis]]`. Status **established**.
+
+---
+
+## F92 — «Meine Fassade darf ich nicht aussen dämmen — kann ich einfach von innen dämmen?»
+
+**Kurz-Antwort für den Bauherrn:** Ja, das ist bei rund 30 % des Gebäudebestands der richtige Weg
+(Denkmal-/Ortsbildschutz, Fassadengliederung, Bauen auf der Grenze, einzelne Wohnung im
+Stockwerkeigentum) — aber es ist ein Projekt und keine Baustellenlösung. Die Innendämmung stellt Ihre
+ganze bestehende Aussenwand in die Kälte: der Taupunkt wandert nach innen, der alte Innenputz liegt
+danach im Bereich von Auffeuchtung, Tauwasser oder sogar Frost, und die Wand kann die Schlagregen-
+Feuchte nicht mehr gleich schnell abgeben. Ist die Wasseraufnahme aussen grösser als das
+Trocknungspotenzial, entsteht innert **3 bis 7 Jahren** ein substanzieller Schaden. Deshalb gehören
+drei Dinge zwingend ins Budget: eine **Bestandsanalyse** inkl. Messung des Aussenputzes (w-Wert), eine
+**hygrothermische Simulation** durch einen Bauphysiker, und ein **Komplettsystem** eines Herstellers.
+Rechnen Sie mit **6-10 cm** Dämmung (bei Fachwerk 4-6 cm) — dicker ist ausdrücklich nicht besser, das
+Schadenspotenzial steigt mit der Dämmstärke exponentiell. Zwei Dinge, die oft überraschen: der
+**Schallschutz wird eher schlechter**, und der **sommerliche Hitzeschutz sinkt**, weil die massive Wand
+als Wärmepuffer wegfällt. Und: Sobald Sie die Bestandskonstruktion verändern, gilt automatisch das
+heutige Energiegesetz — auch wenn Sie ursprünglich nur einen Schimmelfleck sanieren wollten.
+
+**Fachliche Begründung:** Für Aussenwände mit Innenwärmedämmung verlangt die Schweizer Praxis nach
+SIA 180 eine **hygrothermische Simulation nach SN EN 15026** (z. B. WUFI); der einfache Glaser-Nachweis
+nach SN EN ISO 13788 genügt hier nicht (dessen Grenzwerte: kein Restkondensat am Sommerende, ≤ 3 % der
+Schichtmasse bei Holz, ≤ 1 % des Schichtvolumens bei Dämmstoffen, ≤ 800 g/m² bei porösen Baustoffen).
+Die Simulation ist ihrerseits nur 1D-gültig — bei zweidimensionalen Effekten wie **Balkenköpfen** oder
+Wärmebrückenbereichen ist sie unzulässig; dort braucht es ein 2D-Modell oder die konstruktive Lösung
+(Dämmung aussparen; kapillaraktive Systeme vom Holz entkoppeln, Lehmsysteme dürfen direkt anschliessen).
+Systemwahl nach drei Funktionsprinzipien: kondensattolerierend/kapillaraktiv (Kalziumsilikat λ
+0,050-0,065, Mineraldämmplatte λ 0,042, Wärmedämmputz, Holzfaser, Zellulose, Lehm — bauphysikalisch am
+robustesten), kondensatbegrenzend (Mineralfaser im Ständerwerk mit Dampfbremse — die darf nie verletzt
+werden) und kondensatverhindernd/diffusionsdicht (Schaumglas, VIP — wenig Austrocknungspotenzial nach
+innen). Bei kapillaraktiven Systemen in Mietwohnungen muss die Diffusionsoffenheit dauerhaft erhalten
+bleiben: **diffusionsdichte Farben sind verboten** — das gehört in die Mieterinformation. Ausführung:
+Platten immer **vollflächig kleben** (Kleberbatzen/Randverklebung führen zu Hinterströmung und Schaden),
+raumseitig luftdicht, Steckdosen nach innen verlegen. Schon 2 cm heben die kritische Oberflächen-
+temperatur in der Aussenecke um 3-5 K (bei -10 °C aussen / 20 °C innen, Mauerwerk 27 cm: 10,0 °C → 13,3
+bis 14,8 °C) — das ist der Hebel gegen Schimmel.
+
+**Quelle + Datenstand:** SIA 180:2014 (Anhang C + E, normativ) + SIA 4001:2022 Kap. 6 (Vorschau
+gelesen, Volltext kostenpflichtig); enbau-online.ch «Bautechnik der Gebäudehülle» Kap. 2.4, vdf
+Hochschulverlag ETH Zürich, 3. Aufl. 2022; Applica 2/2022 (Prof. Roger Blaser Zürcher, FHNW, Mitglied
+Kommission SIA 180) und Applica 12/2015 (Systematik Dr. Anatol Worch), beide Volltext gelesen
+16.07.2026; SMGV-Merkblatt Nr. 70 «Innenwärmedämmung» (ab 2016) als anerkannte Regel der Bautechnik —
+Struktur belegt, Inhalt nicht gelesen (Mitglieder-Login). Destillat:
+`[[innendaemmung-altbau-bauphysik-ch]]`. Status **emerging**.
+
+---
+
+## F93 — «Gibt es Fördergeld für eine Innendämmung, und schaffe ich damit die Vorschriften?»
+
+**Kurz-Antwort für den Bauherrn:** Fördergeld gibt es grundsätzlich — Innendämmung ist weder
+aufgeführt noch ausgeschlossen, das Gebäudeprogramm fördert das **Bauteil** und schaut nur auf den
+erreichten U-Wert, nicht darauf, auf welcher Seite gedämmt wird. Das Problem ist der Grenzwert:
+gefördert wird nur bei **U ≤ 0,20 W/m²K**, und das verlangt rechnerisch rund **16 cm** guter Dämmung —
+im Altbau von innen praktisch nicht darstellbar. Der Ausweg ist der Schutzstatus: für **geschützte
+Bauteile** gewähren beide Kantone gegen Nachweis, dass die geforderten U-Werte nicht realisierbar
+sind, eine Erleichterung **bis U 0,30** — das ist mit ca. 8-10 cm erreichbar. Dann fliessen
+**CHF 40.–/m² (Kt. ZH)** bzw. **CHF 60.–/m² (Kt. SZ)**; in der Stadt Zürich kommen für denkmal-
+geschützte Bauten ab 01.06.2026 zusätzlich CHF 60.–/m² Fassadenfläche dazu. Ohne Schutzstatus fällt
+die Innendämmung meist aus der Förderung — das sollten Sie wissen, bevor Sie damit rechnen. Wichtig
+in jedem Fall: **zuerst das Gesuch, dann bauen** (Baubeginn = Anbringen der Dämmung), Gebäude mit
+Baubewilligung vor 2000, mindestens 0,07 W/m²K Verbesserung, ab CHF 10'000 Beitrag ein GEAK Plus
+(dessen Datum in ZH vor der Gesuchseingabe liegen muss), max. 50 % der Investition.
+
+**Fachliche Begründung:** Die **Bewilligung** und die **Förderung** haben in Zürich zwei verschiedene
+Türen — das ist der Punkt, den man kennen muss. Energierechtlich verlangt die Vollzugshilfe EN-102 beim
+Umbau für die betroffenen opaken Bauteile **U ≤ 0,25 W/m²K** gegen Aussenklima; erreicht die
+Innendämmung das nicht, greift **§ 2 Abs. 5 der Wärmedämmvorschriften Kt. ZH** (LS 700.211, in Kraft
+seit 01.09.2022): die örtliche Baubehörde kann die Anforderungen herabsetzen, «namentlich wenn bei
+schützenswerten Bauten **oder aus bauphysikalischen Gründen**» die volle Einhaltung nur mit
+unverhältnismässigem Aufwand oder überhaupt nicht erreichbar wäre. Der bauphysikalische Ast steht
+gleichwertig neben dem Denkmalschutz — eine mit Simulation begründete Reduktion der Dämmstärke ist
+also auch ohne Schutzstatus argumentierbar, und es braucht dafür keine Ausnahmebewilligung nach § 220
+PBG. Das **Förderprogramm** kennt diesen bauphysikalischen Ast dagegen **nicht**: dort zählt allein
+«geschützt», definiert als (a) Inventar-Eintrag von nationaler/regionaler Bedeutung oder (b) «von einer
+Behörde als geschützt definiert (Baubehörde, Orts- und Stadtbildkommissionen, usw.)» — Ast b) ist breit
+und lohnt die Abklärung. Alternativer Vollzugsweg, wenn der Einzelbauteilnachweis reisst: der
+**Systemnachweis** über den Heizwärmebedarf (Umbau-Grenzwert = 1,5-faches des Neubauwerts) — dann sind
+allerdings die Wärmebrücken der einbindenden Decken einzurechnen, die beim Einzelbauteilnachweis für
+Umbauten gar keinen Grenzwert haben. Der Energienachweis läuft im Kt. ZH seit 01.01.2026 vollständig
+über die Plattform **EVEN** (energievollzug.ch).
+
+**Quelle + Datenstand:** Förderprogramm Energie Kt. ZH 2026, S. 25-27 (PDF Volltext gelesen
+16.07.2026); Das Gebäudeprogramm, Massnahme Wärmedämmung (Web-Stand 16.07.2026); Vollzugshilfe
+Förderprogramm Energie Kt. SZ 2026; EnFK-Vollzugshilfe EN-102; WDV Kt. ZH LS 700.211 § 2 Abs. 5 vom
+08.06.2022. Destillate: `[[innendaemmung-altbau-bauphysik-ch]]` +
+`[[denkmalschutz-energiesanierung-zh-sz]]` + `[[foerderprogramm-energie-zh-2026]]` +
+`[[foerderprogramm-energie-sz-2026]]` + `[[enfk-en-102-waermeschutz-2018]]`. Status **emerging**
+(Förderbedingungen jährlich neu — vor jedem Gesuch am Portal prüfen).

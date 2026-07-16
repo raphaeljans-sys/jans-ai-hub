@@ -835,3 +835,50 @@ vier Fehlversuchen bewusst pausiert, siehe E84 — nur noch bei neuer Recherchei
 versuchen); Anhang 6/7 des MuKEn-2025-Originaltexts (Standardmassnahmen/Lebenszykluskosten) nicht
 ausgewertet. **Meta-Punkt M2** (eigener Skill `energie`?) bleibt seit Run 45 entscheidungsreif,
 weiterhin ohne neue Empfehlung — sollte Raphael bald vorgelegt werden.
+
+---
+
+## Run 78 (2026-07-16) — Innendämmung im Altbau
+
+**Bearbeitet:** neues Destillat `[[innendaemmung-altbau-bauphysik-ch]]`, FAQ **F92** + **F93** neu.
+Bauphysik (Taupunktverschiebung, w-Wert-Eintrittsprüfung, Frost), Nachweisregel nach SIA 180
+(hygrothermische Simulation SN EN 15026 statt Glaser bei Aussenwänden mit Innenwärmedämmung),
+3 Funktionsprinzipien mit λ/μ/w/θ_si-Kennwerten, Wärmebrücken-Anker EN-102 Typ 2, ZH/SZ-Förderlogik
+und die WDV-§-2-Abs.-5-Asymmetrie recherchiert. Status **emerging** (siehe offene Punkte unten).
+
+**Neue offene Punkte (nach Hebelwirkung sortiert):**
+
+- **E92 — SMGV-Merkblatt Nr. 70 «Innenwärmedämmung» beschaffen (Art. 2991, SMGV-Fachverlag/Shop,
+  mySMGV-Login).** Höchster Hebel aller offenen Punkte der KB Energie: Es ist die einzige als
+  «allgemein anerkannte Regel der Bautechnik» geltende CH-Referenz zum Thema (es gibt weder eine
+  SIA-Norm noch einen NPK dafür), wird von Blaser Zürcher/FHNW ausdrücklich als massgebend benannt,
+  und enthält laut Ankündigungsartikel genau das, was der KB heute fehlt: **gezeichnete
+  Ausführungsdetails** für Boden-/Deckenanschluss, Fensteranschluss und **Zwischenwandanschluss
+  (Grundriss)** je Funktionsprinzip, die Bestandsanalyse-**Checkliste**, sowie Anwendungsgrenzen der
+  Systeme. Würde E93 und E95 gleich mit schliessen. → **Entscheid Raphael nötig** (Kauf/Mitgliedschaft).
+  Nebenfrage: ist seit der 1. Auflage (Januar 2016) eine 2. Auflage erschienen?
+- **E93 — Kein CH-Ψ-Wert für «einbindende Massivdecke in innengedämmter Aussenwand».** Der Grenzwert
+  ist belegt (EN-102 Typ 2, Ψ ≤ 0,20), der **erreichte** Wert nicht; der BFE-Wärmebrückenkatalog (2002)
+  deckt nur Neubaudetails ab. Ersatz ist derzeit nur der **deutsche** Pauschalzuschlag (ΔU_WB 0,15
+  statt 0,10 W/m²K, DIN 4108 Bbl 2) — nicht CH-verwendbar. Suchpfade für den nächsten Lauf:
+  HSLU/enbau-online-Publikationen, FHNW-Institut Nachhaltigkeit und Energie am Bau, Empa; alternativ
+  eine eigene 2D-Berechnung im nächsten realen Projekt (Bauphysiker) als Kennwert in die KB holen.
+- **E94 — Keine CHF/m²-Primärquelle für Innendämmung in der Schweiz.** Bereits geprüft und erfolglos:
+  Gebäudeprogramm, Förderprogramme ZH/SZ, BFE/EnergieSchweiz, SMGV/Applica, energie-umwelt.ch,
+  hausinfo.ch. Diese Pfade **nicht erneut abklappern**. Neuer Ansatz nötig: reale Offerte aus einem
+  JANS-Projekt in die KB `wissen/grobkosten` einspeisen (Gewerk Gipser/Maler, BKP 271), oder
+  CRB/Baukosteninformationen prüfen. Bis dahin: ehrlicher Negativbefund, keine Zahl nennen.
+- **E95 — SIA 180:2014 Anhang C + E und SIA 4001:2022 Kap. 6.3/6.4 im Volltext nicht eingesehen**
+  (kostenpflichtig). Inhalt bisher nur über die Sekundärquelle enbau-online.ch (vdf/ETH 2022) belegt.
+  Gleiches Beschaffungs-Thema wie E92 — beide zusammen Raphael vorlegen.
+- **E96 — EVEN (seit 01.01.2026):** nicht geprüft, wie die WDV-§-2-Abs.-5-Erleichterung dort erfasst
+  wird und ob ein Feuchteschutznachweis verlangt/hochgeladen wird. → nächster EVEN-/`en-zh`-Lauf.
+- **E97 — Kumulierbarkeit** kantonale Förderung ZH (CHF 40/m²) + Stadt-Zürich-Denkmalprogramm
+  (CHF 60/m² Fassade, ab 01.06.2026) nicht abschliessend geprüft. ZH erlaubt kommunale Programme
+  grundsätzlich daneben, schliesst aber KliK / Energie Zukunft Schweiz / laufende
+  CO₂-Verminderungsverpflichtung aus. Klärbar über `foerdergesuche@bd.zh.ch`.
+- **E98 — Aerogel-Wärmedämmputz** (λ 0,029 — das leistungsfähigste Putzsystem der Tabelle): Brandkenn-
+  ziffer, w-Wert und **Preis** in der Quelle nicht angegeben. Offener Kennwert; relevant, weil Aerogel
+  der einzige Putz ist, mit dem der Umbau-Grenzwert U 0,25 bei vertretbarer Dicke in Reichweite kommt.
+- **Altlast bestätigt (aus `[[denkmalschutz-energiesanierung-zh-sz]]`):** exakter kEnG-/kEnV-Artikel
+  der SZ-U-Wert-Erleichterung für geschützte Bauten weiterhin **nicht wörtlich verifiziert**.
