@@ -2,7 +2,7 @@
 quelle: MuKEn-2025-Originaltext (117 S., EnDK, «Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025», verabschiedet 29.08.2025, PDF-Metadaten bestätigen EnDK-Herausgeberschaft), PDF-Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf, per curl+pdftotext im Volltext gelesen 2026-07-16; EnDK-Medienmitteilung 25.08.2025 (endk.ch); Folgeberichte VSE, aeesuisse, energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025)
 herausgeber: Konferenz Kantonaler Energiedirektoren (EnDK)
 ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung ab)
-gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen)
+gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
 status: established (jetzt primärquellen-verifiziert am Originaltext, nicht mehr nur an Sekundärquellen)
 last_updated: 2026-07-16
@@ -131,8 +131,19 @@ Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
   optionalen Moduls, nicht des Basismoduls) ZH/SZ übernehmen werden — kantonsspezifische
   Übernahmeentscheide sind Stand 15.07.2026 nirgends dokumentiert auffindbar, auch nicht auf der
   offiziellen Übersichtsseite.
-- Genaue Ausgestaltung der **25-%-Unzumutbarkeitsschwelle** (Berechnungsbasis) nicht im Detail
-  recherchiert.
+- ~~Genaue Ausgestaltung der **25-%-Unzumutbarkeitsschwelle** (Berechnungsbasis) nicht im Detail
+  recherchiert.~~ **Erledigt 2026-07-16 (Run 75):** Berechnungsbasis ist Anhang 7 (Jahreskosten =
+  Energie- + Betriebskosten + Annuität der Investition; Diskontsatz = hypothekarischer
+  Referenzzinssatz; Vergleich fossil *inkl. Zusatzmassnahmen* gegen Fernwärme/LW-WP/ESO-WP) —
+  siehe Abschnitt «Anhänge 6 und 7».
+- **Paritätische Lebensdauertabelle (Mieterverband/HEV)** — von Anhang 7 als Abschreibungsbasis
+  vorausgesetzt, die Zahlenwerte stehen aber nicht in der MuKEn. Externe Quelle, noch nicht
+  beschafft; ohne sie ist keine eigene Jahreskostenrechnung nachbaubar.
+- **Kantonale Rechenhilfe/Werte nach Anhang 7 Abs. 2** — für ZH/SZ Stand 16.07.2026 nicht
+  existent (kantonale Umsetzung ausstehend). Bei Umsetzung nachführen; sie wird der massgebende
+  Rechenweg beim Heizungsersatz.
+- **Anhänge 1–5** bisher unausgewertet (Bauteil-/Heizwärmebedarfs-Grenzwerte, Dämmstärken,
+  UR-Werte) — Details und Priorisierung im Abschnitt «Anhänge 6 und 7» unten.
 
 ## Module 2-14 ausserhalb Teil G (Volltext-Auswertung Run 74, 2026-07-16)
 
@@ -186,6 +197,137 @@ Quelle: EnDK, MuKEn 2025 Volltext (117 S.), gelesen 2026-07-16 via curl+pdftotex
 energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf; BGer-Urteil
 1C_37/2022; Motion 23.3936; SIA-Merkblatt 2060:2020 (referenziert im Original).
 
+## Anhänge 6 und 7 — Volltext-Auswertung (Run 75, 2026-07-16)
+
+Bisher waren die Anhänge nur beiläufig erwähnt (Art. 1.35). Sie wurden jetzt am selben
+Originaltext (curl+pdftotext, Spiegel energiehub-gebaeude.ch, 117 S., Stand 29.08.2025)
+**vollständig ausgewertet**. Beide sind sauber textbasiert extrahierbar (keine Bild-Tabellen),
+alle Zahlen unten sind wörtlich aus dem Original übernommen (S. 39 von 117).
+
+### Anhang 6 «Standardmassnahmen» (zu Art. 1.35 Abs. 1) — die 7 Massnahmen im Wortlaut
+
+| Nr. | Standardmassnahme | Anforderung |
+|---|---|---|
+| 1 | Kompletter Fensterersatz | Ug ≤ 0,7 W/(m²·K) |
+| 2 | Dämmung des Dachs | U-Wert ≤ 0,2 W/(m²·K) |
+| 3 | Dämmung der Fassade | U-Wert ≤ 0,2 W/(m²·K) |
+| 4 | Dämmung des Estrichbodens | U-Wert ≤ 0,25 W/(m²·K) |
+| 5 | Mechanische Lüftungsanlage mit Wärmerückgewinnung | Energieklasse A **oder** Temperatur-Bruttoeffizienz ≥ 73 %; kontrollierte Wohnungslüftung muss ≥ 90 % der EBF versorgen |
+| 6 | Thermische Solaranlage für Warmwasser | Aperturfläche ≥ 2 % der EBF |
+| 7 | Wärmepumpenboiler | Auskühlung beheizter Räume ist zu minimieren; **nicht zulässig** bei Kat. III (Verwaltung), V (Verkauf), VII (Versammlungslokal), IX (Industrie), X (Lager) |
+
+### Der eigentliche Systemwechsel gegenüber MuKEn 2014 (am Originaltext beider Ausgaben belegt)
+
+Die Fallback-Quelle MuKEn 2014 (98 S., endk.ch, im Destillat oben als Referenz vermerkt) wurde
+dafür ebenfalls im Volltext gelesen. Der Unterschied ist **nicht bloss die Anzahl**, sondern die
+**Funktion im Regelwerk**:
+
+| | MuKEn 2014 (Art. 1.31) | MuKEn 2025 (Anhang 6) |
+|---|---|---|
+| Bezeichnung | **Standardlösungen** (SL 1–11) | **Standardmassnahmen** (1–7) |
+| Anzahl | 11 | 7 |
+| Rolle | **Regelweg**: eine einzige SL fachgerecht umgesetzt → Anforderung beim Heizungsersatz gilt als erfüllt (fossiler Kesselersatz blieb damit legal möglich) | **Ausnahmeweg**: nur bei nachgewiesener wirtschaftlicher Unzumutbarkeit (25-%-Schwelle, Art. 1.29 Abs. 2) |
+| Anzahl nötig | **eine** | **zwei**, innert **3 Jahren** ab Bewilligung/Meldung (bereits getätigte Massnahmen werden angerechnet) |
+| Fossile Optionen | enthalten: SL 4 Erdgas-Wärmepumpe, SL 6 Wärmekraftkopplung, SL 10 erneuerbare Grundlast + **fossiler Spitzenlastkessel** | **alle gestrichen** — Anhang 6 enthält nur noch Hüllen-/Effizienz-/Erneuerbar-Massnahmen |
+| Wärmeerzeuger als Lösung | SL 2/3/5 (Holz, WP, Fernwärme) zählten als Standardlösung | **nicht mehr** — Wärmeerzeugersysteme sind neu abschliessend in Art. 1.34 Abs. 2 geregelt (WP, Holz, Fernwärme, Solarthermie, Abwärme, Kombinationen); Anhang 6 ist reine **Kompensation** |
+
+**Kernbefund:** Anhang 6 ist die Kompensationsliste für den Fall, dass erneuerbar wirtschaftlich
+unzumutbar ist. Die MuKEn-2014-Logik «eine Standardlösung umsetzen und weiter fossil heizen»
+existiert nicht mehr. Alternativen zu den zwei Standardmassnahmen sind nach Art. 1.35 Abs. 1 eine
+**Minergie-Zertifizierung** oder **GEAK-Gesamtenergieeffizienz Klasse B**; erst wenn keines davon
+umsetzbar ist, kann die Behörde erneuerbare/synthetische Brenn­stoffe zulassen (Abs. 2: HKN von
+anerkannten Stellen, Nachweis für die **gesamte Kessellebensdauer von 20 Jahren** einmalig im
+Baubewilligungsverfahren, Mengenberechnung nach GEAK).
+
+### Anhang 7 «Berechnung der Jahreskosten» (zu Art. 1.35 Abs. 3) — komplett neu
+
+**Belegter Befund:** Die Begriffe «Jahreskosten», «Lebenszykluskosten», «Annuität» und
+«Diskontsatz» kommen im MuKEn-2014-Volltext **kein einziges Mal** vor (Volltextsuche über beide
+PDF). Anhang 7 ist damit **keine Fortschreibung, sondern eine methodische Neuerung** — erstmals
+schreibt das Musterrecht eine verbindliche Vollkostenrechnung vor.
+
+**Grundformel (Anhang 7 Abs. 1, wörtlich):** «Die Jahreskosten der Wärmeerzeugungsanlagen ergeben
+sich aus der Summe der jährlichen Energie- und Betriebskosten sowie der **Annuität der
+Investitionskosten**. **Förderbeiträge sind zu berücksichtigen.**»
+
+| Parameter | Vorgabe MuKEn 2025 (Anhang 7 Abs. 1) |
+|---|---|
+| Abschreibung / Nutzungsdauer | **paritätische Lebensdauertabelle des Mieterverbands und des Hauseigentümerverbands** |
+| Strompreis | von der **ElCom** publizierter Durchschnittsstrompreis für den **Standortkanton**, Standardprodukt des zutreffenden Verbraucherprofils |
+| Heizöl, Erdgas, Holz | Daten des **Bundesamtes für Statistik (BFS)** |
+| Teuerung | **Landesindex der Konsumentenpreise (LIK)** |
+| Mittelungsperiode | Durchschnitt der **Jahresmittelwerte der vergangenen vier Kalenderjahre** (für Strom/Brennstoffe/Teuerung) |
+| **Diskontsatz** | **Referenzzinssatz für Hypotheken** gemäss Art. 12a VMWG (Verordnung vom 9. Mai 1990 über die Miete und Pacht von Wohn- und Geschäftsräumen) |
+| MwSt | Satz im **Jahr der Bewilligung** der Wärmeerzeugungsanlage |
+| CO₂-Abgabe | **Mittelwert** zwischen dem Abgabesatz im Jahr der Bewilligung und dem **Höchstsatz** gemäss dem dann gültigen CO₂-Gesetz |
+| Werte/Tool | Die **kantonale Energiefachstelle publiziert die zu verwendenden Werte und stellt eine Rechenhilfe zur Verfügung** (Abs. 2) |
+
+**Vergleichssystematik (Art. 1.35 Abs. 3):** Verglichen werden die Jahreskosten eines **fossilen**
+Wärmeerzeugers *einschliesslich der nötigen Zusatzmassnahmen nach Abs. 1* gegen die Jahreskosten
+von **Fernwärme (erneuerbar)**, **Luft/Wasser-Wärmepumpe** und **Erdsonden-Wärmepumpe** — soweit
+diese «verfügbar, zulässig und technisch möglich» sind. Das fossile Vergleichssystem ist also
+**nie** der nackte Kessel, sondern der Kessel *plus* zwei Standardmassnahmen — was die 25-%-Hürde
+für die Unzumutbarkeit systematisch schwerer erreichbar macht.
+
+**Betrachtungszeitraum — ehrlich ausgewiesen:** Anhang 7 nennt **keinen** einheitlichen
+Betrachtungszeitraum (z.B. «20 Jahre»). Der Zeithorizont ergibt sich **je Anlage** aus der
+paritätischen Lebensdauertabelle und wirkt über die Annuität. Die im Text erwähnten 20 Jahre
+(Art. 1.35 Abs. 2 lit. d) betreffen ausschliesslich die HKN-Beschaffung für den Heizkessel, nicht
+die Jahreskostenrechnung. Die konkreten Zahlenwerte der Lebensdauertabelle stehen **nicht** in der
+MuKEn — sie sind eine externe, dynamisch verweisende Quelle (Mieterverband/HEV) und wurden hier
+nicht beschafft.
+
+**Erläuterungsteil zu Anhang 7 (S. 113, wörtlich):** «Notwendige Definitionen für die Ermittlung
+der Lebenszykluskosten für einen einheitlichen Vollzug. Die CO₂-Abgabe richtet sich nach
+Bundesrecht, der Verweis ist bei Aktualisierung des Bundesrechts nachzuführen.» Ergänzend zu
+Art. 1.29 Abs. 2 (S. 112): die 20-%-Vorgabe lehnt sich an die «80%-Vorgabe analog Fribourg und
+Basel-Stadt» an; «Mehrkosten sollen **ab 2030** nur in klar definierbaren Fällen zu einem Aufschub
+oder zu einer Befreiung führen».
+
+### Was das für die Bauherren-Beratung heisst
+- **Der Vollkostenvergleich wird vom Beratungsargument zum Rechtsinstrument.** Bisher war die
+  Vollkostenrechnung (→ [[heizsysteme-vollkostenvergleich-energieschweiz]]) ein freiwilliges
+  Entscheidungshilfsmittel; nach kantonaler MuKEn-2025-Umsetzung ist sie der **gesetzliche
+  Massstab**, an dem sich entscheidet, ob überhaupt noch fossil ersetzt werden darf.
+- **Die JANS-Argumentation deckt sich mit der neuen Methodik.** Das EnergieSchweiz-Beispiel zeigt
+  Wärmepumpen über die Lebensdauer als günstigste Systeme (LW-WP CHF 79'908/20 J, ESO-WP CHF
+  4'090/Betriebsjahr gegenüber Öl CHF 5'043) — genau die Rechnung, die Anhang 7 vorschreibt.
+  Die 25-%-Unzumutbarkeit dürfte deshalb in Standardfällen **selten** erreicht werden.
+- **Vier Stellschrauben zugunsten erneuerbar** sind in Anhang 7 systematisch eingebaut:
+  Förderbeiträge sind zwingend anzurechnen (senkt WP-Investition), die CO₂-Abgabe wird mit dem
+  **Mittelwert bis zum Höchstsatz** angesetzt (verteuert fossil vorausschauend), das fossile
+  Vergleichssystem trägt die Zusatzmassnahmen mit, und die Vierjahres-Mittelung glättet
+  kurzfristig günstige Öl-/Gaspreise weg.
+- **Einordnung bleibt Pflicht:** MuKEn 2025 ist verabschiedet, aber **noch nicht in Kraft**. Für
+  einen Heizungsersatz, der heute im Kt. ZH oder SZ eingereicht wird, gilt weiterhin das aktuelle
+  kantonale Recht (ZH: EnerG/EVEN auf Basis MuKEn 2014). Anhang 6/7 zeigen die Richtung der
+  kantonalen Umsetzung (Horizont bis 2030) — sie sind heute Planungs-, nicht Vollzugsgrundlage.
+- **Praktischer Hinweis:** Die Rechenhilfe kommt laut Anhang 7 Abs. 2 **von der kantonalen
+  Energiefachstelle**. Es gibt also künftig kein freies Rechenmodell — massgebend werden die
+  kantonal publizierten Werte sein. Für ZH/SZ existiert Stand 16.07.2026 noch keine solche
+  Rechenhilfe (kantonale Umsetzung steht aus).
+
+### Weitere bisher unausgewertete Anhänge (nur benannt, nicht ausgewertet)
+Die MuKEn 2025 hat **genau 7 Anhänge**. Anhänge 6 und 7 sind mit diesem Lauf erledigt; die
+folgenden fünf sind im Destillat bisher **nicht** ausgewertet (alle textbasiert extrahierbar,
+Kandidaten für einen Folgelauf):
+- **Anhang 1** — Einzelbauteilgrenzwerte bei Neubauten und neuen Bauteilen (Art. 1.8 Abs. 2)
+- **Anhang 2** — Einzelbauteilgrenzwerte bei Umbauten und Umnutzungen (Art. 1.8 Abs. 2)
+- **Anhang 3** — Grenzwerte für den Heizwärmebedarf pro Jahr (Neubauten, Umbauten, Umnutzungen)
+- **Anhang 4** — Minimale Dämmstärken bei Verteil-/Warmwasserleitungen (Art. 1.17 Abs. 2)
+- **Anhang 5** — Maximale UR-Werte für erdverlegte Leitungen (Art. 1.17 Abs. 4)
+
+Am wertvollsten für JANS wären **Anhang 1–3** (U-Wert-/Heizwärmebedarfs-Grenzwerte — direkter
+Vergleich zu den heute geltenden ZH-Werten, → [[energienachweis-zh]]).
+
+Quelle: EnDK, MuKEn 2025 Volltext, Anhang 6 + Anhang 7 (S. 39 von 117), Art. 1.29/1.34/1.35 sowie
+Erläuterungen S. 112–113, gelesen 2026-07-16 via curl+pdftotext, Spiegel
+energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf; Vergleichsquelle
+EnDK, MuKEn 2014 Art. 1.31 (S. 35–36 von 98), endk.ch/wp-content/uploads/2025/07/
+MuKEn2014_d-2018-04-20.pdf. Datenstand beider: MuKEn 2025 Stand 29.08.2025 / MuKEn 2014 rev.
+20.04.2018.
+
 **Backlinks:** [[energienachweis-zh]] · [[graue-energie]] · [[foerderung-energie-zh]] ·
-[[foerderung-energie-sz]] · [[muken-2025-modul-g-co2-grenzwerte]] · Themenartikel
-[[energienachweis-zh]] (neuer Ausblick-Abschnitt).
+[[foerderung-energie-sz]] · [[muken-2025-modul-g-co2-grenzwerte]] ·
+[[heizsysteme-vollkostenvergleich-energieschweiz]] (Anhang 7 macht diesen Vergleich zum
+Rechtsinstrument) · Themenartikel [[energienachweis-zh]] (neuer Ausblick-Abschnitt).

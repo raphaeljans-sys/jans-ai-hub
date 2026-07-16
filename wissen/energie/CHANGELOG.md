@@ -2,6 +2,47 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Run 75: MuKEn 2025 Anhänge 6 + 7 im Volltext ausgewertet (Standardmassnahmen, Jahreskosten)
+- **`destillate/muken-2025-verabschiedet.md` ergänzt** (nicht neu geschrieben) um den Abschnitt
+  «Anhänge 6 und 7 — Volltext-Auswertung (Run 75)». Beide Anhänge lagen bisher nur als Verweis in
+  Art. 1.35 vor. Gelesen am Original (curl+pdftotext, 117 S., Stand 29.08.2025, S. 39 von 117);
+  beide Anhänge sind textbasiert, keine Bild-Tabellen — alle Zahlen wörtlich übernommen.
+- **Anhang 6 «Standardmassnahmen»:** alle **7** Massnahmen mit Zahlenwerten erfasst (Fensterersatz
+  Ug ≤ 0,7 · Dach/Fassade U ≤ 0,2 · Estrichboden U ≤ 0,25 · Lüftung mit WRG Energieklasse A bzw.
+  Temperatur-Bruttoeffizienz ≥ 73 % · Solarthermie Aperturfläche ≥ 2 % EBF · Wärmepumpenboiler,
+  nicht zulässig bei Kat. III/V/VII/IX/X).
+- **Systemwechsel gegenüber MuKEn 2014 belegt** — dafür zusätzlich den **MuKEn-2014-Volltext**
+  (98 S., endk.ch) gelesen, Art. 1.31: dort **11 Standardlösungen** als **Regelweg** (eine SL
+  genügte, fossiler Kesselersatz blieb legal), inkl. fossiler Optionen (SL 4 Erdgas-WP, SL 6 WKK,
+  SL 10 fossiler Spitzenlastkessel). MuKEn 2025: **7 Massnahmen** als **Ausnahmeweg**, **zwei**
+  davon nötig, innert **3 Jahren**, alle fossilen Optionen gestrichen, Wärmeerzeuger nicht mehr
+  Teil der Liste (neu abschliessend Art. 1.34 Abs. 2). Kernbefund: Anhang 6 ist reine
+  **Kompensationsliste**, nicht mehr Erfüllungsweg.
+- **Anhang 7 «Berechnung der Jahreskosten» — als methodische Neuerung nachgewiesen:** Die Begriffe
+  «Jahreskosten», «Lebenszykluskosten», «Annuität», «Diskontsatz» kommen im MuKEn-2014-Volltext
+  **null Mal** vor (Volltextsuche über beide PDF). Erfasst: Grundformel (Energie- + Betriebskosten
+  + Annuität der Investition, Förderbeiträge zwingend anzurechnen), Abschreibung nach
+  paritätischer Lebensdauertabelle Mieterverband/HEV, Strompreis ElCom (Standortkanton),
+  Brennstoffe BFS, Teuerung LIK, Vierjahres-Mittelung, **Diskontsatz = hypothekarischer
+  Referenzzinssatz (Art. 12a VMWG)**, MwSt im Bewilligungsjahr, CO₂-Abgabe als **Mittelwert
+  zwischen Abgabesatz und Höchstsatz**, Rechenhilfe von der kantonalen Energiefachstelle (Abs. 2).
+- **Ehrlich ausgewiesen:** Anhang 7 nennt **keinen** einheitlichen Betrachtungszeitraum — der
+  Horizont folgt je Anlage aus der Lebensdauertabelle über die Annuität; die dort erwähnten 20 J
+  (Art. 1.35 Abs. 2 lit. d) betreffen nur die HKN-Beschaffung. Die Zahlenwerte der
+  Lebensdauertabelle stehen nicht in der MuKEn (externe Quelle, nicht beschafft).
+- **Offener Punkt geschlossen:** «Genaue Ausgestaltung der 25-%-Unzumutbarkeitsschwelle
+  (Berechnungsbasis)» — Basis ist Anhang 7; Vergleich fossil *inkl. Zusatzmassnahmen* gegen
+  Fernwärme/LW-WP/ESO-WP (Art. 1.35 Abs. 3). Drei neue offene Punkte eröffnet (Lebensdauertabelle,
+  kantonale Rechenhilfe ZH/SZ, Anhänge 1–5).
+- **Backlink neu:** → `[[heizsysteme-vollkostenvergleich-energieschweiz]]` — Anhang 7 hebt den
+  Vollkostenvergleich vom Beratungsargument zum **Rechtsinstrument**.
+- **Anhangs-Inventar geklärt:** MuKEn 2025 hat **genau 7** Anhänge. 6+7 erledigt; **1–5**
+  (Bauteilgrenzwerte Neubau/Umbau, Heizwärmebedarf, Dämmstärken, UR-Werte) benannt, nicht
+  ausgewertet — Anhang 1–3 als wertvollste Folgekandidaten markiert (Vergleich zu geltenden
+  ZH-Werten).
+- Status `established` unverändert (Primärquellen-Verifikation am Original vertieft, kein
+  Widerspruch zum Run-73/74-Stand).
+
 ## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): SIA-180-Fundstellen korrigiert, MuKEn-Modul-11 auf ZH skopiert, GreenPV-Aktualitaets-Flag
 - **`destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md` (aus Run 74) — vier Korrekturen:**
   (1) **V3-Zeile korrigiert:** «Nachweis ueber Uebertemperaturstunden» schrieb das Stundenkontingent
