@@ -21,6 +21,51 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-17 00:48 — [GEDROSSELT] P3 von 18:48 geklaert: `wettbewerbs-dna-training` ist DEAKTIVIERT, nicht ausgefallen
+
+**Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
+weiterhin gesetzt (14.07. 12:53), kein `vollgas-runner`-Prozess. Als Schoner starte ich nichts neu
+und lasse die `claude -p`-Probe bewusst aus.
+
+**Die zwei stillen Tage von `wettbewerbs-dna` haben eine schlichte Erklaerung: der Task ist
+abgeschaltet.** Die Task-Liste zeigt `wettbewerbs-dna-training` mit `enabled: false`, letzter Lauf
+13.07. 20:32 — seither kein Trigger mehr, deshalb auch kein Commit seit dem Nachbrenner vom 14.07.
+11:05. Das ist kein Fehler, sondern die konsequenteste Sparmassnahme des Drossel-Regimes: der
+tokenintensivste Loop des Hub (ETAPPE 3, Workflow-Fan-out mit Refuter-Stufe, urspruenglich alle 2 Std.)
+ist zugunsten des Wochenlimits stillgelegt. Als Schoner schalte ich ihn NICHT wieder ein. Die
+Task-Beschreibung traegt allerdings noch den alten VOLLGAS-Text («alle 2 Std., bis 10.08.») — solange
+der Task deaktiviert ist, ist das nur eine irrefuehrende Notiz ohne Wirkung; sie waere beim
+Wiederhochfahren mitzukorrigieren. Damit ist die Beobachtungsliste der stillen KBs abgearbeitet:
+`twin`, `spec`, `immobilienbewertung` laufen weiter im 1x-taeglich-Nachttakt (naechste Trigger heute
+00:50 bis 05:45), `normen` (21:42) und `energie` (23:00) haben gestern Abend committet.
+
+**Durchsatz:** 100 Commits in 24 Std., davon substanziell u.a. `energie-training` Run 75/76/78
+(MuKEn-Anhang 6+7, PV-Ruecklieferverguetung, neues Fachthema Innendaemmung), `normen-training-mini`
+Run 32 (Inventar DIN/VSS/RAL zum dritten Mal in Folge als komplett bestaetigt) und Wissens-Chef Run 6.
+Der Rest sind `nas-selfcommit`-Laeufe im 15-Minuten-Takt. Fuer ein Drossel-Regime ist das ein
+gesunder, ruhiger Puls.
+
+**Reset-Countdown:** Wochen-Reset Montag 20.07. 11:59 — von jetzt (Fr 00:48) noch ~3.46 Tage.
+Wochenlimit-Stand unveraendert 81% (Referenz 14.07., keine neue /usage-Zahl vorliegend). Der schonende
+Verlauf laeuft dem Ziel «nicht vor Reset auf 100%» weiter entgegen.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2 (unveraendert): `normen-training-mini` meldet das DIN/VSS/RAL-Inventar zum dritten Mal in Folge
+  als komplett — das ist die Endbedingung aus dem Radar-Auftrag. Loop auf dem Mac Mini beenden oder
+  auf woechentlich reduzieren und die Kapazitaet nach dem Reset auf eine offene Wissensluecke
+  umlenken (Kandidat: `wettbewerbs-dna` ETAPPE 3). Entscheid bei Raphael, da es das Lastprofil beruehrt.
+- P2 (unveraendert): Darkwake schiebt die Nacht-Trainings in den Vormittag und kollidiert so mit
+  Regel 260711. Saubere Loesung waeren lokale launchd-Jobs statt App-Scheduler — Umsetzung erst nach
+  Freigabe Raphaels.
+- P2 (unveraendert): `synobsis-batch-nacht` weiter im No-op (853/853) — auf woechentlich reduzieren
+  oder pausieren, bis neues Material in `05_Architekten_Synobsis` landet (Mac Mini).
+- P3: Beim Wiederhochfahren nach dem Reset (Mo 20.07., zusammen mit dem geplanten Task
+  `syn02-spec-anstoss` 12:15) `wettbewerbs-dna-training` reaktivieren UND die Beschreibung/den
+  Prompt vom VOLLGAS-Takt auf den dann gueltigen Takt korrigieren.
+
+---
+
 ## 2026-07-16 18:48 — [GEDROSSELT] P3 von 12:50 erledigt: MacBook-KBs haben nachgezogen, Muster «Verschiebung statt Verlust» bestaetigt
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
