@@ -50,6 +50,10 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] K40-Rest §5.9 Statische Waldgrenzen — zwei Aenderungswege (Bauzonen-Erstfestsetzung WG01-14 vs. Rodung RE01-12), was ist der Unterschied und wer entscheidet? (2026-07-14 Run 46: WG-Prozess laeuft nur bis Erstfestsetzung ausserhalb Bauzone abgeschlossen ist (seit 2018), danach EINZIGER Aenderungsweg = Rodungsbewilligung; Waldgrenze aendert sich erst mit der AUSGEFUEHRTEN Rodung (Abnahmeprotokoll), nicht mit der blossen Bewilligung; KFM (Kreisforstmeister) in Personalunion zustaendige Stelle + Fachstelle → [[kartenportale-oereb-kataster-system-zh]] §9)
 - [x] K40-Rest §5.10/5.11 Grundwasserschutzzonen vs. -areale — wo liegt der Zustaendigkeits-Unterschied, und was sind "Zonen S"? (2026-07-14 Run 46: Schutzzone (Layer 131) = Gemeinde formal zustaendig, Antragsteller in der Praxis meist Wasserversorgung/Fassungseigentuemer; Schutzareal (Layer 132) = AWEL selbst zustaendige Stelle, Gemeinde kommt nicht vor; **provisorische "Zonen S"** koennen vor jeder oeffentlichen Auflage sofort in den OEREB aufgenommen werden, sobald AWEL Schutzzonenpflicht einer neuen Fassung feststellt → [[kartenportale-oereb-kataster-system-zh]] §10/§11)
 - [x] K40-Rest §5.12 Kataster belasteter Standorte (KbS) — fehlt hier wirklich die Vorpruefungs-Phase, und wer loest die Nachfuehrung aus? (2026-07-14 Run 46: JA bestaetigt (S.73: "kein mit Vorpruefung vergleichbarer Prozess"), einziges Thema ohne Vorpruefung; Ausloeser immer Anlassfall (Bauvorhaben/Untersuchung/Sanierung), Bericht direkt an AWEL Sektion Altlasten, 30-Tage-Rechtsmittelfrist ab Verfuegung an Standortinhaber → [[kartenportale-oereb-kataster-system-zh]] §12. **Damit ist die Weisung V3 (73 S.) vollstaendig ausgewertet — Offen-Abschnitt geschlossen.**)
+- [ ] K41 Ordner `Objektschutz/_schutz-vor-naturgefahren.ch/Naturgefahren Konzept/` (realer JANS-Projektbeleg `2304RE20_Naturgefahren_Objektschutzkonzept.pdf` + allgemeines `230926_Naturgefahren_Konzept.pdf`, systematischer Ordner-Delta-Scan Run 50) — Delta zur bestehenden Naturgefahren-/Objektschutz-KB? (2026-07-16 Run 50: NOCH OFFEN — Dateien technisch nicht lesbar, OneDrive-Datei-Provider blockierte den gesamten Unterordner waehrend des Laufs durchgehend mit `EDEADLK`/"Resource deadlock avoided" (Read/cp/pdftotext/file gleichermassen betroffen, andere PL-01/PL-04-Ordner im selben Lauf problemlos lesbar) — analog zum Lignum-Erdbeben-Sync-Timing-Fall (Run 28→30). Naechster Lauf: erneut versuchen, bei Fortbestand ggf. explizit `brctl`/Neusync anstossen.)
+- [ ] K42 Ordner `KtLU Luzern/Gemeinden Luzern Stadt/Klimafreundlichheizen.ch/` (1 Screenshot, Delta-Scan Run 50) — was ist `klimafreundlichheizen.ch`, und ist es fuer JANS-Heizungssanierungsberatung (Kt. LU) relevant? (2026-07-16 Run 50: NOCH OFFEN, gleicher OneDrive-Lock wie K41 — Datei vorhanden (991 KB, korrekte Groesse) aber waehrend des gesamten Laufs nicht oeffenbar.)
+- [ ] K43 Ordner `KtLU Luzern/Gemeinden Luzern Stadt/Stadt Luzern 3D-Stadtmodell/` (7 Screenshots + `_Stadt Luzern Stadt Modell.docx`, Delta-Scan Run 50) — bietet Stadt Luzern ein eigenes 3D-Stadtmodell-Geoprodukt zusaetzlich zum bereits dokumentierten Geodatenshop Kanton Luzern (K16)? (2026-07-16 Run 50: NOCH OFFEN, gleicher OneDrive-Lock wie K41/K42 — auch `textutil`-Konvertierung des .docx schlug mit dem gleichen Fehlerbild fehl.)
+- [ ] K44 Ordner `Grundstueckkataster/Regensdorf/*/Lieferschein.pdf` (4 Lieferscheine LIDAR/DTM/AV/Abstandslinien-OGD, Delta-Scan Run 50) — enthalten die realen Lieferscheine bisher nicht dokumentierte Kennzahlen (Preis/Lieferfrist) fuer die OGD-Geoprodukte, die die bestehende Grundlagen-Checkliste (M1) ergaenzen koennten? (2026-07-16 Run 50: NOCH OFFEN, gleicher OneDrive-Lock — Lieferschein im LIDAR-Unterordner exemplarisch versucht, nicht lesbar.)
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -107,6 +111,20 @@ das Ergebnis in den passenden Wiki-Artikel.
   [[energie-pv-eignung-typenwahl]]. Offen: S. 30-46 (qualitative Analyse Laerm/Luftqualitaet/
   Biodiversitaet) sowie ein moeglicher Workshop-3-Schlussbericht auf SharePoint noch nicht
   gesucht/gelesen.
+- [x] E39-Rest Schliesst den Run-49-Backlog (S. 30-46 + moeglicher Workshop-3-Schlussbericht) —
+  ist das GreenPV-Projekt inzwischen abgeschlossen, und was zeigt ein tatsaechlicher
+  Schlussbericht ueber die Workshop-2-Zwischenstaende hinaus? (2026-07-16 Run 50: JA —
+  WebSearch fand die oeffentliche HSLU-Schlussbroschuere «GreenPV» (27.08.2024, 92 Druckseiten,
+  hslu.ch), volltext ausgewertet: Take-Home Messages (PV-Fassade Sued unverschattet 20 % weniger
+  Jahresertrag als Dach, aber 43 % mehr Winterstrom; Kombination PV+Begruenung senkt THGE >25 %
+  bei nur ~9 % Lebenszykluskosten-Mehraufwand), 8 Empfehlungen zur Systemwahl, vollstaendiger
+  Vorteile-/Hemmnisse-/Systemvergleich Dach-Fassade-Aussenraum je Begruenung+PV, VKF-
+  Brandschutz-Systematik nach Gebaeudehoehe (inkl. Hochhaus-Luecke: keine Standardkonzept-
+  Kategorie fuer PV-Fassaden), zwei reale Schweizer Fallbeispiele mit Kostenkennwerten
+  (PV-Fassade Holenackerstrasse 65 Bern CHF 1'400/m² + 8 Schutzziele; Fassadenbegruenung
+  Sky-Frame Frauenfeld 1'100 m² / CHF 450'000 Bepflanzung / CHF 10-20/m²a Unterhalt) sowie eine
+  6-Phasen-SIA-112-Checkliste fuer die Planung → §6b NEU [[energie-pv-eignung-typenwahl]],
+  Status auf `established` gehoben (offizielle Publikation, Autoren/Kontaktstellen benannt).
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])

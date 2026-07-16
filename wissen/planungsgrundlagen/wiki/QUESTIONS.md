@@ -3,6 +3,20 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [ ] **K41-K44 (Run 50, 2026-07-16, offen — OneDrive-Sync-Blocker)** Systematischer
+  Ordner-Delta-Scan (Zeitstempel + Datei-/Ordnernamen-Abgleich gegen bestehende Wiki-Artikel)
+  fand vier echte, bisher nie erschlossene Fund-Kandidaten in PL-01: `Objektschutz/
+  _schutz-vor-naturgefahren.ch/Naturgefahren Konzept/` (realer JANS-Projektbeleg
+  2304RE20 + allgemeines Konzept-PDF), `KtLU Luzern/.../Klimafreundlichheizen.ch/`,
+  `KtLU Luzern/.../Stadt Luzern 3D-Stadtmodell/`, sowie die vier Lieferscheine im
+  Regensdorf-Benchmark-Ordner (Preis-/Fristangaben fuer OGD-Geoprodukte). Alle vier waren
+  waehrend des GESAMTEN Laufs technisch nicht lesbar — OneDrive File Provider blockierte den
+  Zugriff durchgehend mit `EDEADLK`/"Resource deadlock avoided" (Read-Tool, `cp`, `pdftotext`,
+  sogar `file` gleichermassen betroffen), waehrend andere PL-01/PL-04-Ordner im selben Lauf
+  problemlos lesbar blieben — kein Rechte-/Format-Problem, sondern ein lokaler Sync-Zustand
+  (Praezedenzfall: Lignum-Erdbeben-PDF, Run 28 blockiert → Run 30 gleicher Datei-Deadlock
+  aufgeloest, "reines Sync-Timing"). **Naechster Lauf: erneut versuchen**, Details siehe
+  `training/curriculum.md` K41-K44.
 - [x] **K40-Rest (Run 46, 2026-07-14, Token-Vollgas)** Rest der Weisung ÖREB-Kataster V3
   (§5.3-5.12, S. 26-73) vollstaendig ausgewertet — schliesst die K40-Luecke (siehe Eintrag
   darunter). Themen-Detailprozesse §5.2-5.8 folgen groesstenteils dem generischen 4-6-Phasen-

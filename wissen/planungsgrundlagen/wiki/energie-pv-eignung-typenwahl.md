@@ -1,8 +1,8 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-07-15
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49)]
+last_updated: 2026-07-16
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49), HSLU IGE "GreenPV" Schlussbroschuere (502400-greenpv-broschuere-20240827-web.pdf, hslu.ch, 27.08.2024, 47 S. vollstaendig, Run 50)]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
 
@@ -331,14 +331,13 @@ historisches Beispiel kennzeichnen, Flaechenleistung selbst hat sich seither deu
 vgl. §1b). **Run 49 (2026-07-15):** GreenPV-Foliensatz S. 1-29 (von 46) ausgewertet → NEU §6
 (orientierungsabhaengiger Fassaden-PV-Ertrag/-Amortisation Sued/Ost/West/Nord, belegte
 Referenzgebaeude-Daemmstandards, opak/transparent-Modulkennwerte, Ausblick PV+Begruenungs-
-Kombination). Offen: S. 30-46 (Ergebnisse qualitative Analyse — Laerm/Luftqualitaet/
-Biodiversitaet-Wirkung der Fassadensysteme, S. 42-47) und die transparenten-Modul- sowie
-8-geschossige-Gebaeude-Auswertung (laut Foliensatz selbst zum Workshop-2-Zeitpunkt noch nicht
-abgeschlossen, "naechste Schritte" S. 29) noch nicht gelesen/ausgewertet — bei Bedarf
-(reales PV+Begruenungs-Projekt) vertiefen; ebenso ein moeglicher Workshop-3/Schlussbericht
-(Abgabe It. Zeitplan ca. 11-12/2022) auf SharePoint noch nicht gesucht.
+Kombination). **Run 50 (2026-07-16) GELOEST:** die im Workshop-2-Foliensatz noch offene
+Restauswertung (S. 30-46) UND der damals nur vermutete Schlussbericht sind ueberholt — das Projekt
+wurde per Web-Recherche als laengst **abgeschlossen** identifiziert (Publikation der oeffentlichen
+Schlussbroschuere 27.08.2024) und volltext ausgewertet → §6 unten vollstaendig auf die finale
+Fassung aktualisiert.
 
-## 6 — Fassaden-PV: Orientierungsabhaengiger Ertrag & Amortisation (GreenPV-Studie HSLU, E39/Run 49)
+## 6 — Fassaden-PV: Orientierungsabhaengiger Ertrag & Amortisation (GreenPV-Studie HSLU, E39/Run 49+50)
 
 **Quelle:** HSLU T&A / IGE + IBI, Forschungsprojekt "GreenPV — Potential Gebaeudehuelle:
 Loesungsansaetze zur optimalen Fassadengestaltung mit PV und Begruenungen im Hinblick auf den
@@ -400,6 +399,123 @@ Pmpp -0.4 %/°C — Ergaenzung zu §1b (Flaechenleistung Wp/m² je System).
   abgeschlossen — quantitative Kombinationsempfehlungen (Katalog/Handlungsempfehlungen)
   standen laut Agenda erst fuer Workshop 3 an; hier nur die **Referenzdaten**, keine
   abschliessende Empfehlung.
+
+### 6b — Schlussbroschuere GreenPV (HSLU, 27.08.2024) — Run 50, 2026-07-16
+
+**Quelle:** HSLU Institut fuer Gebaeudetechnik und Energie IGE, Broschuere «GreenPV —
+Loesungsansaetze zur optimalen Fassadengestaltung mit Photovoltaik und Begruenung im Hinblick
+auf den Klimawandel» (`502400-greenpv-broschuere-20240827-web.pdf`, hslu.ch, 92 Druckseiten/
+47 PDF-Seiten, Autoren Büttner/Domingo Irigoyen/Keiser/Settembrini/Sotnikov/Arnold, Traegerschaft
+BFE + Stadt Zuerich Amt fuer Hochbauten + Stadt St. Gallen + Steiner Lab Foundation + ingold +
+EPRO Engineering). Das Projekt (Start 12/2021, It. Zeitplan im Workshop-2-Foliensatz bis 12/2022
+budgetiert) ist damit **abgeschlossen und oeffentlich publiziert** — die in Run 49 offen gefuehrte
+Frage nach einem Schlussbericht ist beantwortet, Status neu **established**.
+
+**Take-Home Messages (wortgetreu uebernommen, S. 3):**
+- PV-Fassaden **heizen sich staerker auf** als die Referenzfassade, dies beeinflusst die PET
+  (gefuehlte Temperatur) in der Umgebung aber **nicht negativ** (teils sogar leicht positiv) —
+  wegen der geringen solaren Ruckstrahlung (tiefe Albedo) und der Stromwandlung.
+- Eine unverschattete, nach Sueden ausgerichtete PV-Fassadenanlage produziert **im Jahr rund
+  20 % weniger Strom** als eine Dachanlage (5° suedorientiert), erzeugt aber **im Winter 43 %
+  mehr Strom** als die Dachanlage — bestaetigt/praezisiert quantitativ die bereits in §6
+  dokumentierte Grundaussage "Winterstromproduktion Fassade > Dach".
+- Fassadenbegruenungen rentieren sich **fuer private Investoren oekonomisch nicht**, aber die
+  Allgemeinheit profitiert von den qualitativen Vorteilen (Hitzeminderung, Biodiversitaet,
+  Luftqualitaet, Laermreduktion, Regenwasserretention, Attraktivitaet).
+- Eine **gezielte Kombination von Begruenung + PV an der Fassade** senkt mit geringfuegigem
+  Lebenszykluskosten-Mehraufwand (ca. **9 %** ggue. Referenzfassade) die THGE **um mehr als
+  einen Viertel** und reduziert zusaetzlich den staedtischen Waermeinseleffekt.
+
+**8 Empfehlungen zur Systemwahl** (S. 6-9, Planungs-Checkliste vor der Gestaltung):
+1. **Standort als zentraler Faktor** — Exposition/Verschattung/Laerm/Klima/vorhandene
+   Gruenflaechen erst analysieren, dann Fassadensystem waehlen; bei Neubau objektspezifisch
+   optimieren, bei Sanierung auf vorhandenes Flaechenpotential fokussieren.
+2. **Fachleute fruehzeitig einbeziehen** (Effizienz/Brandschutz/Unterhalt/Statik/Denkmalschutz),
+   auch fuer Kostenplanung/Wirtschaftlichkeit.
+3. **Projektziele klar definieren** (Winterstrom/Gesamtbilanz/Eigenverbrauch bei PV;
+   Gesellschaft/Wirtschaft/Umwelt-Mehrwert bei Begruenung), inkl. Abwaegung Dach vs. Fassade
+   vs. Umgebung.
+4. **Geschoss- und fassadenspezifische Planung** — PV primaer an unverschatteten Flaechen;
+   Begruenung schafft den groessten Mehrwert **naeher am Menschen** (untere Geschosse, ≤ 4.5 m
+   Hoehe fuer Luftqualitaets-Wirkung).
+5. **Low-Tech vor High-Tech** — bodengebundene Begruenung/einfache PV-Standardmodule sind i.d.R.
+   oekonomisch und oekologisch im Vorteil; High-Tech (Automatisierung/Speicher) nur gezielt
+   fuer Optimierung des Gesamtsystems.
+6. **Begruenungen: Potential steigern** ueber Pflanzen-/Substratwahl (hohes Gruenvolumen,
+   standortgerechte/einheimische Arten, hohe Pflanzendichte).
+7. **PV-Module sinnvoll einsetzen** — Orientierung (Sued > Ost/West), Verschattung vermeiden,
+   Nutzungszeiten/kuenftige Entwicklungen (E-Mobilitaet, Waermepumpe) mitdenken.
+8. **Kombination der Systeme** — Synergien nutzen (Begruenungs-Verdunstungskuehlung steigert
+   PV-Effizienz), gestalterische Vorteile fuer Gebaeude/Stadtraum.
+
+**Vorteile Begruenung** (S. 14f.): Laermreduktion (hoher Schallabsorptionsgrad), Foerderung
+Biodiversitaet, Regenwassermanagement (Retention entlastet Kanalnetz), Kuehlung durch
+Verdunstung (mindert staedtischen Waermeinseleffekt), Verbesserung Luftqualitaet (Feinstaub/NOx/
+SO2-Bindung, CO2/O2), Steigerung Aufenthaltsqualitaet, sommerlicher Waermeschutz (natuerlicher
+Sonnenschutz, winters Blattverlust laesst solare Gewinne zu), langfristiger oekonomischer
+Vorteil (bessere Vermietbarkeit/Mietverhaeltnisse).
+
+**Vorteile PV** (S. 30f.): hohe Eigenverbrauchsquote (Preis-Unabhaengigkeit), kein zusaetzlicher
+Flaechenbedarf, Stromproduktion ohne Laerm/Abgase (auch in Siedlungsgebieten einsetzbar),
+wartungsarm (nur Wechselrichter ~alle 15 Jahre), langfristig oekonomisch (Amortisation ueber
+Eigenverbrauch + Einspeiseverguetung), positive Oekobilanz + Recyclingpotential (**>75 %**
+wiederverwertbar, vRG-Rueckgabe gesichert), architektonisches Gestaltungsmittel (Farben/
+Texturen/Muster/Transparenzgrade). **Ziel Energieperspektiven 2050+ (BFE):** installierte
+PV-Leistung in den naechsten 30 Jahren um **Faktor 13** steigern.
+
+**Systemvergleich (+/-), Kurzfassung:**
+- **Begruente Daecher:** + geringer Platzbedarf, kein Bodenanschluss noetig, zusaetzliche
+  Daemmwirkung; − hoehere Investitionskosten als Standarddach, zusaetzliche Auflast kann
+  statische Verstaerkung erfordern (graue CO2-Emissionen).
+- **Fassadenbegruenungen:** + kein Bodenanschluss (wandgebunden), architektonisches Element;
+  − insbesondere wandgebunden hohe Investitions-/Pflegekosten, hoher Wasser-/Naehrstoffbedarf.
+- **PV-Dach:** + hoehere jaehrliche Stromproduktion, einfacher Zugang, geringere Kosten/hoehere
+  Effizienz bei Standardmodulen; − Flaechenkonkurrenz mit Aufenthalts-/Technikflaechen,
+  Hagelrisiko, staerkere Verschmutzung (horizontal).
+- **PV-Fassade:** + Winterstromproduktion ohne Verschattung > Dachanlage, bleibt vertikal
+  schneefrei, bisher ungenutztes Flaechenpotential; − geringeres Jahresertragspotential,
+  i.d.R. hoehere Investitionskosten, erschwerte Zugaenglichkeit fuer Unterhalt bei hohen
+  Fassaden, **fehlende standardisierte Brandschutzanforderungen bei Hochhaeusern**.
+
+**Brandschutz (S. 12f., 24f., 36f.):** VKF-Merkblaetter (bsvonline.ch) fuer Solaranlagen UND
+Gebaeudebegruenungen bilden die Grundlage; Anforderungen steigen mit der Gebaeudehoehe:
+**geringe Hoehe** (bis 11 m, Baustoffe RF3 zulaessig, keine Einschraenkungen bei PV) —
+**mittlere Hoehe** (bis 30 m, RF2, Brand auf max. 2 Geschosse ueber dem Brandherd zu
+beschraenken, Fassade feuerwehrzugaenglich) — **Hochhaus** (>30 m, RF1, individuelles
+Brandschutzkonzept mit Brandschutzbehoerde abzusprechen, da PV-Fassaden **keiner Standard-
+konzept-Kategorie** zugeordnet werden koennen). Fuer PV an Fassaden gilt bis 31.12.2024 das
+Uebergangsdokument «Brandschutz fuer hinterlueftete Photovoltaikanlagen an Fassaden»
+(Swissolar 2023) als Leitfaden, da noch kein Stand-der-Technik-Papier existiert.
+
+**Reales Fallbeispiel PV-Fassade — Sanierung Hochhaus Holenackerstrasse 65, Bern** (Baujahr
+1979-1986, Sanierung 2022-2023, Bauherrschaft FAMBAU Genossenschaft): PV-Typ AVANCIS SKALA
+135 W (rahmenloses Glas-Glas-Modul), 3 Modulfelder à 162 Module an Suedwest-/Suedost-Fassade
+(Nordfassade ohne Modulfelder mangels Einstrahlung), **Investitionskosten CHF 1.1 Mio ≈
+CHF 1'400/m²**. Acht mit der Brandschutzbehoerde vereinbarte Schutzziele (Art. 8 Brandschutz-
+norm) inkl. Segmentierung nach jedem 2. Geschoss, Fassadenwaende ≥ EI 60-RF1, halogenfreie
+Kabel Klasse a2 in nicht brennbaren Kabelkanaelen — direkt uebertragbares Muster fuer JANS-
+PV-Fassaden-Devisierungen an Bestandsbauten.
+
+**Reales Fallbeispiel Fassadenbegruenung — Hauptsitz Sky-Frame, Frauenfeld** (Neubau
+Headquarter 2012-2014): Trogsystem ohne Kletterhilfe (vorgefertigte Stahlbecken auf
+Tragkonstruktion, «brise soleil»), Suedfassade ueber 3 Stockwerke, 13 bepflanzte Tablare,
+64 m × 17 m ≈ **1'100 m² begruente Flaeche**. **Kosten Bepflanzung inkl. Substrat CHF 450'000,
+Unterhalt CHF 10-20/m²·a**; Wasserbedarf Vegetationsphase ca. 25-30 l/m²; 2 Pflegedurchgaenge/
+Jahr à 2 Tage/3-4 Personen fuer die gesamte Fassade. Lessons-Learned: Pflege in den ersten
+zwei Jahren am wichtigsten, Kontrollschaechte regelmaessig auf Wurzelverstopfung pruefen.
+
+**Checkliste fuer die Planung** (S. 88-91): 6 SIA-112:2014-Phasen (Strategische Planung →
+Vorstudien → Projektierung → Ausschreibung → Realisierung → Bewirtschaftung) mit
+Handlungsempfehlungen je Phase fuer Grundlagen/Zielsetzung/Standort/Gebaeude/
+Fassadenbegruenung/PV-Fassade/Brandschutz/Umsetzung/Inbetriebnahme/Wartung/Dokumentation —
+direkt als Pruefraster fuer eine JANS-Fassaden-PV-/Begruenungs-Devisierung nutzbar.
+
+Status **established** (offiziell publizierte, im Auftrag von Bund + zwei Staedten erstellte
+Schlusspublikation einer Fachhochschule, mit Autoren-/Kontaktangaben; die Zahlen der
+Take-Home-Messages/Fallbeispiele sind wortgetreu bzw. direkt aus der Quelle uebernommen).
+Weiterhin offen: der zitierte "technische Bericht der Studie" (detailliertere Grundlagen/
+Berechnungen, in der Broschuere mehrfach als Fundstelle fuer Vertiefung referenziert) ist
+selbst nicht aufgefunden/gelesen — nur die oeffentliche Zusammenfassungs-Broschuere.
 
 ## Querbezuege
 - Wirtschaftlichkeit/Rendite einer Anlage → Skill `healthcare-wirtschaftlichkeit` /
