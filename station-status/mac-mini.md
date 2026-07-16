@@ -1,17 +1,17 @@
 # Stations-Status: mac-mini
 
-Stand: 16.07.2026 18:51:07
+Stand: 16.07.2026 19:11:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:56)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 2 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 8d215646 nas-selfcommit: 2 Datei(en) 2026-07-16 18:45
+- 437a6e10 nas-selfcommit: 3 Datei(en) 2026-07-16 19:00
