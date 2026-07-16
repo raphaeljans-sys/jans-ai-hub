@@ -2,6 +2,68 @@
 
 Neueste zuoberst.
 
+## 2026-07-16 — Run 75: Konsolidierung + KORREKTUR zweier beratungsgefährlicher Fehler aus Run 74
+
+**Hinweis zur Nummerierung:** Die vier parallelen Agenten dieses Laufs haben in ihren eigenen
+Commits abweichende Run-Nummern vergeben (Run 76 = PV-Rückliefervergütung, Run 78 =
+Innendämmung). Der korrekte fortlaufende Lauf ist **Run 75**; die Einträge unten fassen den
+gesamten Lauf zusammen. Ursache: parallele Agenten ohne gemeinsamen Zähler (Meta-Punkt M4 im
+Lauf-Report).
+
+- **⚠ KORREKTUR FAQ F87 (Holzfeuerung), zwei Fehler aus Run 74:**
+  (1) «beide werden alle 4 Jahre kontrolliert» → im **Kanton ZH sind es 2 Jahre**. Es ist kein
+  Widerspruch, sondern eine Normenkaskade: LRV Art. 13 Abs. 3 Bst. a nennt 4 Jahre «in der Regel
+  … unter Vorbehalt abweichender Bestimmungen», der Kanton ZH verschärft mit der Verordnung zum
+  Massnahmenplan Luftreinhaltung (RRB 13.01.2016) auf 2 Jahre — kantonales Recht, nicht eine
+  Stadt-Zürcher Sonderregel. SZ bleibt bei 4 Jahren.
+  (2) «primär die Klimaprämie (CHF 360 pro kW)» → Fördersatz ist **18 Rp./kWh** (CHF 1.80/l Öl);
+  die 360 sind eine blosse Faustregel. Und die Klimaprämie ist **keine Ergänzung, sondern eine
+  Alternative** zum kantonalen Programm — Doppelförderung ausgeschlossen (Ziff. 8). Die Empfehlung
+  «primär Klimaprämie» war unbelegt. Beide Aussagen hätten eine Bauherrschaft in die Irre geführt;
+  F87 trägt neu einen sichtbaren Korrekturhinweis. Ursache: Run 74 stützte sich auf Sekundärquellen,
+  die amtlichen Primärquellen (AWEL-Leitfaden, klik.ch-Projektdokument) wurden erst jetzt gelesen.
+- **Weitere Korrektur:** Hochkamin-Formel steht in **LRV Anhang 6**, nicht Anhang 2 (Run 74).
+- **`holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz` ergänzt** — alle fünf Restpunkte aus Run 74
+  gelöst: Kaminhöhen (BAFU-Vollzugshilfe 2018: First +0.5 m, Flachdach +1.5 m; **keine
+  1.0-m-Erleichterung bei Holz**; Nachbargebäude < 10 m wird massgebend), Kaminfegerpflicht
+  (ZH GVZ-Weisung 20.03: 3×/Jahr; SZ FSV § 11: 1×/Jahr), **SZ fördert Holz sehr wohl**
+  (CHF 5'000 pauschal bzw. CHF 360/kWth), Klimaprämie aktiv (Projekt Nr. 0228, Stand Januar 2026).
+  Status differenziert: **established** für Intervalle/Kaminhöhe/Kaminfeger/SZ-Förderung,
+  **speculative** für CHF-Kennwerte und Klimaprämie-Enddatum. **FAQ F94 neu** (Klimaprämie vs.
+  kantonales Programm — Entweder-oder).
+- **`muken-2025-verabschiedet` ergänzt — Anhänge 6+7 erstmals ausgewertet** (seit Run 74 offen;
+  EnDK-Primärvolltext S. 39/117, zum Vergleich MuKEn-2014-Volltext gelesen). **Anhang 6 ist ein
+  Systemwechsel:** 11 Standardlösungen als Regelweg (inkl. fossiler Optionen SL 4/6/10) → 7
+  Standardmassnahmen als reiner Ausnahmeweg (zwei innert 3 J., erst bei nachgewiesener
+  Unzumutbarkeit). **Anhang 7 ist nachweislich neu** («Annuität»/«Lebenszykluskosten»/«Diskontsatz»
+  kommen im MuKEn-2014-Volltext null Mal vor): verbindliche Vollkostenrechnung, Förderbeiträge
+  zwingend anzurechnen, Diskontsatz = hypothekarischer Referenzzinssatz (Art. 12a VMWG), CO₂-Abgabe
+  als Mittelwert bis Höchstsatz. Kein einheitlicher Betrachtungszeitraum genannt — ehrlich
+  ausgewiesen. Status **established** bleibt. Anhänge 1-5 unausgewertet (MuKEn 2025 hat genau 7).
+- **Neues Destillat `pv-rueckliefer-verguetung-mindestverguetung-2026.md`** (**established**) —
+  EnG Art. 15 Abs. 1/1bis + EnV Art. 12/13 im Fedlex-Volltext. Mindestvergütung **6 Rp./kWh**
+  (< 30 kW), 6,2 Rp. ohne Eigenverbrauch, **ab 150 kW keine**; DC-Generatorleistung massgebend,
+  Anlagen-Splitting unzulässig. **Stärkster Befund:** BFE-Referenz-Marktpreis Q1 2026 = 10,27 /
+  **Q2 2026 = 3,90 Rp./kWh** — im ganzen Q2 **unter** der Mindestvergütung, sie hat sofort
+  gegriffen. ewz stabil 12,91 vs. EKZ quartalsfolgend = **Faktor 2-3 allein wegen der
+  Netzgebietsgrenze**. HKN separat (0,2-3,0 Rp.). **FAQ F90+F91 neu.**
+- **Neues Destillat `innendaemmung-altbau-bauphysik-ch.md`** (**emerging**) — SIA 180 verlangt für
+  innengedämmte Aussenwände die **hygrothermische Simulation nach SN EN 15026** (Glaser genügt
+  nicht; die Simulation ihrerseits bei 2D-Effekten/Balkenkopf unzulässig). **Förder-Nadelöhr:**
+  U ≤ 0,20 mit Innendämmung praktisch unerreichbar → Erleichterung für geschützte Bauteile bis
+  U 0,30 ist der Regelweg (CHF 40.-/m² ZH, 60.-/m² SZ). **Asymmetrie:** WDV ZH § 2 Abs. 5 rettet
+  über den bauphysikalischen Ast die Bewilligung, nicht das Fördergeld. Bewusst **nicht**
+  established: SMGV-Merkblatt Nr. 70 (einzige CH-Referenz) ungelesen, keine CH-Ψ-Zahl.
+  **FAQ F92+F93 neu**, QUESTIONS **E92-E98**.
+- **Hausputz:** Dateiname `pv-rueckliefervverguetung-…` (Tippfehler, doppeltes v, stammte aus dem
+  Agenten-Auftrag) → `pv-rueckliefer-verguetung-mindestverguetung-2026.md` umbenannt, alle drei
+  Backlink-Stellen nachgezogen. Umlaut-Verstoss im PV-Frontmatter korrigiert
+  (Rule `umlaute-konvention`).
+- **Batch bewusst gedrosselt:** 4 Themen statt der Vollgas-Richtwerte 6-10 — Rule
+  `auto-verbesserungen` **260714 «Tempo drosseln»** (Wochenlimit 81 %) überschreibt 260712b/c für
+  die laufende Woche. `training/PROGRAMM.md` trägt das noch nicht nach (Meta-Punkt M3).
+- FAQ-Stand: **94 Kernfragen (F1-F94)**. Report: `outputs/2026-07-16_energie-run75.md`.
+
 ## 2026-07-16 — Run 78: NEUES Fachthema Innendämmung im Altbau (Bauphysik, Systeme, Nachweise, Förderung)
 - **Neues Destillat `destillate/innendaemmung-altbau-bauphysik-ch.md`** (status **emerging**) — das
   Thema war in der KB bisher nur mit Randerwähnungen abgedeckt (Faustregeln in
