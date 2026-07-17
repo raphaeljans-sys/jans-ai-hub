@@ -3597,3 +3597,31 @@ Anschlussbedingungen umgesetzt wird.
 `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`. Status **established** (Gesetzestext +
 Branchenempfehlung im Volltext gelesen). Offen: VESE/pvtarif-Bandbreite direkt aus dem Datensatz;
 Stufe 2027 (stündliche Spotpreise) noch nicht im Fedlex-Volltext nachvollziehbar.
+
+## F97 — «Muss ich meine Heizungs- und Warmwasserleitungen dämmen — und ändert MuKEn 2025 daran etwas?»
+
+**Kurz-Antwort für den Bauherrn:** Ja, neue oder im Rahmen eines Umbaus ersetzte Verteilleitungen
+der Heizung (in unbeheizten Räumen/im Freien) und warmgehaltene Warmwasserleitungen müssen gedämmt
+werden — die Dämmstärke hängt vom Rohrdurchmesser und vom Dämmstoff ab (z.B. eine Leitung DN 40–50
+im unbeheizten Keller: **60 mm** bei Standarddämmung, **50 mm** bei besserem Dämmstoff). Das ist ein
+**Ausführungsdetail Ihres Sanitär-/Heizungsplaners**, kein strategisches Thema — und **MuKEn 2025
+ändert daran nichts**: die Werte sind gegenüber MuKEn 2014 unverändert und gelten im Kt. ZH wie im
+Kt. SZ bereits heute. Bei erdverlegten Fernwärme-/Nahwärmeleitungen gilt zusätzlich ein maximaler
+Wärmeverlust (UR-Wert), bei Doppelrohren etwas grosszügiger.
+
+**Fachliche Begründung:** MuKEn 2025 Anhang 4 (Dämmstärken, zu Art. 1.17 Abs. 2) und Anhang 5
+(UR-Werte erdverlegte Leitungen, zu Art. 1.17 Abs. 4) übernehmen die MuKEn-2014-Tabellen **Zahl für
+Zahl**; nur die Rohrtyp-Bezeichnung wurde von «starr/flexibel» zu «Einzel-/Doppelrohr» sprachlich
+geklärt. Dämmstärken je DN-Klasse: 40/30 mm (DN 10–15) bis 120/80 mm (DN 175–200), zwei Spalten je
+nach λ (> 0,03–0,05 bzw. ≤ 0,03 W/(m·K)); gelten bis 90 °C Betriebstemperatur, mit Erleichterungen bei
+Kreuzungen/Durchbrüchen und ≤ 30 °C Vorlauf. UR-Werte 0,14–0,40 W/(m·K) je DN, Doppelrohre etwas höher
+(massgebend ist die verlegte Grabenlänge). Im Kt. SZ sind dieselben Werte bereits in der Kantonalen
+Energieverordnung (KEnV Anhang 8/9, § 6 Abs. 3 kEnG) verankert — eine explizite MuKEn-2025-Übernahme
+war für diese Anhänge gar nicht nötig, weil sich nichts geändert hat.
+
+**Quelle + Datenstand:** MuKEn-2025-Volltext Anh. 4/5 + Art. 1.17 (EnDK, 29.08.2025) gegen
+MuKEn-2014-Volltext + Kt.-SZ-KEnV Anh. 8/9 (SRSZ 420.111, Stand 1.2.2025), alle curl+pdftotext
+gelesen 17.07.2026. Destillat `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`. Status
+**established** (drei Primärquellen deckungsgleich). Offen: eigenes ZH-Vollzugsdokument für
+Verteilleitungs-Dämmstärken (in der KB nicht separat nachgewiesen; dürfte über die EnFK-Vollzugshilfe-
+Familie gelten).
