@@ -1,11 +1,11 @@
 ---
-quelle: Luftreinhalte-Verordnung (LRV, SR 814.318.142.1), Fedlex-Volltext Stand 1.1.2026; AWEL Kt. Zürich, «Feuerungskontrolle — Leitfaden für den Kanton Zürich» (8. Oktober 2021); Verordnung zum Massnahmenplan Luftreinhaltung des Kt. Zürich (RRB 13.01.2016, in Kraft 1.5.2016); Stadt Zürich «Holzheizung» (periodische Kontrollen); GVZ Weisung 20.03 «Reinigung von Feuerungsanlagen …» (1.1.2015); BAFU-Vollzugshilfe «Mindesthöhe von Kaminen über Dach» (Umwelt-Vollzug 2018, publ. 11.12.2018); UGZ Stadt Zürich, Arbeitsblatt «Mindesthöhe von Kaminen über Dach für kleine Feuerungsanlagen» (Ausgabe Oktober 2017); Feuerschutzverordnung Kt. Schwyz (FSV, SRSZ 530.111, vom 26.03.2013); Kt. SZ Vollzugshilfe Förderprogramm Energie 2026 (01.01.2026); Stiftung KliK «Holzheizungen»; Klimaprämie — Förderkriterien Holzheizungen (Version 19.01.2024, Renera AG / Energie Zukunft Schweiz)
+quelle: Luftreinhalte-Verordnung (LRV, SR 814.318.142.1), Fedlex-Volltext Stand 1.1.2026; AWEL Kt. Zürich, «Feuerungskontrolle — Leitfaden für den Kanton Zürich» (8. Oktober 2021); Verordnung zum Massnahmenplan Luftreinhaltung des Kt. Zürich (RRB 13.01.2016, in Kraft 1.5.2016); Stadt Zürich «Holzheizung» (periodische Kontrollen); GVZ Weisung 20.03 «Reinigung von Feuerungsanlagen …» (1.1.2015); BAFU-Vollzugshilfe «Mindesthöhe von Kaminen über Dach» (Umwelt-Vollzug 2018, publ. 11.12.2018); UGZ Stadt Zürich, Arbeitsblatt «Mindesthöhe von Kaminen über Dach für kleine Feuerungsanlagen» (Ausgabe Oktober 2017); Feuerschutzverordnung Kt. Schwyz (FSV, SRSZ 530.111, vom 26.03.2013); Kt. SZ Vollzugshilfe Förderprogramm Energie 2026 (01.01.2026); Stiftung KliK «Holzheizungen»; Klimaprämie — Förderkriterien Holzheizungen (Version 19.01.2024, Renera AG / Energie Zukunft Schweiz, Volltext via pdftotext verifiziert 2026-07-17); foerderplattform.ch «Klimaprämie für den Heizungsersatz» (offizielle Programmseite Renera AG/Energie Zukunft Schweiz für Stiftung KliK, live abgerufen 2026-07-17, HTTP-Header no-cache/Datum 17.07.2026); Kanton Zürich, Baudirektion «Förderung und Beratung rund um Energie» (zh.ch/de/umwelt-tiere/energie/energiefoerderung.html, live abgerufen 2026-07-17)
 herausgeber: BAFU / Kanton Zürich (Baudirektion, AWEL; GVZ; UGZ Stadt Zürich) / Kanton Schwyz (Regierungsrat; Amt für Umwelt und Energie) / Stiftung KliK / Energie Zukunft Schweiz (Renera AG)
-ausgabe: LRV Stand 1. Januar 2026; SZ Vollzugshilfe Förderprogramm Energie 2026 Stand 01.01.2026; KliK-Förderkriterien Holz Version 19.01.2024; übrige Quellen wie einzeln vermerkt
-gelesen: 2026-07-16 (Run 74) / 2026-07-16 (Run 75: LRV, ZH-Leitfaden, GVZ-Weisung, BAFU-Kaminhöhen, UGZ-Arbeitsblatt, SZ-FSV, SZ-Vollzugshilfe, KliK-Förderkriterien je im PDF-Volltext via pdftotext)
-datenstand: 2026-07-16 — Punkte 1-4 der Run-74-Liste am Original verifiziert und geschlossen; Punkt 5 (Klimaprämie) inhaltlich am Original belegt, aber ohne bestätigtes Programm-Enddatum (Negativbefund, siehe Offene Punkte)
-status: established (Kontrollintervalle, Kaminhöhen, Kaminfegerpflicht, SZ-Förderung — je am amtlichen Original belegt); Kostenkennwerte und Programm-Enddatum Klimaprämie bleiben speculative
-last_updated: 2026-07-16
+ausgabe: LRV Stand 1. Januar 2026; SZ Vollzugshilfe Förderprogramm Energie 2026 Stand 01.01.2026; KliK-Förderkriterien Holz Version 19.01.2024 + offizielle FAQ-Seite foerderplattform.ch (Stand Abruf 17.07.2026); ZH-Förderprogramm Energie 2026 (zh.ch, Stand Abruf 17.07.2026); übrige Quellen wie einzeln vermerkt
+gelesen: 2026-07-16 (Run 74) / 2026-07-16 (Run 75: LRV, ZH-Leitfaden, GVZ-Weisung, BAFU-Kaminhöhen, UGZ-Arbeitsblatt, SZ-FSV, SZ-Vollzugshilfe, KliK-Förderkriterien je im PDF-Volltext via pdftotext) / 2026-07-17 (Run 76: foerderplattform.ch-Programmseite und zh.ch-Förderseite live im Volltext via curl+pdftotext/HTML-Textextraktion gelesen)
+datenstand: 2026-07-17 — Punkte 1-4 der Run-74-Liste am Original verifiziert und geschlossen (Run 75); in Run 76 zusätzlich das Programm-Enddatum der Klimaprämie, die ZH-Förderpraxis 2026 und der EFH-Ausschluss bei der Klimaprämie am Original bestätigt (siehe Offene Punkte)
+status: established (Kontrollintervalle, Kaminhöhen, Kaminfegerpflicht, SZ-Förderung, ZH-Nichtförderung Holz/Pellet, Klimaprämie-Enddatum «voraussichtlich bis spätestens Ende 2027», Klimaprämie-EFH-Ausschluss — je am amtlichen/offiziellen Original belegt); Kostenkennwerte bleiben speculative
+last_updated: 2026-07-17
 ---
 
 # Holzfeuerung als Heizungsersatz — LRV-Grenzwerte, Bewilligung, Förderung (ZH/SZ)
@@ -14,9 +14,12 @@ last_updated: 2026-07-16
 meldepflichtig bei der Gemeinde (bis 70 kW), muss die LRV-Grenzwerte nach Anhang 3 Ziffer 52
 einhalten und wird im **Kanton Zürich alle 2 Jahre** (kantonale Verschärfung), im **Kanton Schwyz
 alle 4 Jahre** (Bundesminimum) kontrolliert; **Schwyz fördert Holzheizungen direkt**
-(CHF 360/kWth bzw. CHF 5'000 pauschal), Zürich nach bisherigem Stand nicht — die Klimaprämie (KliK)
-ist eine **Alternative, keine Ergänzung** dazu (Doppelförderung ausgeschlossen) und im EFH-/ZH-Fall
-an Bedingungen geknüpft, die sie oft ausschliessen.
+(CHF 360/kWth bzw. CHF 5'000 pauschal), **Zürich schliesst den Ersatz einer Holzheizung UND den
+Ersatz einer fossilen Heizung durch eine Pelletheizung explizit von der kantonalen Förderung aus**
+(bestätigt am aktuellen zh.ch-Förderprogramm 2026) — die Klimaprämie (KliK) ist eine
+**Alternative, keine Ergänzung** dazu (Doppelförderung ausgeschlossen), läuft nach eigener Angabe
+**voraussichtlich bis spätestens Ende 2027** und ist für **Einfamilienhäuser explizit nicht
+förderberechtigt** (amtlich bestätigt, nicht nur Einzelraumfeuerungen).
 
 ## 1. Emissionsgrenzwerte (LRV Anhang 3 Ziffer 52.2, Stand 1.1.2026)
 
@@ -279,13 +282,27 @@ CHF 300'000 pro Gesuch» stehen in der Vollzugshilfe bei der **Gebäudehüllen-D
 - Ergänzend (aus Run 74, nicht neu verifiziert): lokale Energieversorger (z. B. ebs) fördern
   Heizungsersatz Elektro/Öl → Wärmepumpe/Holz mit CHF 10/m² EBF, max. CHF 2'000.
 
-### Kanton Zürich
+### Kanton Zürich (Run 76: nachverifiziert, Negativbefund bestätigt)
 
-Stand Run 74: das kantonale Förderprogramm Energie fördert Holzheizungen **nicht direkt** (nur
-Wärmepumpen). **In Run 75 nicht nachverifiziert** — die angesteuerten zh.ch-Förderseiten
-antworteten mit HTTP 404 (Suchpfade: `zh.ch/de/umwelt-tiere/energie/energie-foerderung.html`,
-`…/foerderprogramm.html`). Die Aussage bleibt daher auf Run-74-Stand und ist vor Anwendung im
-Einzelfall zu bestätigen.
+**Nachverifiziert und amtlich bestätigt (Run 76, 17.07.2026).** Die korrekte, aktuelle URL lautet
+`zh.ch/de/umwelt-tiere/energie/energiefoerderung.html` (die in Run 75 versuchten Pfade
+`energie-foerderung.html` und `…/foerderprogramm.html` waren falsch geschrieben bzw. existieren
+nicht — daher die HTTP-404-Fehlschläge). Die Seite listet unter «Für folgende Massnahmen sind
+explizit keine kantonalen Fördermittel vorgesehen» wörtlich (per curl+HTML-Textextraktion
+gelesen, live abgerufen 17.07.2026, HTTP-Header `date`/`last-modified` = 17.07.2026):
+
+> «Ersatz einer Holzheizung» · «Ersatz einer fossilen Heizung durch eine Pelletheizung
+> (Drittprogramm ggf. verfügbar, siehe energiefranken.ch)»
+
+Der Kanton Zürich fördert damit im Förderprogramm Energie 2026 **weder den Ersatz einer
+bestehenden Holzheizung noch den Ersatz einer fossilen Heizung durch eine Pelletheizung** —
+gefördert werden nur Luft-Wasser-, Sole-Wasser- und Wasser-Wasser-Wärmepumpen sowie
+Fernwärmeanschlüsse (plus Gebäudehülle/Dämmung, Minergie-ECO, Beratungsberichte, Solarthermie,
+Biogas). Die separate Mitteilung «Förderprogramm Energie geht 2026 unverändert weiter» (zh.ch,
+publiziert 24.10.2025) bestätigt, dass sich an dieser Ausrichtung 2026 gegenüber 2025 nichts
+geändert hat. Für ein Stückholzkessel-Projekt in ZH bleibt damit nur der Weg über die
+Klimaprämie (KliK) — sofern deren Bedingungen erfüllt sind (siehe unten) — oder ein allfälliges
+Gemeinde-/Drittprogramm (via energiefranken.ch).
 
 ### Klimaprämie (Stiftung KliK / Energie Zukunft Schweiz) — Run-74-Zweifel weitgehend ausgeräumt
 
@@ -294,11 +311,26 @@ administriert durch die **Renera AG** (Basel) für Energie Zukunft Schweiz; För
 Stiftung KliK. Quellen: Förderkriterien Holzheizungen **Version 19.01.2024** (PDF-Volltext) und
 klik.ch/schweiz/gebaeude/holzheizungen.
 
-**Läuft das Programm 2026 noch?** Die KliK-Projektseite weist **aktuelle Daten per Januar 2026**
-aus und nennt eine erwartete Emissionsreduktion **bis 2030** — das Programm ist demnach **aktiv**.
-Die veraltete Formulierung «läuft voraussichtlich bis 2025» stammt von Partnerseiten (u. a.
-holzfeuerungen-schweiz.ch), deren Inhalt erkennbar auf dem Stand 2021 steht. **Ein bestätigtes
-Enddatum konnte nicht belegt werden — siehe Negativbefund.**
+**Läuft das Programm 2026 noch? Enddatum (Run 76: geklärt).** Die offizielle Programmseite
+`foerderplattform.ch/de/foerderprogramme/angebot/klimapraemie-heizungsersatz/` (Betreiberin Renera
+AG/Energie Zukunft Schweiz im Auftrag der Stiftung KliK) beantwortet in ihrem FAQ-Abschnitt
+wörtlich die Frage «Wie viel Geld steht zur Verfügung? Und über welche Zeit soll das Programm
+laufen?»:
+
+> «Das Programm läuft voraussichtlich bis spätestens Ende 2027.»
+
+Live abgerufen am 17.07.2026 (HTTP-Header `date` = 17.07.2026, `cache-control: no-store, no-cache,
+must-revalidate` — keine gecachte/veraltete Fassung). Das deckt sich mit der in Run 74/75 als
+unbestätigte Vermutung gefundenen Angabe «bis spätestens Ende 2027» und macht sie damit zur
+**belegten** Aussage. Zu unterscheiden von der **Auszahlungsdauer**: Wärmepumpen-Projekte werden
+«in jährlichen Tranchen anhand der erzielten CO₂-Einsparungen **bis 2030**» ausbezahlt — das
+betrifft bereits angemeldete Anlagen und ist kein Anmeldeschluss. Für Holzheizungen gilt ohnehin
+die Auszahlung «in der Regel 100 % nach Inbetriebnahme» (kein Tranchen-Bezug zu 2030). Fazit:
+**Anmeldeschluss voraussichtlich Ende 2027**, nicht 2025 (veraltete Sekundärquelle) und nicht
+grundsätzlich 2030 (das betrifft nur die WP-Auszahlungstranchen). «Voraussichtlich» bleibt im
+Original stehen — es ist keine gesetzlich fixierte Frist, sondern die aktuelle Programmerwartung
+der Betreiberin; für eine verbindliche Zusage an eine Bauherrschaft weiterhin bei Renera/EZS
+nachfragen.
 
 **Förderhöhe — Korrektur der Run-74-Darstellung:** Der Fördersatz ist **nicht** «CHF 360 pro kW».
 Er beträgt gemäss KliK **18 Rappen pro Kilowattstunde** des durchschnittlichen Jahresverbrauchs
@@ -316,8 +348,17 @@ zugesicherter Satz. Für eine Bauherren-Rechnung ist vom **Verbrauch** auszugehe
    einer rein fossilen Lösung als **unwirtschaftlich** eingestuft werden, sind förderberechtigt.»
    Renera prüft jedes Gesuch über eine Betriebsspanne von 15 Jahren. Ein wirtschaftlich ohnehin
    attraktives Projekt fällt heraus.
-3. **Ausschlüsse** (Ziff. 1): **Wohnraumheizungen** (Einzelraumfeuerungen) sowie **fossil-bivalente**
-   Holzheizungen mit installierter Leistung **< 50 kW**.
+3. **Ausschlüsse** (Ziff. 1 der detaillierten Förderkriterien Holz, V. 19.01.2024): **Wohnraumheizungen**
+   (Einzelraumfeuerungen) sowie **fossil-bivalente** Holzheizungen mit installierter Leistung
+   **< 50 kW**. **Ergänzend und Run-76-belegt über die offizielle FAQ-Programmseite
+   (foerderplattform.ch, live 17.07.2026):** Zusätzlich zu den Wohnraumfeuerungen ist «der
+   Heizungsersatz in Einfamilienhäusern (EFH) ... nicht förderberechtigt» — wörtlich als eigene
+   Förderbedingung gelistet, ebenso in der Ausschluss-Aufzählung: «Nicht förderbar sind
+   Wohnraumfeuerungen, der Ersatz von Elektroheizungen, Wärmepumpen unter 40 kW, **Heizungen in
+   Einfamilienhäusern**, in Neu- und Ersatzneubauten sowie die Wärmeerzeugung für Gewächshäuser.»
+   Das ist ein **eigener, zusätzlicher Ausschlussgrund** neben den Wohnraumfeuerungen — er betrifft
+   auch eine vollwertige EFH-Zentralheizung, nicht nur den Einzelofen. Siehe «Einfamilienhäuser bei
+   der Klimaprämie» unten (Offene Punkte, Run 76 geschlossen).
 4. **Anmeldung vor Auftragsvergabe** (Ziff. 2): unterschrieben, **bevor** sich der Eigentümer zum
    Kauf verpflichtet — also vor Auftragsvergabe der Installationsarbeiten und vor Materialbestellung.
 5. **Kein regulatorischer Zwang** (Ziff. 7): Voraussetzung ist, dass «auf Ebene Bund, Kanton oder
@@ -334,7 +375,10 @@ zugesicherter Satz. Für eine Bauherren-Rechnung ist vom **Verbrauch** auszugehe
    Reporting).
 7. **Zielgruppe:** Laut klik.ch richtet sich das Programm «primär an Eigentümer/-innen **grosser**
    Liegenschaften … Gemeindebauten, Industriebetriebe, grosse Bürogebäude, Gewerbeareale,
-   Wohnblöcke oder grossflächige Areale».
+   Wohnblöcke oder grossflächige Areale». **Run 76: das «primär» war zu weich formuliert** — die
+   offizielle FAQ-Seite macht daraus einen **harten Ausschluss** für Einfamilienhäuser (siehe
+   Punkt 3 oben), nicht nur eine Fokussierung auf grosse Objekte. Für Mehrfamilienhäuser,
+   Gewerbe-/Wohnblöcke etc. bleibt das Programm dagegen offen.
 8. Qualitätsanforderung: bis 70 kW Leistungsgarantie EnergieSchweiz **plus** Qualitätssiegel
    Holzenergie Schweiz oder EnEV-Konformitätserklärung (keine Wohnraumfeuerungen); > 70 kW
    QM Holzheizwerke (> 500 kW: QMstandard). Massgebend ist die **Gesamtleistung** des Systems.
@@ -394,13 +438,25 @@ Sanierungsanordnung erfolgt einzelfallweise durch die Vollzugsbehörde.
   CHF 5'000) **gegen** Klimaprämie (18 Rp./kWh Jahresverbrauch) — und die günstigere Variante
   wählen. Beide Wege verlangen das **Gesuch vor Auftragsvergabe/Installationsbeginn**: wer zuerst
   bestellt, verliert den Anspruch ersatzlos. Das ist der teuerste vermeidbare Fehler im ganzen
-  Thema.
-- **Klimaprämie realistisch einordnen (Korrektur früherer Einschätzung):** Sie ist **kein
-  Selbstläufer für das EFH**. Sie richtet sich primär an **grosse** Liegenschaften, setzt voraus,
-  dass das Projekt gegenüber einer rein fossilen Lösung **unwirtschaftlich** ist, schliesst
-  Einzelraumfeuerungen aus — und im **Kanton Zürich** ist zusätzlich ungeklärt, ob der
-  Ausschlussgrund «regulatorischer Zwang zum erneuerbaren Ersatz» (Ziff. 7) greift. Vor jeder
-  Zusage an eine Bauherrschaft direkt bei Renera/EZS abklären, statt CHF 360/kW zu versprechen.
+  Thema. **In Zürich stellt sich diese Wahl für Holz gar nicht (Run 76):** das kantonale
+  Förderprogramm Energie 2026 schliesst den Ersatz einer Holzheizung UND den Ersatz einer fossilen
+  Heizung durch eine Pelletheizung explizit aus (amtlich bestätigt) — es gibt für ZH-Holzprojekte
+  also nichts «zu stapeln», die Klimaprämie ist die einzige der beiden grossen Schienen, und auch
+  sie nur ausserhalb des EFH.
+- **Klimaprämie für das EFH: kein Anspruch, amtlich bestätigt (Run 76, Korrektur früherer
+  Einschätzung).** Es ist nicht nur eine Fokussierung auf grosse Liegenschaften — die offizielle
+  Programmseite schliesst «Heizungen in Einfamilienhäusern» wörtlich und eigenständig von der
+  Förderung aus (siehe Abschnitt 5 oben). Für ein EFH bleibt damit **weder das ZH-Förderprogramm
+  Energie 2026 (schliesst Holzheizungs-/Pelletersatz explizit aus) noch die Klimaprämie (schliesst
+  EFH explizit aus)** — ein Bauherr mit EFH in Zürich hat bei einem reinen Holzheizungsersatz nach
+  heutigem Kenntnisstand **keinen Zugang zu einer der beiden grossen Förderschienen** und ist auf
+  Drittprogramme (Gemeinde, Energieversorger, energiefranken.ch) verwiesen. Für **MFH/Gewerbe**
+  bleibt die Klimaprämie dagegen ein valabler Weg, sofern Unwirtschaftlichkeit ggü. fossil
+  nachgewiesen wird und (im ZH-Fall weiterhin offen, siehe Offene Punkte) der Ausschlussgrund
+  «regulatorischer Zwang» (Ziff. 7) nicht greift. **Klimaprämien-Anmeldeschluss: voraussichtlich
+  bis spätestens Ende 2027** (Run 76, offizielle FAQ-Angabe) — Projekte rechtzeitig anmelden.
+  Vor jeder Zusage an eine Bauherrschaft weiterhin direkt bei Renera/EZS abklären, statt
+  CHF 360/kW zu versprechen.
 - **Anspruch auf Holz→Holz gibt es nicht:** In SZ ist der Ersatz einer bestehenden Holzfeuerung
   ausdrücklich **nicht** förderberechtigt; gefördert wird nur der Ausstieg aus Öl/Erdgas/Elektro.
   Ebenso nicht förderberechtigt: Neubau und **Ersatzneubau**.
@@ -429,40 +485,51 @@ Sanierungsanordnung erfolgt einzelfallweise durch die Vollzugsbehörde.
    (Kompensationsprojekt Nr. 0228, Renera AG); Fördersatz korrigiert auf 18 Rp./kWh (CHF 360/kW ist
    nur eine Faustregel); zentrale Ausschlussgründe erfasst. Restpunkte siehe unten.
 
+### Geschlossen in Run 76 (17.07.2026)
+
+1. ~~Programm-Enddatum der Klimaprämie~~ → **belegt**: offizielle Programmseite
+   `foerderplattform.ch/de/foerderprogramme/angebot/klimapraemie-heizungsersatz/` (FAQ-Abschnitt,
+   live abgerufen 17.07.2026, HTTP-Header bestätigen Aktualität): «Das Programm läuft
+   voraussichtlich bis spätestens Ende 2027.» Damit ist die in Run 74/75 nur vermutete Angabe
+   «bis spätestens Ende 2027» jetzt am Original bestätigt (nicht 2025 — veraltete Sekundärquelle;
+   «bis 2030» betrifft nur die WP-Auszahlungstranchen bereits laufender Projekte).
+2. ~~Einfamilienhäuser bei der Klimaprämie — Quellenlage uneinheitlich~~ → **aufgelöst**: die
+   offizielle FAQ-Programmseite (foerderplattform.ch, live 17.07.2026) nennt explizit und
+   eigenständig «der Heizungsersatz in Einfamilienhäusern (EFH) ist nicht förderberechtigt» sowie
+   in der Ausschlussliste «Heizungen in Einfamilienhäusern» — zusätzlich zu, nicht identisch mit,
+   dem Wohnraumfeuerungs-Ausschluss der detaillierten Förderkriterien (V. 19.01.2024). **Auch eine
+   vollwertige EFH-Zentralheizung ist damit klar nicht förderberechtigt**, nicht nur der
+   Einzelofen. Die frühere Sekundärquellen-Behauptung war also korrekt, nur bisher unbelegt.
+3. ~~ZH-Förderprogramm Energie 2026 und Holzheizungen — in Run 75 nicht nachverifiziert (HTTP 404)~~
+   → **belegt**: die korrekte URL lautet `zh.ch/de/umwelt-tiere/energie/energiefoerderung.html`
+   (Run 75 hatte falsche Pfade `energie-foerderung.html`/`…/foerderprogramm.html` versucht). Live
+   abgerufen 17.07.2026: «Für folgende Massnahmen sind explizit keine kantonalen Fördermittel
+   vorgesehen: … Ersatz einer Holzheizung … Ersatz einer fossilen Heizung durch eine
+   Pelletheizung.» Die Run-74-Aussage «ZH fördert Holzheizungen nicht» ist damit primärquellen-
+   belegt bestätigt, inkl. der zusätzlichen Fundstelle, dass auch ein Öl/Gas→Pellet-Ersatz nicht
+   gefördert wird.
+
 ### Weiterhin offen
 
-1. **Programm-Enddatum der Klimaprämie — Negativbefund.** Kein bestätigtes Enddatum auffindbar.
-   Suchpfade: klimapraemie.ch (301 → energiezukunftschweiz.ch → foerderplattform.ch; Zielseiten
-   JS-gerendert, headless kein Textinhalt), klik.ch/schweiz/gebaeude/holzheizungen (nennt kein
-   Enddatum, nur Emissionsreduktion «bis 2030»), holzfeuerungen-schweiz.ch (Inhalt Stand 2021,
-   nennt «voraussichtlich bis 2025» — überholt), foerderplattform.ch/…/partner/ (kein Textinhalt).
-   Klärung nur telefonisch/schriftlich bei Renera AG (+41 61 500 18 00, klimapraemie@ezs.ch) bzw.
-   über `www.ezs.ch/teilnahmebedingungen-holzheizungen`.
-2. **Klimaprämie im Kanton Zürich — ungeklärte Spannung.** Ziff. 7 der Förderkriterien setzt
+1. **Klimaprämie im Kanton Zürich — ungeklärte Spannung.** Ziff. 7 der Förderkriterien setzt
    voraus, dass **keine** Vorschrift auf Bundes-, Kantons- oder Gemeindeebene den erneuerbaren
    Heizungsersatz zwingend verlangt. ZH kennt solche Bestimmungen. Ob ZH-Projekte deshalb
    ausgeschlossen sind, ist **nicht belegt** — weder bestätigt noch widerlegt. Direkt bei Renera/EZS
-   abklären; hat unmittelbare Folgen für die Beratungsempfehlung.
-3. **Einfamilienhäuser bei der Klimaprämie — Quellenlage uneinheitlich.** Die Förderkriterien
-   (V. 19.01.2024) schliessen «**Wohnraum**heizungen» aus (= Einzelraumfeuerungen), nicht
-   ausdrücklich EFH-Zentralheizungen; klik.ch spricht von einer Ausrichtung «primär an … grosse
-   Liegenschaften»; eine Sekundärquelle behauptete «Heizungen in Einfamilienhäusern nicht
-   förderberechtigt». **Widerspruch bewusst nicht aufgelöst** — am Original bei Renera klären.
-4. **ZH-Förderprogramm Energie 2026 und Holzheizungen — in Run 75 nicht nachverifiziert.** Die
-   angesteuerten Seiten (`zh.ch/de/umwelt-tiere/energie/energie-foerderung.html`,
-   `…/foerderprogramm.html`) lieferten HTTP 404. Die Run-74-Aussage «fördert Holzheizungen nicht»
-   steht damit weiterhin ohne Primärbeleg aus 2026. Angesichts der SZ-Befunde (dort wird gefördert)
-   lohnt die Gegenprüfung.
-5. **VKF-Ziffern und -Werte im UGZ-Arbeitsblatt (Okt. 2017) sind datiert.** Referenziert wird
+   abklären; hat unmittelbare Folgen für die Beratungsempfehlung. (In Run 76 nicht bearbeitet — war
+   nicht Teil des Recherche-Auftrags; bleibt der wichtigste Restpunkt für MFH/Gewerbe-Projekte in ZH.)
+2. **VKF-Ziffern und -Werte im UGZ-Arbeitsblatt (Okt. 2017) sind datiert.** Referenziert wird
    VKF-BSR 24-15de; die VKF-Vorschriften wurden seither revidiert. Ziffernbezug und Werte an der
    geltenden VKF-Brandschutzrichtlinie «Wärmetechnische Anlagen» verifizieren.
-6. **Belastbare CH-Kostenkennwerte für MFH-Holzheizungen** (CHF/kW oder BKP-Zuordnung) fehlen
-   weiterhin — in Run 75 nicht bearbeitet.
-7. **Kaminfeger-Gebühren/Tarife ZH und SZ** nicht belegt (Turnus ja, Preise nein; SZ marktbestimmt,
+3. **Belastbare CH-Kostenkennwerte für MFH-Holzheizungen** (CHF/kW oder BKP-Zuordnung) fehlen
+   weiterhin — in Run 75/76 nicht bearbeitet.
+4. **Kaminfeger-Gebühren/Tarife ZH und SZ** nicht belegt (Turnus ja, Preise nein; SZ marktbestimmt,
    Kaminfeger frei wählbar).
-8. **SZ-Kontrollintervall (4 Jahre)** stützt sich auf die Run-74-Web-Angabe plus das Bundesminimum;
-   eine SZ-eigene Vollzugsvorschrift wurde in Run 75 nicht im Volltext gelesen. Eine kantonale
+5. **SZ-Kontrollintervall (4 Jahre)** stützt sich auf die Run-74-Web-Angabe plus das Bundesminimum;
+   eine SZ-eigene Vollzugsvorschrift wurde in Run 75/76 nicht im Volltext gelesen. Eine kantonale
    Verschärfung analog ZH ist nicht gefunden, aber auch nicht positiv ausgeschlossen.
+6. **«Voraussichtlich»-Vorbehalt beim Klimaprämien-Enddatum:** Ende 2027 ist die aktuelle
+   Programmerwartung der Betreiberin, keine gesetzlich fixierte Frist — für eine verbindliche
+   Zusage an eine Bauherrschaft bleibt die direkte Rückfrage bei Renera/EZS nötig.
 
 **Backlinks:** [[klimapraemie-heizungsersatz-klik]] · [[foerderprogramm-energie-zh-2026]] ·
 [[foerderprogramm-energie-sz-2026]] · [[muken-2025-verabschiedet]] (Fossilverbot-Kontext)

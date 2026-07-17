@@ -1,11 +1,11 @@
 ---
-quelle: Primaerquellen im Volltext — (a) Energiegesetz EnG (SR 730.0), Fassung in Kraft seit 1.1.2026, Art. 9 + Art. 15; (b) Energieverordnung EnV (SR 730.01), Fassung in Kraft seit 1.1.2026, Art. 11-13; (c) BFE «Referenz-Marktpreise gemaess Art. 15 EnFV», Publikation vom 14.07.2026 (pubdb 11515); (d) ElCom-Fachsekretariat «Fragen und Antworten zur Energiestrategie 2050 ab Mantelerlass», Update vom 16.06.2026; ergaenzend Sekundaerquellen: VSE, Swissolar, EKZ, ewz/Stadt Zuerich, EWS Ibach, VESE/pvtarif
-herausgeber: (a)+(b) Bundesversammlung/Bundesrat via Fedlex; (c) Bundesamt für Energie BFE; (d) Eidg. Elektrizitätskommission ElCom
-ausgabe: EnG SR 730.0 Stand 1.1.2026 (AS 2024 679) · EnV SR 730.01 Stand 1.1.2026 (AS 2025 138) · BFE-RMP-Blatt 14.07.2026 · ElCom-FAQ 16.06.2026
-gelesen: 2026-07-16 — EnG + EnV als Fedlex-PDF lokal heruntergeladen und per pdftotext im Volltext gelesen (Art. 9, 11, 12, 13, 15 woertlich); BFE-RMP-PDF vollstaendig; ElCom-FAQ Kap. 1 (Rueckliefervverguetung) vollstaendig; VNB-Tarife via WebFetch
-datenstand: **Recht: 1.1.2026** (Mantelerlass-Stufe 2) · **Referenz-Marktpreis PV: Q1 2026 = 10,266 Rp./kWh, Q2 2026 = 3,896 Rp./kWh** (BFE, publiziert 14.07.2026, exkl. MWST) · VNB-Tarife Stand 2026 (EKZ, ewz) bzw. ⚠ 2025 (EWS Ibach) · ⚠ VESE-Bandbreite 5-17 Rp./kWh = Erhebung 2024
+quelle: Primaerquellen im Volltext — (a) Energiegesetz EnG (SR 730.0), Fassung in Kraft seit 1.1.2026, Art. 9 + Art. 15; (b) Energieverordnung EnV (SR 730.01), Fassung in Kraft seit 1.1.2026, Art. 11-13; (c) BFE «Referenz-Marktpreise gemaess Art. 15 EnFV», Publikation vom 14.07.2026 (pubdb 11515); (d) ElCom-Fachsekretariat «Fragen und Antworten zur Energiestrategie 2050 ab Mantelerlass», Update vom 16.06.2026; ergaenzend Sekundaerquellen: VSE, Swissolar, EKZ, ewz/Stadt Zuerich, EWS Ibach, VESE/pvtarif; Nachtrag Run 76 (17.07.2026): VSE-Branchenempfehlung «Regelung der Einspeisung von Photovoltaikanlagen» (NRE-CH 2025, 18.09.2025, Volltext-PDF strom.ch); ebs.swiss (Seiten «Eigene Stromproduktion», «PV-Einspeiseoptimierung»); ews.ch (Rueckliefervverguetung); bfe.admin.ch (Referenz-Marktpreise, Publikationsfahrplan); leg-app.ch (Referenzmarktpreis-Prognose, als Prognose gekennzeichnet)
+herausgeber: (a)+(b) Bundesversammlung/Bundesrat via Fedlex; (c) Bundesamt für Energie BFE; (d) Eidg. Elektrizitätskommission ElCom; ergaenzend VSE/AES (Verband Schweizerischer Elektrizitätsunternehmen)
+ausgabe: EnG SR 730.0 Stand 1.1.2026 (AS 2024 679) · EnV SR 730.01 Stand 1.1.2026 (AS 2025 138) · BFE-RMP-Blatt 14.07.2026 · ElCom-FAQ 16.06.2026 · VSE-Branchenempfehlung NRE-CH 2025 vom 18.09.2025
+gelesen: 2026-07-16 — EnG + EnV als Fedlex-PDF lokal heruntergeladen und per pdftotext im Volltext gelesen (Art. 9, 11, 12, 13, 15 woertlich); BFE-RMP-PDF vollstaendig; ElCom-FAQ Kap. 1 (Rueckliefervverguetung) vollstaendig; VNB-Tarife via WebFetch. Nachtrag 2026-07-17 — VSE-PDF (31 S.) lokal heruntergeladen und per pdftotext im Volltext durchsucht (Art. 17c/19c woertlich); ebs.swiss + ews.ch erneut per WebFetch geprueft; BFE-Publikationsseite zum Fahrplan Q3 2026 gelesen
+datenstand: **Recht: 1.1.2026** (Mantelerlass-Stufe 2) · **Referenz-Marktpreis PV: Q1 2026 = 10,266 Rp./kWh, Q2 2026 = 3,896 Rp./kWh** (BFE, publiziert 14.07.2026, exkl. MWST); **Q3 2026 amtlich noch nicht publiziert** (Termin 14.10.2026) · VNB-Tarife Stand 2026 (EKZ, ewz) bzw. ⚠ 2025 (EWS Ibach, unveraendert per 17.07.2026) · ⚠ VESE-Bandbreite 5-17 Rp./kWh = Erhebung 2024 · 70-%-Abregelungsregel primaerquellenverifiziert 17.07.2026
 status: established
-last_updated: 2026-07-16
+last_updated: 2026-07-17
 ---
 
 # Rückliefervergütung PV + schweizweite Mindestvergütung ab 2026
@@ -228,14 +228,52 @@ Für ein konkretes Projekt gilt das aktuelle ewz-Tarifblatt.
   HKN) = ~420 CHF. **Der kleinere Mengenanteil trägt den grösseren Ertrag.** Mit HKN (+3 Rp.,
   z.B. EKZ) oder im ewz-Gebiet (12,91 Rp.) kippt das Bild deutlich — deshalb VNB zuerst klären.
 
+## 8 · Nachtrag Run 76 (17.07.2026) — drei offene Punkte aus Run 75 geklärt
+
+**a) Abregelung/70-%-Regel — Rechtsgrundlage jetzt primärquellenverifiziert.** Die Fundstelle ist
+**nicht** die Rückliefervergütung nach Art. 15 EnG (Kapitel 1-3 oben), sondern ein eigenständiges
+netzseitiges Institut: **Art. 17c Abs. 4 Bst. a StromVG** (SR 734.7, «Nutzung von Flexibilität») i.V.m.
+**Art. 19c Abs. 4 StromVV** (SR 734.71), beide **in Kraft seit 1.1.2026**. Diese Artikel erlauben dem
+Verteilnetzbetreiber die **garantierte, unvergütete Abregelung** eines Anteils der Einspeisung zur
+Netzeffizienz-Steigerung, **begrenzt auf 3 % der jährlich erzeugten Energie** am Netzanschlusspunkt.
+Der konkrete Zahlenwert **70 % der installierten DC-Nennleistung** steht nicht wörtlich im
+Verordnungstext, sondern ist die branchenweit anerkannte Konkretisierung durch die **VSE-Branchen-
+empfehlung «Regelung der Einspeisung von Photovoltaikanlagen»** (NRE-CH 2025, verabschiedet
+18.09.2025) — diese gilt selbst als **Richtlinie im Sinne von Art. 27 Abs. 4 StromVV**
+(Selbstregulierungsnorm, kein Gesetzestext, aber von der Verordnung sanktioniert). Empfohlen für
+**alle ab 1.1.2026 neu installierten Wechselrichter** an PV-Anlagen zwischen 0,8 kW und 1'200 m ü.M.;
+bei dieser Grenze liegt der Produktionsverlust laut VSE-eigener Datenanalyse **regelmässig unter 3 %**.
+**Neu gefunden, praxisrelevant:** Übersteigt die effektive Abregelung im Einzelfall die 3-%-Grenze,
+muss der VNB die Mehrmenge **inkl. eines statistischen Unsicherheitszuschlags nachvergüten** — zum
+gleichen Preis wie die reguläre Einspeisung, HKN eingerechnet (Beispiel im VSE-Dokument: ein
+berechneter Verlust von 100 kWh mit ±30 % Unsicherheit löst eine Vergütung von 130 kWh aus). Dieses
+Thema ist bereits **vollständig destilliert** in der Schweizerdestillate `netzanschluss-netzverstaerkung-
+pv-emobilitaet-ch.md` (dort um die Nachvergütungsmechanik ergänzt, 17.07.2026) —
+→ [[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]. Hier bewusst nur als Kurzfassung mit
+Backlink geführt, um Doppelpflege zu vermeiden.
+
+**b) ebs Energie AG (Schwyz) — Negativbefund bestätigt, EWS Ibach erneut geprüft.** Erneute Prüfung
+(17.07.2026) von `ebs.swiss` («Eigene Stromproduktion», «PV-Einspeiseoptimierung», «Unsere
+Stromprodukte») ergibt weiterhin **keinen publizierten Rp./kWh-Wert** für die Rückliefervergütung
+2026 — nur der allgemeine Hinweis, den Überschuss «zurückzuliefern», ohne Tarifangabe; Verweis
+bleibt Kundenportal/Telefon 041 819 47 47/info@ebs.swiss. Der als Ersatz geführte **EWS AG, Ibach**
+(`ews.ch/produkte-dienstleistungen/energie/strom-produzieren/rückliefervergütung`) wurde ebenfalls
+erneut abgefragt: publiziert weiterhin **nur «2025 ca. 7,1 Rp./kWh»**, kein 2026er-Update, mit
+Verweis auf das EEA-Team (Tel. 041 818 33 38, eea@ews.ch). Der im Kapitel 6 geführte Wert bleibt damit
+**unverändert korrekt und aktuell** — kein Korrekturbedarf, aber weiterhin ⚠ Stand 2025.
+
+**c) Referenz-Marktpreis Q3 2026 — amtlich noch nicht verfügbar, bestätigt.** Die BFE-Publikations-
+seite (`bfe.admin.ch/.../referenz-marktpreise.html`, geprüft 17.07.2026) bestätigt: aktuell sind nur
+**Q1 und Q2 2026** publiziert (Q2 am 14.07.2026), die **nächste Publikation ist auf den 14.10.2026,
+12.00 Uhr terminiert** — deckungsgleich mit der 10-Arbeitstage-Regel aus Kapitel 3. Eine **inoffizielle
+Prognose** kursiert bei `leg-app.ch/referenzmarktpreis` (Referenzmarktpreis-Prognosen, Methodik:
+stündliche EPEX-Spot-Preise EUR, SNB-Tageskurs-Umrechnung, 88 % Datenabdeckung, als «partiell»
+gekennzeichnet): **5,90 Rp./kWh (58,97 CHF/MWh)** für Q3 2026. Diese Zahl ist **ausdrücklich eine
+Prognose Dritter, keine amtliche BFE-Zahl** — sie wird bewusst **nicht** in die Tabelle in Kapitel 3
+übernommen, sondern nur hier als Ausblick vermerkt. Nächster Lauf nach dem 14.10.2026: amtlichen
+Q3-Wert ziehen und Kapitel 3 nachführen.
+
 ## Offene Punkte / Negativbefunde
-- **ebs Energie AG (Schwyz) — ehrlicher Negativbefund:** Die konkreten Rp./kWh der
-  Rückliefervergütung 2026 sind **nicht belegbar**. Geprüfte Pfade: `ebs.swiss` Privatkunden →
-  Energie → Strom → «Eigene Stromproduktion» und → «Produkte» (kein Tarifwert publiziert, nur
-  Verweis auf Kundenportal / Tel. 041 819 47 47 / info@ebs.swiss); Websuchen «ebs Energie Schwyz
-  Rückliefervergütung 2026», «ebs.swiss Referenz-Marktpreis». Für den Kanton SZ ist stattdessen
-  **EWS AG, Ibach** belegt (⚠ Wert 2025). Für ein SZ-Projekt: Tarifblatt beim Standort-VNB
-  direkt anfordern.
 - **VESE/pvtarif-Bandbreite ist von 2024** (5–17 Rp./kWh) und stammt aus einem Sekundärzitat, nicht
   aus dem pvtarif-Datensatz selbst. ⚠ Vor-Mantelerlass-Stand — die 2026er-Streuung ist mangels
   eigener Erhebung **nicht beziffert**. Nächster Lauf: `vese.ch/pvtarif` bzw. die pvtarif-Map-Expert-
@@ -243,12 +281,13 @@ Für ein konkretes Projekt gilt das aktuelle ewz-Tarifblatt.
 - **Stufe 2027** (stündliche Spotpreise + «Minimalvergütungsprämie») nur über Swissolar/Axpo
   belegt — Fedlex-Fassung EnG/EnV per 1.1.2027 und die zugehörige Verordnungsrevision beim
   nächsten Lauf im Volltext prüfen.
-- **Abregelung/70 %-Regel** («max. 70 % der DC-Leistung einspeisen», «max. 3 % Jahresenergie nicht
-  vergütet») nur über Swissolar/ebs als Sekundärquelle gesehen — StromVV-Fundstelle noch nicht
-  im Volltext verifiziert. Eigenes Thema, gehört in ein Folge-Destillat.
 - **Referenz-Marktpreise Q3 2026** werden vom BFE bis zum 10. Arbeitstag nach dem 30.09.2026
-  publiziert (pubdb-Blatt neu ziehen). **Dieses Destillat hat ein Quartals-Verfallsdatum** — die
-  Rp./kWh-Werte sind ab Mitte Oktober 2026 nachzuführen, die Rechtsstruktur bleibt.
+  publiziert, Termin bestätigt auf **14.10.2026, 12.00 Uhr** (siehe Nachtrag 8c). **Dieses Destillat
+  hat ein Quartals-Verfallsdatum** — die Rp./kWh-Werte sind ab Mitte Oktober 2026 nachzuführen, die
+  Rechtsstruktur bleibt.
+- **ebs Energie AG (Schwyz)** bleibt ein dauerhafter Negativbefund (siehe Nachtrag 8b) — für ein
+  konkretes SZ-Projekt weiterhin das Tarifblatt beim Standort-VNB direkt anfordern, nicht von EWS
+  Ibach auf ebs schliessen (unterschiedliche Netzgebiete).
 - **Wasserkraft-Minimalvergütung 12 Rp./kWh** (EnV Art. 12 Abs. 1bis lit. d) hier nur der
   Vollständigkeit halber erfasst — für JANS-Projekte nicht relevant.
 

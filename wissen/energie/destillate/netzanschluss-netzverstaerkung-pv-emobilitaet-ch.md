@@ -2,10 +2,10 @@
 quelle: StromVG (SR 734.7) Art. 5/15b/17b/17c + StromVV (SR 734.71) Art. 13e/13f/16/19a-19d + ElCom-Weisung 8/2025 "Netzverstärkungen" (1.7.2025) + VSE-Branchenempfehlung NRE-CH 2025 (18.9.2025) + EKZ-/ewz-Netzanschlussbedingungen + EWS-Netzanschlussrichtlinien inkl. Anhang 8 + EW-Höfe-Preisblatt Anschlussbeitrag
 herausgeber: Bund (Fedlex) / ElCom / VSE-AES / EKZ / ewz / EWS AG Ibach / EW Höfe AG
 ausgabe: StromVG Stand 1.4.2026, StromVV Stand 1.1.2026, ElCom-Weisung 8/2025, NRE-CH 2025, EKZ-Netzanschlussbedingungen Stand 2023, ewz Spezielle Anschlussbestimmungen Stand 01.01.2025, EWS-Netzanschlussrichtlinien gültig ab 1.6.2024 (Anhang 8), EW-Höfe-Preisblatt Anschlussbeitrag gültig ab 1.1.2017
-gelesen: 2026-07-14 (Web via WebSearch/WebFetch; Gesetzestexte auf Fedlex, EWS-Netzanschlussrichtlinien inkl. Anhang 8 und EW-Höfe-Preisblatt vollständig gelesen)
-datenstand: Art. 15b StromVG in Kraft seit 1.1.2025; Art. 17c StromVG (Flexibilitätsnutzung) in Kraft seit 1.1.2026; VSE-70%-Einspeiseregel gilt ab 1.1.2026; SZ-Anschlussbeiträge EWS 1.6.2024 / EW Höfe 1.1.2017
+gelesen: 2026-07-14 (Web via WebSearch/WebFetch; Gesetzestexte auf Fedlex, EWS-Netzanschlussrichtlinien inkl. Anhang 8 und EW-Höfe-Preisblatt vollständig gelesen). Nachtrag 2026-07-17: VSE-PDF NRE-CH 2025 (31 S.) lokal heruntergeladen und per pdftotext im Volltext durchsucht (Art. 17c/19c-Passagen sowie Nachvergütungsmechanik >3 % wörtlich gelesen)
+datenstand: Art. 15b StromVG in Kraft seit 1.1.2025; Art. 17c StromVG (Flexibilitätsnutzung) in Kraft seit 1.1.2026; VSE-70%-Einspeiseregel gilt ab 1.1.2026 (Richtlinie i.S.v. Art. 27 Abs. 4 StromVV, primärquellenverifiziert 17.07.2026); SZ-Anschlussbeiträge EWS 1.6.2024 / EW Höfe 1.1.2017
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-07-17
 ---
 
 # Netzanschluss- und Netzverstärkungskosten bei PV-Grossanlagen und E-Mobilität (ZH/SZ)
@@ -149,6 +149,18 @@ Produktionsverlust dadurch i.d.R. unter 3 %. Rechtsgrundlage: garantierte Nutzun
 Flexibilität (Art. 17c Abs. 4 lit. a StromVG / Art. 19c Abs. 4 StromVV). Zweck: signifikante
 Reduktion des produktionsbedingten Netzausbaubedarfs. ⚠ Nicht deckungsgleich mit der
 deutschen EEG-70%-Regel (andere Rechtsgrundlage/Historie).
+
+**Nachtrag 17.07.2026 (Primärquellen-Volltext, VSE-PDF 18.09.2025 lokal gelesen):** Das VSE-Dokument
+selbst ist eine **Richtlinie im Sinne von Art. 27 Abs. 4 StromVV** (Selbstregulierungsnorm der
+Branche, kein Verordnungstext — die 70-%/3-%-Werte stehen so nicht wörtlich in StromVG/StromVV,
+sondern sind deren branchenweit anerkannte Konkretisierung). **Nachvergütungspflicht bei
+Überschreitung der 3-%-Grenze:** Verursacht die fixe 70-%-Limitierung im Einzelfall nachweislich
+mehr als 3 % Jahresproduktionsverlust, muss der VNB die Mehrmenge **inkl. eines statistischen
+Unsicherheitszuschlags** zum gleichen Preis wie die reguläre Einspeisung (inkl. HKN) nachvergüten
+— Beispielrechnung im VSE-Dokument: 100 kWh berechneter Verlust ± 30 % Unsicherheit → Vergütung
+von 130 kWh. Relevant für die Bauherren-Beratung: das 70-%-Limit ist damit **kein entschädigungsloser
+Vollverzicht**, sondern nach oben durch die 3-%-Schwelle plus Nachvergütungsmechanik gedeckelt.
+→ ausführlich zur Rückliefervergütung selbst [[pv-rueckliefer-verguetung-mindestverguetung-2026]].
 
 Für E-Mobilität-Ladeinfrastruktur besteht kein analoges gesetzliches
 Wirkleistungsbegrenzungs-Instrument; dynamisches Lastmanagement ist dort primär eine
