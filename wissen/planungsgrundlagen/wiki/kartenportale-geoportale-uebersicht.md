@@ -1,8 +1,8 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-07-14
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht uebernommen], LINK_Geodienste.docx Bestellbestaetigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38), KtBE Bern/be_map.apps.be.ch/230927_Schloss_Münchenwiler.docx (Amt für Geoinformation Kt. Bern, realer Kontakt, Run 42), CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (Delta-Check Run 42)]
+last_updated: 2026-07-18
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht uebernommen], LINK_Geodienste.docx Bestellbestaetigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38), KtBE Bern/be_map.apps.be.ch/230927_Schloss_Münchenwiler.docx (Amt für Geoinformation Kt. Bern, realer Kontakt, Run 42), CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (Delta-Check Run 42), PL - 01 Kartenportale/Grundstueckkataster/Regensdorf/*/Lieferschein.pdf (4 ZH-OGD-Bestellungen Geoportal Kt. ZH 05.-08.02.2024, GIS-ZH Nr. 555/557/10016/10102, Run 51), PL - 01 Kartenportale/KtLU Luzern/Gemeinden Luzern Stadt/Klimafreundlichheizen.ch (Beleg Steinhofstrasse 25, 05/2024) + Stadt Luzern 3D-Stadtmodell (poi.stadtluzern.ch webappviewer3d, Run 51)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[kartenportale-denkmalschutz-isos]] [[recht-norm-dispensrecht]] [[kartenportale-oereb-kataster-system-zh]]
 ---
 
@@ -150,6 +150,36 @@ dedizierter Baumkataster-Layer**, sondern ein persoenlicher Kartenausdruck mit S
 (Steinhofstrasse/Zuerich-Gebiet). Bestaetigt die bestehende Einordnung: kein zentrales
 Baumkataster-Geoportal, gemeinde-/portalspezifisch zu klaeren.
 
+## ZH Geoportal OGD-Bestellportal `geoportal.zh.ch/opendata` — Datensatz-Nummern (K44, Run 51, 2026-07-18)
+
+Neben dem **Live-WFS** (`maps.zh.ch/wfs/OGDZHWFS`, Punktabfrage im Connector) und dem **CH-Portal**
+`geodienste.ch` gibt es als dritten ZH-Bezugsweg das **Bestell-/Download-Portal**
+`geoportal.zh.ch/opendata` (Baudirektion, Amt fuer Raumentwicklung, Fachstelle Geoinformation):
+Warenkorb-Bestellung eines ganzen Datensatzes fuer einen Perimeter, Lieferung per **Lieferschein +
+Download** an die Bestell-E-Mail (kein Login noetig, OGD = **kostenlos**, keine Preisangabe auf dem
+Lieferschein). Real belegt am JANS-Fall **Regensdorf** (4 Bestellungen 05.–08.02.2024, Empfaenger
+`mail@raphaeljans.ch`). Die dabei dokumentierten **GIS-ZH-Datensatznummern** (dauerhaft stabiler als
+die WFS-Layernamen, direkt im Portal such-/bestellbar):
+
+| GIS-ZH Nr. | Geodatensatz (OGD) | JANS-Nutzung |
+|---|---|---|
+| **555** | Digitales Terrainmodell (DTM) 2021 bis 2022 | Gelaendemodell fuer Volumenstudie/massgebendes Terrain |
+| **557** | LIDAR Laserscanning-Punktwolke 2021 bis 2022 | Punktwolke fuer Bestand/Vegetation/Detail |
+| **10016** | Amtliche Vermessung – Datenmodell ZH (Standard) | AV-Parzellen/Bodenbedeckung (Baufeld) |
+| **10102** | OEREB-Kataster – Abstandslinien | Baulinien/Abstandslinien (Baufeld-Restriktion) |
+
+**Praxis-Einordnung:** fuer eine **Punktabfrage** (Zone/Baulinie an einer Adresse) bleibt der
+Connector-WFS-Weg der schnellste ([[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]]);
+fuer den **Flaechen-Download eines ganzen Rasters** (DTM/LIDAR ueber einen Perimeter, fuer 3D/
+Volumenstudie) ist das OGD-Bestellportal der Weg — die swisstopo-Produkte swissALTI3D/swissSURFACE3D
+(→ [[kartenportale-bund-geodaten]]) sind die CH-weite Alternative, das ZH-Portal liefert die
+kantonal teils hoeher aufgeloeste/aktuellere Befliegung 2021/22. DTM 555 + LIDAR 557 decken damit
+denselben Bedarf wie die swisstopo-Kette in der Rule 260627 (echte swissALTI3D/swissBUILDINGS3D-
+Grundlagen fuer 3D-/Massenmodelle) — ZH-lokal als zweite Quelle. Status `established` (Datensatz-
+Nummern aus realen amtlichen Lieferscheinen, nicht geraten); ein REST-Direktbezug je Nr. ist **nicht**
+getestet (Bestellung laeuft ueber den interaktiven Warenkorb, kein bekannter Ein-Klick-Endpunkt) →
+**kein** Connector-`--produkt`-Versprechen, nur Referenztabelle.
+
 ## Weitere Kantone/regionale Portale (K17/K18, Run 25 2026-07-13, niedrige Prioritaet)
 
 JANS-Kerngeschaeft liegt in Kt. ZH + SZ; die folgenden Portale sind bisher nur punktuell in
@@ -166,7 +196,24 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   Begruendung abgelehnt ("Bemerkung des Datenbereitstellers zur Ablehnung: keine", 03.06.2024) —
   fuer Kt. LU ist der **kantonseigene Geodatenshop der zuverlaessigere Weg**, nicht `geodienste.ch`.
   Stadt Luzern zusaetzlich mit eigenem Gemeinde-GIS (Baugesuchsverwaltung, Nutzungsplan, Leitungen,
-  Grundbuchplan) analog zu `geoglatt.ch` (siehe unten).
+  Grundbuchplan) analog zu `geoglatt.ch` (siehe unten). **Zwei weitere Stadt-Luzern-Tools belegt
+  (K42/K43, Run 51 2026-07-18):**
+  - **`klimafreundlichheizen.ch`** — **adressgenaues Heizungsberatungs-Portal** der Stadt Luzern:
+    liefert je Adresse eine konkrete Heizsystem-**Empfehlung** (Beleg Steinhofstrasse 25:
+    «Empfehlung Erdsonden-Waermepumpe», Alternativen Luft-WP/Sonnenenergie/Daemmung) plus den
+    **Stand Gebietserschliessung Waermenetz** und **Hinweise zur Gasversorgung**. Kernaussage fuer
+    das Energiekonzept (Informationsstand Jan. 2024): «spaetestens **2040 kein fossiles Erdgas** fuer
+    Raumwaerme/Warmwasser mehr»; die Aufhebung der Gasversorgung einer Liegenschaft wird **mind. 10
+    Jahre im Voraus** angekuendigt. Das ist die LU-Entsprechung zum ZH-Energie-/Waermerichtplan
+    (Energierichtplan-Layer, → [[energie-uebersicht]]) — bei Heizungsersatz-Beratung ausserhalb ZH
+    die erste Adresse fuer LU-Objekte. login-frei, kein Connector-Anspruch (interaktives Web-Tool).
+  - **Stadt Luzern 3D-Stadtmodell** (`poi.stadtluzern.ch/portal/apps/webappviewer3d/index.html?id=9ae40629f99e4d50afb39dc8abbc3d9d`)
+    — **Esri-ArcGIS-WebScene** («Powered by Esri») mit texturierten Gebaeudekuben + Vegetation +
+    Gelaende, Adresssuche, Mess-Werkzeug, LV95-Koordinatenanzeige (E/N + Betrachterhoehe). Datenquelle:
+    Geoinformationszentrum Stadt Luzern / rawi Kanton Luzern / © swisstopo. Stadt-Aequivalent zum
+    ZH-3D-Stadtmodell — als login-freie **3D-Kontext-Visualisierung** brauchbar, aber **kein
+    Geometrie-Export** (reiner Viewer; fuer echte 3D-Kuben LU → `geodatenshop.lu.ch`,
+    swissBUILDINGS3D via swisstopo, → [[kartenportale-bund-geodaten]]).
 
 ### `geodienste.ch` — Registrierung und Bestellmechanik (K33, Run 38, 2026-07-14)
 

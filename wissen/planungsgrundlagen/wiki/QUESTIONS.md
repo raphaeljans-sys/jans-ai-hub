@@ -3,20 +3,26 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
-- [ ] **K41-K44 (Run 50, 2026-07-16, offen — OneDrive-Sync-Blocker)** Systematischer
-  Ordner-Delta-Scan (Zeitstempel + Datei-/Ordnernamen-Abgleich gegen bestehende Wiki-Artikel)
-  fand vier echte, bisher nie erschlossene Fund-Kandidaten in PL-01: `Objektschutz/
-  _schutz-vor-naturgefahren.ch/Naturgefahren Konzept/` (realer JANS-Projektbeleg
-  2304RE20 + allgemeines Konzept-PDF), `KtLU Luzern/.../Klimafreundlichheizen.ch/`,
-  `KtLU Luzern/.../Stadt Luzern 3D-Stadtmodell/`, sowie die vier Lieferscheine im
-  Regensdorf-Benchmark-Ordner (Preis-/Fristangaben fuer OGD-Geoprodukte). Alle vier waren
-  waehrend des GESAMTEN Laufs technisch nicht lesbar — OneDrive File Provider blockierte den
-  Zugriff durchgehend mit `EDEADLK`/"Resource deadlock avoided" (Read-Tool, `cp`, `pdftotext`,
-  sogar `file` gleichermassen betroffen), waehrend andere PL-01/PL-04-Ordner im selben Lauf
-  problemlos lesbar blieben — kein Rechte-/Format-Problem, sondern ein lokaler Sync-Zustand
-  (Praezedenzfall: Lignum-Erdbeben-PDF, Run 28 blockiert → Run 30 gleicher Datei-Deadlock
-  aufgeloest, "reines Sync-Timing"). **Naechster Lauf: erneut versuchen**, Details siehe
-  `training/curriculum.md` K41-K44.
+- [x] **K41-K44 (Run 50 offen → Run 51, 2026-07-18 GELOEST)** Der OneDrive-Sync-Blocker aus Run 50
+  hatte sich (wie im Praezedenzfall Lignum Run 28→30 vermutet, «reines Sync-Timing») bis Run 51
+  aufgeloest — alle vier Kandidaten waren jetzt problemlos lesbar. Auswertung:
+  - **K41 Naturgefahren Konzept Reckholdern (SZ):** `230926_Naturgefahren_Konzept.pdf` +
+    `2304RE20_Naturgefahren_Objektschutzkonzept.pdf` (real JANS 2304, Willerzell) — Konzeptstruktur,
+    SZ-WebGIS-Link, Gefahrenstufen + SIA-261/261-1-Schutzziele waren bereits ab Run 24/27 im Artikel;
+    **genuines Delta = der bis dahin ungelesene Bauteilkatalog S. 7–12** der Checkliste `27_Checkliste_SvN_D.pdf`
+    (Matrix Bauteil × Naturgefahr, Produktanweisungen SIA 342 Sonnenschutz, HW3, Suissetec-Merkblatt,
+    Ueberschwemmung/Betonsockel). → NEU §3c [[kartenportale-naturgefahren-objektschutz]]; Checkliste
+    damit vollstaendig S.1-12/12.
+  - **K44 Regensdorf OGD-Lieferscheine:** 4 ZH-Geoportal-Bestellungen (05.–08.02.2024) mit den
+    **GIS-ZH-Datensatznummern** 555 (DTM 2021/22), 557 (LIDAR-Punktwolke), 10016 (AV Datenmodell ZH),
+    10102 (OEREB-Abstandslinien), Bezugsweg `geoportal.zh.ch/opendata` (OGD, kostenlos, Lieferschein-
+    Download). Keine Preisangabe (OGD gratis). → NEU Abschnitt «ZH Geoportal OGD-Bestellportal»
+    [[kartenportale-geoportale-uebersicht]] (Status established, aus amtlichen Lieferscheinen).
+  - **K42 `klimafreundlichheizen.ch`** (Stadt Luzern, adressgenaue Heizungsempfehlung + Gasversorgungs-
+    Aufhebung bis 2040) + **K43 Stadt Luzern 3D-Stadtmodell** (Esri-ArcGIS-Viewer, kein Export). Beide
+    LU (Nebengebiet), als Kurzprofil → [[kartenportale-geoportale-uebersicht]] «Weitere Kantone».
+  Damit sind die letzten offenen Kartenportale-Kandidaten geschlossen; kein neuer PL-01-Kandidat im
+  Delta-Scan dieses Laufs offen. Details siehe `outputs/2026-07-18_training-run51.md`.
 - [x] **K40-Rest (Run 46, 2026-07-14, Token-Vollgas)** Rest der Weisung ÖREB-Kataster V3
   (§5.3-5.12, S. 26-73) vollstaendig ausgewertet — schliesst die K40-Luecke (siehe Eintrag
   darunter). Themen-Detailprozesse §5.2-5.8 folgen groesstenteils dem generischen 4-6-Phasen-

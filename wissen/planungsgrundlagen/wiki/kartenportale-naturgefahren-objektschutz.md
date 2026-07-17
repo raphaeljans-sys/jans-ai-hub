@@ -1,7 +1,7 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
 status: emerging
-last_updated: 2026-07-14
+last_updated: 2026-07-18
 sources:
   - PL-02/04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf ("Leitfaden zur Umsetzung der
     Gefahrenkarten Hochwasser", Baudirektion Kt. ZH/AWEL Abt. Wasserbau + Gebäudeversicherung
@@ -14,7 +14,8 @@ sources:
     (mittlere/geringe/erhebliche Gefaehrdung auf derselben Parzelle), WebGIS-Direktlink SZ
   - schutz-vor-naturgefahren.ch (VKG/SIA/HEV/ASA-SVV/Kantonalbank/Gemeindeverband) —
     "Checkliste fuer die Planung und Umsetzung von Gebaeudeschutzmassnahmen" (Dezember 2020,
-    vollstaendig gelesen S.1-6/12) + "Empfehlungen Gebaeudeschutz" (Onlinetool) + "Rutschungen und
+    **vollstaendig gelesen S.1-12/12** inkl. Bauteilkatalog, Run 51 2026-07-18) + "Empfehlungen
+    Gebaeudeschutz" (Onlinetool) + "Rutschungen und
     Hangmuren — Hintergrundwissen fuer Bauherren"
   - PL-01/Objektschutz/Reckholdern/Naturgefahrenkarte_Das_Wesentliche_in_Kuerze.pdf +
     2304RE20_Naturgefahren_Objektschutzkonzept.pdf + 27_Checkliste_SvN_D.pdf +
@@ -170,6 +171,33 @@ tatsaechlich erreicht wird. Zwei Konkretisierungen mit direktem Marktbezug:
 - **Sturm:** z. B. Tonziegel sind hagelrobust, muessen aber gegen Sturm zusaetzlich **mit Klammern
   am Dachrand befestigt** werden — Robustheit gegen eine Naturgefahr heisst nicht automatisch
   Robustheit gegen alle.
+
+### 3c. Bauteilkatalog S. 7–12 vollstaendig (Run 51, 2026-07-18)
+
+Die Checkliste `27_Checkliste_SvN_D.pdf` (Dez. 2020) war bis Run 50 nur S. 1–6 gelesen; der
+eigentliche **Bauteilkatalog S. 7–12** (Matrix Bauteil × Naturgefahr Sturm/Hagel/Schnee/
+Ueberschwemmung, je mit «Bei der Planung beruecksichtigen» + «Hinweise fuer Unterhalt/Betrieb»)
+war die letzte offene K41-Datei und ist jetzt volltextlich erschlossen. Die JANS-relevanten
+Kernanweisungen, konsolidiert nach Bauteilgruppe:
+
+| Bauteilgruppe | Massgebende Planungsanweisung (belegt S. 6–12) |
+|---|---|
+| **Dach — Ziegel** | Sturmklammern am Dachrand; Unterdach/geschlossene Schalung im Vordachbereich; hagelgepruefte Ziegel; **Punktlasten durch Aufbauten vermeiden**; Verschraubung durch Fachperson auf Sturmfestigkeit nach SIA pruefen |
+| **Dach — Flachdach (Kunststoff/Bitumen)** | Aufkantungen durch Blechverwahrungen oder Kiesbedeckung vor Sonne/Schneedruck/Hagel schuetzen (sonst schnellere Alterung als die Flaeche); hagelgepruefte Folien |
+| **Lichtdurchlaesse (Lichtkuppel/Kunststoffplatten PC/PMMA)** | **Widerstandsfaehigkeit sinkt je nach Material schon nach 5 Jahren um bis zu 80 %** → nicht-alternde Elemente (**Glas**) verwenden oder Schutzgitter anbringen; hagelgepruefte Produkte |
+| **Fassade — Putz auf Aussenwaermedaemmung** | hagelgepruefte Produkte; im **Ueberschwemmungsbereich** wasserfeste Daemmstoffe + geeigneter Systemaufbau (**Betonsockel hochziehen**) |
+| **Fassade — Holz** | widerstandsfaehige **Dickschicht-Beschichtung** oder Metallprofil-Schutz; im Ueberschwemmungsbereich **kein lackiertes Holz**, Betonsockel hochziehen; Duennschichtlasuren vermeiden |
+| **Sonnenschutz (Rollladen/Lamellenstoren/Markisen)** | **hoechste Sturmwiderstandsklasse nach SIA 342**; geschuetzt in Fensterleibung einbauen; **automatischer Einzug bei drohendem Unwetter** (Zentralsteuerung, z.B. «Hagelschutz – einfach automatisch»); **Markise ist Sonnen-, kein Wetterschutz** (Eingaenge nicht durch Markisen schuetzen) |
+| **Aufbauten Energiegewinnung (Solar/PV)** | Befestigung/Unterkonstruktion durch Fachperson auf Tragfaehigkeit nach SIA pruefen; hagelgepruefte Module; Schneerutschsicherungen + Schutz vor Schneelasten durch Windverwehung/Gleiten; **Lasten direkt ins Tragwerk, nicht auf die Dachhaut** leiten (erhoehte Punktlasten beruecksichtigen); in erhoehten Lagen nur gepruefte Konstruktionen (**Schneedruckregister**) |
+| **Installationen — Bleche/Spenglerarbeit** | Empfehlungen **Suissetec-Merkblatt «Hagelresistentes Bauen bei Spenglerarbeiten und Metalldeckungen»** beachten (mehrfach als massgebende Fachquelle genannt) |
+| **Oeffnungen/Fenster** | **Grundsatz: im Ueberschwemmungsbereich keine Fenster planen**; Lichtschaechte **erhoehen und abdichten**; Fenster in Lichtschaechten nach Wasserdruck dimensionieren |
+
+**JANS-Merksatz:** der Bauteilkatalog ist die konkrete Uebersetzung der abstrakten SIA-261/261-1-
+Schutzziele (§5) in **Ausschreibungs-/Devis-taugliche Produktanforderungen** — Hagelwiderstand HW3
+([[energie-pv-brandschutz]]), Sturmwiderstandsklasse SIA 342 fuer Sonnenschutz, Suissetec-Merkblatt
+fuer Spenglerarbeiten, Betonsockel-Hochzug im Ueberschwemmungsbereich. Bei Objektschutzkonzepten
+(wie Reckholdern, §4) liefert er die Formulierung fuer die «gewaehlten Schutzmassnahmen» je Gefahr.
+Damit ist die K41-Datei `27_Checkliste_SvN_D.pdf` vollstaendig ausgewertet (kein offenes Kapitel).
 
 ## 5. Schutzziele nach SIA 261/261-1 (Kurzreferenz)
 
