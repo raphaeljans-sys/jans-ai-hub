@@ -1,3 +1,15 @@
+## 2026-07-17 — Loop stillgelegt, Endbedingung erreicht (normen-training-mini)
+Der Scheduled Task `normen-training-mini` (Mac Mini, DIN/VSS/RAL) ist deaktiviert. Das
+Inventar DIN/VSS/RAL wurde in den Mini-Laeufen 30, 31 und 32 (letzter Commit 16.07.2026 21:42)
+dreimal in Folge als KOMPLETT bestaetigt — weitere Laeufe waeren Leerlauf und wuerden im
+laufenden Drossel-Regime (Rule auto-verbesserungen 260714, Wochenlimit schonen bis Reset
+Mo 20.07. 11:59) unnoetig Tokens verbrauchen. Umsetzung: launchd-Job `ch.jans.training-normen`
+(effektiver headless-Trigger, siehe `scripts/cron-training-mini.sh`) unloaded + `Disabled` in
+`~/Library/LaunchAgents/ch.jans.training-normen.plist` gesetzt (Datei bleibt erhalten, nicht
+geloescht); SKILL.md-Beschreibung mit Stillegungs-Vermerk ergaenzt. Reaktivierung nur wenn
+neues Norm-Material (DIN/VSS/RAL) in der SharePoint-Normenbibliothek eintrifft — dann
+`Disabled` aus dem plist entfernen und `launchctl load` erneut ausfuehren.
+
 ## 2026-07-17 — Adversariale Verifikation SIA 1023:2013 (Werkvertrag-Formular)
 Auftrag: 5 Kernaussagen des Destillier-Agenten am Original zu widerlegen versuchen, plus Stichprobe.
 Methodik: eigene Extraktion (`pdftotext -layout`, Gesamtdokument) UND visueller Vollbild-Read **aller
