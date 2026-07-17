@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.07.2026 19:41:56
+Stand: 17.07.2026 19:52:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 17.07.2026 19:41:56
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 70323766 nas-selfcommit: 2 Datei(en) 2026-07-17 19:30
+- c07666b4 nas-selfcommit: 2 Datei(en) 2026-07-17 19:45
