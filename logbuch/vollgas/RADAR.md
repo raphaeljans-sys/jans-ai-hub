@@ -21,6 +21,25 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-17 18:48 — [GEDROSSELT] Freitagabend ruhig, nur interaktive Stationsarbeit, kein Blocker
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
+unveraendertem Grund, Runner bleibt gestoppt (Schoner-Rolle, kein Wiederanfahren). Kein Login-Probe
+gefahren — reine Tokenkosten ohne Nutzen, solange der Runner ohnehin nicht anlaeuft; vor dem Reset
+(Mo 20.07. 11:59, noch ~2.6 Tage) wieder relevant.
+
+**Lagebild:** Keine Trainingslast in den letzten Stunden, wie es das Drossel-Regime vorsieht. Die
+Commits der letzten 2 Std. sind ausschliesslich `nas-selfcommit` (DSM-Cron, 15-Min-Takt); die
+groesseren Batches um 17:15/17:30 (12 bzw. 11 Dateien) stammen aus interaktiver Arbeit an der
+Station, keine Loop-Last. Mac-Mini-Pendenzen-Queue leer. Naechster relevanter Punkt bleibt die
+Reaktivierung am Mo 20.07. nach dem Wochen-Reset.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2 (unveraendert, Einzeiler): `synobsis-batch-nacht` stilllegen — bewusst erst am
+  Reaktivierungs-Lauf Mo 20.07., um vor dem Reset keine Kleinlast auf dem Mini zu erzeugen.
+- P3: keiner.
+
 ## 2026-07-17 12:48 — [GEDROSSELT] Ruhiger Tageslauf, keine Trainingslast — nur interaktive Arbeit
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
