@@ -2,6 +2,45 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-17 — Training-Run 36: D6-Restposten Luzern geschlossen + **materielle Korrektur**
+
+- **Erster materieller Korrekturbefund seit Run 27.** Statt eines vierten Bestaetigungslaufs den
+  letzten auto-schliessbaren D6-Restposten angegangen («Luzern-Per-Ordnungsnummer», offen seit
+  Run 25) — dabei erwies sich der **eigene Artikelabschnitt als falsch**: «BZR 2022 / Art. 40/43 /
+  Wohnzonen A–F nach Gesamthoehe» beschrieb den **Entwurf der laufenden BZO-Revision**, nicht das
+  geltende Recht.
+- **Amtlicher Volltextbefund** (sRSL Nr. 7.1.2.1.1, BZR vom 17.01.2013, **Ausgabe 01.09.2024**,
+  in Kraft seit 03.06.2014): «Gesamthoehe» kommt **null Mal** vor · **keine** Klassen A–F
+  (A/B = **Ortsbildschutzzone**) · Art. 40 = Rutsch/Sturz, Art. 43 = Energie (massgebend sind
+  Art. 4/5/7/24/26 + Anhang 1) · Zonen heissen **WO** (Art. 5) / **WA** (Art. 7) · Dichte ueber
+  **UEZ je Ordnungsnummer**, Hoehe ueber **Vollgeschosse oder Fassadenhoehe** (Art. 26: FH 21 m /
+  Firsthoehe 27 m / max. 6 VG).
+- **Neu belegt** → [[az-gfz-kennwerte]]: UEZ-Spannen **WO 0.05–0.8 (Nr. 101–192)** und
+  **WA 0.15–1.0 (Nr. 1–66)** samt Ausreissern (Nr. 54 WA UEZ 1.0; Nr. 182 WO UEZ 0.8; Nr. 50 WA
+  FH 45 m Hochhaus) und Nummern ohne UEZ (101–106, 183/184, 189/190 → Sonderregel Art. 12/13/25
+  bzw. qualifiziertes Verfahren). **Folgekorrektur:** die UEZ-Zeile der Kennziffer-Uebersicht
+  nannte «0.20–0.31» (= Einsiedler Spanne) → korrigiert auf **0.05–1.0** mit Gemeinde-Differenzierung.
+- **Zwei bewertungsrelevante Zusatzbefunde:** (1) **UEZ-Bonus Art. 24 Abs. 3** — Gestaltungsplan
+  +10 %, gemeinnuetzige Wohnungen +5 %, **max. 15 %** (als Chance zu pruefen, «kann»-Vorschrift);
+  (2) **⚠ doppelte Massgeblichkeit seit 28.04.2026** — bis zur Genehmigung der neuen BZO
+  (2. Auflage 28.04.–27.05.2026, Genehmigung fruehestens Mitte 2027) muessen Baugesuche
+  **sowohl dem BZR 2013 als auch der neuen BZO** entsprechen, die strengere gilt; eine Rechnung
+  nur auf dem BZR 2013 ist seither unvollstaendig. **Littau = separates BZR** (Art. 4 Abs. 2).
+- **Verifikation:** Modell D (amtlicher Volltext) + **1 Refuter-Agent** (auf 1 begrenzt statt 2–3,
+  Drossel-Rule 260714) → Verdikt **teilweise widerlegt**; **beide Beanstandungen uebernommen**:
+  Ausgabe 01.09.2024 statt 01.08.2024 (mein Erst-Fetch lief ueber den Geoshop-Spiegel; Anhang-1-Werte
+  beider Fassungen ueber alle 89 WO-Zeilen **diff-identisch** → Werte gelten, zitiert wird sRSL) und
+  A–F = Luzerns **eigener** Revisionsentwurf (keine Fremdgemeinde-Verwechslung). Der Refuter hat den
+  Lauf messbar verbessert — die praktisch wichtigste Erkenntnis (doppelte Massgeblichkeit) stammt
+  aus der Gegenpruefung.
+- Bewertungsordner unveraendert (6 Faelle, juengster Wangen 8855). Marktpuls bewusst nicht geprueft
+  (naechster amtlicher Wert 01.09.2026; Drossel-Rule 260714). Status `az-gfz-kennwerte` bleibt
+  `emerging`, `last_updated` 2026-07-17.
+- **Offener Punkt an Raphael — 9. Meldung:** Oberrieden-Hoehenkorrektur (Rule `auto-verbesserungen`
+  260624 nennt 9.0 m traufseitig; amtlich 8.5 m) weiterhin unkorrigiert. **Empfehlung: als Pendenz
+  ueber `logbuch`/`hub-chef` fuehren** statt weiter im Trainings-Report zu melden.
+- Details: `outputs/2026-07-17_training-run36.md`.
+
 ## 2026-07-15 — Training-Run 35: minimaler Bestaetigungslauf (zweiter Trigger desselben Tages)
 
 - Zweiter Trigger am 15.07. (nach Run 34 00:58). **Kein neuer Ingest, keine Artikelaenderung.**
