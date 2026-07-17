@@ -4,6 +4,50 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-17 — Buch-Run 47 (Modell D, 4 Komplexe adversarial parallel): Run-46-Meldung «Rueckstand abgebaut» war verfrueht
+
+- **[korrigiert] Gewaesserraum GSchV — Kennzahlen-Tabelle widersprach dem eigenen Fliesstext.** Die
+  Run-32-Aufloesung war nur im Fliesstext nachgefuehrt worden. `buecher/band-2/15-lage-von-gebaeuden.md`:
+  Z. 246/247 auf **Art. 41a Abs. 2 lit. a/b GSchV** gesetzt (Normalgebiete, Schwelle **2 m** — nicht 1 m;
+  Spanne **2-15 m** — nicht 1-15 m), Schutzgebiets-Formeln (Abs. 1 lit. a-c) neu ergaenzt; Z. 250
+  «20 m ab Uferlinie» von **Art. 41b Abs. 2** entzitiert (der regelt nur Erhoehungsgruende → richtig
+  Uebergangsbest. GSchV 4.5.2011 / § 15 HWSchV, operativ Art. 41b Abs. 1 = 15 m); Z. 155 Uferlinien-
+  Messweise entzitiert (Art. 41a misst ab **Gerinnesohle** und kennt den Begriff «Uferlinie» nicht).
+- **[korrigiert] Art. 41c GSchV fehlzitiert** in `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md`:
+  die Anpassung der **Breite** im dicht ueberbauten Gebiet steht in **Art. 41a Abs. 4 lit. a** (Fliess-)
+  bzw. **Art. 41b Abs. 3** (stehende Gewaesser); Art. 41c regelt die zulaessigen **Anlagen**.
+- **[korrigiert/ergaenzt] LSV Art. 31/31a/32/35/39 — 6 Praezisierungen + 4 Luecken.** Gewichtigste Luecke:
+  **Art. 32 Abs. 3 LSV** (Schallschutzpflicht auch bei **Umbau/Ersatz/Neueinbau**, Erleichterung nur auf
+  Gesuch) fehlte in Wiki und beiden Destillaten vollstaendig — die fuer JANS haeufigere Fallgruppe als der
+  Neubau. Ferner: Art. 31 Abs. 1 («wesentlich» qualifiziert nur die Aenderungen), Art. 31 Abs. 2
+  (kantonale Zustimmung = kumulatives Bundes-Tatbestandsmerkmal), Art. 31 Abs. 3 (Kosten Grundeigentuemer),
+  Art. 31a Abs. 1 (**Planungs- UND** IGW gelten als eingehalten — Grundlage der Einzonung Art. 24 USG),
+  Art. 31a Abs. 1 lit. c Ziff. 1+2 (Fenster auch automatisch **oeffenbar**, plus angemessenes Raumklima),
+  Art. 31a Abs. 2 (grundeigentuemerverbindliche Festhaltung), Art. 32 Abs. 1 (Mindest- vs. erhoehte
+  Anforderung SIA 181, Bauherr als Adressat, SIA 181 nur «insbesondere»), Art. 32 Abs. 2 (SIA-181-Bezug ist
+  Vollzugspraxis, nicht Wortlaut), Art. 35 (Stichprobe = Regelfall, Pruefpflicht nur im Zweifelsfall),
+  Art. 39 Abs. 2/3. Betroffen: `wiki/laermschutz-und-nichtionisierende-strahlung.md` (neue Sektion
+  «Schallschutz im Bestand und Kontrolle»), `buecher/band-2/19-baulicher-umweltschutz.md`,
+  `buecher/band-2/19-baulicher-umweltschutz-teil2-laerm-nisv.md`.
+- **[verifiziert] Quartierplan §§ 160a/81/129 PBG vollstaendig CONFIRMED** — kein Fehler. Der Vorbefund
+  «§ 160a existiert nicht» war ein **Fehlalarm**: der amtliche Text schreibt Buchstaben-Paragraphen mit
+  **Leerschlag** («§ 160 a.26»), weshalb `grep "160a"` null Treffer liefert. Drill-Karte auf den Wortlaut
+  von § 160a **Abs. 3** geschaerft («Zustimmung aller Grundeigentuemer des Beizugsgebiets»).
+- **[korrigiert] USG-Altlasten: Geisterbezeichnung «Art. 32bis USG»** (existiert nicht — Sequenz
+  32 → 32a → 32abis → 32b → 32bbis) an 4 Register-Fundorten bereinigt (`wiki/INDEX.md`, `buecher/INDEX.md`,
+  `wiki/QUESTIONS.md`, `training/curriculum.md`), alte Leerzeichen-Notation an 5 weiteren Fundorten
+  (inkl. 2 Drill-Karten, dort zugleich die **Verwirkung per 1.11.2021** ergaenzt), Abschnittsgrenze
+  «Art. 32-32b USG» → «Art. 32-32bbis USG». Materiell alles CONFIRMED.
+- **[neu] Zwei Pruefregeln in `training/PROGRAMM.md` verankert:** (1) **Grep-Toleranz** bei Buchstaben-
+  Paragraphen (`grep -E "§ ?NNN ?[a-z]"`) — ein grep-gestuetzter Vorbefund «Paragraph existiert nicht» ist
+  ohne sie nicht belastbar; (2) **Register-Sweep-Pflicht** nach jeder Korrektur ueber alle sechs Dateiarten
+  — derselbe Fakt steht an 5-6 Fundorten, Fliesstext-only-Korrekturen lassen Tabellen/Register divergieren.
+- **[nachgefuehrt]** `wiki/QUESTIONS.md` (4 Flags geschlossen, neuer Kopfeintrag mit der Relativierung der
+  Run-46-Meldung), `training/drills.md` (3 Modell-D-Karten + 1 Modell-A-Karte, 1 Karte geschaerft),
+  Frontmatter `verifiziert`/`last_updated` in 3 Artikeln.
+- **Bilanz:** 4 Komplexe, **0 Halluzinationen**, ~20 Fundorte synchronisiert. **Neu offen (beschaffbar):**
+  Art. 40 Abs. 2 + Anhang 3/4 LSV, Art. 41c GSchV + Uebergangsbest. 4.5.2011 + HWSchV ZH, Art. 32e Abs. 3/4 USG.
+
 ## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): Aussenwaermedaemmung/35-cm-Kappung in `nutzungsziffern` ergaenzt
 - **`wiki/nutzungsziffern.md`: echte Luecke geschlossen.** Der fuehrende Artikel fuer AZ/UEZ/BMZ/GrFZ
   fuehrte die **35-cm-Kappung der Aussenwaermedaemmung ueberhaupt nicht** (kein Treffer fuer

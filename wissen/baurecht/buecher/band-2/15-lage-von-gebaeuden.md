@@ -7,8 +7,8 @@ shots: 502-520 (Bildschirmfoto 2026-06-07 um 12.03.03 – 12.03.27)
 paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238a PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15b/15d/15m HWSchV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
 status: emerging
 gelesen: 2026-06-12
-last_updated: 2026-07-12
-verifiziert: 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
+last_updated: 2026-07-17
+verifiziert: 2026-07-17 (Modell-D Nachlauf Gewaesserraum, Buch-Run 47 — die Run-32-Korrektur war nur im Fliesstext nachgefuehrt: Kennzahlen-Tabelle Z. 246/247/250 auf Art. 41a Abs. 1 lit. a-c / Abs. 2 lit. a-b GSchV gesetzt, Schutzgebiets-Formeln ergaenzt, Art. 41b Abs. 2 als Fehlzitat fuer das 20-m-Mass entfernt (Abs. 2 = nur Erhoehungsgruende), Uferlinien-Messweise entzitiert — Art. 41a misst ab Gerinnesohle und kennt den Begriff «Uferlinie» nicht); 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
 ---
 
 # Kap. 15 — Lage von Gebaeuden (Teil 1+2a: System, Wald, Gewaesser, Baulinien)
@@ -152,7 +152,10 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 ### 2.7 Uferstreifen — Messweise und Breite (S. 1014-1015)
 - **Messweise:** Der frei zu haltende Uferstreifen wird **ab der Uferlinie** gemessen; als
   solche gilt die Begrenzungslinie eines Gewaessers, in der Regel beim regelmaessig
-  wiederkehrenden hoechsten Wasserstand abgestellt (Art. 41a GSchV). Der Gewaesserraum ist
+  wiederkehrenden hoechsten Wasserstand abgestellt (kantonal, § 2 WWG — am Wortlaut zu
+  verifizieren; **nicht** Art. 41a GSchV: dieser misst ab der **Gerinnesohle** und kennt den
+  Begriff «Uferlinie» nicht. «gemessen ab der Uferlinie» steht nur in Art. 41b Abs. 1 fuer
+  stehende Gewaesser — Modell-D-Befund 2026-07-17). Der Gewaesserraum ist
   ein **Korridor**, in dem das Gewaesser nicht zwingend in der Mitte fliessen muss. (S. 1014)
 - **Stehende Gewaesser, historische Uferstreifen-Masse:** **20 m** ab Uferlinie (ab 0,5 ha)
   bzw. **8 m** (unter 0,5 ha). **Korrektur (Modell D, Buch-Run 37):** Diese Masse beruhen
@@ -243,11 +246,13 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 | Abstandsfreies Gebaeude | Boden um ≤ 50 cm ueberragt, keine Oeffnungen z. Nachbarn | § 269 PBG i.V.m. § 2c ABV; S. 997 |
 | Waldabstand Regel (Bauzone) | 30 m, reduzierbar bis 15 m | § 66 Abs. 2 PBG; S. 1000 |
 | Waldabstand forstpolizeilich | unter 10 m i.d.R. zu gering (Bassin 4-5 m) | Art. 17 WaG; BR I/2001 Nr. 95; S. 1004 f. |
-| Gewaesserraum Fliessgew. < 1 m Sohle | mind. 11 m | Art. 41a Abs. 2 GSchV; S. 1008 |
-| Gewaesserraum Fliessgew. 1-15 m Sohle | 2,5 × Sohle + 7 m | Art. 41a Abs. 2 GSchV; S. 1008 |
+| Gewaesserraum Fliessgew. < 2 m Sohle (Normalgebiete) | mind. 11 m | Art. 41a Abs. 2 lit. a GSchV; S. 1008 |
+| Gewaesserraum Fliessgew. 2-15 m Sohle (Normalgebiete) | 2,5 × Sohle + 7 m | Art. 41a Abs. 2 lit. b GSchV; S. 1008 |
+| Gewaesserraum Fliessgew. < 1 m Sohle (nur Schutzgebiete) | mind. 11 m | Art. 41a Abs. 1 lit. a GSchV; S. 1008 |
+| Gewaesserraum Fliessgew. Schutzgebiete | 1-5 m Sohle: 6 × Sohle + 5 m; > 5 m: Sohle + 30 m | Art. 41a Abs. 1 lit. b/c GSchV; S. 1008 |
 | Gewaesserraum stehendes Gew. | mind. 15 m ab Uferlinie | Art. 41b GSchV; S. 1010 |
 | Eingedoltes Fliessgew. ZH | mind. 11 m | § 15d HWSchV; S. 1013 |
-| Uferstreifen stehendes Gew. ab 0,5 ha | 20 m ab Uferlinie | Art. 41b Abs. 2 GSchV; S. 1014 |
+| Uferstreifen stehendes Gew. ab 0,5 ha (historisch/Uebergang) | 20 m ab Uferlinie | Uebergangsbest. GSchV-Aenderung 4.5.2011 / § 15 HWSchV; **nicht** Art. 41b Abs. 2 (der regelt nur Erhoehungsgruende); operativ gilt Art. 41b Abs. 1 (15 m); S. 1014 |
 | Uferstreifen stehendes Gew. bis 0,5 ha (ZH-Uebergang) | 8 m | § 15 HWSchV; S. 1014 |
 | Uferstreifen Fliessgew. (ZH-Uebergang) | 8 m + Breite Gerinnesohle je Seite (Sohle ≤ 12 m); 20 m bei Sohle > 12 m | § 15 HWSchV; S. 1015 |
 | Subsidiaerer Strassenabstand (fehlt Baulinie) | 6 m (Gemeinde) | § 51 Abs. 2 PBG; S. 1033 |

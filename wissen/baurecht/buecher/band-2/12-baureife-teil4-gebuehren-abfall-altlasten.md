@@ -4,7 +4,7 @@ kapitel: "12 — Baureife (Teil 4: Anschlussgebuehren / Abfall / Altlasten)"
 band: 2
 seiten: "770-807"
 shots: "387-406"
-paragraphen: ["Art. 32c USG", "Art. 32d USG", "Art. 32dbis USG", "Art. 32e USG", "Art. 30-30h USG", "Art. 31-31c USG", "Art. 32-32b USG", "Art. 32bbis USG", "Art. 46 USG", "AltlV (Art. 1-23)", "VVEA", "AbfG ZH (§§ 1 ff.)", "§ 236 Abs. 1 PBG", "§ 249 PBG", "Art. 60a GSchG", "§ 45 EG GSchG", "VASA"]
+paragraphen: ["Art. 32c USG", "Art. 32d USG", "Art. 32dbis USG", "Art. 32e USG", "Art. 30-30h USG", "Art. 31-31c USG", "Art. 32-32bbis USG", "Art. 32bbis USG", "Art. 46 USG", "AltlV (Art. 1-23)", "VVEA", "AbfG ZH (§§ 1 ff.)", "§ 236 Abs. 1 PBG", "§ 249 PBG", "Art. 60a GSchG", "§ 45 EG GSchG", "VASA"]
 status: emerging
 gelesen: 2026-07-03
 last_updated: 2026-07-15
@@ -35,7 +35,7 @@ Die einwandfreie Beseitigung von Abfallstoffen (§ 236 Abs. 1 PBG) und ebenso di
 
 ### Abfall/Kehricht (12.6 — S. 783-788)
 - **§ 236 Abs. 1 PBG**: die einwandfreie Behandlung von Abfallstoffen ist Erschliessungsvoraussetzung (S. 783).
-- **Bundesrecht USG, 4. Kapitel**: Vermeidung/Entsorgung von Abfaellen (**Art. 30-30h USG**), Abfallplanung + Entsorgungspflicht (**Art. 31-31c USG**), Finanzierung der Entsorgung (**Art. 32-32b USG**), Sanierung von Deponien/belasteten Standorten (**Art. 32c-32e USG**) (S. 783). Ausfuehrung durch **VVEA** (Verwerten/Unschaedlichmachen/Beseitigen von Siedlungs-, kompostierbaren, Sonder- und Bauabfaellen); Sonderabfaelle via **VeVA** (S. 783-784).
+- **Bundesrecht USG, 4. Kapitel**: Vermeidung/Entsorgung von Abfaellen (**Art. 30-30h USG**), Abfallplanung + Entsorgungspflicht (**Art. 31-31c USG**), Finanzierung der Entsorgung (**Art. 32-32bbis USG**), Sanierung von Deponien/belasteten Standorten (**Art. 32c-32e USG**) (S. 783). Ausfuehrung durch **VVEA** (Verwerten/Unschaedlichmachen/Beseitigen von Siedlungs-, kompostierbaren, Sonder- und Bauabfaellen); Sonderabfaelle via **VeVA** (S. 783-784).
 - **Kantonales Recht: § 249 PBG** und primaer das **AbfG** (Abfallgesetz ZH) konkretisieren/ergaenzen; kantonale Fachstelle ist das **AWEL** (§ 4a Abs. 2 AbfV) (S. 784).
 - **Siedlungsabfaelle** (Art. 3 VVEA): dem oeffentlichen Sammelwesen zu uebergeben (§ 16 AbfG); Separatsammlung fuer Glas/Metall/Papier + Altoel vorgeschrieben (§ 3 AbfV) (S. 785).
 - **Gewerbe-/Sonderabfaelle** (Betriebs-/Unternehmensabfaelle): vom Inhaber/Unternehmer auf eigene Kosten zu behandeln (§ 17 AbfG; Art. 12 ff. VVEA) (S. 785).

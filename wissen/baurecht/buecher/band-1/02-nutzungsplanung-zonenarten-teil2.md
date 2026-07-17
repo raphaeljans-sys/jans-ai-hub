@@ -66,8 +66,11 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
 - **Gewaesser (2.3.4.2):** Bei oberirdischen Gewaessern (Seen, Teiche, Fluesse, Baeche) handelt es
   sich grundsaetzlich um Nichtbauzonen; der **Gewaesserraum** ist mit Schutzzonen gemaess Art. 17
   RPG bzw. Art. 36a GSchG ausgeschieden. Eigentum der Oeffentlichkeit oder eines Privaten ist
-  unerheblich. Im **dicht ueberbauten Gebiet** kann die Behoerde den Gewaesserraum anpassen
-  (Art. 41c GSchV) (S. 147). Querbezug Detail → Destillat [[band-2/15-lage-von-gebaeuden]].
+  unerheblich. Im **dicht ueberbauten Gebiet** kann die **Breite** des Gewaesserraums den
+  baulichen Gegebenheiten angepasst werden, soweit der Hochwasserschutz gewaehrleistet ist
+  (**Art. 41a Abs. 4 lit. a GSchV** fuer Fliessgewaesser; **Art. 41b Abs. 3 GSchV** fuer stehende
+  Gewaesser). Art. 41c GSchV betrifft demgegenueber die zulaessigen **Anlagen** im Gewaesserraum,
+  nicht die Breite (Korrektur Modell D, 2026-07-17) (S. 147). Querbezug Detail → Destillat [[band-2/15-lage-von-gebaeuden]].
 - **Grundwasserschutzzonen (2.3.4.3):** Bei unterirdischen Gewaessern (Grundwasser, Quellen) ist
   die an der Erdoberflaeche festgesetzte Zone massgebend. Aus unterirdischen Gewaessern werden
   **60 Prozent der Trinkwasser** gewonnen; zu deren Schutz scheiden die Kantone **Schutzzonen** aus:

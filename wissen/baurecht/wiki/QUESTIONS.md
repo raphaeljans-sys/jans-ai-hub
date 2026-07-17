@@ -5,7 +5,45 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
-## 2026-07-15 (Buch-Run 46, Modell-D — die 2 letzten verifizierbaren «dauerhaft offenen» Flags als Zitierfehler entlarvt + Art. 43 LSV beschafft) — **VERIFIKATIONS-RUECKSTAND ABGEBAUT**
+## 2026-07-17 (Buch-Run 47, Modell-D — 4 Komplexe adversarial parallel via Agent-Fan-out: Gewässerraum GSchV, LSV-Schallschutz, Quartierplan PBG, USG-Altlasten-Nomenklatur)
+
+**Die Run-46-Meldung «VERIFIKATIONS-RUECKSTAND ABGEBAUT» war verfrüht.** Eine Gegenprobe über die
+älteren QUESTIONS-Einträge fand **vier Flags, die am inzwischen vorhandenen amtlichen Volltext sehr
+wohl prüfbar waren** — sie standen nur weiter unten im Dokument und wurden vom Run-46-Sweep nicht
+erfasst. Lehre für den Loop: «kein offener Flag» darf nicht aus dem letzten Report übernommen werden,
+sondern muss über das **ganze** QUESTIONS-Dokument gegen den raw-Bestand geprüft werden (Flags altern
+ins Dokument hinein, während `raw/` wächst).
+
+- **Komplex 1 — Gewässerraum (GSchV Art. 41a/41b):** Divergenz war schon in Run 32 sachlich aufgelöst,
+  die Korrektur aber **nur im Fliesstext** nachgeführt → die Kennzahlen-Tabelle in
+  [[15-lage-von-gebaeuden]] widersprach dem eigenen Fliesstext (Schwelle 1 m/2 m verwechselt,
+  Art. 41b Abs. 2 als Beleg für das 20-m-Mass fehlzitiert). **5 KORRIGIERT / 4 CONFIRMED / 3 OFFEN.**
+  Zusätzlicher Fund ausserhalb des Flags: **Art. 41c GSchV fehlzitiert** in [[02-nutzungsplanung-zonenarten-teil2]]
+  (Anpassung der Breite im dicht überbauten Gebiet = **Art. 41a Abs. 4 lit. a**; Art. 41c regelt die
+  zulässigen **Anlagen**).
+- **Komplex 2 — LSV Art. 31/31a/32/35/39:** Flag war Karteileiche (Kern in Run 33/46 erledigt), die
+  absatzweise Neulesung ergab dennoch **6 Präzisierungen + 4 materielle Lücken** — gewichtigste:
+  **Art. 32 Abs. 3 LSV** (Schallschutzpflicht auch bei Umbau/Ersatz/Neueinbau, Erleichterung nur auf
+  Gesuch) fehlte in Wiki und beiden Destillaten vollständig, obwohl es die für JANS häufigere
+  Fallgruppe als der Neubau ist. Details im geschlossenen Flag unten.
+- **Komplex 3 — Quartierplan §§ 160a/81/129 PBG:** **vollständig CONFIRMED**, kein einziger Fehler.
+  Der Widerlegungsversuch scheiterte — und förderte stattdessen eine **methodische Falle** zutage:
+  amtliche Buchstaben-Paragraphen stehen mit Leerschlag («§ 160 a.26»), weshalb `grep "160a"` null
+  Treffer liefert. Der Vorbefund «§ 160a existiert nicht» war ein **Fehlalarm** — anders als die echten
+  Zitierfehler § 209f PBG (Run 46) und «§ 50a VRG» (Run 46). Als Prüfregel in `training/PROGRAMM.md`
+  verankert, zusammen mit der Register-Sweep-Pflicht (Lehre aus Komplex 1 und 4).
+- **Komplex 4 — USG-Altlasten:** materiell **alles CONFIRMED**, aber die **Geisterbezeichnung
+  «Art. 32bis USG»** (existiert nicht) überlebte an 4 Register-Fundorten, davon zwei in INDEX-Dateien,
+  die als Einstieg gelesen werden. Plus 5 Fundorte alter Leerzeichen-Notation und eine zu kurz gefasste
+  Abschnittsgrenze. Alle nachgezogen.
+
+**Bilanz:** 4 Komplexe, **0 Halluzinationen**, 1 Flag vollständig CONFIRMED, 3 Flags mit
+Korrekturen geschlossen, **~20 Fundorte** synchronisiert, 2 neue Prüfregeln im PROGRAMM.
+**needs-verification (neu):** Art. 40 Abs. 2 LSV + Anhang 3/4 LSV (nicht im raw — Beschaffungslauf);
+Art. 41c GSchV + GSchV-Übergangsbestimmung 4.5.2011 + HWSchV ZH §§ 15/15d/15m (nicht im raw);
+Art. 32e Abs. 3/4 USG (VASA) — alle vier sind **beschaffbare** Lücken, nicht per se unbelegbare.
+
+## 2026-07-15 (Buch-Run 46, Modell-D — die 2 letzten verifizierbaren «dauerhaft offenen» Flags als Zitierfehler entlarvt + Art. 43 LSV beschafft) — Meldung «Rückstand abgebaut» durch Run 47 relativiert
 Drei Komplexe, Modell-D-Volltextabgleich; zwei neue amtliche Volltexte beschafft (VRG-Beschwerdeteil, LSV-Empfindlichkeitsstufen). Kein Agent-Fan-out (Zielkomplexe klein/eindeutig, direkt geprüft). **Kernbefund: die beiden seit Run 44 als «ausserhalb Volltextumfang, bleibt offen» geführten Flags § 209f PBG und § 50a VRG waren in Wahrheit echte ZITIERFEHLER — jetzt korrigiert.**
 
 - **Komplex 1 — Behördenbeschwerde: «§ 209f PBG» → § 338c PBG (KORRIGIERT).** Gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3538-3585) geprüft: Die Behördenbeschwerde steht amtlich in **§ 338c PBG** (Randtitel «III. Behördenbeschwerde»): «Gegen Rekursentscheide, welche die Anordnung einer kantonalen Instanz ganz oder teilweise aufheben, kann die zuständige Direktion zur Wahrung öffentlicher Interessen Beschwerde erheben.» Allgemeine Legitimation (auch Erlassanfechtung) § 338a PBG, kantonale Verbandsbeschwerde § 338b PBG. **«§ 209 PBG» regelt die vorsorglichen Schutzmassnahmen mit Inventar** (Natur-/Denkmalschutz) — sachfremd; das Suffix «209f» war spurious (schon Run-8-Destillat notierte «Buchstaben-Suffixe (209f) unsicher»). Korrigiert in: Wiki [[rechtsschutz-und-rechtsmittelverfahren]], Destillat [[09-rechtsschutz]] (Frontmatter + 3 Fliesstextstellen + offene-Punkte), `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`.
@@ -251,7 +289,7 @@ Fünf needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.
 - **✅ §§ 203/205/209/211/213 (Kap. 4 Natur-/Heimatschutz) volltextverifiziert** → Destillat [[04-natur-und-heimatschutz]] + Wiki [[naturschutz-und-denkmalschutz]] `emerging` → **`established`**, **2 Korrekturen:** (1) 1-Jahr(+1)-Frist Provokationsentscheid = **§ 213 Abs. 3** (nicht Abs. 1; «§ 213 Abs. 3 = Verwirkungsfristen» war irreführend); (2) vorsorgliches Veränderungsverbot = **§ 209 Abs. 2 (Verbot) i.V.m. Abs. 3 (Jahresfrist)**; die «+1 Jahr»-Verlängerung steht NICHT im Gesetz (§ 209), nur analog § 213 Abs. 3 (BEZ 2017 Nr. 2) → als Analogie markiert. Schutzobjekt-Katalog § 203 lit. a-g, Massnahmen § 205 lit. a-d, § 211 Abs. 4 bestätigt.
 - **✅ § 120/§ 150/§ 264/§ 346 PBG (Landsicherung/Baulinien/Planungszone) volltextverifiziert** → Wiki [[baulinien-und-abstandslinien]] `emerging` → **`established`**. **1 Korrektur:** § 122 Abs. 1 Fristbeginn = **«seit Eintritt seiner Rechtskraft»** (nicht «nach Erlass»), 5 J. korrekt → Destillat [[03-erschliessung-landsicherung-teil1]] an 2 Stellen korrigiert. § 150 (Quartierplanbann), § 264 (Strassenabstand subsidiär zur Verkehrsbaulinie), § 346 (Planungszone 3 + 2 J.) bestätigt.
 - **✅ § 30 VRG (Dreiteilung) volltextverifiziert** → neuer amtl. Volltext **`raw/260712_amtlich_zh_vrg.md`** (§§ 8/9/10c/15/30 VRG, LS 175.2, ab zhlex) angelegt — die bisher fehlende VRG-Faktenbasis geschlossen. § 30 Abs. 1 VRG (a Schuldbetreibung / b Ersatzvornahme / c unmittelbarer Zwang) + § 10c VRG (anfechtbare Verfügung bei Realakt) bestätigt. **1 Korrektur:** [[bauausfuehrung-und-baukontrolle]] Sektion 5 — Grundpfandrecht stützt sich auf **Art. 836 ZGB**, nicht auf § 15 VRG (§ 15 VRG = «Kostenvorschuss»).
-- **needs-verification (neu/verbleibend):** ~~§ 209 «+1 Jahr»-Verlängerung (nur Analogie, kein Wortlaut)~~ **erledigt Buch-Run 33 (2026-07-13, siehe Abschnitt oben)** — bestätigt reine Analogie zu § 213 Abs. 3 PBG, kein Wortlaut in § 209. Gewässerraum-Schwellen weichen zwischen [[abstaende-und-hoehen]] (GSB < 2 m → 11 m) und [[15-lage-von-gebaeuden]] (Sohle < 1 m → 11 m) ab → am **Fedlex GSchV Art. 41a** abgleichen; Gewässerabstand 20 m (Kap. 11, GSchV-Übergangsbestimmung, nicht PBG). **Erledigt** die alten Flags: § 30 VRG (jetzt volltextbelegt), §§ 218-232 PBG, §§ 203-213 PBG, § 120-122/150/264/346 PBG, §§ 269-274/292 PBG.
+- **needs-verification (neu/verbleibend):** ~~§ 209 «+1 Jahr»-Verlängerung (nur Analogie, kein Wortlaut)~~ **erledigt Buch-Run 33 (2026-07-13, siehe Abschnitt oben)** — bestätigt reine Analogie zu § 213 Abs. 3 PBG, kein Wortlaut in § 209. ~~Gewässerraum-Schwellen-Divergenz zwischen [[abstaende-und-hoehen]] und [[15-lage-von-gebaeuden]]~~ → **erledigt 2026-07-17 (Buch-Run 47, Modell D):** kein echter Widerspruch, sondern zwei verschiedene Absätze — Art. 41a **Abs. 2** lit. a GSchV (Normalgebiete, Sohle < 2 m → 11 m) vs. **Abs. 1** lit. a (nur Schutzgebiete, Sohle < 1 m → 11 m). **Restarbeit erledigt:** die Kennzahlen-Tabelle in [[15-lage-von-gebaeuden]] widersprach ihrem eigenen Fliesstext (Run-32/37-Korrekturen waren nur im Fliesstext nachgeführt) — Z. 246/247/250 auf die richtigen Absätze gesetzt, Schutzgebiets-Formeln ergänzt, Art. 41b Abs. 2 als Fehlzitat für das 20-m-Mass entfernt (Abs. 2 regelt nur Erhöhungsgründe), Uferlinien-Messweise entzitiert (Art. 41a kennt den Begriff «Uferlinie» nicht, er misst ab Gerinnesohle). Beleg: `raw/260712_amtlich_ch_gschv.md`. **Weiterhin offen:** Gewässerabstand 20 m (Kap. 11, GSchV-Übergangsbestimmung 4.5.2011, nicht im raw-Auszug), § 15d/15m HWSchV (kantonal, kein raw-Beleg), Art. 41c GSchV (nicht im raw-Auszug). **Erledigt** die alten Flags: § 30 VRG (jetzt volltextbelegt), §§ 218-232 PBG, §§ 203-213 PBG, § 120-122/150/264/346 PBG, §§ 269-274/292 PBG.
 
 ## Geklärt / verifiziert — 2026-07-12 (Buch-Run 30, Phase 3 · Modell-D Volltextabgleich §§ 233-237 / 326-329 / 340-341 PBG, parallelisiert via Workflow)
 Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.md` geprüft (je ein Refutations-Agent). **CONFIRMED:** § 233 Abs. 1/2, § 234 (Kern), § 236 Abs. 1 (Reihenfolge Wasser/Energie), § 237 Abs. 1 Satz 2 (OEV-Pflicht «grössere Überbauung»), § 327 Abs. 1/Abs. 2, § 328 Abs. 1 (Arealüberbauung > 2 J.), **§ 329 Abs. 1 (BRG-Anfechtung nach RPG/USG/PBG — vom Volltext bestätigt, Agent-OFFEN aufgelöst)**, § 340 Abs. 1/2, § 340a (5 J.).
@@ -318,7 +356,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
 - ~~**Kap. 17 Ausrüstungen-Teil offen (Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen, Briefkästen § 4 ABV, §§ 295-298 PBG, Garagen §§ 37-39 BBV I)**~~ → **erledigt 2026-07-11** (Run 27): Kap. 17 Teil 3 (S. 1304-1319) distilliert [[17-haustechnische-anlagen-teil3]] — **17.9 Haustechnische Anlagen** (Abwärme/WRG/WKK § 30a BBV I, Feuerungen Öl/Gas/Holz § 24 BBV I/LRV/Feuerungskontrolle alle 2 J. Art. 13 LRV, Kaminhöhen 0,5/1,5/2 m, **Elektroheizungsverbot § 10b EnerG**, Warmwasser max. 60 °C § 26 BBV I / Vorlauf ≤ 50 °C-Boden ≤ 35 °C § 23 BBV I, **VHKA ab 5 Nutzeinheiten § 9 EnerG**, besondere Heizungen, Klima/Lüftung § 29 BBV I, **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro NIV Art. 37 ff., **Aufzugspflicht > 5 anrechenb. Geschosse** Kabine 2,10 × 1,10 m/§ 40 Abs. 2 BBV I, Liftanbau Altbau § 19a BBV II, Beförderungsanlagen § 296 PBG/§ 31/32 BBV I, Briefkästen Art. 73 ff. VPG). **Kap. 17 substanziell komplett** (nur 17.10-Rest nPBG offen). Speist [[wohnhygiene-und-raumanforderungen]].
 - ~~**Baulicher Umweltschutz / Lärm / NIS nicht als Themenartikel im Wiki**~~ → **erledigt 2026-07-11** (Run 27): neuer Wiki-Artikel [[laermschutz-und-nichtionisierende-strahlung]] aus [[19-baulicher-umweltschutz-teil2-laerm-nisv]] (S. 1404-1431). Kernaussagen: **Aufhebung Lüftungsfensterpraxis BGE 142 II 100** (IGW an ALLEN Fenstern lärmempfindl. Räume), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse, > 6 dB(A) nie leicht), Fluglärm Art. 31a LSV; **NISV zweistufig IGW/AGW**, **OMEN Art. 3 Abs. 3 NISV** (Balkone/Terrassen NICHT), **Mobilfunk AGW 4-6 V/m** (Bauzone Anspruch § 320 PBG ohne Bedürfnisnachweis BGer 1C_329/2013). **Kap. 19 vollständig.**
 - **needs-verification — BBV-I/BBV-II + EnerG (Fassungsstand):** ~~§§ 9/9a/10b/12/13 EnerG (VHKA-Schwelle, Elektroheizungsverbot, WKK)~~ → **EnerG-Teil erledigt 2026-07-14 (Buch-Run 39):** §§ 9-14 EnerG volltextverifiziert gegen `raw/260712_amtlich_zh_energ.md` und im Destillat [[17-haustechnische-anlagen-teil3]] korrigiert (VHKA 2/3 statt 5 Nutzeinheiten, § 12b/50h, § 13 aufgehoben, § 9a existiert nicht — siehe Verifikationsabschnitt oben). ~~**Weiterhin offen: reiner BBV-I-Wortlaut**~~ → **erledigt 2026-07-14 (Buch-Run 40)** — §§ 18/21/22/23/24/26/29/30a/31/32/33/37/40/42/43/44/45/45a/46/46a BBV I + § 19a BBV II volltextverifiziert gegen `raw/260607_amtlich_zh_bbv1.md`/`bbv2.md`, 6 Korrekturen, siehe Abschnitt oben. [[17-haustechnische-anlagen-teil3]] jetzt `established`.
-- **needs-verification — LSV/NISV-Artikel (Kap. 19):** Art. 31/31a/32/35/39 LSV + Anhang 5 Ziff. 222 LSV; Art. 2/3/4/5/6/7/8/9/11/12/14/16 NISV + Ziff. 61/62/64 Anhang 1 NISV + Anhang 2 NISV (IGW-Tabelle) — am Fedlex-Volltext gegenprüfen. **5G:** die 6. Aufl. kennt die neuen Frequenzen (700/1400/3500 MHz) nur als Prognose; die zugehörigen AGW am aktuellen Anhang 1 NISV spiegeln.
+- ~~**needs-verification — LSV/NISV-Artikel (Kap. 19):** Art. 31/31a/32/35/39 LSV + Anhang 5 Ziff. 222 LSV; Art. 2/3/4/5/6/7/8/9/11/12/14/16 NISV + Ziff. 61/62/64 Anhang 1 NISV + Anhang 2 NISV (IGW-Tabelle) — am Fedlex-Volltext gegenprüfen.~~ → **erledigt** (Run 33 NISV/Anhang 5, Run 46 Art. 43/44 LSV, **Run 47 vom 2026-07-17: LSV Art. 31/31a/32/35/39 Absatz für Absatz**): Kernaussagen CONFIRMED, **6 Präzisierungen/Korrekturen** (Art. 31 Abs. 1 «wesentlich» qualifiziert nur die Änderungen — jeder Neubau fällt darunter; Art. 31 Abs. 2 kantonale Zustimmung ist kumulatives Tatbestandsmerkmal des Bundesrechts, nicht bloss Zuständigkeitsfrage; Art. 31a Abs. 1 **Planungs- UND** Immissionsgrenzwerte gelten als eingehalten — nur deshalb ist die Neueinzonung Art. 24 USG möglich; Art. 31a Abs. 1 lit. c Ziff. 1+2 unvollständig wiedergegeben — Fenster muss sich auch automatisch öffnen lassen, plus angemessenes Raumklima; Art. 32 Abs. 1 Mindest- vs. erhöhte Anforderung SIA 181 + Bauherr als Adressat + SIA 181 nur «insbesondere»; Art. 35 Stichprobe ist der Regelfall, Prüfpflicht nur im Zweifelsfall) und **4 Lücken geschlossen** (Art. 31 Abs. 3 Kosten trägt der Grundeigentümer; Art. 31a Abs. 2 grundeigentümerverbindliche Festhaltung; **Art. 32 Abs. 3 — Schallschutzpflicht auch bei Umbau/Ersatz/Neueinbau samt Erleichterungsgesuch**, die praktisch häufigste Fallgruppe und bisher gar nicht erfasst; Art. 39 Abs. 2 [1,5 m über Boden, ES I] und Abs. 3 [rechtliche Zulässigkeit massgebend]). Anhang 5 Ziff. 222 war entgegen der Flag-Annahme im raw enthalten (Z. 104-116). Beleg: `raw/260712_amtlich_ch_lsv-nisv.md`. **Neu offen:** Art. 40 Abs. 2 LSV (Additionsprinzip) und Anhang 3/4 LSV (Strassen-/Eisenbahnlärm-Grenzwerte) sind nicht im raw — für einen Beschaffungslauf vormerken; SIA 181 im Wortlaut ist kostenpflichtig (via Skill `normen`). **5G:** die 6. Aufl. kennt die neuen Frequenzen (700/1400/3500 MHz) nur als Prognose; die zugehörigen AGW am aktuellen Anhang 1 NISV spiegeln.
 - ~~**needs-verification — Kaminhöhen/LRV:** Ziff. 3 Kaminempfehlungen 2013 (0,5/1,5/2 m) + Art. 6/13/20 LRV an der aktuellen BAFU-Empfehlung/Fedlex prüfen.~~ → **Geklärt/verifiziert — 2026-07-13 (Buch-Run 33):** amtlicher LRV-Volltext (Fedlex, Stand 1.1.2026) und BAFU-Kaminempfehlungen (1. aktualisierte Auflage Dezember 2018, Umwelt-Vollzug Nr. 1318) geprüft. CONFIRMED: Kaminmündung 0,5 m über Dachfirst/höchstem Gebäudeteil, 1,5 m über Flachdach, 2 m über begehbarem Flachdach (Ziff. 3.2 Kaminempfehlungen); Öl-/Gasfeuerungen ≤ 40 kW Abweichung ≥ 1 m rechtwinklig (Ziff. 3.2 Abs. 2); Holzfeuerungen < 10 m zu höheren Nachbargebäuden = Nachbargebäude massgebend (Ziff. 3.2 Abs. 3); Austrittsgeschwindigkeit ≥ 6 m/s (Ziff. 2.2); Art. 6 LRV (Emissionserfassung/-ableitung über Dach, Abs. 3 Hochkamine Anhang 6) wortgetreu bestätigt; Anhang 6 LRV gilt nur bei Q/S > 5. KORRIGIERT: **Art. 20 LRV (Konformitätserklärung Öl-/Gasfeuerungen) ist per 1.1.2022 aufgehoben** (AS 2021 632) — die Buch-Aussage «seit 1.1.2005 keine BAFU-Typenprüfung, nur Konformitätserklärung Art. 20 LRV» ist als Stand-2019-Aussage zu kennzeichnen, heute massgebend ist die Feuerungskontrolle nach Art. 13 Abs. 3 LRV. PRÄZISIERT: Art. 13 Abs. 3 LRV unterscheidet seit 1.6.2018 drei Kontroll-Rhythmen (4 Jahre kleine Holz-/Gasfeuerungen, 2 Jahre übrige Feuerungsanlagen — Regelfall, 3 Jahre übrige Anlagen), nicht pauschal «alle 2 Jahre». Beleg: `raw/260713_amtlich_ch_lrv.md`; nachgeführt in [[17-haustechnische-anlagen-teil3]] und [[wohnhygiene-und-raumanforderungen]]. OFFEN bleibt die Detailregelung zur Herstellerkonformität kleiner Feuerungen in Anhang 3 LRV Ziff. 4 ff. (nicht vertieft geprüft, ausserhalb Auftragsumfang).
 
 ## Offene Wissenslücken — neu (2026-07-03, aus Buch-Run 20)
@@ -334,10 +372,22 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   AWEL-Bewilligung (Art. 32d bis USG). **Kap. 12 vollständig.**
 - ~~**Quartierplan/Landumlegung (Kap. 3 Rest):**~~ → **erledigt 2026-07-03** (Run 20):
   [[03-quartierplan-landumlegung-teil2]] + Block in [[baureife-und-erschliessung]]. **Kap. 3 vollständig.**
-- **needs-verification — Wortlaut § 160a / § 81 / § 129 PBG (Quartierplan):** im Kap.-3-Destillat nur
-  referiert, nicht wörtlich zitiert — bei Kundenzitaten am amtlichen PBG-Volltext (raw/) gegenprüfen.
-- **needs-verification — «bis»-Artikel Art. 32b bis / 32d bis USG:** Nomenklatur aus dem Reader-Fliesstext;
-  vor Kundenzitat am Fedlex-USG-Volltext prüfen.
+- ~~**needs-verification — Wortlaut § 160a / § 81 / § 129 PBG (Quartierplan):**~~ → **erledigt 2026-07-17
+  (Buch-Run 47, Modell D):** alle CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md` (§ 160a Z. 1623-1640,
+  § 160b Z. 1641-1644, § 81 Z. 893-902, § 129 Z. 1343-1356) — materiell nichts zu korrigieren.
+  **Grep-Falle dokumentiert:** der amtliche Text schreibt Buchstaben-Paragraphen mit Leerschlag
+  («§ 160 a.26»), `grep "160a"` liefert 0 Treffer, obwohl der Paragraph existiert. Ein grep-gestützter
+  Vorbefund «Paragraph existiert nicht» ist ohne `grep -E "§ ?NNN ?[a-z]"` **nicht belastbar** — als
+  Prüfregel in `training/PROGRAMM.md` verankert. Präzisierung: § 160a **Abs. 3** verlangt «Zustimmung
+  aller Grundeigentümer des Beizugsgebiets» (praxisüblich «Einstimmigkeit»); Drill-Karte geschärft.
+- ~~**needs-verification — «bis»-Artikel Art. 32b bis / 32d bis USG:**~~ → **erledigt 2026-07-14/15
+  (Run 44/45), Re-Verifikation 2026-07-17 (Run 47) bestätigt:** amtlich **Art. 32bbis** / **Art. 32dbis**
+  (je ein zusammenhängender Bezeichner, eigenständige Artikel), Inhalt CONFIRMED. **Neu behoben:**
+  die Geisterbezeichnung **«Art. 32bis USG»** (existiert nicht — Sequenz 32 → 32a → 32abis → 32b →
+  32bbis) überlebte an 4 Register-Fundorten (`wiki/INDEX.md`, `buecher/INDEX.md`, `QUESTIONS.md`,
+  `curriculum.md`) und die Leerzeichen-Notation an 5 weiteren (inkl. 2 Drill-Karten) → alle nachgezogen;
+  Abschnittsgrenze «Art. 32-32b USG» → «Art. 32-32bbis USG» korrigiert. **Offen:** Art. 32e Abs. 3/4
+  (VASA-Abgeltungen) ist im raw nicht ausgeschrieben — die VASA-Aussagen bleiben buch-/URP-gestützt.
 - **Offene Band-1-Reste:** ~~Kap. 5 (Planung und Entschädigung)~~ → **erledigt 2026-07-04** (Run 21).
   ~~Kap. 9 «Rechtsschutz» Rest S. 576-606 (Ablauf/Kosten/Revision/Mediation)~~ → **erledigt 2026-07-06**
   (Run 22): Destillat [[09-rechtsschutz-teil2-ablauf-kosten-revision]] + NEU Wiki
@@ -433,7 +483,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   distilliert [[08-ausfuehrung-teil2-baustellensicherheit]] — Schutz Nachbargrundeigentum § 239 Abs. 1 PBG/
   **Rissprotokoll** (privatrechtl., Beweislast Art. 8 ZGB, BEZ 2016 Nr. 15), Feuerpolizei (→ `brandschutz`),
   Arbeitnehmerschutz VUV/BauAV, Baustellenentsorgung Art. 16 VVEA (**Konzept ab > 200 m³**)/Bauherren-Altlast
-  Art. 32bis USG (2/3-Rückgriff), Baulärm-Richtlinie (Stufen A/B/C), amtl. Vermessung § 19 KVAV. Wiki
+  Art. 32bbis USG (2/3-Rückgriff), Baulärm-Richtlinie (Stufen A/B/C), amtl. Vermessung § 19 KVAV. Wiki
   [[bauausfuehrung-und-baukontrolle]] Abschn. 6 geschärft. **Kap. 8 endet S. 535 → Band 1 komplett (ausser
   Kap. 18 Brandschutz).**
 - **NEU Kap. 13 offen — §§ 242 (Antennen) / 248 (Camping/Fahrnisbauten):** stehen erst **nach S. 891**

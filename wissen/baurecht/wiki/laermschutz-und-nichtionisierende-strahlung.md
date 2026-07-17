@@ -3,10 +3,10 @@ name: laermschutz-und-nichtionisierende-strahlung
 beschreibung: Baulicher Umweltschutz im Kt. ZH — Laermschutz (LSV, Empfindlichkeitsstufen, Aufhebung Lueftungsfensterpraxis, Baubewilligung trotz IGW-Ueberschreitung Art. 31 Abs. 2 LSV, Fluglaerm) und Schutz vor nicht ionisierender Strahlung (NISV, IGW/AGW, OMEN, Mobilfunkantennen).
 status: established
 kanton: ZH
-paragraphen: ["Art. 11-25 USG", "Art. 24 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31a LSV", "Art. 32 LSV", "Art. 35 LSV", "Art. 39 LSV", "Anhang 5 Ziff. 222 LSV", "Art. 2 NISV", "Art. 3 Abs. 6 NISV", "Art. 5 NISV", "Art. 11 NISV", "Art. 12 NISV", "Anhang 1 Ziff. 61/62/64 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
+paragraphen: ["Art. 11-25 USG", "Art. 24 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31a LSV", "Art. 32 LSV", "Art. 35 LSV", "Art. 31 Abs. 3 LSV", "Art. 31a Abs. 2 LSV", "Art. 32 Abs. 3 LSV", "Art. 39 Abs. 1/2/3 LSV", "Anhang 5 Ziff. 222 LSV", "Art. 2 NISV", "Art. 3 Abs. 6 NISV", "Art. 5 NISV", "Art. 11 NISV", "Art. 12 NISV", "Anhang 1 Ziff. 61/62/64 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
 quellen: ["[[19-baulicher-umweltschutz]]", "[[19-baulicher-umweltschutz-teil2-laerm-nisv]]"]
-verifiziert: 2026-07-13 (Modell-D LSV/NISV, Buch-Run 33 — Restklaerung Anhang 5 Ziff. 222 LSV geschlossen: gegen raw/260712_amtlich_ch_lsv-nisv.md volltextverifiziert Art. 31/31a/32/39/40 LSV + Anhang 5 Ziff. 222 (Fluglaerm-Belastungsgrenzwerte Lrn, via Art. 31a fuer die Nachtstunden) sowie NISV Art. 3 Abs. 6/Abs. 3, Art. 11, Anhang 1 Ziff. 64. Nicht raw-verifiziert und daher weiterhin destillat-/rechtsprechungsgestuetzt: die zitierten Gerichtsentscheide (BGE 142 II 100, BGer 1C_40/2009 / 1C_329/2013, URP/VB/BEZ/BRGE) — Rechtsprechung ist per se nicht am Gesetzeswortlaut belegbar.); 2026-07-15 (Buch-Run 46, Modell-D): **Art. 43/44 LSV (Empfindlichkeitsstufen ES I-IV) beschafft und volltextverifiziert** gegen raw/260715_amtlich_ch_lsv-es.md (Fedlex, Stand 1.11.2023) — ES I erhöhtes Lärmschutzbedürfnis/Erholungszonen, ES II keine störenden Betriebe/Wohnzonen + Zonen für öff. Bauten, ES III mässig störende Betriebe/Wohn-Gewerbe-Mischzonen + Landwirtschaftszonen, ES IV stark störende Betriebe/Industriezonen; Aufstufung um eine Stufe nur ES I/II bei Vorbelastung (Art. 43 Abs. 2); Zuordnung durch Kantone in Baureglementen/Nutzungsplänen (Art. 44), bis dahin Einzelfall (Art. 44 Abs. 3). CONFIRMED, keine Korrektur — needs-verification-Flag «Art. 43 LSV kein raw-Volltext» geschlossen.
-last_updated: 2026-07-13
+verifiziert: 2026-07-13 (Modell-D LSV/NISV, Buch-Run 33 — Restklaerung Anhang 5 Ziff. 222 LSV geschlossen: gegen raw/260712_amtlich_ch_lsv-nisv.md volltextverifiziert Art. 31/31a/32/39/40 LSV + Anhang 5 Ziff. 222 (Fluglaerm-Belastungsgrenzwerte Lrn, via Art. 31a fuer die Nachtstunden) sowie NISV Art. 3 Abs. 6/Abs. 3, Art. 11, Anhang 1 Ziff. 64. Nicht raw-verifiziert und daher weiterhin destillat-/rechtsprechungsgestuetzt: die zitierten Gerichtsentscheide (BGE 142 II 100, BGer 1C_40/2009 / 1C_329/2013, URP/VB/BEZ/BRGE) — Rechtsprechung ist per se nicht am Gesetzeswortlaut belegbar.); 2026-07-15 (Buch-Run 46, Modell-D): **Art. 43/44 LSV (Empfindlichkeitsstufen ES I-IV) beschafft und volltextverifiziert** gegen raw/260715_amtlich_ch_lsv-es.md (Fedlex, Stand 1.11.2023) — ES I erhöhtes Lärmschutzbedürfnis/Erholungszonen, ES II keine störenden Betriebe/Wohnzonen + Zonen für öff. Bauten, ES III mässig störende Betriebe/Wohn-Gewerbe-Mischzonen + Landwirtschaftszonen, ES IV stark störende Betriebe/Industriezonen; Aufstufung um eine Stufe nur ES I/II bei Vorbelastung (Art. 43 Abs. 2); Zuordnung durch Kantone in Baureglementen/Nutzungsplänen (Art. 44), bis dahin Einzelfall (Art. 44 Abs. 3). CONFIRMED, keine Korrektur — needs-verification-Flag «Art. 43 LSV kein raw-Volltext» geschlossen.; 2026-07-17 (Buch-Run 47, Modell-D): **LSV Art. 31/31a/32/35/39 Absatz fuer Absatz** gegen raw/260712_amtlich_ch_lsv-nisv.md — 6 Praezisierungen (Art. 31 Abs. 1 «wesentlich» nur fuer Aenderungen; Art. 31 Abs. 2 kantonale Zustimmung kumulativ; Art. 31a Abs. 1 **Planungs- UND** IGW; Art. 31a lit. c Ziff. 1+2 unvollstaendig; Art. 32 Abs. 1 Mindest- vs. erhoehte Anforderung SIA 181 + Bauherr als Adressat; Art. 35 Stichprobe = Regelfall) und 4 Luecken geschlossen (Art. 31 Abs. 3 Kosten Grundeigentuemer; Art. 31a Abs. 2 grundeigentuemerverbindlich; **Art. 32 Abs. 3 Umbau/Ersatz + Erleichterung auf Gesuch**; Art. 39 Abs. 2/3). Nicht raw-verifiziert: Art. 40 Abs. 2 LSV + Anhang 3/4 LSV (nicht im raw), SIA 181 (kostenpflichtig, via Skill `normen`).
+last_updated: 2026-07-17
 ---
 
 # Laermschutz und Schutz vor nicht ionisierender Strahlung (baulicher Umweltschutz ZH)
@@ -38,29 +38,59 @@ einhalten**.
 ### Baubewilligung trotz überschrittener Grenzwerte (Art. 31 Abs. 2 LSV)
 Sind die IGW auch mit baulichen/gestalterischen Massnahmen nicht einhaltbar, ist die Bewilligung
 zu **verweigern**, es sei denn, es besteht ein **überwiegendes Interesse an der Errichtung**
-(**Art. 31 Abs. 2 LSV** = Ausnahme, Interessenabwägung durch die Baubehörde):
+**und die kantonale Behörde stimmt zu** (**Art. 31 Abs. 2 LSV** — beide Voraussetzungen
+kumulativ; die kantonale Zustimmung ist ein Tatbestandsmerkmal des Bundesrechts, nicht bloss
+eine kantonale Zuständigkeitsordnung; volltextverifiziert 2026-07-17):
 - Anerkannte überwiegende Interessen: **Schliessung von Baulücken** in überbauten Zonen (BGer
   1C_40/2009 Villa Patumbah), Erhaltung wertvoller Bausubstanz, Wiederaufbau (**§ 307 PBG**
   [[ausnahmebewilligung-und-bestandesschutz]]), Ortsbild-/Denkmalschutz, Lärmabschirmung durch
   vorgelagerte Bürobauten.
 - **Überschreitung um 6 dB(A) gilt nie als «leicht»** (URP 2010 S. 515). Die Vermeidung von
   Entschädigungsstreitigkeiten (materielle Enteignung) ist **kein** ausreichendes Interesse.
-- Bei Bewilligung trotz IGW-Überschreitung: **verschärfte Schalldämmung der Aussenbauteile
-  (Art. 32 Abs. 2 LSV)**, konkretisiert über **SIA 181** «Erhöhte Anforderungen an den Schutz
-  gegen Aussenlärm».
+- Bei Bewilligung trotz IGW-Überschreitung **verschärft die Vollzugsbehörde die Anforderungen an
+  die Schalldämmung der Aussenbauteile «angemessen» (Art. 32 Abs. 2 LSV)**. Der Verordnungstext
+  nennt in Abs. 2 kein Mass; die Konkretisierung über **SIA 181** «Erhöhte Anforderungen an den
+  Schutz gegen Aussenlärm» ist **Vollzugspraxis** (SIA 181 wird in Art. 32 Abs. 1 als anerkannte
+  Regel der Baukunde genannt).
 - Zuständigkeit: **kantonale Bewilligung** (Baudirektion, Ziff. 3.2 Anhang BVV), Baugesuch mit
   **Lärmgutachten** + Formular «Lärmschutz».
+
+### Schallschutz im Bestand und Kontrolle
+- **Art. 32 Abs. 3 LSV:** Die Schallschutzanforderungen gelten auch für Aussenbauteile,
+  Trennbauteile, Treppen und haustechnische Anlagen, die **umgebaut, ersetzt oder neu eingebaut**
+  werden — also auch im Umbau- und Fensterersatzfall, nicht nur beim Neubau. Die Vollzugsbehörde
+  gewährt **auf Gesuch hin Erleichterungen**, wenn die Einhaltung unverhältnismässig ist (das
+  Ventil kommt nicht von Amtes wegen, es muss beantragt werden).
+- **Art. 31 Abs. 3 LSV:** Die Kosten der Massnahmen tragen die **Grundeigentümer**.
+- **Art. 35 LSV (Kontrolle):** Nach Abschluss der Bauarbeiten prüft die Vollzugsbehörde
+  **durch Stichproben**, ob die Schallschutzmassnahmen die Anforderungen erfüllen; **in
+  Zweifelsfällen muss** sie die Prüfung vornehmen (ZH: kommunale Baubehörde, kombiniert mit
+  § 327 PBG [[bauausfuehrung-und-baukontrolle]]).
+- **Ort der Ermittlung ergänzend (Art. 39 LSV):** Fluglärm darf auch **in der Nähe der Gebäude**
+  ermittelt werden (Abs. 1); im **nicht überbauten Gebiet von Zonen mit erhöhtem
+  Lärmschutzbedürfnis 1,5 m über Boden** (Abs. 2); in **noch nicht überbauten Bauzonen dort, wo
+  nach Bau- und Planungsrecht Gebäude mit lärmempfindlichen Räumen erstellt werden dürfen**
+  (Abs. 3) — der massgebende Absatz für Einzonungs- und Machbarkeitsfragen.
 
 ### Fluglärm (Art. 31a LSV) — relevant Flughafenregion ZH
 - Grossflugzeug-Umgebung: erhöhte Anforderungen SIA 181 (Art. 32 Abs. 1 LSV). Planungswerte =
   Voraussetzung für Neueinzonung von Wohngebäuden (Art. 24 USG).
 - **Art. 31a LSV (seit 2.2.2015):** Bauen trotz nächtlicher Grenzwertüberschreitung möglich, wenn
   Nachtruhe 24-06 h flugfrei, lärmempfindliche Räume mit erhöhtem Schallschutz und **Schlafräume
-  ein Fenster mit automatischem Schliessmechanismus (22-24 Uhr)** haben. Massgebend sind die
-  **Immissionsgrenzwerte nach Anhang 5 Ziffer 222 LSV** (Belastungsgrenzwerte in Lrn für die
+  ein Fenster haben, das sich 22-24 Uhr automatisch schliesst und in den übrigen Zeiten
+  automatisch öffnen lässt** (Art. 31a Abs. 1 lit. c Ziff. 1), **und so erstellt sind, dass ein
+  angemessenes Raumklima gewährleistet ist** (Ziff. 2 — eigenständige Bauvoraussetzung, praktisch
+  kontrollierte Lüftung/Kühlung, ein eigener Kostentreiber). Massgebend sind die **Planungs- und
+  Immissionsgrenzwerte nach Anhang 5 Ziffer 222 LSV** (Belastungsgrenzwerte in Lrn für die
   Nachtstunden ziviler Flugplätze, Art. 40 Abs. 1 LSV); bei erfüllten Voraussetzungen des Art. 31a
-  gelten sie für die Nachtstunden als eingehalten (volltextverifiziert, raw/260712_amtlich_ch_lsv-nisv.md
-  Z. 38-58 / Anhang 5 Z. 104-109).
+  gelten **beide** für die Nachtstunden als eingehalten — dass auch die **Planungswerte** als
+  eingehalten gelten, ist der Grund, weshalb unter Art. 31a die Neueinzonung von Wohnbauzonen
+  (Art. 24 USG) überhaupt möglich bleibt (volltextverifiziert, raw/260712_amtlich_ch_lsv-nisv.md
+  Z. 38-58 / Anhang 5 Z. 104-116).
+- **Art. 31a Abs. 2:** Bei Ausscheidung oder Erschliessung von Bauzonen sorgt die zuständige
+  Behörde dafür, dass die Anforderungen nach Abs. 1 lit. b und c **grundeigentümerverbindlich**
+  festgehalten werden (Verankerung via Sonderbauvorschriften/Gestaltungsplan; bindet auch
+  Rechtsnachfolger).
 - **Abgrenzungslinie** (kant. Richtplan Kap. 4.7.1, seit 24.3.2014): innerhalb keine Neu-/
   Aufzonungen mit IGW-Überschreitung am Tag; massgebend Lärmkurven vBR 2012 / SIL.
 

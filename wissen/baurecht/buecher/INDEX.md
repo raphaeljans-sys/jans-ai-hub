@@ -240,7 +240,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   **Anschlussgebuehren + Abfall/Kehricht + belastete Standorte/Altlasten** — Anschlussgebuehr
   verursachergerecht (**Art. 60a GSchG / § 45 EG GSchG**), Abfallbeseitigung/Kehricht (**Art. 30-32b
   USG**, VVEA/VeVA, AbfG ZH, § 249 PBG, Verursacherprinzip), **Altlasten** (**Art. 32c USG** Sanierung
-  + Kataster belasteter Standorte KbS, **Art. 32d USG** Kostentragung/Verursacher, **Art. 32b bis / 32d bis
+  + Kataster belasteter Standorte KbS, **Art. 32d USG** Kostentragung/Verursacher, **Art. 32bbis / 32dbis
   USG** Bauherren-Altlast + Veraeusserungsbewilligung AWEL, **AltlV** Vor-/Detailuntersuchung/Realleistung
   Art. 20, VASA/Fonds Art. 32e). Trennung **Realleistungspflicht (Standortinhaber)** vs. **Kostentragung
   (Verursacher)** in zwei Verfahren. 20 Doppelseiten. Status: `emerging`. **SCHLIESST Kap. 12 «Baureife»
@@ -441,7 +441,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Feuerpolizei Baustelle** (Art. 58 BSN, Brandschutzrichtlinie — Detail → Skill `brandschutz`), **8.3.3
   Arbeitnehmerschutz** (**VUV** + **BauAV**, SUVA-Meldung Asbest Art. 60a/60b BauAV), **Baustellen-
   entsorgung** (**Entsorgungskonzept ab > 200 m³ Bauabfaellen oder Schadstoffen** Art. 16 VVEA;
-  Asbestverbot ChemRRV Anh. 1.6; «Bauherren-Altlast» **2/3-Rueckgriff Art. 32bis USG**), **Bauemissionen**
+  Asbestverbot ChemRRV Anh. 1.6; «Bauherren-Altlast» **2/3-Rueckgriff Art. 32bbis USG**), **Bauemissionen**
   (Baulaerm-Richtlinie 3 Massnahmenstufen A/B/C statt Grenzwerten, Art. 6 LSV; Baustellenwasser SIA 431/
   AWEL-Bewilligung), **8.6 amtliche Vermessung** (Aufnahme binnen 1 J. § 19 KVAV). 13 Doppelseiten
   (Shots 257-269). Status: `emerging`. **SCHLIESST Kap. 8 (Kap. endet S. 535; damit Band 1 substanziell

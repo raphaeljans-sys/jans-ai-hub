@@ -118,9 +118,12 @@ Abs. 2 LSV (S. 1376-1377, 1400-1403).
 - **Laermermittlung** (Art. 38 LSV: Messung oder Berechnung; Anhang 2 LSV); **Ermittlungspflicht
   der Behoerde** (Art. 36 LSV); **Laermbelastungskataster / Immissionskataster** (Art. 37 LSV)
   (S. 1376-1377).
-- **Ort der Ermittlung** (Art. 39 LSV): bei Gebaeuden in der **Mitte der offenen Fenster**
-  laermempfindlicher Raeume; bei unueberbauten Bauzonen am Ort der kuenftigen Gebaeude
-  (S. 1377).
+- **Ort der Ermittlung** (Art. 39 LSV; volltextverifiziert 2026-07-17): bei Gebaeuden in der
+  **Mitte der offenen Fenster** laermempfindlicher Raeume, **Fluglaerm auch in Gebaeudenaehe**
+  (Abs. 1); im **nicht ueberbauten Gebiet von Zonen mit erhoehtem Laermschutzbeduerfnis 1,5 m
+  ueber Boden** (Abs. 2); in **noch nicht ueberbauten Bauzonen dort, wo nach Bau- und
+  Planungsrecht Gebaeude mit laermempfindlichen Raeumen erstellt werden duerfen** (Abs. 3 —
+  massgebend ist die rechtliche Zulaessigkeit, nicht eine faktische Planung) (S. 1377).
 - **Neue ortsfeste Anlagen:** Emissionsbegrenzung Art. 7 LSV; PW grundsaetzlich einhalten,
   Erleichterungen Art. 7 Abs. 2 LSV (S. 1382-1383).
 - **Geaenderte Anlagen / wesentliche Aenderung** (Art. 8 LSV): bei wesentlicher Aenderung gelten
@@ -137,12 +140,25 @@ Abs. 2 LSV (S. 1376-1377, 1400-1403).
   laermempfindliche Raeume, wenn IGW/AW ueberschritten und Begrenzung an der Quelle nicht
   ausreicht (S. 1398-1399).
 - **Bauvorhaben in laermbelasteten Gebieten** (19.3.4, S. 1400-1403):
-  - **Grundsaetzliche Anforderungen** (Art. 32 LSV): laermempfindliche Raeume sowie Treppen/
-    haustechnische Anlagen — Schallschutz nach **SIA-Norm 181** (Art. 32 Abs. 1 LSV; auch
-    Art. 21 Abs. 1 USG) (S. 1400).
-  - **Wesentliche Neu- und Umbauten** (Art. 31 LSV): bei Ueberschreitung der IGW nur mit
-    baulichen/gestalterischen Massnahmen bewilligungsfaehig; **Ausnahme** Art. 31 Abs. 2 LSV
-    bzw. **§ 320 PBG** (kantonale Ausnahmebewilligung) (S. 1400-1401).
+  - **Grundsaetzliche Anforderungen** (Art. 32 Abs. 1 LSV; volltextverifiziert 2026-07-17):
+    **der Bauherr eines neuen Gebaeudes** sorgt dafuer, dass der Schallschutz bei
+    **Aussenbauteilen und Trennbauteilen** laermempfindlicher Raeume sowie bei Treppen und
+    haustechnischen Anlagen den **anerkannten Regeln der Baukunde** entspricht. Als solche gelten
+    «insbesondere» die **Mindestanforderungen SIA 181** (uebrige ortsfeste Anlagen — Regelfall)
+    bzw. die **erhoehten Anforderungen SIA 181** (nur zivile Flugplaetze mit Grossflugzeugverkehr)
+    (auch Art. 21 Abs. 1 USG). **Abs. 3:** die Anforderungen gelten auch fuer Bauteile, die
+    **umgebaut, ersetzt oder neu eingebaut** werden (Umbau-/Fensterersatzfall); die
+    Vollzugsbehoerde gewaehrt **auf Gesuch hin Erleichterungen**, wenn die Einhaltung
+    unverhaeltnismaessig ist (S. 1400).
+  - **Neubauten und wesentliche Aenderungen von Gebaeuden mit laermempfindlichen Raeumen**
+    (Art. 31 Abs. 1 LSV — «wesentlich» qualifiziert nur die Aenderungen, **jeder** Neubau faellt
+    darunter; volltextverifiziert 2026-07-17): bei Ueberschreitung der IGW nur bewilligungsfaehig,
+    wenn diese eingehalten werden koennen durch (a) **Anordnung der laermempfindlichen Raeume auf
+    der laermabgewandten Seite** oder (b) **bauliche/gestalterische Massnahmen, die das Gebaeude
+    gegen Laerm abschirmen**; **Ausnahme** Art. 31 Abs. 2 LSV (ueberwiegendes Interesse **und**
+    Zustimmung der kantonalen Behoerde — kumulativ) bzw. **§ 320 PBG** (kantonale
+    Ausnahmebewilligung); die **Kosten der Massnahmen tragen die Grundeigentuemer**
+    (Art. 31 Abs. 3 LSV) (S. 1400-1401).
   - **Anordnung der laermempfindlichen Raeume** (**§ 301 PBG**): bei Wohnraeumen in
     Mehrfamilienhaeusern grundsaetzlich gegen Nord/Nordwest gerichtet zulaessig (Abs. 1),
     abweichend in Kern-/Zentrumszonen und Hotels (Abs. 2) (S. 1403).

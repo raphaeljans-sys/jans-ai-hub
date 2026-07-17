@@ -84,6 +84,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 - **Kompoundieren:** jeder Lauf baut auf den vorigen; Destillate/Wiki wachsen, nicht duplizieren.
 - **Brandschutz (Kap. 18)** nur Querverweis auf Skill `brandschutz` (kein Doppelaufbau).
 - **Echte Umlaute ae/oe/ue → ä/ö/ü, Schweizer Hochdeutsch, kein ß.**
+- **Grep-Toleranz bei Buchstaben-Paragraphen (Pruefregel Modell D, seit Run 47):** der amtliche
+  ZH-Volltext schreibt Buchstaben-Paragraphen **mit Leerschlag** («§ 160 a.26», «§ 160 b.26»).
+  Ein `grep "160a"` liefert deshalb **0 Treffer, obwohl der Paragraph existiert**. Ein
+  grep-gestuetzter Vorbefund «Paragraph existiert nicht» ist ohne Toleranz-Syntax **nicht
+  belastbar** — immer `grep -E "§ ?NNN ?[a-z]"` verwenden, bevor ein Zitierfehler behauptet wird.
+  Betrifft potenziell jeden §§-Check (§ 110a, § 123a, § 149a, § 87a, § 44a, § 338c …).
+  Gegenprobe: die Paragraphensequenz um die Fundstelle herum lesen (Run 47: § 160a CONFIRMED,
+  Vorbefund war Fehlalarm — anders als die echten Zitierfehler § 209f PBG und «§ 50a VRG»).
+- **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
+  5-6 Fundorten (Wiki, Destillat, `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`,
+  `training/drills.md`). Eine Korrektur nur im Fliesstext laesst **Tabellen und Register
+  divergieren** (Run 47: Gewaesserraum-Tabelle widersprach dem eigenen Fliesstext ueber 2 Laeufe
+  hinweg; «Art. 32bis USG» ueberlebte in 4 Registern). Nach jeder Korrektur `grep -rn` ueber alle
+  sechs Dateiarten laufen lassen.
 
 ## Fortschritts-Tracker
 
@@ -91,6 +105,18 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 47 (2026-07-17, Modell-D — 4 Komplexe adversarial parallel via Agent-Fan-out: Gewaesserraum GSchV,
+    LSV-Schallschutz, Quartierplan PBG, USG-Nomenklatur):** **Die Run-46-Meldung «Verifikations-Rueckstand
+    abgebaut» war verfrueht** — eine Gegenprobe ueber das ganze QUESTIONS-Dokument fand 4 Flags, die am
+    inzwischen vorhandenen Volltext sehr wohl pruefbar waren (sie standen weiter unten und wurden vom
+    Run-46-Sweep nicht erfasst). Befunde: Gewaesserraum-**Kennzahlen-Tabelle widersprach dem eigenen
+    Fliesstext** (Run-32-Korrektur nur dort nachgefuehrt; Schwellen 1 m/2 m, Art. 41b Abs. 2 fehlzitiert) +
+    **Art. 41c → Art. 41a Abs. 4 lit. a** in band-1/02; **LSV 6 Praezisierungen + 4 Luecken** (gewichtigste:
+    **Art. 32 Abs. 3 LSV** — Schallschutzpflicht auch im Umbau/Fensterersatz, fehlte ueberall); Quartierplan
+    **vollstaendig CONFIRMED** (Vorbefund «§ 160a existiert nicht» = **Leerschlag-Falle** «§ 160 a.26»);
+    USG **«Art. 32bis» als Geisterbezeichnung** an 4 Register-Fundorten. **0 Halluzinationen**, ~20 Fundorte
+    synchronisiert, 4 Drills. **2 neue Pruefregeln** oben in den Leitplanken verankert (Grep-Toleranz,
+    Register-Sweep). Ruecktaktungs-Empfehlung bleibt bestehen. Report `outputs/2026-07-17_buch-run47.md`.
   - **Run 45 (2026-07-15, Modell-D — 3 Komplexe adversarial parallel via Agent-Tool: §§ 218/219/220 PBG,
     KNHV §§ 13-22/29-32, USG-Altlasten Re-Verifikation):** § 220 Abs. 2 PBG **Gemeinwesen-Ausnahme** (offene
     Luecke seit Run 34) vollstaendig in [[ausnahmebewilligung-und-bestandesschutz]] ergaenzt + Abs. 3-Praezisierung

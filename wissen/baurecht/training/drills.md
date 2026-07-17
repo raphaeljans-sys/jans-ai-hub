@@ -676,8 +676,12 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
 
 ## Kap. 3 Teil 2 — Quartierplan / Landumlegung (Run 20)
 
-- **F:** Welches Quorum braucht ein **privater** Quartierplan im Kanton ZH? — **A:** **Einstimmigkeit**
-  aller Beteiligten über alle Verfahrensstadien (§ 160a PBG; Bd 1, S. 240). Deshalb ist er in der Praxis
+- **F:** Welches Quorum braucht ein **privater** Quartierplan im Kanton ZH? — **A:** Zustimmung
+  **aller** Grundeigentümer des Beizugsgebiets (§ 160a **Abs. 3** PBG, amtlicher Wortlaut; praxisüblich
+  «Einstimmigkeit»). Sie zieht sich über alle Stadien: gemeinsames Gesuch aller (Abs. 1), Zustimmung
+  aller zum Plan (Abs. 3), Genehmigung nur des «im Einverständnis aller Beteiligten» aufgestellten QP
+  (Abs. 5); werden beschränkte dingliche Rechte Dritter geändert, braucht es auch deren Zustimmung
+  (Abs. 3). Volltextverifiziert 2026-07-17 (raw/260607_amtlich_zh_pbg.md Z. 1623-1640). Deshalb ist er in der Praxis
   selten; der amtliche QP (§ 158 PBG, Gemeindevorstand) ist schon auf Gesuch eines einzigen
   Grundeigentümers einleitbar (§ 147). _[2026-07-03]_
 - **F:** Innert welcher Frist kann ein im Quartierplan neu zugeteiltes Grundstück heimgeschlagen werden?
@@ -696,9 +700,9 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   (Verursacherprinzip, Art. 32d Abs. 1 USG; Bd 2, S. 801/803). _[2026-07-03]_
 - **F:** Bei einer «Bauherren-Altlast»: in welchem Erwerbsfenster kann der heutige Inhaber Mehrkosten
   zurückfordern, und wie viel? — **A:** In der Regel **zwei Drittel** der Mehrkosten bei Erwerb zwischen
-  **1.7.1972 und 1.7.1997** (Art. 32b bis USG; Bd 2, S. 803 f.). _[2026-07-03]_
+  **1.7.1972 und 1.7.1997** (Art. 32bbis Abs. 1 USG; Bd 2, S. 803 f.; Anspruch verwirkt — Geltendmachung war nur laengstens bis 1.11.2021 moeglich, Abs. 3). _[2026-07-03]_
 - **F:** Was braucht der Verkauf eines im KbS eingetragenen Grundstücks im Kt. ZH? — **A:** Eine
-  **Bewilligung des AWEL** (Art. 32d bis USG); erteilt bei keinen zu erwartenden Einwirkungen,
+  **Bewilligung des AWEL** (Art. 32dbis Abs. 3 USG); erteilt bei keinen zu erwartenden Einwirkungen,
   gesicherter Kostendeckung oder überwiegendem öffentlichem Interesse (Bd 2, S. 806 f.). _[2026-07-03]_
 
 ## Kap. 10 — Widerrechtliche Bauten & Sanktionen (Run 20)
@@ -1570,3 +1574,57 @@ verifizierbaren «dauerhaft offenen» Flags waren **echte Zitierfehler**: Behoer
 statt «§ 209f PBG»; **kein § 50a VRG** (Normenkontrolle prinzipal § 19 Abs. 1 lit. d VRG / akzessorisch
 ungeschrieben). Art. 43/44 LSV (ES I-IV) beschafft + CONFIRMED. Wiki [[rechtsschutz-und-rechtsmittelverfahren]]
 + Destillat [[09-rechtsschutz]] **emerging→established**. **VERIFIKATIONS-RUECKSTAND ABGEBAUT.**
+
+---
+
+## Buch-Run 47 (2026-07-17) — Modell D: Gewaesserraum, LSV-Schallschutz, Quartierplan, USG-Nomenklatur
+
+- **F (Modell D):** Bach mit natürlicher Gerinnesohle von 1,5 m, Parzelle in einer normalen Wohnzone
+  (kein Schutzgebiet). Wie breit ist der Gewässerraum mindestens — und warum ist «6 × 1,5 + 5 = 14 m»
+  falsch? — **A:** **11 m.** Es gilt Art. 41a **Abs. 2** lit. a GSchV: «für Fliessgewässer mit einer
+  Gerinnesohle von weniger als **2 m** natürlicher Breite: 11 m». Die Formel «6-fache Breite der
+  Gerinnesohle plus 5 m» steht in **Abs. 1** lit. b und gilt nur in Biotopen von nationaler Bedeutung,
+  kantonalen Naturschutzgebieten, Moorlandschaften, Wasser-/Zugvogelreservaten sowie — bei
+  gewässerbezogenen Schutzzielen — in Landschaften von nationaler Bedeutung und kantonalen
+  Landschaftsschutzgebieten. Merksatz: **Abs. 1 = Schutzgebiete (Schwelle 1 m), Abs. 2 = Normalfall
+  (Schwelle 2 m).** Beleg: SR 814.201 Art. 41a Abs. 1/2, raw/260712_amtlich_ch_gschv.md.
+  Vgl. [[abstaende-und-hoehen]], [[15-lage-von-gebaeuden]]. _[2026-07-17]_
+
+- **F (Modell D):** Bauherr will an lärmbelasteter Lage bei einem bestehenden MFH nur die Fenster
+  ersetzen — kein Neubau, keine wesentliche Änderung. Greift die LSV überhaupt, und gibt es ein Ventil?
+  — **A:** Ja. **Art. 31 LSV** greift nicht (nur Neubauten und wesentliche Änderungen), aber
+  **Art. 32 Abs. 3 LSV** zieht ersetzte Aussenbauteile eigenständig in die Schallschutzpflicht: «Die
+  Anforderungen gelten auch für Aussenbauteile, Trennbauteile, Treppen und haustechnische Anlagen, die
+  umgebaut, ersetzt oder neu eingebaut werden.» Massstab ist die anerkannte Regel der Baukunde, im
+  Regelfall die **Mindestanforderungen SIA 181** (Art. 32 Abs. 1). Ventil: die Vollzugsbehörde gewährt
+  **auf Gesuch hin Erleichterungen**, wenn die Einhaltung unverhältnismässig ist — sie kommt **nicht**
+  von Amtes wegen. Kosten trägt der Grundeigentümer (Art. 31 Abs. 3 LSV). Beleg:
+  raw/260712_amtlich_ch_lsv-nisv.md Z. 62-76. Vgl. [[laermschutz-und-nichtionisierende-strahlung]]. _[2026-07-17]_
+
+- **F (Modell D):** Wie lautet die amtliche Bezeichnung des Artikels zum 2/3-Rückgriff für Bauaushub
+  aus belasteten Standorten, was ist die häufigste Zitierfalle — und lohnt sich der Anspruch 2026 noch?
+  — **A:** **Art. 32bbis USG** — ein zusammenhängender Bezeichner, ein eigenständiger Artikel (eingefügt
+  BG 16.12.2005, in Kraft 1.11.2006). Falsch sind sowohl «Art. 32b bis» (Leerzeichen, Reader-Artefakt)
+  als auch «Art. 32bis» (existiert im USG nicht; die Sequenz lautet 32 → 32a → 32abis → 32b → 32bbis).
+  **Der Anspruch ist heute verwirkt:** Art. 32bbis Abs. 3 USG befristete die Geltendmachung auf
+  «längstens bis zum 1. November 2021» — in der Kostenschätzung sind die vollen Entsorgungskosten als
+  CapEx-Risiko einzustellen. Beleg: raw/260714_amtlich_ch_usg.md Z. 92-96, 115-116. _[2026-07-17]_
+
+- **F (Modell A · Frage→Beleg):** Ein Grundeigentümer will einen privaten Quartierplan, ein Nachbar im
+  Beizugsgebiet mauert. Wie weiter? — **A:** Ohne dessen Zustimmung geht der private QP nicht —
+  § 160a Abs. 3 PBG verlangt die Zustimmung **aller** Grundeigentümer des Beizugsgebiets. Der Weg ist
+  der amtliche QP: er wird schon **auf Gesuch eines einzigen** Grundeigentümers eingeleitet (§ 147 PBG)
+  und vom Gemeindevorstand festgesetzt (§ 158 PBG). Fällt die Einstimmigkeit unterwegs weg, führt der
+  Gemeindevorstand das Verfahren auf Begehren eines Beteiligten oder nach Fristablauf unter
+  Berücksichtigung der Vorarbeiten fort (§ 160a Abs. 4 PBG). Beleg: raw/260607_amtlich_zh_pbg.md
+  Z. 1623-1640, 1498, 1596. Vgl. [[baureife-und-erschliessung]]. _[2026-07-17]_
+
+**Ergebnis Buch-Run 47 (4 Komplexe Modell D, Fan-out auf 4 Verifikations-Agenten):** Die Run-46-Meldung
+«Rückstand abgebaut» war **verfrüht** — vier ältere QUESTIONS-Flags waren am inzwischen vorhandenen
+Volltext sehr wohl prüfbar. Befunde: **Gewässerraum-Tabelle in [[15-lage-von-gebaeuden]] widersprach
+ihrem eigenen Fliesstext** (Schwellen 1 m/2 m verwechselt, Art. 41b Abs. 2 fehlzitiert), **Art. 41c GSchV
+fehlzitiert** in band-1/02 (richtig Art. 41a Abs. 4 lit. a), **6 LSV-Präzisierungen + 4 materielle Lücken**
+(gewichtigste: Art. 32 Abs. 3 LSV — Schallschutzpflicht auch im Umbau/Fensterersatz, mit
+Erleichterungsgesuch), **«Art. 32bis USG» als Geisterbezeichnung** an 4 Register-Fundorten. Quartierplan
+(§ 160a/§ 81/§ 129 PBG) **vollständig CONFIRMED** — der grep-Vorbefund «§ 160a existiert nicht» war eine
+**Leerschlag-Falle** («§ 160 a.26» im amtlichen Text), jetzt als Prüfregel in PROGRAMM.md verankert.
