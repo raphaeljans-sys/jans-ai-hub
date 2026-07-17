@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.07.2026 20:44:39
+Stand: 17.07.2026 20:54:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:38)
@@ -14,4 +14,4 @@ Stand: 17.07.2026 20:44:39
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- f188c633 nas-selfcommit: 2 Datei(en) 2026-07-17 20:30
+- 7af94f21 nas-selfcommit: 2 Datei(en) 2026-07-17 20:45
