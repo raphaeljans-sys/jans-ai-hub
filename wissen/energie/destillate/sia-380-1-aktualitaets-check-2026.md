@@ -25,6 +25,14 @@ Stand 17.07.2026 ist **SIA 380/1:2016** (mit Revision 1 / Korrigenda C1 per 1.3.
 die aktuell gültige Ausgabe — eine neuere Ausgabe (2023/2024/2025) existiert **nicht**; die KB-
 Grundlage ist damit bestätigt, nicht veraltet.
 
+> **Querbezug KB `normen` (Wissens-Chef Run 7, 17.07.2026):** Für die Norm-Fundstelle selbst ist
+> die KB `normen` führend (Rule `normen-referenz`). Deren Destillat `normen/destillate/sia-380-1-2016`
+> liegt nur als **Vorschau/Auszug (6/60 Seiten, `speculative`)** vor und führt Grenz-/U-Werte
+> ausdrücklich als P1-Bring-Schuld (Volltext SIA-Abo). Die belegten Grenz-/U-Werte trägt daher
+> **energie** über die Vollzugshilfe **EnFK EN-102** (`[[enfk-en-102-waermeschutz-2018]]`,
+> `established`, aus dem Original gegengeprüft) — Vollzugsebene, nicht Normtext. Diese
+> Aktualitäts-Bestätigung (C1/2019-Inhalt nicht am Volltext gelesen) bleibt `emerging`.
+
 ## Befund
 
 ### 1. Aktuell gültige Ausgabe (bestätigt via SIA-Shop)

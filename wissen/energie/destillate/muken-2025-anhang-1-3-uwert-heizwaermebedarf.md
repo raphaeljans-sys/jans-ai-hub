@@ -123,10 +123,13 @@ primärquellen-identischen Dokument ("Vollzugshilfe EN-102, Ausgabe Dezember 201
 und dem ZH-Anforderungsprofil. Die U-Wert-Tabellen (Tab. 2/4) im bestehenden Destillat sind dagegen
 korrekt und decken sich mit dem Original. Es handelt sich damit um einen **Transkriptionsfehler in
 der Heizwärmebedarf-Tabelle** des bestehenden KB-Artikels, keine echte Abweichung zwischen zwei
-gültigen Normfassungen. Empfehlung an den Hauptprozess: Tabelle 5 in
-`enfk-en-102-waermeschutz-2018.md` beim nächsten zentralen Wartungslauf korrigieren und den
-Frontmatter-Hinweis "Basis: Norm SIA 380/1, Ausgabe 2009" auf "Ausgabe 2016" richtigstellen (siehe
-Abschnitt "Offene Punkte").
+gültigen Normfassungen.
+
+> ✅ **ERLEDIGT am 17.07.2026 (Wissens-Chef Run 7 verifiziert):** Tabelle 5 in
+> `enfk-en-102-waermeschutz-2018.md` ist inzwischen korrigiert (Werte am Original-PDF per
+> curl+pdftotext gegengeprüft) und der Frontmatter-Jahrgang auf "Basis: Norm SIA 380/1,
+> Ausgabe 2016" richtiggestellt; der dortige Artikel kreditiert diesen Fund. Dieser Absatz ist
+> nur noch historischer Kontext — kein offener Punkt mehr.
 
 ## Zusatzbefund — MuKEn erlaubt Kantonen eine alternative Rechtstechnik (Art. 1.8 Abs. 2, "Variante")
 

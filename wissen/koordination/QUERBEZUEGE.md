@@ -30,6 +30,55 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ planungsgrundlagen ↔ energie (WWG/HWSchV → WsG/WsV) — geprueft 2026-07-17 (Run 7)
+- **Befund:** Die Run-5-Bring-Schuld ist einloesbar geworden — baurecht hat heute (Buch-Run 48) die
+  Aufhebung von **HWSchV UND WWG per 1.6.2026** (OS 81, 144 → WsG LS 724.1 + WsV LS 724.11) amtlich
+  belegt (`baurecht/raw/260717_amtlich_zh_hwschv.md`, Konkordanztabelle alt/neu). Drei
+  planungsgrundlagen-Artikel hinkten hinterher. Vier Befunde, alle **CONFIRMED** (an den Zitatstellen
+  + der amtlichen raw-Quelle verifiziert, baurecht als fuehrend bestaetigt): (1) `kartenportale-
+  naturgefahren-objektschutz` behauptete «§ 22 WWG unveraendert in Kraft» (positive Falschaussage);
+  (2) `recht-norm-abstandsvorschriften-wald-gewaesser` fuehrte **§ 15d** (alte Nummer vor Nachtrag 95,
+  richtig § 15k) + HWSchV/WWG ohne Flag; das eingedolt-«11 m» ist als kantonales Mass **entfallen**
+  (§ 24 WsV nur Verringerung); (3) selber Artikel knuepfte die 15 m stehender Gewaesser faelschlich an
+  die 0,5-ha-Schwelle (die ist nur Verzichtsgrund Art. 41b Abs. 4 lit. b, kein Formel-Kriterium —
+  baurecht Modell-D-verifiziert); (4) `recht-norm-regenwasser-gewaesserraum-zh` hatte den WWG-Flag
+  (Run 5), aber HWSchV/«HWV» ungeflaggt.
+- **Aktion:** alle vier autonom korrigiert (Aufhebungs-Flags, § 15d→§ 15k, eingedolt-Sachlage,
+  0,5-ha-Korrektur, HWV→HWSchV, Verfahren 2/3 «bis 31.5.2026», Verweis auf baurecht als fuehrend).
+- **Offen (nicht autonom):** (a) **WsG-/WsV-Nachfolge-§ fuer § 22 WWG** (Gefahrenbereiche) am Volltext
+  verifizieren — raw deckt nur die HWSchV-§§, nicht § 22 WWG (Bring-Schuld); (b) **Doppelspur
+  GSchV-Bemessungstabelle** (baurecht `abstaende-und-hoehen` + planungsgrundlagen `abstandsvorschriften`
+  fuehren dieselbe Art.-41a/41b-Tabelle materiell) — Trim auf reinen Verweis = Umstrukturierung, Rueckfrage.
+  Ergaenzt den offenen §-Mapping-Punkt aus Run 5 (jetzt via baurecht-Konkordanztabelle groesstenteils
+  vorhanden). **Status: bereinigt + verlinkt; 2 offene Bring-Schulden.**
+
+### normen ↔ energie (SIA 380/1:2016) — geprueft 2026-07-17 (Run 7)
+- **Befund:** 0 Zahlen-Widerspruch. **Fuehrungs-Anomalie:** die fuehrende KB `normen` legte heute
+  (Run 15) das Destillat `sia-380-1-2016` an — aber nur als **Vorschau/Auszug (6/60 S., `speculative`)**
+  und fuehrt Grenz-/U-Werte als **P1-Blocker («komplett unerschlossen»)**, obwohl `energie` dieselben
+  Werte via Vollzugshilfe **EnFK EN-102** (`enfk-en-102-waermeschutz-2018`, `established`, am Original
+  gegengeprueft) laengst belegt. energie `sia-380-1-aktualitaets-check-2026` beantwortet zudem die von
+  normen offen gelassene Ausgabe-/Korrigenda-Frage (2016 + C1/2019 aktuell). Beidseitig fehlende
+  Querlinks. **Nebenbefund (autonom erledigt):** der von energie gemeldete Transkriptionsfehler in
+  enfk-en-102 Tab. 5 war bereits behoben, wurde aber im `muken`-Destillat noch als «offen» gefuehrt.
+- **Aktion:** bidirektionale «Querbezug»-Bloecke (energie-aktualitaets-check → normen als Fundstelle;
+  normen-Destillat → energie/EnFK-EN-102 als Interims-Wertquelle, P1-Blocker relativiert auf die
+  zitierfaehige Norm-Fundstelle); Stale-Hinweis im `muken`-Destillat auf «ERLEDIGT 17.07.» umgeschrieben.
+- **Offen (nicht autonom, Bring-Schuld):** SIA 380/1:2016 Volltext (SIA-Abo) fuer die zitierfaehige
+  Fundstelle; Korrigenda C1:2019-Inhalt am Volltext lesen. **Status: verlinkt/bereinigt; 2 Bring-Schulden.**
+
+### normen ↔ baurecht (SIA-Vertrags-/Honorarnormen) — geprueft 2026-07-17 (Run 7, rotierend/leicht)
+- **Befund:** **Keine Ueberschneidung — legitimes Null-Ergebnis.** Die heute in normen destillierte
+  SIA-Vertrags-/Honorarfamilie (SIA 102/103/105/108, 118, 1001-*, 1023, 100, KBOB-Honorar) hat in
+  baurecht **null Praesenz** (gezielte greps: 0 Treffer «SIA 2009», «Honorarempfehlung», «KBOB»,
+  «16-15», «SIA 102/118»). Die zwei normen-Richtigstellungen (Honorarempfehlung 2009 = KBOB nicht SIA;
+  VKF-BRL 16-15 = Ausgabe 2015/Fassung 2017) koennen baurecht daher nicht widersprechen. Einzige
+  Beruehrung: **SIA 416** (Flaechendefinition), inhaltlich sauber getrennt (baurecht = PBG-Mass,
+  normen = SIA-416-Flaeche) und ueberwiegend verlinkt.
+- **Aktion:** keine substanzielle noetig. **Kuer (offen, niedrig):** ein fehlender SIA-416-Querlink in
+  `baurecht/wiki/abstaende-und-hoehen.md:338` (Klein-/Anbaute «nur SIA-416-Nebennutzflaechen»). **Status:
+  kein Befund; 1 optionaler Querlink offen.**
+
 ### energie ↔ normen ↔ planungsgrundlagen (SIA 180 sommerlicher Waermeschutz) — geprueft 2026-07-16 (Run 6)
 - **Befund:** Am neuen energie-Destillat `sommerlicher-waermeschutz-sia180-nachweisverfahren` (Run 74)
   **1 echter Sachfehler + 1 unnoetige Wissensluecke**, beide durch Nicht-Nutzung der KB `normen`

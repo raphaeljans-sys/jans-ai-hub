@@ -1,3 +1,12 @@
+## 2026-07-17 — Wissens-Chef Run 7 (Cross-KB SIA 380/1): P1-Blocker relativiert + Verweis auf energie
+- **`destillate/sia-380-1-2016.md`:** «Querbezug KB energie»-Block vor den offenen Punkten gesetzt.
+  Die als P1-Bring-Schuld gefuehrten Grenz-/U-Werte sind im Hub **operativ verfuegbar** — energie
+  fuehrt sie via Vollzugshilfe EnFK EN-102 (`wissen/energie/destillate/enfk-en-102-waermeschutz-2018`,
+  established) + `sia-380-1-aktualitaets-check-2026`. Der P1-Blocker gilt damit nur noch fuer die
+  **zitierfaehige Norm-Fundstelle** (Ziffer/Wortlaut am Volltext), nicht mehr fuer die belegbaren Werte;
+  entsprechend praezisiert. Kein Status-Wechsel, kein Wert erfunden. Bericht:
+  `koordination/outputs/2026-07-17_wissens-chef-run7.md`.
+
 ## 2026-07-17 — Run 15 (MacBook Pro, SIA/VKF): «SIA/VKF komplett» widerlegt — 59 Dateien fehlten im Inventar; Stufe (a) + (d) abgeschlossen
 
 **Wichtigster Befund — Inventar-Korrektur.** Ein Datei-fuer-Datei-Abgleich gegen die live gemountete

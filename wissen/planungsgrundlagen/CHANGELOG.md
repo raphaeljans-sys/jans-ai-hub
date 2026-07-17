@@ -2,6 +2,28 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-17 — Wissens-Chef Run 7 (Cross-KB): WWG/HWSchV → WsG/WsV nachgezogen (Run-5-Bring-Schuld geschlossen)
+- Ausloeser: baurecht hat heute (Buch-Run 48) amtlich belegt, dass **HWSchV und WWG per 1.6.2026
+  aufgehoben** sind (→ WsG LS 724.1 + WsV LS 724.11; Konkordanztabelle in `baurecht/raw/260717_amtlich_zh_hwschv.md`).
+  Das war die offene Bring-Schuld aus Run 5. Drei planungsgrundlagen-Artikel fuehrten die alten Erlasse noch.
+- **`wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md` — drei Eingriffe:** (1) Aufhebungs-Flag
+  HWSchV/WWG → WsG/WsV bei der ZH-Festlegung; (2) **§-Nummer + Sachlage korrigiert:** eingedolte
+  Fliessgewaesser «≥ 11 m» war § 15d Abs. 3 HWSchV (alt) → § 15k Abs. 3 (Nachtrag 95, 2017) → per
+  1.6.2026 **entfallen** (§ 24 WsV kennt nur Verringerung; 11 m folgen heute allein aus Art. 41a Abs. 2
+  lit. a GSchV); (3) **stehende Gewaesser korrigiert:** 15 m sind **nicht** an die 0,5-ha-Schwelle
+  geknuepft — 0,5 ha ist nur Verzichtsgrund (Art. 41b Abs. 4 lit. b), nicht Formel-Kriterium
+  (an baurecht `abstaende-und-hoehen`, Modell-D-verifiziert, angeglichen). § 15c-Fundstelle als
+  «bis 31.5.2026» markiert.
+- **`wiki/kartenportale-naturgefahren-objektschutz.md`:** die Aussage «§ 22 WWG unveraendert in Kraft»
+  auf «WWG per 1.6.2026 aufgehoben → WsG/WsV; konkreter Nachfolge-§ fuer § 22 WWG noch nicht
+  verifiziert (Bring-Schuld)» korrigiert + Verweis auf baurecht als fuehrend.
+- **`wiki/recht-norm-regenwasser-gewaesserraum-zh.md`:** WWG-Flag (Run 5) auf **HWSchV ausgeweitet**
+  (war ungeflaggt), Abkuerzung «HWV» → «HWSchV», Verfahren 2 + 3 als «bis 31.5.2026» markiert.
+- Verifikation: alle vier Befunde an den Zitatstellen + der amtlichen baurecht-raw-Quelle bestaetigt.
+- **Offen (nicht autonom):** (a) WsG-/WsV-Nachfolge-§ fuer § 22 WWG am Volltext klaeren; (b) Doppelspur
+  GSchV-Bemessungstabelle (baurecht + planungsgrundlagen materiell doppelt) — Trim auf reinen Verweis
+  = Umstrukturierung, Rueckfrage noetig. Bericht: `koordination/outputs/2026-07-17_wissens-chef-run7.md`.
+
 ## 2026-07-16 — Wissens-Chef Run 6 (Cross-KB): VKF-Querbezug in GreenPV-§6b, Jahresertrags-Divergenz §6↔§6b geflaggt
 - **`wiki/energie-pv-eignung-typenwahl.md` §6b (aus Training Run 50) — drei Eingriffe:**
   (1) **«Querbezug KB normen»-Block** vor der VKF-Hoehen-/RF-Staffel gesetzt: §6b fuehrt die

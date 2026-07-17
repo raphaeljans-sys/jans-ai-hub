@@ -2,6 +2,17 @@
 
 Neueste zuoberst.
 
+## 2026-07-17 — Wissens-Chef Run 7 (Cross-KB SIA 380/1, normen ↔ energie)
+- **`destillate/sia-380-1-aktualitaets-check-2026.md`:** «Querbezug KB normen»-Block ergaenzt —
+  Norm-Fundstelle ist normen-Sache (Rule `normen-referenz`), deren Destillat liegt aber nur als
+  speculative Auszug (6/60 S.) vor; die belegten Grenz-/U-Werte traegt energie via EnFK EN-102
+  (`enfk-en-102-waermeschutz-2018`, established). 0 Zahlen-Widerspruch normen↔energie.
+- **`destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md`:** der noch als «offen / beim naechsten
+  Wartungslauf korrigieren» gefuehrte Transkriptionsfehler-Hinweis (Tab. 5 enfk-en-102) auf **ERLEDIGT
+  17.07.2026** umgeschrieben — die Korrektur ist im enfk-en-102-Destillat bereits umgesetzt und am
+  Original gegengeprueft (Wissens-Chef verifiziert).
+- Bericht: `koordination/outputs/2026-07-17_wissens-chef-run7.md`.
+
 ## 2026-07-17 — Run 76: MuKEn-2025-U-Wert-Vergleich, Holzfeuerung-Förderfragen geschlossen, PV-Abregelung, SIA-380/1-Check
 
 Intensiv-Lauf auf ausdrücklichen Auftrag Raphaels (Verifikations-Stufe + Intensivphase +

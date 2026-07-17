@@ -3,6 +3,30 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-17 — Run 7 (3 Paare am neuen Run-48/76/15-Stoff; 3 Leser + Eigen-Verifikation an den Quellen)
+- Gedrosselter Lauf (Rule 260714): schlanker Fan-out mit 3 Lese-Agenten; die adversariale Verifikation
+  der Pair-A-Befunde lief nach einem 529-Abbruch des Verifier-Agenten **inline an den Primaerquellen**
+  (Zitatstellen + baurecht-raw-Konkordanztabelle) — alle vier CONFIRMED, keine Ueberkorrektur.
+- **baurecht ↔ planungsgrundlagen ↔ energie (WWG/HWSchV → WsG/WsV):** die **Run-5-Bring-Schuld ist
+  geschlossen** — baurecht hat heute (Buch-Run 48) die Aufhebung von HWSchV **und** WWG per 1.6.2026
+  amtlich belegt (Konkordanztabelle). Drei planungsgrundlagen-Artikel hinkten hinterher: falsche
+  «§ 22 WWG in Kraft»-Aussage, fehlende Flags, veraltete §-Nummer (§ 15d statt § 15k), entfallenes
+  eingedolt-11-m-Mass, 0,5-ha-Fehlzuordnung, ungeflaggte HWSchV. → alle vier autonom korrigiert/geflaggt.
+- **normen ↔ energie (SIA 380/1:2016):** 0 Zahlen-Widerspruch; Fuehrungs-Anomalie (normen fuehrt die
+  Werte als P1-Blocker «unerschlossen», energie hat sie via EnFK EN-102 established). → bidirektionale
+  Querbezuege, P1-Blocker auf die zitierfaehige Norm-Fundstelle relativiert; ein bereits behobener
+  Transkriptionsfehler-Hinweis im muken-Destillat auf «erledigt» nachgezogen.
+- **normen ↔ baurecht (SIA-Vertrags-/Honorarnormen):** legitimes **Null-Ergebnis** — keine
+  Ueberschneidung (baurecht fuehrt keinen Honorar-/Vertragsnorm-Stoff); die zwei normen-Richtigstellungen
+  (KBOB statt SIA 2009; VKF-16-15 Ausgabe 2015/Fassung 2017) sind konfliktfrei. 1 optionaler SIA-416-Querlink.
+- **Muster (Beobachtung):** planungsgrundlagen schreibt kantonales Erlassrecht (HWSchV/WWG) materiell
+  fort, ohne es aus der fuehrenden KB baurecht zu ziehen — analog zum wiederkehrenden normen-referenz-Muster,
+  hier fuer Gesetzesrecht. Strukturbefund fuer den Synergie-Orchestrator.
+- **Offene Entscheide fuer Raphael:** keine NEUEN. Weiter offen: die Run-6-Dublette in `normen`
+  (`vkf-merkblatt-2001-15-solaranlagen` / `vkf-brm-2001-15-solaranlagen`, dieselbe PDF — Merge braucht Freigabe).
+  Loop-Bring-Schulden: WsG-§ fuer § 22 WWG, GSchV-Doppelspur-Trim, SIA-380/1-Volltext + C1:2019.
+- Bericht: `outputs/2026-07-17_wissens-chef-run7.md`.
+
 ## 2026-07-16 — Run 6 (3 Paare am neuen Run-50/73/74-Stoff; Fan-out 3 Leser + 2 adversariale Verifier)
 - Geprueft wurde der seit Run 5 (gestern) neu gewachsene Stoff: energie **Run 73/74** (MuKEn-2025-Volltext,
   sommerlicher Waermeschutz SIA 180, Holzfeuerung, BHKW), planungsgrundlagen **Run 50** (GreenPV-
