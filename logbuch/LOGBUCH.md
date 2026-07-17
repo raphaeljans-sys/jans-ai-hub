@@ -40,6 +40,19 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
     Beide Zahlen korrekt, nur die Beschriftung war missverstaendlich → Wortlaut praezisiert,
     KEINE Zahl geaendert. Ebenso aufgeloest: 148'606.70 (nur Pos. 234 bereinigt) vs. 142'400.00
     (zusaetzlich WZU-Doppel heraus) = Umfangsfrage, kein Widerspruch; im Blatt erklaert.
+  - **FIDELITY-GATE FING EINEN ECHTEN RECHENFEHLER (wichtigster Befund des Laufs).** `twin-chef`
+    (Fidelity 74, Fachsignatur 68) wies nach, dass die Einordnung im Blatt UND im Briefing sachlich
+    falsch war: zwischen den Zieltotalen 148'606.70 und 142'406.65 liegt NICHT «das doppelt
+    offerierte WZU-System», sondern der **Contactless Kartenleser (4'735.50, Pos. 231.01) + die
+    Steigzone (1'000.00, Pos. 236.02)**; das Schluesselleser-System (5'832.90) bleibt in BEIDEN
+    Staenden enthalten (ein WZU-System wird gebraucht). Unabhaengig nachgerechnet und bestaetigt:
+    160'899.90 − 133'075.55 = 27'824.35 = 22'088.85 + 4'735.50 + 1'000.00; Delta der Pfade
+    (4'735.50 + 1'000.00) × 1.081 = 6'200.05. Der Fehler stammte aus der Urfassung vom 15.07. und
+    wurde von `rechtschreibung`/`layout` NICHT gefunden — die pruefen Sprache und Form, nicht die
+    Rechnung. **Lehre:** bei gerechneten Erzeugnissen ist das Twin-/Fachsignatur-Gate keine
+    Stil-Kosmetik, sondern die einzige Instanz, die die Zahlenlogik gegenliest. Blatt korrigiert
+    (Zielgroesse jetzt exakt 142'406.65 statt «rund 142'400», Kartenleser-Variante 131'978.15,
+    Ersparnis 25'302.50 ausgewiesen), Briefing entsprechend umgeschrieben.
   - **Guards:** A3 «nie ueberschreiben/nie loeschen» — die Urfassung der MD wurde vor dem Ersetzen
     als Kopie nach `_Archiv/260715-Offertvergleich-Staehlin-0707-1507_urfassung-1507.md` gesichert
     (nichts geloescht). Kein Versand (A5: Entwurf/Ablage, nie autonom senden); der Mail-Entwurf an
