@@ -3,19 +3,61 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260717 (twin-fragesteller, aus Fidelity-Review 2026-07-17)
+
+Quelle: Drift-Report `outputs/2026-07-17_fidelity.md` (Gesamt-Fidelity 79; Goldproben aus dem Faden
+Oberhäslerstrasse 2 Winterberg, 05.–11.09.2025 — Weisser-Kurzreply, Frick-Honorarofferte, Labinot-Kollegen-Du).
+Der Lauf hat die Spiegel-Regel vom 15.07. widerlegt; die folgenden Fragen zielen auf das, was der Beleg
+NICHT entscheiden kann. Je in 1–2 Sätzen beantwortbar.
+
+1. **Ab wann «Guten Morgen», ab wann «Guten Abend» — und was gilt am Nachmittag?** Am Vormittag ist
+   «Guten Morgen <Vorname>» im operativen Du klar belegt (10:27 an Weisser, 10:20 und 09:10 an Labinot).
+   Gibt es für Dich eine ungefähre Uhrzeit-Grenze (bis 10:00? bis 12:00?), und welche Anrede nimmst Du
+   nachmittags im gleichen operativen Du — fällst Du dann auf «Hoi» zurück, oder gibt es ein «Guten Tag
+   <Vorname>» im Du?
+   *Warum: die Tageszeit-Anrede schlägt neu alle anderen Du-Default-Regeln — ohne Grenzen produziert der
+   Zwilling «Guten Morgen» um 16:00.* → [[beziehungsregister]]
+2. **«Geschätzte/r» im Erstkontakt — reicht die Empfehlung, oder war es die Auftragsaussicht?** Frau Frick
+   war Dir unbekannt, bekam aber sofort «Geschätzte Frau Frick» + «Besten Dank für Ihre E-Mail und Ihr
+   Vertrauen» — sie kam über Baumann/Weisser UND brachte einen Auftrag. Welches der beiden hebt das
+   Register: die **Empfehlung durch jemanden, den Du kennst**, oder schlicht, dass jemand **Dir Arbeit
+   anbietet** (auch ohne Empfehlung)? Bekäme eine kalte, unvermittelte Auftragsanfrage auch «Geschätzte»?
+   *Warum: entscheidet, ob der Zwilling bei jeder Erstanfrage warm oder nur bei vermittelten öffnet — die
+   häufigste Erstkontakt-Situation überhaupt.* → [[beziehungsregister]]
+3. **Die unbequeme Wahrheit im Angebot — Regel oder Fall?** Du hast Frau Frick mitten in Deiner eigenen
+   Offerte faktisch vom Pool abgeraten («oft werden diese 2 Jahre benutzt und dann nicht mehr»). Ist das
+   für Dich ein **Muss** bei jedem Zusatzwunsch mit zweifelhaftem Nutzen (Pool, Cheminée, Wellness,
+   Luxus-Ausbau), oder war es hier nur nötig, weil die Gebäudetechnik-Auslegung davon abhing? Gibt es
+   Fälle, wo Du den Zweifel **bewusst für Dich behältst**?
+   *Warum: der Zwilling muss wissen, ob er diesen Satz proaktiv setzt oder nur bei technischer Kopplung —
+   der Unterschied zwischen ehrlichem Rat und ungefragter Bevormundung.* → [[haltung]]
+4. **«Frage:» als hartes Label — Deine Standard-Gliederung?** In der Frick-Offerte setzt Du «Frage:» als
+   eigene Zeile vor den Rückfragen-Block. Ist das ein bewusstes, wiederkehrendes Gliederungsmittel bei
+   Dir (damit die Rückfrage im langen Mail nicht untergeht), oder war es hier zufällig?
+   *Warum: wenn Standard, ist es ein billig nachbaubarer Struktur-Marker für jede Offerten-/Beratungsmail.*
+   → [[arbeitsweise]]
+5. **Benannte Stufen-Skala als Entscheidungsvorlage — wo überall?** Für den Pool hast Du dem Laien eine
+   4-Stufen-Skala («01 Unbeheizt & ungefiltert» … «04 Beheizt & gefiltert») mit «_ »-Bullets gebaut und
+   die Praxis eingeordnet («meist zwischen Stufe 2 und 4»). Nutzt Du diese nummerierte Ausbaustandard-Skala
+   auch für andere Entscheide (Küche, Bad, Fenster, Haustechnik) — und gibt es eine Stufenzahl, die für
+   Dich stimmt (immer 4?)?
+   *Warum: das ist eine sehr charakteristische, wiederverwendbare Denkfigur — wenn generell, kann der
+   Zwilling sie für jeden Ausbau-Entscheid nachbauen statt nur zu fragen.* → [[denken]], [[arbeitsweise]]
+
 ## Offen — Runde 260715 (twin-fragesteller, aus Fidelity-Review 2026-07-15)
 
 Quelle: Drift-Report `outputs/2026-07-15_fidelity.md` (Gesamt-Fidelity 87; zwei frische authentische
 Goldproben aus dem Bopp-Faden 24.10.2025 + Wartstrasse-8-Statusmail 01.12.2025). Je in 1–2 Sätzen
 beantwortbar.
 
-1. **Opener-Mirroring über «Hallo» hinaus — spiegelst Du JEDEN Anrede-Opener des letzten Eingangs?** In
-   der Bopp-Mail (24.10.2025) antwortest Du auf sein «Hallo Raphael» mit «Hallo Christoph» — obwohl Bopp
-   sonst «Geschätzter/Hoi/Lieber» ist. Greifst Du dieses Spiegeln des exakten Anrede-Worts auch bei anderen
-   Openern (Gegenüber schreibt «Hey <Name>» → «Hey», «Grüezi» → «Grüezi», «Guten Morgen» → «Guten Morgen»),
-   oder ist «Hallo» der einzige Fall, wo Du vom Default «Hoi» auf den gespiegelten Opener wechselst?
-   *Warum: bestätigt/begrenzt ein potenziell sehr generelles Anrede-Prinzip (spiegeln bis aufs Wort) — 2
-   Belege würden es zur festen Regel heben.* → [[beziehungsregister]], [[stimme]]
+1. ~~**Opener-Mirroring über «Hallo» hinaus — spiegelst Du JEDEN Anrede-Opener des letzten Eingangs?**~~
+   **STATUS: BEANTWORTET durch Beleg am 17.07.2026 — NEIN, die Spiegel-Hypothese ist widerlegt.** Keine
+   Rückfrage an Raphael nötig, zwei authentische Gegenbeispiele genügen: auf «Hallo Raphael» antwortet er
+   «**Guten Morgen Peter**» (Weisser, 11.09.2025, eine Minute später — Tageszeit schlägt Spiegel); auf
+   «Grüezi Herr Jans» antwortet er «**Geschätzte Frau Frick**» (05.09.2025 — Vertrautheit/Anlass schlägt
+   Spiegel). Der Bopp-«Hallo» ist durch den bestehenden Marker «Anrede variiert mit dem Anlass, nicht der
+   Person» erklärt. Marker in [[beziehungsregister]] entfernt und durch «Opener aus Anlass + Tageszeit +
+   Vertrautheit» ersetzt; Don't-Regel ergänzt. Beleg: `outputs/2026-07-17_fidelity.md`.
 2. **«vtl.» vs «vll.» (vielleicht) — zwei bewusste Schreibvarianten oder blosse Tippvarianz?** Du schreibst
    «vtl.» (Bopp, 24.10.2025) neben dem sonst belegten «vll.». Sind das für Dich einfach zwei austauschbare
    Kurzformen desselben Worts (Tagesform), oder benutzt Du sie in unterschiedlichen Kontexten? *Warum:

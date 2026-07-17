@@ -5,6 +5,20 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-17 — `twin-fidelity-review` (Fidelity 79, Spiegel-Regel widerlegt).** Falsifikations-Test
+  der am 15.07. eingefuehrten Regel «‹Hallo› spiegelt den Opener des letzten Eingangs»: **widerlegt**
+  durch zwei authentische Gegenbeispiele (Faden Oberhaeslerstrasse 2, 05.–11.09.2025) — «Hallo Raphael»
+  → «Guten Morgen Peter» (Tageszeit schlaegt Spiegel), «Gruezi Herr Jans» → «Geschaetzte Frau Frick»
+  (Vertrautheit schlaegt Spiegel). `beziehungsregister.md`: Marker durchgestrichen + durch «Opener aus
+  Anlass + Tageszeit + Vertrautheit» ersetzt, Do-Block korrigiert, Don't ergaenzt; zwei neue Marker
+  («Guten Morgen <Vorname>» als Vormittags-Default; «Geschaetzte/r» im vermittelten kommerziellen
+  Erstkontakt). `haltung.md`: neuer Kern-Marker «warnt vor der eigenen Zusatzleistung» (Pool-Abraten
+  mitten in der eigenen Offerte) + «wir/ich satzweise» erstmals am Erstkontakt belegt. `stimme.md`:
+  ultrakurzer Du-Reply («Danke» statt «Besten Dank», objektlose Zusage, «Bester Gruss») + «%» ohne
+  Leerschlag (3. Datenpunkt). QUESTIONS: 260715 #1 als beantwortet/widerlegt geschlossen, Runde 260717
+  #1–#5 angehaengt. Gehirn `rules/jans-dna.md` neu kompiliert (6 Facetten). Report:
+  `outputs/2026-07-17_fidelity.md`.
+
 ## 2026-07-17 — twin-mail-training Batch 55 (Sent Items rj@, 2026-06-17 13:10 – 2026-06-19 13:58)
 
 Sequentieller Sweep lückenlos fortgesetzt (erster Treffer = Batch-54-Endpunkt, gegengeprüft);

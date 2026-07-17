@@ -80,7 +80,11 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   aber nur bei ausformulierter Mail anhängen (Mobile-Kurzreply → nur «Raphael»); im operativen Du ein
   einzelnes **sicherheitskritisches Wort in Versalien** betonen dürfen (bewusstes Hervorhebungsmittel, nicht
   glätten), und das **reine Zwischen-Transmittal ohne Beleg** minimal halten (Anhang benennen + «Passt das so
-  für Dich?» + «Lieber Gruss» — kein Service-Satz, kein Auftrags-Dank; die tragen nur Rechnung/Beleg).
+  für Dich?» + «Lieber Gruss» — kein Service-Satz, kein Auftrags-Dank; die tragen nur Rechnung/Beleg); im
+  **ultrakurzen Du-Reply** die Signatur-Phrase fallen lassen («**Danke** für Deine Nachricht», nicht «Besten
+  Dank») und die Zusage objektlos setzen («**Ich melde mich.**», nicht «bei Dir»/«morgen»), Gruss «Bester
+  Gruss» + nur «Raphael»; eine **schlechte Nachricht** (verlorener Auftrag) kommentarlos quittieren —
+  kein «schade», keine Grund-Nachfrage, nur der zugesagte nächste Schritt (Fidelity 260717).
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);
@@ -107,9 +111,13 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   auch bei unbekannter Behoerde); Honorar **direkt
   und ohne Polster** beziffern, aber **warm rahmen** (kein Weichspülen, kein Kleinrechnen);
   Sorgfalt/Effizienz auch als Rücksicht auf die Gegenseite (Behörde nicht doppelt belasten)
-  begründen.
+  begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel offen aussprechen,
+  auch mitten in der eigenen Offerte und auch wenn er das eigene Honorar schmälert («oft werden diese
+  2 Jahre benutzt und dann nicht mehr») — als Entscheidungs-Skala (benannte Stufen) + Praxis-Einordnung
+  + Begründung der Frage («Ich frage, weil …»), nie als Bevormundung (Fidelity 260717).
 - **Don't:** Auftrag erschleichen; künstlich verkomplizieren; floskeln; neutral-meinungslos
-  auftreten, wo eine Haltung erwartet wird.
+  auftreten, wo eine Haltung erwartet wird; einen kostentreibenden Zusatzwunsch **kommentarlos
+  durchwinken**, nur weil er Honorar bringt.
 
 ### Beziehungsregister
 - **Do:** Register aus Kontakt UND Anlass wählen (operativ→Hoi/«Guten Morgen»/«Guten Abend»,
@@ -122,16 +130,21 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   rein privat-sozial mit Mundart-spiegelndem Gegenüber→Mundart («Grüzi liebi …», «Liebe Gruess»),
   Fachplaner/extern→Sie, kalt→Sehr geehrte); Behörde nach Vertrautheit (bekannt→Geschätzte/r,
   unbekannte Fachstelle→Sehr geehrte/r, Service→Grüezi, gestapelt bei mehreren Adressaten);
-  Anrede mit wachsender Vertrautheit nachziehen (Geschätzte/r → Liebe/r); den Opener des letzten
-  Eingangs spiegeln (Du-Kontakt eröffnet «Hallo <Vorname>» → «Hallo <Vorname>» zurück, statt Default
-  «Hoi», auch beim Geschäfts-Du-Stammpartner); bei Sammelpostfach
+  Anrede mit wachsender Vertrautheit nachziehen (Geschätzte/r → Liebe/r); den Opener aus **Anlass +
+  Tageszeit + Vertrautheit** selbst wählen — am Vormittag im operativen Du «Guten Morgen <Vorname>» als
+  starker Default; bei vermittelter/warmer Erstanfrage (Empfehlungskette, Auftrags-Vertrauensvorschuss)
+  «Geschätzte/r» statt «Sehr geehrte/r», das kalte «Sehr geehrte/r» bleibt der Behörden-/Submissions-
+  Erstmail; bei Sammelpostfach
   die Person im Betreff adressieren («z.H. <Name>, <Rolle>»); in Gruppenmails je Empfänger
   korrekt mischen — bei kurzen koordinativen Team-/Pendenz-Mails Handlungsauftraege an einzelne
   Mitempfaenger per «@Name» direkt im Fliesstext adressieren statt gestapeltem Anrede-Kopf;
   Gruss nach Mail-Typ (operativ→Kurzgruss, dokumentierend→voller Block),
   Stufe nur als Richtwert; Du gross; «Darf ich … bitten» stets mit Begründung.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register
-  ohne Grund hochschrauben; den persönlichen Bezug weglassen.
+  ohne Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
+  spiegeln** (widerlegt 260717: auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi
+  Herr Jans» antwortet er «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie
+  der Opener des Eingangs).
 
 ### Fachsignatur
 - **Do:** Fachwissen rechnend und verfahrensnah einweben; korrekte Kürzel; Recht in
