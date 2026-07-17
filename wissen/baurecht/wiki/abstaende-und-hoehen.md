@@ -143,7 +143,7 @@ Waldabstandslinie befreit; Unterschreitung via Ausnahmebewilligung § 220 PBG.
 > hatte die < 1 m-Schwelle fälschlich Abs. 2 zugeschrieben — dort korrigiert. Beleg:
 > `raw/260712_amtlich_ch_gschv.md`.
 
-**Bundesrecht** (Art. 36a GSchG, Art. 41a/41b GSchV), kantonal die HWSchV — überlagert die
+**Bundesrecht** (Art. 36a GSchG, Art. 41a/41b GSchV), kantonal bis 31.5.2026 die HWSchV, **seit 01.06.2026 WsG/WsV** — überlagert die
 BZO. Massgebend ist die **natürliche Gerinnesohlenbreite (GSB)**; zwei Regime sind zu
 unterscheiden (Art. 41a GSchV). **Fliessgewässer, Normalgebiete (Art. 41a Abs. 2):**
 natürliche GSB < 2 m → mind. **11 m**; GSB 2-15 m → **2,5 × GSB + 7 m**; > 15 m → im
@@ -155,8 +155,13 @@ kantonal mit gewässerbezogenem Schutzziel):** GSB < 1 m → 11 m; 1-5 m → 6 �
 nicht an eine Flächenschwelle geknüpft); die **0,5-ha-Schwelle** ist kein Formel-Kriterium,
 sondern nur ein **Verzichtsgrund** (Abs. 4 lit. b: bei Wasserfläche < 0,5 ha kann auf die
 Festlegung verzichtet werden). In ZH ist der Gewässerraum
-grundeigentümerverbindlich (§ 15d HWSchV); selbst bei **eingedolten** Fliessgewässern sind
-11 m frei zu halten. Beleg: Buch Bd 2 S. 1008-1013 + SR 814.201 GSchV Art. 41a/41b. Bei
+grundeigentümerverbindlich (**§ 15 Abs. 1** HWSchV, heute § 19 WsG — nicht § 15d). Bei
+**eingedolten** Fliessgewässern galt bis 31.5.2026 ein Mindestmass von 11 m (**§ 15k Abs. 3**
+HWSchV, mit Abweichung «in begründeten Fällen»). **Seit dem 01.06.2026 ist die HWSchV aufgehoben**
+(OS 81, 144): **§ 24 WsV lässt die Breite bis auf den für Unterhalt/Ersatz der Eindolung nötigen
+Raum verringern** — die 11 m folgen heute allein aus Art. 41a Abs. 2 lit. a GSchV (Bundesrecht).
+Die verbreitete Begründung «ZH ist strenger als der Bund» trifft damit nicht mehr zu; ZH nutzt
+den bundesrechtlichen Verzichtsspielraum. Beleg: `raw/260717_amtlich_zh_hwschv.md`. Beleg: Buch Bd 2 S. 1008-1013 + SR 814.201 GSchV Art. 41a/41b. Bei
 Machbarkeit/Ankauf die GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnung prüfen; das
 **Geodatum** (Linien login-frei als Vektor, senkrechter Abstand) liefert der Beschaffungs-Artikel
 `wissen/planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh`.
@@ -166,8 +171,14 @@ Machbarkeit/Ankauf die GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnun
 zonenkonforme Verdichtung ist nur im **dicht überbauten Gebiet** und ohne entgegenstehende
 überwiegende Interessen bewilligungsfähig (Art. 41c Abs. 1 Satz 2 GSchV; BGE 140 II 428 —
 unbestimmter Rechtsbegriff). Der Gewässerraum tritt **zusätzlich** zu den nachbarrechtlichen
-Grenz-/Gebäudeabständen hinzu (S. 1020). Bestandesschutz im Gewässerraum: § 15m HWSchV geht
-§ 357 PBG vor; § 307 PBG (Wiederaufbau nach Brand) ist im Gewässerraum nicht anwendbar.
+Grenz-/Gebäudeabständen hinzu (S. 1020). Bestandesschutz im Gewässerraum: **§ 20 Abs. 1 WsG**
+erklärt § 357 PBG sinngemäss für anwendbar (bis 31.5.2026 § 15m Abs. 1 HWSchV — ebenfalls ein
+**Verweis, kein Vorrang**). Das **Brandstattrecht nach § 307 PBG besteht auch im Gewässerraum**,
+wenn ein Wiederaufbau ausserhalb nicht möglich ist und die Hochwassersicherheit nicht
+beeinträchtigt wird (§ 20 Abs. 2 WsG; bis 31.5.2026 § 15m Abs. 2 HWSchV) — die Norm ist
+**begünstigend, nicht einschränkend**. Die frühere Wiki-Aussage («§ 15m geht § 357 vor; § 307 im
+Gewässerraum nicht anwendbar») stand auf dem Kopf und ist am Wortlaut widerlegt (Modell D,
+2026-07-17, `raw/260717_amtlich_zh_hwschv.md`).
 Die einschränkenden **Linien** (Gewässerabstandslinie § 67 PBG, Baulinie § 96 PBG) →
 [[baulinien-und-abstandslinien]].
 

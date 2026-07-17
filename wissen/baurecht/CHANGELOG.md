@@ -4,6 +4,51 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-17 — Buch-Run 48 (Modell D, Beschaffungslauf): die 3 «beschaffbaren» Luecken aus Run 47 geschlossen — **HWSchV ZH seit 01.06.2026 aufgehoben**
+
+- **[neu] 4 amtliche Volltexte beschafft:** `raw/260717_amtlich_ch_lsv-anhang34.md` (LSV Art. 40-42 +
+  Anhang 3 Strassenlaerm + Anhang 4 Eisenbahnlaerm, Fedlex Stand 1.11.2023), `raw/260717_amtlich_ch_gschv-41c.md`
+  (Art. 41c + UebgBest. GSchV-Aenderung 4.5.2011), `raw/260717_amtlich_zh_hwschv.md` (HWSchV §§ 15/15a-15n +
+  UebgBest. 13.12.2011, Fassung Nachtrag 95, **plus Nachfolgerecht WsG § 20/21 + WsV §§ 11/22-25/213** inkl.
+  Konkordanztabelle alt/neu), `raw/260717_amtlich_ch_usg-32e.md` (USG Art. 32e vollstaendig + VASA-Auszug).
+- **[korrigiert] SCHWERSTER FUND: die HWSchV ZH ist seit dem 01.06.2026 AUFGEHOBEN** (OS 81, 144) →
+  **WsG** (LS 724.1) + **WsV** (LS 724.11). Die KB fuehrte «§ 15x HWSchV» als geltendes Recht — an
+  6 Fundorten mit Aufhebungsvermerk + Nachfolgenorm nachgezogen. Materiell: **§ 24 WsV kennt kein
+  11-m-Mindestmass mehr** bei eingedolten Fliessgewaessern (nur Verringerungsregel) — die 11 m folgen
+  heute allein aus Art. 41a Abs. 2 lit. a GSchV; ZH ist **nicht strenger** als der Bund, sondern nutzt
+  den Verzichtsspielraum.
+- **[korrigiert] § 15m HWSchV stand auf dem Kopf.** «§ 15m geht § 357 PBG vor» + «§ 307 PBG im
+  Gewaesserraum nicht anwendbar» → amtlich das **Gegenteil**: § 15m Abs. 1 erklaerte § 357 PBG fuer
+  **anwendbar** (Verweis), Abs. 2 liess das Brandstattrecht **auch im Gewaesserraum** zu
+  (beguenstigend). Heute § 20 WsG. **Interne Divergenz aufgeloest:**
+  `buecher/band-2/20-ausnahmen-teil2-…` hatte es **richtig**, `15-lage-von-gebaeuden` +
+  `wiki/abstaende-und-hoehen` widersprachen ihm → dort korrigiert.
+- **[korrigiert] HWSchV-Renumbering (Nachtrag 95, 2017) uebersehen:** Buch-/KB-Nummern stammten aus der
+  2013er-Fassung. § 15d → **§ 15k** (Bemessung), § 15b → **§ 15h** (Festlegung), § 15g → **§ 15m**
+  (Besitzstand), Grundeigentuemerverbindlichkeit **§ 15 Abs. 1**.
+- **[korrigiert] Uferstreifen-Fundstellen falsch verklebt:** «§ 15 HWSchV» war nie eine Uferstreifen-Norm.
+  Richtig: 8 m + Gerinnesohle je Seite / 20 m bei Sohle > 12 m = **UebgBest. GSchV 4.5.2011 Abs. 2
+  lit. a/b** (Bundesrecht); 8 m um stehende Gewaesser bis 0,5 ha = **UebgBest. HWSchV-Aenderung
+  13.12.2011 Abs. 1**, heute § 213 Abs. 1 WsV. Messweise «beidseitiger Streifen entlang des
+  Gewaessers», nicht «ab Uferlinie». (Masse selbst CONFIRMED.)
+- **[korrigiert] LSV Art. 40 Abs. 2 — Additionsprinzip ohne seine Ausnahme:** «Dies gilt **nicht** fuer
+  die Planungswerte bei neuen ortsfesten Anlagen (Art. 7 Abs. 1)» fehlte. **[ergaenzt]** Art. 40 Abs. 3
+  (fehlen Belastungsgrenzwerte → **Art. 15 USG**, nicht Art. 14); Anhaenge-Abgrenzung (Bahnlaerm auf
+  Strassen → Anhang 3; Standseilbahnen/Eisenbahnwerkstaetten → Anhang 6); Art. 42 LSV (+5 dB(A) in
+  Betriebsraeumen ES I-III). Anhang 3/4 Grenzwerttabellen belegt; PW < IGW < AW CONFIRMED.
+- **[korrigiert] USG Art. 32e — VASA-Stichtag materiell falsch:** «nur bis Ende Januar 1996» vermengte
+  **Berechtigung** (seit **1.2.2001** keine Abfaelle mehr, Abs. 3 Bst. b) mit der **Satz-Staffelung**
+  (40 % / **30 %** bis laengstens 31.1.2001, Abs. 4 Bst. b). Standorte mit Ablagerung bis Ende Januar
+  2001 sind **nicht ausgeschlossen**, sondern zu 30 % abgegolten. **[praezisiert]** Verhandlungsverfahren
+  = kantonale ZH-Praxis; Abgeltungshoehe **nicht verhandelbar**; ueber CHF 250'000 nur mit
+  rechtskraeftiger Verfuegung (Art. 11 Abs. 2 VASA). Sequenz geprueft: **kein Art. 32ebis**.
+- **[nachgefuehrt]** `wiki/QUESTIONS.md` (3 Run-47-Flags geschlossen, neuer Kopfeintrag),
+  `training/drills.md` (3 Modell-D + 1 Modell-A-Karte), Frontmatter in 4 Dateien, `buecher/INDEX.md`,
+  `training/curriculum.md`, `training/PROGRAMM.md` (Tracker + neue Leitplanke Fassungsstand).
+- **Bilanz:** 3 Luecken geschlossen, **5 echte Korrekturen**, **0 Halluzinationen**, ~15 Fundorte
+  synchronisiert. **Neu offen:** Anhang 6 LSV; KB-weiter WsG/WsV-Nachzug; VASA-Abgabesatz nur Stand
+  1.1.2016 beschaffbar. Report `outputs/2026-07-17_buch-run48.md`.
+
 ## 2026-07-17 — Buch-Run 47 (Modell D, 4 Komplexe adversarial parallel): Run-46-Meldung «Rueckstand abgebaut» war verfrueht
 
 - **[korrigiert] Gewaesserraum GSchV — Kennzahlen-Tabelle widersprach dem eigenen Fliesstext.** Die

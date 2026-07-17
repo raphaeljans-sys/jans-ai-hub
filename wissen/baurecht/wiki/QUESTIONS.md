@@ -5,6 +5,80 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## 2026-07-17 (Buch-Run 48, Modell-D — die drei «beschaffbaren» Luecken aus Run 47 geschlossen: 4 neue amtliche Volltexte)
+
+Freigabe Raphael 17.07.2026 («so weiter verfahren wie es richtig ist»): erst die beschaffbaren
+Luecken schliessen, dann ruecktakten. **Jede der drei Luecken foerderte einen echten Fehler zutage** —
+das bestaetigt die Run-47-Lehre: was als «nicht belegbar» geflaggt ist, verdeckt oft einen Fehler.
+
+- **SCHWERSTER FUND — die HWSchV ZH ist seit dem 01.06.2026 AUFGEHOBEN** (OS 81, 144). Nachfolge:
+  **Wassergesetz WsG** (LS 724.1) + **Wasserverordnung WsV** (LS 724.11). Die KB fuehrte «§ 15x HWSchV»
+  durchgehend als geltendes Recht — sie zitierte damit seit sechs Wochen totes kantonales Recht, an
+  6 Fundorten (15-lage, abstaende-und-hoehen, baulinien-und-abstandslinien, 20-ausnahmen-teil2,
+  buecher/INDEX ×2). Alle mit Aufhebungsvermerk + Nachfolgenorm nachgezogen. **Materielle Folge:**
+  § 24 WsV kennt **kein 11-m-Mindestmass** bei eingedolten Fliessgewaessern mehr (nur noch eine
+  Verringerungsregel) — die 11 m folgen heute allein aus Art. 41a Abs. 2 lit. a GSchV. Die
+  Aussagerichtung kippt: ZH ist **nicht strenger** als der Bund, sondern nutzt den Verzichtsspielraum.
+- **§ 15m HWSchV stand auf dem Kopf.** [[15-lage-von-gebaeuden]] und [[abstaende-und-hoehen]]
+  behaupteten «§ 15m geht § 357 PBG vor» und «§ 307 PBG ist im Gewaesserraum nicht anwendbar». Der
+  Wortlaut sagt das **Gegenteil**: § 15m Abs. 1 erklaerte § 357 PBG fuer **anwendbar** (Verweis, kein
+  Vorrang), § 15m Abs. 2 liess das Brandstattrecht § 307 PBG **auch im Gewaesserraum** zu — die Norm
+  ist **beguenstigend, nicht einschraenkend** (heute § 20 WsG). **Interne Divergenz aufgeloest:**
+  [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] hatte es die ganze Zeit **richtig** — die
+  beiden anderen Fundorte widersprachen ihm.
+- **Renumbering uebersehen:** die HWSchV wurde 2017 (Nachtrag 95) durchnummeriert; die Buch-/KB-Nummern
+  stammen aus der Fassung von 2013. Richtig: Bemessung § 15d → **§ 15k**, Festlegung § 15b → **§ 15h**,
+  Besitzstand § 15g → **§ 15m**, Grundeigentuemerverbindlichkeit **§ 15 Abs. 1**. Der Beschaffungs-Agent
+  waere an der 2013er-Fassung beinahe zum Fehlschluss «§ 15m existiert nicht» gekommen — die
+  Nachtrag-95-Pruefung fing das ab (vgl. die Grep-Falle aus Run 47: Vorbefunde «existiert nicht» sind
+  ohne Fassungspruefung nicht belastbar).
+- **Uferstreifen-Masse CONFIRMED, Fundstellen durchwegs falsch verklebt:** «§ 15 HWSchV» war **nie**
+  eine Uferstreifen-Norm. Richtig: 8 m + Gerinnesohle je Seite / 20 m bei Sohle > 12 m = **UebgBest.
+  GSchV-Aenderung 4.5.2011 Abs. 2 lit. a/b** (Bundesrecht!); 8 m um stehende Gewaesser bis 0,5 ha =
+  **UebgBest. zur HWSchV-Aenderung vom 13.12.2011 Abs. 1**, heute § 213 Abs. 1 WsV. Zudem misst die
+  Uebergangsbestimmung «auf einem beidseitigen Streifen entlang des Gewaessers», nicht «ab Uferlinie».
+- **LSV Art. 40 Abs. 2 — Additionsprinzip ohne seine Ausnahme.** Das Destillat gab den Grundsatz
+  wieder, aber nicht Satz 2: «Dies gilt **nicht** fuer die Planungswerte bei neuen ortsfesten Anlagen
+  (Art. 7 Abs. 1).» Wer nach der KB-Fassung arbeitete, addierte genau dort, wo das Bundesrecht es
+  verbietet. **Luecke geschlossen:** Art. 40 Abs. 3 (fehlen Belastungsgrenzwerte → **Art. 15 USG**,
+  nicht Art. 14, unter Beruecksichtigung Art. 19/23 USG — relevant fuer Gastwirtschafts-/Sport-/
+  Freizeitlaerm, Glockengelaeut). **Anhang 3/4 beschafft:** Grenzwerttabellen wertidentisch
+  (ES II Tag PW 55 / IGW 60 / AW 70), Systematik PW < IGW < AW CONFIRMED. Neu erfasst: Bahnlaerm auf
+  Strassen → Anhang 3; Standseilbahnen/Eisenbahnwerkstaetten → Industrie-/Gewerbelaerm (Anhang 6);
+  Art. 42 LSV (+5 dB(A) in Betriebsraeumen ES I-III, JANS-relevant bei Healthcare-/Gewerbe-Mischnutzung).
+- **USG Art. 32e — VASA-Stichtag materiell falsch.** Das Destillat: «nur Abfaelle, die spaetestens
+  **Ende Januar 1996** dorthin gelangt sind». Amtlich **zweistufig**: **Berechtigung** = seit dem
+  **1.2.2001** keine Abfaelle mehr (Abs. 3 Bst. b); **Satz** = 40 % (seit 1.2.1996 nichts mehr) bzw.
+  **30 %** (bis laengstens 31.1.2001, Abs. 4 Bst. b). Das Wort «nur» war der Fehler: Standorte mit
+  Ablagerung bis Ende Januar 2001 sind **nicht ausgeschlossen**, sondern zu 30 % abgegolten.
+  **Praezisiert:** das ZH-Verhandlungsverfahren ist kantonale Praxis; die **Hoehe der Bundesabgeltung
+  ist nicht verhandelbar** (fixe Saetze, Abs. 4). Der Grund fuer die Verfuegungspflicht steht in der
+  VASA: ueber CHF 250'000 nur mit **rechtskraeftiger Verfuegung** (Art. 11 Abs. 2 VASA), bis 250'000
+  genuegt eine sachgerechte Begruendung (Art. 10 Abs. 2 VASA). Sequenz geprueft: **kein Art. 32ebis**.
+
+**Neue amtliche Volltexte (4):** `raw/260717_amtlich_ch_lsv-anhang34.md` (Art. 40-42 + Anhang 3/4),
+`raw/260717_amtlich_ch_gschv-41c.md` (Art. 41c + UebgBest. 4.5.2011), `raw/260717_amtlich_zh_hwschv.md`
+(HWSchV §§ 15/15a-15n + UebgBest. 13.12.2011 **plus** Nachfolgerecht WsG § 20/21 + WsV §§ 11/22-25/213,
+inkl. Konkordanztabelle alt/neu), `raw/260717_amtlich_ch_usg-32e.md` (Art. 32e vollstaendig + VASA-Auszug).
+
+**Bilanz:** 3 Luecken geschlossen, **5 echte Korrekturen** (HWSchV-Aufhebung, § 15m-Umkehrung,
+Renumbering, Additionsprinzip-Ausnahme, VASA-Stichtag), **0 Halluzinationen**, ~15 Fundorte
+synchronisiert, 4 Drill-Karten.
+
+**needs-verification (neu/verbleibend):**
+- **Anhang 6 LSV** (Industrie-/Gewerbelaerm) — nicht im raw, beschaffbar (Anhang 4 Ziff. 1 Abs. 3
+  verweist darauf).
+- **Systematischer WsG/WsV-Nachzug:** die HWSchV-Aufhebung betrifft potenziell mehr Stellen als die
+  hier geprueften — ein KB-weiter Check aller kantonalen Gewaesser-/Hochwasser-Zitate gegen WsG/WsV
+  ist vorzumerken. **Generell:** kantonale Erlasse altern schneller als die KB — ein periodischer
+  Fassungsstand-Check (zhlex) gehoert in den Festigungsmodus.
+- **VASA-Abgabesatz Art. 3** (5 Fr./t Deponietyp B, 16 Fr./t Typen C/D/E): nur Stand **1.1.2016**
+  beschaffbar (spaetere Konsolidierungen ueber den Fedlex-Datenspeicher nicht abrufbar) — mit
+  Fassungsvermerk zitieren, nicht als «aktuell».
+- **HWSchV Nachtrag 133** (letzter Eintrag vor Aufhebung): kein PDF hinterlegt; Fassung Nachtrag 95
+  (Stand 1.1.2017) als letzte materielle Fassung verwendet.
+- SIA 181 im Wortlaut (kostenpflichtig, via Skill `normen`), VSS-Normen, reines Fallrecht — unveraendert.
+
 ## 2026-07-17 (Buch-Run 47, Modell-D — 4 Komplexe adversarial parallel via Agent-Fan-out: Gewässerraum GSchV, LSV-Schallschutz, Quartierplan PBG, USG-Altlasten-Nomenklatur)
 
 **Die Run-46-Meldung «VERIFIKATIONS-RUECKSTAND ABGEBAUT» war verfrüht.** Eine Gegenprobe über die
@@ -39,9 +113,7 @@ ins Dokument hinein, während `raw/` wächst).
 
 **Bilanz:** 4 Komplexe, **0 Halluzinationen**, 1 Flag vollständig CONFIRMED, 3 Flags mit
 Korrekturen geschlossen, **~20 Fundorte** synchronisiert, 2 neue Prüfregeln im PROGRAMM.
-**needs-verification (neu):** Art. 40 Abs. 2 LSV + Anhang 3/4 LSV (nicht im raw — Beschaffungslauf);
-Art. 41c GSchV + GSchV-Übergangsbestimmung 4.5.2011 + HWSchV ZH §§ 15/15d/15m (nicht im raw);
-Art. 32e Abs. 3/4 USG (VASA) — alle vier sind **beschaffbare** Lücken, nicht per se unbelegbare.
+~~**needs-verification (neu):** Art. 40 Abs. 2 LSV + Anhang 3/4 LSV; Art. 41c GSchV + GSchV-Übergangsbestimmung 4.5.2011 + HWSchV ZH; Art. 32e Abs. 3/4 USG (VASA)~~ → **alle drei erledigt am 2026-07-17 (Buch-Run 48)** — siehe Kopfeintrag: 4 neue amtliche Volltexte beschafft, jede Lücke deckte einen echten Fehler auf (schwerster: HWSchV per 01.06.2026 aufgehoben).
 
 ## 2026-07-15 (Buch-Run 46, Modell-D — die 2 letzten verifizierbaren «dauerhaft offenen» Flags als Zitierfehler entlarvt + Art. 43 LSV beschafft) — Meldung «Rückstand abgebaut» durch Run 47 relativiert
 Drei Komplexe, Modell-D-Volltextabgleich; zwei neue amtliche Volltexte beschafft (VRG-Beschwerdeteil, LSV-Empfindlichkeitsstufen). Kein Agent-Fan-out (Zielkomplexe klein/eindeutig, direkt geprüft). **Kernbefund: die beiden seit Run 44 als «ausserhalb Volltextumfang, bleibt offen» geführten Flags § 209f PBG und § 50a VRG waren in Wahrheit echte ZITIERFEHLER — jetzt korrigiert.**

@@ -189,6 +189,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-370-080-2003.md` | SIA 370.080 / SN EN 81-80 Sicherheit bestehender Aufzüge (SNEL) | 2003 | established (verifiziert 260713) |
 | `sia-382-1-2014.md` | SIA 382/1 Lüftungs-/Klimaanlagen: Grundlagen und Anforderungen | 2014 | teil-destillat (Kern S.1-63; verifiziert 260713) |
 | `sia-384-201-2017.md` | SIA 384/201 / SN EN 12831-1 Norm-Heizlast-Berechnung | 2017 | teil-destillat (Kap.1-6; verifiziert 260713) |
+| `sia-380-1-2016.md` | SIA 380/1 Heizwärmebedarf (ersetzt SIA 380/1:2009 «Thermische Energie im Hochbau») | 2016 | **struktur-destillat (Auszug 6/60 S.)**, status speculative — normativer Teil S. 5-58 fehlt im Bestand, keine Q_H-/U-Werte ableitbar; verifiziert 260717 Run 15; Bring-Schuld P1: Volltext beschaffen |
 | `sia-385-1-2011.md` | SIA 385/1 Anlagen für Trinkwarmwasser in Gebäuden: Grundlagen und Anforderungen (ersetzt SIA 385/3:1991) | 2011 | struktur-destillat (Auszug 6/28 S., normativer Teil fehlt — Bring-Schuld Volltext; verifiziert 260717) |
 | `sia-193-111-1999.md` | SIA 193.111 / SN EN 12063 Spundwandkonstruktionen (Spezialtiefbau) | 1999 | established (Kern S.1-46; verifiziert 260713) |
 | `sia-2014-2017.md` | SIA 2014 CAD-Datenaustausch: Layerstruktur/Layerschlüssel | 2017 | established (verifiziert 260713) |

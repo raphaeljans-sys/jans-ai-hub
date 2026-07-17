@@ -1628,3 +1628,61 @@ fehlzitiert** in band-1/02 (richtig Art. 41a Abs. 4 lit. a), **6 LSV-Präzisieru
 Erleichterungsgesuch), **«Art. 32bis USG» als Geisterbezeichnung** an 4 Register-Fundorten. Quartierplan
 (§ 160a/§ 81/§ 129 PBG) **vollständig CONFIRMED** — der grep-Vorbefund «§ 160a existiert nicht» war eine
 **Leerschlag-Falle** («§ 160 a.26» im amtlichen Text), jetzt als Prüfregel in PROGRAMM.md verankert.
+
+---
+
+## Buch-Run 48 (2026-07-17) — Modell D: die drei beschaffbaren Luecken geschlossen (LSV Art. 40/Anhang 3+4, GSchV 41c + HWSchV ZH, USG 32e/VASA)
+
+- **F (Modell D):** Zwei bestehende ortsfeste Anlagen erzeugen je für sich Lärm unter dem
+  Immissionsgrenzwert, zusammen aber darüber. Ist der IGW überschritten? Und gilt dasselbe für den
+  Planungswert einer neu zu bewilligenden Anlage? — **A:** **Ja** für den IGW: «Die
+  Belastungsgrenzwerte sind auch überschritten, wenn die Summe gleichartiger Lärmimmissionen, die von
+  mehreren Anlagen erzeugt werden, sie überschreitet» (Additionsprinzip). **Nein** für den
+  Planungswert bei einer **neuen** ortsfesten Anlage: «Dies gilt nicht für die Planungswerte bei
+  neuen ortsfesten Anlagen (Art. 7 Abs. 1)» — dort wird der PW anlagebezogen einzeln beurteilt. Zwei
+  Voraussetzungen der Addition: **gleichartige** Immissionen (Strassenlärm addiert nicht mit
+  Eisenbahnlärm — dafür je eigene Anhänge) und **ortsfeste** Anlagen. Beleg: Art. 40 Abs. 2 LSV,
+  raw/260717_amtlich_ch_lsv-anhang34.md. _[2026-07-17]_
+
+- **F (Modell D):** Ein Bauherr will 2026 an einem eingedolten Bach in der Bauzone Kt. ZH bauen.
+  Gelten «11 m Gewässerraum, weil Zürich strenger ist als der Bund»? — **A:** Nein — die Begründung
+  ist seit dem **01.06.2026 falsch**. Die HWSchV, deren § 15k Abs. 3 «mindestens 11 m» bei
+  eingedolten Fliessgewässern vorschrieb, ist **aufgehoben** (OS 81, 144). Die Nachfolgenorm
+  **§ 24 WsV** kennt kein Mindestmass mehr: die Breite **kann** bis auf den für Unterhalt oder Ersatz
+  der Eindolung nötigen Raum **verringert** werden. Die 11 m sind heute ein **bundesrechtliches**
+  Regelmass aus Art. 41a Abs. 2 lit. a GSchV (Gerinnesohle < 2 m), von dem der Kanton nach unten
+  abweichen kann — ZH ist hier also **nicht strenger** als der Bund, sondern nutzt den
+  Verzichtsspielraum. Solange kein Gewässerraum rechtskräftig festgelegt ist, gilt zudem das
+  Übergangsrecht des Bundes (8 m + Gerinnesohle je Seite, ÜbgBest. GSchV 4.5.2011 Abs. 2 lit. a).
+  Belege: raw/260717_amtlich_zh_hwschv.md, raw/260717_amtlich_ch_gschv-41c.md. _[2026-07-17]_
+
+- **F (Modell D):** Ein belasteter Standort in ZH wurde bis Mitte 1999 mit Siedlungsabfällen
+  beschickt, danach nicht mehr. Sanierungskosten CHF 800'000, Verursacher zahlungsunfähig. Zahlt der
+  VASA-Fonds — wie viel, und was ist verfahrensrechtlich zwingend? — **A:** Ja. **Berechtigung**
+  gegeben: seit dem 1. Februar 2001 sind keine Abfälle mehr gelangt, der Verursacher ist
+  zahlungsunfähig (Art. 32e Abs. 3 Bst. b Ziff. 1 USG; zusätzlich Ziff. 2 Siedlungsabfälle). Der
+  **Satz beträgt aber nicht 40 %, sondern 30 %**, weil auch nach dem 1. Februar 1996 — längstens bis
+  31. Januar 2001 — Abfälle gelangt sind (Art. 32e Abs. 4 Bst. b Ziff. 2 USG) → rund
+  **CHF 240'000**. Zwingend: da die anrechenbaren Kosten **über CHF 250'000** liegen, wird nur
+  abgegolten, «wenn eine **rechtskräftige Verfügung** über die Kostenverteilung vorliegt»
+  (Art. 11 Abs. 2 VASA) — eine blosse Einigung im ZH-Verhandlungsverfahren genügt nicht.
+  Beleg: raw/260717_amtlich_ch_usg-32e.md. _[2026-07-17]_
+
+- **F (Modell A · Frage→Beleg):** Ein Bauherr will eine im Gewässerraum stehende, nach Brand
+  zerstörte Baute in der Bauzone wieder aufbauen. Steht der Gewässerraum dem entgegen? — **A:**
+  **Nein, im Gegenteil** — die Norm ist begünstigend. **§ 20 Abs. 2 WsG** (seit 01.06.2026; bis dahin
+  § 15m Abs. 2 HWSchV): das **Brandstattrecht nach § 307 PBG besteht auch im Gewässerraum**
+  innerhalb der Bauzonen, wenn ein Wiederaufbau ausserhalb des Gewässerraums nicht möglich ist und
+  die Hochwassersicherheit nicht beeinträchtigt wird. Ebenso erklärt § 20 Abs. 1 WsG den
+  Bestandesschutz **§ 357 PBG sinngemäss anwendbar** — kein Vorrang, sondern Verweis. Die KB
+  behauptete bis Run 48 das **Gegenteil** («§ 307 im Gewässerraum nicht anwendbar»). Beleg:
+  raw/260717_amtlich_zh_hwschv.md. Vgl. [[ausnahmebewilligung-und-bestandesschutz]]. _[2026-07-17]_
+
+**Ergebnis Buch-Run 48 (3 Beschaffungen + Verifikation, 4 neue amtliche Volltexte):** Die drei aus
+Run 47 verbliebenen «beschaffbaren» Luecken sind geschlossen — und jede einzelne foerderte einen
+**echten Fehler** zutage. Schwerster Fund: **die HWSchV ist seit 01.06.2026 aufgehoben** (→ WsG/WsV),
+die KB zitierte also totes kantonales Recht; zudem stand die § 15m-Aussage **auf dem Kopf**
+(Verweis/beguenstigend statt Vorrang/einschraenkend) und die Buch-Nummern stammten aus der
+2013er-Fassung (Renumbering Nachtrag 95: § 15d→§ 15k, § 15b→§ 15h, § 15g→§ 15m). Ferner:
+**Additionsprinzip ohne seine Ausnahme** (PW neue Anlagen) und **VASA-Stichtag** falsch
+(«nur bis Ende Januar 1996» vermengte Berechtigung [1.2.2001] mit Satz-Staffelung [40 %/30 %]).

@@ -3,7 +3,7 @@ title: Baulinien und Abstandslinien — Kanton Zürich
 status: established
 last_updated: 2026-07-13
 verifiziert: 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95 PBG (Erschliessungsplan-Inhalt, § 93 Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Skilinien-Ergänzung), §§ 114-122 PBG (Werkplan, vorsorgliches Bauverbot § 120, Heimschlag) gegen raw/260607_amtlich_zh_pbg.md, Modell-D Kap. 3 Teil 1; § 62 StrG volltextverifiziert gegen raw/260713_amtlich_zh_strg.md — Buch-Angabe ¼-½ KORRIGIERT (amtlich: lit. c Einzelbeitrag max. ½ der Wertvermehrung/Summe max. ¾ der Kosten, lit. d Trottoir-Anstösserbeiträge Summe max. ½ der Kosten); vorherige Verifikation 2026-07-12: § 264/§ 272/§§ 96-101/§ 266)
-sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 94 PBG", "§ 95 PBG", "§ 96 PBG", "§ 97 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 107 PBG", "§ 108 PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§ 112 PBG", "§ 113 PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§ 121 PBG", "§ 122 PBG", "§ 220 PBG", "§ 238a PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV", "§ 15m HWSchV", "§ 62 lit. c/d StrG", "Buch Bd 2 S. 1022-1061", "Buch Bd 1 Kap. 3, S. 208-239"]
+sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 94 PBG", "§ 95 PBG", "§ 96 PBG", "§ 97 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 107 PBG", "§ 108 PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§ 112 PBG", "§ 113 PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§ 121 PBG", "§ 122 PBG", "§ 220 PBG", "§ 238a PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV", "§ 15m HWSchV (aufgehoben 01.06.2026)", "§ 20 WsG", "§ 62 lit. c/d StrG", "Buch Bd 2 S. 1022-1061", "Buch Bd 1 Kap. 3, S. 208-239"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2b]], [[zonenkonformitaet]], [[raumplanung-und-gestaltung]], [[baureife-und-erschliessung]]
 ---
 
@@ -207,7 +207,7 @@ durch Baulinien gesichert werden kann** (Auffanginstrument zu den Baulinien).
 | Ski-/Schlittellinie | § 111 PBG | Gemeindevorstand | Bauverbot für zweckwidrige Bauten/Bewirtschaftung, § 112 |
 | Gewässerabstandslinie | § 67 PBG | Gemeinde (BZO) | wie Baulinie, §§ 99-101 analog |
 | Waldabstandslinie | § 66 PBG | Kanton/Gemeinde | 30 m (red. bis 15 m), → [[15-lage-von-gebaeuden]] |
-| Gewässerraum (Bundesrecht) | Art. 36a GSchG / § 15b HWSchV | Kanton (Baudirektion) | standortgebundene Anlagen, → [[abstaende-und-hoehen]] |
+| Gewässerraum (Bundesrecht) | Art. 36a GSchG / § 15h HWSchV (aufgehoben 01.06.2026 → § 183 lit. b WsV) | Kanton (Baudirektion) | standortgebundene Anlagen, → [[abstaende-und-hoehen]] |
 | **Werkplan** (subsidiär zur Baulinie) | §§ 114-119 PBG | Werkträger/Richtplan-Ersteller | Enteignungs-/Vorkaufsrecht Werkträger, Heimschlagsrecht Eigentümer |
 | **Vorsorgliches Bauverbot** (2. Auffangstufe) | §§ 120-122 PBG | RR (Staat) / zuständige Direktion | befristet 5 Jahre seit Rechtskraft, dann dahingefallen |
 

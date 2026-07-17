@@ -1,6 +1,12 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
-- [ ] **Q&A-Selbstbefragung SIA/VKF-P1 (Run 14, 2026-07-15) — 30 Ergaenzungskandidaten:**
+- [x] **ERLEDIGT Run 15 (2026-07-17): Die 30 Ergaenzungskandidaten aus Run 14 sind eingearbeitet.**
+  29 gemeldete Luecken am Original verifiziert und in die Destillate eingebaut (SIA 103: 10,
+  SIA 105: 7, SIA 118: 2, SIA 112: 2, SIA 451: 4, VKF BRL 16-15: 4). Verdikt: 28x `belegt`,
+  1x `abweichend` (VKF-BRL-16-15-Ausgabejahr, siehe unten). Anschliessende Widerlegungs-Pruefung:
+  5 Beanstandungen, alle korrigiert. Details unten und in `outputs/2026-07-17_normen-nacht-run15.md`.
+
+- [ ] ~~**Q&A-Selbstbefragung SIA/VKF-P1 (Run 14, 2026-07-15) — 30 Ergaenzungskandidaten:**~~
   Alle 10 P1-Kernnormen (SIA 102/103/105/111/112/118/416/451, VKF Brandschutznorm 1-15,
   VKF BRL 16-15) durch je 20–22 am Original beantwortete Pruefungsfragen gegengeprueft:
   **0 sachliche Fehler**, alle established bestaetigt. Gemeldete Luecken (Destillate korrekt,
@@ -438,3 +444,49 @@ einzeln geprüft:
   11.4 + Abschnitt 14. Adversarial verifiziert (unabhängiger Prüf-Agent gegen
   BKP-2017-Liste.md, 0 Fehler/keine erfundenen Subcodes gefunden — Details siehe
   `outputs/2026-07-16_normen-mini-run31.md`).
+
+## Run 15 (MacBook Pro, 2026-07-17) — neue offene Punkte
+
+- [x] **GEKLAERT: Ausgabejahr VKF-BRL 16-15 «Flucht- und Rettungswege».** Run 14 hatte vermutet, die
+  Datei datiere als «Ausgabe 2017». Am Original widerlegt: korrekt ist **Ausgabe 2015, Fassung
+  01.01.2017** (Copyright 2015; IOTH-Aenderungen 17.09.2015 und 22.09.2016 eingearbeitet;
+  Inkraftsetzung Ziff. 5: Beschluss IVTH 18.09.2014, in Kraft 01.01.2015 — ein Inkrafttreten 2017
+  existiert im Dokument nicht). «2017» ist das Fassungs-, nicht das Ausgabedatum. Zitierform:
+  «VKF-BRL 16-15de, Ausgabe 2015, Fassung 01.01.2017».
+- [ ] **Folgepruefung zur 2015er-BRL-Serie:** Dieselbe Verwechslung Fassungsdatum ↔ Ausgabejahr duerfte
+  bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten (deren Fassungsdaten sind
+  ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie darauf durchsehen.
+- [ ] **BRING-SCHULD P1 — Volltext SIA 380/1:2016 beschaffen.** Im Bestand liegt nur eine Vorschau
+  (6 von 60 Seiten). Bis dahin sind Q_H-Grenz-/Zielwerte, U-Wert-Grenzwerte und Gebaeudekategorien
+  **nicht belegbar** und duerfen von Agent `energie-berater` / Skill `planungsgrundlagen` NICHT
+  genannt werden. Falle: `alle/xalt/neu/380_1_d_2001.pdf` ist Volltext, aber zweifach ueberholt
+  (2001→2009→2016) — kein Ersatz. Beschaffung via SIA-Normen-Abo (Zugangsdaten unter
+  `SIA_Abo/Korrespondenz/`, Aktualitaet ungeprueft) oder Kauf.
+- [ ] **BRING-SCHULD P1 — Volltext SIA 385/1:2011 beschaffen** (6 von 28 Seiten im Bestand). Die
+  praxisrelevanteste Frage (Legionellen-Temperaturen, Ziff. 3.1/3.2, Normseite 13) ist bis dahin
+  aus dieser Norm nicht beantwortbar. Vor einem Normkauf zuerst pruefen, ob die franzoesische
+  Variante `alle/f/385_1_f.pdf` den Volltext enthaelt — waere der billigste Lueckenschluss.
+- [ ] **Z1/Z2-Koeffizienten des SIA-103-Grundfaktors fehlen** (p = Z1 + Z2/∛Bp, Ziff. 7.2.2). Sie
+  werden laut Norm periodisch vom SIA publiziert, stehen aber nicht im PDF. Folge: **Honorar nach
+  Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Fuer SIA 102 liefert das neue Destillat
+  `sia-honorar-hilfsmittel.md` die z-Werte 2015 — der SIA-103-Gegenpart fehlt.
+- [ ] **Widerspruch zwischen Destillaten (Neubefund der Synthese):** `sia-112-2014.md` ordnet
+  SIA 104 = «Landschaftsarchitektur» und SIA 105 = «Maschinen-/Elektroingenieur» zu. Das widerspricht
+  `sia-104-2003.md` (Forstingenieure), `sia-105-2020.md` (Landschaftsarchitekten) und
+  `sia-108-2014.md` (Gebaeudetechnik). Vermutlich OCR-Fehler (SIA-112-Quelle ist ein Scan ohne
+  Textlayer). Am Original SIA 112:2014 S. 4/S. 10 nachpruefen und korrigieren.
+- [ ] **Beherbergungs-Kategorien [a]/[b]/[c] der VKF sind nirgends definiert** — kritisch fuer die
+  Healthcare-Projekte (Pflege/Spital laufen ueber diese Kategorien). Definition suchen (vermutlich
+  VKF-BRL 10-15 Begriffe oder Brandschutznorm 1-15) und in die Destillate nachtragen.
+- [ ] **SIA 118:2013 nicht im Bestand** — belegt sind nur 1977/1991. Ob die Ausgabe 2013 fuer laufende
+  Werkvertraege beschafft werden muss, ist ein Entscheid fuer Raphael.
+- [ ] **Merkblatt-Serie SIA 2001-2027 (18 Positionen) neu im Inventar, noch nicht destilliert.**
+  Prioritaer: SIA 2024 (Standard-Nutzungsbedingungen — Bezugsgroesse fuer `kostenschaetzung` und
+  den Energienachweis) und SIA 2023 (Wohnungslueftung). Titel je am Original verifizieren.
+- [ ] **VKF-Normkonzept BSV 2026 (Stand 06.10.2022) neu im Inventar** — noch NICHT in Kraft, daher nie
+  als geltendes Recht zitieren. Strategisch relevant als Vorschau auf die Abloesung der BSV 2015.
+- [ ] **Inventar-Scan haerten:** Der Scan vom 11.07.2026 hat nur `SIA_Normen/alle/` erfasst (58 Dateien
+  uebersehen) und Vorschau-PDFs nicht erkannt. Zwei Konsequenzen fuer den naechsten Scan: (1) rekursiv
+  ab `02_Normen/` scannen, nicht ab einem Unterordner; (2) je PDF die tatsaechliche Seitenzahl gegen die
+  auf dem Titelblatt deklarierte «Anzahl Seiten» pruefen — damit waeren beide Auszuege sofort aufgefallen.
+  Gegenprobe Run 15: im uebrigen destillierten SIA-Bestand (`alle/`) gibt es **0 weitere Auszuege**.

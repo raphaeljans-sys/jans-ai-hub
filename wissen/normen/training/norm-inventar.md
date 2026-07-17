@@ -2,7 +2,7 @@
 
 - **Quelle (bleibt SharePoint, nie kopieren):** `PL - 02_Recht_Norm/02_Normen/`
 - **Erstellt:** 11.07.2026 (automatischer Scan) · Status-Pflege durch den Loop
-- Status-Spalte: `[ ]` offen · `[x] JJMMTT` destilliert · `—` übersprungen (Grund in Bemerkung)
+- Status-Spalte: `[ ]` offen · `[x] JJMMTT` destilliert · `[~] JJMMTT` teil-destilliert (nur Auszug/Vorschau im Bestand, Volltext als Bring-Schuld offen) · `—` übersprungen (Grund in Bemerkung)
 - Priorität: P1 = Skill-Kernnormen (zuerst), P2 = übrige SIA de, P3 = DIN/VSS/RAL, — = Sprachvariante/alt
 - Vertiefungsstufe (c) Q&A-Selbstbefragung: Stand/Abdeckung in `destillate/qa/INDEX.md`
   (SIA/VKF-P1-Kernnormen abgesichert 260715, Run 14 — 205 Fragen, 0 Fehler).
@@ -463,7 +463,7 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [x] 260717 | P1 | `SIA_Normen/SIA 380_1_2016/i380-1_2016_d.pdf` | 380/1 | 2016 | **Heizwärmebedarf — zentrale Energienachweis-Norm; im Bestand NUR hier (in `alle/` liegen nur f/i-Sprachvarianten und die alte Ausgabe 2001 unter `xalt/`)**; destilliert + adversarial verifiziert 260717 (Run 15); sia-380-1-2016.md; Nutzer: Agent `energie-berater`, Skill `planungsgrundlagen` |
+| [~] 260717 | P1 | `SIA_Normen/SIA 380_1_2016/i380-1_2016_d.pdf` | 380/1 | 2016 | **Heizwärmebedarf — zentrale Energienachweis-Norm; im Bestand NUR hier (in `alle/` nur f/i-Sprachvarianten und die alte Ausgabe 2001 unter `xalt/`). PDF ist Vorschau/Auszug: 6 von 60 Normseiten, der gesamte normative Teil S. 5-58 fehlt → KEINE Q_H-Grenzwerte, KEINE U-Werte, KEINE Gebäudekategorien.** struktur-destillat (Auszug), status `speculative`, adversarial verifiziert 260717 (Run 15); **Bring-Schuld P1: Volltext beschaffen** (SIA-Abo/Kauf) — erst dann `established`. FALLE: `alle/xalt/neu/380_1_d_2001.pdf` ist Volltext, aber zweifach überholt (2001→2009→2016) und darf NICHT als Ersatz dienen. sia-380-1-2016.md; Nutzer: Agent `energie-berater`, Skill `planungsgrundlagen` |
 | [x] 260717 | P2 | `i385-1_2011_d.pdf` (Wurzel `SIA_Norm/`) | 385/1 | 2011 | Anlagen für Trinkwarmwasser (nicht «Trinkwasser»); ersetzt SIA 385/3:1991; im Bestand nur hier (in `alle/` nur f-Variante). **PDF ist Vorschau/Auszug: 6 von 28 Normseiten, normativer Teil S. 5-26 fehlt → keine Grenzwerte (Legionellen/Ausstosszeit/Speicher/Daemmung).** struktur-destillat (Auszug), verifiziert 260717 (Run 15); Bring-Schuld P1: Volltext beschaffen; sia-385-1-2011.md |
 | [ ] | P2 | `SIA_Normen/SIA 112/Bereichs_Phasenmatrix.pdf` | 112 | — | Hilfsmittel zu SIA 112 (Bereichs-/Phasenmatrix) — noch nicht destilliert |
 | [ ] | P2 | `SIA_Normen/SIA 112/SIA_Leistungsmodell.pdf` | 112 | — | Hilfsmittel Leistungsmodell — noch nicht destilliert |

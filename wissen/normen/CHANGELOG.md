@@ -1,3 +1,35 @@
+## 2026-07-17 — Run 15 (MacBook Pro, SIA/VKF): «SIA/VKF komplett» widerlegt — 59 Dateien fehlten im Inventar; Stufe (a) + (d) abgeschlossen
+
+**Wichtigster Befund — Inventar-Korrektur.** Ein Datei-fuer-Datei-Abgleich gegen die live gemountete
+SharePoint-Ablage zeigt: der automatische Scan vom 11.07.2026 hat nur `SIA_Norm/SIA_Normen/alle/`
+erfasst. **58 SIA-Dateien** (Ordner `SIA_Vertraege/`, `SIA_Merkblaetter/`, `SIA_Abo/`, die norm-eigenen
+Unterordner `SIA_Normen/SIA 102|112|282|380_1_2016/` sowie die Wurzeldatei `i385-1_2011_d.pdf`) und
+**1 VKF-Datei** (`07_BSV 2026 Projekt/`) waren nie erfasst. Die Meldung «SIA/VKF 0 offene Positionen»
+der Laeufe 13/14 beruhte damit auf einer unvollstaendigen Grundmenge und ist korrigiert
+(neue Sektion «SIA — Nachtrag 260717» in `training/norm-inventar.md`).
+
+**Geschlossen in diesem Lauf (8 neue Destillate, alle adversarial verifiziert):**
+- `sia-1001-1-2020.md`, `sia-1001-2-2020.md`, `sia-1001-3-2020.md`, `sia-1001-11-2018.md`,
+  `sia-1023-2013.md`, `sia-honorar-hilfsmittel.md` — die SIA-Vertragsnormen, also die Faktenbasis
+  der Skills `werkvertrag` und `honorarberechnung-sia102`. Alle `established`.
+- `sia-380-1-2016.md`, `sia-385-1-2011.md` — beide nur als **Vorschau** im Bestand (6/60 bzw. 6/28
+  Seiten). Ehrlich als `struktur-destillat (Auszug)` / `speculative` gefuehrt, mit Zitier-Riegel und
+  Bring-Schuld P1 statt geratener Werte. Gegenprobe: im uebrigen destillierten SIA-Bestand 0 weitere Auszuege.
+
+**Vertiefungsstufe (a) abgeschlossen:** die 30 Ergaenzungskandidaten aus Run 14 sind eingearbeitet —
+29 Luecken am Original verifiziert (28x belegt, 1x abweichend), 5 Beanstandungen der Widerlegungs-Pruefung
+korrigiert. **Vertiefungsstufe (d) abgeschlossen:** neu `wiki/synthese-sia-vkf-fachskills.md`
+(224 Fundstellen ueber 7 Fach-Skills) — das SIA/VKF-Pendant zur DIN/VSS/RAL-Synthese.
+
+**Geklaert:** VKF-BRL 16-15 ist **Ausgabe 2015, Fassung 01.01.2017** (nicht «Ausgabe 2017») — «2017»
+ist das Fassungs-, nicht das Ausgabedatum. **Richtiggestellt:** die «Honorarempfehlung SIA 2009» ist
+keine SIA-Publikation, sondern eine **KBOB-Empfehlung**.
+
+**Qualitaets-Bilanz der Widerlegungs-Stufe:** 32 Beanstandungen ueber alle Destillate, alle korrigiert;
+kein Destillat-Status musste gesenkt werden ausser bei den zwei Auszug-Normen. Wiederkehrende Fehlertypen:
+woertliche Norm-Uebernahmen (Urheberrecht), unbelegte Verallgemeinerungen und als Norm-Aussage etikettierte
+Eigenleistungen. Report `outputs/2026-07-17_normen-nacht-run15.md`.
+
 ## 2026-07-17 — Neu: Destillat SIA 385/1:2011 (Trinkwarmwasser) — Inventar-Luecke geschlossen, Auszug ehrlich ausgewiesen
 Die Norm `SIA_Norm/i385-1_2011_d.pdf` lag ohne Inventar-Eintrag UND ohne Destillat auf SharePoint
 (durchgefallen beim Inventar-Scan 11.07.2026). Neu angelegt: `destillate/sia-385-1-2011.md`,

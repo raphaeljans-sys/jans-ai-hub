@@ -92,6 +92,14 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Betrifft potenziell jeden §§-Check (§ 110a, § 123a, § 149a, § 87a, § 44a, § 338c …).
   Gegenprobe: die Paragraphensequenz um die Fundstelle herum lesen (Run 47: § 160a CONFIRMED,
   Vorbefund war Fehlalarm — anders als die echten Zitierfehler § 209f PBG und «§ 50a VRG»).
+- **Fassungsstand kantonaler Erlasse pruefen (Pruefregel Modell D, seit Run 48):** kantonale Erlasse
+  altern schneller als die KB. Run 48 fand, dass die **HWSchV seit 01.06.2026 aufgehoben** ist (→ WsG/WsV)
+  und 2017 zusaetzlich **durchnummeriert** wurde (Nachtrag 95) — die KB zitierte totes Recht mit
+  veralteten Nummern. Vor jedem Zitat eines kantonalen § deshalb auf zhlex pruefen: **(a) gilt der Erlass
+  noch?** (b) **welcher Nachtrag ist die letzte materielle Fassung?** Ein `grep`-Treffer in einer alten
+  raw-Datei belegt nur, dass der § **einmal** so lautete. Analog zur Grep-Falle: «existiert nicht» ist ohne
+  Fassungspruefung nicht belastbar (Run 48: der Agent waere an der 2013er-Fassung beinahe zum Fehlschluss
+  «§ 15m existiert nicht» gekommen).
 - **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
   5-6 Fundorten (Wiki, Destillat, `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`,
   `training/drills.md`). Eine Korrektur nur im Fliesstext laesst **Tabellen und Register
@@ -105,6 +113,15 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 48 (2026-07-17, Modell-D Beschaffungslauf — die 3 «beschaffbaren» Luecken aus Run 47 geschlossen,
+    Freigabe Raphael):** **4 neue amtliche Volltexte** (LSV Art. 40-42 + Anhang 3/4; GSchV Art. 41c +
+    UebgBest. 4.5.2011; HWSchV ZH + **Nachfolgerecht WsG/WsV**; USG Art. 32e + VASA). **Jede Luecke deckte
+    einen echten Fehler auf** — schwerster: **die HWSchV ist seit 01.06.2026 aufgehoben** (OS 81, 144), die
+    KB zitierte totes kantonales Recht; § 15m stand **auf dem Kopf** (Verweis/beguenstigend statt Vorrang/
+    einschraenkend); Renumbering Nachtrag 95 uebersehen (§ 15d→§ 15k etc.); LSV-**Additionsprinzip ohne
+    seine Ausnahme** (PW neue Anlagen); **VASA-Stichtag** falsch (Berechtigung 1.2.2001 vs. Satz-Staffelung
+    40 %/30 %). **5 echte Korrekturen, 0 Halluzinationen**, ~15 Fundorte, 4 Drills. **Neue Leitplanke:**
+    Fassungsstand kantonaler Erlasse pruefen. Report `outputs/2026-07-17_buch-run48.md`.
   - **Run 47 (2026-07-17, Modell-D — 4 Komplexe adversarial parallel via Agent-Fan-out: Gewaesserraum GSchV,
     LSV-Schallschutz, Quartierplan PBG, USG-Nomenklatur):** **Die Run-46-Meldung «Verifikations-Rueckstand
     abgebaut» war verfrueht** — eine Gegenprobe ueber das ganze QUESTIONS-Dokument fand 4 Flags, die am

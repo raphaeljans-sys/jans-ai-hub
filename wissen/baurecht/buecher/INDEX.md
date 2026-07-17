@@ -124,7 +124,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Fassade-Messweise (§ 260/§ 28 ABV), politische/Zonengrenzen (§ 261 PBG), **Waldabstand § 262 PBG**
   (30 m / bis 15 m, Art. 17 WaG), **Gewaesserraum** (Art. 36a GSchG, 11 m / 2,5×Sohle+7 m / 15 m),
   **Uferstreifen-Messweise**, dicht ueberbautes Gebiet (Art. 41c GSchV), Besitzstand/Brandstattrecht
-  (§ 15m HWSchV vor § 307/§ 357 PBG), **Gewaesserabstandslinien § 67 PBG**, Hochwasser-Gefahren-
+  (§ 15m HWSchV **verweist auf** § 307/§ 357 PBG — kein Vorrang, korrigiert Run 48; HWSchV aufgehoben 01.06.2026 → § 20 WsG), **Gewaesserabstandslinien § 67 PBG**, Hochwasser-Gefahren-
   bereiche (WWG/WBV), **Baulinien-Arten § 96 PBG** + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG.
   20 Doppelseiten. Status: `emerging` (Grenz-/Gebaeudeabstand-Zahlenwerk §§ 269-274 offen, Shots ab 535);
   Gebaeudearten-/Minibau-Fundstellen in Buch-Run 34 (2026-07-13) am Volltext korrigiert (§ 260 Abs. 4 PBG /
@@ -213,7 +213,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Aussiedlung BGer 1C_567/2014; i.V.m. § 228 Abs. 1 Unterhaltspflicht; § 243 Abs. 2 Parkplatz-Spezialfall),
   **§ 307 PBG Brandstattrecht** (Wiederaufbau brand-/katastrophenzerstoerter vorschriftswidriger Bauten in
   Bauzonen, **innert 3 J.**, Art/Umfang/Lage, verbessernder Wiederaufbau BEZ 1998 Nr. 8; ausserhalb Bauzone
-  Art. 24c Abs. 2 RPG; § 15m HWSchV). 1 Doppelseite (Shot 732). Status: `emerging`. **SCHLIESST Kap. 20.**
+  Art. 24c Abs. 2 RPG; § 15m HWSchV — aufgehoben 01.06.2026, heute § 20 WsG). 1 Doppelseite (Shot 732). Status: `emerging`. **SCHLIESST Kap. 20.**
   Speist [[ausnahmebewilligung-und-bestandesschutz]] + [[bestandsumbau-eingriffstiefe]].
 - [[12-baureife]] — Kap. 12 Teil 1+2 (S. 707-741): **Baureife** als erstes der Grundanforderungen
   (§§ 233-249 PBG) — **technische Erschliessung** (Zugaenglichkeit/Wasser/Energie/Entsorgung,

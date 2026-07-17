@@ -75,7 +75,10 @@ Abs. 2 LSV (S. 1376-1377, 1400-1403).
   Bau-/Ausruestungsvorschriften (lit. b), Verkehrsvorschriften (lit. c), Vorschriften ueber
   Waermedaemmung, Brenn-/Treibstoff (S. 1366-1367).
 - **Immissionsgrenzwerte (IGW)** Art. 13-15 USG; **Vorgehen beim Fehlen von Grenzwerten**:
-  Einzelfallbeurteilung nach Art. 14 USG bzw. Art. 19 USG (Alarmwert), Beurteilung gegenueber
+  Einzelfallbeurteilung nach Art. 14 USG (Luftverunreinigungen) bzw. **Art. 15 USG (Laerm und
+  Erschuetterungen)**, unter Beruecksichtigung von Art. 19 USG (Alarmwert). **Praezisiert
+  2026-07-17: fuer LAERM konkretisiert Art. 40 Abs. 3 LSV — massgebend ist Art. 15 USG, nicht
+  Art. 14.** Beurteilung gegenueber
   empfindlichen Personengruppen (S. 1368).
 
 ### Luftreinhaltung (19.2, S. 1368-1375)
@@ -162,8 +165,24 @@ Abs. 2 LSV (S. 1376-1377, 1400-1403).
   - **Anordnung der laermempfindlichen Raeume** (**§ 301 PBG**): bei Wohnraeumen in
     Mehrfamilienhaeusern grundsaetzlich gegen Nord/Nordwest gerichtet zulaessig (Abs. 1),
     abweichend in Kern-/Zentrumszonen und Hotels (Abs. 2) (S. 1403).
-- **Mehrere Laermquellen** (Art. 40 Abs. 2 LSV): bei gleichartigen Laermimmissionen aus
-  mehreren Anlagen **Summe** massgebend (Additionsprinzip) (S. 1402).
+- **Mehrere Laermquellen** (Art. 40 Abs. 2 LSV; volltextverifiziert 2026-07-17): bei
+  gleichartigen Laermimmissionen aus mehreren Anlagen ist die **Summe** massgebend
+  (Additionsprinzip) — die Belastungsgrenzwerte sind auch dann ueberschritten, wenn erst die
+  Summe sie ueberschreitet. **Ausnahme (im Destillat bisher fehlend): das Additionsprinzip gilt
+  NICHT fuer die Planungswerte bei neuen ortsfesten Anlagen** (Art. 40 Abs. 2 Satz 2 i.V.m.
+  Art. 7 Abs. 1 LSV) — dort wird der PW anlagebezogen **einzeln** beurteilt. Wer die Ausnahme
+  nicht kennt, addiert genau dort, wo das Bundesrecht es verbietet (S. 1402).
+- **Fehlen von Belastungsgrenzwerten** (Art. 40 Abs. 3 LSV; neu erfasst 2026-07-17): die
+  Vollzugsbehoerde beurteilt die Laermimmissionen nach **Art. 15 USG** und beruecksichtigt
+  zusaetzlich **Art. 19 USG** (Alarmwerte) und **Art. 23 USG** (Planungswerte). Praxisrelevant
+  fuer Anlagetypen ohne Grenzwerte (Gastwirtschafts-/Sport-/Freizeitlaerm, Glockengelaeut).
+- **Abgrenzung der Anhaenge** (neu erfasst 2026-07-17): **Bahnlaerm auf Strassen** (Tram/
+  Trolleybus) ist dem Strassenverkehrslaerm gleichgestellt (Anhang 3 Ziff. 1); **Standseilbahnen
+  und Eisenbahnwerkstaetten** sind dem Industrie-/Gewerbelaerm gleichgestellt (Anhang 4 Ziff. 1
+  Abs. 3) — die Zuordnung entscheidet, welcher Anhang und damit welche Grenzwerte gelten.
+- **Betriebsraeume** (Art. 42 LSV): in Raeumen von Betrieben in Zonen mit ES I-III gelten die
+  IGW/AW um **5 dB(A) hoeher** (Beleg raw/260717_amtlich_ch_lsv-anhang34.md; JANS-relevant bei
+  Healthcare-/Gewerbe-Mischnutzung).
 
 ### Verhaeltnis zu kantonalem Recht und Privatrecht (S. 1380-1381)
 - Bundes-Laermrecht bezieht sich auf Laerm **von Anlagen**; reiner Alltagslaerm
@@ -177,8 +196,10 @@ Abs. 2 LSV (S. 1376-1377, 1400-1403).
 
 - **LRV-Sanierungsfristen:** i.d.R. **5 Jahre**, hoechstens bis **10 Jahre** (Art. 10 LRV)
   (S. 1372).
-- **LSV-Belastungsgrenzwerte (Reihenfolge):** PW < IGW < AW (S. 1378). IGW = Schwelle
-  Schaedlichkeit/Laestigkeit (S. 1378).
+- **LSV-Belastungsgrenzwerte (Reihenfolge):** PW < IGW < AW (S. 1378) — **CONFIRMED
+  2026-07-17** gegen Anhang 3 (Strassenverkehrslaerm) und Anhang 4 (Eisenbahnlaerm), beide
+  wertidentisch (z.B. ES II Tag: PW 55 / IGW 60 / AW 70 dB(A)); Volltext
+  `raw/260717_amtlich_ch_lsv-anhang34.md`. IGW = Schwelle Schaedlichkeit/Laestigkeit (S. 1378).
 - **Mehrbeanspruchung Verkehrsanlage** (Art. 9 LSV): **+1 dB** = wahrnehmbar; **+3 dB** =
   deutlich wahrnehmbar (S. 1390).
 - **LSV-Sanierungsfristen:** **15 Jahre** ab Inkrafttreten LSV (Art. 17 Abs. 3 LSV), nach
