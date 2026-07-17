@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.07.2026 07:08:04
+Stand: 17.07.2026 07:28:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -10,13 +10,6 @@ Stand: 17.07.2026 07:08:04
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
-- 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1609afe0 nas-selfcommit: 4 Datei(en) 2026-07-17 07:00
+- 778d8e66 baurecht-buch-training Run 48 (Doku): beschaffbare Luecken geschlossen — HWSchV ZH seit 01.06.2026 aufgehoben
