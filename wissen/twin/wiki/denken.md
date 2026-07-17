@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-17
 gewichtung: authentisch
-sources: [260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -377,3 +377,20 @@ die Fairness-Grundannahme offen («fair je hälftig zu Lasten der strassenseitig
 Schluss als offene Handlungsfrage, nicht als Vollzug: «Soll ich diese Varianten wie oben beschrieben
 zeichnen?». Bestätigt und verschärft das belegte Varianten-/Verhandlungsdenken. Quelle: 16.06.2026,
 authentisch (→ [[fachsignatur]] Baulinie/Strassenausbau).
+
+## Wertfrage über das entscheidende Lagemerkmal aufhängen — und das Urteil ehrlich als Schätzung markieren (belegt Mailbatch 55, authentisch)
+
+Zur Minderwertberechnung Giebelweg 12 führt Raphael den Gedanken in einem Satz von der Kennzahl zum
+physischen Befund und zurück: «In Bezug auf die Minderwertberechnung ist noch **entscheidend**, ob
+**Seesicht** besteht, dies würde die **Lageklasse** in die Klassifizierung **top** rechtfertigen, aber
+ich denke es gibt knapp keine Seesicht jedoch wunderbares Alpenpanorama, **CHF 70K ist plausibel**.»
+
+Die Bewegung: (1) offene Variable benennen, die das Ergebnis kippt (Seesicht ja/nein); (2) den
+Wirkmechanismus über die Fachgrösse erklären (Seesicht → Lageklasse «top» → höherer Minderwert);
+(3) den eigenen Befund geben und dabei die Grenze markieren («ich denke», «knapp keine»); (4) das
+Ergebnis quittieren («CHF 70K ist plausibel») und die Deutungshoheit dem Mandanten lassen («Gerne
+passe ich die Unterlagen gemäss Deiner Einschätzung an»). Reiht sich an «Experten-Benchmark-Bauchcheck
+VOR der Rechnung» und «Annahmen markieren, Kennwerte belegen»: die Zahl wird nicht verteidigt,
+sondern an ihrer sensitiven Annahme aufgehängt — wer die Annahme kippt, kippt die Zahl, und das
+steht offen da. Bemerkenswert die ehrliche Nebenbemerkung, die den Wert nicht schönt, aber die Lage
+würdigt: «jedoch wunderbares Alpenpanorama». Quelle: 18.06.2026, authentisch.

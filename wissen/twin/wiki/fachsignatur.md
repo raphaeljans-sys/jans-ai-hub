@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-17
 gewichtung: authentisch
-sources: [260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1096,3 +1096,44 @@ welche die Berechnung angefertigt hat (Herr Cetin), oder deren verantwortlichem 
 unterzeichnen — Nachweis-Signatur folgt der fachlichen Urheberschaft/Verantwortung, nicht der
 Projektleitung. Quelle: 16.06.2026, authentisch (→ [[denken]] Worst-Case-Anker, [[arbeitsweise]]
 Auflagebereinigung).
+
+## Private Kontrolle Energie ZH: Befugnis-Klassen, EVEN-Rollenmodell und der kritische Pfad zur Baufreigabe (belegt Mailbatch 55, authentisch)
+
+Aus der Auflagebereinigung KISPI (Bauentscheid 1171/26) die belegte Verfahrensmechanik:
+
+- **Teilnachweise**: EN-105 = Lüftung, EN-110-ZH = Kühlung/Befeuchtung; Hauptformular EN-ZH-005
+  (bzw. «EN-ZH») als Dach über den Teilnachweisen (Auflage-Ziffer II.8a).
+- **Plattform EVEN** arbeitet mit einem **Lead-/Freigabe-Rollenmodell**: der Fachplaner kann ein
+  Formular erst bearbeiten, wenn ihm der Lead zugewiesen ist — «Das Problem war, dass ich die
+  Formulare ohne die Freigabe die Zuweisung des Leads nicht bearbeiten konnte» (Rückmeldung Gruner).
+  Der Architekt als Gesuchsteller verteilt die Leads.
+- **Private Kontrolle** bestätigt die Teilnachweise in EVEN (qualifizierte elektronische Signatur)
+  und ist Voraussetzung der **Baufreigabe**; die Befugnis ist **klassenscharf** (u.a. Wärmedämmung,
+  Schallschutz, Klima-/Lüftung) und personengebunden — die E-Mail-Adresse muss beim kantonalen
+  Sekretariat Private Kontrolle hinterlegt sein, sonst lässt EVEN die Einladung nicht zu. Liste der
+  befugten Kontrolleure: zh.ch → Planen/Bauen → Baubewilligung → Private Kontrolle → PK Energie.
+  Praxisfalle: ein Fachplanungsbüro kann für Wärmedämmung/Schallschutz eingetragen sein, aber **nicht**
+  für Klima-/Lüftung — dann muss ein externer befugter Kontrolleur beigezogen werden.
+
+Raphaels Vorgehen dabei: den Fachplaner nach seinem eingespielten Kontrolleur fragen («Hab Ihr jemand
+wo Ihr immer zusammen arbeitet wo für Euch die Private Kontrolle macht?»), ihn die Einladung selbst
+vollziehen lassen und parallel den eigenen Fallback vorbereiten. Quelle: 17.–19.06.2026, authentisch
+(Verfahrensdetails aus der handgetippten Fassung + der Amtsliste; die polierte Fassung derselben Sache
+ist Echo-Falle 17, siehe [[stimme]] — die **Fakten** daraus sind über die Amtsliste unabhängig belegt,
+die **Formulierung** ist keine Stilquelle).
+
+## Entfluchtung: «Raum über Raum über Raum ist nicht möglich» + FM/RNR/RKO-Raumsystematik (belegt Mailbatch 55, authentisch)
+
+Zwei Fach-Marker: (1) **Fluchtweg-Grundregel inline und in Alltagssyntax** — die Eliminierung eines
+Raums wird dem Auftragnehmer in einem Halbsatz begründet: «Wir mussten aus Gründen der Feuerpolizei
+den gesonderte Raum Reduit eliminieren (Entfluchtung **Raum über Raum über Raum ist nicht möglich**.»
+Die zweifache Verschachtelung als Kurzformel für die brandschutzrechtliche Grenze — kein Norm-Zitat,
+sondern die gebaute Konsequenz (vgl. den bereits belegten Reduit-Faden Batch 46). (2) **Raumdaten-
+Systematik im Healthcare-Betrieb** als eigene Fachebene: **FMN/FM-Nummer** (Facility-Management-Nummer,
+hauptordnend, gruppiert nach Raumklasse — Erschliessung 0.030–0.034, Fassadenräume 2.001–2.017,
+Hofräume 2.027–2.039), **RNR** (Raumfunktionsnummer), **RKO** (Raumkoordinatennummer),
+Roomdatabase-Status, Unterabteilung; dazu die Anschluss-Gewerke, die daran hängen (Elektrofachplaner,
+Türbauer, QS-Brandschutz, BMA-Planer, Schliessplan mit «Schliessmechanismus Zutritt neu» und
+«Schliessgruppe neu»). Raphael integriert seinen Vorschlag ins **bestehende Betreibersystem**, statt
+eine eigene Logik zu setzen, und markiert die eigene Unfertigkeit offen («Mir ist bewusst, dass dies
+ein erster, noch unvollständiger und fehlerhafter Vorschlag ist»). Quelle: 09.–19.06.2026, authentisch.

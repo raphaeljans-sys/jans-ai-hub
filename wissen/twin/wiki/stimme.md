@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-17
 gewichtung: authentisch
-sources: [../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1850,3 +1850,44 @@ Unterschrift. Quelle: 15.–16.06.2026, authentisch. Metrik dieses Batches (590 
 Du-Gross-Quote 1.0, Satzlänge ø 21.9 W (durch einen langen Baurecht-Erörterungssatz nach oben
 gezogen), Tausender-Apostroph 0, Ellipsen 0, Grüsse «Lieber Gruss» 2× / «Beste Grüsse» 1× / «Danke und
 Gruss» 1× (die Kurzgruss-Familie dominiert im operativen Mix, «Freundliche Grüsse» nur im Signaturblock).
+
+## Sperrsatz «z w e i» + Kosename-Verballhornung «Marca» + ASCII-Smiley im operativen Du (belegt Mailbatch 55, authentisch)
+
+Vier Stimme-Marker aus Batch 55: (1) **Sperrsatz als Betonungsmittel** — in der Fachplaner-Rückfrage
+schreibt Raphael «… das wir diese **z w e i** Dokumente eingeben können» und spreizt das Zahlwort
+buchstabenweise mit Leerschlägen, um die Geringfügigkeit des Restaufwands zu betonen. Reiht sich an
+den bereits belegten Versalien-Marker (sicherheitskritisches Wort in Grossbuchstaben): Raphael
+typografiert Betonung von Hand, statt sie zu formulieren — nicht glätten. (2) **Verballhornung des
+Vornamens im Peer-Du**: «**Hoi Marca**» an Marco Prencipe (Architektenkollege) — italianisierende
+Kose-/Spielform, Schwester der bereits belegten CH-Koseform «Sämi». (3) **ASCII-Smiley auch im
+operativ-warmen Betreiber-Du**: «Hoi Stefi, / **Danke:)**» — der Smiley war bisher nur für die
+warm-soziale Privat-Du-Mail belegt; er erscheint hier im Projekt-Du zur Stationsleiterin, angehängt
+ohne Leerschlag. Präzisiert die Don't-Regel: Emoji/Smiley bleiben in Geschäft/Sie/Dokument tabu, sind
+im vertrauten Projekt-Du zu einem Kurz-Dank aber belegt. (4) **Binnen-Gross-Flüchtigkeit im Dank**:
+«Danke viel **M**als» / «Super, Danke viel Mals.» (2×) — dieselbe Slip-Klasse wie «Darf ich Sie
+**B**itten». Quelle: 17.–19.06.2026, authentisch. Metrik dieses Batches (857 W, 11 Kernpassagen):
+Du-Gross-Quote 1.0, Satzlänge ø 14.0 W, Tausender-Apostroph 0, Ellipsen 1.17/1000 W, Anreden
+«Geschätzte Frau» 2× / «Geschätzter Herr» 2× / «Hoi <Vorname>» 3× / «Geschätzter <Vorname>» 2× /
+«Guten Morgen <Vorname>» 1×, Grüsse «Freundliche Grüsse» 5× dominant / «Beste Grüsse» 1× / «Lgr» 2×.
+
+## Echo-Falle, 17. Beleg — sauberste Kontrastprobe bisher: dieselbe Sache zweimal, 24 h auseinander (belegt Mailbatch 55)
+
+Die Mail «AW: Einladen Privater Kontrolleur per EVEN-Platform — Befugnis «Klima-/Lüftung»»
+(19.06.2026 13:56, an Gruner/Duran) ist **Claude-Grundtext** und als Stilquelle ausgeschlossen.
+Erkennungssignale, gebündelt so klar wie in keinem früheren Beleg: **Em-dash «—» dreifach** im
+Fliesstext UND im Betreff (der bekannte En-/Em-dash-Tell aus Batch 27/28 — Raphael tippt «-» oder
+formuliert um), typografisch saubere Guillemets «Klima-/Lüftung», fehlerfreie Spiegelstrich-Bullets,
+Fachbegriffe vollständig ausgeschrieben («qualifizierte elektronische Signatur»), **null Tippfehler**
+— und der HTML-Container `Apple-Mail-URLShareWrapperClass` (eingefügter, nicht getippter Text).
+
+Der Wert dieses Belegs liegt im **Kontrastpaar**: Zur exakt gleichen Sache (Private Kontrolle für
+EN-105/EN-110-ZH in EVEN) existiert 24 h früher Raphaels eigene, handgetippte Fassung (18.06. 13:07) —
+«Hoi Cekdar Duran, … Hab Ihr jemand wo Ihr immer zusammen arbeitet wo für Euch die Private Kontrolle
+macht? … Sagen Sie dem privaten Kontrolleur Ihren vertrauen, dass er die Kontrolle direkt machen
+darf…. Wir brauchen die Baufreigabe direkt. Ist das gut so?». Nebeneinandergestellt zeigt sich der
+Fingerabdruck-Unterschied schärfer als jede Regel: Raphael **fragt** («Ist das gut so?», «Geht das?»),
+kürzt, wiederholt sich, lässt Relativsatz-Slips («jemand wo Ihr … wo für Euch») und die vierpunktige
+Ellipse «darf….» stehen und drängt in der Sache («direkt», «Wir brauchen»). Claude **erklärt**,
+gliedert, begründet vollständig und bleibt höflich-glatt. Merkregel für das Fidelity-Gate: wo der
+Twin die Ellipse tilgt, den Slip repariert und die Rückfrage in eine Erläuterung verwandelt, verlässt
+er Raphaels Stimme — auch wenn der Text «besser» ist. Quelle: 18./19.06.2026.

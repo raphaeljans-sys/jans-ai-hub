@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-17
 gewichtung: authentisch
-sources: [260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1203,3 +1203,61 @@ offene Position (RE-00087) und leitet die Zahlungsbitte gezielt an die zuständi
 weiter — inkl. beigelegtem Zahlungsplan und Zahlungserinnerung als Beleg. Die aktive Trennung
 bezahlt/offen aus dem eigenen Buchungsstand ist die operative Umsetzung von Rule 260709 (Status aus
 dem Beleg, nie aus der Behauptung). Quelle: 15.06.2026, authentisch (→ [[haltung]]).
+
+## Vergabe-/Auftragsmail an den neuen Auftragnehmer = Auftrag + Fragenkatalog + Rollen-Wegweiser in einem (belegt Mailbatch 55, authentisch)
+
+Die Auftragserteilung Küchenbau (LOS_273.35, an Schreinermanufaktur/Röthlisberger) zeigt Raphaels
+Vollform der Vergabemail — sie tut fünf Dinge in einer Mail, in dieser Reihenfolge:
+
+1. **Auftrag mit Legitimationskette**: «Im Auftrag der Bauherrschaft, Albin Spahic sowie in
+   Rücksprache mit Frau Sonderegger; Leiterin PPTS, erteile ich Ihnen hiermit den Auftrag …» — wer
+   entschieden hat, steht vor dem Auftrag; danach die Rückbestätigungs-Bitte («Darf ich Sie bitten
+   uns den Auftrag zu bestätigen?»).
+2. **Änderungen am Bestand aktiv nachgeschoben**, mit Begründung: «Wir mussten aus Gründen der
+   Feuerpolizei den gesonderte Raum Reduit eliminieren … Wir haben auch eine neue Raumnummerierung,
+   die Küche hat neu die Facility Management Nummer (FM) 2.339» — der neue Auftragnehmer startet auf
+   dem aktuellen Stand, nicht auf dem Submissionsstand.
+3. **Soll-Deliverable am Referenzartefakt eines Dritten definiert**: «zwei Werkpläne **auf dem Niveau
+   des GASTRO-ONLINE AG *Projektplan Grundriss* und *Installationsplan Grundriss***» + A)/B)-Katalog,
+   was darin geklärt sein muss. Der Vorgänger-Anbieter liefert den Qualitätsmassstab für den
+   Nachfolger — Präzision ohne eigenes Pflichtenheft.
+4. **Rollen-Wegweiser statt blossem Verteiler**: jede cc-Person bekommt ihre Zuständigkeit
+   zugewiesen — «Sollten gastrotechnische Fragestellungen auftauchen ist Marco Schwander … bereit
+   Auskunft zu geben. In Bezug auf den Betrieb der Küche … ist Frau Stefanie Sonderegger zuständig.
+   Herr Albin Spahic, Michael Spörri und Fabian Würsch für technischen Support … Die Fachplanung
+   wird von der Firma Gruner AG bewerkstelligt; sehen Sie hierzu die Adressliste im Anhang.» Der
+   Neue muss nie fragen, wen er fragen soll.
+5. **Termin-/Kanal-Klärung**: Frist-Rückfrage («Bis wann dürfen wir mit den Unterlagen rechnen?») +
+   Grobterminplan zur Bestätigung + telefonischer Nachlauf angekündigt («Ich versuche Sie noch
+   telefonisch zu erreichen um offene Fragen bilateral zu klären») — bereits belegtes Muster
+   «schriftlich fixieren, bilateral klären».
+
+Rahmung: Vorfreude («Ich freue mich auf die Zusammenarbeit», «Es ist eine interessante Angelegenheit
+eine Schreiner-Therapieküche für 25 Person … auszustatten») + Service-Satz + Wochenend-Wunsch.
+Quelle: 19.06.2026, authentisch.
+
+## Stabile Grundstruktur freigeben lassen, BEVOR die Fachplaner darauf angewiesen werden (belegt Mailbatch 55, authentisch)
+
+Bei der Umstellung der Raumsystematik (FM-Nummern) macht Raphael die Reihenfolge explizit zur
+Bedingung: «**Nach Ihren Bestätigung** werde ich alle Fachplaner anweisen die neue Raumnummerierung
+in Ihre Gewerke einzuarbeiten, **daher** bitte ich Sie meine Pläne genau zu sichten … Es geht mal
+darum das wir eine **stabile Grundstruktur** haben wo wir darauf aufbauen können.» Der Grund für die
+Sorgfaltsbitte wird mitgeliefert (die Bestätigung löst Arbeit bei sieben Gewerken aus), und die
+Gegenprüfung wird zusätzlich an den fachlich Zuständigen delegiert («Darf ich Sie auch Bitten die
+Raumnomenklatur sowie Systematik mit Herr Lior Merci gegen zu prüfen, danke.»). Dieselbe Mail
+verteilt die Folgeaufträge per @-Mention («@Fabian Würsch bitte Schliessplan bestimmen oder Auftrag
+an Türfachplaner TEKOSI vergeben, danke.»). Reiht sich an «Planfreeze/Change-Request-Steuerung» und
+«Arbeitsordner-Ablagedisziplin»: Raphael sichert die **Datenbasis** ab, bevor er Fan-out zulässt.
+Quelle: 18.06.2026, authentisch.
+
+## Plattform-/Verfahrensblockade direkt beim Amt rückfragen statt herumprobieren (belegt Mailbatch 55, authentisch)
+
+Als das Hauptformular EN-ZH-005 auf der Plattform EVEN nicht aktivierbar ist, geht Raphael am selben
+Nachmittag zweigleisig an die Behörde: an den namentlich bekannten Sachbearbeiter («Geschätzter Herr
+Zürcher, In Bezug auf das Ausfüllen des Ziff.II.8a_Hauptformular EN-ZH-005 … komme ich auf Sie zu, da
+ich das Hauptformular … auf der EVEN Platform nicht aktiveren kann») **und** ans Sammelpostfach
+(«Guten Tag, Im Zuge der Auflagebereinigugnen wollte ich mich bei Ihnen erkundigen wie es auf der
+Platform EVEN möglich ist das Hauptformular EN-ZH zu aktivieren / auszulösen?»). Die Auflage-Ziffer
+steht im Betreff («Bauentscheid 1171/26: Ziff.II.8a_Hauptformular EN-ZH-005») — ziffernscharfes
+Tracking, bereits belegt. Muster: ein Werkzeug-Hindernis auf dem kritischen Pfad zur Baufreigabe wird
+sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quelle: 17.06.2026, authentisch.

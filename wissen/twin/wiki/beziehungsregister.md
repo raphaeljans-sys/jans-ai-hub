@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-17
 gewichtung: authentisch
-sources: [../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1203,3 +1203,40 @@ freundlich-persönlichen Investor-Du. In der fachlich-beratenden Fortsetzung am 
 die Öffnung zu «Guten Morgen Christoph» und der Gruss zu «Lieber Gruss, Raphael» (Komma-inline). Zeigt
 erneut: Gruss folgt dem Mail-Typ (Liefermail mit Ruf-mich-an-CTA → Beste Grüsse; operative
 Fach-Rückfrage → Lieber Gruss), nicht mechanisch der Anrede. Quelle: 15.–16.06.2026, authentisch.
+
+## «Hoi <Vorname> <Nachname>» — die Anrede-Zwischenstufe beim Erwärmen, mit Register-Kollision im Body (belegt Mailbatch 55, authentisch)
+
+Beim Fachplaner **Cekdar Duran** (Projektingenieur Lüftungstechnik, Gruner AG) lässt sich das
+Erwärmen des Registers über drei Mails in 36 h lückenlos mitlesen — und es geschieht **nicht sauber**:
+
+- 18.06. 08:05: «**Guten Morgen Cekdar Duran**» + durchgehend Sie + «Beste Grüsse» (Vorname+Nachname
+  als distanzwahrende Vollform).
+- 18.06. 13:07: «**Hoi Cekdar Duran,**» — Hoi (Du-Marker) trifft auf die Vollform (Sie-Marker). Im
+  Body kollidieren die Register offen: «Nun meine Frage an **Euch** … Könnten **Sie** mir jemand
+  vorschlagen? … Sagen **Sie** dem privaten Kontrolleur … **Darf ich Dich bitten** dies direkt in die
+  Wege zu leiten?» — Du-Anrede, Sie-Körper, Du-Schluss, plus «Euch» ans Team.
+- 19.06.: «**Hoi Cekdar**» — Vollform fällt weg, Du gefestigt.
+
+Der Marker ist **die Instabilität selbst**: «Hoi <Vorname> <Nachname>» ist Raphaels Übergangsform,
+und im Übergang mischt er Du und Sie innerhalb derselben Mail, ohne es zu bereinigen. Das ist kein
+Fehler, den der Twin glätten darf — es ist der authentische Verlauf einer Beziehungs-Erwärmung
+(vgl. die bereits belegten Kippen Schwander, Gomes, Steinmann, Hofer, wo der Sprung sauberer war).
+Verwandt: die parallel adressierte Du-Person im selben Text per «@Spörri Michael Solltest **Du**
+jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 18.–19.06.2026, authentisch.
+
+## Neue Mappings Batch 55 (belegt, authentisch)
+
+- **Nora Ramminger** (KISPI, Raumdaten/Raumbuch-Systematik) — **Sie**, «Geschätzte Frau Ramminger»;
+  in der Gruppenmail an sie + den Du-Bauherrn gestapelt: «**Geschätzte Frau Ramminger, werter
+  Fabian**» (Sie-Honorificum + Du-Vorname in einer Zeile — bestätigt das Muster «Register folgt der
+  Person, nicht der Sammel-Adressierung»). Sie selbst schreibt «Guten Morgen Herr Jans / Beste Grüsse».
+- **Stephan Lanz** + **Herr Brechbühl** (Schreinermanufaktur/Röthlisberger AG, Auftragnehmer
+  Küchenbau) — **Sie**, gestaffelt «Geschätzter Herr Lanz, / Werter Herr Brechbühl» (zwei
+  Wärmestufen im selben Anredeblock, bereits belegtes Muster) + «Freundliche Grüsse».
+- **Marco Prencipe** (Architektenkollege, HUB12-Netzwerk) — **Peer-Du**, «Hoi **Marca**» + «Lgr!»
+  (Koseform, siehe [[stimme]]).
+- **Robert Zürcher** (UGZ Stadt ZH, Energie/Baubewilligungen) — **Sie**, «Geschätzter Herr Zürcher»
+  (warm-Sie zur Fachstelle); das unpersönliche Sammelpostfach ugz-baubewilligungen@ dagegen «Guten Tag».
+- **Tim Harder** (Jomos, Sprinkler-Lieferant) — **Sie**, «Geschätzter Herr Harder, / Ich hoffe es geht
+  Ihnen gut.» — der Kontakt bleibt nach dem Mandatsabschluss (Batch 53) im warmen Sie und wird aktiv
+  weitergepflegt.
