@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.07.2026 02:51:58
+Stand: 17.07.2026 03:12:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:51)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:12)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.07.2026 02:51:58
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8aacb2ce nas-selfcommit: 2 Datei(en) 2026-07-17 02:45
+- dc8c8e3b immobewertung-training Run 36: D6-Restposten Luzern geschlossen + materielle Korrektur
