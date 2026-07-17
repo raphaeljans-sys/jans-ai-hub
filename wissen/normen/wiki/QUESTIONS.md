@@ -490,3 +490,27 @@ einzeln geprüft:
   ab `02_Normen/` scannen, nicht ab einem Unterordner; (2) je PDF die tatsaechliche Seitenzahl gegen die
   auf dem Titelblatt deklarierte «Anzahl Seiten» pruefen — damit waeren beide Auszuege sofort aufgefallen.
   Gegenprobe Run 15: im uebrigen destillierten SIA-Bestand (`alle/`) gibt es **0 weitere Auszuege**.
+
+### Uebergabe an den Mac Mini (DIN/VSS/RAL — nicht MacBook-Scope, Stations-Split)
+
+Run 15 hat auf der SIA/VKF-Seite zwei Fehlerklassen gefunden, die auch die DIN/VSS/RAL-Seite treffen
+koennten. Da diese Familien dem Mac Mini gehoeren, hier nur die Meldung — **nicht destilliert, nichts
+abgehakt**:
+
+- [ ] **Zaehl-Differenz Inventar ↔ Live-Ablage.** Rekursiver Zaehl-Check am 17.07.2026:
+  DIN **live 71** vs. Inventar **72**, VSS **live 14** vs. Inventar **17**, RAL 1 = 1, Lignum 0 = 0.
+  Hier fehlen also keine Dateien, im Gegenteil: das Inventar fuehrt 4 Positionen, die live nicht (mehr)
+  auffindbar sind — moeglicherweise geloescht/verschoben, oder Zaehlweise (.docx, Duplikate). Der Mini
+  sollte das aufloesen, bevor «DIN/VSS/RAL komplett» weiter als gesichert gilt.
+- [ ] **Auszug-Plausibilisierung fuer DIN/VSS ist offen (nicht: bestanden).** Der SIA-Test (PDF-Seitenzahl
+  gegen die auf dem Titelblatt deklarierte «Anzahl Seiten») hat bei DIN/VSS **0 Treffer** — aber nur,
+  weil DIN-Titelblaetter diese Angabe gar nicht fuehren. Das Ergebnis ist damit **unschluessig, kein
+  Freispruch**. Auffaellig kurze Dateien, die einen Blick verdienen: `DIN 277-1.pdf` (6 S.),
+  `DIN EN 12207.pdf` (6 S.) — DIN 277-1 ist im Original deutlich umfangreicher. Der Mini braucht einen
+  eigenen Test (z.B. Abgleich gegen den Beuth-Umfang oder Pruefung, ob der letzte Abschnitt des
+  Inhaltsverzeichnisses im PDF vorhanden ist).
+- [ ] **Stilllegung des Tasks `normen-training-mini` (Radar-Entscheid 17.07., Commit `fd6ce35f`) beruht auf
+  «Inventar dreimal komplett bestaetigt».** Genau diese Schlussweise hat sich auf der SIA-Seite als falsch
+  erwiesen — dort war die Grundmenge unvollstaendig, nicht die Abarbeitung. Vor einer endgueltigen
+  Stilllegung sollten die zwei Punkte oben geklaert sein. Der Loop ist deaktiviert, nicht geloescht —
+  Reaktivierung ist ein Klick.
