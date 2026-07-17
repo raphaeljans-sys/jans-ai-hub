@@ -4,6 +4,9 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-17
+- Nacht-Batch (`synobsis-batch-nacht`, Mac Mini, 02:18–02:19): Ergebnis wie die ganze Serie seit 2026-07-13 — 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json`. Quelle unabhaengig gegengeprueft: 854 Top-Level-Ordner (853 Architekten + `00_Organisation`), juengste Ordner-Aenderung 07.04.2026 — kein neuer Stoff seit dem Katalog-Stand 2026-07-02 (15 Tage). **Empfehlung an Raphael: den Loop stilllegen statt weiter drosseln** — Endbedingung erreicht, Regel 260712b («abgeschlossene Inventare werden ganz beendet statt gedrosselt»); Praezedenz `normen-training-mini`. Nicht selbst umgesetzt (Task-Auftrag deckt keine Konfigurationsaenderung). Protokoll: `outputs/2026-07-17_batch-lauf.md`.
+
 ## 2026-07-15
 - Nacht-Batch (`synobsis-batch-nacht`, Mac Mini, 02:18–02:19): erster Wiederholungslauf nach der Drosselung (Regel 260714, Endlos-Runner gestoppt) — regulaerer Nacht-Task. Identisches Ergebnis wie die Serie seit 2026-07-13: 853/853, offen 0, `vectors.npz` deterministisch ohne Diff neu geschrieben, nur Zeitstempel in `INDEX.md`/`cad-index.json` aktualisiert. Kein neuer Stoff seit 2026-07-02 (13 Tage). Ohne neues Rohmaterial in der Quelle oder eine freigegebene Stufe-3-Bereinigung bringt der Lauf keinen weiteren inhaltlichen Ertrag. Protokoll: `outputs/2026-07-15_batch-lauf.md`.
 
