@@ -1,3 +1,80 @@
+## 2026-07-17 — Adversariale Verifikation SIA 1023:2013 (Werkvertrag-Formular)
+Auftrag: 5 Kernaussagen des Destillier-Agenten am Original zu widerlegen versuchen, plus Stichprobe.
+Methodik: eigene Extraktion (`pdftotext -layout`, Gesamtdokument) UND visueller Vollbild-Read **aller
+5 Seiten** als PNG (130 dpi) — kein Vertrauen in den Vorlauf. AcroForm-Felder gegengeprueft.
+
+- **Aussage 1 (Rechtsnatur + Aufbau: Formular statt Norm, 9 Ziffern, Bauleitung Art. 33 auf dem
+  Titelblatt, Unterschrift nur «Zur Kenntnis genommen») — BESTAETIGT.** Alle 9 Ziffern-Titel, die
+  Reihenfolge, die Seitenzuordnung und der Unterschriftenblock (S. 5) am Original bestaetigt.
+- **Aussage 2 (Vertragsbestandteile Ziff. 1.1–1.5, Rangordnung nicht selbst geregelt) — BESTAETIGT.**
+  Fussnote S. 2 (Art. 21 Abs. 1 / bei Gegenangebot Art. 22 Abs. 4) und Ziff. 1.5a mit vorgedruckter
+  Jahrzahl (2013) verifiziert. Die Feststellung, dass 1.1–1.5 KEINE Rangordnung ist, haelt.
+- **Aussage 3 (Verguetung Ziff. 2.1–2.3) — BESTAETIGT, mit zwei Praezisierungen.** Beide Varianten,
+  die Rechenkaskade, das Rabatt-Feld nur in Variante A, die vier Teuerungsverfahren SIA 121–124 und
+  das doppelte Ankreuzfeld Globalpreis/Pauschalpreis am Original bestaetigt. **Beanstandet:**
+  (a) «Ziff. 2.2 ist die einzige materielle Klausel des Formulars» ist zu absolut — Ziff. 9 enthaelt
+  ebenfalls eine vorgedruckte materielle Gerichtsstandsregel (allerdings unter Ankreuzvorbehalt);
+  praezisiert zu «einzige unbedingt geltende, nicht waehlbare». (b) Fundstelle «Art. 62 SIA 118»
+  falsch — das Formular schreibt nur «(Art. 62)» ohne Normangabe; korrigiert + als speculative markiert.
+  Nachtrag: die Alternative zum Standard-Stichtag ist ein **unbeschriftetes** Ankreuzfeld mit Freitext.
+- **Aussage 4 (Ziff. 3/4/6 als Freifelder ohne Vorgabe) — BESTAETIGT.** Ziff. 6 traegt tatsaechlich
+  nur den Titel, kein Untertitel/Verweis/Vorgabewert; Skonto nur in Ziff. 2.1. Haelt vollstaendig.
+- **Aussage 5 (Negativbefund Sicherheiten/Garantien; Ziff. 5 ohne vorgedruckte Mindestsummen) —
+  BESTAETIGT.** Volltext beider Lesewege zeigt auf keiner der 5 Seiten Rueckbehalt, Solidarbuergschaft,
+  Bargarantie, Garantiefrist oder Verjaehrung. Ziff. 5 Deckungssummen durchgehend leer.
+
+**Systematische Beanstandung (Stichprobe, Hauptbefund):** Das Destillat behauptete an fuenf Stellen den
+**INHALT** referenzierter SIA-118-Artikel (Art. 15 Abs. 3/4 «Vorbehalte als gesonderte Beilage»;
+Art. 21 Abs. 1 «Urkunde steht zuoberst»; Art. 21 Abs. 3 «nur wirksam in der Urkunde»; Art. 92 «Werkvertrag
+legt Fristen fest»; Pauschalpreis «Preisart ohne Teuerungsabrechnung»). Das Formular nennt Artikel
+**ausschliesslich als Nummern, nie mit Inhalt** — diese Aussagen sind aus SIA 1023 nicht belegbar und
+widersprachen den eigenen «Offenen Punkten» des Destillats (SIA 118:2013 ist nicht im Bestand). Alle
+fuenf entfernt bzw. als speculative markiert; als Grundsatz in «Offene Punkte» verankert.
+Ferner: woertliche Satzzitate (Ziff. 2.1, 2.3, 4, Ausfertigungssatz) aus Urheberrechtsgruenden in eigene
+Kurzfassung ueberfuehrt. Ebenso die Kennzahl «30-Tage-Zahlungsfrist» im Praxis-Transfer entfernt — sie
+stammt aus `sia-118-1991.md` und haette die eigene Ausgaben-Disziplin-Warnung des Destillats unterlaufen.
+
+**Gesamturteil: Status `established` HAELT** — die Formular-Ebene (das, was SIA 1023 tatsaechlich ist)
+ist zu 100 % am Original verifiziert. Die Fehler lagen durchwegs eine Ebene daneben (SIA-118-Inhalt),
+nicht am Gegenstand des Destillats, und sind korrigiert.
+
+## 2026-07-17 — Adversariale Verifikation SIA 112:2014 (Bauwerksakten-Verweise SIA 469 / SIA 269/2)
+Auftrag: zwei vom Destillations-Agenten eingebaute Aussagen zu den Verweisen auf **SIA 469** und
+**SIA 269/2** am Original-Scan zu widerlegen versuchen. Methodik: eigene OCR (kein Vertrauen in die
+OCR des Vorlaufs) — Seiten 21/23/24 bei 400 dpi, zusaetzlich Volltext-OCR **aller 26 PDF-Seiten**
+bei 300 dpi; Zeile 532.2 zusaetzlich als Bildausschnitt visuell gelesen.
+
+- **Aussage 1 (Verweis SIA 469 in 532.2 / 622 / 632) — BESTAETIGT.** Wortlaut am Original bestaetigt
+  an allen drei Stellen; auch die Praezisierung stimmt: der Verweis steht in der Spalte «Erwartete
+  Ergebnisse/Dokumente» des Leistungsbereichs, **nicht** im Modultext. Nachtrag: bei Ziff. 532 (S. 21)
+  ist der Verweis ein **Klammerzusatz**, bei 622/632 nicht — im Destillat ergaenzt.
+- **Aussage 2 (SIA 269/2 an allen drei Stellen) — TEILWEISE BEANSTANDET.**
+  - Bestaetigt: SIA 269/2 wird an allen drei Stellen zusammen mit SIA 469 genannt. Die
+    Exklusivitaets-Behauptung haelt: Volltext-OCR aller 26 Seiten zeigt «469»/«269» **ausschliesslich**
+    auf S. 21, 23, 24 — keine weitere Norm wird fuer die Bauwerksakten herangezogen.
+  - Bestaetigt: Zusatzbefund, dass die Bauwerksakten zugleich Grundlage der Teilphasen 61/62/63 sind.
+    **Praezisiert:** bei Ziff. 63 (S. 24) sind sie nicht die einzige Grundlage — dort treten die
+    Ergebnisse der Inspektionen und Kontrollen aus der Ueberwachung hinzu. Im Destillat nachgefuehrt.
+  - **Beanstandet:** der Satz «SIA 112 selbst enthaelt **keine** Anforderungen an Inhalt/Aufbau der
+    Bauwerksakten» ist am Original **zu absolut** und wird durch den Normtext widerlegt: Ziff. 622
+    (S. 23) und 632 (S. 24) benennen selbst Bestandteile («Plaene, Kenndaten, Objektgeschichte,
+    Unternehmerverzeichnis usw.»), und die Module 532.2/622.1/632.1 umschreiben die Taetigkeiten.
+    Korrekt ist: die Aufzaehlung ist mit «usw.» offen/nicht abschliessend, die **materielle** Regelung
+    von Inhalt und Aufbau erfolgt ueber SIA 469 und SIA 269/2. Formulierung im Destillat korrigiert.
+
+**Zwei Nebenbefunde ausserhalb des Pruefauftrags (am Original festgestellt):**
+- **Frontmatter `gelesen` war unzutreffend** («S. 1–28 vollstaendig»): der Scan hat 26 PDF-Seiten,
+  gedruckte Paginierung 1–25 deckungsgleich, S. 25 leer, PDF-S. 26 = gedruckte S. 28. Die **gedruckten
+  Seiten 26–27 fehlen im Scan**. Frontmatter korrigiert, Luecke unter «Offene Punkte» dokumentiert.
+- **Offener Punkt geschlossen:** die Vorgaengerausgabe war doch im PDF vermerkt — die Genehmigungsseite
+  (gedruckte S. 28) haelt fest: genehmigt 23. Mai 2014 (Solothurn), **ersetzt die Ordnung SIA 112
+  Leistungsmodell (2001)**, gueltig ab 1. November 2014. Im Destillat nachgefuehrt (Gegencheck gegen
+  `ersetzte_normen.pdf` bleibt empfohlen).
+
+Geaendert: `destillate/sia-112-2014.md` (Frontmatter `gelesen`, Ziff. 63, Sektion «Verweise auf andere
+Normen», «Offene Punkte»). Status bleibt `established` — die tragenden Aussagen haben der Widerlegung
+standgehalten.
+
 ## 2026-07-16 — normen-training-mini Mini-Run 32 (Mac Mini, Zuruf-Intensivlauf): INVENTAR KOMPLETT fuer DIN/VSS/RAL bestaetigt (3. Bestaetigung in Folge)
 Stations-Split eingehalten: NUR DIN/VSS/RAL angefasst (SIA/VKF = MacBook Pro, nicht beruehrt).
 Auftrag Raphael (16.07.2026, direkt nach Mini-Run 31): ein weiterer Intensiv-Lauf gemaess

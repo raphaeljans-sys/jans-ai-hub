@@ -21,6 +21,50 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-17 02:15 — [GEDROSSELT] Auftrag Raphael: die zwei offenen P2/P3 in die Wege geleitet (ohne Mehrlast vor dem Reset)
+
+**Anlass:** Raphael hat auf den Eintrag von 00:48 hin freigegeben, die beiden offenen Punkte «so in die
+Wege zu leiten, wie es am besten ist». Leitlinie dabei: bis zum Wochen-Reset (Mo 20.07. 11:59, noch
+~3.4 Tage bei unveraendert 81%) darf KEINE zusaetzliche Last entstehen — sparen ja, hochfahren nein.
+
+**1. Normen-Loop stillgelegt (P2, Endbedingung erreicht).** Das Inventar DIN/VSS/RAL ist in den
+Mini-Runs 30, 31 und 32 dreimal in Folge als komplett bestaetigt — weitere Laeufe waeren Leerlauf auf
+Tokenkosten. Der Task laeuft auf dem Mac Mini, sein `enabled`-Zustand ist nicht per SSH editierbar
+(nur die SKILL.md liegt dort, der State steckt im App-Scheduler). Darum Pendenz ueber die vorgesehene
+Queue: `sync-tasks/mac-mini/20260717-021231_normen-training-mini-stilllegen-(Inventar-komplett).md`
+(typ=prompt) — der Mini setzt `enabled=false`, ergaenzt die Beschreibung um den Stilllegungsgrund und
+vermerkt es im `wissen/normen/CHANGELOG.md`. Bewusst **deaktiviert statt geloescht**: kommt neues
+Norm-Material in die SharePoint-Normenbibliothek, ist der Loop mit einem Klick zurueck.
+
+**2. Wettbewerbs-DNA vorbereitet, aber NICHT scharf geschaltet (P3).** Prompt, Beschreibung und Takt
+von `wettbewerbs-dna-training` sind jetzt korrigiert: weg vom alten VOLLGAS-Text («ULTRA, alle 2 Std.,
+bis 10.08.»), hin zu 1x taeglich 02:20 im Nachtfenster (Regel 260711), **ein** Baustein pro Lauf statt
+Durchsatz-Stapelung; der Workflow-Fan-out bleibt, aber auf die Referenzen eines Bausteins begrenzt —
+er ist der Qualitaets-, nicht der Mengenhebel. Ergaenzt um eine Endbedingung (alle drei Ziel-Bauaufgaben
+abgeschlossen → Abschluss melden statt Leerlauf). Der Task bleibt **deaktiviert**; scharf schaltet ihn
+der neue One-Time-Task `wettbewerbs-dna-reaktivierung` am Mo 20.07. 12:30, also nach dem Reset und
+kurz nach `syn02-spec-anstoss` (12:15), was inhaltlich zusammenpasst.
+
+**Beinahe-Fehler, transparent vermerkt:** das Setzen der neuen `cronExpression` hat den Task
+**automatisch wieder aktiviert** (nextRunAt waere heute 02:26 gewesen, also in gut einer Stunde — genau
+die Mehrlast, die vermieden werden soll). Beim Verifizieren aufgefallen und sofort auf `enabled=false`
+zurueckgesetzt. Lehre fuer kuenftige Laeufe: nach jedem `update_scheduled_task` mit Schedule-Aenderung
+den `enabled`-Zustand **nachpruefen** — ein Schedule-Update re-armt den Task.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2 (unveraendert): Darkwake schiebt die Nacht-Trainings in den Vormittag und kollidiert mit Regel
+  260711. Saubere Loesung waeren lokale launchd-Jobs statt App-Scheduler — Umsetzung erst nach Freigabe
+  Raphaels, da sie das Lastprofil beruehrt.
+- P2 (unveraendert): `synobsis-batch-nacht` weiter im No-op (853/853) — auf woechentlich reduzieren oder
+  pausieren, bis neues Material in `05_Architekten_Synobsis` landet (Mac Mini).
+- P3: Im naechsten Lauf (06:40) pruefen, ob der Mac Mini die Normen-Pendenz abgearbeitet hat.
+- **Entscheid Raphael faellig zum Reset:** Das Drossel-Banner gilt «mindestens bis zum naechsten
+  Wochen-Reset». Am Mo 20.07. ist zu entscheiden, ob das Drossel-Regime weiterlaeuft oder das alte
+  Lastprofil zurueckkommt. Der Radar bleibt bis zu dieser Anweisung im Schoner-Modus.
+
+---
+
 ## 2026-07-17 00:48 — [GEDROSSELT] P3 von 18:48 geklaert: `wettbewerbs-dna-training` ist DEAKTIVIERT, nicht ausgefallen
 
 **Fensterzustand [GEDROSSELT]:** Drossel-Regime (Rule 260714) unveraendert. STOP + STOP-Macmini
