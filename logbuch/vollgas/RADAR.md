@@ -21,6 +21,36 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-17 06:50 — [GEDROSSELT] Erste saubere Nacht seit dem Regimewechsel: alle Trainings liefen IM Nachtfenster
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen (seit 14.07. 12:53,
+Grund unveraendert im STOP vermerkt), Runner bleibt gestoppt. Kein Login-Probe gefahren — unter der
+Schoner-Rolle waere er reine Tokenkosten ohne Nutzen, solange der Runner ohnehin nicht anlaeuft; vor
+dem Reset (Mo 20.07. 11:59) wieder relevant.
+
+**Lagebild:** Der P2-Verdacht «Darkwake schiebt die Nacht-Trainings in den Vormittag» hat sich in
+dieser Nacht NICHT bestaetigt — alle Laeufe liegen im Fenster 22:00–06:00: normen-mini Run 32 (21:42,
+3. Inventar-Bestaetigung), energie Runs 75/76/78 (22:48–23:00), synobsis-Batch (02:20), immobewertung
+Run 36 (03:08), baurecht-buch Run 47 (03:29), twin-mail Batch 55 (03:51), twin-fidelity (06:24, knapp
+am Rand). Inhaltlich kein Leerlauf: baurecht Run 47 hat die von Run 46 gemeldete Endbedingung
+**widerlegt** und vier Komplexe nach Modell D verifiziert — der Loop ist also zu Recht noch aktiv.
+
+**Beide Pendenzen von 02:15 sind durch:** die Mini-Queue ist leer, der Task `normen-training-mini` ist
+stillgelegt (Commit `46fd80a3`, Pendenz im `done/`-Archiv); `synobsis-batch` meldet 853/853 unveraendert
+und empfiehlt selbst die Stilllegung. `wettbewerbs-dna-training` bleibt korrekt deaktiviert bis zur
+Reaktivierung am Mo 20.07. 12:30.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2: `synobsis-batch-nacht` (Mac Mini) laeuft im dritten No-op — jetzt gleich behandeln wie den
+  Normen-Loop: per Pendenz stilllegen statt taeglich Tokens fuer 853/853 zu verbrennen. Bewusst NICHT
+  in diesem Lauf ausgeloest, weil der Mini den Prompt-Task abarbeiten muss und das vor dem Reset
+  Kleinlast erzeugt; sauberer Zeitpunkt ist der Reaktivierungs-Lauf am Mo 20.07.
+- P2 (herabgestuft): Darkwake-Verschiebung — nach dieser Nacht kein akuter Handlungsbedarf mehr. Erst
+  wenn sich die Verschiebung wiederholt, lokale launchd-Jobs statt App-Scheduler vorschlagen (beruehrt
+  das Lastprofil, daher nur mit Freigabe Raphaels).
+- P3: keiner.
+
 ## 2026-07-17 02:15 — [GEDROSSELT] Auftrag Raphael: die zwei offenen P2/P3 in die Wege geleitet (ohne Mehrlast vor dem Reset)
 
 **Anlass:** Raphael hat auf den Eintrag von 00:48 hin freigegeben, die beiden offenen Punkte «so in die
