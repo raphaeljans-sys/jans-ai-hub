@@ -3246,8 +3246,14 @@ Kaminfeger kommt bei festen Brennstoffen **3× pro Jahr** (Ganzjahresbetrieb), i
 **Schwyz** alle **4 Jahre** bzw. **1× pro Jahr**. Das Kamin muss bei Holz mindestens **0.5 m
 über den First** (Flachdach 1.5 m) — den 1-Meter-Rabatt für kleine Öl-/Gasheizungen gibt es bei
 Holz nicht, und ein höheres Nachbargebäude näher als 10 m wird massgebend und kann das Kamin
-verteuern. Bei der Förderung müssen Sie sich **entscheiden**: kantonales Programm **oder**
-Klimaprämie, beides zusammen geht nicht (siehe F&lt;Förderung&gt; unten). Rechnen Sie mit
+verteuern. **Bei der Förderung in Zürich gibt es eine wichtige Einschränkung: das kantonale
+Förderprogramm zahlt für Holz-/Pellet-Heizungsersatz gar nichts** (explizit ausgeschlossen); die
+einzige grössere Förderschiene ist die **Klimaprämie** (Stiftung KliK, ~CHF 360/kW als
+Faustregel, effektiv 18 Rp./kWh, keine Kombination mit dem Kanton möglich) — sie läuft nach
+aktuellem Stand voraussichtlich **bis spätestens Ende 2027**, und **Einfamilienhaus-
+Zentralheizungen sind davon explizit ausgeschlossen** (auch das ist eine Klimaprämien-Regel,
+nicht nur bei Einzelraumfeuerungen). Bei einem EFH-Heizungsersatz mit Holz bleibt damit **keine
+der beiden grossen Förderschienen** offen — das gehört früh ins Kostenbudget. Rechnen Sie mit
 CHF 25'000-45'000 (Pellet) bzw. CHF 35'000-37'000 (Stückholz) für ein Einfamilienhaus
 (⚠ Richtwerte ohne amtliche Quelle).
 
@@ -3267,16 +3273,23 @@ gelten parallel; das strengere Mass gewinnt.
 
 **Quelle + Datenstand:** LRV SR 814.318.142.1, Fassung 1.1.2026 (Fedlex-Volltext); AWEL-Leitfaden
 Feuerungskontrolle (8.10.2021) mit Zitat der ZH-Massnahmenplan-Verordnung; BAFU-Vollzugshilfe
-Kaminhöhe (2018); GVZ-Weisung 20.03; FSV Kt. SZ § 11. Stand Recherche: 16.07.2026.
+Kaminhöhe (2018); GVZ-Weisung 20.03; FSV Kt. SZ § 11; foerderplattform.ch Klimaprämie-FAQ (live
+17.07.2026); zh.ch Energieförderung (live 17.07.2026). Stand Recherche: 17.07.2026.
 Destillat: `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`.
-Status **established** für Kontrollintervalle, Kaminhöhe und Kaminfegerpflicht (alle am amtlichen
-Volltext belegt); **speculative** für die CHF-Kostenkennwerte (keine amtliche Quelle).
+Status **established** für Kontrollintervalle, Kaminhöhe, Kaminfegerpflicht, ZH-Förderausschluss
+und Klimaprämien-Ausschluss von EFH (alle am amtlichen/offiziellen Text belegt); **speculative**
+für die CHF-Kostenkennwerte und das genaue Klimaprämien-Enddatum (Formulierung «voraussichtlich»
+im Quelltext selbst).
 
 > **Korrektur gegenüber Run 74 (16.07.2026):** Die frühere Fassung dieser Antwort nannte für ZH
 > ein 4-Jahres-Kontrollintervall (richtig: 2 Jahre) und empfahl die Klimaprämie pauschal als
 > die attraktivere Förderung mit «CHF 360 pro kW» (richtig: 18 Rp./kWh; die 360 sind eine blosse
 > Faustregel, und eine Doppelförderung mit dem kantonalen Programm ist ausgeschlossen). Wurde auf
 > dieser Basis bereits beraten, ist eine Richtigstellung angezeigt.
+
+> **Ergänzung Run 76 (17.07.2026):** Die drei in Run 75 offen gelassenen Förderfragen sind jetzt
+> primärquellenbelegt geklärt: Klimaprämie voraussichtlich bis Ende 2027, Kt. ZH fördert Holz/
+> Pellet nicht, und EFH-Zentralheizungen sind bei der Klimaprämie ausdrücklich ausgeschlossen.
 
 ---
 
@@ -3516,11 +3529,71 @@ automatische Anlage CHF 360/kWth (≤ 500 kWth), darüber CHF 80'000 + 200/kWth;
 50 Wth/m² EBF; nur Ersatz von Öl/Gas/Elektro im Bestand (Holz→Holz und Ersatzneubau ausgeschlossen).
 
 **Quelle + Datenstand:** klik.ch Projekt Nr. 0228 (Daten per Januar 2026); Vollzugshilfe
-Förderprogramm Energie Kt. SZ 2026 (PDF-Volltext, gelesen 16.07.2026).
+Förderprogramm Energie Kt. SZ 2026 (PDF-Volltext, gelesen 16.07.2026); foerderplattform.ch
+Klimaprämie-FAQ (live 17.07.2026).
 Destillate: `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]` +
 `[[klimapraemie-heizungsersatz-klik]]` + `[[foerderprogramm-energie-sz-2026]]`.
-Status **emerging** — offen bleiben: das **Enddatum der Klimaprämie** (nirgends publiziert, nur
-telefonisch bei Renera klärbar), die Frage, ob **EFH-Zentralheizungen** überhaupt anspruchsberechtigt
-sind (Quellen widersprüchlich), und ob ZH-Projekte durch Ziff. 7 (keine Vorschrift darf den
-erneuerbaren Ersatz zwingend verlangen) faktisch ausgeschlossen sind. ⚠ Förderkonditionen ändern
-jährlich — vor jedem Gesuch am Portal prüfen.
+Status **established** für Enddatum und EFH-Ausschluss (Run 76 primärquellenbelegt geklärt),
+**emerging** bleibt die Frage, ob ZH-Projekte durch Ziff. 7 faktisch ausgeschlossen sind.
+
+> **Ergänzung Run 76 (17.07.2026):** Zwei der drei offenen Punkte sind jetzt primärquellenbelegt
+> geklärt (foerderplattform.ch, live abgerufen): Die Klimaprämie läuft **voraussichtlich bis
+> spätestens Ende 2027** (offizielle FAQ-Formulierung), und **Heizungsersatz in Einfamilienhäusern
+> ist ausdrücklich NICHT förderberechtigt** — auch eine vollwertige EFH-Zentralheizung nicht, nicht
+> nur Einzelraumfeuerungen. Weiterhin offen: die Ziff.-7-Frage für ZH-Projekte. ⚠ Förderkonditionen
+> ändern jährlich — vor jedem Gesuch am Portal prüfen.
+
+---
+
+## F95 — «Muss ich wegen MuKEn 2025 meine Dämmung oder mein Gebäude besser dämmen als heute?»
+
+**Kurz-Antwort für den Bauherrn:** Nein, nicht in diesem Punkt. Die U-Wert- und
+Heizwärmebedarfs-Grenzwerte der MuKEn 2025 (Anhänge 1-3) sind **zahlengleich** mit den Werten,
+die im Kanton Zürich bereits heute gelten (SIA 380/1:2016, seit 2017 angewendet). Wer heute
+normkonform plant, erfüllt die künftigen MuKEn-2025-Dämmvorgaben automatisch — hier ändert sich
+nichts. Die eigentlichen Verschärfungen der MuKEn 2025 liegen woanders: kein fossiles Heizsystem
+mehr im Neubau, eine höhere Photovoltaik-Pflicht (20 statt 10 W/m² EBF) und ein neuer Grenzwert
+für graue Treibhausgasemissionen (Modul G).
+
+**Fachliche Begründung:** Der MuKEn-2025-Originaltext bestätigt wörtlich (S. 107): «Für die
+MuKEn 2025 wurden die Werte der MuKEn 2014 unverändert übernommen. Sie entsprechen der Norm
+SIA 380/1, Ausgabe 2016.» Der Vergleich mit der EnFK-EN-102-Vollzugshilfe und dem
+Kt.-ZH-Anforderungsprofil vom 11.04.2017 zeigt identische Zahlen (z. B. opake Bauteile Neubau
+U ≤ 0,17-0,25, Umbau U ≤ 0,25-0,28 W/m²K; Heizwärmebedarf Wohnen MFH Q_H,li0 = 13/Q_H,li = 15
+kWh/m²·a). Kanton Zürich wendet diese SIA-380/1:2016-Werte also bereits seit Jahren an, lange vor
+der EnerG-Revision vom 1.9.2022.
+
+**Quelle + Datenstand:** MuKEn-2025-Originaltext, Anhänge 1-3 (EnDK, curl+pdftotext gelesen
+17.07.2026); EnFK-EN-102-Vollzugshilfe; Kt.-ZH-Anforderungsprofil 16.01a (11.04.2017).
+Destillat: `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`. Status **established** (drei
+unabhängige Primärquellen zeigen identische Zahlenwerte). Offen: Anhänge 4/5 (Dämmstärken
+Verteilleitungen) unausgewertet; Kt.-Schwyz-Übernahme nicht geprüft; im Zuge dieser Recherche
+wurde ein **Transkriptionsfehler** in der Heizwärmebedarfs-Tabelle des bestehenden Destillats
+`[[enfk-en-102-waermeschutz-2018]]` entdeckt (nächster Wartungslauf korrigiert ihn).
+
+---
+
+## F96 — «Darf mein Netzbetreiber meine PV-Einspeisung begrenzen (70-%-Regel)?»
+
+**Kurz-Antwort für den Bauherrn:** Ja, das ist zulässig und in der Praxis verbreitet — Ihr
+Netzbetreiber darf die Einspeiseleistung Ihrer PV-Anlage technisch auf einen Teil der
+installierten Leistung begrenzen (häufig zitierter Wert: 70 %), ohne dass Sie dafür eine
+Entschädigung erhalten. Das gilt aber nur bis zu einer Grenze: **maximal 3 % Ihrer
+Jahresproduktion** dürfen so entschädigungslos verloren gehen. Wird mehr abgeregelt, muss Ihnen
+der Netzbetreiber die Mehrmenge zum vollen Einspeisepreis (inklusive Herkunftsnachweis-Wert)
+nachvergüten. Für die Projektplanung heisst das: eine gewisse Abregelung ist normal und
+eingepreist, sie schmälert Ihren Ertrag nur geringfügig.
+
+**Fachliche Begründung:** Rechtsgrundlage ist Art. 17c Abs. 4 Bst. a StromVG (SR 734.7) i. V. m.
+Art. 19c Abs. 4 StromVV (SR 734.71), beide in Kraft seit 1.1.2026. Der konkrete 70-%-Wert selbst
+steht nicht im Gesetzestext, sondern in der VSE-Branchenempfehlung «Regelung der Einspeisung von
+Photovoltaikanlagen» (NRE-CH 2025, 18.09.2025), die als Selbstregulierungsnorm im Sinne von
+Art. 27 Abs. 4 StromVV gilt und von den Netzbetreibern in ihren technischen
+Anschlussbedingungen umgesetzt wird.
+
+**Quelle + Datenstand:** Fedlex-Volltext StromVG/StromVV (Stand 1.1.2026); VSE NRE-CH 2025
+(18.09.2025, curl+pdftotext gelesen 17.07.2026). Destillate:
+`[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` +
+`[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`. Status **established** (Gesetzestext +
+Branchenempfehlung im Volltext gelesen). Offen: VESE/pvtarif-Bandbreite direkt aus dem Datensatz;
+Stufe 2027 (stündliche Spotpreise) noch nicht im Fedlex-Volltext nachvollziehbar.

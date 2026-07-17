@@ -893,3 +893,26 @@ F87 korrigiert → `[[muken-2025-verabschiedet]]`,
 `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` (neu),
 `[[innendaemmung-altbau-bauphysik-ch]]` (neu),
 `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`.
+
+**D57 (Run 76, 2026-07-17)** — Fuenf parallele Rechercheagenten (zwei davon nach stillem Fruehabbruch
+ohne echte Tool-Ausfuehrung erfolgreich wiederholt — Lehre: Agent-Ergebnis vor Registerpflege immer an
+den Datei-Zeitstempeln verifizieren, nicht am Text allein glauben). PDF-Inventar weiterhin seit Run 65
+erschoepft (SharePoint/OneDrive PL-04 Energie erneut kontrolliert, keine neuen Dateien) → Web-/
+Volltext-Pfad. (1) **MuKEn 2025 Anhang 1-3 vs. heutiges ZH-Recht** (hoechste Prioritaet aus Run 75):
+U-Wert- und Heizwaermebedarf-Grenzwerte sind **zahlengleich** mit den heute in Kt. ZH geltenden
+SIA-380/1:2016-Werten (MuKEn-Text selbst bestaetigt unveraenderte Uebernahme aus MuKEn 2014); ZH wendet
+diese Werte bereits seit 2017 an. Nebenfund: Transkriptionsfehler in `[[enfk-en-102-waermeschutz-2018]]`
+Tab. 5 entdeckt (Korrektur naechster Wartungslauf). Neues Destillat
+`[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`, FAQ **F95** neu. (2) **Holzfeuerung-Restpunkte aus
+Run 75 geschlossen**: Klimapraemie laeuft voraussichtlich bis spaetestens Ende 2027, Kt. ZH foerdert
+Holz-/Pellet-Heizungsersatz kantonal nicht, EFH-Zentralheizungen sind bei der Klimapraemie explizit
+ausgeschlossen — alle drei primaerquellenbelegt (foerderplattform.ch + zh.ch, live). F87 + F94
+geschaerft. (3) **PV: 70-%-Abregelungsregel** rechtlich verortet — Art. 17c Abs. 4 StromVG i.V.m.
+Art. 19c Abs. 4 StromVV (i.K. 1.1.2026), konkreter Prozentsatz aus VSE-Selbstregulierungsnorm
+NRE-CH 2025, Deckel 3 % der Jahresproduktion + Nachverguetungspflicht. Negativbefunde bestaetigt (ebs
+Energie AG/EWS Ibach SZ ohne 2026er-Zahl; Q3-2026-Referenzmarktpreis erst ab 14.10.2026). FAQ **F96**
+neu. (4) **SIA-380/1-Aktualitaets-Check**: keine neuere Ausgabe als 2016 (Korrigenda C1/2019)
+gefunden — bestaetigt bestehendes Destillat, kein Korrekturbedarf. Neues Destillat
+`[[sia-380-1-aktualitaets-check-2026]]`. (5) **Innendaemmung E93 (CH-Psi-Wert)** weiterhin
+Negativbefund nach zwei zusaetzlichen Suchpfaden (HSLU/FHNW/Empa/Flumroc/u-wert.net/baubook.at) —
+bleibt offen, SMGV-Merkblatt-Nr.-70-Beschaffung braucht Raphaels Freigabe (kostenpflichtig).

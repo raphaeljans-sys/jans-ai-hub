@@ -882,3 +882,44 @@ und die WDV-§-2-Abs.-5-Asymmetrie recherchiert. Status **emerging** (siehe offe
   der einzige Putz ist, mit dem der Umbau-Grenzwert U 0,25 bei vertretbarer Dicke in Reichweite kommt.
 - **Altlast bestätigt (aus `[[denkmalschutz-energiesanierung-zh-sz]]`):** exakter kEnG-/kEnV-Artikel
   der SZ-U-Wert-Erleichterung für geschützte Bauten weiterhin **nicht wörtlich verifiziert**.
+
+## Run 76 (2026-07-17)
+
+**Geschlossen:**
+- [x] **Prioritätsempfehlung Run 75** (MuKEn 2025 Anhang 1-3 vs. ZH) belegt ✓ 2026-07-17 →
+  `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`, FAQ **F95** neu — Werte zahlengleich mit
+  heutigem ZH-Recht (SIA 380/1:2016).
+- [x] **Holzfeuerung-Restpunkte aus Run 75** (Klimaprämie-Enddatum, ZH-Förderausschluss,
+  EFH-Zentralheizungen) belegt ✓ 2026-07-17 → `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`,
+  FAQ F87 + F94 geschärft.
+- [x] **PV 70-%-Abregelungsregel** (Rechtsgrundlage) belegt ✓ 2026-07-17 → Art. 17c StromVG +
+  Art. 19c StromVV + VSE NRE-CH 2025 → `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]` +
+  `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`, FAQ **F96** neu.
+- [x] **SIA-380/1-Aktualitätscheck** (Norm-Alterung) durchgeführt ✓ 2026-07-17 → keine neuere
+  Ausgabe als 2016, bestehende KB bestätigt. Neues Destillat `[[sia-380-1-aktualitaets-check-2026]]`.
+
+**Neu offen:**
+- **E99 — Tabelle 5 in `[[enfk-en-102-waermeschutz-2018]]` korrigieren** (Transkriptionsfehler
+  Heizwärmebedarf-Grenzwerte MFH, z. B. 14/16/20 statt korrekt 13/15/20 kWh/m²·a) — beim nächsten
+  Wartungslauf am Original gegenprüfen und Frontmatter-Jahrgang 2009→2016 korrigieren.
+- **E100 — MuKEn 2025 Anhänge 4+5** (Dämmstärken Verteilleitungen, UR-Werte erdverlegte Leitungen)
+  weiterhin unausgewertet; Kt.-Schwyz-Übernahme der Anhänge 1-3 nicht geprüft.
+- **E101 — Q3-2026-Referenzmarktpreis PV** amtlich erst ab 14.10.2026 verfügbar — im nächsten
+  Lauf ab Mitte Oktober nachziehen (Destillat `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]`).
+- **E102 — ebs Energie AG (SZ)** weiterhin ohne publizierten Rp./kWh-Wert (wiederholter
+  Negativbefund) — nicht erneut mit denselben Suchpfaden abklappern, nur bei neuer Rechercheidee.
+- **E93 (Innendämmung Ψ-Wert einbindende Massivdecke) bleibt offen, aber neu vertieft:** BFE-
+  Wärmebrückenkatalog «Arbeitspaket 5: Innendämmsysteme» (BFH, 2013, frei) liefert Ψ-Werte für
+  Geschossdecke/Innendämmung, modelliert aber eine **Holzbalkendecke**, keine Massivdecke — nur
+  Analogiewert, kein direkter Beleg. Kandidat für einen eigenen neuen Wiki-Artikel
+  `bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013` (volle Auswertung inkl. Innenwandanschluss/
+  Sockel/Fensterleibung noch offen). SMGV-Merkblatt Nr. 70 weiterhin kostenpflichtig, Freigabe
+  Raphael ausstehend.
+- **Ziff.-7-Frage Klimaprämie ZH** (ob ZH-Projekte durch die Regel «keine Vorschrift darf den
+  erneuerbaren Ersatz zwingend verlangen» faktisch ausgeschlossen sind) bleibt offen.
+
+**Meta:** Zwei von fünf parallelen Agenten (PV-Erstversuch, SIA-380/1-Erstversuch) sind beim ersten
+Anlauf ohne echte Tool-Ausführung abgebrochen (Text ohne Datei-Änderung) und mussten wiederholt
+werden — erfolgreich verifiziert diesmal an den Datei-Zeitstempeln, nicht nur am Agenten-Text.
+Empfehlung für künftige Läufe: Agenten-Ergebnis immer per `ls -la`/`grep` auf tatsächliche
+Dateiänderung prüfen, bevor das Register nachgeführt wird.

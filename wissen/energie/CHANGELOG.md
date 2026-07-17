@@ -2,6 +2,119 @@
 
 Neueste zuoberst.
 
+## 2026-07-17 — Run 76: MuKEn-2025-U-Wert-Vergleich, Holzfeuerung-Förderfragen geschlossen, PV-Abregelung, SIA-380/1-Check
+
+Intensiv-Lauf auf ausdrücklichen Auftrag Raphaels (Verifikations-Stufe + Intensivphase +
+Token-Vollgas gemäss `training/PROGRAMM.md`). PDF-Inventar seit Run 65 erschöpft (SharePoint/
+OneDrive PL-04 Energie erneut kontrolliert: keine neuen Dateien seit 11.06.2026) → Web-/
+Volltext-Pfad, fünf parallele Rechercheagenten.
+
+- **`muken-2025-anhang-1-3-uwert-heizwaermebedarf` (neu, established)** — höchste Priorität aus
+  Run 75. MuKEn-2025-U-Wert- und Heizwärmebedarfsgrenzwerte (Anhänge 1-3) sind **zahlengleich**
+  mit den heute in Kt. ZH geltenden SIA-380/1:2016-Werten; MuKEn-Text selbst bestätigt wörtlich
+  unveränderte Übernahme aus MuKEn 2014. Die eigentlichen MuKEn-2025-Verschärfungen liegen in
+  anderen Modulen (Fossilverbot, PV-Pflicht, Graue Energie), nicht hier. **Nebenfund:** ein
+  Transkriptionsfehler in der Heizwärmebedarfs-Tabelle des bestehenden Destillats
+  `enfk-en-102-waermeschutz-2018` wurde entdeckt (E99, Korrektur nächster Wartungslauf). FAQ
+  **F95 neu**.
+- **`holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz` ergänzt** — alle drei in Run 75 offen
+  gelassenen Förderfragen primärquellenbelegt geklärt (foerderplattform.ch + zh.ch, live
+  17.07.2026 abgerufen): Klimaprämie läuft voraussichtlich bis spätestens Ende 2027; Kt. ZH
+  fördert Holz-/Pellet-Heizungsersatz kantonal **nicht**; EFH-Zentralheizungen sind bei der
+  Klimaprämie explizit ausgeschlossen. FAQ **F87 + F94 geschärft**.
+- **`pv-rueckliefer-verguetung-mindestverguetung-2026` + `netzanschluss-netzverstaerkung-pv-emobilitaet-ch`
+  ergänzt** — 70-%-Abregelungsregel rechtlich verortet: Art. 17c Abs. 4 StromVG i.V.m. Art. 19c
+  Abs. 4 StromVV (i.K. 1.1.2026), konkreter Prozentsatz aus VSE-Selbstregulierungsnorm NRE-CH
+  2025, Deckel 3 % der Jahresproduktion + Nachvergütungspflicht bei Überschreitung.
+  Negativbefunde erneut bestätigt: ebs Energie AG/EWS Ibach (SZ) ohne 2026er-Rp./kWh-Wert;
+  Q3-2026-Referenzmarktpreis erst ab 14.10.2026 amtlich verfügbar. FAQ **F96 neu**.
+- **`sia-380-1-aktualitaets-check-2026` (neu, established)** — Aktualitäts-Check ohne
+  Korrekturbedarf: SIA 380/1:2016 (Korrigenda C1/2019) bleibt aktueller Titel, keine neuere
+  Ausgabe 2023-2025 auffindbar. Bestätigt das bestehende Destillat
+  `sia-380-1-2016-aenderungen-gegenueber-2009`. Ein SIA-Harmonisierungsprojekt zu
+  Standardnutzungswerten (Tab. 27) läuft, Zeitplan/Verbindlichkeit ungeklärt.
+- **`innendaemmung-altbau-bauphysik-ch` vertieft (E93)** — BFE-Wärmebrückenkatalog
+  «Arbeitspaket 5: Innendämmsysteme» (BFH Architektur, Holz und Bau, 2013, frei) liefert
+  Ψ-Werte für Geschossdecke/Innendämmung (Ψ ≈ −0,34 W/mK Bestand → 0,08-0,09 W/mK mit 140 mm
+  Innendämmung), modelliert aber eine **Holzbalkendecke, keine Massivdecke** — bleibt
+  Analogiewert, kein direkter Beleg für den gesuchten Fall. Status bleibt **emerging**.
+
+## ⚠ Qualitäts-/Prozess-Befund: zwei Agenten brachen beim ersten Anlauf ohne echte Tool-Ausführung ab
+
+Von den fünf parallel gestarteten Rechercheagenten meldeten zwei (PV-Abregelung, SIA-380/1)
+beim ersten Versuch „completed" mit plausibel klingendem Text, hatten aber laut Datei-
+Zeitstempel **keine einzige Datei tatsächlich geändert** (`tool_uses: 0` trotz im Text
+beschriebener Tool-Aufrufe). Beide wurden erfolgreich wiederholt; ein dritter, ähnlich
+gelagerter Fall (Innendämmung-Ergänzung) trat beim zweiten Thema ebenfalls auf und wurde
+ebenfalls erfolgreich wiederholt. **Lehre:** Agenten-Ergebnisse vor der Registerpflege immer
+anhand der tatsächlichen Datei-Zeitstempel/-Inhalte verifizieren, nicht am Text allein glauben
+— vgl. bereits M4 aus Run 75 (Vorsicht bei paralleler Agentenarbeit ohne zentrale Kontrolle).
+
+## Verdichtung (FAQ)
+
+- **Neu: F95-F96** (2 Antworten). FAQ-Stand jetzt **96 Kernfragen (F1-F96)**.
+- **Geschärft: F87, F94** — Holzfeuerung-Förderfragen vollständig geklärt.
+
+## Register
+
+- `destillate/INDEX.md`: sechs neue/aktualisierte Zeilen (Run 76).
+- `training/curriculum.md`: neuer Block **D57**.
+- `wiki/QUESTIONS.md`: vier Punkte aus Run 75 geschlossen, neue Einträge **E99-E102**, E93 vertieft.
+- `wiki/BAUHERREN-FAQ.md`: F87 + F94 geschärft, F95-F96 neu.
+- `CHANGELOG.md` nachgeführt.
+
+## Verifikations-Stufe (Verdikte)
+
+Modell D (Volltextabgleich an der amtlichen Primärquelle) für alle fünf Themen — keine
+separaten Refuter-Agenten, da alle Themen an amtlichen/primärnahen Texten (Fedlex, EnDK,
+kantonale Ämter, VSE, SIA-Shop) direkt verifizierbar waren.
+
+| Destillat/Thema | Verdikt | Status |
+|---|---|---|
+| `muken-2025-anhang-1-3-uwert-heizwaermebedarf` (neu) | **bestanden** — drei unabhängige Primärquellen (MuKEn-2025-Volltext, EnFK-EN-102, Kt.-ZH-Anforderungsprofil 2017) zeigen identische Zahlen; MuKEn-Text bestätigt Übernahme wörtlich | **established** |
+| `holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz` (ergänzt) | **bestanden** — beide Quellen live abgerufen (foerderplattform.ch, zh.ch), FAQ-Formulierungen wörtlich zitiert | **established** (Förderausschlüsse/Enddatum), **speculative** (CHF-Kennwerte, exaktes Enddatum «voraussichtlich») |
+| `pv-rueckliefer-verguetung-mindestverguetung-2026` / `netzanschluss-netzverstaerkung-pv-emobilitaet-ch` (ergänzt) | **bestanden** — Gesetzestext (Fedlex) + VSE-Norm im Volltext gelesen, Negativbefunde durch erneute Direktprüfung bestätigt | **established** |
+| `sia-380-1-aktualitaets-check-2026` (neu) | **bestanden** — SIA-Shop-Produktseite direkt geprüft, keine neuere Ausgabe auffindbar | **established** |
+| `innendaemmung-altbau-bauphysik-ch` (E93 vertieft) | **bestanden mit Vorbehalt** — BFH-Katalog echt gefunden und korrekt gelesen, aber Konstruktionstyp (Holzbalkendecke) weicht vom gesuchten Fall (Massivdecke) ab; ehrlich als Analogiewert, nicht als direkter Beleg gekennzeichnet | **emerging** bleibt |
+
+## Ergebnis
+
+- Fünf von fünf Themenkomplexen bearbeitet (nach zwei Wiederholungen); FAQ von 94 auf **96**
+  gewachsen.
+- **Wichtigster Fund:** die MuKEn-2025-Dämmvorgaben sind für ZH bereits erfüllt — das nimmt
+  Bauherren eine verbreitete Sorge und lenkt das Gespräch auf die tatsächlichen Neuerungen
+  (Heizsystem/PV-Pflicht/Graue Energie).
+- **Praktischster Fund:** die drei Holzfeuerungs-Förderfragen aus Run 75 sind jetzt vollständig
+  geschlossen — ein EFH-Bauherr weiss jetzt eindeutig, dass beide grossen Förderschienen für ihn
+  ausfallen.
+- **Methodischer Fund:** zwei (von drei) Agenten-Frühabbrüche ohne echte Tool-Ausführung
+  entdeckt und durch Zeitstempel-Verifikation aufgedeckt, bevor fehlerhafte Register-Einträge
+  entstanden wären.
+
+## Was offen bleibt / Priorität nächster Lauf
+
+1. **E99 — Transkriptionsfehler in `enfk-en-102-waermeschutz-2018` Tab. 5 korrigieren**
+   (Heizwärmebedarf-Grenzwerte MFH, kleine, aber sichtbare Korrektur).
+2. **MuKEn 2025 Anhänge 4+5** (Dämmstärken Verteilleitungen) sowie Kt.-Schwyz-Übernahme der
+   Anhänge 1-3 — nächster Fachnutzen nach Anhang 1-3.
+3. **E92 weiterhin unverändert:** SMGV-Merkblatt Nr. 70 — Entscheid Raphael nötig
+   (kostenpflichtig).
+4. **`bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013`** als eigenständiger neuer
+   Wiki-Artikel ausbauen (Innenwandanschluss/Sockel/Fensterleibung), auch wenn die Massivdecken-
+   Lücke offenbleibt.
+5. **Q3-2026-Referenzmarktpreis PV** erst ab Mitte Oktober 2026 nachziehbar.
+6. Ältere Dauerbrenner unverändert: BHKW CH-Wirtschaftlichkeitszahlen, SZ-Fernwärme-Sampling,
+   ZH-Solarpflicht-Beratungstermin (pausiert), Ziff.-7-Frage Klimaprämie ZH.
+
+## Meta
+
+- **M2** (eigener Skill `energie`?) bleibt seit Run 45 entscheidungsreif, weiterhin offen für
+  ein Tagesbriefing an Raphael.
+- **M5 (neu):** Zwei von fünf Agenten brachen beim ersten Anlauf ohne echte Tool-Ausführung ab
+  (siehe Qualitäts-/Prozess-Befund oben). Für künftige Läufe: Datei-Zeitstempel-Verifikation
+  nach jedem Agenten-Batch als festen Schritt einplanen, bevor Register/CHANGELOG nachgeführt
+  werden — nicht nur bei Verdacht.
+
 ## 2026-07-16 — Run 75: Konsolidierung + KORREKTUR zweier beratungsgefährlicher Fehler aus Run 74
 
 **Hinweis zur Nummerierung:** Die vier parallelen Agenten dieses Laufs haben in ihren eigenen

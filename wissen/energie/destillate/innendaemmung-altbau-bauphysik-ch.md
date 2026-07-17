@@ -5,7 +5,7 @@ ausgabe: SIA 180:2014 (+ Korrigenda C1:2015) · SIA 4001:2022, gültig ab 01.08.
 gelesen: 2026-07-16 (Run 78)
 datenstand: 2026-07-16 (Web-/PDF-Recherche). Normbezüge aktuell in Kraft (SIA 180:2014, SIA 4001:2022). Förderbedingungen ZH/SZ Stand 2026 — jährlich neu, vor jedem Gesuch am Portal prüfen. λ-/μ-Kennwerte aus Applica 2/2022 = Materialklassen-Orientierung, Produktwerte = aktuelle Herstellerdeklaration.
 status: emerging
-last_updated: 2026-07-16
+last_updated: 2026-07-17
 ---
 
 # Innendämmung im Altbau — Bauphysik, Systeme, Nachweise und Förderung (CH)
@@ -463,6 +463,28 @@ das muss dem Mieter mitgegeben werden.
 - **Aerogel-Wärmedämmputz (λ 0,029)** ist gemäss Tabelle das leistungsfähigste Putzsystem, aber
   Brandkennziffer, w-Wert und **Preis** sind in der Quelle nicht angegeben («–») — offener Kennwert.
 
+**Run 76 (2026-07-17):** Ein bislang nicht geprüfter Kandidat wurde gefunden und per WebFetch/pdftotext
+ausgewertet: der amtliche **BFE-Wärmebrückenkatalog «Arbeitspaket 5: Innendämmsysteme»** (Projekt 2755,
+Berner Fachhochschule Architektur, Holz und Bau, Ergebnisse 25.01.2013, frei als PDF unter
+bfh.ch/.documents/ris/2009-484.698.880/BFHID-1286002156-15/Wärmebrückenkatalog.pdf) enthält im
+Abschnitt «2.1 Geschossdecke» konkrete Ψ-Wert-Tabellen für «Decke an Aussenwand» (Backsteinmauerwerk
+250/380/510 mm) nach Innendämmstärke (0–140 mm) und Dämmstoffklasse WLF 032/038/045, inkl.
+fRsi-Werten gegen SIA 180:1999 fRsi ≥ 0,75 (Beispiel 250 mm-Wand: Bestand Ψ ≈ −0,34 W/mK, mit 140 mm
+Innendämmung Ψ ≈ 0,08–0,09 W/mK). **Wichtige Einschränkung:** Die modellierte Deckenkonstruktion ist
+eine historische **Holzbalkendecke** (Schlacke-Füllung, Zielgruppe Bauten 1850–1920), **keine
+Massivdecke aus Beton/Stahlbeton** — die Begriffe «Massivdecke», «Betondecke», «Stahlbetondecke»
+kommen im gesamten Dokument nicht vor (Volltextprüfung per pdftotext, kein Treffer). Der Katalog ist
+damit der bislang beste Schweizer, kostenlose Primärquellen-Fund zur Wärmebrücke Geschossdecke/
+Innendämmung, bleibt aber **kein direkter Beleg für die einbindende Massivdecke** — die Zahlen sind
+nur als Grössenordnung/Analogie für eine ähnliche, nicht identische Konstruktion nutzbar. Geprüfte
+Suchpfade dieses Laufs: HSLU/enbau-online.ch, FHNW Institut Nachhaltigkeit und Energie am Bau,
+Empa-Forschungsberichte, Flumroc, u-wert.net, baubook.at, HSLU-/Fachhochschul-Abschlussarbeiten
+(alle ohne Treffer zur Massivdecke); der BFH-Katalog kam über eine Suche nach Schweizer
+Wärmebrückenkatalogen zutage. Empfehlung: den Katalog als vollständiges Destillat aufnehmen
+(inkl. der weiteren Details 2.3 Innenwand an Aussenwand, Sockel, Fensterleibung/-brüstung/-sturz),
+sobald Zeit für die volle Auswertung besteht — Kandidat für einen neuen Wiki-Artikel
+`bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013`.
+
 ## Backlinks
 
 [[denkmalschutz-energiesanierung-zh-sz]] (rechtlicher Rahmen, wann aussen verboten ist — dieses
@@ -499,7 +521,7 @@ ab CHF 10'000) · [[naturdaemmstoffe-kennwerte-sommerhitzeschutz]] (Speichermass
 - **Förderprogramm Energie Kanton Zürich 2026**, Baudirektion, S. 25–27 «Dämmung von Dach, Wand und
   Boden» + «Bonus Gebäudehülleneffizienz» — PDF im Volltext gelesen (zh.ch).
 - **Das Gebäudeprogramm**, «Wärmedämmung Fassade, Dach, Wand und Boden gegen Erdreich» —
-  dasgebaeudeprogramm.ch, Web-Stand 2026-07-16.
+  dasgebäudeprogramm.ch, Web-Stand 2026-07-16.
 - **Vollzugshilfe Förderprogramm Energie Kanton Schwyz 2026** — über `[[foerderprogramm-energie-sz-2026]]`.
 - **EnFK-Vollzugshilfe EN-102 «Wärmeschutz»** (2018) — über `[[enfk-en-102-waermeschutz-2018]]`.
 - **Wärmedämmvorschriften Kt. ZH (WDV), LS 700.211**, vom 08.06.2022, § 2 Abs. 5 — über

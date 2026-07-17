@@ -3,11 +3,11 @@ title: MuKEn 2025 Anhänge 1-3 (U-Wert- und Heizwärmebedarfs-Grenzwerte) im Ver
 status: established
 last_updated: 2026-07-17
 sources:
-  - EnDK, MuKEn 2025 Volltext (117 S.), Anhang 1 (S. 24), Anhang 2 (S. 24), Anhang 3 (S. 25), Art. 1.8 sowie Erläuterungen "Zu Anhang 1"/"Zu Anhang 3" (S. 106-107), Stand 29.08.2025, gelesen 2026-07-17 via curl+pdftotext, Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf
-  - EnFK (Konferenz Kantonaler Energiefachstellen), Vollzugshilfe EN-102 "Wärmeschutz von Gebäuden", Ausgabe Dezember 2018, ausdrücklich "Basis: Norm SIA 380/1, Ausgabe 2016" (Fusszeile jeder Seite), Tabellen 2/4/5, gelesen 2026-07-17 via curl+pdftotext, Spiegel energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Waermeschutz_3801_2016.pdf
+  - EnDK, MuKEn 2025 Volltext (117 S.), Anhang 1 (S. 24), Anhang 2 (S. 24), Anhang 3 (S. 25), Art. 1.8 sowie Erläuterungen "Zu Anhang 1"/"Zu Anhang 3" (S. 106-107), Stand 29.08.2025, gelesen 2026-07-17 via curl+pdftotext, Spiegel energiehub-gebäude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf
+  - EnFK (Konferenz Kantonaler Energiefachstellen), Vollzugshilfe EN-102 "Wärmeschutz von Gebäuden", Ausgabe Dezember 2018, ausdrücklich "Basis: Norm SIA 380/1, Ausgabe 2016" (Fusszeile jeder Seite), Tabellen 2/4/5, gelesen 2026-07-17 via curl+pdftotext, Spiegel energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Wärmeschutz_3801_2016.pdf
   - Kanton Zürich, Anforderungsprofil Version 16.01a (Ausgabe 11.04.2017) zu SIA 380/1:2016 (Grundlage der von Kt. ZH anerkannten Nachweis-Software), Tabellen 1-4, Fussnote 1 "MuKEn 2014", gelesen 2026-07-17 via curl+pdftotext, zh.ch-PDF anforderungsprofil_380_1_2016_v16.01a.pdf
   - wissen/energie/destillate/muken-2025-verabschiedet.md (Ausgangsdestillat, Run 74/75)
-  - wissen/energie/destillate/enfk-en-102-waermeschutz-2018.md (bestehendes KB-Destillat, als Referenz für "heutige ZH-Werte" herangezogen — Diskrepanz gefunden, siehe "Offene Punkte")
+  - wissen/energie/destillate/enfk-en-102-wärmeschutz-2018.md (bestehendes KB-Destillat, als Referenz für "heutige ZH-Werte" herangezogen — Diskrepanz gefunden, siehe "Offene Punkte")
   - wissen/energie/destillate/en-zh-nachweis-uebersicht.md (EN-ZH-Deckblatt, referenziert bereits "SIA 380/1 Ausgabe 2016")
 links:
   - [[muken-2025-verabschiedet]]
