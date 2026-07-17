@@ -7,6 +7,53 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-17
 
+- **HUB-CHEF-LAUF 08:39 — MIT Befund (ein Deliverable fertiggestellt), EIN kurzes Briefing.**
+  Signale nach dem Radar (06:45) gegenverifiziert: bexio `--verzug` unveraendert (nur RE-00087,
+  CHF 15'000, **92 Tage**, Mahnung 2, Zahlfrist 15.07. verstrichen, kein Eingang; bexio schlaegt
+  Mahnung 3 / Betreibung vor — **A1 greift bei Mahnstufe 2+ NICHT**, Entscheid bleibt bei Raphael,
+  keine autonome Mahnaktion), `--abgleich` unveraendert (bekannte Altliste 19 Pos. + 1 Bankeingang
+  2021), M365-Posteingang seit 05:30 leer, Sent Items nur das Radar-Briefing selbst,
+  outlook.com (Apple Mail) nichts Neues seit 15.07., Kalender bis 24.07. nur die
+  Koordinationssitzung 23.07. 13:00-14:00, Sync-/Remote-Queues leer.
+- **A3/A5 (Deliverable fertiggestellt): Vergleichsblatt Offerte Staehlin, 2620 Albertstrasse 7,
+  BKP 230.** Ausloeser: Registerpunkt mit Frist **heute 17.07.** («A4-Vergleichsblatt nicht erstellt»,
+  Session am 15.07. durch das Wochenlimit abgeschnitten; von RJ bestellt).
+  - **Beleg-Befund (Regel 260709 — am Beleg statt am Registertext):** die **MD existierte bereits**
+    (15.07. 20:49, 2'861 Bytes). Abgeschnitten wurde die Session erst bei der DOCX/PDF-Erzeugung.
+    Der Registerstand «nicht erstellt» war also unpraezise — fehlend waren nur die Fassungen
+    (Regel 260603: DOCX+PDF immer neben MD).
+  - **Ausgefuehrt:** DOCX+PDF erzeugt. Erster Versuch mit dem generischen `md2docx.py` verworfen —
+    die Sichtkontrolle (`pdftoppm`) zeigte drei Verstoesse gegen `dokument-layout-standard`:
+    sichtbare Tabellenrahmen, Wortumbruch mitten in «Waschmaschinen/Tumbl-er», linksbuendige Zahlen.
+    Neu gebaut mit dem JANS-Baukasten `skills/ausschreibung/tools/jans_docx.py`
+    (rahmenlos, Spalten 76/30/30/34 = exakt 170 mm, Zahlen rechtsbuendig, Totalzeilen fett,
+    Stammdaten am Tab-Stop, nummerierte Liste mit haengendem Einzug, JANS-Footer).
+    **Fallgrube dokumentiert:** `table(aligns=...)` erwartet die Kuerzel `l`/`r`/`c` — «left»/«right»
+    werden STILL ignoriert (kein Fehler), die Zahlen bleiben linksbuendig.
+  - **QS:** `korrektur` gelaufen (Agenten `rechtschreibung` + `layout`, beide gelb). Eingearbeitet:
+    Grossschreibung nach Doppelpunkt, `MwSt.` mit Punkt, Kongruenz «beruhen auf», Zahlenschreibung
+    132'000.00/133'100.00, Stammdaten-Tab-Stop, haengender Einzug, Titel gekuerzt (brach zweizeilig).
+  - **Sachbefund (verifiziert statt geraten):** `rechtschreibung` meldete einen Zahlendreher-Verdacht
+    Schluesselleser 5'082.90 vs. 5'832.90. Rechnerisch gegengeprueft: **kein Fehler** —
+    1'200.00 + 5'082.90 + 750.00 = 7'032.90 (Tabelle stimmt) und 5'082.90 + 750.00 = 5'832.90
+    (= komplettes System inkl. 30 Leser, wie in der Zielgroesse gerechnet: 133'075.55 ≈ 133'100).
+    Beide Zahlen korrekt, nur die Beschriftung war missverstaendlich → Wortlaut praezisiert,
+    KEINE Zahl geaendert. Ebenso aufgeloest: 148'606.70 (nur Pos. 234 bereinigt) vs. 142'400.00
+    (zusaetzlich WZU-Doppel heraus) = Umfangsfrage, kein Widerspruch; im Blatt erklaert.
+  - **Guards:** A3 «nie ueberschreiben/nie loeschen» — die Urfassung der MD wurde vor dem Ersetzen
+    als Kopie nach `_Archiv/260715-Offertvergleich-Staehlin-0707-1507_urfassung-1507.md` gesichert
+    (nichts geloescht). Kein Versand (A5: Entwurf/Ablage, nie autonom senden); der Mail-Entwurf an
+    Staehlin bleibt ueberholt, weil RJ am 16.07. 07:54 selbst geantwortet hat.
+  - **Ergebnis/Ablage:** `.../2620 ALBERTSTRASSE 7/03 BKP/230.00 Elektroanlagen STAEHLIN AG - Felix/`
+    `2620 230.00 04 Offerte UN/260715-Offertvergleich-Staehlin-0707-1507/` (md/docx/pdf, 2 Seiten).
+    Registerzeile auf **erledigt** gesetzt (A4).
+- **Verbesserungs-Kandidat fuer den Baukasten (nicht selbst aktiviert, Vorschlag an Raphael):**
+  `jans_docx.py` hat keine `stamm()`-Helferfunktion (Tab-Stop 1700 DXA) und keinen haengenden Einzug
+  fuer nummerierte Listen — beides musste im Build-Skript nachgebaut werden; der `jans_footer` weicht
+  vom Standard ab (zentriert, ohne Mail-Adresse, statt links Verfasser/Mail/Datum + rechts Seite X von Y).
+- **Briefing an rj@ versendet** (nur der neue Befund + Verweis auf den Radar fuer die unveraenderten
+  7-Tage-Punkte, keine Doppelmeldung).
+
 **Radar-Lauf 06:45.** Quellen: Konversations-Destillat 17.07. (34 Sessions, 6 echte Gespraeche), bexio `--verzug`, M365 (Posteingang + Gesendete seit 16.07. 06:00, je 7 Mails, Bodies gelesen), outlook.com via Apple Mail (nichts Neues seit 15.07.), Kalender 7 Tage.
 
 **Erledigt.** Thalwil 2414 / Bohlweg 3: die Antwort an S. Tschopp zur Projektaenderung ist **versendet** (RJ 16.07. 16:21, Bcc P. Weisser) — das Konversations-Destillat kannte sie nur als Entwurf in Apple Mail; die Sent Items belegen den Versand. Punkt ins Archiv, ersetzt durch den Folge-Punkt (Rueckmeldung Bauherr → Umgebungsplan + drei Nachweise + Eingabe ueber E-Plattform).
