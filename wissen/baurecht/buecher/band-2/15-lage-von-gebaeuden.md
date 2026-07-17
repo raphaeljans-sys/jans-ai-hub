@@ -4,11 +4,11 @@ kapitel: 15 — Lage von Gebaeuden (Abstaende, Baulinien)
 band: 2
 seiten: 995-1033 (Teil 1 + 2a)
 shots: 502-520 (Bildschirmfoto 2026-06-07 um 12.03.03 – 12.03.27)
-paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238a PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15b/15d/15m HWSchV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
+paragraphen: ["§ 260 PBG", "§ 261 PBG", "§ 262 PBG", "§ 269 PBG", "§ 49 Abs. 3 PBG", "§ 51 Abs. 2 PBG", "§ 67 PBG", "§ 96 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 220 PBG", "§ 238a PBG", "§ 273 PBG", "§ 66 Abs. 2 PBG", "§ 307 PBG", "§ 357 PBG", "§ 2 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 17 WaG", "Art. 36a GSchG", "Art. 41a/41b/41c GSchV", "§ 13/14 WWG", "§ 22 Abs. 2 WWG", "§ 15/15h/15k/15m HWSchV (aufgehoben 01.06.2026)", "§ 20 WsG", "§§ 22-24/213 WsV", "Art. 688 ZGB", "Art. 2/21 WBG/WBV"]
 status: emerging
 gelesen: 2026-06-12
 last_updated: 2026-07-17
-verifiziert: 2026-07-17 (Modell-D Nachlauf Gewaesserraum, Buch-Run 47 — die Run-32-Korrektur war nur im Fliesstext nachgefuehrt: Kennzahlen-Tabelle Z. 246/247/250 auf Art. 41a Abs. 1 lit. a-c / Abs. 2 lit. a-b GSchV gesetzt, Schutzgebiets-Formeln ergaenzt, Art. 41b Abs. 2 als Fehlzitat fuer das 20-m-Mass entfernt (Abs. 2 = nur Erhoehungsgruende), Uferlinien-Messweise entzitiert — Art. 41a misst ab Gerinnesohle und kennt den Begriff «Uferlinie» nicht); 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
+verifiziert: 2026-07-17 (Buch-Run 48, Modell-D Gewaesserraum-Beschaffung: **HWSchV per 01.06.2026 AUFGEHOBEN** [OS 81, 144] → WsG/WsV; zudem Renumbering Nachtrag 95 [2017] — Buch-Nummern § 15d/§ 15b/§ 15g stammen aus der 2013er-Fassung, richtig § 15k/§ 15h/§ 15m. **§ 15m stand auf dem Kopf**: er erklaerte § 357 PBG fuer anwendbar [kein Vorrang] und § 307 PBG galt auch im Gewaesserraum [beguenstigend, nicht einschraenkend]. Uferstreifen-Masse CONFIRMED, aber Fundstellen durchwegs falsch verklebt [§ 15 HWSchV → UebgBest. GSchV 4.5.2011 bzw. HWSchV-Aenderung 13.12.2011 / § 213 WsV]. Belege raw/260717_amtlich_zh_hwschv.md + raw/260717_amtlich_ch_gschv-41c.md); 2026-07-17 (Modell-D Nachlauf Gewaesserraum, Buch-Run 47 — die Run-32-Korrektur war nur im Fliesstext nachgefuehrt: Kennzahlen-Tabelle Z. 246/247/250 auf Art. 41a Abs. 1 lit. a-c / Abs. 2 lit. a-b GSchV gesetzt, Schutzgebiets-Formeln ergaenzt, Art. 41b Abs. 2 als Fehlzitat fuer das 20-m-Mass entfernt (Abs. 2 = nur Erhoehungsgruende), Uferlinien-Messweise entzitiert — Art. 41a misst ab Gerinnesohle und kennt den Begriff «Uferlinie» nicht); 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-12 (Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum Abs. 1/Abs. 2-Verwechslung korrigiert)
 ---
 
 # Kap. 15 — Lage von Gebaeuden (Teil 1+2a: System, Wald, Gewaesser, Baulinien)
@@ -144,9 +144,21 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   die Wasserflaeche **< 0,5 ha** ist bzw. das Gewaesser kuenstlich angelegt ist (Abs. 4 lit. b/c);
   die 0,5-ha-Schwelle ist damit ein Verzichtsgrund, keine Breitenformel. (S. 1010)
 - **Kanton ZH:** Gewaesserraum grundeigentuemerverbindlich, auf beschraenkten Gebrauch
-  (§ 15d HWSchV); Festlegung durch die Baudirektion (§ 15b HWSchV). **Verzicht** auf die
-  Festlegung moeglich bei sehr kleinen Gewaessern (Art. 41a Abs. 5 GSchV); bei
-  **eingedolten** Fliessgewaessern verlangt ZH gleichwohl mind. **11 m** (§ 15d HWSchV).
+  (**§ 15 Abs. 1** HWSchV — nicht § 15d); Festlegung durch die Baudirektion (**§ 15h** HWSchV —
+  nicht § 15b). **Verzicht** auf die Festlegung moeglich bei sehr kleinen Gewaessern
+  (Art. 41a Abs. 5 GSchV); bei **eingedolten** Fliessgewaessern verlangte ZH mind. **11 m**,
+  wobei «in begruendeten Faellen» abgewichen werden konnte (**§ 15k Abs. 3** HWSchV — nicht
+  § 15d; der Vorbehalt fehlte im Destillat).
+  > **ACHTUNG RECHTSAENDERUNG 01.06.2026 — die HWSchV ist AUFGEHOBEN** (OS 81, 144). Nachfolge:
+  > **Wassergesetz WsG** (LS 724.1) + **Wasserverordnung WsV** (LS 724.11), beide in Kraft seit
+  > 01.06.2026. **§ 24 WsV kennt kein 11-m-Mindestmass mehr**, sondern nur noch eine
+  > Verringerungsregel (Breite bis auf den fuer Unterhalt/Ersatz der Eindolung noetigen Raum).
+  > Die 11 m folgen heute **allein aus Art. 41a Abs. 2 lit. a GSchV** (Bundesrecht). Die
+  > Aussagerichtung kippt damit: ZH ist **nicht strenger** als der Bund, sondern nutzt den
+  > bundesrechtlichen Verzichtsspielraum. Zudem wurde die HWSchV 2017 (Nachtrag 95)
+  > **durchnummeriert** — die Buch-Nummern (6. Aufl. 2019) stammen aus der Fassung von 2013:
+  > Bemessungsnorm § 15d → § 15k, Besitzstandsnorm § 15g → § 15m. Beleg:
+  > `raw/260717_amtlich_zh_hwschv.md` (Modell D, 2026-07-17).
   (S. 1009-1013)
 
 ### 2.7 Uferstreifen — Messweise und Breite (S. 1014-1015)
@@ -187,11 +199,17 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 - **Bundesrechtliche Besitzstandsgarantie** (Art. 41c Abs. 2 GSchV): rechtmaessig erstellte
   Anlagen sind im Bestand grundsaetzlich geschuetzt; Unterhalt zulaessig, soweit der
   Werterhaltung dienend. (S. 1021)
-- **Kantonal:** Besitzstand nach **§ 357 PBG**; im Gewaesserraum modifiziert durch
-  **§ 15m HWSchV** (Vorrang vor § 357 PBG). (S. 1022)
-- **Brandstattrecht:** **§ 307 PBG** (Wiederaufbau nach Brand) ist im Gewaesserraum **nicht**
-  anwendbar; § 15m HWSchV weicht ab — Wiederaufbau in der Regel nur **ausserhalb** des
-  Gewaesserraums. (S. 1022)
+- **Kantonal:** Besitzstand nach **§ 357 PBG**; im Gewaesserraum **§ 15m Abs. 1 HWSchV**, der
+  § 357 PBG ausdruecklich fuer anwendbar erklaerte («duerfen nach § 357 PBG geaendert werden»)
+  — **kein Vorrang, sondern Verweis**. (S. 1022)
+- **Brandstattrecht:** **§ 307 PBG** (Wiederaufbau nach Brand) **besteht auch im Gewaesserraum**
+  innerhalb der Bauzonen, wenn ein Wiederaufbau ausserhalb des Gewaesserraums nicht moeglich ist
+  (**§ 15m Abs. 2 HWSchV**) — die Norm ist **beguenstigend, nicht einschraenkend**. (S. 1022)
+  > **KORRIGIERT 2026-07-17 (Modell D, `raw/260717_amtlich_zh_hwschv.md`):** Beide Aussagen standen
+  > **auf dem Kopf**. Das Destillat behauptete «§ 15m HWSchV geht § 357 PBG vor» und «§ 307 PBG ist
+  > im Gewaesserraum nicht anwendbar» — der amtliche Wortlaut sagt das Gegenteil. **Geltendes Recht
+  > seit 01.06.2026:** **§ 20 WsG** (Abs. 1: § 357 PBG sinngemaess anwendbar; Abs. 2: Brandstattrecht
+  > besteht auch im Gewaesserraum, sofern die Hochwassersicherheit nicht beeintraechtigt wird).
 
 ### 2.10 Gewaesserabstandslinien § 67 PBG (S. 1022-1027)
 - **Zweck:** Die Bau- und Zonenordnung kann gegenueber im Zonenplan eingetragenen Gewaessern
@@ -251,10 +269,10 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
 | Gewaesserraum Fliessgew. < 1 m Sohle (nur Schutzgebiete) | mind. 11 m | Art. 41a Abs. 1 lit. a GSchV; S. 1008 |
 | Gewaesserraum Fliessgew. Schutzgebiete | 1-5 m Sohle: 6 × Sohle + 5 m; > 5 m: Sohle + 30 m | Art. 41a Abs. 1 lit. b/c GSchV; S. 1008 |
 | Gewaesserraum stehendes Gew. | mind. 15 m ab Uferlinie | Art. 41b GSchV; S. 1010 |
-| Eingedoltes Fliessgew. ZH | mind. 11 m | § 15d HWSchV; S. 1013 |
-| Uferstreifen stehendes Gew. ab 0,5 ha (historisch/Uebergang) | 20 m ab Uferlinie | Uebergangsbest. GSchV-Aenderung 4.5.2011 / § 15 HWSchV; **nicht** Art. 41b Abs. 2 (der regelt nur Erhoehungsgruende); operativ gilt Art. 41b Abs. 1 (15 m); S. 1014 |
-| Uferstreifen stehendes Gew. bis 0,5 ha (ZH-Uebergang) | 8 m | § 15 HWSchV; S. 1014 |
-| Uferstreifen Fliessgew. (ZH-Uebergang) | 8 m + Breite Gerinnesohle je Seite (Sohle ≤ 12 m); 20 m bei Sohle > 12 m | § 15 HWSchV; S. 1015 |
+| Eingedoltes Fliessgew. ZH (bis 31.5.2026) | mind. 11 m, Abweichung «in begruendeten Faellen» | **§ 15k Abs. 3** HWSchV (nicht § 15d) — **aufgehoben 01.06.2026**; heute **§ 24 WsV: KEIN Mindestmass**, nur Verringerung; 11 m nur noch via Art. 41a Abs. 2 lit. a GSchV; S. 1013 |
+| Uferstreifen stehendes Gew. > 0,5 ha (Uebergangsrecht **Bund**) | 20 m (beidseitiger Streifen entlang des Gewaessers — **nicht** «ab Uferlinie») | **UebgBest. GSchV-Aenderung 4.5.2011 Abs. 2 lit. c** (nicht § 15 HWSchV); **nicht** Art. 41b Abs. 2 (nur Erhoehungsgruende); operativ gilt Art. 41b Abs. 1 (15 m); S. 1014 |
+| Uferstreifen stehendes Gew. bis 0,5 ha (ZH-Uebergang) | 8 m um das Gewaesser | **UebgBest. zur HWSchV-Aenderung vom 13.12.2011 Abs. 1** (nicht § 15 HWSchV — der war nie eine Uferstreifen-Norm); heute **§ 213 Abs. 1 WsV**; S. 1014 |
+| Uferstreifen Fliessgew. (Uebergangsrecht **Bund**, nicht ZH) | 8 m + Breite Gerinnesohle je Seite (Sohle ≤ 12 m); 20 m bei Sohle > 12 m | **UebgBest. GSchV-Aenderung 4.5.2011 Abs. 2 lit. a/b** (nicht § 15 HWSchV); S. 1015 |
 | Subsidiaerer Strassenabstand (fehlt Baulinie) | 6 m (Gemeinde) | § 51 Abs. 2 PBG; S. 1033 |
 
 ## 4. Praxis / Fallrecht (aus dem Buch zitiert)
@@ -285,7 +303,8 @@ Art. 36a GSchG + Gewaesserraum), die strenger sind als die nachbarlichen Grenzab
   an der Linie.
 - **Gewaesserraum-Falle:** Der Gewaesserraum nach Art. 36a GSchG ist **Bundesrecht** und
   ueberlagert die kommunale BZO; selbst bei **eingedolten** Baechen sind in ZH 11 m frei
-  zu halten (§ 15d HWSchV). Bei Ankaufs-/Machbarkeitspruefungen die GIS-Gewaesserraumkarte
+  zu halten (bis 31.5.2026 § 15k Abs. 3 HWSchV; **seit 01.06.2026 nur noch Art. 41a Abs. 2 lit. a
+  GSchV** — § 24 WsV laesst eine Verringerung zu). Bei Ankaufs-/Machbarkeitspruefungen die GIS-Gewaesserraumkarte
   (geo.zh.ch) abfragen, bevor das Baufeld gerechnet wird.
 - **Gebaeudeart als Stellhebel:** Ein Nebengebaeude bewusst als «besonderes Gebaeude»
   (≤ 4 m, kein Daueraufenthalt) zu konzipieren reduziert die Grenz-/Gebaeudeabstaende

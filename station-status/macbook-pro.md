@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.07.2026 06:54:05
+Stand: 17.07.2026 07:14:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:31)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:10)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.07.2026 06:54:05
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5d43716d nas-selfcommit: 2 Datei(en) 2026-07-17 06:45
+- bc4370be normen-KB: Destillat SIA 385/1:2011 (Trinkwarmwasser) neu — Inventar-Luecke geschlossen
