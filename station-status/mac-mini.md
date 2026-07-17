@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.07.2026 09:08:54
+Stand: 17.07.2026 09:29:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.07.2026 09:08:54
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- cc0ceccc nas-selfcommit: 4 Datei(en) 2026-07-17 09:00
+- 8f206868 nas-selfcommit: 4 Datei(en) 2026-07-17 09:15
