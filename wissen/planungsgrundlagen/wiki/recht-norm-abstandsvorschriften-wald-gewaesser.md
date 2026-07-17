@@ -99,8 +99,13 @@ Seit der GSchG-Änderung (in Kraft **01.01.2011**) müssen die Kantone den **Rau
 oberirdischen Gewässer** ausscheiden (**Art. 36a GSchG**, SR 814.20); der Bund hat dies in der
 **GSchV** konkretisiert (**Art. 41a/41b**, SR 814.201, in Kraft 01.06.2011). Ausscheidungsfrist
 für die Kantone: **bis 31.12.2018** (AWEL-Merkblatt «Festlegung des Gewässerraums», Juli 2014).
-In ZH läuft die Festlegung über die **Verordnung über den Hochwasserschutz und die Wasserbaupolizei
-(HWSchV, §§ 15 ff., LS 724.112)** und das **Wasserwirtschaftsgesetz (WWG § 18, LS 724.11)**.
+In ZH lief die Festlegung bis 31.5.2026 über die **Verordnung über den Hochwasserschutz und die
+Wasserbaupolizei (HWSchV, §§ 15 ff., LS 724.112)** und das **Wasserwirtschaftsgesetz
+(WWG § 18, LS 724.11)**. ⚠ **HWSchV und WWG sind per 1.6.2026 aufgehoben** (OS 81, 144) und
+durch das **Wassergesetz (WsG, LS 724.1)** + die **Wasserverordnung (WsV, LS 724.11)** ersetzt;
+Festlegung heute § 19 WsG / § 11 WsV, Baudirektionsentscheid § 183 lit. b WsV. Massgebend fürs
+Recht ist die KB `baurecht` (`[[abstaende-und-hoehen]]`, amtlich nachgeführt 17.07.2026 mit
+Konkordanztabelle alt/neu). Wissens-Chef Run 7, 2026-07-17.
 
 **Der Gewässerabstand IST der Gewässerraum:** In ZH gibt es keinen zusätzlichen fixen Meter-
 Abstand; massgebend ist der **festgelegte Gewässerraum**. Ist für ein Gewässer **auf die Festlegung
@@ -119,7 +124,15 @@ Der Gewässerraum wird grundsätzlich **beidseitig gleichmässig** zum Gewässer
 | < 2 m | **≥ 11 m** |
 | 2 – 15 m | **≥ 2.5 × nat. GSB + 7 m** |
 | > 15 m | kantonale Vorgabe |
-| eingedolte Gewässer | **≥ 11 m** (§ 15d Abs. 3 HWSchV) |
+| eingedolte Gewässer | **≥ 11 m** (Art. 41a Abs. 2 lit. a GSchV, Bundesrecht) |
+
+> ⚠ **Eingedolte Fliessgewässer — Rechtsgrundlage aktualisiert (Wissens-Chef Run 7, 17.07.2026):**
+> Das ZH-Sondermass «≥ 11 m» stand bis 31.5.2026 in § 15k Abs. 3 HWSchV (alt § 15d Abs. 3; die
+> HWSchV wurde 2017 mit Nachtrag 95 umnummeriert — die alte Nummer § 15d zeigt heute ins Leere).
+> **Seit 1.6.2026 ist die HWSchV aufgehoben; die Nachfolgenorm § 24 WsV kennt kein Mindestmass mehr,
+> nur noch eine Verringerungsregel.** Die 11 m folgen heute allein aus dem Bundesrecht
+> (Art. 41a Abs. 2 lit. a GSchV) — ZH ist damit **nicht strenger als der Bund**. Beleg:
+> `baurecht/raw/260717_amtlich_zh_hwschv.md`, Konkordanztabelle.
 
 **Fliessgewässer, nationale/kantonale Schutzgebiete (Art. 41a Abs. 1 GSchV):**
 
@@ -129,8 +142,11 @@ Der Gewässerraum wird grundsätzlich **beidseitig gleichmässig** zum Gewässer
 | 1 – 5 m | **≥ 6 × nat. GSB + 5 m** |
 | > 5 m | **≥ nat. GSB + 30 m** |
 
-**Stehende Gewässer (See/Teich, Art. 41b GSchV):** Wasserfläche **> 0.5 ha** → Gewässerraum
-**mindestens 15 m** ab Uferlinie.
+**Stehende Gewässer (See/Teich, Art. 41b GSchV):** ab Uferlinie **mindestens 15 m** (Abs. 1) —
+**nicht an eine Flächenschwelle geknüpft**. Die **0,5-ha-Schwelle** ist kein Formel-Kriterium,
+sondern nur ein **Verzichtsgrund** (Abs. 4 lit. b: bei Wasserfläche < 0,5 ha kann auf die
+Festlegung verzichtet werden). Korrigiert Wissens-Chef Run 7 (17.07.2026); massgebend
+`[[abstaende-und-hoehen]]` (baurecht, Modell-D-verifiziert).
 
 **Abweichungen:** In **dicht überbauten Gebieten** kann der Gewässerraum **verkleinert** werden
 (Art. 41a Abs. 4 / Art. 41b Abs. 3 GSchV), soweit der **Hochwasserschutz gewährleistet** bleibt;
@@ -150,7 +166,7 @@ Baufeld hart. → [[machbarkeit]] / Agent `baulinien-analyst`.
 **Festlegung im nutzungsplanerischen Verfahren (§§ 36–89 PBG):** Planungsträger reicht Antrag +
 Entwurf (Plan + technischer Bericht) → **Vorprüfung ARE + AWEL (60 Tage)** → öffentliche Auflage
 60 Tage → **Festlegung durch die Baudirektion mit Verfügung** → gemeinsame Publikation → Eintrag
-in den **kantonalen GIS-Übersichtsplan** (§ 15c HWSchV). Kontakt: gewaesserraum@bd.zh.ch;
+in den **kantonalen GIS-Übersichtsplan** (bis 31.5.2026 § 15c HWSchV, heute WsG/WsV). Kontakt: gewaesserraum@bd.zh.ch;
 Musterunterlagen unter gewaesserschutzgesetz.zh.ch.
 
 **Geodatum:** Die **aktuelle Gerinnesohlenbreite** und die Breitenvariabilität liest man aus der

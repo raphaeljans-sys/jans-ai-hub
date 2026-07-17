@@ -89,10 +89,13 @@ Bewilligung fuer bauliche Veraenderungen an Oberflaechengewaessern
 — ⚠ **das WWG wurde per 1.6.2026 durch das neue Wassergesetz WsG vom
 12.12.2022 abgeloest**, § 126 WsG explizite Aufhebung, primaerquellen-belegt
 in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`; §-Mapping
-WWG→WsG noch offen, Wissens-Chef Run 5, 2026-07-15), **HWV**
-(14.10.1992, regelt bauliche Veraenderungen/Eingriffe an
-Oberflaechengewaessern insb. Bewilligungspflicht bei
-Regenwassereinleitungen).
+WWG→WsG belegt in `wissen/baurecht` → `raw/260717_amtlich_zh_hwschv.md`
+(Konkordanztabelle alt/neu), Wissens-Chef Run 5/7, 2026-07-15/17), **HWSchV**
+(14.10.1992, Verordnung ueber den Hochwasserschutz und die Wasserbaupolizei,
+regelt bauliche Veraenderungen/Eingriffe an Oberflaechengewaessern insb.
+Bewilligungspflicht bei Regenwassereinleitungen — ⚠ **die HWSchV wurde
+ebenfalls per 1.6.2026 aufgehoben** (OS 81, 144) und durch WsG/WsV ersetzt;
+§ 15h → § 183 lit. b WsV, Bemessung §§ 22-25 WsV, Wissens-Chef Run 7).
 
 ## B) Verfahren zur Gewaesserraum-Festlegung (AWEL/ARE Merkblatt Juli 2014)
 
@@ -105,8 +108,8 @@ vertieft):
 - **Verfahren 1:** Festlegung im ordentlichen Verfahren durch den Kanton
   (Anhoerung + Antragsrecht/-pflicht der Betroffenen) → mündet in die
   **kantonale Gewaesserraum-Karte** (grundeigentuemerverbindlich).
-- **Verfahren 2 — Nutzungsplanerisches Verfahren (§§ 15 ff. HWSchV, Art. 41a/
-  41b GSchV):** Festlegung des Gewaesserraums **auf Antrag** eines
+- **Verfahren 2 — Nutzungsplanerisches Verfahren (bis 31.5.2026 §§ 15 ff. HWSchV,
+  heute WsG/WsV; Art. 41a/41b GSchV):** Festlegung des Gewaesserraums **auf Antrag** eines
   Planungstraegers, **nur im Rahmen von nutzungsplanerischen Verfahren gemaess
   §§ 36-89 PBG** moeglich (im Quartierplanverfahren **nicht** moeglich).
   Ablauf: Planungstraeger erstellt Entwurf (Plan + technischer Bericht) →
@@ -117,7 +120,8 @@ vertieft):
   Gewaesserraum mit Verfuegung fest → gemeinsame Publikation von Nutzungsplan
   und Gewaesserraumfestlegung → Rechtsschutz analog Planungsverfahren
   (Baurekursgericht → Verwaltungsgericht → Bundesgericht).
-- **Verfahren 3 — Wasserbauprojekte (§ 18 Abs. 4 WWG, § 15h HWSchV):**
+- **Verfahren 3 — Wasserbauprojekte (bis 31.5.2026 § 18 Abs. 4 WWG, § 15h HWSchV;
+  heute WsG/WsV):**
   Festlegung im Rahmen der Projektfestsetzung von Wasserbauprojekten;
   projektierendes Ingenieurbuero erstellt zusaetzlich zum
   Wasserbauprojekt einen **separaten Plan + technischen Kurzbericht** zum

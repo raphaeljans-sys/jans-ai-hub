@@ -337,10 +337,14 @@ geführten ZH-Rechts-/Verfahrens-Teil für die Naturgefahr **Hochwasser**, auch 
 GIS-Layer-Endpunkt weiterhin nicht kartiert ist.
 
 > ⚠ **Datenstand 2003 — über 20 Jahre alt.** Die genannten Fristen/Prioritätenlisten sind
-> überholt; die **gesetzliche Grundmechanik** (WBG/WaG/RPG Bund, WWG § 22 ZH) ist nach
-> aktueller Kenntnis unverändert in Kraft, wurde aber in diesem Lauf **nicht** gegen die
-> aktuelle Fassung von `zh.ch`/`lexfind` verifiziert — vor einer verbindlichen Aussage im
-> Projekt gegenprüfen.
+> überholt; die **gesetzliche Grundmechanik** (WBG/WaG/RPG Bund, WWG § 22 ZH) beruht in der
+> Sache weiter (Gefahrenbereiche berücksichtigen), **die zitierte kantonale Norm § 22 WWG ist
+> aber nicht mehr in Kraft**: das WWG wurde per 1.6.2026 durch das Wassergesetz WsG (LS 724.1)
+> + WsV abgelöst (§ 126 WsG, explizite Aufhebung; belegt in KB `energie`
+> `grundwasserwaermenutzung-bewilligung-zh-sz` und `baurecht`). Der konkrete WsG-/WsV-
+> Nachfolge-§ für § 22 WWG (Gefahrenbereiche der Gemeinden) ist **noch nicht am Volltext
+> verifiziert** (Bring-Schuld); für den Recht-Status ist die KB `baurecht` führend. Vor einer
+> verbindlichen Aussage im Projekt gegenprüfen. (Aktualisiert Wissens-Chef Run 7, 17.07.2026.)
 
 **Rechtsgrundlage:**
 - **Bund:** WBG (Wasserbaugesetz, 1991) + WaG (Waldgesetz, 1991) verpflichten die Kantone,

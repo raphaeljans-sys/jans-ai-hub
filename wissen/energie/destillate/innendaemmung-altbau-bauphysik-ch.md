@@ -485,6 +485,19 @@ Wärmebrückenkatalogen zutage. Empfehlung: den Katalog als vollständiges Desti
 sobald Zeit für die volle Auswertung besteht — Kandidat für einen neuen Wiki-Artikel
 `bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013`.
 
+**Run 78 (2026-07-17) — Vollauswertung nachgeliefert:** Der Katalog ist jetzt vollständig ausgewertet
+in `[[bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013]]` — alle 8 Wärmebrückengruppen (27
+Detailvarianten: Geschossdecke 4×, Innenwand-Aussenwand 3×, Traufe 1×, Sockel 1×, Aussenwandecke 3×,
+Fensterleibung/-brüstung/-sturz je 9×) mit vollständigen Ψ-/fRsi-Wertetabellen. **Bestätigt:** die
+Deckenkonstruktion bleibt im GESAMTEN 79-seitigen Dokument durchgehend eine historische
+Holzbalkendecke — «Massivdecke», «Betondecke», «Stahlbetondecke» kommen kein einziges Mal vor
+(Volltext-Stichwortprüfung). Der oben zitierte Analogiewert Ψ ≈ −0,34/0,08–0,09 W/mK bleibt damit
+ein reiner **Analogiewert für die Fensterbrüstung** (Detail 5.2-7-250, Kastenfenster mit
+Isolierverglasung innen+aussen), **kein Beleg für eine Massivdecke**. Neu zusätzlich belegt: die
+Aussenwandecke ist im ungedämmten Bestand die kritischste alle Wärmebrücken (fRsi nur 0,37–0,48,
+deutlich unter der SIA-Grenze 0,75), wird aber durch 40–80 mm Innendämmung zuverlässig über die
+Mindestwärmeschutz-Grenze gehoben.
+
 ## Backlinks
 
 [[denkmalschutz-energiesanierung-zh-sz]] (rechtlicher Rahmen, wann aussen verboten ist — dieses

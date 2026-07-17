@@ -1,11 +1,11 @@
 ---
-quelle: MuKEn-2025-Originaltext (117 S., EnDK, «Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025», verabschiedet 29.08.2025, PDF-Metadaten bestätigen EnDK-Herausgeberschaft), PDF-Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf, per curl+pdftotext im Volltext gelesen 2026-07-16; EnDK-Medienmitteilung 25.08.2025 (endk.ch); Folgeberichte VSE, aeesuisse, energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025)
+quelle: MuKEn-2025-Originaltext (117 S., EnDK, «Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025», verabschiedet 29.08.2025, PDF-Metadaten bestätigen EnDK-Herausgeberschaft), PDF-Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf, per curl+pdftotext im Volltext gelesen 2026-07-16; EnDK-Medienmitteilung 25.08.2025 (endk.ch); Folgeberichte VSE, aeesuisse, energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025); MuKEn-2014-Volltext (98 S., endk.ch) als Vorher/Nachher-Referenz; Kanton Schwyz kEnG (SRSZ 420.100) + KEnV (SRSZ 420.111), gelesen 2026-07-17 via curl+pdftotext, sz.ch; RRB Nr. 632/2025 (Kt. SZ, 02.09.2025, Motion M 7/25 Beantwortung), gelesen 2026-07-17
 herausgeber: Konferenz Kantonaler Energiedirektoren (EnDK)
 ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung ab)
-gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31)
+gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31); 2026-07-17 (Anhänge 4+5 ausgewertet + Kt.-SZ-Übernahmestand geprüft, kEnG/KEnV SZ im Volltext gelesen)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
 status: established (jetzt primärquellen-verifiziert am Originaltext, nicht mehr nur an Sekundärquellen)
-last_updated: 2026-07-16
+last_updated: 2026-07-17
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
@@ -120,7 +120,10 @@ Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
   eine **separate, engere Vorlage** vorgelegt (Solarpflicht Dächer >300 m² + Langzeitspeicher-
   Auftrag Netzbetreiber), siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`. Ob/wann die
   volle MuKEn-2025-Übernahme (Fossilverbot, 20-W/m²-PV-Pflicht, Graue-Energie-Modul Teil G) als
-  eigene ZH-Vorlage folgt, ist weiterhin offen. Stand Kt. SZ unveraendert offen.
+  eigene ZH-Vorlage folgt, ist weiterhin offen.
+- ~~Stand Kt. SZ unveraendert offen.~~ **Erledigt 2026-07-17** — siehe neuer Abschnitt
+  «Kanton Schwyz — Übernahmestand MuKEn 2025» unten: SZ hat MuKEn 2025 als Gesamtpaket noch
+  nicht übernommen, folgt strukturell noch der MuKEn-2014-Logik.
 - **Allgemeiner Umsetzungsfahrplan ergänzt 2026-07-15** (energiehub-gebaeude.ch, offizielles
   MuKEn-2025-Musterwerk, keine kantonsspezifischen Angaben): der EnDK-Terminplan **zielt auf eine
   Umsetzung der MuKEn 2025 in allen Kantonen bis 2030**. Modul-Systematik bestätigt: **Basismodul
@@ -142,8 +145,13 @@ Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
 - **Kantonale Rechenhilfe/Werte nach Anhang 7 Abs. 2** — für ZH/SZ Stand 16.07.2026 nicht
   existent (kantonale Umsetzung ausstehend). Bei Umsetzung nachführen; sie wird der massgebende
   Rechenweg beim Heizungsersatz.
-- **Anhänge 1–5** bisher unausgewertet (Bauteil-/Heizwärmebedarfs-Grenzwerte, Dämmstärken,
-  UR-Werte) — Details und Priorisierung im Abschnitt «Anhänge 6 und 7» unten.
+- ~~**Anhänge 1–5** bisher unausgewertet (Bauteil-/Heizwärmebedarfs-Grenzwerte, Dämmstärken,
+  UR-Werte) — Details und Priorisierung im Abschnitt «Anhänge 6 und 7» unten.~~ **Erledigt:**
+  Anhänge 1-3 ausgewertet im eigenen Destillat → [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]
+  (2026-07-17, ZH-Vergleich: keine Verschärfung). Anhänge 4-5 ausgewertet 2026-07-17 im eigenen
+  Destillat → [[muken-2025-anhang-4-5-daemmstaerken-leitungen]] (Dämmstärken Verteilleitungen /
+  UR-Werte erdverlegte Leitungen, siehe auch Kurzfassung im Abschnitt «Anhänge 4 und 5» unten).
+  Damit sind jetzt **alle 7 Anhänge der MuKEn 2025** primärquellen-ausgewertet.
 
 ## Module 2-14 ausserhalb Teil G (Volltext-Auswertung Run 74, 2026-07-16)
 
@@ -307,18 +315,23 @@ oder zu einer Befreiung führen».
   kantonal publizierten Werte sein. Für ZH/SZ existiert Stand 16.07.2026 noch keine solche
   Rechenhilfe (kantonale Umsetzung steht aus).
 
-### Weitere bisher unausgewertete Anhänge (nur benannt, nicht ausgewertet)
-Die MuKEn 2025 hat **genau 7 Anhänge**. Anhänge 6 und 7 sind mit diesem Lauf erledigt; die
-folgenden fünf sind im Destillat bisher **nicht** ausgewertet (alle textbasiert extrahierbar,
-Kandidaten für einen Folgelauf):
-- **Anhang 1** — Einzelbauteilgrenzwerte bei Neubauten und neuen Bauteilen (Art. 1.8 Abs. 2)
-- **Anhang 2** — Einzelbauteilgrenzwerte bei Umbauten und Umnutzungen (Art. 1.8 Abs. 2)
-- **Anhang 3** — Grenzwerte für den Heizwärmebedarf pro Jahr (Neubauten, Umbauten, Umnutzungen)
-- **Anhang 4** — Minimale Dämmstärken bei Verteil-/Warmwasserleitungen (Art. 1.17 Abs. 2)
-- **Anhang 5** — Maximale UR-Werte für erdverlegte Leitungen (Art. 1.17 Abs. 4)
+### Weitere Anhänge — jetzt vollständig ausgewertet (Stand 2026-07-17)
+Die MuKEn 2025 hat **genau 7 Anhänge**. Anhänge 6 und 7 wurden im Run 75 (2026-07-16) ausgewertet.
+Die verbleibenden fünf sind seit dem Lauf vom 2026-07-17 ebenfalls primärquellen-ausgewertet:
+- **Anhang 1** — Einzelbauteilgrenzwerte bei Neubauten und neuen Bauteilen (Art. 1.8 Abs. 2) —
+  ausgewertet, siehe eigenes Destillat [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]].
+- **Anhang 2** — Einzelbauteilgrenzwerte bei Umbauten und Umnutzungen (Art. 1.8 Abs. 2) —
+  ausgewertet, ebenda.
+- **Anhang 3** — Grenzwerte für den Heizwärmebedarf pro Jahr (Neubauten, Umbauten, Umnutzungen) —
+  ausgewertet, ebenda. Befund: alle drei Anhänge sind **zahlenmässig identisch** mit den heute im
+  Kt. ZH geltenden Werten (SIA 380/1:2016) — keine Verschärfung für Zürich.
+- **Anhang 4** — Minimale Dämmstärken bei Verteil-/Warmwasserleitungen (Art. 1.17 Abs. 2) —
+  ausgewertet 2026-07-17, siehe Abschnitt «Anhänge 4 und 5» unten sowie eigenes Destillat
+  [[muken-2025-anhang-4-5-daemmstaerken-leitungen]].
+- **Anhang 5** — Maximale UR-Werte für erdverlegte Leitungen (Art. 1.17 Abs. 4) — ausgewertet
+  2026-07-17, ebenda.
 
-Am wertvollsten für JANS wären **Anhang 1–3** (U-Wert-/Heizwärmebedarfs-Grenzwerte — direkter
-Vergleich zu den heute geltenden ZH-Werten, → [[energienachweis-zh]]).
+Damit sind **alle 7 Anhänge der MuKEn 2025** im Destillate-Layer primärquellen-ausgewertet.
 
 Quelle: EnDK, MuKEn 2025 Volltext, Anhang 6 + Anhang 7 (S. 39 von 117), Art. 1.29/1.34/1.35 sowie
 Erläuterungen S. 112–113, gelesen 2026-07-16 via curl+pdftotext, Spiegel
@@ -327,7 +340,92 @@ EnDK, MuKEn 2014 Art. 1.31 (S. 35–36 von 98), endk.ch/wp-content/uploads/2025/
 MuKEn2014_d-2018-04-20.pdf. Datenstand beider: MuKEn 2025 Stand 29.08.2025 / MuKEn 2014 rev.
 20.04.2018.
 
+## Anhänge 4 und 5 — Dämmstärken Verteilleitungen / UR-Werte erdverlegte Leitungen (2026-07-17)
+
+**Kurzbefund (Details, Volltabellen, SZ-Vergleich im eigenen Destillat**
+→ [[muken-2025-anhang-4-5-daemmstaerken-leitungen]]**):** Anhang 4 (minimale Dämmstärken bei
+Verteil-/Warmwasserleitungen, Art. 1.17 Abs. 2, S. 31 von 117) und Anhang 5 (maximale UR-Werte
+für erdverlegte Leitungen, Art. 1.17 Abs. 4, S. 31) sind **zahlenmässig unverändert gegenüber
+MuKEn 2014** übernommen worden (verifiziert an beiden Volltexten, MuKEn 2014 Anhang 4/5, S. 27
+von 98). Einzige Änderung: Anhang 5 benennt die beiden Rohrtyp-Zeilen neu **"Einzelrohre"** /
+**"Doppelrohre"** statt der MuKEn-2014-Bezeichnung "starre Rohre" / "flexible Rohre sowie
+Doppelrohre" — eine sprachliche Klärung ohne Zahlenänderung. Eine Erläuterung "Zu Anhang 4"
+existiert im Original nicht; "Zu Anhang 5" enthält nur den einen Satz: «Massgebend ist die Länge
+des verlegten Leitungsstücks im Graben, auch bei Doppelrohren.» (S. 111).
+
+Damit gilt für Anhänge 4/5 dasselbe Muster wie für Anhänge 1-3 (siehe
+[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]): **keine inhaltliche Verschärfung** gegenüber
+dem, was in den Kantonen mit MuKEn-2014-Vollzug (ZH, SZ) bereits gilt.
+
+## Kanton Schwyz — Übernahmestand MuKEn 2025 (2026-07-17)
+
+**Kurzantwort: SZ hat MuKEn 2025 als Gesamtpaket noch nicht übernommen; keine dokumentierte
+Übernahme-Entscheidung oder -Terminierung gefunden.** Primärquellen: kantonales Energiegesetz
+(kEnG, SRSZ 420.100, letzte Änderung in Kraft seit 1.1.2025) und Kantonale Energieverordnung
+(KEnV, SRSZ 420.111, Ausgabe SRSZ-Stand 1.2.2025), beide im Volltext gelesen (curl+pdftotext,
+sz.ch); ergänzend Regierungsratsbeschluss Nr. 632/2025 (Kt. SZ, 02.09.2025, Beantwortung Motion
+M 7/25 "Anpassung des Energiegesetzes").
+
+**Befund 1 — SZ folgt strukturell noch der MuKEn-2014-Architektur, nicht MuKEn 2025:**
+- Der Wärmeerzeugerersatz ist in § 8d kEnG geregelt: **90-%-Modell** ("Anteil an nichterneuerbarer
+  Energie höchstens 90% des massgebenden Bedarfs", Referenzbedarf 100 kWh/m²a, GEAK-Klasse D,
+  20-jähriger Nachweiszeitraum) — das ist die **MuKEn-2014-Logik**, nicht das MuKEn-2025-Fossilverbot
+  mit der 25-%-Unzumutbarkeitsschwelle (siehe Abschnitt «Der eigentliche Systemwechsel» oben).
+- KEnV Anhang 6 "Nachweis der Nutzung von erneuerbaren Brennstoffen" listet **11 Standardlösungen
+  (SL 1-11)**, wörtlich identisch mit MuKEn-2014-Art.-1.31-Systematik — inklusive der in MuKEn 2025
+  gestrichenen fossilen Optionen: SL 4 "mit Erdgas angetriebene Wärmepumpe", SL 6
+  "Wärmekraftkopplung", SL 10 "Grundlast-Wärmeerzeuger erneuerbar mit bivalent betriebenem
+  fossilen Spitzenlastkessel". Diese drei Optionen sind in der MuKEn-2025-Anhang-6-Nachfolgeliste
+  (7 "Standardmassnahmen") bewusst gestrichen worden (siehe oben) — SZ hat sie noch nicht
+  gestrichen.
+- RRB Nr. 632/2025 (S. 3, wörtlich): «Die Eigenstromerzeugungspflicht für Neubauten wurde mit den
+  MuKEn 2014 eingeführt. […] Die gesetzliche Mindestanforderung von 10 W/m² wurde in allen
+  Kantonen eingeführt, welche die MuKEn 2014 umgesetzt haben.» Der Beschluss erwähnt **MuKEn 2025
+  an keiner Stelle**, obwohl er drei Tage nach der MuKEn-2025-Verabschiedung (29.08.2025) datiert.
+  SZ liegt damit gemäss eigener Regierungsrats-Terminologie (Stand 02.09.2025) auf MuKEn-2014-Niveau,
+  ohne PV-Pflichtverschärfung auf 20 W/m² EBF (die MuKEn 2025 für Neubauten vorsieht).
+- Die kEnG-Fassung, die seit 1.1.2025 in Kraft ist (letzte Änderung vom 11.09.2024), und die
+  KEnV-Fassung (Ausgabestand 1.2.2025) datieren **beide vor** der MuKEn-2025-Verabschiedung
+  (29.08.2025) — es ist chronologisch ausgeschlossen, dass diese Fassungen bereits MuKEn 2025
+  umsetzen.
+
+**Befund 2 — bei den reinen Zahlenwerten (Anhänge 1-5) besteht faktisch bereits Deckungsgleichheit:**
+Die KEnV führt eigene Anhänge 1-9, die strukturell den MuKEn-Anhängen entsprechen (um vier
+verschoben, weil SZ zusätzlich Anhang 5 "Standardlösungskombinationen Gebäudehülle/Wärmeerzeugung"
+und Anhang 7 einschiebt):
+- **KEnV Anhang 1** — Stand der Technik: referenziert **SIA 380/1, Ausgabe 2016** explizit (S. 14).
+- **KEnV Anhang 2/3** — U-Wert-Grenzwerte Neubau bzw. Umbau: Zahlen **identisch** mit
+  MuKEn-2025-Anhang 1/2 (0,17/0,25 opake Bauteile Neubau, 0,25/0,28 Umbau, 1,0/1,3 Fenster usw.).
+- **KEnV Anhang 4** — Heizwärmebedarf-Grenzwerte: Zahlen **identisch** mit MuKEn-2025-Anhang 3
+  (Q_H,li0/ΔQ_H,li/P_H,li je Gebäudekategorie I-XII, z.B. Wohnen MFH 13/15/20).
+- **KEnV Anhang 8/9** — Dämmstärken Verteilleitungen / UR-Werte erdverlegte Leitungen: Zahlen
+  **identisch** mit MuKEn-2025-Anhang 4/5 (siehe Abschnitt oben und eigenes Destillat
+  [[muken-2025-anhang-4-5-daemmstaerken-leitungen]]).
+
+**Einordnung:** Weil die U-Wert-/Heizwärmebedarfs-/Dämmstärken-Zahlenwerte zwischen MuKEn 2014
+und MuKEn 2025 unverändert geblieben sind, erfüllt SZ diese Werte bereits **faktisch**, ohne die
+MuKEn-2025-Gesamtrevision formell übernommen zu haben. Die eigentlichen MuKEn-2025-Verschärfungen
+(Fossilverbot statt 90-%-Modell, 25-%- statt fixer Unzumutbarkeitsschwelle, 20 statt 10 W/m²
+PV-Pflicht, Graue-Energie-Modul Teil G) sind in SZ **Stand 17.07.2026 nicht umgesetzt**, und es
+liegt keine öffentlich dokumentierte Roadmap/Terminierung für eine SZ-MuKEn-2025-Übernahme vor
+(analog zum offenen ZH-Befund oben — auch hier keine Ankündigung einer nächsten kEnG/KEnV-Revision
+mit MuKEn-2025-Bezug gefunden).
+
+**Bauherren-Transfer:** Für ein Bauvorhaben im Kt. SZ gilt heute das kEnG/die KEnV auf
+MuKEn-2014-Basis — bei einem Heizungsersatz bleibt die Standardlösungs-Logik (SL 1-11, inkl. der
+fossilen Kompensationsoptionen SL 4/6/10) anwendbar, die MuKEn-2025-Verschärfung (Fossilverbot)
+gilt in SZ noch nicht. Bei den U-Wert-/Heizwärmebedarfs-/Dämmstärken-Anforderungen an die
+Gebäudehülle ändert sich hingegen ohnehin nichts, unabhängig vom Übernahmezeitpunkt.
+
+Quelle: Kanton Schwyz, kEnG (SRSZ 420.100, §§ 6/8d, SRSZ-Stand 1.2.2025), KEnV (SRSZ 420.111,
+Anhänge 1-9, SRSZ-Stand 1.2.2025), gelesen 2026-07-17 via curl+pdftotext, sz.ch/public/upload/
+assets/5836/420_100.pdf und sz.ch/public/upload/assets/32457/420_111.pdf; RRB Nr. 632/2025
+(Kt. SZ, 02.09.2025), gelesen 2026-07-17 via curl+pdftotext, sz.ch/public/upload/assets/88439/
+M_Energiegesetz.pdf.
+
 **Backlinks:** [[energienachweis-zh]] · [[graue-energie]] · [[foerderung-energie-zh]] ·
 [[foerderung-energie-sz]] · [[muken-2025-modul-g-co2-grenzwerte]] ·
 [[heizsysteme-vollkostenvergleich-energieschweiz]] (Anhang 7 macht diesen Vergleich zum
-Rechtsinstrument) · Themenartikel [[energienachweis-zh]] (neuer Ausblick-Abschnitt).
+Rechtsinstrument) · [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]] ·
+[[muken-2025-anhang-4-5-daemmstaerken-leitungen]] · Themenartikel [[energienachweis-zh]]
+(neuer Ausblick-Abschnitt).
