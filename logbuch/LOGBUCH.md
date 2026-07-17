@@ -5,6 +5,22 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-17
+
+**Radar-Lauf 06:45.** Quellen: Konversations-Destillat 17.07. (34 Sessions, 6 echte Gespraeche), bexio `--verzug`, M365 (Posteingang + Gesendete seit 16.07. 06:00, je 7 Mails, Bodies gelesen), outlook.com via Apple Mail (nichts Neues seit 15.07.), Kalender 7 Tage.
+
+**Erledigt.** Thalwil 2414 / Bohlweg 3: die Antwort an S. Tschopp zur Projektaenderung ist **versendet** (RJ 16.07. 16:21, Bcc P. Weisser) — das Konversations-Destillat kannte sie nur als Entwurf in Apple Mail; die Sent Items belegen den Versand. Punkt ins Archiv, ersetzt durch den Folge-Punkt (Rueckmeldung Bauherr → Umgebungsplan + drei Nachweise + Eingabe ueber E-Plattform).
+
+**Verschaerft.** KISPI/Gruner: J. Ziegel bittet 16.07. 09:40 um einen Anruf zum Stand der Brandschutzunterlagen; das am 15.07. abends zugesagte DWG mit den Tueren ST1/ST2 ist weiterhin nicht zugestellt (zwei Tage offen, Sent Items ohne DWG-Versand). Prio auf **hoch** gesetzt — die CAD-Grundlage liegt seit 16.07. vor, und jeder Tag schiebt die Auflagenbereinigung um Gruners 5-Arbeitstage-Vorlauf weiter.
+
+**Neu aufgenommen.** (1) Baumackerstrasse 43 (B24-00351.02): RJ ersucht 16.07. 09:06 das AFB Team 4 um Auskunft zum Projektstand, M. Sivec ist bis Mo 20.07. abwesend → ab 20.07. Antwort erwarten. (2) Saumstrasse 21: M. Salzmann prueft ab 16.07. rund drei Wochen Massnahmen gegen den Faekalgeruch und bittet um Beobachtung → Rueckmeldung Anfang August.
+
+**Aktualisiert.** TeKoSi (L. Hiltmann) mahnt 16.07. die Auftragsbestaetigung zur Tuerfachplanung an, RJ hat sie an KISPI weitergeleitet — Ball bei KISPI. Roethlisberger (S. Lanz) liefert 16.07. 14:25 das angepasste Kuechenbau-Angebot (an KISPI weitergeleitet); Installationsplaene Elektro/Sanitaer ohne Termin, Projektleiter meldet sich.
+
+**Unveraendert.** RE-00087 (KISPI, CHF 15'000) 92 Tage ueberfaellig, Mahnung-2-Frist seit 15.07. verstrichen, kein Eingang. Albertstrasse-7-Vergleichsblatt (Angebot 2607101) weiterhin nicht erstellt. Kein Kalendereintrag vorgeschlagen; nichts autonom eingetragen.
+
+---
+
 ## 2026-07-16
 
 - **HUB-CHEF-LAUF 08:40 — ohne neuen Befund, keine zweite Mail.** Signale nach dem Radar-Briefing

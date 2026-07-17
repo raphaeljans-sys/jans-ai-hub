@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.07.2026 06:37:51
+Stand: 17.07.2026 06:58:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 17.07.2026 06:37:51
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 065d6f9c nas-selfcommit: 2 Datei(en) 2026-07-17 06:30
+- 0ee5ccdd vollgas-radar 17.07. 06:50: Nachtfenster sauber eingehalten, keine P1; synobsis-Stilllegung auf nach dem Reset terminiert
