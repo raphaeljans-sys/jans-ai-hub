@@ -1,11 +1,14 @@
 ---
 quelle: "Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden»"
 herausgeber: "EnFK — Konferenz Kantonaler Energiefachstellen"
-ausgabe: "Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2009)"
-gelesen: "2026-06-06 (S. 1-16, vollstaendig)"
-datenstand: "Dez 2018 / SIA 380/1:2009 — operative Vollzugsbasis Kt. ZH seit EnerG-Revision 1.9.2022 (MuKEn 2014). ⚠ MuKEn 2025 von EnDK 08/2025 verabschiedet, kantonale Umsetzung ZH Stand 06/2026 ausstehend."
+ausgabe: "Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016)"
+gelesen: "2026-06-06 (S. 1-16, vollstaendig); Korrektur-Gegenpruefung Tabelle 5 + Frontmatter 2026-07-17 (S. 10-11, per curl+pdftotext)"
+datenstand: "Dez 2018 / SIA 380/1:2016 — operative Vollzugsbasis Kt. ZH bereits seit Anforderungsprofil Version 16.01a (Ausgabe 11.04.2017), fortgefuehrt ueber die EnerG-Revision 1.9.2022 (MuKEn 2014) hinweg. ⚠ MuKEn 2025 von EnDK 08/2025 verabschiedet, kantonale Umsetzung ZH Stand 06/2026 ausstehend."
 status: established
-last_updated: "2026-06-06"
+sources:
+  - "EnFK, Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden», Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016), Tabelle 5 S. 10-11 — Original-PDF energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Waermeschutz_3801_2016.pdf, per curl+pdftotext geladen und gegengeprueft 2026-07-17"
+  - "wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md (Run 2026-07-17) — hatte den Transkriptionsfehler in Tabelle 5 sowie den falschen Frontmatter-Jahrgang bereits identifiziert und dokumentiert; diese Korrektur setzt die dort empfohlene Bereinigung um"
+last_updated: "2026-07-17"
 ---
 
 # EN-102 «Waermeschutz von Gebaeuden» (EnFK, Dez 2018)
@@ -62,23 +65,23 @@ Beim **Einzelbauteilnachweis** gibt es fuer Umbauten keine Waermebruecken-Grenzw
 Fensterflaeche fuer den Fensteranschlag (SIA 380/1 Ziff. 3.5.3.4).
 
 ## Kernzahlen — Systemnachweis Heizwaermebedarf NEUBAU (Tabelle 5, kWh/m²)
-Q_H,li = Q_H,li0 + ΔQ_H,li · (A_th/A_E). Klima: Jahresmitteltemperatur +8,5 °C,
+Q_H,li = Q_H,li0 + ΔQ_H,li · (A_th/A_E). Klima: Jahresmitteltemperatur +9,4 °C,
 Auslegungstemperatur −8 °C. p_H,li = spez. Heizleistung.
 
 | Geb.-Kategorie | Q_H,li0 | ΔQ_H,li | p_H,li (W/m²) |
 |---|---|---|---|
-| I Wohnen MFH | 14 | 16 | 20 |
-| II Wohnen EFH | 16 | 16 | 25 |
-| III Verwaltung | 16 | 21 | 25 |
-| IV Schule | 18 | 18 | 20 |
-| V Verkauf | 13 | 16 | — |
-| VI Restaurant | 24 | 19 | — |
-| VII Versammlungslokal | 24 | 19 | — |
-| VIII Spital | 20 | 20 | — |
-| IX Industrie | 15 | 18 | — |
-| X Lager | 15 | 18 | — |
-| XI Sportbaute | 19 | 18 | — |
-| XII Hallenbad | 19 | 25 | — |
+| I Wohnen MFH | 13 | 15 | 20 |
+| II Wohnen EFH | 16 | 15 | 25 |
+| III Verwaltung | 13 | 15 | 25 |
+| IV Schule | 14 | 15 | 20 |
+| V Verkauf | 7 | 14 | — |
+| VI Restaurant | 16 | 15 | — |
+| VII Versammlungslokal | 18 | 15 | — |
+| VIII Spital | 18 | 17 | — |
+| IX Industrie | 10 | 14 | — |
+| X Lager | 14 | 14 | — |
+| XI Sportbaute | 16 | 14 | — |
+| XII Hallenbad | 15 | 18 | — |
 
 **Umbau/Umnutzung:** Grenzwert Q_H,li,re = **1,5-faches** des Neubau-Grenzwerts.
 
@@ -109,12 +112,17 @@ Aufzugsschaechte gegen aktiv beheizte Geschosse duerfen vereinfacht mit aequival
   gesteuerte Beschattung einplanen, nicht erst nachruesten.
 
 ## Offene Punkte / zu pruefen
-- ⚠ **Datenstand:** Werte basieren auf SIA 380/1:2009 (EN-102 Dez 2018). Kt. ZH wendet diese
-  ueber das per 1.9.2022 revidierte EnerG an. **MuKEn 2025** (EnDK 08/2025) bringt voraussichtlich
-  Verschaerfungen — vor Zitieren konkreter Grenzwerte den dann gueltigen kantonalen Stand pruefen.
+- ⚠ **Datenstand:** Werte basieren auf SIA 380/1:2016 (EN-102 Dez 2018, Fusszeile jeder Seite
+  bestaetigt "Basis: Norm SIA 380/1, Ausgabe 2016" — Korrektur 2026-07-17, vorher irrtuemlich als
+  2009 gefuehrt). Kt. ZH wendet diese Werte bereits seit dem eigenen Anforderungsprofil Version
+  16.01a (Ausgabe 11.04.2017) an, fortgefuehrt ueber das per 1.9.2022 revidierte EnerG. **MuKEn
+  2025** (EnDK 08/2025) uebernimmt dieselben Zahlenwerte unveraendert (siehe
+  `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`) — die eigentliche Verschaerfung liegt in
+  anderen Modulen (Fossilverbot, PV-Pflicht, Grauenergie), nicht bei U-Werten/Heizwaermebedarf.
 - λ-Wert-Tabellen der Baustoffe stehen im SIA-Register (www.sia.ch/register) bzw. im
   BFE-Bauteilekatalog → siehe `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
 - Kennwerte Normfenster + g-Wert: «Merkblatt Fenster» der EnFK (www.endk.ch).
 
 Verwandt: `[[sia-380-1-heizwaermebedarf-berechnung]]`, `[[bauphysik-heizwaermebedarf-kennwerte]]`,
-`[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`, `[[enfk-en-104-eigenstromerzeugung]]`.
+`[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`, `[[enfk-en-104-eigenstromerzeugung]]`,
+`[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]`.
