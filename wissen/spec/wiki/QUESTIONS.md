@@ -54,6 +54,17 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     erzeugte **nicht** eine entschiedene Spec, sondern eine **Interview-Vorbereitung** (autonomer Lauf,
     Benutzer abwesend → Schritt 1 vorbereiten statt Entscheide erfinden; → F2 + [[anwendung-jans]]
     Schritt 1). Mittelgrosser Ueberdehnungs-Gegentest fehlt weiter.
+  - Korrektur 2026-07-17 (Lauf 21) zur Lauf-20-Zuordnung: der SYN-02-Trigger war **kein autonomer
+    Scheduled-Task-Lauf**. Primaerquelle Task-Registry: `syn02-spec-anstoss` hat **nie gefeuert**
+    (kein `lastRunAt`, `fireAt`/`nextRunAt` = 20.07.2026 10:15 UTC, one-time, enabled). Die
+    Interview-Vorbereitung entstand am 15.07. 00:57–00:59, wenige Minuten nachdem der Task
+    **angelegt** wurde (00:52) — also inline in einer laufenden Session, die den Task-Prompt gleich
+    selbst ausfuehrte; das Artefakt schreibt sich die Autorschaft «Scheduled Task» faelschlich selbst
+    zu, und `koordination/CHANGELOG.md` hat diese Selbstzuschreibung uebernommen. Der Gate-Trigger
+    zaehlt als realer Trigger weiter (siebter, korrekt+nuetzlich) — nur die Ursache-Erzaehlung
+    «autonom, Benutzer abwesend» ist unbelegt. Lehre (Kausal-Geschwister von Lauf 10/12): **ein
+    Artefakt ist keine Quelle fuer seine eigene Herkunft** — wer den Lauf ausloeste, steht in der
+    Task-Registry/Commit-Historie, nicht im Kopf des erzeugten Dokuments.
 - F2: Wie kurz darf das Ziel-Interview sein, damit es hilft statt bremst? Optimal-Laenge je
   Vorhabenstyp (Studie / Dokument / Mail / Strategie) sammeln.
   - Lektion AG-Gruendung: das Interview muss die **Ausgangslage** explizit fixieren. Hier
@@ -102,6 +113,13 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     schon eine begruendete Voreinstellung vorliegt (E1–E9 als «bestaetigen/schaerfen» statt «von null
     erarbeiten»). Der autonome Lauf darf **nicht** die Entscheide selbst treffen; «NICHT die Spec /
     kein Bau vor bestaetigter Spec» ist die harte Grenze. → [[anwendung-jans]] Schritt 1.
+  - Praezisierung 17.07. (Lauf 21) zur Ausloese-Bedingung: der belegte Grund fuer «Vorbereitung statt
+    Spec» ist nicht «Benutzer abwesend» (siehe F1-Korrektur), sondern eine **terminierte Freigabe** —
+    `SYNERGIE-REGISTER` fuehrt SYN-02 als «freigegeben 15.07.2026 — Spec-Start nach Limit-Reset (ab
+    20.07.2026, Reminder-Task gesetzt)». Die Vorbereitung ueberbrueckt also die Wartezeit zwischen
+    Gate-Trigger und dem terminierten Interview-Fenster. Verallgemeinert: die Interview-Vorbereitung
+    ist der richtige Deliverable, wann immer der Trigger **jetzt** faellt, das Interview aber **spaeter**
+    stattfindet (Benutzer weg ODER Start bewusst terminiert). → [[anwendung-jans]] Schritt 1 (17.07. korrigiert).
   - Regression 13.07. (Lauf 11): die Lauf-9-Lektion «selbst-blockierte Owner-Aktion als aktive Nudge,
     nie unter nichts Neues» haelt **nicht von selbst**. Gegenpruefung 4 Tage spaeter am selben Fall
     (AG-Gruendung/Notariat): der `ag-gruendung-monitor` hat seit 10.07. **keinen Eintrag mehr** geschrieben,

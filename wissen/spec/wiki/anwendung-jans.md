@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-17
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
@@ -52,14 +52,16 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    dokumentierte «Erosion» der manuellen Ordner-Kontierung 2022→2026 begruendete direkt das
    neue System). Die Spec fuehrt dafuer einen eigenen Abschnitt **«Ist-Zustand (Scan)»** vor
    den Schluesselentscheiden.
-   **Autonomer Schritt-1-Deliverable — die «Interview-Vorbereitung» (Lektion SYN-02 15.07.):**
-   Triggert das Gate, waehrend Raphael **nicht anwesend** ist (Scheduled Task, hier
-   `syn02-spec-anstoss` fuer den typologischen Entwurfsprozess), ist der korrekte Output **nicht**,
-   die Schluesselentscheide selbst zu erfinden und loszubauen — sondern **Schritt 1 vorzubereiten**:
+   **Vorgezogener Schritt-1-Deliverable — die «Interview-Vorbereitung» (Lektion SYN-02 15.07.,
+   Zuordnung korrigiert 17.07.):** Faellt der Gate-Trigger und das Interview kann **jetzt nicht
+   gefuehrt werden** — weil Raphael nicht am Tisch sitzt, oder weil der Vorhabens-Start bewusst
+   auf einen spaeteren Zeitpunkt freigegeben ist (SYN-02: Register-Status «freigegeben 15.07.,
+   Spec-Start nach Limit-Reset ab 20.07.») —, ist der korrekte Output **nicht**, die
+   Schluesselentscheide selbst zu erfinden und loszubauen — sondern **Schritt 1 vorzubereiten**:
    die Schluesselfragen (E1…En) mit **je Frage bereits recherchierter Faktenlage + Default-Vorschlag**,
    ausdruecklich als «Dies ist NICHT die Spec» markiert und mit «kein Bau vor bestaetigter Spec»
    abgeschlossen (Start «auf Zuruf»). Das ist die saubere Aufloesung der Spannung «Spec verlangt
-   bestaetigte Entscheide» ↔ «autonomer Lauf ohne Benutzer»: die Maschine leistet die teure
+   bestaetigte Entscheide» ↔ «Trigger jetzt, Interview spaeter»: die Maschine leistet die teure
    Vorarbeit (Register/Schema/Generator scannen, Spannungen zu bestehenden Rules benennen, je
    Entscheid einen Default herleiten), damit im spaeteren Interview **nur wirklich Offenes** gefragt
    wird — genau die «zuerst die Faktenbasis ziehen»-Vorgabe der Rule, hier vollstaendig ausgefuehrt.
