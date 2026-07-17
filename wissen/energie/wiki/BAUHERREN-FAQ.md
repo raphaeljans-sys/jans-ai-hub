@@ -3502,8 +3502,9 @@ Umbauten gar keinen Grenzwert haben. Der Energienachweis läuft im Kt. ZH seit 0
 Förderprogramm Energie Kt. SZ 2026; EnFK-Vollzugshilfe EN-102; WDV Kt. ZH LS 700.211 § 2 Abs. 5 vom
 08.06.2022. Destillate: `[[innendaemmung-altbau-bauphysik-ch]]` +
 `[[denkmalschutz-energiesanierung-zh-sz]]` + `[[foerderprogramm-energie-zh-2026]]` +
-`[[foerderprogramm-energie-sz-2026]]` + `[[enfk-en-102-waermeschutz-2018]]`. Status **emerging**
-(Förderbedingungen jährlich neu — vor jedem Gesuch am Portal prüfen).
+`[[foerderprogramm-energie-sz-2026]]` + `[[enfk-en-102-waermeschutz-2018]]`. Themenartikel
+`[[innendaemmung]]` (Run 77). Status **emerging** (Förderbedingungen jährlich neu — vor jedem Gesuch
+am Portal prüfen).
 
 ---
 

@@ -899,11 +899,20 @@ und die WDV-§-2-Abs.-5-Asymmetrie recherchiert. Status **emerging** (siehe offe
   Ausgabe als 2016, bestehende KB bestätigt. Neues Destillat `[[sia-380-1-aktualitaets-check-2026]]`.
 
 **Neu offen:**
-- **E99 — Tabelle 5 in `[[enfk-en-102-waermeschutz-2018]]` korrigieren** (Transkriptionsfehler
-  Heizwärmebedarf-Grenzwerte MFH, z. B. 14/16/20 statt korrekt 13/15/20 kWh/m²·a) — beim nächsten
-  Wartungslauf am Original gegenprüfen und Frontmatter-Jahrgang 2009→2016 korrigieren.
-- **E100 — MuKEn 2025 Anhänge 4+5** (Dämmstärken Verteilleitungen, UR-Werte erdverlegte Leitungen)
-  weiterhin unausgewertet; Kt.-Schwyz-Übernahme der Anhänge 1-3 nicht geprüft.
+- [x] **E99 — Tabelle 5 in `[[enfk-en-102-waermeschutz-2018]]` korrigiert + am Original verifiziert
+  ✓ 2026-07-17 (Run 77)**: Die in Run 76 gemeldete Korrektur (Tab. 5 auf 13/15 MFH etc., Frontmatter
+  2009→2016) war im Destillat bereits umgesetzt; in Run 77 am EN-102-Original (energie.tg.ch-PDF, per
+  curl+pdftotext) **zahlengenau gegengeprüft und bestätigt** (MFH 13/15 · EFH 16/15 · Verwaltung 13/15
+  · Schule 14/15 · Verkauf 7/14 · Restaurant 16/15 · Versammlung 18/15). Zusätzlich die stale
+  Datenstand-Angabe «SIA 380/1:2009» in der `destillate/INDEX.md`-Zeile auf 2016 korrigiert
+  (Register-Nachführung, Meta M5). Erledigt.
+- [x] **E100 — MuKEn 2025 Anhänge 4+5 belegt ✓ 2026-07-17** (established Destillat
+  `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` bereits vorhanden, Commit 17:15): Dämmstärken
+  Verteilleitungen (40/30–120/80 mm nach DN/λ) + UR-Werte erdverlegte Leitungen (0,14–0,40 W/(m·K))
+  **zahlengleich mit MuKEn 2014**; **Kt.-SZ-Übernahme geprüft** (KEnV Anh. 8/9 identisch). In Run 77
+  ins `destillate/INDEX.md` nachgetragen und **FAQ F97** ergänzt (die Registrierung/FAQ hatte in Run 76
+  gefehlt — Meta M5). Offen bleibt nur: eigenständiges ZH-Vollzugsdokument für Verteilleitungs-
+  Dämmstärken (dürfte über die EnFK-Vollzugshilfe-Familie gelten, nicht separat nachgewiesen).
 - **E101 — Q3-2026-Referenzmarktpreis PV** amtlich erst ab 14.10.2026 verfügbar — im nächsten
   Lauf ab Mitte Oktober nachziehen (Destillat `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]`).
 - **E102 — ebs Energie AG (SZ)** weiterhin ohne publizierten Rp./kWh-Wert (wiederholter

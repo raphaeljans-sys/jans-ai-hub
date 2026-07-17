@@ -916,3 +916,19 @@ gefunden — bestaetigt bestehendes Destillat, kein Korrekturbedarf. Neues Desti
 `[[sia-380-1-aktualitaets-check-2026]]`. (5) **Innendaemmung E93 (CH-Psi-Wert)** weiterhin
 Negativbefund nach zwei zusaetzlichen Suchpfaden (HSLU/FHNW/Empa/Flumroc/u-wert.net/baubook.at) —
 bleibt offen, SMGV-Merkblatt-Nr.-70-Beschaffung braucht Raphaels Freigabe (kostenpflichtig).
+
+**D58 (Run 77, 2026-07-17, Konsolidierung/Verdichtung, Drossel 260714)** — Zweiter Lauf des Tages,
+bewusst schlank ohne Multi-Agent-Fan-out (Wochenlimit 81 %). Fokus: die in Run 76 als **Meta M5**
+markierte Register-Nachfuehr-Luecke schliessen + einen echten Verdichtungs-Deliverable liefern.
+(1) **E99 verifiziert + geschlossen**: EN-102 Tabelle 5 am Original (energie.tg.ch-PDF, curl+pdftotext)
+zahlengenau gegengeprueft (MFH 13/15 · EFH 16/15 · Verwaltung 13/15 · Schule 14/15 · Verkauf 7/14 ·
+Restaurant 16/15 · Versammlung 18/15 — deckungsgleich mit der Run-76-Korrektur); stale «SIA 380/1:2009»
+in der `destillate/INDEX.md`-Zeile auf 2016 korrigiert. (2) **E100 ins Register nachgetragen**: das
+established Destillat `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` (Commit 17:15) fehlte im
+`destillate/INDEX.md` + hatte keine FAQ → INDEX-Zeile + **FAQ F97** («Muss ich meine Heizungs-/
+Warmwasserleitungen daemmen — aendert MuKEn 2025 das?») ergaenzt; Anh. 4/5 zahlengleich mit MuKEn 2014,
+gilt in ZH+SZ (KEnV Anh. 8/9) bereits heute. (3) **Verdichtung — neuer Wiki-Themenartikel
+`[[innendaemmung]]`**: konsolidiert die zwei bestehenden Innendaemmung-Destillate (bisher kein
+Themenartikel trotz FAQ F92/F93). FAQ-Stand jetzt **F1–F97**. **Meta-Lehre umgesetzt (M5):** am Ende
+jedes Intensiv-Laufs Register-Abgleich fahren (jedes heute erstellte Destillat: in INDEX? FAQ? QUESTIONS
+geschlossen?) — sonst sammeln sich «established, aber unauffindbar»-Destillate an.

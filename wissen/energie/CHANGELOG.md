@@ -2,6 +2,28 @@
 
 Neueste zuoberst.
 
+## 2026-07-17 — Energie-Training Run 77 (Konsolidierung + Verdichtung, Drossel-Rule 260714)
+- **Typ:** schlanker Konsolidierungs-/Verdichtungslauf (zweiter des Tages nach Run 76), bewusst ohne
+  Multi-Agent-Fan-out — Drossel gemäss Rule 260714 (Wochenlimit 81 %). Schwerpunkt: die in Run 76 als
+  **Meta M5** markierte Register-Nachführ-Lücke schliessen.
+- **E99 verifiziert + geschlossen:** EN-102 Tabelle 5 am Original (energie.tg.ch-PDF, curl+pdftotext)
+  gegengeprüft — MFH 13/15 · EFH 16/15 · Verwaltung 13/15 · Schule 14/15 · Verkauf 7/14 · Restaurant
+  16/15 · Versammlung 18/15, deckungsgleich mit der Run-76-Korrektur. `destillate/INDEX.md`-Datenstand
+  der enfk-en-102-Zeile von «SIA 380/1:2009» auf 2016 korrigiert.
+- **E100 ins Register nachgetragen:** das established Destillat `muken-2025-anhang-4-5-daemmstaerken-
+  leitungen` (Commit 17:15) fehlte im `destillate/INDEX.md` + hatte keine FAQ → INDEX-Zeile + **FAQ F97**
+  ergänzt. E99 + E100 in `wiki/QUESTIONS.md` auf `[x]` geschlossen.
+- **Verdichtung — neuer Wiki-Themenartikel `wiki/innendaemmung.md`:** konsolidiert die zwei bestehenden
+  Innendämmung-Destillate (bisher kein Themenartikel trotz FAQ F92/F93); Risiken/Funktionsprinzipien/
+  U-Wert-Nadelöhr/Nachweis SN EN 15026/Förder-Kette ZH/SZ/Kosten-Negativbefund. Status emerging.
+- **FAQ F97 neu:** «Muss ich meine Heizungs-/Warmwasserleitungen dämmen — ändert MuKEn 2025 das?»
+  (Anh. 4/5 zahlengleich mit MuKEn 2014, gilt in ZH+SZ bereits heute). FAQ-Stand jetzt **F1–F97**.
+- Register: `destillate/INDEX.md`, `wiki/INDEX.md` (neuer Themenartikel + FAQ-Zählstand → 97),
+  `wiki/BAUHERREN-FAQ.md` (F97 + F93-Backlink), `wiki/QUESTIONS.md` (E99/E100 geschlossen).
+- **Verdikte:** E99 bestanden (Original-Gegenprüfung); E100 bestanden (aus Run 76, hier nur registriert);
+  `innendaemmung`-Themenartikel = Konsolidierung ohne neue Claims.
+- Bericht: `outputs/2026-07-17_energie-run77.md`.
+
 ## 2026-07-17 — Wissens-Chef Run 7 (Cross-KB SIA 380/1, normen ↔ energie)
 - **`destillate/sia-380-1-aktualitaets-check-2026.md`:** «Querbezug KB normen»-Block ergaenzt —
   Norm-Fundstelle ist normen-Sache (Rule `normen-referenz`), deren Destillat liegt aber nur als
