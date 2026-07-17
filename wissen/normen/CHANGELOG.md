@@ -1,3 +1,32 @@
+## 2026-07-17 — Neu: Destillat SIA 385/1:2011 (Trinkwarmwasser) — Inventar-Luecke geschlossen, Auszug ehrlich ausgewiesen
+Die Norm `SIA_Norm/i385-1_2011_d.pdf` lag ohne Inventar-Eintrag UND ohne Destillat auf SharePoint
+(durchgefallen beim Inventar-Scan 11.07.2026). Neu angelegt: `destillate/sia-385-1-2011.md`,
+registriert in `destillate/INDEX.md`.
+
+BEFUND ZUM UMFANG: Das PDF ist eine **Vorschau/ein Auszug** — 6 von 28 Normseiten (Titelblatt,
+Impressum, Inhaltsverzeichnis, Vorwort, Kommission, Genehmigung). Der gesamte normative Hauptteil
+(Normseiten 5-26: Ziff. 0 Geltungsbereich, 1 Verstaendigung, 2 Allgemeine Anforderung,
+3 Hygienische Anforderungen/Legionellen, 4 Nutzungsanforderungen, 5 Energieeffizienz, Anhang A/B)
+FEHLT. Es liegt damit KEIN einziger normativer Zahlenwert vor — insbesondere keine Legionellen-/
+Speichertemperaturen, keine Ausstosszeiten, keine Volumenstroeme, keine Daemmanforderungen.
+Das Destillat ist deshalb ein `struktur-destillat (Auszug)` und traegt eine Warnung im Kopf; es
+weist explizit aus, welche Werte NICHT zitierbar sind. Status bewusst NICHT `established`.
+
+BELEGTER INHALT (5-fach gegengeprueft am Original): Titel «Anlagen fuer Trinkwarmwasser in
+Gebaeuden – Grundlagen und Anforderungen» (Trinkwarm-, nicht Trinkwasser); SN 546385/1:2011 de;
+genehmigt 01.09.2010, gueltig ab 01.05.2011; **ersetzt SIA 385/3:1991** (doppelt belegt S. 1 + S. 28)
+— relevanter Aktualisierungs-Fund fuer Altdokumente; Abgrenzung Waermeerzeugung → SIA 384,
+Berechnung/Bemessung → SIA 385/2 (bei Drucklegung noch in Erarbeitung); Umsetzung von
+SN EN 15316-3-1/-2/-3. Zusaetzlich als Trefferkarte destilliert: das komplette Inhaltsverzeichnis
+mit Normseitenzahlen (z.B. Legionellen → S. 13, Ausstosszeit → S. 15, Speicher → S. 17), damit der
+Volltext-Zugriff spaeter zielgenau erfolgen kann.
+
+BRING-SCHULD (P1): Volltext SIA 385/1:2011 beschaffen (SIA, Preisgruppe 20), danach auf ein
+Voll-Destillat heben. Ebenfalls offen: ob Ausgabe 2011 im Jahr 2026 noch gueltig ist (gegen
+`ersetzte_normen.pdf`/SIA-Katalog pruefen) und ob SIA 385/2 inzwischen erschienen/im Bestand ist.
+Bis dahin duerfen `energie-berater`/`planungsgrundlagen` aus SIA 385/1 nur die Zustaendigkeit und
+die Ausgabenlage nennen, keine Kennwerte (Rule normen-referenz).
+
 ## 2026-07-17 — Loop stillgelegt, Endbedingung erreicht (normen-training-mini)
 Der Scheduled Task `normen-training-mini` (Mac Mini, DIN/VSS/RAL) ist deaktiviert. Das
 Inventar DIN/VSS/RAL wurde in den Mini-Laeufen 30, 31 und 32 (letzter Commit 16.07.2026 21:42)

@@ -26,7 +26,18 @@
   RAL_Norm/Lignum auftauchen. Details `wiki/QUESTIONS.md` Abschnitt "Mini-Run 32",
   Report `outputs/2026-07-16_normen-mini-run32.md`.
 
-## SIA (391 Dateien)
+- **Run 15 (MacBook Pro, 260717) — INVENTAR-KORREKTUR, «SIA/VKF komplett» war falsch:** Ein Datei-für-Datei-
+  Abgleich gegen die live gemountete SharePoint-Ablage zeigt, dass der Scan vom 11.07.2026 nur
+  `SIA_Norm/SIA_Normen/alle/` erfasst hat. **58 SIA-Dateien** (Ordner `SIA_Vertraege/`, `SIA_Merkblaetter/`,
+  `SIA_Abo/`, `SIA_Normen/SIA 102|112|282|380_1_2016/` und die Wurzeldatei `i385-1_2011_d.pdf`) und
+  **1 VKF-Datei** (`07_BSV 2026 Projekt/`) fehlten. Sie sind neu erfasst: Sektion «SIA — Nachtrag 260717»
+  und die letzte VKF-Zeile. Darunter zwei gewichtige Bestandslücken, die in diesem Lauf geschlossen wurden:
+  **SIA 380/1:2016** (Heizwärmebedarf, im Bestand nur ausserhalb `alle/`) und die **SIA-1001er-Vertragsnormen**
+  (Faktenbasis von `werkvertrag`/`honorarberechnung-sia102`). Lehre: Ein Inventar-Scan gilt erst als
+  vollständig, wenn er die Ordnerbäume rekursiv ab `02_Normen/` erfasst — nicht ab einem Unterordner.
+  Report `outputs/2026-07-17_normen-nacht-run15.md`.
+
+## SIA (391 Dateien — Grundmenge des Scans 11.07.2026; +58 im Nachtrag 260717, siehe unten)
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
@@ -422,6 +433,92 @@
 | — | — | `xalt/reserve.pdf` |  |  | ersetzt/alt (xalt) |
 | — | — | `xalt/revision.pdf` |  |  | ersetzt/alt (xalt) |
 
+## SIA — Nachtrag 260717 (58 Dateien, beim Scan 11.07.2026 übersehen)
+
+**Befund Run 15 (MacBook Pro, 17.07.2026):** Der automatische Inventar-Scan vom 11.07.2026 hat nur
+`SIA_Norm/SIA_Normen/alle/` erfasst. Die Schwester-Ordner `SIA_Vertraege/`, `SIA_Merkblaetter/`,
+`SIA_Abo/` sowie einzelne norm-eigene Unterordner (`SIA_Normen/SIA 102|112|282|380_1_2016/`) und die
+Datei im `SIA_Norm/`-Wurzelverzeichnis blieben unerfasst — 58 Dateien. Die Meldung «SIA-Inventar
+0 offene Positionen» der Läufe 13/14 beruhte damit auf einer unvollständigen Grundmenge und ist
+korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
+
+### Vertragsnormen (P1 — Faktenbasis der Skills `werkvertrag` und `honorarberechnung-sia102`)
+
+| Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
+|---|---|---|---|---|---|
+| [x] 260717 | P1 | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/1001-1_2020_d.pdf` | 1001/1 | 2020 | Planer-/Bauleitungsvertrag; Volltext 11 S.; established, adversarial verifiziert 260717 (9 Aussagen, 4 Beanstandungen korrigiert — u.a. Versicherungs-Sparten Ziff. 8.1); sia-1001-1-2020.md |
+| [x] 260717 | P1 | `SIA_Vertraege/SIA1001.2_2020_Gesellschaftsvertrag_fuer_Planergemeinschaften/1001-2_2020_d.pdf` | 1001/2 | 2020 | Gesellschaftsvertrag Planergemeinschaften; Volltext 22 S.; established, verifiziert 260717 (7 Aussagen, 1 Beanstandung korrigiert — Aufbewahrungspflicht Ziff. 17.2); sia-1001-2-2020.md |
+| [x] 260717 | P1 | `SIA_Vertraege/SIA1001.3_2020_Subvertag_fuer_Planer_und_oder_Bauleitungsleistung/1001-3_2020_d.pdf` | 1001/3 | 2020 | Subvertrag Planer-/Bauleitungsleistungen; Volltext 11 S.; established, verifiziert 260717 (11 Aussagen, 2 Beanstandungen korrigiert — Urheberrecht: 2 wörtliche Passagen umgeschrieben); sia-1001-3-2020.md |
+| [x] 260717 | P1 | `SIA_Vertraege/SIA1001.11_BIM_Zusatzvereinbarung_BIM/1001-11-K_2018_d.pdf` | 1001/11-K | 2018 | BIM-Zusatzvereinbarung (Kommentar); Volltext 12 S.; established, verifiziert 260717 (11 Aussagen, 5 Beanstandungen korrigiert — u.a. Datenrechte, Kann-Formulierungen); sia-1001-11-2018.md |
+| [x] 260717 | P1 | `SIA_Vertraege/SIA1023_Werkvertrag/e1023_2013_d.pdf` | 1023 | 2013 | Werkvertrags-Formular (Bezug SIA 118); Volltext 5 S.; established, verifiziert 260717 (9 Aussagen, 6 Beanstandungen korrigiert — Formular ist grösstenteils Leerfeld, SIA-118-Inhalte waren unbelegt hineingelesen); sia-1023-2013.md |
+| [x] 260717 | P1 | `SIA_Vertraege/Honorarberechnung/Honorarempf_SIA2009_d.pdf` + `SIA_Vertraege/Honorarberechnung/z-werte 2015.pdf` | — | 2009/2015 | Honorar-Hilfsmittel in EIN Destillat gefasst; **wichtiger Befund: Honorarempfehlung 2009 ist keine SIA-Publikation, sondern eine KBOB-Empfehlung** (Fusszeile S. 2-6); established, verifiziert 260717 (13 Aussagen, 5 Beanstandungen korrigiert); sia-honorar-hilfsmittel.md |
+| [ ] | P2 | `SIA_Vertraege/00_Vertag_Knowhow/230529_Vertragsunterschiede.pdf` | — | 2023 | Knowhow-Papier Vertragsunterschiede — noch nicht destilliert |
+| [ ] | P3 | `SIA_Vertraege/SIA2031_Einzelarbeitsvertrag/Vorlage_1031_d.pdf` | 1031 | — | Einzelarbeitsvertrag (Arbeitsrecht, keine Baunorm) — tiefe Priorität |
+| [ ] | P3 | `SIA_Vertraege/SIA2100_Vertrag_Praktikant_DE.pdf/Vertrag_Praktikant_DE.pdf` | — | — | Praktikantenvertrag (Arbeitsrecht, keine Baunorm) — tiefe Priorität |
+| — | — | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/SIA1002_2001_VfAL_scan.PDF` | 1002 | 2001 | Archiv, ersetzt durch SIA 1001/1:2020 — übersprungen |
+| — | — | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/SIA1002_2003_VfAL.pdf` | 1002 | 2003 | Archiv, ersetzt durch SIA 1001/1:2020 — übersprungen |
+| — | — | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/SIA1002_2003_VfAL_Vorlage.pdf` | 1002 | 2003 | Archiv-Vorlage, ersetzt durch SIA 1001/1:2020 — übersprungen |
+
+### Normen ausserhalb `alle/` (P1/P2 — echte Bestandslücken, keine Duplikate)
+
+| Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
+|---|---|---|---|---|---|
+| [x] 260717 | P1 | `SIA_Normen/SIA 380_1_2016/i380-1_2016_d.pdf` | 380/1 | 2016 | **Heizwärmebedarf — zentrale Energienachweis-Norm; im Bestand NUR hier (in `alle/` liegen nur f/i-Sprachvarianten und die alte Ausgabe 2001 unter `xalt/`)**; destilliert + adversarial verifiziert 260717 (Run 15); sia-380-1-2016.md; Nutzer: Agent `energie-berater`, Skill `planungsgrundlagen` |
+| [x] 260717 | P2 | `i385-1_2011_d.pdf` (Wurzel `SIA_Norm/`) | 385/1 | 2011 | Anlagen für Trinkwarmwasser (nicht «Trinkwasser»); ersetzt SIA 385/3:1991; im Bestand nur hier (in `alle/` nur f-Variante). **PDF ist Vorschau/Auszug: 6 von 28 Normseiten, normativer Teil S. 5-26 fehlt → keine Grenzwerte (Legionellen/Ausstosszeit/Speicher/Daemmung).** struktur-destillat (Auszug), verifiziert 260717 (Run 15); Bring-Schuld P1: Volltext beschaffen; sia-385-1-2011.md |
+| [ ] | P2 | `SIA_Normen/SIA 112/Bereichs_Phasenmatrix.pdf` | 112 | — | Hilfsmittel zu SIA 112 (Bereichs-/Phasenmatrix) — noch nicht destilliert |
+| [ ] | P2 | `SIA_Normen/SIA 112/SIA_Leistungsmodell.pdf` | 112 | — | Hilfsmittel Leistungsmodell — noch nicht destilliert |
+| [ ] | P3 | `SIA_Normen/SIA 112/tabelle_infrastruktur.xls.pdf` | 112 | — | Tabelle Infrastruktur (PDF-Druck einer XLS) — noch nicht destilliert |
+| — | — | `SIA_Normen/SIA 282/SIA282.pdf` | 282 | — | Duplikat zu `alle/564_282.pdf` (destilliert 260713, sia-564-282.md) — übersprungen |
+| — | — | `SIA_Normen/SIA 102/SIA_102_2020.pdf` | 102 | 2020 | Duplikat zu `alle/102.2020.pdf` (destilliert 260714) — übersprungen |
+| — | — | `SIA_Normen/SIA 102/SIA_102_2014.pdf` | 102 | 2014 | Duplikat zu `alle/102_2014.pdf` (destilliert 260714) — übersprungen |
+| — | — | `SIA_Normen/SIA 102/SIA_102_2003.pdf` | 102 | 2003 | ersetzt durch 2020; Duplikat/Altbestand — übersprungen |
+| — | — | `SIA_Normen/SIA 102/SIA_102_2001.pdf` | 102 | 2001 | ersetzt durch 2020; Duplikat/Altbestand — übersprungen |
+
+### Merkblätter (P2 — geschlossene Serie, noch nicht destilliert)
+
+| Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
+|---|---|---|---|---|---|
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2001_2005_d.pdf` | 2001 | 2005 | SIA-Merkblatt-Serie 2000er — Titel am Original zu verifizieren |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2003_d.pdf` | 2003 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2004_d.pdf` | 2004 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2006_d.pdf` | 2006 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2007_d.pdf` | 2007 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2008_d.pdf` | 2008 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2014_d.pdf` | 2014 | — | SIA-Merkblatt (Abgleich mit `alle/`-Destillat sia-2014-2017.md nötig — evtl. ältere Ausgabe) |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2015_2005_d.pdf` | 2015 | 2005 | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2016_2005_d.pdf` | 2016 | 2005 | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2017_d.pdf` | 2017 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2018_2004_d.pdf` | 2018 | 2004 | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2020_d.pdf` | 2020 | — | SIA-Merkblatt (Abgleich mit sia-2020-2017.md nötig) |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2021_d.pdf` | 2021 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2022_d.pdf` | 2022 | — | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2023_2004_d.pdf` | 2023 | 2004 | SIA-Merkblatt (Wohnungslüftung) |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf` | 2024 | 2006 | SIA-Merkblatt (Standard-Nutzungsbedingungen — hohe Relevanz für `kostenschaetzung`/Energie) |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2026_2006_d.pdf` | 2026 | 2006 | SIA-Merkblatt |
+| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2027_2006_d.pdf` | 2027 | 2006 | SIA-Merkblatt |
+| — | — | `SIA_Merkblaetter/MERKBLAETTER/2007_e.pdf` | 2007 | — | Sprachvariante (englisch) — nicht destillieren |
+| [ ] | P3 | `SIA_Merkblaetter/SIA2023_Wohnungslüftung.pdf` | 2023 | — | Begleit-/Auszugsdokument zu SIA 2023 |
+| [ ] | P3 | `SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf` | 271 | — | Wegleitung zu SIA 271 (Destillat sia-271-2007.md vorhanden) |
+| [ ] | P3 | `SIA_Merkblaetter/SIA358_Artikel Geländer.pdf` | 358 | — | Fachartikel zu SIA 358 (Destillat sia-358-2010.md vorhanden) |
+| [ ] | P3 | `SIA_Merkblaetter/SIA500_Auslegung.pdf` | 500 | — | Auslegung zu SIA 500 (Hindernisfreies Bauen; Destillat sia-500-2009.md vorhanden) |
+| [ ] | P3 | `SIA_Merkblaetter/sia_142i-301d_Postversand_2015.pdf` | 142i | 2015 | Wettbewerbswesen, Postversand-Merkblatt |
+| [ ] | P3 | `SIA_Merkblaetter/wettbewerb_befangenheit.pdf` | 142 | — | Befangenheit im Wettbewerb — Relevanz für Skill `wettbewerb` |
+
+### Abonnement/Administration (nicht normativ — übersprungen)
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| — | — | `SIA_Abo/Korrespondenz/121011 SIA 358 2010 Bestaetigung_81eeab10.pdf` | Bestellbestätigung — keine Norm |
+| — | — | `SIA_Abo/Korrespondenz/121011_Zugangsdaten_Aktuell.pdf` | Zugangsdaten — keine Norm; enthält Credentials, nicht in die KB übernehmen |
+| — | — | `SIA_Abo/Korrespondenz/130902 Rechnung 3.Normenabonnement 2013.pdf` | Rechnung — keine Norm |
+| — | — | `SIA_Abo/Korrespondenz/131217 Rechnung 4.Normenabonnement 2013.pdf` | Rechnung — keine Norm |
+| — | — | `SIA_Abo/Korrespondenz/140618 SIA d 0165 2000 Bestaetigung_85bafecd.pdf` | Bestellbestätigung — keine Norm |
+| — | — | `SIA_Abo/Korrespondenz/180208_INorm-Abo_2018_Login.pdf` | Login-Info — keine Norm; enthält Credentials, nicht in die KB übernehmen |
+| — | — | `SIA_Abo/Lizenzen_und_Vorlagen_2013/Vorlage_1012-1_d.pdf` | Lizenz-/Vertragsvorlage 1012-1 — Lizenzdokument, keine Norm |
+| — | — | `SIA_Abo/Lizenzen_und_Vorlagen_2013/Vorlage_1012-2_d.pdf` | Lizenz-/Vertragsvorlage 1012-2 — Lizenzdokument, keine Norm |
+| — | — | `SIA_Abo/Lizenzen_und_Vorlagen_2013/Vorlage_1012-3_d.pdf` | Lizenz-/Vertragsvorlage 1012-3 — Lizenzdokument, keine Norm |
+| — | — | `SIA_Abo/Lizenzen_und_Vorlagen_2013/Vorlage_1012-4_d.pdf` | Lizenz-/Vertragsvorlage 1012-4 — Lizenzdokument, keine Norm |
+
 ## SIA-Gesamtverz. (2 Dateien)
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
@@ -482,6 +579,7 @@
 | — | — | `_LINK.docx` |  |  | keine Norm, Verweis-/Linkdatei — übersprungen |
 | — | — | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 | keine Norm, Bestellformular — übersprungen |
 | — | — | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 | keine Norm, Lieferschein — übersprungen |
+| [ ] | P2 | `07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf` | — | 2022 | **Nachtrag 260717 (Run 15): im Scan 11.07.2026 nicht erfasst.** Normkonzept BSV 2026, Stand 06.10.2022 — noch NICHT in Kraft, daher nie als geltendes Recht zitieren. Strategisch relevant (Vorschau auf die Ablösung der BSV 2015): destillieren mit klarem Status-Vermerk `zukuenftig/nicht in Kraft` |
 
 ## DIN (72 Dateien)
 
