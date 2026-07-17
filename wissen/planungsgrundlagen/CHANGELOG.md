@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-18 — Training Run 51 (Kartenportale): K41–K44 geloest, OneDrive-Lock aus Run 50 aufgeloest
+- **Ausloeser:** planungsgrundlagen-training, Schwerpunkt Kartenportale. Die vier seit Run 50 wegen
+  OneDrive-Datei-Provider-Deadlock (`EDEADLK`) unlesbaren PL-01-Kandidaten K41–K44 waren jetzt
+  problemlos lesbar (Sync-Timing, wie im Praezedenzfall Lignum Run 28→30 vermutet).
+- **`wiki/kartenportale-naturgefahren-objektschutz.md` — NEU §3c (Run 51):** der bis Run 50 nur
+  S. 1–6 gelesene Bauteilkatalog der Checkliste `27_Checkliste_SvN_D.pdf` ist mit **S. 7–12**
+  vollstaendig ausgewertet (real JANS 2304 Reckholdern/Willerzell SZ). Belegte Produktanweisungen:
+  Sonnenschutz **SIA 342** Sturmwiderstandsklasse + automatischer Einzug; Lichtdurchlaesse Kunststoff
+  **−80 % nach 5 J → Glas**; **Suissetec-Merkblatt** Hagel/Spengler; Solar/PV-Lasten ins Tragwerk +
+  Schneedruckregister; **Ueberschwemmung: keine Fenster, Betonsockel hochziehen**. Quelle-Note auf
+  S.1-12/12 aktualisiert, `last_updated` 2026-07-18.
+- **`wiki/kartenportale-geoportale-uebersicht.md` — zwei Ergaenzungen (Run 51):** (1) NEU Abschnitt
+  «ZH Geoportal OGD-Bestellportal `geoportal.zh.ch/opendata`» mit den aus realen Regensdorf-
+  Lieferscheinen (02/2024) belegten **GIS-ZH-Datensatznummern 555 (DTM)/557 (LIDAR)/10016 (AV
+  Datenmodell ZH)/10102 (OEREB-Abstandslinien)**, OGD kostenlos, Status established. (2) Luzern-
+  Bullet erweitert um `klimafreundlichheizen.ch` (adressgenaue Heizungsempfehlung, Gasversorgungs-
+  Aufhebung bis 2040) + Stadt Luzern 3D-Stadtmodell (Esri-Viewer, kein Export). `last_updated`
+  2026-07-18, sources ergaenzt.
+- **Verifikation:** alle Nummern/Kennzahlen direkt aus amtlichen Original-PDFs (Lieferscheine,
+  Checkliste, Konzept), nicht geraten. Kein Connector-Eingriff (Leitplanke «nie ungetestet»: OGD-
+  Bestellung ueber interaktiven Warenkorb, kein getesteter REST-Endpunkt).
+- **Register:** QUESTIONS.md A K41–K44 auf [x]; curriculum.md K41–K44 auf [x]; raw/_INGESTED.md
+  +3 Zeilen. Report: `outputs/2026-07-18_training-run51.md`.
+- **Empfehlung Ruecktaktung:** auto-schliessbare Luecken der Prioritaets-Domaenen (Kartenportale
+  K1–K44, Energie E1–E39) sind erschoepft; verbleibende Punkte (D9, ZH-Grundwasser-Positiv-Benchmark,
+  SZ-Naturgefahren-REST) sind projekt-/fachstellen-abhaengig. Vorschlag: Loop auf Turnus/Trigger
+  statt Dauer-Intensitaet, bzw. Rotation auf Recht/Norm + Brandschutz (dort waechst der Backlog noch).
+
 ## 2026-07-17 — Wissens-Chef Run 7 (Cross-KB): WWG/HWSchV → WsG/WsV nachgezogen (Run-5-Bring-Schuld geschlossen)
 - Ausloeser: baurecht hat heute (Buch-Run 48) amtlich belegt, dass **HWSchV und WWG per 1.6.2026
   aufgehoben** sind (→ WsG LS 724.1 + WsV LS 724.11; Konkordanztabelle in `baurecht/raw/260717_amtlich_zh_hwschv.md`).
