@@ -78,6 +78,20 @@ real/nominal). Dafuer **neu per Web** das risikofreie Basisniveau erfasst: **10-
 ~0.32-0.40 % (Juni 2026)** (tradingeconomics/SNB-Datenportal). Marktpuls-Check: SNB 0.00 % /
 Referenzzins 1.25 % unveraendert.
 
+**Stand Run 36 (2026-07-17):** **Neuer Ingest (extern, amtlich) + Korrektur.** Bau- und
+Zonenreglement der Stadt Luzern vom 17.01.2013, sRSL Nr. 7.1.2.1.1, **Ausgabe vom 01.09.2024**
+(`stadtluzern.ch/_docn/5364361/...`, 46 S.) vollstaendig gelesen — **Anhang 1** (Zonen- und
+Dichtebestimmungen je Ordnungsnummer) extrahiert: WO Nr. 101–192 UEZ 0.05–0.8, WA Nr. 1–66
+UEZ 0.15–1.0, je mit Vollgeschossen/Fassadenhoehe/Gebaeudelaenge/Bauweise. Gegengeprueft gegen
+den Geoshop-Spiegel (`geoshop.lu.ch/pdf/luze_BZR.pdf`, Ausgabe 01.08.2024) — Anhang-1-Werte
+**inhaltlich identisch** (Diff ueber alle 89 WO-Zeilen: keine Abweichung), nur das Ausgabe-Label
+differiert; kanonisch ist die sRSL-Fassung. Zusaetzlich der **Revisions-Entwurf** (neue BZO,
+`stadtluzern.ch/_doc/4902088`, Art. 40 Abs. 3 = Quelle der A–F-Systematik) und der **Auflage-Flyer**
+(`stadtluzern.ch/_docn/6937858`, 2. Auflage 28.04.–27.05.2026, Genehmigung fruehestens Mitte 2027)
+erfasst. **Korrigiert** damit die bisherige Falschangabe im Artikel (Entwurf als geltendes Recht
+dargestellt) → [[az-gfz-kennwerte]]. Bewertungsordner unveraendert (6 Faelle, juengster Wangen 8855).
+Marktpuls bewusst nicht geprueft (naechster amtlicher Wert 01.09.2026; Drossel-Rule 260714).
+
 **Stand Run 35 (2026-07-15):** **Kein neuer Ingest — minimaler Bestaetigungslauf (2. Trigger/Tag,
 nach Run 34 00:58).** Bewertungsordner unveraendert (6 Faelle, juengster Wangen 8855). Marktpuls
 bewusst NICHT erneut per Web geprueft (Run 34 < 8 Std. zurueck; naechster amtlicher Wert 01.09.2026;

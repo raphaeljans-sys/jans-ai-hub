@@ -1,8 +1,8 @@
 ---
 title: Dichte-Kennwerte (AZ / Baumassenziffer / Überbauungsziffer) je Gemeinde/Zone (D6)
 status: emerging
-last_updated: 2026-07-13
-sources: ["Thalwil: Bau- und Zonenordnung vom 18.03.2005 (teilrevidiert), Art. 3 Grundmasse, Synopse-Fassung (habitatmobilite.ch-Spiegel des amtlichen Thalwil-BZO-PDF)", "Wädenswil: Bau- und Zonenordnung (BZO), Art. 3 Grundmasse (ortsplanung.ch, offizieller Spiegel der Stadt Wädenswil)", "Zollikon: BZO Stand 5.4.2013, Art. 11+15 Grundmasse (zollikon.ch/_doc/4980595, konsolidierter Neudruck 19.02.2024; materiell identisch mit Erlass 26.06.1996; Teilrevision Gemeinderat-Beschluss 20.08.2025 noch nicht in Kraft)", "Maur: BZO neue Fassung (Ortsplanungsrevision, BDV-Genehmigung 26.09.2023), Art. 14/16 Grundmasse (maur.ch, Synoptische Darstellung 19.10.2021)", "Wald ZH: BZO, Art. 43 Grundmasse (wald-zh.ch)", "Einsiedeln: Baureglement Ausgabe 2025, Art. 49 Masse Wohnzonen (einsiedeln.ch sre_610100)", "Wangen SZ: Baureglement, Tabelle der Grundmasse (wangensz.ch)", "Regensdorf: BZO 2020, Art. 16 Grundmasse (oerebdocs.zh.ch docid=8897)", "Muri AG: Bau- und Nutzungsordnung (BNO) vom 21.06.2018, genehmigt RRB Nr. 2019-000184 vom 27.02.2019, § 9 Bauzonen-Tabelle (muri.ch, Bild-PDF ohne Textebene, visuell gelesen)", "Luzern Stadt: Bau- und Zonenreglement BZR 2022, Art. 40/43 (stadtluzern.ch)", "Langnau am Albis: langnauamalbis.ch/bzo, Revisions-Zeitplan BZO 2026/27 (Stand Juli 2026)", "Niederhasli: BZO Nr. 700.1, festgesetzt GV 11.12.2024, in Kraft ab 08.08.2025 (Totalrevision, IVHB), Art. 20/4/23 (niederhasli.ch/_doc/6004822)", "Oberrieden: BZO vom 12.09.2013, Stand 26.01.2026 (IVHB-Teilrevision), Art. 15/1/6 (oerebdocs.zh.ch docid=1253)", "Kilchberg: BZO Teilrevision, GV 23.05.2012, genehmigt 06.01.2014/18.02.2015, Massvorschriften Ziff. 2.1 (oerebdocs.zh.ch docid=1184)", "Horgen: BZO Gesamtrevision GV 15.09.2011, genehmigt 05.07.2016, TR 09.12.2021 genehmigt 05.06.2023, Ziff. 5.1 (oerebdocs.zh.ch docid=1101)", "Kuesnacht: BZO Stand Juli 2019, Art. 1/19/19b (kuesnacht.ch 700.1)", "Meilen: BZO GV 17.09.2020, in Kraft 01.05.2025, Art. 2/28/30 (meilen.ch _docn/2708348)", "Adliswil: BZO festgesetzt 05.04.1995, konsolidiert Stand Juni 2024, Art. 28/25/24/19 (adliswil.ch _docn/51379)", "Richterswil: BZO 1984 mit Aenderungen bis 08.09.2022, genehmigt 31.05.2023, Stand 18.08.2023, Art. 3 (richterswil.ch/_doc/4649779)"]
+last_updated: 2026-07-17
+sources: ["Thalwil: Bau- und Zonenordnung vom 18.03.2005 (teilrevidiert), Art. 3 Grundmasse, Synopse-Fassung (habitatmobilite.ch-Spiegel des amtlichen Thalwil-BZO-PDF)", "Wädenswil: Bau- und Zonenordnung (BZO), Art. 3 Grundmasse (ortsplanung.ch, offizieller Spiegel der Stadt Wädenswil)", "Zollikon: BZO Stand 5.4.2013, Art. 11+15 Grundmasse (zollikon.ch/_doc/4980595, konsolidierter Neudruck 19.02.2024; materiell identisch mit Erlass 26.06.1996; Teilrevision Gemeinderat-Beschluss 20.08.2025 noch nicht in Kraft)", "Maur: BZO neue Fassung (Ortsplanungsrevision, BDV-Genehmigung 26.09.2023), Art. 14/16 Grundmasse (maur.ch, Synoptische Darstellung 19.10.2021)", "Wald ZH: BZO, Art. 43 Grundmasse (wald-zh.ch)", "Einsiedeln: Baureglement Ausgabe 2025, Art. 49 Masse Wohnzonen (einsiedeln.ch sre_610100)", "Wangen SZ: Baureglement, Tabelle der Grundmasse (wangensz.ch)", "Regensdorf: BZO 2020, Art. 16 Grundmasse (oerebdocs.zh.ch docid=8897)", "Muri AG: Bau- und Nutzungsordnung (BNO) vom 21.06.2018, genehmigt RRB Nr. 2019-000184 vom 27.02.2019, § 9 Bauzonen-Tabelle (muri.ch, Bild-PDF ohne Textebene, visuell gelesen)", "Luzern Stadt: Bau- und Zonenreglement vom 17.01.2013, sRSL Nr. 7.1.2.1.1, Ausgabe vom 01.09.2024 (in Kraft seit 03.06.2014, letzte Aenderung 04.05.2023), Art. 4/5/7/24/26 + Anhang 1 (stadtluzern.ch/_docn/5364361; gegengeprueft gegen geoshop.lu.ch/pdf/luze_BZR.pdf Ausgabe 01.08.2024 — inhaltlich identisch). Laufende BZO-Revision (Entwurf Art. 40 Abs. 3, A-F-Systematik): stadtluzern.ch/_doc/4902088; 2. Auflage 28.04.-27.05.2026, Flyer stadtluzern.ch/_docn/6937858 — noch nicht in Kraft, doppelte Massgeblichkeit", "Langnau am Albis: langnauamalbis.ch/bzo, Revisions-Zeitplan BZO 2026/27 (Stand Juli 2026)", "Niederhasli: BZO Nr. 700.1, festgesetzt GV 11.12.2024, in Kraft ab 08.08.2025 (Totalrevision, IVHB), Art. 20/4/23 (niederhasli.ch/_doc/6004822)", "Oberrieden: BZO vom 12.09.2013, Stand 26.01.2026 (IVHB-Teilrevision), Art. 15/1/6 (oerebdocs.zh.ch docid=1253)", "Kilchberg: BZO Teilrevision, GV 23.05.2012, genehmigt 06.01.2014/18.02.2015, Massvorschriften Ziff. 2.1 (oerebdocs.zh.ch docid=1184)", "Horgen: BZO Gesamtrevision GV 15.09.2011, genehmigt 05.07.2016, TR 09.12.2021 genehmigt 05.06.2023, Ziff. 5.1 (oerebdocs.zh.ch docid=1101)", "Kuesnacht: BZO Stand Juli 2019, Art. 1/19/19b (kuesnacht.ch 700.1)", "Meilen: BZO GV 17.09.2020, in Kraft 01.05.2025, Art. 2/28/30 (meilen.ch _docn/2708348)", "Adliswil: BZO festgesetzt 05.04.1995, konsolidiert Stand Juni 2024, Art. 28/25/24/19 (adliswil.ch _docn/51379)", "Richterswil: BZO 1984 mit Aenderungen bis 08.09.2022, genehmigt 31.05.2023, Stand 18.08.2023, Art. 3 (richterswil.ch/_doc/4649779)"]
 links: [[marktdaten-gemeinden/zh-thalwil-8800]], [[marktdaten-gemeinden/zh-waedenswil-8820]], [[marktdaten-gemeinden/zh-zollikon-8125]], [[marktdaten-gemeinden/zh-maur-8124]], [[marktdaten-gemeinden/zh-regensdorf-8105]], [[marktdaten-gemeinden/zh-wald-8636]], [[marktdaten-gemeinden/sz-wangen-8854]], [[marktdaten-gemeinden/sz-einsiedeln-8840]], [[marktdaten-gemeinden/ag-muri-5630]], [[marktdaten-gemeinden/lu-luzern-6000]], [[residualwertmethode]], [[realwert-sachwert]], [[flaechendefinitionen-sia]], [[wissensluecken]]
 ---
 
@@ -26,7 +26,7 @@ Gemeinde A ↔ AZ Gemeinde B» ist nur zulässig, wenn beide dieselbe Bezugsgrö
 |---|---|---|---|
 | **Ausnützungsziffer (AZ)** | anrechenbare Geschossfläche ÷ anrechenbare Landfläche | 0.20–0.85 | Thalwil, Wädenswil, Maur, Wangen SZ, Regensdorf, Muri AG, Oberrieden, Adliswil, Richterswil |
 | **Baumassenziffer (BMZ/BZ)** | oberirdisches Bauvolumen (m³) ÷ anrechenbare Landfläche (m²) | 1.0–3.8 m³/m² | Zollikon, Wald ZH, Kilchberg, Horgen, Küsnacht, Meilen |
-| **Überbauungsziffer (ÜZ)** | anrechenbare Gebäudegrundfläche ÷ anrechenbare Landfläche | 0.20–0.31 | Einsiedeln, Luzern, Adliswil (nur Kernzone Ober-Leimbach) |
+| **Überbauungsziffer (ÜZ)** | anrechenbare Gebäudegrundfläche ÷ anrechenbare Landfläche | 0.05–1.0 (Einsiedeln 0.20–0.31; Luzern 0.05–1.0 je Ordnungsnummer, Run 36) | Einsiedeln, Luzern, Adliswil (nur Kernzone Ober-Leimbach) |
 | **Keine Kennziffer — reine Hüllensteuerung** | Dichte ausschliesslich geometrisch: Fassadenhöhe (max.) + Gebäudelänge/-breite (max.) + Grünflächenziffer (min.); IVHB-Regelbauweise | — (Volumen ergibt sich aus der Hülle) | Niederhasli (BZO 2024) |
 
 **Vierte Logik neu (Run 27):** Niederhasli hat mit der Totalrevision 2024 (IVHB) die
@@ -319,16 +319,69 @@ eine neue Hochdichte-Zone eingeführt — W1 0.30→0.35, W2 0.40→0.45, W3 0.5
 (2012 endete der Zonenkatalog bei WG3). Für Machbarkeits-/Residualwertrechnungen in Muri ist
 damit ab sofort die 2018/19-Tabelle massgebend, nicht der 2012-Stand.
 
-## Luzern (Stadt, LU, PLZ 6000) — Überbauungsziffer + Gesamthöhe-System (BZR 2022)
+## Luzern (Stadt, LU, PLZ 6000) — Überbauungsziffer je Ordnungsnummer (BZR 2013)
 
-Quelle: Bau- und Zonenreglement der Stadt Luzern (BZR 2022), Art. 40/43 (stadtluzern.ch).
-**Anderes System als die ZH/SZ/AG-Gemeinden:** die Wohnzonen (A–F) und Wohn- und
-Arbeitszonen (B–F) sind **nach zulässiger Gesamthöhe** differenziert; die bauliche Dichte
-wird über die **Überbauungsziffer (ÜZ)** zusammen mit der Gesamthöhe geregelt. Die
-konkreten ÜZ-/Gesamthöhe-Werte hängen an der **Ordnungsnummer im Zonenplan** (Anhang/
-Legende), nicht an einer einheitlichen Zonen-Tabelle im Reglement. Für einen konkreten
-Standort ist deshalb die Ordnungsnummer der Parzelle im Zonenplan abzulesen.
-→ Per-Ordnungsnummer-Werte (Zonenplan-Legende) sind **offen** (nicht erfunden).
+Quelle: **Bau- und Zonenreglement der Stadt Luzern vom 17. Januar 2013**, Systematische
+Rechtssammlung Nr. 7.1.2.1.1, **Ausgabe vom 1. September 2024** (in Kraft seit 03.06.2014,
+letzte Änderung 04.05.2023), Art. 4/5/7/24/26 + **Anhang 1**
+(`stadtluzern.ch/_docn/5364361/sRSL_7.1.2.1.1_Bau-_und_Zonenreglement_der_Stadt_Luzern.pdf`).
+Anhang-1-Werte gegengeprüft gegen den Geoshop-Spiegel (`geoshop.lu.ch/pdf/luze_BZR.pdf`,
+Ausgabe 01.08.2024): **inhaltlich identisch**, nur das Ausgabe-Label differiert.
+
+**Korrektur Run 36 (2026-07-17):** Die frühere Fassung dieses Abschnitts («BZR 2022,
+Art. 40/43, Wohnzonen A–F nach Gesamthöhe») beschrieb **nicht das geltende Recht**, sondern
+den Entwurf der laufenden BZO-Revision (siehe unten). Im geltenden BZR kommt der Begriff
+«Gesamthöhe» **null Mal** vor, es gibt **keine** Zonenklassen A–F, und Art. 40/43 regeln
+Rutsch-/Sturz-Gebotszone bzw. Energie — nicht die Zonendichte.
+
+**Systematik (geltendes Recht):** Die Wohnzonen heissen **WO** (Wohnzone, Art. 5) und **WA**
+(Wohn- und Arbeitszone, Art. 7). «A»/«B» ist die **Ortsbildschutzzone**, keine Höhenklasse.
+Die Dichte wird über die **Überbauungsziffer (ÜZ)** gesteuert, die Höhe über **Vollgeschosse
+(VG)** *oder* die **maximale Fassadenhöhe (FH)** (Art. 26: FH 21 m / Firsthöhe 27 m /
+max. 6 Vollgeschosse als Regelmass). Alle Werte hängen an der **Ordnungsnummer** der Parzelle
+im Zonenplan; Art. 4 Abs. 4 erklärt den Anhang für **verbindlich**. Für einen konkreten
+Standort ist deshalb zuerst die Ordnungsnummer im Teilzonenplan abzulesen — es gibt keine
+gemeindeweite Zonen-Tabelle.
+
+**ÜZ-Bandbreiten je Zonenart** (Anhang 1, ausgezählt; Run 36):
+
+| Zonenart | Ordnungsnummern | ÜZ-Spanne | Steuerung Höhe | Bauweise |
+|---|---|---|---|---|
+| **WO** Wohnzone | 101–192 | **0.05–0.8** (Schwerpunkt 0.15–0.3) | 1–5 VG *oder* FH 21/24 m | offen / geschlossen |
+| **WA** Wohn- und Arbeitszone | 1–66 | **0.15–1.0** (Schwerpunkt 0.25–0.6) | 2–7 VG *oder* FH 21–45 m | offen / geschlossen |
+
+Ausgewählte belegte Zeilen (Anhang 1): Nr. 113–131 WO ÜZ 0.15 (2–5 VG bzw. FH 21 m) ·
+Nr. 132–145 WO ÜZ 0.2 · Nr. 146–158 WO ÜZ 0.25 · Nr. 159–171 WO ÜZ 0.3 · Nr. 174–178 WO
+ÜZ 0.4 · Nr. 179/180 WO ÜZ 0.5 · Nr. 181 WO ÜZ 0.6 · **Nr. 182 WO ÜZ 0.8 / FH 21 m**
+(dichteste reine Wohnzone) · Nr. 11–20 WA ÜZ 0.2–0.25 · Nr. 51–53 WA ÜZ 0.8 ·
+**Nr. 54 WA ÜZ 1.0 / FH 21 m** (dichteste Zone überhaupt) · Nr. 50 WA ÜZ 0.6 / **FH 45 m**
+(Hochhaus, Gestaltungsplanpflicht). Einzelne Ordnungsnummern tragen **keine** ÜZ
+(z.B. 101–106, 183/184, 189/190) — dort gilt eine Sonderregel (Art. 12/13/25) oder das
+Dichtemass ist im qualifizierten Verfahren zu bestimmen (Nr. 106).
+
+**Für die Bewertung wichtig — ÜZ-Bonus (Art. 24 Abs. 3):** Im Gestaltungsplan kann ein Bonus
+von **10 % auf die ÜZ** gewährt werden, für gemeinnützige Wohnungen zusätzlich **5 %**,
+**insgesamt max. 15 %**. Bei Ordnungsnummern mit Gestaltungsplanpflicht ist dieser Bonus im
+Residualwert als Chance zu prüfen (nicht als gesichert anzusetzen — «kann»-Vorschrift).
+Freiwilliger Gestaltungsplan ab 2'000 m² (WA) bzw. 4'000 m² (übrige Zonen), Art. 24 Abs. 1.
+
+**⚠ Doppelte Massgeblichkeit seit 28.04.2026 (Praxisfolge, Run 36):** Die Stadt führt die
+BZO Littau und Luzern zusammen; die **2. öffentliche Auflage lief 28.04.–27.05.2026**
+(Entscheid Grosser Stadtrat Ende 2026, Genehmigung Regierungsrat frühestens Mitte 2027 —
+`stadtluzern.ch/_docn/6937858/Flyer_BZO_2026_web.pdf`). Bis zur Genehmigung müssen Baugesuche
+**sowohl dem geltenden BZR als auch der neuen BZO entsprechen — die jeweils strengere Vorgabe
+gilt**. Für Machbarkeits-/Residualwertrechnungen in Luzern ist deshalb ab sofort **beides**
+zu prüfen; wer nur auf das BZR 2013 abstellt, rechnet seit 28.04.2026 unvollständig.
+
+**Die neue BZO (Entwurf, noch nicht in Kraft)** führt die A–F-Systematik ein: «Die Wohnzonen
+sowie Wohn- und Arbeitszonen sind, in Abhängigkeit von der zulässigen Gesamthöhe,
+differenziert in **Wohnzonen A bis F** und in **Wohn- und Arbeitszonen B bis F**»
+(Entwurf Art. 40 Abs. 3, `stadtluzern.ch/_doc/4902088`). Genau dieser Satz war die Quelle der
+bisherigen Falschangabe. Per-Klassen-Werte (A–F) sind **offen** — bei konkretem Luzerner
+Standort aus der Auflage-Fassung nachzuziehen.
+
+**Zusatzbefund:** Für den Stadtteil **Littau** gilt bis zur Zusammenführung ein **separates
+BZR** (Art. 4 Abs. 2) — bei einem Littauer Objekt ist nicht das Luzerner BZR massgebend.
 
 ## Langnau am Albis (ZH, PLZ 8135) — in Revision, alte BZO ausser Kraft
 
