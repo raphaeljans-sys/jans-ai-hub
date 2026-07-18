@@ -174,7 +174,9 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 - **Do:** Besprochenes schriftlich fixieren; Grundlage→Empfehlung→Ausblick; komplexe
   Aufträge zerlegen (Deliverable-Checkliste); Aufwände/Zuständigkeiten transparent machen;
   immer einen nächsten Schritt anbieten; bei laufenden Verfahren aktiv Nachmeldung zusagen
-  («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel.
+  («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige
+  Verfahrens-/Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
+  (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
   offene Enden ohne nächsten Schritt.
 <!-- END AUTO: facetten -->

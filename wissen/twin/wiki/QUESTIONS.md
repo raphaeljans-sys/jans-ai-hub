@@ -3,6 +3,40 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260718 (twin-fragesteller, aus Fidelity-Review 2026-07-18)
+
+Quelle: Drift-Report `outputs/2026-07-18_fidelity.md` (Gesamt-Fidelity 89; drei authentische Dez-2025-
+Goldproben in drei Registern — Hofer-Bauentscheid-Sie, Weisser-Offert-Du nachts, Bopp-STWEG-Korrektur).
+Zwei Twin-Fassungen nahezu deckungsgleich; der eine Struktur-Drift + zwei Schwellen bleiben offen. Je in
+1–2 Sätzen beantwortbar.
+
+1. **Tageszeit-Grenze «Guten Morgen» → ab wann «Hoi»/«Guten Abend»?** Neuer Teilbeleg: um **02:58 Uhr**
+   antwortest Du Peter Weisser (der «Hallo Raphael» schrieb) mit «**Hoi Peter**» — nicht «Guten Morgen»,
+   nicht gespiegeltes «Hallo». «Guten Morgen» scheint also strikt ans Vormittagsfenster gebunden, davor/
+   nachts fällst Du auf «Hoi». Stimmt die Lesart, und wo genau liegt die Morgen-Grenze (bis ~10:00? bis
+   Mittag?) — und gibt es ein «Guten Abend <Vorname>» als Gegenstück am späten Tag im selben operativen Du?
+   *Warum: schärft QUESTIONS 260717 #1 mit einem echten Nacht-Datenpunkt — ohne Grenze produziert der
+   Zwilling «Guten Morgen» zur falschen Tageszeit.* → [[beziehungsregister]]
+2. **Mehrteilige Verfahrens-/Auflagen-Statusmail: thematische FETTE Blöcke — Dein fester Aufbau?** In der
+   Bauentscheid-Mail an Frau Hofer gliederst Du die vielen Behörden-Auflagen in **fette Themen-Blöcke nach
+   Amt/Gegenstand** («Erforderliche Schritte vor Baubeginn» · «Denkmalpflege» · «Koordination vor Baubeginn»
+   · «Bauausführung») statt in eine flache Liste. Ist das Dein Standard, sobald mehrere Auflagen aus
+   verschiedenen Ämtern/Themen zusammenkommen (ab wie vielen Punkten?), oder war es hier zufällig?
+   *Warum: ein sehr charakteristischer, billig nachbaubarer Struktur-Marker für jede Verfahrens-/
+   Auflagenmail — der Zwilling gliedert bisher flach.* → [[arbeitsweise]], [[stimme]]
+3. **Bullet-Zeichen «–» vs «_ » in der formellen Sie-Mail — nach welcher Regel?** In der Hofer-Sie-Mail
+   nutzt Du «**–**» für schlichte Aufzählungen (nicht für eine Entscheidungsfrage), während «_ » Dein
+   Haupt-Aufzählungszeichen im Du ist. Wählst Du «–» bewusst im **formell-dokumentierenden Sie-Register**
+   (und «_ » im operativen Du), oder ist die Wahl frei/tagesformabhängig? *Warum: präzisiert eine
+   Unterspezifikation — der Zwilling setzt sonst überall «_ ».* → [[stimme]]
+4. **Optionaler Zusatz-/Mehrwert-Vorschlag vor der Freigabe-Bitte — System bei Korrektur-Lieferungen?**
+   Erneut belegt (Bopp, 2. Datenpunkt zu QUESTIONS 260714b #2): vor «kurzes OK-Feedback» hängst Du einen
+   freiwilligen, hypothetisch gerahmten Verfeinerungs-Vorschlag an («Beispielsweise könnte man noch die
+   Leerzeilen … löschen»), eingeleitet von «Solltest Du Änderungen haben, lass es mich wissen». Ist dieses
+   Paar (Korrektur-Einladung + optionaler Mehrwert) Dein fester Abschluss jeder iterativen Korrektur-
+   Liefermail? *Warum: zweiter Beleg — bei Bestätigung wird es vom «kann sein» zum festen Arbeitsweise-
+   Baustein.* → [[arbeitsweise]], [[haltung]]
+
 ## Offen — Runde 260717 (twin-fragesteller, aus Fidelity-Review 2026-07-17)
 
 Quelle: Drift-Report `outputs/2026-07-17_fidelity.md` (Gesamt-Fidelity 79; Goldproben aus dem Faden

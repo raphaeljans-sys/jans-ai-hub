@@ -5,6 +5,17 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-18 — `twin-fidelity-review`.** Fidelity-Selbsttest gegen drei authentische Dez-2025-
+  Goldproben in drei Registern (Hofer-Bauentscheid-Sie / Weisser-Offert-Du nachts / Bopp-STWEG-Korrektur;
+  M365 Sent Items rj@). **Gesamt-Fidelity 89** (Stimme 94 · Beziehung 97 · Denken 89 · Haltung 88 ·
+  Fachsignatur 83 · Arbeitsweise 84). Zwei Twin-Fassungen nahezu deckungsgleich (Weisser ≈98 inkl.
+  Bestätigung Anti-Spiegel + Tageszeit: «Hallo Raphael» nachts → «Hoi Peter»; Bopp ≈93 teils verbatim
+  inkl. Wertquoten-1000-Normierung). Ein Struktur-Drift: mehrteilige Verfahrens-/Auflagen-Statusmail →
+  **thematische fette Blöcke nach Amt/Gegenstand** (nicht flache Liste). Umgesetzt: neuer belegter Marker
+  + Do-Zeile in `arbeitsweise.md`; QUESTIONS-Runde 260718 (4 Fragen: Tageszeit-Grenze, Themen-Block-
+  Gliederung, «–» vs «_ » in Sie-Mail, optionaler Zusatzvorschlag); Report `outputs/2026-07-18_fidelity.md`;
+  Gehirn `rules/jans-dna.md` neu kompiliert. Keine Facetten-Widersprüche; Bullet-Zeichen als Unterspezifikation
+  vermerkt. Echo-Schutz: nur authentische Vor-Claude-Golds als Massstab.
 - **2026-07-18 — `twin-mail-training` (Batch 56, 19.–23.06.2026).** Sequentieller Sent-Items-Sweep
   rj@ ab 2026-06-19 13:58 fortgesetzt (M365-Connector `outlook_email_search`), 25 Mails gesichtet, 5
   Volltexte destilliert, Sweep-Endpunkt neu **2026-06-23 13:47**. **Echo-Falle 18** (sauberstes
