@@ -21,6 +21,35 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-18 12:55 — [GEDROSSELT] Drossel-Luecke auf dem Mac Mini geschlossen: drei Trainings liefen noch mit VOLLGAS-Frequenz
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
+unveraendertem Grund, Runner bleibt gestoppt (Schoner-Rolle, kein Wiederanfahren). Kein Login-Probe
+gefahren; vor dem Reset (Mo 20.07. 11:59, noch ~1.9 Tage) wieder relevant.
+
+**Lagebild:** Erstmals seit dem Regimewechsel ein echter Befund. Ein Trainings-Commit lag heute
+**ausserhalb** des Nachtfensters: `Energie-Training Run 78` um 10:59. Ursachenpruefung auf dem Mac Mini
+(`ssh mini`, launchd-Plists) zeigte, dass die Ruecktaktung nach Rule 260714 dort **nie angekommen**
+war — waehrend die MacBook-Tasks seit dem Wettbewerbs-Fokus 13.07. sauber auf 1x taeglich im
+Nachtfenster stehen, trugen drei Mini-Jobs weiterhin VOLLGAS-Frequenzen: `training-energie` 10:30 +
+16:30 (beide mitten in der Arbeitszeit), `training-plg` 11:30 (Arbeitszeit), `synobsis-batch`
+22:15/00:15/02:15/04:15 (4x, dazu der bekannte No-op). Das sind seit dem 14.07. taeglich rund sechs
+ueberfluessige Laeufe, davon drei in der Arbeitszeit — genau das, was die Drossel verhindern soll.
+Selbst korrigiert (regelkonform nach 260714 + 260711, Plists gesichert als `.bak-drossel-20260718-*`,
+neu geladen und verifiziert): energie → **22:30**, plg → **00:30**, synobsis → **02:15**, je 1x taeglich
+im Nachtfenster. `training-normen` (5:30/13:30/21:30) brauchte keinen Eingriff — der Job traegt
+`Disabled: true` und laeuft ohnehin nicht; die Zeitliste wurde trotzdem auf 05:30 bereinigt, damit eine
+spaetere Reaktivierung nicht versehentlich wieder tagsueber startet. Uebrige 24 der 25 Commits der
+letzten 6 Std.: `nas-selfcommit` (DSM-Cron). Pendenzen-Queues beider Stationen leer.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2: bei der Reaktivierung am Mo 20.07. die Frequenzen **stationsweise** gegenpruefen, statt sie nur
+  auf der Station zu setzen, auf der die Anweisung entgegengenommen wurde — diese Luecke ist vier Tage
+  unbemerkt gelaufen, weil der Radar bisher nur Commits gezaehlt und nicht die Zeitplaene selbst gelesen hat.
+- P3 (unveraendert, Einzeiler): `synobsis-batch-nacht` ganz stilllegen (853/853, kein neues Quellmaterial);
+  mit der Reduktion auf 1x ist der Druck vorerst weg, Entscheid am Mo 20.07.
+
 ## 2026-07-18 06:47 — [GEDROSSELT] Nachtfenster sauber abgearbeitet, Runner bleibt gestoppt, kein Blocker
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
