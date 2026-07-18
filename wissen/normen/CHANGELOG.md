@@ -1,3 +1,29 @@
+
+## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): VKF-BRL 16-15 — ueberholte Personenbelegung Verkauf nachgefuehrt
+- **Befund (CONFIRMED am Original durch Refuter):** Das Destillat `vkf-brl-16-15-flucht-rettungswege`
+  und der Synthese-Artikel `synthese-sia-vkf-fachskills` fuehrten die Personenbelegung Verkauf
+  (ebenerdig 0.5 / 1. UG-1. OG 0.35 / tiefer-hoeher 0.25 P./m2) als `established` **ohne Vorbehalt**.
+  Diese Zeile wurde mit **Beschluss TKB vom 09.06.2021** im Anhang zu Ziff. 3.5.2 (S. 24)
+  **ersatzlos gestrichen** und durch eine Matrix nach Betriebstyp ersetzt: Fachmaerkte/Kaufhaeuser/
+  Einkaufszentren 0.10/0.10, Supermaerkte 0.38/0.15, hochfrequentierte Supermaerkte 0.45/0.21
+  (ebenerdig / ueber Treppen). Belegt an **beiden** Original-PDFs (Fassung 01.01.2017 vs. Fassung
+  Stand 01.12.2022, `PL - 03 Brandschutz/.../BSPUB-1394520214-85.pdf`, pdftotext-Volltextvergleich).
+  Tragweite: der Wert geht in Fluchtwegbreiten ein; bei Fachmaerkten lag er um Faktor 5 zu hoch,
+  bei hochfrequentierten Supermaerkten zu tief.
+- **Aktion:** Warnkasten mit der 2022er-Matrix ins Destillat (alte Werte als «gestrichen» markiert,
+  nicht geloescht); Synthese-Zeile auf die geltenden Werte umgestellt; Frontmatter `datenstand`
+  + `status: established-mit-vorbehalt`; REGISTER-Zeile um die drei Aenderungsstufen ergaenzt;
+  drei QUESTIONS-Eintraege (P1 Volltext-Destillation der 2022er-Fassung inkl. der ungeprueften
+  Deltas ABSV 22.03.2017 / Fehlerkorrektur Ziff. 3.7; Vorarbeit-Hinweis auf pg fuer die BRL-Serie;
+  Strukturhinweis zur Fassungspflege). Zusaetzlich SIA-2048-Uebergabe aus `energie` aufgenommen.
+- **Struktur-Lehre (fuer den Synergie-Orchestrator):** (a) Der Uebergabe-Flag stand seit Run 52 nur
+  im abgebenden KB `planungsgrundlagen` und war hier nie angekommen — Uebergaben gehoeren in die
+  QUESTIONS der EMPFAENGER-KB. (b) Die Refuter-Notiz vom 17.07. («keine Abweichung gefunden») prueft
+  gegen **dieselbe Datei**, aus der destilliert wurde, und kann eine juengere Fassung im Bestand
+  strukturell nicht finden — Verifikationen muessen zuerst den Bestand nach juengeren Fassungen
+  durchsuchen. **Fassungspflege ist der blinde Fleck der Destillate.**
+- Bericht: `wissen/koordination/outputs/2026-07-18_wissens-chef-run8.md`.
+
 ## 2026-07-17 — Wissens-Chef Run 7 (Cross-KB SIA 380/1): P1-Blocker relativiert + Verweis auf energie
 - **`destillate/sia-380-1-2016.md`:** «Querbezug KB energie»-Block vor den offenen Punkten gesetzt.
   Die als P1-Bring-Schuld gefuehrten Grenz-/U-Werte sind im Hub **operativ verfuegbar** — energie

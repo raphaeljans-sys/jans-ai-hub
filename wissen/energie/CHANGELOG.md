@@ -2,6 +2,29 @@
 
 Neueste zuoberst.
 
+## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): Themenartikel Innendaemmung nachgezogen, zwei Ausgaben-Flags
+- **Stale-Befund (CONFIRMED):** `wiki/innendaemmung.md` stand auf `last_updated: 2026-07-17` und
+  behauptete weiterhin «Schweizer Ψ-Zahl fuer die einbindende Massivdecke: **Negativbefund**» sowie
+  fuehrte «CH-Ψ fuer einbindende Massivdecke» unter «Offene Punkte» — beides durch die Schliessung
+  von **E93** am selben Tag (Run 79) ueberholt. Wer ueber das Wiki einsteigt (der vorgesehene Weg),
+  bekam den Negativbefund statt der Zahl. **Der Themenartikel wurde vom Destillat-Update nicht mitgezogen.**
+- **Aktion:** Abschnitt «Waermebruecken» auf den belegten Stand umgeschrieben (BFE-Katalog 2002,
+  Gruppe 2.1 Wandtyp I: Detail 2.1-I1 «durchbetoniert» Ψ 0,63–0,89 / 2.1-I2 «Stahlkorb» Ψ 0,07–0,15,
+  mit Bauherren-Konsequenz und dem Normgenerations-Vorbehalt 2001 vs. 2016); offener Punkt geschlossen;
+  Backlink auf `waermebrueckenkatalog-bfe-geschossdecke-kellerdecke`; Grenzwert-Herkunft (EN-102 Tab. 3,
+  Basis SIA 380/1:2016) ausgeschrieben.
+- **Zwei Flags gesetzt:** (a) `innendaemmung-altbau-bauphysik-ch` Frontmatter — **Korrigenda SIA 180-C2:2020**
+  existiert (von `normen` am 16.07. belegt, in dieser KB null Treffer); (b) `muken-2025-modul-7-*` —
+  **Ausgaben-Diskrepanz SIA 2024:2019** (Vernehmlassungsstand) gegen die gueltige **2024:2021 + C1:2024**;
+  die Healthcare-EBF-Schwellen VIII.1 = 36 / VIII.2 = 29 kWh/m2EBF sind vor dem Zitieren am Volltext
+  nachzurechnen. Die SIA-2048-Uebergabe an `normen` ist dort jetzt eingetragen (verpuffte bisher hier).
+- **Zwei gemeldete Befunde vom Refuter WIDERLEGT, keine Aenderung:** (1) die Zuschreibung «Ψ ≤ 0,20
+  (SIA 380/1)» ist **sachlich korrekt** — EN-102 nennt in der Fusszeile jeder Seite «Basis: Norm
+  SIA 380/1, Ausgabe 2016»; die normen-Sperre in QUESTIONS betrifft ausdruecklich nur Q_H-/U-Werte
+  und Gebaeudekategorien, nicht Waermebruecken-Ψ. (2) Die Modul-7-Tabellenkorrektur vom 18.07. ist
+  sauber durchgezogen, der alte Wortlaut steht nirgends mehr als lebende Behauptung.
+- Bericht: `wissen/koordination/outputs/2026-07-18_wissens-chef-run8.md`.
+
 ## 2026-07-18 — Run 78 (Intensiv-Lauf, 6 parallele Themen)
 
 PDF-Inventar weiterhin erschoepft (Kontrolle: keine neuen PDFs seit 01.07.2026). Sechs parallele

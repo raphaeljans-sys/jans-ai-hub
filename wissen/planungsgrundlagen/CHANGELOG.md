@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): aufgehobenes Recht im OEREB-Themenkatalog geflaggt
+- **Befund (CONFIRMED):** `kartenportale-oereb-kataster-system-zh` fuehrte fuer **OEREB-Thema 190
+  Gewaesserraum** die Rechtsgrundlage `LS 724.112 § 15` (**HWSchV**) **ohne jeden Flag** — der Artikel
+  ist `established` und war die einzige Fundstelle im Artikel (grep ueber alle 279 Zeilen: keine
+  deckende Aufhebungs-Notiz). Die HWSchV ist per **01.06.2026 aufgehoben** (OS 81, 144); Nachfolge zu
+  § 15 HWSchV ist **§ 19 WsG / § 11 WsV** (Konkordanztabelle `wissen/baurecht/raw/260717_amtlich_zh_hwschv.md`).
+  Operativ die gefaehrlichste Stelle des Laufs: beim naechsten OEREB-Bezug waere aufgehobenes Recht zitiert worden.
+- **Aktion:** Zeile 190 korrigiert (alte Nummer durchgestrichen + Nachfolge-§§) und Warnkasten gesetzt
+  inkl. Hinweis auf die Nummern-Wiederverwendung LS 724.11 (bis 31.05.2026 WWG, seither WsV);
+  `INDEX.md` nachgezogen (die Eintraege zu `kartenportale-naturgefahren-objektschutz` §7b «§ 22 WWG»
+  und `recht-norm-regenwasser-gewaesserraum-zh` «Verfahren 3 § 18 WWG» trugen die Repeal-Flags der
+  Artikel nicht — wer nur den INDEX liest, bekam aufgehobenes Recht als aktuell).
+- **Brandschutz:** Frontmatter von `brandschutz-pl03-wegweiser` um einen `querbezug_kb_normen`-Block
+  ergaenzt (bisher **kein einziger** Link in die KB `normen`, obwohl der Artikel an 16 Stellen auf
+  normen-Destillate verweist — reine Pfad-Strings, fuer den Backlink-Graph unsichtbar). Der dort seit
+  Run 52 liegende Fassungs-Flag zur VKF-BRL 16-15 ist jetzt in `normen/wiki/QUESTIONS.md` angekommen.
+  **Sachkorrektur am Original:** «IOTH-Beschluss 22.03.2017» → **«ABSV-Beschluss 22.03.2017»**
+  (falsches Gremium; im Original steht «Beschluss ABSV vom 22. Maerz 2017»).
+- **Run 51 (Kartenportale) geprueft — kein Befund:** keine Erlass-Zitate, keine Widersprueche zum baurecht-Stand.
+- Bericht: `wissen/koordination/outputs/2026-07-18_wissens-chef-run8.md`.
+
 ## 2026-07-18 — Training Run 52 (Brandschutz, parallel zu Recht/Norm): BSR-16-15-Delta 2022, Register-Vervollstaendigung, BSV-2026-Refresh
 - **Ausloeser:** planungsgrundlagen-training, Schwerpunkt Brandschutz (PL-03), Token-Vollgas-
   Intensivlauf. Backlog B1-B39 war laut Run-51-Empfehlung erschoepft — dieser Lauf fuehrt einen

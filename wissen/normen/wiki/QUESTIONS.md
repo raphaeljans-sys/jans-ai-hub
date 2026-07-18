@@ -486,6 +486,14 @@ einzeln geprüft:
   praxisrelevanteste Frage (Legionellen-Temperaturen, Ziff. 3.1/3.2, Normseite 13) ist bis dahin
   aus dieser Norm nicht beantwortbar. Vor einem Normkauf zuerst pruefen, ob die franzoesische
   Variante `alle/f/385_1_f.pdf` den Volltext enthaelt — waere der billigste Lueckenschluss.
+- [ ] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
+  *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
+  («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`
+  notiert; hier kam sie nie an (grep «2048» in `wissen/normen/`: 0 Treffer — weder REGISTER noch
+  `training/norm-inventar.md`). SIA 2048 ist die von MuKEn 2025 Modul 7 in Bezug genommene Methodik;
+  energie hat sie bisher nur ueber EnFK EN-142 + Sekundaerquellen erschlossen. Fuer die Methodik-Frage
+  (Anhang E.2 Berichtsvorgaben) braucht es den Volltext. Pruefen, ob das Merkblatt im SharePoint-Bestand
+  liegt, sonst Beschaffung ueber das SIA-Abo.
 - [ ] **Z1/Z2-Koeffizienten des SIA-103-Grundfaktors fehlen** (p = Z1 + Z2/∛Bp, Ziff. 7.2.2). Sie
   werden laut Norm periodisch vom SIA publiziert, stehen aber nicht im PDF. Folge: **Honorar nach
   Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Fuer SIA 102 liefert das neue Destillat

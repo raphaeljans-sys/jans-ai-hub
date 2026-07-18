@@ -20,6 +20,20 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Zonenmasse/Nutzungsziffern (AZ/BMZ/UEZ/GrFZ) inkl. **Daemmungs-Kappung** | **baurecht** | energie (MuKEn-Modul 11 verweist dorthin) |
 | MuKEn-Musterrecht (EnDK-Module, noch nicht kantonal umgesetzt) | **energie** | baurecht (verweist fuer den Muster-Stand) |
 
+> **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
+> korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
+> in einem Lauf: der Fassungs-Flag zur VKF-BRL 16-15 stand seit Run 52 in `planungsgrundlagen` und
+> war in `normen` nie angekommen; die SIA-2048-Uebergabe stand in `energie` und war in `normen`
+> nie angekommen (grep «2048»: 0 Treffer). **Regel daraus: Uebergaben gehoeren in die
+> `wiki/QUESTIONS.md` der EMPFAENGER-KB**, nicht als Notiz ins abgebende Wiki. Ohne den Cross-KB-Lauf
+> haette in beiden Faellen niemand die Bring-Schuld gesehen.
+>
+> **NEU Run 8 — «Fassungspflege ist der blinde Fleck der Destillate»:** Verifikationen pruefen gegen
+> DIESELBE Datei, aus der destilliert wurde, und koennen eine juengere Fassung im Bestand strukturell
+> nicht finden (Fall 16-15: Refuter-Notiz «keine Abweichung gefunden» vom 17.07., einen Tag spaeter
+> ein seit 2021 ueberholter `established`-Kennwert). **Regel daraus: erst den Bestand nach juengeren
+> Fassungen derselben Norm durchsuchen (Dateiname/Stempel), dann Werte gegenlesen.**
+>
 > **Wiederkehrendes Muster (3. Fundort, Run 6):** VKF-Wortlaut wird in `planungsgrundlagen`-Artikeln
 > materiell fortgeschrieben statt aus `normen` gezogen — bisher `brandschutz-pl03-wegweiser` (Run 3),
 > dessen §1a (Run 4), neu `energie-pv-eignung-typenwahl` §6b (Run 6). Jedes Mal nachtraeglich verlinkt;
@@ -29,6 +43,52 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
 ## Gepruefte Paare
+
+### normen ↔ planungsgrundlagen (Brandschutz VKF/BSR 16-15) — geprueft 2026-07-18 (Run 8)
+- **Befund:** Die Ausgangsvermutung (Ausgaben-Widerspruch «2022 vs. 2015/2017») ist **REFUTED** —
+  beide KBs sind sich einig, dass die Ausgabe 2015 ist; pg spricht sauber von «Fassung/Stand».
+  **Dahinter aber ein schwererer, CONFIRMED-Befund:** `normen` fuehrte die **Personenbelegung Verkauf**
+  (0.5 / 0.35 / 0.25 P./m2) als `established` ohne Vorbehalt, obwohl sie per **Beschluss TKB 09.06.2021**
+  ersatzlos gestrichen und durch eine Betriebstyp-Matrix ersetzt wurde (Fachmaerkte 0.10/0.10,
+  Supermaerkte 0.38/0.15, hochfrequentierte Supermaerkte 0.45/0.21). Am Original beidseitig verifiziert
+  (pdftotext-Volltextvergleich der Fassungen 01.01.2017 und Stand 01.12.2022). Der Wert geht in
+  Fluchtwegbreiten ein — Fehlerwirkung bis Faktor 5. `normen` ist fuehrend und hatte den falschen Wert,
+  `planungsgrundlagen` den richtigen: **Fuehrungs-Umkehr** wie schon bei GreenPV (Run 6) und SIA 380/1 (Run 7).
+- **Aktion:** Destillat + Synthese + REGISTER nachgefuehrt (alte Werte markiert statt geloescht),
+  3 QUESTIONS-Eintraege in normen, Querbezug-Block im pg-Wegweiser, Gremiums-Korrektur ABSV statt IOTH.
+- **Offen (nicht autonom):** (a) **Volltext-Destillation der 2022er-Fassung** — die Deltas ABSV 22.03.2017
+  (Ziff. 2.4.3/2.4.4) und Fehlerkorrektur 01.12.2022 (Ziff. 3.7) sind ungeprueft; (b) **Uebernahme der
+  Matrix nach normen + Trim von pg §5am** auf reinen Fundstellen-Verweis = Umstrukturierung ueber
+  KB-Grenzen, Rueckfrage noetig; (c) pg-Passage «Apotheke, Kiosk, Quartierladen» ueberdehnt die Matrix —
+  seit dem Wegfall der Auffangzeile ist Kleinverkauf im Einzelfall mit der Behoerde zu klaeren.
+  **Status: bereinigt + verlinkt; 3 offene Punkte.**
+
+### planungsgrundlagen ↔ baurecht (OEREB-Themenkatalog / WWG-HWSchV-Nachlauf) — geprueft 2026-07-18 (Run 8)
+- **Befund:** Der Run-7-Nachlauf war unvollstaendig. **CONFIRMED:** `kartenportale-oereb-kataster-system-zh`
+  fuehrte fuer OEREB-Thema 190 `LS 724.112 § 15` (HWSchV, aufgehoben 01.06.2026) ungeflaggt; der INDEX
+  trug die Repeal-Flags zweier Artikel nicht nach. **REFUTED:** die vermutete LS-724.11-Kollision ist
+  kein Fehler, sondern eine belegte **Nummern-Wiederverwendung** (WWG bis 31.05.2026, WsV ab 01.06.2026).
+  Run 51 (Kartenportale) selbst: **kein Befund** — keine Erlass-Zitate.
+- **Aktion:** Zeile 190 korrigiert + Warnkasten, INDEX nachgezogen, Rueckverweis-Block in
+  `baurecht/wiki/abstaende-und-hoehen` (die Verlinkung war einseitig), Wiederverwendungs-Hinweis in
+  `baurecht/wiki/baureife-und-erschliessung`.
+- **Offen (nicht autonom):** die **GSchV-Doppelspur** (Art. 41a/41b-Bemessungstabelle materiell in
+  beiden KBs) besteht unveraendert weiter — Trim = Umstrukturierung, seit Run 7 offen.
+  **Status: bereinigt + bidirektional verlinkt; 1 offener Punkt.**
+
+### energie ↔ normen (Ψ-Werte/Waermebruecken, MuKEn Modul 7) — geprueft 2026-07-18 (Run 8)
+- **Befund:** Kein Zahlen-Widerspruch. **CONFIRMED (stale):** der Themenartikel `energie/wiki/innendaemmung`
+  fuehrte den Negativbefund zur Massivdecken-Ψ-Zahl weiter, obwohl E93 am selben Tag geschlossen wurde —
+  **das Destillat wurde aktualisiert, der Themenartikel nicht mitgezogen** (Einstiegsebene zeigte den
+  ueberholten Stand). **REFUTED:** die Zuschreibung «Ψ ≤ 0,20 (SIA 380/1)» ist sachlich korrekt gedeckt
+  (EN-102 Fusszeile «Basis: Norm SIA 380/1, Ausgabe 2016»); die normen-Sperre betrifft nur Q_H-/U-Werte
+  und Gebaeudekategorien, nicht Waermebruecken-Ψ — der Befund dehnte den Sperrumfang ueber seinen Wortlaut aus.
+- **Aktion:** Themenartikel nachgezogen (Ψ-Werte, Konsequenz, Normgenerations-Vorbehalt 2001 vs. 2016),
+  offener Punkt geschlossen, Backlink gesetzt; Flags fuer **SIA 180-C2:2020** (in energie 0 Treffer, von
+  normen am 16.07. belegt) und **SIA 2024:2019 vs. 2021+C1:2024**; SIA-2048-Uebergabe an normen eingetragen.
+- **Offen (nicht autonom):** Inhalt von **C2:2020** beidseitig unverifiziert (Bring-Schuld seit Run 6);
+  Healthcare-EBF-Schwellen VIII.1/VIII.2 am SIA-2024:2021-Volltext nachrechnen.
+  **Status: bereinigt + verlinkt; 2 Bring-Schulden.**
 
 ### baurecht ↔ planungsgrundlagen ↔ energie (WWG/HWSchV → WsG/WsV) — geprueft 2026-07-17 (Run 7)
 - **Befund:** Die Run-5-Bring-Schuld ist einloesbar geworden — baurecht hat heute (Buch-Run 48) die

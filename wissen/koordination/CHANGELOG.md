@@ -3,6 +3,44 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-18 — Run 8 (3 Paare am neuen Run-51/52/78/79-Stoff; 3 Leser + 2 adversariale Verifier)
+- Gedrosselter Lauf (Rule 260714): schlanker Fan-out mit 3 Lese-Agenten, danach 2 Refuter mit
+  Widerlegungsauftrag an den Original-PDFs. **5 Befunde gemeldet, 3 CONFIRMED, 2 REFUTED.**
+- **normen ↔ planungsgrundlagen (VKF-BRL 16-15):** die Ausgangsvermutung (Ausgabenstreit 2022 vs.
+  2015/2017) war falsch — dahinter aber der schwerste Befund des Laufs: `normen` fuehrte die
+  **Personenbelegung Verkauf** (0.5/0.35/0.25 P./m2) als `established` ohne Vorbehalt, obwohl sie
+  per **Beschluss TKB 09.06.2021** ersatzlos gestrichen und durch eine Betriebstyp-Matrix ersetzt
+  wurde (Fachmaerkte 0.10 · Supermaerkte 0.38/0.15 · hochfrequentierte 0.45/0.21). Am Original
+  beidseitig volltext-verifiziert. Der Wert geht in Fluchtwegbreiten ein — Fehlerwirkung bis Faktor 5.
+  → Warnkasten + Matrix ins Destillat, Synthese-Zeile umgestellt, REGISTER + Status nachgezogen,
+  3 QUESTIONS-Eintraege. Gremiums-Korrektur in pg: **ABSV** statt IOTH (22.03.2017, am Original).
+- **planungsgrundlagen ↔ baurecht (OEREB/WWG-Nachlauf):** CONFIRMED — Thema 190 fuehrte
+  `LS 724.112 § 15` (HWSchV, aufgehoben 01.06.2026) ungeflaggt, INDEX trug die Repeal-Flags nicht nach.
+  → Zeile korrigiert (§ 19 WsG / § 11 WsV), Warnkasten, INDEX nachgezogen, Rueckverweis-Block in
+  baurecht (Verlinkung war einseitig). Run 51 selbst: kein Befund.
+- **energie ↔ normen (Ψ/MuKEn Modul 7):** CONFIRMED stale — `wiki/innendaemmung` fuehrte den
+  Negativbefund zur Massivdecken-Ψ-Zahl weiter, obwohl E93 am selben Tag geschlossen wurde
+  (Destillat aktualisiert, Themenartikel nicht mitgezogen). → nachgezogen, Punkt geschlossen,
+  Backlink. Flags fuer **SIA 180-C2:2020** und **SIA 2024:2019 vs. 2021+C1:2024**.
+- **VERIFIKATION HAT ERNEUT GEWIRKT (2 von 5 widerlegt):** (1) die «LS-724.11-Kollision» ist **kein
+  Fehler**, sondern eine amtlich belegte **Nummern-Wiederverwendung** (WWG bis 31.05.2026, WsV ab
+  01.06.2026) — statt einer «Korrektur» nur ein klarstellender Vermerk; (2) die Zuschreibung
+  «Ψ ≤ 0,20 (SIA 380/1)» ist **sachlich gedeckt** (EN-102-Fusszeile «Basis: Norm SIA 380/1, Ausgabe
+  2016»), die normen-Sperre betrifft ihrem Wortlaut nach nur Q_H-/U-Werte und Gebaeudekategorien.
+  Ohne diese Stufe waeren zwei korrekte Stellen «wegkorrigiert» worden.
+- **Zwei neue Struktur-Muster** (im Register vermerkt): **(A) «Uebergabe verpufft im abgebenden KB»**
+  — zwei Fundorte in einem Lauf (16-15-Fassungsflag seit Run 52 nur in pg; SIA-2048-Uebergabe nur in
+  energie, grep in normen: 0 Treffer). Regel: Uebergaben gehoeren in die QUESTIONS der EMPFAENGER-KB.
+  **(B) «Fassungspflege ist der blinde Fleck der Destillate»** — Verifikationen pruefen gegen dieselbe
+  Datei, aus der destilliert wurde, und finden eine juengere Fassung im Bestand strukturell nie.
+  Dazu die **dritte Fuehrungs-Umkehr in drei Laeufen** (nach GreenPV/Run 6, SIA 380/1/Run 7).
+- **2 NEUE OFFENE ENTSCHEIDE FUER RAPHAEL:** (a) VKF-16-15-Matrix nach `normen` uebernehmen + pg §5am
+  auf Fundstellen-Verweis kuerzen (Umstrukturierung ueber KB-Grenzen); (b) Volltext-Destillation der
+  2022er-Fassung (Deltas ABSV 2017 + Fehlerkorrektur Ziff. 3.7 ungeprueft, dort zusaetzlich eine
+  offene Ungereimtheit Geschoss- vs. Brandabschnittsflaeche). Weiter offen: normen-Dublette
+  Solaranlagen (Run 6), GSchV-Doppelspur (Run 7), Bring-Schulden WsG-§/SIA-380-1-Volltext/C2:2020.
+- Bericht: `outputs/2026-07-18_wissens-chef-run8.md`.
+
 ## 2026-07-17 — Run 7 (3 Paare am neuen Run-48/76/15-Stoff; 3 Leser + Eigen-Verifikation an den Quellen)
 - Gedrosselter Lauf (Rule 260714): schlanker Fan-out mit 3 Lese-Agenten; die adversariale Verifikation
   der Pair-A-Befunde lief nach einem 529-Abbruch des Verifier-Agenten **inline an den Primaerquellen**

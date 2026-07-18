@@ -216,7 +216,7 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
 
 - **Wasserversorgung:** die Gemeinde stellt Trinkwasser in einwandfreier Qualität, genügendem Druck
   und ausreichender Menge bereit (§ 27 WWG). ⚠ **Aktualitäts-Flag (Wissens-Chef Run 5, 2026-07-15):**
-  das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** wurde per **1.6.2026 durch das neue
+  das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** *(⚠ die Nummer LS 724.11 traegt seit dem 01.06.2026 die **Wasserverordnung WsV**; fuer den Zeitraum bis 31.05.2026 ist die Zuordnung zum WWG korrekt)* wurde per **1.6.2026 durch das neue
   Wassergesetz WsG vom 12.12.2022 abgelöst** (§ 126 WsG, explizite Aufhebung; primärquellen-belegt in
   `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). Die hier aus dem Standardwerk
   (6. Aufl. 2019) übernommenen WWG-§§ sind auf ihre WsG-Entsprechung zu prüfen; das §-Mapping ist noch

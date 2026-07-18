@@ -4,6 +4,21 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): Rueckverweis auf planungsgrundlagen + LS-Nummern-Hinweis
+- **Befund:** `wiki/abstaende-und-hoehen.md` fuehrt den ganzen Gewaesserraum-Stoff (Z. 137 ff.),
+  verlinkte aber nur den Baulinien-Beschaffungsartikel — die Verlinkung zur Schwester-KB war
+  **einseitig** (planungsgrundlagen verweist hierher als fuehrend, zurueck kam nichts).
+- **Aktion:** Querbezug-Block gesetzt (Festsetzungsverfahren/AWEL-Bemessung, Hochwasser-Gefahrenbereiche,
+  OEREB-Thema 190) inkl. Warnung zur **Nummern-Wiederverwendung LS 724.11**; derselbe Hinweis als
+  Halbsatz in `wiki/baureife-und-erschliessung.md` (Z. 219), wo die WWG-Aufhebung zwar geflaggt war,
+  die Wiederverwendung der Nummer aber nicht erwaehnt wurde.
+- **Ein gemeldeter Befund WIDERLEGT:** die vermutete «LS-724.11-Kollision» ist **kein Fehler** —
+  beide Zuweisungen sind je fuer ihren Zeitraum amtlich belegt (WWG bis 31.05.2026: BZO-Langnau-
+  Abkuerzungsverzeichnis; WsV ab 01.06.2026: `raw/260717_amtlich_zh_hwschv.md` Z. 166, Erlass vom
+  2. Juli 2025). Es liegt eine echte Nummern-Wiederverwendung vor, kein Widerspruch — deshalb nur
+  ein klarstellender Vermerk, keine Korrektur.
+- Bericht: `wissen/koordination/outputs/2026-07-18_wissens-chef-run8.md`.
+
 ## 2026-07-17 — Buch-Run 48 (Modell D, Beschaffungslauf): die 3 «beschaffbaren» Luecken aus Run 47 geschlossen — **HWSchV ZH seit 01.06.2026 aufgehoben**
 
 - **[neu] 4 amtliche Volltexte beschafft:** `raw/260717_amtlich_ch_lsv-anhang34.md` (LSV Art. 40-42 +

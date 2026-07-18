@@ -243,7 +243,16 @@ MuKEn-2025-Betriebsoptimierungsmodul kantonal übernommen.
   gelesen** (kostenpflichtiges SIA-Normprodukt) — nur über die Zitate in der BL-Vollzugshilfe
   EN-142 und Sekundärquellen (Espazium) erschlossen. Für eine vertiefte Methodik-Frage
   (Anhang E.2 Berichtsvorgaben) müsste das Merkblatt separat beschafft werden.
-  → Kandidat für den Skill `normen`/die KB `wissen/normen`.
+  → Kandidat für den Skill `normen`/die KB `wissen/normen`. *(Übergabe am 18.07.2026 durch den
+  Wissens-Chef in `wissen/normen/wiki/QUESTIONS.md` eingetragen — dort wird sie abgearbeitet.)*
+- ⚠ **Ausgaben-Diskrepanz SIA 2024 (Flag Wissens-Chef Run 8, 18.07.2026, nicht verifiziert).** Die
+  Healthcare-EBF-Schwellen in diesem Destillat sind aus der **Elektrizitätskennzahl SIA 2024:2019**
+  gerechnet — das ist ein Vernehmlassungs-/Entwurfsstand. Gültig ist nach beiden KBs
+  **SIA 2024:2021 inkl. Korrigenda C1:2024** (`wissen/normen/wiki/REGISTER` und
+  `[[sia-2024-nutzungsdaten-gesundheitsbau]]`). Die Schwester-Destillate tragen dafür bereits einen
+  expliziten Diskrepanz-Block, dieses hier nicht. **Offen:** ob die Kennzahlen VIII.1 = 36 /
+  VIII.2 = 29 kWh/m²EBF in der Ausgabe 2021 fortgeschrieben oder geändert wurden — am Volltext
+  2021/C1:2024 nachrechnen, bevor die Schwellen zitiert werden.
 - **Kein aggregiertes Verzeichnis, welche Kantone Modul 7 (bzw. das MuKEn-2014-Äquivalent
   Modul 8) bereits übernommen haben.** ZH (seit 2022) und BL (seit Juni 2026) sind hier
   primärquellen-bestätigt, SZ primärquellen-verneint; alle anderen Kantone sind für diese
