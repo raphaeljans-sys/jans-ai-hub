@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-19 — Training Run 53 (Recht & Norm + Energie, Token-Vollgas, OneDrive-Ausweich-Lauf)
+- **Blocker:** der OneDrive-Mount war fuer diesen Lauf **systemisch** durch `EDEADLK` gesperrt —
+  betraf auch bereits mehrfach erfolgreich gelesene Referenzdateien (`EN-ZH.pdf`,
+  `IVHB_Leitfaden...pdf`), nicht nur die seit Run 52 bekannten Brandschutz-Kandidaten. Lauf
+  deshalb auf WebSearch/WebFetch-Refresh-Arbeit umgestellt (PROGRAMM.md Schritt 3a deckt das).
+- **NEU [[recht-norm-pbg-revision-bauen-im-bestand]]:** bisher unerfasster Rechtsetzungsstrang —
+  PBG-Revision "Erleichtertes Bauen im Bestand", neue Bestimmung **§ 220a E-PBG**
+  (Abweichungsanspruch Grenzabstand/Fassadenhoehe/-laenge/Vollgeschosse bei neuen Wohneinheiten
+  innerhalb der bestehenden Ausnuetzung) + § 357 E-PBG-Ergaenzung + Streichung Mehrlaengenzuschlag
+  ABV §§21/23/24. Primaerquelle (Vorentwurf + erlaeuternder Bericht, RRB 827/2025) via WebFetch
+  vollstaendig gelesen. `status: emerging` (Vernehmlassung abgeschlossen, noch kein geltendes Recht).
+- **`recht-norm-quellenlandkarte.md`:** LSV-Novelle 01.04.2026 inhaltlich geschlossen (Art. 22
+  USG/Art. 31 LSV, KWL als Schallschutzmassnahme) — war seit Run 23 nur als "Details offen"
+  gefuehrt. Denkmalschutz-PBG-Revision um RRB-Nr. 678/2026 + Motion/Postulat-Hintergrund ergaenzt.
+  **NEU Abschnitt § 49b PBG:** vollstaendig ausgewertet (75 %/650 m²-Quote, UmV 17.09.2025,
+  Referendum 14.06.2026 mit 57.14 % angenommen, in Kraft) — schliesst den seit Run 47/48 offenen
+  M3-Punkt ab. Veraltete SZ-GFZ/BMZ-Kurzformel im INDEX.md korrigiert (Formel war seit Run 18
+  inhaltlich ueberholt, INDEX aber nie nachgezogen).
+- **`energie-energienachweis-zh-formulare.md`:** Fehl-Cross-Referenz aus Run 47 korrigiert — der
+  § 49b-PBG-Nebenfund war dort weiterhin mit "Parkplatzvorschriften" verknuepft, obwohl Run 48
+  den Themenbezug bereits als falsch erkannt hatte (Korrektur hatte diesen Artikel nie erreicht).
+  Solarpflicht-Norm-Stelle **§ 10c EnerG** (nicht "§ 10b", wie ein Web-Treffer behauptete) gegen
+  den amtlichen Volltext verifiziert — bestehende KB-Kennwerte waren bereits korrekt.
+- **`energie-betriebsenergie-pv-wirtschaftlichkeit.md`:** Pronovo-Foerderstruktur-Refresh
+  bestaetigt unveraendert; ein unbelegter WebSearch-Nebenfund ("Winterstrombonus ab 01.01.2026")
+  gegen die Primaerquelle geprueft und **verworfen** (nicht bestaetigt).
+- Bericht: `outputs/2026-07-19_training-run53.md`.
+
 ## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): Fossilfrei-Fundstelle korrigiert, drei Querbezuege gesetzt
 - **§ 10a → § 11 Abs. 1 EnerG:** in der Formularmatrix (Zeile Energiebedarf) trug die
   CO₂-frei-Anforderung die falsche Fundstelle. § 10a EnerG ist die Bedarfs-/Effizienznorm, das
