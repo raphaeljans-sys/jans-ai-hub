@@ -2,6 +2,39 @@
 
 Neueste zuoberst.
 
+## 2026-07-18 — Run 80 (Verifikations-Lauf: zwei established-Aussagen am Original nachgeprüft)
+
+Kein PDF-Transfer (Inventar seit Run 65 erschöpft). Der Lauf schloss die zwei letzten offenen
+Verifikationslücken aus Run 78/79 — **beide geprüften Aussagen enthielten einen echten Fehler.**
+
+**T1 WDV Kt. ZH (Destillat `muken-2025-anhang-4-5-daemmstaerken-leitungen`).** Zwei Belegfehler
+korrigiert: Massgebend ist die WDV **vom 8.6.2022, in Kraft seit 1.9.2022** (LS 700.211,
+zhlex-Nachtrag 118) — die notierte «Ausgabe 2009» ist per Dispositiv II ausdrücklich aufgehoben, die
+Angabe «gültig ab Oktober 2019» war eine Verwechslung mit der Nachtragsnummer 019. Und die Werte
+stehen nicht in «Tabellen 6+7», sondern in **§ 6 Abs. 2 / § 6 Abs. 3** («Tabelle 6» im Erlass meint
+Tabelle 6 der SIA 380/1). Die Sachaussage hält dagegen vollständig: Tabelle A/B des Destillats sind
+mit der WDV in **36 von 36 Zahlenwerten deckungsgleich** (zwei unabhängige amtliche zh.ch-Spiegel,
+curl+pdftotext). Nebenbefund: der Fehler war auf dieses Destillat beschränkt, die übrige KB zitiert
+die WDV bereits korrekt. Frontmatter um die WDV-Primärquelle ergänzt, doppelter Aufzählungspunkt
+entfernt.
+
+**T2 F100 Healthcare-EBF-Schwelle.** Die Bandbreite **3'000–7'000 m² EBF ist am gültigen Normstand
+bestätigt** — die Kennzahlen VIII.1 = 36 / VIII.2 ≈ 30 kWh/m²EBF·a gelten auch unter SIA 2024:2021
+inkl. Korrigenda C1:2024 (SIA-Grundlagenbericht zur Revision 2021, Ziff. 4.2.1/4.2.3); das ⚠-Flag des
+Wissens-Chefs Run 8 ist erledigt. **Gestrichen** wurde die Angabe «50–90 Pflegeplätze»: aus keinem
+Kennwert rekonstruierbar, im Widerspruch zur eigenen Quelle (Destillat rechnet 34–75) und nur auf
+einen österreichischen Einzelfall gestützt. **Neu eingearbeitet** und fachlich der wichtigste Fund:
+beide Kennwertreihen erfassen **nicht** den Strom für Heizung, Warmwasser und Klimakälte, § 13d EnerG
+ZH aber den Gesamtverbrauch — bei Wärmepumpen-Betrieb wird die 200'000-kWh-Schwelle deshalb **früher**
+erreicht; die Zahlen sind Obergrenzen. Restvorbehalt vermerkt: der bezahlte Normvolltext Anhang F lag
+nicht vor, die Werte sind aus dem offiziellen Grundlagenbericht rekonstruiert.
+
+QUESTIONS: zwei Lücken geschlossen, **E103** (Schweizer m²EBF/Pflegeplatz-Kennwert — Compounding-
+Kandidat aus den JANS-eigenen Healthcare-Projekten, Entscheid Raphael) und **E104** (WDV-Nachtrag
+nach 118, RRB-2025-1082 ungeprüft) neu eröffnet. FAQ-Stand unverändert 100 Fragen — dieser Lauf hat
+zwei bestehende Antworten belegfest gemacht statt neue anzuhängen. Batch bewusst auf Standard statt
+Vollgas (Rule 260714, Wochenlimit). Report: `outputs/2026-07-18_energie-run80.md`.
+
 ## 2026-07-18 — Run 79 (Intensiv-Lauf: Registerpflege Run 78 + neue Recherche)
 
 Zwei Teile: (A) Registerpflege der drei liegen gebliebenen Punkte aus Run 78 — F99/F100 in
