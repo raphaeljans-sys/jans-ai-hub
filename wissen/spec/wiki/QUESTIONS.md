@@ -157,6 +157,15 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     Wiederholungs-Sweep noetig, solange der taegliche Eintrag laeuft. Die inhaltliche AG-Gruendung
     selbst bleibt in `logbuch`-Hand (ausserhalb KB-Mandat): UBS-Formular/Kapitalbescheinigung + Notariats-
     Antwort weiter ausstehend.
+  - Bestaetigung + neuer Fehlermodus 18.07. (Lauf 22): die Lauf-19-Schliessung **haelt** — der Monitor
+    schreibt weiter taeglich (17.07.-Eintrag real in `fristen.md`). Derselbe 17.07.-Lauf deckte aber einen
+    **anderen** Fehler auf, der 15./16.07. still zugeschlagen hatte: der M365-Connector (angemeldet als rj@)
+    hat auf **mail@** keinen Delegate-Zugriff und liefert dort **still eine LEERE Antwort statt eines
+    Fehlers** — der ganze UBS-Strang liegt in mail@, also schlossen die Laeufe faelschlich «kein UBS-
+    Absender» (eine Kapitalbescheinigung waere nicht erkannt worden). Gegenprobe via Apple Mail: inhaltlich
+    nichts verpasst, Task auf Apple Mail als Primaerkanal umgestellt (`logbuch`-Betrieb). Die **Verifier-
+    Lehre** («ein leeres Signal ist kein Beweis fuer Leere — Zugriff vor Inhalt pruefen, Positivkontrolle +
+    zweiter Kanal») steht in [[verifier]]. Kein Gate-/Rule-Bezug — reine Verifier-Disziplin.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**

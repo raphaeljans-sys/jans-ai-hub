@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-18
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -223,3 +223,33 @@ Prozess das Flag gelesen hat, und den gibt es nicht. Fuer den Verifier-Loop selb
 Ergaenzung zur Reue-Pruefung: **Reue-Pruefungen muessen nicht nur "haelt der Befund noch", sondern auch
 "hat sich seit dem letzten Check-Zeitpunkt am selben Tag etwas veraendert" fragen** — sonst wird aus
 einer echten Momentaufnahme faelschlich ein Dauerzustand.
+
+## Ein leeres Verifier-Signal ist mehrdeutig — Zugriff VOR Inhalt pruefen (Lektion AG-Monitor 17.07.2026)
+Reue-Pruefung des von Lauf 19 (15.07.) als «geheilt» geschlossenen Monitor-Schweige-Fadens: die
+Schliessung **haelt** — der `ag-gruendung-monitor` schreibt wieder taeglich (17.07.-Eintrag real in
+`logbuch/fristen.md`, «kein neuer UBS-/Notariats-Eingang, Stand unveraendert»). Aber derselbe
+17.07.-Lauf deckte einen **neuen, anderen Fehlermodus** auf, der 15./16.07. still zugeschlagen hatte
+(belegt: METHODEN-BEFUND im 17.07.-Eintrag, `fristen.md`):
+- Der M365-Connector ist als **rj@** angemeldet und hat auf **mail@** keinen Delegate-Zugriff. Eine
+  Suche auf mail@ liefert dort **still eine LEERE Antwort statt eines Fehlers**. Da der gesamte
+  UBS-Strang der AG-Gruendung in mail@ liegt, schlossen die Laeufe 15./16.07. faelschlich «kein
+  einziger UBS-Absender» — obwohl in mail@ zwei UBS-Mails liegen (21.06. Bankpaket, 23.06.
+  Vertragsdokumente). Eine in diesem Fenster **eingetroffene Kapitalbescheinigung waere NICHT erkannt
+  worden** — ein Falsch-«nichts Neues», das Gegenstueck zum Falsch-Gruen weiter oben.
+- Gegenprobe ueber einen **unabhaengigen zweiten Kanal** (Apple Mail, alle 6 Konten inkl. mail@ +
+  outlook.com) zeigte: inhaltlich wurde nichts verpasst; der Task wurde auf Apple Mail als Primaerkanal
+  fuer mail@ umgestellt. Der Kanalwechsel selbst ist `logbuch`-Betrieb (ausserhalb `wissen/spec`) —
+  die **Verifier-Lehre** ist hier destilliert.
+
+**Regel fuer den Verifier:** ein **leeres/negatives** Signal ist nur so viel wert wie der Beweis, dass
+die Abfrage die Daten ueberhaupt erreicht hat. «Nichts gefunden» wegen fehlendem Zugriff/falschem Scope
+sieht identisch aus wie «nichts gefunden, weil nichts da ist» — beide sind leer. Bevor ein Verifier aus
+Leere «alles ruhig / nichts Neues» ableitet, muss er **Zugriff vor Inhalt** pruefen: adressiert die
+Abfrage das richtige Konto/den richtigen Scope, und wuerde ein *bekannt vorhandener* Datensatz (hier: die
+zwei alten UBS-Mails als Positivkontrolle) tatsaechlich zurueckkommen? Trennfrage: «Ist das Feld leer —
+oder ist mein Fenster zum Feld zu?» Praktische Absicherung: (a) eine **Positivkontrolle** einbauen (ein
+Treffer, der zwingend existieren muss — kommt er nicht, ist der Kanal blind, nicht die Welt leer);
+(b) bei kritischen Negativ-Befunden ueber einen **zweiten, unabhaengigen Kanal** gegenpruefen (M365 ↔
+Apple Mail). Reiht sich in die Falsch-Signal-Familie: Lauf 1 (falsches Gruen: Proxy ≠ Abnahmekriterium) ·
+Lauf 10 (Mass misst den Fix nicht) · Lauf 12 (ein Flag ist keine Reparatur) · **hier (ein leeres Signal
+ist kein Beweis fuer Leere)**.

@@ -1,5 +1,29 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-18 — Trainingslauf 22
+- Output `outputs/2026-07-18_training-run22.md`. **Verifikationslauf** — keine neue reale Spec seit
+  Lauf 20; die naechste (SYN-02) ist auf **Spec-Start ab 20.07.** terminiert (`SYNERGIE-REGISTER`),
+  Abwesenheit heute also erwartet, kein Gate-Fehltreffer.
+- **Reue-Pruefung des von Lauf 19 geschlossenen AG-Monitor-Fadens:** Schliessung **haelt** (Monitor
+  schreibt weiter taeglich, 17.07.-Eintrag real in `fristen.md`). Derselbe 17.07.-Lauf deckte aber
+  einen **neuen Fehlermodus** auf: die UBS-Pruefung war seit ~15.07. blind, weil der M365-Connector
+  (rj@) keinen Delegate-Zugriff auf **mail@** hat und dort **still eine LEERE Antwort statt eines
+  Fehlers** liefert → Falsch-«nichts Neues». Gegenprobe via Apple Mail: inhaltlich nichts verpasst,
+  Task auf Apple Mail als Primaerkanal umgestellt (`logbuch`-Betrieb, ausserhalb Mandat).
+- **Umgesetzt (belegt):** `wiki/verifier.md` neue Sektion «Ein leeres Verifier-Signal ist mehrdeutig —
+  Zugriff VOR Inhalt pruefen» (Positivkontrolle + zweiter Kanal; reiht sich in die Falsch-Signal-Familie
+  Lauf 1/10/12), `last_updated` → 07-18; `wiki/QUESTIONS.md` F2 (Lauf-19-Schliessung haelt + Verweis).
+- **Nachtrag Lauf 21 (17.07.):** Lauf 21 korrigierte `QUESTIONS.md` (F1/F2 — «ein Artefakt ist keine
+  Quelle fuer seine eigene Herkunft», SYN-02-Ausloesung = terminierte Freigabe statt «Benutzer
+  abwesend») und `anwendung-jans.md` Schritt 1 (`last_updated: 07-17`), hinterliess aber **keinen
+  Output/CHANGELOG-Eintrag** (kein `..._run21.md`); die Edits wurden vom `nas-selfcommit` 17.07. 04:30
+  gesichert. Hiermit retroaktiv im CHANGELOG vermerkt (wissens-bibliothekar: jede Aenderung protokollieren).
+- **Bewusst nicht getan:** kein Environment-Sweep (Lauf 13 frisch), keine Rule-/Gate-Aenderung
+  (`spec-methode.md` unveraendert — Verifier-Disziplin, kein Ueberdehnungs-Beleg), keine `logbuch`-/
+  Connector-Reparatur, keine erfundene Verifier-Zeile (SYN-02 bleibt Pending bis E5), kein Mail-Versand.
+- Offen: F1-Ueberdehnungs-Gegentest weiter unbelegt; F3 nur Marketing/Text + SYN-02-Pending; SYN-02-Spec
+  ab 20.07. → Auswertungslauf; «silent-empty»-Risiko anderer Hub-Monitore als Kandidat fuer kuenftigen Sweep.
+
 ## 2026-07-15 — Trainingslauf 20
 - Output `outputs/2026-07-15_training-run20.md`. **Auswertungslauf** — erste neue reale Spec-Anwendung
   seit Lauf 7: `outputs/2026-07-15_syn-02-...-spec-interview/` (Schwester-Task `syn02-spec-anstoss`,
