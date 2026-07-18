@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.07.2026 23:50:06
+Stand: 19.07.2026 00:20:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:56)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 18.07.2026 23:50:06
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d09c8727 nas-selfcommit: 2 Datei(en) 2026-07-18 23:45
+- fb1808f8 Wissens-Chef Run 9: zwei falsche ZH-Rechtszuschreibungen korrigiert, SIA-279-Widerspruch aufgeloest

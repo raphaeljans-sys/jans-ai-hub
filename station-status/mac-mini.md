@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 18.07.2026 23:56:47
+Stand: 19.07.2026 00:26:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:49)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.07.2026 23:56:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d09c8727 nas-selfcommit: 2 Datei(en) 2026-07-18 23:45
+- fb1808f8 Wissens-Chef Run 9: zwei falsche ZH-Rechtszuschreibungen korrigiert, SIA-279-Widerspruch aufgeloest
