@@ -49,7 +49,7 @@ im Neubau verboten / im Bestand nur mit Wirtschaftlichkeitsnachweis erlaubt**.
   Private Kontrolle, erfolgt eine **kostenpflichtige behoerdliche Kontrolle**.
 
 ## Energierechtliche Schluesselfragen (Seite 4 — Bestand)
-- **§ 10a EnerG:** Neubau **ohne CO₂ aus fossilen Brennstoffen** (kein neuer Oel-/Gaskessel im Neubau).
+- **§ 11 Abs. 1 EnerG:** Neubau **ohne CO₂ aus fossilen Brennstoffen** (kein neuer Oel-/Gaskessel im Neubau). (§ 10a EnerG regelt demgegenueber die Effizienz-/Bedarfsanforderung, nicht das Fossilverbot.)
 - **Heizkessel mit fossilen Brennstoffen im Bestand:** nur zulaessig, wenn gemaess **EN-LCC-ZH** eine
   fossile Heizung erlaubt ist **und § 11 EnerG** erfuellt — **zwingende Beilagen: EN-LCC-ZH + EN-120.**
   (D. h. faktisch: beim Heizungsersatz im Bestand muss man die fossile Option oekonomisch begruenden;

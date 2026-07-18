@@ -56,7 +56,7 @@ ZH am aktuellen Foerderprogramm/EVEN pruefen, nicht aus DE-Quellen uebernehmen.
 | **Sole-/Wasser-WP** | hoechste JAZ, leise, langlebig | Bohrung/Brunnen + AWEL-Gesuch, Investition, Vorlaufzeit |
 | **Fernwaerme** | schlankster Weg, kein Erzeuger/Unterhalt im Haus, Platz | **nur wo Netz liegt**, keine Brennstoffwahl, Anschluss-/Leitungskosten, Netz-CO₂ extern |
 | **Pellets/Holz** | hohe Vorlauftemperatur moeglich (Altbau), CO₂-arm (biogen) | **Lagerraum + Zufuhr**, Feinstaub (Ballungsraum), Wartung/Asche, Feuerpolizei + Abgasanlage |
-| **Fossil (Oel/Gas)** | — | **Neubau verboten** (EnerG §10a); Bestand nur mit EN-LCC-ZH + EN-120 (vgl. F14) |
+| **Fossil (Oel/Gas)** | — | **Neubau verboten** (EnerG § 11 Abs. 1); Bestand nur mit EN-LCC-ZH + EN-120 (vgl. F14) |
 
 ## Faustregel zur Wahl
 1. **Liegt ein Fernwaermenetz an?** → meist **Fernwaerme** (schlankster Weg, vgl. F7/F14).

@@ -36,8 +36,9 @@ mindestens 200'000 kWh Stromverbrauch pro Jahr alle fünf Jahre eine dokumentier
 Betriebsoptimierung der Gewerke Heizung/Lüftung/Klima/Kälte/Sanitär/Elektro/Gebäudeautomation
 (HLKKSE+GA) — der Text ist **wortidentisch mit MuKEn-2014-Modul 8** (keine inhaltliche
 Neuerung 2025, nur Umnummerierung), im Kt. Zürich bereits **seit 1.9.2022 geltendes Recht**
-(§ 13d EnerG) und damit für JANS-Bauherren schon heute, nicht erst mit einer künftigen
-MuKEn-2025-Umsetzung, relevant.
+(§ 13d EnerG) — dort allerdings **nur als einmalige Erstoptimierung innert dreier Jahre nach
+Inbetriebsetzung, ohne die MuKEn-Fünfjahres-Kadenz** — und damit für JANS-Bauherren schon heute,
+nicht erst mit einer künftigen MuKEn-2025-Umsetzung, relevant.
 
 ## Der Wortlaut (Art. 7.1-7.5 MuKEn 2025, S. 79-80)
 
@@ -211,9 +212,11 @@ periodische Betriebsoptimierungspflicht).
 **Die eigentlich JANS-relevante Zielgruppe ist deshalb die «Zwischenzone»:** mittelgrosse
 Pflegeheime/Betreute-Wohnen-Bauten, die die 200'000-kWh-Elektrizitätsschwelle von Modul 7
 erreichen, aber (noch) **nicht** die deutlich höhere Grossverbraucher-Schwelle (0,5 GWh) und
-deshalb **keine** Zielvereinbarung haben. Für diese Bauten greift Modul 7 direkt und
-unbefristet als eigenständige, alle 5 Jahre wiederkehrende Pflicht — ohne die
-Befreiungsmöglichkeit der Grossverbraucher-Zielvereinbarung.
+deshalb **keine** Zielvereinbarung haben. Für diese Bauten greift Modul 7 direkt — ohne die
+Befreiungsmöglichkeit der Grossverbraucher-Zielvereinbarung. Nach MuKEn-Musterrecht als alle
+fünf Jahre wiederkehrende Pflicht; im Kt. Zürich heute nur als **einmalige Erstoptimierung**
+innert dreier Jahre nach Inbetriebsetzung (§ 13d Abs. 1 EnerG, siehe Abgrenzung im
+Bauherren-Transfer).
 
 ## Bauherren-Transfer
 
@@ -221,8 +224,16 @@ Für ein Pflegeheim- oder Klinikprojekt im Kt. Zürich gilt die HLKKSE-Betriebso
 **schon heute** (§ 13d EnerG, seit 1.9.2022) — nicht erst mit einer künftigen
 MuKEn-2025-Umsetzung. Konkret heisst das für die Bauherrschaft: spätestens drei Jahre nach
 Inbetriebnahme muss eine erste Betriebsoptimierung der Gewerke Heizung/Lüftung/Klima/
-Kälte/Sanitär/Elektro/Gebäudeautomation erfolgen und dokumentiert werden, danach alle
-fünf Jahre wieder, mit 10-jähriger Aufbewahrungspflicht der Berichte. Das betrifft bei einem
+Kälte/Sanitär/Elektro/Gebäudeautomation erfolgen und dokumentiert werden, mit 10-jähriger
+Aufbewahrungspflicht der Berichte.
+
+> **Wichtige Abgrenzung (19.07.2026, Wissens-Chef Run 9, am ZH-Primärtext verifiziert):** Die
+> **Wiederholung alle fünf Jahre ist MuKEn-Musterrecht** (Art. 7.4 MuKEn 2025 / Art. 8.4 MuKEn 2014)
+> und **im Kanton Zürich noch nicht geltendes Recht.** § 13d Abs. 1 EnerG verlangt die
+> Betriebsoptimierung nur «innerhalb dreier Jahre nach Inbetriebsetzung»; §§ 48a-48c BBV I
+> enthalten keine Periodizität. Frühere Formulierungen dieses Destillats («danach alle fünf Jahre
+> wieder», «unbefristet als eigenständige, alle 5 Jahre wiederkehrende Pflicht») haben die
+> MuKEn-Kadenz irrtümlich auf den ZH-Erlassstand übertragen und sind hier bereinigt. Das betrifft bei einem
 mittelgrossen bis grossen Pflegeheim/Spital praktisch immer, weil die 200'000-kWh-Schwelle
 bei der für diese Nutzung typischen Gebäudegrösse (rund 3'000-7'000 m² EBF, je nach
 Kennwertmodell) regelmässig überschritten wird. Praktische Konsequenz für die
@@ -238,12 +249,22 @@ MuKEn-2025-Betriebsoptimierungsmodul kantonal übernommen.
 
 ## Offene Punkte
 
-- **Genauer ZH-Verordnungstext (die «Verordnung» gemäss § 13d Abs. 2 EnerG) mit der
-  200'000-kWh-Zahl nicht direkt am Primärtext verifiziert.** Die alte «Vollzugsordner Energie
-  Kanton Zürich» (gültig ab Oktober 2019) ist vor der EnerG-Revision 2022 datiert und enthält
-  das Modul noch nicht; ein aktualisierter Vollzugsordner mit den §-13d-Vollzugswerten wurde
-  in dieser Recherche nicht gefunden. Nächster Schritt: AWEL-Vollzugshilfe/Merkblatt zu
-  § 13d EnerG gezielt suchen oder direkt beim AWEL anfragen.
+- ~~Genauer ZH-Verordnungstext (die «Verordnung» gemäss § 13d Abs. 2 EnerG) mit der
+  200'000-kWh-Zahl nicht direkt am Primärtext verifiziert. Nächster Schritt: beim AWEL anfragen.~~
+  **GESCHLOSSEN 19.07.2026 (Wissens-Chef Run 9) — die Anfrage beim AWEL erübrigt sich.** Die
+  «Verordnung» gemäss § 13d Abs. 2 EnerG ist die **Besondere Bauverordnung I (BBV I), LS 700.21,
+  §§ 48a-48c** (die BBV I stützt sich in ihrem Ingress ausdrücklich auch auf § 17 EnerG).
+  **§ 48c Abs. 1 lit. a BBV I** bestätigt den Schwellenwert wörtlich: von der Betriebsoptimierung
+  befreit sind Betriebsstätten «mit einem Elektrizitätsverbrauch von weniger als 200 000 kWh pro
+  Jahr»; lit. b/c befreien Grossverbraucher- und freiwillige Zielvereinbarungen (KMU-Modell).
+  **§ 48c Abs. 2** umschreibt den Inhalt (Überprüfung der Einstell-/Verbrauchswerte HLKKSE+GA,
+  Neueinstellung bei Optimierungsbedarf), **Abs. 3** den Bericht (Planungswert + Energieverbrauch
+  der ersten zwei Betriebsjahre), **Abs. 4** die 10-jährige Aufbewahrung. In Kraft seit 1.9.2022
+  (RRB vom 14.07.2021), zeitgleich mit § 13d EnerG. Damit ist die bisher als Annahme markierte
+  200'000-kWh-Schwelle **am ZH-Primärtext verifiziert**. Amtlicher Volltext im Hub:
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`, Z. 923-944 (KB `baurecht` ist für den
+  ZH-Erlassstand führend). **Nicht** in der Verordnung enthalten ist die 5-Jahres-Kadenz — siehe
+  Abgrenzung im Bauherren-Transfer.
 - **JANS-eigener m²EBF/Pflegeplatz-Kennwert nicht eingebunden.** Die Skills
   `healthcare-wirtschaftlichkeit`/`kostenschaetzung` verfügen vermutlich über belastbarere,
   Schweiz-spezifische Flächenkennwerte aus realen JANS-Projekten (z.B. 2410 WALD/Averecura)

@@ -289,3 +289,10 @@ Norm bereits dort angerissen, hier vertieft) · [[muken-2025-verabschiedet]] (k�
 Systemwechsel Fossilverbot statt 90-%-Modell) · [[klimapraemie-heizungsersatz-klik]] (§ 11-Zitat
 Ursprung) · [[en-zh-nachweis-uebersicht]] (EN-120/EN-LCC-ZH-Formulare) ·
 [[foerderprogramm-energie-zh-2026]] · [[foerderprogramm-energie-sz-2026]].
+
+**Querbezug KB `planungsgrundlagen`** (fuehrend fuer den Formular-/Verfahrensweg): die
+Nachweisformulare zum Waermeerzeugerersatz — **EN-120** (Erneuerbare Waerme bei
+Waermeerzeugerersatz) und **EN-LCC-ZH** (Wirtschaftlichkeit/Lebenszykluskosten) — sind in
+`planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` in der Formularmatrix gefuehrt.
+Diese KB bleibt fuehrend fuer die materielle Ersatzpflicht (§ 11/11a/11b EnerG, §§ 47a-47n BBV I).
+*(Querbezug gesetzt: Wissens-Chef Run 9, 19.07.2026)*

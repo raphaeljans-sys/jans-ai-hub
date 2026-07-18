@@ -5,9 +5,13 @@ quelle: WebSearch/WebFetch-Recherche (kein Einzel-PDF): SIA-Shop-Produktseiten S
   Strohballenbau Deutschland, "Eigenschaften und technische Daten") — FASBA-Zahlen ausdrücklich als
   DE-Sekundärquelle gekennzeichnet, nicht CH-amtlich
 herausgeber: SIA (Norm SIA 279); ISO-STROH AG (Schweizer Hersteller, ETA-17/0559); FASBA e.V. (DE)
-ausgabe: SIA 279:2011 (abgelöst durch SIA 279:2018) — Normtext selbst nicht im Volltext gelesen
-  (kostenpflichtig, nur Shop-Metadaten/Sekundärzitate); iso-stroh.ch Stand Abruf 18.07.2026;
-  FASBA-Webseite Stand Abruf 18.07.2026 (kein Datenstand-Jahr auf der Seite selbst vermerkt)
+ausgabe: SIA 279:2018 (gültig; die Erstrecherche ging noch von SIA 279:2011 aus). Der Normvolltext
+  ist im Hub vorhanden und destilliert — führend ist `wissen/normen/destillate/sia-279-2018`
+  (Original-PDF aus PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Normen/alle/279_2018.pdf, Ziff. 0-3
+  komplett gelesen). Die hier ursprünglich aus Shop-Metadaten/Sekundärquellen rekonstruierte
+  Zuschlags-Systematik war falsch und wurde am 19.07.2026 (Wissens-Chef Run 9) korrigiert.
+  iso-stroh.ch Stand Abruf 18.07.2026; FASBA-Webseite Stand Abruf 18.07.2026 (kein Datenstand-Jahr
+  auf der Seite selbst vermerkt)
 gelesen: 2026-07-18
 datenstand: 2026-07-18 (Web-Recherche, kein SIA-Normvolltext gekauft)
 status: emerging (Zahlen aus Sekundärquellen/Herstellerangaben, kein SIA-279-Normvolltext selbst
@@ -19,23 +23,44 @@ last_updated: 2026-07-18
 
 **Das Wichtigste in 1 Satz:** Für Stroh als Dämmstoff nennt SIA 279 einen **Bemessungswert der
 Wärmeleitfähigkeit von rund λ = 0,041–0,042 W/(m·K)** (in der Grössenordnung von Mineralwolle),
-wobei der Bemessungswert grundsätzlich **höher** als der vom Hersteller deklarierte Nennwert (λD)
-ist, weil ein **Sicherheitszuschlag** eingerechnet wird — die exakte Zuschlagsformel selbst konnte
-in dieser Recherche nicht am SIA-279-Normvolltext nachvollzogen werden (kostenpflichtige Norm, nur
-Sekundärzitate ausgewertet); beim Brandverhalten ist eine verputzte Strohballenwand nach
+wobei der Bemessungswert für werkmässig hergestellte Dämmstoffe nach europäischen Normen dem
+deklarierten Nennwert **ohne weiteren Zuschlag entspricht** (SIA 279:2018, Ziff. 3.2.2.1) — ein
+Zuschlag ist nur für Ortdämmstoffe vorgesehen (Ziff. 3.2.2.2); beim Brandverhalten ist eine
+verputzte Strohballenwand nach
 **deutschen** FASBA-Angaben auf F30-B (Lehmputz) bis REI90 (Kalkputz) klassierbar — diese Werte sind
 ausdrücklich als DE-Quelle zu lesen und nicht unbesehen auf die Schweizer RF-Systematik zu
 übertragen.
 
 ## Bemessungswert vs. Nennwert (SIA 279) — Grundprinzip
 
+> **Querbezug KB `normen` (führend für die Norm-Fundstelle):** Die Systematik ist am Normvolltext
+> destilliert in `wissen/normen/destillate/sia-279-2018` (SIA 279:2018, Original-PDF aus dem
+> JANS-Normenbestand, status `established`). Die untenstehenden Ziffern sind von dort übernommen;
+> Rule `normen-referenz`.
+
 - **Nennwert (λD):** Wert, den der Hersteller im Rahmen der einheitlichen europäischen
   CE-Kennzeichnung für sein Produkt deklariert (Grundlage: Werksproduktionskontrolle/Typprüfung).
-- **Bemessungswert:** Wert, der für die U-Wert-Berechnung nach SIA 380/1 verwendet wird — **immer
-  höher** als der Nennwert, weil bei seiner Ermittlung ein **Sicherheitszuschlag** eingerechnet
-  wird (Feuchte, Alterung, Einbauunsicherheiten). Diese Systematik ist über die Shop-Metadaten von
-  SIA 279:2011/2018 sowie eine Fraunhofer-IRB-Zusammenfassung bestätigt, jedoch nicht mit der
-  konkreten Zuschlagsformel/dem konkreten Prozentsatz — dieser bleibt offen (siehe unten).
+  Die Sicherheiten stecken bereits in der **Ermittlung des Nennwerts**: Feuchtegleichgewicht im
+  Normalklima 23 °C/50 % r.F., Alterungseffekte über 25 Jahre, Fraktilwert λ90/90 (Gültigkeit für
+  90 % der Produktion bei 90 % Vertrauensniveau), mindestens zehn direkte Messwerte
+  (SIA 279:2018, Ziff. 2.2.3.1, S. 15).
+- **Bemessungswert:** Wert, der für die U-Wert-Berechnung nach SIA 380/1 verwendet wird.
+  **Regelfall — kein Zuschlag:** Für werkmässig hergestellte Wärmedämmstoffe nach europäischen
+  Normen entspricht der Bemessungswert dem Nennwert nach Ziff. 2.2.3 **ohne weitere Zuschläge**
+  (Ziff. 3.2.2.1, S. 17). **Ausnahme:** Nur für an der Verwendungsstelle hergestellte
+  Wärmedämmungen (Ortdämmstoffe) kann die Kommission SIA 279 einen Zuschlag für einbaubedingte
+  Unsicherheiten festlegen (Ziff. 3.2.2.2, S. 17).
+  *Korrektur 19.07.2026 (Wissens-Chef Run 9):* Die frühere Aussage «immer höher als der Nennwert,
+  weil ein Sicherheitszuschlag eingerechnet wird» war aus Shop-Metadaten/Sekundärquellen
+  rekonstruiert und ist am Normvolltext widerlegt. Damit entfällt auch die als offen geführte
+  «Zuschlagsformel» — sie existiert für den Regelfall nicht.
+- **Für Baustoffe ohne produktspezifischen Nachweis** gelten die allgemeinen tabellierten
+  Bemessungswerte (Tabelle 1/2 bzw. SN EN 1745); für neue Baustoffe ohne Tabelleneintrag kann die
+  Kommission SIA 279 einen allgemeinen Bemessungswert auf Basis technischer Prüfungen festlegen
+  (Ziff. 3.5.1/3.5.2, S. 19). Das ist der einschlägige Weg für Baustroh. Produktspezifisch
+  bestätigte Werte werden unter www.sia.ch/register (Tabelle «Baustoffkennwerte») publiziert
+  (Ziff. 3.4, S. 18) — dort ist im konkreten Projekt zu prüfen, ob für das gewählte Strohprodukt
+  ein bestätigter Wert vorliegt.
 - **Für Stroh konkret gefunden:** Zwei unterschiedliche Zahlenangaben aus zwei Sekundärquellen,
   nicht als identisch zu verstehen, sondern als Bandbreite je nach Faserrichtung/Produkt:
   - Bemessungswert **in Faserrichtung λ ≈ 0,080 W/(m·K)**, **quer zur Faserrichtung λ ≈ 0,052 W/(m·K)**
@@ -67,11 +92,22 @@ RF1–RF4 + Feuerwiderstand REI). Die Grundlagen sind eine allgemeine bauaufsich
 (Z-23.11-1595, Deutschland) und eine Europäische Technische Bewertung (ETA-17/247 «Baustroh»,
 seit 2017 EU-weit gültig «sofern nicht im Widerspruch zum nationalen Baurecht»). **Eine
 Schweizer VKF-Zulassung oder eine primärquellenbelegte RF-Klassen-Einstufung für verputzte
-Strohballenwände wurde in dieser Recherche NICHT gefunden** — das allgemeine VKF-Klassifikationsprinzip
-(RF1 kein Beitrag, RF2 geringer Beitrag z. B. Eiche/imprägniertes Holz, RF3 hinnehmbarer Beitrag
-z. B. übriges Holz, RF4 unzulässig) ist zwar bekannt (VKF-Richtlinie 13-15 «Baustoffe und
-Bauteile»), aber die konkrete Einordnung von Stroh (roh oder verputzt) in dieses Schweizer Raster
-ist ein **Negativbefund** — nicht gefunden, nicht spekulativ zu belegen.
+Strohballenwände wurde in dieser Recherche NICHT gefunden.**
+
+> **Querbezug KB `normen` (führend für die VKF-Klassierung):**
+> `wissen/normen/destillate/vkf-brl-13-15-baustoffe-bauteile` (VKF-Brandschutzrichtlinie 13-15de,
+> Ausgabe 01.01.2015, Volltext gelesen, status `established`). Von dort die verbindliche
+> Terminologie: **RF1 kein Brandbeitrag · RF2 geringer Brandbeitrag · RF3 zulässiger Brandbeitrag ·
+> RF4 unzulässiger Brandbeitrag** (Ziff. 2.1 Abs. 1, S. 5).
+
+**Präzisierung des Negativbefunds (19.07.2026, Wissens-Chef Run 9):** Der Schweizer Klassierungsweg
+selbst ist belegt und keineswegs offen — die Zuordnung **SN EN 13501-1-Klasse → RF-Gruppe** steht in
+Ziff. 2.4.1 (S. 8), alternativ VKF-BKZ → RF in Ziff. 2.4.4 (S. 12); zudem gelten Konstruktionen aus
+brennbaren Einzelschichten als Ganzes RF1, sofern allseitig K30-RF1 gekapselt. Der Negativbefund
+betrifft ausschliesslich die **produktbezogene EN-13501-1-Klasse bzw. VKF-Anerkennung für Baustroh**
+(roh oder verputzt) — die fehlt, und ohne sie ist die RF-Einstufung nicht ableitbar. Die früher hier
+genannten Holzbeispiele (Eiche/imprägniertes Holz/übriges Holz) sind durch das BRL-13-15-Destillat
+nicht gedeckt und wurden gestrichen.
 
 ## Feuchteverhalten — Ergänzung zum bestehenden Destillat
 
@@ -96,8 +132,13 @@ werden.
 
 ## Offene Punkte
 
-- **SIA-279-Normvolltext nicht gelesen** (kostenpflichtig) — die genaue Zuschlagsformel/der genaue
-  Prozentsatz vom Nennwert zum Bemessungswert bleibt unbelegt, nur das Prinzip ist bestätigt.
+- ~~SIA-279-Normvolltext nicht gelesen (kostenpflichtig) — Zuschlagsformel offen.~~
+  **Geschlossen 19.07.2026 (Wissens-Chef Run 9):** Der Volltext liegt im JANS-Normenbestand und ist
+  in `wissen/normen/destillate/sia-279-2018` destilliert. Es gibt für den Regelfall gar keinen
+  Zuschlag (Ziff. 3.2.2.1) — die gesuchte Formel existiert nicht.
+- **Bemessungswert für Baustroh nach Ziff. 3.5 nicht abschliessend geklärt** — offen bleibt, ob für
+  ein konkretes Strohprodukt ein von der Kommission SIA 279 bestätigter Wert im SIA-Register
+  (www.sia.ch/register, Tabelle «Baustoffkennwerte») steht. Im Projektfall dort nachschlagen.
 - **Schweizer VKF-Einstufung von (verputzter) Strohdämmung nicht gefunden** — Negativbefund, nicht
   spekulieren. Nächster Schritt wäre eine direkte Anfrage an ein Schweizer Brandschutzbüro oder die
   VKF-Produkteregister-Datenbank (swissfireprotection.ch/vkf-cerinand-Register) gezielt nach
@@ -108,4 +149,9 @@ werden.
 
 ## Backlinks
 
-[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]] · [[werkhof29-zirkulaeres-bauen-stroh-lehm]]
+[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]] · [[werkhof29-zirkulaeres-bauen-stroh-lehm]] ·
+[[daemmstoffe-lambda]]
+
+**Cross-KB `normen` (führend für die Norm-Fundstellen):**
+`wissen/normen/destillate/sia-279-2018` (Bemessungs-/Nennwert-Systematik, Tabelle 1) ·
+`wissen/normen/destillate/vkf-brl-13-15-baustoffe-bauteile` (RF-Klassen, EN 13501-1 → RF)

@@ -190,3 +190,15 @@ in BKP 2), im **Bestand** entsteht zusätzlich der Aufwand für Anzeige-/Formvor
   https://svw-asc.ch/wp-content/uploads/2024/02/241118-Gesetzliche-Grundlagen_SVW_ASC_-1.pdf
 - Interface Politikstudien im Auftrag BFE, **«Konzept, Vollzug und Wirkung der VHKA»** (Projekt 2007/2008),
   https://www.interface-pol.ch/app/uploads/2018/09/Bl_VHKA_P07_19.pdf
+
+## Querbezug KB `planungsgrundlagen` (Formular-/Verfahrensebene)
+
+Der **Formular- und Verfahrensweg** zur VHKA ist in der KB `planungsgrundlagen` gefuehrt, dort
+fuehrend: `wiki/energie-energienachweis-zh-formulare.md` (Formularmatrix ZH/SZ). Insbesondere
+haelt der SZ-Teil den Befund, dass das Formular **EN-101c** die VHKA als separat zu pruefenden
+Punkt markiert und dabei von einer «verschaerften VHKA-Anforderung im Kt. SZ (KEnV § 26)»
+spricht. Diese Formular-Formulierung ist am Erlasstext noch **nicht gegengelesen**; sie steht
+neben der hier gefuehrten materiellen Gegenueberstellung ZH/SZ (SRSZ 420.111 §§ 25-27, § 9 EnerG
+ZH, § 44 BBV I). Zu klaeren, worauf sich das Formular stuetzt — Kandidat ist § 26 Abs. 2 EnV 1.
+Diese KB bleibt fuehrend fuer Rechtsgrundlage und Schwellenwerte.
+*(Querbezug gesetzt: Wissens-Chef Run 9, 19.07.2026)*

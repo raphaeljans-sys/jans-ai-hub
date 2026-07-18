@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): zwei falsche Rechtszuschreibungen korrigiert, Bring-Schuld geschlossen
+- **F100/Modul-7-Destillat (CONFIRMED, hoch):** Die behauptete **5-Jahres-Kadenz der
+  Betriebsoptimierung als geltendes ZH-Recht** ist am amtlichen Volltext widerlegt. § 13d Abs. 1
+  EnerG verlangt sie nur «innerhalb dreier Jahre nach Inbetriebsetzung»; §§ 48a-48c BBV I kennen
+  **keine** Periodizitaet. Die fuenf Jahre sind MuKEn-Musterrecht (Art. 7.4 MuKEn 2025 / Art. 8.4
+  MuKEn 2014). → F100 mit Abgrenzungskasten korrigiert, Destillat (1-Satz, Zielgruppen-Absatz,
+  Bauherren-Transfer) bereinigt.
+- **Fossilfrei-Gebot (CONFIRMED, hoch):** durchgehend **§ 10a EnerG** zugeschrieben — amtlich ist es
+  **§ 11 Abs. 1 EnerG**; § 10a ist die Effizienz-/Delegationsnorm. 7 Fundstellen korrigiert
+  (`wiki/energienachweis-zh`, `wiki/heizleistung-und-waermeerzeuger`, `wiki/BAUHERREN-FAQ` 2x,
+  `destillate/en-zh-nachweis-uebersicht`, `destillate/wta-formular-zh-...`,
+  `destillate/waermepumpe-systemvergleich`).
+- **200'000-kWh-Bring-Schuld GESCHLOSSEN:** der als «beim AWEL anfragen» gefuehrte Punkt ist am
+  ZH-Primaertext belegt — **§ 48c Abs. 1 lit. a BBV I** (amtlicher Volltext liegt seit Wochen in
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`, Z. 923-944). Inhalt/Bericht/10-Jahres-Aufbewahrung
+  ebenfalls belegt (Abs. 2-4).
+- **Naturdaemmstoff-Destillat (Run 79) materiell korrigiert:** «Bemessungswert immer hoeher als
+  Nennwert (Sicherheitszuschlag)» ist falsch — SIA 279:2018 **Ziff. 3.2.2.1**: fuer werkmaessig
+  hergestellte Daemmstoffe nach europaeischen Normen **kein Zuschlag**; Zuschlag nur fuer
+  Ortdaemmstoffe (Ziff. 3.2.2.2). Der offene Punkt «Zuschlagsformel» war eine **Scheinluecke** und
+  ist geschlossen. Ursache: das Destillat wurde aus Shop-Metadaten gebaut, obwohl der Normvolltext
+  im JANS-Bestand liegt und seit 12.07.2026 in `normen` destilliert ist. → Querbezuege zu
+  `normen/destillate/sia-279-2018` und `.../vkf-brl-13-15-baustoffe-bauteile` gesetzt,
+  RF-Terminologie auf Ziff. 2.1 korrigiert, Negativbefund Baustroh praezisiert (der
+  Klassierungsweg EN 13501-1 → RF ist belegt; es fehlt nur die produktbezogene Klasse).
+- **Querbezuege gesetzt:** `vhka-...` und `oelheizung-gasheizung-ersatzpflicht-...` verweisen neu auf
+  die Formular-/Verfahrensebene in `planungsgrundlagen`.
+- Bericht: `wissen/koordination/outputs/2026-07-19_wissens-chef-run9.md`.
+
 ## 2026-07-18 — Run 80 (Verifikations-Lauf: zwei established-Aussagen am Original nachgeprüft)
 
 Kein PDF-Transfer (Inventar seit Run 65 erschöpft). Der Lauf schloss die zwei letzten offenen

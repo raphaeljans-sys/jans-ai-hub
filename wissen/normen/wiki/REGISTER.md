@@ -263,7 +263,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 2021 | 2002 | 2002✓ |  |
 | SIA 2022 | 2003 | 2003✓ |  |
 | SIA 2023 | 2008 | 2008✓ · 2004✗ |  |
-| SIA 2024 | 2006 | 2006✓ | **⚠ neuere Ausgabe SIA 2024:2021** (ersetzt 2015; gueltig ab 1.12.2021, inkl. Korrigenda C1:2024) — in KB energie `destillate/sia-2024-nutzungsdaten-gesundheitsbau` als aktuell gefuehrt; Register-Stand 2006 ueberholt, Re-Destillat 2021 ausstehend (Quelle SIA-Shop; Wissens-Chef Run 4, 14.07.2026) |
+| SIA 2024 | 2006 | 2006✓ | **⚠ neuere Ausgabe SIA 2024:2021** (ersetzt 2015; gueltig ab 1.12.2021, inkl. Korrigenda C1:2024) — in KB energie `destillate/sia-2024-nutzungsdaten-gesundheitsbau` als aktuell gefuehrt; Register-Stand 2006 ueberholt, Re-Destillat 2021 ausstehend (Quelle SIA-Shop; Wissens-Chef Run 4, 14.07.2026). **Freie amtliche Interims-Quelle vorhanden:** SIA-Grundlagenbericht zur Revision 2021 inkl. Korrigenda C1:2024 (cms.sia.ch/de/api/getMedia/941, 20.10.2024), in KB `energie` ausgewertet und am 18.07.2026 (energie Run 80) verifiziert — deckt Systematik, Gebaeudekategorien und die Elektrizitaetskennzahlen Kat. VIII (Ziff. 4.2.1/4.2.3), **nicht** die Raumdatenblaetter Anhang A/F. Bring-Schuld damit auf den Volltext Anhang A/F und die zitierfaehige Ziffern-Fundstelle verengt (Wissens-Chef Run 9, 19.07.2026) |
 | SIA 2025 | 2012 | 2012✓ |  |
 | SIA 2026 | 2006 | 2006✓ |  |
 | SIA 2027 | 2006 | 2006✓ |  |

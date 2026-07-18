@@ -44,6 +44,86 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ normen (SIA 279 Bemessungswert, VKF-BRL 13-15, SIA 2024) — geprueft 2026-07-19 (Run 9)
+- **Anlass:** neuer Stoff aus energie Run 79/80 (18.07.2026).
+- **Befund 1 (CONFIRMED, hoch):** WIDERSPRUCH. Das neue Destillat
+  `naturdaemmstoffe-bemessungswerte-brandverhalten` fuehrte «Bemessungswert **immer hoeher** als
+  Nennwert (Sicherheitszuschlag)» — am Normvolltext widerlegt: SIA 279:2018 **Ziff. 3.2.2.1**
+  (werkmaessig hergestellte Daemmstoffe nach europaeischen Normen: Bemessungswert = Nennwert,
+  **ohne Zuschlag**), Zuschlag nur fuer Ortdaemmstoffe (Ziff. 3.2.2.2). Die Sicherheiten stecken in
+  der Nennwert-Ermittlung (Ziff. 2.2.3.1: 23 °C/50 % r.F., Alterung 25 J, λ90/90).
+  → Passage korrigiert, «Zuschlagsformel» als Scheinluecke geschlossen, Weg fuer Baustroh auf
+  Ziff. 3.5/SIA-Register gestellt.
+- **Befund 2 (CONFIRMED, hoch):** energie fuehrte den SIA-279-Volltext als «nicht gelesen
+  (kostenpflichtig)», obwohl er im JANS-Normenbestand liegt und seit 12.07.2026 in `normen`
+  destilliert ist (`established`). Ursache des Widerspruchs oben. → Querbezugs-Block gesetzt,
+  Frontmatter auf SIA 279:2018 korrigiert.
+- **Befund 3 (CONFIRMED, mittel):** VKF-BRL 13-15 ohne Verweis auf das normen-Destillat zitiert;
+  Terminologie abweichend («RF3 hinnehmbarer Beitrag» statt Ziff. 2.1 «zulaessiger Brandbeitrag»),
+  Holzbeispiele ungedeckt. → verlinkt, Terminologie korrigiert, Negativbefund praezisiert auf
+  «keine produktbezogene EN-13501-1-Klasse/VKF-Anerkennung fuer Baustroh» (der **Klassierungsweg**
+  ist belegt: Ziff. 2.4.1 EN 13501-1 → RF, Ziff. 2.4.4 BKZ → RF, Kapselungsregel K30-RF1).
+- **Befund 4 (CONFIRMED, mittel):** normen fuehrte die SIA-2024:2021-Bring-Schuld unveraendert als
+  «kostenpflichtiger Volltext», obwohl energie Run 80 eine **freie amtliche Quelle** erschlossen hat
+  (SIA-Grundlagenbericht Revision 2021 inkl. C1:2024). → REGISTER-Zeile ergaenzt, Bring-Schuld auf
+  Anhang A/F + zitierfaehige Ziffern-Fundstelle **verengt** statt geschlossen.
+- **Befund 5 (REFUTED):** «Tabelle 6 der SIA 380/1» sei eine unverifizierbare Norm-Fundstelle. Es
+  ist eine **Erlass**-Aussage (WDV § 2 Abs. 1 lit. b) und am Erlass vollstaendig belegt — keine
+  Uebergabe an `normen` noetig. *(Nebenbefund, noch offen: die Klammer «(Heizwaermebedarf, § 3)» im
+  WDV-Destillat ist auf «Verweis in WDV § 2 Abs. 1 lit. b» zu korrigieren.)*
+- **Status: bereinigt; 1 Nebenbefund offen (WDV-Klammer), Bring-Schuld SIA 2024 verengt.**
+
+### energie ↔ planungsgrundlagen (VHKA, WDV, Oel-/Gasheizung) — geprueft 2026-07-19 (Run 9)
+- **Befund 1 (CONFIRMED, mittel):** VHKA-Stoff wird in beiden KBs gefuehrt (pg: Formularbefund
+  EN-101c/KEnV § 26 SZ; energie: materielle ZH/SZ-Gegenueberstellung) — **null gegenseitige
+  Verweise**. → bidirektionaler Prosa-Querbezug gesetzt (nicht im Frontmatter-`links`-Feld, das
+  erzeugt tote Backlinks). Fuehrend: `energie` fuer Rechtsgrundlage/Schwellenwerte, `planungs-
+  grundlagen` fuer Formular/Verfahren.
+- **Befund 2 (CONFIRMED, tief):** planungsgrundlagen zitiert WDV-Paragrafen, ohne auf das
+  primaerquellen-verifizierte WDV-Destillat der KB energie zu zeigen (grep «LS 700.211» in
+  planungsgrundlagen: 0 Treffer). → Verweiszeile ergaenzt.
+- **Befund 3 (REFUTED):** «pg spricht von verschaerfter SZ-Anforderung, energie belegt das
+  Gegenteil». Die Praemisse «SZ in allen Parametern milder» ist am energie-Destillat selbst falsch
+  (§ 27 EnV 1 SZ kennt **keine** Minergie-Befreiung, ZH schon → SZ dort strenger). Kein Widerspruch;
+  das Formularwort «verschaerft» bleibt als Zitat stehen, mit Pruefvorbehalt.
+- **Befund 4 (REFUTED):** fehlende Bruecke Oel-/Gasheizungs-Ersatzpflicht. Die Bruecke existiert
+  bereits eine Ebene hoeher (`energie/wiki/energienachweis-zh.md` Z. 40-44, inkl. Fuehrungs-
+  klaerung) — der Leser hatte nur auf Destillat-Ebene gesucht. Trotzdem als **billiger Zusatznutzen**
+  beidseitig verlinkt.
+- **Befund 5 (REFUTED):** Doppelspur Betriebsoptimierung mit angeblicher Luecke bei planungs-
+  grundlagen. Umgekehrt richtig — die Praezisierungs-Schuld lag bei `energie` (siehe Paar
+  energie ↔ baurecht, Befund 1). **Zwei unabhaengige Agenten sind ueber dieselbe Stelle gestolpert.**
+- **Status: bereinigt.**
+
+### energie ↔ baurecht (Energienachweis-/Vollzugsrecht ZH) — geprueft 2026-07-19 (Run 9)
+- **Befund 1 (CONFIRMED, hoch):** WIDERSPRUCH. `BAUHERREN-FAQ` F100 und das Modul-7-Destillat
+  behaupteten eine **5-Jahres-Kadenz der Betriebsoptimierung als geltendes ZH-Recht (§ 13d EnerG)**.
+  Am amtlichen Volltext widerlegt: § 13d Abs. 1 EnerG verlangt sie nur «innerhalb dreier Jahre nach
+  Inbetriebsetzung»; §§ 48a-48c BBV I regeln Befreiung/Inhalt/Bericht/Aufbewahrung, **keine
+  Periodizitaet**. Die 5 Jahre sind **MuKEn-Musterrecht** (Art. 7.4 MuKEn 2025 / Art. 8.4 MuKEn 2014).
+  → F100 + Destillat auf den belegten ZH-Stand zurueckgenommen, MuKEn/ZH sauber getrennt.
+- **Befund 2 (CONFIRMED, hoch):** WIDERSPRUCH. Das **Fossilfrei-Gebot fuer Neubauten** wurde in der
+  energie-KB durchgehend **§ 10a EnerG** zugeschrieben — amtlich steht es in **§ 11 Abs. 1 EnerG**
+  («Der Energiebedarf von Neubauten … muss ohne CO₂-Emissionen aus fossilen Brennstoffen gedeckt
+  werden»); § 10a ist die Effizienz-/Delegationsnorm («moeglichst wenig Energie»). Beide durch
+  dasselbe G vom 19.04.2021 per 1.9.2022 in Kraft — kein Fassungsfenster, das die Zuschreibung
+  rettet. → 8 Fundstellen in `energie` + `planungsgrundlagen` korrigiert.
+- **Befund 3 (CONFIRMED, hoch):** FEHLENDE QUERVERLINKUNG. energie fuehrte den 200'000-kWh-Wert als
+  offene Bring-Schuld («beim AWEL anfragen»), obwohl `baurecht` den amtlichen Verordnungstext haelt:
+  **§ 48c Abs. 1 lit. a BBV I** (raw/260607_amtlich_zh_bbv1.md, Z. 923-944). → Bring-Schuld
+  geschlossen, Schwellenwert am ZH-Primaertext verifiziert, Aufbewahrungspflicht mitbelegt.
+- **Befund 4 (CONFIRMED, mittel):** VERALTETES in `baurecht`. `baureife-und-erschliessung.md` zitiert
+  im Praesens «§§ 8a/9–13 EnerG» — korrekt uebernommener **Buchstand 2019**, aber § 13 EnerG ist per
+  1.9.2022 aufgehoben. → auf Nachtrag 129 nachgefuehrt; § 8a **nicht** stillschweigend gestrichen
+  (die raw-Datei deckt ihn nicht ab), sondern als offener Verifikationspunkt markiert.
+- **Befund 5 (CONFIRMED, mittel):** DOPPELSPURIGKEIT. `energie` gibt die Fuehrung im Energierecht
+  ausdruecklich an `baurecht` ab («nicht doppeln»), fuehrt aber in drei Rechts-Destillaten
+  ZH-EnerG-Paragrafen auf Absatz- und Fassungsstand-Ebene. Heute inhaltlich deckungsgleich — das
+  Risiko ist die naechste EnerG-Revision, die dann an zwei Orten nachzuziehen waere.
+  → **NICHT selbst aufgeloest: offener Entscheid fuer Raphael (E1, siehe unten).**
+- **Befund 6 (CONFIRMED, mittel):** VERALTETES im eigenen Register (Rotationsliste). → bereinigt.
+- **Status: bereinigt bis auf E1 (Doppelspur Energierecht ZH) + § 8a EnerG offen.**
+
 ### normen ↔ planungsgrundlagen (Brandschutz VKF/BSR 16-15) — geprueft 2026-07-18 (Run 8)
 - **Befund:** Die Ausgangsvermutung (Ausgaben-Widerspruch «2022 vs. 2015/2017») ist **REFUTED** —
   beide KBs sind sich einig, dass die Ausgabe 2015 ist; pg spricht sauber von «Fassung/Stand».
@@ -364,9 +444,17 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   ±25 % legitim, reale Bauteuerung 2023->2026 ~2-3 %. Teuerungs-Check-Verlinkung gesetzt. **Erledigt.**
 
 ## Noch nie gepruefte Paare (Rotation kuenftige Laeufe)
-- energie ↔ baurecht (Energienachweis-Pflicht im Bewilligungsverfahren) — Vorschlag Run 3
+
+> **Bereinigt Run 9 (19.07.2026):** Die Liste war zur Karteileiche geworden — vier der sechs
+> Zeilen betrafen Paare, die laengst datierte Prueflauf-Eintraege haben (energie ↔ baurecht sogar
+> doppelt gefuehrt und dreimal beruehrt: Run 3, Run 6, Run 9). **Regel ab jetzt:** ein Paar wandert
+> mit dem Eintrag seines datierten Prueflaufs automatisch aus dieser Liste; vor jedem Lauf die
+> Rotationsliste gegen die «geprueft»-Ueberschriften diffen. Offene Restfragen gehoeren an den
+> datierten Paar-Eintrag, nicht hierhin.
+
 - kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext)
-- immobilienbewertung ↔ grobkosten (Landwert/Residual ↔ Kennwerte) — vertieft
-- energie ↔ baurecht (Energienachweis-Pflicht im Bewilligungsverfahren)
-- normen ↔ energie (SIA 380/1, SIA 180/181 ↔ energie U-Werte/Schallschutz)
 - architekten-synobsis ↔ entwurfs-referenzen (Referenz-/Entwurfswissen)
+
+*Ausgetragen 19.07.2026 (bereits gepruefte Paare):* energie ↔ baurecht (2x, → Run 3/Run 6/Run 9) ·
+immobilienbewertung ↔ grobkosten vertieft (→ Run 3, bereinigt) · normen ↔ energie SIA 380/1,
+SIA 180/181 (→ Run 3 + Run 7; offener Restpunkt SIA-181:2020-Destillat bleibt dort vermerkt).

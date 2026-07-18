@@ -28,7 +28,7 @@ weiter — nur das Medium hat gewechselt.
 | Thema | Formular(e) | Kurz-Pflicht |
 |---|---|---|
 | **MINERGIE-Label** | — | Bei Minergie-Zertifikat entfallen EN-101 bis EN-111 (Kopie provis. Zertifikat beilegen). |
-| **Energiebedarf** | EN-101a Standardloesungskombination / EN-101b Rechnerische Loesung / EN-101c Vereinfacht ENteb | Neubau: Heizung/WW/Lueftung/Klima **ohne CO₂ aus fossilen Brennstoffen** (§10a EnerG) → faktisch keine fossile Heizung im Neubau. |
+| **Energiebedarf** | EN-101a Standardloesungskombination / EN-101b Rechnerische Loesung / EN-101c Vereinfacht ENteb | Neubau: Heizung/WW/Lueftung/Klima **ohne CO₂ aus fossilen Brennstoffen** (**§ 11 Abs. 1 EnerG**; die Effizienz-/Bedarfsanforderung selbst steht in § 10a EnerG) → faktisch keine fossile Heizung im Neubau. |
 | **Waermedaemmung Huelle** | EN-102a Einzelbauteil / EN-102b System | nach **SIA 380/1 «Heizwaermebedarf», Ausgabe 2016**. Neubau: ganze beheizte Zone; Umbau/Umnutzung: nur betroffene Bauteile/Raeume. Einzelbauteil nur bei Wohnnutzung. |
 | **Heizung/Warmwasser** | EN-103 / EN-LCC-ZH (Wirtschaftlichkeit) / EN-120 (erneuerbare Waerme b. Erzeugerersatz) | Bei **Heizungsersatz im Bestand**: erneuerbare Energie Pflicht, wenn techn. moeglich & Lebenszykluskosten max. +5 %; sonst EN-LCC-ZH + EN-120 (10 % erneuerbare Waerme). §§11/11a/11b EnerG. |
 | **Eigenstrom Neubau** | EN-104-ZH (Eigenstrom/ZEV) **oder** EN-101b (Reduktion 20 %) | PV ≥ **10 W/m² EBF** (auf Grundstueck o. im ZEV); bei hohen Bauten max. **70 %** der anrechenbaren Gebaeudeflaeche belegt. Alternativ Energiebedarf um ≥20 % unterschreiten → Verzicht moeglich (§10c EnerG). |

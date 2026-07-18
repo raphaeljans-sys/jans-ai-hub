@@ -4,6 +4,23 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): veraltete EnerG-Nummerierung im Erschliessungsartikel nachgefuehrt
+- **VERALTETES (CONFIRMED):** `wiki/baureife-und-erschliessung.md` zitierte im Praesens
+  «§§ 8a/9–13 EnerG». Die Spanne ist ein korrekt uebernommener **Buchstand 2019**
+  (Fritzsche/Boesch/Wipf/Kunz, Bd 2 Kap. 12), aber **§ 13 EnerG ist per 1.9.2022 aufgehoben** und
+  durch die §§ 13a-13d ersetzt (andere Materie). → auf den Stand Nachtrag 129 nachgefuehrt
+  (§ 10a Deckung Waermebedarf Neubauten · § 10b elektrische Widerstandsheizungen · § 10c
+  Eigenstromerzeugung · § 11 Waermeerzeuger inkl. Fossilfrei-Gebot Neubau · §§ 13a-13d
+  Grossverbraucher/GEAK/Betriebsoptimierung), Belegquelle `raw/260712_amtlich_zh_energ.md`.
+- **§ 8a EnerG bewusst NICHT gestrichen:** die vorliegende raw-Datei deckt nur §§ 9-14 ab, der
+  Bestand von § 8a ist damit nicht verifizierbar. Als offener Punkt markiert (E2 im Run-9-Bericht),
+  schliessbar mit einem gezielten raw-Nachtrag im naechsten Buch-Run.
+- **Die baurecht-KB hat in diesem Lauf zweimal als Wahrheitsquelle gewirkt:** der amtliche
+  EnerG-Volltext hat eine falsche Fossilfrei-Zuschreibung (§ 10a statt § 11 Abs. 1) und eine
+  nicht existierende 5-Jahres-Pflicht in der KB `energie` gekippt; `raw/260607_amtlich_zh_bbv1.md`
+  (§ 48c BBV I) hat dort eine offene Bring-Schuld geschlossen.
+- Bericht: `wissen/koordination/outputs/2026-07-19_wissens-chef-run9.md`.
+
 ## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): Rueckverweis auf planungsgrundlagen + LS-Nummern-Hinweis
 - **Befund:** `wiki/abstaende-und-hoehen.md` fuehrt den ganzen Gewaesserraum-Stoff (Z. 137 ff.),
   verlinkte aber nur den Baulinien-Beschaffungsartikel — die Verlinkung zur Schwester-KB war

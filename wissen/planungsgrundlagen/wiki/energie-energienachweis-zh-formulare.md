@@ -13,7 +13,11 @@ mit Formularnummer, Inhalt und Rechtsbezug. Quelle ist das **Hauptformular EN-ZH
 Juli 2022, Formular-Nr. EN-ZH-005), das auf Seite 2 die **Checkliste aller Bestandteile des
 Projekt-Nachweises** fuehrt, und die Detailformulare EN-105 / EN-110-ZH. Faktenbasis Recht →
 `[[recht-norm-quellenlandkarte]]` und Skill `baurecht`; Physik/U-Werte → KB `wissen/energie/`
-(`[[u-werte-grenzwerte-ch]]`).
+(`[[u-werte-grenzwerte-ch]]`). Der **WDV-Volltextstand** (Waermedaemmvorschriften der Baudirektion,
+LS 700.211, vom 8.6.2022, in Kraft seit 1.9.2022, zhlex-Nachtrag 118 — die Ausgabe 2009 ist
+aufgehoben) wird ebenfalls in der KB `energie` gefuehrt, primaerquellen-verifiziert in
+`[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`; die Daemmstaerken/UR-Werte stehen dort in
+§ 6 Abs. 2/3 WDV (Wissens-Chef Run 9, 19.07.2026).
 
 ## ⚠ Bezug 2026: EVEN statt PDF (zwingend zuerst lesen)
 
@@ -61,9 +65,9 @@ Bewilligungsbehoerden».
 | Fachbereich | Formular(e) | Inhalt / Wahl | Rechtsbezug (Hinweis EN-ZH) |
 |---|---|---|---|
 | **MINERGIE-Label** | (Label-Zertifikat) | bei MINERGIE-Label **entfallen EN-101 bis EN-111** | § 4 Abs. 3 BBV I (→0) |
-| **Energiebedarf** (Deckung Waermebedarf Neubau, CO₂-frei) | **EN-101a** Standardloesungskombination · **EN-101b** Rechnerische Loesung · **EN-101c** Vereinfachter Nachweis ENteb | bei Neubau / neubauartigem Umbau / Anbau+Aufstockung | § 10a EnerG · § 47a BBV I · §§ 8-9 WDV (→1) |
+| **Energiebedarf** (Deckung Waermebedarf Neubau, CO₂-frei) | **EN-101a** Standardloesungskombination · **EN-101b** Rechnerische Loesung · **EN-101c** Vereinfachter Nachweis ENteb | bei Neubau / neubauartigem Umbau / Anbau+Aufstockung | § 10a EnerG (Bedarf/Effizienz) · **§ 11 Abs. 1 EnerG** (CO₂-frei) · § 47a BBV I · §§ 8-9 WDV (→1) |
 | **Waermedaemmung Gebaeudehuelle** | **EN-102a** Einzelbauteilnachweis · **EN-102b** Systemnachweis | SIA 380/1 Ausgabe 2016; Einzelbauteilnachweis nur bei Wohnnutzung | §§ 15-18 BBV I · §§ 2-3 WDV (→2a/2b) |
-| **Heizungs- & Warmwasseranlagen** | **EN-103** Heizungs-/WW-Anlagen · **EN-LCC-ZH** Wirtschaftlichkeit · **EN-120** Erneuerbare Waerme bei Waermeerzeugerersatz | bei fossilem Wiedereinbau: EN-LCC-ZH (Wirtschaftl.) **+** EN-120 (10 % erneuerb.) | §§ 22a-26, 30a, 42-44 BBV I; §§ 11/11a/11b EnerG · §§ 47d-47n BBV I (→3a/3b) |
+| **Heizungs- & Warmwasseranlagen** | **EN-103** Heizungs-/WW-Anlagen · **EN-LCC-ZH** Wirtschaftlichkeit · **EN-120** Erneuerbare Waerme bei Waermeerzeugerersatz (materielle Ersatzpflicht → KB `energie`, `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`) | bei fossilem Wiedereinbau: EN-LCC-ZH (Wirtschaftl.) **+** EN-120 (10 % erneuerb.) | §§ 22a-26, 30a, 42-44 BBV I; §§ 11/11a/11b EnerG · §§ 47d-47n BBV I (→3a/3b) |
 | **Eigenstromerzeugung Neubau** | **EN-104-ZH** Eigenstrom/ZEV · **EN-101b** Reduktion Energiebedarf 20 % | min. **10 W/m² EBF**; hohe Bauten: PV max **70 %** der anrechenbaren Gebaeudeflaeche; −20 % Bedarf → Verzicht moeglich | § 10c EnerG · § 47b BBV I (→4a/4b) |
 | **Lueftung, Kuehlung & Befeuchtung** | **EN-105** Lueftungstechnische Anlagen · **EN-110-ZH** Kuehlung/Befeuchtung | EN-110-ZH **nur bestehende Bauten/Umbau — bei Neubau kein EN-110** | § 29 + Anh. 2.31 BBV I (Lueftung); § 45 BBV I (Kuehlung) (→5) |
 | **Beleuchtung** | **EN-111** | Nichtwohnbauten **>1000 m² EBF** (Wohnen ausgenommen); SIA 387/4 | § 45a BBV I (→6) |
@@ -163,6 +167,15 @@ Parz. 3301, gleicher Fall wie `[[kartenportale-ebau-sz-baugesuch]]`/`[[kartenpor
 - **VHKA-Pflicht (Verbrauchsabhaengige Heizkostenabrechnung):** Formular verweist auf eine
   **"verschaerfte VHKA-Anforderung im Kt. SZ (KEnV § 26)"** — im Formular als separat zu
   pruefender Punkt markiert, nicht automatisch aus den uebrigen Kennwerten abgeleitet.
+
+  > **Querbezug KB `energie` (fuehrend fuer Rechtsgrundlage und Schwellenwerte):** Die materielle
+  > VHKA-Pflicht ZH/SZ (Nutzeinheiten-Schwellen, Befreiungstatbestaende, KEnV-/EnV-1- und
+  > BBV-I-Fundstellen) ist kanonisch im Destillat `wissen/energie/destillate/`
+  > `vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz` gefuehrt (status `established`). Hier
+  > steht nur der Formular-/Verfahrensbefund (EN-101c-Pruefhinweis). Das Formularwort
+  > «verschaerft» ist als Formular-Zitat wiedergegeben und am Erlasstext noch nicht
+  > gegengelesen — vor Verwendung im Projekt gegen SRSZ 420.111 §§ 25-27 pruefen
+  > (Wissens-Chef Run 9, 19.07.2026).
 - **Einordnung:** analog zur ZH-Logik unterschreibt ein **Verfasser Nachweis** (Dropdown-Feld)
   sowie ein **Kontrollbeauftragter**; die fachliche Struktur (U-Werte, Waermebruecken,
   Grenzwert Energiebedarf) deckt sich mit dem ZH-System (§§ SIA 380/1 bleiben gesamtschweizerisch

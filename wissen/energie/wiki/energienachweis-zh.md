@@ -25,7 +25,7 @@ schalltechnischen) Vorschriften erfuellt. Das EN-ZH-Deckblatt (heute EVEN) ist d
 | Thema | Formular | Kurz |
 |---|---|---|
 | Minergie-Label | — | mit Zertifikat entfallen EN-101 bis EN-111 |
-| Energiebedarf | EN-101a/b/c | Neubau ohne CO₂ aus fossilen Brennstoffen (§10a EnerG) |
+| Energiebedarf | EN-101a/b/c | Neubau ohne CO₂ aus fossilen Brennstoffen (**§ 11 Abs. 1 EnerG**); Bedarfs-/Effizienzanforderung § 10a EnerG |
 | Waermedaemmung Huelle | EN-102a/b | SIA 380/1:2016; Einzelbauteil (nur Wohnnutzung) o. System |
 | Heizung/WW | EN-103, EN-LCC-ZH, EN-120 | Erzeugerersatz Bestand: erneuerbar Pflicht (max +5 % LZK) sonst EN-LCC-ZH + 10 % erneuerbar (EN-120) |
 | Eigenstrom Neubau | EN-104-ZH (o. EN-101b) | PV ≥ 10 W/m² EBF, hohe Bauten max. 70 % Belegung; oder Energiebedarf −20 % |

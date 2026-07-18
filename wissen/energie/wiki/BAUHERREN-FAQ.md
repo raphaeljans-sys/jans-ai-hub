@@ -174,7 +174,7 @@ Energiebedarf (EN-101), Waermedaemmung (EN-102), keine fossile Heizung, eine **P
 Erneuerbare-Waerme-Nachweis (EN-120 / EN-LCC-ZH).
 
 **Fachlich:** Das EN-ZH-Deckblatt (heute EVEN) ist die Checkliste der Einzelnachweise:
-- **Energiebedarf** EN-101 — Neubau ohne CO₂ aus fossilen Brennstoffen (§10a EnerG).
+- **Energiebedarf** EN-101 — Neubau ohne CO₂ aus fossilen Brennstoffen (**§ 11 Abs. 1 EnerG**; § 10a EnerG = Bedarfs-/Effizienzanforderung).
 - **Waermedaemmung Huelle** EN-102 (Einzelbauteil/System) nach **SIA 380/1:2016**.
 - **Heizung/WW** EN-103; bei Erzeugerersatz im Bestand erneuerbare Waerme (EN-120) bzw.
   Wirtschaftlichkeit (EN-LCC-ZH) — neues fossiles System nur mit Zusatznachweisen.
@@ -344,7 +344,7 @@ Verfahren); eingereicht wird **immer an die Gemeinde (zHd. Bauamt)**, beteiligt 
 | **Holz (Pellets/Schnitzel)** | Feuerpolizei + Abgasanlage (Brandschutz) |
 | **Neubau (jede Heizung)** | immer **Formular EN-103** (Private Kontrolle), sonst kostenpflichtige Kontrolle |
 
-Energierecht (Kt. ZH): **§ 10a EnerG** — Neubau ohne fossile Brennstoffe; **§ 11 EnerG / EN-LCC-ZH**
+Energierecht (Kt. ZH): **§ 11 Abs. 1 EnerG** — Neubau ohne fossile Brennstoffe; **§ 11 EnerG / EN-LCC-ZH**
 — fossiler Kessel im Bestand nur mit Lebenszykluskosten-Nachweis + Erneuerbar-Pruefung (EN-120);
 **§ 23 BBV I** — neue Heizflaechen auf max. 35 °C Vorlauf auslegen (genau die Bedingung fuer eine
 effiziente Waermepumpe). Tipp: **zuerst Foerdergesuch, dann bauen** (vgl. F7).
@@ -3706,10 +3706,24 @@ nicht im Gesetzestext selbst enthalten).
 
 **Kurz-Antwort für den Bauherrn:** Im Kanton Zürich ja, und zwar schon heute — nicht erst mit einer
 künftigen MuKEn-2025-Umsetzung. Für Nichtwohnbauten mit mindestens **200'000 kWh Stromverbrauch pro
-Jahr** gilt seit dem 1.9.2022 (§ 13d EnerG) die Pflicht, innert dreier Jahre nach Inbetriebsetzung
-und danach **alle 5 Jahre** eine dokumentierte Betriebsoptimierung der Gewerke
-Heizung/Lüftung/Klima/Kälte/Sanitär/Elektro/Gebäudeautomation (HLKKSE + Gebäudeautomation)
-durchzuführen; die Berichte sind 10 Jahre aufzubewahren. Ein mittelgrosses bis grosses Pflegeheim
+Jahr** gilt seit dem 1.9.2022 die Pflicht, **innert dreier Jahre nach Inbetriebsetzung** eine
+dokumentierte Betriebsoptimierung der Gewerke Heizung/Lüftung/Klima/Kälte/Sanitär/Elektro/
+Gebäudeautomation (HLKKSE + Gebäudeautomation) durchzuführen; die Berichte sind 10 Jahre
+aufzubewahren.
+
+> **Präzisierung 19.07.2026 (Wissens-Chef Run 9, am amtlichen Volltext verifiziert):** Der
+> **geltende ZH-Erlass kennt keine Wiederholung alle 5 Jahre.** § 13d Abs. 1 EnerG (LS 730.1,
+> Nachtrag 129) verlangt die Betriebsoptimierung nur «innerhalb dreier Jahre nach Inbetriebsetzung»;
+> die Ausführungsverordnung §§ 48a-48c BBV I (LS 700.21, Nachtrag 133) regelt Befreiung
+> (< 200'000 kWh/a, § 48c Abs. 1 lit. a), Inhalt (Abs. 2), Bericht (Abs. 3) und die
+> 10-Jahres-Aufbewahrung (Abs. 4) — **eine 5-Jahres-Kadenz steht dort nicht.** Die alle fünf Jahre
+> wiederkehrende Pflicht ist **MuKEn-Musterrecht** (Art. 7.4 MuKEn 2025 / Art. 8.4 MuKEn 2014) und
+> wird für ZH erst mit einer künftigen Umsetzung verbindlich. Wer heute in ZH plant, rechnet mit der
+> einmaligen Erstoptimierung — und tut gut daran, die Wiederholung als absehbare Entwicklung
+> mitzudenken. Ausgenommen sind zudem Grossverbraucher mit Zielvereinbarung nach § 13a EnerG sowie
+> Betriebe mit freiwilliger Zielvereinbarung/KMU-Modell (§ 48c Abs. 1 lit. b/c BBV I).
+> Amtlicher Volltext im Hub: `wissen/baurecht/raw/260712_amtlich_zh_energ.md` und
+> `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` (KB `baurecht` ist für den ZH-Erlassstand führend). Ein mittelgrosses bis grosses Pflegeheim
 oder Spital überschreitet diese Schwelle in aller Regel schon bei rund 3'000–7'000 m²
 Energiebezugsfläche. Die Bandbreite ergibt sich aus den zwei anerkannten Kennwertmodellen: mit den
 Elektrizitätskennzahlen SIA 2024 (36 kWh/m²EBF·a für Gebäudekategorie VIII.1 Spital, rund 30 für

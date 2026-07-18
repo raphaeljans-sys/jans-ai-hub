@@ -227,7 +227,14 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   beschränkungen (Art. 19/20 GSchG, Art. 29/30 GSchV).
 - **Energieversorgung** ist eine **zwingende** Erschliessungsvoraussetzung (Anschluss ans
   Elektrizitätsnetz; Art. 19 RPG i.V.m. § 236 Abs. 1 PBG, S. 755). Überlagert vom kantonalen
-  Energierecht (§§ 8a/9–13 EnerG: Höchstanteil nicht erneuerbarer Wärme, Wärmepumpen, Grossverbraucher)
+  Energierecht (Stand Nachtrag 129: § 10a EnerG Deckung des Wärmebedarfs von Neubauten, § 10b EnerG
+  ortsfeste elektrische Widerstandsheizungen, § 10c EnerG Eigenstromerzeugung, § 11 EnerG Wärmeerzeuger
+  — Neubauten ohne CO₂ aus fossilen Brennstoffen, Ersatz in Bestandesbauten mit erneuerbaren Energien —,
+  §§ 13a-13d EnerG Grossverbraucher/GEAK/Betriebsoptimierung; **§ 13 EnerG ist per 1.9.2022 aufgehoben**.
+  Die im Buch-Destillat genannte Spanne «§§ 8a/9–13 EnerG» ist der Buchstand 2019 und überholt;
+  § 8a ist im vorliegenden amtlichen Volltext raw/260712_amtlich_zh_energ.md nicht abgedeckt und
+  noch zu verifizieren. Belegquelle: raw/260712_amtlich_zh_energ.md, Z. 70-119, 261-300 —
+  nachgeführt Wissens-Chef Run 9, 19.07.2026)
   und dem **Gebäudeprogramm** (Art. 45 EnG) → Schnittstelle Agent `energie-berater`.
 - **Abwasserbeseitigung:** bauliche Erstellung richtet sich nach **GSchG/EG GSchG**, nicht nach dem
   PBG. Im Bereich der öffentlichen Kanalisation besteht **Anschluss- und Beseitigungspflicht**

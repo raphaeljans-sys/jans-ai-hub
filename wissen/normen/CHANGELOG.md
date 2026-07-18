@@ -1,4 +1,17 @@
 
+## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): SIA-2024-Bring-Schuld verengt, SIA 279 als Fuehrungsquelle bestaetigt
+- **REGISTER-Zeile SIA 2024 ergaenzt:** Die Bring-Schuld stand unveraendert als «kostenpflichtiger
+  Volltext SIA-Shop», obwohl die KB `energie` am 18.07.2026 (Run 80) eine **freie amtliche Quelle**
+  erschlossen und verifiziert hat: SIA-Grundlagenbericht zur Revision 2021 inkl. Korrigenda C1:2024
+  (cms.sia.ch/de/api/getMedia/941). Deckt Systematik, Gebaeudekategorien und die
+  Elektrizitaetskennzahlen Kat. VIII (Ziff. 4.2.1/4.2.3) — **nicht** die Raumdatenblaetter
+  Anhang A/F. Bring-Schuld deshalb **verengt statt geschlossen**.
+- **SIA 279:2018 hat sich als Fuehrungsquelle bewaehrt:** das Destillat hat einen sachlich falschen
+  Zuschlags-Satz in der KB `energie` gekippt (Ziff. 3.2.2.1 kein Zuschlag im Regelfall). Ebenso hat
+  `vkf-brl-13-15-baustoffe-bauteile` die RF-Terminologie dort richtiggestellt. Beide Destillate sind
+  neu aus `energie` verlinkt.
+- Bericht: `wissen/koordination/outputs/2026-07-19_wissens-chef-run9.md`.
+
 ## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): VKF-BRL 16-15 — ueberholte Personenbelegung Verkauf nachgefuehrt
 - **Befund (CONFIRMED am Original durch Refuter):** Das Destillat `vkf-brl-16-15-flucht-rettungswege`
   und der Synthese-Artikel `synthese-sia-vkf-fachskills` fuehrten die Personenbelegung Verkauf

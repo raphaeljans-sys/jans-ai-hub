@@ -55,7 +55,7 @@ allein laesst sich die Leistung **nicht** genau ableiten — sie wird ueber die 
 Der Erzeuger-Ersatz ist meldepflichtig (**Gesuch-/Meldeformular waermetechnische Anlagen**, beim
 Gemeindebauamt). Beilagen je Quelle: **Luft-WP → Laermschutznachweis LN-1a**; **Erdsonde/Grundwasser
 → AWEL-Gewaesserschutzgesuch**; **Fernwaerme → Waermetauscher-Meldung**; **Neubau → immer EN-103**.
-Energierecht: **fossil im Neubau verboten (§ 10a EnerG)**, im Bestand nur mit **EN-LCC-ZH + EN-120**;
+Energierecht: **fossil im Neubau verboten (§ 11 Abs. 1 EnerG)**, im Bestand nur mit **EN-LCC-ZH + EN-120**;
 neue Heizflaechen auf **max. 35 °C Vorlauf** (§ 23 BBV I) — die Bedingung fuer eine effiziente WP.
 Details → `[[wta-formular-zh-waermetechnische-anlagen]]` / FAQ F14. ⚠ seit 1.1.2026 Vollzug ueber EVEN.
 

@@ -3,6 +3,55 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-19 — Run 9 (3 Paare am energie-Run-79/80-Stoff; 3 Leser + 13 adversariale Verifier)
+- Gedrosselter Lauf (Rule 260714): Workflow-Fan-out mit 3 Lese-Agenten, danach ein Refuter je Befund.
+  **16 Befunde gemeldet, 12 CONFIRMED, 4 REFUTED.** Vier Befunde von hoher Schwere.
+- **energie ↔ baurecht (erstmals materiell geprueft):** zwei falsche Rechtszuschreibungen aufgedeckt,
+  beide bis in die Bauherren-FAQ durchgeschlagen. (1) Die **5-Jahres-Betriebsoptimierung** wurde als
+  geltendes ZH-Recht (§ 13d EnerG) gefuehrt — der amtliche Volltext kennt nur die einmalige
+  Erstoptimierung «innerhalb dreier Jahre nach Inbetriebsetzung», §§ 48a-48c BBV I enthalten keine
+  Periodizitaet; die fuenf Jahre sind **MuKEn-Musterrecht** (Art. 7.4/8.4). (2) Das
+  **Fossilfrei-Gebot Neubau** stand durchgehend an **§ 10a EnerG** statt an **§ 11 Abs. 1 EnerG**
+  (§ 10a = Effizienz-/Delegationsnorm) — 8 Fundstellen korrigiert. Dazu (3) eine Bring-Schuld
+  geschlossen, deren Antwort seit Wochen im Haus lag: der 200'000-kWh-Schwellenwert steht woertlich
+  in **§ 48c Abs. 1 lit. a BBV I** (`baurecht/raw/260607_amtlich_zh_bbv1.md`) — die geplante
+  AWEL-Anfrage haette nichts Neues erbracht. (4) In `baurecht` selbst die EnerG-Nummerierung vom
+  Buchstand 2019 («§§ 8a/9–13») auf Nachtrag 129 nachgefuehrt (§ 13 aufgehoben); § 8a bewusst NICHT
+  gestrichen (raw deckt ihn nicht ab → offener Punkt E2).
+- **energie ↔ normen:** das am Vortag entstandene Naturdaemmstoff-Destillat behauptete einen
+  **Bemessungswert-Zuschlag, den SIA 279:2018 fuer den Regelfall ausdruecklich ausschliesst**
+  (Ziff. 3.2.2.1 — kein Zuschlag; Zuschlag nur Ortdaemmstoffe, Ziff. 3.2.2.2). Der als offen
+  gefuehrte Punkt «Zuschlagsformel» war eine **Scheinluecke**. Korrigiert, verlinkt,
+  RF-Terminologie nach VKF-BRL 13-15 Ziff. 2.1 richtiggestellt, Negativbefund Baustroh praezisiert.
+  Ausserdem die **SIA-2024-Bring-Schuld verengt** (freie amtliche Interims-Quelle aus energie Run 80
+  ins normen-REGISTER eingetragen).
+- **energie ↔ planungsgrundlagen:** VHKA beidseitig verlinkt (bisher null gegenseitige Verweise),
+  WDV-Verweis ergaenzt (grep «LS 700.211» in pg: 0 Treffer), EN-120-Zeile auf das energie-Destillat
+  gezeigt.
+- **VERIFIKATION HAT WIEDER GEWIRKT (4 von 16 widerlegt):** u.a. war «Tabelle 6 der SIA 380/1» keine
+  Norm-, sondern eine **Erlass**-Aussage (WDV § 2 Abs. 1 lit. b, vollstaendig belegbar); der
+  Vorwurf einer falschen SZ-VHKA-Aussage scheiterte an der eigenen Praemisse (SZ ist bei der
+  Minergie-Befreiung **strenger** als ZH); und der Befund «planungsgrundlagen laesst die
+  5-Jahres-Pflicht weg» war **genau umgekehrt** richtig — zwei Agenten sind aus entgegengesetzter
+  Richtung ueber dieselbe Stelle gestolpert, erst die Verifikation hat die Richtung geklaert.
+- **Struktur-Muster, 4. Fundort: «neben der besseren Quelle gebaut».** Run 79 destillierte aus
+  Shop-Metadaten und einer DE-Sekundaerquelle, obwohl der Normvolltext im JANS-Bestand lag und
+  6 Tage zuvor destilliert worden war — die eigene KB kannte den Weg sogar
+  (`energie/wiki/daemmstoffe-lambda.md` verweist darauf). Diesmal blieb es **nicht** bei einem
+  fehlenden Link, sondern erzeugte eine fachlich falsche Aussage. Empfehlung: Pflicht-grep nach der
+  Norm-/Erlassnummer ueber die anderen KBs, bevor ein Destillat neu angelegt wird.
+  **Zweites, neues Muster: «Rechtsanker driftet vom Erlass weg»** — Fachaussage richtig, Paragraf
+  oder Geltungsraum falsch; vererbt sich still ueber viele Dateien (8 bzw. 3 Fundstellen).
+- **Register entruempelt:** die Sektion «Noch nie gepruefte Paare» war eine Karteileiche — 4 von 6
+  Zeilen betrafen laengst gepruefte Paare (energie ↔ baurecht sogar doppelt gefuehrt). Neue Regel
+  im Register verankert: ein Paar wandert mit seinem datierten Prueflauf automatisch aus der Liste.
+- **1 NEUER OFFENER ENTSCHEID (E1):** Doppelspur Energierecht ZH — `energie` gibt die Fuehrung
+  ausdruecklich an `baurecht` ab, fuehrt aber in drei Rechts-Destillaten dieselben ZH-EnerG-§§ auf
+  Absatzebene. Heute deckungsgleich; Risiko ist die naechste EnerG-Revision. Trimmen oder bewusst
+  belassen? Weiter offen: E2 (§ 8a EnerG), VKF-16-15-Matrix (Run 8), BSR-2022-Volltext (Run 8),
+  normen-Dublette Solaranlagen (Run 6), GSchV-Doppelspur (Run 7).
+- Bericht: `outputs/2026-07-19_wissens-chef-run9.md`.
+
 ## 2026-07-18 — Run 8 (3 Paare am neuen Run-51/52/78/79-Stoff; 3 Leser + 2 adversariale Verifier)
 - Gedrosselter Lauf (Rule 260714): schlanker Fan-out mit 3 Lese-Agenten, danach 2 Refuter mit
   Widerlegungsauftrag an den Original-PDFs. **5 Befunde gemeldet, 3 CONFIRMED, 2 REFUTED.**

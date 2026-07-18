@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): Fossilfrei-Fundstelle korrigiert, drei Querbezuege gesetzt
+- **§ 10a → § 11 Abs. 1 EnerG:** in der Formularmatrix (Zeile Energiebedarf) trug die
+  CO₂-frei-Anforderung die falsche Fundstelle. § 10a EnerG ist die Bedarfs-/Effizienznorm, das
+  Fossilfrei-Gebot steht in § 11 Abs. 1 EnerG (amtlicher Volltext, KB `baurecht`). Zeile fuehrt
+  jetzt beide korrekt getrennt.
+- **VHKA-Querbezug gesetzt:** die materielle VHKA-Pflicht ZH/SZ ist kanonisch in
+  `energie/destillate/vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz` gefuehrt; hier bleibt
+  der Formular-/Verfahrensbefund (EN-101c). Das Formularwort «verschaerft» steht weiterhin als Zitat,
+  neu mit Pruefvorbehalt (am Erlasstext nicht gegengelesen; Kandidat § 26 Abs. 2 EnV 1).
+  Der Verdacht, die Aussage sei sachlich falsch, wurde in der Verifikation **widerlegt**.
+- **WDV-Verweis ergaenzt:** die Waermedaemmvorschriften wurden nur als Paragrafenkuerzel gefuehrt
+  (grep «LS 700.211»: 0 Treffer in dieser KB). Neu Verweis auf den primaerquellen-verifizierten
+  Stand in `energie` (WDV vom 8.6.2022, in Kraft seit 1.9.2022, Nachtrag 118; Daemmstaerken/UR-Werte
+  in § 6 Abs. 2/3).
+- **EN-120-Zeile** zeigt neu auf `energie/destillate/oelheizung-gasheizung-ersatzpflicht-zh-sz`.
+- Bericht: `wissen/koordination/outputs/2026-07-19_wissens-chef-run9.md`.
+
 ## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): aufgehobenes Recht im OEREB-Themenkatalog geflaggt
 - **Befund (CONFIRMED):** `kartenportale-oereb-kataster-system-zh` fuehrte fuer **OEREB-Thema 190
   Gewaesserraum** die Rechtsgrundlage `LS 724.112 § 15` (**HWSchV**) **ohne jeden Flag** — der Artikel
