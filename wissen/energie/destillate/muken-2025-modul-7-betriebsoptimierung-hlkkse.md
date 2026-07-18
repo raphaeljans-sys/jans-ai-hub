@@ -181,15 +181,26 @@ oben × EBF = 200'000 kWh):
 | VIII.1 Spital | ≈ 5'550 m² EBF | ≈ 3'080 m² EBF |
 | VIII.2 Pflege(-heim) | ≈ 6'900 m² EBF | ≈ 3'175 m² EBF |
 
-**Einordnung für JANS (eigene Analyse):** Ein Pflegeheim mittlerer Grösse überschreitet diese
-EBF-Grössenordnung häufig bereits mit **50-90 Pflegeplätzen**, abhängig vom
-Flächenkennwert je Platz (JANS-eigene Projektkennwerte aus dem Skill
-`healthcare-wirtschaftlichkeit`/`kostenschaetzung` sind hier präziser als jede
-allgemeine Quelle und sollten für ein konkretes Projekt beigezogen werden; als grobe,
-nicht Schweiz-spezifische Illustration liegt ein publiziertes Beispiel — ein Passivhaus-Pflegeheim
-in Vorarlberg — bei rund 2'800 m² EBF für 30 Pflegeplätze, also ≈ 93 m²EBF/Platz. Bei diesem
-Kennwert würden bereits **34-75 Plätze** (je nach verwendeter kWh/m²-Kennzahl) für die
-200'000-kWh-Schwelle reichen). **Für ein Spital/eine Klinik gilt die Schwelle praktisch immer**
+**Einordnung für JANS (eigene Analyse) — Korrektur Run 80, 2026-07-18:** Eine Umrechnung der
+EBF-Schwelle auf eine **Anzahl Pflegeplätze ist derzeit nicht belastbar** und wurde deshalb aus der
+FAQ-Antwort F100 gestrichen. Grund: Es existiert weder in dieser KB noch öffentlich ein Schweizer
+m²EBF/Pflegeplatz-Benchmark (Negativbefund; die Skills `healthcare-wirtschaftlichkeit` und
+`kostenschaetzung` wurden durchsucht und führen keinen solchen Kennwert). Die einzige verfügbare
+Illustration ist nicht Schweiz-spezifisch: ein publiziertes Passivhaus-Pflegeheim in Vorarlberg mit
+rund 2'800 m² EBF für 30 Pflegeplätze, also ≈ 93 m²EBF/Platz — damit ergäben sich rechnerisch **34-75
+Plätze** (je nach kWh/m²-Kennzahl). Die früher hier und in F100 genannte Spanne «50-90 Plätze» liess
+sich aus keinem Kennwert rekonstruieren und widersprach der eigenen Rechnung. Für ein konkretes
+Projekt ist die Schwelle aus der **effektiven EBF** zu rechnen, nicht über eine Platzzahl.
+
+⚠ **Zusätzlicher Vorbehalt zu den EBF-Schwellen oben (Run 80):** Beide Kennwertreihen (SIA 2024 und
+Minergie-Strommodell) erfassen nur Geräte, Prozessanlagen, Beleuchtung und allgemeine Gebäudetechnik
+— **nicht** den Strom für Heizung, Warmwasser und Klimakälte (Grundlagenbericht ausdrücklich: «exkl.
+Elektrizitätsbedarf für Raumheizung und Warmwasser»). § 13d EnerG ZH knüpft dagegen am **gesamten**
+Elektrizitätsverbrauch der Betriebsstätte an. Bei Wärmepumpen-Heizung/Warmwasser — in Pflegebauten
+wegen des hohen Warmwasserbedarfs erheblich — und bei Klimakälte liegt der reale Verbrauch spürbar
+höher; die Tabellenwerte sind daher als **Obergrenzen** zu lesen, die reale Schwelle liegt tiefer.
+
+**Für ein Spital/eine Klinik gilt die Schwelle praktisch immer**
 als überschritten — Spitäler bewegen sich meist deutlich über 5'000 m² EBF und haben zudem
 typischerweise ohnehin einen Stromverbrauch über der Grossverbraucher-Schwelle (0,5 GWh),
 sodass sie in der Praxis meist über die **Grossverbraucher-Zielvereinbarung** (EnAW/act,

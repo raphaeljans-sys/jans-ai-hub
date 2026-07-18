@@ -5,7 +5,7 @@ ausgabe: kantonale Erlasse in geltender Fassung (ZH BBV I Nachtrag 124 / SZ SRSZ
 gelesen: 2026-07-14/2026-07-15
 datenstand: 2026-07-14 (Primärtexte ZH/SZ + EN-113 + VEWA im Volltext geprüft; VMWG-Fassung «Stand 1.6.2020» via mietrecht.ch, Fedlex-Direktabruf blockiert); 2026-07-15 zweite unabhängige Quelle (SVW/ASC-Kantonsvergleich, Fassung 28.08.2023) bestätigt § 25 EnV 1 wortgleich und klärt die Pre-2001-Frage
 status: established
-last_updated: 2026-07-15
+last_updated: 2026-07-18
 ---
 
 # VHKA — verbrauchsabhängige Heiz- und Warmwasserkostenabrechnung (Kt. ZH und SZ)
@@ -134,9 +134,16 @@ in BKP 2), im **Bestand** entsteht zusätzlich der Aufwand für Anzeige-/Formvor
 - **SZ, Prozentwert der Verbrauchsabrechnung:** Der SZ-Erlass sagt nur «zum überwiegenden Teil» (§ 26 EnV 1),
   nennt **keine Prozentzahl**. Ob das AfU SZ in der Praxis 50 %, 60 % oder die VEWA-70 % verlangt, ist
   **nicht belegt** — bei einem konkreten SZ-Projekt beim Amt für Umwelt und Energie nachfragen
-  (→ Skill `behoerden-vorabklaerung`).
+  (→ Skill `behoerden-vorabklaerung`). **Zwei weitere Anläufe erfolglos (Run 79, 18.07.2026):** die
+  offizielle AfU-SZ-Seite «Rechtliche Grundlagen» nennt zur VHKA nur den Verweis auf EN-113, keine
+  Prozentzahl; das SVW/ASC-Kantonsvergleichs-PDF (28.08.2023) ist bildbasiert und für Kt. Schwyz nicht
+  textlich durchsuchbar. Punkt bleibt bewusst offen statt geschätzt — nur direkte AfU-SZ-Anfrage kann
+  ihn schliessen.
 - **SZ, Minergie-Befreiung:** In ZH ausdrücklich (BBV I § 43 lit. b), in SZ **nicht im Wortlaut** — ob eine
-  Befreiung faktisch über die 20-W/m²-Grenze läuft, ist zu verifizieren.
+  Befreiung faktisch über die 20-W/m²-Grenze läuft, ist zu verifizieren. **Zweiter Anlauf ergebnislos
+  (Run 79, 18.07.2026):** weder die AfU-SZ-Webseite noch das SVW/ASC-PDF nennen eine SZ-Minergie-Klausel;
+  Negativbefund bestätigt sich, bleibt aber ohne Gesetzestext-Aussage «keine Befreiung» nicht abschliessend
+  zu behaupten.
 - **SZ, Verhältnis § 25 EnV 1 (Baubewilligung nach 1.2.2001) zur Nachrüstung bei Totalsanierung älterer
   Bauten — geklärt 2026-07-15** (zweite unabhängige Quelle, SVW/ASC-Kantonsvergleich, Fassung 28.08.2023,
   Volltext per pdftotext gegengelesen): § 25 EnV 1 definiert den Begriff «ausrüstungspflichtige Bauten

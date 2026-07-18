@@ -3662,3 +3662,101 @@ Negativbefund, keine laufende Modul-5-Umsetzung gefunden. Destillat
 Übergangsfrist». Status **established** für den Negativbefund «noch nicht kantonal umgesetzt»;
 **emerging** für den exakten Geltungsbereich von Art. 5.1 (nur Sekundärauszug gelesen, nicht selbst
 am PDF-Original nachgeprüft).
+
+## F99 — «Darf ich meine kaputte Öl-/Gasheizung einfach wieder durch Öl/Gas ersetzen?»
+
+**Kurz-Antwort für den Bauherrn:** Nein, jedenfalls nicht als reiner 1:1-Tausch ohne Zusatzmassnahme
+— weder im Kanton Zürich noch im Kanton Schwyz. Beim Wärmeerzeugerersatz in bestehenden Bauten gilt
+das **90-%-Modell**: der Anteil nichterneuerbarer Energie am massgebenden Energiebedarf von
+**100 kWh/m² und Jahr** (Heizung + Warmwasser) darf höchstens 90 % betragen. Ein rein fossiler
+Kessel ohne jede erneuerbare Beimischung erfüllt das nicht. In der Praxis heisst das: entweder eine
+zusätzliche Massnahme zur fossilen Restwärme (z. B. Solarthermie, Dämmung, Teil-Wärmepumpe — eine
+sogenannte «Standardlösung»), oder ein GEAK-Klasse-D-Nachweis, oder Zertifikate für erneuerbare
+Brennstoffe. Im **Kanton Zürich** kommt eine zusätzliche, strengere Hürde davor: Ist eine
+**vollständig** erneuerbare Lösung (meist eine Wärmepumpe) technisch möglich und höchstens 5 %
+teurer über den Lebenszyklus als die fossile Referenz, ist sie **zwingend** zu wählen — der
+«90-%-Kompromissweg» ist dort rechtlich nur die Ausweichroute für den Fall, dass diese Bedingung
+nicht erfüllt ist. Im **Kanton Schwyz** existiert diese Vorrangstufe nicht im Gesetzestext; dort ist
+das 90-%-Modell direkt der Massstab, und 3 von 11 Standardlösungen lassen dort weiterhin fossile
+Komponenten zu (Erdgas-Wärmepumpe, gasbetriebene Wärmekraftkopplung, bivalenter fossiler
+Spitzenlastkessel).
+
+**Fachliche Begründung:** Rechtsgrundlage ist im Kt. ZH § 11 Abs. 2–6 EnerG (LS 730.1) i.V.m.
+§§ 47a–47n BBV I, im Kt. SZ § 8d kEnG i.V.m. §§ 24f/24g KEnV + Anhang 6 (11 Standardlösungen SL 1–11).
+Der Wärmeerzeugerersatz (Kesselersatz) ist zu unterscheiden vom blossen Brennerersatz: in Schwyz löst
+ein reiner Brennertausch ohne Kesselersatz die Pflicht ausdrücklich **nicht** aus (§ 24f Abs. 1 KEnV).
+Für ein Bauvorhaben mit alter Öl-/Gasheizung im Bestand lohnt sich deshalb bei Ankaufsprüfung oder
+Machbarkeitsstudie frühzeitig die Frage «Kesselersatz oder nur Brennerersatz?» sowie eine grobe
+Lebenszykluskosten-Abschätzung fossil gegen Wärmepumpe/Fernwärme, weil sie in ZH direkt die
+anwendbare Pflichtstufe bestimmt. Für finanziell enge Fälle kennt Zürich einen gesetzlich
+verankerten Härtefall-Aufschub (§ 11b EnerG, längstens bis 3 Jahre nach der nächsten Handänderung,
+mit Grundbuchanmerkung) — eine Möglichkeit, die Schwyz in dieser Form nicht kennt.
+
+**Quelle + Datenstand:** Energiegesetz (EnerG) Kt. ZH, LS 730.1, §§ 11/11a/11b/18 (Nachtrag 122,
+Stand 1.10.2023) + Besondere Bauverordnung I (BBV I) Kt. ZH, LS 700.21, §§ 47a–47n (Nachtrag 124,
+Stand 1.4.2024) + Kantonales Energiegesetz (kEnG) Kt. SZ, SRSZ 420.100, § 8d + Kantonale
+Energieverordnung (KEnV) Kt. SZ, SRSZ 420.111, §§ 24f/24g + Anhang 6 — alle vier Primärdokumente per
+curl+pdftotext im Volltext gelesen, 18.07.2026. Destillat
+`[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`. Status **established** (Kernartikel ZH § 11 EnerG +
+§§ 47a-47n BBV I sowie SZ § 8d kEnG + § 24f/Anhang 6 KEnV wörtlich verifiziert); offen bleibt der
+konkrete ZH-Standardlösungs-Katalog (Verweisnorm auf eine separate Vollzugshilfe der Baudirektion,
+nicht im Gesetzestext selbst enthalten).
+
+## F100 — «Muss ich für mein Pflegeheim/meine Klinik eine periodische Betriebsoptimierung der Haustechnik durchführen?»
+
+**Kurz-Antwort für den Bauherrn:** Im Kanton Zürich ja, und zwar schon heute — nicht erst mit einer
+künftigen MuKEn-2025-Umsetzung. Für Nichtwohnbauten mit mindestens **200'000 kWh Stromverbrauch pro
+Jahr** gilt seit dem 1.9.2022 (§ 13d EnerG) die Pflicht, innert dreier Jahre nach Inbetriebsetzung
+und danach **alle 5 Jahre** eine dokumentierte Betriebsoptimierung der Gewerke
+Heizung/Lüftung/Klima/Kälte/Sanitär/Elektro/Gebäudeautomation (HLKKSE + Gebäudeautomation)
+durchzuführen; die Berichte sind 10 Jahre aufzubewahren. Ein mittelgrosses bis grosses Pflegeheim
+oder Spital überschreitet diese Schwelle in aller Regel schon bei rund 3'000–7'000 m²
+Energiebezugsfläche. Die Bandbreite ergibt sich aus den zwei anerkannten Kennwertmodellen: mit den
+Elektrizitätskennzahlen SIA 2024 (36 kWh/m²EBF·a für Gebäudekategorie VIII.1 Spital, rund 30 für
+VIII.2 Pflege) liegt die Schwelle bei rund 5'600 bzw. 6'700 m², mit dem Minergie-Strommodell für
+Zweckbauten (65 bzw. 63 kWh/m²EBF·a) bereits bei rund 3'100 m². ⚠ Beide Kennwertreihen erfassen nur
+Geräte, Prozessanlagen, Beleuchtung und allgemeine Gebäudetechnik — **nicht** den Strom für Heizung,
+Warmwasser und Klimakälte. Bei Wärmepumpen-Betrieb, der in Pflegebauten wegen des hohen
+Warmwasserbedarfs stark ins Gewicht fällt, wird die 200'000-kWh-Schwelle deshalb **früher** erreicht
+als diese Zahlen vermuten lassen; sie sind als Obergrenze der Grössenordnung zu lesen, nicht als
+exakter Schwellenwert. Eine belastbare Umrechnung auf eine Anzahl Pflegeplätze ist nicht möglich,
+solange kein Schweizer Flächenkennwert je Pflegeplatz vorliegt — das ist im konkreten Projekt aus der
+effektiven EBF zu rechnen. Grössere Spitäler sind über ihre eigene Grossverbraucher-Zielvereinbarung
+(> 0,5 GWh Strom/Jahr) meist automatisch von dieser separaten Pflicht befreit; die eigentlich
+betroffene Zielgruppe sind mittelgrosse Pflegeheime/Betreute-Wohnen-Bauten, die die 200'000-kWh-
+Schwelle erreichen, aber (noch) keine eigene Grossverbraucher-Zielvereinbarung haben. Im **Kanton
+Schwyz** besteht diese Pflicht (Stand 18.07.2026) nicht — weder das MuKEn-2014- noch das
+MuKEn-2025-Betriebsoptimierungsmodul ist dort kantonal übernommen.
+
+**Fachliche Begründung:** MuKEn 2025 Modul 7 («Betriebsoptimierung», Art. 7.1–7.5) ist inhaltlich
+**wortidentisch** mit MuKEn-2014-Modul 8 (Art. 8.1–8.5) — die 2025er Fassung bringt hier keine
+Verschärfung, nur eine Umnummerierung. § 13d EnerG ZH übernimmt diesen Wortlaut praktisch
+deckungsgleich, bereits seit 1.9.2022 in Kraft. Praktische Konsequenz für die Projektierung: das
+Energie-Messkonzept (Zählerkonzept je Gewerk) sollte schon in der Planung mitgedacht werden, nicht
+erst beim Betriebsstart — sonst fehlen der späteren Betriebsoptimierung verlässliche Verbrauchsdaten.
+
+**Quelle + Datenstand:** EnDK, MuKEn 2025 Volltext (Modul 7, Art. 7.1–7.5, S. 78–80) + MuKEn 2014
+Volltext (Modul 8, Art. 8.1–8.5, S. 73–75), Vorher/Nachher-Vergleich; Energiegesetz (EnerG) Kt. ZH,
+LS 730.1, § 13a/§ 13d; Kt. Basel-Landschaft, Vollzugshilfe EN-142 BL (Ausgabe Juni 2026, für
+Vollzugsdefinitionen «Betriebsstätte»/«Inbetriebsetzung»); Kt. SZ kEnG/KEnV im Volltext auf
+«Betriebsoptimierung» durchsucht, kein Treffer (Negativbefund); SIA-Statusbericht «Harmonisierung
+SIA-Standardwerte und Gebäudekategorien» (Elektrizitätskennzahlen Gebäudekategorie VIII.1
+Spital/VIII.2 Pflege) für die Healthcare-EBF-Schwellen-Herleitung — alle per curl+pdftotext gelesen,
+18.07.2026. Destillat `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`. Status **established**
+für Modul-7-Wortlaut/ZH-Rechtslage. **Normstand nachgerechnet 18.07.2026 (Run 80), Flag des
+Wissens-Chefs Run 8 damit erledigt:** Die Elektrizitätskennzahlen VIII.1 = 36 / VIII.2 ≈ 30
+kWh/m²EBF·a gelten auch unter SIA 2024:2021 inkl. Korrigenda C1:2024. Beleg: SIA-Grundlagenbericht
+zur Revision 2021 (cms.sia.ch/de/api/getMedia/941, 20.10.2024), Ziff. 4.2.1/4.2.3 — die Kennzahlen
+des Anhangs F wurden für Geräte an das Minergie-Strommodell angeglichen (Abweichung < 1 kWh/m² bei
+Gebäudekategorie VIII), die Beleuchtung direkt aus SIA 387/4 und die allgemeine Gebäudetechnik direkt
+aus dem Strommodell übernommen; die Prozessanlagen-Leistung des Behandlungsraums (8.03) blieb bei
+15 W/m². Die 2019er-Werte sind damit materiell fortgeschrieben, nicht überholt. ⚠ Der Normvolltext
+SIA 2024:2021 Anhang F selbst ist kostenpflichtig und lag nicht vor — die Werte sind aus dem
+offiziellen SIA-Grundlagenbericht zu genau dieser Revision rekonstruiert (belegter Analogieschluss),
+nicht am bezahlten Normtext abgelesen; für einen konkreten Bewilligungsfall gehört die Norm gekauft.
+Die frühere Angabe «50–90 Pflegeplätze» wurde **gestrichen**: sie war aus den Schwellen nicht
+rekonstruierbar (mit dem einzigen genannten Flächenkennwert von 93 m²EBF/Platz ergäben sich 33–72
+Plätze), stand im Widerspruch zur eigenen Quelle (das Destillat rechnet 34–75 Plätze) und stützte
+sich auf einen österreichischen Passivhaus-Einzelfall; ein Schweizer m²EBF/Pflegeplatz-Benchmark
+existiert weder in der KB noch öffentlich (Negativbefund, auch `skills/healthcare-wirtschaftlichkeit`
+und `skills/kostenschaetzung` durchsucht).

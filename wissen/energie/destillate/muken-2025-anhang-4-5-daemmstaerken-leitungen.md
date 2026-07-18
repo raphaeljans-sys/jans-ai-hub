@@ -1,8 +1,9 @@
 ---
 title: MuKEn 2025 Anhänge 4-5 (Dämmstärken Verteilleitungen / UR-Werte erdverlegte Leitungen) im Vergleich zu MuKEn 2014 und Kanton Schwyz
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-07-18
 sources:
+  - Kanton Zürich, Baudirektion, Wärmedämmvorschriften (WDV), LS 700.211, vom 8. Juni 2022, in Kraft seit 1.9.2022 (zhlex-Nachtrag 118), § 6 Abs. 2 (Dämmstärken Verteilleitungen) und § 6 Abs. 3 (UR-Werte erdverlegte Leitungen), gelesen 2026-07-18 via curl+pdftotext an zwei unabhängigen amtlichen Spiegeln (zeichengleich), zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauvorschriften-im-energiebereich/energetische-bauvorschriften/rechtsgrundlagen/wdv_700.211_waermedaemmvorschriften_8.6.22_obgr.pdf — 36 von 36 Zahlenwerten deckungsgleich mit Tabelle A/B dieses Destillats
   - EnDK, MuKEn 2025 Volltext (117 S.), Anhang 4 (S. 31), Anhang 5 (S. 31), Art. 1.17 Abs. 2/4 (S. 28), Erläuterung "Zu Anhang 5" (S. 111), Stand 29.08.2025, gelesen 2026-07-17 via curl+pdftotext, Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf
   - EnDK, MuKEn 2014 Volltext (98 S.), Anhang 4 (S. 27), Anhang 5 (S. 27), Art. 1.17, Stand 9.1.2015 rev. 20.4.2018, gelesen 2026-07-17 via curl+pdftotext, Spiegel endk.ch/wp-content/uploads/2025/07/MuKEn2014_d-2018-04-20.pdf
   - Kanton Schwyz, Kantonale Energieverordnung (KEnV, SRSZ 420.111), Anhang 8 (S. 19) und Anhang 9 (S. 19), Stand SRSZ 1.2.2025, gelesen 2026-07-17 via curl+pdftotext, sz.ch/public/upload/assets/32457/420_111.pdf
@@ -113,12 +114,31 @@ an dieser Stelle bereits. Dasselbe Muster gilt für die U-Wert-/Heizwärmebedarf
   bringt MuKEn 2025 hier keine neue Anforderung.
 
 ## Offene Punkte
-- **Kein eigenständiges ZH-Vollzugsdokument für Dämmstärken/UR-Werte in der KB identifiziert.**
-  Die bereits vorhandenen ZH-Destillate (`enfk-en-102-waermeschutz-2018`, `en-zh-nachweis-uebersicht`)
-  decken U-Wert/Heizwärmebedarf ab, aber nicht explizit Verteilleitungs-Dämmstärken. Die
-  MuKEn-2014/2025-Werte dürften über dieselbe EnFK-Vollzugshilfe-Familie (Basis SIA 380/1)
-  gelten, wurde aber in diesem Lauf nicht am ZH-Original nachgewiesen — Kandidat für einen
-  Folgelauf, falls ein Bauherren-Fall konkret danach fragt.
+- **Verifiziert und korrigiert (Run 80, 2026-07-18, Primärquellen-Abgleich):** Das eigenständige
+  ZH-Vollzugsdokument ist die «Wärmedämmvorschriften der Baudirektion» (WDV, LS 700.211) — massgebend
+  ist jedoch die **Ausgabe vom 8. Juni 2022, in Kraft seit 1. September 2022** (zhlex-Nachtrag 118,
+  kein Aufhebungsdatum). Die in Run 79 hier notierte «Ausgabe 2009» ist mit Dispositiv II dieser
+  Verfügung **per 1.9.2022 ausdrücklich aufgehoben**; die Angabe «gültig ab Oktober 2019» liess sich
+  an keiner Quelle belegen und war eine Verwechslung mit der Nachtragsnummer 019. Ebenfalls korrigiert:
+  die Werte stehen **nicht** in «Tabellen 6+7», sondern unnummeriert in **§ 6 Abs. 2 (Dämmstärken)
+  und § 6 Abs. 3 (UR-Werte)**. Die im Erlass erwähnte «Tabelle 6» meint Tabelle 6 der Norm SIA 380/1
+  (Heizwärmebedarf, § 3) und hat mit den Leitungsdämmungen nichts zu tun — vermutliche Ursache der
+  Fehlzuordnung. (Die übrigen KB-Destillate — `[[denkmalschutz-energiesanierung-zh-sz]]`,
+  `[[innendaemmung-altbau-bauphysik-ch]]` — zitierten die WDV bereits korrekt mit 08.06.2022; der
+  Fehler war auf dieses Destillat beschränkt.)
+- **Abgleich am Original durchgeführt und bestanden:** Tabelle A ist mit WDV § 6 Abs. 2 in allen
+  **12 von 12** Werten deckungsgleich (40/30 mm bis 120/80 mm über dieselben DN-Klassen 10–15 bis
+  175–200), Tabelle B mit WDV § 6 Abs. 3 in allen **24 von 24** Werten (0,14 bis 0,40 W/(m·K) über
+  dieselben DN-Klassen 20 bis 200). Auch die Erleichterungen (WDV § 6 Abs. 4) decken sich sinngleich
+  mit Art. 1.17 Abs. 3 MuKEn inkl. 30-°C-Vorlauftemperatur und 90-°C-Betriebstemperaturgrenze.
+  Einzige Differenz: Die WDV 2022 verwendet noch die **MuKEn-2014-Terminologie** «starre Rohre» /
+  «flexible Rohre» mit dem Zusatz «Für Doppelrohre gelten dieselben Werte wie für flexible Rohre»,
+  nicht die MuKEn-2025-Bezeichnung «Einzelrohre»/«Doppelrohre» — rein sprachlich, ohne Auswirkung auf
+  die Anwendung. Kt. ZH steht damit terminologisch gleich wie Kt. SZ (KEnV Anhang 9). Damit ist das
+  durchgehende Muster bestätigt, dass Kt. ZH die MuKEn-Zahlenwerte unverändert übernimmt.
+- **Nicht abschliessend geprüft:** Ein Regierungsratsbeschluss `RRB-2025-1082` wurde beim Suchlauf
+  gestreift, aber nicht geöffnet. Die zhlex-Historie führt für LS 700.211 keinen Nachtrag nach 118,
+  eine WDV-Änderung aus 2025 ist daher unwahrscheinlich, aber nicht belegt ausgeschlossen.
 - **Zeitpunkt der Kt.-ZH/SZ-Übernahme der MuKEn-2025-Gesamtrevision** bleibt offen (siehe
   `[[muken-2025-verabschiedet]]`).
 

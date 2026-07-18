@@ -139,7 +139,13 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[schallschutz-sia181]]` (FAQ F25). Offen: Flankenuebertragung CH (Lignum-Anschlussdetails).
 - [~] A7 Naturdaemmstoffe/zirkulaeres Bauen in der Praxis — Seed 2026-06-13 via Werkhof29-Dossier
   (Stroh-Daemmung, Lehmputz, Re-use, Areal-PV) → `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`.
-  Offen: Bemessungs-λ Stroh, Brand/Feuchte, ZEV/Solarsplit-Modell.
+  **Bemessungs-λ + Brandverhalten vertieft 2026-07-18 (Run 79)** — Bemessungswert Stroh λ 0,041-0,052
+  bzw. produktabhaengig bis 0,080 W/(m·K) (Nennwert-vs-Bemessungswert-Prinzip SIA 279 bestaetigt,
+  exakte Zuschlagsformel nicht am Normvolltext verifiziert); Brandverhalten nur ueber DE-FASBA-Werte
+  (F30-B/REI90) belegbar, **Schweizer VKF-Einstufung von Strohdaemmung ist ein bestaetigter
+  Negativbefund** (nicht gefunden) → `[[naturdaemmstoffe-bemessungswerte-brandverhalten]]`, emerging.
+  Weiterhin offen: SIA-279-Normvolltext (kostenpflichtig), CH-VKF-Register-Abfrage Stroh,
+  ZEV/Solarsplit-Modell.
 - [x] A8 Schallschutz im Hochbau SIA 181:2020 — Anforderungswerte belegt 2026-06-24 via Zusammenfassung
   baumann akustik & bauphysik (Luftschall Di / Trittschall L' / Haustechnik LH / Aussenlaerm De je
   Empfindlichkeit × Stoergrad; erhoeht +4 dB innen / +3 dB aussen; EFH/Reihen-EFH/STWEG = erhoehte

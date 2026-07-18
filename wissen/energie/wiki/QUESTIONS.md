@@ -937,3 +937,29 @@ Anlauf ohne echte Tool-Ausführung abgebrochen (Text ohne Datei-Änderung) und m
 werden — erfolgreich verifiziert diesmal an den Datei-Zeitstempeln, nicht nur am Agenten-Text.
 Empfehlung für künftige Läufe: Agenten-Ergebnis immer per `ls -la`/`grep` auf tatsächliche
 Dateiänderung prüfen, bevor das Register nachgeführt wird.
+
+## Run 80 (2026-07-18) — zwei Verifikationslücken geschlossen, eine neue Lücke eröffnet
+
+- [x] **E101/E-Nachtrag WDV-Vollzugsdokument ZH** — geschlossen. Die WDV (LS 700.211) ist in der
+  Ausgabe **vom 8.6.2022, in Kraft seit 1.9.2022** massgebend (zhlex-Nachtrag 118); die Ausgabe 2009
+  ist per Dispositiv II aufgehoben. Tabelle A/B des Destillats
+  `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` sind mit **§ 6 Abs. 2 und § 6 Abs. 3** WDV in
+  **36 von 36 Zahlenwerten deckungsgleich** (zwei unabhängige amtliche PDF-Spiegel, curl+pdftotext,
+  18.07.2026). Die frühere Fundstellenangabe «Tabellen 6+7» war falsch.
+- [x] **SIA-2024-Normstand für die Healthcare-EBF-Schwelle (F100)** — geschlossen. Die
+  Elektrizitätskennzahlen VIII.1 = 36 / VIII.2 ≈ 30 kWh/m²EBF·a gelten auch unter SIA 2024:2021 inkl.
+  Korrigenda C1:2024 (SIA-Grundlagenbericht zur Revision 2021, Ziff. 4.2.1/4.2.3). Das ⚠-Flag des
+  Wissens-Chefs Run 8 ist damit erledigt. Restvorbehalt bleibt vermerkt: der bezahlte Normvolltext
+  Anhang F lag nicht vor, die Werte sind aus dem offiziellen Grundlagenbericht rekonstruiert.
+
+- [ ] **E103 — Schweizer Flächenkennwert je Pflegeplatz (m²EBF/Platz).** Neu eröffnet. Es existiert
+  weder in dieser KB noch in den Skills `healthcare-wirtschaftlichkeit`/`kostenschaetzung` noch
+  öffentlich (BAG-Pflegeheim-Kennzahlen, BFE) ein belastbarer Schweizer Benchmark. Deshalb musste die
+  Umrechnung der 200'000-kWh-Schwelle auf eine Pflegeplatz-Zahl in F100 gestrichen werden. **Der
+  Kennwert wäre über die JANS-eigenen Healthcare-Projekte herleitbar** (2410 WALD/Nova u.a.) — das ist
+  ein Compounding-Kandidat, der über die Energie-KB hinaus auch `healthcare-wirtschaftlichkeit` und
+  `kostenschaetzung` aufwerten würde. Entscheid Raphael nötig, ob die eigenen Projektdaten dafür
+  ausgewertet werden sollen.
+- [ ] **E104 — WDV-Nachtrag nach 118?** Ein Regierungsratsbeschluss `RRB-2025-1082` wurde beim
+  Suchlauf gestreift, aber nicht geöffnet. zhlex führt für LS 700.211 keinen Nachtrag nach 118 — eine
+  WDV-Änderung 2025 ist unwahrscheinlich, aber nicht belegt ausgeschlossen. Kleine Restlücke.

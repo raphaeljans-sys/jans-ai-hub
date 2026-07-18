@@ -2,6 +2,42 @@
 
 Neueste zuoberst.
 
+## 2026-07-18 — Run 79 (Intensiv-Lauf: Registerpflege Run 78 + neue Recherche)
+
+Zwei Teile: (A) Registerpflege der drei liegen gebliebenen Punkte aus Run 78 — F99/F100 in
+`wiki/BAUHERREN-FAQ.md` eingetragen (Oel-/Gasheizungs-Ersatzpflicht ZH+SZ, MuKEn-Modul-7-
+Betriebsoptimierung Healthcare), `wiki/INDEX.md`-FAQ-Zaehlstand auf 100 aktualisiert, MuKEn-
+Anhang-6/7-Registerluecke geschlossen (Inhalt seit Run 76 im Destillat `muken-2025-verabschiedet`
+vorhanden, jetzt in `destillate/INDEX.md` nachgetragen), WDV-Korrektur in
+`muken-2025-anhang-4-5-daemmstaerken-leitungen.md` (ein eigenstaendiges ZH-Vollzugsdokument
+existiert doch — Wärmedämmvorschriften der Baudirektion 2009). (B) Neue Recherche: sechs parallele
+Hintergrund-Agenten wurden gestartet, blieben aber technisch haengen (0 tool_uses trotz mehrfachem
+Resume — Systemproblem der Async-Agent-Ausfuehrung in dieser Session, nicht KB-spezifisch). Die
+Arbeit wurde daraufhin direkt im Hauptprozess fortgesetzt: neues Destillat
+`naturdaemmstoffe-bemessungswerte-brandverhalten.md` (Curriculum-Punkt A7, Bemessungswert-Stroh
++ Brandverhalten, emerging, CH-VKF-Einstufung als Negativbefund dokumentiert) und Update von
+`vhka-verbrauchsabhaengige-heizkostenabrechnung-zh-sz.md` (zwei SZ-Offenpunkte erneut mit zwei
+unabhaengigen Quellen geprueft, Negativbefund bestaetigt statt geschaetzt). Details:
+outputs/2026-07-18_energie-run79.md. Vier urspruenglich geplante Themen (Ausserschwyz-Rechner
+Segment 2, SIA-180-Rechenbeispiel, OP-Raum-Lueftung Spital, Batteriespeicher-/Netzanschluss-Update)
+sind wegen des Agent-Ausfalls und Budget-Grenzen auf den naechsten Lauf verschoben.
+
+## 2026-07-18 — Registerlücke MuKEn-Anhang-6/7 geschlossen + F99/F100 in BAUHERREN-FAQ eingetragen
+- **Auftrag:** Run 78 hatte drei liegen gebliebene Registerpunkte identifiziert (T1-Fund): F99/F100
+  fehlten noch in `wiki/BAUHERREN-FAQ.md`, die MuKEn-Anhang-6/7-Inhalte (seit Run 76 im Destillat
+  `muken-2025-verabschiedet.md` vorhanden) waren nie mit einer eigenen Register-/FAQ-Zeile versehen
+  worden, und `muken-2025-anhang-4-5-daemmstaerken-leitungen.md` behauptete faelschlich «kein
+  eigenstaendiges ZH-Vollzugsdokument» obwohl die WDV (Wärmedämmvorschriften der Baudirektion,
+  Ausgabe 2009) existiert.
+- **Aktion:** Alle drei Punkte geschlossen — F99 («Darf ich meine kaputte Öl-/Gasheizung einfach
+  wieder durch Öl/Gas ersetzen?») und F100 («Muss ich für mein Pflegeheim/meine Klinik eine
+  periodische Betriebsoptimierung durchführen?») vollstaendig in `wiki/BAUHERREN-FAQ.md`
+  ausformuliert; `wiki/INDEX.md` FAQ-Zaehlstand von 97 auf 100 aktualisiert samt Kurzfassung der
+  drei neuen Punkte; `destillate/INDEX.md` um die MuKEn-Anhang-6/7-Registerzeile sowie die zwei
+  fehlenden Destillat-Zeilen (`oelheizung-gasheizung-ersatzpflicht-zh-sz`,
+  `muken-2025-modul-7-betriebsoptimierung-hlkkse`) ergaenzt; WDV-Korrektur in
+  `muken-2025-anhang-4-5-daemmstaerken-leitungen.md` eingearbeitet.
+
 ## 2026-07-18 — Wissens-Chef Run 8 (Cross-KB): Themenartikel Innendaemmung nachgezogen, zwei Ausgaben-Flags
 - **Stale-Befund (CONFIRMED):** `wiki/innendaemmung.md` stand auf `last_updated: 2026-07-17` und
   behauptete weiterhin «Schweizer Ψ-Zahl fuer die einbindende Massivdecke: **Negativbefund**» sowie
