@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 18.07.2026 22:36:10
+Stand: 18.07.2026 22:56:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:47)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.07.2026 22:36:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fcb9661e nas-selfcommit: 2 Datei(en) 2026-07-18 22:30
+- d2a9829a Energie-Training Run 80: WDV-Beleg korrigiert, F100 am Normstand verifiziert
