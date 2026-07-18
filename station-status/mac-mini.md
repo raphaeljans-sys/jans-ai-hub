@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.07.2026 04:38:15
+Stand: 18.07.2026 04:58:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 18.07.2026 04:38:15
 - 12 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 651ccdad spec-training Lauf 22: Verifikationslauf — neuer belegter Verifier-Fehlermodus (leeres Signal = kein Beweis fuer Leere, silent-empty Connector) + Nachtrag Lauf 21
+- 620e0a14 nas-selfcommit: 2 Datei(en) 2026-07-18 04:45
