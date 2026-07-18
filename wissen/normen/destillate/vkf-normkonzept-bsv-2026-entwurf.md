@@ -2,7 +2,8 @@
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf"
 herausgeber: "Vereinigung Kantonaler Feuerversicherungen VKF, Bundesgasse 20, 3001 Bern (Verfasser: Alois Keel, Keel & Raster Planungs- und Baurecht GmbH, Winterthur)"
 ausgabe: "Normkonzept BSV 2026, Stand 06.10.2022 (Projektdokument zur Totalrevision, NICHT in Kraft)"
-gelesen: "S. 1-10, 29-32, 45-50, 71-84, 101-113, 122-128, 165-170 von 170 Seiten"
+gelesen: "S. 1-10, 29-32, 45-50, 71-84, 101-114, 122-128, 165-170 von 170 Seiten"
+verifiziert: "19.07.2026, adversariale Gegenpruefung am Original-PDF (13 Kernaussagen), 4 Fundstellen-/Formulierungspraezisierungen"
 datenstand: "2022"
 status: established
 last_updated: 2026-07-19
@@ -13,7 +14,7 @@ links: [[REGISTER]]
 
 ## Das Wichtigste in 3 Sätzen
 
-Das Normkonzept ist kein Vorschriftenwerk, sondern das gesetzestechnische Konzeptpapier für die Totalrevision der geltenden VKF-Brandschutzvorschriften BSV 2015; der Steuerungsausschuss hat es an seiner Sitzung vom 14.09.2022 zustimmend zur Kenntnis genommen (Deckblatt, S. 1). Auslöser ist der IOTH-Beschluss vom 20.09.2018, der die VKF beauftragt, die Vorschriften auf Basis eines risikoorientierten Ansatzes zu revidieren, mit den vier Zielen Risikoorientierung, Deregulierung, Vereinfachung der Vorschriften und einheitlicherer Vollzug (Ziff. 1.1, S. 5; Ziff. 4.1, S. 71). Kernwirkung für die Praxis: statt der heutigen zweistufigen Struktur Brandschutznorm plus Brandschutzrichtlinien (454 Seiten inkl. Anhänge) soll es künftig nur noch EINE Erlassstufe mit maximal rund 200 Seiten geben, ergänzt durch eine separate «BSV-Erläuterung» (Eckpunkte 18, 21, 22; S. 103, 107, 108).
+Das Normkonzept ist kein Vorschriftenwerk, sondern das gesetzestechnische Konzeptpapier für die Totalrevision der geltenden VKF-Brandschutzvorschriften BSV 2015; der Steuerungsausschuss hat es an seiner Sitzung vom 14.09.2022 zustimmend zur Kenntnis genommen (Deckblatt, S. 1). Auslöser ist der IOTH-Beschluss vom 20.09.2018, der die VKF beauftragt, die Vorschriften auf Basis eines risikoorientierten Ansatzes zu revidieren, mit den drei im Beschluss genannten Zielen Deregulierung, Vereinfachung der Vorschriften und einheitlicherer Vollzug (Ziff. 1.1, S. 5; Ziff. 4.1, S. 71), die das Dokument in Ziff. 4.2 zu vier Zielen ausdifferenziert (Ziel 1 risikoorientierter Ansatz, Ziel 2 Deregulierung, Ziel 3 Vereinfachung, Ziel 4 Vereinheitlichung des Vollzugs, S. 72-86). Kernwirkung für die Praxis: statt der heutigen zweistufigen Struktur Brandschutznorm plus Brandschutzrichtlinien (454 Seiten inkl. Anhänge) soll es künftig nur noch EINE Erlassstufe mit maximal rund 200 Seiten geben, ergänzt durch eine separate «BSV-Erläuterung» (Eckpunkte 18, 21, 22; S. 103, 107, 108).
 
 ## Geltungsbereich
 
@@ -21,7 +22,7 @@ Das Normkonzept ist kein Vorschriftenwerk, sondern das gesetzestechnische Konzep
 - Die neuen BSV sollen per 1. Januar 2026 in Kraft treten (Ziff. 1.2, S. 6). Das vorliegende Dokument gibt den Projektstand 2022 wieder, ist selbst kein geltendes Recht.
 - Geltungsbereich der künftigen BSV: Bau und Betrieb von Bauwerken in der Schweiz, inkl. Anforderungen an Planung, Tragwerke, Bauprodukte, haustechnische Anlagen, Versorgungseinrichtungen und Brandschutzanlagen im Brandfall (Ziff. 5.3.1, S. 113).
 - Auf eine negative Abgrenzung («gelten nicht für») soll verzichtet werden; heikle Schnittstellen wie unterirdische Bahnhöfe oder Seilbahnstationen sind mit den zuständigen Behörden abzusprechen (Ziff. 5.3.1, S. 113).
-- Nicht Thema der Revision: die Vereinheitlichung des Kaminfegerwesens (Anhang V-Bereich, S. 165).
+- Nicht Gegenstand der BSV sind das Kaminfegerwesen, das Feuerwehrwesen (mit Ausnahmen, etwa VKF-BSN 1-15 Art. 44), die Löschwasserversorgung und die Löschwasserrückhaltung (Ziff. 5.3.1, S. 114). Auch die Vereinheitlichung des Kaminfegerwesens ist im Rahmen der BSV 2026 kein Thema (S. 165, am Ende von Anhang V).
 
 ## Kernziffern (mit Fundstelle)
 
@@ -43,11 +44,11 @@ Das Normkonzept ist kein Vorschriftenwerk, sondern das gesetzestechnische Konzep
 **Risiko-Akzeptanzkriterien und Kennwerte (SOLL)**
 
 - **Ziff. 4.2.1 b)** — Sieben vom IOTH am 17.09.2020 genehmigte Schutzziele; zentral: minimales Schutzniveau für alle Bauten, Schutz möglichst vieler Menschenleben mit den volkswirtschaftlich verfügbaren Ressourcen, kosteneffizienter und sozial verträglicher Brandschutz, Orientierung an anderen Lebensbereichen, und für Interventionskräfte gilt dasselbe Schutzziel wie für die übrigen Nutzer (S. 74).
-- **Ziff. 4.2.1 b)** — **Grenzkostenwert**: Basierend auf einer OECD-Metastudie definierte das Bundesamt für Raumentwicklung ARE den Wert eines statistischen Lebens mit CHF 6.7 Mio. (Stand 2019); der Steuerungsausschuss hat den Grenzwert am 21.09.2021 auf **CHF 7.0 Mio.** angepasst und für die Projektdauer eingefroren (S. 75; Abbildung 5, S. 76).
+- **Ziff. 4.2.1 b)** — **Grenzkostenwert**: Basierend auf einer OECD-Metastudie definierte das Bundesamt für Raumentwicklung ARE als Grenzwert CHF 6.7 Mio. (Stand 2019; die als Fussnote 127 verlinkte ARE-Quelle trägt den Titel «value of statistical life»); der Steuerungsausschuss hat den Grenzwert am 21.09.2021 auf **CHF 7.0 Mio.** angepasst und für die Projektdauer eingefroren (S. 75; Abbildung 5, S. 76).
 - **Ziff. 4.2.1 b)** — **Grenzwert roter Bereich (nicht akzeptierte Risiken)**: Startwert für das Nutzerrisiko **5 x 10⁻⁵ pro Nutzer und Jahr** (S. 75).
 - **Ziff. 4.2.1 b)** — Gemäss VKF-Schadenstatistik kamen in den 20 Jahren 2001 bis 2020 zwischen 13 und 36 Personen pro Jahr bei Brandfällen ums Leben, im Mittel 23 Personen (S. 75).
 - **Ziff. 4.2.1 a)** — Die gesamten Bauinvestitionen im Hochbau Schweiz betrugen 2019 rund 50 Mia. CHF; internationale Schätzungen beziffern die Kosten des vorbeugenden Brandschutzes auf **2.5 bis 4 % der Bauinvestitionen**, also jährlich rund **1.25 bis 2 Mia. CHF** (S. 73).
-- **Ziff. 4.2.1 c)** — Auch künftig sollen bei mindestens **90 % der Neubauten** präskriptive Konzepte zur Anwendung kommen; der risikoorientierte Ansatz wirkt dort indirekt, indem die präskriptiven Massnahmen auf einer systematischen Kosten-Nutzen-Analyse beruhen (S. 77).
+- **Ziff. 4.2.1 c)** — Auch künftig sollen bei mindestens **90 % der Neubauten** präskriptive Konzepte zur Anwendung kommen; der risikoorientierte Ansatz wirkt dort indirekt, indem die künftigen präskriptiven Massnahmen auf einer systematischen Risikobewertung (Kosten-Nutzen-Analyse) beruhen sollen (S. 77).
 
 **Eckpunkte zu Form und Struktur (Anhang VIII, S. 167-170)**
 
@@ -63,7 +64,7 @@ Das Normkonzept ist kein Vorschriftenwerk, sondern das gesetzestechnische Konzep
 
 **Übergangsrecht und Bestand**
 
-- **Eckpunkt 36** — Das beim Übergang von BSV 2015 auf BSV 2026 anwendbare Recht wird durch die BSV selbst festgelegt, nicht durch das kantonale Recht; sonst entstünden Ungleichheiten (im Kanton ZH gilt bisheriges Recht für alle noch nicht erstinstanzlich entschiedenen Vorhaben, § 353 PBG ZH; im Kanton BE ist der Zeitpunkt der Einreichung massgebend, Art. 36 Abs. 1 BauG BE) — Ziff. 5.3.3 b), S. 123.
+- **Eckpunkt 36** — Das beim Übergang von BSV 2015 auf BSV 2026 anwendbare Recht wird durch die BSV selbst festgelegt, nicht durch das kantonale Recht; sonst entstünden Ungleichheiten (im Kanton ZH gilt bisheriges Recht für alle noch nicht erstinstanzlich entschiedenen Vorhaben, § 353 PBG ZH; im Kanton BE ist der Zeitpunkt der Einreichung massgebend, Art. 36 Abs. 1 BauG BE) — Ziff. 5.3.3 a), S. 123 (der Eckpunkt steht am Ende des Abschnitts a) «Allgemeines», noch vor Abschnitt b)).
 - **Eckpunkt 37** — Vorgeschlagen ist eine Übergangsregelung, die dem Baugesuchsteller während eines bestimmten Zeitraums die Wahl zwischen der **integralen** Anwendung der BSV 2015 oder der BSV 2026 lässt (S. 125). Ein Mischen von altem und neuem Recht wird als undenkbar bezeichnet, weil die Massnahmen aufeinander abgestimmt sein müssen (S. 123).
 - **Anhang VI (Vorschlag)** — Koexistenzphase bei Stammbaugesuchen: Wahlrecht bei Einreichung innerhalb von **sechs Monaten** nach Inkrafttreten; bei Mieterausbauten innerhalb der ersten **zwei Jahre**; Anpassung des kantonalen Rechts innerhalb von **fünf Jahren**; Einführung der Vollzugsvereinheitlichung bis zum **31. Dezember 2031** (S. 165).
 - **Ziff. 5.3.4** — Besitzstandsgarantie: Schärfere Vorschriften dürfen auf altrechtlich bewilligte Bauten nur angewendet werden, wenn wichtige öffentliche Interessen es verlangen und die Verhältnismässigkeit gewahrt bleibt (BGE 113 Ia 119 E. 2a). Bei neubauähnlichem Umbau erlischt die erweiterte Besitzstandsgarantie (§ 357 Abs. 1 PBG ZH; BEZ 2021 Nr. 27) — S. 125 f.
@@ -81,7 +82,8 @@ Das Normkonzept ist kein Vorschriftenwerk, sondern das gesetzestechnische Konzep
 ## Offene Punkte
 
 - Nicht gelesen: Kap. 2 grösstenteils (Geschichte, S. 11-28), Ziff. 3.1.4/3.1.5 (IOTH-Gesetzgebungsverfahren, S. 35-38), Ziff. 3.2 Abgrenzungen (S. 38-45), Ziff. 3.4.2-3.4.4 Vollzug im Detail (S. 52-61), Ziff. 3.5 Rechtsvergleichung (S. 62-69), Ziff. 4.3 Kundenumfrage (S. 87-89), Ziff. 5.1 (S. 90-96), Ziff. 5.2.1/5.2.2 teilweise, Ziff. 5.3.2 Begriffe (S. 120-122) sowie die Anhänge I bis V (S. 129-164).
-- Der Wortlaut der Eckpunkte 3 und 5 bis 17 ist nur über die Kurzfassung in Anhang VIII (S. 167 f.) erfasst, nicht über die Fundstelle im Fliesstext.
+- Der Wortlaut der Eckpunkte 3 und 5 bis 17 ist nur über die Kurzfassung in Anhang VIII (S. 167-169) erfasst, nicht über die Fundstelle im Fliesstext.
+- **Widerspruch im Original selbst (Datum IOTH-Beschluss):** Der Fliesstext nennt durchgehend den **20. September 2018** (Ziff. 1.1, S. 5: «beauftragte die VKF deshalb am 20. September 2018»; Ziff. 4.1, S. 71: «Das IOTH hat am 20. September 2018 entschieden»; Fussnote 132, S. 77). Die Fussnoten 5 und 6 auf S. 5 verweisen dagegen auf einen «Beschluss des IOTH vom 27. September 2018». Dieses Destillat folgt dem Fliesstext (20.09.2018), weil er dreifach belegt ist; die Abweichung in den Fussnoten ist bei einer verbindlichen Zitierung am Originalbeschluss zu verifizieren.
 - Das im Dokument mehrfach referenzierte **Detailkonzept** (das den risikobasierten Ansatz und das Terminprogramm beschreibt, Eckpunkte 1 und 6) liegt nicht vor und ist nicht Teil dieser PDF.
 - Nicht klärbar aus diesem Dokument: der aktuelle Projektstand 2026. Ob die BSV 2026 tatsächlich per 01.01.2026 in Kraft getreten sind, ob sich die Zahlenwerte (Grenzkostenwert CHF 7.0 Mio., Nutzerrisiko 5 x 10⁻⁵, Umfang 200 Seiten) und die Übergangsfristen im verabschiedeten Erlass so wiederfinden, ist am geltenden Erlass zu verifizieren. Der Ordnername trägt den Vermerk «noch nicht in Kraft».
 - Die im Text erwähnte Abbildung 5 (Grenzwert- und Grenzkostenprinzip, S. 76) trägt eine handschriftlich wirkende Korrekturnotiz «Der Grenzwert beträgt neu Fr. 7.0 Mio.» über der gedruckten Grafikangabe CHF 6.7 Mio. — die Grafik selbst ist damit inhaltlich überholt.

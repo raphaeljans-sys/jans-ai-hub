@@ -472,3 +472,44 @@ Zusätzlich am Original **retro-verifiziert** (established, Stand 260713): SIA 2
 248:2006 (Kunst-/Naturstein-/Plattenarbeiten), SIA 312:2013 (Dachbegrünung), SIA 370.028:2003,
 SIA 462:1994, 465:1998, 469:1997 (Erhaltung/Sicherheit bestehender Bauwerke), SIA 721:2001,
 752:2002, 753:2002 (NVB Bohren/Böden).
+
+## Merkblätter, Wegleitungen und Vertragsvorlagen — Run 16 (260719, MacBook Pro)
+
+Die 31 im Run 15 nachgetragenen Bestände (Merkblatt-Serie 2000er, Wegleitungen/Auslegungen,
+SIA-112-Hilfsmittel, Vertragsvorlagen, VKF-Normkonzept) sind destilliert und adversarial
+verifiziert. **Wichtig für die Ausgaben-Disziplin:** Bei den Merkblättern wich das tatsächliche
+Ausgabejahr auf dem Titelblatt vielfach vom Dateinamen ab — massgebend ist die Spalte «Ausgabe».
+
+| Dokument | Ausgabe (am Titelblatt verifiziert) | Gültigkeit / Vermerk | Destillat |
+|---|---|---|---|
+| Wärmedämmstoffe — Deklarierte Werte der Wärmeleitfähigkei… | SIA Merkblatt 2001, Ausgabe 2005 (Impressum 2005-… | established | `sia-mb-2001-2005.md` |
+| Sanierputze und Sanierputzsysteme | Merkblatt SIA 2003, Revidierte Ausgabe April 1996… | established | `sia-mb-2003.md` |
+| Merkblatt zur Empfehlung SIA 451 «Informatik-Datenformate… | Merkblatt SIA 2004, Ausgabe März 1992 | established | `sia-mb-2004.md` |
+| Durchführung und Interpretation der Potentialmessung an S… | Merkblatt SIA 2006, Ausgabe Februar 1993 (Copyrig… | established | `sia-mb-2006.md` |
+| SIA Merkblatt 2007 — Qualität im Bauwesen. Aufbau und Anw… | SIA Merkblatt 2007, Ausgabe 2001 | established | `sia-mb-2007.md` |
+| Handbuch für Kommunikationsverkabelung — Wegleitung für B… | SIA Merkblatt 2008, Ausgabe April 1994 (identisch… | established | `sia-mb-2008.md` |
+| Merkblatt SIA 2014 — CAD-Layerorganisation | Merkblatt SIA 2014, Ausgabe September 1996 | established | `sia-mb-2014-bestand.md` |
+| GEO405 Daten- und Darstellungskataloge für unterirdische… | Merkblatt SIA 2015 (2005) — genehmigt 26. August… | established | `sia-mb-2015-2005.md` |
+| GEO 405 — Datenmodelle und Datenaustausch für unterirdisc… | SIA Merkblatt 2016, Copyright 2005 by SIA Zurich… | established | `sia-mb-2016-2005.md` |
+| Merkblatt SIA 2017 — Erhaltungswert von Bauwerken | SIA 2017, Ausgabe 2000 (genehmigt 23.02.2000, in… | established | `sia-mb-2017.md` |
+| Merkblatt SIA 2018 — Überprüfung bestehender Gebäude bezü… | SIA 2018, 1. Auflage 2004-10; genehmigt ZNO 26.08… | established | `sia-mb-2018-2004.md` |
+| SIA Merkblatt 2020 — Sicherheitsleistungen des Unternehme… | SIA Merkblatt 2020, Copyright © 2001 by SIA Zuric… | established | `sia-mb-2020-bestand.md` |
+| Merkblatt 2021 — Gebäude mit hohem Glasanteil: Behaglichk… | SIA Merkblatt 2021, Ausgabe 2002 (kein Ausgabever… | established | `sia-mb-2021.md` |
+| Merkblatt SIA 2022 — Oberflächenschutz von Stahlkonstrukt… | SIA 2022, Ausgabe 2003 (2003-07, 1. Auflage; ZNO-… | established | `sia-mb-2022.md` |
+| Merkblatt 2023 — Lüftung in Wohnbauten | SIA Merkblatt 2023, Ausgabe 2004-06, 1. Auflage (… | established | `sia-mb-2023-2004.md` |
+| Merkblatt SIA 2024 — Standard-Nutzungsbedingungen für die… | SIA 2024:2006 (Ausgabe 2006, 1. Auflage 2006-08;… | established | `sia-mb-2024-2006.md` |
+| Merkblatt SIA 2026 — Effizienter Einsatz von Trinkwasser… | SIA Merkblatt 2026, Ausgabe 2006 (1. Auflage 2006… | established | `sia-mb-2026-2006.md` |
+| Bauweisenspezifische Zuordnungen von Leistungen der Bauin… | SIA Merkblatt 2027, Ausgabe 2006 (Deckblatt "Ausg… | established | `sia-mb-2027-2006.md` |
+| Merkblatt SIA 2023 «Lüftung in Wohnbauten» | SIA 2023, 1. Auflage 2004-06 (Copyright © 2004 by… | established | `sia-2023-begleitdokument.md` |
+| Wegleitung zur Norm SIA 271 — Abdichtungen von Hochbauten | unbekannt (kein Ausgabevermerk im PDF) | **nur 2-Seiten-Auszug** im Bestand — Volltext Bring-Schuld | `sia-271-wegleitung.md` |
+| Geländer und Brüstungen an historischen Bauten | Schweizer Ingenieur und Architekt (SI+A), Nr. 38,… | established | `sia-358-fachartikel.md` |
+| Hindernisfreie Bauten — Auslegungen zur Norm SIA 500:2009 | Auslegungsdokument der Arbeitsgruppe SIA 500, Sta… | established | `sia-500-auslegung.md` |
+| Postversand von Beiträgen von Wettbewerben und Studienauf… | SIA 142i-301d, 3. Revision Juni 2015 (Publikation… | established | `sia-142i-301-postversand-2015.md` |
+| Befangenheit und Ausstandsgründe bei Mitgliedern des Prei… | Wegleitung, August 2004 (keine SIA-Dokumentnummer… | established | `sia-142-befangenheit.md` |
+| Kein Titel auf dem Dokument. Das Blatt zeigt eine unbetit… | unbekannt (kein Ausgabevermerk im PDF; Fusszeile… | **speculative** — Ausgabe/Umfang am PDF nicht feststellbar | `sia-112-bereichs-phasenmatrix.md` |
+| Phasen des SIA-Leistungsmodells | unbekannt (kein Ausgabevermerk, kein Datum im PDF) | **speculative** — Ausgabe/Umfang am PDF nicht feststellbar | `sia-112-leistungsmodell.md` |
+| kein Titel im Dokument — Deckblatt fehlt; Arbeitstitel au… | unbekannt (kein Ausgabevermerk im PDF) | **speculative** — Ausgabe/Umfang am PDF nicht feststellbar | `sia-112-tabelle-infrastruktur.md` |
+| kein Titel/Deckblatt im PDF — einseitiges Dokument, das m… | unbekannt (kein Ausgabevermerk im PDF; Datum 2305… | **speculative** — Ausgabe/Umfang am PDF nicht feststellbar | `sia-vertragsunterschiede-2023.md` |
+| SIA-Einzelarbeitsvertrag, Nr. 1031, 2007 | SIA 1031, Nr. 1031 / 2007 (Formular von der Direk… | established | `sia-1031-einzelarbeitsvertrag.md` |
+| Einzelarbeitsvertrag für Praktikantinnen und Praktikanten | unbekannt (kein Ausgabevermerk im PDF; PDF-Erstel… | established | `sia-praktikantenvertrag.md` |
+| Normkonzept BSV 2026 | Normkonzept BSV 2026, Stand 06.10.2022 (Projektdo… | **NICHT in Kraft** (Projektstand) — nie als geltendes Recht zitieren | `vkf-normkonzept-bsv-2026-entwurf.md` |

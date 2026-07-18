@@ -452,9 +452,9 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 | [x] 260717 | P1 | `SIA_Vertraege/SIA1001.11_BIM_Zusatzvereinbarung_BIM/1001-11-K_2018_d.pdf` | 1001/11-K | 2018 | BIM-Zusatzvereinbarung (Kommentar); Volltext 12 S.; established, verifiziert 260717 (11 Aussagen, 5 Beanstandungen korrigiert — u.a. Datenrechte, Kann-Formulierungen); sia-1001-11-2018.md |
 | [x] 260717 | P1 | `SIA_Vertraege/SIA1023_Werkvertrag/e1023_2013_d.pdf` | 1023 | 2013 | Werkvertrags-Formular (Bezug SIA 118); Volltext 5 S.; established, verifiziert 260717 (9 Aussagen, 6 Beanstandungen korrigiert — Formular ist grösstenteils Leerfeld, SIA-118-Inhalte waren unbelegt hineingelesen); sia-1023-2013.md |
 | [x] 260717 | P1 | `SIA_Vertraege/Honorarberechnung/Honorarempf_SIA2009_d.pdf` + `SIA_Vertraege/Honorarberechnung/z-werte 2015.pdf` | — | 2009/2015 | Honorar-Hilfsmittel in EIN Destillat gefasst; **wichtiger Befund: Honorarempfehlung 2009 ist keine SIA-Publikation, sondern eine KBOB-Empfehlung** (Fusszeile S. 2-6); established, verifiziert 260717 (13 Aussagen, 5 Beanstandungen korrigiert); sia-honorar-hilfsmittel.md |
-| [ ] | P2 | `SIA_Vertraege/00_Vertag_Knowhow/230529_Vertragsunterschiede.pdf` | — | 2023 | Knowhow-Papier Vertragsunterschiede — noch nicht destilliert |
-| [ ] | P3 | `SIA_Vertraege/SIA2031_Einzelarbeitsvertrag/Vorlage_1031_d.pdf` | 1031 | — | Einzelarbeitsvertrag (Arbeitsrecht, keine Baunorm) — tiefe Priorität |
-| [ ] | P3 | `SIA_Vertraege/SIA2100_Vertrag_Praktikant_DE.pdf/Vertrag_Praktikant_DE.pdf` | — | — | Praktikantenvertrag (Arbeitsrecht, keine Baunorm) — tiefe Priorität |
+| [x] 260719 | P2 | `SIA_Vertraege/00_Vertag_Knowhow/230529_Vertragsunterschiede.pdf` | — | 2023 | Run 16 260719: sia-vertragsunterschiede-2023.md (speculative); verifiziert beanstandet, 10 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Vertraege/SIA2031_Einzelarbeitsvertrag/Vorlage_1031_d.pdf` | 1031 | 2007 | Run 16 260719: sia-1031-einzelarbeitsvertrag.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Vertraege/SIA2100_Vertrag_Praktikant_DE.pdf/Vertrag_Praktikant_DE.pdf` | — | 2023 | Run 16 260719: sia-praktikantenvertrag.md (established); verifiziert beanstandet, 13 Aussagen, 4 Befund(e) korrigiert |
 | — | — | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/SIA1002_2001_VfAL_scan.PDF` | 1002 | 2001 | Archiv, ersetzt durch SIA 1001/1:2020 — übersprungen |
 | — | — | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/SIA1002_2003_VfAL.pdf` | 1002 | 2003 | Archiv, ersetzt durch SIA 1001/1:2020 — übersprungen |
 | — | — | `SIA_Vertraege/SIA1001.1_2020_Planer_Bauleitervertrag/_Archiv/SIA1002_2003_VfAL_Vorlage.pdf` | 1002 | 2003 | Archiv-Vorlage, ersetzt durch SIA 1001/1:2020 — übersprungen |
@@ -465,9 +465,9 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 |---|---|---|---|---|---|
 | [~] 260717 | P1 | `SIA_Normen/SIA 380_1_2016/i380-1_2016_d.pdf` | 380/1 | 2016 | **Heizwärmebedarf — zentrale Energienachweis-Norm; im Bestand NUR hier (in `alle/` nur f/i-Sprachvarianten und die alte Ausgabe 2001 unter `xalt/`). PDF ist Vorschau/Auszug: 6 von 60 Normseiten, der gesamte normative Teil S. 5-58 fehlt → KEINE Q_H-Grenzwerte, KEINE U-Werte, KEINE Gebäudekategorien.** struktur-destillat (Auszug), status `speculative`, adversarial verifiziert 260717 (Run 15); **Bring-Schuld P1: Volltext beschaffen** (SIA-Abo/Kauf) — erst dann `established`. FALLE: `alle/xalt/neu/380_1_d_2001.pdf` ist Volltext, aber zweifach überholt (2001→2009→2016) und darf NICHT als Ersatz dienen. sia-380-1-2016.md; Nutzer: Agent `energie-berater`, Skill `planungsgrundlagen` |
 | [x] 260717 | P2 | `i385-1_2011_d.pdf` (Wurzel `SIA_Norm/`) | 385/1 | 2011 | Anlagen für Trinkwarmwasser (nicht «Trinkwasser»); ersetzt SIA 385/3:1991; im Bestand nur hier (in `alle/` nur f-Variante). **PDF ist Vorschau/Auszug: 6 von 28 Normseiten, normativer Teil S. 5-26 fehlt → keine Grenzwerte (Legionellen/Ausstosszeit/Speicher/Daemmung).** struktur-destillat (Auszug), verifiziert 260717 (Run 15); Bring-Schuld P1: Volltext beschaffen; sia-385-1-2011.md |
-| [ ] | P2 | `SIA_Normen/SIA 112/Bereichs_Phasenmatrix.pdf` | 112 | — | Hilfsmittel zu SIA 112 (Bereichs-/Phasenmatrix) — noch nicht destilliert |
-| [ ] | P2 | `SIA_Normen/SIA 112/SIA_Leistungsmodell.pdf` | 112 | — | Hilfsmittel Leistungsmodell — noch nicht destilliert |
-| [ ] | P3 | `SIA_Normen/SIA 112/tabelle_infrastruktur.xls.pdf` | 112 | — | Tabelle Infrastruktur (PDF-Druck einer XLS) — noch nicht destilliert |
+| [x] 260719 | P2 | `SIA_Normen/SIA 112/Bereichs_Phasenmatrix.pdf` | 112 | 2007 | Run 16 260719: sia-112-bereichs-phasenmatrix.md (speculative); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Normen/SIA 112/SIA_Leistungsmodell.pdf` | 112 | — | Run 16 260719: sia-112-leistungsmodell.md (speculative); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Normen/SIA 112/tabelle_infrastruktur.xls.pdf` | 112 | — | Run 16 260719: sia-112-tabelle-infrastruktur.md (speculative); verifiziert bestanden, 12 Aussagen, 0 Befund(e) korrigiert |
 | — | — | `SIA_Normen/SIA 282/SIA282.pdf` | 282 | — | Duplikat zu `alle/564_282.pdf` (destilliert 260713, sia-564-282.md) — übersprungen |
 | — | — | `SIA_Normen/SIA 102/SIA_102_2020.pdf` | 102 | 2020 | Duplikat zu `alle/102.2020.pdf` (destilliert 260714) — übersprungen |
 | — | — | `SIA_Normen/SIA 102/SIA_102_2014.pdf` | 102 | 2014 | Duplikat zu `alle/102_2014.pdf` (destilliert 260714) — übersprungen |
@@ -478,31 +478,31 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2001_2005_d.pdf` | 2001 | 2005 | SIA-Merkblatt-Serie 2000er — Titel am Original zu verifizieren |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2003_d.pdf` | 2003 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2004_d.pdf` | 2004 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2006_d.pdf` | 2006 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2007_d.pdf` | 2007 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2008_d.pdf` | 2008 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2014_d.pdf` | 2014 | — | SIA-Merkblatt (Abgleich mit `alle/`-Destillat sia-2014-2017.md nötig — evtl. ältere Ausgabe) |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2015_2005_d.pdf` | 2015 | 2005 | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2016_2005_d.pdf` | 2016 | 2005 | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2017_d.pdf` | 2017 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2018_2004_d.pdf` | 2018 | 2004 | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2020_d.pdf` | 2020 | — | SIA-Merkblatt (Abgleich mit sia-2020-2017.md nötig) |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2021_d.pdf` | 2021 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2022_d.pdf` | 2022 | — | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2023_2004_d.pdf` | 2023 | 2004 | SIA-Merkblatt (Wohnungslüftung) |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf` | 2024 | 2006 | SIA-Merkblatt (Standard-Nutzungsbedingungen — hohe Relevanz für `kostenschaetzung`/Energie) |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2026_2006_d.pdf` | 2026 | 2006 | SIA-Merkblatt |
-| [ ] | P2 | `SIA_Merkblaetter/MERKBLAETTER/2027_2006_d.pdf` | 2027 | 2006 | SIA-Merkblatt |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2001_2005_d.pdf` | 2001 | 2005 | Run 16 260719: sia-mb-2001-2005.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2003_d.pdf` | 2003 | 2003 | Run 16 260719: sia-mb-2003.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2004_d.pdf` | 2004 | 2004 | Run 16 260719: sia-mb-2004.md (established); verifiziert bestanden, 12 Aussagen, 1 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2006_d.pdf` | 2006 | 2006 | Run 16 260719: sia-mb-2006.md (established); verifiziert beanstandet, 12 Aussagen, 4 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2007_d.pdf` | 2007 | 2007 | Run 16 260719: sia-mb-2007.md (established); verifiziert beanstandet, 13 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2008_d.pdf` | 2008 | 2008 | Run 16 260719: sia-mb-2008.md (established); verifiziert beanstandet, 13 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2014_d.pdf` | 2014 | 2014 | Run 16 260719: sia-mb-2014-bestand.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2015_2005_d.pdf` | 2015 | 2005 | Run 16 260719: sia-mb-2015-2005.md (established); verifiziert beanstandet, 12 Aussagen, 1 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2016_2005_d.pdf` | 2016 | 2005 | Run 16 260719: sia-mb-2016-2005.md (established); verifiziert beanstandet, 13 Aussagen, 4 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2017_d.pdf` | 2017 | 2017 | Run 16 260719: sia-mb-2017.md (established); verifiziert bestanden, 12 Aussagen, 0 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2018_2004_d.pdf` | 2018 | 2004 | Run 16 260719: sia-mb-2018-2004.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2020_d.pdf` | 2020 | 2020 | Run 16 260719: sia-mb-2020-bestand.md (established); verifiziert beanstandet, 12 Aussagen, 1 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2021_d.pdf` | 2021 | 2021 | Run 16 260719: sia-mb-2021.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2022_d.pdf` | 2022 | 2022 | Run 16 260719: sia-mb-2022.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2023_2004_d.pdf` | 2023 | 2004 | Run 16 260719: sia-mb-2023-2004.md (established); verifiziert beanstandet, 12 Aussagen, 1 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf` | 2024 | 2006 | Run 16 260719: sia-mb-2024-2006.md (established); verifiziert beanstandet, 15 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2026_2006_d.pdf` | 2026 | 2006 | Run 16 260719: sia-mb-2026-2006.md (established); verifiziert bestanden, 13 Aussagen, 0 Befund(e) korrigiert |
+| [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2027_2006_d.pdf` | 2027 | 2006 | Run 16 260719: sia-mb-2027-2006.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
 | — | — | `SIA_Merkblaetter/MERKBLAETTER/2007_e.pdf` | 2007 | — | Sprachvariante (englisch) — nicht destillieren |
-| [ ] | P3 | `SIA_Merkblaetter/SIA2023_Wohnungslüftung.pdf` | 2023 | — | Begleit-/Auszugsdokument zu SIA 2023 |
-| [ ] | P3 | `SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf` | 271 | — | Wegleitung zu SIA 271 (Destillat sia-271-2007.md vorhanden) |
-| [ ] | P3 | `SIA_Merkblaetter/SIA358_Artikel Geländer.pdf` | 358 | — | Fachartikel zu SIA 358 (Destillat sia-358-2010.md vorhanden) |
-| [ ] | P3 | `SIA_Merkblaetter/SIA500_Auslegung.pdf` | 500 | — | Auslegung zu SIA 500 (Hindernisfreies Bauen; Destillat sia-500-2009.md vorhanden) |
-| [ ] | P3 | `SIA_Merkblaetter/sia_142i-301d_Postversand_2015.pdf` | 142i | 2015 | Wettbewerbswesen, Postversand-Merkblatt |
-| [ ] | P3 | `SIA_Merkblaetter/wettbewerb_befangenheit.pdf` | 142 | — | Befangenheit im Wettbewerb — Relevanz für Skill `wettbewerb` |
+| [x] 260719 | P3 | `SIA_Merkblaetter/SIA2023_Wohnungslüftung.pdf` | 2023 | 2023 | Run 16 260719: sia-2023-begleitdokument.md (established); verifiziert beanstandet, 12 Aussagen, 1 Befund(e) korrigiert |
+| [~] 260719 | P3 | `SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf` | 271 | — | Run 16 260719: sia-271-wegleitung.md (speculative); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Merkblaetter/SIA358_Artikel Geländer.pdf` | 358 | 1999 | Run 16 260719: sia-358-fachartikel.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Merkblaetter/SIA500_Auslegung.pdf` | 500 | 2012 | Run 16 260719: sia-500-auslegung.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Merkblaetter/sia_142i-301d_Postversand_2015.pdf` | 142i | 2015 | Run 16 260719: sia-142i-301-postversand-2015.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [x] 260719 | P3 | `SIA_Merkblaetter/wettbewerb_befangenheit.pdf` | 142 | 2004 | Run 16 260719: sia-142-befangenheit.md (established); verifiziert beanstandet, 14 Aussagen, 3 Befund(e) korrigiert |
 
 ### Abonnement/Administration (nicht normativ — übersprungen)
 
@@ -579,7 +579,7 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 | — | — | `_LINK.docx` |  |  | keine Norm, Verweis-/Linkdatei — übersprungen |
 | — | — | `z_Administration/000_VKF_Bestellung_Norm_2015.pdf` | 000 | 2015 | keine Norm, Bestellformular — übersprungen |
 | — | — | `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` | 000 | 2015 | keine Norm, Lieferschein — übersprungen |
-| [ ] | P2 | `07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf` | — | 2022 | **Nachtrag 260717 (Run 15): im Scan 11.07.2026 nicht erfasst.** Normkonzept BSV 2026, Stand 06.10.2022 — noch NICHT in Kraft, daher nie als geltendes Recht zitieren. Strategisch relevant (Vorschau auf die Ablösung der BSV 2015): destillieren mit klarem Status-Vermerk `zukuenftig/nicht in Kraft` |
+| [x] 260719 | P2 | `07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf` | — | 2022 | Run 16 260719: vkf-normkonzept-bsv-2026-entwurf.md (established); verifiziert beanstandet, 13 Aussagen, 6 Befund(e) korrigiert |
 
 ## DIN (72 Dateien)
 

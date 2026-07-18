@@ -542,3 +542,35 @@ abgehakt**:
   erwiesen — dort war die Grundmenge unvollstaendig, nicht die Abarbeitung. Vor einer endgueltigen
   Stilllegung sollten die zwei Punkte oben geklaert sein. Der Loop ist deaktiviert, nicht geloescht —
   Reaktivierung ist ein Klick.
+
+### Run 16 (MacBook Pro, 260719) — offene Punkte aus den Merkblatt-/Wegleitungs-Destillaten
+
+**Bring-Schulden (Bestand unvollständig, nicht durch Destillieren lösbar):**
+
+- [ ] **Wegleitung zu SIA 271 (Abdichtungen) liegt nur als 2-Seiten-Auszug vor.** Das PDF enthält
+  ausschliesslich Deckblatt und Buchseite 64 (Ziff. 5.10.3-5.10.5). Destillat `sia-271-wegleitung.md`
+  ist deshalb `speculative` und im Inventar als `[~]` teil-destilliert geführt. Volltext beschaffen.
+- [ ] **Gültigkeitsstand der Merkblatt-Serie 2000er ist ungeklärt.** SIA-Merkblätter sind laut
+  eigenem Vorspann nur **drei Jahre gültig**, verlängerbar um je drei Jahre. Bei praktisch allen
+  destillierten Merkblättern (2001:2005, 2003:1996, 2004:1992, 2006, 2007, 2008, 2015:2005,
+  2016:2005, 2017:2000, 2018:2004, 2022, 2026:2006, 2027:2006) geht aus dem PDF NICHT hervor, ob
+  sie verlängert, abgelöst oder zurückgezogen wurden. **Konsequenz für die Fach-Skills:** Vor jeder
+  Fundstelle aus einem 2000er-Merkblatt in einem ausgehenden JANS-Dokument ist der aktuelle
+  Gültigkeitsstand am SIA-Normenregister zu prüfen — die Destillate belegen den Inhalt, nicht die
+  heutige Geltung.
+- [ ] **`SIA_Leistungsmodell.pdf` ist gar kein SIA-Dokument.** Der Verifier hat festgestellt: es ist
+  ein Merkblatt der **KUNDERT PLANER AG** zur SIA-Ordnung, nicht eine SIA-Publikation. Das Inventar
+  führte es als «Hilfsmittel Leistungsmodell». Als Sekundärquelle behandeln, nie als Norm zitieren.
+- [ ] **Nachfolgeausgaben nicht ermittelbar.** Für SIA 2001 (Wärmedämmstoff-Kennwerte, Nennwerte
+  befristet bis 31.12.2006) und SIA 2024 (Standard-Nutzungsbedingungen, Revision 2021 bekannt) ist
+  der Bestand veraltet. SIA 2024 ist über die KB `energie` bereits teilweise erschlossen
+  (Grundlagenbericht Revision 2021 + Korrigenda C1:2024, siehe CHANGELOG 2026-07-19 Wissens-Chef Run 9).
+
+**Systematische Lehre aus der Verifikation (für kommende Läufe):**
+
+- [ ] **Häufigster Fehlertyp ist die modale Überdehnung** (23 von 73 Befunden): Der Destillier-Agent
+  macht aus «kann», «sollte», «hat sich als zweckmässig erwiesen» ein «muss»/«ist zwingend». Genau
+  dieser Fehler ist für JANS am gefährlichsten, weil eine als verbindlich zitierte Empfehlung in LV,
+  Werkvertrag oder Behördenkorrespondenz nicht haltbar ist. Die Destillier-Prompts künftiger Läufe
+  sollten die Modalität ausdrücklich als Prüfpunkt führen: Kann-/Soll-/Muss-Bestimmung wörtlich am
+  Original abgleichen und im Destillat kenntlich machen.

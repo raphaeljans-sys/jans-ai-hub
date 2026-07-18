@@ -1,3 +1,31 @@
+## 2026-07-19 — Normen Run 16 (MacBook Pro): SIA/VKF-Nachtrag komplett — 0 offene Positionen
+- **31 von 31 offenen SIA/VKF-Positionen destilliert + adversarial verifiziert.** Abgearbeitet
+  wurden die im Run 15 (17.07.) nachgetragenen Bestaende: 18 Merkblaetter der 2000er-Serie,
+  6 Wegleitungen/Auslegungen/Wettbewerbsdokumente, 3 SIA-112-Hilfsmittel, 3 Vertragsvorlagen,
+  1 VKF-Normkonzept BSV 2026 (Projektstand, NICHT in Kraft). Inventar SIA/VKF danach 0 offene `[ ]`.
+- **Verifikation:** 381 Aussagen am Original-PDF gegengeprueft, 73 Befunde, 72 korrigiert;
+  4 Destillate ohne Befund. Workflow mit 62 Agenten (31 Destillier + 31 Refuter), 0 Ausfaelle.
+- **Haeufigster Fehlertyp: modale Ueberdehnung (23 Befunde)** — «kann/sollte» im Original wurde
+  im Destillat zu «muss/zwingend». Fuer JANS der gefaehrlichste Typ, weil eine als verbindlich
+  zitierte Empfehlung in LV/Werkvertrag/Behoerdenkorrespondenz nicht haltbar ist. Als Lehre in
+  `wiki/QUESTIONS.md` festgehalten: kuenftige Destillier-Prompts muessen die Modalitaet
+  ausdruecklich am Original abgleichen.
+- **Ausgabejahre korrigiert:** Die Zahl im Dateinamen der Merkblatt-Serie ist die Merkblatt-NUMMER,
+  nicht das Jahr. `2004_d.pdf` ist Ausgabe Maerz 1992, `2003_d.pdf` revidierte Ausgabe April 1996,
+  `2017_d.pdf` Ausgabe 2000. Massgebend ist neu die am Titelblatt verifizierte Ausgabe.
+- **Fehletikettierung aufgedeckt:** `SIA 112/SIA_Leistungsmodell.pdf` ist kein SIA-Dokument,
+  sondern ein Merkblatt der KUNDERT PLANER AG — als Sekundaerquelle behandeln, nie als Norm zitieren.
+- **5 Destillate bewusst `speculative`** (Einseiter/Auszuege ohne Ausgabevermerk, kein Jahrgang
+  erfunden); `sia-271-wegleitung` als `[~]` teil-destilliert (nur 2-Seiten-Auszug im Bestand).
+- **Neue Bring-Schuld:** Gueltigkeitsstand der ganzen 2000er-Merkblatt-Serie ungeklaert
+  (SIA-Merkblaetter gelten nur 3 Jahre, verlaengerbar) — die Destillate belegen den Inhalt,
+  nicht die heutige Geltung.
+- **Empfehlung:** Endbedingung des PROGRAMM.md ist fuer SIA/VKF erreicht (Grunddestillation +
+  alle vier Vertiefungsstufen). Task `normen-training-nacht` pausieren oder auf Datei-Aenderungs-
+  Trigger umstellen. Zudem: der Auftragstext des Tasks schreibt weiterhin VOLLGAS-ENDLOS vor,
+  obwohl Rule 260714 das aufgehoben hat (STOP-Dateien gesetzt) — Task-Definition nachziehen.
+- Register nachgefuehrt: `training/norm-inventar.md`, `destillate/INDEX.md`, `wiki/REGISTER.md`
+  (neuer Abschnitt Run 16), `wiki/QUESTIONS.md`. Report `outputs/2026-07-19_normen-nacht-run16.md`.
 
 ## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): SIA-2024-Bring-Schuld verengt, SIA 279 als Fuehrungsquelle bestaetigt
 - **REGISTER-Zeile SIA 2024 ergaenzt:** Die Bring-Schuld stand unveraendert als «kostenpflichtiger
